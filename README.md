@@ -8,7 +8,7 @@ Kiwi所有剩下的工作
 
 Sky_Cat任务书汉化
 
-huajijam校对GregTech.lang
+huajijam校对GregTech.lang、汉化GT++mod
 
 
 以及老版本翻译主要贡献者
