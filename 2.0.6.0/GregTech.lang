@@ -1,4 +1,4 @@
-# Configuration file
+﻿# Configuration file
 
 enablelangfile {
     B:UseThisFileAsLanguageFile=true
@@ -6426,7 +6426,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_799_Index_3=[19] 辣鸡转化为废料
     S:TileEntity_DESCRIPTION_799_Index_4=[20] 辣鸡转化为UU-A
     S:TileEntity_DESCRIPTION_799_Index_5=[21] 废料转化为UU-A
-    S:TileEntity_DESCRIPTION_799_Index_6=[22] 生产UU-M(2.0.4.9版本实测貌似放啥电路板都是出UU-M)
+    S:TileEntity_DESCRIPTION_799_Index_6=[22] 生产UU-M
     S:TileEntity_DESCRIPTION_799_Index_7=大小(宽x高x长)：5x4x5，控制器方块(底层侧中)
     S:TileEntity_DESCRIPTION_799_Index_8=3x1x3的质量发生线圈(底层中央)
     S:TileEntity_DESCRIPTION_799_Index_9=9x质量发生线圈(底层中央的3x1x3区域)
@@ -6523,7 +6523,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_828_Index_7=回旋加速器线圈周围放置回旋加速器机械方块
     S:TileEntity_DESCRIPTION_828_Index_8=1-16x输入仓
     S:TileEntity_DESCRIPTION_828_Index_9=1-16x输入总线
-    S:TileEntity_DESCRIPTION_829_Index_0=珠海渔场的控制器方块(当前版本(2.0.5.1)这个多方块判定非常诡异，诸位搭建时请保持冷静)
+    S:TileEntity_DESCRIPTION_829_Index_0=珠海渔场的控制器方块(已被代码禁用)
     S:TileEntity_DESCRIPTION_829_Index_1=大小(宽x高x长): 9x3x9 (上侧开放)
     S:TileEntity_DESCRIPTION_829_Index_10=1x输出总线 (任意机械方块)
     S:TileEntity_DESCRIPTION_829_Index_11=1x输入总线 (任意机械方块)
@@ -6771,10 +6771,10 @@ languagefile {
     S:TileEntity_DESCRIPTION_876_Index_17=1x能源仓
     S:TileEntity_DESCRIPTION_876_Index_18=仓室和总线可以置于任意位置
     S:TileEntity_DESCRIPTION_876_Index_19=剩余方块为自动合成框架
-    S:TileEntity_DESCRIPTION_876_Index_2=这个机器可以用来合成、装配、拆解物品或组装电路
+    S:TileEntity_DESCRIPTION_876_Index_2=这个机器可以用来合成、装配、拆解物品
     S:TileEntity_DESCRIPTION_876_Index_20=--------------------------------------
     S:TileEntity_DESCRIPTION_876_Index_21=每秒造成500污染
-    S:TileEntity_DESCRIPTION_876_Index_22=机器类型: §e组装机, 拆解机, 电路组装机, 自动合成机§r
+    S:TileEntity_DESCRIPTION_876_Index_22=机器类型: §e组装机, 拆解机, 自动合成机§r
     S:TileEntity_DESCRIPTION_876_Index_23=添加者: §2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_876_Index_3=比同电压下的单方块机器快200%
     S:TileEntity_DESCRIPTION_876_Index_4=每提升一个电压等级，每次运行可以多处理2个物品
