@@ -110,7 +110,7 @@ tile.blockNetherRune.9.name=符文黑曜石(炽海)
 tile.blockNetherRune.10.name=符文黑曜石(晶体)
 tile.blockNetherRune.11.name=符文黑曜石(光明)
 tile.blockNetherRune.12.name=符文黑曜石(灵魂)
-tile.blockNetherRune.13.name=符文黑曜石 (砂砾)
+tile.blockNetherRune.13.name=符文黑曜石(砂砾)
 tile.blockNetherRuneMob.0.name=符文黑曜石(僵尸)
 tile.blockNetherRuneMob.1.name=符文黑曜石(烈焰人)
 tile.blockNetherRuneMob.2.name=符文黑曜石(恶魂)
@@ -178,7 +178,7 @@ Automagy.research_page.REDSTONETHEORY.5=尽管计时十分精确但只能以5秒
 Automagy.research_name.MAGICHOURGLASS=魔法沙漏
 Automagy.research_text.MAGICHOURGLASS=用魔法来计时
 Automagy.research_page.MAGICHOURGLASS.1=你所设计的沙漏在信号延时和红石脉冲的产生上来说很实用,但它还缺些什么比如重复工作的能力.并且有时候你需要它在被激活时从零开始计时,但对普通沙漏而言这显然是不可能的,因为它们会用一端的沙子继续计时.<BR>为了弥补这些缺陷,你用魔法赋予了沙漏反复倒置和将沙子瞬间移回上端(重新计时)的能力.如果你有意,它亦可将沙子移至底端,提前结束计时而不从沙漏输出信号
-Automagy.research_page.MAGICHOURGLASS.2=(亦会根据设置停止循环).<BR>此外,还有多种不同的信号模式.§l脉冲§r模式是标准的.§l持续§r模式意味着在沙子下落时沙漏会一直输出信号.§l交替模式§r与其类似但只会在50%的情况下输出信号.§l反脉冲§r模式类似于持续模式,不过在沙漏倒置的时候会有短暂的间隔不输出信号(如果设置了循环的话). §l禁用§r意味着不会输出任何信号.<BR>沙漏收到信号的反应(除了左右面以外的任意一侧)也能改变.默认情况下,沙漏每次收到信号时都会颠倒.
+Automagy.research_page.MAGICHOURGLASS.2=(亦会根据设置停止循环).<BR>此外,还有多种不同的信号模式.§l脉冲§r模式是标准的.§l持续§r模式意味着在沙子下落时沙漏会一直输出信号.§l交替模式§r与其类似但只会在50%的情况下输出信号.§l反脉冲§r模式类似于持续模式,不过在沙漏倒置的时候会有短暂的间隔不输出信号(如果设置了循环的话).§l禁用§r意味着不会输出任何信号.<BR>沙漏收到信号的反应(除了左右面以外的任意一侧)也能改变.默认情况下,沙漏每次收到信号时都会颠倒.
 Automagy.research_page.MAGICHOURGLASS.3=另外的选项就是让它仅在有信号或无信号时运行.它也能设置为完全无视红石信号.<BR>最后,相比之前,现在你可以每次调节5单位的时间并且它的最长计时也比红石沙漏要长.你需要用法杖来这么做(右击);因为这可不是插根棍子就能调整的机械装置.
 
 Automagy.research_name.REDCRYSTAL=红晶
@@ -236,7 +236,7 @@ Automagy.research_page.THIRSTYTANK_GLYPH.3=,每次抽取一桶的量.<BR>§l节�
 Automagy.research_name.THIRSTYTANK_GLYPH_BOVINE=符石:汲奶
 Automagy.research_text.THIRSTYTANK_GLYPH_BOVINE=这里可没有公牛
 Automagy.research_page.THIRSTYTANK_GLYPH_BOVINE.1=对于生物检测方面的进步让你创造出了一种新符石:汲奶符石.装有该符石的渴饮储罐不会吸取附近流动的液体.而会沿着符石朝向的那一面搜寻可以取奶的奶牛.<BR>尽管搜寻奶牛的速度可以通过§l狂饮符石§r来提升,真正的限制因素在于:不能在短时间内从同一头牛那儿取奶.
-# No, seriously. There are no bulls. What's up with that?
+# No,seriously. There are no bulls. What's up with that?
 
 Automagy.research_name.AVARICIOUS=贪婪之物
 Automagy.research_text.AVARICIOUS=为了乐趣和利益
@@ -274,7 +274,7 @@ Automagy.research_page.VISREADER.1=测量容器内的空区是个简单活儿,�
 Automagy.research_page.VISREADER.2=比较器就会终止其原本的功能,成为向读取器传递要素信息的媒介.<BR>用你的法杖右击要素读取器就能打开设置界面.<BR>§l§n设置§r<BR>要素读取器输出的信号强度由它的设置和检测的要素决定.信号强度的标准类似比较器的容器检测:容器已满时强度15,空时强度0,其余的在之间变化.你可以放入§l罐子标签§r来过滤要素类型.<BR>§l反转模式:§r 空时输出满强度信号
 Automagy.research_page.VISREADER.3=而满时不输出信号,其余的状态则与默认的相反.<BR>§l总计模式:§r 所有要素的计数总量与容量相比.<BR>§l任意(高)模式:§r 计数量最大的要素量与容量相比.若是§l节点§r,详见下一页.<BR>§l任意(低)模式:§r 计数量最小的要素量与容量相比.若是§l节点§r,详见下一页.<BR>§l容量:§r 计为满信号强度的那个值.如果设为§l自动§r,要素读取器就会根据所检测的对象自动
 Automagy.research_page.VISREADER.4=选择容量(若可行的话).<BR>§l节点:§r 读取对象为节点时,容量设为§l自动§r,模式选择为§l任意§r时,容量就会由特定要素的最大检测值而不是所有要素的来决定.用于对比的要素就是相对于自身容量最少或最多的那种,而不是某刻要素量最多或最少的.(因此如果模式为§l任意(高)§r,某种要素占满50%,为10单位要素中的5单位,那么就会比40单位要素中10单位即25%占满的那种更优先,即使后者有更多的要素量.)
-Automagy.research_page.VISREADER.5=§l           §n节点§r<BR>当读取的目标是节点时,容量为§l自动§r,以及§l任意§r选定模式,之后的容量则为某个指定要素检测的最大值,而不是所有要素的最大值之和.而指定的要素则为相对自身容量最满或最少的那一种,而不是当前含量最高或最低的那一种.<BR>(因此如果模式为§l任意 (高)§r,某种要素含量5vis,占50%,最大容量10vis,就会优先于另一种含量10vis,占25%,容量40vis的,尽管后者的要素含量更高.)
+Automagy.research_page.VISREADER.5=§l           §n节点§r<BR>当读取的目标是节点时,容量为§l自动§r,以及§l任意§r选定模式,之后的容量则为某个指定要素检测的最大值,而不是所有要素的最大值之和.而指定的要素则为相对自身容量最满或最少的那一种,而不是当前含量最高或最低的那一种.<BR>(因此如果模式为§l任意(高)§r,某种要素含量5vis,占50%,最大容量10vis,就会优先于另一种含量10vis,占25%,容量40vis的,尽管后者的要素含量更高.)
 Automagy.research_page.VISREADER.INFUSION=§l          §n注魔§r<BR>你发现要素读取器不仅能测量对象中要素的存量,还能在某个设备运行时算出其缺乏的要素量.至少,这个应该能用在注魔祭坛中.<BR>它可以根据注魔是否进行以及进行的状态来输出红石信号.
 Automagy.research_page.VISREADER.ESSENTIALOCUS=§l       §n源质聚核§r<BR>有了源质聚核的帮助,要素读取器就能对许多罐子的要素总量立刻做出反应.也可以将要素读取器放在结构中的水下或使用远程比较器连接到聚核方块本身来检测.<BR>要素读取器对聚合的检测类似于灵气节点.它根据罐子容量计算当前所含要素或标签指定要素的最大值.
 
@@ -304,7 +304,7 @@ Automagy.research_page.AUTOHANDMIRROR.2=(超出的部分则会取走).<BR>饕餮
 Automagy.research_name.CRYSTALBRAIN=水晶之脑
 Automagy.research_text.CRYSTALBRAIN=智慧的结晶
 Automagy.research_page.CRYSTALBRAIN.1=晶体魔法在红石和蜘蛛眼的运用大获成功,你决定挑战个难点的:大脑.你发现这种复杂而脆弱的晶体构造需要魔法加固才能稳定下来.初始要素源质的效果似乎不错,根据所用的要素共能做出六种不同的水晶之脑.<BR>对于这些记忆储存体,你的脑海中已经浮现出了诸多潜在的应用.但具体仍需深入的研究.
-#Automagy.research_page.CRYSTALBRAIN.WIP=§o[WIP]§r Other types of crystalline brain exist but you've decided against creating any until they're actually useful. (Don't waste resources trying, either. It won't work.)
+#Automagy.research_page.CRYSTALBRAIN.WIP=§o[WIP]§r Other types of crystalline brain exist but you've decided against creating any until they're actually useful. (Don't waste resources trying,either. It won't work.)
 
 Automagy.research_name.OVERSEER=奥术观察者
 Automagy.research_text.OVERSEER=窥探的眼睛
@@ -320,7 +320,7 @@ Automagy.research_page.GOLEMINHIBITOR.GOLEMLINKER=§l          §n连接§r<BR>�
 Automagy.research_name.GOLEMLINKER=傀儡绑定铃铛
 Automagy.research_text.GOLEMLINKER=束以缚
 Automagy.research_page.GOLEMLINKER.1=为了最大化利用傀儡抑制器这样的神秘设备,你必须将傀儡连接到它们.手持绑定铃铛右击设备,就可以开始连接了.用绑定铃铛再次右击一个傀儡就能将它绑定到设备上.<BR>当然,也有一些限制.尽管与设备的连接在任何距离都能保持,最大的生效范围还是有限的.其次,每个傀儡只能连接到一个设备.最后,一个设备最多连接6个傀儡.(当数量超出这个值时可能会发生意想不到的情况,
-Automagy.research_page.GOLEMLINKER.2=比如部分傀儡会像是没有被连接一样活动.)<BR>如果你想切断一个设备所有的连接,只需在潜行时用铃铛右击 (按住Shift).<BR>潜行时右击一个方块即可移除铃铛已绑定的设备信息.<BR>§o已更新目前所有支持傀儡连接的设备的研究笔记.§r
+Automagy.research_page.GOLEMLINKER.2=比如部分傀儡会像是没有被连接一样活动.)<BR>如果你想切断一个设备所有的连接,只需在潜行时用铃铛右击(按住Shift).<BR>潜行时右击一个方块即可移除铃铛已绑定的设备信息.<BR>§o已更新目前所有支持傀儡连接的设备的研究笔记.§r
 
 Automagy.research_name.ENTITYSIGNAL=生物感应器
 Automagy.research_text.ENTITYSIGNAL=一只羊,两只羊,三只羊.
@@ -360,12 +360,12 @@ Automagy.research_page.INVENTARIUM.5=如果记录桌位于做个核心的范围�
 
 Automagy.research_name.INVENTARIUM_EXTRA=密集管理
 Automagy.research_text.INVENTARIUM_EXTRA=不够,还不够
-Automagy.research_page.INVENTARIUM_EXTRA.1=将库存核心周围的普通书架替换成另外几种,就可以提升它所能读取的格数(远多于81格).<BR>每个§l附魔书架§r (由附魔纸制成)可提供216格(相当于8个箱子的容量).<BR>每个§l蕴魔书架§r则可以提供486格(相当于18个箱子).和附魔书架类似,它也能用于提升附魔台的附魔等级.它的附魔加成相当于原版书架的8倍.
+Automagy.research_page.INVENTARIUM_EXTRA.1=将库存核心周围的普通书架替换成另外几种,就可以提升它所能读取的格数(远多于81格).<BR>每个§l附魔书架§r(由附魔纸制成)可提供216格(相当于8个箱子的容量).<BR>每个§l蕴魔书架§r则可以提供486格(相当于18个箱子).和附魔书架类似,它也能用于提升附魔台的附魔等级.它的附魔加成相当于原版书架的8倍.
 
 Automagy.research_name.INVENTARIUM_POINTER=记录之眼
 Automagy.research_text.INVENTARIUM_POINTER=另一种观点
 Automagy.research_page.INVENTARIUM_POINTER.1=记录桌的限制就在于它只能检测一种类型的容器,且容器必须被放置在其后.记录之眼就摆脱了这个约束.<BR>它使用§l水晶之眼§r指向邻近的容器来设置类型.一次最多能使用5个眼睛.<BR>使用方法很简单,将它放在记录桌的上方再用准备好的水晶之眼右击即可.空手右击则可取下上一次装入的水晶之眼.
-Automagy.research_page.INVENTARIUM_POINTER.2=用你准备好的水晶之眼右击它. 空手右击可以移除最后插入的水晶之眼.
+Automagy.research_page.INVENTARIUM_POINTER.2=用你准备好的水晶之眼右击它.空手右击可以移除最后插入的水晶之眼.
 
 Automagy.research_name.INVENTARIUM_DELIVERY=供与求
 Automagy.research_text.INVENTARIUM_DELIVERY=特种配送
@@ -373,16 +373,16 @@ Automagy.research_page.INVENTARIUM_DELIVERY.1=为了有效管理你的储存,你
 Automagy.research_page.INVENTARIUM_DELIVERY.2=可以使用多个卸货点,每个对应一个或多个§l填充§r核心的傀儡,卸货点就是傀儡的绑定点.卸货点可以选在任何一处,但如果是一个容器的话,它§l必须能快速排空§r物品否则就可能造成堵塞.综合考虑来说,物品格栅配合魔镜要优于一个箱子 - 或许也会有人选择将物品直接送往提交订单的地方.<BR>每个被记录桌读取的容器都应该有至少一个填充傀儡连接(通过傀儡使铃铛),这些傀儡也不能连接到其他容器不然就有可能发生预料之外的情况.最好将容器内的物品整理以便在指定物品类型的情况下快速配送少走弯路.
 Automagy.research_page.INVENTARIUM_DELIVERY.3=<BR>接下来,在附近放置一个§l傀儡指示器§r然后将填充傀儡连接到它,使用§l傀儡连接铃铛§r即可.每个傀儡指示器最多能处理6个傀儡.这些傀儡必须绑定到同一个卸货点,指示器只能控制休息点(当它们未搬运物品时所在的地点)距离5格以内的傀儡.<BR>就和记录桌一样,指示器必须连接到库存核心(用法杖右击)并且距离可以通过核心附近的秩序魔晶来提升.允许的指示器数量取决于安装的
 Automagy.research_page.INVENTARIUM_DELIVERY.4=§l记忆方块§r数,因此你需要安装至少1个.<BR>要让记忆方块安装成功,它必须放置在核心下方2格起7x2x7的范围内,并且必须紧邻琥珀方块或琥珀砖块(比如核心下方的那个).用法杖右击核心就会显示当前使用的以及最大的记忆槽数量.<LINE>
-Automagy.research_page.INVENTARIUM_DELIVERY.5=最后所需的就是§l申请台§r了.和记录桌一样,它会显示整个储存系统的内容物.这也就是你提交订单的地方.<BR>左击列表中的物品来增加征订的数量,右击减少.按住shift来移动整组,或ctrl来一次性移动10单位物品.使用左侧的一栏或按住alt/option来请求多于储存量的数目. <BR>申请台的需求类似于傀儡指示器: 一个专用的记忆方块,连接至核心,并且可以通过秩序魔晶提升连接距离.此外它还需要供应§8Ordo§0要素魔力(通过魔力中继器).
+Automagy.research_page.INVENTARIUM_DELIVERY.5=最后所需的就是§l申请台§r了.和记录桌一样,它会显示整个储存系统的内容物.这也就是你提交订单的地方.<BR>左击列表中的物品来增加征订的数量,右击减少.按住shift来移动整组,或ctrl来一次性移动10单位物品.使用左侧的一栏或按住alt/option来请求多于储存量的数目.<BR>申请台的需求类似于傀儡指示器:一个专用的记忆方块,连接至核心,并且可以通过秩序魔晶提升连接距离.此外它还需要供应§8Ordo§0要素魔力(通过魔力中继器).
 Automagy.research_page.INVENTARIUM_DELIVERY.6=将一个§l计数盒§r指向申请台就会使盒子根据当前征求的物品输出红石信号.<BR>最后提醒:傀儡并不能完美地适应订单的变动,因此如果你在傀儡已经取多了的情况下减少征求量,它们只会将多出的扔在地上.最好再想办法将这些物品放回原位.
-Automagy.research_page.INVENTARIUM_DELIVERY.MIRRORINPUT=§l       §n聚合魔镜§r<BR>通过GUI中的"魔镜"按钮与水晶之眼, 聚合魔镜可以取代标准魔镜用于物品输入.
+Automagy.research_page.INVENTARIUM_DELIVERY.MIRRORINPUT=§l       §n聚合魔镜§r<BR>通过GUI中的"魔镜"按钮与水晶之眼,聚合魔镜可以取代标准魔镜用于物品输入.
 
 Automagy.research_name.NETHERMIND=下界之核
 Automagy.research_text.NETHERMIND=始于灰烬
 Automagy.research_page.NETHERMIND.1=在近期的实验中,你发现火要素强化的水晶之脑似乎会持续吸取能量(并且快速烧蚀自身).这股能量让你追溯到了下界.如果你能找到什么与下界之火密切联系又能与它共存的东西,或许就能做出一个"下界之核",利用源质来构建岩浆和下界方块.<BR>§l灰烬之心§r或许能胜任.进一步的研究显示,它与烈焰人这类地狱怪物甚至与它们的生成有着联系.
 Automagy.research_page.NETHERMIND.2=<BR>显然你需要用某种方法来驱动并控制下界之核.最终你做出了§l符文黑曜石§r.除了用于包围下界之核,这些符文还要按照指定的方式搭建好(见下一页).<BR>不同的符文有不同的功能.图中所示的任意基础符文都可以被特殊符文所替换.某种符文数量越多,其效果就越强.如果只是用基础的符文,该设备的运行将会十分缓慢,并且只会生成地狱岩和零星的岩浆.
 Automagy.research_page.NETHERMIND.3=当符文全都安装完毕后,用你的法杖轻触下界之核就能启动它了.你也能再次右击来关闭它,但每次启动都会消耗法杖中的魔力.<BR>运行时,下界之核必须用§cIgnis§0要素魔力供应.它也需要附近有源质罐子以抽取源质.所需的源质类型及数量决定于工作中的符文.基础的符文只会消耗Ignis和Terra.<BR>生成的下界方块会出现在结构下方两格9x9x9的区域内.
-Automagy.research_page.NETHERMIND.4=§l    §n符文黑曜石(岩石)§r<BR>使用该符文来增加地狱岩生成的概率.如果指定方块类的符文至少安装了4个,那么就只会生成指定的方块.使用的符文越多,方块生成的概率就越大.(因此某种类型如果使用了4个,那么生成概率就是100%%.)<BR>使用它的另一个好处在于生成地狱岩消耗的源质会比基础符文更少.(放置额外的岩石符文不会进一步减少消耗.)<BR>每次生成消耗: %s.
+Automagy.research_page.NETHERMIND.4=§l    §n符文黑曜石(岩石)§r<BR>使用该符文来增加地狱岩生成的概率.如果指定方块类的符文至少安装了4个,那么就只会生成指定的方块.使用的符文越多,方块生成的概率就越大.(因此某种类型如果使用了4个,那么生成概率就是100%%.)<BR>使用它的另一个好处在于生成地狱岩消耗的源质会比基础符文更少.(放置额外的岩石符文不会进一步减少消耗.)<BR>每次生成消耗:%s.
 Automagy.research_page.NETHERMIND.5=§l    §n符文黑曜石(炽海)§r<BR>使用该符文增加岩浆生成的几率.至少安装4个就可以保证只会生成岩浆.<BR>每次生成消耗: %s.
 
 Automagy.research_name.NETHERRUNE_CRYSTAL=符文黑曜石:晶体
@@ -391,7 +391,7 @@ Automagy.research_page.NETHERRUNE_CRYSTAL.1=在下界之核构造中放入这种
 
 Automagy.research_name.NETHERRUNE_LIGHT=符文黑曜石:光明
 Automagy.research_text.NETHERRUNE_LIGHT=黑暗中的光明
-Automagy.research_page.NETHERRUNE_LIGHT.1=在下界之核构造中放入这种符文,就能生成萤石. 至少安装4个即可保证只生成萤石.<BR>每次生成消耗: %s.
+Automagy.research_page.NETHERRUNE_LIGHT.1=在下界之核构造中放入这种符文,就能生成萤石.至少安装4个即可保证只生成萤石.<BR>每次生成消耗: %s.
 
 Automagy.research_name.NETHERRUNE_SOUL=符文黑曜石:灵魂
 Automagy.research_text.NETHERRUNE_SOUL=哀嚎遍野
@@ -409,7 +409,7 @@ Automagy.research_page.GOLEMWORKBENCH.2=<BR>注意在这里只有原版合成台
 Automagy.research_page.GOLEMWORKBENCH.UPGRADEORDER=     §n秩序升级解锁特性§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>当合成中产生了残留物品并且无法当做合成原料(比如合成蛋糕中的空桶),通常物品就会被合成傀儡扔到一边.如果傀儡安装了这项升级,它就会将残留的物品放入工作台(如果空间允许的话)
 Automagy.research_page.GOLEMWORKBENCH.UPGRADEENTROPY=    §n混沌升级解锁特性§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>如果相连的傀儡安装了混沌升级,那就意味着它会忽略物品的损伤,NBT数据以及检测矿物词典来判断它所合成的东西.(这取决于傀儡是否能移动物品.)<BR>只会影响到合成产物,而不会影响到合成使用的原料.或许进一步的研究能解决这个问题.
 Automagy.research_page.GOLEMWORKBENCH.ADVANCEDGOLEM=§l      §n高级傀儡§r<BR>如你所愿,高级傀儡能进行更复杂的合成.它们能使用3x3的配方以及不止一种原料.
-Automagy.research_page.GOLEMWORKBENCH.GOLEMFETTER=§l        §n傀儡镣铐§r<BR>如果傀儡镣铐直接放在工作台下面, 那么, 当它被激活时, 傀儡将不会在工作台上合成任何物品. 它们不一定完全停止 (只要它们别自己踩上去), 但是, 这意味着它们可以继续从工作台中清空指定物品.<BR>当管理多个傀儡或傀儡拒绝始终站在一个位置时，这可能是有用的.
+Automagy.research_page.GOLEMWORKBENCH.GOLEMFETTER=§l        §n傀儡镣铐§r<BR>如果傀儡镣铐直接放在工作台下面,那么,当它被激活时,傀儡将不会在工作台上合成任何物品.它们不一定完全停止(只要它们别自己踩上去),但是,这意味着它们可以继续从工作台中清空指定物品.<BR>当管理多个傀儡或傀儡拒绝始终站在一个位置时，这可能是有用的.
 
 Automagy.research_name.GOLEMWORKBENCH_UPGRADE=工作台升级
 Automagy.research_text.GOLEMWORKBENCH_UPGRADE=顶级的傀儡合成
@@ -431,7 +431,7 @@ Automagy.research_page.MOBLURE.4=将强度使用得巧妙的话,也能让生物�
 
 Automagy.research_name.DIMENSIONLURE=异界之饵
 Automagy.research_text.DIMENSIONLURE=来自远方的呼唤
-Automagy.research_page.DIMENSIONLURE.1=下界之核与塞壬之饵的共性是你发现两者可以共同运行.经过对塞壬之饵和下界反应堆结构的调整,你就能让其生成生物而不是方块.<BR>The §l异界之饵§r会探入下界那些无人所知的角落寻找目标,开启跨越空间的裂痕并吸引那里的生物们.为了实现这个过程,下界之核与异界之饵都需要消耗相当量的源质. 下界之核所需的§cIgnis§0要素魔力(centi-vis)也会增加.<BR>需求的源质类型取决于目标生物,
+Automagy.research_page.DIMENSIONLURE.1=下界之核与塞壬之饵的共性是你发现两者可以共同运行.经过对塞壬之饵和下界反应堆结构的调整,你就能让其生成生物而不是方块.<BR>The §l异界之饵§r会探入下界那些无人所知的角落寻找目标,开启跨越空间的裂痕并吸引那里的生物们.为了实现这个过程,下界之核与异界之饵都需要消耗相当量的源质.下界之核所需的§cIgnis§0要素魔力(centi-vis)也会增加.<BR>需求的源质类型取决于目标生物,
 Automagy.research_page.DIMENSIONLURE.2=倘若不指定目标,就只会随机吸引生物而来.(简单来说就是所用的诱饵必须为生物量身定做)<BR>生物类型通过在下界之核结构中放入基础符文黑曜石以及对应生物的特殊符文黑曜石来确定.可使用多种类型的生物指定符文,但需要§l至少四个§r该种类型的符文.你不能将生物指定符文与方块指定符文装在同一个结构内.<BR>异界之饵方块必须放在下界之核下方6~8格,中间不能有固体方块阻隔.周围还需要放置一圈基础的符文黑曜石,
 Automagy.research_page.DIMENSIONLURE.3=如前一页所示的那样.生成的生物会出项在该平台与下界之核的结构之间.<BR>搭建完毕后,先用法杖右击饵石,之后再右击下界之核就会开始吸引生物出现.<LINE>不幸的是,该过程不是那么稳定.有几率产生各种负面效果,甚至会影响到召唤的生物.为了解决这个问题,你可以在圆的四个角上放置§l黑曜石图腾§r柱.柱子越高,越稳定.
 Automagy.research_page.DIMENSIONLURE.4=(每个柱子做多四格高.)为了起到最好的效果,四根柱子要高度相同.<BR>在柱顶或下界之核结构的四臂下方放上§l闪耀之光§r也能提升稳定性.<IMG>automagy:textures/gui/dimensional-lure.png:0:0:255:235:.5</IMG>
@@ -472,7 +472,7 @@ Automagy.research_page.FOCUSCRAFTING.STAFF=§l        §n魔杖§r<BR>尽管这�
 
 Automagy.research_name.FOCUSCRAFTING_UPGRADE=核心升级
 Automagy.research_text.FOCUSCRAFTING_UPGRADE=如此方便
-Automagy.research_page.FOCUSCRAFTING_UPGRADE.1=有了核心镶饰台,现在你能拓展合成核心的能力了.<BR>§l无偿:§r 这项升级使得核心的基本运行不消耗魔力. (打开合成栏以及合成物品时都不会消耗额外的魔力.)<BR>§l储存:§r 在使用这种升级的核心合成之后,合成栏内留下的任何物品都会被储存在与核心相连的异次元中.<BR>§l置换:§r 有此项升级的核心在使用者需要时会自动装上法杖.无论核心是在背包还是手袋中都可以生效.
+Automagy.research_page.FOCUSCRAFTING_UPGRADE.1=有了核心镶饰台,现在你能拓展合成核心的能力了.<BR>§l无偿:§r 这项升级使得核心的基本运行不消耗魔力.(打开合成栏以及合成物品时都不会消耗额外的魔力.)<BR>§l储存:§r 在使用这种升级的核心合成之后,合成栏内留下的任何物品都会被储存在与核心相连的异次元中.<BR>§l置换:§r 有此项升级的核心在使用者需要时会自动装上法杖.无论核心是在背包还是手袋中都可以生效.
 Automagy.research_page.FOCUSCRAFTING_UPGRADE.2=(只要按下核心所对应的键位就可以自动安装.)
 
 Automagy.research_name.VISHROOMSOUP=毒菇汤
@@ -514,12 +514,12 @@ Automagy.research_page.MIRRORINPUT.3=汇流圆盘初始的制作成本较高,但
 
 Automagy.research_name.MIRRORMULTIDEST=分发魔镜
 Automagy.research_text.MIRRORMULTIDEST=直接配送
-Automagy.research_page.MIRRORMULTIDEST.1=到目前为止, 将多个申请台与单个库存连接起来的效用有限. 所申请的物品与任何特定的申请台无关, 更不用说专门用于配送给它们了. 现在你已经找到了一种方法来利用魔镜之间的跨维细流, 是时候改变了.<BR>如果你的配送傀儡被设置为在连接的§l分发魔镜§r (直接或间接) 中丢下物品, 并且此魔镜与傀儡指示器连接到相同的库存核心, 那么魔镜可以将物品传送至靠近申请台的另一魔镜.<BR>用你的法杖右击以连接分发魔镜与库存核心. 
-Automagy.research_page.MIRRORMULTIDEST.2=在库存核心附近放置秩序魔晶可以拓展最大有效范围. 每个分发魔镜必须安装§l记忆方块§r. (查阅 "供与求" 以了解如何做到这一点.)<BR>魔镜连接后,你必须使用申请台GUI中的 “魔镜” 按钮以指定每个申请台的目标魔镜. 标准魔镜或聚合魔镜都可以作为申请台的输出位置.<BR>请注意, 发送到分发魔镜并且未指定目的地的物品将被分发魔镜拒绝并吐出, 所以请确保所有的申请台都有指定的输出魔镜. (你可能还需要一个故障保护装置来
+Automagy.research_page.MIRRORMULTIDEST.1=到目前为止,将多个申请台与单个库存连接起来的效用有限.所申请的物品与任何特定的申请台无关,更不用说专门用于配送给它们了.现在你已经找到了一种方法来利用魔镜之间的跨维细流,是时候改变了.<BR>如果你的配送傀儡被设置为在连接的§l分发魔镜§r(直接或间接)中丢下物品,并且此魔镜与傀儡指示器连接到相同的库存核心,那么魔镜可以将物品传送至靠近申请台的另一魔镜.<BR>用你的法杖右击以连接分发魔镜与库存核心.
+Automagy.research_page.MIRRORMULTIDEST.2=在库存核心附近放置秩序魔晶可以拓展最大有效范围.每个分发魔镜必须安装§l记忆方块§r.(查阅"供与求"以了解如何做到这一点.)<BR>魔镜连接后,你必须使用申请台GUI中的 “魔镜” 按钮以指定每个申请台的目标魔镜.标准魔镜或聚合魔镜都可以作为申请台的输出位置.<BR>请注意,发送到分发魔镜并且未指定目的地的物品将被分发魔镜拒绝并吐出,所以请确保所有的申请台都有指定的输出魔镜.(你可能还需要一个故障保护装置来
 Automagy.research_page.MIRRORMULTIDEST.3=拾取掉落物品并将它们带到默认目的地或将它们丢弃.)
 
 # Chat messages
-Automagy.chat.newVersionAvailable=自动化魔法有 v%s 的新版本了. (当前运行的是 v%s.)
+Automagy.chat.newVersionAvailable=自动化魔法有 v%s 的新版本了.(当前运行的是 v%s.)
 Automagy.chat.newVersionLink=["点此 [",{"text":"link","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to go to Automagy's webpage","color":"green"}},"clickEvent":{"action":"open_url","value":"http://everburningtorch.com/minecraft/automagy/"}},"] 查看详情和下载."]
 Automagy.chat.redcrystalDim.setCap=红石信号强度上限设为 %s.
 Automagy.chat.redcrystalDense.setMin=最小红石信号强度设为 %s.
@@ -532,7 +532,7 @@ Automagy.chat.essentiaLocus.itemUnlinked=在放置前你必须将物品连接至
 Automagy.chat.essentiaLocus.itemLinkedSelf=你无法将聚核连至其本身.
 Automagy.chat.unseenScribe.outOfRange=连接失败.有效范围内无库存核心.
 Automagy.chat.unseenScribe.noConnectionsLeft=连接失败.全部连接占用中.
-Automagy.chat.unseenScribe.alreadyLinked=容器记录桌已连接至库存核心(%s, %s, %s)
+Automagy.chat.unseenScribe.alreadyLinked=容器记录桌已连接至库存核心(%s,%s,%s)
 Automagy.chat.thaumostaticSpire.setSuction=该侧设为输入%s要素源质.
 Automagy.chat.nethermind.yTooLow=下界之核不能在这么低的高度被激活.
 Automagy.chat.nethermind.invalidMix=下界之核启动失败.你不能将方块指定符文与生物指定符文混合使用.
@@ -541,25 +541,25 @@ Automagy.chat.nethermind.missingLureExtraDistance=由于所选符文,下界之�
 Automagy.chat.nethermind.needMoreMobRunes=下界之核启动失败.生物指定符文需要使用至少4个.
 Automagy.chat.inventarium.statusSlots=库存容量: %s/%s.
 Automagy.chat.inventarium.statusScribes= 记录桌: %s/%s.
-Automagy.chat.inventarium.statusNodes= 记录桌: %s/%s. 记忆方块: %s/%s.
-Automagy.chat.inventarium.chunkUnloaded=连接的库存核心不可用. (区块未加载.)
-Automagy.chat.golemTaskmaster.alreadyLinked=傀儡指示器已连接至库存核心(%s, %s, %s)
+Automagy.chat.inventarium.statusNodes= 记录桌: %s/%s.记忆方块: %s/%s.
+Automagy.chat.inventarium.chunkUnloaded=连接的库存核心不可用.(区块未加载.)
+Automagy.chat.golemTaskmaster.alreadyLinked=傀儡指示器已连接至库存核心(%s,%s,%s)
 Automagy.chat.golemTaskmaster.noConnectionsLeft=连接失败.所有连接都在使用中.
 Automagy.chat.golemTaskmaster.outOfRange=连接失败.范围内没有库存核心.
 Automagy.chat.reqTome.noConnectionsLeft=连接失败.所有连接都在使用中.
 Automagy.chat.reqTome.outOfRange=连接失败.范围内没有库存核心
-Automagy.chat.reqTome.alreadyLinked=申请台已连接至库存核心(%s, %s, %s)
+Automagy.chat.reqTome.alreadyLinked=申请台已连接至库存核心(%s,%s,%s)
 Automagy.chat.scribePointer.itemLinkedSelf=你不能将纪录之眼连接到它自身.
 Automagy.chat.scribePointer.itemUnlinked=在安装它之前你必须将其连接到%s格以内的某一位置.
-Automagy.chat.mirrorMultiDest.alreadyLinked=这已经被连接过了. (%s, %s, %s)
-Automagy.chat.mirrorMultiDest.noConnectionsLeft=连接失败. 所有连接都在使用中.
-Automagy.chat.mirrorMultiDest.outOfRange=连接失败. 范围内没有库存核心.
+Automagy.chat.mirrorMultiDest.alreadyLinked=这已经被连接过了.(%s,%s,%s)
+Automagy.chat.mirrorMultiDest.noConnectionsLeft=连接失败.所有连接都在使用中.
+Automagy.chat.mirrorMultiDest.outOfRange=连接失败.范围内没有库存核心.
 
 # Tooltips
 Automagy.tip.crystalEye.link=目标在 %s,%s,%s 位于 %s
 Automagy.tip.crystalEye.linkDistance=(与你距离 %s)
 Automagy.tip.crystalEntityEye.link=目标为 %s
-Automagy.tip.crystalEntityEye.linkPlayer=目标为 §3人类§7 ("%s")
+Automagy.tip.crystalEntityEye.linkPlayer=目标为 §3人类§7("%s")
 Automagy.tip.crystalEntityEye.desc=实体传感器(眼)
 Automagy.tip.blockEntitySignal.desc=实体传感器(信号)
 Automagy.tip.redcrystalMerc.link=连接至 %s,%s,%s 位于 %s
@@ -575,7 +575,7 @@ Automagy.tip.golemWorkbenchUpgrade.0=傀儡速度提升合成速度
 Automagy.tip.golemWorkbenchUpgrade.1=额外合成配方
 Automagy.tip.golemWorkbenchUpgrade.3=傀儡力量提升合成速度
 Automagy.tip.golemWorkbenchUpgrade.5=通用合成配方
-Automagy.tip.jarXP=%s 级 (%s xp)
+Automagy.tip.jarXP=%s 级(%s xp)
 Automagy.tip.phialXP=启蒙运动
 
 # GUI
@@ -729,6 +729,6 @@ wailaTip.golem.taskFetch=读取请求的物品中
 # wailaTip.golem.taskFetch.specific=Fetching %s %s
 wailaTip.tankFluidData=%s / %s mB %s
 wailaTip.tankFluidDataEmpty=0 / %s mB
-wailaTip.xp=%s 级 (%s xp)
+wailaTip.xp=%s 级(%s xp)
 
 #translated by Kiwi

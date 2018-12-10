@@ -100,7 +100,7 @@ thaumicenergistics.research_page.TESTORAGE.2=§l组件§r<BR>存储组件以数�
 tc.research_name.thaumicenergistics.TEIO=数位化源质运输
 tc.research_text.thaumicenergistics.TEIO=即时运输源质.
 thaumicenergistics.research_page.TEIO.1=现在你已经知道了如何数字化源质,是时候投入实际使用了.<LINE>§l输入&输出§r<BR>通过组合恰当的核心,源质管道与要素罐子你就能输入或输出网络内的源质储存.源质过滤管道的使用让你能设置可输送的要素源质类型.
-thaumicenergistics.research_page.TEIO.2=§l储存总线§r<BR>将输入和输出总线并入一个设备中,让你像使用网络储存一样使用外部的源质容器.<BR>和储存一样,总线还可以使用虚空罐子或者物质聚合器来清除多余的源质. 若使用虚空罐子,你需要在GUI中设定允许使用虚空罐子. 在这里强烈建议为存储总线设定低优先级.
+thaumicenergistics.research_page.TEIO.2=§l储存总线§r<BR>将输入和输出总线并入一个设备中,让你像使用网络储存一样使用外部的源质容器.<BR>和储存一样,总线还可以使用虚空罐子或者物质聚合器来清除多余的源质.若使用虚空罐子,你需要在GUI中设定允许使用虚空罐子.在这里强烈建议为存储总线设定低优先级.
 
 # Research Arcane crafting terminal
 tc.research_name.thaumicenergistics.TEARCANETERM=奥术合成终端
@@ -111,7 +111,7 @@ thaumicenergistics.research_page.TEARCANETERM.1=你已发现将初始要素注�
 tc.research_name.thaumicenergistics.TEESSTERM=源质终端
 tc.research_text.thaumicenergistics.TEESSTERM=已知你有多少源质.
 thaumicenergistics.research_page.TEESSTERM.1=§l源质终端§r让你能看到网络中储存了多少源质,并提供了用源质容器向终端输入源质或从中抽取源质的方法.§l源质发信器§r会持续监测网络中的源质等级,并在条件符合时发出红石信号.
-thaumicenergistics.research_page.TEESSTERM.2=§l源质储存监控器§r和§l源质交换监控器§r则能让你看到此刻有多少某源质存储于网络之中. 转换监视器还能让你向网络中输入或从中抽取源质.<BR>使用扳手右键将会锁定/解锁监视器.<BR>手持标签,装有源质的罐子或者安瓿右击解锁状态下的监视器将会设定当前显示的要素种类,空手右键则会清空.<BR>右击锁定的交换监视器可以填充要素罐子或安瓿,潜行并右击则会清空罐子或安瓿并将源质导入网络.<BR>潜行并右键双击将会清空你物品栏里所有的源质,并导入进网络.
+thaumicenergistics.research_page.TEESSTERM.2=§l源质储存监控器§r和§l源质交换监控器§r则能让你看到此刻有多少某源质存储于网络之中.转换监视器还能让你向网络中输入或从中抽取源质.<BR>使用扳手右键将会锁定/解锁监视器.<BR>手持标签,装有源质的罐子或者安瓿右击解锁状态下的监视器将会设定当前显示的要素种类,空手右键则会清空.<BR>右击锁定的交换监视器可以填充要素罐子或安瓿,潜行并右击则会清空罐子或安瓿并将源质导入网络.<BR>潜行并右键双击将会清空你物品栏里所有的源质,并导入进网络.
 thaumicenergistics.research_page.TEESSTERM.3=§l源质发信器§r可在网络中源质低于或高于指定水平时发出红石信号.
 thaumicenergistics.research_page.TEESSTERM.4=§l源质储存监控器§r和§l源质交换监控器§r可以让你知道在某一刻时网络内有多少指定要素源质.源质交换监控器还可以让你将源质输入网络,或是从网络中提取源质.<BR>使用扳手右击即可锁定/解锁监控器.<BR>手持罐子标签或者填满的罐子或填满的安瓿右击未锁定的监控器可设定显示的要素种类,空手右击则可清空.<BR>右击锁定的监控器可填满罐子或安瓿,按住Shift右击则可清空它们.<BR>按住Shift时右键双击可清空你物品栏中的所有源质.
 
@@ -130,7 +130,7 @@ tc.research_name.thaumicenergistics.TEVISINT=要素中继接口
 tc.research_text.thaumicenergistics.TEVISINT=数位化使用要素魔力
 thaumicenergistics.research_page.TEVISINT.1=发现要素能量网之后,你开始研究将其与数字网络连接的方法.<BR>在细致观察要素魔力在§l要素中继§r网络中的流动后,你确信自己也能做出一个有着相似功能的数字化设备.利用数字网络的点对点能力你就可以导入,传导要素魔力,并为数字设备所用,但要储存要素魔力你还需要进行更深入的研究.
 thaumicenergistics.research_page.TEVISINT.2=要使用§l要素中继接口§r,只需将其接入数字网络并在其上放置一个要素中继器.中继器的底端必须附在接口上.<BR>若要将其他设备连接到接口则需§l内存卡§r.<BR>用内存卡shift右击接口,之后右击一个设备来建立连接.
-thaumicenergistics.research_page.TEVISINT.3=§l连接§r<LINE>§l要素中继接口§r. 构建一个VisP2P通道.<BR>§l奥术合成终端§r. 在A.C.T(奥术合成终端)中给法杖充能.<BR>§l奥术组装器§r. 存储Vis,并用于合成.
+thaumicenergistics.research_page.TEVISINT.3=§l连接§r<LINE>§l要素中继接口§r.构建一个VisP2P通道.<BR>§l奥术合成终端§r.在A.C.T(奥术合成终端)中给法杖充能.<BR>§l奥术组装器§r.存储Vis,并用于合成.
 
 # Research Iron Gear Box
 tc.research_name.thaumicenergistics.TEIRONGEARBOX=铁齿轮箱
@@ -164,7 +164,7 @@ thaumicenergistics.research_page.TEARCANEASSEMBLER.3=§l要素减免§r<BR>装�
 # Research Wrench Focus
 tc.research_name.thaumicenergistics.TEFOCUSWRENCH=法杖核心: AE扳手
 tc.research_text.thaumicenergistics.TEFOCUSWRENCH=一些地方会用得上的
-thaumicenergistics.research_page.TEFOCUSWRENCH.1=这个法杖核心的作用类似于AE2的扳手.<BR>潜行+左键: 转向.<BR>潜行+右键: 拆除.
+thaumicenergistics.research_page.TEFOCUSWRENCH.1=这个法杖核心的作用类似于AE2的扳手.<BR>潜行+左键:转向.<BR>潜行+右键:拆除.
 
 # Research Essentia Vibration Chamber
 tc.research_name.thaumicenergistics.TEESSVIBCMBR=源质谐振仓
@@ -183,7 +183,7 @@ tc.research_name.thaumicenergistics.TEGOLEMWIFIBACKPACK=无线傀儡背包
 tc.research_text.thaumicenergistics.TEGOLEMWIFIBACKPACK=DigitalGolem423@ae2.net
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.1=你的傀儡不断地奔波于各个箱子之间,帮你储存收集到的物品,以供不时之需.在看到这一切后,你开始思考一个问题:有没有可能把这个中间人裁掉? 而当你想到你的ME网络可以做到无线访问后,你恍然大悟:你完全可以用一样的方法完成这个任务.<BR>在热火朝天地奋斗数小时后,你终于做出来了一个特制背包,傀儡可以通过这个背包访问ME网络.然而这个背包也有一些局限.傀儡必须处在§lAccess Point§r的范围内方可访问网络.天线上的福鲁伊克斯珍珠可以告诉你傀儡是否能访问ME网络.
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.2=有鉴于连接网络也需要耗能,你对充能器做了些修改,使得它可以从两个内嵌的闪耀之光中吸取能量.充能后,背包仅有一小段可与网络建立连接的时间.在这段宝贵的时间里傀儡便可与网络进行无线交互.<BR>要将背包与你的网络连接,将其置于安全终端中即可.<LINE>随着你对傀儡学研究的不断深入,请不要忘记继续浏览本页以查看新的用法.
-thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.3=§n迷彩§r<BR>各种迷彩可以为背包带来各种不同的风格.可用的伪装材质有:神秘块(默认), 宏伟之木,砖,草垛,油脂块,腐肉块,石头,铁块,金块以及钻石块.<BR>手持目标方块右击背有背包的傀儡以改变迷彩.
+thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.3=§n迷彩§r<BR>各种迷彩可以为背包带来各种不同的风格.可用的伪装材质有:神秘块(默认),宏伟之木,砖,草垛,油脂块,腐肉块,石头,铁块,金块以及钻石块.<BR>手持目标方块右击背有背包的傀儡以改变迷彩.
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.COREGATHER=§n聚集核心 解锁§r<IMG>thaumicenergistics:textures/gui/states.png:16:0:16:16:1.0</IMG>装备有§l聚集核心§r的傀儡可将收集到的物品直接存入网络.单次存储物品之最大数取决于傀儡管理每次充能的效率.
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.COREFILL=§n填充核心 解锁§r<IMG>thaumicenergistics:textures/gui/states.png:32:0:16:16:1.0</IMG>装备有§l填充核心§r的傀儡可直接从网络中抽取物品.单次提取物品之最大数取决于傀儡的GUI以及傀儡管理每次充能的效率.
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.CORELIQUID=§n移液核心 解锁§r<IMG>thaumicenergistics:textures/gui/states.png:48:0:16:16:1.0</IMG>装备有§l移液核心§r的傀儡可直接从网络中抽取液体.单次提取流体之最大数取决于傀儡管理每次充能的效率.<LINE>特别提醒:在ME网络中存储流体的功能需要别的MOD支持,例如Extra Cells 2.

@@ -20,7 +20,7 @@ wrcbe_core.label.name=频率名称
 wrcbe_core.label.colour=当前颜色
 wrcbe_core.label.freq=频率
 
-wrcbe_core.command.usage=WR-CBE 信号维度管理. 使用: freq [参数...]
+wrcbe_core.command.usage=WR-CBE 信号维度管理.使用: freq [参数...]
 wrcbe_core.command.usage1=参数: %s
 wrcbe_core.command.usage2=使用 /freq help [参数] 来获得更多信息
 
@@ -31,19 +31,19 @@ wrcbe_core.param.invalidfreq=无效频率
 wrcbe_core.param.invalidfreqrange=无效的频率范围
 
 wrcbe_core.param.get.usage=用法: freq get [public | shared | private]
-wrcbe_core.param.get.usage1=例如 freq get public. 恢复公共频率范围
-wrcbe_core.param.get.usage2=例如 freq get shared. 恢复共享频率范围
-wrcbe_core.param.get.usage3=例如 freq get private. 恢复每个玩家可拥有的私有频率数量
+wrcbe_core.param.get.usage1=例如 freq get public.恢复公共频率范围
+wrcbe_core.param.get.usage2=例如 freq get shared.恢复共享频率范围
+wrcbe_core.param.get.usage3=例如 freq get private.恢复每个玩家可拥有的私有频率数量
 wrcbe_core.param.get.public=频率 1-%d 为公共
 wrcbe_core.param.get.shared=频率 %d-%d 为共享
 wrcbe_core.param.get.shared0=没有共享频率
 wrcbe_core.param.get.private=所有玩家允许 %d 个专用频率
 
 wrcbe_core.param.private.usage=用法: freq private [参数...]
-wrcbe_core.param.private.usage1=例如 freq private [username | all]. 返回 [username] 拥有的所有私有频率
-wrcbe_core.param.private.usage2=例如 freq private [username] [freq]. 设置 [freq] 的拥有者为 [username]
-wrcbe_core.param.private.usage3=例如 freq private [freq]. 返回 [freq] 的拥有者
-wrcbe_core.param.private.usage4=例如 freq private clear [freq | username | all]. 移除 [freq] 的拥有者
+wrcbe_core.param.private.usage1=例如 freq private [username | all].返回 [username] 拥有的所有私有频率
+wrcbe_core.param.private.usage2=例如 freq private [username] [freq].设置 [freq] 的拥有者为 [username]
+wrcbe_core.param.private.usage3=例如 freq private [freq].返回 [freq] 的拥有者
+wrcbe_core.param.private.usage4=例如 freq private clear [freq | username | all].移除 [freq] 的拥有者
 wrcbe_core.param.private.none=没有私有频率
 wrcbe_core.param.private.list=以下频率是私有的: %s
 wrcbe_core.param.private.ispublic=%d 是公共的
@@ -66,9 +66,9 @@ wrcbe_core.param.scan.list=%s 可以广播在: %s
 wrcbe_core.param.scan.onlypublic=%s 只能在公共频率上广播
 
 wrcbe_core.param.set.usage=用法: freq set [public | shared | private] [value]
-wrcbe_core.param.set.usage1=例如 freq set public. 设置频率 1 至 [value] 为公开
-wrcbe_core.param.set.usage2=例如 freq set shared. 设置频率 [公开数+1] 至 [value] 为共享
-wrcbe_core.param.set.usage3=例如 freq set private. 给每个玩家 [value] 个私有频率
+wrcbe_core.param.set.usage1=例如 freq set public.设置频率 1 至 [value] 为公开
+wrcbe_core.param.set.usage2=例如 freq set shared.设置频率 [公开数+1] 至 [value] 为共享
+wrcbe_core.param.set.usage3=例如 freq set private.给每个玩家 [value] 个私有频率
 wrcbe_core.param.set.invalidnum=无效编号
 wrcbe_core.param.set.invalidqty=无效数量
 wrcbe_core.param.set.nowpublic=%s: 频率 1-%d 现在是公开的

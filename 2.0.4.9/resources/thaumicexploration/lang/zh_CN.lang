@@ -55,8 +55,8 @@ potion.binding=束缚
 potion.taintWithdrawl=腐化
 
 ----Misc---
-soulbrazier.invalidplayer=火盆发出抱怨并吐出了它, 因为火盆拒绝为未知灵魂工作
-soulbrazier.nopower=火盆拒绝工作, 因为它都快被烧干了.
+soulbrazier.invalidplayer=火盆发出抱怨并吐出了它,因为火盆拒绝为未知灵魂工作
+soulbrazier.nopower=火盆拒绝工作,因为它都快被烧干了.
 soulbrazier.noWarp=你没有需要摆脱的永久扭曲了.
 txitems.boundJar.networkInfo=网络 ID: %s
 txitems.boundJar.noNetworkInfo=没有网络
@@ -175,13 +175,13 @@ tc.research_category.TX=秘术学
 --Oblivion Jar
 te.name.TRASHJAR=泯灭之罐
 te.tag.TRASHJAR=源质销毁
-te.text.TRASHJAR.1=尽管虚空罐子在大量消除某种源质时很有用,多数情况下你的注魔室总是溢满了多种源质.与其浪费时间给每种准备一个虚空罐子,你觉得还有更简单的解决方法. 显然这个方法就是使用泯灭之罐.<BR><BR>虽然比起作为原料的虚空罐子和守卫着玻璃要昂贵些，但一个管道系统中仅需一个泯灭之罐就可以处理所有过剩的要素源质.它会像盛满的虚空罐子一样消除所有进入其中的源质.
+te.text.TRASHJAR.1=尽管虚空罐子在大量消除某种源质时很有用,多数情况下你的注魔室总是溢满了多种源质.与其浪费时间给每种准备一个虚空罐子,你觉得还有更简单的解决方法.显然这个方法就是使用泯灭之罐.<BR><BR>虽然比起作为原料的虚空罐子和守卫着玻璃要昂贵些，但一个管道系统中仅需一个泯灭之罐就可以处理所有过剩的要素源质.它会像盛满的虚空罐子一样消除所有进入其中的源质.
 te.text.TRASHJAR.2=泯灭之罐的吸力在所有罐子中是最弱的,这意味着它只会接受那些无处可去的要素源质.傀儡也能与它交互,前提是他们找不到其它能放入他们所带源质的罐子.
 
 --Soul Brazier
 te.name.SOULBRAZIER=灵魂火盆
 te.tag.SOULBRAZIER=扭曲可不是闹着玩的?
-te.text.SOULBRAZIER.1=扭曲是一个危险邪恶的力量. 虽然保留在神智里它是糟糕的, 但让其散发到世界里将会更加糟糕, 这就是我们为什么要保持原有的扭曲. 它需要节点提供vis和死亡要素, 但它可以保持玩家原有的扭曲, 且不会对环境造成太大的伤害
+te.text.SOULBRAZIER.1=扭曲是一个危险邪恶的力量.虽然保留在神智里它是糟糕的,但让其散发到世界里将会更加糟糕,这就是我们为什么要保持原有的扭曲.它需要节点提供vis和死亡要素,但它可以保持玩家原有的扭曲,且不会对环境造成太大的伤害
 
 
 --Taintacle Ring
@@ -207,7 +207,7 @@ te.text.FLOATCANDLE.1=你总觉得油烛还少些什么...利用在魔法学校�
 --Flesh Curing
 te.name.FLESHCURE=腐肉炼制
 te.tag.FLESHCURE=使事情变得更好
-te.text.FLESHCURE.1=给腐肉注入特定的要素源质, 你发现这能使你移除腐肉中几乎所有的腐烂和毒害作用,使它变得更有用.<BR><BR>尽管这不是十分实用的，你相信它也能做出些绝妙的东西.
+te.text.FLESHCURE.1=给腐肉注入特定的要素源质,你发现这能使你移除腐肉中几乎所有的腐烂和毒害作用,使它变得更有用.<BR><BR>尽管这不是十分实用的，你相信它也能做出些绝妙的东西.
 
 --Brain Curing
 te.name.BRAINCURE=僵脑净化
@@ -233,9 +233,9 @@ te.text.JARSEAL.1=通过调整油脂封蜡浸泡的要素混合来探究源质�
 
 --Everfull Urn
 te.name.URN=无尽之壶
-te.tag.URN=似曾相识... 
+te.tag.URN=似曾相识...
 te.text.URN.1=你在研究中读到了许多关于'无尽之壶'的东西,一个由伟大的神秘使Azanor创作的神秘装置,作为一个无限水源而工作.你终于做出了一个能那样工作并有其他功能的装置.<BR><BR>你的无尽之壶不仅可以装满无限桶水,它也能从顶部用管道导出水到外部容器.你的壶也能主动填满附近的坩埚,给着火的玩家灭火.
-te.text.URN.1B=你在研究中读到了许多关于'无尽之壶'的东西,一个由伟大的神秘使Azanor创作的神秘装置,作为一个无限水源而工作.你终于做出了一个能那样工作并有其他功能的装置.<BR><BR>你的无尽之壶不仅可以装满无限桶水,它也能从顶部用管道导出水到外部容器.你的壶也能主动填满附近的坩埚,给着火的玩家灭火.<BR><BR>若是你选择涉猎植物魔法的话, 这个壶也能主动填满附近的花药台.
+te.text.URN.1B=你在研究中读到了许多关于'无尽之壶'的东西,一个由伟大的神秘使Azanor创作的神秘装置,作为一个无限水源而工作.你终于做出了一个能那样工作并有其他功能的装置.<BR><BR>你的无尽之壶不仅可以装满无限桶水,它也能从顶部用管道导出水到外部容器.你的壶也能主动填满附近的坩埚,给着火的玩家灭火.<BR><BR>若是你选择涉猎植物魔法的话,这个壶也能主动填满附近的花药台.
 
 
 
@@ -243,7 +243,7 @@ te.text.URN.1B=你在研究中读到了许多关于'无尽之壶'的东西,一�
 --Everburn Urn
 te.name.BURN=炼狱之壶
 te.tag.BURN=为什么我能理解火??
-te.text.BURN.1=在研究无尽之壶之后, 你找到一种生成岩浆的方法.<BR><BR>你发现它和水有所不同, 岩浆需要能源, 所以你将其称之为炼狱之罐, 它需要Centivis去驱动它. 你的炼狱之壶不仅能够用桶来装岩浆, 它也能够从顶部输出到外部的储罐.
+te.text.BURN.1=在研究无尽之壶之后,你找到一种生成岩浆的方法.<BR><BR>你发现它和水有所不同,岩浆需要能源,所以你将其称之为炼狱之罐,它需要Centivis去驱动它.你的炼狱之壶不仅能够用桶来装岩浆,它也能够从顶部输出到外部的储罐.
 
 --Crucible of Souls
 te.name.CRUCSOULS=灵魂坩埚
@@ -260,7 +260,7 @@ te.text.REPLICATOR.2=这些要素源质就会将模板设定的方块塑造出�
 --Amber Wand Core
 te.name.ROD_AMBER=琥珀杖柄
 te.tag.ROD_AMBER=再生的魔力储存
-te.text.ROD_AMBER.1=最终你发现了琥珀实用的一面,用在制作杖柄上.琥珀的魔力储存容量很少, 尽管每种只能储存10vis,但它有其它的长处.<BR><BR>琥珀杖柄在空的时候似乎能储存闪现的魔力.通过这一点,你做出了一个可以在魔力未满时快速补充所有魔力的杖柄.尽管你做出的其它一些杖柄也有回复魔力的能力,琥珀杖柄以两倍速回复每种要素1vis而不是单独限定某一种.
+te.text.ROD_AMBER.1=最终你发现了琥珀实用的一面,用在制作杖柄上.琥珀的魔力储存容量很少,尽管每种只能储存10vis,但它有其它的长处.<BR><BR>琥珀杖柄在空的时候似乎能储存闪现的魔力.通过这一点,你做出了一个可以在魔力未满时快速补充所有魔力的杖柄.尽管你做出的其它一些杖柄也有回复魔力的能力,琥珀杖柄以两倍速回复每种要素1vis而不是单独限定某一种.
 
 --Amber Staff Core
 te.name.ROD_AMBER_staff=琥珀杖芯
@@ -275,12 +275,12 @@ te.text.ROD_TRANSMUTATION_staff.1=由元始魔力和各种元素碎片做成的�
 --Necromancer's Staff Core
 te.name.ROD_NECROMANCER_staff=亡灵杖芯
 te.tag.ROD_NECROMANCER_staff=亡灵的力量
-te.text.ROD_NECROMANCER_staff.1=通过向白骨杖芯注入亡灵的遗留之物你做出了一个骇人的杖芯.<BR><BR>这个杖芯对嗜血的法师来说是绝佳的选择.它拥有200vis的储存上限,并且4倍获得杀怪掉落的要素.此外,这个杖芯是个近身战斗的能手.击打怪物会施加凋零的力量.不幸的是, 这也带来了缺点.用于注入的黑魔法是的它对其他途径的魔力接收能力更弱,只相当于普通法杖从节点或是其他途径接收量的75%.
+te.text.ROD_NECROMANCER_staff.1=通过向白骨杖芯注入亡灵的遗留之物你做出了一个骇人的杖芯.<BR><BR>这个杖芯对嗜血的法师来说是绝佳的选择.它拥有200vis的储存上限,并且4倍获得杀怪掉落的要素.此外,这个杖芯是个近身战斗的能手.击打怪物会施加凋零的力量.不幸的是,这也带来了缺点.用于注入的黑魔法是的它对其他途径的魔力接收能力更弱,只相当于普通法杖从节点或是其他途径接收量的75%.
 
 --Bread Wand Core
 te.name.ROD_BREAD=面包杖柄
 te.tag.ROD_BREAD=法式魔力储存
-te.text.ROD_BREAD.1=Bonjour(法语你好)!昨天,你给我买了太多的法式长棍.无法就这样放着这些面包浪费,所以你想方设法将面包做成了杖柄. Bon Appetit(法语祝好胃口)!
+te.text.ROD_BREAD.1=Bonjour(法语你好)!昨天,你给我买了太多的法式长棍.无法就这样放着这些面包浪费,所以你想方设法将面包做成了杖柄.Bon Appetit(法语祝好胃口)!
 
 --Sojourner's Wand Cap
 te.name.CAP_SOJOURNER=索杰纳杖端
@@ -300,7 +300,7 @@ te.text.DREAMCATCHER.1=他们说捕梦网(Asabikeshiinh,又称梦罟,源自北�
 --Talisman of Nourishment
 te.name.TALISMANFOOD=补给之符
 te.tag.TALISMANFOOD=填饱肚子
-te.text.TALISMANFOOD.1=你常常发现你在长时间的研究工作中需要停下来吃点东西,终于你找到了方法满足对食物的需求.<BR><BR>通过给一颗钻石注入饥饿(Fames)的源质,你做出了一个能从工具栏的各种食物中吸取营养成分并储存的物品. 之后它会自动补充你的饱食度.<BR><BR>它只对普通的食物有效,所以像腐肉和金苹果这样带有buff的食物仍需要正常食用.
+te.text.TALISMANFOOD.1=你常常发现你在长时间的研究工作中需要停下来吃点东西,终于你找到了方法满足对食物的需求.<BR><BR>通过给一颗钻石注入饥饿(Fames)的源质,你做出了一个能从工具栏的各种食物中吸取营养成分并储存的物品.之后它会自动补充你的饱食度.<BR><BR>它只对普通的食物有效,所以像腐肉和金苹果这样带有buff的食物仍需要正常食用.
 
 --Disarming Enchantment
 te.name.ENCHDISARM=附魔: 缴械
@@ -334,14 +334,14 @@ te.text.RUNICBOOTS.1=想办法将旅行者之靴与符文护甲融合很简单,�
 
 --Enhanced Runic Armor
 te.name.ENHANCEDRUNICARMOR=增强符文护甲
-te.tag.ENHANCEDRUNICARMOR=如此... 巨大的... 力量!
+te.tag.ENHANCEDRUNICARMOR=如此...巨大的...力量!
 te.text.ENHANCEDRUNICARMOR.1=你对符文护甲升级的大量研究让你对只能有一个升级而失望.你也怀念神秘发泡所有的灵气减免.你没有泄气,制作出了一个弥补了这些不足的增强符文护甲.<BR><BR>该护甲的每一部分都可以拥有两个而不是一个升级,为了提供更好的防护.像你的法袍那样这套护甲也有被动的灵气减免.只有一个问题-制作成本.
-te.text.ENHANCEDRUNICARMOR.2=注意增强符文护甲的制作会移除现有的升级. <BR><BR>如果你想要覆盖增强护甲的一个升级,你可以手持它右击交换升级的位置.排在前面的升级就是会被覆盖的那一个.<BR><BR>[Recipes pending... leave feedback]
+te.text.ENHANCEDRUNICARMOR.2=注意增强符文护甲的制作会移除现有的升级.<BR><BR>如果你想要覆盖增强护甲的一个升级,你可以手持它右击交换升级的位置.排在前面的升级就是会被覆盖的那一个.<BR><BR>[Recipes pending...leave feedback]
 
 --Transmutative Wand Core
 te.name.ROD_TRANSMUTATION=元化杖芯
 te.tag.ROD_TRANSMUTATION=一个变为另一个
-te.text.ROD_TRANSMUTATION.1=研究元始魔力的性质时,你发现你能偶发地将一种要素魔力转化为另一种.你觉得这个性质用在大多数地方不太可靠, 但如果给元始魔力注入某种材料,它就能作为一个有着独特属性的杖柄而使用.<BR><BR>当法杖中有一种要素魔力值即将超过90%,它就会转化为其他种类的要素魔力,尽管比率低一些.<BR><BR>它还有比普通宏伟杖高的魔力储存容量,每种要素魔力75vis.
+te.text.ROD_TRANSMUTATION.1=研究元始魔力的性质时,你发现你能偶发地将一种要素魔力转化为另一种.你觉得这个性质用在大多数地方不太可靠,但如果给元始魔力注入某种材料,它就能作为一个有着独特属性的杖柄而使用.<BR><BR>当法杖中有一种要素魔力值即将超过90%,它就会转化为其他种类的要素魔力,尽管比率低一些.<BR><BR>它还有比普通宏伟杖高的魔力储存容量,每种要素魔力75vis.
 
 --Necro Wand
 te.name.ROD_NECROMANCER=亡灵杖柄
