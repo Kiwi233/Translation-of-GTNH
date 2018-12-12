@@ -1,6 +1,6 @@
 # Translation-of-GTNH
 
-GT New Horizons整合包的汉化工作
+##GT New Horizons整合包的汉化工作
 
 
 汉化使用方式，下载release内对应版本，覆盖解压到MC目录
