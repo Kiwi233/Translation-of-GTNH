@@ -1,0 +1,340 @@
+# Blocks
+tile.frame.frame.name=传送门框架
+tile.frame.controller.name=传送门控制器
+tile.frame.redstone.name=红石接口
+tile.frame.network_interface.name=网络接口
+tile.frame.dial_device.name=调谐装置
+tile.frame.program_interface.name=可编程接口
+tile.frame.upgrade.name=模块调制器
+tile.frame.fluid.name=流体传输模块
+tile.frame.item.name=物品传输模块
+tile.frame.energy.name=能量传输模块
+tile.portal.name=传送门
+tile.dbs.name=次元桥稳定器
+tile.dbs_empty.name=次元桥稳定器(空)
+tile.decor_dbs.name=末影装饰块
+tile.decor_frame.name=镶边石英块
+
+# Block Misc
+enhancedportals.block.portalFramePart=传送门框架部件
+enhancedportals.block.multiblockStructure=多方块结构
+enhancedportals.block.dbsSize=2x3x2到2x3x256
+enhancedportals.block.decorativeBlock=装饰方块
+
+# Items
+item.wrench.name=扳手
+item.nanobrush.name=纳米刷
+item.glasses.name=眼镜
+item.location_card.name=定位卡
+item.blank_portal_module.name=空白传送门模块
+item.blank_upgrade.name=空白升级
+item.manual.name=增强传送门: 虫洞隧道
+item.diamondNugget.name=钻石粒
+
+# In-place upgrades
+item.upgrade.redstone.name=红石接口升级
+item.upgrade.network_interface.name=网络接口升级
+item.upgrade.dial_device.name=传呼装置升级
+item.upgrade.program_interface.name=可编程接口升级
+item.upgrade.upgrade.name=模块调制器升级
+item.upgrade.fluid.name=流体传输升级
+item.upgrade.item.name=物品传输升级
+item.upgrade.energy.name=能量传输升级
+
+# Upgrades
+item.portal_module.0.name=粒子驱散器
+item.portal_module.0.desc=阻止粒子的生成
+item.portal_module.1.name=彩色粒子模块
+item.portal_module.1.desc=随机化每个粒子的颜色
+item.portal_module.2.name=消音器
+item.portal_module.2.desc=使传送门消音
+item.portal_module.3.name=动量维持模块
+item.portal_module.3.desc=实体传送后动量不变
+item.portal_module.4.name=隐形模块
+item.portal_module.4.desc=使传送门完全隐形
+item.portal_module.5.name=粒子渐变模块
+item.portal_module.5.desc=随机化粒子的明暗度
+item.portal_module.6.name=转向模块
+item.portal_module.6.desc=指定传送后的朝向
+item.portal_module.7.name=摔落保护模块
+item.portal_module.7.desc=免去摔落伤害
+enhancedportals.gui.facing.0=北
+enhancedportals.gui.facing.1=东
+enhancedportals.gui.facing.2=南
+enhancedportals.gui.facing.3=西
+
+# Potions
+potion.featherfall=羽落
+
+# Creative Tab
+itemGroup.enhancedportals=增强传送门 3
+
+# GUI DBS
+enhancedportals.gui.dimensionalBridgeStabilizer=次元桥稳定器
+enhancedportals.gui.information=信息
+enhancedportals.gui.activePortals=已激活传送门
+enhancedportals.gui.instability=不稳定性
+enhancedportals.gui.powerModeNormal=模式: 普通
+enhancedportals.gui.powerModeRisky=模式: 略有风险
+enhancedportals.gui.powerModeUnstable=模式: 不稳定
+enhancedportals.gui.powerModeUnpredictable=模式: 无法预测
+
+# RF Tab
+enhancedportals.tab.redstoneFlux=能量
+enhancedportals.tab.redstoneFlux.maxPower=最大能量:
+enhancedportals.tab.redstoneFlux.storedPower=储存能量:
+enhancedportals.tab.redstoneFlux.powerUsage=消耗能量:
+
+# GUI Portal Controller
+enhancedportals.gui.portalController=传送门控制器
+enhancedportals.gui.uniqueIdentifier=唯一标识符(UID)
+enhancedportals.gui.public=公有
+enhancedportals.gui.private=私有
+enhancedportals.gui.noUidSet=未设定UID
+
+# Private/Public Tip Tab
+enhancedportals.tab.privatePublic=私人还是公用?
+enhancedportals.tab.privatePublic.info=<6>公用:<0> 允许所有连接<NL><6>私人:<0> 仅允许来自同一稳定器的连接
+
+# Glyphs Tab
+enhancedportals.tab.glyphs=Glyphs
+enhancedportals.tab.glyphs.info=// TODO
+
+# GUI Dialler
+enhancedportals.gui.dialDevice=调谐装置
+enhancedportals.gui.storedIdentifiers=现存标识
+enhancedportals.gui.terminate=终止
+enhancedportals.gui.dial=连接
+enhancedportals.gui.identifierCannotBeBlank=标识不能为空
+enhancedportals.gui.name=名称
+enhancedportals.gui.identifierName=标识名
+enhancedportals.gui.manualEntry=新增
+enhancedportals.gui.delete=删除
+enhancedportals.gui.edit=编辑
+
+# GUI Dial Tab
+enhancedportals.tab.dialling=调谐装置
+enhancedportals.tab.dialling.info=// TODO
+
+# GUI Texture
+enhancedportals.gui.customIcon=自定义图标
+enhancedportals.gui.facade=外观
+enhancedportals.gui.frame=框架
+enhancedportals.gui.portal=传送门
+enhancedportals.gui.particle=粒子
+enhancedportals.gui.colour=颜色
+enhancedportals.gui.red=红
+enhancedportals.gui.green=绿
+enhancedportals.gui.blue=蓝
+enhancedportals.gui.textures=贴图
+
+# Colour Tip Tab
+enhancedportals.tab.colourTip=颜色显示错误?
+enhancedportals.tab.colourTip.info=颜色通过混色来添加,而不是通过魔法.如果你给一个黄色贴图添加青色,就会得到绿色的.若要解决这一问题,使用你能找到的最白/灰度最小的贴图即可.
+
+# Custom Frame Textures
+enhancedportals.tab.frameCustomTexture=自定义贴图
+enhancedportals.tab.frameCustomTexture.info=你可以在材质包内放入自定义框架贴图在此使用.
+
+# Custom Frame Textures
+enhancedportals.tab.portalCustomTexture=自定义贴图
+enhancedportals.tab.portalCustomTexture.info=你可以在材质包内放入自定义传送门贴图在此使用.
+
+# GUI Module Manipulator
+enhancedportals.gui.moduleManipulator=模块调制器
+enhancedportals.gui.modules=传送门模块
+
+# GUI Network Interface
+enhancedportals.gui.networkInterface=网络接口
+enhancedportals.gui.networkIdentifier=网络标识
+enhancedportals.gui.networkInformation=网络信息
+enhancedportals.gui.networkedPortals=网络中现有传送门
+enhancedportals.gui.notSet=未设定
+
+# GUI Programmable Interface
+enhancedportals.gui.programmableInterface=可编程接口
+enhancedportals.gui.errorLog=错误日志
+enhancedportals.gui.compile=编译
+
+# GUI Redstone
+enhancedportals.gui.redstoneInterface=红石接口
+
+enhancedportals.gui.input=输入
+enhancedportals.gui.createPortalOnSignal=收到信号时开启
+enhancedportals.gui.removePortalOnSignal=收到信号时关闭
+enhancedportals.gui.createPortalOnPulse=收到脉冲时开启
+enhancedportals.gui.removePortalOnPulse=收到脉冲时移除
+enhancedportals.gui.dialStoredIdentifier=调谐至特定标识
+enhancedportals.gui.dialRandomIdentifier=调谐至随机标识
+enhancedportals.gui.dialStoredIdentifier2=调谐至特定标识(2)
+enhancedportals.gui.dialRandomIdentifier2=调谐至随机标识(2)
+
+enhancedportals.gui.output=输出
+enhancedportals.gui.portalCreated=传送门开启瞬间
+enhancedportals.gui.portalRemoved=传送门关闭瞬间
+enhancedportals.gui.portalActive=传送门激活期间
+enhancedportals.gui.portalInactive=传送门终止期间
+enhancedportals.gui.entityTeleport=实体接触传送门时
+enhancedportals.gui.playerTeleport=玩家接触传送门时
+enhancedportals.gui.animalTeleport=动物接触传送门时
+enhancedportals.gui.monsterTeleport=怪物接触传送门时
+
+# GUI General
+enhancedportals.gui.initialized=初始化
+enhancedportals.gui.glyphs=Glyphs
+enhancedportals.gui.cancel=取消
+enhancedportals.gui.save=保存
+enhancedportals.gui.reset=重置
+enhancedportals.gui.clear=清空
+enhancedportals.gui.random=随机
+enhancedportals.gui.add=添加
+enhancedportals.gui.accept=接受
+enhancedportals.gui.clickToModify=点击修改
+enhancedportals.gui.uidInUse=该UID已被使用
+
+# GUI ITM
+enhancedportals.gui.transferItem=物品传输模块
+
+# GUI FTM
+enhancedportals.gui.transferFluid=流体传输模块
+
+# GUI ETM
+enhancedportals.gui.transferEnergy=能量传输模块
+
+# GUI Transfer
+enhancedportals.gui.sending=发送
+enhancedportals.gui.receiving=接收
+
+# Errors
+enhancedportals.error=[错误] 
+enhancedportals.error.noUidSet=在此之前你必须先设定一个UID
+enhancedportals.error.voidLinkCard=该卡连接的次元桥稳定器(DBS)已失效
+enhancedportals.error.receivingPortalNotInitialized=接收端传送门尚未初始化
+enhancedportals.error.sendingPortalNotInitialized=发送端传送门尚未初始化
+enhancedportals.error.stabilizerNotFound=无法找到DBS.请嵌入有效的新定位卡来继续.
+enhancedportals.error.receivingPortalNoDialler=你无法连接至没有调谐装置的传送门
+enhancedportals.error.sendingPortalNoDialler=你无法从一个没有调谐装置的传送门发出连接
+enhancedportals.error.uniqueIdentifierNotSet=你无法在未设定UID的情况下连接
+enhancedportals.error.networkIdentifierNotSet=你无法在未设定网络标识的情况下连接
+enhancedportals.error.dialDeviceNotFound=你无法在没有调谐装置的情况下连接
+enhancedportals.error.diallingPortalAlreadyActive=你无法从已激活的传送门发出连接
+enhancedportals.error.receivingPortalAlreadyActive=你无法连接至已激活的传送门
+enhancedportals.error.notEnoughPowerToStart=DBS能量不足,无法建立连接
+enhancedportals.error.maxedConnectionLimit=DBS激活的连接过多
+enhancedportals.error.cannotDialDiallingPortal=你无法连接至发出连接的传送门
+enhancedportals.error.diallingPortalNotFound=定位发送端传送门失败
+enhancedportals.error.receivingPortalNotFound=定位接收端传送门失败
+enhancedportals.error.notOnSameStabilizer=传送门尚未连接到同一个DBS
+enhancedportals.error.sendingPortalFailedToCreatePortal=发送端控制器创建传送门失败
+enhancedportals.error.receivingPortalFailedToCreatePortal=接收端控制器创建传送门失败
+enhancedportals.error.noPortalWithThatIdentifierReceiving=无法找到该UID的接收端传送门
+enhancedportals.error.noPortalWithThatIdentifierSending=无法找到该UID的发送端传送门(你是怎么连接的...? o_O)
+enhancedportals.error.failedToTransfer=接收端传送门过小
+enhancedportals.error.multiplePortalControllers=你无法同时安装多个传送门控制器
+enhancedportals.error.multipleProgram=你无法同时安装多个可编程接口
+enhancedportals.error.multipleMod=你无法同时安装多个模块调制器
+enhancedportals.error.dialAndNetwork=你无法同时安装调谐装置和网络接口
+enhancedportals.error.portalCouldNotBeCreatedHere=该位置不能创建传送门
+enhancedportals.error.failedToCreatePortal=该位置不能创建传送门
+enhancedportals.error.couldNotCreatePortalHere=该位置不能创建传送门
+
+# Success
+enhancedportals.success=[成功] 
+enhancedportals.success.create=传送门初始化
+enhancedportals.success.reconfigure=传送门已重新配置
+
+
+############
+## Manual ##
+############
+
+enhancedportals.manual.decorBorderedQuartz.subtitle=装饰
+enhancedportals.manual.dbsEmpty.title=次元桥稳定器(空)
+enhancedportals.manual.upgrade0.subtitle=传送门升级
+enhancedportals.manual.module0.subtitle=传送门模块
+enhancedportals.manual.frame0.subtitle=传送门部件
+
+## "Title" Page
+enhancedportals.manual.subject.title=增强 传送门
+enhancedportals.manual.subject.sub=虫洞隧道
+
+## Table of Contents
+enhancedportals.manual.table_of_contents.title=内容目录
+
+## Chapter Item Gallery Title
+enhancedportals.manual.gallery.title=物品一览
+
+## Chapter 1:
+enhancedportals.manual.chapter.0.title=序言
+enhancedportals.manual.chapter.0.p.0=构成生命与空间的亚原子粒子 现在都可以被轻松操纵.我们已 经能像编制丝绸一样利用它们. 通过这一概念,我们就能制造出 装置来建立跨空间与维度的微 型虫洞,实现空间传送.
+
+## Chapter 2:
+enhancedportals.manual.chapter.1.title=基础
+enhancedportals.manual.chapter.1.p.0=制造虫洞主要从构建次元桥稳 定器开始.它让你能跨距离维持 并传输生物信息.
+enhancedportals.manual.chapter.1.p.1=为了维持虫洞你需要建造一个 能承受虫洞构造的特制框架.叫 做传送门框架.
+enhancedportals.manual.chapter.1.p.2=最后你还要想方设法让传送门 出现.从一个简单的按钮到一个 调谐装置皆可.
+
+## Chapter 3:
+enhancedportals.manual.chapter.2.title=稳定次元
+enhancedportals.manual.chapter.2.p.0=次元桥稳定器能同时制造多个 虫洞,上限由它自身的大小决定.
+enhancedportals.manual.chapter.2.p.1=若要构建一个DBS,在2x3x2的空 间内放置12个DBS方块,再用扳手 右击任意一部分即可.如果配置 无误,就会形成一个有效的DBS.
+enhancedportals.manual.chapter.2.p.2=每级DBS都能让你额外维持2个 传送门,单个DBS最高可至256级 .一旦一个DBS构成,你就无法添 加额外的级数.若DBS被破坏,你 就得重新连接之前的传送门.每 级DBS可以储存约15000RF的能 量,并且当有传送门在使用中时 还会扩容.如果你选择给虫洞提 供最小的能量级,就会增大其不 稳定性.伴随着未知的副作用,分 子重列也会受到影响.
+
+## Chapter 4:
+enhancedportals.manual.chapter.3.title=构建维束
+enhancedportals.manual.chapter.3.p.0=将虫洞限制在次元内的艰难工 作可用传送门框架完成.传送门 框架的搭建基于传统的黑曜石 (下界)传送门.传送门只会形成 于水平或竖直的闭合平面内.
+enhancedportals.manual.chapter.3.p.1=将传送门框架和DBS交互需要 用到传送门控制器.该控制器可 放在传送门的任何一部分,并且 它需要能朝着要打开传送门的 地方(不能放在角落).一旦放置 下来,你就需要用一张定位卡将 其与DBS连接.将定位卡放入DB S设定完成后用卡右击控制器, 初始化传送门框架.若你已经成 功配置了传送门,就可以用扳手 来配置它的UID.UID即该传送门 的唯一标识地址.如果你重新 放置了传送门控制器,与DBS的 连接就会丢失,就得重新与可用 的DBS建立连接.
+enhancedportals.manual.chapter.3.p.2=传送门之间收发数据的方法有 两种.第一种就是连接到网络中, 你需要用到另一种名为网络接 口的方块.它让你能访问连接的 对象.只需设定好特别的网络ID (NID),之后就能让同一网络内传 送门的虫洞相互连接.
+enhancedportals.manual.chapter.3.p.3=重置一个传送门之后,就需要用 扳手右击控制器来重新加载.
+
+## Chapter 5:
+enhancedportals.manual.chapter.4.title=引发黑洞
+enhancedportals.manual.chapter.4.p.0=要最终引发虫洞的连接,你还需 要用到红石接口.它是一种传送 门框架方块,让你能与你的传送 门交互.当你将它装入传送门后 ,用扳手右击来设定交互行为.
+enhancedportals.manual.chapter.4.p.1=最简单的激发方式就是做一个 按钮,将它直接安在红石接口上 ,并将其选项设置为"输入"&"接 收到脉冲时创建传送门".通过 利用红石接口,你就有很多方法 来实现传送门的远程控制,并且 你能根据个人需要给框架装上 任意数量的红石接口.探索与实 践会让你了解更多.
+
+## Chapter 6:
+enhancedportals.manual.chapter.5.title=调谐传呼
+enhancedportals.manual.chapter.5.p.0=传送门还有第二种方法相互交 流,那就是通过调谐装置.调谐 装置也是一种传送门框架方块, 让你能输入另一个传送门的UID 并与其建立虫洞连接.通过该方 式,你也可以连接到你的DBS网 络以外的传送门,前提是那个传 送门在控制器中设定成了"公有". 否则只能通过同一DBS连接传 送门.注意用此方法你只能连接 2个传送门,除非你中断该连接 ,不然其他的传送门也无法连接 到该传送门,而DBS能量耗尽的 情况就更不用说了.我觉得红石 电路应该能自动化该终止过程.
+
+## Chapter 7:
+enhancedportals.manual.chapter.6.title=辅助装置
+enhancedportals.manual.chapter.6.p.0=集成是构建传送门的一个关键 词,当你已经有了多个传送门, 你还可以进一步自定义它们的 外观,以及它们所能传输的对象.
+enhancedportals.manual.chapter.6.p.1=用纳米刷右击传送门就能打开 它的自定义界面.你可以调整传 送门方块的颜色,改变框架方块 的外观,以及它显示的粒子效果.
+enhancedportals.manual.chapter.6.p.2=更高级一些的自定义就是使用 模块调制器了.当它集成入传送 门框架后,传送门就能被装上特 制的模块.实现从隐藏传送门到 调整传送后朝向等等各种功能.
+enhancedportals.manual.chapter.6.p.3=当然我们也需要考虑到其他形 式的技术,所以我们也能制作一 些特殊的方块:能量,流体,物品 的传输模块(传送门框架方块). 使得传送门在传输上更加灵活, 而不是局限于玩家,怪物和动物.
+
+
+######################
+## ITEM INFORMATION ##
+######################
+
+enhancedportals.manual.wrench.title=item.wrench.name
+enhancedportals.manual.wrench.info=右击一个DBS阵列就能将其变为完整的DBS.也能潜行右击来拆除传送门的方块.对传送门模块方块使用来打开对应的GUI.它也能被BC或是TE的扳手代替.
+enhancedportals.manual.nanobrush.title=item.nanobrush.name
+enhancedportals.manual.nanobrush.info=极其危险的物品.对传送门框架使用来打开自定义外观的GUI.别抹到头发上.
+enhancedportals.manual.glasses.title=item.glasses.name
+enhancedportals.manual.glasses.info=装备时能显示出那些传送门框架模块,方便你的配置.
+enhancedportals.manual.location_card.title=item.location_card.name
+enhancedportals.manual.location_card.info=用于将一个传送门控制器连接到DBS.只需将一张卡放入DBS再取出,右击传送门控制器.能保存起来重复使用,将多个传送门连接到同一个DBS.
+enhancedportals.manual.dbs.title=tile.dbs.name
+enhancedportals.manual.dbs.info=稳定次元内的一个定点以便虫洞的生成和数据传输的进行.使用RF能量来稳定.将DBS方块摆成2x3x2或3x3x2的阵列,再用扳手右击即可形成一个DBS.
+enhancedportals.manual.frame0.title=tile.frame.frame.name
+enhancedportals.manual.frame0.info=基础的框架方块,能形成并支撑虫洞.
+enhancedportals.manual.frame1.title=tile.frame.controller.name
+enhancedportals.manual.frame1.info=框架控制器用于与DBS建立连接.一旦通过一张定位卡连接,最好就不要移除控制器.如果它被拆除了,就需要重新连接.你可以将一个传送门设为私有,使得只有连接到同一个DBS的传送门才能与它相通.当然你也可以选择公有.
+enhancedportals.manual.frame2.title=tile.frame.redstone.name
+enhancedportals.manual.frame2.info=红石接口让你能通过红石信号自动化控制.只需制作出来再装入框架中即可.也可以同时安装多个来获得更多选择.
+enhancedportals.manual.frame3.title=tile.frame.network_interface.name
+enhancedportals.manual.frame3.info=网络接口允许两个及以上的传送门在同一网络内相互连接.只需在其中一个输入网络ID,再给另一个输入同样的NID,就会接通两者.私有的传送门无法连接到绑定不同DBS的传送门.
+enhancedportals.manual.frame4.title=tile.frame.dial_device.name
+enhancedportals.manual.frame4.info=调谐装置模块让你无需构建网络就能连接到另一个传送门.你也能在它的GUI中储存其他传送门的UID(按住shift删除).私有的传送门无法连接到绑定不同DBS的传送门.
+enhancedportals.manual.frame6.title=tile.frame.upgrade.name
+enhancedportals.manual.frame6.info=模块调制器是个让传送门能与模块芯片交互的框架.你可以做出各种芯片安装上去来实现不同的功能,从静音到隐藏传送门等等.
+enhancedportals.manual.frame7.title=tile.frame.fluid.name
+enhancedportals.manual.frame7.info=该模块让你能向装有同种模块的目标传送门传输流体.
+enhancedportals.manual.frame8.title=tile.frame.item.name
+enhancedportals.manual.frame8.info=该模块让你能向装有同种模块的目标传送门传输物品.
+enhancedportals.manual.frame9.title=tile.frame.energy.name
+enhancedportals.manual.frame9.info=该模块让你能向装有同种模块的目标传送门传输能量.
+enhancedportals.manual.blank_module.title=item.blank_portal_module.name
+enhancedportals.manual.blank_module.info=基础电路模块.用于制作其他模块和模块调制器.

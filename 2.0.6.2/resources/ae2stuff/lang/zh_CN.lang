@@ -1,0 +1,45 @@
+tile.ae2stuff.Encoder.name=样板编码台
+tile.ae2stuff.Grower.name=晶体催生仓
+tile.ae2stuff.Inscriber.name=高级压印器
+tile.ae2stuff.Wireless.name=无线接入器 
+
+item.ae2stuff.WirelessKit.name=无线设置工具
+item.ae2stuff.Visualiser.name=网络可视化工具
+
+ae2stuff.error.not_connected=未连接网络
+
+ae2stuff.waila.sleep.true=休眠中
+ae2stuff.waila.sleep.false=工作中
+ae2stuff.waila.power=%s / %s AE
+
+ae2stuff.waila.wireless.connected=连接至%s,%s,%s
+ae2stuff.waila.wireless.notconnected=非连接 
+ae2stuff.waila.wireless.channels=频道: %s
+ae2stuff.waila.wireless.power=能量使用: %s AE/t
+
+ae2stuff.gui.lock.on=锁定-不能自动移除
+ae2stuff.gui.lock.off=解锁-能够自动移除
+ae2stuff.gui.lock.note=如果中间的槽非空或者正在进行中将不能处理
+
+ae2stuff.gui.recipes=Recipes
+
+ae2stuff.wireless.tool.empty=点击无线接入器以绑定
+ae2stuff.wireless.tool.bound1=已绑定到 %s,%s,%s
+ae2stuff.wireless.tool.bound2=点击其他无线接入器以连接
+ae2stuff.wireless.tool.connected=已连接到 %s,%s,%s
+ae2stuff.wireless.tool.failed=连接失败
+ae2stuff.wireless.tool.dimension=两个接入器必须在相同维度
+ae2stuff.wireless.tool.noexist=绑定的接入器不存在
+ae2stuff.wireless.tool.security.network=安全违规 - 网络无法连接
+ae2stuff.wireless.tool.security.player=安全违规 - 你没有修改这个网络的权限
+
+ae2stuff.visualiser.bound=可视化网络位于 %s,%s,%s
+ae2stuff.visualiser.mode=模式:
+ae2stuff.visualiser.set=模式变更为 %s
+ae2stuff.visualiser.mode.full=显示所有
+ae2stuff.visualiser.mode.nodes=显示节点
+ae2stuff.visualiser.mode.channels=显示频道
+ae2stuff.visualiser.mode.nonum=显示频道与节点
+ae2stuff.visualiser.mode.p2p=显示P2P连接
+
+itemGroup.bdew.ae2stuff=应用能源附加机器
