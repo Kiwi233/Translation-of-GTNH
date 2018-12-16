@@ -138,22 +138,22 @@ recipes.addShaped(<GraviSuite:advDDrill:27>, [
 
  
 // --- SuperConductorCover
-<GraviSuite:itemSimpleItem>.displayName = "\u8d85\u5bfc\u7ebf\u7f06\u5916\u5c42";
+<GraviSuite:itemSimpleItem>.displayName = "Superconductor Cover";
 
 // --- SuperConductor
-<GraviSuite:itemSimpleItem:1>.displayName = "\u8d85\u5bfc\u7ebf\u7f06";
+<GraviSuite:itemSimpleItem:1>.displayName = "Superconductor";
 
 // --- Cooling Core
-<GraviSuite:itemSimpleItem:2>.displayName = "\u51b7\u5374\u6838\u5fc3";
+<GraviSuite:itemSimpleItem:2>.displayName = "Cooling Core";
 
 // --- Gravitation Engine
-<GraviSuite:itemSimpleItem:3>.displayName = "\u91cd\u529b\u5f15\u64ce";
+<GraviSuite:itemSimpleItem:3>.displayName = "Gravitation Engine";
 
 // --- Magnetron
-<GraviSuite:itemSimpleItem:4>.displayName = "\u78c1\u63a7\u7ba1";
+<GraviSuite:itemSimpleItem:4>.displayName = "Magnetron";
 
 // --- VajraCore
-<GraviSuite:itemSimpleItem:5>.displayName = "\u91d1\u521a\u6775\u6838\u5fc3";
+<GraviSuite:itemSimpleItem:5>.displayName = "Vajra Core";
 
 // --- EngineBoost
-<GraviSuite:itemSimpleItem:6>.displayName = "\u52a0\u901f\u5f15\u64ce";
+<GraviSuite:itemSimpleItem:6>.displayName = "Engine Booster";

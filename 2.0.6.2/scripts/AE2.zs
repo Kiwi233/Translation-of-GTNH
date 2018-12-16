@@ -1342,4 +1342,4 @@ Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.me
 
 // --- Renaming Stuff ---
 
-NEI.overrideName(UStorageHousing, "\u004d\u0045\u5b58\u50a8\u5916\u58f3");
+NEI.overrideName(UStorageHousing, "Universal Storage Housing");
