@@ -1607,7 +1607,7 @@ Wiremill.addRecipe(<dreamcraft:item.ElectrotineWire> * 2, <ProjRed|Core:projectr
 
 // --- GTNH Tab
 mods.thaumcraft.Research.addTab("NEWHORIZONS", "dreamcraft", "textures/thaumcraft/icon/icon_GTNH.png", "dreamcraft", "textures/thaumcraft/tab/tab_GTNH.png");
-game.setLocalization("tc.research_category.NEWHORIZONS", "New Horizons");
+game.setLocalization("tc.research_category.NEWHORIZONS", "GTNH");
 
 // --- Wither Ring
 mods.thaumcraft.Research.addResearch("WITHERRING", "ARTIFICE", "alienis 15, praecantatio 12, superbia 9, spiritus 6, infernus 3", 3, 2, 4, <dreamcraft:item.WitherProtectionRing>);
