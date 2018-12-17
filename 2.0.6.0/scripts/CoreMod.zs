@@ -1611,13 +1611,15 @@ game.setLocalization("tc.research_category.NEWHORIZONS", "GTNH");
 
 // --- Wither Ring
 mods.thaumcraft.Research.addResearch("WITHERRING", "ARTIFICE", "alienis 15, praecantatio 12, superbia 9, spiritus 6, infernus 3", 3, 2, 4, <dreamcraft:item.WitherProtectionRing>);
-game.setLocalization("tc.research_name.WITHERRING", "Wither Protection Ring");
-game.setLocalization("tc.research_text.WITHERRING", "[NH] Wither...? It is star farming time");
+game.setLocalization("tc.research_name.WITHERRING", "\u51cb\u7075\u9632\u62a4\u6307\u73af");
+game.setLocalization("tc.research_text.WITHERRING", "[NH]\u51cb\u7075...?\u5b83\u53ea\u662f\u4e2a\u4e0b\u754c\u4e4b\u661f\u800c\u5df2");
 mods.thaumcraft.Research.addPrereq("WITHERRING", "RUNICARMOR", false);
 mods.thaumcraft.Research.addSibling("WITHERRING", "RUNICARMOR");
 mods.thaumcraft.Research.setConcealed("WITHERRING", true);
 mods.thaumcraft.Research.addPage("WITHERRING", "NewHorizons.research_page.WITHERRING");
-game.setLocalization("NewHorizons.research_page.WITHERRING", "The Wither Protection Ring is a very special ring. Now you find a way to rid of the nasty withering effect. With this Ring it is time to farm some Netherstars. Good luck!!!");
+game.setLocalization("NewHorizons.research_page.WITHERRING", "\u51cb\u7075\u9632\u62a4\u6307\u73af\u662f\u4e00\u79cd\u975e\u5e38\u7279\u6b8a\u7684\u6307\u73af.
+\u6234\u4e0a\u8fd9\u4e2a\u6307\u73af,\u4f60\u5c31\u80fd\u6446\u8131\u8ba8\u538c\u7684\u51cb\u96f6\u72b6\u6001,\u8f7b\u677e\u6109\u5feb\u5730\u6536\u83b7\u4e0b\u754c\u4e4b\u661f\u5566!
+\u795d\u4f60\u597d\u8fd0!!!");
 mods.thaumcraft.Infusion.addRecipe("WITHERRING", <Thaumcraft:ItemBaubleBlanks:1>, 
 [<minecraft:nether_star>, <minecraft:milk_bucket>, <minecraft:skull:1>, <minecraft:milk_bucket>, <minecraft:skull:1>], 
 "alienis 45, praecantatio 35, spiritus 30, superbia 25, infernus 15",  <dreamcraft:item.WitherProtectionRing>, 3);
@@ -1633,12 +1635,13 @@ mods.thaumcraft.Warp.addToResearch("WITHERRING", 2);
 
 // --- Carved Imminence Stone
 mods.thaumcraft.Research.addResearch("EMINENCESTONE", "NEWHORIZONS", "alienis 15, sensus 12, terra 9, aer 6", 0, 4, 12, <ExtraUtilities:decorativeBlock1:14>);
-game.setLocalization("tc.research_name.EMINENCESTONE", "Carved 'Eminence' Stone");
-game.setLocalization("tc.research_text.EMINENCESTONE", "[EU] Portal Stones");
+game.setLocalization("tc.research_name.EMINENCESTONE", "\u933e\u5236\u663e\u8d6b\u4e4b\u77f3");
+game.setLocalization("tc.research_text.EMINENCESTONE", "[EU]\u4f20\u9001\u4e4b\u77f3");
 mods.thaumcraft.Research.addPrereq("EMINENCESTONE", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("EMINENCESTONE", false);
 mods.thaumcraft.Research.addPage("EMINENCESTONE", "ExtraUtilities.research_page.EMINENCESTONE");
-game.setLocalization("ExtraUtilities.research_page.EMINENCESTONE", "A stone with trans-dimensional capacities. Can be used to craft a portal to The Last Millenium, or as expensive decoration block.");
+game.setLocalization("ExtraUtilities.research_page.EMINENCESTONE", "\u5177\u6709\u8de8\u7ef4\u5ea6\u80fd\u529b\u7684\u77f3\u5934.
+\u53ef\u7528\u4e8e\u5408\u6210\u6df1\u6e0a\u4e16\u754c\u4f20\u9001\u95e8\u6216\u662f\u4f5c\u4e3a\u4e00\u79cd\u6602\u8d35\u7684\u88c5\u9970\u65b9\u5757.");
 mods.thaumcraft.Arcane.addShaped("EMINENCESTONE", <ExtraUtilities:decorativeBlock1:14> * 2, "aer 50, ignis 50, terra 50, aqua 50, ordo 50, perditio 50", [
 [<gregtech:gt.metaitem.01:17330>, <ProjRed|Illumination:projectred.illumination.lamp:18>, <gregtech:gt.metaitem.01:17330>],
 [<gregtech:gt.metaitem.01:17532>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:17532>],
@@ -1647,38 +1650,48 @@ mods.thaumcraft.Research.addArcanePage("EMINENCESTONE", <ExtraUtilities:decorati
 
 // --- Portal to the Last Millennium
 mods.thaumcraft.Research.addResearch("PORTALMILLENIUM", "NEWHORIZONS", "alienis 15, sensus 12, terra 9, ignis 6 vacuos 200", 2, 6, 4, <ExtraUtilities:dark_portal:2>);
-game.setLocalization("tc.research_name.PORTALMILLENIUM", "Portal to The Last Millennium");
-game.setLocalization("tc.research_text.PORTALMILLENIUM", "[EU] Night and Void");
+game.setLocalization("tc.research_name.PORTALMILLENIUM", "\u4f20\u9001\u95e8:\u6df1\u6e0a\u4e16\u754c");
+game.setLocalization("tc.research_text.PORTALMILLENIUM", "[EU]\u6697\u591c\u4e0e\u865a\u7a7a");
 mods.thaumcraft.Research.addPrereq("PORTALMILLENIUM", "EMINENCESTONE", false);
 mods.thaumcraft.Research.addPrereq("PORTALMILLENIUM", "OCULUS", false);
 mods.thaumcraft.Research.setConcealed("PORTALMILLENIUM", true);
 mods.thaumcraft.Research.addPage("PORTALMILLENIUM", "ExtraUtilities.research_page.PORTALMILLENIUM");
-game.setLocalization("ExtraUtilities.research_page.PORTALMILLENIUM", "This place is known as The Last Millenium. All life, energy, knowledge, passion, struggle, philosophy and meaning is just a few short centuries from being rendered fully pointless. On the plus side, rent is very cheap now.");
+game.setLocalization("ExtraUtilities.research_page.PORTALMILLENIUM", "\u6709\u65f6\u4f60\u60f3\u8981\u9003\u907f\u4e00\u5207,\u73b0\u5728\u4f60\u6709\u673a\u4f1a\u8fdb\u5165\u4e00\u4e2a\u771f\u6b63\u6ca1\u6709\u4efb\u4f55\u4e8b\u4f1a\u70e6\u6270\u4f60\u7684\u4e16\u754c.
+\u53f3\u952e\u4f20\u9001\u95e8\u4f1a\u5c06\u4f60\u4f20\u9001\u5230\u65f6\u95f4\u6d2a\u6d41\u4e4b\u5916,\u5728\u90a3\u91cc\u4f60\u65e0\u53ef\u907f\u514d\u7684\u4f1a\u6f02\u5411\u65f6\u95f4\u7684\u7ec8\u70b9,\u73b0\u5b9e\u4e16\u754c\u5f7b\u5e95\u7070\u98de\u70df\u706d\uff0c\u4e0d\u8fc7\u90a3\u81f3\u5c11\u8981\u51e0\u4e2a\u4e16\u7eaa\u7684\u65f6\u95f4.
+\u8fd9\u4e2a\u5730\u65b9\u88ab\u79f0\u4e3a\u6df1\u6e0a\u4e16\u754c(\u6700\u540e\u7684\u5343\u79a7\u5e74).\u6240\u6709\u7684\u751f\u547d\u3001\u80fd\u91cf\u3001\u77e5\u8bc6\u3001\u6fc0\u60c5\u3001\u594b\u6597\u3001\u54f2\u5b66\u548c\u610f\u4e49,\u5728\u77ed\u77ed\u7684\u51e0\u4e2a\u4e16\u7eaa\u91cc\u90fd\u5c06\u53d8\u5f97\u6beb\u65e0\u610f\u4e49.
+\u4e0d\u8fc7\u597d\u5904\u662f,\u90a3\u91cc\u7684\u623f\u79df\u542c\u8bf4\u73b0\u5728\u4fbf\u5b9c\u4e86\u4e0d\u5c11.");
 mods.thaumcraft.Infusion.addRecipe("PORTALMILLENIUM", <minecraft:clock>, [<ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:2>], "alienis 75, sensus 25, praecantatio 75, terra 25, vacuos 75",  <ExtraUtilities:dark_portal:2>, 4);
 mods.thaumcraft.Research.addInfusionPage("PORTALMILLENIUM", <ExtraUtilities:dark_portal:2>);
 mods.thaumcraft.Warp.addToResearch("PORTALMILLENIUM", 2);
 
 // --- Portal to the Deep Dark
 mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "NEWHORIZONS", "alienis 15, spiritus 15, metallum 12, fabrico 9 lucrum 6, potentia 3", 2, 8, 4, <ExtraUtilities:dark_portal>);
-game.setLocalization("tc.research_name.PORTALDEEPDARK", "Portal to The Deep Dark");
-game.setLocalization("tc.research_text.PORTALDEEPDARK", "[EU] Deep, Deeper, Deep Dark");
+game.setLocalization("tc.research_name.PORTALDEEPDARK", "\u6f06\u9ed1\u4e4b\u95e8");
+game.setLocalization("tc.research_text.PORTALDEEPDARK", "[EU]\u6df1\u6c89\u6df1\u6c89\u6df1\u6c89\u7684\u9ed1\u6697");
 mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "PORTALMILLENIUM", false);
 mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "ICHOR", false);
 mods.thaumcraft.Research.setConcealed("PORTALDEEPDARK", true);
 mods.thaumcraft.Research.addPage("PORTALDEEPDARK", "ExtraUtilities.research_page.PORTALDEEPDARK");
-game.setLocalization("ExtraUtilities.research_page.PORTALDEEPDARK", "As an experienced miner you naturally wish to mine deeper and further than ever before into areas of natural wealth. The deep dark is a realm far below the void, filled with natural resources and deadly enemies. Some say that the darkness within this realm is alive and will consume any unlucky adventurer who wanders too far into it. Remember to bring torches. Torches will not protect you completely, however since mobs will spawn at all light levels in the Deep Dark. Magnum torches and Chandeliers will still prevent mob spawning.");
+game.setLocalization("ExtraUtilities.research_page.PORTALDEEPDARK", "\u4f5c\u4e3a\u4e00\u540d\u8d44\u6df1\u77ff\u5de5\u7684\u4f60\u81ea\u7136\u671f\u671b\u80fd\u591f\u5411\u5730\u5fc3\u6df1\u5904\u4e0d\u65ad\u6316\u6398\u4ee5\u63a2\u7d22\u5927\u81ea\u7136\u7559\u7ed9\u4e16\u4eba\u7684\u8d22\u5bcc.
+\u6f06\u9ed1\u4e4b\u5730\u662f\u5904\u5728\u865a\u7a7a\u4e4b\u4e0b\u6781\u8fdc\u7684\u4e00\u4e2a\u4e16\u754c,\u8d44\u6e90\u4e30\u5bcc\u5374\u5371\u673a\u56db\u4f0f.
+\u4f20\u95fb\u6f06\u9ed1\u4e16\u754c\u4e2d\u65e0\u5c3d\u7684\u9ed1\u6697\u662f\u6709\u751f\u547d\u7684,\u5b83\u4f1a\u541e\u566c\u90a3\u4e9b\u8d2a\u5fc3\u4e0d\u8db3\u7684\u5012\u9709\u77ff\u5de5.
+\u8bb0\u5f97\u5e26\u4e0a\u706b\u628a\u4e0a\u8def,\u4e0d\u8fc7\u706b\u628a\u4e0d\u80fd\u4e3a\u4f60\u5e26\u6765\u8db3\u591f\u7684\u5b89\u5168,\u6df1\u6e0a\u4e16\u754c\u5f53\u4e2d\u7684\u602a\u7269\u751f\u6210\u5e76\u4e0d\u53d7\u5149\u7167\u5f3a\u5ea6\u7684\u5f71\u54cd.
+\u4f46\u662f\u5353\u8d8a\u706b\u70ac\u548c\u5962\u534e\u540a\u9876\u706f\u4f9d\u65e7\u80fd\u6709\u6548\u7684\u9632\u6b62\u602a\u7269\u751f\u6210.");
 mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <ExtraUtilities:dark_portal:2>, [<ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:decorativeBlock1:5>, <TConstruct:heavyPlate:314>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:315>, <gregtech:gt.metaitem.01:17397>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:314>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:decorativeBlock1:5>, <TConstruct:heavyPlate:314>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:315>, <gregtech:gt.metaitem.01:17397>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:314>, <ExtraUtilities:decorativeBlock1:5>], "alienis 300, spiritus 150, metallum 200, fabrico 150 lucrum 100, potentia 200",  <ExtraUtilities:dark_portal>, 12);
 mods.thaumcraft.Research.addInfusionPage("PORTALDEEPDARK", <ExtraUtilities:dark_portal>);
 mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 8);
 
 // --- Magical Wood
 mods.thaumcraft.Research.addResearch("MAGICALWOOD", "NEWHORIZONS", "praecantatio 15, lucrum 12, arbor 9, cognitio 6, pannus 3", -2, 6, 4, MagicalWood);
-game.setLocalization("tc.research_name.MAGICALWOOD", "Magical Wood");
-game.setLocalization("tc.research_text.MAGICALWOOD", "[EU] Twilight Thaumcraft Magic");
+game.setLocalization("tc.research_name.MAGICALWOOD", "\u9b54\u6cd5\u6728\u5934");
+game.setLocalization("tc.research_text.MAGICALWOOD", "[EU]\u66ae\u8272\u795e\u79d8\u9b54\u6cd5");
 mods.thaumcraft.Research.addPrereq("MAGICALWOOD", "EMINENCESTONE", false);
 mods.thaumcraft.Research.setConcealed("MAGICALWOOD", true);
 mods.thaumcraft.Research.addPage("MAGICALWOOD", "ExtraUtilities.research_page.MAGICALWOOD");
-game.setLocalization("ExtraUtilities.research_page.MAGICALWOOD", "Magical Wood is an ingredient in the crafting of the Ender Core. It can be placed near an Enchantment Table to boost the level the table can enchant at by five levels. The amount of magical wood made from the crafting recipe depends on the strength of the enchantments on the Enchanted Books. For example, 4x Protection I gives a single piece of Magical Wood, whereas 4x Protection IV gives 14 pieces of wood.");
+game.setLocalization("ExtraUtilities.research_page.MAGICALWOOD", "\u9b54\u6cd5\u6728\u5934\u53ef\u7528\u4e8e\u5408\u6210\u672b\u5f71\u4e4b\u6838.
+\u5b83\u8fd8\u53ef\u4ee5\u653e\u7f6e\u4e8e\u9644\u9b54\u53f0\u5468\u56f4,\u5c06\u9644\u9b54\u53f0\u7684\u9644\u9b54\u7b49\u7ea7\u63d0\u53475\u7ea7.
+\u5408\u6210\u65f6\u4f7f\u7528\u7684\u9644\u9b54\u4e66\u5f3a\u5ea6\u51b3\u5b9a\u4e86\u83b7\u5f97\u7684\u9b54\u6cd5\u6728\u5934\u6570\u91cf.
+\u4e3e\u4e2a\u6817\u5b50,4x\u4fdd\u62a4I\u53ef\u83b7\u5f97\u4e00\u4e2a\u9b54\u6cd5\u6728\u5934,\u53cd\u4e4b4x\u4fdd\u62a4IV\u53ef\u83b7\u5f9714\u4e2a\u9b54\u6cd5\u6728\u5934.");
 mods.thaumcraft.Arcane.addShaped("MAGICALWOOD", MagicalWood * 4, "aer 10, ignis 10, terra 10, aqua 10, ordo 10, perditio 10", [
 [SilverwoodLog, <TwilightForest:item.carminite>, GreatwoodLog],
 [<gregtech:gt.metaitem.01:17330>, <minecraft:bookshelf>, <gregtech:gt.metaitem.01:17330>],
@@ -1687,12 +1700,16 @@ mods.thaumcraft.Research.addArcanePage("MAGICALWOOD", MagicalWood);
 
 // --- Angel Block
 mods.thaumcraft.Research.addResearch("ANGELBLOCK", "NEWHORIZONS", "aer 15, lucrum 12, ignis 9, terra 6", -2, 8, 4, <ExtraUtilities:angelBlock>);
-game.setLocalization("tc.research_name.ANGELBLOCK", "Angel Block");
-game.setLocalization("tc.research_text.ANGELBLOCK", "[EU] A Block in the Air");
+game.setLocalization("tc.research_name.ANGELBLOCK", "\u5929\u4f7f\u65b9\u5757");
+game.setLocalization("tc.research_text.ANGELBLOCK", "[EU]\u7a7a\u4e2d\u7684\u65b9\u5757");
 mods.thaumcraft.Research.addPrereq("ANGELBLOCK", "MAGICALWOOD", false);
 mods.thaumcraft.Research.setConcealed("ANGELBLOCK", true);
 mods.thaumcraft.Research.addPage("ANGELBLOCK", "ExtraUtilities.research_page.ANGELBLOCK");
-game.setLocalization("ExtraUtilities.research_page.ANGELBLOCK", "The Angel Block is a block added by the Extra Utilities mod. This block is unique in that it does not need another block for it to be built against, so it can be placed in mid-air. When right-clicking the block will be placed in the direction youre looking. The block cant be placed diagonally in mid-air. No tool is required to break the block and it is broken instantly, even without any tools. After breaking the block does not drop, but rather instantly returns to the players inventory.");
+game.setLocalization("ExtraUtilities.research_page.ANGELBLOCK", "\u5929\u4f7f\u65b9\u5757\u662f\u7531\u66f4\u591a\u5b9e\u7528\u8bbe\u5907mod\u6dfb\u52a0\u7684\u65b9\u5757.
+\u8fd9\u79cd\u65b9\u5757\u7684\u72ec\u7279\u4e4b\u5904\u5728\u4e8e,\u5b83\u4e0d\u9700\u8981\u4e00\u4e2a\u975e\u7a7a\u6c14\u65b9\u5757\u6765\u653e\u7f6e\u5b83,\u6240\u4ee5\u5b83\u53ef\u4ee5\u76f4\u63a5\u5728\u534a\u7a7a\u653e\u7f6e.
+\u53ea\u8981\u53f3\u51fb\u7a7a\u6c14,\u8fd9\u4e2a\u65b9\u5757\u5c31\u4f1a\u51fa\u73b0\u5728\u4f60\u9762\u524d.\u4f46\u6b64\u65b9\u5757\u65e0\u6cd5\u5728\u534a\u7a7a\u5bf9\u89d2\u7ebf\u653e\u7f6e.
+\u7834\u574f\u6b64\u65b9\u5757\u65e0\u9700\u4efb\u4f55\u5de5\u5177,\u53ea\u9700\u5de6\u51fb\u5373\u53ef\u7acb\u523b\u7834\u574f.
+\u88ab\u7834\u574f\u540e,\u6b64\u65b9\u5757\u4e0d\u4f1a\u6210\u4e3a\u6389\u843d\u7269,\u800c\u662f\u7acb\u523b\u56de\u5230\u73a9\u5bb6\u80cc\u5305\u4e2d.");
 mods.thaumcraft.Arcane.addShaped("ANGELBLOCK", <ExtraUtilities:angelBlock>, "aer 50", [
 [<gregtech:gt.metaitem.01:17540>, <gregtech:gt.metaitem.01:29351>, <gregtech:gt.metaitem.01:17540>],
 [<IC2:itemDensePlates:7>, <Automagy:blockRunedObsidian>, <IC2:itemDensePlates:7>],
@@ -1701,13 +1718,16 @@ mods.thaumcraft.Research.addArcanePage("ANGELBLOCK", <ExtraUtilities:angelBlock>
 
 // --- Dezlis Marshmallow
 mods.thaumcraft.Research.addResearch("DEZILSMARSHMALLOW", "NEWHORIZONS", "alienis 15, praecantatio 12, superbia 9, sano 6, potentia 3", -2, 2, 4, <DraconicEvolution:dezilsMarshmallow>);
-game.setLocalization("tc.research_name.DEZILSMARSHMALLOW", "Dezil's Marshmallow");
-game.setLocalization("tc.research_text.DEZILSMARSHMALLOW", "[DE] OP food please");
+game.setLocalization("tc.research_name.DEZILSMARSHMALLOW", "Dezil\u7684\u68c9\u82b1\u7cd6");
+game.setLocalization("tc.research_text.DEZILSMARSHMALLOW", "[DE]\u62dc\u6258\u8fd9\u662fOP\u7684\u98df\u7269\u5427");
 mods.thaumcraft.Research.addPrereq("DEZILSMARSHMALLOW", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("DEZILSMARSHMALLOW", false);
 mods.thaumcraft.Research.setSpikey("DEZILSMARSHMALLOW", true);
 mods.thaumcraft.Research.addPage("DEZILSMARSHMALLOW", "de.research_page.DEZILSMARSHMALLOW");
-game.setLocalization("de.research_page.DEZILSMARSHMALLOW", "The ultimate power of food. You can swim in lava, dive like a fish, mine like crazy and jump like a rabbit. Eat one of these marshmallows and you will never get hungry again. You feel like you can take on the Dragon with just bare hands");
+game.setLocalization("de.research_page.DEZILSMARSHMALLOW", "\u6700\u7ec8\u6781\u7684\u98df\u7269.
+\u5403\u4e86\u5b83,\u4f60\u53ef\u4ee5\u5728\u5ca9\u6d46\u4e2d\u6e38\u6cf3,\u50cf\u9c7c\u4e00\u6837\u6f5c\u6c34,\u53d1\u75af\u4e00\u822c\u7684\u6316\u6398,\u8df3\u5f97\u50cf\u5154\u5b50\u4e00\u6837\u9ad8.
+\u53ea\u8981\u5403\u4e86\u4e00\u4e2a\u68c9\u82b1\u7cd6,\u4f60\u5c31\u6c38\u8fdc\u4e5f\u4e0d\u4f1a\u611f\u5230\u9965\u997f.
+\u4f60\u751a\u81f3\u89c9\u5f97\u81ea\u5df1\u53ef\u4ee5\u624b\u6495\u672b\u5f71\u9f99!");
 mods.thaumcraft.Infusion.addRecipe("DEZILSMARSHMALLOW", <dreamcraft:item.Marshmallow>, 
 [<harvestcraft:epicbaconItem>, <harvestcraft:deluxechickencurryItem>, <harvestcraft:meatfeastpizzaItem>, <harvestcraft:beefwellingtonItem>, <harvestcraft:sausageinbreadItem>, <harvestcraft:heartybreakfastItem>], 
 "alienis 32, praecantatio 16, superbia 24, sano 28, iter 20, potentia 12",  <DraconicEvolution:dezilsMarshmallow>, 5);
@@ -1716,13 +1736,16 @@ mods.thaumcraft.Warp.addToResearch("DEZILSMARSHMALLOW", 8);
 
 // --- Enchanting Table
 mods.thaumcraft.Research.addResearch("ENCHANTINGTABLE", "NEWHORIZONS", "praecantatio 15, fabrico 12, cognitio 9, potentia 6", 0, 0, 4, <minecraft:enchanting_table>);
-game.setLocalization("tc.research_name.ENCHANTINGTABLE", "Enchanting Table");
-game.setLocalization("tc.research_text.ENCHANTINGTABLE", "[MC] Oh, its more magical than a Table!");
+game.setLocalization("tc.research_name.ENCHANTINGTABLE", "\u9644\u9b54\u53f0");
+game.setLocalization("tc.research_text.ENCHANTINGTABLE", "[MC]\u5662,\u8fd9\u662f\u6709\u9b54\u6cd5\u7684\u53f0\u5b50!");
 mods.thaumcraft.Research.addPrereq("ENCHANTINGTABLE", "NITOR", false);
 mods.thaumcraft.Research.addPrereq("ENCHANTINGTABLE", "ALUMENTUM", false);
 mods.thaumcraft.Research.setConcealed("ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "Minecraft.research_page.ENCHANTINGTABLE");
-game.setLocalization("Minecraft.research_page.ENCHANTINGTABLE", "An enchantment table is a block that allows players to spend their experience point levels to enchant tools, books and armor. The enchanting tables main purpose is to enchant items. Bookshelves surrounding the table, with a block of air in between, will increase the maximum enchantment level. The table will enchant all tools and armor except the hoe, shears, flint and steel, lead and horse armor. The hoe and shears cannot be enchanted by the enchantment table and require an anvil and an appropriate enchanted book.");
+game.setLocalization("Minecraft.research_page.ENCHANTINGTABLE", "\u9644\u9b54\u53f0\u8fd9\u4e2a\u65b9\u5757\u4f7f\u73a9\u5bb6\u53ef\u4ee5\u6d88\u8017\u81ea\u5df1\u7684\u7ecf\u9a8c\u6765\u9644\u9b54\u5de5\u5177\u3001\u4e66\u548c\u62a4\u7532.
+\u4e0e\u9644\u9b54\u53f0\u95f4\u96941\u4e2a\u7a7a\u6c14\u65b9\u5757\u7684\u4e66\u67b6\u4f1a\u63d0\u5347\u6700\u9ad8\u9644\u9b54\u7b49\u7ea7.
+\u9644\u9b54\u53f0\u65e0\u6cd5\u9644\u9b54\u9504\u3001\u6253\u706b\u77f3\u3001\u526a\u5200\u8fd9\u6837\u7684\u5de5\u5177,\u4ee5\u53ca\u94a2\u5236\u3001\u94c5\u5236\u62a4\u7532,\u8fd8\u8981\u9a6c\u94e0.
+\u867d\u7136\u9504\u4e0e\u526a\u5200\u65e0\u6cd5\u76f4\u63a5\u4f7f\u7528\u9644\u9b54\u53f0\u9644\u9b54,\u4f46\u53ef\u4ee5\u901a\u8fc7\u94c1\u7827\u4ee5\u53ca\u5408\u9002\u7684\u9644\u9b54\u4e66\u9644\u9b54\u5b83\u4eec.");
 mods.thaumcraft.Arcane.addShaped("ENCHANTINGTABLE", <minecraft:enchanting_table>, "aer 45, aqua 45, terra 45, ignis 45, ordo 45, perditio 45", [
 [<ForgeMicroblock:microblock:516>.withTag({mat: "minecraft:diamond_block"}), <minecraft:carpet:14>, <ForgeMicroblock:microblock:516>.withTag({mat: "minecraft:diamond_block"})],
 [<Thaumcraft:ItemResource>, <minecraft:bookshelf>, <Thaumcraft:ItemResource:1>],
@@ -1731,12 +1754,15 @@ mods.thaumcraft.Research.addArcanePage("ENCHANTINGTABLE", <minecraft:enchanting_
 
 // --- Disenchanting Table
 mods.thaumcraft.Research.addResearch("DISENCHANTINGTABLE", "NEWHORIZONS", "alienis 21, perditio 18, praecantatio 15, fabrico 12, cognitio 9, potentia 6", 2, 2, 4, <DraconicEvolution:dissEnchanter>);
-game.setLocalization("tc.research_name.DISENCHANTINGTABLE", "Disenchanting Table");
-game.setLocalization("tc.research_text.DISENCHANTINGTABLE", "[DC] Oh, you can remove Enchants? Nice!");
+game.setLocalization("tc.research_name.DISENCHANTINGTABLE", "\u795b\u9b54\u53f0");
+game.setLocalization("tc.research_text.DISENCHANTINGTABLE", "[DC]\u5662,\u4f60\u80fd\u795b\u9664\u9644\u9b54?\u592a\u597d\u4e86!");
 mods.thaumcraft.Research.addPrereq("DISENCHANTINGTABLE", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("DISENCHANTINGTABLE", true);
 mods.thaumcraft.Research.addPage("DISENCHANTINGTABLE", "DraconicEvolution.research_page.DISENCHANTINGTABLE");
-game.setLocalization("DraconicEvolution.research_page.DISENCHANTINGTABLE", "Disenchanter is a block added by the Draconic Evolution mod. It can be used to remove enchantments from items. This is achieved by placing an enchanted item and a book in its GUI. The enchantment will be moved to the book after pressing the button in the GUI. This process costs a certain amount of experience, as well as cause damage to the item that is being disenchanted. The damage caused to the item can be reduced by placing Bookcases around the Disenchanter.");
+game.setLocalization("DraconicEvolution.research_page.DISENCHANTINGTABLE", "\u795b\u9b54\u53f0\u662f\u7531\u9f99\u4e4b\u8fdb\u5316mod\u6dfb\u52a0\u7684\u65b9\u5757,\u7528\u4e8e\u795b\u9664\u7269\u54c1\u7684\u9644\u9b54.
+\u5c06\u9644\u9b54\u7684\u7269\u54c1\u4e0e\u4e66\u653e\u5165\u5176GUI,\u6309\u4e0b\u6309\u94ae,\u9644\u9b54\u5c31\u4f1a\u4ece\u7269\u54c1\u4e0a\u8f6c\u79fb\u5230\u4e66\u4e0a.
+\u6b64\u8fc7\u7a0b\u9700\u8981\u6d88\u8017\u4e00\u5b9a\u7684\u7ecf\u9a8c,\u5e76\u5bf9\u6b64\u7269\u54c1\u9020\u6210\u4e00\u5b9a\u635f\u4f24.
+\u8fd9\u79cd\u635f\u4f24\u53ef\u4ee5\u901a\u8fc7\u5728\u795b\u9b54\u53f0\u5468\u56f4\u653e\u7f6e\u4e66\u67b6(\u9b54\u6cd5\u6728\u5934,\u672b\u5f71\u4e4b\u6838)\u6765\u964d\u4f4e.");
 mods.thaumcraft.Arcane.addShaped("DISENCHANTINGTABLE", <DraconicEvolution:dissEnchanter>, "aer 75, aqua 75, terra 75, ignis 75, ordo 75, perditio 75", [
 [<ore:blockAmethyst>, <Thaumcraft:ItemResource:7>, <ore:blockAmethyst>],
 [<minecraft:enchanted_book>, <minecraft:enchanting_table>, <minecraft:enchanted_book>],
@@ -1746,14 +1772,21 @@ mods.thaumcraft.Warp.addToResearch("DISENCHANTINGTABLE", 3);
 
 // --- Brewing Stand
 mods.thaumcraft.Research.addResearch("BREWINGSTAND", "NEWHORIZONS", "praecantatio 15, fabrico 15, cognitio 12, perditio 12, ignis 9, terra 6, aqua 3", 2, 0, 4, <minecraft:brewing_stand>);
-game.setLocalization("tc.research_name.BREWINGSTAND", "Brewing Stand");
-game.setLocalization("tc.research_text.BREWINGSTAND", "[MC] Oh, its more magical than a Cauldron!");
+game.setLocalization("tc.research_name.BREWINGSTAND", "\u917f\u9020\u53f0");
+game.setLocalization("tc.research_text.BREWINGSTAND", "[MC]\u5662,\u8fd9\u53ef\u6bd4\u70bc\u836f\u9505\u9b54\u6cd5\u591a\u4e86!");
 mods.thaumcraft.Research.addPage("BREWINGSTAND", "brewingstand.research_page.BREWINGSTAND.1");
-game.setLocalization("brewingstand.research_page.BREWINGSTAND.1", "Brewing (or Alchemy) is the process of creating potions and splash potions by adding various ingredients to water bottles in a brewing stand. By placing bottles in the lower three slots of the brewing interface and an ingredient in the upper slot, you can distill the ingredient into the bottles and brew potions which may be consumed to grant an effect to the player. Every potion starts with a water bottle, made by filling a glass bottle at a water source or filled cauldron. The next step is to add a primary ingredient to create a base potion, which is usually Nether Wart, which creates an awkward potion and has no effects.");
+game.setLocalization("brewingstand.research_page.BREWINGSTAND.1", "\u917f\u9020(\u6216\u70bc\u91d1\u672f)\u662f\u5236\u4f5c\u836f\u6c34\u7684\u8fc7\u7a0b,\u5c06\u4e0d\u540c\u914d\u6599\u6dfb\u52a0\u8fdb\u917f\u9020\u53f0\u4e0a\u7684\u6c34\u74f6\u5185.
+\u5728\u917f\u9020\u53f0\u754c\u9762\u4e0b\u90e8\u7684\u4e09\u4e2a\u69fd\u4f4d\u653e\u7f6e\u74f6\u5b50,\u5728\u4e0a\u90e8\u69fd\u4f4d\u653e\u7f6e\u914d\u6599,\u7136\u540e\u4f60\u5c31\u53ef\u4ee5\u5c06\u914d\u6599\u84b8\u998f\u8fdb\u74f6\u5b50\u6700\u7ec8\u917f\u9020\u51fa\u80fd\u9644\u52a0\u5404\u79cd\u72b6\u6001\u7684\u836f\u6c34\u4e86.
+\u6bcf\u79cd\u836f\u6c34\u90fd\u662f\u4ece\u6c34\u74f6\u5f00\u59cb\u7684,\u6c34\u74f6\u53ef\u901a\u8fc7\u624b\u6301\u74f6\u5b50\u53f3\u952e\u6c34\u6e90\u6216\u88c5\u6ee1\u7684\u70bc\u836f\u9505\u83b7\u5f97.
+\u7b2c\u4e8c\u6b65\u5c31\u662f\u6dfb\u52a0\u57fa\u7840\u914d\u6599\u6765\u5236\u4f5c\u57fa\u7840\u836f\u6c34,\u8fd9\u79cd\u914d\u6599\u901a\u5e38\u662f\u5730\u72f1\u75a3,\u8fd9\u6837\u4f1a\u5236\u9020\u51fa\u7c97\u5236\u836f\u6c34(\u6ca1\u6709\u6548\u679c).");
 mods.thaumcraft.Research.addPage("BREWINGSTAND", "brewingstand.research_page.BREWINGSTAND.2");
-game.setLocalization("brewingstand.research_page.BREWINGSTAND.2", "By brewing a second ingredient into a base potion in the same manner, you can create a potion with a working effect. A third ingredient may be added to make the effect more intense or last longer, or turn the effect harmful. Finally, gunpowder can be added to a potion at any stage to convert it to a splash potion, which can be thrown (or fired using a dispenser) to disperse its effect in a radius. Each brewing step takes 20 seconds. Brewing can create very useful and lifesaving items. A good number of them are useful in combat by aiding the player or weakening enemies while others can save the players life if used quickly, like Fire Resistance or Healing.");
+game.setLocalization("brewingstand.research_page.BREWINGSTAND.2", "\u5f53\u4f60\u4ee5\u540c\u6837\u7684\u65b9\u5f0f\u653e\u5165\u4e8c\u7ea7\u914d\u6599\u65f6,\u4f60\u5c31\u53ef\u4ee5\u5236\u9020\u51fa\u6709\u6548\u679c\u7684\u836f\u6c34\u4e86.
+\u53ef\u4ee5\u52a0\u5165\u7b2c\u4e09\u4e2a\u6750\u6599\u6765\u4f7f\u836f\u6c34\u6548\u679c\u589e\u5f3a\u3001\u6301\u7eed\u66f4\u4e45\u3001\u6216\u8005\u662f\u53cd\u8f6c\u6548\u679c.
+\u6700\u540e,\u706b\u836f\u53ef\u4ee5\u5728\u4efb\u4f55\u9636\u6bb5\u6dfb\u52a0\u8fdb\u53bb\u6765\u5c06\u836f\u6c34\u8f6c\u5316\u6210\u55b7\u6e85\u836f\u6c34,\u8fd9\u4f7f\u836f\u6c34\u80fd\u88ab\u6295\u63b7\u5e76\u4f7f\u6548\u679c\u6269\u6563\u5f00\u6765.
+\u6bcf\u4e2a\u917f\u9020\u6b65\u9aa4\u8017\u65f620\u79d2.
+\u917f\u9020\u80fd\u5236\u9020\u51fa\u6709\u7528\u7684\u6216\u662f\u6551\u547d\u7528\u7684\u7269\u54c1.\u5728\u4ea4\u6218\u4e2d,\u5927\u91cf\u7684\u836f\u6c34\u80fd\u591f\u6709\u6548\u5730\u865a\u5f31\u654c\u65b9\u5e76\u5e2e\u52a9\u53cb\u65b9(\u6bd4\u5982\u706b\u7130\u514d\u75ab\u548c\u6cbb\u7597\u836f\u6c34).");
 mods.thaumcraft.Research.addPage("BREWINGSTAND", "Minecraft.research_page.BREWINGSTAND.3");
-game.setLocalization("Minecraft.research_page.BREWINGSTAND.3", "Gathering the Blaze Rods and Nether Wart necessary for brewing can prove challenging, but once they are set up, most potion ingredients are fairly plentiful and brewing will be a rewarding task.");
+game.setLocalization("Minecraft.research_page.BREWINGSTAND.3", "\u6536\u96c6\u917f\u9020\u6240\u9700\u8981\u7684\u70c8\u7130\u68d2\u548c\u5730\u72f1\u75a3\u4f1a\u6709\u4e9b\u96be\u5ea6,\u4f46\u4e00\u65e6\u8bbe\u7acb\u4e86\u917f\u9020\u53f0,\u591a\u6570\u7684\u917f\u9020\u6750\u6599\u90fd\u53ef\u5927\u91cf\u83b7\u5f97\u5e76\u4f7f\u917f\u9020\u53d8\u5f97\u5f88\u6709\u610f\u4e49.");
 mods.thaumcraft.Arcane.addShaped("BREWINGSTAND", <minecraft:brewing_stand>, "aer 20, aqua 20, terra 20, ignis 20, ordo 20, perditio 20", [
 [<ore:ringAluminium>, <ore:stickLongBlaze>, <ore:ringAluminium>],
 [<ore:stickAluminium>, <ore:stickLongBlaze>, <ore:stickAluminium>],
@@ -1762,12 +1795,15 @@ mods.thaumcraft.Research.addArcanePage("BREWINGSTAND", <minecraft:brewing_stand>
 
 // --- Beacon Infusion
 mods.thaumcraft.Research.addResearch("BEACON", "NEWHORIZONS", "alienis 15, praecantatio 12, auram 9, fames 6", 4, 0, 4, <minecraft:beacon>);
-game.setLocalization("tc.research_name.BEACON", "Beacon");
-game.setLocalization("tc.research_text.BEACON", "[MC] Oh, its more magical than a Diamond Block!");
+game.setLocalization("tc.research_name.BEACON", "\u4fe1\u6807");
+game.setLocalization("tc.research_text.BEACON", "[MC]\u5662,\u8fd9\u6bd4\u94bb\u77f3\u5757\u9b54\u6cd5\u591a\u4e86!");
 mods.thaumcraft.Research.addPrereq("BEACON", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("BEACON", false);
 mods.thaumcraft.Research.addPage("BEACON", "Minecraft.research_page.BEACON");
-game.setLocalization("Minecraft.research_page.BEACON", "A beacon is a unique block that projects a light beam skyward and can provide status effects to players in the vicinity. Beacon blocks can function as light sources, emitting a light level 15. Like other light sources, they will melt snow and ice. When activated, beacon blocks provide two unique functions: An aesthetic landmark beam reaching into the sky, which can be visible from far away. Powers, which give players status effects within a certain range.");
+game.setLocalization("Minecraft.research_page.BEACON", "\u4fe1\u6807\u662f\u4e00\u79cd\u7279\u6b8a\u7684\u529f\u80fd\u578b\u65b9\u5757,\u5b83\u53ef\u4ee5\u5411\u5929\u7a7a\u53d1\u5c04\u5149\u675f,\u5e76\u5bf9\u5468\u56f4\u73a9\u5bb6\u65bd\u52a0\u4e34\u65f6\u7684\u72b6\u6001\u6548\u679c.
+\u4fe1\u6807\u53ef\u7528\u4f5c\u5149\u6e90,\u5b83\u4f1a\u53d1\u51fa\u4eae\u5ea6\u7b49\u7ea7\u4e3a15\u7684\u5149. \u50cf\u5176\u4ed6\u7684\u5149\u6e90\u90a3\u6837,\u4fe1\u6807\u4f1a\u878d\u5316\u96ea\u548c\u51b0.
+\u5f53\u88ab\u6fc0\u6d3b\u65f6,\u4fe1\u6807\u53ef\u63d0\u4f9b\u4e24\u79cd\u529f\u80fd:
+\u4e00\u6761\u76f4\u5c04\u4e91\u7aef\u7684\u5730\u6807\u6027\u5149\u675f,\u53ef\u4ee5\u5728\u5f88\u8fdc\u7684\u8ddd\u79bb\u5916\u770b\u5230. \u589e\u76ca\u6548\u679c,\u4fe1\u6807\u8d4b\u4e88\u5904\u4e8e\u7279\u5b9a\u534a\u5f84\u5185\u7684\u73a9\u5bb6\u6b63\u9762\u7684\u72b6\u6001\u6548\u679c.");
 mods.thaumcraft.Infusion.addRecipe("BEACON", <minecraft:diamond_block>, 
 [<minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>], 
 "praecantatio 64, alienis 64, lux 64, ordo 64, ignis 64, terra 64", <minecraft:beacon>, 6);
@@ -1776,13 +1812,15 @@ mods.thaumcraft.Warp.addToResearch("BEACON", 2);
 
 // --- Dragon Egg
 mods.thaumcraft.Research.addResearch("DRAGONEGG", "MAGICBEES", "alienis 15, praecantatio 12, victus 9, bestia 6", 2, 5, 4, <minecraft:dragon_egg>);
-game.setLocalization("tc.research_name.DRAGONEGG", "Dragon Egg");
-game.setLocalization("tc.research_text.DRAGONEGG", "[MC] Dragon Egg duplication");
+game.setLocalization("tc.research_name.DRAGONEGG", "\u9f99\u86cb");
+game.setLocalization("tc.research_text.DRAGONEGG", "[MC]\u9f99\u86cb\u590d\u5236");
 mods.thaumcraft.Research.addPrereq("DRAGONEGG", "MB_DimensionalSingularity", false);
 mods.thaumcraft.Research.addSibling("DRAGONEGG", "INFUSION");
 mods.thaumcraft.Research.setConcealed("DRAGONEGG", true);
 mods.thaumcraft.Research.addPage("DRAGONEGG", "Minecraft.research_page.DRAGONEGG");
-game.setLocalization("Minecraft.research_page.DRAGONEGG", "Dragon Eggs are dropped by Enderdragons when they are killed. When Right Clicked they teleport a short distance. Now you find a magical way to duplicate this Powerful Item using Draconis Bee Products and The Essence of false Life inside the Infusion Table");
+game.setLocalization("Minecraft.research_page.DRAGONEGG", "\u5f53\u672b\u5f71\u9f99\u88ab\u6740\u6b7b\u65f6\u4f1a\u6389\u843d\u9f99\u86cb.
+\u4f46\u53f3\u952e\u9f99\u86cb\u4f1a\u4f7f\u5176\u77ed\u8ddd\u79bb\u77ac\u79fb.(\u8bd5\u8bd5\u7528\u5251)
+\u73b0\u5728\u4f60\u627e\u5230\u4e86\u4e00\u79cd\u9b54\u6cd5\u624b\u6bb5\u6765\u590d\u5236\u8fd9\u79cd\u5f3a\u5927\u7684\u7269\u54c1,\u90a3\u5c31\u662f\u5c06\u871c\u8702\u4ea7\u7269\u5236\u6210\u7684\u9f99\u4e4b\u5757\u548c\u865a\u5047\u751f\u547d\u6e90\u8d28\u4e00\u8d77\u6ce8\u9b54.");
 mods.thaumcraft.Infusion.addRecipe("DRAGONEGG", <MagicBees:miscResources:7>, 
 [<MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6> ,<MagicBees:miscResources:6>], 
 "alienis 64, bestia 56, praecantatio 48, victus 48",  <minecraft:dragon_egg>, 6);
@@ -1791,13 +1829,13 @@ mods.thaumcraft.Warp.addToResearch("DRAGONEGG", 5);
 
 // --- Silky Cloth and Jewel
 mods.thaumcraft.Research.addResearch("SILKYCRYSTAL", "NEWHORIZONS", "pannus 15, lucrum 2, instrumentum 9, aer 6, praecantatio 3", -2, -2, 4, <TConstruct:materials:26>);
-game.setLocalization("tc.research_name.SILKYCRYSTAL", "Silky Jewel");
-game.setLocalization("tc.research_text.SILKYCRYSTAL", "[TC] Silky magical.");
+game.setLocalization("tc.research_name.SILKYCRYSTAL", "\u7cbe\u5236\u73e0\u5b9d");
+game.setLocalization("tc.research_text.SILKYCRYSTAL", "[TC]\u8f7b\u67d4\u7684\u9b54\u6cd5");
 mods.thaumcraft.Research.addPrereq("SILKYCRYSTAL", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("SILKYCRYSTAL", true);
 mods.thaumcraft.Research.setRound("SILKYCRYSTAL", true);
 mods.thaumcraft.Research.addPage("SILKYCRYSTAL", "TConstruct.research_page.SILKYCRYSTAL");
-game.setLocalization("TConstruct.research_page.SILKYCRYSTAL", "Silky Cloth is a manufactured item and is a component of the Silky Jewel.<BR><BR>The Silky Jewel is a manufactured item, used to simulate the Silk Touch enchantment in TC tools.");
+game.setLocalization("TConstruct.research_page.SILKYCRYSTAL", "\u7ee2\u5e03\u662f\u4e00\u79cd\u5f3a\u5316\u7528\u54c1,\u53ef\u7528\u4e8e\u5236\u4f5c\u7cbe\u5236\u73e0\u5b9d.<BR><BR>\u7cbe\u5236\u73e0\u5b9d\u662f\u4e00\u79cd\u5f3a\u5316\u7528\u54c1,\u53ef\u7528\u4e8e\u4e3a\u5320\u9b42\u5de5\u5177\u6dfb\u52a0\u7cbe\u51c6\u91c7\u96c6\u9644\u9b54.");
 mods.thaumcraft.Arcane.addShaped("SILKYCRYSTAL", <TConstruct:materials:25>, "aer 30, aqua 25, ignis 15, terra 15, ordo 10, perditio 10", [
 [String, <ore:foilGold>, String],
 [<ore:foilGold>, <Thaumcraft:ItemResource:7>, <ore:foilGold>],
@@ -1808,13 +1846,15 @@ mods.thaumcraft.Research.addInfusionPage("SILKYCRYSTAL", <TConstruct:materials:2
 
 // --- Lava Crystal
 mods.thaumcraft.Research.addResearch("LAVACRYSTAL", "NEWHORIZONS", "ignis 15, praecantatio 12, vacuos 9, perditio 6", 2, -2, 4, <TConstruct:materials:7>);
-game.setLocalization("tc.research_name.LAVACRYSTAL", "Lava Crystal");
-game.setLocalization("tc.research_text.LAVACRYSTAL", "[TC] Fiery magical.");
+game.setLocalization("tc.research_name.LAVACRYSTAL", "\u7194\u5ca9\u6676\u4f53");
+game.setLocalization("tc.research_text.LAVACRYSTAL", "[TC]\u70bd\u70ed\u7684\u9b54\u6cd5.");
 mods.thaumcraft.Research.addPrereq("LAVACRYSTAL", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("LAVACRYSTAL", true);
 mods.thaumcraft.Research.setRound("LAVACRYSTAL", true);
 mods.thaumcraft.Research.addPage("LAVACRYSTAL", "TConstruct.research_page.LAVACRYSTAL");
-game.setLocalization("TConstruct.research_page.LAVACRYSTAL", "A Lava Crystal is a modifier both for tools and weapons. If added, the tool(s) is/are granted with the power of a furnace, meaning it will auto-smelt blocks when harvested. However, adding this to a weapon will not give it the same effect. Instead, it will set mobs on fire for 3 seconds.<BR>This modifier can be stacked with Luck (Fortune) and is not compatible with Silky (Silk Touch).");
+game.setLocalization("TConstruct.research_page.LAVACRYSTAL", "\u7194\u5ca9\u6676\u4f53\u662f\u5de5\u5177\u548c\u6b66\u5668\u7684\u5f3a\u5316\u7528\u54c1.
+\u5c06\u5176\u6dfb\u52a0\u8fdb\u5de5\u5177,\u53ef\u4f7f\u5de5\u5177\u83b7\u5f97\u7194\u7089\u7684\u529b\u91cf,\u8fd9\u610f\u5473\u7740\u5b83\u4f1a\u81ea\u52a8\u878d\u5316\u65b9\u5757.
+\u4f46\u662f\u5c06\u5176\u6dfb\u52a0\u8fdb\u6b66\u5668\u7f3a\u6ca1\u6709\u76f8\u540c\u7684\u6548\u679c,\u800c\u662f\u4f7f\u88ab\u653b\u51fb\u7684\u751f\u7269\u71c3\u70e73\u79d2.<BR>\u8fd9\u79cd\u5f3a\u5316\u7528\u54c1\u53ef\u4e0e\u65f6\u8fd0\u5171\u5b58\u4f46\u4e0e\u7cbe\u51c6\u91c7\u96c6\u51b2\u7a81.");
 mods.thaumcraft.Infusion.addRecipe("LAVACRYSTAL", <minecraft:fire_charge>, 
 [<minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>, <minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>], 
 "ignis 25, perditio 25, vacuos 20, praecantatio 35", <TConstruct:materials:7>, 3);
@@ -1822,14 +1862,14 @@ mods.thaumcraft.Research.addInfusionPage("LAVACRYSTAL", <TConstruct:materials:7>
 
 // --- Ball of Moss
 mods.thaumcraft.Research.addResearch("BALLOFMOSS", "NEWHORIZONS", "sano 15, terra 12, instrumentum 9", 0, -4, 4, <TConstruct:materials:6>);
-game.setLocalization("tc.research_name.BALLOFMOSS", "Ball of Moss");
-game.setLocalization("tc.research_text.BALLOFMOSS", "[TC] Your Tools repair itselfs.");
+game.setLocalization("tc.research_name.BALLOFMOSS", "\u82d4\u85d3\u7403");
+game.setLocalization("tc.research_text.BALLOFMOSS", "[TC]\u4f60\u7684\u5de5\u5177\u4f1a\u81ea\u5df1\u4fee\u590d.");
 mods.thaumcraft.Research.addPrereq("BALLOFMOSS", "SILKYCRYSTAL", false);
 mods.thaumcraft.Research.addPrereq("BALLOFMOSS", "LAVACRYSTAL", false);
 mods.thaumcraft.Research.setConcealed("BALLOFMOSS", true);
 mods.thaumcraft.Research.setRound("BALLOFMOSS", true);
 mods.thaumcraft.Research.addPage("BALLOFMOSS", "TConstruct.research_page.BALLOFMOSS");
-game.setLocalization("TConstruct.research_page.BALLOFMOSS", "The Ball of Moss for Tinkers Construct Tools.<BR> Attaching moss to a tool infuses it with life. The tool appers to be capable of regenerating wear and tear.<BR>Effects:<BR> The tool slowly repair itself.<BR>Sunlight speeds up the process.");
+game.setLocalization("TConstruct.research_page.BALLOFMOSS", "\u82d4\u85d3\u7403\u662f\u7528\u4e8e\u5320\u9b42\u5de5\u5177\u7684.<BR>\u628a\u82d4\u85d3\u9644\u5728\u5de5\u5177\u4e0a\u4f7f\u5b83\u5145\u6ee1\u6d3b\u529b.\u8fd9\u628a\u5de5\u5177\u5c31\u80fd\u81ea\u52a8\u4fee\u590d\u81ea\u8eab.<BR>\u6548\u679c:<BR>\u5de5\u5177\u53ef\u81ea\u6211\u4fee\u590d.<BR>\u9633\u5149\u4e0b\u901f\u5ea6\u7ffb\u500d.");
 mods.thaumcraft.Infusion.addRecipe("BALLOFMOSS", <Thaumcraft:ItemResource:15>, 
 [<gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>, <gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>],
 "sano 30, terra 25, instrumentum 35", <TConstruct:materials:6>, 5);
@@ -1837,8 +1877,8 @@ mods.thaumcraft.Research.addInfusionPage("BALLOFMOSS", <TConstruct:materials:6>)
 
 // --- Necrotic Bone
 mods.thaumcraft.Research.addResearch("NECROTICBONE", "NEWHORIZONS", "exanimis 15, mortuus 12, spiritus 9, venenum 6", 0, -2, 4, <TConstruct:materials:8>);
-game.setLocalization("tc.research_name.NECROTICBONE", "Necrotic Bone");
-game.setLocalization("tc.research_text.NECROTICBONE", "[TC] Evil way to make Wither Skeleton Bones.");
+game.setLocalization("tc.research_name.NECROTICBONE", "\u51cb\u7075\u4e4b\u9aa8");
+game.setLocalization("tc.research_text.NECROTICBONE", "[TC]\u5236\u9020\u51cb\u7075\u4e4b\u9aa8\u7684\u90aa\u6076\u65b9\u6cd5.");
 mods.thaumcraft.Research.addPrereq("NECROTICBONE", "ENTROPICPROCESSING", false);
 mods.thaumcraft.Research.addPrereq("NECROTICBONE", "BALLOFMOSS", false);
 mods.thaumcraft.Research.addPrereq("NECROTICBONE", "SILKYCRYSTAL", false);
@@ -1846,21 +1886,27 @@ mods.thaumcraft.Research.addPrereq("NECROTICBONE", "LAVACRYSTAL", false);
 mods.thaumcraft.Research.setConcealed("NECROTICBONE", true);
 mods.thaumcraft.Research.setRound("NECROTICBONE", true);
 mods.thaumcraft.Research.addPage("NECROTICBONE", "TConstruct.research_page.NECROTICBONE");
-game.setLocalization("TConstruct.research_page.NECROTICBONE", "The Necrotic Bone is a special drop gained by killing Wither Skeletons, and can be rarely found in dungeon chests. Now you find a evil way to make it out of Skeleton Bones. Currently, the only use for the Necrotic bone is used to craft a Heart Canister and add a modifier to weapons. The sheer volume of essentia required is too much for the Crucible. You will need a more advanced method of production to create these bones.");
+game.setLocalization("TConstruct.research_page.NECROTICBONE", "\u51cb\u7075\u4e4b\u9aa8\u662f\u6740\u6b7b\u51cb\u7075\u9ab7\u9ac5\u7684\u7279\u6b8a\u6389\u843d\u7269,\u5728\u5730\u7262\u7bb1\u5b50\u91cc\u4e5f\u6709\u53ef\u80fd\u51fa\u73b0(\u7f55\u89c1).
+\u51cb\u7075\u4e4b\u9aa8\u7684\u552f\u4e8c\u7528\u5904\u662f\u5408\u6210\u5fc3\u4e4b\u5bb9\u5668\u548c\u4f5c\u4e3a\u6b66\u5668\u7684\u5f3a\u5316\u7269\u54c1.
+\u73b0\u5728\u4f60\u627e\u5230\u4e00\u79cd\u90aa\u6076\u7684\u65b9\u6cd5\u6765\u5236\u9020\u51cb\u7075\u4e4b\u9aa8.
+\u8fd9\u79cd\u65b9\u6cd5\u6240\u9700\u6e90\u8d28\u6570\u91cf\u5bf9\u4e8e\u5769\u57da\u6765\u8bf4\u5b9e\u5728\u592a\u591a\u4e86.\u4f60\u9700\u8981\u66f4\u5148\u8fdb\u7684\u70bc\u91d1\u65b9\u5f0f\u4ee5\u5236\u9020\u51cb\u7075\u4e4b\u9aa8.");
 mods.thaumcraft.Crucible.addRecipe("NECROTICBONE", <TConstruct:materials:8>, <minecraft:bone>, "exanimis 20, mortuus 30, infernus 20, spiritus 20, venenum 20, corpus 5");
 mods.thaumcraft.Research.addCruciblePage("NECROTICBONE", <TConstruct:materials:8>);
 mods.thaumcraft.Warp.addToResearch("NECROTICBONE", 2);
 
 // --- Red Heart
 mods.thaumcraft.Research.addResearch("REDHEART", "NEWHORIZONS", "ignis 15, praecantatio 12, sano 9, mortuus 6, exanimis 3", 0, -6, 4, <TConstruct:heartCanister:1>);
-game.setLocalization("tc.research_name.REDHEART", "Red Heart");
-game.setLocalization("tc.research_text.REDHEART", "[TC] 10 Hearts are not enough.");
+game.setLocalization("tc.research_name.REDHEART", "\u5fae\u578b\u7ea2\u5fc3");
+game.setLocalization("tc.research_text.REDHEART", "[TC]10\u5fc3\u751f\u547d\u53ef\u4e0d\u591f.");
 mods.thaumcraft.Research.addPrereq("REDHEART", "RUNICAUGMENTATION", false);
 mods.thaumcraft.Research.addPrereq("REDHEART", "BALLOFMOSS", false);
 mods.thaumcraft.Research.setConcealed("REDHEART", true);
 mods.thaumcraft.Research.setRound("REDHEART", true);
 mods.thaumcraft.Research.addPage("REDHEART", "TConstruct.research_page.REDHEART.1");
-game.setLocalization("TConstruct.research_page.REDHEART.1", "The Miniature Red Heart is an item from Tinkers Construct. It is extremely rare and has very little uses, as it is only used to craft the Heart Canister.It is dropped randomly by hostile mobs or crafting via Infusion. The drop rate is 0.2% from regular hostile mobs. The heart may drop anytime a mob dies, the kill does not have to be caused by a player.Its primary use is in crafting the Red Heart Canister, but it can also be eaten to restore 10 life.");
+game.setLocalization("TConstruct.research_page.REDHEART.1", "\u5fae\u578b\u7ea2\u5fc3\u662f\u5320\u9b42\u6dfb\u52a0\u7684\u7269\u54c1,\u5b83\u975e\u5e38\u5c11\u89c1\u8fd8\u6709\u4e00\u70b9\u70b9\u7528\u5904\u2014\u2014\u2014\u2014\u5408\u6210\u5fc3\u4e4b\u5bb9\u5668.
+\u6740\u6b7b\u654c\u5bf9\u751f\u7269\u4f1a\u968f\u673a\u6389\u843d\u5b83,\u4e5f\u53ef\u4ee5\u6ce8\u9b54\u83b7\u5f97.\u6389\u843d\u73870.2%.
+\u53ea\u8981\u654c\u5bf9\u751f\u7269\u6b7b\u4ea1\u5c31\u6709\u51e0\u7387\u6389\u843d,\u4e0d\u4e00\u5b9a\u9700\u8981\u73a9\u5bb6\u4eb2\u624b\u6740\u6b7b.
+\u5b83\u7684\u57fa\u672c\u7528\u9014\u5c31\u662f\u5408\u6210\u7ea2\u5fc3\u5bb9\u5668,\u4f46\u5b83\u4e5f\u53ef\u4ee5\u98df\u7528,\u77ac\u95f4\u6062\u590d10\u5fc3\u751f\u547d\u503c.");
 mods.thaumcraft.Infusion.addRecipe("REDHEART", <minecraft:golden_apple>, 
 [<TConstruct:jerky:6>, <minecraft:apple>, <TConstruct:jerky:7>, <TConstruct:materials:8>, <TConstruct:jerky>, <TConstruct:jerky:1>, <TConstruct:jerky:2>, <TConstruct:jerky:3>, <TConstruct:jerky:4>, <TConstruct:jerky:5>], 
 "exanimis 25, ignis 35, lucrum 35, sano 50, praecantatio 50", <TConstruct:heartCanister:1>, 3);
@@ -1869,12 +1915,14 @@ mods.thaumcraft.Warp.addToResearch("REDHEARTCANISTER", 1);
 
 // --- Red Heart Canister
 mods.thaumcraft.Research.addResearch("REDHEARTCANISTER", "NEWHORIZONS", "metallum 15, lucrum 15, sano 12, ignis 9, mortuus 6, exanimis 3", 0, -8, 4, <TConstruct:heartCanister:2>);
-game.setLocalization("tc.research_name.REDHEARTCANISTER", "Red Heart Canister");
-game.setLocalization("tc.research_text.REDHEARTCANISTER", "[TC] Bound in a small box.");
+game.setLocalization("tc.research_name.REDHEARTCANISTER", "\u7ea2\u5fc3\u5bb9\u5668");
+game.setLocalization("tc.research_text.REDHEARTCANISTER", "[TC]\u88c5\u5728\u4e00\u4e2a\u5c0f\u76d2\u5b50\u91cc.");
 mods.thaumcraft.Research.addPrereq("REDHEARTCANISTER", "REDHEART", false);
 mods.thaumcraft.Research.setConcealed("REDHEARTCANISTER", true);
 mods.thaumcraft.Research.addPage("REDHEARTCANISTER", "TConstruct.research_page.REDHEARTCANISTER.1");
-game.setLocalization("TConstruct.research_page.REDHEARTCANISTER.1", "The Red Heart Canister which increases the amount of hearts that the player has. To have an effect the canisters must be equipped in the Armor Tab, in the slot on the right with the symbol that looks like the red heart canister. Up to 10 can be stacked in this slot to allow for a total of 10 extra hearts (or 20 extra health points). These will not appear above the regular health bar like from the Absorption effect, instead once the health bar is full the red hearts will gradually be replaced by orange hearts.");
+game.setLocalization("TConstruct.research_page.REDHEARTCANISTER.1", "\u7ea2\u5fc3\u5bb9\u5668\u53ef\u63d0\u5347\u73a9\u5bb6\u8840\u91cf\u4e0a\u9650,\u9700\u8981\u88c5\u5907\u4e8e\u5320\u9b42\u62a4\u7532\u680f\u53f3\u4fa7\u65b9\u53ef\u751f\u6548.
+\u7ea2\u5fc3\u5bb9\u5668\u6700\u9ad8\u63d0\u534710\u5fc3\u8840\u91cf\u4e0a\u9650(\u53ef\u5806\u53e0\u88c5\u590710\u4e2a,\u6bcf\u4e2a1\u5fc3).
+\u5f53\u5b83\u751f\u6548\u65f6\u5e76\u4e0d\u4f1a\u51fa\u73b0\u66f4\u591a\u7684\u8840\u91cf\u6761,\u5982\u679c\u7ea2\u5fc3\u8840\u91cf\u5df2\u6ee1\u65f6\u88c5\u5907\u7ea2\u5fc3\u5bb9\u5668,\u5b83\u5c31\u4f1a\u5c06\u8840\u91cf\u6761\u4e0a\u7684\u7ea2\u5fc3\u66ff\u6362\u4e3a\u6a59\u5fc3.");
 mods.thaumcraft.Arcane.addShaped("REDHEARTCANISTER", <TConstruct:heartCanister:2>, "aer 50, aqua 50, ignis 50, terra 50, ordo 50, perditio 50", [
 [<TConstruct:materials:8>, <TConstruct:heartCanister>, null],
 [<minecraft:golden_apple>, <TConstruct:heartCanister:1>, null],
@@ -1884,13 +1932,15 @@ mods.thaumcraft.Warp.addToResearch("REDHEARTCANISTER", 2);
 
 // --- Yellow Heart
 mods.thaumcraft.Research.addResearch("YELLOWHEART", "NEWHORIZONS", "mortuus 15, praecantatio 12, exanimis 9, sano 6, ignis 3", -2, -7, 4, <TConstruct:heartCanister:3> );
-game.setLocalization("tc.research_name.YELLOWHEART", "Yellow Heart");
-game.setLocalization("tc.research_text.YELLOWHEART", "[TC] 20 Hearts are not enough.");
+game.setLocalization("tc.research_name.YELLOWHEART", "\u5fae\u578b\u9ec4\u5fc3");
+game.setLocalization("tc.research_text.YELLOWHEART", "[TC]20\u5fc3\u751f\u547d\u53ef\u4e0d\u591f.");
 mods.thaumcraft.Research.addPrereq("YELLOWHEART", "REDHEART", false);
 mods.thaumcraft.Research.setConcealed("YELLOWHEART", true);
 mods.thaumcraft.Research.setRound("YELLOWHEART", true);
 mods.thaumcraft.Research.addPage("YELLOWHEART", "TConstruct.research_page.YELLOWHEART.1");
-game.setLocalization("TConstruct.research_page.YELLOWHEART.1", "The Miniature Yellow Heart is an item from Tinkers Construct. It can be obtained by killing Boss mobs such as the Wither or King Slime, as well as from killing any Boss Monsters in the Twilight like the Naga, the Lich or the Hydra. Its primary use is in crafting the Yellow Heart Canister, but it can also be eaten to restore 20 life.");
+game.setLocalization("TConstruct.research_page.YELLOWHEART.1", "\u5fae\u578b\u9ec4\u5fc3\u662f\u5320\u9b42\u6dfb\u52a0\u7684\u7269\u54c1.
+\u5b83\u53ef\u901a\u8fc7\u6740\u6b7bboss\u602a\u7269\u83b7\u5f97,\u5982\u51cb\u7075\u6216\u53f2\u83b1\u59c6\u4e4b\u738b,\u6216\u8005\u662f\u66ae\u8272boss,\u5982\u5a1c\u8fe6\u3001\u5deb\u5996\u6216\u662f\u4e5d\u5934\u86c7.
+\u5b83\u7684\u57fa\u672c\u7528\u9014\u5c31\u662f\u5408\u6210\u9ec4\u5fc3\u5bb9\u5668,\u4f46\u5b83\u4e5f\u53ef\u4ee5\u98df\u7528,\u77ac\u95f4\u6062\u590d20\u5fc3\u751f\u547d\u503c.");
 mods.thaumcraft.Infusion.addRecipe("YELLOWHEART", <minecraft:golden_apple:1>, 
 [<TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>], 
 "exanimis 50, ignis 75, lucrum 75, sano 100, praecantatio 100", <TConstruct:heartCanister:3>, 3);
@@ -1899,12 +1949,14 @@ mods.thaumcraft.Warp.addToResearch("YELLOWHEARTCANISTER", 2);
 
 // --- Yellow Heart Canister
 mods.thaumcraft.Research.addResearch("YELLOWHEARTCANISTER", "NEWHORIZONS", "metallum 15, lucrum 15, sano 12, praecantatio 9, mortuus 6, exanimis 3", -2, -9, 4, <TConstruct:heartCanister:4> );
-game.setLocalization("tc.research_name.YELLOWHEARTCANISTER", "Yellow Heart Canister");
-game.setLocalization("tc.research_text.YELLOWHEARTCANISTER", "[TC] Bound in a box.");
+game.setLocalization("tc.research_name.YELLOWHEARTCANISTER", "\u9ec4\u5fc3\u5bb9\u5668");
+game.setLocalization("tc.research_text.YELLOWHEARTCANISTER", "[TC]\u88c5\u5728\u4e00\u4e2a\u76d2\u5b50\u91cc.");
 mods.thaumcraft.Research.addPrereq("YELLOWHEARTCANISTER", "YELLOWHEART", false);
 mods.thaumcraft.Research.setConcealed("YELLOWHEARTCANISTER", true);
 mods.thaumcraft.Research.addPage("YELLOWHEARTCANISTER", "TConstruct.research_page.YELLOWHEARTCANISTER.1");
-game.setLocalization("TConstruct.research_page.YELLOWHEARTCANISTER.1", "The Yellow Heart Canister which increases the amount of hearts that the player has. To have an effect the canisters must be equipped in the Armor Tab, in the slot on the right with the symbol that looks like the yellow heart canister Up to 10 can be stacked in this slot to allow for a total of 10 extra hearts (or 20 extra health points). These will not appear above the regular health bar like from the Absorption effect, instead once the health bar is full with orange hearts it will gradually be replaced by yellow hearts.");
+game.setLocalization("TConstruct.research_page.YELLOWHEARTCANISTER.1", "\u9ec4\u5fc3\u5bb9\u5668\u53ef\u63d0\u5347\u73a9\u5bb6\u8840\u91cf\u4e0a\u9650,\u9700\u8981\u88c5\u5907\u4e8e\u5320\u9b42\u62a4\u7532\u680f\u53f3\u4fa7\u65b9\u53ef\u751f\u6548.
+\u9ec4\u5fc3\u5bb9\u5668\u6700\u9ad8\u63d0\u534710\u5fc3\u8840\u91cf\u4e0a\u9650(\u53ef\u5806\u53e0\u88c5\u590710\u4e2a,\u6bcf\u4e2a1\u5fc3).
+\u5f53\u5b83\u751f\u6548\u65f6\u5e76\u4e0d\u4f1a\u51fa\u73b0\u66f4\u591a\u7684\u8840\u91cf\u6761,\u5982\u679c\u6a59\u5fc3\u8840\u91cf\u5df2\u6ee1\u65f6\u88c5\u5907\u9ec4\u5fc3\u5bb9\u5668,\u5b83\u5c31\u4f1a\u5c06\u8840\u91cf\u6761\u4e0a\u7684\u6a59\u5fc3\u66ff\u6362\u4e3a\u9ec4\u5fc3.");
 mods.thaumcraft.Arcane.addShaped("YELLOWHEARTCANISTER", <TConstruct:heartCanister:4>, "aer 100, aqua 100, ignis 100, terra 100, ordo 100, perditio 100", [
 [<TConstruct:materials:8>, <TConstruct:heartCanister>, <TConstruct:materials:8>],
 [<minecraft:golden_apple:1>, <TConstruct:heartCanister:3>, <minecraft:golden_apple:1>],
@@ -1914,13 +1966,15 @@ mods.thaumcraft.Warp.addToResearch("YELLOWHEARTCANISTER", 3);
 
 // --- Green Heart
 mods.thaumcraft.Research.addResearch("GREENHEART", "NEWHORIZONS", "infernus 15, lucrum 12, praecantatio 12, spiritus 9, fames 6, corpus 3", -4, -7, 4, <TConstruct:heartCanister:5>);
-game.setLocalization("tc.research_name.GREENHEART", "Green Heart");
-game.setLocalization("tc.research_text.GREENHEART", "[TC] 30 Hearts are not enough.");
+game.setLocalization("tc.research_name.GREENHEART", "\u5fae\u578b\u7eff\u5fc3");
+game.setLocalization("tc.research_text.GREENHEART", "[TC]30\u5fc3\u751f\u547d\u53ef\u4e0d\u591f.");
 mods.thaumcraft.Research.addPrereq("GREENHEART", "YELLOWHEART", false);
 mods.thaumcraft.Research.setConcealed("GREENHEART", true);
 mods.thaumcraft.Research.setRound("GREENHEART", true);
 mods.thaumcraft.Research.addPage("GREENHEART", "TConstruct.research_page.GREENHEART.1");
-game.setLocalization("TConstruct.research_page.GREENHEART.1", "The Miniature Green Heart is an item from Tinkers Construct. It can be made via Infusion. Its primary use is in crafting the Geen Heart Canister, but it can also be eaten to restore 30 life.");
+game.setLocalization("TConstruct.research_page.GREENHEART.1", "\u5fae\u578b\u7eff\u5fc3\u662f\u5320\u9b42\u6dfb\u52a0\u7684\u7269\u54c1.
+\u53ea\u80fd\u901a\u8fc7\u6ce8\u9b54\u83b7\u5f97.
+\u5b83\u7684\u57fa\u672c\u7528\u9014\u5c31\u662f\u5408\u6210\u7eff\u5fc3\u5bb9\u5668,\u4f46\u5b83\u4e5f\u53ef\u4ee5\u98df\u7528,\u77ac\u95f4\u6062\u590d30\u5fc3\u751f\u547d\u503c.");
 mods.thaumcraft.Infusion.addRecipe("GREENHEART", <TConstruct:diamondApple>, 
 [<TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>], 
 "exanimis 100, ignis 150, lucrum 150, sano 200, praecantatio 200", <TConstruct:heartCanister:5>, 3);
@@ -1929,14 +1983,17 @@ mods.thaumcraft.Warp.addToResearch("GREENHEART", 3);
 
 // --- Green Heart Canister
 mods.thaumcraft.Research.addResearch("GREENHEARTCANISTER", "NEWHORIZONS", "infernus 15, metallum 15, lucrum 12, sano 12, praecantatio 12, spiritus 9, fames 6, corpus 3", -4, -9, 4, <TConstruct:heartCanister:6>);
-game.setLocalization("tc.research_name.GREENHEARTCANISTER", "Green Heart Canister");
-game.setLocalization("tc.research_text.GREENHEARTCANISTER", "[TC] Bound in a big box.");
+game.setLocalization("tc.research_name.GREENHEARTCANISTER", "\u7eff\u5fc3\u5bb9\u5668");
+game.setLocalization("tc.research_text.GREENHEARTCANISTER", "[TC]\u88c5\u5728\u4e00\u4e2a\u5927\u76d2\u5b50\u91cc.");
 mods.thaumcraft.Research.addPrereq("GREENHEARTCANISTER", "GREENHEART", false);
 mods.thaumcraft.Research.setConcealed("GREENHEARTCANISTER", true);
 mods.thaumcraft.Research.addPage("GREENHEARTCANISTER", "TConstruct.research_page.GREENHEARTCANISTER.1");
 mods.thaumcraft.Research.addPage("GREENHEARTCANISTER", "TConstruct.research_page.GREENHEARTCANISTER.2");
-game.setLocalization("TConstruct.research_page.GREENHEARTCANISTER.1", "The Green Heart Canister which increases the amount of hearts that the player has. To have an effect the canisters must be equipped in the Armor Tab, in the slot on the right with the symbol that looks like the green heart canister. Up to 10 can be stacked in this slot to allow for a total of 10 extra hearts (or 20 extra health points). These will not appear above the regular health bar like from the Absorption effect, instead once the health bar is full with yellow hearts and will gradually be replaced by green hearts.");
-game.setLocalization("TConstruct.research_page.GREENHEARTCANISTER.2", "On top of the Yellow Heart Canisters, a maximum of 10 Red Heart Canisters and 10 Yellow Heart Canisters and 10 green Heart Canisters can be equipped for an additional 10 and 20 health points. This brings maximum health up to 40 hearts (or 80 health points)");
+game.setLocalization("TConstruct.research_page.GREENHEARTCANISTER.1", "\u7eff\u5fc3\u5bb9\u5668\u53ef\u63d0\u5347\u73a9\u5bb6\u8840\u91cf\u4e0a\u9650,\u9700\u8981\u88c5\u5907\u4e8e\u5320\u9b42\u62a4\u7532\u680f\u53f3\u4fa7\u65b9\u53ef\u751f\u6548.
+\u7eff\u5fc3\u5bb9\u5668\u6700\u9ad8\u63d0\u534710\u5fc3\u8840\u91cf\u4e0a\u9650(\u53ef\u5806\u53e0\u88c5\u590710\u4e2a,\u6bcf\u4e2a1\u5fc3).
+\u5f53\u5b83\u751f\u6548\u65f6\u5e76\u4e0d\u4f1a\u51fa\u73b0\u66f4\u591a\u7684\u8840\u91cf\u6761,\u5982\u679c\u9ec4\u5fc3\u8840\u91cf\u5df2\u6ee1\u65f6\u88c5\u5907\u7eff\u5fc3\u5bb9\u5668,\u5b83\u5c31\u4f1a\u5c06\u8840\u91cf\u6761\u4e0a\u7684\u9ec4\u5fc3\u66ff\u6362\u4e3a\u7eff\u5fc3.");
+game.setLocalization("TConstruct.research_page.GREENHEARTCANISTER.2", "\u6700\u591a\u53ef\u4f7f\u752810\u7ea2\u5fc3\u5bb9\u5668\u300110\u9ec4\u5fc3\u5bb9\u5668\u4ee5\u53ca10\u7eff\u5fc3\u5bb9\u5668,\u6bcf\u79cd\u90fd\u80fd\u63d0\u534710\u5fc3\u8840\u91cf\u4e0a\u9650.
+\u6240\u4ee5\u6ee1\u88c5\u5907\u540e,\u8840\u91cf\u4e0a\u9650\u53ef\u8fbe40\u5fc3.");
 mods.thaumcraft.Arcane.addShaped("GREENHEARTCANISTER", <TConstruct:heartCanister:6>, "aer 200, aqua 200, ignis 200, terra 200, ordo 200, perditio 200", [
 [<TConstruct:materials:8>, <TConstruct:heartCanister>, <TConstruct:materials:8>],
 [<TConstruct:diamondApple>, <TConstruct:heartCanister:5>, <TConstruct:diamondApple>],
@@ -1946,27 +2003,33 @@ mods.thaumcraft.Warp.addToResearch("GREENHEARTCANISTER", 4);
 
 // --- Warp Warning
 mods.thaumcraft.Research.addResearch("WARPWARNING", "NEWHORIZONS", "null", -2, 0, 1, <minecraft:skull:1>);
-game.setLocalization("tc.research_name.WARPWARNING", "Warp Warnings");
-game.setLocalization("tc.research_text.WARPWARNING", "[WT] Wither in the Overworld");
+game.setLocalization("tc.research_name.WARPWARNING", "\u626d\u66f2\u8b66\u62a5");
+game.setLocalization("tc.research_text.WARPWARNING", "[WT]\u4e3b\u4e16\u754c\u91cc\u7684\u51cb\u7075");
 mods.thaumcraft.Research.setAutoUnlock("WARPWARNING", true);
 mods.thaumcraft.Research.setSpikey("WARPWARNING", true);
 mods.thaumcraft.Research.addPage("WARPWARNING", "WARPTHEORY.research_page.WARPWARNING.1");
-game.setLocalization("WARPTHEORY.research_page.WARPWARNING.1", "Thaumcraft offers considerable power from its devices and tools. But power comes with a price.... As of version 4.2, that price is represented by Warp: A corruption of the characters mind and soul, inflicting progressively more dire effects upon them. While the effects of warp can range from annoying to deadly, accumulating enough of it can also grant you access to greater power... at the cost of increasing madness, and attention from dark powers. At least, others may call it madness... but is it truly insanity, when the voices in your head grant useful knowledge, and the monsters that appear before you leave remains behind?");
+game.setLocalization("WARPTHEORY.research_page.WARPWARNING.1", "\u795e\u79d8\u901a\u8fc7\u5176\u8bbe\u5907\u4e0e\u5de5\u5177\u5e26\u6765\u4e86\u5de8\u5927\u7684\u529b\u91cf.\u4f46\u529b\u91cf\u662f\u9700\u8981\u4ed8\u51fa\u4ee3\u4ef7\u7684....
+\u4ece\u7248\u672c4.2\u5f00\u59cb,\u8fd9\u79cd\u4ee3\u4ef7\u4ee5\u626d\u66f2\u4e3a\u4ee3\u8868:\u4eba\u7269\u601d\u60f3\u4e0e\u7075\u9b42\u7684\u4fb5\u8680,\u9010\u6e10\u5bf9\u4ed6\u4eec\u9020\u6210\u66f4\u591a\u53ef\u6015\u7684\u5f71\u54cd.
+\u867d\u7136\u626d\u66f2\u7684\u6548\u679c\u53ef\u4ee5\u4ece\u70e6\u4eba\u5230\u81f4\u547d,\u4f46\u79ef\u7d2f\u8db3\u591f\u591a\u7684\u626d\u66f2\u4e5f\u53ef\u4ee5\u8ba9\u4f60\u83b7\u5f97\u66f4\u5927\u7684\u529b\u91cf... \u800c\u4ee3\u4ef7\u5c31\u662f\u8d8a\u53d1\u75af\u72c2\u5e76\u88ab\u9ed1\u6697\u529b\u91cf\u8d8a\u53d1\u5173\u6ce8.\u81f3\u5c11,\u5176\u4ed6\u4eba\u53ef\u80fd\u79f0\u4e4b\u4e3a\u75af\u72c2...
+\u4f46\u662f,\u5f53\u4f60\u5934\u8111\u4e2d\u7684\u58f0\u97f3\u7ed9\u51fa\u4e86\u6709\u7528\u7684\u77e5\u8bc6\u65f6;\u5728\u4f60\u79bb\u5f00\u4e4b\u524d\u51fa\u73b0\u7684\u602a\u7269\u4ecd\u7136\u7559\u5728\u4f60\u8eab\u540e\u65f6,\u4f60\u5f00\u59cb\u6000\u7591\u5b83\u771f\u7684\u662f\u7cbe\u795e\u7684\u9519\u4e71\u5417?");
 mods.thaumcraft.Research.addPage("WARPWARNING", "WARPTHEORY.research_page.WARPWARNING.2");
-game.setLocalization("WARPTHEORY.research_page.WARPWARNING.2", "Warp Theory add a bunch of new Warp Effects to the Player. Be very carful because you don't want autospawning an Wither in or bside you Base<BR>Warp Effects are Trickert by Warp Level<BR>Fake explosion warp effect can happen with 10 Warp<BR>Fake creeper warp effect can happen with 10 Warp<BR>Spawn bats can happen with 15 Warp<BR>Poison warp effect can happen with 16 Warp<BR>Jump boost warp effect can happen with 18 Warp");
+game.setLocalization("WARPTHEORY.research_page.WARPWARNING.2", "\u795e\u79d8\u626d\u66f2\u5b66\u6dfb\u52a0\u4e86\u4e00\u7cfb\u5217\u626d\u66f2\u6548\u679c.\u4f60\u8981\u4e07\u5206\u5f53\u5fc3\u56e0\u4e3a\u4f60\u80af\u5b9a\u4e0d\u60f3\u5728\u4f60\u7684\u57fa\u5730\u5185\u90e8\u6216\u5468\u56f4\u751f\u6210\u51cb\u7075<BR>\u626d\u66f2\u6548\u679c\u4e0e\u626d\u66f2\u7b49\u7ea7\u76f8\u5173.<BR>10\u626d\u66f2\u65f6\u53ef\u80fd\u53d1\u751f\u865a\u62df\u7684\u7206\u70b8<BR>10\u626d\u66f2\u65f6\u53ef\u80fd\u751f\u6210\u865a\u62df\u7684\u722c\u884c\u8005<BR>15\u626d\u66f2\u65f6\u53ef\u80fd\u751f\u6210\u865a\u62df\u7684\u8759\u8760<BR>16\u626d\u66f2\u65f6\u53ef\u80fd\u4e2d\u6bd2<BR>18\u626d\u66f2\u65f6\u53ef\u80fd\u83b7\u5f97\u8df3\u8dc3\u63d0\u5347");
 mods.thaumcraft.Research.addPage("WARPWARNING", "WARPTHEORY.research_page.WARPWARNING.3");
-game.setLocalization("WARPTHEORY.research_page.WARPWARNING.3", "Rain warp effect can happen with 25 Warp<BR>Blood warp effect can happen with 25 Warp<BR>Nausea warp effect can happen with 25 Warp<BR>Friendly creeper warp effect can happen with 26 Warp<BR>Lightning warp effect can happen with 30 Warp<BR>Livestock rain warp effect can happen with 32 Warp<BR>Wind warp effect can happen with 38 Warp<BR>Blindness warp effect can happen with 43 Warp");
+game.setLocalization("WARPTHEORY.research_page.WARPWARNING.3", "25\u626d\u66f2\u65f6\u53ef\u80fd\u4e0b\u96e8<BR>25\u626d\u66f2\u65f6\u53ef\u80fd\u6d41\u8840<BR>25\u626d\u66f2\u65f6\u53ef\u80fd\u53cd\u80c3<BR>26\u626d\u66f2\u65f6\u53ef\u80fd\u4f7f\u722c\u884c\u8005\u53d8\u5f97\u53cb\u597d<BR>30\u626d\u66f2\u65f6\u53ef\u80fd\u51fa\u73b0\u95ea\u7535<BR>32\u626d\u66f2\u65f6\u53ef\u80fd\u51fa\u73b0\u7272\u755c\u4e4b\u96e8<BR>38\u626d\u66f2\u65f6\u53ef\u80fd\u51fa\u73b0\u602a\u98ce<BR>43\u626d\u66f2\u65f6\u53ef\u80fd\u5931\u660e");
 mods.thaumcraft.Research.addPage("WARPWARNING", "WARPTHEORY.research_page.WARPWARNING.4");
-game.setLocalization("WARPTHEORY.research_page.WARPWARNING.4", "Random teleport can happen with 45 Warp<BR>Acceleration warp effect can happen with 50 Warp<BR>Decay warp effect can happen with 50 Warp<BR>Random trees effect can happen with 50 Warp<BR>Chest scramble warp effect can happen with 80 Warp<BR>Spawn wither warp effect can happen with Warp 80");
+game.setLocalization("WARPTHEORY.research_page.WARPWARNING.4", "45\u626d\u66f2\u65f6\u53ef\u80fd\u968f\u673a\u4f20\u9001<BR>50\u626d\u66f2\u65f6\u53ef\u80fd\u83b7\u5f97\u6025\u901f<BR>50\u626d\u66f2\u65f6\u53ef\u80fd\u51fa\u73b0\u88c5\u5907\u8150\u8680<BR>50\u626d\u66f2\u65f6\u53ef\u80fd\u968f\u673a\u79cd\u6811(\u53ef\u6015\u7684\u6bc1\u5bb6\u6548\u679c)<BR>80\u626d\u66f2\u65f6\u4f60\u7684\u7bb1\u5b50\u53ef\u80fd\u4f1a\u4e00\u56e2\u7cdf<BR>80\u626d\u66f2\u65f6\u53ef\u80fd\u4f1a\u751f\u6210\u51cb\u7075");
 
 // --- Ender Chest Arcane
 mods.thaumcraft.Research.addResearch("ENDERCHEST", "NEWHORIZONS", "metallum 15, electrum 15, machina 12, alienis 9, lucrum 6, fabrico 3, ", -4, 0, 4, <EnderStorage:enderChest>);
-game.setLocalization("tc.research_name.ENDERCHEST", "Ender Chest");
-game.setLocalization("tc.research_text.ENDERCHEST", "[EC] Oh, its more magical than a Chest!");
+game.setLocalization("tc.research_name.ENDERCHEST", "\u672b\u5f71\u7bb1\u5b50");
+game.setLocalization("tc.research_text.ENDERCHEST", "[EC]\u5662,\u8fd9\u6bd4\u7bb1\u5b50\u66f4\u9b54\u6cd5!");
 mods.thaumcraft.Research.addPrereq("ENDERCHEST", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("ENDERCHEST", true);
 mods.thaumcraft.Research.addPage("ENDERCHEST", "EnderStorage.research_page.ENDERCHEST");
-game.setLocalization("EnderStorage.research_page.ENDERCHEST", "The Ender Chest is a block that allows the player to store 27 items much like a wooden chest however, if two Ender Chests are placed down in different places, the items inside chest A will be in chest B. If the items are taken from either chest, both of the chest will not have that item. While on SMP, players will not share the same storage. This can be used to prevent players form stealing more valuable items, as they cannot access the same a items. This also means two players can store items in the same ender chest.");
+game.setLocalization("EnderStorage.research_page.ENDERCHEST", "\u672b\u5f71\u7bb1\u5b50\u662f\u4e00\u4e2a\u5f88\u50cf\u539f\u7248\u7bb1\u5b50\u7684\u65b9\u5757,\u73a9\u5bb6\u53ef\u4ee5\u5728\u5176\u4e2d\u5b58\u50a827\u5806\u7269\u54c1.
+\u4e0d\u540c\u4e4b\u5904\u5728\u4e8e,\u5982\u679c\u4e24\u4e2a\u672b\u5f71\u7bb1\u5b50\u88ab\u653e\u7f6e\u4e8e\u4e0d\u540c\u5730\u65b9,\u90a3\u4e48\u7bb1\u5b50A\u4e2d\u7684\u7269\u54c1\u4e5f\u4f1a\u5728\u7bb1\u5b50B\u4e2d\u51fa\u73b0. \u5982\u679c\u4ece\u4efb\u4f55\u4e00\u4e2a\u7bb1\u5b50\u4e2d\u62ff\u51fa\u7269\u54c1,\u7269\u54c1\u5c06\u4ece\u4e24\u4e2a\u7bb1\u5b50\u4e2d\u540c\u65f6\u6d88\u5931.
+\u4f46\u5728\u670d\u52a1\u5668\u4e2d,\u4e0d\u540c\u73a9\u5bb6\u4e0d\u4f1a\u5171\u4eab\u540c\u4e00\u4e2a\u50a8\u5b58\u7cfb\u7edf,\u6240\u4ee5\u6b64\u7bb1\u5b50\u53ef\u4ee5\u7528\u6765\u5b58\u653e\u8d35\u91cd\u7269\u54c1,\u8fdc\u79bb\u718a\u5b69\u5b50.
+\u8fd9\u4e5f\u610f\u5473\u7740\u4e24\u540d\u73a9\u5bb6\u53ef\u4ee5\u5728\u540c\u4e00\u4e2a\u672b\u5f71\u7bb1\u5b50\u4e2d\u5b58\u653e\u4e0d\u540c\u7684\u7269\u54c1.");
 mods.thaumcraft.Arcane.addShaped("ENDERCHEST", <EnderStorage:enderChest>, "aer 100, aqua 100, ignis 100, terra 100", [
 [<gregtech:gt.metaitem.01:17506>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.01:17506>],
 [<gregtech:gt.metaitem.01:32694>, <IronChest:BlockIronChest:6>, <gregtech:gt.metaitem.01:32684>],
@@ -1975,12 +2038,15 @@ mods.thaumcraft.Research.addArcanePage("ENDERCHEST", <EnderStorage:enderChest>);
 
 // --- Ender Tank Arcane
 mods.thaumcraft.Research.addResearch("ENDERTANK", "NEWHORIZONS", "metallum 15, electrum 15, machina 12, ignis 9, lucrum 6, sensus 3, ", -4, 2, 4, <EnderStorage:enderChest:4096>);
-game.setLocalization("tc.research_name.ENDERTANK", "Ender Tank");
-game.setLocalization("tc.research_text.ENDERTANK", "[EC] Oh, its more magical than a Tank!");
+game.setLocalization("tc.research_name.ENDERTANK", "\u672b\u5f71\u84c4\u6c34\u69fd");
+game.setLocalization("tc.research_text.ENDERTANK", "[EC]\u5662,\u8fd9\u6bd4\u6c34\u69fd\u66f4\u9b54\u6cd5!");
 mods.thaumcraft.Research.addPrereq("ENDERTANK", "ENDERCHEST", false);
 mods.thaumcraft.Research.setConcealed("ENDERTANK", true);
 mods.thaumcraft.Research.addPage("ENDERTANK", "EnderStorage.research_page.ENDERTANK");
-game.setLocalization("EnderStorage.research_page.ENDERTANK", "The Ender Tank offers stationary storage for up to 16 buckets of a single liquid. Like the Ender Chest, it has three wool pads on top which can be manipulated by right-clicking each one with a dye. Tanks with matching colors will share liquids between them, even across dimensions. Additionally, right-clicking the dial with a diamond will set that tank to a private network for that player, change the dial to a diamond color, and show your username in the tooltip. A private Ender Tank will not share any liquids with any public tank, or any private tank from another user, even if the colored pads match.");
+game.setLocalization("EnderStorage.research_page.ENDERTANK", "\u672b\u5f71\u84c4\u6c34\u69fd\u53ef\u5b58\u50a816\u6876\u540c\u79cd\u6db2\u4f53.
+\u4e0e\u672b\u5f71\u7bb1\u5b50\u7c7b\u4f3c,\u5176\u4e0a\u6709\u4e09\u4e2a\u53ef\u67d3\u8272\u7684(\u624b\u6301\u67d3\u6599\u53f3\u952e)\u7f8a\u6bdb\u57ab.\u76f8\u540c\u67d3\u8272\u7684\u6c34\u69fd\u5c31\u4f1a\u5171\u4eab\u5176\u4e2d\u7684\u6db2\u4f53(\u5373\u4f7f\u5728\u4e0d\u540c\u4e16\u754c).
+\u53e6\u5916,\u624b\u6301\u94bb\u77f3\u53f3\u952e\u9501\u5c06\u4f1a\u628a\u6b64\u6c34\u69fd\u8bbe\u7f6e\u4e3a\u73a9\u5bb6\u7684\u79c1\u6709\u7f51\u7edc,\u5e76\u628a\u9501\u6362\u6210\u94bb\u77f3\u7684\u989c\u8272,\u5e76\u5728tooltip\u4e2d\u663e\u793a\u4f60\u7684\u540d\u5b57.
+\u79c1\u6709\u7684\u672b\u5f71\u84c4\u6c34\u69fd\u4e0d\u4f1a\u548c\u4efb\u4f55\u516c\u5f00\u7684\u6c34\u69fd\u5171\u4eab\u6db2\u4f53,\u4e5f\u4e0d\u4f1a\u548c\u4efb\u4f55\u522b\u4eba\u7684\u79c1\u6709\u84c4\u6c34\u69fd\u5171\u4eab,\u5373\u4f7f\u5b83\u4eec\u9891\u9053\u76f8\u540c(\u989c\u8272\u4e00\u81f4).");
 mods.thaumcraft.Arcane.addShaped("ENDERTANK", <EnderStorage:enderChest:4096>, "aer 100, aqua 100, ignis 100, terra 100, ordo 100", [
 [<gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.02:22801>],
 [<gregtech:gt.metaitem.01:32694>, <BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:32684>],
@@ -1989,12 +2055,15 @@ mods.thaumcraft.Research.addArcanePage("ENDERTANK", <EnderStorage:enderChest:409
 
 // --- Ender Pouch Arcane
 mods.thaumcraft.Research.addResearch("ENDERPOUCHE", "NEWHORIZONS", "lucrum 15, vitreus 15, metallum 12, electrum 9, machina 6, alienis 3, ", -4, 4, 4, <EnderStorage:enderPouch>);
-game.setLocalization("tc.research_name.ENDERPOUCHE", "Ender Pouch");
-game.setLocalization("tc.research_text.ENDERPOUCHE", "[EC] Oh, its more magical than a Backpack!");
+game.setLocalization("tc.research_name.ENDERPOUCHE", "\u672b\u5f71\u888b\u5b50");
+game.setLocalization("tc.research_text.ENDERPOUCHE", "[EC]\u5662,\u8fd9\u6bd4\u80cc\u5305\u66f4\u9b54\u6cd5!");
 mods.thaumcraft.Research.addPrereq("ENDERPOUCHE", "ENDERTANK", false);
 mods.thaumcraft.Research.setConcealed("ENDERPOUCHE", true);
 mods.thaumcraft.Research.addPage("ENDERPOUCHE", "EnderStorage.research_page.ENDERPOUCHE");
-game.setLocalization("EnderStorage.research_page.ENDERPOUCHE", "The Ender Pouch is a craftable item offering remote access to any Ender Chest via right-clicking while holding the pouch. The Ender Pouch may be initially crafted with the desired color of wool; shift-right clicking on an Ender Chest with an Ender Pouch will synchronize the color code of the pouch to match the color code of the chest, replacing the previous color code of the pouch. When the ender-pouchs GUI is open, it is still possible to move it in your inventory, including moving it into the ender-pouch. Unlike bag-like things from other mods, it is then possible to retrieve it and its contents, by using an ender-chest or another ender-pouch with the same code.");
+game.setLocalization("EnderStorage.research_page.ENDERPOUCHE", "\u672b\u5f71\u888b\u5b50\u662f\u4e2a\u53ef\u64cd\u4f5c\u7684\u7269\u54c1,\u624b\u6301\u888b\u5b50\u53f3\u952e\u5373\u53ef\u8fdc\u7a0b\u8bbf\u95ee\u4f60\u7684\u672b\u5f71\u7bb1\u5b50.
+\u672b\u5f71\u888b\u5b50\u6700\u521d\u7684\u989c\u8272\u7f16\u7801\u4e0e\u5408\u6210\u5b83\u7684\u7f8a\u6bdb\u6709\u5173;\u624b\u6301\u888b\u5b50Shift+\u53f3\u952e\u672b\u5f71\u7bb1\u5b50\u53ef\u4ee5\u5c06\u7bb1\u5b50\u7684\u989c\u8272\u7f16\u7801\u540c\u6b65\u5230\u888b\u5b50\u4e0a,\u5e76\u66ff\u6362\u888b\u5b50\u539f\u6765\u7684\u989c\u8272\u7f16\u7801.
+\u5373\u4f7f\u672b\u5f71\u888b\u5b50\u7684GUI\u662f\u6253\u5f00\u72b6\u6001,\u5b83\u4ecd\u7136\u53ef\u4ee5\u88ab\u653e\u5165\u7269\u54c1\u680f\u751a\u81f3\u653e\u5165\u672b\u5f71\u888b\u5b50.
+\u4e0d\u540c\u4e8e\u522b\u7684mod\u7684\u80cc\u5305\u7c7b\u7269\u54c1,\u4f60\u8fd9\u6837\u5e72\u4e4b\u540e\u4e0d\u7528\u62c5\u5fc3\u65e0\u6cd5\u627e\u56de\u7269\u54c1,\u53ea\u9700\u4f7f\u7528\u76f8\u540c\u989c\u8272\u7f16\u7801\u7684\u672b\u5f71\u7bb1\u5b50\u6216\u888b\u5b50\u5373\u53ef\u627e\u56de.");
 mods.thaumcraft.Arcane.addShaped("ENDERPOUCHE", <EnderStorage:enderPouch>, "aer 100, aqua 100, ignis 100, terra 100, ordo 100, perditio 100", [
 [<gregtech:gt.metaitem.02:30500>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.02:30500>],
 [<gregtech:gt.metaitem.01:32694>, <Backpack:backpack:200>, <gregtech:gt.metaitem.01:32684>],
@@ -2003,12 +2072,15 @@ mods.thaumcraft.Research.addArcanePage("ENDERPOUCHE", <EnderStorage:enderPouch>)
 
 // --- Auto Enchanting Table
 mods.thaumcraft.Research.addResearch("AUTOENCHANTINGTABLE", "NEWHORIZONS", "praecantatio 15, fabrico 12, cognitio 9, potentia 6", 0, 2, 4, <OpenBlocks:autoenchantmenttable>);
-game.setLocalization("tc.research_name.AUTOENCHANTINGTABLE", "Auto Enchanting Table");
-game.setLocalization("tc.research_text.AUTOENCHANTINGTABLE", "[OB] Auto Enchanting nice");
+game.setLocalization("tc.research_name.AUTOENCHANTINGTABLE", "\u81ea\u52a8\u9644\u9b54\u53f0");
+game.setLocalization("tc.research_text.AUTOENCHANTINGTABLE", "[OB]\u81ea\u52a8\u9644\u9b54\u771f\u68d2!");
 mods.thaumcraft.Research.addPrereq("AUTOENCHANTINGTABLE", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.setConcealed("AUTOENCHANTINGTABLE", true);
 mods.thaumcraft.Research.addPage("AUTOENCHANTINGTABLE", "OpenBlocks.research_page.AUTOENCHANTINGTABLE.1");
-game.setLocalization("OpenBlocks.research_page.AUTOENCHANTINGTABLE.1", "An Auto Enchantment Table can draw the experience from a Tank using the auto drink setting, this is then stored in its internal liquid buffer before usage. Theres also a setting to automatically pull items to work on from an inventory on some side of the enchantment table, as well as resources or books to combine them with. A final setting allows for ejecting the finished item into an inventory at some side of the enchantment table. All of the settings can be set to work with certain sides of the block, this is done by left-clicking the sides of the enchantment table model shown in the individual settings panels.");
+game.setLocalization("OpenBlocks.research_page.AUTOENCHANTINGTABLE.1", "\u81ea\u52a8\u9644\u9b54\u53f0\u4f7f\u7528\u81ea\u52a8\u586b\u5145\u7ecf\u9a8c\u6a21\u5f0f\u65f6\u53ef\u4ee5\u4ece\u84c4\u6c34\u69fd\u4e2d\u62bd\u53d6\u7ecf\u9a8c,\u5b58\u5165\u5176\u5185\u90e8\u7f13\u51b2\u69fd\u4ee5\u5907\u4f7f\u7528.
+\u8fd8\u6709\u81ea\u52a8\u8f93\u5165\u7269\u54c1\u6a21\u5f0f,\u81ea\u52a8\u9644\u9b54\u53f0\u53ef\u81ea\u52a8\u5c06\u67d0\u4e00\u9762\u7bb1\u5b50\u4e2d\u7684\u7269\u54c1\u3001\u8d44\u6e90\u6216\u662f\u4e66\u62bd\u5165\u5185\u90e8.
+\u6700\u540e\u4e00\u79cd\u8bbe\u5b9a\u53ef\u4f7f\u81ea\u52a8\u9644\u9b54\u53f0\u5728\u5b8c\u6210\u9644\u9b54\u540e\u5c06\u5176\u81ea\u52a8\u8f93\u51fa\u5230\u67d0\u4e00\u9762\u7684\u7bb1\u5b50\u4e2d.
+\u6240\u6709\u8fd9\u4e09\u79cd\u8bbe\u5b9a\u90fd\u53ef\u4ee5\u6307\u5b9a\u8f93\u5165/\u8f93\u51fa\u9762(\u901a\u8fc7\u5728\u4e2a\u4eba\u8bbe\u7f6e\u754c\u9762\u5de6\u952e\u9644\u9b54\u53f0\u7684\u5404\u4e2a\u9762\u5b8c\u6210\u6307\u5b9a).");
 mods.thaumcraft.Research.addPage("AUTOENCHANTINGTABLE", "OpenBlocks.research_page.AUTOENCHANTINGTABLE.2");
 game.setLocalization("OpenBlocks.research_page.AUTOENCHANTINGTABLE.2", " The enchantment table model in the panels can also be rotated by holding the right mouse button and dragging the cursor around.");
 mods.thaumcraft.Arcane.addShaped("AUTOENCHANTINGTABLE", <OpenBlocks:autoenchantmenttable>, "aer 75, aqua 75, ignis 75, terra 75. ordo 75, perditio 75", [
@@ -2020,14 +2092,20 @@ mods.thaumcraft.Warp.addToResearch("AUTOENCHANTINGTABLE", 1);
 
 // --- Luggage
 mods.thaumcraft.Research.addResearch("LUGGAGE", "NEWHORIZONS", "alienis 15, sensus 15, iter 12, praecantatio 9, fabrico 6, lucrum 3", -6, 0, 4, <OpenBlocks:luggage>);
-game.setLocalization("tc.research_name.LUGGAGE", "Luggage");
-game.setLocalization("tc.research_text.LUGGAGE", "[OB] Luggage follow me");
+game.setLocalization("tc.research_name.LUGGAGE", "\u884c\u674e\u7bb1");
+game.setLocalization("tc.research_text.LUGGAGE", "[OB]\u8ddf\u7740\u6211\u7684\u884c\u674e\u7bb1");
 mods.thaumcraft.Research.addPrereq("LUGGAGE", "ENDERCHEST", false);
 mods.thaumcraft.Research.setConcealed("LUGGAGE", true);
 mods.thaumcraft.Research.addPage("LUGGAGE", "OpenBlocks.research_page.LUGGAGE.1");
-game.setLocalization("OpenBlocks.research_page.LUGGAGE.1", "Luggage is a storage block added by OpenBlocks. The block acts like a regular chest, but it is an entity. After a player places it down by right-clicking with it on the ground, it will start following them around. Right-clicking will open the inventory and it picks up items from the ground. By holding shift and right-clicking the luggage entity, it can be turned back into an item and picked up. When picked up, the luggage item will retain all content thats stored in it.");
+game.setLocalization("OpenBlocks.research_page.LUGGAGE.1", "\u884c\u674e\u7bb1\u662f\u7531\u5f00\u653e\u5f0f\u65b9\u5757\u6dfb\u52a0\u7684\u5b58\u50a8\u65b9\u5757.
+\u8fd9\u4e2a\u65b9\u5757\u7684\u5b58\u50a8\u529f\u80fd\u4e0e\u666e\u901a\u7bb1\u5b50\u4e00\u81f4,\u4f46\u5b83\u662f\u5b9e\u4f53.
+\u73a9\u5bb6\u624b\u6301\u884c\u674e\u7bb1\u53f3\u952e\u5730\u9762\u5c06\u5176\u653e\u7f6e\u51fa\u6765\u540e,\u5b83\u5c06\u5f00\u59cb\u8ddf\u968f\u73a9\u5bb6,\u5e76\u81ea\u52a8\u6361\u62fe\u9644\u8fd1\u6389\u843d\u7269.
+\u5bf9\u5176\u53f3\u952e\u53ef\u6253\u5f00\u7bb1\u5b50,\u5bf9\u5176Shift+\u53f3\u952e\u53ef\u4f7f\u5176\u53d8\u56de\u7269\u54c1\u5e76\u53ef\u4ee5\u6361\u8d77.
+\u5728\u88ab\u6361\u8d77\u4f5c\u4e3a\u7269\u54c1\u72b6\u6001\u65f6,\u884c\u674e\u7bb1\u4f1a\u4fdd\u7559\u5176\u5185\u90e8\u5b58\u50a8\u7684\u7269\u54c1.");
 mods.thaumcraft.Research.addPage("LUGGAGE", "OpenBlocks.research_page.LUGGAGE.2");
-game.setLocalization("OpenBlocks.research_page.LUGGAGE.2", "Though the entity has 20 health points, it cant be hurt. Beware, as Luggage can still be burned by Lava or destroyed by cactus, though this is only in its item form, in entity form it is immune to fire and lava and even if pushed into the void will fall down next to its owner a moment later. Upon being struck by lightning, having a lightning focused wand from the Thaumcraft mod cast on it, or being blown up by a Charged Creeper, the Luggage will become supercharged, changing its texture, and doubling its inventory space.");
+game.setLocalization("OpenBlocks.research_page.LUGGAGE.2", "\u867d\u7136\u884c\u674e\u7bb1\u5b9e\u4f53\u72b6\u6001\u65f6\u670920\u70b9\u751f\u547d\u503c,\u4f46\u5b83\u662f\u65e0\u6cd5\u88ab\u653b\u51fb\u7684.
+\u4f46\u8bf7\u6ce8\u610f,\u884c\u674e\u7bb1\u4f1a\u88ab\u5ca9\u6d46\u541e\u566c\u6216\u662f\u88ab\u4ed9\u4eba\u638c\u6467\u6bc1,\u4e0d\u8fc7\u90a3\u662f\u5728\u5b83\u7269\u54c1\u72b6\u6001\u65f6,\u5b9e\u4f53\u72b6\u6001\u7684\u884c\u674e\u7bb1\u514d\u75ab\u706b\u7130\u548c\u5ca9\u6d46,\u751a\u81f3\u5373\u4f7f\u88ab\u63a8\u4e0b\u865a\u7a7a,\u4e00\u4f1a\u513f\u540e\u5b83\u8fd8\u4f1a\u56de\u5230\u4e3b\u4eba\u8eab\u8fb9.
+\u5f53\u88ab\u95ea\u7535\u51fb\u4e2d,\u88ab\u795e\u79d8\u7684\u95ea\u7535\u6838\u5fc3\u653b\u51fb,\u6216\u662f\u88ab\u5145\u80fd\u722c\u884c\u8005\u70b8\u4e0a\u5929,\u884c\u674e\u7bb1\u5c31\u4f1a\u8f6c\u6362\u4e3a\u8d85\u5145\u80fd\u5f62\u6001,\u6539\u53d8\u6750\u8d28,\u5bb9\u91cf\u52a0\u500d.");
 mods.thaumcraft.Arcane.addShaped("LUGGAGE", <OpenBlocks:luggage>, "aer 75, aqua 75, ignis 75, terra 75, perditio 75, ordo 75", [
 [<gregtech:gt.metaitem.01:27019>, <Thaumcraft:ItemGolemCore>, <gregtech:gt.metaitem.01:27019>],
 [<Automagy:crystalBrain:3>, <Thaumcraft:blockChestHungry>, <Automagy:crystalBrain:3>],
@@ -2037,14 +2115,16 @@ mods.thaumcraft.Warp.addToResearch("LUGGAGE", 1);
 
 // --- Ghost Amulet HEE
 mods.thaumcraft.Research.addResearch("GHOSTAMULET", "NEWHORIZONS", "potentia 21, auram 18, infernus 15, lucrum 12, praecantatio 12, spiritus 9, alienis 6, corpus 3", 4, 2, 4, <HardcoreEnderExpansion:ghost_amulet:1>);
-game.setLocalization("tc.research_name.GHOSTAMULET", "Ghost Amulet");
-game.setLocalization("tc.research_text.GHOSTAMULET", "[HEE] Ghost Amulet purification.");
+game.setLocalization("tc.research_name.GHOSTAMULET", "\u5e7d\u9b42\u62a4\u8eab\u7b26");
+game.setLocalization("tc.research_text.GHOSTAMULET", "[HEE]\u9ebb\u9ebb\u518d\u4e5f\u4e0d\u7528\u62c5\u5fc3\u6211\u8d70\u591c\u8def\u4e86.");
 mods.thaumcraft.Research.addPrereq("GHOSTAMULET", "ENCHANTINGTABLE", false);
 mods.thaumcraft.Research.addPrereq("GHOSTAMULET", "BREWINGSTAND", false);
 mods.thaumcraft.Research.setConcealed("GHOSTAMULET", true);
 mods.thaumcraft.Research.setRound("GHOSTAMULET", true);
 mods.thaumcraft.Research.addPage("GHOSTAMULET", "Hee.research_page.GHOSTAMULET.1");
-game.setLocalization("Hee.research_page.GHOSTAMULET.1", "Getting Dragon Essence from a Dragon is quite hard on a multiplayer server. You have found a way to purify your Ghost Amulet without Dragon essence the magical way. You need some Draconium, Endium, Infernium and other End items and ores which let you resurrect a Dragon and get some Dragon Essence.");
+game.setLocalization("Hee.research_page.GHOSTAMULET.1", "\u5728\u591a\u4eba\u670d\u52a1\u5668\u4e0a,\u4ece\u672b\u5f71\u9f99\u8eab\u4e0a\u83b7\u53d6\u9f99\u4e4b\u7cbe\u534e\u662f\u975e\u5e38\u56f0\u96be\u7684.
+\u4f60\u5fc5\u987b\u627e\u5230\u4e00\u79cd\u4e0d\u7528\u9f99\u4e4b\u7cbe\u534e\u7684\u65b9\u6cd5\u6765\u51c0\u5316\u4f60\u7684\u5e7d\u9b42\u62a4\u8eab\u7b26.
+\u4f60\u9700\u8981\u4e00\u4e9b\u9f99\u952d\u3001\u672b\u5f71\u7c89\u672b\u4ee5\u53ca\u4e00\u7cfb\u5217\u672b\u5730\u7269\u54c1\u548c\u77ff\u77f3\u6765\u8fbe\u5230\u4e0e\u9f99\u4e4b\u7cbe\u534e\u76f8\u540c\u7684\u6548\u679c.");
 mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet>, 
 [<gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:end_powder>, <gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:end_powder>], 
 "auram 64, potentia 64, vitium 32, vitreus 48, spiritus 32, corpus 16, alienis 24, lucrum 8", <HardcoreEnderExpansion:ghost_amulet:1>, 9);
