@@ -123,4 +123,4 @@ Assembler.addRecipe(ObsidianChestCart, ObsidianChest, Minecart, 200, 64);
 // --- Hiding Overriding Stuff ---
 
 
-NEI.overrideName(<ironchestminecarts:minecart_chest_silver>, "Minecart With Steel Chest");
+NEI.overrideName(<ironchestminecarts:minecart_chest_silver>, "\u94a2\u7bb1\u5b50\u8fd0\u8f93\u77ff\u8f66");
