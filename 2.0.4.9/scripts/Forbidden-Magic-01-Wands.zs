@@ -75,10 +75,10 @@ mods.thaumcraft.Infusion.addRecipe("CAP_elementium", <ForbiddenMagic:WandCaps:6>
 
 // Journey
 mods.thaumcraft.Research.addResearch("JOURNEY", "FORBIDDEN", "iter 5, praecantatio 10, instrumentum 3", -3, 3, 8, <BiomesOPlenty:food:7>);
-game.setLocalization("en_US", "tc.research_name.JOURNEY", "A long Journey");
-game.setLocalization("en_US", "tc.research_text.JOURNEY", "[FM] There must be more Magic!");
+game.setLocalization("zh_CN", "tc.research_name.JOURNEY");
+game.setLocalization("zh_CN", "tc.research_text.JOURNEY");
 mods.thaumcraft.Research.addPage("JOURNEY", "derp.research_page.JOURNEY");
-game.setLocalization("en_US", "derp.research_page.JOURNEY", "The Thaumonomicon told you about purple trees with white leaves and about colorful sparkeling flowers, but you simple were unable to find them in the world, it seems that they don't exist.<BR> You decited to create these Objects yourself. You're a Thaumaturge, you don't care if things exist or not, you can simpley create them on your own, but it will take further investigation to do so.");
+game.setLocalization("zh_CN", "derp.research_page.JOURNEY");
 mods.thaumcraft.Research.addPrereq("JOURNEY", "SCHOOLS", false);
 mods.thaumcraft.Research.setRound("JOURNEY",true);
 mods.thaumcraft.Research.setStub("JOURNEY",true);
@@ -86,10 +86,10 @@ mods.thaumcraft.Research.setAutoUnlock("JOURNEY",true);
 
 // Livingwood Wand Rod
 mods.thaumcraft.Research.addResearch("ROD_livingwood", "FORBIDDEN", "victus 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", -1, 3, 8, <ForbiddenMagic:WandCores:7>);
-game.setLocalization("en_US", "tc.research_name.ROD_livingwood", "Livingwood Rod");
-game.setLocalization("en_US", "tc.research_text.ROD_livingwood", "[FM] A living Wand Rod?");
+game.setLocalization("zh_CN", "tc.research_name.ROD_livingwood");
+game.setLocalization("zh_CN", "tc.research_text.ROD_livingwood");
 mods.thaumcraft.Research.addPage("ROD_livingwood", "derp.research_page.ROD_livingwood");
-game.setLocalization("en_US", "derp.research_page.ROD_livingwood", "You know you could do it! Livingwood could only be created by a flower, until now. By infusing a mundane greatwood rod with, the essence of life, some moss and victus essentia, you were able to create a wandrod out of Livingwood, that can store up to 100 vis. That result is astounding, but you think that you can do better.");
+game.setLocalization("zh_CN", "derp.research_page.ROD_livingwood");
 mods.thaumcraft.Research.addInfusionPage("ROD_livingwood",<ForbiddenMagic:WandCores:7>);
 mods.thaumcraft.Research.setConcealed("ROD_livingwood", true);
 mods.thaumcraft.Research.addPrereq("ROD_livingwood", "JOURNEY", false);
@@ -100,10 +100,10 @@ mods.thaumcraft.Warp.addToResearch("ROD_livingwood",2);
 
 // Dreamwood Wand Rod
 mods.thaumcraft.Research.addResearch("ROD_dreamwood", "FORBIDDEN", "auram 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", 1, 4, 8, <ForbiddenMagic:WandCores:11>);
-game.setLocalization("en_US", "tc.research_name.ROD_dreamwood", "Dreamwood Rod");
-game.setLocalization("en_US", "tc.research_text.ROD_dreamwood", "[FM] Sweet dreams are made of these");
+game.setLocalization("zh_CN", "tc.research_name.ROD_dreamwood");
+game.setLocalization("zh_CN", "tc.research_text.ROD_dreamwood");
 mods.thaumcraft.Research.addPage("ROD_dreamwood", "derp.research_page.ROD_dreamwood");
-game.setLocalization("en_US", "derp.research_page.ROD_dreamwood", "Livingwood is quite useful, but it can't be turned into a staff, it's just to unstable. You heard about dreamwood, which is quite stable, but requires elven magic and you have no idea where you can get an elve from. Maybe it is possible to just stabalize your livingwood rod with some magical crystals and a bit of Silverwood. The thaumonomicon told you that this has to be done in the elven world, but you simply tried to use more auram, which seemed to work aswell. <BR> You new rod now holds exact the same amount of vis than the old one, but it can be turnd into a staff and looks much more stylish.");
+game.setLocalization("zh_CN", "derp.research_page.ROD_dreamwood");
 mods.thaumcraft.Research.addInfusionPage("ROD_dreamwood",<ForbiddenMagic:WandCores:11>);
 mods.thaumcraft.Research.setConcealed("ROD_dreamwood", true);
 mods.thaumcraft.Research.addPrereq("ROD_dreamwood", "ROD_livingwood", false);
@@ -112,10 +112,10 @@ mods.thaumcraft.Research.addPrereq("ROD_dreamwood", "ROD_silverwood", false);
 
 // Dreamwood Staff Rod
 mods.thaumcraft.Research.addResearch("ROD_dreamwood_staff", "FORBIDDEN", "auram 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", 3, 4, 8, <ForbiddenMagic:WandCores:13>);
-game.setLocalization("en_US", "tc.research_name.ROD_dreamwood_staff", "Dreamwood Staff");
-game.setLocalization("en_US", "tc.research_text.ROD_dreamwood_staff", "[FM] Oh, fantasy free me!");
+game.setLocalization("zh_CN", "tc.research_name.ROD_dreamwood_staff");
+game.setLocalization("zh_CN", "tc.research_text.ROD_dreamwood_staff");
 mods.thaumcraft.Research.addPage("ROD_dreamwood_staff", "derp.research_page.ROD_dreamwood_staff");
-game.setLocalization("en_US", "derp.research_page.ROD_dreamwood_staff", "You finally are able to build a staff out of dreamwood, just add a primal charm, some crystal clusters and two rods together and you've got you new staff, that holds up to 250 vis of each type.");
+game.setLocalization("zh_CN", "derp.research_page.ROD_dreamwood_staff");
 mods.thaumcraft.Research.addPrereq("ROD_dreamwood_staff", "ROD_dreamwood", false);
 mods.thaumcraft.Research.addArcanePage("ROD_dreamwood_staff",<ForbiddenMagic:WandCores:13>);
 mods.thaumcraft.Research.setSpikey("ROD_dreamwood_staff", true);
@@ -125,10 +125,10 @@ mods.thaumcraft.Warp.addToResearch("ROD_dreamwood_staff",3);
 
 // Manasteel Wand Caps
 mods.thaumcraft.Research.addResearch("CAP_manasteel", "FORBIDDEN", "metallum 5, praecantatio 10, lucrum 3,instrumentum 4, auram 5", 1, 2, 8, capMana);
-game.setLocalization("en_US", "tc.research_name.CAP_manasteel", "Manasteel Caps");
-game.setLocalization("en_US", "tc.research_text.CAP_manasteel", "[FM] The secret of Mana");
+game.setLocalization("zh_CN", "tc.research_name.CAP_manasteel");
+game.setLocalization("zh_CN", "tc.research_text.CAP_manasteel");
 mods.thaumcraft.Research.addPage("CAP_manasteel", "derp.research_page.CAP_manasteel");
-game.setLocalization("en_US", "derp.research_page.CAP_manasteel", "Manasteel is the Botanical equivalent to Thaumium, so it should be possible to create caps out of it, by infusing some silver caps with some electrotine and astral silver you were able to create a cap with the strength of blue alloy and a higher magical conductivity than mundane silver. The vis discount is the same as Thaumium, you think thats the reason why it is call Botanical Thaumium.");
+game.setLocalization("zh_CN", "derp.research_page.CAP_manasteel");
 mods.thaumcraft.Research.addInfusionPage("CAP_manasteel",capMana);
 mods.thaumcraft.Research.setConcealed("CAP_manasteel", true);
 mods.thaumcraft.Research.addPrereq("CAP_manasteel", "ROD_livingwood", false);
@@ -138,10 +138,10 @@ mods.thaumcraft.Warp.addToResearch("CAP_manasteel",2);
 
 // Terrasteel Wand Caps
 mods.thaumcraft.Research.addResearch("CAP_terrasteel", "FORBIDDEN", "terra 5, praecantatio 10, superbia 3,instrumentum 4,strontio 2, vitreus 5", 3, 2, 8, capTerra);
-game.setLocalization("en_US", "tc.research_name.CAP_terrasteel", "Terrasteel Wand Caps");
-game.setLocalization("en_US", "tc.research_text.CAP_terrasteel", "[FM] Completion!");
+game.setLocalization("zh_CN", "tc.research_name.CAP_terrasteel");
+game.setLocalization("zh_CN", "tc.research_text.CAP_terrasteel");
 mods.thaumcraft.Research.addPage("CAP_terrasteel", "derp.research_page.CAP_terrasteel");
-game.setLocalization("en_US", "derp.research_page.CAP_terrasteel", "You've read about a metal, that's completly charged with magical energys that it could even summon demons, you don't think that's true, but it's worth a try. Just infuse you manasteel caps again with some steel leafs, crystal clusters and add a few jars of praecantatio essentia and see what happens, maybe it will be the best wand cap existing in this world.");
+game.setLocalization("zh_CN", "derp.research_page.CAP_terrasteel");
 mods.thaumcraft.Research.addInfusionPage("CAP_terrasteel",capTerra);
 mods.thaumcraft.Research.setConcealed("CAP_terrasteel", true);
 mods.thaumcraft.Research.addPrereq("CAP_terrasteel", "CAP_manasteel", false);
@@ -150,10 +150,10 @@ mods.thaumcraft.Warp.addToResearch("CAP_terrasteel",4);
 
 // Elementium Wand Caps
 mods.thaumcraft.Research.addResearch("CAP_elementium", "FORBIDDEN", "auram 5, praecantatio 10, victus 3,instrumentum 4, humanus 5", 3, 1, 8, capElementium);
-game.setLocalization("en_US", "tc.research_name.CAP_elementium", "Elementium Wand Caps");
-game.setLocalization("en_US", "tc.research_text.CAP_elementium", "[FM] Eco Friendly Wand Caps");
+game.setLocalization("zh_CN", "tc.research_name.CAP_elementium");
+game.setLocalization("zh_CN", "tc.research_text.CAP_elementium");
 mods.thaumcraft.Research.addPage("CAP_elementium", "derp.research_page.CAP_elementium");
-game.setLocalization("en_US", "derp.research_page.CAP_elementium", "What would happen if you combine you Manasteel caps with power of elemental shards? Insted of thinking about what could happen, you simply tried it, since the shards seem to resist the cap you decited to use some tungstensteel screws to bind it all together. The result is a metal, that has a higher vis dicount than thaumium. Sadly it has to be reinfused, due to it's new non magical components.");
+game.setLocalization("zh_CN", "derp.research_page.CAP_elementium");
 mods.thaumcraft.Research.addPrereq("CAP_elementium", "CAP_manasteel", false);
 mods.thaumcraft.Research.addArcanePage("CAP_elementium",<ForbiddenMagic:WandCaps:6>);
 mods.thaumcraft.Research.addInfusionPage("CAP_elementium",capElementium);
@@ -161,10 +161,10 @@ mods.thaumcraft.Research.setConcealed("CAP_elementium", true);
 
 // Vinteum 
 mods.thaumcraft.Research.addResearch("VINTEUM", "FORBIDDEN", "metallum 5, permutatio 10, praecantatio 3, lucrum 2", -4, 2, 8, <gregtech:gt.metaitem.01:8529>);
-game.setLocalization("en_US", "tc.research_name.VINTEUM", "Vinteum");
-game.setLocalization("en_US", "tc.research_text.VINTEUM", "[FM] Thaumium's smaller brother");
+game.setLocalization("zh_CN", "tc.research_name.VINTEUM");
+game.setLocalization("zh_CN", "tc.research_text.VINTEUM");
 mods.thaumcraft.Research.addPage("VINTEUM", "derp.research_page.VINTEUM");
-game.setLocalization("en_US", "derp.research_page.VINTEUM", "Every Thaumaturge knows about Thaumium, it is faily easy to produce and is a great magical conductor. More skilled Thaumaturges prefer usiung vintum insted. Vintum is similar to Thaumium, but can also be turned into gems, due to it's more ordered molecular structure. You just have to reorganize some Thaumium to turn it into vinteum, just throw it into a cauldron with some Permutatio and Ordo in it, that should be enough.");
+game.setLocalization("zh_CN", "derp.research_page.VINTEUM");
 mods.thaumcraft.Research.addCruciblePage("VINTEUM",<gregtech:gt.metaitem.01:9529>);
 mods.thaumcraft.Research.setConcealed("VINTEUM", true);
 mods.thaumcraft.Research.addPrereq("VINTEUM", "JOURNEY", false);
@@ -174,10 +174,10 @@ mods.thaumcraft.Warp.addToResearch("VINTEUM",1);
 
 // Vinteum Caps
 mods.thaumcraft.Research.addResearch("CAP_vinteum", "FORBIDDEN", "permutatio 5, praecantatio 10,lucrum 3,instrumentum 4, metallum 5", -5, 3, 8, capVinteum);
-game.setLocalization("en_US", "tc.research_name.CAP_vinteum", "Vinteum Caps");
-game.setLocalization("en_US", "tc.research_text.CAP_vinteum", "[FM] They're blue!");
+game.setLocalization("zh_CN", "tc.research_name.CAP_vinteum");
+game.setLocalization("zh_CN", "tc.research_text.CAP_vinteum");
 mods.thaumcraft.Research.addPage("CAP_vinteum", "derp.research_page.CAP_vinteum");
-game.setLocalization("en_US", "derp.research_page.CAP_vinteum", "Since vinteum is just reorganized Thaumium, you can't exspect that it gives you a higher vis discount, but since it is much more ordered you can dirctly use it's full magical potenital, which means no infusion required");
+game.setLocalization("zh_CN", "derp.research_page.CAP_vinteum");
 mods.thaumcraft.Research.addArcanePage("CAP_vinteum",capVinteum);
 mods.thaumcraft.Research.setConcealed("CAP_vinteum", true);
 mods.thaumcraft.Research.addPrereq("CAP_vinteum", "VINTEUM", false);
@@ -186,10 +186,10 @@ mods.thaumcraft.Warp.addToResearch("CAP_vinteum",3);
 
 // Witchwood Wand Rod
 mods.thaumcraft.Research.addResearch("ROD_witchwood", "FORBIDDEN", "victus 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", -4, 0, 8, <ForbiddenMagic:WandCores:4>);
-game.setLocalization("en_US", "tc.research_name.ROD_witchwood", "Witchwood Rod");
-game.setLocalization("en_US", "tc.research_text.ROD_witchwood", "[FM] That's witchcraft");
+game.setLocalization("zh_CN", "tc.research_name.ROD_witchwood");
+game.setLocalization("zh_CN", "tc.research_text.ROD_witchwood");
 mods.thaumcraft.Research.addPage("ROD_witchwood", "derp.research_page.ROD_witchwood");
-game.setLocalization("en_US", "derp.research_page.ROD_witchwood", "You had no luck finding a purple tree to make a wand of, now it's time to create it on your own. With the twig of a mighty tree creature, you should have the best possible starting material. Combined with some of the most magical trees you know it should make a pretty good wand rod. <BR> This Wand is able to store 100 vis of each type, quite a nice result.");
+game.setLocalization("zh_CN", "derp.research_page.ROD_witchwood");
 mods.thaumcraft.Research.addInfusionPage("ROD_witchwood",<ForbiddenMagic:WandCores:4>);
 mods.thaumcraft.Research.setConcealed("ROD_witchwood", true);
 mods.thaumcraft.Research.addPrereq("ROD_witchwood", "VINTEUM", false);
@@ -199,10 +199,10 @@ mods.thaumcraft.Warp.addToResearch("ROD_witchwood",2);
 
 // Witchwood Staff Rod
 mods.thaumcraft.Research.addResearch("ROD_witchwood_staff", "FORBIDDEN", "victus 5, praecantatio 10, herba 3,instrumentum 4, arbor 5", -2, 0, 8, <ForbiddenMagic:WandCores:10>);
-game.setLocalization("en_US", "tc.research_name.ROD_witchwood_staff", "Witchwood Staff");
-game.setLocalization("en_US", "tc.research_text.ROD_witchwood_staff", "[FM] Without Circle Magic");
+game.setLocalization("zh_CN", "tc.research_name.ROD_witchwood_staff");
+game.setLocalization("zh_CN", "tc.research_text.ROD_witchwood_staff");
 mods.thaumcraft.Research.addPage("ROD_witchwood_staff", "derp.research_page.ROD_witchwood_staff");
-game.setLocalization("en_US", "derp.research_page.ROD_witchwood_staff", "Witchwood doesn't like Elemental shards, that's interesting, but a fundamental problem when it comes to create a staff out of it. It loses some capacity when doing so, but it works.");
+game.setLocalization("zh_CN", "derp.research_page.ROD_witchwood_staff");
 mods.thaumcraft.Research.addArcanePage("ROD_witchwood_staff",<ForbiddenMagic:WandCores:10>);
 mods.thaumcraft.Research.setSpikey("ROD_witchwood_staff", true);
 mods.thaumcraft.Research.setConcealed("ROD_witchwood_staff", true);

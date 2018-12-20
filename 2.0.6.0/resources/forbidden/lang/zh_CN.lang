@@ -385,3 +385,59 @@ forbidden.lexicon.tainthistle=腐化蓟
 forbidden.lexicon.tainthistle.0=那令人厌恶的&1腐化蓟&0原本是生长于魔法实验后产生的腐化物质中的植物.它会消灭掉它能找到的一切物质,并试图转化为Mana.因为植物学是一项环境友好型的业务,所以这里也没什么可以多说的.<br>&o比Spirit Vine更具有入侵性&r
 forbidden.lexicon.bloodthorn=血荆棘
 forbidden.lexicon.bloodthorn.0=源自一些令人作呕并且极度扭曲的血魔法师的实验,&1血荆棘&0是一种神秘红色花朵,长期浸泡于血液之中,直到它发展出了吞噬一切生命力的特性.它会消耗魔力并对周围的所有与炼金术不相配的生物施加以极高级别的虚弱.<br>&o崖昆(Yakone)的遗产&r
+
+
+// Journey
+tc.research_name.JOURNEY=长长的旅程
+tc.research_text.JOURNEY=[FM]一定还有更多的魔法!
+derp.research_page.JOURNEY=魔导手册告诉你有一种长着白色叶子的紫树,还有一种闪烁着色彩缤纷的花.<BR><BR>但你从来没有在这世上见到过它们,就好像它们是不存在的.<BR><BR>你决定自己创造出它们!<BR><BR>你是个神秘使,你才不管一样东西是否真的存在,反正你可以自己创造出它们来,但这需要深入地调查研究.
+
+// Livingwood Wand Rod
+tc.research_name.ROD_livingwood=活木杖柄
+tc.research_text.ROD_livingwood=[FM]这是活的?
+derp.research_page.ROD_livingwood=你知道你可以做到的! 本来只能用花来制造活木,但现在不是了.<BR><BR>通过向普通的宏伟之木杖柄注入生命源质、一些苔藓以及多种源质,你成功将活木制作成了杖柄,它最多可存储100vis.<BR><BR>这样的成果是令人震惊的,但你认为你还可以做得更好.
+
+// Dreamwood Wand Rod
+tc.research_name.ROD_dreamwood=梦之木杖柄
+tc.research_text.ROD_dreamwood=[FM]甜美之梦所缔造
+derp.research_page.ROD_dreamwood=活木非常有用,但它不能被制成杖芯,毕竟它太不稳定了.<BR><BR>你听说梦之木非常稳定,但需要精灵魔法,而你还不知到哪里去寻找精灵.<BR><BR>也许可以通过加入些魔晶以及银树原木让你的活木杖柄稳定化.<BR><BR>魔导手册上说这个过程必须在精灵世界进行,但你尝试提供更多的灵气好像也可以.<BR><BR>你的新杖柄拥有与原来一样的存储量,但它可以被制成杖芯并且看起来更帅!
+
+// Dreamwood Staff Rod
+tc.research_name.ROD_dreamwood_staff=梦之木杖芯
+tc.research_text.ROD_dreamwood_staff=[FM]噢,这就是我的梦想!
+derp.research_page.ROD_dreamwood_staff=你最终使用梦之木制造出了杖芯.<BR><BR>只需要添加元始魔力、一些晶簇和两根杖柄,你就能获得你的新杖芯了.<BR><BR>这种杖芯可以存储250vis每种魔力.
+
+// Manasteel Wand Caps
+tc.research_name.CAP_manasteel=魔钢杖端
+tc.research_text.CAP_manasteel=[FM]Mana的奥秘
+derp.research_page.CAP_manasteel=魔钢在植物魔法中的地位相当于神秘中的神秘锭,所以它应该也能被制成杖端.<BR><BR>通过向银质杖端注入一些蓝石和星辰银,你制成了拥有蓝色合金强度以及超越一般银质杖端魔力减免的魔钢杖端.<BR><BR>它拥有与神秘杖端相同的魔力减免,你想这就是为什么魔钢被称为植物魔法的神秘锭的原因吧.
+
+// Terrasteel Wand Caps
+tc.research_name.CAP_terrasteel=泰拉钢杖端
+tc.research_text.CAP_terrasteel=[FM]完成!
+derp.research_page.CAP_terrasteel=你知道这种材料,它充满了魔法能量甚至能用来召唤恶魔,你不认为这是真的,但值得一试.<BR><BR>向魔钢杖端注入一些钢叶、晶簇以及几罐子魔法源质,你就能获得这种杖端.<BR><BR>可能它是世界上最好的法杖杖端了吧.
+
+// Elementium Wand Caps
+tc.research_name.CAP_elementium=元素钢杖端
+tc.research_text.CAP_elementium=[FM]生态友好型杖端
+derp.research_page.CAP_elementium=若是将魔钢杖端与元素碎片的力量结合或发生什么呢?<BR><BR>你没有思考到底可能发生什么,而是直接尝试. 由于元素碎片似乎对杖端有些抵触,你决定使用一些钨钢螺丝来把它们固定起来.(强行解释233)<BR><BR>你成功做出了一种新材料的杖端,它拥有比神秘杖端更高的魔力减免.<BR><BR>遗憾的是它还需要再次注魔,大概是钨钢螺丝这种非魔法配件的锅吧.
+
+// Vinteum 
+tc.research_name.VINTEUM=温特姆
+tc.research_text.VINTEUM=[FM]神秘锭的小弟
+derp.research_page.VINTEUM=每个神秘使都知道神秘锭,它容易制作且有相当不错的魔力减免.<BR><BR>但更资深的神秘使却更喜欢使用温特姆来代替神秘锭.<BR><BR>温特姆与神秘锭很像,但由于它更有序的分子结构,温特姆更容易转化为宝石.<BR><BR>你只需要将一些神秘锭重组就能得到温特姆,简单来说就是把神秘锭粒丢进装着魔法与秩序源质的坩埚中.
+
+// Vinteum Caps
+tc.research_name.CAP_vinteum=温特姆杖端
+tc.research_text.CAP_vinteum=[FM]它们是蓝色的!
+derp.research_page.CAP_vinteum=因为温特姆就是重组后的神秘锭,你并不期待它能有比神秘杖端更高的魔力减免.<BR><BR>但由于它非常的有秩序,所以你可以直接使用它所有的魔法潜能,换句话来说就是不用再次注魔了.
+
+// Witchwood Wand Rod
+tc.research_name.ROD_witchwood=巫魂木杖柄
+tc.research_text.ROD_witchwood=[FM]这是巫术!
+derp.research_page.ROD_witchwood=你实在找不到那种紫色的树用来制造法杖,是时候自己做一个了.<BR><BR>有了树人嫩芽,你就有了绝佳的初始材料.<BR><BR>结合了大多数的魔法树木,你觉得应该能制成一种相当不错的杖柄.<BR><BR>这种杖柄可以存储100vis每种魔力,挺不错的结果.
+
+// Witchwood Staff Rod
+tc.research_name.ROD_witchwood_staff=巫魂木杖芯
+tc.research_text.ROD_witchwood_staff=[FM]不用圆环法阵
+derp.research_page.ROD_witchwood_staff=非常有趣,巫魂木不像元素碎片,但要想将其制成杖芯还有些问题.<BR><BR>它失去了一部分的存储能力,但能正常工作.
