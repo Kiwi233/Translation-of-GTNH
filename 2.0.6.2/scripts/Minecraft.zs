@@ -3376,28 +3376,28 @@ furnace.setFuel(<minecraft:wooden_pressure_plate>, 75);
 
 
 // --- Compressed Meteoric Steel Plates
-NEI.overrideName(<GalacticraftCore:item.meteoricIronIngot:1>, "Compressed Meteoric Steel Plate");
+NEI.overrideName(<GalacticraftCore:item.meteoricIronIngot:1>, "\u81f4\u5bc6\u9668\u94c1\u677f");
 
 // --- Compressed Copper Plate
-NEI.overrideName(<GalacticraftCore:item.basicItem:6>, "Compressed Copper Plate");
+NEI.overrideName(<GalacticraftCore:item.basicItem:6>, "\u81f4\u5bc6\u94dc\u677f");
 
 // --- Compressed Tin Plate
-NEI.overrideName(<GalacticraftCore:item.basicItem:7>, "Compressed Tin Plate");
+NEI.overrideName(<GalacticraftCore:item.basicItem:7>, "\u81f4\u5bc6\u9521\u677f");
 
 // --- Compressed Aluminium Plate
-NEI.overrideName(<GalacticraftCore:item.basicItem:8>, "Compressed Aluminium Plate");
+NEI.overrideName(<GalacticraftCore:item.basicItem:8>, "\u81f4\u5bc6\u94dd\u677f");
 
 // --- Compressed Steel Plate
-NEI.overrideName(<GalacticraftCore:item.basicItem:9>, "Compressed Steel Plate");
+NEI.overrideName(<GalacticraftCore:item.basicItem:9>, "\u81f4\u5bc6\u94a2\u677f");
 
 // --- Compressed Bronze Plate
-NEI.overrideName(<GalacticraftCore:item.basicItem:10>, "Compressed Bronze Plate");
+NEI.overrideName(<GalacticraftCore:item.basicItem:10>, "\u81f4\u5bc6\u9752\u94dc\u677f");
 
 // --- Compressed Iron Plate
-NEI.overrideName(<GalacticraftCore:item.basicItem:11>, "Compressed Iron Plate");
+NEI.overrideName(<GalacticraftCore:item.basicItem:11>, "\u81f4\u5bc6\u94c1\u677f");
 
 // --- Compressed Titamium Plate
-NEI.overrideName(<GalacticraftMars:item.itemBasicAsteroids:6>, "Compressed Titanium Plate");
+NEI.overrideName(<GalacticraftMars:item.itemBasicAsteroids:6>, "\u81f4\u5bc6\u949b\u677f");
 
 // --- Compressed Desh Plate
-NEI.overrideName(<GalacticraftMars:item.null:5>, "Compressed Desh Plate");
+NEI.overrideName(<GalacticraftMars:item.null:5>, "\u81f4\u5bc6\u6234\u65af\u677f");
