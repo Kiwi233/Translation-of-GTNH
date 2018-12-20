@@ -1418,118 +1418,118 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 
 
 // --- LV Tier
-<IC2:itemPartCircuit>.addTooltip(format.red("LV-tier"));
-<gregtech:gt.metaitem.01:32701>.addTooltip(format.gold("LV-tier"));
-<gregtech:gt.metaitem.03:32078>.addTooltip(format.yellow("LV-tier"));
+<IC2:itemPartCircuit>.addTooltip(format.red("LV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32701>.addTooltip(format.gold("LV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32078>.addTooltip(format.yellow("LV\u7b49\u7ea7"));
 
 // --- MV Tier
-<gregtech:gt.metaitem.01:32702>.addTooltip(format.red("MV-tier"));
-<gregtech:gt.metaitem.03:32079>.addTooltip(format.gold("MV-tier"));
-<gregtech:gt.metaitem.03:32080>.addTooltip(format.yellow("MV-tier"));
+<gregtech:gt.metaitem.01:32702>.addTooltip(format.red("MV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32079>.addTooltip(format.gold("MV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32080>.addTooltip(format.yellow("MV\u7b49\u7ea7"));
 
 // --- HV Tier
-<IC2:itemPartCircuitAdv>.addTooltip(format.gold("HV-tier"));
-<gregtech:gt.metaitem.01:32703>.addTooltip(format.yellow("HV-tier"));
-<gregtech:gt.metaitem.03:32082>.addTooltip(format.green("HV-tier"));
+<IC2:itemPartCircuitAdv>.addTooltip(format.gold("HV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32703>.addTooltip(format.yellow("HV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32082>.addTooltip(format.green("HV\u7b49\u7ea7"));
 
 // --- EV Tier
-<gregtech:gt.metaitem.01:32704>.addTooltip(format.yellow("EV-tier"));
-<gregtech:gt.metaitem.03:32083>.addTooltip(format.green("EV-tier"));
-<gregtech:gt.metaitem.03:32085>.addTooltip(format.aqua("EV-tier"));
+<gregtech:gt.metaitem.01:32704>.addTooltip(format.yellow("EV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32083>.addTooltip(format.green("EV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32085>.addTooltip(format.aqua("EV\u7b49\u7ea7"));
 
 // --- IV Tier
-<gregtech:gt.metaitem.01:32705>.addTooltip(format.yellow("IV-tier"));
-<gregtech:gt.metaitem.03:32084>.addTooltip(format.green("IV-tier"));
-<gregtech:gt.metaitem.03:32086>.addTooltip(format.aqua("IV-tier"));
-<gregtech:gt.metaitem.03:32089>.addTooltip(format.blue("IV-tier"));
+<gregtech:gt.metaitem.01:32705>.addTooltip(format.yellow("IV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32084>.addTooltip(format.green("IV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32086>.addTooltip(format.aqua("IV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32089>.addTooltip(format.blue("IV\u7b49\u7ea7"));
 
 // --- LuV Tier
-<gregtech:gt.metaitem.01:32706>.addTooltip(format.green("LuV-tier"));
-<gregtech:gt.metaitem.03:32087>.addTooltip(format.aqua("LuV-tier"));
-<gregtech:gt.metaitem.03:32096>.addTooltip(format.blue("LuV-tier"));
-<gregtech:gt.metaitem.03:32092>.addTooltip(format.darkPurple("LuV-tier"));
+<gregtech:gt.metaitem.01:32706>.addTooltip(format.green("LuV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32087>.addTooltip(format.aqua("LuV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32096>.addTooltip(format.blue("LuV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32092>.addTooltip(format.darkPurple("LuV\u7b49\u7ea7"));
 
 // --- ZPM Tier
-<gregtech:gt.metaitem.03:32088>.addTooltip(format.aqua("ZPM-tier"));
-<gregtech:gt.metaitem.03:32090>.addTooltip(format.blue("ZPM-tier"));
-<gregtech:gt.metaitem.03:32093>.addTooltip(format.darkPurple("ZPM-tier"));
-<gregtech:gt.metaitem.03:32097>.addTooltip(format.green("ZPM-tier"));
+<gregtech:gt.metaitem.03:32088>.addTooltip(format.aqua("ZPM\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32090>.addTooltip(format.blue("ZPM\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32093>.addTooltip(format.darkPurple("ZPM\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32097>.addTooltip(format.green("ZPM\u7b49\u7ea7"));
 
 // --- UV Tier
-<gregtech:gt.metaitem.03:32091>.addTooltip(format.blue("UV-tier"));
-<gregtech:gt.metaitem.03:32094>.addTooltip(format.darkPurple("UV-tier"));
-<gregtech:gt.metaitem.03:32098>.addTooltip(format.aqua("UV-tier"));
+<gregtech:gt.metaitem.03:32091>.addTooltip(format.blue("UV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32094>.addTooltip(format.darkPurple("UV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32098>.addTooltip(format.aqua("UV\u7b49\u7ea7"));
 
 // --- UHV Tier
-<gregtech:gt.metaitem.03:32095>.addTooltip(format.darkPurple("UHV-tier"));
-<gregtech:gt.metaitem.03:32099>.addTooltip(format.green("UHV-tier"));
+<gregtech:gt.metaitem.03:32095>.addTooltip(format.darkPurple("UHV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32099>.addTooltip(format.green("UHV\u7b49\u7ea7"));
 
 // --- UEV Tier
-<gregtech:gt.metaitem.03:32120>.addTooltip(format.green("UEV-tier"));
+<gregtech:gt.metaitem.03:32120>.addTooltip(format.green("UEV\u7b49\u7ea7"));
 
 
 // --- Batteries Tooltips for Tiers ---
 
 
 // --- LV Tier
-<gregtech:gt.metaitem.01:32510>.addTooltip(format.red("LV-tier"));
-<gregtech:gt.metaitem.01:32511>.addTooltip(format.gold("LV-tier"));
-<gregtech:gt.metaitem.01:32517>.addTooltip(format.yellow("LV-tier"));
-<gregtech:gt.metaitem.01:32518>.addTooltip(format.darkRed("LV-tier"));
-<gregtech:gt.metaitem.01:32519>.addTooltip(format.green("LV-tier"));
+<gregtech:gt.metaitem.01:32510>.addTooltip(format.red("LV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32511>.addTooltip(format.gold("LV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32517>.addTooltip(format.yellow("LV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32518>.addTooltip(format.darkRed("LV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32519>.addTooltip(format.green("LV\u7b49\u7ea7"));
 
 // --- MV Tier
-<gregtech:gt.metaitem.01:32520>.addTooltip(format.red("MV-tier"));
-<gregtech:gt.metaitem.01:32521>.addTooltip(format.gold("MV-tier"));
-<gregtech:gt.metaitem.01:32527>.addTooltip(format.yellow("MV-tier"));
-<gregtech:gt.metaitem.01:32528>.addTooltip(format.darkRed("MV-tier"));
-<gregtech:gt.metaitem.01:32529>.addTooltip(format.green("MV-tier"));
+<gregtech:gt.metaitem.01:32520>.addTooltip(format.red("MV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32521>.addTooltip(format.gold("MV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32527>.addTooltip(format.yellow("MV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32528>.addTooltip(format.darkRed("MV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32529>.addTooltip(format.green("MV\u7b49\u7ea7"));
 
 // --- HV Tier
-<gregtech:gt.metaitem.01:32530>.addTooltip(format.red("HV-tier"));
-<gregtech:gt.metaitem.01:32531>.addTooltip(format.gold("HV-tier"));
-<gregtech:gt.metaitem.01:32537>.addTooltip(format.yellow("HV-tier"));
-<gregtech:gt.metaitem.01:32538>.addTooltip(format.darkRed("HV-tier"));
-<gregtech:gt.metaitem.01:32539>.addTooltip(format.green("HV-tier"));
-<IC2:itemBatCrystal:*>.addTooltip(format.darkBlue("HV-tier"));
+<gregtech:gt.metaitem.01:32530>.addTooltip(format.red("HV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32531>.addTooltip(format.gold("HV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32537>.addTooltip(format.yellow("HV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32538>.addTooltip(format.darkRed("HV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32539>.addTooltip(format.green("HV\u7b49\u7ea7"));
+<IC2:itemBatCrystal:*>.addTooltip(format.darkBlue("HV\u7b49\u7ea7"));
 
 // --- EV Tier
-<gregtech:gt.metaitem.01:32540>.addTooltip(format.green("EV-tier"));
-<IC2:itemBatLamaCrystal:*>.addTooltip(format.darkBlue("EV-tier"));
+<gregtech:gt.metaitem.01:32540>.addTooltip(format.green("EV\u7b49\u7ea7"));
+<IC2:itemBatLamaCrystal:*>.addTooltip(format.darkBlue("EV\u7b49\u7ea7"));
 
 // --- IV Tier
-<gregtech:gt.metaitem.01:32545>.addTooltip(format.green("IV-tier"));
-<gregtech:gt.metaitem.01:32597>.addTooltip(format.gold("IV-tier"));
+<gregtech:gt.metaitem.01:32545>.addTooltip(format.green("IV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32597>.addTooltip(format.gold("IV\u7b49\u7ea7"));
 
 // --- LuV Tier
-<gregtech:gt.metaitem.01:32550>.addTooltip(format.green("LuV-tier"));
-<gregtech:gt.metaitem.01:32599>.addTooltip(format.gold("LuV-tier"));
+<gregtech:gt.metaitem.01:32550>.addTooltip(format.green("LuV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32599>.addTooltip(format.gold("LuV\u7b49\u7ea7"));
 
 // --- ZPM Tier
-<gregtech:gt.metaitem.01:32555>.addTooltip(format.green("ZPM-tier"));
-<gregtech:gt.metaitem.01:32736>.addTooltip(format.gold("ZPM-tier"));
-<gregtech:gt.metaitem.01:32598>.addTooltip(format.red("ZPM-tier"));
+<gregtech:gt.metaitem.01:32555>.addTooltip(format.green("ZPM\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32736>.addTooltip(format.gold("ZPM\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32598>.addTooltip(format.red("ZPM\u7b49\u7ea7"));
 
 // --- UV Tier
-<gregtech:gt.metaitem.01:32560>.addTooltip(format.green("UV-tier"));
-<gregtech:gt.metaitem.01:32737>.addTooltip(format.gold("UV-tier"));
-<gregtech:gt.metaitem.01:32605>.addTooltip(format.red("UV-tier"));
+<gregtech:gt.metaitem.01:32560>.addTooltip(format.green("UV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32737>.addTooltip(format.gold("UV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32605>.addTooltip(format.red("UV\u7b49\u7ea7"));
 
 // --- UHV Tier
-<gregtech:gt.metaitem.01:32570>.addTooltip(format.green("UHV-tier"));
+<gregtech:gt.metaitem.01:32570>.addTooltip(format.green("UHV\u7b49\u7ea7"));
 
 // --- UEV Tier
-<gregtech:gt.metaitem.01:32575>.addTooltip(format.green("UEV-tier"));
+<gregtech:gt.metaitem.01:32575>.addTooltip(format.green("UEV\u7b49\u7ea7"));
 
 // --- UIV Tier
-<gregtech:gt.metaitem.01:32580>.addTooltip(format.green("UIV-tier"));
+<gregtech:gt.metaitem.01:32580>.addTooltip(format.green("UIV\u7b49\u7ea7"));
 
 // --- UMV Tier
-<gregtech:gt.metaitem.01:32585>.addTooltip(format.green("UMV-tier"));
-<gregtech:gt.metaitem.01:32609>.addTooltip(format.gold("UMV-tier"));
+<gregtech:gt.metaitem.01:32585>.addTooltip(format.green("UMV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.01:32609>.addTooltip(format.gold("UMV\u7b49\u7ea7"));
 
 // --- UXV Tier
-<gregtech:gt.metaitem.01:32590>.addTooltip(format.green("UXV-tier"));
+<gregtech:gt.metaitem.01:32590>.addTooltip(format.green("UXV\u7b49\u7ea7"));
 
 
 
@@ -1537,13 +1537,13 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 
 
 //--- Seismic Prospector LV
-<gregtech:gt.blockmachines:1156>.addTooltip("Work Area 16 Blocks Radius = 4 Chunks");
+<gregtech:gt.blockmachines:1156>.addTooltip("\u5de5\u4f5c\u533a\u57df16\u533a\u5757\u002c\u4e5f\u5c31\u662f\u534a\u5f84=4\u533a\u5757);
 
 //--- Seismic Prospector MV
-<gregtech:gt.blockmachines:2100>.addTooltip("Work Area 32 Blocks Radius = 16 Chunks");
+<gregtech:gt.blockmachines:2100>.addTooltip("\u5de5\u4f5c\u533a\u57df32\u533a\u5757\u002c\u4e5f\u5c31\u662f\u534a\u5f84=16\u533a\u5757);
 
 //--- Seismic Prospector HV
-<gregtech:gt.blockmachines:2101>.addTooltip("Work Area 48 Blocks Radius = 36 Chunks");
+<gregtech:gt.blockmachines:2101>.addTooltip("\u5de5\u4f5c\u533a\u57df48\u533a\u5757\u002c\u4e5f\u5c31\u662f\u534a\u5f84=36\u533a\u5757);
 
 //--- Seismic Prospector EV
-<gregtech:gt.blockmachines:1173>.addTooltip("Work Area 128 Blocks Radius = 256 Chunks");
+<gregtech:gt.blockmachines:1173>.addTooltip("\u5de5\u4f5c\u533a\u57df128\u533a\u5757\u002c\u4e5f\u5c31\u662f\u534a\u5f84=256\u533a\u5757);
