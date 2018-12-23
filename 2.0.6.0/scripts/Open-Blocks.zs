@@ -634,12 +634,16 @@ Mixer.addRecipe(<OpenBlocks:tastyClay>, null, [<minecraft:clay_ball>, <minecraft
 
 // --- Golden Egg
 mods.thaumcraft.Research.addResearch("GOLDENEGG", "MAGICBEES", "alienis 15, bestia 12, victus 9, humanus 6", -4, 5, 4, <OpenBlocks:goldenegg>);
-game.setLocalization("tc.research_name.GOLDENEGG", "Golden Egg");
-game.setLocalization("tc.research_text.GOLDENEGG", "[OB] Make A MiniMe");
+game.setLocalization("tc.research_name.GOLDENEGG", "\u91d1\u86cb");
+game.setLocalization("tc.research_text.GOLDENEGG", "[OB]\u8ff7\u4f60\u66ff\u8eab");
 mods.thaumcraft.Research.addPrereq("GOLDENEGG", "MB_DimensionalSingularity", false);
 mods.thaumcraft.Research.setConcealed("GOLDENEGG", true);
 mods.thaumcraft.Research.addPage("GOLDENEGG", "OpenBlocks.research_page.GOLDENEGG");
-game.setLocalization("OpenBlocks.research_page.GOLDENEGG", "The Golden Egg is a block from the OpenBlocks mod. This block is used to summon the Baby Mini Me. Before it hatches, it will begin to slowly spin in circles. After many spins, it will grow and emit large amounts of light. It will then float into the air, and explode. The explosion is minor, and should only break a single layer of standard resistance blocks. Right before it explodes, it will lift surrounding blocks into the air, then drop them back into place. Pictures of the hatching process can be found below.");
+game.setLocalization("OpenBlocks.research_page.GOLDENEGG", "\u91d1\u86cb\u662f\u7531\u5f00\u653e\u5f0f\u65b9\u5757\u6dfb\u52a0\u7684\u65b9\u5757\u002c\u53ef\u751f\u6210\u4e00\u4e2a\u8ff7\u4f60\u7684\u81ea\u5df1\u002e
+\u5728\u5b83\u5b75\u5316\u4e4b\u524d\u002c\u5b83\u4f1a\u5f00\u59cb\u6162\u6162\u65cb\u8f6c\u002e\u81ea\u65cb\u8bb8\u591a\u5708\u540e\u002c\u5b83\u4f1a\u5927\u653e\u5149\u660e\u002c\u7136\u540e\u6d6e\u5230\u7a7a\u4e2d\u5e76\u7206\u70b8\u002e
+\u8fd9\u79cd\u7206\u70b8\u76f8\u5f53\u8f7b\u5fae\u002c\u53ea\u4f1a\u7834\u574f\u4e00\u5c42\u6807\u51c6\u7206\u70b8\u6297\u6027\u7684\u65b9\u5757\u002e
+\u800c\u5728\u7206\u70b8\u4e4b\u524d\u002c\u5b83\u4f1a\u5c06\u9644\u8fd1\u7684\u65b9\u5757\u5347\u5230\u7a7a\u4e2d\u002c\u7206\u70b8\u540e\u8fd9\u4e9b\u65b9\u5757\u53c8\u4f1a\u843d\u56de\u539f\u5904\u002e
+\u5b75\u5316\u8fc7\u7a0b\u7684\u56fe\u7247\u53ef\u5728\u540e\u9762\u770b\u5230\u002e");
 mods.thaumcraft.Infusion.addRecipe("GOLDENEGG",<minecraft:egg>, [<gregtech:gt.metaitem.01:22086>, <minecraft:skull:3>, <gregtech:gt.metaitem.01:22086>, <minecraft:skull:3>, <gregtech:gt.metaitem.01:22086>, <minecraft:skull:3>], "alienis 75, bestia 50, victus 50, humanus 25",  <OpenBlocks:goldenegg>, 2);
 mods.thaumcraft.Research.addInfusionPage("GOLDENEGG", <OpenBlocks:goldenegg>);
 mods.thaumcraft.Warp.addToResearch("GOLDENEGG", 2);
