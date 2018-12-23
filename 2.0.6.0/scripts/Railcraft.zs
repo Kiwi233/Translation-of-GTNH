@@ -1757,13 +1757,13 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 
 
 // --- Advanced Coke Oven Bricks
-<Railcraft:machine.alpha:12>.displayName = "Advanced Coke Oven Bricks";
+<Railcraft:machine.alpha:12>.displayName = "\u9ad8\u7ea7\u7126\u7089\u7816";
 
 // --- Lapatron Loader Upgrade
-<Railcraft:upgrade.lapotron>.displayName = "Lapatron Loader Upgrade";
+<Railcraft:upgrade.lapotron>.displayName = "\u5170\u6ce2\u987f\u88c5\u8f7d\u5347\u7ea7\u63d2\u4ef6";
 
 // --- Lead Plate
-<Railcraft:part.plate:4>.displayName = "Lead Plate";
+<Railcraft:part.plate:4>.displayName = "\u94c5\u677f";
 
 
 
