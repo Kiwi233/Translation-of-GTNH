@@ -179,13 +179,13 @@ recipes.addShaped(<MagicBees:magnet>, [
 
 // --- Magic Apiary
 mods.thaumcraft.Research.addResearch("MAGICAPIARY", "MAGICBEES", "praecantatio 15, sano 12, ignis 9, lucrum 6", 1, 7, 4, <MagicBees:magicApiary>);
-game.setLocalization("tc.research_name.MAGICAPIARY", "ħ������");
-game.setLocalization("tc.research_text.MAGICAPIARY", "[MB]ħ������.");
+game.setLocalization("tc.research_name.MAGICAPIARY", "魔法蜂箱");
+game.setLocalization("tc.research_text.MAGICAPIARY", "[MB]魔法蜂箱.");
 mods.thaumcraft.Research.addPrereq("MAGICAPIARY", "MB_DimensionalSingularity", false);
 mods.thaumcraft.Research.setConcealed("MAGICAPIARY", true);
 mods.thaumcraft.Research.setRound("MAGICAPIARY", true);
 mods.thaumcraft.Research.addPage("MAGICAPIARY", "MagicBees.research_page.MAGICAPIARY");
-game.setLocalization("MagicBees.research_page.MAGICAPIARY", "魔法蜂箱和一般的蜂箱工作方式十分相似,基础的活动范�\ufffd,突变基数,寿命和授粉基�\ufffd,0.9的产�\ufffd,以及0.8的基因衰�\ufffd. 当任何类型的蜂箱加�\ufffd�器摆放在周围时,蜂箱将会消�\ufffd�要素来�\ufffd2(�\ufffd 1/2)倍的速度工作,从左到又的顺序是基因突变,死亡�\ufffd,产量. 启用死亡率将会导致寿命周期减�\ufffd,魔法蜂箱在你想杂交并且无法用湮灭框架的时候很有用");
+game.setLocalization("MagicBees.research_page.MAGICAPIARY", "魔法蜂箱和一般的蜂箱工作方式十分相似, 基础的活动范围,突变基数,寿命和授粉基数, 0.9的生产基数,以及0.8的基因衰退. 当任何类型的蜂箱加速器摆放在周围时, 蜂箱将会消耗要素来以2(或1/2)倍的速度工作,从左到又的顺序是基因突变,死亡率,产量. 启用死亡率将会导致寿命周期减半,魔法蜂箱在你想杂交并且无法用湮灭框架的时候很有用");
 mods.thaumcraft.Infusion.addRecipe("MAGICAPIARY", <Forestry:apiculture>,
 [<MagicBees:wax>, <MagicBees:wax:1>, <MagicBees:wax:2>, <MagicBees:pollen>, <MagicBees:pollen:1>],
 "praecantatio 75, sano 75, ignis 50, lucrum 50, exanimis 25, herba 20", <MagicBees:magicApiary>, 3);
@@ -210,13 +210,13 @@ mods.thaumcraft.Research.addArcanePage("MB_VisAuraProvider", <MagicBees:visAuraP
 
 // --- Concentrated Compound
 mods.thaumcraft.Research.addResearch("CONCENTRATEDCOMPOUND", "MAGICBEES", "messis 15, sano 12, vitreus 9, perditio 6", 2, -3, 4, <MagicBees:miscResources:2>);
-game.setLocalization("tc.research_name.CONCENTRATEDCOMPOUND", "Concentrated Compound");
-game.setLocalization("tc.research_text.CONCENTRATEDCOMPOUND", "[MB] Concentrated Compound.");
+game.setLocalization("tc.research_name.CONCENTRATEDCOMPOUND", "浓缩复合物");
+game.setLocalization("tc.research_text.CONCENTRATEDCOMPOUND", "[MB]浓缩复合物.");
 mods.thaumcraft.Research.addPrereq("CONCENTRATEDCOMPOUND", "MB_Root", false);
 mods.thaumcraft.Research.addPrereq("CONCENTRATEDCOMPOUND", "MB_EssenceLife", false);
 mods.thaumcraft.Research.setConcealed("CONCENTRATEDCOMPOUND", true);
 mods.thaumcraft.Research.addPage("CONCENTRATEDCOMPOUND", "MagicBees.research_page.CONCENTRATEDCOMPOUND");
-game.setLocalization("MagicBees.research_page.CONCENTRATEDCOMPOUND", "Concentrated Compound from Apatite");
+game.setLocalization("MagicBees.research_page.CONCENTRATEDCOMPOUND", "磷灰浓缩复合物");
 mods.thaumcraft.Crucible.addRecipe("CONCENTRATEDCOMPOUND", <MagicBees:miscResources:2>, <gregtech:gt.metaitem.01:8530>, "messis 6, vitreus 3");
 mods.thaumcraft.Research.addCruciblePage("CONCENTRATEDCOMPOUND", <MagicBees:miscResources:2>);
 
@@ -297,13 +297,13 @@ mods.thaumcraft.Research.setComplexity("MB_FrameMagic", 4);
 
 // --- Gentle Frame
 mods.thaumcraft.Research.addResearch("GENTLEFRAME", "MAGICBEES", "victus 15, instrumentum 15, aer 12, ignis 9, terra 6, aqua 3", -7, 2, 4, <MagicBees:frameGentle>);
-game.setLocalization("tc.research_name.GENTLEFRAME", "柔�\ufffd�框�\ufffd");
+game.setLocalization("tc.research_name.GENTLEFRAME", "柔性框架");
 game.setLocalization("tc.research_text.GENTLEFRAME", "[MB]生物魔法框架");
 mods.thaumcraft.Research.addPrereq("GENTLEFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("GENTLEFRAME", "MB_EssenceLife");
 mods.thaumcraft.Research.setConcealed("GENTLEFRAME", true);
 mods.thaumcraft.Research.addPage("GENTLEFRAME", "MagicBees.research_page.GENTLEFRAME");
-game.setLocalization("MagicBees.research_page.GENTLEFRAME", "柔�\ufffd�框架是�\ufffd个在蜂箱内使用的物品,柔�\ufffd�框架会增加蜂后的寿命和产量但会降低突变几率. 柔�\ufffd�框架有200的�\ufffd�久,比普通的框架�\ufffd. 柔�\ufffd�框架使蜜蜂的寿命延�\ufffd50%，产量提�\ufffd40%.突变率降�\ufffd30%,使蜜蜂保持其初始突变率的70%. 随着每个耐久性使�\ufffd/蜜蜂周期, 柔�\ufffd�框架将会消耗附近的�\ufffd个灵气节�\ufffd. 另外, Sano与Victus Flux将会注入到灵气节点中. �ڷ�����ṹ��,���Լ����������֧����ʹ�ô˿��.");
+game.setLocalization("MagicBees.research_page.GENTLEFRAME", "柔性框架是一个在蜂箱内使用的物品, 柔性框架会增加蜂后的寿命和产量但会降低突变几率. 柔性框架有200的耐久,比普通的框架少.柔性框架使蜜蜂的寿命延长50%, 产量提高40%.突变率降低30%,使蜜蜂保持其初始突变率的70%. 随着每个耐久使用/蜜蜂周期, 柔性框架将会消耗附近的一个灵气节点. 另外,Sano与Victus Flux将会注入到灵气节点中. 在蜂箱组结构中,可以加入蜂箱组框架支架来使用此框架.");
 mods.thaumcraft.Arcane.addShaped("GENTLEFRAME", <MagicBees:frameGentle>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
 [<ore:screwAluminium>, <MagicBees:miscResources:7>, <ore:screwAluminium>],
 [<MagicBees:miscResources:18>, <MagicBees:frameMagic>, <MagicBees:miscResources:18>],
@@ -312,13 +312,13 @@ mods.thaumcraft.Research.addArcanePage("GENTLEFRAME", <MagicBees:frameGentle>);
 
 // --- Resilient Frame
 mods.thaumcraft.Research.addResearch("RESILIENTFRAME", "MAGICBEES", "tutamen 15, pannus 15, aer 12, ignis 9, terra 6, aqua 3", -7, 1, 4, <MagicBees:frameResilient>);
-game.setLocalization("tc.research_name.RESILIENTFRAME", "弹�\ufffd�框�\ufffd");
+game.setLocalization("tc.research_name.RESILIENTFRAME", "弹性框架");
 game.setLocalization("tc.research_text.RESILIENTFRAME", "[MB]魔法产物框架");
 mods.thaumcraft.Research.addPrereq("RESILIENTFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("RESILIENTFRAME", "MB_EssenceArmor");
 mods.thaumcraft.Research.setConcealed("RESILIENTFRAME", true);
 mods.thaumcraft.Research.addPage("RESILIENTFRAME", "MagicBees.research_page.RESILIENTFRAME");
-game.setLocalization("MagicBees.research_page.RESILIENTFRAME", "弹�\ufffd�框架是�\ufffd个在蜂箱内使用的物品, 这将使蜜蜂的产量翻�\ufffd\ufffd.弹�\ufffd�框架有840的�\ufffd�久,使它成为�\ufffd耐用的框�\ufffd.弹�\ufffd�框架是魔法框架的�\ufffd�久强化版本. 随着每个耐久性使�\ufffd/蜜蜂周期, 弹�\ufffd�框架将会消耗附近的两个灵气节点.另外, Tutamen Flux将会注入到灵气节点中. �ڷ�����ṹ��,���Լ����������֧����ʹ�ô˿��.");
+game.setLocalization("MagicBees.research_page.RESILIENTFRAME", "弹性框架是一个在蜂箱内使用的物品, 这将使蜜蜂的产量翻倍. 弹性框架有840的耐久,使它成为最耐用的框框架.弹性框架是魔法框架的耐久强化版本. 随着每个耐久使用/蜜蜂周期, 弹性框架将会消耗附近的两个灵气节点.另外, Tutamen Flux将会注入到灵气节点中. 在蜂箱组结构中,可以加入蜂箱组框架支架来使用此框架.");
 mods.thaumcraft.Arcane.addShaped("RESILIENTFRAME", <MagicBees:frameResilient>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
 [<ore:screwAluminium>, <MagicBees:miscResources:10>, <ore:screwAluminium>],
 [<MagicBees:miscResources:22>, <MagicBees:frameMagic>, <MagicBees:miscResources:22>],
@@ -328,12 +328,12 @@ mods.thaumcraft.Research.addArcanePage("RESILIENTFRAME", <MagicBees:frameResilie
 // --- Necrotic Frame
 mods.thaumcraft.Research.addResearch("NECROTICFRAME", "MAGICBEES", "mortuus 15, fabrico 15, aer 12, ignis 9, terra 6, aqua 3", -7, 0, 4, <MagicBees:frameNecrotic>);
 game.setLocalization("tc.research_name.NECROTICFRAME", "坏死框架");
-game.setLocalization("tc.research_text.NECROTICFRAME", "[MB]魔法毁灭的框�\ufffd");
+game.setLocalization("tc.research_text.NECROTICFRAME", "[MB]魔法毁灭的框架");
 mods.thaumcraft.Research.addPrereq("NECROTICFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("NECROTICFRAME", "MB_EssenceDeath");
 mods.thaumcraft.Research.setConcealed("NECROTICFRAME", true);
 mods.thaumcraft.Research.addPage("NECROTICFRAME", "MagicBees.research_page.NECROTICFRAME");
-game.setLocalization("MagicBees.research_page.NECROTICFRAME", "坏死框架是一个在蜂箱内使用的物品,这将会大大降低蜂后的寿命和产�\ufffd. 坏死框架�\ufffd270的�\ufffd�久.坏死框架将寿命降低至30%,生产力降低到75%.随着每个耐久性使�\ufffd/蜜蜂周期,坏死框架将会消�\ufffd�附近的�\ufffd个灵气节�\ufffd. 另外,大量�\ufffd Mortuus �\ufffd Venenum Flux将会注入到灵气节点中. �ڷ�����ṹ��,���Լ����������֧����ʹ�ô˿��.");
+game.setLocalization("MagicBees.research_page.NECROTICFRAME", "坏死框架是一个在蜂箱内使用的物品,这将会大大降低蜂后的寿命和产量. 坏死框架有270的耐久.坏死框架将寿命降低至30%,生产力降低到75%.随着每个耐久使用/蜜蜂周期,坏死框架将会消耗附近的一个灵气节点. 另外,大量的Mortuus和Venenum Flux将会注入到灵气节点中. 在蜂箱组结构中,可以加入蜂箱组框架支架来使用此框架..");
 mods.thaumcraft.Arcane.addShaped("NECROTICFRAME", <MagicBees:frameNecrotic>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
 [<ore:screwAluminium>, <MagicBees:miscResources:8>, <ore:screwAluminium>],
 [<MagicBees:miscResources:23>, <MagicBees:frameMagic>, <MagicBees:miscResources:23>],
@@ -348,7 +348,7 @@ mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "MB_EssenceUnstable");
 mods.thaumcraft.Research.setConcealed("METABOLICFRAME", true);
 mods.thaumcraft.Research.addPage("METABOLICFRAME", "MagicBees.research_page.METABOLICFRAME");
-game.setLocalization("MagicBees.research_page.METABOLICFRAME", "代谢框架是一个在蜂箱内使用的物品,代谢框架大大增加了蜜蜂的突变�\ufffd,也略增加了蜜蜂的产量. 代谢框架�\ufffd130的�\ufffd�久. 代谢框架使蜜蜂突变率增加80%,产量增加20%.");
+game.setLocalization("MagicBees.research_page.METABOLICFRAME", "代谢框架是一个在蜂箱内使用的物品,代谢框架大大增加了蜜蜂的突变率,也略增加了蜜蜂的产量. 代谢框架有130的耐久. 代谢框架使蜜蜂突变率增加80%,产量增加20%.");
 mods.thaumcraft.Arcane.addShaped("METABOLICFRAME", <MagicBees:frameMetabolic>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
 [<ore:screwAluminium>, <MagicBees:miscResources:12>, <ore:screwAluminium>],
 [<MagicBees:miscResources:20>, <MagicBees:frameMagic>, <MagicBees:miscResources:20>],
@@ -363,7 +363,7 @@ mods.thaumcraft.Research.addPrereq("TEMPORALFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("TEMPORALFRAME", "MB_EssenceTime");
 mods.thaumcraft.Research.setConcealed("TEMPORALFRAME", true);
 mods.thaumcraft.Research.addPage("TEMPORALFRAME", "MagicBees.research_page.TEMPORALFRAME");
-game.setLocalization("MagicBees.research_page.TEMPORALFRAME", "瞬息框架是一个在蜂箱内使用的物品,瞬息框架大大增加蜂后的寿命到原来�\ufffd150%. �\ufffd300的�\ufffd�久.在所有框架中,瞬息框架提供�\ufffd长的寿命. 随着每个耐久性使�\ufffd/蜜蜂周期,瞬息框架将会消�\ufffd�附近的�\ufffd个灵气节�\ufffd. 然�\ufffd\ufffd,大量的Tempus Flux将会注入到灵气节点中. �ڷ�����ṹ��,���Լ����������֧����ʹ�ô˿��.");
+game.setLocalization("MagicBees.research_page.TEMPORALFRAME", "瞬息框架是一个在蜂箱内使用的物品,瞬息框架大大增加蜂后的寿命到原来的150%. 瞬息框架有300的耐久.在所有框架中,瞬息框架提供最长的寿命. 随着每个耐久使用/蜜蜂周期,瞬息框架将会消耗附近的一个灵气节点. 然后,大量的Tempus Flux将会注入到灵气节点中. 在蜂箱组结构中,可以加入蜂箱组框架支架来使用此框架..");
 mods.thaumcraft.Arcane.addShaped("TEMPORALFRAME", <MagicBees:frameTemporal>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
 [<ore:screwAluminium>, <MagicBees:miscResources:9>, <ore:screwAluminium>],
 [<MagicBees:miscResources:21>, <MagicBees:frameMagic>, <MagicBees:miscResources:21>],
@@ -383,7 +383,7 @@ mods.thaumcraft.Research.addPrereq("OBLIVIONFRAME", "TEMPORALFRAME", false);
 mods.thaumcraft.Research.addPrereq("OBLIVIONFRAME", "MB_EssenceOblivion");
 mods.thaumcraft.Research.setConcealed("OBLIVIONFRAME", true);
 mods.thaumcraft.Research.addPage("OBLIVIONFRAME", "MagicBees.research_page.OBLIVIONFRAME");
-game.setLocalization("MagicBees.research_page.OBLIVIONFRAME", "湮灭框架是由Magic Bees增加的一个物�\ufffd.放在蜂箱中或插进蜂箱的框架栏�\ufffd, 湮灭框架将蜂箱内的蜂后的寿命缩短到一个生命周�\ufffd(27.5�\ufffd)允许非常快的蜜蜂杂交. 然�\ufffd�，湮灭框架每次从空气中吸取大约15Vis,释放Tempus要素到灵气节点中, 就像污染�\ufffd�\ufffd. 如果与另�\ufffd框架�\ufffd同使�\ufffd,湮灭框架将不起作�\ufffd, 这会导致湮灭框架受到很大的伤�\ufffd");
+game.setLocalization("MagicBees.research_page.OBLIVIONFRAME", "湮灭框架是由Magic Bees增加的一个物品.放在蜂箱中或插进蜂箱的框架栏中, 湮灭框架将蜂箱内的蜂后的寿命缩短到一个生命周期(27.5秒)允许非常快的蜜蜂杂交. 然而,湮灭框架每次从空气中吸取大约15Vis,释放Tempus要素到灵气节点中, 就像污染一样. 如果与另外的框架共同使用,湮灭框架将不起作用, 这会导致湮灭框架受到很大的损伤");
 mods.thaumcraft.Arcane.addShaped("OBLIVIONFRAME", <MagicBees:frameOblivion>, "ordo 32, terra 32, aer 32, ignis 32, aqua 32, perditio 32", [
 [<ore:screwStainlessSteel>, <MagicBees:miscResources:11>, <ore:screwStainlessSteel>],
 [<MagicBees:miscResources:19>, <MagicBees:frameMagic>, <MagicBees:miscResources:19>],
@@ -414,12 +414,12 @@ mods.thaumcraft.Research.setComplexity("MB_Grafter", 3);
 
 // --- Enchanted Earth
 mods.thaumcraft.Research.addResearch("ENCHANTEDEARTH", "MAGICBEES", "terra 9, victus 9, sano 6, ordo 3", 5, -3, 2, <MagicBees:magicbees.enchantedEarth>);
-game.setLocalization("tc.research_name.ENCHANTEDEARTH", "Enchanted Earth");
-game.setLocalization("tc.research_text.ENCHANTEDEARTH", "[MC] Magical Dirt");
+game.setLocalization("tc.research_name.ENCHANTEDEARTH", "蕴魔之土");
+game.setLocalization("tc.research_text.ENCHANTEDEARTH", "[MC]魔法的泥土");
 mods.thaumcraft.Research.addPrereq("ENCHANTEDEARTH", "MB_EssenceLife", false);
 mods.thaumcraft.Research.setConcealed("ENCHANTEDEARTH", true);
 mods.thaumcraft.Research.addPage("ENCHANTEDEARTH", "MagicBees.research_page.ENCHANTEDEARTH");
-game.setLocalization("MagicBees.research_page.ENCHANTEDEARTH", "Enchanted Earth makes plants and trees grow a bit faster in a 3x3 area around it.");
+game.setLocalization("MagicBees.research_page.ENCHANTEDEARTH", "蕴魔之土使植物和树木在其周围的3x3区域内生长得更快.");
 mods.thaumcraft.Arcane.addShaped("ENCHANTEDEARTH", <MagicBees:magicbees.enchantedEarth>, "ordo 10, aqua 10, terra 10", [
 [<minecraft:dirt>, null, <minecraft:dirt>],
 [null, <MagicBees:miscResources:7>, null],
