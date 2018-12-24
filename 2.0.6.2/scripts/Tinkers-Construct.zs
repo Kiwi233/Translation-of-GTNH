@@ -89,12 +89,12 @@ val Paintbrush = <ExtraUtilities:paintbrush>;
 
 
 // --- Tooltips ---
-IronOreberry.addTooltip("\u53ef\u4ee5\u88ab\u653e\u7f6e\u5728\u7a7a\u7684\u0049\u0043\u0032\u4f5c\u7269\u67b6\u4e0a.");
-TinOreberry.addTooltip("\u53ef\u4ee5\u88ab\u653e\u7f6e\u5728\u7a7a\u7684\u0049\u0043\u0032\u4f5c\u7269\u67b6\u4e0a.");
-CopperOreberry.addTooltip("\u53ef\u4ee5\u88ab\u653e\u7f6e\u5728\u7a7a\u7684\u0049\u0043\u0032\u4f5c\u7269\u67b6\u4e0a.");
-GoldOreberry.addTooltip("\u53ef\u4ee5\u88ab\u653e\u7f6e\u5728\u7a7a\u7684\u0049\u0043\u0032\u4f5c\u7269\u67b6\u4e0a.");
-AluminiumOreberry.addTooltip("\u53ef\u4ee5\u88ab\u653e\u7f6e\u5728\u7a7a\u7684\u0049\u0043\u0032\u4f5c\u7269\u67b6\u4e0a.");
-EssenceOreberry.addTooltip("\u53ef\u4ee5\u88ab\u653e\u7f6e\u5728\u7a7a\u7684\u0049\u0043\u0032\u4f5c\u7269\u67b6\u4e0a.");
+IronOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+TinOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+CopperOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+GoldOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+AluminiumOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
+EssenceOreberry.addTooltip("Can be placed on a empty IC2 Crop.");
 
 // --- Blocks ---
 
