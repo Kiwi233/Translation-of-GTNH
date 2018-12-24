@@ -161,11 +161,11 @@ recipes.addShaped(<MagicBees:backpack.thaumaturgeT1>, [
 [<harvestcraft:wovencottonItem>, <ore:gemAmber>, <harvestcraft:wovencottonItem>],
 [<ore:itemLeather>, <ore:gemAmber>, <ore:itemLeather>],
 [<ore:itemLeather>, <Backpack:tannedLeather>, <ore:itemLeather>]]);
-// -
+// - 
 recipes.addShapeless(<MagicBees:backpack.thaumaturgeT1>, [<MagicBees:backpack.thaumaturgeT1>]);
 
 // --- Thaumaturges Backpach Woven
-mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000,
+mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 5000, 
 [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>,
 <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>],
@@ -179,15 +179,15 @@ recipes.addShaped(<MagicBees:magnet>, [
 
 // --- Magic Apiary
 mods.thaumcraft.Research.addResearch("MAGICAPIARY", "MAGICBEES", "praecantatio 15, sano 12, ignis 9, lucrum 6", 1, 7, 4, <MagicBees:magicApiary>);
-game.setLocalization("tc.research_name.MAGICAPIARY", "\u9b54\u6cd5\u8702\u7bb1");
-game.setLocalization("tc.research_text.MAGICAPIARY", "[MB]\u9b54\u6cd5\u8702\u7bb1.");
+game.setLocalization("tc.research_name.MAGICAPIARY", "Magic Apiary");
+game.setLocalization("tc.research_text.MAGICAPIARY", "[MB] Magical Apiary.");
 mods.thaumcraft.Research.addPrereq("MAGICAPIARY", "MB_DimensionalSingularity", false);
 mods.thaumcraft.Research.setConcealed("MAGICAPIARY", true);
 mods.thaumcraft.Research.setRound("MAGICAPIARY", true);
 mods.thaumcraft.Research.addPage("MAGICAPIARY", "MagicBees.research_page.MAGICAPIARY");
-game.setLocalization("MagicBees.research_page.MAGICAPIARY", "\u6984\u65c0\u7876\u94da\u509c\ue188\u935c\u5c7c\u7af4\u9478\ue102\u6b91\u94da\u509c\ue188\u5bb8\u30e4\u7d94\u93c2\u7470\u7d21\u9357\u4f78\u578e\u9429\u9550\u6280,\u9369\u8679\ue505\u9428\u52ec\u693f\u9354\u3128\u5bd6\u9365\ufffd,\u7ed0\u4f78\u5f49\u9369\u70d8\u669f,\u7035\u57ae\u61e1\u935c\u5c7e\u5dff\u7eee\u590a\u7180\u93c1\ufffd,0.9\u9428\u52ea\u9a87\u95b2\ufffd,\u6d60\u30e5\u5f370.8\u9428\u52eb\u7180\u9365\u72ba\u201c\u95ab\ufffd. \u8930\u64b2\u6362\u6d63\u66e0\u88ab\u9368\u5b2c\u6b91\u94da\u509c\ue188\u9354\u72bb\ufffd\u71b7\u6ad2\u93bd\u55d8\u6581\u9366\u3125\u61c6\u9365\u5b58\u6902,\u94da\u509c\ue188\u704f\u55d5\u7d30\u5a11\u5823\ufffd\u6944\ue6e6\u7ef1\u72b3\u6f75\u9422\ufffd2(\u93b4\ufffd 1/2)\u934a\u5d87\u6b91\u95ab\u71b7\u5bb3\u5bb8\u30e4\u7d94,\u6d60\u5ea1\u4e4f\u9352\u677f\u5f35\u9428\u52ef\u300e\u6434\u5fd4\u69f8\u9369\u54c4\u6d1c\u7ed0\u4f78\u5f49,\u59dd\u8bb3\u9ab8\u941c\ufffd,\u6d5c\u0447\u567a. \u935a\ue21c\u6564\u59dd\u8bb3\u9ab8\u941c\u56e7\u76a2\u6d7c\u6c2c\ue1f1\u9477\u6751\ue1f4\u935b\u85c9\u61c6\u93c8\u71b7\u567a\u9357\ufffd,\u6984\u65c0\u7876\u94da\u509c\ue188\u9366\u3124\u7d98\u93af\u866b\u6f45\u6d5c\u3085\u82df\u6d93\u65c0\u68e4\u5a09\u66e0\u6564\u5a40\ue1be\u4f03\u5997\u55d8\u7066\u9428\u52ec\u6902\u934a\u6b0f\u7de2\u93c8\u590c\u6564");
-mods.thaumcraft.Infusion.addRecipe("MAGICAPIARY", <Forestry:apiculture>,
-[<MagicBees:wax>, <MagicBees:wax:1>, <MagicBees:wax:2>, <MagicBees:pollen>, <MagicBees:pollen:1>],
+game.setLocalization("MagicBees.research_page.MAGICAPIARY", "The Magic Apiary works similarly to the regular Apiary, with 1x base Territory, Mutation, Lifespan, and Flowering modifiers, 0.9x Production modifier, and 0.8 Genetic Decay modifier. When an Apiary Booster of any type is placed nearby, the Apiary will consume aspects to enable 2x (or 1/2) boosts for, in order from left to right: Mutation, Death Rate, Production. Enabling death rate will halve lifespan. Its useful when all youre interested in is breeding, and dont have access to Oblivion Frames.");
+mods.thaumcraft.Infusion.addRecipe("MAGICAPIARY", <Forestry:apiculture>, 
+[<MagicBees:wax>, <MagicBees:wax:1>, <MagicBees:wax:2>, <MagicBees:pollen>, <MagicBees:pollen:1>], 
 "praecantatio 75, sano 75, ignis 50, lucrum 50, exanimis 25, herba 20", <MagicBees:magicApiary>, 3);
 mods.thaumcraft.Research.addInfusionPage("MAGICAPIARY", <MagicBees:magicApiary>);
 mods.thaumcraft.Warp.addToResearch("MAGICAPIARY", 2);
@@ -265,7 +265,7 @@ mods.thaumcraft.Research.clearPages("MB_DimensionalSingularity");
 mods.thaumcraft.Research.addPrereq("MB_DimensionalSingularity", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("MB_DimensionalSingularity", true);
 mods.thaumcraft.Research.addPage("MB_DimensionalSingularity", "tc.research_page.MB_DimensionalSingularity.1");
-mods.thaumcraft.Infusion.addRecipe("MB_DimensionalSingularity", <minecraft:gold_block>,
+mods.thaumcraft.Infusion.addRecipe("MB_DimensionalSingularity", <minecraft:gold_block>, 
 [<MagicBees:propolis>, <minecraft:ender_eye>, <MagicBees:propolis>, <minecraft:ender_eye>, <MagicBees:propolis>,  <minecraft:ender_eye>],
 " praecantatio 24, permutatio 24, alienis 16, tenebrae 16", <MagicBees:miscResources:17>, 6);
 mods.thaumcraft.Research.addInfusionPage("MB_DimensionalSingularity", <MagicBees:miscResources:17>);
@@ -297,13 +297,13 @@ mods.thaumcraft.Research.setComplexity("MB_FrameMagic", 4);
 
 // --- Gentle Frame
 mods.thaumcraft.Research.addResearch("GENTLEFRAME", "MAGICBEES", "victus 15, instrumentum 15, aer 12, ignis 9, terra 6, aqua 3", -7, 2, 4, <MagicBees:frameGentle>);
-game.setLocalization("tc.research_name.GENTLEFRAME", "\u93cc\u65c0\ufffd\u0444\ue50b\u93cb\ufffd");
-game.setLocalization("tc.research_text.GENTLEFRAME", "[MB]\u9422\u71ba\u58bf\u6984\u65c0\u7876\u5997\u55d8\u7066");
+game.setLocalization("tc.research_name.GENTLEFRAME", "Gentle Frame");
+game.setLocalization("tc.research_text.GENTLEFRAME", "[MB] Magic Living Frame");
 mods.thaumcraft.Research.addPrereq("GENTLEFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("GENTLEFRAME", "MB_EssenceLife");
 mods.thaumcraft.Research.setConcealed("GENTLEFRAME", true);
 mods.thaumcraft.Research.addPage("GENTLEFRAME", "MagicBees.research_page.GENTLEFRAME");
-game.setLocalization("MagicBees.research_page.GENTLEFRAME", "\u93cc\u65c0\ufffd\u0444\ue50b\u93cb\u8235\u69f8\u6d93\ufffd\u6d93\ue044\u6e6a\u94da\u509c\ue188\u9350\u546c\u5a07\u9422\u3127\u6b91\u9417\u2541\u6427,\u93cc\u65c0\ufffd\u0444\ue50b\u93cb\u6735\u7d30\u6fa7\u70b2\u59de\u94da\u509a\u6097\u9428\u52eb\ue1f4\u935b\u85c9\u62f0\u6d5c\u0447\u567a\u6d63\u55d5\u7d30\u95c4\u5d84\u7d86\u7ed0\u4f78\u5f49\u9351\u72b5\u5dfc. \u93cc\u65c0\ufffd\u0444\ue50b\u93cb\u8235\u6e41200\u9428\u52ee\ufffd\u612a\u7b99,\u59e3\u65c0\u6ad8\u95ab\u6c31\u6b91\u5997\u55d8\u7066\u704f\ufffd. \u93cc\u65c0\ufffd\u0444\ue50b\u93cb\u6735\u5a07\u94da\u6ec6\u6e39\u9428\u52eb\ue1f4\u935b\u85c9\u6b22\u95c0\ufffd50%\u951b\u5c7c\u9a87\u95b2\u5fd4\u5f41\u6942\ufffd40%.\u7ed0\u4f78\u5f49\u941c\u56ec\u6ab7\u6d63\ufffd30%,\u6d63\u80ef\u6e5d\u94da\u5099\u7e5a\u93b8\u4f78\u53fe\u9352\u6fc6\ue750\u7ed0\u4f78\u5f49\u941c\u56e9\u6b9170%. \u95c5\u5fd5\u6f43\u59e3\u5fce\u91dc\u9470\u612a\u7b99\u93ac\u0442\u5a07\u9422\ufffd/\u94da\u6ec6\u6e39\u935b\u3126\u6e61, \u93cc\u65c0\ufffd\u0444\ue50b\u93cb\u8dfa\u76a2\u6d7c\u6c2d\u79f7\u9470\u6945\u6aae\u6769\u6220\u6b91\u6d93\ufffd\u6d93\ue046\u4f12\u59d8\u65c7\u59ad\u9410\ufffd. \u9359\ufe40\ue63b, Sano\u6d93\u5db8ictus Flux\u704f\u55d5\u7d30\u5a09\u3125\u53c6\u9352\u626e\u4f12\u59d8\u65c7\u59ad\u9410\u901b\u8151. \u5728\u8702\u7bb1\u7ec4\u7ed3\u6784\u4e2d\u002c\u53ef\u4ee5\u52a0\u5165\u8702\u7bb1\u7ec4\u6846\u67b6\u652f\u67b6\u6765\u4f7f\u7528\u6b64\u6846\u67b6\u002e");
+game.setLocalization("MagicBees.research_page.GENTLEFRAME", "The Gentle Frame is an Item used in an Apiary, which increases a Queen's lifespan and production at the cost of a slightly lower mutation rate. It has a durability of 200, which is slightly shorter than average. The Gentle Frame increases a bee's lifespan by 50% and its productivity by 40%. Its mutation rate is lowered by 30%, leaving it at 70% of its initial mutation rate. With each durability use/bee cycle, the Resilient Frame will deplete the nearby Aura by one point. Additionally, Sano and Victus Flux will be released into the Aura.\u5728\u8702\u7bb1\u7ec4\u7ed3\u6784\u4e2d\u002c\u53ef\u4ee5\u52a0\u5165\u8702\u7bb1\u7ec4\u6846\u67b6\u652f\u67b6\u6765\u4f7f\u7528\u6b64\u6846\u67b6\u002e");
 mods.thaumcraft.Arcane.addShaped("GENTLEFRAME", <MagicBees:frameGentle>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
 [<ore:screwAluminium>, <MagicBees:miscResources:7>, <ore:screwAluminium>],
 [<MagicBees:miscResources:18>, <MagicBees:frameMagic>, <MagicBees:miscResources:18>],
@@ -312,13 +312,13 @@ mods.thaumcraft.Research.addArcanePage("GENTLEFRAME", <MagicBees:frameGentle>);
 
 // --- Resilient Frame
 mods.thaumcraft.Research.addResearch("RESILIENTFRAME", "MAGICBEES", "tutamen 15, pannus 15, aer 12, ignis 9, terra 6, aqua 3", -7, 1, 4, <MagicBees:frameResilient>);
-game.setLocalization("tc.research_name.RESILIENTFRAME", "\u5bee\u89c4\ufffd\u0444\ue50b\u93cb\ufffd");
-game.setLocalization("tc.research_text.RESILIENTFRAME", "[MB]\u6984\u65c0\u7876\u6d5c\u0445\u58bf\u5997\u55d8\u7066");
+game.setLocalization("tc.research_name.RESILIENTFRAME", "Resilient Frame");
+game.setLocalization("tc.research_text.RESILIENTFRAME", "[MB] Magic Production Frame");
 mods.thaumcraft.Research.addPrereq("RESILIENTFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("RESILIENTFRAME", "MB_EssenceArmor");
 mods.thaumcraft.Research.setConcealed("RESILIENTFRAME", true);
 mods.thaumcraft.Research.addPage("RESILIENTFRAME", "MagicBees.research_page.RESILIENTFRAME");
-game.setLocalization("MagicBees.research_page.RESILIENTFRAME", "\u5bee\u89c4\ufffd\u0444\ue50b\u93cb\u8235\u69f8\u6d93\ufffd\u6d93\ue044\u6e6a\u94da\u509c\ue188\u9350\u546c\u5a07\u9422\u3127\u6b91\u9417\u2541\u6427, \u6769\u6b0f\u76a2\u6d63\u80ef\u6e5d\u94da\u509c\u6b91\u6d5c\u0447\u567a\u7f08\u8bf2\ufffd\ufffd.\u5bee\u89c4\ufffd\u0444\ue50b\u93cb\u8235\u6e41840\u9428\u52ee\ufffd\u612a\u7b99,\u6d63\u57ae\u7560\u93b4\u612a\u8d1f\u93c8\ufffd\u9470\u612e\u6564\u9428\u52ec\ue50b\u93cb\ufffd.\u5bee\u89c4\ufffd\u0444\ue50b\u93cb\u8235\u69f8\u6984\u65c0\u7876\u5997\u55d8\u7066\u9428\u52ee\ufffd\u612a\u7b99\u5bee\u54c4\u5bf2\u9417\u581f\u6e70. \u95c5\u5fd5\u6f43\u59e3\u5fce\u91dc\u9470\u612a\u7b99\u93ac\u0442\u5a07\u9422\ufffd/\u94da\u6ec6\u6e39\u935b\u3126\u6e61, \u5bee\u89c4\ufffd\u0444\ue50b\u93cb\u8dfa\u76a2\u6d7c\u6c2d\u79f7\u9470\u6945\u6aae\u6769\u6220\u6b91\u6d93\u3084\u91dc\u940f\u57ab\u76b5\u947a\u509c\u5063.\u9359\ufe40\ue63b, Tutamen Flux\u704f\u55d5\u7d30\u5a09\u3125\u53c6\u9352\u626e\u4f12\u59d8\u65c7\u59ad\u9410\u901b\u8151. \u5728\u8702\u7bb1\u7ec4\u7ed3\u6784\u4e2d\u002c\u53ef\u4ee5\u52a0\u5165\u8702\u7bb1\u7ec4\u6846\u67b6\u652f\u67b6\u6765\u4f7f\u7528\u6b64\u6846\u67b6\u002e");
+game.setLocalization("MagicBees.research_page.RESILIENTFRAME", "The Resilient Frame is an Item used in an Apiary, which doubles the bee's productivity. It has a durability of 840, making it the most durable frame available. The Resilient Frame is the longer-lasting counterpart to the Magic Frame. With each durability use/bee cycle, the Resilient Frame will deplete the nearby Aura by two points. Additionally, Tutamen Flux will be released into the Aura.\u5728\u8702\u7bb1\u7ec4\u7ed3\u6784\u4e2d\u002c\u53ef\u4ee5\u52a0\u5165\u8702\u7bb1\u7ec4\u6846\u67b6\u652f\u67b6\u6765\u4f7f\u7528\u6b64\u6846\u67b6\u002e");
 mods.thaumcraft.Arcane.addShaped("RESILIENTFRAME", <MagicBees:frameResilient>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
 [<ore:screwAluminium>, <MagicBees:miscResources:10>, <ore:screwAluminium>],
 [<MagicBees:miscResources:22>, <MagicBees:frameMagic>, <MagicBees:miscResources:22>],
@@ -327,13 +327,13 @@ mods.thaumcraft.Research.addArcanePage("RESILIENTFRAME", <MagicBees:frameResilie
 
 // --- Necrotic Frame
 mods.thaumcraft.Research.addResearch("NECROTICFRAME", "MAGICBEES", "mortuus 15, fabrico 15, aer 12, ignis 9, terra 6, aqua 3", -7, 0, 4, <MagicBees:frameNecrotic>);
-game.setLocalization("tc.research_name.NECROTICFRAME", "\u9367\u5fd4\ue134\u5997\u55d8\u7066");
-game.setLocalization("tc.research_text.NECROTICFRAME", "[MB]\u6984\u65c0\u7876\u59e3\u4f7a\u4f03\u9428\u52ec\ue50b\u93cb\ufffd");
+game.setLocalization("tc.research_name.NECROTICFRAME", "Necrotic Frame");
+game.setLocalization("tc.research_text.NECROTICFRAME", "[MB] Magic Killing Frame");
 mods.thaumcraft.Research.addPrereq("NECROTICFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("NECROTICFRAME", "MB_EssenceDeath");
 mods.thaumcraft.Research.setConcealed("NECROTICFRAME", true);
 mods.thaumcraft.Research.addPage("NECROTICFRAME", "MagicBees.research_page.NECROTICFRAME");
-game.setLocalization("MagicBees.research_page.NECROTICFRAME", "\u9367\u5fd4\ue134\u5997\u55d8\u7066\u93c4\ue219\u7af4\u6d93\ue044\u6e6a\u94da\u509c\ue188\u9350\u546c\u5a07\u9422\u3127\u6b91\u9417\u2541\u6427,\u6769\u6b0f\u76a2\u6d7c\u6c2c\u3047\u6fb6\u0447\u6ab7\u6d63\u5ea4\u6e39\u935a\u5ea3\u6b91\u7035\u57ae\u61e1\u935c\u5c7c\u9a87\u95b2\ufffd. \u9367\u5fd4\ue134\u5997\u55d8\u7066\u93c8\ufffd270\u9428\u52ee\ufffd\u612a\u7b99.\u9367\u5fd4\ue134\u5997\u55d8\u7066\u704f\u55d7\ue1f4\u935b\u4ecb\u6ab7\u6d63\u5ea4\u56a630%,\u9422\u71b6\u9a87\u9354\u6da2\u6ab7\u6d63\u5ea1\u57cc75%.\u95c5\u5fd5\u6f43\u59e3\u5fce\u91dc\u9470\u612a\u7b99\u93ac\u0442\u5a07\u9422\ufffd/\u94da\u6ec6\u6e39\u935b\u3126\u6e61,\u9367\u5fd4\ue134\u5997\u55d8\u7066\u704f\u55d5\u7d30\u5a11\u5823\ufffd\u6945\u6aae\u6769\u6220\u6b91\u6d93\ufffd\u6d93\ue046\u4f12\u59d8\u65c7\u59ad\u9410\ufffd. \u9359\ufe40\ue63b,\u6fb6\u0447\u567a\u9428\ufffd Mortuus \u935c\ufffd Venenum Flux\u704f\u55d5\u7d30\u5a09\u3125\u53c6\u9352\u626e\u4f12\u59d8\u65c7\u59ad\u9410\u901b\u8151. \u5728\u8702\u7bb1\u7ec4\u7ed3\u6784\u4e2d\u002c\u53ef\u4ee5\u52a0\u5165\u8702\u7bb1\u7ec4\u6846\u67b6\u652f\u67b6\u6765\u4f7f\u7528\u6b64\u6846\u67b6\u002e");
+game.setLocalization("MagicBees.research_page.NECROTICFRAME", "The Necrotic Frame is an Item used in an Apiary, which drastically decreases a Queen's lifespan and productivity. It has a durability of 270. The Necrotic Frame decreases a bee's lifespan to only 30% and its productivity to 75%. With each durability use/bee cycle, the Necrotic Frame will deplete the nearby Aura by one point. Additionally, a significant amount of Mortuus and Venenum Flux will be released into the aura.\u5728\u8702\u7bb1\u7ec4\u7ed3\u6784\u4e2d\u002c\u53ef\u4ee5\u52a0\u5165\u8702\u7bb1\u7ec4\u6846\u67b6\u652f\u67b6\u6765\u4f7f\u7528\u6b64\u6846\u67b6\u002e");
 mods.thaumcraft.Arcane.addShaped("NECROTICFRAME", <MagicBees:frameNecrotic>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
 [<ore:screwAluminium>, <MagicBees:miscResources:8>, <ore:screwAluminium>],
 [<MagicBees:miscResources:23>, <MagicBees:frameMagic>, <MagicBees:miscResources:23>],
@@ -342,13 +342,13 @@ mods.thaumcraft.Research.addArcanePage("NECROTICFRAME", <MagicBees:frameNecrotic
 
 // --- Metabolic Frame
 mods.thaumcraft.Research.addResearch("METABOLICFRAME", "MAGICBEES", "limus 15, potentia 15, aer 12, ignis 9, terra 6, aqua 3", -7, -1, 4, <MagicBees:frameMetabolic>);
-game.setLocalization("tc.research_name.METABOLICFRAME", "\u6d60\uff48\u963f\u5997\u55d8\u7066");
-game.setLocalization("tc.research_text.METABOLICFRAME", "[MB]\u6984\u65c0\u7876\u59e3\u6391\u6427\u5997\u55d8\u7066");
+game.setLocalization("tc.research_name.METABOLICFRAME", "Metabolic Frame");
+game.setLocalization("tc.research_text.METABOLICFRAME", "[MB] Magic Drug Frame");
 mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "MB_EssenceUnstable");
 mods.thaumcraft.Research.setConcealed("METABOLICFRAME", true);
 mods.thaumcraft.Research.addPage("METABOLICFRAME", "MagicBees.research_page.METABOLICFRAME");
-game.setLocalization("MagicBees.research_page.METABOLICFRAME", "\u6d60\uff48\u963f\u5997\u55d8\u7066\u93c4\ue219\u7af4\u6d93\ue044\u6e6a\u94da\u509c\ue188\u9350\u546c\u5a07\u9422\u3127\u6b91\u9417\u2541\u6427,\u6d60\uff48\u963f\u5997\u55d8\u7066\u6fb6\u0443\u3047\u6fa7\u70b2\u59de\u6d5c\u55da\u6e5d\u94da\u509c\u6b91\u7ed0\u4f78\u5f49\u941c\ufffd,\u6d94\u71ba\u6690\u6fa7\u70b2\u59de\u6d5c\u55da\u6e5d\u94da\u509c\u6b91\u6d5c\u0447\u567a. \u6d60\uff48\u963f\u5997\u55d8\u7066\u93c8\ufffd130\u9428\u52ee\ufffd\u612a\u7b99. \u6d60\uff48\u963f\u5997\u55d8\u7066\u6d63\u80ef\u6e5d\u94da\u509c\u734a\u9359\u6a3c\u5dfc\u6fa7\u70b2\u59de80%,\u6d5c\u0447\u567a\u6fa7\u70b2\u59de20%.");
+game.setLocalization("MagicBees.research_page.METABOLICFRAME", "The Metabolic Frame is an Item used in an Apiary, which drastically increases a bee's mutation rate as well as a slight increase in it's production. It has a durability of 130. The Metabolic Frame increases the mutation rate by 80% and its production by 20%.");
 mods.thaumcraft.Arcane.addShaped("METABOLICFRAME", <MagicBees:frameMetabolic>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
 [<ore:screwAluminium>, <MagicBees:miscResources:12>, <ore:screwAluminium>],
 [<MagicBees:miscResources:20>, <MagicBees:frameMagic>, <MagicBees:miscResources:20>],
@@ -357,13 +357,13 @@ mods.thaumcraft.Research.addArcanePage("METABOLICFRAME", <MagicBees:frameMetabol
 
 // --- Temporal Frame
 mods.thaumcraft.Research.addResearch("TEMPORALFRAME", "MAGICBEES", "tempus 15, vacuos 15, aer 12, ignis 9, terra 6, aqua 3", -7, -2, 4, <MagicBees:frameTemporal>);
-game.setLocalization("tc.research_name.TEMPORALFRAME", "\u942c\ue101\u4f05\u5997\u55d8\u7066");
-game.setLocalization("tc.research_text.TEMPORALFRAME", "[MB]\u6984\u65c0\u7876\u93c3\u5815\u68ff\u5997\u55d8\u7066");
+game.setLocalization("tc.research_name.TEMPORALFRAME", "Temporal Frame");
+game.setLocalization("tc.research_text.TEMPORALFRAME", "[MB] Magic Time Frame");
 mods.thaumcraft.Research.addPrereq("TEMPORALFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("TEMPORALFRAME", "MB_EssenceTime");
 mods.thaumcraft.Research.setConcealed("TEMPORALFRAME", true);
 mods.thaumcraft.Research.addPage("TEMPORALFRAME", "MagicBees.research_page.TEMPORALFRAME");
-game.setLocalization("MagicBees.research_page.TEMPORALFRAME", "\u942c\ue101\u4f05\u5997\u55d8\u7066\u93c4\ue219\u7af4\u6d93\ue044\u6e6a\u94da\u509c\ue188\u9350\u546c\u5a07\u9422\u3127\u6b91\u9417\u2541\u6427,\u942c\ue101\u4f05\u5997\u55d8\u7066\u6fb6\u0443\u3047\u6fa7\u70b2\u59de\u94da\u509a\u6097\u9428\u52eb\ue1f4\u935b\u85c9\u57cc\u9358\u71b8\u6f75\u9428\ufffd150%. \u93c8\ufffd300\u9428\u52ee\ufffd\u612a\u7b99.\u9366\u3126\u588d\u93c8\u590b\ue50b\u93cb\u6735\u8151,\u942c\ue101\u4f05\u5997\u55d8\u7066\u93bb\u612a\u7df5\u93c8\ufffd\u95c0\u8de8\u6b91\u7035\u57ae\u61e1. \u95c5\u5fd5\u6f43\u59e3\u5fce\u91dc\u9470\u612a\u7b99\u93ac\u0442\u5a07\u9422\ufffd/\u94da\u6ec6\u6e39\u935b\u3126\u6e61,\u942c\ue101\u4f05\u5997\u55d8\u7066\u704f\u55d5\u7d30\u5a11\u5823\ufffd\u6945\u6aae\u6769\u6220\u6b91\u6d93\ufffd\u6d93\ue046\u4f12\u59d8\u65c7\u59ad\u9410\ufffd. \u9412\u60f0\ufffd\ufffd,\u6fb6\u0447\u567a\u9428\u51feempus Flux\u704f\u55d5\u7d30\u5a09\u3125\u53c6\u9352\u626e\u4f12\u59d8\u65c7\u59ad\u9410\u901b\u8151. \u5728\u8702\u7bb1\u7ec4\u7ed3\u6784\u4e2d\u002c\u53ef\u4ee5\u52a0\u5165\u8702\u7bb1\u7ec4\u6846\u67b6\u652f\u67b6\u6765\u4f7f\u7528\u6b64\u6846\u67b6\u002e");
+game.setLocalization("MagicBees.research_page.TEMPORALFRAME", "The Temporal Frame is an Item used in an Apiary, which drastically increases a Queen's lifespan to 150%. It has a durability of 300. Out of all Frames, the Temporal Frame gives the highest lifespan increase. With each durability use/bee cycle, the Temporal Frame will deplete the nearby Aura by one point. However, a significant amount of Tempus Flux will be released into the aura.\u5728\u8702\u7bb1\u7ec4\u7ed3\u6784\u4e2d\u002c\u53ef\u4ee5\u52a0\u5165\u8702\u7bb1\u7ec4\u6846\u67b6\u652f\u67b6\u6765\u4f7f\u7528\u6b64\u6846\u67b6\u002e");
 mods.thaumcraft.Arcane.addShaped("TEMPORALFRAME", <MagicBees:frameTemporal>, "ordo 16, terra 16, aer 16, perditio 16, ignis 16, aqua 16", [
 [<ore:screwAluminium>, <MagicBees:miscResources:9>, <ore:screwAluminium>],
 [<MagicBees:miscResources:21>, <MagicBees:frameMagic>, <MagicBees:miscResources:21>],
@@ -372,8 +372,8 @@ mods.thaumcraft.Research.addArcanePage("TEMPORALFRAME", <MagicBees:frameTemporal
 
 // --- Oblivion Frame
 mods.thaumcraft.Research.addResearch("OBLIVIONFRAME", "MAGICBEES", "tutamen 15, pannus 15, aer 12, ignis 9, terra 6, aqua 3", -10, 0, 4, <MagicBees:frameOblivion>);
-game.setLocalization("tc.research_name.OBLIVIONFRAME", "\u5a40\ue1be\u4f03\u5997\u55d8\u7066");
-game.setLocalization("tc.research_text.OBLIVIONFRAME", "[MB]\u6984\u65c0\u7876\u6d5c\u0445\u58bf\u5997\u55d8\u7066");
+game.setLocalization("tc.research_name.OBLIVIONFRAME", "Oblivion Frame");
+game.setLocalization("tc.research_text.OBLIVIONFRAME", "[MB] Magic Production Frame");
 mods.thaumcraft.Research.addPrereq("OBLIVIONFRAME", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("OBLIVIONFRAME", "GENTLEFRAME", false);
 mods.thaumcraft.Research.addPrereq("OBLIVIONFRAME", "RESILIENTFRAME", false);
@@ -383,7 +383,7 @@ mods.thaumcraft.Research.addPrereq("OBLIVIONFRAME", "TEMPORALFRAME", false);
 mods.thaumcraft.Research.addPrereq("OBLIVIONFRAME", "MB_EssenceOblivion");
 mods.thaumcraft.Research.setConcealed("OBLIVIONFRAME", true);
 mods.thaumcraft.Research.addPage("OBLIVIONFRAME", "MagicBees.research_page.OBLIVIONFRAME");
-game.setLocalization("MagicBees.research_page.OBLIVIONFRAME", "\u5a40\ue1be\u4f03\u5997\u55d8\u7066\u93c4\ue21c\u6571Magic Bees\u6fa7\u70b2\u59de\u9428\u52ea\u7af4\u6d93\ue046\u58bf\u935d\ufffd.\u93c0\u60e7\u6e6a\u94da\u509c\ue188\u6d93\ue15f\u57a8\u93bb\u6395\u7e58\u94da\u509c\ue188\u9428\u52ec\ue50b\u93cb\u8235\u722e\u6d93\ufffd, \u5a40\ue1be\u4f03\u5997\u55d8\u7066\u704f\u55da\u6e39\u7ee0\u535e\u5534\u9428\u52ee\u6e39\u935a\u5ea3\u6b91\u7035\u57ae\u61e1\u7f02\u2543\u716d\u9352\u9881\u7af4\u6d93\ue046\u6553\u935b\u85c9\u61c6\u93c8\ufffd(27.5\u7ec9\ufffd)\u934f\u4f7d\ue18f\u95c8\u70b2\u7236\u8e47\ue0a4\u6b91\u94da\u6ec6\u6e39\u93c9\u5099\u6c26. \u9412\u60f0\ufffd\u5c8b\u7d1d\u5a40\ue1be\u4f03\u5997\u55d8\u7066\u59e3\u5fd4\ue0bc\u6d60\u5ea3\u2516\u59d8\u65be\u8151\u935a\u7a3f\u5f47\u6fb6\u0445\u5bb315Vis,\u95b2\u5a43\u6581Tempus\u7455\u4f7a\u790c\u9352\u626e\u4f12\u59d8\u65c7\u59ad\u9410\u901b\u8151, \u704f\u535e\u511a\u59f9\u2103\u714b\u6d93\ufffd\u93cd\ufffd. \u6fe1\u509b\u7049\u6d93\u5ea1\u5f5f\u6d93\ufffd\u5997\u55d8\u7066\u6d93\ufffd\u935a\u5c7c\u5a07\u9422\ufffd,\u5a40\ue1be\u4f03\u5997\u55d8\u7066\u704f\u55d5\u7b09\u74a7\u8702\u7d94\u9422\ufffd, \u6769\u6b0e\u7d30\u7035\u8270\u56a7\u5a40\ue1be\u4f03\u5997\u55d8\u7066\u9359\u6940\u57cc\u5bf0\u581d\u3047\u9428\u52ea\u6fc0\u7039\ufffd");
+game.setLocalization("MagicBees.research_page.OBLIVIONFRAME", "The Oblivion Frame is an item added by the Magic Bees mod. Placed in an Apiary or inserted in a Frame Housing within an Alveary, it reduces the lifespan of the residing Queen to a single life cycle (27.5 sec) allowing for very rapid bee breeding. However, an Oblivion Frame draws about 15 Vis per use from the air and releases Tempus aspects into the aura as flux. The Oblivion Frame does not function if used alongside another frame, and that would cause it to take a lot of damage");
 mods.thaumcraft.Arcane.addShaped("OBLIVIONFRAME", <MagicBees:frameOblivion>, "ordo 32, terra 32, aer 32, ignis 32, aqua 32, perditio 32", [
 [<ore:screwStainlessSteel>, <MagicBees:miscResources:11>, <ore:screwStainlessSteel>],
 [<MagicBees:miscResources:19>, <MagicBees:frameMagic>, <MagicBees:miscResources:19>],
@@ -451,42 +451,42 @@ Assembler.addRecipe(<MagicBees:moonDial>, <minecraft:clock>, <gregtech:gt.metait
 
 // --- Mysterious Magnet Level 1
 Assembler.addRecipe(<MagicBees:magnet:2>, <MagicBees:miscResources:17>, <MagicBees:magnet> * 2, <liquid:molten.redstone> * 1296, 200, 64);
-//-
+//- 
 Assembler.addRecipe(<MagicBees:magnet:2>, <MagicBees:miscResources:17>, <MagicBees:magnet:1> * 2, <liquid:molten.redstone> * 1296, 200, 64);
 
 // --- Mysterious Magnet Level 2
 Assembler.addRecipe(<MagicBees:magnet:4>, <MagicBees:miscResources:17>, <MagicBees:magnet:2> * 2, <liquid:molten.redstone> * 1296, 400,120);
-//-
+//- 
 Assembler.addRecipe(<MagicBees:magnet:4>, <MagicBees:miscResources:17>, <MagicBees:magnet:3> * 2, <liquid:molten.redstone> * 1296, 400, 120);
 
 // --- Mysterious Magnet Level 3
 Assembler.addRecipe(<MagicBees:magnet:6>, <MagicBees:miscResources:17>, <MagicBees:magnet:4> * 2, <liquid:molten.redstone> * 1296, 600, 256);
-//-
+//- 
 Assembler.addRecipe(<MagicBees:magnet:6>, <MagicBees:miscResources:17>, <MagicBees:magnet:5> * 2, <liquid:molten.redstone> * 1296, 600, 256);
 
 // --- Mysterious Magnet Level 4
 Assembler.addRecipe(<MagicBees:magnet:8>, <MagicBees:miscResources:17>, <MagicBees:magnet:6> * 2, <liquid:molten.redstone> * 1296, 800, 480);
-//-
+//- 
 Assembler.addRecipe(<MagicBees:magnet:8>, <MagicBees:miscResources:17>, <MagicBees:magnet:7> * 2, <liquid:molten.redstone> * 1296, 800, 480);
 
 // --- Mysterious Magnet Level 5
 Assembler.addRecipe(<MagicBees:magnet:10>, <MagicBees:miscResources:17>, <MagicBees:magnet:8> * 2, <liquid:molten.redstone> * 1296, 1000, 1024);
-//-
+//- 
 Assembler.addRecipe(<MagicBees:magnet:10>, <MagicBees:miscResources:17>, <MagicBees:magnet:9> * 2, <liquid:molten.redstone> * 1296, 1000, 1024);
 
 // --- Mysterious Magnet Level 6
 Assembler.addRecipe(<MagicBees:magnet:12>, <MagicBees:miscResources:17>, <MagicBees:magnet:10> * 2, <liquid:molten.redstone> * 1296, 1200, 1920);
-//-
+//- 
 Assembler.addRecipe(<MagicBees:magnet:12>, <MagicBees:miscResources:17>, <MagicBees:magnet:11> * 2, <liquid:molten.redstone> * 1296, 1200, 1920);
 
 // --- Mysterious Magnet Level 7
 Assembler.addRecipe(<MagicBees:magnet:14>, <MagicBees:miscResources:17>, <MagicBees:magnet:12> * 2, <liquid:molten.redstone> * 1296, 1400, 4096);
-//-
+//- 
 Assembler.addRecipe(<MagicBees:magnet:14>, <MagicBees:miscResources:17>, <MagicBees:magnet:13> * 2, <liquid:molten.redstone> * 1296, 1400, 4096);
 
 // --- Mysterious Magnet Level 8
 Assembler.addRecipe(<MagicBees:magnet:16>, <MagicBees:miscResources:17>, <MagicBees:magnet:14> * 2, <liquid:molten.redstone> * 1296, 1600, 7680);
-//-
+//- 
 Assembler.addRecipe(<MagicBees:magnet:16>, <MagicBees:miscResources:17>, <MagicBees:magnet:15> * 2, <liquid:molten.redstone> * 1296, 1600, 7680);
 
 
