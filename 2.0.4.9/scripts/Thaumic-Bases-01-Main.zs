@@ -473,9 +473,12 @@ Research.clearPages("CAP_thauminite");
 Research.addPage("CAP_thauminite","tb.rec.capthauminite.page.NH.0");
 Research.addPage("CAP_thauminite","tb.rec.capthauminite.page.NH.1");
 //game.setLocalization("tc.research_text.CAP_thauminite","No activation here!");
-game.setLocalization("tb.rec.capthauminite.page.NH.0", "A thaumaturge alway seeks for a way to give discovered materials a real purpose. That metal you've just unlocked, thauminite works just as thaumium, so why not use it as a wand cap ? Well, thauminite does'nt seem to be as bendable as thaumium, due to the high amount of vitreus in it. However, that property can be used to enhance regular thaumium caps. The infusion is capable of turning the thauminite into small pieces, making it able to re-crystalise directly on the thaumium caps. To ensure that cap and thauminite are bound together for  ...forever you'll also need some quicksilver and also a bit of salis mundus to reduce thauminites crystalisation time.");
+game.setLocalization("tb.rec.capthauminite.page.NH.0", "\u795e\u79d8\u4f7f\u603b\u662f\u5728\u5c3d\u53ef\u80fd\u7b80\u5355\u7684\u65b9\u6cd5\u5185\u5bfb\u627e\u6700\u4f18\u89e3\u002e
+\u4f60\u521a\u521a\u53d1\u73b0\u7684\u79d8\u6676\u91d1\u5c5e\u529f\u80fd\u6027\u4e0a\u4e0e\u795e\u79d8\u91d1\u5c5e\u7c7b\u4f3c\u002c\u90a3\u4e48\u4e3a\u4ec0\u4e48\u4e0d\u4f7f\u7528\u5b83\u5236\u4f5c\u4e00\u4e2a\u6cd5\u6756\u7aef\u5462\u003f
+\u597d\u5427\u002c\u7ed3\u679c\u975e\u5e38\u5947\u602a\u002c\u8fd9\u4e2a\u6756\u7aef\u60f0\u6027\u592a\u5f3a\u800c\u4e0d\u80fd\u4f7f\u7528\u6ce8\u9b54\u7684\u624b\u6bb5\u8fdb\u884c\u6fc0\u6d3b\u002e
+\u7136\u800c\u002c\u5728\u5236\u4f5c\u6756\u7aef\u7684\u65f6\u5019\u52a0\u5165\u989d\u5916\u7684\u4e16\u754c\u76d0\u53ef\u4ee5\u89e3\u51b3\u8fd9\u4e00\u4e2a\u95ee\u9898\u002e\u4e3a\u6b64\u5b83\u9700\u8981\u66f4\u591a\u7684\u8981\u7d20\u6765\u5408\u6210\u002e");
 Research.addInfusionPage("CAP_thauminite",capThauminite);
-game.setLocalization("tb.rec.capthauminite.page.NH.1", "These new caps seem to better than thaumium caps, but you feel something within them... maybe there is something more to them ?");
+game.setLocalization("tb.rec.capthauminite.page.NH.1", "\u5b83\u4eec\u4f3c\u4e4e\u6bd4\u795e\u79d8\u6756\u7aef\u66f4\u4e3a\u4f18\u79c0\u002c\u4f46\u4f60\u611f\u89c9\u5b83\u4eec\u7684\u80fd\u529b\u4e0d\u4ec5\u4ec5\u5982\u6b64\u2026\u6216\u8bb8\u8fd8\u6709\u4f60\u672a\u77e5\u7684\u529b\u91cf\u6c89\u7761\u5728\u5176\u4e2d\u003f");
 Warp.addToResearch("CAP_thauminite",2);
 
 // --- Focus Experience
@@ -556,10 +559,13 @@ Research.refreshResearchRecipe("TB.NodeFoci.Taint");
 
 // --- Taint Flask
 Research.addResearch("TB.TaintFlask", "THAUMICBASES", "vitium 10, alienis 15, perditio 8, permutatio 12", 1, -1, 8, <thaumicbases:concentratedTaint>);
-game.setLocalization("en_US", "tc.research_name.TB.TaintFlask", "Concentrated Taint");
-game.setLocalization("en_US", "tc.research_text.TB.TaintFlask", "What could go wrong ?");
+game.setLocalization("en_US", "tc.research_name.TB.TaintFlask", "\u6d53\u7f29\u8150\u5316\u74f6");
+game.setLocalization("en_US", "tc.research_text.TB.TaintFlask", "\u53ef\u80fd\u4f1a\u51fa\u4ec0\u4e48\u95ee\u9898?");
 mods.thaumcraft.Research.addPage("TB.TaintFlask", "tb.rec.TB.TaintFlask.page.NH.0");
-game.setLocalization("en_US", "tb.rec.TB.TaintFlask.page.NH.0", " Your experiments with taint were quite successful, but you know that you can do much better. So you tried to feed the bottled taint with some vitium essentia. The result is quite nice, it grows and gets even stronger, so why not trying this with a full jar of vitium. Since you definitly dont want to taint you whole home you'll need a controlled enviroment, like the infusion. However, you should better stabilise the flask with some salis mundus, just to make sure that no taint escapes.");
+game.setLocalization("en_US", "tb.rec.TB.TaintFlask.page.NH.0", "\u4f60\u5173\u4e8e\u8150\u5316\u7684\u5b9e\u9a8c\u5f88\u6210\u529f\u002c\u4f46\u4f60\u89c9\u5f97\u81ea\u5df1\u53ef\u4ee5\u505a\u5f97\u66f4\u597d\u002e
+\u6240\u4ee5\u4f60\u5c1d\u8bd5\u5411\u8150\u5316\u74f6\u4e2d\u6ce8\u5165\u4e00\u4e9b\u8150\u5316\u6e90\u8d28\u002e\u7ed3\u679c\u975e\u5e38\u597d\u002c\u8150\u5316\u74f6\u53d8\u5f97\u66f4\u52a0\u5f3a\u5927\u4e86\u002c\u6240\u4ee5\u4e3a\u4f55\u4e0d\u8bd5\u8bd5\u6ce8\u5165\u6ee1\u6ee1\u4e00\u7f50\u7684\u8150\u5316\u8981\u7d20\u003f
+\u4f60\u80af\u5b9a\u4e0d\u60f3\u628a\u81ea\u5df1\u6574\u4e2a\u5bb6\u90fd\u53d8\u6210\u8150\u5316\u4e4b\u5730\u002c\u6240\u4ee5\u4f60\u9700\u8981\u4e00\u4e2a\u80fd\u63a7\u5236\u7684\u73af\u5883\u002c\u6bd4\u5982\u6ce8\u9b54\u002e
+\u4f46\u662f\u002c\u4f60\u6700\u597d\u7528\u4e00\u4e9b\u4e16\u754c\u76d0\u6765\u7a33\u5b9a\u8fd9\u4e2a\u74f6\u5b50\u002c\u4ee5\u786e\u4fdd\u6ca1\u6709\u8150\u5316\u4f1a\u6cc4\u9732\u51fa\u53bb\u002e");
 mods.thaumcraft.Research.addInfusionPage("TB.TaintFlask", <thaumicbases:concentratedTaint>);
 mods.thaumcraft.Research.addPrereq("TB.TaintFlask", "TB.INFUSION", false);
 mods.thaumcraft.Research.addPrereq("TB.TaintFlask", "BOTTLETAINT", true);

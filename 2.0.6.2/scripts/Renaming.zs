@@ -13,45 +13,45 @@
 // --- Minecraft ---
 
 // --- Ender Chest ---
-<minecraft:ender_chest>.displayName = "\u7ec9\u4f77\u6c49\u93c8\ue0a2\u5956\u7ee0\ufffd";
-<minecraft:ender_chest>.addTooltip(format.darkAqua('\u6d60\u546c\u7df5\u6d93\ue043\u6c49\u6d63\u8de8\u6564"));
+<minecraft:ender_chest>.displayName = "\u79c1\u4eba\u672b\u5f71\u7bb1\u5b50";
+<minecraft:ender_chest>.addTooltip(format.darkAqua("\u4e13\u5c5e\u4e8e\u4e2a\u4eba"));
 
 
 // --- Steve's Carts 2 ---
 
 // --- Creative Engine ---
-<StevesCarts:CartModule:61>.displayName = "\u93c3\u72bb\u6aba\u5bee\u66df\u6438";
-<StevesCarts:CartModule:61>.addTooltip(format.lightPurple("\u59d8\u544a\u4ebd\u6769\u612c\u59e9"));
+<StevesCarts:CartModule:61>.displayName = "\u65e0\u5c3d\u5f15\u64ce";
+<StevesCarts:CartModule:61>.addTooltip(format.lightPurple("\u6c38\u52a8\u673a\u0021"));
 
 // --- Upgrade: Creative Mode ---
-<StevesCarts:upgrade:14>.displayName = "\u9357\u56e9\u9a87: \u95c6\u55d8\u579a\u93c3\u72b2\u6556\u9359\u5d85\u7c32\u936b\ufffd";
+<StevesCarts:upgrade:14>.displayName = "\u5347\u7ea7\uff1a\u65e0\u5c3d\u53cd\u5e94\u5806";
 
 // --- Creative Hull ---
-<StevesCarts:CartModule:76>.displayName = "\u95b2\u5fd3\u74d9\u942d\u80ef\u6e85\u6fb6\u6827\uff13";
+<StevesCarts:CartModule:76>.displayName = "\u91cf\u5b50\u8f66\u58f3";
 
 // --- Galgadorian Hull ---
-<StevesCarts:CartModule:81>.displayName = "\u5a23\u5cf0\u608e\u93c5\u8dfa\u5bf2\u95b2\u621d\u7758\u942d\u80ef\u6e85\u6fb6\u6827\uff13";
+<StevesCarts:CartModule:81>.displayName = "\u6df7\u5408\u6676\u5316\u91d1\u5c5e\u8f66\u58f3";
 
 // --- Reinforced Hull ---
-<StevesCarts:CartModule:39>.displayName = "\u5bee\u54c4\u5bf2\u942d\u80ef\u6e85\u6fb6\u6827\uff13";
+<StevesCarts:CartModule:39>.displayName = "\u5f3a\u5316\u8f66\u58f3";
 
 // --- Standard Hull ---
-<StevesCarts:CartModule:38>.displayName = "\u93cd\u56e7\u566f\u942d\u80ef\u6e85\u6fb6\u6827\uff13";
+<StevesCarts:CartModule:38>.displayName = "\u6807\u51c6\u8f66\u58f3";
 
 // --- Wooden Hull ---
-<StevesCarts:CartModule:37>.displayName = "\u93c8\u3125\u57d7\u942d\u80ef\u6e85\u6fb6\u6827\uff13";
+<StevesCarts:CartModule:37>.displayName = "\u6728\u8d28\u8f66\u58f3";
 
 
 // --- Applied Energistics 2 ---
 
 // --- Creative Energy Cell ---
-<appliedenergistics2:tile.BlockCreativeEnergyCell>.displayName = "\u6d93\ue15e\u74d9\u7ef1\u72ba\u5158\u95b2\u5fd3\u5d1f\u934f\ufffd";
-<appliedenergistics2:tile.BlockCreativeEnergyCell>.addTooltip(format.lightPurple("\u93c3\u72bb\u6aba\u9473\u4ecb\u567a"));
+<appliedenergistics2:tile.BlockCreativeEnergyCell>.displayName = "\u4e2d\u5b50\u80fd\u91cf\u5355\u5143";
+<appliedenergistics2:tile.BlockCreativeEnergyCell>.addTooltip(format.lightPurple("\u65e0\u5c3d\u7684\u80fd\u91cf"));
 
 
 // --- Ender IO ---
 
 // --- Creative Energy Cell ---
-<EnderIO:blockCapBank>.withTag({type: "CREATIVE", storedEnergyRF: 2500000}).displayName = "\u5a23\u950b\u77ca\u9422\u975b\ue190\u6434\ufffd";
-<EnderIO:blockCapBank>.withTag({type: "CREATIVE", storedEnergyRF: 2500000}).addTooltip(format.lightPurple("\u93c3\u72bb\u6aba\u9473\u4ecb\u567a"));
+<EnderIO:blockCapBank>.withTag({type: "CREATIVE", storedEnergyRF: 2500000}).displayName = "\u6df7\u6c8c\u7535\u5bb9\u5e93";
+<EnderIO:blockCapBank>.withTag({type: "CREATIVE", storedEnergyRF: 2500000}).addTooltip(format.lightPurple("\u65e0\u5c3d\u7684\u80fd\u91cf"));
 
