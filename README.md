@@ -12,7 +12,7 @@
 
 `Sky_Cat`任务书汉化
 
-`huajijam`校对GregTech.lang、汉化GT++mod、部分神秘手册汉化、部分scripts字节汉化
+`huajijam`校对GregTech.lang、汉化GT++mod
 
 
 以及老版本翻译主要贡献者
