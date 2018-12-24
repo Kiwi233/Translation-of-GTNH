@@ -130,12 +130,14 @@ mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:placementMirror>);
 // --- Nether Shards
 mods.thaumcraft.Research.removeResearch("DIMENSION_SHARDS");
 mods.thaumcraft.Research.addResearch("DIMENSIONSHARDS", "TT_CATEGORY", "infernus 15, luxuria 15, superbia 15, gula 12, invidia 9, desidia 6, ira 3", 7, 8, 3, <ThaumicTinkerer:kamiResource:7>);
-game.setLocalization("tc.research_name.DIMENSIONSHARDS", "Dimensional Shards");
-game.setLocalization("tc.research_text.DIMENSIONSHARDS", "[TT] Rarities of the Otherworld");
+game.setLocalization("tc.research_name.DIMENSIONSHARDS", "\u6b21\u5143\u88c2\u7247");
+game.setLocalization("tc.research_text.DIMENSIONSHARDS", "[TT]\u81ea\u65b0\u4e16\u754c\u7684\u73cd\u5947");
 mods.thaumcraft.Research.addPrereq("DIMENSIONSHARDS", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("DIMENSIONSHARDS", false);
 mods.thaumcraft.Research.addPage("DIMENSIONSHARDS", "tt.research.page.DIMENSIONSHARDS");
-game.setLocalization("tt.research.page.DIMENSIONSHARDS", "Similarly to the overworld, the Nether and the End also have their specific shards, these are rarely held by either Zombie Pigmen living in the Nether or Endermen living in the End.<BR> You find a way to get this Shards with a Infusion recipe also.<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>");
+game.setLocalization("tt.research.page.DIMENSIONSHARDS", "\u7c7b\u4f3c\u4e3b\u4e16\u754c\u002c\u4e0b\u754c\u548c\u672b\u5730\u540c\u6837\u4e5f\u6709\u72ec\u7279\u7684\u6c34\u6676\u788e\u7247\u002e
+\u6709\u65f6\u5019\u5b83\u4eec\u4f1a\u6781\u5c11\u89c1\u5730\u51fa\u73b0\u5728\u539f\u4f4f\u6c11\u0028\u4e0b\u754c\u7684\u50f5\u5c38\u732a\u4eba\u6216\u8005\u672b\u5730\u7684\u672b\u5f71\u4eba\u0029\u624b\u4e2d\u002e
+\u4f60\u53d1\u73b0\u53ef\u4ee5\u901a\u8fc7\u6ce8\u9b54\u6765\u83b7\u5f97\u8fd9\u79cd\u788e\u7247\u002e\u0028\u975e\u914b\u798f\u97f3\u0029<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>");
 mods.thaumcraft.Infusion.addRecipe("DIMENSIONSHARDS", <minecraft:blaze_rod>,
 [<ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard:1>, <ForbiddenMagic:NetherShard:2>, <ForbiddenMagic:NetherShard:3>, <ForbiddenMagic:NetherShard:4>, <ForbiddenMagic:NetherShard:5>, <ForbiddenMagic:NetherShard:6>, <ForbiddenMagic:GluttonyShard>, <Thaumcraft:ItemShard>, <Thaumcraft:ItemShard:1>, <Thaumcraft:ItemShard:2>, <Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:5>, <Thaumcraft:ItemShard:6>],
 "infernus 8, praecantatio 8, vitreus 8, vitium 8, luxuria 8, superbia 8, gula 8, invidia 8, desidia 8, ira 8, alienis 8", <ThaumicTinkerer:kamiResource:6>, 8);
@@ -185,12 +187,13 @@ furnace.addRecipe(<ThaumicTinkerer:kamiResource:3> * 9, <ThaumicTinkerer:kamiRes
 mods.thaumcraft.Research.orphanResearch("CAP_ICHOR");
 mods.thaumcraft.Research.removeResearch("CAP_ICHOR");
 mods.thaumcraft.Research.addResearch("CAPICHOR", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 11, 11, 4, <ThaumicTinkerer:kamiResource:4>);
-game.setLocalization("tc.research_name.CAPICHOR", "Ichorium Wand Caps");
-game.setLocalization("tc.research_text.CAPICHOR", "[TT] Somewhat like a Steam Sale");
+game.setLocalization("tc.research_name.CAPICHOR", "\u7075\u5b9d\u6756\u7aef");
+game.setLocalization("tc.research_text.CAPICHOR", "[TT]\u7c7b\u4f3c\u0053\u0074\u0065\u0061\u006d\u5e73\u53f0\u6298\u6263");
 mods.thaumcraft.Research.addPrereq("CAPICHOR", "ICHORIUM", false);
 mods.thaumcraft.Research.setConcealed("CAPICHOR", true);
 mods.thaumcraft.Research.addPage("CAPICHOR", "tt.research.page.CAPICHOR");
-game.setLocalization("tt.research.page.CAPICHOR", "You have put Ichorium to its first ever use, by devising wand caps that give you a 30% discount on everything. Now you need to actually put this to any use and create a wand that can store more vis.");
+game.setLocalization("tt.research.page.CAPICHOR", "\u4f60\u5c06\u7075\u5b9d\u952d\u6295\u5165\u4e86\u5b83\u7684\u7b2c\u4e00\u9879\u5e94\u7528\u003a\u8bbe\u8ba1\u4e00\u79cd\u80fd\u591f\u51cf\u514d\u5404\u79cd\u9b54\u529b\u6d88\u8017\u0033\u0030\u0025\u7684\u6756\u7aef\u002e
+\u73b0\u5728\u4f60\u80fd\u62ff\u8fd9\u73a9\u610f\u513f\u505a\u66f4\u591a\u7684\u4e8b\u513f\u002c\u5e76\u5236\u9020\u4e00\u79cd\u80fd\u50a8\u5b58\u66f4\u591a\u9b54\u529b\u7684\u6cd5\u6756\u4e86\u002e");
 mods.thaumcraft.Arcane.addShaped("CAPICHOR", <ThaumicTinkerer:kamiResource:4> * 2, "aer 150, aqua 150, ignis 150, terra 150, ordo 150, perditio 150", [
 [<ThaumicTinkerer:kamiResource>, <Thaumcraft:WandCap:7>, <ThaumicTinkerer:kamiResource>],
 [<ore:ringVoid>, <ThaumicTinkerer:kamiResource:2>, <ore:ringVoid>],
