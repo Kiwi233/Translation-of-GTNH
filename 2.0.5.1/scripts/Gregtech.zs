@@ -1469,13 +1469,13 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 
 
 //--- Seismic Prospector LV
-<gregtech:gt.blockmachines:1156>.addTooltip("\u5de5\u4f5c\u533a\u57df16\u533a\u5757\u002c\u4e5f\u5c31\u662f\u534a\u5f84=4\u533a\u5757);
+<gregtech:gt.blockmachines:1156>.addTooltip("\u5de5\u4f5c\u533a\u57df16\u533a\u5757\u002c\u4e5f\u5c31\u662f\u534a\u5f84=4\u533a\u5757");
 
 //--- Seismic Prospector MV
-<gregtech:gt.blockmachines:2100>.addTooltip("\u5de5\u4f5c\u533a\u57df32\u533a\u5757\u002c\u4e5f\u5c31\u662f\u534a\u5f84=16\u533a\u5757);
+<gregtech:gt.blockmachines:2100>.addTooltip("\u5de5\u4f5c\u533a\u57df32\u533a\u5757\u002c\u4e5f\u5c31\u662f\u534a\u5f84=16\u533a\u5757");
 
 //--- Seismic Prospector HV
-<gregtech:gt.blockmachines:2101>.addTooltip("\u5de5\u4f5c\u533a\u57df48\u533a\u5757\u002c\u4e5f\u5c31\u662f\u534a\u5f84=36\u533a\u5757);
+<gregtech:gt.blockmachines:2101>.addTooltip("\u5de5\u4f5c\u533a\u57df48\u533a\u5757\u002c\u4e5f\u5c31\u662f\u534a\u5f84=36\u533a\u5757");
 
 //--- Seismic Prospector EV
-<gregtech:gt.blockmachines:1173>.addTooltip("\u5de5\u4f5c\u533a\u57df128\u533a\u5757\u002c\u4e5f\u5c31\u662f\u534a\u5f84=256\u533a\u5757);
+<gregtech:gt.blockmachines:1173>.addTooltip("\u5de5\u4f5c\u533a\u57df128\u533a\u5757\u002c\u4e5f\u5c31\u662f\u534a\u5f84=256\u533a\u5757");
