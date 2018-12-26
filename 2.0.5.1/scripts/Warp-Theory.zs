@@ -83,6 +83,10 @@ mods.thaumcraft.Research.addInfusionPage("PURETEAR", <WarpTheory:item.warptheory
 mods.thaumcraft.Research.orphanResearch("warptheory.amulet");
 mods.thaumcraft.Research.clearPrereqs("warptheory.amulet");
 mods.thaumcraft.Research.addPrereq("warptheory.amulet", "PURETEAR", false);
+mods.thaumcraft.Research.clearPages("warptheory.amulet");
+mods.thaumcraft.Research.addPage("warptheory.amulet", "tc.research_page.amulet");
+game.setLocalization("tc.research_page.amulet", "\u4f60\u5df2\u7ecf\u627e\u5230\u4e00\u79cd\u5904\u7406\u7eaf\u51c0\u6cea\u6c34\u7684\u65b9\u5f0f\u002c\u7ecf\u8fc7\u8fd9\u79cd\u5904\u7406\u002c\u51c0\u5316\u6cea\u6c34\u7684\u6301\u7eed\u65f6\u95f4\u5ef6\u957f\u800c\u4e14\u4e0d\u4f1a\u4ea7\u751f\u6d88\u5316\u4e0d\u826f\u002e
+\u901a\u8fc7\u7b80\u5355\u5730\u5c06\u4e24\u4e2a\u76f8\u5bf9\u7684\u6cea\u6c34\u5408\u6210\u62a4\u8eab\u7b26\u5e76\u4f7f\u5176\u5177\u6709\u67d0\u79cd\u9b54\u529b\u002c\u4e00\u79cd\u80fd\u591f\u6301\u7eed\u5438\u6536\u8d1f\u9762\u9b54\u6cd5\u80fd\u91cf\u5e76\u91ca\u653e\u5230\u73af\u5883\u4e2d\u7684\u62a4\u8eab\u7b26\u5c31\u505a\u597d\u4e86\u002e");
 mods.thaumcraft.Infusion.addRecipe("warptheory.amulet", <Thaumcraft:ItemBaubleBlanks>, 
 [<WarpTheory:item.warptheory.cleanser>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.02:29500>, <ThaumicTinkerer:kamiResource:2>, <Thaumcraft:ItemResource:14>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>, <WarpTheory:item.warptheory.cleanser>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:ItemResource:14>, <ThaumicTinkerer:kamiResource:2>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:27330>], 
 "alienis 64, auram 32, potentia 32, praecantatio 64, permutatio 32", <WarpTheory:item.warptheory.amulet>, 16);
