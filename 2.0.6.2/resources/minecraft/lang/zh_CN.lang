@@ -181,8 +181,8 @@ gtnh.quest44.name=欢迎来到第1阶
 gtnh.quest44.desc=欢迎,到目前为止做得好！在本阶(第1阶)你将拥有你的第一台机器、获得更多矿物产品,并且更有效率的制作铜锭.
 
 #Quest_45.Multiblock tanks... Railcraft tanks
-gtnh.quest45.name=多方块储罐...RC蓄水机
-gtnh.quest45.desc=576桶的容量,这应该够你储存你截至目前为止所获得的杂酚油了吧！ 如果不够的话,你可以让这个蓄水槽更大！最小的蓄水槽大小是 3 x 3 x 4 ,而最大的则是 9 x 9 x 8. 提示:如果你把阀门放在水槽底部的话,只需要连接一根液体管道就可以自动输出蓄水槽里面的液体.你可以使用BC的颜料刷和GT的喷漆罐来给蓄水机上色.注意:请使用桶来移动液体,如果使用单元,单元将会消失.
+gtnh.quest45.name=多方块储罐...RC蓄水器
+gtnh.quest45.desc=576桶的容量,这应该够你储存你截至目前为止所获得的杂酚油了吧！ 如果不够的话,你可以让这个蓄水槽更大！最小的蓄水槽大小是 3 x 3 x 4 ,而最大的则是 9 x 9 x 8. 提示:如果你把阀门放在水槽底部的话,只需要连接一根液体管道就可以自动输出蓄水槽里面的液体.你可以使用BC的颜料刷和GT的喷漆罐来给蓄水器上色.注意:请使用桶来移动液体,如果使用单元,单元将会消失.
 
 #Quest_46.More advanced alloys
 gtnh.quest46.name=更多高级合金
@@ -349,8 +349,8 @@ gtnh.quest86.name=升级#3:升级到第4阶 - 钨钢线圈
 gtnh.quest86.desc=要处理更高级的材料,如:末影锭,富集硅岩或铌钛合金,你需要超过3600K的温度.再次升级你的高炉...
 
 #Quest_87.Steel multiblock tanks
-gtnh.quest87.name=钢质蓄水机
-gtnh.quest87.desc=想要双倍容量的蓄水槽？去做一个钢质蓄水槽.尺寸可以从3x3x4到9x9x8.(x和z必须是相同的,奇数)允许的所有大小.就像铁质蓄水机一样,可以使用BC颜料刷和GT喷漆罐来改变颜色. 提示:如果你在底部放了阀门,流体能够自动输出(不需要任何的泵).PS:请使用桶来移动液体,如果使用单元,单元将会消失.
+gtnh.quest87.name=钢储罐
+gtnh.quest87.desc=想要双倍容量的蓄水槽？去做一个钢储罐.尺寸可以从3x3x4到9x9x8.(x和z必须是相同的,奇数)允许的所有大小.就像铁质蓄水器一样,可以使用BC颜料刷和GT喷漆罐来改变颜色. 提示:如果你在底部放了阀门,流体能够自动输出(不需要任何的泵).PS:请使用桶来移动液体,如果使用单元,单元将会消失.
 
 #Quest_88.Welcome to Tier 2
 gtnh.quest88.name=欢迎来到第2阶！
@@ -590,7 +590,7 @@ gtnh.quest146.desc=当臣民们不愿合作时......
 
 #Quest_147.Rocket fuel
 gtnh.quest147.name=燃料注入机
-gtnh.quest147.desc=火箭燃料燃料将来用于银河火箭.它确实产生了相当大的功率.用你的化学反应机做一些.在发电机中燃烧或每个单元产生112000EU/t,将产生160个RF/T
+gtnh.quest147.desc=火箭燃料燃料将来用于银河火箭.它确实产生了相当大的功率.用你的化学反应釜做一些.在发电机中燃烧或每个单元产生112000EU/t,将产生160个RF/T
 
 #Quest_148.Tasty...
 gtnh.quest148.name=美味的......
@@ -733,8 +733,8 @@ gtnh.quest182.name=外星科技-自动合成
 gtnh.quest182.desc=手动制造物品很痛苦,为什么不把他们交给外星科技呢？
 
 #Quest_183.Getting your first circuits
-gtnh.quest183.name=获得第一个AE处理机
-gtnh.quest183.desc=处理机的合成表可能和你原来接触的不是很一样,去NEI查一查. 首先每个电路制作8个.
+gtnh.quest183.name=获得第一个AE处理器
+gtnh.quest183.desc=处理器的合成表可能和你原来接触的不是很一样,去NEI查一查. 首先每个电路制作8个.
 
 #Quest_184.Cables
 gtnh.quest184.name=外星科技-线缆
@@ -2174,7 +2174,7 @@ gtnh.quest542.desc=使用电解机和可以更好的处理在矿物处理过程�
 
 #Quest_543.C9H8O4...NaCl...H2O...
 gtnh.quest543.name=乙烯水杨酸(C9H8O4)...氯化钠(NaCl)...水(H2O)...
-gtnh.quest543.desc=想制造高十六烷值柴油、塑料或者一些化学染料么？如果想的话就制造一台化学反应机.
+gtnh.quest543.desc=想制造高十六烷值柴油、塑料或者一些化学染料么？如果想的话就制造一台化学反应釜.
 
 #Quest_544.Compact? Or is it?
 gtnh.quest544.name=压缩机
@@ -2198,7 +2198,7 @@ gtnh.quest548.desc=第一步是将你的原油提炼成含硫轻燃油,这种燃
 
 #Quest_549.Light fuel
 gtnh.quest549.name=轻燃油
-gtnh.quest549.desc=在化学反应机中通过氢气将硫化轻燃油转化成不含硫的轻燃油,这是一种燃烧值很高的燃料. 1单位的轻燃油(1000mb)理论燃烧值有320KEU.  而剩下的硫化氢可以通过加水反应得到稀硫酸,稀硫酸在蒸馏得到硫酸.这可是很重要的化工原料,你可以使用硫酸来制备TNT或者灌装到电池内制作一次性电池. 在MV阶段,你可以通过搅拌重燃油和轻燃油来制作柴油.
+gtnh.quest549.desc=在化学反应釜中通过氢气将硫化轻燃油转化成不含硫的轻燃油,这是一种燃烧值很高的燃料. 1单位的轻燃油(1000mb)理论燃烧值有320KEU.  而剩下的硫化氢可以通过加水反应得到稀硫酸,稀硫酸在蒸馏得到硫酸.这可是很重要的化工原料,你可以使用硫酸来制备TNT或者灌装到电池内制作一次性电池. 在MV阶段,你可以通过搅拌重燃油和轻燃油来制作柴油.
 
 #Quest_550.H like Hydrogen... rest of the alphabet is too complicated...
 gtnh.quest550.name=H可能是氢…… 字母表的其余部分太复杂了！
@@ -2210,7 +2210,7 @@ gtnh.quest551.desc=第二步是将你的原油提炼成含硫重燃油,这种燃
 
 #Quest_552.Heavy fuel
 gtnh.quest552.name=重燃油
-gtnh.quest552.desc=同样,含硫重燃油也可以在化学反应机中和氢气反应得到不含硫的重燃油和硫化氢,脱硫的重燃油1单位(1000mb)的燃烧值也将提高到240,000EU. 而剩下的硫化氢可以通过加水反应得到稀硫酸,稀硫酸在蒸馏得到硫酸. 这可是很重要的化工原料,你可以使用硫酸来制备TNT或者灌装到电池内制作一次性电池. 在MV阶段,你可以通过搅拌重燃油和轻燃油来制作柴油.
+gtnh.quest552.desc=同样,含硫重燃油也可以在化学反应釜中和氢气反应得到不含硫的重燃油和硫化氢,脱硫的重燃油1单位(1000mb)的燃烧值也将提高到240,000EU. 而剩下的硫化氢可以通过加水反应得到稀硫酸,稀硫酸在蒸馏得到硫酸. 这可是很重要的化工原料,你可以使用硫酸来制备TNT或者灌装到电池内制作一次性电池. 在MV阶段,你可以通过搅拌重燃油和轻燃油来制作柴油.
 
 #Quest_553.Diesel fuel
 gtnh.quest553.name=柴油
@@ -2442,7 +2442,7 @@ gtnh.quest609.desc=使用合金炉搅拌锑跟铅,可以得到电池合金.与�
 
 #Quest_610.Lead, galena and silver
 gtnh.quest610.name=铅、方铅矿,以及银
-gtnh.quest610.desc=你无法在主世界或地狱找到铅、方铅矿跟银.该探索神秘的暮光森林了.在Y=5-40寻找这种矿脉.
+gtnh.quest610.desc=你无法在主世界或地狱找到铅、方铅矿跟银.该探索神秘的暮色森林了.在Y=5-40寻找这种矿脉.
 
 #Quest_611.Single use battery: Mercury
 gtnh.quest611.name=一次性电池:汞
@@ -2474,7 +2474,7 @@ gtnh.quest617.desc=流体灌装机是基础机器,可用于运送一些液体,�
 
 #Quest_618.Sulfuric acid
 gtnh.quest618.name=硫酸
-gtnh.quest618.desc=用化学反应机搅拌硫化氢跟水,可以得到硫酸以用在一次性电池中.如果你有制作了一些轻质燃料或重质燃料,你也许有剩下些硫化氢.如果没有,可以在化学反应机中使用硫粉跟水来制作硫化氢.
+gtnh.quest618.desc=用化学反应釜搅拌硫化氢跟水,可以得到硫酸以用在一次性电池中.如果你有制作了一些轻质燃料或重质燃料,你也许有剩下些硫化氢.如果没有,可以在化学反应釜中使用硫粉跟水来制作硫化氢.
 
 #Quest_619.Battery buffer
 gtnh.quest619.name=电池盒
@@ -2574,7 +2574,7 @@ gtnh.quest642.desc=另一样你可以从石油中蒸馏出来的燃气是含硫�
 
 #Quest_643.Refinery gas
 gtnh.quest643.name=炼油气
-gtnh.quest643.desc=在化学反应机中使用氢气提炼你的硫酸气体,可得到炼油气.其有较佳的燃烧值160,000EU,也可以用来制作甲烷.
+gtnh.quest643.desc=在化学反应釜中使用氢气提炼你的硫酸气体,可得到炼油气.其有较佳的燃烧值160,000EU,也可以用来制作甲烷.
 
 #Quest_644.Methane
 gtnh.quest644.name=甲烷
@@ -2774,7 +2774,7 @@ gtnh.quest692.desc=将高级合金的强度与钢铁胸甲结合,将使你非常
 
 #Quest_693.Fallen from the sky
 gtnh.quest693.name=从天而降
-gtnh.quest693.desc=你可以在许多地方找到巨大的殒石.而你可能会疑惑为何需要现在去挖掘它们？在LV时代,陨石是地球上稀有金属的一个好来源. 在陨石中你可以找到一个陨石箱,其中装了一些处理机印压模板.将它们保存起来,它们非常重要.
+gtnh.quest693.desc=你可以在许多地方找到巨大的殒石.而你可能会疑惑为何需要现在去挖掘它们？在LV时代,陨石是地球上稀有金属的一个好来源. 在陨石中你可以找到一个陨石箱,其中装了一些处理器印压模板.将它们保存起来,它们非常重要.
 
 #Quest_694.One Anvil... Better make that two!
 gtnh.quest694.name=一个铁砧...最好做两个！
@@ -2874,7 +2874,7 @@ gtnh.quest717.desc=进阶电子电路是基础电子电路的改良版.它是所
 
 #Quest_718.Crop Breeding
 gtnh.quest718.name=作物杂交
-gtnh.quest718.desc=如果你想知道如何种植作物,你看这页就对了！拿起锄头和鹤嘴锄取得一些作物(或作物架)和种子. 接着使用你的工具耕块田,确保这块田面积够大并且光线充足,并在田中央放上水源. 将作物架放在田的每块角落,接着放些种子到作物架上,然后等个一会. 等作物架上的作物完全成熟后,你可以试试利用双重作物架(杂交架)——在成熟作物旁的空作物架,再插上一次作物架. 如果你运气够好,你可以获得一些将来可以被扫瞄的新型未知种子. 记得,使用你的铲子把作物架上的杂草处理掉,否则它们会四处长满你的田地.
+gtnh.quest718.desc=如果你想知道如何种植作物,你看这页就对了！拿起锄头和鹤嘴锄取得一些作物(或作物架)和种子. 接着使用你的工具耕块田,确保这块田面积够大并且光线充足,并在田中央放上水源. 将作物架放在田的每块角落,接着放些种子到作物架上,然后等个一会. 等作物架上的作物完全成熟后,你可以试试利用双重作物架(杂交架)——在成熟作物旁的空作物架,再插上一次作物架. 如果你运气够好,你可以获得一些将来可以被扫描的新型未知种子. 记得,使用你的铲子把作物架上的杂草处理掉,否则它们会四处长满你的田地.
 
 #Quest_719.First Breeding
 gtnh.quest719.name=初次杂交
@@ -2890,7 +2890,7 @@ gtnh.quest721.desc=利用你的扫描仪来扫描你已拥有的所有未知种�
 
 #Quest_722.Speed up your plant growth
 gtnh.quest722.name=加快你的植物生长进度
-gtnh.quest722.desc=为了加快生长过程,你可以使用些肥料.你会注意到,无论如何,骨粉不再起作用了.在化学反应机中,用蒸馏水搅拌些木灰、磷灰石或方解石,你就会获得你需要的肥料.
+gtnh.quest722.desc=为了加快生长过程,你可以使用些肥料.你会注意到,无论如何,骨粉不再起作用了.在化学反应釜中,用蒸馏水搅拌些木灰、磷灰石或方解石,你就会获得你需要的肥料.
 
 #Quest_723.Potatos, Carrots, Pumpkins and Melons
 gtnh.quest723.name=马玲薯、胡萝卜、南瓜和西瓜.
@@ -2906,7 +2906,7 @@ gtnh.quest725.desc=在作物架上种植染料？试着种一些花,如果你将
 
 #Quest_726.Chemical rubber production
 gtnh.quest726.name=橡胶化学制程
-gtnh.quest726.desc=制作绝缘线缆的一个更高效率的方法,是在化学反应机中制作液态橡胶,然后可以在组装机中将之裹上未绝缘线缆.当你将两台机器放在一起,按下化学反应机的Fluid Auto-Output按钮,就可以直接将液态橡胶送进组装机.记得用扳手将反应机的输出口调到正确的方向.
+gtnh.quest726.desc=制作绝缘线缆的一个更高效率的方法,是在化学反应釜中制作液态橡胶,然后可以在组装机中将之裹上未绝缘线缆.当你将两台机器放在一起,按下化学反应釜的Fluid Auto-Output按钮,就可以直接将液态橡胶送进组装机.记得用扳手将反应机的输出口调到正确的方向.
 
 #Quest_727.Better than barrels
 gtnh.quest727.name=比储物桶更好
@@ -2962,7 +2962,7 @@ gtnh.quest739.desc=现在你对这个模块很熟悉了,是时候将基地中的
 
 #Quest_740.Extrude all the things
 gtnh.quest740.name=压出所有东西(Extrude all the things)
-gtnh.quest740.desc=现在你达到了MV阶段,是时候得到一些更好的制作比例了.如制作杆、管道、线缆,以及其它许多零件.大部份的配方都超过32EU/t,所以最好制作一台MV压模机.作好了之后你需要你想制作的零件的模板.大部份Tinkers Gregworks的工具部件都由压模机制作.
+gtnh.quest740.desc=现在你达到了MV阶段,是时候得到一些更好的制作比例了.如制作杆、管道、线缆,以及其它许多零件.大部份的配方都超过32EU/t,所以最好制作一台MV压模机.作好了之后你需要你想制作的零件的模板.大部份格雷添加的匠魂工具部件都由压模机制作.
 
 #Quest_741.Tool Forge
 gtnh.quest741.name=工具装配台
@@ -3002,7 +3002,7 @@ gtnh.quest749.desc=不锈钢会是HV阶段的主要原料.有两种制造方法,
 
 #Quest_750.Molten Plastic
 gtnh.quest750.name=液态塑料
-gtnh.quest750.desc=液态聚乙烯可以在化学反应机中制造,使用乙烯跟压缩空气单元或氧单元反应.使用模头(板)在液体固化机中制成塑料板.
+gtnh.quest750.desc=液态聚乙烯可以在化学反应釜中制造,使用乙烯跟压缩空气单元或氧单元反应.使用模头(板)在液体固化机中制成塑料板.
 
 #Quest_751.Mixing Stainless Steel
 gtnh.quest751.name=搅拌不锈钢粉
@@ -3038,7 +3038,7 @@ gtnh.quest758.desc=更好的机器需要更好的电池.让我们为新电池做
 
 #Quest_759.Molten Polyethylene
 gtnh.quest759.name=液态聚乙烯
-gtnh.quest759.desc=聚乙烯是由乙烯在化学反应机中制成.
+gtnh.quest759.desc=聚乙烯是由乙烯在化学反应釜中制成.
 
 #Quest_760.Clay Electrolyzing
 gtnh.quest760.name=电解粘土
@@ -3050,7 +3050,7 @@ gtnh.quest761.desc=火药桶用于聚爆压缩机的效果比炸药好一倍.制
 
 #Quest_762.TNT
 gtnh.quest762.name=TNT
-gtnh.quest762.desc=TNT比火药桶更有威力但难做得多.有LV跟HV两种不同方法可以制造.在LV阶段,你需要重质燃料或轻质燃料,来制作甲苯.甲苯可以固化成凝胶甲苯.另一种方法是在化学反应机中,用塑料纸浆及糖,使甲苯更有效率.将凝胶甲苯与硫酸搅拌来制造TNT.HV的方法需要石油裂化机器来制作所有的裂化燃料或裂化石脑油,以及一个蒸馏塔来萃取出甲苯.
+gtnh.quest762.desc=TNT比火药桶更有威力但难做得多.有LV跟HV两种不同方法可以制造. 在LV阶段,你需要重质燃料或轻质燃料,来制作甲苯.甲苯可以固化成凝胶甲苯.另一种方法是在化学反应釜中,用塑料纸浆及糖,使甲苯更有效率.将凝胶甲苯与硫酸搅拌来制造TNT. HV的方法需要石油裂化机器来制作所有的裂化燃料或裂化石脑油,以及一个蒸馏塔来萃取出甲苯.
 
 #Quest_763.iTNT
 gtnh.quest763.name=工业TNT
@@ -3058,7 +3058,7 @@ gtnh.quest763.desc=工业TNT是HV版本的TNT.有更强的爆炸威力,但并不
 
 #Quest_764.Dynamite
 gtnh.quest764.name=炸药
-gtnh.quest764.desc=炸药是聚爆压缩机所使用的最基础的爆炸物.在化学反应机中搅拌纸、线,跟硝化甘油来制造炸药.
+gtnh.quest764.desc=炸药是聚爆压缩机所使用的最基础的爆炸物.在化学反应釜中搅拌纸、线,跟硝化甘油来制造炸药.
 
 #Quest_765.Time to oil drill!
 gtnh.quest765.name=钻油时刻！
@@ -3070,7 +3070,7 @@ gtnh.quest766.desc=裂化石油可以在蒸馏塔中得到更好的副产品.制
 
 #Quest_767.Analyzing the soil
 gtnh.quest767.name=分析地层
-gtnh.quest767.desc=为了确定这个方块区域中有何种石油或天然气,你需要扫瞄地层.手持8炸药、4TNT、2工业TNT或1甘油对地震探矿机点击右键.然后在动画结束后,对地震探矿机使用闪存盘. 提示:你可以每6个方块区扫瞄一次,这样更有效率. 现在你需要将闪存盘放进一台扫描机.之后将之放在打印机的右下角字段,然后放三张纸在左上字段,确定你至少有144mb的鱿鱼墨水在里面(只有GT机器可以作用). 等运作结束,将打印页面取出,将之及皮格放入至少有20mb胶水的组装机中. 蒋蒋~现在你有一本记载你所扫瞄方块区域的数据的书了.
+gtnh.quest767.desc=为了确定这个方块区域中有何种石油或天然气,你需要扫描地层.手持8炸药、4TNT、2工业TNT或1甘油对地震探矿机点击右键.然后在动画结束后,对地震探矿机使用闪存盘. 提示:你可以每6个方块区扫描一次,这样更有效率. 现在你需要将闪存盘放进一台扫描机.之后将之放在打印机的右下角字段,然后放三张纸在左上字段,确定你至少有144mb的鱿鱼墨水在里面(只有GT机器可以作用). 等运作结束,将打印页面取出,将之及皮革放入至少有20mb胶水的组装机中. 蒋蒋~现在你有一本记载你所扫描方块区域的数据的书了.
 
 #Quest_768.You smell like a distillery!
 gtnh.quest768.name=你闻起来像掉到了酒桶里!
@@ -3130,7 +3130,7 @@ gtnh.quest781.desc=现在你有一台真空冷却机,有制造铁铬铝耐热材
 
 #Quest_782.Monocrystalline Silicon
 gtnh.quest782.name=单晶硅
-gtnh.quest782.desc=为了制造晶圆,你必须先制造单晶硅.这制程需在电力高炉加入硅粉以及砷化镓粉,需时450秒.每个硅球可以制成16个晶圆.
+gtnh.quest782.desc=为了制造晶元,你必须先制造单晶硅.这制程需在电力高炉加入硅粉以及砷化镓粉,需时450秒.每个硅球可以制成16个晶元.
 
 #Quest_783.We need big toys
 gtnh.quest783.name=我们需要些大家伙
@@ -3170,7 +3170,7 @@ gtnh.quest791.desc=高级电路需要一台MV精密激光蚀刻机,制造一台�
 
 #Quest_792.Silicon Wafer
 gtnh.quest792.name=硅晶元
-gtnh.quest792.desc=为制造硅晶圆,将单晶硅放入板材切割机.最好立刻制作一台MV切割机,之后制作RAM、IC,及其它芯片时你会需要它.
+gtnh.quest792.desc=为制造硅晶元,将单晶硅放入板材切割机.最好立刻制作一台MV切割机,之后制作RAM、IC,及其它芯片时你会需要它.
 
 #Quest_793.Good Integrated Circuits
 gtnh.quest793.name=不错的集成电路
@@ -3182,7 +3182,7 @@ gtnh.quest794.desc=基础的电路板有两种版本.IC2的电路板或需要电
 
 #Quest_795.Basic Circuit Assembler
 gtnh.quest795.name=基础电路组装机
-gtnh.quest795.desc=高级电路需要一台MV级电路组装机.制造一台吧.
+gtnh.quest795.desc=高级电路需要一台LV级电路组装机.制造一台吧.
 
 #Quest_796.Sensor lens
 gtnh.quest796.name=探测镜片
@@ -3322,11 +3322,11 @@ gtnh.quest829.desc=氧气压缩机是用来补充未满或者已经耗尽的氧�
 
 #Quest_830.Parachute
 gtnh.quest830.name=降落伞
-gtnh.quest830.desc=降落伞可以防止在返回主世界大气层是是降落的时候摔死. 降落伞是太空旅行中不可缺少的必备装备之一. 不带着降落伞就进行太空之旅是非常危险的. (There will even be a warning if you try to launch without one on you.Use the assembler to save materials.)
+gtnh.quest830.desc=降落伞可以防止在返回主世界大气层是是降落的时候摔死. 降落伞是太空旅行中不可缺少的必备装备之一. 不带着降落伞就进行太空之旅是非常危险的. (There will even be a warning if you try to launch without one on you.) 使用组装机可节省材料.
 
 #Quest_831.Advanced Wafers
-gtnh.quest831.name=高级晶圆(Advanced Wafers)
-gtnh.quest831.desc=更先进的晶圆可以制造更先进的机器,比如高级太阳能板和进入星辰大海最重要的终极工作台. 高级晶圆也可以用于建立空间站.
+gtnh.quest831.name=高级晶元(Advanced Wafers)
+gtnh.quest831.desc=更先进的晶元可以制造更先进的机器,比如高级太阳能板和进入星辰大海最重要的终极工作台. 高级晶元也可以用于建立空间站.
 
 #Quest_832.Wafers
 gtnh.quest832.name=晶元
@@ -3346,7 +3346,7 @@ gtnh.quest835.desc=每个电路扳都需要两个电阻.
 
 #Quest_836.Gallium Arsenide
 gtnh.quest836.name=砷化镓
-gtnh.quest836.desc=二极管需要砷化镓,你可能想知道在游戏早期要如何获得砷化镓. 你可以在热能离心机中离心粉碎的锌矿石来获得镓. 你能在主世界或者下届Y轴80-210这个范围内找到贫瘠的锌矿石,从而得到粉碎的锌矿, 你最好带着匠魂的稿子,并且在稿子上面附魔一个时运从而增加产量. 在下界Y轴5-85的范围内你能找到贫瘠的雄黄矿石.使用离心机离心雄黄粉. 把镓粉和砷粉在搅拌机中搅拌在一起,你就得到砷化镓粉末了.
+gtnh.quest836.desc=二极管需要砷化镓,你可能想知道在游戏早期要如何获得砷化镓. 你可以在热能离心机中离心粉碎的锌矿石来获得镓. 你能在主世界或者下届Y轴80-210这个范围内找到贫瘠的锌矿石,从而得到粉碎的锌矿. 你最好带着匠魂的稿子,并且在稿子上面附魔一个时运从而增加产量. 在下界Y轴5-85的范围内你能找到贫瘠的雄黄矿石. 使用离心机离心雄黄粉.再把镓粉和砷粉在搅拌机中搅拌在一起,你就得到砷化镓粉末了.
 
 #Quest_837.ILC and RAM
 gtnh.quest837.name=集成逻辑电路和随机存取芯片
@@ -3366,7 +3366,7 @@ gtnh.quest840.desc=你可以从你的"炼油气"中提取出很多不同的气�
 
 #Quest_841.Tetranitromethane
 gtnh.quest841.name=四硝基甲烷
-gtnh.quest841.desc=轻燃油、生物柴油和柴油可以通过四硝基甲烷增加.是四硝基甲烷需要乙烯酮和硝酸在化学反应机中反应制得.
+gtnh.quest841.desc=轻燃油、生物柴油和柴油可以通过四硝基甲烷增加.是四硝基甲烷需要乙烯酮和硝酸在化学反应釜中反应制得.
 
 #Quest_842.Methane Gas
 gtnh.quest842.name=甲烷
@@ -3390,7 +3390,7 @@ gtnh.quest846.desc=氧气可以通过很多种方式得到.你可以通过离心
 
 #Quest_847.Ethylene
 gtnh.quest847.name=乙烯
-gtnh.quest847.desc=你可以使用乙醇和硫酸在化学反应机中制取乙烯,或者在蒸馏机中蒸馏各种气体.Cracking naptha, fuels and gas with hydrogen or steam in the chemical reactor will work too.
+gtnh.quest847.desc=你可以使用乙醇和硫酸在化学反应釜中制取乙烯,或者在蒸馏机中蒸馏各种气体.也可以在化学反应釜中使用氢气或蒸汽裂解石脑油、燃油和天然气获得.
 
 #Quest_848.Seed Oil
 gtnh.quest848.name=种子油
@@ -3398,15 +3398,15 @@ gtnh.quest848.desc=在生产物柴油前你需要生产一些种子油或者是�
 
 #Quest_849.Sodium Hydroxide
 gtnh.quest849.name=氢氧化钠
-gtnh.quest849.desc=你需要制造一些氢氧化钠,你可以在化学反应机中通过钠和水的反应得到氢氧化钠.也可以先将钠和水搅拌成盐水,然后通过在电解机中电解盐水来得到它(电解盐水的副产物氢气还可以在燃气轮中作为燃料使用)
+gtnh.quest849.desc=你需要制造一些氢氧化钠,你可以在化学反应釜中通过钠和水的反应得到氢氧化钠.也可以先将钠和水搅拌成盐水,然后通过在电解机中电解盐水来得到它(电解盐水的副产物氢气还可以在燃气轮中作为燃料使用)
 
 #Quest_850.Ethenone
 gtnh.quest850.name=乙烯酮
-gtnh.quest850.desc=希望你在生产燃料的过程中留下了一些硫酸.在化学反应机中乙酸和硫酸将发生反应得到乙烯酮.但是你需要一台更加先进的化学反应机(MV化学反应机)来让这两种物质发生化学反应.
+gtnh.quest850.desc=希望你在生产燃料的过程中留下了一些硫酸.在化学反应釜中乙酸和硫酸将发生反应得到乙烯酮.但是你需要一台更加先进的化学反应釜(MV化学反应釜)来让这两种物质发生化学反应.
 
 #Quest_851.Nitric Acid
 gtnh.quest851.name=硝酸
-gtnh.quest851.desc=硝酸可以由水、氧气和二氧化氮组成
+gtnh.quest851.desc=硝酸可以由水、氧气和二氧化氮制成
 
 #Quest_852.Acetic Acid
 gtnh.quest852.name=乙酸
@@ -3414,7 +3414,7 @@ gtnh.quest852.desc=乙酸可以由氧气和乙烯制成.或由生物质、木醋
 
 #Quest_853.Nitrogen Dioxide
 gtnh.quest853.name=二氧化氮
-gtnh.quest853.desc=二氧化氮需要在化学反应机中结合氧气和一氧化氮.
+gtnh.quest853.desc=二氧化氮需要在化学反应釜中结合氧气和一氧化氮.
 
 #Quest_854.Ammonia
 gtnh.quest854.name=氨
@@ -3422,7 +3422,7 @@ gtnh.quest854.desc=氮和氢……得到氨.
 
 #Quest_855.Nitric Oxide
 gtnh.quest855.name=一氧化氮
-gtnh.quest855.desc=要制造一氧化氮你需要在化学反应机中结合氧和氨.
+gtnh.quest855.desc=要制造一氧化氮你需要在化学反应釜中结合氧和氨.
 
 #Quest_856.1,1-Dimetylhydrazine
 gtnh.quest856.name=偏二甲肼
@@ -3430,11 +3430,11 @@ gtnh.quest856.desc=要制造偏二甲肼你需要1单位的二甲胺和1单位�
 
 #Quest_857.Dimethylamine
 gtnh.quest857.name=二甲胺
-gtnh.quest857.desc=在化学反应机中让合成氨和甲醇反应得到二甲胺.
+gtnh.quest857.desc=在化学反应釜中让合成氨和甲醇反应得到二甲胺.
 
 #Quest_858.Chloramine
 gtnh.quest858.name=氯胺
-gtnh.quest858.desc=在化学反应机中让次氯酸和氨反应得到氯胺.
+gtnh.quest858.desc=在化学反应釜中让次氯酸和氨反应得到氯胺.
 
 #Quest_859.Hypochlorous Acid
 gtnh.quest859.name=次氯酸
@@ -3446,7 +3446,7 @@ gtnh.quest860.desc=到达月球的主要目标就是找到一些铝土矿来做�
 
 #Quest_861.Tungstensteel
 gtnh.quest861.name=钨钢
-gtnh.quest861.desc=下一阶段需要钨钢.在火星或者月球的石头灰里可以找到钨,将其和些钢粉搅拌,并将它融于3000K(需要镍铬合金线圈)的电力高炉.
+gtnh.quest861.desc=下一阶段需要钨钢.在火星或者月球的石头粉里可以找到钨,将其和些钢粉搅拌,并将它们在3000K(需要镍铬合金线圈)的电力高炉中融合起来.
 
 #Quest_862.Your first bow
 gtnh.quest862.name=你的第一把骨弓
@@ -3470,7 +3470,7 @@ gtnh.quest866.desc=已发现的不同矿脉看来似乎相隔颇远的.想缩短
 
 #Quest_867.Lapis, Lazurite, Sodalite, Calcite
 gtnh.quest867.name=青金岩、青金石、方纳石、方解石
-gtnh.quest867.desc=为了你的砖高炉你必须找到一条含有方解石的青金石矿脉.你可以在主世界或者暮光森林(20—50层)找到矿脉.
+gtnh.quest867.desc=为了你的砖高炉你必须找到一条含有方解石的青金石矿脉.你可以在主世界或者暮色森林(20—50层)找到矿脉.
 
 #Quest_868.Gypsum
 gtnh.quest868.name=石膏
@@ -3478,7 +3478,7 @@ gtnh.quest868.desc=你需要混凝土和石膏来为你的高炉做砖块.石膏
 
 #Quest_869.Sifting Machine
 gtnh.quest869.name=筛粉机
-gtnh.quest869.desc=你需要无瑕疵或精致的钻石、祖母绿、红宝石或其他宝石？那该是时候做一台筛粉机了.
+gtnh.quest869.desc=你需要无瑕或精致的钻石、祖母绿、红宝石或其他宝石？那该是时候做一台筛粉机了.
 
 #Quest_870.Smelt all the things...
 gtnh.quest870.name=熔了所有东西……
@@ -3490,7 +3490,7 @@ gtnh.quest871.desc=在你可以制作钢铁和拥有一台匠魂冶炼炉之后,
 
 #Quest_872.Maple Syrup
 gtnh.quest872.name=枫糖浆
-gtnh.quest872.desc=你花了大把的时间来寻找一些枫糖树？何不用用你的守林币来买些树苗？增加些杉树苗、种植些枫糖树.
+gtnh.quest872.desc=你花了大把的时间来寻找一些枫糖树？何不用用你的护林员币来买些树苗？增加些杉树苗、种植些枫糖树.
 
 #Quest_873.Seed Bags
 gtnh.quest873.name=种子袋
@@ -3530,7 +3530,7 @@ gtnh.quest881.desc=你空虚寂寞觉得冷.想来点培根吗？
 
 #Quest_882.Blaze
 gtnh.quest882.name=烈焰人
-gtnh.quest882.desc=你空虚寂寞觉得冷.让我来温暖你<3
+gtnh.quest882.desc=你空虚寂寞觉得冷.让我来温暖你~
 
 #Quest_883.Magma Cube
 gtnh.quest883.name=熔岩史莱姆
@@ -3666,7 +3666,7 @@ gtnh.quest915.desc=呃,花俏的传送珍珠.你需要他们.全部！现在！
 
 #Quest_916.Time to kill (Wither)
 gtnh.quest916.name=杀戮时刻！(凋零)
-gtnh.quest916.desc=收集了几个凋零骷髅头之后,你觉得你应该需要再多做点事--那为什么不杀一个凋零怪？不管怎样,你都需要一大堆地狱之星...
+gtnh.quest916.desc=收集了几个凋零骷髅头之后,你觉得你应该需要再多做点事--那为什么不杀一个凋零怪？不管怎样,你都需要一大堆下界之星...
 
 #Quest_917.Secret: The trade for life
 gtnh.quest917.name=秘密:为了生命的买卖
@@ -3706,11 +3706,11 @@ gtnh.quest925.desc=你破关了,真的.这里没事做了,你该去试试三次�
 
 #Quest_926.Blood Altar Tier 3
 gtnh.quest926.name=3阶血之祭坛
-gtnh.quest926.desc=为了让你的祭坛更强大,你需要升级它. 你需要在血液浸泡的丘陵块上建造四个高的柱子,并在每个柱子的顶部放一块萤石.
+gtnh.quest926.desc=为了让你的祭坛更强大,你需要升级它. 你需要用血腥神秘块建造两格高的柱子,并在每个柱子的顶部放一块萤石.
 
 #Quest_927.Blood Altar Tier 4
 gtnh.quest927.name=4阶血之祭坛
-gtnh.quest927.desc=如果你想制作4级石板,你需要一个第4层祭坛. 这可以像三层祭坛一样,柱子上有空洞 - 血液浸透的石块四块高,柱子顶部有血砖.
+gtnh.quest927.desc=如果你想制作4级石板,你需要一个第4层祭坛. 这可以像三层祭坛一样,四格高的血腥虚空块柱子,柱子顶部有血砖.
 
 #Quest_928.Blood Altar Tier 5
 gtnh.quest928.name=5阶血之祭坛
@@ -3718,11 +3718,11 @@ gtnh.quest928.desc=如果你想制作5级板岩,你需要一个五阶祭坛. 这
 
 #Quest_929.Blood Altar Tier 6
 gtnh.quest929.name=6阶血之祭坛
-gtnh.quest929.desc=血祭坛的最高等级是6级.你需要血液浸泡的蜥蜴柱7块高,并且顶部放置碎片集晶.
+gtnh.quest929.desc=血祭坛的最高等级是6级.你需要7格高的血腥灵宝块柱子,并且顶部放置碎片集晶.
 
 #Quest_930.Auto Mining
 gtnh.quest930.name=LV自动采矿机
-gtnh.quest930.desc=LV时代的自动采矿设备.所以这台漂亮的机器可以在你面前帮你挖出矿石.在机器的GUI的左侧放置两组挖矿管道. 这个设备需要32EU的功率. 使用8V的太阳能板就能让他工作,(With a 8 V Solar Pannel it works 4 times slover不知道什么意思). 这个设备会以自己为中心在16格的范围内搜索矿石.
+gtnh.quest930.desc=LV时代的自动采矿设备.所以这台漂亮的机器可以在你面前帮你挖出矿石.在机器的GUI的左侧放置两组挖矿管道. 这个设备需要32EU的功率. 使用8V的太阳能板就能让他工作,(虽然是以4倍慢速运行). 这个设备会以自己为中心在16格的范围内搜索矿石.
 
 #Quest_931.Auto Mining MV
 gtnh.quest931.name=MV自动采矿机
@@ -3730,7 +3730,7 @@ gtnh.quest931.desc=MV采矿机同样可以帮助你挖出地下的矿石,而且�
 
 #Quest_932.Auto Mining HV
 gtnh.quest932.name=HV自动采矿机
-gtnh.quest932.desc=和LV和MV的自动采矿机差不多.它可以在32格范围内搜索矿石,并且比HV的自动采矿机还要快上两倍！
+gtnh.quest932.desc=和LV和MV的自动采矿机差不多.它可以在32格范围内搜索矿石,并且比MV的自动采矿机还要快上两倍！
 
 #Quest_933.Power of the Sun
 gtnh.quest933.name=太阳能
@@ -3774,11 +3774,11 @@ gtnh.quest942.desc=搋子可以帮助你清除管道中残留的液体,也可以
 
 #Quest_943.Performing chemical experiments at HV Level
 gtnh.quest943.name=高压级别的化学实验
-gtnh.quest943.desc=更高级别的化学反应需要更高级别的电压,比如说氮气和氢气反应为氨气的就需要在高压的化学反应机里面进行.
+gtnh.quest943.desc=更高级别的化学反应需要更高级别的电压,比如说氮气和氢气反应为氨气的就需要在高压的化学反应釜里面进行.
 
 #Quest_944.Super Tank I
 gtnh.quest944.name=超级储罐 I
-gtnh.quest944.desc=超级缸I可以存储4000桶液体.要制作超级缸I你需要线制造一个密封机械方块I,这个东西需要钢板和巨型聚乙烯管道.制造超级缸I的其他材料还包括4块电路板、2块铝板、1块脉冲铁板和1个MV级电动泵.(Now you can store the exact amount of fluids a steel 5x5 steel tank contains.)
+gtnh.quest944.desc=超级缸I可以存储4000桶液体.要制作超级缸I你需要线制造一个密封机械方块I,这个东西需要钢板和巨型聚乙烯管道.制造超级缸I的其他材料还包括4块电路板、2块铝板、1块脉冲铁板和1个MV级电动泵. 现在你可以在一个超级缸里存储5x5个钢储罐存储的液体了.
 
 #Quest_945.Chad - A better way to make Paper
 gtnh.quest945.name=纸屑,更好的造纸方法
@@ -3798,7 +3798,7 @@ gtnh.quest948.desc=当你有了一点钢并且能够制作高压蒸汽机器的�
 
 #Quest_949.Garden Bags
 gtnh.quest949.name=种子袋
-gtnh.quest949.desc=寻找一些特殊的潘马斯的果园十分困难,不过你可以用农民硬币来购买一点！
+gtnh.quest949.desc=寻找一些特殊的潘马斯的果园十分困难,不过你可以用农民币来购买一点！
 
 #Quest_950.XP berries
 gtnh.quest950.name=经验浆果
@@ -3809,8 +3809,8 @@ gtnh.quest951.name=流体固化机
 gtnh.quest951.desc=使用各种类型的模具(板、棒之类的),可以使用流体固化机来制作很多不同的物品.
 
 #Quest_952.Base too big? I've got a fix for you!
-gtnh.quest952.name=基础太大？我为你准备好了一些东西！
-gtnh.quest952.desc=为了防止污染或者防止机器爆炸你可能会将你的基地设备放置的十分分散,这样来回移动真的很累. 尝试去采集一些大理石.大理石磨成粉末后离心可以获得很多方解石,在搅拌机里加水将它和石粉、粘土粉、石英砂搅拌.接下来搅拌物输出到一个液体固化机中使其固化为混凝土块. 在这些混凝土快上你会走的更快.并且你可以将他们合成为混凝土砖,混凝土转可以阻止生成怪物. 提示:10桶湿混凝土可以合成160块混凝土.注意:不要讲混凝土块堆叠1层以上,否则你会发现你的移动速度比你想象中要快得多.如果你真的需要从A点快速移动到B点,Also keep your animals off them.
+gtnh.quest952.name=基地太大？我为你准备好了一些东西！
+gtnh.quest952.desc=为了防止污染或者防止机器爆炸你可能会将你的基地设备放置的十分分散,这样来回移动真的很累. 尝试去采集一些大理石.大理石磨成粉末后离心可以获得很多方解石,在搅拌机里加水将它和石粉、粘土粉、石英砂搅拌.接下来搅拌物输出到一个液体固化机中使其固化为混凝土块. 在这些混凝土快上你会走的更快.并且你可以将他们合成为混凝土砖,混凝土转可以阻止生成怪物. 提示:10桶湿混凝土可以合成160块混凝土.注意:不要将混凝土块堆叠1层以上,否则你会发现你的移动速度比你想象中要快得多.如果你真的需要从A点快速移动到B点,最好也让你的动物们远离道路.
 
 #Quest_953.Stainless Steel Pipes
 gtnh.quest953.name=不锈钢管道
@@ -3850,7 +3850,7 @@ gtnh.quest961.desc=你可以用硬币购买一些赛特斯石英.
 
 #Quest_962.Vroooooom...
 gtnh.quest962.name=Vroooooom...
-gtnh.quest962.desc=厌倦了站在周围从你的钻石钉上收集所有的水滴和XP？ 做一个真空料斗来吸收所有的水滴和XP。 将XP送入罐中储存。
+gtnh.quest962.desc=厌倦了站在周围从你的钻石钉上收集所有的掉落物和XP？ 做一个真空料斗来吸收所有的掉落物和XP。 将XP送入罐中储存。
 
 #Quest_963.Basic Circuit Board
 gtnh.quest963.name=电路板基板
@@ -3881,8 +3881,8 @@ gtnh.quest969.name=晶体管
 gtnh.quest969.desc=你可以用硬币购买一些晶体管.
 
 #Quest_970.Ram Wafer
-gtnh.quest970.name=随机存储储存机芯片
-gtnh.quest970.desc=你可以用硬币购买一些随机存储储存机芯片.
+gtnh.quest970.name=随机存储存储器芯片
+gtnh.quest970.desc=你可以用硬币购买一些随机存储存储器芯片.
 
 #Quest_971.Integrated Logic Circuit Wafer
 gtnh.quest971.name=集成逻辑电路
@@ -3942,7 +3942,7 @@ gtnh.quest984.desc=银树本身很少见,树苗就更稀少了.想要一些嘛�
 
 #Quest_985.Time to kill (Ghast)
 gtnh.quest985.name=杀戮时刻(恶魂)
-gtnh.quest985.desc=恶魂会想你发射爆炸性火球,但是如果你可以将他们扔过来的火球打回去的话它们也很脆弱. 升级你的护甲让你有更好的火焰防护和爆炸防护！
+gtnh.quest985.desc=恶魂会向你发射爆炸性火球,但是如果你可以将他们扔过来的火球打回去的话它们也很脆弱. 升级你的护甲让你有更好的火焰防护和爆炸防护！
 
 #Quest_986.Is this the End? No the END Dimension
 gtnh.quest986.name=这就结束了？不这是末地！
@@ -3978,11 +3978,11 @@ gtnh.quest993.desc=丝滑蜂窝第一处理可以得到丝滑蜂胶,再次处理
 
 #Quest_994.The Centrifuge
 gtnh.quest994.name=离心机(林业MOD)
-gtnh.quest994.desc=林业离心机能总蜂窝中提取最多高达9种物品,这个机器使用RF能量.
+gtnh.quest994.desc=林业离心机能从蜂窝中提取最多高达9种物品,这个机器使用RF能量.
 
 #Quest_995.Woven silk
 gtnh.quest995.name=丝绸
-gtnh.quest995.desc=离心丝滑蜂胶,有60%的几率得到丝缕.用林业木工机或者格雷的组装机将9个丝缕制成丝绸. 这种编织物可以用来制作养分人套装或者将你的林业背包升级到45格.
+gtnh.quest995.desc=离心丝滑蜂胶,有60%的几率得到丝缕.用林业木工机或者格雷的组装机将9个丝缕制成丝绸. 这种编织物可以用来制作养蜂人套装或者将你的林业背包升级到45格.
 
 #Quest_996.Apiarist's Cloth
 gtnh.quest996.name=养蜂人的织物
@@ -4010,7 +4010,7 @@ gtnh.quest1001.desc=升级后的高级光伏板要比原来的光伏板输出高
 
 #Quest_1002.Enchanted Earth
 gtnh.quest1002.name=魔法泥土
-gtnh.quest1002.desc=魔法泥土可以让树苗或者作物在上面生长的更快. 当堆叠在一起的时候,多个泥土堆积在一起的时候会随机增加顶端的时间流逝. 变相随机让树苗或者作物的生长速度增加一点. 注:在魔导手册神秘养蜂学找到相关研究.(魔导手册神秘养蜂学)
+gtnh.quest1002.desc=魔法泥土可以让树苗或者作物在上面生长的更快. 当堆叠在一起的时候,多个泥土堆积在一起的时候会随机增加顶端的时间流逝. 变相随机让树苗或者作物的生长速度增加一点. 注:在魔导手册神秘养蜂学找到相关研究.
 
 #Quest_1003.Power of the Sun at MV Level
 gtnh.quest1003.name=MV级别太能能板
@@ -4022,7 +4022,7 @@ gtnh.quest1004.desc=把那些128EU的太阳能板制造成方块,这样他们能
 
 #Quest_1005.Indium
 gtnh.quest1005.name=铟
-gtnh.quest1005.desc=在EV阶段你需要铟来制作HV级别的太阳能板.但是铟无法通过矿石来得到.你只能通过EV级的化学反应来得到它. 首先你需要将洗干净的方铅矿和闪锌矿在化学反应机中和硫酸进行反应得到铟富集溶液,然后在铟富集溶液中加入铝粉再次进行反应后才能得到一点点铟粉末.
+gtnh.quest1005.desc=在EV阶段你需要铟来制作HV级别的太阳能板.但是铟无法通过矿石来得到.你只能通过EV级的化学反应来得到它. 首先你需要将洗干净的方铅矿和闪锌矿在化学反应釜中和硫酸进行反应得到铟富集溶液,然后在铟富集溶液中加入铝粉再次进行反应后才能得到一点点铟粉末.
 
 #Quest_1006.Power of the Sun at HV Level
 gtnh.quest1006.name=HV级别太能能板
@@ -4065,20 +4065,20 @@ gtnh.quest1015.name=塑料电路基板
 gtnh.quest1015.desc=塑料电路基板首先需要使用硫酸和塑料板来制造塑料基板. 然后在基板上添加铜箔并通过氯化铁或者过硫酸钠处理后可以得到塑料电路基板.
 
 #Quest_1016.Integrated Processor
-gtnh.quest1016.name=集成处理机
-gtnh.quest1016.desc=不错的电路板有三种型号. 优质的电子电路板、不错的集成电路和集成处理机. 生产集成处理机需要MV级别的电路组装机. 而生产它需要用到的配件有CPU、电容、晶体管和电阻.
+gtnh.quest1016.name=集成处理器
+gtnh.quest1016.desc=不错的电路板有三种型号. 优质的电子电路板、不错的集成电路和集成处理器. 生产集成处理器需要MV级别的电路组装机. 而生产它需要用到的配件有CPU、电容、晶体管和电阻.
 
 #Quest_1017.Processor Assembly
-gtnh.quest1017.name=处理机集群
-gtnh.quest1017.desc=另一个进阶电路是处理机集群电路板. 装备处理机集群需要MV级电路组装机.在生产的过程中你需要用到两个集成处理机. 并且依然需要在超净间进行组装.
+gtnh.quest1017.name=处理器集群
+gtnh.quest1017.desc=另一个进阶电路是处理器集群电路板. 装备处理器集群需要MV级电路组装机.在生产的过程中你需要用到两个集成处理器. 并且依然需要在超净间进行组装.
 
 #Quest_1018.Central Processing Unit
-gtnh.quest1018.name=中央处理机(CPU)
-gtnh.quest1018.desc=集成处理机电路板需要CPU. 你可以通过切割中央处理机晶元来生产它. 不过生产过程需要在超净间内进行.
+gtnh.quest1018.name=中央处理器(CPU)
+gtnh.quest1018.desc=集成处理器电路板需要CPU. 你可以通过切割中央处理器晶元来生产它. 不过生产过程需要在超净间内进行.
 
 #Quest_1019.Small Coil
 gtnh.quest1019.name=小型线圈
-gtnh.quest1019.desc=生产处理机集群时需要用到小型线圈
+gtnh.quest1019.desc=生产处理器集群时需要用到小型线圈
 
 #Quest_1020.Iron (III) Chloride
 gtnh.quest1020.name=氯化铁
@@ -4086,7 +4086,7 @@ gtnh.quest1020.desc=氯化铁可以用于蚀刻电路板基板. 想要制取这�
 
 #Quest_1021.Sodium Persulfate
 gtnh.quest1021.name=过硫酸钠
-gtnh.quest1021.desc=过硫酸钠可以通过电解硫酸氢钠粉末获得. 而硫酸氢钠则是通过盐和硫酸在化学反应机中反应得到. 你可以使用过硫酸钠来时刻电路板,而生产硫酸氢钠产生的副产物氢氯酸则可以作为日后生产环氧树脂的基础原料使用.
+gtnh.quest1021.desc=过硫酸钠可以通过电解硫酸氢钠粉末获得. 而硫酸氢钠则是通过盐和硫酸在化学反应釜中反应得到. 你可以使用过硫酸钠来时刻电路板,而生产硫酸氢钠产生的副产物氢氯酸则可以作为日后生产环氧树脂的基础原料使用.
 
 #Quest_1022.Magnetic Steel
 gtnh.quest1022.name=磁化钢杆
@@ -4149,8 +4149,8 @@ gtnh.quest1036.name=塑料电路基板
 gtnh.quest1036.desc=你可以用硬币购买一些塑料电路基板.
 
 #Quest_1037.Central Procesing Unit Wafer
-gtnh.quest1037.name=中央处理机
-gtnh.quest1037.desc=你可以用硬币购买一些中央处理机.
+gtnh.quest1037.name=中央处理器
+gtnh.quest1037.desc=你可以用硬币购买一些中央处理器.
 
 #Quest_1038.Resistors SMD
 gtnh.quest1038.name=贴片电阻
@@ -4901,7 +4901,7 @@ gtnh.quest1224.name=环氧化物
 gtnh.quest1224.desc=环氧化物可以用来制作高级电路板基板.你需要让环氧氯丙烷、双酚A和氢氧化钠反应来制取它.
 
 #Quest_1225.IV Circuit Mainframe
-gtnh.quest1225.name=IV处理机主机
+gtnh.quest1225.name=IV处理器主机
 gtnh.quest1225.desc=工作站电路可以用来制造HV及电路组装机.这台机器可以生产更加先进的电路板
 
 #Quest_1226.Glycerol
@@ -4941,8 +4941,8 @@ gtnh.quest1234.name=高级电路板基板
 gtnh.quest1234.desc=首先我们需要使用使用硫酸将金箔和环氧树脂片结合制取环氧树脂基板.然后在使用氯化铁或者过硫酸钠将琥珀金板和环氧树脂基板结合,就可以得到高级电路板基板了. 以上制作过程都需要用到化学反应釜.
 
 #Quest_1235.Microprocessor LV
-gtnh.quest1235.name=LV级微型处理机
-gtnh.quest1235.desc=微型处理机是制造LV电路最昂贵的方法.他需要塑料板、超净间、中央处理机和一些贴片元件. 但是在科技飞速发展的你的基地,我认为这些成本不会太高吧.
+gtnh.quest1235.name=LV级微型处理器
+gtnh.quest1235.desc=微型处理器是制造LV电路最昂贵的方法.他需要塑料板、超净间、中央处理器和一些贴片元件. 但是在科技飞速发展的你的基地,我认为这些成本不会太高吧.
 
 #Quest_1236.Cutting Machine HV
 gtnh.quest1236.name=进阶板材切割机II
@@ -4993,16 +4993,16 @@ gtnh.quest1247.name=量子之眼
 gtnh.quest1247.desc=生产EV发射机和传感机需要用到量子之眼,通过化学浸洗机将末影之眼浸泡在氡中就可以得到.
 
 #Quest_1248.Nano Processor
-gtnh.quest1248.name=纳米处理机
-gtnh.quest1248.desc=HV级别的电路板有三种类型,高级电路板、处理机集群和纳米处理机. 纳米处理机集群需要用到纳米处理机和环氧树脂制作的高级电路板基板. 生产过程中需要保持全程无尘环境.
+gtnh.quest1248.name=纳米处理器
+gtnh.quest1248.desc=HV级别的电路板有三种类型,高级电路板、处理器集群和纳米处理器. 纳米处理器集群需要用到纳米处理器和环氧树脂制作的高级电路板基板. 生产过程中需要保持全程无尘环境.
 
 #Quest_1249.Nano CPU Wafer and Chip
 gtnh.quest1249.name=纳米晶元和CPU
 gtnh.quest1249.desc=纳米晶元是由CPU晶元通过添加生碳纤维,在经过和液态萤石进行反应后得到的一种纳米级CPU晶元. 通过切割纳米CPU晶元就可以得到纳米CPU了.
 
 #Quest_1250.Nano Processor Array
-gtnh.quest1250.name=纳米处理机集群
-gtnh.quest1250.desc=纳米处理机集群是EV级电路. 生产过程中同样需要保证全程无尘.
+gtnh.quest1250.name=纳米处理器集群
+gtnh.quest1250.desc=纳米处理器集群是EV级电路. 生产过程中同样需要保证全程无尘.
 
 #Quest_1251.Elite Nano Computer
 gtnh.quest1251.name=精英纳米电脑
@@ -5045,8 +5045,8 @@ gtnh.quest1260.name=合成监控机
 gtnh.quest1260.desc=自动合成单元的一部分,通过这个组件你可以看到目前自动合成的进度.
 
 #Quest_1261.Nano Processor Mainframe
-gtnh.quest1261.name=纳米处理机主机
-gtnh.quest1261.desc=纳米处理机主机是LuV级电路.
+gtnh.quest1261.name=纳米处理器主机
+gtnh.quest1261.desc=纳米处理器主机是LuV级电路.
 
 #Quest_1262.Battery Buffer x9
 gtnh.quest1262.name=电池缓冲机X9
@@ -5250,7 +5250,7 @@ gtnh.quest1311.desc=这个处理用来制作1K和4K的存储元件.
 
 #Quest_1312.Automating Crafting
 gtnh.quest1312.name=自动合成
-gtnh.quest1312.desc=这是自动合成单元的组成部分之一,这个特殊的方块并没有提供自动合成单元的功能,但是可以作为一个"填充"块存在. 并且也是制造合成监视机、并行处理机和不同规格的合成存储机的基础组件.
+gtnh.quest1312.desc=这是自动合成单元的组成部分之一,这个特殊的方块并没有提供自动合成单元的功能,但是可以作为一个"填充"块存在. 并且也是制造合成监视机、并行处理器和不同规格的合成存储机的基础组件.
 
 #Quest_1313.1k Item Storage Cell
 gtnh.quest1313.name=1K-ME存储元件
@@ -6094,7 +6094,7 @@ gtnh.quest1522.desc=既然你有一些技术,你就已经找到了寻找矿石�
 
 #Quest_1523.Can't find those ores?
 gtnh.quest1523.name=找不到那些矿石？
-gtnh.quest1523.desc=难以找到一些基本矿石？ 在矿石探测棒中使用一些硬币进行矿石交易. 如果你很聪明,你可以用一块矿石找到含有另一块矿石的静脉,用来寻找另一条矿脉. 例如,如果您选择Redstone,您可以使用它来查找Cinnabar,它可用于在暮光森林中查找Thaumcraft Aspect Shard矿石. 试验并找到一些组合！
+gtnh.quest1523.desc=难以找到一些基本矿石？ 在矿石探测棒中使用一些硬币进行矿石交易. 如果你很聪明,你可以用一块矿石找到含有另一块矿石的静脉,用来寻找另一条矿脉. 例如,如果您选择Redstone,您可以使用它来查找Cinnabar,它可用于在暮色森林中查找Thaumcraft Aspect Shard矿石. 试验并找到一些组合！
 
 #Quest_1524.Better bolts
 gtnh.quest1524.name=更好的螺栓
@@ -6162,7 +6162,7 @@ gtnh.quest1539.desc=钨钢锭
 
 #Quest_1540.Magnalium Source
 gtnh.quest1540.name=Magnalium来源
-gtnh.quest1540.desc=Magnesite是镁的来源,可以在暮光森林中找到Y=10-40. Fullers地球可以在50-70岁的Overworld上找到. 大理石粉尘也可用于镁粉.
+gtnh.quest1540.desc=Magnesite是镁的来源,可以在暮色森林中找到Y=10-40. Fullers地球可以在50-70岁的Overworld上找到. 大理石粉尘也可用于镁粉.
 
 #Quest_1541.Analyze your crops
 gtnh.quest1541.name=分析你的庄稼
@@ -6558,11 +6558,11 @@ gtnh.quest1638.desc=现在让我们自动将水电解成氧气和氢气. 你需�
 
 #Quest_1639.Desulfuring the oil
 gtnh.quest1639.name=脱硫油
-gtnh.quest1639.desc=现在是开始实际脱硫的时候了. 使用您选择的化学反应机,用硫酸轻燃料填充并将其连接到电源. 现在连接一个接口管道. 将一个项目库存管理员置于内部以储存4个氢电池. 然后放入项目提取机设置以提取硫化氢和空单元. 去你的储氢超级罐并放入一个制作芯片组,从一个空单元中制造一个氢电池. 这就是全部.
+gtnh.quest1639.desc=现在是开始实际脱硫的时候了. 使用您选择的化学反应釜,用硫酸轻燃料填充并将其连接到电源. 现在连接一个接口管道. 将一个项目库存管理员置于内部以储存4个氢电池. 然后放入项目提取机设置以提取硫化氢和空单元. 去你的储氢超级罐并放入一个制作芯片组,从一个空单元中制造一个氢电池. 这就是全部.
 
 #Quest_1640.Dealing with H2S
 gtnh.quest1640.name=处理H2S
-gtnh.quest1640.desc=现在让我们将所有H2S转化为硫酸. 将化学反应机连接到电,水和接口管道. 放入物品响应机芯片组以接受H2S细胞并提取空细胞. 在酿酒厂中蒸馏稀释的硫酸并将其储存在超级罐中. 恭喜. 您现在可以完全自动脱油,自动生产氢气和氧气,还可以储存所有硫酸.
+gtnh.quest1640.desc=现在让我们将所有H2S转化为硫酸. 将化学反应釜连接到电,水和接口管道. 放入物品响应机芯片组以接受H2S细胞并提取空细胞. 在酿酒厂中蒸馏稀释的硫酸并将其储存在超级罐中. 恭喜. 您现在可以完全自动脱油,自动生产氢气和氧气,还可以储存所有硫酸.
 
 #Quest_1641.Small reward
 gtnh.quest1641.name=小奖励
@@ -6646,7 +6646,7 @@ gtnh.quest1660.desc=现在我们在生粉中加入一点硫磺,得到熔融的�
 
 #Quest_1661.Silicone Rubber
 gtnh.quest1661.name=硅橡胶
-gtnh.quest1661.desc=想制作一些合成橡胶,如硅橡胶？有不同的方法可以做到这一点,这个任务只是一个例子,你可以做到这一点. 你需要氯和甲烷的步骤 - 在化学反应机中将它们搅拌成氯甲烷 . 或者您可以使用甲醇和盐酸.
+gtnh.quest1661.desc=想制作一些合成橡胶,如硅橡胶？有不同的方法可以做到这一点,这个任务只是一个例子,你可以做到这一点. 你需要氯和甲烷的步骤 - 在化学反应釜中将它们搅拌成氯甲烷 . 或者您可以使用甲醇和盐酸.
 
 #Quest_1662.Dimethyldichlorosilane
 gtnh.quest1662.name=二甲基二氯硅烷
@@ -6654,7 +6654,7 @@ gtnh.quest1662.desc=接下来的步骤需要氯甲烷和硅尘. 最后你得到�
 
 #Quest_1663.Polydimethylsiloxane Dust
 gtnh.quest1663.name=聚二甲基硅氧烷粉尘
-gtnh.quest1663.desc=将二甲基二氯硅烷和水加入化学反应机中,得到聚二甲基硅氧烷.
+gtnh.quest1663.desc=将二甲基二氯硅烷和水加入化学反应釜中,得到聚二甲基硅氧烷.
 
 #Quest_1664.Silicone Rubber Sheet
 gtnh.quest1664.name=硅橡胶板
@@ -6682,11 +6682,11 @@ gtnh.quest1669.desc=IV电路组装机可以让您轻松制作MV电路,以及单�
 
 #Quest_1670.Naquadah Doped Monocrystalline Silicon
 gtnh.quest1670.name=硅岩掺杂的单晶硅
-gtnh.quest1670.desc=要制作最先进的晶圆,首先需要制作硅岩掺杂单晶硅. 该过程需要750秒,并且需要硅块和电炉中的硅岩锭. 你可以从每个晶锭中制作64个晶圆.
+gtnh.quest1670.desc=要制作最先进的晶元,首先需要制作硅岩掺杂单晶硅. 该过程需要750秒,并且需要硅块和电炉中的硅岩锭. 你可以从每个晶锭中制作64个晶元.
 
 #Quest_1671.Naquadah Doped Wafer
-gtnh.quest1671.name=硅岩掺杂的晶圆
-gtnh.quest1671.desc=为了制造一些硅岩掺杂的硅晶片,将单晶硅岩掺杂的硅晶锭置于切割机中. 未来先进的晶圆和芯片需要HV切割机.
+gtnh.quest1671.name=硅岩掺杂的晶元
+gtnh.quest1671.desc=为了制造一些硅岩掺杂的硅晶片,将单晶硅岩掺杂的硅晶锭置于切割机中. 未来先进的晶元和芯片需要HV切割机.
 
 #Quest_1672.Power of the Sun at EV Level
 gtnh.quest1672.name=EV等级的太阳能
@@ -6698,7 +6698,7 @@ gtnh.quest1673.desc=为了使Lv和MV电路更便宜,你需要soc. 芯片级的�
 
 #Quest_1674.Cheaper MV circuits
 gtnh.quest1674.name=更便宜的MV电路
-gtnh.quest1674.desc=使用IV电路汇编机和SoC,您现在可以以更低的价格制造集成处理机.
+gtnh.quest1674.desc=使用IV电路汇编机和SoC,您现在可以以更低的价格制造集成处理器.
 
 #Quest_1675.Glass Fiber
 gtnh.quest1675.name=玻璃纤维
@@ -6714,11 +6714,11 @@ gtnh.quest1677.desc=纤维增强电路板需要纤维增强的环氧树脂片,�
 
 #Quest_1678.Single step EV circuits
 gtnh.quest1678.name=单步EV电路
-gtnh.quest1678.desc=量子处理机是您在单一工艺中制造EV电路的第一次机会.
+gtnh.quest1678.desc=量子处理器是您在单一工艺中制造EV电路的第一次机会.
 
 #Quest_1679.Qbit Wafer and Chip
-gtnh.quest1679.name=Qbit晶圆和芯片
-gtnh.quest1679.desc=Qbit晶圆由Nano CPU晶圆和量子眼制成. 切换为Qbit处理机芯片.需要洁净室.
+gtnh.quest1679.name=Qbit晶元和芯片
+gtnh.quest1679.desc=Qbit晶元由Nano CPU晶元和量子眼制成. 切换为Qbit处理器芯片.需要洁净室.
 
 #Quest_1680.Thought emitters were bad enough?
 gtnh.quest1680.name=思想发射机还不够糟糕？
@@ -6738,7 +6738,7 @@ gtnh.quest1683.desc=LuV电路组装机非常好,为您提供更便宜的高压�
 
 #Quest_1684.Cheaper HV circuits
 gtnh.quest1684.name=更便宜的高压电路
-gtnh.quest1684.desc=现在,您可以通过一个简单的步骤制作纳米电路. 他们花费了新的晶圆,即ASoC晶圆. 它们在zpm中更有用,可以制造更便宜的EV电路.
+gtnh.quest1684.desc=现在,您可以通过一个简单的步骤制作纳米电路. 他们花费了新的晶元,即ASoC晶元. 它们在zpm中更有用,可以制造更便宜的EV电路.
 
 #Quest_1685.ASoc Advanced System on a chip
 gtnh.quest1685.name=ASoc芯片级的高级系统
@@ -6758,7 +6758,7 @@ gtnh.quest1688.desc=Elite电路板需要纤维增强板,铂箔和硫酸来制造
 
 #Quest_1689.LuV Laser Engraver
 gtnh.quest1689.name=LuV激光雕刻机
-gtnh.quest1689.desc=LuV激光雕刻机是后期电路生产的重要组成部分. 您需要为湿件和晶体处理机制造晶体CPU,这是更便宜的IV电路.
+gtnh.quest1689.desc=LuV激光雕刻机是后期电路生产的重要组成部分. 您需要为湿件和晶体处理器制造晶体CPU,这是更便宜的IV电路.
 
 #Quest_1690.Tier 6 > Tier 7
 gtnh.quest1690.name=第六阶奖励>第七阶奖励.
@@ -6774,19 +6774,19 @@ gtnh.quest1692.desc=我们还需要硝化搅拌物. 我们可以用硝酸和硫�
 
 #Quest_1693.2-Nitrochlorobenzene
 gtnh.quest1693.name=2-硝基氯苯
-gtnh.quest1693.desc=下一步是在硝化化学反应机中将硝化搅拌物与氯苯搅拌,得到2-硝基氯苯.
+gtnh.quest1693.desc=下一步是在硝化化学反应釜中将硝化搅拌物与氯苯搅拌,得到2-硝基氯苯.
 
 #Quest_1694.3,3 Dichlorobenzidine
 gtnh.quest1694.name=3,3二氯联苯胺
-gtnh.quest1694.desc=将2-硝基氯苯与微小的铜粉搅拌,在EV化学反应机中得到3,3二氯联苯胺.
+gtnh.quest1694.desc=将2-硝基氯苯与微小的铜粉搅拌,在EV化学反应釜中得到3,3二氯联苯胺.
 
 #Quest_1695.3,3 Diaminobenzidine
 gtnh.quest1695.name=3,3 Diaminobenzidine
-gtnh.quest1695.desc=在IV化学反应机中将3,3二氯联苯胺与氨和锌搅拌,得到3,3-二氨基联苯胺.
+gtnh.quest1695.desc=在IV化学反应釜中将3,3二氯联苯胺与氨和锌搅拌,得到3,3-二氨基联苯胺.
 
 #Quest_1696.IV Chemical reactor
-gtnh.quest1696.name=IV化学反应机
-gtnh.quest1696.desc=高级化学配方需要高级iv化学反应机.
+gtnh.quest1696.name=IV化学反应釜
+gtnh.quest1696.desc=高级化学配方需要高级iv化学反应釜.
 
 #Quest_1697.Polybenzimidazole finally
 gtnh.quest1697.name=最后是聚苯并咪唑
@@ -6794,7 +6794,7 @@ gtnh.quest1697.desc=3,3二氨基联苯胺和二苯基异酞酸盐最终会给你
 
 #Quest_1698.Diphenyl Isophtalate
 gtnh.quest1698.name=二苯基异酞酸盐
-gtnh.quest1698.desc=搅拌硫酸,邻苯二甲酸和苯酚得到间苯二甲酸二苯酯. 需要IV化学反应机.
+gtnh.quest1698.desc=搅拌硫酸,邻苯二甲酸和苯酚得到间苯二甲酸二苯酯. 需要IV化学反应釜.
 
 #Quest_1699.Phenol
 gtnh.quest1699.name=苯酚
@@ -6802,15 +6802,15 @@ gtnh.quest1699.desc=您可以通过不同的方式获得苯酚,但为什么不�
 
 #Quest_1700.Phtalic acid
 gtnh.quest1700.name=邻苯二甲酸
-gtnh.quest1700.desc=要获得邻苯二甲酸,您需要在EV化学反应机中搅拌二甲苯,微量重铬酸钾和氧气.
+gtnh.quest1700.desc=要获得邻苯二甲酸,您需要在EV化学反应釜中搅拌二甲苯,微量重铬酸钾和氧气.
 
 #Quest_1701.Dimethylbenzene
 gtnh.quest1701.name=二甲苯
-gtnh.quest1701.desc=二甲苯可以从Wood Tar蒸馏或在化学反应机中使用苯和甲烷气体蒸馏.
+gtnh.quest1701.desc=二甲苯可以从Wood Tar蒸馏或在化学反应釜中使用苯和甲烷气体蒸馏.
 
 #Quest_1702.Potassium Dichromate
 gtnh.quest1702.name=重铬酸钾
-gtnh.quest1702.desc=重铬酸钾由HV化学反应机中的硝酸钾和二氧化铬制成.
+gtnh.quest1702.desc=重铬酸钾由HV化学反应釜中的硝酸钾和二氧化铬制成.
 
 #Quest_1703.Potassium Nitrate
 gtnh.quest1703.name=硝酸钾
@@ -6821,20 +6821,20 @@ gtnh.quest1704.name=三氧化铬
 gtnh.quest1704.desc=铬氧化物分两步由铬和氧制成. 首先,你制造铬,然后制造三氧化二铬.
 
 #Quest_1705.Quantum Processor
-gtnh.quest1705.name=量子处理机
-gtnh.quest1705.desc=量子处理机是一个IV电路. 需要超净间.
+gtnh.quest1705.name=量子处理器
+gtnh.quest1705.desc=量子处理器是一个IV电路. 需要超净间.
 
 #Quest_1706.Master Quantum Computer
 gtnh.quest1706.name=掌握量子计算机
 gtnh.quest1706.desc=量子计算机是一个LuV电路,需要一个洁净室.
 
 #Quest_1707.Quantum Processor Mainframe
-gtnh.quest1707.name=量子处理机主机
-gtnh.quest1707.desc=量子处理机主机是您可以制作的第一个ZPM电路.
+gtnh.quest1707.name=量子处理器主机
+gtnh.quest1707.desc=量子处理器主机是您可以制作的第一个ZPM电路.
 
 #Quest_1708.Crystalprocessor Assembly
-gtnh.quest1708.name=晶体处理机
-gtnh.quest1708.desc=晶体处理机组件是LuV电路. 需要洁净室.
+gtnh.quest1708.name=晶体处理器
+gtnh.quest1708.desc=晶体处理器组件是LuV电路. 需要洁净室.
 
 #Quest_1709.Ultimate Crystal Computer
 gtnh.quest1709.name=晶体电脑
@@ -6850,7 +6850,7 @@ gtnh.quest1711.desc=无损32768 EU IV电线怎么样？ Tetraindiumditindibarium
 
 #Quest_1712.Cheaper LV circuits
 gtnh.quest1712.name=廉价的低压电路
-gtnh.quest1712.desc=使用IV电路组装机和SoC,您现在可以以更低的价格制造微处理机.
+gtnh.quest1712.desc=使用IV电路组装机和SoC,您现在可以以更低的价格制造微处理器.
 
 #Quest_1713.Simple SoC - System on a chip
 gtnh.quest1713.name=简单的SoC-芯片级的系统
