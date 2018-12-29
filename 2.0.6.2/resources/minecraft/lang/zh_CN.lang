@@ -849,8 +849,8 @@ gtnh.quest211.name=第四阶段的墙和栅栏
 gtnh.quest211.desc=再一次升级你的墙壁和栅栏.
 
 #Quest_212.Pulverize the Moon
-gtnh.quest212.name=粉碎月亮
-gtnh.quest212.desc=就是字面的意思. 你可以吧大部分的行星岩石扔到研磨机里面打碎,这些被打碎的粉通过离心有一定几率产出很多有用的金属. 这并不需要很多的能量,但是我确信可以帮助到你.
+gtnh.quest212.name=粉碎月球
+gtnh.quest212.desc=就是字面的意思. 你可以把大部分的行星岩石扔到研磨机里面打碎,这些被打碎的粉通过离心有一定几率产出很多有用的金属. 这并不需要很多的能量,但是我确信可以帮助到你.
 
 #Quest_213.Tier 6
 gtnh.quest213.name=第6阶段
@@ -1638,7 +1638,7 @@ gtnh.quest408.desc=很难看到你的祭坛里有多少血,或者你的个人有
 
 #Quest_409.Basic rune
 gtnh.quest409.name=基础符文
-gtnh.quest409.desc=你需要8个符文用于你的第2层祭坛,它可以容纳更多的血液,现在你可以制作新的配方.
+gtnh.quest409.desc=你需要8个符文用于你的第2阶祭坛,它可以容纳更多的血液,现在你可以制作新的配方.
 
 #Quest_410.Alchemy with blood
 gtnh.quest410.name=血炼金术
@@ -3246,7 +3246,7 @@ gtnh.quest810.desc=在经过数小时的辛勤努力,你的1阶火箭终于已�
 
 #Quest_811.Tier 1 Schematic
 gtnh.quest811.name=第1阶段:图纸
-gtnh.quest811.desc=制造每个火箭都需要严谨的计划.你可以用工作站芯片和压缩钢板制作一个火箭的制造原理图.
+gtnh.quest811.desc=制造每个火箭都需要严谨的计划.你可以用工作站芯片和压缩钢板制作一个火箭的制造设计图.
 
 #Quest_812.Tier 1 Heavy Duty Plates
 gtnh.quest812.name=第1阶段:重型防护板
@@ -3262,7 +3262,7 @@ gtnh.quest814.desc=每一个火箭都需要一些火箭尾鳍.
 
 #Quest_815.Rocket Engine
 gtnh.quest815.name=火箭引擎
-gtnh.quest815.desc=每一个火箭都需要一台引擎.制作2台1阶火箭引擎,因为到达月球时着陆机也需要一个.
+gtnh.quest815.desc=每一个火箭都需要一台引擎.制作2台1阶火箭引擎,因为到达月球时着陆器也需要一个.
 
 #Quest_816.Moon Lander
 gtnh.quest816.name=登录月球
@@ -3270,11 +3270,11 @@ gtnh.quest816.desc=登录月球应该实现软着陆. 因此你需要一个频�
 
 #Quest_817.Buggy Seat
 gtnh.quest817.name=车座
-gtnh.quest817.desc=着陆机和月球车上面都需要车座才可以.
+gtnh.quest817.desc=着陆器和月球车上面都需要车座才可以.
 
 #Quest_818.Frequency Module
 gtnh.quest818.name=频率模块
-gtnh.quest818.desc=频率模块可以帮助你在宇宙中正常的听见声音.(如果你是和你的朋友一起玩的话,你可以将它和遥感装置一起使用,这样你的朋友可以在基地里看到你的位置.) 你的装备栏和着陆机需要使用它.
+gtnh.quest818.desc=频率模块可以帮助你在宇宙中正常的听见声音.(如果你是和你的朋友一起玩的话,你可以将它和遥感装置一起使用,这样你的朋友可以在基地里看到你的位置.) 你的装备栏和着陆器需要使用它.
 
 #Quest_819.Small Fuel Canister
 gtnh.quest819.name=小型燃料罐
@@ -5618,87 +5618,87 @@ gtnh.quest1403.desc=如果你决定在高压阶段使用蒸汽,那么就该建�
 
 #Quest_1404.Superconductors 128 eu/t
 gtnh.quest1404.name=MV超导
-gtnh.quest1404.desc=无损的128eu MV电线怎么样？ Pentacadmiummaghexaoxide是一种超导体导线,可以毫无损失地传递能量. 现在,每个电压都有超导线和基线,损耗很小.在搅拌机中搅拌镉,镁和氧. 接下来的基础粉需要带有Kanthal线圈的EBF. 还需要真空冷冻机来冷却它. 制作一些MV超导体基础电线并使用组装机将这些电线与氮气,氦气,不锈钢管和高压泵组合在一起,以获得128eu/t超导体电线.
+gtnh.quest1404.desc=无损的MV超导导线怎么样？ MV超导是一种超导材料,可以毫无损失地传递能量. 现在,每个电压都有超导线和粗胚,损耗很小.在搅拌机中搅拌镉,镁和氧. 接下来的粗胚粉需要带有坝塔尔合金线圈的电力高炉(EBF). 还需要真空冷冻机来冷却它. 制作一些MV超导粗胚导线并使用组装机将这些导线与氮,氦,不锈钢流体管道和高压泵组合在一起,以获得128eu/t的超导导线.
 
 #Quest_1405.Superconductors 512 eu/t
 gtnh.quest1405.name=HV超导
-gtnh.quest1405.desc=无损512 EU HV线如何？ Titaniumonabariumdecacoppereikosaoxide是一种超导体导线,可以毫无损失地转移你的能量. 现在每个电压都有一根超导线和一根基本线,损耗非常小. 在高压搅拌机中搅拌使用钛,钡,铜和氧. 接下来,基地需要带有镍铬合金线圈的EBF. 还需要真空冷冻机来冷却它. 制作一些HV超导体基础电线并使用组装商将这些电线与氮气,氦气,钛管和EV泵组合在一起,以获得512eu/t的超导体电线.
+gtnh.quest1405.desc=无损的HV超导导线如何？ HV超导是一种超导材料,可以毫无损失地传递你的能量. 现在每个电压都有超导线和粗胚,损耗非常小. 在高压搅拌机中搅拌钛,钡,铜和氧. 接下来,粗胚粉需要带有镍铬合金线圈的电力高炉(EBF). 还需要真空冷冻机来冷却它. 制作一些HV超导粗胚导线并使用组装机将这些导线与氮,氦,钛流体管道和EV泵组合在一起,以获得512eu/t的超导导线.
 
 #Quest_1406.EV Assembler
 gtnh.quest1406.name=EV组装机
-gtnh.quest1406.desc=(一个)ev组装机是制作兰波顿水晶的必需品.其余配方的工作速度是HV组装机的两倍
+gtnh.quest1406.desc=(一个)EV组装机是制作兰波顿水晶的必需品.其余配方的工作速度是HV组装机的两倍.
 
 #Quest_1407.EV Laser Engraver
-gtnh.quest1407.name=EV 激光蚀刻机
-gtnh.quest1407.desc=制造量子晶体需要EV精密蚀刻机. 其他配方的速度是HV精密激光机的两倍.
+gtnh.quest1407.name=EV精密激光蚀刻机
+gtnh.quest1407.desc=制造量子晶体需要EV精密激光蚀刻机. 其他配方的速度是HV精密激光蚀刻机的两倍.
 
 #Quest_1408.Superconductors 2048 eu/t
 gtnh.quest1408.name=EV超导
-gtnh.quest1408.desc=无损的2048EU EV电线怎么样？ 铀三吡啶是一种超导体导线,可以毫无损失地传递能量. 现在每个电压都有一根超导线和一根损耗非常小的基线.在高压搅拌机中搅拌铀238和铂. 接下来,基地需要带有Tungstensteel线圈的EBF. 还需要真空冷冻机来冷却它. 制作一些EV Superconductor基础电线并使用组装商将这些电线与氮气,氦气,Tungstensteel管道和IV泵组合在一起,以获得2048eu/t超导体电线.
+gtnh.quest1408.desc=无损的EV超导导线怎么样？ EV超导是一种超导材料,可以毫无损失地传递能量. 现在每个电压都有超导线和损耗非常小的超导粗胚. 在高压搅拌机中搅拌铀238和铂. 接下来,粗胚粉需要带有钨钢线圈的电力高炉(EBF). 还需要真空冷冻机来冷却它. 制作一些EV超导粗胚导线并使用组装机将这些导线与氮,氦,钨钢流体管道和IV泵组合在一起,以获得2048eu/t超导导线.
 
 #Quest_1409.Superconductors 8192 eu/t
 gtnh.quest1409.name=IV超导
-gtnh.quest1409.desc=无损8192 EU IV电线怎么样？ 钒三嗪是一种超导体导线,可以毫无损失地传递能量. 现在每个电压都有超导线和只有极小EU / t损耗的基线. 在高压搅拌机中搅拌钒和铟. 现在你有基尘,它需要一个带有HSS-G线圈的EBF,还有一个真空冷冻机来冷却它. 制造一些IV超导体基线并使用组装机将这些线与氮,氦和铌钛管组合在一起和一个电动泵,以获得你的8192EU/t超导线.
+gtnh.quest1409.desc=无损的IV超导导线怎么样？ IV超导是一种超导材料,可以毫无损失地传递能量. 现在每个电压都有超导线和只有极小损耗的超导粗胚. 在高压搅拌机中搅拌钒和铟. 现在你有了粗胚粉,它需要一个带有HSS-G线圈的电力高炉(EBF),还有一个真空冷冻机来冷却它. 制造一些IV超导粗胚导线并使用组装机将这些线与氮,氦和铌钛流体管道和LuV泵组合在一起,以获得你的8192EU/t超导导线.
 
 #Quest_1410.IV Mixer
 gtnh.quest1410.name=IV搅拌机
-gtnh.quest1410.desc=需要IV搅拌机来搅拌铌钛和钒镓粉尘. 其他配方比使用EV搅拌机快两倍.
+gtnh.quest1410.desc=需要IV搅拌机来搅拌铌钛和钒镓粉. 其他配方比使用EV搅拌机快两倍.
 
 #Quest_1411.Some rare high tier metals
 gtnh.quest1411.name=一些罕见的高级金属
-gtnh.quest1411.desc=在与硝酸的某些化学反应过程中,可以得到小堆的铂,钯,铱和锇. 你现在没有技术来处理它,但是后来你需要大量的技术. 你现在可以开始收集一些粉并稍后处理.
+gtnh.quest1411.desc=在与硝酸的某些化学反应过程中,可以得到小堆的铂,钯,铱和锇. 你现在没有技术来处理它,但是以后你需要大量的这些金属. 你现在可以开始收集一些粉并稍后处理.
 
 #Quest_1412.Assembling Line
 gtnh.quest1412.name=装配线
-gtnh.quest1412.desc=装配线(简称'Ass Line')是一个多方块机器,对于LuV级及以上的高级组件非常重要,适用于电机,活塞,机械臂,泵等等. 装配线可长5-16块.所需的最小长度取决于其制作的配方所需的组件和流体的数量. 11个格的长度将适合GTNH中所有配方的80％.底层必须在一个外侧具有所有输入舱口(4),在底部中间层输入总线用于物品(10),以及末端1个输出总线.底部外层也必须是一个维护舱口.其余的是脱氧钢机械方块. 左侧和右侧外侧的第二层是钢化玻璃,中间是装配线方块. 第三层有左右格栅机方块和中间装配线外壳.装配线的控制器方块和数据访问舱位于输入舱口的相对边缘 - 而不是输出总线的末端. 第四层是中间的单线脱氧钢机械方块,用一个能源仓供电.
+gtnh.quest1412.desc=装配线(简称'Ass Line')是一个多方块机器,对于LuV级及以上的高级组件非常重要,适用于马达,活塞,机械臂,泵等等. 装配线可长5-16块.所需的最小长度取决于其制作的配方所需的组件和流体的数量. 11个格的长度将适合GTNH中80%的配方. 底层必须在某一外侧具有所有输入仓口(4),在底部中间层输入总线用于物品(10),以及末端1个输出总线.底部外层也必须是一个维护仓.其余的是脱氧钢机械方块. 左侧和右侧外侧的第二层是防爆玻璃,中间是装配线方块. 第三层有左右格栅机械方块和中间装配线外壳.装配线的控制器方块和数据访问舱位于输入仓的相对边缘--而不是输出总线的末端. 第四层是中间的单线脱氧钢机械方块,用一个能源仓供电.
 
 #Quest_1413.You gonna hate this 1-4 in IV
-gtnh.quest1413.name=在IV你会讨厌这1-4
+gtnh.quest1413.name=在IV你会讨厌之1-4
 gtnh.quest1413.desc=泵,活塞,传送带和机械臂是IV中最需要的机器部件. 去制作其中一个.
 
 #Quest_1414.You gonna hate this 5 and 6 in IV
-gtnh.quest1414.name=在IV中你会讨厌这个5和6
+gtnh.quest1414.name=在IV中你会讨厌之5和6
 gtnh.quest1414.desc=一些机器需要发射器和传感器,比如说扫描仪或者电路组装机.
 
 #Quest_1415.Scheelite, Tungstate Mars Moons
-gtnh.quest1415.name=白钨矿,Tungstate Mars Moons
-gtnh.quest1415.desc=Tungstensteel是你需要的材料,但首先要在火星月亮Deimos上找到一些白钨矿和钨酸盐搅拌物. 看看Y=20-60.
+gtnh.quest1415.name=火卫二上的白钨矿,钨酸盐
+gtnh.quest1415.desc=钨钢是你需要的材料,但首先要在火卫二上找到一些白钨矿和钨酸盐矿脉. 看看Y=20-60.
 
 #Quest_1416.Mallard Rust Smelly
-gtnh.quest1416.name=野鸭生锈臭臭
-gtnh.quest1416.desc=或者是合金冶炼炉？ 嗯,这更有意义. 这种多块产生了更先进的GT++多块所需的更高层合金. 它直接熔炼成液体.
+gtnh.quest1416.name=野鸭生锈臭臭(Mallard Rust Smelly)
+gtnh.quest1416.desc=或者是合金冶炼炉(Alloy Blast Smelter)？ 嗯,这更有意义. 这个多方块可以生产更先进的GT++多方块所需的更高级合金. 它直接将金属熔炼成液体.
 
 #Quest_1417.Cough cough - Something needs to be done about the smell
-gtnh.quest1417.name=咳嗽咳嗽 - 需要对气味做些什么
-gtnh.quest1417.desc=鸟儿从天而降,鱼死了,在河里漂浮着肚子,酸雨融化在地上......时间开始捡垃圾,清理空气. 小型钢制涡轮机现在应该没问题. 你需要两安培的稳定功率来保持洗涤机工作.
+gtnh.quest1417.name=咳嗽咳嗽 - 需要处理下污染了！
+gtnh.quest1417.desc=鸟儿从天坠落,鱼在河里翻着肚皮,酸雨融化了地面......是时候开始捡垃圾,清理空气了. 小型钢制涡轮机现在应该没问题. 你需要两安培的稳定电流来保持污染清洗机工作.
 
 #Quest_1418.EU packets flowing everywhere...
 gtnh.quest1418.name=电流的到处都是
-gtnh.quest1418.desc=...在我的梦里. 如果不是每个发电机上都装有电池组,我们可以将所有发电机组集中在一个位置怎么办？ 把它放在基地的旅行部分？ 出国在哪个地方？ 让动物处理污染. 无论如何,让我们开始在能源站上工作以存储EU并将其交付给我们的基地.
+gtnh.quest1418.desc=...在我的梦里. 每个发电机上都装有电池组,我们可以将所有发电机组集中在一个位置？ 把它放在基地里远离活动范围的部分？ 然后出门离开？ 让动物面对污染去吧. 无论如何,让我们开始在能源站方面的工作,以存储EU并供给我们的基地.
 
 #Quest_1419.Who cares about a little cancer...
 gtnh.quest1419.name=谁在乎一点癌症...
-gtnh.quest1419.desc=...当它意味着你不必脱光衣服为你的纳米服装充电？ 无线充电器可以让你的装甲和工具充电,而无需将其放入电池缓冲区. 它将在等级及以下收取装甲和工具. 你还是不想要孩子......
+gtnh.quest1419.desc=...它意味着你不必脱光衣服为你的纳米套装充电？ 无线充电器可以为你的装甲和工具充电(等于或小于充电器的电压等级),而无需将其放入电池缓冲区. 你还是不想要孩子......
 
 #Quest_1420.Shake that booty...
-gtnh.quest1420.name=摇晃那个战利品......
-gtnh.quest1420.desc=......来自纯化的矿石. 无论如何,大筛子会显着提高筛分率. 你将如何处理所有这些宝石？
+gtnh.quest1420.name=摇起来......
+gtnh.quest1420.desc=......来自洗净的矿石. 无论如何,工业筛选机会显著提高筛分率. 你将如何处理所有这些宝石？
 
 #Quest_1421.Hulk Smash!
-gtnh.quest1421.name=绿巨人粉碎！
-gtnh.quest1421.desc=大规模杀伤！ 或者至少,有很多很多粉碎的矿石. 建立一个浸渍堆栈,以跟上你获得的所有矿石.
+gtnh.quest1421.name=绿巨人重拳粉碎！
+gtnh.quest1421.desc=大规模破坏！ 或者至少,可以粉碎很多很多的矿石. 建造一个工业粉碎机,以处理你获得的所有矿石.
 
 #Quest_1422.The rocks in the washer...
-gtnh.quest1422.name=洗衣机里的矿石......
-gtnh.quest1422.desc=......一整天都是圆满的. 一个大型的洗矿厂让你的矿石变得干净整洁.
+gtnh.quest1422.name=洗矿厂里的矿石......
+gtnh.quest1422.desc=......周而复始,24小时运作. 一个大型的洗矿厂让你的矿石变得干净整洁.
 
 #Quest_1423.Dancing in circles
 gtnh.quest1423.name=在圈子里跳舞
-gtnh.quest1423.desc=旋转,变热 - 听起来像一个舞蹈. 或热离心机. 建造一个工业热力精炼厂,以充分利用你的矿石. 只要你有至少8个热处理外壳,你可以使用噪音危险标志代替热处理外壳.
+gtnh.quest1423.desc=旋转,变热--听起来像一个舞蹈. 或是热力离心机. 建造一个工业热力精炼厂,以充分利用你的矿石. 只要你有至少8个热处理机械方块,你可以使用噪音危险标志代替热处理机械方块.
 
 #Quest_1424.Find Titanium
-gtnh.quest1424.name=找钛
-gtnh.quest1424.desc=如果你很幸运,你会发现一个纯钛矿石,使这个过程更容易.钛可以在月球上找到Y级10-70.
+gtnh.quest1424.name=寻找钛
+gtnh.quest1424.desc=如果你很幸运,你会发现一种纯钛矿石,使处理过程更容易. 钛可以在月球上找到Y=10-70.
 
 #Quest_1425.Calculation processor
 gtnh.quest1425.name=运算处理器
@@ -5706,35 +5706,35 @@ gtnh.quest1425.desc=你可以用硬币购买一些运算处理器
 
 #Quest_1426.Find some Meteoric Iron
 gtnh.quest1426.name=找一些陨铁
-gtnh.quest1426.desc=要达到像火星或它的卫星Phobos和Deimos这样的二级行星,你需要一个更好的火箭. 你的下一个目标是需要陨铁的二级火箭板. 你会在地表下找到小型的陨铁矿石,或者你可以挖掘表面上的陨石. 用你的耳朵听他们的影响.
+gtnh.quest1426.desc=要达到像火星或它的卫星火卫一和火卫二这样的二级行星,你需要一个更好的火箭. 你的下一个目标需要陨铁制作2阶火箭重型板. 你会在地表下找到小型的陨铁矿石,或者你可以挖掘表面上的陨石. 用你的耳朵听他们的碰撞声.
 
 #Quest_1427.Tier 2 Heavy Duty Plates
-gtnh.quest1427.name=第2层重型板
-gtnh.quest1427.desc=火箭队需要主体重型板. 让我们用1层板和流星铁板制作10层2重型板.
+gtnh.quest1427.name=2阶重型板
+gtnh.quest1427.desc=火箭需要重型板作为主箭体. 让我们用一阶重型板和陨铁板制作10个2阶重型板吧.
 
 #Quest_1428.Tier 2 Schematic
-gtnh.quest1428.name=2阶火箭原理图
-gtnh.quest1428.desc=每枚火箭都需要一个施工计划. 在高压扫描仪中扫描并将结构数据放在数据棒上. 2级火箭使用精英电路,重装板,以及ev电路组装机中的数据棒.
+gtnh.quest1428.name=2阶火箭设计图
+gtnh.quest1428.desc=每枚火箭都需要一个建造方案. 在高压扫描仪中扫描并将结构数据放在闪存上. 2阶火箭使用精英电路板,重型板,以及ev电路组装机中的闪存.
 
 #Quest_1429.Rocket Tier 2
-gtnh.quest1429.name=火箭队2级
-gtnh.quest1429.desc=经过数小时的努力和大量的iTNT,你的第二枚火箭终于准备好了. 但在你去火星之前,你需要再制作一些东西.
+gtnh.quest1429.name=2阶火箭
+gtnh.quest1429.desc=经过数小时的努力和大量的工业TNT,你的第二枚火箭终于准备好了. 但在你去火星之前,你需要再制作一些东西.
 
 #Quest_1430.Recycle your rocket and save the Environment
-gtnh.quest1430.name=回收你的火箭并保存环境
-gtnh.quest1430.desc=为什么不回收旧的1级火箭来获得新的2级火箭的组件？ 将旧火箭放入电弧炉或等离子弧炉中以取回大量材料.
+gtnh.quest1430.name=回收你的火箭并保护环境
+gtnh.quest1430.desc=为什么不回收旧的1阶火箭来获得新的2阶火箭的组件？ 将旧火箭放入电弧炉或等离子电弧炉中以回收大量材料.
 
 #Quest_1431.Booster
-gtnh.quest1431.name=加速机
-gtnh.quest1431.desc=火星和地球之间的距离远远大于月球,因此火箭需要助推机才能到达它.
+gtnh.quest1431.name=助推器
+gtnh.quest1431.desc=火星和地球之间的距离远远大于月球,因此火箭需要助推器才能到达它.
 
 #Quest_1432.Mars Lander
 gtnh.quest1432.name=火星着陆器
-gtnh.quest1432.desc=软着陆器是软着陆所必需的.将月球着陆器放在降落伞上并用气囊包围 - 这样就可以了. 你希望. 提示:有时你不能抢劫或破坏着陆机. 尝试将漏斗放在下方抽出物品.
+gtnh.quest1432.desc=软着陆器是软着陆所必需的.将月球着陆器放在降落伞上并用气囊包围-这样就可以了,你希望. 提示:有时你不能右键或破坏着陆器. 尝试将漏斗放在下方抽出物品.
 
 #Quest_1433.Moon Dungeon
-gtnh.quest1433.name=月亮地牢
-gtnh.quest1433.desc=在寻找陨铁时,你会发现一个月亮地牢. 寻找一个不是陨石坑的深洞,它的底部不是月球石 - 它会告诉你通往地牢的路. 在你必须杀死月球BOSS之前去和几个怪物战斗. 如果你想要一个额外的2层原理图来换取月球车的原理图,那么它将在第2层火箭的原理图中放下箱子钥匙. 再次杀死月球BOSS.
+gtnh.quest1433.name=月球地牢
+gtnh.quest1433.desc=在寻找陨铁时,你会发现一个月球地牢. 寻找一个不是陨石坑的深洞,它的底部不是月岩--它会告诉你通往地牢的路. 在你见到月球BOSS之前你需要去和几个怪物战斗. 如果你想要一个额外的2阶设计图来换取月球车的设计图,那么它将在第2阶火箭的设计图中放下箱子钥匙. 再次杀死月球BOSS.
 
 #Quest_1434.Moon Patrol
 gtnh.quest1434.name=月球巡逻队
@@ -5742,11 +5742,11 @@ gtnh.quest1434.desc=在月球或其他行星表面上移动得更快会很有趣
 
 #Quest_1435.Moon Buggy Schematic
 gtnh.quest1435.name=月球越野车设计图
-gtnh.quest1435.desc=月亮车需要一个施工计划. 在高压扫描仪中扫描并将结构数据放在数据棒上. 月亮越野车电路使用EV层电路,重型板层1,以及ev电路组装机中的数据棒.
+gtnh.quest1435.desc=月球车需要一个施工计划. 在高压扫描仪中扫描并将结构数据放在数据棒上. 月球越野车电路使用EV层电路,重型板层1,以及ev电路组装机中的数据棒.
 
 #Quest_1436.Fueling your Buggy
 gtnh.quest1436.name=加油你的越野车
-gtnh.quest1436.desc=月亮车需要汽油才能工作. 构建一个3x3加油垫,将其与燃料装载机连接,并将马车放在上面.
+gtnh.quest1436.desc=月球车需要汽油才能工作. 构建一个3x3加油垫,将其与燃料装载机连接,并将马车放在上面.
 
 #Quest_1437.Bigger Oxygen Tanks
 gtnh.quest1437.name=更大的氧气罐
@@ -5781,19 +5781,19 @@ gtnh.quest1444.name=压缩的泰坦护甲
 gtnh.quest1444.desc=压缩的泰坦装甲比压缩钢装甲更耐用.
 
 #Quest_1445.Moon Day and Night time
-gtnh.quest1445.name=月亮白天和黑夜时间
-gtnh.quest1445.desc=月亮的昼夜周期为2小时40分钟,相当于8个冥界天,它与冥界中的月相相关联. 月亮上的白天从满月持续到下一个新月(4个世界日,相当于1小时20分钟),从逻辑上讲,夜晚从新月持续到下一个满月. 自第一个Overworld之夜起 满月,你可以安全降落在前4天的Overworld日,然后接下来的4个Overworld日更危险,因为敌对的怪物将能够在黑暗中产卵,等等. 如果你计算错误,月相可以告诉你白天或白天的月亮. 满月是月亮日的开始,新的(或黑暗的)月亮是月亮之夜的开始. 在夜间,环境光线水平变得非常低,允许敌对的怪物在地面上产卵.
+gtnh.quest1445.name=月球白天和黑夜时间
+gtnh.quest1445.desc=月球的昼夜周期为2小时40分钟,相当于8个冥界天,它与冥界中的月相相关联. 月球上的白天从满月持续到下一个新月(4个世界日,相当于1小时20分钟),从逻辑上讲,夜晚从新月持续到下一个满月. 自第一个Overworld之夜起 满月,你可以安全降落在前4天的Overworld日,然后接下来的4个Overworld日更危险,因为敌对的怪物将能够在黑暗中产卵,等等. 如果你计算错误,月相可以告诉你白天或白天的月球. 满月是月球日的开始,新的(或黑暗的)月球是月球之夜的开始. 在夜间,环境光线水平变得非常低,允许敌对的怪物在地面上产卵.
 
 #Quest_1446.Mars Dungeon
 gtnh.quest1446.name=火星地牢
-gtnh.quest1446.desc=几小时后你会发现一个火星地牢. 一个大洞将告诉你通往地牢的路. 在你必须杀死Boss Monster之前去和一些小怪打架. 它将为三层火箭的原理图放下箱子钥匙.如果你需要astro矿工或货物火箭的原理图,杀死另一个Boss Monster并交换原理图.
+gtnh.quest1446.desc=几小时后你会发现一个火星地牢. 一个大洞将告诉你通往地牢的路. 在你必须杀死Boss Monster之前去和一些小怪打架. 它将为三层火箭的设计图放下箱子钥匙.如果你需要astro矿工或货物火箭的设计图,杀死另一个Boss Monster并交换设计图.
 
 #Quest_1447.Astro Miner Schematic
 gtnh.quest1447.name=Astro Miner Schematic
 gtnh.quest1447.desc=astro矿工需要一个施工计划. 在高压扫描仪中扫描并将结构数据放在数据棒上. astro矿工电路使用EV层电路和重型板层3和数据棒.
 
 #Quest_1448.Tier 3 Schematic
-gtnh.quest1448.name=第3层原理图
+gtnh.quest1448.name=第3层设计图
 gtnh.quest1448.desc=每枚火箭都需要一个施工计划. 在高压扫描仪中扫描并将结构数据放在数据棒上. 第三层示意电路使用精英电路和重型板层3以及iv电路组装机中的数据棒.
 
 #Quest_1449.Cargo Rocket Schematic
@@ -5814,7 +5814,7 @@ gtnh.quest1452.desc=要使用满载货物火箭,需要装备一个火箭发射�
 
 #Quest_1453.Tier 3 Heavy Duty Plates
 gtnh.quest1453.name=第3层重型板
-gtnh.quest1453.desc=火箭队需要主体重型板. 让我们用2层板和desh板制作42层3重型板.
+gtnh.quest1453.desc=火箭队需要主体重型板. 让我们用2阶板和desh板制作42层3重型板.
 
 #Quest_1454.Rocket Tier 3
 gtnh.quest1454.name=火箭队3级
@@ -5825,8 +5825,8 @@ gtnh.quest1455.name=福鲁伊克斯水晶
 gtnh.quest1455.desc=你可以用硬币购买一些福鲁伊克斯水晶
 
 #Quest_1456.Tier 3 Lander
-gtnh.quest1456.name=第3层着陆机
-gtnh.quest1456.desc=软着陆需要Tier 3或Deep Space着陆机.将火星着陆机放在一个desh笼中.
+gtnh.quest1456.name=第3层着陆器
+gtnh.quest1456.desc=软着陆需要Tier 3或Deep Space着陆器.将火星着陆器放在一个desh笼中.
 
 #Quest_1457.Heavy Rocket Nose Cone
 gtnh.quest1457.name=重型火箭鼻锥
@@ -5978,7 +5978,7 @@ gtnh.quest1493.desc=LUV级. 你需要镀铬机器. 假设行星和卫星参观:I
 
 #Quest_1494.Stainless taking too long?
 gtnh.quest1494.name=不锈钢需要太长时间？
-gtnh.quest1494.desc=第二个高炉的时间！ 你可以通过3种方式更快地制造铸锭 - 更好的线圈,更高层次的能量舱口或增加更多的熔炉. 可能是时候向你的基地添加第二个EBF了. EBF可以共用墙壁和输入/输出舱口,但不能共用消声机或能量舱口. 请记住污染将非常高,同时有两个EBF活跃！请注意高污染效应. 使用最好的消声机,不要将EBF放在与农田或其他高污染机器(如热解炉和大型锅炉)相同的块中. 你可以使用你周围的任何线圈,但你可能想要开始搜索 对于Mica,如果你还没有找到.
+gtnh.quest1494.desc=第二个高炉的时间！ 你可以通过3种方式更快地制造铸锭 - 更好的线圈,更高层次的能量舱口或增加更多的熔炉. 可能是时候向你的基地添加第二个电力高炉(EBF)了. 电力高炉(EBF)可以共用墙壁和输入/输出舱口,但不能共用消声机或能量舱口. 请记住污染将非常高,同时有两个电力高炉(EBF)活跃！请注意高污染效应. 使用最好的消声机,不要将电力高炉(EBF)放在与农田或其他高污染机器(如热解炉和大型锅炉)相同的块中. 你可以使用你周围的任何线圈,但你可能想要开始搜索 对于Mica,如果你还没有找到.
 
 #Quest_1495.All alone in the night
 gtnh.quest1495.name=一个人在夜里
@@ -6098,11 +6098,11 @@ gtnh.quest1523.desc=难以找到一些基本矿石？ 在矿石探测棒中使�
 
 #Quest_1524.Better bolts
 gtnh.quest1524.name=更好的螺栓
-gtnh.quest1524.desc=更好的螺栓如果你使用的是MV并且具有EBF,则可以使用钒钢尖头制造新的螺栓. 你的敌人会竭尽全力颤抖. 在NEI下检查"fletching"是否有蹦蹦跳跳的选项. 很好的狩猎！
+gtnh.quest1524.desc=更好的螺栓如果你使用的是MV并且具有电力高炉(EBF),则可以使用钒钢尖头制造新的螺栓. 你的敌人会竭尽全力颤抖. 在NEI下检查"fletching"是否有蹦蹦跳跳的选项. 很好的狩猎！
 
 #Quest_1525.Best bolts?
 gtnh.quest1525.name=最好的螺栓？
-gtnh.quest1525.desc=你在月球上发现的流星铁,当通过EBF发送时,变成了这种惊人的流星钢,能够保持良好的边缘. 把一些放在一个能量合金工具杆上制作一个很棒的螺栓. 你的下一个螺栓,你必须弄清楚自己. 左边作为练习给读者.
+gtnh.quest1525.desc=你在月球上发现的流星铁,当通过电力高炉(EBF)发送时,变成了这种惊人的流星钢,能够保持良好的边缘. 把一些放在一个能量合金工具杆上制作一个很棒的螺栓. 你的下一个螺栓,你必须弄清楚自己. 左边作为练习给读者.
 
 #Quest_1526.Best crossbow?
 gtnh.quest1526.name=最好的弩？
@@ -6122,10 +6122,10 @@ gtnh.quest1529.desc=使用你的hv汇编程序,你可以制作一个世界锚.3x
 
 #Quest_1530.Ceres Dungeon
 gtnh.quest1530.name=Ceres Dungeon
-gtnh.quest1530.desc=几个小时后你会发现一个Ceres地牢. 一个大洞将告诉你通往地牢的路. 在你必须杀死Boss Monster之前去和一些小怪打架. 它将使用4级火箭的示意图放下箱子的钥匙. 这将打开行星金星和水星以及木星月亮.
+gtnh.quest1530.desc=几个小时后你会发现一个Ceres地牢. 一个大洞将告诉你通往地牢的路. 在你必须杀死Boss Monster之前去和一些小怪打架. 它将使用4级火箭的示意图放下箱子的钥匙. 这将打开行星金星和水星以及木星的卫星.
 
 #Quest_1531.Tier 4 Schematic
-gtnh.quest1531.name=第4层原理图
+gtnh.quest1531.name=第4层设计图
 gtnh.quest1531.desc=每枚火箭都需要一个施工计划. 在高压扫描仪中扫描并将结构数据放在数据棒上. 第四层示意电路使用精英电路和重型板层4以及数据棒在iv电路组装机中.
 
 #Quest_1532.Tier 4 Heavy Duty Plates
@@ -6670,7 +6670,7 @@ gtnh.quest1666.desc=要处理一些你会发现的新锭,你需要氩气. 你的
 
 #Quest_1667.Naquadah
 gtnh.quest1667.name=硅岩
-gtnh.quest1667.desc=在Ceres,你可以找到小的naquadah矿石. 既然你有粉和氩气,你可以制作一些naquadah锭.你的EBF需要HSS-G加热线圈.
+gtnh.quest1667.desc=在Ceres,你可以找到小的naquadah矿石. 既然你有粉和氩气,你可以制作一些naquadah锭.你的电力高炉(EBF)需要HSS-G加热线圈.
 
 #Quest_1668.HSSG
 gtnh.quest1668.name=HSS-G
@@ -6846,7 +6846,7 @@ gtnh.quest1710.desc=Crystalprocessor主机是你可以制作的第一个UV电路
 
 #Quest_1711.Superconductors 32768 eu/t
 gtnh.quest1711.name=32768 eu/t的超导
-gtnh.quest1711.desc=无损32768 EU IV电线怎么样？ Tetraindiumditindibariumtitaniumheheptacoppertetrakaidekaoxide是一种超导体导线,可以毫无损失地转移你的能量. 现在每个电压都有超导线和基线,EU / t损耗很小. 在EV混频机中搅拌铟,锡,钡,钽,铜和氧. 现在你有了基础粉,它需要一个带有Naquadah线圈的EBF,以及一个真空冷冻机来冷却它. 制造一些LuV超导体基线并使用组装机将这些线与氮气,氦气和微小的管道组合在一起. LuV泵用于获得32768 EU / t超导体电线.
+gtnh.quest1711.desc=无损32768 EU IV电线怎么样？ Tetraindiumditindibariumtitaniumheheptacoppertetrakaidekaoxide是一种超导体导线,可以毫无损失地转移你的能量. 现在每个电压都有超导线和基线,EU / t损耗很小. 在EV混频机中搅拌铟,锡,钡,钽,铜和氧. 现在你有了基础粉,它需要一个带有Naquadah线圈的电力高炉(EBF),以及一个真空冷冻机来冷却它. 制造一些LuV超导体基线并使用组装机将这些线与氮气,氦气和微小的管道组合在一起. LuV泵用于获得32768 EU / t超导体电线.
 
 #Quest_1712.Cheaper LV circuits
 gtnh.quest1712.name=廉价的低压电路
@@ -6862,7 +6862,7 @@ gtnh.quest1714.desc=NAND芯片是真空管的工业替代品,便宜得多.
 
 #Quest_1715.On your way to Tier 4 DIMs
 gtnh.quest1715.name=在前往Tier 4 DIM的路上
-gtnh.quest1715.desc=第4层行星是木星的月亮Io,在那里你会发现下一个地牢,金星(需要一个太空服)和水星.
+gtnh.quest1715.desc=第4层行星是木星的卫星Io,在那里你会发现下一个地牢,金星(需要一个太空服)和水星.
 
 #Quest_1716.Iridium Mix
 gtnh.quest1716.name=铱搅拌物
@@ -6901,7 +6901,7 @@ gtnh.quest1724.name=Tier 5重型板
 gtnh.quest1724.desc=火箭队需要主体重型板. 让我们用4层板和压缩量子板制作60层5重型板.
 
 #Quest_1725.Tier 5 Schematic
-gtnh.quest1725.name=第5层原理图
+gtnh.quest1725.name=第5层设计图
 gtnh.quest1725.desc=每枚火箭都需要一个施工计划. 在HV扫描仪中扫描并将结构数据放在数据棒上. 第四层示意电路使用精英电路和重型板层5以及LuV电路组装机中的数据棒.
 
 #Quest_1726.Rocket Tier 5
@@ -6925,8 +6925,8 @@ gtnh.quest1730.name=大型燃料罐
 gtnh.quest1730.desc=每个火箭都需要燃料储存罐. 对于5级火箭,你需要制作两个中型和两个大型火炮.
 
 #Quest_1731.Booster Tier 2
-gtnh.quest1731.name=助推机第2层
-gtnh.quest1731.desc=现在行星和月球之间的距离要大得多,因此火箭需要更大的助推机来达到它.
+gtnh.quest1731.name=2阶助推器
+gtnh.quest1731.desc=现在行星和月球之间的距离要大得多,因此火箭需要更大的助推器来达到它.
 
 #Quest_1732.EVA equipment
 gtnh.quest1732.name=EVA设备
@@ -6969,12 +6969,12 @@ gtnh.quest1741.name=好的虚空树
 gtnh.quest1741.desc=那里有一些非常有用的虚空树,它们提供了像红石,火药,骨粉或肥料等资源. 去了下面的一些树,如Bloodwood,Fusewood,Darkwood或Ghostwood. 这些树可以 像普通的树木一样种植.
 
 #Quest_1742.Helium 3 and Saltwater on Moon
-gtnh.quest1742.name=氦3和月亮上的咸水
-gtnh.quest1742.desc=月亮在氦3上很丰富，它已被数十亿年的太阳风嵌入月球的上层。  盐水也可以少量供应。 在地表下面有更多的行星和月球，气体和流体。
+gtnh.quest1742.name=氦3和月球上的咸水
+gtnh.quest1742.desc=月球在氦3上很丰富，它已被数十亿年的太阳风嵌入月球的上层。  盐水也可以少量供应。 在地表下面有更多的行星和月球，气体和流体。
 
 #Quest_1743.Saltwater and Chlorobenzene on Mars
 gtnh.quest1743.name=火星上的盐水和氯苯
-gtnh.quest1743.desc=火星富含盐水和氯苯。 如果yu低氯，你可以离心液体。   更多液体和气体可以在以下位置找到：   盐水   月亮 - v低 火星 - 低 欧罗巴 - 高        nHelium3     Moon - V.Low   Mercury - Low / High    Chlorobenzene     Mars - V.Low    Nitrogen     Triton - high   Pluto - high    Methane     Titan - 高   乙烷    Titan - 低   乙烯    Triton - 低   Callisto    氧气 - 低   超重油    Europa - low   BarnardC - high   TCetiE - low    Molten Naquadria     BarnardC - Low   VegaB - high    Molten Naquadha     Venus - V.Low   Titan - low   Haumea - 高   液体空气    Callisto- Low   Charon - Medium   BarnardE - High
+gtnh.quest1743.desc=火星富含盐水和氯苯。 如果yu低氯，你可以离心液体。   更多液体和气体可以在以下位置找到：   盐水   月球 - v低 火星 - 低 欧罗巴 - 高        nHelium3     Moon - V.Low   Mercury - Low / High    Chlorobenzene     Mars - V.Low    Nitrogen     Triton - high   Pluto - high    Methane     Titan - 高   乙烷    Titan - 低   乙烯    Triton - 低   Callisto    氧气 - 低   超重油    Europa - low   BarnardC - high   TCetiE - low    Molten Naquadria     BarnardC - Low   VegaB - high    Molten Naquadha     Venus - V.Low   Titan - low   Haumea - 高   液体空气    Callisto- Low   Charon - Medium   BarnardE - High
 
 #Quest_1744.Chemical lesson part two
 gtnh.quest1744.name=化学课第二部分
@@ -7058,7 +7058,7 @@ gtnh.quest1763.desc=好吧，你有你的电脑，它说“Hello World！”当�
 
 #Quest_1764.Basic Power Display
 gtnh.quest1764.name=基本电源显示
-gtnh.quest1764.desc=对于这一部分，我们将学习如何使用我们的适配器，将它放在旁边 - 比如你的EBF电池缓冲区并用电缆将它连接到计算机。 现在让我们在计算机上键入lua以打开LUA环境我们可以测试事物而不用担心保存和尝试我们的程序。 在'component.list（）'中输入这将显示一个包含组件中所有.list的表。我们正在寻找的是gt_batterybuffer。 如果附近有太多东西可能无法显示，搜索整个组件列表的方式对于初学者来说太先进了。 现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法。 我们在这个例子中将使用的是'getBatteryCharge'方法。因此输入\ n'a.getBatteryCharge（1）'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge。 因此，如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print（a.getBatteryCharge（i））end 目前你看看EU所有电池的价值。现在我们可以做些什么呢？ 尝试制作一个名为'batteryCharge = 0'的变量，现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge（i）end' 现在打印（ batteryCharge）将显示总电量。这是一个使用它的程序示例。 在你的磁带机中放置并键入“install”，然后按照提示将其安装到C中。然后编辑它，测试它，确定它是如何工作的。 我想这就足够了;恭喜！实验和学习，不要忘记尽可能多地检查谷歌！ 这个任务线将来会再次更新;但我认为现在这是一个很好的结局。 原文:For this part we will learn how to use our adapter,  place it next to- let's say your EBFs battery buffer and connect it to the computer with cables.\nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.\n\nType in 'component.list()'   this will display a table of all of .list from component.  What we're looking for is gt_batterybuffer.\nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.\n\nSo now assign a variable to it; for example 'a = component.gt_batterybuffer';  now we can call 'a' to see what methods the batteryBuffer has.\nWhat we'll be using in this example is the 'getBatteryCharge' method.  So type\n 'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.\n\n So if we're using a 2x2 battery buffer; we can type something like- 'for i=1, 4 do print(a.getBatteryCharge(i)) end\nPoof you now see what all the batteries EU values.  Now what can we do with this?\n\nTry making a variable called 'batteryCharge = 0',  now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'\n\nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.\n\nPlace in your tape drive and type 'install', and follow the promps to install it into C.  Then edit it, test it, figure how it works.\n\nI suppose that's enough for now; congrats!  Experiment and learn, and don't forget to check google as much as possible!  \nThis questline will be updated again in the future; but I figure this is a good ending point for now.
+gtnh.quest1764.desc=对于这一部分，我们将学习如何使用我们的适配器，将它放在旁边 - 比如你的电力高炉(EBF)电池缓冲区并用电缆将它连接到计算机。 现在让我们在计算机上键入lua以打开LUA环境我们可以测试事物而不用担心保存和尝试我们的程序。 在'component.list（）'中输入这将显示一个包含组件中所有.list的表。我们正在寻找的是gt_batterybuffer。 如果附近有太多东西可能无法显示，搜索整个组件列表的方式对于初学者来说太先进了。 现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法。 我们在这个例子中将使用的是'getBatteryCharge'方法。因此输入\ n'a.getBatteryCharge（1）'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge。 因此，如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print（a.getBatteryCharge（i））end 目前你看看EU所有电池的价值。现在我们可以做些什么呢？ 尝试制作一个名为'batteryCharge = 0'的变量，现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge（i）end' 现在打印（ batteryCharge）将显示总电量。这是一个使用它的程序示例。 在你的磁带机中放置并键入“install”，然后按照提示将其安装到C中。然后编辑它，测试它，确定它是如何工作的。 我想这就足够了;恭喜！实验和学习，不要忘记尽可能多地检查谷歌！ 这个任务线将来会再次更新;但我认为现在这是一个很好的结局。 原文:For this part we will learn how to use our adapter,  place it next to- let's say your EBFs battery buffer and connect it to the computer with cables.\nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.\n\nType in 'component.list()'   this will display a table of all of .list from component.  What we're looking for is gt_batterybuffer.\nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.\n\nSo now assign a variable to it; for example 'a = component.gt_batterybuffer';  now we can call 'a' to see what methods the batteryBuffer has.\nWhat we'll be using in this example is the 'getBatteryCharge' method.  So type\n 'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.\n\n So if we're using a 2x2 battery buffer; we can type something like- 'for i=1, 4 do print(a.getBatteryCharge(i)) end\nPoof you now see what all the batteries EU values.  Now what can we do with this?\n\nTry making a variable called 'batteryCharge = 0',  now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'\n\nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.\n\nPlace in your tape drive and type 'install', and follow the promps to install it into C.  Then edit it, test it, figure how it works.\n\nI suppose that's enough for now; congrats!  Experiment and learn, and don't forget to check google as much as possible!  \nThis questline will be updated again in the future; but I figure this is a good ending point for now.
 
 #Quest_1765.Online Shopping - Tier 1
 gtnh.quest1765.name=在线购物-第一阶
