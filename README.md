@@ -25,7 +25,7 @@
 
 `Kiwi`剩下的所有工作
 
-`Sky_Cat`任务书汉化
+`Sky_Cat`任务书初步汉化
 
 `huajijam`校对GregTech.lang、汉化GT++mod、汉化魔法蜜蜂魔导手册
 
@@ -35,6 +35,8 @@
 `anti`翻译GregTech.lang
 
 `Yesterday`汉化任务书及构建框架
+
+`TOCN`、`doctormdk`早期版本任务书汉化
 
 另外，由于许多汉化都是在模组自带汉化基础上完善的，所以无法得知作者，只能在此一并感谢所有为汉化工作作出过贡献的人们！
 
