@@ -206,7 +206,7 @@ gtnh.quest50.desc=你总算可以做出一个取代研钵的装置了.无论如�
 
 #Quest_51.Extracting stuff
 gtnh.quest51.name=提取原料
-gtnh.quest51.desc=为了之后需要橡胶来包裹电线、做些电缆,你该弄台蒸气提取机了.你也可以用这台机器来从花朵里得到更多的染料,或者将各种水果做成果汁.
+gtnh.quest51.desc=为了之后需要橡胶来包裹导线、做些线缆,你该弄台蒸气提取机了.你也可以用这台机器来从花朵里得到更多的染料,或者将各种水果做成果汁.
 
 #Quest_52.A clear view
 gtnh.quest52.name=清晰的视野
@@ -386,7 +386,7 @@ gtnh.quest95.desc=活塞,但是它是"电动的".第三件你将来要合成很�
 
 #Quest_96.Saving redstone
 gtnh.quest96.name=拯救红石
-gtnh.quest96.desc=厌倦使用四个红石制做含磁电杆了吗？好消息！使用磁化机不需要红石,只需要通电,你不一定要接上电线,这台机器使用电池也能运作得很好.
+gtnh.quest96.desc=厌倦使用四个红石制做含磁电杆了吗？好消息！使用磁化机不需要红石,只需要通电,你不一定要接上导线,这台机器使用电池也能运作得很好.
 
 #Quest_97.Avengers, assemble!
 gtnh.quest97.name=复仇者,组装！
@@ -1674,7 +1674,7 @@ gtnh.quest417.desc=范式造就你的魔法.
 
 #Quest_418.Spell foci
 gtnh.quest418.name=法术核心
-gtnh.quest418.desc=有九个基本元素,每个元素都有一个核心,代表它们的项目.你把这个核心放在你的祭坛旁边,以便你的魔法进入它和范式.
+gtnh.quest418.desc=有九个基本元素,每个元素都有一个核心,代表它们的物品.你把这个核心放在你的祭坛旁边,以便你的魔法进入它和范式.
 
 #Quest_419.Some examples
 gtnh.quest419.name=举个例子吧！
@@ -1754,7 +1754,7 @@ gtnh.quest437.desc=血魔法很好,神秘时代也是.为什么不把两个世�
 
 #Quest_438.Complex spell system
 gtnh.quest438.name=复杂的法术系统
-gtnh.quest438.desc=与具有核心和范式的简单法术不同,复杂的法术系统令人难以置信......复杂. 这里有太多的组合来覆盖它们,因此建议在其他地方寻找知识. 但是,通过此任务中的项目,你可以制作一个简单的挖掘法术.
+gtnh.quest438.desc=与具有核心和范式的简单法术不同,复杂的法术系统令人难以置信......复杂. 这里有太多的组合来覆盖它们,因此建议在其他地方寻找知识. 但是,通过此任务中的物品,你可以制作一个简单的挖掘法术.
 
 #Quest_439.Steam > Tier 2
 gtnh.quest439.name=蒸汽时代奖励 > 第二阶奖励
@@ -2950,7 +2950,7 @@ gtnh.quest736.desc=使用MV发酵槽,你可以制造发酵生物质.这是制作
 
 #Quest_737.Can u eat those? 
 gtnh.quest737.name=这能吃吗？
-gtnh.quest737.desc=不,这不能吃,但你可以将它们加入你的路由管道.没有这些芯片,路由管道没有任何用处.芯片有一个设定GUI可以使用右键开启. 共有八种芯片:物品抽取芯片,用于由容器中抽出物品,送往管道网络中.物品响应芯片、动态物品响应芯片、终端芯片和物品过载响应芯片. 物品响应芯片:会根据过滤条件向网络中的抽取芯片送出物品请求,并将物品送至与之连接的容器.有较高的优先级的芯片,将优先获得物品.直到其容器满了,物品才会送至其他符合过滤条件及有空间的容器. 动态物品响应芯片会根据容器中的物品,去对网络中的抽取芯片请求物品.这个芯片必须跟物品响应芯片放在同一个接口管道才能起作用.优先级规则在此也适用. 物品过载响应芯片的作用跟物品响应芯片完全一样.但它只接收多余的物品,也就是无法送往物品响应芯片、动态物品响应芯片,或物品终端芯片的物品. 物品终端芯片是物品响应芯片的备援.物品广播芯片会将其容器中的物品,显示到网络中的路由需求管道,你可以在路由需求管道选择要获取的物品.它们也可以被设定由哪一个方向抽取物品. 物品堆栈维护芯片将维持其容器中设定的物品数量,它会持续检查网络以取得缺少的物品.如果芯片设定为用完补充,它将只会在物品用完时补充. 物品合成芯片及物品合成扩展芯片用在物品合成管道中,记得要将ID随机数化.
+gtnh.quest737.desc=不,这不能吃,但你可以将它们加入你的路由管道.没有这些芯片,路由管道没有任何用处.芯片有一个设定GUI可以使用右键开启. 共有八种芯片:物品抽取芯片,用于由容器中抽出物品,送往管道网络中.物品响应芯片、动态物品响应芯片、终端芯片和物品过载响应芯片. 物品响应芯片:会根据过滤(Filter)条件向网络中的抽取芯片送出物品请求,并将物品送至与之连接的容器.有较高的优先级的芯片,将优先获得物品.直到其容器满了,物品才会送至其他符合过滤(Filter)条件及有空间的容器. 动态物品响应芯片会根据容器中的物品,去对网络中的抽取芯片请求物品.这个芯片必须跟物品响应芯片放在同一个接口管道才能起作用.优先级规则在此也适用. 物品过载响应芯片的作用跟物品响应芯片完全一样.但它只接收多余的物品,也就是无法送往物品响应芯片、动态物品响应芯片,或物品终端芯片的物品. 物品终端芯片是物品响应芯片的备援.物品广播芯片会将其容器中的物品,显示到网络中的路由需求管道,你可以在路由需求管道选择要获取的物品.它们也可以被设定由哪一个方向抽取物品. 物品堆栈维护芯片将维持其容器中设定的物品数量,它会持续检查网络以取得缺少的物品.如果芯片设定为用完补充,它将只会在物品用完时补充. 物品合成芯片及物品合成扩展芯片用在物品合成管道中,记得要将ID随机数化.
 
 #Quest_738.Routed Pipes
 gtnh.quest738.name=路由管道(Routed Pipes)
@@ -2958,7 +2958,7 @@ gtnh.quest738.desc=共有六种路由管道:交错管道用于连接互相交叉
 
 #Quest_739.Ghetto ME System
 gtnh.quest739.name=集中式存储系统(Ghetto Me System)
-gtnh.quest739.desc=现在你对这个模块很熟悉了,是时候将基地中的物品整顿一番了.以下是建立基础抽取/送入系统所需要的物品. 首先你需要一个抽屉管理器,你可以从奖励取得或者自己制作一个.将抽屉管理器摆放好,在其隔壁摆放任意数量的抽屉.确保它们都彼此相连. 下一步是将路由接口管道连接到抽屉管理器上.取出物品响应芯片,将其过滤模式设为黑名单模式(这使你能从系统中取得所有物品).持芯片对路由接口管道点击右键,将之加入.也别忘了动态物品响应芯片.为了使你的系统能看到所有物品,你必须加入物品广播芯片*到连接抽屉管理器的路由接口管道. 最后一步是将一个路由需求管道连接到路由接口管道的网络,右键点击需求管道以存取GUI.你只能从此抽取物品.而存放物品只要单纯的对抽屉管理器点击右键. 你可以在youtube上找到更复杂的自动合成教学.
+gtnh.quest739.desc=现在你对这个模块很熟悉了,是时候将基地中的物品整顿一番了.以下是建立基础抽取/送入系统所需要的物品. 首先你需要一个抽屉管理器,你可以从奖励取得或者自己制作一个.将抽屉管理器摆放好,在其隔壁摆放任意数量的抽屉.确保它们都彼此相连. 下一步是将路由接口管道连接到抽屉管理器上.取出物品响应芯片,将其过滤(Filter)设为黑名单模式(*blacklisted)(这使你能从系统中取得所有物品).持芯片对路由接口管道点击右键,将之加入.也别忘了动态物品响应芯片.为了使你的系统能看到所有物品,你必须加入物品广播芯片*到连接抽屉管理器的路由接口管道. 最后一步是将一个路由需求管道连接到路由接口管道的网络,右键点击需求管道以存取GUI.你只能从此抽取物品.而存放物品只要单纯的对抽屉管理器点击右键. 你可以在youtube上找到更复杂的自动合成教学.
 
 #Quest_740.Extrude all the things
 gtnh.quest740.name=压出所有东西(Extrude all the things)
@@ -4545,8 +4545,8 @@ gtnh.quest1135.name=超低压变压器
 gtnh.quest1135.desc=如果你想让你的简易洗矿机工作,那么你会需要一个低压变压器的.简易洗矿机只能工作在8EU/T的电压下,如果你接入的更高的电压,那么你的基地就会被炸出一个大洞！
 
 #Quest_1136.Lossless LV Cables
-gtnh.quest1136.name=无损低压电缆
-gtnh.quest1136.desc=在32EU/T的电压下如何进行无损传输呢？为什么不试试无损低压电缆呢? 红石合金可制成超导导线并可无损传输你的能量. 红色合金是一种新的合金,电力高炉需要用到它. 将红石、硅和煤混合,虽然用手也可以,但用搅拌机效果更佳.
+gtnh.quest1136.name=无损低压线缆
+gtnh.quest1136.desc=在32EU/T的电压下如何进行无损传输呢？为什么不试试无损低压线缆呢? 红石合金可制成超导导线并可无损传输你的能量. 红色合金是一种新的合金,电力高炉需要用到它. 将红石、硅和煤混合,虽然用手也可以,但用搅拌机效果更佳.
 
 #Quest_1137.Kinetic Power
 gtnh.quest1137.name=动能
@@ -4582,15 +4582,15 @@ gtnh.quest1144.desc=更好的机器需要更好的电池.锂是制作电池最�
 
 #Quest_1145.HV EV Tranformator
 gtnh.quest1145.name=EV→HV变压器
-gtnh.quest1145.desc=格雷的电缆无法直接连接到工业2的机器上,因此你需要变压器来转换能量. 最好的办法是用多个变压器将低压转换成高压,并且存储在高压电容器内.因为电缆越长,能量衰减的越多.因此用高压进行电能传输是个很好的方法. 不过小心,工业2的机器不在乎下不下雨.不过格雷的机器如果被雨淋到可是会发生剧烈的爆炸. 还有很重要的一点是,如果风电产生的能量超过120ET/T的话,你就需要将升压,而不是降压.(这里说避免爆炸,不过我测试了一下不会发生爆炸啊,就是多余的电能都被浪费了).在HV阶段,不推荐使用比铁转子更好的转子.
+gtnh.quest1145.desc=格雷的线缆无法直接连接到工业2的机器上,因此你需要变压器来转换能量. 最好的办法是用多个变压器将低压转换成高压,并且存储在高压电容器内.因为线缆越长,能量衰减的越多.因此用高压进行电能传输是个很好的方法. 不过小心,工业2的机器不在乎下不下雨.不过格雷的机器如果被雨淋到可是会发生剧烈的爆炸. 还有很重要的一点是,如果风电产生的能量超过120ET/T的话,你就需要将升压,而不是降压.(这里说避免爆炸,不过我测试了一下不会发生爆炸啊,就是多余的电能都被浪费了).在HV阶段,不推荐使用比铁转子更好的转子.
 
 #Quest_1146.GT 6 styled Pipes
 gtnh.quest1146.name=GT6型管道
 gtnh.quest1146.desc=也许你在想为什么现在的管道不会自动连接了？这是为了让管道更加的聪明. 现在在安装管道之后,你可以使用扳手来手动连接你想要的管道.你不在需要使用板或者箔来防止管道之间的连接了.在管道末端单击将会禁用这一侧的流体输入.这非常方便,例如,防止燃煤锅炉将蒸汽传输到水管中. 提示:如果手持管道瞄准另外一个管道进行安装,那么他们将会自动连接.
 
 #Quest_1147.GT 6 styled Wires and Cables
-gtnh.quest1147.name=GT6型电线和电缆
-gtnh.quest1147.desc=也许你在想为什么现在的电线或者电缆不会自动连接了？这是为了让电线或者电缆更聪明.你必须使用剪线钳来连接你想连接的电线和电缆. 这样将会帮助你减少因为连错电线而导致的BOOM了！ 提示:如果你对准电线和电缆进行安装他们将会自动连接.
+gtnh.quest1147.name=GT6型导线和线缆
+gtnh.quest1147.desc=也许你在想为什么现在的导线或者线缆不会自动连接了？这是为了让导线或者线缆更聪明.你必须使用剪线钳来连接你想连接的导线和线缆. 这样将会帮助你减少因为连错导线而导致的BOOM了！ 提示:如果你对准导线和线缆进行安装他们将会自动连接.
 
 #Quest_1148.MV Machine hull
 gtnh.quest1148.name=MV机器外壳
@@ -5170,7 +5170,7 @@ gtnh.quest1291.desc=能源元件可以帮助你稳定网络中的用电波动. �
 
 #Quest_1292.Storing your ME data
 gtnh.quest1292.name=存储你的ME数据
-gtnh.quest1292.desc=这个方块只有一个功能,就是加载存储元件. ME驱动器最大可以加载10个存储单元,所以你可以把存储空间压缩到一个很小的空间内. ME驱动器前方的指示灯可以显示目前存储单元的状态.红色表示存储单元已经满了,橙色表示存储单元不能容纳更多类型,但是还可以存储一些项目.绿色表示存储单元类型和数量都没有满.黑色可能是没有插入存储单元,要么就是未向ME驱动器供电或者ME驱动器处于离线状态. 注意如果没有ME网络,ME驱动器什么都做不了.它需要ME网络中有输入/输出设备. 空载的话它需要2AE/T的能源驱动,每增加一个存储单元都会额外增加耗电量. ME驱动器需要一个频道来运行.
+gtnh.quest1292.desc=这个方块只有一个功能,就是加载存储元件. ME驱动器最大可以加载10个存储单元,所以你可以把存储空间压缩到一个很小的空间内. ME驱动器前方的指示灯可以显示目前存储单元的状态.红色表示存储单元已经满了,橙色表示存储单元不能容纳更多类型,但是还可以存储一些物品.绿色表示存储单元类型和数量都没有满.黑色可能是没有插入存储单元,要么就是未向ME驱动器供电或者ME驱动器处于离线状态. 注意如果没有ME网络,ME驱动器什么都做不了.它需要ME网络中有输入/输出设备. 空载的话它需要2AE/T的能源驱动,每增加一个存储单元都会额外增加耗电量. ME驱动器需要一个频道来运行.
 
 #Quest_1293.Safety first!
 gtnh.quest1293.name=安全第一
@@ -5386,7 +5386,7 @@ gtnh.quest1345.desc=用纳米技术注入你的翅膀似乎是下一步,进一�
 
 #Quest_1346.Dropped in Asgard, fallen to earth
 gtnh.quest1346.name=落入阿斯加德(Asgard),堕落到地球
-gtnh.quest1346.desc=你听说过一个强大武器的谣言,掉进阿斯加德,坠入地球.这可能是神秘的项目吗？
+gtnh.quest1346.desc=你听说过一个强大武器的谣言,掉进阿斯加德,坠入地球.这可能是神秘的物品吗？
 
 #Quest_1347.Repaired it!
 gtnh.quest1347.name=修好了！
@@ -6022,11 +6022,11 @@ gtnh.quest1504.desc=寻矿魔杖寻找矿石的过程单调乏味. 你需要先�
 
 #Quest_1505.Not enough items
 gtnh.quest1505.name=Not enough items(NEI)
-gtnh.quest1505.desc=其实更像是太多的物品！ 以下是使用NEI的一些提示. 当你打开背包时,可以在文本栏中输入搜索词. 确保你的GUI大小设置正确,否则你将无法看到它. 双击该栏以突出显示背包中的所有匹配项目. 方便搜索黑曜石箱子！ 更妙的是,你可以使用T搜索附近的库存(键位可以自己设置),这些库存会发出一些颗粒效果. O会隐藏NEI信息.
+gtnh.quest1505.desc=其实更像是太多的物品！ 以下是使用NEI的一些提示. 当你打开背包时,可以在文本栏中输入搜索词. 确保你的GUI大小设置正确,否则你将无法看到它. 双击该栏以突出显示背包中的所有匹配物品. 方便搜索黑曜石箱子！ 更妙的是,你可以使用T搜索附近的库存(键位可以自己设置),这些库存会发出一些颗粒效果. O会隐藏NEI信息.
 
 #Quest_1506.NEI is more powerful than you imagine
 gtnh.quest1506.name=NEI比你想象的更强大
-gtnh.quest1506.desc=NEI也有一些非常好的高级功能. 点击一个物品查看制作它的配方,然后按Backspace返回上一个配方. 按住Shift停止oredict切换物品,并显示光标下当前物品的矿典条目. 使用(#矿典名)查找与该矿典匹配的物品; 例如,#dyewhite将列出所有白色染料. 使用@mod进行搜索.找到该mod的所有项目; 例如,@mod.gt++将列出所有GT++的方块. 使用*(星号)作为通配符. 例如,大型*流体管道将显示所有大型流体管道. 它具有更多高级功能,你可以上网b以获取更多信息.
+gtnh.quest1506.desc=NEI也有一些非常好的高级功能. 点击一个物品查看制作它的配方,然后按Backspace返回上一个配方. 按住Shift停止oredict切换物品,并显示光标下当前物品的矿典条目. 使用(#矿典名)查找与该矿典匹配的物品; 例如,#dyewhite将列出所有白色染料. 使用@mod进行搜索.找到该mod的所有物品; 例如,@mod.gt++将列出所有GT++的方块. 使用*(星号)作为通配符. 例如,大型*流体管道将显示所有大型流体管道. 它具有更多高级功能,你可以上网b以获取更多信息.
 
 #Quest_1507.Making a list, checking it twice
 gtnh.quest1507.name=制作清单,检查两次
@@ -6194,7 +6194,7 @@ gtnh.quest1547.desc=使用MV压模机,你可以制造用于太阳能电池板的
 
 #Quest_1548.Input chest for Ghetto ME System
 gtnh.quest1548.name=集中式存储系统的输入箱
-gtnh.quest1548.desc=为了能够将物品放入集中式存储系统,你需要一点点额外的管道. 接口管道(放置物品提取芯片)应连接到你想要抽取物品的箱子,如果你想要从箱子拿走所有物品,请将它配置为黑名单模式. 需要交错管道,以便管道内的物品知道要采取的方向,如果不这样,他们只会在管道内飞来飞去而不知道去哪里. 你可能还需要一些额外的物品运输管道,具体取决于你的设置.
+gtnh.quest1548.desc=为了能够将物品放入集中式存储系统,你需要一点点额外的管道. 接口管道(放置物品提取芯片)应连接到你想要抽取物品的箱子,如果你想要从箱子拿走所有物品,请将它配置为黑名单模式(*blacklisted). 需要交错管道,以便管道内的物品知道要采取的方向,如果不这样,他们只会在管道内飞来飞去而不知道去哪里. 你可能还需要一些额外的物品运输管道,具体取决于你的设置.
 
 #Quest_1549.Plunger 2.0 The Hand Pump
 gtnh.quest1549.name=搋子2.0-手泵
@@ -6398,151 +6398,151 @@ gtnh.quest1598.desc=是时候制作电路组装机的MV版本了.
 
 #Quest_1599.Node upgrades
 gtnh.quest1599.name=节点升级
-gtnh.quest1599.desc=节点可以进行许多升级. 现在,尝试构建World Interaction Upgrade. 有了它,你可以设置简单的自动裁剪. 在连接到制作台的传输节点中放置一个WIU. 在表格的另一侧,3x3区域现在被视为制作网格. 将物品放在另一侧的库存中,如果它们制作了有效的配方,WIU将制作它. 为了加快速度,你需要等到HV用于不锈钢.
+gtnh.quest1599.desc=节点可以进行许多升级. 现在,尝试制作节点升级:世界交互. 有了它,你可以设置简单的自动化. 在连接到工作台的传输节点中放置一个WIU.在工作台的另一侧,3x3区域现在被视为合成栏. 将物品放在另一侧的库存中,如果它们的合成表有效,WIU将制作它. 为了加快速度,你需要等到HV使用不锈钢.
 
 #Quest_1600.Reed and resin
-gtnh.quest1600.name=芦苇和树脂
-gtnh.quest1600.desc=你将获得的第一批有用作物之一是Stickreed. 它生长迅速,可以生产甘蔗和粘性树脂. 与其他作物交叉以提高他们的统计数据也很棒. 我会用一些肥料交换你的每一堆肥料.
+gtnh.quest1600.name=甘蔗和树脂
+gtnh.quest1600.desc=你将获得的第一批有用作物之一是粘性甘蔗. 它生长迅速,可以生产甘蔗和粘性树脂. 与其他作物杂交以提高他们的三围(GGR:生长速度、产量、抗性)也很棒. 我会用一些肥料交换你的甘蔗与树脂各两组.
 
 #Quest_1601.Metals from the Earth
-gtnh.quest1601.name=来自地球的金属
-gtnh.quest1601.desc=随着更高等级的作物,你甚至可以增加矿石产量. 将这些纤维和树叶与粉碎的矿石搅拌可使你的产量翻两番,或者你可以将它们直接转化为微小的粉尘. 之后你可以将这些材料搅拌在一起制成含有UU物质的纯化矿石. 显示你获得这些金属作物的能力,我会再给你一些肥料.
+gtnh.quest1601.name=来自大地的金属
+gtnh.quest1601.desc=随着更高等级的作物杂交成功,你甚至可以增加矿石产量. 将这些纤维和树叶与粉碎的矿石搅拌可使你的产量翻两番,或者你可以将它们直接转化为小挫粉. 你也可以将这些材料与UU物质搅拌在一起,制成矿石. 显示你获得这些金属作物的能力,我会再给你一些肥料.
 
 #Quest_1602.Water water everywhere
 gtnh.quest1602.name=到处都是水
-gtnh.quest1602.desc=即使你必须在水附近种植作物,除非你手动加水,否则它们实际上不会得到任何水合作用. 制作一个水化池并将其用于庄稼,以提高其生长速度. 提示:只在你需要时制作它们,我们正在研究回收配方.
+gtnh.quest1602.desc=由于你必须在水附近种植作物,除非你一直手动浇水,否则它们实际上不会得到任何水合作用. 制作一个水化单元并将其用于作物,以提高其生长速度. 提示:只在你需要时制作它们,我们正在研究回收配方.
 
 #Quest_1603.Feeling a little like a noob...
 gtnh.quest1603.name=感觉有点像菜鸟......
-gtnh.quest1603.desc=那么你能不能给我种一些精华浆果,这样我才能升级？ 你可以种植从灌木丛中获得的,或繁殖一些. 作为奖励,我会给你一个愚蠢的种子我的朋友想出来. 它一定会让你保持警惕.
+gtnh.quest1603.desc=那么你能不能给我种一些精华莓丛,让我我能够升级？ 你可以种植直接从灌木丛中获得精华莓丛,或繁殖一些. 作为奖励,我会给你一个愚蠢的种子,这是我的朋友想出来. 它一定会让你保持警惕.
 
 #Quest_1604.I prefer to call in Canola
-gtnh.quest1604.name=我更喜欢拜油菜
-gtnh.quest1604.desc=这种种子是生物柴油需求的重要种子油来源.
+gtnh.quest1604.name=我更喜欢油菜
+gtnh.quest1604.desc=这种种子是生物柴油所需种子油的重要来源.
 
 #Quest_1605.Better than milk
 gtnh.quest1605.name=比牛奶好
-gtnh.quest1605.desc=我最近感觉不舒服. 种点大地疣吧. 它们比牛奶更好,因为它们只能消除负面影响,并且堆叠到64.在与炼金术士的地狱战斗时真的很好！
+gtnh.quest1605.desc=我最近感觉不舒服.种点大地疣吧. 它们比牛奶更好,因为它们只能消除负面影响,并且可堆叠到64. 这在与可怕的炼金术士战斗时真的很好用！
 
 #Quest_1606.Sweet tooth
-gtnh.quest1606.name=甜食
-gtnh.quest1606.desc=甘蔗或里德无法满足你的含糖需求？ 甜菜每甜菜加8糖. Hmm,现在我想要一些糖果. 从你的甜菜给我一些糖.
+gtnh.quest1606.name=甜到牙了
+gtnh.quest1606.desc=甘蔗无法满足你对糖的需求？ 每个甜菜可制出8糖. 嗯...现在我想要一些糖果.从你的甜菜里榨取一些糖来.
 
 #Quest_1607.Swipe swipe
-gtnh.quest1607.name=滑动即可轻扫
-gtnh.quest1607.desc=一旦你得到一些大的田地,收集庄稼可能是一个真正的麻烦. 让自己成为GT scythe,Sense,让它变得容易5x5 = 25倍.
+gtnh.quest1607.name=一片又一片
+gtnh.quest1607.desc=一旦你开辟了更大的田地,收获作物可能是一件真正的麻烦事. 为你自己制作GT镰刀,让收获变得容易5x5=25倍.
 
 #Quest_1608.Annealead Copper Cable
 gtnh.quest1608.name=退火铜线缆
 gtnh.quest1608.desc=想要一些退火铜线缆？ 买一些！
 
 #Quest_1609.Gold Cable
-gtnh.quest1609.name=金线
-gtnh.quest1609.desc=想要一些金线？ 买一些！
+gtnh.quest1609.name=金线缆
+gtnh.quest1609.desc=想要一些金线缆？ 买一些！
 
 #Quest_1610.Cupronickel 2x Wire
-gtnh.quest1610.name=白铜2x电线
-gtnh.quest1610.desc=想要一些白铜线？ 买一些！
+gtnh.quest1610.name=2x白铜导线
+gtnh.quest1610.desc=想要一些白铜导线？ 买一些！
 
 #Quest_1611.Electrum 4x Wire
-gtnh.quest1611.name=电4x电线
-gtnh.quest1611.desc=想要一些电线？ 买一些！
+gtnh.quest1611.name=4x琥珀金导线
+gtnh.quest1611.desc=想要一些琥珀金导线？ 买一些！
 
 #Quest_1612.Find Bastnatite, Monazita and Neodymium
-gtnh.quest1612.name=铝电缆
-gtnh.quest1612.desc=想要一些铝线？ 买一些！
+gtnh.quest1612.name=找到氟碳镧铈矿石,独居石和钕矿石
+gtnh.quest1612.desc=许多EV机器零件需要钕.稀土是获得钕的好方法,但在月球上,你可以找到含有钕矿石的矿脉. 这种矿脉可在月球Y=20-40找到.
 
 #Quest_1613.Source of Nickel
-gtnh.quest1613.name=钨丝
-gtnh.quest1613.desc=想要一些钨丝？ 买一些！
+gtnh.quest1613.name=镍的来源
+gtnh.quest1613.desc=硅镁镍矿石,镍矿石,辉钴矿石和镍黄铁矿石,都是镍的来源,这些矿石可在暮色森林Y=10-40找到. 在MV阶段,你需要成吨的镍来制作白铜.
 
 #Quest_1614.Chemical Dehydrator
-gtnh.quest1614.name=钨2x电缆
-gtnh.quest1614.desc=想要一些钨丝？ 买一些！
+gtnh.quest1614.name=化学脱水机
+gtnh.quest1614.desc=将你的葡萄脱水制成葡萄干.或是在MV阶段制作一些苯乙烯,苯或乙烯. 无论用来做什么,这个机器不容错过.
 
 #Quest_1615.Synthetic Rubber
-gtnh.quest1615.name=石墨烯4x电线
-gtnh.quest1615.desc=想要一些石墨烯线？ 买一些！
+gtnh.quest1615.name=合成橡胶
+gtnh.quest1615.desc=想要制作一些类似丁苯橡胶的合成橡胶? 我会告诉你怎么做的.你需要石油裂化机和蒸馏塔.有多种方式制取丁苯橡胶,这个任务只是举其中一种.  第一步是用蒸汽裂化你的石脑油.
 
 #Quest_1616.Silver 2x Cable
-gtnh.quest1616.name=银2x电缆
-gtnh.quest1616.desc=想要一些银电缆吗？ 买一些！
+gtnh.quest1616.name=2x银线缆
+gtnh.quest1616.desc=想要一些银线缆吗？ 买一些！
 
 #Quest_1617.Distillation
-gtnh.quest1617.name=铝2x电缆
-gtnh.quest1617.desc=想要一些铝线？ 买一些！
+gtnh.quest1617.name=2x铝线缆
+gtnh.quest1617.desc=想要一些铝线缆？ 买一些！
 
 #Quest_1618.Copper Cable
-gtnh.quest1618.name=铜缆
-gtnh.quest1618.desc=想要一些铜线？ 买一些！
+gtnh.quest1618.name=铜线缆
+gtnh.quest1618.desc=想要一些铜线缆？ 买一些！
 
 #Quest_1619.Rubber Sheet
 gtnh.quest1619.name=橡胶板
-gtnh.quest1619.desc=想要一些橡皮布？ 买一些！
+gtnh.quest1619.desc=想要一些橡胶板？ 买一些！
 
 #Quest_1620.Styrene
-gtnh.quest1620.name=苯乙烯丁二烯橡胶板
-gtnh.quest1620.desc=想要苯乙烯丁二烯橡胶板吗？ 买一些！
+gtnh.quest1620.name=苯乙烯
+gtnh.quest1620.desc=你可以使用化学脱水机或大型化学反应釜制取苯乙烯.
 
 #Quest_1621.Ethylbenzene
-gtnh.quest1621.name=硅胶片
-gtnh.quest1621.desc=想要一些硅胶片吗？ 买一些！
+gtnh.quest1621.name=乙苯
+gtnh.quest1621.desc=将苯和乙烯放入化学反应釜中可得到乙苯.
 
 #Quest_1622.Raw Styrene-Butadiene-Ruber
-gtnh.quest1622.name=硅胶戒指
-gtnh.quest1622.desc=想要一些硅胶戒指？ 买一些！
+gtnh.quest1622.name=生丁苯橡胶
+gtnh.quest1622.desc=下一步是制取生丁苯橡胶.混合你的丁二烯,苯乙烯和空气(也可使用氧气)制作生丁苯橡胶粉末. 需要HV化学反应釜.
 
 #Quest_1623.Let's get some pipes
-gtnh.quest1623.name=我们得到一些管道
-gtnh.quest1623.desc=首先,我们需要一些管道来连接一切. 不要在交叉点使用这些管道,否则项目将随机选择哪条路径,而你不希望这样.
+gtnh.quest1623.name=让我们做些管道
+gtnh.quest1623.desc=首先,我们需要一些管道来连接一切. 不要在交叉点使用这些管道,否则物品将随机选择哪条路径,而你显然不希望这样.
 
 #Quest_1624.Junctions
-gtnh.quest1624.name=结
-gtnh.quest1624.desc=那么我们如何处理交汇点呢？ 我们使用这些管道. 他们很聪明,他们会把所有东西送到需要去的地方,所以如果你建一个路口,一定要把这个管道放在那里.
+gtnh.quest1624.name=交叉点
+gtnh.quest1624.desc=那么我们如何处理交叉点呢？ 我们使用这种交错管道.它们很聪明,它们会把所有东西送到需要去的地方,所以如果你建立一个管道系统,一定要把这种管道放在交叉点.
 
 #Quest_1625.Interacting with stuff
 gtnh.quest1625.name=与东西互动
-gtnh.quest1625.desc=这一切都很好,但这些管道都没有连接到箱子和机器. 我该怎么办呢？ 我很高兴你问. 你需要一个特殊的管道. 这是你需要用来连接机器和箱子的管道. 你必须用我们即将制作的芯片来设置它.
+gtnh.quest1625.desc=这一切都很好,但这些管道都没有连接到箱子和机器. 我该怎么办呢？ 我很高兴你问这个.你需要一种特殊的管道.这是你需要用来连接机器和箱子的管道. 你必须用我们即将制作的芯片来设置它.
 
 #Quest_1626.Chips
 gtnh.quest1626.name=芯片
-gtnh.quest1626.desc=现在你需要制作一些芯片用于那些接口管道. 这些不做任何事情,但需要作为制作其他人的材料.
+gtnh.quest1626.desc=现在你需要制作一些芯片用于那些接口管道. 这些芯片还不能做任何事情,但这是制作其他芯片的材料.
 
 #Quest_1627.Item responder chip
-gtnh.quest1627.name=项目响应者芯片
-gtnh.quest1627.desc=该芯片还存储连接的invetory中的项目. 它为在该芯片的过滤机中设置的项目指定存储. 他们不会主动请求他们仅作为物品目的地的物品. 你可以通过右键单击芯片打开菜单. 在那里你可以设置它应该接受哪些项目和优先级. 项目将首先转到具有更高优先级的项目响应者.
+gtnh.quest1627.name=物品响应芯片
+gtnh.quest1627.desc=该芯片可将物品存储到连接的库存(如箱子)中.它只会存储过滤(Filter)设置的物品.这种芯片不会主动请求物品,它们仅作为物品的目的地. 你可以通过右键单击芯片打开菜单.在那里你可以设置它接受哪些物品以及优先级.物品将首先转到具有更高优先级的物品响应芯片.
 
 #Quest_1628.Item overflow chip
-gtnh.quest1628.name=物品溢出芯片
-gtnh.quest1628.desc=该芯片将物品存储在连接库存中. 它为没有其他地方的物品指定存储空间. 强烈建议在每个管道系统中都有一个默认存储空间,否则会发生不好的事情. 最适合搭配一些大胸(例如钻石).
+gtnh.quest1628.name=物品过载响应芯片
+gtnh.quest1628.desc=该芯片可将物品存储到连接的库存(如箱子)中.它为没有其他地方可去的物品指定存储空间. 强烈建议在每个管道系统中都有一个默认存储空间,否则会发生不好的事情. 最适合搭配一些大箱子(如钻石箱子).
 
 #Quest_1629.Dynamic item responder
-gtnh.quest1629.name=动态项目响应者
-gtnh.quest1629.desc=动态项目响应机芯片表现得像项目响应机芯片,但不是你设置它应该接受的项目,它会在箱子查看哪些项目以及它将接受的项目.
+gtnh.quest1629.name=动态物品响应芯片
+gtnh.quest1629.desc=动态物品响应芯片功能与物品响应芯片类似,但不是由你设置它接受的物品,它会接受箱子中存在的物品.
 
 #Quest_1630.Item extractor chip
-gtnh.quest1630.name=物品提取机芯片
-gtnh.quest1630.desc=该芯片将从连接库存中提取物品. 然后,提取的项目会查找带有项目响应者筹码的管道,其中有可用的空闲空间. 如果他们没有找到,他们将转到溢出默认存储箱. 如果你想要提取所有内容,请将过滤机留空并将其设置为黑名单.
+gtnh.quest1630.name=物品抽取芯片
+gtnh.quest1630.desc=该芯片将从连接库存中抽取物品. 然后,抽取的物品会查找带有物品响应芯片的管道,其中是否有可用的空闲空间.如果它们没有找到,它们将转到物品过载响应芯片所在的默认存储箱. 如果你想要抽取所有物品,请将过滤(Filter)留空并将其设置为黑名单模式(*blacklisted).
 
 #Quest_1631.Item broadcaster
-gtnh.quest1631.name=项目广播员
-gtnh.quest1631.desc=物品广播机是一个芯片,它告诉管道系统中的每个人它在连接库存中有哪些物品,如果有人需要什么,它会发送给他们. 右键单击它以设置它将传输的项目. 如果你将它留空并设置为黑名单,它将传输所有内容. 无限期地使用一个与默认存储箱上的项目溢出芯片组合. 这样溢出将最终在箱子,但是你的系统的其余部分将可用.
+gtnh.quest1631.name=物品广播芯片
+gtnh.quest1631.desc=物品广播芯片告诉管道系统中的每个设备,此芯片所连接的库存中有哪些物品,如果有设备需要什么,它会发送给那些设备. 右键单击它以设置它将传输的物品.如果你将它留空并设置为黑名单模式(*blacklisted),它将传输所有物品. 建议将物品广播芯片与物品过载响应芯片结合使用.这样溢出的物品会存放入缓存箱子中,但是你的系统的其余设备任可使用这些物品.
 
 #Quest_1632.Item stock keeper chip
-gtnh.quest1632.name=物品库存芯片
-gtnh.quest1632.desc=物品库存管理员查看连接库存并保留物品库存. 如果该项目丢失,如果他们有项目并且他们可以发送它,它将每隔几秒钟一直困扰项目广播员. 这基本上就像一个讨厌的孩子. 虽然它真的很有用. 想要一个总会有64块卵石和污垢的箱子,如果你拿它们就会被替换掉？ 这家伙非常适合这份工作. 这对于保留一些机器来说非常棒. 稍后会详细介绍.
+gtnh.quest1632.name=物品堆栈维护芯片
+gtnh.quest1632.desc=物品堆栈维护芯片会查看所连接的库存并保留一定数量的物品.如果该物品被移除,如果系统内有这种物品,并且可以被发送,它将每隔几秒钟就向物品广播芯片发送请求.基本上就像一个讨厌的孩子. 虽然它真的很有用.例如你想要一个总会有64块圆石和泥土的箱子,如果你拿走它们会马上补充？这家伙就非常适合这份工作. 这对于一些机器保留库存来说非常棒.稍后会详细介绍.
 
 #Quest_1633.Crafting chip
-gtnh.quest1633.name=制作芯片
-gtnh.quest1633.desc=制作芯片完全符合它的说法. 它不仅仅适用于默认制作. 你可以将它与GT机器一起使用. 只需放入它应该插入的矩阵,输出就是它应该提取的内容. 它们的很好用途是与液体罐或超级罐一起用于填充细胞. 我强烈建议不要过度使用它们. 等到你可以访问AE2进行自动裁剪.
+gtnh.quest1633.name=物品合成芯片
+gtnh.quest1633.desc=物品合成芯片完全符合它的名字.它不仅仅适用于工作台合成.你还可以将它与GT机器一起使用.只需在它的设置里"Matrix"选项,类似AE样板终端,左侧为工作台合成表或机器输入,右侧为成品输出. 它们的一种好用法就是与流体储罐或超级缸一起使用,以填充单元. 我强烈建议不要过度使用此芯片.以后你可以解锁AE进行自动合成.
 
 #Quest_1634.Request pipe
-gtnh.quest1634.name=需求管道
-gtnh.quest1634.desc=这个管道让你从系统中请求东西. 它显示了所有可用的产品,这要归功于广播芯片甚至可以通过制作芯片制作的东西.
+gtnh.quest1634.name=路由需求管道
+gtnh.quest1634.desc=这个管道让你从系统中请求物品.它可显示系统中所有可用的物品(包括物品广播芯片,以及可以通过物品合成芯片合成的产物).
 
 #Quest_1635.Simple storage system
 gtnh.quest1635.name=简单的存储系统
-gtnh.quest1635.desc=是时候构建一个简单的系统来存储你的东西. 放下抽屉控制器并将抽屉放在其周围. 将接口管道连接到抽屉控制器,并将动态项目响应机和广播机芯片放入其中. 不要忘记设置广播公司通过将过滤机留空并将其设置为黑名单来传输所有内容. 现在你可以从你的存储器中请求东西,如果你有一个带有管道和提取机芯片的箱子,你放入的所有东西都将被分类到存储器中.
+gtnh.quest1635.desc=是时候构建一个简单的系统来存储你的东西. 放下抽屉控制器并将抽屉放在其周围.将路由接口管道连接到抽屉控制器,并将动态物品响应芯片和物品广播芯片放入其中.不要忘记设置物品广播芯片传输所有物品(将过滤(Filter)留空并将其设置为黑名单模式(*blacklisted)). 现在如果你有一个箱子,连接接着路由口管道且管道已插入物品抽取芯片,你就可以从你的存储系统中请求物品,而你放入的所有物品都将被分类存入存储系统中.
 
 #Quest_1636.Desulfuring oil automation
 gtnh.quest1636.name=脱硫油自动化
@@ -6554,11 +6554,11 @@ gtnh.quest1637.desc=首先,我们应该在一些地方存放我们将使用的�
 
 #Quest_1638.Electrolyzing water
 gtnh.quest1638.name=电解水
-gtnh.quest1638.desc=现在让我们自动将水电解成氧气和氢气. 你需要氢来处理大量的东西,包括脱硫,获得钨和硝酸生产. 氧气也是有用的,因为我确信你在制造钢时注意到了. 如何设置它: 放下电解槽并将其连接到水和电. 将2个超级坦克放在附近. 设置电解槽以产生氢气和氧气电池. 使用普通的GT流体管将氢气输出到一个超级罐中. 那就是你的储氢. 现在将接口管道连接到所有3台机器. 对于放入项目库存管理器的电解槽设置,以保存2个空单元. 还放入提取机设置以提取氧气细胞. 现在储存氧气,将物品响应机芯片组接受氧气细胞和提取机设置以提取空细胞. 现在将一些空单元放入你的默认储存箱中 不要忘记在那里有一个广播公司.
+gtnh.quest1638.desc=现在让我们自动将水电解成氧气和氢气. 你需要氢来处理大量的东西,包括脱硫,获得钨和硝酸生产. 氧气也是有用的,因为我确信你在制造钢时注意到了. 如何设置它: 放下电解槽并将其连接到水和电. 将2个超级坦克放在附近. 设置电解槽以产生氢气和氧气电池. 使用普通的GT流体管将氢气输出到一个超级罐中. 那就是你的储氢. 现在将接口管道连接到所有3台机器. 对于放入物品库存管理器的电解槽设置,以保存2个空单元. 还放入提取机设置以提取氧气细胞. 现在储存氧气,将物品响应机芯片组接受氧气细胞和提取机设置以提取空细胞. 现在将一些空单元放入你的默认储存箱中 不要忘记在那里有一个广播公司.
 
 #Quest_1639.Desulfuring the oil
 gtnh.quest1639.name=脱硫油
-gtnh.quest1639.desc=现在是开始实际脱硫的时候了. 使用你选择的化学反应釜,用硫酸轻燃料填充并将其连接到电源. 现在连接一个接口管道. 将一个项目库存管理员置于内部以储存4个氢电池. 然后放入项目提取机设置以提取硫化氢和空单元. 去你的储氢超级罐并放入一个制作芯片组,从一个空单元中制造一个氢电池. 这就是全部.
+gtnh.quest1639.desc=现在是开始实际脱硫的时候了. 使用你选择的化学反应釜,用硫酸轻燃料填充并将其连接到电源. 现在连接一个接口管道. 将一个物品库存管理员置于内部以储存4个氢电池. 然后放入物品提取机设置以提取硫化氢和空单元. 去你的储氢超级罐并放入一个物品合成芯片组,从一个空单元中制造一个氢电池. 这就是全部.
 
 #Quest_1640.Dealing with H2S
 gtnh.quest1640.name=处理H2S
@@ -6846,7 +6846,7 @@ gtnh.quest1710.desc=Crystalprocessor主机是你可以制作的第一个UV电路
 
 #Quest_1711.Superconductors 32768 eu/t
 gtnh.quest1711.name=32768 eu/t的超导
-gtnh.quest1711.desc=无损32768 EU IV电线怎么样？ Tetraindiumditindibariumtitaniumheheptacoppertetrakaidekaoxide是一种超导体导线,可以毫无损失地转移你的能量. 现在每个电压都有超导线和基线,EU / t损耗很小. 在EV混频机中搅拌铟,锡,钡,钽,铜和氧. 现在你有了基础粉,它需要一个带有Naquadah线圈的电力高炉(EBF),以及一个真空冷冻机来冷却它. 制造一些LuV超导体基线并使用组装机将这些线与氮气,氦气和微小的管道组合在一起. LuV泵用于获得32768 EU / t超导体电线.
+gtnh.quest1711.desc=无损32768 EU IV导线怎么样？ Tetraindiumditindibariumtitaniumheheptacoppertetrakaidekaoxide是一种超导体导线,可以毫无损失地转移你的能量. 现在每个电压都有超导线和基线,EU / t损耗很小. 在EV混频机中搅拌铟,锡,钡,钽,铜和氧. 现在你有了基础粉,它需要一个带有Naquadah线圈的电力高炉(EBF),以及一个真空冷冻机来冷却它. 制造一些LuV超导体基线并使用组装机将这些线与氮气,氦气和微小的管道组合在一起. LuV泵用于获得32768 EU / t超导体导线.
 
 #Quest_1712.Cheaper LV circuits
 gtnh.quest1712.name=廉价的低压电路
@@ -6946,7 +6946,7 @@ gtnh.quest1735.desc=或者至少工厂里装满了物品管道. 使用这些简�
 
 #Quest_1736.Pipes, pipes everywhere
 gtnh.quest1736.name=管道,管道无处不在
-gtnh.quest1736.desc=现在你已经进入MV,你将需要开始自动化流程. 聚乙烯,氧气,氮气,氢气,橡胶,木炭等.更快的物品管道将有助于在你的基地周围快速运输物品. 现在,使用你的漂亮的新挤出机来制作一些黄铜项目管道. 奖励 - 限制性项目管道 - 允许你确定目的地的优先级. 限制管另一侧的位置被处理得比管道同一侧的位置更远. 当你想要溢出(或不匹配)的项目去其他地方时非常方便！ 对于更高层,在NEI中查找"* item\u7ba1\u9053".
+gtnh.quest1736.desc=现在你已经进入MV,你将需要开始自动化流程. 聚乙烯,氧气,氮气,氢气,橡胶,木炭等.更快的物品管道将有助于在你的基地周围快速运输物品. 现在,使用你的漂亮的新挤出机来制作一些黄铜物品管道. 奖励 - 限制性物品管道 - 允许你确定目的地的优先级. 限制管另一侧的位置被处理得比管道同一侧的位置更远. 当你想要溢出(或不匹配)的物品去其他地方时非常方便！ 对于更高层,在NEI中查找"* item\u7ba1\u9053".
 
 #Quest_1737.More Red, less Wheat
 gtnh.quest1737.name=更多的红色,更少的小麦
@@ -6954,7 +6954,7 @@ gtnh.quest1737.desc=当将作物一起繁殖作为产量作物时,尝试获得�
 
 #Quest_1738.When all you have is a hammer...
 gtnh.quest1738.name=当你拥有的只是一把锤子......
-gtnh.quest1738.desc=当你拥有的只是一把锤子......整个世界看起来像钉子. 每个GT工具都有特殊用途. 螺丝刀 - 用于盖子以改变它们的行为. 扳手 - 用于改变GT机器上的输出方向,或者打破它. 也可以断开/连接管道或启用内置百叶窗. Crowbar - 从机器或管道上拆下盖子. 切割机 - 连接/断开电线/电缆. 软槌 - 打开/关闭机器. 哈默尔 - 在你面前以有限的方式勘探矿石,并将矿石块粉碎成碎矿石.
+gtnh.quest1738.desc=当你拥有的只是一把锤子......整个世界看起来像钉子. 每个GT工具都有特殊用途. 螺丝刀 - 用于盖子以改变它们的行为. 扳手 - 用于改变GT机器上的输出方向,或者打破它. 也可以断开/连接管道或启用内置百叶窗. Crowbar - 从机器或管道上拆下盖子. 切割机 - 连接/断开导线/线缆. 软槌 - 打开/关闭机器. 哈默尔 - 在你面前以有限的方式勘探矿石,并将矿石块粉碎成碎矿石.
 
 #Quest_1739.Farming a little easier
 gtnh.quest1739.name=耕种更容易一点
@@ -6990,7 +6990,7 @@ gtnh.quest1746.desc=Microchip将在你制作的大部分内容中使用，如果
 
 #Quest_1747.Your First Computer
 gtnh.quest1747.name=你的第一个电脑
-gtnh.quest1747.desc=将你之前获得的电源转换器放置在电缆附近并将其与电线切割器连接。 现在通过转换器放置你的计算机器箱，并通过技术的魔力，它将为计算机器箱提供动力！ 现在将硬盘驱动器，内存和图形卡放入内部，将磁盘驱动器放在计算机旁边，然后插入操作系统磁盘。 将我们制作的BIOS插入表壳并打开。
+gtnh.quest1747.desc=将你之前获得的电源转换器放置在线缆附近并将其与导线切割器连接。 现在通过转换器放置你的计算机器箱，并通过技术的魔力，它将为计算机器箱提供动力！ 现在将硬盘驱动器，内存和图形卡放入内部，将磁盘驱动器放在计算机旁边，然后插入操作系统磁盘。 将我们制作的BIOS插入表壳并打开。
 
 #Quest_1748.Arithmetic Logic Circuits
 gtnh.quest1748.name=算术逻辑电路
@@ -7054,11 +7054,11 @@ gtnh.quest1762.desc=它是如此令人耳目一新。 放置一个面向屏幕�
 
 #Quest_1763.Mounting your HDD
 gtnh.quest1763.name=安装硬盘
-gtnh.quest1763.desc=好吧，你有你的电脑，它说“Hello World！”当你开始它，你觉得很棒，能够统治世界。 现在让我们设置你的硬盘。在编辑器中再次打开.shrc，然后按ENTER键在打印后按下一行，然后输入'cd ../'这将移动你正在查看的已查看目录，即绝对基目录。 现在进入另一条线并键入'mount HDD C：'，因为为什么不，它是Classic;这会将文件驱动器安装到你所在的文件夹中。按下另一行并键入cd'C：/'保存并重新启动计算机。 现在，你将以C：/ nifty开头！尝试输入“mkdir programs”，现在你有一个专门的目录来放置你的程序，以便组织。 'cd programs'将带你到程序，'cd ../'会带你回到一个目录;你也可以做类似的事情 - 假设你在C中有一个名为apples的文件夹但是你在apples中，键入'cd ../apples'它会带你到apples，...基本上只是意味着以前的目录这可以堆叠;适用于复制文件并移动它们，非常有用。 现在我们要做一些功能性的事情，来到下一个任务并带上你的适配器和电缆。
+gtnh.quest1763.desc=好吧，你有你的电脑，它说“Hello World！”当你开始它，你觉得很棒，能够统治世界。 现在让我们设置你的硬盘。在编辑器中再次打开.shrc，然后按ENTER键在打印后按下一行，然后输入'cd ../'这将移动你正在查看的已查看目录，即绝对基目录。 现在进入另一条线并键入'mount HDD C：'，因为为什么不，它是Classic;这会将文件驱动器安装到你所在的文件夹中。按下另一行并键入cd'C：/'保存并重新启动计算机。 现在，你将以C：/ nifty开头！尝试输入“mkdir programs”，现在你有一个专门的目录来放置你的程序，以便组织。 'cd programs'将带你到程序，'cd ../'会带你回到一个目录;你也可以做类似的事情 - 假设你在C中有一个名为apples的文件夹但是你在apples中，键入'cd ../apples'它会带你到apples，...基本上只是意味着以前的目录这可以堆叠;适用于复制文件并移动它们，非常有用。 现在我们要做一些功能性的事情，来到下一个任务并带上你的适配器和线缆。
 
 #Quest_1764.Basic Power Display
 gtnh.quest1764.name=基本电源显示
-gtnh.quest1764.desc=对于这一部分，我们将学习如何使用我们的适配器，将它放在旁边 - 比如你的电力高炉(EBF)电池缓冲区并用电缆将它连接到计算机。 现在让我们在计算机上键入lua以打开LUA环境我们可以测试事物而不用担心保存和尝试我们的程序。 在'component.list（）'中输入这将显示一个包含组件中所有.list的表。我们正在寻找的是gt_batterybuffer。 如果附近有太多东西可能无法显示，搜索整个组件列表的方式对于初学者来说太先进了。 现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法。 我们在这个例子中将使用的是'getBatteryCharge'方法。因此输入\ n'a.getBatteryCharge（1）'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge。 因此，如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print（a.getBatteryCharge（i））end 目前你看看EU所有电池的价值。现在我们可以做些什么呢？ 尝试制作一个名为'batteryCharge = 0'的变量，现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge（i）end' 现在打印（ batteryCharge）将显示总电量。这是一个使用它的程序示例。 在你的磁带机中放置并键入“install”，然后按照提示将其安装到C中。然后编辑它，测试它，确定它是如何工作的。 我想这就足够了;恭喜！实验和学习，不要忘记尽可能多地检查谷歌！ 这个任务线将来会再次更新;但我认为现在这是一个很好的结局。 原文:For this part we will learn how to use our adapter,  place it next to- let's say your EBFs battery buffer and connect it to the computer with cables.\nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.\n\nType in 'component.list()'   this will display a table of all of .list from component.  What we're looking for is gt_batterybuffer.\nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.\n\nSo now assign a variable to it; for example 'a = component.gt_batterybuffer';  now we can call 'a' to see what methods the batteryBuffer has.\nWhat we'll be using in this example is the 'getBatteryCharge' method.  So type\n 'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.\n\n So if we're using a 2x2 battery buffer; we can type something like- 'for i=1, 4 do print(a.getBatteryCharge(i)) end\nPoof you now see what all the batteries EU values.  Now what can we do with this?\n\nTry making a variable called 'batteryCharge = 0',  now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'\n\nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.\n\nPlace in your tape drive and type 'install', and follow the promps to install it into C.  Then edit it, test it, figure how it works.\n\nI suppose that's enough for now; congrats!  Experiment and learn, and don't forget to check google as much as possible!  \nThis questline will be updated again in the future; but I figure this is a good ending point for now.
+gtnh.quest1764.desc=对于这一部分，我们将学习如何使用我们的适配器，将它放在旁边 - 比如你的电力高炉(EBF)电池缓冲区并用线缆将它连接到计算机。 现在让我们在计算机上键入lua以打开LUA环境我们可以测试事物而不用担心保存和尝试我们的程序。 在'component.list（）'中输入这将显示一个包含组件中所有.list的表。我们正在寻找的是gt_batterybuffer。 如果附近有太多东西可能无法显示，搜索整个组件列表的方式对于初学者来说太先进了。 现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法。 我们在这个例子中将使用的是'getBatteryCharge'方法。因此输入\ n'a.getBatteryCharge（1）'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge。 因此，如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print（a.getBatteryCharge（i））end 目前你看看EU所有电池的价值。现在我们可以做些什么呢？ 尝试制作一个名为'batteryCharge = 0'的变量，现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge（i）end' 现在打印（ batteryCharge）将显示总电量。这是一个使用它的程序示例。 在你的磁带机中放置并键入“install”，然后按照提示将其安装到C中。然后编辑它，测试它，确定它是如何工作的。 我想这就足够了;恭喜！实验和学习，不要忘记尽可能多地检查谷歌！ 这个任务线将来会再次更新;但我认为现在这是一个很好的结局。 原文:For this part we will learn how to use our adapter,  place it next to- let's say your EBFs battery buffer and connect it to the computer with cables.\nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.\n\nType in 'component.list()'   this will display a table of all of .list from component.  What we're looking for is gt_batterybuffer.\nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.\n\nSo now assign a variable to it; for example 'a = component.gt_batterybuffer';  now we can call 'a' to see what methods the batteryBuffer has.\nWhat we'll be using in this example is the 'getBatteryCharge' method.  So type\n 'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.\n\n So if we're using a 2x2 battery buffer; we can type something like- 'for i=1, 4 do print(a.getBatteryCharge(i)) end\nPoof you now see what all the batteries EU values.  Now what can we do with this?\n\nTry making a variable called 'batteryCharge = 0',  now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'\n\nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.\n\nPlace in your tape drive and type 'install', and follow the promps to install it into C.  Then edit it, test it, figure how it works.\n\nI suppose that's enough for now; congrats!  Experiment and learn, and don't forget to check google as much as possible!  \nThis questline will be updated again in the future; but I figure this is a good ending point for now.
 
 #Quest_1765.Online Shopping - Tier 1
 gtnh.quest1765.name=在线购物-第一阶
@@ -7085,8 +7085,8 @@ gtnh.quest1770.name=购买第一阶显卡
 gtnh.quest1770.desc=我会卖给你一个四比特币的一阶显卡。
 
 #Quest_1771.Purchase Cables
-gtnh.quest1771.name=购买电缆
-gtnh.quest1771.desc=我会卖给你两条比特币的16根电缆。
+gtnh.quest1771.name=购买线缆
+gtnh.quest1771.desc=我会卖给你两条比特币的16根线缆。
 
 #Quest_1772.Purchase Tier 1 Screen
 gtnh.quest1772.name=购买第1层屏幕
