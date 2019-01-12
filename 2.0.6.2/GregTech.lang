@@ -901,7 +901,7 @@ languagefile {
     S:Material.redstone=红石
     S:Material.redstonealloy=红石合金
     S:Material.reinforced=强化
-    S:Material.reinforcedglass=熔融强化玻璃
+    S:Material.reinforcedglass=熔融防爆玻璃
     S:Material.rhyolite=流纹岩
     S:Material.rocksalt=岩盐
     S:Material.rosegold=玫瑰金
@@ -2089,7 +2089,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1172_Index_5=1xULV+能源仓，1x维护仓
     S:TileEntity_DESCRIPTION_1172_Index_6=允许放置至多10个机器外壳以通过墙壁进行物品/能量的交互
     S:TileEntity_DESCRIPTION_1172_Index_7=剩余方块为塑料混凝土方块，至少20个
-    S:TileEntity_DESCRIPTION_1172_Index_8=5.0%的塑料混凝土方块可以用强化玻璃替代（至少保持20个塑料混凝土方块）
+    S:TileEntity_DESCRIPTION_1172_Index_8=5.0%的塑料混凝土方块可以用防爆玻璃替代（至少保持20个塑料混凝土方块）
     S:TileEntity_DESCRIPTION_1172_Index_9=刚开始启动需要40EU/t，当100%效率时需要4EU/t
     S:TileEntity_DESCRIPTION_1173_Index_0=放置后用爆炸物右击进行探矿(8硝化甘油单元，32TNT或16工业TNT)，之后用闪存右击
     S:TileEntity_DESCRIPTION_1173_Index_1=找矿面积191x191方块
@@ -6575,7 +6575,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_799_Index_12=1x维护仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_799_Index_13=1x消声仓(顶层中央的3x1x3区域)
     S:TileEntity_DESCRIPTION_799_Index_14=1x能源仓(任意底层机械方块)
-    S:TileEntity_DESCRIPTION_799_Index_15=24xIC2强化玻璃墙壁
+    S:TileEntity_DESCRIPTION_799_Index_15=24xIC2防爆玻璃墙壁
     S:TileEntity_DESCRIPTION_799_Index_16=边缘与顶层为质量发生机械方块(至少40个！)
     S:TileEntity_DESCRIPTION_799_Index_17=每秒产生40点污染
     S:TileEntity_DESCRIPTION_799_Index_18=机器类型: §e质量发生器§r
@@ -8327,7 +8327,7 @@ languagefile {
     S:fluid.radon=氡
     S:fluid.rawgasoline=粗汽油
     S:fluid.refinedglue=精制胶水
-    S:fluid.reinforcedglass=熔融强化玻璃
+    S:fluid.reinforcedglass=熔融防爆玻璃
     S:fluid.rocket_fuel=火箭燃料
     S:fluid.saltwater=盐水
     S:fluid.seedoil=种子油
@@ -44899,7 +44899,7 @@ languagefile {
     S:gt.metaitem.03.32021.tooltip=B(SiO₂)₇
     S:gt.metaitem.03.32022.name=培养皿
     S:gt.metaitem.03.32022.tooltip=用以培养细胞
-    S:gt.metaitem.03.32023.name=强化玻璃管
+    S:gt.metaitem.03.32023.name=防爆玻璃管
     S:gt.metaitem.03.32023.tooltip=
     S:gt.metaitem.03.32030.name=单晶硅
     S:gt.metaitem.03.32030.tooltip=电路元件
