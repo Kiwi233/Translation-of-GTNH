@@ -1208,7 +1208,7 @@ witchery:cauldronbook.otherrituals=[h1 其他仪式]不需要祭坛的新仪式:
 witchery:cauldronbook.ritualwaystone=[h1 仪式: 绑定寻路石]绑定最多8块寻路石, 绘制一个3x3的他处 圆环:[br][img=witchery:textures/gui/circles_tinypurple.png|center|top|32|32][br]在中心放上寻路石然后站开等着.
 witchery:cauldronbook.ritualwaystoneblooded=[h1 仪式: 绑定血腥路碑]绘制一个3x3的他处 圆环来绑定血腥路碑到 玩家位置:[br][img=witchery:textures/gui/circles_tinypurple.png|center|top|32|32][br]目标在附近的话放下寻路石然后等着.
 witchery:cauldronbook.ritualtranspose=[h1 仪式: 传送]绘制一个5*5的他处 圆环来传送到寻路石绑定 地点:[br][img=witchery:textures/gui/circles_spurple.png|center|top|32|32][br]站在圈内放下寻路石然后等着.
-witchery:cauldronbook.ritualfind=[h1 仪式: 搜寻建筑]召唤幽灵来寻找最近的村 庄或地狱要塞.需要绘制 3x3的仪式圆环:[br][img=witchery:textures/gui/circles_tinywhite.png|center|top|32|32][br]在中心放上抑制之精神或者调谐之石然后等着.
+witchery:cauldronbook.ritualfind=[h1 仪式: 搜寻建筑]召唤幽灵来寻找最近的村 庄或下界要塞.需要绘制 3x3的仪式圆环:[br][img=witchery:textures/gui/circles_tinywhite.png|center|top|32|32][br]在中心放上抑制之精神或者调谐之石然后等着.
 
 witchery:cauldronbook.capacity=[i 容量] - 每个[url=toc/effects 药效]都需要分配容量, 按顺序加入这些材料来扩容.[br][br][stack=witchery:ingredient|22 +1][tab][stack=nether_wart +2][br][stack=witchery:ingredient|37 +2][tab][stack=witchery:ingredient|29 +2][br][stack=diamond +2][tab][stack=nether_star|29 +4]
 witchery:cauldronbook.power=[i 强度] - 在指定[url=toc/effects 药效]前按顺序添加 材料来指定强度.[br][br][stack=glowstone_dust +1 (等级II)][br][stack=blaze_rod +1 (to 等级III)][br][stack=witchery:ingredient|11 +1 (等级IV)]
