@@ -1472,9 +1472,9 @@ item.itemZirconiumPellet.name=锆颗粒 [氯化锆]
 item.itemDustZrCl4.name=氯化锆粉
 item.itemDustSmallZrCl4.name=小堆氯化锆粉
 item.itemDustTinyZrCl4.name=小撮氯化锆粉
-item.itemDustCookedZrCl4.name=焙烧过的氯化锆粉
-item.itemDustSmallCookedZrCl4.name=小堆焙烧过的氯化锆粉
-item.itemDustTinyCookedZrCl4.name=小撮焙烧过的氯化锆粉
+item.itemDustCookedZrCl4.name=焙烧的氯化锆粉
+item.itemDustSmallCookedZrCl4.name=小堆焙烧的氯化锆粉
+item.itemDustTinyCookedZrCl4.name=小撮焙烧的氯化锆粉
 item.itemDustUN18Fertiliser.name=流体肥料UN-18粉
 item.itemDustSmallUN18Fertiliser.name=小堆流体肥料UN-18粉
 item.itemDustTinyUN18Fertiliser.name=小撮流体肥料UN-18粉
@@ -1878,7 +1878,7 @@ tile.Block of Incoloy-MA956.name=耐热铬铁合金-MA956块
 tile.Incoloy-MA956 Frame Box.name=耐热铬铁合金-MA956框架
 tile.Block of Grisium.name=格里西姆合金块
 tile.Grisium Frame Box.name=格里西姆合金框架
-tile.Block of Trinium.name=Trinium块
+tile.Block of Trinium.name=三元金属块
 tile.Block of Refined Trinium.name=精制三元金属块
 tile.Block of Trinium Titanium Alloy.name=三元钛合金块
 tile.Trinium Titanium Alloy Frame Box.name=三元钛合金框架
@@ -2041,4 +2041,672 @@ item.AmmoniumNitrateSlurry.name=硝酸铵浆液单元
 item.Kerosene.name=煤油单元
 item.LiquidOxygen.name=液化氧单元[LOX]
 
-//This zh_CN.lang is translation by huajijam for GregTech++
+//Added 8/1/19
+
+//Ores
+
+tile.OreIrarsite.name=硫砷铱矿石
+item.crushedIrarsite.name=粉碎硫砷铱矿石
+item.crushedCentrifugedIrarsite.name=离心粉碎硫砷铱矿石
+item.crushedPurifiedIrarsite.name=纯净粉碎硫砷铱矿石
+item.dustImpureIrarsite.name=含杂硫砷铱粉
+item.dustPureIrarsite.name=纯净硫砷铱粉
+item.itemDustIrarsite.name=硫砷铱粉
+item.itemDustTinyIrarsite.name=小堆硫砷铱粉
+item.itemDustSmallIrarsite.name=小撮硫砷铱粉
+
+tile.OreMiessiite.name=硅灰石矿石
+item.crushedMiessiite.name=粉碎硅灰石矿石
+item.crushedCentrifugedMiessiite.name=离心粉碎硅灰石矿石
+item.crushedPurifiedMiessiite.name=纯净硅灰石矿石
+item.dustImpureMiessiite.name=含杂硅灰石粉
+item.dustPureMiessiite.name=纯净硅灰石粉
+item.itemDustMiessiite.name=硅灰石粉
+item.itemDustTinyMiessiite.name=小堆硅灰石粉
+item.itemDustSmallMiessiite.name=小撮硅灰石粉
+
+tile.OreComancheite.name=溴汞石矿石
+item.crushedComancheite.name=粉碎溴汞石矿石
+item.crushedCentrifugedComancheite.name=离心粉碎溴汞石矿石
+item.crushedPurifiedComancheite.name=纯净粉碎溴汞石矿石
+item.dustImpureComancheite.name=含杂溴汞石矿石
+item.dustPureComancheite.name=纯净溴汞石粉
+item.itemDustComancheite.name=溴汞石粉
+item.itemDustTinyComancheite.name=小堆溴汞石粉
+item.itemDustSmallComancheite.name=小撮溴汞石粉
+
+tile.OreKoboldite.name=妖金矿石
+item.crushedKoboldite.name=粉碎妖金矿石
+item.crushedCentrifugedKoboldite.name=离心粉碎妖金矿石
+item.crushedPurifiedKoboldite.name=纯净粉碎妖金矿石
+item.dustImpureKoboldite.name=含杂妖金粉
+item.dustPureKoboldite.name=纯净妖金粉
+item.itemDustKoboldite.name=妖金粉
+item.itemDustTinyKoboldite.name=小堆妖金粉
+item.itemDustSmallKoboldite.name=小撮妖金粉
+
+tile.OrePerroudite.name=溴硫银汞矿石
+item.crushedPerroudite.name=粉碎溴硫银汞矿石
+item.crushedCentrifugedPerroudite.name=离心溴硫银汞矿石
+item.crushedPurifiedPerroudite.name=纯净溴硫银汞矿石
+item.dustImpurePerroudite.name=含杂溴硫银汞粉
+item.dustPurePerroudite.name=纯净溴硫银汞粉
+item.itemDustPerroudite.name=溴硫银汞粉
+item.itemDustTinyPerroudite.name=小堆溴硫银汞粉
+item.itemDustSmallPerroudite.name=小撮溴硫银汞粉
+
+tile.OreDemicheleite.name=重闪石矿石
+item.crushedDemicheleite.name=粉碎重闪石矿石
+item.crushedCentrifugedDemicheleite.name=离心粉碎重闪石矿石
+item.crushedPurifiedDemicheleite.name=纯净粉碎重闪石矿石
+item.dustImpureDemicheleite.name=含杂重闪石粉
+item.dustPureDemicheleite.name=纯净重闪石粉
+item.itemDustDemicheleite.name=重闪石粉
+item.itemDustTinyDemicheleite.name=小堆重闪石粉
+item.itemDustSmallDemicheleite.name=小撮重闪石粉
+
+tile.OreAlburnite.name=铝尖晶石矿石
+item.crushedAlburnite.name=粉碎铝尖晶石矿石
+item.crushedCentrifugedAlburnite.name=离心粉碎铝尖晶石矿石
+item.crushedPurifiedAlburnite.name=纯净粉碎铝尖晶石矿石
+item.dustImpureAlburnite.name=含杂铝尖晶石粉
+item.dustPureAlburnite.name=纯净铝尖晶石粉
+item.itemDustAlburnite.name=铝尖晶石粉
+item.itemDustTinyAlburnite.name=小撮铝尖晶石粉
+item.itemDustSmallAlburnite.name=小堆铝尖晶石粉
+
+tile.OreLautarite.name=碘钙石矿石
+item.crushedLautarite.name=粉碎碘钙石矿石
+item.crushedCentrifugedLautarite.name=离心粉碎碘钙石矿石
+item.crushedPurifiedLautarite.name=纯净粉碎碘钙石矿石
+item.dustImpureLautarite.name=含杂碘钙石粉
+item.dustPureLautarite.name=纯净碘钙石粉
+item.itemDustLautarite.name=碘钙石粉
+item.itemDustTinyLautarite.name=小堆碘钙石粉
+item.itemDustSmallLautarite.name=小撮碘钙石粉
+
+tile.OreBariteRd.name=重晶石(Rd)矿石
+item.crushedBariteRd.name=粉碎重晶石(Rd)矿石
+item.crushedCentrifugedBariteRd.name=离心粉碎 重晶石(Rd)矿石
+item.crushedPurifiedBariteRd.name=纯净粉碎重晶石(Rd)矿石
+item.dustImpureBariteRd.name=含杂 重晶石(Rd)粉
+item.dustPureBariteRd.name=纯净 重晶石(Rd)粉
+item.itemDustBariteRd.name=重晶石(Rd)粉
+item.itemDustTinyBariteRd.name=小堆重晶石(Rd)粉
+item.itemDustSmallBariteRd.name=小撮重晶石(Rd)粉
+
+tile.OreHoneaite.name=碲化金铊矿石
+item.crushedHoneaite.name=粉碎碲化金铊矿石
+item.crushedCentrifugedHoneaite.name=离心粉碎碲化金铊矿石
+item.crushedPurifiedHoneaite.name=纯净粉碎碲化金铊矿石
+item.dustImpureHoneaite.name=含杂碲化金铊粉
+item.dustPureHoneaite.name=纯净碲化金铊粉
+item.itemDustHoneaite.name=碲化金铊粉
+item.itemDustTinyHoneaite.name=小堆碲化金铊粉
+item.itemDustSmallHoneaite.name=小撮碲化金铊粉
+
+tile.OreLafossaite.name=铊盐矿石
+item.crushedLafossaite.name=粉碎铊盐矿石
+item.crushedCentrifugedLafossaite.name=离心粉碎铊盐矿石
+item.crushedPurifiedLafossaite.name=纯净粉碎铊盐矿石
+item.dustImpureLafossaite.name=含杂铊盐粉
+item.dustPureLafossaite.name=纯净铊盐粉
+item.itemDustLafossaite.name=铊盐粉
+item.itemDustTinyLafossaite.name=小堆铊盐粉
+item.itemDustSmallLafossaite.name=小撮铊盐粉
+
+tile.OreKashinite.name=硫铑钛铜矿石
+item.crushedKashinite.name=粉碎硫铑钛铜矿石
+item.crushedCentrifugedKashinite.name=离心粉碎硫铑钛铜矿石
+item.crushedPurifiedKashinite.name=纯净粉碎硫铑钛铜矿石
+item.dustImpureKashinite.name=含杂硫铑钛铜粉
+item.dustPureKashinite.name=纯净硫铑钛铜粉
+item.itemDustKashinite.name=硫铑钛铜粉
+item.itemDustTinyKashinite.name=小堆硫铑钛铜粉
+item.itemDustSmallKashinite.name=小撮硫铑钛铜粉
+
+tile.OreRadioactiveMineralMix.name=奇异矿石
+item.crushedRadioactiveMineralMix.name=粉碎奇异矿石
+item.crushedCentrifugedRadioactiveMineralMix.name=离心粉碎奇异矿石
+item.crushedPurifiedRadioactiveMineralMix.name=纯净粉碎奇异矿石
+item.dustImpureRadioactiveMineralMix.name=含杂奇异粉
+item.dustPureRadioactiveMineralMix.name=纯净奇异粉
+item.itemDustRadioactiveMineralMix.name=奇异粉
+item.itemDustTinyRadioactiveMineralMix.name=小堆奇异粉
+item.itemDustSmallRadioactiveMineralMix.name=小撮奇异粉
+
+tile.OreDemicheleiteBr.name=重闪石(Br)矿石
+item.crushedDemicheleiteBr.name=粉碎重闪石(Br)矿石
+item.crushedCentrifugedDemicheleiteBr.name=离心粉碎重闪石(Br)矿石
+item.crushedPurifiedDemicheleiteBr.name=纯净粉碎重闪石(Br)矿石
+item.dustImpureDemicheleiteBr.name=含杂重闪石(Br)粉
+item.dustPureDemicheleiteBr.name=纯净重闪石(Br)粉
+item.itemDustDemicheleiteBr.name=重闪石(Br)粉
+
+
+//Materials
+
+item.itemIngotTitansteel.name=泰坦锻钢
+item.itemHotIngotTitansteel.name=热泰坦锻钢
+item.itemDustTitansteel.name=泰坦锻钢粉
+item.itemDustTinyTitansteel.name=小堆泰坦锻钢粉
+item.itemDustSmallTitansteel.name=小撮泰坦锻钢粉
+item.itemNuggetTitansteel.name=泰坦锻钢粒
+item.itemPlateTitansteel.name=泰坦锻钢板
+item.itemPlateDoubleTitansteel.name=双重泰坦锻钢板
+item.itemBoltTitansteel.name=泰坦锻钢螺栓
+item.itemRodTitansteel.name=泰坦锻钢杆
+item.itemRodLongTitansteel.name=泰坦锻钢长杆
+item.itemRingTitansteel.name=泰坦锻钢环
+item.itemScrewTitansteel.name=泰坦锻钢螺丝
+item.itemRotorTitansteel.name=泰坦锻钢转子
+item.itemGearTitansteel.name=泰坦锻钢齿轮
+item.itemCellTitansteel.name=泰坦锻钢单元
+tile.Block of Titansteel.name=泰坦锻钢块
+tile.Titansteel Frame Box.name=泰坦锻钢框架
+
+item.itemIngotOctiron.name=Octiron锭
+item.itemHotIngotOctiron.name=热Octiron锭
+item.itemDustOctiron.name=Octiron粉
+item.itemDustTinyOctiron.name=小堆Octiron粉
+item.itemDustSmallOctiron.name=小撮Octiron粉
+item.itemNuggetOctiron.name=Octiron粒
+item.itemPlateOctiron.name=Octiron板
+item.itemPlateDoubleOctiron.name=双重Octiron板
+item.itemBoltOctiron.name=Octiron螺栓
+item.itemRodOctiron.name=Octiron杆
+item.itemRodLongOctiron.name=Octiron长杆
+item.itemRingOctiron.name=Octiron环
+item.itemScrewOctiron.name=Octiron螺丝
+item.itemRotorOctiron.name=Octiron转子
+item.itemGearOctiron.name=Octiron齿轮
+item.itemCellOctiron.name=Octiron单元
+tile.Block of Octiron.name=Octiron块
+tile.Octiron Frame Box.name=Octiron框架
+
+item.itemIngotWatertightSteel.name=防水钢锭
+item.itemHotIngotWatertightSteel.name=热防水钢锭
+item.itemDustWatertightSteel.name=防水钢粉
+item.itemDustTinyWatertightSteel.name=小堆防水钢粉
+item.itemDustSmallWatertightSteel.name=小撮防水钢粉
+item.itemNuggetWatertightSteel.name=防水钢粒
+item.itemPlateWatertightSteel.name=防水钢板
+item.itemPlateDoubleWatertightSteel.name=双重防水钢板
+item.itemBoltWatertightSteel.name=防水钢螺栓
+item.itemRodWatertightSteel.name=防水钢杆
+item.itemRodLongWatertightSteel.name=防水钢长杆
+item.itemRingWatertightSteel.name=防水钢环
+item.itemScrewWatertightSteel.name=防水钢螺丝
+item.itemRotorWatertightSteel.name=防水钢转子
+item.itemGearWatertightSteel.name=防水钢齿轮
+item.itemCellWatertightSteel.name=防水钢单元
+tile.Block of Watertight Steel.name=防水钢块
+tile.Watertight Steel Frame Box.name=防水钢框架
+
+item.itemIngotCelestialTungsten.name=天体钨锭
+item.itemHotIngotCelestialTungsten.name=热天体钨锭
+item.itemDustCelestialTungsten.name=天体钨粉
+item.itemDustTinyCelestialTungsten.name=小堆天体钨粉
+item.itemDustSmallCelestialTungsten.name=小撮天体钨粉
+item.itemNuggetCelestialTungsten.name=天体钨粒
+item.itemPlateCelestialTungsten.name=天体钨板
+item.itemPlateDoubleCelestialTungsten.name=双重天体钨板
+item.itemBoltCelestialTungsten.name=天体钨螺栓
+item.itemRodCelestialTungsten.name=天体钨杆
+item.itemRodLongCelestialTungsten.name=天体钨长杆
+item.itemRingCelestialTungsten.name=天体钨环
+item.itemScrewCelestialTungsten.name=天体钨螺丝
+item.itemRotorCelestialTungsten.name=天体钨转子
+item.itemGearCelestialTungsten.name=天体钨齿轮
+item.itemCellCelestialTungsten.name=天体钨单元
+tile.Block of Celestial Tungsten.name=天体钨块
+tile.Celestial Tungsten Frame Box.name=天体钨框架
+
+item.itemIngotHypogen.name=Hypogen锭
+item.itemHotIngotHypogen.name=热Hypogen锭
+item.itemDustHypogen.name=Hypogen粉
+item.itemDustTinyHypogen.name=小堆Hypogen粉
+item.itemDustSmallHypogen.name=小撮Hypogen粉
+item.itemNuggetHypogen.name=Hypogen粒
+item.itemPlateHypogen.name=Hypogen板
+item.itemPlateDoubleHypogen.name=双重Hypogen板
+item.itemBoltHypogen.name=Hypogen螺栓
+item.itemRodHypogen.name=Hypogen杆
+item.itemRodLongHypogen.name=Hypogen长杆
+item.itemRingHypogen.name=Hypogen环
+item.itemScrewHypogen.name=Hypogen螺丝
+item.itemRotorHypogen.name=Hypogen转子
+item.itemGearHypogen.name=Hypogen齿轮
+item.itemCellHypogen.name=Hypogen单元
+tile.Block of Hypogen.name=Hypogen块
+tile.Hypogen Frame Box.name=Hypogen框架
+
+item.itemIngotArceusAlloy2B.name=阿塞俄斯合金2B锭
+item.itemHotIngotArceusAlloy2B.name=热阿塞俄斯合金2B锭
+item.itemDustArceusAlloy2B.name=阿塞俄斯合金2B粉
+item.itemDustTinyArceusAlloy2B.name=小堆阿塞俄斯合金2B粉
+item.itemDustSmallArceusAlloy2B.name=小撮阿塞俄斯合金2B粉
+item.itemNuggetArceusAlloy2B.name=阿塞俄斯合金2B粒
+item.itemPlateArceusAlloy2B.name=阿塞俄斯合金2B板
+item.itemPlateDoubleArceusAlloy2B.name=双重阿塞俄斯合金2B板
+item.itemBoltArceusAlloy2B.name=阿塞俄斯合金2B螺栓
+item.itemRodArceusAlloy2B.name=阿塞俄斯合金2B杆
+item.itemRodLongArceusAlloy2B.name=Long 阿塞俄斯合金2B杆
+item.itemRingArceusAlloy2B.name=阿塞俄斯合金2B环
+item.itemScrewArceusAlloy2B.name=阿塞俄斯合金2B螺丝
+item.itemRotorArceusAlloy2B.name=阿塞俄斯合金2B转子
+item.itemGearArceusAlloy2B.name=阿塞俄斯合金2B齿轮
+item.itemCellArceusAlloy2B.name=阿塞俄斯合金2B单元
+tile.Block of Arceus Alloy 2B.name=阿塞俄斯合金2B块
+tile.Arceus Alloy 2B Frame Box.name=阿塞俄斯合金2B框架
+
+item.itemIngotChromaticGlass.name=彩色玻璃锭
+item.itemHotIngotChromaticGlass.name=热彩色玻璃锭
+item.itemDustChromaticGlass.name=彩色玻璃粉
+item.itemDustTinyChromaticGlass.name=小堆彩色玻璃粉
+item.itemDustSmallChromaticGlass.name=小撮彩色玻璃粉
+item.itemNuggetChromaticGlass.name=彩色玻璃粒
+item.itemPlateChromaticGlass.name=彩色玻璃板
+item.itemPlateDoubleChromaticGlass.name=双重彩色玻璃板
+item.itemBoltChromaticGlass.name=彩色玻璃螺栓
+item.itemRodChromaticGlass.name=彩色玻璃杆
+item.itemRodLongChromaticGlass.name=彩色玻璃长杆
+item.itemRingChromaticGlass.name=彩色玻璃环
+item.itemScrewChromaticGlass.name=彩色玻璃螺丝
+item.itemRotorChromaticGlass.name=彩色玻璃转子
+item.itemGearChromaticGlass.name=彩色玻璃齿轮
+item.itemCellChromaticGlass.name=彩色玻璃单元
+tile.Block of Chromatic Glass.name=彩色玻璃块   
+tile.Chromatic Glass Frame Box.name=彩色玻璃框架
+
+item.itemIngotAstralTitanium.name=星体钛锭
+item.itemHotIngotAstralTitanium.name=热星体钛锭
+item.itemDustAstralTitanium.name=星体钛粉
+item.itemDustTinyAstralTitanium.name=小堆星体钛粉
+item.itemDustSmallAstralTitanium.name=小撮星体钛粉
+item.itemNuggetAstralTitanium.name=星体钛粒
+item.itemPlateAstralTitanium.name=星体钛板
+item.itemPlateDoubleAstralTitanium.name=双重星体钛板
+item.itemBoltAstralTitanium.name=星体钛螺栓
+item.itemRodAstralTitanium.name=星体钛杆
+item.itemRodLongAstralTitanium.name=星体钛长杆
+item.itemRingAstralTitanium.name=星体钛环
+item.itemScrewAstralTitanium.name=星体钛螺丝
+item.itemRotorAstralTitanium.name=星体钛转子
+item.itemGearAstralTitanium.name=星体钛齿轮
+item.itemCellAstralTitanium.name=星体钛单元
+tile.Block of Astral Titanium.name=星体钛块
+tile.Astral Titanium Frame Box.name=星体钛框架
+
+item.itemIngotTungstenTitaniumCarbide.name=碳化钨钛合金锭
+item.itemHotIngotTungstenTitaniumCarbide.name=热碳化钨钛合金锭
+item.itemDustTungstenTitaniumCarbide.name=碳化钨钛合金粉
+item.itemDustTinyTungstenTitaniumCarbide.name=小堆碳化钨钛合金粉
+item.itemDustSmallTungstenTitaniumCarbide.name=小撮碳化钨钛合金粉
+item.itemNuggetTungstenTitaniumCarbide.name=碳化钨钛合金粒
+item.itemPlateTungstenTitaniumCarbide.name=碳化钨钛合金板
+item.itemPlateDoubleTungstenTitaniumCarbide.name=双重碳化钨钛合金板
+item.itemBoltTungstenTitaniumCarbide.name=碳化钨钛合金螺栓
+item.itemRodTungstenTitaniumCarbide.name=碳化钨钛合金杆
+item.itemRodLongTungstenTitaniumCarbide.name=碳化钨钛合金长杆
+item.itemRingTungstenTitaniumCarbide.name=碳化钨钛合金环
+item.itemScrewTungstenTitaniumCarbide.name=碳化钨钛合金螺丝
+item.itemRotorTungstenTitaniumCarbide.name=碳化钨钛合金转子
+item.itemGearTungstenTitaniumCarbide.name=碳化钨钛合金齿轮
+item.itemCellTungstenTitaniumCarbide.name=碳化钨钛合金单元
+tile.Block of Tungsten Titanium Carbide.name=碳化钨钛合金块
+tile.Tungsten Titanium Carbide Frame Box.name=碳化钨钛合金框架
+
+item.itemIngotNitinol60.name=镍钛诺60锭
+item.itemHotIngotNitinol60.name=热镍钛诺60锭
+item.itemDustNitinol60.name=镍钛诺60粉
+item.itemDustTinyNitinol60.name=小堆镍钛诺60粉
+item.itemDustSmallNitinol60.name=小撮镍钛诺60粉
+item.itemNuggetNitinol60.name=镍钛诺60粒
+item.itemPlateNitinol60.name=镍钛诺60板
+item.itemPlateDoubleNitinol60.name=双重镍钛诺60板
+item.itemBoltNitinol60.name=镍钛诺60螺栓
+item.itemRodNitinol60.name=镍钛诺60杆
+item.itemRodLongNitinol60.name=镍钛诺60长杆
+item.itemRingNitinol60.name=镍钛诺60环
+item.itemScrewNitinol60.name=镍钛诺60螺丝
+item.itemRotorNitinol60.name=镍钛诺60转子
+item.itemGearNitinol60.name=镍钛诺60齿轮
+item.itemCellNitinol60.name=镍钛诺60单元
+tile.Block of Nitinol 60.name=镍钛诺60块
+tile.Nitinol 60 Frame Box.name=镍钛诺60框架
+
+item.itemIngotAdvancedNitinol.name=进阶镍钛诺锭
+item.itemHotIngotAdvancedNitinol.name=热进阶镍钛诺锭
+item.itemDustAdvancedNitinol.name=进阶镍钛诺粉
+item.itemDustTinyAdvancedNitinol.name=小堆进阶镍钛诺粉
+item.itemDustSmallAdvancedNitinol.name=小撮进阶镍钛诺粉
+item.itemNuggetAdvancedNitinol.name=进阶镍钛诺粒
+item.itemPlateAdvancedNitinol.name=进阶镍钛诺板
+item.itemPlateDoubleAdvancedNitinol.name=双重进阶镍钛诺板
+item.itemBoltAdvancedNitinol.name=进阶镍钛诺螺栓
+item.itemRodAdvancedNitinol.name=进阶镍钛诺杆
+item.itemRodLongAdvancedNitinol.name=进阶镍钛诺长杆
+item.itemRingAdvancedNitinol.name=进阶镍钛诺环
+item.itemScrewAdvancedNitinol.name=进阶镍钛诺螺丝
+item.itemRotorAdvancedNitinol.name=进阶镍钛诺转子
+item.itemGearAdvancedNitinol.name=进阶镍钛诺齿轮
+item.itemCellAdvancedNitinol.name=进阶镍钛诺单元
+tile.Block of Advanced Nitinol.name=进阶镍钛诺块
+tile.Advanced Nitinol Frame Box.name=进阶镍钛诺框架
+
+item.itemIngotArcanite.name=单钾芒硝锭
+item.itemHotIngotArcanite.name=热单钾芒硝锭
+item.itemDustArcanite.name=单钾芒硝粉
+item.itemDustTinyArcanite.name=小堆单钾芒硝粉
+item.itemDustSmallArcanite.name=小撮单钾芒硝粉
+item.itemNuggetArcanite.name=单钾芒硝粒
+item.itemPlateArcanite.name=单钾芒硝板
+item.itemPlateDoubleArcanite.name=双重单钾芒硝板
+item.itemBoltArcanite.name=单钾芒硝螺栓
+item.itemRodArcanite.name=单钾芒硝杆
+item.itemRodLongArcanite.name=单钾芒硝长杆
+item.itemRingArcanite.name=单钾芒硝环
+item.itemScrewArcanite.name=单钾芒硝螺丝
+item.itemRotorArcanite.name=单钾芒硝转子
+item.itemGearArcanite.name=单钾芒硝齿轮
+item.itemCellArcanite.name=单钾芒硝单元
+tile.Block of Arcanite.name=单钾芒硝块
+tile.Arcanite Frame Box.name=单钾芒硝框架
+
+item.itemIngotPikyonium64B.name=Pikyonium 64B锭
+item.itemHotIngotPikyonium64B.name=热Pikyonium 64B锭
+item.itemDustPikyonium64B.name=Pikyonium 64B粉
+item.itemDustTinyPikyonium64B.name=小堆Pikyonium 64B粉
+item.itemDustSmallPikyonium64B.name=小撮Pikyonium 64B粉
+item.itemNuggetPikyonium64B.name=Pikyonium 64B粒
+item.itemPlatePikyonium64B.name=Pikyonium 64B板
+item.itemPlateDoublePikyonium64B.name=双重Pikyonium 64B板
+item.itemBoltPikyonium64B.name=Pikyonium 64B螺栓
+item.itemRodPikyonium64B.name=Pikyonium 64B杆
+item.itemRodLongPikyonium64B.name=Pikyonium 64B长杆
+item.itemRingPikyonium64B.name=Pikyonium 64B环
+item.itemScrewPikyonium64B.name=Pikyonium 64B螺丝
+item.itemRotorPikyonium64B.name=Pikyonium 64B转子
+item.itemGearPikyonium64B.name=Pikyonium 64B齿轮
+item.itemCellPikyonium64B.name=Pikyonium 64B单元
+tile.Block of Pikyonium 64B.name=Pikyonium 64B块
+tile.Pikyonium 64B Frame Box.name=Pikyonium 64B框架
+
+item.itemIngotCinobiteA243.name=Cinobite A243锭
+item.itemHotIngotCinobiteA243.name=热Cinobite A243锭
+item.itemDustCinobiteA243.name=Cinobite A243粉
+item.itemDustTinyCinobiteA243.name=小堆Cinobite A243粉
+item.itemDustSmallCinobiteA243.name=小撮Cinobite A243粉
+item.itemNuggetCinobiteA243.name=Cinobite A243粒
+item.itemPlateCinobiteA243.name=Cinobite A243板
+item.itemPlateDoubleCinobiteA243.name=双重Cinobite A243板
+item.itemBoltCinobiteA243.name=Cinobite A243螺栓
+item.itemRodCinobiteA243.name=Cinobite A243杆
+item.itemRodLongCinobiteA243.name=Cinobite A243长杆
+item.itemRingCinobiteA243.name=Cinobite A243环
+item.itemScrewCinobiteA243.name=Cinobite A243螺丝
+item.itemRotorCinobiteA243.name=Cinobite A243转子
+item.itemGearCinobiteA243.name=Cinobite A243齿轮
+item.itemCellCinobiteA243.name=Cinobite A243单元
+tile.Block of Cinobite A243.name=Cinobite A243块
+tile.Cinobite A243 Frame Box.name=Cinobite A243框架
+
+item.itemIngotLafiumCompound.name=Lafium化合物锭
+item.itemHotIngotLafiumCompound.name=热Lafium化合物锭
+item.itemDustLafiumCompound.name=Lafium化合物粉
+item.itemDustTinyLafiumCompound.name=小堆Lafium化合物粉
+item.itemDustSmallLafiumCompound.name=小撮Lafium化合物粉
+item.itemNuggetLafiumCompound.name=Lafium化合物粒
+item.itemPlateLafiumCompound.name=Lafium化合物板
+item.itemPlateDoubleLafiumCompound.name=双重Lafium化合物板
+item.itemBoltLafiumCompound.name=Lafium化合物螺栓
+item.itemRodLafiumCompound.name=Lafium化合物杆
+item.itemRodLongLafiumCompound.name=Lafium化合物长杆
+item.itemRingLafiumCompound.name=Lafium化合物环
+item.itemScrewLafiumCompound.name=Lafium化合物螺丝
+item.itemRotorLafiumCompound.name=Lafium化合物转子
+item.itemGearLafiumCompound.name=Lafium化合物齿轮
+item.itemCellLafiumCompound.name=Lafium化合物单元
+tile.Block of Lafium Compound.name=Lafium化合物块
+tile.Lafium Compound Frame Box.name=Lafium化合物框架
+
+item.itemIngotKoboldite.name=妖金锭
+item.itemHotIngotKoboldite.name=热妖金锭
+item.itemDustKoboldite.name=妖金粉
+item.itemDustTinyKoboldite.name=小堆妖金粉
+item.itemDustSmallKoboldite.name=小撮妖金粉
+item.itemNuggetKoboldite.name=妖金粒
+item.itemPlateKoboldite.name=妖金板
+item.itemPlateDoubleKoboldite.name=双重妖金板
+item.itemBoltKoboldite.name=妖金螺栓
+item.itemRodKoboldite.name=妖金杆
+item.itemRodLongKoboldite.name=妖金长杆
+item.itemRingKoboldite.name=妖金环
+item.itemScrewKoboldite.name=妖金螺丝
+item.itemRotorKoboldite.name=妖金转子
+item.itemGearKoboldite.name=妖金齿轮
+item.itemCellKoboldite.name=妖金单元
+tile.Block of Koboldite.name=妖金块
+tile.Koboldite Frame Box.name=妖金框架
+
+item.itemIngotAbyssalAlloy.name=深渊合金锭
+item.itemHotIngotAbyssalAlloy.name=热深渊合金锭
+item.itemDustAbyssalAlloy.name=深渊合金粉
+item.itemDustTinyAbyssalAlloy.name=小堆深渊合金粉
+item.itemDustSmallAbyssalAlloy.name=小撮深渊合金粉
+item.itemNuggetAbyssalAlloy.name=深渊合金粒
+item.itemPlateAbyssalAlloy.name=深渊合金板
+item.itemPlateDoubleAbyssalAlloy.name=双重深渊合金板
+item.itemBoltAbyssalAlloy.name=深渊合金螺栓
+item.itemRodAbyssalAlloy.name=深渊合金杆
+item.itemRodLongAbyssalAlloy.name=深渊合金长杆
+item.itemRingAbyssalAlloy.name=深渊合金环
+item.itemScrewAbyssalAlloy.name=深渊合金螺丝
+item.itemRotorAbyssalAlloy.name=深渊合金转子
+item.itemGearAbyssalAlloy.name=深渊合金齿轮
+item.itemCellAbyssalAlloy.name=深渊合金单元
+tile.Block of Abyssal Alloy.name=深渊合金块
+tile.Abyssal Alloy Frame Box.name=深渊合金框架
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Radioactive
+item.dustTechnetium99M.name=锝99M粉
+item.dustTechnetium99.name=锝99粉
+item.dustMolybdenum99.name=钼99粉
+
+//Bags
+item.item.MysticBag.name=神秘袋
+item.item.Eatotron9000.name=Eatotronic 9000
+item.item.ToolBox.name=工人的工具箱
+
+//Cells
+item.Bromine.name=溴单元
+item.Krypton.name=氪单元
+item.cryotheum.name=凛冰单元
+item.pyrotheum.name=烈焰之炽焱单元
+item.GeneticMutagen.name=诱变剂单元
+
+//Ingots
+item.itemHotIngotIncoloy020.name=热耐热铬铁合金-020锭
+item.itemHotIngotIncoloyDS.name=热耐热铬铁合金-DS锭
+item.itemHotIngotTalonite.name=热铬钴磷酸盐合金锭
+item.itemHotIngotHastelloyX.name=热哈斯特洛依合金-X锭
+item.itemHotIngotHastelloyW.name=热哈斯特洛依合金-W碳化物锭
+
+//Railcraft Fix
+item.railcraft.part.plate.lead.name=铅板
+
+//Ions
+item.particle.ion.Hydrogen.name=氢离子
+item.particle.ion.Helium.name=氦离子
+item.particle.ion.Lithium.name=锂离子
+item.particle.ion.Beryllium.name=铍离子
+item.particle.ion.Boron.name=硼离子
+item.particle.ion.Carbon.name=碳离子
+item.particle.ion.Nitrogen.name=氮离子
+item.particle.ion.Oxygen.name=氧离子
+item.particle.ion.Fluorine.name=氟离子
+item.particle.ion.Neon.name=氖离子
+item.particle.ion.Sodium.name=钠离子
+item.particle.ion.Magnesium.name=镁离子
+item.particle.ion.Aluminum.name=铝离子
+item.particle.ion.Silicon.name=硅离子
+item.particle.ion.Phosphorus.name=磷离子
+item.particle.ion.Sulfur.name=硫离子
+item.particle.ion.Chlorine.name=氯离子
+item.particle.ion.Argon.name=氩离子
+item.particle.ion.Potassium.name=钾离子
+item.particle.ion.Calcium.name=钙离子
+item.particle.ion.Scandium.name=钪离子
+item.particle.ion.Titanium.name=钛离子
+item.particle.ion.Vanadium.name=钒离子
+item.particle.ion.Chromium.name=铬离子
+item.particle.ion.Manganese.name=锰离子
+item.particle.ion.Iron.name=铁离子
+item.particle.ion.Cobalt.name=钴离子
+item.particle.ion.Nickel.name=镍离子
+item.particle.ion.Copper.name=铜离子
+item.particle.ion.Zinc.name=锌离子
+item.particle.ion.Gallium.name=镓离子
+item.particle.ion.Germanium.name=锗离子
+item.particle.ion.Arsenic.name=砷离子
+item.particle.ion.Selenium.name=硒离子
+item.particle.ion.Bromine.name=溴离子
+item.particle.ion.Krypton.name=氪离子
+item.particle.ion.Rubidium.name=铷离子
+item.particle.ion.Strontium.name=锶离子
+item.particle.ion.Yttrium.name=钇离子
+item.particle.ion.Zirconium.name=锆离子
+item.particle.ion.Niobium.name=铌离子
+item.particle.ion.Molybdenum.name=钼离子
+item.particle.ion.Technetium.name=锝离子
+item.particle.ion.Ruthenium.name=钌离子
+item.particle.ion.Rhodium.name=铑离子
+item.particle.ion.Palladium.name=钯离子
+item.particle.ion.Silver.name=银离子
+item.particle.ion.Cadmium.name=镉离子
+item.particle.ion.Indium.name=铟离子
+item.particle.ion.Tin.name=锡离子
+item.particle.ion.Antimony.name=锑离子
+item.particle.ion.Tellurium.name=碲离子
+item.particle.ion.Iodine.name=碘离子
+item.particle.ion.Xenon.name=氙离子
+item.particle.ion.Cesium.name=铯离子
+item.particle.ion.Barium.name=钡离子
+item.particle.ion.Lanthanum.name=镧离子
+item.particle.ion.Cerium.name=铈离子
+item.particle.ion.Praseodymium.name=镨离子
+item.particle.ion.Neodymium.name=钕离子
+item.particle.ion.Promethium.name=钷离子
+item.particle.ion.Samarium.name=钐离子
+item.particle.ion.Europium.name=铕离子
+item.particle.ion.Gadolinium.name=钆离子
+item.particle.ion.Terbium.name=铽离子
+item.particle.ion.Dysprosium.name=镝离子
+item.particle.ion.Holmium.name=钬离子
+item.particle.ion.Erbium.name=铒离子
+item.particle.ion.Thulium.name=铥离子
+item.particle.ion.Ytterbium.name=镱离子
+item.particle.ion.Lutetium.name=镏离子
+item.particle.ion.Hafnium.name=铪离子
+item.particle.ion.Tantalum.name=钽离子
+item.particle.ion.Tungsten.name=钨离子
+item.particle.ion.Rhenium.name=铼离子
+item.particle.ion.Osmium.name=锇离子
+item.particle.ion.Iridium.name=铱离子
+item.particle.ion.Platinum.name=铂离子
+item.particle.ion.Gold.name=金离子
+item.particle.ion.Mercury.name=汞离子
+item.particle.ion.Thallium.name=铊离子
+item.particle.ion.Lead.name=铅离子
+item.particle.ion.Bismuth.name=铋离子
+item.particle.ion.Polonium.name=钋离子
+item.particle.ion.Astatine.name=砹离子
+item.particle.ion.Radon.name=氡离子
+item.particle.ion.Francium.name=钫离子
+item.particle.ion.Radium.name=镭离子
+item.particle.ion.Actinium.name=锕离子
+item.particle.ion.Thorium.name=钍离子
+item.particle.ion.Protactinium.name=镤离子
+item.particle.ion.Uranium.name=铀离子
+item.particle.ion.Neptunium.name=镎离子
+item.particle.ion.Plutonium.name=钚离子
+item.particle.ion.Americium.name=銤离子
+item.particle.ion.Curium.name=锔离子
+item.particle.ion.Berkelium.name=锫离子
+item.particle.ion.Californium.name=锎离子
+item.particle.ion.Einsteinium.name=锿离子
+item.particle.ion.Fermium.name=镄离子
+item.particle.ion.Mendelevium.name=钔离子
+item.particle.ion.Nobelium.name=锘离子
+item.particle.ion.Lawrencium.name=铹离子
+item.particle.ion.Rutherfordium.name=鈩离子
+item.particle.ion.Dubnium.name=𬭊离子
+item.particle.ion.Seaborgium.name=𨭎离子
+item.particle.ion.Bohrium.name=𬭛离子
+item.particle.ion.Hassium.name=𬭶离子
+item.particle.ion.Meitnerium.name=鿏离子
+item.particle.ion.Darmstadtium.name=𫟼离子
+item.particle.ion.Roentgenium.name=錀离子
+item.particle.ion.Copernicium.name=鎶离子
+item.particle.ion.Nihonium.name=鉨离子
+item.particle.ion.Flerovium.name=鈇离子
+item.particle.ion.Moscovium.name=Mc离子
+item.particle.ion.Livermorium.name=鉝离子
+item.particle.ion.Tennessine.name=Ts离子
+item.particle.ion.Oganesson.name=Og离子
+
+
+item.particle.base.Graviton.name=引力
+item.particle.base.Up.name=上夸克
+item.particle.base.Down.name=下夸克
+item.particle.base.Charm.name=魅力夸克
+item.particle.base.Strange.name=奇异夸克
+item.particle.base.Top.name=顶端夸克
+item.particle.base.Bottom.name=底部夸克
+item.particle.base.Electron.name=电子
+item.particle.base.Electron Neutrino.name=电子中微子
+item.particle.base.Muon.name=μ介子
+item.particle.base.Muon Neutrino.name=μ中微子
+item.particle.base.Tau.name=τ
+item.particle.base.Tau Neutrino.name=τ中微子
+item.particle.base.Gluon.name=胶子
+item.particle.base.Photon.name=光子
+item.particle.base.Z Boson.name=Z玻色子
+item.particle.base.W Boson.name=W玻色子
+item.particle.base.Higgs Boson.name=希格斯玻色子
+item.particle.base.Proton.name=质子
+item.particle.base.Neutron.name=中子
+item.particle.base.Lambda.name=λ
+item.particle.base.Omega.name=Ω
+item.particle.base.Pion.name=介子
+item.particle.base.ETA Meson.name=η介子
+
+//Added 12/1/19
+
+tile.playerDoorGlass.name=玻璃自动门
+tile.playerDoorCactus.name=仙人掌自动门
+tile.playerDoorIce.name=冰自动门
+tile.playerDoorIron.name=铁自动门
+tile.playerDoorWood.name=木自动门
+
+
+//This zh_CN.lang is translation by huajijam for GregTech++ (18/1/19)
