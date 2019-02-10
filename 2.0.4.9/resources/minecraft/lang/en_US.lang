@@ -26,7 +26,7 @@ gtnh.quest5.desc=Now that you've got a shelter, crafting table, and a place to s
 
 #Quest_6.You reap...
 gtnh.quest6.name=You reap...
-gtnh.quest6.desc=You won't always get food rewards from this book, so it might be a good idea to take care of that problem. As you've created a hoe already, go and find some water nearby and make a field. Let's trade some sticks for a carrot, so you can start your own farm.
+gtnh.quest6.desc=You won't always get food rewards from this book, so it might be a good idea to take care of that problem. As you've created a hoe already, go and find some water nearby and make a field.  With this modpack you can only make farmland within range of water. Let's trade some sticks for a carrot, so you can start your own farm.
 
 #Quest_7....what you sow
 gtnh.quest7.name=...what you sow
@@ -90,7 +90,7 @@ gtnh.quest21.desc=While bored, you thought that it might be a good idea to take 
 
 #Quest_22.Finite water!?
 gtnh.quest22.name=Finite water!?
-gtnh.quest22.desc=Finite water is a problem, that's for sure. Last night, you had an idea. If you can drink cacti, you should also be able make water out of 8 cacti and use that for most recipes that require water. How cool is that? So what about another trade? 10 wood for... 3 cacti so you can setup a farm. Deal?\n\nTo automate the farm, place a string next to the cactus and a sand on top of the string. Now when the cactus grows, it will automatically break!  You can stack this horizontally and vertically to make a very efficient cactus farm.  Use water to redirect the cactus to a convenient pickup location or to a above a hopper.\n\nFirst player to make a base running off of only cactus water gets a cape!
+gtnh.quest22.desc=Finite water is a problem, that's for sure. Last night, you had an idea. If you can drink cacti, you should also be able make water out of 8 cacti and use that for most recipes that require water. How cool is that? So what about another trade? 10 wood for... 3 cacti so you can setup a farm. Deal?\n\nTo automate the farm, place a string next to the cactus and a sand on top of the string. Now when the cactus grows, it will automatically break!  You can stack this horizontally and vertically to make a very efficient cactus farm.  Use water to redirect the cactus to a convenient pickup location or to above a hopper.\n\nFirst player to make a base running off of only cactus water gets a cape!
 
 #Quest_23.Something to carry liquids
 gtnh.quest23.name=Something to carry liquids
@@ -138,7 +138,7 @@ gtnh.quest33.desc=While using your flint tools is fun in terms of killing pigs a
 
 #Quest_34.Aluminini...um...?
 gtnh.quest34.name=Aluminini...um...?
-gtnh.quest34.desc=However it is spelled, you will need it. You can find it in chunks of gravel on the surface. Try searching in rivers. (This quest is optional, but recommended.)
+gtnh.quest34.desc=However it is spelled, you will need it. You can find it in chunks of gravel on the surface.\n\nUse as little as possible and save the rest for when you get a macerator in Steam age.
 
 #Quest_35.Making bronze
 gtnh.quest35.name=Making bronze
@@ -178,7 +178,7 @@ gtnh.quest43.desc=You find out that cotton is very useful, it can be used to mak
 
 #Quest_44.Welcome to Tier 1
 gtnh.quest44.name=Welcome to Tier 1
-gtnh.quest44.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.\nThis device need to filled with water to generate steam. If it runs dry and touche water it will be explode.  You can put water from the botton side with GT pipes.
+gtnh.quest44.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.\n\nFor water, check out the Water Siding Tank multiblock in the Multiblock goals tab.\n\nTo connect up your boilers, be sure to provide water from the bottom.  Wooden pipes are fine for this.  Make sure you never run out of water - adding water to a hot boiler will cause it to explode!\n\nSteam will come out from the sides.  Remember, steam is hot!  It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam.  Cover them with wooden planks or paper.
 
 #Quest_45.Multiblock tanks... Railcraft tanks
 gtnh.quest45.name=Multiblock tanks... Railcraft tanks
@@ -186,7 +186,7 @@ gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the c
 
 #Quest_46.More advanced alloys
 gtnh.quest46.name=More advanced alloys
-gtnh.quest46.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? \n\nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...
+gtnh.quest46.desc=Your smeltery does a great job mixing metals into alloys, but it's not very efficient, and limited in its complexity. You need something new, so why not put your steam to some use? \n\nIt might also come in handy when processing raw rubber. You should keep an eye on recipes to see when machines offer better options to make items...\n\nNOTE: Like all steam machines, the output port doubles as a steam outlet when recipes complete. It must not be blocked. Also, steam is hot, remember? Change the output sideby whacking with a wrench. The 3x3 grid will show you which side the output will move to when you whack it.
 
 #Quest_47.Upgrade: High speed alloys
 gtnh.quest47.name=Upgrade: High speed alloys
@@ -202,7 +202,7 @@ gtnh.quest49.desc=In order to get more machines, you'll need pistons. But not th
 
 #Quest_50.Macerator v1.0!
 gtnh.quest50.name=Macerator v1.0!
-gtnh.quest50.desc=Finally you are able to make a device that will replace your mortar. However, the "no-durability" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.
+gtnh.quest50.desc=Finally you are able to make a device that will replace your mortar. However, the "no-durability" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.\n\nThe macerator will double your ore output. Put ores through it instead of smelting directly.\n\nNOTE: Remember, don't block the output port and don't stand behind it.
 
 #Quest_51.Extracting stuff
 gtnh.quest51.name=Extracting stuff
@@ -250,7 +250,7 @@ gtnh.quest61.desc=With a more durable steel casing, you can use lava to make ste
 
 #Quest_62.The power of the sun
 gtnh.quest62.name=The power of the sun
-gtnh.quest62.desc=The sun has quite a bit of power, so why not use it to produce steam? \n\nHint: Just remember that the solar boiler calcifies and becomes less efficient over time.\nFill it with water on the bottom side to produce steam.
+gtnh.quest62.desc=The sun has quite a bit of power, so why not use it to produce steam? \n\nFill it with water on the bottom side to produce steam from the other sides.\n\nHint: The solar boiler calcifies and becomes less efficient over time.
 
 #Quest_63.Using steam to cook things
 gtnh.quest63.name=Using steam to cook things
@@ -258,7 +258,7 @@ gtnh.quest63.desc=A rather slow process, but it's more efficient than using a re
 
 #Quest_64.Upgrade: Better furnace
 gtnh.quest64.name=Upgrade: Better furnace
-gtnh.quest64.desc=An updated version of the steam furnace. Uses more steam, but is almost twice as fast. (This quest is optional)\nYou need to filled this device with water to produce steam. Not let it run dry or it will explode.\nWater goes to the bottom side via GT Pipes.
+gtnh.quest64.desc=An updated version of the steam furnace. Uses more steam, but is almost twice as fast. (This quest is optional)
 
 #Quest_65.Blastoff!
 gtnh.quest65.name=Blastoff!
@@ -298,11 +298,11 @@ gtnh.quest73.desc=All machines need a hull to keep their private parts together.
 
 #Quest_74.You are not prepared!!!
 gtnh.quest74.name=You are not prepared!!!
-gtnh.quest74.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources...\nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base.  Taller/wider smelteries can do more items at one time, conserving fuel.
+gtnh.quest74.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources...\n\nThe aluminium oreberries can be planted on cropsticks, and macerated to get small quantites of aluminium for molds if you cannot find aluminium gravel.\n\nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base.  Taller/wider smelteries can do more items at one time, conserving fuel.
 
 #Quest_75.The water dilemma
 gtnh.quest75.name=The water dilemma
-gtnh.quest75.desc=Finite water is a problem. But fear not, there are solutions! I shall guide you to a steady supply of water.\nBe sure the tank containers must see sky for the maximum output.\nIf rainfalls the tank will fill much quicker.\nThe humidity of a biome is very important and will increase the fill rate.\nNearby placed tanks will be autofilled by the tank.
+gtnh.quest75.desc=Finite water is a problem. But fear not, there are solutions! I shall guide you to a steady supply of water. The Railcraft water siding tanks provides enough water to last the early game.\n\nThe humidity of a biome is very important and will increase the base fill rate.\n\nIf it is raining, the tank will fill much quicker.\n\nAt least one block of the water siding tank must see sky for the maximum output.\n\nThe best part is that you don't need a pump to extract water.  Tanks and pipes placed next to it will be autofilled by the water siding tank.\n
 
 #Quest_76.Time to get some steel
 gtnh.quest76.name=Time to get some steel
@@ -310,7 +310,7 @@ gtnh.quest76.desc=You need steel? Uhh... fine. Let's get busy...\n\nHint: The br
 
 #Quest_77.EBF-Time
 gtnh.quest77.name=EBF-Time
-gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)\n\nA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers = 78%.\n\nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.\n\nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.\n\nIf the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber.
+gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.\n\nGetting the heating coils might be a little tricky...\n\n(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)\n\nA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers = 78 percent.\n\nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.\n\nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.\n\nIf the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber.
 
 #Quest_78.Upgrade #1: More heat - Kanthal Coils
 gtnh.quest78.name=Upgrade #1: More heat - Kanthal Coils
@@ -374,7 +374,7 @@ gtnh.quest92.desc=The fourth item you'll need a lot of, and is also a pain to cr
 
 #Quest_93.You're gonna hate this #2
 gtnh.quest93.name=You're gonna hate this #2
-gtnh.quest93.desc=The second item you'll need a lot of. When you want to get fluid out of tanks you'll need one. \n\nHint: Goes pretty well with fluid pipes or GT machines, adjust with a screwdriver. It can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.
+gtnh.quest93.desc=The second item you'll need a lot of. When you want to get fluid out of tanks you'll need one. \n\nHint: Attach to fluid pipes or GT machines. Adjust the direction and redstone behavior with a screwdriver. Place it on the side facing the tank or machine. \n\nWhen a GT pipe or machine has any cover, including a pump cover, wrenching the machine back into an item keeps the cover on that machine.  The cover stays with the machine in the same N S E W direction when it is placed down again. This way you can arrange pump and conveyor covers on a machine outside a tight spot and place it there. To remove covers, use the crowbar.\n\nIt can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.
 
 #Quest_94.Electric macerator
 gtnh.quest94.name=Electric macerator
@@ -1178,7 +1178,7 @@ gtnh.quest293.desc=...will break your bones! These guys are hard as rock (Insert
 
 #Quest_294.The best of all
 gtnh.quest294.name=The best of all
-gtnh.quest294.desc=Highly durable, can carry a lot of items and is to be considered the "top tier" golem. But you are sure there is more...
+gtnh.quest294.desc=Highly durable, can carry a lot of items and is considered the "top tier" golem. But you are sure there is more...\n\nYou'll need to chisel a thaumium block to get the right kind you need for the golem.
 
 #Quest_295.Essentia storage
 gtnh.quest295.name=Essentia storage
@@ -1848,8 +1848,8 @@ gtnh.quest460.desc=Triggers after you craft a Vortex.
 gtnh.quest461.name=Trigger The End Dim
 gtnh.quest461.desc=Triggers if you arrived at The End.
 
-#Quest_462.Trigger Amorphic Crystal
-gtnh.quest462.name=Trigger Amorphic Crystal
+#Quest_462.Trigger Amorphic Catalyst
+gtnh.quest462.name=Trigger Amorphic Catalyst
 gtnh.quest462.desc=Triggers if you craft the Catalyst.
 
 #Quest_463.Runes tier 2
@@ -1904,13 +1904,13 @@ gtnh.quest474.desc=Find iron, copper and tin ore. Very funny... How can you mine
 gtnh.quest475.name=Upgrade #4: Upgrade tier 5 - HSS-G Coils
 gtnh.quest475.desc=To process more advanced materials like HSS-E, HSS-S, naquadah or draconium you need more than 4500K. Time to upgrade your EBF to 5400k.
 
-#Quest_476.Upgrade #3: Upgrade tier 6 - Naquadah Coils
-gtnh.quest476.name=Upgrade #3: Upgrade tier 6 - Naquadah Coils
+#Quest_476.Upgrade #5: Upgrade tier 6 - Naquadah Coils
+gtnh.quest476.name=Upgrade #5: Upgrade tier 6 - Naquadah Coils
 gtnh.quest476.desc=To process more advanced materials like naquadah-alloy you need more than 5400K. Upgrade your EBF to 7200k to increase the heat.
 
 #Quest_477.Upgrade #6: Upgrade tier 7 - Naquadah Alloy Coils
 gtnh.quest477.name=Upgrade #6: Upgrade tier 7 - Naquadah Alloy Coils
-gtnh.quest477.desc=To process the most advanced materials like neutronium, fluxed-electrum or awakened draconium you need more than 7200K. Upgrade your EBF to 9001k. (OVER 9000!!!)
+gtnh.quest477.desc=To process the more advanced materials like neutronium or fluxed-electrum  you need more than 7200K. Upgrade your EBF to 9001k. (OVER 9000!!!)
 
 #Quest_478.Flint and steel
 gtnh.quest478.name=Flint and steel
@@ -2234,15 +2234,15 @@ gtnh.quest557.desc=720,000 EU per cell. Yes, yes, this is very good! Make some c
 
 #Quest_558.What can I put all these items in?
 gtnh.quest558.name=What can I put all these items in?
-gtnh.quest558.desc=After you make your first steel you're able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it's a bit bigger than a small chest. Later you can make it even larger. You can put one on your back and set it to automatically pick up stuff. The maximum you can have in your inventory at once is 4.
+gtnh.quest558.desc=After you make your first steel you're able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it's a bit bigger than a small chest. Later you can make it even larger. You can put one on your back and set it to automatically pick up stuff. \n\nCheck out the "Backpacks" control configuration "Open Backpacks" and remap it to a new key. \n\nThe maximum you can have in your inventory at once is 4.
 
 #Quest_559.Low pressure boiler tank
 gtnh.quest559.name=Low pressure boiler tank
-gtnh.quest559.desc=The low pressure boiler tank is the easiest way to store steam. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.
+gtnh.quest559.desc=The low pressure boiler tank is the easiest way to store steam. The firebox needs this tank on top to produce steam. The bigger the boiler the slower it heats up, but it will produce more steam when heated up.\n\nExtract steam by attaching a pipe to the boiler tank.
 
 #Quest_560.Railcraft steam power
 gtnh.quest560.name=Railcraft steam power
-gtnh.quest560.desc=As an alternative way to make steam you can use the railcraft boilers. They require at least one firebox.\nMore than one size is possible: (1x1 mentioned above) 2x2 and 3x3. Each boiler needs 1, 2 or 3 layers of tanks on top, depending on the size.
+gtnh.quest560.desc=As an alternative way to make steam you can use the railcraft boilers. They require at least one firebox.\nMore than one size is possible: (1x1 mentioned above) 2x2 and 3x3. \n\nProvide water and coal to the firebox. Make sure you don't run out of water or...BOOM.\n\nEach boiler needs 1, 2 or 3 layers of tanks on top, equal to the size (1x1x1, 2x2x2, or 3x3x3).
 
 #Quest_561.Liquid fuelled firebox
 gtnh.quest561.name=Liquid fuelled firebox
@@ -2250,7 +2250,7 @@ gtnh.quest561.desc=Cresosote oil into steam! After you make your first steel you
 
 #Quest_562.High pressure boiler tank
 gtnh.quest562.name=High pressure boiler tank
-gtnh.quest562.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!
+gtnh.quest562.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!\n\nExtract steam by attaching a pipe to the boiler tank.
 
 #Quest_563.Bookshelves...? Ah forestry... Multiblock farms!
 gtnh.quest563.name=Bookshelves...? Ah forestry... Multiblock farms!
@@ -2350,7 +2350,7 @@ gtnh.quest586.desc=Want to make some automated farms or work with bee and tree b
 
 #Quest_587.Magnetize your rods
 gtnh.quest587.name=Magnetize your rods
-gtnh.quest587.desc=Magnetic steel rods need a polariser to craft. Make a few for your coils.
+gtnh.quest587.desc=Magnetic steel rods need a polariser to craft. Make a few for your coils.\nMv Motors need the Polariser so better build them soon.
 
 #Quest_588.Finding Apatite
 gtnh.quest588.name=Finding Apatite
@@ -2398,7 +2398,7 @@ gtnh.quest598.desc=The most efficient way to get antimony for batteries is to ce
 
 #Quest_599.Thermal centrifuge
 gtnh.quest599.name=Thermal centrifuge
-gtnh.quest599.desc=A machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods.
+gtnh.quest599.desc=A machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods. It's usefull for tiny piles of Gallium out of Zinc or Sphalerite Ore for your Diodes needed in good circuits.
 
 #Quest_600.Hunger, no more
 gtnh.quest600.name=Hunger, no more
@@ -2694,7 +2694,7 @@ gtnh.quest672.desc=Really? Yes for the more advanced boats you need a new shape 
 
 #Quest_673.LV extruder
 gtnh.quest673.name=LV extruder
-gtnh.quest673.desc=The extruder is not very useful in the LV age. But it will extrude your next tier of boat, make rubber sheets more efficiently, or make some Tinkers Construct tool parts.
+gtnh.quest673.desc=The extruder is not very useful in the LV age. But it will extrude your next tier of boat, make rubber sheets more efficiently, get you extra fluid cells, or make some Tinkers Construct tool parts.
 
 #Quest_674.Wooden rail variants
 gtnh.quest674.name=Wooden rail variants
@@ -2872,13 +2872,13 @@ gtnh.quest716.desc=The Nether is full of different kinds of quartz. For the emit
 gtnh.quest717.name=Good Circuits
 gtnh.quest717.desc=Good circuits are an improvement on basic circuits. They are a component of all MV gregtech machines. Be sure you build the electric blast furnace first, so you can process some aluminium dust into ingots.\n\nThis will also open the Project Red tab, one of the early automation options.
 
-#Quest_718.Crop Breeding
-gtnh.quest718.name=Crop Breeding
-gtnh.quest718.desc=If you ever wanted to know how crop breeding works you are in the right place. Get some crops (the sticks) and some seeds from farming with a hoe or mattock.\nMake a plot of farmland with your tool and place water in the middle. Make sure the area is well lit and quite big. \nNow place crop sticks in each corner of the field. Then place the seeds on the sticks and wait a bit.\nWhen they are fully grown you can put double crop sticks in the remaining spots by using crop sticks on already placed crop sticks.\nWith some luck you might get a new unknown seed which can be scanned later.\nWeeds need to be removed with a trowel otherwise your field will become overgrown by them.\n\nYou unlock the cooking, farming, fishing tab. Go to this tab to make more crop breeding quests.\n\nHint:\nCropsticks can be planted on other soil also like Botany farmland or  Ztongs Garden Soil
+#Quest_718.Moron's Manual to Fecund Farms
+gtnh.quest718.name=Moron's Manual to Fecund Farms
+gtnh.quest718.desc=If you ever wanted to know how crop breeding works you are in the right place. Get some crops (the sticks) and some seeds from farming with a hoe or mattock. You can also place some plants and berries directly on crop sticks. Good plants to start with are flowers, wheat, cactus and sugarcane. \n\nMake a plot of farmland with your tool and place water in the middle. For now, make 3x1 plots, separated by a row of dirt or cobble. You want to be able to see the center of each column of 3x1 plots all at once, like this:\nFFFdddFFF\ndddFFFddd\nFFFdddFFF\ndddFFFddd\nFFFdWdFFF\ndddFFFddd\nFFFdddFFF\ndddFFFddd \nFFFdddFFF\nNow place crop sticks in each end of the 3x1 plot. Then place the seeds on the sticks and wait a bit.\n\nWhen they are almost fully grown you can put double crop sticks in the center spots by using crop sticks on already placed crop sticks. This center area can now grow new crops, even new species.\n\nWith some luck you might get a new unknown seed which can be scanned later.\n\nWeeds need to be removed with a trowel  or spade otherwise your field will become overgrown by them.\n\nUsing 3x1 plots is easy and not much work.  Check them every 5-10 minutes to remove weeds and gather new seeds. If you forget, you only lose one or two seeds. \n\nIf you find a really nice seed, you can do 3x3 or 5x5 plots with the nice seed in the middle and others next to it for crossing. But this requires more babysitting since weeds could destroy the whole field.\n\nDon't leave new crops in these intensive fields. Pull them out and hopefully get a seedbag. Put low stat seeds in production fields that don't require babysitting. Keep the high stat seeds for more crossing. \n\nCrossing happens when 2 or more almost mature crops are next to a double cropstick. There is a 90 percent change of getting the same species as the parents. The rest of the time will be a mutation. More details in the IC2 cropnalyzer quest.
 
 #Quest_719.First Breeding
 gtnh.quest719.name=First Breeding
-gtnh.quest719.desc=New plants have grown on your crop sticks. You can harvest the crop by right clicking it or by left clicking with a seed bag eventually - this will destroy the plant though. Collect 8 seeds of any kind.
+gtnh.quest719.desc=New plants have grown on your crop sticks. You can harvest the crop by right clicking it.\n\nLeft clicking with a seed bag will destroy the plant and replace it with the seedbag, so be careful. Collect 8 seeds of any kind.\n\nTo unlock the next quest, you will need the LV scanner.
 
 #Quest_720.Weed II
 gtnh.quest720.name=Weed II
@@ -2886,7 +2886,7 @@ gtnh.quest720.desc=Weeds, weeds, and more weeds. You get so many of them while c
 
 #Quest_721.Unknown seeds no more
 gtnh.quest721.name=Unknown seeds no more
-gtnh.quest721.desc=You have a lot of unknown seeds already. Use your scanner to scan all the seeds.\n \nSeeds can be planted again to breed better and more resilient crops.\n\nLater you can use your portable scanner to see the crop stats while still in the ground.\n\nGrowability depends on having dirt (4 max), biome (swampy is best), air quality (Y>124 and don't place a lot above/around your plants), hydration, and fertilizer.  When plant stats get high enough, they will actually die without enough Growability.
+gtnh.quest721.desc=You have a lot of unknown seeds already. Use your scanner to scan all the seeds.\n \nSeeds can be planted again to breed better and more resilient crops.\n\nLater you can use your portable scanner to see the crop stats while still in the ground.\n\nGrowability depends on having dirt beneath your crop(4 max), biome (swampy is best, followed by jungle and mushroom - basically any humid or wet biome such as tropical rainforest or bayou), air quality (Up toY=124 and don't place a lot above/around your plants), hydration, and fertilizer.  When the crop tier and plant stats get high enough, they will actually die without enough Growability.\n\nAs long as you water and fertilize them, you can pretty much grow crops anywhere, but as you improve the stats you have to optimize their environmental conditions.\n\nIf the Growth stat gets too high, greather than 24 or so, the plant will spread weeds onto neighbors.\n\nSome crops, such as Redwheat, require certain light levels to crossbreed or grow.
 
 #Quest_722.Speed up your plant growth
 gtnh.quest722.name=Speed up your plant growth
@@ -3018,7 +3018,7 @@ gtnh.quest753.desc=Stainless steel ingots are made in the electric blast furnace
 
 #Quest_754.MV Energy Hatch
 gtnh.quest754.name=MV Energy Hatch
-gtnh.quest754.desc=Some materials like stainless steel require 480 EU/t. Your LV hatches are not good enough. Craft a minimum of two MV hatches to upgrade your electric blast furnace to HV.
+gtnh.quest754.desc=Some materials like stainless steel require 480 EU/t. Your LV hatches are not good enough. Craft a minimum of two MV hatches to upgrade your electric blast furnace to HV.\nIf you not make some Ultra Low Power ICs go and make some wafers first.
 
 #Quest_755.Better than Duct Tape
 gtnh.quest755.name=Better than Duct Tape
@@ -3064,13 +3064,13 @@ gtnh.quest764.desc=Dynamite is the most basic explosive you can use in the implo
 gtnh.quest765.name=Time to oil drill!
 gtnh.quest765.desc=Pumps are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE oil. This multiblock will help with that but you will need to search for oil using a seismic prospector. You can find raw, light and heavy oil. There's also a chance to find natural gas.\n\nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. \n\nLater you can upgrade the oil drilling rig so it extracts from more than one chunk at a time.\n\nYou need mining pipes in the machine block.
 
-#Quest_766.Let's get it crackin!
-gtnh.quest766.name=Let's get it crackin!
-gtnh.quest766.desc=Cracking oil products like light and heavy fuel with the oil cracker is faster and more efficent than using a chemical reactor. Cracked products will result in better by-products in the distillation tower. It is a smart idea to get this multiblock since you are going to need TONS of industrial TNT for advanced tier rockets. \n\nIf you add steam the amout of EU/t will be reduced by 50 percent and if you add hydrogen the output will be increased by 30 percent.\n\nThe 16 coils form 2 vertical rings of 8 on either side of the controller. The casings between the rings can be replaced with a hatch for steam/hydrogen input. Energy hatch and maintenance hatch can replace any of the casings. The input product hatch and output product hatch must replace one of the casings outside of the coils.\n\nHint: Only GT/Railcraft steam can be used, not ic2 steam.
+#Quest_766.Let's get crackin!
+gtnh.quest766.name=Let's get crackin!
+gtnh.quest766.desc=Cracking oil products like light and heavy fuel with the oil cracker is faster and more efficent than using a chemical reactor, producing 25 percent more output. Cracked products will result in additional by-products in the distillation tower. It is a smart idea to get this multiblock since you are going to need TONS of industrial TNT from Toluene for advanced tier rockets. \n\nThe 16 coils form 2 vertical rings of 8 on either side of the controller. The casings between the rings can be replaced with a hatch for steam/hydrogen input. Energy hatch and maintenance hatch can replace any of the casings. The input product hatch and output product hatch must replace one of the casings outside of the coils.\n\nHint: Only GT/Railcraft steam can be used, not ic2 steam.
 
 #Quest_767.Analyzing the soil
 gtnh.quest767.name=Analyzing the soil
-gtnh.quest767.desc=To determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking an Advanced Seismic Prospector with 2 Powderbarrels, 4 Glyceryl Trinitate cells, 8 TNT or 16 TNT. Then use a Data Stick to extract the data by right clicking on it after the animation has finished.\nNow you need to put the analyzed data stick in a scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have at least 144 mb squid ink in it. (Only gregtech machines will work)\n\nAfter the process is done take the printed pages and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue. Don't assemble more than one book at time.\n\nTADA now you have a book with detailed info about the chunks you scanned.\n\nNote: Each oilfield is 8x8 chunks, and always on a by 8 chunk boundary. Within the field the amount can vary +- 25 percent. The amount reported in the book is the minimum and maximum per oilfield across all chunks in the field. The prospector reports on 3x3 oil fields at all tiers with the center oil field where the seismic prospector is located. Oil extraction rate depends on many factors, check the wiki for details. In general, anything above 300 is really good. The total amount in the chunk is complicated. At higher tiers, it scans more chunks for ores.
+gtnh.quest767.desc=Tired of looking for ores by hand? Want to find deep oil that will last a long time? A seismic prospector will tell you the ores in the surrounding chunk in a handy book you can read, and also the oil in the oilfields beneath each 8x8 chunks.\n\nTo determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking an Advanced Seismic Prospector with 2 Powderbarrels, 4 Glyceryl Trinitate cells, 8 TNT or 16 TNT.  Make sure you wait a few seconds after placing the prospector before applying the explosives.\n\nThen use a Data Stick to extract the data by right clicking on it after the animation has finished.\n\nNow you need to put the analyzed data stick in a GT scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have at least 144 mb squid ink in it. (Only gregtech machines will work)\n\nAfter the process is done take the printed pages and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue. Don't assemble more than one book at time.\n\nTADA now you have a book with detailed info about the chunks you scanned.\n\nNote: Each oilfield is 8x8 chunks, and always on a by 8 chunk boundary. Within the field the amount can vary +- 25 percent. The amount reported in the book is the minimum and maximum per oilfield across all chunks in the field. The prospector reports on 3x3 oil fields at all tiers with the center oil field where the seismic prospector is located. Oil extraction rate depends on many factors, check the wiki for details. In general, anything above 300 is really good. The total amount in the chunk is complicated. \n\nOre locations are given as the center of the chunk. Ores that are marginal in that chunk may not be found in the center but on an edge. Look at where ores are located and determine the center of the vein. At higher tiers, it scans more chunks for ores.
 
 #Quest_768.You smell like a distillery!
 gtnh.quest768.name=You smell like a distillery!
@@ -3200,8 +3200,8 @@ gtnh.quest798.desc=Making a gold capped greatwood wand requires 35 vis, but your
 gtnh.quest799.name=Don't try to dive with it
 gtnh.quest799.desc=Combining a scuba helmet with a nano helmet in an assembling machine will give you a nano scuba helmet. You'd better not try to dive with it because you can't. It is a part of the new quantum suit helmet.
 
-#Quest_800.Plated Leggings better not try to wear it
-gtnh.quest800.name=Plated Leggings better not try to wear it
+#Quest_800.Plated Leggings - Better not try to wear it
+gtnh.quest800.name=Plated Leggings - Better not try to wear it
 gtnh.quest800.desc=Combining stainless steel platings with some nano leggings in the assembler gives you nano plated leggings. Better not try to wear them because you can't. They are part of the new quantum suit leggings.
 
 #Quest_801.Don't try to walk with it
@@ -3346,7 +3346,7 @@ gtnh.quest835.desc=Every basic circuit needs two resistors to work
 
 #Quest_836.Gallium Arsenide
 gtnh.quest836.name=Gallium Arsenide
-gtnh.quest836.desc=The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.\nYou can get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get crushed ore, you may need a Tinker's Construct tool with the Luck (Fortune) enchant on it. Sphalerite is another source of gallium. Finally you can breed zinc bees, which have a small chance at gallium combs.\nYou can get arsenic from realgar small ores in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Another source is tinkers construct cobalt ore in the nether.\nYou need to level up your obsidian level tool or use a alumite tool.\n\nAnother nice way to get gallium and arsenic is with XP buckets in a crafting grid.\n\nMix those two dusts in a mixer to get gallium arsenic dust.\n\nIn the nether it is maybe easier to use a GT miner to get all the ores you need.
+gtnh.quest836.desc=The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.\n\nYou can get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get additional crushed ore, use a Tinker's Construct tool with the Luck (Fortune) enchant on it - apply a lot of Lapis. Sphalerite dust in an electrolyzer is another source of gallium. Finally you can breed zinc bees, which have a small chance at gallium combs.\n\nYou can get arsenic from realgar small ores in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Other sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest.\n\nYou need to level up your obsidian level tool or use a alumite tool to harvest cobalt ore.\n\nAnother nice way to get gallium and arsenic is with XP buckets in a crafting grid.\n\nMix those two dusts in a mixer to get gallium arsenic dust.\n\nIn the nether it is easier to use a GT miner near the ceiling to get all the ores you need.
 
 #Quest_837.ILC and RAM
 gtnh.quest837.name=ILC and RAM
@@ -3366,7 +3366,7 @@ gtnh.quest840.desc=You can distill a lot of different gases out of your "refiner
 
 #Quest_841.Tetranitromethane
 gtnh.quest841.name=Tetranitromethane
-gtnh.quest841.desc=Light fuel, bio diesel and diesel can be boosted by using tetranitromethane. Ethenone and nitric acid are required to make tetranitromethane in a chemical reactor.
+gtnh.quest841.desc=Bio diesel and diesel can be boosted using tetranitromethane. Ethenone and nitric acid are required to make tetranitromethane in a chemical reactor.
 
 #Quest_842.Methane Gas
 gtnh.quest842.name=Methane Gas
@@ -3594,7 +3594,7 @@ gtnh.quest897.desc=The fourth item you'll need a lot of in MV, which is also a p
 
 #Quest_898.Simple Ore Washer
 gtnh.quest898.name=Simple Ore Washer
-gtnh.quest898.desc=Too lazy to make an ore washer, yet bored with your non-automatable cauldron? Then the simple washer is the machine for you! It work reasonably fast and uses 8eu max - make sure you don't provide too much voltage! Ok, so you do not get any byproducts, but who cares!
+gtnh.quest898.desc=Too lazy to make an ore washer, yet bored with your non-automatable cauldron? Then the simple washer is the machine for you! It works reasonably fast and uses only 8eu max - make sure you don't provide too much voltage! Ok, so you do not get any byproducts, but who cares!
 
 #Quest_899.Paying the highest price
 gtnh.quest899.name=Paying the highest price
@@ -4034,7 +4034,7 @@ gtnh.quest1007.desc=Put those 512 EU panels on a block to make them placeable in
 
 #Quest_1008.Books
 gtnh.quest1008.name=Books
-gtnh.quest1008.desc=Books can be found easily enough in villages or in the roguelike dungeons surface brick house.\nI'm sure they have a recipe too.
+gtnh.quest1008.desc=Books can be found easily enough in villages or in the roguelike dungeons surface brick house.\nI'm sure they have a recipe too.\n\nNow glue on the hand...or should I say horse? Try and get a horse inside a smeltery and feed it hay to keep it alive.
 
 #Quest_1009.Fish trapping 2.0
 gtnh.quest1009.name=Fish trapping 2.0
@@ -4054,7 +4054,7 @@ gtnh.quest1012.desc=Rutile can be thermal centrifuged out of bauxite and ilmenit
 
 #Quest_1013.SMD Circuit components
 gtnh.quest1013.name=SMD Circuit components
-gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.\n\nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and resistors until you have a steady supply from bees or bauxite ore.
+gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.\n\nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and resistors until you have a steady supply with an HV macerator, bees, or bauxite ore. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.\n\nThe easiest way to get Platinum is with Nickel ore and a chemical bath.
 
 #Quest_1014.Workstation Extreme Curcuit
 gtnh.quest1014.name=Workstation Extreme Curcuit
@@ -4332,8 +4332,8 @@ gtnh.quest1081.desc=This Plate Bending Machine allows you to directly make doubl
 gtnh.quest1082.name=MV Battery Buffers
 gtnh.quest1082.desc=MV machines need battery buffers too. They come in different sizes like 1x, 4x, 9x and 16x.\nBuild a 1x and a 4x buffer.
 
-#Quest_1083.MV Lithium Batterie
-gtnh.quest1083.name=MV Lithium Batterie
+#Quest_1083.MV Lithium Battery
+gtnh.quest1083.name=MV Lithium Battery
 gtnh.quest1083.desc=Better machines need some better batteries. Lithium is the best material to use when making batteries.
 
 #Quest_1084.Lubricant
@@ -4466,11 +4466,11 @@ gtnh.quest1115.desc=Next you will need to find some tropical bees. The hives can
 
 #Quest_1116.Breed some cultivated bees
 gtnh.quest1116.name=Breed some cultivated bees
-gtnh.quest1116.desc=Common Princess and Foresty Drone can be bred to cultivated bees. \n\nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.\n\nLook for pristine bees.
+gtnh.quest1116.desc=Common Princess and Foresty Drone can be bred to cultivated bees. \n\nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.\n\nMake sure your cultivated bees are pure with a Beealyzer or GT scanner.\n\nLook for pristine bees.
 
 #Quest_1117.Breed some common bees
 gtnh.quest1117.name=Breed some common bees
-gtnh.quest1117.desc=To cross breed bees you need two different species of bees. One drone and one princess from different hives (Meadows and Forestry as an example)\nIn an Apiary you can cross breed them to a new species.\n\nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.\n\nLook for pristine bees.\n
+gtnh.quest1117.desc=To cross breed bees you need two different species of bees. One drone and one princess from different hives (Meadows and Forestry as an example)\nIn an Apiary you can cross breed them to a new species.\n\nCommon Bees produce Honey Combs every 2.2 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time. \n\nMake sure your bees are pure by checking their genetics with a Beealyzer or GT scanner.\n\nLook for pristine bees.\n
 
 #Quest_1118.Breed some noble bees
 gtnh.quest1118.name=Breed some noble bees
@@ -4526,7 +4526,7 @@ gtnh.quest1130.desc=If you don't have an extra modifier on your tool you can eas
 
 #Quest_1131.Ardite and Cobalt
 gtnh.quest1131.name=Ardite and Cobalt
-gtnh.quest1131.desc=If you are done with all quests you can look for cobalt and ardite in the Nether. Remember, you need an electric blast furnace to process these materials before you can make tools with them.
+gtnh.quest1131.desc=If you are done with all quests you can look for cobalt and ardite in the Nether. Remember, you need an electric blast furnace to process these materials before you can make tools with them.  But you have heard rumors of a special wood only found in another land, a forest of twilight, that can make tools strong enough to mine them.
 
 #Quest_1132.Netherquartz? Sharpness
 gtnh.quest1132.name=Netherquartz? Sharpness
@@ -4576,21 +4576,21 @@ gtnh.quest1142.desc=HV machines need battery buffers too. They come in different
 gtnh.quest1143.name=HV Batteries
 gtnh.quest1143.desc=Better machines need some better batteries. Let's make some HV battery hulls for new batteries. Now it's up to you to make lithium, cadmium, sodium or acid batteries with these hulls.
 
-#Quest_1144.HV Lithium Batterie
-gtnh.quest1144.name=HV Lithium Batterie
-gtnh.quest1144.desc=Better machines need some better batteries. Lithium is the best material to use when making batteries.
+#Quest_1144.HV Lithium Battery
+gtnh.quest1144.name=HV Lithium Battery
+gtnh.quest1144.desc=Better machines need some better batteries. Lithium is the best material to use when making batteries. Make sure to use the Assembler recipe with Polyethylene to save on resources.
 
-#Quest_1145.HV EV Tranformator
-gtnh.quest1145.name=HV EV Tranformator
+#Quest_1145.HV EV Tranformer
+gtnh.quest1145.name=HV EV Tranformer
 gtnh.quest1145.desc=Gregtech cables will not connect to IC2 machines so you need transformers to convert the energy. The best way is building two transformers and a battery buffer to store the generated energy in batteries or energy cells. The longer the cable the more energy will be lost at low tiers. So use high tier voltages when transporting energy over long distances.\n\nBe careful; IC2 machines do not care about rain but your GT machines will explode violently if exposed to water.\n\nIt is also important to transfer the power up, not down, to avoid explosions if the rotor generates more than 120 EU/t. It is not recommenend to use better rotors than the iron ones on HV tier.
 
 #Quest_1146.GT 6 styled Pipes
 gtnh.quest1146.name=GT 6 styled Pipes
-gtnh.quest1146.desc=Maybe you are wondering why the new pipes don't auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don't need a plate or a foil to prevent pipes from connecting anymore (You'll still want to cover hot pipes to prevent getting hurt!). Shift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. \n\nAlso, pipes now come with a shutter built in for free to reduce sloshing. Shift-rightclick with a wrench on the side you want prevent input.\n\nHint: If you click one pipe onto the other they will auto-connect.
+gtnh.quest1146.desc=Maybe you are wondering why the new pipes don't auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don't need a plate or a foil to prevent pipes from connecting anymore.\n\nYou'll still want to cover hot pipes to prevent getting hurt!\n\nShift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. \n\nAlso, pipes now come with a shutter built in for free to reduce sloshing. Shift-rightclick with a wrench on the side you want prevent input.\n\nFor machine outputs, including the boilers, and water siding tanks you will not need pumps. Other tanks will need pumps or Tinker's Construct faucets to move fluids.\n\nHint: If you click one pipe onto the other they will auto-connect.
 
 #Quest_1147.GT 6 styled Wires and Cables
 gtnh.quest1147.name=GT 6 styled Wires and Cables
-gtnh.quest1147.desc=Maybe you are wondering why the new wires and cables don't auto-connect anymore? This was changed to make the wires and cables smarter. You have to use a wirecutter or soldering iron to connect the wires and cables on the side you want. No more burnt cables or wrongly connected wires and cables from now on. You can shift-rightclick to attach a cable on the side of a machine you cannot see, like attaching a cable to the bottom while looking at the front.\n\nHint: If you click one wire or cable on the other it will auto-connect. Cables and pipes can be painted to make sure you do not cross your MV line with your EV line, or dump hot lava into your plastic water pipes. No boom today.
+gtnh.quest1147.desc=Maybe you are wondering why the new wires and cables don't auto-connect anymore? This was changed to make the wires and cables smarter. You have to use a wirecutter or soldering iron to connect the wires and cables on the side you want. No more burnt cables or wrongly connected wires and cables from now on. You can shift-rightclick to attach a cable on the side of a machine you cannot see, like attaching a cable to the bottom while looking at the front.\n\nHint: If you click one wire or cable on the other it will auto-connect. Cables and pipes can be painted to make sure you do not cross your MV line with your EV line, or dump hot lava into your plastic water pipes. No boom today.\n\nHa ha just kidding there is always a boom today!
 
 #Quest_1148.MV Machine hull
 gtnh.quest1148.name=MV Machine hull
@@ -5330,11 +5330,11 @@ gtnh.quest1331.desc=A small item, that can be used to store, copy, and paste set
 
 #Quest_1332.Compressed Solar LV
 gtnh.quest1332.name=Compressed Solar LV
-gtnh.quest1332.desc=�lThe power of the sun x10.�rThis solar panel works like 10 regular ones, but costs only 9. How is this possible? Magic! � �lNOTE: They give out GT EU. NO TRANSFORMER NEEDED!
+gtnh.quest1332.desc=The power of the sun x10. This solar panel works like 10 regular ones, but costs only 9. How is this possible? Magic! NOTE: They give out GT EU. NO TRANSFORMER NEEDED!
 
 #Quest_1333.Essentia Generator: Potentia
 gtnh.quest1333.name=Essentia Generator: Potentia
-gtnh.quest1333.desc=Aren't you tired of voiding all that useless potentia essentia? Well here's the solution:\nA generator that consumes potentia and outputs GT EU.\n�o�o�r�lNO TRANSFORMER NEEDED!
+gtnh.quest1333.desc=Aren't you tired of voiding all that useless potentia essentia? Well here's the solution:\nA generator that consumes potentia and outputs GT EU NO TRANSFORMER NEEDED!
 
 #Quest_1334.Essentia Generator: Auram
 gtnh.quest1334.name=Essentia Generator: Auram
@@ -5646,11 +5646,11 @@ gtnh.quest1410.desc=An IV mixer is required to mixe niobiumtitanium and vanadium
 
 #Quest_1411.Some rare high tier metals
 gtnh.quest1411.name=Some rare high tier metals
-gtnh.quest1411.desc=Small pile of Platinum, Palladium, Iridium and Osmium can be get during some chemical reactoin with nitric acid. You dont have the technology to process it right now but later on you need large amount of it. You can start now to collect some dust and process it later.
+gtnh.quest1411.desc=Small piles of Platinum, Palladium, Iridium and Osmium can be extracted with a chemical reaction with using nitric acid. You don't have the technology to process it right now but later on you need large amounts of them. You can start now to collect some dust and process it later.\n\nA chemical bath also extracts Platinum from Nickel ore.  Time to head back to the Twilight Forest!
 
 #Quest_1412.Assembling Line
 gtnh.quest1412.name=Assembling Line
-gtnh.quest1412.desc=The assembling line (short form 'Ass Line') is a multiblock and important for high tier Components in LuV tier and above for Motors, Pistons, Robot Arms, Pumps and many more.\n\nThe machine can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it's crafting. A length of 11 blocks will fit 80% of all recipes in GTNH.\nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items(10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.\n\nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.\n\nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.\n\nThe fourth layer is a single line of Solid Steel Machine Casings in the middle(11), with one Energy Hatch for power.
+gtnh.quest1412.desc=The assembling line (short form 'Ass Line') is a multiblock and important for high tier Components in LuV tier and above for Motors, Pistons, Robot Arms, Pumps and many more.\n\nThe machine can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it's crafting. A length of 11 blocks will fit 80% of all recipes in GTNH.\nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items(10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.\n\nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.\n\nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.\n\nThe fourth layer is a single line of Solid Steel Machine Casings in the middle(11), with two Energy Hatches for power. Once you have it built, you can replace the two IV energy hatches with 1 LuV energy hatch.
 
 #Quest_1413.You gonna hate this 1-4 in IV
 gtnh.quest1413.name=You gonna hate this 1-4 in IV
@@ -5766,7 +5766,7 @@ gtnh.quest1440.desc=The Oxygen Bubble Distributor takes oxygen from the Oxygen C
 
 #Quest_1441.Space torches
 gtnh.quest1441.name=Space torches
-gtnh.quest1441.desc=Normal torches won't work in space, only in the area within the oxygen bubble.\nOne solution is glowstone torches. You can also use other mods' lights and lamps. You'll probably want 3-5 stacks for mining veins.\nAnother is to use nightvision and a magnum torch or GregTech monster repellator to keep mobs away.
+gtnh.quest1441.desc=Normal torches won't work in space, only in the area within the oxygen bubble.\nOne solution is glowstone torches. You can also use other mods' lights and lamps. You'll probably want 3-5 stacks for mining veins.\nAnother is to use nightvision and a magnum torch or GregTech monster repellator to keep mobs away. These do not work on the official servers, instead claim and unclaim chunks.
 
 #Quest_1442.Compressed Steel Armor
 gtnh.quest1442.name=Compressed Steel Armor
@@ -5902,7 +5902,7 @@ gtnh.quest1474.desc=Or at least play with drums?  If you have extra Meteoric Iro
 
 #Quest_1475.Cows are supposed to Moo!
 gtnh.quest1475.name=Cows are supposed to Moo!
-gtnh.quest1475.desc=What the?  You noticed sometimes when you kill something, even a cow or chicken, that it explodes! What madness! To stop it, use a proper GregTech Knife or Butchery Knife. Craft a flint GregTech knife and I will give you an old iron one to use once it wears out.
+gtnh.quest1475.desc=What the?  You noticed sometimes when you kill something, even a cow or chicken, that it explodes! What madness! To stop it, use a proper GregTech Knife or Butchery Knife. Craft a flint GregTech knife with a stick and a piece of flint (last NEI page) and I will give you an old iron one to use once it wears out.
 
 #Quest_1476.All the finest cuts of meat
 gtnh.quest1476.name=All the finest cuts of meat
@@ -5990,7 +5990,7 @@ gtnh.quest1496.desc=GregTech ore generation is based on veins. Veins are centere
 
 #Quest_1497.Digging deeper
 gtnh.quest1497.name=Digging deeper
-gtnh.quest1497.desc=Now that you know where to dig, dig all the way down to bedrock to find if there is a vein located there.\n\nNow, what if you know what you want but notwhere to find it? Our fancy bartimausnek developer has added a nifty feature to NEI that shows you where to find ores! Simply look for the oreblock in NEI, and click on it for info on where to find that ore.\n\nMake sure you look for the Gregtech variety of the ore.
+gtnh.quest1497.desc=Now that you know where to dig, dig all the way down to bedrock to find if there is a vein located there.\n\nNow, what if you know what you want but not where to find it? Our fancy bartimausnek developer has added a nifty feature to NEI that shows you where to find ores! Simply look for the oreblock in NEI, and click on it for info on where to find that ore.\n\nMake sure you look for the Gregtech variety of the ore.
 
 #Quest_1498.A dimension by any other name...
 gtnh.quest1498.name=A dimension by any other name...
@@ -6018,7 +6018,7 @@ gtnh.quest1503.desc=...right?  So when building multiblocks, make sure you\n\n1.
 
 #Quest_1504.Divine rod of the gods?
 gtnh.quest1504.name=Divine rod of the gods?
-gtnh.quest1504.desc=The ore finder rod takes some of the tedium out of finding an ore.  You'll need to find some first to make it, but once you have it you can use ore blocks to find more ore. It only tells you if that specific ore is nearby. Later you will want to return with better digging tools and check every spot.\n\nBe sure to use your NEI skills to figure out which ore block is the best choice for your needs.\n\nOther basic ore blocks can be purchased from the Coins tab.\n\nTo use, shift click when looking at the ground to open inventory and put the ore block into the slot.\n\nAs you get close, you will see and hear a response from the ore finder tool. You will see the durability bar change when it discovers a match. Watch out - it will respond to small ores as well as normal ores so Lapis and Redstone you will want to wait for large signal before digging. If it detects a large quantity of the ore you're looking for the wand will flip upside down completely and fill the durability bar. If you play with your sound on you will here an obvious sound to notify you as well. The wand works in both your inventory and hotbar and you don't need to be actively holding it, though you get style points if you are holding it.\n\nAlso, because of the magical nature of the wand, the ore is stored with the player, not the wand. If you want to give the wand to someone else, please remove the ore first.
+gtnh.quest1504.desc=The ore finder rod takes some of the tedium out of finding an ore.  You'll need to find some first to make it, but once you have it you can use ore blocks to find more ore. It only tells you if that specific ore is nearby. Later you will want to return with better digging tools and check every spot.\n\nBe sure to use your NEI skills to figure out which ore block is the best choice for your needs.\n\nOther basic ore blocks can be purchased from the Coins tab.\n\nTo use, shift click when looking at the ground to open inventory and put the ore block into the slot.\n\nAs you get close, you will see and hear a response from the ore finder tool. You will see the durability bar change when it discovers a match. Watch out - it will respond to small ores as well as normal ores so Lapis and Redstone you will want to wait for large signal before digging. If it detects a large quantity of the ore you're looking for the wand will flip upside down completely and fill the durability bar. If you play with your sound on you will hear an obvious sound to notify you as well. The wand works in both your inventory and hotbar and you don't need to be actively holding it, though you get style points if you are holding it.\n\nAlso, because of the magical nature of the wand, the ore is stored with the player, not the wand. If you want to give the wand to someone else, please remove the ore first.
 
 #Quest_1505.Not enough items
 gtnh.quest1505.name=Not enough items
@@ -6146,7 +6146,7 @@ gtnh.quest1535.desc=After weeks of hard work and a thousand stacks of iTNT your 
 
 #Quest_1536.I ain't afraid of no ghost!
 gtnh.quest1536.name=I ain't afraid of no ghost!
-gtnh.quest1536.desc=I've found a use for the Ectoplasm you can collect from spirits of the dead.\nIt makes a very useful glass that you can walk on, but mobs cannot.  However, they think they can!  So you can use this to create a moat around your base that drops mobs to the death in various ways, or just to shuttle them off somewhere else. Separate babies from mothers? Use it in a mob farm?  So many possibilities!
+gtnh.quest1536.desc=I've found a use for the Ectoplasm you can collect from spirits of the dead.\nIt makes a very useful glass that you can walk on, but mobs cannot.  However, they think they can!  So you can use this to create a moat around your base that drops mobs to the death in various ways, or just to shuttle them off somewhere else. Separate babies from mothers? Use it in a mob farm?  Capture pigmen walking into the Overworld from you Nether portal? So many possibilities!
 
 #Quest_1537.Black and Decker
 gtnh.quest1537.name=Black and Decker
@@ -6166,11 +6166,11 @@ gtnh.quest1540.desc=Magnesite the source of Magnesium can be found in Twilight F
 
 #Quest_1541.Analyze your crops
 gtnh.quest1541.name=Analyze your crops
-gtnh.quest1541.desc=The cropnalyzer is a powered tool used to analyze IC2 crop seedbags. Charge it by placing it in an MV machine; recommended to put an MV battery in it as well to keep it full. To fully analyze a seed bag, you will need to put it through the cropnalyzer four times. If the crop is already planted, it is better to analyze it with the portable scanner instead of breaking it just to scan it - you have a chance of losing the seed every time you break it.\n\nYou may have noticed that NEI does not include every possible combination. The cropnalyzer also has a feature called the IC2 Crop Calculator, where you can find the mix of outputs of breeding together any crops. To access the calculator, hit the IC2 side inventory key while holding the cropnalyzer. You can also do this while sneaking, and it will have a different gui, where you can select any crops from a row instead of needing to use them from your inventory.\n\nIn either of the GUIs, you can choose up to four crops to breed together. Then click "process" and the bottom row will show the possible crossbreeding outputs, and their weights. You can use the + and - gui buttons to scroll through the row(s) of crops. You can also use a button in the GUI to sort the rows by tier or weight. You can invert the sorting by hitting the sorting button while holding shift.\n\nWhen trying to get a specific crop, you generally want to maximize its weight. But more specifically, you want to maximize the proportion of its weight out of all the weights. This means there are usually no benefits or downsides to breeding 3 or 4 crops together instead of 2, since all weights are increased evenly.\n\nTry a variety of combinations to get the crops you want. Often, breeding together two of the same crop is a surprisingly good option or even the best one.
+gtnh.quest1541.desc=The cropnalyzer is a powered tool used to analyze IC2 crop seedbags. Charge it by placing it in an MV machine; recommended to put an MV battery in it as well to keep it full. To fully analyze a seed bag, you will need to put it through the cropnalyzer four times. If the crop is already planted, it is better to analyze it with the portable scanner instead of breaking it just to scan it - you have a chance of losing the seed every time you break it.\n\nYou may have noticed that NEI does not include every possible combination. The cropnalyzer also has a feature called the IC2 Crop Calculator, where you can find the mix of outputs of breeding together any crops. To access the calculator, hit the IC2 side inventory key while holding the cropnalyzer. You can also do this while sneaking, and it will have a different gui, where you can select any crops from a row instead of needing to use them from your inventory.\n\nIn either of the GUIs, you can choose up to four crops to breed together. Then click "process" and the bottom row will show the possible crossbreeding outputs, and their weights. You can use the + and - gui buttons to scroll through the row(s) of crops. You can also use a button in the GUI to sort the rows by tier or weight. You can invert the sorting by hitting the sorting button while holding shift.\n\nWhen trying to get a specific crop, you generally want to maximize its weight. But more specifically, you want to maximize the proportion of its weight out of all the weights. To determine the best crops to breed, look at their attributes.  Parent crops that share more attributes with a crossbreed increase its chances. This means there are no benefits to breeding 3 or 4 identical crops together instead of 2, since all weights are increased evenly. NEI can help give you some ideas of the best crops to use as parents.\n\nTry a variety of combinations to get the crops you want. Often, breeding together two of the same crop is a surprisingly good option or even the best one.  A large field of stickreeds has a good chance at making lots of valuable crosses.
 
 #Quest_1542.Crop automation
 gtnh.quest1542.name=Crop automation
-gtnh.quest1542.desc=The Crop-Matron is a LV machine that will monitor crops in a 9x9x3 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they are used.\n\nThe Crop-Matron is rainproof, but make sure you cover up your power supply(you might find a fancy way to do this), or use an LV battery.  A Lithium Ion will last about 2 hours.\n\nUse Weed-EX sparingly, since overuse will affect crops negatively. \n\nTilled dirt still requires a nearby water block to be hydrated as the Matron will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on.
+gtnh.quest1542.desc=The Crop-Matron is a LV machine that will monitor crops in a 9x9x3 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they are used.\n\nThe Crop-Matron is rainproof, but make sure you cover up your power supply (you might find a fancy way to do this), or use an LV battery.  A Lithium Ion will last about 2 hours.\n\nUse Weed-EX sparingly, since overuse will affect crops negatively. \n\nTilled dirt still requires a nearby water block to be hydrated as the Matron will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.\n\nYou'll need Stainless Steel to make the Crop Harvester.\n\nAs an alternative to the Crop Matron and Crop Harvester, you can make the Forestry Multifarm. It can also pick crops from cropsticks.
 
 #Quest_1543.Weed Ex
 gtnh.quest1543.name=Weed Ex
@@ -6402,11 +6402,11 @@ gtnh.quest1599.desc=Nodes can take many upgrades. For now, try building a World 
 
 #Quest_1600.Reed and resin
 gtnh.quest1600.name=Reed and resin
-gtnh.quest1600.desc=One of the first useful crops you'll get is Stickreed.  It's fast growing, and can produce sugarcane and sticky resin. It's also great for crossing with other crops to raise their stats.\n\nI'll trade you some fertilizer for 2 stacks of each.
+gtnh.quest1600.desc=One of the first useful crops you'll get is Stickreed.  It's fast growing, and can produce sticky resin and sugarcane (harvest before it reaches full maturity). It's also great for crossing with other crops to raise their stats.\n\nI'll trade you some fertilizer for 2 stacks of each.
 
 #Quest_1601.Metals from the Earth
 gtnh.quest1601.name=Metals from the Earth
-gtnh.quest1601.desc=With higher tier crops you can even increase your ore production. Mixing these fibers and leaves with crushed ores can quadruple your output, or you can convert them directly to tiny dusts. Later you can mix these materials to make purified ore with some UU matter.\n\nShow me your ability to get these metal crops and I'll give you some more fertilizer.
+gtnh.quest1601.desc=With higher tier crops you can even increase your ore production. Mixing these fibers and leaves with crushed ores can quadruple your output, or you can convert them directly to tiny dusts. Later you can mix these materials to make purified ore with some UU matter.\n\nShow me your ability to get these metal crops and I'll give you some more fertilizer and some decent stat seedbags of rarer crops.
 
 #Quest_1602.Water water everywhere
 gtnh.quest1602.name=Water water everywhere
@@ -6416,8 +6416,8 @@ gtnh.quest1602.desc=Even though you have to plant crops near the water, they don
 gtnh.quest1603.name=Feeling a little like a noob...
 gtnh.quest1603.desc=So could you grow me some essence berries so I can level up?  You can plant the ones you get from the bushes, or breed up some.\n\nAs a reward, I'll give you a silly seed a friend of mine came up with. It will definitely keep you on your toes.
 
-#Quest_1604.I prefer to call in Canola
-gtnh.quest1604.name=I prefer to call in Canola
+#Quest_1604.I prefer to call it Canola
+gtnh.quest1604.name=I prefer to call it Canola
 gtnh.quest1604.desc=This seed is a great source of seed oil for your biodiesel needs.
 
 #Quest_1605.Better than milk
@@ -6448,13 +6448,13 @@ gtnh.quest1610.desc=Want some cupronickel wires? Buy some!
 gtnh.quest1611.name=Electrum 4x Wire
 gtnh.quest1611.desc=Want some electrum wires? Buy some!
 
-#Quest_1612.Find Bastnatite, Monazita and Neodymium
-gtnh.quest1612.name=Find Bastnatite, Monazita and Neodymium
-gtnh.quest1612.desc=A lot of EV machine parts need Neodymium. Rare Earth is a good source but on the Moon you can find a vein with pure Neodymium ore.\nThe vein can be found on moon at Y Level 20-40.
+#Quest_1612.Find Bastnasite, Monazita and Neodymium
+gtnh.quest1612.name=Find Bastnasite, Monazita and Neodymium
+gtnh.quest1612.desc=A lot of EV machine parts need Neodymium. Rare Earth is a good source but on the Moon you can find a vein with pure Neodymium ore.\n\nThe Bastnasite is a great source of fluorine as well.\n\nThe vein can be found on moon at Y Level 20-40.
 
 #Quest_1613.Source of Nickel
 gtnh.quest1613.name=Source of Nickel
-gtnh.quest1613.desc=Garnierite, Nickel, Cobaltite, and Pentlandite, sources of Nickel, can be found in the Twilight Forest at Y 10-40. In MV you'll need tons of Nickel for Cupronickel.
+gtnh.quest1613.desc=Garnierite, Nickel, Cobaltite, and Pentlandite, sources of Nickel, can be found in the Twilight Forest at Y 10-40. In MV you'll need tons of Nickel for Cupronickel.\n\nFind a Greatwood and Silverwood to unlock the Tier 0 quest What is That...? to open the Novice Thaumaturge tab and start your Twilight Forest adventure.\n\nNote: You can find small quantities of Pentlandite ore in the Overworld.
 
 #Quest_1614.Chemical Dehydrator
 gtnh.quest1614.name=Chemical Dehydrator
@@ -6506,7 +6506,7 @@ gtnh.quest1625.desc=That's all nice and all, but none of these pipes connect to 
 
 #Quest_1626.Chips
 gtnh.quest1626.name=Chips
-gtnh.quest1626.desc=Now you need to make some chips to use in those interface pipes. These ones do not do anything but are needed as a material for crafting the others.
+gtnh.quest1626.desc=Now you need to make some chips to use in those interface pipes. These ones do not do anything but are needed as a material for crafting the others.\n\nNow would be a good time to look into IC2 crops to get all the dyes you will need for your advanced chips.
 
 #Quest_1627.Item responder chip
 gtnh.quest1627.name=Item responder chip
@@ -6514,7 +6514,7 @@ gtnh.quest1627.desc=This chip also stores items in connected invetory. It design
 
 #Quest_1628.Item overflow chip
 gtnh.quest1628.name=Item overflow chip
-gtnh.quest1628.desc=This chip stores the items in connecting inventory. It designates a storage for items that have no other place to go. It is strongly recomended to have a default storage for items in every pipe system, otherwise bad stuff can happen. Best used with some large chest (diamond one for example).
+gtnh.quest1628.desc=This chip stores the items in connecting inventory. It designates a storage for items that have no other place to go. It is strongly recomended to have a default storage for items in every pipe system, otherwise bad stuff can happen. Best used with some large chest (diamond one for example).\n\nIt seems to have some bugs though, so don't craft more than one without testing it first.
 
 #Quest_1629.Dynamic item responder
 gtnh.quest1629.name=Dynamic item responder
@@ -6530,7 +6530,7 @@ gtnh.quest1631.desc=Item broadcaster is a chip that tells everyone in the pipe s
 
 #Quest_1632.Item stock keeper chip
 gtnh.quest1632.name=Item stock keeper chip
-gtnh.quest1632.desc=Item stock keeper looks at the connecting inventory and keeps item stocked in there. If the item is missing it will keep bothering item broadcasters every few seconds if they have the item and if they can send it. It's basicaly like an annoying child. It's is really useful though. Want a chest that will always have 64 cobble and dirt in it and if you take them they will get replaced? This guy is perfect for that job. It's great for keeping some machines stocked. More on that later.
+gtnh.quest1632.desc=Item stock keeper looks at the connecting inventory and keeps item stocked in there. If the item is missing it will keep bothering item broadcasters every few seconds if they have the item and if they can send it. It's basically like an annoying child. \n\nIt is really useful though. Want a chest that will always have 64 cobble and dirt in it and if you take them they will get replaced? This guy is perfect for that job. It's great for keeping  machines stocked. When stocking GT machines, the top left slot of the 3x3 is equal to the left slot of the machine.  Want a chemical reactor that keeps 3 hydrogen cells ready to go to make ammonia, just add nitrogen?  This is the chip for you.
 
 #Quest_1633.Crafting chip
 gtnh.quest1633.name=Crafting chip
@@ -6618,7 +6618,7 @@ gtnh.quest1653.desc=Tired of talking one by one with every villager to determine
 
 #Quest_1654.Automating power on/off
 gtnh.quest1654.name=Automating power on/off
-gtnh.quest1654.desc=Now that you have a GT boiler or LCE with a faster startup time, you can automate it to produce power on-demand. Use a machine controller cover on the controller (protip: You can put it on the bottom, or on the side next to a casing, casings will transmit redstone signal). \nWith a machine controller cover, you can use redstone to turn the machine on and off. This is handy if you don't want to use a soft hammer to disable a machine.\n \nThe best way to do that is with an RS latch. One input will turn the machine on, and one input will turn the machine off.\nUse a comparator attached to a valve to measure the steam level in your multiblock Iron or Steel Tank. Invert the signal to turn on your boiler when the steam level is low. When the steam level signal is high, turn your boiler off. Use a trail of redstone to lower the signal strength. Because of boiler/turbine warmup, try to set the ON strength to 30 percent of capacity and OFF strength to about 90 percent.\n\nRed alloy wire will hold a redstone signal for a longer distance.\n\nYou can use a Energy Detector Cover in Normal Electrical Storage (including batteries) mode to monitor the power in a battery buffer and use it to enable/disable generators in a similar way. Change mode using a screwdriver.
+gtnh.quest1654.desc=Once you have a GT boiler or Large Combusion Engine with a faster startup time, you can automate it to produce power on-demand. Use a machine controller cover on the controller (protip: You can put it on the bottom, or on the side next to a casing, casings will transmit redstone signal). \nWith a machine controller cover, you can use redstone to turn the machine on and off. This is handy if you don't want to use a soft hammer to disable a machine.\n \nThe best way to do that is with an RS latch. One input will turn the machine on, and one input will turn the machine off.\nUse a comparator attached to a valve to measure the steam level in your multiblock Iron or Steel Tank. Invert the signal to turn on your boiler when the steam level is low. When the steam level signal is high, turn your boiler off. Use a trail of redstone to lower the signal strength. Because of boiler/turbine warmup, try to set the ON strength to 30 percent of capacity and OFF strength to about 90 percent.\n\nRed alloy wire will hold a redstone signal for a longer distance.\n\nYou can use a Energy Detector Cover in Normal Electrical Storage (including batteries) mode to monitor the power in a battery buffer and use it to enable/disable generators in a similar way. Change mode using a screwdriver.
 
 #Quest_1655.One Dragon Egg is not enough Mr Bond
 gtnh.quest1655.name=One Dragon Egg is not enough Mr Bond
@@ -6946,7 +6946,7 @@ gtnh.quest1735.desc=Or at least factories full of item pipes. With these simple 
 
 #Quest_1736.Pipes, pipes everywhere
 gtnh.quest1736.name=Pipes, pipes everywhere
-gtnh.quest1736.desc=Now that you are in MV, you will want to start automating processes. Polyethylene, O2, N2, H2, rubber, charcoal, etc. Faster item pipes will help with transporting items quickly around your base. For now, use your spiffy new extruder to craft some brass item pipes. \n\nThe reward - restrictive item pipes - allow you to prioritize destinations. Locations on the other side of a restrictive pipe are treated as much further away than locations on the same side of a pipe. Very handy when you want overflow (or non-matching) items to go somewhere else!\n\nFor higher tiers, look up "* item\u7ba1\u9053" in NEI.
+gtnh.quest1736.desc=Now that you are in MV, you will want to start automating processes. Polyethylene, O2, N2, H2, rubber, charcoal, etc. Faster item pipes will help with transporting items quickly around your base. For now, use your spiffy new extruder to craft some brass item pipes. \n\nThe reward - restrictive item pipes - allow you to prioritize destinations. Locations on the other side of a restrictive pipe are treated as much further away than locations on the same side of a pipe. Very handy when you want overflow (or non-matching) items to go somewhere else!\n\nFor higher tiers, look up "* item pipe" in NEI.
 
 #Quest_1737.More Red, less Wheat
 gtnh.quest1737.name=More Red, less Wheat
@@ -7167,6 +7167,7 @@ gtnh.quest1790.desc=For your new House you need more wooden  doors. Well the rec
 #Quest_1791.Oilsand or how you get heavy Oil
 gtnh.quest1791.name=Oilsand or how you get heavy Oil
 gtnh.quest1791.desc=Oilsand is an other way to get oil, heavy oil. Maybe you lucky and found in a dessert biome a oilsand vein. With your centrifuge ou are able to get heavy oil and sand blocks out of the ore.\nThe veins can be found between Y level 50-80.
+
 ##################################Line##################################
 
 #Tier 0 - It begins
