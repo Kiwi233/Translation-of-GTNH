@@ -3222,12 +3222,12 @@ languagefile {
     S:TileEntity_DESCRIPTION_12730_Index_18=每秒造成最大102400污染
     S:TileEntity_DESCRIPTION_12730_Index_2=控制器方块在第三层正面中央
     S:TileEntity_DESCRIPTION_12730_Index_3=内层13x18x13加热线圈(中空)
-    S:TileEntity_DESCRIPTION_12730_Index_4=外层15x18x15硼玻璃方块
+    S:TileEntity_DESCRIPTION_12730_Index_4=外层15x18x15硼玻璃方块(注:玻璃等级与能源仓匹配)
     S:TileEntity_DESCRIPTION_12730_Index_5=玻璃等级限制里能量输入等级
     S:TileEntity_DESCRIPTION_12730_Index_6=1+输入仓/总线(任意机械方块)
-    S:TileEntity_DESCRIPTION_12730_Index_7=1+输出仓/总线(任意机械方块)
+    S:TileEntity_DESCRIPTION_12730_Index_7=1+输出总线(任意机械方块)
     S:TileEntity_DESCRIPTION_12730_Index_8=1+能源仓(任意机械方块)
-    S:TileEntity_DESCRIPTION_12730_Index_9=1x维护仓 (任意机械方块)
+    S:TileEntity_DESCRIPTION_12730_Index_9=1x维护仓 (任意机械方块)(注:所有底层仓室必须置于边缘)
     S:TileEntity_DESCRIPTION_12731_Index_0=巨型真空冷冻机的控制器方块
     S:TileEntity_DESCRIPTION_12731_Index_1=将炽热的锭与单元强力冷却
     S:TileEntity_DESCRIPTION_12731_Index_2=大小(宽x高x长)：15x15x15(中空),控制器方块(正面正中)
