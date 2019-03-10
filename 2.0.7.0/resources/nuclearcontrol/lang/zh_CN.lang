@@ -1,0 +1,219 @@
+#Tab Name
+nc.itemgroup.tab=核电控制2
+
+#Internal Items
+item.ItemToolThermometer.name=温度计
+item.ItemToolDigitalThermometer.name=数码温度计
+item.ItemRemoteSensorKit.name=远程传感工具
+item.ItemEnergySensorKit.name=电力传感工具
+item.ItemCounterSensorKit.name=计数器传感工具
+item.ItemLiquidSensorKit.name=流体传感工具
+item.ItemSensorLocationCard.name=反应堆传感定位卡片
+item.ItemEnergySensorLocationCard.name=电力传感定位卡片
+item.itemCounterSensorLocationCard.name=计数传感定位卡片
+item.ItemLiquidSensorLocationCard.name=流体传感定位卡片
+item.ItemEnergyArrayLocationCard.name=电力阵列定位卡片
+item.itemRangeUpgrade.name=范围升级
+item.ItemColorUpgrade.name=彩色升级
+item.ItemWebUpgrade.name=网页升级
+item.ItemTimeCard.name=时间卡片
+item.ItemTextCard.name=文本卡片
+item.ItemGeneratorSensorKit.name=发电机传感工具
+item.ItemGeneratorSensorLocationCard.name=发电机传感定位卡片
+item.ItemLiquidArrayLocationCard.name=流体阵列定位卡片
+item.Item55ReactorCard.name=流体反应堆传感定位卡片
+item.remoteMonitor.name=便携式信息屏
+
+#Integration Items
+item.RFreactorKit.name=远程RF反应堆工具
+item.RFreactorCard.name=RF反应堆传感定位卡片
+item.AppengCard.name=应用能源卡片
+item.AppengKit.name=应用能源显示器工具
+item.RFenergyCard.name=RF能源传感定位卡片
+item.ItemVanillaMachineCard.name=IC原版机器卡片
+item.ItemInventoryScannerCard.name=库存跟踪卡片
+item.ItemVanilliaKit.name=IC原版工具
+item.MekRFenergyCard.name=通用机械能源卡片
+
+#Internal Blocks
+tile.blockThermalMonitor.name=温度监控器
+tile.blockIndustrialAlarm.name=工业警报器
+tile.blockHowlerAlarm.name=蜂鸣报警器
+tile.blockRemoteThermo.name=远程温度监控器
+tile.blockInfoPanel.name=工业信息屏
+tile.blockInfoPanelExtender.name=工业信息屏扩展
+tile.blockAdvancedInfoPanel.name=高级工业信息屏
+tile.blockAdvancedInfoPanelExtender.name=高级工业信息屏扩展
+tile.nclight0.name=白色灯
+tile.nclight1.name=白色灯
+tile.nclight2.name=橙色灯
+tile.nclight3.name=橙色灯
+tile.blockEnergyCounter.name=电力计数器
+tile.blockAverageCounter.name=平均电力计数器
+tile.blockRangeTrigger.name=范围触发器
+
+#Integration Blocks
+tile.blockBRPart.name=大反应堆监视器
+tile.NetworkLink.name=ME网络监视器
+
+#Original Screen Messages
+msg.nc.HowlerAlarmSoundRange=发声范围：%s
+msg.nc.HowlerAlarmSound=声音
+msg.nc.ThermalMonitorSave=保存设置
+msg.nc.ThermalMonitorSignalAt=在热量为%s时发出信号
+msg.nc.Thermo=外壳热量：%s
+msg.nc.ThermoDigital=外壳热量：%s（水蒸发： %s／燃烧： %s）
+msg.nc.SensorKit=远程传感工具已安装，得到对应的定位卡片
+
+msg.nc.InfoPanelOutOfRange=超出范围
+msg.nc.InfoPanelInvalidCard=无效卡片
+msg.nc.InfoPanelNoTarget=没有找到目标
+
+msg.nc.InfoPanelOn=开启
+msg.nc.InfoPanelOff=关闭
+msg.nc.InfoPanelHeat=温度：%s
+msg.nc.InfoPanelMaxHeat=最大热量：%s
+msg.nc.InfoPanelMelting=燃烧：%s
+msg.nc.InfoPanelOutput=输出电力：%sEU/t
+msg.nc.InfoPanelOutputMJ=输出能量：%sRF/t
+msg.nc.InfoPanelOutputSteam=输出蒸汽：%smB/t
+msg.nc.InfoPanelTimeRemaining=剩余时间：%s
+
+msg.nc.InfoPanelEnergyCounter=能量：%sEU
+msg.nc.InfoPanelEnergyCounterMJ=能量：%sRF
+
+msg.nc.InfoPanelEnergy=电力：%s
+msg.nc.InfoPanelEnergyFree=可用：%s
+msg.nc.InfoPanelEnergyStorage=存储：%s
+msg.nc.InfoPanelEnergyPercentage=充电百分比：%s%%
+
+msg.nc.cbInfoPanelLiquidName=流体名称
+msg.nc.cbInfoPanelLiquidAmount=储量
+msg.nc.cbInfoPanelLiquidCapacity=容量
+msg.nc.cbInfoPanelLiquidFree=可用
+msg.nc.cbInfoPanelLiquidPercentage=储液百分比
+
+msg.nc.InfoPanelLiquidName=名称: %s
+msg.nc.InfoPanelLiquidAmount=储量: %s
+msg.nc.InfoPanelLiquidCapacity=容量: %s
+msg.nc.InfoPanelLiquidFree=可用: %s
+msg.nc.InfoPanelLiquidPercentage=储液百分比: %s%%
+
+msg.nc.InfoPanelNotFoundN=未发现#%d
+msg.nc.InfoPanelOutOfRangeN=#%d超出范围
+msg.nc.InfoPanelEnergyN=#%d 能量：%s
+msg.nc.InfoPanelEnergyFreeN=#%d 剩余：%s
+msg.nc.InfoPanelEnergyStorageN=#%d 存储：%s
+msg.nc.InfoPanelEnergyPercentageN=#%d 充电百分比：%s%%
+msg.nc.InfoPanelLiquidNameN=#%d 流体类型：%s
+msg.nc.InfoPanelLiquidN=#%d 流体量：%s
+msg.nc.InfoPanelLiquidFreeN=#%d 剩余容积：%s
+msg.nc.InfoPanelLiquidCapacityN=#%d 容量：%s
+msg.nc.InfoPanelLiquidPercentageN=#%d 当前盛有：%s%%
+
+msg.nc.InfoPanelTime=时间: %s
+
+msg.nc.cbInfoPanelOnOff=开/关状态
+msg.nc.cbInfoPanelHeat=热量等级
+msg.nc.cbInfoPanelMaxHeat=最大热量
+msg.nc.cbInfoPanelMelting=燃烧温度
+msg.nc.cbInfoPanelOutput=输出(EU/t)
+msg.nc.cbInfoPanelTimeRemaining=周期结束时间
+msg.nc.cb24h=24小时模式
+
+msg.nc.cbInfoPanelEnergyCurrent=电力
+msg.nc.cbInfoPanelEnergyStorage=存储
+msg.nc.cbInfoPanelEnergyFree=可用
+msg.nc.cbInfoPanelEnergyEach=单张卡片信息
+msg.nc.cbInfoPanelEnergyTotal=总计
+msg.nc.cbInfoPanelEnergyPercentage=充电百分比
+msg.nc.EnergyCardQuantity=卡片数量：%d
+msg.nc.AverageCounterPeriod=周期：%s秒
+
+msg.nc.LiquidCardQuantity=卡片值：%d
+
+msg.nc.cbInfoPanelLiquidEach=单张卡片信息
+msg.nc.cbInfoPanelLiquidTotal=总括信息
+
+msg.nc.Reset=重置
+msg.nc.ScreenColor=屏幕颜色
+msg.nc.TextColor=文本颜色
+msg.nc.None=无
+nc.msg.notValid=该卡片不兼容
+nc.msg.notValid2=远程显示器
+nc.msg.notValid3=请重新打开显示器再试
+
+#Vanilla Intergration Messages
+msg.nc.Vanilla.Display=%s / %s 格已用
+msg.nc.Vanilla.Name=方块名称
+msg.nc.Vanilla.StorageLVL=存储等级
+msg.nc.Vanilla.brewstand=当前酿造时间: %s
+msg.nc.Vanilla.potionType1=第1药水类型: %s
+msg.nc.Vanilla.potionType2=第2药水类型: %s
+msg.nc.Vanilla.potionType3=第3药水类型: %s
+msg.nc.Vanilla.brewing=酿造中
+msg.nc.Vanilla.notBrewing=未酿造
+msg.nc.Vanilla.dispBrewUse=显示输出类型#%s
+msg.nc.Vanilla.dispBrew=显示酿造
+msg.nc.Vanilla.dispBrewTime=显示酿造时间
+msg.nc.Vanilla.cooking=烹饪中: %sx - %s
+msg.nc.Vanilla.fuel=燃料: %sx - %s
+msg.nc.Vanilla.output=输出: %sx - %s
+msg.nc.Vanilla.burnTime=燃烧时间: %s
+
+#Big Reactor Messages
+msg.nc.InfoPanelRF.Temp=核心温度：%s°C
+msg.nc.InfoPanelRF.EnergyStored=能量：%s RF
+msg.nc.InfoPanelRF.CreatedEnergy=能量输出：%s RF/t
+msg.nc.InfoPanelRF.SteamOutput=输出蒸汽: %s mB/t
+msg.nc.InfoPanelRF.Percentage=缓存区已充满%s%%
+msg.nc.InfoPanelRF.Output=输出(RF/t)
+msg.nc.InfoPanelRF.TempPROPER=当前核心温度
+msg.nc.InfoPanelRF.CoolantTank=冷却槽: %s x%smB
+msg.nc.InfoPanelRF.OutputTank=输出槽: %s x%smB
+
+#5x5 Reactor Messages
+msg.nc.InfoPanel55.Output=输出：%s Hu/s
+msg.nc.InfoPanel55.Temp=核心温度：%s%%
+msg.nc.InfoPanel55.tarkin=储罐输入：%s / 10000 mB
+msg.nc.InfoPanel55.tankout=储罐输出：%s / 10000 mB
+msg.nc.InfoPanel55.Out=输出(Hu/s)
+msg.nc.InfoPanel55.BufferIn=冷却液缓冲储罐
+msg.nc.InfoPanel55.BufferOut=热冷却液缓冲储罐
+
+#AE INTERGRATION
+msg.null.craft=无
+msg.nc.InfoPanelAE.CraftItemMake=正在合成：%s
+msg.nc.InfoPanelAE.CraftAMT=合成数量：%s
+msg.nc.InfoPanelAE.Bytes=已使用字节/总字节
+msg.nc.InfoPanelAE.Items=已存储物品类型/总物品类型
+msg.nc.InfoPanelAE.CraftItem=正在合成的物品
+msg.nc.InfoPanelAE.CraftStack=正在合成的数量
+msg.nc.InfoPanelAE.DisplayBytes=%s/%s已用字节
+msg.nc.InfoPanelAE.DisplayItem=%s/%s已用物品种类
+
+#WAILA Integration
+msg.nc.waila.getHeatLevel=警戒温度阈值：
+msg.nc.waila.ColorBackground=背景颜色：
+msg.nc.waila.ColorText=文本颜色：
+msg.nc.waila.Web=已安装网页升级
+msg.nc.waila.Color=已安装彩色升级
+msg.nc.waila.ColorBlack=黑
+msg.nc.waila.ColorRed=红
+msg.nc.waila.ColorGreen=绿
+msg.nc.waila.ColorBrown=棕
+msg.nc.waila.ColorDarkBlue=深蓝
+msg.nc.waila.ColorPurple=紫
+msg.nc.waila.ColorLightBlue=浅蓝
+msg.nc.waila.ColorWhite=白
+msg.nc.waila.ColorPink=粉
+msg.nc.waila.ColorLimeGreen=黄绿
+msg.nc.waila.ColorYellow=黄
+msg.nc.waila.ColorBlue=蓝
+msg.nc.waila.ColorMagenta=品红
+msg.nc.waila.ColorOrange=橙
+msg.nc.waila.getSoundNames=音效： 
+msg.nc.waila.getRange=范围：
+msg.nc.waila.getEnergyCount=能量总计数：
+msg.nc.waila.getEnergyAverage=平均能量计数：
+msg.nc.waila.getPeriod=计数周期：
