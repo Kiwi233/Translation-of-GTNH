@@ -2567,7 +2567,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12600_Index_1=大小(宽x高x长)：任意
     S:TileEntity_DESCRIPTION_12600_Index_2=每个LESU机械方块存储: 1000000EU
     S:TileEntity_DESCRIPTION_12600_Index_3=输出EU: LESU机械方块数量   输入EU: 输出EU的下一电压等级
-    S:TileEntity_DESCRIPTION_12600_Index_4=输入/输出电流可通过GUI中的4编程电路调整
+    S:TileEntity_DESCRIPTION_12600_Index_4=输入/输出电流可通过GUI中的4个编程电路调整
     S:TileEntity_DESCRIPTION_12600_Index_5=输出端有一个点
     S:TileEntity_DESCRIPTION_12600_Index_6=§c只允许一个控制器,不允许共享方块!
     S:TileEntity_DESCRIPTION_12600_Index_7=添加者bartimaeusnek,模组§2BartWorks
@@ -3127,7 +3127,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1270_Index_2=线损/米/安： %s 伏
     S:TileEntity_DESCRIPTION_12710_Index_0=生物试验室,一个多用途的生物工程站
     S:TileEntity_DESCRIPTION_12711_Index_0=生物试验室,一个多用途的生物工程站
-    S:TileEntity_DESCRIPTION_12712_Index_0=生物培养缸的控制器方块
+    S:TileEntity_DESCRIPTION_12712_Index_0=细菌培养缸的控制器方块
     S:TileEntity_DESCRIPTION_12712_Index_1=大小(宽x高x长)：5x4x5
     S:TileEntity_DESCRIPTION_12712_Index_2=底层和顶层为洁净不锈钢机械方块
     S:TileEntity_DESCRIPTION_12712_Index_3=底层和顶层必须包含:
@@ -3214,7 +3214,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12730_Index_10=13x1x13消声仓(顶层中央)
     S:TileEntity_DESCRIPTION_12730_Index_11=顶层剩余方块为隔热机械方块
     S:TileEntity_DESCRIPTION_12730_Index_12=1+输出仓以回收CO2/CO/SO2(可选，任意顶层机械方块)
-    S:TileEntity_DESCRIPTION_12730_Index_13=无损超频将减少加工时间至25%并提升功率至400%
+    S:TileEntity_DESCRIPTION_12730_Index_13=回收比例取决于消声仓等级
     S:TileEntity_DESCRIPTION_12730_Index_14=底层为隔热机械方块
     S:TileEntity_DESCRIPTION_12730_Index_15=自配方的最小炉温起，每高出900K会减少5%的能耗，以乘法叠加
     S:TileEntity_DESCRIPTION_12730_Index_16=自配方的最小炉温起，每高出1800K将允许一次无损超频
@@ -3225,9 +3225,9 @@ languagefile {
     S:TileEntity_DESCRIPTION_12730_Index_4=外层15x18x15硼玻璃方块
     S:TileEntity_DESCRIPTION_12730_Index_5=玻璃等级限制里能量输入等级
     S:TileEntity_DESCRIPTION_12730_Index_6=1+输入仓/总线(任意机械方块)
-    S:TileEntity_DESCRIPTION_12730_Index_7=1+输出仓/总线(任意机械方块)
+    S:TileEntity_DESCRIPTION_12730_Index_7=1+输出总线(任意机械方块)
     S:TileEntity_DESCRIPTION_12730_Index_8=1+能源仓(任意机械方块)
-    S:TileEntity_DESCRIPTION_12730_Index_9=1x维护仓 (任意机械方块)
+    S:TileEntity_DESCRIPTION_12730_Index_9=1x维护仓 (任意机械方块)(注:所有底层仓室必须置于边缘)
     S:TileEntity_DESCRIPTION_12731_Index_0=巨型真空冷冻机的控制器方块
     S:TileEntity_DESCRIPTION_12731_Index_1=将炽热的锭与单元强力冷却
     S:TileEntity_DESCRIPTION_12731_Index_2=大小(宽x高x长)：15x15x15(中空),控制器方块(正面正中)
@@ -8174,7 +8174,7 @@ languagefile {
     S:TileEntity_EUp_OUT=输出电压：
     S:TileEntity_EUp_STORE=电能缓存：
     S:bw.fuels.acidgens=酸性发电机
-    S:bw.recipe.BacteriaVat=生物培养缸
+    S:bw.recipe.BacteriaVat=细菌培养缸
     S:bw.recipe.biolab=生物实验室
     S:comb.almandine=铁铝榴石蜂巢
     S:comb.aluminium=铝蜂巢
@@ -10261,7 +10261,7 @@ languagefile {
     S:gt.blockmachines.batteryturbocharger.16.tier.07.name=零点压涡轮充电器
     S:gt.blockmachines.batteryturbocharger.16.tier.08.name=极限压涡轮充电器
     S:gt.blockmachines.batteryturbocharger.16.tier.09.name=极高压涡轮充电器
-    S:gt.blockmachines.biovat.name=生物培养缸
+    S:gt.blockmachines.biovat.name=细菌培养缸
     S:gt.blockmachines.boiler.bronze.name=小型燃煤锅炉
     S:gt.blockmachines.boiler.lava.name=高压岩浆锅炉
     S:gt.blockmachines.boiler.solar.name=简易太阳能锅炉
