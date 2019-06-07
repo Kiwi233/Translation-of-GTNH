@@ -8082,179 +8082,179 @@ gtnh.quest2008.desc=既然你已经开始构建你珍贵的量子计算机了,�
 
 #Quest_2020.A magical box
 #N gtnh.quest2020.name=神奇的盒子
-#N gtnh.quest2020.desc=末影箱子非常神奇.无论你制造了多少末影箱子,它们看起来都相互连接到同一维度.我可以在一处放入物品,然后再在另一处拿出它们!还可以对箱子顶染色来限定频道,任何拥有相同颜色组合的末影箱子共享同一片空间.对箱子使用钻石可以将其锁定为你的私人箱子,并使用私人网络.空手Shift+右键可以移除钻石让箱子重新回到公共网络中.
+#N gtnh.quest2020.desc=末影箱子非常神奇.无论你制造了多少末影箱子,它们看起来都相互连接到同一维度.我可以在一处放入物品,然后再在另一处拿出它们!还可以对箱子顶部染色来限定频道,任何拥有相同颜色组合的末影箱子共享同一片空间.对箱子使用钻石可以将其锁定为你的私人箱子,并使用私人网络.空手Shift+右键可以移除钻石让箱子重新回到公共网络中.
 
 #Quest_2021.A magical tank
-#N gtnh.quest2021.name=A magical tank
-#N gtnh.quest2021.desc=This tank always seems to connect to the same dimensional space.  No matter how many I create.  I can push fluids into the tank in one dimension, and retrieve them in a totally different dimension! I have discovered a way to assign a location to each tank using dyes applied to the top.  Using a diamond makes the tank private, attuned to the caster's mind, and will not share fluids with any other player's tanks. Shift-rightclicking recovers the diamond and makes the tank part of the public tank network. The dial on front controls the input/output of the tank. When blue is up, the tank accepts fluids.  When orange is up, the tank will eject fluids. 
+#N gtnh.quest2021.name=神奇的储罐
+#N gtnh.quest2021.desc=这个储罐似乎总是连接到同一个空间,无论你制造了多少末影储罐.  我可以在一个维度将流体通入储罐,然后再完全不同的另一个维度抽取这些流体!我发现了一个方法,可以对储罐顶部染色来为每个储罐指定一个频道.  使用钻石使储罐成为私有的,连接使用者的私人网络,且不会同其他玩家的储罐分享流体.Shift+右键可以移除钻石让储罐重新回到公共网络中.  前部的刻度盘控制储罐的输入/输出. 当蓝色在上时,储罐接收流体.当橙色在上时,储罐输出流体. 
 
 #Quest_2022.That chest is too big to carry around
-#N gtnh.quest2022.name=That chest is too big to carry around
-#N gtnh.quest2022.desc=Instead of chest you have to keep placing and breaking, how about a nice convenient pouch you can use? You'll have to synchronize it with the chest you want to link with.  To set it to a new chest, sneak-click with the pouch on a new chest.
+#N gtnh.quest2022.name=箱子太重了,难以携带
+#N gtnh.quest2022.desc=不想带着末影箱子然后不停的放下然后破坏拾取,何不试试方便好用的末影袋子呢?你必须将它与你想要链接的箱子同步.若要将其与新的箱子同步,手持袋子Shift+右键新的箱子.
 
 #Quest_2023.More power needed, sir!
-#N gtnh.quest2023.name=More power needed, sir!
-#N gtnh.quest2023.desc=EBF and LCR recipes are going to need even more power.  You'll need to craft EV energy hatches to supply them and keep them running.
+#N gtnh.quest2023.name=需要更多的电力,先生!
+#N gtnh.quest2023.desc=工业高炉和大型化学反应釜的配方需要越来越多的电力.  你需要合成EV能源仓来为它们供电,保持它们的持续运行.
 
 #Quest_2024.Assline quest updates
-#N gtnh.quest2024.name=Assline quest updates
-#N gtnh.quest2024.desc=When the pack updates, and changes an assembly line recipe, your old data sticks become useless. However it's more than that, you can't simply rescan an old UV motor for the new UHV data, you need a new UV motor. It's best to start with component parts in the lowest changed tier, then work your way up until you've rescanned up to your current tier. Yes, this sucks, we also wish there was another way. You can tell if your data stick is out of date by seeing if the nei recipe matches the one in the data viewer. Nei will always be right.
+#N gtnh.quest2024.name=装配线配方更新
+#N gtnh.quest2024.desc=整合包升级后,对装配线配方有改动的话,你的旧闪存就没用了.但是更麻烦的是,你不能通过重新扫描一个旧UV马达来获得新UHV马达的数据,你需要扫描一个新UV马达才行.最好从最低阶改动的部件开始,然后继续前进,知道重新扫描到你的当前阶段.是的,这糟透了,你希望有其他方法.  通过查看NEI配方是否与数据读取机中的配方匹配,可以判断闪存是否过期.NEI永远正确.
 
 #Quest_2025.GT++ knowledge
-#N gtnh.quest2025.name=GT++ knowledge
-#N gtnh.quest2025.desc=To become a master at GT++ you will need to craft manuals for certain machines.
+#N gtnh.quest2025.name=GT++知识
+#N gtnh.quest2025.desc=想要成为GT++专家,你需要合成相应机器的手册.
 
 #Quest_2026.Better way to find items
-#N gtnh.quest2026.name=Better way to find items
-#N gtnh.quest2026.desc=NEI has a built in search feature for finding an item stored in an inventory nearby.  A Stockroom Catalog can give you a list of everything stored in your inventories.\n \nSneak right-click a block with an inventory (a chest, bookcase, barrel, anything with an inventory) to add that inventory to the list of inventories for the catalog to keep track of. Sneak right-click the same block again to remove that block from the list.\nA small particle effect will render on any block that has been selected with the catalog when holding the Stockroom Catalog to let you know that block is being tracked.\n\nRight click to open the GUI and see the list.\nYou can sort the list in ascending or descending order by quantity (Count) or alphabetical order.\n\nYou can also see a list of all the inventories that have a particular item and easily add the location of one of those inventories to a stockroom catalog so you can easily find your stuff.\n\nThe Stockroom Catalog can also be copied with the typesetting table and printing press.\n\nClick on the title to change it to anything so you can custom label your stockroom catalog.\n\nClick on the small chest icons on the right hand side of each listing to open the inventory list view. \n\nIf you want, you can craft a waypoint compass and use that to point you towards the chest. Since we have Journeymaps and NEI, it's not really necessary.
+#N gtnh.quest2026.name=更好的寻找物品方式
+#N gtnh.quest2026.desc=NEI具有内置搜索功能,用于查找存储在附近库存中的物品. 仓库目录(Stockroom-Catalog)可以显示你库存中的物品列表.  手持仓库目录Shift+右键一个新库存(箱子、书架、桶以及任何有物品栏的东西),来将这个库存加入仓库目录中进行追踪.再次Shift+右键相同的方块来从目录中移除此库存.  在仓库目录中的方块会有小小的粒子效果,让你知道它正在被追踪.  手持仓库目录右键可以打开它的GUI并看到列表.  你可以对列表进行排序,包括升序和降序、数量(计数)或字母顺序.  你还可以看到有某件特定物品的所有库存列表,并可以很方便地将那些库存中的某一个加入仓库目录.  仓库目录还可以用排版台和拓印机复印.  点击仓库目录的标题可随意改动,自定义它的标签.  点击每个列表右侧的小箱子图标可以打开库存列表视图.  如果你想的话,可以制作一个路标盘,用来指向你要找的箱子.由于我们已经有了旅行地图和NEI,所以这玩意不是必需品.
 
 #Quest_2027.Thermal Boiler - Lava you long time
-#N gtnh.quest2027.name=Thermal Boiler - Lava you long time
-#N gtnh.quest2027.desc=If you want energy from lava and the byproducts, the Thermal Boiler is the perfect solution. It processes lava super fast for steam, and with a lava filter will provide centrifuged lava byproducts as well. A great source of copper, silver, gold, tin, tantalum, and tungstate.\nYou can get even better efficiency pairing it with a Large Heat Exchanger.  The LHE will turn normal vanilla lava into pahoehoe, which will provide steam and byproducts in the Thermal Boiler. Win/Win/Win!
+#N gtnh.quest2027.name=地热锅炉-爱(Lava-Love)你一万年
+#N gtnh.quest2027.desc=如果你想获得岩浆中的能量和副产物,地热锅炉是完美的解决方案.它可以极快地处理岩浆并产生蒸汽,并且岩浆过滤器会提供离心出的岩浆副产物.副产物可以提供大量的铜、银、金、锡、钽和钨酸盐.  与大型热交换机配合可获得更高的效率.  大型热交换机将普通岩浆转化成熔岩岩浆,而这可以在地热锅炉里产出蒸汽和副产物.一举两得!
 
 #Quest_2028.I think I'm going to be sick
-#N gtnh.quest2028.name=I think I'm going to be sick
-#N gtnh.quest2028.desc=The Industrial Centrifuge is the solution to those thousands of ore you are getting with the multiblock ore drill.
+#N gtnh.quest2028.name=我想我会生病的
+#N gtnh.quest2028.desc=用多方块采矿场获得的数以千计的矿石可以交给工业离心机处理.  译者注:别听他瞎说,根据自己的需要选择打粉-离心、洗矿-打粉-离心、洗矿-热离-打粉这些工序.
 
 #Quest_2029.Bask in the currents
-#N gtnh.quest2029.name=Bask in the currents
-#N gtnh.quest2029.desc=The best source for hundreds of thousands of glass for...something?  I dunno, think of something interesting and impress me!\n\nThe "effective" voltage for the High Current Arc furnace is one tier lower than the energy hatch. For example, with an MV tier energy hatch, it will do LV tier arc furnace recipes.\n\nThis machine also does plasma arc furnace recipes.
+#N gtnh.quest2029.name=沐浴在电流中
+#N gtnh.quest2029.desc=成百上千玻璃的优秀来源?我不知道,想些有趣的事给我留下深刻印象!  工业电弧炉的"有效"电压比能源仓要低一阶.举个例子,使用MV能源仓,机器可处理LV电弧炉的配方.  这台机器还可以处理等离子电弧炉的配方.
 
 #Quest_2030.Bate Bate Chocolate
-#N gtnh.quest2030.name=Bate Bate Chocolate
-#N gtnh.quest2030.desc=Abuela, will you teach us the chocolate song?\nCon mucho gusto\nWill you sing the chocolate song with us?\nGreat, sing along with Abuela!\n\nBate bate chocolate\nBate bate chocolate\nBate bate chocolate\nBate bate chocolate\n\nMix your chocolate, chocolate\nMix your chocolate, chocolate\nBate bate chocolate\nBate bate chocolate
+#N gtnh.quest2030.name=搅拌/搅拌/巧克力(爱探险的多拉)
+#N gtnh.quest2030.desc=Abuela,你能教我们巧克力之歌吗?  十分乐意!  你会跟我们一起唱巧克力之歌吗?  太棒了,跟着Abuela一起唱!  搅拌,搅拌,巧克力 搅拌,搅拌,巧克力 搅拌,搅拌,巧克力 搅拌,搅拌,巧克力  搅拌好吃的巧克力,巧克力 搅拌好吃的巧克力,巧克力 搅拌,搅拌,巧克力 搅拌,搅拌,巧克力
 
 #Quest_2031.Play doh for big girls and boys
-#N gtnh.quest2031.name=Play doh for big girls and boys
-#N gtnh.quest2031.desc=I never wanna grow up, I wanna play with my mega extrusion machine.\nAnd in case you didn't read the description in NEI: You can use multiple input busses with a different extruder shape in each and then throw the items to extrude into the bus with the appropriate shape.
+#N gtnh.quest2031.name=大男孩大女孩的大玩具
+#N gtnh.quest2031.desc=我不想长大,我想跟大压模机玩.  要是你没看过NEI的主方块tooltip的话:你可以在工业压模机上放置多个输入总线,每个总线可放入不同的模头,进入相应总线的材料会根据总线内的模头被加工成相应成品.
 
 #Quest_2032.Best thing since sliced bread
-#N gtnh.quest2032.name=Best thing since sliced bread
-#N gtnh.quest2032.desc=When all you have is a machine full of knives, everything starts looking like bread.  \n\nBluebine 2019!
+#N gtnh.quest2032.name=最好的切面包机
+#N gtnh.quest2032.desc=当你有了一台装满了小刀的机器,你看啥都像面包了.    Bluebine-2019!
 
 #Quest_2033.A 9 in 1 machine, what a steal!
-#N gtnh.quest2033.name=A 9 in 1 machine, what a steal!
-#N gtnh.quest2033.desc=This machine has 3 modes, capable of emulating 9 of the less common machines.\nThe 3 general modes are cycled by using a screwdriver on the controller. Each of the modes can support 2 or 3 different machine selected by putting a circuit into the same input bus as the items you want to process. If you have a look at the description of the controller in NEI, you will see a list of the supported machines for each mode. These are in order and can be used with circuit numbers 20, 21 and 22. This also means that you can use multiple input busses with different circuits to use the full potential of the machine. You can also use more busses to use different non-consumable items in the recipes.
+#N gtnh.quest2033.name=九合一,这是作弊!
+#N gtnh.quest2033.desc=这台机器有3个模式,能够实现9种不太常用的机器功能. 通过对控制器使用螺丝刀切换这三种模式.每个模式可以支持2-3种不同机器功能,通过输入总线中的电路板区分.如果你看过NEI中控制器的tooltip,你就会知道每种模式支持的机器类型.使用电路板20,21,22区分同种模式下的不同机器类型.这也意味着你可以使用多输入总线,每个总线根据需要选择电路板,将这台机器的全部潜力开发出来.你还可以将配方中不消耗的物品放入不同输入总线中实现不同配方.  译者注:非常适合激光蚀刻机.另外,如果使用多输入总线的话,一定要保证每个总线中都有电路板,否则机器不会运行...
 
 #Quest_2034.ZzzZZZzzzZtt
-#N gtnh.quest2034.name=ZzzZZZzzzZtt
-#N gtnh.quest2034.desc=Need lots of oxygen or hydrogen, or just want to rip apart materials for tons of aluminium?
+#N gtnh.quest2034.name=嗞...嗞...嗞...
+#N gtnh.quest2034.desc=需要大量的氧和氢,或是只是想要电解材料获得成吨的铝?
 
 #Quest_2035.Frozen Stiff
-#N gtnh.quest2035.name=Frozen Stiff
-#N gtnh.quest2035.desc=I'm so cold...
+#N gtnh.quest2035.name=冻僵了...
+#N gtnh.quest2035.desc=我好冷啊...
 
 #Quest_2036.Forge of the Gods
-#N gtnh.quest2036.name=Forge of the Gods
-#N gtnh.quest2036.desc=The Volcanus Advanced EBF will process items faster than you can believe.
+#N gtnh.quest2036.name=上帝的锻造台
+#N gtnh.quest2036.desc=炽焱高炉能以难以置信的速度处理物品.  译者注:甚至可以降低配方炉温需求.
 
 #Quest_2037.Spools and spools
-#N gtnh.quest2037.name=Spools and spools
-#N gtnh.quest2037.desc=Need enough wire to go around the world? Here you go.
+#N gtnh.quest2037.name=绕了一圈又一圈
+#N gtnh.quest2037.desc=想要绕地球几圈的导线?试试这个吧.
 
 #Quest_2038.Bender more bending
-#N gtnh.quest2038.name=Bender more bending
-#N gtnh.quest2038.desc=When you need plates by the thousands.
+#N gtnh.quest2038.name=弯曲、辊压
+#N gtnh.quest2038.desc=当你需要成千上万的板子时.
 
 #Quest_2039.Bezos would be proud
-#N gtnh.quest2039.name=Bezos would be proud
-#N gtnh.quest2039.desc=\nThe Amazon Warehousing Depot is the ultimate for all your packing needs. Got tiny and small dusts coming out of your ears? This is the machine for you.
+#N gtnh.quest2039.name=Bezos的骄傲(亚马逊公司CEO)
+#N gtnh.quest2039.desc= 亚马逊仓库是满足你所有打包需求的终极选择.小撮粉和小堆粉实在太多?这台机器为你而生.
 
 #Quest_2040.Industrial Coke Oven
-#N gtnh.quest2040.name=Industrial Coke Oven
-#N gtnh.quest2040.desc=Swimming in logs? Turn those logs into clean burning charcoal!
+#N gtnh.quest2040.name=工业焦炉
+#N gtnh.quest2040.desc=原木堆成了海?把这些原木变成清洁燃烧的木炭吧!
 
 #Quest_2041.Chickens my boy, the future is in chickens
 #N gtnh.quest2041.name=Chickens my boy, the future is in chickens
 #N gtnh.quest2041.desc=Future wetware processors are going to need stemcells....lots of them.  Luckily there is way to infuse a normal, harmless chicken embryo with genetic mutagen to make it a perfect source for these stemcells. Once the egg has matured it has a small chance of turning into a giant chicken spawn egg. This giant chicken will now lay eggs that can be disassembled for stemcells or allowed to mature to make more giant chickens. Killing the giant chicken may also give you eggs.
 
 #Quest_2042.So thirsty 
-#N gtnh.quest2042.name=So thirsty 
-#N gtnh.quest2042.desc=Just listening to this tank gulp water makes me thirsty. If placed next to a water source block, it is a decent water source. It also supports several upgrades to speed and capacity. Try out this glyph near your cows, and get a tank full of milk for all your cheese and butter needs.
+#N gtnh.quest2042.name=太渴了
+#N gtnh.quest2042.desc=听这储罐里水的咕噜声让我很渴.如果它被放在水源方块边,它就是个合适的水源.它还支持一些速度和容量升级.  你可以试试把它放在牛边上,它能收集牛奶并满足你所有奶酪黄油之类的需求.
 
 #Quest_2043.Borax Electrolyzing
-#N gtnh.quest2043.name=Borax Electrolyzing
-#N gtnh.quest2043.desc=Now that you have an MV Electrolyzer, you can extract Boron from Borax. This element is used later on for Borosilicate Glass and fiber, but for now you can use it to make some volumetric flasks to hold precise amounts. This is handy for recipes that may only need a tiny amount of a substance, like 1L.
+#N gtnh.quest2043.name=电解硼砂
+#N gtnh.quest2043.desc=既然你有了MV电解机,你就能从硼砂中电解出硼.这种元素可用于制作稍后的硼玻璃和玻璃纤维,但现在你可以用它来制作有精确容量的容量瓶.这对某些只需少量流体的配方很有用.
 
 #Quest_2044.Mega is Betta
-#N gtnh.quest2044.name=Mega is Betta
-#N gtnh.quest2044.desc=For someone who needs to blast a truly *ridiculous* amount of stuff, this is the machine for you.  This monster machine can handle up to 256 parallel recipes at a time.\nThe glass tier (search NEI for Glass-Tier: HV for an example) sets the maximum energy hatch tier for this machine.
+#N gtnh.quest2044.name=越大越好
+#N gtnh.quest2044.desc=对于一个需要炼制*荒唐*数量材料的人来说,这台机器是完美的.  这个机器怪兽可以同时处理256个配方. 玻璃等级(比如在NEI搜索"玻璃等级:HV")限制了这台机器的最高能源仓等级.
 
 #Quest_2045.Frostbite!
-#N gtnh.quest2045.name=Frostbite!
-#N gtnh.quest2045.desc=This mega vac freezer can handle up to 256 items.
+#N gtnh.quest2045.name=冻伤!
+#N gtnh.quest2045.desc=这台巨型真空冷冻机可以同时处理最多256个配方.
 
 #Quest_2046.A better fluid pie
-#N gtnh.quest2046.name=A better fluid pie
-#N gtnh.quest2046.desc=Now that you have lead you can convert your bronze pipes to potin pipes with higher capacties.
+#N gtnh.quest2046.name=更好的流体派(pie)管道(pipe)
+#N gtnh.quest2046.desc=既然你有了铅,你就可以把你的青铜流体管道换成具有更高容量的粗青铜合金流体管道了.
 
 #Quest_2047.Bulk Programming
-#N gtnh.quest2047.name=Bulk Programming
-#N gtnh.quest2047.desc=Tired of having to use NEI to figure out how to program your circuits? This block will allow you to simply choose the circuit number. It can be automated.
+#N gtnh.quest2047.name=批量编程
+#N gtnh.quest2047.desc=厌倦了用NEI来计算如何为电路编程?这个方块使你能简单地选择编程电路号,它可以自动化.
 
 #Quest_2048.Moss
-#N gtnh.quest2048.name=Moss
-#N gtnh.quest2048.desc=Given up on looking for moss in the Twilight Forest? You can easily grow a crop that will give you the various mosses, perfect for your Tinker's tools. Start with a lilypad.
+#N gtnh.quest2048.name=苔藓
+#N gtnh.quest2048.desc=放弃了在暮色森林里寻找苔藓?你可以很容易地种植一种能为你产出各种苔藓的作物,非常适合你的匠魂工具.你可以从睡莲(lilypad)开始培育.
 
 #Quest_2049.Energy Buffers
-#N gtnh.quest2049.name=Energy Buffers
-#N gtnh.quest2049.desc=Your research into energy has lead you to energy buffers - a single block that can store enormous amounts, and is also portable. Better than a battery, these devices can be configured to output 1-16A. Using a high-amp transformer, that means you can up tier 2 tiers with these devices. This HV energy buffer can power an HV machine for several hours, or an EV machine for almost an hour. Perfect for mining operations in far off dimensions.
+#N gtnh.quest2049.name=能量缓冲器
+#N gtnh.quest2049.desc=你在能量方面的研究进展使你发明了能量缓冲器-一种简单的方块,可以存储巨量能量,而且可携带.比电池更好,这些设备可以设置输出1-16A,再加上高电流变压器,你就能把电压等级强行提高两级.  这个HV能量缓存器可以为HV机器供能几小时,或为EV机器供能将近一小时.非常适合远距离采矿作业.
 
 #Quest_2050.Greedy Chest
-#N gtnh.quest2050.name=Greedy Chest
-#N gtnh.quest2050.desc=The Greedy Chest from Automagy looks to have some interesting uses. It also gates a pretty important device for a magician...
+#N gtnh.quest2050.name=贪婪箱子
+#N gtnh.quest2050.desc=自动化魔法(Automagy)的贪婪箱子看起来有些有趣的用法.对神秘使来说,这也是非常重要的设备.
 
 #Quest_2051.Another way to Ethanol
-#N gtnh.quest2051.name=Another way to Ethanol
-#N gtnh.quest2051.desc=Using a fermenter with excess saplings or other garbage will give you Forestry biomass. Higher Sappiness trait on your trees will get you better results.
+#N gtnh.quest2051.name=获得乙醇的另一种方法
+#N gtnh.quest2051.desc=使用发酵槽处理多余的树苗或其他垃圾获得林业生物质.你的树苗多汁属性越高,你的收获就会越多.
 
 #Quest_2052.Why no, this is not fit for human consumption
-#N gtnh.quest2052.name=Why no, this is not fit for human consumption
-#N gtnh.quest2052.desc=Taking the biomass from the Fermenter and using it in a still will give you Ethanol. Not really worth it for power, but useful if you want to turn it into ethylene.  You could set it up on an old steam setup with nothing better to do to get a more useful power source out of it, or use the Ethanol to power the setup and the forestry farm.
+#N gtnh.quest2052.name=为什么不,这不适合人类消费
+#N gtnh.quest2052.desc=收集发酵槽中的生物质,再放入蒸馏室中蒸馏,可获得乙醇.用来发电并不太合适,但要是你想制备乙烯,它就很有用.  要是不想太麻烦,你可以用老旧的蒸汽设备为这套机器加上林业农场供能,或者你也可以选择用出产的乙醇来供能.
 
 #Quest_2053.Empty the oceans
-#N gtnh.quest2053.name=Empty the oceans
-#N gtnh.quest2053.desc=If you stuck with fish for biodiesel this long, you can now make the Zhuhai Fishing Port to get cartloads of fish and other byproducts.
+#N gtnh.quest2053.name=把海洋捞空
+#N gtnh.quest2053.desc=为了生物柴油,很长一段时间里,你都用鱼笼捕鱼.现在,你可以建造珠海渔场,收获成吨的鱼和副产物.
 
 #Quest_2054.Putting all those workers out of jobs
-#N gtnh.quest2054.name=Putting all those workers out of jobs
-#N gtnh.quest2054.desc=The large scale auto-assembler will put things together for you, in volume. It is an Assembler, Disassembler, and Autocrafter all in one.
+#N gtnh.quest2054.name=把所有工人赶出工作岗位
+#N gtnh.quest2054.desc=大规模自动装配机将为你组装大量的东西. 它将组装机、拆解机和自动合成机的功能集成到了一起.
 
 #Quest_2055.Better fermenter outputs
-#N gtnh.quest2055.name=Better fermenter outputs
-#N gtnh.quest2055.desc=With a Squeezer you can boost the output from your fermenter, saving on Fertilzer or Mulch and getting more per sapling. There's a variety of crops you can use to make fruit juice, so have fun breeding.
+#N gtnh.quest2055.name=更好的发酵产出
+#N gtnh.quest2055.desc=有了榨汁机,你可以提高发酵槽的产出,节省肥料或覆盖戍并且提高每个树苗的产出.有许多作物可用于获取果汁,所以培育愉快.
 
 #Quest_2056.Jacques Cousteau
-#N gtnh.quest2056.name=Jacques Cousteau
-#N gtnh.quest2056.desc=Now that you have a Scuba Helmet you can safely explore underwater for long periods of time. You just need some compressed air cells.  I'll trade you some Iron Plates for compressed air cells.\nAs your air drops, the helmet will take a compressed air cell and give back an empty cell. Throw these cells into your compressor and you can easily gather clay from beneath rivers. You'll be able to make more cells later once you get an extruder or a plate bender.
+#N gtnh.quest2056.name=雅克·库斯托(Jacques Cousteau)(水肺发明者)
+#N gtnh.quest2056.desc=有了防化头盔,你就可以安全地进行长时间的水下探索了.你只需要一些压缩空气单元.我会用一些压缩空气单元换你的锡锭.  当你的空气下降时(气泡减少),防化头盔会消耗一个压缩空气单元并返还一个空单元.这些空单元可以扔进压缩机继续制作压缩空气单元.这样,你就可以更方便地在河底收集粘土了.  一旦你拥有了自己的压模机或卷板机,你就可以自己制作更多的单元了.
 
 #Quest_2057."Oh magic" armor II
-#N gtnh.quest2057.name="Oh magic" armor II
-#N gtnh.quest2057.desc=Steeleaf armor is the next level in Twilight Forest armor. It can be handy as a defense in the Nether.
+#N gtnh.quest2057.name="噢,魔法"装甲II
+#N gtnh.quest2057.desc=钢叶装甲是暮色森林装甲的下一阶.它可作为探索下界时的装甲.
 
 #Quest_2058."Oh magic" armor III
-#N gtnh.quest2058.name="Oh magic" armor III
-#N gtnh.quest2058.desc=Knightmetal is the top tier Twilight Forest armor. It doesn't come with any free enchants but it has high durability and high armor rating
+#N gtnh.quest2058.name="噢,魔法"装甲III
+#N gtnh.quest2058.desc=骑士金属是暮色森林装甲的顶级金属.它没有自带附魔,但它具有高耐久和高护甲值.
 
 #Quest_2059.Knightmetal
-#N gtnh.quest2059.name=Knightmetal
-#N gtnh.quest2059.desc=Knightmetal ingots are loot taken from Goblin Knight Strongholds. They can be made into Diamond-tier armor. You can take Armor Shards and turn them into Knightmetal ingots.
+#N gtnh.quest2059.name=骑士金属
+#N gtnh.quest2059.desc=骑士金属锭是从地精骑士要塞中获得的战利品.  译者注:极光宫殿的箱子中也会出现.  它们可被制作成钻石等级的装甲.你可以把护甲碎片堆烧制成骑士金属.
 
 #Quest_2060.Flying like....Mary Poppins?
-#N gtnh.quest2060.name=Flying like....Mary Poppins?
-#N gtnh.quest2060.desc=The Thaumostatic Harness grants you flight, using up Potentia from a jar. The speed isn't great though, so perhaps further research will yield some results.
+#N gtnh.quest2060.name=像...Mary Poppins(仙女保姆)一样飞?
+#N gtnh.quest2060.desc=奥法缰绳使你能够飞翔,消耗源质罐子中的潜能(Potentia)源质.可惜速度不快,可能更深入的研究能解决这个问题吧.
 
 #Quest_2061.Flying with the greatest of ease
-#N gtnh.quest2061.name=Flying with the greatest of ease
-#N gtnh.quest2061.desc=Ahh that's better.  With this girdle you can really fly around like a true wizard. It does take a little extra potentia to use though, so keep an eye on your flying time.
+#N gtnh.quest2061.name=无忧无虑地飞翔
+#N gtnh.quest2061.desc=啊哈,这个更棒!  有了这根腰带,你可以像个真正的巫师一样飞来飞去了.可惜这需要消耗额外的潜能源质,所以继续你的研究吧.
 
 #Quest_2062.Working while flying? 
-#N gtnh.quest2062.name=Working while flying? 
-#N gtnh.quest2062.desc=With these devices you can now fly and work at the same time without penalty.  They can be found in the Witching Gadgets tab of the book. You will need a Swiftness potion for this device.
+#N gtnh.quest2062.name=飞行时工作? 
+#N gtnh.quest2062.desc=有了这些设备,你现在可以在不被减速的情况下同时飞行和工作了.  你可以在魔导手册巫师宝具章节找到它们.你需要一些迅捷药水.
 
 #Quest_2063.Long distance power delivery
-#N gtnh.quest2063.name=Long distance power delivery
-#N gtnh.quest2063.desc=No mage wants to be restricted to short flying times. With this spire from the Automagy discipline you can transmit magical energy directy to your flying harness.\nTo get the correct Thaumium block, compress 9 ingots to get the GT Thaumium block and then chisel that block to get the correct type.\nThis multiblock requires centi-vis to operate. You can use 2-6 Thaumostatic Pylons, with additional pylons extending the range. Provide the construct Aer centi-vis to operate, and will accept Potentia essentia to transfer to flyers. The construct will also accept Aer and Voltatus essentia to increase the range and rate of transfer, respectively. Right-clicking the sides of the controller to control which type of essentia each side will accept.
+#N gtnh.quest2063.name=长距离能量输送
+#N gtnh.quest2063.desc=没有法师想被限制在短时间飞行内.有了这个自动化魔法(Automagy)的奥法尖塔,你就可以将魔法能量直接传输到你的奥法缰绳中.  想要获得正确的神秘块,你需要把9个神秘锭压缩成GT神秘锭块,然后用凿子处理这个方块,使其变成正确的样式.  这个多方块结构需要0.01级的vis才能运行.你可以使用2-6个奥法能量柱,额外的能量柱用于扩展范围.给这个结构提供0.01级的风(Aer)vis使其运行,它会接收潜能源质来传输给飞行者.这个结构还接收风和飞行(volatus)源质,分别提升传输范围和传输速率.右键控制器的某一面来控制该面接收何种源质.
 
 #Quest_2064.Healing your nodes
 #N gtnh.quest2064.name=Healing your nodes
@@ -8265,7 +8265,7 @@ gtnh.quest2008.desc=既然你已经开始构建你珍贵的量子计算机了,�
 #N gtnh.quest2065.desc=The Witching Gadgets Spinning Wheel will unlock plenty of useful materials and items. Hopefully without that creep Rumpelstiltskin! Make sure you get the WG Spinning Wheel and not the Witchery version.
 
 #Quest_2066.Flying like a eagl - I mean raven
-#N gtnh.quest2066.name=Flying like a eagl - I mean raven
+#N gtnh.quest2066.name=像鹰...我是说乌鸦一样飞
 #N gtnh.quest2066.desc=This cloak will be a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.
 
 #Quest_2067.Everything fuzzy? Try some lenses
