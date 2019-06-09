@@ -582,7 +582,7 @@ gtnh.quest144.desc=你了解的另一个自动合成方法... 左侧的3x3格子
 
 #Quest_145.Ore processing kind of...
 gtnh.quest145.name=一种矿物处理......
-gtnh.quest145.desc=研磨机与SAG研磨之间的战争仍在继续,看不到尽头,那么何必纠结选哪个呢?  HV研磨机可获得更多的副产物,但SAG研磨机也有其闪光点:升级研磨头！SAG研磨机是一种完美的机器,可以在不使用蜜蜂和作物的情况下从矿石中获得最大的收益. 使用钨磨头可以获得额外的输出,但这并不意味着你可以以此刷材料.(比如锭,就没有额外产出)  另外,对于许多矿物,您将直接获得最终输出,而无需进一步处理.它可以很方便地处理红石获得铬!  SAG对于铅、铜、锡、银、镍、红石、红宝石、青金石、石英和孔雀石矿都很有用.要是你用了足够好的磨头,还有些别的矿物也将获得更多的输出.  甚至煤炭、木炭、小麦和末影珍珠都能获得额外输出.
+gtnh.quest145.desc=研磨机与SAG研磨之间的战争仍在继续,看不到尽头,那么何必纠结选哪个呢?  HV研磨机可获得更多的副产物,但SAG研磨机也有其闪光点:升级研磨头！SAG研磨机是一种完美的机器,可以在不使用蜜蜂和作物的情况下从矿石中获得最大的收益. 使用钨磨头可以获得额外的输出,但这并不意味着你可以以此刷材料.(比如锭,就没有额外产出)  另外,对于许多矿物,你将直接获得最终输出,而无需进一步处理.它可以很方便地处理红石获得铬!  SAG对于铅、铜、锡、银、镍、红石、红宝石、青金石、石英和孔雀石矿都很有用.要是你用了足够好的磨头,还有些别的矿物也将获得更多的输出.  甚至煤炭、木炭、小麦和末影珍珠都能获得额外输出.
 
 #Quest_146.Torture device
 gtnh.quest146.name=酷刑装置
@@ -8521,120 +8521,120 @@ gtnh.quest2129.name=普通核桃树
 gtnh.quest2129.desc=普通核桃树是生产种子油的好选择.用山丘樱和银橙杂交培育而来.
 
 #Quest_2130.Butternut
-gtnh.quest2130.name=Butternut
-gtnh.quest2130.desc=The Butternut tree is a pretty good seedoil producer at 180L per nut. Breed it by mating Hill Cherry with Common Walnut.\n\nIt's attributes aren't that great, but with a little crossbreeding you can get that 2x2 giant with fast production. For optimal fruit production speed, try breeding Fruity bees.
+gtnh.quest2130.name=灰核桃树
+gtnh.quest2130.desc=灰核桃树是生产种子油非常好的选择,每个坚果可以产生180L种子油.用山丘樱和普通核桃树杂交培育而来.  它的基础属性不太好,但通过小小的杂交,你就能获得2x2干围的大树,生产速度相当可观.为了获得最佳的果实生产速度,尝试培育水果蜂(fruity-bee).
 
 #Quest_2131.Lemon
-gtnh.quest2131.name=Lemon
-gtnh.quest2131.desc=Lemon trees are great for maximum fruit juice production.用山丘樱和银橙杂交培育而来.
+gtnh.quest2131.name=柠檬树
+gtnh.quest2131.desc=柠檬树最适合生产果汁.用山丘樱和银橙杂交培育而来.
 
 #Quest_2132.Plum
-gtnh.quest2132.name=Plum
-gtnh.quest2132.desc=The Plum is a great multipurpose tree.  It has optimal yield and its fruit produces mulch with the highest chance. It also has decent sappiness for biomass production. Breed it by mating Hill Cherry with Lemon.
+gtnh.quest2132.name=李树
+gtnh.quest2132.desc=李子树是一种多用途树.  产量最优,果实覆盖率最高.对于生物质生产,它的多汁属性也不错.用山丘樱和柠檬树杂交培育而来.
 
 #Quest_2133.Desert Acacia
-gtnh.quest2133.name=Desert Acacia
-gtnh.quest2133.desc=Desert Acacia. Another step on the road. Breed it by mating Teak with Balsa.
+gtnh.quest2133.name=沙漠刺槐
+gtnh.quest2133.desc=沙漠刺槐.培育道路上的另一步.用柚树和巴尔杉树杂交培育而来.
 
 #Quest_2134.Cocobolo
-gtnh.quest2134.name=Cocobolo
-gtnh.quest2134.desc=The Cocobolo is a nice tall tree, perfect for mating into your Plum or Butternut to maximize their yield. Breed it by mating Desert Acacia with Dark Oak.
+gtnh.quest2134.name=黄檀树
+gtnh.quest2134.desc=黄檀树是一种非常高大的树,非常适合与李子树或核桃树杂交,以使其产量最大化.用沙漠刺槐和深色橡木杂交培育而来.
 
 #Quest_2135.Blue Mahoe
-gtnh.quest2135.name=Blue Mahoe
-gtnh.quest2135.desc=The Blue Mahoe has the most sappiness of any tree.  It will vastly increase the efficiency of your biomass production with Fermenters. Breed it by mating Balsa with Desert Acacia.
+gtnh.quest2135.name=高槿树
+gtnh.quest2135.desc=高槿树有最高的多汁属性.  它将极大地提高发酵机生产生物质的效率.用沙漠刺槐和巴尔杉树杂交培育而来.
 
 #Quest_2136.Energy Acceptor
-gtnh.quest2136.name=Energy Acceptor
-gtnh.quest2136.desc=The Energy Acceptor is an alternative place to inject energy into your AE2 network. Generally, you want to inject energy at the controller because if it cannot see an EA within the first 8 parts, the network will not form anyways.\n\nYou can form a "dumb" network with just an EA, but for real capability, you'll want a Controller.
+gtnh.quest2136.name=能源接收器
+gtnh.quest2136.desc=能量接收器是向你的AE网络注入能量的另一个设备.一般情况下,你都会直接给ME控制器供能,因为如果只用能量接收器供能,而在最初的8个部分中没有检测到能量接收器的话,网络就不会成型.  你可以构建一个只有能源接收器的"哑的"网络,但想要有真正的功能,你还是需要ME控制器.
 
 #Quest_2137.ME Controller
-gtnh.quest2137.name=ME Controller
-gtnh.quest2137.desc=The heart of your ME network. Inject energy into here as well to power your network.
+gtnh.quest2137.name=ME控制器
+gtnh.quest2137.desc=你的AE网络的核心.向它注入能量就可以给你的整个网络供能.
 
 #Quest_2138.Making Sense of Spaghetti
-gtnh.quest2138.name=Making Sense of Spaghetti
-gtnh.quest2138.desc=Nobodly likes an untidy base. You can craft a spray can and fill it with Chemical Dye made from sulfuric acid to color coordinate your carpets, cables, wires, and machines.
+gtnh.quest2138.name=理清楚你家那堆意大利面吧
+gtnh.quest2138.desc=没人喜欢一团糟的基地.你可以制作一个喷漆罐然后填充化学染料-由硫酸制备而来,用喷漆罐给你的地毯、线缆、导线和机器上色,让它们井井有条.
 
 #Quest_2139.Oink!
-gtnh.quest2139.name=Oink!
-gtnh.quest2139.desc=While the Pig backpack is useless on its own, it can be turned into a pretty powerful tool with the right...motivation.
+gtnh.quest2139.name=Oink(猪叫)!
+gtnh.quest2139.desc=虽然猪背包本身没啥用,但它可以转化成非常有用的工具,通过一些正确的...刺激...
 
 #Quest_2140.A Fool Fit for a King
-gtnh.quest2140.name=A Fool Fit for a King
-gtnh.quest2140.desc=Only the craziest fool would use diamonds to make a tool! Or is it crazy like a fox?
+gtnh.quest2140.name=一个适合做国王的傻瓜
+gtnh.quest2140.desc=只有最疯狂的傻瓜才会用钻石制作工具! 也许这个疯子大智若愚?
 
 #Quest_2141.Welcome to the Church of Benzene
-gtnh.quest2141.name=Welcome to the Church of Benzene
-gtnh.quest2141.desc=If you made it to MV using steam, you're probably wondering how to survive going further. One option is to switch to Light Fuel, discussed in LV.  Another option is to use Benzene. Benzene is made from Wood Tar. There are a couple of pathways for that. Both start with logs from trees.  \n\nOne path is to use Coke ovens or Advanced Coke Ovens to make charcoal, and fluid-extract Wood Tar from it (use LV fluid extractors for maximum EU efficiency). Then distill the Wood Tar to make Benzene. This method produces no pollution.\n\nThe second path is to use the Pyrolyze Oven multiblock and Nitrogen gas to extract Wood Tar and Charcoal. Fluid Extract the Charcoal for addtional Wood Tar.  Then proceed as above. This method will create pollution from the Pyrolyze, but will provide more Benzene per log.\n\nExcess wood tar can also be turned into Toluene, a key ingredient for explosives that you will need later on.
+gtnh.quest2141.name=欢迎来到大苯环神教
+gtnh.quest2141.desc=要是你到了MV还在使用蒸汽,你可能想知道如何继续生存下去,并走得更远.一种选择是改用轻燃料,这在LV就讲过了.  另一种选择就是用苯.苯是由木焦油制成的.有两条路可以走,都从种树收获原木开始.  一条路是使用焦炉或工业焦炉制造木炭,而木炭的液体提取物就是木焦油(使用LV液体提取机以达到最优EU效率). 然后蒸馏木焦油制取苯. 这种方法不会产生污染.  第二条路就是使用多方块热解炉(加入氮气速度更快),直接生产木炭和木焦油.液体提取木炭以获得额外的木焦油. 接下来的步骤同上. 此方法会在热解炉这步产生污染,但每个原木可获得更多的苯.  多余的木焦油也可以制成甲苯-爆炸物的一个关键成分,你以后会需要它的.  译者注:制取甲苯才是木焦油最重要的用处...
 
 #Quest_2142.Automated Crafting
-gtnh.quest2142.name=Automated Crafting
-gtnh.quest2142.desc=The Auto Workbench is a simple automated crafting system.  You select the recipe in the grid, and place components in the inventory. They will slowly be converted into the crafted item. While not fast, it does support automation - only items acceptable to the recipe is allowed in the inventory.
+gtnh.quest2142.name=自动化合成
+gtnh.quest2142.desc=BC的自动合成台是一种简易的自动化系统.  你可以在网格中摆成合成表,在物品栏放入原理.它们就会以缓慢的速度转化为成品.虽然不快,但它的确支持自动化-只有在合成表中的物品才能进入物品栏.
 
 #Quest_2143.Choices, choices
-gtnh.quest2143.name=Choices, choices
-gtnh.quest2143.desc=Need a map on fuel choices? Well, we don't have that but we have suggestions. You can run Steam from burning up to EV, but beyond MV it gets pretty painful. \n\nIn LV you can start refining oil for either Light Fuel or Refinery Gas, which will be good for you to EV. \n\nOnce you hit MV you can switch from Steam to renewable Benzene from your logs if you decided to hold out. Other renewable alternatives are Fishoil or Seedoil based Biodiesel. Seedoil can be sourced from Pam's peanuts, IC2 Rape crop or Forestry tree nuts.\n\nAlso at MV you can upgrade your Light Fuel with Heavy Fuel to get Diesel.\n\nWhen you reach HV turn Diesel or Biodiesel into Cetane Boosted Diesel.\n\nAfter reaching the Moon, Wind and Water Kinetics are available.\n\nEV introduces the Large Gas Turbine and Large Combustion Engine, along with granting access to Nukes.\n\nFor low usage operations, or dedicated players willing to setup automation systems, you can begin using Solar Panels at MV.
+gtnh.quest2143.name=选择,选择
+gtnh.quest2143.desc=想要有个燃料选择图?好吧,我们没有这玩意,但我们可以提供建议.  你可以用蒸汽一直用到EV,但高于MV之后,这会很痛苦.  在LV阶段,你就可以开始炼油,获得轻燃油或炼油气,这两种燃料也可以一直用到EV.  如果你坚持绿色能源的话,到了MV阶段后你可以从蒸汽转向苯-一种从原木中获取的可再生燃料.另一种可再生燃料是用鱼油或种子油制成的生物柴油.种子油可由潘马斯的花生、IC2作物油菜或林业树木果实坚果制取.  在MV阶段你还可以将自己的轻燃油加入重燃油升级为柴油.  当你到达HV阶段后,柴油或生物柴油可升级为高十六烷值柴油.  登月以后,风力和水力就可用了.  EV阶段有介绍过的大型燃气轮机和大型柴油引擎,还有核反应堆也可以用了.  对于低消耗系统,或是有志于实现太阳能自动化的玩家,在MV阶段可以开始制作太阳能覆盖版.  译者注:太阳能的成本越来越高,不建议作为主要能源.
 
 #Quest_2144.Don't put a finger in that socket
-gtnh.quest2144.name=Don't put a finger in that socket
-gtnh.quest2144.desc=If you want to pass multiple amps through your cleanroom walls, use a one-way Diode.  Also handy to limit power when branching off a main power line to trunk lines that normally will not use as many amps, but you want to prevent catching fire while filling buffers.
+gtnh.quest2144.name=别把手指插进插座里
+gtnh.quest2144.desc=如果你想让多A电流通过你的超净间墙壁,使用线缆二极管吧.  当从主电源线分支到通常不会使用那么多A电流的支线时,也可以方便使用线缆二级管来限制电流,但是你要防止在填充机器缓存时着火.
 
 #Quest_2145.E_TOO_MANY_KEYS
-gtnh.quest2145.name=E_TOO_MANY_KEYS
-gtnh.quest2145.desc=ERROR: Too many keys to fit a 104 key keyboard. You will need to redefine your keymap so that you can use things effectively.  Here is a list of keys you should deconflict.\n\nAdventure Backpacks\nB - Inventory\nV - Toggle\nBackpacks\nG - Open Backpack (sneak-G to wear/remove backpack and set filtering)\nDark Steel Armor\nApostrophe - Night Vision\nGameplay\nR - Draw Weapons\nZ - Special (cycle arrows on M&B quiver)\nNONE - Drop Item (Who wants to throw a backpack into lava?)\nIC2\nC - Side Invetory Key\nJourneymap\nHome - Make Waypoint\nJ - Open Map\n= - Zoom In (works on minimap too)\n- - Zoom Out (same)\nMisc\nH - Toggle Hover Harness\nF - Toggle Wand Focus\nTC Node Tracker\nI - Node List (must be scanned, goggles allow compass)\nX - Zoom key (handy for checking on distant ores on a mountain)\nTinker's Construct\nDelete - Traveller's Belt Swap Hotbar
+gtnh.quest2145.name=错误:太多按键需要绑定
+gtnh.quest2145.desc=错误:键盘只有104个按键,但有太对需要绑定了.你需要重新定义你的键位,这样你才能更有效地使用快捷键.  这是你应该解决冲突的快捷键列表.  Adventure Backpacks\nB - Inventory\nV - Toggle\nBackpacks\nG - Open Backpack (Shift+G以穿上/脱下背包并设置过滤)\nDark Steel Armor\nApostrophe - Night Vision\nGameplay\nR - Draw Weapons\nZ - Special (cycle arrows on M&B quiver)\nNONE - Drop Item (谁想把背包扔进岩浆里?)\nIC2\nC - Side Invetory Key\nJourneymap\nHome - Make Waypoint\nJ - Open Map\n= - Zoom In (小地图上同样可用)\n- - Zoom Out (同上)\nMisc\nH - Toggle Hover Harness\nF - Toggle Wand Focus\nTC Node Tracker\nI - Node List (节点必须被扫描,护目镜支持指南针)\nX - Zoom key (方便查看远处山上的矿石)\nTinker's Construct\nDelete - Traveller's Belt Swap Hotbar
 
 #Quest_2146.BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
-gtnh.quest2146.name=BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
-gtnh.quest2146.desc=Automagy is a little subtle about what the "smort" mage needs to do next. Make some crystalline brains and scan them to unlock the next stage. You'll want to use the zombie brains you've been collecting from dangerous Furious zombies found at Eerie nodes.
+gtnh.quest2146.name=BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS(brains)脑子
+gtnh.quest2146.desc=自动化魔法非常巧妙,只有"聪明的"法师才需要研究它.制作一些水晶之脑并扫描它们,以解锁下一阶段.你会用到僵尸之脑,通常从凶险节点刷出的危险的红眼巨人僵尸身上收集而来.
 
 #Quest_2147.Gimme gimme gimme
-gtnh.quest2147.name=Gimme gimme gimme
-gtnh.quest2147.desc=The Avarice Pearl is the next object Automagy requires you to interact with in order to unlock the next section. Make an Avarice Pearl , throw some stuff on the ground, and throw Avarice Pearls at them by right-clicking quickly over and over to get a Shathered (ha ha) Pearl to unlock a few more research items.
+gtnh.quest2147.name=给我,给我,给我
+gtnh.quest2147.desc=贪婪珍珠是下一个你要互动的对象,以此来解锁自动化魔法的下一部分.制作一个贪婪珍珠,把一些东西扔到地上,然后拿着珍珠一遍又一遍地右键扔向那些物品,直到获得贪婪珍珠碎片,这会解锁更多研究项目.
 
 #Quest_2148.Engraved Lapotrons
-gtnh.quest2148.name=Engraved Lapotrons
-gtnh.quest2148.desc=IV tier batteries require a large investment.  First, you will need to laser engrave 8 Lapotrons. Make sure to do this in a cleanroom.\n\nThey're also used for some advanced AE2 chips.
+gtnh.quest2148.name=刻蚀兰波顿
+gtnh.quest2148.desc=IV等级的电池需要大量的资源.  首先,你需要激光刻蚀8个兰波顿水晶.务必在超净间内完成这项工作.  它们也被用于一些先进的AE2芯片.
 
 #Quest_2149.Lapotronic Energy Orb
-gtnh.quest2149.name=Lapotronic Energy Orb
-gtnh.quest2149.desc=The Lapotronic Energy Orb is the IV tier battery item. It can store 100M EU. Don't charge it until you have verified it for the quest.
+gtnh.quest2149.name=兰波顿能量球
+gtnh.quest2149.desc=兰波顿能量球是IV等级的电池.它可以存储100M-EU.  记得在你交任务之前不要给它充电.
 
 #Quest_2150.One BILLION EU
-gtnh.quest2150.name=One BILLION EU
-gtnh.quest2150.desc=If you want a stationary battery, you can make an AFSU capable of storing up to 1 billion EU and charging items. You can pick it up with a wrench, but you'll lose a percentage of the stored EU. Make sure you right-click, not left-click.  Left-clicking will cause it to lose all stored EU.\n\nAs an alternative, if you can afford them, try the GT++ Energy Buffers. They are more expensive and cannot charge items, but store more, don't lose any EU, and can be configured from 1-16A. See the GT++ tab for details.
+gtnh.quest2150.name=10亿EU
+gtnh.quest2150.desc=如果你想要一个固定的电池,你可以制作AFSU可储存10亿EU还能为物品充电.你可以使用扳手拾起它,但这样你会失去20%存储的EU.确保你是用右键而不是用左键.左键会导致损失所有存储的EU.  作为替代方案,如果你能做得起的话,试试GT++的能量缓冲器吧.它们更贵而且无法为物品充电,但存储量更多,且不会损失EU,而且输出可设置为1-16A.查看GT++任务栏以获知更多细节.
 
 #Quest_2151.Can't spell Lignite without Ignite
-gtnh.quest2151.name=Can't spell Lignite without Ignite
-gtnh.quest2151.desc=Truly the fuel of the gods!
+gtnh.quest2151.name=没有火字旁就写不出褐煤(Can't spell Lignite without Ignite)
+gtnh.quest2151.desc=神之燃料!
 
 #Quest_2152.Who would use this garbage??
-gtnh.quest2152.name=Who would use this garbage??
-gtnh.quest2152.desc=Truly the fuel of idiots!
+gtnh.quest2152.name=谁会用这种垃圾??
+gtnh.quest2152.desc=白痴燃料!
 
 #Quest_2153.Fruity bees
-gtnh.quest2153.name=Fruity bees
-gtnh.quest2153.desc=Fruity bees will make your Forestry trees ripen their fruit faster. Breed them using a Sweetened and Thriving.
+gtnh.quest2153.name=水果蜂
+gtnh.quest2153.desc=水果蜂将会让你的林业树更快地结出果实.由甜美蜂和兴旺蜂杂交培育而来.
 
 #Quest_2154.Sweetened
-gtnh.quest2154.name=Sweetened
-gtnh.quest2154.desc=Sweetened bees can make you sugar. Breed them from Valiant and Diligent.
+gtnh.quest2154.name=甜美蜂
+gtnh.quest2154.desc=甜美蜂可以为你产糖.由勇者蜂和勤奋蜂杂交培育而来.
 
 #Quest_2155.Thriving
-gtnh.quest2155.name=Thriving
-gtnh.quest2155.desc=Thriving bees don't have an effect, but are a necessary step for Fruity. Breed them from Growing and Unweary.
+gtnh.quest2155.name=兴旺蜂
+gtnh.quest2155.desc=兴旺蜂没啥用,但它是培育出水果蜂的必要步骤.由生长蜂和不倦蜂杂交培育而来.
 
 #Quest_2156.Diligent
-gtnh.quest2156.name=Diligent
-gtnh.quest2156.desc=Diligent bees are a core breeding stock bee. Breed them from Common and Cultivated.
+gtnh.quest2156.name=勤奋蜂
+gtnh.quest2156.desc=勤奋蜂是培育蜂群的核心.由寻常蜂和田野蜂杂交培育而来.
 
 #Quest_2157.Unweary
-gtnh.quest2157.name=Unweary
-gtnh.quest2157.desc=Unweary bees are key to a couple of breeding lines. Breed them with Diligent and Cultivated.
+gtnh.quest2157.name=不倦蜂
+gtnh.quest2157.desc=不倦蜂是两条培育线的关键.由勤奋蜂和田野蜂杂交培育而来.
 
 #Quest_2158.Growing
-gtnh.quest2158.name=Growing
-gtnh.quest2158.desc=Growing bees are the start of the Fruity specific breeding tree.  Breed them from Forest and Diligent.
+gtnh.quest2158.name=生长蜂
+gtnh.quest2158.desc=生长蜂是培育水果蜂的开端.由森林蜂和勤奋蜂杂交培育而来.
 
 #Quest_2159.Bees Template - change to OR when copying, back to AND to hide
 gtnh.quest2159.name=Bees Template - change to OR when copying, back to AND to hide
@@ -8673,7 +8673,7 @@ gtnh.quest2167.name=原油
 gtnh.quest2167.desc=Finally, Black Gold. The Oil bee, with proper...encouragement...can take care of all your power and chemical needs for quite some time. Breed them from Coal and Stickyresin.
 
 #Quest_2168.Coal
-gtnh.quest2168.name=凋灵甘蔗
+gtnh.quest2168.name=煤
 gtnh.quest2168.desc=Ah yes, Coal is King indeed. A great bee, giving you Coal to use to power your industry. Will require a Coal Block under your bee housing. This bee will also have the first really dangerous effect - it will apply a creeper explosion to you if you are not wearing your Apiarist suit. Breed them from Peat and Industrious.
 
 #Quest_2169.Peat
