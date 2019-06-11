@@ -7773,7 +7773,7 @@ gtnh.quest1942.name=基础方块
 gtnh.quest1942.desc= 凿子提供种类繁多的方块.在NEI中搜索"chisel"可以找到一页又一页的结果.这里有个小例子.
 
 #Quest_1943.Fun party blocks
-gtnh.quest1943.name=有趣的聚会方块
+gtnh.quest1943.name=有趣的方块聚会
 gtnh.quest1943.desc=甚至还有一些真正有趣的方块.
 
 #Quest_1944.Concrete and GT stones
@@ -8637,12 +8637,12 @@ gtnh.quest2158.name=生长蜂
 gtnh.quest2158.desc=生长蜂是培育水果蜂的开端.由森林蜂和勤奋蜂杂交培育而来.
 
 #Quest_2159.Bees Template - change to OR when copying, back to AND to hide
-gtnh.quest2159.name=Bees Template - change to OR when copying, back to AND to hide
-gtnh.quest2159.desc=Get the princess bee and reward bag in NEI first. \nDo Advanced and set the icon to the bee.\nDo Task, and select the stone, and replace it with the princess.\nBefore closing, select the ... next to the bee name and press Raw NBT\nGo into Tag, Genome, Chromosomes. The first one is the name and must stay.\nDelete the rest of the chromosomes.\nRemove the Infinity unlock requirement.
+gtnh.quest2159.name=蜜蜂模板-当复制时解锁类型改成OR,隐藏时改回到AND
+gtnh.quest2159.desc=首先从NEI中拿出公主蜂和奖励袋. 打开编辑菜单,将图标设置为这个蜜蜂. 打开任务,编辑,任务目标,将石头替换成这个公主蜂. 在关闭之前,点击蜜蜂名字右侧的"...",然后点击"原NBT". 点击tag栏"对象...",Genome栏"对象...",Chromosomes栏"列表...".第一个是必须保留的物品名,删除剩余的条目. 最后将最外全局设置里的repeatTime改为-1.
 
 #Quest_2160.Carpenter's Blocks
-gtnh.quest2160.name=Carpenter's Blocks
-gtnh.quest2160.desc=Yet another custom block system! Carpenter's blocks are crafted blank and placed in-world, and then plain block textures applied to them. The blocks must not be Tile Entities, so Botany blocks don't work correctly with them, but GT Stones like Red Granite, and any colored clay or vanilla glass block will work. Some Chisel glass types will work, and Ztones blocks and Tinted Glass also work.\n\nThe Garage Door requires a block at the top to hang "down" from, but can pretty much be any length.  A redstone signal on any block next to the Garage Door blocks will open or close the door. The open/close will propagate across multiple vertical doors, so you can setup non-square doors. Sneaking and right-clicking with an empty hand will change the door's polarity.\n\nThe pressure plates are player-only activation, making them great for doors into your base.\n\nThe hatches must be clicked on the side of a block to place. They can be handy for protecting you from crucible...byproducts.\n \nThere is a lot more block shapes possible, check NEI for "Carpenter's" to see the options.\n\nThe Chisel allows you to chisel blocks while attached to a Carpenter's block.\n\nThe Hammer allows various functions.\n\nHammer on door - changes door shape type\nSneak Hammer on door - Changes from iron to wooden behavior\nSneak Hammer on lever - Changes polarity (which direction is on/off)
+gtnh.quest2160.name=木匠方块
+gtnh.quest2160.desc=另一个自定义方块系统! 木匠方块(Carpenter's-blocks)制作出来时是空白的,放置到世界后,在其上可应用简单方块的材质.这些方块不能是实体方块(即没有NBT),所以植物学的方块无法使用,但类似红色花岗岩的GT石头、任意染色粘土或原版草方块可以使用.某些样式的凿子处理的草可用,并且Ztones的方块和有色玻璃也可用.  木匠卷闸门需要顶上有个方块,以便门能从上面落下来,但几乎可以扩成任何长度.卷闸门旁边任何一个方块上的红石信号都可以打开或关闭卷闸门.打开/关闭将在多个垂直门之间传递,所以你可以安装非方形的门.空手潜行+右键可修改门的开关极性.  木匠压力盘仅限玩家激活,这使它们成为完美的基地门激活装置.  The hatches must be clicked on the side of a block to place. They can be handy for protecting you from crucible...byproducts.\n \nThere is a lot more block shapes possible, check NEI for "Carpenter's" to see the options.\n\nThe Chisel allows you to chisel blocks while attached to a Carpenter's block.\n\nThe Hammer allows various functions.\n\nHammer on door - changes door shape type\nSneak Hammer on door - Changes from iron to wooden behavior\nSneak Hammer on lever - Changes polarity (which direction is on/off)
 
 #Quest_2161.Safety first
 gtnh.quest2161.name=Safety first
