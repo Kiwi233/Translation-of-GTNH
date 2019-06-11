@@ -2129,7 +2129,7 @@ gtnh.quest531.name=扫描蜜蜂、种子以及更多
 gtnh.quest531.desc=自动化扫描你的蜜蜂和种子.在后面,这台机器可以用于扫描高级机器零件的装配线资料或者将UU物质生产资料写入数据球.带有勘探数据的闪存也需要用到扫描仪.
 
 #Quest_532.Diesel, oil or maybe creosote?
-gtnh.quest532.name=柴油,石油或者木榴油.
+gtnh.quest532.name=柴油,原油或者木榴油.
 gtnh.quest532.desc=你可能已经收集了大量的木榴油,甚至已经建好了第一台电力高炉. 木榴油在一段时间里是一种非常不错的燃料.造一些柴油发电机用它们充当除了蒸汽以外的第二能源.小型发电机只会在有EU需求时使用燃料.
 
 #Quest_533.Hydrogen, methane or some farts... (Natural gas) 
@@ -2189,12 +2189,12 @@ gtnh.quest546.name=嗨男爵,你的石油黑金现况如何？
 gtnh.quest546.desc=在你的旅程中看过些庞大的石油井.现在做台泵将这些黑金装进容器吧！石油可以用于柴油发电机、或者提炼其他原料. 别忘了抽取液体需要使用采矿管道. 带一台柴油发电机为泵供电.(感谢科技进步,现在泵可以自动由上方输出.) 
 
 #Quest_547.Your oil is too Crude? Refine it!
-gtnh.quest547.name=石油提纯.
-gtnh.quest547.desc=用石油做柴油发电机的燃料是一种非常低效率且浪费的事情(1桶石油燃烧后仅提供20,000EU的电量,).是时候提纯石油了！
+gtnh.quest547.name=原油提纯.
+gtnh.quest547.desc=用原油做柴油发电机的燃料是一种非常低效率且浪费的事情(1桶原油燃烧后仅提供20,000EU的电量,).是时候提纯原油了！
 
 #Quest_548.Light Sulfuric Fuel
 gtnh.quest548.name=含硫轻燃油
-gtnh.quest548.desc=第一步是将你的石油提炼成含硫轻燃油,这种燃料燃烧值比较低,1单位(1000mb)理论燃烧值仅有40KEU.
+gtnh.quest548.desc=第一步是将你的原油提炼成含硫轻燃油,这种燃料燃烧值比较低,1单位(1000mb)理论燃烧值仅有40KEU.
 
 #Quest_549.Light fuel
 gtnh.quest549.name=轻燃油
@@ -2206,7 +2206,7 @@ gtnh.quest550.desc=用离心机离心黄褐铁矿石或者棕褐铁矿石来获�
 
 #Quest_551.Heavy Sulfuric fuel
 gtnh.quest551.name=含硫重燃油
-gtnh.quest551.desc=第二步是将你的石油提炼成含硫重燃油,这种燃料燃烧值比较低,1单位(1000mb)理论燃烧值也仅有40KEU.
+gtnh.quest551.desc=第二步是将你的原油提炼成含硫重燃油,这种燃料燃烧值比较低,1单位(1000mb)理论燃烧值也仅有40KEU.
 
 #Quest_552.Heavy fuel
 gtnh.quest552.name=重燃油
@@ -3062,7 +3062,7 @@ gtnh.quest764.desc=炸药是聚爆压缩机所使用的最基础的爆炸物.在
 
 #Quest_765.Time to oil drill!
 gtnh.quest765.name=钻油时刻！
-gtnh.quest765.desc=泵是很好,但你现在到了一个需要更多更多更多石油的时刻.这个多方块构造能帮助你,但你需要使用地震探矿去搜寻石油.你可以找到石油、轻油,或重油.也有机会找到天然气.使用越高阶段的电力钻得越快.使用相对应的能源仓来提供电力.
+gtnh.quest765.desc=泵是很好,但你现在到了一个需要更多更多更多石油的时刻.这个多方块构造能帮助你,但你需要使用地震探矿去搜寻石油.你可以找到原油、轻油,或重油.也有机会找到天然气.使用越高阶段的电力钻得越快.使用相对应的能源仓来提供电力.
 
 #Quest_766.Let's get crackin!
 gtnh.quest766.name=裂化石油
@@ -3889,8 +3889,8 @@ gtnh.quest971.name=集成逻辑电路
 gtnh.quest971.desc=你可以用硬币购买一些集成逻辑电路.
 
 #Quest_972.Oil
-gtnh.quest972.name=石油
-gtnh.quest972.desc=你可以用硬币购买一些石油.
+gtnh.quest972.name=原油
+gtnh.quest972.desc=你可以用硬币购买一些原油.
 
 #Quest_973.Creosote Oil
 gtnh.quest973.name=杂酚油
@@ -4726,11 +4726,11 @@ gtnh.quest1180.desc=让我们制造一些世界锚来保持区块加载.制作�
 
 #Quest_1181.Minecart with Tank, Workbench or Furnace
 gtnh.quest1181.name=让矿车可以蓄水、储物和制造物品
-gtnh.quest1181.desc=你想运输石油或者其他的液体？你想在矿车上安装工作台或者储物箱？ 那么我们来制造这些各种功能的矿车吧！
+gtnh.quest1181.desc=你想运输原油或者其他的液体？你想在矿车上安装工作台或者储物箱？ 那么我们来制造这些各种功能的矿车吧！
 
 #Quest_1182.Fluid loader and unloder
 gtnh.quest1182.name=流体装载机和卸载机
-gtnh.quest1182.desc=如果你想把石油从很远的油田运输回来,并且实现自动化.那么你需要一套流体装载/卸载机.在石油装载或卸载过程中,封锁轨道会让列车长时间停留.
+gtnh.quest1182.desc=如果你想把原油从很远的油田运输回来,并且实现自动化.那么你需要一套流体装载/卸载机.在原油装载或卸载过程中,封锁轨道会让列车长时间停留.
 
 #Quest_1183.Locomotive 0.1 Alpha
 gtnh.quest1183.name=火车头0.1测试版
@@ -7166,7 +7166,7 @@ gtnh.quest1790.desc=你的新家需要木门.当然合成表真的很难,而且�
 
 #Quest_1791.Oilsand or how you get heavy Oil
 gtnh.quest1791.name=油砂或是别的什么获得重油的方式
-gtnh.quest1791.desc=油砂是获得石油、重油的另一种方式.可能你很幸运,在沙漠里找到了油砂矿脉.使用你的离心机,你可以从油砂中获得重油和沙子. 油砂矿脉可以在Y=50-80找到.
+gtnh.quest1791.desc=油砂是获得原油、重油的另一种方式.可能你很幸运,在沙漠里找到了油砂矿脉.使用你的离心机,你可以从油砂中获得重油和沙子. 油砂矿脉可以在Y=50-80找到.
 
 #Quest_1792.I guess it is an inkjet?
 gtnh.quest1792.name=我猜它是喷墨机?
