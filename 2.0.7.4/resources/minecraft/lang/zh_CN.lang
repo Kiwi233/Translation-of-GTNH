@@ -8642,199 +8642,199 @@ gtnh.quest2159.desc=首先从NEI中拿出公主蜂和奖励袋. 打开编辑菜�
 
 #Quest_2160.Carpenter's Blocks
 gtnh.quest2160.name=木匠方块
-gtnh.quest2160.desc=另一个自定义方块系统! 木匠方块(Carpenter's-blocks)制作出来时是空白的,放置到世界后,在其上可应用简单方块的材质.这些方块不能是实体方块(即没有NBT),所以植物学的方块无法使用,但类似红色花岗岩的GT石头、任意染色粘土或原版草方块可以使用.某些样式的凿子处理的草可用,并且Ztones的方块和有色玻璃也可用.  木匠卷闸门需要顶上有个方块,以便门能从上面落下来,但几乎可以扩成任何长度.卷闸门旁边任何一个方块上的红石信号都可以打开或关闭卷闸门.打开/关闭将在多个垂直门之间传递,所以你可以安装非方形的门.空手潜行+右键可修改门的开关极性.  木匠压力盘仅限玩家激活,这使它们成为完美的基地门激活装置.  The hatches must be clicked on the side of a block to place. They can be handy for protecting you from crucible...byproducts.\n \nThere is a lot more block shapes possible, check NEI for "Carpenter's" to see the options.\n\nThe Chisel allows you to chisel blocks while attached to a Carpenter's block.\n\nThe Hammer allows various functions.\n\nHammer on door - changes door shape type\nSneak Hammer on door - Changes from iron to wooden behavior\nSneak Hammer on lever - Changes polarity (which direction is on/off)
+gtnh.quest2160.desc=另一个自定义方块系统! 木匠方块(Carpenter's-blocks)制作出来时是空白的,放置到世界后,在其上可应用简单方块的材质.这些方块不能是实体方块(即没有NBT),所以植物学的方块无法使用,但类似红色花岗岩的GT石头、任意染色粘土或原版草方块可以使用.某些样式的凿子处理的草可用,并且Ztones的方块和有色玻璃也可用.  木匠卷闸门需要顶上有个方块,以便门能从上面落下来,但几乎可以扩成任何长度.卷闸门旁边任何一个方块上的红石信号都可以打开或关闭卷闸门.打开/关闭将在多个垂直门之间传递,所以你可以安装非方形的门.空手潜行+右键可修改门的开关极性.  木匠压力盘仅限玩家激活,这使它们成为完美的基地门激活装置.  木匠活板门必须对准方块侧面才能放置.它可以让你免受坩埚...副产物的困扰.  还有更多形状可供选择,在NEI搜索"木匠"来查看这些选项.  木匠凿可以给已经改变材质的木匠方块添加一层纹路.  木匠锤有许多功能.  右键木匠门Hammer on door - changes door shape type\nSneak Hammer on door - Changes from iron to wooden behavior\nSneak Hammer on lever - Changes polarity (which direction is on/off)
 
 #Quest_2161.Safety first
-gtnh.quest2161.name=Safety first
-gtnh.quest2161.desc=For those new to GregTech, here are some tips and warnings about electricity. \n\nMachines don't like being out in the rain, and will start fires nearby.  Fires next to a machine have a random chance of an explosion. Also, sending too high voltage to a machine will cause a near-instant explosion.\n\nSending too high a voltage or too many amps down a cable will cause the cable to burn up and start fires, which may then cause machine explosions. Make sure the number of amps provided by generators and buffers to a wire does not exceed the amps it is capable of carrying.\n\nA generator that supplys 1A can possibly feed multiple machines, if their recipes require less than full voltage.  For example, macerators doing ore only need 2 EU/t, so you could run 4 or 5 off of a single 1A generator, as long as the wires aren't too long. But be careful! Sometimes a recipe needs a lot more EU than you expect, like a macerator sand -> quartz dust recipe.\n\nA single block machine starved of EU will restart progress but not lose the recipe items. A multiblock machine will lose the items.
+gtnh.quest2161.name=安全第一
+gtnh.quest2161.desc=对于那些GT新手,这里有些用电方面的提示和警告.  机器不喜欢淋雨,否则附近就会着火.而机器附近的火有随机几率引爆机器.另外,给机器过好电压也会造成爆炸.   在线缆里传输过高电压或过大电流会造成线缆被烧毁并在附近着火,而这可能造成机器爆炸.确保发电机和电池提供的电流数不超过线缆的传输能力.   一台产生1A电流的发电机可能可以为多台机器供电-如果那些机器运行的配方低于满电压的话.举个例子,研磨机处理矿石时只需2EU/t,所以你可以用一台1A发电机带动四五台研磨机,如果线缆不太长的话(线损).但是要当心!有时配方会需要超过你预想的大量,比如研磨机沙子-->石英矿砂这个配方.   跳电的单方块机器在重新有电后会重新开始处理,不会吞掉物品.但多方块机器跳电就会吞掉物品了.
 
 #Quest_2162.Copper
-gtnh.quest2162.name=铜
-gtnh.quest2162.desc=The Copper bee is the first of the metal lines. There are too many metal breeding lines to cover here, but by now you should be able to use NEI to figure out how to breed more bee types. Copper bees require a copper block beneath the bee housing. Breed them from Majestic and Clay.
+gtnh.quest2162.name=铜蜂
+gtnh.quest2162.desc=铜蜂是金属培育线蜜蜂的第一步.有太多的金属培育线可以完成,但现在你可以使用NEI查看如何培育更多种类的蜜蜂.  铜蜂需要在蜂箱下方有个铜块.由庄严蜂和粘土蜂杂交培育而来.
 
 #Quest_2163.Clay bee
-gtnh.quest2163.name=Clay bee
-gtnh.quest2163.desc=To breed a Clay bee you must put a Clay block beneath the housing. Clay bees are the bedrock of many important bee lines. Breed them from Industrious and Diligent.
+gtnh.quest2163.name=粘土蜂
+gtnh.quest2163.desc=想要培育出粘土蜂,你得在蜂箱下方放个粘土块.粘土蜂是许多培育线的基石.由敬业蜂和勤奋蜂杂交培育而来.
 
 #Quest_2164.Industrious
-gtnh.quest2164.name=Industrious
-gtnh.quest2164.desc=Industrious bees produce pollen clusters, a key ingredient to the Alveary. They're also used for breeding many other bees. Breed them from Diligent and Unweary.
+gtnh.quest2164.name=敬业蜂
+gtnh.quest2164.desc=敬业蜂可生产花粉-蜂箱组的关键原料.它还可用于培育许多其他蜜蜂.由不倦蜂和勤奋蜂杂交培育而来.
 
 #Quest_2165.Slimeball
-gtnh.quest2165.name=Slimeball
-gtnh.quest2165.desc=Slimeballs aren't super useful, but you can easily breed this bee to make them. It's a necessary step on the way to Oil though. You will need a Congealed Slime Block beneath the bee housing. Breed them from Clay and Marshy.
+gtnh.quest2165.name=粘液球蜂
+gtnh.quest2165.desc=粘液球的用处不大,而培育这种蜜蜂后你可以很容易地获得它.它是培育出石油蜂的必经之路.你需要在蜂箱下方放个凝固史莱姆块.由粘土蜂和沼泽蜂杂交培育而来.
 
 #Quest_2166.Stickyresin
-gtnh.quest2166.name=Stickyresin
-gtnh.quest2166.desc=Never having to use a treetap again?  Sign me up! You'll need to put a Rubber Wood log beneath the bee housing. Breed them from Slimeball and Peat.
+gtnh.quest2166.name=粘性树脂蜂
+gtnh.quest2166.desc=再也不用木龙头了?试试这个吧!你需要在蜂箱下方放个橡胶木原木.由粘液球蜂和泥炭蜂杂交培育而来.
 
 #Quest_2167.Oil
-gtnh.quest2167.name=石油
-gtnh.quest2167.desc=Finally, Black Gold. The Oil bee, with proper...encouragement...can take care of all your power and chemical needs for quite some time. Breed them from Coal and Stickyresin.
+gtnh.quest2167.name=石油蜂
+gtnh.quest2167.desc=最后,黑金,也就是石油蜂,通过适当的...激励...可以同时满足你能源与化工方面的所有需求.由煤蜂和粘性树脂蜂杂交培育而来.
 
 #Quest_2168.Coal
-gtnh.quest2168.name=煤
-gtnh.quest2168.desc=Ah yes, Coal is King indeed. A great bee, giving you Coal to use to power your industry. Will require a Coal Block under your bee housing. This bee will also have the first really dangerous effect - it will apply a creeper explosion to you if you are not wearing your Apiarist suit. Breed them from Peat and Industrious.
+gtnh.quest2168.name=煤蜂
+gtnh.quest2168.desc=哦对,煤才是王道.这是一种很棒的蜜蜂,能为你生产煤,让你作为能源或工业原料.你需要在蜂箱下方放个煤块.这种蜜蜂还具有第一种危险的效果-要是你没穿好养蜂人套装的话,它会让你受到爬行者的爆炸效果.由泥炭蜂和敬业蜂杂交培育而来.
 
 #Quest_2169.Peat
-gtnh.quest2169.name=Peat
-gtnh.quest2169.desc=Peat from these bees can be used in furnaces and boilers. Free fuel is free, right? Breed them from Rural and Clay.
+gtnh.quest2169.name=泥炭蜂
+gtnh.quest2169.desc=这些蜜蜂生产的泥炭可用于熔炉或锅炉.免费的燃料,对吧?由田园蜂和粘土蜂杂交培育而来.
 
 #Quest_2170.Rural
-gtnh.quest2170.name=Rural
-gtnh.quest2170.desc=Rural bees like to live out in the country - you'll have to relocate to a Plains-type biome for these. Breed them from Diligent and Meadows.
+gtnh.quest2170.name=田园蜂
+gtnh.quest2170.desc=田园蜂喜欢在田园中活动-为此,你必须迁移到平原型的生物群系.由草原蜂和勤奋蜂杂交培育而来.
 
 #Quest_2171.Blooming
-gtnh.quest2171.name=Blooming
-gtnh.quest2171.desc=A Blooming bee will bonemeal nearby saplings. This can definitely help your log and sapling production rate. Breed them from Industrious and Thriving.
+gtnh.quest2171.name=盛开蜂
+gtnh.quest2171.desc=盛开蜂会催生附近的树苗.这肯定有助于你的原木与树苗产量.由敬业蜂和兴旺蜂杂交培育而来.
 
 #Quest_2172.Diamond
-gtnh.quest2172.name=Diamond
-gtnh.quest2172.desc=Ah finally, a girl..I mean Queen's best friend. Will require a block of Diamond. Breed from Certus and Coal.
+gtnh.quest2172.name=钻石蜂
+gtnh.quest2172.desc=啊,终于,女孩...我是说王后最好的朋友.你需要在蜂箱下方放个钻石块.由赛特斯蜂和煤蜂杂交培育而来.
 
 #Quest_2173.Certus
-gtnh.quest2173.name=Certus
-gtnh.quest2173.desc=The Certus Quartz bee. Hmm, does it have any breeding requirements? I can't see to remember. Maybe try a block of Certus Quartz? Breed it from Lapis and Hermitic.
+gtnh.quest2173.name=赛特斯蜂
+gtnh.quest2173.desc=赛特斯蜂,嗯...它有啥培育环境要求么?我不记得了.或许你可以试试赛特斯石英块?由青金石蜂和遁世蜂杂交培育而来.
 
 #Quest_2174.Lapis
-gtnh.quest2174.name=Lapis
-gtnh.quest2174.desc=Finally, a bee with some real promise.  The Lapis bee will require a block of lapis to breed. Breed them from Demonic and Imperial.
+gtnh.quest2174.name=青金石蜂
+gtnh.quest2174.desc=最后,一只信守承诺(还是好运)的蜜蜂(Finally, a bee with some real promise).你需要在蜂箱下方放个青金石块.由恶魔蜂和帝皇蜂杂交培育而来.
 
 #Quest_2175.Hermitic
-gtnh.quest2175.name=Hermitic
-gtnh.quest2175.desc=Hermitic bees have the same no-entities requirement as Secluded, but they solve that problem themselves. They are so repugnant they repel mobs near them. Breed them from Secluded and Monastic.
+gtnh.quest2175.name=遁世蜂
+gtnh.quest2175.desc=遁世蜂和归隐蜂一样,没啥实质性用途,但它们自己解决了这个问题.它们实在太讨厌了,会排斥靠近的怪物.由归隐蜂和僧侣蜂杂交培育而来.
 
 #Quest_2176.Demonic
-gtnh.quest2176.name=Demonic
-gtnh.quest2176.desc=Better be careful with this one! It will set you on fire. In addition to combs, this bee can produce Glowstone Dust. It will require Nether to breed. Breed them from Sinister and Fiendish.
+gtnh.quest2176.name=恶魔蜂
+gtnh.quest2176.desc=最好小心这个!它会让你着火.除了蜂巢,这种蜜蜂还能生产萤石粉.要在下界才能培育出它.由邪恶蜂和残忍蜂杂交培育而来.
 
 #Quest_2177.Sinister
-gtnh.quest2177.name=Sinister
-gtnh.quest2177.desc=Sinister bees will hurt nearby mobs and players. Make sure to wear your suit. They will require breeding in the Nether. Breed them from Modest and Cultivated.
+gtnh.quest2177.name=邪恶蜂
+gtnh.quest2177.desc=邪恶蜂会伤害靠近的生物或玩家.确保穿好了你的养蜂人套装.要在下界才能培育出它.由温和蜂和田野蜂杂交培育而来.
 
 #Quest_2178.Fiendish
-gtnh.quest2178.name=Fiendish
-gtnh.quest2178.desc=Just like Sinister, Fiendish requires the Nether and a protective bee suit. Breed them from Sinister and Cultivated.
+gtnh.quest2178.name=残忍蜂
+gtnh.quest2178.desc=与邪恶蜂相同,残忍蜂需要下界环境并穿好套装.由邪恶蜂和田野蜂杂交培育而来.
 
 #Quest_2179.Secluded
-gtnh.quest2179.name=Secluded
-gtnh.quest2179.desc=Secluded bees are real loners. There must not be any entities within their territory for them to produce their combs. The Mellow combs can produce Nether quartz. Breed them from Monastic and Austere.
+gtnh.quest2179.name=归隐蜂
+gtnh.quest2179.desc=归隐蜂是真正的孤独者.在其活动范围内不得有任何实体,它们才会生产蜂窝.醇厚蜂窝可以产出下界石英.由苦行蜂和僧侣蜂杂交培育而来.
 
 #Quest_2180.Austere
-gtnh.quest2180.name=Austere
-gtnh.quest2180.desc=Another bee that requires an attentive beekeeper. Without an Apiarist suit, this bee will inflict creeper explosions on you. Watch you. It will require a hot or hellish biome with Arid humidity. Breed them from Modest and Frugal.
+gtnh.quest2180.name=苦行蜂
+gtnh.quest2180.desc=苦行蜂需要一名细心的养蜂人.要是不穿养蜂人套装的话,它会为你施加爬行者爆炸效果.自己小心.它需要一个炎热或下界的生物群系和干旱的湿度.由温和蜂和节俭蜂杂交培育而来.
 
 #Quest_2181.Frugal
-gtnh.quest2181.name=Frugal
-gtnh.quest2181.desc=The Frugal bee doesn't have much direct use, but is part of many breeding lines. It will require a hot or hellish biome and arid humidity. Breed them from Modest and Sinister.
+gtnh.quest2181.name=节俭蜂
+gtnh.quest2181.desc=节俭蜂没有什么直接用途,但它是培育线的一环.它需要一个炎热或下界的生物群系和干旱的湿度.由温和蜂和邪恶蜂杂交培育而来.
 
 #Quest_2182.Redstone Alloy
-gtnh.quest2182.name=Redstone Alloy
-gtnh.quest2182.desc=Obviously, a block of Redstone Alloy is required, right? Breed them from Red Alloy and Redstone.
+gtnh.quest2182.name=红石合金蜂
+gtnh.quest2182.desc=显然,你需要一块红石合金块,对吧?由红色合金蜂和红石蜂杂交培育而来.
 
 #Quest_2183.Red Alloy
-gtnh.quest2183.name=Red Alloy
-gtnh.quest2183.desc=The Red Alloy princess will require a block of Red Alloy.  Breed them from Redstone and Copper.
+gtnh.quest2183.name=红色合金蜂
+gtnh.quest2183.desc=红色合金蜂的蜂箱下方需要红色合金块.由铜蜂和红石蜂杂交培育而来.
 
 #Quest_2184.Redstone
-gtnh.quest2184.name=红石
-gtnh.quest2184.desc=The Redstone princess will require a block of Redstone. Breed them from Industrious and Demonic.
+gtnh.quest2184.name=红石蜂
+gtnh.quest2184.desc=红石蜂的蜂箱下方需要红石块.由敬业蜂和恶魔蜂杂交培育而来.
 
 #Quest_2185.Monastic
-gtnh.quest2185.name=Monastic
-gtnh.quest2185.desc=Monastic bees aren't found in hives or bred. Instead you will need to find a Beekeeper villager and trade with them for it. There are various ways to make more villagers, so do some research. 
+gtnh.quest2185.name=僧侣蜂
+gtnh.quest2185.desc=僧侣蜂无法在野生蜂巢中发现,也无法培育出来.你只能寻找养蜂人村民交易获得它.有许多方法可以制造更多村民,让我们研究研究. 
 
 #Quest_2186.Vibrant Alloy
-gtnh.quest2186.name=Vibrant Alloy
-gtnh.quest2186.desc=Finally.  It was a long, hazardous road, but you can now get Vibrant Alloy directly from a bee. Great job.  Breed them from Energetic Alloy and Phantasmal.
+gtnh.quest2186.name=脉冲合金蜂
+gtnh.quest2186.desc=某条培育线的终点.这是一段长而艰险的路途,但你现在能直接通过蜜蜂产物获得脉冲合金了.干得好!由充能合金蜂和幻影蜂杂交培育而来.
 
 #Quest_2187.Energetic Alloy
-gtnh.quest2187.name=充能合金
-gtnh.quest2187.desc=Energetic Alloy will require a block of Energetic Alloy, of course. Breed them from Redstone Alloy and Demonic.
+gtnh.quest2187.name=充能合金蜂
+gtnh.quest2187.desc=当然,充能合金蜂的蜂箱下方需要有块充能合金块.由红石合金蜂和恶魔蜂杂交培育而来.
 
 #Quest_2188.Phantasmal
-gtnh.quest2188.name=Phantasmal
-gtnh.quest2188.desc=Phantasmal bees are similar to Spectral, except they cause the other drops to reanimate, like ghasts, spiders, creepers, endermen, or even Ender Dragons if their drops are lying around. Breed them from Spectral and Ender.
+gtnh.quest2188.name=幻影蜂
+gtnh.quest2188.desc=幻影蜂与幽灵蜂类似,除了它们复苏别的掉落物,比如恶魂、蜘蛛、爬行者、末影人甚至末影龙,它们的掉落物在附近的话就会被复活.由幽灵蜂和末影蜂杂交培育而来.
 
 #Quest_2189.Spectral
-gtnh.quest2189.name=Spectral
-gtnh.quest2189.desc=Spectral bees will require Ender bees to breed.  This will test the ability of even the toughest beekeeper - don't forget your apiarist suit. To work in a bee housing, there must be a Dragon Egg nearby. Don't drop any bones, blazerods or rotten meat! This bee will cause those to come back to life! Perhaps you can find a use for this ability. Breed them from Ender and Hermitic. 
+gtnh.quest2189.name=幽灵蜂
+gtnh.quest2189.desc=幽灵蜂需要末影蜂才能培育出来,这将考验即使最顽强的养蜂人的能力-别忘了你的养蜂人套装.  想要让蜂箱中的幽灵蜂工作,附近必须有龙蛋.不要在附近掉落任何骨头、烈焰棒或腐肉!这种蜜蜂可以复活它们!可能你能找到这种能力的用途.由末影蜂和遁世蜂杂交培育而来.
 
 #Quest_2190.Fluix
-gtnh.quest2190.name=Fluix
-gtnh.quest2190.desc=If you go deep into AE2, you'll want cheap sources of Fluix from these bees. Breeding will require a block of Fluix. Breed them from Lapis and Redstone.
+gtnh.quest2190.name=福鲁伊克斯蜂
+gtnh.quest2190.desc=如果你深入了AE2,你会需要这些蜜蜂生产的福鲁伊克斯水晶的.你需要在蜂箱下方放个福鲁伊克斯水晶块.由青金石蜂和红石蜂杂交培育而来.
 
 #Quest_2191.Ruby
-gtnh.quest2191.name=Ruby
-gtnh.quest2191.desc=For early Chrome, a Ruby bee is a great source. It will require a block of Ruby. Breed them from Redstone and Diamond.
+gtnh.quest2191.name=红宝石蜂
+gtnh.quest2191.desc=红宝石蜂是初期铬的极好来源.你需要在蜂箱下方放个红宝石块.由红石蜂和钻石蜂杂交培育而来.
 
 #Quest_2192.Tin
-gtnh.quest2192.name=锡
-gtnh.quest2192.desc=Tin is a great early bee to get, saving your time looking for Cassiterite Sand. You'll need a Tin block. Breed them from Clay and Diligent.
+gtnh.quest2192.name=锡蜂
+gtnh.quest2192.desc=锡蜂可以很早就培育出来,节省你寻找锡石矿砂的时间.你需要在蜂箱下方放个锡块.由粘土蜂和勤奋蜂杂交培育而来.
 
 #Quest_2193.Iron
-gtnh.quest2193.name=Iron
-gtnh.quest2193.desc=Iron bees as a resource isn't that big a deal, so much stuff makes iron anyways, but they are a key breeding species. They will need an Iron block.  Breed them from Copper and Tin.
+gtnh.quest2193.name=铁蜂
+gtnh.quest2193.desc=铁蜂作为一种资源蜂不是好的选择,有太多方式可以获得大量的铁,但它是蜜蜂培育线的关键一环.你需要在蜂箱下方放个铁块.由铜蜂和锡蜂杂交培育而来.
 
 #Quest_2194.Nickel
-gtnh.quest2194.name=Nickel
-gtnh.quest2194.desc=Nickel bees provide a pretty useful resource. You'll need a block of Nickel. Breed them from Iron and Copper.
+gtnh.quest2194.name=镍蜂
+gtnh.quest2194.desc=镍蜂提供了一种很有用的资源.你需要在蜂箱下方放个镍块.由铁蜂和铜蜂杂交培育而来.
 
 #Quest_2195.Zinc
-gtnh.quest2195.name=Zinc
-gtnh.quest2195.desc=Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small change of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.
+gtnh.quest2195.name=锌蜂
+gtnh.quest2195.desc=锌合金制成的黄铜是游戏早期物品管道的材料.另外,这种蜜蜂有小概率生产镓蜂巢,这对制作电路板或各种贴片元件十分有用.你需要在蜂箱下方放个锌块.由锡蜂和铁蜂杂交培育而来.
 
 #Quest_2196.Lead
-gtnh.quest2196.name=Lead
-gtnh.quest2196.desc=Lead will be necessary in large quantities once you start making nuclear reactors. You'll need a block of Lead for these. Breed them from Copper and Coal.
+gtnh.quest2196.name=铅蜂
+gtnh.quest2196.desc=当你开始制作核反应堆时,你需要成吨的铅.你需要在蜂箱下方放个铅块.由铜蜂和煤蜂杂交培育而来.
 
 #Quest_2197.Silver
-gtnh.quest2197.name=Silver
-gtnh.quest2197.desc=Silver is key metal at HV and up with the amount of Electrum you will need. Requires a block of Silver. Breed them from Lead and Tin.
+gtnh.quest2197.name=银蜂
+gtnh.quest2197.desc=银是HV阶段的重要金属,而且你会长期需要用它来制作琥珀金.你需要在蜂箱下方放个银块.由铅蜂和锡蜂杂交培育而来.
 
 #Quest_2198.Aluminium
-gtnh.quest2198.name=Aluminium
-gtnh.quest2198.desc=Aluminium isn't necessary until MV, but when you want it, you'll want lots. Requires block of Aluminium. Breed them from Nickel and Zinc.
+gtnh.quest2198.name=铝蜂
+gtnh.quest2198.desc=在MV阶段之前你用不上铝,但当你需要它时,就是论吨要的.你需要在蜂箱下方放个铝块.由镍蜂和锌蜂杂交培育而来.
 
 #Quest_2199.Olivine
-gtnh.quest2199.name=Olivine
-gtnh.quest2199.desc=An otherwise mostly useless bee, Olivine is required for breeding better bees. I guess if you need Magnesium? Breed them from Ender and Certus.
+gtnh.quest2199.name=橄榄石蜂
+gtnh.quest2199.desc=一种某方面完全没用的蜜蜂,橄榄石蜂只在培育别的更好的蜜蜂时才有点用.或许它还能为你提供些镁?由末影蜂和赛特斯蜂杂交培育而来.
 
 #Quest_2200.Emerald
-gtnh.quest2200.name=Emerald
-gtnh.quest2200.desc=Ah yes, a very useful bee. Emeralds are used for many upgrades, and trading with villagers. Will require a block of Emerald. Breed them from Olivine and Diamond.
+gtnh.quest2200.name=绿宝石蜂
+gtnh.quest2200.desc=太棒了,一种非常有用的蜜蜂.绿宝石可以制作多种升级,还能用来与村民交易.你需要在蜂箱下方放个绿宝石块.由绿宝石蜂和钻石蜂杂交培育而来.
 
 #Quest_2201.Titanium
-gtnh.quest2201.name=Titanium
-gtnh.quest2201.desc=Titanium from bees will make getting those LCRs and distillation towers a breeze.  Hey, I rhymed! You'll need a block of Titanium for this bee.  Breed them from Aluminium and Redstone.
+gtnh.quest2201.name=钛蜂
+gtnh.quest2201.desc=这种蜜蜂,生产的钛使制造大型化学反应釜和蒸馏塔变得如一缕清风.(Titanium from bees will make getting those LCRs and distillation towers a breeze)  嘿,我押韵了!你需要在蜂箱下方放个钛块.由铝蜂和红石蜂杂交培育而来.
 
 #Quest_2202.Chrome
-gtnh.quest2202.name=Chrome
-gtnh.quest2202.desc=Chrome, a necessary ingredient for Stainless Steel. Better to get it directly instead of having to deal with Rubies or Garnets. This bee will require a block of Chrome to breed. Breed them from Titanium and Ruby.
+gtnh.quest2202.name=铬蜂
+gtnh.quest2202.desc=铬,不锈钢的重要原料之一.最好能直接获取,而不是必须通过处理红宝石或石榴石获取.你需要在蜂箱下方放个铬块.由钛蜂和红宝石蜂杂交培育而来.
 
 #Quest_2203.Platinum
-gtnh.quest2203.name=Platinum
-gtnh.quest2203.desc=Platinum. Precious metal for the ages. You'll need a block of Platinum obviously. Breed them from Diamond and Chrome.
+gtnh.quest2203.name=铂蜂
+gtnh.quest2203.desc=铂.在各个阶段都是珍贵的金属资源.你需要在蜂箱下方放个铂块.由钻石蜂和铬蜂杂交培育而来.
 
 #Quest_2204.Uranium
-gtnh.quest2204.name=Uranium
-gtnh.quest2204.desc=All that hatred had a purpose - to create this bee, capable of producing enormous power. This bee will require a block of Uranium. Breed them from Avenging and Platinum.
+gtnh.quest2204.name=铀蜂
+gtnh.quest2204.desc=所有的仇恨都是有目标的-为了创造出这种蜜蜂.你需要在蜂箱下方放个铀块.由复仇蜂和铂蜂杂交培育而来.
 
 #Quest_2205.Plutonium
-gtnh.quest2205.name=Plutonium
-gtnh.quest2205.desc=A metal that represents the epitome of technology. Never existing in the universe before man. This bee will require a block of Plutonium. Breed them from Uranium and Emerald.
+gtnh.quest2205.name=钚蜂
+gtnh.quest2205.desc=钚,代表科技缩影的金属,在宇宙中无自然存在.你需要在蜂箱下方放个钚块.由铀蜂和绿宝石蜂杂交培育而来.
 
 #Quest_2206.Avenging
-gtnh.quest2206.name=Avenging
-gtnh.quest2206.desc=Hatred distilled into its most violent form. Keep away from everything. Breed them from Vengeful and Vindictive.
+gtnh.quest2206.name=复仇蜂
+gtnh.quest2206.desc=仇恨浓缩成最暴力的形式.远离一切.由报仇蜂和记恨蜂杂交培育而来.
 
 #Quest_2207.Vengeful
-gtnh.quest2207.name=Vengeful
-gtnh.quest2207.desc=Hatred. Of all things, living and solid. Keep bee housing away from anything valuable, or even not valuable. Breed them from Monastic and Vindictive.
+gtnh.quest2207.name=报仇蜂
+gtnh.quest2207.desc=仇恨.对一切的仇恨,无论生物还是方块.让蜂箱远离任何值钱的东西,就算不值钱的也别靠近.由僧侣蜂和记恨蜂杂交培育而来.
 
 #Quest_2208.Vindictive
-gtnh.quest2208.name=Vindictive
-gtnh.quest2208.desc=Beware. These bees not only hate everything, they even hate blocks. Put their bee housing far away from everything. Breed them from Demonic and Monastic.
+gtnh.quest2208.name=记恨蜂
+gtnh.quest2208.desc=当心.这些蜜蜂不只憎恨生物,甚至还憎恨方块.把它们的蜂箱远离一切.由僧侣蜂和恶魔蜂杂交培育而来.
 
 #Quest_2209.Moron's Guide to Breeding Better Bees
 gtnh.quest2209.name=Moron's Guide to Breeding Better Bees
