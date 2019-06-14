@@ -522,7 +522,7 @@ gtnh.quest129.desc=所有末影接口的机器都需要机器框架,它的合成
 
 #Quest_130.Portable tanks
 gtnh.quest130.name=便携式储罐
-gtnh.quest130.desc=在此之前,你还要用BC储罐来带液体到处跑,这事干起来真叫一个痛苦. 而这些小储罐能够自己输出和抽进液体,因为它们内置了一些由魔法能源驱动的泵,真方便.  但是要小心,它会吞掉水单元而不是返还.  高压流体储罐可以储存两倍的流体.
+gtnh.quest130.desc=在此之前,你还要用BC储罐来带液体到处跑,这事干起来真叫一个痛苦. 而这些EIO的小储罐能够自己输出和抽进液体,因为它们内置了一些由魔法能源驱动的泵,真方便.  但是要小心,它会吞掉水单元而不是返还.  高压流体储罐可以储存两倍的流体.
 
 #Quest_131.Simple RF power: Solid
 gtnh.quest131.name=简易RF能源:固体
@@ -2010,7 +2010,7 @@ gtnh.quest501.desc=下一步:在世界各地找一些野生蜂巢.你能找到11
 
 #Quest_502.A new home
 gtnh.quest502.name=一个新家
-gtnh.quest502.desc=既然你已经摧毁了蜜蜂的家园,那么你应该给他们找一个新家.  这种低阶蜂房不会使你的蜜蜂变异.  生产速度还不错,但不能自动化.
+gtnh.quest502.desc=既然你已经摧毁了蜜蜂的家园,那么你应该给他们找一个新家.这种低阶蜂房不会使你的蜜蜂变异.但你还是需要蜂巢来为蜜蜂制作更好的住房.  简易蜂房的生产速度还不错,但不能自动化.  一个提示-在你的蜂房附近种些原版树苗.简易蜂房比起"更好的住房"有3倍的授粉速度.蜜蜂会给树木授粉,然后你就可以开始林业树木杂交了.把橡木和白桦相邻种植,它们会给你一个林业树木杂交良好的开端.
 
 #Quest_503.Analyze them all
 gtnh.quest503.name=分析它们
@@ -3030,7 +3030,7 @@ gtnh.quest756.desc=当你达到MV阶段,你可以自己制造胶带.以防你需
 
 #Quest_757.Ruby Electrolyzing
 gtnh.quest757.name=电解红宝石
-gtnh.quest757.desc=电解红宝石是很好的铬及铝的来源.你的新MV电解机让你可以使用许多新配方. 铝和氧的另一个优秀来源是红色花岗岩粉.你可以从"捕鱼,农业,烹饪"任务栏中的IC2作物stonelilly中获得这些.
+gtnh.quest757.desc=电解红宝石是很好的铬及铝的来源.你的新MV电解机让你可以使用许多新配方.要是你感觉红宝石不太够,你可以离心红石.  铝和氧的另一个优秀来源是红色花岗岩粉.你可以从"捕鱼,农业,烹饪"任务栏中的IC2作物红石芯草(red-stonelillies)中获得这些.
 
 #Quest_758.MV Batteries
 gtnh.quest758.name=MV级电池
@@ -4058,7 +4058,7 @@ gtnh.quest1013.desc=SMD(Surface-mount devices意为:表面贴装机件)是一种
 
 #Quest_1014.Workstation Extreme Circuit
 gtnh.quest1014.name=工作站电路板
-gtnh.quest1014.desc=下一级是高级电路. 工作站是最简单的高级电路,它可以用来制造EV级别的机器. 让我们来生产一些！
+gtnh.quest1014.desc=下一级是高级电路. 工作站是最简单的高级电路,它可以用来制造EV级别的机器. 让我们来生产一些！  此外,你还需要16个二极管,贴片或非贴片都行.
 
 #Quest_1015.Empty Plastic Board
 gtnh.quest1015.name=塑料电路基板
@@ -4066,11 +4066,11 @@ gtnh.quest1015.desc=塑料电路基板首先需要使用硫酸和塑料板来制
 
 #Quest_1016.Integrated Processor
 gtnh.quest1016.name=集成处理器
-gtnh.quest1016.desc=不错的电路板有三种型号. 优质的电子电路板、不错的集成电路和集成处理器. 生产集成处理器需要MV级别的电路组装机. 而生产它需要用到的配件有CPU、电容、晶体管和电阻.
+gtnh.quest1016.desc=不错的电路板有三种型号. 优质的电子电路板、不错的集成电路和集成处理器. 生产集成处理器需要MV级别的电路组装机. 而生产它需要用到的配件有CPU、电容、晶体管和电阻.  你需要另外4个电阻,4个电容和4个晶体管.贴片或非贴片版本都可以.
 
 #Quest_1017.Processor Assembly
 gtnh.quest1017.name=处理器集群
-gtnh.quest1017.desc=另一个进阶电路是处理器集群电路板. 装备处理器集群需要MV级电路组装机.在生产的过程中你需要用到两个集成处理器. 并且依然需要在超净间进行组装.
+gtnh.quest1017.desc=另一个进阶电路是处理器集群电路板. 装备处理器集群需要MV级电路组装机.在生产的过程中你需要用到两个集成处理器. 并且依然需要在超净间进行组装.  此外,你还需要8个电容,贴片或非贴片版本都可以.
 
 #Quest_1018.Central Processing Unit
 gtnh.quest1018.name=中央处理器(CPU)
@@ -4330,7 +4330,7 @@ gtnh.quest1081.desc=双层铝板确实挺贵,但是为了你的新工具值得�
 
 #Quest_1082.MV Battery Buffers
 gtnh.quest1082.name=中压电池箱
-gtnh.quest1082.desc=中压的机器也需要电池来做电能缓冲.电池箱有很多规格,像1格、4格、9格和16格. 现在你需要制作1格和4格的电池箱.
+gtnh.quest1082.desc=MV机器可以内置一个电池.但有时你需要存储更多能量,或者你想让整个能量线共享电池.你可以使用电池箱来存储大量电池.它们有很多规格,像1格、4格、9格和16格. 现在你需要制作4格的电池箱.
 
 #Quest_1083.MV Lithium Battery
 gtnh.quest1083.name=中型锂电池
@@ -4466,7 +4466,7 @@ gtnh.quest1115.desc=林业的树有多种属性.  当你获得一株具有某条
 
 #Quest_1116.Breed some cultivated bees
 gtnh.quest1116.name=培育一些田野蜂
-gtnh.quest1116.desc=寻常蜂和森林蜂杂交可以培育出田野蜂.  田野蜂拥有最短的寿命-这意味着它们非常适合用于杂交培育.蜂后会很快死亡,迅速提供遗传物质.  确保你想要的属性保留！  田野粉的生产速度也不错,这意味着可以有许多蜂窝来给你的分析仪供能.  田野蜂每0.9分钟产出一个蜂窝.注意,生产时间是基于蜜蜂的基本生产速度和产品稀有性的近似值.它们不能反映实际的生产时间.  使用蜜蜂分析仪或是GT扫描仪,确保你培育的蜜蜂是纯种的.  主要的蜜蜂培育任务需要扫描过的蜜蜂,但你可以在等待GT扫描仪或蜜蜂分析仪制造的同时进行你的培育工作.
+gtnh.quest1116.desc=寻常蜂和森林蜂杂交可以培育出田野蜂.  田野蜂拥有最短的寿命-这意味着它们非常适合用于杂交培育.蜂后会很快死亡,迅速提供遗传物质.  确保你想要的属性保留！  田野粉的生产速度也不错,这意味着可以有许多蜂窝来给你的分析仪供能.  田野蜂每0.9分钟产出一个蜂窝.注意,生产时间是基于蜜蜂的基本生产速度和产品稀有性的近似值.它们不能反映实际的生产时间.  使用蜜蜂分析仪或是GT扫描仪,确保你培育的蜜蜂是纯种的.  主要的蜜蜂培育任务需要纯种蜜蜂,但卑贱种和始祖种都可以交任务.
 
 #Quest_1117.Breed some common bees
 gtnh.quest1117.name=培育一些寻常蜂
@@ -4570,7 +4570,7 @@ gtnh.quest1141.desc=风力计可以测试当前位置的风力强度. 使用这�
 
 #Quest_1142.HV Battery Buffers
 gtnh.quest1142.name=HV电池箱
-gtnh.quest1142.desc=HV的机器也需要电池箱来作为电力缓冲区.同样,HV电池箱也有1X、4X、9X和16X各种尺寸. 这个任务你需要制作1X和4X的电池箱.
+gtnh.quest1142.desc=HV的机器也需要电池箱来作为电力缓冲区.同样,HV电池箱也有1X、4X、9X和16X各种尺寸. 这个任务你需要制作1X和4X的电池箱.  你可以将1x的电池箱与变压器配合给MV机器供电,能用一段时间.  或是变压两次,为一批LV机器长时间供电.这对于蜜蜂或树木附近的扫描仪很有用.记得防雨,否则你一定不会开心的.
 
 #Quest_1143.HV Batteries
 gtnh.quest1143.name=HV的电池
@@ -4902,7 +4902,7 @@ gtnh.quest1224.desc=环氧化物可以用来制作高级电路板基板.你需�
 
 #Quest_1225.IV Circuit Mainframe
 gtnh.quest1225.name=IV处理器主机
-gtnh.quest1225.desc=工作站电路可以用来制造HV及电路组装机.这台机器可以生产更加先进的电路板
+gtnh.quest1225.desc=工作站电路可以用来制造HV及电路组装机.这台机器可以生产更加先进的电路板.  另外,你还需要16个电容,贴片或非贴片.  当你获得一套可靠的聚乙烯生产线后,使用贴片元件会节省大量资源.
 
 #Quest_1226.Glycerol
 gtnh.quest1226.name=甘油
@@ -5156,9 +5156,9 @@ gtnh.quest1287.desc=你可以使用硬币购买一些纤毛菇.
 gtnh.quest1288.name=啤酒花,啤酒的来源
 gtnh.quest1288.desc=如果你想要一些低度数的啤酒,那么你现在需要杂交出啤酒花来酿造它.
 
-#Quest_1289.HV Canner
-gtnh.quest1289.name=HV 高压装罐机
-gtnh.quest1289.desc=装罐机主要用于灌装罐头,但与其他固体物品相比,通常是以粉末形式填充和排空锡罐.它还可以用硫磺、汞、镉、锂或钠来填充电池.
+#Quest_1289.HV Bender
+gtnh.quest1289.name=HV卷板机
+gtnh.quest1289.desc=HV卷板机的速度是LV卷板机的4倍,而且它还解锁了一个重要合成表-锡罐!  有了这台卷板机,你可以将锡外壳制成锡罐.将锡罐与食物一起放入装罐机(LV就够了)可以制成罐头.这种罐头可以堆叠64个,并且让你的食谱不再复杂-无需换着花样吃东西了!一次右键,你就会吃掉你当前需要吃的所有罐头.一个缺点是,你将不再获得饱食buff和这个buff提供的轻微生命恢复效果.而且,这些罐头也不适合放在午餐袋或午餐盒里,所以你不再需要那些了.
 
 #Quest_1290.Imma chargin' my...
 gtnh.quest1290.name=吱吱吱……充电
@@ -6034,7 +6034,7 @@ gtnh.quest1507.desc=随着你基地的扩大,你将有十几个不同的长期�
 
 #Quest_1508.A better crafting table
 gtnh.quest1508.name=一个更好的工作台
-、gtnh.quest1508.desc=每次你走开时,你的东西都会从你的工作台上掉下来吗？ 这个来自匠魂的工作台有一些栏位可以容纳合成表中的物品. 你也可以在其中给工具一次完成8个附加物升级. 非常方便地获得额外的速度或抢夺效果！ 当它被放置在原版箱子旁边时,它甚至会在制作窗口中显示箱子的库存. 单个或大型原版箱子都是可以的.
+gtnh.quest1508.desc=每次你走开时,你的东西都会从你的工作台上掉下来吗？ 这个来自匠魂的工作台有一些栏位可以容纳合成表中的物品. 你也可以在其中给工具一次完成8个附加物升级. 非常方便地获得额外的速度或抢夺效果！ 当它被放置在原版箱子旁边时,它甚至会在制作窗口中显示箱子的库存. 单个或大型原版箱子都是可以的.  再次切割它,使其成为一个圆滑,低调的版本.
 
 #Quest_1509.Travelocity!
 gtnh.quest1509.name=瞬移！
@@ -6646,7 +6646,7 @@ gtnh.quest1660.desc=现在我们在生丁苯橡胶粉中加入一点硫,得到�
 
 #Quest_1661.Silicone Rubber
 gtnh.quest1661.name=硅橡胶
-gtnh.quest1661.desc=想制作一些合成橡胶,如硅橡胶？有不同的方法可以做到这一点,这个任务只是一个例子,你可以做到这一点. 你需要氯和甲烷--在化学反应釜中将它们搅拌成氯甲烷. 或者你可以使用甲醇和盐酸.
+gtnh.quest1661.desc=想制作一些合成橡胶,如硅橡胶？有不同的方法可以做到这一点,这个任务只是一个例子,你可以做到这一点.  第一步,你需要氯甲烷.  你可以将2氯+1甲烷放入化学反应釜.  或者你也可以用甲醇和盐酸.
 
 #Quest_1662.Dimethyldichlorosilane
 gtnh.quest1662.name=二甲基二氯硅烷
@@ -7708,8 +7708,8 @@ gtnh.quest1925.desc=厌倦了揣着一兜镭等待大约7小时衰变?有了这�
 gtnh.quest1926.name=一种更快捷的出行方式
 gtnh.quest1926.desc=如果你是单机玩家或是在本地服务器进行游戏,马是一种非常不错的出行方式.但在非本地服��器的话,如果你的网络不够给力,骑马可能会出问题...
 
-#Quest_1927.Coal
-gtnh.quest1927.name=凋灵甘蔗
+#Quest_1927.Coal...from withereed?
+gtnh.quest1927.name=煤...来自凋灵甘蔗?
 gtnh.quest1927.desc=凋灵甘蔗(Withereed)是煤的一种来源,更重要的是,它可作为更高级作物的父本/母本.  你需要将煤块置于其下方可使凋灵甘蔗完全成熟.
 
 #Quest_1928.Son of Odin One-Eye
@@ -7956,7 +7956,7 @@ gtnh.quest1987.desc=抽屉升级不同于桶升级.首先你需要制作升级�
 gtnh.quest1988.name=你妈妈说要升级你的抽屉
 gtnh.quest1988.desc=抽屉有许多升级等级.制作一些铁、金和黑曜石等级的抽屉升级,我将会给你一些特殊用途的抽屉升级,让我们在你的基地实验实验这些特殊升级吧.查看NEI获知钻石、绿宝石升级以及更多抽屉升级.  想要移除升级,空手Shift+右键抽屉打开升级GUI.
 
-#Quest_1989.Inventory Manager
+#Quest_1989.Machine Inventory Manager
 gtnh.quest1989.name=工厂管理器
 gtnh.quest1989.desc=工厂管理器是史蒂大...我是说史蒂夫工厂管理(SFM)的核心方块. SFM是一种高阶自动化系统.AE2可以一次处理最多9格的自动合成或加工,甚至可以嵌套.而SFM可以处理更复杂的合成,比如说装配线合成表.  工厂线缆可将工厂管理器连接到物品或流体容器.  直到某个智者写出智者手册以前,你最好的选择是实验,在Discord上寻求帮助,或是搜索Google.这个界面类似于大多数基于图形用户界面的自动化系统,比如LabView.  设计糟糕的SFM系统会导致tps下降.确保你的输出空置,千万不要填满  工厂线缆是SFM的基础线缆.它们使工厂管理器能与各种容器交互,并充当管理器与其他设备之间的连接者.  mehdi2344认为我在章节标题上开了个糟糕的玩笑,但他是个笨蛋,就这样.  感谢这些任务的书写者Nori-Silverrage!
 
@@ -7994,13 +7994,13 @@ gtnh.quest1997.desc=也用来游泳...在你环游世界时,这些旅行者之�
 
 #Quest_1998.I can see everything
 gtnh.quest1998.name=我可以看到一切
-gtnh.quest1998.desc=有了新法杖,你就可以制作揭示之护目镜了.再加上神秘节点追踪器,寻找节点那都不是事儿. 神秘节点追踪器的默认快捷键是"I".你可以在列表中选择你扫描过的节点,然后箭头会告诉你怎么走的.你还可以对此列表排序.  更妙的是,护目镜还会为你提供5%的魔力减免.稍后你可以制作更先进的护目镜,甚至可以将护目镜与护甲结合起来.
+gtnh.quest1998.desc=有了新法杖,你就可以制作揭示之护目镜了.再加上神秘节点追踪器,寻找节点那都不是事儿. 神秘节点追踪器的默认快捷键是"I".你可以在列表中选择你扫描过的节点,然后箭头会告诉你怎么走的.你还可以对此列表排序.  更妙的是,护目镜还会为你提供5%的魔力减免.  简单的镜片升级也可以让你拥有各种视觉能力.  稍后你可以制作更先进的护目镜,甚至可以将护目镜与护甲结合起来.
 
 #Quest_1999.Redstone Emitter
 gtnh.quest1999.name=红石信号发射器
 gtnh.quest1999.desc=红石信号发射器的6个面都能发出红石信号.红石信号的强度可以设置为任意值,加、减和更多行为均可设置.
 
-#Quest_2000.Cable Camoflage
+#Quest_2000.Cable Camouflage
 gtnh.quest2000.name=伪装方块
 gtnh.quest2000.desc=伪装方块能使线缆的面可以模拟任意其他方块.伪装方块在完整的程序运行中可以正常工作,因此可以实现动态更新.  请注意,伪装方块与所有SFM线缆放置起来没什么区别,但它无法充当工厂线缆,因此在许多情况下需要与高级集线器结合使用.
 
@@ -8008,11 +8008,11 @@ gtnh.quest2000.desc=伪装方块能使线缆的面可以模拟任意其他方块
 gtnh.quest2001.name=物品栏中转站
 gtnh.quest2001.desc=物品栏中转站可以访问非固定实体的物品栏,比如说矿车.
 
-#Quest_2002.Double Sided Cable Camoflage
+#Quest_2002.Double Sided Cable Camouflage
 gtnh.quest2002.name=伪装方块-双面
 gtnh.quest2002.desc=伪装方块-双面可以设置内侧和外侧独立伪装,比如你可以让它伪装成玻璃.
 
-#Quest_2003.Transforming Cable Camoflage
+#Quest_2003.Transforming Cable Camouflage
 gtnh.quest2003.name=伪装方块-变换
 gtnh.quest2003.desc=伪装方块-变换使你能够修改线缆的碰撞箱,所以你可以把它变成门或者别的什么.
 
@@ -8022,7 +8022,7 @@ gtnh.quest2004.desc=高级物品栏中转站可以对玩家物品栏添加/移�
 
 #Quest_2005.Learning curve? Where we're going there are no curves
 gtnh.quest2005.name=学习曲线?我们要去的地方没有曲线
-gtnh.quest2005.desc=只有悬崖和万丈深渊,稍不注意就会粉身碎骨.TecTech可以成为冒险、恐惧、满足之源.  感谢Piky/Scripted为我们摸索出一条坦途.这条路上撒满了先行者Scripted/Piky的鲜血.现在轮到你了!
+gtnh.quest2005.desc=只有悬崖和万丈深渊,稍不注意就会粉身碎骨.TecTech可以成为冒险、恐惧、满足之源.  感谢Piky/Scripted为我们摸索出一条坦途.这条路上撒满了先行者Scripted/Piky的鲜血.现在轮到你了!  想要获知TecTech的更多细节,访问此wiki页面https://github.com/Technus/TecTech/wiki
 
 #Quest_2006.The Beginning of the End Game
 gtnh.quest2006.name=毕业之路的开端
@@ -8058,7 +8058,7 @@ gtnh.quest2013.desc=高级集线器具有工厂线缆的功能,可以扩展工�
 
 #Quest_2014.All those chunks, all in a row
 gtnh.quest2014.name=将那些区块,变成一行
-gtnh.quest2014.desc=有时你不需要加载3x3区块,但需要加载一条长长的线.这对铁路线或长距离输电线很有用.  拱卫之锚可以胜任这项工作.  Right-click on a chunk loader, and it will activate. Go in any straight line from the chunkloader and place it (up to 27 I believe). Those chunks will now remain loaded.  相比于直接加载3x3区块,这样节省得多,但还是要多多囤积末影珍珠和区块加载币.
+gtnh.quest2014.desc=有时你不需要加载3x3区块,但需要加载一条长长的线.这对铁路线或长距离输电线很有用.  拱卫之锚可以胜任这项工作.  手持撬棍右键区块加载器以激活它.然后沿直线走出,放置拱卫之锚,手持撬棍右键.这样,最多25x1的区块将会保持加载.  相比于一路正常加载3x3区块,这样节省得多,但还是要多多囤积末影珍珠和区块加载币.
 
 #Quest_2015.Redstone Receiver
 gtnh.quest2015.name=红石信号接收器
@@ -8518,7 +8518,7 @@ gtnh.quest2128.desc=山丘樱是培育的重要一环.用银橙和苹果橡木�
 
 #Quest_2129.Common Walnut
 gtnh.quest2129.name=普通核桃树
-gtnh.quest2129.desc=普通核桃树是生产种子油的好选择.用山丘樱和银橙杂交培育而来.
+gtnh.quest2129.desc=普通核桃树是生产种子油的一般选择,每个坚果产出54L种子油.用山丘樱和银橙杂交培育而来.
 
 #Quest_2130.Butternut
 gtnh.quest2130.name=灰核桃树
@@ -8638,7 +8638,7 @@ gtnh.quest2158.desc=生长蜂是培育水果蜂的开端.由森林蜂和勤奋�
 
 #Quest_2159.Bees Template - change to OR when copying, back to AND to hide
 gtnh.quest2159.name=蜜蜂模板-当复制时解锁类型改成OR,隐藏时改回到AND
-gtnh.quest2159.desc=首先从NEI中拿出公主蜂和奖励袋. 打开编辑菜单,将图标设置为这个蜜蜂. 打开任务,编辑,任务目标,将石头替换成这个公主蜂. 在关闭之前,点击蜜蜂名字右侧的"...",然后点击"原NBT". 点击tag栏"对象...",Genome栏"对象...",Chromosomes栏"列表...".第一个是必须保留的物品名,删除剩余的条目. 最后将最外全局设置里的repeatTime改为-1.
+gtnh.quest2159.desc=首先从NEI中拿出公主蜂和奖励袋. 打开编辑菜单,将图标设置为这个蜜蜂. 打开任务,编辑,任务目标,将石头替换成这个公主蜂. 在关闭之前,点击蜜蜂名字右侧的"...",然后点击"原NBT". 点击tag栏"对象...",Genome栏"对象...",Chromosomes栏"列表...".第一个是必须保留的品种,删除剩余的条目. 最后将最外全局设置里的repeatTime改为-1.
 
 #Quest_2160.Carpenter's Blocks
 gtnh.quest2160.name=木匠方块
@@ -8746,7 +8746,7 @@ gtnh.quest2185.desc=僧侣蜂无法在野生蜂巢中发现,也无法培育出�
 
 #Quest_2186.Vibrant Alloy
 gtnh.quest2186.name=脉冲合金蜂
-gtnh.quest2186.desc=某条培育线的终点.这是一段长而艰险的路途,但你现在能直接通过蜜蜂产物获得脉冲合金了.干得好!由充能合金蜂和幻影蜂杂交培育而来.
+gtnh.quest2186.desc=某条培育线的终点.这是一段长而艰险的路途,但你现在能直接通过蜜蜂产物获得脉冲合金了.干得好!  你需要在蜂箱下方放一块脉冲合金块.由充能合金蜂和幻影蜂杂交培育而来.
 
 #Quest_2187.Energetic Alloy
 gtnh.quest2187.name=充能合金蜂
@@ -8818,11 +8818,11 @@ gtnh.quest2203.desc=铂.在各个阶段都是珍贵的金属资源.你需要在�
 
 #Quest_2204.Uranium
 gtnh.quest2204.name=铀蜂
-gtnh.quest2204.desc=所有的仇恨都是有目标的-为了创造出这种蜜蜂.你需要在蜂箱下方放个铀块.由复仇蜂和铂蜂杂交培育而来.
+gtnh.quest2204.desc=所有的仇恨都是有目标的-为了创造出这种蜜蜂.像前面一样,让它远离一切.  你需要在蜂箱下方放个铀块.由复仇蜂和铂蜂杂交培育而来.
 
 #Quest_2205.Plutonium
 gtnh.quest2205.name=钚蜂
-gtnh.quest2205.desc=钚,代表科技缩影的金属,在宇宙中无自然存在.你需要在蜂箱下方放个钚块.由铀蜂和绿宝石蜂杂交培育而来.
+gtnh.quest2205.desc=钚,代表科技缩影的金属,在宇宙中无自然存在.这种蜜蜂会摧毁它周围的一切.你需要在蜂箱下方放个钚块.由铀蜂和绿宝石蜂杂交培育而来.
 
 #Quest_2206.Avenging
 gtnh.quest2206.name=复仇蜂
@@ -8838,7 +8838,7 @@ gtnh.quest2208.desc=当心.这些蜜蜂不只憎恨生物,甚至还憎恨方块.
 
 #Quest_2209.Moron's Guide to Breeding Better Bees
 gtnh.quest2209.name=蜜蜂培育"智者"手册
-gtnh.quest2209.desc=首先,不要被你在这里看到的这么多蜜蜂吓到.还有更多没有写入这里的蜜蜂,你需要用NEI来寻找它们!  哈哈,开个玩笑,不要慌!当你解锁了蜜蜂培育线之后,四处看看,然后选择真正使你感兴趣的完成.培育线从开始到结束大多数都是从左到右,从上到下的.某些底部的培育线可能看起来很简单,但它们所需的蜜蜂可能是别的线中的高级货色.  蜜蜂有两套特性,一套是活跃的(显性基因),对蜜蜂的活动方式有影响;另一套是不活跃的(隐性基因),但会影响遗传.当你培育出全新的公主蜂和雄峰后,检查两套特性,一致时你就得到了纯种的目标蜜蜂.你可以培育具有不活跃特性的蜜蜂,让它们通过之后的杂交中活跃起来.使用实地考察工具包时无法看到蜜蜂的隐性基因,你需要蜜蜂分析仪.对于大多数蜜蜂,你可以用GT扫描仪初步扫描它们,但你还是要用蜜蜂分析仪才能看到隐性基因.  培育蜜蜂时,建立一个主模板蜜蜂是个好主意.所谓主模板蜜蜂就是一种几乎没有杂交潜力的蜜蜂,但拥有你所有希望的特性-短寿、夜行性、穴居性、耐雨飞行性、湿度与温度耐受力高、生育能力高等等.一旦你培育出这种蜜蜂后,繁殖一批显性/隐性基因一致的纯种公主蜂和雄峰.它们将成为你的培育储备.  当你准备培育新品种的蜜蜂时,你需要的是雄峰-这样你就可以动用你的"培育储备"公主蜂,让培育更容易,记得新的雄峰也要纯化基因并去掉烦人的效果或限制.属性不好的公主蜂可以与你的"培育储备"雄峰杂交,重新加入你的培育储备,或者你一可以直接扔掉它(要是懒得洗掉那些烦人的效果或限制的话).确保新蜜蜂保持你需要的特性和品种,然后慢慢用你培育储备中的特性覆盖其余.优化基因的过程不必在蜂箱中进行,你可以使用蜂房来完成. Ignoble bees are good for this, since they're mostly disposable - they have a chance to die after 100 breeding cycles - frames can let them live longer. Once you solidify your species, create a pool of drones. You can use those to convert pristine princesses to the new species. Pristine princesses will not die. Rocky bees are a great source - all their princesses are always pristine.\n\nOnce you get a new species, it will replace all of one of the two sets of traits of the bee.  For example when you get a Cultivated, either the Active or Inactive column will have all the default Cultivated traits. Mix it a few times and you'll eventually get purebred versions. Just watch out that you don't lose a key trait, like Fast Worker for Cultivated! All the quests will require purebred species. \n\nGenerally all traits can be bred into any bee species, including effects or flower preference. Species generally require their preferred biome to produce their special drops.\n\nAdvanced frames can provide useful boosts to mutation chances, or to lifespan reduction for faster breeding cycles. However excessive multipliers will increase genetic decay, giving a chance for that pristine princess to become ignoble!\n\nIt looks complex, because it is! But it also a lot of dangerous and useful fun!
+gtnh.quest2209.desc=首先,不要被你在这里看到的这么多蜜蜂吓到.还有更多没有写入这里的蜜蜂,你需要用NEI来寻找它们!  哈哈,开个玩笑,不要慌!当你解锁了蜜蜂培育线之后,四处看看,然后选择真正使你感兴趣的完成.培育线从开始到结束大多数都是从左到右,从上到下的.某些底部的培育线可能看起来很简单,但它们所需的蜜蜂可能是别的线中的高级货色.许多基础蜜蜂有多种培育选择,这里只写一种.  蜜蜂有两套特性,一套是活跃的(显性基因),对蜜蜂的活动方式有影响;另一套是不活跃的(隐性基因),但会影响遗传.当你培育出全新的公主蜂和雄峰后,检查两套特性,一致时你就得到了纯种的目标蜜蜂.你可以培育具有不活跃特性的蜜蜂,让它们通过之后的杂交中活跃起来.使用实地考察工具包时无法看到蜜蜂的隐性基因,你需要蜜蜂分析仪.对于大多数蜜蜂,你可以用GT扫描仪初步扫描它们,但你还是要用蜜蜂分析仪才能看到隐性基因.  培育蜜蜂时,建立一个主模板蜜蜂是个好主意.所谓主模板蜜蜂就是一种几乎没有杂交潜力的蜜蜂,但拥有你所有希望的特性-短寿、夜行性、穴居性、耐雨飞行性、湿度与温度耐受力高、生育能力高等等.一旦你培育出这种蜜蜂后,繁殖一批显性/隐性基因一致的纯种公主蜂和雄峰.它们将成为你的培育储备.  当你准备培育新品种的蜜蜂时,你需要的是雄峰-这样你就可以动用你的"培育储备"公主蜂,让培育更容易,记得新的雄峰也要纯化基因并去掉烦人的效果或限制.属性不好的公主蜂可以与你的"培育储备"雄峰杂交,重新加入你的培育储备,或者你一可以直接扔掉它(要是懒得洗掉那些烦人的效果或限制的话).确保新蜜蜂保持你需要的特性和品种,然后慢慢用你培育储备中的特性覆盖其余.优化基因的过程不必在蜂箱中进行,你可以使用蜂房来完成.卑贱种的蜜蜂很适合这项工作,因为它们可随意处理-在100个繁殖周期后,它们有几率死去-框架可以让它们活得更长.一旦你巩固了品种,留些雄峰.你可以用它们把始祖种公主蜂转化成新的品种.始祖种公主蜂不会死亡. 石头蜂就是始祖种极好的来源-它们所有的公主蜂都是始祖种.  一旦你获得了新品种,它会替换掉蜜蜂两套特性中的其中一套.  比如,当你获得了一只田野蜂,每一条显性或隐性基因任选其一会被田野蜂的默认特性替换.经过几次混合纯化,你才能得到纯种的蜜蜂.当心别把关键特性弄丢了,比如田野蜂的快速工作特性!所有的任务都需要纯种蜜蜂.  一般来说,所有的特性都可以培育进任意品种的蜜蜂,包括特殊效果或采蜜对象.特殊品种的蜜蜂通常需要相应的生物群系才会生产特殊产物.  先进的框架可以提供一些有用的帮助,如提高突变几率、或降低寿命以加快培育周期.但是过高的倍率会增加基因衰退几率,让始祖种公主蜂退化成卑贱种!  看起来很复杂吧,因为本来就很复杂!但其中还是有很多危险与乐趣并存!
 
 #Quest_2210.Dealing with Radiation
 gtnh.quest2210.name=处理辐射
@@ -9016,9 +9016,9 @@ gtnh.quest2252.desc= 这种有趣的蜜蜂没有任何有用的产物,但它确�
 gtnh.quest2253.name=汞太多了?
 gtnh.quest2253.desc=一小时又一小时...一天又一天...一周又一周...你为了红宝石处理了成吨的红石,也积攒了大量的汞,不知道能用来做什么.你可以将其都存到超级缸里,但事实上没人需要那么多次氯酸.你可以制造一台酸性发电机,至少能获得一点电.  译者注:使用汞化学浸洗处理某些矿物可以增产.
 
-#Quest_2254.Bees Template
-gtnh.quest2254.name=蜜蜂模板
-gtnh.quest2254.desc=没有描述(No Description)
+#Quest_2254.Arsenic Princess
+gtnh.quest2254.name=砷蜂
+gtnh.quest2254.desc=这种致命的蜜蜂会为你生产砷,非常适合用于你的电路板.蜂箱下方得放个砷块.由银蜂和锌蜂培育而来.
 
 #Quest_2255.Keep calm and bee on
 gtnh.quest2255.name=保持冷静,继续(蜜蜂)前进(Keep calm and be(e) on)
@@ -9026,11 +9026,11 @@ gtnh.quest2255.desc=柔性框架可以保护你的蜜蜂,免受高生产率或�
 
 #Quest_2256.Brazil Nut
 gtnh.quest2256.name=巴西栗
-gtnh.quest2256.desc=巴西栗无法带给你太多重要的特性.由普通山毛榉和丛林木杂交培育而来.
+gtnh.quest2256.desc=巴西栗无法带给你太多重要的特性.用普通山毛榉和丛林木杂交培育而来.
 
 #Quest_2257.Coconut
 gtnh.quest2257.name=椰子树
-gtnh.quest2257.desc=椰子树是种子油之王-每个坚果产出300L.由巴西栗和巴尔杉树杂交培育而来.
+gtnh.quest2257.desc=椰子树是种子油之王-每个坚果产出300L.用巴西栗和巴尔杉树杂交培育而来.
 
 #Quest_2258.Aromatic Lump
 gtnh.quest2258.name=芬芳块
@@ -9039,6 +9039,22 @@ gtnh.quest2258.desc=芬芳块用于蜂箱组克隆盒时的效率是蜂王浆的
 #Quest_2259.Infinite bats! Wait, what??
 gtnh.quest2259.name=无限蝙蝠!等等,什么??
 gtnh.quest2259.desc=厌倦了扭曲招来的成千上万的蝙蝠在你耳边尖叫?用这台设备把它们吸引到一个能集中处理它们的地方吧.奥术生物磁铁可以设置吸引或排斥生物,红石信号强度除以2决定了它的作用范围.  你可以使用灵魂模板来过滤磁铁吸引或排斥的生物.这让你有了一些自动化的思路...
+
+#Quest_2260.Better boots with a little pizzazz
+gtnh.quest2260.name=更炫酷的靴子
+gtnh.quest2260.desc=电子旅行者之靴有百分之二的魔力减免,以及普通旅行者之靴的所有优点.
+
+#Quest_2261.Walk all over you
+gtnh.quest2261.name=为所欲为
+gtnh.quest2261.desc=纳米旅行者之靴相对电子旅行者之靴拥有更高的魔力减免,跑得更快,跳得更高.对大师级的魔法工程师来说,这是双不可多得靴子.
+
+#Quest_2262.Walking across the stars
+gtnh.quest2262.name=跨越星河
+gtnh.quest2262.desc=量子旅行者之靴,让你像风一样奔跑.可能会出问题让你站着不动!
+
+#Quest_2263.Industrial Grafter
+gtnh.quest2263.name=工业剪枝器
+gtnh.quest2263.desc=要是你厌倦了不断更换剪枝器的话,这个工业剪枝器是可充电的.
 
 ##################################Line##################################
 
