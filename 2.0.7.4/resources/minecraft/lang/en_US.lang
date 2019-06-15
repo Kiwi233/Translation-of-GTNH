@@ -522,7 +522,7 @@ gtnh.quest129.desc=All EnderIO machines still require the basic chassis, and it'
 
 #Quest_130.Portable tanks
 gtnh.quest130.name=Portable tanks
-gtnh.quest130.desc=Until now, you had to use buildcraft tanks to carry liquids around. Which can be a pain to do. These little tanks are able to push and pull liquids by themselves, as they have a built-in pump which is powered by some magic energy source. How convenient.\n\nJust be careful, because it will eat water cells instead of returning them.\n\nPressurized tanks are twice as large.
+gtnh.quest130.desc=Until now, you had to use buildcraft tanks to carry liquids around. Which can be a pain to do. These little tanks from EnderIO are able to push and pull liquids by themselves, as they have a built-in pump which is powered by some magic energy source. How convenient.\n\nJust be careful, because it will eat water cells instead of returning them.\n\nPressurized tanks are twice as large.
 
 #Quest_131.Simple RF power: Solid
 gtnh.quest131.name=Simple RF power: Solid
@@ -2010,7 +2010,7 @@ gtnh.quest501.desc=The next thing to do: Find a few bee hives around the world. 
 
 #Quest_502.A new home
 gtnh.quest502.name=A new home
-gtnh.quest502.desc=Now that you've destroyed the poor bees homes, you should build them a new one. The humble Bee House will not let your bees mutate into new species.  The production rate isn't too bad, but they cannot be automated.
+gtnh.quest502.desc=Now that you've destroyed the poor bees homes, you should build them a new one. The humble Bee House will not let your bees mutate into new species. But you'll need the combs anyways for better housing.  The production rate isn't too bad, but they cannot be automated.\n\nOne tip - Put some vanilla saplings near the Bee Houses. Bee Houses give a natural boost of 3x to pollination vs better housing. The bees will pollinate them and you might get lucky and start getting some Forestry tree crossbreeding. Stick with Oak and Birch trees, they'll give you a nice mix of starter Forestry trees.
 
 #Quest_503.Analyze them all
 gtnh.quest503.name=Analyze them all
@@ -3030,7 +3030,7 @@ gtnh.quest756.desc=When you reach MV tier you can make your own duct tape in cas
 
 #Quest_757.Ruby Electrolyzing
 gtnh.quest757.name=Ruby Electrolyzing
-gtnh.quest757.desc=Ruby is a good source for electrolyzing to get chrome and aluminium.  Your new MV electrolyzer gives you access to a lot of new recipes. Once you get low on Ruby, you can centrifuge Redstone to get more.\nAnother good source of aluminium and oxygen is red granite dusts. You can get those from stonelillies in the Fishing Farming cooking tab using ic2 crops.
+gtnh.quest757.desc=Ruby is a good source for electrolyzing to get chrome and aluminium.  Your new MV electrolyzer gives you access to a lot of new recipes. Once you get low on Ruby, you can centrifuge Redstone to get more.\nAnother good source of aluminium and oxygen is red granite dusts. You can get those from red stonelillies in the Fishing Farming Cooking tab using ic2 crops.
 
 #Quest_758.MV Batteries
 gtnh.quest758.name=MV Batteries
@@ -4058,7 +4058,7 @@ gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They
 
 #Quest_1014.Workstation Extreme Circuit
 gtnh.quest1014.name=Workstation Extreme Circuit
-gtnh.quest1014.desc=The next tier of circuits are the extreme circuits. Workstation Circuits are the easiest one and are needed in EV Tier. Let's craft some.
+gtnh.quest1014.desc=The next tier of circuits are the extreme circuits. Workstation Circuits are the easiest one and are needed in EV Tier. Let's craft some.\n\nIn addition, you will need 16 Diodes, SMD or non-SMD.
 
 #Quest_1015.Empty Plastic Board
 gtnh.quest1015.name=Empty Plastic Board
@@ -4066,11 +4066,11 @@ gtnh.quest1015.desc=Plastic circuit boards require plastic Plate with Sulfuric A
 
 #Quest_1016.Integrated Processor
 gtnh.quest1016.name=Integrated Processor
-gtnh.quest1016.desc=There are three variants of good circuits. The good electronic circuit, the good integrated circuit and the integrated processor which needs an MV circuit assembling machine. The integrated processor requires a CPU, capacitors, transistors and resistors.\nA cleanroom is needed.
+gtnh.quest1016.desc=There are three variants of good circuits. The good electronic circuit, the good integrated circuit and the integrated processor which needs an MV circuit assembling machine. The integrated processor requires a CPU, capacitors, transistors and resistors.\nA cleanroom is needed.\n\nYou will need in addtion 4 Resistors, 4 Capacitors and 4 Transistors. You can use SMD or non SMD versions.
 
 #Quest_1017.Processor Assembly
 gtnh.quest1017.name=Processor Assembly
-gtnh.quest1017.desc=Another variant of the advanced circuit from IC2 is the processor assembly.\nTwo Integrated Processors are needed in the MV circuit assembler recipe.\nThe recipe is a cleanroom recipe.
+gtnh.quest1017.desc=Another variant of the advanced circuit from IC2 is the processor assembly.\nTwo Integrated Processors are needed in the MV circuit assembler recipe.\nThe recipe is a cleanroom recipe.\n\nIn addition you will need 8 Capacitors, SMD or non-SMD is fine.
 
 #Quest_1018.Central Processing Unit
 gtnh.quest1018.name=Central Processing Unit
@@ -4330,7 +4330,7 @@ gtnh.quest1081.desc=This Plate Bending Machine allows you to directly make doubl
 
 #Quest_1082.MV Battery Buffers
 gtnh.quest1082.name=MV Battery Buffers
-gtnh.quest1082.desc=MV machines need battery buffers too. They come in different sizes like 1x, 4x, 9x and 16x.\nBuild a 1x and a 4x buffer.
+gtnh.quest1082.desc=MV machines can internally hold 1 battery. But sometimes you need to store more power than that, or you want a whole powerline to share batteries. You can use a battery buffer to store large amounts of batteries. They come in different sizes like 1x, 4x, 9x and 16x.\nBuild a 4x buffer.
 
 #Quest_1083.MV Lithium Battery
 gtnh.quest1083.name=MV Lithium Battery
@@ -4466,7 +4466,7 @@ gtnh.quest1115.desc=Forestry trees have a variety of attributes.  Once you get a
 
 #Quest_1116.Breed some cultivated bees
 gtnh.quest1116.name=Breed some cultivated bees
-gtnh.quest1116.desc=Common Princess and Foresty Drone can be bred to cultivated bees. \n\nCultivated bees have the shorest lifespan - this means they make great princesses to breed with your newly bred drones. The queen will die quickly, quickly giving genetic material to work with.  Make sure the traits you want are kept!\n\nThey are also a Fast production bee, which means lots of honey combs for powering your Beealyzer or Treealyzer. \n\nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.\n\nMake sure your cultivated bees are pure with a Beealyzer or GT scanner.\n\nThe main bee breeding quests will require scanned bees, but you can progress your breeding while waiting for the GT Scanner or Beealyzer to be made.
+gtnh.quest1116.desc=Common Princess and Foresty Drone can be bred to cultivated bees. \n\nCultivated bees have the shorest lifespan - this means they make great princesses to breed with your newly bred drones. The queen will die quickly, quickly giving genetic material to work with.  Make sure the traits you want are kept!\n\nThey are also a Fast production bee, which means lots of honey combs for powering your Beealyzer or Treealyzer. \n\nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.\n\nMake sure your cultivated bees are pure with a Beealyzer or GT scanner.\n\nThe main bee breeding quests will require pure bees but you can use Ignoble or Pristine princesses.
 
 #Quest_1117.Breed some common bees
 gtnh.quest1117.name=Breed some common bees
@@ -4478,7 +4478,7 @@ gtnh.quest1118.desc=Cross breeding common and cultivated bees can result in nobl
 
 #Quest_1119.Dripping Combs
 gtnh.quest1119.name=Dripping Combs
-gtnh.quest1119.desc=Your noble bees produce some dripping combs.\nA good source for honeydew, honey and for proven frames.
+gtnh.quest1119.desc=Your noble bees produce some dripping combs.\nA good source for honey, and if have a magical mind, honeydew for proven frames.
 
 #Quest_1120.Breed some majestic bees
 gtnh.quest1120.name=Breed some majestic bees
@@ -4570,7 +4570,7 @@ gtnh.quest1141.desc=The Windmeter measures wind strength. It show's you on which
 
 #Quest_1142.HV Battery Buffers
 gtnh.quest1142.name=HV Battery Buffers
-gtnh.quest1142.desc=HV machines need battery buffers too. They come in different sizes like 1x, 4x, 9x and 16x.\nBuild a 1x and a 4x buffer for HV.
+gtnh.quest1142.desc=HV machines need battery buffers too. They come in different sizes like 1x, 4x, 9x and 16x.\nBuild a 1x and a 4x buffer for HV.  \n\nYou can use the 1x with a transformer and run MV machines for a decent time.  Or transform it twice  to LV and run a bunch of LV machines for a long time. Useful when you want scanner near your bees or trees. Remember to cover them up or else rain will make you very unhappy.
 
 #Quest_1143.HV Batteries
 gtnh.quest1143.name=HV Batteries
@@ -4902,7 +4902,7 @@ gtnh.quest1224.desc=Epoxid is needed for your advanced Circuits boards. You need
 
 #Quest_1225.IV Circuit Mainframe
 gtnh.quest1225.name=IV Circuit Mainframe
-gtnh.quest1225.desc=Mainframes are the first IV Circuits you can make in HV. Used for EV and IV machines and components.
+gtnh.quest1225.desc=Mainframes are the first IV Circuits you can make in HV. Used for EV and IV machines and components.\n\nIn addition, you will need 16 Capacitors, SMD or non-SMD.\n\nOnce you get a reliable polyethylene setup, it will save a lot of resources to use SMD components.
 
 #Quest_1226.Glycerol
 gtnh.quest1226.name=Glycerol
@@ -5156,9 +5156,9 @@ gtnh.quest1287.desc=Magic mushrooms whoooo!
 gtnh.quest1288.name=Hops, the source of beer
 gtnh.quest1288.desc=If you don't want pure alcohol, but beer, get some hops by crossbreeding IC2 crops.
 
-#Quest_1289.HV Canner
-gtnh.quest1289.name=HV Canner
-gtnh.quest1289.desc=The canning machine is mainly used to fill tin cans with any kind of food, but it is useful for filling and emptying tin cells with other solid items than food, usually in the form of dust. It can also fill batteries with sulfur, mercury, cadmium, lithium or sodium.
+#Quest_1289.HV Bender
+gtnh.quest1289.name=HV Bender
+gtnh.quest1289.desc=An HV Bender is going to be 4x faster than your LV Bender, but it also opens up an important recipe - Tin cans!  \n\nWith this bender you can turn Tin Casings into Tin Cans.  Using the Tin Cans with food in a Canner (LV is fine) will make Canned Food. This can stack up to 64, and will fully restore your shanks - no need to rotate food types any more! You will eat as much as you need with one click. One drawback is you will no longer get the Well Fed buff with its slight health regen bonus. Also, these cans don't fit in the lunch bag or lunch box so you don't need those any more.
 
 #Quest_1290.Imma chargin' my...
 gtnh.quest1290.name=Imma chargin' my...
@@ -5650,7 +5650,7 @@ gtnh.quest1411.desc=Small piles of Platinum, Palladium, Iridium and Osmium can b
 
 #Quest_1412.Assembling Line
 gtnh.quest1412.name=Assembling Line
-gtnh.quest1412.desc=The assembling line (short form 'Ass Line') is a multiblock and important for high tier Components in LuV tier and above for Motors, Pistons, Robot Arms, Pumps and many more.\n\nThe machine can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it's crafting. A length of 11 blocks will fit 80 of all recipes in GTNH.\nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items(10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.\n\nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.\n\nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.\n\nThe fourth layer is a single line of Solid Steel Machine Casings in the middle(11), with two Energy Hatches for power. Once you have it built, you can replace the two IV energy hatches with 1 LuV energy hatch.\n\nAutomating the assline is God tier GTNH endgame. While it can be done with Enderio, it's easier to use SFM or OpenComputers.\n\nFor more details on using the Assembly Line, check out the wiki page https://tinyurl.com/GTNH-Assline
+gtnh.quest1412.desc=The assembling line (short form 'Ass Line') is a multiblock and important for high tier Components in LuV tier and above for Motors, Pistons, Robot Arms, Pumps and many more.\n\nThe machine can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it's crafting. A length of 11 blocks will fit 80 percent of all recipes in GTNH.\nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items(10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.\n\nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.\n\nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.\n\nThe fourth layer is a single line of Solid Steel Machine Casings in the middle(11), with two Energy Hatches for power. Once you have it built, you can replace the two IV energy hatches with 1 LuV energy hatch.\n\nAutomating the assline is God tier GTNH endgame. While it can be done with Enderio, it's easier to use SFM or OpenComputers.\n\nFor more details on using the Assembly Line, check out the wiki page https://tinyurl.com/GTNH-Assline
 
 #Quest_1413.You gonna hate this 1-4 in IV
 gtnh.quest1413.name=You gonna hate this 1-4 in IV
@@ -6646,7 +6646,7 @@ gtnh.quest1660.desc=Now we add a bit sulfur to the raw dust and get molten styre
 
 #Quest_1661.Silicone Rubber
 gtnh.quest1661.name=Silicone Rubber
-gtnh.quest1661.desc=Want to make some synthetic rubber like Silicone Rubber?\nThere are different ways to do it and this quest is only an example how you can make it.\n\nFist step you need Chlorine and Methane - Mix them into chloromethane in your chemical reactor.\n\nAlternatively you can use Methanol and Hydrochloric Acid.
+gtnh.quest1661.desc=Want to make some synthetic rubber like Silicone Rubber?\nThere are different ways to do it and this quest is only an example how you can make it.\n\nFist step you need Chloromethane. \n\nYou can use 2 Chlorine and 1 Methane per Chloromethane in your chemical reactor.\n\nAlternatively you can use Methanol and Hydrochloric Acid.
 
 #Quest_1662.Dimethyldichlorosilane
 gtnh.quest1662.name=Dimethyldichlorosilane
@@ -7170,7 +7170,7 @@ gtnh.quest1791.desc=Oilsand is an other way to get oil, heavy oil. Maybe you luc
 
 #Quest_1792.I guess it is an inkjet?
 gtnh.quest1792.name=I guess it is an inkjet?
-gtnh.quest1792.desc=When you use the seimsic prospector, you'll need a scanner and a printer to create the books full of tasty ores and delicious fluids.\n\nUse ink sacs in a fluid extractor to get squid ink. Move using a tank or universal cells.
+gtnh.quest1792.desc=When you use the seismic prospector, you'll need a scanner and a printer to create the books full of tasty ores and delicious fluids.\n\nUse ink sacs in a fluid extractor to get squid ink. Move using a tank or universal cells.
 
 #Quest_1793.Better dirt
 gtnh.quest1793.name=Better dirt
@@ -7708,13 +7708,13 @@ gtnh.quest1925.desc=Tired of waiting around 7 hours with radium in your inventor
 gtnh.quest1926.name=A quicker way to get around
 gtnh.quest1926.desc=If you are playing single player or a local server, horses make a great way to get around. On nonlocal servers they can cause problems and desync if you have poor internet. 
 
-#Quest_1927.Coal
-gtnh.quest1927.name=Coal
+#Quest_1927.Coal...from withereed?
+gtnh.quest1927.name=Coal...from withereed?
 gtnh.quest1927.desc=Withereed is a source for coal, and more importantly, a good breeding stock for higher tiers.\n\nYou'll need coal blocks underneath it to fully mature.
 
 #Quest_1928.Son of Odin One-Eye
 gtnh.quest1928.name=Son of Odin One-Eye
-gtnh.quest1928.desc=God of Thunder plant lets you increase your Thorium ore from thwe Nether by 4x. It also will give you Uranium you can use for Reactoria crops.
+gtnh.quest1928.desc=God of Thunder plant lets you increase your Thorium ore from the Nether by 4x. It also will give you Uranium you can use for Reactoria crops.
 
 #Quest_1929.Just cover your privates when you walk by
 gtnh.quest1929.name=Just cover your privates when you walk by
@@ -7954,10 +7954,10 @@ gtnh.quest1987.desc=Drawer upgrades are different than barrel upgrades. First yo
 
 #Quest_1988.Your mom says to upgrade your drawers
 gtnh.quest1988.name=Your mom says to upgrade your drawers
-gtnh.quest1988.desc=There are many tiers of upgrades for storage drawers. Make some iron, gold and obsidian tier upgrades and I'll give you some of the special purpose upgrades to experiment with in your base. Check NEI for more options and Emerald and Diamond upgrades.\n\nTo remove upgrades, right-click with an empty hand.
+gtnh.quest1988.desc=There are many tiers of upgrades for storage drawers. Make some iron, gold and obsidian tier upgrades and I'll give you some of the special purpose upgrades to experiment with in your base. Check NEI for more options and Emerald and Diamond upgrades.\n\nTo remove upgrades, shift-right-click with an empty hand.
 
-#Quest_1989.Inventory Manager
-gtnh.quest1989.name=Inventory Manager
+#Quest_1989.Machine Inventory Manager
+gtnh.quest1989.name=Machine Inventory Manager
 gtnh.quest1989.desc=The core block of Stacy's...er Steve's Factory Manager. SFM is a high tier automation system. While AE2 can handle simple crafting up to 9 components at a time and even nesting ingredients, SFM can handle the complex crafting required for the assline.\n\nInventory Cables connect the MIM to inventories or tanks.\n\nRight now until some Moron figures it out, your best bet is to experiment, ask for help on Discord, and search Google. The interface resembles most GUI based automation systems like LabView.\n\nThere have been TPS problems caused by poorly designed SFM setups.  Make sure your outputs are properly emptied, and don't get filled.\n\nInventory cables are the "basic" cable of SFM. They allow the MIM to interact with an inventory, and act as a connector cable to other cables.\n\nmehdi2344 thinks my jokes suck, but he's an idiot, so there. \n\nThanks to Nori Silverrage for writing up these quests!
 
 #Quest_1990.Moving the Manager 
@@ -7994,27 +7994,27 @@ gtnh.quest1997.desc=And swimming. These boots of the traveller will make you a b
 
 #Quest_1998.I can see everything
 gtnh.quest1998.name=I can see everything
-gtnh.quest1998.desc=With your new wand, you can make Goggles of Revealing. With Thaumcraft Node Tracker, it makes finding nodes trivial. The default key is I. You can select from the list of nodes you have scanned, and an in-world arrow will show you the way. You can also sort the list.\nBest, the goggles give you a 5 percent vis discount. Later you can make more advanced goggles and even integrate the goggles into advanced armors.
+gtnh.quest1998.desc=With your new wand, you can make Goggles of Revealing. With Thaumcraft Node Tracker, it makes finding nodes trivial. The default key is I. You can select from the list of nodes you have scanned, and an in-world arrow will show you the way. You can also sort the list.\nBest, the goggles give you a 5 percent vis discount. \n\nSimple lens upgrades will grant you various seeing abilities as well.\n\nLater you can make more advanced goggles and even integrate the goggles into advanced armors.
 
 #Quest_1999.Redstone Emitter
 gtnh.quest1999.name=Redstone Emitter
 gtnh.quest1999.desc=The Redstone Emitter sends redstone signals on each of its 6 faces. The redstone signal strength can be set to any value, add, subtract, and more.
 
-#Quest_2000.Cable Camoflage
-gtnh.quest2000.name=Cable Camoflage
-gtnh.quest2000.desc=Camoflage blocks allow the faces of cable blocks to be made to imitate any other block. This works in the full workflow and thus can be updated on the fly. \nPlease note that this block is placed the same as all of SFM cables. It does not act as an inventory cable and thus will need to be in an advanced cable cluster in many situations.
+#Quest_2000.Cable Camouflage
+gtnh.quest2000.name=Cable Camouflage
+gtnh.quest2000.desc=Camouflage blocks allow the faces of cable blocks to be made to imitate any other block. This works in the full workflow and thus can be updated on the fly. \nPlease note that this block is placed the same as all of SFM cables. It does not act as an inventory cable and thus will need to be in an advanced cable cluster in many situations.
 
 #Quest_2001.Inventory Relay
 gtnh.quest2001.name=Inventory Relay
 gtnh.quest2001.desc=The inventory relay can access the inventory of non-stationary entities, such as minecarts.
 
-#Quest_2002.Double Sided Cable Camoflage
-gtnh.quest2002.name=Double Sided Cable Camoflage
-gtnh.quest2002.desc=Double sided cable camoflage blocks allows setting the inside face of the cable block, allowing you to imitate glass.
+#Quest_2002.Double Sided Cable Camouflage
+gtnh.quest2002.name=Double Sided Cable Camouflage
+gtnh.quest2002.desc=Double sided cable camouflage blocks allows setting the inside face of the cable block, allowing you to imitate glass.
 
-#Quest_2003.Transforming Cable Camoflage
-gtnh.quest2003.name=Transforming Cable Camoflage
-gtnh.quest2003.desc=Transforming Cable Camoflage allows you to change the collision box of the cable, so you can turn it into a door or whatever.
+#Quest_2003.Transforming Cable Camouflage
+gtnh.quest2003.name=Transforming Cable Camouflage
+gtnh.quest2003.desc=Transforming Cable Camouflage allows you to change the collision box of the cable, so you can turn it into a door or whatever.
 
 #Quest_2004.Advanced Inventory Relay
 gtnh.quest2004.name=Advanced Inventory Relay
@@ -8022,11 +8022,11 @@ gtnh.quest2004.desc=An Advanced Inventory Relay can add/remove items from a play
 
 #Quest_2005.Learning curve? Where we're going there are no curves
 gtnh.quest2005.name=Learning curve? Where we're going there are no curves
-gtnh.quest2005.desc=Only dangerous cliffs to fly off. TecTec can be the source of adventures, scary and satisfying. \n\nThanks to Piky/Scripted for giving you some guardrails to stay on the road. Scripted/Piky shed blood over these quests for you. Now it's your turn!
+gtnh.quest2005.desc=Only dangerous cliffs to fly off. TecTech can be the source of adventures, scary and satisfying. \n\nThanks to Piky/Scripted for giving you some guardrails to stay on the road. Scripted/Piky shed blood over these quests for you. Now it's your turn!\n\nFor additional details on TecTech, check out the wiki at https://github.com/Technus/TecTech/wiki
 
 #Quest_2006.The Beginning of the End Game
 gtnh.quest2006.name=The Beginning of the End Game
-gtnh.quest2006.desc=Welcome to TecTec! The pinnacle of absolute high-tier machinery for all your end-tier needs. However, learning TecTec is incredibly confusing, so listen very carefully. First, you'll need to gather various casings for your machines that you'll need. High Power Casings, Computer Casings, and Computer Vents will do, though you'll require a large amount of them before proceeding onward.
+gtnh.quest2006.desc=Welcome to TecTech! The pinnacle of absolute high-tier machinery for all your end-tier needs. However, learning TecTech is incredibly confusing, so listen very carefully. First, you'll need to gather various casings for your machines that you'll need. High Power Casings, Computer Casings, and Computer Vents will do, though you'll require a large amount of them before proceeding onward.
 
 #Quest_2007.Quantum Computer
 gtnh.quest2007.name=Quantum Computer
@@ -8042,7 +8042,7 @@ gtnh.quest2009.desc=The Sign Updater allows your MIM to update an external displ
 
 #Quest_2010.Item Valve
 gtnh.quest2010.name=Item Valve
-gtnh.quest2010.desc=The Item Valve allows your factory manager to suck in dropped items from around them in a 3x3 cube.  Or you can use them to push items out into the world in the direction they are pointing.
+gtnh.quest2010.desc=The Item Valve allows your factory manager to suck in dropped items from around them in a 3x3x3 cube.  Or you can use them to push items out into the world in the direction they are pointing.
 
 #Quest_2011.Rapid Item Valve
 gtnh.quest2011.name=Rapid Item Valve
@@ -8058,7 +8058,7 @@ gtnh.quest2013.desc=The Advanced Cable Cluster will also act as an Inventory cab
 
 #Quest_2014.All those chunks, all in a row
 gtnh.quest2014.name=All those chunks, all in a row
-gtnh.quest2014.desc=Sometimes you don't want a 3x3 area chunkloaded, but a long straight line instead.  This can be handy for rail lines or power lines coming from long distances.  An anchor sentinel can perform this function.  Right-click on a chunk loader, and it will activate. Go in any straight line from the chunkloader and place it (up to 27 I believe). Those chunks will now remain loaded.\nThis will draw an amount of chunkloader time relative to the 3x3 chunk area normally loaded. Time to stock up on those pearls or server coins.
+gtnh.quest2014.desc=Sometimes you don't want a 3x3 area chunkloaded, but a long straight line instead.  This can be handy for rail lines or power lines coming from long distances.  An anchor sentinel can perform this function.  Right-click on a chunk loader with a crowbar, and it will activate. Go in any straight line from the chunkloader and place the anchor and hit it with the crowbar. Those chunks, up to 25x1, will now remain loaded.\n\nThis will draw an amount of chunkloader time relative to the 9 chunk area normally loaded. If for some reason you wanted only a 1 chunk area loaded, this will extend the time. Stock up on those pearls or server coins!
 
 #Quest_2015.Redstone Receiver
 gtnh.quest2015.name=Redstone Receiver
@@ -8226,7 +8226,7 @@ gtnh.quest2055.desc=With a Squeezer you can boost the output from your fermenter
 
 #Quest_2056.Jacques Cousteau
 gtnh.quest2056.name=Jacques Cousteau
-gtnh.quest2056.desc=Now that you have a Scuba Helmet you can safely explore underwater for long periods of time. You just need some compressed air cells.  I'll trade you some Iron Plates for compressed air cells.\nAs your air drops, the helmet will take a compressed air cell and give back an empty cell. Throw these cells into your compressor and you can easily gather clay from beneath rivers. You'll be able to make more cells later once you get an extruder or a plate bender.
+gtnh.quest2056.desc=Now that you have a Scuba Helmet you can safely explore underwater for long periods of time. You just need some compressed air cells.  I'll trade you some Tin ingots for a few compressed air cells.\n\nAs your air drops, the helmet will take a compressed air cell and give back an empty cell. Throw these cells into your compressor and you can easily gather clay from beneath rivers. You'll be able to make more cells later once you get an extruder or a plate bender.
 
 #Quest_2057."Oh magic" armor II
 gtnh.quest2057.name="Oh magic" armor II
@@ -8254,7 +8254,7 @@ gtnh.quest2062.desc=With these devices you can now fly and work at the same time
 
 #Quest_2063.Long distance power delivery
 gtnh.quest2063.name=Long distance power delivery
-gtnh.quest2063.desc=No mage wants to be restricted to short flying times. With this spire from the Automagy discipline you can transmit magical energy directy to your flying harness.\nTo get the correct Thaumium block, compress 9 ingots to get the GT Thaumium block and then chisel that block to get the correct type.\nThis multiblock requires centi-vis to operate. You can use 2-6 Thaumostatic Pylons, with additional pylons extending the range. Provide the construct Aer centi-vis to operate, and will accept Potentia essentia to transfer to flyers. The construct will also accept Aer and Voltatus essentia to increase the range and rate of transfer, respectively. Right-clicking the sides of the controller to control which type of essentia each side will accept.
+gtnh.quest2063.desc=No mage wants to be restricted to short flying times. With this spire from the Automagy discipline you can transmit magical energy directy to your flying harness. To get the correct Thaumium block, compress 9 ingots to get the GT Thaumium block and then chisel that block to get the correct type.\n\nThis multiblock requires centi-vis to operate. You can use 2-6 Thaumostatic Pylons, with additional pylons extending the range. Provide the construct Aer centi-vis to operate, and will accept Potentia essentia to transfer to flyers. The construct will also accept Aer and Volatus essentia to increase the range and rate of transfer, respectively. Right-click the sides of the controller to control which type of essentia each side will accept.
 
 #Quest_2064.Healing your nodes
 gtnh.quest2064.name=Healing your nodes
@@ -8290,7 +8290,7 @@ gtnh.quest2071.desc=Now that you have reached LuV you can make the god-tier pros
 
 #Quest_2072.Planetary Tears
 gtnh.quest2072.name=Planetary Tears
-gtnh.quest2072.desc=Indeed you will be crying over all the tiers you have to do for planets. Here is a handy reference.\n\nTier 1\nMoon -needs Oxygen Gear\n\nTier 2 - Need Thermal Padding for Mars\nMars\nPhobos\nDeimos\n\nTier 3\nCeres -Need tier 2 thermal padding\nAsteroids\nEuropa -Need tier 2 thermal padding\nGanymeade -Need tier 2 thermal padding\nCallisto -Need tier 2 thermal padding\nRoss128b - Habitable Planet (need no Oxygen Gear/thermal padding)\n\nTier 4 -Need tier 2 thermal padding\nIo\nMercury\nVenus - Needs SpaceSuit\n\nTier 5 -Need tier 2 thermal padding\nEnceladus\nTitan\nMiranda\nOberon\n\nTier 6 -Need tier 2 thermal padding\nProteus\nTriton\n\nTier 7 -Need tier 2 thermal padding\nPluto\nHaumea\nMakemake\nKuiper Belt\n\nTier 8 -Need tier 2 thermal padding\nAlpha Centauri Bb - Requires SpaceSuit\nTau Ceti E - Habitable Planet (need no Oxygen Gear/thermal padding)\nVega B\nBarnarda C - Habitable Planet (need no Oxygen Gear/thermal padding)\nBarnarda E\nBarnarda F
+gtnh.quest2072.desc=Indeed you will be crying over all the tiers you have to do for planets. Here is a handy reference.\n\nTier 1 - Needs Oxygen Gear\nMoon\n\nTier 2 - Requires Thermal Padding\nMars\nPhobos\nDeimos\n\nTier 3 - Requires Tier 2 Thermal Padding\nCeres\nAsteroids\nEuropa\nGanymeade\nCallisto\nRoss128b - Habitable Planet (need no Oxygen Gear/thermal padding)\n\nTier 4 - Need tier 2 thermal padding\nIo\nMercury\nVenus - Needs SpaceSuit\n\nTier 5 -Need tier 2 thermal padding\nEnceladus\nTitan\nMiranda\nOberon\n\nTier 6 -Need tier 2 thermal padding\nProteus\nTriton\n\nTier 7 -Need tier 2 thermal padding\nPluto\nHaumea\nMakemake\nKuiper Belt\n\nTier 8 -Need tier 2 thermal padding\nAlpha Centauri Bb - Requires SpaceSuit\nTau Ceti E - Habitable Planet (need no Oxygen Gear/thermal padding)\nVega B\nBarnarda C - Habitable Planet (need no Oxygen Gear/thermal padding)\nBarnarda E\nBarnarda F
 
 #Quest_2073.Time to kill (Bat)
 gtnh.quest2073.name=Time to kill (Bat)
@@ -8442,7 +8442,7 @@ gtnh.quest2109.desc=This database tracks all your knowledge of butterflies.
 
 #Quest_2110.Speeding up slow machines
 gtnh.quest2110.name=Speeding up slow machines
-gtnh.quest2110.desc=Many mods don't have methods of speeding up their slow machines. For this, you'll need a GregTech World Accelerator. It guzzles amps though so your power infrastructure better be ready for it. The tooltuip will list the performance boost provided. For block-based acceleration, the WA will do an area around it. For TileEntities like most machines, it will only accelerate the blocks directly touching the WA, and will need to be reconfigured with a screwdriver.
+gtnh.quest2110.desc=Many mods don't have methods of speeding up their slow machines. For this, you'll need a GregTech World Accelerator. It guzzles amps though so your power infrastructure better be ready for it. The tooltip will list the performance boost provided. For block-based acceleration, the WA will do an area around it. For TileEntities like most machines, it will only accelerate the blocks directly touching the WA, and will need to be reconfigured with a screwdriver.
 
 #Quest_2111.Hail to the King
 gtnh.quest2111.name=Hail to the King
@@ -8518,7 +8518,7 @@ gtnh.quest2128.desc=Hill Cherry is a key tree for breeding purposes. Breed it by
 
 #Quest_2129.Common Walnut
 gtnh.quest2129.name=Common Walnut
-gtnh.quest2129.desc=The Common Walnut is a pretty good choice for a seedoil tree. Breed it by mating Hill Cherry with Silver Lime.
+gtnh.quest2129.desc=The Common Walnut is a mediocre choice for a seedoil tree, only producing 54L per nut. Breed it by mating Hill Cherry with Silver Lime.
 
 #Quest_2130.Butternut
 gtnh.quest2130.name=Butternut
@@ -8554,7 +8554,7 @@ gtnh.quest2137.desc=The heart of your ME network. Inject energy into here as wel
 
 #Quest_2138.Making Sense of Spaghetti
 gtnh.quest2138.name=Making Sense of Spaghetti
-gtnh.quest2138.desc=Nobodly likes an untidy base. You can craft a spray can and fill it with Chemical Dye made from sulfuric acid to color coordinate your carpets, cables, wires, and machines.
+gtnh.quest2138.desc=Nobody likes an untidy base. You can craft a spray can and fill it with Chemical Dye made from sulfuric acid to color coordinate your carpets, cables, wires, and machines.
 
 #Quest_2139.Oink!
 gtnh.quest2139.name=Oink!
@@ -8638,7 +8638,7 @@ gtnh.quest2158.desc=Growing bees are the start of the Fruity specific breeding t
 
 #Quest_2159.Bees Template - change to OR when copying, back to AND to hide
 gtnh.quest2159.name=Bees Template - change to OR when copying, back to AND to hide
-gtnh.quest2159.desc=Get the princess bee and reward bag in NEI first. \nDo Advanced and set the icon to the bee.\nDo Task, and select the stone, and replace it with the princess.\nBefore closing, select the ... next to the bee name and press Raw NBT\nGo into Tag, Genome, Chromosomes. The first one is the name and must stay.\nDelete the rest of the chromosomes.\nRemove the Infinity unlock requirement.
+gtnh.quest2159.desc=Get the princess bee and reward bag in NEI first. \nDo Advanced and set the icon to the bee.\nDo Task, and select the stone, and replace it with the princess.\nBefore closing, select the ... next to the bee name and press Raw NBT\nGo into Tag, Genome, Chromosomes. The first one is the name and must stay. \nGo inside there and delete the first entry, keep both of the species so players\nmust have purebreeds.\nDelete the rest of the chromosomes.\nDelete the rest of the entries for Genome.\nRemove the Infinity unlock requirement.
 
 #Quest_2160.Carpenter's Blocks
 gtnh.quest2160.name=Carpenter's Blocks
@@ -8746,7 +8746,7 @@ gtnh.quest2185.desc=Monastic bees aren't found in hives or bred. Instead you wil
 
 #Quest_2186.Vibrant Alloy
 gtnh.quest2186.name=Vibrant Alloy
-gtnh.quest2186.desc=Finally.  It was a long, hazardous road, but you can now get Vibrant Alloy directly from a bee. Great job.  Breed them from Energetic Alloy and Phantasmal.
+gtnh.quest2186.desc=Finally.  It was a long, hazardous road, but you can now get Vibrant Alloy directly from a bee. Great job.  You'll need a Block of Vibrant Alloy. Breed them from Energetic Alloy and Phantasmal.
 
 #Quest_2187.Energetic Alloy
 gtnh.quest2187.name=Energetic Alloy
@@ -8818,11 +8818,11 @@ gtnh.quest2203.desc=Platinum. Precious metal for the ages. You'll need a block o
 
 #Quest_2204.Uranium
 gtnh.quest2204.name=Uranium
-gtnh.quest2204.desc=All that hatred had a purpose - to create this bee, capable of producing enormous power. This bee will require a block of Uranium. Breed them from Avenging and Platinum.
+gtnh.quest2204.desc=All that hatred had a purpose - to create this bee, capable of producing enormous power. As before, keep away from everything.  This bee will require a block of Uranium. Breed them from Avenging and Platinum.
 
 #Quest_2205.Plutonium
 gtnh.quest2205.name=Plutonium
-gtnh.quest2205.desc=A metal that represents the epitome of technology. Never existing in the universe before man. This bee will require a block of Plutonium. Breed them from Uranium and Emerald.
+gtnh.quest2205.desc=A metal that represents the epitome of technology. Never existing in the universe before man. Destroying everything around it. This bee will require a block of Plutonium. Breed them from Uranium and Emerald.
 
 #Quest_2206.Avenging
 gtnh.quest2206.name=Avenging
@@ -8838,7 +8838,7 @@ gtnh.quest2208.desc=Beware. These bees not only hate everything, they even hate 
 
 #Quest_2209.Moron's Guide to Breeding Better Bees
 gtnh.quest2209.name=Moron's Guide to Breeding Better Bees
-gtnh.quest2209.desc=First off, don't be scared by the massive amounts of bees you see here. There's even more that aren't included and you'll need NEI to find!\n\nHa ha, just kidding - don't panic! Once you unlock the bee breeding lines, look around and pick and choose which bees really interest you. The way the breeding is done is mostly left to right, and top down. Some of the lines at the bottom might look simple, but they will require bees further up to complete first.\n\nBees have two sets of traits, one active that has effects on how the bee lives, and one Inactive but can be used for breeding. When getting newly bred princesses and drones, check both sets in case you got the target bee. You can breed the bees with inactive traits to try and make them active in later crosses. You can't see the passive traits using a Field Kit, you'll need a Beealyzer. For lots of bees, you can scan them first using a GT scanner, but you'll still need a Beealyzer to see passive traits.\n\nWhen breeding bees, a good idea is to settle upon a master template bee.  A bee that has little or no crossbreeding potential, but has all the traits you prefer - short life, nocturnal, cavedwelling, rain tolerant, humidity, temperature, high fertility, etc.  Once you have that bee, breed a bunch of pure princesses with those traits as both active and inactive. These will be your breeding stock.\n\nWhen you are trying for a new bee, what you are wanting is a drone - this way you can use your "breeding stock" princess for easy breeding, but the drone to get the new species without the annoying effects or limitations. Poor crossed princesses can be returned to normal by crossing with breeding stock drones, or just thrown out if they now have annoying restrictions. Make sure you keep the trait and species you want, and slowly merge the good traits from your breeding stock. You don't have to do this part in an Apiary, you can use a Bee House to swap around traits. Ignoble bees are good for this, since they're mostly disposable - they have a chance to die after 100 breeding cycles - frames can let them live longer. Once you solidify your species, create a pool of drones. You can use those to convert pristine princesses to the new species. Pristine princesses will not die. Rocky bees are a great source - all their princesses are always pristine.\n\nOnce you get a new species, it will replace all of one of the two sets of traits of the bee.  For example when you get a Cultivated, either the Active or Inactive column will have all the default Cultivated traits. Mix it a few times and you'll eventually get purebred versions. Just watch out that you don't lose a key trait, like Fast Worker for Cultivated! All the quests will require purebred species. \n\nGenerally all traits can be bred into any bee species, including effects or flower preference. Species generally require their preferred biome to produce their special drops.\n\nAdvanced frames can provide useful boosts to mutation chances, or to lifespan reduction for faster breeding cycles. However excessive multipliers will increase genetic decay, giving a chance for that pristine princess to become ignoble!\n\nIt looks complex, because it is! But it also a lot of dangerous and useful fun!
+gtnh.quest2209.desc=First off, don't be scared by the massive amounts of bees you see here once you unlock the breeding trees. There's even more that aren't included and you'll need NEI to find!\n\nHa ha, just kidding - don't panic! Once you unlock the bee breeding lines, look around and pick and choose which bees really interest you. The way the breeding is done is mostly left to right, and top down. Some of the lines at the bottom might look simple, but they will require bees further up to complete first. Many of the basic bees have multiple breeding options, only one is shown here.\n\nBees have two sets of traits, one active that has effects on how the bee lives, and one Inactive but can be used for breeding. When getting newly bred princesses and drones, check both sets in case you got the target bee. You can breed the bees with inactive traits to try and make them active in later crosses. You can't see the passive traits using a Field Kit, you'll need a Beealyzer. For lots of bees, you can scan them first using a GT scanner, but you'll still need a Beealyzer to see passive traits.\n\nWhen breeding bees, a good idea is to settle upon a master template bee.  A bee that has little or no crossbreeding potential, but has all the traits you prefer - short life, nocturnal, cavedwelling, rain tolerant, humidity, temperature, high fertility, etc.  Once you have that bee, breed a bunch of pure princesses with those traits as both active and inactive. These will be your breeding stock.\n\nWhen you are trying for a new bee, what you are wanting is a drone - this way you can use your "breeding stock" princess for easy breeding, but the drone to get the new species without the annoying effects or limitations. Poor crossed princesses can be returned to normal by crossing with breeding stock drones, or just thrown out if they now have annoying restrictions. Make sure you keep the trait and species you want, and slowly merge the good traits from your breeding stock. You don't have to do this part in an Apiary, you can use a Bee House to swap around traits. Ignoble bees are good for this, since they're mostly disposable - they have a chance to die after 100 breeding cycles - frames can let them live longer. Once you solidify your species, create a pool of drones. You can use those to convert pristine princesses to the new species. Pristine princesses will not die. Rocky bees are a great source - all their princesses are always pristine.\n\nOnce you get a new species, it will replace all of one of the two sets of traits of the bee.  For example when you get a Cultivated, either the Active or Inactive column will have all the default Cultivated traits. Mix it a few times and you'll eventually get purebred versions. Just watch out that you don't lose a key trait, like Fast Worker for Cultivated! All the quests will require purebred species. \n\nGenerally all traits can be bred into any bee species, including effects or flower preference. Species generally require their preferred biome to produce their special drops.\n\nAdvanced frames can provide useful boosts to mutation chances, or to lifespan reduction for faster breeding cycles. However excessive multipliers will increase genetic decay, giving a chance for that pristine princess to become ignoble!\n\nIt looks complex, because it is! But it also a lot of dangerous and useful fun!
 
 #Quest_2210.Dealing with Radiation
 gtnh.quest2210.name=Dealing with Radiation
@@ -9016,9 +9016,9 @@ gtnh.quest2252.desc=\nThis fun bee doesn't have any useful products, but it does
 gtnh.quest2253.name=Too much Mercury?
 gtnh.quest2253.desc=After a couple of hours..days..weeks..of processing redstone for Ruby you'll have a massive stockpile of Mercury and not know what to do with it.  You can store it all in supertanks, but really, how much hypochlorous acid does one need? Instead you can build an Acid Generator and at least get a little power out of it.
 
-#Quest_2254.Bees Template
-gtnh.quest2254.name=Bees Template
-gtnh.quest2254.desc=No Description
+#Quest_2254.Arsenic Princess
+gtnh.quest2254.name=Arsenic Princess
+gtnh.quest2254.desc=This deadly little princess will get you Arsenic, perfect for use in your circuits. Requires a Block of Arsenic. Breed them from Silver and Zinc.
 
 #Quest_2255.Keep calm and bee on
 gtnh.quest2255.name=Keep calm and bee on
@@ -9039,6 +9039,22 @@ gtnh.quest2258.desc=Aromatic Lumps are twice as effective as Royal Jelly in an A
 #Quest_2259.Infinite bats! Wait, what??
 gtnh.quest2259.name=Infinite bats! Wait, what??
 gtnh.quest2259.desc=Tired of the constant chirping from the thousands of bats drawn to your world-bending activities? Use this handy device to attract them to a central location where they can be...disposed. The Corporeal Attractor can be configured to attract or repel mobs, and the redstone strength applied divided by two determines the range.\n\nYou can use Soul Moulds to filter the mobs the Attractor draws in or pushes away. This gives you some idea for automating...
+
+#Quest_2260.Better boots with a little pizzazz
+gtnh.quest2260.name=Better boots with a little pizzazz
+gtnh.quest2260.desc=These Electric Boots of the Traveller will give a 2 percent vis discount along with the benefits of the normal Boots.
+
+#Quest_2261.Walk all over you
+gtnh.quest2261.name=Walk all over you
+gtnh.quest2261.desc=Nanosuit boots will give the nanosuit benefits along with a massive speed boost, higher jump, and better vis discount. Great boots for the master magical engineer.
+
+#Quest_2262.Walking across the stars
+gtnh.quest2262.name=Walking across the stars
+gtnh.quest2262.desc=Quantum boots of the traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still! 
+
+#Quest_2263.Industrial Grafter
+gtnh.quest2263.name=Industrial Grafter
+gtnh.quest2263.desc=If you're tired of constantly replacing branchcutters, this Industrial Grafter is rechargeable.
 
 ##################################Line##################################
 
