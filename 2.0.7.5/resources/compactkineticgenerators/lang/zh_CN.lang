@@ -1,0 +1,28 @@
+# Creative Tab
+itemGroup.compactkineticgenerators=压缩动能发电机
+
+# Block
+tile.ckg:BlockCkg.name=低阶风力动能产生器
+tile.ckg:BlockCkg1.name=中阶风力动能产生器
+tile.ckg:BlockCkg2.name=高阶风力动能产生器
+tile.ckg:BlockCkg3.name=超高阶风力动能产生器
+tile.ckg:BlockCkg4.name=低阶水力动能产生器
+tile.ckg:BlockCkg5.name=中阶水力动能产生器
+tile.ckg:BlockCkg6.name=高阶水力动能产生器
+tile.ckg:BlockCkg7.name=超高阶水力动能产生器
+tile.ckg:BlockCkg8.name=低阶动能发电机
+tile.ckg:BlockCkg9.name=中阶动能发电机
+tile.ckg:BlockCkg10.name=高阶动能发电机
+tile.ckg:BlockCkg11.name=超高阶动能发电机
+
+# Item
+item.compactkineticgenerators:IridiumRotor.name=铱转子
+item.compactkineticgenerators:IridiumBlade.name=铱扇叶
+
+# tooltip
+tooltip.ckg.eu=输出: 0-%s EU/t
+tooltip.ckg.ku=输出: 0-%s倍 KU/t
+tooltip.ckg.capacity0=容量: 1m EU
+tooltip.ckg.capacity1=容量: 4m EU
+tooltip.ckg.capacity2=容量: 10m EU
+tooltip.ckg.capacity3=容量: 40m EU
