@@ -328,7 +328,7 @@ game.setLocalization("tc.research_page.NanosuitWings", "\u5229\u7528\u795e\u79d8
 \u73b0\u5728\u4f60\u53ef\u4ee5\u63a8\u7684\u6bd4\u4e4b\u524d\u8fd8\u8981\u9ad8,\u6309\u4f4f\u7a7a\u683c\u4e0b\u843d\u7684\u4e5f\u6bd4\u4e4b\u524d\u8981\u6162.
 \u6454\u843d\u4f24\u5bb3\u51cf\u514d:75%.");
 mods.thaumcraft.Infusion.addRecipe("NanosuitWings", <EMT:ThaumiumWing>,
-[<IC2:itemArmorNanoChestplate:26>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>], 
+[<IC2:itemArmorNanoChestplate:32767>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>, <IC2:itemPartCarbonPlate>, <gregtech:gt.metaitem.02:19028>], 
 "aer 48, machina 48, potentia 32, volatus 32, praecantatio 16, vitium 8, terra 8", <EMT:NanosuitWing:27>, 5);
 mods.thaumcraft.Research.addInfusionPage("NanosuitWings", <EMT:NanosuitWing:27>);
 mods.thaumcraft.Warp.addToResearch("NanosuitWings", 2);
@@ -348,8 +348,8 @@ game.setLocalization("tc.research_page.QuantumWings", "\u5728\u63a2\u7d22\u5b8c\
 \u7136\u800c,\u91cf\u5b50\u7684\u4e0d\u53ef\u9884\u6d4b\u53c8\u4e00\u6b21\u53d1\u751f\u4e86.\u540c\u65f6\u6309\u4f4f\u6f5c\u884c\u952e\u548c\u7a7a\u683c\u952e\u65f6\u4f60\u7684\u4e0b\u964d\u4f1a\u5b8c\u5168\u505c\u6b62.
 \u4f60\u4e0d\u77e5\u9053\u4e3a\u4f55\u4f1a\u8fd9\u6837,\u4f46\u5b83\u5c31\u662f\u8fd9\u6837.
 \u6454\u843d\u4f24\u5bb3\u51cf\u514d:100%.");
-mods.thaumcraft.Infusion.addRecipe("QuantumWings", <EMT:NanosuitWing:26>,
-[<IC2:itemArmorQuantumChestplate:26>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>], 
+mods.thaumcraft.Infusion.addRecipe("QuantumWings", <EMT:NanosuitWing:32767>,
+[<IC2:itemArmorQuantumChestplate:32767>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19083>], 
 "tutamen 64, aer 64, machina 64, potentia 48, volatus 48, praecantatio 32, vitium 16, terra 16", <EMT:QuantumWing:27>, 10);
 mods.thaumcraft.Research.addInfusionPage("QuantumWings", <EMT:QuantumWing:27>);
 mods.thaumcraft.Warp.addToResearch("QuantumWings", 3);
@@ -368,7 +368,7 @@ game.setLocalization("tc.research_page.InfusedQuantumArmor", "\u4f60\u5df2\u7ecf
 \u4f60\u7684\u8111\u6d77\u4e2d\u6d6e\u73b0\u51fa\u4e00\u4e2a\u60f3\u6cd5,\u5728\u5236\u4f5c\u76d4\u7532\u65f6\u53ef\u4ee5\u628a\u7fbd\u7ffc\u6216\u8005\u80cc\u5305\u4e0e\u5176\u7cfb\u5728\u4e00\u8d77,\u4ee5\u4fdd\u8bc1\u98de\u884c\u7684\u5b89\u5168.
 \u6301\u6709\u7fbd\u7ffc\u6216\u8005\u80cc\u5305\u65f6\u5728\u6f5c\u884c\u72b6\u6001\u4e0b\u53f3\u51fb\u53ef\u4ee5\u5c06\u5b83\u4eec\u7cfb\u5728\u76d4\u7532\u4e0a.
 \u8981\u5c06\u5b83\u4eec\u62ff\u4e0b\u6765\u65f6\u53ea\u9700\u8981\u6309\u4f4fShift+[\u5378\u4e0b\u88c5\u5907]\u952e(\u8be6\u89c1[\u9009\u9879]-[\u63a7\u5236]");
-mods.thaumcraft.Infusion.addRecipe("InfusedQuantumArmor", <IC2:itemArmorQuantumChestplate:26>,
+mods.thaumcraft.Infusion.addRecipe("InfusedQuantumArmor", <IC2:itemArmorQuantumChestplate:32767>,
 [<EMT:ShieldBlock>, <gregtech:gt.metaitem.02:19324>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19324>, <EMT:ShieldBlock>, <gregtech:gt.metaitem.02:19324>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:19324>], 
 "tutamen 72, aer 64, machina 64, potentia 48, volatus 48, praecantatio 32, vitium 16, terra 16, lucrum 8", <EMT:itemArmorQuantumChestplate:27>, 15);
 mods.thaumcraft.Research.addInfusionPage("InfusedQuantumArmor", <EMT:itemArmorQuantumChestplate:27>);
@@ -406,7 +406,7 @@ mods.thaumcraft.Research.addPage("DiamondOmnitool", "tc.research_page.DiamondOmn
 game.setLocalization("tc.research_page.DiamondOmnitool", "\u94c1\u5236\u94bb\u952f\u7684\u53d1\u73b0\u8ba9\u4f60\u8bd5\u7740\u5c06\u540c\u6837\u7684\u7ed3\u5408\u7528\u5728\u4e00\u4e9b\u66f4\u5f3a\u529b\u7684\u8bbe\u5907\u4e0a.
 \u4f60\u5df2\u53d1\u73b0\u4e86\u4e00\u79cd\u7ed3\u5408\u94bb\u77f3\u7535\u952f\u548c\u7535\u94bb\u7684\u65b9\u6cd5,\u7ed3\u679c\u5f97\u5230\u4e86\u4e00\u4e2a\u62e5\u6709\u780d\u6811\u548c\u6316\u77ff\u5e76\u5fa1\u654c\u7684\u5de5\u5177,\u540c\u65f6\u4fdd\u6301\u7740\u94bb\u77f3\u5de5\u5177\u7684\u7279\u6027.
 \u7531\u4e8e\u94bb\u77f3\u5728\u88ab\u5236\u6210\u7535\u94bb\u7535\u952f\u8fd9\u6837\u7684\u5de5\u5177\u540e\u5f88\u96be\u88ab\u91cd\u5851,\u6240\u4ee5\u4f60\u5c06\u9700\u8981\u4e00\u70b9\u9b54\u6cd5\u7684\u529b\u91cf\u6765\u878d\u5408\u5b83\u4eec.");
-mods.thaumcraft.Infusion.addRecipe("DiamondOmnitool", <EMT:DiamondChainsaw:26>,
+mods.thaumcraft.Infusion.addRecipe("DiamondOmnitool", <EMT:DiamondChainsaw:32767>,
 [<gregtech:gt.metatool.01:102>.withTag({ench: [{lvl: 2 as short, id: 35 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 51200 as long, Tier: 2 as long, MaxCharge: 400000 as long, Voltage: 128 as long, Electric: 1 as byte, SecondaryMaterial: "Titanium"}, "GT.CraftingComponents": {"Ingredient.5": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.6": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.7": {id: 7041 as short, Count: 1 as byte, Damage: 32528 as short}, "Ingredient.8": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.0": {id: 7041 as short, Count: 1 as byte, Damage: 27028 as short}, "Ingredient.1": {id: 7042 as short, Count: 1 as byte, Damage: 8330 as short}, "Ingredient.3": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.4": {id: 7041 as short, Count: 1 as byte, Damage: 32601 as short}}, "GT.ItemCharge": 400000 as long}), <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>],
 "instrumentum 32, perfodio 24, potentia 24, metallum 16, telum 16, terra 8", <EMT:Diamond Omnitool:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("DiamondOmnitool", <EMT:Diamond Omnitool:27>);
@@ -427,8 +427,8 @@ game.setLocalization("tc.research_page.ThaumiumOmnitool", "\u5728\u521b\u9020\u4
 \u4e0d\u5e78\u7684\u662f,\u8fd9\u4e0d\u662f\u4e00\u4ef6\u5bb9\u6613\u4e8b.
 \u4e0d\u8fc7\u4f60\u6700\u7ec8\u53d1\u73b0\u4e86\u4e00\u79cd\u7ed3\u5408\u795e\u79d8\u7535\u94bb\u548c\u795e\u79d8\u7535\u952f\u7684\u65b9\u6cd5,\u800c\u5f97\u5230\u4e86\u4e00\u4e2a\u80fd\u4ee5\u6781\u5feb\u901f\u5ea6\u6316\u77ff\u548c\u780d\u6811\u7684\u5de5\u5177.
 \u8fd9\u4e9b\u5de5\u5177\u5df2\u88ab\u6ce8\u5165\u9b54\u529b.\u4f60\u4e0d\u786e\u5b9a\u4e0b\u6b21\u6ce8\u5165\u65f6\u5c06\u4f1a\u53d1\u751f\u4ec0\u4e48.");
-mods.thaumcraft.Infusion.addRecipe("ThaumiumOmnitool", <EMT:ThaumiumChainsaw:26>,
-[<EMT:ThaumiumDrill:26>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>], 
+mods.thaumcraft.Infusion.addRecipe("ThaumiumOmnitool", <EMT:ThaumiumChainsaw:32767>,
+[<EMT:ThaumiumDrill:32767>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>], 
 "instrumentum 48, perfodio 24, potentia 32, metallum 24, telum 16, terra 8, praecantatio 16", <EMT:ThaumiumOmnitool:27>, 8);
 mods.thaumcraft.Research.addInfusionPage("ThaumiumOmnitool", <EMT:ThaumiumOmnitool:27>);
 mods.thaumcraft.Warp.addToResearch("ThaumiumOmnitool", 1);
@@ -448,7 +448,7 @@ game.setLocalization("tc.research_page.ElectricBootsoftheTraveller", "\u901a\u8f
 \u8fd9\u4e9b\u9774\u5b50,\u4e0d\u50cf\u521d\u59cb\u7684,\u4e0d\u4f1a\u56e0\u957f\u65f6\u95f4\u7a7f\u7740\u800c\u635f\u574f,\u56e0\u4e3a\u5b83\u4eec\u7528\u7535\u529b\u4ee3\u66ff\u8010\u4e45.
 \u8fd9\u4e9b\u9774\u5b50\u514d\u75ab\u4e00\u5207\u6389\u843d\u4f24\u5bb3(\u4e0d\u6d88\u8017\u7535\u529b),\u5e76\u4fdd\u6709\u65c5\u884c\u8005\u4e4b\u9774\u7684\u6240\u6709\u7279\u6027.");
 mods.thaumcraft.Infusion.addRecipe("ElectricBootsoftheTraveller", <Thaumcraft:BootsTraveller>,
-[<IC2:itemStaticBoots>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.blockmachines:1361>, <IC2:itemAdvBat:26>, <gregtech:gt.blockmachines:1361>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.metaitem.01:17500>], 
+[<IC2:itemStaticBoots>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.blockmachines:1361>, <IC2:itemAdvBat:32767>, <gregtech:gt.blockmachines:1361>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.metaitem.01:17500>], 
 "motus 32, potentia 16, tutamen 32, praecantatio 8, volatus 8, iter 8", <EMT:ElectricBootsTraveller:27>, 3);
 mods.thaumcraft.Research.addInfusionPage("ElectricBootsoftheTraveller", <EMT:ElectricBootsTraveller:27>);
 
@@ -466,7 +466,7 @@ game.setLocalization("tc.research_page.NanoBootsoftheTraveller", "\u4f60\u7684\u
 \u4f60\u5df2\u53d1\u73b0\u4e86\u4e00\u79cd\u5c06\u8fd9\u4e9b\u9774\u5b50\u5347\u7ea7\u5230\u7eb3\u7c73\u7b49\u7ea7\u7684\u65b9\u6cd5:\u6539\u826f\u673a\u68b0\u96f6\u4ef6\u548c\u9774\u5b50\u7684\u7b26\u6587.
 \u8fd9\u53cc\u9774\u5b50\u63d0\u4f9b\u4e86\u6bd4\u4ee5\u5f80\u66f4\u9ad8\u7684\u8df3\u8dc3\u9ad8\u5ea6\u548c\u66f4\u5feb\u7684\u5954\u8dd1\u901f\u5ea6.");
 mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller:*>,
-[<IC2:itemArmorNanoBoots:26>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockmachines:1442>, <IC2:itemBatCrystal:26>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.metaitem.01:17330>], 
+[<IC2:itemArmorNanoBoots:32767>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockmachines:1442>, <IC2:itemBatCrystal:32767>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.metaitem.01:17330>], 
 "motus 48, potentia 24, tutamen 32, praecantatio 16, volatus 8, iter 16", <EMT:NanoBootsTraveller:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("NanoBootsoftheTraveller", <EMT:NanoBootsTraveller:27>);
 mods.thaumcraft.Warp.addToResearch("NanoBootsoftheTraveller", 1);
@@ -484,7 +484,7 @@ mods.thaumcraft.Research.addPage("QuantumBootsoftheTraveller", "tc.research_page
 game.setLocalization("tc.research_page.QuantumBootsoftheTraveller", "\u4f60\u5229\u7528\u91cf\u5b50\u7269\u7406\u5b66\u6765\u6539\u826f\u4f60\u7684\u9774\u5b50,\u4f7f\u5f97\u5b83\u5982\u6b64\u4e4b\u5feb,\u8ba9\u4f60\u603b\u80fd\u5728\u7b2c\u4e00\u65f6\u95f4\u5230\u8fbe\u5404\u4e2a\u5730\u70b9.
 \u4f46\u662f\u522b\u5fd8\u4e86\u859b\u5b9a\u8c14\u7684\u732b\u53d1\u751f\u4e86\u4ec0\u4e48...");
 mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsTraveller>,
-[<IC2:itemArmorQuantumBoots:26>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.blockmachines:1563>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:26>, <IC2:itemPartIridium>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.metaitem.01:17970>], 
+[<IC2:itemArmorQuantumBoots:32767>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.blockmachines:1563>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:32767>, <IC2:itemPartIridium>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.metaitem.01:17970>], 
 "motus 64, potentia 32, tutamen 48, praecantatio 24, volatus 16, iter 24, aer 8", <EMT:QuantumBootsTraveller:27>, 9);
 mods.thaumcraft.Research.addInfusionPage("QuantumBootsoftheTraveller", <EMT:QuantumBootsTraveller:27>);
 mods.thaumcraft.Warp.addToResearch("QuantumBootsoftheTraveller", 2);
@@ -519,7 +519,7 @@ game.setLocalization("tc.research_text.DrilloftheRockbreaker", "\u75af\u72c2\u63
 mods.thaumcraft.Research.addPage("DrilloftheRockbreaker", "tc.research_page.DrilloftheRockbreaker");
 game.setLocalization("tc.research_page.DrilloftheRockbreaker", "\u5728\u7814\u7a76\u4e86\u70bd\u5fc3\u9550\u3001\u540e\u571f\u94f2\u548c\u795e\u79d8\u7535\u94bb\u540e,\u4f60\u8bd5\u7740\u5c06\u4ed6\u4eec\u7684\u80fd\u529b\u7ed3\u5408\u8d77\u6765.
 \u4f60\u6210\u529f\u8fc7\u5f97\u5230\u4e86\u4e00\u4e2a\u80fd\u5f00\u91c73X3X1\u533a\u57df\u6750\u6599\u7684\u7535\u5b50\u5de5\u5177,\u5f00\u91c7\u5341\u5206\u8fc5\u901f.<BR><BR>\u8fd9\u79cd\u975e\u51e1\u7684\u8bbe\u5907\u80fd\u901a\u8fc7\u53f3\u51fb\u627e\u51fa\u6700\u8fd1\u7684\u77ff\u7269,\u5f53\u7136\u90a3\u4f1a\u6d88\u8017\u4e00\u4e9b\u7535\u529b.");
-mods.thaumcraft.Infusion.addRecipe("DrilloftheRockbreaker", <EMT:ThaumiumDrill:26>,
+mods.thaumcraft.Infusion.addRecipe("DrilloftheRockbreaker", <EMT:ThaumiumDrill:32767>,
 [<Thaumcraft:ItemShovelElemental>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32706>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemPickaxeElemental>, <gregtech:gt.metaitem.01:17970>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:32706>, <IC2:itemPartIridium>], 
 "instrumentum 48, perfodio 24, potentia 48, lucrum 32, praecantatio 16, ignis 8", <EMT:DrillRockbreaker:27>, 10);
 mods.thaumcraft.Research.addInfusionPage("DrilloftheRockbreaker", <EMT:DrillRockbreaker:27>);
@@ -537,7 +537,7 @@ game.setLocalization("tc.research_text.ThaumiumChainsaw", "\u4ee5\u9b54\u6cd5\u4
 mods.thaumcraft.Research.addPage("ThaumiumChainsaw", "tc.research_page.ThaumiumChainsaw");
 game.setLocalization("tc.research_page.ThaumiumChainsaw", "\u4f60\u53d1\u73b0\u4e86\u4e00\u4e2a\u5c06\u795e\u79d8\u529b\u91cf\u878d\u5165\u94bb\u77f3\u7535\u952f\u7684\u65b9\u6cd5,\u4f7f\u5f97\u5b83\u80fd\u66f4\u5feb\u7684\u780d\u4f10\u6811\u6728\u5e76\u50a8\u5b58\u66f4\u591a\u7535\u529b.
 \u7136\u800c\u8fd9\u79cd\u6539\u826f\u5e76\u4e0d\u662f\u6ca1\u6709\u7f3a\u9677\u7684:\u5728\u52a0\u5165\u8fd9\u4e9b\u6750\u6599\u7684\u8fc7\u7a0b\u4e2d,\u7535\u952f\u5931\u53bb\u4e86\u5904\u7406\u6811\u53f6\u3001\u8349\u5806\u7684\u80fd\u529b,\u4e5f\u5931\u53bb\u4e86\u4f24\u5bb3\u52a8\u7269\u7684\u80fd\u529b.<BR><BR>\u4f60\u89c9\u5f97\u4e0d\u8fdc\u7684\u672a\u6765\u4f60\u8fd8\u80fd\u5347\u7ea7\u8fd9\u4e2a\u5de5\u5177.");
-mods.thaumcraft.Infusion.addRecipe("ThaumiumChainsaw", <EMT:DiamondChainsaw:26>,
+mods.thaumcraft.Infusion.addRecipe("ThaumiumChainsaw", <EMT:DiamondChainsaw:32767>,
 [<gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>], 
 "instrumentum 32, telum 24, potentia 24, lucrum 16, praecantatio 8", <EMT:ThaumiumChainsaw:27>, 7);
 mods.thaumcraft.Research.addInfusionPage("ThaumiumChainsaw", <EMT:ThaumiumChainsaw:27>);
@@ -554,7 +554,7 @@ game.setLocalization("tc.research_name.ChainsawoftheStream", "\u5954\u96f7\u7535
 game.setLocalization("tc.research_text.ChainsawoftheStream", "\u4f60\u53ea\u9700\u8981\u4e00\u4e2a\u52b2\u5730\u780d\u6811");
 mods.thaumcraft.Research.addPage("ChainsawoftheStream", "tc.research_page.ChainsawoftheStream");
 game.setLocalization("tc.research_page.ChainsawoftheStream", "\u5728\u7814\u7a76\u4e86\u5954\u96f7\u65a7\u548c\u795e\u79d8\u7535\u952f\u540e,\u4f60\u8bd5\u7740\u5c06\u5b83\u4eec\u4e24\u8005\u7684\u80fd\u529b\u7ed3\u5408,\u5f97\u5230\u4e86\u4e00\u4e2a\u80fd\u8f7b\u677e\u780d\u5b8c\u4e00\u6574\u68f5\u6811\u7684\u7535\u5b50\u5de5\u5177.");
-mods.thaumcraft.Infusion.addRecipe("ChainsawoftheStream", <EMT:ThaumiumChainsaw:26>,
+mods.thaumcraft.Infusion.addRecipe("ChainsawoftheStream", <EMT:ThaumiumChainsaw:32767>,
 [<Thaumcraft:ItemAxeElemental>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32706>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:17970>, <Railcraft:tool.steel.shears>, <gregtech:gt.metaitem.01:17970>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:32706>, <IC2:itemPartIridium>], 
 "instrumentum 48, telum 32, potentia 32, lucrum 24, praecantatio 16, aer 8", <EMT:ChainsawStream:27>, 10);
 mods.thaumcraft.Research.addInfusionPage("ChainsawoftheStream", <EMT:ChainsawStream:27>);
@@ -574,7 +574,7 @@ game.setLocalization("tc.research_page.InventoryChargingRing", "\u5c3d\u7ba1\u51
 \u901a\u8fc7\u7ed9\u51e1\u4eba\u6307\u73af\u6ce8\u5165\u80fd\u91cf\u6e90,\u4f60\u5c31\u80fd\u4f7f\u7528\u5b83\u5bf9\u7269\u54c1\u680f\u91cc\u7684\u8017\u7535\u7269\u54c1\u8fdb\u884c\u5145\u7535.
 \u5b83\u7684\u53d1\u7535\u6548\u7387\u4ec5\u670932EU/t,\u4f46\u8fd9\u4e0d\u6b63\u8bf4\u660e\u5b83\u8fd8\u6709\u63d0\u5347\u7684\u7a7a\u95f4\u4e48.");
 mods.thaumcraft.Infusion.addRecipe("InventoryChargingRing", <Thaumcraft:ItemBaubleBlanks:1>,
-[<IC2:itemBatLamaCrystal:26>, <IC2:blockGenerator:5>, <gregtech:gt.blockmachines:1462>, <gregtech:gt.blockmachines:1120>, <IC2:blockKineticGenerator:4>, <IC2:itemStaticBoots>, <IC2:blockKineticGenerator>, <IC2:blockHeatGenerator>, <gregtech:gt.blockmachines:1462>, <gregtech:gt.metaitem.01:32751>], 
+[<IC2:itemBatLamaCrystal:32767>, <IC2:blockGenerator:5>, <gregtech:gt.blockmachines:1462>, <gregtech:gt.blockmachines:1120>, <IC2:blockKineticGenerator:4>, <IC2:itemStaticBoots>, <IC2:blockKineticGenerator>, <IC2:blockHeatGenerator>, <gregtech:gt.blockmachines:1462>, <gregtech:gt.metaitem.01:32751>], 
 "potentia 64, vitreus 32, praecantatio 48, electrum 16, auram 8", <EMT:EMTBaubles:1>, 7);
 mods.thaumcraft.Research.addInfusionPage("InventoryChargingRing", <EMT:EMTBaubles:1>);
 mods.thaumcraft.Warp.addToResearch("InventoryChargingRing", 2);
@@ -593,7 +593,7 @@ game.setLocalization("tc.research_page.ArmorChargingRing", "\u65b0\u6307\u73af\u
 \u901a\u8fc7\u6ce8\u5165\u66f4\u591a\u7684\u80fd\u91cf\u6e90\u548c\u4e00\u70b9\u62a4\u7532\u4f60\u6210\u529f\u4e86.
 \u53ef\u60dc\u7684\u662f,\u8fd9\u4e2a\u65b0\u7684\u80fd\u91cf\u6e90\u6ca1\u6709\u589e\u52a0\u5145\u7535\u6548\u7387,\u4f46\u4e0d\u90fd\u662f\u6162\u6162\u6765\u7684\u4e48.");
 mods.thaumcraft.Infusion.addRecipe("ArmorChargingRing", <Thaumcraft:ItemBaubleBlanks:1>,
-[<IC2:itemBatLamaCrystal:26>, <IC2:blockGenerator:5>, <gregtech:gt.blockmachines:1482>, <gregtech:gt.blockmachines:1120>, <IC2:blockKineticGenerator:4>, <IC2:itemStaticBoots>, <IC2:blockKineticGenerator>, <IC2:blockHeatGenerator>, <gregtech:gt.blockmachines:1482>, <gregtech:gt.metaitem.01:32751>],
+[<IC2:itemBatLamaCrystal:32767>, <IC2:blockGenerator:5>, <gregtech:gt.blockmachines:1482>, <gregtech:gt.blockmachines:1120>, <IC2:blockKineticGenerator:4>, <IC2:itemStaticBoots>, <IC2:blockKineticGenerator>, <IC2:blockHeatGenerator>, <gregtech:gt.blockmachines:1482>, <gregtech:gt.metaitem.01:32751>],
 "potentia 64, tutamen 32, praecantatio 48, electrum 16, auram 8", <EMT:EMTBaubles>, 8);
 mods.thaumcraft.Research.addInfusionPage("ArmorChargingRing", <EMT:EMTBaubles>);
 mods.thaumcraft.Warp.addToResearch("ArmorChargingRing", 2);
@@ -619,7 +619,7 @@ game.setLocalization("tc.research_page.ElectricGogglesofRevealing", "\u4f60\u5df
 mods.thaumcraft.Arcane.addShaped("ElectricGogglesofRevealing", <EMT:ElectricGogglesRevealing:165>, "aer 45, ignis 45, terra 45, aqua 45, ordo 45, perditio 45", [
 [<ore:wireGt02AnyCopper>, <minecraft:diamond_helmet>, <ore:wireGt02AnyCopper>],
 [<ore:circuitBasic>, <Thaumcraft:ItemGoggles>, <ore:circuitBasic>],
-[<ProjRed|Integration:projectred.integration.gate:10>, <IC2:itemAdvBat:26>, <ProjRed|Integration:projectred.integration.gate:10>]]);
+[<ProjRed|Integration:projectred.integration.gate:10>, <IC2:itemAdvBat:32767>, <ProjRed|Integration:projectred.integration.gate:10>]]);
 mods.thaumcraft.Research.addArcanePage("ElectricGogglesofRevealing", <EMT:ElectricGogglesRevealing:165>);
 
 // --- Nanosuit Goggle of Revealing
@@ -634,7 +634,7 @@ game.setLocalization("tc.research_page.NanosuitGogglesofRevealing", "\u4f60\u5df
 \u901a\u8fc7\u7ed9\u7eb3\u7c73\u5934\u76d4\u6ce8\u9b54,\u4f60\u5c06\u80fd\u7528\u5b83\u770b\u89c1\u7075\u6c14\u8282\u70b9.
 \u5728\u8fd9\u4e2a\u9b54\u6cd5\u8fc7\u7a0b\u4e2d,\u591c\u89c6\u7528\u7684\u63a7\u5236\u82af\u7247\u88ab\u7528\u4e8e\u5438\u6536\u591a\u4f59\u9b54\u6cd5\u80fd\u91cf\u7684\u7535\u5bb9\u548c\u9b54\u529b\u611f\u5e94\u5fae\u82af\u7247\u4ee3\u66ff\u4e86,\u4ee5\u9632\u4f60\u4e0d\u5c0f\u5fc3\u5173\u95ed\u4e86\u591c\u89c6.(\u5176\u5b9e\u8c8c\u4f3c\u6ca1\u7535\u65f6\u4e5f\u53ef\u4ee5\u6301\u7eed\u63d0\u4f9b\u591c\u89c6\u6548\u679c)");
 mods.thaumcraft.Infusion.addRecipe("NanosuitGogglesofRevealing", <EMT:ElectricGogglesRevealing:*>,
-[<IC2:itemArmorNanoHelmet:26>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:17330>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:32692>, <IC2:itemBatCrystal:26>, <gregtech:gt.metaitem.01:32692>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.blockmachines:1442>], 
+[<IC2:itemArmorNanoHelmet:32767>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:17330>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:32692>, <IC2:itemBatCrystal:32767>, <gregtech:gt.metaitem.01:32692>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.blockmachines:1442>], 
 "tutamen 32, potentia 32, sensus 24, praecantatio 16, auram 8, electrum 8", <EMT:NanosuitGogglesRevealing:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("NanosuitGogglesofRevealing", <EMT:NanosuitGogglesRevealing:27>);
 mods.thaumcraft.Warp.addToResearch("NanosuitGogglesofRevealing", 1);
@@ -651,8 +651,8 @@ game.setLocalization("tc.research_page.QuantumGogglesofRevealing", "\u8fd9\u671f
 \u901a\u8fc7\u7ed9\u91cf\u5b50\u5934\u76d4\u6ce8\u9b54,\u4f60\u5c06\u80fd\u7528\u5b83\u770b\u89c1\u7075\u6c14\u8282\u70b9.
 \u5728\u8bbe\u8ba1\u7684\u8fc7\u7a0b\u4e2d,\u4f60\u52a0\u5165\u4e86\u51e0\u4e2a\u5305\u542b\u591c\u89c6\u548c\u81ea\u52a8\u8865\u5145\u9971\u98df\u5ea6\u7684\u63a7\u5236\u82af\u7247\u548c\u611f\u5e94\u5668. \u4f60\u8fd8\u53d1\u73b0\u4f7f\u7528\u6fc0\u5149\u91c7\u77ff\u67aa\u65f6\u5b83\u80fd\u5b89\u5168\u5730\u786e\u8ba4\u51c6\u661f\u5e76\u63a7\u5236\u7206\u70b8\u7684\u51b2\u51fb.
 \u73a9\u5f97\u6109\u5feb,\u6709\u4e86\u5b83\u4f60\u518d\u4e5f\u4e0d\u7528\u591c\u89c6\u836f\u6c34\u548c\u8865\u5145\u98df\u7269\u4e86.");
-mods.thaumcraft.Infusion.addRecipe("QuantumGogglesofRevealing", <EMT:NanosuitGogglesRevealing:26>,
-[<IC2:itemArmorQuantumHelmet:26>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32693>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:26>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32693>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.blockmachines:1563>], 
+mods.thaumcraft.Infusion.addRecipe("QuantumGogglesofRevealing", <EMT:NanosuitGogglesRevealing:32767>,
+[<IC2:itemArmorQuantumHelmet:32767>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:32693>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:32767>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32693>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.blockmachines:1563>], 
 "tutamen 64, potentia 48, sensus 32, praecantatio 24, auram 16, electrum 16, lucrum 8", <EMT:QuantumGogglesRevealing:27>, 9);
 mods.thaumcraft.Research.addInfusionPage("QuantumGogglesofRevealing", <EMT:QuantumGogglesRevealing:27>);
 mods.thaumcraft.Warp.addToResearch("QuantumGogglesofRevealing", 2);
@@ -670,8 +670,8 @@ game.setLocalization("tc.research_text.SolarHelmetofRevealing", "\u9633\u5149\u5
 mods.thaumcraft.Research.addPage("SolarHelmetofRevealing", "tc.research_page.SolarHelmetofRevealing");
 game.setLocalization("tc.research_page.SolarHelmetofRevealing", "\u4f60\u73b0\u5728\u6709\u4e86\u4e00\u9876\u50cf\u4f60\u7684\u91cf\u5b50\u63ed\u793a\u62a4\u76ee\u955c\u4e00\u6837\u5de5\u4f5c\u7684\u5934\u76d4,\u4e5f\u80fd\u7ed9\u4f60\u80cc\u5305\u9ed1\u7a7f\u7740\u7684\u88c5\u5907\u5145\u7535!
 \u5728\u767d\u5929\u4ee5128EU/t\u529f\u7387\u53d1\u7535,\u591c\u665a\u4e0d\u53d1\u7535.");
-mods.thaumcraft.Infusion.addRecipe("SolarHelmetofRevealing", <EMT:QuantumGogglesRevealing:26>,
-[<EMT:EMTSolars:1>, <gregtech:gt.blockmachines:1624>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.metaitem.01:32694>, <dreamcraft:item.MysteriousCrystal>, <IC2:itemBatLamaCrystal:26>, <dreamcraft:item.MysteriousCrystal>, <gregtech:gt.metaitem.01:32694>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.blockmachines:1624>], 
+mods.thaumcraft.Infusion.addRecipe("SolarHelmetofRevealing", <EMT:QuantumGogglesRevealing:32767>,
+[<EMT:EMTSolars:1>, <gregtech:gt.blockmachines:1624>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.metaitem.01:32694>, <dreamcraft:item.MysteriousCrystal>, <IC2:itemBatLamaCrystal:32767>, <dreamcraft:item.MysteriousCrystal>, <gregtech:gt.metaitem.01:32694>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.blockmachines:1624>], 
 "tutamen 64, potentia 48, sensus 32, praecantatio 24, auram 16, electrum 16, lucrum 8, aer 16, lux 32", <EMT:SolarHelmetRevealing:27>, 12);
 mods.thaumcraft.Research.addInfusionPage("SolarHelmetofRevealing", <EMT:SolarHelmetRevealing:27>);
 mods.thaumcraft.Warp.addToResearch("SolarHelmetofRevealing", 3);
@@ -697,10 +697,48 @@ mods.thaumcraft.Arcane.addShaped("CompressedSolars", <EMT:EMTSolars:1>, "aer 100
 [<EMT:EMTSolars>, <dreamcraft:item.IrradiantReinforcedTitaniumPlate>, <EMT:EMTSolars>],
 [<EMT:EMTSolars>, <EMT:EMTSolars>, <EMT:EMTSolars>]]);
 mods.thaumcraft.Research.addArcanePage("CompressedSolars", <EMT:EMTSolars:1>);
-mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <EMT:EMTSolars:1>,
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>,
 [<dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <dreamcraft:item.IrradiantReinforcedTungstenSteelPlate>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>, <EMT:EMTSolars:1>], 
 "aer 150, aqua 150, terra 150, ignis 150, ordo 150, perditio 150", <EMT:EMTSolars:2>, 15);
 mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars:2>);
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <dreamcraft:item.IrradiantReinforcedChromePlate>,
+[
+<dreamcraft:item.IrradiantReinforcedChromePlate>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>,
+<dreamcraft:item.IrradiantReinforcedChromePlate>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>, <EMT:EMTSolars:2>
+], 
+"aer 300, aqua 300, terra 300, ignis 300, ordo 300, perditio 300", <EMT:EMTSolars3>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars3>);
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <AdvancedSolarPanel:asp_crafting_items:8>,
+[
+<AdvancedSolarPanel:asp_crafting_items:8>, <EMT:EMTSolars3>, <EMT:EMTSolars3>, <EMT:EMTSolars3>, <EMT:EMTSolars3>,
+<AdvancedSolarPanel:asp_crafting_items:8>, <EMT:EMTSolars3>, <EMT:EMTSolars3>, <EMT:EMTSolars3>, <EMT:EMTSolars3>
+], 
+"aer 600, aqua 600, terra 600, ignis 600, ordo 600, perditio 600", <EMT:EMTSolars3:7>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars3:7>);
+
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <dreamcraft:item.IrradiantReinforcedNaquadriaPlate>,
+[
+<dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>,
+<dreamcraft:item.IrradiantReinforcedNaquadriaPlate>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>, <EMT:EMTSolars3:7>
+], 
+"aer 1200, aqua 1200, terra 1200, ignis 1200, ordo 1200, perditio 1200", <EMT:EMTSolars3:14>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars3:14>);
+
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <dreamcraft:item.IrradiantReinforcedNeutroniumPlate>,
+[
+<dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>,
+<dreamcraft:item.IrradiantReinforcedNeutroniumPlate>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>, <EMT:EMTSolars3:14>
+], 
+"aer 2400, aqua 2400, terra 2400, ignis 2400, ordo 2400, perditio 2400", <EMT:EMTSolars4:5>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars4:5>);
+
+mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <AdvancedSolarPanel:asp_crafting_items:13>,
+[
+<AdvancedSolarPanel:asp_crafting_items:13>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>,
+<AdvancedSolarPanel:asp_crafting_items:13>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>, <EMT:EMTSolars4:5>
+], 
+"aer 4800, aqua 4800, terra 4800, ignis 4800, ordo 4800, perditio 4800", <EMT:EMTSolars4:12>, 20);
+mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars4:12>);
 
 // --- Water Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Water Infused Solar Panels");
@@ -720,6 +758,18 @@ mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars:4>,
 mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars:4>);
 mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars:5>, <EMT:EMTSolars:2>, "aqua 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars:5>);
+//new ones
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars3:5>, <EMT:EMTSolars3>, "aqua 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars3:5>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars3:12>, <EMT:EMTSolars3:7>, "aqua 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars3:12>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars4:3>, <EMT:EMTSolars3:14>, "aqua 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars4:3>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars4:10>, <EMT:EMTSolars4:5>, "aqua 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars4:10>);
+mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars5:1>, <EMT:EMTSolars4:12>, "aqua 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars5:1>);
+
 
 // --- Entropy Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Entropy Infused Solar Panels");
@@ -739,6 +789,18 @@ mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSo
 mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars:8>, <EMT:EMTSolars:2>, "perditio 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars:8>);
 
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars3:2>, <EMT:EMTSolars3>, "perditio 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars3:2>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars3:9>, <EMT:EMTSolars3:7>, "perditio 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars3:9>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars4>, <EMT:EMTSolars3:14>, "perditio 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars4>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars4:7>, <EMT:EMTSolars4:5>, "perditio 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars4:7>);
+mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars4:14>, <EMT:EMTSolars4:12>, "perditio 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars4:14>);
+
+
 // --- Order Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Order Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Order Infused Solar Panels");
@@ -755,6 +817,18 @@ mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars:10>
 mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars:10>);
 mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars:11>, <EMT:EMTSolars:2>, "ordo 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars:11>);
+
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars3:1>, <EMT:EMTSolars3>, "ordo 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars3:1>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars3:8>, <EMT:EMTSolars3:7>, "ordo 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars3:8>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars3:15>, <EMT:EMTSolars3:14>, "ordo 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars3:15>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars4:6>, <EMT:EMTSolars4:5>, "ordo 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars4:6>);
+mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars4:13>, <EMT:EMTSolars4:12>, "ordo 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars4:13>);
+
 
 // --- Fire Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Fire Infused Solar Panels");
@@ -774,6 +848,17 @@ mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolar
 mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars:14>, <EMT:EMTSolars:2>, "ignis 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars:14>);
 
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars3:6>, <EMT:EMTSolars3>, "ignis 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars3:6>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars3:13>, <EMT:EMTSolars3:7>, "ignis 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars3:13>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars4:4>, <EMT:EMTSolars3:14>, "ignis 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars4:4>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars4:11>, <EMT:EMTSolars4:5>, "ignis 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars4:11>);
+mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars5:2>, <EMT:EMTSolars4:12>, "ignis 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars5:2>);
+
 // --- Air Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Air Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Air Infused Solar Panels");
@@ -790,6 +875,17 @@ mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars2>, <E
 mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars2>);
 mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars2:1>, <EMT:EMTSolars:2>, "aer 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars2:1>);
+
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars3:3>, <EMT:EMTSolars3>, "aer 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars3:3>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars3:10>, <EMT:EMTSolars3:7>, "aer 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars3:10>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars4:1>, <EMT:EMTSolars3:14>, "aer 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars4:1>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars4:8>, <EMT:EMTSolars4:5>, "aer 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars4:8>);
+mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars4:15>, <EMT:EMTSolars4:12>, "aer 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars4:15>);
 
 // --- Earth Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Earth Infused Solar Panels");
@@ -809,6 +905,16 @@ mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSola
 mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars2:4>, <EMT:EMTSolars:2>, "terra 128, permutatio 128, praecantatio 128, lux 64");
 mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars2:4>);
 
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars3:4>, <EMT:EMTSolars3>, "terra 256, permutatio 256, praecantatio 256, lux 128");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars3:4>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars3:11>, <EMT:EMTSolars3:7>, "terra 512, permutatio 512, praecantatio 512, lux 256");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars3:11>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars4:2>, <EMT:EMTSolars3:14>, "terra 1024, permutatio 1024, praecantatio 1024, lux 512");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars4:2>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars4:9>, <EMT:EMTSolars4:5>, "terra 2048, permutatio 2048, praecantatio 2048, lux 1024");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars4:9>);
+mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars5>, <EMT:EMTSolars4:12>, "terra 4096, permutatio 4096, praecantatio 4096, lux 2048");
+mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars5>);
 // --- Electric Hoe of Growth
 mods.thaumcraft.Research.orphanResearch("Electric Hoe of Growth");
 mods.thaumcraft.Research.removeResearch("Electric Hoe of Growth");
@@ -823,7 +929,7 @@ mods.thaumcraft.Research.addPage("ElectricHoeofGrowth", "tc.research_page.Electr
 game.setLocalization("tc.research_page.ElectricHoeofGrowth", "\u4f60\u8bd5\u7740\u5347\u7ea7\u4f60\u7684\u53e5\u8292\u9504.
 \u73b0\u5728\u8fd9\u79cd\u7535\u5b50\u5de5\u5177\u5bf9\u571f\u5730\u548c\u690d\u7269\u7684\u6548\u679c\u5c31\u50cf\u4e4b\u524d\u7684\u53e5\u8292\u9504\u4e00\u6837. <BR><BR>\u7136\u800c,\u5bf9\u4f60\u6765\u8bf4\u8fd9\u4e2a\u5de5\u5177\u91cc\u7684\u9b54\u529b\u8fc7\u4e8e\u5f3a\u529b\u96be\u4ee5\u5168\u90e8\u8f6c\u4e3a\u4f7f\u7528\u4e00\u822c\u7535\u529b\u7684\u6027\u80fd,\u5728\u5b83\u7528\u574f\u524d\u4f60\u8fd8\u4f1a\u6709\u51e0\u6b21\u4f7f\u7528\u7684\u6b21\u6570,\u4f46\u5b83\u662f\u53ef\u5145\u7535\u7684.");
 mods.thaumcraft.Infusion.addRecipe("ElectricHoeofGrowth", <Thaumcraft:ItemHoeElemental>,
-[<IC2:itemToolHoe:26>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32706>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:17970>, <IC2:itemBatLamaCrystal:26>, <gregtech:gt.metaitem.01:17970>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:32706>, <IC2:itemPartIridium>], 
+[<IC2:itemToolHoe:32767>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.01:32706>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:17970>, <IC2:itemBatLamaCrystal:32767>, <gregtech:gt.metaitem.01:17970>, <IC2:upgradeModule>, <gregtech:gt.metaitem.01:32706>, <IC2:itemPartIridium>], 
 "potentia 32, messis 32, praecantatio 48, herba 16, electrum 8", <EMT:ElectricHoeGrowth:1561>, 8);
 mods.thaumcraft.Research.addInfusionPage("ElectricHoeofGrowth", <EMT:ElectricHoeGrowth:1561>);
 
@@ -843,7 +949,7 @@ game.setLocalization("tc.research_page.ElectricScribingTools", "\u4f60\u4e0d\u60
 \u901a\u8fc7\u9759\u7535\u548c\u5706\u73e0\u7b14\u6280\u672f\u4f60\u505a\u51fa\u4e86\u80fd\u5728\u5185\u90e8\u5feb\u901f\u56de\u590d\u58a8\u6c34\u7684\u5de5\u5177,\u53ea\u9700\u8981\u5145\u7535\u5c31\u80fd\u6301\u7eed\u4f7f\u7528.");
 mods.thaumcraft.Arcane.addShaped("ElectricScribingTools", <EMT:ElectricScribingTools:400>, "aer 20, ignis 20, aqua 20, ordo 20", [
 [<ore:circuitAdvanced>, <Thaumcraft:ItemInkwell>, <ore:circuitAdvanced>],
-[<Thaumcraft:ItemInkwell>, <IC2:itemBatCrystal:26>, <Thaumcraft:ItemInkwell>],
+[<Thaumcraft:ItemInkwell>, <IC2:itemBatCrystal:32767>, <Thaumcraft:ItemInkwell>],
 [<ore:circuitAdvanced>, <Thaumcraft:ItemInkwell>, <ore:circuitAdvanced>]]);
 mods.thaumcraft.Research.addArcanePage("ElectricScribingTools", <EMT:ElectricScribingTools:400>);
 
@@ -864,7 +970,7 @@ mods.thaumcraft.Research.addPage("Mjolnirnew", "tc.research_page.Mjolnirnew");
 game.setLocalization("tc.research_page.Mjolnirnew", "\u4f60\u8d70\u904d\u4e86\u4e16\u754c,\u4e3a\u4e86\u627e\u5230\u8fd9\u4e2a\u53ef\u80fd\u5b58\u5728\u7684\u96f7\u795e\u4e4b\u9524.
 \u4e00\u5929,\u4f60\u5076\u7136\u53d1\u73b0\u4e86\u5b83\u7684\u788e\u7247,\u4f60\u5f88\u6cae\u4e27. \u7ecf\u8fc7\u957f\u65f6\u95f4\u8f9b\u82e6\u7684\u7814\u7a76,\u4f60\u627e\u5230\u4e86\u8ba9\u8fd9\u4e2a\u9b54\u6cd5\u5de5\u5177\u91cd\u73b0\u6614\u65e5\u8363\u5149\u7684\u65b9\u6cd5.<BR><BR>\u4f60\u6709\u79cd\u611f\u89c9(\u4f3c\u4e4e\u5e38\u5e38\u6709\u8fd9\u79cd\u611f\u89c9),\u5c3d\u7ba1\u8fd9\u4e2a\u5de5\u5177\u5df2\u7ecf\u5341\u5206\u5f3a\u529b,\u4f46\u4f60\u8fd8\u80fd\u505a\u66f4\u591a.");
 mods.thaumcraft.Infusion.addRecipe("Mjolnirnew", <EMT:TaintedMjolnir>,
-[<Thaumcraft:ItemSwordElemental>, <gregtech:gt.metaitem.01:17880>, <EMT:EMTItems:6>, <Thaumcraft:ItemResource:1>, <gregtech:gt.metaitem.01:17880>, <IC2:itemBatCrystal:26>, <Thaumcraft:FocusShock>, <IC2:itemBatCrystal:26>, <gregtech:gt.metaitem.01:17880>, <Thaumcraft:ItemResource:1>, <EMT:EMTItems:6>, <gregtech:gt.metaitem.01:17880>], 
+[<Thaumcraft:ItemSwordElemental>, <gregtech:gt.metaitem.01:17880>, <EMT:EMTItems:6>, <Thaumcraft:ItemResource:1>, <gregtech:gt.metaitem.01:17880>, <IC2:itemBatCrystal:32767>, <Thaumcraft:FocusShock>, <IC2:itemBatCrystal:32767>, <gregtech:gt.metaitem.01:17880>, <Thaumcraft:ItemResource:1>, <EMT:EMTItems:6>, <gregtech:gt.metaitem.01:17880>], 
 "telum 48, tempestas 48, alienis 32, ira 24, aer 16, ignis 16", <EMT:Mjolnir>, 10);
 mods.thaumcraft.Research.addInfusionPage("Mjolnirnew", <EMT:Mjolnir>);
 
@@ -884,7 +990,7 @@ game.setLocalization("tc.research_page.SuperchargedMjolnir", "\u5728\u5bf9\u4e8e
 \u6b64\u5916,\u4f60\u53ef\u4ee5\u7528\u4f60\u7684\u9524\u5b50\u53ec\u5524\u5b88\u536b\u96ea\u5080\u5121\u6765\u4fdd\u62a4\u4f60.
 \u7136\u800c\u8fd9\u628a\u9524\u5b50\u5931\u53bb\u4e86\u5728\u4f60\u6240\u6307\u4e4b\u5904\u53ec\u5524\u95ea\u7535\u7684\u529b\u91cf,\u5e76\u4e14\u4f7f\u7528\u65f6\u4f1a\u5728\u4f60\u7684\u5468\u56f4\u53ec\u5524\u4e00\u5708\u95ea\u7535.");
 mods.thaumcraft.Infusion.addRecipe("SuperchargedMjolnir", <EMT:Mjolnir>,
-[<IC2:itemNanoSaber:26>, <IC2:itemPartIridium>, <Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:26>, <Thaumcraft:FocusHellbat>, <IC2:itemBatLamaCrystal:26>, <IC2:itemPartIridium>, <Thaumcraft:ItemResource>, <Thaumcraft:ItemResource:1>, <IC2:itemPartIridium>], 
+[<IC2:itemNanoSaber:32767>, <IC2:itemPartIridium>, <Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:32767>, <Thaumcraft:FocusHellbat>, <IC2:itemBatLamaCrystal:32767>, <IC2:itemPartIridium>, <Thaumcraft:ItemResource>, <Thaumcraft:ItemResource:1>, <IC2:itemPartIridium>], 
 "telum 64, potentia 64, alienis 48, ira 32, aer 24, ignis 24, bestia 16", <EMT:SuperchargedMjolnir:27>, 15);
 mods.thaumcraft.Research.addInfusionPage("SuperchargedMjolnir", <EMT:SuperchargedMjolnir:27>);
 
@@ -1095,7 +1201,7 @@ game.setLocalization("tc.research_page.EnergyBallFocus", "\u8981\u4f7f\u7528\u6b
 \u6bcf\u5236\u9020\u4e00\u4e2a\u80fd\u91cf\u7403\u9700\u8981\u6d88\u80175120EU.
 \u8bf7\u52ff\u5728\u5bc6\u95ed\u7a7a\u95f4\u5185\u4f7f\u7528\u6b64\u6cd5\u6756\u6838\u5fc3!");
 mods.thaumcraft.Infusion.addRecipe("EnergyBallFocus", <Thaumcraft:FocusShock>,
-[<IC2:blockMachine2:1>, <gregtech:gt.blockmachines:1461>, <IC2:itemBatCrystal:26>, <gregtech:gt.blockmachines:1461>, <IC2:itemBatCrystal:26>, <gregtech:gt.blockmachines:1461>, <IC2:itemBatCrystal:26>, <gregtech:gt.blockmachines:1461>], 
+[<IC2:blockMachine2:1>, <gregtech:gt.blockmachines:1461>, <IC2:itemBatCrystal:32767>, <gregtech:gt.blockmachines:1461>, <IC2:itemBatCrystal:32767>, <gregtech:gt.blockmachines:1461>, <IC2:itemBatCrystal:32767>, <gregtech:gt.blockmachines:1461>], 
 "potentia 24, praecantatio 18, victus 12, praecantatio 12, cognitio 6", <EMT:EnergyBallFocus>, 6);
 mods.thaumcraft.Research.addInfusionPage("EnergyBallFocus", <EMT:EnergyBallFocus>);
 mods.thaumcraft.Warp.addToResearch("EnergyBallFocus", 1);
@@ -1114,7 +1220,7 @@ game.setLocalization("tc.research_page.ExplosionFocus", "\u4f60\u5df2\u53d1\u73b
 \u8fd9\u4e2a\u6838\u5fc3\u5de5\u4f5c\u65f6\u7c7b\u4f3c\u6fc0\u5149\u91c7\u77ff\u67aa,\u4f46\u662f\u5b83\u4f7f\u7528\u9b54\u529b\u800c\u4e0d\u662f\u7535\u529b.
 \u8fd9\u4e2a\u6838\u5fc3\u5f88\u4e0d\u7a33\u5b9a,\u6240\u4ee5\u8bb0\u7740\u5c0f\u5fc3\u70b9.");
 mods.thaumcraft.Infusion.addRecipe("ExplosionFocus", <Thaumcraft:FocusHellbat>,
-[<IC2:itemToolMiningLaser:26>, <dreamcraft:item.ReinforcedGlassLense>, <Thaumcraft:ItemResource:1>, <minecraft:firework_charge>, <gregtech:gt.metaitem.02:26541>.withTag({ench: [{lvl: 3 as short, id: 20 as short}], "GT.HasBeenUpdated": 1 as byte}), <minecraft:tnt>, <gregtech:gt.metaitem.02:26541>.withTag({ench: [{lvl: 3 as short, id: 20 as short}], "GT.HasBeenUpdated": 1 as byte}), <minecraft:firework_charge>, <Thaumcraft:ItemResource>, <dreamcraft:item.ReinforcedGlassLense>], 
+[<IC2:itemToolMiningLaser:32767>, <dreamcraft:item.ReinforcedGlassLense>, <Thaumcraft:ItemResource:1>, <minecraft:firework_charge>, <gregtech:gt.metaitem.02:26541>.withTag({ench: [{lvl: 3 as short, id: 20 as short}], "GT.HasBeenUpdated": 1 as byte}), <minecraft:tnt>, <gregtech:gt.metaitem.02:26541>.withTag({ench: [{lvl: 3 as short, id: 20 as short}], "GT.HasBeenUpdated": 1 as byte}), <minecraft:firework_charge>, <Thaumcraft:ItemResource>, <dreamcraft:item.ReinforcedGlassLense>], 
 "ignis 64, mortuus 24, motus 48, telum 32, praecantatio 16, potentia 10", <EMT:ExplosionFocus>, 9);
 mods.thaumcraft.Research.addInfusionPage("ExplosionFocus", <EMT:ExplosionFocus>);
 mods.thaumcraft.Warp.addToResearch("ExplosionFocus", 1);
@@ -1131,7 +1237,7 @@ mods.thaumcraft.Research.addPage("WandFocusCharging", "tc.research_page.WandFocu
 game.setLocalization("tc.research_page.WandFocusCharging", "\u4f60\u610f\u8bc6\u5230\u4f60\u603b\u662f\u968f\u8eab\u5e26\u7740\u4e00\u652f\u6cd5\u6756\u548c\u4f60\u7684\u7535\u5b50\u8bbe\u5907.
 \u4f46\u6709\u65f6,\u4f60\u7528\u5149\u4e86\u7535\u5b50\u5de5\u5177\u91cc\u7684\u7535.\u56e0\u6b64\u4f60\u505a\u51fa\u4e86\u8fd9\u4e2a\u6838\u5fc3.
 \u5b83\u5f88\u7b80\u5355\u4e5f\u5f88\u5b9e\u7528,\u5c06\u6cd5\u6756\u7684\u9b54\u529b\u8f6c\u5316\u4e3a\u4e00\u822c\u7684\u7535\u529b\u6765\u7ed9\u7269\u54c1\u5145\u7535.");
-mods.thaumcraft.Infusion.addRecipe("WandFocusCharging", <IC2:itemBatCrystal:26>,
+mods.thaumcraft.Infusion.addRecipe("WandFocusCharging", <IC2:itemBatCrystal:32767>,
 [<gregtech:gt.blockmachines:22>, <gregtech:gt.metaitem.02:21330>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.metaitem.02:20330>, <Thaumcraft:blockCrystal:6>, <gregtech:gt.blockmachines:1460>, <Thaumcraft:blockCrystal:6>, <gregtech:gt.metaitem.02:20330>, <gregtech:gt.metaitem.01:32601>, <gregtech:gt.metaitem.02:21330>], 
 "permutatio 48, potentia 24, machina 32, praecantatio 16, cognitio 8", <EMT:ChargingFocus>, 9);
 mods.thaumcraft.Research.addInfusionPage("WandFocusCharging", <EMT:ChargingFocus>);
@@ -1151,7 +1257,7 @@ game.setLocalization("tc.research_page.WandFocusWandCharging", "\u4f60\u53d1\u73
 \u73b0\u5728\u5b83\u4f1a\u4ece\u7269\u54c1\u4e2d\u62bd\u53d6\u7535\u529b\u7ed9\u4f60\u7684\u6cd5\u6756\u5145\u80fd,\u5c3d\u7ba1\u635f\u8017\u5f88\u9ad8.
 \u6b64\u5916,\u4f60\u610f\u8bc6\u5230\u4f60\u9700\u8981\u4e00\u6574\u5957\u7b26\u6587\u62a4\u7532\u624d\u80fd\u542f\u52a8\u6cd5\u6756\u5145\u80fd\u7684\u8fc7\u7a0b.");
 mods.thaumcraft.Infusion.addRecipe("WandFocusWandCharging", <EMT:ChargingFocus>,
-[<EMT:EMTMachines>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:20970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.blockmachines:1660>, <IC2:itemBatLamaCrystal:26>, <gregtech:gt.blockmachines:1660>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.02:20970>, <IC2:itemPartIridium>], 
+[<EMT:EMTMachines>, <IC2:itemPartIridium>, <gregtech:gt.metaitem.02:20970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.blockmachines:1660>, <IC2:itemBatLamaCrystal:32767>, <gregtech:gt.blockmachines:1660>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.02:20970>, <IC2:itemPartIridium>], 
 "potentia 48, fabrico 32, lucrum 64, permutatio 48, praecantatio 16, cognitio 8, auram 32", <EMT:WandChargingFocus>, 15);
 mods.thaumcraft.Research.addInfusionPage("WandFocusWandCharging", <EMT:WandChargingFocus>);
 mods.thaumcraft.Warp.addToResearch("WandFocusWandCharging", 2);
