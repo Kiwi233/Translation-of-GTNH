@@ -11,7 +11,7 @@ thaumicenergistics.block.infusion.provider.name=注魔供应器
 thaumicenergistics.block.gear.box.name=铁齿轮箱
 thaumicenergistics.block.golem.gear.box.name=神秘齿轮箱
 thaumicenergistics.block.essentia.cell.workbench.name=源质元件工作台
-thaumicenergistics.block.arcane.assembler.name=奥术装配器
+thaumicenergistics.block.arcane.assembler.name=奥术装配室
 thaumicenergistics.block.knowledge.inscriber.name=知识记录仪
 thaumicenergistics.block.essentia.vibration.chamber.name=源质谐振仓
 thaumicenergistics.block.distillation.encoder.name=蒸馏编码台
@@ -72,7 +72,7 @@ thaumicenergistics.gui.selected.amount=数量
 thaumicenergistics.gui.selected.aspect=要素
 thaumicenergistics.gui.digivis.source.name=数位魔力源
 thaumicenergistics.gui.essentia.cell.workbench.title=源质元件工作台
-thaumicenergistics.gui.arcane.assembler.title=奥术装配器
+thaumicenergistics.gui.arcane.assembler.title=奥术装配室
 thaumicenergistics.gui.vibration.chamber.stored=存储：%d %s
 thaumicenergistics.gui.vibration.chamber.processing=正在处理：%s
 
@@ -130,7 +130,7 @@ tc.research_name.thaumicenergistics.TEVISINT=要素中继接口
 tc.research_text.thaumicenergistics.TEVISINT=数位化使用要素魔力
 thaumicenergistics.research_page.TEVISINT.1=发现要素能量网之后,你开始研究将其与数字网络连接的方法.<BR>在细致观察要素魔力在§l要素中继§r网络中的流动后,你确信自己也能做出一个有着相似功能的数字化设备.利用数字网络的点对点能力你就可以导入,传导要素魔力,并为数字设备所用,但要储存要素魔力你还需要进行更深入的研究.
 thaumicenergistics.research_page.TEVISINT.2=要使用§l要素中继接口§r,只需将其接入数字网络并在其上放置一个要素中继器.中继器的底端必须附在接口上.<BR>若要将其他设备连接到接口则需§l内存卡§r.<BR>用内存卡shift右击接口,之后右击一个设备来建立连接.
-thaumicenergistics.research_page.TEVISINT.3=§l连接§r<LINE>§l要素中继接口§r.构建一个VisP2P通道.<BR>§l奥术合成终端§r.在A.C.T(奥术合成终端)中给法杖充能.<BR>§l奥术组装器§r.存储Vis,并用于合成.
+thaumicenergistics.research_page.TEVISINT.3=§l连接§r<LINE>§l要素中继接口§r.构建一个VisP2P通道.<BR>§l奥术合成终端§r.在A.C.T(奥术合成终端)中给法杖充能.<BR>§l奥术装配室§r.存储Vis,并用于合成.
 
 # Research Iron Gear Box
 tc.research_name.thaumicenergistics.TEIRONGEARBOX=铁齿轮箱
@@ -151,15 +151,15 @@ thaumicenergistics.research_page.TECERTUSDUPE.1=你现在能用炼金术复制§
 # Research Knowledge Inscriber + Core
 tc.research_name.thaumicenergistics.TEKNOWLEDGEINSCRIBER=知识记录仪
 tc.research_text.thaumicenergistics.TEKNOWLEDGEINSCRIBER=魔力模板
-thaumicenergistics.research_page.TEKNOWLEDGEINSCRIBER.1=做出了§l奥术装配器§r,你需要告诉它该装配什么.你发明了一个可储存有限的奥术配方的装置.§l知识核心§r就可以储存这些配方的模板,将其放入装配器来协助它组装物品.<BR>为了将配方模板写入核心,你就需要用到§l知识记录仪§r.
+thaumicenergistics.research_page.TEKNOWLEDGEINSCRIBER.1=做出了§l奥术装配室§r,你需要告诉它该装配什么.你发明了一个可储存有限的奥术配方的装置.§l知识核心§r就可以储存这些配方的模板,将其放入装配室来协助它组装物品.<BR>为了将配方模板写入核心,你就需要用到§l知识记录仪§r.
 thaumicenergistics.research_page.TEKNOWLEDGEINSCRIBER.2=使用知识记录仪<BR>首先在右上角的槽放入一个§l知识核心§r.接下来,用合成栏来设置物品的合成配方.如果你有配方所需的知识(研究),就会显示出可合成的物品.再按下保存按钮就会将配方写入核心.制作的成品会显示在模板储存区.<BR>若要从核心移除一个配方,先在模板储存区选择一个模板.选择的配方模板就会显示在合成区.最后,点击删除按钮就会移除模板.
 
 # Research Arcane Assembler
-tc.research_name.thaumicenergistics.TEARCANEASSEMBLER=奥术装配器
+tc.research_name.thaumicenergistics.TEARCANEASSEMBLER=奥术装配室
 tc.research_text.thaumicenergistics.TEARCANEASSEMBLER=装配魔力分子
-thaumicenergistics.research_page.TEARCANEASSEMBLER.1=调试§l分子装配器§r时你就想着能不能将它改装,使其能制造奥术物品.总结下来,给它嵌入相应的碎片就能让它将魔力注入物品中.它也需要中等储量的魔力,§l银树权杖§r似乎是最好的选择.<BR>注意: 需要一个完全充能的权杖,并且权杖最终不会返还.
-thaumicenergistics.research_page.TEARCANEASSEMBLER.2=§l模板存储§r<BR>装配器本身不会储存合成配方.或许你还要进一步研究才能做出储存模板的东西.<BR>§l魔力补充§r<BR>补充装配器的魔力需要用到§l要素中继接口§r.<BR>§l加速卡§r<BR>每张都会减少20%的合成时间并增加50%的消耗.
-thaumicenergistics.research_page.TEARCANEASSEMBLER.3=§l要素减免§r<BR>装配器会根据工艺权杖获取一个基础的要素减免.给它提供要素减免的防具还能进一步提升减免的效果.每种要素的减免可通过悬停在GUI的要素来查看.<BR>注意装配器对扭曲装备的效果不免疫.每点扭曲值都会抽取额外15%的能量来维持稳定,该效果只会在合成时生效.
+thaumicenergistics.research_page.TEARCANEASSEMBLER.1=调试§l分子装配室§r时你就想着能不能将它改装,使其能制造奥术物品.总结下来,给它嵌入相应的碎片就能让它将魔力注入物品中.它也需要中等储量的魔力,§l银树权杖§r似乎是最好的选择.<BR>注意: 需要一个完全充能的权杖,并且权杖最终不会返还.
+thaumicenergistics.research_page.TEARCANEASSEMBLER.2=§l模板存储§r<BR>装配室本身不会储存合成配方.或许你还要进一步研究才能做出储存模板的东西.<BR>§l魔力补充§r<BR>补充装配室的魔力需要用到§l要素中继接口§r.<BR>§l加速卡§r<BR>每张都会减少20%的合成时间并增加50%的消耗.
+thaumicenergistics.research_page.TEARCANEASSEMBLER.3=§l要素减免§r<BR>装配室会根据工艺权杖获取一个基础的要素减免.给它提供要素减免的防具还能进一步提升减免的效果.每种要素的减免可通过悬停在GUI的要素来查看.<BR>注意装配室对扭曲装备的效果不免疫.每点扭曲值都会抽取额外15%的能量来维持稳定,该效果只会在合成时生效.
 
 # Research Wrench Focus
 tc.research_name.thaumicenergistics.TEFOCUSWRENCH=法杖核心: AE扳手

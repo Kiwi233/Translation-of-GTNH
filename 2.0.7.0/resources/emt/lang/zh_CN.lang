@@ -31,7 +31,7 @@ tooltip.EMT.specialEffect=特殊效果
 tooltip.EMT.normalConditions=普通状态
 tooltip.EMT.euPerTick=EU/t
 tooltip.EMT.night=夜晚时发电量
-tooltip.EMT.day=at day
+tooltip.EMT.day=白天时发电量
 tooltip.EMT.forget=我忘记写下提示信息了吗?
 tooltip.EMT.raining=降雨时发电量
 tooltip.EMT.thunder=雷雨时发电量
@@ -39,9 +39,9 @@ tooltip.EMT.underwater=水下发电量
 tooltip.EMT.output.double=输出2倍电量
 tooltip.EMT.output.triple=输出3倍电量
 tooltip.EMT.output.double.nether=处于下界时发电量
-tooltip.EMT.output.double.lava=处于岩浆中发电量
-tooltip.EMT.output.double.half.height=处于160层上方发电量
-tooltip.EMT.output.double.half.low=处于10层以下发电量
+tooltip.EMT.output.double.lava=每秒供给0.01vis火之要素时发电量
+tooltip.EMT.output.double.half.height=位置越高发电量越高(y=5时1倍，y=220时3倍)
+tooltip.EMT.output.double.half.low=位置越低发电量越高(y=220时1倍，y=5时3倍)
 
 #=============Entity Names=============
 entity.EMT.laser.name=镭射器
