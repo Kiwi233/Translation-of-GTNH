@@ -1,0 +1,571 @@
+#Creative Tab Name
+itemGroup.TecTech=泛银河泰克科技有限公司
+
+#Blocks
+tile.quantumGlass.name=量子玻璃
+tile.quantumStuff.name=量子物质
+
+#Items
+item.em.debugContainer.name=调试EM容器
+item.em.definitionContainer.name=EM配方提示
+item.em.definitionScanStorage.name=EM容器扫描
+item.em.constructable.name=多方块机器蓝图
+item.em.frontRotate.name=正面旋转扳手
+item.em.parametrizerMemoryCard.name=数据化储存卡
+item.em.EuMeterGT.name=GT EU电表
+item.tm.teslaCover.0.name=特斯拉线圈帽
+item.tm.teslaCover.1.name=加强特斯拉线圈帽
+item.tm.teslaStaff.name=特斯拉权杖
+
+item.tm.teslaCoilCapacitor.0.name=LV特斯拉电容
+item.tm.teslaCoilCapacitor.1.name=MV特斯拉电容
+item.tm.teslaCoilCapacitor.2.name=HV特斯拉电容
+item.tm.teslaCoilCapacitor.3.name=EV特斯拉电容
+item.tm.teslaCoilCapacitor.4.name=IV特斯拉电容
+
+item.tm.itemTeslaComponent.0.name=琥珀金特斯拉绕组
+item.tm.itemTeslaComponent.1.name=超导特斯拉绕组
+
+#Death Messages
+death.attack.microwaving=%1$s被辐射脱水。
+death.attack.microwaving.player=%1$s在与%2$s的战斗中被辐射脱水。
+death.attack.elementalPollution=%1$s在错误的空洞中被汽化。
+death.attack.elementalPollution.player=%1$s在与%2$s的战斗中被错误的空洞汽化。
+death.attack.subspace=%1$s受到了降维打击。
+death.attack.subspace.player=%1$s在与%2$s的战斗中受到了降维打击。
+
+#Machine hulls
+gt.blockmachines.hull.tier.10.name=UEV机器外壳
+gt.blockmachines.hull.tier.11.name=UIV机器外壳
+gt.blockmachines.hull.tier.12.name=UMV机器外壳
+gt.blockmachines.hull.tier.13.name=UXV机器外壳
+gt.blockmachines.hull.tier.14.name=OPV机器外壳
+gt.blockmachines.hull.tier.15.name=MAX机器外壳
+
+#Transformers
+gt.blockmachines.wetransformer.tier.00.name=ULV高能变压器
+gt.blockmachines.wetransformer.tier.00.desc=LV -> ULV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.01.name=LV高能变压器
+gt.blockmachines.wetransformer.tier.01.desc=MV -> LV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.02.name=MV高能变压器
+gt.blockmachines.wetransformer.tier.02.desc=HV -> MV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.03.name=HV高能变压器
+gt.blockmachines.wetransformer.tier.03.desc=EV -> HV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.04.name=EV高能变压器
+gt.blockmachines.wetransformer.tier.04.desc=IV -> EV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.05.name=IV高能变压器
+gt.blockmachines.wetransformer.tier.05.desc=LuV -> IV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.06.name=LuV高能变压器
+gt.blockmachines.wetransformer.tier.06.desc=ZPM -> LuV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.07.name=ZPM高能变压器
+gt.blockmachines.wetransformer.tier.07.desc=UV -> ZPM (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.08.name=UV高能变压器
+gt.blockmachines.wetransformer.tier.08.desc=UHV -> UV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.09.name=UHV高能变压器
+gt.blockmachines.wetransformer.tier.09.desc=UEV -> UHV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.10.name=UEV高能变压器
+gt.blockmachines.wetransformer.tier.10.desc=UIV -> UEV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.11.name=UIV高能变压器
+gt.blockmachines.wetransformer.tier.11.desc=UMV -> UIV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.12.name=UMV高能变压器
+gt.blockmachines.wetransformer.tier.12.desc=UXV -> UMV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.13.name=UXV高能变压器
+gt.blockmachines.wetransformer.tier.13.desc=OPV -> UXV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.14.name=OpV高能变压器
+gt.blockmachines.wetransformer.tier.14.desc=MAX -> OPV (用软锤右击以反转)
+
+gt.blockmachines.tt.transformer.tier.09.name=UHV变压器
+gt.blockmachines.tt.transformer.tier.09.desc=UEV -> UHV (用软锤右击以反转)
+gt.blockmachines.tt.transformer.tier.10.name=UEV变压器
+gt.blockmachines.tt.transformer.tier.10.desc=UIV -> UEV (用软锤右击以反转)
+gt.blockmachines.tt.transformer.tier.11.name=UIV变压器
+gt.blockmachines.tt.transformer.tier.11.desc=UMV -> UIV (用软锤右击以反转)
+gt.blockmachines.tt.transformer.tier.12.name=UMV变压器
+gt.blockmachines.tt.transformer.tier.12.desc=UXV -> UMV (用软锤右击以反转)
+gt.blockmachines.tt.transformer.tier.13.name=UXV变压器
+gt.blockmachines.tt.transformer.tier.13.desc=OPV -> UXV (用软锤右击以反转)
+gt.blockmachines.tt.transformer.tier.14.name=OpV变压器
+gt.blockmachines.tt.transformer.tier.14.desc=MAX -> OPV (用软锤右击以反转)
+
+gt.blockmachines.transformer.ha.tier.09.name=UHV高电流变压器
+gt.blockmachines.transformer.ha.tier.09.desc=UEV -> UHV (用软锤右击以反转
+gt.blockmachines.transformer.ha.tier.10.name=UEV高电流变压器
+gt.blockmachines.transformer.ha.tier.10.desc=UIV -> UEV (用软锤右击以反转)
+gt.blockmachines.transformer.ha.tier.11.name=UIV高电流变压器
+gt.blockmachines.transformer.ha.tier.11.desc=UMV -> UIV (用软锤右击以反转)
+gt.blockmachines.transformer.ha.tier.12.name=UMV高电流变压器
+gt.blockmachines.transformer.ha.tier.12.desc=UXV -> UMV (用软锤右击以反转)
+gt.blockmachines.transformer.ha.tier.13.name=UXV高电流变压器
+gt.blockmachines.transformer.ha.tier.13.desc=OPV -> UXV (用软锤右击以反转)
+gt.blockmachines.transformer.ha.tier.14.name=OpV高电流变压器
+gt.blockmachines.transformer.ha.tier.14.desc=MAX -> OPV (用软锤右击以反转)
+
+#Hatches
+tt.base.emhatch.desc.0=最大元物质组数:
+tt.base.emhatch.desc.1=最大容量:
+tt.base.emhatch.desc.2=在这个仓室不处于多方块结构
+tt.base.emhatch.desc.3=中时，在后侧、上侧或下侧放
+tt.base.emhatch.desc.4=置溢流仓以提供过载保护。
+tt.base.emhatch.desc.5=使用量子隧道时，传输距离
+tt.base.emhatch.desc.6=可以沿直线拓展至最多15格
+tt.base.emhatch.desc.7=启用前必须涂色
+
+gt.blockmachines.hatch.emmuffler.tier.08.name=UV溢流仓
+gt.blockmachines.hatch.emmuffler.tier.09.name=UHV溢流仓
+gt.blockmachines.hatch.emmuffler.tier.10.name=UEV溢流仓
+gt.blockmachines.hatch.emmuffler.tier.11.name=UIV溢流仓
+gt.blockmachines.hatch.emmuffler.tier.12.name=UMV溢流仓
+gt.blockmachines.hatch.emmuffler.tier.13.name=UXV溢流仓
+gt.blockmachines.hatch.emmuffler.desc.0=清理过剩的元物质
+gt.blockmachines.hatch.emmuffler.desc.1=物质缓存
+gt.blockmachines.hatch.emmuffler.desc.2=清理速度
+gt.blockmachines.hatch.emmuffler.desc.3=请勿阻塞输出!
+
+gt.blockmachines.hatch.energymulti04.tier.05.name=4安IV能源仓
+gt.blockmachines.hatch.energymulti16.tier.05.name=16安IV能源仓
+gt.blockmachines.hatch.energymulti64.tier.05.name=64安IV能源仓
+gt.blockmachines.hatch.energymulti04.tier.06.name=4安LuV能源仓
+gt.blockmachines.hatch.energymulti16.tier.06.name=16安LuV能源仓
+gt.blockmachines.hatch.energymulti64.tier.06.name=64安LuV能源仓
+gt.blockmachines.hatch.energymulti04.tier.07.name=4安ZPM能源仓
+gt.blockmachines.hatch.energymulti16.tier.07.name=16安ZPM能源仓
+gt.blockmachines.hatch.energymulti64.tier.07.name=64安ZPM能源仓
+gt.blockmachines.hatch.energymulti04.tier.08.name=4安UV能源仓
+gt.blockmachines.hatch.energymulti16.tier.08.name=16安UV能源仓
+gt.blockmachines.hatch.energymulti64.tier.08.name=64安UV能源仓
+gt.blockmachines.hatch.energymulti04.tier.09.name=4安UHV能源仓
+gt.blockmachines.hatch.energymulti16.tier.09.name=16安UHV能源仓
+gt.blockmachines.hatch.energymulti64.tier.09.name=64安UHV能源仓
+gt.blockmachines.hatch.energymulti04.tier.10.name=4安UEV能源仓
+gt.blockmachines.hatch.energymulti16.tier.10.name=16安UEV能源仓
+gt.blockmachines.hatch.energymulti64.tier.10.name=64安UEV能源仓
+gt.blockmachines.hatch.energymulti04.tier.11.name=4安UIV能源仓
+gt.blockmachines.hatch.energymulti16.tier.11.name=16安UIV能源仓
+gt.blockmachines.hatch.energymulti64.tier.11.name=64安UIV能源仓
+gt.blockmachines.hatch.energymulti04.tier.12.name=4安UMV能源仓
+gt.blockmachines.hatch.energymulti16.tier.12.name=16安UMV能源仓
+gt.blockmachines.hatch.energymulti64.tier.12.name=64安UMV能源仓
+gt.blockmachines.hatch.energymulti04.tier.13.name=4安UXV能源仓
+gt.blockmachines.hatch.energymulti16.tier.13.name=16安UXV能源仓
+gt.blockmachines.hatch.energymulti64.tier.13.name=64安UXV能源仓
+gt.blockmachines.hatch.energymulti.desc.0=为多方块机器以高电流输入能源
+gt.blockmachines.hatch.energymulti.desc.1=输入电流
+
+gt.blockmachines.hatch.energytunnel1.tier.05.name=IV 256/t 激光靶仓
+gt.blockmachines.hatch.energytunnel2.tier.05.name=IV 1024/t 激光靶仓
+gt.blockmachines.hatch.energytunnel3.tier.05.name=IV 4096/t 激光靶仓
+gt.blockmachines.hatch.energytunnel4.tier.05.name=IV 16384/t 激光靶仓
+gt.blockmachines.hatch.energytunnel5.tier.05.name=IV 65536/t 激光靶仓
+gt.blockmachines.hatch.energytunnel6.tier.05.name=IV 262144/t 激光靶仓
+gt.blockmachines.hatch.energytunnel7.tier.05.name=IV 1048576/t 激光靶仓
+gt.blockmachines.hatch.energytunnel1.tier.06.name=LuV 256/t 激光靶仓
+gt.blockmachines.hatch.energytunnel2.tier.06.name=LuV 1024/t 激光靶仓
+gt.blockmachines.hatch.energytunnel3.tier.06.name=LuV 4096/t 激光靶仓
+gt.blockmachines.hatch.energytunnel4.tier.06.name=LuV 16384/t 激光靶仓
+gt.blockmachines.hatch.energytunnel5.tier.06.name=LuV 65536/t 激光靶仓
+gt.blockmachines.hatch.energytunnel6.tier.06.name=LuV 262144/t 激光靶仓
+gt.blockmachines.hatch.energytunnel7.tier.06.name=LuV 1048576/t 激光靶仓
+gt.blockmachines.hatch.energytunnel1.tier.07.name=ZPM 256/t 激光靶仓
+gt.blockmachines.hatch.energytunnel2.tier.07.name=ZPM 1024/t 激光靶仓
+gt.blockmachines.hatch.energytunnel3.tier.07.name=ZPM 4096/t 激光靶仓
+gt.blockmachines.hatch.energytunnel4.tier.07.name=ZPM 16384/t 激光靶仓
+gt.blockmachines.hatch.energytunnel5.tier.07.name=ZPM 65536/t 激光靶仓
+gt.blockmachines.hatch.energytunnel6.tier.07.name=ZPM 262144/t 激光靶仓
+gt.blockmachines.hatch.energytunnel7.tier.07.name=ZPM 1048576/t 激光靶仓
+gt.blockmachines.hatch.energytunnel1.tier.08.name=UV 256/t 激光靶仓
+gt.blockmachines.hatch.energytunnel2.tier.08.name=UV 1024/t 激光靶仓
+gt.blockmachines.hatch.energytunnel3.tier.08.name=UV 4096/t 激光靶仓
+gt.blockmachines.hatch.energytunnel4.tier.08.name=UV 16384/t 激光靶仓
+gt.blockmachines.hatch.energytunnel5.tier.08.name=UV 65536/t 激光靶仓
+gt.blockmachines.hatch.energytunnel6.tier.08.name=UV 262144/t 激光靶仓
+gt.blockmachines.hatch.energytunnel7.tier.08.name=UV 1048576/t 激光靶仓
+gt.blockmachines.hatch.energytunnel1.tier.09.name=UHV 256/t 激光靶仓
+gt.blockmachines.hatch.energytunnel2.tier.09.name=UHV 1024/t 激光靶仓
+gt.blockmachines.hatch.energytunnel3.tier.09.name=UHV 4096/t 激光靶仓
+gt.blockmachines.hatch.energytunnel4.tier.09.name=UHV 16384/t 激光靶仓
+gt.blockmachines.hatch.energytunnel5.tier.09.name=UHV 65536/t 激光靶仓
+gt.blockmachines.hatch.energytunnel6.tier.09.name=UHV 262144/t 激光靶仓
+gt.blockmachines.hatch.energytunnel7.tier.09.name=UHV 1048576/t 激光靶仓
+gt.blockmachines.hatch.energytunnel1.tier.10.name=UEV 256/t 激光靶仓
+gt.blockmachines.hatch.energytunnel2.tier.10.name=UEV 1024/t 激光靶仓
+gt.blockmachines.hatch.energytunnel3.tier.10.name=UEV 4096/t 激光靶仓
+gt.blockmachines.hatch.energytunnel4.tier.10.name=UEV 16384/t 激光靶仓
+gt.blockmachines.hatch.energytunnel5.tier.10.name=UEV 65536/t 激光靶仓
+gt.blockmachines.hatch.energytunnel6.tier.10.name=UEV 262144/t 激光靶仓
+gt.blockmachines.hatch.energytunnel7.tier.10.name=UEV 1048576/t 激光靶仓
+gt.blockmachines.hatch.energytunnel1.tier.11.name=UIV 256/t 激光靶仓
+gt.blockmachines.hatch.energytunnel2.tier.11.name=UIV 1024/t 激光靶仓
+gt.blockmachines.hatch.energytunnel3.tier.11.name=UIV 4096/t 激光靶仓
+gt.blockmachines.hatch.energytunnel4.tier.11.name=UIV 16384/t 激光靶仓
+gt.blockmachines.hatch.energytunnel5.tier.11.name=UIV 65536/t 激光靶仓
+gt.blockmachines.hatch.energytunnel6.tier.11.name=UIV 262144/t 激光靶仓
+gt.blockmachines.hatch.energytunnel7.tier.11.name=UIV 1048576/t 激光靶仓
+gt.blockmachines.hatch.energytunnel1.tier.12.name=UMV 256/t 激光靶仓
+gt.blockmachines.hatch.energytunnel2.tier.12.name=UMV 1024/t 激光靶仓
+gt.blockmachines.hatch.energytunnel3.tier.12.name=UMV 4096/t 激光靶仓
+gt.blockmachines.hatch.energytunnel4.tier.12.name=UMV 16384/t 激光靶仓
+gt.blockmachines.hatch.energytunnel5.tier.12.name=UMV 65536/t 激光靶仓
+gt.blockmachines.hatch.energytunnel6.tier.12.name=UMV 262144/t 激光靶仓
+gt.blockmachines.hatch.energytunnel7.tier.12.name=UMV 1048576/t 激光靶仓
+gt.blockmachines.hatch.energytunnel1.tier.13.name=UXV 256/t 激光靶仓
+gt.blockmachines.hatch.energytunnel2.tier.13.name=UXV 1024/t 激光靶仓
+gt.blockmachines.hatch.energytunnel3.tier.13.name=UXV 4096/t 激光靶仓
+gt.blockmachines.hatch.energytunnel4.tier.13.name=UXV 16384/t 激光靶仓
+gt.blockmachines.hatch.energytunnel5.tier.13.name=UXV 65536/t 激光靶仓
+gt.blockmachines.hatch.energytunnel6.tier.13.name=UXV 262144/t 激光靶仓
+gt.blockmachines.hatch.energytunnel7.tier.13.name=UXV 1048576/t 激光靶仓
+gt.blockmachines.hatch.energytunnel.tier.14.name=传奇激光靶仓
+gt.blockmachines.hatch.energytunnel.desc.0=多方块机器的能量输入端
+gt.blockmachines.hatch.energytunnel.desc.1=通量
+
+gt.blockmachines.hatch.dynamomulti04.tier.05.name=4安IV动力仓
+gt.blockmachines.hatch.dynamomulti16.tier.05.name=16安IV动力仓
+gt.blockmachines.hatch.dynamomulti64.tier.05.name=64安IV动力仓
+gt.blockmachines.hatch.dynamomulti04.tier.06.name=4安LuV动力仓
+gt.blockmachines.hatch.dynamomulti16.tier.06.name=16安LuV动力仓
+gt.blockmachines.hatch.dynamomulti64.tier.06.name=64安LuV动力仓
+gt.blockmachines.hatch.dynamomulti04.tier.07.name=4安ZPM动力仓
+gt.blockmachines.hatch.dynamomulti16.tier.07.name=16安ZPM动力仓
+gt.blockmachines.hatch.dynamomulti64.tier.07.name=64安ZPM动力仓
+gt.blockmachines.hatch.dynamomulti04.tier.08.name=4安UV动力仓
+gt.blockmachines.hatch.dynamomulti16.tier.08.name=16安UV动力仓
+gt.blockmachines.hatch.dynamomulti64.tier.08.name=64安UV动力仓
+gt.blockmachines.hatch.dynamomulti04.tier.09.name=4安UHV动力仓
+gt.blockmachines.hatch.dynamomulti16.tier.09.name=16安UHV动力仓
+gt.blockmachines.hatch.dynamomulti64.tier.09.name=64安UHV动力仓
+gt.blockmachines.hatch.dynamomulti04.tier.10.name=4安UEV动力仓
+gt.blockmachines.hatch.dynamomulti16.tier.10.name=16安UEV动力仓
+gt.blockmachines.hatch.dynamomulti64.tier.10.name=64安UEV动力仓
+gt.blockmachines.hatch.dynamomulti04.tier.11.name=4安UIV动力仓
+gt.blockmachines.hatch.dynamomulti16.tier.11.name=16安UIV动力仓
+gt.blockmachines.hatch.dynamomulti64.tier.11.name=64安UIV动力仓
+gt.blockmachines.hatch.dynamomulti04.tier.12.name=4安UMV动力仓
+gt.blockmachines.hatch.dynamomulti16.tier.12.name=16安UMV动力仓
+gt.blockmachines.hatch.dynamomulti64.tier.12.name=64安UMV动力仓
+gt.blockmachines.hatch.dynamomulti04.tier.13.name=4安IV动力仓
+gt.blockmachines.hatch.dynamomulti16.tier.13.name=16安IV动力仓
+gt.blockmachines.hatch.dynamomulti64.tier.13.name=64安IV动力仓
+gt.blockmachines.hatch.dynamomulti.desc.0=从多方块机器以高电流输出能源
+gt.blockmachines.hatch.dynamomulti.desc.1=输出电流
+
+gt.blockmachines.hatch.dynamotunnel1.tier.05=IV 256/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel2.tier.05=IV 1024/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel3.tier.05=IV 4096/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel4.tier.05=IV 16384/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel5.tier.05=IV 65536/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel6.tier.05=IV 262144/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel7.tier.05=IV 1048576/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel1.tier.06=LuV 256/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel2.tier.06=LuV 1024/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel3.tier.06=LuV 4096/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel4.tier.06=LuV 16384/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel5.tier.06=LuV 65536/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel6.tier.06=LuV 262144/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel7.tier.06=LuV 1048576/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel1.tier.07=ZPM 256/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel2.tier.07=ZPM 1024/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel3.tier.07=ZPM 4096/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel4.tier.07=ZPM 16384/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel5.tier.07=ZPM 65536/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel6.tier.07=ZPM 262144/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel7.tier.07=ZPM 1048576/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel1.tier.08=UV 256/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel2.tier.08=UV 1024/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel3.tier.08=UV 4096/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel4.tier.08=UV 16384/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel5.tier.08=UV 65536/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel6.tier.08=UV 262144/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel7.tier.08=UV 1048576/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel1.tier.09=UHV 256/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel2.tier.09=UHV 1024/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel3.tier.09=UHV 4096/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel4.tier.09=UHV 16384/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel5.tier.09=UHV 65536/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel6.tier.09=UHV 262144/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel7.tier.09=UHV 1048576/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel1.tier.10=UEV 256/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel2.tier.10=UEV 1024/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel3.tier.10=UEV 4096/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel4.tier.10=UEV 16384/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel5.tier.10=UEV 65536/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel6.tier.10=UEV 262144/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel7.tier.10=UEV 1048576/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel1.tier.11=UIV 256/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel2.tier.11=UIV 1024/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel3.tier.11=UIV 4096/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel4.tier.11=UIV 16384/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel5.tier.11=UIV 65536/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel6.tier.11=UIV 262144/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel7.tier.11=UIV 1048576/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel1.tier.12=UMV 256/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel2.tier.12=UMV 1024/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel3.tier.12=UMV 4096/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel4.tier.12=UMV 16384/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel5.tier.12=UMV 65536/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel6.tier.12=UMV 262144/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel7.tier.12=UMV 1048576/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel1.tier.13=UXV 256/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel2.tier.13=UXV 1024/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel3.tier.13=UXV 4096/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel4.tier.13=UXV 16384/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel5.tier.13=UXV 65536/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel6.tier.13=UXV 262144/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel7.tier.13=UXV 1048576/t 激光源仓
+gt.blockmachines.hatch.dynamotunnel.tier.14=传奇激光源仓
+gt.blockmachines.hatch.dynamotunnel.desc.0=多方块机器的能量输出端
+gt.blockmachines.hatch.dynamotunnel.desc.1=通量
+
+gt.blockmachines.emin.tier.08.name=UV元物质输入仓
+gt.blockmachines.emin.tier.09.name=UHV元物质输入仓
+gt.blockmachines.emin.tier.10.name=UEV元物质输入仓
+gt.blockmachines.emin.tier.11.name=UIV元物质输入仓
+gt.blockmachines.emin.tier.12.name=UMV元物质输入仓
+gt.blockmachines.emin.tier.13.name=UXV元物质输入仓
+gt.blockmachines.emin.desc=多方块机器的元物质输入
+
+gt.blockmachines.emout.tier.08.name=UV元物质输出仓
+gt.blockmachines.emout.tier.09.name=UHV元物质输出仓
+gt.blockmachines.emout.tier.10.name=UEV元物质输出仓
+gt.blockmachines.emout.tier.11.name=UIV元物质输出仓
+gt.blockmachines.emout.tier.12.name=UMV元物质输出仓
+gt.blockmachines.emout.tier.13.name=UXV元物质输出仓
+gt.blockmachines.emout.desc=多方块机器的元物质输出
+
+#Multiblocks
+gt.blockmachines.multimachine.em.transformer.name=有源变压器
+gt.blockmachines.multimachine.em.transformer.hint=1 - 能源仓、动力仓或超能机械方块
+gt.blockmachines.multimachine.em.transformer.desc.0=变电站
+gt.blockmachines.multimachine.em.transformer.desc.1=任意电压间的相互转换!
+gt.blockmachines.multimachine.em.transformer.desc.2=只有0.78125%的能量损失, HAYO!
+
+gt.blockmachines.multimachine.tm.microwave.name=微波发生仪
+gt.blockmachines.multimachine.tm.microwave.hint.0=1 - 基础仓室或洁净不锈钢机械方块
+gt.blockmachines.multimachine.tm.microwave.hint.1=也像个漏斗,所以给它个输出总线吧
+gt.blockmachines.multimachine.tm.microwave.desc.0=高频烤炉
+gt.blockmachines.multimachine.tm.microwave.desc.1=从生物到食物，只在转瞬之间!
+gt.blockmachines.multimachine.tm.microwave.desc.3=我说用核弹...我的意思是把晚餐放进微波炉!
+gt.blockmachines.multimachine.tm.microwave.cfgi.0=功率设置
+gt.blockmachines.multimachine.tm.microwave.cfgi.1=时间设置
+gt.blockmachines.multimachine.tm.microwave.cfgo.0=时间
+gt.blockmachines.multimachine.tm.microwave.cfgo.1=剩余时间
+
+gt.blockmachines.multimachine.tm.teslaCoil.name=特斯拉电塔
+gt.blockmachines.multimachine.tm.teslaCoil.hint.0=1 - 基础仓室, 电容仓或特斯拉基座机械方块
+gt.blockmachines.multimachine.tm.teslaCoil.hint.1=2 - 钛框架
+gt.blockmachines.multimachine.tm.teslaCoil.desc.0=无线电源塔
+gt.blockmachines.multimachine.tm.teslaCoil.desc.1=讨厌的线缆不见啦!
+gt.blockmachines.multimachine.tm.teslaCoil.desc.2=可能会影响生存几率
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.0=迟滞低设置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.1=迟滞高设置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.2=特斯拉电塔传输半径设置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.3=特斯拉收发器传输半径设置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.4=加强特斯拉线圈帽传输半径设置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.5=输出电压设置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.6=输出电流设置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.7=最小扫描时间设置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.8=过载设置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.9=闲置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.0=特斯拉电塔传输半径显示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.1=特斯拉收发器传输半径显示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.2=加强特斯拉线圈帽传输半径显示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.3=输出电压显示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.4=输出电流显示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.5=能量容量显示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.6=已存储能量显示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.7=充能进度显示
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.8=扫描时间显示
+
+gt.blockmachines.multimachine.em.switch.name=QoS网络交换机
+gt.blockmachines.multimachine.em.switch.hint=1 - 基础仓室、光学连接端口或电子计算机机械方块
+gt.blockmachines.multimachine.em.switch.desc.0=用户控制的计算力路由
+gt.blockmachines.multimachine.em.switch.desc.1=服务质量是必须的
+
+gt.blockmachines.multimachine.em.computer.name=量子计算机
+gt.blockmachines.multimachine.em.computer.hint.0=1 - 基础仓室、光学连接端口或电子计算机机械方块
+gt.blockmachines.multimachine.em.computer.hint.1=2 - 计算机箱或进阶电子计算机械方块
+gt.blockmachines.multimachine.em.computer.desc=你需要它来处理上面的这串数字
+gt.blockmachines.multimachine.em.computer.cfgi.0=超频比
+gt.blockmachines.multimachine.em.computer.cfgi.1=过压比
+gt.blockmachines.multimachine.em.computer.cfgo.0=当前最大热量
+gt.blockmachines.multimachine.em.computer.cfgo.1=生成算力
+
+gt.blockmachines.multimachine.em.databank.name=数据库
+gt.blockmachines.multimachine.em.databank.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.databank.hint.1=2 - 数据访问仓、数据库主接口或电子计算机械方块
+gt.blockmachines.multimachine.em.databank.desc.0=远程装配数据传递
+gt.blockmachines.multimachine.em.databank.desc.1=直接应用于前部
+
+gt.blockmachines.multimachine.em.junction.name=物质流枢纽
+gt.blockmachines.multimachine.em.junction.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.junction.hint.1=2 - 元物质输入/出仓或分子机械方块
+gt.blockmachines.multimachine.em.junction.desc.0=中转物质流
+gt.blockmachines.multimachine.em.junction.desc.1=沿轴运动！
+
+gt.blockmachines.multimachine.em.mattertoem.name=物质量子化仪
+gt.blockmachines.multimachine.em.mattertoem.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.mattertoem.hint.1=2 - 元物质输出仓
+gt.blockmachines.multimachine.em.mattertoem.hint.2=3 - 元物质溢流仓或分子机械方块
+gt.blockmachines.multimachine.em.mattertoem.desc.0=方便地将常规物品转换为量子形态
+gt.blockmachines.multimachine.em.mattertoem.desc.1=使得它们更...不方便
+
+gt.blockmachines.multimachine.em.emtomatter.name=物质反量子化仪
+gt.blockmachines.multimachine.em.emtomatter.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.emtomatter.hint.1=2 - 元物质输入仓
+gt.blockmachines.multimachine.em.emtomatter.hint.2=3 - 元物质溢流仓或分子机械方块
+gt.blockmachines.multimachine.em.emtomatter.desc.0=将量子转化回
+gt.blockmachines.multimachine.em.emtomatter.desc.1=它们的常规形态...但为什么要这么做？
+
+gt.blockmachines.multimachine.em.emtoessentia.name=源质反量子化仪
+gt.blockmachines.multimachine.em.emtoessentia.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.emtoessentia.hint.1=2 - 元物质输入仓
+gt.blockmachines.multimachine.em.emtoessentia.hint.2=3 - 元物质溢流仓或分子机械方块
+gt.blockmachines.multimachine.em.emtoessentia.hint.3=通用 - 某种源质的储存方块
+gt.blockmachines.multimachine.em.emtoessentia.desc.0=将量子转化回
+gt.blockmachines.multimachine.em.emtoessentia.desc.1=它们的常规形态...但为什么要这么做？
+
+gt.blockmachines.multimachine.em.essentiatoem.name=源质量子化仪
+gt.blockmachines.multimachine.em.essentiatoem.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.essentiatoem.hint.1=2 - 元物质输出仓
+gt.blockmachines.multimachine.em.essentiatoem.hint.2=3 - 元物质溢流仓或分子机械方块
+gt.blockmachines.multimachine.em.essentiatoem.hint.3=通用 - 某种源质的储存方块
+gt.blockmachines.multimachine.em.essentiatoem.desc.0=方便地将常规物品转换为量子形态
+gt.blockmachines.multimachine.em.essentiatoem.desc.1=使得它们更...不方便
+
+gt.blockmachines.multimachine.em.scanner.name=元物质扫描仪
+gt.blockmachines.multimachine.em.scanner.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.scanner.hint.1=2 - 元物质输入仓或分子机械方块
+gt.blockmachines.multimachine.em.scanner.hint.2=3 - 元物质输出仓或分子机械方块
+gt.blockmachines.multimachine.em.scanner.hint.3=4 - 元物质溢流仓或分子机械方块
+gt.blockmachines.multimachine.em.scanner.desc.0=它是如何存在的？
+gt.blockmachines.multimachine.em.scanner.desc.1=我！不！知！道！(至少暂时是这样)
+
+gt.blockmachines.multimachine.em.research.name=研究站
+gt.blockmachines.multimachine.em.research.hint.0=1 - 基础仓室、光学连接端口或电子计算机械方块
+gt.blockmachines.multimachine.em.research.hint.1=2 - 物品固定容器
+gt.blockmachines.multimachine.em.research.desc.0=哲学家们甚至...
+gt.blockmachines.multimachine.em.research.desc.1=从来不曾梦见它！
+
+gt.blockmachines.multimachine.em.collider.name=物质对撞机
+gt.blockmachines.multimachine.em.collider.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.collider.hint.1=2 - 元物质输入仓或分子机械方块
+gt.blockmachines.multimachine.em.collider.hint.2=3 - 元物质输出仓或分子机械方块
+gt.blockmachines.multimachine.em.collider.hint.3=4 - 元物质溢流仓或分子机械方块
+gt.blockmachines.multimachine.em.collider.hint.4=通用 - 另一个控制器面向相反的方向
+gt.blockmachines.multimachine.em.collider.desc.0=以极高的速度使物质相碰撞
+gt.blockmachines.multimachine.em.collider.desc.1=比光*还快！！！
+gt.blockmachines.multimachine.em.collider.mode.0=模式：聚变
+gt.blockmachines.multimachine.em.collider.mode.1=模式：对撞
+gt.blockmachines.multimachine.em.collider.mode.2=模式：未定义
+gt.blockmachines.multimachine.em.collider.mode.3=从属于其他控制器
+
+gt.blockmachines.multimachine.em.infuser.name=能量注入仪
+gt.blockmachines.multimachine.em.infuser.hint=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.infuser.desc.0=急速的能量转移！
+gt.blockmachines.multimachine.em.infuser.desc.1=瞬间满电！
+gt.blockmachines.multimachine.em.infuser.desc.2=但坏掉的时候不会工作！
+gt.blockmachines.multimachine.em.infuser.desc.3=以及你需要考虑一下损耗...
+
+gt.blockmachines.multimachine.em.processing.name=量子加工机
+gt.blockmachines.multimachine.em.processing.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.processing.hint.1=2 - 元物质输入/出仓或分子机械方块
+gt.blockmachines.multimachine.em.processing.desc.0=从你最启用它开始...
+gt.blockmachines.multimachine.em.processing.desc.1=为你处理量子物质
+
+gt.blockmachines.multimachine.em.crafter.name=物质组装机
+gt.blockmachines.multimachine.em.crafter.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.crafter.hint.1=2 - 元物质输入/出仓或分子机械方块
+gt.blockmachines.multimachine.em.crafter.desc.0=以最精确的方法制造物品。
+gt.blockmachines.multimachine.em.crafter.desc.1=(跨过普朗克尺度的过程)
+
+gt.blockmachines.multimachine.em.stabilizer.name=元物质稳定器
+gt.blockmachines.multimachine.em.stabilizer.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.stabilizer.hint.1=2 - 元物质输入/出仓或分子机械方块
+gt.blockmachines.multimachine.em.stabilizer.desc.0=扭曲时间以稳定物质
+gt.blockmachines.multimachine.em.stabilizer.desc.1=Wibbly wobbly timey wimey stuff.(欣赏原文吧，表示给跪了，大意是时空摇摆不定)
+
+gt.blockmachines.multimachine.em.wormhole.name=虫洞
+gt.blockmachines.multimachine.em.wormhole.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.wormhole.hint.1=2 - 元物质输入/出仓或分子机械方块
+gt.blockmachines.multimachine.em.wormhole.desc.0=它并没有充满虫子。
+gt.blockmachines.multimachine.em.wormhole.desc.1=它充满了反虫子！！！
+
+#GET INFODATA IS FUCKED!
+gt.blockmachines.multimachine.em.decay.name=衰变发生器
+gt.blockmachines.multimachine.em.decay.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.decay.hint.1=2 - 元物质输入/出仓或分子机械方块
+gt.blockmachines.multimachine.em.decay.desc.0=它的周期太长了吗？
+gt.blockmachines.multimachine.em.decay.desc.1=那么就用它的半衰期(3)代替！
+gt.blockmachines.multimachine.em.decay.conf=分流器
+
+gt.blockmachines.multimachine.em.annihilation.name=湮灭发电机
+gt.blockmachines.multimachine.em.annihilation.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.annihilation.hint.1=2 - 元物质输入/出仓或分子机械方块
+gt.blockmachines.multimachine.em.annihilation.desc.0=物质和反物质并不是那么喜欢对方。
+gt.blockmachines.multimachine.em.annihilation.desc.1=质能转换!
+
+gt.blockmachines.multimachine.em.blackholegenerator.name=黑洞发生器
+gt.blockmachines.multimachine.em.blackholegenerator.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.blackholegenerator.hint.1=2 - 元物质输入/出仓或分子机械方块
+gt.blockmachines.multimachine.em.blackholegenerator.desc.0=基于奇点的能量获取
+gt.blockmachines.multimachine.em.blackholegenerator.desc.1=极端不稳定！！！
+
+#Keywords and phrases
+#Example: ID:3
+tt.keyword.ID=ID
+
+#Example: 32EU at 1A
+tt.keyword.at=at
+
+#These are Thaumcraft aspects
+tt.keyword.Air=风
+tt.keyword.Earth=地
+tt.keyword.Fire=火
+tt.keyword.Water=水
+tt.keyword.Order=秩序
+tt.keyword.Entropy=混沌
+tt.keyword.Primal=元始
+tt.keyword.Aspect=要素
+tt.keyword.CLASS=CLASS
+tt.keyword.NAME=名字
+tt.keyword.CHARGE=充能
+tt.keyword.COLORLESS=无色
+tt.keyword.MASS=物质
+tt.keyword.BOOM=BOOM!
+tt.keyword.Destination=目标
+tt.keyword.Weight=质量
+tt.keyword.Source=来源
+tt.keyword.Progress=过程
+tt.keyword.Computation=算力
+
+#Problemns as in maintanance issues
+tt.keyword.Problems=故障
+tt.keyword.Efficiency=效率
+
+#Button that allows to pass power to other machines
+tt.keyword.PowerPass=导能
+
+#Button that vents EM
+tt.keyword.SafeVoid=安全罩
+
+tt.keyphrase.LIFE_TIME=寿命
+tt.keyphrase.CARRIES_COLOR=有色
+tt.keyphrase.Hint_Details=提示细节
+tt.keyphrase.At_current_energy_level=在当前能级
+
+#Used when 0 Elemental Matter Stacks
+tt.keyphrase.No_Stacks=空
+tt.keyphrase.Contains_EM=存储元物质
+tt.keyphrase.Contained_mass=存储物质
+tt.keyphrase.Mass_Disposal_speed=清理速度
+tt.keyphrase.Muffler_BOOM=溢流BOOM!
+tt.keyphrase.Energy_Hatches=能源仓
+tt.keyphrase.Probably_uses=可能用到
+tt.keyphrase.Probably_makes=可能制作
+tt.keyphrase.Tier_Rating=等级
+tt.keyphrase.Amp_Rating=电流
+tt.keyphrase.Computation_Available=可用算力
+tt.keyphrase.Computation_Remaining=剩余算力
+
+#OpenTurrets compatibility
+tile.turretHeadEM.name=元物质炮塔
+tile.turretBaseEM.name=元物质炮塔基座
