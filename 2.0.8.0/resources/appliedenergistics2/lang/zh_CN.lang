@@ -325,6 +325,7 @@ gui.tooltips.appliedenergistics2.SchedulingModeRoundRobin=循环输出模式.
 gui.tooltips.appliedenergistics2.SchedulingModeRandom=随机输出模式.
 gui.tooltips.appliedenergistics2.ItemsStored=存储物品: %s
 gui.tooltips.appliedenergistics2.ItemsRequestable=可请求: %s
+gui.tooltips.appliedenergistics2.P2PFrequency=频率: %s
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
@@ -362,6 +363,10 @@ waila.appliedenergistics2.Unlocked=未锁定
 waila.appliedenergistics2.Showing=显示
 waila.appliedenergistics2.Contains=容纳
 waila.appliedenergistics2.Channels=%1$d / %2$d 频道
+waila.appliedenergistics2.P2PUnlinked=未链接
+waila.appliedenergistics2.P2PInputOneOutput=已链接(输入)
+waila.appliedenergistics2.P2PInputManyOutputs=已链接(输入)- %d 输出
+waila.appliedenergistics2.P2POutput=已链接(输出)
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=1k-ME存储元件
