@@ -2,29 +2,88 @@
 itemGroup.TecTech=泛银河泰克科技有限公司
 
 #Blocks
-tile.quantumGlass.name=量子玻璃
 tile.quantumStuff.name=量子物质
 
+tile.quantumGlass.name=量子玻璃
+tile.quantumGlass.desc.0=Dense yet transparent
+tile.quantumGlass.desc.1=Glassy & Classy
+
+tile.reactorSim.name=Reactor Simulator
+tile.reactorSim.desc.0=Fission Reaction Uncertainty Resolver 9001
+tile.reactorSim.desc.1=Explodes, but not as much...
+
 #Items
+item.em.programmer.name=AVR programmer
+item.em.programmer.desc.0=Current PC
+item.em.programmer.desc.1=Awoken
+item.em.programmer.desc.2=Active
+item.em.programmer.desc.3=Debug
+item.em.programmer.desc.4=Delay
+
 item.em.debugContainer.name=调试EM容器
+item.em.debugContainer.desc.0=Contains
+item.em.debugContainer.desc.1=Container for elemental matter
+item.em.debugContainer.desc.2=Right click on elemental hatches
+item.em.debugContainer.desc.3=---Unexpected Termination---
+
 item.em.definitionContainer.name=EM配方提示
+item.em.definitionContainer.desc.0=Should Contain
+item.em.definitionContainer.desc.1=Recipe Hint
+item.em.definitionContainer.desc.2=---Unexpected Termination---
+
 item.em.definitionScanStorage.name=EM容器扫描
+item.em.definitionScanStorage.desc.0=Contains scan result
+item.em.definitionScanStorage.desc.1=Use to read
+item.em.definitionScanStorage.desc.2=Storage for matter scan data
+item.em.definitionScanStorage.desc.3=---Unexpected Termination---
+
 item.em.constructable.name=多方块机器蓝图
-item.em.frontRotate.name=正面旋转扳手
-item.em.parametrizerMemoryCard.name=数据化储存卡
+item.em.constructable.desc.0=Triggers Constructable Interface
+item.em.constructable.desc.1=Shows multiblock construction details,
+item.em.constructable.desc.2=just Use on a multiblock controller.
+item.em.constructable.desc.3=(Sneak Use in creative to build)
+item.em.constructable.desc.4=Quantity affects tier/mode/type
+
 item.em.EuMeterGT.name=GT EU电表
-item.tm.teslaCover.0.name=特斯拉线圈帽
-item.tm.teslaCover.1.name=加强特斯拉线圈帽
-item.tm.teslaStaff.name=特斯拉权杖
+item.em.EuMeterGT.desc.0=Measures basic EU related stuff
+item.em.EuMeterGT.desc.1=Just right click on blocks.
+
+item.em.frontRotate.name=正面旋转扳手
+item.em.frontRotate.desc.0=Triggers Front Rotation Interface
+item.em.frontRotate.desc.1=Rotates only the front panel,
+item.em.frontRotate.desc.2=which allows structure rotation.
+
+item.em.parametrizerMemoryCard.name=数据化储存卡
+item.em.parametrizerMemoryCard.desc.0=Stores Parameters
+item.em.parametrizerMemoryCard.desc.1=Use on Parametrizer/Controller to configure it
+item.em.parametrizerMemoryCard.desc.2=Use on Parametrizer to store parameters
+item.em.parametrizerMemoryCard.desc.3=Sneak right click to lock/unlock
 
 item.tm.teslaCoilCapacitor.0.name=LV特斯拉电容
 item.tm.teslaCoilCapacitor.1.name=MV特斯拉电容
 item.tm.teslaCoilCapacitor.2.name=HV特斯拉电容
 item.tm.teslaCoilCapacitor.3.name=EV特斯拉电容
 item.tm.teslaCoilCapacitor.4.name=IV特斯拉电容
+item.tm.teslaCoilCapacitor.desc.0=Stores
+item.tm.teslaCoilCapacitor.desc.1=EU in a tesla tower at
+item.tm.teslaCoilCapacitor.desc.2=Yeet this broken item into some spicy water!
+item.tm.teslaCoilCapacitor.desc.3=Insert into a Capacitor hatch of a Tesla Tower
+item.tm.teslaCoilCapacitor.desc.4=Capacitors are the same thing as batteries, right?
 
 item.tm.itemTeslaComponent.0.name=琥珀金特斯拉绕组
 item.tm.itemTeslaComponent.1.name=超导特斯拉绕组
+item.tm.itemTeslaComponent.desc=Tesla bois need these!
+
+item.tm.teslaCover.0.name=特斯拉线圈帽
+item.tm.teslaCover.1.name=加强特斯拉线圈帽
+item.tm.teslaCover.desc.0=Tesla-Enables Machines!
+item.tm.teslaCover.desc.1=Tesla-Enables Machines! (BUT LOUDER!!)
+item.tm.teslaCover.desc.2=Yeet this broken item into some spicy water!
+item.tm.teslaCover.desc.3=Use on top of a machine to enable Tesla capabilities
+item.tm.teslaCover.desc.4=Who the hell uses cables anyway?
+
+item.tm.teslaStaff.name=特斯拉权杖
+item.tm.teslaStaff.desc=Power of the gods, at the whim of a mortal!
 
 #Death Messages
 death.attack.microwaving=%1$s被辐射脱水。
@@ -248,70 +307,70 @@ gt.blockmachines.hatch.dynamomulti64.tier.13.name=64安IV动力仓
 gt.blockmachines.hatch.dynamomulti.desc.0=从多方块机器以高电流输出能源
 gt.blockmachines.hatch.dynamomulti.desc.1=输出电流
 
-gt.blockmachines.hatch.dynamotunnel1.tier.05=IV 256/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel2.tier.05=IV 1024/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel3.tier.05=IV 4096/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel4.tier.05=IV 16384/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.05=IV 65536/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.05=IV 262144/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.05=IV 1048576/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel1.tier.06=LuV 256/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel2.tier.06=LuV 1024/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel3.tier.06=LuV 4096/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel4.tier.06=LuV 16384/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.06=LuV 65536/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.06=LuV 262144/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.06=LuV 1048576/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel1.tier.07=ZPM 256/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel2.tier.07=ZPM 1024/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel3.tier.07=ZPM 4096/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel4.tier.07=ZPM 16384/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.07=ZPM 65536/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.07=ZPM 262144/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.07=ZPM 1048576/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel1.tier.08=UV 256/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel2.tier.08=UV 1024/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel3.tier.08=UV 4096/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel4.tier.08=UV 16384/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.08=UV 65536/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.08=UV 262144/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.08=UV 1048576/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel1.tier.09=UHV 256/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel2.tier.09=UHV 1024/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel3.tier.09=UHV 4096/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel4.tier.09=UHV 16384/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.09=UHV 65536/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.09=UHV 262144/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.09=UHV 1048576/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel1.tier.10=UEV 256/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel2.tier.10=UEV 1024/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel3.tier.10=UEV 4096/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel4.tier.10=UEV 16384/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.10=UEV 65536/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.10=UEV 262144/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.10=UEV 1048576/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel1.tier.11=UIV 256/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel2.tier.11=UIV 1024/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel3.tier.11=UIV 4096/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel4.tier.11=UIV 16384/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.11=UIV 65536/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.11=UIV 262144/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.11=UIV 1048576/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel1.tier.12=UMV 256/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel2.tier.12=UMV 1024/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel3.tier.12=UMV 4096/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel4.tier.12=UMV 16384/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.12=UMV 65536/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.12=UMV 262144/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.12=UMV 1048576/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel1.tier.13=UXV 256/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel2.tier.13=UXV 1024/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel3.tier.13=UXV 4096/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel4.tier.13=UXV 16384/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.13=UXV 65536/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.13=UXV 262144/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.13=UXV 1048576/t 激光源仓
-gt.blockmachines.hatch.dynamotunnel.tier.14=传奇激光源仓
+gt.blockmachines.hatch.dynamotunnel1.tier.05.name=IV 256/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel2.tier.05.name=IV 1024/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel3.tier.05.name=IV 4096/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel4.tier.05.name=IV 16384/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel5.tier.05.name=IV 65536/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel6.tier.05.name=IV 262144/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel7.tier.05.name=IV 1048576/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel1.tier.06.name=LuV 256/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel2.tier.06.name=LuV 1024/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel3.tier.06.name=LuV 4096/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel4.tier.06.name=LuV 16384/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel5.tier.06.name=LuV 65536/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel6.tier.06.name=LuV 262144/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel7.tier.06.name=LuV 1048576/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel1.tier.07.name=ZPM 256/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel2.tier.07.name=ZPM 1024/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel3.tier.07.name=ZPM 4096/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel4.tier.07.name=ZPM 16384/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel5.tier.07.name=ZPM 65536/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel6.tier.07.name=ZPM 262144/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel7.tier.07.name=ZPM 1048576/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel1.tier.08.name=UV 256/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel2.tier.08.name=UV 1024/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel3.tier.08.name=UV 4096/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel4.tier.08.name=UV 16384/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel5.tier.08.name=UV 65536/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel6.tier.08.name=UV 262144/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel7.tier.08.name=UV 1048576/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel1.tier.09.name=UHV 256/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel2.tier.09.name=UHV 1024/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel3.tier.09.name=UHV 4096/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel4.tier.09.name=UHV 16384/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel5.tier.09.name=UHV 65536/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel6.tier.09.name=UHV 262144/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel7.tier.09.name=UHV 1048576/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel1.tier.10.name=UEV 256/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel2.tier.10.name=UEV 1024/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel3.tier.10.name=UEV 4096/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel4.tier.10.name=UEV 16384/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel5.tier.10.name=UEV 65536/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel6.tier.10.name=UEV 262144/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel7.tier.10.name=UEV 1048576/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel1.tier.11.name=UIV 256/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel2.tier.11.name=UIV 1024/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel3.tier.11.name=UIV 4096/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel4.tier.11.name=UIV 16384/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel5.tier.11.name=UIV 65536/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel6.tier.11.name=UIV 262144/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel7.tier.11.name=UIV 1048576/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel1.tier.12.name=UMV 256/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel2.tier.12.name=UMV 1024/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel3.tier.12.name=UMV 4096/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel4.tier.12.name=UMV 16384/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel5.tier.12.name=UMV 65536/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel6.tier.12.name=UMV 262144/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel7.tier.12.name=UMV 1048576/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel1.tier.13.name=UXV 256/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel2.tier.13.name=UXV 1024/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel3.tier.13.name=UXV 4096/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel4.tier.13.name=UXV 16384/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel5.tier.13.name=UXV 65536/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel6.tier.13.name=UXV 262144/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel7.tier.13.name=UXV 1048576/t Laser Source Hatch
+gt.blockmachines.hatch.dynamotunnel.tier.14.name=Legendary Laser Source Hatch
 gt.blockmachines.hatch.dynamotunnel.desc.0=多方块机器的能量输出端
 gt.blockmachines.hatch.dynamotunnel.desc.1=通量
 
@@ -331,6 +390,146 @@ gt.blockmachines.emout.tier.12.name=UMV元物质输出仓
 gt.blockmachines.emout.tier.13.name=UXV元物质输出仓
 gt.blockmachines.emout.desc=多方块机器的元物质输出
 
+#TODO change tier.05 to tier.04
+gt.blockmachines.hatch.param.tier.05.name=Parametrizer
+gt.blockmachines.hatch.param.tier.07.name=Parametrizer X
+gt.blockmachines.hatch.param.tier.10.name=Parametrizer tXt
+gt.blockmachines.hatch.param.desc.0=For parametrization of Multiblocks
+gt.blockmachines.hatch.param.desc.1=E=mine*craft
+
+gt.blockmachines.hatch.certain.tier.07.name=Uncertainty Resolver
+gt.blockmachines.hatch.certain.tier.10.name=Uncertainty Resolver X
+gt.blockmachines.hatch.certain.desc.0=Feeling certain, or not?
+gt.blockmachines.hatch.certain.desc.1=Schrödinger equation in a box
+
+gt.blockmachines.hatch.datain.tier.07.name=Optical Slave Connector
+gt.blockmachines.hatch.datain.desc.0=Quantum Data Input for Multiblocks
+gt.blockmachines.hatch.datain.desc.1=High speed fibre optics connector.
+gt.blockmachines.hatch.datain.desc.2=Must be painted to work
+
+gt.blockmachines.hatch.dataout.tier.07.name=Optical Master Connector
+gt.blockmachines.hatch.dataout.desc.0=Quantum Data Output for Multiblocks
+gt.blockmachines.hatch.dataout.desc.1=High speed fibre optics connector.
+gt.blockmachines.hatch.dataout.desc.2=Must be painted to work
+
+gt.blockmachines.hatch.datainass.tier.07.name=Assembly line Slave Connector
+gt.blockmachines.hatch.datainass.desc.0=ItemStack Data Input for Multiblocks
+gt.blockmachines.hatch.datainass.desc.1=High speed fibre optics connector.
+gt.blockmachines.hatch.datainass.desc.2=Must be painted to work
+
+gt.blockmachines.hatch.dataoutass.tier.07.name=Data Bank Master Connector
+gt.blockmachines.hatch.dataoutass.desc.0=ItemStack Data Output for Multiblocks
+gt.blockmachines.hatch.dataoutass.desc.1=High speed fibre optics connector.
+gt.blockmachines.hatch.dataoutass.desc.2=Must be painted to work
+
+gt.blockmachines.hatch.rack.tier.08.name=Computer Rack
+gt.blockmachines.hatch.rack.desc.0=4 Slot Rack
+gt.blockmachines.hatch.rack.desc.1=Holds Computer Components
+gt.blockmachines.hatch.holder.tier.09.name=Object Holder
+gt.blockmachines.hatch.holder.desc.0=For Research Station
+gt.blockmachines.hatch.holder.desc.1=Advanced Holding Mechanism!
+gt.blockmachines.hatch.capacitor.tier.03.name=Capacitor Hatch
+gt.blockmachines.hatch.capacitor.desc.0=For Tesla Tower
+gt.blockmachines.hatch.capacitor.desc.1=Stores 'nergy! (for a while)
+
+#Casings
+gt.blockcasingsNH.10.name=UEV Machine Casing
+gt.blockcasingsNH.11.name=UIV Machine Casing
+gt.blockcasingsNH.12.name=UMV Machine Casing
+gt.blockcasingsNH.13.name=UXV Machine Casing
+gt.blockcasingsNH.14.name=OPV Machine Casing
+gt.blockcasingsNH.15.name=MAX Machine Casing
+
+gt.blockhintTT.desc.0=Helps while building
+gt.blockhintTT.0.name=Hint 1 dot
+gt.blockhintTT.1.name=Hint 2 dot
+gt.blockhintTT.2.name=Hint 3 dot
+gt.blockhintTT.3.name=Hint 4 dot
+gt.blockhintTT.4.name=Hint 5 dot
+gt.blockhintTT.5.name=Hint 6 dot
+gt.blockhintTT.6.name=Hint 7 dot
+gt.blockhintTT.7.name=Hint 8 dot
+gt.blockhintTT.8.name=Hint 9 dot
+gt.blockhintTT.9.name=Hint 10 dot
+gt.blockhintTT.10.name=Hint 11 dot
+gt.blockhintTT.11.name=Hint 12 dot
+gt.blockhintTT.desc.1=Placeholder for a certain group.
+gt.blockhintTT.12.name=Hint general
+gt.blockhintTT.desc.2=General placeholder.
+gt.blockhintTT.13.name=Hint air
+gt.blockhintTT.desc.3=Make sure it contains Air material.
+gt.blockhintTT.14.name=Hint no air
+gt.blockhintTT.desc.4=Make sure it does not contain Air material.
+gt.blockhintTT.15.name=Hint error
+gt.blockhintTT.desc.5=ERROR, what did u expect?
+
+gt.blockcasingsTT.0.name=High Power Casing
+gt.blockcasingsTT.0.desc.0=Well suited for high power applications.
+gt.blockcasingsTT.0.desc.1=The power levels are rising!
+gt.blockcasingsTT.1.name=Computer Casing
+gt.blockcasingsTT.1.desc.0=Nice and clean casing.
+gt.blockcasingsTT.1.desc.1=Dust can break it!?
+gt.3blockcasingsTT.2.name=Computer Heat Vent
+gt.blockcasingsTT.2.desc.0=Air vent with a filter.
+gt.blockcasingsTT.2.desc.1=Perfectly muffled sound!
+gt.blockcasingsTT.3.name=Advanced Computer Casing
+gt.blockcasingsTT.3.desc.0=Contains high bandwidth bus
+gt.blockcasingsTT.3.desc.1=couple thousand qubits wide.
+gt.blockcasingsTT.4.name=Molecular Casing
+gt.blockcasingsTT.4.desc.0=Stops elemental things.
+gt.blockcasingsTT.4.desc.1=Radiation and emotions too...
+gt.blockcasingsTT.5.name=Advanced Molecular Casing
+gt.blockcasingsTT.5.desc.0=Cooling and stabilization.
+gt.blockcasingsTT.5.desc.1=A comfortable machine bed.
+gt.blockcasingsTT.6.name=Containment Field Generator
+gt.blockcasingsTT.6.desc.0=Creates a field that...
+gt.blockcasingsTT.6.desc.1=can stop even force carriers.
+gt.blockcasingsTT.7.name=Molecular Coil
+gt.blockcasingsTT.7.desc.0=Well it does things too...
+gt.blockcasingsTT.7.desc.1=[Use this coil!]
+gt.blockcasingsTT.8.name=Hollow Casing
+gt.blockcasingsTT.8.desc.0=Reinforced accelerator tunnel.
+gt.blockcasingsTT.8.desc.1=Most advanced pipe ever.
+gt.blockcasingsTT.9.name=Spacetime Altering Casing
+gt.blockcasingsTT.9.desc.0=c is no longer the limit.
+gt.blockcasingsTT.9.desc.1=Wibbly wobbly timey wimey stuff.
+gt.blockcasingsTT.10.name=Teleportation Casing
+gt.blockcasingsTT.10.desc.0=Remote connection.
+gt.blockcasingsTT.10.desc.1=Better touch with a stick.
+gt.blockcasingsTT.11.name=Dimensional Bridge Generator
+gt.blockcasingsTT.11.desc.0=Interdimensional Operations.
+gt.blockcasingsTT.11.desc.1=Around the universe and other places too.
+gt.blockcasingsTT.12.name=Ultimate Molecular Casing
+gt.blockcasingsTT.12.desc.0=Ultimate in every way.
+gt.blockcasingsTT.12.desc.1=I don't know what it can't do.
+gt.blockcasingsTT.13.name=Ultimate Advanced Molecular Casing
+gt.blockcasingsTT.13.desc.0=More Ultimate in every way.
+gt.blockcasingsTT.13.desc.1=I don't know what I am doing!
+gt.blockcasingsTT.14.name=Ultimate Containment Field Generator
+gt.blockcasingsTT.14.desc.0=Black Hole...
+gt.blockcasingsTT.14.desc.1=Meh...
+gt.blockcasingsTT.15.name=Debug Sides
+gt.blockcasingsTT.15.desc.0=Lazy man way of determining sides.
+gt.blockcasingsTT.15.desc.1=0, 1, 2, 3, 4, 5, 6?!
+
+gt.blockcasingsBA0.0.name=Redstone Alloy Primary Tesla Windings
+gt.blockcasingsBA0.1.name=MV Superconductor Primary Tesla Windings
+gt.blockcasingsBA0.2.name=HV Superconductor Primary Tesla Windings
+gt.blockcasingsBA0.3.name=EV Superconductor Primary Tesla Windings
+gt.blockcasingsBA0.4.name=IV Superconductor Primary Tesla Windings
+gt.blockcasingsBA0.5.name=LuV Superconductor Primary Tesla Windings
+gt.blockcasingsBA0.0.desc.0=Handles up to
+gt.blockcasingsBA0.0.desc.1=What one man calls God, another calls the laws of physics.
+gt.blockcasingsBA0.6.name=Tesla Base Casing
+gt.blockcasingsBA0.6.desc.0=The base of a wondrous contraption
+gt.blockcasingsBA0.6.desc.1=it's alive, IT'S ALIVE!
+gt.blockcasingsBA0.7.name=Tesla Toroid Casing
+gt.blockcasingsBA0.7.desc.0=Made out of the finest tin foil!
+gt.blockcasingsBA0.7.desc.1=Faraday suits might come later
+gt.blockcasingsBA0.8.name=Tesla Secondary Windings
+gt.blockcasingsBA0.8.desc.0=Picks up power from a primary coil
+gt.blockcasingsBA0.8.desc.1=Who wouldn't want a 32k epoxy multi?
+
 #Multiblocks
 gt.blockmachines.multimachine.em.transformer.name=有源变压器
 gt.blockmachines.multimachine.em.transformer.hint=1 - 能源仓、动力仓或超能机械方块
@@ -343,7 +542,7 @@ gt.blockmachines.multimachine.tm.microwave.hint.0=1 - 基础仓室或洁净不�
 gt.blockmachines.multimachine.tm.microwave.hint.1=也像个漏斗,所以给它个输出总线吧
 gt.blockmachines.multimachine.tm.microwave.desc.0=高频烤炉
 gt.blockmachines.multimachine.tm.microwave.desc.1=从生物到食物，只在转瞬之间!
-gt.blockmachines.multimachine.tm.microwave.desc.3=我说用核弹...我的意思是把晚餐放进微波炉!
+gt.blockmachines.multimachine.tm.microwave.desc.2=I said nuke the... I meant microwave supper!
 gt.blockmachines.multimachine.tm.microwave.cfgi.0=功率设置
 gt.blockmachines.multimachine.tm.microwave.cfgi.1=时间设置
 gt.blockmachines.multimachine.tm.microwave.cfgo.0=时间
@@ -489,7 +688,6 @@ gt.blockmachines.multimachine.em.wormhole.hint.1=2 - 元物质输入/出仓或�
 gt.blockmachines.multimachine.em.wormhole.desc.0=它并没有充满虫子。
 gt.blockmachines.multimachine.em.wormhole.desc.1=它充满了反虫子！！！
 
-#GET INFODATA IS FUCKED!
 gt.blockmachines.multimachine.em.decay.name=衰变发生器
 gt.blockmachines.multimachine.em.decay.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.decay.hint.1=2 - 元物质输入/出仓或分子机械方块
@@ -509,13 +707,84 @@ gt.blockmachines.multimachine.em.blackholegenerator.hint.1=2 - 元物质输入/�
 gt.blockmachines.multimachine.em.blackholegenerator.desc.0=基于奇点的能量获取
 gt.blockmachines.multimachine.em.blackholegenerator.desc.1=极端不稳定！！！
 
+#Pipes
+gt.blockmachines.pipe.elementalmatter.name=Quantum "Tunnel"
+gt.blockmachines.pipe.elementalmatter.desc.0=Quantum tunneling device.
+gt.blockmachines.pipe.elementalmatter.desc.1=Not a portal!!!
+gt.blockmachines.pipe.elementalmatter.desc.2=Must be painted to work
+gt.blockmachines.pipe.elementalmatter.desc.3=Do not cross, split or turn
+
+gt.blockmachines.pipe.energystream.name=Laser Vacuum Pipe
+gt.blockmachines.pipe.energystream.desc.0=Laser tunneling device.
+gt.blockmachines.pipe.energystream.desc.1=Bright Vacuum!!!
+gt.blockmachines.pipe.energystream.desc.2=Must be painted to work
+gt.blockmachines.pipe.energystream.desc.3=Do not split or turn
+
+gt.blockmachines.pipe.datastream.name=Optical Fiber Cable
+gt.blockmachines.pipe.datastream.desc.0=Advanced data transmission
+gt.blockmachines.pipe.datastream.desc.1=Don't stare at the beam!
+gt.blockmachines.pipe.datastream.desc.2=Must be painted to work
+gt.blockmachines.pipe.datastream.desc.3=Do not cross or split
+
+#Single blocks
+gt.blockmachines.machine.tt.ownerdetector.name=Owner detector
+gt.blockmachines.machine.tt.ownerdetector.desc.0=Screwdrive to change mode
+gt.blockmachines.machine.tt.ownerdetector.desc.1=Looks for his pa
+gt.blockmachines.machine.tt.ownerdetector.desc.2=Emits signal when happy
+
+gt.blockmachines.machine.tt.datareader.name=Data Reader
+gt.blockmachines.machine.tt.datareader.desc.0=Reads Data Sticks and Orbs
+gt.blockmachines.machine.tt.datareader.desc.1=Power it up and
+gt.blockmachines.machine.tt.datareader.desc.2=Put the data storage in
+
+gt.blockmachines.machine.tt.buck.05.name=Insane Buck Converter
+gt.blockmachines.machine.tt.buck.06.name=Ludicrous Buck Converter
+gt.blockmachines.machine.tt.buck.07.name=ZPM Voltage Buck Converter
+gt.blockmachines.machine.tt.buck.08.name=Ultimate Power Buck Converter
+gt.blockmachines.machine.tt.buck.09.name=Highly Ultimate Buck Converter
+gt.blockmachines.machine.tt.buck.10.name=Extremely Ultimate Buck Converter
+gt.blockmachines.machine.tt.buck.11.name=Insanely Ultimate Buck Converter
+gt.blockmachines.machine.tt.buck.12.name=Mega Ultimate Buck Converter
+gt.blockmachines.machine.tt.buck.13.name=Extended Mega Ultimate Buck Converter
+gt.blockmachines.machine.tt.buck.desc.0=Electronic voltage regulator
+gt.blockmachines.machine.tt.buck.desc.1=Adjustable step down transformer
+gt.blockmachines.machine.tt.buck.desc.2=Switching power supply...
+
+gt.blockmachines.machine.tt.tesla.01.name=Basic Tesla Transceiver
+gt.blockmachines.machine.tt.tesla.02.name=Advanced Tesla Transceiver
+gt.blockmachines.machine.tt.tesla.03.name=Epyc Tesla Transceiver
+gt.blockmachines.machine.tt.tesla.04.name=Ultimate Power Tesla Transceiver
+gt.blockmachines.machine.tt.tesla.05.name=Insane Tesla Transceiver
+gt.blockmachines.machine.tt.tesla.desc.0=Your Tesla I/O machine of choice
+gt.blockmachines.machine.tt.tesla.desc.1=Lightning stoves for the rich
+
+#Debug blocks
+gt.blockmachines.debug.tt.pollutor.name=Debug Pollution Generator
+gt.blockmachines.debug.tt.pollutor.desc.0=Shit genny broke!
+gt.blockmachines.debug.tt.pollutor.desc.1=Infinite Producer/Consumer
+gt.blockmachines.debug.tt.pollutor.desc.2=Since i wanted one...
+gt.blockmachines.debug.tt.data.name=Debug Data Hatch
+gt.blockmachines.debug.tt.data.desc.0=Quantum Data Output
+gt.blockmachines.debug.tt.data.desc.1=High speed fibre optics connector.
+gt.blockmachines.debug.tt.data.desc.2=Must be painted to work
+gt.blockmachines.debug.tt.maintenance.name=Debug Maintenance Hatch
+gt.blockmachines.debug.tt.maintenance.desc.0=For maintaining Multiblocks
+gt.blockmachines.debug.tt.maintenance.desc.1=Does fix everything but itself.
+gt.blockmachines.debug.tt.maintenance.desc.2=Fixing is for plebs!
+gt.blockmachines.debug.tt.genny.name=Debug Power Generator
+gt.blockmachines.debug.tt.genny.desc.0=Power from nothing
+gt.blockmachines.debug.tt.genny.desc.1=Infinite Producer/Consumer
+gt.blockmachines.debug.tt.genny.desc.2=Since i wanted one...
+gt.blockmachines.debug.tt.writer.name=Debug Structure Writer
+gt.blockmachines.debug.tt.writer.desc.0=Scans Blocks Around
+gt.blockmachines.debug.tt.writer.desc.1=Prints Multiblock NonTE structure check code
+gt.blockmachines.debug.tt.writer.desc.2=ABC axises aligned to machine front
+
 #Keywords and phrases
 #Example: ID:3
 tt.keyword.ID=ID
-
 #Example: 32EU at 1A
 tt.keyword.at=at
-
 #These are Thaumcraft aspects
 tt.keyword.Air=风
 tt.keyword.Earth=地
@@ -536,22 +805,26 @@ tt.keyword.Weight=质量
 tt.keyword.Source=来源
 tt.keyword.Progress=过程
 tt.keyword.Computation=算力
-
 #Problemns as in maintanance issues
 tt.keyword.Problems=故障
 tt.keyword.Efficiency=效率
-
 #Button that allows to pass power to other machines
 tt.keyword.PowerPass=导能
-
 #Button that vents EM
 tt.keyword.SafeVoid=安全罩
+tt.keyword.Parametrizer=Parametrizer
+tt.keyword.Value=Value
+tt.keyword.Input=Input
+tt.keyword.input=input
+tt.keyword.output=output
+tt.keyword.Status=Status
+tt.keyword.Content=Content
+tt.keyword.PacketHistory=PacketHistory
 
 tt.keyphrase.LIFE_TIME=寿命
 tt.keyphrase.CARRIES_COLOR=有色
 tt.keyphrase.Hint_Details=提示细节
 tt.keyphrase.At_current_energy_level=在当前能级
-
 #Used when 0 Elemental Matter Stacks
 tt.keyphrase.No_Stacks=空
 tt.keyphrase.Contains_EM=存储元物质
@@ -565,6 +838,26 @@ tt.keyphrase.Tier_Rating=等级
 tt.keyphrase.Amp_Rating=电流
 tt.keyphrase.Computation_Available=可用算力
 tt.keyphrase.Computation_Remaining=剩余算力
+tt.keyphrase.Content_Stack_Count=Content: Stack Count
+tt.keyphrase.Base_computation=Base computation
+tt.keyphrase.After_overclocking=After overclocking
+tt.keyphrase.Heat_Accumulated=Heat Accumulated
+tt.keyphrase.Running_interdimensional_scan=Running interdimensional scan
+tt.keyphrase.Running_local_dimension_scan=Running local dimension scan
+tt.keyphrase.Overdrive_disengaged=Overdrive disengaged
+tt.keyphrase.Overdrive_engaged=Overdrive engaged
+tt.keyphrase.Hysteresis_high_set_to=Hysteresis high set to
+tt.keyphrase.Hysteresis_low_set_to=Hysteresis low set to
+tt.keyphrase.Tesla_radius_set_to=Tesla radius set to
+tt.keyphrase.Sending_power=Sending power
+tt.keyphrase.Receiving_power=Receiving power
+tt.keyphrase.Stored_energy=Stored energy
+tt.keyphrase.Stored_EU=Stored EU
+tt.keyphrase.Average_IO=Average I/O
+tt.keyphrase.Average_IO_(max)=Voltage I/O (max)
+tt.keyphrase.Average_IO_max=Voltage I/O max
+tt.keyphrase.Amperage_IO_(max)=Amperage I/O (max)
+tt.keyphrase.Side_capabilities=Side capabilities
 
 #OpenTurrets compatibility
 tile.turretHeadEM.name=元物质炮塔
