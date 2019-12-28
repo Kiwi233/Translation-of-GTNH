@@ -458,6 +458,12 @@ recipes.remove(<minecraft:saddle>);
 // --- Packed Ice
 recipes.removeShaped(<minecraft:packed_ice> * 4);
 
+// --- Lapis Blocks
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2526>);
+
+// --- Emerald Blocks
+recipes.removeShapeless(<gregtech:gt.metaitem.01:2501>);
+
 
 // --- Wool ---
 
@@ -1313,12 +1319,6 @@ recipes.addShaped(Hopper, [
 [IronPlate, Chest, IronPlate],
 [IronPlate, IronGear, IronPlate],
 [HHammer, IronPlate, <ore:craftingToolFile>]]);
-
-// --- Packed Ice
-recipes.addShaped(<minecraft:packed_ice>, [
-[<minecraft:ice>, <minecraft:ice>, null],
-[<minecraft:ice>, <minecraft:ice>, null],
-[null, null, null]]);
 
 
 
@@ -2870,8 +2870,8 @@ ArcFurnace.addRecipe([<minecraft:glass> * 2], <minecraft:sand>, <liquid:oxygen> 
 // --- Assembler Recipes ---
 
 
-
-
+// --- String
+Assembler.addRecipe(<minecraft:string>, <Natura:barleyFood:3> * 2, <gregtech:gt.integrated_circuit:1> * 0, 200, 24);
 
 // --- Hay Block
 Assembler.addRecipe(<minecraft:hay_block>, <minecraft:wheat> * 9, <minecraft:string> * 2, 200, 30);
