@@ -8,6 +8,7 @@
 //import mods.gregtech.BlastFurnace;
 import mods.gregtech.FormingPress;
 import mods.gregtech.Mixer;
+import mods.gregtech.CuttingSaw;
 
 
 
@@ -69,6 +70,59 @@ recipes.remove(<witchery:spinningwheel>);
 // --- Distillery
 recipes.remove(<witchery:distilleryidle>);
 
+// --- Demonic Contract
+recipes.remove(<witchery:ingredient:140>);
+
+// --- Bone Needle
+recipes.remove(<witchery:ingredient:7>);
+
+// --- Book of Herbology
+recipes.remove(<witchery:ingredient:81>);
+
+// --- Book of Biome
+recipes.remove(<witchery:ingredient:106>);
+
+// --- Book of Conjuration and Fetishes
+recipes.remove(<witchery:ingredient:127>);
+
+// --- Book of Collection Fumes
+recipes.remove(<witchery:ingredient:46>);
+
+// --- Book of Symbology
+recipes.remove(<witchery:ingredient:107>);
+
+// --- Book of Brews
+recipes.remove(<witchery:cauldronbook>);
+
+// --- Book of Distillation
+recipes.remove(<witchery:ingredient:47>);
+
+// --- Book of Circle Magic
+recipes.remove(<witchery:ingredient:48>);
+
+// --- Book of Brews and Infusions
+recipes.remove(<witchery:ingredient:49>);
+
+// --- Ritual Chalk
+recipes.remove(<witchery:chalkritual>);
+
+// --- Circle Talisman
+recipes.remove(<witchery:circletalisman>);
+
+// --- Earmuffs
+recipes.remove(<witchery:earmuffs>);
+
+// --- Attuned Stone
+recipes.remove(<witchery:ingredient:10>);
+
+// --- Quartz Sphere
+recipes.remove(<witchery:ingredient:92>);
+
+// --- Waystone
+recipes.remove(<witchery:ingredient:12>);
+
+
+
 
 
 // --- Adding Recipes ---
@@ -87,21 +141,93 @@ recipes.addShaped(<witchery:seedswormwood>, [
 // --- Null Catalyst doublication
 recipes.addShapeless(<witchery:ingredient:130> * 2, [<witchery:ingredient:130>, <minecraft:magma_cream>, <minecraft:blaze_powder>, <ore:dustTinyNetherStar>]);
 
-// --- Quicklime 
-recipes.addShapeless(<witchery:ingredient:16>, [<gregtech:gt.metaitem.01:2622>]);
+// --- Demonic Contract
+recipes.addShaped(<witchery:ingredient:140>, [
+[<ore:platePaper>, <ore:string>, <ore:platePaper>],
+[<ore:string>, <witchery:ingredient:163>, <ore:string>],
+[<ore:platePaper>, <ore:string>, <ore:platePaper>]]);
+
+// --- Bone Needle
+recipes.addShapeless(<witchery:ingredient:7> * 4, [<minecraft:bone>, <ore:craftingToolKnife>]);
+
+// --- Book of Herbology
+recipes.addShaped(<witchery:ingredient:81>, [
+[<witchery:ingredient:22>, <witchery:ingredient:21>, <witchery:garlic>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:69>, <witchery:ingredient:156>, <witchery:ingredient:111>]]);
+
+// --- Book of Biome
+recipes.addShaped(<witchery:ingredient:106>, [
+[<minecraft:stained_hardened_clay>, <BiomesOPlenty:mud:1>, <minecraft:mycelium>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<minecraft:netherrack>, <minecraft:dirt:2>, <TConstruct:CraftedSoil:5>]]);
+
+// --- Book of Conjuration and Fetishes
+recipes.addShaped(<witchery:ingredient:127>, [
+[<witchery:poppet>.withTag({WITCDamage: 0}), <witchery:ingredient:7>, <witchery:ingredient:14>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:74>, <witchery:ingredient:25>, <witchery:ingredient:90>]]);
+
+// --- Book of Collection Fumes
+recipes.addShaped(<witchery:ingredient:46>, [
+[<witchery:ingredient:27>, <witchery:ingredient:27>, <witchery:ingredient:27>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:27>, <witchery:ingredient:27>, <witchery:ingredient:27>]]);
+
+// --- Book of Brews
+recipes.addShaped(<witchery:cauldronbook>, [
+[<witchery:ingredient:31>, <witchery:ingredient:33>, <witchery:ingredient:32>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:34>, <witchery:ingredient:35>, <witchery:ingredient:28>]]);
+
+// --- Book of Symbology
+recipes.addShaped(<witchery:ingredient:107>, [
+[<witchery:chalkritual>, <witchery:circletalisman>, <witchery:chalkritual>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:glintweed>, <witchery:ingredient:78>, <witchery:grassper>]]);
+
+// --- Book of Distillation
+recipes.addShaped(<witchery:ingredient:47>, [
+[<witchery:ingredient:27>, <witchery:ingredient:10>, <witchery:ingredient:27>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:27>, <witchery:cauldron>, <witchery:ingredient:27>]]);
+
+// --- Book of Circle Magic
+recipes.addShaped(<witchery:ingredient:48>, [
+[<witchery:ingredient:17>, <witchery:ingredient:37>, <witchery:ingredient:17>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:17>, <witchery:ingredient:37>, <witchery:ingredient:17>]]);
+
+// --- Book of Brews and Infusions
+recipes.addShaped(<witchery:ingredient:49>, [
+[<witchery:ingredient:34>, <witchery:ingredient:37>, <witchery:ingredient:34>],
+[<ore:dyeBlack>, <ore:craftingBook>, <ore:craftingFeather>],
+[<witchery:ingredient:21>, <minecraft:brewing_stand>, <witchery:ingredient:21>]]);
+
+// --- Earmuffs
+recipes.addShaped(<witchery:earmuffs>, [
+[<ore:srewThaumium>, <ore:springSteel>, <ore:srewThaumium>],
+[<ore:dyeBlack>, <ore:craftingToolWrench>, <ore:craftingFeather>],
+[<ore:ringThaumium>, <ore:craftingScrewdriver>, <ore:ringThaumium>]]);
+
+
+
+
+
+// --- Machine Recipes ---
+
+
+
+// --- Cutting Saw
+
+
+
+// --- Bone Needle
+CuttingSaw.addRecipe(<witchery:ingredient:7> * 8, null, <minecraft:bone>,  <liquid:water> * 32, 100, 24);
 // -
-recipes.addShapeless(<gregtech:gt.metaitem.01:2622>, [<witchery:ingredient:16>]);
-
-
-
-// --- Blast furnace recipes ---
-
-
-
-// --- Clay Jar
-//BlastFurnace.addRecipe([<witchery:ingredient:27>], [<witchery:ingredient:26>], 600, 120, 1000); 
-
-
+CuttingSaw.addRecipe(<witchery:ingredient:7> * 8, null, <minecraft:bone>,  <liquid:ic2distilledwater> * 16, 100, 24);
+// -
+CuttingSaw.addRecipe(<witchery:ingredient:7> * 8, null, <minecraft:bone>,  <liquid:lubricant> * 8, 50, 24);
 
 
 // --- Forming Press Recipes ---
@@ -123,9 +249,11 @@ Mixer.addRecipe(<witchery:ingredient:153>, null, [<witchery:seedsbelladonna>, <w
 
 
 
+// --- Thaumcraft Recipes
+
 
 // --- Anointing Paste
-mods.thaumcraft.Research.addResearch("ANOINTINGPASTE", "WITCHERY", "fabrico 12, aqua 9, praecantatio 6", 0, -2, 2, <witchery:ingredient:153>);
+mods.thaumcraft.Research.addResearch("ANOINTINGPASTE", "WITCHERY", "fabrico 12, aqua 9, praecantatio 6", 0, -4, 2, <witchery:ingredient:153>);
 game.setLocalization("tc.research_name.ANOINTINGPASTE", "\u53d7\u9b54\u4e4b\u818f");
 game.setLocalization("tc.research_text.ANOINTINGPASTE", "[WI]\u9b54\u6cd5\u818f\u836f");
 mods.thaumcraft.Research.addPage("ANOINTINGPASTE", "Witchery.research_page.ANOINTINGPASTE.1");
@@ -134,7 +262,7 @@ game.setLocalization("Witchery.research_page.ANOINTINGPASTE.1", "\u7528\u53d7\u9
 \u5c06\u4e0d\u540c\u7684\u5deb\u672f\u79cd\u5b50\u4e0e\u6c34\u5728\u6405\u62cc\u673a\u5185\u6df7\u5408\u5373\u53ef\u5f97\u5230\u53d7\u9b54\u4e4b\u818f.");
 
 // --- Oven
-mods.thaumcraft.Research.addResearch("OVEN", "WITCHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", 0, 0, 4, <witchery:witchesovenidle>);
+mods.thaumcraft.Research.addResearch("OVEN", "WITCHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", -2, 2, 4, <witchery:witchesovenidle>);
 game.setLocalization("tc.research_name.OVEN", "\u5deb\u5e08\u70e4\u7089");
 game.setLocalization("tc.research_text.OVEN", "[WI]\u7cd6\u679c\u5c4b(\u683c\u6797\u7ae5\u8bdd)");
 mods.thaumcraft.Research.addPage("OVEN", "Witchery.research_page.OVEN.1");
@@ -151,12 +279,58 @@ mods.thaumcraft.Arcane.addShaped("OVEN", <witchery:witchesovenidle>, "aer 20, ig
 [<dreamcraft:item.SteelBars>, <Thaumcraft:blockMetalDevice>, <dreamcraft:item.SteelBars>],
 [<IC2:blockFenceIron>, <IC2:blockMachine:1>, <IC2:blockFenceIron>]]);
 mods.thaumcraft.Research.addArcanePage("OVEN", <witchery:witchesovenidle>);
+mods.thaumcraft.Warp.addToResearch("OVEN", 1);
+
+// --- Attuned Stone
+mods.thaumcraft.Research.addResearch("ATTUNEDSTONE", "WITCHERY", "instrumentum 15, vitreus 12, ordo 9, praecantatio 6", 2, 0, 4, <witchery:ingredient:10>);
+game.setLocalization("tc.research_name.ATTUNEDSTONE", "\u8c03\u8c10\u4e4b\u77f3");
+game.setLocalization("tc.research_text.ATTUNEDSTONE", "[WI]\u534f\u8c03\u7684\u77f3\u5934");
+mods.thaumcraft.Research.addPrereq("ATTUNEDSTONE", "OVEN", false);
+mods.thaumcraft.Research.addPage("ATTUNEDSTONE", "Witchery.research_page.ATTUNEDSTONE");
+game.setLocalization("Witchery.research_page.ATTUNEDSTONE", "\u8c10\u8c03\u4e4b\u77f3,\u662f\u4e00\u9897\u5728\u70bd\u70ed\u4ecb\u8d28\u4e2d\u6ce8\u5165\u4e86\u81ea\u7136\u9b54\u6cd5\u7684\u94bb\u77f3.
+\u8c03\u8c10\u4e4b\u77f3\u53ef\u7528\u4e8e\u5c06\u975e\u9b54\u6cd5\u7684\u8bbe\u5907\u8fde\u63a5\u5230\u9b54\u6cd5\u6d41\u4e2d,\u5b83\u4e5f\u662f\u84b8\u998f\u5854\u3001\u6c34\u58f6\u3001\u796d\u575b\u548c\u5a03\u5a03\u53f0\u5b50\u7684\u4e3b\u8981\u6750\u6599\u4e4b\u4e00.
+\u5f53\u9644\u8fd1\u6ca1\u6709\u53ef\u7528\u7684\u796d\u575b\u65f6,\u8c03\u8c10\u4e4b\u77f3\u53ef\u5145\u5f53\u5706\u73af\u9b54\u6cd5\u4eea\u5f0f\u7684\u4fbf\u643a\u5f0f\u80fd\u6e90,\u8fd9\u4e5f\u662f\u5176\u53e6\u4e00\u4e2a\u4e3b\u8981\u7528\u9014. \u60f3\u8981\u5982\u6b64\u4f7f\u7528\u7684\u524d\u63d0\u662f,\u8c03\u8c10\u4e4b\u77f3\u5df2\u7ecf\u901a\u8fc7\u5145\u80fd\u4eea\u5f0f\u5145\u80fd.");
+mods.thaumcraft.Arcane.addShaped("ATTUNEDSTONE", <witchery:ingredient:10>, "aer 30, ignis 30, terra 30, ordo 30", [
+[null, <witchery:ingredient:34>, null],
+[null, <minecraft:diamond>, null],
+[null, <minecraft:lava_bucket>, null]]);
+mods.thaumcraft.Research.addArcanePage("ATTUNEDSTONE", <witchery:ingredient:10>);
+
+// --- Quartz Sphere
+mods.thaumcraft.Research.addResearch("QUARTZSPHERE", "WITCHERY", "vitreus 15, instrumentum 12, auram 9, ordo 6, praecantatio 3", 2, -2, 4, <witchery:ingredient:92>);
+game.setLocalization("tc.research_name.QUARTZSPHERE", "\u7403\u72b6\u77f3\u82f1");
+game.setLocalization("tc.research_text.QUARTZSPHERE", "[WI]\u53ec\u5524\u5973\u5deb");
+mods.thaumcraft.Research.addPrereq("QUARTZSPHERE", "ATTUNEDSTONE", false);
+mods.thaumcraft.Research.addPage("QUARTZSPHERE", "Witchery.research_page.QUARTZSPHERE");
+game.setLocalization("Witchery.research_page.QUARTZSPHERE", "\u7403\u72b6\u77f3\u82f1\u662f\u5236\u4f5c\u6c34\u6676\u7403%28\u4eea\u5f0f%29\u7684\u4e3b\u8981\u6750\u6599.");
+mods.thaumcraft.Arcane.addShaped("QUARTZSPHERE", <witchery:ingredient:92>, "aer 50, ignis 50, terra 50, ordo 50", [
+[<ore:plateNetherQuartz>, <ore:plateQuartzite>, <ore:plateNetherQuartz>],
+[<ore:plateCertusQuartz>, <ore:gemExquisiteGlass>, <ore:plateCertusQuartz>],
+[<ore:plateNetherQuartz>, <ore:plateQuartzite>, <ore:plateNetherQuartz>]]);
+mods.thaumcraft.Research.addArcanePage("QUARTZSPHERE", <witchery:ingredient:92>);
+
+// --- Candelabra
+mods.thaumcraft.Research.addResearch("CANDELABRA", "WITCHERY", "praecantatio 15, lux 12, ordo 9, ignis 6", 0, -2, 4, <witchery:ingredient>);
+game.setLocalization("tc.research_name.CANDELABRA", "\u679d\u72b6\u5927\u70db\u53f0");
+game.setLocalization("tc.research_text.CANDELABRA", "[WI]\u5b83\u53d8\u4eae\u4e86");
+mods.thaumcraft.Research.addPrereq("CANDELABRA", "ALTAR", false);
+mods.thaumcraft.Research.addPrereq("CANDELABRA", "TALLOW", false);
+mods.thaumcraft.Research.addPrereq("CANDELABRA", "ATTUNEDSTONE", false);
+mods.thaumcraft.Research.setConcealed("CANDELABRA", true);
+mods.thaumcraft.Research.addPage("CANDELABRA", "Witchery.research_page.CANDELABRA");
+game.setLocalization("Witchery.research_page.CANDELABRA", "\u679d\u72b6\u5927\u70db\u53f0\u662f\u796d\u575b\u7684\u5347\u7ea7\u7269\u54c1,\u53ef\u63d0\u9ad8\u796d\u575b\u7684\u6062\u590d\u901f\u5ea6%28\u63d0\u5347\u57fa\u7840\u6062\u590d\u901f\u5ea6\u76842\u500d%29.
+\u679d\u72b6\u5927\u70db\u53f0\u662f\u706b\u628a\u7684\u5347\u7ea7\u7248,\u5728\u540c\u4e00\u796d\u575b\u4e0a,\u706b\u628a\u6216\u70db\u53f0\u53ea\u80fd\u540c\u65f6\u751f\u6548\u4e00\u4e2a.");
+mods.thaumcraft.Arcane.addShaped("CANDELABRA", <witchery:ingredient> , "terra 5, ignis 10, ordo 5", [
+[<Thaumcraft:blockCandle>, <Thaumcraft:blockCandle>, <Thaumcraft:blockCandle>],
+[<ore:stickIron>, <witchery:ingredient:10>, <ore:stickIron>],
+[<ore:plateIron>, <ore:stickThaumium>, <ore:plateIron>]]);
+mods.thaumcraft.Research.addArcanePage("CANDELABRA", <witchery:ingredient>);
 
 // --- Kettle
-mods.thaumcraft.Research.addResearch("KETTLE", "WITCHERY", "metallum 15, fabrico 12, instrumentum 9, ignis 6", 2, 0, 4, <witchery:kettle>);
+mods.thaumcraft.Research.addResearch("KETTLE", "WITCHERY", "metallum 15, fabrico 12, instrumentum 9, ignis 6", 4, 0, 4, <witchery:kettle>);
 game.setLocalization("tc.research_name.KETTLE", "\u6c34\u58f6");
 game.setLocalization("tc.research_text.KETTLE", "[WI]\u5973\u5deb\u4e5f\u75af\u72c2(\u7535\u5f71)");
-mods.thaumcraft.Research.addPrereq("KETTLE", "OVEN", false);
+mods.thaumcraft.Research.addPrereq("KETTLE", "ATTUNEDSTONE", false);
 mods.thaumcraft.Research.setConcealed("KETTLE", true);
 mods.thaumcraft.Research.addPage("KETTLE", "Witchery.research_page.KETTLE.1");
 game.setLocalization("Witchery.research_page.KETTLE.1", "\u6ca1\u4ec0\u4e48\u6bd4\u6c34\u58f6(\u6216\u662f\u70bc\u836f\u9505)\u66f4\u80fd\u4ee3\u8868\u5deb\u672f\u7684\u5f62\u8c61\u4e86,\u6c34\u58f6\u662f\u7528\u4e8e\u5deb\u672f\u917f\u9020\u4ee5\u53ca\u540e\u671f\u6ce8\u9b54\u7684.
@@ -177,9 +351,10 @@ mods.thaumcraft.Arcane.addShaped("KETTLE", <witchery:kettle>, "aer 40, ignis 40,
 [<ore:plateSteel>, <witchery:ingredient:10>, <ore:plateSteel>],
 [<ore:screwThaumium>, <minecraft:cauldron>, <ore:screwThaumium>]]);
 mods.thaumcraft.Research.addArcanePage("KETTLE", <witchery:kettle>);
+mods.thaumcraft.Warp.addToResearch("KETTLE", 2);
 
 // --- Spinning Wheel
-mods.thaumcraft.Research.addResearch("SPINNINGWHEELW", "WITCHERY", "arbor 18, motus 15, fabrico 12, instrumentum 9, aer 6, praecantatio 3", 4, 0, 4, <witchery:spinningwheel>);
+mods.thaumcraft.Research.addResearch("SPINNINGWHEELW", "WITCHERY", "arbor 18, motus 15, fabrico 12, instrumentum 9, aer 6, praecantatio 3", 6, 0, 4, <witchery:spinningwheel>);
 game.setLocalization("tc.research_name.SPINNINGWHEELW", "\u8f6c\u8f6e");
 game.setLocalization("tc.research_text.SPINNINGWHEELW", "[WI]\u4e00\u5708\u53c8\u4e00\u5708...");
 mods.thaumcraft.Research.addPrereq("SPINNINGWHEELW", "KETTLE", false);
@@ -195,7 +370,7 @@ mods.thaumcraft.Arcane.addShaped("SPINNINGWHEELW", <witchery:spinningwheel>, "ae
 mods.thaumcraft.Research.addArcanePage("SPINNINGWHEELW", <witchery:spinningwheel>);
 
 // --- Distillery
-mods.thaumcraft.Research.addResearch("DISTILLERY", "WITCHERY", "metallum 18, motus 15, fabrico 12, instrumentum 9, aqua 6, praecantatio 3", 6, 0, 4, <witchery:distilleryidle>);
+mods.thaumcraft.Research.addResearch("DISTILLERY", "WITCHERY", "metallum 18, motus 15, fabrico 12, instrumentum 9, aqua 6, praecantatio 3", 8, 0, 4, <witchery:distilleryidle>);
 game.setLocalization("tc.research_name.DISTILLERY", "\u84b8\u998f\u5854");
 game.setLocalization("tc.research_text.DISTILLERY", "[WI]\u5495\u565c...\u5495\u565c\u565c...");
 mods.thaumcraft.Research.addPrereq("DISTILLERY", "SPINNINGWHEELW", false);
@@ -211,6 +386,43 @@ mods.thaumcraft.Arcane.addShaped("DISTILLERY", <witchery:distilleryidle>, "aer 8
 [<ore:pipeSmallStainlessSteel>, <witchery:cauldron>, <ore:pipeSmallStainlessSteel>],
 [<ore:plateDenseThaumium>, <ore:craftingIronFurnace>, <ore:plateDenseThaumium>]]);
 mods.thaumcraft.Research.addArcanePage("DISTILLERY", <witchery:distilleryidle>);
+mods.thaumcraft.Warp.addToResearch("DISTILLERY", 3);
+
+// --- Ritual Chalk
+mods.thaumcraft.Research.addResearch("RITUALCHALK", "WITCHERY", "sensus 18, motus 15, auram 12, potentia 9, iter 6, praecantatio 3", 8, -2, 4, <witchery:chalkritual>);
+game.setLocalization("tc.research_name.RITUALCHALK", "\u4eea\u5f0f\u7c89\u7b14");
+game.setLocalization("tc.research_text.RITUALCHALK", "[WI]\u7ed8\u5236\u7b26\u6587");
+mods.thaumcraft.Research.addPrereq("RITUALCHALK", "DISTILLERY", false);
+mods.thaumcraft.Research.setConcealed("RITUALCHALK", true);
+mods.thaumcraft.Research.addPage("RITUALCHALK", "Witchery.research_page.RITUALCHALK.1");
+game.setLocalization("Witchery.research_page.RITUALCHALK.1", "\u4eea\u5f0f\u7c89\u7b14\u7528\u4e8e\u7ed8\u5236\u767d\u8272\u4eea\u5f0f\u7b26\u6587,\u6784\u6210\u5706\u73af\u6cd5\u9635\u7684\u5706\u73af.\u5b83\u4e5f\u53ef\u4f5c\u4e3a\u6750\u6599,\u5236\u4f5c\u5176\u4ed6\u7c7b\u578b\u7684\u7c89\u7b14.
+\u60f3\u8981\u7ed8\u5236\u4eea\u5f0f\u7b26\u6587,\u53ea\u9700\u5bf9\u5730\u9762\u4f7f\u7528\u7c89\u7b14\u5373\u53ef.\u4eea\u5f0f\u7b26\u6587\u6709\u5404\u79cd\u56fe\u6848,\u4f46\u529f\u80fd\u90fd\u662f\u4e00\u6837\u7684.\u5982\u679c\u4f60\u5bf9\u7740\u5df2\u5b58\u5728\u7b26\u6587\u7684\u5730\u4e0a\u4f7f\u7528\u7c89\u7b14,\u4e00\u4e2a\u65b0\u7684\u7b26\u6587\u5c06\u4f1a\u4ee3\u66ff\u539f\u6709\u7b26\u6587.
+\u4eea\u5f0f\u7c89\u7b14\u662f\u7531\u77f3\u818f\u3001\u6728\u7070\u548c\u5973\u795e\u4e4b\u6cea\u5236\u6210\u7684.");
+mods.thaumcraft.Research.addPage("RITUALCHALK", "Witchery.research_page.RITUALCHALK.2");
+game.setLocalization("Witchery.research_page.RITUALCHALK.2", "\u4eea\u5f0f\u7b26\u6587\u5e94\u6309\u7167\u300a\u5deb\u672f\uff1a\u5706\u73af\u6cd5\u9635\u300b\u4e00\u4e66\u4e2d\u6240\u793a\u7684\u5927\u81f4\u5706\u5f62\u56fe\u6848\u6392\u5217. \u5706\u73af\u7684\u6b63\u4e2d\u9700\u7528\u91d1\u8272\u7c89\u7b14\u7ed8\u5236\u6838\u5fc3\u7b26\u6587.");
+mods.thaumcraft.Arcane.addShaped("RITUALCHALK", <witchery:chalkritual> * 2, "aer 50, terra 50, ordo 25, ignis 25", [
+[<witchery:ingredient:18>, <witchery:ingredient:37>, <witchery:ingredient:18>],
+[<witchery:ingredient:18>, <witchery:ingredient:17>, <witchery:ingredient:18>],
+[<witchery:ingredient:18>, <witchery:ingredient:17>, <witchery:ingredient:18>]]);
+mods.thaumcraft.Research.addArcanePage("RITUALCHALK", <witchery:chalkritual>);
+
+// --- Circle Talisman
+mods.thaumcraft.Research.addResearch("CIRCLETALISMAN", "WITCHERY", "lucrum 18, motus 15, auram 12, potentia 9, aer 6, praecantatio 3", 10, -2, 4, <witchery:circletalisman>);
+game.setLocalization("tc.research_name.CIRCLETALISMAN", "\u73af\u5f62\u62a4\u8eab\u7b26");
+game.setLocalization("tc.research_text.CIRCLETALISMAN", "[WI] Oh!\u95ea\u4eae\u7684\u62a4\u8eab\u7b26");
+mods.thaumcraft.Research.addPrereq("CIRCLETALISMAN", "RITUALCHALK", false);
+mods.thaumcraft.Research.setConcealed("CIRCLETALISMAN", true);
+mods.thaumcraft.Research.addPage("CIRCLETALISMAN", "Witchery.research_page.CIRCLETALISMAN.1");
+game.setLocalization("Witchery.research_page.CIRCLETALISMAN.1", "\u73af\u5f62\u62a4\u8eab\u7b26\u53ef\u5c06\u7ed8\u5236\u5728\u5730\u9762\u4e0a\u7684\u4eea\u5f0f\u7b26\u6587\u7ed1\u5b9a\u5230\u62a4\u8eab\u7b26\u5185%28\u5730\u9762\u7684\u7b26\u6587\u5c06\u6d88\u5931%29,\u5728\u53e6\u4e00\u4f4d\u7f6e\u4f7f\u7528\u5df2\u7ed1\u5b9a\u7684\u62a4\u8eab\u7b26,\u8fd9\u4e9b\u7b26\u6587\u5c06\u4f1a\u5728\u65b0\u4f4d\u7f6e\u91cd\u65b0\u7ed8\u5236\u51fa\u6765.\u8fd9\u4f7f\u5f97\u5deb\u5e08\u4eec\u53ef\u4ee5\u5c06\u90a3\u4e9b\u8017\u65f6\u7684\u5706\u73af\u6cd5\u9635\u63d0\u524d\u51c6\u5907\u597d,\u8981\u7528\u7684\u65f6\u5019\u5373\u53ef\u5feb\u901f\u90e8\u7f72.
+\u60f3\u8981\u7ed1\u5b9a\u73af\u5f62\u62a4\u8eab\u7b26,\u8bf7\u4f7f\u7528\u300a\u5deb\u672f\uff1a\u5706\u73af\u6cd5\u9635\u300b\u4e00\u4e66\u4e2d\u7684\u7ed1\u5b9a\u4eea\u5f0f.");
+mods.thaumcraft.Research.addPage("CIRCLETALISMAN", "Witchery.research_page.CIRCLETALISMAN.2");
+game.setLocalization("Witchery.research_page.CIRCLETALISMAN.2", "\u60f3\u8981\u90e8\u7f72\u5df2\u7ed1\u5b9a\u7684\u62a4\u8eab\u7b26,\u8bf7\u786e\u4fdd\u5730\u9762\u4e0a\u6709\u8db3\u591f\u7684\u7a7a\u95f4\u5bb9\u7eb3\u4eea\u5f0f\u7b26\u6587,\u7136\u540e\u5bf9\u7740\u4e2d\u5fc3\u53f3\u952e\u4f7f\u7528\u62a4\u8eab\u7b26\u5373\u53ef.\u5f53\u5b58\u5728\u969c\u788d\u7269\u5bfc\u81f4\u65e0\u6cd5\u90e8\u7f72\u5706\u73af\u6cd5\u9635\u65f6,\u4f60\u5c06\u542c\u5230\u6545\u969c\u7684\u97f3\u6548.");
+mods.thaumcraft.Arcane.addShaped("CIRCLETALISMAN", <witchery:circletalisman>, "ordo 50, terra 50, ignis 50", [
+[<ore:screwGold>, <ore:stickGold>, <ore:screwGold>],
+[<ore:stickGold>, <ore:gemExquisiteDiamond>, <ore:stickGold>],
+[<ore:screwGold>, <ore:stickGold>, <ore:screwGold>]]);
+mods.thaumcraft.Research.addArcanePage("CIRCLETALISMAN", <witchery:circletalisman>);
+mods.thaumcraft.Warp.addToResearch("CIRCLETALISMAN", 1);
 
 // --- Altar
 mods.thaumcraft.Research.addResearch("ALTAR", "WITCHERY", "praecantatio 15, fabrico 12, arbor 9, terra 6", -2, 0, 4, <witchery:altar>);
@@ -234,30 +446,15 @@ mods.thaumcraft.Arcane.addShaped("ALTAR", <witchery:altar> * 2, "terra 20, ignis
 [<Thaumcraft:blockCosmeticSolid:7>, <witchery:witchlog>, <Thaumcraft:blockCosmeticSolid:7>],
 [<Thaumcraft:blockCosmeticSolid:7>, <witchery:witchlog>, <Thaumcraft:blockCosmeticSolid:7>]]);
 mods.thaumcraft.Research.addArcanePage("ALTAR", <witchery:altar>);
+mods.thaumcraft.Warp.addToResearch("ALTAR", 2);
 
-// --- Candelabra
-mods.thaumcraft.Research.addResearch("CANDELABRA", "WITCHERY", "praecantatio 15, lux 12, ordo 9, ignis 6", -2, -2, 4, <witchery:ingredient>);
-game.setLocalization("tc.research_name.CANDELABRA", "\u679d\u72b6\u5927\u70db\u53f0");
-game.setLocalization("tc.research_text.CANDELABRA", "[WI]\u5149\u660e!");
-mods.thaumcraft.Research.addPrereq("CANDELABRA", "ALTAR", false);
-mods.thaumcraft.Research.addPrereq("CANDELABRA", "TALLOW", false);
-mods.thaumcraft.Research.setConcealed("CANDELABRA", true);
-mods.thaumcraft.Research.addPage("CANDELABRA", "Witchery.research_page.CANDELABRA");
-game.setLocalization("Witchery.research_page.CANDELABRA", "\u679d\u72b6\u5927\u70db\u53f0\u662f\u796d\u575b\u5347\u7ea7\u7528\u54c1,\u53ef\u63d0\u5347\u796d\u575b\u5145\u80fd\u901f\u7387.
-\u679d\u72b6\u5927\u70db\u53f0\u53ef\u589e\u52a02x\u7684\u5145\u80fd\u901f\u7387.
-\u679d\u72b6\u5927\u70db\u53f0\u662f\u706b\u628a\u7684\u5347\u7ea7\u7248.\u5b83\u4e0e\u706b\u628a\u65e0\u6cd5\u5bf9\u540c\u4e00\u796d\u575b\u540c\u65f6\u751f\u6548.");
-mods.thaumcraft.Arcane.addShaped("CANDELABRA", <witchery:ingredient> , "terra 5, ignis 10, ordo 5", [
-[<Thaumcraft:blockCandle>, <Thaumcraft:blockCandle>, <Thaumcraft:blockCandle>],
-[<ore:stickIron>, <witchery:ingredient:10>, <ore:stickIron>],
-[<ore:plateIron>, <ore:stickThaumium>, <ore:plateIron>]]);
-mods.thaumcraft.Research.addArcanePage("CANDELABRA", <witchery:ingredient>);
 
 // --- Chalice
-mods.thaumcraft.Research.addResearch("CHALICE", "WITCHERY", "praecantatio 15, lucrum 12, metallum 9, terra 6", -4, 0, 4, <witchery:ingredient:1>);
+mods.thaumcraft.Research.addResearch("CHALICE", "WITCHERY", "praecantatio 15, lucrum 12, metallum 9, terra 6", 0, 0, 4, <witchery:ingredient:1>);
 game.setLocalization("tc.research_name.CHALICE", "\u5723\u9910\u676f");
 game.setLocalization("tc.research_text.CHALICE", "[WI](\u309c-\u309c)\u3064\u30ed\u5e72\u676f~");
 mods.thaumcraft.Research.addPrereq("CHALICE", "ALTAR", false);
-mods.thaumcraft.Research.setConcealed("CHALICE", true);
+mods.thaumcraft.Research.addPrereq("CHALICE", "ATTUNEDSTONE", false);
 mods.thaumcraft.Research.addPage("CHALICE", "Witchery.research_page.CHALICE");
 game.setLocalization("Witchery.research_page.CHALICE", "\u5723\u9910\u676f\u662f\u796d\u575b\u5347\u7ea7\u7528\u54c1,\u53ef\u63d0\u5347\u796d\u575b\u80fd\u91cf\u4e0a\u9650.
 \u5723\u9910\u676f\u53ef\u589e\u52a0\u4e00\u500d\u7684\u796d\u575b\u80fd\u91cf\u4e0a\u9650(\u539f\u6709\u6570\u503c).
@@ -290,6 +487,20 @@ mods.thaumcraft.Arcane.addShaped("ARTHANA", <witchery:arthana> , "terra 20, perd
 [<ore:screwThaumium>, <ore:gemEmerald>, <ore:craftingToolHardHammer>],
 [<TConstruct:toolRod:6>, <ore:screwThaumium>, <TConstruct:handGuard:16>]]);
 mods.thaumcraft.Research.addArcanePage("ARTHANA", <witchery:arthana>);
+mods.thaumcraft.Warp.addToResearch("ARTHANA", 2);
+
+// --- Warm Blood
+mods.thaumcraft.Research.addResearch("WARMBLOOD", "WITCHERY", "fames 15, lucrum 12, aqua 9, exanimis 6", -2, -2, 4, <witchery:ingredient:163>);
+game.setLocalization("tc.research_name.WARMBLOOD", "\u6e29\u6696\u7684\u8840\u6db2");
+game.setLocalization("tc.research_text.WARMBLOOD", "[WI]\u55ef...\u6e29\u6696\u7684\u8840\u6db2");
+mods.thaumcraft.Research.addPrereq("WARMBLOOD", "ALTAR", false);
+mods.thaumcraft.Research.setConcealed("WARMBLOOD", true);
+mods.thaumcraft.Research.addPage("WARMBLOOD", "Witchery.research_page.WARMBLOOD");
+game.setLocalization("Witchery.research_page.WARMBLOOD", "\u8fd9\u74f6\u6e29\u6696\u7684\u8840\u6db2\u662f\u73a9\u5bb6\u53ef\u996e\u7528\u7684\u7269\u54c1.\u5982\u679c\u73a9\u5bb6\u662f\u5438\u8840\u9b3c\u8840\u7edf,\u996e\u7528\u540e\u53ef\u5728\u8840\u6db2\u5b58\u50a8\u6761\u4e2d\u5b58\u50a8\u4e24\u6ef4\u8840.\u5982\u679c\u73a9\u5bb6\u4e0d\u662f\u5438\u8840\u9b3c\u8840\u7edf,\u4ed6\u5c06\u83b7\u5f97\u9965\u997fdebuff.
+\u8fd9\u4e2a\u7269\u54c1\u4f7f\u73a9\u5bb6\u53ef\u4ee5\u5feb\u901f\u83b7\u5f97\u8840\u6db2,\u4e5f\u53ef\u7528\u4f5c\u5408\u6210\u6076\u9b54\u5951\u7ea6\u7684\u6750\u6599.");
+mods.thaumcraft.Crucible.addRecipe("WARMBLOOD", <witchery:ingredient:163>, <TConstruct:jerky:7>, "exanimis 4, fames 4, lucrum 4");
+mods.thaumcraft.Research.addCruciblePage("WARMBLOOD", <witchery:ingredient:163>);
+mods.thaumcraft.Warp.addToResearch("WARMBLOOD", 3);
 
 // --- Fume Funnel
 mods.thaumcraft.Research.addResearch("FUMEFUNNEL", "WITCHERY", "metallum 15, ignis 12, lux 9, sensus 6", 0, 2, 4, <witchery:fumefunnel>);
@@ -309,11 +520,28 @@ mods.thaumcraft.Arcane.addShaped("FUMEFUNNEL", <witchery:fumefunnel>, "aer 30, i
 mods.thaumcraft.Research.addArcanePage("FUMEFUNNEL", <witchery:fumefunnel>);
 mods.thaumcraft.Warp.addToResearch("FUMEFUNNEL", 1);
 
+// --- Fume Filter
+mods.thaumcraft.Research.addResearch("FUMEFILTER", "WITCHERY", "metallum 9, vitreus 9, lucrum 6, praecantatio 3", 2, 2, 4, <witchery:ingredient:73>);
+game.setLocalization("tc.research_name.FUMEFILTER", "\u718f\u6c14\u8fc7\u6ee4\u5668");
+game.setLocalization("tc.research_text.FUMEFILTER", "[WI]\u66f4\u591a\u526f\u4ea7\u7269");
+mods.thaumcraft.Research.addPrereq("FUMEFILTER", "DISTILESSENTIA", false);
+mods.thaumcraft.Research.addPrereq("FUMEFILTER", "FUMEFUNNEL", false);
+mods.thaumcraft.Research.addPrereq("FUMEFILTER", "ATTUNEDSTONE", false);
+mods.thaumcraft.Research.setConcealed("FUMEFILTER", true);
+mods.thaumcraft.Research.addPage("FUMEFILTER", "Witchery.research_page.FUMEFILTER");
+game.setLocalization("Witchery.research_page.FUMEFILTER", "\u718f\u6c14\u8fc7\u6ee4\u5668\u7528\u4e8e\u5c06\u718f\u6c14\u6f0f\u6597\u5347\u7ea7\u4e3a\u8fc7\u6ee4\u5f3a\u5316\u578b\u718f\u6c14\u6f0f\u6597.
+\u4ee5\u63d0\u5347\u5deb\u5e08\u70e4\u7089\u51fa\u73b0\u526f\u4ea7\u7269\u7684\u51e0\u7387.");
+mods.thaumcraft.Arcane.addShaped("FUMEFILTER", <witchery:ingredient:73>, "aer 16, ordo 16, terra 16", [
+[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+[<ore:plateThaumium>, <witchery:ingredient:10>, <ore:plateThaumium>],
+[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]]);
+mods.thaumcraft.Research.addArcanePage("FUMEFILTER", <witchery:ingredient:73>);
+
 // --- Fitered Fume Funnel
-mods.thaumcraft.Research.addResearch("FILTEREDFUMEFUNNEL", "WITCHERY", "metallum 15, vitreus 12, lux 9, praecantatio 6", 0, 4, 4, <witchery:filteredfumefunnel>);
+mods.thaumcraft.Research.addResearch("FILTEREDFUMEFUNNEL", "WITCHERY", "metallum 15, vitreus 12, lux 9, praecantatio 6", 2, 4, 4, <witchery:filteredfumefunnel>);
 game.setLocalization("tc.research_name.FILTEREDFUMEFUNNEL", "\u8fc7\u6ee4\u5f3a\u5316\u578b\u718f\u6c14\u6f0f\u6597");
 game.setLocalization("tc.research_text.FILTEREDFUMEFUNNEL", "[WI]\u518d\u6b21\u5347\u7ea7?\u6b27\u8036\u8036!");
-mods.thaumcraft.Research.addPrereq("FILTEREDFUMEFUNNEL", "FUMEFUNNEL", false);
+mods.thaumcraft.Research.addPrereq("FILTEREDFUMEFUNNEL", "FUMEFILTER", false);
 mods.thaumcraft.Research.setConcealed("FILTEREDFUMEFUNNEL", true);
 mods.thaumcraft.Research.addPage("FILTEREDFUMEFUNNEL", "Witchery.research_page.FILTEREDFUMEFUNNEL");
 game.setLocalization("Witchery.research_page.FILTEREDFUMEFUNNEL", "\u8fc7\u6ee4\u5f3a\u5316\u578b\u718f\u6c14\u6f0f\u6597\u662f\u718f\u6c14\u6f0f\u6597\u7684\u5347\u7ea7\u7248,\u63d0\u5347\u4e86\u5deb\u5e08\u70e4\u7089\u51fa\u73b0\u526f\u4ea7\u7269\u7684\u51e0\u7387(\u6bd4\u666e\u901a\u718f\u6c14\u6f0f\u6597\u518d\u591a5%)(\u5373+10%\u901f\u5ea6+30%\u526f\u4ea7\u7269\u51e0\u7387).
@@ -324,18 +552,17 @@ mods.thaumcraft.Infusion.addRecipe("FILTEREDFUMEFUNNEL", <witchery:fumefunnel>,
 mods.thaumcraft.Research.addInfusionPage("FILTEREDFUMEFUNNEL", <witchery:filteredfumefunnel>);
 mods.thaumcraft.Warp.addToResearch("FILTEREDFUMEFUNNEL", 2);
 
-// --- Fume Filter
-mods.thaumcraft.Research.addResearch("FUMEFILTER", "WITCHERY", "metallum 9, vitreus 9, lucrum 6, praecantatio 3", 2, 2, 4, <witchery:ingredient:73>);
-game.setLocalization("tc.research_name.FUMEFILTER", "\u718f\u6c14\u8fc7\u6ee4\u5668");
-game.setLocalization("tc.research_text.FUMEFILTER", "[WI]\u66f4\u591a\u526f\u4ea7\u7269");
-mods.thaumcraft.Research.addPrereq("FUMEFILTER", "DISTILESSENTIA", false);
-mods.thaumcraft.Research.addPrereq("FUMEFILTER", "FUMEFUNNEL", false);
-mods.thaumcraft.Research.setConcealed("FUMEFILTER", true);
-mods.thaumcraft.Research.addPage("FUMEFILTER", "Witchery.research_page.FUMEFILTER");
-game.setLocalization("Witchery.research_page.FUMEFILTER", "\u718f\u6c14\u8fc7\u6ee4\u5668\u7528\u4e8e\u5c06\u718f\u6c14\u6f0f\u6597\u5347\u7ea7\u4e3a\u8fc7\u6ee4\u5f3a\u5316\u578b\u718f\u6c14\u6f0f\u6597.
-\u4ee5\u63d0\u5347\u5deb\u5e08\u70e4\u7089\u51fa\u73b0\u526f\u4ea7\u7269\u7684\u51e0\u7387.");
-mods.thaumcraft.Arcane.addShaped("FUMEFILTER", <witchery:ingredient:73>, "aer 16, ordo 16, terra 16", [
-[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
-[<ore:plateThaumium>, <witchery:ingredient:11>, <ore:plateThaumium>],
-[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]]);
-mods.thaumcraft.Research.addArcanePage("FUMEFILTER", <witchery:ingredient:73>);
+// --- Waystone
+mods.thaumcraft.Research.addResearch("WAYSTONE", "WITCHERY", "motus 15, iter 12, tenebrae 9, praecantatio 6", 8, -4, 4, <witchery:ingredient:12>);
+game.setLocalization("tc.research_name.WAYSTONE", "\u5bfb\u8def\u77f3");
+game.setLocalization("tc.research_text.WAYSTONE", "[WI]\u4f20\u9001");
+mods.thaumcraft.Research.addPrereq("WAYSTONE", "RITUALCHALK", false);
+mods.thaumcraft.Research.setConcealed("WAYSTONE", true);
+mods.thaumcraft.Research.addPage("WAYSTONE", "Witchery.research_page.WAYSTONE");
+game.setLocalization("Witchery.research_page.WAYSTONE", "\u5bfb\u8def\u77f3\u662f\u4e00\u5757\u96d5\u523b\u8fc7\u7684\u71e7\u77f3,\u5b83\u662f\u5706\u73af\u6cd5\u9635\u7684\u4e00\u79cd\u91cd\u8981\u6838\u5fc3\u7269\u54c1,\u4e3b\u8981\u7528\u4e8e\u4f20\u9001\u6cd5\u9635.\u53ef\u4f7f\u7528\u300a\u5deb\u672f\uff1a\u5706\u73af\u6cd5\u9635\u300b\u4e00\u4e66\u4e2d\u7684\u7ed1\u5b9a\u4eea\u5f0f,\u5c06\u5bfb\u8def\u77f3\u7ed1\u5b9a\u5230\u7279\u5b9a\u5730\u70b9.
+\u5c068\u4e2a\u4ed6\u5904\u7b26\u6587\u7ed8\u5236\u6210\u4e00\u4e2a3x3\u7684\u7a7a\u5fc3\u5706,\u7136\u540e\u5c06\u4e00\u5757\u5bfb\u8def\u77f3\u4e22\u8fdb\u5706\u73af\u4e2d\u5fc3\u5e76\u7b49\u5f85\u4e00\u6bb5\u65f6\u95f4,\u4e5f\u53ef\u4ee5\u5236\u4f5c\u51fa\u7ed1\u5b9a\u5230\u8be5\u5904\u7684\u7ed1\u5b9a\u7684\u5bfb\u8def\u77f3.");
+mods.thaumcraft.Infusion.addRecipe("WAYSTONE", <minecraft:flint>, 
+[<witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>], 
+"motus 32, iter 16, praecantatio 24, tenebrae 16", <witchery:ingredient:12>, 5);
+mods.thaumcraft.Research.addInfusionPage("WAYSTONE", <witchery:ingredient:12>);
+mods.thaumcraft.Warp.addToResearch("WAYSTONE", 5);
