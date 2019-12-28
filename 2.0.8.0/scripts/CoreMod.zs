@@ -255,6 +255,36 @@ recipes.addShaped(<dreamcraft:item.MoldFormChestplate>, [
 [null, BlankCast, null],
 [null, null, Hammer]]);
 
+// --- Mold Form Pipe Tiny
+recipes.addShaped(<dreamcraft:item.MoldFormPipeTiny>, [
+[null, File, null],
+[null, BlankCast, null],
+[null, Hammer, null]]);
+
+// --- Mold Form Pipe Small
+recipes.addShaped(<dreamcraft:item.MoldFormPipeSmall>, [
+[null, File, null],
+[null, BlankCast, null],
+[Hammer, null, null]]);
+
+// --- Mold Form Pipe Medium
+recipes.addShaped(<dreamcraft:item.MoldFormPipeMedium>, [
+[null, File, null],
+[Hammer, BlankCast, null],
+[null, null, null]]);
+
+// --- Mold Form Pipe Large
+recipes.addShaped(<dreamcraft:item.MoldFormPipeLarge>, [
+[Hammer, File, null],
+[null, BlankCast, null],
+[null, null, null]]);
+
+// --- Mold Form Pipe Huge
+recipes.addShaped(<dreamcraft:item.MoldFormPipeHuge>, [
+[Hammer, null, File],
+[null, BlankCast, null],
+[null, null, null]]);
+
 // --- Mold Form Helmet
 recipes.addShaped(<dreamcraft:item.MoldFormHelmet>, [
 [null, null, File],
@@ -606,17 +636,40 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2805>, [
 [<OpenBlocks:filledbucket>, null, null],
 [null, null, null]]);
 
-// --- Copper Dust out of XP 5 level
-recipes.addShaped(<gregtech:gt.metaitem.01:2035>, [
+// --- Stone Dust out of XP 2,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2299>, [
+[null, null, null],
+[null, null, <OpenBlocks:filledbucket>],
+[null, null, null]]);
+
+// --- Small Flint Dust out of XP 2,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:1802>, [
+[null, null, null],
+[null, null, null],
+[ <OpenBlocks:filledbucket>, null, null]]);
+
+
+// --- Gypsum Dust out of XP 5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2934>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, null]]);
+
+// --- Calcite Dust out of XP 5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2823>, [
+[null, null, <OpenBlocks:filledbucket>],
+[null, null, <OpenBlocks:filledbucket>]]);
 
 // --- Sulfur Dust out of XP 5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2022>, [
 [<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>]]);
 
 // --- Iron Dust out of XP 5 level
-recipes.addShaped(<gregtech:gt.metaitem.01:2032>, [
+recipes.addShaped(<gregtech:gt.metaitem.01:2939>, [
 [null, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
+// --- Quartz Sand Dust out of XP 5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2032>, [
+[<OpenBlocks:filledbucket>, null, null],
+[<OpenBlocks:filledbucket>, null, null]]);
 
 // --- Tin Dust out of XP 7,5 level
 recipes.addShaped(<gregtech:gt.metaitem.01:2057>, [
@@ -627,15 +680,9 @@ recipes.addShaped(<gregtech:gt.metaitem.01:2057>, [
 recipes.addShaped(<gregtech:gt.metaitem.01:2034>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
-// --- Gypsum Dust out of XP 7,5 level
-recipes.addShaped(<gregtech:gt.metaitem.01:2934>, [
+// --- Copper Dust out of XP 7,5 level
+recipes.addShaped(<gregtech:gt.metaitem.01:2035>, [
 [null, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
-[null, null, <OpenBlocks:filledbucket>]]);
-
-// --- Calcite Dust out of XP 7,5 level
-recipes.addShaped(<gregtech:gt.metaitem.01:2823>, [
-[null, null, <OpenBlocks:filledbucket>],
-[null, null, <OpenBlocks:filledbucket>],
 [null, null, <OpenBlocks:filledbucket>]]);
 
 // --- Raw Rubber Dust out of XP 7,5 level
@@ -677,8 +724,8 @@ recipes.addShaped(<TConstruct:materials:40>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, null]]);
 
-// --- Silver Dust out of XP 20 level
-recipes.addShaped(<gregtech:gt.metaitem.01:2054>, [
+// --- Small Silver Dust out of XP 20 level
+recipes.addShaped(<gregtech:gt.metaitem.01:1054>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [null, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
@@ -694,6 +741,12 @@ recipes.addShaped(<gregtech:gt.metaitem.01:37>, [
 [<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
+
+// --- Leather out of XP 20 level
+recipes.addShaped(<minecraft:leather>, [
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
+[<OpenBlocks:filledbucket>, null, <OpenBlocks:filledbucket>]]);
 
 // --- Small Cobalt Bass Dust out of XP 25 level
 recipes.addShaped(<gregtech:gt.metaitem.01:1343>, [
@@ -828,6 +881,16 @@ mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormBolt>, <liquid:alum
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormRound>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 // -
 mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormTurbineBlade>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeTiny>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeSmall>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeMedium>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeLarge>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
+// -
+mods.tconstruct.Smeltery.addMelting(<dreamcraft:item.MoldFormPipeHuge>, <liquid:aluminumbrass.molten> * 72, 500, <TConstruct:MetalBlock:7>);
 
 // --- BBQ Glows Left Hand
 recipes.addShaped(<dreamcraft:item.OvenGlove>.withTag({Durability: 1000}), [
@@ -1546,10 +1609,10 @@ mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MoldLeggings>, <liquid:s
 mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.MarshmallowForm>, <liquid:steel.molten> * 576, <dreamcraft:item.MarshmallowFormMold>, true, 100);
 
 // --- Bow Fletching Cast
-mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowFletchingCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:fletching:*>, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowFletchingCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:fletching:*>, true, 100);
 
 // --- BowString Cast
-mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowStringCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:bowstring:*>, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<dreamcraft:item.BowStringCast>, <liquid:aluminumbrass.molten> * 144, <TConstruct:bowstring:*>, true, 100);
 
 
 
