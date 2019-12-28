@@ -964,6 +964,10 @@ Canner.addBottleRecipe(<gregtech:gt.Thoriumcell>, <IC2:itemFuelRod>, <gregtech:g
 // --- Flint Dust
 Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2802> * 8],  null, <minecraft:gravel> * 16, null, null, [10000], 50, 1920);
 
+// --- Re-add Cadmium Centrifuge recipe
+Centrifuge.addRecipe([<gregtech:gt.metaitem.01:1067>, <gregtech:gt.metaitem.01:1045>, <gregtech:gt.metaitem.01:1064>, <gregtech:gt.metaitem.01:1065>, <gregtech:gt.metaitem.01:1055>, <gregtech:gt.metaitem.01:1062>], null, <gregtech:gt.metaitem.01:2891>, null, null, [2500, 2500, 2500, 2500, 2500, 2500], 64, 20);
+        
+
 
 
 
@@ -1313,6 +1317,21 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32325>, <liquid:
 // --- Rotor Mold
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32324>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormRotor>, true, 100);
 
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32326>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeTiny>, true, 100);
+
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32327>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeSmall>, true, 100);
+
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32328>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeMedium>, true, 100);
+
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32329>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeLarge>, true, 100);
+
+// --- Turbine Blade Mold
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32330>, <liquid:steel.molten> * 576, <dreamcraft:item.MoldFormPipeHuge>, true, 100);
+
 // --- Extruder Shape Plate
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32350>, <liquid:steel.molten> * 576, <dreamcraft:item.ShapePlate>, true, 100);
 
@@ -1401,52 +1420,66 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 // --- Circuit Tooltips for Tiers ---
 
 
+// --- ULV Tier
+<gregtech:gt.metaitem.01:32700>.addTooltip(format.red("ULV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32075>.addTooltip(format.gold("ULV\u7b49\u7ea7"));
+<bartworks:gt.bwMetaGeneratedItem0:4>.addTooltip(format.lightPurple("ULV\u7b49\u7ea7"));
+
 // --- LV Tier
 <IC2:itemPartCircuit>.addTooltip(format.red("LV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.01:32701>.addTooltip(format.gold("LV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32078>.addTooltip(format.yellow("LV\u7b49\u7ea7"));
+<bartworks:gt.bwMetaGeneratedItem0:5>.addTooltip(format.lightPurple("LV\u7b49\u7ea7"));
 
 // --- MV Tier
 <gregtech:gt.metaitem.01:32702>.addTooltip(format.red("MV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32079>.addTooltip(format.gold("MV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32080>.addTooltip(format.yellow("MV\u7b49\u7ea7"));
+<bartworks:gt.bwMetaGeneratedItem0:6>.addTooltip(format.lightPurple("MV\u7b49\u7ea7"));
 
 // --- HV Tier
 <IC2:itemPartCircuitAdv>.addTooltip(format.gold("HV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.01:32703>.addTooltip(format.yellow("HV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32082>.addTooltip(format.green("HV\u7b49\u7ea7"));
+<bartworks:gt.bwMetaGeneratedItem0:7>.addTooltip(format.lightPurple("HV\u7b49\u7ea7"));
 
 // --- EV Tier
 <gregtech:gt.metaitem.01:32704>.addTooltip(format.yellow("EV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32083>.addTooltip(format.green("EV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32085>.addTooltip(format.aqua("EV\u7b49\u7ea7"));
+<bartworks:gt.bwMetaGeneratedItem0:8>.addTooltip(format.lightPurple("EV\u7b49\u7ea7"));
 
 // --- IV Tier
 <gregtech:gt.metaitem.01:32705>.addTooltip(format.yellow("IV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32084>.addTooltip(format.green("IV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32086>.addTooltip(format.aqua("IV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32089>.addTooltip(format.blue("IV\u7b49\u7ea7"));
+<bartworks:gt.bwMetaGeneratedItem0:9>.addTooltip(format.lightPurple("IV\u7b49\u7ea7"));
 
 // --- LuV Tier
 <gregtech:gt.metaitem.01:32706>.addTooltip(format.green("LuV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32087>.addTooltip(format.aqua("LuV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32096>.addTooltip(format.blue("LuV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32092>.addTooltip(format.darkPurple("LuV\u7b49\u7ea7"));
+<bartworks:gt.bwMetaGeneratedItem0:10>.addTooltip(format.lightPurple("LuV\u7b49\u7ea7"));
 
 // --- ZPM Tier
 <gregtech:gt.metaitem.03:32088>.addTooltip(format.aqua("ZPM\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32090>.addTooltip(format.blue("ZPM\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32093>.addTooltip(format.darkPurple("ZPM\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32097>.addTooltip(format.green("ZPM\u7b49\u7ea7"));
+<bartworks:gt.bwMetaGeneratedItem0:11>.addTooltip(format.lightPurple("ZPM\u7b49\u7ea7"));
 
 // --- UV Tier
 <gregtech:gt.metaitem.03:32091>.addTooltip(format.blue("UV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32094>.addTooltip(format.darkPurple("UV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32098>.addTooltip(format.aqua("UV\u7b49\u7ea7"));
+<bartworks:gt.bwMetaGeneratedItem0:12>.addTooltip(format.lightPurple("UV\u7b49\u7ea7"));
 
 // --- UHV Tier
 <gregtech:gt.metaitem.03:32095>.addTooltip(format.darkPurple("UHV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32099>.addTooltip(format.green("UHV\u7b49\u7ea7"));
+<bartworks:gt.bwMetaGeneratedItem0:13>.addTooltip(format.lightPurple("UHV\u7b49\u7ea7"));
 
 // --- UEV Tier
 <gregtech:gt.metaitem.03:32120>.addTooltip(format.green("UEV\u7b49\u7ea7"));
