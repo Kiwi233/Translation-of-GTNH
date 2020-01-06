@@ -250,9 +250,7 @@ gtnh.quest61.desc=有了更耐用的钢外壳,你可以用岩浆来制造些蒸�
 
 # Quest.62 - §3§lThe power of the sun
 gtnh.quest62.name=§3§l太阳之力
-#B gtnh.quest62.desc=The sun has quite a bit of power, so why not use it to produce steam? \n\nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.\n\n§4Hint: The solar boiler calcifies and becomes less efficient over time.
-#A gtnh.quest62.desc=The sun has quite a bit of power, so why not use it to produce steam? \n\nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.\n\n§4Hint: The solar boiler calcifies and becomes less efficient over time. It will heat up fast, so make sure you are ready with water.
-#C gtnh.quest62.desc=太阳肯定有很多能量,那何不利用它来产生些蒸汽？ 从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽. §4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能. 译者注:只要把锅炉拆掉重新放置就能重置钙化(￣▽￣)~*
+gtnh.quest62.desc=太阳肯定有很多能量,那何不利用它来产生些蒸汽？ 从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽. §4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能. 译者注:只要把锅炉拆掉重新放置就能重置钙化(￣▽￣)~*  它会迅速升温,因此请确保已准备好水.
 
 # Quest.63 - §3§lUsing steam to cook things
 gtnh.quest63.name=§3§l用蒸汽烹饪
@@ -448,9 +446,7 @@ gtnh.quest110.desc=一个基础的矿车不能容纳任何物品,所以你需要
 
 # Quest.111 - A simple cart
 gtnh.quest111.name=简单的矿车
-#B gtnh.quest111.desc=In order to create or customize your cart you need a hull to attach your desired upgrades to. The wooden one can be used for really simple applications, but to farm wheat or wood, you need at least an iron one.
-#A gtnh.quest111.desc=In order to create or customize your cart you need a hull to attach your desired upgrades to. The wooden one can be used for really simple applications, but to farm wheat or wood, you need at least an iron one.\n\n§c§lWARNING: §r§cUnprotected carts can be knocked off their rails by lightning. Cover the area with glass to prevent carts from disappearing.\n\nAlso, make sure to keep your cart in one chunk, or use chunkloaders covering the whole area the cart works within. Loading/unloading chunks may cause carts to disappear or duplicate.
-#C gtnh.quest111.desc=为了组装或定制你的矿车,你需要一个车壳来附加所需的升级.木制的可以用于非常简单的应用,但要种植小麦或树木,你至少需要一个铁的.
+gtnh.quest111.desc=为了组装或定制你的矿车,你需要一个车壳来附加所需的升级.木制的可以用于非常简单的应用,但要种植小麦或树木,你至少需要一个铁的.  §c§l警告: §r§c不受保护的矿车可能会被雷电击中而脱轨.用玻璃遮盖该区域,以防矿车消失.  另外,请确保将矿车放在一个区块中,或使用覆盖整个矿车工作区域的区块加载器.加载/卸载区块可能会导致矿车消失或重复.
 
 # Quest.112 - Cart modules: Wood cutter
 gtnh.quest112.name=矿车模块:伐木
@@ -594,9 +590,7 @@ gtnh.quest146.desc=当臣民们不愿合作时......
 
 # Quest.147 - §9§lRocket fuel
 gtnh.quest147.name=§9§l燃料注入机
-#B gtnh.quest147.desc=Rocket fuel are used in the future for galacticraft rockets. It does generate a lot of Power in the rocket Engine. Use your centrifuge to make some. Will generate 30720000 eu per cell.
-#A gtnh.quest147.desc=Rocket fuel are used in the future for galacticraft rockets. It does generate a lot of Power in the Rocket Engine. Use your centrifuge to make some. Will generate 3072000 eu per cell.
-#C gtnh.quest147.desc=火箭燃料将来用于星系的火箭.它确实可以在火箭引擎里产生相当大功率的输出.用你的离心机做一些.在火箭引擎中燃烧每个单元可产生3072000EU.
+gtnh.quest147.desc=火箭燃料将来用于星系的火箭.它确实可以在火箭引擎里产生相当大功率的输出.用你的离心机做一些.在火箭引擎中燃烧每个单元可产生3072000EU.
 
 # Quest.148 - §6§lTasty...
 gtnh.quest148.name=§6§l美味的......
@@ -1132,15 +1126,11 @@ gtnh.quest280.desc=眼睛.对,眼睛！ 宝贝我需要眼睛. 不是毛茸茸�
 
 # Quest.281 - Really (Really!) dark magic
 gtnh.quest281.name=真的(真的！)黑暗魔法
-#B gtnh.quest281.desc=Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!
-#A gtnh.quest281.desc=Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!\n\nAvailable in your local bookstore, and also occasionally found on Crimson Knights and Crimson Clerics.
-#C gtnh.quest281.desc=傻瓜.我说他们是一群傻瓜！ 他们什么都不知道！这本书会指引我.是的！是的！我的宝贝. 它将让我们拥有更加强大的力量！
+gtnh.quest281.desc=傻瓜.我说他们是一群傻瓜！ 他们什么都不知道！这本书会指引我.是的！是的！我的宝贝. 它将让我们拥有更加强大的力量！  可在本地的书商买到,或击杀血腥骑士、血腥主教掉落获得.
 
 # Quest.282 - Secrets
 gtnh.quest282.name=秘密
-#B gtnh.quest282.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt.. They will tell me!
-#A gtnh.quest282.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt.. They will tell me!\n\nNOTE: You might want to setup a spawner because you'll need to kill a lot of these.
-#C gtnh.quest282.desc=我感觉到了！是的,是的是的是的是的！！！！！！ 我们将获得更大的力量,力量！！！！我的宝贝！. 这些声音给了我一个线索,有一个难以置信充满了魔法力量的维度. 我必须去那,我必须去！ 邪术教徒们知道这个秘密.我会将他们撕成碎片……嘿嘿嘿他们会告诉我的！
+gtnh.quest282.desc=我感觉到了！是的,是的是的是的是的！！！！！！ 我们将获得更大的力量,力量！！！！我的宝贝！. 这些声音给了我一个线索,有一个难以置信充满了魔法力量的维度. 我必须去那,我必须去！ 邪术教徒们知道这个秘密.我会将他们撕成碎片……嘿嘿嘿他们会告诉我的！  注意:你可能需要一个刷怪笼,掉落几率不太高.
 
 # Quest.283 - Find the key
 gtnh.quest283.name=找到钥匙
@@ -1364,9 +1354,7 @@ gtnh.quest337.desc=与硝酸不同,这东西不会爆炸.但你还是不应该�
 
 # Quest.338 - Spirit coin transfer
 gtnh.quest338.name=精神硬币转换
-#B gtnh.quest338.desc=The Potion of Spirit can only made in the spirit world. Wondering how you can get your stuff like the Kettle, Spinning Wheel or Cauldron to the spirit world? Well you can bypass it probably on servers with the enderchets but for single player or a server without any enderchest you can transfer a few coins to the spirit world and buy some stuff. Don't claim the coins until you have already passed to the other side.\n\nYou have already collected a few coins in quests. Let's transfer them now and save it in a chest.\n\nIt's a repeatable quest so you can do it as long you have enough coins.
-#A gtnh.quest338.desc=The Potion of Spirit can only made in the spirit world. Wondering how you can get your stuff like the Kettle, Spinning Wheel or Cauldron to the spirit world? Well you can bypass it probably on servers with the enderchests but for single player or a server without any enderchest you can transfer a few coins to the spirit world and buy some stuff. Don't claim the coins until you have already passed to the other side.\n\nYou have already collected a few coins in quests. Let's transfer them now and save it in a chest.\n\nIt's a repeatable quest so you can do it as long you have enough coins.
-#C gtnh.quest338.desc=水心之酿只能在精神世界制作.想知道在精神世界中如何获得你所需的设备,如水壶、转轮或是巫师炼药锅?好吧,在服务器中你或许可以通过末影箱子之类的东西,但我这里提供了另外的选择,你可以花些硬币,将这些设备传送到精神世界中.在你前往那边之前不要提交任务.  你已经通过前面的任务收集了不少硬币.让我们将它转换并存到箱子里.  这是个可重复任务,所以你可以一直提交知道拥有足够所需硬币为止.
+gtnh.quest338.desc=水心之酿只能在精神世界制作.想知道在精神世界中如何获得你所需的设备,如水壶、转轮或是巫师炼药锅?好吧,在服务器中你或许可以通过末影箱子之类的东西,但我这里提供了另外的选择,你可以花些硬币,将这些设备传送到精神世界中.在你前往那边之前不要提交任务.  你已经通过前面的任务收集了不少硬币.让我们将它转换并存到箱子里.  这是个可重复任务,所以你可以一直提交知道拥有足够所需硬币为止.
 
 # Quest.339 - Circle magic
 gtnh.quest339.name=圆环法阵
@@ -1930,9 +1918,7 @@ gtnh.quest478.desc=当你的钢足够制作打火石的时候,我想你一定想
 
 # Quest.479 - §3§m§l§m§4§3§lTHE NETHER
 gtnh.quest479.name=§3§m§l§m§4§3§l下界
-#B gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care.  Be sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?\n\nAlso, *when* you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area *first* so that you don't end up dying over and over and making a mess.
-#A gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care.  Be sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?\n\nAlso, *when* you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area *first* so that you don't end up dying over and over and making a mess.\n\nWatch out for some mobs! They'll take minimal damage from any weapon that is their weakness. So if you seem to not be doing any damage, you probably aren't! Think about other options to hurt/kill the monster.
-#C gtnh.quest479.desc=现在这里有更加危险的精英怪物. 玩得开心！保重=.=  一定要带上一个坚强的同伴来保证你的存活.要是你没有跟朋友一起玩,何不制作一个铁傀儡然后让它带头冲锋?或者随身携带更多材料?  另外,*万一*你死了,你的坟墓在黑暗下会生成骷髅.所以开始战斗之前,记得*首先*将这片区域照亮,这样你就不会一次又一次地死去,将事情搞得一团糟了.
+gtnh.quest479.desc=现在这里有更加危险的精英怪物. 玩得开心！保重=.=  一定要带上一个坚强的同伴来保证你的存活.要是你没有跟朋友一起玩,何不制作一个铁傀儡然后让它带头冲锋?或者随身携带更多材料?  另外,*万一*你死了,你的坟墓在黑暗下会生成骷髅.所以开始战斗之前,记得*首先*将这片区域照亮,这样你就不会一次又一次地死去,将事情搞得一团糟了.  当心某些怪物!他们将不会受到任何除弱点武器的伤害.所以当你打怪没伤害时,你可能用错了方法!考虑其他方法来伤害/杀死怪物.
 
 # Quest.480 - §2§lMalachite
 gtnh.quest480.name=§2§l孔雀石
