@@ -18,11 +18,15 @@ gtnh.quest3.desc=现在你有了3×3的工作台,该为你身上的杂物准备�
 
 # Quest.4 - §1§lMain Quests and Secondary Quests
 gtnh.quest4.name=§1§l主要任务和次要任务
-gtnh.quest4.desc=现在,你可能会发现出现了两个新任务.注意一下这两个任务有什么不同的地方么？ 带有王冠形状边框的任务是主线任务,主线任务与其他的主线任务有着紧密的联系.你必须完成主线任务才可以解锁下一层任务.而方形边框的任务是可选任务,可选任务不会解锁新的任务阶段.但是,可选任务大部分都是介绍有利于你发展的物品的制作过程,并且会提供一些比较不错的奖励物品. 需要注意的是,由于任务书的大小限制,不是所有的主线任务都有一个明确的连接线来引导你.如果在游戏过程中发现本层已经没有明确的主线任务,那么你可以试着完成一些其他页面的主线任务来解锁更多的任务.  如果你需要任务帮助,可以按住F3+H以查看任务ID,然后任务ID将自动显示在你的任务书中.
+#B gtnh.quest4.desc=Now that you have made it this far notice the two new quests. See how these two quests look different? The quest with a crown is a main quest and is linked to other main quests by a thick line. You must complete the main quests to unlock the next tier. The other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.\n\nNot all main quests have a connecting line to guide you through your adventure because of book size. If there is not an obvious linked main quest at any point, try completing some of the other main quests available to you to progress.
+#A gtnh.quest4.desc=Now that you have made it this far notice the two new quests. See how these two quests look different? The quest with a crown is a main quest and is linked to other main quests by a thick line. You must complete the main quests to unlock the next tier. The other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.\n\nNot all main quests have a connecting line to guide you through your adventure because of book size. If there is not an obvious linked main quest at any point, try completing some of the other main quests available to you to progress.\n\nIf you need help with a quest, you can find the Quest ID by holding F3 + H, and then Quest IDs will show in your questbook.
+#C gtnh.quest4.desc=现在,你可能会发现出现了两个新任务.注意一下这两个任务有什么不同的地方么？ 带有王冠形状边框的任务是主线任务,主线任务与其他的主线任务有着紧密的联系.你必须完成主线任务才可以解锁下一层任务.而方形边框的任务是可选任务,可选任务不会解锁新的任务阶段.但是,可选任务大部分都是介绍有利于你发展的物品的制作过程,并且会提供一些比较不错的奖励物品. 需要注意的是,由于冒险书的大小限制,不是所有的主线任务都有一个明确的连接线来引导你.如果在游戏过程中发现本层已经没有明确的主线任务,那么你可以试着完成一些其他页面的主线任务来解锁更多的任务.
 
 # Quest.5 - §1§lTools
 gtnh.quest5.name=§1§l基本工具
-gtnh.quest5.desc=现在你有一个避难所、工作台和一个存放杂品的地方.你应该开始做一些基本工具了.(除非你想继续空手撸树......)  注意:你真的确定吗...
+#B gtnh.quest5.desc=Now that you've got a shelter, crafting table, and a place to store your items, you should make some tools. (Unless you'd like to continue punching trees with your bare hand...)
+#A gtnh.quest5.desc=Now that you've got a shelter, crafting table, and a place to store your items, you should make some tools. (Unless you'd like to continue punching trees with your bare hand...)\n\nNOTE: Make sure to
+#C gtnh.quest5.desc=现在你有一个避难所、工作台和一个存放杂品的地方.你应该开始做一些基本工具了.(除非你想继续空手撸树......)
 
 # Quest.6 - §1§lYou reap...
 gtnh.quest6.name=§1§l要怎么收获......
@@ -134,7 +138,9 @@ gtnh.quest32.desc=在你找到方法运水后,你又有了另外一个超棒的�
 
 # Quest.33 - §2§lTinker-time
 gtnh.quest33.name=§2§l匠魂时间
-gtnh.quest33.desc=用燧石玩意去烧猪猪或牛群是很有趣,但它终究不是很好的工具,何况还不能被维修.然而,你发现了一种新的工具不仅可以被修复还可以升级！但你绝对需要更先进的制作技术.  如果你想要使用橡木以外的其他木材来制作台子,可以将它们转换为默认的橡木样式以完成此任务.
+#B gtnh.quest33.desc=While using your flint tools is fun in terms of killing pigs and cows, they are not very good, and can't be repaired. You discovered how to craft tools that could be repaired and upgraded, but for that you definitely need a more advanced crafting technique.
+#A gtnh.quest33.desc=While using your flint tools is fun in terms of killing pigs and cows, they are not very good, and can't be repaired. You discovered how to craft tools that could be repaired and upgraded, but for that you definitely need a more advanced crafting technique.\n\nIf you have to use wood other than oakwood to make your tables, you can convert them to the default oakwood type to complete this quest.
+#C gtnh.quest33.desc=用燧石玩意去烧猪猪或牛群是很有趣,但它终究不是很好的工具,何况还不能被维修.然而,你发现了一种新的工具不仅可以被修复还可以升级！但你绝对需要更进阶的制作技术.
 
 # Quest.34 - §2§lAluminini...um...?
 gtnh.quest34.name=§2§l阿噜咪妮妮...唔咪---？(钅...吕...？)
@@ -250,7 +256,9 @@ gtnh.quest61.desc=有了更耐用的钢外壳,你可以用岩浆来制造些蒸�
 
 # Quest.62 - §3§lThe power of the sun
 gtnh.quest62.name=§3§l太阳之力
-gtnh.quest62.desc=太阳肯定有很多能量,那何不利用它来产生些蒸汽？ 从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽. §4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能. 译者注:只要把锅炉拆掉重新放置就能重置钙化(￣▽￣)~*  它会迅速升温,因此请确保已准备好水.
+#B gtnh.quest62.desc=The sun has quite a bit of power, so why not use it to produce steam? \n\nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.\n\n§4Hint: The solar boiler calcifies and becomes less efficient over time.
+#A gtnh.quest62.desc=The sun has quite a bit of power, so why not use it to produce steam? \n\nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.\n\n§4Hint: The solar boiler calcifies and becomes less efficient over time. It will heat up fast, so make sure you are ready with water.
+#C gtnh.quest62.desc=太阳肯定有很多能量,那何不利用它来产生些蒸汽？ 从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽. §4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能. 译者注:只要把锅炉拆掉重新放置就能重置钙化(￣▽￣)~*
 
 # Quest.63 - §3§lUsing steam to cook things
 gtnh.quest63.name=§3§l用蒸汽烹饪
@@ -446,7 +454,9 @@ gtnh.quest110.desc=一个基础的矿车不能容纳任何物品,所以你需要
 
 # Quest.111 - A simple cart
 gtnh.quest111.name=简单的矿车
-gtnh.quest111.desc=为了组装或定制你的矿车,你需要一个车壳来附加所需的升级.木制的可以用于非常简单的应用,但要种植小麦或树木,你至少需要一个铁的.  §c§l警告: §r§c不受保护的矿车可能会被雷电击中而脱轨.用玻璃遮盖该区域,以防矿车消失.  另外,请确保将矿车放在一个区块中,或使用覆盖整个矿车工作区域的区块加载器.加载/卸载区块可能会导致矿车消失或重复.
+#B gtnh.quest111.desc=In order to create or customize your cart you need a hull to attach your desired upgrades to. The wooden one can be used for really simple applications, but to farm wheat or wood, you need at least an iron one.
+#A gtnh.quest111.desc=In order to create or customize your cart you need a hull to attach your desired upgrades to. The wooden one can be used for really simple applications, but to farm wheat or wood, you need at least an iron one.\n\n§c§lWARNING: §r§cUnprotected carts can be knocked off their rails by lightning. Cover the area with glass to prevent carts from disappearing.\n\nAlso, make sure to keep your cart in one chunk, or use chunkloaders covering the whole area the cart works within. Loading/unloading chunks may cause carts to disappear or duplicate.
+#C gtnh.quest111.desc=为了组装或定制你的矿车,你需要一个车壳来附加所需的升级.木制的可以用于非常简单的应用,但要种植小麦或树木,你至少需要一个铁的.
 
 # Quest.112 - Cart modules: Wood cutter
 gtnh.quest112.name=矿车模块:伐木
@@ -588,9 +598,13 @@ gtnh.quest145.desc=研磨机与SAG研磨之间的战争仍在继续,看不到尽
 gtnh.quest146.name=§9§l酷刑装置
 gtnh.quest146.desc=当臣民们不愿合作时......
 
-# Quest.147 - §9§lRocket fuel
-gtnh.quest147.name=§9§l燃料注入机
-gtnh.quest147.desc=火箭燃料将来用于星系的火箭.它确实可以在火箭引擎里产生相当大功率的输出.用你的离心机做一些.在火箭引擎中燃烧每个单元可产生3072000EU.
+# Quest.147 - §9§lRocket fuel mix A
+#B gtnh.quest147.name=§9§lRocket fuel
+#A gtnh.quest147.name=§9§lRocket fuel mix A
+#C gtnh.quest147.name=§9§l燃料注入机
+#B gtnh.quest147.desc=Rocket fuel are used in the future for galacticraft rockets. It does generate a lot of Power in the rocket Engine. Use your centrifuge to make some. Will generate 30720000 eu per cell.
+#A gtnh.quest147.desc=Rocket fuel are used in the future for galacticraft rockets. It does generate a lot of Power in the Rocket Engine. Use your centrifuge to make some. Will generate 3072000 eu per cell.
+#C gtnh.quest147.desc=火箭燃料将来用于星系的火箭.它确实可以在火箭引擎里产生相当大功率的输出.用你的离心机做一些.在火箭引擎中燃烧每个单元可产生3072000EU.
 
 # Quest.148 - §6§lTasty...
 gtnh.quest148.name=§6§l美味的......
@@ -1126,11 +1140,15 @@ gtnh.quest280.desc=眼睛.对,眼睛！ 宝贝我需要眼睛. 不是毛茸茸�
 
 # Quest.281 - Really (Really!) dark magic
 gtnh.quest281.name=真的(真的！)黑暗魔法
-gtnh.quest281.desc=傻瓜.我说他们是一群傻瓜！ 他们什么都不知道！这本书会指引我.是的！是的！我的宝贝. 它将让我们拥有更加强大的力量！  可在本地的书商买到,或击杀血腥骑士、血腥主教掉落获得.
+#B gtnh.quest281.desc=Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!
+#A gtnh.quest281.desc=Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!\n\nAvailable in your local bookstore, and also occasionally found on Crimson Knights and Crimson Clerics.
+#C gtnh.quest281.desc=傻瓜.我说他们是一群傻瓜！ 他们什么都不知道！这本书会指引我.是的！是的！我的宝贝. 它将让我们拥有更加强大的力量！
 
 # Quest.282 - Secrets
 gtnh.quest282.name=秘密
-gtnh.quest282.desc=我感觉到了！是的,是的是的是的是的！！！！！！ 我们将获得更大的力量,力量！！！！我的宝贝！. 这些声音给了我一个线索,有一个难以置信充满了魔法力量的维度. 我必须去那,我必须去！ 邪术教徒们知道这个秘密.我会将他们撕成碎片……嘿嘿嘿他们会告诉我的！  注意:你可能需要一个刷怪笼,掉落几率不太高.
+#B gtnh.quest282.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt.. They will tell me!
+#A gtnh.quest282.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt.. They will tell me!\n\nNOTE: You might want to setup a spawner because you'll need to kill a lot of these.
+#C gtnh.quest282.desc=我感觉到了！是的,是的是的是的是的！！！！！！ 我们将获得更大的力量,力量！！！！我的宝贝！. 这些声音给了我一个线索,有一个难以置信充满了魔法力量的维度. 我必须去那,我必须去！ 邪术教徒们知道这个秘密.我会将他们撕成碎片……嘿嘿嘿他们会告诉我的！
 
 # Quest.283 - Find the key
 gtnh.quest283.name=找到钥匙
@@ -1354,7 +1372,9 @@ gtnh.quest337.desc=与硝酸不同,这东西不会爆炸.但你还是不应该�
 
 # Quest.338 - Spirit coin transfer
 gtnh.quest338.name=精神硬币转换
-gtnh.quest338.desc=水心之酿只能在精神世界制作.想知道在精神世界中如何获得你所需的设备,如水壶、转轮或是巫师炼药锅?好吧,在服务器中你或许可以通过末影箱子之类的东西,但我这里提供了另外的选择,你可以花些硬币,将这些设备传送到精神世界中.在你前往那边之前不要提交任务.  你已经通过前面的任务收集了不少硬币.让我们将它转换并存到箱子里.  这是个可重复任务,所以你可以一直提交知道拥有足够所需硬币为止.
+#B gtnh.quest338.desc=The Potion of Spirit can only made in the spirit world. Wondering how you can get your stuff like the Kettle, Spinning Wheel or Cauldron to the spirit world? Well you can bypass it probably on servers with the enderchets but for single player or a server without any enderchest you can transfer a few coins to the spirit world and buy some stuff. Don't claim the coins until you have already passed to the other side.\n\nYou have already collected a few coins in quests. Let's transfer them now and save it in a chest.\n\nIt's a repeatable quest so you can do it as long you have enough coins.
+#A gtnh.quest338.desc=The Potion of Spirit can only made in the spirit world. Wondering how you can get your stuff like the Kettle, Spinning Wheel or Cauldron to the spirit world? Well you can bypass it probably on servers with the enderchests but for single player or a server without any enderchest you can transfer a few coins to the spirit world and buy some stuff. Don't claim the coins until you have already passed to the other side.\n\nYou have already collected a few coins in quests. Let's transfer them now and save it in a chest.\n\nIt's a repeatable quest so you can do it as long you have enough coins.
+#C gtnh.quest338.desc=水心之酿只能在精神世界制作.想知道在精神世界中如何获得你所需的设备,如水壶、转轮或是巫师炼药锅?好吧,在服务器中你或许可以通过末影箱子之类的东西,但我这里提供了另外的选择,你可以花些硬币,将这些设备传送到精神世界中.在你前往那边之前不要提交任务.  你已经通过前面的任务收集了不少硬币.让我们将它转换并存到箱子里.  这是个可重复任务,所以你可以一直提交知道拥有足够所需硬币为止.
 
 # Quest.339 - Circle magic
 gtnh.quest339.name=圆环法阵
@@ -1918,7 +1938,9 @@ gtnh.quest478.desc=当你的钢足够制作打火石的时候,我想你一定想
 
 # Quest.479 - §3§m§l§m§4§3§lTHE NETHER
 gtnh.quest479.name=§3§m§l§m§4§3§l下界
-gtnh.quest479.desc=现在这里有更加危险的精英怪物. 玩得开心！保重=.=  一定要带上一个坚强的同伴来保证你的存活.要是你没有跟朋友一起玩,何不制作一个铁傀儡然后让它带头冲锋?或者随身携带更多材料?  另外,*万一*你死了,你的坟墓在黑暗下会生成骷髅.所以开始战斗之前,记得*首先*将这片区域照亮,这样你就不会一次又一次地死去,将事情搞得一团糟了.  当心某些怪物!他们将不会受到任何除弱点武器的伤害.所以当你打怪没伤害时,你可能用错了方法!考虑其他方法来伤害/杀死怪物.
+#B gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care.  Be sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?\n\nAlso, *when* you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area *first* so that you don't end up dying over and over and making a mess.
+#A gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care.  Be sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?\n\nAlso, *when* you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area *first* so that you don't end up dying over and over and making a mess.\n\nWatch out for some mobs! They'll take minimal damage from any weapon that is not their weakness. So if you seem to not be doing much damage, you probably aren't! Think about other options to hurt/kill the monster.
+#C gtnh.quest479.desc=现在这里有更加危险的精英怪物. 玩得开心！保重=.=  一定要带上一个坚强的同伴来保证你的存活.要是你没有跟朋友一起玩,何不制作一个铁傀儡然后让它带头冲锋?或者随身携带更多材料?  另外,*万一*你死了,你的坟墓在黑暗下会生成骷髅.所以开始战斗之前,记得*首先*将这片区域照亮,这样你就不会一次又一次地死去,将事情搞得一团糟了.
 
 # Quest.480 - §2§lMalachite
 gtnh.quest480.name=§2§l孔雀石
@@ -2401,7 +2423,7 @@ gtnh.quest598.desc=要得到电池所需的锑,最有效率的方法是离心辉
 # Quest.599 - §5§lThermal centrifuge
 gtnh.quest599.name=§5§l热能离心机
 #B gtnh.quest599.desc=A machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods. It's usefull for tiny piles of Gallium out of crushed Zinc Ore for your Diodes needed in good circuits.\nLater on you can get Gallium out of centrifuges Sphalerite in the second macerator slot.\nIf you can't produce the 2A of LV power for this machine right now, wait until you get to MV and use transformers to power an LV version.
-#A gtnh.quest599.desc=A machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods. It's usefull for tiny piles of Gallium out of Zinc or Sphalerite Ore for your Diodes needed in good circuits.\nIf you can't produce the 2A of LV power for this machine right now, wait until you get to MV and use transformers to power an LV version.
+#A gtnh.quest599.desc=A machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods. It's useful for tiny piles of Gallium out of crushed Zinc Ore for your Diodes needed in good circuits.\nLater on you can get Gallium out of centrifuged Sphalerite in the second macerator slot.\nIf you can't produce the 2A of LV power for this machine right now, wait until you get to MV and use transformers to power an LV version.
 #C gtnh.quest599.desc=想从破碎矿石或者纯净矿石粉末中取得不同的副产品,热能离心机是个选择.  当你有反应堆并想回收用尽的燃料棒时,十分有用.  它还可以从粉碎锌矿石中获取镓,这是不错的电路上的二极管的必需品.  打粉离心过后的闪锌矿,在粉碎机第二格内也有几率出现镓.  如果你无法稳定提供2A的LV电能,等你到达MV后,将MV变压成LV再使用它吧.
 
 # Quest.600 - Hunger, no more
@@ -3384,7 +3406,9 @@ gtnh.quest842.desc=甲烷可以在燃气轮机中作为燃料使用,每单位的
 
 # Quest.843 - §6§lMethanol
 gtnh.quest843.name=§6§l甲醇
-gtnh.quest843.desc=甲醇可以作为柴油发电机的燃料.每单位(1000mb)的甲醇可以产生84,000EU的电力.甲醇也是制造生物柴油或者其他液体(如氯甲烷、乙酸甲酯、二甲胺)的重要原料.
+#B gtnh.quest843.desc=Methanol with a burn value of 84,000 EU per cell can be used to make biodiesel and other fluids.
+#A gtnh.quest843.desc=Methanol with a burn value of 84,000 EU per cell can be used to make biodiesel and other fluids. It's also used to make certain rocket fuels.
+#C gtnh.quest843.desc=甲醇可以作为柴油发电机的燃料.每单位(1000mb)的甲醇可以产生84,000EU的电力.甲醇也是制造生物柴油或者其他液体(如氯甲烷、乙酸甲酯、二甲胺)的重要原料.
 
 # Quest.844 - §6§lEthanol
 gtnh.quest844.name=§6§l乙醇
@@ -3436,29 +3460,23 @@ gtnh.quest855.desc=要制造一氧化氮你需要在化学反应釜中结合氧�
 
 # Quest.856 - §9§l1,1-Dimetylhydrazine
 gtnh.quest856.name=§9§l偏二甲肼
-#B gtnh.quest856.desc=To make 1,1-dimethylhydrazine you need to combine some hydrazine and formaldehyde with hydrogen in a chemical reactor.
-#A gtnh.quest856.desc=To make 1,1-dimethylhydrazine you need to combine some dimethylamine and chloramine in a chemical reactor.
-#C gtnh.quest856.desc=要制造偏二甲肼,你需要1单位的肼和1单位的甲醛以及2单位的氢气进行反应.
+gtnh.quest856.desc=要制造偏二甲肼,你需要1单位的肼和1单位的甲醛以及2单位的氢气进行反应.
 
-# Quest.857 - §9§lDimethylamine
-#B gtnh.quest857.name=§9§lFormaldehyde
-#A gtnh.quest857.name=§9§lDimethylamine
-#C gtnh.quest857.name=§9§l甲醛
+# Quest.857 - §9§lFormaldehyde
+gtnh.quest857.name=§9§l甲醛
 #B gtnh.quest857.desc=Combining formaldehyde catalyst, oxygen and methanol in a chemical dehydrator produces some formaldehyde.
-#A gtnh.quest857.desc=Combining ammonia and methanol in a chemical reactor produces some dimethylamine.
+#A gtnh.quest857.desc=Combining formaldehyde catalyst, oxygen and methanol in a chemical dehydrator produces some formaldehyde.\n\nYou can distill methanol from a pyrolyse oven using a few sources, or you can make it from CO2 gas you collect from your EBF.
 #C gtnh.quest857.desc=在化学脱水机中将甲醛催化剂、氧气和甲醇混合会产生一些甲醛.
 
 # Quest.858 - §9§lChloramine
 gtnh.quest858.name=§9§l氯胺
 #B gtnh.quest858.desc=Combining hypochlorous acid and ammonia in a chemical reactor produces some chloramine.\nChloramine have no use at the moment but maybe later.
-#A gtnh.quest858.desc=Combining hypochlorous acid and ammonia in a chemical reactor produces some chloramine.
+#A gtnh.quest858.desc=Combining hypochlorous acid and ammonia in a chemical reactor produces some chloramine.\nChloramine has no use at the moment but maybe later we will think of something.
 #C gtnh.quest858.desc=在化学反应釜中让次氯酸和氨反应得到氯胺.  氯胺目前无用,但以后或许有用.
 
 # Quest.859 - §a§9§lHypochlorous Acid
 gtnh.quest859.name=§a§9§l次氯酸
-#B gtnh.quest859.desc=Hypochlorous acid requires water, chlorine and some mercury.\nIt can be burned in the Acid Generator.
-#A gtnh.quest859.desc=Hypochlorous acid requires water, chlorine and some mercury.
-#C gtnh.quest859.desc=次氯酸需要水、氯和一些汞.  可用于酸性发电机.
+gtnh.quest859.desc=次氯酸需要水、氯和一些汞.  可用于酸性发电机.
 
 # Quest.860 - §9§lTitanium finally
 gtnh.quest860.name=§9§l总算能炼钛了
@@ -4616,7 +4634,9 @@ gtnh.quest1145.desc=格雷的线缆无法直接连接到工业2的机器上,因�
 
 # Quest.1146 - §2§lGT 6 styled Pipes
 gtnh.quest1146.name=§2§lGT6型管道
-gtnh.quest1146.desc=也许你在想为什么现在的管道不会自动连接了？这是为了让管道更加的聪明. 现在在安装管道之后,你可以使用扳手来手动连接你想要的管道.你不在需要使用板或者箔来防止管道之间的连接了.  但是你还是得用它们把炽热的管道包住,防止自己烫伤!  在管道末端Shift左键将会禁用这一侧的流体输入.这非常方便,例如,防止燃煤锅炉将蒸汽传输到水管中.  还有,现在管道内置一个小型扇板,减少内部流体来回流动.手持扳手Shift右键可设置禁止输入端.  大型或者巨型流体管道可以作为一种廉价的流体存储器,可在内部保存大量的流体.  机器的输出端、锅炉和RC蓄水器无需泵即可自动输出液体.但是另外的超级缸之类的储罐就需要泵或是匠魂排液口来移动液体了.  §4提示:如果手持管道瞄准另外一个管道进行安装,那么它们将会自动连接.
+#B gtnh.quest1146.desc=Maybe you are wondering why the new pipes don't auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don't need a plate or a foil to prevent pipes from connecting anymore.\n\nYou'll still want to cover hot pipes to prevent getting hurt!\n\nShift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. \n\nAlso, pipes now come with a shutter built in for free to reduce sloshing. Shift-rightclick with a wrench on the side you want prevent input.\n\nLarge or Huge fluid pipes can be a "poor man's" storage tank, holding large amounts on their own.\n\nFor machine outputs, including the boilers, and water siding tanks you will not need pumps. Other tanks will need pumps or Tinker's Construct faucets to move fluids.\n\n§4Hint: If you click one pipe onto the other they will auto-connect.
+#A gtnh.quest1146.desc=Maybe you are wondering why the new pipes don't auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don't need a plate or a foil to prevent pipes from connecting anymore.\n\nYou'll still want to cover hot pipes to prevent getting hurt!\n\nShift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. \n\nAlso, pipes now come with a shutter built in for free to reduce sloshing. Shift-rightclick with a wrench on the side you want prevent input.\n\nLarge or Huge fluid pipes can be a "poor man's" storage tank, holding large amounts on their own.\n\nFor machine outputs, including the boilers, and water siding tanks you will not need pumps. Other tanks will need pumps or Tinker's Construct faucets to move fluids.\n\nYou can put covers such as GT oak planks or plates on a pipe as well. Normally this prevents connections in that direction, but you can use a screwdriver to enable connections. This lets you make pipes that look nice going through walls.\n\n§4Hint: If you click one pipe onto the other they will auto-connect.
+#C gtnh.quest1146.desc=也许你在想为什么现在的管道不会自动连接了？这是为了让管道更加的聪明. 现在在安装管道之后,你可以使用扳手来手动连接你想要的管道.你不在需要使用板或者箔来防止管道之间的连接了.  但是你还是得用它们把炽热的管道包住,防止自己烫伤!  在管道末端Shift左键将会禁用这一侧的流体输入.这非常方便,例如,防止燃煤锅炉将蒸汽传输到水管中.  还有,现在管道内置一个小型扇板,减少内部流体来回流动.手持扳手Shift右键可设置禁止输入端.  大型或者巨型流体管道可以作为一种廉价的流体存储器,可在内部保存大量的流体.  机器的输出端、锅炉和RC蓄水器无需泵即可自动输出液体.但是另外的超级缸之类的储罐就需要泵或是匠魂排液口来移动液体了.  §4提示:如果手持管道瞄准另外一个管道进行安装,那么它们将会自动连接.
 
 # Quest.1147 - §3§2§4§3§lGT 6 styled Wires and Cables
 gtnh.quest1147.name=§3§2§4§3§lGT6型导线和线缆
@@ -4822,23 +4842,33 @@ gtnh.quest1196.desc=你可以用硬币购买一些锡矿莓
 
 # Quest.1197 - §d§lFusion reactor MK2 - bigger, better, fusor
 gtnh.quest1197.name=§d§l聚变反应堆MK2
-gtnh.quest1197.desc=现在你已经有了铕块,可以将聚变反应堆升级到MK2了. MK2型聚变反应堆搭建方式和MK1完全一样,不同的是你需要将LuV机械方块升级到聚变机械方块,超导线圈也要升级到专为聚变反应堆设计的聚变线圈.所有的输入/输出仓都需要升级到ZPM级. MK2型反应堆可以处理启动电量少于320M-EU和持续供电少于65536EU/T的聚变配方. 另外一点,如果你用MK2反应堆处理MK1的配方,那么你将会超频. 聚变反应堆超频和普通超频略有区别,将会提高2倍耗电量,加快2倍处理速度.
+#B gtnh.quest1197.desc=Now that you have some europium, put it to use by making an mk2 reactor. This one will require the same block placement, but replacing LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and using ZPM tier hatches. This reactor can handle recipes up to 320M eu startup. In addition, if you perform an mk1 recipe on an mk2, you will overclock it. Fusion overclocking is different than normal gt. It will take 2x the power, but the recipe will go 2x faster.
+#A gtnh.quest1197.desc=Now that you have some europium, put it to use by making an mk2 reactor. \n\nThis one will require the same block placement, but replacing LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and using ZPM tier hatches. \n\nThis reactor can handle recipes up to 320M eu startup. In addition, if you perform an mk1 recipe on an mk2, you will overclock it. Fusion overclocking is different than normal gt. It will take 2x the power, but the recipe will go 2x faster.
+#C gtnh.quest1197.desc=现在你已经有了铕块,可以将聚变反应堆升级到MK2了. MK2型聚变反应堆搭建方式和MK1完全一样,不同的是你需要将LuV机械方块升级到聚变机械方块,超导线圈也要升级到专为聚变反应堆设计的聚变线圈.所有的输入/输出仓都需要升级到ZPM级. MK2型反应堆可以处理启动电量少于320M-EU和持续供电少于65536EU/T的聚变配方. 另外一点,如果你用MK2反应堆处理MK1的配方,那么你将会超频. 聚变反应堆超频和普通超频略有区别,将会提高2倍耗电量,加快2倍处理速度.
 
 # Quest.1198 - §d§lUpgrading the reactor
 gtnh.quest1198.name=§d§lMK3型聚变反应堆
-gtnh.quest1198.desc=MK2型反应堆虽然很好,但是既然可以将反应堆的功率继续提升,那我们为什么不继续下去？ MK3型反应堆将会使所有配方的功率增加一倍,同时处理时间减半. 你需要将所有的输入/输出仓都升级到不低于UV级,同时将聚变机械方块升级到聚变机械方块MK-II. MK3型反应堆可以制作所有的聚变配方. 你可以向能源仓输入8192EU/T的持续电流来让聚变反应堆工作,UV能源仓能够接收高达2A的电流和低于524288EU/T的持续供电而不会爆炸.
+#B gtnh.quest1198.desc=A mark 2 is nice, but why not make a mark 3? It will double the power needed per recipe, while cutting the processing time in half. This time you will need UV or above hatches, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of providng up to 8192eu/t, per energy hatch, for the recipe. The reactor can take as little as 8192eu/t to run. The UV hatch can accept up to 2 amps of 524288eu/t before it explodes, as usual.
+#A gtnh.quest1198.desc=A mark 2 is nice, but why not make a mark 3? \n\nIt will double the power needed per recipe, while cutting the processing time in half. \n\nThis time you will need UV or above hatches, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of providng up to 8192eu/t, per energy hatch, for the recipe. The reactor can take as little as 8192eu/t to run. The UV hatch can accept up to 2 amps of 524288eu/t before it explodes, as usual.
+#C gtnh.quest1198.desc=MK2型反应堆虽然很好,但是既然可以将反应堆的功率继续提升,那我们为什么不继续下去？ MK3型反应堆将会使所有配方的功率增加一倍,同时处理时间减半. 你需要将所有的输入/输出仓都升级到不低于UV级,同时将聚变机械方块升级到聚变机械方块MK-II. MK3型反应堆可以制作所有的聚变配方. 你可以向能源仓输入8192EU/T的持续电流来让聚变反应堆工作,UV能源仓能够接收高达2A的电流和低于524288EU/T的持续供电而不会爆炸.
 
 # Quest.1199 - §d§lMaking americium
 gtnh.quest1199.name=§d§l获得镅
-gtnh.quest1199.desc=将反应堆升级到MK3需要用到镅. 可能你会感觉这个配方很贵,但是如果你做出了MK3型反应堆,你将会得到一个简单,而又便宜的配方. MK3型反应堆至少需要128块镅板(实际测下来最少316,最多432),以及控制电脑MK-III需要的13个镅(9个用来扫描以获得合成表,4个用来合成.)
+#B gtnh.quest1199.desc=Before you can upgrade your reactor, you will need to get some americium. The recipe will look pretty expensive, but once you made the next tier of reactor, you will unlock a simplier and cheaper one. You will need at least 128 plates for the reactor casings, 9 to scan for the recipe, and 4 to build one.
+#A gtnh.quest1199.desc=Before you can upgrade your reactor, you will need to get some americium. The recipe will look pretty expensive, but once you made the next tier of reactor, you will unlock a simpler and cheaper one. You will need at least 128 plates for the reactor casings, 9 to scan for the recipe, and 4 to build one.
+#C gtnh.quest1199.desc=将反应堆升级到MK3需要用到镅. 可能你会感觉这个配方很贵,但是如果你做出了MK3型反应堆,你将会得到一个简单,而又便宜的配方. MK3型反应堆至少需要128块镅板(实际测下来最少316,最多432),以及控制电脑MK-III需要的13个镅(9个用来扫描以获得合成表,4个用来合成.)
 
 # Quest.1200 - §d§lMaking power with your plasma
 gtnh.quest1200.name=§d§l利用等离子体发电
-gtnh.quest1200.desc=现在,你已经拥有了一个聚变反应堆,是时候利用它进行发电了. 最容易获得的等离子体就是氦等离子体. 它的原料可以从可再生的水中获得,并且可以提供巨大的能量. 然而,我们需要一种方法可以将等离子体中的能量转换成EU释放出来. 要做到这一点,你需要一个大型的等离子涡轮机.还需要一个动力仓输出能量,你可以调整不同的动力舱来调整输出功率. 用氦等离子体进行发电,那么你需要一个不低于UV级的动力舱.
+#B gtnh.quest1200.desc=Now that you have a reactor, it's time to utilize it. The simplest plasma you can make for power is Helium plasma. It's renewable from water, but also provides a lot of power. However, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you're outputting. For Helium plasma, you will want a UV or above hatch.
+#A gtnh.quest1200.desc=Now that you have a reactor, it's time to utilize it. \n\nThe simplest plasma you can make for power is Helium plasma. It's renewable from water, but also provides a lot of power. \n\nHowever, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you're outputting. For Helium plasma, you will want a UV or above hatch.
+#C gtnh.quest1200.desc=现在,你已经拥有了一个聚变反应堆,是时候利用它进行发电了. 最容易获得的等离子体就是氦等离子体. 它的原料可以从可再生的水中获得,并且可以提供巨大的能量. 然而,我们需要一种方法可以将等离子体中的能量转换成EU释放出来. 要做到这一点,你需要一个大型的等离子涡轮机.还需要一个动力仓输出能量,你可以调整不同的动力舱来调整输出功率. 用氦等离子体进行发电,那么你需要一个不低于UV级的动力舱.
 
 # Quest.1201 - §d§lTurbine Time
 gtnh.quest1201.name=§d§l涡轮
-gtnh.quest1201.desc=你崭新的等离子涡轮机需要一个全新的转子来驱动它. 你可以使用任何的GT材料来制造涡轮,但是涡轮的最佳材料是三钛、觉醒龙锭和中子锭. 三钛材质的涡轮将提供最大的EU/T输出. 而中子材质的涡轮将提供最高的持久度,但是效率比较低,整体的涡轮机功率将比较小. 觉醒龙锭材质的涡轮将会提供比较平衡的属性. 你可以制造4种不同尺寸的涡轮,涡轮越大,涡轮的所有性能都将有所提升.然而,并不是越大的涡轮就是最适合的. 因为我们要注意涡轮的最佳流量,最佳流量的计算方法是涡轮的每秒最佳能量流除以所使用的等离子燃料的能量值.
+#B gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. Trinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two. You can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn't also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listen on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate.
+#A gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. \n\nYou can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. \n\nTrinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two.\n\nYou can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn't also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate.
+#C gtnh.quest1201.desc=你崭新的等离子涡轮机需要一个全新的转子来驱动它. 你可以使用任何的GT材料来制造涡轮,但是涡轮的最佳材料是三钛、觉醒龙锭和中子锭. 三钛材质的涡轮将提供最大的EU/T输出. 而中子材质的涡轮将提供最高的持久度,但是效率比较低,整体的涡轮机功率将比较小. 觉醒龙锭材质的涡轮将会提供比较平衡的属性. 你可以制造4种不同尺寸的涡轮,涡轮越大,涡轮的所有性能都将有所提升.然而,并不是越大的涡轮就是最适合的. 因为我们要注意涡轮的最佳流量,最佳流量的计算方法是涡轮的每秒最佳能量流除以所使用的等离子燃料的能量值.
 
 # Quest.1202 - §e§d§n§o§r§l§d§lTime for another reactor
 gtnh.quest1202.name=§e§d§n§o§r§l§d§l再来一个聚变堆
@@ -4882,7 +4912,9 @@ gtnh.quest1211.desc=矿车不但可以侧挂箱子,上面、前面和矿车内�
 
 # Quest.1212 - §d§lStarting Fusion
 gtnh.quest1212.name=§d§l开始聚变
-gtnh.quest1212.desc=现在你对电力的需求正在大幅度增加,所以你需要一种更加强大的发电方式. 清洁环保可持续产生1A-ZPM级电流的机器你有两个选择,太阳能和核聚变. 利用太阳能很简单,太阳能覆盖版可以产生524288EU/T的能量输出. 但是经过正确配置的核聚变能够达到其近8倍的能量产出. 要制造你的第一个聚变反应堆,你需要一个反应堆控制电脑,不低于Luv级别的2-16个输入仓,1-16个输出仓,和16个能源仓.给每个能源仓提供2048EU/T的电力供应,整个聚变堆有160M-EU的储能. 这样你就可以生产所有低于32768EU/T并且启动能量需求少于160M的配方了. 使用更多的输入/输出仓意味着你可以使用更少的LuV机械方块.然而这个原则在MK1级别的聚变反应堆中不是很重要,然而这对日后对反应堆进行升级很有帮助.
+#B gtnh.quest1212.desc=Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion. While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. For your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch provides 2048eu/t for the recipe, and has a storage capacity of 160M eu. This means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn't matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. 
+#A gtnh.quest1212.desc=Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion.\n\n While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. \n\nFor your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch provides 2048eu/t for the recipe, and has a storage capacity of 160M eu. \n\nThis means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn't matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. 
+#C gtnh.quest1212.desc=现在你对电力的需求正在大幅度增加,所以你需要一种更加强大的发电方式. 清洁环保可持续产生1A-ZPM级电流的机器你有两个选择,太阳能和核聚变. 利用太阳能很简单,太阳能覆盖版可以产生524288EU/T的能量输出. 但是经过正确配置的核聚变能够达到其近8倍的能量产出. 要制造你的第一个聚变反应堆,你需要一个反应堆控制电脑,不低于Luv级别的2-16个输入仓,1-16个输出仓,和16个能源仓.给每个能源仓提供2048EU/T的电力供应,整个聚变堆有160M-EU的储能. 这样你就可以生产所有低于32768EU/T并且启动能量需求少于160M的配方了. 使用更多的输入/输出仓意味着你可以使用更少的LuV机械方块.然而这个原则在MK1级别的聚变反应堆中不是很重要,然而这对日后对反应堆进行升级很有帮助.
 
 # Quest.1213 - §d§lGetting europium
 gtnh.quest1213.name=§d§l获得铕
@@ -5178,7 +5210,9 @@ gtnh.quest1285.desc=钻石锥刺会伤害除底部以外的任何一侧触碰的
 
 # Quest.1286 - Primal Shrooms
 gtnh.quest1286.name=始源蘑菇
-gtnh.quest1286.desc=如果你种植了一颗新的始源蘑菇然后等到它们成熟后并收获它们,它们将会把收集到的要素球释放.简单来讲就是种瓜得瓜,种蘑菇得要素... 找一找魔法森林生物群系,哪里可以找到纤毛菇,如果实在找不到那么就去买点吧. 2个南瓜加上4个混沌碎片可以完美提供所需源质.  译者注:其实石粉或者小撮石粉更便宜
+#B gtnh.quest1286.desc=Primal shrooms allow you to refill wands easier before you can move nodes to your base.\nGo and find some in a magical forest biome. Try using a Nature's Compass. Or buy some if no biome is close to your location.\n2 pumpkins and 4 entropy slivers are the perfect combo to make these.
+#A gtnh.quest1286.desc=Primal shrooms allow you to refill wands easier before you can move nodes to your base.\nGo and find some Vishrooms in a magical forest biome. Try using a Nature's Compass. Or buy some using coins if no biome is close to your location.\n\n2 pumpkins and 4 entropy slivers are the perfect combo to make these.\n\nFor these to grow, they will need light.
+#C gtnh.quest1286.desc=如果你种植了一颗新的始源蘑菇然后等到它们成熟后并收获它们,它们将会把收集到的要素球释放.简单来讲就是种瓜得瓜,种蘑菇得要素... 找一找魔法森林生物群系,哪里可以找到纤毛菇,如果实在找不到那么就去买点吧. 2个南瓜加上4个混沌碎片可以完美提供所需源质.  译者注:其实石粉或者小撮石粉更便宜
 
 # Quest.1287 - Vish Shroom
 gtnh.quest1287.name=纤毛菇
@@ -6056,9 +6090,13 @@ gtnh.quest1503.desc=...对？ 因此,在构建多方块时,请确保: 1、不要
 gtnh.quest1504.name=§2§e§k§l§r§3§2§l众神的神圣权柄？
 gtnh.quest1504.desc=寻矿魔杖寻找矿石的过程单调乏味. 你需要先找到一个矿石放入其中,然后,你就可以用它寻找更多的同种矿石. 它只会告诉你特定矿石是否在附近. 然后你得带着更好的挖掘工具回来并检查每个地点.  §4确保使用你的NEI找出哪种矿石是你目前最需要的.  §4其他基础矿石可以用硬币购买. 使用方式:对着地面Shift+右键以打开库存并将矿石放入槽中.  §r当你靠近时,你将看到并听到来自寻矿魔杖的响应.你将会看到它的耐久条发生变化.注意-它也会对贫瘠矿产生响应,所以当你寻找青金石或是红石之类的矿脉时,最好等到它的信号变得非常强烈时再挖掘.当寻矿魔杖探测到大量所寻找矿石时,它会完全翻转,耐久条也会充满.如果你打开了声音,你将会同时听到明显的提示音.无论寻矿魔杖在你的快捷栏还是背包栏,它都会工作,所以你不需要手持它,虽然当你手持时,你能更容易地看到信号.  §4另外,由于此魔杖的神奇属性,矿石并不是存储在魔杖内,而是跟随玩家的.所以如果你想要把魔杖给别人用,请先把其中的矿石拿出来.
 
-# Quest.1505 - §2§lNot enough items
-gtnh.quest1505.name=§2§lNot enough items(NEI)
-gtnh.quest1505.desc=其实更像是太多的物品！ 以下是使用NEI的一些提示. 当你打开背包时,可以在文本栏中输入搜索词. 确保你的GUI大小设置正确,否则你将无法看到它. 双击该栏以突出显示背包中的所有匹配物品. 方便搜索黑曜石箱子！ 更妙的是,你可以使用T搜索附近的库存(键位可以自己设置),这些库存会发出一些颗粒效果. O会隐藏NEI信息.
+# Quest.1505 - §2§lNot enough items - Now with bookmarks!
+#B gtnh.quest1505.name=§2§lNot enough items
+#A gtnh.quest1505.name=§2§lNot enough items - Now with bookmarks!
+#C gtnh.quest1505.name=§2§lNot enough items(NEI)
+#B gtnh.quest1505.desc=More like too many items!\n\nHere are some tips for using NEI.\n\nWhen you have your inventory open, you can type the search terms in the text bar.  Make sure your GUI size is set correctly, or you won't be able to see it. Double-click the bar to highlight any matching items in your inventory. Handy for searching that obsidian chest!\n\nEven better, you can use T to search nearby inventories, which will emit some particles. We have also provided the special Y command to look for a machine in the world, in case you've forgotten where you placed that Advanced Circuit Assembler.\n\nO will make the NEI information hide.
+#A gtnh.quest1505.desc=More like too many items!\n\nHere are some tips for using NEI.\n\nWhen you have your inventory open, you can type the search terms in the text bar.  Make sure your GUI size is set correctly, or you won't be able to see it. Double-click the bar to highlight any matching items in your inventory. Handy for searching that obsidian chest!\n\nEven better, you can use T to search nearby inventories, which will emit some particles. \n\nWe have also provided the special Y command to look for a machine in the world, in case you've forgotten where you placed that Advanced Circuit Assembler.\n\nWe now have an extra-fancy Bookmark feature!  Default key is B, but can be changed in the NEI config window.  Bookmarks will be on the left side of the inventory, and you can use R and U on the bookmarks to see the recipes or uses for that item.\n\nO will make the NEI information hide.
+#C gtnh.quest1505.desc=其实更像是太多的物品！ 以下是使用NEI的一些提示. 当你打开背包时,可以在文本栏中输入搜索词. 确保你的GUI大小设置正确,否则你将无法看到它. 双击该栏以突出显示背包中的所有匹配物品. 方便搜索黑曜石箱子！ 更妙的是,你可以使用T搜索附近的库存(键位可以自己设置),这些库存会发出一些颗粒效果. O会隐藏NEI信息.
 
 # Quest.1506 - §2§lNEI is more powerful than you imagine
 gtnh.quest1506.name=§2§lNEI比你想象的更强大
@@ -6376,13 +6414,17 @@ gtnh.quest1582.desc=当玩家从良好的夜晚睡眠中醒来时,"斋戒之织�
 gtnh.quest1583.name=甜蜜饥饿
 gtnh.quest1583.desc=甜蜜饥饿是其他合成表中使用的成分. 当梦魇被杀时,它会掉落甜蜜饥饿.
 
-# Quest.1584 - Potion of flowing spirit
-gtnh.quest1584.name=水心之酿
+# Quest.1584 - Brew of flowing spirit
+#B gtnh.quest1584.name=Potion of flowing spirit
+#A gtnh.quest1584.name=Brew of flowing spirit
+#C gtnh.quest1584.name=水心之酿
 gtnh.quest1584.desc=水心之酿以液体形式捕捉精神世界的本质.它只能在精神世界中酿造！  水心之酿可以扔到地面上,瓶子会爆裂产生液体(然后可以用桶收集此液体). 站在此液体中会对大多数生物产生轻微的治疗效果.恶魔或亡灵生物将被削弱.站在此液体中的噩梦将失去其无敌效果！ 夜魇之织梦者附近有水心之酿液体时,每个液体方块(最多3个)会使噩梦几率降低10%.
 
 # Quest.1585 - We need another oven
 gtnh.quest1585.name=我们需要另一个巫师烤炉
-gtnh.quest1585.desc=首先,你不能去其他世界获取材料,如暮色森林、下界或末地. 让我们开始制作一个新的巫师烤炉和一堆粘土罐,从一些基本成分开始. 使用500硬币,你可以将它转移到精神暗淡.
+#B gtnh.quest1585.desc=First of all you can't visit any other dim to get materials. Not the Twilight Forest, not the Nether or the End. Lets start with crafting a new oven and a stack of jars to start with some basic ingredients. For 500 Coins you can tranfer it to the Spirit Dim.
+#A gtnh.quest1585.desc=First of all you can't visit any other dim to get materials. Not the Twilight Forest, not the Nether or the End. Lets start with crafting a new oven and a stack of jars to start with some basic ingredients. For 100 Coins you can tranfer it to the Spirit Dim.
+#C gtnh.quest1585.desc=首先,你不能去其他世界获取材料,如暮色森林、下界或末地. 让我们开始制作一个新的巫师烤炉和一堆粘土罐,从一些基本成分开始. 使用500硬币,你可以将它转移到精神暗淡.
 
 # Quest.1586 - More coins
 gtnh.quest1586.name=更多硬币
@@ -6390,7 +6432,9 @@ gtnh.quest1586.desc=第二个目标是让传送巫师炼药锅,但无论如何�
 
 # Quest.1587 - Another Cauldron
 gtnh.quest1587.name=另一个巫师炼药锅
-gtnh.quest1587.desc=在我们有足够的硬币之后,我们可以制作巫师炼药锅并用1000硬币将其转移到精神世界.
+#B gtnh.quest1587.desc=After we have enough coins we can craft the cauldron and transfer it with 1000 coins to the spirit world.
+#A gtnh.quest1587.desc=After we have enough coins we can craft the cauldron and transfer it with 200 coins to the spirit world.
+#C gtnh.quest1587.desc=在我们有足够的硬币之后,我们可以制作巫师炼药锅并用1000硬币将其转移到精神世界.
 
 # Quest.1588 - Nightmares
 gtnh.quest1588.name=梦魇
@@ -6410,17 +6454,23 @@ gtnh.quest1591.desc=为了以后的使用,做一些角魔之息吧.
 
 # Quest.1592 - Offerings in your dreams
 gtnh.quest1592.name=梦中祭坛
-gtnh.quest1592.desc=在你所有的设备中,你还需要一个祭坛. 转轮也需要它供能.需要2000硬币转移.
+#B gtnh.quest1592.desc=For all your offerings you'll need an altar too. The spinning wheel needs it also.\n2000 coins are needed.
+#A gtnh.quest1592.desc=For all your offerings you'll need an altar too. The spinning wheel needs it also.\n400 coins are needed.
+#C gtnh.quest1592.desc=在你所有的设备中,你还需要一个祭坛. 转轮也需要它供能.需要2000硬币转移.
 
 # Quest.1593 - Kettle for the Spirit World
 gtnh.quest1593.name=梦中水壶
-gtnh.quest1593.desc=精神世界也需要一个水壶. 只需1500硬币即可转移.
+#B gtnh.quest1593.desc=A kettle is needed in the spirit world too. For a fee of 1500 coins you can transfer it.
+#A gtnh.quest1593.desc=A kettle is needed in the spirit world too. For a fee of 300 coins you can transfer it.
+#C gtnh.quest1593.desc=精神世界也需要一个水壶. 只需1500硬币即可转移.
 
 # Quest.1594 - Spinning Your Dreams
 #B gtnh.quest1594.name=spinning your dreams
 #A gtnh.quest1594.name=Spinning Your Dreams
 #C gtnh.quest1594.name=梦中转轮
-gtnh.quest1594.desc=你需要转轮才能酿造出水心之酿.
+#B gtnh.quest1594.desc=You need the spinning wheel for the fanciful thread to finally make the Potion of Flowing Spirit.
+#A gtnh.quest1594.desc=You need the spinning wheel for the fanciful thread to finally make the Potion of Flowing Spirit. 600 coins are needed.
+#C gtnh.quest1594.desc=你需要转轮才能酿造出水心之酿.
 
 # Quest.1595 - Fanciful Thread
 gtnh.quest1595.name=梦中幻想线团
@@ -7031,7 +7081,7 @@ gtnh.quest1743.name=火星上的盐水和氯苯
 # Quest.1744 - §6§lChemical lesson part two
 gtnh.quest1744.name=§6§l化学课第二部分
 #B gtnh.quest1744.desc=More advanced recipes need an mv chemical reactor. Lv recipes are twice as fast done.\n\nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.
-#A gtnh.quest1744.desc=More advanced recipes need an mv chemical reactor like polyethylen.\n\nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.
+#A gtnh.quest1744.desc=More advanced recipes need an MV chemical reactor. LV recipes will complete twice as fast.\n\nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.
 #C gtnh.quest1744.desc=更高级的配方如聚乙烯需要MV化学反应釜.而处理LV配方速度变为原来的两倍.  提示:你可以使用GUI中的电池槽和其他额外槽来存储未使用的编程电路.
 
 # Quest.1745 - Welcome to OpenComputers!
@@ -7193,7 +7243,7 @@ gtnh.quest1782.name=旅行者护目镜升级版
 # Quest.1783 - Traveller's Vest upgrades
 gtnh.quest1783.name=旅行者背心升级
 #B gtnh.quest1783.desc=You vest can be equiped with a few modification like perfect doge and stealth.\nPerfect doge mean you're harder to hit and can be stacked up to 3 times.\nStealth turn you invisible while sneaking.\n\nHint:\nAutorepair can be added to the vest aswell.\nEvery Armor part have 3 Slots for modification.
-#A gtnh.quest1783.desc=Your vest can be equipped with a few modification like perfect dodge and stealth.\nPerfect dodge mean you're harder to hit and can be stacked up to 3 times.\nStealth turn you invisible while sneaking. Place the vest in the center of a Tinker's Crafting Station.\n\nHint:\nAutorepair can be added to the vest as well.\nEvery Armor part has 3 Slots for modification.
+#A gtnh.quest1783.desc=Your vest can be equipped with a few modification like perfect dodge and stealth.\nPerfect dodge mean you're harder to hit and can be stacked up to 3 times.\nStealth turns you invisible while sneaking. Place the vest in the center of a Tinker's Crafting Station.\n\nHint:\nAutorepair can be added to the vest as well.\nEvery Armor part has 3 Slots for modification.
 #C gtnh.quest1783.desc=你的背心可以配备一些修饰,比如完美的doge和隐形. 完美的doge意味着你更难击中并且可以叠加3次.隐形让你在潜行时看不见. 提示:自动修复也可以添加到背心中. 每件护甲都有3个用于升级的插槽.
 
 # Quest.1784 - Traveller's Wings upgrades
@@ -9772,7 +9822,7 @@ gtnh.quest2382.name=强化祭坛
 
 # Quest.2383 - Curse Master
 gtnh.quest2383.name=诅咒大师
-gtnh.quest2383.desc=传送诅咒-随机传送实体.  混乱诅咒-使怪物混乱.苦力怕会立即自爆,怪物也会自相残杀.  平静诅咒-怪物不会攻击你.对BOSS无效.  缓慢诅咒-使怪物减速.  虚弱诅咒-使怪物攻击更弱.  失明诅咒-使怪物失明.  死亡诅咒-对怪物施加1.5魔法伤害,造成其流血.  衰变诅咒-物品和护甲会随着时间的流逝而损坏.  血族诅咒-怪物对阳光更敏感,受到更多伤害.  反伤诅咒-反弹怪物的攻击.  湮灭诅咒-物品将从你的物品栏中掉出,掉出的物品可能会被摧毁.  
+gtnh.quest2383.desc=传送诅咒-随机传送实体.  混乱诅咒-使怪物混乱.苦力怕会立即自爆,怪物也会自相残杀.  平静诅咒-怪物不会攻击您.对BOSS无效.  缓慢诅咒-使怪物减速.  虚弱诅咒-使怪物攻击更弱.  失明诅咒-使怪物失明.  死亡诅咒-对怪物施加1.5魔法伤害,造成其流血.  衰变诅咒-物品和护甲会随着时间的流逝而损坏.  血族诅咒-怪物对阳光更敏感,受到更多伤害.  反伤诅咒-反弹怪物的攻击.  湮灭诅咒-物品将从您的物品栏中掉出,掉出的物品可能会被摧毁.  
 
 # Quest.2384 - Charm Master
 gtnh.quest2384.name=护符大师
@@ -9828,6 +9878,30 @@ gtnh.quest2385.desc=在征服了末地的大部分内容之后,是时候进行�
 #N gtnh.quest2393.name=Fertilized Earth
 #N gtnh.quest2393.desc=With a Chemical Reactor, you can make Fertilized Earth. It ticks over faster than normal farmland, so crops will mature much faster. As a bonus, it can be tilled away from water and doesn't get damaged when you fall on it.\n\nDoes allow IC2 crop placed on them, but will not accelerate the crops.
 
+# Quest.2394 - Hydrazine
+#N gtnh.quest2394.name=Hydrazine
+#N gtnh.quest2394.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.
+
+# Quest.2395 - Formaldehyde Catalyst Dust
+#N gtnh.quest2395.name=Formaldehyde Catalyst Dust
+#N gtnh.quest2395.desc=Making Formaldehyde will require a catalyst. You can make this dust by mixing iron and vanadium.
+
+# Quest.2396 - Hydrogen Peroxide
+#N gtnh.quest2396.name=Hydrogen Peroxide
+#N gtnh.quest2396.desc=Hydrogen Peroxide is made in a GT++ Chemical Plant.\n\nGood luck figuring out that recipe chain!\n
+
+# Quest.2397 - Playing with the Big Boys, chemically
+#N gtnh.quest2397.name=Playing with the Big Boys, chemically
+#N gtnh.quest2397.desc=Once you have a full LV setup along with an EBF, you can start thinking about making a Chemical Plant. This facility will process certain chemical recipes you'll need later on.\n\nIt will need a mine cart load of reources, so start mining!\n\nUnder Construction.
+
+# Quest.2398 - §3§lHidden drawers
+#N gtnh.quest2398.name=§3§lHidden drawers
+#N gtnh.quest2398.desc=You might notice once you get a wall of drawers that looking that direction gives you a little lag. If the lag gets back enough, you can craft this key to stop putting the item on the front. Very handy for the drawer controller!
+
+# Quest.2399 - I know his name!
+#N gtnh.quest2399.name=I know his name!
+#N gtnh.quest2399.desc=The Name Remover is a simple utility machine that can strip off incorrect or useless NBT data. \n\nGregtech "remembers" how you made items, in case you want to disassemble them later. This means that items made slightly differently can't stack.  This machine will remove that disassembly NBT data so all those items will now stack together. \n\nObviously, this means you can't disassemble the item you put through this machine. 
+
 ##################################Line##################################
 
 # QuestLine.0 - Tier 0 - It begins
@@ -9868,7 +9942,9 @@ gtnh.line8.desc=你已经走了这么远了,你应该昂首挺胸地继续向前
 
 # QuestLine.9 - Fusion
 gtnh.line9.name=核聚变
-gtnh.line9.desc=游戏后期的能量来源. LuV-UMV阶段
+#B gtnh.line9.desc=Making power for the lategame tiers, LuV-UMV
+#A gtnh.line9.desc=Making power for the lategame tiers, LuV-UMV. Only 20 years away!
+#C gtnh.line9.desc=游戏后期的能量来源. LuV-UMV阶段
 
 # QuestLine.10 - Fishing Farming Cooking
 gtnh.line10.name=捕鱼,农业,烹饪

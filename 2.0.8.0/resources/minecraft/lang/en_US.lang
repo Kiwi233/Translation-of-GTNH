@@ -588,8 +588,8 @@ gtnh.quest145.desc=The endless ware between macerators and SAG mills rages on et
 gtnh.quest146.name=§9§lTorture device
 gtnh.quest146.desc=When the subjects don't want to cooperate.
 
-# Quest.147 - §9§lRocket fuel
-gtnh.quest147.name=§9§lRocket fuel
+# Quest.147 - §9§lRocket fuel mix A
+gtnh.quest147.name=§9§lRocket fuel mix A
 gtnh.quest147.desc=Rocket fuel are used in the future for galacticraft rockets. It does generate a lot of Power in the Rocket Engine. Use your centrifuge to make some. Will generate 3072000 eu per cell.
 
 # Quest.148 - §6§lTasty...
@@ -1918,7 +1918,7 @@ gtnh.quest478.desc=After you make steel you are able to craft flint and steel. I
 
 # Quest.479 - §3§m§l§m§4§3§lTHE NETHER
 gtnh.quest479.name=§3§m§l§m§4§3§lTHE NETHER
-gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care.  Be sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?%n%nAlso, *when* you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area *first* so that you don't end up dying over and over and making a mess.%n%nWatch out for some mobs! They'll take minimal damage from any weapon that is their weakness. So if you seem to not be doing any damage, you probably aren't! Think about other options to hurt/kill the monster.
+gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care.  Be sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?%n%nAlso, *when* you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area *first* so that you don't end up dying over and over and making a mess.%n%nWatch out for some mobs! They'll take minimal damage from any weapon that is not their weakness. So if you seem to not be doing much damage, you probably aren't! Think about other options to hurt/kill the monster.
 
 # Quest.480 - §2§lMalachite
 gtnh.quest480.name=§2§lMalachite
@@ -2398,7 +2398,7 @@ gtnh.quest598.desc=The most efficient way to get antimony for batteries is to ce
 
 # Quest.599 - §5§lThermal centrifuge
 gtnh.quest599.name=§5§lThermal centrifuge
-gtnh.quest599.desc=A machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods. It's usefull for tiny piles of Gallium out of Zinc or Sphalerite Ore for your Diodes needed in good circuits.%nIf you can't produce the 2A of LV power for this machine right now, wait until you get to MV and use transformers to power an LV version.
+gtnh.quest599.desc=A machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods. It's useful for tiny piles of Gallium out of crushed Zinc Ore for your Diodes needed in good circuits.%nLater on you can get Gallium out of centrifuged Sphalerite in the second macerator slot.%nIf you can't produce the 2A of LV power for this machine right now, wait until you get to MV and use transformers to power an LV version.
 
 # Quest.600 - Hunger, no more
 gtnh.quest600.name=Hunger, no more
@@ -3374,7 +3374,7 @@ gtnh.quest842.desc=Methane gas with a burn value of 104,000 EU per cell can be b
 
 # Quest.843 - §6§lMethanol
 gtnh.quest843.name=§6§lMethanol
-gtnh.quest843.desc=Methanol with a burn value of 84,000 EU per cell can be used to make biodiesel and other fluids.
+gtnh.quest843.desc=Methanol with a burn value of 84,000 EU per cell can be used to make biodiesel and other fluids. It's also used to make certain rocket fuels.
 
 # Quest.844 - §6§lEthanol
 gtnh.quest844.name=§6§lEthanol
@@ -3426,19 +3426,19 @@ gtnh.quest855.desc=To make nitric oxide you need to combine oxygen and ammonia i
 
 # Quest.856 - §9§l1,1-Dimetylhydrazine
 gtnh.quest856.name=§9§l1,1-Dimetylhydrazine
-gtnh.quest856.desc=To make 1,1-dimethylhydrazine you need to combine some dimethylamine and chloramine in a chemical reactor.
+gtnh.quest856.desc=To make 1,1-dimethylhydrazine you need to combine some hydrazine and formaldehyde with hydrogen in a chemical reactor.
 
-# Quest.857 - §9§lDimethylamine
-gtnh.quest857.name=§9§lDimethylamine
-gtnh.quest857.desc=Combining ammonia and methanol in a chemical reactor produces some dimethylamine.
+# Quest.857 - §9§lFormaldehyde
+gtnh.quest857.name=§9§lFormaldehyde
+gtnh.quest857.desc=Combining formaldehyde catalyst, oxygen and methanol in a chemical dehydrator produces some formaldehyde.%n%nYou can distill methanol from a pyrolyse oven using a few sources, or you can make it from CO2 gas you collect from your EBF.
 
 # Quest.858 - §9§lChloramine
 gtnh.quest858.name=§9§lChloramine
-gtnh.quest858.desc=Combining hypochlorous acid and ammonia in a chemical reactor produces some chloramine.
+gtnh.quest858.desc=Combining hypochlorous acid and ammonia in a chemical reactor produces some chloramine.%nChloramine has no use at the moment but maybe later we will think of something.
 
 # Quest.859 - §a§9§lHypochlorous Acid
 gtnh.quest859.name=§a§9§lHypochlorous Acid
-gtnh.quest859.desc=Hypochlorous acid requires water, chlorine and some mercury.
+gtnh.quest859.desc=Hypochlorous acid requires water, chlorine and some mercury.%nIt can be burned in the Acid Generator.
 
 # Quest.860 - §9§lTitanium finally
 gtnh.quest860.name=§9§lTitanium finally
@@ -4586,7 +4586,7 @@ gtnh.quest1145.desc=Gregtech cables will not connect to IC2 machines so you need
 
 # Quest.1146 - §2§lGT 6 styled Pipes
 gtnh.quest1146.name=§2§lGT 6 styled Pipes
-gtnh.quest1146.desc=Maybe you are wondering why the new pipes don't auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don't need a plate or a foil to prevent pipes from connecting anymore.%n%nYou'll still want to cover hot pipes to prevent getting hurt!%n%nShift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. %n%nAlso, pipes now come with a shutter built in for free to reduce sloshing. Shift-rightclick with a wrench on the side you want prevent input.%n%nLarge or Huge fluid pipes can be a "poor man's" storage tank, holding large amounts on their own.%n%nFor machine outputs, including the boilers, and water siding tanks you will not need pumps. Other tanks will need pumps or Tinker's Construct faucets to move fluids.%n%n§4Hint: If you click one pipe onto the other they will auto-connect.
+gtnh.quest1146.desc=Maybe you are wondering why the new pipes don't auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don't need a plate or a foil to prevent pipes from connecting anymore.%n%nYou'll still want to cover hot pipes to prevent getting hurt!%n%nShift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. %n%nAlso, pipes now come with a shutter built in for free to reduce sloshing. Shift-rightclick with a wrench on the side you want prevent input.%n%nLarge or Huge fluid pipes can be a "poor man's" storage tank, holding large amounts on their own.%n%nFor machine outputs, including the boilers, and water siding tanks you will not need pumps. Other tanks will need pumps or Tinker's Construct faucets to move fluids.%n%nYou can put covers such as GT oak planks or plates on a pipe as well. Normally this prevents connections in that direction, but you can use a screwdriver to enable connections. This lets you make pipes that look nice going through walls.%n%n§4Hint: If you click one pipe onto the other they will auto-connect.
 
 # Quest.1147 - §3§2§4§3§lGT 6 styled Wires and Cables
 gtnh.quest1147.name=§3§2§4§3§lGT 6 styled Wires and Cables
@@ -4790,23 +4790,23 @@ gtnh.quest1196.desc=And a few tin berries for cash.
 
 # Quest.1197 - §d§lFusion reactor MK2 - bigger, better, fusor
 gtnh.quest1197.name=§d§lFusion reactor MK2 - bigger, better, fusor
-gtnh.quest1197.desc=Now that you have some europium, put it to use by making an mk2 reactor. This one will require the same block placement, but replacing LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and using ZPM tier hatches. This reactor can handle recipes up to 320M eu startup. In addition, if you perform an mk1 recipe on an mk2, you will overclock it. Fusion overclocking is different than normal gt. It will take 2x the power, but the recipe will go 2x faster.
+gtnh.quest1197.desc=Now that you have some europium, put it to use by making an mk2 reactor. %n%nThis one will require the same block placement, but replacing LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and using ZPM tier hatches. %n%nThis reactor can handle recipes up to 320M eu startup. In addition, if you perform an mk1 recipe on an mk2, you will overclock it. Fusion overclocking is different than normal gt. It will take 2x the power, but the recipe will go 2x faster.
 
 # Quest.1198 - §d§lUpgrading the reactor
 gtnh.quest1198.name=§d§lUpgrading the reactor
-gtnh.quest1198.desc=A mark 2 is nice, but why not make a mark 3? It will double the power needed per recipe, while cutting the processing time in half. This time you will need UV or above hatches, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of providng up to 8192eu/t, per energy hatch, for the recipe. The reactor can take as little as 8192eu/t to run. The UV hatch can accept up to 2 amps of 524288eu/t before it explodes, as usual.
+gtnh.quest1198.desc=A mark 2 is nice, but why not make a mark 3? %n%nIt will double the power needed per recipe, while cutting the processing time in half. %n%nThis time you will need UV or above hatches, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of providng up to 8192eu/t, per energy hatch, for the recipe. The reactor can take as little as 8192eu/t to run. The UV hatch can accept up to 2 amps of 524288eu/t before it explodes, as usual.
 
 # Quest.1199 - §d§lMaking americium
 gtnh.quest1199.name=§d§lMaking americium
-gtnh.quest1199.desc=Before you can upgrade your reactor, you will need to get some americium. The recipe will look pretty expensive, but once you made the next tier of reactor, you will unlock a simplier and cheaper one. You will need at least 128 plates for the reactor casings, 9 to scan for the recipe, and 4 to build one.
+gtnh.quest1199.desc=Before you can upgrade your reactor, you will need to get some americium. The recipe will look pretty expensive, but once you made the next tier of reactor, you will unlock a simpler and cheaper one. You will need at least 128 plates for the reactor casings, 9 to scan for the recipe, and 4 to build one.
 
 # Quest.1200 - §d§lMaking power with your plasma
 gtnh.quest1200.name=§d§lMaking power with your plasma
-gtnh.quest1200.desc=Now that you have a reactor, it's time to utilize it. The simplest plasma you can make for power is Helium plasma. It's renewable from water, but also provides a lot of power. However, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you're outputting. For Helium plasma, you will want a UV or above hatch.
+gtnh.quest1200.desc=Now that you have a reactor, it's time to utilize it. %n%nThe simplest plasma you can make for power is Helium plasma. It's renewable from water, but also provides a lot of power. %n%nHowever, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you're outputting. For Helium plasma, you will want a UV or above hatch.
 
 # Quest.1201 - §d§lTurbine Time
 gtnh.quest1201.name=§d§lTurbine Time
-gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. Trinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two. You can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn't also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listen on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate.
+gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. %n%nTrinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two.%n%nYou can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn't also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate.
 
 # Quest.1202 - §e§d§n§o§r§l§d§lTime for another reactor
 gtnh.quest1202.name=§e§d§n§o§r§l§d§lTime for another reactor
@@ -4850,7 +4850,7 @@ gtnh.quest1211.desc=After you craft side chests you can add more different chest
 
 # Quest.1212 - §d§lStarting Fusion
 gtnh.quest1212.name=§d§lStarting Fusion
-gtnh.quest1212.desc=Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion. While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. For your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch provides 2048eu/t for the recipe, and has a storage capacity of 160M eu. This means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn't matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. 
+gtnh.quest1212.desc=Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion.%n%n While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. %n%nFor your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch provides 2048eu/t for the recipe, and has a storage capacity of 160M eu. %n%nThis means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn't matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. 
 
 # Quest.1213 - §d§lGetting europium
 gtnh.quest1213.name=§d§lGetting europium
@@ -5146,7 +5146,7 @@ gtnh.quest1285.desc=Diamond Spike damages mobs that touch any side of it other t
 
 # Quest.1286 - Primal Shrooms
 gtnh.quest1286.name=Primal Shrooms
-gtnh.quest1286.desc=Primal shrooms allow you to refill wands easier before you can move nodes to your base.%nGo and find some in a magical forest biome. Try using a Nature's Compass. Or buy some if no biome is close to your location.%n2 pumpkins and 4 entropy slivers are the perfect combo to make these.
+gtnh.quest1286.desc=Primal shrooms allow you to refill wands easier before you can move nodes to your base.%nGo and find some Vishrooms in a magical forest biome. Try using a Nature's Compass. Or buy some using coins if no biome is close to your location.%n%n2 pumpkins and 4 entropy slivers are the perfect combo to make these.%n%nFor these to grow, they will need light.
 
 # Quest.1287 - Vish Shroom
 gtnh.quest1287.name=Vish Shroom
@@ -6020,9 +6020,9 @@ gtnh.quest1503.desc=...right?  So when building multiblocks, make sure you%n%n1.
 gtnh.quest1504.name=§2§e§k§l§r§3§2§lDivine rod of the gods?
 gtnh.quest1504.desc=The ore finder rod takes some of the tedium out of finding an ore.  You'll need to find some first to make it, but once you have it you can use ore blocks to find more ore. It only tells you if that specific ore is nearby. Later you will want to return with better digging tools and check every spot.%n%n§4Be sure to use your NEI skills to figure out which ore block is the best choice for your needs.%n%n§4Other basic ore blocks can be purchased from the Coins tab.%n%nTo use, shift click when looking at the ground to open inventory and put the ore block into the slot.%n%n§rAs you get close, you will see and hear a response from the ore finder tool. You will see the durability bar change when it discovers a match. Watch out - it will respond to small ores as well as normal ores so Lapis and Redstone you will want to wait for large signal before digging. If it detects a large quantity of the ore you're looking for the wand will flip upside down completely and fill the durability bar. If you play with your sound on you will hear an obvious sound to notify you as well. The wand works in both your inventory and hotbar and you don't need to be actively holding it, though you get style points if you are holding it.%n%n§4Also, because of the magical nature of the wand, the ore is stored with the player, not the wand. If you want to give the wand to someone else, please remove the ore first.
 
-# Quest.1505 - §2§lNot enough items
-gtnh.quest1505.name=§2§lNot enough items
-gtnh.quest1505.desc=More like too many items!%n%nHere are some tips for using NEI.%n%nWhen you have your inventory open, you can type the search terms in the text bar.  Make sure your GUI size is set correctly, or you won't be able to see it. Double-click the bar to highlight any matching items in your inventory. Handy for searching that obsidian chest!%n%nEven better, you can use T to search nearby inventories, which will emit some particles. We have also provided the special Y command to look for a machine in the world, in case you've forgotten where you placed that Advanced Circuit Assembler.%n%nO will make the NEI information hide.
+# Quest.1505 - §2§lNot enough items - Now with bookmarks!
+gtnh.quest1505.name=§2§lNot enough items - Now with bookmarks!
+gtnh.quest1505.desc=More like too many items!%n%nHere are some tips for using NEI.%n%nWhen you have your inventory open, you can type the search terms in the text bar.  Make sure your GUI size is set correctly, or you won't be able to see it. Double-click the bar to highlight any matching items in your inventory. Handy for searching that obsidian chest!%n%nEven better, you can use T to search nearby inventories, which will emit some particles. %n%nWe have also provided the special Y command to look for a machine in the world, in case you've forgotten where you placed that Advanced Circuit Assembler.%n%nWe now have an extra-fancy Bookmark feature!  Default key is B, but can be changed in the NEI config window.  Bookmarks will be on the left side of the inventory, and you can use R and U on the bookmarks to see the recipes or uses for that item.%n%nO will make the NEI information hide.
 
 # Quest.1506 - §2§lNEI is more powerful than you imagine
 gtnh.quest1506.name=§2§lNEI is more powerful than you imagine
@@ -6336,13 +6336,13 @@ gtnh.quest1582.desc=The Dream Weaver of Fasting will add a boost to the saturati
 gtnh.quest1583.name=Mellifluous Hunger
 gtnh.quest1583.desc=Mellifluous Hunger is an ingredient used in other recipes. It is dropped when a Nightmare is killed.
 
-# Quest.1584 - Potion of flowing spirit
-gtnh.quest1584.name=Potion of flowing spirit
+# Quest.1584 - Brew of flowing spirit
+gtnh.quest1584.name=Brew of flowing spirit
 gtnh.quest1584.desc=The Brew of Flowing Spirit captures the essence of the Spirit World in liquid form. It can only be brewed in the Spirit World!%n%nThe Brew can be thrown at the ground and the liquid will burst out (the source block can later be picked up in a bucket). Standing in the liquid will have a minor healing effect for most creatures. Demonic or undead creatures will be weakened. Nightmares standing in the liquid will lose their invulnerability effect!%n%nHaving a pool of flowing spirit near a Dream Weaver of Nightmares will decrease the chance of a nightmare by 10 percent for each source block (up to 3).
 
 # Quest.1585 - We need another oven
 gtnh.quest1585.name=We need another oven
-gtnh.quest1585.desc=First of all you can't visit any other dim to get materials. Not the Twilight Forest, not the Nether or the End. Lets start with crafting a new oven and a stack of jars to start with some basic ingredients. For 500 Coins you can tranfer it to the Spirit Dim.
+gtnh.quest1585.desc=First of all you can't visit any other dim to get materials. Not the Twilight Forest, not the Nether or the End. Lets start with crafting a new oven and a stack of jars to start with some basic ingredients. For 100 Coins you can tranfer it to the Spirit Dim.
 
 # Quest.1586 - More coins
 gtnh.quest1586.name=More coins
@@ -6350,7 +6350,7 @@ gtnh.quest1586.desc=The second goal is to have a cauldron to make some mutandis 
 
 # Quest.1587 - Another Cauldron
 gtnh.quest1587.name=Another Cauldron
-gtnh.quest1587.desc=After we have enough coins we can craft the cauldron and transfer it with 1000 coins to the spirit world.
+gtnh.quest1587.desc=After we have enough coins we can craft the cauldron and transfer it with 200 coins to the spirit world.
 
 # Quest.1588 - Nightmares
 gtnh.quest1588.name=Nightmares
@@ -6370,15 +6370,15 @@ gtnh.quest1591.desc=For later use do a few Exhale of the Horned One.
 
 # Quest.1592 - Offerings in your dreams
 gtnh.quest1592.name=Offerings in your dreams
-gtnh.quest1592.desc=For all your offerings you'll need an altar too. The spinning wheel needs it also.%n2000 coins are needed.
+gtnh.quest1592.desc=For all your offerings you'll need an altar too. The spinning wheel needs it also.%n400 coins are needed.
 
 # Quest.1593 - Kettle for the Spirit World
 gtnh.quest1593.name=Kettle for the Spirit World
-gtnh.quest1593.desc=A kettle is needed in the spirit world too. For a fee of 1500 coins you can transfer it.
+gtnh.quest1593.desc=A kettle is needed in the spirit world too. For a fee of 300 coins you can transfer it.
 
 # Quest.1594 - Spinning Your Dreams
 gtnh.quest1594.name=Spinning Your Dreams
-gtnh.quest1594.desc=You need the spinning wheel for the fanciful thread to finally make the Potion of Flowing Spirit.
+gtnh.quest1594.desc=You need the spinning wheel for the fanciful thread to finally make the Potion of Flowing Spirit. 600 coins are needed.
 
 # Quest.1595 - Fanciful Thread
 gtnh.quest1595.name=Fanciful Thread
@@ -6978,7 +6978,7 @@ gtnh.quest1743.desc=Mars is rich on saltwater and chlorobenzene. If yu run low o
 
 # Quest.1744 - §6§lChemical lesson part two
 gtnh.quest1744.name=§6§lChemical lesson part two
-gtnh.quest1744.desc=More advanced recipes need an mv chemical reactor like polyethylen.%n%nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.
+gtnh.quest1744.desc=More advanced recipes need an MV chemical reactor. LV recipes will complete twice as fast.%n%nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.
 
 # Quest.1745 - Welcome to OpenComputers!
 gtnh.quest1745.name=Welcome to OpenComputers!
@@ -7134,7 +7134,7 @@ gtnh.quest1782.desc=Nightvision is very useful. If you combine your Goggles with
 
 # Quest.1783 - Traveller's Vest upgrades
 gtnh.quest1783.name=Traveller's Vest upgrades
-gtnh.quest1783.desc=Your vest can be equipped with a few modification like perfect dodge and stealth.%nPerfect dodge mean you're harder to hit and can be stacked up to 3 times.%nStealth turn you invisible while sneaking. Place the vest in the center of a Tinker's Crafting Station.%n%nHint:%nAutorepair can be added to the vest as well.%nEvery Armor part has 3 Slots for modification.
+gtnh.quest1783.desc=Your vest can be equipped with a few modification like perfect dodge and stealth.%nPerfect dodge mean you're harder to hit and can be stacked up to 3 times.%nStealth turns you invisible while sneaking. Place the vest in the center of a Tinker's Crafting Station.%n%nHint:%nAutorepair can be added to the vest as well.%nEvery Armor part has 3 Slots for modification.
 
 # Quest.1784 - Traveller's Wings upgrades
 gtnh.quest1784.name=Traveller's Wings upgrades
@@ -9576,6 +9576,30 @@ gtnh.quest2392.desc=Did you goof and somehow lose the Horned Huntsman before you
 gtnh.quest2393.name=Fertilized Earth
 gtnh.quest2393.desc=With a Chemical Reactor, you can make Fertilized Earth. It ticks over faster than normal farmland, so crops will mature much faster. As a bonus, it can be tilled away from water and doesn't get damaged when you fall on it.%n%nDoes allow IC2 crop placed on them, but will not accelerate the crops.
 
+# Quest.2394 - Hydrazine
+gtnh.quest2394.name=Hydrazine
+gtnh.quest2394.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.
+
+# Quest.2395 - Formaldehyde Catalyst Dust
+gtnh.quest2395.name=Formaldehyde Catalyst Dust
+gtnh.quest2395.desc=Making Formaldehyde will require a catalyst. You can make this dust by mixing iron and vanadium.
+
+# Quest.2396 - Hydrogen Peroxide
+gtnh.quest2396.name=Hydrogen Peroxide
+gtnh.quest2396.desc=Hydrogen Peroxide is made in a GT++ Chemical Plant.%n%nGood luck figuring out that recipe chain!%n
+
+# Quest.2397 - Playing with the Big Boys, chemically
+gtnh.quest2397.name=Playing with the Big Boys, chemically
+gtnh.quest2397.desc=Once you have a full LV setup along with an EBF, you can start thinking about making a Chemical Plant. This facility will process certain chemical recipes you'll need later on.%n%nIt will need a mine cart load of reources, so start mining!%n%nUnder Construction.
+
+# Quest.2398 - §3§lHidden drawers
+gtnh.quest2398.name=§3§lHidden drawers
+gtnh.quest2398.desc=You might notice once you get a wall of drawers that looking that direction gives you a little lag. If the lag gets back enough, you can craft this key to stop putting the item on the front. Very handy for the drawer controller!
+
+# Quest.2399 - I know his name!
+gtnh.quest2399.name=I know his name!
+gtnh.quest2399.desc=The Name Remover is a simple utility machine that can strip off incorrect or useless NBT data. %n%nGregtech "remembers" how you made items, in case you want to disassemble them later. This means that items made slightly differently can't stack.  This machine will remove that disassembly NBT data so all those items will now stack together. %n%nObviously, this means you can't disassemble the item you put through this machine. 
+
 ##################################Line##################################
 
 # QuestLine.0 - Tier 0 - It begins
@@ -9616,7 +9640,7 @@ gtnh.line8.desc=If you have made it this far, you should walk with your head hel
 
 # QuestLine.9 - Fusion
 gtnh.line9.name=Fusion
-gtnh.line9.desc=Making power for the lategame tiers, LuV-UMV
+gtnh.line9.desc=Making power for the lategame tiers, LuV-UMV. Only 20 years away!
 
 # QuestLine.10 - Fishing Farming Cooking
 gtnh.line10.name=Fishing Farming Cooking
