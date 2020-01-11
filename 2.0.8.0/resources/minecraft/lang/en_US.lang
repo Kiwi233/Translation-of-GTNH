@@ -18,11 +18,11 @@ gtnh.quest3.desc=Now that you've unlocked 3x3 crafting, it's about time to make 
 
 # Quest.4 - §1§lMain Quests and Secondary Quests
 gtnh.quest4.name=§1§lMain Quests and Secondary Quests
-gtnh.quest4.desc=Now that you have made it this far notice the two new quests. See how these two quests look different? The quest with a crown is a main quest and is linked to other main quests by a thick line. You must complete the main quests to unlock the next tier. The other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nNot all main quests have a connecting line to guide you through your adventure because of book size. If there is not an obvious linked main quest at any point, try completing some of the other main quests available to you to progress.
+gtnh.quest4.desc=Now that you have made it this far notice the two new quests. See how these two quests look different? The quest with a crown is a main quest and is linked to other main quests by a thick line. You must complete the main quests to unlock the next tier. The other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nNot all main quests have a connecting line to guide you through your adventure because of book size. If there is not an obvious linked main quest at any point, try completing some of the other main quests available to you to progress.%n%nIf you need help with a quest, you can find the Quest ID by holding F3 + H, and then Quest IDs will show in your questbook.
 
 # Quest.5 - §1§lTools
 gtnh.quest5.name=§1§lTools
-gtnh.quest5.desc=Now that you've got a shelter, crafting table, and a place to store your items, you should make some tools. (Unless you'd like to continue punching trees with your bare hand...)
+gtnh.quest5.desc=Now that you've got a shelter, crafting table, and a place to store your items, you should make some tools. (Unless you'd like to continue punching trees with your bare hand...)%n%nNOTE: Make sure to
 
 # Quest.6 - §1§lYou reap...
 gtnh.quest6.name=§1§lYou reap...
@@ -134,7 +134,7 @@ gtnh.quest32.desc=After you found a way to move water around, you had another br
 
 # Quest.33 - §2§lTinker-time
 gtnh.quest33.name=§2§lTinker-time
-gtnh.quest33.desc=While using your flint tools is fun in terms of killing pigs and cows, they are not very good, and can't be repaired. You discovered how to craft tools that could be repaired and upgraded, but for that you definitely need a more advanced crafting technique.
+gtnh.quest33.desc=While using your flint tools is fun in terms of killing pigs and cows, they are not very good, and can't be repaired. You discovered how to craft tools that could be repaired and upgraded, but for that you definitely need a more advanced crafting technique.%n%nIf you have to use wood other than oakwood to make your tables, you can convert them to the default oakwood type to complete this quest.
 
 # Quest.34 - §2§lAluminini...um...?
 gtnh.quest34.name=§2§lAluminini...um...?
@@ -250,7 +250,7 @@ gtnh.quest61.desc=With a more durable steel casing, you can use lava to make ste
 
 # Quest.62 - §3§lThe power of the sun
 gtnh.quest62.name=§3§lThe power of the sun
-gtnh.quest62.desc=The sun has quite a bit of power, so why not use it to produce steam? %n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time.
+gtnh.quest62.desc=The sun has quite a bit of power, so why not use it to produce steam? %n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. It will heat up fast, so make sure you are ready with water.
 
 # Quest.63 - §3§lUsing steam to cook things
 gtnh.quest63.name=§3§lUsing steam to cook things
@@ -446,7 +446,7 @@ gtnh.quest110.desc=A basic cart can't hold any items, so you need to attach spec
 
 # Quest.111 - A simple cart
 gtnh.quest111.name=A simple cart
-gtnh.quest111.desc=In order to create or customize your cart you need a hull to attach your desired upgrades to. The wooden one can be used for really simple applications, but to farm wheat or wood, you need at least an iron one.
+gtnh.quest111.desc=In order to create or customize your cart you need a hull to attach your desired upgrades to. The wooden one can be used for really simple applications, but to farm wheat or wood, you need at least an iron one.%n%n§c§lWARNING: §r§cUnprotected carts can be knocked off their rails by lightning. Cover the area with glass to prevent carts from disappearing.%n%nAlso, make sure to keep your cart in one chunk, or use chunkloaders covering the whole area the cart works within. Loading/unloading chunks may cause carts to disappear or duplicate.
 
 # Quest.112 - Cart modules: Wood cutter
 gtnh.quest112.name=Cart modules: Wood cutter
@@ -588,9 +588,9 @@ gtnh.quest145.desc=The endless ware between macerators and SAG mills rages on et
 gtnh.quest146.name=§9§lTorture device
 gtnh.quest146.desc=When the subjects don't want to cooperate.
 
-# Quest.147 - §9§lRocket fuel
-gtnh.quest147.name=§9§lRocket fuel
-gtnh.quest147.desc=Rocket fuel are used in the future for galacticraft rockets. It does generate a lot of Power in the rocket Engine. Use your centrifuge to make some. Will generate 30720000 eu per cell.
+# Quest.147 - §9§lRocket fuel mix A
+gtnh.quest147.name=§9§lRocket fuel mix A
+gtnh.quest147.desc=Rocket fuel are used in the future for galacticraft rockets. It does generate a lot of Power in the Rocket Engine. Use your centrifuge to make some. Will generate 3072000 eu per cell.
 
 # Quest.148 - §6§lTasty...
 gtnh.quest148.name=§6§lTasty...
@@ -1126,11 +1126,11 @@ gtnh.quest280.desc=Eyes. Yes. Eyes! I need eyes, my precious. Not spidery ones, 
 
 # Quest.281 - Really (Really!) dark magic
 gtnh.quest281.name=Really (Really!) dark magic
-gtnh.quest281.desc=Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!
+gtnh.quest281.desc=Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!%n%nAvailable in your local bookstore, and also occasionally found on Crimson Knights and Crimson Clerics.
 
 # Quest.282 - Secrets
 gtnh.quest282.name=Secrets
-gtnh.quest282.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt.. They will tell me!
+gtnh.quest282.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt.. They will tell me!%n%nNOTE: You might want to setup a spawner because you'll need to kill a lot of these.
 
 # Quest.283 - Find the key
 gtnh.quest283.name=Find the key
@@ -1354,7 +1354,7 @@ gtnh.quest337.desc=Unlike nitroglycerin, this stuff doesn't explode. But you sti
 
 # Quest.338 - Spirit coin transfer
 gtnh.quest338.name=Spirit coin transfer
-gtnh.quest338.desc=The Potion of Spirit can only made in the spirit world. Wondering how you can get your stuff like the Kettle, Spinning Wheel or Cauldron to the spirit world? Well you can bypass it probably on servers with the enderchets but for single player or a server without any enderchest you can transfer a few coins to the spirit world and buy some stuff. Don't claim the coins until you have already passed to the other side.%n%nYou have already collected a few coins in quests. Let's transfer them now and save it in a chest.%n%nIt's a repeatable quest so you can do it as long you have enough coins.
+gtnh.quest338.desc=The Potion of Spirit can only made in the spirit world. Wondering how you can get your stuff like the Kettle, Spinning Wheel or Cauldron to the spirit world? Well you can bypass it probably on servers with the enderchests but for single player or a server without any enderchest you can transfer a few coins to the spirit world and buy some stuff. Don't claim the coins until you have already passed to the other side.%n%nYou have already collected a few coins in quests. Let's transfer them now and save it in a chest.%n%nIt's a repeatable quest so you can do it as long you have enough coins.
 
 # Quest.339 - Circle magic
 gtnh.quest339.name=Circle magic
@@ -1918,7 +1918,7 @@ gtnh.quest478.desc=After you make steel you are able to craft flint and steel. I
 
 # Quest.479 - §3§m§l§m§4§3§lTHE NETHER
 gtnh.quest479.name=§3§m§l§m§4§3§lTHE NETHER
-gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care.  Be sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?%n%nAlso, *when* you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area *first* so that you don't end up dying over and over and making a mess.
+gtnh.quest479.desc=Now more dangerous with extra hardcore infernal mobs. Have fun and take care.  Be sure to bring a tough companion along to keep you alive. If you have no friends, why not make an Iron Golem and push it through first, or bring the materials for more along with you?%n%nAlso, *when* you die here, not if, your graves will spawn skeletons because of the darkness. Make sure you light up areas where you might die, and when recovering graves light up the area *first* so that you don't end up dying over and over and making a mess.%n%nWatch out for some mobs! They'll take minimal damage from any weapon that is not their weakness. So if you seem to not be doing much damage, you probably aren't! Think about other options to hurt/kill the monster.
 
 # Quest.480 - §2§lMalachite
 gtnh.quest480.name=§2§lMalachite
@@ -2030,7 +2030,7 @@ gtnh.quest506.desc=In order to continue with bees, to mutate and breed them as y
 
 # Quest.507 - Upgraded home
 gtnh.quest507.name=Upgraded home
-gtnh.quest507.desc=The Bee House can be used to stabilize mutations, for example if you have successfully bred two different bees, but the passive traits are different from the active ones. %n%nTo actually breed those together to get a new species, you'll need something different - the Apiary. Building them will require a Carpenter and Impregnated frames, along with Seedoil and Creosote - quite a bit of industrialization! Or, if you're lucky, you can find a beekeeper villager to trade with for useful items. Maybe you can help the villagers *get lucky* to make more beekeeper villagers? If only Cupid and his bow were around...%n%nProduction rates in an empty Apiary are low - lower than a Bee House by quite a bit, in fact.  But the Apiary has two big advantages - Frames, and Automation. You can now use your Untreated or Impregnated frames in here to boost output - and the boost is multiplied. So 3 x2 frames gives you 2 * 2 * 2 = 8x extra output!
+gtnh.quest507.desc=The Bee House can be used to stabilize mutations, for example if you have successfully bred two different bees, but the passive traits are different from the active ones. %n%nTo actually breed those together to get a new species, you'll need something different - the Apiary. Building them will require a Carpenter and Impregnated frames, along with Seedoil and Creosote - quite a bit of industrialization! Or, if you're lucky, you can find a beekeeper villager to trade with for useful items. Maybe you can help the villagers *get lucky* to make more beekeeper villagers? If only Cupid and his bow were around...%n%nProduction rates in an empty Apiary are low - lower than a Bee House by quite a bit, in fact.  But the Apiary has two big advantages - Frames, and Automation. You can now use your Untreated or Impregnated frames in here to boost output - and the boost is multiplied. So 3 x2 frames gives you 2 * 2 * 2 = 8x extra output!%n%nAlso, you should check the Slice and Splice tab for useful machines. The Acclimatiser can give very picky bees a much wider temperature or humidity tolerance without having to breed it into them.
 
 # Quest.508 - Mutatron
 gtnh.quest508.name=Mutatron
@@ -2398,7 +2398,7 @@ gtnh.quest598.desc=The most efficient way to get antimony for batteries is to ce
 
 # Quest.599 - §5§lThermal centrifuge
 gtnh.quest599.name=§5§lThermal centrifuge
-gtnh.quest599.desc=A machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods. It's usefull for tiny piles of Gallium out of crushed Zinc Ore for your Diodes needed in good circuits.%nLater on you can get Gallium out of centrifuges Sphalerite in the second macerator slot.%nIf you can't produce the 2A of LV power for this machine right now, wait until you get to MV and use transformers to power an LV version.
+gtnh.quest599.desc=A machine to get different byproducts out of your crushed and purified ore dust. This machine becomes very useful when you have reactors and want to recycle your depleted fuel rods. It's useful for tiny piles of Gallium out of crushed Zinc Ore for your Diodes needed in good circuits.%nLater on you can get Gallium out of centrifuged Sphalerite in the second macerator slot.%nIf you can't produce the 2A of LV power for this machine right now, wait until you get to MV and use transformers to power an LV version.
 
 # Quest.600 - Hunger, no more
 gtnh.quest600.name=Hunger, no more
@@ -2710,7 +2710,7 @@ gtnh.quest676.desc=The crowbar comes in a Railcraft and a gregtech variant. It i
 
 # Quest.677 - Minecart
 gtnh.quest677.name=Minecart
-gtnh.quest677.desc=After you craft your first cart the journey can begin...%nWell, not really. You will need some kind of tracks first.
+gtnh.quest677.desc=After you craft your first cart the journey can begin...%nWell, not really. You will need some kind of tracks first.%n%n§c§lWARNING: §r§cUnprotected carts can be knocked off their rails by lightning. Cover the area with glass to prevent carts from disappearing.%n%nAlso, make sure to keep your cart in one chunk, or use chunkloaders covering the whole area the cart works within. Loading/unloading chunks may cause carts to disappear or duplicate.
 
 # Quest.678 - Fast Food > Slow Food
 gtnh.quest678.name=Fast Food > Slow Food
@@ -3060,9 +3060,9 @@ gtnh.quest763.desc=Industrial TNT is the HV variant of TNT. It explodes with mor
 gtnh.quest764.name=§6§lDynamite
 gtnh.quest764.desc=Dynamite is the most basic explosive you can use in the implosion compressor.%nMix some paper, string and glyceryl trinitrate in a chemical reactor to get dynamite.
 
-# Quest.765 - §6§lTime to oil drill!
-gtnh.quest765.name=§6§lTime to oil drill!
-gtnh.quest765.desc=Pumps are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE oil. This multiblock will help with that but you will need to search for oil using a seismic prospector. You can find raw, light and heavy oil. There's also a chance to find natural gas.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the oil drilling rig so it extracts from more than one chunk at a time.%n%nYou need mining pipes in the machine controller block.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
+# Quest.765 - §6§lTime to oil/fluid drill!
+gtnh.quest765.name=§6§lTime to oil/fluid drill!
+gtnh.quest765.desc=Pumps are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE oil. This multiblock will help with that but you will need to search for oil using a seismic prospector. You can find raw, light and heavy oil. There's also a chance to find natural gas.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the oil drilling rig so it extracts from more than one chunk at a time.%n%nYou need mining pipes in the machine controller block.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!%n%nSpace dimensions can also have fluids beneath bedrock. For info, check the Space Quests tab.
 
 # Quest.766 - §6§lLet's get crackin!
 gtnh.quest766.name=§6§lLet's get crackin!
@@ -3374,7 +3374,7 @@ gtnh.quest842.desc=Methane gas with a burn value of 104,000 EU per cell can be b
 
 # Quest.843 - §6§lMethanol
 gtnh.quest843.name=§6§lMethanol
-gtnh.quest843.desc=Methanol with a burn value of 84,000 EU per cell can be used to make biodiesel and other fluids.
+gtnh.quest843.desc=Methanol with a burn value of 84,000 EU per cell can be used to make biodiesel and other fluids. It's also used to make certain rocket fuels.
 
 # Quest.844 - §6§lEthanol
 gtnh.quest844.name=§6§lEthanol
@@ -3430,11 +3430,11 @@ gtnh.quest856.desc=To make 1,1-dimethylhydrazine you need to combine some hydraz
 
 # Quest.857 - §9§lFormaldehyde
 gtnh.quest857.name=§9§lFormaldehyde
-gtnh.quest857.desc=Combining formaldehyde catalyst, oxygen and methanol in a chemical dehydrator produces some formaldehyde.
+gtnh.quest857.desc=Combining formaldehyde catalyst, oxygen and methanol in a chemical dehydrator produces some formaldehyde.%n%nYou can distill methanol from a pyrolyse oven using a few sources, or you can make it from CO2 gas you collect from your EBF.
 
 # Quest.858 - §9§lChloramine
 gtnh.quest858.name=§9§lChloramine
-gtnh.quest858.desc=Combining hypochlorous acid and ammonia in a chemical reactor produces some chloramine.%nChloramine have no use at the moment but maybe later.
+gtnh.quest858.desc=Combining hypochlorous acid and ammonia in a chemical reactor produces some chloramine.%nChloramine has no use at the moment but maybe later we will think of something.
 
 # Quest.859 - §a§9§lHypochlorous Acid
 gtnh.quest859.name=§a§9§lHypochlorous Acid
@@ -3778,7 +3778,7 @@ gtnh.quest943.desc=High tier chemical recipes like ammonia need an HV chemical r
 
 # Quest.944 - §6§lSuper Tank I
 gtnh.quest944.name=§6§lSuper Tank I
-gtnh.quest944.desc=Next step is to store 4000 buckets in a tank. The super tank I needs a hermetic casing made with aluminium plates and PTFE pipe. The tank need 4 circuits, a pulsating iron plate and an MV pump. Now you can store the same amount of fluids a steel 5x5 Railcraft tank contains in a single block.
+gtnh.quest944.desc=Next step is to store 4000 buckets in a tank. The super tank I needs a hermetic casing made with Steel Plates and Large Plastic Fluid Pipe. The tank need 4 circuits, a pulsating iron plate and an MV pump. Now you can store the same amount of fluids a steel 5x5 Railcraft tank contains in a single block.
 
 # Quest.945 - §2§lChad - A better way to make Paper
 gtnh.quest945.name=§2§lChad - A better way to make Paper
@@ -4058,7 +4058,7 @@ gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They
 
 # Quest.1014 - §9§lWorkstation Extreme Circuit
 gtnh.quest1014.name=§9§lWorkstation Extreme Circuit
-gtnh.quest1014.desc=The next tier of circuits are the extreme circuits. Workstation Circuits are the easiest one and are needed in EV Tier. Let's craft some.%n%nIn addition, you will need 16 Diodes, SMD or non-SMD.
+gtnh.quest1014.desc=The next tier of circuits are the extreme circuits. Workstation Circuits are the easiest one and are needed in EV Tier. Let's craft some.%n%nIn addition, you will need 16 Diodes, SMD or non-SMD.%n%nYou can make Blue Alloy with Silver and Electrotine in an Alloy Smelter. If you don't have Electrotine, you can make it from Redstone and Electrum in a Mixer. Have fun!
 
 # Quest.1015 - §6§lEmpty Plastic Board
 gtnh.quest1015.name=§6§lEmpty Plastic Board
@@ -4462,7 +4462,7 @@ gtnh.quest1114.desc=Proven frames are much better than impregnated ones.%nEach f
 
 # Quest.1115 - Moron's Guide to Taller Trees
 gtnh.quest1115.name=Moron's Guide to Taller Trees
-gtnh.quest1115.desc=Forestry trees have a variety of attributes.  Once you get a tree with a useful attribute, you can breed that attribute into other tree species. This way you can get an ultimate tree that combines all the attributes you want - including the type of fruit! These breeding lines do not cover every option or even the best, but are great starts to get you into Forestry.%n%nIT IS RECOMMENDED YOU DO YOUR FORESTRY TREE BREEDING IN AN ENCLOSED AREA, OR UNDERGROUND. BUTTERFLIES ARE A KNOWN LAG SOURCE.%n%nFor faster tree breeding, enclose your trees so that butterflies cannot escape, and breed bees with better traits for area and pollination.%n%nGirth - The width of your tree.  Wider trees have more leaves, but will also need more saplings to begin growing. All saplings must be the same species and girth. The sapling in the NW corner determines the stats of the new tree, and is where bone meal must be applied to mature the tree. Butternut already provides 2x2 girth.%n%nHeight - Controls how high the tree grows. Jungle trees are already Larger, but if you want Largest there is a guide to getting Cocobolo trees. There are rumors of rare villagers with Giant Sequoia saplings capable of reaching into the clouds...%n%nMatures - The growth speed of a sapling into a tree.  Important if you plan to cut it down right away for logs.%n%nSaplings - Chance of getting a sapling from a detroyed leaf. Balsa, a tree on the way to Cocobolo, has High number of saplings. Good for making into biomass or other uses.%n%nSappiness - The amount of biomass a sapling produces in the Fermenter. Boost Fermenter output more using honey or fruit juice. Blue Mahoe provides the highest sappiness, but Lemon and Plum are respectable.%n%nYield - Chances of getting a fruit from a destroyed leaf. Plum is the best here.%n%nFruit - Each fruit from various trees provides different advantages. Lemons are great sources of Fruit Juice but don't provide much Mulch for the fermenter. On the other hand, Plum is a mediocre source of Fruit Juice, but great for Mulch. The best seedoil nut is coconut, but butternut or hazelnut are good alternatives.%n%nWhen breeding these trees for quests, you will need to breed the species "pure", not a hybrid.
+gtnh.quest1115.desc=Forestry trees have a variety of attributes.  Once you get a tree with a useful attribute, you can breed that attribute into other tree species. This way you can get an ultimate tree that combines all the attributes you want - including the type of fruit! These breeding lines do not cover every option or even the best, but are great starts to get you into Forestry.%n%nIT IS RECOMMENDED YOU DO YOUR FORESTRY TREE BREEDING IN AN ENCLOSED AREA, OR UNDERGROUND. BUTTERFLIES ARE A KNOWN LAG SOURCE.%n%nFor faster tree breeding, enclose your trees so that butterflies cannot escape, and breed bees with better traits for area and pollination.%n%nYou can search the traits below in NEI. The recipe for the Gene Samples will show you all trees that provide that trait. The quests here show you the easiest ones to complete.%n%nGirth - The width of your tree.  Wider trees have more leaves, but will also need more saplings to begin growing. All saplings must be the same species and girth. The sapling in the NW corner determines the stats of the new tree, and is where bone meal must be applied to mature the tree. Butternut already provides 2x2 girth.%n%nHeight - Controls how high the tree grows. Jungle trees are already Larger, but if you want Largest there is a guide to getting Cocobolo trees. There are rumors of rare villagers with Giant Sequoia saplings capable of reaching into the clouds...%n%nMaturation - The growth speed of a sapling into a tree.  Important if you plan to cut it down right away for logs.%n%nSaplings(NEI: Fertility) - Chance of getting a sapling from a detroyed leaf. Balsa, a tree on the way to Cocobolo, has High number of saplings. Good for making into biomass or other uses.%n%nSappiness - The amount of biomass a sapling produces in the Fermenter. Boost Fermenter output more using honey or fruit juice. Blue Mahoe provides the highest sappiness, but Lemon and Plum are respectable.%n%nYield - Chances of getting a fruit from a destroyed leaf. Plum is the best here.%n%nFruit - Each fruit from various trees provides different advantages. Lemons are great sources of Fruit Juice but don't provide much Mulch for the fermenter. On the other hand, Plum is a mediocre source of Fruit Juice, but great for Mulch. The best seedoil nut is coconut, but butternut or hazelnut are good alternatives.%n%nWhen breeding these trees for quests, you will need to breed the species "pure", not a hybrid.
 
 # Quest.1116 - Breed some cultivated bees
 gtnh.quest1116.name=Breed some cultivated bees
@@ -4494,7 +4494,7 @@ gtnh.quest1122.desc=Royal jelly is a honey bee secretion that is used in the nut
 
 # Quest.1123 - Alvearies
 gtnh.quest1123.name=Alvearies
-gtnh.quest1123.desc=The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks. %nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.%n It is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.%n%nA submission station is recommended for quests with large amounts of items.
+gtnh.quest1123.desc=The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks. %n%nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.%n%nCertain bees will not produce their specialty items unless they are Jubilant. This requires matching their preferred Temperature/Humidity, without any genetic modifiers.%n%nIt is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.%n%nA submission station is recommended for quests with large amounts of items.
 
 # Quest.1124 - Barrel Upgrades
 gtnh.quest1124.name=Barrel Upgrades
@@ -4506,7 +4506,7 @@ gtnh.quest1125.desc=Are your upgraded cobblestone or dirt barrels full again? %n
 
 # Quest.1126 - §3§lAlumite
 gtnh.quest1126.name=§3§lAlumite
-gtnh.quest1126.desc=It's upgrade time again. You can make alumite like modpack Moron by mixing obsidian, steel and alumin(i)um in the smeltery, or you can be a GregTech hero and search NEI for an alternate recipe using dusts. Alumite pickaxes are able to mine ardite in the Nether.
+gtnh.quest1126.desc=It's upgrade time again. You can make alumite like modpack Moron by mixing obsidian, steel and alumin(i)um in the smeltery, or you can be a GregTech hero and search NEI for an alternate recipe using dusts. Alumite pickaxes are able to mine ardite in the Nether.%n%nLeave the rest of your Ardite as liquid in your smeltery, you'll want it to make the Tool Forge. You need 16 ingots in the smeltery to make 2 Large Plates.
 
 # Quest.1127 - §3§lReinforced X? Unbreakable
 gtnh.quest1127.name=§3§lReinforced X? Unbreakable
@@ -4586,7 +4586,7 @@ gtnh.quest1145.desc=Gregtech cables will not connect to IC2 machines so you need
 
 # Quest.1146 - §2§lGT 6 styled Pipes
 gtnh.quest1146.name=§2§lGT 6 styled Pipes
-gtnh.quest1146.desc=Maybe you are wondering why the new pipes don't auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don't need a plate or a foil to prevent pipes from connecting anymore.%n%nYou'll still want to cover hot pipes to prevent getting hurt!%n%nShift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. %n%nAlso, pipes now come with a shutter built in for free to reduce sloshing. Shift-rightclick with a wrench on the side you want prevent input.%n%nLarge or Huge fluid pipes can be a "poor man's" storage tank, holding large amounts on their own.%n%nFor machine outputs, including the boilers, and water siding tanks you will not need pumps. Other tanks will need pumps or Tinker's Construct faucets to move fluids.%n%n§4Hint: If you click one pipe onto the other they will auto-connect.
+gtnh.quest1146.desc=Maybe you are wondering why the new pipes don't auto-connect anymore? This was changed to make the pipe smarter. You can now use a wrench to connect only the pipes you want. You don't need a plate or a foil to prevent pipes from connecting anymore.%n%nYou'll still want to cover hot pipes to prevent getting hurt!%n%nShift clicking on the end of a pipe will disable the fluid input on that side. This is super handy, for example, to prevent coal boilers from feeding back steam into water pipes. %n%nAlso, pipes now come with a shutter built in for free to reduce sloshing. Shift-rightclick with a wrench on the side you want prevent input.%n%nLarge or Huge fluid pipes can be a "poor man's" storage tank, holding large amounts on their own.%n%nFor machine outputs, including the boilers, and water siding tanks you will not need pumps. Other tanks will need pumps or Tinker's Construct faucets to move fluids.%n%nYou can put covers such as GT oak planks or plates on a pipe as well. Normally this prevents connections in that direction, but you can use a screwdriver to enable connections. This lets you make pipes that look nice going through walls.%n%n§4Hint: If you click one pipe onto the other they will auto-connect.
 
 # Quest.1147 - §3§2§4§3§lGT 6 styled Wires and Cables
 gtnh.quest1147.name=§3§2§4§3§lGT 6 styled Wires and Cables
@@ -4606,7 +4606,7 @@ gtnh.quest1150.desc=Now its time to craft your Crossbow Limb and the Crossbow Bo
 
 # Quest.1151 - §3§lWooden Crosbow
 gtnh.quest1151.name=§3§lWooden Crosbow
-gtnh.quest1151.desc=Now you are able to make a better long range weapon - a crossbow. Use wood for the the crossbow limb and the body and use obsidian (Reinforced III) for the tough binding. Normal strings for the bowstrings would be enough for now.%n%nAssemble the bow yourself on your tool forge.%n%n§4For upgrades:%n§5§4§3Redstone - Speed on the draw%nLapis - Fortune on kills%nMoss - Self-repair (this is not visible in NEI until you unlock it in the GTNH Thaumcraft tab)
+gtnh.quest1151.desc=Now you are able to make a better long range weapon - a crossbow. Use wood for the the crossbow limb and the body and use obsidian (Reinforced III) for the tough binding. Normal strings for the bowstrings would be enough for now.%n%nAssemble the bow yourself on your tool forge.%n%n§4For upgrades:%n§5§4§3Redstone - Speed on the draw%nLapis - Fortune on kills%nMoss - Self-repair (this is not visible in NEI until you unlock it in the GTNH Thaumcraft tab)%n%n§6NOTE: Some mobs require damage from specific tools. IF YOU ARE SHOOTING AT SOMETHING AND IT IS NOT GETTING HURT, *RUN*.  And then figure out what weapon might be best to kill it.
 
 # Quest.1152 - §5§lFiery Bowstring
 gtnh.quest1152.name=§5§lFiery Bowstring
@@ -4790,23 +4790,23 @@ gtnh.quest1196.desc=And a few tin berries for cash.
 
 # Quest.1197 - §d§lFusion reactor MK2 - bigger, better, fusor
 gtnh.quest1197.name=§d§lFusion reactor MK2 - bigger, better, fusor
-gtnh.quest1197.desc=Now that you have some europium, put it to use by making an mk2 reactor. This one will require the same block placement, but replacing LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and using ZPM tier hatches. This reactor can handle recipes up to 320M eu startup. In addition, if you perform an mk1 recipe on an mk2, you will overclock it. Fusion overclocking is different than normal gt. It will take 2x the power, but the recipe will go 2x faster.
+gtnh.quest1197.desc=Now that you have some europium, put it to use by making an mk2 reactor. %n%nThis one will require the same block placement, but replacing LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and using ZPM tier hatches. %n%nThis reactor can handle recipes up to 320M eu startup. In addition, if you perform an mk1 recipe on an mk2, you will overclock it. Fusion overclocking is different than normal gt. It will take 2x the power, but the recipe will go 2x faster.
 
 # Quest.1198 - §d§lUpgrading the reactor
 gtnh.quest1198.name=§d§lUpgrading the reactor
-gtnh.quest1198.desc=A mark 2 is nice, but why not make a mark 3? It will double the power needed per recipe, while cutting the processing time in half. This time you will need UV or above hatches, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of providng up to 8192eu/t, per energy hatch, for the recipe. The reactor can take as little as 8192eu/t to run. The UV hatch can accept up to 2 amps of 524288eu/t before it explodes, as usual.
+gtnh.quest1198.desc=A mark 2 is nice, but why not make a mark 3? %n%nIt will double the power needed per recipe, while cutting the processing time in half. %n%nThis time you will need UV or above hatches, as well as Fusion machine casings MK2. This reactor is capable of doing all fusion recipes. Each energy hatch is capable of providng up to 8192eu/t, per energy hatch, for the recipe. The reactor can take as little as 8192eu/t to run. The UV hatch can accept up to 2 amps of 524288eu/t before it explodes, as usual.
 
 # Quest.1199 - §d§lMaking americium
 gtnh.quest1199.name=§d§lMaking americium
-gtnh.quest1199.desc=Before you can upgrade your reactor, you will need to get some americium. The recipe will look pretty expensive, but once you made the next tier of reactor, you will unlock a simplier and cheaper one. You will need at least 128 plates for the reactor casings, 9 to scan for the recipe, and 4 to build one.
+gtnh.quest1199.desc=Before you can upgrade your reactor, you will need to get some americium. The recipe will look pretty expensive, but once you made the next tier of reactor, you will unlock a simpler and cheaper one. You will need at least 128 plates for the reactor casings, 9 to scan for the recipe, and 4 to build one.
 
 # Quest.1200 - §d§lMaking power with your plasma
 gtnh.quest1200.name=§d§lMaking power with your plasma
-gtnh.quest1200.desc=Now that you have a reactor, it's time to utilize it. The simplest plasma you can make for power is Helium plasma. It's renewable from water, but also provides a lot of power. However, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you're outputting. For Helium plasma, you will want a UV or above hatch.
+gtnh.quest1200.desc=Now that you have a reactor, it's time to utilize it. %n%nThe simplest plasma you can make for power is Helium plasma. It's renewable from water, but also provides a lot of power. %n%nHowever, you will need a way to convert the plasma into EU. To do this you will need a large plasma turbine. This will also need a dynamo hatch that can handle the power you're outputting. For Helium plasma, you will want a UV or above hatch.
 
 # Quest.1201 - §d§lTurbine Time
 gtnh.quest1201.name=§d§lTurbine Time
-gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. You can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. Trinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two. You can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn't also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listen on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate.
+gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any gt material, but the best are trinium, awakened draconium and neutronium. %n%nTrinium will give you the most eu/t out of a single multiblock, with the best efficiency. Neutronium will give you the longest lasting turbine rotors with a lower efficiency, and less power per reactor. Awakened draconium will give you a balance between the two.%n%nYou can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn't also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate.
 
 # Quest.1202 - §e§d§n§o§r§l§d§lTime for another reactor
 gtnh.quest1202.name=§e§d§n§o§r§l§d§lTime for another reactor
@@ -4850,7 +4850,7 @@ gtnh.quest1211.desc=After you craft side chests you can add more different chest
 
 # Quest.1212 - §d§lStarting Fusion
 gtnh.quest1212.name=§d§lStarting Fusion
-gtnh.quest1212.desc=Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion. While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. For your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch provides 2048eu/t for the recipe, and has a storage capacity of 160M eu. This means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn't matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. 
+gtnh.quest1212.desc=Now that your power needs are increasing, you need a way to keep up with demand. To generate over 1A ZPM with a single machine you have two options: solars, and fusion.%n%n While solars are simpler to set up, solars cap out at 524288eu/t. Fusion can reach levels close to eight times that with the right setup. %n%nFor your first reactor, you will need a controller, 2-16 fluid input hatches, 1-16 fluid output hatches, and 16 energy hatches. All hatches have to be LuV tier or better. Each hatch provides 2048eu/t for the recipe, and has a storage capacity of 160M eu. %n%nThis means you can do any fusion recipe that takes less than 32768eu/t or less, and has a startup of 160M eu or less. Using more fluid hatches means you need less fusion casings. While this doesn't matter as much for the mk1 reactor, this principle helps tremendously with the high reactor tiers. 
 
 # Quest.1213 - §d§lGetting europium
 gtnh.quest1213.name=§d§lGetting europium
@@ -5146,7 +5146,7 @@ gtnh.quest1285.desc=Diamond Spike damages mobs that touch any side of it other t
 
 # Quest.1286 - Primal Shrooms
 gtnh.quest1286.name=Primal Shrooms
-gtnh.quest1286.desc=Primal shrooms allow you to refill wands easier before you can move nodes to your base.%nGo and find some in a magical forest biome. Try using a Nature's Compass. Or buy some if no biome is close to your location.%n2 pumpkins and 4 entropy slivers are the perfect combo to make these.
+gtnh.quest1286.desc=Primal shrooms allow you to refill wands easier before you can move nodes to your base.%nGo and find some Vishrooms in a magical forest biome. Try using a Nature's Compass. Or buy some using coins if no biome is close to your location.%n%n2 pumpkins and 4 entropy slivers are the perfect combo to make these.%n%nFor these to grow, they will need light.
 
 # Quest.1287 - Vish Shroom
 gtnh.quest1287.name=Vish Shroom
@@ -5710,7 +5710,7 @@ gtnh.quest1426.desc=To reach tier two planets like Mars or its moons  Phobos and
 
 # Quest.1427 - Tier 2 Heavy Duty Plates
 gtnh.quest1427.name=Tier 2 Heavy Duty Plates
-gtnh.quest1427.desc=Rockets require heavy duty plates for the main hull. Let's craft 10 tier 2  heavy duty plates out of tier 1 plates and meteoric iron plates.
+gtnh.quest1427.desc=Rockets require heavy duty plates for the main hull. Let's craft 10 tier 2  heavy duty plates out of tier 1 plates and meteoric iron plates.%n%nYou'll need to make a couple of tungstensteel ingots to make these plates. You can use an HV centrifuge with lava, process end stone or endstone dust, or macerate lunar rocks to get some.
 
 # Quest.1428 - Tier 2 Schematic
 gtnh.quest1428.name=Tier 2 Schematic
@@ -6006,7 +6006,7 @@ gtnh.quest1500.desc=For quests to save properly, you must be online and logged i
 
 # Quest.1501 - §1§lBackup your stuff...
 gtnh.quest1501.name=§1§lBackup your stuff...
-gtnh.quest1501.desc=Single player? Please install your preferred backup mod, or use the command line to backup your game. Not sure which to use? §6AromaBackup for 1.7.10 §rworks pretty well.%n%nRemember though Journeymap and Thaumcraft Node Tracker information isn't included with AromaBackup, so you should backup your journeymap and tcnodetracker directories after exploration.
+gtnh.quest1501.desc=Single player? Please install your preferred backup mod, or use the command line to backup your game. Not sure which to use? §6AromaBackup for 1.7.10 §rworks pretty well.%n%nRemember though Journeymap and Thaumcraft Node Tracker information isn't included with AromaBackup, so you should backup your journeymap and tcnodetracker directories after exploration.%n%nWhile you're at it, check out our wiki at https://gtnh.miraheze.org/ for a list of mods you could add as well to further increase your playing experience. The wiki contains some really useful information and beginners guides you shouldn't miss if you're new to the modpack.
 
 # Quest.1502 - §9§lTesla would be proud
 gtnh.quest1502.name=§9§lTesla would be proud
@@ -6020,9 +6020,9 @@ gtnh.quest1503.desc=...right?  So when building multiblocks, make sure you%n%n1.
 gtnh.quest1504.name=§2§e§k§l§r§3§2§lDivine rod of the gods?
 gtnh.quest1504.desc=The ore finder rod takes some of the tedium out of finding an ore.  You'll need to find some first to make it, but once you have it you can use ore blocks to find more ore. It only tells you if that specific ore is nearby. Later you will want to return with better digging tools and check every spot.%n%n§4Be sure to use your NEI skills to figure out which ore block is the best choice for your needs.%n%n§4Other basic ore blocks can be purchased from the Coins tab.%n%nTo use, shift click when looking at the ground to open inventory and put the ore block into the slot.%n%n§rAs you get close, you will see and hear a response from the ore finder tool. You will see the durability bar change when it discovers a match. Watch out - it will respond to small ores as well as normal ores so Lapis and Redstone you will want to wait for large signal before digging. If it detects a large quantity of the ore you're looking for the wand will flip upside down completely and fill the durability bar. If you play with your sound on you will hear an obvious sound to notify you as well. The wand works in both your inventory and hotbar and you don't need to be actively holding it, though you get style points if you are holding it.%n%n§4Also, because of the magical nature of the wand, the ore is stored with the player, not the wand. If you want to give the wand to someone else, please remove the ore first.
 
-# Quest.1505 - §2§lNot enough items
-gtnh.quest1505.name=§2§lNot enough items
-gtnh.quest1505.desc=More like too many items!%n%nHere are some tips for using NEI.%n%nWhen you have your inventory open, you can type the search terms in the text bar.  Make sure your GUI size is set correctly, or you won't be able to see it. Double-click the bar to highlight any matching items in your inventory. Handy for searching that obsidian chest!%n%nEven better, you can use T to search nearby inventories, which will emit some particles. We have also provided the special Y command to look for a machine in the world, in case you've forgotten where you placed that Advanced Circuit Assembler.%n%nO will make the NEI information hide.
+# Quest.1505 - §2§lNot enough items - Now with bookmarks!
+gtnh.quest1505.name=§2§lNot enough items - Now with bookmarks!
+gtnh.quest1505.desc=More like too many items!%n%nHere are some tips for using NEI.%n%nWhen you have your inventory open, you can type the search terms in the text bar.  Make sure your GUI size is set correctly, or you won't be able to see it. Double-click the bar to highlight any matching items in your inventory. Handy for searching that obsidian chest!%n%nEven better, you can use T to search nearby inventories, which will emit some particles. %n%nWe have also provided the special Y command to look for a machine in the world, in case you've forgotten where you placed that Advanced Circuit Assembler.%n%nWe now have an extra-fancy Bookmark feature!  Default key is B, but can be changed in the NEI config window.  Bookmarks will be on the left side of the inventory, and you can use R and U on the bookmarks to see the recipes or uses for that item.%n%nO will make the NEI information hide.
 
 # Quest.1506 - §2§lNEI is more powerful than you imagine
 gtnh.quest1506.name=§2§lNEI is more powerful than you imagine
@@ -6118,7 +6118,7 @@ gtnh.quest1528.desc=Let's craft some personal chunkloaders. 3x3 chunks are loade
 
 # Quest.1529 - §9§lChunkloading
 gtnh.quest1529.name=§9§lChunkloading
-gtnh.quest1529.desc=With your hv assembler you can craft a world anchor.%n3x3 chunks are loaded. You need coins to power the chunkloader. %nPersonal anchors can be powered with ender pearls for 4 hours per pearl, passive anchors 1 hour per pearl. %n%n§4World anchors are always loaded, even after a server reset.
+gtnh.quest1529.desc=With your hv assembler you can craft a world anchor.%n3x3 chunks are loaded. You need coins to power the chunkloader. %nPersonal anchors can be powered with ender pearls for 4 hours per pearl, passive anchors 1 hour per pearl. %n%n§4World anchors are always loaded, even after a server reset.%n%nCheck with server operators in case world anchors are disabled. On the official servers, world anchors are currently disabled to keep TPS high.
 
 # Quest.1530 - Ceres Dungeon
 gtnh.quest1530.name=Ceres Dungeon
@@ -6182,7 +6182,7 @@ gtnh.quest1544.desc=To make some bio diesel you need seed oil or fish oil and mi
 
 # Quest.1545 - §6§lTime to ore drill!
 gtnh.quest1545.name=§6§lTime to ore drill!
-gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. Each tier of the controller also gives 5 bonus fortune for small ores. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nYou need mining pipes in the machine block and drilling fluid in the fluid hatch.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
+gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. %n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. Each tier of the controller also gives 5 bonus fortune for small ores. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nYou need mining pipes in the machine block and drilling fluid in the fluid hatch.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets! For this quest, you'll need to convert some IC2 cells to Universal Fluid Cells. Once the quest is done, you can convert them back.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain on any side. And set a waypoint with Journeymaps so you don't forget where you placed it!
 
 # Quest.1546 - §2§lRare ores
 gtnh.quest1546.name=§2§lRare ores
@@ -6336,13 +6336,13 @@ gtnh.quest1582.desc=The Dream Weaver of Fasting will add a boost to the saturati
 gtnh.quest1583.name=Mellifluous Hunger
 gtnh.quest1583.desc=Mellifluous Hunger is an ingredient used in other recipes. It is dropped when a Nightmare is killed.
 
-# Quest.1584 - Potion of flowing spirit
-gtnh.quest1584.name=Potion of flowing spirit
+# Quest.1584 - Brew of flowing spirit
+gtnh.quest1584.name=Brew of flowing spirit
 gtnh.quest1584.desc=The Brew of Flowing Spirit captures the essence of the Spirit World in liquid form. It can only be brewed in the Spirit World!%n%nThe Brew can be thrown at the ground and the liquid will burst out (the source block can later be picked up in a bucket). Standing in the liquid will have a minor healing effect for most creatures. Demonic or undead creatures will be weakened. Nightmares standing in the liquid will lose their invulnerability effect!%n%nHaving a pool of flowing spirit near a Dream Weaver of Nightmares will decrease the chance of a nightmare by 10 percent for each source block (up to 3).
 
 # Quest.1585 - We need another oven
 gtnh.quest1585.name=We need another oven
-gtnh.quest1585.desc=First of all you can't visit any other dim to get materials. Not the Twilight Forest, not the Nether or the End. Lets start with crafting a new oven and a stack of jars to start with some basic ingredients. For 500 Coins you can tranfer it to the Spirit Dim.
+gtnh.quest1585.desc=First of all you can't visit any other dim to get materials. Not the Twilight Forest, not the Nether or the End. Lets start with crafting a new oven and a stack of jars to start with some basic ingredients. For 100 Coins you can tranfer it to the Spirit Dim.
 
 # Quest.1586 - More coins
 gtnh.quest1586.name=More coins
@@ -6350,7 +6350,7 @@ gtnh.quest1586.desc=The second goal is to have a cauldron to make some mutandis 
 
 # Quest.1587 - Another Cauldron
 gtnh.quest1587.name=Another Cauldron
-gtnh.quest1587.desc=After we have enough coins we can craft the cauldron and transfer it with 1000 coins to the spirit world.
+gtnh.quest1587.desc=After we have enough coins we can craft the cauldron and transfer it with 200 coins to the spirit world.
 
 # Quest.1588 - Nightmares
 gtnh.quest1588.name=Nightmares
@@ -6370,15 +6370,15 @@ gtnh.quest1591.desc=For later use do a few Exhale of the Horned One.
 
 # Quest.1592 - Offerings in your dreams
 gtnh.quest1592.name=Offerings in your dreams
-gtnh.quest1592.desc=For all your offerings you'll need an altar too. The spinning wheel needs it also.%n2000 coins are needed.
+gtnh.quest1592.desc=For all your offerings you'll need an altar too. The spinning wheel needs it also.%n400 coins are needed.
 
 # Quest.1593 - Kettle for the Spirit World
 gtnh.quest1593.name=Kettle for the Spirit World
-gtnh.quest1593.desc=A kettle is needed in the spirit world too. For a fee of 1500 coins you can transfer it.
+gtnh.quest1593.desc=A kettle is needed in the spirit world too. For a fee of 300 coins you can transfer it.
 
-# Quest.1594 - spinning your dreams
-gtnh.quest1594.name=spinning your dreams
-gtnh.quest1594.desc=You need the spinning wheel for the fanciful thread to finally make the Potion of Flowing Spirit.
+# Quest.1594 - Spinning Your Dreams
+gtnh.quest1594.name=Spinning Your Dreams
+gtnh.quest1594.desc=You need the spinning wheel for the fanciful thread to finally make the Potion of Flowing Spirit. 600 coins are needed.
 
 # Quest.1595 - Fanciful Thread
 gtnh.quest1595.name=Fanciful Thread
@@ -6458,7 +6458,7 @@ gtnh.quest1613.desc=Garnierite, Nickel, Cobaltite, and Pentlandite, sources of N
 
 # Quest.1614 - §6§lChemical Dehydrator
 gtnh.quest1614.name=§6§lChemical Dehydrator
-gtnh.quest1614.desc=Dehydrate your grapes to raisins. Or make some Styrene, Benzene or Ethylene at MV. Either way, this device is a nice to have.
+gtnh.quest1614.desc=Dehydrate your grapes to raisins. Or make some Styrene, Benzene or Ethylene at MV. Either way, this device is a nice to have.%n%nIt also does the Drying Rack recipes as well.
 
 # Quest.1615 - §9§lSynthetic Rubber
 gtnh.quest1615.name=§9§lSynthetic Rubber
@@ -6622,7 +6622,7 @@ gtnh.quest1654.desc=Once you have a GT boiler or Large Combusion Engine with a f
 
 # Quest.1655 - §9§lOne Dragon Egg is not enough Mr Bond
 gtnh.quest1655.name=§9§lOne Dragon Egg is not enough Mr Bond
-gtnh.quest1655.desc=Dragon eggs are very rare and only drop after a dragon's death. How about I show you a way to recreate this powerful item out of a monster spawn egg?%n%nLets start with step one. Using a mob spawn egg, growth medium, and bacteria to create a bigger egg. This process needs one hour. %n%nBe sure your cleanroom is 100 percent clean or you will risk loosing the item.%n%nIf you have not been on Mars yet you have to wait until you can make mutagen for the next step. It is on the EV tab after visiting Mars.
+gtnh.quest1655.desc=Dragon eggs are very rare and only drop after a dragon's death. How about I show you a way to recreate this powerful item out of a monster spawn egg?%n%nLets start with step one. Using a mob spawn egg (your choice, you can purchase from the Coins tab if you do not have one), growth medium, and bacteria to create a bigger egg. This process needs one hour. %n%nBe sure your cleanroom is 100 percent clean or you will risk loosing the item.%n%nIf you have not been on Mars yet you have to wait until you can make mutagen for the next step. It is on the EV tab after visiting Mars.
 
 # Quest.1656 - §a§lEgg mutation
 gtnh.quest1656.name=§a§lEgg mutation
@@ -6766,7 +6766,7 @@ gtnh.quest1690.desc=Three Tier 6 lootbags give a better one = Tier 7.
 
 # Quest.1691 - §b§lPolybenzimidazole
 gtnh.quest1691.name=§b§lPolybenzimidazole
-gtnh.quest1691.desc=Polybenzimidazole is a synthetic fiber used in ZPM Hulls and in high tier solar panels. It has many steps to produce it. Let's start with the bas eingredients.%n%nFirst we make some chlorobenzene out of benzene and chlorine.
+gtnh.quest1691.desc=Polybenzimidazole is a synthetic fiber used in ZPM Hulls and in high tier solar panels. It has many steps to produce it. Let's start with the base ingredients.%n%nFirst we make some chlorobenzene out of benzene and chlorine.
 
 # Quest.1692 - §b§lNitration mixture
 gtnh.quest1692.name=§b§lNitration mixture
@@ -6818,7 +6818,7 @@ gtnh.quest1703.desc=Potassium Nitrade is made out of potassium and nitric acid.
 
 # Quest.1704 - §b§lChromium Trioxide
 gtnh.quest1704.name=§b§lChromium Trioxide
-gtnh.quest1704.desc=Chromiumtroxide is be made out of chrome and oxygen in two steps. First you make chromiumoxide and then chromiumtrioxide.
+gtnh.quest1704.desc=Chromium Trioxide is made out of chrome and oxygen in two steps. First you make Chromium Dioxide and then Chromium Trioxide.
 
 # Quest.1705 - §b§lQuantum Processor Assembly
 gtnh.quest1705.name=§b§lQuantum Processor Assembly
@@ -6974,11 +6974,11 @@ gtnh.quest1742.desc=The Moon is rich in Helium 3 because the Sun has been embedd
 
 # Quest.1743 - Saltwater and Chlorobenzene on Mars
 gtnh.quest1743.name=Saltwater and Chlorobenzene on Mars
-gtnh.quest1743.desc=Mars is rich on saltwater and chlorobenzene. If yu run low on chlorine you can centrifuge the fluids.%n%nMore Fluids and Gases can be found on (This list is subject to change due to balancing at any time!):%n%nSalt water%n%n  Moon - v low%n  Mars - Low%n  Europa - High%n%nHelium3%n%n  Moon - V.Low%n  Mercury - Low/High%n%nChlorobenzene%n%n  Mars - V.Low%n%nNitrogen%n%n  Triton - high%n  Pluto - high%n%nMethane%n%n  Titan - High%n%nEthane%n%n  Titan - Low%n%nEthylene%n%n  Triton - Low%n%nCallisto%n%n  Oxygen - Low%n%nSuper Heavy Oil%n%n  Europa - low%n  BarnardC - high%n  TCetiE - low%n%nMolten Naquadria%n%n  BarnardC - Low%n  VegaB - high%n%nMolten Naquadha%n%n  Venus - V.Low%n  Titan - low%n  Haumea - high%n%nLiquid air %n%n  Callisto- Low%n  Charon - Medium%n  BarnardE - High
+gtnh.quest1743.desc=Mars is rich on saltwater and chlorobenzene. If yu run low on chlorine you can centrifuge the fluids.%n%nMore Fluids and Gases can be found on (This list is subject to change due to balancing at any time!):%n%nSalt water%n%n  Moon - v low%n  Mars - Low%n  Europa - High%n  Ross 128ba - High%n%nHelium3%n%n  Moon - V.Low%n  Mercury - Low/High%n  Ross 128ba - High%n%nChlorobenzene%n%n  Mars - V.Low%n%nNitrogen%n%n  Triton - high%n  Pluto - high%n%nMethane%n%n  Titan - High%n%nEthane%n%n  Titan - Low%n%nEthylene%n%n  Triton - Low%n%nOxygen%n%n  Callisto - Low%n%nSuper Heavy Oil%n%n  Europa - low%n  BarnardC - high%n  TCetiE - low%n%nMolten Naquadria%n%n  BarnardC - Low%n  VegaB - high%n%nMolten Naquadha%n%n  Venus - V.Low%n  Titan - low%n  Haumea - high%n%nLiquid air %n%n  Callisto- Low%n  Charon - Medium%n  BarnardE - High%n%nVery Heavy Oil%n%n  Ross 128b - Medium%n%nLava%n%n  Ross 128b - High%n%nRefinery Gas%n%n  Ross 128b - Medium
 
 # Quest.1744 - §6§lChemical lesson part two
 gtnh.quest1744.name=§6§lChemical lesson part two
-gtnh.quest1744.desc=More advanced recipes need an mv chemical reactor. Lv recipes are twice as fast done.%n%nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.
+gtnh.quest1744.desc=More advanced recipes need an MV chemical reactor. LV recipes will complete twice as fast.%n%nHint: You can use the battery slot and other extra slot in the GUI to store unused configuration circuits.
 
 # Quest.1745 - Welcome to OpenComputers!
 gtnh.quest1745.name=Welcome to OpenComputers!
@@ -7126,27 +7126,27 @@ gtnh.quest1780.desc=Olive trees can't be find in the overworld so the best way w
 
 # Quest.1781 - Traveller's Gear
 gtnh.quest1781.name=Traveller's Gear
-gtnh.quest1781.desc=The goggles, wings, shoes, vest, belt and boots it self are not realy special. You can zoom with the googles, have a extra inventory slot with the belt, stepup assistent with the shoe, jump boost with the wings and faster swimming ability with the vest. You get protction like with normal armor too.%nLater on you can upgrade your items to becomes more powerful ones.
+gtnh.quest1781.desc=The goggles, wings, shoes, vest, belt and boots itself are not really special. %n%nYou can zoom with the googles, have a extra inventory hotbar with the belt, step-up assist with the shoes, jump boost with the wings and faster swimming ability with the vest.%n%nYou get protection like with normal armor too.%n%nLater on you can upgrade your items to become more powerful ones.
 
 # Quest.1782 - Traveller's Goggles upgrades
 gtnh.quest1782.name=Traveller's Goggles upgrades
-gtnh.quest1782.desc=Nightvision is very usefull. If you combining your Goggles with a night vision potion, a golden carrot and a lighter inside the Tinkers Table you get Night Vison Goggles.%n%nHint:%nAutorepair can be added to the goggles aswell.%nEvery Armor have 3 slots for modofication.
+gtnh.quest1782.desc=Nightvision is very useful. If you combine your Goggles with a night vision potion (3:00, make sure to make 3 at a time), a golden carrot, and a lighter inside the Tinkers Crafting Station you get Night Vison Goggles. Place the Goggles in the Center of the Crafting Station.%n%nHint:%nAutorepair can be added to the goggles as well.%n%nEvery Armor have 3 slots for modofication.
 
 # Quest.1783 - Traveller's Vest upgrades
 gtnh.quest1783.name=Traveller's Vest upgrades
-gtnh.quest1783.desc=You vest can be equiped with a few modification like perfect doge and stealth.%nPerfect doge mean you're harder to hit and can be stacked up to 3 times.%nStealth turn you invisible while sneaking.%n%nHint:%nAutorepair can be added to the vest aswell.%nEvery Armor part have 3 Slots for modification.
+gtnh.quest1783.desc=Your vest can be equipped with a few modification like perfect dodge and stealth.%nPerfect dodge mean you're harder to hit and can be stacked up to 3 times.%nStealth turns you invisible while sneaking. Place the vest in the center of a Tinker's Crafting Station.%n%nHint:%nAutorepair can be added to the vest as well.%nEvery Armor part has 3 Slots for modification.
 
 # Quest.1784 - Traveller's Wings upgrades
 gtnh.quest1784.name=Traveller's Wings upgrades
-gtnh.quest1784.desc=Your wings can be equiped with a few modification feather falling and double jump.%nFeather fall means allow you to glide down slowly in air.%nDouble Jump means you jump while in the air to jump again.%n%nHint:%nAutorepair can be added to the wings aswell.%nEvery Armor part have 3 Slots for modification.
+gtnh.quest1784.desc=Your wings can be equiped with a few modifications such as feather falling and double jump. Place the wings in the center of a Crafting Station.%n%nFeather fall allows you to glide down slowly in air.%nDouble Jump means you jump while in the air to jump again.%n%nHint:%nAutorepair can be added to the wings as well.%nEvery Armor part have 3 Slots for modification.
 
 # Quest.1785 - Traveller's Gloves upgrades
 gtnh.quest1785.name=Traveller's Gloves upgrades
-gtnh.quest1785.desc=Putting redstone on my weapon makes it faster. So why don't I put it on my hands directly!%nIt will be increases the mining speed.%n%nHint:%nEvery Armor part have 3 Slots for modification.%nGloves have 4.
+gtnh.quest1785.desc=Putting redstone on my weapon makes it faster. So why don't I put it on my hands directly!%nThis will increase your mining speed.%n%nHint:%nEvery Armor part have 3 Slots for modification.%nGloves have 5.
 
 # Quest.1786 - Traveller's Shoes upgrades
 gtnh.quest1786.name=Traveller's Shoes upgrades
-gtnh.quest1786.desc=You shoes can be equiped with a few modification like water walk, double jump, lead boots or slimy shoes.%nWater walk  mean to allows you to walk over water.%nDouble jump means to jump while in the air to jump again.%nLead Boots mean to allows you to walk under water, prevents you from swimming and Blub.%nSlimy Shoes means to dampens the fall impact and reduces fall damage that you taken.%n%nHint:%nAutorepair can be added to the shoes aswell.%nEvery Armor part have 3 Slots for modification.
+gtnh.quest1786.desc=Your shoes can be equipped with a few modifications like water walk, double jump, lead boots or slimy shoes. Place the shoes in the middle of a Crafting Station.%n%nWater walk allows you to walk over water.%nDouble jump allows you to jump while in the air to jump again.%nLead Boots allows you to walk under water, prevents you from swimming, and may cause excessive Blub. Bring along potions of water breathing.%nSlimy Shoes reduces fall damage.%n%nHint:%nAutorepair can be added to the shoes aswell.%nEvery Armor part have 3 Slots for modification.
 
 # Quest.1787 - §6§lData Reader
 gtnh.quest1787.name=§6§lData Reader
@@ -7954,7 +7954,7 @@ gtnh.quest1987.desc=Drawer upgrades are different than barrel upgrades. First yo
 
 # Quest.1988 - §3§lYour mom says to upgrade your drawers
 gtnh.quest1988.name=§3§lYour mom says to upgrade your drawers
-gtnh.quest1988.desc=There are many tiers of upgrades for storage drawers. Make some iron, gold and obsidian tier upgrades and I'll give you some of the special purpose upgrades to experiment with in your base. Check NEI for more options and Emerald and Diamond upgrades.%n%n§4To remove upgrades, shift-right-click with an empty hand.
+gtnh.quest1988.desc=There are many tiers of upgrades for storage drawers. Make some iron and gold tier upgrades and I'll give you some of the special purpose upgrades to experiment with in your base. Check NEI for more options such as Obsidian, Emerald, and Diamond upgrades.%n%n§4To remove upgrades, shift-right-click with an empty hand.
 
 # Quest.1989 - Machine Inventory Manager
 gtnh.quest1989.name=Machine Inventory Manager
@@ -8030,7 +8030,7 @@ gtnh.quest2006.desc=Welcome to TecTech! The pinnacle of absolute high-tier machi
 
 # Quest.2007 - Quantum Computer
 gtnh.quest2007.name=Quantum Computer
-gtnh.quest2007.desc=One of the more incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the giant Research Station. First, you'll need a few things, the Quantum Computer itself, a huge energy hatch several amps of UV or above, this is because as Computer Racks, that'll be explained later on down here, will continuously increase the demand of energy input for every new Computer Rack that you add on. The Multiblock also consumes a large amount of energy by itself. Another important factor is ONLY turn on the Quantum Computer once you have the desired recipes for the Research Station ready to avoid excess energy loss. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Machine Blueprint, this will give you a hefty amount of information and various ghost-like blocks that'll show where casings and or hatches should go.%n%nComputation:%nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. It will include the following information%nBase computation: %nAfter overclocking: <numbers, same as above unless you specially overclock it>%nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>%n%nComputer Racks:%nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve above 55 percent heat capacity or 5500 heat capacity, however, the Computer Racks may melt or explode above 5600 or 6000 heat. In order to precisely find out how much heat, you'll need a Parametrizer, which will be explained later. Now that you've understood one of the more basic concepts and safety of handling within the Computer Racks (scan the Racks before you run the Quantum Computer!), what are the more optimal setups for your Quantum Computer? Do keep in mind that even a 128 min Computation / Sec setup can complete practically 3/4th's of the recipes within the Research Station. In this case, a 4 Computer Rack setup with 1 Advanced Heat Vent and 3 Wetwareprocessors (LuV) will generate 72 Computation every second; leading up to a maximum of 288 Computation every second at just 5 amps of UV (524,288 EU/t) with only 4 Computer Racks required. This is a rather minimal setup compared to some of the more complicated setups.%n%nAnd most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Scan them before anything else! Otherwise, you're going to get an explosion.%n%nUncertainty Resolver%nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schr�dinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer.%n%nNow that you understand some of this, it is time to build the Computer! You'll need to gather quite a lot of resources at first.
+gtnh.quest2007.desc=One of the more incredibly complicated machines, this will serve as the main structure for your "Computation" generation for the giant Research Station. %n%nFirst, you'll need a few things, the Quantum Computer itself, a huge energy hatch several amps of UV or above, this is because as Computer Racks, that'll be explained later on down here, will continuously increase the demand of energy input for every new Computer Rack that you add on. %n%nThe Multiblock also consumes a large amount of energy by itself. Another important factor is ONLY turn on the Quantum Computer once you have the desired recipes for the Research Station ready to avoid excess energy loss. In order for you to build this absolute monster, you'll need to place down the Quantum Computer at least 1 block above the surface/ground and use the Multiblock Machine Blueprint, this will give you a hefty amount of information and various ghost-like blocks that'll show where casings and or hatches should go.%n%nComputation:%nComputation is generated every second and is based on the tier of your circuit. There are, however, differences in between how much computation is generated, even with the same exact tier. For instance, you could use a Master Quantum Computer (Quantum Circuit Series / LuV) or a Wetwareprocessor (Wetware Circuit Series / LuV) which will give you more Computation even though they are of the same tier. If you wish to find out exactly how much Computation a circuit gives; place down a Computer Rack, put a circuit inside and scan it. %n%nIt will include the following information.%nBase computation: %nAfter overclocking: <numbers, same as above unless you specially overclock it>%nHeat Accumulated: <numbers, based on circuits and heat vents, keep a watchful eye on this part as it's extremely important>%n%nComputer Racks:%nThe main component within the multiblock to generate Computation. In order to achieve this, you will need to input some circuits and heat vents; Advanced Heat Vents work best. It is critical that you use Heat Vents to prevent the heat from reaching a catastrophic point, 55 percent or above should be avoided for safety reasons. Technically, you could achieve above 55 percent heat capacity or 5500 heat capacity, however, the Computer Racks may melt or explode above 5600 or 6000 heat. In order to precisely find out how much heat, you'll need a Parametrizer, which will be explained later. Now that you've understood one of the more basic concepts and safety of handling within the Computer Racks (scan the Racks before you run the Quantum Computer!), what are the more optimal setups for your Quantum Computer? Do keep in mind that even a 128 min Computation / Sec setup can complete practically 3/4th's of the recipes within the Research Station. In this case, a 4 Computer Rack setup with 1 Advanced Heat Vent and 3 Wetwareprocessors (LuV) will generate 72 Computation every second; leading up to a maximum of 288 Computation every second at just 5 amps of UV (524,288 EU/t) with only 4 Computer Racks required. This is a rather minimal setup compared to some of the more complicated setups.%n%nAnd most importantly: DO NOT WRENCH THE COMPUTER RACKS IF THEY HAVE HEAT IN THEM. Scan them before anything else! Otherwise, you're going to get an explosion.%n%nUncertainty Resolver%nMuch like a puzzle-solving simulation, it is rather complicated to explain how to solve it, but it's often best just to retrace or undo certain actions and hope for the best. Sometimes, the Schr�dinger Status will require some puzzle solving again after a period of time. This is random and incredibly frustrating especially during operations being done between the Research Station and Quantum Computer(s), so it is important to constantly check the Uncertainty Resolver before you start operations on your Computer.%n%nNow that you understand some of this, it is time to build the Computer! You'll need to gather quite a lot of resources at first.
 
 # Quest.2008 - Research Station
 gtnh.quest2008.name=Research Station
@@ -8184,8 +8184,8 @@ gtnh.quest2044.desc=For someone who needs to blast a truly *ridiculous* amount o
 gtnh.quest2045.name=§6§lFrostbite!
 gtnh.quest2045.desc=This mega vac freezer can handle up to 256 items.
 
-# Quest.2046 - A better fluid pie
-gtnh.quest2046.name=A better fluid pie
+# Quest.2046 - A better fluid pipe
+gtnh.quest2046.name=A better fluid pipe
 gtnh.quest2046.desc=Now that you have lead you can convert your bronze pipes to potin pipes with higher capacties.
 
 # Quest.2047 - §6§lBulk Programming
@@ -8330,7 +8330,7 @@ gtnh.quest2081.desc=Binnie's Genetics mod will allow you to pick and chose trait
 
 # Quest.2082 - Making bees more comfortable
 gtnh.quest2082.name=Making bees more comfortable
-gtnh.quest2082.desc=The acclimatiser is a key machine for breeding your bees.  With lots of energy and the appropriate ingredients you can toughen your bees to thrive anywhere. However, even with climate hardiness your bees still won't produce special items unless they are in their favorite climate. Along with the bee, put in these items to adjust the bee's traits:%n%nsnowball - More temp tolerance%nsand - More dry tolerance%nwater - More wet tolerance%n%nFor water, it is best to use wax capsules made from beeswax, the acclimatiser doesn't return cells.
+gtnh.quest2082.desc=The acclimatiser is a key machine for breeding your bees.  With lots of energy and the appropriate ingredients you can toughen your bees to thrive anywhere. Recommend using an EnderIO capacitor to power this device. However, even with climate hardiness your bees still won't produce special items unless they are in their favorite climate. Along with the bee, put in these items to adjust the bee's traits:%n%nsnowball - More cold tolerance%nlava - More heat tolerance%nsand - More dry tolerance%nwater - More wet tolerance%n%nFor water, it is best to use wax capsules made from beeswax; for lava, use refactory wax capsules made from refactory wax. The acclimatiser doesn't return capsules or cells.
 
 # Quest.2083 - Such pretty leaves...
 gtnh.quest2083.name=Such pretty leaves...
@@ -8378,7 +8378,7 @@ gtnh.quest2093.desc=Supporting circuit boards that can hold 4 electron tubes, th
 
 # Quest.2094 - X-Men, or should I say X-Bee?
 gtnh.quest2094.name=X-Men, or should I say X-Bee?
-gtnh.quest2094.desc=The Mutator can vastly accelerate genetic mutations, even allowing those ultra rare bees to be bred. Items inserted into the Mutator control how much mutation it causes.%n%nSoul Sand - 50 percent increase%nEnder Pearl - 100 percent increase%nEye of Ender - 300 percent increase%nNether star - 1000 percent increase
+gtnh.quest2094.desc=The Mutator can vastly accelerate genetic mutations, even allowing those ultra rare bees to be bred. Items inserted into the Mutator control how much mutation it causes.%n%nSoul Sand - 50 percent increase%nEnder Pearl - 100 percent increase%nEye of Ender - 300 percent increase
 
 # Quest.2095 - Genepool
 gtnh.quest2095.name=Genepool
@@ -8404,9 +8404,9 @@ gtnh.quest2099.desc=Discovered genes are logged into the Gene Database. This han
 gtnh.quest2100.name=Lab Stand
 gtnh.quest2100.desc=The Lab Stand is a block on which an Apiarist Database, Arborist Database, Botanist Database or Gene Database can be placed by right clicking on the placed stand with the database, attaching it and allowing the database to be accessed by right clicking on the stand.
 
-# Quest.2101 - Combined analyzers
-gtnh.quest2101.name=Combined analyzers
-gtnh.quest2101.desc=Tired of carrying around seperate bee, tree, and butterfly analyzers? This combined tool will do all 3.
+# Quest.2101 - Orchard Apple
+gtnh.quest2101.name=Orchard Apple
+gtnh.quest2101.desc=The Orchard Apple tree has a couple of nice traits. The Faster maturity trait means it will turn from sapling to tree quickly. The Higher yield is the best yield from any Forestry tree. Breed the Orchard Apple from an Apple Oak and Hill Cherry.%n%nIf you want Fastest maturity for quick tree farms, you can breed Golden Raspberry. Try and figure out the breeding chain yourself.
 
 # Quest.2102 - Registry
 gtnh.quest2102.name=Registry
@@ -8530,7 +8530,7 @@ gtnh.quest2131.desc=Lemon trees are great for maximum fruit juice production. Br
 
 # Quest.2132 - Plum
 gtnh.quest2132.name=Plum
-gtnh.quest2132.desc=The Plum is a great multipurpose tree.  It has optimal yield and its fruit produces mulch with the highest chance. It also has decent sappiness for biomass production. Breed it by mating Hill Cherry with Lemon.
+gtnh.quest2132.desc=The Plum is a great multipurpose tree.  It has High yield and its fruit produces mulch with the highest chance. It also has decent sappiness for biomass production. Breed it by mating Hill Cherry with Lemon.
 
 # Quest.2133 - Desert Acacia
 gtnh.quest2133.name=Desert Acacia
@@ -8582,7 +8582,7 @@ gtnh.quest2144.desc=If you want to pass multiple amps through your cleanroom wal
 
 # Quest.2145 - §1§lE_TOO_MANY_KEYS
 gtnh.quest2145.name=§1§lE_TOO_MANY_KEYS
-gtnh.quest2145.desc=ERROR: Too many keys to fit a 104 key keyboard. You will need to redefine your keymap so that you can use things effectively.  Here is a list of keys you should deconflict.%n%nAdventure Backpacks%nB - Inventory%nV - Toggle%nBackpacks%nG - Open Backpack (sneak-G to wear/remove backpack and set filtering)%nDark Steel Armor%nApostrophe - Night Vision%nGameplay%nR - Draw Weapons%nZ - Special (cycle arrows on M&B quiver)%nNONE - Drop Item (Who wants to throw a backpack into lava?)%nIC2%nC - Side Invetory Key%nJourneymap%nHome - Make Waypoint%nJ - Open Map%n= - Zoom In (works on minimap too)%n- - Zoom Out (same)%nMisc%nH - Toggle Hover Harness%nF - Toggle Wand Focus%nTC Node Tracker%nI - Node List (must be scanned, goggles allow compass)%nX - Zoom key (handy for checking on distant ores on a mountain)%nTinker's Construct%nDelete - Traveller's Belt Swap Hotbar
+gtnh.quest2145.desc=ERROR: Too many keys to fit a 104 key keyboard. You will need to redefine your keymap so that you can use things effectively.  Here is a list of keys you should deconflict. If messing with the keymap corrupts your config file, it may cause crashes. If you get crashes, make sure your options.txt file is fixed.%n%nAdventure Backpacks%nB - Inventory%nV - Toggle%n%nBackpacks%nG - Open Backpack (sneak-G to wear/remove backpack and set filtering)%n%nDark Steel Armor%nApostrophe - Night Vision%n%nGameplay%nR - Draw Weapons%nZ - Special (cycle arrows on M&B quiver)%nNONE - Drop Item (Who wants to throw a backpack into lava?)%n%nIC2%nC - Side Invetory Key%n%nJourneymap%nHome - Make Waypoint%nJ - Open Map%n= - Zoom In (works on minimap too)%n- - Zoom Out (same)%n%nMisc%nH - Toggle Hover Harness%nF - Toggle Wand Focus%n%nTC Node Tracker%nI - Node List (must be scanned, goggles allow compass)%nX - Zoom key (handy for checking on distant ores on a mountain)%n%nTinker's Construct%nDelete - Traveller's Belt Swap Hotbar
 
 # Quest.2146 - BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
 gtnh.quest2146.name=BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
@@ -8782,7 +8782,7 @@ gtnh.quest2194.desc=Nickel bees provide a pretty useful resource. You'll need a 
 
 # Quest.2195 - Zinc
 gtnh.quest2195.name=Zinc
-gtnh.quest2195.desc=Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small change of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.
+gtnh.quest2195.desc=Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small chance of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.
 
 # Quest.2196 - Lead
 gtnh.quest2196.name=Lead
@@ -8846,7 +8846,7 @@ gtnh.quest2210.desc=Nuclear materials cause two types of radiation effects. One 
 
 # Quest.2211 - Basic Bee Stats
 gtnh.quest2211.name=Basic Bee Stats
-gtnh.quest2211.desc=There are a couple of basic bees that have good stats you will want to breed into your breeding stock.%n%nCave Dwelling - Rocky - This lets you put the bee housing underneath or inside. Handy for putting a chest on top for products.%n%nNocturnal - Rocky - This keeps your bees working all night long, and in the dark.%n%nRain Tolerant - Water - Keep producing even when it is raining.%n%nHigh Fertility - Wintry - For breeding purposes, you want the maximum number of drones produced.
+gtnh.quest2211.desc=There are a couple of basic bees that have good stats you will want to breed into your breeding stock.%n%nCave Dwelling - Rocky - This lets you put the bee housing underneath or inside. Handy for putting a chest on top for products.%n%nNocturnal - Rocky - This keeps your bees working all night long, and in the dark.%n%nRain Tolerant - Water - Keep producing even when it is raining.%n%nHigh Fertility - Wintry - For breeding purposes, you want the maximum number of drones produced.%n%nReminder - Specialty products from bees require Jubilant state. That means the bee is in its §lNATURAL§r preferred climate. So it must not be in a biome it can tolerate due to temp/humidity improvements. For example, a Salt bee needs Warm/Normal climate. Even if it has +- humidity and temp, it will not produce its Salt comb unless it is in a Warm/Normal climate. Use Alveary upgrades to make sure it is in its preferred temp/humidity.
 
 # Quest.2212 - Arcane
 gtnh.quest2212.name=Arcane
@@ -9106,7 +9106,7 @@ gtnh.quest2275.desc=Ghastly bees will spawn Ghasts, so beeee careful. Their spec
 
 # Quest.2276 - Smouldering
 gtnh.quest2276.name=Smouldering
-gtnh.quest2276.desc=Smouldering drones will spawn blazes, and make Blaze Rods as their specialty. Breed the drones with your template princesses so you can prevent the harmful effects from destroying your base. Also, their Hellish temperature and Normal humidity requirements are interesting - use a Climate Acclimator or other methods to adjust the biome. Must be bred in the Nether. Breed them from Ghastly and Hateful.
+gtnh.quest2276.desc=Smouldering drones will spawn blazes, and make Blaze Rods as their specialty. Breed the drones with your template princesses so you can prevent the harmful effects from destroying your base. Also, their Hellish temperature and Normal humidity requirements are interesting - use a Acclimatiser from Genetics to make the bee tolerant or other methods to adjust the biome. Must be bred in the Nether. Breed them from Ghastly and Hateful.%n%nTo get their Blaze Rod drop, however, you'll need to place them in a biome that matches their default requirements. Sorry.
 
 # Quest.2277 - Refined
 gtnh.quest2277.name=Refined
@@ -9182,11 +9182,11 @@ gtnh.quest2294.desc=The Rocket Engine is a very dirty device which generate powe
 
 # Quest.2295 - §l§6§lGetting your first Platinum
 gtnh.quest2295.name=§l§6§lGetting your first Platinum
-gtnh.quest2295.desc=Efficient Platinum processing is quite complicated. But for now, we can just smelt it directly into nuggets. This might not be the most efficient route to take, but it is enough for what we want to do next.
+gtnh.quest2295.desc=Efficient Platinum processing is quite complicated. But for now, we can just smelt it directly into nuggets. This might not be the most efficient route to take, but it is enough for what we want to do next.%n%nAt this tier, your best source of platinum is Nickel ores from the Twilight Forest, or maybe Endstone Dust if you've managed to survive the End already.
 
 # Quest.2296 - §a§lPlatinum Processing, Step 4
 gtnh.quest2296.name=§a§lPlatinum Processing, Step 4
-gtnh.quest2296.desc=Platinum Cloride? You promised Pure Platinum Metal at a much higher efficiency than just smelting it! No worries, just react the Platinum Cloride with Calcium and you are done. The calcium and clorine can be recycled aswell!
+gtnh.quest2296.desc=Platinum Chloride? You promised Pure Platinum Metal at a much higher efficiency than just smelting it! No worries, just react the Platinum Chloride with Calcium and you are done. The calcium and chlorine can be recycled as well!
 
 # Quest.2297 - §a§lPlatinum Processing, Step 3
 gtnh.quest2297.name=§a§lPlatinum Processing, Step 3
@@ -9202,30 +9202,30 @@ gtnh.quest2299.desc=Now, you got all the Chemicals you need, for now. So start w
 
 # Quest.2300 - §a§lPlatinum Processing, Step 1
 gtnh.quest2300.name=§a§lPlatinum Processing, Step 1
-gtnh.quest2300.desc=Aqua Regia, the water of the Kings, is a chemical that will melt down Platinum. The perfect solvent for Platinum processing. Get a few Cells of it.
+gtnh.quest2300.desc=Aqua Regia, the water of the Kings, is a chemical that will dissolve Platinum. The perfect solvent for Platinum processing. Get a few Cells of it.
 
 # Quest.2301 - §a§lPlatinum Processing, Step 2a
 gtnh.quest2301.name=§a§lPlatinum Processing, Step 2a
-gtnh.quest2301.desc=Ammonium Chloride is a Chemical that is used to fall out the dissolved Platinum in a purer Form, you will need some of this.
+gtnh.quest2301.desc=Ammonium Chloride is a Chemical that is used to precipitate the dissolved Platinum in a purer Form, you will need some of this.
 
 # Quest.2302 - §a§lBack to Step 1
 gtnh.quest2302.name=§a§lBack to Step 1
-gtnh.quest2302.desc=The refined Platinum Salt can be heated to evaporate the last remaining Impurities. Now you are left with Platinum Metalic Poweder again, which you can dissolve again.
+gtnh.quest2302.desc=The refined Platinum Salt can be heated to evaporate the last remaining Impurities. Now you are left with Platinum Metallic Powder again, which you can dissolve again.%n%nAdd an output hatch to the bottom layer of your EBF to capture the Chlorine to reuse.
 
 # Quest.2303 - §b§lPalladium Processing
 gtnh.quest2303.name=§b§lPalladium Processing
-gtnh.quest2303.desc=Palladium is a rather usefull Platinum Group Metal, which can be made easily. But, you will need quite a lot of it, so this Quest will help you figuring out how to process it propperly.%nFirst, you will need to process half of your Palladium Enriched Ammonia to Palladium Salt Dust.
+gtnh.quest2303.desc=Palladium is a rather useful Platinum Group Metal, which can be made easily. %n%nBut, you will need quite a lot of it, so this Quest will help you figure out how to process it properly.%n%nFirst, you will need to process §h§hhalf§m§r of your Palladium Enriched Ammonia to Palladium Salt Dust.
 
-# Quest.2304 - §b§lPlatin Group Processing - All the other Metals
-gtnh.quest2304.name=§b§lPlatin Group Processing - All the other Metals
-gtnh.quest2304.desc=Since you have processed Platinum in a better way until now, you should have a lot of Sludge Dust laying around. We are here to process it and gain all the different products from it. But to do so, we will need some chemicals, so gather a bit of molten Potassium Disulfate.
+# Quest.2304 - §b§lPlatinum Group Processing - All the other Metals
+gtnh.quest2304.name=§b§lPlatinum Group Processing - All the other Metals
+gtnh.quest2304.desc=Since you have processed Platinum in a simpler way until now, you should have a lot of Sludge Dust laying around. %n%nWe are here to process it and gain all the different products from it. But to do so, we will need some chemicals, so gather a bit of molten Potassium Disulfate.
 
-# Quest.2305 - §b§lFirst Seperaton - Rhodium
-gtnh.quest2305.name=§b§lFirst Seperaton - Rhodium
-gtnh.quest2305.desc=The Platinum Group processing is a step wise processing. All byproducts will be achived with this chain, that's why crafting on demand is not recommended, but rather having a processing factory running all the time.%nAs a first step, we will spit apart the Rhodium from the other metals, it will evaporate into a Gas Compound, that you can gather from your EBF. (NOTE: USE AN OUTPUT HATCH AT THE §l§nBOTTOM!§r)
+# Quest.2305 - §b§lFirst Separation - Rhodium
+gtnh.quest2305.name=§b§lFirst Separation - Rhodium
+gtnh.quest2305.desc=The Platinum Group processing is a step wise processing. %n%nAll byproducts will be achieved with this chain, that's why crafting on demand is not recommended, but rather having a processing factory running all the time.%n%nAs a first step, we will split apart the Rhodium from the other metals - it will evaporate into a Gas Compound, that you can gather from your EBF. %n%nNOTE: USE AN OUTPUT HATCH AT THE §l§nBOTTOM!§r
 
-# Quest.2306 - §b§lSecond Seperation - Ruthenium
-gtnh.quest2306.name=§b§lSecond Seperation - Ruthenium
+# Quest.2306 - §b§lSecond Separation - Ruthenium
+gtnh.quest2306.name=§b§lSecond Separation - Ruthenium
 gtnh.quest2306.desc=For the next Step in the Process, we will split up the Ruthenium from our Sludge. That process is a bit more complicated than you might think, you will need quite a lot of Saltpeter for this chemical recipe.
 
 # Quest.2307 - §b§lRe-Solving the purity issue
@@ -9238,39 +9238,39 @@ gtnh.quest2308.desc=Now, you got your Palladium Salt, but a Salt wont help you m
 
 # Quest.2309 - §b§lAnother Acid to worry about!
 gtnh.quest2309.name=§b§lAnother Acid to worry about!
-gtnh.quest2309.desc=Formic Acid, also known as methanoic acid, is a rather simple organic acid. We will need it for the Palladium process, so, dont be shy make tons of it! The Sodium Sulfate can be recycled.
+gtnh.quest2309.desc=Formic Acid, also known as methanoic acid, is a rather simple organic acid. We will need it for the Palladium process, so, dont be shy, make tons of it! The Sodium Sulfate can be recycled.
 
 # Quest.2310 - §b§lPalladium
 gtnh.quest2310.name=§b§lPalladium
-gtnh.quest2310.desc=First, you need to recrystallise the Palladium Metalic Power with Palladium Enriched Ammonia, to Palladiumnitrate, also known as Reprecipated Palladium. Then you add Formic Acid to that mixture and recive your pure Palladium. You can either use it for Tinker Weapons or you keep it for later.
+gtnh.quest2310.desc=First, you need to recrystallise the Palladium Metallic Powder with Palladium Enriched Ammonia, to Palladiumnitrate, also known as Reprecipated Palladium. %n%nThen you add Formic Acid to that mixture and recive your pure Palladium. %n%nYou can either use it for Tinker Weapons or you keep it for later.
 
 # Quest.2311 - §b§lRoss128b Trip
 gtnh.quest2311.name=§b§lRoss128b Trip
 gtnh.quest2311.desc=Ross128b is a lovely Planet, that does not contain Monsters. It offers a lot of new Veins and rumors say, there would be ruins of ancient civilisations that left a few Machines there. You can find this Planet in the bottom of your Galacticraft Map.
 
-# Quest.2312 - §b§lThird Seperation - Osmium
-gtnh.quest2312.name=§b§lThird Seperation - Osmium
+# Quest.2312 - §b§lThird Separation - Osmium
+gtnh.quest2312.name=§b§lThird Separation - Osmium
 gtnh.quest2312.desc=Osmium extraction is quite tricky. You will need heat and a Strong Acid to extract it from the residue, but we are almost finished. The next seperation is the final one.
 
-# Quest.2313 - §b§lFinal Seperation - Iridium
-gtnh.quest2313.name=§b§lFinal Seperation - Iridium
+# Quest.2313 - §b§lFinal Separation - Iridium
+gtnh.quest2313.name=§b§lFinal Separation - Iridium
 gtnh.quest2313.desc=Seperating Iridium from the rather useless Materials is quite easy. Just heat it in the Blast Furnace and you're done with this step. The Sludge can be centrifuged into Gold and SiO2.
 
 # Quest.2314 - §b§lPossibly the Longest Quest in the Platinum Chain
 gtnh.quest2314.name=§b§lPossibly the Longest Quest in the Platinum Chain
-gtnh.quest2314.desc=As the title states it, this quest might be the longest solo Quest. But fear not, child! All you need to do, is dissolving the Sodium Ruthenate in chlorine, heat up the sollution and distill it into Ruthenium Tetroxide. You can either use the Fluid Heater, or the Oil Cracker for the heat up step. The Oil Cracker is more efficient to use, but its also larger and slower. Then place the Ruthenium Tetroxide in a Fluid Solifier to yield the dust. Comprende? Good.
+gtnh.quest2314.desc=As the title states, this quest might be the longest solo Quest. %n%nBut fear not, child! %n%nAll you need to do is %n- Dissolve the Sodium Ruthenate in chlorine%n- Heat up the solution%n- Distill it into Ruthenium Tetroxide%n%nEasy!%n%nYou can either use the Fluid Heater, or the Oil Cracker for the heat up step. The Oil Cracker is more efficient to use, but it's also larger and slower. %n%nThen place the Ruthenium Tetroxide in a Fluid Solifier to yield the dust. %n%nComprende? Good.
 
 # Quest.2315 - §b§lClass, Concentrate!
 gtnh.quest2315.name=§b§lClass, Concentrate!
-gtnh.quest2315.desc=You Acidic Osmium sollution is way too weak to fell out Osmium. Go and distill it, so you gain a more concentrated variant of it.
+gtnh.quest2315.desc=Your Acidic Osmium solution is way too weak to precipitate out Osmium. Go and distill it, so you gain a more concentrated variant of it.
 
 # Quest.2316 - §b§lDissolve Ir
 gtnh.quest2316.name=§b§lDissolve Ir
-gtnh.quest2316.desc=Dissolving impure Iridium yields you with some rather intresting chemical.
+gtnh.quest2316.desc=Dissolving impure Iridium yields you a rather interesting chemical.
 
 # Quest.2317 - §b§lFinally Osmium
 gtnh.quest2317.name=§b§lFinally Osmium
-gtnh.quest2317.desc=Since you have concentrated your sollution, its now time to gather the solid Osmium from it. Go Ahead and mix it with Hydrochloric Acid.
+gtnh.quest2317.desc=Since you have concentrated your solution, it's now time to gather the solid Osmium from it. Go Ahead and mix it with Hydrochloric Acid.
 
 # Quest.2318 - §b§lRuthenium
 gtnh.quest2318.name=§b§lRuthenium
@@ -9282,7 +9282,7 @@ gtnh.quest2319.desc=By combining your Acidic Iridium Concentrate with Ammonia Ch
 
 # Quest.2320 - §6§lTower of Babylon
 gtnh.quest2320.name=§6§lTower of Babylon
-gtnh.quest2320.desc=Well what might happen if you combine 64 Distillation Tower in one...? You know... you get a 61 Blocks tall Multiblock%n%nThis can handle up to 256 Recipes at once.
+gtnh.quest2320.desc=Well what might happen if you combine 64 Distillation Towers in one...? You know... you get a 61 Blocks tall Multiblock%n%nThis can handle up to 256 Recipes at once.
 
 # Quest.2321 - §b§lIridium
 gtnh.quest2321.name=§b§lIridium
@@ -9294,15 +9294,15 @@ gtnh.quest2322.desc=The Rhodium Sulfate you got there... its quite impure... you
 
 # Quest.2323 - §a§b§lBut.. this is expensive!
 gtnh.quest2323.name=§a§b§lBut.. this is expensive!
-gtnh.quest2323.desc=Gathering Zinc might not have been a pleasant task in the past, but here, its just used as a Catalyst, so you will regain all of it.
+gtnh.quest2323.desc=Gathering Zinc might not have been a pleasant task in the past, but here, it's just used as a Catalyst, so you will regain all of it.
 
 # Quest.2324 - §b§lAnother one bites the Salt
 gtnh.quest2324.name=§b§lAnother one bites the Salt
-gtnh.quest2324.desc=Hey why you are looking at me §othat§r way? You aint finished yet. Get more Chlorine and Salt, to process your Rhodium
+gtnh.quest2324.desc=Hey why you are looking at me §othat§r way? You ain't finished yet. Get more Chlorine and Salt, to process your Rhodium.
 
 # Quest.2325 - §b§lSalt can't be stored in Water?
 gtnh.quest2325.name=§b§lSalt can't be stored in Water?
-gtnh.quest2325.desc=First, dissolve the Rhodium Salt in Water in a mixer, then react the sollutio.
+gtnh.quest2325.desc=First, dissolve the Rhodium Salt in Water in a mixer, then react the solution with Sodium Nitrate.
 
 # Quest.2326 - §b§lSift it goooood
 gtnh.quest2326.name=§b§lSift it goooood
@@ -9310,39 +9310,39 @@ gtnh.quest2326.desc=To Gather a purer form of Rhodium sludge, you need to Sift t
 
 # Quest.2327 - §b§lAlmost done with Rhodium
 gtnh.quest2327.name=§b§lAlmost done with Rhodium
-gtnh.quest2327.desc=Place your sollution in your Chemical reactor to heat it while it spins. That way you get a dust out of your Sollution, 100% lump free!
+gtnh.quest2327.desc=Place your solution in your Chemical Reactor to heat it while it spins. That way you get a dust out of your Solution, 100% lump free!
 
 # Quest.2328 - §b§lRhodium
 gtnh.quest2328.name=§b§lRhodium
-gtnh.quest2328.desc=Rhodium is the most processing intensive, but also one of the most common elements in the Platinum Sludge. Get a lot of it, you will need it.
+gtnh.quest2328.desc=Rhodium is the most processing intensive, but also one of the most useful elements in the Platinum Sludge. Get a lot of it, you will need it.
 
 # Quest.2329 - §b§lRhodium-Plated Palladium
 gtnh.quest2329.name=§b§lRhodium-Plated Palladium
-gtnh.quest2329.desc=Rhodium Plated Palladium is the LuV Tier Hull Material. You will basically use it, like you do Tungstensteel now. Why its called plated if it's clearly an alloy you ask? I don't know either!
+gtnh.quest2329.desc=Rhodium Plated Palladium is the LuV Tier Hull Material.%n%nYou will basically use it like you do Tungstensteel now. Why it's called plated if it's clearly an alloy you ask? I don't know either!
 
 # Quest.2330 - §b§lRuri... Ruridididi?
 gtnh.quest2330.name=§b§lRuri... Ruridididi?
-gtnh.quest2330.desc=Combining Ruthenium with Iridium yields a very special Metal, that is needed for higher Tier components. It's propperties are strange, and there havent been much research regarding this alloy. So why dont you just craft a bounch of it?
+gtnh.quest2330.desc=Combining Ruthenium with Iridium yields a very special Metal, that is needed for higher Tier components. %n%nIts properties are strange, and there hasn't been much research regarding this alloy. So why dont you just craft a bounch of it and see what you can do?
 
 # Quest.2331 - Osmiridium
 gtnh.quest2331.name=Osmiridium
-gtnh.quest2331.desc=Osmiridium is an quite expensive Alloy. You'll need it for Thaumcraft and in ZPM+ Voltages.
+gtnh.quest2331.desc=Osmiridium is a quite expensive alloy. You'll need it for Thaumcraft and at ZPM+ Voltages.
 
 # Quest.2332 - §3§lHow to open your Iron Doors?
 gtnh.quest2332.name=§3§lHow to open your Iron Doors?
-gtnh.quest2332.desc=Your Irondoors are build and make your Machine Hall or House more safe. %nNow let's craft some Presure plates and Buttons to open this heavy Iron Doors.
+gtnh.quest2332.desc=Your Irondoors make your Machine Hall or House more safe. They cannot be opened by hand.%n%nNow let's craft some Pressure Plates and Buttons to open these heavy Iron Doors.
 
 # Quest.2333 - §a§lHow to open your Wooden Doors?
 gtnh.quest2333.name=§a§lHow to open your Wooden Doors?
-gtnh.quest2333.desc=Your Wooden doors are build and make your House more safe. %nNow let's craft some wooden Presure plates and Buttons to open this Doors.
+gtnh.quest2333.desc=Wooden doors make your House safer. %nNow let's craft some wooden Pressure plates and Buttons to open these Doors.
 
 # Quest.2334 - Demonic Contract
 gtnh.quest2334.name=Demonic Contract
-gtnh.quest2334.desc=A demonic contract is written on parchment made for the resurrected flesh of the dead. The contract is signed in the blood of the individual to whom it pertains.%n%nA plain demonic contract is used to make a deal with Flame Imps. The basic contract is crafted with a Taglock Kit containing the blood of the witch (or warlock).%n%nWhen performing Imp Magic, a plain contract is first crafted with reagents pertaining to the spell effect, and then signed in the blood of the target by crafting it with a Taglock Kit containing the targets blood.%n
+gtnh.quest2334.desc=A Demonic Contract is written on parchment made from the resurrected flesh of the dead. The contract is signed in the blood of the individual to whom it pertains.%n%nA plain demonic contract is used to make a deal with Flame Imps. The basic contract is crafted with a Taglock Kit containing the blood of the witch (or warlock).%n%nWhen performing Imp Magic, a plain contract is first crafted with reagents pertaining to the spell effect, and then signed in the blood of the target by crafting it with a Taglock Kit containing the targets blood.%n
 
 # Quest.2335 - Taglock Kit
 gtnh.quest2335.name=Taglock Kit
-gtnh.quest2335.desc=Taglock Kits are used to collect taglocks from other players or creatures. Taglocks, such as locks of hair, fingernail clippings or blood, are used in various recipes to create a link between the creature and the magic.%n%nUse a taglock kit on a creature, or the used bed of a player, to collect some taglocks from that being. Repeated use on the same bed will cycle taglocks for each player who has used that bed. The kit can also be used on a Leech Chest to collect taglocks from users who have opened the chest or on a Blood Rose to collect the taglock of the player that walked over it.%n%nShift-clicking on any bed will fill the kit with the current players taglocks.%n%nCollecting taglocks by using the kit on a player has a chance of failing and informing the other player what you were trying to do. To increase the chance of collecting a taglock from a player sneak, and prefer approaching from behind.%n%nTaglocks can only be collected from players who are logged into the same world.%n%nTaglock kits are made by crafting a Glass Bottle with a Bone Needle.%n
+gtnh.quest2335.desc=Taglock Kits are used to collect taglocks from other players or creatures. Taglocks, such as locks of hair, fingernail clippings or blood, are used in various recipes to create a link between the creature and the magic.%n%nUse a taglock kit on a creature, or the used bed of a player, to collect some taglocks from that being. Repeated use on the same bed will cycle taglocks for each player who has used that bed. The kit can also be used on a Leech Chest to collect taglocks from users who have opened the chest or on a Blood Rose to collect the taglock of the player that walked over it.%n%nShift-clicking on any bed will fill the kit with the current players taglocks.%n%nCollecting taglocks by using the kit on a player has a chance of failing and informing the other player what you were trying to do. To increase the chance of collecting a taglock from a player, sneak, and prefer approaching from behind.%n%nTaglocks can only be collected from players who are logged into the same world.%n%nTaglock kits are made by crafting a Glass Bottle with a Bone Needle.%n
 
 # Quest.2336 - Mutandis Extremis
 gtnh.quest2336.name=Mutandis Extremis
@@ -9354,7 +9354,7 @@ gtnh.quest2337.desc=Where would a Herbologist be without a trusty pair of Earmuf
 
 # Quest.2338 - Ent Twig
 gtnh.quest2338.name=Ent Twig
-gtnh.quest2338.desc=An Ent Twig will be dropped when an Ent is killed. They are used to make Mutating Sprigs and Mystic Branches. %n%nThey will appear occasionally when trees such as Rowan, Hawthorn and Alder are felled in large quantities.%n%nEnts are rather hard to kill by normal means, but they do have a healthy hatred of certain tools for some reason or another.%n%nTwilight mosspatch and Biomes 'o Plenty moss will drop also.
+gtnh.quest2338.desc=An Ent Twig will be dropped when an Ent is killed. They are used to make Mutating Sprigs and Mystic Branches. %n%nThey will appear occasionally when trees such as Rowan, Hawthorn and Alder are felled in large quantities.%n%nEnts are rather hard to kill by normal means, but they do have a healthy hatred of certain tools for some reason or another.%n%nTwilight Forest Moss Patch and Biomes 'o Plenty moss will drop also.
 
 # Quest.2339 - Redstone Soup?
 gtnh.quest2339.name=Redstone Soup?
@@ -9370,35 +9370,35 @@ gtnh.quest2341.desc=An Arthana is a ritualistic knife use by witches and warlock
 
 # Quest.2342 - Happenstance Oil
 gtnh.quest2342.name=Happenstance Oil
-gtnh.quest2342.desc=Appenstance Oil is an ingredient used in the production of a Crystal Ball and the Seer Stone%n%nIt is created in a kettle using Redstone Soup, Potion of Night Vision (8:00), Eye of Ender, Golden Carrot, Spider Eye and Mandrake Root.
+gtnh.quest2342.desc=Happenstance Oil is an ingredient used in the production of a Crystal Ball and the Seer Stone%n%nIt is created in a kettle using Redstone Soup, Potion of Night Vision (8:00), Eye of Ender, Golden Carrot, Spider Eye and Mandrake Root.
 
 # Quest.2343 - Quartz Sphere
 gtnh.quest2343.name=Quartz Sphere
-gtnh.quest2343.desc=A Quartz Sphere is a component used in the production of a Crystal Ball and the Seer Stone for summon the coven witches.
+gtnh.quest2343.desc=A Quartz Sphere is a component used in the production of a Crystal Ball and the Seer Stone for summoning coven witches.
 
 # Quest.2344 - Seer Stone or Summon the Witches
 gtnh.quest2344.name=Seer Stone or Summon the Witches
-gtnh.quest2344.desc=A Seer Stone is a variation of a Crystal Ball, that allows witches to communicate with one another over great distances. It is mostly used by one witch to summon other members of their coven either to help out in a fight, or to help performing a ritual. The seer stone may also be used on another player to reveal if they are afflicted by a curse.%n%nTo summon a coven witch for aid, use the Seer Stone while held. Holding for longer summons more coven members.%n%nIf near a Witches' Cauldron, the summoned witches will circle it ready for a ritual.%n%nTo call the entire coven to perform a rite. Start the rite normally while holding the Seer Stone.%n%nTo determine if another player is cursed, to find out if they have a coven or familiar, and how much time they can manifest for, use the Seer Stone on them when they are within 3 blocks distance. Sneak-using the stone will show the same information for the bearer of the Stone.%n%nA Seer Stone is created by infusing a Quartz Sphere with Obsidian and Happenstance Oil using a Rite of Infusion.
+gtnh.quest2344.desc=A Seer Stone is a variation of a Crystal Ball, that allows witches to communicate with one another over great distances. It is mostly used by one witch to summon other members of their coven either to help out in a fight, or to help perform a ritual. The seer stone may also be used on another player to reveal if they are afflicted by a curse.%n%nTo summon a coven witch for aid, use the Seer Stone while held. Holding for longer summons more coven members.%n%nIf near a Witches' Cauldron, the summoned witches will circle it ready for a ritual.%n%nTo call the entire coven to perform a rite, start the rite normally while holding the Seer Stone.%n%nTo determine if another player is cursed, to find out if they have a coven or familiar, and how much time they can manifest for, use the Seer Stone on them when they are within 3 blocks distance. Sneak-using the stone will show the same information for the bearer of the Stone.%n%nA Seer Stone is created by infusing a Quartz Sphere with Obsidian and Happenstance Oil using a Rite of Infusion.
 
 # Quest.2345 - Familiar
 gtnh.quest2345.name=Familiar
-gtnh.quest2345.desc=Familiars are super natural beings that assist witches and cunning folk in their practice of magic. %nIn some cases familiars are attracted to practitioners of their own accord, but the most effective way to acquire a familiar is to bind a minor demon (or spirit) to an animal. %nAs part of such a binding, a sympathetic link is created between the bound familiar and the witch (or warlock).%n%nFamiliars take on the characteristics of the animal to which they are bound, allowing certain enhancements to a witches practice depending on the animal.%n%n§lBinding a Familiar%n%n§l§l§l§l§l§rA familiar is summoned and bound to an animal using a Rite of Binding as described in the book, Witchcraft: Circle Magic. %nBoth the witch and a tamed animal of the desired type (Cat, Owl or Toad) must stand in the Circle when the Rite is performed. %nIf the Rite is successful the animal will be inhabited by the familiar entity with the effects listed below.
+gtnh.quest2345.desc=Familiars are supernatural beings that assist witches and cunning folk in their practice of magic.%n%nIn some cases familiars are attracted to practitioners of their own accord, but the most effective way to acquire a familiar is to bind a minor demon (or spirit) to an animal. %nAs part of such a binding, a sympathetic link is created between the bound familiar and the witch (or warlock).%n%nFamiliars take on the characteristics of the animal to which they are bound, allowing certain enhancements to a witches' practice depending on the animal.%n%n§lBinding a Familiar%n%n§l§l§l§l§l§rA familiar is summoned and bound to an animal using a Rite of Binding as described in the book, Witchcraft: Circle Magic.%n%nBoth the witch and a tamed animal of the desired type (Cat, Owl or Toad) must stand in the Circle when the Rite is performed.  If the Rite is successful the animal will be inhabited by the familiar entity with the effects listed on https://sites.google.com/site/witcherymod/familiars%n
 
-# Quest.2346 - §9§8§7§6§5§3§lTame a Ocelot to get a Friend
-gtnh.quest2346.name=§9§8§7§6§5§3§lTame a Ocelot to get a Friend
-gtnh.quest2346.desc=Find an Ocelot%n%nOnce you have the required materials, you will need to find an ocelot to tame.%n%nOcelot can be found in Jungle Biomes.%nIf you are having trouble finding an ocelot, you can always summon an ocelot using a use a spawn egg.%n%nUse the Fish%n%nYou can tame an ocelot by giving it a raw fish. So add the raw fish to your inventory and select the raw fish in your hotbar.%n%n§8§6§5§4TIP: Make sure you are in a large space when trying to tame the ocelot so that the ocelot has lots of room to move. If you are in a space that is too small, you will not be able to tame the ocelot.%nNext, while holding the raw fish, do not move. If you move, you will scare away the ocelot. If you are very still, the ocelot will eventually notice the fish in your hand and begin to walk over to you.
+# Quest.2346 - §9§8§7§6§5§3§lTame an Ocelot to get a Friend
+gtnh.quest2346.name=§9§8§7§6§5§3§lTame an Ocelot to get a Friend
+gtnh.quest2346.desc=Once you have the required materials, you will need to find an ocelot to tame.%n%nOcelots can be found in Jungle Biomes.%n%nIf you are having trouble finding an ocelot, you can always summon an ocelot using a spawn egg.%n%nYou can tame an ocelot by giving it a raw fish. So add the raw fish to your inventory and select the raw fish in your hotbar.%n%nJust like vanilla Minecraft, a tamed ocelot turns into a cat. The cat will repel creepers.%n%n§8§6§5§4TIP: Make sure you are in a large space when trying to tame the ocelot so that the ocelot has lots of room to move. If you are in a space that is too small, you will not be able to tame the ocelot.%nNext, while holding the raw fish, do not move. If you move, you will scare away the ocelot. If you are very still, the ocelot will eventually notice the fish in your hand and begin to walk over to you.
 
 # Quest.2347 - Flame Imp
 gtnh.quest2347.name=Flame Imp
-gtnh.quest2347.desc=Flame Imps are demons strongly associated with fiery magic. %nNot as physically strong as their dimmer cousins, flame imps are mischievous creatures who are very easily swayed with the promise of personal gain. %nThey may even be bound into the service of a witch (or warlock) if the offer is good enough.%n%nFlame Imps are summoned using a Rite of Summoning, and they are most likely to attack the first person they see. It is advisable make a deal with them quickly.%n%nMaking a deal%n%nTo bind a Flame Imp into service, a witch must write the agreement into a Demonic Contract and sign it with their own blood (craft with a Taglock Kit). %nThis contract must then be given to the Flame Imp, who will require a down-payment of Experience Levels (typically 25).%n%nOnce a deal is struck, the imp will be bound to the location of the deal, not able to wander too far away. The Imp will attack anyone hostile to its master.%n%nImps like receiving valuable gifts, once suitably impressed an imp may be prepared to perform various flame related spells at the request of their master.%n%nSpells take the form of contracts describing what must be done and to whom. %nSimply craft a Demonic Contract with the necessary components and then the resulting contract with a taglock. %nThen give the contract to the the Imp. So long as the creature is in the same dimension, the magic will take hold.%n%nA Flame imp may also occasionally give a gift in return for being given valuable things. These have been known to include the souls of demons that can be consumed to allow a witch to cast demonic spells. %n%nA very well treated Flame Imp may even yield knowledge to summon an Lord of Torment.%n%n
+gtnh.quest2347.desc=Flame Imps are demons strongly associated with fiery magic.%n%nNot as physically strong as their dimmer cousins, Flame Imps are mischievous creatures who are very easily swayed with the promise of personal gain. They may even be bound into the service of a witch (or warlock) if the offer is good enough.%n%nFlame Imps are summoned using a Rite of Summoning, and they are most likely to attack the first person they see. It is advisable to make a deal with them quickly.%n%nMaking a deal%n%nTo bind a Flame Imp into service, a witch must write the agreement into a Demonic Contract and sign it with their own blood (craft with a Taglock Kit). %nThis contract must then be given to the Flame Imp, who will require a down-payment of Experience Levels (typically 25).%n%nOnce a deal is struck, the imp will be bound to the location of the deal, not able to wander too far away. The Imp will attack anyone hostile to its master.%n%nImps like receiving valuable gifts, once suitably impressed an imp may be prepared to perform various flame related spells at the request of their master.%n%nSpells take the form of contracts describing what must be done and to whom. %nSimply craft a Demonic Contract with the necessary components and then the resulting contract with a taglock. %nThen give the contract to the the Imp. So long as the creature is in the same dimension, the magic will take hold.%n%nA Flame imp may also occasionally give a gift in return for being given valuable things. These have been known to include the souls of demons that can be consumed to allow a witch to cast demonic spells. %n%nA very well treated Flame Imp may even yield knowledge to summon an Lord of Torment.%n%n
 
-# Quest.2348 - Lord of Tourment
-gtnh.quest2348.name=Lord of Tourment
-gtnh.quest2348.desc=A Lord of Torment is a mighty demonic being that is able to create prisons to Torment its victims. %nThose foolish enough to summon one of these creatures must prepare for an arduous fight.%n%nA Lord of Torment may only be summoned using the Ritual outlined in a Torment Scroll. %nThese scrolls are hard to come by, but it is rumored that well treated Flame Imps have occasionally given them up.%n%nConsuming the Soul of a Torment Demon grants the ability to Torment others.%n%nIf you very unlucky and the Lord of Torment dissapears when entering the Torment use the Egg and spawn another one.
+# Quest.2348 - Lord of Torment
+gtnh.quest2348.name=Lord of Torment
+gtnh.quest2348.desc=A Lord of Torment is a mighty demonic being that is able to create prisons to Torment its victims.%n%nThose foolish enough to summon one of these creatures must prepare for an arduous fight.%n%nA Lord of Torment may only be summoned using the Ritual outlined in a Torment Scroll. %nThese scrolls are hard to come by, but it is rumored that well treated Flame Imps have occasionally given them up.%n%nConsuming the Soul of a Torment Demon grants the ability to Torment others.%n%nIf you are very unlucky and the Lord of Torment disappears when entering the Torment dimension, use the Egg and spawn another one.
 
 # Quest.2349 - Ender Towers
 gtnh.quest2349.name=Ender Towers
-gtnh.quest2349.desc=Once you've explored far enough, you'll find large towering objects that increase in difficulty as you rank up, collimating in a dangerous boss fight. %nBe wary and bring strong protecting armor! %nIf you are incredibly lucky, these towers can also offer rare items and or blocks.
+gtnh.quest2349.desc=Once you've explored far enough, you'll find large towering objects that increase in difficulty as you rank up, culminating in a dangerous boss fight.%n%nBe wary and bring strong protecting armor!%n%nIf you are incredibly lucky, these towers can also offer rare items or blocks.
 
 # Quest.2350 - Welcome to the End!
 gtnh.quest2350.name=Welcome to the End!
@@ -9406,23 +9406,23 @@ gtnh.quest2350.desc=Welcome to the End! And more importantly, Hardcore Ender Exp
 
 # Quest.2351 - Essence Altar Dragon Infused
 gtnh.quest2351.name=Essence Altar Dragon Infused
-gtnh.quest2351.desc=To create a Dragon Essence Altar, a player has to use Dragon Essence on the Basic Essence Altar (right-click the altar with the Essence). %nAfter that, the Altar will request 8 random items to be fed into it. %nDragon Essence Altar may request the following items: Obsidian, Stone Bricks, Map, Book, Bookshelf, Iron Fence, End Stone, Ender Pearl, Eye of Ender, Enderman Head.%n%nAfter this you can store more Essense inside the Altar.
+gtnh.quest2351.desc=To create a Dragon Essence Altar, a player has to use Dragon Essence on the Basic Essence Altar (right-click the altar with the Essence).%n%nAfter that, the Altar will request 8 random items to be fed into it. %nDragon Essence Altar may request the following items: Obsidian, Stone Bricks, Map, Book, Bookshelf, Iron Fence, End Stone, Ender Pearl, Eye of Ender, Enderman Head.%n%nAfter this you can store more Essense inside the Altar.
 
 # Quest.2352 - Essence Altar
 gtnh.quest2352.name=Essence Altar
-gtnh.quest2352.desc=This little enchanting table like-block doesn't do much on its own, but has two other separate paths that can be taken (the third has no uses currently) to accomplish different tasks. %nIt is up to you where and how you want your personal Essence Altar to be upgraded. Firstly and more importantly, the Dragon Essence Altar is needed, but if you play on a public server, this stuff can be difficult to come by without external help. %nHere are some to get you started
+gtnh.quest2352.desc=This little enchanting table like-block doesn't do much on its own, but has two other separate paths that can be taken (the third has no uses currently) to accomplish different tasks.%n%nIt is up to you where and how you want your personal Essence Altar to be upgraded. Firstly and more importantly, the Dragon Essence Altar is needed, but if you play on a public server, this stuff can be difficult to come by without external help. %nHere are some to get you started.
 
 # Quest.2353 - Find all the Ores in the End
 gtnh.quest2353.name=Find all the Ores in the End
-gtnh.quest2353.desc=End Powder Ore:%nThe ore is generated in the End in between End Stone at every height level. When the ore is mined with any type of pickaxe, it will drop one or two pieces of End Powder.%n%nEndium Ore:%nRare ore that starts to appear near DungeonTowers, and gets more common the further you travel.%n%nIgneous Rock Ore:%nThe ore is generated in the End in the Burning Mountains and sometimes in the Endstone Blobs. This block emits lava particles but does no damage to the player. When the ore is mined with an Iron Pickaxe or better, it will drop one Igneous Rock.%n%nNote: the Fortune Enchantment does not affect Igneous Rock Ore. However, the Silk Touch enchantment does work with this block.%n%nInstability Ore:%nThe ore is generated in the End in the Biome Islands. When the ore is mined with a Advanced Pickaxe, it has a 40% chance to drop one Instability Orb, otherwise it breaks without providing any items.%n%nNote: the Fortune Enchantment increases the chance of getting an Instability Orb by 4% per enchantment level.%n%nStardust Or:%nThe ore is generated in the End in the Biome Islands. When the ore is mined with an Advanced Pickaxe, it has a chance to drop 0-4 pieces Stardust. Even though this ore comes in clusters, two ore blocks from the same cluster can be generated away from each other, making Stardust Ore a rare resource which requires thorough exploration and mining.%n%nStardust Ore block has different textures on its sides.%n%n%n%n
+gtnh.quest2353.desc=End Powder Ore:%nGenerated in the End in between End Stone at every height level. When the ore is mined with any type of pickaxe, it will drop one or two pieces of End Powder.%n%nEndium Ore:%nRare ore that starts to appear near Dungeon Towers, and gets more common the further you travel.%n%nIgneous Rock Ore:%nGenerated in the End in the Burning Mountains and sometimes in the Endstone Blobs. This block emits lava particles but does no damage to the player. When the ore is mined with an Iron Pickaxe or better, it will drop one Igneous Rock.%n%nNote: the Fortune Enchantment does not affect Igneous Rock Ore. However, the Silk Touch enchantment does work with this block. You can get better output by crushing the block with machines.%n%nInstability Ore:%nGenerated in the End in the Biome Islands. When the ore is mined with a Advanced Pickaxe, it has a 40% chance to drop one Instability Orb, otherwise it breaks without providing any items.%n%nNote: the Fortune Enchantment increases the chance of getting an Instability Orb by 4% per enchantment level.%n%nStardust Ore:%nGenerated in the End in the Biome Islands. When the ore is mined with an Advanced Pickaxe, it has a chance to drop 0-4 pieces of Stardust. Even though this ore comes in clusters, two ore blocks from the same cluster can be generated away from each other, making Stardust Ore a rare resource which requires thorough exploration and mining.%n%nStardust Ore block has different textures on its sides.%n%n%n%n
 
-# Quest.2354 - Infused Brewingstand
-gtnh.quest2354.name=Infused Brewingstand
-gtnh.quest2354.desc=After the altar creation is complete, a player has to place up to 8 solid blocks (of any kind) near the altar. These blocks require 1 block of air above them and no solid blocks touching them on the sides and diagonally. These blocks are the pedestals. The Dragon Essence Altar will project purple particles to all the pedestals connected to it.%n%nPlacing an item on the pedestal is done by throwing. After the item has been placed on top of the pedestal, the altar will start "infusing" the item using Dragon Essence stored in the altar itself. Adding more essence to the altar is done by right-clicking.%n%nInfusing makes items repair themselves (excluding items which require Energy), increase the level of existing enchantments (up to 4 enchantments per item) and even gain new enchantments.%n%nThere are two items by this mod which can be obtained only by Dragon Essence infusion:%n%nEnhanced Brewing Stand Enhanced Brewing Stand - by infusing a vanilla Brewing Stand, requires 20 pieces of Dragon Essence.%n%n%nTemple Caller Temple Caller - by infusing a vanilla Eye of Ender, requires 50 pieces of Dragon Essence.
+# Quest.2354 - Infused Brewing Stand
+gtnh.quest2354.name=Infused Brewing Stand
+gtnh.quest2354.desc=After the altar creation is complete, a player has to place up to 8 solid blocks (of any kind) near the altar. These blocks require 1 block of air above them and no solid blocks touching them on the sides and diagonally. These blocks are the pedestals. The Dragon Essence Altar will project purple particles to all the pedestals connected to it.%n%nPlacing an item on the pedestal is done by throwing. After the item has been placed on top of the pedestal, the altar will start "infusing" the item using Dragon Essence stored in the altar itself. Adding more essence to the altar is done by right-clicking.%n%nInfusing makes items repair themselves (excluding items which require Energy), increase the level of existing enchantments (up to 4 enchantments per item) and even gain new enchantments.%n%nThere are two items by this mod which can be obtained only by Dragon Essence infusion:%n%nEnhanced Brewing Stand - by infusing a vanilla Brewing Stand, requires 20 pieces of Dragon Essence.%n%n%nTemple Caller - by infusing a vanilla Eye of Ender, requires 50 pieces of Dragon Essence.
 
 # Quest.2355 - HEE Biome Compass
 gtnh.quest2355.name=HEE Biome Compass
-gtnh.quest2355.desc=The Biome Compass is a special type of compass, which points to nearest Biome Islands as long one exists and the player is in the End. %nRight-clicking will scroll through all existing biomes.%n%nHolding the compass shows all biomes of selected type as markers on the screen. %nThe markers are small rectangles with the color of the selected biome, the rectangles also get bigger the closer you are to the island (they also disappear if you reach the island, and reappear when you leave it).
+gtnh.quest2355.desc=The Biome Compass is a special type of compass, which points to the nearest Biome Islands as long one exists and the player is in the End. %nRight-clicking will scroll through all existing biomes.%n%nHolding the compass shows all biomes of selected type as markers on the screen. %nThe markers are small rectangles with the color of the selected biome, the rectangles also get bigger the closer you are to the island (they also disappear if you reach the island, and reappear when you leave it).
 
 # Quest.2356 - Visit the Laboratory Island
 gtnh.quest2356.name=Visit the Laboratory Island
@@ -9434,15 +9434,15 @@ gtnh.quest2357.desc=Energy Clusters have different health levels, which affect t
 
 # Quest.2358 - Visit the Enchanted Island
 gtnh.quest2358.name=Visit the Enchanted Island
-gtnh.quest2358.desc=Very flat biome with small amount of caves.%n%nIt can be found with the HEE Biome Compass.%n%nThere are currently two variations - Homeland and Laboratory.%n%nHomeland has lakes of Ender Goo, piles of Falling Obsidian and a strange Obsidian road-like structure. %nYou can often find Homeland Cache, a floating transparent cube that can be broken. Endermen Baby Endermen and Ender Guardians spawn there.%n
+gtnh.quest2358.desc=Very flat biome with small amount of caves.%n%nIt can be found with the HEE Biome Compass.%n%nThere are currently two variations - Homeland and Laboratory.%n%nHomeland has lakes of Ender Goo, piles of Falling Obsidian and a strange Obsidian road-like structure. %nYou can often find Homeland Cache, a floating transparent cube that can be broken. Endermen Baby Endermen and Ender Guardians spawn there.%n%n
 
 # Quest.2359 - Visit the Infested Island
 gtnh.quest2359.name=Visit the Infested Island
-gtnh.quest2359.desc=The Infested Island are mostly a flat biome with occasional hills, long caves and decent amount of ores.%nThere are 2 variations of the biome - Deep and Ravaged.%nBoth of these variations contain Silverfish, Infested Bats and occasionally Endermen.%n%nDeep variation is massively populated with Spooky Trees that can have faces on them. The ground has all types of infested plants, including Thorny Bushes.%n%nDeep variation is massively populated with Spooky Trees that can have faces on them. %nThe ground has all types of infested plants, including Thorny Bushes.%n%nRavaged variation has patches of infested plants and occasional Spooky Trees, but the most important feature is the RavagedDungeon which is an open gate to the Charms.%n
+gtnh.quest2359.desc=The Infested Island are mostly a flat biome with occasional hills, long caves and decent amount of ores.%nThere are 2 variations of the biome - Deep and Ravaged.%nBoth of these variations contain Silverfish, Infested Bats and occasionally Endermen.%n%nDeep variation is massively populated with Spooky Trees that can have faces on them. The ground has all types of infested plants, including Thorny Bushes.%n%nRavaged variation has patches of infested plants and occasional Spooky Trees, but the most important feature is the Ravaged Dungeon which is an open gate to the Charms.%n
 
 # Quest.2360 - Visit the Fiery Island
 gtnh.quest2360.name=Visit the Fiery Island
-gtnh.quest2360.desc=Fire-oriented biome with huge mountains and a large amount of caves and ores. %nApart from default ores, this biome also has common igneous_rock_ore.%n%nThere are 2 variations of the biome - Scorching and Mine.%nScorching variation has large blobs of cinder, streams and pools of Lava and Lilyfires.%n%nEach island also contains a dungeon_puzzle. %nThis is the only place where Fire Golem and Scorching Lenses spawn.%n%nMine variation spawns Haunted Miners, which protect Resource Pits (holes with ores from the End and Lava) and long patches of Overworld ores. %nNot all Overworld ores are present in a single island, usually one or two random ores are missing.%n
+gtnh.quest2360.desc=A Fire-oriented biome with huge mountains and a large amount of caves and ores. %nApart from default ores, this biome also has common Igneous Rock ore.%n%nThere are 2 variations of the biome - Scorching and Mine.%nScorching variation has large blobs of cinder, streams and pools of Lava and Lilyfires.%n%nEach island also contains a Dungeon Puzzle. %nThis is the only place where Fire Golems and Scorching Lenses spawn.%n%nMine variation spawns Haunted Miners, which protect Resource Pits (holes with ores from the End and Lava) and long patches of Overworld ores. %nNot all Overworld ores are present in a single island, usually one or two random ores are missing.%n
 
 # Quest.2361 - Ghost Amulet
 gtnh.quest2361.name=Ghost Amulet
@@ -9454,27 +9454,27 @@ gtnh.quest2362.desc=Blank Gem is used solely to create higher level Gems.%n
 
 # Quest.2363 - Spatial Dash Gem
 gtnh.quest2363.name=Spatial Dash Gem
-gtnh.quest2363.desc=Spatial Dash Gem is used for enderpearl-like teleportation.%n%nSpatial Dash Gem uses Energy and can be charged in an Energy Extraction Table. Right-clicking with the gem in hand sends a purple beam straight to where the player is aiming. When the beam hits a block, the player will be teleported to it. Maximum travel distance is 75 blocks horizontally. The teleportation doesn't hurt the player, unlike Ender Pearls.%n%nThe Spatial Dash Gem always tries to place the player on the top of the block, even if the beams hits a side or a bottom of it. The Spatial Dash Gem can teleport the player through 7 solid blocks in a row, making the gem a good way of teleporting through cave walls and ceilings. If the wall is thicker than 7 blocks, the gem then tries to find 2 air blocks inside the wall. If the air blocks are not found, the player will be teleported into a wall, leading to suffocation.%n%nSpatial Dash Gem is dropped by an Ender Eye mini-boss upon death.%n%n
+gtnh.quest2363.desc=Spatial Dash Gem is used for enderpearl-like teleportation.%n%nSpatial Dash Gem uses Energy and can be charged in an Energy Extraction Table. Right-clicking with the gem in hand sends a purple beam straight to where the player is aiming. When the beam hits a block, the player will be teleported to it. Maximum travel distance is 75 blocks horizontally. The teleportation doesn't hurt the player, unlike Ender Pearls.%n%nThe Spatial Dash Gem always tries to place the player on the top of the block, even if the beams hits a side or a bottom of it. %n%nThe Spatial Dash Gem can teleport the player through 7 solid blocks in a row, making the gem a good way of teleporting through cave walls and ceilings. If the wall is thicker than 7 blocks, the gem then tries to find 2 air blocks inside the wall. If the air blocks are not found, the player will be teleported into a wall, leading to suffocation.%n%nSpatial Dash Gem is dropped by an Ender Eye mini-boss upon death.%n%n
 
-# Quest.2364 - Blank Gem
-gtnh.quest2364.name=Blank Gem
-gtnh.quest2364.desc=Transference Gem is used to teleport to a marked location.%n%nTransference Gem uses Energy and can be charged in an Energy Extraction Table. Shift+right-clicking on a block with a Transference Gem in hand will link the gem to that block. %nThe state of the gem itself will switch to "Linked", as seen in its tooltip. %nAfter linking, the player can right-click with a Transference Gem in hand to teleport to the linked block, using some of the Energy stored in the gem.%n%nUsing F3+H to enable detailed item tooltips makes the Transference Gem show the exact coordinates and the dimension of the linked location.%n%nOnce the charge of the Transference Gem becomes lower than 44%, negative effects will appear:%n%nDeflection - the player will be teleported to a random location instead of the linked block.%nVarious negative potion effects, the lower the charge is - the longer they will last:%n%nSlowness II%nNausea I%nWeakness II%nHunger I%n%nEndermen - Angry Endermen will spawn and attack the player.%nItem drop - a random amount of items in player's inventory will drop to the ground.%nStorm - will cause a 2-3 minute storm. This is the most rare effect.
+# Quest.2364 - Transference Gem
+gtnh.quest2364.name=Transference Gem
+gtnh.quest2364.desc=The Transference Gem is used to teleport to a marked location.%n%nThe Transference Gem uses Energy and can be charged in an Energy Extraction Table. Shift+right-clicking on a block with a Transference Gem in hand will link the gem to that block. %nThe state of the gem itself will switch to "Linked", as seen in its tooltip. %nAfter linking, the player can right-click with a Transference Gem in hand to teleport to the linked block, using some of the Energy stored in the gem.%n%nUsing F3+H to enable detailed item tooltips makes the Transference Gem show the exact coordinates and the dimension of the linked location.%n%nOnce the charge of the Transference Gem becomes lower than 44%, negative effects will appear:%n%nDeflection - the player will be teleported to a random location instead of the linked block.%nVarious negative potion effects, the lower the charge is - the longer they will last:%n%nSlowness II%nNausea I%nWeakness II%nHunger I%n%nEndermen - Angry Endermen will spawn and attack the player.%nItem drop - a random amount of items in player's inventory will drop to the ground.%nStorm - will cause a 2-3 minute storm. This is the most rare effect.
 
 # Quest.2365 - Gem Enchantment
 gtnh.quest2365.name=Gem Enchantment
-gtnh.quest2365.desc=Transference Gem and Spatial Gems can be enhanced in a similar manner, using End Powder and the enhancement item.%n%nRightklick the Endpowder choose an enchantment and fill four Endpowder and four instability orbs for instant teleport, four lapis lazuli item for get a longer tp range and four endium ingots to increase the capacity of the gem
+gtnh.quest2365.desc=Transference Gems and Spatial Gems can be enhanced in a similar manner, using End Powder and the enhancement item.%n%nRight click the End Powder, choose an enchantment, and fill four End Powder and four instability orbs for instant teleport, four Lapis Lazuli for a longer teleport range, and four endium ingots to increase the capacity of the gem.
 
 # Quest.2366 - Advanced Gem Enchantment
 gtnh.quest2366.name=Advanced Gem Enchantment
-gtnh.quest2366.desc=Transference Gem and Spatial Gems can be enhanced in a similar manner, using End Powder and the enhancement item.%n%nRightklick the Endpowder choose an enchantment and fill four Endpowder and four  ectoplasma for teleport a monster, four leather for teleport a whole group of players and four endium ingots to increase the capacity of the gem
+gtnh.quest2366.desc=Transference Gem and Spatial Gems can be enhanced in a similar manner, using End Powder and the enhancement item.%n%nRight click the End Powder, choose an enchantment, and fill with four End Powder and four ectoplasm to teleport a monster, four leather to teleport a whole group of players, and four endium ingots to increase the capacity of the gem.
 
 # Quest.2367 - Runes
 gtnh.quest2367.name=Runes
-gtnh.quest2367.desc=There are 6 types of Runes found in the Ravaged Dungeons on the Infested Islands.%nPower, %nAgility,%nVigor, %nDefense,%nMagic and %nVoid. %nThe Void rune is less common than other types.%n%nRunes are used to create Charms, and craft in a charm_pouch.%n%nBasic Runes increase attributes, such as strength, speed or health. Void Rune (gray) gives the Louse one of special and extremely dangerous abilities.
+gtnh.quest2367.desc=There are 6 types of Runes found in the Ravaged Dungeons on the Infested Islands.%n%nPower%nAgility%nVigor%nDefense%nMagic%nVoid%n%nThe Void rune is less common than other types.%n%nRunes are used to create Charms, and craft in a Charm Pouch.%n%nBasic Runes increase attributes, such as strength, speed or health. Void Rune (gray) gives the Louse one of special and extremely dangerous abilities.
 
 # Quest.2368 - Charms
 gtnh.quest2368.name=Charms
-gtnh.quest2368.desc=Charms are player enchantments, used and crafted in the charm_pouch.%nIf you lucky you will found one pouch in the Dungeons.%n%nMagical pouch that allows creating, holding and activating Charms.%nSneaking and using the pouch activates or deactives the Charms. %nOnly one pouch can be active at a time.%n
+gtnh.quest2368.desc=Charms are player enchantments, used and crafted in the Charm Pouch.%nIf you are lucky you may find a pouch in the Dungeons.%n%nThis magical pouch allows creating, holding and activating Charms.%nSneaking and using the pouch activates or deactives the Charms. %nOnly one pouch can be active at a time.%n
 
 # Quest.2369 - Hot Puzzle
 gtnh.quest2369.name=Hot Puzzle
@@ -9482,55 +9482,55 @@ gtnh.quest2369.desc=Some of the islands have a Dungeon Puzzle inside them, usual
 
 # Quest.2370 - Scorching Pickaxe
 gtnh.quest2370.name=Scorching Pickaxe
-gtnh.quest2370.desc=The Scorchning Pickaxe is a special type of pickaxe that smelts blocks and applies fortune effect to ores.%nIt only works on smeltable blocks and ores. Blocks that smelt into items are affected by fortune, including for example Iron Ore and Cactus.%nCompatible blocks are also mined much faster.%n%nGT Ores are not affected.
+gtnh.quest2370.desc=The Scorching Pickaxe is a special type of pickaxe that smelts blocks and applies fortune effect to ores.%n%nIt only works on smeltable blocks and ores. Blocks that smelt into items are affected by fortune, including for example Iron Ore and Cactus.%n%nCompatible blocks are also mined much faster.%n%nGT Ores are not affected. You can find Vanilla Ores in the Twilight Forest inside Hollow Hills.
 
 # Quest.2371 - Death Flowers
 gtnh.quest2371.name=Death Flowers
-gtnh.quest2371.desc=Purple flower found on top of Endstone Blobs. It can be planted on End Stone, Dirt, Grass or inside Flower Pots.%nOutside the End, the flower will slowly decay, even if in a Flower Pot.%nAfter some time of decaying, it starts to occasionally attract Angry Endermen.%nWhen the flower decays completely, it turns dark, propagates massive amount decay to nearby blocks and spawns an energy_cluster.%nPartial decay can be healed a little using Endpowder.
+gtnh.quest2371.desc=The purple flower found on top of Endstone Blobs are Death Flower. It can be planted on End Stone, Dirt, Grass or inside Flower Pots.%n%nOutside the End, the flower will slowly decay, even if in a Flower Pot.%n%nAfter some time of decaying, it starts to occasionally attract Angry Endermen.%n%nWhen the flower decays completely, it turns dark, propagates massive amount decay to nearby blocks and spawns an Energy Cluster.%n%nPartial decay can be healed a little using Endpowder.
 
 # Quest.2372 - Living Matter
 gtnh.quest2372.name=Living Matter
-gtnh.quest2372.desc=Living Matter is a Microorganisms used to craft Curses.
+gtnh.quest2372.desc=Living Matter are Microorganisms combined together, used to craft Curses.
 
 # Quest.2373 - Silverfish Blood
 gtnh.quest2373.name=Silverfish Blood
-gtnh.quest2373.desc=Using a normal sword, the chance of it dropping Blood per Silverfish is 1 in 56.%nGolden swords increase the chance to 1 in 14.%n%n%nBetter is to obtain the blood by killing Silverfish, and is used to brew Infestation Remedy.%n%n%n
+gtnh.quest2373.desc=Using a normal sword, the chance of it dropping Blood per Silverfish is 1 in 56.%nGolden swords increase the chance to 1 in 14.%n%n%nIt is used to brew Infestation Remedy.%n%n%n
 
 # Quest.2374 - Infestation Remedy
 gtnh.quest2374.name=Infestation Remedy
-gtnh.quest2374.desc=Infestation Remedy is a drinkable item used to shorten effects of the Infestation.%n%nObtaining:%nThe Infestation Remedy is brewed in an Enhanced Brewing Stand, using Silverfish Blood as the brewing ingredient and Awkward Potion.%n%nUsage:%nWhen drank, the remedy will shorten each of the Infestation effects by 150 to 180 seconds.%n%nYou can make splash potions with gunpowder and 3 more endpowder aswell.
+gtnh.quest2374.desc=Infestation Remedy is a drinkable item used to shorten effects of the Infestation.%n%nObtaining:%nThe Infestation Remedy is brewed in an Enhanced Brewing Stand, using Silverfish Blood as the brewing ingredient and an Awkward Potion.%n%nUsage:%nWhen drank, the remedy will shorten each of the Infestation effects by 150 to 180 seconds.%n%nYou can make splash potions with gunpowder and 3 more End Powder as well.
 
 # Quest.2375 - Potion of Instability
 gtnh.quest2375.name=Potion of Instability
-gtnh.quest2375.desc=The Potion of Instability is a special type of potion, which can be brewed by putting Instability Orb into an Enhanced Brewing Stand with awkward potion. Brewing process requires End Powder in the stand's special slot.%n%nUsage:%nAs any other potion, the Potion of Instability can be drank (or thrown, if it's splash). Unlike regular potions, this potion gives a random potion effect of random tier and duration to each player it affects. It can also apply potion effects which aren't available in vanilla potions, such as Jump or Hunger.%n%nTrivia:%nItem tooltip contains ???, as opposed to potion effect and duration%n%nYou can make splash potions with gunpowder and 3 more endpowder aswell.
+gtnh.quest2375.desc=The Potion of Instability is a special type of potion, which can be brewed by putting an Instability Orb into an Enhanced Brewing Stand with an awkward potion. The brewing process requires End Powder in the stand's special slot.%n%nUsage:%nAs any other potion, the Potion of Instability can be drank (or thrown, if it's splash). Unlike regular potions, this potion gives a random potion effect of random tier and duration to each player it affects. It can also apply potion effects which aren't available in vanilla potions, such as Jump or Hunger.%n%nTrivia:%nItem tooltip contains ???, as opposed to potion effect and duration%n%nYou can make splash potions with gunpowder and 3 more End Powder as well.
 
 # Quest.2376 - Curses
 gtnh.quest2376.name=Curses
-gtnh.quest2376.desc=A Curse is a magical powder that attaches itself to an area of blocks, a mob, or a player, crafted using living matter, end_powder and specific ingredients.%nIt can be either placed right on a block or an entity, or thrown. If it gets thrown into a group of entities, it will have a chance to hit more of then at the same time.%nCurses eventually disappear, but they can be made eternal by crafting them with stardust and arcane shard. %nEternal Curses will stay forever on blocks and mobs, and longer than normal Curses on players.%nCurses placed on blocks are only visible to the player who casted it, and for a short duration to players affected by it.%nGetting very close to a Curse makes it visible without having it affect you, but it requires extreme carefulness.%nIt is possible to remove Curses by using potion of purity.
+gtnh.quest2376.desc=A Curse is a magical powder that attaches itself to an area of blocks, a mob, or a player, crafted using living matter, End Powder and specific ingredients.%n%nIt can be either placed right on a block or an entity, or thrown. If it gets thrown into a group of entities, it will have a chance to hit more than one at the same time.%n%nCurses eventually disappear, but they can be made eternal by crafting them with stardust and an arcane shard. Eternal Curses will stay forever on blocks and mobs, and longer than normal Curses on players.%n%nCurses placed on blocks are only visible to the player who cast it, and for a short duration to players affected by it.%n%nGetting very close to a Curse makes it visible without having it affect you, but it requires extreme carefulness.%n%nIt is possible to remove Curses by using a Potion of Purity.
 
 # Quest.2377 - Potion of Purity
 gtnh.quest2377.name=Potion of Purity
-gtnh.quest2377.desc=Potion of Purity is a drinkable or throwable potion that removes Curses.%n%nObtaining:%nThe Prity Potion is brewed in an Enhanced Brewing Stand, using Ectoplasma as the brewing ingredient and Awkward Potion.%n%nYou can make splash potions with gunpowder and 3 more endpowder aswell.
+gtnh.quest2377.desc=Potion of Purity is a drinkable or throwable potion that removes Curses.%n%nObtaining:%nThe Purity Potion is brewed in an Enhanced Brewing Stand, using Ectoplasm as the brewing ingredient and an Awkward Potion.%n%nYou can make splash potions with gunpowder and 3 more End Powder as well.
 
-# Quest.2378 - Curse Amulett
-gtnh.quest2378.name=Curse Amulett
-gtnh.quest2378.desc=The Curse Amulet reveals all nearby Curses  placed on blocks and depletes Curses quicker when held.%nIt is created by throwing endpowder, Gold Ingot, Ectoplasm and String into Ender Goo.
+# Quest.2378 - Curse Amulet
+gtnh.quest2378.name=Curse Amulet
+gtnh.quest2378.desc=The Curse Amulet reveals all nearby Curses  placed on blocks and depletes Curses quicker when held.%n%nIt is created by throwing End Powder, Gold Ingot, Ectoplasm and String into Ender Goo.
 
-# Quest.2379 - Infused Brewingstand
-gtnh.quest2379.name=Infused Brewingstand
-gtnh.quest2379.desc=Brewingstand with one or more special effects (enhancements).%n%nThe primary way of obtaining enhanced Brewingstand is right click with End Powder in your Hand to modify your Brewingstand. An important feature of the effects is stacking, which means that you can continue adding as many effects to one Brewingstand as you want.%n%nEnhancements:%nTier (Ectoplasma)%nYour potion can have a higher tier and a longer potion duration than vanilla ones. (Tier IV up to 12 mins)%n%nSpeed (Igneous Rock)%nIncreasing the speed of the Brewingstand.%n%nCost (Emerald)%nReduce the cost of Endpowder using in a brewing cycle.
+# Quest.2379 - Infused Brewing Stand
+gtnh.quest2379.name=Infused Brewing Stand
+gtnh.quest2379.desc=A Brewing Stand with one or more special effects (enhancements).%n%nThe primary way of obtaining an enhanced Brewing Stand is right click with End Powder in your Hand to modify your Brewingstand. %n%nAn important feature of the effects is stacking, which means that you can continue adding as many effects to one Brewing Stand as you want.%n%nEnhancements:%nTier (Ectoplasm)%nYour potion can have a higher tier and a longer potion duration than vanilla ones. (Tier IV up to 12 mins)%n%nSpeed (Igneous Rock)%nIncreasing the speed of the Brewing Stand.%n%nCost (Emerald)%nReduce the cost of End Powder using in a brewing cycle.
 
 # Quest.2380 - TNT Enchantments
 gtnh.quest2380.name=TNT Enchantments
-gtnh.quest2380.desc=Enhanced TNT are a special version of vanilla TNT with one or more special effects (enhancements).%n%nThe primary way of obtaining enhanced TNT is right click with End Powder in your Hand to modify your TNT. An important feature of the effects is stacking, which means that you can continue adding as many effects to one pearl as you want.%n%nEnhancements:%nNo block damage (Feather)%nTNT explode with no Block damage.%n%nNo Entity damage (Slime)%nTNT explode with no Entinty damage.%n%nExtra Damage (Gundpowder)%nTNT explode with extra damage.%n%nTrap (Redstone)%nTNT explode when hostile mob touche or walk over the tnt block.%n%nNo Clip (Enderpearls)%nTNT falling trough solid blocks and explode after a few seconds.%n%nFire (Igneous Rock) %nTNT explode with a big fire spread.%n%nNo fuse (Redstone Torch)%nTNT explode immediately.
+gtnh.quest2380.desc=Enhanced TNT are a special version of vanilla TNT with one or more special effects (enhancements).%n%nThe primary way of obtaining enhanced TNT is right click with End Powder in your Hand to modify your TNT. An important feature of the effects is stacking, which means that you can continue adding as many effects to one TNT as you want.%n%nEnhancements:%nNo block damage (Feather)%nTNT explodes with no Block damage.%n%nNo Entity damage (Slime)%nTNT explodes with no Entinty damage.%n%nExtra Damage (Gundpowder)%nTNT explodes with extra damage.%n%nTrap (Redstone)%nTNT explodse when hostile mob touches or walks over the tnt block.%n%nNo Clip (Enderpearls)%nTNT falls through solid blocks and explodes after a few seconds.%n%nFire (Igneous Rock) %nTNT explodse with a big fire spread.%n%nNo fuse (Redstone Torch)%nTNT explodes immediately.
 
 # Quest.2381 - Enderpearl Enchantments
 gtnh.quest2381.name=Enderpearl Enchantments
-gtnh.quest2381.desc=Enhanced Ender Pearls are a special version of vanilla Ender Pearls with one or more special effects (enhancements).%n%nThe primary way of obtaining enhanced pearls is right click with End Powder in your Hand to modify your enderpearl. An important feature of the effects is stacking, which means that you can continue adding as many effects to one pearl as you want.%n%nNatural occurence:%nIt is possible to find pearls with random effects in Dungeon Tower's loot chests.%n%nEnhancements:%nNo fall damage (Wool)%nUpon pearl's landing, the player will not receive any fall damage.%n%nNo gravity (Feather)%nThe pearl will not follow the rules of gravity, which makes it possible to throw it straight up. After 10 seconds of flight, the pearl is automatically destroyed without any teleportation or fall damage.%n%nIncreased range (String)%nUnlike No gravity effect, the pearl will fall down due to gravity, but will do so 25% slower. If the pearl has the No gravity effect too, it will override this effect.%n%nDouble speed (Gold Nugget)%nIncreases pearl's speed by a factor of 2, but won't change the flight trajectory. This can be helpful if are in a bad situation (fell in lava, swarm of mobs around...) and need to be saved very quickly. In combination with Riding effect, people may notice slight stuttering on a server.%n%nExplosive (Gunpowder)%nUpon landing, the pearl will explode with radius of 2.7 (TNT has radius of 4). This will not harm the thrower as long as they are far enough from the landing spot.%n%nFreeze (Snowball) %nThe pearl will freeze mobs and players within 5 blocks of the landing spot for at least 4 seconds. Just as the Explosive effect, this will not affect the thrower unless they throw the pearl close to them, or have the Riding effect applied. This effect is also followed by ice cracking sound and snow particles.%n%nRiding (Lead)%nThe thrower will "ride" the pearl to its destination. During the ride, if another pearl with this effect is thrown, the previous pearl will destroy itself and deal fall damage (unless No fall damage effect is applied). Since Release 1.0.0, staying in air for long time will not kick the player for flying.%n%nTrivia:%nThe Enhanced Ender Pearls can still be used for crafting an Eye of Ender%nIn inventory, you can see the glint effect enchanted items have.
+gtnh.quest2381.desc=Enhanced Ender Pearls are a special version of vanilla Ender Pearls with one or more special effects (enhancements).%n%nThe primary way of obtaining enhanced pearls is right click with End Powder in your Hand to modify your enderpearl. An important feature of the effects is stacking, which means that you can continue adding as many effects to one pearl as you want.%n%nThese effects are useful when throwing the pearl, for pearl teleportation effects.%n%nNatural occurence:%nIt is possible to find pearls with random effects in Dungeon Tower's loot chests.%n%nEnhancements:%nNo fall damage (Wool)%nUpon pearl's landing, the player will not receive any fall damage.%n%nNo gravity (Feather)%nThe pearl will not follow the rules of gravity, which makes it possible to throw it straight up. After 10 seconds of flight, the pearl is automatically destroyed without any teleportation or fall damage.%n%nIncreased range (String)%nUnlike No gravity effect, the pearl will fall down due to gravity, but will do so 25% slower. If the pearl has the No gravity effect too, it will override this effect.%n%nDouble speed (Gold Nugget)%nIncreases pearl's speed by a factor of 2, but won't change the flight trajectory. This can be helpful if you are in a bad situation (fell in lava, swarm of mobs around...) and need to be saved very quickly. In combination with Riding effect, people may notice slight stuttering on a server.%n%nExplosive (Gunpowder)%nUpon landing, the pearl will explode with radius of 2.7 (TNT has radius of 4). This will not harm the thrower as long as they are far enough from the landing spot.%n%nFreeze (Snowball) %nThe pearl will freeze mobs and players within 5 blocks of the landing spot for at least 4 seconds. Just as the Explosive effect, this will not affect the thrower unless they throw the pearl close to them, or have the Riding effect applied. This effect is also followed by ice cracking sound and snow particles.%n%nRiding (Lead)%nThe thrower will "ride" the pearl to its destination. During the ride, if another pearl with this effect is thrown, the previous pearl will destroy itself and deal fall damage (unless No fall damage effect is applied). Since Release 1.0.0, staying in air for a long time will not kick the player for flying.%n%nTrivia:%nThe Enhanced Ender Pearls can still be used for crafting an Eye of Ender%nIn inventory, you can see the glint effect enchanted items have.
 
 # Quest.2382 - Infused Altar
 gtnh.quest2382.name=Infused Altar
-gtnh.quest2382.desc=Altar with one or more special effects (enhancements).%n%nThe primary way of obtaining enhanced Altar is right click with End Powder in your Hand to modify your Brewingstand. An important feature of the effects is stacking, which means that you can continue adding as many effects to oneAltar as you want.%n%nEnhancements:%nRange (Block of Lapis)%nIncrease the range a item can be infused by the Altar.%n%nSpeed (Block of Redstone)%nIncreasing the speed of the Altar.%n%nEfficency (Block of Emerald)%nReduce the cost of Dragon Essence using in a Altar recipe.
+gtnh.quest2382.desc=Altar with one or more special effects (enhancements).%n%nThe primary way of obtaining an enhanced Altar is to right click a Brewing Stand with End Powder in your Hand. An important feature of the effects is stacking, which means that you can continue adding as many effects to one Altar as you want.%n%nEnhancements:%nRange (Block of Lapis)%nIncrease the range a item can be infused by the Altar.%n%nSpeed (Block of Redstone)%nIncreasing the speed of the Altar.%n%nEfficency (Block of Emerald)%nReduce the cost of Dragon Essence using in a Altar recipe.
 
 # Quest.2383 - Curse Master
 gtnh.quest2383.name=Curse Master
@@ -9538,23 +9538,67 @@ gtnh.quest2383.desc=Curse of Teleportation%nTeleport Entities randomly around.%n
 
 # Quest.2384 - Charm Master
 gtnh.quest2384.name=Charm Master
-gtnh.quest2384.desc=Craft all this Charms to be Master of Charms.
+gtnh.quest2384.desc=You think you're charming? Craft all these Charms to be the true Master of Charms.
 
 # Quest.2385 - Master Grinder
 gtnh.quest2385.name=Master Grinder
 gtnh.quest2385.desc=After conquering most the of content inside of the End, it is time for a Master Quest. %nBring forth and slay the following and you shall receive some moderately great loot.
 
-# Quest.2386 - §9§lHydrazine
-gtnh.quest2386.name=§9§lHydrazine
-gtnh.quest2386.desc=Combining ammonia and hydrogen in a chemical reactor produces some hydracine.
+# Quest.2386 - Indium Dust
+gtnh.quest2386.name=Indium Dust
+gtnh.quest2386.desc=What some Indium? Buy §msome§r one!
 
-# Quest.2387 - §9§lFormaldehydeCatalyst Dust
-gtnh.quest2387.name=§9§lFormaldehydeCatalyst Dust
-gtnh.quest2387.desc=Combining iron and vanadium dust in a mixer will produces some formaldehyde catalyst dust.
+# Quest.2387 - Mutating Sprig
+gtnh.quest2387.name=Mutating Sprig
+gtnh.quest2387.desc=The Mutating Sprig brings a degree of order to the chaotic nature of Mutandis, allowing more limited, but also more predictable effects. It is a key tool in the creation of plant-based devices such as the Leech Chest.%n%nThe Mutating Sprig is crafted in the crafting bench using an Ent Twig, netherwart and Mutandis Extremis.%n%nGrass - Mutates to Mycellium%nMycellium - Mutates to Grass%nDirt (under water) - Mutates to Clay%n%nWheat in a proper configuration should mutate to wormwood, but because of other mods that is blocked. You can buy wormwood from the Coins tab.
 
-# Quest.2388 - §a§lRocket Engine EV
-gtnh.quest2388.name=§a§lRocket Engine EV
-gtnh.quest2388.desc=The Rocket engine is a GT++ device use rocket fuel to produce EU.
+# Quest.2388 - Wormwood
+gtnh.quest2388.name=Wormwood
+gtnh.quest2388.desc=Due to mod conflict, you can't make Wormwood the normal way. So you can buy some with coins.
+
+# Quest.2389 - HP Solar Boilers
+gtnh.quest2389.name=HP Solar Boilers
+gtnh.quest2389.desc=Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. The HP solar boiler will heat up §lvery §r§c§4fast, so make sure you are ready with water.
+
+# Quest.2390 - §a§lTiny bit of Tungstensteel
+gtnh.quest2390.name=§a§lTiny bit of Tungstensteel
+gtnh.quest2390.desc=With your moon rocks or lava centrifuge, you will need to extract a little bit of tungsten and turn it into tungstensteel for the Tier 2 rocket.
+
+# Quest.2391 - Bigger Drums
+gtnh.quest2391.name=Bigger Drums
+gtnh.quest2391.desc=Now that you have drums, you want them larger? Already??%n%nWell, in that case, you better start collecting or making cobblestone, by the tens of thousands. And making explosives, whichever you prefer.%n%nCompress the cobblestone in an assembler first with circuit 1, then run them through the Implosion Compressor until you get Quadruple Compressed Cobblestone. Do that four times, and then another pass through the assembler with a diamond block, and there you have it - one bedrockium ingot.%n%nNow do that 5 more times, and you can make yourself a bedrockium drum.%n%n64k buckets of portable fluid. Perfect for your new Ore drill!%n
+
+# Quest.2392 - Horn of the Hunt
+gtnh.quest2392.name=Horn of the Hunt
+gtnh.quest2392.desc=Did you goof and somehow lose the Horned Huntsman before you could kill him? Well... You can summon him again using the hard way, or pay coins to get another horn.
+
+# Quest.2393 - Fertilized Earth
+gtnh.quest2393.name=Fertilized Earth
+gtnh.quest2393.desc=With a Chemical Reactor, you can make Fertilized Earth. It ticks over faster than normal farmland, so crops will mature much faster. As a bonus, it can be tilled away from water and doesn't get damaged when you fall on it.%n%nDoes allow IC2 crop placed on them, but will not accelerate the crops.
+
+# Quest.2394 - Hydrazine
+gtnh.quest2394.name=Hydrazine
+gtnh.quest2394.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.
+
+# Quest.2395 - Formaldehyde Catalyst Dust
+gtnh.quest2395.name=Formaldehyde Catalyst Dust
+gtnh.quest2395.desc=Making Formaldehyde will require a catalyst. You can make this dust by mixing iron and vanadium.
+
+# Quest.2396 - Hydrogen Peroxide
+gtnh.quest2396.name=Hydrogen Peroxide
+gtnh.quest2396.desc=Hydrogen Peroxide is made in a GT++ Chemical Plant.%n%nGood luck figuring out that recipe chain!%n
+
+# Quest.2397 - Playing with the Big Boys, chemically
+gtnh.quest2397.name=Playing with the Big Boys, chemically
+gtnh.quest2397.desc=Once you have a full LV setup along with an EBF, you can start thinking about making a Chemical Plant. This facility will process certain chemical recipes you'll need later on.%n%nIt will need a mine cart load of reources, so start mining!%n%nUnder Construction.
+
+# Quest.2398 - §3§lHidden drawers
+gtnh.quest2398.name=§3§lHidden drawers
+gtnh.quest2398.desc=You might notice once you get a wall of drawers that looking that direction gives you a little lag. If the lag gets back enough, you can craft this key to stop putting the item on the front. Very handy for the drawer controller!
+
+# Quest.2399 - I know his name!
+gtnh.quest2399.name=I know his name!
+gtnh.quest2399.desc=The Name Remover is a simple utility machine that can strip off incorrect or useless NBT data. %n%nGregtech "remembers" how you made items, in case you want to disassemble them later. This means that items made slightly differently can't stack.  This machine will remove that disassembly NBT data so all those items will now stack together. %n%nObviously, this means you can't disassemble the item you put through this machine. 
 
 ##################################Line##################################
 
@@ -9596,7 +9640,7 @@ gtnh.line8.desc=If you have made it this far, you should walk with your head hel
 
 # QuestLine.9 - Fusion
 gtnh.line9.name=Fusion
-gtnh.line9.desc=Making power for the lategame tiers, LuV-UMV
+gtnh.line9.desc=Making power for the lategame tiers, LuV-UMV. Only 20 years away!
 
 # QuestLine.10 - Fishing Farming Cooking
 gtnh.line10.name=Fishing Farming Cooking

@@ -4908,12 +4908,12 @@ languagefile {
     S:TileEntity_DESCRIPTION_1541_Index_2=线损/米/安： %s 伏
     S:TileEntity_DESCRIPTION_15420_Index_0=§9§9Tec§1Tech§9：维度穿越
     S:TileEntity_DESCRIPTION_15420_Index_1=多方块机器的参数化支持
-    S:TileEntity_DESCRIPTION_15420_Index_2=§b§l§b§lE=mine*craft^2
+    S:TileEntity_DESCRIPTION_15420_Index_2=§b§l§b§lE=mine*craft²
     S:TileEntity_DESCRIPTION_15421_Index_0=§9§9Tec§1Tech§9: 维度穿越
-    S:TileEntity_DESCRIPTION_15421_Index_1=多方块机器的参数化
+    S:TileEntity_DESCRIPTION_15421_Index_1=多方块机器的参数化支持
     S:TileEntity_DESCRIPTION_15421_Index_2=§b§l§b§lE=mine*craft²
     S:TileEntity_DESCRIPTION_15422_Index_0=§9Tec§1Tech§9：维度穿越
-    S:TileEntity_DESCRIPTION_15422_Index_1=多方块机器的参数化
+    S:TileEntity_DESCRIPTION_15422_Index_1=多方块机器的参数化支持
     S:TileEntity_DESCRIPTION_15422_Index_2=§b§lE=mine*craft²
     S:TileEntity_DESCRIPTION_1542_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1542_Index_1=最大电流： %s
@@ -4929,19 +4929,19 @@ languagefile {
     S:TileEntity_DESCRIPTION_1543_Index_2=线损/米/安： %s 伏
     S:TileEntity_DESCRIPTION_15440_Index_0=§9§9Tec§1Tech§9：万物基石
     S:TileEntity_DESCRIPTION_15440_Index_1=多方块机器的数据输入
-    S:TileEntity_DESCRIPTION_15440_Index_2=高速光纤的接口
+    S:TileEntity_DESCRIPTION_15440_Index_2=高速光纤接口
     S:TileEntity_DESCRIPTION_15440_Index_3=§b启用前必须涂色
     S:TileEntity_DESCRIPTION_15441_Index_0=§9§9Tec§1Tech§9：万物基石
     S:TileEntity_DESCRIPTION_15441_Index_1=多方块机器的数据输出
-    S:TileEntity_DESCRIPTION_15441_Index_2=高速光纤的接口
+    S:TileEntity_DESCRIPTION_15441_Index_2=高速光纤接口
     S:TileEntity_DESCRIPTION_15441_Index_3=§b启用前必须涂色
     S:TileEntity_DESCRIPTION_15442_Index_0=§9§9Tec§1Tech§9: 万物基石
     S:TileEntity_DESCRIPTION_15442_Index_1=多方块机器的数据输入
-    S:TileEntity_DESCRIPTION_15442_Index_2=高速光纤的接口
+    S:TileEntity_DESCRIPTION_15442_Index_2=高速光纤接口
     S:TileEntity_DESCRIPTION_15442_Index_3=§b§b启用前必须涂色
     S:TileEntity_DESCRIPTION_15443_Index_0=§9§9Tec§1Tech§9: 万物基石
     S:TileEntity_DESCRIPTION_15443_Index_1=多方块机器的数据输出
-    S:TileEntity_DESCRIPTION_15443_Index_2=高速光纤的接口
+    S:TileEntity_DESCRIPTION_15443_Index_2=高速光纤接口
     S:TileEntity_DESCRIPTION_15443_Index_3=§b§b启用前必须涂色
     S:TileEntity_DESCRIPTION_1544_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1544_Index_1=最大电流： %s
@@ -4967,7 +4967,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_15465_Index_1=激光隧道设备
     S:TileEntity_DESCRIPTION_15465_Index_2=§b§l要有光!!!
     S:TileEntity_DESCRIPTION_15465_Index_3=§b启用前必须涂色
-    S:TileEntity_DESCRIPTION_15465_Index_4=§b§b请勿交叉、分流或转弯
+    S:TileEntity_DESCRIPTION_15465_Index_4=§b§b请勿分流或转弯
     S:TileEntity_DESCRIPTION_1546_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1546_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1546_Index_2=线损/米/安： %s 伏
@@ -5032,11 +5032,11 @@ languagefile {
     S:TileEntity_DESCRIPTION_15495_Index_3=§9无限的生产者/消费者
     S:TileEntity_DESCRIPTION_15496_Index_0=§9Tec§1Tech§9：万物基石
     S:TileEntity_DESCRIPTION_15496_Index_1=量子数据输出
-    S:TileEntity_DESCRIPTION_15496_Index_2=高速光纤的接口
+    S:TileEntity_DESCRIPTION_15496_Index_2=高速光纤接口
     S:TileEntity_DESCRIPTION_15496_Index_3=启用前必须涂色
     S:TileEntity_DESCRIPTION_15497_Index_0=§9§9Tec§1Tech§9: θ运动
     S:TileEntity_DESCRIPTION_15497_Index_1=用于维护多方块
-    S:TileEntity_DESCRIPTION_15497_Index_2=它能自己修好一切.
+    S:TileEntity_DESCRIPTION_15497_Index_2=它能修好一切，除了自己.
     S:TileEntity_DESCRIPTION_15497_Index_3=§b§b为人民服务!
     S:TileEntity_DESCRIPTION_15498_Index_0=§9§9Tec§1Tech§9：维度穿越
     S:TileEntity_DESCRIPTION_15498_Index_1=凭空而生的能量
@@ -10543,7 +10543,7 @@ languagefile {
     S:gt.blockhintTT.1.name=提示方块：2号
     S:gt.blockhintTT.10.name=提示方块：11号
     S:gt.blockhintTT.11.name=提示方块：12号
-    S:gt.blockhintTT.12.name=提示方块：普通
+    S:gt.blockhintTT.12.name=提示方块：一般
     S:gt.blockhintTT.13.name=提示方块：空气
     S:gt.blockhintTT.14.name=提示方块：非空气
     S:gt.blockhintTT.15.name=提示方块：错误
@@ -11731,10 +11731,10 @@ languagefile {
     S:gt.blockmachines.crate.tier.01.name=互联板条箱
     S:gt.blockmachines.cyclotron.tier.single.name=COMET-紧凑式回旋加速器
     S:gt.blockmachines.debug.tt.data.name=Debug数据仓
-    S:gt.blockmachines.debug.tt.genny.name=创造能量发生器(调试用)
+    S:gt.blockmachines.debug.tt.genny.name=Debug发电机
     S:gt.blockmachines.debug.tt.maintenance.name=Debug维护仓
     S:gt.blockmachines.debug.tt.pollutor.name=Debug污染生成机
-    S:gt.blockmachines.debug.tt.writer.name=创造结构打印器(调试用)
+    S:gt.blockmachines.debug.tt.writer.name=Debug结构打印机
     S:gt.blockmachines.dehp.name=深地热泵
     S:gt.blockmachines.diode12aev.name=线缆二极管 12A EV
     S:gt.blockmachines.diode12ahv.name=线缆二极管 12A HV
