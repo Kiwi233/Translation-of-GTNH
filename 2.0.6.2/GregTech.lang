@@ -1090,7 +1090,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1000_Index_6=1x维护仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_1000_Index_7=1x消声仓(顶层正中)
     S:TileEntity_DESCRIPTION_1000_Index_8=1x输出仓以回收CO2/CO/SO2(可选，任意顶层机械方块)
-    S:TileEntity_DESCRIPTION_1000_Index_9=    回收比例决定于消声仓等级
+    S:TileEntity_DESCRIPTION_1000_Index_9=    回收比例取决于消声仓等级
     S:TileEntity_DESCRIPTION_1001_Index_0=聚爆压缩机的控制器方块
     S:TileEntity_DESCRIPTION_1001_Index_1=大小(宽x高x长)：3x3x3(中空)，控制器方块(正面正中)
     S:TileEntity_DESCRIPTION_1001_Index_2=1x输入总线(任意机械方块)
@@ -1747,7 +1747,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1131_Index_4=1x动力仓(背面正中)
     S:TileEntity_DESCRIPTION_1131_Index_5=剩余方块为涡轮机械方块(至少24个！)
     S:TileEntity_DESCRIPTION_1131_Index_6=需要涡轮转子(控制器方块的GUI中)
-    S:TileEntity_DESCRIPTION_1131_Index_7=输出决定于转子与节流模式
+    S:TileEntity_DESCRIPTION_1131_Index_7=输出取决于转子与节流模式
     S:TileEntity_DESCRIPTION_1131_Index_8=使用螺丝刀右击正面以调整节流模式
     S:TileEntity_DESCRIPTION_1131_Index_9=使用螺丝刀调节涡轮松紧度
     S:TileEntity_DESCRIPTION_11320_Index_0=最大电压： %s
@@ -1938,7 +1938,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1152_Index_4=1x动力仓(背面正中)
     S:TileEntity_DESCRIPTION_1152_Index_5=剩余方块为钛涡轮机械方块(至少24个！)
     S:TileEntity_DESCRIPTION_1152_Index_6=需要涡轮转子(控制器方块的GUI中)
-    S:TileEntity_DESCRIPTION_1152_Index_7=输出决定于转子与节流模式
+    S:TileEntity_DESCRIPTION_1152_Index_7=输出取决于转子与节流模式
     S:TileEntity_DESCRIPTION_1152_Index_8=使用螺丝刀右击正面以调整节流模式
     S:TileEntity_DESCRIPTION_1152_Index_9=使用螺丝刀调节涡轮松紧度
     S:TileEntity_DESCRIPTION_1153_Index_0=大型等离子涡轮的控制器方块
@@ -6869,7 +6869,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_861_Index_4=每4tick产生1000升空气
     S:TileEntity_DESCRIPTION_869_Index_0=需要RTG靶丸(RTG为放射性同位素温差发电机的缩写)
     S:TileEntity_DESCRIPTION_869_Index_1=燃料的燃料时间数以MC日计(可使用扫描仪查看)
-    S:TileEntity_DESCRIPTION_869_Index_2=RTG的输出电压决定于所用的燃料
+    S:TileEntity_DESCRIPTION_869_Index_2=RTG的输出电压取决于所用的燃料
     S:TileEntity_DESCRIPTION_869_Index_3=每刻以100%的效率产生能源。
     S:TileEntity_DESCRIPTION_869_Index_4=输出电压：0 EU/t
     S:TileEntity_DESCRIPTION_869_Index_5=添加者： §2Alkalus §7- §c[GT++]
@@ -7409,7 +7409,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_962_Index_3=每秒最多消耗423L蒸汽
     S:TileEntity_DESCRIPTION_963_Index_0=炽焱高炉的控制器方块
     S:TileEntity_DESCRIPTION_963_Index_1=工作时每2t消耗1L烈焰之炽焱(视配方耗时向下取整)
-    S:TileEntity_DESCRIPTION_963_Index_10=回收比例决定于消声仓等级
+    S:TileEntity_DESCRIPTION_963_Index_10=回收比例取决于消声仓等级
     S:TileEntity_DESCRIPTION_963_Index_11=剩余方块为炽焱高炉机械方块
     S:TileEntity_DESCRIPTION_963_Index_12=自配方的最小炉温起，每高出900K会减少5%的能耗，以乘法叠加
     S:TileEntity_DESCRIPTION_963_Index_13=自配方的最小炉温起，每高出1800K将允许一次无损超频
