@@ -250,7 +250,7 @@ gtnh.quest61.desc=有了更耐用的钢外壳,你可以用岩浆来制造些蒸�
 
 # Quest.62 - §3§lThe power of the sun
 gtnh.quest62.name=§3§l太阳之力
-gtnh.quest62.desc=太阳肯定有很多能量,那何不利用它来产生些蒸汽？ 从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽. §4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能. 译者注:只要把锅炉拆掉重新放置就能重置钙化(￣▽￣)~*  它会迅速升温,因此请确保已准备好水.
+gtnh.quest62.desc=太阳肯定有很多能量,那何不利用它来产生些蒸汽？ 从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽. §4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能. 译者注:只要把锅炉拆掉重新放置就能重置钙化(￣▽￣)~*  它会迅速升温,所以一定要准备好水.
 
 # Quest.63 - §3§lUsing steam to cook things
 gtnh.quest63.name=§3§l用蒸汽烹饪
@@ -3426,7 +3426,7 @@ gtnh.quest855.desc=要制造一氧化氮你需要在化学反应釜中结合氧�
 
 # Quest.856 - §9§l1,1-Dimetylhydrazine
 gtnh.quest856.name=§9§l偏二甲肼
-gtnh.quest856.desc=要制造偏二甲肼,你需要1单位的肼和1单位的甲醛以及2单位的氢气进行反应.
+gtnh.quest856.desc=要制造偏二甲肼,你需要将1单位的肼和1单位的甲醛以及2单位的氢气进行反应.
 
 # Quest.857 - §9§lFormaldehyde
 gtnh.quest857.name=§9§l甲醛
@@ -7058,7 +7058,7 @@ gtnh.quest1763.desc=好吧,你有你的电脑,它说“Hello World！”当你�
 
 # Quest.1764 - Basic Power Display
 gtnh.quest1764.name=基本电源显示
-gtnh.quest1764.desc=对于这一部分,我们将学习如何使用我们的适配器,将它放在旁边-比如你的工业高炉(EBF)电池缓冲区并用线缆将它连接到计算机. 现在让我们在计算机上键入lua以打开LUA环境我们可以测试事物而不用担心保存和尝试我们的程序. 在'component.list（）'中输入这将显示一个包含组件中所有.list的表.我们正在寻找的是gt_batterybuffer. 如果附近有太多东西可能无法显示,搜索整个组件列表的方式对于初学者来说太先进了. 现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法. 我们在这个例子中将使用的是'getBatteryCharge'方法.因此输入\ n'a.getBatteryCharge（1）'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge. 因此,如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print（a.getBatteryCharge（i））end 目前你看看EU所有电池的价值.现在我们可以做些什么呢？ 尝试制作一个名为'batteryCharge = 0'的变量,现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge（i）end' 现在打印（ batteryCharge）将显示总电量.这是一个使用它的程序示例. 在你的磁带机中放置并键入“install”,然后按照提示将其安装到C中.然后编辑它,测试它,确定它是如何工作的. 我想这就足够了;恭喜！实验和学习,不要忘记尽可能多地检查谷歌！ 这个任务线将来会再次更新;但我认为现在这是一个很好的结局. 原文:For this part we will learn how to use our adapter,  place it next to- let's say your EBFs battery buffer and connect it to the computer with cables.\nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.  Type in 'component.list()'   this will display a table of all of .list from component.  What we're looking for is gt_batterybuffer.\nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.  So now assign a variable to it;for example 'a = component.gt_batterybuffer'; now we can call 'a' to see what methods the batteryBuffer has.\nWhat we'll be using in this example is the 'getBatteryCharge' method.  So type\n 'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.   So if we're using a 2x2 battery buffer;we can type something like- 'for i=1, 4 do print(a.getBatteryCharge(i)) end\nPoof you now see what all the batteries EU values.  Now what can we do with this?  Try making a variable called 'batteryCharge = 0',  now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'  Now print(batteryCharge) will display the total charge. Here's a program example of this being used.  Place in your tape drive and type 'install', and follow the promps to install it into C.  Then edit it, test it, figure how it works.  I suppose that's enough for now;congrats!  Experiment and learn, and don't forget to check google as much as possible!  \nThis questline will be updated again in the future;but I figure this is a good ending point for now.
+gtnh.quest1764.desc=对于这一部分,我们将学习如何使用我们的适配器,将它放在旁边-比如你的工业高炉(EBF)电池缓冲区并用线缆将它连接到计算机. 现在让我们在计算机上键入lua以打开LUA环境我们可以测试事物而不用担心保存和尝试我们的程序. 在'component.list（）'中输入这将显示一个包含组件中所有.list的表.我们正在寻找的是gt_batterybuffer. 如果附近有太多东西可能无法显示,搜索整个组件列表的方式对于初学者来说太先进了. 现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法. 我们在这个例子中将使用的是'getBatteryCharge'方法.因此输入\ n'a.getBatteryCharge（1）'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge. 因此,如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print（a.getBatteryCharge（i））end 目前你看看EU所有电池的价值.现在我们可以做些什么呢？ 尝试制作一个名为'batteryCharge = 0'的变量,现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge（i）end' 现在打印（ batteryCharge）将显示总电量.这是一个使用它的程序示例. 在你的磁带机中放置并键入“install”,然后按照提示将其安装到C中.然后编辑它,测试它,确定它是如何工作的. 我想这就足够了;恭喜！实验和学习,不要忘记尽可能多地检查谷歌！ 这个任务线将来会再次更新;但我认为现在这是一个很好的结局. 原文:For this part we will learn how to use our adapter,  place it next to- let's say your EBFs battery buffer and connect it to the computer with cables.%nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.  Type in 'component.list()'   this will display a table of all of .list from component.  What we're looking for is gt_batterybuffer.%nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.  So now assign a variable to it;for example 'a = component.gt_batterybuffer'; now we can call 'a' to see what methods the batteryBuffer has.%nWhat we'll be using in this example is the 'getBatteryCharge' method.  So type%n 'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.   So if we're using a 2x2 battery buffer;we can type something like- 'for i=1, 4 do print(a.getBatteryCharge(i)) end%nPoof you now see what all the batteries EU values.  Now what can we do with this?  Try making a variable called 'batteryCharge = 0',  now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'  Now print(batteryCharge) will display the total charge. Here's a program example of this being used.  Place in your tape drive and type 'install', and follow the promps to install it into C.  Then edit it, test it, figure how it works.  I suppose that's enough for now;congrats!  Experiment and learn, and don't forget to check google as much as possible!  %nThis questline will be updated again in the future;but I figure this is a good ending point for now.
 
 # Quest.1765 - Online Shopping - Tier 1
 gtnh.quest1765.name=在线购物-第一阶
@@ -8405,12 +8405,8 @@ gtnh.quest2100.name=实验台
 gtnh.quest2100.desc=试验台是个可以放置各种数据库的方块(右键放置),包括养蜂人数据库、林业员数据库、园丁数据库和基因数据库. 靠近并右键放置了数据库的试验台,即可访问数据库.
 
 # Quest.2101 - Orchard Apple
-#B gtnh.quest2101.name=Combined analyzers
-#A gtnh.quest2101.name=Orchard Apple
-#C gtnh.quest2101.name=组合分析仪
-#B gtnh.quest2101.desc=Tired of carrying around seperate bee, tree, and butterfly analyzers? This combined tool will do all 3.
-#A gtnh.quest2101.desc=The Orchard Apple tree has a couple of nice traits. The Faster maturity trait means it will turn from sapling to tree quickly. The Higher yield is the best yield from any Forestry tree. Breed the Orchard Apple from an Apple Oak and Hill Cherry.\n\nIf you want Fastest maturity for quick tree farms, you can breed Golden Raspberry. Try and figure out the breeding chain yourself.
-#C gtnh.quest2101.desc=厌倦了带着蜜蜂、林木、蝴蝶三种分析仪到处跑?这个三合一工具可以解决你的烦恼.
+gtnh.quest2101.name=苹果树
+gtnh.quest2101.desc=苹果树有两个很好的属性.较快的生长属性意味着它可以很快从树苗长成树.更高的产量是任何林业树木的最佳属性.苹果树由苹果橡树与山丘樱杂交培育而来.%n%n如果你想要最快生长速度,可以培育金树莓.尝试自己找出它的培育线吧.
 
 # Quest.2102 - Registry
 gtnh.quest2102.name=图鉴
@@ -8534,9 +8530,7 @@ gtnh.quest2131.desc=柠檬树最适合生产果汁.用山丘樱和银橙杂交�
 
 # Quest.2132 - Plum
 gtnh.quest2132.name=李树
-#B gtnh.quest2132.desc=The Plum is a great multipurpose tree.  It has optimal yield and its fruit produces mulch with the highest chance. It also has decent sappiness for biomass production. Breed it by mating Hill Cherry with Lemon.
-#A gtnh.quest2132.desc=The Plum is a great multipurpose tree.  It has High yield and its fruit produces mulch with the highest chance. It also has decent sappiness for biomass production. Breed it by mating Hill Cherry with Lemon.
-#C gtnh.quest2132.desc=李子树是一种多用途树.  产量最优,果实覆盖率最高.对于生物质生产,它的多汁属性也不错.用山丘樱和柠檬树杂交培育而来.
+gtnh.quest2132.desc=李子树是一种多用途树.  产量很高,果实覆盖率最高.它的多汁属性也不错,适合用于生产生物质.由山丘樱和柠檬树杂交培育而来.
 
 # Quest.2133 - Desert Acacia
 gtnh.quest2133.name=沙漠刺槐
@@ -8588,9 +8582,7 @@ gtnh.quest2144.desc=如果你想让多A电流通过你的超净间墙壁,使用�
 
 # Quest.2145 - §1§lE_TOO_MANY_KEYS
 gtnh.quest2145.name=§1§l错误:太多按键需要绑定
-#B gtnh.quest2145.desc=ERROR: Too many keys to fit a 104 key keyboard. You will need to redefine your keymap so that you can use things effectively.  Here is a list of keys you should deconflict.\n\nAdventure Backpacks\nB - Inventory\nV - Toggle\nBackpacks\nG - Open Backpack (sneak-G to wear/remove backpack and set filtering)\nDark Steel Armor\nApostrophe - Night Vision\nGameplay\nR - Draw Weapons\nZ - Special (cycle arrows on M&B quiver)\nNONE - Drop Item (Who wants to throw a backpack into lava?)\nIC2\nC - Side Invetory Key\nJourneymap\nHome - Make Waypoint\nJ - Open Map\n= - Zoom In (works on minimap too)\n- - Zoom Out (same)\nMisc\nH - Toggle Hover Harness\nF - Toggle Wand Focus\nTC Node Tracker\nI - Node List (must be scanned, goggles allow compass)\nX - Zoom key (handy for checking on distant ores on a mountain)\nTinker's Construct\nDelete - Traveller's Belt Swap Hotbar
-#A gtnh.quest2145.desc=ERROR: Too many keys to fit a 104 key keyboard. You will need to redefine your keymap so that you can use things effectively.  Here is a list of keys you should deconflict. If messing with the keymap corrupts your config file, it may cause crashes. If you get crashes, make sure your options.txt file is fixed.\n\nAdventure Backpacks\nB - Inventory\nV - Toggle\n\nBackpacks\nG - Open Backpack (sneak-G to wear/remove backpack and set filtering)\n\nDark Steel Armor\nApostrophe - Night Vision\n\nGameplay\nR - Draw Weapons\nZ - Special (cycle arrows on M&B quiver)\nNONE - Drop Item (Who wants to throw a backpack into lava?)\n\nIC2\nC - Side Invetory Key\n\nJourneymap\nHome - Make Waypoint\nJ - Open Map\n= - Zoom In (works on minimap too)\n- - Zoom Out (same)\n\nMisc\nH - Toggle Hover Harness\nF - Toggle Wand Focus\n\nTC Node Tracker\nI - Node List (must be scanned, goggles allow compass)\nX - Zoom key (handy for checking on distant ores on a mountain)\n\nTinker's Construct\nDelete - Traveller's Belt Swap Hotbar
-#C gtnh.quest2145.desc=错误:键盘只有104个按键,但有太对需要绑定了.你需要重新定义你的键位,这样你才能更有效地使用快捷键.  这是你应该解决冲突的快捷键列表.  Adventure Backpacks\nB - Inventory\nV - Toggle\nBackpacks\nG - Open Backpack (Shift+G以穿上/脱下背包并设置过滤)\nDark Steel Armor\nApostrophe - Night Vision\nGameplay\nR - Draw Weapons\nZ - Special (cycle arrows on M&B quiver)\nNONE - Drop Item (谁想把背包扔进岩浆里?)\nIC2\nC - Side Invetory Key\nJourneymap\nHome - Make Waypoint\nJ - Open Map\n= - Zoom In (小地图上同样可用)\n- - Zoom Out (同上)\nMisc\nH - Toggle Hover Harness\nF - Toggle Wand Focus\nTC Node Tracker\nI - Node List (节点必须被扫描,护目镜支持指南针)\nX - Zoom key (方便查看远处山上的矿石)\nTinker's Construct\nDelete - Traveller's Belt Swap Hotbar
+gtnh.quest2145.desc=错误:键盘只有104个按键,但有太对需要绑定了.你需要重新定义你的键位,这样你才能更有效地使用快捷键.%n%n这是你应该解决冲突的快捷键列表.%n%nAdventure Backpacks%nB - Inventory%nV - Toggle%n%nBackpacks%nG - Open Backpack (Shift+G以穿上/脱下背包并设置过滤)%n%nDark Steel Armor%nApostrophe - Night Vision%n%nGameplay%nR - Draw Weapons%nZ - Special (cycle arrows on M&B quiver)%nNONE - Drop Item (谁想把背包扔进岩浆里?)%n%nIC2%nC - Side Invetory Key%n%nJourneymap%nHome - Make Waypoint%nJ - Open Map%n= - Zoom In (小地图上同样可用)%n- - Zoom Out (同上)%n%nMisc%nH - Toggle Hover Harness%nF - Toggle Wand Focus%n%nTC Node Tracker%nI - Node List (节点必须被扫描,护目镜支持指南针)%nX - Zoom key (方便查看远处山上的矿石)%n%nTinker's Construct%nDelete - Traveller's Belt Swap Hotbar
 
 # Quest.2146 - BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
 gtnh.quest2146.name=BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS(brains)脑子
@@ -8790,9 +8782,7 @@ gtnh.quest2194.desc=镍蜂提供了一种很有用的资源.你需要在蜂箱�
 
 # Quest.2195 - Zinc
 gtnh.quest2195.name=锌蜂
-#B gtnh.quest2195.desc=Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small change of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.
-#A gtnh.quest2195.desc=Zinc makes great early game item pipes when mixed into brass. Also, these bees have a small chance of producing Gallium combs, which is very useful for players needing to make circuits or SMD devices. These bees will require a Zinc block. Breed them from Tin and Iron.
-#C gtnh.quest2195.desc=锌合金制成的黄铜是游戏早期物品管道的材料.另外,这种蜜蜂有小概率生产镓蜂巢,这对制作电路板或各种贴片元件十分有用.你需要在蜂箱下方放个锌块.由锡蜂和铁蜂杂交培育而来.
+gtnh.quest2195.desc=锌合金制成的黄铜是游戏早期物品管道的材料.另外,这种蜜蜂有小概率生产镓蜂巢,这对制作电路板或各种贴片元件十分有用.你需要在蜂箱下方放个锌块.由锡蜂和铁蜂杂交培育而来.
 
 # Quest.2196 - Lead
 gtnh.quest2196.name=铅蜂
@@ -8856,9 +8846,7 @@ gtnh.quest2210.desc=放射性材料会造成两种辐射效果.一种是大量�
 
 # Quest.2211 - Basic Bee Stats
 gtnh.quest2211.name=基础蜜蜂统计
-#B gtnh.quest2211.desc=There are a couple of basic bees that have good stats you will want to breed into your breeding stock.\n\nCave Dwelling - Rocky - This lets you put the bee housing underneath or inside. Handy for putting a chest on top for products.\n\nNocturnal - Rocky - This keeps your bees working all night long, and in the dark.\n\nRain Tolerant - Water - Keep producing even when it is raining.\n\nHigh Fertility - Wintry - For breeding purposes, you want the maximum number of drones produced.
-#A gtnh.quest2211.desc=There are a couple of basic bees that have good stats you will want to breed into your breeding stock.\n\nCave Dwelling - Rocky - This lets you put the bee housing underneath or inside. Handy for putting a chest on top for products.\n\nNocturnal - Rocky - This keeps your bees working all night long, and in the dark.\n\nRain Tolerant - Water - Keep producing even when it is raining.\n\nHigh Fertility - Wintry - For breeding purposes, you want the maximum number of drones produced.\n\nReminder - Specialty products from bees require Jubilant state. That means the bee is in its §lNATURAL§r preferred climate. So it must not be in a biome it can tolerate due to temp/humidity improvements. For example, a Salt bee needs Warm/Normal climate. Even if it has +- humidity and temp, it will not produce its Salt comb unless it is in a Warm/Normal climate. Use Alveary upgrades to make sure it is in its preferred temp/humidity.
-#C gtnh.quest2211.desc=有两种基础蜜蜂具有不错的属性,你可以加入你的培育储备中.  穴居性-石头蜂-这使你可以在蜂箱上堆东西或将其放在室内.你可以在蜂箱上放个箱子来很方便地收集产物.  夜行性-石头蜂-这使你的蜜蜂在夜间或者暗处继续工作.  耐雨飞行性-水生蜂-使你的蜜蜂在雨天继续工作.  高生育能力(x4)-凛冬蜂-培育时你需要最大的雄蜂生产能力.
+gtnh.quest2211.desc=有两种基础蜜蜂具有不错的属性,你可以加入你的培育储备中.  穴居性-石头蜂-这使你可以在蜂箱上堆东西或将其放在室内.你可以在蜂箱上放个箱子来很方便地收集产物.  夜行性-石头蜂-这使你的蜜蜂在夜间或者暗处继续工作.  耐雨飞行性-水生蜂-使你的蜜蜂在雨天继续工作.  高生育能力(x4)-凛冬蜂-培育时你需要最大的雄蜂生产能力.%n%n提示-蜜蜂需要对环境非常满意时才会生产特产.这意味着蜜蜂必须在它感觉最§l自然§r环境中.即没有强化过温度/湿度适应性前的蜜蜂所需要的温度/湿度.%n例如,盐蜂需要温暖/正常的气候.即使具有+-湿度和温度适应性,也不会在除了温暖/正常气候以外的别的气候下生产盐蜂巢.使用蜂箱升级以确保其处于首选的温度/湿度下.
 
 # Quest.2212 - Arcane
 gtnh.quest2212.name=奥能蜂
@@ -9118,9 +9106,7 @@ gtnh.quest2275.desc=幽魂蜂会生成恶魂,所以当心点(so-beeee-careful).�
 
 # Quest.2276 - Smouldering
 gtnh.quest2276.name=闷烧蜂
-#B gtnh.quest2276.desc=Smouldering drones will spawn blazes, and make Blaze Rods as their specialty. Breed the drones with your template princesses so you can prevent the harmful effects from destroying your base. Also, their Hellish temperature and Normal humidity requirements are interesting - use a Climate Acclimator or other methods to adjust the biome. Must be bred in the Nether. Breed them from Ghastly and Hateful.
-#A gtnh.quest2276.desc=Smouldering drones will spawn blazes, and make Blaze Rods as their specialty. Breed the drones with your template princesses so you can prevent the harmful effects from destroying your base. Also, their Hellish temperature and Normal humidity requirements are interesting - use a Acclimatiser from Genetics to make the bee tolerant or other methods to adjust the biome. Must be bred in the Nether. Breed them from Ghastly and Hateful.\n\nTo get their Blaze Rod drop, however, you'll need to place them in a biome that matches their default requirements. Sorry.
-#C gtnh.quest2276.desc=闷烧蜂会生成烈焰人,特产是烈焰棒.使用你的"培育储备"内的公主蜂培育它们,否则它们的特殊效果可能会毁了你的基地.另外,它们的温度要求为地狱,但湿度要求是普通,这很有趣-使用适应性调整器或别的方法来调整生物群系.必须在下界才可能培育出来.由幽魂蜂和憎恶蜂杂交培育而来.
+gtnh.quest2276.desc=闷烧蜂会生成烈焰人,特产是烈焰棒.使用你的"培育储备"内的公主蜂培育它们,否则它们的特殊效果可能会毁了你的基地.另外,它们的温度要求为地狱,但湿度要求是普通,这很有趣-使用基因工业的适应性调整器或别的方法来调整生物群系.必须在下界才可能培育出来.由幽魂蜂和憎恶蜂杂交培育而来.%n%n但是抱歉,要使它们生产烈焰棒,你需要将它们放置在符合其默认要求的生物群系中.
 
 # Quest.2277 - Refined
 gtnh.quest2277.name=精炼蜂
@@ -9196,15 +9182,11 @@ gtnh.quest2294.desc=这种火箭引擎非常浪费,燃料效率仅为60％. 每�
 
 # Quest.2295 - §l§6§lGetting your first Platinum
 gtnh.quest2295.name=§l§6§l获得第一块铂锭
-#B gtnh.quest2295.desc=Efficient Platinum processing is quite complicated. But for now, we can just smelt it directly into nuggets. This might not be the most efficient route to take, but it is enough for what we want to do next.
-#A gtnh.quest2295.desc=Efficient Platinum processing is quite complicated. But for now, we can just smelt it directly into nuggets. This might not be the most efficient route to take, but it is enough for what we want to do next.\n\nAt this tier, your best source of platinum is Nickel ores from the Twilight Forest, or maybe Endstone Dust if you've managed to survive the End already.
-#C gtnh.quest2295.desc=高效的铂处理相当复杂.但是现在,我们可以直接将其熔炼成铂锭.这可能不是最高效的方法,但是对于我们接下来要做的事情已经足够了.
+gtnh.quest2295.desc=高效的铂处理相当复杂.但是现在,我们可以直接将其熔炼成铂锭.这可能不是最高效的方法,但是对于我们接下来要做的事情已经足够了.%n%n在这个阶段,铂的最优来源是暮色森林中的镍矿石,或末地石粉(如果你已经能在末地生存).
 
 # Quest.2296 - §a§lPlatinum Processing, Step 4
 gtnh.quest2296.name=§a§l铂处理,步骤4
-#B gtnh.quest2296.desc=Platinum Cloride? You promised Pure Platinum Metal at a much higher efficiency than just smelting it! No worries, just react the Platinum Cloride with Calcium and you are done. The calcium and clorine can be recycled aswell!
-#A gtnh.quest2296.desc=Platinum Chloride? You promised Pure Platinum Metal at a much higher efficiency than just smelting it! No worries, just react the Platinum Chloride with Calcium and you are done. The calcium and chlorine can be recycled as well!
-#C gtnh.quest2296.desc=氯化铂?这就是我说的更高效的铂处理方式,其获取纯铂的效率远高于直接熔炼!不用担心,只需将氯化铂与钙反应即可获得纯铂,而钙和氯还可以循环利用!
+gtnh.quest2296.desc=氯化铂?这就是我说的更高效的铂处理方式,其获取纯铂的效率远高于直接熔炼!不用担心,只需将氯化铂与钙反应即可获得纯铂,而钙和氯还可以循环利用!
 
 # Quest.2297 - §a§lPlatinum Processing, Step 3
 gtnh.quest2297.name=§a§l铂处理,步骤3
@@ -9220,48 +9202,30 @@ gtnh.quest2299.desc=现在,你已经获得了所需的所有化学品.那么,首
 
 # Quest.2300 - §a§lPlatinum Processing, Step 1
 gtnh.quest2300.name=§a§l铂处理,步骤1
-#B gtnh.quest2300.desc=Aqua Regia, the water of the Kings, is a chemical that will melt down Platinum. The perfect solvent for Platinum processing. Get a few Cells of it.
-#A gtnh.quest2300.desc=Aqua Regia, the water of the Kings, is a chemical that will dissolve Platinum. The perfect solvent for Platinum processing. Get a few Cells of it.
-#C gtnh.quest2300.desc=王水-酸中之王-是一种可以溶解铂的化学物质.铂处理的理想溶剂.制备一些吧.
+gtnh.quest2300.desc=王水-酸中之王-是一种可以溶解铂的化学物质.这是铂处理的理想溶剂.制备一些吧.
 
 # Quest.2301 - §a§lPlatinum Processing, Step 2a
 gtnh.quest2301.name=§a§l铂处理,步骤2a
-#B gtnh.quest2301.desc=Ammonium Chloride is a Chemical that is used to fall out the dissolved Platinum in a purer Form, you will need some of this.
-#A gtnh.quest2301.desc=Ammonium Chloride is a Chemical that is used to precipitate the dissolved Platinum in a purer Form, you will need some of this.
-#C gtnh.quest2301.desc=氯化铵是一种化学物质,可用于将溶解的铂以纯净状态析出,你需要制备一些.
+gtnh.quest2301.desc=氯化铵是一种化学物质,可用于将溶解的铂以纯净态析出,你需要制备一些.
 
 # Quest.2302 - §a§lBack to Step 1
 gtnh.quest2302.name=§a§l回到步骤1
-#B gtnh.quest2302.desc=The refined Platinum Salt can be heated to evaporate the last remaining Impurities. Now you are left with Platinum Metalic Poweder again, which you can dissolve again.
-#A gtnh.quest2302.desc=The refined Platinum Salt can be heated to evaporate the last remaining Impurities. Now you are left with Platinum Metallic Powder again, which you can dissolve again.\n\nAdd an output hatch to the bottom layer of your EBF to capture the Chlorine to reuse.
-#C gtnh.quest2302.desc=可以通过加热精炼铂盐以蒸发掉最后剩余的杂质.现在,你再一次获得了铂金属粉,又可以再次溶解了.
+gtnh.quest2302.desc=可以通过加热精炼铂盐以蒸发掉最后剩余的杂质.现在,你再一次获得了铂金属粉,又可以再次溶解了.%n%n在你的工业高炉底层添加一个输出仓,用于回收氯再利用.
 
 # Quest.2303 - §b§lPalladium Processing
 gtnh.quest2303.name=§b§l钯处理
-#B gtnh.quest2303.desc=Palladium is a rather usefull Platinum Group Metal, which can be made easily. But, you will need quite a lot of it, so this Quest will help you figuring out how to process it propperly.\nFirst, you will need to process half of your Palladium Enriched Ammonia to Palladium Salt Dust.
-#A gtnh.quest2303.desc=Palladium is a rather useful Platinum Group Metal, which can be made easily. \n\nBut, you will need quite a lot of it, so this Quest will help you figure out how to process it properly.\n\nFirst, you will need to process §h§hhalf§m§r of your Palladium Enriched Ammonia to Palladium Salt Dust.
-#C gtnh.quest2303.desc=钯是一种相当有用的铂系金属,而制取又很简单.但你未来需要很多,因此,本任务将帮助你弄清楚如何高效地处理它.  首先,你需要将一半的​​富钯铵处理成钯盐粉.
+gtnh.quest2303.desc=钯是一种相当有用的铂系金属,而制取又很简单.%n%n但你未来需要很多,因此,本任务将帮助你弄清楚如何高效地处理它.%n%n首先,你需要将一半的​​富钯铵处理成钯盐粉.
 
 # Quest.2304 - §b§lPlatinum Group Processing - All the other Metals
-#B gtnh.quest2304.name=§b§lPlatin Group Processing - All the other Metals
-#A gtnh.quest2304.name=§b§lPlatinum Group Processing - All the other Metals
-#C gtnh.quest2304.name=§b§l铂系处理-其他所有金属
-#B gtnh.quest2304.desc=Since you have processed Platinum in a better way until now, you should have a lot of Sludge Dust laying around. We are here to process it and gain all the different products from it. But to do so, we will need some chemicals, so gather a bit of molten Potassium Disulfate.
-#A gtnh.quest2304.desc=Since you have processed Platinum in a simpler way until now, you should have a lot of Sludge Dust laying around. \n\nWe are here to process it and gain all the different products from it. But to do so, we will need some chemicals, so gather a bit of molten Potassium Disulfate.
-#C gtnh.quest2304.desc=目前为止,你已经使用这种更优的方法处理了不少铂,你应该获得了不少矿泥粉.我们在这里处理这些矿泥粉并从中获得各种不同的产物.但是要做到这一点,我们需要一些化学药品,收集一些熔融二硫酸钾吧.
+gtnh.quest2304.name=§b§l铂系处理-其他所有金属
+gtnh.quest2304.desc=目前为止,你已经使用这种简单的方法处理了不少铂,你应该获得了不少矿泥粉.%n%n我们在这里处理这些矿泥粉并从中获得各种不同的产物.但是要做到这一点,我们需要一些化学制品,收集一些熔融二硫酸钾吧.
 
 # Quest.2305 - §b§lFirst Separation - Rhodium
-#B gtnh.quest2305.name=§b§lFirst Seperaton - Rhodium
-#A gtnh.quest2305.name=§b§lFirst Separation - Rhodium
-#C gtnh.quest2305.name=§b§l第一次分离-铑
-#B gtnh.quest2305.desc=The Platinum Group processing is a step wise processing. All byproducts will be achived with this chain, that's why crafting on demand is not recommended, but rather having a processing factory running all the time.\nAs a first step, we will spit apart the Rhodium from the other metals, it will evaporate into a Gas Compound, that you can gather from your EBF. (NOTE: USE AN OUTPUT HATCH AT THE §l§nBOTTOM!§r)
-#A gtnh.quest2305.desc=The Platinum Group processing is a step wise processing. \n\nAll byproducts will be achieved with this chain, that's why crafting on demand is not recommended, but rather having a processing factory running all the time.\n\nAs a first step, we will split apart the Rhodium from the other metals - it will evaporate into a Gas Compound, that you can gather from your EBF. \n\nNOTE: USE AN OUTPUT HATCH AT THE §l§nBOTTOM!§r
-#C gtnh.quest2305.desc=铂系矿物处理是一个分步链式过程.所有副产物均通过此链式过程获得,这就是为什么不建议手动处理的原因,自动化可以使此链式过程不停进行.  第一步,我们将铑与其他金属分开,它将蒸发为气体化合物(在你的工业高炉中收集). (注意:记得在§l§n底部§r放上输出仓!)
+gtnh.quest2305.name=§b§l第一次分离-铑
+gtnh.quest2305.desc=铂系矿物处理是一个分步链式过程.%n%n所有副产物均通过此链式过程获得,这就是为什么不建议手动处理的原因,自动化可以使此链式过程不停进行.%n%n第一步,我们将铑与其他金属分开,它将蒸发为气体化合物(在你的工业高炉中收集).%n%n注意:记得在§l§n底部§r放上输出仓!
 
 # Quest.2306 - §b§lSecond Separation - Ruthenium
-#B gtnh.quest2306.name=§b§lSecond Seperation - Ruthenium
-#A gtnh.quest2306.name=§b§lSecond Separation - Ruthenium
-#C gtnh.quest2306.name=§b§l第二次分离-钌
+gtnh.quest2306.name=§b§l第二次分离-钌
 gtnh.quest2306.desc=链式过程的下一步,我们将从矿泥中分离出钌.此过程比你想象的要复杂一些,该过程需要大量硝石.
 
 # Quest.2307 - §b§lRe-Solving the purity issue
@@ -9274,55 +9238,39 @@ gtnh.quest2308.desc=现在,你获得了钯盐,但盐对你毫无用处,所以你
 
 # Quest.2309 - §b§lAnother Acid to worry about!
 gtnh.quest2309.name=§b§l另一种需要头疼的酸!
-#B gtnh.quest2309.desc=Formic Acid, also known as methanoic acid, is a rather simple organic acid. We will need it for the Palladium process, so, dont be shy make tons of it! The Sodium Sulfate can be recycled.
-#A gtnh.quest2309.desc=Formic Acid, also known as methanoic acid, is a rather simple organic acid. We will need it for the Palladium process, so, dont be shy, make tons of it! The Sodium Sulfate can be recycled.
-#C gtnh.quest2309.desc=甲酸,也称为甲烷酸,是一种相当简单的有机酸.在钯处理中大量需要这种甲酸,所以,成吨地制备甲酸吧!硫酸钠可循环利用.
+gtnh.quest2309.desc=甲酸,也称为甲烷酸,是一种相当简单的有机酸.在钯处理中大量需要这种甲酸,所以,成吨地制备甲酸吧!硫酸钠可循环利用.
 
 # Quest.2310 - §b§lPalladium
 gtnh.quest2310.name=§b§l钯
-#B gtnh.quest2310.desc=First, you need to recrystallise the Palladium Metalic Power with Palladium Enriched Ammonia, to Palladiumnitrate, also known as Reprecipated Palladium. Then you add Formic Acid to that mixture and recive your pure Palladium. You can either use it for Tinker Weapons or you keep it for later.
-#A gtnh.quest2310.desc=First, you need to recrystallise the Palladium Metallic Powder with Palladium Enriched Ammonia, to Palladiumnitrate, also known as Reprecipated Palladium. \n\nThen you add Formic Acid to that mixture and recive your pure Palladium. \n\nYou can either use it for Tinker Weapons or you keep it for later.
-#C gtnh.quest2310.desc=首先,你需要用富钯铵将钯金属粉重结晶为硝酸钯,也称为再沉淀钯.然后,将甲酸添加到该混合物中即可获得纯钯.你可以将其用于匠魂武器,也可以留待以后使用.
+gtnh.quest2310.desc=首先,你需要用富钯铵将钯金属粉重结晶为硝酸钯,也称为再沉淀钯.%n%n然后,将甲酸添加到该混合物中即可获得纯钯.%n%n你可以将其用于匠魂武器,也可以留待以后使用.
 
 # Quest.2311 - §b§lRoss128b Trip
 gtnh.quest2311.name=§b§l罗斯128b之旅
 gtnh.quest2311.desc=罗斯128b是一颗很棒的星球,不会生成怪物.星球上有多种新的矿脉,有传言说那里会有古代文明的遗迹,还有一些遗留下的机器.你可以在星系地图的底部找到该星球.
 
 # Quest.2312 - §b§lThird Separation - Osmium
-#B gtnh.quest2312.name=§b§lThird Seperation - Osmium
-#A gtnh.quest2312.name=§b§lThird Separation - Osmium
-#C gtnh.quest2312.name=§b§l第三次分离-锇
+gtnh.quest2312.name=§b§l第三次分离-锇
 gtnh.quest2312.desc=锇的提取非常棘手.你需要加热并使用强酸才能将其从矿渣中提取出来,但我们就快完成了.下一次分离是最后一步了.
 
 # Quest.2313 - §b§lFinal Separation - Iridium
-#B gtnh.quest2313.name=§b§lFinal Seperation - Iridium
-#A gtnh.quest2313.name=§b§lFinal Separation - Iridium
-#C gtnh.quest2313.name=§b§l最终分离-铱
+gtnh.quest2313.name=§b§l最终分离-铱
 gtnh.quest2313.desc=将铱与无用的材料分离非常容易.只需在高炉中加热即可完成此步骤.剩下的矿泥可以离心成金和二氧化硅.
 
 # Quest.2314 - §b§lPossibly the Longest Quest in the Platinum Chain
 gtnh.quest2314.name=§b§l可能是铂处理链中最长的任务
-#B gtnh.quest2314.desc=As the title states it, this quest might be the longest solo Quest. But fear not, child! All you need to do, is dissolving the Sodium Ruthenate in chlorine, heat up the sollution and distill it into Ruthenium Tetroxide. You can either use the Fluid Heater, or the Oil Cracker for the heat up step. The Oil Cracker is more efficient to use, but its also larger and slower. Then place the Ruthenium Tetroxide in a Fluid Solifier to yield the dust. Comprende? Good.
-#A gtnh.quest2314.desc=As the title states, this quest might be the longest solo Quest. \n\nBut fear not, child! \n\nAll you need to do is \n- Dissolve the Sodium Ruthenate in chlorine\n- Heat up the solution\n- Distill it into Ruthenium Tetroxide\n\nEasy!\n\nYou can either use the Fluid Heater, or the Oil Cracker for the heat up step. The Oil Cracker is more efficient to use, but it's also larger and slower. \n\nThen place the Ruthenium Tetroxide in a Fluid Solifier to yield the dust. \n\nComprende? Good.
-#C gtnh.quest2314.desc=正如标题所示,此任务可能是最长的单人任务.但是不要害怕!你需要做的是将钌酸钠溶解在氯气中,加热溶液并将其蒸馏成四氧化钌.你既可以用流体加热器,也可以用石油裂化机来完成加热步骤.石油裂化机的效率更高,但占地更大,处理更慢.然后将四氧化钌放入流体固化器中制成粉.你看多简单.
+gtnh.quest2314.desc=正如标题所示,此任务可能是最长的单人任务.%n%n但是不要害怕!%n%n你需要做的是：%n-将钌酸钠溶解在氯气中%n-加热溶液%n-蒸馏成四氧化钌.%n%n别担心!%n%n你既可以用流体加热器,也可以用石油裂化机来完成加热步骤.石油裂化机的效率更高,但占地更大,处理更慢.%n%n然后将四氧化钌放入流体固化器中制成粉.%n%n你看多简单.
 
 # Quest.2315 - §b§lClass, Concentrate!
 gtnh.quest2315.name=§b§l同类者,聚集!
-#B gtnh.quest2315.desc=You Acidic Osmium sollution is way too weak to fell out Osmium. Go and distill it, so you gain a more concentrated variant of it.
-#A gtnh.quest2315.desc=Your Acidic Osmium solution is way too weak to precipitate out Osmium. Go and distill it, so you gain a more concentrated variant of it.
-#C gtnh.quest2315.desc=氯锇酸溶液浓度不足以提取出锇.去蒸馏吧,你就可以获得更浓缩的锇溶液.
+gtnh.quest2315.desc=氯锇酸溶液浓度不足以提取出锇.去蒸馏吧,你就可以获得更浓缩的锇溶液.
 
 # Quest.2316 - §b§lDissolve Ir
 gtnh.quest2316.name=§b§l溶解铱
-#B gtnh.quest2316.desc=Dissolving impure Iridium yields you with some rather intresting chemical.
-#A gtnh.quest2316.desc=Dissolving impure Iridium yields you a rather interesting chemical.
-#C gtnh.quest2316.desc=溶解不纯的铱会为你提供一些相当吸引人的化学物质.
+gtnh.quest2316.desc=溶解不纯的铱会为你提供一些相当吸引人的化学物质.
 
 # Quest.2317 - §b§lFinally Osmium
 gtnh.quest2317.name=§b§l锇处理的最后一步
-#B gtnh.quest2317.desc=Since you have concentrated your sollution, its now time to gather the solid Osmium from it. Go Ahead and mix it with Hydrochloric Acid.
-#A gtnh.quest2317.desc=Since you have concentrated your solution, it's now time to gather the solid Osmium from it. Go Ahead and mix it with Hydrochloric Acid.
-#C gtnh.quest2317.desc=你已浓缩了溶液,现在是时候从中收集固体锇了.继续吧,将其与盐酸混合.
+gtnh.quest2317.desc=你已浓缩了溶液,现在是时候从中收集固体锇了.继续吧,将其与盐酸混合.
 
 # Quest.2318 - §b§lRuthenium
 gtnh.quest2318.name=§b§l钌
@@ -9334,9 +9282,7 @@ gtnh.quest2319.desc=将氯铱酸与氯化铵混合,你将获得一些氯化铱,�
 
 # Quest.2320 - §6§lTower of Babylon
 gtnh.quest2320.name=§6§l巴比伦塔
-#B gtnh.quest2320.desc=Well what might happen if you combine 64 Distillation Tower in one...? You know... you get a 61 Blocks tall Multiblock\n\nThis can handle up to 256 Recipes at once.
-#A gtnh.quest2320.desc=Well what might happen if you combine 64 Distillation Towers in one...? You know... you get a 61 Blocks tall Multiblock\n\nThis can handle up to 256 Recipes at once.
-#C gtnh.quest2320.desc=嗯...如果将64个蒸馏塔合为一座会发生什么...?你懂的...你会得到一个61层高的多方块结构.  此多方块机器一次最多可以处理256个配方.
+gtnh.quest2320.desc=嗯...如果将64个蒸馏塔合为一座会发生什么...?你懂的...你会得到一个61层高的多方块结构.%n%n此多方块机器一次最多可以处理256个配方.
 
 # Quest.2321 - §b§lIridium
 gtnh.quest2321.name=§b§l铱
@@ -9348,21 +9294,15 @@ gtnh.quest2322.desc=你获得的硫酸铑...非常不纯...需要将其溶解在
 
 # Quest.2323 - §a§b§lBut.. this is expensive!
 gtnh.quest2323.name=§a§b§l但是...这很贵!
-#B gtnh.quest2323.desc=Gathering Zinc might not have been a pleasant task in the past, but here, its just used as a Catalyst, so you will regain all of it.
-#A gtnh.quest2323.desc=Gathering Zinc might not have been a pleasant task in the past, but here, it's just used as a Catalyst, so you will regain all of it.
-#C gtnh.quest2323.desc=以前收集锌可能不是一件令人愉快的任务,但在这里,它只是用作催化剂,所以不会被消耗.
+gtnh.quest2323.desc=以前收集锌可能不是一件令人愉快的任务,但在这里,它只是用作催化剂,所以不会被消耗.
 
 # Quest.2324 - §b§lAnother one bites the Salt
 gtnh.quest2324.name=§b§l另一个吃盐的
-#B gtnh.quest2324.desc=Hey why you are looking at me §othat§r way? You aint finished yet. Get more Chlorine and Salt, to process your Rhodium
-#A gtnh.quest2324.desc=Hey why you are looking at me §othat§r way? You ain't finished yet. Get more Chlorine and Salt, to process your Rhodium.
-#C gtnh.quest2324.desc=嘿,你为什么§o这样§r看着我?还没完呐.准备更多的氯和盐来处理你的铑吧.
+gtnh.quest2324.desc=嘿,你为什么§o这样§r看着我?还没完呐.准备更多的氯和盐来处理你的铑吧.
 
 # Quest.2325 - §b§lSalt can't be stored in Water?
 gtnh.quest2325.name=§b§l盐不能储存在水中?
-#B gtnh.quest2325.desc=First, dissolve the Rhodium Salt in Water in a mixer, then react the sollutio.
-#A gtnh.quest2325.desc=First, dissolve the Rhodium Salt in Water in a mixer, then react the solution with Sodium Nitrate.
-#C gtnh.quest2325.desc=首先,在搅拌机中将铑盐溶解在水中,然后使溶液发生反应.
+gtnh.quest2325.desc=首先,在搅拌机中将铑盐溶解在水中,然后使溶液与硝酸钠反应.
 
 # Quest.2326 - §b§lSift it goooood
 gtnh.quest2326.name=§b§l筛选很棒
@@ -9370,57 +9310,39 @@ gtnh.quest2326.desc=想要收集纯净的铑矿泥,你需要筛选其硝酸盐.�
 
 # Quest.2327 - §b§lAlmost done with Rhodium
 gtnh.quest2327.name=§b§l你快搞定铑了
-#B gtnh.quest2327.desc=Place your sollution in your Chemical reactor to heat it while it spins. That way you get a dust out of your Sollution, 100％ lump free!
-#A gtnh.quest2327.desc=Place your solution in your Chemical Reactor to heat it while it spins. That way you get a dust out of your Solution, 100％ lump free!
-#C gtnh.quest2327.desc=将溶液放入化学反应釜中,在其旋转时进行加热.这样你就能从溶液中获得粉末,100％无结块!
+gtnh.quest2327.desc=将溶液放入化学反应釜中,在其旋转时进行加热.这样你就能从溶液中获得粉末,100％无结块!
 
 # Quest.2328 - §b§lRhodium
 gtnh.quest2328.name=§b§l铑
-#B gtnh.quest2328.desc=Rhodium is the most processing intensive, but also one of the most common elements in the Platinum Sludge. Get a lot of it, you will need it.
-#A gtnh.quest2328.desc=Rhodium is the most processing intensive, but also one of the most useful elements in the Platinum Sludge. Get a lot of it, you will need it.
-#C gtnh.quest2328.desc=铑的处理难度是最高的,但它是铂系矿泥中最常见的元素之一.多准备一点,你会需要它的.
+gtnh.quest2328.desc=铑的处理难度是最高的,但它是铂系矿泥中最有用的元素之一.多准备一点,你会需要它的.
 
 # Quest.2329 - §b§lRhodium-Plated Palladium
 gtnh.quest2329.name=§b§l镀铑钯
-#B gtnh.quest2329.desc=Rhodium Plated Palladium is the LuV Tier Hull Material. You will basically use it, like you do Tungstensteel now. Why its called plated if it's clearly an alloy you ask? I don't know either!
-#A gtnh.quest2329.desc=Rhodium Plated Palladium is the LuV Tier Hull Material.\n\nYou will basically use it like you do Tungstensteel now. Why it's called plated if it's clearly an alloy you ask? I don't know either!
-#C gtnh.quest2329.desc=镀铑钯用于制造LuV机械方块.它是你LuV的基础需要,就像钨钢对现在的你来说一样.它其实是合金,为什么叫镀铑钯呢?我也不知道!
+gtnh.quest2329.desc=镀铑钯用于制造LuV机械方块.%n%n它是你LuV的基础需要,就像钨钢对现在的你来说一样.它其实是合金,为什么叫镀铑钯呢?我也不知道!
 
 # Quest.2330 - §b§lRuri... Ruridididi?
 gtnh.quest2330.name=§b§l钌铱合金?
-#B gtnh.quest2330.desc=Combining Ruthenium with Iridium yields a very special Metal, that is needed for higher Tier components. It's propperties are strange, and there havent been much research regarding this alloy. So why dont you just craft a bounch of it?
-#A gtnh.quest2330.desc=Combining Ruthenium with Iridium yields a very special Metal, that is needed for higher Tier components. \n\nIts properties are strange, and there hasn't been much research regarding this alloy. So why dont you just craft a bounch of it and see what you can do?
-#C gtnh.quest2330.desc=钌与铱结合会产生一种非常特殊的金属,钌铱合金主要用于高阶配件(如LuV马达).这种合金的属性很奇怪,也没有太多关于它的研究.那你为什么不试着制造一些呢?
+gtnh.quest2330.desc=钌与铱结合会产生一种非常特殊的金属,钌铱合金主要用于高阶配件(如LuV马达).%n%n这种合金的属性很奇怪,也没有太多关于它的研究.那你为什么不试着制造一些,然后看看能做啥呢?
 
 # Quest.2331 - Osmiridium
 gtnh.quest2331.name=铱锇合金
-#B gtnh.quest2331.desc=Osmiridium is an quite expensive Alloy. You'll need it for Thaumcraft and in ZPM+ Voltages.
-#A gtnh.quest2331.desc=Osmiridium is a quite expensive alloy. You'll need it for Thaumcraft and at ZPM+ Voltages.
-#C gtnh.quest2331.desc=铱锇合金是一种相当昂贵的合金.你会在神秘时代和ZPM以上电压用到它的.
+gtnh.quest2331.desc=铱锇合金是一种相当昂贵的合金.你会在神秘时代和ZPM+电压用到它的.
 
 # Quest.2332 - §3§lHow to open your Iron Doors?
 gtnh.quest2332.name=§3§l如何打开铁门?
-#B gtnh.quest2332.desc=Your Irondoors are build and make your Machine Hall or House more safe. \nNow let's craft some Presure plates and Buttons to open this heavy Iron Doors.
-#A gtnh.quest2332.desc=Your Irondoors make your Machine Hall or House more safe. They cannot be opened by hand.\n\nNow let's craft some Pressure Plates and Buttons to open these heavy Iron Doors.
-#C gtnh.quest2332.desc=铁门的建造可以使你的厂房或住房更安全.  现在,让我们制作几个石制的压力板和按钮来打开沉重的铁门.
+gtnh.quest2332.desc=铁门的建造可以使你的厂房或住房更安全.%n%n现在,让我们制作几个石制的压力板和按钮来打开沉重的铁门.
 
 # Quest.2333 - §a§lHow to open your Wooden Doors?
 gtnh.quest2333.name=§a§l如何打开木门?
-#B gtnh.quest2333.desc=Your Wooden doors are build and make your House more safe. \nNow let's craft some wooden Presure plates and Buttons to open this Doors.
-#A gtnh.quest2333.desc=Wooden doors make your House safer. \nNow let's craft some wooden Pressure plates and Buttons to open these Doors.
-#C gtnh.quest2333.desc=木门的建造使你的住房更安全.  现在,让我们来制作一些木制的压板和按钮来打开这扇门.
+gtnh.quest2333.desc=木门的建造使你的住房更安全.  现在,让我们来制作一些木制的压板和按钮来打开这扇门.
 
 # Quest.2334 - Demonic Contract
 gtnh.quest2334.name=恶魔契约
-#B gtnh.quest2334.desc=A demonic contract is written on parchment made for the resurrected flesh of the dead. The contract is signed in the blood of the individual to whom it pertains.\n\nA plain demonic contract is used to make a deal with Flame Imps. The basic contract is crafted with a Taglock Kit containing the blood of the witch (or warlock).\n\nWhen performing Imp Magic, a plain contract is first crafted with reagents pertaining to the spell effect, and then signed in the blood of the target by crafting it with a Taglock Kit containing the targets blood.\n
-#A gtnh.quest2334.desc=A Demonic Contract is written on parchment made from the resurrected flesh of the dead. The contract is signed in the blood of the individual to whom it pertains.\n\nA plain demonic contract is used to make a deal with Flame Imps. The basic contract is crafted with a Taglock Kit containing the blood of the witch (or warlock).\n\nWhen performing Imp Magic, a plain contract is first crafted with reagents pertaining to the spell effect, and then signed in the blood of the target by crafting it with a Taglock Kit containing the targets blood.\n
-#C gtnh.quest2334.desc=一份可让死者复活的羊皮纸上书写着恶魔契约.契约以其所涉之人的鲜血订立.  普通的恶魔契约用于与烈焰小鬼(Flame-Imps)达成交易.这种基础的恶魔契约是用含有巫师本人血的巫媒制成的.  当要使用恶魔法术时,恶魔契约需使用相应试剂制作,然后使用含有目标血液的巫媒进行标记.
+gtnh.quest2334.desc=一份可让死者复活的羊皮纸上书写着恶魔契约.契约以其所涉之人的鲜血订立.%n%n普通的恶魔契约用于与烈焰小鬼(Flame-Imps)达成交易.这种基础的恶魔契约是用含有巫师本人血的巫媒制成的.%n%n当要使用恶魔法术时,恶魔契约需使用相应试剂制作,然后使用含有目标血液的巫媒进行标记.
 
 # Quest.2335 - Taglock Kit
 gtnh.quest2335.name=巫媒
-#B gtnh.quest2335.desc=Taglock Kits are used to collect taglocks from other players or creatures. Taglocks, such as locks of hair, fingernail clippings or blood, are used in various recipes to create a link between the creature and the magic.\n\nUse a taglock kit on a creature, or the used bed of a player, to collect some taglocks from that being. Repeated use on the same bed will cycle taglocks for each player who has used that bed. The kit can also be used on a Leech Chest to collect taglocks from users who have opened the chest or on a Blood Rose to collect the taglock of the player that walked over it.\n\nShift-clicking on any bed will fill the kit with the current players taglocks.\n\nCollecting taglocks by using the kit on a player has a chance of failing and informing the other player what you were trying to do. To increase the chance of collecting a taglock from a player sneak, and prefer approaching from behind.\n\nTaglocks can only be collected from players who are logged into the same world.\n\nTaglock kits are made by crafting a Glass Bottle with a Bone Needle.\n
-#A gtnh.quest2335.desc=Taglock Kits are used to collect taglocks from other players or creatures. Taglocks, such as locks of hair, fingernail clippings or blood, are used in various recipes to create a link between the creature and the magic.\n\nUse a taglock kit on a creature, or the used bed of a player, to collect some taglocks from that being. Repeated use on the same bed will cycle taglocks for each player who has used that bed. The kit can also be used on a Leech Chest to collect taglocks from users who have opened the chest or on a Blood Rose to collect the taglock of the player that walked over it.\n\nShift-clicking on any bed will fill the kit with the current players taglocks.\n\nCollecting taglocks by using the kit on a player has a chance of failing and informing the other player what you were trying to do. To increase the chance of collecting a taglock from a player, sneak, and prefer approaching from behind.\n\nTaglocks can only be collected from players who are logged into the same world.\n\nTaglock kits are made by crafting a Glass Bottle with a Bone Needle.\n
-#C gtnh.quest2335.desc=巫媒(Taglock-Kit)用于收集其他玩家或生物的标记(Taglock),例如头发、指甲屑或血液,巫媒被用于各种配方中,以在生物与巫术之间建立联系.  想要收集巫媒,对着生物或者对着玩家使用过的床右键即可.在同一张床上重复右键,将循环收集该张床的每个玩家的巫媒.还可以在陷阱箱上收集打开箱子的玩家的巫媒,或在血玫瑰上收集走过它的玩家的巫媒.  Shift-左键任意床将收集当前玩家的巫媒.  直接对玩家使用巫媒收集可能会失败,失败的同时还会通知该玩家你想做什么.想要提高收集成功的几率,你需要潜行并从背后靠近他.  只能从登录到同一世界的玩家那里收集巫媒.  带有骨针的玻璃瓶即可制成巫媒.
+gtnh.quest2335.desc=巫媒(Taglock-Kit)用于收集其他玩家或生物的标记(Taglock),例如头发、指甲屑或血液,巫媒被用于各种配方中,以在生物与巫术之间建立联系.%n%n想要收集巫媒,对着生物或者对着玩家使用过的床右键即可.在同一张床上重复右键,将循环收集该张床的每个玩家的巫媒.还可以在陷阱箱上收集打开箱子的玩家的巫媒,或在血玫瑰上收集走过它的玩家的巫媒.%n%nShift-左键任意床将收集当前玩家的巫媒.%n%n直接对玩家使用巫媒收集可能会失败,失败的同时还会通知该玩家你想做什么.想要提高收集成功的几率,你需要潜行并从背后靠近他.%n%n只能从登录到同一世界的玩家那里收集巫媒.%n%n带有骨针的玻璃瓶即可制成巫媒.
 
 # Quest.2336 - Mutandis Extremis
 gtnh.quest2336.name=超级转生粉
@@ -9432,9 +9354,7 @@ gtnh.quest2337.desc=没有一对可靠的耳罩采草药的时候可不好办?�
 
 # Quest.2338 - Ent Twig
 gtnh.quest2338.name=树人嫩芽
-#B gtnh.quest2338.desc=An Ent Twig will be dropped when an Ent is killed. They are used to make Mutating Sprigs and Mystic Branches. \n\nThey will appear occasionally when trees such as Rowan, Hawthorn and Alder are felled in large quantities.\n\nEnts are rather hard to kill by normal means, but they do have a healthy hatred of certain tools for some reason or another.\n\nTwilight mosspatch and Biomes 'o Plenty moss will drop also.
-#A gtnh.quest2338.desc=An Ent Twig will be dropped when an Ent is killed. They are used to make Mutating Sprigs and Mystic Branches. \n\nThey will appear occasionally when trees such as Rowan, Hawthorn and Alder are felled in large quantities.\n\nEnts are rather hard to kill by normal means, but they do have a healthy hatred of certain tools for some reason or another.\n\nTwilight Forest Moss Patch and Biomes 'o Plenty moss will drop also.
-#C gtnh.quest2338.desc=杀死树人会掉落树人嫩芽.而树人嫩芽可用于制作变异枝条和神秘枝条.  当大量砍伐山梨树、山楂树和赤杨树时有几率生成树人.  很难通过常规手段杀死树人,但是由于某些原因,某些工具对树人格外有效.  杀死树人还有几率掉落暮色的苔藓和超多生物群系的苔藓.
+gtnh.quest2338.desc=杀死树人会掉落树人嫩芽.而树人嫩芽可用于制作变异枝条和神秘枝条.%n%n当大量砍伐山梨树、山楂树和赤杨树时有几率生成树人.%n%n很难通过常规手段杀死树人,但是由于某些原因,某些工具对树人格外有效.%n%n杀死树人还有几率掉落暮色的苔藓和超多生物群系的苔藓.
 
 # Quest.2339 - Redstone Soup?
 gtnh.quest2339.name=红石汤?
@@ -9450,55 +9370,35 @@ gtnh.quest2341.desc=仪祭匕首是巫师使用的一种礼仪用刀,既可以�
 
 # Quest.2342 - Happenstance Oil
 gtnh.quest2342.name=巧合油
-#B gtnh.quest2342.desc=Appenstance Oil is an ingredient used in the production of a Crystal Ball and the Seer Stone\n\nIt is created in a kettle using Redstone Soup, Potion of Night Vision (8:00), Eye of Ender, Golden Carrot, Spider Eye and Mandrake Root.
-#A gtnh.quest2342.desc=Happenstance Oil is an ingredient used in the production of a Crystal Ball and the Seer Stone\n\nIt is created in a kettle using Redstone Soup, Potion of Night Vision (8:00), Eye of Ender, Golden Carrot, Spider Eye and Mandrake Root.
-#C gtnh.quest2342.desc=巧合油是制作水晶球和先知之石的重要配料.  巧合油由红石汤、夜视药水(8:00)、末影之眼、金萝卜、蜘蛛眼和曼德拉草根在水壶中酿造而成.
+gtnh.quest2342.desc=巧合油是制作水晶球和先知之石的重要配料.%n%n巧合油由红石汤、夜视药水(8:00)、末影之眼、金萝卜、蜘蛛眼和曼德拉草根在水壶中酿造而成.
 
 # Quest.2343 - Quartz Sphere
 gtnh.quest2343.name=球状石英
-#B gtnh.quest2343.desc=A Quartz Sphere is a component used in the production of a Crystal Ball and the Seer Stone for summon the coven witches.
-#A gtnh.quest2343.desc=A Quartz Sphere is a component used in the production of a Crystal Ball and the Seer Stone for summoning coven witches.
-#C gtnh.quest2343.desc=球状石英是制作水晶球和先知之石的组件,水晶球可召唤芭芭雅嘎,先知之石可召唤聚会女巫.
+gtnh.quest2343.desc=球状石英是制作水晶球和先知之石的组件,水晶球可召唤芭芭雅嘎,先知之石可召唤聚会女巫.
 
 # Quest.2344 - Seer Stone or Summon the Witches
 gtnh.quest2344.name=先知之石或召唤聚会女巫
-#B gtnh.quest2344.desc=A Seer Stone is a variation of a Crystal Ball, that allows witches to communicate with one another over great distances. It is mostly used by one witch to summon other members of their coven either to help out in a fight, or to help performing a ritual. The seer stone may also be used on another player to reveal if they are afflicted by a curse.\n\nTo summon a coven witch for aid, use the Seer Stone while held. Holding for longer summons more coven members.\n\nIf near a Witches' Cauldron, the summoned witches will circle it ready for a ritual.\n\nTo call the entire coven to perform a rite. Start the rite normally while holding the Seer Stone.\n\nTo determine if another player is cursed, to find out if they have a coven or familiar, and how much time they can manifest for, use the Seer Stone on them when they are within 3 blocks distance. Sneak-using the stone will show the same information for the bearer of the Stone.\n\nA Seer Stone is created by infusing a Quartz Sphere with Obsidian and Happenstance Oil using a Rite of Infusion.
-#A gtnh.quest2344.desc=A Seer Stone is a variation of a Crystal Ball, that allows witches to communicate with one another over great distances. It is mostly used by one witch to summon other members of their coven either to help out in a fight, or to help perform a ritual. The seer stone may also be used on another player to reveal if they are afflicted by a curse.\n\nTo summon a coven witch for aid, use the Seer Stone while held. Holding for longer summons more coven members.\n\nIf near a Witches' Cauldron, the summoned witches will circle it ready for a ritual.\n\nTo call the entire coven to perform a rite, start the rite normally while holding the Seer Stone.\n\nTo determine if another player is cursed, to find out if they have a coven or familiar, and how much time they can manifest for, use the Seer Stone on them when they are within 3 blocks distance. Sneak-using the stone will show the same information for the bearer of the Stone.\n\nA Seer Stone is created by infusing a Quartz Sphere with Obsidian and Happenstance Oil using a Rite of Infusion.
-#C gtnh.quest2344.desc=先知之石是水晶球的一种变体,它能使巫师就算远隔重洋也可以保持交流.巫师们最常用用它召唤盟友以帮助战斗或举行仪式.先知之石也可以用在其他玩家身上,可以显示他们是否受到诅咒的折磨.  想要召唤一个聚会女巫帮忙,手持先知之石右键即可.长按可召唤更多聚会女巫.  如果在巫师炼药锅附近,被召唤的聚会女巫会环绕其准备仪式.  想要召唤所有聚会女巫举行仪式,手持先知之石右键启动仪式即可.  想要确定其他玩家是否被诅咒,知道他们是否拥有盟友或爱宠,以及确定注魔时间;你需要站在他们3格之内使用先知之石.潜行使用先知之石,持有者将看到自己相同的信息.  先知之石是通过注魔仪式,在球状石英中注入黑曜石和巧合油制成的.
+gtnh.quest2344.desc=先知之石是水晶球的一种变体,它能使巫师就算远隔重洋也可以保持交流.巫师们最常用用它召唤盟友以帮助战斗或举行仪式.先知之石也可以用在其他玩家身上,可以显示他们是否受到诅咒的折磨.%n%n想要召唤一个聚会女巫帮忙,手持先知之石右键即可.长按可召唤更多聚会女巫.%n%n如果在巫师炼药锅附近,被召唤的聚会女巫会环绕其准备仪式.  想要召唤所有聚会女巫举行仪式,手持先知之石右键启动仪式即可.%n%n想要确定其他玩家是否被诅咒,知道他们是否拥有盟友或爱宠,以及确定注魔时间;你需要站在他们3格之内使用先知之石.潜行使用先知之石,持有者将看到自己相同的信息.%n%n先知之石是通过注魔仪式,在球状石英中注入黑曜石和巧合油制成的.
 
 # Quest.2345 - Familiar
 gtnh.quest2345.name=爱宠
-#B gtnh.quest2345.desc=Familiars are super natural beings that assist witches and cunning folk in their practice of magic. \nIn some cases familiars are attracted to practitioners of their own accord, but the most effective way to acquire a familiar is to bind a minor demon (or spirit) to an animal. \nAs part of such a binding, a sympathetic link is created between the bound familiar and the witch (or warlock).\n\nFamiliars take on the characteristics of the animal to which they are bound, allowing certain enhancements to a witches practice depending on the animal.\n\n§lBinding a Familiar\n\n§l§l§l§l§l§rA familiar is summoned and bound to an animal using a Rite of Binding as described in the book, Witchcraft: Circle Magic. \nBoth the witch and a tamed animal of the desired type (Cat, Owl or Toad) must stand in the Circle when the Rite is performed. \nIf the Rite is successful the animal will be inhabited by the familiar entity with the effects listed below.
-#A gtnh.quest2345.desc=Familiars are supernatural beings that assist witches and cunning folk in their practice of magic.\n\nIn some cases familiars are attracted to practitioners of their own accord, but the most effective way to acquire a familiar is to bind a minor demon (or spirit) to an animal. \nAs part of such a binding, a sympathetic link is created between the bound familiar and the witch (or warlock).\n\nFamiliars take on the characteristics of the animal to which they are bound, allowing certain enhancements to a witches' practice depending on the animal.\n\n§lBinding a Familiar\n\n§l§l§l§l§l§rA familiar is summoned and bound to an animal using a Rite of Binding as described in the book, Witchcraft: Circle Magic.\n\nBoth the witch and a tamed animal of the desired type (Cat, Owl or Toad) must stand in the Circle when the Rite is performed.  If the Rite is successful the animal will be inhabited by the familiar entity with the effects listed on https://sites.google.com/site/witcherymod/familiars\n
-#C gtnh.quest2345.desc=爱宠是超自然的生物,可以帮助巫师们练习巫术.  在某些情况下,爱宠有可能被巫师吸引,但最有效的获得爱宠的方式是将小恶魔(或灵魂)与动物绑定.  这种绑定仪式会在爱宠与巫师之间建立联系.  爱宠会增强主人某方面的能力,因此可以根据不同需要选择合适的爱宠.  §l绑定爱宠  §l§l§l§l§l§r如书中所述(巫术：圆环法阵),使用绑定仪式召唤爱宠并将其绑定到动物.  举行礼仪时,巫师和所需类型的已驯服动物(豹猫,猫头鹰或蟾蜍)必须站在圆环内.  如果仪式成功,则该动物将被爱宠占据,并具有以下效果.
+gtnh.quest2345.desc=爱宠是超自然的生物,可以帮助巫师们练习巫术.%n%n在某些情况下,爱宠有可能被巫师吸引,但最有效的获得爱宠的方式是将小恶魔(或灵魂)与动物绑定.  这种绑定仪式会在爱宠与巫师之间建立联系.%n%n爱宠会增强主人某方面的能力,因此可以根据不同需要选择合适的爱宠.%n%n§l绑定爱宠%n%n§l§l§l§l§l§r如书中所述(巫术：圆环法阵),使用绑定仪式召唤爱宠并将其绑定到动物.%n%n举行礼仪时,巫师和所需类型的已驯服动物(豹猫,猫头鹰或蟾蜍)必须站在圆环内.  如果仪式成功,则该动物将被爱宠占据,并具有以下效果,详情见https://sites.google.com/site/witcherymod/familiars
 
 # Quest.2346 - §9§8§7§6§5§3§lTame an Ocelot to get a Friend
-#B gtnh.quest2346.name=§9§8§7§6§5§3§lTame a Ocelot to get a Friend
-#A gtnh.quest2346.name=§9§8§7§6§5§3§lTame an Ocelot to get a Friend
-#C gtnh.quest2346.name=§9§8§7§6§5§3§l驯服豹猫来交朋友
-#B gtnh.quest2346.desc=Find an Ocelot\n\nOnce you have the required materials, you will need to find an ocelot to tame.\n\nOcelot can be found in Jungle Biomes.\nIf you are having trouble finding an ocelot, you can always summon an ocelot using a use a spawn egg.\n\nUse the Fish\n\nYou can tame an ocelot by giving it a raw fish. So add the raw fish to your inventory and select the raw fish in your hotbar.\n\n§8§6§5§4TIP: Make sure you are in a large space when trying to tame the ocelot so that the ocelot has lots of room to move. If you are in a space that is too small, you will not be able to tame the ocelot.\nNext, while holding the raw fish, do not move. If you move, you will scare away the ocelot. If you are very still, the ocelot will eventually notice the fish in your hand and begin to walk over to you.
-#A gtnh.quest2346.desc=Once you have the required materials, you will need to find an ocelot to tame.\n\nOcelots can be found in Jungle Biomes.\n\nIf you are having trouble finding an ocelot, you can always summon an ocelot using a spawn egg.\n\nYou can tame an ocelot by giving it a raw fish. So add the raw fish to your inventory and select the raw fish in your hotbar.\n\nJust like vanilla Minecraft, a tamed ocelot turns into a cat. The cat will repel creepers.\n\n§8§6§5§4TIP: Make sure you are in a large space when trying to tame the ocelot so that the ocelot has lots of room to move. If you are in a space that is too small, you will not be able to tame the ocelot.\nNext, while holding the raw fish, do not move. If you move, you will scare away the ocelot. If you are very still, the ocelot will eventually notice the fish in your hand and begin to walk over to you.
-#C gtnh.quest2346.desc=寻找豹猫  拥有所需材料后,你将需要找到一只豹猫来驯服.  豹猫可以在丛林生物群系中找到.  如果你找不到豹猫,还可以用刷怪蛋来召唤它.  用鱼驯服  你可以通过给豹猫喂生鱼来驯服它.所以在背包内带上生鱼,然后在快捷栏中选择生鱼.  §8§6§5§4提示:驯服豹猫过程中,请确保你周围有较大的空间,以便为豹猫提供足够的移动空间.如果你周围的空间太小,你将无法驯服豹猫.  然后,手持生鱼并保持不动.如果你移动了,你会吓跑豹猫的.如果你很安静,豹猫最终会注意到你手中的鱼并开始向你走去.
+gtnh.quest2346.name=§9§8§7§6§5§3§l驯服豹猫来交朋友
+gtnh.quest2346.desc=寻找豹猫%n%n拥有所需材料后,你将需要找到一只豹猫来驯服.%n%n豹猫可以在丛林生物群系中找到.%n%n如果你找不到豹猫,还可以用刷怪蛋来召唤它.%n%n用鱼驯服%n%n你可以通过给豹猫喂生鱼来驯服它.所以在背包内带上生鱼,然后在快捷栏中选择生鱼.%n%n§8§6§5§4提示:驯服豹猫过程中,请确保你周围有较大的空间,以便为豹猫提供足够的移动空间.如果你周围的空间太小,你将无法驯服豹猫.  然后,手持生鱼并保持不动.如果你移动了,你会吓跑豹猫的.如果你很安静,豹猫最终会注意到你手中的鱼并开始向你走去.
 
 # Quest.2347 - Flame Imp
 gtnh.quest2347.name=烈焰小鬼
-#B gtnh.quest2347.desc=Flame Imps are demons strongly associated with fiery magic. \nNot as physically strong as their dimmer cousins, flame imps are mischievous creatures who are very easily swayed with the promise of personal gain. \nThey may even be bound into the service of a witch (or warlock) if the offer is good enough.\n\nFlame Imps are summoned using a Rite of Summoning, and they are most likely to attack the first person they see. It is advisable make a deal with them quickly.\n\nMaking a deal\n\nTo bind a Flame Imp into service, a witch must write the agreement into a Demonic Contract and sign it with their own blood (craft with a Taglock Kit). \nThis contract must then be given to the Flame Imp, who will require a down-payment of Experience Levels (typically 25).\n\nOnce a deal is struck, the imp will be bound to the location of the deal, not able to wander too far away. The Imp will attack anyone hostile to its master.\n\nImps like receiving valuable gifts, once suitably impressed an imp may be prepared to perform various flame related spells at the request of their master.\n\nSpells take the form of contracts describing what must be done and to whom. \nSimply craft a Demonic Contract with the necessary components and then the resulting contract with a taglock. \nThen give the contract to the the Imp. So long as the creature is in the same dimension, the magic will take hold.\n\nA Flame imp may also occasionally give a gift in return for being given valuable things. These have been known to include the souls of demons that can be consumed to allow a witch to cast demonic spells. \n\nA very well treated Flame Imp may even yield knowledge to summon an Lord of Torment.\n\n
-#A gtnh.quest2347.desc=Flame Imps are demons strongly associated with fiery magic.\n\nNot as physically strong as their dimmer cousins, Flame Imps are mischievous creatures who are very easily swayed with the promise of personal gain. They may even be bound into the service of a witch (or warlock) if the offer is good enough.\n\nFlame Imps are summoned using a Rite of Summoning, and they are most likely to attack the first person they see. It is advisable to make a deal with them quickly.\n\nMaking a deal\n\nTo bind a Flame Imp into service, a witch must write the agreement into a Demonic Contract and sign it with their own blood (craft with a Taglock Kit). \nThis contract must then be given to the Flame Imp, who will require a down-payment of Experience Levels (typically 25).\n\nOnce a deal is struck, the imp will be bound to the location of the deal, not able to wander too far away. The Imp will attack anyone hostile to its master.\n\nImps like receiving valuable gifts, once suitably impressed an imp may be prepared to perform various flame related spells at the request of their master.\n\nSpells take the form of contracts describing what must be done and to whom. \nSimply craft a Demonic Contract with the necessary components and then the resulting contract with a taglock. \nThen give the contract to the the Imp. So long as the creature is in the same dimension, the magic will take hold.\n\nA Flame imp may also occasionally give a gift in return for being given valuable things. These have been known to include the souls of demons that can be consumed to allow a witch to cast demonic spells. \n\nA very well treated Flame Imp may even yield knowledge to summon an Lord of Torment.\n\n
-#C gtnh.quest2347.desc=烈焰小鬼是与火焰魔法紧密相关的恶魔.  烈焰小鬼不像他们的表兄弟那么强壮,他们就像是调皮的动物,很容易随个人喜好而摇摆.  如果付出足够的代价,它们甚至愿意跟巫师签订契约.  使用召唤仪式召唤烈焰小鬼,他们最有可能攻击他们看到的第一个人.建议尽快与他们交易.  交易  想要与烈焰小鬼交易,巫师需要与它签署用自己的血液书写的恶魔契约(用巫媒制作).  制作完恶魔契约后,需要对着烈焰小鬼使用,同时会消耗经验等级(一般是25级).  一旦契约达成,烈焰小鬼将被绑定到交易位置,无法走得太远.烈焰小鬼会攻击对其主人怀有敌意的任何人.  烈焰小鬼喜欢收到有价值的礼物,当礼物使他满意时,烈焰小鬼可以在主人的要求下进行各种与火焰有关的咒语.  咒语以契约的形式描述做什么以及向谁做.  只需制作具有必要配件的恶魔契约,然后使用巫媒生成最终的契约.  然后把契约交给烈焰小鬼.只要目标生物在同一世界,魔法就会成功释放.  烈焰小鬼有时也可能会赠予礼物,以换取有价值的东西.已知其中包括可以使用以允许巫师能够施放恶魔咒语的恶魔灵魂.  烈焰小鬼交易的终极物品就是苦痛卷轴,可用于召唤痛苦之王.
+gtnh.quest2347.desc=烈焰小鬼是与火焰魔法紧密相关的恶魔.%n%n烈焰小鬼不像他们的表兄弟那么强壮,他们就像是调皮的动物,很容易随个人喜好而摇摆.如果付出足够的代价,它们甚至愿意跟巫师签订契约.%n%n使用召唤仪式召唤烈焰小鬼,他们最有可能攻击他们看到的第一个人.建议尽快与他们交易.%n%n交易%n%n想要与烈焰小鬼交易,巫师需要与它签署用自己的血液书写的恶魔契约(用巫媒制作).  制作完恶魔契约后,需要对着烈焰小鬼使用,同时会消耗经验等级(一般是25级).%n%n一旦契约达成,烈焰小鬼将被绑定到交易位置,无法走得太远.烈焰小鬼会攻击对其主人怀有敌意的任何人.%n%n烈焰小鬼喜欢收到有价值的礼物,当礼物使他满意时,烈焰小鬼可以在主人的要求下进行各种与火焰有关的咒语.%n%n咒语以契约的形式描述做什么以及向谁做.  只需制作具有必要配件的恶魔契约,然后使用巫媒生成最终的契约.  然后把契约交给烈焰小鬼.只要目标生物在同一世界,魔法就会成功释放.%n%n烈焰小鬼有时也可能会赠予礼物,以换取有价值的东西.已知其中包括可以使用以允许巫师能够施放恶魔咒语的恶魔灵魂.%n%n烈焰小鬼交易的终极物品就是苦痛卷轴,可用于召唤痛苦之王.
 
 # Quest.2348 - Lord of Torment
-#B gtnh.quest2348.name=Lord of Tourment
-#A gtnh.quest2348.name=Lord of Torment
-#C gtnh.quest2348.name=痛苦之王
-#B gtnh.quest2348.desc=A Lord of Torment is a mighty demonic being that is able to create prisons to Torment its victims. \nThose foolish enough to summon one of these creatures must prepare for an arduous fight.\n\nA Lord of Torment may only be summoned using the Ritual outlined in a Torment Scroll. \nThese scrolls are hard to come by, but it is rumored that well treated Flame Imps have occasionally given them up.\n\nConsuming the Soul of a Torment Demon grants the ability to Torment others.\n\nIf you very unlucky and the Lord of Torment dissapears when entering the Torment use the Egg and spawn another one.
-#A gtnh.quest2348.desc=A Lord of Torment is a mighty demonic being that is able to create prisons to Torment its victims.\n\nThose foolish enough to summon one of these creatures must prepare for an arduous fight.\n\nA Lord of Torment may only be summoned using the Ritual outlined in a Torment Scroll. \nThese scrolls are hard to come by, but it is rumored that well treated Flame Imps have occasionally given them up.\n\nConsuming the Soul of a Torment Demon grants the ability to Torment others.\n\nIf you are very unlucky and the Lord of Torment disappears when entering the Torment dimension, use the Egg and spawn another one.
-#C gtnh.quest2348.desc=痛苦之王是一个强大的恶魔,可以制造痛苦迷宫来折磨受害者.  那些愚蠢的召唤这些生物的人必须为一场艰苦的战斗做好准备.  痛苦之王只能通过苦痛卷轴中列出的仪式召唤.  这种卷轴很难获得,但有传言称,非常满意的烈焰小鬼会与你交易此卷轴.  消耗痛苦恶魔的灵魂可以折磨他人.  如果你很倒霉,进入痛苦迷宫时痛苦之主不见了,请使用刷怪蛋再召唤一个吧.
+gtnh.quest2348.name=痛苦之王
+gtnh.quest2348.desc=痛苦之王是一个强大的恶魔,可以制造痛苦迷宫来折磨受害者.%n%n那些愚蠢的召唤这些生物的人必须为一场艰苦的战斗做好准备.%n%n痛苦之王只能通过苦痛卷轴中列出的仪式召唤.  这种卷轴很难获得,但有传言称,非常满意的烈焰小鬼会与你交易此卷轴.%n%n消耗痛苦恶魔的灵魂可以折磨他人.%n%n如果你很倒霉,进入痛苦迷宫时痛苦之主不见了,请使用刷怪蛋再召唤一个吧.
 
 # Quest.2349 - Ender Towers
 gtnh.quest2349.name=末影之塔
-#B gtnh.quest2349.desc=Once you've explored far enough, you'll find large towering objects that increase in difficulty as you rank up, collimating in a dangerous boss fight. \nBe wary and bring strong protecting armor! \nIf you are incredibly lucky, these towers can also offer rare items and or blocks.
-#A gtnh.quest2349.desc=Once you've explored far enough, you'll find large towering objects that increase in difficulty as you rank up, culminating in a dangerous boss fight.\n\nBe wary and bring strong protecting armor!\n\nIf you are incredibly lucky, these towers can also offer rare items or blocks.
-#C gtnh.quest2349.desc=随着你在末地探索的旅程越来越远,你可能会发现有一个巨大的塔状建筑,它的难度随高度的提升而越来越难,塔顶还有危险的BOSS.  保持警惕并携带强大的护甲!  如果你足够幸运,这些塔会为你带来丰厚的收获.
+gtnh.quest2349.desc=随着你在末地探索的旅程越来越远,你可能会发现有一个巨大的塔状建筑,它的难度随高度的提升而越来越难,塔顶还有危险的BOSS.%n%n保持警惕并携带强大的护甲!%n%n如果你足够幸运,这些塔会为你带来丰厚的收获.
 
 # Quest.2350 - Welcome to the End!
 gtnh.quest2350.name=欢迎来到末地!
@@ -9506,35 +9406,23 @@ gtnh.quest2350.desc=欢迎来到末地!更重要的是,极限末地生存(HEE). 
 
 # Quest.2351 - Essence Altar Dragon Infused
 gtnh.quest2351.name=龙之精华祭坛
-#B gtnh.quest2351.desc=To create a Dragon Essence Altar, a player has to use Dragon Essence on the Basic Essence Altar (right-click the altar with the Essence). \nAfter that, the Altar will request 8 random items to be fed into it. \nDragon Essence Altar may request the following items: Obsidian, Stone Bricks, Map, Book, Bookshelf, Iron Fence, End Stone, Ender Pearl, Eye of Ender, Enderman Head.\n\nAfter this you can store more Essense inside the Altar.
-#A gtnh.quest2351.desc=To create a Dragon Essence Altar, a player has to use Dragon Essence on the Basic Essence Altar (right-click the altar with the Essence).\n\nAfter that, the Altar will request 8 random items to be fed into it. \nDragon Essence Altar may request the following items: Obsidian, Stone Bricks, Map, Book, Bookshelf, Iron Fence, End Stone, Ender Pearl, Eye of Ender, Enderman Head.\n\nAfter this you can store more Essense inside the Altar.
-#C gtnh.quest2351.desc=想要造出龙之精华祭坛,玩家必须在基础精华祭坛上使用龙之精华(手持精华右键祭坛).  这样以后,祭坛需要注入8个任意物品.  龙之精华祭坛可能需要以下物品:黑曜石,石砖,地图,书,书架,铁栅栏,末地石,末影珍珠,末影之眼,末影人头颅.  在此之后,你就可以在祭坛中存储更多的精华了.
+gtnh.quest2351.desc=想要造出龙之精华祭坛,玩家必须在基础精华祭坛上使用龙之精华(手持精华右键祭坛).%n%n这样以后,祭坛需要注入8个任意物品.  龙之精华祭坛可能需要以下物品:黑曜石,石砖,地图,书,书架,铁栅栏,末地石,末影珍珠,末影之眼,末影人头颅.%n%n在此之后,你就可以在祭坛中存储更多的精华了.
 
 # Quest.2352 - Essence Altar
 gtnh.quest2352.name=精华祭坛
-#B gtnh.quest2352.desc=This little enchanting table like-block doesn't do much on its own, but has two other separate paths that can be taken (the third has no uses currently) to accomplish different tasks. \nIt is up to you where and how you want your personal Essence Altar to be upgraded. Firstly and more importantly, the Dragon Essence Altar is needed, but if you play on a public server, this stuff can be difficult to come by without external help. \nHere are some to get you started
-#A gtnh.quest2352.desc=This little enchanting table like-block doesn't do much on its own, but has two other separate paths that can be taken (the third has no uses currently) to accomplish different tasks.\n\nIt is up to you where and how you want your personal Essence Altar to be upgraded. Firstly and more importantly, the Dragon Essence Altar is needed, but if you play on a public server, this stuff can be difficult to come by without external help. \nHere are some to get you started.
-#C gtnh.quest2352.desc=这种看起来像附魔台的方块本身基本没什么用,但它有两个不同的升级路径(第三个目前没有用处),可以完成不同的任务.  取决于你要在何处以及如何升级你的祭坛.首先是更重要的龙之精华祭坛,但是如果你在公共服务器上,没有外部帮助,龙之精华可能很难获得.  这里有一些供你入门.
+gtnh.quest2352.desc=这种看起来像附魔台的方块本身基本没什么用,但它有两个不同的升级路径(第三个目前没有用处),可以完成不同的任务.%n%n取决于你要在何处以及如何升级你的祭坛.首先是更重要的龙之精华祭坛,但是如果你在公共服务器上,没有外部帮助,龙之精华可能很难获得.  这里有一些供你入门.
 
 # Quest.2353 - Find all the Ores in the End
 gtnh.quest2353.name=找到末地中的所有矿石
-#B gtnh.quest2353.desc=End Powder Ore:\nThe ore is generated in the End in between End Stone at every height level. When the ore is mined with any type of pickaxe, it will drop one or two pieces of End Powder.\n\nEndium Ore:\nRare ore that starts to appear near DungeonTowers, and gets more common the further you travel.\n\nIgneous Rock Ore:\nThe ore is generated in the End in the Burning Mountains and sometimes in the Endstone Blobs. This block emits lava particles but does no damage to the player. When the ore is mined with an Iron Pickaxe or better, it will drop one Igneous Rock.\n\nNote: the Fortune Enchantment does not affect Igneous Rock Ore. However, the Silk Touch enchantment does work with this block.\n\nInstability Ore:\nThe ore is generated in the End in the Biome Islands. When the ore is mined with a Advanced Pickaxe, it has a 40％ chance to drop one Instability Orb, otherwise it breaks without providing any items.\n\nNote: the Fortune Enchantment increases the chance of getting an Instability Orb by 4％ per enchantment level.\n\nStardust Or:\nThe ore is generated in the End in the Biome Islands. When the ore is mined with an Advanced Pickaxe, it has a chance to drop 0-4 pieces Stardust. Even though this ore comes in clusters, two ore blocks from the same cluster can be generated away from each other, making Stardust Ore a rare resource which requires thorough exploration and mining.\n\nStardust Ore block has different textures on its sides.\n\n\n\n
-#A gtnh.quest2353.desc=End Powder Ore:\nGenerated in the End in between End Stone at every height level. When the ore is mined with any type of pickaxe, it will drop one or two pieces of End Powder.\n\nEndium Ore:\nRare ore that starts to appear near Dungeon Towers, and gets more common the further you travel.\n\nIgneous Rock Ore:\nGenerated in the End in the Burning Mountains and sometimes in the Endstone Blobs. This block emits lava particles but does no damage to the player. When the ore is mined with an Iron Pickaxe or better, it will drop one Igneous Rock.\n\nNote: the Fortune Enchantment does not affect Igneous Rock Ore. However, the Silk Touch enchantment does work with this block. You can get better output by crushing the block with machines.\n\nInstability Ore:\nGenerated in the End in the Biome Islands. When the ore is mined with a Advanced Pickaxe, it has a 40％ chance to drop one Instability Orb, otherwise it breaks without providing any items.\n\nNote: the Fortune Enchantment increases the chance of getting an Instability Orb by 4％ per enchantment level.\n\nStardust Ore:\nGenerated in the End in the Biome Islands. When the ore is mined with an Advanced Pickaxe, it has a chance to drop 0-4 pieces of Stardust. Even though this ore comes in clusters, two ore blocks from the same cluster can be generated away from each other, making Stardust Ore a rare resource which requires thorough exploration and mining.\n\nStardust Ore block has different textures on its sides.\n\n\n\n
-#C gtnh.quest2353.desc=末影粉末矿石:  这种矿石在末地任意高度的末地石中生成.可使用任意种类的镐挖掘这种矿石,它会掉落一到两个末影粉末.  末影矿石:  在地牢高塔附近才会出现的稀有矿石,不过随着你的旅程继续,它将越来越常见.  火成岩矿石:  这种矿石通常在末地的燃烧之山生成,有时也会生成在末地小岛上.这个方块有熔岩的粒子效果,但不会对玩家造成伤害.用铁以上的镐挖掘这种矿石会掉落火成岩.  注意:时运附魔不影响火成岩矿石.然而,精准采集却对此矿石有效.  震荡球矿石:  这种矿石会在生态岛屿上生成.使用高级镐挖掘它时,有40％的几率掉落一个震荡球,另外60％几率不掉落任何物品.  注意:每级时运附魔可提升4％震荡球掉落几率.  星尘矿石:  这种矿石会在生态岛屿上生成.使用高级镐挖掘它时,有几率掉落0-4个星尘.虽然这种矿石成簇出现,但两个同一簇的矿石可能会相隔较远,这使得星尘矿石是一种稀有资源,需要彻底地勘探并开采.  星尘矿石方块的侧面具有不同的纹理.
+gtnh.quest2353.desc=末影粉末矿石:%n这种矿石在末地任意高度的末地石中生成.可使用任意种类的镐挖掘这种矿石,它会掉落一到两个末影粉末.%n%n末影矿石:%n在地牢高塔附近才会出现的稀有矿石,不过随着你的旅程继续,它将越来越常见.%n%n火成岩矿石:%n这种矿石通常在末地的燃烧之山生成,有时也会生成在末地小岛上.这个方块有熔岩的粒子效果,但不会对玩家造成伤害.用铁以上的镐挖掘这种矿石会掉落火成岩.%n注意:时运附魔不影响火成岩矿石.然而,精准采集却对此矿石有效.用机器打粉矿石可获得更高的产出.%n%n震荡球矿石:%n这种矿石会在生态岛屿上生成.使用高级镐挖掘它时,有40％的几率掉落一个震荡球,另外60％几率不掉落任何物品.%n注意:每级时运附魔可提升4％震荡球掉落几率.%n%n星尘矿石:%n这种矿石会在生态岛屿上生成.使用高级镐挖掘它时,有几率掉落0-4个星尘.虽然这种矿石成簇出现,但两个同一簇的矿石可能会相隔较远,这使得星尘矿石是一种稀有资源,需要彻底地勘探并开采.  星尘矿石方块的侧面具有不同的纹理.
 
 # Quest.2354 - Infused Brewing Stand
-#B gtnh.quest2354.name=Infused Brewingstand
-#A gtnh.quest2354.name=Infused Brewing Stand
-#C gtnh.quest2354.name=强化酿造台
-#B gtnh.quest2354.desc=After the altar creation is complete, a player has to place up to 8 solid blocks (of any kind) near the altar. These blocks require 1 block of air above them and no solid blocks touching them on the sides and diagonally. These blocks are the pedestals. The Dragon Essence Altar will project purple particles to all the pedestals connected to it.\n\nPlacing an item on the pedestal is done by throwing. After the item has been placed on top of the pedestal, the altar will start "infusing" the item using Dragon Essence stored in the altar itself. Adding more essence to the altar is done by right-clicking.\n\nInfusing makes items repair themselves (excluding items which require Energy), increase the level of existing enchantments (up to 4 enchantments per item) and even gain new enchantments.\n\nThere are two items by this mod which can be obtained only by Dragon Essence infusion:\n\nEnhanced Brewing Stand Enhanced Brewing Stand - by infusing a vanilla Brewing Stand, requires 20 pieces of Dragon Essence.\n\n\nTemple Caller Temple Caller - by infusing a vanilla Eye of Ender, requires 50 pieces of Dragon Essence.
-#A gtnh.quest2354.desc=After the altar creation is complete, a player has to place up to 8 solid blocks (of any kind) near the altar. These blocks require 1 block of air above them and no solid blocks touching them on the sides and diagonally. These blocks are the pedestals. The Dragon Essence Altar will project purple particles to all the pedestals connected to it.\n\nPlacing an item on the pedestal is done by throwing. After the item has been placed on top of the pedestal, the altar will start "infusing" the item using Dragon Essence stored in the altar itself. Adding more essence to the altar is done by right-clicking.\n\nInfusing makes items repair themselves (excluding items which require Energy), increase the level of existing enchantments (up to 4 enchantments per item) and even gain new enchantments.\n\nThere are two items by this mod which can be obtained only by Dragon Essence infusion:\n\nEnhanced Brewing Stand - by infusing a vanilla Brewing Stand, requires 20 pieces of Dragon Essence.\n\n\nTemple Caller - by infusing a vanilla Eye of Ender, requires 50 pieces of Dragon Essence.
-#C gtnh.quest2354.desc=祭坛成功升级后,玩家必须在祭坛附近放置8个(任何种类的)固体方块.这些方块上方需要有1格空气方块,并且没有其他固体方块与其相连(侧面或对角线).这些方块是基座.龙之精华祭坛与成功联系起来的基座之间会有紫色粒子效果.  将物品放在基座上需要通过投掷.成功放置后,祭坛将使用存储在自己内部的龙之精华开始"注入"物品.右键单击即可为祭坛添加更多龙之精华.  注入可以修复物品(不包括用电的物品),提升现有的附魔等级(每个物品最多4个附魔),甚至还能获得新的附魔.  这个mod有两种物品只能通过龙之精华注入获得:  强化酿造台-注入原版酿造台,需要20龙之精华.   神庙召唤物-注入原版末影之眼,需要50龙之精华.
+gtnh.quest2354.name=强化酿造台
+gtnh.quest2354.desc=祭坛成功升级后,玩家必须在祭坛附近放置8个(任何种类的)固体方块.这些方块上方需要有1格空气方块,并且没有其他固体方块与其相连(侧面或对角线).这些方块是基座.龙之精华祭坛与成功联系起来的基座之间会有紫色粒子效果.  将物品放在基座上需要通过投掷.成功放置后,祭坛将使用存储在自己内部的龙之精华开始"注入"物品.右键单击即可为祭坛添加更多龙之精华.  注入可以修复物品(不包括用电的物品),提升现有的附魔等级(每个物品最多4个附魔),甚至还能获得新的附魔.  这个mod有两种物品只能通过龙之精华注入获得:  强化酿造台-注入原版酿造台,需要20龙之精华.   神庙召唤物-注入原版末影之眼,需要50龙之精华.
 
 # Quest.2355 - HEE Biome Compass
 gtnh.quest2355.name=HEE群系指南针
-#B gtnh.quest2355.desc=The Biome Compass is a special type of compass, which points to nearest Biome Islands as long one exists and the player is in the End. \nRight-clicking will scroll through all existing biomes.\n\nHolding the compass shows all biomes of selected type as markers on the screen. \nThe markers are small rectangles with the color of the selected biome, the rectangles also get bigger the closer you are to the island (they also disappear if you reach the island, and reappear when you leave it).
-#A gtnh.quest2355.desc=The Biome Compass is a special type of compass, which points to the nearest Biome Islands as long one exists and the player is in the End. \nRight-clicking will scroll through all existing biomes.\n\nHolding the compass shows all biomes of selected type as markers on the screen. \nThe markers are small rectangles with the color of the selected biome, the rectangles also get bigger the closer you are to the island (they also disappear if you reach the island, and reappear when you leave it).
-#C gtnh.quest2355.desc=群系指南针是一种特殊的指南针,当玩家在末地时,它会指向最近的生态岛屿.  右键单击将滚动浏览所有现有生物群系.  手持群系指南针,它将把所有选定的群系标记在屏幕上.  标记是带有选定生物群系颜色的小方块,越靠近岛屿,方块也越大(如果到达岛屿,标记就会消失,离开岛屿时会再次出现).
+gtnh.quest2355.desc=群系指南针是一种特殊的指南针,当玩家在末地时,它会指向最近的生态岛屿.  右键单击将滚动浏览所有现有生物群系.  手持群系指南针,它将把所有选定的群系标记在屏幕上.  标记是带有选定生物群系颜色的小方块,越靠近岛屿,方块也越大(如果到达岛屿,标记就会消失,离开岛屿时会再次出现).
 
 # Quest.2356 - Visit the Laboratory Island
 gtnh.quest2356.name=探索实验室岛
@@ -9546,21 +9434,15 @@ gtnh.quest2357.desc=能量星团具有不同的健康水平,这影响星团的�
 
 # Quest.2358 - Visit the Enchanted Island
 gtnh.quest2358.name=探索附魔岛屿
-#B gtnh.quest2358.desc=Very flat biome with small amount of caves.\n\nIt can be found with the HEE Biome Compass.\n\nThere are currently two variations - Homeland and Laboratory.\n\nHomeland has lakes of Ender Goo, piles of Falling Obsidian and a strange Obsidian road-like structure. \nYou can often find Homeland Cache, a floating transparent cube that can be broken. Endermen Baby Endermen and Ender Guardians spawn there.\n
-#A gtnh.quest2358.desc=Very flat biome with small amount of caves.\n\nIt can be found with the HEE Biome Compass.\n\nThere are currently two variations - Homeland and Laboratory.\n\nHomeland has lakes of Ender Goo, piles of Falling Obsidian and a strange Obsidian road-like structure. \nYou can often find Homeland Cache, a floating transparent cube that can be broken. Endermen Baby Endermen and Ender Guardians spawn there.\n\n
-#C gtnh.quest2358.desc=这是一种非常平坦的生物群系,有少量的洞穴.  你可以用HEE群系指南针找到它.  目前有两种变体-故土与实验室.  故土上有末影粘浆湖,成堆的黑曜石陨星和奇怪的黑曜石道路.  你经常会看到故土隐藏砖,一种可被破坏的漂浮透明方块.末影人、小末影人和末影守卫会从其中生成.
+gtnh.quest2358.desc=这是一种非常平坦的生物群系,有少量的洞穴.  你可以用HEE群系指南针找到它.  目前有两种变体-故土与实验室.  故土上有末影粘浆湖,成堆的黑曜石陨星和奇怪的黑曜石道路.  你经常会看到故土隐藏砖,一种可被破坏的漂浮透明方块.末影人、小末影人和末影守卫会从其中生成.
 
 # Quest.2359 - Visit the Infested Island
 gtnh.quest2359.name=探索腐化岛屿
-#B gtnh.quest2359.desc=The Infested Island are mostly a flat biome with occasional hills, long caves and decent amount of ores.\nThere are 2 variations of the biome - Deep and Ravaged.\nBoth of these variations contain Silverfish, Infested Bats and occasionally Endermen.\n\nDeep variation is massively populated with Spooky Trees that can have faces on them. The ground has all types of infested plants, including Thorny Bushes.\n\nDeep variation is massively populated with Spooky Trees that can have faces on them. \nThe ground has all types of infested plants, including Thorny Bushes.\n\nRavaged variation has patches of infested plants and occasional Spooky Trees, but the most important feature is the RavagedDungeon which is an open gate to the Charms.\n
-#A gtnh.quest2359.desc=The Infested Island are mostly a flat biome with occasional hills, long caves and decent amount of ores.\nThere are 2 variations of the biome - Deep and Ravaged.\nBoth of these variations contain Silverfish, Infested Bats and occasionally Endermen.\n\nDeep variation is massively populated with Spooky Trees that can have faces on them. The ground has all types of infested plants, including Thorny Bushes.\n\nRavaged variation has patches of infested plants and occasional Spooky Trees, but the most important feature is the Ravaged Dungeon which is an open gate to the Charms.\n
-#C gtnh.quest2359.desc=这个被腐化的岛屿大部分是平坦的生物群系,偶有山丘、长洞穴和适量的矿石.  此生物群系有2种变体-低沉和毁灭.  这两种变体内都有蠹虫,腐化蝙蝠出没,偶尔还有末影人.  低沉变体到处都是幽灵树,树上有鬼脸.  地面上有各种类型的腐化植物,包括蕨的灌木.  毁灭变体中更多的是腐化植物,偶尔才有幽灵树,但最重要的特征是毁灭地牢,这是开启护符的大门.
+gtnh.quest2359.desc=这个被腐化的岛屿大部分是平坦的生物群系,偶有山丘、长洞穴和适量的矿石.  此生物群系有2种变体-低沉和毁灭.  这两种变体内都有蠹虫,腐化蝙蝠出没,偶尔还有末影人.  低沉变体到处都是幽灵树,树上有鬼脸.  地面上有各种类型的腐化植物,包括蕨的灌木.  毁灭变体中更多的是腐化植物,偶尔才有幽灵树,但最重要的特征是毁灭地牢,这是开启护符的大门.
 
 # Quest.2360 - Visit the Fiery Island
 gtnh.quest2360.name=探索燃烧岛屿
-#B gtnh.quest2360.desc=Fire-oriented biome with huge mountains and a large amount of caves and ores. \nApart from default ores, this biome also has common igneous_rock_ore.\n\nThere are 2 variations of the biome - Scorching and Mine.\nScorching variation has large blobs of cinder, streams and pools of Lava and Lilyfires.\n\nEach island also contains a dungeon_puzzle. \nThis is the only place where Fire Golem and Scorching Lenses spawn.\n\nMine variation spawns Haunted Miners, which protect Resource Pits (holes with ores from the End and Lava) and long patches of Overworld ores. \nNot all Overworld ores are present in a single island, usually one or two random ores are missing.\n
-#A gtnh.quest2360.desc=A Fire-oriented biome with huge mountains and a large amount of caves and ores. \nApart from default ores, this biome also has common Igneous Rock ore.\n\nThere are 2 variations of the biome - Scorching and Mine.\nScorching variation has large blobs of cinder, streams and pools of Lava and Lilyfires.\n\nEach island also contains a Dungeon Puzzle. \nThis is the only place where Fire Golems and Scorching Lenses spawn.\n\nMine variation spawns Haunted Miners, which protect Resource Pits (holes with ores from the End and Lava) and long patches of Overworld ores. \nNot all Overworld ores are present in a single island, usually one or two random ores are missing.\n
-#C gtnh.quest2360.desc=这是一种火系生物群系,有巨大的山脉、大量的洞穴和矿石.  除了默认矿石外,该生物群系还有火成岩.  此生物群系有2种变体-灼烧和矿山.  灼烧变体有大块的炉渣,到处流淌的岩浆还有火莲.  每个岛屿还有一个地牢谜题.  这里是火傀儡和灼热之眼的唯一生成地.  矿山变体生成幽魂矿工,它们保护着矿坑(末地和岩浆中的矿洞)和长条的主世界矿石.  并非所有的主世界矿石都存在于同一个岛中,通常缺少一两种随机矿石.
+gtnh.quest2360.desc=这是一种火系生物群系,有巨大的山脉、大量的洞穴和矿石.  除了默认矿石外,该生物群系还有火成岩.  此生物群系有2种变体-灼烧和矿山.  灼烧变体有大块的炉渣,到处流淌的岩浆还有火莲.  每个岛屿还有一个地牢谜题.  这里是火傀儡和灼热之眼的唯一生成地.  矿山变体生成幽魂矿工,它们保护着矿坑(末地和岩浆中的矿洞)和长条的主世界矿石.  并非所有的主世界矿石都存在于同一个岛中,通常缺少一两种随机矿石.
 
 # Quest.2361 - Ghost Amulet
 gtnh.quest2361.name=幽魂护符
@@ -9572,41 +9454,27 @@ gtnh.quest2362.desc=空白宝石仅用于制作高级宝石.
 
 # Quest.2363 - Spatial Dash Gem
 gtnh.quest2363.name=空间碰撞宝石
-#B gtnh.quest2363.desc=Spatial Dash Gem is used for enderpearl-like teleportation.\n\nSpatial Dash Gem uses Energy and can be charged in an Energy Extraction Table. Right-clicking with the gem in hand sends a purple beam straight to where the player is aiming. When the beam hits a block, the player will be teleported to it. Maximum travel distance is 75 blocks horizontally. The teleportation doesn't hurt the player, unlike Ender Pearls.\n\nThe Spatial Dash Gem always tries to place the player on the top of the block, even if the beams hits a side or a bottom of it. The Spatial Dash Gem can teleport the player through 7 solid blocks in a row, making the gem a good way of teleporting through cave walls and ceilings. If the wall is thicker than 7 blocks, the gem then tries to find 2 air blocks inside the wall. If the air blocks are not found, the player will be teleported into a wall, leading to suffocation.\n\nSpatial Dash Gem is dropped by an Ender Eye mini-boss upon death.\n\n
-#A gtnh.quest2363.desc=Spatial Dash Gem is used for enderpearl-like teleportation.\n\nSpatial Dash Gem uses Energy and can be charged in an Energy Extraction Table. Right-clicking with the gem in hand sends a purple beam straight to where the player is aiming. When the beam hits a block, the player will be teleported to it. Maximum travel distance is 75 blocks horizontally. The teleportation doesn't hurt the player, unlike Ender Pearls.\n\nThe Spatial Dash Gem always tries to place the player on the top of the block, even if the beams hits a side or a bottom of it. \n\nThe Spatial Dash Gem can teleport the player through 7 solid blocks in a row, making the gem a good way of teleporting through cave walls and ceilings. If the wall is thicker than 7 blocks, the gem then tries to find 2 air blocks inside the wall. If the air blocks are not found, the player will be teleported into a wall, leading to suffocation.\n\nSpatial Dash Gem is dropped by an Ender Eye mini-boss upon death.\n\n
-#C gtnh.quest2363.desc=空间碰撞宝石可用于进行类似末影珍珠的传送.  空间碰撞宝石需使用能量,可在释能台进行充能.手持宝石右键,将会向玩家瞄准的位置发射紫色粒子束.当粒子束碰到方块时,玩家将被传送到该方块上.水平的最大传送距离为75格.不像使用末影珍珠,传送不会伤害玩家.  空间碰撞宝石总是尝试将玩家传送到方块的顶部,即使粒子束碰到的是方块的侧面或底部.  空间碰撞宝石可将玩家传送穿过连续7个固体方块,这使宝石传送成为通过洞穴壁或天花板的好方法.如果墙厚超过7格,宝石就会尝试在墙内找到2格空气方块.如果找不到这样的空气方块,玩家将被传送到墙里导致窒息.  杀死末影之眼小boss时会掉落空间碰撞宝石.
+gtnh.quest2363.desc=空间碰撞宝石可用于进行类似末影珍珠的传送.  空间碰撞宝石需使用能量,可在释能台进行充能.手持宝石右键,将会向玩家瞄准的位置发射紫色粒子束.当粒子束碰到方块时,玩家将被传送到该方块上.水平的最大传送距离为75格.不像使用末影珍珠,传送不会伤害玩家.  空间碰撞宝石总是尝试将玩家传送到方块的顶部,即使粒子束碰到的是方块的侧面或底部.%n%n空间碰撞宝石可将玩家传送穿过连续7个固体方块,这使宝石传送成为通过洞穴壁或天花板的好方法.如果墙厚超过7格,宝石就会尝试在墙内找到2格空气方块.如果找不到这样的空气方块,玩家将被传送到墙里导致窒息.%n%n杀死末影之眼小boss时会掉落空间碰撞宝石.
 
 # Quest.2364 - Transference Gem
-#B gtnh.quest2364.name=Blank Gem
-#A gtnh.quest2364.name=Transference Gem
-#C gtnh.quest2364.name=传送宝石
-#B gtnh.quest2364.desc=Transference Gem is used to teleport to a marked location.\n\nTransference Gem uses Energy and can be charged in an Energy Extraction Table. Shift+right-clicking on a block with a Transference Gem in hand will link the gem to that block. \nThe state of the gem itself will switch to "Linked", as seen in its tooltip. \nAfter linking, the player can right-click with a Transference Gem in hand to teleport to the linked block, using some of the Energy stored in the gem.\n\nUsing F3+H to enable detailed item tooltips makes the Transference Gem show the exact coordinates and the dimension of the linked location.\n\nOnce the charge of the Transference Gem becomes lower than 44％, negative effects will appear:\n\nDeflection - the player will be teleported to a random location instead of the linked block.\nVarious negative potion effects, the lower the charge is - the longer they will last:\n\nSlowness II\nNausea I\nWeakness II\nHunger I\n\nEndermen - Angry Endermen will spawn and attack the player.\nItem drop - a random amount of items in player's inventory will drop to the ground.\nStorm - will cause a 2-3 minute storm. This is the most rare effect.
-#A gtnh.quest2364.desc=The Transference Gem is used to teleport to a marked location.\n\nThe Transference Gem uses Energy and can be charged in an Energy Extraction Table. Shift+right-clicking on a block with a Transference Gem in hand will link the gem to that block. \nThe state of the gem itself will switch to "Linked", as seen in its tooltip. \nAfter linking, the player can right-click with a Transference Gem in hand to teleport to the linked block, using some of the Energy stored in the gem.\n\nUsing F3+H to enable detailed item tooltips makes the Transference Gem show the exact coordinates and the dimension of the linked location.\n\nOnce the charge of the Transference Gem becomes lower than 44％, negative effects will appear:\n\nDeflection - the player will be teleported to a random location instead of the linked block.\nVarious negative potion effects, the lower the charge is - the longer they will last:\n\nSlowness II\nNausea I\nWeakness II\nHunger I\n\nEndermen - Angry Endermen will spawn and attack the player.\nItem drop - a random amount of items in player's inventory will drop to the ground.\nStorm - will cause a 2-3 minute storm. This is the most rare effect.
-#C gtnh.quest2364.desc=传送宝石可用于将玩家传送到已标记的位置.  传送宝石需使用能量,可在释能台进行充能.手持宝石Shift右键方块,将会把该方块链接到此宝石.如其tooltip所示,宝石本身的状态将切换为"已链接".  链接后,玩家可以消耗宝石中存储的一些能量,手持传送宝石右键,即可传送至链接的方块.  按下F3+H可启用物品的详细tooltip,可显示链接位置的确切坐标和维度.  当传送宝石内的能量低于44％时,负面影响将会出现:  偏移-玩家将被传送到随机位置而不是链接的方块.  各种负面药水效果,能量越低-效果持续时间越长:  缓慢-II  反胃-I  虚弱-II  饥饿-I  末影人-生成愤怒的末影人并攻击玩家.  物品掉落-玩家物品栏中的随机物品会掉落.  风暴-会造成2-3分钟的暴风雨.这是最罕见的效果.
+gtnh.quest2364.name=传送宝石
+gtnh.quest2364.desc=传送宝石可用于将玩家传送到已标记的位置.  传送宝石需使用能量,可在释能台进行充能.手持宝石Shift右键方块,将会把该方块链接到此宝石.如其tooltip所示,宝石本身的状态将切换为"已链接".  链接后,玩家可以消耗宝石中存储的一些能量,手持传送宝石右键,即可传送至链接的方块.  按下F3+H可启用物品的详细tooltip,可显示链接位置的确切坐标和维度.  当传送宝石内的能量低于44％时,负面影响将会出现:  偏移-玩家将被传送到随机位置而不是链接的方块.  各种负面药水效果,能量越低-效果持续时间越长:  缓慢-II  反胃-I  虚弱-II  饥饿-I  末影人-生成愤怒的末影人并攻击玩家.  物品掉落-玩家物品栏中的随机物品会掉落.  风暴-会造成2-3分钟的暴风雨.这是最罕见的效果.
 
 # Quest.2365 - Gem Enchantment
-gtnh.quest2365.name=宝石附魔
-#B gtnh.quest2365.desc=Transference Gem and Spatial Gems can be enhanced in a similar manner, using End Powder and the enhancement item.\n\nRightklick the Endpowder choose an enchantment and fill four Endpowder and four instability orbs for instant teleport, four lapis lazuli item for get a longer tp range and four endium ingots to increase the capacity of the gem
-#A gtnh.quest2365.desc=Transference Gems and Spatial Gems can be enhanced in a similar manner, using End Powder and the enhancement item.\n\nRight click the End Powder, choose an enchantment, and fill four End Powder and four instability orbs for instant teleport, four Lapis Lazuli for a longer teleport range, and four endium ingots to increase the capacity of the gem.
-#C gtnh.quest2365.desc=传送宝石和空间碰撞宝石可用类似的方式附魔-使用末影粉末和附魔物品.  右键末影粉末选择一种附魔,填充4个末影粉末和4个震荡球可添加瞬间传送效果;4个青金石可使传送范围更大;4个末影锭可提升宝石的容量.
+gtnh.quest2365.name=宝石强化
+gtnh.quest2365.desc=传送宝石和空间碰撞宝石可用类似的方式强化-使用末影粉末和强化物品.  右键末影粉末选择一种强化,填充4个末影粉末和4个震荡球可添加瞬间传送效果;4个青金石可使传送范围更大;4个末影锭可提升宝石的容量.
 
 # Quest.2366 - Advanced Gem Enchantment
-gtnh.quest2366.name=宝石高级附魔
-#B gtnh.quest2366.desc=Transference Gem and Spatial Gems can be enhanced in a similar manner, using End Powder and the enhancement item.\n\nRightklick the Endpowder choose an enchantment and fill four Endpowder and four  ectoplasma for teleport a monster, four leather for teleport a whole group of players and four endium ingots to increase the capacity of the gem
-#A gtnh.quest2366.desc=Transference Gem and Spatial Gems can be enhanced in a similar manner, using End Powder and the enhancement item.\n\nRight click the End Powder, choose an enchantment, and fill with four End Powder and four ectoplasm to teleport a monster, four leather to teleport a whole group of players, and four endium ingots to increase the capacity of the gem.
-#C gtnh.quest2366.desc=传送宝石和空间碰撞宝石可用类似的方式附魔-使用末影粉末和附魔物品.  右键末影粉末选择一种附魔,填充4个末影粉末和4个外质可传送怪物;4个皮革可传送整队玩家;4个末影锭可提升宝石的容量.
+gtnh.quest2366.name=高级宝石强化
+gtnh.quest2366.desc=传送宝石和空间碰撞宝石可用类似的方式强化-使用末影粉末和强化物品.  右键末影粉末选择一种强化,填充4个末影粉末和4个外质可传送怪物;4个皮革可传送整队玩家;4个末影锭可提升宝石的容量.
 
 # Quest.2367 - Runes
 gtnh.quest2367.name=符文
-#B gtnh.quest2367.desc=There are 6 types of Runes found in the Ravaged Dungeons on the Infested Islands.\nPower, \nAgility,\nVigor, \nDefense,\nMagic and \nVoid. \nThe Void rune is less common than other types.\n\nRunes are used to create Charms, and craft in a charm_pouch.\n\nBasic Runes increase attributes, such as strength, speed or health. Void Rune (gray) gives the Louse one of special and extremely dangerous abilities.
-#A gtnh.quest2367.desc=There are 6 types of Runes found in the Ravaged Dungeons on the Infested Islands.\n\nPower\nAgility\nVigor\nDefense\nMagic\nVoid\n\nThe Void rune is less common than other types.\n\nRunes are used to create Charms, and craft in a Charm Pouch.\n\nBasic Runes increase attributes, such as strength, speed or health. Void Rune (gray) gives the Louse one of special and extremely dangerous abilities.
-#C gtnh.quest2367.desc=在腐化岛屿的毁灭地牢中可找到6种符文.  力量,  敏捷,  活力,  防御,  魔法,  虚空.  虚空符文比其他类型的符文更罕见.  符文被用于制造护符,在护符袋中合成护符.  基本符文可提高属性,如力量、速度或生命.虚空符文(灰色)会赋予虱某种特殊而极其危险的能力.
+gtnh.quest2367.desc=在腐化岛屿的毁灭地牢中可找到6种符文.  力量,  敏捷,  活力,  防御,  魔法,  虚空.  虚空符文比其他类型的符文更罕见.  符文被用于制造护符,在护符袋中合成护符.  基础符文可提高属性,如力量、速度或生命.虚空符文(灰色)会赋予虱某种特殊而极其危险的能力.
 
 # Quest.2368 - Charms
 gtnh.quest2368.name=护符
-#B gtnh.quest2368.desc=Charms are player enchantments, used and crafted in the charm_pouch.\nIf you lucky you will found one pouch in the Dungeons.\n\nMagical pouch that allows creating, holding and activating Charms.\nSneaking and using the pouch activates or deactives the Charms. \nOnly one pouch can be active at a time.\n
-#A gtnh.quest2368.desc=Charms are player enchantments, used and crafted in the Charm Pouch.\nIf you are lucky you may find a pouch in the Dungeons.\n\nThis magical pouch allows creating, holding and activating Charms.\nSneaking and using the pouch activates or deactives the Charms. \nOnly one pouch can be active at a time.\n
-#C gtnh.quest2368.desc=护符可增强玩家,在护符袋中合成并使用.  欧皇可以直接在地牢里找到护符袋.  这种神奇的袋子可以合成,携带并激活护符.  手持袋子潜行右键可激活或关闭护符.  同时只能有一个护符袋生效.
+gtnh.quest2368.desc=护符可增强玩家,在护符袋中合成并使用.  欧皇可以直接在地牢里找到护符袋.  这种神奇的袋子可以合成,携带并激活护符.  手持袋子潜行右键可激活或关闭护符.  同时只能有一个护符袋生效.
 
 # Quest.2369 - Hot Puzzle
 gtnh.quest2369.name=燃烧谜题
@@ -9614,85 +9482,55 @@ gtnh.quest2369.desc=一些岛屿内部会有地牢谜题,通常在地表附近,�
 
 # Quest.2370 - Scorching Pickaxe
 gtnh.quest2370.name=灼热之镐
-#B gtnh.quest2370.desc=The Scorchning Pickaxe is a special type of pickaxe that smelts blocks and applies fortune effect to ores.\nIt only works on smeltable blocks and ores. Blocks that smelt into items are affected by fortune, including for example Iron Ore and Cactus.\nCompatible blocks are also mined much faster.\n\nGT Ores are not affected.
-#A gtnh.quest2370.desc=The Scorching Pickaxe is a special type of pickaxe that smelts blocks and applies fortune effect to ores.\n\nIt only works on smeltable blocks and ores. Blocks that smelt into items are affected by fortune, including for example Iron Ore and Cactus.\n\nCompatible blocks are also mined much faster.\n\nGT Ores are not affected. You can find Vanilla Ores in the Twilight Forest inside Hollow Hills.
-#C gtnh.quest2370.desc=灼热之镐是一种特殊的镐,它会熔炼方块并向自带时运效果.  它仅适用于可熔炼的方块和矿石.方块熔炼成物品会受到幸运的影响,例如铁矿石和仙人掌.  能有效熔炼的方块开采速度也更快.  GT矿石不受影响.
+gtnh.quest2370.desc=灼热之镐是一种特殊的镐,它会熔炼方块并向自带时运效果.  它仅适用于可熔炼的方块和矿石.方块熔炼成物品会受到幸运的影响,例如铁矿石和仙人掌.  能有效熔炼的方块开采速度也更快.  GT矿石不受影响.在暮色森林中的矿洞中有原版矿石.
 
 # Quest.2371 - Death Flowers
 gtnh.quest2371.name=死亡之花
-#B gtnh.quest2371.desc=Purple flower found on top of Endstone Blobs. It can be planted on End Stone, Dirt, Grass or inside Flower Pots.\nOutside the End, the flower will slowly decay, even if in a Flower Pot.\nAfter some time of decaying, it starts to occasionally attract Angry Endermen.\nWhen the flower decays completely, it turns dark, propagates massive amount decay to nearby blocks and spawns an energy_cluster.\nPartial decay can be healed a little using Endpowder.
-#A gtnh.quest2371.desc=The purple flower found on top of Endstone Blobs are Death Flower. It can be planted on End Stone, Dirt, Grass or inside Flower Pots.\n\nOutside the End, the flower will slowly decay, even if in a Flower Pot.\n\nAfter some time of decaying, it starts to occasionally attract Angry Endermen.\n\nWhen the flower decays completely, it turns dark, propagates massive amount decay to nearby blocks and spawns an Energy Cluster.\n\nPartial decay can be healed a little using Endpowder.
-#C gtnh.quest2371.desc=这种紫色的花生长在末地小岛的最高处.可以种植在末地石、泥土、草方块上.也可以种植在花盆中.  在末地外,即使在花盆中,花也会慢慢腐烂.  经过一段时间的枯萎,它开始偶尔吸引愤怒的末影人.  当花完全枯萎后,它会变黑并对周围释放出凋亡效果,但同时会生成能量星团.  使用末影粉末可以部分治愈枯萎.
+gtnh.quest2371.desc=这种紫色的花生长在末地小岛的最高处.可以种植在末地石、泥土、草方块上.也可以种植在花盆中.  在末地外,即使在花盆中,花也会慢慢腐烂.  经过一段时间的枯萎,它开始偶尔吸引愤怒的末影人.  当花完全枯萎后,它会变黑并对周围释放出凋亡效果,但同时会生成能量星团.  使用末影粉末可以部分治愈枯萎.
 
 # Quest.2372 - Living Matter
 gtnh.quest2372.name=活跃物质
-#B gtnh.quest2372.desc=Living Matter is a Microorganisms used to craft Curses.
-#A gtnh.quest2372.desc=Living Matter are Microorganisms combined together, used to craft Curses.
-#C gtnh.quest2372.desc=活跃物质是一种用来制造诅咒的微生物.
+gtnh.quest2372.desc=活跃物质是一种用来制造诅咒的微生物组合物.
 
 # Quest.2373 - Silverfish Blood
 gtnh.quest2373.name=蠹虫之血
-#B gtnh.quest2373.desc=Using a normal sword, the chance of it dropping Blood per Silverfish is 1 in 56.\nGolden swords increase the chance to 1 in 14.\n\n\nBetter is to obtain the blood by killing Silverfish, and is used to brew Infestation Remedy.\n\n\n
-#A gtnh.quest2373.desc=Using a normal sword, the chance of it dropping Blood per Silverfish is 1 in 56.\nGolden swords increase the chance to 1 in 14.\n\n\nIt is used to brew Infestation Remedy.\n\n\n
-#C gtnh.quest2373.desc=使用普通剑杀死蠹虫,掉落蠹虫之血的几率是五十六分之一.  金剑将此几率提升为十四分之一.   收集一些蠹虫之血吧,它可用于酿造祛腐药水.
+gtnh.quest2373.desc=使用普通剑杀死蠹虫,掉落蠹虫之血的几率是五十六分之一.  金剑将此几率提升为十四分之一.   收集一些蠹虫之血吧,它可用于酿造祛腐药水.
 
 # Quest.2374 - Infestation Remedy
 gtnh.quest2374.name=祛腐药水
-#B gtnh.quest2374.desc=Infestation Remedy is a drinkable item used to shorten effects of the Infestation.\n\nObtaining:\nThe Infestation Remedy is brewed in an Enhanced Brewing Stand, using Silverfish Blood as the brewing ingredient and Awkward Potion.\n\nUsage:\nWhen drank, the remedy will shorten each of the Infestation effects by 150 to 180 seconds.\n\nYou can make splash potions with gunpowder and 3 more endpowder aswell.
-#A gtnh.quest2374.desc=Infestation Remedy is a drinkable item used to shorten effects of the Infestation.\n\nObtaining:\nThe Infestation Remedy is brewed in an Enhanced Brewing Stand, using Silverfish Blood as the brewing ingredient and an Awkward Potion.\n\nUsage:\nWhen drank, the remedy will shorten each of the Infestation effects by 150 to 180 seconds.\n\nYou can make splash potions with gunpowder and 3 more End Powder as well.
-#C gtnh.quest2374.desc=祛腐药水是可饮用的物品,用于缩短腐化的时间.  获取:  祛腐药水需用蠹虫之血和粗制药水在强化酿造台中酿造而成.  用途:  饮用后,此药水会将每种腐化效果缩短150至180秒.  你还可以使用火药和额外3个末影粉末将其制成喷溅型药水.
+gtnh.quest2374.desc=祛腐药水是可饮用的物品,用于缩短腐化的时间.  获取:  祛腐药水需用蠹虫之血和粗制药水在强化酿造台中酿造而成.  用途:  饮用后,此药水会将每种腐化效果缩短150至180秒.  你还可以使用火药和额外3个末影粉末将其制成喷溅型药水.
 
 # Quest.2375 - Potion of Instability
 gtnh.quest2375.name=不稳定药水
-#B gtnh.quest2375.desc=The Potion of Instability is a special type of potion, which can be brewed by putting Instability Orb into an Enhanced Brewing Stand with awkward potion. Brewing process requires End Powder in the stand's special slot.\n\nUsage:\nAs any other potion, the Potion of Instability can be drank (or thrown, if it's splash). Unlike regular potions, this potion gives a random potion effect of random tier and duration to each player it affects. It can also apply potion effects which aren't available in vanilla potions, such as Jump or Hunger.\n\nTrivia:\nItem tooltip contains ???, as opposed to potion effect and duration\n\nYou can make splash potions with gunpowder and 3 more endpowder aswell.
-#A gtnh.quest2375.desc=The Potion of Instability is a special type of potion, which can be brewed by putting an Instability Orb into an Enhanced Brewing Stand with an awkward potion. The brewing process requires End Powder in the stand's special slot.\n\nUsage:\nAs any other potion, the Potion of Instability can be drank (or thrown, if it's splash). Unlike regular potions, this potion gives a random potion effect of random tier and duration to each player it affects. It can also apply potion effects which aren't available in vanilla potions, such as Jump or Hunger.\n\nTrivia:\nItem tooltip contains ???, as opposed to potion effect and duration\n\nYou can make splash potions with gunpowder and 3 more End Powder as well.
-#C gtnh.quest2375.desc=不稳定药水是一种特殊的药水,可用震荡球和粗制药水在强化酿造台中酿造而成.酿造过程中需要在强化酿造台的特定槽位中放入末影粉末.  用途:与其他任何药水一样,不稳定药水可饮用(或掷出,如果是喷溅型的话).与普通药水不同,该药水会对其影响的每个玩家附加随机等级、持续时间的随机药水效果.它也可以附加原版药水没有的效果,例如腾讯或饥饿.  杂项:  物品的tooltip是???,而不是药水效果和持续时间.  你还可以使用火药和额外3个末影粉末将其制成喷溅型药水.
+gtnh.quest2375.desc=不稳定药水是一种特殊的药水,可用震荡球和粗制药水在强化酿造台中酿造而成.酿造过程中需要在强化酿造台的特定槽位中放入末影粉末.  用途:与其他任何药水一样,不稳定药水可饮用(或掷出,如果是喷溅型的话).与普通药水不同,该药水会对其影响的每个玩家附加随机等级、持续时间的随机药水效果.它也可以附加原版药水没有的效果,例如腾讯或饥饿.  杂项:  物品的tooltip是???,而不是药水效果和持续时间.  你还可以使用火药和额外3个末影粉末将其制成喷溅型药水.
 
 # Quest.2376 - Curses
 gtnh.quest2376.name=诅咒
-#B gtnh.quest2376.desc=A Curse is a magical powder that attaches itself to an area of blocks, a mob, or a player, crafted using living matter, end_powder and specific ingredients.\nIt can be either placed right on a block or an entity, or thrown. If it gets thrown into a group of entities, it will have a chance to hit more of then at the same time.\nCurses eventually disappear, but they can be made eternal by crafting them with stardust and arcane shard. \nEternal Curses will stay forever on blocks and mobs, and longer than normal Curses on players.\nCurses placed on blocks are only visible to the player who casted it, and for a short duration to players affected by it.\nGetting very close to a Curse makes it visible without having it affect you, but it requires extreme carefulness.\nIt is possible to remove Curses by using potion of purity.
-#A gtnh.quest2376.desc=A Curse is a magical powder that attaches itself to an area of blocks, a mob, or a player, crafted using living matter, End Powder and specific ingredients.\n\nIt can be either placed right on a block or an entity, or thrown. If it gets thrown into a group of entities, it will have a chance to hit more than one at the same time.\n\nCurses eventually disappear, but they can be made eternal by crafting them with stardust and an arcane shard. Eternal Curses will stay forever on blocks and mobs, and longer than normal Curses on players.\n\nCurses placed on blocks are only visible to the player who cast it, and for a short duration to players affected by it.\n\nGetting very close to a Curse makes it visible without having it affect you, but it requires extreme carefulness.\n\nIt is possible to remove Curses by using a Potion of Purity.
-#C gtnh.quest2376.desc=诅咒是一种神奇的粉末,它自身会附着在一块区域的方块、怪物或玩家上,使用活跃物质、末影粉末和特定成分合成.  可以将其放置在方块或实体上,也可以将其掷出.如果将它扔进一群实体中,它将有几率同时击中更多.  诅咒终将消失,但是可以通过使用星尘和奥术碎片制作它们来使其永固.  永恒诅咒将永久停留在方块或怪物上,同时对玩家而言,其持续时间比正常诅咒更长.  放置在方块上的诅咒仅对施放它的玩家可见,并在短时间内对受它影响的玩家可见.  距离诅咒足够近也可以看见它,但这需要非常小心.  通过使用净化药水可以消除诅咒.
+gtnh.quest2376.desc=诅咒是一种神奇的粉末,它自身会附着在一块区域的方块、怪物或玩家上,使用活跃物质、末影粉末和特定成分合成.  可以将其放置在方块或实体上,也可以将其掷出.如果将它扔进一群实体中,它将有几率同时击中更多实体.  诅咒终将消失,但是可以通过使用星尘和奥术碎片制作它们来使其永固.  永恒诅咒将永久停留在方块或怪物上,同时对玩家而言,其持续时间比正常诅咒更长.  放置在方块上的诅咒仅对施放它的玩家可见,并在短时间内对受它影响的玩家可见.  距离诅咒足够近也可以看见它,但这需要非常小心.  使用净化药水可以消除诅咒.
 
 # Quest.2377 - Potion of Purity
 gtnh.quest2377.name=净化药水
-#B gtnh.quest2377.desc=Potion of Purity is a drinkable or throwable potion that removes Curses.\n\nObtaining:\nThe Prity Potion is brewed in an Enhanced Brewing Stand, using Ectoplasma as the brewing ingredient and Awkward Potion.\n\nYou can make splash potions with gunpowder and 3 more endpowder aswell.
-#A gtnh.quest2377.desc=Potion of Purity is a drinkable or throwable potion that removes Curses.\n\nObtaining:\nThe Purity Potion is brewed in an Enhanced Brewing Stand, using Ectoplasm as the brewing ingredient and an Awkward Potion.\n\nYou can make splash potions with gunpowder and 3 more End Powder as well.
-#C gtnh.quest2377.desc=净化药水是一种可以饮用或投掷的药水,它可以消除诅咒.  获取:  净化药水需用外质和粗制药水在强化酿造台中酿造而成.  你还可以使用火药和额外3个末影粉末将其制成喷溅型药水.
+gtnh.quest2377.desc=净化药水是一种可以饮用或投掷的药水,它可以消除诅咒.%n%n获取:%n净化药水需用外质和粗制药水在强化酿造台中酿造而成.%n%n你还可以使用火药和额外3个末影粉末将其制成喷溅型药水.
 
 # Quest.2378 - Curse Amulet
-#B gtnh.quest2378.name=Curse Amulett
-#A gtnh.quest2378.name=Curse Amulet
-#C gtnh.quest2378.name=诅咒护符
-#B gtnh.quest2378.desc=The Curse Amulet reveals all nearby Curses  placed on blocks and depletes Curses quicker when held.\nIt is created by throwing endpowder, Gold Ingot, Ectoplasm and String into Ender Goo.
-#A gtnh.quest2378.desc=The Curse Amulet reveals all nearby Curses  placed on blocks and depletes Curses quicker when held.\n\nIt is created by throwing End Powder, Gold Ingot, Ectoplasm and String into Ender Goo.
-#C gtnh.quest2378.desc=诅咒护符可揭示附近所有放置在方块上的诅咒,手持时还可以更快地耗尽诅咒.  它是通过将末影粉末、金锭、外质和线丢进末影粘浆中而制成的.
+gtnh.quest2378.name=诅咒护符
+gtnh.quest2378.desc=诅咒护符可揭示附近所有放置在方块上的诅咒,手持时还可以更快地耗尽诅咒.  它是通过将末影粉末、金锭、外质和线丢进末影粘浆中而制成的.
 
 # Quest.2379 - Infused Brewing Stand
-#B gtnh.quest2379.name=Infused Brewingstand
-#A gtnh.quest2379.name=Infused Brewing Stand
-#C gtnh.quest2379.name=强化强化酿造台
-#B gtnh.quest2379.desc=Brewingstand with one or more special effects (enhancements).\n\nThe primary way of obtaining enhanced Brewingstand is right click with End Powder in your Hand to modify your Brewingstand. An important feature of the effects is stacking, which means that you can continue adding as many effects to one Brewingstand as you want.\n\nEnhancements:\nTier (Ectoplasma)\nYour potion can have a higher tier and a longer potion duration than vanilla ones. (Tier IV up to 12 mins)\n\nSpeed (Igneous Rock)\nIncreasing the speed of the Brewingstand.\n\nCost (Emerald)\nReduce the cost of Endpowder using in a brewing cycle.
-#A gtnh.quest2379.desc=A Brewing Stand with one or more special effects (enhancements).\n\nThe primary way of obtaining an enhanced Brewing Stand is right click with End Powder in your Hand to modify your Brewingstand. \n\nAn important feature of the effects is stacking, which means that you can continue adding as many effects to one Brewing Stand as you want.\n\nEnhancements:\nTier (Ectoplasm)\nYour potion can have a higher tier and a longer potion duration than vanilla ones. (Tier IV up to 12 mins)\n\nSpeed (Igneous Rock)\nIncreasing the speed of the Brewing Stand.\n\nCost (Emerald)\nReduce the cost of End Powder using in a brewing cycle.
-#C gtnh.quest2379.desc=具有一种或多种特殊效果(强化)的酿造台.  想要强化你的强化酿造台,手持末影粉末右键它.这种强化效果的重要特征是可堆叠,这意味着你可以根据需要继续向一个酿造台添加尽可能多的强化效果.  强化:  等级(外质)-你的药水可以比原版药水具有更高的等级和更长的持续时间.(等级IV最长持续12分钟)  速度(火成岩)-提高酿造速度.  消耗(绿宝石)-降低在酿造周期中消耗的末影粉末.
+gtnh.quest2379.name=强化强化酿造台
+gtnh.quest2379.desc=具有一种或多种特殊效果(强化)的酿造台.%n%n想要强化你的强化酿造台,手持末影粉末右键它.这种强化效果的重要特征是可堆叠,这意味着你可以根据需要继续向一个酿造台添加尽可能多的强化效果.%n%n强化:%n等级(外质)%n你的药水可以比原版药水具有更高的等级和更长的持续时间.(等级IV最长持续12分钟)%n%n速度(火成岩)%n提高酿造速度.%n%n消耗(绿宝石)%n降低在酿造周期中消耗的末影粉末.
 
 # Quest.2380 - TNT Enchantments
 gtnh.quest2380.name=强化TNT
-#B gtnh.quest2380.desc=Enhanced TNT are a special version of vanilla TNT with one or more special effects (enhancements).\n\nThe primary way of obtaining enhanced TNT is right click with End Powder in your Hand to modify your TNT. An important feature of the effects is stacking, which means that you can continue adding as many effects to one pearl as you want.\n\nEnhancements:\nNo block damage (Feather)\nTNT explode with no Block damage.\n\nNo Entity damage (Slime)\nTNT explode with no Entinty damage.\n\nExtra Damage (Gundpowder)\nTNT explode with extra damage.\n\nTrap (Redstone)\nTNT explode when hostile mob touche or walk over the tnt block.\n\nNo Clip (Enderpearls)\nTNT falling trough solid blocks and explode after a few seconds.\n\nFire (Igneous Rock) \nTNT explode with a big fire spread.\n\nNo fuse (Redstone Torch)\nTNT explode immediately.
-#A gtnh.quest2380.desc=Enhanced TNT are a special version of vanilla TNT with one or more special effects (enhancements).\n\nThe primary way of obtaining enhanced TNT is right click with End Powder in your Hand to modify your TNT. An important feature of the effects is stacking, which means that you can continue adding as many effects to one TNT as you want.\n\nEnhancements:\nNo block damage (Feather)\nTNT explodes with no Block damage.\n\nNo Entity damage (Slime)\nTNT explodes with no Entinty damage.\n\nExtra Damage (Gundpowder)\nTNT explodes with extra damage.\n\nTrap (Redstone)\nTNT explodse when hostile mob touches or walks over the tnt block.\n\nNo Clip (Enderpearls)\nTNT falls through solid blocks and explodes after a few seconds.\n\nFire (Igneous Rock) \nTNT explodse with a big fire spread.\n\nNo fuse (Redstone Torch)\nTNT explodes immediately.
-#C gtnh.quest2380.desc=强化TNT是原版TNT的特殊版本,具有一个或多个特殊效果(强化).  想要强化你的TNT,手持末影粉末右键它.这种强化效果的重要特征是可堆叠,这意味着你可以根据需要继续向一个TNT添加尽可能多的强化效果.  强化:  不破坏方块(羽毛)-TNT爆炸时不破坏方块.  无实体伤害(粘液球)-TNT爆炸时无实体伤害.  额外伤害(火药)-TNT爆炸时造成额外伤害.  陷阱(红石)-当敌对的怪物碰到或踩到TNT方块时,TNT爆炸.  不被阻挡(末影珍珠)-TNT可以穿过固体方块并在几秒钟后爆炸.  火焰(火成岩)-TNT爆炸会引发大火.  无延时(红石火把)-TNT立即爆炸.
+gtnh.quest2380.desc=强化TNT是原版TNT的特殊版本,具有一个或多个特殊效果(强化).%n%n想要强化你的TNT,手持末影粉末右键它.这种强化效果的重要特征是可堆叠,这意味着你可以根据需要继续向一个TNT添加尽可能多的强化效果.%n%n强化:%n不破坏方块(羽毛)%nTNT爆炸时不破坏方块.%n%n无实体伤害(粘液球)%nTNT爆炸时无实体伤害.%n%n额外伤害(火药)%nTNT爆炸时造成额外伤害.%n%n陷阱(红石)%n当敌对的怪物碰到或踩到TNT方块时,TNT爆炸.%n%n不被阻挡(末影珍珠)%nTNT可以穿过固体方块并在几秒钟后爆炸.%n%n火焰(火成岩)%nTNT爆炸会引发大火.%n%n无延时(红石火把)%nTNT立即爆炸.
 
 # Quest.2381 - Enderpearl Enchantments
 gtnh.quest2381.name=强化末影珍珠
-#B gtnh.quest2381.desc=Enhanced Ender Pearls are a special version of vanilla Ender Pearls with one or more special effects (enhancements).\n\nThe primary way of obtaining enhanced pearls is right click with End Powder in your Hand to modify your enderpearl. An important feature of the effects is stacking, which means that you can continue adding as many effects to one pearl as you want.\n\nNatural occurence:\nIt is possible to find pearls with random effects in Dungeon Tower's loot chests.\n\nEnhancements:\nNo fall damage (Wool)\nUpon pearl's landing, the player will not receive any fall damage.\n\nNo gravity (Feather)\nThe pearl will not follow the rules of gravity, which makes it possible to throw it straight up. After 10 seconds of flight, the pearl is automatically destroyed without any teleportation or fall damage.\n\nIncreased range (String)\nUnlike No gravity effect, the pearl will fall down due to gravity, but will do so 25％ slower. If the pearl has the No gravity effect too, it will override this effect.\n\nDouble speed (Gold Nugget)\nIncreases pearl's speed by a factor of 2, but won't change the flight trajectory. This can be helpful if are in a bad situation (fell in lava, swarm of mobs around...) and need to be saved very quickly. In combination with Riding effect, people may notice slight stuttering on a server.\n\nExplosive (Gunpowder)\nUpon landing, the pearl will explode with radius of 2.7 (TNT has radius of 4). This will not harm the thrower as long as they are far enough from the landing spot.\n\nFreeze (Snowball) \nThe pearl will freeze mobs and players within 5 blocks of the landing spot for at least 4 seconds. Just as the Explosive effect, this will not affect the thrower unless they throw the pearl close to them, or have the Riding effect applied. This effect is also followed by ice cracking sound and snow particles.\n\nRiding (Lead)\nThe thrower will "ride" the pearl to its destination. During the ride, if another pearl with this effect is thrown, the previous pearl will destroy itself and deal fall damage (unless No fall damage effect is applied). Since Release 1.0.0, staying in air for long time will not kick the player for flying.\n\nTrivia:\nThe Enhanced Ender Pearls can still be used for crafting an Eye of Ender\nIn inventory, you can see the glint effect enchanted items have.
-#A gtnh.quest2381.desc=Enhanced Ender Pearls are a special version of vanilla Ender Pearls with one or more special effects (enhancements).\n\nThe primary way of obtaining enhanced pearls is right click with End Powder in your Hand to modify your enderpearl. An important feature of the effects is stacking, which means that you can continue adding as many effects to one pearl as you want.\n\nThese effects are useful when throwing the pearl, for pearl teleportation effects.\n\nNatural occurence:\nIt is possible to find pearls with random effects in Dungeon Tower's loot chests.\n\nEnhancements:\nNo fall damage (Wool)\nUpon pearl's landing, the player will not receive any fall damage.\n\nNo gravity (Feather)\nThe pearl will not follow the rules of gravity, which makes it possible to throw it straight up. After 10 seconds of flight, the pearl is automatically destroyed without any teleportation or fall damage.\n\nIncreased range (String)\nUnlike No gravity effect, the pearl will fall down due to gravity, but will do so 25％ slower. If the pearl has the No gravity effect too, it will override this effect.\n\nDouble speed (Gold Nugget)\nIncreases pearl's speed by a factor of 2, but won't change the flight trajectory. This can be helpful if you are in a bad situation (fell in lava, swarm of mobs around...) and need to be saved very quickly. In combination with Riding effect, people may notice slight stuttering on a server.\n\nExplosive (Gunpowder)\nUpon landing, the pearl will explode with radius of 2.7 (TNT has radius of 4). This will not harm the thrower as long as they are far enough from the landing spot.\n\nFreeze (Snowball) \nThe pearl will freeze mobs and players within 5 blocks of the landing spot for at least 4 seconds. Just as the Explosive effect, this will not affect the thrower unless they throw the pearl close to them, or have the Riding effect applied. This effect is also followed by ice cracking sound and snow particles.\n\nRiding (Lead)\nThe thrower will "ride" the pearl to its destination. During the ride, if another pearl with this effect is thrown, the previous pearl will destroy itself and deal fall damage (unless No fall damage effect is applied). Since Release 1.0.0, staying in air for a long time will not kick the player for flying.\n\nTrivia:\nThe Enhanced Ender Pearls can still be used for crafting an Eye of Ender\nIn inventory, you can see the glint effect enchanted items have.
-#C gtnh.quest2381.desc=强化末影珍珠是原版末影珍珠的特殊版本,具有一个或多个特殊效果(强化).  想要强化你的末影珍珠,手持末影粉末shift右键,再将珍珠放入.这种强化效果的重要特征是可堆叠,这意味着你可以根据需要继续向一个珍珠添加尽可能多的强化效果.  自然生成:  在地牢高塔的宝箱中可能会发现随机效果的末影珍珠.  强化:  无掉落伤害(羊毛)-珍珠落地时,玩家不会受到任何掉落伤害.  失重(羽毛)-珍珠不会遵循重力定律,因此可以将其垂直向上抛掷.飞行10秒后,珍珠会自动销毁,而不会传送或造成任何掉落伤害.  射程增加(线)-与失重不同,珍珠会因重力而掉落,但掉落速度会慢25％.如果珍珠同时有"失重"效果,它将覆盖此效果.  倍速(金粒)-使珍珠的速度提高2倍,但不会改变飞行轨迹.在一些糟糕环境下急需逃生时,这一点会很有用(掉在岩浆中,周围有一堆怪...).结合骑乘效果,可能会发现服务器上的轻微卡顿.  爆炸(火药)-着陆后,珍珠将以2.7为半径爆炸(TNT的半径为4).只要投掷者离着陆点足够远,就不会受到此伤害.  冰冻(雪球)-珍珠将使着陆点周围5格内的怪物或玩家冻结至少4秒.就像爆炸效果一样,这不会影响投掷者,除非他们将珍珠扔到附近,或有骑乘效果.这种效果还伴随着冰裂声和雪粒子效果.  骑乘(拴绳)-投掷者将会"骑着"珍珠抵达目的地.在骑行过程中,如果抛出另一颗具有此效果的珍珠,则前一颗珍珠会自动销毁并造成掉落伤害(除非有"无掉落伤害"效果).从1.0.0版开始,玩家长时间呆在空中不会被踢出.  杂项:  已强化的末影珍珠仍可用于制作末影之眼;在物品栏中可看到附魔物品特有的光效.
+gtnh.quest2381.desc=强化末影珍珠是原版末影珍珠的特殊版本,具有一个或多个特殊效果(强化).%n%n想要强化你的末影珍珠,手持末影粉末shift右键,再将珍珠放入.这种强化效果的重要特征是可堆叠,这意味着你可以根据需要继续向一个珍珠添加尽可能多的强化效果.%n%n这些效果在投掷珍珠进行传送时非常有用.%n%n自然生成:%n在地牢高塔的宝箱中可能会发现随机效果的末影珍珠.%n%n强化:%n无掉落伤害(羊毛)%n珍珠落地时,玩家不会受到任何掉落伤害.%n%n失重(羽毛)%n珍珠不会遵循重力定律,因此可以将其垂直向上抛掷.飞行10秒后,珍珠会自动销毁,而不会传送或造成任何掉落伤害.%n%n射程增加(线)%n与失重不同,珍珠会因重力而掉落,但掉落速度会慢25％.如果珍珠同时有"失重"效果,它将覆盖此效果.%n%n倍速(金粒)%n使珍珠的速度提高2倍,但不会改变飞行轨迹.在一些糟糕环境下急需逃生时,这一点会很有用(掉在岩浆中,周围有一堆怪...).结合骑乘效果,可能会发现服务器上的轻微卡顿.%n%n爆炸(火药)%n着陆后,珍珠将以2.7为半径爆炸(TNT的半径为4).只要投掷者离着陆点足够远,就不会受到此伤害.%n%n冰冻(雪球)%n珍珠将使着陆点周围5格内的怪物或玩家冻结至少4秒.就像爆炸效果一样,这不会影响投掷者,除非他们将珍珠扔到附近,或有骑乘效果.这种效果还伴随着冰裂声和雪粒子效果.%n%n骑乘(拴绳)%n投掷者将会"骑着"珍珠抵达目的地.在骑行过程中,如果抛出另一颗具有此效果的珍珠,则前一颗珍珠会自动销毁并造成掉落伤害(除非有"无掉落伤害"效果).从1.0.0版开始,玩家长时间呆在空中不会被踢出.%n%n杂项:%n已强化的末影珍珠仍可用于制作末影之眼;在物品栏中可看到附魔物品特有的光效.
 
 # Quest.2382 - Infused Altar
 gtnh.quest2382.name=强化祭坛
-#B gtnh.quest2382.desc=Altar with one or more special effects (enhancements).\n\nThe primary way of obtaining enhanced Altar is right click with End Powder in your Hand to modify your Brewingstand. An important feature of the effects is stacking, which means that you can continue adding as many effects to oneAltar as you want.\n\nEnhancements:\nRange (Block of Lapis)\nIncrease the range a item can be infused by the Altar.\n\nSpeed (Block of Redstone)\nIncreasing the speed of the Altar.\n\nEfficency (Block of Emerald)\nReduce the cost of Dragon Essence using in a Altar recipe.
-#A gtnh.quest2382.desc=Altar with one or more special effects (enhancements).\n\nThe primary way of obtaining an enhanced Altar is to right click a Brewing Stand with End Powder in your Hand. An important feature of the effects is stacking, which means that you can continue adding as many effects to one Altar as you want.\n\nEnhancements:\nRange (Block of Lapis)\nIncrease the range a item can be infused by the Altar.\n\nSpeed (Block of Redstone)\nIncreasing the speed of the Altar.\n\nEfficency (Block of Emerald)\nReduce the cost of Dragon Essence using in a Altar recipe.
-#C gtnh.quest2382.desc=强化祭坛具有一个或多个特殊效果(强化).  想要强化你的祭坛,手持末影粉末右键它.这种强化效果的重要特征是可堆叠,这意味着你可以根据需要继续向一个祭坛添加尽可能多的强化效果.  强化:  范围(青金石块)-增加祭坛可以注入物品的范围.  速度(红石块)-加快祭坛的速度.  效率(绿宝石块)-降低祭坛运行使用的龙之精华.
+gtnh.quest2382.desc=强化祭坛具有一个或多个特殊效果(强化).  想要强化你的祭坛,手持末影粉末右键它.这种强化效果的重要特征是可堆叠,这意味着你可以根据需要继续向一个祭坛添加尽可能多的强化效果.  强化:  范围(青金石块)-增加祭坛可以注入物品的范围.  速度(红石块)-加快祭坛的速度.  效率(绿宝石块)-降低祭坛运行使用的龙之精华.
 
 # Quest.2383 - Curse Master
 gtnh.quest2383.name=诅咒大师
@@ -9700,81 +9538,67 @@ gtnh.quest2383.desc=传送诅咒-随机传送实体.  混乱诅咒-使怪物混�
 
 # Quest.2384 - Charm Master
 gtnh.quest2384.name=护符大师
-#B gtnh.quest2384.desc=Craft all this Charms to be Master of Charms.
-#A gtnh.quest2384.desc=You think you're charming? Craft all these Charms to be the true Master of Charms.
-#C gtnh.quest2384.desc=制作所有的护符,你就是护符大师.
+gtnh.quest2384.desc=你觉得你很强?制作所有的护符,你才是真正的护符大师.
 
 # Quest.2385 - Master Grinder
 gtnh.quest2385.name=末地大师
 gtnh.quest2385.desc=在征服了末地的大部分内容之后,是时候进行大师级任务了.  带出并杀死以下目标,你将获得丰厚的奖励.
 
 # Quest.2386 - Indium Dust
-#B gtnh.quest2386.name=§9§lHydrazine
-#A gtnh.quest2386.name=Indium Dust
-#C gtnh.quest2386.name=§9§l肼
-#B gtnh.quest2386.desc=Combining ammonia and hydrogen in a chemical reactor produces some hydracine.
-#A gtnh.quest2386.desc=What some Indium? Buy §msome§r one!
-#C gtnh.quest2386.desc=在化学反应釜中使氨和过氧化氢反应会产生一些肼.
+gtnh.quest2386.name=铟粉
+gtnh.quest2386.desc=什么?铟?让我买§m一点点§r!
 
 # Quest.2387 - Mutating Sprig
-#B gtnh.quest2387.name=§9§lFormaldehydeCatalyst Dust
-#A gtnh.quest2387.name=Mutating Sprig
-#C gtnh.quest2387.name=§9§l甲醛催化剂粉
-#B gtnh.quest2387.desc=Combining iron and vanadium dust in a mixer will produces some formaldehyde catalyst dust.
-#A gtnh.quest2387.desc=The Mutating Sprig brings a degree of order to the chaotic nature of Mutandis, allowing more limited, but also more predictable effects. It is a key tool in the creation of plant-based devices such as the Leech Chest.\n\nThe Mutating Sprig is crafted in the crafting bench using an Ent Twig, netherwart and Mutandis Extremis.\n\nGrass - Mutates to Mycellium\nMycellium - Mutates to Grass\nDirt (under water) - Mutates to Clay\n\nWheat in a proper configuration should mutate to wormwood, but because of other mods that is blocked. You can buy wormwood from the Coins tab.
-#C gtnh.quest2387.desc=在搅拌机中混合铁粉和钒粉,你就能获得甲醛催化剂粉.
+gtnh.quest2387.name=变异枝条
+gtnh.quest2387.desc=变异枝条不同于转生粉,它对植物的变异是有规律的,有更多的限制,但效果更好.变异枝条对某些基于植物的设备非常关键,如水蛭箱子.  在巫师炼药锅中将地狱疣、树人嫩芽和超级转生粉混合即可制成变异枝条.%n%n草方块-变异为菌丝%n菌丝-变异为草方块%n泥土(水下)-变异为粘土%n%n小麦应变异为苦艾,但由于mod冲突,此变异被禁用.你可用在硬币任务栏购买它.
 
 # Quest.2388 - Wormwood
-#B gtnh.quest2388.name=§a§lRocket Engine EV
-#A gtnh.quest2388.name=Wormwood
-#C gtnh.quest2388.name=§a§l火箭引擎(EV)
-#B gtnh.quest2388.desc=The Rocket engine is a GT++ device use rocket fuel to produce EU.
-#A gtnh.quest2388.desc=Due to mod conflict, you can't make Wormwood the normal way. So you can buy some with coins.
-#C gtnh.quest2388.desc=火箭引擎是GT++的设备,消耗火箭燃料产生EU.
+gtnh.quest2388.name=苦艾
+gtnh.quest2388.desc=由于mod冲突,你无法正常获得苦艾.所以你可以用硬币买一些.
 
 # Quest.2389 - HP Solar Boilers
-#N gtnh.quest2389.name=HP Solar Boilers
-#N gtnh.quest2389.desc=Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.\n\nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.\n\n§4Hint: The solar boiler calcifies and becomes less efficient over time. The HP solar boiler will heat up §lvery §r§c§4fast, so make sure you are ready with water.
+gtnh.quest2389.name=高压太阳能锅炉
+gtnh.quest2389.desc=当有了一些蒸汽机器后,你可以制造一些高压太阳能锅炉.它们的每秒蒸汽输出更高,其他方面与普通太阳能锅炉相同.  从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽.  §4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能.高压太阳能锅炉升温§l非常§r§c§4迅速,所以一定要准备好水.
 
 # Quest.2390 - §a§lTiny bit of Tungstensteel
-#N gtnh.quest2390.name=§a§lTiny bit of Tungstensteel
-#N gtnh.quest2390.desc=With your moon rocks or lava centrifuge, you will need to extract a little bit of tungsten and turn it into tungstensteel for the Tier 2 rocket.
+gtnh.quest2390.name=§a§l积少成钨钢
+gtnh.quest2390.desc=处理月岩或岩浆,你将获得少量的钨,将其烧成钨钢吧,一切为了2阶火箭!
 
 # Quest.2391 - Bigger Drums
-#N gtnh.quest2391.name=Bigger Drums
-#N gtnh.quest2391.desc=Now that you have drums, you want them larger? Already??\n\nWell, in that case, you better start collecting or making cobblestone, by the tens of thousands. And making explosives, whichever you prefer.\n\nCompress the cobblestone in an assembler first with circuit 1, then run them through the Implosion Compressor until you get Quadruple Compressed Cobblestone. Do that four times, and then another pass through the assembler with a diamond block, and there you have it - one bedrockium ingot.\n\nNow do that 5 more times, and you can make yourself a bedrockium drum.\n\n64k buckets of portable fluid. Perfect for your new Ore drill!\n
+gtnh.quest2391.name=更大的筒
+gtnh.quest2391.desc=现在你有了筒,想让它更大吗?  如果想的话,你最好开始收集或制作数以万计的圆石.并根据自己的喜好制造炸药.  首先用编程电路1在组装机中压缩圆石,然后将其聚爆压缩,不断重复直到获得四重压缩圆石.这样做四次后,再将它与钻石块放入组装机,即可制成基岩锭.  然后将整个过程再重复5次,你就能制作出基岩筒了.  超过64k桶的便携流体存储.非常适合你新造的采矿场!
 
 # Quest.2392 - Horn of the Hunt
-#N gtnh.quest2392.name=Horn of the Hunt
-#N gtnh.quest2392.desc=Did you goof and somehow lose the Horned Huntsman before you could kill him? Well... You can summon him again using the hard way, or pay coins to get another horn.
+gtnh.quest2392.name=狩猎之角
+gtnh.quest2392.desc=如果你个笨蛋把狩猎之角弄丢了的话...你可以通过这种困难的方式重新召唤它,或者花点硬币再买一个.
 
 # Quest.2393 - Fertilized Earth
-#N gtnh.quest2393.name=Fertilized Earth
-#N gtnh.quest2393.desc=With a Chemical Reactor, you can make Fertilized Earth. It ticks over faster than normal farmland, so crops will mature much faster. As a bonus, it can be tilled away from water and doesn't get damaged when you fall on it.\n\nDoes allow IC2 crop placed on them, but will not accelerate the crops.
+gtnh.quest2393.name=沃土
+gtnh.quest2393.desc=你可以使用化学反应釜制造沃土.它的tick速度比正常农田快,这样作物就会更快成熟.它还可以在无水情况下用于耕种,且在其上跳跃也不会损坏它.  可在其上种植IC2作物,但没有加速效果.
 
 # Quest.2394 - Hydrazine
-#N gtnh.quest2394.name=Hydrazine
-#N gtnh.quest2394.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.
+gtnh.quest2394.name=§9§l肼
+gtnh.quest2394.desc=在化学反应釜中使氨和过氧化氢反应会产生一些肼.
 
 # Quest.2395 - Formaldehyde Catalyst Dust
-#N gtnh.quest2395.name=Formaldehyde Catalyst Dust
-#N gtnh.quest2395.desc=Making Formaldehyde will require a catalyst. You can make this dust by mixing iron and vanadium.
+gtnh.quest2395.name=§9§l甲醛催化剂粉
+gtnh.quest2395.desc=制取甲醛需要催化剂.你需要在搅拌机中混合铁粉和钒粉.
 
 # Quest.2396 - Hydrogen Peroxide
-#N gtnh.quest2396.name=Hydrogen Peroxide
-#N gtnh.quest2396.desc=Hydrogen Peroxide is made in a GT++ Chemical Plant.\n\nGood luck figuring out that recipe chain!\n
+gtnh.quest2396.name=过氧化氢
+gtnh.quest2396.desc=过氧化氢需在GT++化工厂制取.  加油弄清楚整个反应链吧,祝你好运!
 
 # Quest.2397 - Playing with the Big Boys, chemically
-#N gtnh.quest2397.name=Playing with the Big Boys, chemically
-#N gtnh.quest2397.desc=Once you have a full LV setup along with an EBF, you can start thinking about making a Chemical Plant. This facility will process certain chemical recipes you'll need later on.\n\nIt will need a mine cart load of reources, so start mining!\n\nUnder Construction.
+gtnh.quest2397.name=大男孩,咱们来玩玩化工吧
+gtnh.quest2397.desc=当你有了完整的LV机器并建筑了工业高炉后,就可以开始考虑建造一个化工厂了.该设施将为你处理稍后需要的某些化学配方.  不过它需要大量的资源,开始采矿吧!%n%n建设中...
 
 # Quest.2398 - §3§lHidden drawers
-#N gtnh.quest2398.name=§3§lHidden drawers
-#N gtnh.quest2398.desc=You might notice once you get a wall of drawers that looking that direction gives you a little lag. If the lag gets back enough, you can craft this key to stop putting the item on the front. Very handy for the drawer controller!
+gtnh.quest2398.name=§3§l隐藏式抽屉
+gtnh.quest2398.desc=你可能会注意到,当你面对抽屉墙并有触碰时,会有一点点的延迟.如果不想有这种延迟的话,你可以制作此钥匙,让抽屉不在前部显示物品.这对抽屉管理器非常有用!
 
 # Quest.2399 - I know his name!
-#N gtnh.quest2399.name=I know his name!
-#N gtnh.quest2399.desc=The Name Remover is a simple utility machine that can strip off incorrect or useless NBT data. \n\nGregtech "remembers" how you made items, in case you want to disassemble them later. This means that items made slightly differently can't stack.  This machine will remove that disassembly NBT data so all those items will now stack together. \n\nObviously, this means you can't disassemble the item you put through this machine. 
+gtnh.quest2399.name=我知道他的名字!
+gtnh.quest2399.desc=去命名器是一个简单而实用的机器,可以移除不正确或无用的NBT数据.  GT会"记住"你合成时的用材,当你拆解时会返还这些用材.这意味着制造工艺稍有不同的物品就无法堆叠.  而去命名器可以移除拆解NBT标签,这样物品即可成功堆叠.  显然,这也意味着你将无法拆解这些去除过拆解NBT标签的物品. 
 
 ##################################Line##################################
 
@@ -9816,9 +9640,7 @@ gtnh.line8.desc=你已经走了这么远了,你应该昂首挺胸地继续向前
 
 # QuestLine.9 - Fusion
 gtnh.line9.name=核聚变
-#B gtnh.line9.desc=Making power for the lategame tiers, LuV-UMV
-#A gtnh.line9.desc=Making power for the lategame tiers, LuV-UMV. Only 20 years away!
-#C gtnh.line9.desc=游戏后期的能量来源. LuV-UMV阶段
+gtnh.line9.desc=游戏后期的能量来源. LuV-UMV阶段. 也就20年吧!
 
 # QuestLine.10 - Fishing Farming Cooking
 gtnh.line10.name=捕鱼,农业,烹饪
@@ -9929,8 +9751,8 @@ gtnh.line36.name=科技时代(TecTech)
 gtnh.line36.desc=我一直密切关注着你的科技进步-是时候看看科技的未来之梦了！我将带你去参观一整套的新式复杂机器.但是要当心,这些机器将极端考验你的决心(还有能源). (在建中...)
 
 # QuestLine.43 - Hardcore End(er) Expansion
-#N gtnh.line43.name=Hardcore End(er) Expansion
-#N gtnh.line43.desc=Treasure of lands far beyond the vast sea of the Void and very angry rune spiders await you!
+gtnh.line43.name=Hardcore End(er) Expansion
+gtnh.line43.desc=Treasure of lands far beyond the vast sea of the Void and very angry rune spiders await you!
 
 # QuestLine.37 - Kill all the things
 gtnh.line37.name=杀戮时刻
