@@ -141,6 +141,17 @@ recipes.addShaped(<witchery:seedswormwood>, [
 // --- Null Catalyst doublication
 recipes.addShapeless(<witchery:ingredient:130> * 2, [<witchery:ingredient:130>, <minecraft:magma_cream>, <minecraft:blaze_powder>, <ore:dustTinyNetherStar>]);
 
+// --- Quicklime 
+recipes.addShaped(<witchery:ingredient:16>, [
+[null, null, <gregtech:gt.metaitem.01:2622>],
+[null, null, null],
+[null, null, null]]);
+// -
+recipes.addShaped(<gregtech:gt.metaitem.01:2622>, [
+[null, null, <witchery:ingredient:16>],
+[null, null, null],
+[null, null, null]]);
+
 // --- Demonic Contract
 recipes.addShaped(<witchery:ingredient:140>, [
 [<ore:platePaper>, <ore:string>, <ore:platePaper>],
