@@ -54,7 +54,7 @@ item.MiscUtils.material.dustCryotheum.name=凛冰之尘
 item.MiscUtils.material.rodBlizz.name=暴雪棒
 item.MiscUtils.material.dustBlizz.name=暴雪粉
 
-//============= 'miscutils' is Case Sensitive Here, unsure why
+//==============
 tile.miscutils.fluid.pyrotheum.name=烈焰之炽焱
 tile.miscutils.fluid.cryotheum.name=极寒之凛冰
 tile.miscutils.fluid.ender.name=谐振熔融末影珍珠
@@ -92,12 +92,12 @@ item.itemUltimetShaft.name=哈氏合金轴
 
 
 //Misc Items
-item.itemPLACEHOLDER_Circuit.name=夸克操纵者(UV)
+item.itemPLACEHOLDER_Circuit.name=夸克操纵者 (UV)
 item.itemPlateEnrichedSoularium.name=富集阳光合金板
-item.itemHeliumBlob.name=神秘的氢化物
+item.itemHeliumBlob.name=神秘氢气物质
 item.itemAlkalusDisk.name=Alkalus圆盘
-item.itemHotIngotRaisinBread.name=热葡萄干面包
-item.itemIngotRaisinBread.name=§5ImQ009的§f葡萄干面包
+item.itemHotIngotRaisinBread.name=一份热葡萄干面包
+item.itemIngotRaisinBread.name=一份葡萄干面包
 
 //Misc Blocks
 tile.blockCompressedObsidian.0.name=压缩黑曜石(9)
@@ -2025,7 +2025,7 @@ entity.Aboriginal.name=澳大利亚土著
 entity.miscutils.constructStaballoy.name=贫铀合金结构
 entity.miscutils.sickBlaze.name=被感染的狂热者
 
-//Added 15/9/8
+//Added 15/9/18
 item.ZirconiumTetrafluoride.name=四氟化锆单元
 item.Formaldehyde.name=甲醛单元
 item.RocketFuelMixA.name=H8N4C2O4火箭燃料单元
@@ -2373,8 +2373,8 @@ item.itemScrewNitinol60.name=镍钛诺60螺丝
 item.itemRotorNitinol60.name=镍钛诺60转子
 item.itemGearNitinol60.name=镍钛诺60齿轮
 item.itemCellNitinol60.name=镍钛诺60单元
-tile.Block of Nitinol-60.name=镍钛诺60块
-tile.Nitinol-60 Frame Box.name=镍钛诺60框架
+tile.Block of Nitinol 60.name=镍钛诺60块
+tile.Nitinol 60 Frame Box.name=镍钛诺60框架
 
 item.itemIngotAdvancedNitinol.name=高级镍钛诺锭
 item.itemHotIngotAdvancedNitinol.name=热高级镍钛诺锭
@@ -2717,226 +2717,243 @@ item.GTPP.BattPack.08.name=充电工具包[UV]
 item.GTPP.BattPack.09.name=充电工具包[MAX]
 
 
-//This zh_CN.lang is translation by huajijam for GregTech++ (5/2/19)
+//Added 13/3/19
+item.gtpp.debug.scanner.name=GT++排错扫描器
+item.RawWaste.name=动物粪便单元
+item.ManureSlurry.name=粪浆单元
+item.FertileManureSlurry.name=肥沃的粪浆单元
+item.itemDustTinyDemicheleiteBr.name=小撮德米凯莱(Br)
+item.itemDustSmallDemicheleiteBr.name=小堆德米凯莱(Br)
+tile.blockPooCollector.name=农业下水道
+tile.Block of Lithium 7.name=锂7块
 
 
+//Added 14/3/19
+item.blood.name=血单元
+item.aniline.name=苯胺单元
+item.cadaverine.name=尸胺单元
+item.polyurethane.name=聚氨酯单元
+item.putrescine.name=腐胺单元
+item.cyclohexane.name=环己胺单元
+item.cyclohexanone.name=环己酮单元
+item.nitrobenzene.name=硝基苯单元
+item.ender.name=液体末影单元
+item.xpjuice.name=液体经验单元
+item.itemBombUnf.name=可投掷炸弹(未完成)
+item.itemBombCasing.name=炸弹框架
+item.gtpp.throwable.bomb.name=可投掷炸弹
+item.itemDetCable.name=炸弹保险丝
+tile.blockPooCollector.0.name=农业下水道
+tile.blockPooCollector.8.name=生物复合收集器
+item.itemIngotBakelite.name=电木锭
+item.itemDustBakelite.name=电木粉
+item.itemDustTinyBakelite.name=小撮电木粉
+item.itemDustSmallBakelite.name=小堆电木粉
+item.itemNuggetBakelite.name=电木粒
+item.itemPlateBakelite.name=电木板
+item.itemPlateDoubleBakelite.name=双重电木板
+item.itemCellBakelite.name=电木单元
+tile.Block of Bakelite.name=电木块
+item.itemIngotNylon.name=尼龙锭
+item.itemDustNylon.name=尼龙粉
+item.itemDustTinyNylon.name=小撮尼龙粉
+item.itemDustSmallNylon.name=小堆尼龙粉
+item.itemNuggetNylon.name=尼龙粒
+item.itemPlateNylon.name=尼龙板 
+item.itemPlateDoubleNylon.name=双重尼龙板
+item.itemCellNylon.name=尼龙单元
+tile.Block of Nylon.name=尼龙块
+item.itemIngotTeflon.name=特氟龙锭
+item.itemDustTeflon.name=特氟龙粉
+item.itemDustTinyTeflon.name=小撮特氟龙粉
+item.itemDustSmallTeflon.name=小堆特氟龙粉
+item.itemNuggetTeflon.name=特氟龙粒
+item.itemPlateTeflon.name=特氟龙板
+item.itemPlateDoubleTeflon.name=双重特氟龙板
+item.itemCellTeflon.name=特氟龙单元
+tile.Block of Teflon.name=特氟龙块
 
-//Shit I stole from GTNH~
+//Added 17/4/19
+//Spelling Corrections
+item.particle.ion.Aluminium.name=铝离子
+item.particle.ion.Caesium.name=铯离子
 
-GTPP.EBF.heat=热容
+item.GTPP.MonsterKiller.Enderman.name=末影人杀手
+item.GTPP.MonsterKiller.Spider.name=蜘蛛杀手
+item.GTPP.MonsterKiller.Skeleton.name=骷髅杀手
+item.GTPP.MonsterKiller.Creeper.name=爬行者杀手
+item.GTPP.MonsterKiller.Zombie.name=僵尸杀手
+item.GTPP.MonsterKiller.Hellish.name=下界生物杀手
 
-GTPP.machines.tier=等级
+item.itemIngotRunite.name=虚恩锭
+item.itemDustRunite.name=虚恩粉
+item.itemDustTinyRunite.name=小撮虚恩粉
+item.itemDustSmallRunite.name=小堆虚恩粉
+item.itemNuggetRunite.name=虚恩锭
+item.itemPlateRunite.name=虚恩板
+item.itemPlateDoubleRunite.name=双重虚恩板
+item.itemCellRunite.name=虚恩单元
+tile.Block of Runite.name=虚恩块
 
-GTPP.multiblock.pollutionreduced=减少污染至
-GTPP.multiblock.pollution=污染
-GTPP.multiblock.energy=能量存储
-GTPP.multiblock.Progress=进程
-GTPP.multiblock.efficiency=效率
-GTPP.multiblock.problems=为每桶
-GTPP.multiblock.mei=最大能量输入
-GTPP.multiblock.usage=大概能用来
+item.itemIngotDragonblood.name=龙血锭
+item.itemDustDragonblood.name=龙血粉
+item.itemDustTinyDragonblood.name=小撮龙血粉
+item.itemDustSmallDragonblood.name=小堆龙血粉
+item.itemNuggetDragonblood.name=龙血粒
+item.itemPlateDragonblood.name=龙血板
+item.itemPlateDoubleDragonblood.name=双重龙血板
+item.itemCellDragonblood.name=龙血单元
+tile.Block of Dragonblood.name=龙血块
 
-GTPP.CC.machinetier=控制核心等级
-GTPP.CC.discount=EU损耗
-GTPP.CC.parallel=最大并行处理进程
+item.itemIngotBlackTitanium.name=黑钛锭
+item.itemDustBlackTitanium.name=黑钛粉
+item.itemDustTinyBlackTitanium.name=小撮黑钛粉
+item.itemDustSmallBlackTitanium.name=小堆黑钛粉
+item.itemNuggetBlackTitanium.name=黑钛粒
+item.itemPlateBlackTitanium.name=黑钛板
+item.itemPlateDoubleBlackTitanium.name=双重黑钛板
+item.itemCellBlackTitanium.name=黑钛单元
+tile.Block of Black Titanium.name=黑钛块
 
+item.itemIngotAncientGranite.name=古花岗岩锭
+item.itemHotIngotAncientGranite.name=热古花岗岩锭
+item.itemDustAncientGranite.name=古花岗岩粉
+item.itemDustTinyAncientGranite.name=小撮古花岗岩粉
+item.itemDustSmallAncientGranite.name=小堆古花岗岩粉
+item.itemNuggetAncientGranite.name=古花岗岩粒
+item.itemPlateAncientGranite.name=古花岗岩板
+item.itemPlateDoubleAncientGranite.name=双重古花岗岩板
+tile.Block of Ancient Granite.name=古花岗岩块
 
+item.itemIngotBabbitAlloy.name=巴氏合金锭
+item.itemHotIngotBabbitAlloy.name=热巴氏合金锭
+item.itemDustBabbitAlloy.name=巴氏合金粉
+item.itemDustTinyBabbitAlloy.name=小撮巴氏合金粉
+item.itemDustSmallBabbitAlloy.name=小堆巴氏合金粉
+item.itemNuggetBabbitAlloy.name=巴氏合金粒
+item.itemPlateBabbitAlloy.name=巴氏合金板
+item.itemPlateDoubleBabbitAlloy.name=双重巴氏合金板
+item.itemCellBabbitAlloy.name=巴氏合金单元
+tile.Block of Babbit Alloy.name=巴氏合金块
 
+item.itemIngotBlackMetal.name=黑物质锭
+item.itemHotIngotBlackMetal.name=热黑物质锭
+item.itemDustBlackMetal.name=黑物质粉
+item.itemDustTinyBlackMetal.name=小撮黑物质粉
+item.itemDustSmallBlackMetal.name=小堆黑物质粉
+item.itemNuggetBlackMetal.name=黑物质粒
+item.itemPlateBlackMetal.name=黑物质板
+item.itemPlateDoubleBlackMetal.name=双重黑物质板
+item.itemBoltBlackMetal.name=黑物质螺栓
+item.itemRodBlackMetal.name=黑物质杆
+item.itemRodLongBlackMetal.name=黑物质长杆
+item.itemRingBlackMetal.name=黑物质环
+item.itemScrewBlackMetal.name=黑物质螺丝
+item.itemRotorBlackMetal.name=黑物质转子
+item.itemGearBlackMetal.name=黑物质齿轮
+item.itemCellBlackMetal.name=黑物质单元
+tile.Block of Black Metal.name=黑物质块
+tile.Black Metal Frame Box.name=黑物质框架
 
+item.itemIngotwhiteMetal.name=白物质锭
+item.itemHotIngotwhiteMetal.name=热白物质锭
+item.itemDustwhiteMetal.name=白物质粉
+item.itemDustTinywhiteMetal.name=小撮白物质粉
+item.itemDustSmallwhiteMetal.name=小堆白物质粉
+item.itemNuggetwhiteMetal.name=白物质粒
+item.itemPlatewhiteMetal.name=白物质板
+item.itemPlateDoublewhiteMetal.name=双重白物质板
+item.itemBoltwhiteMetal.name=白物质螺栓
+item.itemRodwhiteMetal.name=白物质杆
+item.itemRodLongwhiteMetal.name=白物质长杆
+item.itemRingwhiteMetal.name=白物质环
+item.itemScrewwhiteMetal.name=白物质螺丝
+item.itemRotorwhiteMetal.name=白物质转子
+item.itemGearwhiteMetal.name=白物质齿轮
+item.itemCellwhiteMetal.name=白物质单元
+tile.Block of white Metal.name=白物质块
+tile.white Metal Frame Box.name=白物质框架
 
-//Some Generic Words
-GTPP.info.eu=EU
-GTPP.info.euInfo=EU信息
-GTPP.info.inputLimit=输入限制
-GTPP.info.currentPower=当前能量
-GTPP.info.hidden=隐藏
+//Added 29/04/2019
+tile.OreRunite.name=虚恩矿
+item.crushedRunite.name=粉碎的虚恩矿
+item.crushedCentrifugedRunite.name=离心的粉碎虚恩矿
+item.crushedPurifiedRunite.name=洗净的的粉碎虚恩矿
+item.dustImpureRunite.name=含杂虚恩粉
+item.dustPureRunite.name=洗净虚恩粉
 
+tile.OreAncientGranite.name=古花岗岩矿
+item.crushedAncientGranite.name=粉碎的古花岗岩矿
+item.crushedCentrifugedAncientGranite.name=离心的粉碎古花岗岩矿
+item.crushedPurifiedAncientGranite.name=洗净的粉碎古花岗岩矿
+item.dustImpureAncientGranite.name=含杂古花岗岩粉
+item.dustPureAncientGranite.name=洗净古花岗岩粉
 
-
-
-//Tooltips for the Charger Packs
-GTPP.battpack.tooltip.1=在Baubles的腰带栏内使用
-GTPP.battpack.tooltip.2=消耗
-GTPP.battpack.tooltip.3=给穿着的盔甲充能
-GTPP.battpack.tooltip.4=同样给快捷栏内的物品充能
-
-//Tooltips for the Personal Healing Bauble
-GTPP.nanohealer.tooltip.1=在Baubles的项链栏内使用
-GTPP.nanohealer.tooltip.2=每次操作消耗1638400EU
-GTPP.nanohealer.tooltip.3=可以恢复血量,饥饿和饱和度
-GTPP.nanohealer.tooltip.4=不会阻止死亡
-GTPP.nanohealer.tooltip.5=Shift+右键来切换信息
-GTPP.nanohealer.hidden=隐藏信息?
-
-
-
-
-
-
-//Achievements
-
-//4/2/19
-achievement.gt.blockmachines.fusioncomputer.tier.09=聚变计算机MK IV
-achievement.gtplusplus.blockcasings.3.12=聚变框架MK III
-achievement.gtplusplus.blockcasings.3.13=进阶磁力遏制!
-achievement.gtplusplus.blockcasings.3.15=量子遏制!
-achievement.gt.blockmachines.fusioncomputer.tier.09.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.gtplusplus.blockcasings.3.12.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.gtplusplus.blockcasings.3.13.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.gtplusplus.blockcasings.3.15.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.gt.blockmachines.gtplusplus.fusion.single=可控聚变
-achievement.gt.blockmachines.gtplusplus.tank.plasma=等离子存储
-achievement.gt.blockmachines.gtplusplus.fusion.single.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.gt.blockmachines.gtplusplus.tank.plasma.desc=[AL]捡起这个物品以在NEI内查看配方
-
-
-//5/2/19
-achievement.MU-metaitem.01.32106=初级物理学家
-achievement.MU-metaitem.01.32107=研究生物理学家
-achievement.MU-metaitem.01.32108=学术物理学家
-achievement.MU-metaitem.01.32109=物理学硕士
-achievement.MU-metaitem.01.32106.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.MU-metaitem.01.32107.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.MU-metaitem.01.32108.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.MU-metaitem.01.32109.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.MU-metaitem.01.32066=质子遏制
-achievement.MU-metaitem.01.32068=电子遏制
-achievement.MU-metaitem.01.32070=夸克遏制
-achievement.MU-metaitem.01.32110=引力遏制
-achievement.MU-metaitem.01.32066.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.MU-metaitem.01.32068.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.MU-metaitem.01.32070.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.MU-metaitem.01.32110.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.item.personalHealingDevice=食物是为了笨蛋
-achievement.item.personalHealingDevice.desc=[AL]你已经升级到纳米，未来就是你的
-achievement.item.GTPP.BattPack.06.name=充电工具包Mk I
-achievement.item.GTPP.BattPack.07.name=充电工具包Mk II
-achievement.item.GTPP.BattPack.08.name=充电工具包Mk III
-achievement.item.GTPP.BattPack.09.name=充电工具包Mk IV
-achievement.item.GTPP.BattPack.06.name.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.item.GTPP.BattPack.07.name.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.item.GTPP.BattPack.08.name.desc=[AL]捡起这个物品以在NEI内查看配方
-achievement.item.GTPP.BattPack.09.name.desc=[AL]捡起这个物品以在NEI内查看配方
-
-
-
-//14/2/19
-achievement.gtpp.start=Gregtech++
-achievement.gtpp.start.desc=所以,你认为你已经得到了它?
-achievement.hatch.control=这是你放置控制核心的地方
-achievement.hatch.control.desc=所有GT++的多方块都需要特殊的填充.
-achievement.hatch.dynamo.buffered=缓冲后的发电机填充物
-achievement.hatch.dynamo.buffered.desc=不要在大型涡轮机上使用这些.
-achievement.multi.abs=合金冶炼炉[ABS]
-achievement.multi.abs.desc=用于制造大多数后期合金.
-achievement.dust.potin=铜锌锡合金!
-achievement.dust.potin.desc=好吧,你得从某个地方开始...
-achievement.dust.eglin=埃格林钢铁!
-achievement.dust.eglin.desc=进展虽然缓慢...
-achievement.dust.staballoy=贫铀合金!
-achievement.dust.staballoy.desc=现在我们正在讨论...
-achievement.dust.quantum=量子!
-achievement.dust.quantum.desc=原料.
-achievement.dust.hypogen=海珀珍!
-achievement.dust.hypogen.desc=这甚至是什么材料?
-achievement.block.fishtrap=免费的鱼
-achievement.block.fishtrap.desc=比潘马斯农场好.
-achievement.block.withercage=监狱
-achievement.block.withercage.desc=用此捕捉凋零/末影龙.
-achievement.rtg=放射性同位素热电发电!
-achievement.rtg.desc=可能盗于俄罗斯,小心使用.
-achievement.dehydrate=脱水
-achievement.dehydrate.desc=喝些水.
-achievement.semifluid=它像是液体,但它不是
-achievement.semifluid.desc=半流体令人困惑.
-achievement.earlywasher=简单的洗矿场
-achievement.earlywasher.desc=只在ULV下工作.
-achievement.advancedsteam=替代蒸汽选项
-achievement.advancedsteam.desc=智能油耗
-achievement.pollutionremoval=污染,没了!
-achievement.pollutionremoval.desc=污染不好
-achievement.hiampxform=高放大变压器
-achievement.hiampxform.desc=进阶电力转换
-achievement.multi.pss=能源站[PSS]
-achievement.multi.pss.desc=电力网络存储.
-achievement.multi.cyclo=回旋加速器
-achievement.multi.cyclo.desc=高级科学
-achievement.multi.sifter=工业筛选机
-achievement.multi.sifter.desc=比乌龟快.
-achievement.multi.cokeoven=工业焦炉[ICO]
-achievement.multi.cokeoven.desc=比热解炉更好
-achievement.multi.boiler.thermal=地热锅炉
-achievement.multi.boiler.thermal.desc=熔岩也有效!
-achievement.multi.zhuhai=珠海,渔场
-achievement.multi.zhuhai.desc=实际存在
-achievement.casing.abs=进展缓慢
-achievement.casing.abs.desc=最终,你将拥有你的合金冶炼炉.
-achievement.casing.cyclotron.coil=进展缓慢
-achievement.casing.cyclotron.coil.desc=考虑为什么你甚至这样做..
-achievement.casing.multiuse=我要做很多这些
-achievement.casing.multiuse.desc=不要开始计数.
-achievement.casing.containment=这个是干什么的?
-achievement.casing.containment.desc=我应该试着找出来.
-achievement.decay.neptunium238=镎238
-achievement.decay.neptunium238.desc=回旋加速器产品
-achievement.decay.radium226=镭226
-achievement.decay.radium226.desc=回旋加速器产品
-achievement.decay.molybdenum99=钼99
-achievement.decay.molybdenum99.desc=回旋加速器产品
-achievement.decay.technetium99m=锝99M
-achievement.decay.technetium99m.desc=回旋加速器产品
-achievement.decay.technetium99=锝99
-achievement.decay.technetium99.desc=回旋加速器产品
-
-
-
-
-
-
-
-
-ic2.itemEnergeticRotor=动力齿轮转子(充能合金)
-ic2.itemTungstenSteelRotor=动力齿轮转子(钨钢)
-ic2.itemVibrantRotor=动力齿轮转子(脉冲合金)
-ic2.itemIridiumRotor=动力齿轮转子(铱)
-
-ic2.itemMagnaliumRotor=动力齿轮转子(镁铝合金)
-ic2.itemUltimetRotor=动力齿轮转子(哈氏合金)
-
-ic2.blockGenerator=RTG POWARZ
-ic2.blockGenerator.0=RTG POWA
-ic2.blockGenerator.1=KINETIC POWA
-ic2.blockGenerator.2=ERROR POWA
-ic2.blockGenerator.3=MOAR ERROR POWA
-
-ic2.blockRTGenerator2=RTG POWARZ 2
-ic2.blockKineticGenerator2=KINETIC POWA 2
-
-ic2.HydrofluoricAcid=工业强化氢氟酸单元
-ic2.SulfurDioxide=二氧化硫单元
-ic2.SulfuricApatite=硫酸磷灰石单元
-ic2.SulfurousAcid=亚硫酸单元
-
-ic2.HydrogenChloride=工业强化氯化氢单元
-ic2.LithiumHydroxide=氢氧化锂单元
-ic2.SulfuricLithium=硫酸锂单元
-
-ic2.UraniumHexaFluoride=六氟化铀单元
-ic2.ThoriumTetraFluoride=四氟化钍单元
-ic2.UraniumTetraFluoride=四氟化铀单元
+item.itemIngotRhugnor.name=鲁格诺锭
+item.itemDustRhugnor.name=鲁格诺粉
+item.itemDustTinyRhugnor.name=小撮鲁格诺粉
+item.itemDustSmallRhugnor.name=小堆鲁格诺粉
+item.itemNuggetRhugnor.name=鲁格诺粒
+item.itemPlateRhugnor.name=鲁格诺板
+item.itemPlateDoubleRhugnor.name=双重鲁格诺板
+item.itemCellRhugnor.name=鲁格诺单元
+tile.Block of Rhugnor.name=鲁格诺块
 
 
 
 
+//Added 13/5/19
+
+item.GTPP.BattPack.01.name=充电工具包[LV]
+item.GTPP.BattPack.02.name=充电工具包[MV]
+item.GTPP.BattPack.03.name=充电工具包[HV]
+item.GTPP.BattPack.04.name=充电工具包[EV]
+item.GTPP.BattPack.05.name=充电工具包[IV]
+item.IndustrialDiamondExquisite.name=精致的工业钻石
+
+item.itemSpringCelestialTungsten.name=天体钨弹簧
+item.itemSpringWhiteMetal.name=白物质弹簧
+item.itemSpringNitinol60.name=镍钛诺60弹簧
+item.itemSpringWatertightSteel.name=防水钢弹簧
+item.itemSpringEglinSteel.name=埃格林钢弹簧
+
+item.itemSmallSpringMaragingSteel250.name=小型马氏体时效钢250弹簧
+item.itemSmallSpringNichrome.name=小型镍铬合金弹簧
+item.itemSmallSpringStaballoy.name=小型贫铀合金弹簧
+item.itemSmallSpringBlackSteel.name=小型黑钢弹簧
+item.itemSmallSpringBlackTitanium.name=小型黑钛弹簧
+
+item.itemFineWireWhiteMetal.name=精致白物质导线
+item.itemFineWirePalladium.name=精致钯导线
+item.itemFineWireZirconium.name=精致锆导线
+item.itemFineWireGrisium.name=精致灰钛合金导线
+item.itemFineWireBabbitAlloy.name=精致巴氏合金导线
+item.itemFineWireKoboldite.name=精致妖金导线
+item.itemFineWireHG1223.name=精致HG-1223导线
+item.itemFineWireQuantum.name=精致量子导线
+
+item.itemHeavyPlatePotin.name=重型粗青铜板
+item.itemHeavyPlateWatertightSteel.name=重型防水钢板
+item.itemHeavyPlateBronze.name=重型青铜板
+item.itemHeavyPlateOsmiridium.name=重型铱锇合金板
+item.itemHeavyPlateQuantum.name=重型量子板
+item.itemHeavyPlateBlackSteel.name=重型黑钢板
+item.itemHeavyPlateStainlessSteel.name=重型不锈钢板
+item.itemHeavyPlateEglinSteel.name=重型埃格林钢板
+item.itemHeavyPlateMaragingSteel300.name=重型马氏体时效钢300板
+item.itemHeavyPlateTalonite.name=铬钴磷酸盐合金板
+item.itemHeavyPlateHypogen.name=重型海珀珍板
+item.itemHeavyPlateRhugnor.name=重型鲁格诺板
+item.itemHeavyPlateAdvancedNitinol.name=重型高级镍钛诺板
+item.itemHeavyPlateAstralTitanium.name=重型星体钛板
+item.itemHeavyPlateCelestialTungsten.name=重型天体钨板
+item.itemHeavyPlateWhiteMetal.name=重型白物质板
+item.itemHeavyPlateBlackMetal.name=重型黑物质板
+item.itemHeavyPlateAncientGranite.name=重型古花岗岩板
+
+item.GTPP.bauble.fireprotection.0.name=超级披萨手套
 
 
-
-
-
-
-
-
-
-
-
-item.SC2:crop_exotic_seeds.name=异域种子模块[GT++]
+//Added 16/5/19
+item.itemCellSeleniumDioxide.name=二氧化硒单元
+item.itemCellSeleniousAcid.name=亚硒酸单元
