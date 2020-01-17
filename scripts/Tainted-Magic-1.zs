@@ -330,24 +330,24 @@ mods.thaumcraft.Warp.addToResearch("ShadowClothGTNH", 2);
 // --- Shard of Creation
 mods.thaumcraft.Research.orphanResearch("CREATIONSHARD");
 mods.thaumcraft.Research.removeResearch("CREATIONSHARD");
-mods.thaumcraft.Research.addResearch("CREATIONSHARD", "TM", "aer 21, aqua 21, ignis 21, terra 21, ordo 21, perditio 21", 8, -5, 4, <TaintedMagic:ItemMaterial:5>);
-mods.thaumcraft.Research.addPrereq("CREATIONSHARD", "TMELDRITCHMAJOR", false);
-mods.thaumcraft.Research.addPrereq("CREATIONSHARD", "PRIMPEARL", false);
-mods.thaumcraft.Research.setConcealed("CREATIONSHARD", true);
-game.setLocalization("tc.research_name.CREATIONSHARD", "\u521b\u4e16\u788e\u7247");
-game.setLocalization("tc.research_text.CREATIONSHARD", "\u529b\u91cf\u4f7f\u4eba\u5815\u843d");
-mods.thaumcraft.Research.addPage("CREATIONSHARD", "tc.research_page.CREATIONSHARD");
-game.setLocalization("tc.research_page.CREATIONSHARD", "\u4f60\u7ec8\u4e8e\u627e\u5230\u4e86\u5b83...\u6311\u6218\u521b\u4e16\u795e\u8ff9\u7684\u90aa\u672f\u4ea7\u7269.
+mods.thaumcraft.Research.addResearch("CreationShardGTNH", "TM", "aer 21, aqua 21, ignis 21, terra 21, ordo 21, perditio 21", 8, -5, 4, <TaintedMagic:ItemMaterial:5>);
+mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "TMELDRITCHMAJOR", false);
+mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "PRIMPEARL", false);
+mods.thaumcraft.Research.setConcealed("CreationShardGTNH", true);
+game.setLocalization("tc.research_name.CreationShardGTNH", "\u521b\u4e16\u788e\u7247");
+game.setLocalization("tc.research_text.CreationShardGTNH", "\u529b\u91cf\u4f7f\u4eba\u5815\u843d");
+mods.thaumcraft.Research.addPage("CreationShardGTNH", "tc.research_page.CreationShardGTNH");
+game.setLocalization("tc.research_page.CreationShardGTNH", "\u4f60\u7ec8\u4e8e\u627e\u5230\u4e86\u5b83...\u6311\u6218\u521b\u4e16\u795e\u8ff9\u7684\u90aa\u672f\u4ea7\u7269.
 \u521b\u4e16\u788e\u7247,\u8fd9\u79cd\u6709\u7740\u5de8\u5927\u80fd\u91cf\u7684\u788e\u7247\u5c06\u662f\u4f60\u7ec8\u6781\u7684\u9b54\u529b\u6765\u6e90. \u521b\u9020\u4e0e\u6bc1\u706d,\u4e00\u5207\u90fd\u8574\u542b\u4e8e\u5176\u4e2d.
 \u8fd9\u788e\u7247\u6216\u8bb8\u63ed\u793a\u4e86\u4e07\u7269\u4e4b\u59cb,\u90a3\u4f60\u4e00\u76f4\u5728\u8ffd\u6c42\u7684\u7ec8\u6781\u7b54\u6848.
 \u00a7o \u8fd9\u79cd\u788e\u7247\u2014\u2014\u5f53\u5b83\u8eba\u5728\u4f60\u7684\u624b\u4e0a\u65f6,\u6e05\u6670\u4e4b\u611f\u9996\u6b21\u5145\u65a5\u4e86\u4f60\u90a3\u4e00\u76f4\u626d\u66f2\u7740\u7684\u5fc3\u7075,\u4f60\u83b7\u5f97\u4e86\u4e00\u4e2a\u542f\u793a,\u4e00\u5207\u90fd\u901a\u900f\u660e\u6670. \u529b\u91cf...\u529b\u91cf!");
-mods.thaumcraft.Crucible.addRecipe("CREATIONSHARD", <dreamcraft:item.VoidEssence> * 2, <Thaumcraft:ItemResource:16>, "alienis 16, vacuos 16, tenebrae 16");
-mods.thaumcraft.Research.addCruciblePage("CREATIONSHARD", <dreamcraft:item.VoidEssence>);
-mods.thaumcraft.Infusion.addRecipe("CREATIONSHARD", <minecraft:nether_star>,
+mods.thaumcraft.Crucible.addRecipe("CreationShardGTNH", <dreamcraft:item.VoidEssence> * 2, <Thaumcraft:ItemResource:16>, "alienis 16, vacuos 16, tenebrae 16");
+mods.thaumcraft.Research.addCruciblePage("CreationShardGTNH", <dreamcraft:item.VoidEssence>);
+mods.thaumcraft.Infusion.addRecipe("CreationShardGTNH", <minecraft:nether_star>,
 [<Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:ItemEldritchObject:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal:6>], 
 "alienis 64, vacuos 64, praecantatio 64, auram 64, tenebrae 64", <TaintedMagic:ItemMaterial:5> * 2, 12);
-mods.thaumcraft.Research.addInfusionPage("CREATIONSHARD", <TaintedMagic:ItemMaterial:5>);
-mods.thaumcraft.Warp.addToResearch("CREATIONSHARD", 10);
+mods.thaumcraft.Research.addInfusionPage("CreationShardGTNH", <TaintedMagic:ItemMaterial:5>);
+mods.thaumcraft.Warp.addToResearch("CreationShardGTNH", 10);
 
 // --- Wand Focus Dark Matter
 mods.thaumcraft.Research.orphanResearch("ELDRITCHFOCUS");
@@ -355,7 +355,7 @@ mods.thaumcraft.Research.removeResearch("ELDRITCHFOCUS");
 mods.thaumcraft.Research.addResearch("EldritchFocusGTNH", "TM", "alienis 18, perditio 15, aer 12, tenebrae 9, potentia 6, ira 3", 8, -4, 4, <TaintedMagic:ItemFocusEldritch>);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "EvilshardsGTNH", true);
-mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "CREATIONSHARD", false);
+mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "CreationShardGTNH", false);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "FOCUSPORTABLEHOLE", false);
 mods.thaumcraft.Research.setConcealed("EldritchFocusGTNH", true);
 game.setLocalization("tc.research_name.EldritchFocusGTNH", "\u6cd5\u6756\u6838\u5fc3:\u90aa\u672f");
