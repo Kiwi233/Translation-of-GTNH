@@ -2970,15 +2970,15 @@ gtnh.quest741.desc=Finally you get your first alumite. Now it's time to craft a 
 
 #Quest_742.One Block mining is so Old School
 gtnh.quest742.name=One Block mining is so Old School
-gtnh.quest742.desc=By making a steel hammer you are now able to mine a shaft of 3x3 blocks. Be careful in the Nether or you could be boiled in lava very quickly.
+gtnh.quest742.desc=By making a hammer you are now able to mine a shaft of 3x3 blocks. You can use iron, steel, or alumite poured from the Smeltery, it doesn't need to be steel. Higher tier metals require the MV extruder.  You'll need a hammer head,two large plates and a large rod for your hammer.  Be careful in the Nether or you could be boiled in lava very quickly.
 
 #Quest_743.Cutting a Tree log by log is so Old School
 gtnh.quest743.name=Cutting a Tree log by log is so Old School
-gtnh.quest743.desc=By making a steel lumber axe you are now able to cut down the entire tree in one hit. Don't forget your backpack when you are cutting a sacred oak tree down.
+gtnh.quest743.desc=By making a lumber axe you are now able to cut down the entire tree in one hit. You can use iron, steel, or alumite poured from the Smeltery, it doesn't need to be steel. Higher tier metals require the MV extruder.   Don't forget your backpack when you are cutting a sacred oak tree down.
 
 #Quest_744.Mining Dirt Block by Block is so Old School
 gtnh.quest744.name=Mining Dirt Block by Block is so Old School
-gtnh.quest744.desc=By making a steel excavator you are now able to mine dirt in a 3x3 area. Don't destroy your whole garden.
+gtnh.quest744.desc=By making an excavator you are now able to mine dirt in a 3x3 area. You can use iron, steel, or alumite poured from the Smeltery, it doesn't need to be steel. \nHigher tier metals require the MV extruder.  Don't destroy your whole garden.
 
 #Quest_745.Glue
 gtnh.quest745.name=Glue
@@ -3070,7 +3070,7 @@ gtnh.quest766.desc=Cracking oil products like light and heavy fuel with the oil 
 
 #Quest_767.Analyzing the soil
 gtnh.quest767.name=Analyzing the soil
-gtnh.quest767.desc=Tired of looking for ores by hand? Want to find deep oil that will last a long time? A seismic prospector will tell you the ores in the surrounding chunk in a handy book you can read, and also the oil in the oilfields beneath each 8x8 chunks.\n\nTo determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking an Advanced Seismic Prospector with 2 Powderbarrels, 4 Glyceryl Trinitate cells, 8 TNT or 16 TNT.  Make sure you wait a few seconds after placing the prospector before applying the explosives.\n\nThen use a Data Stick to extract the data by right clicking on it after the animation has finished.\n\nNow you need to put the analyzed data stick in a GT scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have at least 144 mb squid ink in it. (Only gregtech machines will work)\n\nAfter the process is done take the printed pages and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue. Don't assemble more than one book at time.\n\nTADA now you have a book with detailed info about the chunks you scanned.\n\nNote: Each oilfield is 8x8 chunks, and always on a by 8 chunk boundary. Within the field the amount can vary +- 25 percent. The amount reported in the book is the minimum and maximum per oilfield across all chunks in the field. The prospector reports on 3x3 oil fields at all tiers with the center oil field where the seismic prospector is located. Oil extraction rate depends on many factors, check the wiki for details. In general, anything above 300 is really good. The total amount in the chunk is complicated. \n\nOre locations are given as the center of the chunk. Ores that are marginal in that chunk may not be found in the center but on an edge. Look at where ores are located and determine the center of the vein. At higher tiers, it scans more chunks for ores.
+gtnh.quest767.desc=Tired of looking for ores by hand? Want to find deep oil that will last a long time? A seismic prospector will tell you the ores in the surrounding chunk in a handy book you can read, and also the oil in the oilfields beneath each 8x8 chunks.\n\nTo determine which kind of oil or gas there is in the chunk you need to scan the soil by right clicking an Advanced Seismic Prospector with 2 Powderbarrels, 4 Glyceryl Trinitate cells, 8 iTNT or 16 TNT.  Make sure you wait a few seconds after placing the prospector before applying the explosives.\n\nThen use a Data Stick to extract the data by right clicking on it after the animation has finished.\n\nNow you need to put the analyzed data stick in a GT scanner. Then place it in the bottom right slot of the printer and add 3 paper in the top left slot and make sure you have at least 144 mb squid ink in it. (Only gregtech machines will work)\n\nAfter the process is done take the printed pages and combine it with a piece of leather in an assembling machine filled with at least 20 mb of refined glue. Don't assemble more than one book at time.\n\nTADA now you have a book with detailed info about the chunks you scanned.\n\nNote: Each oilfield is 8x8 chunks, and always on a by 8 chunk boundary. Within the field the amount can vary +- 25 percent. The amount reported in the book is the minimum and maximum per oilfield across all chunks in the field. The prospector reports on 3x3 oil fields at all tiers with the center oil field where the seismic prospector is located. Oil extraction rate depends on many factors, check the wiki for details. In general, anything above 300 is really good. The total amount in the chunk is complicated. \n\nOre locations are given as the center of the chunk. Ores that are marginal in that chunk may not be found in the center but on an edge. Look at where ores are located and determine the center of the vein. At higher tiers, it scans more chunks for ores.
 
 #Quest_768.You smell like a distillery!
 gtnh.quest768.name=You smell like a distillery!
@@ -4056,8 +4056,8 @@ gtnh.quest1012.desc=Rutile can be thermal centrifuged out of bauxite and ilmenit
 gtnh.quest1013.name=SMD Circuit components
 gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.\n\nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and resistors until you have a steady supply with an HV macerator, bees, or bauxite ore. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.\n\nThe easiest way to get Platinum is with Nickel ore and a chemical bath.
 
-#Quest_1014.Workstation Extreme Curcuit
-gtnh.quest1014.name=Workstation Extreme Curcuit
+#Quest_1014.Workstation Extreme Circuit
+gtnh.quest1014.name=Workstation Extreme Circuit
 gtnh.quest1014.desc=The next tier of circuits are the extreme circuits. Workstation Circuits are the easiest one and are needed in EV Tier. Let's craft some.
 
 #Quest_1015.Empty Plastic Board
@@ -4624,9 +4624,9 @@ gtnh.quest1154.desc=Magnalium bolts are much better than your old wooden bolts.\
 gtnh.quest1155.name=Basic Fluid Solidifier
 gtnh.quest1155.desc=To get your molten fluids back to a solid state you need a fluid solidifier. It is used for crossbow bolts as well.
 
-#Quest_1156.Iron Tipped Bolts
-gtnh.quest1156.name=Iron Tipped Bolts
-gtnh.quest1156.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts with an iron tip. You'll need to pump smeltery iron into a fluid solidifier.
+#Quest_1156.Wooden Bolts
+gtnh.quest1156.name=Wooden Bolts
+gtnh.quest1156.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts. For now, you can put either iron, alumite, or steel on the tip of your bolts using the Smeltery.  For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.
 
 #Quest_1157.Rubber Soft Mallet
 gtnh.quest1157.name=Rubber Soft Mallet
@@ -6176,9 +6176,9 @@ gtnh.quest1542.desc=The Crop-Matron is a LV machine that will monitor crops in a
 gtnh.quest1543.name=Weed Ex
 gtnh.quest1543.desc=Weed-EX is used to prevent the growth of Weeds on empty Crop blocks at the cost of crop quality. Damage to the crop's quality is permanent and cannot be reversed, aside from complete removal.\n\nUsage:\nWhile holding Weed-Ex, right-click on a Crop to apply it. It can also be placed in a Crop-Matron to automatically apply it to your crops. Overuse will reduce crop quality, capping their stats at 10.
 
-#Quest_1544.Fish Oil
-gtnh.quest1544.name=Fish Oil
-gtnh.quest1544.desc=To make some bio diesel you need seed oil or fish oil and mix that with ethanol or methanol. Seeds give seed oil and fish produce fish oil when placed in a fluid extractor.
+#Quest_1544.Seed/Fish Oil
+gtnh.quest1544.name=Seed/Fish Oil
+gtnh.quest1544.desc=To make some bio diesel you need seed oil or fish oil and mix that with ethanol or methanol. Seeds give seed oil and fish produce fish oil when placed in a fluid extractor. \n\nPam's peanuts are a good seed oil source.  Another option is Forestry Butternuts. Or you can use IC2 crops to get Rapeseed.\n\nLook under Fishing Farming Cooking tab for fish catching options.
 
 #Quest_1545.Time to ore drill!
 gtnh.quest1545.name=Time to ore drill!
@@ -6546,7 +6546,7 @@ gtnh.quest1635.desc=Time to build a simple system to store your stuff. Place dow
 
 #Quest_1636.Desulfuring oil automation
 gtnh.quest1636.name=Desulfuring oil automation
-gtnh.quest1636.desc=This quest line will show you how to automated desulfuring of oil products. Return here once you have unlocked the LV distillery quest and have some polyethylene plates.
+gtnh.quest1636.desc=This quest line will show you how to automate desulfuring of oil products. Return here once you have unlocked the LV distillery quest and have some polyethylene plates.
 
 #Quest_1637.Storing the fluids
 gtnh.quest1637.name=Storing the fluids
@@ -6786,7 +6786,7 @@ gtnh.quest1695.desc=Mixing 3,3 Dichlorobenzidine with Ammonia and Zinc in an IV 
 
 #Quest_1696.IV Chemical reactor
 gtnh.quest1696.name=IV Chemical reactor
-gtnh.quest1696.desc=High tier chemical recipes need a high tier IV chemical reactor.
+gtnh.quest1696.desc=High tier chemical recipes need a high tier IV chemical reactor.\nAlternative you can use your Large Chemical Rector with iv hatches.
 
 #Quest_1697.Polybenzimidazole finally
 gtnh.quest1697.name=Polybenzimidazole finally
@@ -6814,7 +6814,7 @@ gtnh.quest1702.desc=Potassium Dichromate is made out of Potassium Nitrade and Ch
 
 #Quest_1703.Potassium Nitrate
 gtnh.quest1703.name=Potassium Nitrate
-gtnh.quest1703.desc=Potassium Nitrade is made out of potassium and ammonia.
+gtnh.quest1703.desc=Potassium Nitrade is made out of potassium and nitric acid.
 
 #Quest_1704.Chromium Trioxide
 gtnh.quest1704.name=Chromium Trioxide
@@ -7168,6 +7168,394 @@ gtnh.quest1790.desc=For your new House you need more wooden  doors. Well the rec
 gtnh.quest1791.name=Oilsand or how you get heavy Oil
 gtnh.quest1791.desc=Oilsand is an other way to get oil, heavy oil. Maybe you lucky and found in a dessert biome a oilsand vein. With your centrifuge ou are able to get heavy oil and sand blocks out of the ore.\nThe veins can be found between Y level 50-80.
 
+#Quest_1792.I guess it is an inkjet?
+gtnh.quest1792.name=I guess it is an inkjet?
+gtnh.quest1792.desc=When you use the seimsic prospector, you'll need a scanner and a printer to create the books full of tasty ores and delicious fluids.\n\nUse ink sacs in a fluid extractor to get squid ink. Move using a tank or universal cells.
+
+#Quest_1793.Better dirt
+gtnh.quest1793.name=Better dirt
+gtnh.quest1793.desc=With an Assembler and some seedoil, you can turn dirt and sand into Garden Soil.  This optimal soil does not require water nearby and crops do not break when you fall or run on it.
+
+#Quest_1794.Even more stats
+gtnh.quest1794.name=Even more stats
+gtnh.quest1794.desc=With the portable scanner, you can get the crop's stats and environmental info while it is still in the ground.  Look for the portable scanner quest after the EBF in Multiblock Goals.
+
+#Quest_1795.Metals from the Sky
+gtnh.quest1795.name=Metals from the Sky
+gtnh.quest1795.desc=You can even create metals not found on Earth using crops!  You'll need the proper metal block beneath the crop in order for them to fully mature.
+
+#Quest_1796.Better Gallium and Arsenic sources
+gtnh.quest1796.name=Better Gallium and Arsenic sources
+gtnh.quest1796.desc=There are a couple of ways to increase your Gallium.\n\n1. Use IC2 crops under the Farming tab to get Galvania leaves, to 4x your zinc and sphalerite crushed ores to purified ores.\n\n2. Use the HV macerator on the centrifuged ores to get a 10 percent chance of a whole Gallium dust.\n\n3. Use plentiful Bauxite ores from the Moon.\n\nFor Arsenic, Cobaltite ore in the Twilight Forest is a great source. It can be multiplied 4x by the IC2 crop Nickelback.
+
+#Quest_1797.New threads
+gtnh.quest1797.name=New threads
+gtnh.quest1797.desc=Tired of killing spiders for string? Grow some flax for an easy non-biting source of string.
+
+#Quest_1798.The ground is crying
+gtnh.quest1798.name=The ground is crying
+gtnh.quest1798.desc=Need an alternate source of Chlorine? Breed some Tearstalks to get Ghast Tears for making salt water.\n\n\n;-;
+
+#Quest_1799.Blazes too hard to kill?
+gtnh.quest1799.name=Blazes too hard to kill?
+gtnh.quest1799.desc=Then grow some blazereed to save yourself the trouble.
+
+#Quest_1800.A girl's best friend
+gtnh.quest1800.name=A girl's best friend
+gtnh.quest1800.desc=Need to impress a lady?  How about growing diamonds on reeds?!?
+
+#Quest_1801.Why does my plant bawk like a chicken?
+gtnh.quest1801.name=Why does my plant bawk like a chicken?
+gtnh.quest1801.desc=Because it can lay eggs!
+
+#Quest_1802.Vegan, but still want to eat meat?
+gtnh.quest1802.name=Vegan, but still want to eat meat?
+gtnh.quest1802.desc=Instead of killing animals, just mutate some crazy GMOs into making animal products for you. Science!
+
+#Quest_1803.Magical Metal Berry
+gtnh.quest1803.name=Magical Metal Berry
+gtnh.quest1803.desc=..is obviously the name of my cover band. But also a great crop for Thaumium or Void metals. Requires a block of iron or thaumium to get thaumium, and void metal block to get void metal.  Like other ore berries, it only grows in dim light.
+
+#Quest_1804.Other magic flowers
+gtnh.quest1804.name=Other magic flowers
+gtnh.quest1804.desc=Other magical flowers are possible such as shimmerleaf, mandragora, wolf's bane, and more.
+
+#Quest_1805.Stonelillies
+gtnh.quest1805.name=Stonelillies
+gtnh.quest1805.desc=Stone lillies allow you to get dusts without having to look for granites, basalt, or marble.  Great renewable way to get calcite, fluorine, or uranium.\n\nThese require the original block beneath them to grow properly.
+
+#Quest_1806.Glowstone
+gtnh.quest1806.name=Glowstone
+gtnh.quest1806.desc=There are a couple of different glowstone crops - glowflower, glowing earth coral, and glowshrooms.
+
+#Quest_1807.Leaves of steel
+gtnh.quest1807.name=Leaves of steel
+gtnh.quest1807.desc=Well, steel leaves anyways.  Instead of grinding Twilight Forest for steel leaves, grow a crop in peace.
+
+#Quest_1808.Plants that make their own fertilizer?
+gtnh.quest1808.name=Plants that make their own fertilizer?
+gtnh.quest1808.desc=Sign me up! This plant will create fertilzer for you. Be careful though, if the growth stat gets too high, it will spread weeds to neighbors!
+
+#Quest_1809.Renewable oil
+gtnh.quest1809.name=Renewable oil
+gtnh.quest1809.desc=Oil from crops?  Makes as much sense as oil from bees!
+
+#Quest_1810.Boost your speed v 2
+gtnh.quest1810.name=Boost your speed v 2
+gtnh.quest1810.desc=High speed transition and booster tracks get your carts moving at really ridiculous speeds.  Do not use normal track without several transition tracks or else your cart will explode.  Do not try turning at high speed or, you guessed it, your cart will explode.
+
+#Quest_1811.Even LARGER tanks
+gtnh.quest1811.name=Even LARGER tanks
+gtnh.quest1811.desc=4000 buckets not enough storage? Stockpiling diesel for a lifetime? Try a Super Tank 2.
+
+#Quest_1812.Teflon Don
+gtnh.quest1812.name=Teflon Don
+gtnh.quest1812.desc=To make PTFE, aka Teflon, you only need a few steps.  \n\nThe first one is hydrofluoric acid.  If you have not reached the moon yet, the best sources for fluorine are hammering sandstone for a chance at fluorite and centrifuging stone dust or black granite dust for biotite. Mix it with some hydrogen to get hydrofluoric acid.
+
+#Quest_1813.Chloroform
+gtnh.quest1813.name=Chloroform
+gtnh.quest1813.desc=The next step is to mix methane and chlorine to make chloroform.  Make sure you have your circuit set correctly.\n\nNow is probably a good time to look at stockpiling chlorine.  Look for salt ores, or lapis veins. You can also make salt water with ghast tears.  Better get started with IC2 crops, you will need a lot of chlorine later!
+
+#Quest_1814.Tetrafluoroethylene
+gtnh.quest1814.name=Tetrafluoroethylene
+gtnh.quest1814.desc=Liquid hot plastics smell great, don't they? Mix your hydrofluoric acid and chloroform to make tetrafluoroethylene. React the TFE with oxygen to make molten PTFE. Finally a fluid solidifer will make bars for you.
+
+#Quest_1815.How much is too much fluid?
+gtnh.quest1815.name=How much is too much fluid?
+gtnh.quest1815.desc=There is no limit to how much fluid you might want to store. Make yourself some super tank III's for all your bulk storage needs.
+
+#Quest_1816.Calcite getting you down?
+gtnh.quest1816.name=Calcite getting you down?
+gtnh.quest1816.desc=Having a hard time finding that Lapis vein for some calcite? I'll trade you some for your hard earned coins and some stone.
+
+#Quest_1817.Upgrade #7: Upgrade tier 8 - Electrum Flux Coils
+gtnh.quest1817.name=Upgrade #7: Upgrade tier 8 - Electrum Flux Coils
+gtnh.quest1817.desc=To process the more advanced materials like Cosmic Neutronium, Tritanium and Awakened Draconium you need more than 9000K. Upgrade your EBF to 12000k.
+
+#Quest_1818.Large Essentia Generator
+gtnh.quest1818.name=Large Essentia Generator
+gtnh.quest1818.desc=Having one Essentia Generator per Essentoia type seeems unpracticable.... Better make a Large Essentia Generator and burn all this Essentia in parallel! As another Bonus, this Generator produces 20x the Energy a Single Block Machine will produce. You might need more Magic Containment Casings than this Quest asks for.
+
+#Quest_1819.Circuit Programmer
+gtnh.quest1819.name=Circuit Programmer
+gtnh.quest1819.desc=The Circuit Programmer is a usefull tool that will enable you to program integrated circuits without having to deal with 24 different crafting recipes. Just charge it, put the Integrated Circuit in it and click on the Number you want it to be programmed to.
+
+#Quest_1820.Lapotronic Energy Storage Unit
+gtnh.quest1820.name=Lapotronic Energy Storage Unit
+gtnh.quest1820.desc=The L.E.S.U. is one of the oldest Machines that are aviable in Gregtech, its origins are in Minecraft 1.3.X, now its redone to fit into this Modpack. You can add a nearly infinite number of LESU casings to it and you'll have a hughe Energy Storage. You might also live inside your Battery.
+
+#Quest_1821.Cable Diodes
+gtnh.quest1821.name=Cable Diodes
+gtnh.quest1821.desc=Sometimes you just need a Diode, either to prevent reflow in your complex Energy System or on Thermos Server's Chunk borders. Make one 4A Diode and get a 2A one for free!
+
+#Quest_1822.Manual Transformer
+gtnh.quest1822.name=Manual Transformer
+gtnh.quest1822.desc=Annoyed by building Chains of transformers? Dont want an Explosion Risk at your base? Want to use these fancy 64A Hatches and Dynamos from TecTech to convert your power? Make a Manual Dynamo and convert it all!
+
+#Quest_1823.Mobile Trash Can
+gtnh.quest1823.name=Mobile Trash Can
+gtnh.quest1823.desc=GT2's Destructorpack is a mobile Trashcan. Might be handy!
+
+#Quest_1824.Rock Cutter LV
+gtnh.quest1824.name=Rock Cutter LV
+gtnh.quest1824.desc=The Rock Cutter is an unbreakable and Silk-touched Mining Device. It will enable you to mine blocks without damaging them, like glass or stone, while it is charged.
+
+#Quest_1825.L.E.S.U. Upgrade - LV Tier
+gtnh.quest1825.name=L.E.S.U. Upgrade - LV Tier
+gtnh.quest1825.desc=Adding this much Cells anywhere to your LESU will upgrade it from ULV to LV.
+
+#Quest_1826.L.E.S.U. Upgrade - MV Tier
+gtnh.quest1826.name=L.E.S.U. Upgrade - MV Tier
+gtnh.quest1826.desc=Adding an additional ammount of Cells will not only cause your storage capacity to rise, but also will enable MV Voltage.
+
+#Quest_1827.L.E.S.U. Upgrade - HV Tier
+gtnh.quest1827.name=L.E.S.U. Upgrade - HV Tier
+gtnh.quest1827.desc=The HV Tier upgrade first needs over a Stack of Casings. More Casings, more Energy, more Capacity.
+
+#Quest_1828.L.E.S.U. Upgrade - EV Tier
+gtnh.quest1828.name=L.E.S.U. Upgrade - EV Tier
+gtnh.quest1828.desc=Close to 8 Stacks of LESU Casings, this upgrade enables EV Voltage on your LESU. It's easy until now.
+
+#Quest_1829.L.E.S.U. Upgrade - IV Tier
+gtnh.quest1829.name=L.E.S.U. Upgrade - IV Tier
+gtnh.quest1829.desc=24 Stacks of LESU Casings. These do fit in your Inventory, but crafting them is another problem.
+
+#Quest_1830.L.E.S.U. Upgrade - LuV Tier
+gtnh.quest1830.name=L.E.S.U. Upgrade - LuV Tier
+gtnh.quest1830.desc=To reach the highest Voltage Tier the LESU can offer, you need to add an additional amount of LESU Casings. 8193 Casings in total (all upgrades below and these additional) enable the LuV Input Voltage. To submit these you'll need to use the Submit Station from the Steam Tab, since your inventory isnt big enough to hold 96 Stacks.
+
+#Quest_1831.Circle Shapes give me comfort
+gtnh.quest1831.name=Circle Shapes give me comfort
+gtnh.quest1831.desc=To build a Windmill you will need a Dispenser, but that item is locked behind the next Tier. Go and find one in a Witchery Circle. They look like small versions of Stonehenge.\n\nLook for the main quest in Multiblock Goals.
+
+#Quest_1832.Grinding with Wind
+gtnh.quest1832.name=Grinding with Wind
+gtnh.quest1832.desc=The Windmill is a grinder that uses the force of wind to macerate Items and Blocks. It is pretty slow and won't macerate ores well. You will only get one crushed Ore from it. However it does give you a bonus when you try to macerate other things. That bonus depends on the Item inserted, for example Netherrack has a chance to give two instead of one dust and Wheat will always give one and a quarter flour.\n\nThe dispensers replace a clay block in the walls. Put anything you like in the interior - a bed, stairs, torches, etc.\n\nNormal multiblock rules apply - do not cross chunk boundaries with this multiblock.
+
+#Quest_1833.Upgrade #8: Upgrade tier 9 - Awakened Draconium Coils
+gtnh.quest1833.name=Upgrade #8: Upgrade tier 9 - Awakened Draconium Coils
+gtnh.quest1833.desc=To process the most advanced materials like Infinity Catalys or Infinity need more than 12000K. Upgrade your EBF to 15000k.
+
+#Quest_1834.Mushroom Biomes ? why there so many?
+gtnh.quest1834.name=Mushroom Biomes ? why there so many?
+gtnh.quest1834.desc=GNTH pack is made for the rwg worldgen. If you run the vanilla biomes worlgen you get huge Mushroom biomes over the map. Go and generate a new world before you continue this one. If you run a server put this inside your server.properties file.\n\n "level-type=rwg".
+
+#Quest_1835.Tantalum
+gtnh.quest1835.name=Tantalum
+gtnh.quest1835.desc=Tantalum is used in the GT and Ender IO Capacitors and also a source for niobium. It is a cheap essentia source for Thaumcraft later on.\nYou will find Tantalite Mix at Y 20-30 on the Overworld.
+
+#Quest_1836.Kitchenware 2.0
+gtnh.quest1836.name=Kitchenware 2.0
+gtnh.quest1836.desc=Gregtech tools like the knives get used up when crafting foods. Pams Tool like the Cutting Board, Juicer or the Bakeware can last forever.\n \nAfter you reach stainless steel in HV you can make these forever tools.
+
+#Quest_1837.Ardite and Cobalt Mining
+gtnh.quest1837.name=Ardite and Cobalt Mining
+gtnh.quest1837.desc=Ironwood is much harder and durable material than you imagin the first time. Making Tools and Armor give them very unique features. With a Pick you can mine at cobalt Level which means you can harvest ardite and cobalt without a EBF.
+
+#Quest_1838.Low on Sticks?
+gtnh.quest1838.name=Low on Sticks?
+gtnh.quest1838.desc=If you stay in the Twilight Forest you will found the Canopy Tree. This big tree generates a lot of logs for your Coke ovens and some roots when plantet which give sticks. Be carful that no building or chest right beside the Tree otherwise the root replace it.
+
+#Quest_1839."Oh magic" armor
+gtnh.quest1839.name="Oh magic" armor
+gtnh.quest1839.desc=Ironwood Armor is a magic armor with some special enchants. The Helm gives aqua afinity, the shoes feather falling, the plate and the legs extra protection.
+
+#Quest_1840.Spice up with some salt
+gtnh.quest1840.name=Spice up with some salt
+gtnh.quest1840.desc=You will need massive quantities of chlorine for future plastics. There are underground salt water deposits on the Moon, Mars, and Europa. Use a seismic prospector to locate one and build the Underground Fluid Drill from multiblock goals to extract.
+
+#Quest_1841.Moron's Manual for Massacring Monsters
+gtnh.quest1841.name=Moron's Manual for Massacring Monsters
+gtnh.quest1841.desc=If you have not noticed, this world is a true hellscape full of Special Mobs and Infernals around every corner. Unlike vanilla, a player has to actually stay aware and pay attention to what they are fighting. Here are some tips.\n\nIf an infernal has Vengeance, don't shoot it with your 56 damage crossbow!\n\nA high health infernal with regeneration is hard to kill. Even worse if it is a witch that can also heal itself. In those cases, run like hell, or bring a soul vial to capture it and throw it into Mount Doom. \n\nWatch out for zombies with fishing poles - they can pull you into them. And zombies with a bow and arrow - they can shoot you back!
+
+#Quest_1842.Creeping dread
+gtnh.quest1842.name=Creeping dread
+gtnh.quest1842.desc=Creepers can cause the worst problems. \n\nDrowning Creeper - when it explodes, it surrounds you in a ball of cobble filled with water. Not only do you have to escape, but the cobble is infested with silverfish! And those silverfish are all infernal as well.  The best way to deal with it is to first escape up or down.  If you have to clear the cobble ball, first clear the water. Surrounding the cobble with a dirt moat will keep the silverfish inside and unable to hide. Put down punjis, quicksand, or lava, and/or spectral glass. Make a wall with a 1x1 window and use that to break the cobbles - fishing silverfish are especially dangerous.\n\nEnder Creeper - Randomly teleports you a short distance - possibly deep underground. 
+
+#Quest_1843.Caught in the web
+gtnh.quest1843.name=Caught in the web
+gtnh.quest1843.desc=Spiders to watch for...\n\nWitch spiders reflect missile damage back at you. Look for the red X on their back, and draw your melee weapon and prepare for close combat.\n\nMother spiders will spawn a knot of baby spiders, some of which may be infernal.\n\nA flying spider can grab the oblivious flyer.\n\nGhost spiders are partially invisible and can pass through thin walls.
+
+#Quest_1844.Porkchops with attitude
+gtnh.quest1844.name=Porkchops with attitude
+gtnh.quest1844.desc=The only zombie pigman to watch out for is the Vampire Pigman.  He hardly takes any damage unless you use a wooden sword as a stake or have a magical sword.
+
+#Quest_1845.Flaming idiots
+gtnh.quest1845.name=Flaming idiots
+gtnh.quest1845.desc=Blazes are all infernals, and all nasty. Avoid like the plague. Get awesome weapons, awesome armor, and prepare for a fight. \n\nAlternatively, figure out a way to destroy them with technology.\n\nAlternative to the alternative, figure out another way to get blazepowder and blaze rods.
+
+#Quest_1846.Filling the world with fluids...
+gtnh.quest1846.name=Filling the world with fluids...
+gtnh.quest1846.desc=Need to make a lake? Look no further than the Flood Gate. It will fill the world with any fluid you provide it.
+
+#Quest_1847.Portable hole? How about portable chunk!
+gtnh.quest1847.name=Portable hole? How about portable chunk!
+gtnh.quest1847.desc=With further research, I've discovered a key made of spectral iron can open a portal into a pocket dimension.  It's only one chunk wide and quite short, but you can increase the height by adding more ectoplasm to the spectre core in the room.  Perfect for retrieving ores from far planets, or as a quiet refuge.
+
+#Quest_1848.Armor of the Dead
+gtnh.quest1848.name=Armor of the Dead
+gtnh.quest1848.desc=I've found another use for Ectoplasm - making Spectral Iron. An armor made from it is better than diamond and highly enchantable.\n\nIt also will drop healing orbs that will heal the nearest player when picked up. \n\nUnfortunately, a side effect is that you'll become partially transparent.  Side effect, I mean bonus feature!
+
+#Quest_1849.Tell me when we reach 20
+gtnh.quest1849.name=Tell me when we reach 20
+gtnh.quest1849.desc=Jumping up and down everywhere is exhausting, and makes you really hungry. To reduce your food depletion, make stairs instead of jumping.
+
+#Quest_1850.All we are is dust in the wind
+gtnh.quest1850.name=All we are is dust in the wind
+gtnh.quest1850.desc=Looking for an alternative to flowing water for your mobfarm?  Tired of getting poked walking through your fields of oreberries? Use a fan to blow mobs or items where you want.  Apply a redstone signal to activate.
+
+#Quest_1851.Stick a finger in the air
+gtnh.quest1851.name=Stick a finger in the air
+gtnh.quest1851.desc=But you really do care. Trying to find a good place to locate a windmill?  You could just build one and see, or try this fancy windsock.\n\nPaper rotors are great in low winds.\nWool rotors are cheap.\nLeather rotors are durable.\n\nDon't leave the rotors in the windmill when you aren't using it, it will use up durability.
+
+#Quest_1852.Around and around she goes...
+gtnh.quest1852.name=Around and around she goes...
+gtnh.quest1852.desc=...But she'll never stop because you'll always have something to grind. You can use a hopper to keep the windmill full of items to process. Just remember to retrieve them from the dispensers.
+
+#Quest_1853.Moron's Manual for Effective EBFing
+gtnh.quest1853.name=Moron's Manual for Effective EBFing
+gtnh.quest1853.desc=Welcome to the latest Moron's Manual, Effective EBFing!\nThis manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.\n\nSetup\nWhen setting up your EBF, make sure to place it a few chunks away from where you will spend most of your time.  Pollution is nobody's friend!\n\nDuring setup, make sure the center of the EBF is hollow.  Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!\n\nMake sure your muffler faces *out*, not *in*. The EBF can't work if it is not spreading those delightful odors!\n\nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF.  Especially at LV, those few meters make a big difference!  Every amp of energy travelling over a cable loses a little bit - and you'll need as much as you can get!\n\nOutput hatches and buses will automatically push into tanks and inventories placed next to them.  They will also void if they are full, so keep an eye on them!\n\nWhen build multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too.  Not recommended for energy and maintenance hatches!
+
+#Quest_1854.Just like Mom used to make
+gtnh.quest1854.name=Just like Mom used to make
+gtnh.quest1854.desc=Jelly sandwiches are a great food source with decent saturation and easy to make.  Almost any fruit can be converted to jelly with sugar and a saucepan. There are a few different nut butters available. Peanuts can be found in Ground Gardens in forest, mountain, or taiga style biomes.  Cashews are trees located in jungles or swamps. Chestnuts can be found in warmer forests.  Pistachios can be found in jungles. Many of these saplings are also available for trade from villagers.\n\nSome sandwiches have better saturation than others, so be sure to check before buying that sapling!
+
+#Quest_1855.I like big sandwiches
+gtnh.quest1855.name=I like big sandwiches
+gtnh.quest1855.desc=Now that you have dough, there are several options for large sandwiches.  They offer great saturation restoration and are easy to make.\n\nThe veggie and cheese options aren't quite as good and need more work to produce.\n\nThere are also normal sized varieties of these sandwiches if you need more diet choices.
+
+#Quest_1856.Staying cool in the heat
+gtnh.quest1856.name=Staying cool in the heat
+gtnh.quest1856.desc=If you happen to be near a snowy biome, you can harvest the snow to make delicious smoothies. They are better than eating the berries directly.
+
+#Quest_1857.No chicken escapes!
+gtnh.quest1857.name=No chicken escapes!
+gtnh.quest1857.desc=Do you like pies? I sure do!  There are many varieties of pies available for you.  The chicken pot pie is one of the easiest to make. Just a chicken, potato, carrot, and some dough. The fruit pies are a little simpler, so don't quite restore as much saturation, but are great for filling tummies while you wait for the best foods to wear off.
+
+#Quest_1858.Magnetic personality
+gtnh.quest1858.name=Magnetic personality
+gtnh.quest1858.desc=If you haven't received one in a lootbag already, you can craft a nice magnet with a vibrant crystal.  It doesn't work great on servers if you are moving around too fast, but it makes harvesting crops a lot easier.
+
+#Quest_1859.Need some leather?
+gtnh.quest1859.name=Need some leather?
+gtnh.quest1859.desc=Buy some leather with coins.
+
+#Quest_1860.Need some wool?
+gtnh.quest1860.name=Need some wool?
+gtnh.quest1860.desc=Buy some wool with coins.
+
+#Quest_1861.Buy some eggs
+gtnh.quest1861.name=Buy some eggs
+gtnh.quest1861.desc=Buy some eggs with coins.
+
+#Quest_1862.Robotic crop pickers
+gtnh.quest1862.name=Robotic crop pickers
+gtnh.quest1862.desc=The Crop Harvester will pick your crops for you, which is great. 
+
+#Quest_1863.Throwing out the trash
+gtnh.quest1863.name=Throwing out the trash
+gtnh.quest1863.desc=Already have barrels full of cobblestone? The voiding drop filter can be setup to automatically void any item on pickup.  Cobble, dirt, arrows, etc. It's handy for when you don't have much room for junk.
+
+#Quest_1864.No self-healing tools here...yet
+gtnh.quest1864.name=No self-healing tools here...yet
+gtnh.quest1864.desc=Experienced players might be confused by finding the Tinker's Construct Ball of Moss in NEI without a recipe. \n\nIt is possible to craft it, but on this world you have to first gain expertise in Thaumcraft. Go and become a dangerous wizard and you'll gain the power needed to craft the Ball of Moss and make your tools indestructible.\n\nThe Ball of Moss is in the GTNH tab of the Thauminomicon.\n\nIn general, if an item does not have a recipe, it might be gated by Thaumcraft. NEI will not show the recipe until you have unlocked it.\n\nHave a beer to prepare for your long journey.
+
+#Quest_1865.Enderman Smelterman
+gtnh.quest1865.name=Enderman Smelterman
+gtnh.quest1865.desc=Need enderpearls? Getting them by killing endermen can be dangerous. Instead of doing that, put an enderman into a smeltery with hot fluids and use a gem cast to get guaranteed pearls. \n\nHigher the hit points, the more pearls you get.  If you can find a regenerating enderman, or an enderman spawner, you'll have all the pearls you would ever want. Later on with EnderIO you can even create your own powered spawner to make endermen on-demand.\n\nUse a nametag on a regenerating enderman to make sure he doesn't despawn.  You'll want to keep him from seeing the sky or else he'll teleport away.\n\nIf you haven't found a regen enderman yet, you can buy enderman spawn eggs to put into your smeltery with coins.  Maybe you'll get lucky and get a regenerating one.
+
+#Quest_1866.Options for finding aluminuim at this age
+gtnh.quest1866.name=Options for finding aluminuim at this age
+gtnh.quest1866.desc=It can be hard to find aluminium gravel ores on old servers, or unlucky world seeds. Alternative to aluminium gravel ores are\n\n- Planting the Aluminium  ore berries from the Smeltery quest\n- Searching for Aluminium bars in chests\nXP buckets\n\nOnce you reach LV, you can electrolyze Sapphires and get small quantities from centrifuging various ores. Check NEI.
+
+#Quest_1867.MV Motor
+gtnh.quest1867.name=MV Motor
+gtnh.quest1867.desc=Most machines in MV need a motor as well. If you have not built a polarizer already, go back to Tier 2 Quests and craft one. Motors need magnetic steel rods and alu rods, 2x cupronickel wires and copper cables.
+
+#Quest_1868.Ultra Low Power IC
+gtnh.quest1868.name=Ultra Low Power IC
+gtnh.quest1868.desc=MV Energy hatches need ultra low power ICs. Go and craft some.
+
+#Quest_1869.Hydrogen, methane or some farts... (Natural gas) MV 
+gtnh.quest1869.name=Hydrogen, methane or some farts... (Natural gas) MV 
+gtnh.quest1869.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.\n\nGas turbines produce half the pollution of combustion generators, but their fuels are generally not as efficient. Choice is up to you which power source you use.\n\nMV Gas Turbines have a 90 percent fuel efficiency.
+
+#Quest_1870.Diesel, oil or maybe creosote? MV
+gtnh.quest1870.name=Diesel, oil or maybe creosote? MV
+gtnh.quest1870.desc=You probably collected a ton of creosote and maybe even have built your first Electric Blast Furnace. Creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source. Small generators will only use fuel if there is EU demand.\n\nAdvanced Combustion Gnerators have a 90 percent fuel efficiency.
+
+#Quest_1871.Field Generator I
+gtnh.quest1871.name=Field Generator I
+gtnh.quest1871.desc=Field Generators are powerful devices. It will be used in high tier Tanks, Chests, in UU Matter Production or in Teleporters.
+
+#Quest_1872.Vinyl Chloride
+gtnh.quest1872.name=Vinyl Chloride
+gtnh.quest1872.desc=Vinyl Chloride is the base product for making PVC for advanced pipes. These Pipes are needed in LuV machines or the Hermetic Casings for Super Tank II's.
+
+#Quest_1873.Poly Vinyl Chloride
+gtnh.quest1873.name=Poly Vinyl Chloride
+gtnh.quest1873.desc=Polyvinyl Chloride is PVC which can be used for the PVC Pipes.\nYou need Vinyl Chloride and Oxygen to make it.
+
+#Quest_1874.PVC Sheets
+gtnh.quest1874.name=PVC Sheets
+gtnh.quest1874.desc=PVC Sheets make good item pipes, and can also be used for circuit boards.
+
+#Quest_1875.Recycler
+gtnh.quest1875.name=Recycler
+gtnh.quest1875.desc=If you have to much wood, saplings, dirt or stone just recycle it and get scrap. Later on you can use it for uu amplifier to make uu matter cheaper.\nFor this you need a recycler.
+
+#Quest_1876.Advanced Amplifabricator
+gtnh.quest1876.name=Advanced Amplifabricator
+gtnh.quest1876.desc=To get UU Amplifier out of you scrap you need an Amplifabricator. You can't make UU Matter before HV so its a good time to start with it now.
+
+#Quest_1877.UU Matter
+gtnh.quest1877.name=UU Matter
+gtnh.quest1877.desc=Next you will need a Mass Fabricator to make UU matter. This matter can be used make more things.\n\nThe downside is you can't build an HV one right now. Build an LV one and power it with 8 amps of LV to get your first UU matter. Watch your voltage levels and currents!\n\nIf you do not have a field generator, go do the tetrafluoroethylene quest and build some.  \n\nFor now, just stockpile the UU matter.
+
+#Quest_1878.Data Orbs
+gtnh.quest1878.name=Data Orbs
+gtnh.quest1878.desc=Data Orbs are high tier data sticks to replicate materials or used as data storages.
+
+#Quest_1879.Create new material out of pure energy
+gtnh.quest1879.name=Create new material out of pure energy
+gtnh.quest1879.desc=Replicate material out of pure energy. Scan your elements first, like Hydrogen, Iron, Gold etc, and save them on a Data Orb. Later on you can use your replicator to copy this item.
+
+#Quest_1880.Field Generator II
+gtnh.quest1880.name=Field Generator II
+gtnh.quest1880.desc=Field Generators are powerful devices. It will be used in high tier Tanks, Chests, in the Matter Production or in Teleporters.\nThe replicator needs it also. If you have not unlocked Tungstensteel go and do that now.
+
+#Quest_1881.Clay for pennies
+gtnh.quest1881.name=Clay for pennies
+gtnh.quest1881.desc=Hard to find that clay? Have a stack for some coins.
+
+#Quest_1882.Tired of grinding reeds?
+gtnh.quest1882.name=Tired of grinding reeds?
+gtnh.quest1882.desc=I can trade you some chads for coins.
+
+#Quest_1883.Glassy eyed
+gtnh.quest1883.name=Glassy eyed
+gtnh.quest1883.desc=...from all the mortars you have to use to make glass dust? Have some for trade.
+
+#Quest_1884.Shhh, don't tell 0lafe...
+gtnh.quest1884.name=Shhh, don't tell 0lafe...
+gtnh.quest1884.desc=But here is a nice quest to get cheap fish catchers!
+
+#Quest_1885.Wood for sheep?
+gtnh.quest1885.name=Wood for sheep?
+gtnh.quest1885.desc=No thanks! But how about some crop sticks for coins and logs?
+
+#Quest_1886.Manure for fertilizer
+gtnh.quest1886.name=Manure for fertilizer
+gtnh.quest1886.desc=I mean, what else are you going to do with this junk?
+
+#Quest_1887.Electric Furnace
+gtnh.quest1887.name=Electric Furnace
+gtnh.quest1887.desc=This quest was suggested by Shawnbyday. If you have a lv machine hull, two circuits and a few cables spare just craft it.
+
+#Quest_1888.Repairing your Hazmat Suit
+gtnh.quest1888.name=Repairing your Hazmat Suit
+gtnh.quest1888.desc=Be careful to ware you hazamute suit every time. The duarbility is not high. \nYou can repair your suit befor you can craft a new one in late LV Age.
+
 ##################################Line##################################
 
 #Tier 0 - It begins
@@ -7222,107 +7610,111 @@ gtnh.line11.desc=Guiding you through the armor and jetpacks.
 gtnh.line12.name=Multiblock Goals
 gtnh.line12.desc=This set is a global tracker for multiblock structure goals. As you can build several parts of many multiblocks way earlier than the respective tier. Check back often.
 
+#Building Better Bases
+gtnh.line13.name=Building Better Bases
+gtnh.line13.desc=Tired of torches everywhere making your base look like a loser built it? Make your base look like a winner with these quests. (under construction)
+
 #Steve Carts
-gtnh.line13.name=Steve Carts
-gtnh.line13.desc=Basic auto farming and mining.  Protect them from lightning strikes!
+gtnh.line14.name=Steve Carts
+gtnh.line14.desc=Basic auto farming and mining.  Protect them from lightning strikes!
 
 #Forestry and Farms
-gtnh.line14.name=Forestry and Farms
-gtnh.line14.desc=Automated Farms and more.....
+gtnh.line15.name=Forestry and Farms
+gtnh.line15.desc=Automated Farms and more.....
 
 #Project Red
-gtnh.line15.name=Project Red
-gtnh.line15.desc=Low tier storage and automation. You'll need a forming press to get started.
+gtnh.line16.name=Project Red
+gtnh.line16.desc=Low tier storage and automation. You'll need a forming press to get started.
 
 #Coins, Coins, Coins
-gtnh.line16.name=Coins, Coins, Coins
-gtnh.line16.desc=These quests will guide you to use your Coins wisely and buy some useful or fancy stuff.\nZoom out using mousewheel to see all the amazing things for sale!
+gtnh.line17.name=Coins, Coins, Coins
+gtnh.line17.desc=These quests will guide you to use your Coins wisely and buy some useful or fancy stuff.\nZoom out using mousewheel to see all the amazing things for sale!
 
 #GT++ 
-gtnh.line17.name=GT++ 
-gtnh.line17.desc=GT++ adds new functionality to GT, including high speed multiblocks - Under Construction
+gtnh.line18.name=GT++ 
+gtnh.line18.desc=GT++ adds new functionality to GT, including high speed multiblocks - Under Construction
 
 #Be(e) Breeding
-gtnh.line18.name=Be(e) Breeding
-gtnh.line18.desc=Breeding Bees for Better Bling
+gtnh.line19.name=Be(e) Breeding
+gtnh.line19.desc=Breeding Bees for Better Bling
 
 #How to be(e)
-gtnh.line19.name=How to be(e)
-gtnh.line19.desc=A non-tiered quest set that is meant as an in game, quest based tutorial and guide to bees. Since they are a really helpful tool to advance forward.
+gtnh.line20.name=How to be(e)
+gtnh.line20.desc=A non-tiered quest set that is meant as an in game, quest based tutorial and guide to bees. Since they are a really helpful tool to advance forward.
 
 #Novice Thaumaturge
-gtnh.line20.name=Novice Thaumaturge
-gtnh.line20.desc=Magic lies beyond. Great achievements, but also a lot of work. I shall be your guide. Follow my instructions, and you shall become a great wizard, like me.
+gtnh.line21.name=Novice Thaumaturge
+gtnh.line21.desc=Magic lies beyond. Great achievements, but also a lot of work. I shall be your guide. Follow my instructions, and you shall become a great wizard, like me.
 
 #Adept Thaumaturgy
-gtnh.line21.name=Adept Thaumaturgy
-gtnh.line21.desc=Warp included.
+gtnh.line22.name=Adept Thaumaturgy
+gtnh.line22.desc=Warp included.
 
 #Kaaami, Haaaami, ... HA!
-gtnh.line22.name=Kaaami, Haaaami, ... HA!
-gtnh.line22.desc=Ultimate (magical) POWER!!!
+gtnh.line23.name=Kaaami, Haaaami, ... HA!
+gtnh.line23.desc=Ultimate (magical) POWER!!!
 
 #Focus on Wand Foci
-gtnh.line23.name=Focus on Wand Foci
-gtnh.line23.desc=Did you know which wand focus is useful and which not?
+gtnh.line24.name=Focus on Wand Foci
+gtnh.line24.desc=Did you know which wand focus is useful and which not?
 
 #Electro Magic
-gtnh.line24.name=Electro Magic
-gtnh.line24.desc=This Tab focus on Electro Magic Tools and Thaumic Energistics. These are some nice mods, that will help you with machinery and magic.
+gtnh.line25.name=Electro Magic
+gtnh.line25.desc=This Tab focus on Electro Magic Tools and Thaumic Energistics. These are some nice mods, that will help you with machinery and magic.
 
 #Look to the edges
-gtnh.line25.name=Look to the edges
-gtnh.line25.desc=Granny Weatherwax would approve.
+gtnh.line26.name=Look to the edges
+gtnh.line26.desc=Granny Weatherwax would approve.
 
 #Paying the highest price
-gtnh.line26.name=Paying the highest price
-gtnh.line26.desc=When regular magic just won't cover it, pay demons to do it for you! The cost might scare some people... But no risk no fun!
+gtnh.line27.name=Paying the highest price
+gtnh.line27.desc=When regular magic just won't cover it, pay demons to do it for you! The cost might scare some people... But no risk no fun!
 
 #More blood, more stuff
-gtnh.line27.name=More blood, more stuff
-gtnh.line27.desc=Advanced Blood Magic? My veins feel weird...
+gtnh.line28.name=More blood, more stuff
+gtnh.line28.desc=Advanced Blood Magic? My veins feel weird...
 
 #They are coming...
-gtnh.line28.name=They are coming...
-gtnh.line28.desc=The spirits that I've called... Demon invasions and beyond. Really deep into dark magic!
+gtnh.line29.name=They are coming...
+gtnh.line29.desc=The spirits that I've called... Demon invasions and beyond. Really deep into dark magic!
 
 #Open Computers
-gtnh.line29.name=Open Computers
-gtnh.line29.desc=The magical world of ingame programming!
+gtnh.line30.name=Open Computers
+gtnh.line30.desc=The magical world of ingame programming!
 
 #Transportation
-gtnh.line30.name=Transportation
-gtnh.line30.desc=From four legged steeds to iron horses
+gtnh.line31.name=Transportation
+gtnh.line31.desc=From four legged steeds to iron horses
 
 #Space Race
-gtnh.line31.name=Space Race
-gtnh.line31.desc=A guide to help you start Galacticraft and reach the Moon
+gtnh.line32.name=Space Race
+gtnh.line32.desc=A guide to help you start Galacticraft and reach the Moon
 
 #AE System
-gtnh.line32.name=AE System
-gtnh.line32.desc=Applied Energistics 2 focuses on creating a compact, easily accessible, considerably extendible storage system called an ME Network. 
+gtnh.line33.name=AE System
+gtnh.line33.desc=Applied Energistics 2 focuses on creating a compact, easily accessible, considerably extendible storage system called an ME Network. 
 
 #Kill all the things
-gtnh.line33.name=Kill all the things
-gtnh.line33.desc=This world is full of nasty things. Time to kill some and improve your reputation.
+gtnh.line34.name=Kill all the things
+gtnh.line34.desc=This world is full of nasty things. Time to kill some and improve your reputation.
 
 #To grind, or not to grind
-gtnh.line34.name=To grind, or not to grind
-gtnh.line34.desc=That is the question. Do you want good tools? Well, then go grind stuff! The rewards of these quests are worth it, trust me.
+gtnh.line35.name=To grind, or not to grind
+gtnh.line35.desc=That is the question. Do you want good tools? Well, then go grind stuff! The rewards of these quests are worth it, trust me.
 
 #Legendary Quests
-gtnh.line35.name=Legendary Quests
-gtnh.line35.desc=A legendary quest-line with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?
-
-#Legendary Tier X
-gtnh.line36.name=Legendary Tier X
+gtnh.line36.name=Legendary Quests
 gtnh.line36.desc=A legendary quest-line with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?
 
+#Legendary Tier X
+gtnh.line37.name=Legendary Tier X
+gtnh.line37.desc=A legendary quest-line with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?
+
 #Legendary Infinity
-gtnh.line37.name=Legendary Infinity
-gtnh.line37.desc=A legendary questline with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?
+gtnh.line38.name=Legendary Infinity
+gtnh.line38.desc=A legendary questline with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?
 
 #Reward Area
-gtnh.line38.name=Reward Area
-gtnh.line38.desc=Upgrade your loot bags!
+gtnh.line39.name=Reward Area
+gtnh.line39.desc=Upgrade your loot bags!
 

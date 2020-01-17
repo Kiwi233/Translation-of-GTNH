@@ -1,4 +1,4 @@
-#################################Quests#################################
+﻿#################################Quests#################################
 
 #Quest_0.Your first night
 gtnh.quest0.name=你的第一个夜晚
@@ -375,6 +375,7 @@ gtnh.quest92.desc=第四种你非常需要的东西,而且它合成起来令人�
 #Quest_93.You're gonna hate this #2
 gtnh.quest93.name=你会讨厌它们的#2
 gtnh.quest93.desc=第二种你非常需要的东西.当你想要将液体从储罐中抽出时,你需要它. 提示:可用于管道或GT机器.使用螺丝刀进行调整.无法用于机器正面.当机器或管道装上覆盖板后,如果使用扳手拆除后,覆盖板将会保留在其中.当此机器或管道再次被放置后,覆盖板将会在原有方向重新出现,且保留其中设置.通过这种方式,可以事先在开阔位置设置好机器的覆盖板,然后再放置于比较狭小不便操作的位置.要移除覆盖板,需要使用撬棍.  它还可以进一步升级为可以精确控制流体传输速度的流体校准器.
+
 #Quest_94.Electric macerator
 gtnh.quest94.name=电力粉碎机
 gtnh.quest94.desc=强烈推荐做一个,因为在消耗煤/蒸汽方面,使用电力时研磨东西的效率要高得多.
@@ -1847,7 +1848,7 @@ gtnh.quest460.desc=制作漩涡后触发.
 gtnh.quest461.name=触发末地时刻
 gtnh.quest461.desc=如果你在末地,就会触发.
 
-#Quest_462.Trigger Amorphic Crystal
+#Quest_462.Trigger Amorphic Catalyst
 gtnh.quest462.name=触发无序催化剂
 gtnh.quest462.desc=如果你制作这种催化剂就会触发.
 
@@ -1909,7 +1910,7 @@ gtnh.quest476.desc=要处理更高级的材料,如:硅岩、富集硅岩、龙�
 
 #Quest_477.Upgrade #6: Upgrade tier 7 - Naquadah Alloy Coils
 gtnh.quest477.name=升级#6:升级到第7阶 - 硅岩合金线圈
-gtnh.quest477.desc=处理最先进的材料(通流琥珀金、中子等)时7200K的炉温也已经无能为力了.因此将你的电力高炉的温度提高至9001K.(超过 9000!!!)
+gtnh.quest477.desc=处理更先进的材料(通流琥珀金、中子等)时7200K的炉温也已经无能为力了.因此将你的电力高炉的温度提高至9001K.(超过 9000!!!)
 
 #Quest_478.Flint and steel
 gtnh.quest478.name=打火石
@@ -2969,15 +2970,15 @@ gtnh.quest741.desc=终于,你得到了第一个铝锭.现在该制作一个工�
 
 #Quest_742.One Block mining is so Old School
 gtnh.quest742.name=一格一格挖矿已经过气了
-gtnh.quest742.desc=制作一把钢锤子,你就可以一次挖3x3范围的矿.在下界小心点,因为一不小心你就会被岩浆煮熟.
+gtnh.quest742.desc=制作一柄大锤,你就可以一次挖3x3范围的矿.你可以使用各种材料，如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.更高阶的材料需要MV压模机.  你需要一个锤头、两个大板、一个坚韧手柄来制造一柄大锤.  在下界小心点,因为一不小心你就会被岩浆煮熟.
 
 #Quest_743.Cutting a Tree log by log is so Old School
 gtnh.quest743.name=一次砍一个原木已经过气了
-gtnh.quest743.desc=制作一把钢伐木斧,你就可以一次砍掉一整棵树.当你砍掉一棵神圣橡木时,别忘了你的背包.
+gtnh.quest743.desc=制作一把伐木斧,你就可以一次砍掉一整棵树.你可以使用各种材料，如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.更高阶的材料需要MV压模机.  当你砍掉一棵神圣橡木时,别忘了带上你的背包.
 
 #Quest_744.Mining Dirt Block by Block is so Old School
 gtnh.quest744.name=慢慢挖土已经过气了
-gtnh.quest744.desc=制作一把钢铲,你就可以一次挖3x3范围的土.别不小心毁了你的整个花园.
+gtnh.quest744.desc=制作一把挖掘铲,你就可以一次挖3x3范围的土.你可以使用各种材料，如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.更高阶的材料需要MV压模机.  别不小心毁了你的整个花园.
 
 #Quest_745.Glue
 gtnh.quest745.name=胶水
@@ -4035,7 +4036,6 @@ gtnh.quest1007.desc=把那些512EU的太阳能板制造成方块,这样他们能
 gtnh.quest1008.name=书
 gtnh.quest1008.desc=你可以很容易的在村庄或者有着砖块屋顶的地牢里面找到书. 不过我可以告诉你书的合成表.  现在,胶水在你的手上...或者说在马身上？试着将一匹马放到冶炼炉中,并喂给它一些干草保证它存活.(动物保护者协会表示强烈谴责)
 
-
 #Quest_1009.Fish trapping 2.0
 gtnh.quest1009.name=捕鱼陷阱2.0
 gtnh.quest1009.desc=钓鱼真的很无聊.那为什么不用捕鱼机来自动捕鱼呢？ 那么来做一个2.0版本的捕鱼陷阱吧！不需要鱼饵呦~~~
@@ -4056,7 +4056,7 @@ gtnh.quest1012.desc=想要得到钛你首先需要得到一些金红石. 金红�
 gtnh.quest1013.name=贴片电路元件
 gtnh.quest1013.desc=SMD(Surface-mount devices意为:表面贴装机件)是一种更先进的电子零件. 在生产高级电路板的时候你需要用到它们.并且它们要比基础的电容、晶体管、二极管、电阻便宜. 要生产这些零件,你首先需要一个高级的组装机和一些熔融聚乙烯.  建议你检查下自己还有多少镓存货.现在使用贴片二极管和贴片电阻并不划算,除非你有一台高压粉碎机、蜜蜂或是铝土矿. 使用IC相应杂交产物可以让你的锌、闪锌和铝土拥有4倍产出.  获取铂最容易的方式是化学浸洗粉碎镍矿石.
 
-#Quest_1014.Workstation Extreme Curcuit
+#Quest_1014.Workstation Extreme Circuit
 gtnh.quest1014.name=工作站电路板
 gtnh.quest1014.desc=下一级是高级电路. 工作站是最简单的高级电路,它可以用来制造EV级别的机器. 让我们来生产一些！
 
@@ -4624,9 +4624,9 @@ gtnh.quest1154.desc=镁铝合金制作的弹药要比过去的弹药好很多. �
 gtnh.quest1155.name=基础流体固化机
 gtnh.quest1155.desc=如果你想让液体变成固体那么你就需要液体固化机.这台机器也可以用于制作弩箭的箭头.
 
-#Quest_1156.Iron Tipped Bolts
-gtnh.quest1156.name=铁弩箭
-gtnh.quest1156.desc=光有十字弓还不够,我们还需要一些弹药.让我们来制作一些木柄铁头的弩箭.
+#Quest_1156.Wooden Bolts
+gtnh.quest1156.name=铁质弩箭
+gtnh.quest1156.desc=光有弩还不够,我们还需要一些弹药.让我们来制作一些木质弩箭.现在你可以用冶炼炉熔炼铁、钢或者铝装上你的箭头.  更高阶的弩箭和箭头制造需要用到流体固化器,将你想要用的金属泵入流体固化器吧.
 
 #Quest_1157.Rubber Soft Mallet
 gtnh.quest1157.name=橡胶软锤
@@ -6176,9 +6176,9 @@ gtnh.quest1542.desc=作物监管机是一台LV机器,可以监控9x9x3区域的�
 gtnh.quest1543.name=除草剂
 gtnh.quest1543.desc=除草剂以作物质量为代价防止杂草在空作物架上生长. 它对作物质量的损害是永久性的,并且不能逆转,除非完全移除作物. 用途:当手持除草剂时,右键单击作物架以使用它. 它也可以放置在作物监管机中,自动将其应用于作物. 过度使用将降低作物质量,将其统计数据限制在10以内.
 
-#Quest_1544.Fish Oil
-gtnh.quest1544.name=鱼油
-gtnh.quest1544.desc=为了生产生物柴油,你需要生产一些种子油或者是鱼油,将他们和甲醇或者乙醇搅拌就可以得到生物柴油. 因此你需要一个能快速从种子中压榨出种子油的机器,嗯...进阶流体提取机就不错.
+#Quest_1544.Seed/Fish Oil
+gtnh.quest1544.name=种子油,鱼油
+gtnh.quest1544.desc=为了生产生物柴油,你需要生产一些种子油或者是鱼油,将他们和甲醇或者乙醇搅拌就可以得到生物柴油. 因此你需要一个能快速从种子中压榨出种子油的机器,嗯...进阶流体提取机就不错.  潘马斯农场的花生就是种子油的良好来源.  你也可以选择林业的核桃,或者IC作物油菜.  你也可以看看捕鱼,农业,烹饪任务栏,抓些鱼来提取鱼油也是不错的选择.
 
 #Quest_1545.Time to ore drill!
 gtnh.quest1545.name=钻矿时间！
@@ -6546,7 +6546,7 @@ gtnh.quest1635.desc=是时候构建一个简单的系统来存储你的东西. �
 
 #Quest_1636.Desulfuring oil automation
 gtnh.quest1636.name=石油脱硫自动化
-gtnh.quest1636.desc=该任务线将向你展示如何自动脱硫石油产品. 一旦解锁了LV蒸馏室的任务并拥有一些聚乙烯板,就回到这里.
+gtnh.quest1636.desc=该任务线将向你展示如何自动脱硫石油产品. 一旦解锁了LV蒸馏室的任务并拥有一些聚乙烯片,就回到这里.
 
 #Quest_1637.Storing the fluids
 gtnh.quest1637.name=储存液体
@@ -6786,7 +6786,7 @@ gtnh.quest1695.desc=在IV化学反应釜中将3,3-二氯联苯胺与氨和锌搅
 
 #Quest_1696.IV Chemical reactor
 gtnh.quest1696.name=IV化学反应釜
-gtnh.quest1696.desc=高级化学配方需要高级IV化学反应釜.
+gtnh.quest1696.desc=高级化学配方需要高级IV化学反应釜.  或者你也可以给你的大型化学反应釜换上IV能源仓.
 
 #Quest_1697.Polybenzimidazole finally
 gtnh.quest1697.name=最后--聚苯并咪唑
@@ -7168,6 +7168,394 @@ gtnh.quest1790.desc=你的新家需要木门.当然合成表真的很难,而且�
 gtnh.quest1791.name=油砂或是别的什么获得重油的方式
 gtnh.quest1791.desc=油砂是获得石油、重油的另一种方式.可能你很幸运,在沙漠里找到了油砂矿脉.使用你的离心机,你可以从油砂中获得重油和沙子. 油砂矿脉可以在Y=50-80找到.
 
+#Quest_1792.I guess it is an inkjet?
+gtnh.quest1792.name=我猜它是喷墨机?
+gtnh.quest1792.desc=当你使用地震勘探者时,你需要扫描仪和打印机来将你所勘探的--可口的矿石与美味的液体--数据制作成一本书.  将墨囊放入流体提取机可获得墨水.用通用流体单元或是便携式储罐转移液体.
+
+#Quest_1793.Better dirt
+gtnh.quest1793.name=更好的泥土
+gtnh.quest1793.desc=将泥土与沙子放入组装机,再加上一些种子油,你就能获得花土.  这是完美的农田,不需要附近存在水源,你在上面奔跑或是跳跃都不会破坏它.
+
+#Quest_1794.Even more stats
+gtnh.quest1794.name=更多信息
+gtnh.quest1794.desc=使用便携式扫描仪对种植于土地上的作物扫描,你可以获知作物信息与环境信息.  你可以在多方块任务栏的电力高炉任务后找到便携式扫描仪的任务.
+
+#Quest_1795.Metals from the Sky
+gtnh.quest1795.name=天外金属
+gtnh.quest1795.desc=你甚至可以用作物创造出地表不存在的金属!  当然,你需要将合适的金属方块至于作物之下,才能使其完全成熟.
+
+#Quest_1796.Better Gallium and Arsenic sources
+gtnh.quest1796.name=镓和砷的更好来源
+gtnh.quest1796.desc=有许多方式来增产镓.  1.种植IC作物,收获镓叶子,它会使你的一份锌和镓粉碎矿石变成四份洗净粉碎矿石.  2.将离心的矿石放入HV粉碎机,你就有10%的几率获得镓粉.  3.月球上有丰富的铝土矿,从那里面提取镓吧.  至于砷,暮色森林中的雄黄矿是它的不错的来源.使用IC作物镍叶子可以使其增产四倍.
+
+#Quest_1797.New threads
+gtnh.quest1797.name=新"线"程
+gtnh.quest1797.desc=厌倦了杀戮蜘蛛来获取线? 种植一些亚麻吧,这是纯天然绿色的线的来源.
+
+#Quest_1798.The ground is crying
+gtnh.quest1798.name=大地在哭泣
+gtnh.quest1798.desc=需要氯的另一种来源? 培育一些"Tearstalk"吧,可收获恶魂之泪,从中可以提取出盐水.   ;-;
+
+#Quest_1799.Blazes too hard to kill?
+gtnh.quest1799.name=猎杀烈焰人太过困难?
+gtnh.quest1799.desc=那么种植一些"blazereed"吧,你再也不用为烈焰棒烦心了.
+
+#Quest_1800.A girl's best friend
+gtnh.quest1800.name=女孩最好的朋友
+gtnh.quest1800.desc=想给一个女孩留下深刻印象?种个钻石出来怎么样?!?
+
+#Quest_1801.Why does my plant bawk like a chicken?
+gtnh.quest1801.name=为什么我的作物像鸡一样叫?
+gtnh.quest1801.desc=因为它能下蛋!
+
+#Quest_1802.Vegan, but still want to eat meat?
+gtnh.quest1802.name=素食主义者,但仍想吃肉?
+gtnh.quest1802.desc=与其杀死动物来获得肉类,不如培育一些疯狂的转基因作物为你生产动物产品.科学万岁!
+
+#Quest_1803.Magical Metal Berry
+gtnh.quest1803.name=魔法金属莓(Magical Metal Berry)
+gtnh.quest1803.desc=..这显然是我乐队的名字.但这也是一种可以生产神秘锭或者虚空金属的强大作物.在其下方放置铁块或神秘锭块可以使其生产神秘锭,若是在其下方放置虚空金属块,那么它就会生产虚空金属.  与其他矿物莓类似,它必须在较低的光照等级下才能生长.
+
+#Quest_1804.Other magic flowers
+gtnh.quest1804.name=其他魔法花
+gtnh.quest1804.desc=其他魔法花有:水银花(shimmerleaf)、曼陀罗(mandragora)、狼毒草(wolf's-bane)等.
+
+#Quest_1805.Stonelillies
+gtnh.quest1805.name=石芯草
+gtnh.quest1805.desc="Stone-lillies"使你能获得花岗岩、玄武岩或是大理石的粉末.是获得方解石、氟或是铀的可再生方法.  你需要将此前提到的原石至于作物之下才能让它完全成熟.
+
+#Quest_1806.Glowstone
+gtnh.quest1806.name=萤石
+gtnh.quest1806.desc=有许多萤石作物-辉光花(glowflower),夜光珊瑚(glowing-earth-coral),以及荧光蘑菇(glowshroom).
+
+#Quest_1807.Leaves of steel
+gtnh.quest1807.name=钢叶
+gtnh.quest1807.desc=不必把暮色森林翻个底朝天来寻找钢叶了,你只需种田就行了.
+
+#Quest_1808.Plants that make their own fertilizer?
+gtnh.quest1808.name=自产肥料的植物?
+gtnh.quest1808.desc=给我签个名!这种植物会为你生产肥料.但是,你要当心,当成长属性太高时,它会像杂草一样四处蔓延!
+
+#Quest_1809.Renewable oil
+gtnh.quest1809.name=可再生石油
+gtnh.quest1809.desc=种出石油?就像养蜂生产石油一样意义非凡!
+
+#Quest_1810.Boost your speed v 2
+gtnh.quest1810.name=增加你的速度 v2
+gtnh.quest1810.desc=高速过渡轨道和推进轨道让你的矿车以匪夷所思的速度移动.  不要完全使用普通轨道,否则你的矿车将会爆炸.  不要试图在高速行驶时转弯,否则...你猜到了,你的矿车将会爆炸.
+
+#Quest_1811.Even LARGER tanks
+gtnh.quest1811.name=更大的储罐
+gtnh.quest1811.desc=4000桶还不够?想存够烧一辈子的柴油?试试超级缸II吧.
+
+#Quest_1812.Teflon Don
+gtnh.quest1812.name=聚四氟乙烯
+gtnh.quest1812.desc=你只需几步即可制造出聚四氟乙烯.  第一步是制作氢氟酸.如果你还没能登上月球,最好的氟来源是开采沙石(1/640的几率得到氟石矿石)还有离心石粉或黑色花岗岩粉获得的黑云母粉可电解出氟.  将所得的氟与氢反应,你就会获得氢氟酸.
+
+#Quest_1813.Chloroform
+gtnh.quest1813.name=氯仿
+gtnh.quest1813.desc=下一步是将甲烷与氯反应,制备氯.确保你使用了正确的编程电路.  现在,是时候囤积些氯了.寻找盐矿脉或是青金石矿脉.你还可以用恶魂之泪弄点盐水.你最好种植IC作物来获取恶魂之泪,你将来会需要成吨的氯!
+
+#Quest_1814.Tetrafluoroethylene
+gtnh.quest1814.name=四氟乙烯
+gtnh.quest1814.desc=熔融塑料的味道闻起来很棒,不是么?将氢氟酸与氯仿反应,制备出四氟乙烯.再将其与氧反应,制备出聚四氟乙烯.  最后,用流体固化器制作出聚四氟乙烯条.
+
+#Quest_1815.How much is too much fluid?
+gtnh.quest1815.name=太多液体是多少?
+gtnh.quest1815.desc=你想储存的液体无穷无尽.为你自己制作一些超级缸III吧.
+
+#Quest_1816.Calcite getting you down?
+gtnh.quest1816.name=方解石将你难住了?
+gtnh.quest1816.desc=为了方解石找了一年的青金石矿脉?我来卖给你点.
+
+#Quest_1817.Upgrade #7: Upgrade tier 8 - Electrum Flux Coils
+gtnh.quest1817.name=升级#7:升级到第8阶 - 通流琥珀金线圈
+gtnh.quest1817.desc=处理更先进的材料(宇宙中子素、三钛合金和觉醒龙锭),你需要超过9000K的炉温.将你的电力高炉温度提高到12000K.
+
+#Quest_1818.Large Essentia Generator
+gtnh.quest1818.name=大型源质发电机
+gtnh.quest1818.desc=每种源质准备一台源质发电机看起来不太实用....你最好造一台大型源质发电机,然后只管往里丢源质就行了!这台发电机的另一个好处是,使用等量源质,大型源质发电机的发电量是单方块源质发电机的20倍.你可能需要比此任务所需更多的魔法机械方块.
+
+#Quest_1819.Circuit Programmer
+gtnh.quest1819.name=电路编程器
+gtnh.quest1819.desc=电路编程器是个有用的工具,它使你不用记住24种编程电路的合成表就能制作它们.只需给它充电,将编程电路放进去然后点击你想要的数字即可.
+
+#Quest_1820.Lapotronic Energy Storage Unit
+gtnh.quest1820.name=兰波顿能量存储矩阵
+gtnh.quest1820.desc=兰波顿能量存储矩阵(LESU)是GT最古老的机器之一,它出现于MC1.2.X版本,现在本整合包重新制作并添加了它.你可以添加几乎无限的LESU机械方块,然后你就会有巨量的能量存储.你甚至可以住在你的电池里.
+
+#Quest_1821.Cable Diodes
+gtnh.quest1821.name=线缆二极管
+gtnh.quest1821.desc=有时候你只需要一个二极管,无论是为了防止电流在复杂的能量系统中回流,或是在Thermos服务器的边界.制作一个4A二极管,我会送你个2A的!
+
+#Quest_1822.Manual Transformer
+gtnh.quest1822.name=可调变压器
+gtnh.quest1822.desc=你是否被建造一长串分级变压器所困扰?不想让你的基地有爆炸的风险?想要使用TecTech的64A能源仓和动力仓来转换你的电力?制作一个可调动力仓吧!
+
+#Quest_1823.Mobile Trash Can
+gtnh.quest1823.name=便携式垃圾桶
+gtnh.quest1823.desc=GT2的毁灭者(Destructorpack)是一个便携式垃圾桶. 多方便呀!
+
+#Quest_1824.Rock Cutter LV
+gtnh.quest1824.name=岩石切割机LV
+gtnh.quest1824.desc=岩石切割机是一种自带不毁和精准采集的挖掘设备.它使你能够完好无损地挖掘它们,比如玻璃或是石头,当然,你得先给它充电.
+
+#Quest_1825.L.E.S.U. Upgrade - LV Tier
+gtnh.quest1825.name=LESU升级-LV等级
+gtnh.quest1825.desc=将这么多LESU机械方块添加到你的LESU,使其从ULV升级至LV等级.
+
+#Quest_1826.L.E.S.U. Upgrade - MV Tier
+gtnh.quest1826.name=LESU升级-MV等级
+gtnh.quest1826.desc=添加更多LESU机械方块不但会提升你的储能量,还会使LESU升级到MV等级.
+
+#Quest_1827.L.E.S.U. Upgrade - HV Tier
+gtnh.quest1827.name=LESU升级-HV等级
+gtnh.quest1827.desc=要升级到HV等级至少需要超过一组LESU机械方块.  更多方块,更多能量,更高电压.
+
+#Quest_1828.L.E.S.U. Upgrade - EV Tier
+gtnh.quest1828.name=LESU升级-EV等级
+gtnh.quest1828.desc=接近8组LESU机械方块,使你的LESU能达到EV电压.到目前为止都不难.
+
+#Quest_1829.L.E.S.U. Upgrade - IV Tier
+gtnh.quest1829.name=LESU升级-IV等级
+gtnh.quest1829.desc=24组LESU机械方块.你的物品栏能装下它们,但合成就是另一个问题了.
+
+#Quest_1830.L.E.S.U. Upgrade - LuV Tier
+gtnh.quest1830.name=LESU升级-LuV等级
+gtnh.quest1830.desc=想要到达LESU所能提供的最高电压LuV,你需要添加更多更多的LESU机械方块.总共需要8193个LESU机械方块(包括此前的所有升级所需)能使LESU接受LuV电压.要提交这个任务,你需要提交站(蒸汽时代任务栏),因为你的物品栏装不下96组.
+
+#Quest_1831.Circle Shapes give me comfort
+gtnh.quest1831.name=圆形使我愉悦
+gtnh.quest1831.desc=想要修建风车,你需要一个发射器,但你得到下一阶段才能做.去寻找巫术的野外祭坛,它们就像缩小版的巨石阵一样,或许你能在那里的宝箱里找到一个.  在多方块任务栏寻找这个主线任务.
+
+#Quest_1832.Grinding with Wind
+gtnh.quest1832.name=用风来研磨
+gtnh.quest1832.desc=风车可以用风的力量研磨物品和方块.它非常缓慢而且只能粗糙地研磨矿石--研磨一块矿石,你只能获得一个粉碎矿石.但当你尝试研磨些别的东西时,可能还会有增产.这种增产与放入的物品有关,比如研磨地狱岩有机会获得双倍粉末,还有研磨小麦总会获得1.25个面粉.  发射器取代了墙上的粘土方块.把你喜欢的东西放进去-床、楼梯、火把等等.同样适用普通多方块的规则-不要跨区块.
+
+#Quest_1833.Upgrade #8: Upgrade tier 9 - Awakened Draconium Coils
+gtnh.quest1833.name=升级#8:升级到第9阶 - 觉醒龙锭线圈
+gtnh.quest1833.desc=处理最先进的材料(无尽催化剂、无尽),你需要超过12000K的炉温.将你的电力高炉温度提高到15000K.
+
+#Quest_1834.Mushroom Biomes ? why there so many?
+gtnh.quest1834.name=蘑菇岛?为什么有这么多蘑菇岛?
+gtnh.quest1834.desc=GNTH整合包使用真实世界生成(rwg-worldgen).如果你使用原版的世界生成,你将会得到不计其数的蘑菇岛.你最好去重新生成一下世界.如果你运行着一个服务器,把这个添加到你的服务器.属性文件(properties-file).  "level-type=rwg".
+
+#Quest_1835.Tantalum
+gtnh.quest1835.name=钽
+gtnh.quest1835.desc=GT和EIO的电容都会用到钽,它还是铌的一种来源.它还是一种便宜的源质来源(我并不这么认为).你能在主世界Y=20-30找到含钽的矿脉.
+
+#Quest_1836.Kitchenware 2.0
+gtnh.quest1836.name=厨具2.0
+gtnh.quest1836.desc=小刀这样的GT工具在处理食物时用完了?潘马斯的工具(砧板、榨汁机、烤盘)可以永远使用.  当你能烧制不锈钢,到达高压后,你就能制作这些工具了.
+
+#Quest_1837.Ardite and Cobalt Mining
+gtnh.quest1837.name=开采阿迪特和钴
+gtnh.quest1837.desc=铁木比你想象的还要坚固耐用.用它制作的工具和装甲有优越的性能.用它制作镐,开采等级能达到钴,这意味着你可以不用电力高炉也能获得阿迪特和钴.
+
+#Quest_1838.Low on Sticks?
+gtnh.quest1838.name=苍穹树
+gtnh.quest1838.desc=如果你在暮色森林待得足够久,你会发现苍穹树.这种大树会生成许多原木和树根,树根会掉落木棍.注意!不要在树边放置箱子或者别的什么,否则长出的树根可能会替换掉它.
+
+#Quest_1839."Oh magic" armor
+gtnh.quest1839.name="噢,魔法"装甲
+gtnh.quest1839.desc=铁木装甲是一种魔法装甲,会附带一些特殊的附魔.头盔附有水下速掘I,靴子附有摔落保护I,胸甲和护腿附有保护I.
+
+#Quest_1840.Spice up with some salt
+gtnh.quest1840.name=加点盐调味
+gtnh.quest1840.desc=制作以后要用的塑料,你将会需要成吨的氯.月球、火星和木卫二的地下贮藏有盐水.使用地震勘探者找到一处,然后构建一台石油/天然气/液体钻机(多方块任务栏).
+
+#Quest_1841.Moron's Manual for Massacring Monsters
+gtnh.quest1841.name=怪物屠宰"智者"手册
+gtnh.quest1841.desc=可能你还没注意,这个世界充满着精英怪,地狱级难度.与原版不同,在这里玩家必须保持清醒，并注意他们正在战斗的怪物.这里有几点提示.  如果怪物有复仇属性,不要用你的高伤害弩去射它!  高生命值且有再生属性的怪物很难杀.更糟的是,如果它是女巫,它还能治疗自己.在这些情况下,你最好跑得远远的,或者用灵魂瓶来捕捉它然后扔进事先准备好的陷阱里.  当心那些拿着钓竿的僵尸-它们那把你拉过去.不要小看穿着护甲拿着弓的僵尸-它们会射你! 译者注:看到带着护目镜的骷髅最好找掩体,它的射速带来的击退让你很难靠近它.
+
+#Quest_1842.Creeping dread
+gtnh.quest1842.name=爬行者梦魇
+gtnh.quest1842.desc=爬行者会导致最严重的问题. 水栖爬行者(Drowning-Creeper)-当它爆炸时,会把你包围在一个装满水的圆石球里.这些圆石不止困住你那么简单,其中还满是蠹虫!这些蠹虫也是精英怪.处理这种情况的最佳方式就是第一时间从上方或者下方逃离.如果你必须清理这个圆石球,首先清理其中的水.然后将其用泥土构造的壕沟围起来,这会让蠹虫无法逃出,无所遁形.然后随便你放尖竹钉、流沙还是岩浆(灵魂玻璃也行)来处理它们.修建一堵带有1x1窗户的围墙,然后再处理圆石球-这些蠹虫非常危险.  末影爬行者(Ender-Creeper)-爆炸后将你短距离随机传送-可能传送至深深的地底. 
+
+#Quest_1843.Caught in the web
+gtnh.quest1843.name=陷入蛛网
+gtnh.quest1843.desc=要注意这些蜘蛛...  女巫蜘蛛(Witch-spider)会反射弹射物伤害.它们的标志就是背后的红X,看到后你得换上你的近战武器,然后准备肉搏吧.  育母蜘蛛(Mother-spider)会生下许多小蜘蛛,其中的一些可能是精英怪.  飞行蜘蛛(Flying-spider)可以逮住大意的飞行者.  幽灵蜘蛛(Ghost-spider)是隐身的,而且能穿过薄墙.
+
+#Quest_1844.Porkchops with attitude
+gtnh.quest1844.name=百变猪排
+gtnh.quest1844.desc=唯一需要注意的僵尸猪人就是吸血鬼猪(Vampire-Pigman).它几乎不会受到任何伤害,除非你用木剑当桩子,或是有一把魔法剑.
+
+#Quest_1845.Flaming idiots
+gtnh.quest1845.name=燃烧的笨蛋
+gtnh.quest1845.desc=烈焰人都是精英怪,并且都很调皮.远离瘟疫烈焰人(Plague-blaze).带上精良的装备然后准备战斗吧.  或者你可以用些科技的力量换种方式摧毁它们.  再或者,别找它们的麻烦了,换种方式获取烈焰棒吧.(比方说种田)
+
+#Quest_1846.Filling the world with fluids...
+gtnh.quest1846.name=让世界充满液体...
+gtnh.quest1846.desc=想要造个人工湖?试试液闸吧,它会用你给的任何液体填满世界.
+
+#Quest_1847.Portable hole? How about portable chunk!
+gtnh.quest1847.name=便携式洞穴?便携式区块怎么样!
+gtnh.quest1847.desc=通过进一步研究,我发现了用灵魂之铁制作的灵魂之匙可以打开一个口袋世界.这个世界只有一个区块宽,而且很短,但你可以向这个世界的核心添加灵气来提升世界的高度.  这个世界非常适合从遥远的星球上回收矿石,或是作为避难所.
+
+#Quest_1848.Armor of the Dead
+gtnh.quest1848.name=灵魂护甲
+gtnh.quest1848.desc=我找到了灵气的其他用途-制作灵魂之铁.用它制成的护甲比钻石护甲更好,且具有更高的可附魔性.  它还会掉落治愈球,最近的玩家收到这些球后会得到治疗.  不幸的是,它的副作用就是会使你变得透明.副作用?我觉得是增强啊!
+
+#Quest_1849.Tell me when we reach 20
+gtnh.quest1849.name=当我们到20时告诉我
+gtnh.quest1849.desc=跳来跳去很累人,并会使你感到饥饿.为了降低你的食物消耗,制作一些楼梯吧.
+
+#Quest_1850.All we are is dust in the wind
+gtnh.quest1850.name=我们只是风中的尘土
+gtnh.quest1850.desc=寻找你的怪物农场中流水的替代品?厌倦了在你的矿莓田里走来走去捡拾物品?  使用风扇将生物或是物品吹向你想要的地方. 使用红石信号激活它.
+
+#Quest_1851.Stick a finger in the air
+gtnh.quest1851.name=伸出你的手指
+gtnh.quest1851.desc=但你真得好好考虑.寻找放置风车的最佳地点?你可以造一个然后看效果,或者试试这个漂亮的风速计.  纸转子在风小的时候很好用. 羊毛转子很便宜. 皮革转子比较耐用.  当你不用风车时,不要把转子留在里面,这会白白消耗它的耐久.
+
+#Quest_1852.Around and around she goes...
+gtnh.quest1852.name=她转了一圈又一圈...
+gtnh.quest1852.desc=...但她永远不会停下,因为你永远有东西要磨.你可以用漏斗使风车永远装满需要处理的物品.只需要记得从发射器中把成品取出来.
+
+#Quest_1853.Moron's Manual for Effective EBFing
+gtnh.quest1853.name=高效电力高炉"智者"手册
+gtnh.quest1853.desc=欢迎来到最后一册"智者"手册,高效电力高炉! 这本手册包含了使用GT电力高炉会遇到的常见问题.  安装 安装你的电力高炉时,确保将其远离你的日常活动区域.没有人会喜欢污染的!  安装时,确保高炉内部中空.有时某些东西可能会偷偷溜进去,比如神秘时代的光球!  确保你的消声仓面向外面.如果不能散发出那些令人愉快的气体,电力高炉就不能工作!  在放置能源仓时,减少发电机到电力高炉的距离.  尤其是在LV电压时,短短的几米将会导致很大差异!  通过线缆传输的每安电流都会损失一点点-而你需要尽可能减少这种损失!  输出仓和输出总线会向与出口相邻的储罐和箱子自动输出流体或物品.  当输出仓/总线满了后,它们会吞掉此后的产物,所以看着点它们!  建造多个高炉时,它们可以共用机械方块、线圈、仓室、总线,节省你的开支.  不推荐共用能源仓和维护仓!(译者注:能源仓为2A输入,所以可以两台共用一个能源仓,但确保使用双能源仓升压的高炉运行时,与其共用能源仓的高炉关闭)
+
+#Quest_1854.Just like Mom used to make
+gtnh.quest1854.name=就像妈妈以前做的
+gtnh.quest1854.desc=果酱三明治是一种很好的食物来源,提供不错的饱食度,且容易制作.  几乎所有的水果都可以用炖锅加糖制成果酱.有几种不同的坚果奶油可供选择.花生可在森林、山峦或冰原生物群系中的陆地菜园找到.  腰果可在丛林或者沼泽的树上找到. 板栗可在更温暖的森林里找到. 开心果树在丛林里.许多这些树苗都可与村民交易获得.有些三明治提供更多的饱食度,所以在购买前查看NEI!
+
+#Quest_1855.I like big sandwiches
+gtnh.quest1855.name=我喜欢大三明治
+gtnh.quest1855.desc=现在你有了面团,有多种大三明治可供选择.  它们能提供大量的饱食度而且制作简单.  蔬菜和奶酪三明治制作工序较多,不是好的选择.  如果你需要更多的饮食选择,这些三明治也有正常尺寸的种类.
+
+#Quest_1856.Staying cool in the heat
+gtnh.quest1856.name=在高温下保持凉爽
+gtnh.quest1856.desc=如果你碰巧找到了雪原生物群系,你就能获得雪来制作美味的冰沙.这可比直接吃水果好多了.
+
+#Quest_1857.No chicken escapes!
+gtnh.quest1857.name=鸡,一只也别想跑!
+gtnh.quest1857.desc=你喜欢派吗?当然!  有许多多种派可供选择.  鸡肉派是最容易做的派之一.只需生鸡肉、土豆、胡萝卜和面团.水果派要简单一点,所以提供的饱食度不太多,但是当你等待最好食物的过程中,这对填饱肚子很有用.
+
+#Quest_1858.Magnetic personality
+gtnh.quest1858.name=私人磁铁
+gtnh.quest1858.desc=如果你没有从战利品袋里开到过电磁铁,那就用充能晶体做一个吧.  在服务器中,如果你移动太快时,它不能很好地工作,但它能使收获作物变得简单.
+
+#Quest_1859.Need some leather?
+gtnh.quest1859.name=需要一些皮革?
+gtnh.quest1859.desc=用硬币买些皮革吧.
+
+#Quest_1860.Need some wool?
+gtnh.quest1860.name=需要羊毛?
+gtnh.quest1860.desc=用硬币买些羊毛吧.
+
+#Quest_1861.Buy some eggs
+gtnh.quest1861.name=买些鸡蛋
+gtnh.quest1861.desc=用硬币买些鸡蛋吧.
+
+#Quest_1862.Robotic crop pickers
+gtnh.quest1862.name=机械化作物收割
+gtnh.quest1862.desc=作物收割机可以自动收获作物,太棒了! 
+
+#Quest_1863.Throwing out the trash
+gtnh.quest1863.name=把垃圾都扔了
+gtnh.quest1863.desc=已经有好几个抽屉的圆石了?虚空掉落物过滤器可升级为自动销毁拾取的任何物品.  圆石、泥土、箭等等.当你没有足够的空间放垃圾的时候它很有用.
+
+#Quest_1864.No self-healing tools here...yet
+gtnh.quest1864.name=工具无法自我修复...再也不会了
+gtnh.quest1864.desc=资深玩家可能困惑于如何制作匠魂的苔藓球,为什么在NEI查不到合成表.  这是可以合成的,但你得先获取神秘的专业知识.去成为一名危险的神秘使吧,你将获得制造苔藓球的力量,可以使你的工具变得坚不可摧.  苔藓球在魔导手册的GTNH栏.  通常,如果一个物品没有合成表,可能就是因为神秘的限制.在你解锁相应研究后,NEI才能显示其合成表.  喝杯啤酒,为你的长途旅行做好准备吧.
+
+#Quest_1865.Enderman Smelterman
+gtnh.quest1865.name=末影人冶炼炉
+gtnh.quest1865.desc=需要末影珍珠?杀戮末影人来获取珍珠实在是危险.你可以换种方式,把一只末影人放进装有熔融液体的冶炼炉,然后使用宝石铸模将所获的液体导出,你就能安全地获得末影珍珠了.  末影人在里面待得越久,你就能获得越多的珍珠.  如果你能找到一只有再生属性的末影人,或是末影人刷怪笼,你将再也不缺珍珠了.稍后你甚至能制作EIO的电动刷怪笼来按需生产末影人.  对再生末影人使用命名牌可以防止其被刷掉.  你需要让在冶炼炉中的末影人看不到天空,否则它就能传送离开.  如果你没能找到再生末影人,你也可以用硬币买些末影人刷怪蛋.说不定你就幸运地刷出了再生末影人呢.
+
+#Quest_1866.Options for finding aluminuim at this age
+gtnh.quest1866.name=在这个阶段找到铝
+gtnh.quest1866.desc=在旧的服务器或是非洲人的世界种子里,可能很难找到铝矿沙砾.铝矿沙砾的替代品是种植铝矿莓(冶炼炉任务的奖励) 在宝箱中寻找铝锭 经验桶  当你到达LV阶段,你能电解蓝宝石,或是离心各种矿石获取少量铝.查查NEI吧.
+
+#Quest_1867.MV Motor
+gtnh.quest1867.name=MV马达
+gtnh.quest1867.desc=大部分中压机器都需要MV马达.如果你还没造两极磁化机的话,回到第二阶段找到合成它的任务.马达需要磁化钢杆和铝杆,2x白铜导线和铜线缆.
+
+#Quest_1868.Ultra Low Power IC
+gtnh.quest1868.name=超低功率IC
+gtnh.quest1868.desc=MV能源仓需要超低功率IC.去制造一些吧.
+
+#Quest_1869.Hydrogen, methane or some farts... (Natural gas) MV 
+gtnh.quest1869.name=氢,甲烷或屁... (天然气) MV 
+gtnh.quest1869.desc=某些物品离心处理后会留下气体,比如氢气或甲烷.离心棕褐铁矿和黄褐铁矿可以获得氢气,把你吃剩的食物丢进离心机可获得甲烷,离心原木是更好的选择,每个可产出60mb的甲烷.可能是时候造个树厂了.你还可以把石油蒸馏成炼油气或是石脑油来烧.  燃气轮机比柴油发电机的污染少一半,但它们的燃料效率通常不同.使用何种电源选择权在你.MV燃气轮机的燃料效率为90%.
+
+#Quest_1870.Diesel, oil or maybe creosote? MV
+gtnh.quest1870.name=柴油,石油或者杂酚油? MV
+gtnh.quest1870.desc=你可能收集了成吨的杂酚油,甚至可能已经建造了第一台电力高炉.这时,杂酚油就是不错的燃料.所以试着制造一些柴油发电机并用它们作为蒸汽以外的第二种能量来源.小型发电机只会在有EU需求时使用燃料.MV柴油发电机的燃料效率为90%.
+
+#Quest_1871.Field Generator I
+gtnh.quest1871.name=力场发生器 I
+gtnh.quest1871.desc=力场发生器是一种强大的设备.它将用于合成高阶储罐、箱子、质量发生器或传送机.
+
+#Quest_1872.Vinyl Chloride
+gtnh.quest1872.name=氯乙烯
+gtnh.quest1872.desc=氯乙烯是制作先进的PVC物品管道的基础产品.PVC物品管道用于合成LuV机器或超级缸II的密封机械方块.
+
+#Quest_1873.Poly Vinyl Chloride
+gtnh.quest1873.name=聚氯乙烯
+gtnh.quest1873.desc=聚氯乙烯是熔融状态的PVC(Poly-Vinyl-Chloride).  你需要氯乙烯和氧气来制备聚氯乙烯.
+
+#Quest_1874.PVC Sheets
+gtnh.quest1874.name=聚氯乙烯片
+gtnh.quest1874.desc=聚氯乙烯片可用于合成不错的PVC物品管道,也能用于制造电路板.
+
+#Quest_1875.Recycler
+gtnh.quest1875.name=回收机
+gtnh.quest1875.desc=如果你有许多木头、树苗、泥土或石头,循环利用它们吧,你能得到废料.稍后你可以用废料制造UU-A,这样就降低你制造UU-M的消耗. 而要获得废料,你需要一台回收机.
+
+#Quest_1876.Advanced Amplifabricator
+gtnh.quest1876.name=UU增幅液生产器
+gtnh.quest1876.desc=想要用废料生产UU增幅液(UU-A),你需要一台UU增幅液生产器.在HV之前,你不能制造UU物质(UU-M),所以先制造UU增幅液吧.
+
+#Quest_1877.UU Matter
+gtnh.quest1877.name=UU物质(UU-M)
+gtnh.quest1877.desc=接下来,你需要一台质量发生器来生产UU物质.这些UU物质可用于制作更多的东西.  缺点是你还不能制造高压的质量发生器,所以造一台LV的,然后供给给它8A的LV电流,获得你的第一滴UU物质吧.看好你的电压和电流!  如果现在你还没有力场发生器,寻找关于它的任务然后制造一些吧.  现在,囤积UU物质吧.
+
+#Quest_1878.Data Orbs
+gtnh.quest1878.name=数据球
+gtnh.quest1878.desc=数据球是高阶的闪存,用于记录复制信息或是作为数据存储器使用.
+
+#Quest_1879.Create new material out of pure energy
+gtnh.quest1879.name=用纯能量创造新材料
+gtnh.quest1879.desc=用纯能量复制出材料.首先你需要扫描你的元素,比如氢、铁、金等,并将数据存储在数据球中.稍后你可以用你的复制机消耗UU物质复制出扫描的元素.
+
+#Quest_1880.Field Generator II
+gtnh.quest1880.name=力场发生器 II
+gtnh.quest1880.desc=力场发生器是一种强大的设备.它将用于合成高阶储罐、箱子、质量发生器或传送机.  复制机也需要它.如果你还没有解锁钨钢,寻找关于它的任务然后制造一批吧.
+
+#Quest_1881.Clay for pennies
+gtnh.quest1881.name=硬币换粘土
+gtnh.quest1881.desc=找不到粘土?用一些硬币换一组吧.
+
+#Quest_1882.Tired of grinding reeds?
+gtnh.quest1882.name=厌倦了研磨甘蔗?
+gtnh.quest1882.desc=拿些硬币来跟我换点纸屑吧.
+
+#Quest_1883.Glassy eyed
+gtnh.quest1883.name=目光呆滞
+gtnh.quest1883.desc=...制作玻璃粉太费力了?跟我交换点吧.
+
+#Quest_1884.Shhh, don't tell 0lafe...
+gtnh.quest1884.name=嘘,别告诉0lafe...
+gtnh.quest1884.desc=这里的捕鱼者便宜卖啦!
+
+#Quest_1885.Wood for sheep?
+gtnh.quest1885.name=木头换羊?
+gtnh.quest1885.desc=不,谢谢! 但用些硬币和原木换些作物架是笔不错的买卖?
+
+#Quest_1886.Manure for fertilizer
+gtnh.quest1886.name=肥料,肥料
+gtnh.quest1886.desc=我是说,你还打算怎么处理这些垃圾呢?
+
+#Quest_1887.Electric Furnace
+gtnh.quest1887.name=电炉
+gtnh.quest1887.desc=这个任务是Shawnbyday建议添加的.如果你有一个LV机器外壳、两个电路板和一些备用线缆,那就做一个吧.
+
+#Quest_1888.Repairing your Hazmat Suit
+gtnh.quest1888.name=修理你的防化服
+gtnh.quest1888.desc=穿着防化服的时候得小心.它的耐久不高.  在你进入LV时代能制作一套新的之前,你可以在这里修理你的防化服.
+
 ##################################Line##################################
 
 #Tier 0 - It begins
@@ -7222,107 +7610,111 @@ gtnh.line11.desc=指导你穿上装甲和喷气背包.
 gtnh.line12.name=多方块结构
 gtnh.line12.desc=这里有所有的多方块结构,你可以在各个阶段建造多方块结构的各个部件,记得经常来看看.
 
+#Building Better Bases
+gtnh.line13.name=基地建设
+gtnh.line13.desc=厌倦了到处都是火把的基地,这让你的基地像个失败的作品?来看看这些任务吧,它们会让你的基地焕然一新(正在建设中)
+
 #Steve Carts
-gtnh.line13.name=史蒂夫矿车
-gtnh.line13.desc=基本的自动农业和采矿.保护他们免受雷击！
+gtnh.line14.name=史蒂夫矿车
+gtnh.line14.desc=基本的自动农业和采矿.保护他们免受雷击！
 
 #Forestry and Farms
-gtnh.line14.name=林业和农场
-gtnh.line14.desc=自动化农场和更多...
+gtnh.line15.name=林业和农场
+gtnh.line15.desc=自动化农场和更多...
 
 #Project Red
-gtnh.line15.name=红石计划
-gtnh.line15.desc=低层存储和自动化. 你需要一台冲压机床才能开始使用.
+gtnh.line16.name=红石计划
+gtnh.line16.desc=低层存储和自动化. 你需要一台冲压机床才能开始使用.
 
 #Coins, Coins, Coins
-gtnh.line16.name=硬币、硬币、硬币
-gtnh.line16.desc=这些任务将引导你明智地使用硬币,并购买一些有用或奇特的东西.
+gtnh.line17.name=硬币、硬币、硬币
+gtnh.line17.desc=这些任务将引导你明智地使用硬币,并购买一些有用或奇特的东西. 用鼠标滚轮缩小视图,看看能买到的所有好东西吧!
 
 #GT++ 
-gtnh.line17.name=GT++ 
-gtnh.line17.desc=GT++为GT增加了新的功能,包括高速多模块-正在建设中
+gtnh.line18.name=GT++ 
+gtnh.line18.desc=GT++为GT增加了新的功能,包括高效的多方块-正在建设中
 
 #Be(e) Breeding
-gtnh.line18.name=蜜蜂育种
-gtnh.line18.desc=这里将引导你如何繁殖蜜蜂
+gtnh.line19.name=蜜蜂育种
+gtnh.line19.desc=这里将引导你如何繁殖蜜蜂
 
 #How to be(e)
-gtnh.line19.name=人来疯(蜂)
-gtnh.line19.desc=一套在游戏中不分阶段的任务,蜜蜂的基础探索和指南.是一个非常有用来推进的工具.
+gtnh.line20.name=人来疯(蜂)
+gtnh.line20.desc=一套在游戏中不分阶段的任务,蜜蜂的基础探索和指南.是一个非常有用来推进的工具.
 
 #Novice Thaumaturge
-gtnh.line20.name=魔法学徒
-gtnh.line20.desc=魔法的奥秘皆藏于此.卓越的成就,但也需要大量的工作.我将成为你的导师.照我的指导,你将成为一位伟大的法师,就像我.
+gtnh.line21.name=魔法学徒
+gtnh.line21.desc=魔法的奥秘皆藏于此.卓越的成就,但也需要大量的工作.我将成为你的导师.照我的指导,你将成为一位伟大的法师,就像我.
 
 #Adept Thaumaturgy
-gtnh.line21.name=熟练的神秘使
-gtnh.line21.desc=囊括扭曲.
+gtnh.line22.name=熟练的神秘使
+gtnh.line22.desc=囊括扭曲.
 
 #Kaaami, Haaaami, ... HA!
-gtnh.line22.name=龟...派...气...功波！
-gtnh.line22.desc=终极的奥法力量！！！
+gtnh.line23.name=龟...派...气...功波！
+gtnh.line23.desc=终极的奥法力量！！！
 
 #Focus on Wand Foci
-gtnh.line23.name=来关注法杖吧！
-gtnh.line23.desc=你知道哪支法杖是有用的吗？
+gtnh.line24.name=来关注法杖吧！
+gtnh.line24.desc=你知道哪支法杖是有用的吗？
 
 #Electro Magic
-gtnh.line24.name=电力魔法
-gtnh.line24.desc=本章节主要围绕电动魔法工具和神秘能源展开. 这都是很不错的MOD,它们将帮助你同时发展你的科技和魔法.
+gtnh.line25.name=电力魔法
+gtnh.line25.desc=本章节主要围绕电动魔法工具和神秘能源展开. 这都是很不错的MOD,它们将帮助你同时发展你的科技和魔法.
 
 #Look to the edges
-gtnh.line25.name=替代魔法
-gtnh.line25.desc=这是什么样的巫术！？
+gtnh.line26.name=替代魔法
+gtnh.line26.desc=这是什么样的巫术！？
 
 #Paying the highest price
-gtnh.line26.name=付出最高的代价
-gtnh.line26.desc=当普通魔法不够的时候,召唤恶魔来服侍你！虽然代价有些吓人...但没有风险就没有乐趣！
+gtnh.line27.name=付出最高的代价
+gtnh.line27.desc=当普通魔法不够的时候,召唤恶魔来服侍你！虽然代价有些吓人...但没有风险就没有乐趣！
 
 #More blood, more stuff
-gtnh.line27.name=更多鲜血,更多材料
-gtnh.line27.desc=高等血魔法？我的静脉感觉很奇怪...
+gtnh.line28.name=更多鲜血,更多材料
+gtnh.line28.desc=高等血魔法？我的静脉感觉很奇怪...
 
 #They are coming...
-gtnh.line28.name=恶魔入侵
-gtnh.line28.desc=我召唤的灵魂...超越了恶魔入侵.真正堕入黑魔法！
+gtnh.line29.name=恶魔入侵
+gtnh.line29.desc=我召唤的灵魂...超越了恶魔入侵.真正堕入黑魔法！
 
 #Open Computers
-gtnh.line29.name=开放式电脑
-gtnh.line29.desc=游戏编程的神奇世界！
+gtnh.line30.name=开放式电脑
+gtnh.line30.desc=游戏编程的神奇世界！
 
 #Transportation
-gtnh.line30.name=交通运输
-gtnh.line30.desc=从四条腿的马到铁马！
+gtnh.line31.name=交通运输
+gtnh.line31.desc=从四条腿的马到铁马！
 
 #Space Race
-gtnh.line31.name=太空竞赛
-gtnh.line31.desc=帮助你开始星系模块并抵达月球.
+gtnh.line32.name=太空竞赛
+gtnh.line32.desc=帮助你开始星系mod并抵达月球.
 
 #AE System
-gtnh.line32.name=AE系统
-gtnh.line32.desc=AE2的重点是如何建立一个紧凑、方便,被我们称之为ME网络的超级存储系统.
+gtnh.line33.name=AE系统
+gtnh.line33.desc=AE2的重点是如何建立一个紧凑、方便,被我们称之为ME网络的超级存储系统.
 
 #Kill all the things
-gtnh.line33.name=杀戮时刻
-gtnh.line33.desc=这世界充满了污秽的东西.杀了他们提高你的声望.
+gtnh.line34.name=杀戮时刻
+gtnh.line34.desc=这世界充满了污秽的东西.杀了他们提高你的声望.
 
 #To grind, or not to grind
-gtnh.line34.name=磨碎,或者不磨碎
-gtnh.line34.desc=这就是问题所在.你想要更好的工具吗？好,去研磨这些东西！相信我,这些任务的奖励是值得的.
+gtnh.line35.name=磨碎,或者不磨碎
+gtnh.line35.desc=这就是问题所在.你想要更好的工具吗？好,去研磨这些东西！相信我,这些任务的奖励是值得的.
 
 #Legendary Quests
-gtnh.line35.name=传奇任务！
-gtnh.line35.desc=传说级的任务线,艰巨的任务,昂贵的配方和潜在的危险地点. 准备好了吗？
-
-#Legendary Tier X
-gtnh.line36.name=传奇阶段 X
+gtnh.line36.name=传奇任务！
 gtnh.line36.desc=传说级的任务线,艰巨的任务,昂贵的配方和潜在的危险地点. 准备好了吗？
 
-#Legendary Infinity
-gtnh.line37.name=传奇无限！
+#Legendary Tier X
+gtnh.line37.name=传奇阶段 X
 gtnh.line37.desc=传说级的任务线,艰巨的任务,昂贵的配方和潜在的危险地点. 准备好了吗？
 
+#Legendary Infinity
+gtnh.line38.name=传奇无限！
+gtnh.line38.desc=传说级的任务线,艰巨的任务,昂贵的配方和潜在的危险地点. 准备好了吗？
+
 #Reward Area
-gtnh.line38.name=奖励区
-gtnh.line38.desc=升级你的战利品！
+gtnh.line39.name=奖励区
+gtnh.line39.desc=升级你的战利品！
 
