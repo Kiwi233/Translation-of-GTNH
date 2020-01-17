@@ -67,7 +67,7 @@ mods.forestry.Carpenter.removeRecipe(<ExtraBees:misc>);
 
 // --- Apiarist Database
 mods.forestry.Carpenter.addRecipe(<ExtraBees:dictionary>, [[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17501>, <gregtech:gt.metaitem.01:27500>],
-														  [<IC2:itemCasing:3>, <ore:circuitAdvanced>, <IC2:itemCasing:3>], 
+														  [<ore:itemCasingGold>, <ore:circuitAdvanced>, <ore:itemCasingGold>], 
                                                           [<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27500>]], <liquid:molten.redstone> * 1440, 60, <Forestry:beealyzer>);
 
 // --- Mutator
@@ -126,10 +126,10 @@ mods.forestry.Carpenter.addRecipe(20, <liquid:for.honey> * 1000,
 
 // --- Healing Frame
 recipes.remove(<ExtraBees:hiveFrame.clay>);
-mods.thaumcraft.Research.addResearch("HEALINGFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, victus 6", -3, 6, 4, <ExtraBees:hiveFrame.clay>);
+mods.thaumcraft.Research.addResearch("HEALINGFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, victus 6", 7, -2, 4, <ExtraBees:hiveFrame.clay>);
 game.setLocalization("tc.research_name.HEALINGFRAME", "\u6cbb\u6108\u6846\u67b6");
 game.setLocalization("tc.research_text.HEALINGFRAME", "[EB]\u871c\u8702\u518d\u4e5f\u4e0d\u4f1a\u6b7b\u4e86?");
-mods.thaumcraft.Research.addPrereq("HEALINGFRAME", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addPrereq("HEALINGFRAME", "MB_EssenceLife", false);
 mods.thaumcraft.Research.setConcealed("HEALINGFRAME", true);
 mods.thaumcraft.Research.addPage("HEALINGFRAME", "ExtraBees.research_page.HEALINGFRAME");
 game.setLocalization("ExtraBees.research_page.HEALINGFRAME", "\u6cbb\u6108\u6846\u67b6\u662f\u7528\u4e8e\u8702\u7bb1\u0028\u7ec4\u0029\u7684\u7269\u54c1\u002c\u53ef\u63d0\u5347\u8702\u540e\u7684\u5bff\u547d\u002c\u800c\u4ee3\u4ef7\u662f\u964d\u4f4e\u4ea7\u91cf\u4e0e\u7a81\u53d8\u51e0\u7387\u002e
@@ -143,10 +143,10 @@ mods.thaumcraft.Research.addArcanePage("HEALINGFRAME", <ExtraBees:hiveFrame.clay
 
 // --- Chocolate Frame
 recipes.remove(<ExtraBees:hiveFrame.cocoa>);
-mods.thaumcraft.Research.addResearch("CHOCOLATEFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, fames 6", 1, 6, 4, <ExtraBees:hiveFrame.cocoa>);
+mods.thaumcraft.Research.addResearch("CHOCOLATEFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, fames 6", 7, 2, 4, <ExtraBees:hiveFrame.cocoa>);
 game.setLocalization("tc.research_name.CHOCOLATEFRAME", "\u5de7\u514b\u529b\u6846\u67b6");
 game.setLocalization("tc.research_text.CHOCOLATEFRAME", "[EB]\u5582\u517b\u871c\u8702");
-mods.thaumcraft.Research.addPrereq("CHOCOLATEFRAME", "MB_DimensionalSingularity", false);
+mods.thaumcraft.Research.addPrereq("CHOCOLATEFRAME", "MB_EssenceUnstable", false);
 mods.thaumcraft.Research.setConcealed("CHOCOLATEFRAME", true);
 mods.thaumcraft.Research.addPage("CHOCOLATEFRAME", "ExtraBees.research_page.CHOCOLATEFRAME_1");
 mods.thaumcraft.Research.addPage("CHOCOLATEFRAME", "ExtraBees.research_page.CHOCOLATEFRAME_2");
@@ -165,7 +165,7 @@ mods.thaumcraft.Research.addArcanePage("CHOCOLATEFRAME", <ExtraBees:hiveFrame.co
 
 // --- Restraint Frame
 recipes.remove(<ExtraBees:hiveFrame.cage>);
-mods.thaumcraft.Research.addResearch("RESTRAINTFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, metallum 6", -1, 8, 4, <ExtraBees:hiveFrame.cage>);
+mods.thaumcraft.Research.addResearch("RESTRAINTFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, metallum 6", 9, 0, 4, <ExtraBees:hiveFrame.cage>);
 game.setLocalization("tc.research_name.RESTRAINTFRAME", "\u7ea6\u675f\u6846\u67b6");
 game.setLocalization("tc.research_text.RESTRAINTFRAME", "[EB]\u871c\u8702\u7684\u7262\u7b3c?");
 mods.thaumcraft.Research.addPrereq("RESTRAINTFRAME", "PROVENFRAME", false);
@@ -185,7 +185,7 @@ mods.thaumcraft.Research.addArcanePage("RESTRAINTFRAME", <ExtraBees:hiveFrame.ca
 
 // --- Soul Frame
 recipes.remove(<ExtraBees:hiveFrame.soul>);
-mods.thaumcraft.Research.addResearch("SOULFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, spiritus 6", -1, 10, 4, <ExtraBees:hiveFrame.soul>);
+mods.thaumcraft.Research.addResearch("SOULFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, spiritus 6", 11, 0, 4, <ExtraBees:hiveFrame.soul>);
 game.setLocalization("tc.research_name.SOULFRAME", "\u7075\u9b42\u6846\u67b6");
 game.setLocalization("tc.research_text.SOULFRAME", "[EB]\u5582\u517b\u871c\u8702");
 mods.thaumcraft.Research.addPrereq("SOULFRAME", "RESTRAINTFRAME", false);

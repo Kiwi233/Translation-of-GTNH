@@ -178,7 +178,7 @@ recipes.addShaped(<MagicBees:magnet>, [
 [<ore:screwSteelMagnetic>, <ore:gemExquisiteDiamond>, <ore:craftingToolScrewdriver>]]);
 
 // --- Magic Apiary
-mods.thaumcraft.Research.addResearch("MAGICAPIARY", "MAGICBEES", "praecantatio 15, sano 12, ignis 9, lucrum 6", 3, 5, 4, <MagicBees:magicApiary>);
+mods.thaumcraft.Research.addResearch("MAGICAPIARY", "MAGICBEES", "praecantatio 15, sano 12, ignis 9, lucrum 6", 1, 7, 4, <MagicBees:magicApiary>);
 game.setLocalization("tc.research_name.MAGICAPIARY", "\u9b54\u6cd5\u8702\u7bb1");
 game.setLocalization("tc.research_text.MAGICAPIARY", "[MB]\u9b54\u6cd5\u8702\u7bb1.");
 mods.thaumcraft.Research.addPrereq("MAGICAPIARY", "MB_DimensionalSingularity", false);
@@ -195,7 +195,7 @@ mods.thaumcraft.Research.addInfusionPage("MAGICAPIARY", <MagicBees:magicApiary>)
 mods.thaumcraft.Warp.addToResearch("MAGICAPIARY", 2);
 
 // --- Vis Apiary Booster
-mods.thaumcraft.Research.moveResearch("MB_VisAuraProvider", "MAGICBEES", -5, 5);
+mods.thaumcraft.Research.moveResearch("MB_VisAuraProvider", "MAGICBEES", -3, 7);
 mods.thaumcraft.Research.setRound("MB_VisAuraProvider", true);
 mods.thaumcraft.Research.addPrereq("MB_VisAuraProvider", "MB_DimensionalSingularity", false);
 mods.thaumcraft.Research.setAspects("MB_VisAuraProvider", "lucrum 15, metallum 12, vitreus 12, ordo 9, motus 6, machina 3");
@@ -275,6 +275,7 @@ mods.thaumcraft.Research.setAspects("MB_DimensionalSingularity", "perditio 15, p
 mods.thaumcraft.Research.setComplexity("MB_DimensionalSingularity", 3);
 
 // --- Essence of Scornful Oblivion
+mods.thaumcraft.Research.moveResearch("MB_EssenceOblivion", "MAGICBEES", -7, 4);
 mods.thaumcraft.Research.clearPages("MB_EssenceOblivion");
 mods.thaumcraft.Research.addPage("MB_EssenceOblivion", "tc.research_page.MB_EssenceOblivion.1");
 mods.thaumcraft.Infusion.addRecipe("MB_EssenceOblivion", <minecraft:dragon_egg>, [<MagicBees:miscResources:17>, <MagicBees:miscResources:17>, <MagicBees:miscResources:17>],  " alienis 100, praecantatio 100, lucrum 75, bestia 75", <MagicBees:miscResources:11>, 8);
@@ -284,7 +285,6 @@ mods.thaumcraft.Research.setComplexity("MB_EssenceOblivion", 3);
 
 // --- Magic Frame
 mods.thaumcraft.Research.moveResearch("MB_FrameMagic", "MAGICBEES", -4, 0);
-mods.thaumcraft.Research.addPrereq("MB_FrameMagic", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("MB_FrameMagic", "MB_Root", false);
 mods.thaumcraft.Research.setConcealed("MB_FrameMagic", true);
 mods.thaumcraft.Research.clearPages("MB_FrameMagic");
@@ -303,7 +303,6 @@ game.setLocalization("tc.research_name.GENTLEFRAME", "\u67d4\u6027\u6846\u67b6")
 game.setLocalization("tc.research_text.GENTLEFRAME", "[MB]\u751f\u7269\u9b54\u6cd5\u6846\u67b6");
 mods.thaumcraft.Research.addPrereq("GENTLEFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("GENTLEFRAME", "MB_EssenceLife");
-mods.thaumcraft.Research.addPrereq("GENTLEFRAME", "INFUSION");
 mods.thaumcraft.Research.setConcealed("GENTLEFRAME", true);
 mods.thaumcraft.Research.addPage("GENTLEFRAME", "MagicBees.research_page.GENTLEFRAME");
 game.setLocalization("MagicBees.research_page.GENTLEFRAME", "\u67d4\u6027\u6846\u67b6\u662f\u4e00\u4e2a\u5728\u8702\u7bb1\u5185(\u7ec4)\u4f7f\u7528\u7684\u7269\u54c1,\u4f1a\u589e\u52a0\u8702\u540e\u7684\u5bff\u547d\u548c\u4ea7\u91cf\u4f46\u4f1a\u964d\u4f4e\u7a81\u53d8\u51e0\u7387.
@@ -323,7 +322,6 @@ game.setLocalization("tc.research_name.RESILIENTFRAME", "\u5f39\u6027\u6846\u67b
 game.setLocalization("tc.research_text.RESILIENTFRAME", "[MB]\u9b54\u6cd5\u4ea7\u7269\u6846\u67b6");
 mods.thaumcraft.Research.addPrereq("RESILIENTFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("RESILIENTFRAME", "MB_EssenceArmor");
-mods.thaumcraft.Research.addPrereq("RESILIENTFRAME", "INFUSION");
 mods.thaumcraft.Research.setConcealed("RESILIENTFRAME", true);
 mods.thaumcraft.Research.addPage("RESILIENTFRAME", "MagicBees.research_page.RESILIENTFRAME");
 game.setLocalization("MagicBees.research_page.RESILIENTFRAME", "\u5f39\u6027\u6846\u67b6\u662f\u4e00\u4e2a\u5728\u8702\u7bb1(\u7ec4)\u5185\u4f7f\u7528\u7684\u7269\u54c1,\u8fd9\u5c06\u4f7f\u871c\u8702\u7684\u4ea7\u91cf\u7ffb\u500d.
@@ -342,7 +340,6 @@ game.setLocalization("tc.research_name.NECROTICFRAME", "\u574f\u6b7b\u6846\u67b6
 game.setLocalization("tc.research_text.NECROTICFRAME", "[MB]\u9b54\u6cd5\u6bc1\u706d\u7684\u6846\u67b6");
 mods.thaumcraft.Research.addPrereq("NECROTICFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("NECROTICFRAME", "MB_EssenceDeath");
-mods.thaumcraft.Research.addPrereq("NECROTICFRAME", "INFUSION");
 mods.thaumcraft.Research.setConcealed("NECROTICFRAME", true);
 mods.thaumcraft.Research.addPage("NECROTICFRAME", "MagicBees.research_page.NECROTICFRAME");
 game.setLocalization("MagicBees.research_page.NECROTICFRAME", "\u574f\u6b7b\u6846\u67b6\u662f\u4e00\u4e2a\u5728\u8702\u7bb1(\u7ec4)\u5185\u4f7f\u7528\u7684\u7269\u54c1,\u8fd9\u5c06\u4f1a\u5927\u5927\u964d\u4f4e\u8702\u540e\u7684\u5bff\u547d\u548c\u4ea7\u91cf.
@@ -361,7 +358,6 @@ game.setLocalization("tc.research_name.METABOLICFRAME", "\u4ee3\u8c22\u6846\u67b
 game.setLocalization("tc.research_text.METABOLICFRAME", "[MB]\u9b54\u6cd5\u6bd2\u54c1\u6846\u67b6");
 mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "MB_EssenceUnstable");
-mods.thaumcraft.Research.addPrereq("METABOLICFRAME", "INFUSION");
 mods.thaumcraft.Research.setConcealed("METABOLICFRAME", true);
 mods.thaumcraft.Research.addPage("METABOLICFRAME", "MagicBees.research_page.METABOLICFRAME");
 game.setLocalization("MagicBees.research_page.METABOLICFRAME", "\u4ee3\u8c22\u6846\u67b6\u662f\u4e00\u4e2a\u5728\u8702\u7bb1(\u7ec4)\u5185\u4f7f\u7528\u7684\u7269\u54c1,\u4ee3\u8c22\u6846\u67b6\u5927\u5927\u589e\u52a0\u4e86\u871c\u8702\u7684\u7a81\u53d8\u7387,\u4e5f\u7565\u589e\u52a0\u4e86\u871c\u8702\u7684\u4ea7\u91cf.
@@ -380,7 +376,6 @@ game.setLocalization("tc.research_name.TEMPORALFRAME", "\u77ac\u606f\u6846\u67b6
 game.setLocalization("tc.research_text.TEMPORALFRAME", "[MB]\u9b54\u6cd5\u65f6\u95f4\u6846\u67b6");
 mods.thaumcraft.Research.addPrereq("TEMPORALFRAME", "MB_FrameMagic", false);
 mods.thaumcraft.Research.addPrereq("TEMPORALFRAME", "MB_EssenceTime");
-mods.thaumcraft.Research.addPrereq("TEMPORALFRAME", "INFUSION");
 mods.thaumcraft.Research.setConcealed("TEMPORALFRAME", true);
 mods.thaumcraft.Research.addPage("TEMPORALFRAME", "MagicBees.research_page.TEMPORALFRAME");
 game.setLocalization("MagicBees.research_page.TEMPORALFRAME", "\u77ac\u606f\u6846\u67b6\u662f\u4e00\u4e2a\u5728\u8702\u7bb1(\u7ec4)\u5185\u4f7f\u7528\u7684\u7269\u54c1,\u77ac\u606f\u6846\u67b6\u5927\u5927\u589e\u52a0\u8702\u540e\u7684\u5bff\u547d\u5230\u539f\u6765\u7684150%.
@@ -440,11 +435,10 @@ mods.thaumcraft.Research.setAspects("MB_Grafter", "ordo 12, terra 9, aer 6");
 mods.thaumcraft.Research.setComplexity("MB_Grafter", 3);
 
 // --- Enchanted Earth
-mods.thaumcraft.Research.addResearch("ENCHANTEDEARTH", "MAGICBEES", "terra 9, victus 9, sano 6, ordo 3", 5, -2, 2, <MagicBees:magicbees.enchantedEarth>);
+mods.thaumcraft.Research.addResearch("ENCHANTEDEARTH", "MAGICBEES", "terra 9, victus 9, sano 6, ordo 3", 5, -3, 2, <MagicBees:magicbees.enchantedEarth>);
 game.setLocalization("tc.research_name.ENCHANTEDEARTH", "\u8574\u9b54\u4e4b\u571f");
 game.setLocalization("tc.research_text.ENCHANTEDEARTH", "[MC]\u9b54\u6cd5\u6ce5\u571f");
 mods.thaumcraft.Research.addPrereq("ENCHANTEDEARTH", "MB_EssenceLife", false);
-mods.thaumcraft.Research.addPrereq("ENCHANTEDEARTH", "INFUSION");
 mods.thaumcraft.Research.setConcealed("ENCHANTEDEARTH", true);
 mods.thaumcraft.Research.addPage("ENCHANTEDEARTH", "MagicBees.research_page.ENCHANTEDEARTH");
 game.setLocalization("MagicBees.research_page.ENCHANTEDEARTH", "\u8574\u9b54\u4e4b\u571f\u4f7f\u690d\u7269\u548c\u6811\u6728\u5728\u5176\u5468\u56f4\u76843x3\u533a\u57df\u5185\u751f\u957f\u5f97\u66f4\u5feb.");

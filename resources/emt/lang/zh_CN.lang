@@ -1,4 +1,4 @@
-﻿#=============Creative Tab Name=============
+#=============Creative Tab Name=============
 itemGroup.EMT.creativeTab=电子魔法工具
 
 #=============Thaumonomicon Tab Name=============
@@ -67,7 +67,7 @@ item.EMT.taintedFeather.name=腐化羽毛
 item.EMT.thaumiumWing.name=神秘增强羽翼
 item.EMT.uumatterDrop.name=结晶UU物质液滴
 item.EMT.bauble.euMaker.armor.name=装备充电指环
-item.EMT.bauble.euMaker.inventory.name=物品充电指环
+item.EMT.bauble.euMaker.inventory.name=物品充能指环
 item.EMT.bauble.oneRing.name=魔戒
 item.EMT.goggles.electric.name=电子揭示护目镜
 item.EMT.goggles.nano.name=纳米揭示护目镜
@@ -78,7 +78,7 @@ item.EMT.boots.traveller.nano.name=纳米旅行者之靴
 item.EMT.boots.traveller.quantum.name=量子旅行者之靴
 item.EMT.scribingtools.electric.name=电子笔与墨
 item.EMT.wing.feather.name=粘合纸板羽翼
-item.EMT.wing.thaumium.name=神秘羽翼
+item.EMT.wing.thaumium.name=神秘强化羽翼
 item.EMT.wing.nano.name=纳米羽翼
 item.EMT.wing.quantum.name=量子羽翼
 item.EMT.chestplates.infusedQuantum.name=注魔量子胸甲
@@ -92,14 +92,14 @@ item.EMT.omnitool.iron.name=铁制钻锯
 item.EMT.omnitool.diamond.name=钻石钻锯
 item.EMT.omnitool.thaumium.name=神秘钻锯
 item.EMT.chainsaw.stream.name=奔雷电锯
-item.EMT.drill.rockbreaker.name=破岩者电钻
+item.EMT.drill.rockbreaker.name=岩石粉碎者
 item.EMT.hoeofgrowth.electric.name=电子句芒锄
 item.EMT.focus.explosion.name=法杖核心:爆炸
 item.EMT.focus.christmas.name=法杖核心:圣诞
 item.EMT.focus.shield.name=法杖核心:护盾
 item.EMT.focus.charge.name=法杖核心:充电
 item.EMT.focus.chargeWand.name=法杖核心:化魔
-item.EMT.focus.electricCloud.name=法杖核心:雷云之光
+item.EMT.focus.electricCloud.name=雷云之光
 item.EMT.focus.energyBall.name=法杖核心:能量球
 
 #=============Block Names=============
@@ -114,6 +114,7 @@ tile.EMT.essentia.aer.name=风之源质发电机
 tile.EMT.essentia.lucrum.name=贪婪源质发电机
 tile.EMT.machine.wandrecharge.name=工业法杖充能站
 tile.EMT.machine.etheralprocessor.name=天域加工机
+tile.EMT.machine.essentiafiller.name=源质填充机
 tile.EMT.solar.compressed.name=压缩太阳能
 tile.EMT.solar.doublecompressed.name=双重压缩太阳能
 tile.EMT.solar.triplecompressed.name=三重压缩太阳能
@@ -135,6 +136,14 @@ tile.EMT.solar2.tripleair.name=风注魔太阳能(3级)
 tile.EMT.solar2.earth.name=地注魔太阳能(1级)
 tile.EMT.solar2.doubleearth.name=地注魔太阳能(2级)
 tile.EMT.solar2.tripleearth.name=地注魔太阳能(3级)
+
+#===============Gregtech Compat===============
+EMT_GTBLOCK_CASEING.0.name=魔法机械方块
+EMT_GTBLOCK_CASEING.1.name=源质扩散单元
+EMT_GTBLOCK_CASEING.2.name=铱锇魔法框架
+EMT_GTBLOCK_CASEING.3.name=铟钨魔法框架
+EMT_GTBLOCK_CASEING.4.name=源质扩散单元半成品
+EMT_GTBLOCK_CASEING.5.name=魔法机械方块半成品
 
 #=============Thaumonomicon Texts=============
 emt.rsname.Electric Magic Tools=电力魔法工具
@@ -218,7 +227,7 @@ emt.rsname.Aer Generator=风之源质发电机
 emt.tag.Aer Generator=压缩周围的风
 emt.text.Aer Generator=你研究了蕴藏在风中的巨大能量,并试着修改最初的能量源质发电机,使其具有压缩风源质的能力,并提供300EU的电力.
 
-emt.rsname.Chainsaw of the Stream=蒸汽链锯
+emt.rsname.Chainsaw of the Stream=奔雷电锯
 emt.tag.Chainsaw of the Stream=你只需要一个劲的砍树
 emt.text.Chainsaw of the Stream=在研究了奔雷斧和神秘电锯后,你试着将它们两者的能力结合,得到了一个能轻松砍完一棵树的电子工具.
 
@@ -226,7 +235,7 @@ emt.rsname.Drill of the Rockbreaker=岩石粉碎者
 emt.tag.Drill of the Rockbreaker=疯狂挖矿
 emt.text.Drill of the Rockbreaker=在研究了炽心镐,后土铲和神秘电钻后,你试着将他们的能力结合而得到一个能开采3X3X1区域材料的电子工具,开采十分迅速.<BR><BR>这个非凡的设备能通过右击找出最近的矿物,当然那会消耗一些电力.
 
-emt.rsname.Shield Block=坚盾方块
+emt.rsname.Shield Block=护盾方块
 emt.tag.Shield Block=魔法保护
 emt.text.Shield Block=研究了盾牌核心制造出的方块后,你已发现了如何自己制作它们,再也不用需要核心来召唤.它们有很高的爆炸抗性,并且甚至能防止核弹的破坏.然而,在一次核爆炸试验中,尽管盾方块毫发无损,它周围的方块却不是.<BR><BR>这些方块不稳定并且破坏时不会掉落,就算你使用精准采集也是如此.
 
@@ -242,7 +251,7 @@ emt.rsname.The Legend=传说之物
 emt.tag.The Legend=童年的记忆...
 emt.text.The Legend=你总是听到关于那个锤子的传说.<BR><BR>传说有一个闪电之神,托尔,有一把能够召唤闪电的锤子.<BR><BR>传说神在他的次元隐退,留下了他的锤子,在某个被保护好的地牢里藏了起来,只有有能力的家伙才能找到它.<BR><BR>你有很多时间去探索这个世界,去试着找到这把锤子.
 
-emt.rsname.Lightning Summoner=闪电碎片
+emt.rsname.Lightning Summoner=雷电碎片
 emt.tag.Lightning Summoner=从死敌那里所得
 emt.text.Lightning Summoner=这个物品是你的死敌:高压爬行者所掉落的.你觉得它以后会派上用场.
 
@@ -326,7 +335,7 @@ emt.rsname.Portable Node=便携式节点
 emt.tag.Portable Node=处处实用
 emt.text.Portable Node=在对缸中节点进行深入研究后,你成功制作出了一个能生成随机节点的道具.然而,由于你无法理解节点的一些魔法部分所以这个便携及节点将会是凋零且不稳定的.<BR><BR>你只能通过shift+右键去除它,并且你觉得你应该早些处理它,因为不稳定节点是...十分无法预料的.
 
-emt.rsname.Electric Hoe of Growth=电力勾芒锄
+emt.rsname.Electric Hoe of Growth=电子句芒锄
 emt.tag.Electric Hoe of Growth=惊人的自然力量
 emt.text.Electric Hoe of Growth=你试着升级你的句芒锄.现在它对土地和植物就像之前的句芒锄一样工作.<BR><BR>然而,对你来说这个工具里的魔力过于强力难以全部转为使用一般电力的性能,在它用坏前你还会有几次使用的次数,它是可充电的.
 
@@ -342,7 +351,7 @@ emt.rsname.Inventory Charging Ring=物品充能指环
 emt.tag.Inventory Charging Ring=被动充电
 emt.text.Inventory Charging Ring=尽管其他神秘使使用指环给符文护盾充能,你觉得它们还有更好的应用.给凡人指环注入能量源,你就能对物品栏里的耗电物品使用它的充电效果.它的发电效率仅有32EU/t,但那不就说明还有提升的空间么.
 
-emt.rsname.Armor Charging Ring=装备充能指环
+emt.rsname.Armor Charging Ring=装备充电指环
 emt.tag.Armor Charging Ring=或许能救你的命
 emt.text.Armor Charging Ring=新指环低但稳定的充电率比预期的还要有用.当没有工具需要能量时它给护甲充电还是不错的.通过注入多一点的能量源和一点护甲你做到了.可惜的是,这个新的能量源没有增加充电效率,但不都是慢慢来的么.
 

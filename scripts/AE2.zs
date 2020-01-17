@@ -6,6 +6,7 @@
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Autoclave;
 import mods.gregtech.Assembler;
+import mods.gregtech.BlastFurnace;
 import mods.ic2.Compressor;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.ChemicalReactor;
@@ -1279,6 +1280,18 @@ Assembler.addRecipe(<appliedenergistics2:item.ItemMultiPart:56>, FluixCoveredC, 
 Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:item.ChargedCertusQuartzDust>, <liquid:water> * 200, 7000, 2000, 24);
 // -
 Autoclave.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <dreamcraft:item.ChargedCertusQuartzDust>, <liquid:ic2distilledwater> * 200, 9000, 1500, 24);
+
+
+
+
+// --- Blast Furnace Recipes ---
+
+
+
+
+// --- Quartz Glass
+BlastFurnace.addRecipe([QuartzGlass * 4], [<minecraft:glass> * 4, <gregtech:gt.metaitem.01:2516> * 4], 200, 120, 1000);
+
 
 
 

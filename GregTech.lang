@@ -1,4 +1,4 @@
-# Configuration file
+﻿# Configuration file
 
 enablelangfile {
     B:UseThisFileAsLanguageFile=true
@@ -3431,7 +3431,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_15310_Index_1=用户控制的计算力路由
     S:TileEntity_DESCRIPTION_15310_Index_2=§b§l服务质量是必须的功能
     S:TileEntity_DESCRIPTION_15311_Index_0=§9Tec§1Tech§9：万物基石
-    S:TileEntity_DESCRIPTION_15311_Index_1=11100101 00100010 10101111 10111111
+    S:TileEntity_DESCRIPTION_15311_Index_1=11100111 00001010 01011101 00000101
     S:TileEntity_DESCRIPTION_15311_Index_2=§b§l你需要它来处理上面的这串数字
     S:TileEntity_DESCRIPTION_15312_Index_0=§9Bass§1Tech§9: Θ转移
     S:TileEntity_DESCRIPTION_15312_Index_1=高频烤炉
@@ -6426,7 +6426,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_799_Index_3=[19] 辣鸡转化为废料
     S:TileEntity_DESCRIPTION_799_Index_4=[20] 辣鸡转化为UU-A
     S:TileEntity_DESCRIPTION_799_Index_5=[21] 废料转化为UU-A
-    S:TileEntity_DESCRIPTION_799_Index_6=[22] 生产UU-M(2.0.4.9版本实测貌似放啥电路板都是出UU-M)
+    S:TileEntity_DESCRIPTION_799_Index_6=[22] 生产UU-M
     S:TileEntity_DESCRIPTION_799_Index_7=大小(宽x高x长)：5x4x5，控制器方块(底层侧中)
     S:TileEntity_DESCRIPTION_799_Index_8=3x1x3的质量发生线圈(底层中央)
     S:TileEntity_DESCRIPTION_799_Index_9=9x质量发生线圈(底层中央的3x1x3区域)
@@ -6523,7 +6523,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_828_Index_7=回旋加速器线圈周围放置回旋加速器机械方块
     S:TileEntity_DESCRIPTION_828_Index_8=1-16x输入仓
     S:TileEntity_DESCRIPTION_828_Index_9=1-16x输入总线
-    S:TileEntity_DESCRIPTION_829_Index_0=珠海渔场的控制器方块(当前版本(2.0.5.1)这个多方块判定非常诡异，诸位搭建时请保持冷静)
+    S:TileEntity_DESCRIPTION_829_Index_0=珠海渔场的控制器方块(已被代码禁用)
     S:TileEntity_DESCRIPTION_829_Index_1=大小(宽x高x长): 9x3x9 (上侧开放)
     S:TileEntity_DESCRIPTION_829_Index_10=1x输出总线 (任意机械方块)
     S:TileEntity_DESCRIPTION_829_Index_11=1x输入总线 (任意机械方块)
@@ -6771,10 +6771,10 @@ languagefile {
     S:TileEntity_DESCRIPTION_876_Index_17=1x能源仓
     S:TileEntity_DESCRIPTION_876_Index_18=仓室和总线可以置于任意位置
     S:TileEntity_DESCRIPTION_876_Index_19=剩余方块为自动合成框架
-    S:TileEntity_DESCRIPTION_876_Index_2=这个机器可以用来合成、装配、拆解物品或组装电路
+    S:TileEntity_DESCRIPTION_876_Index_2=这个机器可以用来合成、装配、拆解物品
     S:TileEntity_DESCRIPTION_876_Index_20=--------------------------------------
     S:TileEntity_DESCRIPTION_876_Index_21=每秒造成500污染
-    S:TileEntity_DESCRIPTION_876_Index_22=机器类型: §e组装机, 拆解机, 电路组装机, 自动合成机§r
+    S:TileEntity_DESCRIPTION_876_Index_22=机器类型: §e组装机, 拆解机, 自动合成机§r
     S:TileEntity_DESCRIPTION_876_Index_23=添加者: §2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_876_Index_3=比同电压下的单方块机器快200%
     S:TileEntity_DESCRIPTION_876_Index_4=每提升一个电压等级，每次运行可以多处理2个物品
@@ -9521,12 +9521,12 @@ languagefile {
     S:gt.blockmachines.cable.yttriumbariumcuprate.08.name=8x钇钡铜氧合金线缆
     S:gt.blockmachines.cable.yttriumbariumcuprate.12.name=12x钇钡铜氧合金线缆
     S:gt.blockmachines.cable.yttriumbariumcuprate.16.name=16x钇钡铜氧合金线缆
-    S:gt.blockmachines.cable.zinc.01.name=1x锌线缆
-    S:gt.blockmachines.cable.zinc.02.name=2x锌线缆
-    S:gt.blockmachines.cable.zinc.04.name=4x锌线缆
-    S:gt.blockmachines.cable.zinc.08.name=8x锌线缆
-    S:gt.blockmachines.cable.zinc.12.name=12x锌线缆
-    S:gt.blockmachines.cable.zinc.16.name=16x锌线缆
+    S:gt.blockmachines.cable.zinc.01.name=1x %material线缆
+    S:gt.blockmachines.cable.zinc.02.name=2x %material线缆
+    S:gt.blockmachines.cable.zinc.04.name=4x %material线缆
+    S:gt.blockmachines.cable.zinc.08.name=8x %material线缆
+    S:gt.blockmachines.cable.zinc.12.name=12x %material线缆
+    S:gt.blockmachines.cable.zinc.16.name=16x %material线缆
     S:gt.blockmachines.chunkloader.tier.01.name=区块加载机 MK I
     S:gt.blockmachines.chunkloader.tier.02.name=区块加载机 MK II
     S:gt.blockmachines.chunkloader.tier.03.name=区块加载机 MK III
@@ -9784,7 +9784,7 @@ languagefile {
     S:gt.blockmachines.gt_frame_ytterbium.name=镱框架
     S:gt.blockmachines.gt_frame_yttrium.name=钇框架
     S:gt.blockmachines.gt_frame_yttriumbariumcuprate.name=钇钡铜氧合金框架
-    S:gt.blockmachines.gt_frame_zinc.name=锌框架
+    S:gt.blockmachines.gt_frame_zinc.name=%material框架
     S:gt.blockmachines.gt_pipe_aluminium.name=铝物品管道
     S:gt.blockmachines.gt_pipe_aluminium_huge.name=巨型铝物品管道
     S:gt.blockmachines.gt_pipe_aluminium_large.name=大型铝物品管道
@@ -11261,7 +11261,7 @@ languagefile {
     S:gt.blockores.1597.name=%material矿石
     S:gt.blockores.1598.name=%material矿石
     S:gt.blockores.1599.name=%material矿石
-    S:gt.blockores.1600.name=麦高芬239矿石
+    S:gt.blockores.1600.name=%material矿石
     S:gt.blockores.16001.name=贫瘠%material矿石
     S:gt.blockores.16002.name=贫瘠%material矿石
     S:gt.blockores.16003.name=贫瘠%material矿石
@@ -11270,7 +11270,7 @@ languagefile {
     S:gt.blockores.16006.name=贫瘠%material矿石
     S:gt.blockores.16008.name=贫瘠%material矿石
     S:gt.blockores.16009.name=贫瘠%material矿石
-    S:gt.blockores.1601.name=麦高芬239矿石
+    S:gt.blockores.1601.name=%material矿石
     S:gt.blockores.16010.name=贫瘠%material矿石
     S:gt.blockores.16012.name=贫瘠%material矿石
     S:gt.blockores.16013.name=贫瘠%material矿石
@@ -11278,7 +11278,7 @@ languagefile {
     S:gt.blockores.16017.name=贫瘠%material矿石
     S:gt.blockores.16018.name=贫瘠%material矿石
     S:gt.blockores.16019.name=贫瘠%material矿石
-    S:gt.blockores.1602.name=麦高芬239矿石
+    S:gt.blockores.1602.name=%material矿石
     S:gt.blockores.16020.name=贫瘠%material矿石
     S:gt.blockores.16021.name=贫瘠%material矿石
     S:gt.blockores.16022.name=贫瘠%material矿石
@@ -11289,7 +11289,7 @@ languagefile {
     S:gt.blockores.16027.name=贫瘠%material矿石
     S:gt.blockores.16028.name=贫瘠%material矿石
     S:gt.blockores.16029.name=贫瘠%material矿石
-    S:gt.blockores.1603.name=麦高芬239矿石
+    S:gt.blockores.1603.name=%material矿石
     S:gt.blockores.16030.name=贫瘠%material矿石
     S:gt.blockores.16031.name=贫瘠%material矿石
     S:gt.blockores.16032.name=贫瘠%material矿石
@@ -11299,7 +11299,7 @@ languagefile {
     S:gt.blockores.16036.name=贫瘠%material矿石
     S:gt.blockores.16037.name=贫瘠%material矿石
     S:gt.blockores.16039.name=贫瘠%material矿石
-    S:gt.blockores.1604.name=麦高芬239矿石
+    S:gt.blockores.1604.name=%material矿石
     S:gt.blockores.16043.name=贫瘠%material矿石
     S:gt.blockores.16044.name=贫瘠%material矿石
     S:gt.blockores.16045.name=贫瘠%material矿石
@@ -13877,7 +13877,7 @@ languagefile {
     S:gt.blockores.19987.name=贫瘠%material矿石
     S:gt.blockores.19988.name=贫瘠%material矿石
     S:gt.blockores.19989.name=贫瘠%material矿石
-    S:gt.blockores.1999.name=麦高芬239矿石
+    S:gt.blockores.1999.name=%material矿石
     S:gt.blockores.19990.name=贫瘠%material矿石
     S:gt.blockores.19991.name=贫瘠%material矿石
     S:gt.blockores.19992.name=贫瘠%material矿石
@@ -15873,11 +15873,11 @@ languagefile {
     S:gt.blockores.2598.name=%material矿石
     S:gt.blockores.2599.name=%material矿石
     S:gt.blockores.26.name=%material矿石
-    S:gt.blockores.2600.name=麦高芬239矿石
-    S:gt.blockores.2601.name=麦高芬239矿石
-    S:gt.blockores.2602.name=麦高芬239矿石
-    S:gt.blockores.2603.name=麦高芬239矿石
-    S:gt.blockores.2604.name=麦高芬239矿石
+    S:gt.blockores.2600.name=%material矿石
+    S:gt.blockores.2601.name=%material矿石
+    S:gt.blockores.2602.name=%material矿石
+    S:gt.blockores.2603.name=%material矿石
+    S:gt.blockores.2604.name=%material矿石
     S:gt.blockores.2605.name=%material矿石
     S:gt.blockores.2606.name=稀盐酸矿石
     S:gt.blockores.2607.name=烧绿石矿石
@@ -16200,7 +16200,7 @@ languagefile {
     S:gt.blockores.2996.name=%material矿石
     S:gt.blockores.2997.name=%material矿石
     S:gt.blockores.2998.name=%material矿石
-    S:gt.blockores.2999.name=麦高芬239矿石
+    S:gt.blockores.2999.name=%material矿石
     S:gt.blockores.3.name=%material矿石
     S:gt.blockores.30.name=%material矿石
     S:gt.blockores.300.name=青铜矿石
@@ -16521,11 +16521,11 @@ languagefile {
     S:gt.blockores.3599.name=%material矿石
     S:gt.blockores.36.name=%material矿石
     S:gt.blockores.360.name=铌钛合金矿石
-    S:gt.blockores.3600.name=麦高芬239矿石
-    S:gt.blockores.3601.name=麦高芬239矿石
-    S:gt.blockores.3602.name=麦高芬239矿石
-    S:gt.blockores.3603.name=麦高芬239矿石
-    S:gt.blockores.3604.name=麦高芬239矿石
+    S:gt.blockores.3600.name=%material矿石
+    S:gt.blockores.3601.name=%material矿石
+    S:gt.blockores.3602.name=%material矿石
+    S:gt.blockores.3603.name=%material矿石
+    S:gt.blockores.3604.name=%material矿石
     S:gt.blockores.3605.name=%material矿石
     S:gt.blockores.3606.name=稀盐酸矿石
     S:gt.blockores.3607.name=烧绿石矿石
@@ -16885,7 +16885,7 @@ languagefile {
     S:gt.blockores.3996.name=%material矿石
     S:gt.blockores.3997.name=%material矿石
     S:gt.blockores.3998.name=%material矿石
-    S:gt.blockores.3999.name=麦高芬239矿石
+    S:gt.blockores.3999.name=%material矿石
     S:gt.blockores.4.name=%material矿石
     S:gt.blockores.4001.name=%material矿石
     S:gt.blockores.4002.name=%material矿石
@@ -17142,11 +17142,11 @@ languagefile {
     S:gt.blockores.4598.name=%material矿石
     S:gt.blockores.4599.name=%material矿石
     S:gt.blockores.460.name=硫化氢矿石
-    S:gt.blockores.4600.name=麦高芬239矿石
-    S:gt.blockores.4601.name=麦高芬239矿石
-    S:gt.blockores.4602.name=麦高芬239矿石
-    S:gt.blockores.4603.name=麦高芬239矿石
-    S:gt.blockores.4604.name=麦高芬239矿石
+    S:gt.blockores.4600.name=%material矿石
+    S:gt.blockores.4601.name=%material矿石
+    S:gt.blockores.4602.name=%material矿石
+    S:gt.blockores.4603.name=%material矿石
+    S:gt.blockores.4604.name=%material矿石
     S:gt.blockores.4605.name=%material矿石
     S:gt.blockores.4606.name=稀盐酸矿石
     S:gt.blockores.4607.name=烧绿石矿石
@@ -17482,7 +17482,7 @@ languagefile {
     S:gt.blockores.4996.name=%material矿石
     S:gt.blockores.4997.name=%material矿石
     S:gt.blockores.4998.name=%material矿石
-    S:gt.blockores.4999.name=麦高芬239矿石
+    S:gt.blockores.4999.name=%material矿石
     S:gt.blockores.5.name=氦-3矿石
     S:gt.blockores.500.name=钻石矿石
     S:gt.blockores.5001.name=%material矿石
@@ -17783,11 +17783,11 @@ languagefile {
     S:gt.blockores.5598.name=%material矿石
     S:gt.blockores.5599.name=%material矿石
     S:gt.blockores.56.name=%material矿石
-    S:gt.blockores.5600.name=麦高芬239矿石
-    S:gt.blockores.5601.name=麦高芬239矿石
-    S:gt.blockores.5602.name=麦高芬239矿石
-    S:gt.blockores.5603.name=麦高芬239矿石
-    S:gt.blockores.5604.name=麦高芬239矿石
+    S:gt.blockores.5600.name=%material矿石
+    S:gt.blockores.5601.name=%material矿石
+    S:gt.blockores.5602.name=%material矿石
+    S:gt.blockores.5603.name=%material矿石
+    S:gt.blockores.5604.name=%material矿石
     S:gt.blockores.5605.name=%material矿石
     S:gt.blockores.5606.name=稀盐酸矿石
     S:gt.blockores.5607.name=烧绿石矿石
@@ -18119,9 +18119,9 @@ languagefile {
     S:gt.blockores.5996.name=%material矿石
     S:gt.blockores.5997.name=%material矿石
     S:gt.blockores.5998.name=%material矿石
-    S:gt.blockores.5999.name=麦高芬239矿石
+    S:gt.blockores.5999.name=%material矿石
     S:gt.blockores.6.name=%material矿石
-    S:gt.blockores.600.name=麦高芬239矿石
+    S:gt.blockores.600.name=%material矿石
     S:gt.blockores.6001.name=%material矿石
     S:gt.blockores.6002.name=%material矿石
     S:gt.blockores.6003.name=%material矿石
@@ -18130,7 +18130,7 @@ languagefile {
     S:gt.blockores.6006.name=%material矿石
     S:gt.blockores.6008.name=%material矿石
     S:gt.blockores.6009.name=%material矿石
-    S:gt.blockores.601.name=麦高芬239矿石
+    S:gt.blockores.601.name=%material矿石
     S:gt.blockores.6010.name=%material矿石
     S:gt.blockores.6012.name=%material矿石
     S:gt.blockores.6013.name=%material矿石
@@ -18138,7 +18138,7 @@ languagefile {
     S:gt.blockores.6017.name=%material矿石
     S:gt.blockores.6018.name=%material矿石
     S:gt.blockores.6019.name=%material矿石
-    S:gt.blockores.602.name=麦高芬239矿石
+    S:gt.blockores.602.name=%material矿石
     S:gt.blockores.6020.name=%material矿石
     S:gt.blockores.6021.name=%material矿石
     S:gt.blockores.6022.name=%material矿石
@@ -18149,7 +18149,7 @@ languagefile {
     S:gt.blockores.6027.name=%material矿石
     S:gt.blockores.6028.name=%material矿石
     S:gt.blockores.6029.name=%material矿石
-    S:gt.blockores.603.name=麦高芬239矿石
+    S:gt.blockores.603.name=%material矿石
     S:gt.blockores.6030.name=%material矿石
     S:gt.blockores.6031.name=%material矿石
     S:gt.blockores.6032.name=%material矿石
@@ -18159,7 +18159,7 @@ languagefile {
     S:gt.blockores.6036.name=%material矿石
     S:gt.blockores.6037.name=%material矿石
     S:gt.blockores.6039.name=%material矿石
-    S:gt.blockores.604.name=麦高芬239矿石
+    S:gt.blockores.604.name=%material矿石
     S:gt.blockores.6043.name=%material矿石
     S:gt.blockores.6044.name=%material矿石
     S:gt.blockores.6045.name=%material矿石
@@ -18438,11 +18438,11 @@ languagefile {
     S:gt.blockores.6599.name=%material矿石
     S:gt.blockores.66.name=%material矿石
     S:gt.blockores.660.name=木炭气矿石
-    S:gt.blockores.6600.name=麦高芬239矿石
-    S:gt.blockores.6601.name=麦高芬239矿石
-    S:gt.blockores.6602.name=麦高芬239矿石
-    S:gt.blockores.6603.name=麦高芬239矿石
-    S:gt.blockores.6604.name=麦高芬239矿石
+    S:gt.blockores.6600.name=%material矿石
+    S:gt.blockores.6601.name=%material矿石
+    S:gt.blockores.6602.name=%material矿石
+    S:gt.blockores.6603.name=%material矿石
+    S:gt.blockores.6604.name=%material矿石
     S:gt.blockores.6605.name=%material矿石
     S:gt.blockores.6606.name=稀盐酸矿石
     S:gt.blockores.6607.name=烧绿石矿石
@@ -18798,7 +18798,7 @@ languagefile {
     S:gt.blockores.6996.name=%material矿石
     S:gt.blockores.6997.name=%material矿石
     S:gt.blockores.6998.name=%material矿石
-    S:gt.blockores.6999.name=麦高芬239矿石
+    S:gt.blockores.6999.name=%material矿石
     S:gt.blockores.70.name=%material矿石
     S:gt.blockores.700.name=岩浆矿石
     S:gt.blockores.701.name=%material矿石
@@ -19051,7 +19051,7 @@ languagefile {
     S:gt.blockores.996.name=%material矿石
     S:gt.blockores.997.name=%material矿石
     S:gt.blockores.998.name=%material矿石
-    S:gt.blockores.999.name=麦高芬239矿石
+    S:gt.blockores.999.name=%material矿石
     S:gt.blockreinforced.0.name=青铜强化方块
     S:gt.blockreinforced.1.name=铱-钨钢强化方块
     S:gt.blockreinforced.2.name=塑料混凝土块
@@ -19144,6 +19144,7 @@ languagefile {
     S:gt.detrav.metatool.01.9.name=电子探矿仪(EV) (空)
     S:gt.detrav.metatool.01.9.tooltip=你需要为其充电
     S:gt.detrav.metatool.01.name=Generated Item
+    S:gt.integrated_circuit.configuration=配置: 
     S:gt.integrated_circuit.name=编程电路
     S:gt.metaitem.01.10.name=小撮碳粉
     S:gt.metaitem.01.10.tooltip=C
@@ -32873,7 +32874,7 @@ languagefile {
     S:gt.metaitem.01.7975.tooltip=D
     S:gt.metaitem.01.7976.name=离心觉醒龙锭矿石
     S:gt.metaitem.01.7976.tooltip=D*
-    S:gt.metaitem.01.7982.name=离心宇宙中子态素矿石
+    S:gt.metaitem.01.7982.name=离心%material矿石
     S:gt.metaitem.01.7982.tooltip=
     S:gt.metaitem.01.8.name=小撮铍粉
     S:gt.metaitem.01.8.tooltip=Be
@@ -36482,7 +36483,7 @@ languagefile {
     S:gt.metaitem.02.19034.tooltip=Ni
     S:gt.metaitem.02.19035.name=精制铜线缆
     S:gt.metaitem.02.19035.tooltip=Cu
-    S:gt.metaitem.02.19036.name=精制锌导线
+    S:gt.metaitem.02.19036.name=精制 %material导线
     S:gt.metaitem.02.19036.tooltip=Zn
     S:gt.metaitem.02.19037.name=精制镓导线
     S:gt.metaitem.02.19037.tooltip=Ga
