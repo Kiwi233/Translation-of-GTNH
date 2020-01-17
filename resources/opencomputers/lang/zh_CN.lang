@@ -38,7 +38,7 @@ tile.oc.screen1.name=基础显示屏
 tile.oc.screen2.name=高级显示屏
 tile.oc.screen3.name=超级显示屏
 tile.oc.rack.name=机架
-tile.oc.switch.name=交换机
+tile.oc.switch.name=§c交换机§7
 tile.oc.transposer.name=转换器
 tile.oc.waypoint.name=路径点
 
@@ -47,9 +47,9 @@ item.oc.AbstractBusCard.name=抽象类总线卡
 item.oc.Acid.name=蚀刻药水
 item.oc.ALU.name=算逻运算单元(ALU)
 item.oc.Analyzer.name=分析器
-item.oc.APU0.name=基础加速运算单元(APU)
-item.oc.APU1.name=高级加速运算单元(APU)
-item.oc.APU2.name=超级加速运算单元(APU)
+item.oc.APU0.name=加速运算单元(APU)(T2)
+item.oc.APU1.name=加速运算单元(APU)(T3)
+item.oc.APU2.name=加速运算单元(APU)(创造)
 item.oc.ArrowKeys.name=方向键
 item.oc.ButtonGroup.name=按钮组
 item.oc.CardBase.name=基板
@@ -477,7 +477,7 @@ death.attack.oc.nanomachinesHungry.2=%s 忘记喂饱纳米机器了。
 death.attack.oc.nanomachinesHungry.3=%s 已被分解吸收了。
 
 # NEI Integration
-nei.options.inventory.oredict=显示矿物字典名
+nei.options.inventory.oredict=显示矿物词典名
 nei.options.inventory.oredict.true=是
 nei.options.inventory.oredict.false=否
 nei.usage.oc.Manual=打开手册

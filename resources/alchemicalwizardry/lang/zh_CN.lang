@@ -1,4 +1,4 @@
-#Block Localization
+﻿#Block Localization
 tile.bloodAltar.name=血之祭坛
 tile.bloodRune.blank.name=气血符文
 tile.bloodRune.fill.name=增容符文
@@ -155,7 +155,7 @@ item.bloodLightSigil.name=血光印记
 item.itemComplexSpellCrystal.name=复杂的法术水晶
 item.itemSigilOfSupression.name=抑液印记
 item.itemSigilOfEnderSeverance.name=绝影印记
-item.bucketLive.name=生命之桶
+item.bucketLife.name=生命之桶
 item.bloodMagicBaseItem.QuartzRod.name=石英棍
 item.bloodMagicBaseItem.EmptyCore.name=空白核心
 item.bloodMagicBaseItem.MagicalesCable.name=魔法线缆
@@ -317,9 +317,9 @@ commands.network.fill.success=成功填充 %s 的LP网络.
 commands.network.cap.help=将指定玩家的LP网络填充到其持有的最高级气血宝珠可以存储的最大值。
 commands.network.cap.success=成功锁定了 %s 的LP网络.
 
-commands.bind.usage=/bloodmagic bind [true|false] <玩家>
+commands.bind.usage=/bind <玩家>
 commands.bind.help=尝试将手持物品绑定(解绑)
-commands.bind.success=绑定成功
+commands.bind.success=物品成功绑定!
 commands.bind.remove.success=解绑成功
 
 commands.orb.usage=/bloodmagic orb [set|get] player [等级]
@@ -508,8 +508,8 @@ message.tanksegmenter.tankssetto=槽设置为:
 message.routerfocus.limit=核心的物品限制设置为: 
 
 #Achievements
-achievement.firstPrick=你第一次的刺痛!
-achievement.alchemicalwizardry:firstPrick!.desc=制作牺牲匕首/宝珠
+achievement.alchemicalwizardry:firstPrick=你第一次的刺痛!
+achievement.alchemicalwizardry:firstPrick.desc=制作牺牲匕首/宝珠
 achievement.alchemicalwizardry:weakOrb=微弱的红热...
 achievement.alchemicalwizardry:weakOrb.desc=捡起虚弱气血宝珠
 achievement.alchemicalwizardry:bloodLettersPack=收集更多鲜血

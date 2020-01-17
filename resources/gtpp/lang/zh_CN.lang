@@ -1,4 +1,4 @@
-﻿//Creative Tabs
+//Creative Tabs
 itemGroup.MiscUtilBlockTab=[GT++] 方块
 itemGroup.MiscUtilMiscTab=[GT++] 物品
 itemGroup.MiscUtilCombatTab=[GT++] 战斗
@@ -1467,7 +1467,7 @@ item.itemDustLi2BeF4.name=Li2BeF4 燃料复合物粉
 item.itemDustSmallLi2BeF4.name=小堆Li2BeF4燃料复合物粉
 item.itemDustTinyLi2BeF4.name=小撮Li2BeF4燃料复合物粉
 item.Li2BeF4.name=Li2BeF4单元
-item.itemCircuitLFTR.name=§a控制电路
+item.itemCircuitLFTR.name=§a§a控制电路
 item.itemZirconiumPellet.name=锆颗粒[氯化锆]
 item.itemDustZrCl4.name=氯化锆粉
 item.itemDustSmallZrCl4.name=小堆氯化锆粉
@@ -1726,9 +1726,9 @@ item.itemPlateLudicrite.name=纯镥板
 item.itemPlateVoid.name=虚空板
 item.itemPlateDimensionShard.name=维度碎片板
 item.rfEUBattery.name=通用充电电池
-item.personalCloakingDevice.name=§9个人隐形装置§7
-item.personalHealingDevice.name=§9个人纳米治疗加速器§r
-item.SlowBuildingRing.name=§e缓建指环§7
+item.personalCloakingDevice.name=§9§9个人隐形装置§7
+item.personalHealingDevice.name=§9§9个人纳米治疗加速器§r
+item.SlowBuildingRing.name=§e§e缓建指环§7
 item.itemStaballoyPickaxe.name=隧道挖掘者
 item.itemStaballoyAxe.name=树林砍伐者
 item.itemSandstoneHammer.name=圆石粉碎者
@@ -1743,10 +1743,10 @@ item.itemBufferCore8.name=能量核心 [ZPM]
 item.itemBufferCore9.name=能量核心 [UV]
 item.itemBufferCore10.name=能量核心 [MAX]
 item.itemPLACEHOLDER_Circuit.name=夸克操纵者 (UV)
-item.itembookgt.name=§o热力锅炉手册
+item.itembookgt.name=§o§o热力锅炉手册
 
 // Everglade Items
-item.everglades.trigger.name=§6Alkalus圆盘[§c激活§6]
+item.everglades.trigger.name=§6§6Alkalus圆盘[§c激活§6]
 
 
 
@@ -2481,7 +2481,7 @@ item.itemPlateKoboldite.name=妖金板
 item.itemPlateDoubleKoboldite.name=双重妖金板
 item.itemBoltKoboldite.name=妖金螺栓
 item.itemRodKoboldite.name=妖金杆
-item.itemRodLongKoboldite.name=妖金长杆
+item.itemRodLongKoboldite.name=长妖金杆
 item.itemRingKoboldite.name=妖金环
 item.itemScrewKoboldite.name=妖金螺丝
 item.itemRotorKoboldite.name=妖金转子
@@ -2671,8 +2671,8 @@ item.particle.ion.Nihonium.name=鉨离子
 item.particle.ion.Flerovium.name=𫓧离子
 item.particle.ion.Moscovium.name=镆离子
 item.particle.ion.Livermorium.name=𫟷离子
-item.particle.ion.Tennessine.name=Ts离子
-item.particle.ion.Oganesson.name=Og离子
+item.particle.ion.Tennessine.name=<石田>离子
+item.particle.ion.Oganesson.name=<气奥>离子
 
 
 item.particle.base.Graviton.name=引力子
@@ -2726,7 +2726,6 @@ item.itemDustTinyDemicheleiteBr.name=小撮德米凯莱(Br)
 item.itemDustSmallDemicheleiteBr.name=小堆德米凯莱(Br)
 tile.blockPooCollector.name=农业下水道
 tile.Block of Lithium 7.name=锂7块
-
 
 //Added 14/3/19
 item.blood.name=血单元
@@ -2846,7 +2845,7 @@ item.itemPlateBlackMetal.name=黑物质板
 item.itemPlateDoubleBlackMetal.name=双重黑物质板
 item.itemBoltBlackMetal.name=黑物质螺栓
 item.itemRodBlackMetal.name=黑物质杆
-item.itemRodLongBlackMetal.name=黑物质长杆
+item.itemRodLongBlackMetal.name=长黑物质杆
 item.itemRingBlackMetal.name=黑物质环
 item.itemScrewBlackMetal.name=黑物质螺丝
 item.itemRotorBlackMetal.name=黑物质转子
@@ -2855,24 +2854,24 @@ item.itemCellBlackMetal.name=黑物质单元
 tile.Block of Black Metal.name=黑物质块
 tile.Black Metal Frame Box.name=黑物质框架
 
-item.itemIngotwhiteMetal.name=白物质锭
-item.itemHotIngotwhiteMetal.name=热白物质锭
-item.itemDustwhiteMetal.name=白物质粉
-item.itemDustTinywhiteMetal.name=小撮白物质粉
-item.itemDustSmallwhiteMetal.name=小堆白物质粉
-item.itemNuggetwhiteMetal.name=白物质粒
-item.itemPlatewhiteMetal.name=白物质板
-item.itemPlateDoublewhiteMetal.name=双重白物质板
-item.itemBoltwhiteMetal.name=白物质螺栓
-item.itemRodwhiteMetal.name=白物质杆
-item.itemRodLongwhiteMetal.name=白物质长杆
-item.itemRingwhiteMetal.name=白物质环
-item.itemScrewwhiteMetal.name=白物质螺丝
-item.itemRotorwhiteMetal.name=白物质转子
-item.itemGearwhiteMetal.name=白物质齿轮
-item.itemCellwhiteMetal.name=白物质单元
-tile.Block of white Metal.name=白物质块
-tile.white Metal Frame Box.name=白物质框架
+item.itemIngotWhiteMetal.name=白物质锭
+item.itemHotIngotWhiteMetal.name=热白物质锭
+item.itemDustWhiteMetal.name=白物质粉
+item.itemDustTinyWhiteMetal.name=小撮白物质粉
+item.itemDustSmallWhiteMetal.name=小堆白物质粉
+item.itemNuggetWhiteMetal.name=白物质粒
+item.itemPlateWhiteMetal.name=白物质板
+item.itemPlateDoubleWhiteMetal.name=双重白物质板
+item.itemBoltWhiteMetal.name=白物质螺栓
+item.itemRodWhiteMetal.name=白物质杆
+item.itemRodLongWhiteMetal.name=长白物质杆
+item.itemRingWhiteMetal.name=白物质环
+item.itemScrewWhiteMetal.name=白物质螺丝
+item.itemRotorWhiteMetal.name=白物质转子
+item.itemGearWhiteMetal.name=白物质齿轮
+item.itemCellWhiteMetal.name=白物质单元
+tile.Block of White Metal.name=白物质块
+tile.White Metal Frame Box.name=白物质框架
 
 //Added 29/04/2019
 tile.OreRunite.name=虚恩矿
@@ -2957,3 +2956,157 @@ item.GTPP.bauble.fireprotection.0.name=超级披萨手套
 //Added 16/5/19
 item.itemCellSeleniumDioxide.name=二氧化硒单元
 item.itemCellSeleniousAcid.name=亚硒酸单元
+
+//Added 25/7/19
+container.pestkiller=害虫杀手
+
+//Added 15/8/19
+gtpp.nei.decayables=可衰变箱子(铅封盒)
+entity.batKing.name=蝙蝠之王
+item.itemCellCarbyne.name=直链乙炔碳单元
+item.itemCellHydrogenCyanide.name=氢氰酸单元
+item.itemCactusCharcoal.name=仙人掌炭
+item.itemCactusCoke.name=仙人掌焦炭
+item.itemSugarCharcoal.name=糖炭
+item.itemSugarCoke.name=糖焦炭
+item.LiquidHydrogen.name=液氢单元[LOH]
+
+
+
+//Added 24/8/19
+//Debug Labels
+tile.blockDoorAlloy.name=防爆门
+tile.blockInhibitorObelisk.name=传送抑制方尖碑
+tile.Battlesign.name=战斗牌子
+tile.blockMagicBox.name=奥法之盒
+tile.blockManaPod.name=法力荚茎
+tile.buildToolBlock.name=工具方块
+tile.blockRedPlasma.name=红色等离子体方块
+tile.pipeBlock.name=管道
+item.null.name=向ALKALUS报告错误
+
+
+//Added 24/8/19
+tile.OreGreenockite.name=硫镉矿石
+item.crushedGreenockite.name=粉碎的硫镉矿石
+item.crushedCentrifugedGreenockite.name=离心硫镉矿石
+item.crushedPurifiedGreenockite.name=洗净的硫镉矿石
+item.dustImpureGreenockite.name=含杂硫镉矿粉
+item.dustPureGreenockite.name=洁净硫镉矿粉
+item.itemDustGreenockite.name=硫镉矿粉
+item.itemDustTinyGreenockite.name=小撮硫镉矿粉
+item.itemDustSmallGreenockite.name=小堆硫镉矿粉
+
+tile.OreRareEarthI.name=稀土(I)矿石
+item.crushedRareEarthI.name=粉碎的稀土(I)矿石
+item.crushedCentrifugedRareEarthI.name=离心稀土(I)矿石
+item.crushedPurifiedRareEarthI.name=洗净的稀土(I)矿石
+item.dustImpureRareEarthI.name=含杂稀土(I)粉
+item.dustPureRareEarthI.name=洁净稀土(I)粉
+item.itemDustRareEarthI.name=稀土(I)粉
+item.itemDustTinyRareEarthI.name=小撮稀土(I)粉
+item.itemDustSmallRareEarthI.name=小堆稀土(I)粉
+
+tile.OreRareEarthII.name=稀土(II)矿石
+item.crushedRareEarthII.name=粉碎的稀土(II)矿石
+item.crushedCentrifugedRareEarthII.name=离心稀土(II)矿石
+item.crushedPurifiedRareEarthII.name=洗净的稀土(II)矿石
+item.dustImpureRareEarthII.name=含杂稀土(II)粉
+item.dustPureRareEarthII.name=洁净稀土(II)粉
+item.itemDustRareEarthII.name=稀土(II)粉
+item.itemDustTinyRareEarthII.name=小撮稀土(II)粉
+item.itemDustSmallRareEarthII.name=小堆稀土(II)粉
+
+tile.OreRareEarthIII.name=稀土(III)矿石
+item.crushedRareEarthIII.name=粉碎的稀土(III)矿石
+item.crushedCentrifugedRareEarthIII.name=离心稀土(III)矿石
+item.crushedPurifiedRareEarthIII.name=洗净的稀土(III)矿石
+item.dustImpureRareEarthIII.name=含杂稀土(III)粉
+item.dustPureRareEarthIII.name=洁净稀土(III)粉
+item.itemDustRareEarthIII.name=稀土(III)粉
+item.itemDustTinyRareEarthIII.name=小撮稀土(III)粉
+item.itemDustSmallRareEarthIII.name=小堆稀土(III)粉
+
+
+
+//Added 13/10/19
+tile.blockRoundRobinator.0.name=自动输出机 I
+tile.blockRoundRobinator.1.name=自动输出机 II
+tile.blockRoundRobinator.2.name=自动输出机 III
+tile.blockRoundRobinator.3.name=自动输出机 IV
+tile.blockRoundRobinator.4.name=自动输出机 V
+
+
+//Added 16/10/19
+item.BioRecipeSelector.name=编程生物电路
+item.FermentationBase.name=发酵基单元
+item.ureamix.name=尿素混合物单元
+item.liquidresin.name=液态树脂单元
+item.propionicacid.name=丙酸单元
+item.aceticacid.name=乙酸单元
+item.BasicAgrichemItem.0.name=藻类生物质
+item.BasicAgrichemItem.1.name=绿藻生物质
+item.BasicAgrichemItem.2.name=褐藻生物质
+item.BasicAgrichemItem.3.name=金褐藻生物质
+item.BasicAgrichemItem.4.name=红藻生物质
+item.BasicAgrichemItem.5.name=纤维素纤维
+item.BasicAgrichemItem.6.name=金褐纤维素纤维
+item.BasicAgrichemItem.7.name=红色纤维素纤维
+item.BasicAgrichemItem.8.name=堆肥
+item.BasicAgrichemItem.9.name=木颗粒
+item.BasicAgrichemItem.10.name=木砖
+item.BasicAgrichemItem.11.name=纤维素浆
+item.BasicAgrichemItem.12.name=粗制生物树脂
+item.BasicAgrichemItem.13.name=催化剂载体
+item.BasicAgrichemItem.14.name=绿色金属催化剂
+item.BasicAgrichemItem.15.name=藻酸
+item.BasicAgrichemItem.16.name=氧化铝
+item.BasicAgrichemItem.17.name=铝颗粒
+item.BasicAgrichemItem.18.name=铝酸钠
+item.BasicAgrichemItem.19.name=氢氧化钠
+item.BasicAgrichemItem.20.name=碳酸钠
+item.BasicAgrichemItem.21.name=氯化锂
+
+//Added 24/10/19
+item.butanol.name=丁醇单元
+
+//Try Fix IC2 Garbage vv
+fluidHotWater=热水
+fluidHotWater.name=热水
+//Try Fix IC2 Garbage ^^
+
+
+//Added 11/12/19
+item.itemHotIngotTitanium.name=热钛锭
+item.OilHeavy.name=重油单元
+item.UnsymmetricalDimethylhydrazine.name=偏二甲肼单元
+item.benzene.name=苯单元
+item.Benzene.name=苯单元
+item.phenol.name=苯酚单元
+item.CarbonDioxide.name=二氧化碳单元
+item.itemCellCarbonDioxide.name=二氧化碳单元
+item.CarbonMonoxide.name=一氧化碳单元
+item.itemCellCarbonMonoxide.name=一氧化碳单元
+item.acetone.name=丙酮单元
+item.saltwater.name=盐水单元
+item.BasicAgrichemItem.22.name=模具(颗粒)
+item.BasicAgrichemItem.23.name=洁净铝混合物
+
+//Added 12/12/19
+
+item.BasicGenericChemItem.0.name=红色金属催化剂
+item.BasicGenericChemItem.1.name=黄色金属催化剂
+item.BasicGenericChemItem.2.name=蓝色金属催化剂
+item.BasicGenericChemItem.3.name=橙色金属催化剂
+item.BasicGenericChemItem.4.name=紫色金属催化剂
+item.BasicGenericChemItem.5.name=棕色金属催化剂
+item.MudRedSlurry.name=红色泥浆单元
+item.liquid_toluene.name=甲苯单元
+
+item.BasicAlgaeItem.0.name=藻类孢子(I)
+item.BasicAlgaeItem.1.name=藻类孢子(II)
+item.BasicAlgaeItem.2.name=藻类孢子(III)
+item.BasicAlgaeItem.3.name=藻类孢子(IV)
+item.BasicAlgaeItem.4.name=藻类孢子(V)
+item.BasicAlgaeItem.5.name=藻类孢子(VI)
+item.BasicAlgaeItem.6.name=藻类孢子(VII)
