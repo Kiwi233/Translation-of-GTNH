@@ -504,7 +504,7 @@ game.setLocalization("tc.research_page.SoulbraizerGTNH", "\u626d\u66f2\u662f\u4e
 \u867d\u7136\u4fdd\u7559\u5728\u795e\u667a\u91cc\u5b83\u662f\u7cdf\u7cd5\u7684,\u4f46\u8ba9\u5176\u6563\u53d1\u5230\u4e16\u754c\u91cc\u5c06\u4f1a\u66f4\u52a0\u7cdf\u7cd5,\u8fd9\u5c31\u662f\u6211\u4eec\u4e3a\u4ec0\u4e48\u8981\u4fdd\u6301\u539f\u6709\u7684\u626d\u66f2.
 \u5b83\u9700\u8981\u8282\u70b9\u63d0\u4f9bvis\u548c\u6b7b\u4ea1\u8981\u7d20,\u4f46\u5b83\u53ef\u4ee5\u4fdd\u6301\u73a9\u5bb6\u539f\u6709\u7684\u626d\u66f2,\u4e14\u4e0d\u4f1a\u5bf9\u73af\u5883\u9020\u6210\u592a\u5927\u7684\u4f24\u5bb3.");
 mods.thaumcraft.Infusion.addRecipe("SoulbraizerGTNH", <minecraft:nether_star>,
-[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemSanitySoap>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemSanitySoap>], 
+[<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemSanitySoap>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11978>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11978>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11978>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemSanitySoap>], 
 "auram 64, mortuus 48, tenebrae 48, alienis 32, praecantatio 16", <ThaumicExploration:soulBrazier>, 16);
 mods.thaumcraft.Research.addInfusionPage("SoulbraizerGTNH", <ThaumicExploration:soulBrazier>);
 

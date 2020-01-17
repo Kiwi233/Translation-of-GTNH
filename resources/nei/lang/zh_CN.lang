@@ -1,5 +1,6 @@
 nei.load=载入
 nei.save=保存
+nei.bookmark.toggle=书签
 
 nei.enchant=附魔
 nei.enchant.level=等级
@@ -59,16 +60,22 @@ nei.options.wbutton.tip.0=使用全局设置
 nei.options.wbutton.tip.1=覆写全局设置
 
 nei.options.keys=按键绑定
+nei.options.keys.showenchant=显示附魔
 nei.options.keys.gui=物品栏
 nei.options.keys.gui.recipe=查看合成
 nei.options.keys.gui.usage=查看用途
 nei.options.keys.gui.enchant=附魔
 nei.options.keys.gui.potion=药水
-nei.options.keys.gui.back=上一个合成表
+nei.options.keys.gui.back=返回上一合成表
 nei.options.keys.gui.prev=上一页
 nei.options.keys.gui.next=下一页
 nei.options.keys.gui.hide=隐藏/显示NEI界面
+nei.options.keys.gui.next_recipe=下一合成表
+nei.options.keys.gui.prev_recipe=上一合成表
+nei.options.keys.gui.next_machine=下一机器
+nei.options.keys.gui.prev_machine=上一机器
 nei.options.keys.gui.search=跳转到搜索框
+nei.options.keys.gui.bookmark=添加书签
 nei.options.keys.world=世界
 nei.options.keys.world.chunkoverlay=区块(chunks)边界显示
 nei.options.keys.world.moboverlay=刷怪区域显示
