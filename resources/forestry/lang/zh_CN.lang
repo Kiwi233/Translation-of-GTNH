@@ -93,6 +93,7 @@ fluid.for.honey=蜂蜜
 fluid.ice=碎冰
 fluid.juice=果汁
 fluid.short.mead=蜂蜜酒
+fluid.mead=蜂蜜陈酿
 fluid.milk=牛奶
 fluid.seedoil=种子油
 tile.forestry.fluid.bioethanol.name=乙醇
@@ -102,6 +103,7 @@ tile.forestry.fluid.for.honey.name=蜂蜜
 tile.forestry.fluid.ice.name=碎冰
 tile.forestry.fluid.juice.name=果汁
 tile.forestry.fluid.short.mead.name=蜂蜜酒
+tile.forestry.fluid.mead.name=蜂蜜陈酿
 tile.forestry.fluid.milk.name=牛奶
 tile.forestry.fluid.seedoil.name=种子油
 
@@ -503,6 +505,7 @@ item.for.beeswax.name=蜂蜡
 
 item.for.beverage.meadCurative.name=蜂蜜药酒
 item.for.beverage.meadShort.name=蜂蜜酒
+item.for.beverage.mead.name=蜂蜜陈酿
 
 item.for.biomeFinder.name=栖息地定位仪
 item.for.bituminousPeat.name=沥青质泥炭
@@ -521,6 +524,7 @@ item.for.bucketJuice.name=果汁桶
 item.for.bucketSeedOil.name=种子油桶
 item.for.bucketGlass.name=液态玻璃桶
 item.for.bucketShortMead.name=蜂蜜酒桶
+item.for.bucketMead.name=蜂蜜陈酿桶
 
 item.for.canEmpty.name=罐
 item.for.canEthanol.name=乙醇罐
@@ -530,8 +534,10 @@ item.for.canHoney.name=蜜罐
 item.for.canIce.name=冰罐
 item.for.canJuice.name=果汁罐
 item.for.canLava.name=岩浆罐
+item.for.canMead.name=蜂蜜陈酿罐
 item.for.canOil.name=石油罐
 item.for.canSeedOil.name=种子油罐
+item.for.canShortMead.name=蜂蜜酒罐
 item.for.carton.name=纸板箱
 
 item.for.circuitboard.basic.name=小型电子板
@@ -626,8 +632,10 @@ item.for.refractoryHoney.name=蜂蜜胶囊
 item.for.refractoryIce.name=耐火冰胶囊
 item.for.refractoryJuice.name=耐火果汁胶囊
 item.for.refractoryLava.name=耐火岩浆胶囊
+item.for.refractoryMead.name=蜂蜜陈酿胶囊
 item.for.refractoryOil.name=石油胶囊
 item.for.refractorySeedOil.name=种子油胶囊
+item.for.refractoryShortMead.name=蜂蜜酒胶囊
 item.for.refractoryWater.name=耐火水胶囊
 item.for.refractoryWax.name=耐火蜂蜡
 
@@ -673,8 +681,10 @@ item.for.waxCapsuleFuel.name=耐火燃料胶囊
 item.for.waxCapsuleHoney.name=蜂蜜胶囊
 item.for.waxCapsuleIce.name=耐火冰胶囊
 item.for.waxCapsuleJuice.name=耐火果汁胶囊
+item.for.waxCapsuleMead.name=蜂蜜陈酿胶囊
 item.for.waxCapsuleOil.name=石油胶囊
 item.for.waxCapsuleSeedOil.name=种子油胶囊
+item.for.waxCapsuleShortMead.name=蜂蜜酒胶囊
 item.for.waxCapsuleWater.name=耐火水胶囊
 item.for.waxCast.name=打蜡工具
 
@@ -878,6 +888,8 @@ for.errors.wrongStacksize.help=这里只能放置单个物品。
 # APICULTURE
 ####################
 
+entity.Villager.apiarist=养蜂员
+
 death.bee.aggressive.player=%1$s遭遇蜂群。%2$s趁机偷走了他的养蜂套装。
 death.bee.aggressive=%1$s遭遇蜂群。不得不刺！
 death.bee.end.player=%1$s在与%2$s战斗时死于一根不坏好意的毒刺。
@@ -894,6 +906,7 @@ forestry.allele.effect.drunkard=沉醉
 forestry.allele.effect.exploration=探索
 forestry.allele.effect.glacial=冻结
 forestry.allele.effect.fertile=丰饶
+forestry.allele.effect.festiveEaster=节日
 forestry.allele.effect.heroic=英雄
 forestry.allele.effect.ignition=燃烧
 forestry.allele.effect.misanthrope=末影
@@ -967,7 +980,7 @@ for.bees.species.tricky=捣蛋
 for.bees.species.tropical=热带
 for.bees.species.unweary=不倦
 for.bees.species.valiant=勇者
-for.bees.species.Vengeful=报仇
+for.bees.species.vengeful=报仇
 for.bees.species.vindictive=记恨
 for.bees.species.wintry=凛冬
 
@@ -1083,10 +1096,11 @@ for.genus.bees.monastic=僧侣
 for.genus.bees.noble=高尚
 for.genus.bees.reddened=泛红
 for.genus.bees.tropical=热带
-for.genus.bees.Vengeful=报仇
+for.genus.bees.vengeful=报仇
 
 item.for.beePrincessGE.name=未知公主蜂
 item.for.beeQueenGE.name=蜂后
+item.for.beeDroneGE.name=雄蜂
 
 tile.for.alveary.0.name=蜂箱组
 tile.for.alveary.1.name=蜂箱组接口
@@ -1144,6 +1158,8 @@ for.multiblock.farm.error.needGearbox=这个农场还需要一个齿轮箱才能
 ####################
 # ARBORICULTURE
 ####################
+
+entity.Villager.arborist=林木学家
 
 for.arboriculture.effect.none=无
 
@@ -1391,7 +1407,7 @@ for.chat.command.forestry.butterfly.kill.format=格式： /%s [<dimension#>]
 for.butterflies.hybrid=混血蝶：%PRIMARY-%SECONDARY
 
 for.butterflies.species.geometridae.brimstone=黄蛾
-for.butterflies.species.geometridae.latticedHeath=格纹蛾
+for.butterflies.species.geometridae.latticeHeath=格纹蛾
 for.butterflies.species.nymphalidae.blueDuke=蓝爵蝶
 for.butterflies.species.nymphalidae.blueMorphoM=大蓝闪蝶·梅内莱厄斯
 for.butterflies.species.nymphalidae.blueMorphoP=黑框蓝闪蝶·百利芷
@@ -1524,6 +1540,7 @@ for.plugin.immersiveengineering.description=Immersive Engineering兼容组件。
 for.plugin.growthcraft.description=生长工艺(GrowthCraft)兼容组件。
 for.plugin.erebus.description=Erebus兼容组件。
 for.plugin.rotarycraft.description=旋转工艺(RotaryCraft)兼容组件
+for.plugin.minefactoryreloaded.description=我的工厂(MineFactoryReloaded)兼容组件
 
 ####################
 # CONFIG FILES

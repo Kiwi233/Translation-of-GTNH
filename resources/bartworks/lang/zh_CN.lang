@@ -1,5 +1,3 @@
-#Translated by Kiwi233
-
 itemGroup.GT2C=GT2兼容
 item.GT_Rockcutter_Item_LV.name=岩石切割机LV
 item.GT_Rockcutter_Item_MV.name=岩石切割机MV
@@ -57,6 +55,7 @@ BW_GlasBlocks.8.name=染色硼玻璃方块(紫)
 BW_GlasBlocks.9.name=染色硼玻璃方块(黄)
 BW_GlasBlocks.10.name=染色硼玻璃方块(淡绿)
 BW_GlasBlocks.11.name=染色硼玻璃方块(棕)
+BW_GlasBlocks.12.name=钍钇玻璃方块
 
 tooltip.glas.0.name=玻璃等级:
 tooltip.LESU.0.name=最大容量!
@@ -144,3 +143,19 @@ tile.biovat.name=细菌培养缸
 tile.radiohatch.name=放射仓
 tile.bw.windmill.name=风车
 tile.manutrafo.name=可调变压器
+tooltip.tile.htr.0.name=钍高温反应堆的控制器方块;大小(宽x高x长)：11x12x11(中空);控制器方块(底层侧中);角落及其相邻方块均为空气方块;一旦搭建完成后,需向输入仓持续通入氦,直到其不再接受为止;1+输出仓(任意底层机械方块);1+输入仓(任意顶层机械方块);1+输入总线(任意顶层机械方块);1x维护仓(任意机械方块);剩余方块为防辐射机械方块;运行时需要持续供应冷却液,运行结束后会重新输出;需要至少100k燃料丸才能开始运行(最多可容纳675k燃料丸);每次运行消耗1个燃料丸;TRISO燃料丸可提供130%的能量;每个燃料丸都会增加转换冷却液的需求量;一次运行需要游戏内的27天
+item.TRISOPellet.name=TRISO燃料丸
+item.TRISOPelletBall.name=TRISO燃料球
+item.BISOPelletBall.name=BISO燃料球
+item.BISOPellet.name=BISO燃料丸
+item.TRISOPelletCompound.name=TRISO复合材料
+item.BISOPelletCompound.name=BISO复合材料
+itemGroup.bartworksMetaMaterials=BartWorks超材料
+
+tooltip.tile.eic.0.name=电动聚爆压缩机的控制器方块;大小(宽x高x长)：3x9x3;用电代替炸药;控制器方块在第三层正面中央;第一,九层:脱氧钢机械方块、中央均为能源仓;第二,三,七,八层:中央为镍锌铁氧体块,外围为变压器线圈块;第四,五,六层:中子锭块;1+输入总线,1+输出总线,1x维护仓(任意脱氧钢机械方块);运行时千万不要阻挡、挖掘活动部分,否则就会爆炸!
+
+
+planet.Ross128b=罗斯128b
+moon.Ross128ba=罗斯128ba
+star.Ross128=罗斯128
+solarsystem.Ross128System=罗斯128星系
