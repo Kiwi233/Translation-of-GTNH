@@ -38,6 +38,8 @@ PS：有时任务书无法正确汉化，可以尝试重载任务书，方法有
 
 `huajijam`校对GregTech.lang、汉化GT++mod、汉化魔法蜜蜂魔导手册
 
+`BloCamLimb`修改完善任务书config生成脚本
+
 
 以及老版本翻译主要贡献者
 
