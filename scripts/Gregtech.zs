@@ -1109,7 +1109,8 @@ FormingPress.addRecipe(<dreamcraft:item.MoldBoots>, <gregtech:gt.metaitem.01:323
 // --- Extruder Shape Boat
 FormingPress.addRecipe(<dreamcraft:item.ExtruderShapeBoat>, <gregtech:gt.metaitem.01:32300>, <dreamcraft:item.ExtruderShapeBoat> * 0, 200, 256);
 
-
+// --- Blank Coin
+FormingPress.addRecipe(<dreamcraft:item.CoinBlank>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:32304> * 0, 200, 30);
 
 
 
@@ -1384,14 +1385,19 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 <gregtech:gt.metaitem.03:32088>.addTooltip(format.aqua("ZPM\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32090>.addTooltip(format.blue("ZPM\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32093>.addTooltip(format.darkPurple("ZPM\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32097>.addTooltip(format.green("ZPM\u7b49\u7ea7"));
 
 // --- UV Tier
 <gregtech:gt.metaitem.03:32091>.addTooltip(format.blue("UV\u7b49\u7ea7"));
 <gregtech:gt.metaitem.03:32094>.addTooltip(format.darkPurple("UV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32098>.addTooltip(format.aqua("UV\u7b49\u7ea7"));
 
 // --- UHV Tier
 <gregtech:gt.metaitem.03:32095>.addTooltip(format.darkPurple("UHV\u7b49\u7ea7"));
+<gregtech:gt.metaitem.03:32099>.addTooltip(format.green("UHV\u7b49\u7ea7"));
 
+// --- UEV Tier
+<gregtech:gt.metaitem.03:32120>.addTooltip(format.green("UEV\u7b49\u7ea7"));
 
 
 // --- Batteries Tooltips for Tiers ---
