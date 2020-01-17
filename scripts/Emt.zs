@@ -1,4 +1,5 @@
 // --- Created by DreamMasterXXL ---
+// --- Modified by bartimaeusnek ---
 
 
 // --- Importing Stuff ---
@@ -1171,7 +1172,8 @@ game.setLocalization("tc.research_name.PotentiaGenerator", "\u80fd\u91cf\u6e90\u
 game.setLocalization("tc.research_text.PotentiaGenerator", "\u5229\u7528\u6e90\u8d28\u6765\u53d1\u7535");
 mods.thaumcraft.Research.addPage("PotentiaGenerator", "tc.research_page.PotentiaGenerator");
 game.setLocalization("tc.research_page.PotentiaGenerator", "\u5728\u8bb8\u591a\u7684\u5b66\u4e60\u4e0e\u7814\u7a76\u540e,\u4f60\u7ec8\u4e8e\u53d1\u73b0\u4e86\u5982\u4f55\u4ece\u591a\u4f59\u7684\u6e90\u8d28\u4e2d\u63d0\u53d6\u7535\u529b.<BR><BR>\u8fd9\u4e2a\u53d1\u7535\u673a\u6d88\u8017\u6bcf\u5355\u4f4d\u7684\u80fd\u91cf\u6e90\u8d28\u4f1a\u63d0\u4f9b3000~3500EU\u7684\u7535\u529b,\u8fd9\u4f7f\u5f97\u5b83\u5341\u5206\u6709\u6548\u7387.<BR><BR>\u53ea\u9700\u8981\u5728\u673a\u5668\u8fb98\u683c\u8303\u56f4\u5185\u653e\u7f6e\u4e00\u4e2a\u88c5\u6709\u80fd\u91cf\u6e90\u8d28\u7684\u7f50\u5b50,\u5b83\u5c31\u4f1a\u5438\u6536\u6e90\u8d28\u4ea7\u751f\u7535\u529b.
-\u5c3d\u7ba1\u80fd\u91cf\u6e90\u8d28\u662f\u4ea7\u751f\u7535\u529b\u6700\u5408\u7406\u7684\u7684\u9009\u62e9,\u4f46\u4f60\u76f8\u4fe1\u7ecf\u8fc7\u4e00\u4e9b\u63a2\u7d22\u5728\u672a\u6765\u4f60\u80fd\u4ece\u5176\u4ed6\u4e0d\u540c\u7684\u6e90\u8d28\u4e2d\u83b7\u5f97\u7535\u529b. <BR><BR>\u6240\u6709\u6e90\u8d28\u53d1\u7535\u673a\u5747\u8f93\u51faGT\u7684EU,\u6240\u4ee5\u65e0\u9700\u8f6c\u6362!");
+\u5c3d\u7ba1\u80fd\u91cf\u6e90\u8d28\u662f\u4ea7\u751f\u7535\u529b\u6700\u5408\u7406\u7684\u7684\u9009\u62e9,\u4f46\u4f60\u76f8\u4fe1\u7ecf\u8fc7\u4e00\u4e9b\u63a2\u7d22\u5728\u672a\u6765\u4f60\u80fd\u4ece\u5176\u4ed6\u4e0d\u540c\u7684\u6e90\u8d28\u4e2d\u83b7\u5f97\u7535\u529b. <BR><BR>\u6240\u6709\u6e90\u8d28\u53d1\u7535\u673a\u5747\u8f93\u51faGT\u7684EU,\u6240\u4ee5\u65e0\u9700\u8f6c\u6362.
+\u5c06\u4e00\u672c\u4e66,\u4e00\u5757LV\u7535\u8def\u677f\u4ee5\u53ca\u4e00\u4e9b\u788e\u7247\u653e\u5165MV\u7ec4\u88c5\u673a,\u4f60\u5c31\u80fd\u5236\u4f5c\u4e00\u672c\u5305\u542b\u6240\u6709\u6e90\u8d28-EU\u5bf9\u5e94\u503c\u7684\u4e66.");
 mods.thaumcraft.Infusion.addRecipe("PotentiaGenerator", <IC2:blockGenerator:7>,
 [<Thaumcraft:FocusTrade>, <gregtech:gt.metaitem.01:32681>, <minecraft:hopper>, <gregtech:gt.metaitem.01:32601>, <IC2:blockElectric:7>, <gregtech:gt.blockmachines:22>, <Thaumcraft:blockJar>, <IC2:blockMachine:12>, <IC2:blockElectric:7>, <gregtech:gt.metaitem.01:32601>, <minecraft:hopper>, <gregtech:gt.metaitem.01:32681>], 
 "potentia 48, permutatio 32, machina 16, praecantatio 32, metallum 32", <EMT:EssentiaGenerators>, 6);
@@ -1256,6 +1258,80 @@ mods.thaumcraft.Infusion.addRecipe("LucrumGenerator", <EMT:EssentiaGenerators>,
 "permutatio 128, lucrum 256, praecantatio 32, nebrisum 16", <EMT:EssentiaGenerators:5>, 10);
 mods.thaumcraft.Research.addInfusionPage("LucrumGenerator", <EMT:EssentiaGenerators:5>);
 mods.thaumcraft.Warp.addToResearch("LucrumGenerator", 5);
+
+
+// --- Essentia Filler
+mods.thaumcraft.Research.addResearch("EssentiaFiller", "EMT", "iter 12, permutatio 9, aqua 6, praecantatio 3", -4, 10, 3, <EMT:EMTMachines:2>);
+mods.thaumcraft.Research.addPrereq("EssentiaFiller", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("EssentiaFiller", "LucrumGenerator", false);
+mods.thaumcraft.Research.setConcealed("EssentiaFiller", true);
+game.setLocalization("tc.research_name.EssentiaFiller", "\u6e90\u8d28\u586b\u5145\u673a");
+game.setLocalization("tc.research_text.EssentiaFiller", "\u628a\u5b83\u88c5\u6ee1!");
+mods.thaumcraft.Research.addPage("EssentiaFiller", "tc.research_page.EssentiaFiller");
+game.setLocalization("tc.research_page.EssentiaFiller", "\u4f60\u65e9\u5df2\u53d1\u73b0\u4e86\u6e90\u8d28\u7684\u6d41\u52a8\u73b0\u8c61.
+\u73b0\u5728,\u4f60\u627e\u5230\u4e00\u79cd\u5c06\u6e90\u8d28\u586b\u5145\u8fdb\u6e90\u8d28\u8f93\u5165\u4ed3\u7684\u65b9\u6cd5.");
+mods.thaumcraft.Arcane.addShaped("EssentiaFiller", <EMT:EMTMachines:2>, "aer 90, terra 90, ignis 90, aqua 90, ordo 90, perditio 90", [
+[<ore:plateIridium>, <ore:pipeTinyNetherStar>, <ore:plateIridium>],
+[<ore:pipeTinyNetherStar>, <GalacticraftCore:tile.fuelLoader>, <ore:pipeTinyNetherStar>],
+[<ore:plateIridium>, <ore:pipeTinyNetherStar>, <ore:plateIridium>]]);
+mods.thaumcraft.Research.addArcanePage("EssentiaFiller", <EMT:EMTMachines:2>);
+
+// --- Large Essentia Generator
+mods.thaumcraft.Research.addResearch("LargeEssentiaGenerator", "EMT", "auram 32,lucrum 12, permutatio 9, aqua 6, praecantatio 3", -4, 12, 3, <gregtech:gt.blockmachines:13000>);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "EssentiaFiller", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "LucrumGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "PotentiaGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "AerGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "IgnisGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "AuramGenerator", false);
+mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "ArborGenerator", false);
+mods.thaumcraft.Research.setConcealed("LargeEssentiaGenerator", true);
+game.setLocalization("tc.research_name.LargeEssentiaGenerator", "\u5927\u578b\u6e90\u8d28\u53d1\u7535\u673a");
+game.setLocalization("tc.research_text.LargeEssentiaGenerator", "\u71c3\u70e7\u4e00\u5207");
+mods.thaumcraft.Research.addPage("LargeEssentiaGenerator", "tc.research_page.LargeEssentiaGenerator");
+game.setLocalization("tc.research_page.LargeEssentiaGenerator", "\u4f60\u6240\u505a\u7684\u4e00\u5207\u5173\u4e8e\u6e90\u8d28\u53d1\u7535\u673a\u7814\u7a76\u7ec8\u4e8e\u6536\u83b7\u4e86\u5b8c\u7f8e\u7684\u56de\u9988,\u90a3\u5c31\u662f\u8fd9\u4e2a!
+\u4f60\u8bbe\u8ba1\u4e86\u4e00\u4e2a\u53cd\u5e94\u5806,\u5b83\u51e0\u4e4e\u80fd\u7528\u4efb\u4f55\u4e1c\u897f\u521b\u9020\u80fd\u91cf.
+\u73b0\u5728\u552f\u4e00\u7684\u95ee\u9898\u5c31\u662f,\u5b83\u8be5\u7528\u4ec0\u4e48\u6837\u7684\u4ed3\u5ba4\u4ee5\u53ca\u5916\u58f3\u624d\u80fd\u7a33\u5b9a\u8fd0\u884c.");
+mods.thaumcraft.Infusion.addRecipe("LargeEssentiaGenerator", <IC2:blockGenerator:5>,
+[<gregtech:gt.blockmachines:1191>,<EMT:EssentiaGenerators>, <EMT:EssentiaGenerators:1>, <EMT:EssentiaGenerators:2>,<gregtech:gt.blockmachines:1191>, <EMT:EssentiaGenerators:3>, <EMT:EssentiaGenerators:4>, <EMT:EssentiaGenerators:5>], 
+"permutatio 1024, praecantatio 512, lucrum 256, radio 128, nebrisum 64, terminus 32", <gregtech:gt.blockmachines:13000>, 10);
+mods.thaumcraft.Research.addInfusionPage("LargeEssentiaGenerator", <gregtech:gt.blockmachines:13000>);
+mods.thaumcraft.Warp.addToResearch("LargeEssentiaGenerator", 10);
+
+// --- Essentia Diffusion Cells
+mods.thaumcraft.Research.addResearch("EssentiaDiffusionCells", "EMT", "auram 32,lucrum 12, permutatio 9, aqua 6, praecantatio 3", -2, 14, 3, <EMT:EMT_GTBLOCK_CASEING:1>);
+mods.thaumcraft.Research.addPrereq("EssentiaDiffusionCells", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("EssentiaDiffusionCells", "LargeEssentiaGenerator", false);
+mods.thaumcraft.Research.setConcealed("EssentiaDiffusionCells", true);
+game.setLocalization("tc.research_name.EssentiaDiffusionCells", "\u6e90\u8d28\u6269\u6563\u5355\u5143");
+game.setLocalization("tc.research_text.EssentiaDiffusionCells", "\u5c06\u5b83\u4eec\u7edf\u7edf\u5206\u89e3");
+mods.thaumcraft.Research.addPage("EssentiaDiffusionCells", "tc.research_page.EssentiaDiffusionCells");
+game.setLocalization("tc.research_page.EssentiaDiffusionCells", "\u4f60\u7684\u5927\u578b\u6e90\u8d28\u53d1\u7535\u673a\u7684\u5185\u90e8\u4ed3\u5ba4\u9700\u8981\u627f\u53d7\u6781\u9ad8\u7684\u9b54\u6cd5\u538b\u529b\u4ee5\u53ca\u673a\u68b0\u5f3a\u5ea6.
+\u5b83\u8fd8\u9700\u8981\u4e00\u79cd\u7279\u6b8a\u7684\u6676\u4f53\u4ee5\u6fc0\u6d3b\u6e90\u8d28,\u4f46\u4f60\u5728\u5143\u59cb\u73cd\u73e0\u65b9\u9762\u7684\u52aa\u529b\u5931\u8d25\u4e86,\u5b83\u4eec\u7684\u5f3a\u5ea6\u8fd8\u8fbe\u4e0d\u5230\u8981\u6c42...");
+mods.thaumcraft.Infusion.addRecipe("EssentiaDiffusionCells", <EMT:EMT_GTBLOCK_CASEING:5>,
+[<Avaritia:big_pearl>,<gregtech:gt.metaitem.02:19083>, <gregtech:gt.metaitem.02:19083>,<gregtech:gt.metaitem.02:19097>, <gregtech:gt.metaitem.02:19097>, <thaumicenergistics:material>,<gregtech:gt.metaitem.02:19097>, <gregtech:gt.metaitem.02:19097>,<gregtech:gt.metaitem.02:19101>, <gregtech:gt.metaitem.02:19101>,<gregtech:gt.metaitem.01:32684>,<gregtech:gt.metaitem.02:19101>,<gregtech:gt.metaitem.02:19101>,<gregtech:gt.metaitem.02:19097>, <gregtech:gt.metaitem.02:19097>, <thaumicenergistics:material>,<gregtech:gt.metaitem.02:19097>,<gregtech:gt.metaitem.02:19097>,<gregtech:gt.metaitem.02:19083>, <gregtech:gt.metaitem.02:19083>], 
+"perditio 64, permutatio 64, praecantatio 64, nebrisum 64, radio 64", <EMT:EMT_GTBLOCK_CASEING:1>, 10);
+mods.thaumcraft.Research.addInfusionPage("EssentiaDiffusionCells", <EMT:EMT_GTBLOCK_CASEING:1>);
+mods.thaumcraft.Warp.addToResearch("EssentiaDiffusionCells", 10);
+
+// --- Magic Containing Casings
+mods.thaumcraft.Research.addResearch("MagicContainingCasings", "EMT", "tutamen 32,nebrisum 12, ordo 9, tempus 6, praecantatio 3", -6, 14, 3,  <EMT:EMT_GTBLOCK_CASEING>);
+mods.thaumcraft.Research.addPrereq("MagicContainingCasings", "ElectricMagicTools", true);
+mods.thaumcraft.Research.addPrereq("MagicContainingCasings", "LargeEssentiaGenerator", false);
+mods.thaumcraft.Research.setConcealed("MagicContainingCasings", true);
+game.setLocalization("tc.research_name.MagicContainingCasings", "\u9b54\u6cd5\u673a\u68b0\u5355\u5143");
+game.setLocalization("tc.research_text.MagicContainingCasings", "\u628a\u9b54\u529b\u675f\u7f1a\u5728\u5185\u90e8");
+mods.thaumcraft.Research.addPage("MagicContainingCasings", "tc.research_page.MagicContainingCasings");
+game.setLocalization("tc.research_page.MagicContainingCasings", "\u4f60\u7684\u5927\u578b\u6e90\u8d28\u53d1\u7535\u673a\u7684\u5916\u58f3\u9700\u8981\u6321\u4f4f\u6e90\u8d28\u5bf9\u5468\u56f4\u7684\u8f90\u5c04,\u5e76\u4e14\u8fd8\u8981\u4e3a\u673a\u4f53\u6563\u70ed.
+\u552f\u4e00\u7684\u89e3\u51b3\u65b9\u6cd5\u662f\u4f7f\u7528GT\u529b\u573a\u53d1\u751f\u673a.");
+mods.thaumcraft.Infusion.addRecipe("MagicContainingCasings", <EMT:EMT_GTBLOCK_CASEING:4>,
+[<gregtech:gt.metaitem.01:32674>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<gregtech:gt.metaitem.01:32674>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>,<EMT:ShieldBlock>], 
+"ordo 64, tempus 64, praecantatio 64, nebrisum 64, tutamen 512", <EMT:EMT_GTBLOCK_CASEING>, 10);
+mods.thaumcraft.Research.addInfusionPage("MagicContainingCasings", <EMT:EMT_GTBLOCK_CASEING>);
+mods.thaumcraft.Warp.addToResearch("MagicContainingCasings", 10);
+
+
 
 // --- Industrial Wand Charging Station
 mods.thaumcraft.Research.addResearch("IndustrialWandChargingStation", "EMT", "permutatio 15, potentia 12, fabrico 9, praecantatio 6, lucrum 3", -6, 2, 3, <EMT:EMTMachines>);
