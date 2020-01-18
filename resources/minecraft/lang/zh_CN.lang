@@ -18,7 +18,9 @@ gtnh.quest3.desc=现在你有了3×3的工作台,该为你身上的杂物准备�
 
 # Quest.4 - §1§lMain Quests and Secondary Quests
 gtnh.quest4.name=§1§l主要任务和次要任务
-gtnh.quest4.desc=现在,你可能会发现出现了两个新任务.注意一下这两个任务有什么不同的地方么？ 带有王冠形状边框的任务是主线任务,主线任务与其他的主线任务有着紧密的联系.你必须完成主线任务才可以解锁下一层任务.而方形边框的任务是可选任务,可选任务不会解锁新的任务阶段.但是,可选任务大部分都是介绍有利于你发展的物品的制作过程,并且会提供一些比较不错的奖励物品. 需要注意的是,由于冒险书的大小限制,不是所有的主线任务都有一个明确的连接线来引导你.如果在游戏过程中发现本层已经没有明确的主线任务,那么你可以试着完成一些其他页面的主线任务来解锁更多的任务.  如果你需要任务帮助,可以按住F3+H以查看任务ID,然后任务ID将自动显示在你的任务书中.
+#B gtnh.quest4.desc=Now that you have made it this far notice the two new quests. See how these two quests look different? The quest with a crown is a main quest and is linked to other main quests by a thick line. You must complete the main quests to unlock the next tier. The other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nNot all main quests have a connecting line to guide you through your adventure because of book size. If there is not an obvious linked main quest at any point, try completing some of the other main quests available to you to progress.%n%nIf you need help with a quest, you can find the Quest ID by holding F3 + H, and then Quest IDs will show in your questbook.
+#A gtnh.quest4.desc=Now that you have made it this far notice the two new quests. See how these two quests look different? The quest with a crown is a main quest and is linked to other main quests by a thick line. You must complete the main quests to unlock the next tier. The other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nNot all main quests have a connecting line to guide you through your adventure because of book size. If there is not an obvious linked main quest at any point, try completing some of the other main quests available to you to progress.%n%nWhat are these coins? You can use them to purchase things in the Coins tab. In case you started in a bad biome, I'll give you enough coins to purchase some saplings.
+#C gtnh.quest4.desc=现在,你可能会发现出现了两个新任务.注意一下这两个任务有什么不同的地方么？ 带有王冠形状边框的任务是主线任务,主线任务与其他的主线任务有着紧密的联系.你必须完成主线任务才可以解锁下一层任务.而方形边框的任务是可选任务,可选任务不会解锁新的任务阶段.但是,可选任务大部分都是介绍有利于你发展的物品的制作过程,并且会提供一些比较不错的奖励物品.%n%n需要注意的是,由于冒险书的大小限制,不是所有的主线任务都有一个明确的连接线来引导你.如果在游戏过程中发现本层已经没有明确的主线任务,那么你可以试着完成一些其他页面的主线任务来解锁更多的任务.%n%nWhat are these coins? You can use them to purchase things in the Coins tab. In case you started in a bad biome, I'll give you enough coins to purchase some saplings.
 
 # Quest.5 - §1§lTools
 gtnh.quest5.name=§1§l基本工具
@@ -194,7 +196,9 @@ gtnh.quest47.desc=就像大多数的机器一样,这里有个更高阶的合金�
 
 # Quest.48 - §3§lA very important alloy
 gtnh.quest48.name=§3§l一个非常重要的合金
-gtnh.quest48.desc=最重要的合金当然是红色合金(直到你到达更高的阶段之前啦)！幸运的是,你有一台合金炉,所以,抓起些红石来和铜结合,送你自己一打这玩意吧！
+#B gtnh.quest48.desc=The most important alloy (until you reach a higher tier) is undoubtedly red alloy. Fortunately, you have an alloy smelter, so grab some redstone and combine it with copper to get yourself a handful of that.
+#A gtnh.quest48.desc=The most important alloy (until you reach a higher tier) is undoubtedly red alloy. Fortunately, you have an alloy smelter, so grab some redstone and combine it with copper to get yourself a handful of that. %n%nDon't confuse your bronze with your copper or else you'll be scratching your head.
+#C gtnh.quest48.desc=最重要的合金当然是红色合金(直到你到达更高的阶段之前啦)！幸运的是,你有一台合金炉,所以,抓起些红石来和铜结合,送你自己一打这玩意吧！
 
 # Quest.49 - §3§lThe hell is that?
 gtnh.quest49.name=§3§l什么鬼东西？
@@ -354,7 +358,9 @@ gtnh.quest87.desc=想要双倍容量的蓄水槽？去做一个钢质蓄水器.�
 
 # Quest.88 - §5§r§5§lWelcome to Tier 2
 gtnh.quest88.name=§5§r§5§l欢迎来到第2阶！
-gtnh.quest88.desc=哎呀,你好呢！看来你已经进入了电气时代.但是,请不要扔了你的蒸汽机器.在达到第3阶之前,你可能还需要使用它们.
+#B gtnh.quest88.desc=Why, hello there! Seems you've made it into the electrical age. Don't be so quick to throw away your steam machines, you'll probably want to use them until you reach tier 3.
+#A gtnh.quest88.desc=Why, hello there! Seems you've made it into the electrical age. Don't be so quick to throw away your steam machines, you'll probably want to use them until you reach tier 3.%n%nTo make your life easier, you'll want to focus on getting a wiremill and bender first...once you suffer through making all the machine components.
+#C gtnh.quest88.desc=哎呀,你好呢！看来你已经进入了电气时代.但是,请不要扔了你的蒸汽机器.在达到第3阶之前,你可能还需要使用它们.
 
 # Quest.89 - §6§lMV Steam Turbine
 gtnh.quest89.name=§6§lMV(中压)级蒸汽轮机
@@ -674,7 +680,9 @@ gtnh.quest167.desc=死亡很痛苦,不是吗？因为死亡会导致你丢失所
 
 # Quest.168 - §9§lA soul vessel
 gtnh.quest168.name=§9§l一个灵魂的容器
-gtnh.quest168.desc=你的新机器需要一些能从怪物身上捕捉灵魂的东西.灵魂瓶是可重复使用的容器.只要右键点击任何活的实体就能窃取它的灵魂.
+#B gtnh.quest168.desc=For your new machine, you need something to actually capture souls from monsters. The soul vials are reusable vessels. Just right-click any living entity to steal its soul.
+#A gtnh.quest168.desc=The Soul Vial is used later in HV Ender IO machines. For now though you find it convenient to deal with....troublesome mobs. The Soul Vial is reuseable. Just right-click any living entity to steal its soul. Right click again to release it in the environment.%n%nThe possibilities swirl in your head...
+#C gtnh.quest168.desc=你的新机器需要一些能从怪物身上捕捉灵魂的东西.灵魂瓶是可重复使用的容器.只要右键点击任何活的实体就能窃取它的灵魂.
 
 # Quest.169 - §9§lThe creation of life
 gtnh.quest169.name=§9§l创造生命
@@ -1458,7 +1466,9 @@ gtnh.quest363.desc=嘿朋友.我收到了你的样本,不得不说我真的很�
 
 # Quest.364 - A hull
 gtnh.quest364.name=一个外壳
-gtnh.quest364.desc=首先,我需要一个外壳. 我测试了你的样品,我发现它似乎和所有的已知材料都会发生反应. 甚至铱也不例外！ 如果把它放进一个打开的盒子,那么它不会发生任何变化.但是我尝试把盒子关上的时候…………嘭-它打破了盒子. 所以我需要一些比铱还要坚固的材料,我的朋友.
+#B gtnh.quest364.desc=First things first, we need a hull. I played around with your sample, and it seems that it reacts with every known material. It even attacks Iridium! It's completely harmless if it's in a box that is open, but as soon as I try to enclose it in something, poof. It breaks free. We need something stronger than iridium my friend.
+#A gtnh.quest364.desc=First things first, we need a hull. I played around with your sample, and it seems that it reacts with every known material. It even attacks Iridium! It's completely harmless if it's in a box that is open, but as soon as I try to enclose it in something, poof. It breaks free. We need something stronger than iridium my friend.%n%nMaybe something from the core of a dead star....White dwarf won't be dense enough...Perhaps a Neutron Star? Hmmm...Yes, fetch me some ore from the core of a Neutron Star and we'll try some next steps.
+#C gtnh.quest364.desc=首先,我需要一个外壳. 我测试了你的样品,我发现它似乎和所有的已知材料都会发生反应. 甚至铱也不例外！ 如果把它放进一个打开的盒子,那么它不会发生任何变化.但是我尝试把盒子关上的时候…………嘭-它打破了盒子. 所以我需要一些比铱还要坚固的材料,我的朋友.
 
 # Quest.365 - Dense, denser, Neutronium
 gtnh.quest365.name=密度很大很大的中子锭
@@ -1466,11 +1476,15 @@ gtnh.quest365.desc=看看这个.这种材料的密度大的难以置信. 也许�
 
 # Quest.366 - Not a planet
 gtnh.quest366.name=不是行星
-gtnh.quest366.desc=这个地方很有趣.也许我能在这里找到一些新材料……
+#B gtnh.quest366.desc=This place is interesting. Maybe I should try to find new materials here...
+#A gtnh.quest366.desc=This place is interesting. Maybe I should try to find new materials here...%n%nWhat's that? Scanning shows some kind of new radioactive ore. Go and check it out, maybe hold some - with proper protection of course.
+#C gtnh.quest366.desc=这个地方很有趣.也许我能在这里找到一些新材料……
 
 # Quest.367 - Successful.. Or not?
 gtnh.quest367.name=无论成功与否
-gtnh.quest367.desc=嘿,中子锭！我甚至不知道这种事情真的能够发生.我将龙尘成功的放进了由它做成的盒子中.不幸的是只坚持了5秒. 但是是一个小小的成功. 我想我们要去更加遥远的行星或者卫星去寻找一些新的材料.
+#B gtnh.quest367.desc=Heh, neutronium. I didn't even know such a thing really exists. Unfortunately, the draconium dust was enclosed for... 5 seconds? But, it was a small success. %n%nOk let's travel to some planets and moons and look for the new material. I think we have to fly very far away for it.
+#A gtnh.quest367.desc=Heh, neutronium. I didn't even know such a thing really exists. Unfortunately, the draconium dust was enclosed for... 5 seconds? But, it was a small success. %n%nOk let's travel to some planets and moons and look for the new material. I think we have to fly very far away for it.%n%nSomeplace dark, on the edge of space.
+#C gtnh.quest367.desc=嘿,中子锭！我甚至不知道这种事情真的能够发生.我将龙尘成功的放进了由它做成的盒子中.不幸的是只坚持了5秒. 但是是一个小小的成功. 我想我们要去更加遥远的行星或者卫星去寻找一些新的材料.
 
 # Quest.368 - Black Plutonium
 gtnh.quest368.name=黑钚
@@ -2782,7 +2796,9 @@ gtnh.quest694.desc=使用你全新的压缩机,可以制作一些金属块以制
 
 # Quest.695 - §6§o§1§2§3§r§r§r§r§r§r§3§4§r§o§7§7§8§9§9§5§3§1§0§r§o§m§k§c§e§l§r§1§1§r§6§lAutomation tier 1
 gtnh.quest695.name=§6§o§1§2§3§r§r§r§r§r§r§3§4§r§o§7§7§8§9§9§5§3§1§0§r§o§m§k§c§e§l§r§1§1§r§6§l自动化 T1
-gtnh.quest695.desc=因为你计划制作许多通透玻璃,你希望将冶炼炉自动化吗？没问题,制作一个大型青铜流体管道,将之放在浇注口下.现在那些熔融液体将在管道中流动.在管道下你必须放置铸造盆或浇铸台.在下方放置漏斗及箱子,将有助于自动输出成品.
+#B gtnh.quest695.desc=Do you want to automate your smeltery because you are planning to make stacks of glass blocks? %nNo problem, craft a large bronze pipe and place it under the faucet. Now the molten fluid will flow inside the pipe. Under or next to the pipe you have to place the casting basins or tables.%nA hopper and a chest underneath would auto-output products. NOTE: Faucets will output precisely 144L each activation if you toggle it off immediately. That's going to have some uses later on...
+#A gtnh.quest695.desc=Do you want to automate your smeltery because you are planning to make stacks of glass blocks? %nNo problem, craft a large bronze pipe and place it under the faucet. Make sure to connect the pipe to the faucet using a wrench. Now the molten fluid will flow inside the pipe. Under or next to the pipe you have to place the casting basins or tables.%nA hopper and a chest underneath would auto-output products from the casting blocks. %n%nNOTE: Faucets will output precisely 144L each activation if you toggle it off immediately. That's going to have some uses later on...
+#C gtnh.quest695.desc=因为你计划制作许多通透玻璃,你希望将冶炼炉自动化吗？没问题,制作一个大型青铜流体管道,将之放在浇注口下.现在那些熔融液体将在管道中流动.在管道下你必须放置铸造盆或浇铸台.在下方放置漏斗及箱子,将有助于自动输出成品.
 
 # Quest.696 - §6§lAutomation tier 2
 gtnh.quest696.name=§6§l自动化 T2
@@ -2798,7 +2814,9 @@ gtnh.quest698.desc=两个砖高炉(BBF)还是不够快...
 
 # Quest.699 - §6§lWhy one coke oven when you can have ten?
 gtnh.quest699.name=§6§l为何只造一个焦炉当你能拥有十个
-gtnh.quest699.desc=你的砖高炉的炭用量大得要命,而你的蒸汽锅炉也是？好吧,是时候建造更多焦炉然后将它们自动化了.木制流体管道以及锡物品管道将帮助你完成目标.
+#B gtnh.quest699.desc=Your bricked blast furnace uses coal like hell and your steam boiler too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.%n%nSearch NEI for a more efficient way to make coke oven bricks.
+#A gtnh.quest699.desc=Your bricked blast furnace uses coal like hell and your steam boiler too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.  You can use either faucets with restone clocking or LV pumps to empty the creosote. For the charcoal, hoppers are easy to get once you have an assembler.%n%nUnlike Gregtech multiblocks, coke ovens must have 1 space separating each oven.%n%nSearch NEI for a more efficient way to make coke oven bricks.
+#C gtnh.quest699.desc=你的砖高炉的炭用量大得要命,而你的蒸汽锅炉也是？好吧,是时候建造更多焦炉然后将它们自动化了.木制流体管道以及锡物品管道将帮助你完成目标.
 
 # Quest.700 - How dark can you go?
 gtnh.quest700.name=你能够有多黑暗？
@@ -2902,7 +2920,9 @@ gtnh.quest724.desc=杂草会不时地在你的作物架上生长.在整片田地
 
 # Quest.725 - Flower Power
 gtnh.quest725.name=花的力量
-gtnh.quest725.desc=在作物架上种植染料？试着种一些花,如果你将玫瑰及蒲公英配种,可以得到一种新的花以及不同颜色的染料.  想要获得"玫瑰种子",你需要将罂粟种植在作物架上.
+#B gtnh.quest725.desc=Growing dyes on crops sticks? Try to plant some flowers. If you cross breed Rose and Dandelion flowers you maybe get a new flower and new dyes with different colors.%n%nYou will need to plant 4 vanilla flowers to get them on a cropstick.%n%nTo get "Rose Seeds" place poppies.
+#A gtnh.quest725.desc=Growing dyes on crops sticks? Try to plant some flowers. If you cross breed Rose and Dandelion flowers you maybe get a new flower and new dyes with different colors.%n%nYou will need to plant 4 vanilla flowers to get them on a cropstick. They also don't plant unless they are in bright light.%n%nTo get "Rose Seeds" place poppies.
+#C gtnh.quest725.desc=在作物架上种植染料？试着种一些花,如果你将玫瑰及蒲公英配种,可以得到一种新的花以及不同颜色的染料.  想要获得"玫瑰种子",你需要将罂粟种植在作物架上.
 
 # Quest.726 - §5§lChemical rubber production
 gtnh.quest726.name=§5§l橡胶化学制程
@@ -3282,7 +3302,9 @@ gtnh.quest819.desc=每一个火箭都需要储存燃料的储罐. 1阶火箭需�
 
 # Quest.820 - Rocket Launch Pad
 gtnh.quest820.name=火箭发射平台
-gtnh.quest820.desc=发射火箭当然需要发射平台. 建立一个3x3大小的火箭发射平台然后将你的火箭放在中央.  确保你身上没有闪电扭曲效果,否则你会很伤心的.
+#B gtnh.quest820.desc=Every rocket needs a launch pad. Build a 3x3 launch pad and place your rocket on top of it.%n%nMake sure you don't have any lightning warp effects or you'll be really sad.
+#A gtnh.quest820.desc=Every rocket needs a launch pad. Build a 3x3 launch pad and place your rocket on top of it.%n%nMake sure you don't have any lightning warp effects or you'll be really sad - storms can also knock your rocket off, so make sure to not leave it alone.%n%n§c§cBefore liftoff, make sure you clear the airspace above you! Even clouds...%n%nBe sure to checkout https://gtnh.miraheze.org/wiki/Rockets for a Departure Checklist!
+#C gtnh.quest820.desc=发射火箭当然需要发射平台. 建立一个3x3大小的火箭发射平台然后将你的火箭放在中央.  确保你身上没有闪电扭曲效果,否则你会很伤心的.
 
 # Quest.821 - Rocket Fuel
 gtnh.quest821.name=燃料注入机
@@ -3310,7 +3332,9 @@ gtnh.quest826.desc=使用铁工具,你可以开采主世界中大部分的矿物
 
 # Quest.827 - Rocket Fuel
 gtnh.quest827.name=燃料注入机
-gtnh.quest827.desc=火箭每次飞行都需要一些燃料,提炼一些火箭燃料并将它们灌入燃料罐中.
+#B gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel and fill some fuel canisters. %nYou can use Fuel or Rocket Fuel from Ender IO.
+#A gtnh.quest827.desc=For every flight the rocket needs some fuel. So refine some fuel and fill some fuel canisters. %nYou can use Fuel or Rocket Fuel from Ender IO.%n%nFor the moon, a full rocket leaving from the OW should have enough fuel left to make it back. But you might want to craft a couple of extra tanks just in case.
+#C gtnh.quest827.desc=火箭每次飞行都需要一些燃料,提炼一些火箭燃料并将它们灌入燃料罐中.
 
 # Quest.828 - Oxygen Collector
 gtnh.quest828.name=氧气收集器
@@ -4054,7 +4078,9 @@ gtnh.quest1012.desc=想要得到钛你首先需要得到一些金红石. 金红�
 
 # Quest.1013 - §6§lSMD Circuit components
 gtnh.quest1013.name=§6§l贴片电路元件
-gtnh.quest1013.desc=SMD(Surface-mount devices意为:表面贴装机件)是一种更先进的电子零件. 在生产高级电路板的时候你需要用到它们.并且它们要比基础的电容、晶体管、二极管、电阻便宜. 要生产这些零件,你首先需要一个高级的组装机和一些熔融聚乙烯.  建议你检查下自己还有多少镓存货.现在使用贴片二极管和贴片电阻并不划算,除非你有一台高压粉碎机、蜜蜂或是铝土矿. 使用IC相应杂交产物可以让你的锌、闪锌和铝土拥有4倍产出.  §4获取铂最容易的方式是化学浸洗粉碎镍矿石.
+#B gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and resistors until you have a steady supply with an HV macerator, bees, or bauxite ore. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.%n%n§4The easiest way to get Platinum is with Nickel ore and a chemical bath.
+#A gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and resistors until you have a steady supply with an HV macerator, bees, or bauxite ore. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.%n
+#C gtnh.quest1013.desc=SMD(Surface-mount devices意为:表面贴装机件)是一种更先进的电子零件. 在生产高级电路板的时候你需要用到它们.并且它们要比基础的电容、晶体管、二极管、电阻便宜. 要生产这些零件,你首先需要一个高级的组装机和一些熔融聚乙烯.  建议你检查下自己还有多少镓存货.现在使用贴片二极管和贴片电阻并不划算,除非你有一台高压粉碎机、蜜蜂或是铝土矿. 使用IC相应杂交产物可以让你的锌、闪锌和铝土拥有4倍产出.  §4获取铂最容易的方式是化学浸洗粉碎镍矿石.
 
 # Quest.1014 - §9§lWorkstation Extreme Circuit
 gtnh.quest1014.name=§9§l工作站电路板
@@ -4278,7 +4304,9 @@ gtnh.quest1068.desc=你准备好去月球了吗？多准备一些东西可以帮
 
 # Quest.1069 - Oak, Spruce, Birch, Jungle Sapling
 gtnh.quest1069.name=橡树、白桦树、云杉树、丛林树
-gtnh.quest1069.desc=你的家安置在沙漠因此需要橡树或者白桦树苗来种植它们嘛？没问题！5个护林员硬币就可以购买左侧列表中5棵树苗.
+#B gtnh.quest1069.desc=You spawned in a desert and need Oak or Birch saplings? No problem! For five Forestry Coins you can select which one you want to buy.
+#A gtnh.quest1069.desc=You spawned in a desert and need Oak or Birch saplings? No problem! For five Forester Coins you can select which one you want to buy.
+#C gtnh.quest1069.desc=你的家安置在沙漠因此需要橡树或者白桦树苗来种植它们嘛？没问题！5个护林员硬币就可以购买左侧列表中5棵树苗.
 
 # Quest.1070 - Magic Feather
 gtnh.quest1070.name=神奇的羽毛
@@ -4406,7 +4434,9 @@ gtnh.quest1100.desc=在你制造好了可以存储50点VIS的法杖之后就可�
 
 # Quest.1101 - Division Sigil
 gtnh.quest1101.name=分割徽章(激活)
-gtnh.quest1101.desc=也许你找到的分割徽章已经压箱底好久了.你可能听说过用一种仪式可以激活它. 首先你需要一个附魔台,8个红石,一把好一点的武器和一个用来献祭的动物.用黄金套索抓住他们是一个不错的选择. 把你的附魔台放在一个下方是草方块的空地上,并用红石围绕附魔台一圈. 到了午夜时分你会发现分割徽章开始发光了,这个时候将用来献祭的动物放到附魔台上杀死它. 仪式完成后你就会发现分割徽章已经成功激活了. 当然进行这个仪式不是没有代价的！
+#B gtnh.quest1101.desc=Maybe you found a division sigil in a chest already. You have heard about some ritual to activate it.%n%nYou need an enchantment table, 8 redstone dust, a good sword and an animal you want to sacrifice at night. Catching and holding it with a lasso would be the easiest way.%nPlace your enchantment table on a grass field and surround it with redstone dust.%nPrecisely at midnight place the animal on or near the table and kill it.%nOf course you also need to have your sigil on you.%nBe aware! Your actions will have consequences.
+#A gtnh.quest1101.desc=Maybe you found a division sigil in a chest already. You have heard about some ritual to activate it.%n%nYou need an enchantment table, 8 redstone dust, a good sword and an animal you want to sacrifice at night. Catching and holding it with a Golden Lasso would be the easiest way. Check in LV for the Golden Lasso quest if you haven't completed it yet.%n%nPlace your enchantment table on a grass field and surround it with redstone dust.%nPrecisely at midnight place the animal on or near the table and kill it.%nOf course you also need to have your sigil on you.%nBe aware! Your actions will have consequences.
+#C gtnh.quest1101.desc=也许你找到的分割徽章已经压箱底好久了.你可能听说过用一种仪式可以激活它. 首先你需要一个附魔台,8个红石,一把好一点的武器和一个用来献祭的动物.用黄金套索抓住他们是一个不错的选择. 把你的附魔台放在一个下方是草方块的空地上,并用红石围绕附魔台一圈. 到了午夜时分你会发现分割徽章开始发光了,这个时候将用来献祭的动物放到附魔台上杀死它. 仪式完成后你就会发现分割徽章已经成功激活了. 当然进行这个仪式不是没有代价的！
 
 # Quest.1102 - Beacon
 gtnh.quest1102.name=信标
@@ -4414,7 +4444,9 @@ gtnh.quest1102.desc=用你的新法杖你可以制作信标了！ 信标的合�
 
 # Quest.1103 - Cursed Earth
 gtnh.quest1103.name=诅咒之土
-gtnh.quest1103.desc=你可以用带有精准采集的铲子挖走诅咒之土. 这种被诅咒的土壤上面的刷怪速度很快,你可以将他们带到别的地方来建立你的刷怪装置.
+#B gtnh.quest1103.desc=Kill the monsters that spawn on the cursed earth. Use a shovel with the silk touch enchantment to dig up the cursed earth blocks. You will need these blocks for your mob spawner later.
+#A gtnh.quest1103.desc=Kill the monsters that spawn on the cursed earth. Use a shovel with the silk touch enchantment to dig up the cursed earth blocks. You will need these blocks for your mob spawner later.%n%nWhen setting up a mob spawner in the Nether using Cursed Earth, poor design can cause huge TPS issues.%n%nMake sure the Cursed Earth is not attached to anything from the Nether. For example, you can place it on top of marble, but the marble cannot touch anything in the nether (netherrack, brick, etc), and must be floating in the air.%n%nAlso, limit the Cursed Earth to 1 chunk max, with 2 block buffer to the chunk edge, including a wall.
+#C gtnh.quest1103.desc=你可以用带有精准采集的铲子挖走诅咒之土. 这种被诅咒的土壤上面的刷怪速度很快,你可以将他们带到别的地方来建立你的刷怪装置.
 
 # Quest.1104 - Silky Jewel
 gtnh.quest1104.name=精致的珠宝
@@ -6002,7 +6034,9 @@ gtnh.quest1499.desc=等等,什么？你想从矿石中获得更多副产品吗�
 
 # Quest.1500 - §1§lBetter Questing?
 gtnh.quest1500.name=§1§l更好的任务？
-gtnh.quest1500.desc=要正确保存任务,你必须在线并登录Mojang帐户. 对不起,这是BQ(更好任务mod)的限制.
+#B gtnh.quest1500.desc=For quests to save properly, you must be online and logged into your Mojang account.  Sorry, it's a limitation of Better Questing.
+#A gtnh.quest1500.desc=If you need help with a quest, you can find the Quest ID by holding F3 + H together to get extended tooltips, and then Quest IDs will show in your questbook.%n%nIf you want to enable Hardcore Mode, open to LAN, enable cheats, then type %n%n§l/bq_admin hardcore%n§r%nIf you are using a personal server, you can do the command on the command line, without the /. Restart your client to leave LAN mode and disable cheats.%n%nYou only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%nFor quests to save properly, you must be online and logged into your Mojang account.  Sorry, it's a limitation of Better Questing.
+#C gtnh.quest1500.desc=要正确保存任务,你必须在线并登录Mojang帐户. 对不起,这是BQ(更好任务mod)的限制.
 
 # Quest.1501 - §1§lBackup your stuff...
 gtnh.quest1501.name=§1§l备份你的东西......
@@ -6014,7 +6048,9 @@ gtnh.quest1502.desc=厌倦了将EnderIO物品放入电容库中来充电吗？ �
 
 # Quest.1503 - §6§lNobody wants an explosion...
 gtnh.quest1503.name=§6§l没有人想爆炸......
-gtnh.quest1503.desc=...对？ 因此,在构建多方块时,请确保: 1、不要跨区块 2、不要依赖来自多方块外部的来源.换句话说,确保你在当地采购水(即水源供应). 祝你好运.
+#B gtnh.quest1503.desc=...right?  So when building multiblocks, make sure you%n%n1. Don't cross chunk boundaries with the multiblock.%n%n2. Don't rely on resources coming from outside the chunk to prevent explosions.  In other words, make sure you source your water locally.%n%nGood luck.
+#A gtnh.quest1503.desc=...right?  So when building multiblocks, make sure you%n%n1. Don't cross chunk boundaries with the multiblock.%n%n2. Don't rely on resources coming from outside the chunk to prevent explosions.  In other words, make sure you source your water locally.%n%nAlso, if you haven't discovered it yet, Electric machines don't like getting rain or snow on them. They'll start fires, and those fires have a chance of causing an explosion. Stay safe out there!%n%nGood luck.
+#C gtnh.quest1503.desc=...对？ 因此,在构建多方块时,请确保: 1、不要跨区块 2、不要依赖来自多方块外部的来源.换句话说,确保你在当地采购水(即水源供应). 祝你好运.
 
 # Quest.1504 - §2§e§k§l§r§3§2§lDivine rod of the gods?
 gtnh.quest1504.name=§2§e§k§l§r§3§2§l众神的神圣权柄？
@@ -7414,7 +7450,9 @@ gtnh.quest1852.desc=...但她永远不会停下,因为你永远有东西要磨.�
 
 # Quest.1853 - §6§lMoron's Manual for Effective EBFing
 gtnh.quest1853.name=§6§l高效工业高炉"智者"手册
-gtnh.quest1853.desc=欢迎来到最后一册"智者"手册,高效工业高炉! 这本手册包含了使用GT工业高炉会遇到的常见问题.  安装 安装你的工业高炉时,确保将其远离你的日常活动区域.没有人会喜欢污染的!  安装时,确保高炉内部中空.有时某些东西可能会偷偷溜进去,比如神秘时代的光球!  确保你的消声仓面向外面.如果不能散发出那些令人愉快的气体,工业高炉就不能工作!  在放置能源仓时,减少发电机到工业高炉的距离.  尤其是在LV电压时,短短的几米将会导致很大差异!  通过线缆传输的每安电流都会损失一点点-而你需要尽可能减少这种损失!  输出仓和输出总线会向与出口相邻的储罐和箱子自动输出流体或物品.  当输出仓/总线满了后,它们会吞掉此后的产物,所以看着点它们!  建造多个高炉时,它们可以共用机械方块、线圈、仓室、总线,节省你的开支.  不推荐共用能源仓和维护仓!(译者注:能源仓为2A输入,所以可以两台共用一个能源仓,但确保使用双能源仓升压的高炉运行时,与其共用能源仓的高炉关闭)
+#B gtnh.quest1853.desc=Welcome to the latest Moron's Manual, Effective EBFing!%nThis manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.%n%nSetup%nWhen setting up your EBF, make sure to place it a few chunks away from where you will spend most of your time.  Pollution is nobody's friend!%n%nDuring setup, make sure the center of the EBF is hollow.  Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!%n%nMake sure your muffler faces *out*, not *in*. The EBF can't work if it is not spreading those delightful odors!%n%nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF.  Especially at LV, those few meters make a big difference!  Every amp of energy travelling over a cable loses a little bit - and you'll need as much as you can get!%n%nOutput hatches and buses will automatically push into tanks and inventories placed next to them.  They will also void if they are full, so keep an eye on them!%n%nWhen build multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too.  Not recommended for energy and maintenance hatches!
+#A gtnh.quest1853.desc=Welcome to the latest Moron's Manual, Effective EBFing!%nThis manual covers common problems encountered when using the GregTech 1000 Electric Blast Furnace.%n%nSetup%nWhen setting up your EBF, make sure to place it a few chunks away from where you will spend most of your time.  Pollution is nobody's friend!%n%nDuring setup, make sure the center of the EBF is hollow.  Sometimes things can sneak in there without you noticing, like a Thaumcraft light orb!%n%nMake sure your muffler faces *out*, not *in*. The EBF can't work if it is not spreading those delightful odors!%n%nWhen placing your power hatches, make sure to minimize the distance between any generators and the EBF.  Especially at LV, those few meters make a big difference!  Every amp of energy travelling over a cable loses a little bit - and you'll need as much as you can get! Your best setup is to put two generators right next to each hatch, with a 2A cable. If you are poor, you could use 2 battery buffers with 2 batteries each directly attached to each hatch. Make sure to top off the buffers generators. If you make 9 slot battery buffers, you can fill them up over time to get longer performance until you get stable power.%n%nOutput hatches and buses will automatically push into tanks and inventories placed next to them.  They will also void if they are full, so keep an eye on them!%n%nWhen build multiple EBFs, the GregTech 1000 Electric Blast Furnace can share walls. This can save you on input and output hatches too.  Not recommended for energy and maintenance hatches!
+#C gtnh.quest1853.desc=欢迎来到最后一册"智者"手册,高效工业高炉! 这本手册包含了使用GT工业高炉会遇到的常见问题.  安装 安装你的工业高炉时,确保将其远离你的日常活动区域.没有人会喜欢污染的!  安装时,确保高炉内部中空.有时某些东西可能会偷偷溜进去,比如神秘时代的光球!  确保你的消声仓面向外面.如果不能散发出那些令人愉快的气体,工业高炉就不能工作!  在放置能源仓时,减少发电机到工业高炉的距离.  尤其是在LV电压时,短短的几米将会导致很大差异!  通过线缆传输的每安电流都会损失一点点-而你需要尽可能减少这种损失!  输出仓和输出总线会向与出口相邻的储罐和箱子自动输出流体或物品.  当输出仓/总线满了后,它们会吞掉此后的产物,所以看着点它们!  建造多个高炉时,它们可以共用机械方块、线圈、仓室、总线,节省你的开支.  不推荐共用能源仓和维护仓!(译者注:能源仓为2A输入,所以可以两台共用一个能源仓,但确保使用双能源仓升压的高炉运行时,与其共用能源仓的高炉关闭)
 
 # Quest.1854 - Just like Mom used to make
 gtnh.quest1854.name=就像妈妈以前做的
@@ -9334,7 +9372,9 @@ gtnh.quest2332.desc=铁门的建造可以使你的厂房或住房更安全.%n%n�
 
 # Quest.2333 - §a§lHow to open your Wooden Doors?
 gtnh.quest2333.name=§a§l如何打开木门?
-gtnh.quest2333.desc=木门的建造使你的住房更安全.  现在,让我们来制作一些木制的压板和按钮来打开这扇门.
+#B gtnh.quest2333.desc=Wooden doors make your House safer. %nNow let's craft some wooden Pressure plates and Buttons to open these Doors.
+#A gtnh.quest2333.desc=Wooden doors make your House safer. %nNow let's craft some wooden Pressure plates and Buttons to open these Doors.%n%nYou'll need to use Oak for this quest. Purchase some saplings from the Coins tab if you don't have any nearby.
+#C gtnh.quest2333.desc=木门的建造使你的住房更安全.  现在,让我们来制作一些木制的压板和按钮来打开这扇门.
 
 # Quest.2334 - Demonic Contract
 gtnh.quest2334.name=恶魔契约
@@ -9612,11 +9652,35 @@ gtnh.quest2401.desc=通常,你可以通过与养蜂员村民交易来获取僧�
 gtnh.quest2402.name=§2§l爆胎?平平整整!(Got a flat tire?)
 gtnh.quest2402.desc=撬棍是GT工具,用于移除机器、管道或线缆上的覆盖板.覆盖板即可用于装饰性,也可以像泵和传送带那样有具体功能,还可以用于隔离确保安全.例如可以在蒸汽管道上放一块木板,以被管道烫伤.%n译者注:不同电压的线缆之间用覆盖板隔离可有效防止手残造成的爆炸.%n%n抱歉,目前只有蓝色的撬棍!
 
+# Quest.2403 - §5§lToo much fluid? Impossible!
+#N gtnh.quest2403.name=§5§lToo much fluid? Impossible!
+#N gtnh.quest2403.desc=The time may come when you finally decide you have enough of a fluid. This overflow cover lets you tune how full a tank can get. You can put it on a smaller tank leading to a bigger tank, and when the bigger tank gets full, the fluid will backup into the smaller tank.  Once the fluid level in the smaller tank exceeds the setting on the cover, it will start voiding fluid.%n%nHandy for an oxygen centrifuge setup when you don't want to stop from excess nitrogen.
+
+# Quest.2404 - Obtaining Ender Pearls
+#N gtnh.quest2404.name=Obtaining Ender Pearls
+#N gtnh.quest2404.desc=You can hunt endermen the Vanilla way to get a chance at Ender Pearls.  You can purchase Endermen spawn eggs, or try your luck in the End. %n%nOr you can get cruel, and stuff one into a smeltery to melt it down into delicious Liquid Ender and cast pearls from it.%n%nYou monster.%n%n§cTo prevent endermen from teleporting make sure to cover the smeltery so they don't see the sky. If you manage to put a regenerating endermen in there, tag it so it doesn't despawn, and make sure your smeltery is not in a claimed chunk on a server.
+
+# Quest.2405 - Wax on, Wax off
+#N gtnh.quest2405.name=Wax on, Wax off
+#N gtnh.quest2405.desc=You can take vanilla tree saplings and place them directly on crop sticks. This will give you a "bonsai" tree. Bonsai trees will give you drops just like a tree, but without the wasted CPU of placing all the tree blocks just to chop them down again. This can be significant overhead on a server, so if you want to be nice, breed some bonsai trees for your pyrolyze ovens.
+
+# Quest.2406 - Numbers in the corner?
+#N gtnh.quest2406.name=Numbers in the corner?
+#N gtnh.quest2406.desc=What's with the numbers in the corner?  Well that's In-Game Info, a handy mod that gives you necessary information for Gregtech: New Horizons.%n%nThe most important info is whether or not you are in an ore chunk.  Later quests will explain what that means.%n%nIf you don't want to see the IGI information, you can use %n%n§l/igi disable%n/igi enable%n§r%nto disable and enable the window.%n%n§l/igi config%n%n§rwill bring up the configuration window, which you can use to control placement, and the scale/size of the font.%n%n%nAnother useful display is Extra Utilities' TPS meter. It gives you the instantaneous tps, average tps, and worst-case tps. TPS is Ticks-per-second, a measure of how well your server is running. TPS=20 is ideal, and TPS<15 is going to start noticeably lagging. TPS<10 is going to be hard to play. If you need suggestions solving TPS problems, contact us on Discord.%n%nEnable the display with%n%n§l/xu_tps
+
+# Quest.2407 - §3§lWhat engineer doesn't want a portable workbench?
+#N gtnh.quest2407.name=§3§lWhat engineer doesn't want a portable workbench?
+#N gtnh.quest2407.desc=This backpack sacrifices some space to give you a portable crafting table. You have to put the items you want to craft inside the backpack. Because of this, you can use it to quickly craft large amounts of items at once. %n%nLater you can use the Forestry Worktable with its larger inventory to do the same. Once you reach MV, you can switch to an Adventure Backpack that includes a pair of tanks for storing fluids.
+
 ##################################Line##################################
 
 # QuestLine.0 - Tier 0 - It begins
 gtnh.line0.name=第0阶-由此开始
 gtnh.line0.desc=第一层︰0阶.本章节将介绍基本这模块包的基本机制,包含︰原版、潘马斯丰收.
+
+# QuestLine.44 - Tips and Tricks
+#N gtnh.line44.name=Tips and Tricks
+#N gtnh.line44.desc=All our collected wisdom, in one convenient place. Many Greggers died to bring you this knowledge.
 
 # QuestLine.1 - Tier 0.5 - Stone Age
 gtnh.line1.name=第0.5阶-石器时代
