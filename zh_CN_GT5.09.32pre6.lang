@@ -5518,7 +5518,7 @@ languagefile {
     S:gt.blockmachines.gt_frame_wroughtiron.name=锻铁框架
     S:gt.blockmachines.gt_frame_yttrium.name=钇框架
     S:gt.blockmachines.gt_frame_yttriumbariumcuprate.name=钇钡铜氧合金框架
-    S:gt.blockmachines.gt_frame_zinc.name=锌框架
+    S:gt.blockmachines.gt_frame_zinc.name=%material框架
     S:gt.blockmachines.gt_pipe_aluminium.name=铝物品管道
     S:gt.blockmachines.gt_pipe_aluminium_huge.name=巨型铝物品管道
     S:gt.blockmachines.gt_pipe_aluminium_large.name=大型铝物品管道
@@ -5599,9 +5599,9 @@ languagefile {
     S:gt.blockmachines.gt_pipe_restrictive_polyvinylchloride.name=加固PVC物品管道
     S:gt.blockmachines.gt_pipe_restrictive_polyvinylchloride_huge.name=巨型加固PVC物品管道
     S:gt.blockmachines.gt_pipe_restrictive_polyvinylchloride_large.name=大型加固PVC物品管道
-    S:gt.blockmachines.gt_pipe_restrictive_wroughtiron.name=加固锡物品管道
-    S:gt.blockmachines.gt_pipe_restrictive_wroughtiron_huge.name=巨型加固锡物品管道
-    S:gt.blockmachines.gt_pipe_restrictive_wroughtiron_large.name=大型加固锡物品管道
+    S:gt.blockmachines.gt_pipe_restrictive_wroughtiron.name=加固%material物品管道
+    S:gt.blockmachines.gt_pipe_restrictive_wroughtiron_huge.name=巨型加固%material物品管道
+    S:gt.blockmachines.gt_pipe_restrictive_wroughtiron_large.name=大型加固%material物品管道
     S:gt.blockmachines.gt_pipe_stainlesssteel.name=不锈钢流体管道
     S:gt.blockmachines.gt_pipe_stainlesssteel_huge.name=巨型不锈钢流体管道
     S:gt.blockmachines.gt_pipe_stainlesssteel_large.name=大型不锈钢流体管道
@@ -5623,16 +5623,16 @@ languagefile {
     S:gt.blockmachines.gt_pipe_titanium_quadruple.name=四联钛流体管道
     S:gt.blockmachines.gt_pipe_titanium_small.name=小型钛流体管道
     S:gt.blockmachines.gt_pipe_titanium_tiny.name=微型钛流体管道
-    S:gt.blockmachines.gt_pipe_tungstensteel.name=钨钢流体管道
-    S:gt.blockmachines.gt_pipe_tungstensteel_huge.name=巨型钨钢流体管道
-    S:gt.blockmachines.gt_pipe_tungstensteel_large.name=大型钨钢流体管道
-    S:gt.blockmachines.gt_pipe_tungstensteel_nonuple.name=九联钨钢流体管道
-    S:gt.blockmachines.gt_pipe_tungstensteel_quadruple.name=四联钨钢流体管道
-    S:gt.blockmachines.gt_pipe_tungstensteel_small.name=小型钨钢流体管道
-    S:gt.blockmachines.gt_pipe_tungstensteel_tiny.name=微型钨钢流体管道
-    S:gt.blockmachines.gt_pipe_wood.name=木制流体管道
-    S:gt.blockmachines.gt_pipe_wood_large.name=大型木制流体管道
-    S:gt.blockmachines.gt_pipe_wood_small.name=小型木制流体管道
+    S:gt.blockmachines.gt_pipe_tungstensteel.name=%material流体管道
+    S:gt.blockmachines.gt_pipe_tungstensteel_huge.name=巨型%material流体管道
+    S:gt.blockmachines.gt_pipe_tungstensteel_large.name=大型%material流体管道
+    S:gt.blockmachines.gt_pipe_tungstensteel_nonuple.name=九联%material流体管道
+    S:gt.blockmachines.gt_pipe_tungstensteel_quadruple.name=四联%material流体管道
+    S:gt.blockmachines.gt_pipe_tungstensteel_small.name=小型%material流体管道
+    S:gt.blockmachines.gt_pipe_tungstensteel_tiny.name=微型%material流体管道
+    S:gt.blockmachines.gt_pipe_wood.name=%material流体管道
+    S:gt.blockmachines.gt_pipe_wood_large.name=大型%material流体管道
+    S:gt.blockmachines.gt_pipe_wood_small.name=小型%material流体管道
     S:gt.blockmachines.gt_pipe_wroughtiron.name=%material物品管道
     S:gt.blockmachines.gt_pipe_wroughtiron_huge.name=巨型%material物品管道
     S:gt.blockmachines.gt_pipe_wroughtiron_large.name=大型%material物品管道
@@ -11999,7 +11999,7 @@ languagefile {
     S:gt.metaitem.01.11880.tooltip=C₅H₈
     S:gt.metaitem.01.11980.name=砷化镓锭
     S:gt.metaitem.01.11980.tooltip=AsGa
-    S:gt.metaitem.01.11981.name=磷化铟镓锭
+    S:gt.metaitem.01.11981.name=%material锭
     S:gt.metaitem.01.11981.tooltip=InGaP
     S:gt.metaitem.01.12028.name=热钛锭
     S:gt.metaitem.01.12028.tooltip=Ti
@@ -12053,7 +12053,7 @@ languagefile {
     S:gt.metaitem.01.12372.tooltip=(Fe₅₀CW)₅CrMo₂V
     S:gt.metaitem.01.12373.name=热高速钢-E锭
     S:gt.metaitem.01.12373.tooltip=((Fe₅₀CW)₅CrMo₂V)₆CoMnSi
-    S:gt.metaitem.01.12374.name=热高速钢-S锭
+    S:gt.metaitem.01.12374.name=热%material锭
     S:gt.metaitem.01.12374.tooltip=((Fe₅₀CW)₅CrMo₂V)₆Ir₂Os
     S:gt.metaitem.01.1241.name=小堆铂系矿泥粉
     S:gt.metaitem.01.1241.tooltip=
@@ -12335,7 +12335,7 @@ languagefile {
     S:gt.metaitem.01.17067.tooltip=Nd
     S:gt.metaitem.01.17070.name=铕板
     S:gt.metaitem.01.17070.tooltip=Eu
-    S:gt.metaitem.01.17080.name=磷化铟镓板
+    S:gt.metaitem.01.17080.name=钽板
     S:gt.metaitem.01.17080.tooltip=Ta
     S:gt.metaitem.01.17081.name=钨板
     S:gt.metaitem.01.17081.tooltip=W
@@ -12523,7 +12523,7 @@ languagefile {
     S:gt.metaitem.01.17610.tooltip=C₂H₄O
     S:gt.metaitem.01.17613.name=镍锌铁氧体板
     S:gt.metaitem.01.17613.tooltip=NiZnFe₄O₈
-    S:gt.metaitem.01.17631.name=聚苯硫醚板
+    S:gt.metaitem.01.17631.name=%material板
     S:gt.metaitem.01.17631.tooltip=C₆H₄S
     S:gt.metaitem.01.17635.name=丁苯橡胶片
     S:gt.metaitem.01.17635.tooltip=C₈H₈(C₄H₆)₃
@@ -12549,7 +12549,7 @@ languagefile {
     S:gt.metaitem.01.17890.tooltip=SiO₂
     S:gt.metaitem.01.17980.name=砷化镓板
     S:gt.metaitem.01.17980.tooltip=AsGa
-    S:gt.metaitem.01.17981.name=磷化铟镓板
+    S:gt.metaitem.01.17981.name=%material板
     S:gt.metaitem.01.17981.tooltip=InGaP
     S:gt.metaitem.01.18.name=小撮镁粉
     S:gt.metaitem.01.18.tooltip=Mg
@@ -12791,7 +12791,7 @@ languagefile {
     S:gt.metaitem.01.18610.tooltip=C₂H₄O
     S:gt.metaitem.01.18613.name=双重镍锌铁氧体板
     S:gt.metaitem.01.18613.tooltip=NiZnFe₄O₈
-    S:gt.metaitem.01.18631.name=双重聚苯硫醚板
+    S:gt.metaitem.01.18631.name=双重%material板
     S:gt.metaitem.01.18631.tooltip=C₆H₄S
     S:gt.metaitem.01.1865.name=小堆石墨粉
     S:gt.metaitem.01.1865.tooltip=
@@ -12899,7 +12899,7 @@ languagefile {
     S:gt.metaitem.01.1947.tooltip=
     S:gt.metaitem.01.1980.name=小堆砷化镓粉
     S:gt.metaitem.01.1980.tooltip=AsGa
-    S:gt.metaitem.01.1981.name=小堆磷化铟镓粉
+    S:gt.metaitem.01.1981.name=小堆%material粉
     S:gt.metaitem.01.1981.tooltip=InGaP
     S:gt.metaitem.01.19879.name=厚纸板
     S:gt.metaitem.01.19879.tooltip=
@@ -13317,7 +13317,7 @@ languagefile {
     S:gt.metaitem.01.23635.tooltip=C₈H₈(C₄H₆)₃
     S:gt.metaitem.01.23636.name=聚苯乙烯杆
     S:gt.metaitem.01.23636.tooltip=C₈H₈
-    S:gt.metaitem.01.23649.name=聚氯乙烯杆
+    S:gt.metaitem.01.23649.name=%material杆
     S:gt.metaitem.01.23649.tooltip=C₂H₃Cl
     S:gt.metaitem.01.2370.name=碳化钨粉
     S:gt.metaitem.01.2370.tooltip=WC
@@ -13337,7 +13337,7 @@ languagefile {
     S:gt.metaitem.01.23874.tooltip=CH₂
     S:gt.metaitem.01.23880.name=橡胶杆
     S:gt.metaitem.01.23880.tooltip=C₅H₈
-    S:gt.metaitem.01.23889.name=蜡封木棍
+    S:gt.metaitem.01.23889.name=%material杆
     S:gt.metaitem.01.23889.tooltip=
     S:gt.metaitem.01.241.name=小撮铂系矿泥粉
     S:gt.metaitem.01.241.tooltip=
@@ -13717,9 +13717,9 @@ languagefile {
     S:gt.metaitem.01.2685.tooltip=NaOH
     S:gt.metaitem.01.26874.name=聚乙烯螺栓
     S:gt.metaitem.01.26874.tooltip=CH₂
-    S:gt.metaitem.01.26880.name=橡胶螺栓
+    S:gt.metaitem.01.26880.name=%material螺栓
     S:gt.metaitem.01.26880.tooltip=C₅H₈
-    S:gt.metaitem.01.26889.name=短蜡封木棍
+    S:gt.metaitem.01.26889.name=%material螺栓
     S:gt.metaitem.01.26889.tooltip=
     S:gt.metaitem.01.27008.name=铍螺丝
     S:gt.metaitem.01.27008.tooltip=Be
@@ -13921,7 +13921,7 @@ languagefile {
     S:gt.metaitem.01.27874.tooltip=CH₂
     S:gt.metaitem.01.27880.name=橡胶螺丝
     S:gt.metaitem.01.27880.tooltip=C₅H₈
-    S:gt.metaitem.01.27889.name=蜡封木螺丝
+    S:gt.metaitem.01.27889.name=%material螺丝
     S:gt.metaitem.01.27889.tooltip=
     S:gt.metaitem.01.28.name=小撮钛粉
     S:gt.metaitem.01.28.tooltip=Ti
@@ -14131,7 +14131,7 @@ languagefile {
     S:gt.metaitem.01.29070.tooltip=Eu
     S:gt.metaitem.01.2908.name=菱镁矿粉
     S:gt.metaitem.01.2908.tooltip=MgCO₃
-    S:gt.metaitem.01.29080.name=聚苯硫醚箔
+    S:gt.metaitem.01.29080.name=%material箔
     S:gt.metaitem.01.29080.tooltip=Ta
     S:gt.metaitem.01.29081.name=钨箔
     S:gt.metaitem.01.29081.tooltip=W
@@ -14209,13 +14209,13 @@ languagefile {
     S:gt.metaitem.01.2947.tooltip=
     S:gt.metaitem.01.29471.name=薄硅橡胶片
     S:gt.metaitem.01.29471.tooltip=C₂H₆OSi
-    S:gt.metaitem.01.29631.name=聚苯硫醚箔
+    S:gt.metaitem.01.29631.name=%material箔
     S:gt.metaitem.01.29631.tooltip=C₆H₄S
     S:gt.metaitem.01.29649.name=薄聚氯乙烯片
     S:gt.metaitem.01.29649.tooltip=C₂H₃Cl
     S:gt.metaitem.01.2980.name=砷化镓粉
     S:gt.metaitem.01.2980.tooltip=AsGa
-    S:gt.metaitem.01.2981.name=磷化铟镓粉
+    S:gt.metaitem.01.2981.name=%material粉
     S:gt.metaitem.01.2981.tooltip=InGaP
     S:gt.metaitem.01.29874.name=薄聚乙烯片
     S:gt.metaitem.01.29874.tooltip=CH₂
@@ -15593,7 +15593,7 @@ languagefile {
     S:gt.metaitem.01.3943.tooltip=MnO₂
     S:gt.metaitem.01.3944.name=含杂岩盐
     S:gt.metaitem.01.3944.tooltip=KCl
-    S:gt.metaitem.01.3945.name=含杂辉锑矿粉
+    S:gt.metaitem.01.3945.name=含杂%material粉
     S:gt.metaitem.01.3945.tooltip=Sb₂S₃
     S:gt.metaitem.01.4006.name=洁净锂粉
     S:gt.metaitem.01.4006.tooltip=Li
@@ -15821,7 +15821,7 @@ languagefile {
     S:gt.metaitem.01.4943.tooltip=MnO₂
     S:gt.metaitem.01.4944.name=洁净岩盐
     S:gt.metaitem.01.4944.tooltip=KCl
-    S:gt.metaitem.01.4945.name=洁净辉锑矿粉
+    S:gt.metaitem.01.4945.name=洁净%material粉
     S:gt.metaitem.01.4945.tooltip=Sb₂S₃
     S:gt.metaitem.01.500.name=小撮钻石粉
     S:gt.metaitem.01.500.tooltip=C
@@ -16111,7 +16111,7 @@ languagefile {
     S:gt.metaitem.01.5943.tooltip=MnO₂
     S:gt.metaitem.01.5944.name=粉碎的岩盐矿石
     S:gt.metaitem.01.5944.tooltip=KCl
-    S:gt.metaitem.01.5945.name=粉碎的辉锑矿矿石
+    S:gt.metaitem.01.5945.name=粉碎的%material矿石
     S:gt.metaitem.01.5945.tooltip=Sb₂S₃
     S:gt.metaitem.01.6.name=小撮锂粉
     S:gt.metaitem.01.6.tooltip=Li
@@ -16389,7 +16389,7 @@ languagefile {
     S:gt.metaitem.01.6943.tooltip=MnO₂
     S:gt.metaitem.01.6944.name=洗净的岩盐矿石
     S:gt.metaitem.01.6944.tooltip=KCl
-    S:gt.metaitem.01.6945.name=洗净的辉锑矿矿石
+    S:gt.metaitem.01.6945.name=洗净的%material矿石
     S:gt.metaitem.01.6945.tooltip=Sb₂S₃
     S:gt.metaitem.01.70.name=小撮铕粉
     S:gt.metaitem.01.70.tooltip=Eu
@@ -16611,7 +16611,7 @@ languagefile {
     S:gt.metaitem.01.7943.tooltip=MnO₂
     S:gt.metaitem.01.7944.name=离心岩盐矿石
     S:gt.metaitem.01.7944.tooltip=KCl
-    S:gt.metaitem.01.7945.name=离心辉锑矿矿石
+    S:gt.metaitem.01.7945.name=离心%material矿石
     S:gt.metaitem.01.7945.tooltip=Sb₂S₃
     S:gt.metaitem.01.8.name=小撮铍粉
     S:gt.metaitem.01.8.tooltip=Be
@@ -17097,7 +17097,7 @@ languagefile {
     S:gt.metaitem.01.980.tooltip=AsGa
     S:gt.metaitem.01.9809.name=木颗粒
     S:gt.metaitem.01.9809.tooltip=
-    S:gt.metaitem.01.981.name=小撮磷化铟镓粉
+    S:gt.metaitem.01.981.name=小撮%material粉
     S:gt.metaitem.01.981.tooltip=InGaP
     S:gt.metaitem.01.9874.name=聚乙烯颗粒
     S:gt.metaitem.01.9874.tooltip=CH₂
@@ -17107,7 +17107,7 @@ languagefile {
     S:gt.metaitem.01.9889.tooltip=
     S:gt.metaitem.01.9980.name=砷化镓粒
     S:gt.metaitem.01.9980.tooltip=AsGa
-    S:gt.metaitem.01.9981.name=磷化铟镓粒
+    S:gt.metaitem.01.9981.name=%material粒
     S:gt.metaitem.01.9981.tooltip=InGaP
     S:gt.metaitem.01.name=Generated Item
     S:gt.metaitem.02.10.name=碳剑刃
@@ -17290,7 +17290,7 @@ languagefile {
     S:gt.metaitem.02.10801.tooltip=CSMa
     S:gt.metaitem.02.1081.name=钨镐头
     S:gt.metaitem.02.1081.tooltip=W
-    S:gt.metaitem.02.10819.name=石墨烯扳手顶
+    S:gt.metaitem.02.10819.name=%material扳手顶
     S:gt.metaitem.02.10819.tooltip=
     S:gt.metaitem.02.1083.name=锇镐头
     S:gt.metaitem.02.1083.tooltip=Os
@@ -17522,7 +17522,7 @@ languagefile {
     S:gt.metaitem.02.11874.tooltip=CH₂
     S:gt.metaitem.02.11880.name=橡胶万用铲头
     S:gt.metaitem.02.11880.tooltip=C₅H₈
-    S:gt.metaitem.02.11889.name=蜡封木万用铲头
+    S:gt.metaitem.02.11889.name=%material万用铲头
     S:gt.metaitem.02.11889.tooltip=
     S:gt.metaitem.02.12008.name=铍镰刀刃
     S:gt.metaitem.02.12008.tooltip=Be
@@ -17730,7 +17730,7 @@ languagefile {
     S:gt.metaitem.02.12874.tooltip=CH₂
     S:gt.metaitem.02.12880.name=橡胶镰刀刃
     S:gt.metaitem.02.12880.tooltip=C₅H₈
-    S:gt.metaitem.02.12889.name=蜡封木镰刀刃
+    S:gt.metaitem.02.12889.name=%material镰刀刃
     S:gt.metaitem.02.12889.tooltip=
     S:gt.metaitem.02.129.name=中子锭剑刃
     S:gt.metaitem.02.129.tooltip=Nt
@@ -18022,7 +18022,7 @@ languagefile {
     S:gt.metaitem.02.13874.tooltip=CH₂
     S:gt.metaitem.02.13880.name=橡胶犁头
     S:gt.metaitem.02.13880.tooltip=C₅H₈
-    S:gt.metaitem.02.13889.name=蜡封木犁头
+    S:gt.metaitem.02.13889.name=%material犁头
     S:gt.metaitem.02.13889.tooltip=
     S:gt.metaitem.02.1470.name=环氧树脂镐头
     S:gt.metaitem.02.1470.tooltip=C₂H₄O
@@ -18212,7 +18212,7 @@ languagefile {
     S:gt.metaitem.02.15631.tooltip=C₆H₄S
     S:gt.metaitem.02.15801.name=烈焰圆锯锯刃
     S:gt.metaitem.02.15801.tooltip=CSMa
-    S:gt.metaitem.02.15819.name=石墨烯圆锯锯刃
+    S:gt.metaitem.02.15819.name=%material圆锯锯刃
     S:gt.metaitem.02.15819.tooltip=
     S:gt.metaitem.02.16008.name=铍涡轮扇叶
     S:gt.metaitem.02.16008.tooltip=Be
@@ -18372,7 +18372,7 @@ languagefile {
     S:gt.metaitem.02.16631.tooltip=C₆H₄S
     S:gt.metaitem.02.16801.name=烈焰涡轮扇叶
     S:gt.metaitem.02.16801.tooltip=CSMa
-    S:gt.metaitem.02.16819.name=石墨烯涡轮扇叶
+    S:gt.metaitem.02.16819.name=%material涡轮扇叶
     S:gt.metaitem.02.16819.tooltip=
     S:gt.metaitem.02.1801.name=烈焰镐头
     S:gt.metaitem.02.1801.tooltip=CSMa
@@ -18392,7 +18392,7 @@ languagefile {
     S:gt.metaitem.02.1874.tooltip=CH₂
     S:gt.metaitem.02.1880.name=橡胶镐头
     S:gt.metaitem.02.1880.tooltip=C₅H₈
-    S:gt.metaitem.02.1889.name=蜡封木镐头
+    S:gt.metaitem.02.1889.name=%material镐头
     S:gt.metaitem.02.1889.tooltip=
     S:gt.metaitem.02.19.name=铝剑刃
     S:gt.metaitem.02.19.tooltip=Al
@@ -18710,7 +18710,7 @@ languagefile {
     S:gt.metaitem.02.22874.tooltip=CH₂
     S:gt.metaitem.02.22880.name=长橡胶杆
     S:gt.metaitem.02.22880.tooltip=C₅H₈
-    S:gt.metaitem.02.22889.name=长蜡封木棍
+    S:gt.metaitem.02.22889.name=长%material杆
     S:gt.metaitem.02.22889.tooltip=
     S:gt.metaitem.02.2299.name=石铲头
     S:gt.metaitem.02.2299.tooltip=
@@ -18886,7 +18886,7 @@ languagefile {
     S:gt.metaitem.02.27527.tooltip=(Al₂Mg₃Si₃O₁₂)₃(Al₂Fe₃Si₃O₁₂)₅(Al₂Mn₃Si₃O₁₂)₈
     S:gt.metaitem.02.27528.name=破碎的%material
     S:gt.metaitem.02.27528.tooltip=(Ca₃Fe₂Si₃O₁₂)₅(Ca₃Al₂Si₃O₁₂)₈(Ca₃Cr₂Si₃O₁₂)₃
-    S:gt.metaitem.02.27890.name=破碎的玻璃晶体
+    S:gt.metaitem.02.27890.name=破碎的%material
     S:gt.metaitem.02.27890.tooltip=SiO₂
     S:gt.metaitem.02.28.name=钛剑刃
     S:gt.metaitem.02.28.tooltip=Ti
@@ -18940,9 +18940,9 @@ languagefile {
     S:gt.metaitem.02.2874.tooltip=CH₂
     S:gt.metaitem.02.2880.name=橡胶铲头
     S:gt.metaitem.02.2880.tooltip=C₅H₈
-    S:gt.metaitem.02.2889.name=蜡封木铲头
+    S:gt.metaitem.02.2889.name=%material铲头
     S:gt.metaitem.02.2889.tooltip=
-    S:gt.metaitem.02.28890.name=有瑕的玻璃晶体
+    S:gt.metaitem.02.28890.name=有瑕的%material
     S:gt.metaitem.02.28890.tooltip=SiO₂
     S:gt.metaitem.02.29500.name=无瑕的钻石
     S:gt.metaitem.02.29500.tooltip=C
@@ -18976,7 +18976,7 @@ languagefile {
     S:gt.metaitem.02.29527.tooltip=(Al₂Mg₃Si₃O₁₂)₃(Al₂Fe₃Si₃O₁₂)₅(Al₂Mn₃Si₃O₁₂)₈
     S:gt.metaitem.02.29528.name=无瑕的%material
     S:gt.metaitem.02.29528.tooltip=(Ca₃Fe₂Si₃O₁₂)₅(Ca₃Al₂Si₃O₁₂)₈(Ca₃Cr₂Si₃O₁₂)₃
-    S:gt.metaitem.02.29890.name=无瑕的玻璃晶体
+    S:gt.metaitem.02.29890.name=无瑕的%material
     S:gt.metaitem.02.29890.tooltip=SiO₂
     S:gt.metaitem.02.299.name=石剑刃
     S:gt.metaitem.02.299.tooltip=
@@ -19716,7 +19716,7 @@ languagefile {
     S:gt.metaitem.02.3874.tooltip=CH₂
     S:gt.metaitem.02.3880.name=橡胶斧头
     S:gt.metaitem.02.3880.tooltip=C₅H₈
-    S:gt.metaitem.02.3889.name=蜡封木斧头
+    S:gt.metaitem.02.3889.name=%material斧头
     S:gt.metaitem.02.3889.tooltip=
     S:gt.metaitem.02.4008.name=铍锄头
     S:gt.metaitem.02.4008.tooltip=Be
@@ -19934,7 +19934,7 @@ languagefile {
     S:gt.metaitem.02.4874.tooltip=CH₂
     S:gt.metaitem.02.4880.name=橡胶锄头
     S:gt.metaitem.02.4880.tooltip=C₅H₈
-    S:gt.metaitem.02.4889.name=蜡封木锄头
+    S:gt.metaitem.02.4889.name=%material锄头
     S:gt.metaitem.02.4889.tooltip=
     S:gt.metaitem.02.500.name=钻石剑刃
     S:gt.metaitem.02.500.tooltip=C
@@ -20180,7 +20180,7 @@ languagefile {
     S:gt.metaitem.02.5874.tooltip=CH₂
     S:gt.metaitem.02.5880.name=橡胶锤头
     S:gt.metaitem.02.5880.tooltip=C₅H₈
-    S:gt.metaitem.02.5889.name=蜡封木锤头
+    S:gt.metaitem.02.5889.name=%material锤头
     S:gt.metaitem.02.5889.tooltip=
     S:gt.metaitem.02.6008.name=铍锉刀刃
     S:gt.metaitem.02.6008.tooltip=Be
@@ -20342,7 +20342,7 @@ languagefile {
     S:gt.metaitem.02.67.tooltip=Nd
     S:gt.metaitem.02.6801.name=烈焰锉刀刃
     S:gt.metaitem.02.6801.tooltip=CSMa
-    S:gt.metaitem.02.6819.name=石墨烯锉刀刃
+    S:gt.metaitem.02.6819.name=%material锉刀刃
     S:gt.metaitem.02.6819.tooltip=
     S:gt.metaitem.02.7008.name=铍锯刃
     S:gt.metaitem.02.7008.tooltip=Be
@@ -20490,7 +20490,7 @@ languagefile {
     S:gt.metaitem.02.7631.tooltip=C₆H₄S
     S:gt.metaitem.02.7801.name=烈焰锯刃
     S:gt.metaitem.02.7801.tooltip=CSMa
-    S:gt.metaitem.02.7819.name=石墨烯锯刃
+    S:gt.metaitem.02.7819.name=%material锯刃
     S:gt.metaitem.02.7819.tooltip=
     S:gt.metaitem.02.8.name=铍剑刃
     S:gt.metaitem.02.8.tooltip=Be
@@ -20668,7 +20668,7 @@ languagefile {
     S:gt.metaitem.02.880.tooltip=C₅H₈
     S:gt.metaitem.02.8801.name=烈焰电钻钻头
     S:gt.metaitem.02.8801.tooltip=CSMa
-    S:gt.metaitem.02.8819.name=石墨烯电钻钻头
+    S:gt.metaitem.02.8819.name=%material电钻钻头
     S:gt.metaitem.02.8819.tooltip=
     S:gt.metaitem.02.889.name=蜡封木剑刃
     S:gt.metaitem.02.889.tooltip=
@@ -20824,11 +20824,11 @@ languagefile {
     S:gt.metaitem.02.9631.tooltip=C₆H₄S
     S:gt.metaitem.02.97.name=铀-235剑刃
     S:gt.metaitem.02.97.tooltip=U-235
-    S:gt.metaitem.02.98.name=铀-238剑刃
+    S:gt.metaitem.02.98.name=%material剑刃
     S:gt.metaitem.02.98.tooltip=U
     S:gt.metaitem.02.9801.name=烈焰链锯刃
     S:gt.metaitem.02.9801.tooltip=CSMa
-    S:gt.metaitem.02.9819.name=石墨烯链锯刃
+    S:gt.metaitem.02.9819.name=%material链锯刃
     S:gt.metaitem.02.9819.tooltip=
     S:gt.metaitem.02.name=Generated Item
     S:gt.metaitem.03.1031.name=板条箱：锰锭
