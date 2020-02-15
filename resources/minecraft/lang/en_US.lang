@@ -1560,9 +1560,9 @@ gtnh.quest388.desc=While the normal world is based on vis and primal energy, the
 gtnh.quest389.name=Draconic evolution
 gtnh.quest389.desc=I found a way to combine technology and magic into something fantastic. A shiny blue emblem that emits immense amount of energy. I've decided to call it the draconic core. Make one for yourself!
 
-# Quest.390 - Balanced thaumium
-gtnh.quest390.name=Balanced thaumium
-gtnh.quest390.desc=This new metal is quite cheap, and has an awesome conductivity towards all 6 primal aspects. Regarding the capsule, I'd say it is a superconductor for vis. I think I can finally assemble the final frame.
+# Quest.390 - Ichorium
+gtnh.quest390.name=Ichorium
+gtnh.quest390.desc=This new metal is quite expensive, and has an awesome hardness and is very resillient, to a point where mundane materials could never get.%nI think I can finally assemble the final frame.
 
 # Quest.391 - Automated evolution
 gtnh.quest391.name=Automated evolution
@@ -1586,7 +1586,7 @@ gtnh.quest395.desc=By combining a dimensional singularity with some glass cylind
 
 # Quest.396 - The final steps
 gtnh.quest396.name=The final steps
-gtnh.quest396.desc=Now that I've found a way to stabilize the draconium dust and keep it safe in a small capsule, I just need to make a small container for it, so I can drain the energy on demand. Neutronium will serve very well, but I need a magic conductor. Thaumium works, but gets way too hot and void metal has a bad conductivity. I need to find a magic alloy that is more "balanced" in terms of primal aspects
+gtnh.quest396.desc=Now that I've found a way to stabilize the draconium dust and keep it safe in a small capsule, I just need to make a small container for it, so I can drain the energy on demand. Neutronium will serve very well, but I need a magic conductor. Thaumium works, but gets way too hot and void metal has a bad conductivity. I need to find a high tier magic metal that is extremly strong and resillient, to a point where mundane materials could never get.
 
 # Quest.397 - Endless evolution
 gtnh.quest397.name=Endless evolution
@@ -3346,7 +3346,7 @@ gtnh.quest835.desc=Every basic circuit needs two resistors to work
 
 # Quest.836 - §5§lGallium Arsenide
 gtnh.quest836.name=§5§lGallium Arsenide
-gtnh.quest836.desc=The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite dust in an electrolyzer is the primary source of gallium at this tier. %nYou can also get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get additional crushed ore, use a Tinker's Construct tool with the Luck (Fortune) enchant on it - apply a lot of Lapis. %n%nYou can get arsenic from realgar small ores in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Other sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest.%n%nYou need to level up your obsidian level tool, use a alumite tool, or make an Ironwood Pickaxe to harvest cobalt ore.%n%nAnother nice way to get gallium and arsenic is with XP buckets in a crafting grid.%n%nMix those two dusts in a mixer to get gallium arsenic dust.%n%nIn the nether it is easier to use a GT miner near the ceiling to get all the ores you need.
+gtnh.quest836.desc=The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite dust in an electrolyzer is the primary source of gallium at this tier. %nYou can also get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get additional crushed ore, use a Tinker's Construct tool with the Luck (Fortune) enchant on it - apply a lot of Lapis. %n%nYou can get arsenic from realgar small ores in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Other sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest.%n%nYou need to level up your pickaxe to ardite or make an Ironwood Pickaxe to harvest cobalt ore.%n%nAnother nice way to get gallium and arsenic is with XP buckets in a crafting grid.%n%nMix those two dusts in a mixer to get gallium arsenic dust.%n%nIn the nether it is easier to use a GT miner near the ceiling to get all the ores you need.%n%nAnother source is cobaltite ore. You get arsenic out of it during electrolyzing but that requires MV Voltage.
 
 # Quest.837 - §6§lILC and RAM
 gtnh.quest837.name=§6§lILC and RAM
@@ -3970,7 +3970,7 @@ gtnh.quest991.desc=In order to upgrade one armor item with basic upgrades, you n
 
 # Quest.992 - Go find some tropical bees
 gtnh.quest992.name=Go find some tropical bees
-gtnh.quest992.desc=Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very aggressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist's clothes.%nLooking for pristine Bees.
+gtnh.quest992.desc=Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very aggressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist's clothes. Try to get pristine bees. If you're having trouble finding them, you can use Nature's Compass to search for a specific biome.
 
 # Quest.993 - Silky combs and Propolis
 gtnh.quest993.name=Silky combs and Propolis
@@ -7340,8 +7340,8 @@ gtnh.quest1833.desc=To process the most advanced materials like Infinity Catalys
 gtnh.quest1834.name=§1§lMushroom Biomes ? why there so many?
 gtnh.quest1834.desc=GNTH pack is made for the rwg worldgen. If you run the vanilla biomes worlgen you get huge Mushroom biomes over the map. Go and generate a new world before you continue this one. If you run a server put this inside your server.properties file.%n%n§5 §5§4§3§2§3§b§4§3§2§3§4§5§l"level-type=rwg".
 
-# Quest.1835 - §6§lTantalum
-gtnh.quest1835.name=§6§lTantalum
+# Quest.1835 - §6§lTantalum Overworld
+gtnh.quest1835.name=§6§lTantalum Overworld
 gtnh.quest1835.desc=Tantalum is used in the GT and Ender IO Capacitors and also a source for niobium. It is a cheap essentia source for Thaumcraft later on.%nYou will find Tantalite Mix at Y 20-30 on the Overworld.
 
 # Quest.1836 - Kitchenware 2.0
@@ -9590,7 +9590,7 @@ gtnh.quest2396.desc=Hydrogen Peroxide is made in a GT++ Chemical Plant.%n%nGood 
 
 # Quest.2397 - Playing with the Big Boys, chemically
 gtnh.quest2397.name=Playing with the Big Boys, chemically
-gtnh.quest2397.desc=This facility will process certain chemical recipes you'll need later on.%n%nIt will need a mine cart load of reources, so start mining!%n%nValid solid steel casings:%nSolid steel casings%nClean Stainless Steel Casing%nStable Titanium Casing%nRobust Tungsten Steel Casing%n%nValid pipe casings:%nBronze%nSteel%nTitanium%nTungsten
+gtnh.quest2397.desc=This facility will process certain chemical recipes you'll need later on. Keep in mind that recipes can only be made after meeting the required Chemical Plant tier.%n%nIt will need a mine cart load of reources, so start mining!%n%nValid solid casings:%nSolid Steel Machine Casing%nClean Stainless Steel Machine Casing%nStable Titanium Machine Casing%nRobust Tungstensteel Casing%n%nValid machine casings:%nLV, MV, HV, etc. Machine Casing%n%nValid pipe casings:%nBronze%nSteel%nTitanium%nTungstensteel
 
 # Quest.2398 - §3§lHidden drawers
 gtnh.quest2398.name=§3§lHidden drawers
@@ -9631,6 +9631,82 @@ gtnh.quest2406.desc=What's with the numbers in the corner?  Well that's In-Game 
 # Quest.2407 - §3§lWhat engineer doesn't want a portable workbench?
 gtnh.quest2407.name=§3§lWhat engineer doesn't want a portable workbench?
 gtnh.quest2407.desc=This backpack sacrifices some space to give you a portable crafting table. You have to put the items you want to craft inside the backpack. Because of this, you can use it to quickly craft large amounts of items at once. %n%nLater you can use the Forestry Worktable with its larger inventory to do the same. Once you reach MV, you can switch to an Adventure Backpack that includes a pair of tanks for storing fluids.
+
+# Quest.2408 - Controlling Your Drawers
+gtnh.quest2408.name=Controlling Your Drawers
+gtnh.quest2408.desc=Now that you have MV Circuits and Stainless Steel, you can make the incredibly handy Drawer Controller. This block will make any drawers it connects to in a 12-block radius (including the y-axis) part of a multiblock that allows storage (and retrieval with the right setup) to any of the blocks that make it up. This will allow you to dump the contents of your mining trip into a storage system much easier. Just hold right click on the Controller front for a second or two, and any items that match what's already in the multiblock will be deposited, while your tools and such won't. Just make sure to place your Controller last so it registers all the drawers.%n%nYou can feed into the Controller (and thus the rest of the drawers) with any kind of piping or hopper equivalent. If using it as part of a Multifarm or Mob Farm, make sure to set the contents of the drawers, and lock them with a key so that it properly stores everything in an organized manner. If the drawers' contents aren't set, it will start filling starting from the ones closest. If you wish to have more than one drawer full of an item, put a void upgrade on the drawer further from the Controller, and it will fill the first one, then the second.%n%nIf you want to go around corners, use the Trim Drawers to extend the multiblock. If you want to have a second point to dump items into, use the Slave Controller (one per multiblock, automation only). Note that you can use a key on the Controller to affect all drawers at once.%n%nYou can also use it with ProjectRed, see the appropriate tab for details.%n%nOnce you have an ME Network, place a storage bus on the Controller, and the entire inventory will be accessible from the network, with both storage and retrieval. Just remember to set the priority higher than your ME Drives. If you haven't locked them yet expect all your drawers to fill with random items from your ME Network.
+
+# Quest.2409 - Even Rarer Earths
+gtnh.quest2409.name=Even Rarer Earths
+gtnh.quest2409.desc=Although you previously Centrifuged Rare Earth to get some rare materials including Cadmium, you believe your new Dehydrator can get you more materials than before. First, you need to use some Sulfuric Acid to melt off any impurities in a Chemical Bath, leaving you with Crushed Rare Earth (I). After that you need to process it like a normal ore until you get Rare Earth (I) Dust.%n%nAfter running the Dust through your Dehydrator, you get a number of strange materials, only some of which you recognize. But if you run these materials through an Electrolyzer or through the Dehydrator again, you may get some use out of them. Some of them may take quite a few to do so, but you §o§o§r§h§ohave§r been stockpiling, right? You'll need at least 409 Rare Earth, not counting losses in the Chemical Bath.%n%nYou believe if you had more powerful acids and machines, you could extract even more valuable materials out of the Rare Earth.
+
+# Quest.2410 - Journey to the Center of the Earth
+gtnh.quest2410.name=Journey to the Center of the Earth
+gtnh.quest2410.desc=After acquiring your new pickaxe and clearing away a mountain or two, you wonder if maybe you should go...§odeeper§r. After trying it out on some Bedrock, you see a way down into the very depths of the planet. After exploring this new realm you make a note that it is:%n%nA) Seemingly empty of life%nB) Full of Bedrock you need to clear away with your new pickaxe%nC) Full of ore veins going up and down%nD) Some of these ores are strange and §odifferent§ §r from the ones you are used to%nE) Since Miners cannot break Bedrock, if you wish to use one, you'll have to do it for it first.%nF) After leaving you wake up on the surface somewhere nearby, your lack of memories of such is probably due to Oxygen deprivation. §oProbably§r. (After leaving the Bedrock Dim, you'll be thrown out somewhere nearby on what is hopefully the surface, and not inside a block, but no guarantees!)%n%nAmong the ore samples you seem to have brought back with you, you find a number of "basic" and "intermediate" ores and gems, as well as a few you don't recognize! Perhaps a return trip is in order?  %n%nAlso, you seem to smell like cheese for some reason?
+
+# Quest.2411 - Fool's Gold
+gtnh.quest2411.name=Fool's Gold
+gtnh.quest2411.desc=After holding a Primal Charm for a while, you suddenly understand some of it's whispers! It tells of a land filled with untold riches, just waiting for someone to claim them. You scoff at the claim, but apparently if you "Open the Eye" and create a very fancy carved stone, you can create a portal there. But this eye it speaks of...just what is it? Maybe by delving into the darker realm of magic...bah! Only fools would believe such nonsense.
+
+# Quest.2412 - Gen XXXXXXXXXX...
+gtnh.quest2412.name=Gen XXXXXXXXXX...
+gtnh.quest2412.desc=Yes! Yes! The eyes! You understand now, it is all too clear! The land of riches, it is yours! But what is this? It's empty? Why, where have your Riches gone? The sole inhabitant tells you that all such things have faded away long ago, with the End of Time at hand...But that simply means you're in the right PLACE after all! You're simply in the wrong TIME. If you simply adjust the portal a little, you can arrive at the right PLACE and TIME to get your well-deserved Riches. You suspect that such an adjustment would require something strong...INFINITELY strong.%n%nIn the meantime you now have a very very big closet to store your things in once the old owner...moves out. Upon leaving, you spot a tiny Ghast, surely just your imagination? Unfortunately the shifting of time causes you to end up in what is likely wilderness when you leave. (Exiting sends you back to the world spawn)
+
+# Quest.2413 - The Darkness of Choice for Edgelords
+gtnh.quest2413.name=The Darkness of Choice for Edgelords
+gtnh.quest2413.desc=The madness that gripped you before has passed, but the idea for claiming the 'Riches' you thought of before still seems...reasonably sound. You'll need more than just something Strong though, you need something Hard, something Dense, something Unstable, and some magic to force it all together. You suspect you may need to upgrade your Infusion Altar for this, given the number of materials needed. You believe you can simply mine this new location for any ore you need from now on...
+
+# Quest.2414 - Too many items? Unpossible!
+gtnh.quest2414.name=Too many items? Unpossible!
+gtnh.quest2414.desc=Too many items getting you down? Just slap this badboy on a drawer, and any items you put in over the maximum will be automatically voided for you! More useful in combination with a Drawer Controller admittedly.
+
+# Quest.2415 - Bringing the Biome to You
+gtnh.quest2415.name=Bringing the Biome to You
+gtnh.quest2415.desc=So maybe you can't find a swamp or tropical forest for your crops or bees, or maybe they're too far away so they're inconvenient to get to, or maybe your base is in a colder climate and you have to deal with the howls of direwolves constantly. Instead of packing up all your stuff and moving somewhere else, why not try changing the biome? There are a couple different ways to do so in this modpack:%n%nUse the Arcane Terrestrial Reformer from Witching Gadgets%n-Requires EV Circuits, Tungstensteel, Rocket Tier III%n-Also requires Infusion, Void Metal (sufficient warp), Energized Node for CV, lots of Essentia%n-16 block radius%n-Can only change to a few specific Vanilla or Thaumcraft biomes%n-Kind of slow%n%nUse Ritual of Gaia's Transformation from Blood Magic%n-Requires Void Metal, Infusion, Tungstensteel%n-Requires getting deep into BM (and the warp that come with it)%n-Requires 1,000,000 LP, Master Blood Orb, Tier 4 Altar and Awakened Activation Crystal%n-10 block radius, can be exactly specified with bloodstone bricks (either type)%n-Cannot specify which biome you get, you can only change the temperature/humidity within the 0.0 - 2.0 range and hope%n-Some biomes may be impossible due to limited range and overlap%n-Adjust temperature/humidity with items on 8 plinths around the Master Ritual Stone%n-Need to relog to see changes%n-Very little documentation or explanation%n-Fast%n%nUse the Brew of Shifting Seasons from Witchery%n-Small range, depends on the level of the brew (power, not dispersal extent)%n-Biome can be exactly specified%n-Crafted using the complicated custom brew system%n-Can add different ingredients to change range of the brew%n-At min changes a single block%n-At max has about a 3 block (circular) radius%n-Instant (once you use it)%n%nUse the Rite of Shifting Seasons from Witchery%n-Requires Stainless Steel, Greatwood Scepter or better for the Distillery%n-You have to do a bunch of witchery stuff%n-Not hard once you're done it once%n-Extremely large range, 16/32/48 block (circular) radius%n-Biome can be exactly specified%n-Sometimes fails in specific chunks%n-Very Fast%n%nIf you want to know how to use the Witchery methods, please go to the Look to the edges tab to continue.%n%nPSA: The IC2&Galacticraft Terraformers only change the surface, not the biome itself.
+
+# Quest.2416 - Ghetto Biome Changing
+gtnh.quest2416.name=Ghetto Biome Changing
+gtnh.quest2416.desc=If you don't want to change the biome to a specific one, and just want a neutral environment for your bees, maybe using nodes is for you. You can try planting a Silverwood Sapling to get one with a pure node, or use other methods to move one.%n%nKeep in mind a 'bare' pure node won't change anything unless it has Victus. You can try use Sinister or Tainted, but...no refunds. These nodes have a radius of 11. To change the biome back, use an Ethereal Bloom (radius of 7). Keep in mind that both Pech and Wisps spawn in 'Magical' type biomes.
+
+# Quest.2417 - Changing Biomes With Witchery
+gtnh.quest2417.name=Changing Biomes With Witchery
+gtnh.quest2417.desc=There are two ways to change biomes with Witchery, the easy way or the hard way, choose which one you want to do (or do them both). Remember that you need a Witchery Distillery first!
+
+# Quest.2418 - The Easy Way to Change Biomes
+gtnh.quest2418.name=The Easy Way to Change Biomes
+gtnh.quest2418.desc=So you want the easy way? Ok, go get this stuff:%nMandrake Root, Nether Wart, Tear of the Goddess, Diamond Vapor, and a Diamond.%n%nThen toss it in the Witch's Cauldron IN ORDER, before also tossing in a page from the Book of Biomes (Extended) (craft it with a piece of paper while on the page of the biome you want), followed by a bit of Gunpowder.%nThen just use a bottle to get the brew. If wearing your Robes or Hat, you may even get more than one! (If you have a ton of brewing expertise, which is unlikely)%n%nIf it failed, you may not have enough Altar Power, you need 5450 at least. Try placing down a Dragon Egg or Demon Heart if you're close. Check a wiki for more details on altar power.%n%nIf you want to have more than a single changed block, then add Glowstone Dust, Blaze Rod and Attuned Stone (Charged) in order to increase the effect (and Altar Power cost slightly) by +1 for each. Do this before adding in the page.%n%nFor more detailed info, check out the Witches' Brews book. Click on Brewing, then go to the Brews: Step-by-step page. This should tell you what you need to know. For what each of the brews actually does, see the Effects page. Only Effects use Capacity, and you can have multiple.
+
+# Quest.2419 - The Hard Way to Change Biomes
+gtnh.quest2419.name=The Hard Way to Change Biomes
+gtnh.quest2419.desc=Ok, to have a ritual with a size greater than zero, you need to get Coven Witches to acknowledge you and then agree to help you out. To get them to deign to speak with you, you can either infuse yourself or bind a familiar. In this quest line we'll be covering binding a familiar, but for the people who want to do infusion, you just need to make the appropriate item: Ghost of the Light, Soul of the World, Spirit of Otherwhere, or Infernal Animus, and do the appropriate Rite of Infusion. Be sure to have a Death Protection Poppet to protect you, because the ritual kills you. If playing hardcore, definitely test in a separate world first.%n%nTo bind a familiar, first, summon a Demon and tear out it's heart. No, seriously, go do it. Use an Arthana with Looting III for the best chances. If you don't know how to summon one, refer to page 49/50 of the Circle Magic book for the correct Rite of Summoning.%n%nYou'll need a Mutating Sprig for the next part.
+
+# Quest.2420 - More Hearts for Valentines
+gtnh.quest2420.name=More Hearts for Valentines
+gtnh.quest2420.desc=If you want to get more hearts, you can try trading with the Demon, but they're more likely to shoot fireballs at you than trade. Unless you have this item that is! First, make the Polynesia Charm that allows you to trade with animals (probably not worth it in this pack), then use the demon heart to make the Devil's Tongue Charm. With this, not only are they a lot less likely to attack, they will even sell their brethren's hearts for a little less.%n%nJust remember that it can only be used a limited number of times, ok? It might also be worthwhile to use the Rite of Protection at the same time as summoning a demon. To do so just put down both circles, and meet the item (and Altar Power) requirements of both. If you're not planning on killing the demon, you should probably send it back when you're done with the Rite of Banishing on page 47/48 of the Circle Magic book.
+
+# Quest.2421 - Are You Grassping What I'm Telling You?
+gtnh.quest2421.name=Are You Grassping What I'm Telling You?
+gtnh.quest2421.desc=To make Grasspers, first you need to arrange Grass in the cardinal directions around a Chest above a block of water. Then right-click the Chest with your Mutating Sprig.
+
+# Quest.2422 - PETA Approved*
+gtnh.quest2422.name=PETA Approved*
+gtnh.quest2422.desc=To make Critter Snares, first you need to arrange Alder Saplings in the cardinal directions around a Cobweb above a block of water. Then get a zombie to walk onto it and right-click the Cobweb with your Mutating Sprig.%nThis will change the Saplings into the needed Critter Snares. Do this twice. (*May not be PETA approved)
+
+# Quest.2423 - Mad Science is the Best Science
+gtnh.quest2423.name=Mad Science is the Best Science
+gtnh.quest2423.desc=Next we need to fill our snares up with some critters, specifically Bats and Slimes. For the Bats, just place them beneath you and AFK if your warp is high enough to spawn bats, otherwise...uh, go caving?%n%nFor the Slimes, if you can't find any just use the Maze Slimes from the Minoshroom maze in the Twilight Forest for this. After you get them, also go collect a Wolf and an Ocelot (Lassos or Soul Vials are great for this).%n%nNow we'll be creating new life, specifically Toads and Owls. Arrange a Cobweb above a water block with grasspers at the diagonals and one of the two sets of snares in the cardinal directions. Place Attuned Stone (Charged) in all 4 Grasspers. Then place one of the two animals in the center and right-click with your Mutating Sprig like when making the snares. Use the Wolf with the Bats, and the Ocelot with the Slimes. The tamed versions also work.%n%nCongratulations, you've defied the natural order and created new life! Hopefully they didn't run away because you created them outside :(%nMake sure to breed them for the next part. Use Raw Porkchop or Raw Beef for Owls, and Rotten Flesh for Toads to both tame and breed them.
+
+# Quest.2424 - Finally Binding a Familiar
+gtnh.quest2424.name=Finally Binding a Familiar
+gtnh.quest2424.desc=Now that you have Toads and Owls, you can choose between them and Cats to bind. Why didn't we just bind a Cat earlier? Well, you'll need them both soon anyways, and who doesn't love choices? To carry out the Rite of Binding (P6, Circle Magic), you'll need to distill some Demonic Blood. Do that now, and collect the rest of the items needed.%n%nAfter collecting the items, bind your familiar using them. Make sure you have enough Altar Power. Remember that each has different benefits. See the official wiki for details. You may receive a tiny portion of damage your familiar receives (and vice-versa), so park it somewhere safe. Also note that if it dies, so will you (Supposedly). You can resummon it if it dies or was dismissed previously (like if you died). If you're in hardcore mode and don't want to risk having it around, it can be dismissed by right-clicking while sneaking when it's sitting.%n%nNow go murder a few of your new friends and tear of their Owlet's Wings, and cut off their Toe of Frog. Remember to use an Arthana. The next step needs a Seer's Stone.
+
+# Quest.2425 - Greenhouses on Mountains, Hell on Earth
+gtnh.quest2425.name=Greenhouses on Mountains, Hell on Earth
+gtnh.quest2425.desc=You're almost there! To actually use the ritual, you need to recruit a coven first. Find some Coven Witches and complete their quests:%nThe means to control the dead -> Necromantic Stone%nThe beating means to master the infernal dimension -> Demon Heart%nI must perform many curses, bring me the necessary brew -> Brew of the Grotesquex5%nI desire to predict the future -> Crystal Ball%nOr just fight something.%n%nOnce completed, they'll disappear until you need them. They will sometimes appear near your spawn point if you walk by it, so don't position it over lava or something, since they CAN die and reduce the number of your coven. You can have 6, with one extra appearing for Cauldron work. Consider keeping some extras around in a dungeon just in case.%n%nAfter you recruit your coven, you just need a few things for the ritual itself: Spider Eye, Toe of Frog, Wool of Bat, Tongue of Dog, Owlet's Wing, Attuned Stone, and Attuned Stone (Charged).%n%nTo specify the biome, look in the Book of Biomes, and find 1) the type (Forest, Plains, etc), and 2) the number. Type determines the foci used, and number determines the amount of Glowstone Dust used to get that specific biome. Make sure to pack up a ritual circle into a circle talisman so you don't have to redraw it, and bring some cobblestone to make a flat area (15x15, any height). Try not to do it at night unless you like dealing with infernals.%n%nTo actually do the ritual, have the ritual circle on the ground, the items (including the foci and Glowstone) in the circle, and right-click the center with the Seer's Stone.%n%nThe area affected is determined by the number of witches in your coven. It's 16 * (size of coven - 3) radius in a circular area, so 16/32/48 if it doesn't fail.%n%nUnfortunately, sometimes after logging out and back in again you may find that it didn't work correctly in specific chunks, this is (possibly) due to lack of chunk updates and it not saving the changed biome ID correctly. Just redoing the ritual doesn't really help, you'll just get patches in the same places, however placing water after the ritual and before logging out may help with this. Or use chickens. Lots of chickens.%n%nAlso, if you already have crops in the area, they'll disappear until a block update or relog.%n%nPSA: To pack your circle back up, you need to bring your altar with you.%n
+
+# Quest.2426 - §6§lTantalum Nether
+gtnh.quest2426.name=§6§lTantalum Nether
+gtnh.quest2426.desc=Tantalum is used in the GT and Ender IO Capacitors and also a source for niobium. It is a cheap essentia source for Thaumcraft later on.%nYou will find Tantalite Mix at Y 20-30 in the Nether.
 
 ##################################Line##################################
 
