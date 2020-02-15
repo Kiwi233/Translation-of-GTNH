@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="topleft">
+        <line>
+            <str>{pingicon}$6{username}$f </str>
+            <str>FPS: </str>
+            <op>
+                <str>gt</str>
+                <var>fps</var>
+                <num>60</num>
+                <num>45</num>
+                <num>30</num>
+                <num>15</num>
+                <num>0</num>
+                <str>$a</str>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str/>
+            </op>
+            <var>fps</var>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:clock</str>
+            </icon>
+            <str> $rMC日期： 第$3 </str>
+            <add>
+                <round>
+                    <div>
+                        <sub>
+                            <var>day</var>
+                            <modi>
+                                <var>day</var>
+                                <num>365</num>
+                            </modi>
+                        </sub>
+                        <num>365</num>
+                    </div>
+                    <num>0</num>
+                </round>
+                <num>1</num>
+            </add>
+            <str> $r年； 第$3 </str>
+            <modi>
+                <var>day</var>
+                <num>365</num>
+            </modi>
+            <str> $f天； 时间： </str>
+            <str>$6{mctime12} $r</str>
+            <if>
+                <var>daytime</var>
+                <str>$e(白天)</str>
+                <str>$7(黑夜)</str>
+            </if>
+        </line>
+        <line>
+            <icon>
+                <str>HardcoreEnderExpansion:temple_end_portal</str>
+            </icon>
+            <str> $r世界： </str>
+                <op>
+                    <str>eq</str>
+                    <var>dimensionid</var>
+                    <num>-1</num>
+                    <num>0</num>
+                    <num>1</num>
+                    <num>2</num>
+                    <num>7</num>
+                    <num>25</num>
+                    <num>28</num>
+                    <num>29</num>
+                    <num>30</num>
+                    <num>31</num>
+                    <num>32</num>
+                    <num>33</num>
+                    <num>34</num>
+                    <num>35</num>
+                    <num>36</num>
+                    <num>37</num>
+                    <num>38</num>
+                    <num>39</num>
+                    <num>40</num>
+                    <num>41</num>
+                    <num>42</num>
+                    <num>43</num>
+                    <num>44</num>
+                    <num>45</num>
+                    <num>46</num>
+                    <num>47</num>
+                    <num>48</num>
+                    <num>49</num>
+                    <num>80</num>
+                    <num>81</num>
+                    <num>82</num>
+                    <num>83</num>
+                    <num>84</num>
+                    <num>85</num>
+                    <num>86</num>
+                    <num>87</num>
+                    <num>88</num>
+                    <num>50</num>
+                    <num>55</num>
+                    <num>56</num>
+                    <num>60</num>
+                    <num>63</num>
+                    <num>64</num>
+                    <num>69</num>
+                    <num>70</num>
+                    <num>100</num>
+                    <num>112</num>
+                    <num>173</num>
+                    <num>227</num>
+                    <num>228</num>
+                    <str>$6下界 $e(Ne)</str>
+                    <str>$6主世界 $e(OW)</str>
+                    <str>$6末地 $e(EN)</str>
+                    <str>$6通灵空间 $e(不建议使用)</str>
+                    <str>$6暮色森林 $e(TF)</str>
+                    <str>$6鸟神星 $e(MM)</str>
+                    <str>$6月球 $e(Mo)</str>
+                    <str>$6火星 $e(Ma)</str>
+                    <str>$6小行星带 $e(As)</str>
+                    <str>$6半人马A $e(CA)</str>
+                    <str>$6巴纳德C $e(BC)</str>
+                    <str>$6柯伊伯带 $e(KB)</str>
+                    <str>$6火星空间站 $e(MS)</str>
+                    <str>$6木卫二 $e(Eu)</str>
+                    <str>$6木卫一 $e(Io)</str>
+                    <str>$6水星 $e(Me)</str>
+                    <str>$6火卫一 $e(Ph)</str>
+                    <str>$6金星 $e(Ve)</str>
+                    <str>$6火卫二 $e(De)</str>
+                    <str>$6土卫二 $e(En)</str>
+                    <str>$6谷神星 $e(Ce)</str>
+                    <str>$6木卫三 $e(Ga)</str>
+                    <str>$6土卫六 $e(Ti)</str>
+                    <str>$6土卫四 $e(Ca)</str>
+                    <str>$6天卫四 $e(Ob)</str>
+                    <str>$6海卫八 $e(Pr)</str>
+                    <str>$6海卫一 $e(Tr)</str>
+                    <str>$6冥王星 $e(Pl)</str>
+                    <str>$6静态火星空间站 $e(SMS)</str>
+                    <str>$6巴纳德E $e(BE)</str>
+                    <str>$6巴纳德F $e(BF)</str>
+                    <str>$6妊神星 $e(Ha)</str>
+                    <str>$6织女B $e(VB)</str>
+                    <str>$6鲸鱼座T星E $e(TE)</str>
+                    <str>$6天卫五 $e(Mi)</str>
+                    <str>$6金星空间站 $e(VS)</str>
+                    <str>$6静态金星空间站 $e(SVS)</str>
+                    <str>$6外域 $e(Outer)</str>
+                    <str>$6精神世界 $e(巫术)</str>
+                    <str>$6痛苦迷宫 $e(巫术)</str>
+                    <str>$6基岩矿界 $e(Bedrock)</str>
+                    <str>$6罗斯128ba $e(RA)</str>
+                    <str>$6罗斯128b $e(RB)</str>
+                    <str>$6口袋世界 $e(神秘视界)</str>
+                    <str>$6镜中世界 $e(巫术)</str>
+                    <str>$6漆黑世界 $e(DD)</str>
+                    <str>$6深渊世界 $e(End Of Time)</str>
+                    <str>$6虚空漫步者世界 $e(魔像密经)</str>
+                    <str>$6废土世界 $e(GT++)</str>
+                    <str>$6澳大利亚 $e(GT++)</str>
+                    <str/>
+                </op>
+                <if>
+                    <and>
+                        <greater>
+                            <var>dimensionid</var>
+                            <num>2</num>
+                        </greater>
+                        <less>
+                            <var>dimensionid</var>
+                            <num>25</num>
+                        </less>
+                        <not>
+                            <equal>
+                                <var>dimensionid</var>
+                                <num>7</num>
+                            </equal>
+                        </not>
+                    </and>
+                    <concat>
+                        <str>$6空间站 $e(</str>
+                        <if>
+                            <less>
+                                <var>dimensionid</var>
+                                <num>7</num>
+                            </less>
+                            <sub>
+                                <var>dimensionid</var>
+                                <num>2</num>
+                            </sub>
+                            <sub>
+                                <var>dimensionid</var>
+                                <num>3</num>
+                            </sub>
+                        </if>
+                        <str>号)</str>
+                    </concat>
+                </if>
+                <if>
+                    <greater>
+                        <var>dimensionid</var>
+                        <num>179</num>
+                    </greater>
+                    <str>$6花园/虚空世界 $e({dimensionid})</str>
+                </if>
+            <str> $r已加载区块数： $6{loadedchunks} </str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:sapling</str>
+                <num>4</num>
+            </icon>
+            <str> 生物群系： $3</str>
+            <op>
+                <str>eq</str>
+                <var>biomeid</var>
+                <num>0</num>
+                <num>1</num>
+                <num>2</num>
+                <num>3</num>
+                <num>4</num>
+                <num>5</num>
+                <num>6</num>
+                <num>7</num>
+                <num>8</num>
+                <num>9</num>
+                <num>10</num>
+                <num>11</num>
+                <num>12</num>
+                <num>13</num>
+                <num>14</num>
+                <num>15</num>
+                <num>16</num>
+                <num>17</num>
+                <num>18</num>
+                <num>19</num>
+                <num>20</num>
+                <num>21</num>
+                <num>22</num>
+                <num>23</num>
+                <num>24</num>
+                <num>25</num>
+                <num>26</num>
+                <num>27</num>
+                <num>28</num>
+                <num>29</num>
+                <num>30</num>
+                <num>31</num>
+                <num>32</num>
+                <num>33</num>
+                <num>34</num>
+                <num>35</num>
+                <num>36</num>
+                <num>37</num>
+                <num>38</num>
+                <num>39</num>
+                <num>40</num>
+                <num>41</num>
+                <num>42</num>
+                <num>43</num>
+                <num>44</num>
+                <num>45</num>
+
+                <num>47</num>
+                <num>48</num>
+                <num>49</num>
+                <num>50</num>
+                <num>51</num>
+                <num>52</num>
+                <num>53</num>
+                <num>54</num>
+                
+                <num>56</num>
+                <num>57</num>
+                <num>58</num>
+                <num>59</num>
+                <num>60</num>
+                <num>61</num>
+                <num>62</num>
+                <num>63</num>
+                <num>64</num>
+                <num>65</num>
+                <num>66</num>
+                <num>67</num>
+                <num>68</num>
+                <num>69</num>
+                <num>70</num>
+                <num>71</num>
+                <num>72</num>
+                <num>73</num>
+                <num>74</num>
+                <num>75</num>
+                <num>76</num>
+                <num>77</num>
+                <num>78</num>
+                <num>79</num>
+                <num>80</num>
+                <num>81</num>
+                <num>82</num>
+                <num>83</num>
+                <num>84</num>
+                <num>85</num>
+                <num>86</num>
+                <num>87</num>
+                <num>88</num>
+                <num>89</num>
+                <num>90</num>
+                <num>91</num>
+                <num>92</num>
+                
+                <num>94</num>
+                <num>95</num>
+                <num>96</num>
+                <num>97</num>
+                <num>98</num>
+                <num>99</num>
+                <num>100</num>
+                <num>101</num>
+                <num>102</num>
+                <num>103</num>
+                <num>104</num>
+                <num>105</num>
+                <num>106</num>
+                <num>107</num>
+                <num>108</num>
+                <num>109</num>
+                <num>110</num>
+                <num>111</num>
+                <num>112</num>
+                <num>113</num>
+                <num>114</num>
+                <num>115</num>
+                
+                <num>117</num>
+                <num>118</num>
+                <num>119</num>
+                <num>120</num>
+                <num>121</num>
+                <num>122</num>
+                <num>123</num>
+
+                <num>126</num>
+                <num>127</num>
+                <num>128</num>
+                <num>129</num>
+                <num>130</num>
+                <num>131</num>
+                <num>132</num>
+                <num>133</num>
+                <num>134</num>
+                <num>135</num>
+                <num>136</num>
+                <num>137</num>
+                <num>138</num>
+
+                <num>140</num>
+                <num>141</num>
+                <num>142</num>
+                <num>143</num>
+                <num>144</num>
+
+                <num>149</num>
+
+                <num>151</num>
+
+                <num>155</num>
+                <num>156</num>
+                <num>157</num>
+                <num>158</num>
+
+                <num>160</num>
+                <num>161</num>
+                <num>162</num>
+                <num>163</num>
+                <num>164</num>
+                <num>165</num>
+                <num>166</num>
+                <num>167</num>
+
+                <num>170</num>
+                <num>171</num>
+                <num>172</num>
+                <num>173</num>
+                
+                <num>175</num>
+                <num>176</num>
+                <num>177</num>
+                <num>178</num>
+                <num>179</num>
+                <num>180</num>
+                <num>181</num>
+                <num>182</num>
+                
+                <num>184</num>
+                <num>185</num>
+                <num>186</num>
+                <num>187</num>
+                <num>188</num>
+                <num>189</num>
+                <num>190</num>
+                <num>191</num>
+                <num>192</num>
+                <num>193</num>
+
+                <num>196</num>
+
+                <num>199</num>
+                <num>200</num>
+                <num>201</num>
+                <num>202</num>
+                <num>203</num>
+                <num>204</num>
+                <num>205</num>
+                <num>206</num>
+                <num>207</num>
+                <num>208</num>
+                <num>209</num>
+                <num>210</num>
+                <num>211</num>
+                <num>212</num>
+                <num>213</num>
+                <num>214</num>
+                <num>215</num>
+                <num>216</num>
+                <num>217</num>
+                <num>218</num>
+                <num>219</num>
+                <num>220</num>
+                <num>221</num>
+                <num>222</num>
+                <num>223</num>
+                <num>224</num>
+                <num>225</num>
+                <num>226</num>
+                <num>227</num>
+                <num>228</num>
+                <num>229</num>
+                <num>230</num>
+                <num>231</num>
+                <num>232</num>
+                <num>233</num>
+                <num>234</num>
+                <num>235</num>
+                <num>236</num>
+                <num>237</num>
+                <num>238</num>
+                <num>239</num>
+                <num>240</num>
+                <num>241</num>
+                <num>242</num>
+                <num>243</num>
+                <num>244</num>
+                <num>245</num>
+
+                <num>255</num>
+
+                <str>海洋</str>
+                <str>平原</str>
+                <str>沙漠</str>
+                <str>峭壁</str>
+                <str>森林</str>
+                <str>针叶林</str>
+                <str>沼泽</str>
+                <str>河流</str>
+                <str>下界</str>
+                <str>天空</str>
+                <str>冻洋</str>
+                <str>冻河</str>
+                <str>冰原</str>
+                <str>雪山</str>
+                <str>蘑菇岛</str>
+                <str>蘑菇岛岸</str>
+                <str>沙滩</str>
+                <str>沙丘</str>
+                <str>森林山丘</str>
+                <str>针叶林山丘</str>
+                <str>悬崖</str>
+                <str>丛林</str>
+                <str>丛林山丘</str>
+                <str>丛林边缘</str>
+                <str>深海</str>
+                <str>石滩</str>
+                <str>寒冷沙滩</str>
+                <str>桦木林</str>
+                <str>桦木林山丘</str>
+                <str>黑森林</str>
+                <str>冷针叶林</str>
+                <str>冷针叶林山丘</str>
+                <str>大型针叶林</str>
+                <str>大型针叶林山丘</str>
+                <str>峭壁+</str>
+                <str>热带草原</str>
+                <str>热带高原</str>
+                <str>平顶山</str>
+                <str>平顶山高原F</str>
+                <str>平顶山高原</str>
+                <str>阿尔卑斯山林</str>
+                <str>阿尔卑斯山</str>
+                <str>北极</str>
+                <str>竹林</str>
+                <str>河口</str>
+                <str>泥沼</str>
+
+                <str>寒带森林</str>
+                <str>灌木林</str>
+                <str>峡谷</str>
+                <str>河谷</str>
+                <str>阔叶灌木林</str>
+                <str>樱花林</str>
+                <str>针叶林</str>
+                <str>珊瑚礁</str>
+                
+                <str>峭壁</str>
+                <str>死亡森林</str>
+                <str>荒芜沼泽</str>
+                <str>落叶林</str>
+                <str>干涸河床</str>
+                <str>桉树林</str>
+                <str>低位沼泽</str>
+                <str>花海</str>
+                <str>霜冻森林</str>
+                <str>蘑菇森林</str>
+                <str>花园</str>
+                <str>冰川</str>
+                <str>草地</str>
+                <str>小树林</str>
+                <str>荒原</str>
+                <str>高地</str>
+                <str>琼崖</str>
+                <str>海藻森林</str>
+                <str>湖泊之地</str>
+                <str>湖沼之地</str>
+                <str>薰衣草田</str>
+                <str>葱郁沙漠</str>
+                <str>葱郁河流</str>
+                <str>葱郁沼泽</str>
+                <str>红树林</str>
+                <str>枫树林</str>
+                <str>湿地</str>
+                <str>草甸森林</str>
+                <str>草甸</str>
+                <str>旷野</str>
+                <str>高山</str>
+                <str>诡秘之森</str>
+                <str>绿洲</str>
+                <str>不祥之森</str>
+                <str>果园</str>
+                <str>起源山谷</str>
+                <str>内陆</str>
+                
+                <str>极地裂谷</str>
+                <str>草原</str>
+                <str>泥潭</str>
+                <str>雨林</str>
+                <str>红木林</str>
+                <str>神圣之泉</str>
+                <str>灌木丛</str>
+                <str>季节性森林-平原</str>
+                <str>季节性森林-森林</str>
+                <str>避风港</str>
+                <str>灌丛</str>
+                <str>丝林空地</str>
+                <str>泥坑</str>
+                <str>雪山针叶林</str>
+                <str>幽灵花园</str>
+                <str>云杉林</str>
+                <str>干草原</str>
+                <str>温带雨林</str>
+                <str>树丛</str>
+                <str>热带雨林</str>
+                <str>热带海岛</str>
+                <str>苔原</str>
+                
+                <str>血池肉林</str>
+                <str>火山</str>
+                <str>废土</str>
+                <str>湿地</str>
+                <str>林地</str>
+                <str>旱生灌丛</str>
+                <str>密林</str>
+
+                <str>原油海域</str>
+                <str>原油沙漠</str>
+                <str>骨林</str>
+                <str>向日葵平原</str>
+                <str>沙漠 M</str>
+                <str>峭壁 M</str>
+                <str>繁花森林</str>
+                <str>针叶林 M</str>
+                <str>沼泽 M</str>
+                <str>存储单元</str>
+                <str>腐化沙地</str>
+                <str>无间炼狱</str>
+                <str>地下花园</str>
+
+                <str>冰刺平原</str>
+                <str>月面</str>
+                <str>火星表面</str>
+                <str>小行星</str>
+                <str>太空</str>
+
+                <str>丛林 M</str>
+
+                <str>丛林边缘 M</str>
+
+                <str>桦木林 M</str>
+                <str>桦木林山丘 M</str>
+                <str>黑森林 M</str>
+                <str>冷针叶林 M</str>
+
+                <str>红木林</str>
+                <str>红木林山丘</str>
+                <str>峭壁+ M</str>
+                <str>热带草原 M</str>
+                <str>热带高原 M</str>
+                <str>平顶山（岩柱）</str>
+                <str>平顶山高原 F M</str>
+                <str>平顶山高原 M</str>
+                
+                <str>暮色林中空地</str>
+                <str>黑暗森林</str>
+                <str>黑暗森林中心</str>
+                <str>蘑菇密林</str>
+                
+                <str>火焰沼泽</str>
+                <str>暮色冰川</str>
+                <str>暮色高地</str>
+                <str>高地中心</str>
+                <str>暮色湖泊</str>
+                <str>萤火虫森林</str>
+                <str>蘑菇森林</str>
+                <str>橡木稀树草原</str>
+                
+                <str>暮色溪流</str>
+                <str>暮色沼泽</str>
+                <str>荆棘之地</str>
+                <str>暮色森林</str>
+                <str>暮色密林</str>
+                <str>魔幻森林</str>
+                <str>诡秘之地</str>
+                <str>邪术之地</str>
+                <str>魔法森林</str>
+                <str>腐化之地</str>
+
+                <str>积雪森林</str>
+
+                <str>剧毒废土</str>
+                <str>冰河</str>
+                <str>太空</str>
+                <str>寒带河流</str>
+                <str>金星</str>
+                <str>冥王星</str>
+                <str>温带河流</str>
+                <str>冥王星2</str>
+                <str>热带河流</str>
+                <str>冥王星3</str>
+                <str>潮湿河流</str>
+                <str>冥王星4</str>
+                <str>绿洲河流</str>
+                <str>柯伊伯带</str>
+                <str>冰洋</str>
+                <str>寒带海洋</str>
+                <str>木卫一</str>
+                <str>温带海洋</str>
+                <str>木卫一灰烬</str>
+                <str>热带海洋</str>
+                <str>土卫六</str>
+                <str>巴纳德C岸</str>
+                <str>巴纳德C山地</str>
+                <str>巴纳德C盆地</str>
+                <str>绿洲海洋</str>
+                <str>降雪沙漠</str>
+                <str>降雪森林</str>
+                <str>冰冷平原</str>
+                <str>冰冷森林</str>
+                <str>炎热平原</str>
+                <str>炎热森林</str>
+                <str>炎热沙漠</str>
+                <str>平原</str>
+                <str>热带</str>
+                <str>红木林</str>
+                <str>丛林</str>
+                <str>绿洲</str>
+                <str>温带森林</str>
+                <str>潮湿海洋</str>
+                <str>巴纳德C花海</str>
+                <str>巴纳德C海洋</str>
+                <str>澳大利亚沙漠 II</str>
+                <str>澳大利亚沙漠 III</str>
+                <str>澳大利亚平原</str>
+                <str>澳大利亚内陆</str>
+                <str>澳大利亚海洋</str>
+                <str>澳大利亚森林</str>
+
+                <str>鲸鱼座T星E</str>
+
+                <str/>
+            </op>
+            <str>$f $6{temperature}$r°F</str>
+            <str>  $6{humidity}%$f 湿度</str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:skull</str>
+                <num>4</num>
+            </icon>
+            <str> 实体： $6{entitiesrendered}$f 已显现 / $6{entitiestotal}$f 已加载  </str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:compass</str>
+                <num>0</num>
+            </icon>
+            <str> 区块坐标： X:$6 {chunkx} $fZ:$6 {chunkz}$f Off: $3$6 {chunkoffsetx} $f:$6 {chunkoffsetz} $f</str>
+            <str> Z: $6{yfeeti}$f 面向 $6</str>
+            <op>
+                <str>eq</str>
+                <var>finedirection</var>
+                <str>North</str>
+                <str>North East</str>
+                <str>East</str>
+                <str>South East</str>
+                <str>South</str>
+                <str>South West</str>
+                <str>West</str>
+                <str>North West</str>
+                <str>北方</str>
+                <str>东北</str>
+                <str>东方</str>
+                <str>东南</str>
+                <str>南方</str>
+                <str>西南</str>
+                <str>西方</str>
+                <str>西北</str>
+            </op>
+            <str>$f</str>
+            <if>
+                <var>slimechunk</var>
+                <str> $6史莱姆区块$f</str>
+            </if>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:torch</str>
+            </icon>
+            <str> 光照等级： </str>
+            <max>
+                <var>light</var>
+                <num>7.5</num>
+                <str>$e</str>
+                <str>$c</str>
+            </max>
+            <var>light</var>
+            <str>$r (立足处光照等级： </str>
+            <max>
+                <var>lightfeet</var>
+                <num>7.5</num>
+                <str>$e</str>
+                <str>$c</str>
+            </max>
+            <var>lightfeet</var>
+            <str>$r)</str>
+        </line>
+        <line>
+            <icon>
+                <str>Thaumcraft:ItemResource</str>
+                <num>4</num>
+            </icon>
+			<str> 神秘时代： </str>
+            <str> 永久扭曲： $4{tcwarpperm}$f</str>
+            <str> 一般扭曲： $4{tcwarpsticky}$f</str>
+            <str> 临时扭曲： $4{tcwarptemp}$f </str>
+        </line>
+        <line>
+            <icon>
+                <str>BloodArsenal:heart</str>
+                <num>4</num>
+            </icon>
+			<str> 血魔法： </str>
+            <str> 当前LP： $6{bmlp}$f</str>
+            <str> 最大LP： $6{bmmaxlp}$f </str>
+        </line>
+        <line>
+            <str>$0</str>
+        </line>
+        <line>
+            <if>
+                <var>snowing</var>
+                <str>  正在 $2{underline}下雪$r$2$r</str>
+            </if>
+            <if>
+                <var>raining</var>
+                <str>  正在 $2{underline}下雨$r$2$r</str>
+            </if>
+            <if>
+                <var>thundering</var>
+                <str> 并且是 $2{u}暴风雨$r$2$f.</str>
+            </if>
+        </line>
+        <line>
+            <str>$0</str>
+        </line>
+        <line>
+            <if>
+                <and>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                </and>
+                <concat>
+                    <icon>
+                        <str>textures/items/diamond_pickaxe.png</str>
+                        <num>0</num>
+                        <num>0</num>
+                        <num>16</num>
+                        <num>16</num>
+                    </icon>
+                    <str>  此处为 $2{underline}矿脉$f 的中心区块.</str>
+                </concat>
+            </if>
+        </line>
+        <line>
+            <if>
+                <and>
+                    <equal>
+                        <var>chunkoffsetx</var>
+                        <num>7</num>
+                    </equal>
+                    <equal>
+                        <var>chunkoffsetz</var>
+                        <num>7</num>
+                    </equal>
+                </and>
+                <concat>
+                    <if>
+                        <and>
+                            <or>
+                                <equal>
+                                    <modi>
+                                        <var>chunkx</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>-1</num>
+                                </equal>
+                                <equal>
+                                    <modi>
+                                        <var>chunkx</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>1</num>
+                                </equal>
+                            </or>
+                            <or>
+                                <equal>
+                                    <modi>
+                                        <var>chunkz</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>-1</num>
+                                </equal>
+                                <equal>
+                                    <modi>
+                                        <var>chunkz</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>1</num>
+                                </equal>
+                            </or>
+                        </and>
+                        <str>      </str>
+                    </if>
+                    <str>  你正在区块 $4中心$f .</str>
+                </concat>
+            </if>
+        </line>
+        <line>
+            <str>$0</str>
+        </line>
+        <line>
+            <if>
+                <str>  最近玩家：</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  1) $6{nearbyplayername0}$f({nearbyplayerdistance0}m)</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  2) $6{nearbyplayername1}$f({nearbyplayerdistance1}m)</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  2) $6{nearbyplayername2}$f({nearbyplayerdistance2}m)</str>
+            </if>
+        </line>
+    </lines>
+    <lines at="middleleft">
+        <line>
+            <var>equippedicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>equippeddamageleft</var>
+                    <var>equippedmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str/>
+            </op>
+            <max>
+                <var>equippeddamageleft</var>
+                <num>0.5</num>
+                <str>{equippeddamageleft}$f / $e{equippedmaxdamage}</str>
+                <var>equippedname</var>
+            </max>
+        </line>
+        <line>
+            <var>helmeticon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>helmetdamageleft</var>
+                    <var>helmetmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>helmetdamageleft</var>
+                <num>0.5</num>
+                <str>{helmetdamageleft}$f / $e{helmetmaxdamage}</str>
+                <str/>
+            </max>
+            <str> </str>
+        </line>
+        <line>
+            <var>chestplateicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>chestplatedamageleft</var>
+                    <var>chestplatemaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>chestplatedamageleft</var>
+                <num>0.5</num>
+                <str>{chestplatedamageleft}$f / $e{chestplatemaxdamage}</str>
+                <str/>
+            </max>
+            <str> </str>
+        </line>
+        <line>
+            <var>leggingsicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>leggingsdamageleft</var>
+                    <var>leggingsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>leggingsdamageleft</var>
+                <num>0.5</num>
+                <str>{leggingsdamageleft}$f / $e{leggingsmaxdamage}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <var>bootsicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>bootsdamageleft</var>
+                    <var>bootsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>bootsdamageleft</var>
+                <num>0.5</num>
+                <str>{bootsdamageleft}$f / $e{bootsmaxdamage}</str>
+                <str/>
+            </max>
+        </line>
+    </lines>
+    <lines at="bottomright">
+        <line>
+            <max>
+                <var>potiondurationticks0</var>
+                <num>0.5</num>
+                <str>{potionduration0} {potionicon0}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks1</var>
+                <num>0.5</num>
+                <str>{potionduration1} {potionicon1}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks2</var>
+                <num>0.5</num>
+                <str>{potionduration2} {potionicon2}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks3</var>
+                <num>0.5</num>
+                <str>{potionduration3} {potionicon3}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks4</var>
+                <num>0.5</num>
+                <str>{potionduration4} {potionicon4}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks5</var>
+                <num>0.5</num>
+                <str>{potionduration5} {potionicon5}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks6</var>
+                <num>0.5</num>
+                <str>{potionduration6} {potionicon6}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks7</var>
+                <num>0.5</num>
+                <str>{potionduration7} {potionicon7}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks8</var>
+                <num>0.5</num>
+                <str>{potionduration8} {potionicon8}</str>
+                <str/>
+            </max>
+        </line>
+    </lines>
+</config>
