@@ -1421,10 +1421,8 @@ mods.thaumcraft.Research.addPrereq("RODBLOODWOODSTAFF", "ROD_blood_wood", false)
 mods.thaumcraft.Research.setConcealed("RODBLOODWOODSTAFF", true);
 mods.thaumcraft.Research.setSpikey("RODBLOODWOODSTAFF", true);
 mods.thaumcraft.Research.addPage("RODBLOODWOODSTAFF", "tc.research_page.RODBLOODWOODSTAFF");
-game.setLocalization("tc.research_page.RODBLOODWOODSTAFF", "\u5373\u4f7f\u4f7f\u7528\u4f60\u7684\u8d85\u7ea7\u518d\u751f\u6cd5\u6756\u548c\u6756\u7aef,\u4f60\u4ecd\u7136\u4e0d\u6ee1\u610f.\u4f60\u77e5\u9053\u5f53\u7528\u8840\u8165\u6756\u82af\u66ff\u6362\u8840\u8165\u6756\u67c4\u540e,\u6cd5\u6756\u7684\u6062\u590d\u901f\u5ea6\u662f\u539f\u6765\u76844\u500d\u4f46\u662f\u50a8\u91cf\u53ea\u6709\u539f\u6765\u7684\u4e00\u534a.
-\u4f7f\u7528\u4e00\u4e9b\u9ed1\u6697\u9b54\u6cd5\u548c\u8840\u8165\u6756\u82af,\u4f60\u73b0\u5728\u53ef\u4ee5\u521b\u9020\u4e00\u4e2a\u6d3b\u751f\u751f\u7684\u6050\u6016.
-\u6b64\u6cd5\u6756\u7684\u6062\u590d\u901f\u5ea6\u662f\u8840\u8165\u6cd5\u6756\u76842\u500d\uff0c\u4f46\u8fd9\u4e5f\u662f\u6ce8\u8840\u6728\u81ea\u8eab\u7684\u518d\u751f\u80fd\u529b\u8fbe\u5230\u6781\u9650\u7684\u5730\u65b9:\u6ce8\u8840\u6728\u672c\u8eab\u4f3c\u4e4e\u8bd5\u56fe\u4ee5\u6bd4\u5b9e\u9645\u66f4\u5feb\u7684\u901f\u5ea6\u518d\u751f.\u4e3a\u4e86\u5f25\u8865\u8fd9\u4e00\u70b9\uff0c\u5b83\u5fc5\u987b\u5728\u6bcf\u6b21\u6062\u590dvis\u65f6\u4ece\u73a9\u5bb6\u90a3\u91cc\u5438\u53d6\u751f\u547d.\u4e0e\u522b\u7684\u8840\u8165\u6cd5\u6756\u4e0d\u540c,\u5b83\u624d\u4e0d\u5173\u5fc3\u4f60\u662f\u6b7b\u662f\u6d3b...");
-mods.thaumcraft.Infusion.addRecipe("RODBLOODWOODSTAFF", <ForbiddenMagic:WandCores:9>, 
+mods.thaumcraft.Research.addPage("RODBLOODWOODSTAFF", "blood_arsenal.research_page.ROD_blood_wood_staff.1");
+mods.thaumcraft.Infusion.addRecipe("RODBLOODWOODSTAFF", <ForbiddenMagic:WandCores:9>,
 [<BloodArsenal:wand_cores>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:wand_cores>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>],
 "victus 64, aqua 64, praecantatio 64, instrumentum 48, metallum 16, ignis 16, infernus 8, arbor 32", <BloodArsenal:wand_cores:1>, 12);
 mods.thaumcraft.Research.addInfusionPage("RODBLOODWOODSTAFF", <BloodArsenal:wand_cores:1>);
