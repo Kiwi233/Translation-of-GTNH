@@ -115,7 +115,7 @@ enderio.itemMEConduit.name=ME导管
 enderio.itemMEConduitDense.name=致密ME导管
 enderio.itemMEConduit.channelsUsed=第{0,number}频道, 共{1,number}频道
 
-enderio.itemOCConduit.name=网络管道(OC)
+enderio.itemOCConduit.name=网络导管(OC)
 
 //Entity
 entity.witherSkeleton.name=凋零骷髅
@@ -127,8 +127,8 @@ enderio.conduitBinder.name=导管粘合剂
 enderio.binderComposite.name=粘合胚料
 enderio.phasedIronNugget.name=脉冲铁粒
 tile.blockDarkIronBars.name=玄铁栅栏
-#N tile.blockSoulariumBars.name=Soularium Bars
-#N tile.blockEndSteelBars.name=End Steel Bars
+tile.blockSoulariumBars.name=魂金栅栏
+tile.blockEndSteelBars.name=末影钢栅栏
 tile.blockEndermanSkull.name=末影人头颅
 tile.blockEndermanSkull.base.name=末影人头
 tile.blockEndermanSkull.reanimated.name=复苏末影人头
@@ -175,13 +175,13 @@ fluid.cloud_seed_concentrated=浓缩云之精华
 tile.fluid.cloud_seed_concentrated.name=浓缩云之精华
 item.bucketCloud_seed_concentrated.name=桶装浓缩云之精华
 
-#N fluid.ender_distillation=Dew of the Void
-#N tile.fluid.ender_distillation.name=Dew of the Void
-#N item.bucketEnder_distillation.name=Dew of the Void Bucket
+fluid.ender_distillation=深渊露水
+tile.fluid.ender_distillation.name=深渊露水
+item.bucketEnder_distillation.name=桶装深渊露水
 
-#N fluid.vapor_of_levity=Vapor of Levity
-#N tile.fluid.vapor_of_levity.name=Vapor of Levity
-#N item.bucketVapor_of_levity.name=Vapor of Levity Bucket
+fluid.vapor_of_levity=轻盈之气
+tile.fluid.vapor_of_levity.name=轻盈之气
+item.bucketVapor_of_levity.name=桶装轻盈之气
 
 fluid.eio.xpjuice=液态XP
 tile.fluid.eio.xpjuice.name=液态XP
@@ -200,14 +200,14 @@ enderio.gas.gasTick=气体每t
 enderio.itemMachinePart.name=机器零件
 enderio.machineChassi.name=机器框架
 enderio.basicGear.name=基础齿轮
-#N enderio.soulMachineChassi.name=Soul Machine Chassis
-#N enderio.endSteelMachineChassi.name=End Steel Chassis
+enderio.soulMachineChassi.name=灵魂机器框架
+enderio.endSteelMachineChassi.name=末影钢机器底盘
 enderio.pulsatingCrystal.name=脉冲晶体
 enderio.vibrantCrystal.name=充能晶体
 enderio.enderCrystal.name=末影晶体
 enderio.attractorCrystal.name=诱引晶体
 enderio.weatherCrystal.name=天气晶体
-enderio.darkGrindingBall.name=玄铁钢珠
+enderio.darkGrindingBall.name=玄铁球
 #N enderio.electricalGrindingBall.name=Electrical Steel Ball
 #N enderio.energeticGrindingBall.name=Energetic Alloy Ball
 #N enderio.vibrantGrindingBall.name=Vibrant Alloy Ball
