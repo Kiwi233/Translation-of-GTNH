@@ -208,19 +208,19 @@ enderio.enderCrystal.name=末影晶体
 enderio.attractorCrystal.name=诱引晶体
 enderio.weatherCrystal.name=天气晶体
 enderio.darkGrindingBall.name=玄铁球
-#N enderio.electricalGrindingBall.name=Electrical Steel Ball
-#N enderio.energeticGrindingBall.name=Energetic Alloy Ball
-#N enderio.vibrantGrindingBall.name=Vibrant Alloy Ball
-#N enderio.redstoneGrindingBall.name=Redstone Alloy Ball
-#N enderio.conductiveGrindingBall.name=Conductive Iron Ball
-#N enderio.pulsatingGrindingBall.name=Pulsating Iron Ball
-#N enderio.soulariumGrindingBall.name=Soularium Ball
-#N enderio.endSteelGrindingBall.name=End Steel Ball
+enderio.electricalGrindingBall.name=磁钢球
+enderio.energeticGrindingBall.name=充能合金球
+enderio.vibrantGrindingBall.name=脉冲合金球
+enderio.redstoneGrindingBall.name=红石合金球
+enderio.conductiveGrindingBall.name=导电铁球
+enderio.pulsatingGrindingBall.name=脉冲铁球
+enderio.soulariumGrindingBall.name=魂金球
+enderio.endSteelGrindingBall.name=末影钢球
 enderio.darkGrindingBall.tooltip.detailed.line1=SAG磨粉机研磨球
 enderio.darkGrindingBall.tooltip.detailed.line2=最大输出
 enderio.darkGrindingBall.tooltip.detailed.line3=额外输出
 enderio.darkGrindingBall.tooltip.detailed.line4=功率降低
-#N enderio.darkSteelRod.name=Dark Steel Rod
+enderio.darkSteelRod.name=玄钢杆
 
 tile.blockReinforcedObsidian.name=强化黑曜石
 tile.blockReinforcedObsidian.tooltip.common.line1=能抵挡凋零
@@ -248,8 +248,8 @@ enderio.phasedIron.name=脉冲铁锭
 enderio.vibrantNugget.name=脉冲合金粒
 enderio.darkSteel.name=玄钢锭
 enderio.soularium.name=魂金锭
-#N enderio.endSteel.name=End Steel
-#N enderio.endSteelNugget.name=End Steel Nugget
+enderio.endSteel.name=末影钢锭
+enderio.endSteelNugget.name=末影钢粒
 #N enderio.precientCrystal.name=Precient Crystal
 #N enderio.pulsatingPowder.name=Grains of Piezallity
 #N enderio.vibrantPowder.name=Grains of Vibrancy
@@ -257,16 +257,16 @@ enderio.soularium.name=魂金锭
 #N enderio.precientPowder.name=Grains of Prescience
 
 //Balls
-#N enderio.electricalSteel_ball.name=Electrical Steel Ball
-#N enderio.energeticAlloy_ball.name=Energetic Alloy Ball
-#N enderio.phasedGold_ball.name=Vibrant Alloy Ball
-#N enderio.redstoneAlloy_ball.name=Redstone Alloy Ball
-#N enderio.conductiveIron_ball.name=Conductive Iron Ball
-#N enderio.phasedIron_ball.name=Pulsating Iron Ball
-#N enderio.vibrantNugget_ball.name=Vibrant Alloy Nugget Ball
-enderio.darkSteel_ball.name=玄铁钢珠
-#N enderio.soularium_ball.name=Soularium Ball
-#N enderio.endSteel_ball.name=End Steel Ball
+enderio.electricalSteel_ball.name=磁钢球
+enderio.energeticAlloy_ball.name=充能合金球
+enderio.phasedGold_ball.name=脉冲合金球
+enderio.redstoneAlloy_ball.name=红石合金球
+enderio.conductiveIron_ball.name=导电铁球
+enderio.phasedIron_ball.name=脉冲铁球
+erio.vibrantNugget_ball.name=脉冲合金粒球
+enderio.darkSteel_ball.name=玄铁球
+enderio.soularium_ball.name=魂金球
+enderio.endSteel_ball.name=末影钢球
 
 tile.blockIngotStorage.name=金属块
 tile.enderio.electricalSteel.name=磁钢块
@@ -278,7 +278,7 @@ tile.enderio.phasedIron.name=脉冲铁块
 tile.enderio.vibrantNugget.name=脉冲合金粒块
 tile.enderio.darkSteel.name=玄钢块
 tile.enderio.soularium.name=魂金块
-#N tile.enderio.endSteel.name=End Steel Block
+#N tile.enderio.endSteel.name=末影钢 Block
 
 //Powder / Ingot
 enderio.powderCoal.name=煤粉
@@ -767,13 +767,13 @@ item.darkSteel_axe.name=玄钢斧
 item.darkSteel_shears.name=玄钢剪
 
 //End Steel
-#N item.endSteel_helmet.name=End Steel Helm
-#N item.endSteel_chestplate.name=End Steel Plate
-#N item.endSteel_leggings.name=End Steel Leggings
-#N item.endSteel_boots.name=End Steel Boots
+#N item.endSteel_helmet.name=末影钢 Helm
+#N item.endSteel_chestplate.name=末影钢 Plate
+#N item.endSteel_leggings.name=末影钢 Leggings
+#N item.endSteel_boots.name=末影钢 Boots
 #N item.endSteel_sword.name=The Ender MKII
-#N item.endSteel_pickaxe.name=End Steel Pick
-#N item.endSteel_axe.name=End Steel Axe
+#N item.endSteel_pickaxe.name=末影钢 Pick
+#N item.endSteel_axe.name=末影钢 Axe
 
 enderio.item.darkSteel.tooltip.lvs=等级
 
