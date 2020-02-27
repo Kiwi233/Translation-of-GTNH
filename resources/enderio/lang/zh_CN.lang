@@ -250,11 +250,11 @@ enderio.darkSteel.name=玄钢锭
 enderio.soularium.name=魂金锭
 enderio.endSteel.name=末影钢锭
 enderio.endSteelNugget.name=末影钢粒
-#N enderio.precientCrystal.name=Precient Crystal
-#N enderio.pulsatingPowder.name=Grains of Piezallity
-#N enderio.vibrantPowder.name=Grains of Vibrancy
-#N enderio.enderCrystalPowder.name=Grains of the End
-#N enderio.precientPowder.name=Grains of Prescience
+enderio.precientCrystal.name=预知晶体
+enderio.pulsatingPowder.name=脉冲晶体粉
+enderio.vibrantPowder.name=充能晶体粉
+enderio.enderCrystalPowder.name=末影晶体粉
+enderio.precientPowder.name=预知晶体粉
 
 //Balls
 enderio.electricalSteel_ball.name=磁钢球
@@ -278,7 +278,7 @@ tile.enderio.phasedIron.name=脉冲铁块
 tile.enderio.vibrantNugget.name=脉冲合金粒块
 tile.enderio.darkSteel.name=玄钢块
 tile.enderio.soularium.name=魂金块
-#N tile.enderio.endSteel.name=末影钢 Block
+tile.enderio.endSteel.name=末影钢块
 
 //Powder / Ingot
 enderio.powderCoal.name=煤粉
@@ -295,7 +295,7 @@ enderio.itemBasicCapacitor.name=电容
 enderio.basicCapacitor.name=基础电容
 enderio.activatedCapacitor.name=双层电容
 enderio.enderCapacitor.name=八位电容
-#N enderio.melodicCapacitor.name=Melodic Capacitor
+enderio.melodicCapacitor.name=十六位电容
 
 enderio.machine.tooltip.upgrade=机器升级
 enderio.machine.tooltip.upgrade.tooltip.detailed.line1=增加机器能量存储与
@@ -325,7 +325,7 @@ tile.blockAlloySmelter.tooltip.detailed.line5=增加速度与能量存储
 
 tile.blockSolarPanel.name=光伏板
 tile.blockSolarPanel.advanced.name=高级光伏板
-#N tile.blockSolarPanel.vibrant.name=Vibrant Photovoltaic Cell
+tile.blockSolarPanel.vibrant.name=脉冲光伏板
 tile.blockSolarPanel.tooltip.common.line1=太阳能!
 tile.blockSolarPanel.tooltip.detailed.line1=白天产生能量
 tile.blockSolarPanel.tooltip.detailed.line2=顶部必须
@@ -425,7 +425,7 @@ enderio.trans.item=物品
 enderio.trans.fluid=流体
 enderio.trans.rail=轨道
 
-#N enderio.trans.receiving=Receiving
+enderio.trans.receiving=接收
 enderio.trans.sending=发送
 
 tile.blockPowerMonitor.name=能量监控器
@@ -442,7 +442,7 @@ tile.blockVat.tooltip.detailed.line1=用于生产末影接口中的流体
 tile.blockEnchanter.name=附魔器
 tile.blockEnchanter.tooltip.detailed.line1=使用XP让物品与
 tile.blockEnchanter.tooltip.detailed.line2=来制作附魔书
-#N tile.blockEnchanter.tooltip.detailed.line3=created enchanted books
+tile.blockEnchanter.tooltip.detailed.line3=附魔书创造!
 
 tile.blockCombustionGenerator.name=燃烧发电机
 tile.blockCombustionGenerator.tooltip.detailed.line1=燃烧液体燃料产生能量
@@ -455,15 +455,15 @@ tile.blockZombieGenerator.tooltip.detailed.line2=来产生能量
 enderio.zombieGenerator.fuelTank=营养液水槽
 enderio.gui.fluid.minReq=激活需要 %s 
 
-#N tile.blockFrankenzombieGenerator.name=Frank'N'Zombie Generator
+tile.blockFrankenzombieGenerator.name=人造僵尸发电机
 tile.blockFrankenzombieGenerator.tooltip.detailed.line1=消耗营养精华液
-#N tile.blockFrankenzombieGenerator.tooltip.detailed.line2=to generate even more power
+tile.blockFrankenzombieGenerator.tooltip.detailed.line2=产生更多能量
 enderio.frankenzombieGenerator.fuelTank=营养液槽
 
-#N tile.blockEnderGenerator.name=Ender Generator
-#N tile.blockEnderGenerator.tooltip.detailed.line1=Consumes Dew of the Void
+tile.blockEnderGenerator.name=末影人发电机
+tile.blockEnderGenerator.tooltip.detailed.line1=消耗深渊露水
 tile.blockEnderGenerator.tooltip.detailed.line2=来产生能量
-#N enderio.enderGenerator.fuelTank=Void Tank
+enderio.enderGenerator.fuelTank=深渊储罐
 
 tile.blockKillerJoe.name=杀手乔
 tile.blockKillerJoe.tooltip.detailed.line1=当你提供一把剑和营养精华
@@ -751,8 +751,8 @@ skullZombieController.name=Z-逻辑控制器
 skullZombieFrankenstien.name=人造僵尸
 skullEnderResonator.name=末影谐振器
 skullSentientEnder.name=意识末影谐振器
-#N skullSkeletalContractor.name=Skeletal Contractor
-#N skullGuardianDiode.name=Guardian Diode
+skullSkeletalContractor.name=骷髅契约板
+skullGuardianDiode.name=守卫者二极管
 
 item.itemSpawnEggEnderIO.name=生成
 
@@ -767,13 +767,13 @@ item.darkSteel_axe.name=玄钢斧
 item.darkSteel_shears.name=玄钢剪
 
 //End Steel
-#N item.endSteel_helmet.name=末影钢 Helm
-#N item.endSteel_chestplate.name=末影钢 Plate
-#N item.endSteel_leggings.name=末影钢 Leggings
-#N item.endSteel_boots.name=末影钢 Boots
-#N item.endSteel_sword.name=The Ender MKII
-#N item.endSteel_pickaxe.name=末影钢 Pick
-#N item.endSteel_axe.name=末影钢 Axe
+item.endSteel_helmet.name=末影钢头盔
+item.endSteel_chestplate.name=末影钢胸甲
+item.endSteel_leggings.name=末影钢护腿
+item.endSteel_boots.name=末影钢靴子
+item.endSteel_sword.name=终结之剑 MK2
+item.endSteel_pickaxe.name=末影钢镐
+item.endSteel_axe.name=末影钢斧
 
 enderio.item.darkSteel.tooltip.lvs=等级
 
@@ -802,7 +802,7 @@ enderio.item.endSteel_sword.tooltip.line3=充能后伤害+2
 enderio.item.darkSteel_armor.tooltip.line1=充能后
 enderio.item.darkSteel_armor.tooltip.line2=钻石级别保护 
 
-#N enderio.item.endSteel_armor.tooltip.line1=Diamond+ level protection
+enderio.item.endSteel_armor.tooltip.line1=钻石+级别保护
 enderio.item.endSteel_armor.tooltip.line2=免疫跌落伤害
 
 enderio.item.endSteel_boots.tooltip.line1=充能后
@@ -828,7 +828,7 @@ enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line1=能量: $P
 enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line2=能量将抵消
 enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line3=$D%耐久损耗
 
-#N enderio.darksteel.upgrade.empowered_five.name=Empowered V
+enderio.darksteel.upgrade.empowered_five.name=注能 V
 enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line1=能量: $P
 enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line2=能量将抵消
 enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line3=$D%耐久损耗
@@ -916,7 +916,7 @@ enderio.darksteel.upgrade.solar_one.tooltip.detailed.line1=利用阳光产能.
 enderio.darksteel.upgrade.solar_two.name=太阳能 II
 enderio.darksteel.upgrade.solar_two.tooltip.detailed.line1=利用阳光产能.
 
-#N enderio.darksteel.upgrade.solar_three.name=Solar III
+enderio.darksteel.upgrade.solar_three.name=太阳能 III
 enderio.darksteel.upgrade.solar_three.tooltip.detailed.line1=利用阳光产能.
 
 //------GUI
@@ -1149,7 +1149,7 @@ enderio.gui.conduit.gas.autoExtract=自动提取
 enderio.gui.weather.task.clear=清除天气
 enderio.gui.weather.task.rain=雨天
 enderio.gui.weather.task.storm=雷暴天气
-#N enderio.gui.weather.requiredfluid=Required Fluid: %s mB
+enderio.gui.weather.requiredfluid=需要流体: %s mB
 enderio.weatherObelisk.fuelTank=大气通量仓
 
 //Enchants
