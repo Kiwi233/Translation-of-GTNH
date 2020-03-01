@@ -1193,7 +1193,7 @@ languagefile {
     S:"Saccharomyces cerevisiae var cerevisiae"=啤酒酵母菌
     S:"Saccharomyces escherichia"=通用酵母菌
     S:TileEntity_DESCRIPTION_1000_Index_0=工业高炉的控制器方块
-    S:TileEntity_DESCRIPTION_1000_Index_1=大小(宽x高x长)： 3x4x3(中空), 控制器(底层侧中)
+    S:TileEntity_DESCRIPTION_1000_Index_1=大小(宽x高x长)： 3x4x3(中空), 控制器(正面底中)
     S:TileEntity_DESCRIPTION_1000_Index_10=剩余方块为隔热机械方块
     S:TileEntity_DESCRIPTION_1000_Index_11=自配方的最小炉温起，每高出900K会减少5%的能耗，以乘法叠加，温度为线圈温度+(电压等级-2)*100
     S:TileEntity_DESCRIPTION_1000_Index_12=自配方的最小炉温起，每高出1800K将允许一次无损超频
@@ -1228,7 +1228,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1003_Index_0=工业熔炉的控制器方块
     S:TileEntity_DESCRIPTION_1003_Index_1=一次性熔炼8-128个物品
     S:TileEntity_DESCRIPTION_1003_Index_10=每秒产生400点污染
-    S:TileEntity_DESCRIPTION_1003_Index_2=大小(宽x高x长)：3x3x3(中空)，控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_1003_Index_2=大小(宽x高x长)：3x3x3(中空)，控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_1003_Index_3=8x加热线圈(中间层，中空)
     S:TileEntity_DESCRIPTION_1003_Index_4=1x输入总线(底层任意机械方块)
     S:TileEntity_DESCRIPTION_1003_Index_5=1x输出总线(底层任意机械方块)
@@ -1735,7 +1735,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1126_Index_0=蒸馏塔的控制器方块
     S:TileEntity_DESCRIPTION_1126_Index_1=大小(宽x高x长)：3xhx3(中空)，高度h在3~12之间
     S:TileEntity_DESCRIPTION_1126_Index_10=剩余方块为洁净不锈钢机械方块(至少需要7xh-5个！)
-    S:TileEntity_DESCRIPTION_1126_Index_2=控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_1126_Index_2=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_1126_Index_3=1x输入仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_1126_Index_4=2-11x输出仓(除底层外每层1个)
     S:TileEntity_DESCRIPTION_1126_Index_5=1x输出总线(任意底层机械方块)
@@ -2078,12 +2078,12 @@ languagefile {
     S:TileEntity_DESCRIPTION_1153_Index_6=剩余方块为钨钢涡轮机械方块(至少24个！)
     S:TileEntity_DESCRIPTION_1153_Index_7=需要涡轮转子(控制器方块的GUI中)
     S:TileEntity_DESCRIPTION_1154_Index_0=大型热交换机控制器方块
-    S:TileEntity_DESCRIPTION_1154_Index_1=大小(宽x高x长)：3x4x3, 控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_1154_Index_1=大小(宽x高x长)：3x4x3, 控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_1154_Index_2=3x4x3的加强钛机械方块(中空，至少20个！)
     S:TileEntity_DESCRIPTION_1154_Index_3=2x钛管道方块(在中空的机械方块之中)
     S:TileEntity_DESCRIPTION_1154_Index_4=1x蒸馏水输入仓(任意机械方块)
     S:TileEntity_DESCRIPTION_1154_Index_5=1x蒸汽输出仓(任意机械方块)
-    S:TileEntity_DESCRIPTION_1154_Index_6=1x热流体输入仓(底层侧中)
+    S:TileEntity_DESCRIPTION_1154_Index_6=1x热流体输入仓(正面底中)
     S:TileEntity_DESCRIPTION_1154_Index_7=1x冷流体输出仓(顶层正中)
     S:TileEntity_DESCRIPTION_1154_Index_8=1x维护仓(任意机械方块)
     S:TileEntity_DESCRIPTION_1155_Index_0=木炭堆的控制器方块
@@ -2099,7 +2099,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1157_Index_1=大小(宽x高x长)：3x7x3
     S:TileEntity_DESCRIPTION_1157_Index_10=使用螺丝刀调整工作范围
     S:TileEntity_DESCRIPTION_1157_Index_11=使用编程电路可以在油田接近枯竭时提前停止采油
-    S:TileEntity_DESCRIPTION_1157_Index_2=控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_1157_Index_2=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_1157_Index_3=3x1x3的脱氧钢机械方块基座
     S:TileEntity_DESCRIPTION_1157_Index_4=1x3x1的脱氧钢机械方块立柱(基座中央)
     S:TileEntity_DESCRIPTION_1157_Index_5=1x3x1的钢框架(立柱的每个侧面与上方)
@@ -2108,7 +2108,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1157_Index_8=1xMV+能源仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_1157_Index_9=工作区域为1x1区块
     S:TileEntity_DESCRIPTION_1158_Index_0=采矿场I的控制器方块
-    S:TileEntity_DESCRIPTION_1158_Index_1=大小(宽x高x长)：3x7x3，控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_1158_Index_1=大小(宽x高x长)：3x7x3，控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_1158_Index_10=使用螺丝刀调整采矿范围
     S:TileEntity_DESCRIPTION_1158_Index_11=使用电烙铁关闭区块加载模式
     S:TileEntity_DESCRIPTION_1158_Index_12=最大采矿半径48格
@@ -2127,7 +2127,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1159_Index_11=白铜：50%，坝塔尔合金：100%，镍铬合金：150，钨钢：200%...
     S:TileEntity_DESCRIPTION_1159_Index_12=功率不受线圈等级影响
     S:TileEntity_DESCRIPTION_1159_Index_13=每秒产生600点污染
-    S:TileEntity_DESCRIPTION_1159_Index_2=大小(宽x高x长)：5x4x5，控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_1159_Index_2=大小(宽x高x长)：5x4x5，控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_1159_Index_3=3x1x3的加热线圈(底层中央)
     S:TileEntity_DESCRIPTION_1159_Index_4=1x输入仓/总线(顶层中央的3x1x3区域)
     S:TileEntity_DESCRIPTION_1159_Index_5=1x输出仓/总线(任意底层机械方块)
@@ -2233,7 +2233,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1175_Index_0=利用闪电的力量产生电能
     S:TileEntity_DESCRIPTION_1176_Index_0=利用闪电的力量产生电能
     S:TileEntity_DESCRIPTION_1177_Index_0=采矿场II的控制器方块
-    S:TileEntity_DESCRIPTION_1177_Index_1=大小(宽x高x长)：3x7x3，控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_1177_Index_1=大小(宽x高x长)：3x7x3，控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_1177_Index_10=使用螺丝刀调整采矿范围
     S:TileEntity_DESCRIPTION_1177_Index_11=使用电烙铁关闭区块加载模式
     S:TileEntity_DESCRIPTION_1177_Index_12=最大采矿半径64格
@@ -2247,7 +2247,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1177_Index_8=1x维护仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_1177_Index_9=1xHV+能源仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_1178_Index_0=采矿场III的控制器方块
-    S:TileEntity_DESCRIPTION_1178_Index_1=大小(宽x高x长)：3x7x3，控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_1178_Index_1=大小(宽x高x长)：3x7x3，控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_1178_Index_10=使用螺丝刀调整采矿范围
     S:TileEntity_DESCRIPTION_1178_Index_11=使用电烙铁关闭区块加载模式
     S:TileEntity_DESCRIPTION_1178_Index_12=最大采矿半径96格
@@ -2261,7 +2261,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1178_Index_8=1x维护仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_1178_Index_9=1xEV+能源仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_1179_Index_0=采矿场IV的控制器方块
-    S:TileEntity_DESCRIPTION_1179_Index_1=大小(宽x高x长)：3x7x3，控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_1179_Index_1=大小(宽x高x长)：3x7x3，控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_1179_Index_10=使用螺丝刀调整采矿范围
     S:TileEntity_DESCRIPTION_1179_Index_11=使用电烙铁关闭区块加载模式
     S:TileEntity_DESCRIPTION_1179_Index_12=最大采矿半径144格
@@ -2396,7 +2396,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1201_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1201_Index_2=线损/米/安： %s 伏
     S:TileEntity_DESCRIPTION_12020_Index_0=空气过滤器的控制器方块
-    S:TileEntity_DESCRIPTION_12020_Index_1=大小(宽x高x长)： 3x4x3(中空), 控制器(底层侧中)
+    S:TileEntity_DESCRIPTION_12020_Index_1=大小(宽x高x长)： 3x4x3(中空), 控制器(正面底中)
     S:TileEntity_DESCRIPTION_12020_Index_10=能源等级*2=最高的有效消声仓等级
     S:TileEntity_DESCRIPTION_12020_Index_11=效果可能滞后体现
     S:TileEntity_DESCRIPTION_12020_Index_2=8x空气过滤器排气机械方块(中间两层的角落)
@@ -3452,7 +3452,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12733_Index_14=每个燃料丸都会增加转换冷却液的需求量
     S:TileEntity_DESCRIPTION_12733_Index_15=一次运行需要游戏内的27天
     S:TileEntity_DESCRIPTION_12733_Index_16=添加者bartimaeusnek,模组§2BartWorks
-    S:TileEntity_DESCRIPTION_12733_Index_2=控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_12733_Index_2=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_12733_Index_3=角落及其相邻方块均为空气方块(圆柱型)
     S:TileEntity_DESCRIPTION_12733_Index_4=一旦搭建完成后,需向输入仓持续通入氦,直到其不再接受为止
     S:TileEntity_DESCRIPTION_12733_Index_5=1+输出仓(任意底层机械方块)
@@ -3493,7 +3493,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12738_Index_10=层高可在NEI中查询
     S:TileEntity_DESCRIPTION_12738_Index_11=剩余方块为洁净不锈钢机械方块(至少需要15*h-5个！)
     S:TileEntity_DESCRIPTION_12738_Index_12=添加者bartimaeusnek,模组§2BartWorks
-    S:TileEntity_DESCRIPTION_12738_Index_2=控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_12738_Index_2=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_12738_Index_3=1+输入仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_12738_Index_4=1+输出总线(任意底层机械方块)
     S:TileEntity_DESCRIPTION_12738_Index_5=一个"输出层"由5层构成!
@@ -3614,7 +3614,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_13000_Index_14=每秒需要10§9水要素§7cVis，否则会造成更多的魔法污染
     S:TileEntity_DESCRIPTION_13000_Index_15=由EMT添加
     S:TileEntity_DESCRIPTION_13000_Index_16=由bartimaeusnek制作
-    S:TileEntity_DESCRIPTION_13000_Index_2=大小(宽x高x长)：7x4x7，控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_13000_Index_2=大小(宽x高x长)：7x4x7，控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_13000_Index_3=顶部中央5x1x5消声仓(噪音大户— —)
     S:TileEntity_DESCRIPTION_13000_Index_4=内部5x2x5为源质扩散单元
     S:TileEntity_DESCRIPTION_13000_Index_5=以下都在底部或两侧
@@ -3902,7 +3902,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_141_Index_1=大小(宽x高x长)：3x7x3
     S:TileEntity_DESCRIPTION_141_Index_10=使用螺丝刀调整工作范围
     S:TileEntity_DESCRIPTION_141_Index_11=使用编程电路可以在油田接近枯竭时提前停止采油
-    S:TileEntity_DESCRIPTION_141_Index_2=控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_141_Index_2=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_141_Index_3=3x1x3的加强钛机械方块基座
     S:TileEntity_DESCRIPTION_141_Index_4=1x3x1的加强钛机械方块立柱(基座中央)
     S:TileEntity_DESCRIPTION_141_Index_5=1x3x1钛框架(立柱的每个侧面与上方)
@@ -3944,7 +3944,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_142_Index_1=大小(宽x高x长)：3x7x3
     S:TileEntity_DESCRIPTION_142_Index_10=使用螺丝刀调整工作范围
     S:TileEntity_DESCRIPTION_142_Index_11=使用编程电路可以在油田接近枯竭时提前停止采油
-    S:TileEntity_DESCRIPTION_142_Index_2=控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_142_Index_2=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_142_Index_3=3x1x3的强化钨钢机械方块基座
     S:TileEntity_DESCRIPTION_142_Index_4=1x3x1的强化钨钢方块立柱(基座中央)
     S:TileEntity_DESCRIPTION_142_Index_5=1x3x1的钨钢框架(立柱的每个侧面与上方)
@@ -3960,7 +3960,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1431_Index_2=线损/米/安： %s 伏
     S:TileEntity_DESCRIPTION_143_Index_0=混凝土回填机的控制器方块
     S:TileEntity_DESCRIPTION_143_Index_1=大小(宽x高x长)：3x7x3
-    S:TileEntity_DESCRIPTION_143_Index_2=控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_143_Index_2=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_143_Index_3=3x1x3的脱氧钢机械方块基座
     S:TileEntity_DESCRIPTION_143_Index_4=1x3x1的脱氧钢机械方块立柱(基座中央)
     S:TileEntity_DESCRIPTION_143_Index_5=1x3x1的钢框架(立柱的每个侧面与上方)
@@ -4002,7 +4002,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_144_Index_1=大小(宽x高x长)：3x7x3
     S:TileEntity_DESCRIPTION_144_Index_10=半径=总配置值x2
     S:TileEntity_DESCRIPTION_144_Index_11=半径默认64，最大128
-    S:TileEntity_DESCRIPTION_144_Index_2=控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_144_Index_2=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_144_Index_3=3x1x3的加强钛机械方块基座
     S:TileEntity_DESCRIPTION_144_Index_4=1x3x1的加强钛机械方块立柱(基座中央)
     S:TileEntity_DESCRIPTION_144_Index_5=1x3x1钛框架(立柱的每个侧面与上方)
@@ -6742,7 +6742,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_31021_Index_21=T2 目前不可用
     S:TileEntity_DESCRIPTION_31021_Index_22=T2 高度不可变
     S:TileEntity_DESCRIPTION_31021_Index_23=大小(宽x高x长): 3x26x3(中空)
-    S:TileEntity_DESCRIPTION_31021_Index_24=控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_31021_Index_24=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_31021_Index_25=1x输入仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_31021_Index_26=24x输出仓(除了底层/顶层外,每层一个)
     S:TileEntity_DESCRIPTION_31021_Index_27=1x输出总线(任意底层机械方块)
@@ -7874,7 +7874,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_750_Index_3=§a§a创造机器
     S:TileEntity_DESCRIPTION_751_Index_20=液态氟钍反应堆的控制器方块
     S:TileEntity_DESCRIPTION_751_Index_21=利用β衰变生产热量和能源
-    S:TileEntity_DESCRIPTION_751_Index_22=大小(宽x高x长)：7x4x7(中空)，控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_751_Index_22=大小(宽x高x长)：7x4x7(中空)，控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_751_Index_23=底层与顶层为哈斯特洛依合金-N反应堆机械方块
     S:TileEntity_DESCRIPTION_751_Index_24=中间2层为塞龙-100反应堆屏蔽机械方块
     S:TileEntity_DESCRIPTION_751_Index_25=--一般仓室放在顶层与底层边缘--
@@ -8063,7 +8063,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_791_Index_22=若使用绝热焦炉机械方块则一次处理24次合成
     S:TileEntity_DESCRIPTION_791_Index_23=大小(宽x高x长): 3x3x3 (中空)
     S:TileEntity_DESCRIPTION_791_Index_24=剩余方块为焦炉机械方块(至少8个!)
-    S:TileEntity_DESCRIPTION_791_Index_25=控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_791_Index_25=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_791_Index_26=8x隔热/绝热焦炉机械方块(中间层，中空)
     S:TileEntity_DESCRIPTION_791_Index_27=1x输入仓
     S:TileEntity_DESCRIPTION_791_Index_28=1x输出仓
@@ -8146,7 +8146,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_798_Index_27=每秒造成100污染
     S:TileEntity_DESCRIPTION_799_Index_14=质量发生器的控制器方块
     S:TileEntity_DESCRIPTION_799_Index_15=生产UU-A, UU-M和废料
-    S:TileEntity_DESCRIPTION_799_Index_16=大小(宽x高x长)：5x4x5, 控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_799_Index_16=大小(宽x高x长)：5x4x5, 控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_799_Index_17=3x1x3的质量发生线圈(底层中央)
     S:TileEntity_DESCRIPTION_799_Index_18=9x质量发生线圈(底层中央的3x1x3区域)(又写两遍)
     S:TileEntity_DESCRIPTION_799_Index_19=24x抑制机械方块
@@ -8169,7 +8169,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_810_Index_19=将编程电路放入输入总线或GUI以控制配方
     S:TileEntity_DESCRIPTION_810_Index_20=大小(宽x高x长)：3x4x3(中空)
     S:TileEntity_DESCRIPTION_810_Index_21=剩余方块为冶炼炉机械方块(至少10个!)
-    S:TileEntity_DESCRIPTION_810_Index_22=控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_810_Index_22=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_810_Index_23=16x冶炼炉隔热线圈(中间2层，中空)
     S:TileEntity_DESCRIPTION_810_Index_24=1x输入总线
     S:TileEntity_DESCRIPTION_810_Index_25=1x输入仓(可选)
@@ -9141,7 +9141,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_998_Index_36=57x各级机械方块(如LV机械方块等)
     S:TileEntity_DESCRIPTION_998_Index_37=80+固体外壳(多种选择,详见任务书)
     S:TileEntity_DESCRIPTION_998_Index_38=结构指南:
-    S:TileEntity_DESCRIPTION_998_Index_39=控制器方块(底层侧中)
+    S:TileEntity_DESCRIPTION_998_Index_39=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_998_Index_40=仓室只能放置在底层边缘
     S:TileEntity_DESCRIPTION_998_Index_41=7x7x7 固体外壳(中空框架)
     S:TileEntity_DESCRIPTION_998_Index_42=5x1x5 固体外壳(顶层)
