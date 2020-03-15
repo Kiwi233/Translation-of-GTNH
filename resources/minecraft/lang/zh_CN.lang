@@ -2198,9 +2198,7 @@ gtnh.quest548.desc=第一步是将你的石油提炼成含硫轻燃油,这种燃
 
 # Quest.549 - §5§lLight fuel
 gtnh.quest549.name=§5§l轻燃油
-#B gtnh.quest549.desc=By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 320,000 EU.%n%nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.%n%nIn MV age you can make diesel out of light and heavy fuel.
-#A gtnh.quest549.desc=By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce some light fuel with the very high burn value of 305,000 EU.%n%nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.%n%nIn MV age you can make diesel out of light and heavy fuel.
-#C gtnh.quest549.desc=在化学反应釜中通过氢气将硫化轻燃油转化成不含硫的轻燃油,这是一种燃烧值很高的燃料. 1单位的轻燃油(1000mb)理论燃烧值有305KEU.  而剩下的硫化氢可以通过加水反应得到稀硫酸,稀硫酸在蒸馏得到硫酸.这可是很重要的化工原料,你可以使用硫酸来制备TNT或者灌装到电池内制作一次性电池. 在MV阶段,你可以通过搅拌重燃油和轻燃油来制作柴油.
+gtnh.quest549.desc=在化学反应釜中通过氢气将硫化轻燃油转化成不含硫的轻燃油,这是一种燃烧值很高的燃料. 1单位的轻燃油(1000mb)理论燃烧值有305KEU.%n%n而剩下的硫化氢可以通过加水反应得到稀硫酸,稀硫酸在蒸馏得到硫酸.这可是很重要的化工原料,你可以使用硫酸来制备TNT或者灌装到电池内制作一次性电池.%n%n在MV阶段,你可以通过搅拌重燃油和轻燃油来制作柴油.
 
 # Quest.550 - §5§lH like Hydrogen... rest of the alphabet is too complicated...
 gtnh.quest550.name=§5§lH可能是氢... 字母表的其余部分太复杂了！
@@ -2212,9 +2210,7 @@ gtnh.quest551.desc=第二步是将你的石油提炼成含硫重燃油,这种燃
 
 # Quest.552 - §5§lHeavy fuel
 gtnh.quest552.name=§5§l重燃油
-#B gtnh.quest552.desc=By adding hydrogen to sulfuric heavy fuel in a chemical reactor you can produce some heavy fuel with the burn value of 200,000 EU.%n%nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.%n%nIn MV age you can make diesel out of heavy and light fuel.
-#A gtnh.quest552.desc=By adding hydrogen to sulfuric heavy fuel in a chemical reactor you can produce some heavy fuel with the burn value of 240,000 EU.%n%nThe remaining hydrogen sulfide cells can be used later to produce some sulfuric acid for your TNT/iTNT or acid batteries.%n%nIn MV age you can make diesel out of heavy and light fuel.
-#C gtnh.quest552.desc=同样,含硫重燃油也可以在化学反应釜中和氢气反应得到不含硫的重燃油和硫化氢,脱硫的重燃油1单位(1000mb)的燃烧值也将提高到200KEU. 而剩下的硫化氢可以通过加水反应得到稀硫酸,稀硫酸在蒸馏得到硫酸. 这可是很重要的化工原料,你可以使用硫酸来制备TNT或者灌装到电池内制作一次性电池. 在MV阶段,你可以通过搅拌重燃油和轻燃油来制作柴油.
+gtnh.quest552.desc=同样,含硫重燃油也可以在化学反应釜中和氢气反应得到不含硫的重燃油和硫化氢,脱硫的重燃油1单位(1000mb)的燃烧值也将提高到240KEU.%n%n而剩下的硫化氢可以通过加水反应得到稀硫酸,稀硫酸再蒸馏得到硫酸. 这可是很重要的化工原料,你可以使用硫酸来制备TNT或者灌装到电池内制作一次性电池.%n%n在MV阶段,你可以通过搅拌重燃油和轻燃油来制作柴油.
 
 # Quest.553 - §6§lDiesel fuel
 gtnh.quest553.name=§6§l柴油
@@ -2238,9 +2234,7 @@ gtnh.quest557.desc=每单位720KEU！是的,是的你没看错！ 制造一些�
 
 # Quest.558 - §3§lWhat can I put all these items in?
 gtnh.quest558.name=§3§l我把所有的东西放在哪里？
-#B gtnh.quest558.desc=After you make your first steel you're able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it's a bit bigger than a small chest. Later you can make it even larger. You can put one on your back and set it to automatically pick up stuff. %n%n§4Check out the "Backpacks" control configuration "Open Backpacks" and remap it to a new key. %n%n§4The maximum you can have in your inventory at once is 4.
-#A gtnh.quest558.desc=After you make your first steel you're able to craft the small backpack. In this bag you can put a lot of the stuff you want to carry around. With 36 slots it's a bit bigger than a small chest. Later you can make it even larger. You can put one on your back and set it to automatically pick up stuff. %n%n§4Check out the "Backpacks" control configuration "Open Backpacks" and remap it to a new key.%nThe key binding only works after the backpack is added to the back slot, which can be done using Shift+<Open Backpacks Key>.%n%n§4The maximum you can have in your inventory at once is 4.
-#C gtnh.quest558.desc=在你烧炼第一块钢后,你就能制作这个小背包.在这个背包里,你可以放很多你想要带的东西.它有36个格子,比一个小箱子大一点.稍后你还能扩大它.你可以背上一个并将其设置为自动捡拾模式.  §4检查"控制"中"背包"栏中的"打开背包(Open-Backpacks)"设置快捷键.  §4你最多可以同时拥有四个背包.
+gtnh.quest558.desc=在你烧炼第一块钢后,你就能制作这个小背包.在这个背包里,你可以放很多你想要带的东西.它有36个格子,比一个小箱子大一点.稍后你还能扩大它.你可以背上一个并将其设置为自动捡拾模式.%n%n§4检查"控制"中"背包"栏中的"打开背包(Open-Backpacks)"设置快捷键.%n%n§4你最多可以在物品栏内同时拥有四个背包.%n%n译者注:通过腰带或背包切换物品栏即可携带更多背包.
 
 # Quest.559 - §6§lLow pressure boiler tank
 gtnh.quest559.name=§6§l低压锅炉
@@ -2804,9 +2798,7 @@ gtnh.quest698.desc=两个砖高炉(BBF)还是不够快...
 
 # Quest.699 - §6§lWhy one coke oven when you can have ten?
 gtnh.quest699.name=§6§l一个焦炉?不,你需要10个!
-#B gtnh.quest699.desc=Your bricked blast furnace uses coal like hell and your steam boiler too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.  You can use either faucets with restone clocking or LV pumps to empty the creosote. For the charcoal, hoppers are easy to get once you have an assembler.%n%nUnlike Gregtech multiblocks, coke ovens must have 1 space separating each oven.%n%nSearch NEI for a more efficient way to make coke oven bricks.
-#A gtnh.quest699.desc=Your bricked blast furnace uses coal like hell and your steam boiler too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal.  You can use either faucets with restone clocking or LV pumps to empty the creosote. For the charcoal, hoppers are easy to get once you have an assembler.%n%nUnlike Gregtech multiblocks, coke ovens must have 1 space separating each oven.%n%nSearch NEI for a more efficient way to make coke oven bricks.%n%nUse a Steelwrench for tin item pipes to dismantle.
-#C gtnh.quest699.desc=你的砖高炉的炭用量大得要命,而你的蒸汽锅炉也是？好吧,是时候建造更多焦炉然后将它们自动化了.木制流体管道以及锡物品管道将帮助你完成目标.  你可以使用红石钟+浇筑口或者直接使用LV泵来清空焦炉内的杂酚油.至于木炭,等到你有了组装机后,漏斗是很容易获得的.%n%n不同于GT的多方块机器,焦炉必须在每台炉子之间留出1格空间.%n%n搜索NEI,找找制造焦炉砖的更优方式.
+gtnh.quest699.desc=你的砖高炉的炭用量大得要命,而你的蒸汽锅炉也是？好吧,是时候建造更多焦炉然后将它们自动化了.木制流体管道以及锡物品管道将帮助你完成目标.  你可以使用红石钟+浇筑口或者直接使用LV泵来清空焦炉内的杂酚油.至于木炭,等到你有了组装机后,漏斗是很容易获得的.%n%n不同于GT的多方块机器,焦炉必须在每台炉子之间留出1格空间.%n%n搜索NEI,找找制造焦炉砖的更优方式.%n%n你得用钢制及以上的扳手才能拆卸锡物品管道.
 
 # Quest.700 - How dark can you go?
 gtnh.quest700.name=你能够有多黑暗？
@@ -3046,9 +3038,7 @@ gtnh.quest758.desc=更好的机器需要更好的电池.让我们为新电池做
 
 # Quest.759 - §6§lMolten Polyethylene
 gtnh.quest759.name=§6§l液态聚乙烯
-#B gtnh.quest759.desc=Polyethylene is made out of ethylene in a chemical reactor.%nMolten Polyethylene cells carry 144L, perfect for 1 ingot or plate. %nIf you want precise amounts, you can use a Volumetric Flask once you electrolyze some Boron from Borax.
-#A gtnh.quest759.desc=Polyethylene is made out of ethylene in a chemical reactor.%nMolten Polyethylene cells carry 144L, perfect for 1 ingot or plate. %nIf you want precise amounts, you can use a Volumetric Flask once you electrolyze some Boron from Borax.%n%nNotice some leftovers? Try using the plunger, or if you have the materials, you can use 12 ethylene cells and 84 oxygen cells to make exactly 125 cells of polyethylene.
-#C gtnh.quest759.desc=聚乙烯是由乙烯在化学反应釜中制成. 一个熔融聚乙烯单元为144L聚乙烯,刚好是一个条或者板的量.  如果你需要更精确的容量,你可以使用容量瓶,容量瓶需要硼(电解硼砂).
+gtnh.quest759.desc=聚乙烯是由乙烯在化学反应釜中制成.%n一个熔融聚乙烯单元为144L聚乙烯,刚好是一个条或者板的量.%n如果你需要更精确的容量,你可以使用容量瓶,容量瓶需要硼(电解硼砂).%n%n发现有些残留? 试试搋子, 或者你材料足够的话, 可以使用12个乙烯单元加上84个氧单元刚好制成125单元聚乙烯.
 
 # Quest.760 - §6§lClay Electrolyzing
 gtnh.quest760.name=§6§l电解粘土
@@ -3260,9 +3250,7 @@ gtnh.quest811.desc=制造每个火箭都需要严谨的计划.你可以用工作
 
 # Quest.812 - Tier 1 Heavy Duty Plates
 gtnh.quest812.name=1阶重型装甲板
-#B gtnh.quest812.desc=Rockets require heavy duty plates for the main hull. Let's craft 36 of these plates out of compressed aluminium plates, compressed bronze plates and compressed steel plates.
-#A gtnh.quest812.desc=Rockets require heavy duty plates for the main hull. Let's craft 37 of these plates out of compressed aluminium plates, compressed bronze plates and compressed steel plates.
-#C gtnh.quest812.desc=火箭的主箭体需要使用重型装甲板来制作.让我们用压缩铝板、压缩钢板、压缩青铜板这些材料来制作36个.
+gtnh.quest812.desc=火箭的主箭体需要使用重型装甲板来制作.让我们用压缩铝板、压缩钢板、压缩青铜板这些材料来制作37个.
 
 # Quest.813 - Rocket Nose Cone
 gtnh.quest813.name=火箭鼻锥
@@ -5658,9 +5646,7 @@ gtnh.quest1410.desc=需要IV搅拌机来搅拌铌钛和钒镓粉. 其他配方�
 
 # Quest.1411 - §9§lSome rare high tier metals
 gtnh.quest1411.name=§9§l一些罕见的高级金属
-#B gtnh.quest1411.desc=Small piles of Platinum, Palladium, Iridium and Osmium can be extracted with a chemical reaction with using nitric acid. You don't have the technology to process it right now but later on you need large amounts of them. You can start now to collect some dust and process it later.%n%n§4A chemical bath also extracts Platinum from Nickel ore.  Time to head back to the Twilight Forest!
-#A gtnh.quest1411.desc=Platinum, Palladium, Iridium and Osmium can be extracted with a chemical reaction with Chalcopyrite and Pentlandite using nitric acid. You don't have the technology to process them properly right now but later on you need large amounts of them. You can EBF Platinum now, but proper Platinum processing is EV, but you'll have to wait until IV to use the rest. Collecting a lot of it now might not be a great idea depending on how long that will be.%n%n§4A chemical bath also extracts Platinum from Nickel ore if you use Mercury.  Time to head back to the Twilight Forest!
-#C gtnh.quest1411.desc=在与硝酸的某些化学反应过程中,可以得到小堆的铂,钯,铱和锇. 你现在没有技术来处理它,但是以后你大量需要这些金属. 你现在可以开始收集一些粉并稍后处理.  §4化学浸洗机还可以从镍矿石中提取出铂.  是时候返回暮色森林了!
+gtnh.quest1411.desc=在黄铜矿、镍黄铁矿与硝酸的某些化学反应过程中, 可以得到小堆的铂、钯、铱和锇. 你现在可能没有技术来处理它们, 但是以后你需要大量这些金属. 你可以直接用高炉处理这些铂金属粉, 但正确的铂处理需要EV电压, 还有一些需要IV电压. 现在收集太多这些金属粉好像不是个好主意, 这取决于你要花多长时间.%n%n§4化学浸洗机还可以从镍矿石中汞洗出铂.  是时候返回暮色森林了!
 
 # Quest.1412 - §6§lAssembling Line
 gtnh.quest1412.name=§6§l装配线
@@ -5916,9 +5902,7 @@ gtnh.quest1474.desc=或者至少和drum(多义:鼓、筒)一起玩？ 如果你�
 
 # Quest.1475 - §1§lCows are supposed to Moo!
 gtnh.quest1475.name=§1§l奶牛应该Moo！
-#B gtnh.quest1475.desc=What the?  You noticed sometimes when you kill something, even a cow or chicken, that it explodes! What madness! To stop it, use a proper GregTech Knife or Butchery Knife. Craft a flint GregTech knife with a stick and a piece of flint (last NEI page) and I will give you an old iron one to use once it wears out.
-#A gtnh.quest1475.desc=What the?  You noticed sometimes when you kill something, even a cow or chicken, that it explodes! What madness! To stop it, use a proper GregTech Knife or Butchery Knife. Craft a flint GregTech knife with a stick and a piece of flint (hard to find on NEI page. Need to search a bit) and I will give you an old iron one to use once it wears out.
-#C gtnh.quest1475.desc=什么？ 你有时会注意到你杀死生物,甚至是牛或鸡,它会爆炸！这么疯狂！ 要阻止它,请使用合适的GT小刀或GT屠刀. 用木棍和燧石制作一柄燧石小刀(参考最后一页NEI),当你的小刀磨损后,我会给你一个铁的.
+gtnh.quest1475.desc=什么？ 你有时会注意到你杀死生物,甚至是牛或鸡,它会爆炸！这么疯狂！ 要阻止它,请使用合适的GT小刀或GT屠刀. 用木棍和燧石制作一柄燧石小刀(在NEI上有些难找.花点时间吧),当你的小刀磨损后,我会给你一个铁的.
 
 # Quest.1476 - §2§lAll the finest cuts of meat
 gtnh.quest1476.name=§2§l所有最好的肉类
@@ -5973,15 +5957,11 @@ gtnh.quest1488.name=Dezil的棉花糖
 gtnh.quest1488.desc=最后一步,你需要用一些史诗级的食物为你的棉花糖注魔.当然,你得先解锁此研究才能进行注魔. 这会带来扭曲.
 
 # Quest.1489 - §c§lNow you really gonna hate this 1-4 in LuV
-#B gtnh.quest1489.name=§c§lNow you realy gonna hate this 1-4 in LuV
-#A gtnh.quest1489.name=§c§lNow you really gonna hate this 1-4 in LuV
-#C gtnh.quest1489.name=§c§lLuV阶段你会讨厌的1-4
+gtnh.quest1489.name=§c§lLuV阶段你会讨厌的1-4
 gtnh.quest1489.desc=泵,活塞,传送带和机械臂是LuV中最需要的机器部件.用你的装配线每样都做一个.
 
 # Quest.1490 - §c§lNow you really gonna hate this 5 and 6 in LuV
-#B gtnh.quest1490.name=§c§lNow you realy gonna hate this 5 and 6 in LuV
-#A gtnh.quest1490.name=§c§lNow you really gonna hate this 5 and 6 in LuV
-#C gtnh.quest1490.name=§c§lLuV阶段你会讨厌的5和6
+gtnh.quest1490.name=§c§lLuV阶段你会讨厌的5和6
 gtnh.quest1490.desc=一些机器需要发射器和传感器,比如说扫描仪或者电路组装机.
 
 # Quest.1491 - §b§lHSS-G
@@ -6002,9 +5982,7 @@ gtnh.quest1494.desc=是时候起第二个高炉了！ 你可以通过3种方式�
 
 # Quest.1495 - §1§lAll alone in the night
 gtnh.quest1495.name=§1§l一个人在夜里
-#B gtnh.quest1495.desc=If you are playing single player survival, updates mean having to reload default quests. Use this block to do it for you without having to enter creative mode - you don't lose progress, but you'll have new quests to complete!%n%nSorry, no rewards, other than the satisfaction of knowing it's you versus the world.  
-#A gtnh.quest1495.desc=If you are playing single player survival, updates mean having to reload default quests. Use the Default Load Block to do it for you without having to enter creative mode - you don't lose progress, but you'll have new quests to complete! Use the items to craft it, then place it and right-click.%n%nSorry, no rewards, other than the satisfaction of knowing it's you versus the world.  
-#C gtnh.quest1495.desc=如果你正在玩单人生存,那么更新意味着必须重新加载默认任务. 使用此方块可以让你无需进入创造模式即可完成这个操作--你不会失去进度,但你将有新的任务要完成！ 抱歉,没有奖励,除了你知道你自己对抗世界的满足感.
+gtnh.quest1495.desc=如果你正在玩单人生存,那么更新意味着必须重新加载默认任务. 使用此方块可以让你无需进入创造模式即可完成这个操作--你不会失去进度,但你将有新的任务要完成！制造它, 放置它, 然后右键它.%n%n抱歉,没有奖励,除了你知道你自己对抗世界的满足感.
 
 # Quest.1496 - §2§lHow the heck do I find ores?
 gtnh.quest1496.name=§2§l见鬼,我该怎么找到矿石？
@@ -6052,9 +6030,7 @@ gtnh.quest1506.desc=NEI也有一些非常好的高级功能. 点击一个物品�
 
 # Quest.1507 - §4§3§lMaking a list, checking it twice
 gtnh.quest1507.name=§4§3§l制作清单,检查两次
-#B gtnh.quest1507.desc=As your base grows, you're going to have a dozen different long term goals each with many steps. Build a clipboard to keep track of what you need to do.
-#A gtnh.quest1507.desc=As your base grows, you're going to have a dozen different long term goals each with many steps. Build a clipboard to keep track of what you need to do.%n%n§4Hint: You can put the clipboard on a wall using Shift-Rightclick. 
-#C gtnh.quest1507.desc=随着你基地的扩大,你将有十几个不同的长期目标,每个目标都有很多步骤. 建造写字板以跟踪你需要执行的任务.
+gtnh.quest1507.desc=随着你基地的扩大,你将有十几个不同的长期目标,每个目标都有很多步骤. 建造写字板以跟踪你需要执行的任务.%n%n§4提示: 你可以通过Shift+右键将写字板贴到墙上. 
 
 # Quest.1508 - §2§lA better crafting table
 gtnh.quest1508.name=§2§l一个更好的工作台
@@ -6106,9 +6082,7 @@ gtnh.quest1519.desc=用大型钢流体单元替代怎么样？每个都可以容
 
 # Quest.1520 - §6§lLarge Aluminium Fluid Cells
 gtnh.quest1520.name=§6§l大型铝流体单元
-#B gtnh.quest1520.desc=512 buckets in a stack not cutting it?  Aluminium cells can hold 32 buckets per cell, and stack to 64. 2,048 buckets in a single stack? That's half a supertank!
-#A gtnh.quest1520.desc=512 buckets in a stack not cutting it?  Aluminium cells can hold 32 buckets per cell, and stack to 64. 2,048 buckets in a single stack? That's half a supertank!%n%nIf you're trying to get water, unfortunately the larger cells don't really work well with the RC Water Tanks, try moving the water to one of the gregtech or gt++ tanks such as the ultra low voltage fluid tank or super tank first. You need to at least match the capacity of the cell with the tank for them to be able to fill/empty them, the same for hatches.
-#C gtnh.quest1520.desc=512桶还无法满足你？ 大型铝流体单元每个可容纳32桶流体,最大堆叠64. 一格能装32*64桶液体？ 那是半个超级油轮！
+gtnh.quest1520.desc=512桶还无法满足你？ 大型铝流体单元每个可容纳32桶流体,最大堆叠64. 一格能装32*64桶液体？ 那是半个超级油轮！%n%n如果你想装水, RC的蓄水器无法兼容太大的单元(一次只能装很少的一点), 试着把水转移到GT或GT++的流体容器(如超低压流体储罐或超级缸), 然后再装单元. 你至少需要满足单元容量的流体或能容纳单元容量的空间, 才能装满单元或倒空它, 对于仓室这一点同样适用.
 
 # Quest.1521 - §9§lSeparating gems from the dust
 gtnh.quest1521.name=§9§l将宝石与粉末分开
@@ -6980,9 +6954,7 @@ gtnh.quest1737.desc=当将作物与产出作物杂交时,尝试获得与产出�
 
 # Quest.1738 - §2§lWhen all you have is a hammer...
 gtnh.quest1738.name=§2§l当你只有一柄锤子......
-#B gtnh.quest1738.desc=...the whole world looks like a nail.  When looking for good tool materials, look for the generic tool in NEI and use R to find the recipe. Then use U on the source materials you have to find out their durability options. Tool parts are normally not in NEI, like the drill bit. So use NEI U on plates etc to figure out their recipes. %n%nThe GT tools each have special uses.%n%nScrewdriver - Used on covers to change their behavior.%n%nWrench - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.%n%nCrowbar - Remove covers from machines or pipes.%n%nWire cutters - Connecting/disconnecting wires/cables.%n%nSoft mallet - Turning machines on/off.%n%nHammer - Prospecting for ores in a limited way in front of you, and smashing ore blocks into crushed ores.
-#A gtnh.quest1738.desc=...the whole world looks like a nail.  When looking for good tool materials, look for the generic tool in NEI and use R to find the recipe. Then use U on the source materials you have to find out their durability options. Tool parts are normally not in NEI, like the drill bit. So use NEI U on plates etc to figure out their recipes. %n%nThe GT tools each have special uses.%n%nScrewdriver - Used on covers to change their behavior.%n%nWrench - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.%n%nCrowbar - Remove covers from machines or pipes.%n%nWire cutters - Connecting/disconnecting wires/cables.%n%nSoft mallet - Turning machines on/off.%n%nHammer - Prospecting for ores in a limited way in front of you, and smashing ore blocks into crushed ores.%n%n§4Tin items Pipes need a Steel Wrench to dismantle!!!
-#C gtnh.quest1738.desc=当你只有一柄锤子......整个世界看起来就像钉子.当你寻找优秀的工具材料时,在NEI中寻找通用工具然后对它按R,你就能看到它的一堆合成表.然后对着合成所需的锭按U,你就能看到其作为材料时的各种参数了.工具的零件比如钻头,通常不在NEI中.所以对着板按U来查看它们的合成表.  每个GT工具都有特殊用途: 螺丝刀-用于覆盖板以改变它们的模式. 扳手-用于改变GT机器的输出方向,或者拆除机器.也可以断开/连接管道或打开/关闭扇板. 撬棍-从机器或管道上拆下覆盖板. 剪线钳-连接/断开导线/线缆. 软锤-打开/关闭机器. 锤-在你面前以有限的方式勘探矿石,还可将矿石块粉碎.
+gtnh.quest1738.desc=当你只有一柄锤子......整个世界看起来就像钉子.当你寻找优秀的工具材料时,在NEI中寻找通用工具然后对它按R,你就能看到它的一堆合成表.然后对着合成所需的锭按U,你就能看到其作为材料时的各种参数了.工具的零件比如钻头,通常不在NEI中.所以对着板按U来查看它们的合成表.%n%n每个GT工具都有特殊用途:%n%n螺丝刀-用于覆盖板以改变它们的模式.%n%n扳手-用于改变GT机器的输出方向,或者拆除机器.也可以断开/连接管道或打开/关闭扇板.%n%n撬棍-从机器或管道上拆下覆盖板.%n%n剪线钳-连接/断开导线/线缆.%n%n软锤-打开/关闭机器.%n%n锤-在你面前以有限的方式勘探矿石,还可将矿石块粉碎.%n%n§4锡物品管道需要钢制及以上的扳手才能拆卸!!!
 
 # Quest.1739 - §9§lFarming a little easier
 gtnh.quest1739.name=§9§l让耕种更容易一点
@@ -7150,9 +7122,7 @@ gtnh.quest1779.desc=活塞靴子是探险家的一双有弹性的鞋. 它能提�
 
 # Quest.1780 - Olives Saplings
 gtnh.quest1780.name=橄榄树苗
-#B gtnh.quest1780.desc=Olive trees can't be find in the overworld so the best way would be to buy some with coins.
-#A gtnh.quest1780.desc=Olive trees can't be found in the overworld so the best way would be to buy some with coins.
-#C gtnh.quest1780.desc=在世界各地都找不到橄榄树,所以最好的方法就是用硬币买一些.
+gtnh.quest1780.desc=在世界各地都找不到橄榄树,所以最好的办法就是用硬币买一些.
 
 # Quest.1781 - Traveller's Gear
 gtnh.quest1781.name=旅行者的装备
@@ -7188,15 +7158,11 @@ gtnh.quest1788.desc=没有描述
 
 # Quest.1789 - §3§lFactory Iron Door
 gtnh.quest1789.name=§3§l工厂的铁门
-#B gtnh.quest1789.desc=For your new Factory you need iron doors. Well the recipe is realy hard and need steel. %nYou can choose two more doors as reward if you like.
-#A gtnh.quest1789.desc=For your new Factory you need iron doors. Unfortunately, the recipe is really hard, needing steel.%nYou can choose two more iron doors as reward if you like.
-#C gtnh.quest1789.desc=你的新工厂需要铁门.当然合成表真的很难,而且需要钢. 如果你愿意的话,你可以选择额外的两个门作为奖励.
+gtnh.quest1789.desc=你的新工厂需要铁门. 不幸的是, 合成表真的很难,而且需要钢.%n如果你愿意的话, 可以选择额外的两个门作为奖励.
 
 # Quest.1790 - §2§lWooden Door
 gtnh.quest1790.name=§2§l木门
-#B gtnh.quest1790.desc=For your new House you need more wooden  doors. Well the recipe is realy hard and need iron/copper and a lot of wood. %nYou can choose two more doors as reward if you like.
-#A gtnh.quest1790.desc=For your new House you need more wooden  doors. Well the recipe is really hard and need iron/copper and a lot of wood. %nYou can choose two more doors as reward if you like.
-#C gtnh.quest1790.desc=你的新家需要木门.当然合成表真的很难,而且需要铁/铜和大量的木头. 如果你愿意的话,你可以选择额外的两个门作为奖励.
+gtnh.quest1790.desc=你的新家需要木门. 当然合成表真的很难,而且需要铁/铜和大量的木头.%n如果你愿意的话, 可以选择额外的两个门作为奖励.
 
 # Quest.1791 - §5§lOilsand or how you get heavy Oil
 gtnh.quest1791.name=§5§l油砂或是别的什么获得重油的方式
@@ -7372,9 +7338,7 @@ gtnh.quest1833.desc=处理最先进的材料(无尽催化剂、无尽),你需要
 
 # Quest.1834 - §1§lMushroom Biomes ? why there so many?
 gtnh.quest1834.name=§1§l蘑菇岛?为什么有这么多蘑菇岛?
-#B gtnh.quest1834.desc=GNTH pack is made for the rwg worldgen. If you run the vanilla biomes worlgen you get huge Mushroom biomes over the map. Go and generate a new world before you continue this one. If you run a server put this inside your server.properties file.%n%n§5 §5§4§3§2§3§b§4§3§2§3§4§5§l"level-type=rwg".
-#A gtnh.quest1834.desc=GNTH pack is made for the RWG worldgen. If you run the vanilla biomes worlgen you get huge Mushroom biomes over the map. Go and generate a new world before you continue this one. If you run a server put this inside your server.properties file.%n%n§5 §5§4§3§2§3§b§4§3§2§3§4§5§l"level-type=rwg".
-#C gtnh.quest1834.desc=GNTH整合包使用真实世界生成(rwg-worldgen).如果你使用原版的世界生成,你将会得到不计其数的蘑菇岛.你最好去重新生成一下世界.如果你运行着一个服务器,把这个添加到你的服务器.属性文件(properties-file).  §5 §5§4§3§2§3§b§4§3§2§3§4§5§l"level-type=rwg".
+gtnh.quest1834.desc=GNTH整合包使用真实世界生成(rwg-worldgen).如果你使用原版的世界生成,你将会得到不计其数的蘑菇岛.你最好去重新生成一下世界.如果你运行着一个服务器,把这个添加到你的服务器.属性文件(properties-file).  §5 §5§4§3§2§3§b§4§3§2§3§4§5§l"level-type=rwg".
 
 # Quest.1835 - §6§lTantalum Overworld
 gtnh.quest1835.name=§6§l主世界的钽
@@ -9745,44 +9709,44 @@ gtnh.quest2426.name=§6§l下界的钽
 gtnh.quest2426.desc=GT和EIO的电容都会用到钽,它还是铌的一种来源.它还是一种便宜的源质来源(我并不这么认为).%n你能在下界Y=20-30找到含钽的矿脉.
 
 # Quest.2427 - Gold Ore exchange
-#N gtnh.quest2427.name=Gold Ore exchange
-#N gtnh.quest2427.desc=You can exchange your Stack of GT Gold Ore for another Gold Type of Ores.
+gtnh.quest2427.name=交换金矿石
+gtnh.quest2427.desc=可以把你的GT金矿石换成另一种金矿石.
 
 # Quest.2428 - Coal Ore exchange
-#N gtnh.quest2428.name=Coal Ore exchange
-#N gtnh.quest2428.desc=You can exchange your Stack of GT Coal Ore for another Coal Type of Ores.
+gtnh.quest2428.name=交换煤矿石
+gtnh.quest2428.desc=可以把你的GT煤矿石换成另一种煤矿石.
 
 # Quest.2429 - Lapis Ore exchange
-#N gtnh.quest2429.name=Lapis Ore exchange
-#N gtnh.quest2429.desc=You can exchange your Stack of GT Lapis Ore for another Lapis Type of Ores.
+gtnh.quest2429.name=交换青金石矿石
+gtnh.quest2429.desc=可以把你的GT青金石矿石换成另一种青金石矿石.
 
 # Quest.2430 - Diamond Ore exchange
-#N gtnh.quest2430.name=Diamond Ore exchange
-#N gtnh.quest2430.desc=You can exchange your Stack of GT Diamond Ore for another Diamond Type of Ores.
+gtnh.quest2430.name=交换钻石矿石
+gtnh.quest2430.desc=可以把你的GT钻石矿石换成另一种钻石矿石.
 
 # Quest.2431 - Redstone Ore exchange
-#N gtnh.quest2431.name=Redstone Ore exchange
-#N gtnh.quest2431.desc=You can exchange your Stack of GT Redstone Ore for another Redstone Type of Ores.
+gtnh.quest2431.name=交换红石矿石
+gtnh.quest2431.desc=可以把你的GT红石矿石换成另一种红石矿石.
 
 # Quest.2432 - Netherquartz Ore exchange
-#N gtnh.quest2432.name=Netherquartz Ore exchange
-#N gtnh.quest2432.desc=You can exchange your Stack of GT Netherquartz Ore for another Netherquartz Type of Ores.
+gtnh.quest2432.name=交换下界石英矿石
+gtnh.quest2432.desc=可以把你的GT下界石英矿石换成另一种下界石英矿石.
 
 # Quest.2433 - Copper Ore exchange
-#N gtnh.quest2433.name=Copper Ore exchange
-#N gtnh.quest2433.desc=You can exchange your Stack of GT Copper Ore for another Copper Type of Ores.
+gtnh.quest2433.name=交换铜矿石
+gtnh.quest2433.desc=可以把你的GT铜矿石换成另一种铜矿石.
 
 # Quest.2434 - Tin Ore exchange
-#N gtnh.quest2434.name=Tin Ore exchange
-#N gtnh.quest2434.desc=You can exchange your Stack of GT Tin Ore for another Tin Type of Ores.
+gtnh.quest2434.name=交换锡矿石
+gtnh.quest2434.desc=可以把你的GT锡矿石换成另一种锡矿石.
 
 # Quest.2435 - Uranium Ore exchange
-#N gtnh.quest2435.name=Uranium Ore exchange
-#N gtnh.quest2435.desc=You can exchange your Stack of GT Uranium Ore for another Uranium Type of Ores.
+gtnh.quest2435.name=交换铀矿石
+gtnh.quest2435.desc=可以把你的GT铀矿石换成另一种铀矿石.
 
 # Quest.2436 - Lead Ore exchange
-#N gtnh.quest2436.name=Lead Ore exchange
-#N gtnh.quest2436.desc=You can exchange your Stack of GT Lead Ore for another Lead Type of Ores.
+gtnh.quest2436.name=交换铅矿石
+gtnh.quest2436.desc=可以把你的GT铅矿石换成另一种铅矿石.
 
 ##################################Line##################################
 
