@@ -513,7 +513,7 @@ game.setLocalization("tc.research_name.BurnGTNH", "\u70bc\u72f1\u4e4b\u58f6");
 game.setLocalization("tc.research_text.BurnGTNH", "\u4e3a\u4ec0\u4e48\u6211\u80fd\u7406\u89e3\u706b??");
 mods.thaumcraft.Research.addPage("BurnGTNH", "te.text.BURN.1");
 mods.thaumcraft.Infusion.addRecipe("BurnGTNH", <minecraft:flower_pot>,
-[<minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <gregtech:gt.metaitem.01:17028>, <minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <minecraft:brick>, <minecraft:lava_bucket>, <gregtech:gt.metaitem.01:17028>, <minecraft:lava_bucket>, <minecraft:brick>], 
+[<minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <gregtech:gt.blockcasings5:3>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.blockcasings5:3>, <minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <minecraft:brick>, <minecraft:lava_bucket>, <gregtech:gt.blockcasings5:3>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.blockcasings5:3>, <minecraft:lava_bucket>, <minecraft:brick>], 
 "ignis 64, praecantatio 48, vacuos 32, alienis 32, lucrum 16", <ThaumicExploration:everburnUrn>, 9);
 mods.thaumcraft.Research.addInfusionPage("BurnGTNH", <ThaumicExploration:everburnUrn>);
 
