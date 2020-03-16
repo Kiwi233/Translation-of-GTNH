@@ -87,118 +87,118 @@
 
 
 // --- Decaying Frame (GT++)
-<miscutils:frameDecaying>.addTooltip("<\u6309\u4f4f Shift>");
-<miscutils:frameDecaying>.addShiftTooltip("\u8010\u4e45:"+format.gold(" 240"));
-<miscutils:frameDecaying>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
-<miscutils:frameDecaying>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.aqua(" x1"));
-<miscutils:frameDecaying>.addShiftTooltip("\u5bff\u547d:"+format.aqua(" x1"));
-<miscutils:frameDecaying>.addShiftTooltip("\u4ea7\u91cf:"+format.aqua(" x1"));
-<miscutils:frameDecaying>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.darkRed(" x10"));
+<miscutils:frameDecaying:*>.addTooltip("<\u6309\u4f4f Shift>");
+<miscutils:frameDecaying:*>.addShiftTooltip("\u8010\u4e45:"+format.gold(" 240"));
+<miscutils:frameDecaying:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
+<miscutils:frameDecaying:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.aqua(" x1"));
+<miscutils:frameDecaying:*>.addShiftTooltip("\u5bff\u547d:"+format.aqua(" x1"));
+<miscutils:frameDecaying:*>.addShiftTooltip("\u4ea7\u91cf:"+format.aqua(" x1"));
+<miscutils:frameDecaying:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.darkRed(" x10"));
 
 // --- Slowing Frame (GT++)
-<miscutils:frameSlowing>.addTooltip("<\u6309\u4f4f Shift>");
-<miscutils:frameSlowing>.addShiftTooltip("\u8010\u4e45:"+format.red(" 175"));
-<miscutils:frameSlowing>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.darkRed(" x1"));
-<miscutils:frameSlowing>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.darkRed(" x0.5"));
-<miscutils:frameSlowing>.addShiftTooltip("\u5bff\u547d:"+format.gold(" x2"));
-<miscutils:frameSlowing>.addShiftTooltip("\u4ea7\u91cf:"+format.darkRed(" x0.5"));
-<miscutils:frameSlowing>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x1"));
+<miscutils:frameSlowing:*>.addTooltip("<\u6309\u4f4f Shift>");
+<miscutils:frameSlowing:*>.addShiftTooltip("\u8010\u4e45:"+format.red(" 175"));
+<miscutils:frameSlowing:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.darkRed(" x1"));
+<miscutils:frameSlowing:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.darkRed(" x0.5"));
+<miscutils:frameSlowing:*>.addShiftTooltip("\u5bff\u547d:"+format.gold(" x2"));
+<miscutils:frameSlowing:*>.addShiftTooltip("\u4ea7\u91cf:"+format.darkRed(" x0.5"));
+<miscutils:frameSlowing:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x1"));
 
 // --- Stabilizing Frame (GT++)
-<miscutils:frameStabilizing>.addTooltip("<\u6309\u4f4f Shift>");
-<miscutils:frameStabilizing>.addShiftTooltip("\u8010\u4e45:"+format.darkRed(" 60"));
-<miscutils:frameStabilizing>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
-<miscutils:frameStabilizing>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.darkRed(" x0.1"));
-<miscutils:frameStabilizing>.addShiftTooltip("\u5bff\u547d:"+format.aqua(" x1"));
-<miscutils:frameStabilizing>.addShiftTooltip("\u4ea7\u91cf:"+format.darkRed(" x0.1"));
-<miscutils:frameStabilizing>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.gold(" x0.5"));
+<miscutils:frameStabilizing:*>.addTooltip("<\u6309\u4f4f Shift>");
+<miscutils:frameStabilizing:*>.addShiftTooltip("\u8010\u4e45:"+format.darkRed(" 60"));
+<miscutils:frameStabilizing:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
+<miscutils:frameStabilizing:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.darkRed(" x0.1"));
+<miscutils:frameStabilizing:*>.addShiftTooltip("\u5bff\u547d:"+format.aqua(" x1"));
+<miscutils:frameStabilizing:*>.addShiftTooltip("\u4ea7\u91cf:"+format.darkRed(" x0.1"));
+<miscutils:frameStabilizing:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.gold(" x0.5"));
 
 // --- Arborists Frame (GT++)
-<miscutils:frameArborists>.addTooltip("<\u6309\u4f4f Shift>");
-<miscutils:frameArborists>.addShiftTooltip("\u8010\u4e45:"+format.aqua(" 240"));
-<miscutils:frameArborists>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.gold(" x3"));
-<miscutils:frameArborists>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.darkRed(" x0"));
-<miscutils:frameArborists>.addShiftTooltip("\u5bff\u547d:"+format.gold(" x3"));
-<miscutils:frameArborists>.addShiftTooltip("\u4ea7\u91cf:"+format.darkRed(" x0"));
-<miscutils:frameArborists>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x1"));
+<miscutils:frameArborists:*>.addTooltip("<\u6309\u4f4f Shift>");
+<miscutils:frameArborists:*>.addShiftTooltip("\u8010\u4e45:"+format.aqua(" 240"));
+<miscutils:frameArborists:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.gold(" x3"));
+<miscutils:frameArborists:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.darkRed(" x0"));
+<miscutils:frameArborists:*>.addShiftTooltip("\u5bff\u547d:"+format.gold(" x3"));
+<miscutils:frameArborists:*>.addShiftTooltip("\u4ea7\u91cf:"+format.darkRed(" x0"));
+<miscutils:frameArborists:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x1"));
 
 // --- Mutagenic Frame (GT++)
-<miscutils:frameMutagenic>.addTooltip("<\u6309\u4f4f Shift>");
-<miscutils:frameMutagenic>.addShiftTooltip("\u8010\u4e45:"+format.darkRed(" 3"));
-<miscutils:frameMutagenic>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
-<miscutils:frameMutagenic>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.aqua(" x5"));
-<miscutils:frameMutagenic>.addShiftTooltip("\u5bff\u547d:"+format.darkRed(" x0.0001"));
-<miscutils:frameMutagenic>.addShiftTooltip("\u4ea7\u91cf:"+format.bold(" x10"));
-<miscutils:frameMutagenic>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x1"));
+<miscutils:frameMutagenic:*>.addTooltip("<\u6309\u4f4f Shift>");
+<miscutils:frameMutagenic:*>.addShiftTooltip("\u8010\u4e45:"+format.darkRed(" 3"));
+<miscutils:frameMutagenic:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
+<miscutils:frameMutagenic:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.aqua(" x5"));
+<miscutils:frameMutagenic:*>.addShiftTooltip("\u5bff\u547d:"+format.darkRed(" x0.0001"));
+<miscutils:frameMutagenic:*>.addShiftTooltip("\u4ea7\u91cf:"+format.bold(" x10"));
+<miscutils:frameMutagenic:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x1"));
 
 // --- Busy Frame (GT++)
-<miscutils:frameBusy>.addTooltip("<\u6309\u4f4f Shift>");
-<miscutils:frameBusy>.addShiftTooltip("\u8010\u4e45:"+format.bold(" 2000"));
-<miscutils:frameBusy>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
-<miscutils:frameBusy>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.darkRed(" x0"));
-<miscutils:frameBusy>.addShiftTooltip("\u5bff\u547d:"+format.aqua(" x3"));
-<miscutils:frameBusy>.addShiftTooltip("\u4ea7\u91cf:"+format.aqua(" x4"));
-<miscutils:frameBusy>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x1"));
+<miscutils:frameBusy:*>.addTooltip("<\u6309\u4f4f Shift>");
+<miscutils:frameBusy:*>.addShiftTooltip("\u8010\u4e45:"+format.bold(" 2000"));
+<miscutils:frameBusy:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
+<miscutils:frameBusy:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.darkRed(" x0"));
+<miscutils:frameBusy:*>.addShiftTooltip("\u5bff\u547d:"+format.aqua(" x3"));
+<miscutils:frameBusy:*>.addShiftTooltip("\u4ea7\u91cf:"+format.aqua(" x4"));
+<miscutils:frameBusy:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x1"));
 
 // --- Magic Frame (Magic Bees)
-<MagicBees:frameMagic>.addTooltip("<\u6309\u4f4f Shift>");
-<MagicBees:frameMagic>.addShiftTooltip("\u8010\u4e45:"+format.gold(" 240"));
-<MagicBees:frameMagic>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
-<MagicBees:frameMagic>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.gold(" x1"));
-<MagicBees:frameMagic>.addShiftTooltip("\u5bff\u547d:"+format.yellow(" x1"));
-<MagicBees:frameMagic>.addShiftTooltip("\u4ea7\u91cf:"+format.darkGreen(" x2"));
-<MagicBees:frameMagic>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.yellow( "x0.6"));
+<MagicBees:frameMagic:*>.addTooltip("<\u6309\u4f4f Shift>");
+<MagicBees:frameMagic:*>.addShiftTooltip("\u8010\u4e45:"+format.gold(" 240"));
+<MagicBees:frameMagic:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
+<MagicBees:frameMagic:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.gold(" x1"));
+<MagicBees:frameMagic:*>.addShiftTooltip("\u5bff\u547d:"+format.yellow(" x1"));
+<MagicBees:frameMagic:*>.addShiftTooltip("\u4ea7\u91cf:"+format.darkGreen(" x2"));
+<MagicBees:frameMagic:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.yellow( "x0.6"));
 
 // --- Resilient Frame (Magic Bees)
-<MagicBees:frameResilient>.addTooltip("<\u6309\u4f4f Shift>");
-<MagicBees:frameResilient>.addShiftTooltip("\u8010\u4e45:"+format.aqua(" 800"));
-<MagicBees:frameResilient>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
-<MagicBees:frameResilient>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.gold(" x1"));
-<MagicBees:frameResilient>.addShiftTooltip("\u5bff\u547d:"+format.yellow(" x1"));
-<MagicBees:frameResilient>.addShiftTooltip("\u4ea7\u91cf:"+format.darkGreen(" x2"));
-<MagicBees:frameResilient>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.green(" x0.5"));
+<MagicBees:frameResilient:*>.addTooltip("<\u6309\u4f4f Shift>");
+<MagicBees:frameResilient:*>.addShiftTooltip("\u8010\u4e45:"+format.aqua(" 800"));
+<MagicBees:frameResilient:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
+<MagicBees:frameResilient:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.gold(" x1"));
+<MagicBees:frameResilient:*>.addShiftTooltip("\u5bff\u547d:"+format.yellow(" x1"));
+<MagicBees:frameResilient:*>.addShiftTooltip("\u4ea7\u91cf:"+format.darkGreen(" x2"));
+<MagicBees:frameResilient:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.green(" x0.5"));
 
 // --- Gentle Frame (Magic Bees)
-<MagicBees:frameGentle>.addTooltip("<\u6309\u4f4f Shift>");
-<MagicBees:frameGentle>.addShiftTooltip("\u8010\u4e45:"+format.red(" 200"));
-<MagicBees:frameGentle>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
-<MagicBees:frameGentle>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.red(" x0.7"));
-<MagicBees:frameGentle>.addShiftTooltip("\u5bff\u547d:"+format.green(" x1.5"));
-<MagicBees:frameGentle>.addShiftTooltip("\u4ea7\u91cf:"+format.green(" x1.4"));
-<MagicBees:frameGentle>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x0.01"));
+<MagicBees:frameGentle:*>.addTooltip("<\u6309\u4f4f Shift>");
+<MagicBees:frameGentle:*>.addShiftTooltip("\u8010\u4e45:"+format.red(" 200"));
+<MagicBees:frameGentle:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
+<MagicBees:frameGentle:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.red(" x0.7"));
+<MagicBees:frameGentle:*>.addShiftTooltip("\u5bff\u547d:"+format.green(" x1.5"));
+<MagicBees:frameGentle:*>.addShiftTooltip("\u4ea7\u91cf:"+format.green(" x1.4"));
+<MagicBees:frameGentle:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x0.01"));
 
 // --- Metabolic Frame (Magic Bees)
-<MagicBees:frameMetabolic>.addTooltip("<\u6309\u4f4f Shift>");
-<MagicBees:frameMetabolic>.addShiftTooltip("\u8010\u4e45:"+format.red(" 130"));
-<MagicBees:frameMetabolic>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
-<MagicBees:frameMetabolic>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.green(" x1.8"));
-<MagicBees:frameMetabolic>.addShiftTooltip("\u5bff\u547d:"+format.yellow(" x1"));
-<MagicBees:frameMetabolic>.addShiftTooltip("\u4ea7\u91cf:"+format.green(" x1.2"));
-<MagicBees:frameMetabolic>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x1"));
+<MagicBees:frameMetabolic:*>.addTooltip("<\u6309\u4f4f Shift>");
+<MagicBees:frameMetabolic:*>.addShiftTooltip("\u8010\u4e45:"+format.red(" 130"));
+<MagicBees:frameMetabolic:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
+<MagicBees:frameMetabolic:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.green(" x1.8"));
+<MagicBees:frameMetabolic:*>.addShiftTooltip("\u5bff\u547d:"+format.yellow(" x1"));
+<MagicBees:frameMetabolic:*>.addShiftTooltip("\u4ea7\u91cf:"+format.green(" x1.2"));
+<MagicBees:frameMetabolic:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x1"));
 
 // --- Necrotic Frame (Magic Bees)
-<MagicBees:frameNecrotic>.addTooltip("<\u6309\u4f4f Shift>");
-<MagicBees:frameNecrotic>.addShiftTooltip("\u8010\u4e45:"+format.green(" 280"));
-<MagicBees:frameNecrotic>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
-<MagicBees:frameNecrotic>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.gold(" x1"));
-<MagicBees:frameNecrotic>.addShiftTooltip("\u5bff\u547d:"+format.red(" x0.3"));
-<MagicBees:frameNecrotic>.addShiftTooltip("\u4ea7\u91cf:"+format.gold(" x0.75"));
-<MagicBees:frameNecrotic>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.red(" x1.2"));
+<MagicBees:frameNecrotic:*>.addTooltip("<\u6309\u4f4f Shift>");
+<MagicBees:frameNecrotic:*>.addShiftTooltip("\u8010\u4e45:"+format.green(" 280"));
+<MagicBees:frameNecrotic:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
+<MagicBees:frameNecrotic:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.gold(" x1"));
+<MagicBees:frameNecrotic:*>.addShiftTooltip("\u5bff\u547d:"+format.red(" x0.3"));
+<MagicBees:frameNecrotic:*>.addShiftTooltip("\u4ea7\u91cf:"+format.gold(" x0.75"));
+<MagicBees:frameNecrotic:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.red(" x1.2"));
 
 // --- Temporal Frame (Magic Bees)
-<MagicBees:frameTemporal>.addTooltip("<\u6309\u4f4f Shift>");
-<MagicBees:frameTemporal>.addShiftTooltip("\u8010\u4e45:"+format.green(" 300"));
-<MagicBees:frameTemporal>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
-<MagicBees:frameTemporal>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.gold(" x1"));
-<MagicBees:frameTemporal>.addShiftTooltip("\u5bff\u547d:"+format.darkGreen(" x2.5"));
-<MagicBees:frameTemporal>.addShiftTooltip("\u4ea7\u91cf:"+format.yellow(" x1"));
-<MagicBees:frameTemporal>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.yellow(" x0.8"));
+<MagicBees:frameTemporal:*>.addTooltip("<\u6309\u4f4f Shift>");
+<MagicBees:frameTemporal:*>.addShiftTooltip("\u8010\u4e45:"+format.green(" 300"));
+<MagicBees:frameTemporal:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
+<MagicBees:frameTemporal:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.gold(" x1"));
+<MagicBees:frameTemporal:*>.addShiftTooltip("\u5bff\u547d:"+format.darkGreen(" x2.5"));
+<MagicBees:frameTemporal:*>.addShiftTooltip("\u4ea7\u91cf:"+format.yellow(" x1"));
+<MagicBees:frameTemporal:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.yellow(" x0.8"));
 
 // --- Oblivion Frame (Magic Bees)
-<MagicBees:frameOblivion>.addTooltip("<\u6309\u4f4f Shift>");
-<MagicBees:frameOblivion>.addShiftTooltip("\u8010\u4e45:"+format.darkRed(" 50"));
-<MagicBees:frameOblivion>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
-<MagicBees:frameOblivion>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.gold(" x1"));
-<MagicBees:frameOblivion>.addShiftTooltip("\u5bff\u547d:"+format.darkRed(" x0.0001"));
-<MagicBees:frameOblivion>.addShiftTooltip("\u4ea7\u91cf:"+format.darkRed(" x0"));
-<MagicBees:frameOblivion>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x1"));
+<MagicBees:frameOblivion:*>.addTooltip("<\u6309\u4f4f Shift>");
+<MagicBees:frameOblivion:*>.addShiftTooltip("\u8010\u4e45:"+format.darkRed(" 50"));
+<MagicBees:frameOblivion:*>.addShiftTooltip("\u6d3b\u52a8\u8303\u56f4:"+format.aqua(" x1"));
+<MagicBees:frameOblivion:*>.addShiftTooltip("\u7a81\u53d8\u51e0\u7387:"+format.gold(" x1"));
+<MagicBees:frameOblivion:*>.addShiftTooltip("\u5bff\u547d:"+format.darkRed(" x0.0001"));
+<MagicBees:frameOblivion:*>.addShiftTooltip("\u4ea7\u91cf:"+format.darkRed(" x0"));
+<MagicBees:frameOblivion:*>.addShiftTooltip("\u57fa\u56e0\u8870\u9000:"+format.aqua(" x1"));
