@@ -113,10 +113,10 @@ tile.granite.6.desc=小方砖花岗岩
 tile.chisel.autoChisel.name=自动雕刻机
 autochisel.slot.chisel.tooltip=在此处放置凿子
 autochisel.slot.target.tooltip=在此处放置雕刻目标方块
-autochisel.slot.speed.tooltip=速度升级
-autochisel.slot.automation.tooltip=自动化升级
-autochisel.slot.stack.tooltip=堆叠升级
-autochisel.slot.reversion.tooltip=复原升级
+autochisel.slot.speed.tooltip=速度升级插槽
+autochisel.slot.automation.tooltip=自动化升级插槽
+autochisel.slot.stack.tooltip=堆叠升级插槽
+autochisel.slot.reversion.tooltip=复原升级插槽
 chisel.autochisel.upgrade.disabled=升级不可用
 
 #Beacon
@@ -126,7 +126,7 @@ tile.beacon.blue.desc=蓝色定向信标
 tile.beacon.brown.desc=棕色定向信标
 tile.beacon.cyan.desc=青色定向信标
 tile.beacon.green.desc=绿色定向信标
-tile.beacon.lightBlue.desc=淡蓝定向信标
+tile.beacon.lightblue.desc=淡蓝定向信标
 tile.beacon.silver.desc=淡灰定向信标
 tile.beacon.lime.desc=黄绿定向信标
 tile.beacon.magenta.desc=品红定向信标
@@ -409,6 +409,11 @@ tile.metalOre.3.desc=欧尼特芙大陆的古物
 tile.metalOre.4.desc=新颖镶边方块
 tile.metalOre.5.desc=精致螺栓板面
 
+#Stairs
+tile.chisel.aluminum_stairs.0.name=铝制楼梯
+tile.chisel.aluminum_stairs.1.name=铝制楼梯
+tile.chisel.aluminum_stairs.2.name=铝制楼梯
+
 #Present Chest
 tile.chisel.present.name=礼物
 tile.chisel.present.desc=一个精致漂亮的礼物箱子
@@ -440,9 +445,6 @@ tile.cobblestone.11.desc=凹面圆石砖
 tile.cobblestone.12.desc=镶板圆石砖
 tile.cobblestone.13.desc=浅色镶板圆石砖
 tile.cobblestone.14.desc=深色镶板圆石砖
-
-#Sandstone Blocks
-tile.chisel.sandstone.name=沙石
 
 #Marble Blocks
 tile.chisel.marble.name=大理石
@@ -586,7 +588,7 @@ tile.marbleStairs.13.desc=齐纹大理石瓷砖楼梯
 tile.marbleStairs.14.desc=花式大理石瓷砖楼梯
 tile.marbleStairs.15.desc=大理石方砖楼梯
 
-#黄绿stone
+#Limestone
 tile.chisel.limestone.name=石灰岩
 tile.limestone.0.desc=石灰岩
 tile.limestone.1.desc=小块灰岩瓷砖
@@ -605,7 +607,7 @@ tile.limestone.13.desc=方砖灰岩
 tile.limestone.14.desc=浅色镶板灰岩
 tile.limestone.15.desc=深色镶板灰岩
 
-#黄绿stone Slabs
+#Limestone Slabs
 tile.chisel.limestone_slab.name=石灰岩台阶
 tile.limestoneSlab.0.desc=石灰岩台阶
 tile.limestoneSlab.1.desc=小块灰岩瓷砖台阶
@@ -624,7 +626,7 @@ tile.limestoneSlab.13.desc=方砖灰岩台阶
 tile.limestoneSlab.14.desc=浅色镶板灰岩台阶
 tile.limestoneSlab.15.desc=深色镶板灰岩台阶
 
-#黄绿stone Stairs
+#Limestone Stairs
 #The same name goes here 8 different times since stairs take up 8 block positions.
 #Sorry!  It was the only way!
 tile.chisel.limestone_stairs.0.name=石灰岩楼梯
@@ -897,7 +899,7 @@ tile.stoneMoss.13.desc=镶板苔石砖
 tile.stoneMoss.14.desc=浅色镶板苔石砖
 tile.stoneMoss.15.desc=深色镶板苔石砖
 
-#Stone砖
+#Stone Bricks
 tile.chisel.stonebricksmooth.name=石砖
 tile.stonebricksmooth.0.desc=时尚朴色石砖
 tile.stonebricksmooth.1.desc=时尚长英质石砖
@@ -1091,7 +1093,7 @@ tile.glass_pane.13.desc=中式金框窗棂板
 tile.glass_pane.14.desc=日式窗格板
 tile.glass_pane.15.desc=精致日式窗格板
 
-#红色stone block
+#Redstone block
 tile.chisel.redstone_block.name=红石块
 tile.redstone_block.1.desc=抛光红石块
 tile.redstone_block.2.desc=磨面红石块
@@ -1255,7 +1257,7 @@ tile.cloud.4.desc=格状云朵砖
 tile.chisel.stained_glass_white.name=染色玻璃
 tile.chisel.stained_glass_orange.name=染色玻璃
 tile.chisel.stained_glass_magenta.name=染色玻璃
-tile.chisel.stained_glass_light蓝色.name=染色玻璃
+tile.chisel.stained_glass_lightblue.name=Stained Glass
 tile.chisel.stained_glass_yellow.name=染色玻璃
 tile.chisel.stained_glass_lime.name=染色玻璃
 tile.chisel.stained_glass_pink.name=染色玻璃
@@ -1274,7 +1276,7 @@ tile.chisel.stained_glass_forestry.name=Stained Glass
 tile.chisel.stained_glass_pane_white.name=染色玻璃板
 tile.chisel.stained_glass_pane_orange.name=染色玻璃板
 tile.chisel.stained_glass_pane_magenta.name=染色玻璃板
-tile.chisel.stained_glass_pane_light蓝色.name=染色玻璃板
+tile.chisel.stained_glass_pane_lightBlue.name=染色玻璃板
 tile.chisel.stained_glass_pane_yellow.name=染色玻璃板
 tile.chisel.stained_glass_pane_lime.name=染色玻璃板
 tile.chisel.stained_glass_pane_pink.name=染色玻璃板
@@ -1481,6 +1483,7 @@ tile.acacia.planks.7.desc=金合欢木卷帘
 tile.acacia.planks.12.desc=金合欢木脚手架
 tile.acacia.planks.14.desc=杂乱金合欢木木板
 tile.acacia.planks.15.desc=杂乱竖纹金合欢木板
+
 #Dark Oak
 tile.dark-oak.planks.1.desc=平滑深色橡木木板
 tile.dark-oak.planks.2.desc=短深色橡木木板
@@ -1497,6 +1500,7 @@ tile.dark-oak.planks.7.desc=深色橡木卷帘
 tile.dark-oak.planks.12.desc=深色橡木脚手架
 tile.dark-oak.planks.14.desc=杂乱深色橡木木板
 tile.dark-oak.planks.15.desc=杂乱竖纹深色橡木木板
+
 #Stained Glass
 white.bubble.desc=白色凹痕染色玻璃
 white.glass.desc=白色平面染色玻璃
