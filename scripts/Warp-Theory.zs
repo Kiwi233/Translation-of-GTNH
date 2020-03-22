@@ -67,7 +67,7 @@ mods.thaumcraft.Research.orphanResearch("warptheory.cleanserminor");
 mods.thaumcraft.Research.removeResearch("warptheory.cleanserminor");
 mods.thaumcraft.Research.addResearch("PURETEARMINOR", "WT_Category", "alienis 6, praecantatio 6, permutatio 4, sano 3, terra 2", -1, -2, 2, <WarpTheory:item.warptheory.cleanserminor>);
 game.setLocalization("tc.research_name.PURETEARMINOR", "\u6c61\u79fd\u6cea\u6c34");
-game.setLocalization("tc.research_text.PURETEARMINOR", "\u9b54\u6cd5\u836f\u54c1");
+game.setLocalization("tc.research_text.PURETEARMINOR", "\u9b54\u6cd5\u836f\u5242");
 mods.thaumcraft.Research.addPrereq("PURETEARMINOR", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.addPrereq("PURETEARMINOR", "warptheory.paper", false);
 mods.thaumcraft.Research.addPage("PURETEARMINOR", "research.warptheory.warpcleanserminor");
