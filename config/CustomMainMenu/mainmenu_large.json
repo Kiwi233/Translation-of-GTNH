@@ -27,8 +27,8 @@
     {    
 		"singleplayer":
         {
-            "text" : "单人游戏",
-			"hoverText" : "孤独、惆怅 ...",
+            "text" : "\u5355\u4eba\u6e38\u620f",
+			"hoverText" : "\u5b64\u72ec\u3001\u60c6\u6005\u0020\u002e\u002e\u002e",
 			"normalTextColor" : 4227327,
 			"hoverTextColor" : 16711680,
 			"texture" : "mainmenu:textures/btn4.png",
@@ -48,8 +48,8 @@
 
 		"multiplayer":
         {
-            "text" : "多人游戏",	
-			"hoverText" : "加入我们",		
+            "text" : "\u591a\u4eba\u6e38\u620f",	
+			"hoverText" : "\u52a0\u5165\u6211\u4eec",		
 			"normalTextColor" : 4227327,
 			"hoverTextColor" : 65535,
 			"texture" : "mainmenu:textures/btn4.png",
@@ -69,7 +69,7 @@
                
 		"options":
         {
-            "text" : "游戏设置",
+            "text" : "\u6e38\u620f\u8bbe\u7f6e",
 			"normalTextColor" : 4227327,
 			"hoverTextColor" : 16758315,
 			"texture" : "mainmenu:textures/btn4.png",
@@ -89,7 +89,7 @@
 		        
 		"language":
         {
-            "text" : "语言",
+            "text" : "\u8bed\u8a00",
 			"normalTextColor" : 4227327,
 			"hoverTextColor" : 16758315,
 			"texture" : "mainmenu:textures/btn4.png",
@@ -109,7 +109,7 @@
 		
         "mods":
         {
-            "text" : "模组 (#modsloaded#/#modsactive#)",
+            "text" : "\u6a21\u7ec4 (#modsloaded#/#modsactive#)",
 			"normalTextColor" : 2113664,
 			"hoverTextColor" : 8411925,
 			"texture" : "mainmenu:textures/btn4.png",
@@ -131,8 +131,8 @@
                     
         "quit":
         {
-            "text" : "退出",
-			"hoverText" : "不！别离开！",
+            "text" : "\u9000\u51fa",
+			"hoverText" : "\u4e0d\uff01\u522b\u8d70\uff01",
 			"normalTextColor" : 16728128,
 			"hoverTextColor" : 16711680,
 			"texture" : "mainmenu:textures/btn4.png",
@@ -154,14 +154,14 @@
     {
         "mojang":
         {
-            "text" : "Forge #forgeversion# for Minecraft #mcversion# - Copyright Mojang AB. Do not distribute!",
+            "text" : "Forge #forgeversion# for Minecraft #mcversion# - \u7248\u6743\u6240\u6709 -Mojang AB- \u8bf7\u52ff\u8f6c\u53d1!",
             "posX" : 155,
             "posY" : 0,
             "alignment" : "column_bottom"
         },
 		"aviators":
         {
-            "text" : "开放背景音乐版权,作者Aviators",
+            "text" : "\u5f00\u653e\u80cc\u666f\u97f3\u4e50\u7248\u6743\u002c\u0020\u4f5c\u8005Aviators",
             "posX" : 155,
             "posY" : -10,
 			"fontSize" : 0.5,
