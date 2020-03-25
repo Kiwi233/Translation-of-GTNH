@@ -3,8 +3,10 @@
 itemGroup.warptheory.tab=神秘扭曲学
 
 # << chat item effects >>
+chat.warptheory.purgeminor=你感觉好些了
 chat.warptheory.purge=对此你有一种糟糕的预感...
 chat.warptheory.purgefail=没什么特别的事情发生
+chat.warptheory.purgefailed=它看起来没什么用
 chat.warptheory.addwarp=你恍觉什么奇怪的东西朝你蠕动而来...
 chat.warptheory.minorwarp=没什么反应.
 chat.warptheory.averagewarp=试纸呈现出一种病态的颜色.
@@ -15,12 +17,14 @@ chat.warptheory.normalwarp=一般的扭曲.
 chat.warptheory.tempwarp=浮于表面的扭曲.
 
 # << Item names >>
+item.warptheory.cleanserminor.name=污秽泪水
 item.warptheory.cleanser.name=纯净泪水
 item.warptheory.amulet.name=净化护身符
 item.warptheory.something.name=块状物
 item.warptheory.paper.name=奥术石蕊试纸
 
 # << tooltips >>
+tooltip.warptheory.cleanserminor=它缺了些什么...
 tooltip.warptheory.cleanser=咔咔作响
 tooltip.warptheory.amulet=祛除扭曲
 tooltip.warptheory.something=没准能吃...
@@ -30,6 +34,11 @@ tooltip.warptheory.paper=对扭曲产生反应
 tc.research_name.warptheory.something=腐化梅
 tc.research_text.warptheory.something=绝对不是什么令人愉快的东西
 research.warptheory.warpsomething=你无意之中发现如果把一些肉暴露在邪术能量中它们会变成别的玩意儿.额……什么事情都追究到底可不是好事.
+
+# << pure? tear >>
+tc.research_name.warptheory.cleanserminor=纯净? 泪水
+tc.research_text.warptheory.cleanserminor=魔法药剂
+research.warptheory.warpcleanserminor=你为了处理扭曲已经花了太多时间,是时候尝试找到一种摆脱它的方法了.或许你可以试试负负得正定理?<BR>你成功了,但是它的效果很微弱,而且并不总是生效.它似乎对扭曲有反应,也许更多的扭曲可以让它更容易生效? (50扭曲时,生效几率为1%.150扭曲时,生效几率为100%)<BR>你怀疑如果有更好的材料,也许你能制作出更有效的版本.
 
 # << pure tear >>
 tc.research_name.warptheory.cleanser=纯净泪水

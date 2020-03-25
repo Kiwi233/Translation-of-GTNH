@@ -890,7 +890,7 @@ languagefile {
     S:Material.netherquartz=下界石英
     S:Material.netherrack=地狱岩
     S:Material.netherstar=下界之星
-    S:Material.neutronium=中子素
+    S:Material.neutronium=中子锭
     S:Material.nichrome=镍铬合金
     S:Material.nickel=镍
     S:Material.nickelzincferrite=镍锌铁氧体
@@ -3419,7 +3419,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12729_Index_5=1x3x1钨框架(立柱的每个侧面与上方)
     S:TileEntity_DESCRIPTION_12729_Index_6=1x输入仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_12729_Index_7=1x输出仓(任意底层机械方块)
-    S:TileEntity_DESCRIPTION_12729_Index_8=1x维护仓 (底层的某一机械方块)
+    S:TileEntity_DESCRIPTION_12729_Index_8=1x维护仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_12729_Index_9=1xHV+能源仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_12730_Index_0=巨型工业高炉的控制器方块
     S:TileEntity_DESCRIPTION_12730_Index_1=大小(宽x高x长)：15x20x15(中空)
@@ -3509,6 +3509,21 @@ languagefile {
     S:TileEntity_DESCRIPTION_12738_Index_7=1x维护仓(任意机械方块)
     S:TileEntity_DESCRIPTION_12738_Index_8=1+能源仓(任意机械方块)
     S:TileEntity_DESCRIPTION_12738_Index_9=流体仅在对应的输出层处输出
+    S:TileEntity_DESCRIPTION_12739_Index_0=虚空采矿场的控制器方块
+    S:TileEntity_DESCRIPTION_12739_Index_1=大小(宽x高x长) 3x7x3
+    S:TileEntity_DESCRIPTION_12739_Index_10=消耗功率: 524288EU/t
+    S:TileEntity_DESCRIPTION_12739_Index_11=可以提供 2L/s 的稀有气体以提高产量
+    S:TileEntity_DESCRIPTION_12739_Index_12=氖(x4), 氪(x8), 氙(x16) 或 <气奥>(x64)
+    S:TileEntity_DESCRIPTION_12739_Index_13=每秒将输出两个矿石, 矿石种类取决于机器所在的世界
+    S:TileEntity_DESCRIPTION_12739_Index_14=添加者bartimaeusnek,模组§2BartWorks
+    S:TileEntity_DESCRIPTION_12739_Index_2=控制器方块(正面底中)
+    S:TileEntity_DESCRIPTION_12739_Index_3=3x1x3 UV机械方块基座
+    S:TileEntity_DESCRIPTION_12739_Index_4=1x3x1 UV机械方块立柱(基座中央)
+    S:TileEntity_DESCRIPTION_12739_Index_5=1x3x1 中子锭框架(立柱的每个侧面与上方)
+    S:TileEntity_DESCRIPTION_12739_Index_6=1x输出总线(任意底层机械方块)
+    S:TileEntity_DESCRIPTION_12739_Index_7=0+输入仓(可选，任意底层机械方块)
+    S:TileEntity_DESCRIPTION_12739_Index_8=1x维护仓(任意底层机械方块)
+    S:TileEntity_DESCRIPTION_12739_Index_9=1xUV+能源仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_127_Index_0=可以储存512000000个物品
     S:TileEntity_DESCRIPTION_1280_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1280_Index_1=最大电流： %s
@@ -4865,7 +4880,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_15310_Index_1=用户控制的计算力路由
     S:TileEntity_DESCRIPTION_15310_Index_2=§b§l§b§l服务质量是必须的
     S:TileEntity_DESCRIPTION_15311_Index_0=§9§9Tec§1Tech§9：万物基石
-    S:TileEntity_DESCRIPTION_15311_Index_1=10000100 11110110 11110000 10111110
+    S:TileEntity_DESCRIPTION_15311_Index_1=01101010 01010010 11100010 11001110
     S:TileEntity_DESCRIPTION_15311_Index_2=§b§l§b§l你需要它来处理上面的这串数字
     S:TileEntity_DESCRIPTION_15312_Index_0=§9§9Bass§1Tech§9: Θ转移
     S:TileEntity_DESCRIPTION_15312_Index_1=高频烤炉
@@ -9045,7 +9060,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_984_Index_19=底层3x1x3特斯拉抑制机械方块
     S:TileEntity_DESCRIPTION_984_Index_20=1x3x1特斯拉抑制机械方块支柱(底层中央)
     S:TileEntity_DESCRIPTION_984_Index_21=1x3x1碳化钨框架(每个支柱的侧面和顶部)(即1x3x1*5)
-    S:TileEntity_DESCRIPTION_984_Index_22=1x维护仓 (底层的某一机械方块)
+    S:TileEntity_DESCRIPTION_984_Index_22=1x维护仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_984_Index_23=1xZPM+能源仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_984_Index_24=1x维护仓
     S:TileEntity_DESCRIPTION_984_Index_25=机器类型: §e武器化的雷霆权杖§r
@@ -9173,6 +9188,8 @@ languagefile {
     S:achievement.gt.blockmachines.dehp.desc=获取所有的地热能!
     S:achievement.gt.blockmachines.electricimplosioncompressor=电动聚爆?
     S:achievement.gt.blockmachines.electricimplosioncompressor.desc=本质上是个电动大锤-不再用TNT!(其实更像两门电磁炮→_→)
+    S:achievement.gt.blockmachines.voidminer=来自地下深处的矿石!
+    S:achievement.gt.blockmachines.voidminer.desc=某种意义上的无中生有?
     S:achievement.item.HeavyDutyAlloyIngotT4=重型合金T4!
     S:achievement.item.HeavyDutyAlloyIngotT4.desc=前往T4星球!
     S:achievement.item.HeavyDutyAlloyIngotT5=重型合金T5!
@@ -10330,7 +10347,7 @@ languagefile {
     S:for.bees.species.naquadah=硅岩
     S:for.bees.species.naquadria=超能硅岩
     S:for.bees.species.neptune=海王星
-    S:for.bees.species.neutronium=中子素
+    S:for.bees.species.neutronium=中子锭
     S:for.bees.species.nickel=镍
     S:for.bees.species.oberon=天卫四
     S:for.bees.species.oil=石油
@@ -13183,6 +13200,7 @@ languagefile {
     S:gt.blockmachines.transformer.tier.14.name=OpV变压器
     S:gt.blockmachines.treefarm.controller.tier.single.name=树场
     S:gt.blockmachines.treefarmer.structural.name=树场的结构方块
+    S:gt.blockmachines.voidminer.name=虚空采矿场
     S:gt.blockmachines.wetransformer.tier.01.name=LV高能变压器
     S:gt.blockmachines.wettransformer.tier.00.name=ULV高能变压器
     S:gt.blockmachines.wettransformer.tier.02.name=MV高能变压器
@@ -28104,6 +28122,10 @@ languagefile {
     S:gt.metaitem.01.17812.tooltip=Rp
     S:gt.metaitem.01.17829.name=深渊铁板
     S:gt.metaitem.01.17829.tooltip=Sp₂Fe
+    S:gt.metaitem.01.17844.name=%material板
+    S:gt.metaitem.01.17844.tooltip=Mg₂Fe(SiO₂)₂(CaCO₃)₃(SiO₂)₈C₄
+    S:gt.metaitem.01.17845.name=%material板
+    S:gt.metaitem.01.17845.tooltip=Mg(CaCO₃)₇
     S:gt.metaitem.01.17849.name=黑花岗岩板
     S:gt.metaitem.01.17849.tooltip=(SiO₂)₄KMg₃Al₃F₂Si₃O₁₀
     S:gt.metaitem.01.17850.name=红花岗岩板
@@ -51294,6 +51316,10 @@ languagefile {
     S:gt.metaitem.03.383.tooltip=
     S:gt.metaitem.03.384.name=板条箱：混合晶锭粉
     S:gt.metaitem.03.384.tooltip=
+    S:gt.metaitem.03.3844.name=板条箱：%material板
+    S:gt.metaitem.03.3844.tooltip=Mg₂Fe(SiO₂)₂(CaCO₃)₃(SiO₂)₈C₄
+    S:gt.metaitem.03.3845.name=板条箱：%material板
+    S:gt.metaitem.03.3845.tooltip=Mg(CaCO₃)₇
     S:gt.metaitem.03.3849.name=板条箱：黑花岗岩板
     S:gt.metaitem.03.3849.tooltip=(SiO₂)₄KMg₃Al₃F₂Si₃O₁₀
     S:gt.metaitem.03.385.name=板条箱：强化混合晶锭粉

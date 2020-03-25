@@ -18,11 +18,20 @@ flag.design.save=保存
 flag.design.load=载入
 flag.design.load.sections=载入选择
 
+key.categories.battlegear=战备双持
+
+item.battlegear2:bow.greg.name=格雷的弓
+item.battlegear2:bow.iron.name=铁弓
+item.battlegear2:bow.gold.name=金弓
+item.battlegear2:bow.diamond.name=钻石弓
+
 item.battlegear2:heraldric.name=纹章图标
 item.battlegear2:chain.name=铁链
 item.battlegear2:quiver.name=箭袋
 
 item.battlegear2:mb.arrow.ender.name=末影箭
+item.battlegear2:mb.arrow.holy.name=圣火箭
+item.battlegear2:mb.arrow.ice.name=寒冰箭
 item.battlegear2:mb.arrow.explosive.name=爆裂箭
 item.battlegear2:mb.arrow.flame.name=烈焰箭
 item.battlegear2:mb.arrow.piercing.name=穿刺箭
@@ -112,12 +121,17 @@ attribute.quiver.arrow.empty=已空
 attribute.quiver.arrow.count=弓箭
 
 lore.base.arrow.explosive=包裹着爆裂的能量
+lore.base.arrow.holy=帮助你直面黑暗
+lore.base.arrow.ice=对烈焰人和熔岩怪物等火焰怪物有效
 lore.base.arrow.ender=这只末影之眼看来正陷入痛苦...
 lore.base.arrow.flame=燧石?不需要了.
 lore.base.arrow.piercing=非比寻常的切割能力
 lore.base.arrow.poison=很贵吧,啊哈?
 lore.base.arrow.mystery=人人都爱曲奇饼!
 lore.base.arrow.leech=让你感到虚弱和悲伤.
+
+lore.advanced.arrow.holy=在落点处插上火把
+lore.advanced.arrow.ice=对免疫火焰伤害的怪物有效
 lore.advanced.arrow.explosive=爆炸强度取决于箭矢暴击伤害.
 lore.advanced.arrow.ender=立即进行/取消传送.
 lore.advanced.arrow.flame=让生物,玩家和方块着火.
