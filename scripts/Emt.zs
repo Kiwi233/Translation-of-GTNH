@@ -465,7 +465,7 @@ mods.thaumcraft.Research.addPage("NanoBootsoftheTraveller", "tc.research_page.Na
 game.setLocalization("tc.research_page.NanoBootsoftheTraveller", "\u4f60\u7684\u7535\u5b50\u65c5\u884c\u8005\u4e4b\u9774\u8fd8\u4e0d\u9519,\u4f46\u4f60\u89c9\u5f97\u4f60\u80fd\u505a\u5f97\u66f4\u597d.
 \u4f60\u5df2\u53d1\u73b0\u4e86\u4e00\u79cd\u5c06\u8fd9\u4e9b\u9774\u5b50\u5347\u7ea7\u5230\u7eb3\u7c73\u7b49\u7ea7\u7684\u65b9\u6cd5:\u6539\u826f\u673a\u68b0\u96f6\u4ef6\u548c\u9774\u5b50\u7684\u7b26\u6587.
 \u8fd9\u53cc\u9774\u5b50\u63d0\u4f9b\u4e86\u6bd4\u4ee5\u5f80\u66f4\u9ad8\u7684\u8df3\u8dc3\u9ad8\u5ea6\u548c\u66f4\u5feb\u7684\u5954\u8dd1\u901f\u5ea6.");
-mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller:*>,
+mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller:32767>,
 [<IC2:itemArmorNanoBoots:32767>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockmachines:1442>, <IC2:itemBatCrystal:32767>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.metaitem.01:17330>], 
 "motus 48, potentia 24, tutamen 32, praecantatio 16, volatus 8, iter 16", <EMT:NanoBootsTraveller:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("NanoBootsoftheTraveller", <EMT:NanoBootsTraveller:27>);
@@ -483,7 +483,7 @@ game.setLocalization("tc.research_text.QuantumBootsoftheTraveller", "\u6bd4\u514
 mods.thaumcraft.Research.addPage("QuantumBootsoftheTraveller", "tc.research_page.QuantumBootsoftheTraveller");
 game.setLocalization("tc.research_page.QuantumBootsoftheTraveller", "\u4f60\u5229\u7528\u91cf\u5b50\u7269\u7406\u5b66\u6765\u6539\u826f\u4f60\u7684\u9774\u5b50,\u4f7f\u5f97\u5b83\u5982\u6b64\u4e4b\u5feb,\u8ba9\u4f60\u603b\u80fd\u5728\u7b2c\u4e00\u65f6\u95f4\u5230\u8fbe\u5404\u4e2a\u5730\u70b9.
 \u4f46\u662f\u522b\u5fd8\u4e86\u859b\u5b9a\u8c14\u7684\u732b\u53d1\u751f\u4e86\u4ec0\u4e48...");
-mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsTraveller>,
+mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsTraveller:32767>,
 [<IC2:itemArmorQuantumBoots:32767>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.blockmachines:1563>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:32767>, <IC2:itemPartIridium>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.metaitem.01:17970>], 
 "motus 64, potentia 32, tutamen 48, praecantatio 24, volatus 16, iter 24, aer 8", <EMT:QuantumBootsTraveller:27>, 9);
 mods.thaumcraft.Research.addInfusionPage("QuantumBootsoftheTraveller", <EMT:QuantumBootsTraveller:27>);
