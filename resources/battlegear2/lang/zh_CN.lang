@@ -4,6 +4,7 @@ config.battlegear.category=禁用自定义物品渲染
 config.battlegear.warn=需要重启才能生效
 use.gui.buttons=开启物品栏按钮
 use.gui.keys=开启物品栏快捷键
+render.always.slots=始终渲染格子
 render.quiver.skeleton=渲染骷髅箭袋
 render.arrow.bow=渲染拉弓动画
 render.sheathed=强制渲染玩家覆盖贴图 : %s
