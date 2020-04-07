@@ -3805,8 +3805,8 @@ gtnh.quest950.name=经验浆果
 gtnh.quest950.desc=用硬币来买一些经验浆果.
 
 # Quest.951 - §6§lFluid Solidifier
-gtnh.quest951.name=§6§l流体固化机
-gtnh.quest951.desc=使用各种类型的模具(板、棒之类的),可以使用流体固化机来制作很多不同的物品.
+gtnh.quest951.name=§6§l流体固化器
+gtnh.quest951.desc=使用各种类型的模具(板、棒之类的),可以使用流体固化器来制作很多不同的物品.
 
 # Quest.952 - §6§lBase too big? I've got a fix for you!
 gtnh.quest952.name=§6§l基地太大？我为你准备好了一些东西！
@@ -4050,9 +4050,7 @@ gtnh.quest1011.desc=在你到达月球后的主要目标是找到一些铝土矿
 
 # Quest.1012 - §9§lRutile
 gtnh.quest1012.name=§9§l金红石
-#B gtnh.quest1012.desc=Rutile can be thermal centrifuged out of bauxite and ilmenite dust. %nElectrolyzing bauxite can extract even more rutile and putting ilmenite in the electric blast furnace can give some rutile too.
-#A gtnh.quest1012.desc=Rutile can be centrifuged or thermal centrifuged out of bauxite and ilmenite dust. %nElectrolyzing bauxite can extract even more rutile and putting ilmenite in the electric blast furnace can give some rutile too.
-#C gtnh.quest1012.desc=想要得到钛你首先需要得到一些金红石. 金红石可以通过热力离心铝土矿或者钛铁矿得到. 电解铝土能得到更多的金红石,在工业高炉里面处理钛铁矿也能得到一些.
+gtnh.quest1012.desc=想要得到钛你首先需要得到一些金红石. 通过热力离心铝土矿或者钛铁矿可以得到金红石. 电解铝土能得到更多的金红石,在工业高炉里面处理钛铁矿也能得到一些.
 
 # Quest.1013 - §6§lSMD Circuit components
 gtnh.quest1013.name=§6§l贴片电路元件
@@ -4620,12 +4618,10 @@ gtnh.quest1153.desc=为了让你的十字弓更加的厉害,我们需要用阿�
 
 # Quest.1154 - §5§lMagnalium Crossbow Bolts
 gtnh.quest1154.name=§5§l镁铝合金弩箭
-#B gtnh.quest1154.desc=Magnalium bolts are much better than your old wooden bolts.%nYou can use nether quartz on the bolts to make them even better. %nThis requires a free modifier slot.%nExperiment with NEI to find other good bolt materials. %n%n§4To make it, you must use a Fluid Solidifer instead of the Tinker's casting table.
-#A gtnh.quest1154.desc=Magnalium bolts are much better than your old wooden bolts.%nYou can use nether quartz on the bolts to make them even better. %nThis requires a free modifier slot.%nExperiment with NEI to find other good bolt materials. %n%n§4To make it, you must use a Fluid Solidifer instead of the Tinker's casting table.%n%n§4You'll need to get the molten iron out of the smeltry and into the fluid solidifier, the GT molten iron won't work.
-#C gtnh.quest1154.desc=镁铝合金制作的弹药要比过去的弹药好很多. 你还可以使用下界石英强化弩箭,让弩箭变得更加锋利. 不过前提是弩箭上有一个空闲的升级槽位. 在NEI上查询材料的参数,找一种弩箭的好材料吧.   §4制造大部分弩箭时,你得用液体固化机而不是匠魂的浇铸台.
+gtnh.quest1154.desc=镁铝合金制作的弹药要比过去的弹药好很多.%n你还可以使用下界石英强化弩箭,让弩箭变得更加锋利.%n不过前提是弩箭上有一个空闲的升级槽位.%n在NEI上查询材料的参数,找一种弩箭的好材料吧.%n%n§4制造大部分弩箭时,你得用液体固化机而不是匠魂的浇铸台.%n%n§4你需要通过匠魂冶炼炉来获取熔融铁并注入流体固化器, 注意不能直接用GT的熔融铁.
 
 # Quest.1155 - §5§lBasic Fluid Solidifier
-gtnh.quest1155.name=§5§l基础流体固化机
+gtnh.quest1155.name=§5§l基础流体固化器
 gtnh.quest1155.desc=如果你想让液体变成固体那么你就需要液体固化机.这台机器用于直接处理化学反应釜中产生的熔融橡胶很方便.这台机器也可以用于制作弩箭的箭头.
 
 # Quest.1156 - §3§lWooden Bolts
@@ -5098,9 +5094,7 @@ gtnh.quest1272.desc=酿造啤酒或者其他含酒精饮料的第一步就是制
 
 # Quest.1273 - §5§lBrewing, the Industrial Way
 gtnh.quest1273.name=§5§l工业酿造
-#B gtnh.quest1273.desc=If you want brews or alcohol, I recommend you to build one of these. You might have noticed that you cannot build a brewing stand without Thaumcraft. But fear not, you can still find them in chests. Better get searching...
-#A gtnh.quest1273.desc=If you want brews or alcohol, I recommend you to build one of these. You might have noticed that you cannot build a brewing stand without Thaumcraft. But fear not, you can still find them in secret rooms on the first floor of some roguelike dungeons or ur-ghast towers. Better get searching...
-#C gtnh.quest1273.desc=如果你想要啤酒或酒精,我建议你建造其中一种. 你可能已经注意到,如果没有神秘时代,你就无法建造酿造台. 但不要害怕,你仍然可以在箱子里找到它们. 继续地搜索...
+gtnh.quest1273.desc=如果你想要啤酒或酒精,我建议你建造其中一种. 你可能已经注意到,如果不发展神秘时代的话,你就造不出酿造台. 但不要害怕,你仍然可以在地牢或高塔中的秘密房间内的箱子里找到它们. 继续地搜索...
 
 # Quest.1274 - §5§lFerment your brew!
 gtnh.quest1274.name=§5§l发酵酿酒！
@@ -5672,9 +5666,7 @@ gtnh.quest1415.desc=如果你想要纯铀矿石,你需要到火卫二或火卫�
 
 # Quest.1416 - §a§lMallard Rust Smelly
 gtnh.quest1416.name=§a§l野鸭生锈臭臭(Mallard Rust Smelly)
-#B gtnh.quest1416.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for the more advanced GT++ multiblocks. It directly smelts into liquids.
-#A gtnh.quest1416.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. This multiblock creates the higher tier alloys needed for the more advanced GT++ multiblocks. It directly smelts into liquids. You can even melt down metals like Tungsten faster too! Until you get better coils for your EBF at least.
-#C gtnh.quest1416.desc=或者是合金冶炼炉(Alloy Blast Smelter)？ 嗯,这更有意义. 这个多方块可以生产更先进的GT++多方块所需的更高级合金. 它直接将金属熔炼成液体.
+gtnh.quest1416.desc=或者是合金冶炼炉(Alloy Blast Smelter)？ 嗯,这更有意义. 这个多方块可以生产更先进的GT++多方块所需的更高级合金. 它直接将金属熔炼成液体. 这台机器甚至可以更快地熔化钨之类的金属! 至少在你给电力高炉更换更高级线圈之前是这样的.
 
 # Quest.1417 - §6§lCough cough - Something needs to be done about the smell
 gtnh.quest1417.name=§6§l咳嗽咳嗽 - 需要处理下污染了！
@@ -5718,9 +5710,7 @@ gtnh.quest1426.desc=要达到像火星或它的卫星火卫一和火卫二这样
 
 # Quest.1427 - Tier 2 Heavy Duty Plates
 gtnh.quest1427.name=2阶重型装甲板
-#B gtnh.quest1427.desc=Rockets require heavy duty plates for the main hull. Let's craft 10 tier 2  heavy duty plates out of tier 1 plates and meteoric iron plates.%n%nYou'll need to make a couple of tungstensteel ingots to make these plates. You can use an HV centrifuge with lava, process end stone or endstone dust, or macerate lunar rocks to get some.
-#A gtnh.quest1427.desc=Rockets require heavy duty plates for the main hull. Let's craft 10 tier 2 heavy duty plates out of tier 1 plates and meteoric iron plates.%n%nYou'll need to make a couple of tungstensteel ingots to make these plates. You can process end stone or endstone dust, or macerate lunar rocks to get some.
-#C gtnh.quest1427.desc=火箭需要重型装甲板作为主箭体. 让我们用一阶重型装甲板和陨铁板制作10个2阶重型装甲板吧.  同时你还需要一些钨钢.获取钨的手段有很多,你可以使用MV离心机离心岩浆或末地石粉,也可以打粉末地石或月岩.
+gtnh.quest1427.desc=火箭需要重型装甲板作为主箭体. 让我们用一阶重型装甲板和陨铁板制作10个2阶重型装甲板吧.%n%n同时你还需要一些钨钢.获取钨的手段有很多,处理末地石或末地石粉,或是打粉月岩都可以.
 
 # Quest.1428 - Tier 2 Schematic
 gtnh.quest1428.name=2阶火箭设计图
@@ -5988,9 +5978,7 @@ gtnh.quest1492.desc=什么？你把你的手泵丢了？ 那么这里是一个�
 
 # Quest.1493 - §c§lTier 7
 gtnh.quest1493.name=§c§l第7阶段
-#B gtnh.quest1493.desc=LuV-Level. You will need chrome for machines. Suggested planets and moons to visit: Jupiter's Moon Io, Venus and Mercury. Machine parts will now require an Assembling Line - Check Multiblock Goals for details.
-#A gtnh.quest1493.desc=LuV-Level. You will need Rhodium-Plated Palladium for machines. Suggested planets and moons to visit: Jupiter's Moon Io, Venus and Mercury. Machine parts will now require an Assembling Line - Check Multiblock Goals for details.
-#C gtnh.quest1493.desc=LuV级. 你的机器需要镀铑钯. 建议锤铂系处理作者Bartimaeusnek. 现在机器零件需要装配线才能制作.
+gtnh.quest1493.desc=LuV级. 你的机器需要镀铑钯.(建议锤铂系处理作者Bartimaeusnek.)%n建议到访的星球: 木卫一、金星和水星.%n当前阶段机器零件需要装配线才能制作-请查看多方块任务栏获取详细信息.
 
 # Quest.1494 - §6§f§6§lStainless taking too long?
 gtnh.quest1494.name=§6§f§6§l不锈钢需要太长时间？
@@ -6036,7 +6024,7 @@ gtnh.quest1503.desc=...当然！ 因此,在构建多方块时,请确保:%n%n1、
 gtnh.quest1504.name=§2§e§k§l§r§3§2§l众神的神圣权柄？
 #B gtnh.quest1504.desc=The ore finder rod takes some of the tedium out of finding an ore.  You'll need to find some first to make it, but once you have it you can use ore blocks to find more ore. It only tells you if that specific ore is nearby. Later you will want to return with better digging tools and check every spot.%n%n§4Be sure to use your NEI skills to figure out which ore block is the best choice for your needs.%n%n§4Other basic ore blocks can be purchased from the Coins tab.%n%nTo use, shift click when looking at the ground to open inventory and put the ore block into the slot.%n%n§rAs you get close, you will see and hear a response from the ore finder tool. You will see the durability bar change when it discovers a match. Watch out - it will respond to small ores as well as normal ores so Lapis and Redstone you will want to wait for large signal before digging. If it detects a large quantity of the ore you're looking for the wand will flip upside down completely and fill the durability bar. If you play with your sound on you will hear an obvious sound to notify you as well. The wand works in both your inventory and hotbar and you don't need to be actively holding it, though you get style points if you are holding it.%n%n§4Also, because of the magical nature of the wand, the ore is stored with the player, not the wand. If you want to give the wand to someone else, please remove the ore first.
 #A gtnh.quest1504.desc=The ore finder rod takes some of the tedium out of finding an ore.  You'll need to find some first to make it, but once you have it you can use ore blocks to find more ore. It only tells you if that specific ore is nearby. Later you will want to return with better digging tools and check every spot.%n%n§4Be sure to use your NEI skills to figure out which ore block is the best choice for your needs.%n%n§4Other basic ore blocks can be purchased from the Coins tab.%n%nTo use, shift click when looking at the ground to open inventory and put the ore block into the slot.%n%n§rAs you get close, you will see and hear a response from the ore finder tool. You will see the wand tilt down when it discovers a match. Watch out - it will respond to small ores as well as normal ores so Lapis and Redstone you will want to wait for large signal before digging. If it detects a large quantity of the ore you're looking for the wand will flip upside down completely. If you play with your sound on you will hear an obvious sound to notify you as well. The wand works in both your inventory and hotbar and you don't need to be actively holding it, though you get style points if you are holding it.%n%n§c§4You can craft magnetic iron rods by combining an iron rod with some redstone.%n%n§4Also, because of the magical nature of the wand, the ore is stored with the player, not the wand. If you want to give the wand to someone else, please remove the ore first.
-#C gtnh.quest1504.desc=寻矿魔杖寻找矿石的过程单调乏味. 你需要先找到一个矿石放入其中,然后,你就可以用它寻找更多的同种矿石. 它只会告诉你特定矿石是否在附近. 然后你得带着更好的挖掘工具回来并检查每个地点.  §4确保使用你的NEI找出哪种矿石是你目前最需要的.  §4其他基础矿石可以用硬币购买. 使用方式:对着地面Shift+右键以打开库存并将矿石放入槽中.  §r当你靠近时,你将看到并听到来自寻矿魔杖的响应.你将会看到它的耐久条发生变化.注意-它也会对贫瘠矿产生响应,所以当你寻找青金石或是红石之类的矿脉时,最好等到它的信号变得非常强烈时再挖掘.当寻矿魔杖探测到大量所寻找矿石时,它会完全翻转,耐久条也会充满.如果你打开了声音,你将会同时听到明显的提示音.无论寻矿魔杖在你的快捷栏还是背包栏,它都会工作,所以你不需要手持它,虽然当你手持时,你能更容易地看到信号.  §4另外,由于此魔杖的神奇属性,矿石并不是存储在魔杖内,而是跟随玩家的.所以如果你想要把魔杖给别人用,请先把其中的矿石拿出来.
+#C gtnh.quest1504.desc=寻矿魔杖寻找矿石的过程单调乏味. 你需要先找到一个矿石放入其中,然后,你就可以用它寻找更多的同种矿石. 它只会告诉你特定矿石是否在附近. 然后你得带着更好的挖掘工具回来并检查每个地点.%n%n§4确保使用你的NEI找出哪种矿石是你目前最需要的.%n%n§4其他基础矿石可以用硬币购买.%n%n使用方式:对着地面Shift+右键以打开库存并将矿石放入槽中.%n%n§r当你靠近时,你将看到并听到来自寻矿魔杖的响应.你将会看到它的耐久条发生变化.注意-它也会对贫瘠矿产生响应,所以当你寻找青金石或是红石之类的矿脉时,最好等到它的信号变得非常强烈时再挖掘.当寻矿魔杖探测到大量所寻找矿石时,它会完全翻转,耐久条也会充满.如果你打开了声音,你将会同时听到明显的提示音.无论寻矿魔杖在你的快捷栏还是背包栏,它都会工作,所以你不需要手持它,虽然当你手持时,你能更容易地看到信号.  §4另外,由于此魔杖的神奇属性,矿石并不是存储在魔杖内,而是跟随玩家的.所以如果你想要把魔杖给别人用,请先把其中的矿石拿出来.
 
 # Quest.1505 - §2§lNot enough items - Now with bookmarks!
 gtnh.quest1505.name=§2§lNot enough items(NEI)-现在能添加书签了!
@@ -7293,12 +7281,8 @@ gtnh.quest1813.name=§9§l氯仿
 gtnh.quest1813.desc=下一步是将甲烷与氯反应,制备氯.确保你使用了正确的编程电路.  现在,是时候囤积些氯了.寻找盐矿脉或是青金石矿脉.你还可以用恶魂之泪弄点盐水.你最好种植IC作物来获取恶魂之泪,你将来会需要成吨的氯!
 
 # Quest.1814 - §9§lPolytetrafluoroethylene
-#B gtnh.quest1814.name=§9§lTetrafluoroethylene
-#A gtnh.quest1814.name=§9§lPolytetrafluoroethylene
-#C gtnh.quest1814.name=§9§l四氟乙烯
-#B gtnh.quest1814.desc=Liquid hot plastics smell great, don't they? Mix your hydrofluoric acid and chloroform to make tetrafluoroethylene. React the TFE with oxygen to make molten PTFE. Finally a fluid solidifer will make bars for you.
-#A gtnh.quest1814.desc=Liquid hot plastics smell great, don't they? Mix your hydrofluoric acid and chloroform to make tetrafluoroethylene. React the TFE with oxygen to make molten PTFE. Finally a fluid solidifer will make plates for you.
-#C gtnh.quest1814.desc=熔融塑料的味道闻起来很棒,不是么?将氢氟酸与氯仿反应,制备出四氟乙烯.再将其与氧反应,制备出聚四氟乙烯.  最后,用流体固化器制作出聚四氟乙烯条.
+gtnh.quest1814.name=§9§l聚四氟乙烯
+gtnh.quest1814.desc=熔融塑料的味道闻起来很棒,不是么?将氢氟酸与氯仿反应,制备出四氟乙烯.再将其与氧反应,制备出聚四氟乙烯.  最后,用流体固化器制作出聚四氟乙烯片.
 
 # Quest.1815 - §9§lHow much is too much fluid?
 gtnh.quest1815.name=§9§l太多液体是多少?
