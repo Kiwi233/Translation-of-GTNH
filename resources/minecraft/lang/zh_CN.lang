@@ -5845,12 +5845,8 @@ gtnh.quest1460.name=中型燃料罐
 gtnh.quest1460.desc=每个火箭都需要燃料储存罐. 对于3阶火箭,你需要制作两个轻型和两个中型燃料罐.
 
 # Quest.1461 - Just tell me what to scan already!
-#B gtnh.quest1461.name=§a§lDesh
-#A gtnh.quest1461.name=Just tell me what to scan already!
-#C gtnh.quest1461.name=§a§l戴斯
-#B gtnh.quest1461.desc=Desh is a very important material for high tier rockets and used by many recipes in Galacticraft and Galaxy space. Go and find a desh vein on Mars at Y 5-40.
-#A gtnh.quest1461.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the lhird set). The last 5 are dummy aspects you can ignore.%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nPotion of Weakness%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnow%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate %nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps OR Terra Wart%n%nAlumite Ingot%nPlatinum Ingot%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot
-#C gtnh.quest1461.desc=戴斯是高级火箭的一种非常重要的材料,并被Galacticraft和Galaxy-space两个mod中的许多合成表所使用. 去Y=40附近,在火星上找到一个戴斯矿脉.
+gtnh.quest1461.name=告诉我要扫描什么!
+gtnh.quest1461.desc=不想再猜测什么物品含有什么要素? 只想开始工作? 扫描这这些东西吧. 第一组需要按顺序扫描. 如果它们中的某些物品无法扫描出结果, 请尝试先扫描别的(特别是第三组). 最后5个是虚拟要素, 可以忽略.%n%n洒水壶%n火把%n煤%n草方块%n活板门%n箱子%n玻璃%n虚弱药水%n鸡%n灵魂沙%n纸%n腐肉%n小麦%n燧石%n黑曜石%n%n灰云%n任意染料%n羊毛%n蜘蛛眼%n雪%n牛奶%n原版锄%n原版镐%n箭%n原版护甲%n水银%n栅栏门%n铁粒%n金%n僵尸之脑%n末影珍珠%n粘液球.实在找不着史莱姆可以在坩埚里加满物品制造咒波粘浆,然后就可以生成神秘史莱姆了(别在基地里这么干)%n带污染的任意物品.%n天域之华(任意要素,小精灵的掉落物,当然你也可以手撸节点)或大地疣%n%n铝锭%n铂锭%n细铜导线%n磁铁矿粉%n钍粉%n猪%n地狱岩%n金制护甲%n床%n拴绳(不是铅) 译者注: 拴绳和铅在英语中都是Lead%n恶魂之泪%n时钟%n水晶矩阵
 
 # Quest.1462 - Thermal Cloth
 gtnh.quest1462.name=隔热布匹
@@ -6022,9 +6018,7 @@ gtnh.quest1503.desc=...当然！ 因此,在构建多方块时,请确保:%n%n1、
 
 # Quest.1504 - §2§e§k§l§r§3§2§lDivine rod of the gods?
 gtnh.quest1504.name=§2§e§k§l§r§3§2§l众神的神圣权柄？
-#B gtnh.quest1504.desc=The ore finder rod takes some of the tedium out of finding an ore.  You'll need to find some first to make it, but once you have it you can use ore blocks to find more ore. It only tells you if that specific ore is nearby. Later you will want to return with better digging tools and check every spot.%n%n§4Be sure to use your NEI skills to figure out which ore block is the best choice for your needs.%n%n§4Other basic ore blocks can be purchased from the Coins tab.%n%nTo use, shift click when looking at the ground to open inventory and put the ore block into the slot.%n%n§rAs you get close, you will see and hear a response from the ore finder tool. You will see the durability bar change when it discovers a match. Watch out - it will respond to small ores as well as normal ores so Lapis and Redstone you will want to wait for large signal before digging. If it detects a large quantity of the ore you're looking for the wand will flip upside down completely and fill the durability bar. If you play with your sound on you will hear an obvious sound to notify you as well. The wand works in both your inventory and hotbar and you don't need to be actively holding it, though you get style points if you are holding it.%n%n§4Also, because of the magical nature of the wand, the ore is stored with the player, not the wand. If you want to give the wand to someone else, please remove the ore first.
-#A gtnh.quest1504.desc=The ore finder rod takes some of the tedium out of finding an ore.  You'll need to find some first to make it, but once you have it you can use ore blocks to find more ore. It only tells you if that specific ore is nearby. Later you will want to return with better digging tools and check every spot.%n%n§4Be sure to use your NEI skills to figure out which ore block is the best choice for your needs.%n%n§4Other basic ore blocks can be purchased from the Coins tab.%n%nTo use, shift click when looking at the ground to open inventory and put the ore block into the slot.%n%n§rAs you get close, you will see and hear a response from the ore finder tool. You will see the wand tilt down when it discovers a match. Watch out - it will respond to small ores as well as normal ores so Lapis and Redstone you will want to wait for large signal before digging. If it detects a large quantity of the ore you're looking for the wand will flip upside down completely. If you play with your sound on you will hear an obvious sound to notify you as well. The wand works in both your inventory and hotbar and you don't need to be actively holding it, though you get style points if you are holding it.%n%n§c§4You can craft magnetic iron rods by combining an iron rod with some redstone.%n%n§4Also, because of the magical nature of the wand, the ore is stored with the player, not the wand. If you want to give the wand to someone else, please remove the ore first.
-#C gtnh.quest1504.desc=寻矿魔杖寻找矿石的过程单调乏味. 你需要先找到一个矿石放入其中,然后,你就可以用它寻找更多的同种矿石. 它只会告诉你特定矿石是否在附近. 然后你得带着更好的挖掘工具回来并检查每个地点.%n%n§4确保使用你的NEI找出哪种矿石是你目前最需要的.%n%n§4其他基础矿石可以用硬币购买.%n%n使用方式:对着地面Shift+右键以打开库存并将矿石放入槽中.%n%n§r当你靠近时,你将看到并听到来自寻矿魔杖的响应.你将会看到它的耐久条发生变化.注意-它也会对贫瘠矿产生响应,所以当你寻找青金石或是红石之类的矿脉时,最好等到它的信号变得非常强烈时再挖掘.当寻矿魔杖探测到大量所寻找矿石时,它会完全翻转,耐久条也会充满.如果你打开了声音,你将会同时听到明显的提示音.无论寻矿魔杖在你的快捷栏还是背包栏,它都会工作,所以你不需要手持它,虽然当你手持时,你能更容易地看到信号.  §4另外,由于此魔杖的神奇属性,矿石并不是存储在魔杖内,而是跟随玩家的.所以如果你想要把魔杖给别人用,请先把其中的矿石拿出来.
+gtnh.quest1504.desc=寻矿魔杖寻找矿石的过程单调乏味. 你需要先找到一个矿石放入其中,然后,你就可以用它寻找更多的同种矿石. 它只会告诉你特定矿石是否在附近. 然后你得带着更好的挖掘工具回来并检查每个地点.%n%n§4确保使用你的NEI找出哪种矿石是你目前最需要的.%n%n§4其他基础矿石可以用硬币购买.%n%n使用方式:对着地面Shift+右键以打开库存并将矿石放入槽中.%n%n§r当你靠近时,你将看到并听到来自寻矿魔杖的响应.当它发现匹配的矿物时,你会开到魔杖向下倾斜.注意-它也会对贫瘠矿产生响应,所以当你寻找青金石或是红石之类的矿脉时,最好等到它的信号变得非常强烈时再挖掘.当寻矿魔杖探测到大量所寻找矿石时,它会完全翻转.如果你打开了声音,你将会同时听到明显的提示音.无论寻矿魔杖在你的快捷栏还是背包栏,它都会工作,所以你不需要手持它,虽然当你手持时,你能更容易地看到信号.%n%n§c§4红石加上铁杆即可手搓出磁化铁杆.%n%n§4另外,由于此魔杖的神奇属性,矿石并不是存储在魔杖内,而是跟随玩家的.所以如果你想要把魔杖给别人用,请先把其中的矿石拿出来.
 
 # Quest.1505 - §2§lNot enough items - Now with bookmarks!
 gtnh.quest1505.name=§2§lNot enough items(NEI)-现在能添加书签了!
@@ -6136,9 +6130,7 @@ gtnh.quest1531.desc=每枚火箭都需要一个设计图. 在高压扫描仪中�
 
 # Quest.1532 - Tier 4 Heavy Duty Plates
 gtnh.quest1532.name=4阶重型装甲板
-#B gtnh.quest1532.desc=Rockets require heavy duty plates for the main hull. Let's craft 12 tier 4 heavy duty plates out of tier 3 plates and compressed ice plates.
-#A gtnh.quest1532.desc=Rockets require heavy duty plates for the main hull. Let's craft 13 tier 4 heavy duty plates out of tier 3 plates and compressed ice plates.
-#C gtnh.quest1532.desc=火箭的主箭体需要重型装甲板. 让我们用3阶重型装甲板和压缩冰板制作12个4阶重型装甲板.
+gtnh.quest1532.desc=火箭的主箭体需要重型装甲板. 让我们用3阶重型装甲板和压缩冰板制作13个4阶重型装甲板.
 
 # Quest.1533 - §b§lCallisto Trip
 gtnh.quest1533.name=§b§l木卫四之旅
@@ -6617,12 +6609,8 @@ gtnh.quest1651.name=在一条黑暗的道路往下走......
 gtnh.quest1651.desc=......但是一条充满想象力的道路. 若是凡人看到了,会被吓坏的！
 
 # Quest.1652 - Sodium Sulfide
-#B gtnh.quest1652.name=§6§lPower of a jet engine...
-#A gtnh.quest1652.name=Sodium Sulfide
-#C gtnh.quest1652.name=§6§l喷气发动机的力量......
-#B gtnh.quest1652.desc=The Large Gas Turbine lets you burn gaseous fuels like hydrogen, methane, or benzene. You'll have plenty to turn into EV EU with your new distillation tower.%nJust like the Large Steam Turbine, the LGT uses turbine rotors. Use a fluid regulator to optimize the flow of gases into the turbine - not enough or too much will cause its output to drop.%n%nMake sure your dynamo hatch is rated for the amount of EU your rotor will make!
-#A gtnh.quest1652.desc=Combine Sodium and Sulfur to get Sodium Sulfide.
-#C gtnh.quest1652.desc=大型燃气涡轮可以燃烧氢气,甲烷或苯等气体燃料. 你将有足够的资源将其与你的新蒸馏塔一起升级为EV等级.与大型涡轮机一样,大型燃气涡轮(LGT)使用涡轮转子. 使用流体校准器来优化进入涡轮机的气体流量--不够或太多都会导致其输出下降. 确保你的动力仓与你的转子将产生的EU量匹配！不然BOOM！
+gtnh.quest1652.name=硫化钠
+gtnh.quest1652.desc=将硫和钠结合即可获得硫化钠.
 
 # Quest.1653 - §5§lAkihabra
 gtnh.quest1653.name=§5§l秋叶原(Akihabra)
@@ -6638,9 +6626,7 @@ gtnh.quest1655.desc=龙蛋是非常罕见的,只有在龙死后才会掉落.让�
 
 # Quest.1656 - §a§lEgg mutation
 gtnh.quest1656.name=§a§l基因突变蛋
-#B gtnh.quest1656.desc=After you found a way to make bacterial sludge stronger and research mutagen try soaking your bigger egg in it. You need to wait a bit (up to one hour).%n%nNext use your bigger egg, a stack of uranium 238 (be sure you wear your hazamuit suit), and mutagen. Your cleanroom must be 100 percent clean before you start the process. 
-#A gtnh.quest1656.desc=After you found a way to make bacterial sludge stronger and research mutagen try soaking your bigger egg in it. You need to wait a bit (up to one hour).%n%nNext use your bigger egg, a stack of uranium 238 (be sure you wear your hazmat suit), and mutagen. Your cleanroom must be 100 percent clean before you start the process. 
-#C gtnh.quest1656.desc=在你找到一种方法使菌泥更强大并研发出诱变剂后,尝试将大鸡蛋浸泡在其中. 你需要等待一段时间(最多一个小时). 下一步是将你的大鸡蛋,一堆铀238(一定要穿你的防化服)和诱变剂放入化学反应釜.在开始此过程之前,你的超净间必须100％清洁.
+gtnh.quest1656.desc=在你找到一种方法使菌泥更强大并研发出诱变剂后,尝试将大鸡蛋浸泡在其中. 你需要等待一段时间(最多一个小时). 下一步是将你的大鸡蛋,一堆铀238(一定要穿好你的防化服)和诱变剂放入化学反应釜.在开始此过程之前,你的超净间必须100％清洁.
 
 # Quest.1657 - §a§lEnder Egg
 gtnh.quest1657.name=§a§l末影蛋
@@ -6780,9 +6766,7 @@ gtnh.quest1690.desc=三个第六阶奖励=第七阶奖励.
 
 # Quest.1691 - §b§lPolybenzimidazole
 gtnh.quest1691.name=§b§l聚苯并咪唑
-#B gtnh.quest1691.desc=Polybenzimidazole is a synthetic fiber used in ZPM Hulls and in high tier solar panels. It has many steps to produce it. Let's start with the base ingredients.%n%nFirst we make some chlorobenzene out of benzene and chlorine.
-#A gtnh.quest1691.desc=Polybenzimidazole or PBI is a synthetic fiber needed in ZPM Hulls and in high tier solar panels, and can also be used to make some other items more efficiently. It has many steps to produce it. Let's start with chlorobenzene, but keep in mind you'll need to complete the other non-platinum IV-tier chemical quests too.
-#C gtnh.quest1691.desc=聚苯并咪唑是用于ZPM机器外壳和高级太阳能电池板的合成纤维. 制作它有很多步骤.让我们从基本原料开始.  首先,我们用苯和氯制造一些氯苯.
+gtnh.quest1691.desc=聚苯并咪唑(简称PBI)是用于ZPM机器外壳和高级太阳能电池板的合成纤维, 它还能提高某些其他物品的合成效率. 制作它有很多步骤. 让我们从基本原料开始.  首先,我们用苯和氯制造一些氯苯. 另外, 别忘了完成IV阶段的其他非铂系化学任务.
 
 # Quest.1692 - §b§lNitration mixture
 gtnh.quest1692.name=§b§l硝酸混酸
@@ -6790,9 +6774,7 @@ gtnh.quest1692.desc=我们还需要硝酸混酸. 我们可以用硝酸和硫酸�
 
 # Quest.1693 - §b§l2-Nitrochlorobenzene
 gtnh.quest1693.name=§b§l2-硝基氯苯
-#B gtnh.quest1693.desc=Next step is to mixing the nitration mixture with your chlorbenzene in the hv chemical reactor  to get 2-nitrochlorobenzene.
-#A gtnh.quest1693.desc=Next step is to mixing the nitration mixture with your chlorbenzene in the hv chemical reactor to get 2-nitrochlorobenzene.
-#C gtnh.quest1693.desc=下一步是在化学反应釜中将硝酸混酸与氯苯搅拌,得到2-硝基氯苯.
+gtnh.quest1693.desc=下一步是在化学反应釜中将硝酸混酸与氯苯搅拌, 得到2-硝基氯苯.
 
 # Quest.1694 - §c§b§l3,3 Dichlorobenzidine
 gtnh.quest1694.name=§c§b§l3,3-二氯联苯胺
@@ -6816,9 +6798,7 @@ gtnh.quest1698.desc=搅拌硫酸,邻苯二甲酸和苯酚得到间苯二甲酸�
 
 # Quest.1699 - Phenol
 gtnh.quest1699.name=苯酚
-#B gtnh.quest1699.desc=You can get Phenol in different ways, but why not try using your chlorobenzene and some water.
-#A gtnh.quest1699.desc=You can get Phenol in different ways, but if you don't have any, you can make some using chlorobenzene and some water.
-#C gtnh.quest1699.desc=你可以通过不同的方式获得苯酚,但为什么不尝试使用氯苯和一些水.
+gtnh.quest1699.desc=你可以通过不同的方式获得苯酚, 要是你手头没有的话, 不妨尝试用氯苯和一些水合成一些.%n%n译者注: 木炭副产的副产可产出苯酚.
 
 # Quest.1700 - §b§lPhtalic acid
 gtnh.quest1700.name=§b§l邻苯二甲酸
@@ -6830,19 +6810,15 @@ gtnh.quest1701.desc=二甲苯可以用木焦油蒸馏或在化学反应釜中使
 
 # Quest.1702 - §b§lPotassium Dichromate
 gtnh.quest1702.name=§b§l重铬酸钾
-#B gtnh.quest1702.desc=Potassium Dichromate is made out of Potassium Nitrade and Chromium Dioxide in an HV Chemical Reactor.
-#A gtnh.quest1702.desc=Potassium Dichromate is made out of Potassium Nitrade and Chromium Trioxide in an HV Chemical Reactor.
-#C gtnh.quest1702.desc=重铬酸钾由HV化学反应釜中的硝酸钾和二氧化铬制成.
+gtnh.quest1702.desc=硝酸钾和三氧化铬在HV化学反应釜中反应可制得重铬酸钾.
 
 # Quest.1703 - §b§lPotassium Nitrade
-#B gtnh.quest1703.name=§b§lPotassium Nitrate
-#A gtnh.quest1703.name=§b§lPotassium Nitrade
-#C gtnh.quest1703.name=§b§l硝酸钾
+gtnh.quest1703.name=§b§l硝酸钾
 gtnh.quest1703.desc=硝酸钾由钾和氨制成.
 
 # Quest.1704 - §b§lChromium Trioxide
 gtnh.quest1704.name=§b§l三氧化铬
-gtnh.quest1704.desc=三氧化铬分两步由铬和氧制成. 首先,你制造二氧化铬,然后再制造三氧化铬.
+gtnh.quest1704.desc=三氧化铬分两步由铬和氧制成. 你需要先制备出二氧化铬, 然后才能制备出三氧化铬.
 
 # Quest.1705 - §b§lQuantum Processor Assembly
 gtnh.quest1705.name=§b§l量子处理器集群
@@ -9809,24 +9785,24 @@ gtnh.quest2445.name=杀戮时刻(鱿鱼)
 gtnh.quest2445.desc=美味的鱿鱼. 我们正在做冬阴功海鲜汤(Tom Yum seafood).
 
 # Quest.2446 - Pumping Water
-#N gtnh.quest2446.name=Pumping Water
-#N gtnh.quest2446.desc=RC Water Tanks not cutting it through those dry spells? Or maybe you chose a dry biome to setup in? This pump will produce more water for the low low cost of something burnable (like all that lignite).
+gtnh.quest2446.name=抽水
+gtnh.quest2446.desc=RC的蓄水槽无法满足你干渴的双唇? 或是你选择的基地生物群系湿度太低? 这个泵只需极少的可燃物消耗即可产出更多的水(就像褐煤).
 
 # Quest.2447 - Forget Something?
-#N gtnh.quest2447.name=Forget Something?
-#N gtnh.quest2447.desc=Need some Electrotine for your Workstations? Go back to the Nether and find a Saltpeter vein at Y 5-45. You can also centrifuge it for Electrum and Redstone if you have too much.
+gtnh.quest2447.name=忘了什么?
+gtnh.quest2447.desc=你的工作站需要些蓝石? 回到下界并在Y=5-45寻找硝石矿脉吧. 要是你的蓝石太多的话, 还可以将其离心产出琥珀金和红石.
 
 # Quest.2448 - Dichlorobenzene
-#N gtnh.quest2448.name=Dichlorobenzene
-#N gtnh.quest2448.desc=To make higher tier cables, you'll have to put a little more effort in. Let's start with Dichlorobenzene.
+gtnh.quest2448.name=对二氯苯
+gtnh.quest2448.desc=你需要付出更多的努力才能制造出更高阶的线缆. 让我们从对二氯苯开始吧.
 
 # Quest.2449 - Polyphenylene Sulfide
-#N gtnh.quest2449.name=Polyphenylene Sulfide
-#N gtnh.quest2449.desc=Combine Dichlorobenzene with Sodium Sulfide and Oxygen to get Polyphenylene Sulfide.
+gtnh.quest2449.name=聚苯硫醚
+gtnh.quest2449.desc=将对二氯苯与硫化钠加上氧气反应, 你就能获得聚苯硫醚了.
 
 # Quest.2450 - Higher Tier Cables
-#N gtnh.quest2450.name=Higher Tier Cables
-#N gtnh.quest2450.desc=To make higher tier cables, you'll want to make them with Polyphenylene Sulfide Foils and Silicone. You'll need both Tungsten and Platinum in IV-tier.
+gtnh.quest2450.name=更高阶的线缆
+gtnh.quest2450.desc=你需要使用聚苯硫醚箔和硅橡胶才能制造出更高阶的线缆. 在IV阶段, 你还需要钨和铂.
 
 ##################################Line##################################
 
