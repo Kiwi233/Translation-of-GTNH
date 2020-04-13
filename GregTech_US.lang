@@ -2193,34 +2193,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_1166_Index_1=Use Nitrogen Plasma
     S:TileEntity_DESCRIPTION_1166_Index_2=for Inter-dimensional transmission
     S:TileEntity_DESCRIPTION_1166_Index_3=0.004EU Loss per 100 Blocks
-    S:TileEntity_DESCRIPTION_1167_Index_0=Controller Block for the Ore Drilling Plant LuV
-    S:TileEntity_DESCRIPTION_1167_Index_1=Size(WxHxD): 3x7x3, Controller (Front middle bottom)
-    S:TileEntity_DESCRIPTION_1167_Index_10=Use Screwdriver to configure block radius
-    S:TileEntity_DESCRIPTION_1167_Index_11=Use Soldering iron to turn off chunk mode
-    S:TileEntity_DESCRIPTION_1167_Index_12=Maximum radius is 192 blocks
-    S:TileEntity_DESCRIPTION_1167_Index_13=Fortune bonus of 8
-    S:TileEntity_DESCRIPTION_1167_Index_2=3x1x3 Base of Mining Neutronium Casing
-    S:TileEntity_DESCRIPTION_1167_Index_3=1x3x1 Mining Neutronium Casing pillar (Center of base)
-    S:TileEntity_DESCRIPTION_1167_Index_4=1x3x1 Neutronium Frame Boxes (Each pillar side and on top)
-    S:TileEntity_DESCRIPTION_1167_Index_5=1x Input Hatch for drilling fluid (Any bottom layer casing)
-    S:TileEntity_DESCRIPTION_1167_Index_6=1x Input Bus for mining pipes (Any bottom layer casing; not necessary)
-    S:TileEntity_DESCRIPTION_1167_Index_7=1x Output Bus (Any bottom layer casing)
-    S:TileEntity_DESCRIPTION_1167_Index_8=1x Maintenance Hatch (Any bottom layer casing)
-    S:TileEntity_DESCRIPTION_1167_Index_9=1x LuV+ Energy Hatch (Any bottom layer casing)
-    S:TileEntity_DESCRIPTION_1168_Index_0=Controller Block for the Ore Drilling Plant ZPM
-    S:TileEntity_DESCRIPTION_1168_Index_1=Size(WxHxD): 3x7x3, Controller (Front middle bottom)
-    S:TileEntity_DESCRIPTION_1168_Index_10=Use Screwdriver to configure block radius
-    S:TileEntity_DESCRIPTION_1168_Index_11=Use Soldering iron to turn off chunk mode
-    S:TileEntity_DESCRIPTION_1168_Index_12=Maximum radius is 240 blocks
-    S:TileEntity_DESCRIPTION_1168_Index_13=Fortune bonus of 9
-    S:TileEntity_DESCRIPTION_1168_Index_2=3x1x3 Base of Mining Black Plutonium Casing
-    S:TileEntity_DESCRIPTION_1168_Index_3=1x3x1 Mining Black Plutonium Casing pillar (Center of base)
-    S:TileEntity_DESCRIPTION_1168_Index_4=1x3x1 BlackPlutonium Frame Boxes (Each pillar side and on top)
-    S:TileEntity_DESCRIPTION_1168_Index_5=1x Input Hatch for drilling fluid (Any bottom layer casing)
-    S:TileEntity_DESCRIPTION_1168_Index_6=1x Input Bus for mining pipes (Any bottom layer casing; not necessary)
-    S:TileEntity_DESCRIPTION_1168_Index_7=1x Output Bus (Any bottom layer casing)
-    S:TileEntity_DESCRIPTION_1168_Index_8=1x Maintenance Hatch (Any bottom layer casing)
-    S:TileEntity_DESCRIPTION_1168_Index_9=1x ZPM+ Energy Hatch (Any bottom layer casing)
     S:TileEntity_DESCRIPTION_1169_Index_0=Controller block for the Large Chemical Reactor
     S:TileEntity_DESCRIPTION_1169_Index_1=Has the same recipes as the Chemical Reactor
     S:TileEntity_DESCRIPTION_1169_Index_10=1x Output Bus/Hatch (Any inert casing)
@@ -3552,21 +3524,51 @@ languagefile {
     S:TileEntity_DESCRIPTION_12738_Index_7=1x Maintenance Hatch (Any casing)
     S:TileEntity_DESCRIPTION_12738_Index_8=1+ Energy Hatch (Any casing)
     S:TileEntity_DESCRIPTION_12738_Index_9=Fluids are only put out at the correct height
-    S:TileEntity_DESCRIPTION_12739_Index_0=Controller Block for the Void Miner 
+    S:TileEntity_DESCRIPTION_12739_Index_0=Controller Block for the Void Miner UV
     S:TileEntity_DESCRIPTION_12739_Index_1=Size(WxHxD): 3x7x3
     S:TileEntity_DESCRIPTION_12739_Index_10=Consumes 524288EU/t
     S:TileEntity_DESCRIPTION_12739_Index_11=Can be supplied with 2L/s of Neon(x4), Krypton(x8), Xenon(x16) or Oganesson(x64)
     S:TileEntity_DESCRIPTION_12739_Index_12=for higher outputs.
-    S:TileEntity_DESCRIPTION_12739_Index_13=Will output two Ores per Second depending on the Dimension it is build in
+    S:TileEntity_DESCRIPTION_12739_Index_13=Will output 6 Ores per Second depending on the Dimension it is build in
     S:TileEntity_DESCRIPTION_12739_Index_14=Added by bartimaeusnek via§2 BartWorks
     S:TileEntity_DESCRIPTION_12739_Index_2=Controller (Front middle at bottom)
-    S:TileEntity_DESCRIPTION_12739_Index_3=3x1x3 Base of UV Machine Casing
-    S:TileEntity_DESCRIPTION_12739_Index_4=1x3x1 UV Machine Casing pillar (Center of base)
+    S:TileEntity_DESCRIPTION_12739_Index_3=3x1x3 Base of Mining Neutronium Casing
+    S:TileEntity_DESCRIPTION_12739_Index_4=1x3x1 Mining Neutronium Casing pillar (Center of base)
     S:TileEntity_DESCRIPTION_12739_Index_5=1x3x1 Neutronium Frame Boxes (Each pillar side and on top)
     S:TileEntity_DESCRIPTION_12739_Index_6=1x Output Bus (One of base casings)
     S:TileEntity_DESCRIPTION_12739_Index_7=Optional: 0+ Input Hatch (One of base casings)
     S:TileEntity_DESCRIPTION_12739_Index_8=1x Maintenance Hatch (One of base casings)
     S:TileEntity_DESCRIPTION_12739_Index_9=1x UV+ Energy Hatch (Any bottom layer casing)
+    S:TileEntity_DESCRIPTION_12740_Index_0=Controller Block for the Void Miner ZPM
+    S:TileEntity_DESCRIPTION_12740_Index_1=Size(WxHxD): 3x7x3
+    S:TileEntity_DESCRIPTION_12740_Index_10=Consumes 131072EU/t
+    S:TileEntity_DESCRIPTION_12740_Index_11=Can be supplied with 2L/s of Neon(x4), Krypton(x8), Xenon(x16) or Oganesson(x64)
+    S:TileEntity_DESCRIPTION_12740_Index_12=for higher outputs.
+    S:TileEntity_DESCRIPTION_12740_Index_13=Will output 4 Ores per Second depending on the Dimension it is build in
+    S:TileEntity_DESCRIPTION_12740_Index_14=Added by bartimaeusnek via§2 BartWorks
+    S:TileEntity_DESCRIPTION_12740_Index_2=Controller (Front middle at bottom)
+    S:TileEntity_DESCRIPTION_12740_Index_3=3x1x3 Base of Mining Black Plutonium Casing
+    S:TileEntity_DESCRIPTION_12740_Index_4=1x3x1 Mining Black Plutonium Casing pillar (Center of base)
+    S:TileEntity_DESCRIPTION_12740_Index_5=1x3x1 BlackPlutonium Frame Boxes (Each pillar side and on top)
+    S:TileEntity_DESCRIPTION_12740_Index_6=1x Output Bus (One of base casings)
+    S:TileEntity_DESCRIPTION_12740_Index_7=Optional: 0+ Input Hatch (One of base casings)
+    S:TileEntity_DESCRIPTION_12740_Index_8=1x Maintenance Hatch (One of base casings)
+    S:TileEntity_DESCRIPTION_12740_Index_9=1x ZPM+ Energy Hatch (Any bottom layer casing)
+    S:TileEntity_DESCRIPTION_12741_Index_0=Controller Block for the Void Miner LuV
+    S:TileEntity_DESCRIPTION_12741_Index_1=Size(WxHxD): 3x7x3
+    S:TileEntity_DESCRIPTION_12741_Index_10=Consumes 32768EU/t
+    S:TileEntity_DESCRIPTION_12741_Index_11=Can be supplied with 2L/s of Neon(x4), Krypton(x8), Xenon(x16) or Oganesson(x64)
+    S:TileEntity_DESCRIPTION_12741_Index_12=for higher outputs.
+    S:TileEntity_DESCRIPTION_12741_Index_13=Will output 2 Ores per Second depending on the Dimension it is build in
+    S:TileEntity_DESCRIPTION_12741_Index_14=Added by bartimaeusnek via§2 BartWorks
+    S:TileEntity_DESCRIPTION_12741_Index_2=Controller (Front middle at bottom)
+    S:TileEntity_DESCRIPTION_12741_Index_3=3x1x3 Base of UV Machine Casing
+    S:TileEntity_DESCRIPTION_12741_Index_4=1x3x1 UV Machine Casing pillar (Center of base)
+    S:TileEntity_DESCRIPTION_12741_Index_5=1x3x1 Europium Frame Boxes (Each pillar side and on top)
+    S:TileEntity_DESCRIPTION_12741_Index_6=1x Output Bus (One of base casings)
+    S:TileEntity_DESCRIPTION_12741_Index_7=Optional: 0+ Input Hatch (One of base casings)
+    S:TileEntity_DESCRIPTION_12741_Index_8=1x Maintenance Hatch (One of base casings)
+    S:TileEntity_DESCRIPTION_12741_Index_9=1x LuV+ Energy Hatch (Any bottom layer casing)
     S:TileEntity_DESCRIPTION_127_Index_0=This Chest stores 512000000 Blocks
     S:TileEntity_DESCRIPTION_1280_Index_0=Max Voltage:  %s
     S:TileEntity_DESCRIPTION_1280_Index_1=Max Amperage:  %s
@@ -4923,7 +4925,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_15310_Index_1=User controlled computation power routing
     S:TileEntity_DESCRIPTION_15310_Index_2=§b§lQuality of service is a must
     S:TileEntity_DESCRIPTION_15311_Index_0=§9Tec§1Tech§9: Elemental Matter
-    S:TileEntity_DESCRIPTION_15311_Index_1=11110011 01111110 10110010 01001011
+    S:TileEntity_DESCRIPTION_15311_Index_1=10100111 00001100 10011001 01010010
     S:TileEntity_DESCRIPTION_15311_Index_2=§b§lYou need it to process the number above
     S:TileEntity_DESCRIPTION_15312_Index_0=§9Tec§1Tech§9: Theta Movement
     S:TileEntity_DESCRIPTION_15312_Index_1=High Frequency Oven
@@ -6905,7 +6907,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_31028_Index_32=1x Input Bus (optional)
     S:TileEntity_DESCRIPTION_31028_Index_33=1x Input Hatch (fill with water)
     S:TileEntity_DESCRIPTION_31028_Index_34=1x Maintanence Hatch
-    S:TileEntity_DESCRIPTION_31028_Index_35=Machine Type: §eAlgae Pond§r
+    S:TileEntity_DESCRIPTION_31028_Index_35=Machine Type: §eFlotation Cell§r
     S:TileEntity_DESCRIPTION_31029_Index_0=Dedicated Milling Ball Storage
     S:TileEntity_DESCRIPTION_31030_Index_0=Dedicated Catalyst Storage
     S:TileEntity_DESCRIPTION_311_Index_0=Did you really read the instruction Manual?
@@ -7165,6 +7167,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_4488_Index_0=Just something you can put a Cover or CFoam on.
     S:TileEntity_DESCRIPTION_4489_Index_0=Just something you can put a Cover or CFoam on.
     S:TileEntity_DESCRIPTION_4490_Index_0=Just something you can put a Cover or CFoam on.
+    S:TileEntity_DESCRIPTION_4491_Index_0=Just something you can put a Cover or CFoam on.
     S:TileEntity_DESCRIPTION_4493_Index_0=Just something you can put a Cover or CFoam on.
     S:TileEntity_DESCRIPTION_4494_Index_0=Just something you can put a Cover or CFoam on.
     S:TileEntity_DESCRIPTION_4495_Index_0=Just something you can put a Cover or CFoam on.
@@ -9316,8 +9319,12 @@ languagefile {
     S:achievement.gt.blockmachines.dehp.desc=Get ALL the thermal energy!
     S:achievement.gt.blockmachines.electricimplosioncompressor=Electric Implosions?
     S:achievement.gt.blockmachines.electricimplosioncompressor.desc=Basically a giant Hammer that presses Stuff - No more TNT!
-    S:achievement.gt.blockmachines.voidminer=Ores from deep below!
-    S:achievement.gt.blockmachines.voidminer.desc=Is this some kind of Ex-Nihilo?
+    S:achievement.gt.blockmachines.voidminer1=Ores from deep below!
+    S:achievement.gt.blockmachines.voidminer1.desc=Is this some kind of Ex-Nihilo?
+    S:achievement.gt.blockmachines.voidminer2=Ores from deep below 2! Electric Boogaloo!
+    S:achievement.gt.blockmachines.voidminer2.desc=Ex-Nihilo, but faster!
+    S:achievement.gt.blockmachines.voidminer3=Ores from deep below 3! Trinity Ex-Nihilo
+    S:achievement.gt.blockmachines.voidminer3.desc=3x the trouble, 3x the fun!
     S:achievement.item.HeavyDutyAlloyIngotT4=Rocket Plate Tier 4!
     S:achievement.item.HeavyDutyAlloyIngotT4.desc=On your way to the T4 Dims!
     S:achievement.item.HeavyDutyAlloyIngotT5=Rocket Plate Tier 5!
@@ -9785,6 +9792,7 @@ languagefile {
     S:fluid.molten.bakelite=Molten Bakelite
     S:fluid.molten.barium=Molten Barium
     S:fluid.molten.batteryalloy=Molten Battery Alloy
+    S:fluid.molten.bedrockium=Molten Bedrockium
     S:fluid.molten.berkelium=Molten Berkelium
     S:fluid.molten.beryllium=Molten Beryllium
     S:fluid.molten.berylliumfluoride=Beryllium Fluoride
@@ -12196,6 +12204,7 @@ languagefile {
     S:gt.blockmachines.gt_frame_atlarus.name=%material Frame Box
     S:gt.blockmachines.gt_frame_barium.name=%material Frame Box
     S:gt.blockmachines.gt_frame_batteryalloy.name=%material Frame Box
+    S:gt.blockmachines.gt_frame_bedrockium.name=%material Frame Box
     S:gt.blockmachines.gt_frame_beryllium.name=%material Frame Box
     S:gt.blockmachines.gt_frame_bismuth.name=%material Frame Box
     S:gt.blockmachines.gt_frame_bismuthbronze.name=%material Frame Box
@@ -13261,8 +13270,6 @@ languagefile {
     S:gt.blockmachines.multimachine.oredrill2.name=Ore Drilling Plant II
     S:gt.blockmachines.multimachine.oredrill3.name=Ore Drilling Plant III
     S:gt.blockmachines.multimachine.oredrill4.name=Ore Drilling Plant IV
-    S:gt.blockmachines.multimachine.oredrill5.name=Ore Drilling Plant V
-    S:gt.blockmachines.multimachine.oredrill6.name=Ore Drilling Plant VI
     S:gt.blockmachines.multimachine.processingarray.name=Processing Array
     S:gt.blockmachines.multimachine.pyro.name=Pyrolyse Oven
     S:gt.blockmachines.multimachine.telsatower.name=Tesla's Last Testament
@@ -13369,7 +13376,9 @@ languagefile {
     S:gt.blockmachines.transformer.tier.14.name=Overpowered Transformer
     S:gt.blockmachines.treefarm.controller.tier.single.name=Tree Growth Simulator
     S:gt.blockmachines.treefarmer.structural.name=Farm Keeper
-    S:gt.blockmachines.voidminer.name=Void Miner
+    S:gt.blockmachines.voidminer1.name=Void Miner I
+    S:gt.blockmachines.voidminer2.name=Void Miner II
+    S:gt.blockmachines.voidminer3.name=Void Miner III
     S:gt.blockmachines.wetransformer.tier.01.name=Low Voltage Power Transformer
     S:gt.blockmachines.wettransformer.tier.00.name=Ultra Low Voltage Power Transformer
     S:gt.blockmachines.wettransformer.tier.02.name=Medium Voltage Power Transformer
@@ -22925,6 +22934,8 @@ languagefile {
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.688.tooltip=If
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.689.name=Molten Infinity Capsule
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.689.tooltip=If*
+    S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.690.name=Molten Bedrockium Capsule
+    S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.690.tooltip=
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.691.name=Molten Trinium Capsule
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.691.tooltip=Ke
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.692.name=Molten Ichorium Capsule
@@ -22950,7 +22961,7 @@ languagefile {
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.700.name=Molten Superconductor Base UV Capsule
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.700.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.701.name=Molten Superconductor Base UHV Capsule
-    S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.701.tooltip=?₆?₇?₅Am₆
+    S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.701.tooltip=?₆?₇Tn₅Am₆
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.71.name=Molten Thorium Capsule
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.71.tooltip=Th
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.72.name=Molten Thulium Capsule
@@ -25113,6 +25124,8 @@ languagefile {
     S:gt.metaitem.01.11393.tooltip=Oh
     S:gt.metaitem.01.11394.name=%material Ingot
     S:gt.metaitem.01.11394.tooltip=If
+    S:gt.metaitem.01.11395.name=%material Ingot
+    S:gt.metaitem.01.11395.tooltip=
     S:gt.metaitem.01.11396.name=%material Ingot
     S:gt.metaitem.01.11396.tooltip=
     S:gt.metaitem.01.11397.name=%material Ingot
@@ -25248,7 +25261,7 @@ languagefile {
     S:gt.metaitem.01.11984.name=%material Ingot
     S:gt.metaitem.01.11984.tooltip=Fl
     S:gt.metaitem.01.11985.name=%material Ingot
-    S:gt.metaitem.01.11985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.11985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.11986.name=%material Ingot
     S:gt.metaitem.01.11986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.11987.name=%material Ingot
@@ -25565,6 +25578,8 @@ languagefile {
     S:gt.metaitem.01.12393.tooltip=Oh
     S:gt.metaitem.01.12394.name=Hot %material Ingot
     S:gt.metaitem.01.12394.tooltip=If
+    S:gt.metaitem.01.12395.name=Hot %material Ingot
+    S:gt.metaitem.01.12395.tooltip=
     S:gt.metaitem.01.12397.name=Hot %material Ingot
     S:gt.metaitem.01.12397.tooltip=If*
     S:gt.metaitem.01.12398.name=Hot %material Ingot
@@ -25704,7 +25719,7 @@ languagefile {
     S:gt.metaitem.01.12984.name=Hot %material Ingot
     S:gt.metaitem.01.12984.tooltip=Fl
     S:gt.metaitem.01.12985.name=Hot %material Ingot
-    S:gt.metaitem.01.12985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.12985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.12986.name=Hot %material Ingot
     S:gt.metaitem.01.12986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.12987.name=Hot %material Ingot
@@ -26101,6 +26116,8 @@ languagefile {
     S:gt.metaitem.01.13393.tooltip=Oh
     S:gt.metaitem.01.13394.name=Double %material Ingot
     S:gt.metaitem.01.13394.tooltip=If
+    S:gt.metaitem.01.13395.name=Double %material Ingot
+    S:gt.metaitem.01.13395.tooltip=
     S:gt.metaitem.01.13397.name=Double %material Ingot
     S:gt.metaitem.01.13397.tooltip=If*
     S:gt.metaitem.01.13398.name=Double %material Ingot
@@ -26334,7 +26351,7 @@ languagefile {
     S:gt.metaitem.01.13984.name=Double %material Ingot
     S:gt.metaitem.01.13984.tooltip=Fl
     S:gt.metaitem.01.13985.name=Double %material Ingot
-    S:gt.metaitem.01.13985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.13985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.13986.name=Double %material Ingot
     S:gt.metaitem.01.13986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.13987.name=Double %material Ingot
@@ -26671,6 +26688,8 @@ languagefile {
     S:gt.metaitem.01.14393.tooltip=Oh
     S:gt.metaitem.01.14394.name=Triple %material Ingot
     S:gt.metaitem.01.14394.tooltip=If
+    S:gt.metaitem.01.14395.name=Triple %material Ingot
+    S:gt.metaitem.01.14395.tooltip=
     S:gt.metaitem.01.14397.name=Triple %material Ingot
     S:gt.metaitem.01.14397.tooltip=If*
     S:gt.metaitem.01.14398.name=Triple %material Ingot
@@ -26808,7 +26827,7 @@ languagefile {
     S:gt.metaitem.01.14984.name=Triple %material Ingot
     S:gt.metaitem.01.14984.tooltip=Fl
     S:gt.metaitem.01.14985.name=Triple %material Ingot
-    S:gt.metaitem.01.14985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.14985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.14986.name=Triple %material Ingot
     S:gt.metaitem.01.14986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.14987.name=Triple %material Ingot
@@ -27201,6 +27220,8 @@ languagefile {
     S:gt.metaitem.01.15393.tooltip=Oh
     S:gt.metaitem.01.15394.name=Quadruple %material Ingot
     S:gt.metaitem.01.15394.tooltip=If
+    S:gt.metaitem.01.15395.name=Quadruple %material Ingot
+    S:gt.metaitem.01.15395.tooltip=
     S:gt.metaitem.01.15397.name=Quadruple %material Ingot
     S:gt.metaitem.01.15397.tooltip=If*
     S:gt.metaitem.01.15398.name=Quadruple %material Ingot
@@ -27336,7 +27357,7 @@ languagefile {
     S:gt.metaitem.01.15984.name=Quadruple %material Ingot
     S:gt.metaitem.01.15984.tooltip=Fl
     S:gt.metaitem.01.15985.name=Quadruple %material Ingot
-    S:gt.metaitem.01.15985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.15985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.15986.name=Quadruple %material Ingot
     S:gt.metaitem.01.15986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.15987.name=Quadruple %material Ingot
@@ -27703,6 +27724,8 @@ languagefile {
     S:gt.metaitem.01.16393.tooltip=Oh
     S:gt.metaitem.01.16394.name=Quintuple %material Ingot
     S:gt.metaitem.01.16394.tooltip=If
+    S:gt.metaitem.01.16395.name=Quintuple %material Ingot
+    S:gt.metaitem.01.16395.tooltip=
     S:gt.metaitem.01.16397.name=Quintuple %material Ingot
     S:gt.metaitem.01.16397.tooltip=If*
     S:gt.metaitem.01.16398.name=Quintuple %material Ingot
@@ -27828,7 +27851,7 @@ languagefile {
     S:gt.metaitem.01.16984.name=Quintuple %material Ingot
     S:gt.metaitem.01.16984.tooltip=Fl
     S:gt.metaitem.01.16985.name=Quintuple %material Ingot
-    S:gt.metaitem.01.16985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.16985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.16986.name=Quintuple %material Ingot
     S:gt.metaitem.01.16986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.16987.name=Quintuple %material Ingot
@@ -28400,7 +28423,7 @@ languagefile {
     S:gt.metaitem.01.17984.name=%material Plate
     S:gt.metaitem.01.17984.tooltip=Fl
     S:gt.metaitem.01.17985.name=%material Plate
-    S:gt.metaitem.01.17985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.17985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.17986.name=%material Plate
     S:gt.metaitem.01.17986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.17987.name=%material Plate
@@ -28799,6 +28822,8 @@ languagefile {
     S:gt.metaitem.01.18393.tooltip=Oh
     S:gt.metaitem.01.18394.name=Double %material Plate
     S:gt.metaitem.01.18394.tooltip=If
+    S:gt.metaitem.01.18395.name=Double %material Plate
+    S:gt.metaitem.01.18395.tooltip=
     S:gt.metaitem.01.18397.name=Double %material Plate
     S:gt.metaitem.01.18397.tooltip=If*
     S:gt.metaitem.01.18398.name=Double %material Plate
@@ -29034,7 +29059,7 @@ languagefile {
     S:gt.metaitem.01.18984.name=Double %material Plate
     S:gt.metaitem.01.18984.tooltip=Fl
     S:gt.metaitem.01.18985.name=Double %material Plate
-    S:gt.metaitem.01.18985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.18985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.18986.name=Double %material Plate
     S:gt.metaitem.01.18986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.18987.name=Double %material Plate
@@ -29433,6 +29458,8 @@ languagefile {
     S:gt.metaitem.01.19393.tooltip=Oh
     S:gt.metaitem.01.19394.name=Triple %material Plate
     S:gt.metaitem.01.19394.tooltip=If
+    S:gt.metaitem.01.19395.name=Triple %material Plate
+    S:gt.metaitem.01.19395.tooltip=
     S:gt.metaitem.01.19397.name=Triple %material Plate
     S:gt.metaitem.01.19397.tooltip=If*
     S:gt.metaitem.01.19398.name=Triple %material Plate
@@ -29562,7 +29589,7 @@ languagefile {
     S:gt.metaitem.01.1984.name=Small Pile of %material Dust
     S:gt.metaitem.01.1984.tooltip=Fl
     S:gt.metaitem.01.1985.name=Small Pile of %material Dust
-    S:gt.metaitem.01.1985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.1985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.1986.name=Small Pile of %material Dust
     S:gt.metaitem.01.1986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.19868.name=Triple %material Plate
@@ -29642,7 +29669,7 @@ languagefile {
     S:gt.metaitem.01.19984.name=Triple %material Plate
     S:gt.metaitem.01.19984.tooltip=Fl
     S:gt.metaitem.01.19985.name=Triple %material Plate
-    S:gt.metaitem.01.19985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.19985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.19986.name=Triple %material Plate
     S:gt.metaitem.01.19986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.19987.name=Triple %material Plate
@@ -30009,6 +30036,8 @@ languagefile {
     S:gt.metaitem.01.20393.tooltip=Oh
     S:gt.metaitem.01.20394.name=Quadruple %material Plate
     S:gt.metaitem.01.20394.tooltip=If
+    S:gt.metaitem.01.20395.name=Quadruple %material Plate
+    S:gt.metaitem.01.20395.tooltip=
     S:gt.metaitem.01.20397.name=Quadruple %material Plate
     S:gt.metaitem.01.20397.tooltip=If*
     S:gt.metaitem.01.20398.name=Quadruple %material Plate
@@ -30208,7 +30237,7 @@ languagefile {
     S:gt.metaitem.01.20984.name=Quadruple %material Plate
     S:gt.metaitem.01.20984.tooltip=Fl
     S:gt.metaitem.01.20985.name=Quadruple %material Plate
-    S:gt.metaitem.01.20985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.20985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.20986.name=Quadruple %material Plate
     S:gt.metaitem.01.20986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.20987.name=Quadruple %material Plate
@@ -30535,6 +30564,8 @@ languagefile {
     S:gt.metaitem.01.21393.tooltip=Oh
     S:gt.metaitem.01.21394.name=Quintuple %material Plate
     S:gt.metaitem.01.21394.tooltip=If
+    S:gt.metaitem.01.21395.name=Quintuple %material Plate
+    S:gt.metaitem.01.21395.tooltip=
     S:gt.metaitem.01.21397.name=Quintuple %material Plate
     S:gt.metaitem.01.21397.tooltip=If*
     S:gt.metaitem.01.21398.name=Quintuple %material Plate
@@ -30654,7 +30685,7 @@ languagefile {
     S:gt.metaitem.01.21984.name=Quintuple %material Plate
     S:gt.metaitem.01.21984.tooltip=Fl
     S:gt.metaitem.01.21985.name=Quintuple %material Plate
-    S:gt.metaitem.01.21985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.21985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.21986.name=Quintuple %material Plate
     S:gt.metaitem.01.21986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.21987.name=Quintuple %material Plate
@@ -30973,6 +31004,8 @@ languagefile {
     S:gt.metaitem.01.22393.tooltip=Oh
     S:gt.metaitem.01.22394.name=Dense %material Plate
     S:gt.metaitem.01.22394.tooltip=If
+    S:gt.metaitem.01.22395.name=Dense %material Plate
+    S:gt.metaitem.01.22395.tooltip=
     S:gt.metaitem.01.22397.name=Dense %material Plate
     S:gt.metaitem.01.22397.tooltip=If*
     S:gt.metaitem.01.22398.name=Dense %material Plate
@@ -31092,7 +31125,7 @@ languagefile {
     S:gt.metaitem.01.22984.name=Dense %material Plate
     S:gt.metaitem.01.22984.tooltip=Fl
     S:gt.metaitem.01.22985.name=Dense %material Plate
-    S:gt.metaitem.01.22985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.22985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.22986.name=Dense %material Plate
     S:gt.metaitem.01.22986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.22987.name=Dense %material Plate
@@ -31493,6 +31526,8 @@ languagefile {
     S:gt.metaitem.01.23393.tooltip=Oh
     S:gt.metaitem.01.23394.name=%material Rod
     S:gt.metaitem.01.23394.tooltip=If
+    S:gt.metaitem.01.23395.name=%material Rod
+    S:gt.metaitem.01.23395.tooltip=
     S:gt.metaitem.01.23397.name=%material Rod
     S:gt.metaitem.01.23397.tooltip=If*
     S:gt.metaitem.01.23398.name=%material Rod
@@ -31830,7 +31865,7 @@ languagefile {
     S:gt.metaitem.01.23984.name=%material Rod
     S:gt.metaitem.01.23984.tooltip=Fl
     S:gt.metaitem.01.23985.name=%material Rod
-    S:gt.metaitem.01.23985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.23985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.23986.name=%material Rod
     S:gt.metaitem.01.23986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.23987.name=%material Rod
@@ -32329,6 +32364,8 @@ languagefile {
     S:gt.metaitem.01.25393.tooltip=Oh
     S:gt.metaitem.01.25394.name=%material Round
     S:gt.metaitem.01.25394.tooltip=If
+    S:gt.metaitem.01.25395.name=%material Round
+    S:gt.metaitem.01.25395.tooltip=
     S:gt.metaitem.01.25397.name=%material Round
     S:gt.metaitem.01.25397.tooltip=If*
     S:gt.metaitem.01.25398.name=%material Round
@@ -32482,7 +32519,7 @@ languagefile {
     S:gt.metaitem.01.25984.name=%material Round
     S:gt.metaitem.01.25984.tooltip=Fl
     S:gt.metaitem.01.25985.name=%material Round
-    S:gt.metaitem.01.25985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.25985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.25986.name=%material Round
     S:gt.metaitem.01.25986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.25987.name=%material Round
@@ -32853,6 +32890,8 @@ languagefile {
     S:gt.metaitem.01.26393.tooltip=Oh
     S:gt.metaitem.01.26394.name=%material Bolt
     S:gt.metaitem.01.26394.tooltip=If
+    S:gt.metaitem.01.26395.name=%material Bolt
+    S:gt.metaitem.01.26395.tooltip=
     S:gt.metaitem.01.26397.name=%material Bolt
     S:gt.metaitem.01.26397.tooltip=If*
     S:gt.metaitem.01.26398.name=%material Bolt
@@ -33082,7 +33121,7 @@ languagefile {
     S:gt.metaitem.01.26984.name=%material Bolt
     S:gt.metaitem.01.26984.tooltip=Fl
     S:gt.metaitem.01.26985.name=%material Bolt
-    S:gt.metaitem.01.26985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.26985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.26986.name=%material Bolt
     S:gt.metaitem.01.26986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.26987.name=%material Bolt
@@ -33409,6 +33448,8 @@ languagefile {
     S:gt.metaitem.01.27393.tooltip=Oh
     S:gt.metaitem.01.27394.name=%material Screw
     S:gt.metaitem.01.27394.tooltip=If
+    S:gt.metaitem.01.27395.name=%material Screw
+    S:gt.metaitem.01.27395.tooltip=
     S:gt.metaitem.01.27397.name=%material Screw
     S:gt.metaitem.01.27397.tooltip=If*
     S:gt.metaitem.01.27398.name=%material Screw
@@ -33632,7 +33673,7 @@ languagefile {
     S:gt.metaitem.01.27984.name=%material Screw
     S:gt.metaitem.01.27984.tooltip=Fl
     S:gt.metaitem.01.27985.name=%material Screw
-    S:gt.metaitem.01.27985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.27985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.27986.name=%material Screw
     S:gt.metaitem.01.27986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.27987.name=%material Screw
@@ -34019,6 +34060,8 @@ languagefile {
     S:gt.metaitem.01.28393.tooltip=Oh
     S:gt.metaitem.01.28394.name=%material Ring
     S:gt.metaitem.01.28394.tooltip=If
+    S:gt.metaitem.01.28395.name=%material Ring
+    S:gt.metaitem.01.28395.tooltip=
     S:gt.metaitem.01.28397.name=%material Ring
     S:gt.metaitem.01.28397.tooltip=If*
     S:gt.metaitem.01.28398.name=%material Ring
@@ -34272,7 +34315,7 @@ languagefile {
     S:gt.metaitem.01.28984.name=%material Ring
     S:gt.metaitem.01.28984.tooltip=Fl
     S:gt.metaitem.01.28985.name=%material Ring
-    S:gt.metaitem.01.28985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.28985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.28986.name=%material Ring
     S:gt.metaitem.01.28986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.28987.name=%material Ring
@@ -34671,6 +34714,8 @@ languagefile {
     S:gt.metaitem.01.29393.tooltip=Oh
     S:gt.metaitem.01.29394.name=%material Foil
     S:gt.metaitem.01.29394.tooltip=If
+    S:gt.metaitem.01.29395.name=%material Foil
+    S:gt.metaitem.01.29395.tooltip=
     S:gt.metaitem.01.29397.name=%material Foil
     S:gt.metaitem.01.29397.tooltip=If*
     S:gt.metaitem.01.29398.name=%material Foil
@@ -34812,7 +34857,7 @@ languagefile {
     S:gt.metaitem.01.2984.name=%material Dust
     S:gt.metaitem.01.2984.tooltip=Fl
     S:gt.metaitem.01.2985.name=%material Dust
-    S:gt.metaitem.01.2985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.2985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.2986.name=%material Dust
     S:gt.metaitem.01.2986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.29868.name=%material Foil
@@ -34898,7 +34943,7 @@ languagefile {
     S:gt.metaitem.01.29984.name=%material Foil
     S:gt.metaitem.01.29984.tooltip=Fl
     S:gt.metaitem.01.29985.name=%material Foil
-    S:gt.metaitem.01.29985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.29985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.29986.name=%material Foil
     S:gt.metaitem.01.29986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.29987.name=%material Foil
@@ -36413,8 +36458,6 @@ languagefile {
     S:gt.metaitem.01.3394.tooltip=If
     S:gt.metaitem.01.3395.name=Impure Pile of %material Dust
     S:gt.metaitem.01.3395.tooltip=
-    S:gt.metaitem.01.3397.name=Impure Pile of %material Dust
-    S:gt.metaitem.01.3397.tooltip=If*
     S:gt.metaitem.01.3398.name=Impure Pile of %material Dust
     S:gt.metaitem.01.3398.tooltip=
     S:gt.metaitem.01.34.name=Tiny Pile of %material Dust
@@ -37063,8 +37106,6 @@ languagefile {
     S:gt.metaitem.01.4394.tooltip=If
     S:gt.metaitem.01.4395.name=Purified Pile of %material Dust
     S:gt.metaitem.01.4395.tooltip=
-    S:gt.metaitem.01.4397.name=Purified Pile of %material Dust
-    S:gt.metaitem.01.4397.tooltip=If*
     S:gt.metaitem.01.4398.name=Purified Pile of %material Dust
     S:gt.metaitem.01.4398.tooltip=
     S:gt.metaitem.01.44.name=Tiny Pile of %material Dust
@@ -37655,8 +37696,6 @@ languagefile {
     S:gt.metaitem.01.5394.tooltip=If
     S:gt.metaitem.01.5395.name=Crushed %material Ore
     S:gt.metaitem.01.5395.tooltip=
-    S:gt.metaitem.01.5397.name=Crushed %material Ore
-    S:gt.metaitem.01.5397.tooltip=If*
     S:gt.metaitem.01.5398.name=Crushed %material Ore
     S:gt.metaitem.01.5398.tooltip=
     S:gt.metaitem.01.54.name=Tiny Pile of %material Dust
@@ -38227,8 +38266,6 @@ languagefile {
     S:gt.metaitem.01.6394.tooltip=If
     S:gt.metaitem.01.6395.name=Purified %material Ore
     S:gt.metaitem.01.6395.tooltip=
-    S:gt.metaitem.01.6397.name=Purified %material Ore
-    S:gt.metaitem.01.6397.tooltip=If*
     S:gt.metaitem.01.6398.name=Purified %material Ore
     S:gt.metaitem.01.6398.tooltip=
     S:gt.metaitem.01.64.name=Tiny Pile of %material Dust
@@ -38747,8 +38784,6 @@ languagefile {
     S:gt.metaitem.01.7394.tooltip=If
     S:gt.metaitem.01.7395.name=Centrifuged %material Ore
     S:gt.metaitem.01.7395.tooltip=
-    S:gt.metaitem.01.7397.name=Centrifuged %material Ore
-    S:gt.metaitem.01.7397.tooltip=If*
     S:gt.metaitem.01.7398.name=Centrifuged %material Ore
     S:gt.metaitem.01.7398.tooltip=
     S:gt.metaitem.01.74.name=Tiny Pile of %material Dust
@@ -39741,6 +39776,8 @@ languagefile {
     S:gt.metaitem.01.9393.tooltip=Oh
     S:gt.metaitem.01.9394.name=%material Nugget
     S:gt.metaitem.01.9394.tooltip=If
+    S:gt.metaitem.01.9395.name=%material Nugget
+    S:gt.metaitem.01.9395.tooltip=
     S:gt.metaitem.01.9397.name=%material Nugget
     S:gt.metaitem.01.9397.tooltip=If*
     S:gt.metaitem.01.9398.name=%material Nugget
@@ -39888,7 +39925,7 @@ languagefile {
     S:gt.metaitem.01.984.name=Tiny Pile of %material Dust
     S:gt.metaitem.01.984.tooltip=Fl
     S:gt.metaitem.01.985.name=Tiny Pile of %material Dust
-    S:gt.metaitem.01.985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.986.name=Tiny Pile of %material Dust
     S:gt.metaitem.01.986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.9868.name=%material Nugget
@@ -39972,7 +40009,7 @@ languagefile {
     S:gt.metaitem.01.9984.name=%material Nugget
     S:gt.metaitem.01.9984.tooltip=Fl
     S:gt.metaitem.01.9985.name=%material Nugget
-    S:gt.metaitem.01.9985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.01.9985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.01.9986.name=%material Nugget
     S:gt.metaitem.01.9986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.01.9987.name=%material Nugget
@@ -43188,6 +43225,8 @@ languagefile {
     S:gt.metaitem.02.18393.tooltip=Oh
     S:gt.metaitem.02.18394.name=%material Casing
     S:gt.metaitem.02.18394.tooltip=If
+    S:gt.metaitem.02.18395.name=%material Casing
+    S:gt.metaitem.02.18395.tooltip=
     S:gt.metaitem.02.18397.name=%material Casing
     S:gt.metaitem.02.18397.tooltip=If*
     S:gt.metaitem.02.18398.name=%material Casing
@@ -43431,7 +43470,7 @@ languagefile {
     S:gt.metaitem.02.18984.name=%material Casing
     S:gt.metaitem.02.18984.tooltip=Fl
     S:gt.metaitem.02.18985.name=%material Casing
-    S:gt.metaitem.02.18985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.02.18985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.02.18986.name=%material Casing
     S:gt.metaitem.02.18986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.02.18987.name=%material Casing
@@ -43855,7 +43894,7 @@ languagefile {
     S:gt.metaitem.02.19984.name=Fine %material Wire
     S:gt.metaitem.02.19984.tooltip=Fl
     S:gt.metaitem.02.19985.name=Fine %material Wire
-    S:gt.metaitem.02.19985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.02.19985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.02.19986.name=Fine %material Wire
     S:gt.metaitem.02.19986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.02.19987.name=Fine %material Wire
@@ -44742,6 +44781,8 @@ languagefile {
     S:gt.metaitem.02.22393.tooltip=Oh
     S:gt.metaitem.02.22394.name=Long %material Rod
     S:gt.metaitem.02.22394.tooltip=If
+    S:gt.metaitem.02.22395.name=Long %material Rod
+    S:gt.metaitem.02.22395.tooltip=
     S:gt.metaitem.02.22397.name=Long %material Rod
     S:gt.metaitem.02.22397.tooltip=If*
     S:gt.metaitem.02.22398.name=Long %material Rod
@@ -44965,7 +45006,7 @@ languagefile {
     S:gt.metaitem.02.22984.name=Long %material Rod
     S:gt.metaitem.02.22984.tooltip=Fl
     S:gt.metaitem.02.22985.name=Long %material Rod
-    S:gt.metaitem.02.22985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.02.22985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.02.22986.name=Long %material Rod
     S:gt.metaitem.02.22986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.02.22987.name=Long %material Rod
@@ -45354,6 +45395,8 @@ languagefile {
     S:gt.metaitem.02.23393.tooltip=Oh
     S:gt.metaitem.02.23394.name=Small %material Spring
     S:gt.metaitem.02.23394.tooltip=If
+    S:gt.metaitem.02.23395.name=Small %material Spring
+    S:gt.metaitem.02.23395.tooltip=
     S:gt.metaitem.02.23397.name=Small %material Spring
     S:gt.metaitem.02.23397.tooltip=If*
     S:gt.metaitem.02.23398.name=Small %material Spring
@@ -45579,7 +45622,7 @@ languagefile {
     S:gt.metaitem.02.23984.name=Small %material Spring
     S:gt.metaitem.02.23984.tooltip=Fl
     S:gt.metaitem.02.23985.name=Small %material Spring
-    S:gt.metaitem.02.23985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.02.23985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.02.23986.name=Small %material Spring
     S:gt.metaitem.02.23986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.02.23987.name=Small %material Spring
@@ -45914,6 +45957,8 @@ languagefile {
     S:gt.metaitem.02.24393.tooltip=Oh
     S:gt.metaitem.02.24394.name=%material Spring
     S:gt.metaitem.02.24394.tooltip=If
+    S:gt.metaitem.02.24395.name=%material Spring
+    S:gt.metaitem.02.24395.tooltip=
     S:gt.metaitem.02.24397.name=%material Spring
     S:gt.metaitem.02.24397.tooltip=If*
     S:gt.metaitem.02.24398.name=%material Spring
@@ -46059,7 +46104,7 @@ languagefile {
     S:gt.metaitem.02.24984.name=%material Spring
     S:gt.metaitem.02.24984.tooltip=Fl
     S:gt.metaitem.02.24985.name=%material Spring
-    S:gt.metaitem.02.24985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.02.24985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.02.24986.name=%material Spring
     S:gt.metaitem.02.24986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.02.24987.name=%material Spring
@@ -50983,6 +51028,8 @@ languagefile {
     S:gt.metaitem.03.1393.tooltip=Oh
     S:gt.metaitem.03.1394.name=Crate of %material Ingot
     S:gt.metaitem.03.1394.tooltip=If
+    S:gt.metaitem.03.1395.name=Crate of %material Ingot
+    S:gt.metaitem.03.1395.tooltip=
     S:gt.metaitem.03.1397.name=Crate of %material Ingot
     S:gt.metaitem.03.1397.tooltip=If*
     S:gt.metaitem.03.1398.name=Crate of %material Ingot
@@ -51124,7 +51171,7 @@ languagefile {
     S:gt.metaitem.03.1984.name=Crate of %material Ingot
     S:gt.metaitem.03.1984.tooltip=Fl
     S:gt.metaitem.03.1985.name=Crate of %material Ingot
-    S:gt.metaitem.03.1985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.03.1985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.03.1986.name=Crate of %material Ingot
     S:gt.metaitem.03.1986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.03.1987.name=Crate of %material Ingot
@@ -51863,6 +51910,8 @@ languagefile {
     S:gt.metaitem.03.3393.tooltip=Oh
     S:gt.metaitem.03.3394.name=Crate of %material Plate
     S:gt.metaitem.03.3394.tooltip=If
+    S:gt.metaitem.03.3395.name=Crate of %material Plate
+    S:gt.metaitem.03.3395.tooltip=
     S:gt.metaitem.03.3397.name=Crate of %material Plate
     S:gt.metaitem.03.3397.tooltip=If*
     S:gt.metaitem.03.3398.name=Crate of %material Plate
@@ -52230,7 +52279,7 @@ languagefile {
     S:gt.metaitem.03.3984.name=Crate of %material Plate
     S:gt.metaitem.03.3984.tooltip=Fl
     S:gt.metaitem.03.3985.name=Crate of %material Plate
-    S:gt.metaitem.03.3985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.03.3985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.03.3986.name=Crate of %material Plate
     S:gt.metaitem.03.3986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.03.3987.name=Crate of %material Plate
@@ -52882,7 +52931,7 @@ languagefile {
     S:gt.metaitem.03.984.name=Crate of %material Dust
     S:gt.metaitem.03.984.tooltip=Fl
     S:gt.metaitem.03.985.name=Crate of %material Dust
-    S:gt.metaitem.03.985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.03.985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.03.986.name=Crate of %material Dust
     S:gt.metaitem.03.986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.03.987.name=Crate of %material Dust
@@ -53116,6 +53165,8 @@ languagefile {
     S:gt.metaitem.99.393.tooltip=Oh
     S:gt.metaitem.99.394.name=Molten %material Cell
     S:gt.metaitem.99.394.tooltip=If
+    S:gt.metaitem.99.395.name=Molten %material Cell
+    S:gt.metaitem.99.395.tooltip=
     S:gt.metaitem.99.397.name=Molten %material Cell
     S:gt.metaitem.99.397.tooltip=If*
     S:gt.metaitem.99.398.name=Molten %material Cell
@@ -53341,7 +53392,7 @@ languagefile {
     S:gt.metaitem.99.984.name=Molten %material Cell
     S:gt.metaitem.99.984.tooltip=Fl
     S:gt.metaitem.99.985.name=Molten %material Cell
-    S:gt.metaitem.99.985.tooltip=?₆?₇?₅Am₆
+    S:gt.metaitem.99.985.tooltip=?₆?₇Tn₅Am₆
     S:gt.metaitem.99.986.name=Molten %material Cell
     S:gt.metaitem.99.986.tooltip=?₄(Ir₃Os)₃EuSm
     S:gt.metaitem.99.987.name=Molten %material Cell
