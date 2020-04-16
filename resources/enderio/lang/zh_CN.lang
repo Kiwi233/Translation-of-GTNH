@@ -33,6 +33,19 @@ enderio.itemPowerConduit.name=能量导管
 enderio.itemPowerConduitEnhanced.name=强化能量导管
 enderio.itemPowerConduitEnder.name=末影能量导管
 
+#N enderio.itemPowerConduitEndergyCrude.name=Clay Compound Energy Conduit
+#N enderio.itemPowerConduitEndergyIron.name=Iron Energy Conduit
+#N enderio.itemPowerConduitEndergyAluminum.name=Aluminum Energy Conduit
+#N enderio.itemPowerConduitEndergyGold.name=Gold Energy Conduit
+#N enderio.itemPowerConduitEndergyCopper.name=Copper Energy Conduit
+#N enderio.itemPowerConduitEndergySilver.name=Silver Energy Conduit
+#N enderio.itemPowerConduitEndergyElectrum.name=Electrum Energy Conduit
+#N enderio.itemPowerConduitEndergyEnergeticSilver.name=Energetic Silver Energy Conduit
+#N enderio.itemPowerConduitEndergyCrystalline.name=Crystalline Energy Conduit
+#N enderio.itemPowerConduitEndergyCrystallinePinkSlime.name=Crystalline Pink Slime Energy Conduit
+#N enderio.itemPowerConduitEndergyMelodic.name=Melodic Energy Conduit
+#N enderio.itemPowerConduitEndergyStellar.name=Stellar Energy Conduit
+
 enderio.itemRedstoneConduit.name=红石导管
 enderio.itemRedstoneConduitSwitch.name=导管开关
 enderio.itemRedstoneConduitInsulated.name=绝缘红石导管
@@ -58,8 +71,9 @@ enderio.itemItemConduit.name=物品导管
 
 enderio.filterUpgradeBasic.name=基础物品过滤器
 enderio.filterUpgradeAdvanced.name=高级物品过滤器
+#N enderio.filterUpgradeBig.name=Big Item Filter
+#N enderio.filterUpgradeBigAdvanced.name=Big Advanced Item Filter
 enderio.itemConduitFilterUpgrade=物品导管升级
-
 enderio.itemConduitFilterUpgrade.configured=已配置
 enderio.itemConduitFilterUpgrade.clearConfigMethod=放到合成格里面清除
 enderio.itemConduitFilterUpgrade.clearConfigWarning=这会清除所有存储的数据!
@@ -207,6 +221,7 @@ enderio.vibrantCrystal.name=充能晶体
 enderio.enderCrystal.name=末影晶体
 enderio.attractorCrystal.name=诱引晶体
 enderio.weatherCrystal.name=天气晶体
+
 enderio.darkGrindingBall.name=玄铁球
 enderio.electricalGrindingBall.name=磁钢球
 enderio.energeticGrindingBall.name=充能合金球
@@ -216,6 +231,7 @@ enderio.conductiveGrindingBall.name=导电铁球
 enderio.pulsatingGrindingBall.name=脉冲铁球
 enderio.soulariumGrindingBall.name=魂金球
 enderio.endSteelGrindingBall.name=末影钢球
+
 enderio.darkGrindingBall.tooltip.detailed.line1=SAG磨粉机研磨球
 enderio.darkGrindingBall.tooltip.detailed.line2=最大输出
 enderio.darkGrindingBall.tooltip.detailed.line3=额外输出
@@ -250,6 +266,23 @@ enderio.darkSteel.name=玄钢锭
 enderio.soularium.name=魂金锭
 enderio.endSteel.name=末影钢锭
 enderio.endSteelNugget.name=末影钢粒
+
+#N enderio.crudeSteel.name=Clay Compound
+#N enderio.crystallineAlloy.name=Crystalline Alloy
+#N enderio.melodicAlloy.name=Melodic Alloy
+#N enderio.stellarAlloy.name=Stellar Alloy
+#N enderio.crystallinePinkSlime.name=Crystalline Pink Slime
+#N enderio.energeticSilver.name=Energetic Silver
+#N enderio.vividAlloy.name=Vivid Alloy
+
+#N enderio.crudeSteelGrindingBall.name=Clay Compound Grinding Ball
+#N enderio.crystallineAlloyGrindingBall.name=Crystalline Alloy Grinding Ball
+#N enderio.melodicAlloyGrindingBall.name=Melodic Alloy Grinding Ball
+#N enderio.stellarAlloyGrindingBall.name=Stellar Alloy Grinding Ball
+#N enderio.crystallinePinkSlimeGrindingBall.name=Crystalline Pink Slime Grinding Ball
+#N enderio.energeticSilverGrindingBall.name=Energetic Silver Grinding Ball
+#N enderio.vividAlloyGrindingBall.name=Vivid Alloy Grinding Ball
+
 enderio.precientCrystal.name=预知晶体
 enderio.pulsatingPowder.name=脉冲晶体粉
 enderio.vibrantPowder.name=充能晶体粉
@@ -263,7 +296,7 @@ enderio.phasedGold_ball.name=脉冲合金球
 enderio.redstoneAlloy_ball.name=红石合金球
 enderio.conductiveIron_ball.name=导电铁球
 enderio.phasedIron_ball.name=脉冲铁球
-erio.vibrantNugget_ball.name=脉冲合金粒球
+enderio.vibrantNugget_ball.name=脉冲合金粒球
 enderio.darkSteel_ball.name=玄铁球
 enderio.soularium_ball.name=魂金球
 enderio.endSteel_ball.name=末影钢球
@@ -280,6 +313,14 @@ tile.enderio.darkSteel.name=玄钢块
 tile.enderio.soularium.name=魂金块
 tile.enderio.endSteel.name=末影钢块
 
+#N tile.enderio.crudeSteel.name=Clay Compound Block
+#N tile.enderio.crystallineAlloy.name=Crystalline Alloy Block
+#N tile.enderio.melodicAlloy.name=Melodic Alloy Block
+#N tile.enderio.stellarAlloy.name=Stellar Alloy Block
+#N tile.enderio.crystallinePinkSlime.name=Crystalline Pink Slime Block
+#N tile.enderio.energeticSilver.name=Energetic Silver Block
+#N tile.enderio.vividAlloy.name=Vivid Alloy Block
+
 //Powder / Ingot
 enderio.powderCoal.name=煤粉
 enderio.powderIron.name=铁粉
@@ -295,7 +336,13 @@ enderio.itemBasicCapacitor.name=电容
 enderio.basicCapacitor.name=基础电容
 enderio.activatedCapacitor.name=双层电容
 enderio.enderCapacitor.name=八位电容
+#N enderio.crystallineCapacitor.name=Crystalline Capacitor
 enderio.melodicCapacitor.name=十六位电容
+#N enderio.stellarCapacitor.name=Stellar Capacitor
+#N enderio.silverCapacitor.name=Silver Capacitor
+#N enderio.endergeticCapacitor.name=Endergetic Capacitor
+#N enderio.endergisedCapacitor.name=Endergised Capacitor
+#N enderio.totemicCapacitor.name=Totemic Capacitor
 
 enderio.machine.tooltip.upgrade=机器升级
 enderio.machine.tooltip.upgrade.tooltip.detailed.line1=增加机器能量存储与
@@ -775,6 +822,15 @@ item.endSteel_sword.name=终结之剑 MK2
 item.endSteel_pickaxe.name=末影钢镐
 item.endSteel_axe.name=末影钢斧
 
+//Stellar
+#N item.stellar_helmet.name=Stellar Helm
+#N item.stellar_chestplate.name=Stellar Plate
+#N item.stellar_leggings.name=Stellar Leggings
+#N item.stellar_boots.name=Stellar Boots
+#N item.stellar_sword.name=The Ender MKIV
+#N item.stellar_pickaxe.name=Stellar Pick
+#N item.stellar_axe.name=Stellar Axe
+
 enderio.item.darkSteel.tooltip.lvs=等级
 
 enderio.item.darkSteel_pickaxe.tooltip.effPowered=充能后的效率
@@ -785,9 +841,13 @@ enderio.item.endSteel_pickaxe.tooltip.effPowered=充能后的效率
 enderio.item.endSteel_pickaxe.tooltip.effObs=采集黑曜石的效率
 enderio.item.endSteel_pickaxe.tooltip.cost=消耗
 
+enderio.item.stellar_pickaxe.tooltip.effPowered=充能后的效率
+enderio.item.stellar_pickaxe.tooltip.effObs=采集黑曜石的效率
+enderio.item.stellar_pickaxe.tooltip.cost=消耗
+
 enderio.item.darkSteel_axe.tooltip.multiHarvest=潜行时一次采集多个原木
 enderio.item.endSteel_axe.tooltip.multiHarvest=潜行时一次采集多个原木
-
+enderio.item.stellar_axe.tooltip.multiHarvest=潜行时一次采集多个原木
 
 enderio.item.darkSteel_shears.tooltip.multiHarvest=激活后修剪多个方块/羊
 
@@ -799,17 +859,27 @@ enderio.item.endSteel_sword.tooltip.line1=增加头颅与末影珍珠的掉落
 enderio.item.endSteel_sword.tooltip.line2=击中后将阻止末影人传送
 enderio.item.endSteel_sword.tooltip.line3=充能后伤害+2
 
+enderio.item.stellar_sword.tooltip.line1=增加头颅与末影珍珠的掉落
+enderio.item.stellar_sword.tooltip.line2=击中后将阻止末影人传送
+enderio.item.stellar_sword.tooltip.line3=充能后伤害+2
+
 enderio.item.darkSteel_armor.tooltip.line1=充能后
 enderio.item.darkSteel_armor.tooltip.line2=钻石级别保护 
 
 enderio.item.endSteel_armor.tooltip.line1=钻石+级别保护
 enderio.item.endSteel_armor.tooltip.line2=免疫跌落伤害
 
+enderio.item.stellar_armor.tooltip.line1=钻石+级别保护
+enderio.item.stellar_armor.tooltip.line2=免疫跌落伤害
+
 enderio.item.darkSteel_boots.tooltip.line1=充能后
 enderio.item.darkSteel_boots.tooltip.line2=免疫跌落伤害
 
 enderio.item.endSteel_boots.tooltip.line1=充能后
 enderio.item.endSteel_boots.tooltip.line2=免疫跌落伤害
+
+enderio.item.stellar_boots.tooltip.line1=充能后
+enderio.item.stellar_boots.tooltip.line2=免疫跌落伤害
 
 enderio.darksteel.upgrade.empowered_one.name=注能
 enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line1=能量: $P
@@ -1229,3 +1299,4 @@ enderio.tooltip.meta=Meta:
 enderio.tooltip.uid=UID:
 enderio.tooltip.anvilupgrades=铁砧升级:
 enderio.waila.config.hiddenfacades=隐形栅栏
+
