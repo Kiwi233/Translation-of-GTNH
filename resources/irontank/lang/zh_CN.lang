@@ -1,23 +1,32 @@
 # Item localizations
 item.irontank:copperIronUpgrade.name=储罐升级：铜>铁
-item.irontank:copperSilverUpgrade.name=储罐升级：铜>钢
+#B item.irontank:copperSilverUpgrade.name=Copper to Silver Tank Upgrade
+#A item.irontank:copperSilverUpgrade.name=Copper to Steel Tank Upgrade
+#C item.irontank:copperSilverUpgrade.name=储罐升级：铜>钢
 item.irontank:diamondObsidianUpgrade.name=储罐升级：钻石>黑曜石
+#N item.irontank:diamondEmeraldUpgrade.name=Diamond to Emerald Tank Upgrade
 item.irontank:goldDiamondUpgrade.name=储罐升级：金>钻石
-item.irontank:diamondEmeraldUpgrade.name=坦克升级：钻石>翡翠
 item.irontank:ironGoldUpgrade.name=储罐升级：铁>金
-item.irontank:silverGoldUpgrade.name=储罐升级：钢>金
+#B item.irontank:silverGoldUpgrade.name=Silver to Gold Tank Upgrade
+#A item.irontank:silverGoldUpgrade.name=Steel to Gold Tank Upgrade
+#C item.irontank:silverGoldUpgrade.name=储罐升级：钢>金
 item.irontank:glassCopperUpgrade.name=储罐升级：玻璃>铜
 item.irontank:glassIronUpgrade.name=储罐升级：玻璃>铁
-item.irontank:silverDiamondUpgrade.name=储罐升级：钢>钻石
+#B item.irontank:silverDiamondUpgrade.name=Silver to Diamond Tank Upgrade
+#A item.irontank:silverDiamondUpgrade.name=Steel to Diamond Tank Upgrade
+#C item.irontank:silverDiamondUpgrade.name=储罐升级：钢>钻石
 
 # Block localizations
 tile.irontank:ironTank.name=铁储罐
 tile.irontank:goldTank.name=金储罐
-tile.irontank:emeraldTank.name=翡翠储罐
 tile.irontank:diamondTank.name=钻石储罐
+#N tile.irontank:emeraldTank.name=Emerald Tank
 tile.irontank:obsidianTank.name=黑曜石储罐
 tile.irontank:copperTank.name=铜储罐
-tile.irontank:silverTank.name=钢储罐
+#B tile.irontank:silverTank.name=Silver Tank
+#A tile.irontank:silverTank.name=Steel Tank
+#C tile.irontank:silverTank.name=钢储罐
 
 # Misc localizations
 itemGroup.irontank=铁储罐
+

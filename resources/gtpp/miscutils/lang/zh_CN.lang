@@ -20,6 +20,7 @@ tile.fluidSludge.0.name=不流动的废水
 //Death Messages
 death.attack.plasmabolt=%s 死于滚烫的等离子体.
 death.attack.plasmabolt.player=%1$s 被 %2$s 使用等离子体击杀.
+#N death.attack.gtpp.grinder=%s was ground into nothingness by an IsaMill.
 
 //Alternative Materials
 item.itemPlateBatteryAlloy.name=电池合金板
@@ -3103,13 +3104,95 @@ item.BasicGenericChemItem.5.name=棕色金属催化剂
 item.MudRedSlurry.name=红色泥浆单元
 item.liquid_toluene.name=甲苯单元
 
-item.BasicAlgaeItem.0.name=藻类孢子(I)
-item.BasicAlgaeItem.1.name=藻类孢子(II)
-item.BasicAlgaeItem.2.name=藻类孢子(III)
-item.BasicAlgaeItem.3.name=藻类孢子(IV)
-item.BasicAlgaeItem.4.name=藻类孢子(V)
-item.BasicAlgaeItem.5.name=藻类孢子(VI)
-item.BasicAlgaeItem.6.name=藻类孢子(VII)
+#B item.BasicAlgaeItem.0.name=Algae Spore (I)
+#A item.BasicAlgaeItem.0.name=Breedable Algae
+#C item.BasicAlgaeItem.0.name=藻类孢子(I)
+#B item.BasicAlgaeItem.1.name=Algae Spore (II)
+#A item.BasicAlgaeItem.1.name=Breedable Algae
+#C item.BasicAlgaeItem.1.name=藻类孢子(II)
+#B item.BasicAlgaeItem.2.name=Algae Spore (III)
+#A item.BasicAlgaeItem.2.name=Breedable Algae
+#C item.BasicAlgaeItem.2.name=藻类孢子(III)
+#B item.BasicAlgaeItem.3.name=Algae Spore (IV)
+#A item.BasicAlgaeItem.3.name=Breedable Algae
+#C item.BasicAlgaeItem.3.name=藻类孢子(IV)
+#B item.BasicAlgaeItem.4.name=Algae Spore (V)
+#A item.BasicAlgaeItem.4.name=Breedable Algae
+#C item.BasicAlgaeItem.4.name=藻类孢子(V)
+#B item.BasicAlgaeItem.5.name=Algae Spore (VI)
+#A item.BasicAlgaeItem.5.name=Breedable Algae
+#C item.BasicAlgaeItem.5.name=藻类孢子(VI)
+#B item.BasicAlgaeItem.6.name=Algae Spore (VII)
+#A item.BasicAlgaeItem.6.name=Breedable Algae
+#C item.BasicAlgaeItem.6.name=藻类孢子(VII)
 
-//Added17/01/20
+//Added 17/01/20
 item.BasicGenericChemItem.6.name=粉色金属催化剂
+//Added 23/03/20
+#N item.BasicMetaFood.0.name=Raw Human Meat
+#N item.BasicMetaFood.1.name=Cooked Human Meat
+#N item.BasicMetaFood.2.name=Raw Horse Meat
+#N item.BasicMetaFood.3.name=Cooked Horse Meat
+#N item.BasicMetaFood.4.name=Raw Wolf Meat
+#N item.BasicMetaFood.5.name=Cooked Wolf Meat
+#N item.BasicMetaFood.6.name=Raw Ocelot Meat
+#N item.BasicMetaFood.7.name=Cooked Ocelot Meat
+#N item.BasicMetaFood.8.name=Blaze Flesh
+
+#N item.itemCellNaquadahFuel.name=Naquadah Fuel Cell
+#N item.itemCellEnrichedNaquadahFuel.name=Enriched Naquadah Fuel Cell
+#N item.itemCellNaquadriaFuel.name=Naquadria Fuel Cell
+#N item.boricacid.name=Boric Acid Cell
+#N item.hydrochloricacid.name=Hydrochloric Acid Cell
+
+#N item.BasicAlgaeItem.name=Breedable Algae
+#B item.BasicAlgaeItem.0.name=Algae Spore (I)
+#A item.BasicAlgaeItem.0.name=Breedable Algae
+#C item.BasicAlgaeItem.0.name=藻类孢子(I)
+#B item.BasicAlgaeItem.1.name=Algae Spore (II)
+#A item.BasicAlgaeItem.1.name=Breedable Algae
+#C item.BasicAlgaeItem.1.name=藻类孢子(II)
+#B item.BasicAlgaeItem.2.name=Algae Spore (III)
+#A item.BasicAlgaeItem.2.name=Breedable Algae
+#C item.BasicAlgaeItem.2.name=藻类孢子(III)
+#B item.BasicAlgaeItem.3.name=Algae Spore (IV)
+#A item.BasicAlgaeItem.3.name=Breedable Algae
+#C item.BasicAlgaeItem.3.name=藻类孢子(IV)
+#B item.BasicAlgaeItem.4.name=Algae Spore (V)
+#A item.BasicAlgaeItem.4.name=Breedable Algae
+#C item.BasicAlgaeItem.4.name=藻类孢子(V)
+#B item.BasicAlgaeItem.5.name=Algae Spore (VI)
+#A item.BasicAlgaeItem.5.name=Breedable Algae
+#C item.BasicAlgaeItem.5.name=藻类孢子(VI)
+#B item.BasicAlgaeItem.6.name=Algae Spore (VII)
+#A item.BasicAlgaeItem.6.name=Breedable Algae
+#C item.BasicAlgaeItem.6.name=藻类孢子(VII)
+
+//Added 30/03/20
+#N item.milledChalcopyrite.name=Milled Chalcopyrite
+#N item.milledSphalerite.name=Milled Sphalerite
+#N item.milledNickel.name=Milled Nickel
+#N item.milledPlatinum.name=Milled Platinum
+#N item.milledPentlandite.name=Milled Pentlandite
+
+#N item.BasicGenericChemItem.7.name=Alumina Milling Ball
+#N item.BasicGenericChemItem.8.name=Soapstone Milling Ball
+
+#N item.FrothZincflotation.name=Sphalerite Flotation Froth Cell
+#N item.FrothCopperflotation.name=Chalcopyrite Flotation Froth Cell
+#N item.FrothNickelflotation.name=Nickel Flotation Froth Cell
+#N item.FrothPlatinumflotation.name=Platinum Flotation Froth Cell
+#N item.FrothPentlanditeflotation.name=Pentlandite Flotation Froth Cell
+
+//Added 31/03/20
+#N item.BasicGenericChemItem.9.name=Sodium Ethoxide Dust
+#N item.BasicGenericChemItem.10.name=Sodium Ethyl Xanthate Dust
+#N item.BasicGenericChemItem.11.name=Potassium Ethyl Xanthate Dust
+#N item.BasicGenericChemItem.12.name=Potassium Hydroxide Dust
+
+#N item.CarbonDisulfide.name=Carbon Disulfide Cell
+#N item.HydrogenSulfide.name=Hydrogen Sulfide Cell
+
+#N item.BasicAgrichemItem.24.name=Pinecone
+#N item.BasicAgrichemItem.25.name=Crushed Pine Materials
+#N item.pineoil.name=Pine Oil Cell
