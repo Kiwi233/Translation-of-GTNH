@@ -288,15 +288,15 @@ compendium.smoothText.line1=如果您感受极差请开启它
 compendium.smoothText.line2=字体缩放(测试版)
 compendium.smoothText.mode=模式
 compendium.smoothText.disabled=关闭
-#N compendium.crafting.changed=Recipe was modified by another mod
-#N compendium.crafting.removed=Recipe was removed by another mod
+compendium.crafting.changed=配方被其他mod修改
+compendium.crafting.removed=配方被其他mod移除
 
 key.openCompendium=末地概要
 key.openCompendium.bacon=培根概要
 key.openCompendium.conflict=末地概要的绑定按键与 $ 冲突，请在控制中修复这个问题
 
-#N music.notEnabled=Cannot play Hardcore Ender Expansion music disc, custom music is not enabled.
-#N music.missingResourcePack=Resource Pack not installed
+music.notEnabled=无法播放HEE音乐碟片, 自定义音乐未启用.
+music.missingResourcePack=未安装资源包
 
 achievement.viewAchievements=查看成就
 achievement.viewChallenges=查看挑战
