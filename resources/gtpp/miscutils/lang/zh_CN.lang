@@ -20,7 +20,7 @@ tile.fluidSludge.0.name=不流动的废水
 //Death Messages
 death.attack.plasmabolt=%s 死于滚烫的等离子体.
 death.attack.plasmabolt.player=%1$s 被 %2$s 使用等离子体击杀.
-#N death.attack.gtpp.grinder=%s was ground into nothingness by an IsaMill.
+death.attack.gtpp.grinder=%s 被艾萨研磨机磨成了渣渣.
 
 //Alternative Materials
 item.itemPlateBatteryAlloy.name=电池合金板
@@ -3104,95 +3104,67 @@ item.BasicGenericChemItem.5.name=棕色金属催化剂
 item.MudRedSlurry.name=红色泥浆单元
 item.liquid_toluene.name=甲苯单元
 
-#B item.BasicAlgaeItem.0.name=Algae Spore (I)
-#A item.BasicAlgaeItem.0.name=Breedable Algae
-#C item.BasicAlgaeItem.0.name=藻类孢子(I)
-#B item.BasicAlgaeItem.1.name=Algae Spore (II)
-#A item.BasicAlgaeItem.1.name=Breedable Algae
-#C item.BasicAlgaeItem.1.name=藻类孢子(II)
-#B item.BasicAlgaeItem.2.name=Algae Spore (III)
-#A item.BasicAlgaeItem.2.name=Breedable Algae
-#C item.BasicAlgaeItem.2.name=藻类孢子(III)
-#B item.BasicAlgaeItem.3.name=Algae Spore (IV)
-#A item.BasicAlgaeItem.3.name=Breedable Algae
-#C item.BasicAlgaeItem.3.name=藻类孢子(IV)
-#B item.BasicAlgaeItem.4.name=Algae Spore (V)
-#A item.BasicAlgaeItem.4.name=Breedable Algae
-#C item.BasicAlgaeItem.4.name=藻类孢子(V)
-#B item.BasicAlgaeItem.5.name=Algae Spore (VI)
-#A item.BasicAlgaeItem.5.name=Breedable Algae
-#C item.BasicAlgaeItem.5.name=藻类孢子(VI)
-#B item.BasicAlgaeItem.6.name=Algae Spore (VII)
-#A item.BasicAlgaeItem.6.name=Breedable Algae
-#C item.BasicAlgaeItem.6.name=藻类孢子(VII)
+item.BasicAlgaeItem.0.name=可培植藻类(I)
+item.BasicAlgaeItem.1.name=可培植藻类(II)
+item.BasicAlgaeItem.2.name=可培植藻类(III)
+item.BasicAlgaeItem.3.name=可培植藻类(IV)
+item.BasicAlgaeItem.4.name=可培植藻类(V)
+item.BasicAlgaeItem.5.name=可培植藻类(VI)
+item.BasicAlgaeItem.6.name=可培植藻类(VII)
 
 //Added 17/01/20
 item.BasicGenericChemItem.6.name=粉色金属催化剂
 //Added 23/03/20
-#N item.BasicMetaFood.0.name=Raw Human Meat
-#N item.BasicMetaFood.1.name=Cooked Human Meat
-#N item.BasicMetaFood.2.name=Raw Horse Meat
-#N item.BasicMetaFood.3.name=Cooked Horse Meat
-#N item.BasicMetaFood.4.name=Raw Wolf Meat
-#N item.BasicMetaFood.5.name=Cooked Wolf Meat
-#N item.BasicMetaFood.6.name=Raw Ocelot Meat
-#N item.BasicMetaFood.7.name=Cooked Ocelot Meat
-#N item.BasicMetaFood.8.name=Blaze Flesh
+item.BasicMetaFood.0.name=生人肉
+item.BasicMetaFood.1.name=熟人肉
+item.BasicMetaFood.2.name=生马肉
+item.BasicMetaFood.3.name=熟马肉
+item.BasicMetaFood.4.name=生狼肉
+item.BasicMetaFood.5.name=熟狼肉
+item.BasicMetaFood.6.name=生猫肉
+item.BasicMetaFood.7.name=熟猫肉
+item.BasicMetaFood.8.name=烈焰人肉
 
-#N item.itemCellNaquadahFuel.name=Naquadah Fuel Cell
-#N item.itemCellEnrichedNaquadahFuel.name=Enriched Naquadah Fuel Cell
-#N item.itemCellNaquadriaFuel.name=Naquadria Fuel Cell
-#N item.boricacid.name=Boric Acid Cell
-#N item.hydrochloricacid.name=Hydrochloric Acid Cell
+item.itemCellNaquadahFuel.name=硅岩燃料单元
+item.itemCellEnrichedNaquadahFuel.name=富集硅岩燃料单元
+item.itemCellNaquadriaFuel.name=超能硅岩燃料单元
+item.boricacid.name=硼酸单元
+item.hydrochloricacid.name=盐酸单元
 
-#N item.BasicAlgaeItem.name=Breedable Algae
-#B item.BasicAlgaeItem.0.name=Algae Spore (I)
-#A item.BasicAlgaeItem.0.name=Breedable Algae
-#C item.BasicAlgaeItem.0.name=藻类孢子(I)
-#B item.BasicAlgaeItem.1.name=Algae Spore (II)
-#A item.BasicAlgaeItem.1.name=Breedable Algae
-#C item.BasicAlgaeItem.1.name=藻类孢子(II)
-#B item.BasicAlgaeItem.2.name=Algae Spore (III)
-#A item.BasicAlgaeItem.2.name=Breedable Algae
-#C item.BasicAlgaeItem.2.name=藻类孢子(III)
-#B item.BasicAlgaeItem.3.name=Algae Spore (IV)
-#A item.BasicAlgaeItem.3.name=Breedable Algae
-#C item.BasicAlgaeItem.3.name=藻类孢子(IV)
-#B item.BasicAlgaeItem.4.name=Algae Spore (V)
-#A item.BasicAlgaeItem.4.name=Breedable Algae
-#C item.BasicAlgaeItem.4.name=藻类孢子(V)
-#B item.BasicAlgaeItem.5.name=Algae Spore (VI)
-#A item.BasicAlgaeItem.5.name=Breedable Algae
-#C item.BasicAlgaeItem.5.name=藻类孢子(VI)
-#B item.BasicAlgaeItem.6.name=Algae Spore (VII)
-#A item.BasicAlgaeItem.6.name=Breedable Algae
-#C item.BasicAlgaeItem.6.name=藻类孢子(VII)
+item.BasicAlgaeItem.name=可培植藻类
+item.BasicAlgaeItem.0.name=可培植藻类(I)
+item.BasicAlgaeItem.1.name=可培植藻类(II)
+item.BasicAlgaeItem.2.name=可培植藻类(III)
+item.BasicAlgaeItem.3.name=可培植藻类(IV)
+item.BasicAlgaeItem.4.name=可培植藻类(V)
+item.BasicAlgaeItem.5.name=可培植藻类(VI)
+item.BasicAlgaeItem.6.name=可培植藻类(VII)
 
 //Added 30/03/20
-#N item.milledChalcopyrite.name=Milled Chalcopyrite
-#N item.milledSphalerite.name=Milled Sphalerite
-#N item.milledNickel.name=Milled Nickel
-#N item.milledPlatinum.name=Milled Platinum
-#N item.milledPentlandite.name=Milled Pentlandite
+item.milledChalcopyrite.name=研磨黄铜矿
+item.milledSphalerite.name=研磨闪锌矿
+item.milledNickel.name=研磨镍矿
+item.milledPlatinum.name=研磨铂矿
+item.milledPentlandite.name=研磨镍黄铁矿
 
-#N item.BasicGenericChemItem.7.name=Alumina Milling Ball
-#N item.BasicGenericChemItem.8.name=Soapstone Milling Ball
+item.BasicGenericChemItem.7.name=铝研磨球
+item.BasicGenericChemItem.8.name=皂石研磨球
 
-#N item.FrothZincflotation.name=Sphalerite Flotation Froth Cell
-#N item.FrothCopperflotation.name=Chalcopyrite Flotation Froth Cell
-#N item.FrothNickelflotation.name=Nickel Flotation Froth Cell
-#N item.FrothPlatinumflotation.name=Platinum Flotation Froth Cell
-#N item.FrothPentlanditeflotation.name=Pentlandite Flotation Froth Cell
+item.FrothZincflotation.name=闪锌矿浮选泡沫单元
+item.FrothCopperflotation.name=黄铜矿浮选泡沫单元
+item.FrothNickelflotation.name=镍矿浮选泡沫单元
+item.FrothPlatinumflotation.name=铂矿浮选泡沫单元
+item.FrothPentlanditeflotation.name=镍黄铁矿浮选泡沫单元
 
 //Added 31/03/20
-#N item.BasicGenericChemItem.9.name=Sodium Ethoxide Dust
-#N item.BasicGenericChemItem.10.name=Sodium Ethyl Xanthate Dust
-#N item.BasicGenericChemItem.11.name=Potassium Ethyl Xanthate Dust
-#N item.BasicGenericChemItem.12.name=Potassium Hydroxide Dust
+item.BasicGenericChemItem.9.name=乙醇钠粉
+item.BasicGenericChemItem.10.name=乙基黄原酸钠粉
+item.BasicGenericChemItem.11.name=乙基黄原酸钾粉
+item.BasicGenericChemItem.12.name=氢氧化钾粉
 
-#N item.CarbonDisulfide.name=Carbon Disulfide Cell
-#N item.HydrogenSulfide.name=Hydrogen Sulfide Cell
+item.CarbonDisulfide.name=二硫化碳单元
+item.HydrogenSulfide.name=硫化氢单元
 
-#N item.BasicAgrichemItem.24.name=Pinecone
-#N item.BasicAgrichemItem.25.name=Crushed Pine Materials
-#N item.pineoil.name=Pine Oil Cell
+item.BasicAgrichemItem.24.name=松果
+item.BasicAgrichemItem.25.name=松树碎料
+item.pineoil.name=松油单元
