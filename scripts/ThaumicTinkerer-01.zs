@@ -172,7 +172,7 @@ mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:revealingHelm>);
 // --- Tomb of Knowledge Sharing
 mods.thaumcraft.Research.orphanResearch("SHARE_TOME");
 mods.thaumcraft.Research.removeResearch("SHARE_TOME");
-mods.thaumcraft.Research.addResearch("SHARETOME", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 0, -1, 3, <ThaumicTinkerer:shareBook>);
+mods.thaumcraft.Research.addResearch("SHARETOME", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 0, -1 as int, 3, <ThaumicTinkerer:shareBook>);
 game.setLocalization("tc.research_name.SHARETOME", "\u77e5\u8bc6\u5171\u4eab\u4e4b\u4e66");
 game.setLocalization("tc.research_text.SHARETOME", "[TT]\u91d1\u9c7c\u7684\u65e5\u8bb0");
 mods.thaumcraft.Research.addPrereq("SHARETOME", "INFUSION", false);
@@ -188,7 +188,7 @@ mods.thaumcraft.Research.addInfusionPage("SHARETOME", <ThaumicTinkerer:shareBook
 // --- Dark Quartz
 mods.thaumcraft.Research.orphanResearch("DARK_QUARTZ");
 mods.thaumcraft.Research.removeResearch("DARK_QUARTZ");
-mods.thaumcraft.Research.addResearch("DARKQUARTZ", "TT_CATEGORY", "null", -2, 2, 1, <ThaumicTinkerer:darkQuartzItem>);
+mods.thaumcraft.Research.addResearch("DARKQUARTZ", "TT_CATEGORY", "null", -2 as int, 2, 1, <ThaumicTinkerer:darkQuartzItem>);
 mods.thaumcraft.Research.setRound("DARKQUARTZ", true);
 mods.thaumcraft.Research.setAutoUnlock("DARKQUARTZ", true);
 game.setLocalization("tc.research_name.DARKQUARTZ", "\u70df\u9ed1\u77f3\u82f1");
@@ -277,7 +277,7 @@ mods.thaumcraft.Research.setComplexity("BRIGHT_NITOR", 3);
 // --- Ignis Imbued Fire
 mods.thaumcraft.Research.orphanResearch("FIRE_IGNIS");
 mods.thaumcraft.Research.removeResearch("FIRE_IGNIS");
-mods.thaumcraft.Research.addResearch("FIREIGNIS", "TT_CATEGORY", "ignis 15, lux 12, aer 9, praecantatio 3", 4, -4, 3, <ThaumicTinkerer:fireFire>);
+mods.thaumcraft.Research.addResearch("FIREIGNIS", "TT_CATEGORY", "ignis 15, lux 12, aer 9, praecantatio 3", 4, -4 as int, 3, <ThaumicTinkerer:fireFire>);
 mods.thaumcraft.Research.addPrereq("FIREIGNIS", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREIGNIS", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREIGNIS", "ELDRITCHMINOR", false);
@@ -295,7 +295,7 @@ mods.thaumcraft.Warp.addToResearch("FIREIGNIS", 10);
 // --- Water Imbued Water
 mods.thaumcraft.Research.orphanResearch("FIRE_AQUA");
 mods.thaumcraft.Research.removeResearch("FIRE_AQUA");
-mods.thaumcraft.Research.addResearch("FIREAQUA", "TT_CATEGORY", "aqua 15, lux 12, aer 9, praecantatio 3", 2, -2, 3, <ThaumicTinkerer:fireWater>);
+mods.thaumcraft.Research.addResearch("FIREAQUA", "TT_CATEGORY", "aqua 15, lux 12, aer 9, praecantatio 3", 2, -2 as int, 3, <ThaumicTinkerer:fireWater>);
 mods.thaumcraft.Research.addPrereq("FIREAQUA", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREAQUA", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREAQUA", "ELDRITCHMINOR", false);
@@ -313,7 +313,7 @@ mods.thaumcraft.Warp.addToResearch("FIREAQUA", 10);
 // --- Earth Imbued Earth
 mods.thaumcraft.Research.orphanResearch("FIRE_TERRA");
 mods.thaumcraft.Research.removeResearch("FIRE_TERRA");
-mods.thaumcraft.Research.addResearch("FIRETERRA", "TT_CATEGORY", "terra 15, lux 12, aer 9, praecantatio 3", 4, -6, 3, <ThaumicTinkerer:fireEarth>);
+mods.thaumcraft.Research.addResearch("FIRETERRA", "TT_CATEGORY", "terra 15, lux 12, aer 9, praecantatio 3", 4, -6 as int, 3, <ThaumicTinkerer:fireEarth>);
 mods.thaumcraft.Research.addPrereq("FIRETERRA", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIRETERRA", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIRETERRA", "ELDRITCHMINOR", false);
@@ -331,7 +331,7 @@ mods.thaumcraft.Warp.addToResearch("FIRETERRA", 10);
 // --- Order Imbued Order
 mods.thaumcraft.Research.orphanResearch("FIRE_ORDO");
 mods.thaumcraft.Research.removeResearch("FIRE_ORDO");
-mods.thaumcraft.Research.addResearch("FIREORDO", "TT_CATEGORY", "ordo 15, lux 12, aer 9, praecantatio 3", 3, -3, 3, <ThaumicTinkerer:fireOrder>);
+mods.thaumcraft.Research.addResearch("FIREORDO", "TT_CATEGORY", "ordo 15, lux 12, aer 9, praecantatio 3", 3, -3 as int, 3, <ThaumicTinkerer:fireOrder>);
 mods.thaumcraft.Research.addPrereq("FIREORDO", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREORDO", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREORDO", "ELDRITCHMINOR", false);
@@ -349,7 +349,7 @@ mods.thaumcraft.Warp.addToResearch("FIREORDO", 10);
 // --- Air Imbued Air
 mods.thaumcraft.Research.orphanResearch("FIRE_AER");
 mods.thaumcraft.Research.removeResearch("FIRE_AER");
-mods.thaumcraft.Research.addResearch("FIREAER", "TT_CATEGORY", "aer 15, lux 12, motus 9, praecantatio 3", 3, -7, 3, <ThaumicTinkerer:fireAir>);
+mods.thaumcraft.Research.addResearch("FIREAER", "TT_CATEGORY", "aer 15, lux 12, motus 9, praecantatio 3", 3, -7 as int, 3, <ThaumicTinkerer:fireAir>);
 mods.thaumcraft.Research.addPrereq("FIREAER", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREAER", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREAER", "ELDRITCHMINOR", false);
@@ -367,7 +367,7 @@ mods.thaumcraft.Warp.addToResearch("FIREAER", 10);
 // --- Chaos Imbued Perditio
 mods.thaumcraft.Research.orphanResearch("FIRE_PERDITIO");
 mods.thaumcraft.Research.removeResearch("FIRE_PERDITIO");
-mods.thaumcraft.Research.addResearch("FIREPERDITIO", "TT_CATEGORY", "perditio 15, lux 12, aer 9, praecantatio 3", 2, -8, 3, <ThaumicTinkerer:fireChaos>);
+mods.thaumcraft.Research.addResearch("FIREPERDITIO", "TT_CATEGORY", "perditio 15, lux 12, aer 9, praecantatio 3", 2, -8 as int, 3, <ThaumicTinkerer:fireChaos>);
 mods.thaumcraft.Research.addPrereq("FIREPERDITIO", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREPERDITIO", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREPERDITIO", "ELDRITCHMINOR", false);
@@ -385,7 +385,7 @@ mods.thaumcraft.Warp.addToResearch("FIREPERDITIO", 10);
 // --- Infused Seeds
 mods.thaumcraft.Research.orphanResearch("INFUSED_POTIONS");
 mods.thaumcraft.Research.removeResearch("INFUSED_POTIONS");
-mods.thaumcraft.Research.addResearch("INFUSEDSEED", "TT_CATEGORY", "perditio 15, lux 12, aer 9, praecantatio 3", 7, -5, 3, <ThaumicTinkerer:infusedSeeds>.withTag({mainAspect: {Aspects: [{amount: 1, key: "ignis"}]}, aspectTendencies: {Aspects: []}}));
+mods.thaumcraft.Research.addResearch("INFUSEDSEED", "TT_CATEGORY", "perditio 15, lux 12, aer 9, praecantatio 3", 7, -5 as int, 3, <ThaumicTinkerer:infusedSeeds>.withTag({mainAspect: {Aspects: [{amount: 1, key: "ignis"}]}, aspectTendencies: {Aspects: []}}));
 mods.thaumcraft.Research.addPrereq("INFUSEDSEED", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("INFUSEDSEED", "FIREIGNIS", false);
 mods.thaumcraft.Research.addPrereq("INFUSEDSEED", "FIREAQUA", false);
@@ -436,7 +436,7 @@ game.setLocalization("tt.research.page.INFUSEDSEED.3", "\u522b\u7684\u5408\u6210
 mods.thaumcraft.Warp.addToResearch("INFUSEDSEED", 2);
 
 // --- Potion of Air
-mods.thaumcraft.Research.addResearch("INFUSEDPOTIONS", "TT_CATEGORY", "auram 15, ignis 12, aer 9, aqua 9, terra 9", 9, -5, 3, <ThaumicTinkerer:infusedPotion:1>);
+mods.thaumcraft.Research.addResearch("INFUSEDPOTIONS", "TT_CATEGORY", "auram 15, ignis 12, aer 9, aqua 9, terra 9", 9, -5 as int, 3, <ThaumicTinkerer:infusedPotion:1>);
 mods.thaumcraft.Research.addPrereq("INFUSEDPOTIONS", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("INFUSEDPOTIONS", "INFUSEDSEED", false);
 mods.thaumcraft.Research.setConcealed("INFUSEDPOTIONS", true);

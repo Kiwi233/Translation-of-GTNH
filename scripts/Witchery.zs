@@ -263,7 +263,7 @@ Mixer.addRecipe(<witchery:ingredient:153>, null, [<witchery:seedsbelladonna>, <w
 
 
 // --- Anointing Paste
-mods.thaumcraft.Research.addResearch("ANOINTINGPASTE", "WITCHERY", "fabrico 12, aqua 9, praecantatio 6", 0, -4, 2, <witchery:ingredient:153>);
+mods.thaumcraft.Research.addResearch("ANOINTINGPASTE", "WITCHERY", "fabrico 12, aqua 9, praecantatio 6", 0, -4 as int, 2, <witchery:ingredient:153>);
 game.setLocalization("tc.research_name.ANOINTINGPASTE", "\u53d7\u9b54\u4e4b\u818f");
 game.setLocalization("tc.research_text.ANOINTINGPASTE", "[WI]\u9b54\u6cd5\u818f\u836f");
 mods.thaumcraft.Research.addPage("ANOINTINGPASTE", "Witchery.research_page.ANOINTINGPASTE.1");
@@ -272,7 +272,7 @@ game.setLocalization("Witchery.research_page.ANOINTINGPASTE.1", "\u7528\u53d7\u9
 \u5c06\u4e0d\u540c\u7684\u5deb\u672f\u79cd\u5b50\u4e0e\u6c34\u5728\u6405\u62cc\u673a\u5185\u6df7\u5408\u5373\u53ef\u5f97\u5230\u53d7\u9b54\u4e4b\u818f.");
 
 // --- Oven
-mods.thaumcraft.Research.addResearch("OVEN", "WITCHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", -2, 2, 4, <witchery:witchesovenidle>);
+mods.thaumcraft.Research.addResearch("OVEN", "WITCHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", -2 as int, 2, 4, <witchery:witchesovenidle>);
 game.setLocalization("tc.research_name.OVEN", "\u5deb\u5e08\u70e4\u7089");
 game.setLocalization("tc.research_text.OVEN", "[WI]\u7cd6\u679c\u5c4b(\u683c\u6797\u7ae5\u8bdd)");
 mods.thaumcraft.Research.addPage("OVEN", "Witchery.research_page.OVEN.1");
@@ -307,7 +307,7 @@ mods.thaumcraft.Arcane.addShaped("ATTUNEDSTONE", <witchery:ingredient:10>, "aer 
 mods.thaumcraft.Research.addArcanePage("ATTUNEDSTONE", <witchery:ingredient:10>);
 
 // --- Quartz Sphere
-mods.thaumcraft.Research.addResearch("QUARTZSPHERE", "WITCHERY", "vitreus 15, instrumentum 12, auram 9, ordo 6, praecantatio 3", 2, -2, 4, <witchery:ingredient:92>);
+mods.thaumcraft.Research.addResearch("QUARTZSPHERE", "WITCHERY", "vitreus 15, instrumentum 12, auram 9, ordo 6, praecantatio 3", 2, -2 as int, 4, <witchery:ingredient:92>);
 game.setLocalization("tc.research_name.QUARTZSPHERE", "\u7403\u72b6\u77f3\u82f1");
 game.setLocalization("tc.research_text.QUARTZSPHERE", "[WI]\u53ec\u5524\u5973\u5deb");
 mods.thaumcraft.Research.addPrereq("QUARTZSPHERE", "ATTUNEDSTONE", false);
@@ -320,7 +320,7 @@ mods.thaumcraft.Arcane.addShaped("QUARTZSPHERE", <witchery:ingredient:92>, "aer 
 mods.thaumcraft.Research.addArcanePage("QUARTZSPHERE", <witchery:ingredient:92>);
 
 // --- Candelabra
-mods.thaumcraft.Research.addResearch("CANDELABRA", "WITCHERY", "praecantatio 15, lux 12, ordo 9, ignis 6", 0, -2, 4, <witchery:ingredient>);
+mods.thaumcraft.Research.addResearch("CANDELABRA", "WITCHERY", "praecantatio 15, lux 12, ordo 9, ignis 6", 0, -2 as int, 4, <witchery:ingredient>);
 game.setLocalization("tc.research_name.CANDELABRA", "\u679d\u72b6\u5927\u70db\u53f0");
 game.setLocalization("tc.research_text.CANDELABRA", "[WI]\u5b83\u53d8\u4eae\u4e86");
 mods.thaumcraft.Research.addPrereq("CANDELABRA", "ALTAR", false);
@@ -399,7 +399,7 @@ mods.thaumcraft.Research.addArcanePage("DISTILLERY", <witchery:distilleryidle>);
 mods.thaumcraft.Warp.addToResearch("DISTILLERY", 3);
 
 // --- Ritual Chalk
-mods.thaumcraft.Research.addResearch("RITUALCHALK", "WITCHERY", "sensus 18, motus 15, auram 12, potentia 9, iter 6, praecantatio 3", 8, -2, 4, <witchery:chalkritual>);
+mods.thaumcraft.Research.addResearch("RITUALCHALK", "WITCHERY", "sensus 18, motus 15, auram 12, potentia 9, iter 6, praecantatio 3", 8, -2 as int, 4, <witchery:chalkritual>);
 game.setLocalization("tc.research_name.RITUALCHALK", "\u4eea\u5f0f\u7c89\u7b14");
 game.setLocalization("tc.research_text.RITUALCHALK", "[WI]\u7ed8\u5236\u7b26\u6587");
 mods.thaumcraft.Research.addPrereq("RITUALCHALK", "DISTILLERY", false);
@@ -417,7 +417,7 @@ mods.thaumcraft.Arcane.addShaped("RITUALCHALK", <witchery:chalkritual> * 2, "aer
 mods.thaumcraft.Research.addArcanePage("RITUALCHALK", <witchery:chalkritual>);
 
 // --- Circle Talisman
-mods.thaumcraft.Research.addResearch("CIRCLETALISMAN", "WITCHERY", "lucrum 18, motus 15, auram 12, potentia 9, aer 6, praecantatio 3", 10, -2, 4, <witchery:circletalisman>);
+mods.thaumcraft.Research.addResearch("CIRCLETALISMAN", "WITCHERY", "lucrum 18, motus 15, auram 12, potentia 9, aer 6, praecantatio 3", 10, -2 as int, 4, <witchery:circletalisman>);
 game.setLocalization("tc.research_name.CIRCLETALISMAN", "\u73af\u5f62\u62a4\u8eab\u7b26");
 game.setLocalization("tc.research_text.CIRCLETALISMAN", "[WI] Oh!\u95ea\u4eae\u7684\u62a4\u8eab\u7b26");
 mods.thaumcraft.Research.addPrereq("CIRCLETALISMAN", "RITUALCHALK", false);
@@ -435,7 +435,7 @@ mods.thaumcraft.Research.addArcanePage("CIRCLETALISMAN", <witchery:circletalisma
 mods.thaumcraft.Warp.addToResearch("CIRCLETALISMAN", 1);
 
 // --- Altar
-mods.thaumcraft.Research.addResearch("ALTAR", "WITCHERY", "praecantatio 15, fabrico 12, arbor 9, terra 6", -2, 0, 4, <witchery:altar>);
+mods.thaumcraft.Research.addResearch("ALTAR", "WITCHERY", "praecantatio 15, fabrico 12, arbor 9, terra 6", -2 as int, 0, 4, <witchery:altar>);
 game.setLocalization("tc.research_name.ALTAR", "\u796d\u575b");
 game.setLocalization("tc.research_text.ALTAR", "[WI]\u5deb\u672f\u4e4b\u7236");
 mods.thaumcraft.Research.addPrereq("ALTAR", "OVEN", false);
@@ -477,7 +477,7 @@ mods.thaumcraft.Arcane.addShaped("CHALICE", <witchery:ingredient:1> , "aqua 15, 
 mods.thaumcraft.Research.addArcanePage("CHALICE", <witchery:ingredient:1>);
 
 // --- Arthana
-mods.thaumcraft.Research.addResearch("ARTHANA", "WITCHERY", "praecantatio 15, lucrum 12, instrumentum 9, mortuus 6", -4, -2, 4, <witchery:arthana>);
+mods.thaumcraft.Research.addResearch("ARTHANA", "WITCHERY", "praecantatio 15, lucrum 12, instrumentum 9, mortuus 6", -4 as int, -2 as int, 4, <witchery:arthana>);
 game.setLocalization("tc.research_name.ARTHANA", "\u4eea\u796d\u5315\u9996");
 game.setLocalization("tc.research_text.ARTHANA", "[WI]\u7528\u4e8e\u4eea\u796d\u7684\u5315\u9996");
 mods.thaumcraft.Research.addPrereq("ARTHANA", "ALTAR", false);
@@ -500,7 +500,7 @@ mods.thaumcraft.Research.addArcanePage("ARTHANA", <witchery:arthana>);
 mods.thaumcraft.Warp.addToResearch("ARTHANA", 2);
 
 // --- Warm Blood
-mods.thaumcraft.Research.addResearch("WARMBLOOD", "WITCHERY", "fames 15, lucrum 12, aqua 9, exanimis 6", -2, -2, 4, <witchery:ingredient:163>);
+mods.thaumcraft.Research.addResearch("WARMBLOOD", "WITCHERY", "fames 15, lucrum 12, aqua 9, exanimis 6", -2 as int, -2 as int, 4, <witchery:ingredient:163>);
 game.setLocalization("tc.research_name.WARMBLOOD", "\u6e29\u6696\u7684\u8840\u6db2");
 game.setLocalization("tc.research_text.WARMBLOOD", "[WI]\u55ef...\u6e29\u6696\u7684\u8840\u6db2");
 mods.thaumcraft.Research.addPrereq("WARMBLOOD", "ALTAR", false);
@@ -563,7 +563,7 @@ mods.thaumcraft.Research.addInfusionPage("FILTEREDFUMEFUNNEL", <witchery:filtere
 mods.thaumcraft.Warp.addToResearch("FILTEREDFUMEFUNNEL", 2);
 
 // --- Waystone
-mods.thaumcraft.Research.addResearch("WAYSTONE", "WITCHERY", "motus 15, iter 12, tenebrae 9, praecantatio 6", 8, -4, 4, <witchery:ingredient:12>);
+mods.thaumcraft.Research.addResearch("WAYSTONE", "WITCHERY", "motus 15, iter 12, tenebrae 9, praecantatio 6", 8, -4 as int, 4, <witchery:ingredient:12>);
 game.setLocalization("tc.research_name.WAYSTONE", "\u5bfb\u8def\u77f3");
 game.setLocalization("tc.research_text.WAYSTONE", "[WI]\u4f20\u9001");
 mods.thaumcraft.Research.addPrereq("WAYSTONE", "RITUALCHALK", false);

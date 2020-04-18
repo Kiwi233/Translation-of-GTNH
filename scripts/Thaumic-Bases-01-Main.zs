@@ -566,7 +566,7 @@ Research.refreshResearchRecipe("TB.NodeFoci.Sinister");
 Research.refreshResearchRecipe("TB.NodeFoci.Taint");
 
 // --- Taint Flask
-Research.addResearch("TB.TaintFlask", "THAUMICBASES", "vitium 10, alienis 15, perditio 8, permutatio 12", 1, -1, 8, <thaumicbases:concentratedTaint>);
+Research.addResearch("TB.TaintFlask", "THAUMICBASES", "vitium 10, alienis 15, perditio 8, permutatio 12", 1, -1 as int, 8, <thaumicbases:concentratedTaint>);
 game.setLocalization("en_US", "tc.research_name.TB.TaintFlask", "\u6d53\u7f29\u8150\u5316\u74f6");
 game.setLocalization("en_US", "tc.research_text.TB.TaintFlask", "\u53ef\u80fd\u4f1a\u51fa\u4ec0\u4e48\u95ee\u9898?");
 mods.thaumcraft.Research.addPage("TB.TaintFlask", "tb.rec.TB.TaintFlask.page.NH.0");
