@@ -72,10 +72,10 @@ mods.thaumcraft.Arcane.removeRecipe(<EMT:Diamond Omnitool:*>);
 mods.thaumcraft.Infusion.removeRecipe(<EMT:ThaumiumOmnitool:*>);
 
 // --- Electric Boots of The Traveller
-mods.thaumcraft.Infusion.removeRecipe(<EMT:ElectricBootsTraveller:*>);
+mods.thaumcraft.Infusion.removeRecipe(<EMT:ElectricBootsTraveller:32767>);
 
 // --- Nano Boots of The Traveller
-mods.thaumcraft.Infusion.removeRecipe(<EMT:NanoBootsTraveller:*>);
+mods.thaumcraft.Infusion.removeRecipe(<EMT:NanoBootsTraveller:32767>);
 
 // --- Quantum Boots of The Traveller
 mods.thaumcraft.Infusion.removeRecipe(<EMT:QuantumBootsTraveller:*>);
@@ -212,7 +212,7 @@ mods.thaumcraft.Research.addPage("ElectricMagicTools", "tc.research_page.Electri
 
 // --- Diamond Chain Saw
 mods.thaumcraft.Research.removeResearch("Diamond Chainsaw");
-mods.thaumcraft.Research.addResearch("DiamondChainsaw", "EMT", "lucrum 12, ignis 9, metallum 6, terra 3", 0, -2, 2, <EMT:DiamondChainsaw:27>.withTag({shearsMode: 1 as byte}));
+mods.thaumcraft.Research.addResearch("DiamondChainsaw", "EMT", "lucrum 12, ignis 9, metallum 6, terra 3", 0, -2 as int, 2, <EMT:DiamondChainsaw:27>.withTag({shearsMode: 1 as byte}));
 mods.thaumcraft.Research.addPrereq("DiamondChainsaw", "ElectricMagicTools", false);
 mods.thaumcraft.Research.setRound("DiamondChainsaw", true);
 game.setLocalization("tc.research_name.DiamondChainsaw", "\u94bb\u77f3\u94fe\u952f");
@@ -228,7 +228,7 @@ mods.thaumcraft.Research.addArcanePage("DiamondChainsaw", <EMT:DiamondChainsaw:2
 
 // --- Thaumic Plate
 mods.thaumcraft.Research.removeResearch("Thaumium Plate");
-mods.thaumcraft.Research.addResearch("ThaumiumPlate", "EMT", "null", 6, -6, 0, <EMT:EMTItems:5>);
+mods.thaumcraft.Research.addResearch("ThaumiumPlate", "EMT", "null", 6, -6 as int, 0, <EMT:EMTItems:5>);
 mods.thaumcraft.Research.setAutoUnlock("ThaumiumPlate", true);
 mods.thaumcraft.Research.setRound("ThaumiumPlate", true);
 game.setLocalization("tc.research_name.ThaumiumPlate", "\u795e\u79d8\u677f");
@@ -242,7 +242,7 @@ game.setLocalization("tc.research_page.ThaumiumPlate", "\u5c31\u5982\u6bcf\u4e2a
 // --- Electric Cloud
 mods.thaumcraft.Research.orphanResearch("Electric Cloud");
 mods.thaumcraft.Research.removeResearch("Electric Cloud");
-mods.thaumcraft.Research.addResearch("ElectricCloud", "EMT", "null", 5, -6, 0, <EMT:electricCloud>);
+mods.thaumcraft.Research.addResearch("ElectricCloud", "EMT", "null", 5, -6 as int, 0, <EMT:electricCloud>);
 mods.thaumcraft.Research.setAutoUnlock("ElectricCloud", true);
 mods.thaumcraft.Research.setRound("ElectricCloud", true);
 game.setLocalization("tc.research_name.ElectricCloud", "\u96f7\u4e91\u4e4b\u5149");
@@ -257,7 +257,7 @@ mods.thaumcraft.Research.addPage("ElectricCloud", "tc.research_page.ElectricClou
 // --- Feather Wings
 mods.thaumcraft.Research.orphanResearch("Feather Wings");
 mods.thaumcraft.Research.removeResearch("Feather Wings");
-mods.thaumcraft.Research.addResearch("FeatherWings", "EMT", "aer 15, potentia 12, praecantatio 9, volatus 6, terra 3", 0, 2, 3, <EMT:FeatherWing>);
+mods.thaumcraft.Research.addResearch("IronOmnitool", "EMT", "potentia 12, instrumentum 9, perfodio 6, telum 3", -2 as int, 0, 2, <EMT:Omnitool>);
 mods.thaumcraft.Research.addPrereq("FeatherWings", "ElectricMagicTools", false);
 mods.thaumcraft.Research.setRound("FeatherWings", true);
 game.setLocalization("tc.research_name.FeatherWings", "\u7fbd\u6bdb\u7fbd\u7ffc");
@@ -395,7 +395,7 @@ mods.thaumcraft.Research.addArcanePage("IronOmnitool", <EMT:Omnitool:27>);
 // --- Diamond Omnitool
 mods.thaumcraft.Research.orphanResearch("Diamond Omnitool");
 mods.thaumcraft.Research.removeResearch("Diamond Omnitool");
-mods.thaumcraft.Research.addResearch("DiamondOmnitool", "EMT", "potentia 15, instrumentum 12, perfodio 9, telum 6, vitreus 3", -4, 0, 3, <EMT:Diamond Omnitool>);
+mods.thaumcraft.Research.addResearch("DiamondOmnitool", "EMT", "potentia 15, instrumentum 12, perfodio 9, telum 6, vitreus 3", -4 as int, 0, 3, <EMT:Diamond Omnitool>);
 mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "IronOmnitool", false);
 mods.thaumcraft.Research.addPrereq("DiamondOmnitool", "DiamondChainsaw", true);
 mods.thaumcraft.Research.setConcealed("DiamondOmnitool", true);
@@ -414,7 +414,7 @@ mods.thaumcraft.Research.addInfusionPage("DiamondOmnitool", <EMT:Diamond Omnitoo
 // --- Thaumium Omnitool
 mods.thaumcraft.Research.orphanResearch("Thaumium Omnitool");
 mods.thaumcraft.Research.removeResearch("Thaumium Omnitool");
-mods.thaumcraft.Research.addResearch("ThaumiumOmnitool", "EMT", "potentia 15, instrumentum 12, perfodio 9, telum 6, vitreus 3", -6, 0, 4, <EMT:ThaumiumOmnitool>);
+mods.thaumcraft.Research.addResearch("ThaumiumOmnitool", "EMT", "potentia 15, instrumentum 12, perfodio 9, telum 6, vitreus 3", -6 as int, 0, 4, <EMT:ThaumiumOmnitool>);
 mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "DiamondOmnitool", false);
 mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "ThaumiumChainsaw", true);
 mods.thaumcraft.Research.addPrereq("ThaumiumOmnitool", "ThaumiumDrill", true);
@@ -465,7 +465,7 @@ mods.thaumcraft.Research.addPage("NanoBootsoftheTraveller", "tc.research_page.Na
 game.setLocalization("tc.research_page.NanoBootsoftheTraveller", "\u4f60\u7684\u7535\u5b50\u65c5\u884c\u8005\u4e4b\u9774\u8fd8\u4e0d\u9519,\u4f46\u4f60\u89c9\u5f97\u4f60\u80fd\u505a\u5f97\u66f4\u597d.
 \u4f60\u5df2\u53d1\u73b0\u4e86\u4e00\u79cd\u5c06\u8fd9\u4e9b\u9774\u5b50\u5347\u7ea7\u5230\u7eb3\u7c73\u7b49\u7ea7\u7684\u65b9\u6cd5:\u6539\u826f\u673a\u68b0\u96f6\u4ef6\u548c\u9774\u5b50\u7684\u7b26\u6587.
 \u8fd9\u53cc\u9774\u5b50\u63d0\u4f9b\u4e86\u6bd4\u4ee5\u5f80\u66f4\u9ad8\u7684\u8df3\u8dc3\u9ad8\u5ea6\u548c\u66f4\u5feb\u7684\u5954\u8dd1\u901f\u5ea6.");
-mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller:32767>,
+mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller:*>,
 [<IC2:itemArmorNanoBoots:32767>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockmachines:1442>, <IC2:itemBatCrystal:32767>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.metaitem.01:17330>], 
 "motus 48, potentia 24, tutamen 32, praecantatio 16, volatus 8, iter 16", <EMT:NanoBootsTraveller:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("NanoBootsoftheTraveller", <EMT:NanoBootsTraveller:27>);
@@ -483,7 +483,7 @@ game.setLocalization("tc.research_text.QuantumBootsoftheTraveller", "\u6bd4\u514
 mods.thaumcraft.Research.addPage("QuantumBootsoftheTraveller", "tc.research_page.QuantumBootsoftheTraveller");
 game.setLocalization("tc.research_page.QuantumBootsoftheTraveller", "\u4f60\u5229\u7528\u91cf\u5b50\u7269\u7406\u5b66\u6765\u6539\u826f\u4f60\u7684\u9774\u5b50,\u4f7f\u5f97\u5b83\u5982\u6b64\u4e4b\u5feb,\u8ba9\u4f60\u603b\u80fd\u5728\u7b2c\u4e00\u65f6\u95f4\u5230\u8fbe\u5404\u4e2a\u5730\u70b9.
 \u4f46\u662f\u522b\u5fd8\u4e86\u859b\u5b9a\u8c14\u7684\u732b\u53d1\u751f\u4e86\u4ec0\u4e48...");
-mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsTraveller:32767>,
+mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsTraveller>,
 [<IC2:itemArmorQuantumBoots:32767>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.blockmachines:1563>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:32767>, <IC2:itemPartIridium>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.metaitem.01:17970>], 
 "motus 64, potentia 32, tutamen 48, praecantatio 24, volatus 16, iter 24, aer 8", <EMT:QuantumBootsTraveller:27>, 9);
 mods.thaumcraft.Research.addInfusionPage("QuantumBootsoftheTraveller", <EMT:QuantumBootsTraveller:27>);
@@ -528,7 +528,7 @@ mods.thaumcraft.Warp.addToResearch("DrilloftheRockbreaker", 2);
 // --- Thaumium Chainsaw
 mods.thaumcraft.Research.orphanResearch("Thaumium Chainsaw");
 mods.thaumcraft.Research.removeResearch("Thaumium Chainsaw");
-mods.thaumcraft.Research.addResearch("ThaumiumChainsaw", "EMT", "instrumentum 18, telum 15, potentia 12, lucrum 9, praecantatio 6, aer 3", 0, -4, 3, <EMT:ThaumiumChainsaw>);
+mods.thaumcraft.Research.addResearch("ThaumiumChainsaw", "EMT", "instrumentum 18, telum 15, potentia 12, lucrum 9, praecantatio 6, aer 3", 0, -4 as int, 3, <EMT:ThaumiumChainsaw>);
 mods.thaumcraft.Research.addPrereq("ThaumiumChainsaw", "DiamondChainsaw", false);
 mods.thaumcraft.Research.setConcealed("ThaumiumChainsaw", true);
 mods.thaumcraft.Research.setRound("ThaumiumChainsaw", true);
@@ -546,7 +546,7 @@ mods.thaumcraft.Warp.addToResearch("ThaumiumChainsaw", 1);
 // --- Chainsaw of The Stream
 mods.thaumcraft.Research.orphanResearch("Chainsaw of the Stream");
 mods.thaumcraft.Research.removeResearch("Chainsaw of the Stream");
-mods.thaumcraft.Research.addResearch("ChainsawoftheStream", "EMT", "instrumentum 21 telum 18, potentia 15, lucrum 12, praecantatio 9, aer 6, arbor 3", 0, -6, 4, <EMT:ChainsawStream>);
+mods.thaumcraft.Research.addResearch("ChainsawoftheStream", "EMT", "instrumentum 21 telum 18, potentia 15, lucrum 12, praecantatio 9, aer 6, arbor 3", 0, -6 as int, 4, <EMT:ChainsawStream>);
 mods.thaumcraft.Research.addPrereq("ChainsawoftheStream", "ThaumiumChainsaw", false);
 mods.thaumcraft.Research.setConcealed("ChainsawoftheStream", true);
 mods.thaumcraft.Research.setRound("ChainsawoftheStream", true);
@@ -563,7 +563,7 @@ mods.thaumcraft.Warp.addToResearch("ChainsawoftheStream", 2);
 // --- Inventory Charging Ring
 mods.thaumcraft.Research.orphanResearch("Inventory Charging Ring");
 mods.thaumcraft.Research.removeResearch("Inventory Charging Ring");
-mods.thaumcraft.Research.addResearch("InventoryChargingRing", "EMT", "potentia 15, vitreus 12, praecantatio 9, electrum 6, auram 3", 0, -8, 3, <EMT:EMTBaubles:1>);
+mods.thaumcraft.Research.addResearch("InventoryChargingRing", "EMT", "potentia 15, vitreus 12, praecantatio 9, electrum 6, auram 3", 0, -8 as int, 3, <EMT:EMTBaubles:1>);
 mods.thaumcraft.Research.addPrereq("InventoryChargingRing", "ElectricMagicTools", true);
 mods.thaumcraft.Research.setConcealed("InventoryChargingRing", true);
 mods.thaumcraft.Research.setRound("InventoryChargingRing", true);
@@ -582,7 +582,7 @@ mods.thaumcraft.Warp.addToResearch("InventoryChargingRing", 2);
 // --- Armor Charging Ring
 mods.thaumcraft.Research.orphanResearch("Armor Charging Ring");
 mods.thaumcraft.Research.removeResearch("Armor Charging Ring");
-mods.thaumcraft.Research.addResearch("ArmorChargingRing", "EMT", "potentia 15, tutamen 12, praecantatio 9, electrum 6, auram 3", 0, -10, 3, <EMT:EMTBaubles>);
+mods.thaumcraft.Research.addResearch("ArmorChargingRing", "EMT", "potentia 15, tutamen 12, praecantatio 9, electrum 6, auram 3", 0, -10 as int, 3, <EMT:EMTBaubles>);
 mods.thaumcraft.Research.addPrereq("ArmorChargingRing", "InventoryChargingRing", false);
 mods.thaumcraft.Research.setConcealed("ArmorChargingRing", true);
 mods.thaumcraft.Research.setRound("ArmorChargingRing", true);
@@ -605,7 +605,7 @@ mods.thaumcraft.Research.orphanResearch("Nanosuit Goggles of Revealing");
 mods.thaumcraft.Research.removeResearch("Nanosuit Goggles of Revealing");
 mods.thaumcraft.Research.orphanResearch("Quantum Goggles of Revealing");
 mods.thaumcraft.Research.removeResearch("Quantum Goggles of Revealing");
-mods.thaumcraft.Research.addResearch("ElectricGogglesofRevealing", "EMT", "tutamen 15, potentia 12, sensus 9, praecantatio 6, electrum 3", -6, -2, 3, <EMT:ElectricGogglesRevealing>);
+mods.thaumcraft.Research.addResearch("ElectricGogglesofRevealing", "EMT", "tutamen 15, potentia 12, sensus 9, praecantatio 6, electrum 3", -6 as int, -2 as int, 3, <EMT:ElectricGogglesRevealing>);
 mods.thaumcraft.Research.addPrereq("ElectricGogglesofRevealing", "GOGGLES", false);
 mods.thaumcraft.Research.setConcealed("ElectricGogglesofRevealing", true);
 mods.thaumcraft.Research.addPrereq("ElectricGogglesofRevealing", "ElectricMagicTools", true);
@@ -623,7 +623,7 @@ mods.thaumcraft.Arcane.addShaped("ElectricGogglesofRevealing", <EMT:ElectricGogg
 mods.thaumcraft.Research.addArcanePage("ElectricGogglesofRevealing", <EMT:ElectricGogglesRevealing:165>);
 
 // --- Nanosuit Goggle of Revealing
-mods.thaumcraft.Research.addResearch("NanosuitGogglesofRevealing", "EMT", "tutamen 18, potentia 15, sensus 12, praecantatio 9, auram 6, electrum 3", -4, -2, 3, <EMT:NanosuitGogglesRevealing>);
+mods.thaumcraft.Research.addResearch("NanosuitGogglesofRevealing", "EMT", "tutamen 18, potentia 15, sensus 12, praecantatio 9, auram 6, electrum 3", -4 as int, -2 as int, 3, <EMT:NanosuitGogglesRevealing>);
 mods.thaumcraft.Research.addPrereq("NanosuitGogglesofRevealing", "ElectricGogglesofRevealing", false);
 mods.thaumcraft.Research.setConcealed("NanosuitGogglesofRevealing", true);
 mods.thaumcraft.Research.setRound("NanosuitGogglesofRevealing", true);
@@ -640,7 +640,7 @@ mods.thaumcraft.Research.addInfusionPage("NanosuitGogglesofRevealing", <EMT:Nano
 mods.thaumcraft.Warp.addToResearch("NanosuitGogglesofRevealing", 1);
 
 // --- Quantum Goggle of Revealing
-mods.thaumcraft.Research.addResearch("QuantumGogglesofRevealing", "EMT", "tutamen 21, potentia 18, sensus 15, praecantatio 12, auram 9, lucrum 6, electrum 3", -2, -2, 4, <EMT:QuantumGogglesRevealing>);
+mods.thaumcraft.Research.addResearch("QuantumGogglesofRevealing", "EMT", "tutamen 21, potentia 18, sensus 15, praecantatio 12, auram 9, lucrum 6, electrum 3", -2 as int, -2 as int, 4, <EMT:QuantumGogglesRevealing>);
 mods.thaumcraft.Research.addPrereq("QuantumGogglesofRevealing", "NanosuitGogglesofRevealing", false);
 mods.thaumcraft.Research.setConcealed("QuantumGogglesofRevealing", true);
 mods.thaumcraft.Research.setRound("QuantumGogglesofRevealing", true);
@@ -660,7 +660,7 @@ mods.thaumcraft.Warp.addToResearch("QuantumGogglesofRevealing", 2);
 // --- Solar Helm of Revealing
 mods.thaumcraft.Research.orphanResearch("Solar Helmet of Revealing");
 mods.thaumcraft.Research.removeResearch("Solar Helmet of Revealing");
-mods.thaumcraft.Research.addResearch("SolarHelmetofRevealing", "EMT", "tutamen 30, potentia 27, sensus 24, praecantatio 21, auram 15, electrum 12, lucrum 9, aer 6, lux 3", -2, -4, 4, <EMT:SolarHelmetRevealing>);
+mods.thaumcraft.Research.addResearch("SolarHelmetofRevealing", "EMT", "tutamen 30, potentia 27, sensus 24, praecantatio 21, auram 15, electrum 12, lucrum 9, aer 6, lux 3", -2 as int, -4 as int, 4, <EMT:SolarHelmetRevealing>);
 mods.thaumcraft.Research.addPrereq("SolarHelmetofRevealing", "QuantumGogglesofRevealing", false);
 mods.thaumcraft.Research.addPrereq("SolarHelmetofRevealing", "CompressedSolars", false);
 mods.thaumcraft.Research.setConcealed("SolarHelmetofRevealing", true);
@@ -679,7 +679,7 @@ mods.thaumcraft.Warp.addToResearch("SolarHelmetofRevealing", 3);
 // --- Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Compressed Solars");
 mods.thaumcraft.Research.removeResearch("Compressed Solars");
-mods.thaumcraft.Research.addResearch("CompressedSolars", "EMT", "potentia 18, lux 15, metallum 12, praecantatio 9, ignis 6, aer 3", -6, -4, 3, <EMT:EMTSolars>);
+mods.thaumcraft.Research.addResearch("CompressedSolars", "EMT", "potentia 18, lux 15, metallum 12, praecantatio 9, ignis 6, aer 3", -6 as int, -4 as int, 3, <EMT:EMTSolars>);
 mods.thaumcraft.Research.addPrereq("CompressedSolars", "ElectricMagicTools", true);
 game.setLocalization("tc.research_name.CompressedSolars", "\u538b\u7f29\u592a\u9633\u80fd\u53d1\u7535\u673a");
 game.setLocalization("tc.research_text.CompressedSolars", "\u589e\u52a0\u53d1\u7535\u6548\u7387!");
@@ -743,7 +743,7 @@ mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars4:12>
 // --- Water Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Water Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Water Infused Solar Panels");
-mods.thaumcraft.Research.addResearch("WaterInfusedSolarPanels", "EMT", "aqua 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -7, -7, 3, <EMT:EMTSolars:3>);
+mods.thaumcraft.Research.addResearch("WaterInfusedSolarPanels", "EMT", "aqua 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -7 as int, -7 as int, 3, <EMT:EMTSolars:3>);
 mods.thaumcraft.Research.addPrereq("WaterInfusedSolarPanels", "CompressedSolars", false);
 mods.thaumcraft.Research.setConcealed("WaterInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.WaterInfusedSolarPanels", "\u6ce8\u9b54\u592a\u9633\u80fd\u53d1\u7535\u673a(\u6c34)");
@@ -774,7 +774,7 @@ mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSola
 // --- Entropy Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Entropy Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Entropy Infused Solar Panels");
-mods.thaumcraft.Research.addResearch("EntropyInfusedSolarPanels", "EMT", "perditio 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -8, -6, 3, <EMT:EMTSolars:6>);
+mods.thaumcraft.Research.addResearch("EntropyInfusedSolarPanels", "EMT", "perditio 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -8 as int, -6 as int, 3, <EMT:EMTSolars:6>);
 mods.thaumcraft.Research.addPrereq("EntropyInfusedSolarPanels", "CompressedSolars", false);
 mods.thaumcraft.Research.setConcealed("EntropyInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.EntropyInfusedSolarPanels", "\u6ce8\u9b54\u592a\u9633\u80fd\u53d1\u7535\u673a(\u6df7\u6c8c)");
@@ -804,7 +804,7 @@ mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSo
 // --- Order Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Order Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Order Infused Solar Panels");
-mods.thaumcraft.Research.addResearch("OrderInfusedSolarPanels", "EMT", "ordo 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -6, -8, 3, <EMT:EMTSolars:9>);
+mods.thaumcraft.Research.addResearch("OrderInfusedSolarPanels", "EMT", "ordo 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -6 as int, -8 as int, 3, <EMT:EMTSolars:9>);
 mods.thaumcraft.Research.addPrereq("OrderInfusedSolarPanels", "CompressedSolars", false);
 mods.thaumcraft.Research.setConcealed("OrderInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.OrderInfusedSolarPanels", "\u6ce8\u9b54\u592a\u9633\u80fd\u53d1\u7535\u673a(\u79e9\u5e8f)");
@@ -833,7 +833,7 @@ mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSola
 // --- Fire Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Fire Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Fire Infused Solar Panels");
-mods.thaumcraft.Research.addResearch("FireInfusedSolarPanels", "EMT", "ignis 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -5, -7, 3, <EMT:EMTSolars:12>);
+mods.thaumcraft.Research.addResearch("FireInfusedSolarPanels", "EMT", "ignis 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -5 as int, -7 as int, 3, <EMT:EMTSolars:12>);
 mods.thaumcraft.Research.addPrereq("FireInfusedSolarPanels", "CompressedSolars", false);
 mods.thaumcraft.Research.setConcealed("FireInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.FireInfusedSolarPanels", "\u6ce8\u9b54\u592a\u9633\u80fd\u53d1\u7535\u673a(\u706b)");
@@ -862,7 +862,7 @@ mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolar
 // --- Air Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Air Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Air Infused Solar Panels");
-mods.thaumcraft.Research.addResearch("AirInfusedSolarPanels", "EMT", "aer 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -4, -6, 3, <EMT:EMTSolars:15>);
+mods.thaumcraft.Research.addResearch("AirInfusedSolarPanels", "EMT", "aer 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -4 as int, -6 as int, 3, <EMT:EMTSolars:15>);
 mods.thaumcraft.Research.addPrereq("AirInfusedSolarPanels", "CompressedSolars", false);
 mods.thaumcraft.Research.setConcealed("AirInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.AirInfusedSolarPanels", "\u6ce8\u9b54\u592a\u9633\u80fd\u53d1\u7535\u673a(\u98ce)");
@@ -890,7 +890,7 @@ mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars
 // --- Earth Infused Compressed Solar Pannels
 mods.thaumcraft.Research.orphanResearch("Earth Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Earth Infused Solar Panels");
-mods.thaumcraft.Research.addResearch("EarthInfusedSolarPanels", "EMT", "terra 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -6, -7, 3, <EMT:EMTSolars2:2>);
+mods.thaumcraft.Research.addResearch("EarthInfusedSolarPanels", "EMT", "terra 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -6 as int, -7 as int, 3, <EMT:EMTSolars2:2>);
 mods.thaumcraft.Research.addPrereq("EarthInfusedSolarPanels", "CompressedSolars", false);
 mods.thaumcraft.Research.setConcealed("EarthInfusedSolarPanels", true);
 game.setLocalization("tc.research_name.EarthInfusedSolarPanels", "\u6ce8\u9b54\u592a\u9633\u80fd\u53d1\u7535\u673a(\u5730)");
@@ -915,10 +915,11 @@ mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars4:9>
 mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars4:9>);
 mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars5>, <EMT:EMTSolars4:12>, "terra 4096, permutatio 4096, praecantatio 4096, lux 2048");
 mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars5>);
+
 // --- Electric Hoe of Growth
 mods.thaumcraft.Research.orphanResearch("Electric Hoe of Growth");
 mods.thaumcraft.Research.removeResearch("Electric Hoe of Growth");
-mods.thaumcraft.Research.addResearch("ElectricHoeofGrowth", "EMT", "potentia 15, messis 12, praecantatio 9, herba 6, electrum 3", 2, -2, 3, <EMT:ElectricHoeGrowth>);
+mods.thaumcraft.Research.addResearch("ElectricHoeofGrowth", "EMT", "potentia 15, messis 12, praecantatio 9, herba 6, electrum 3", 2, -2 as int, 3, <EMT:ElectricHoeGrowth>);
 mods.thaumcraft.Research.addPrereq("ElectricHoeofGrowth", "ELEMENTALHOE", false);
 mods.thaumcraft.Research.addPrereq("ElectricHoeofGrowth", "ElectricMagicTools", false);
 mods.thaumcraft.Research.setConcealed("ElectricHoeofGrowth", true);
@@ -936,7 +937,7 @@ mods.thaumcraft.Research.addInfusionPage("ElectricHoeofGrowth", <EMT:ElectricHoe
 // --- Electric Scribing Tool
 mods.thaumcraft.Research.orphanResearch("Electric Scribing Tools");
 mods.thaumcraft.Research.removeResearch("Electric Scribing Tools");
-mods.thaumcraft.Research.addResearch("ElectricScribingTools", "EMT", "potentia 15, tenebrae 12, fabrico 9, praecantatio 6, electrum 3", 6, -4, 3, <EMT:ElectricScribingTools>);
+mods.thaumcraft.Research.addResearch("ElectricScribingTools", "EMT", "potentia 15, tenebrae 12, fabrico 9, praecantatio 6, electrum 3", 6, -4 as int, 3, <EMT:ElectricScribingTools>);
 mods.thaumcraft.Research.addPrereq("ElectricScribingTools", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("ElectricScribingTools", "RESEARCH", false);
 mods.thaumcraft.Research.setConcealed("ElectricScribingTools", true);
@@ -956,7 +957,7 @@ mods.thaumcraft.Research.addArcanePage("ElectricScribingTools", <EMT:ElectricScr
 // --- Mjolnir
 mods.thaumcraft.Research.orphanResearch("Mjolnir");
 mods.thaumcraft.Research.removeResearch("Mjolnir");
-mods.thaumcraft.Research.addResearch("Mjolnirnew", "EMT", "telum 18, tempestas 15, alienis 12, ira 9, aer 6, ignis 3", 4, -5, 3, <EMT:Mjolnir>);
+mods.thaumcraft.Research.addResearch("Mjolnirnew", "EMT", "telum 18, tempestas 15, alienis 12, ira 9, aer 6, ignis 3", 4, -5 as int, 3, <EMT:Mjolnir>);
 mods.thaumcraft.Research.addPrereq("Mjolnirnew", "The Legend", false);
 mods.thaumcraft.Research.addPrereq("Mjolnirnew", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("Mjolnirnew", "ELEMENTALSWORD", false);
@@ -977,7 +978,7 @@ mods.thaumcraft.Research.addInfusionPage("Mjolnirnew", <EMT:Mjolnir>);
 // --- Supercharged Mjolnir
 mods.thaumcraft.Research.orphanResearch("Supercharged Mjolnir");
 mods.thaumcraft.Research.removeResearch("Supercharged Mjolnir");
-mods.thaumcraft.Research.addResearch("SuperchargedMjolnir", "EMT", "telum 21, tempestas 18, alienis 15, bestia 12, ira 9, aer 6, ignis 3", 3, -5, 4, <EMT:SuperchargedMjolnir>);
+mods.thaumcraft.Research.addResearch("SuperchargedMjolnir", "EMT", "telum 21, tempestas 18, alienis 15, bestia 12, ira 9, aer 6, ignis 3", 3, -5 as int, 4, <EMT:SuperchargedMjolnir>);
 mods.thaumcraft.Research.addPrereq("SuperchargedMjolnir", "Mjolnirnew", false);
 mods.thaumcraft.Research.addPrereq("SuperchargedMjolnir", "FOCUSHELLBAT", false);
 mods.thaumcraft.Research.addPrereq("SuperchargedMjolnir", "ALUMENTUM", false);
@@ -997,7 +998,7 @@ mods.thaumcraft.Research.addInfusionPage("SuperchargedMjolnir", <EMT:Supercharge
 // --- Lightning Summoner
 mods.thaumcraft.Research.orphanResearch("Lightning Summoner");
 mods.thaumcraft.Research.removeResearch("Lightning Summoner");
-mods.thaumcraft.Research.addResearch("LightningSummoner", "EMT", "tempestas 15, aer 12, ignis 9, nebrisum 6, permutatio 3", 6, -5, 4, <EMT:EMTItems:6>);
+mods.thaumcraft.Research.addResearch("LightningSummoner", "EMT", "tempestas 15, aer 12, ignis 9, nebrisum 6, permutatio 3", 6, -5 as int, 4, <EMT:EMTItems:6>);
 mods.thaumcraft.Research.addPrereq("LightningSummoner", "FOCUSSHOCK", false);
 mods.thaumcraft.Research.addPrereq("LightningSummoner", "NITOR", false);
 mods.thaumcraft.Research.addPrereq("LightningSummoner", "ALUMENTUM", false);
@@ -1016,7 +1017,7 @@ mods.thaumcraft.Research.addInfusionPage("LightningSummoner", <EMT:EMTItems:6>);
 // --- Uranium
 mods.thaumcraft.Research.orphanResearch("Tiny Uranium");
 mods.thaumcraft.Research.removeResearch("Tiny Uranium");
-mods.thaumcraft.Research.addResearch("TinyUranium", "EMT", "permutatio 15, venenum 12, mortuus 9, praecantatio 6, metallum 3", 5, -4, 3, <IC2:itemUran235small>);
+mods.thaumcraft.Research.addResearch("TinyUranium", "EMT", "permutatio 15, venenum 12, mortuus 9, praecantatio 6, metallum 3", 5, -4 as int, 3, <IC2:itemUran235small>);
 mods.thaumcraft.Research.addPrereq("TinyUranium", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("TinyUranium", "RESEARCH", false);
 mods.thaumcraft.Research.setConcealed("TinyUranium", true);
@@ -1032,7 +1033,7 @@ mods.thaumcraft.Research.addArcanePage("TinyUranium", <IC2:itemUran235small>);
 // --- Crystalized UU Mater
 mods.thaumcraft.Research.orphanResearch("UU-Matter Infusion");
 mods.thaumcraft.Research.removeResearch("UU-Matter Infusion");
-mods.thaumcraft.Research.addResearch("UUMatterInfusion", "EMT", "fabrico 15, alienis 12, permutatio 9, praecantatio 6, vitreus 3", 5, -3, 3, <EMT:EMTItems:15>);
+mods.thaumcraft.Research.addResearch("UUMatterInfusion", "EMT", "fabrico 15, alienis 12, permutatio 9, praecantatio 6, vitreus 3", 5, -3 as int, 3, <EMT:EMTItems:15>);
 mods.thaumcraft.Research.addPrereq("UUMatterInfusion", "ElectricMagicTools", true);
 mods.thaumcraft.Research.setRound("UUMatterInfusion", true);
 game.setLocalization("tc.research_name.UUMatterInfusion", "UU\u7269\u8d28\u6ce8\u9b54");
@@ -1122,7 +1123,7 @@ mods.thaumcraft.Research.addInfusionPage("UUMatterInfusion", <IC2:itemOreIridium
 // --- Portable Node
 mods.thaumcraft.Research.orphanResearch("Portable Node");
 mods.thaumcraft.Research.removeResearch("Portable Node");
-mods.thaumcraft.Research.addResearch("PortableNode", "EMT", "auram 15, alienis 12, lucrum 9, praecantatio 6, vitreus 3", 6, -3, 3, <EMT:PortableNode>);
+mods.thaumcraft.Research.addResearch("PortableNode", "EMT", "auram 15, alienis 12, lucrum 9, praecantatio 6, vitreus 3", 6, -3 as int, 3, <EMT:PortableNode>);
 mods.thaumcraft.Research.addPrereq("PortableNode", "ElectricMagicTools", true);
 mods.thaumcraft.Research.setRound("PortableNode", true);
 game.setLocalization("tc.research_name.PortableNode", "\u4fbf\u643a\u5f0f\u8282\u70b9");
@@ -1269,7 +1270,7 @@ mods.thaumcraft.Research.orphanResearch("Etheral Processor");
 mods.thaumcraft.Research.removeResearch("Etheral Processor");
 mods.thaumcraft.Research.orphanResearch("Potentia Generator");
 mods.thaumcraft.Research.removeResearch("Potentia Generator");
-mods.thaumcraft.Research.addResearch("PotentiaGenerator", "EMT", "potentia 15, permutatio 12, machina 9, praecantatio 6, metallum 3", -4, 2, 3, <EMT:EssentiaGenerators>);
+mods.thaumcraft.Research.addResearch("PotentiaGenerator", "EMT", "potentia 15, permutatio 12, machina 9, praecantatio 6, metallum 3", -4 as int, 2, 3, <EMT:EssentiaGenerators>);
 mods.thaumcraft.Research.addPrereq("PotentiaGenerator", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("PotentiaGenerator", "JARLABEL", false);
 mods.thaumcraft.Research.addPrereq("PotentiaGenerator", "FOCUSTRADE", false);
@@ -1288,7 +1289,7 @@ mods.thaumcraft.Research.addInfusionPage("PotentiaGenerator", <EMT:EssentiaGener
 // --- Ignis Potentia Generator
 mods.thaumcraft.Research.orphanResearch("Ignis Generator");
 mods.thaumcraft.Research.removeResearch("Ignis Generator");
-mods.thaumcraft.Research.addResearch("IgnisGenerator", "EMT", "ignis 12, permutatio 9, aqua 6, praecantatio 3", -6, 4, 3, <EMT:EssentiaGenerators:1>);
+mods.thaumcraft.Research.addResearch("IgnisGenerator", "EMT", "ignis 12, permutatio 9, aqua 6, praecantatio 3", -6 as int, 4, 3, <EMT:EssentiaGenerators:1>);
 mods.thaumcraft.Research.addPrereq("IgnisGenerator", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("IgnisGenerator", "PotentiaGenerator", false);
 mods.thaumcraft.Research.setConcealed("IgnisGenerator", true);
@@ -1303,7 +1304,7 @@ mods.thaumcraft.Research.addCruciblePage("IgnisGenerator", <EMT:EssentiaGenerato
 // --- Auram Potentia Generator
 mods.thaumcraft.Research.orphanResearch("Auram Generator");
 mods.thaumcraft.Research.removeResearch("Auram Generator");
-mods.thaumcraft.Research.addResearch("AuramGenerator", "EMT", "auram 12, permutatio 9, aqua 6, praecantatio 3", -4, 4, 3, <EMT:EssentiaGenerators:2>);
+mods.thaumcraft.Research.addResearch("AuramGenerator", "EMT", "auram 12, permutatio 9, aqua 6, praecantatio 3", -4 as int, 4, 3, <EMT:EssentiaGenerators:2>);
 mods.thaumcraft.Research.addPrereq("AuramGenerator", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("AuramGenerator", "PotentiaGenerator", false);
 mods.thaumcraft.Research.setConcealed("AuramGenerator", true);
@@ -1318,7 +1319,7 @@ mods.thaumcraft.Research.addCruciblePage("AuramGenerator", <EMT:EssentiaGenerato
 // --- Arbor Potentia Generator
 mods.thaumcraft.Research.orphanResearch("Arbor Generator");
 mods.thaumcraft.Research.removeResearch("Arbor Generator");
-mods.thaumcraft.Research.addResearch("ArborGenerator", "EMT", "arbor 12, permutatio 9, aqua 6, praecantatio 3", -2, 4, 3, <EMT:EssentiaGenerators:3>);
+mods.thaumcraft.Research.addResearch("ArborGenerator", "EMT", "arbor 12, permutatio 9, aqua 6, praecantatio 3", -2 as int, 4, 3, <EMT:EssentiaGenerators:3>);
 mods.thaumcraft.Research.addPrereq("ArborGenerator", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("ArborGenerator", "PotentiaGenerator", false);
 mods.thaumcraft.Research.setConcealed("ArborGenerator", true);
@@ -1333,7 +1334,7 @@ mods.thaumcraft.Research.addCruciblePage("ArborGenerator", <EMT:EssentiaGenerato
 // --- Aer Potentia Generator
 mods.thaumcraft.Research.orphanResearch("Aer Generator");
 mods.thaumcraft.Research.removeResearch("Aer Generator");
-mods.thaumcraft.Research.addResearch("AerGenerator", "EMT", "aer 12, permutatio 9, aqua 6, praecantatio 3", -4, 6, 3, <EMT:EssentiaGenerators:4>);
+mods.thaumcraft.Research.addResearch("AerGenerator", "EMT", "aer 12, permutatio 9, aqua 6, praecantatio 3", -4 as int, 6, 3, <EMT:EssentiaGenerators:4>);
 mods.thaumcraft.Research.addPrereq("AerGenerator", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("AerGenerator", "PotentiaGenerator", false);
 mods.thaumcraft.Research.setConcealed("AerGenerator", true);
@@ -1347,7 +1348,7 @@ mods.thaumcraft.Research.addCruciblePage("AerGenerator", <EMT:EssentiaGenerators
 // --- Lucrum Potentia Generator
 mods.thaumcraft.Research.orphanResearch("Lucrum Generator");
 mods.thaumcraft.Research.removeResearch("Lucrum Generator");
-mods.thaumcraft.Research.addResearch("LucrumGenerator", "EMT", "lucrum 12, permutatio 9, aqua 6, praecantatio 3", -4, 8, 3, <EMT:EssentiaGenerators:5>);
+mods.thaumcraft.Research.addResearch("LucrumGenerator", "EMT", "lucrum 12, permutatio 9, aqua 6, praecantatio 3", -4 as int, 8, 3, <EMT:EssentiaGenerators:5>);
 mods.thaumcraft.Research.addPrereq("LucrumGenerator", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("LucrumGenerator", "PotentiaGenerator", false);
 mods.thaumcraft.Research.addPrereq("LucrumGenerator", "AerGenerator", false);
@@ -1367,7 +1368,7 @@ mods.thaumcraft.Warp.addToResearch("LucrumGenerator", 5);
 
 
 // --- Essentia Filler
-mods.thaumcraft.Research.addResearch("EssentiaFiller", "EMT", "iter 12, permutatio 9, aqua 6, praecantatio 3", -4, 10, 3, <EMT:EMTMachines:2>);
+mods.thaumcraft.Research.addResearch("EssentiaFiller", "EMT", "iter 12, permutatio 9, aqua 6, praecantatio 3", -4 as int, 10, 3, <EMT:EMTMachines:2>);
 mods.thaumcraft.Research.addPrereq("EssentiaFiller", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("EssentiaFiller", "LucrumGenerator", false);
 mods.thaumcraft.Research.setConcealed("EssentiaFiller", true);
@@ -1383,7 +1384,7 @@ mods.thaumcraft.Arcane.addShaped("EssentiaFiller", <EMT:EMTMachines:2>, "aer 90,
 mods.thaumcraft.Research.addArcanePage("EssentiaFiller", <EMT:EMTMachines:2>);
 
 // --- Large Essentia Generator
-mods.thaumcraft.Research.addResearch("LargeEssentiaGenerator", "EMT", "auram 32,lucrum 12, permutatio 9, aqua 6, praecantatio 3", -4, 12, 3, <gregtech:gt.blockmachines:13000>);
+mods.thaumcraft.Research.addResearch("LargeEssentiaGenerator", "EMT", "auram 32,lucrum 12, permutatio 9, aqua 6, praecantatio 3", -4 as int, 12, 3, <gregtech:gt.blockmachines:13000>);
 mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "EssentiaFiller", false);
 mods.thaumcraft.Research.addPrereq("LargeEssentiaGenerator", "LucrumGenerator", false);
@@ -1406,7 +1407,7 @@ mods.thaumcraft.Research.addInfusionPage("LargeEssentiaGenerator", <gregtech:gt.
 mods.thaumcraft.Warp.addToResearch("LargeEssentiaGenerator", 10);
 
 // --- Essentia Diffusion Cells
-mods.thaumcraft.Research.addResearch("EssentiaDiffusionCells", "EMT", "auram 32,lucrum 12, permutatio 9, aqua 6, praecantatio 3", -2, 14, 3, <EMT:EMT_GTBLOCK_CASEING:1>);
+mods.thaumcraft.Research.addResearch("EssentiaDiffusionCells", "EMT", "auram 32,lucrum 12, permutatio 9, aqua 6, praecantatio 3", -2 as int, 14, 3, <EMT:EMT_GTBLOCK_CASEING:1>);
 mods.thaumcraft.Research.addPrereq("EssentiaDiffusionCells", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("EssentiaDiffusionCells", "LargeEssentiaGenerator", false);
 mods.thaumcraft.Research.setConcealed("EssentiaDiffusionCells", true);
@@ -1422,7 +1423,7 @@ mods.thaumcraft.Research.addInfusionPage("EssentiaDiffusionCells", <EMT:EMT_GTBL
 mods.thaumcraft.Warp.addToResearch("EssentiaDiffusionCells", 10);
 
 // --- Magic Containing Casings
-mods.thaumcraft.Research.addResearch("MagicContainingCasings", "EMT", "tutamen 32,nebrisum 12, ordo 9, tempus 6, praecantatio 3", -6, 14, 3,  <EMT:EMT_GTBLOCK_CASEING>);
+mods.thaumcraft.Research.addResearch("MagicContainingCasings", "EMT", "tutamen 32,nebrisum 12, ordo 9, tempus 6, praecantatio 3", -6 as int, 14, 3,  <EMT:EMT_GTBLOCK_CASEING>);
 mods.thaumcraft.Research.addPrereq("MagicContainingCasings", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("MagicContainingCasings", "LargeEssentiaGenerator", false);
 mods.thaumcraft.Research.setConcealed("MagicContainingCasings", true);
@@ -1440,7 +1441,7 @@ mods.thaumcraft.Warp.addToResearch("MagicContainingCasings", 10);
 
 
 // --- Industrial Wand Charging Station
-mods.thaumcraft.Research.addResearch("IndustrialWandChargingStation", "EMT", "permutatio 15, potentia 12, fabrico 9, praecantatio 6, lucrum 3", -6, 2, 3, <EMT:EMTMachines>);
+mods.thaumcraft.Research.addResearch("IndustrialWandChargingStation", "EMT", "permutatio 15, potentia 12, fabrico 9, praecantatio 6, lucrum 3", -6 as int, 2, 3, <EMT:EMTMachines>);
 mods.thaumcraft.Research.addPrereq("IndustrialWandChargingStation", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("IndustrialWandChargingStation", "PotentiaGenerator", false);
 mods.thaumcraft.Research.addPrereq("IndustrialWandChargingStation", "WANDPED", false);
@@ -1458,7 +1459,7 @@ mods.thaumcraft.Research.addInfusionPage("IndustrialWandChargingStation", <EMT:E
 mods.thaumcraft.Warp.addToResearch("IndustrialWandChargingStation", 3);
 
 // --- Ethereal Processor
-mods.thaumcraft.Research.addResearch("EtheralProcessor", "EMT", "machina 15, fabrico 12, potentia 9, praecantatio 6, cognitio 3", -2, 2, 3, <EMT:EMTMachines:1>);
+mods.thaumcraft.Research.addResearch("EtheralProcessor", "EMT", "machina 15, fabrico 12, potentia 9, praecantatio 6, cognitio 3", -2 as int, 2, 3, <EMT:EMTMachines:1>);
 mods.thaumcraft.Research.addPrereq("EtheralProcessor", "ElectricMagicTools", true);
 mods.thaumcraft.Research.addPrereq("EtheralProcessor", "BELLOWS", false);
 mods.thaumcraft.Research.addPrereq("EtheralProcessor", "DISTILESSENTIA", false);
