@@ -257,7 +257,7 @@ mods.thaumcraft.Research.addPage("ElectricCloud", "tc.research_page.ElectricClou
 // --- Feather Wings
 mods.thaumcraft.Research.orphanResearch("Feather Wings");
 mods.thaumcraft.Research.removeResearch("Feather Wings");
-mods.thaumcraft.Research.addResearch("IronOmnitool", "EMT", "potentia 12, instrumentum 9, perfodio 6, telum 3", -2 as int, 0, 2, <EMT:Omnitool>);
+mods.thaumcraft.Research.addResearch("FeatherWings", "EMT", "aer 15, potentia 12, praecantatio 9, volatus 6, terra 3", 0, 2, 3, <EMT:FeatherWing>);
 mods.thaumcraft.Research.addPrereq("FeatherWings", "ElectricMagicTools", false);
 mods.thaumcraft.Research.setRound("FeatherWings", true);
 game.setLocalization("tc.research_name.FeatherWings", "\u7fbd\u6bdb\u7fbd\u7ffc");
