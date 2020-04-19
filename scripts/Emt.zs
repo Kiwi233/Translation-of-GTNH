@@ -377,7 +377,7 @@ mods.thaumcraft.Warp.addToResearch("InfusedQuantumArmor", 4);
 // --- Iron Omnitool
 mods.thaumcraft.Research.orphanResearch("Iron Omnitool");
 mods.thaumcraft.Research.removeResearch("Iron Omnitool");
-mods.thaumcraft.Research.addResearch("IronOmnitool", "EMT", "potentia 12, instrumentum 9, perfodio 6, telum 3", -2, 0, 2, <EMT:Omnitool>);
+mods.thaumcraft.Research.addResearch("IronOmnitool", "EMT", "potentia 12, instrumentum 9, perfodio 6, telum 3", -2 as int, 0, 2, <EMT:Omnitool>);
 mods.thaumcraft.Research.addPrereq("IronOmnitool", "ElectricMagicTools", false);
 mods.thaumcraft.Research.setRound("IronOmnitool", true);
 game.setLocalization("tc.research_name.IronOmnitool", "\u94c1\u5236\u94bb\u952f");
