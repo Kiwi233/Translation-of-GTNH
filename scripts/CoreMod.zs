@@ -2086,7 +2086,7 @@ game.setLocalization("OpenBlocks.research_page.AUTOENCHANTINGTABLE.1", "\u81ea\u
 \u6700\u540e\u4e00\u79cd\u8bbe\u5b9a\u53ef\u4f7f\u81ea\u52a8\u9644\u9b54\u53f0\u5728\u5b8c\u6210\u9644\u9b54\u540e\u5c06\u5176\u81ea\u52a8\u8f93\u51fa\u5230\u67d0\u4e00\u9762\u7684\u7bb1\u5b50\u4e2d.
 \u6240\u6709\u8fd9\u4e09\u79cd\u8bbe\u5b9a\u90fd\u53ef\u4ee5\u6307\u5b9a\u8f93\u5165/\u8f93\u51fa\u9762(\u901a\u8fc7\u5728\u4e2a\u4eba\u8bbe\u7f6e\u754c\u9762\u5de6\u952e\u9644\u9b54\u53f0\u7684\u5404\u4e2a\u9762\u5b8c\u6210\u6307\u5b9a).");
 mods.thaumcraft.Research.addPage("AUTOENCHANTINGTABLE", "OpenBlocks.research_page.AUTOENCHANTINGTABLE.2");
-game.setLocalization("OpenBlocks.research_page.AUTOENCHANTINGTABLE.2", " The enchantment table model in the panels can also be rotated by holding the right mouse button and dragging the cursor around.");
+game.setLocalization("OpenBlocks.research_page.AUTOENCHANTINGTABLE.2", " \u4f60\u8fd8\u53ef\u4ee5\u6309\u4f4f\u53f3\u952e\u62d6\u52a8\u6765\u65cb\u8f6c\u754c\u9762\u5185\u7684\u9644\u9b54\u53f0\u6a21\u578b\u000d\u000a.");
 mods.thaumcraft.Arcane.addShaped("AUTOENCHANTINGTABLE", <OpenBlocks:autoenchantmenttable>, "aer 75, aqua 75, ignis 75, terra 75. ordo 75, perditio 75", [
 [<gregtech:gt.metaitem.01:17526>, <minecraft:book>, <gregtech:gt.metaitem.01:17526>],
 [<gregtech:gt.metaitem.01:27019>, <minecraft:enchanting_table>, <gregtech:gt.metaitem.01:27019>],
