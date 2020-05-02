@@ -669,7 +669,7 @@ game.setLocalization("bloodmagic.research_page.SOULARMORFORGE.1", "\u7075\u9b42\
 \u7075\u9b42\u88c5\u7532\u953b\u9020\u77f3\u5fc5\u987b\u63a5\u89e6\u5c3d\u53ef\u80fd\u591a\u7684\u8840\u63d2\u69fd,\u5426\u5219\u65e0\u6cd5\u6b63\u5e38\u5de5\u4f5c,\u5982\u53f3\u56fe\u6240\u793a.
 \u6c34\u5e73\u6216\u5782\u76f4\u653e\u7f6e\u8840\u63d2\u69fd\u5747\u53ef.");
 mods.thaumcraft.Research.addPage("SOULARMORFORGE", "bloodmagic.research_page.SOULARMORFORGE.2");
-game.setLocalization("bloodmagic.research_page.SOULARMORFORGE.2", " Once the sockets have been placed, right clicking on them with a sigil, blood orb, or blood shard will place them into the sockets, binding them to that piece of armor.");
+game.setLocalization("bloodmagic.research_page.SOULARMORFORGE.2", "\u653e\u7f6e\u597d\u8840\u63d2\u69fd\u540e\u002c\u624b\u6301\u5370\u8bb0\u3001\u6c14\u8840\u5b9d\u73e0\u3001\u6216\u6c14\u8840\u788e\u7247\u53f3\u952e\u8840\u63d2\u69fd\u5373\u53ef\u5c06\u8fd9\u4e9b\u7269\u54c1\u63d2\u5165\u002c\u4e0e\u88ab\u63d2\u5165\u7684\u90a3\u7247\u62a4\u7532\u7ed1\u5b9a\u002e");
 mods.thaumcraft.Infusion.addRecipe("SOULARMORFORGE", <TConstruct:ToolForgeBlock:6>, 
 [<AWWayofTime:bloodSocket>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodSocket>, <BloodArsenal:blood_stone:2>, <AWWayofTime:magicales>, <AWWayofTime:bloodSocket>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodSocket>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>], 
 "tutamen 64, metallum 40, praecantatio 32, auram 24, tenebrae 16, exanimis 8", <AWWayofTime:armourForge>, 7);
