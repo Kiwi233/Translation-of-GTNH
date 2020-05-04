@@ -646,7 +646,7 @@ gtnh.quest160.desc=Your first hull as usual...
 
 # Quest.161 - Paying the highest price
 gtnh.quest161.name=Paying the highest price
-gtnh.quest161.desc=When regular magic just isn't enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others.%n%nIn tier 1 you only need to place the blood altar. Plan for the configuration to grow in size
+gtnh.quest161.desc=When regular magic just isn't enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others'.%n%nIn tier 1 you only need to place the blood altar. Plan for the configuration to grow in size up to 23x23 for a single altar.%n%nKeep in mind that you get less blood, and use more when crafting in GTNH. Plan for pain and frustration too.%n%nThe altar has a 10,000L blood tank, plus a 1,000L I/O buffer (you can pump in and out, but the rate is pitifully low at the start). Blood will flow to the I/O buffer until it's full, so be aware of that before your first craft.
 
 # Quest.162 - §9§lDimensional goal: Moon
 gtnh.quest162.name=§9§lDimensional goal: Moon
@@ -658,7 +658,7 @@ gtnh.quest163.desc=The inventory panel is an alternative to your (hopefully?) ex
 
 # Quest.164 - Portable battery...
 gtnh.quest164.name=Portable battery...
-gtnh.quest164.desc=Not exactly a "battery", more a portable access point for your life points, aka blood.
+gtnh.quest164.desc=Using this binds it to you (expect to do that a lot), and consumes one heart while depositing 200LP in your 'soul network'. You can draw upon the soul network for anything that needs LP such as Alchemy or Rituals. If you want to automate it, you can put it into your altar for a 1:1 conversion of blood. %n%nThe highest tier orb you have bound will be considered the maximum limit to LP in your network, but you'll need to put it into the appropriately tiered altar to keep absorbing blood.
 
 # Quest.165 - §9§lSoul eater
 gtnh.quest165.name=§9§lSoul eater
@@ -710,7 +710,7 @@ gtnh.quest176.desc=The main goal here is to get a tier 2 rocket, and reach Mars.
 
 # Quest.177 - *Poke*
 gtnh.quest177.name=*Poke*
-gtnh.quest177.desc=Time to get some blood. You will have to start with your own...
+gtnh.quest177.desc=Time to get some blood. You will have to start with your own...%n%nYou get 100LP in the altar for each use.
 
 # Quest.178 - It's storage time!
 gtnh.quest178.name=It's storage time!
@@ -912,9 +912,9 @@ gtnh.quest226.desc=Everything is made of 6 primal aspects. Those aspects can be 
 gtnh.quest227.name=Tables to work on
 gtnh.quest227.desc=Indeed, the idea with the bookshelf did work. Now you need a nice table to do some research on, and probably something to infuse items with vis while crafting. Maybe you should try to smite a table with your wand.
 
-# Quest.228 - Bloody water
-gtnh.quest228.name=Bloody water
-gtnh.quest228.desc=By sacrificing some blood to the water spirits, they'll grant you some of their precious element.
+# Quest.228 - Tier 2 Sigils
+gtnh.quest228.name=Tier 2 Sigils
+gtnh.quest228.desc=With Reinforced Slates, you can make new sigils.
 
 # Quest.229 - Infused stones
 gtnh.quest229.name=Infused stones
@@ -1624,25 +1624,25 @@ gtnh.quest404.desc=Demons are powerful, evil beings who dwell in the infernal di
 gtnh.quest405.name=The power of infinity
 gtnh.quest405.desc=You've mastered everything possible. And now it's time to give your equipment the final boost. The infinity egg is just the right addition to your altar. It's quite expensive, but well worth the cost.
 
-# Quest.406 - Lava for blood
-gtnh.quest406.name=Lava for blood
-gtnh.quest406.desc=Well, both are red, so that connection was quite obvious... Was it...?
+# Quest.406 - Tier 3 Sigils
+gtnh.quest406.name=Tier 3 Sigils
+gtnh.quest406.desc=They're actually useful this time.
 
 # Quest.407 - Tier 1 slates
 gtnh.quest407.name=Tier 1 slates
-gtnh.quest407.desc=The basic slates. Basically just stone with blood infused in it.
+gtnh.quest407.desc=The basic slates. Basically just stone with blood infused in it.%n%nYou can either pump the blood out, use buckets, or fill cells to get the blood for the cutting machine.
 
 # Quest.408 - See all the things
 gtnh.quest408.name=See all the things
-gtnh.quest408.desc=It's quite difficult to see how much blood there is in your altar, or your personal blood network. This little device will solve that problem for you. Just a little prick in the finger, and everything will be revealed.
+gtnh.quest408.desc=It's quite difficult to see how much blood there is in your altar, or your personal blood network. This little device will solve that problem for you. Just a little prick in the finger, and everything will be revealed.%n%nYou can also make the sigil of sight when you have the alchemy set too.
 
 # Quest.409 - Basic rune
 gtnh.quest409.name=Basic rune
-gtnh.quest409.desc=The basic rune that you can craft at this moment.%n%nYou need  8 runes for your tier 2 altar, which can hold more blood, and you can make new recipes now.
+gtnh.quest409.desc=The Blood Rune is the basic rune that makes up blood altars, expect to make a lot of them.%n%nYou need 8 runes for your tier 2 altar. You can make new stuff with your upgraded altar.
 
 # Quest.410 - Alchemy with blood
 gtnh.quest410.name=Alchemy with blood
-gtnh.quest410.desc=Not like "blood alchemy". You probably will need more than one later, but for now one is sufficient.
+gtnh.quest410.desc=Not like "blood alchemy". You probably will need more than one later, but for now one is sufficient.%n%nPlace an orb in the slot to start crafting, using LP from your network. You'll need higher tier orbs to craft more complicated items.
 
 # Quest.411 - Potion catalysts
 gtnh.quest411.name=Potion catalysts
@@ -1666,7 +1666,7 @@ gtnh.quest415.desc=Just to give you an idea what is possible. Let's do a sample 
 
 # Quest.416 - Simple, but powerful spells
 gtnh.quest416.name=Simple, but powerful spells
-gtnh.quest416.desc=The simple spell system is rather easy to setup, and can be done early on in your bloodmagic career.
+gtnh.quest416.desc=The simple spell system is rather easy to setup, and can be done early on in your blood magic career.
 
 # Quest.417 - Paradigm
 gtnh.quest417.name=Paradigm
@@ -1680,9 +1680,9 @@ gtnh.quest418.desc=There are nine basic elements and each has a focus, an item t
 gtnh.quest419.name=Some examples
 gtnh.quest419.desc=There are a LOT of spell combinations to discover, so just use trial and error!
 
-# Quest.420 - Convenient slate
-gtnh.quest420.name=Convenient slate
-gtnh.quest420.desc=Collecting items while mining or chopping wood is always tedious. But no more! With this fancy little thing items will just fly towards you! And it only costs a little bit of blood to pay the spirits of wind to work for you.
+# Quest.420 - Tier 4 Sigils
+gtnh.quest420.name=Tier 4 Sigils
+gtnh.quest420.desc=Are they useful? Maybe.
 
 # Quest.421 - Tier 3 slates
 gtnh.quest421.name=Tier 3 slates
@@ -1702,19 +1702,19 @@ gtnh.quest424.desc=Your tier 3 orb.
 
 # Quest.425 - Elemental chalk
 gtnh.quest425.name=Elemental chalk
-gtnh.quest425.desc=Creation of better ritual stones.
+gtnh.quest425.desc=Necessary for rituals. You can technically use these to make the rituals, but just make the diviner.
 
 # Quest.426 - Sacrificial runes
 gtnh.quest426.name=Sacrificial runes
-gtnh.quest426.desc=Poking your finger might work for simple slates and runes, but getting enough blood for advanced stuff is tedious. With sacrificial runes you are able to increase the LP gain from mobs or yourself.
+gtnh.quest426.desc=Poking your finger might work for simple slates and runes, but getting enough blood for advanced stuff is tedious. With sacrificial runes you are able to increase the blood gain from mobs or yourself.%n%nThese increase the blood gain by 10% additively for each rune.
 
 # Quest.427 - Tier 3 runes
 gtnh.quest427.name=Tier 3 runes
-gtnh.quest427.desc=The first rune to increase your capacity, and a rune to speed up transfer from/to external tanks.
+gtnh.quest427.desc=The first rune increases the I/O from the altar's buffer by a multiplicative 20% rate, and the second increases your altar's capacity by 2000L. This also increases the size of the I/O buffer, which is always 10% of the altar.
 
-# Quest.428 - Basic rituals
-gtnh.quest428.name=Basic rituals
-gtnh.quest428.desc=Now that you have access to elemental chalk, you can get yourself the basic ritual diviner. A convenient way to place simple but yet complex magical rituals.
+# Quest.428 - Rituals made easy
+gtnh.quest428.name=Rituals made easy
+gtnh.quest428.desc=Now that you have access to elemental chalk, you can get yourself the basic ritual diviner. A convenient way to place simple but yet complex magical rituals. Shift-right-click to cycle between rituals
 
 # Quest.429 - Powerful armor
 gtnh.quest429.name=Powerful armor
@@ -1734,7 +1734,7 @@ gtnh.quest432.desc=Diamonds and emeralds are limited in their ability to store L
 
 # Quest.433 - Rituals
 gtnh.quest433.name=Rituals
-gtnh.quest433.desc=Time for some rituals. The most basic one you'll probably get first is the ritual of binding.
+gtnh.quest433.desc=Time for some rituals. The most basic one you'll probably get first is the ritual of binding.%n%nThere are various rituals, some useful, some not. The other ones you're likely to care about are: Serenade of the Nether (if you don't like everburn urns), Ballad of Alchemy (for automating alchemy), Well of Suffering (for automating blood collection), Mark of the Falling Tower (summon a meteor filled with IV-tier ore), and the endgame Convocation of the Damned.
 
 # Quest.434 - Bound tools: Pickaxe
 gtnh.quest434.name=Bound tools: Pickaxe
@@ -1854,7 +1854,7 @@ gtnh.quest462.desc=Triggers if you craft the Catalyst.
 
 # Quest.463 - Runes tier 2
 gtnh.quest463.name=Runes tier 2
-gtnh.quest463.desc=Speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 20% increase to the processing speed of the blood altar.
+gtnh.quest463.desc=The speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 20% increase to the processing speed of the blood altar.%n%nHOWEVER, this makes it much more difficult to actually craft anything, so don't use them unless you're sure you can craft the item.
 
 # Quest.464 - The technician part 2
 gtnh.quest464.name=The technician part 2
@@ -2842,11 +2842,11 @@ gtnh.quest709.desc=Enhanced elemental chalk, to write "darker" runes than you're
 
 # Quest.710 - Tier 4 runes
 gtnh.quest710.name=Tier 4 runes
-gtnh.quest710.desc=You will want both runes. Rune of superior capacity to increase the storage of your blood altar, and rune of the orb. Later it is required if you want to advance to higher levels.
+gtnh.quest710.desc=Runes of Superior Capacity increase the Altar's size by 10% multiplicatively. If you have more than 14 of the lesser versions, it's more efficient to use these.%n%nRunes of the Orb increase the soul network size by 2% each. You'l need them later on.
 
 # Quest.711 - Tier 5 runes
 gtnh.quest711.name=Tier 5 runes
-gtnh.quest711.desc=The final frontier: There are not many runes available. The acceleration rune allows you to speed up the interaction with external tanks.
+gtnh.quest711.desc=The final frontier: There are not many runes available. The acceleration rune reduces the tick time until the next buffer I/O interaction. It starts at 20, and is reduced by 1 for each rune, with the minimum being 1.
 
 # Quest.712 - Advanced rituals
 gtnh.quest712.name=Advanced rituals
@@ -2858,7 +2858,7 @@ gtnh.quest713.desc=The last rune so far, used for the most powerful rituals.
 
 # Quest.714 - Convocation of the damned
 gtnh.quest714.name=Convocation of the damned
-gtnh.quest714.desc=Time to open a portal to the demons we're using all the time. What could possibly go wrong? (It is recommended to do this ritual on a planet, as the demon city will spread quite a bit...)
+gtnh.quest714.desc=Time to open a portal to the demons we're using all the time. What could possibly go wrong? (It is recommended to do this ritual on a planet, as the demon city will spread quite a bit...)%n%nIt's complicated to explain, so check a wiki for details on how to actually do it. Remember you need to have 15M LP, so you'll need 25 Runes of the Orb to start it. Also, you need the Alchemic Calcinator and the other tools in the upper left of the BM thaumcraft tab for working with the belljars.
 
 # Quest.715 - Imbued spell upgrades
 gtnh.quest715.name=Imbued spell upgrades
@@ -3706,7 +3706,7 @@ gtnh.quest925.desc=You beat the game, literally. There is nothing left to do, yo
 
 # Quest.926 - Blood Altar Tier 3
 gtnh.quest926.name=Blood Altar Tier 3
-gtnh.quest926.desc=To make your altar more powerful you need to upgrade it. You need to build pillars two block high out of blood-soaked thaumium block and on top one block of glowstone blocks on each pillar.
+gtnh.quest926.desc=To make your altar more powerful you need to upgrade it. You need to build pillars two block high out of blood-soaked thaumium blocks and on top a block of glowstone on each pillar.%n%nPS: Go to a wiki to see how the structure looks, the pillars are the only change.
 
 # Quest.927 - Blood Altar Tier 4
 gtnh.quest927.name=Blood Altar Tier 4
@@ -5670,7 +5670,7 @@ gtnh.quest1416.desc=Or is it Alloy Blast Smelter? Well, that makes more sense. T
 
 # Quest.1417 - §6§lCough cough - Something needs to be done about the smell
 gtnh.quest1417.name=§6§lCough cough - Something needs to be done about the smell
-gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.
+gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small black steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.
 
 # Quest.1418 - §c§9§a§lEU packets flowing everywhere...
 gtnh.quest1418.name=§c§9§a§lEU packets flowing everywhere...
@@ -9804,15 +9804,59 @@ gtnh.quest2449.desc=Combine Dichlorobenzene with Sodium Sulfide and Oxygen to ge
 gtnh.quest2450.name=Higher Tier Cables
 gtnh.quest2450.desc=To make higher tier cables, you'll want to make them with Polyphenylene Sulfide Foils and Silicone. You'll need both Tungsten and Platinum in IV-tier.
 
+# Quest.2451 - Blood Letters Pack
+gtnh.quest2451.name=Blood Letters Pack
+gtnh.quest2451.desc=The Blood Letters Pack will damage you by half a heart until you're at half health (accounts for extra health!), and stores 100 LP each time up to 10,000. You can then use it on an altar to deposit the contents so long as it's not currently crafting something.
+
+# Quest.2452 - Glass Sacrificial Dagger
+gtnh.quest2452.name=Glass Sacrificial Dagger
+gtnh.quest2452.desc=The Glass Sacrificial Dagger works the same as the normal one, but gives you 500 LP instead. To get the Glass Shards, break normal Glass while holding Flint.%n%nUnfortunately the glass version of the Dagger of Sacrifice doesn't seem to work properly.
+
+# Quest.2453 - Imperfect Ritual Stone
+gtnh.quest2453.name=Imperfect Ritual Stone
+gtnh.quest2453.desc=This stone allows you to create simple rituals, such as changing the time to night, or summoning a thunderstorm.
+
+# Quest.2454 - Well of Suffering
+gtnh.quest2454.name=Well of Suffering
+gtnh.quest2454.desc=The Well of Suffering damages mobs in a 6 block radius and feeds blood gained from them into an altar that is also within 6 blocks. Each mob costs 2 LP to damage, but give 10LP back. You can use Runes of Sacrifice to increase this. Very useful for automation!
+
+# Quest.2455 - Unlimited LP
+gtnh.quest2455.name=Unlimited LP
+gtnh.quest2455.desc=Making this will give you unlimited LP. But you still need blood for crafting, OK?
+
+# Quest.2456 - Demon Blood Shards
+gtnh.quest2456.name=Demon Blood Shards
+gtnh.quest2456.desc=To get Demon Blood Shards, you'll need to summon and kill a demon. To summon one you'll need to arrange the pedestals around the plinth as such:%n%nxpxpx%nxxxxx%npxPxp%nxxxxx%nxpxpx%n%nx=space, p=pedestal, P=plinth%n%nPlace a bound master orb on the plinth and the appropriate sacrifices on the pedestals. They must all be the same element. Specifically, Aether, Incendium, Aquasalus, Terrae, Tenebrae, or Sanctus.%n%nAfter the lightning, the demon will appear. It won't always drop the shard, so prepare multiple sets.
+
+# Quest.2457 - Starter Key
+gtnh.quest2457.name=Starter Key
+gtnh.quest2457.desc=You need this to start Rituals. More complex rituals need the Activated version. To use it, bind it to yourself and right click on the center of the ritual.
+
+# Quest.2458 - Micro-Rituals
+gtnh.quest2458.name=Micro-Rituals
+gtnh.quest2458.desc=Don't want to use all that space for rituals? Use the Soul Compactor to reduce them to a single block!
+
+# Quest.2459 - Tier 5 Sigils
+gtnh.quest2459.name=Tier 5 Sigils
+gtnh.quest2459.desc=They're of seriously questionable utility this time, so why not try to get the blood arsenal ones as well? Collect them all!%n%nPS: You need Lightning Sigils for the Transcendent Orb
+
+# Quest.2460 - It holds more, ok?
+gtnh.quest2460.name=It holds more, ok?
+gtnh.quest2460.desc=But why is it transparent?
+
+# Quest.2461 - 'Easy' Teleportation
+gtnh.quest2461.name='Easy' Teleportation
+gtnh.quest2461.desc=They may be a pain to craft, but teleposers are very useful for teleporting. Use the Teleposition Focus to set the first Teleposer location and put it in the second. Apply a redstone signal, and it'll teleport you at the cost of LP. It can also move items or entities, with the size increasing with better foci.
+
+# Quest.2462 - Ritual Dismantler
+gtnh.quest2462.name=Ritual Dismantler
+gtnh.quest2462.desc=Use this to quickly dismantle a ritual.
+
 ##################################Line##################################
 
 # QuestLine.0 - Tier 0 - It begins
 gtnh.line0.name=Tier 0 - It begins
 gtnh.line0.desc=The very first tier, tier zero. This chapter will introduce you to the basic mechanics of this modpack. Mods covered: Vanilla, Pam's Harvestcraft.
-
-# QuestLine.44 - Tips and Tricks
-gtnh.line44.name=Tips and Tricks
-gtnh.line44.desc=All our collected wisdom, in one convenient place. Many Greggers died to bring you this knowledge.
 
 # QuestLine.1 - Tier 0.5 - Stone Age
 gtnh.line1.name=Tier 0.5 - Stone Age
@@ -9926,14 +9970,6 @@ gtnh.line27.desc=Granny Weatherwax would approve.
 gtnh.line28.name=Paying the highest price
 gtnh.line28.desc=When regular magic just won't cover it, pay demons to do it for you! The cost might scare some people... But no risk no fun!
 
-# QuestLine.29 - More blood, more stuff
-gtnh.line29.name=More blood, more stuff
-gtnh.line29.desc=Advanced Blood Magic? My veins feel weird...
-
-# QuestLine.30 - They are coming...
-gtnh.line30.name=They are coming...
-gtnh.line30.desc=The spirits that I've called... Demon invasions and beyond. Really deep into dark magic!
-
 # QuestLine.31 - Open Computers
 gtnh.line31.name=Open Computers
 gtnh.line31.desc=The magical world of ingame programming!
@@ -9958,10 +9994,6 @@ gtnh.line35.desc=AE2 focuses on creating a compact, easily accessible, considera
 gtnh.line36.name=An Age of Tech
 gtnh.line36.desc=I've been keeping a watchful eye on your technological advance - it's time to see the dreams of a technological future! I shall guide you to a whole new complicated series of machinery. Be wary though, these machines will test your resolve (and energy limits) to the extreme. (under construction)
 
-# QuestLine.43 - Hardcore End(er) Expansion
-gtnh.line43.name=Hardcore End(er) Expansion
-gtnh.line43.desc=Treasure of lands far beyond the vast sea of the Void and very angry rune spiders await you!
-
 # QuestLine.37 - Kill all the things
 gtnh.line37.name=Kill all the things
 gtnh.line37.desc=This world is full of nasty things. Time to kill some and improve your reputation.
@@ -9985,4 +10017,12 @@ gtnh.line41.desc=A legendary questline with difficult tasks, expensive recipes a
 # QuestLine.42 - Reward Area
 gtnh.line42.name=Reward Area
 gtnh.line42.desc=Upgrade your loot bags!
+
+# QuestLine.43 - Hardcore End(er) Expansion
+gtnh.line43.name=Hardcore End(er) Expansion
+gtnh.line43.desc=Treasure of lands far beyond the vast sea of the Void and very angry rune spiders await you!
+
+# QuestLine.44 - Tips and Tricks
+gtnh.line44.name=Tips and Tricks
+gtnh.line44.desc=All our collected wisdom, in one convenient place. Many Greggers died to bring you this knowledge.
 
