@@ -646,7 +646,7 @@ gtnh.quest160.desc=照例是第一个机器外壳...
 
 # Quest.161 - Paying the highest price
 gtnh.quest161.name=付出最高的代价
-gtnh.quest161.desc=当一般的魔法已经不能满足你需要的时候,你可能需要一些...更强大的力量.这份力量需要用血液来支付,你的血...或者是其他什么人或者生物的.%n%n在第一阶,你只需要放置一个血之祭坛.建议做好规划,这个祭坛将会越来越大,最高级祭坛占地23x23.%n%n请注意, 在GTNH中, 你获得的血比正常少而消耗的血却更多. 做好心理准备.%n%n初始祭坛内部有10,000L的储量, 还有1,000L输入/出缓存(你可以将血抽出或者泵入祭坛,但一开始的速度很慢). 血会优先注满输入/出缓存, 你在第一次合成时需要注意这一点.
+gtnh.quest161.desc=当一般的魔法已经不能满足你需要的时候,你可能需要一些...更强大的力量.这份力量需要用血液来支付,你的血...或者是其他什么人或者生物的.%n%n在第一阶,你只需要放置一个血之祭坛.建议做好规划,这个祭坛将会越来越大,最高级祭坛占地23x23.%n%n请注意, 在GTNH中, 我们削减了获得的血并提高了合成消耗. 做好心理准备.%n%n初始祭坛内部有10,000L的储量, 还有1,000L输入/出缓存(你可以将血抽出或者泵入祭坛,但一开始的速度很慢). 血会优先注满输入/出缓存, 你在第一次合成时需要注意这一点.
 
 # Quest.162 - §9§lDimensional goal: Moon
 gtnh.quest162.name=§9§l目标:月球
@@ -658,9 +658,7 @@ gtnh.quest163.desc=存储控制面板可以代替红石计划的存储系统(希
 
 # Quest.164 - Portable battery...
 gtnh.quest164.name=便携式电池...(Portable battery...)
-#B gtnh.quest164.desc=Not exactly a "battery", more a portable access point for your life points, aka blood.
-#A gtnh.quest164.desc=Using this binds it to you (expect to do that a lot), and consumes one heart while depositing 200LP in your 'soul network'. You can draw upon the soul network for anything that needs LP such as Alchemy or Rituals. If you want to automate it, you can put it into your altar for a 1:1 conversion of blood. %n%nThe highest tier orb you have bound will be considered the maximum limit to LP in your network, but you'll need to put it into the appropriately tiered altar to keep absorbing blood.
-#C gtnh.quest164.desc=不完全是一个"电池",更多的是你生命点(LP)的便携式接入点,也就是血液 (Not exactly a "battery", more a portable access point for your life points, aka blood.).
+gtnh.quest164.desc=不完全是一个"电池",更多的是你生命点(LP)的便携式接入点,也就是血液.%n(Not exactly a "battery", more a portable access point for your life points, aka blood.)%n%n把这玩意绑定到你自己, 右键即可消耗你的红心并在灵魂网络中存储200LP. 灵魂网络中的LP可以为炼金或者仪式供能. 将气血宝珠放入祭坛即可1:1地转化祭坛中的血液为LP, 这是自动化的基础. %n%n你绑定的最高阶宝珠容量即为你的灵魂网络的容量上限.%n%n译者注: 建议用一个额外祭坛配合苦难之井仪式与献祭符文提供源源不断的LP.
 
 # Quest.165 - §9§lSoul eater
 gtnh.quest165.name=§9§l噬魂者
@@ -712,9 +710,7 @@ gtnh.quest176.desc=这一阶段的主要目标是制造一个2阶火箭并成功
 
 # Quest.177 - *Poke*
 gtnh.quest177.name=*戳个洞*
-#B gtnh.quest177.desc=Time to get some blood. You will have to start with your own...
-#A gtnh.quest177.desc=Time to get some blood. You will have to start with your own...%n%nYou get 100LP in the altar for each use.
-#C gtnh.quest177.desc=是时候抽血了.你必须从你自己开始…
+gtnh.quest177.desc=是时候抽血了.你必须从你自己开始...%n%n每次使用可为祭坛注入100LP.
 
 # Quest.178 - It's storage time!
 gtnh.quest178.name=存储时间！
@@ -917,12 +913,8 @@ gtnh.quest227.name=工作台
 gtnh.quest227.desc=在你对你的书架释放魔法后你得到了一本魔导手册. 接下来你需要一个舒服的桌子来进行你的研究,可能在研究一些东西的时候还需要加入一些VIS. 那么,拿着你的法杖向你的台桌施展魔法试一试吧！
 
 # Quest.228 - Tier 2 Sigils
-#B gtnh.quest228.name=Bloody water
-#A gtnh.quest228.name=Tier 2 Sigils
-#C gtnh.quest228.name=水之印记
-#B gtnh.quest228.desc=By sacrificing some blood to the water spirits, they'll grant you some of their precious element.
-#A gtnh.quest228.desc=With Reinforced Slates, you can make new sigils.
-#C gtnh.quest228.desc=通过给水精灵献血,他们会给予你一些珍贵的元素.
+gtnh.quest228.name=2阶印记
+gtnh.quest228.desc=有了加强的石板, 你就能制造新的印记了.
 
 # Quest.229 - Infused stones
 gtnh.quest229.name=蕴魔石
@@ -1633,24 +1625,16 @@ gtnh.quest405.name=无限的力量
 gtnh.quest405.desc=你已经掌握了所有可能的东西. 而现在是时候给你的设备提供最后的推动力了. 无限蛋是你祭坛的正确补充. 这是相当昂贵的,但是值得的.
 
 # Quest.406 - Tier 3 Sigils
-#B gtnh.quest406.name=Lava for blood
-#A gtnh.quest406.name=Tier 3 Sigils
-#C gtnh.quest406.name=血熔岩
-#B gtnh.quest406.desc=Well, both are red, so that connection was quite obvious... Was it...?
-#A gtnh.quest406.desc=They're actually useful this time.
-#C gtnh.quest406.desc=嗯,两个都是红色的,所以联系很明显…是...吗？
+gtnh.quest406.name=3阶印记
+gtnh.quest406.desc=现在它们很有用.
 
 # Quest.407 - Tier 1 slates
 gtnh.quest407.name=一阶石板
-#B gtnh.quest407.desc=The basic slates. Basically just stone with blood infused in it.
-#A gtnh.quest407.desc=The basic slates. Basically just stone with blood infused in it.%n%nYou can either pump the blood out, use buckets, or fill cells to get the blood for the cutting machine.
-#C gtnh.quest407.desc=基础石板.基础到只是石头注入血液.
+gtnh.quest407.desc=基础石板.基础到只是石头注入血液.%n%n你可以通过泵、桶或者单元等任何方式获取切割机所需的血.
 
 # Quest.408 - See all the things
 gtnh.quest408.name=看到一切
-#B gtnh.quest408.desc=It's quite difficult to see how much blood there is in your altar, or your personal blood network. This little device will solve that problem for you. Just a little prick in the finger, and everything will be revealed.
-#A gtnh.quest408.desc=It's quite difficult to see how much blood there is in your altar, or your personal blood network. This little device will solve that problem for you. Just a little prick in the finger, and everything will be revealed.%n%nYou can also make the sigil of sight when you have the alchemy set too.
-#C gtnh.quest408.desc=很难看到你的祭坛里有多少LP,或者你的个人有多少LP.这个小装置可以帮你解决这个问题.只是手指上有点刺痛,一切都会显露出来.
+gtnh.quest408.desc=很难看到你的祭坛里有多少LP,或者你的个人有多少LP.这个小装置可以帮你解决这个问题.只是手指上有点刺痛,一切都会显露出来.%n%n当你有了炼金术台后你还可以制造更高级的见解印记.
 
 # Quest.409 - Basic rune
 gtnh.quest409.name=基础符文
