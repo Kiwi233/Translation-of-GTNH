@@ -1638,15 +1638,11 @@ gtnh.quest408.desc=很难看到你的祭坛里有多少LP,或者你的个人有�
 
 # Quest.409 - Basic rune
 gtnh.quest409.name=基础符文
-#B gtnh.quest409.desc=The basic rune that you can craft at this moment.%n%nYou need  8 runes for your tier 2 altar, which can hold more blood, and you can make new recipes now.
-#A gtnh.quest409.desc=The Blood Rune is the basic rune that makes up blood altars, expect to make a lot of them.%n%nYou need 8 runes for your tier 2 altar. You can make new stuff with your upgraded altar.
-#C gtnh.quest409.desc=你需要8个符文用于你的第2阶祭坛,使祭坛可以容纳更多的血液,现在你可以制作新的配方.
+gtnh.quest409.desc=气血符文是构成血之祭坛的基础符文, 做好准备, 你将需要成吨的气血符文.%n%n你需要8个符文用于你的第2阶祭坛, 现在用你的新祭坛造点新玩意吧.
 
 # Quest.410 - Alchemy with blood
 gtnh.quest410.name=血之炼金术(Alchemy with blood)
-#B gtnh.quest410.desc=Not like "blood alchemy". You probably will need more than one later, but for now one is sufficient.
-#A gtnh.quest410.desc=Not like "blood alchemy". You probably will need more than one later, but for now one is sufficient.%n%nPlace an orb in the slot to start crafting, using LP from your network. You'll need higher tier orbs to craft more complicated items.
-#C gtnh.quest410.desc=不像"血炼金术(blood alchemy)". 你可能稍后需要不止一个,但现在一个就足够了.
+gtnh.quest410.desc=不像"血炼金术(blood alchemy)". 你可能稍后需要不止一个,但现在一个就足够了.%n%n在插槽中放入气血宝珠才能开始合成, 炼金将会消耗你的灵魂网络中的LP. 制作更复杂的物品将需要更高级的气血宝珠.
 
 # Quest.411 - Potion catalysts
 gtnh.quest411.name=药水催化剂
@@ -1670,9 +1666,7 @@ gtnh.quest415.desc=只是想让你知道什么是可能的.让我们做一个药
 
 # Quest.416 - Simple, but powerful spells
 gtnh.quest416.name=简单但强大的法术
-#B gtnh.quest416.desc=The simple spell system is rather easy to setup, and can be done early on in your bloodmagic career.
-#A gtnh.quest416.desc=The simple spell system is rather easy to setup, and can be done early on in your blood magic career.
-#C gtnh.quest416.desc=简单的法术系统很容易得到,可以在你的血魔法生涯早期完成.
+gtnh.quest416.desc=简单的法术系统很容易获得, 可以在你的血魔法生涯早期完成.
 
 # Quest.417 - Paradigm
 gtnh.quest417.name=基架
@@ -1687,12 +1681,8 @@ gtnh.quest419.name=举个例子吧！
 gtnh.quest419.desc=有很多组合值得探索,所以只需尝试并犯错！
 
 # Quest.420 - Tier 4 Sigils
-#B gtnh.quest420.name=Convenient slate
-#A gtnh.quest420.name=Tier 4 Sigils
-#C gtnh.quest420.name=方便的石板
-#B gtnh.quest420.desc=Collecting items while mining or chopping wood is always tedious. But no more! With this fancy little thing items will just fly towards you! And it only costs a little bit of blood to pay the spirits of wind to work for you.
-#A gtnh.quest420.desc=Are they useful? Maybe.
-#C gtnh.quest420.desc=在采伐木材时收集物品总是乏味的.但是不会这样了！有了这个可爱的小玩意,物品就会飞向你！它只需要一点点血液来让风为你工作.
+gtnh.quest420.name=4阶印记
+gtnh.quest420.desc=它们好用么? 也许吧.
 
 # Quest.421 - Tier 3 slates
 gtnh.quest421.name=第三阶-石板
@@ -1712,29 +1702,19 @@ gtnh.quest424.desc=你的第三阶气血宝珠.
 
 # Quest.425 - Elemental chalk
 gtnh.quest425.name=元素铭文
-#B gtnh.quest425.desc=Creation of better ritual stones.
-#A gtnh.quest425.desc=Necessary for rituals. You can technically use these to make the rituals, but just make the diviner.
-#C gtnh.quest425.desc=制作更好的仪式石.
+gtnh.quest425.desc=仪式的必需品. 制作仪式推测杖, 你就能更方便地布置仪式石.
 
 # Quest.426 - Sacrificial runes
 gtnh.quest426.name=牺牲/献祭符文
-#B gtnh.quest426.desc=Poking your finger might work for simple slates and runes, but getting enough blood for advanced stuff is tedious. With sacrificial runes you are able to increase the LP gain from mobs or yourself.
-#A gtnh.quest426.desc=Poking your finger might work for simple slates and runes, but getting enough blood for advanced stuff is tedious. With sacrificial runes you are able to increase the blood gain from mobs or yourself.%n%nThese increase the blood gain by 10% additively for each rune.
-#C gtnh.quest426.desc=戳你自己的手指产生的血液可能适用于简单的石板和符文,但为高级东西获得足够的血液是乏味的. 使用牺牲/献祭符文,你可以增加从你自己或怪物身上获得的LP.
+gtnh.quest426.desc=戳你自己的手指产生的血液可能适用于简单的石板和符文,但为高级东西获得足够的血液是乏味的. 使用牺牲/献祭符文,你可以增加从你自己或怪物身上获得的血液.%n%n每个符文加法叠加百分之10的收益.
 
 # Quest.427 - Tier 3 runes
-gtnh.quest427.name=第三阶-符文
-#B gtnh.quest427.desc=The first rune to increase your capacity, and a rune to speed up transfer from/to external tanks.
-#A gtnh.quest427.desc=The first rune increases the I/O from the altar's buffer by a multiplicative 20% rate, and the second increases your altar's capacity by 2000L. This also increases the size of the I/O buffer, which is always 10% of the altar.
-#C gtnh.quest427.desc=第一个符文增加你的容量,另一个让你从储罐中转移或提取血液速度加快.
+gtnh.quest427.name=3阶符文
+gtnh.quest427.desc=第一种符文, 每个乘法叠加百分之20的祭坛输入/出缓存; 第二种符文,每个可以增加2000L祭坛容量.这种符文也可以增加输入/出缓存, 表现为祭坛容量的百分之10.
 
 # Quest.428 - Rituals made easy
-#B gtnh.quest428.name=Basic rituals
-#A gtnh.quest428.name=Rituals made easy
-#C gtnh.quest428.name=基础仪式
-#B gtnh.quest428.desc=Now that you have access to elemental chalk, you can get yourself the basic ritual diviner. A convenient way to place simple but yet complex magical rituals.
-#A gtnh.quest428.desc=Now that you have access to elemental chalk, you can get yourself the basic ritual diviner. A convenient way to place simple but yet complex magical rituals. Shift-right-click to cycle between rituals
-#C gtnh.quest428.desc=现在你可以使用元素铭文,也可以制作基础的仪式推测杖--放置复杂的仪式的便捷方式.
+gtnh.quest428.name=仪式让生活更美好
+gtnh.quest428.desc=现在你可以使用元素铭文,也可以制作基础的仪式推测杖--放置复杂的仪式的便捷方式. Shift+右键可切换仪式.
 
 # Quest.429 - Powerful armor
 gtnh.quest429.name=强力装甲
@@ -1754,9 +1734,7 @@ gtnh.quest432.desc=钻石和绿宝石的存储能力有限. 有了这把剑,你�
 
 # Quest.433 - Rituals
 gtnh.quest433.name=仪式
-#B gtnh.quest433.desc=Time for some rituals. The most basic one you'll probably get first is the ritual of binding.
-#A gtnh.quest433.desc=Time for some rituals. The most basic one you'll probably get first is the ritual of binding.%n%nThere are various rituals, some useful, some not. The other ones you're likely to care about are: Serenade of the Nether (if you don't like everburn urns), Ballad of Alchemy (for automating alchemy), Well of Suffering (for automating blood collection), Mark of the Falling Tower (summon a meteor filled with IV-tier ore), and the endgame Convocation of the Damned.
-#C gtnh.quest433.desc=是时候进行些仪式了.最基本的一个,你可能首先构造绑定仪式.
+gtnh.quest433.desc=是时候进行些仪式了. 你可能首先构造最基础的绑定仪式.%n%n在这些纷繁复杂、多种多样的仪式中, 某些是有用的, 某些是辣鸡.%n%n这里列举了一些你可能会关心的仪式:%n下界夜曲(Serenade of the Nether): 要是你不喜欢炼狱之壶的话, 这是个不错的替代品;%n炼金之谣(Ballad of Alchemy): 自动炼金;%n苦难之井(Well of Suffering): 自动化血液收集系统;坠星标位(Mark of the Falling Tower):根据投入物品不同, 召唤4种陨星(译者注: 溅射范围非常大, 建议离自己家越远越好);%n恶魔入侵(Convocation of the Damned): 6阶祭坛、以及各种终极物品所需.
 
 # Quest.434 - Bound tools: Pickaxe
 gtnh.quest434.name=约束工具:镐
@@ -1875,10 +1853,8 @@ gtnh.quest462.name=触发无序催化剂
 gtnh.quest462.desc=如果你制作这种催化剂就会触发.
 
 # Quest.463 - Runes tier 2
-gtnh.quest463.name=第二阶-符文
-#B gtnh.quest463.desc=Speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 20% increase to the processing speed of the blood altar.
-#A gtnh.quest463.desc=The speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 20% increase to the processing speed of the blood altar.%n%nHOWEVER, this makes it much more difficult to actually craft anything, so don't use them unless you're sure you can craft the item.
-#C gtnh.quest463.desc=速度符文是唯一的2阶符文. 速度符文就像它的名字所暗示的那样,提升20％的血之祭坛处理速度.
+gtnh.quest463.name=2阶符文
+gtnh.quest463.desc=速度符文是唯一的2阶符文. 顾名思义, 每个速度符文可加法叠加20％的血之祭坛处理速度.%n%n但是, 这种符文会使实际制作物品更加困难, 所以在使用此符文前, 请确认自己能否制作这种物品.
 
 # Quest.464 - The technician part 2
 gtnh.quest464.name=技术人员 Part 2
@@ -2866,15 +2842,11 @@ gtnh.quest709.desc=强化过的元素粉笔,可以用来书写一些比你习惯
 
 # Quest.710 - Tier 4 runes
 gtnh.quest710.name=4阶符文
-#B gtnh.quest710.desc=You will want both runes. Rune of superior capacity to increase the storage of your blood altar, and rune of the orb. Later it is required if you want to advance to higher levels.
-#A gtnh.quest710.desc=Runes of Superior Capacity increase the Altar's size by 10% multiplicatively. If you have more than 14 of the lesser versions, it's more efficient to use these.%n%nRunes of the Orb increase the soul network size by 2% each. You'l need them later on.
-#C gtnh.quest710.desc=这两种符文你都会想要.超容符文可以增加你的血之祭坛的容量.而之后你会需要宝珠符文才能进阶到更高的阶段.
+gtnh.quest710.desc=每个超容符文可以乘法叠加10％血之祭坛的容量.当增容符文超过14个之后,使用超容符文将更有效率.%n%%n每个宝珠符文可以增加2％的灵魂网络容量, 你将在之后用到它的.
 
 # Quest.711 - Tier 5 runes
 gtnh.quest711.name=5阶符文
-#B gtnh.quest711.desc=The final frontier: There are not many runes available. The acceleration rune allows you to speed up the interaction with external tanks.
-#A gtnh.quest711.desc=The final frontier: There are not many runes available. The acceleration rune reduces the tick time until the next buffer I/O interaction. It starts at 20, and is reduced by 1 for each rune, with the minimum being 1.
-#C gtnh.quest711.desc=最后边境:并没有太多可得到的符文.促进符文使你可以加速与外部容器的互动.
+gtnh.quest711.desc=最高阶符文: 并没有太多可用的符文. 促进符文可以减少祭坛缓存与外界容器交互的检测时间. 初始值为20t一次, 每增加一个符文可以减少1t, 最小值为1t.
 
 # Quest.712 - Advanced rituals
 gtnh.quest712.name=进阶仪式
@@ -2886,9 +2858,7 @@ gtnh.quest713.desc=最后的符文,用于最强大的仪式.
 
 # Quest.714 - Convocation of the damned
 gtnh.quest714.name=恶魔入侵
-#B gtnh.quest714.desc=Time to open a portal to the demons we're using all the time. What could possibly go wrong? (It is recommended to do this ritual on a planet, as the demon city will spread quite a bit...)
-#A gtnh.quest714.desc=Time to open a portal to the demons we're using all the time. What could possibly go wrong? (It is recommended to do this ritual on a planet, as the demon city will spread quite a bit...)%n%nIt's complicated to explain, so check a wiki for details on how to actually do it. Remember you need to have 15M LP, so you'll need 25 Runes of the Orb to start it. Also, you need the Alchemic Calcinator and the other tools in the upper left of the BM thaumcraft tab for working with the belljars.
-#C gtnh.quest714.desc=是时候开启一个传送门,通往我们以往召唤的恶魔所在之地.能出什么差错呢？(建议在一个行星上进行这个仪式,恶魔的城市会延伸蛮大的范围...)
+gtnh.quest714.desc=是时候开启一个传送门,通往我们以往召唤的恶魔所在之地.能出什么差错呢? (建议在一个行星上进行这个仪式,恶魔的城市会延伸蛮大的范围...)%n%n解释起来很复杂, 所以查看wiki来获取详细信息吧. 不过你得记住, 开启这个仪式需要15M的LP, 所以你需要至少25个宝珠符文. 另外, 你还需要炼金煅烧炉等一系列工具才能获得所需的玻璃钟罩, 请查阅魔导手册中的血魔法章节获取更多信息.
 
 # Quest.715 - Imbued spell upgrades
 gtnh.quest715.name=灌输法术附属(Imbued spell upgrades)
@@ -3736,9 +3706,7 @@ gtnh.quest925.desc=你破关了,真的.这里没事做了,你该去试试三次�
 
 # Quest.926 - Blood Altar Tier 3
 gtnh.quest926.name=3阶血之祭坛
-#B gtnh.quest926.desc=To make your altar more powerful you need to upgrade it. You need to build pillars two block high out of blood-soaked thaumium block and on top one block of glowstone blocks on each pillar.
-#A gtnh.quest926.desc=To make your altar more powerful you need to upgrade it. You need to build pillars two block high out of blood-soaked thaumium blocks and on top a block of glowstone on each pillar.%n%nPS: Go to a wiki to see how the structure looks, the pillars are the only change.
-#C gtnh.quest926.desc=为了让你的祭坛更强大,你需要升级它. 你需要用血腥神秘块建造两格高的柱子,并在每个柱子的顶部放一块萤石.
+gtnh.quest926.desc=为了让你的祭坛更强大,你需要升级它. 你需要用血腥神秘块建造两格高的柱子,并在每个柱子的顶部放一块萤石.%n%nPS: 建议到血魔法官方wiki查看祭坛结构截图, 与官方wiki祭坛唯一的不同就是柱子材质, 其余结构完全一致.
 
 # Quest.927 - Blood Altar Tier 4
 gtnh.quest927.name=4阶血之祭坛
@@ -5702,9 +5670,7 @@ gtnh.quest1416.desc=或者是合金冶炼炉(Alloy Blast Smelter)？ 嗯,这更�
 
 # Quest.1417 - §6§lCough cough - Something needs to be done about the smell
 gtnh.quest1417.name=§6§l咳嗽咳嗽 - 需要处理下污染了！
-#B gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.
-#A gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small black steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.
-#C gtnh.quest1417.desc=鸟儿从天坠落,鱼在河里翻着肚皮,酸雨融化了地面......是时候开始捡垃圾,清理空气了. 小型钢制涡轮机现在应该没问题. 你需要两安培的稳定电流来保持污染清洗机工作.
+gtnh.quest1417.desc=鸟儿从天坠落,鱼在河里翻着肚皮,酸雨融化了地面......是时候处理垃圾,净化空气了. 小型黑钢涡轮可以满足目前所需. 你需要2A的稳定电流才能保证污染清洗机持续工作.
 
 # Quest.1418 - §c§9§a§lEU packets flowing everywhere...
 gtnh.quest1418.name=§c§9§a§l电流的到处都是
