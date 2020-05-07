@@ -9805,52 +9805,52 @@ gtnh.quest2450.name=更高阶的线缆
 gtnh.quest2450.desc=你需要使用聚苯硫醚箔和硅橡胶才能制造出更高阶的线缆. 在IV阶段, 你还需要钨和铂.
 
 # Quest.2451 - Blood Letters Pack
-#N gtnh.quest2451.name=Blood Letters Pack
-#N gtnh.quest2451.desc=The Blood Letters Pack will damage you by half a heart until you're at half health (accounts for extra health!), and stores 100 LP each time up to 10,000. You can then use it on an altar to deposit the contents so long as it's not currently crafting something.
+gtnh.quest2451.name=血液背包
+gtnh.quest2451.desc=血液背包会每次扣除半颗心并转化为100LP存储, 直到半血为止(额外生命上限也计算在内), 背包的存储上限为10000LP. 当血之祭坛没有正在合成的物品时, 你可以手持背包右键祭坛, 将其内存储的LP注入祭坛中.
 
 # Quest.2452 - Glass Sacrificial Dagger
-#N gtnh.quest2452.name=Glass Sacrificial Dagger
-#N gtnh.quest2452.desc=The Glass Sacrificial Dagger works the same as the normal one, but gives you 500 LP instead. To get the Glass Shards, break normal Glass while holding Flint.%n%nUnfortunately the glass version of the Dagger of Sacrifice doesn't seem to work properly.
+gtnh.quest2452.name=玻璃牺牲匕首
+gtnh.quest2452.desc=玻璃牺牲匕首的使用方式与普通牺牲匕首一致, 不同的是每次它能带来500LP. 手持燧石打碎普通玻璃即可获得玻璃碎片.%n%n不幸的是, 玻璃献祭刀好像没法正常工作...
 
 # Quest.2453 - Imperfect Ritual Stone
-#N gtnh.quest2453.name=Imperfect Ritual Stone
-#N gtnh.quest2453.desc=This stone allows you to create simple rituals, such as changing the time to night, or summoning a thunderstorm.
+gtnh.quest2453.name=不完善的仪式石
+gtnh.quest2453.desc=通过这块石头, 你能举行简单的仪式, 比如将白昼变为黑夜, 或者召唤一场暴风雨.
 
 # Quest.2454 - Well of Suffering
-#N gtnh.quest2454.name=Well of Suffering
-#N gtnh.quest2454.desc=The Well of Suffering damages mobs in a 6 block radius and feeds blood gained from them into an altar that is also within 6 blocks. Each mob costs 2 LP to damage, but give 10LP back. You can use Runes of Sacrifice to increase this. Very useful for automation!
+gtnh.quest2454.name=苦难之井
+gtnh.quest2454.desc=苦难之井仪式将对半径6格内的怪物造成伤害, 并将获得的血液注入6格之内的祭坛. 每个怪物每次伤害消耗2LP, 而基础收获是10LP, 是不是有点赚头? 更棒的是, 你还能通过献祭符文提高收获的LP, 是不是血赚? 更不用说这个仪式可以全自动运行, 自动化获取LP!
 
 # Quest.2455 - Unlimited LP
-#N gtnh.quest2455.name=Unlimited LP
-#N gtnh.quest2455.desc=Making this will give you unlimited LP. But you still need blood for crafting, OK?
+gtnh.quest2455.name=无限的LP
+gtnh.quest2455.desc=制成这个终极气血宝珠, 你将拥有无限的LP. 但你仍然需要血液来进行合成, 不是吗?%n%n译者注: 此宝珠LP上限为10亿, 但注意需要手持此宝珠才能补充灵魂网络中的LP, 类似的还有创造法杖或中子法杖.
 
 # Quest.2456 - Demon Blood Shards
-#N gtnh.quest2456.name=Demon Blood Shards
-#N gtnh.quest2456.desc=To get Demon Blood Shards, you'll need to summon and kill a demon. To summon one you'll need to arrange the pedestals around the plinth as such:%n%nxpxpx%nxxxxx%npxPxp%nxxxxx%nxpxpx%n%nx=space, p=pedestal, P=plinth%n%nPlace a bound master orb on the plinth and the appropriate sacrifices on the pedestals. They must all be the same element. Specifically, Aether, Incendium, Aquasalus, Terrae, Tenebrae, or Sanctus.%n%nAfter the lightning, the demon will appear. It won't always drop the shard, so prepare multiple sets.
+gtnh.quest2456.name=恶魔气血碎片
+gtnh.quest2456.desc=想要获得恶魔气血碎片, 你得先召唤一只恶魔然后杀死它. 你得先像这样放置奥术基座:%n%nxpxpx%nxxxxx%npxPxp%nxxxxx%nxpxpx%n%nx=空位, p=基座, P=基柱%n%n在基柱上放置一个绑定过的导师气血宝珠(或以上), 然后再基座上放上相应的祭品. 祭品需要拥有相同元素. 神圣粉末, 以太元素, 火焰粉末, 液之粉末, 泥土粉末, 暗黑粉末.%n%n启动时会有闪电出现, 一次吸收祭品后恶魔将会出现(其实是元素精灵, 更多恶魔召唤请参考教程). 杀死恶魔并不会总是掉落碎片, 所以最好一次准备多套祭品.
 
 # Quest.2457 - Starter Key
-#N gtnh.quest2457.name=Starter Key
-#N gtnh.quest2457.desc=You need this to start Rituals. More complex rituals need the Activated version. To use it, bind it to yourself and right click on the center of the ritual.
+gtnh.quest2457.name=启动器
+gtnh.quest2457.desc=你需要这个才能启动仪式. 更复杂的仪式需要更高级的启动器. 制作出来后你需要首先右键以将其绑定到自己, 然后右键主仪式石即可启动仪式.
 
 # Quest.2458 - Micro-Rituals
-#N gtnh.quest2458.name=Micro-Rituals
-#N gtnh.quest2458.desc=Don't want to use all that space for rituals? Use the Soul Compactor to reduce them to a single block!
+gtnh.quest2458.name=微型仪式
+gtnh.quest2458.desc=不想让仪式占用太多空间? 那就用灵魂压缩器把仪式压缩到一个方块里吧!%n%n译者注: 手持宝珠右键此方块即可压缩上方仪式, 不过宝珠会被吃掉...
 
 # Quest.2459 - Tier 5 Sigils
-#N gtnh.quest2459.name=Tier 5 Sigils
-#N gtnh.quest2459.desc=They're of seriously questionable utility this time, so why not try to get the blood arsenal ones as well? Collect them all!%n%nPS: You need Lightning Sigils for the Transcendent Orb
+gtnh.quest2459.name=5阶印记
+gtnh.quest2459.desc=它们的实用性严重值得怀疑, 所以何不尝试血液兵工厂(Blood-Arsenal)的印记呢? 把它们收集齐吧!%n%nPS: 闪电印记是制作卓越气血宝珠的必需品...
 
 # Quest.2460 - It holds more, ok?
-#N gtnh.quest2460.name=It holds more, ok?
-#N gtnh.quest2460.desc=But why is it transparent?
+gtnh.quest2460.name=它能承载更多, 没错吧?
+gtnh.quest2460.desc=但是它为什么是透明的?
 
 # Quest.2461 - 'Easy' Teleportation
-#N gtnh.quest2461.name='Easy' Teleportation
-#N gtnh.quest2461.desc=They may be a pain to craft, but teleposers are very useful for teleporting. Use the Teleposition Focus to set the first Teleposer location and put it in the second. Apply a redstone signal, and it'll teleport you at the cost of LP. It can also move items or entities, with the size increasing with better foci.
+gtnh.quest2461.name='简便'传送
+gtnh.quest2461.desc=传送器非常好用, 虽然制作起来比较痛苦... 对着1号传送器使用传送方位核心可以记录坐标, 将这个核心放入2号传送器中, 给2号传送器一个红石信号即可将范围内的物品、实体、还有方块传送到1号传送器上方. 当然这会消耗LP. 跟高级的核心拥有更大的范围.%n%n译者注: 在服务器使用此装置传送含NBT的方块时需要特别注意, 服务器性能不够或者网络卡顿可能造成数据丢失. 没错我说的就是GT机器, 我不会告诉你我用这玩意弄丢过好几个矿机...
 
 # Quest.2462 - Ritual Dismantler
-#N gtnh.quest2462.name=Ritual Dismantler
-#N gtnh.quest2462.desc=Use this to quickly dismantle a ritual.
+gtnh.quest2462.name=仪式拆解杖
+gtnh.quest2462.desc=使用仪式拆解杖可以快速拆除仪式并自动回收仪式石.
 
 ##################################Line##################################
 
