@@ -587,7 +587,7 @@ game.setLocalization("tc.research_name.VoidWalkerBootsGTNH", "\u865a\u7a7a\u65c5
 game.setLocalization("tc.research_text.VoidWalkerBootsGTNH", "\u5f98\u5f8a\u4e4b\u5f71");
 mods.thaumcraft.Research.addPage("VoidWalkerBootsGTNH", "tm.text.VOIDWALKERBOOTS.1");
 mods.thaumcraft.Infusion.addRecipe("VoidWalkerBootsGTNH", <Thaumcraft:BootsTraveller>,
-[<Thaumcraft:ItemEldritchObject>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemEldritchObject>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>], 
+[<Thaumcraft:ItemEldritchObject>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:18599>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemEldritchObject>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:18599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>], 
 "alienis 64, iter 84, tenebrae 72, tutamen 64, vacuos 64, praecantatio 32", <TaintedMagic:ItemVoidwalkerBoots>, 12);
 mods.thaumcraft.Research.addInfusionPage("VoidWalkerBootsGTNH", <TaintedMagic:ItemVoidwalkerBoots>);
 mods.thaumcraft.Warp.addToResearch("VoidWalkerBootsGTNH", 4);
@@ -624,20 +624,20 @@ game.setLocalization("tc.research_name.VoidFortressGTNH", "\u865a\u7a7a\u8981\u5
 game.setLocalization("tc.research_text.VoidFortressGTNH", "\u4e00\u5207\u5c3d\u5728\u638c\u63a7\u4e4b\u4e2d");
 mods.thaumcraft.Research.addPage("VoidFortressGTNH", "tm.text.VOIDFORTRESS.1");
 mods.thaumcraft.Infusion.addRecipe("VoidFortressGTNH", <Thaumcraft:ItemHelmetVoid>,
-[<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>], 
+[<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:19599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>], 
 "alienis 32, metallum 48, praecantatio 48, tutamen 48, vacuos 32, tenebrae 16, potentia 16, victus 32", <TaintedMagic:ItemVoidFortressHelmet>, 12);
 mods.thaumcraft.Research.addInfusionPage("VoidFortressGTNH", <TaintedMagic:ItemVoidFortressHelmet>);
 mods.thaumcraft.Warp.addToResearch("VoidFortressGTNH", 5);
 
 // --- Void Fortress Cuirass
 mods.thaumcraft.Infusion.addRecipe("VoidFortressGTNH", <Thaumcraft:ItemChestplateVoid>,
-[<gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17351>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>], 
+[<gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:19599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17351>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:19599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>], 
 "alienis 32, metallum 64, praecantatio 64, tutamen 64, vacuos 32, tenebrae 16, potentia 16, cognitio 32", <TaintedMagic:ItemVoidFortressChestplate>, 12);
 mods.thaumcraft.Research.addInfusionPage("VoidFortressGTNH", <TaintedMagic:ItemVoidFortressChestplate>);
 
 // --- Void Tight Guards
 mods.thaumcraft.Infusion.addRecipe("VoidFortressGTNH", <Thaumcraft:ItemLeggingsVoid>,
-[<Thaumcraft:ItemBaubleBlanks:2>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>], 
+[<Thaumcraft:ItemBaubleBlanks:2>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:19599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>], 
 "alienis 32, metallum 32, praecantatio 32, tutamen 32, vacuos 32, tenebrae 16, potentia 16, terra 32", <TaintedMagic:ItemVoidFortressLeggings>, 12);
 mods.thaumcraft.Research.addInfusionPage("VoidFortressGTNH", <TaintedMagic:ItemVoidFortressLeggings>);
 
@@ -652,20 +652,20 @@ game.setLocalization("tc.research_name.ShadowFortressArmorGTNH", "\u6697\u5f71\u
 game.setLocalization("tc.research_text.ShadowFortressArmorGTNH", "\u65e0\u9650\u6708\u8bfb");
 mods.thaumcraft.Research.addPage("ShadowFortressArmorGTNH", "tm.text.SHADOWFORTRESSARMOR.1");
 mods.thaumcraft.Infusion.addRecipe("ShadowFortressArmorGTNH", <TaintedMagic:ItemVoidFortressHelmet>,
-[<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <gregtech:gt.metaitem.01:17323>], 
+[<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <gregtech:gt.metaitem.01:17323>], 
 "alienis 48, metallum 64, praecantatio 64, tutamen 64, vacuos 48, tenebrae 32, potentia 32, victus 48", <TaintedMagic:ItemShadowFortressHelmet>, 16);
 mods.thaumcraft.Research.addInfusionPage("ShadowFortressArmorGTNH", <TaintedMagic:ItemShadowFortressHelmet>);
 mods.thaumcraft.Warp.addToResearch("ShadowFortressArmorGTNH", 10);
 
 // --- Shadow Fortress Cuirass
 mods.thaumcraft.Infusion.addRecipe("ShadowFortressArmorGTNH", <TaintedMagic:ItemVoidFortressChestplate>,
-[<TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>], 
+[<TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>], 
 "alienis 48, metallum 84, praecantatio 84, tutamen 84, vacuos 48, tenebrae 32, potentia 32, cognitio 48", <TaintedMagic:ItemShadowFortressChestplate>, 16);
 mods.thaumcraft.Research.addInfusionPage("ShadowFortressArmorGTNH", <TaintedMagic:ItemShadowFortressChestplate>);
 
 // --- Shadow Tight Guards
 mods.thaumcraft.Infusion.addRecipe("ShadowFortressArmorGTNH", <TaintedMagic:ItemVoidFortressLeggings>,
-[<Thaumcraft:ItemBaubleBlanks:2>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <gregtech:gt.metaitem.01:17323>], 
+[<Thaumcraft:ItemBaubleBlanks:2>, <gregtech:gt.metaitem.01:17323>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:BlockShadowmetal>, <TaintedMagic:BlockShadowmetal>, <gregtech:gt.metaitem.01:17323>], 
 "alienis 48, metallum 48, praecantatio 48, tutamen 48, vacuos 32, tenebrae 32, potentia 32, terra 48", <TaintedMagic:ItemShadowFortressLeggings>, 16);
 mods.thaumcraft.Research.addInfusionPage("ShadowFortressArmorGTNH", <TaintedMagic:ItemShadowFortressLeggings>);
 
