@@ -3114,6 +3114,7 @@ item.BasicAlgaeItem.6.name=可培植藻类(VII)
 
 //Added 17/01/20
 item.BasicGenericChemItem.6.name=粉色金属催化剂
+
 //Added 23/03/20
 item.BasicMetaFood.0.name=生人肉
 item.BasicMetaFood.1.name=熟人肉
@@ -3146,25 +3147,36 @@ item.milledSphalerite.name=研磨闪锌矿
 item.milledNickel.name=研磨镍矿
 item.milledPlatinum.name=研磨铂矿
 item.milledPentlandite.name=研磨镍黄铁矿
-
-item.BasicGenericChemItem.7.name=铝研磨球
-item.BasicGenericChemItem.8.name=皂石研磨球
-
 item.FrothZincflotation.name=闪锌矿浮选泡沫单元
 item.FrothCopperflotation.name=黄铜矿浮选泡沫单元
 item.FrothNickelflotation.name=镍矿浮选泡沫单元
 item.FrothPlatinumflotation.name=铂矿浮选泡沫单元
 item.FrothPentlanditeflotation.name=镍黄铁矿浮选泡沫单元
+item.BasicGenericChemItem.7.name=铝研磨球
+item.BasicGenericChemItem.8.name=皂石研磨球
 
 //Added 31/03/20
 item.BasicGenericChemItem.9.name=乙醇钠粉
 item.BasicGenericChemItem.10.name=乙基黄原酸钠粉
 item.BasicGenericChemItem.11.name=乙基黄原酸钾粉
 item.BasicGenericChemItem.12.name=氢氧化钾粉
-
 item.CarbonDisulfide.name=二硫化碳单元
 item.HydrogenSulfide.name=硫化氢单元
-
 item.BasicAgrichemItem.24.name=松果
 item.BasicAgrichemItem.25.name=松树碎料
 item.pineoil.name=松油单元
+
+//Added 11/4/20
+#N item.milledRedstone.name=Milled Redstone
+#N item.milledSpessartine.name=Milled Spessartine
+#N item.milledGrossular.name=Milled Grossular
+#N item.milledAlmandine.name=Milled Almandine
+#N item.milledPyrope.name=Milled Pyrope
+#N item.FrothRedstoneflotation.name=Redstone Flotation Froth Cell
+#N item.FrothSpessartineflotation.name=Spessartine Flotation Froth Cell
+#N item.FrothGrossularflotation.name=Grossular Flotation Froth Cell
+#N item.FrothAlmandineflotation.name=Almandine Flotation Froth Cell
+#N item.FrothPyropeflotation.name=Pyrope Flotation Froth Cell
+
+//Added 13/04/20
+#N item.T3RecipeSelector.name=Programmed Breakthrough Circuit
