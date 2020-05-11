@@ -74,8 +74,8 @@ item.kekztech_crafting_item.14.name=钇锆陶瓷板
 item.kekztech_crafting_item.15.name=钆铈陶瓷板
 item.kekztech_crafting_item.16.name=物流刀片服务器
 
-#N item.kekztech_thaumiumreinforcedjarfilled_item.name=Thaumium Reinforced Jar with Essentia
-#N item.kekztech_ichorjarfilled_item.name=Ichor Jar with Essentia
+item.kekztech_thaumiumreinforcedjarfilled_item.name=神秘源质罐子
+item.kekztech_ichorjarfilled_item.name=灵宝源质罐子
 
 tile.kekztech_gdcceramicelectrolyteunit_block.name=钆铈陶瓷电解质单元
 tile.kekztech_yszceramicelectrolyteunit_block.name=钇锆陶瓷电解质单元
@@ -99,17 +99,17 @@ tile.kekztech_itemserverdrive_block.name=物流服务器驱动器
 tile.kekztech_itemserverrackcasing_block.name=物流服务器外壳
 tile.kekztech_itemserverioport_block.name=物流服务器输入/出总线
 
-#N tile.kekztech_thaumiumreinforcedjar_block.name=Thaumium Reinforced Jar
-#N item.kekztech_thaumiumreinforcedjarfilled_item.name=Thaumium Reinforced Jar with Essentia
-#N item.kekztech_thaumiumreinforcedjarfilled_item.void.name=Thaumium Reinforced Void Jar with Essentia
-#N tile.kekztech_ichorjar_block.name=Ichor Jar
-#N item.kekztech_ichorjarfilled_item.name=Ichor Jar with Essentia
-#N item.kekztech_ichorjarfilled_item.void.name=Ichor Void Jar with Essentia
+tile.kekztech_thaumiumreinforcedjar_block.name=神秘源质罐子
+item.kekztech_thaumiumreinforcedjarfilled_item.name=神秘源质罐子
+item.kekztech_thaumiumreinforcedjarfilled_item.void.name=神秘虚空罐子
+tile.kekztech_ichorjar_block.name=灵宝源质罐子
+item.kekztech_ichorjarfilled_item.name=灵宝源质罐子
+item.kekztech_ichorjarfilled_item.void.name=神秘灵宝罐子
 
-#N tc.research_name.THAUMIUMREINFORCEDJAR=Thaumium Reinforced Jars
-#N kekztech.research_page.THAUMIUMREINFORCEDJAR.0=You have heard your fellow Thaumaturges talk about the benefits of digitized Essentia Storage.<BR><BR>Storing enough Essentia for your advanced infusions has indeed been an issue for you too. However those jars are simply too pleasing to look at to even consider the idea of replacing them with some compact technological construct.<BR><BR>Thanks to this new discovery, you have managed to quadruple the capacity of your jars by improving them with a thick Thaumium lining. This should buy you some more time to come up with a better solution.
-#N kekztech.research_page.THAUMIUMREINFORCEDJAR.1=Compressing this much Essentia in such a tiny space causes some volatility. Picking up reinforced jars is probably a bad idea...<BR><BR>You imagine that you could get even more out of your jars if only you had some kind of material harder than even diamond or any of the other magical metal you have seen so far. 
-#N tc.research_name.ICHORJAR=Ichor Jars
-#N kekztech.research_page.ICHORJAR=This is it!<BR><BR>By infusing a jar with just a single piece of Ichor you have created something to rival digitized Essentia storage without sacrificing any of the beauty of Warded Jars.<BR><BR>Ichor Jars can hold an astounding 4096 Essentia and fit nicely into your recently aquired set of Ichor based achievements.<BR><BR>You definitely don't want to disturb these jars. Luckily Ichor is resilient enough to make accidentially destroying one unlikely.  
+tc.research_name.THAUMIUMREINFORCEDJAR=神秘源质罐子
+kekztech.research_page.THAUMIUMREINFORCEDJAR.0=你曾听你的神秘使伙伴谈起过数字化源质存储的便利.<BR><BR>为高阶注魔存储足够的源质,你现在面临同样的问题. However those jars are simply too pleasing to look at to even consider the idea of replacing them with some compact technological construct.<BR><BR>Thanks to this new discovery, you have managed to quadruple the capacity of your jars by improving them with a thick Thaumium lining. This should buy you some more time to come up with a better solution.
+kekztech.research_page.THAUMIUMREINFORCEDJAR.1=Compressing this much Essentia in such a tiny space causes some volatility. Picking up reinforced jars is probably a bad idea...<BR><BR>You imagine that you could get even more out of your jars if only you had some kind of material harder than even diamond or any of the other magical metal you have seen so far. 
+tc.research_name.ICHORJAR=灵宝源质罐子
+kekztech.research_page.ICHORJAR=This is it!<BR><BR>By infusing a jar with just a single piece of Ichor you have created something to rival digitized Essentia storage without sacrificing any of the beauty of Warded Jars.<BR><BR>Ichor Jars can hold an astounding 4096 Essentia and fit nicely into your recently aquired set of Ichor based achievements.<BR><BR>You definitely don't want to disturb these jars. Luckily Ichor is resilient enough to make accidentially destroying one unlikely.  
 
 
