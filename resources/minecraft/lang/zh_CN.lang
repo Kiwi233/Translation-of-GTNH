@@ -5257,7 +5257,7 @@ gtnh.quest1313.name=1K-ME存储元件
 gtnh.quest1313.desc=最底层的存储单元.拥有1024字节的存储空间.1024字节可以容纳127组或者65个单一物品,同时可以支持存储63种不同的物品.1K存储单元每存储一类物品需要消耗8字节的存储空间. 存储单元需要和ME驱动器或者ME箱子搭配使用,这个组件将以0.5AE/T的速度消耗能源. 你可以将组件内的所有物品全部取出后,手持存储元件按住SHIFT右击,或者在合成栏里面将它拆分成存储组件和存储外壳.
 
 # Quest.1314 - 1k Component
-gtnh.quest1314.name=1k组件
+gtnh.quest1314.name=1k-ME存储组件
 gtnh.quest1314.desc=最小的存储组件,用来制作1K的存储元件,或者作为4K存储组件的零件. 你可以通过清空1K-ME存储元件内的数据来回收1K存储单元,手持清空后的1K-ME存储元件按住SHIFT右键.
 
 # Quest.1315 - 1k Crafting Storage
@@ -5269,7 +5269,7 @@ gtnh.quest1316.name=4K-ME存储单元
 gtnh.quest1316.desc=第二层的存储单元.拥有4096字节的存储空间.4096字节可以容纳508组或者260个单一物品,同时可以支持存储63种不同的物品.4K存储单元每存储一类物品需要消耗32字节的存储空间. 存储单元需要和ME驱动器或者ME箱子搭配使用,这个组件将以1AE/T的速度消耗能源. 你可以将组件内的所有物品全部取出后,手持存储元件按住SHIFT右击,或者在合成栏里面将它拆分成存储组件和存储外壳.
 
 # Quest.1317 - 4k Component
-gtnh.quest1317.name=4K组件
+gtnh.quest1317.name=4K-ME存储组件
 gtnh.quest1317.desc=第二小的存储组件,用来制作4K的存储元件,或者作为16K存储组件的零件. 你可以通过清空4K-ME存储元件内的数据来回收4K存储单元,手持清空后的4K-ME存储元件按住SHIFT右键.
 
 # Quest.1318 - 4k Crafting Storage
@@ -9854,175 +9854,175 @@ gtnh.quest2462.desc=使用仪式拆解杖可以快速拆除仪式并自动回收
 
 # Quest.2463 - AE Tier 3 Item Storage
 gtnh.quest2463.name=3阶AE存储
-gtnh.quest2463.desc=The main processor for 256k and 1024k cells. You can make these in IV.
+gtnh.quest2463.desc=这是256K和1024K-ME存储组件所需的3阶物品处理器. 在IV阶段你就能制造它了.
 
 # Quest.2464 - 256k Component
-gtnh.quest2464.name=256k Component
-gtnh.quest2464.desc=They work the same as the previous ones, but hold more once you make it into something.
+gtnh.quest2464.name=256K-ME存储组件
+gtnh.quest2464.desc=这种组件与之前的组件没什么区别, 所不同的是, 当将其装入高级存储外壳制成元件后, 它能装下更多的东西.
 
 # Quest.2465 - 1024k Component
-gtnh.quest2465.name=1024k Component
-gtnh.quest2465.desc=Same as 256k.
+gtnh.quest2465.name=1024K-ME存储组件
+gtnh.quest2465.desc=这种组件与之前的组件没什么区别, 所不同的是, 当将其装入高级存储外壳制成元件后, 它能装下更多的东西.
 
 # Quest.2466 - 4096k Component
-gtnh.quest2466.name=4096k Component
-gtnh.quest2466.desc=Also same as 256k.
+gtnh.quest2466.name=4096K-ME存储组件
+gtnh.quest2466.desc=这种组件与之前的组件没什么区别, 所不同的是, 当将其装入高级存储外壳制成元件后, 它能装下更多的东西.
 
 # Quest.2467 - 16384k Component
-gtnh.quest2467.name=16384k Component
-gtnh.quest2467.desc=The REAL final tier. Until someone adds more...
+gtnh.quest2467.name=16384K-ME存储组件
+gtnh.quest2467.desc=目前最高级的组件. 直到有人再添加更大的...
 
 # Quest.2468 - 256k Item Storage Cell
-gtnh.quest2468.name=256k Item Storage Cell
-gtnh.quest2468.desc=They're bigger.
+gtnh.quest2468.name=256K-ME存储元件
+gtnh.quest2468.desc=更大.
 
 # Quest.2469 - 1024k Item Storage Cell
-gtnh.quest2469.name=1024k Item Storage Cell
-gtnh.quest2469.desc=Again, they're just bigger.
+gtnh.quest2469.name=1024K-ME存储元件
+gtnh.quest2469.desc=更更大.
 
 # Quest.2470 - 4096k Item Storage Cell
-gtnh.quest2470.name=4096k Item Storage Cell
-gtnh.quest2470.desc=Are you expecting something? They just hold more.
+gtnh.quest2470.name=4096K-ME存储元件
+gtnh.quest2470.desc=你还在期待什么? 更更更大.
 
 # Quest.2471 - 16384k Item Storage Cell
-gtnh.quest2471.name=16384k Item Storage Cell
-gtnh.quest2471.desc=They may have a fancy texture, but the numbers are just higher. They hold about 133,169,152 of a single item, so about the same as a Quantum Chest I. If you want more storage, use Quantum Chests with storage busses.
+gtnh.quest2471.name=16384K-ME存储元件
+gtnh.quest2471.desc=它的材质看起来很花哨, 不过它的确能够存储巨量物品. 它能存下133,169,152个单一种类物品, 这个数字与量子箱-I一致. 要是你对这玩意还不满意的话, 那就用更高级的量子箱配合存储总线吧.
 
 # Quest.2472 - 256k Crafting Storage
-gtnh.quest2472.name=256k Crafting Storage
-gtnh.quest2472.desc=Component of the crafting CPU which provides 262,144 bytes of storage for crafting.%n%n§4There's currently a bug with EC2 crafting storage units that requires you to use one of the vanilla AE2 crafting storages along with it in order to allow the network to recognize it.
+gtnh.quest2472.name=256k合成存储器
+gtnh.quest2472.desc=构建合成CPU的组件, 可提供262,144字节合成缓存.%n%n§4目前EC2添加的大容量合成存储器存在bug----你需要使用至少一个原版AE2合成存储器, 才能让ME网络识别这个合成CPU.
 
 # Quest.2473 - 1024k Crafting Storage
-gtnh.quest2473.name=1024k Crafting Storage
-gtnh.quest2473.desc=Component of the crafting CPU which provides 1,048,576 bytes of storage for crafting.
+gtnh.quest2473.name=1024k合成存储器
+gtnh.quest2473.desc=构建合成CPU的组件, 可提供1,048,576字节合成缓存.
 
 # Quest.2474 - 4096k Crafting Storage
-gtnh.quest2474.name=4096k Crafting Storage
-gtnh.quest2474.desc=Component of the crafting CPU which provides 4,194,304 bytes of storage for crafting.
+gtnh.quest2474.name=4096k合成存储器
+gtnh.quest2474.desc=构建合成CPU的组件, 可提供4,194,304字节合成缓存.
 
 # Quest.2475 - 16384k Crafting Storage
-gtnh.quest2475.name=16384k Crafting Storage
-gtnh.quest2475.desc=Component of the crafting CPU which provides 4,194,304 bytes of storage for crafting.
+gtnh.quest2475.name=16384k合成存储器
+gtnh.quest2475.desc=构建合成CPU的组件, 可提供4,194,304字节合成缓存.
 
 # Quest.2476 - AE Tier 4 Item Storage
-gtnh.quest2476.name=AE Tier 4 Item Storage
-gtnh.quest2476.desc=The main processor for 4096k and 16384k cells. You'll need to be in LuV for these.
+gtnh.quest2476.name=4阶AE存储
+gtnh.quest2476.desc=这是4096K和14384K-ME存储组件所需的4阶物品处理器. 你得进入LuV阶段才能制造它们.
 
 # Quest.2477 - AE Tier 1 Fluid Storage
-gtnh.quest2477.name=AE Tier 1 Fluid Storage
-gtnh.quest2477.desc=The main processor for 1K, 4K, 16k, and 64k fluid cells.%n%nDon't want to get rid of your super tanks? Use the fluid storage bus instead of these then. Super tanks double in capacity each tier, but these quadruple. Plus they're less expensive for sure. But the earlier ones may not be worth it.%n%n§4AE2 with fluids is kinda buggy. Report problems so they can (hopefully) be fixed, ok?
+gtnh.quest2477.name=1阶AE流体存储
+gtnh.quest2477.desc=这是1K、4K、16K、和64K-ME流体存储组件所需的1阶流体处理器.%n%n还不想丢掉你的超级缸? 那就给它们装上流体存储总线吧. 要知道每个等级的超级缸容量变为原来的2倍, 但每个等级的ME流体存储元件的容量会变为原来的4倍. 当然, 超级缸更便宜.%n%n§4AE2的流体存储存在不少bug. 请向我们反馈这些bug, 这样我们就能修复它们了(希望吧)!
 
 # Quest.2478 - 1k Fluid Component
-gtnh.quest2478.name=1k Fluid Component
-gtnh.quest2478.desc=They work the same as the item one, but hold fluids.
+gtnh.quest2478.name=1K-ME流体存储组件
+gtnh.quest2478.desc=这些流体存储组件的工作方式与普通物品存储组件差不多, 所不同的是存储的是流体.
 
 # Quest.2479 - 4k Fluid Component
-gtnh.quest2479.name=4k Fluid Component
-gtnh.quest2479.desc=Same as 1k.
+gtnh.quest2479.name=4K-ME流体存储组件
+gtnh.quest2479.desc=这些流体存储组件的工作方式与普通物品存储组件差不多, 所不同的是存储的是流体.
 
 # Quest.2480 - 16k Fluid Component
-gtnh.quest2480.name=16k Fluid Component
-gtnh.quest2480.desc=Same as 1k.
+gtnh.quest2480.name=16K-ME流体存储组件
+gtnh.quest2480.desc=这些流体存储组件的工作方式与普通物品存储组件差不多, 所不同的是存储的是流体.
 
 # Quest.2481 - 64k Fluid Component
-gtnh.quest2481.name=64k Fluid Component
-gtnh.quest2481.desc=Same as 1k.
+gtnh.quest2481.name=64K-ME流体存储组件
+gtnh.quest2481.desc=这些流体存储组件的工作方式与普通物品存储组件差不多, 所不同的是存储的是流体.
 
 # Quest.2482 - 1k Fluid Storage Cell
-gtnh.quest2482.name=1k Fluid Storage Cell
-gtnh.quest2482.desc=Unlike the item version, these can only hold 5 types of liquids each. This tier holds 256 buckets if you fill it with a single fluid. If you fill it with 5 different fluids, you can have 51 and 1/5 buckets of each. You'll want to make the fluid terminal to see what you have.
+gtnh.quest2482.name=1K-ME流体存储元件
+gtnh.quest2482.desc=与存储物品的元件不同, 这些流体存储元件每个只能存储5种流体. 1K的流体存储元件可以存储256桶单一流体. 如果存储5种流体, 那么平均下来每种流体的容量为51又1/5桶. 制作一个流体终端, 这样你就可以了解ME网络中的流体状态了.
 
 # Quest.2483 - 4k Fluid Storage Cell
-gtnh.quest2483.name=4k Fluid Storage Cell
-gtnh.quest2483.desc=These hold 1,024 buckets, or 1,024,000L of a single fluid.
+gtnh.quest2483.name=4K-ME流体存储元件
+gtnh.quest2483.desc=这种元件可以存储1,024桶, 或者说1,024,000L单一流体.
 
 # Quest.2484 - 16k Fluid Storage Cell
-gtnh.quest2484.name=16k Fluid Storage Cell
-gtnh.quest2484.desc=These hold 4,096 buckets, or 4,096,000L of a single fluid. They finally match a Super Tank I.
+gtnh.quest2484.name=16K-ME流体存储元件
+gtnh.quest2484.desc=这种元件可以存储4,096桶, 或者说4,096,000L单一流体. 基本相当于1个超级缸I的容量.
 
 # Quest.2485 - 64k Fluid Storage Cell
-gtnh.quest2485.name=64k Fluid Storage Cell
-gtnh.quest2485.desc=These hold 16,384 buckets, or 16,384,000L of a single fluid. Equivalent to a Super Tank III.
+gtnh.quest2485.name=64K-ME流体存储元件
+gtnh.quest2485.desc=这种元件可以存储16,384桶, 或者说16,384,000L单一流体. 基本相当于1个超级缸III的容量.
 
 # Quest.2486 - Fluid Storage Housing
-gtnh.quest2486.name=Fluid Storage Housing
-gtnh.quest2486.desc=This is the fluid version, for storing fluids in your network.
+gtnh.quest2486.name=流体存储外壳
+gtnh.quest2486.desc=这是ME存储外壳的流体版本, 与组件结合用于存储ME网络中的流体.
 
 # Quest.2487 - Housing for Advanced Components
-gtnh.quest2487.name=Housing for Advanced Components
-gtnh.quest2487.desc=You need to use this for the higher tiered cells.
+gtnh.quest2487.name=高级存储外壳
+gtnh.quest2487.desc=高阶存储组件需要使用此外壳才能制成可用的元件.
 
 # Quest.2488 - AE Tier 2 Fluid Storage
-gtnh.quest2488.name=AE Tier 2 Fluid Storage
-gtnh.quest2488.desc=The main processor for 256K, 1024k and 4096K fluid cells. You'll need to be in IV for these.
+gtnh.quest2488.name=2阶AE流体存储
+gtnh.quest2488.desc=这是256K、1024K和4096K流体存储组件所需的2阶流体处理器. 进入IV阶段之后, 你才能制造它们.
 
 # Quest.2489 - 256k Fluid Component
-gtnh.quest2489.name=256k Fluid Component
-gtnh.quest2489.desc=Same as 1k.
+gtnh.quest2489.name=256K-ME流体存储组件
+gtnh.quest2489.desc=这些流体存储组件的工作方式与普通物品存储组件差不多, 所不同的是存储的是流体.
 
 # Quest.2490 - 1024k Fluid Component
-gtnh.quest2490.name=1024k Fluid Component
-gtnh.quest2490.desc=Same as 1k.
+gtnh.quest2490.name=1024K-ME流体存储组件
+gtnh.quest2490.desc=这些流体存储组件的工作方式与普通物品存储组件差不多, 所不同的是存储的是流体.
 
 # Quest.2491 - 4096k Fluid Component
-gtnh.quest2491.name=4096k Fluid Component
-gtnh.quest2491.desc=Final tier of the fluid components.
+gtnh.quest2491.name=4096K-ME流体存储组件
+gtnh.quest2491.desc=最高阶的流体存储组件.(暂时)
 
 # Quest.2492 - 256k Fluid Storage Cell
-gtnh.quest2492.name=256k Fluid Storage Cell
-gtnh.quest2492.desc=These hold 65,536 buckets, or 65,536,000L of a single fluid. They hold a bit more than a Super Tank V.
+gtnh.quest2492.name=256K-ME流体存储元件
+gtnh.quest2492.desc=这种元件可以存储65,536桶, 或者说65,536,000L单一流体. 稍微比超级缸V更能装一点.
 
 # Quest.2493 - 1024k Fluid Storage Cell
-gtnh.quest2493.name=1024k Fluid Storage Cell
-gtnh.quest2493.desc=These hold 262,144 buckets, or 262,144,000L of a single fluid. A little more than a Quantum Tank II.
+gtnh.quest2493.name=1024K-ME流体存储元件
+gtnh.quest2493.desc=这种元件可以存储262,144桶, 或者说262,144,000L单一流体. 稍微比量子缸II更能装一点.
 
 # Quest.2494 - 4096k Fluid Storage Cell
-gtnh.quest2494.name=4096k Fluid Storage Cell
-gtnh.quest2494.desc=This is the final tier. It §hholds 1,048,576 buckets, or 1,048,576,000L. So about the same as a Quantum Tank IV.
+gtnh.quest2494.name=4096K-ME流体存储元件
+gtnh.quest2494.desc=最高阶的流体存储元件. 它能§h存储1,048,576桶, 或者说1,048,576,000L. 容量与量子缸IV大致相等.
 
 # Quest.2495 - AE Essentia Storage
-gtnh.quest2495.name=AE Essentia Storage
-gtnh.quest2495.desc=The main processor for 1K, 4K, 16k, and 64k essentia cells.%n%nUse your AE network to store all that nasty essentia! Remember, you need to do the research first.
+gtnh.quest2495.name=AE源质存储
+gtnh.quest2495.desc=这是1K、4K、16K、和64K-ME源质存储组件所需的源质处理器.%n%n用ME网络来存储所有讨厌的源质吧! 别忘了先解锁相应研究.
 
 # Quest.2496 - Tier 1 Fluid Storage
-gtnh.quest2496.name=Tier 1 Fluid Storage
-gtnh.quest2496.desc=This is the essentia version, for storing essentia in your network.
+gtnh.quest2496.name=1阶AE源质存储
+gtnh.quest2496.desc=这是数字化存储的源质版本, 可以用于在你的网络中存储源质.
 
 # Quest.2497 - 1k Essentia Component
-gtnh.quest2497.name=1k Essentia Component
-gtnh.quest2497.desc=They work the same as the item one, but hold essentia.
+gtnh.quest2497.name=1K-ME源质存储组件
+gtnh.quest2497.desc=这些源质存储组件的工作方式与普通物品存储组件差不多, 所不同的是存储的是源质.
 
 # Quest.2498 - 4k Essentia Component
-gtnh.quest2498.name=4k Essentia Component
-gtnh.quest2498.desc=Same as 1k.
+gtnh.quest2498.name=4K-ME源质存储组件
+gtnh.quest2498.desc=这些源质存储组件的工作方式与普通物品存储组件差不多, 所不同的是存储的是源质.
 
 # Quest.2499 - 16k Essentia Component
-gtnh.quest2499.name=16k Essentia Component
-gtnh.quest2499.desc=Same as 1k.
+gtnh.quest2499.name=16K-ME源质存储组件
+gtnh.quest2499.desc=这些源质存储组件的工作方式与普通物品存储组件差不多, 所不同的是存储的是源质.
 
 # Quest.2500 - 64k Essentia Component
-gtnh.quest2500.name=64k Essentia Component
-gtnh.quest2500.desc=Final tier of essentia components.
+gtnh.quest2500.name=64K-ME源质存储组件
+gtnh.quest2500.desc=最高阶的源质存储组件.(暂时)
 
 # Quest.2501 - 1k Essentia Storage Cell
 gtnh.quest2501.name=1k Essentia Storage Cell
 gtnh.quest2501.desc=Unlike the item version, these can only hold 12 types of essentia each. This tier holds 2,048 units if you fill it with a single type of essentia. If you fill it with 12 different types of essentia, you can have about 168 units of each. If you want one for every type of essentia, you'll need 62 of them. You'll want to make the essentia terminal to see what you have. They consume the same amount of AE as the item ones.
 
 # Quest.2502 - 4k Essentia Storage Cell
-gtnh.quest2502.name=4k Essentia Storage Cell
-gtnh.quest2502.desc=These hold 8,192 units of essentia.
+gtnh.quest2502.name=4K-ME源质存储元件
+gtnh.quest2502.desc=这种元件可以存储8,192 units of essentia.
 
 # Quest.2503 - 16k Essentia Storage Cell
-gtnh.quest2503.name=16k Essentia Storage Cell
-gtnh.quest2503.desc=These hold 32,768 units of essentia.
+gtnh.quest2503.name=16K-ME源质存储元件
+gtnh.quest2503.desc=这种元件可以存储32,768 units of essentia.
 
 # Quest.2504 - 64k Essentia Storage Cell
-gtnh.quest2504.name=64k Essentia Storage Cell
-gtnh.quest2504.desc=These hold 131,072 units of essentia.
+gtnh.quest2504.name=64K-ME源质存储元件
+gtnh.quest2504.desc=这种元件可以存储131,072 units of essentia.
 
 # Quest.2505 - AE Spatial Storage
 gtnh.quest2505.name=AE Spatial Storage
-gtnh.quest2505.desc=The main processor for 2^3, 16^3, and 128^3 essentia cells.%n%nHave you ever wanted to pack up and move your entire base, but thought it was too much of a pain? Wish you could just teleport the whole thing? Well now you, uh, still can't, because GT blocks DO NOT PLAY WELL with being teleported by AE spatial stuff. Like, world corruption level bad. But you could make a teleporter I guess?
+gtnh.quest2505.desc=这是2^3, 16^3, and 128^3 essentia cells.%n%nHave you ever wanted to pack up and move your entire base, but thought it was too much of a pain? Wish you could just teleport the whole thing? Well now you, uh, still can't, because GT blocks DO NOT PLAY WELL with being teleported by AE spatial stuff. Like, world corruption level bad. But you could make a teleporter I guess?
 
 # Quest.2506 - AE Spatial Storage
 gtnh.quest2506.name=AE Spatial Storage
