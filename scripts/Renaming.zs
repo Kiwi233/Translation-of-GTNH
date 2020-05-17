@@ -45,7 +45,7 @@
 // --- Applied Energistics 2 ---
 
 // --- Creative Energy Cell ---
-<appliedenergistics2:tile.BlockCreativeEnergyCell>.displayName = "\u4e2d\u5b50\u80fd\u91cf\u5355\u5143";
+<appliedenergistics2:tile.BlockCreativeEnergyCell>.displayName = "\u4e2d\u5b50\u80fd\u6e90\u5143\u4ef6";
 <appliedenergistics2:tile.BlockCreativeEnergyCell>.addTooltip(format.lightPurple("\u65e0\u5c3d\u7684\u80fd\u91cf"));
 
 
