@@ -1,5 +1,29 @@
 item.kekztech_error_item.name=KekzTech错误硬币
 
+# -------- Multiblock Tooltip Builder Keywords
+# -------- Context can be found in the class util.MultiBlockTooltipBuilder
+#N mbdesc.beginStructureBlock.Dimensions=Dimensions
+#N mbdesc.beginStructureBlock.Structure=Structure
+#N mbdesc.addController.Controller=Controller
+#N mbdesc.addCasing.atleast=(at least)
+#N mbdesc.addEnergyHatch.EnergyHatch=Energy Hatch
+#N mbdesc.addDynamoHatch.DynamoHatch=Dynamo Hatch
+#N mbdesc.addMaintenanceHatch.MaintenanceHatch=Maintenance Hatch
+#N mbdesc.addIOHatches.IOHatches=I/O Hatches
+#N mbdesc.addInputBus.InputBus=Input Bus/ses
+#N mbdesc.addInputHatch.InputHatch=Input Hatch/es
+#N mbdesc.addOutputBus.OutputBus=Output Bus/ses
+#N mbdesc.addOutputHatch.OutputHatch=Output Hatch/es
+#N mbdesc.signAndFinalize.Hold=Hold
+#N mbdesc.signAndFinalize.todisplay=to display structure guidelines
+#N mbdesc.signAndFinalize.createdby=Created by
+
+# -------- Reactor: Structure Blocks
+tile.kekztech_controlrod_block.name=核反应堆控制棒
+tile.kekztech_reactorchamberoff_block.name=核反应堆室(OFF)
+tile.kekztech_reactorchamberon_block.name=核反应堆室(ON)
+
+# -------- Reactor: Heat Vents
 item.kekztech_reactor_item.0.name=简易散热风扇
 item.kekztech_reactor_item.1.name=基础散热风扇
 item.kekztech_reactor_item.2.name=进阶散热风扇
@@ -13,11 +37,13 @@ item.kekztech_reactor_item.9.name=基础超频散热风扇
 item.kekztech_reactor_item.10.name=进阶超频散热风扇
 item.kekztech_reactor_item.11.name=高科技超频散热风扇
 
+# -------- Reactor: Heat Exchangers
 item.kekztech_reactor_item.12.name=简易热交换器
 item.kekztech_reactor_item.13.name=基础热交换器
 item.kekztech_reactor_item.14.name=进阶热交换器
 item.kekztech_reactor_item.15.name=高科技热交换器
 
+# -------- Reactor: Fuel Rods
 item.kekztech_reactor_item.16.name=燃料棒(浓缩铀)
 item.kekztech_reactor_item.17.name=二联燃料棒(浓缩铀)
 item.kekztech_reactor_item.18.name=四联燃料棒(浓缩铀)
@@ -34,6 +60,7 @@ item.kekztech_reactor_item.28.name=燃料棒(钍MOX)
 item.kekztech_reactor_item.29.name=二联燃料棒(钍MOX)
 item.kekztech_reactor_item.30.name=四联燃料棒(钍MOX)
 
+# -------- Reactor: Fuel Rods (Depleted)
 item.kekztech_reactor_item.31.name=枯竭燃料棒(浓缩铀)
 item.kekztech_reactor_item.32.name=枯竭二联燃料棒(浓缩铀)
 item.kekztech_reactor_item.33.name=枯竭四联燃料棒(浓缩铀)
@@ -50,12 +77,15 @@ item.kekztech_reactor_item.43.name=枯竭燃料棒(钍MOX)
 item.kekztech_reactor_item.44.name=枯竭燃料棒(钍MOX)
 item.kekztech_reactor_item.45.name=枯竭燃料棒(钍MOX)
 
+# -------- Reactor: Neutron Reflectors
 item.kekztech_reactor_item.46.name=中子反射板
 item.kekztech_reactor_item.47.name=超级中子反射板(坚不可摧)
 
+# -------- Reactor: Coolant Cells
 item.kekztech_reactor_item.48.name=氦冷却单元
 item.kekztech_reactor_item.49.name=钠钾冷却单元
 
+# -------- Reactor: Crafting Components
 item.kekztech_crafting_item.0.name=铜导热管
 item.kekztech_crafting_item.1.name=银导热管
 item.kekztech_crafting_item.2.name=砷化硼导热管
@@ -65,6 +95,12 @@ item.kekztech_crafting_item.5.name=钻石同位素粉
 item.kekztech_crafting_item.6.name=氨基甲酸酯粉
 item.kekztech_crafting_item.7.name=砷化硼晶体
 item.kekztech_crafting_item.8.name=钻石同位素晶体
+
+# -------- Fuel Cell: Structure Blocks
+tile.kekztech_gdcceramicelectrolyteunit_block.name=钆铈陶瓷电解质单元
+tile.kekztech_yszceramicelectrolyteunit_block.name=钇锆陶瓷电解质单元
+
+# -------- Fuel Cell: Crafting Components
 item.kekztech_crafting_item.9.name=钇锆陶瓷粉
 item.kekztech_crafting_item.10.name=钆铈陶瓷粉
 item.kekztech_crafting_item.11.name=氧化钇粉
@@ -72,44 +108,73 @@ item.kekztech_crafting_item.12.name=氧化锆粉
 item.kekztech_crafting_item.13.name=氧化铈粉
 item.kekztech_crafting_item.14.name=钇锆陶瓷板
 item.kekztech_crafting_item.15.name=钆铈陶瓷板
-item.kekztech_crafting_item.16.name=物流刀片服务器
 
-item.kekztech_thaumiumreinforcedjarfilled_item.name=神秘源质罐子
-item.kekztech_ichorjarfilled_item.name=灵液源质罐子
-
-tile.kekztech_gdcceramicelectrolyteunit_block.name=钆铈陶瓷电解质单元
-tile.kekztech_yszceramicelectrolyteunit_block.name=钇锆陶瓷电解质单元
-
+# -------- TFFT: Structure Blocks
 tile.kekztech_tfftcasingblock_block.name=T.F.F.T机械方块
 tile.kekztech_tfftstoragefieldblock1_block.name=T.F.F.T存储库方块(T1)
+#N tile.kekztech_tfftstoragefieldblock1_block.0.desc=This is not a fluid tank
 tile.kekztech_tfftstoragefieldblock2_block.name=T.F.F.T存储库方块(T2)
 tile.kekztech_tfftstoragefieldblock3_block.name=T.F.F.T存储库方块(T3)
 tile.kekztech_tfftstoragefieldblock4_block.name=T.F.F.T存储库方块(T4)
 tile.kekztech_tfftstoragefieldblock5_block.name=T.F.F.T存储库方块(T5)
 tile.kekztech_tfftmultihatch_block.name=T.F.F.T流体输入/出仓
+#N tile.kekztech_tfftmultihatch_block.0.desc=Special hatch for the T.F.F.T
+#N tile.kekztech_tfftmultihatch_block.1.desc=Allows for automated interaction with all stored fluids in a single place
+#N tile.kekztech_tfftmultihatch_block.2.desc=Right-click with screwdriver to activate auto-output
+#N tile.kekztech_tfftmultihatch_block.3.desc=Auto-output will try to output fluids into adjacent tanks at a rate of 1000L/s per fluid
 
-tile.kekztech_controlrod_block.name=核反应堆控制棒
-tile.kekztech_reactorchamberoff_block.name=核反应堆室(OFF)
-tile.kekztech_reactorchamberon_block.name=核反应堆室(ON)
-
-tile.kekztech_itemproxycable_block.name=物流网络线缆
-tile.kekztech_itemproxysource_block.name=物流网络源
-tile.kekztech_itemproxyendpoint_block.name=物流网络终端
+# -------- Item Server: Structure Blocks
 tile.kekztech_itemserverdrive_block.name=物流服务器驱动器
+#N tile.kekztech_itemserverdrive_block.0.desc=Item Server Storage Drive
 tile.kekztech_itemserverrackcasing_block.name=物流服务器外壳
+#N tile.kekztech_itemserverrackcasing_block.0.desc=Shiny new server rack
 tile.kekztech_itemserverioport_block.name=物流服务器输入/出总线
+#N tile.kekztech_itemserverioport_block.0.desc=I/O Port for interfacing with an Item Server
 
-tile.kekztech_thaumiumreinforcedjar_block.name=神秘源质罐子
-item.kekztech_thaumiumreinforcedjarfilled_item.name=神秘源质罐子
-item.kekztech_thaumiumreinforcedjarfilled_item.void.name=神秘虚空罐子
-tile.kekztech_ichorjar_block.name=灵液源质罐子
-item.kekztech_ichorjarfilled_item.name=灵液源质罐子
-item.kekztech_ichorjarfilled_item.void.name=灵液虚空罐子
+# -------- Item Server: Crafting Components
+item.kekztech_crafting_item.16.name=物流刀片服务器
 
+# -------- Item Proxy: Structure Blocks
+tile.kekztech_itemproxycable_block.name=物流网络线缆
+#N tile.kekztech_itemproxycable_block.0.desc=Connects Item Proxy Nodes
+tile.kekztech_itemproxysource_block.name=物流网络源
+#N tile.kekztech_itemproxysource_block.0.desc=Point to an inventory to act as source for the item proxy network
+#N tile.kekztech_itemproxysource_block.1.desc=Insert an Integrated Circuit to set the network channel
+#N tile.kekztech_itemproxysource_block.2.desc=Only one source can use one channel on the same network
+tile.kekztech_itemproxyendpoint_block.name=物流网络终端
+#N tile.kekztech_itemproxyendpoint_block.0.desc=Point the marked side to where you want to provide an inventory proxy to
+#N tile.kekztech_itemproxyendpoint_block.1.desc=Insert an Integrated Circuit to set the network channel
+
+# -------- Lapotronic Super Capacitor: Structure Blocks
+#N tile.kekztech_lapotronicenergyunit_block.0.name=Lapotronic Super Capacitor Casing
+#N tile.kekztech_lapotronicenergyunit_block.1.name=Lapotronic Capacitor (IV)
+#N tile.kekztech_lapotronicenergyunit_block.2.name=Lapotronic Capacitor (LuV)
+#N tile.kekztech_lapotronicenergyunit_block.3.name=Lapotronic Capacitor (ZPM)
+#N tile.kekztech_lapotronicenergyunit_block.4.name=Lapotronic Capacitor (UV)
+#N tile.kekztech_lapotronicenergyunit_block.5.name=Ultimate Capacitor (UHV)
+#N tile.kekztech_lapotronicenergyunit_block.desc=Part of the Lapotronic Super Capacitor
+
+# -------- Thaumium Reinforced Jar: Block
+tile.kekztech_thaumiumreinforcedjar_block.0.name=神秘源质罐子
+#N tile.kekztech_thaumiumreinforcedjar_block.3.name=Thaumium Reinforced Void Jar
+
+# -------- Thaumium Reinforced Jar: Research
+# This is the name of the research
 tc.research_name.THAUMIUMREINFORCEDJAR=神秘源质罐子
+# This is the subtext for the research note (I think)
+#N tc.research_text.THAUMIUMREINFORCEDJAR=Slightly better jars
+# Lore text for the research pages
 kekztech.research_page.THAUMIUMREINFORCEDJAR.0=你曾听你的神秘使伙伴谈起过数字化源质存储的便利.<BR><BR>为高阶注魔存储足够的源质,你现在面临着同样的问题.但是这些源质罐子实在太讨人喜欢了,你甚至没有考虑用某种更紧凑的技术结构来代替它们.<BR><BR>随着研究的深入,你发现有了一层厚厚的神秘锭内衬,罐子的容量可以变为原来的4倍.要是有充足的时间,你相信还有更好的解决方式.
-kekztech.research_page.THAUMIUMREINFORCEDJAR.1=在如此狭小的空间中压缩这么多的源质会导致一些不稳定性.所以捡起这种加强罐子可能是个糟糕的主意...<BR><BR>可以想象,如果有某种材料比钻石,或比目前为止你所见过的任何其他神秘金属更坚硬的话,以此制成的源质罐子一定能给你惊喜.
-tc.research_name.ICHORJAR=灵液源质罐子
-kekztech.research_page.ICHORJAR=就是这个!<BR><BR>将一点灵液注魔进源质罐子,你获得了可以与数字化源质存储相匹敌,同时还不用牺牲美感的新罐子.<BR><BR>灵液源质罐子可以装下惊人的4096点源质,非常适合你刚解锁的这些基于灵液的注魔.<BR><BR>你绝对不会想打扰这些罐子的.不过幸运的是,灵液源质罐子拥有足够的柔韧性,不太容易被误操作摧毁.
+#B kekztech.research_page.THAUMIUMREINFORCEDJAR.1=Compressing this much Essentia in such a tiny space causes some volatility. Picking up reinforced jars is probably a bad idea...<BR><BR>You imagine that you could get even more out of your jars if only you had some kind of material harder than even diamond or any of the other magical metal you have seen so far. 
+#A kekztech.research_page.THAUMIUMREINFORCEDJAR.1=Compressing this much Essentia in such a tiny space causes some volatility. Picking up reinforced jars is probably a bad idea...<BR><BR>You imagine that you could get even more out of your jars if only you had some kind of material harder than even diamond or any of the other magical metal you have seen so far.
+#C kekztech.research_page.THAUMIUMREINFORCEDJAR.1=在如此狭小的空间中压缩这么多的源质会导致一些不稳定性.所以捡起这种加强罐子可能是个糟糕的主意...<BR><BR>可以想象,如果有某种材料比钻石,或比目前为止你所见过的任何其他神秘金属更坚硬的话,以此制成的源质罐子一定能给你惊喜.
 
+# -------- Ichor Jar: Block
+tile.kekztech_ichorjar_block.0.name=灵液源质罐子
+#N tile.kekztech_ichorjar_block.3.name=Ichor Void Jar
+
+# -------- Ichor Jar: Research
+tc.research_name.ICHORJAR=灵液源质罐子
+#N tc.research_text.ICHORJAR=Much better jars
+#N kekztech.research_page.ICHORJAR.0=This is it!<BR><BR>By infusing a jar with just a single piece of Ichor you have created something to rival digitized Essentia storage without sacrificing any of the beauty of Warded Jars.<BR><BR>Ichor Jars can hold an astounding 4096 Essentia and fit nicely into your recently aquired set of Ichor based achievements.<BR><BR>You definitely don't want to disturb these jars. Luckily Ichor is resilient enough to make accidentially destroying one unlikely.
 
