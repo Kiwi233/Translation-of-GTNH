@@ -55,7 +55,7 @@ item.MiscUtils.material.dustCryotheum.name=凛冰之尘
 item.MiscUtils.material.rodBlizz.name=暴雪棒
 item.MiscUtils.material.dustBlizz.name=暴雪粉
 
-//==============
+//============= 'miscutils' is Case Sensitive Here, unsure why
 tile.miscutils.fluid.pyrotheum.name=烈焰之炽焱
 tile.miscutils.fluid.cryotheum.name=极寒之凛冰
 tile.miscutils.fluid.ender.name=谐振熔融末影珍珠
@@ -3180,3 +3180,58 @@ item.FrothPyropeflotation.name=镁铝榴石浮选泡沫单元
 
 //Added 13/04/20
 item.T3RecipeSelector.name=突破编程电路
+
+//Added 03/05/20
+entity.miscutils.batKing.name=幽灵蝙蝠
+entity.miscutils.bigChickenFriendly.name=大鸡
+entity.miscutils.AusDingo.name=澳洲野狗
+entity.miscutils.AusBoar.name=澳洲野猪
+entity.miscutils.AusSpider.name=森林蜘蛛
+entity.miscutils.AusOctopus.name=澳洲章鱼
+container.EggBox=鸡蛋孵化盒
+
+//Added 24/05/20
+container.VolumetricFlaskSetter=容量瓶配置器
+
+//Added 26/05/20
+item.itemIngotLaurenium.name=劳伦姆锭
+item.itemHotIngotLaurenium.name=热劳伦姆锭
+item.itemDustLaurenium.name=劳伦姆粉
+item.itemDustTinyLaurenium.name=小撮劳伦姆粉
+item.itemDustSmallLaurenium.name=小堆劳伦姆粉
+item.itemNuggetLaurenium.name=劳伦姆粒
+item.itemPlateLaurenium.name=劳伦姆板
+item.itemPlateDoubleLaurenium.name=双重劳伦姆板
+item.itemBoltLaurenium.name=劳伦姆螺栓
+item.itemRodLaurenium.name=劳伦姆杆
+item.itemRodLongLaurenium.name=长劳伦姆杆
+item.itemRingLaurenium.name=劳伦姆环
+item.itemScrewLaurenium.name=劳伦姆螺丝
+item.itemRotorLaurenium.name=劳伦姆转子
+item.itemGearLaurenium.name=劳伦姆齿轮
+item.itemCellLaurenium.name=劳伦姆单元
+tile.Block of Laurenium.name=劳伦姆块
+tile.Laurenium Frame Box.name=劳伦姆框架
+item.itemIngotBotmium.name=博特姆锭
+item.itemHotIngotBotmium.name=热博特姆锭
+item.itemDustBotmium.name=博特姆粉
+item.itemDustTinyBotmium.name=小撮博特姆粉
+item.itemDustSmallBotmium.name=小堆博特姆粉
+item.itemNuggetBotmium.name=博特姆粒
+item.itemPlateBotmium.name=博特姆板
+item.itemPlateDoubleBotmium.name=双重博特姆板
+item.itemBoltBotmium.name=博特姆螺栓
+item.itemRodBotmium.name=博特姆杆
+item.itemRodLongBotmium.name=长博特姆杆
+item.itemRingBotmium.name=博特姆环
+item.itemScrewBotmium.name=博特姆螺丝
+item.itemRotorBotmium.name=博特姆转子
+item.itemGearBotmium.name=博特姆齿轮
+item.itemCellBotmium.name=博特姆单元
+tile.Block of Botmium.name=博特姆块
+tile.Botmium Frame Box.name=博特姆框架
+
+//Added 29/05/20
+item.itemBasicTurbine.name=基础涡轮
+item.itemBasicTurbine_0.name=基础铁涡轮
+item.itemBasicTurbine_1.name=基础青铜涡轮
