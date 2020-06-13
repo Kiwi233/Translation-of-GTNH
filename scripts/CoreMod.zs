@@ -926,6 +926,11 @@ recipes.addShaped(<dreamcraft:tile.DiamondFrameBox>, [
 [<ore:stickDiamond>, <ore:craftingToolWrench>, <ore:stickDiamond>],
 [<ore:stickDiamond>, <ore:stickDiamond>, <ore:stickDiamond>]]);
 
++// --- Coinage Mold
+recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
+[null, null, null],
+[null, BlankCast, null],
+[File, WireCutter, null]]);	
 
 
 
