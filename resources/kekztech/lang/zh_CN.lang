@@ -161,7 +161,7 @@ tile.kekztech_thaumiumreinforcedjar_block.3.name=神秘虚空罐子
 # -------- Thaumium Reinforced Jar: Research
 # This is the name of the research
 tc.research_name.THAUMIUMREINFORCEDJAR=神秘源质罐子
-# This is the subtext for the research note (I think)
+# This is the subtext for the research note
 tc.research_text.THAUMIUMREINFORCEDJAR=略好的罐子
 # Lore text for the research pages
 kekztech.research_page.THAUMIUMREINFORCEDJAR.0=你曾听你的神秘使伙伴谈起过数字化源质存储的便利.<BR><BR>为高阶注魔存储足够的源质,你现在面临着同样的问题.但是这些源质罐子实在太讨人喜欢了,你甚至没有考虑用某种更紧凑的技术结构来代替它们.<BR><BR>随着研究的深入,你发现有了一层厚厚的神秘锭内衬,罐子的容量可以变为原来的4倍.要是有充足的时间,你相信还有更好的解决方式.
@@ -176,3 +176,10 @@ tc.research_name.ICHORJAR=灵液源质罐子
 tc.research_text.ICHORJAR=非常好的罐子
 kekztech.research_page.ICHORJAR.0=就是这个!<BR><BR>将一点灵液注魔进源质罐子,你获得了可以与数字化源质存储相匹敌,同时还不用牺牲美感的新罐子.<BR><BR>灵液源质罐子可以装下惊人的4096点源质,非常适合你刚解锁的这些基于灵液的注魔.<BR><BR>你绝对不会想打扰这些罐子的.不过幸运的是,灵液源质罐子拥有足够的柔韧性,不太容易被误操作摧毁.
 
+# -------- Space Elevator: Block
+tile.kekztech_spaceelevator_block.0.name=太空电梯基座
+tile.kekztech_spaceelevator_block.1.name=太空电梯线圈
+tile.kekztech_spaceelevator_block.desc=太空电梯基站的一部分
+tile.kekztech_spaceelevatorcapacitor_block.name=太空电梯电容
+tile.kekztech_spaceelevatorcapacitor_block.desc=透视对你的FPS有好处!
+tile.kekztech_spaceelevatortether_block.name=太空电梯线缆

@@ -321,6 +321,7 @@ gui.status.sealed.name=密封的
 gui.status.unknown.name=未知
 gui.status.disabled.name=禁用的
 gui.status.nofuel.name=无燃料可用!
+gui.status.lowtier.name=燃料质量太低!
 gui.status.noitems.name=无物品可加载!
 gui.status.notargetload.name=无效加载目标!
 gui.status.notargetunload.name=无效卸载目标!
@@ -723,3 +724,4 @@ gc.configgui.meteorBlockDamage=Meteor Block Damage Enabled(流星伤害开启)
 gc.configgui.disableUpdateCheck=Disable Update Check(禁用更新检查)
 
 gc.configgui.title=Galacticraft Core Config(星系核心配置文件)
+
