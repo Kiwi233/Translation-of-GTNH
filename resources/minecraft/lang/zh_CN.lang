@@ -9590,7 +9590,7 @@ gtnh.quest2396.desc=过氧化氢需在GT++化工厂制取.  将空气、2-乙基
 
 # Quest.2397 - Playing with the Big Boys, chemically
 gtnh.quest2397.name=大男孩,咱们来玩玩化工吧
-gtnh.quest2397.desc=该设施将为你处理稍后需要的某些化学配方.比如火箭燃料. 注意,只有达到配方所需化工厂等级才能运行相应配方.%n%n而且化工厂需要大量资源,开始采矿吧! 某些配方需要催化剂, 将它们放在催化剂仓内. 催化剂消耗耐久, 包括看起来没有耐久的.%n%n§3碳化硅可在搅拌机中获得, 不一定需要合金冶炼炉.§r%n%n可用的固体外壳:(决定可处理的配方等级)%n0 强化青铜机械方块%n1 脱氧钢机械方块%n2 强化铝机械方块%n3 洁净不锈钢机械方块%n4 加强钛机械方块%n5 强化钨钢机械方块%n6 强化劳伦姆机械方块%n7 强化博特姆机械方块%n%n可用的机械方块:(决定仓室/总线的等级上限)%nLV-UHV机械方块%n%n可用的管道方块:(+2并行, -20％催化剂消耗几率)%n青铜%n钢%n钛%n钨钢%n%n可用的线圈:(每个等级提速+50％, 初始速度50％)%n白铜%n坎塔尔合金%n镍铬合金%n钨钢%n高速钢-G%n硅岩%n硅岩合金%n译者注: 更高级的线圈仍然可以运行, 但没有提速效果.
+gtnh.quest2397.desc=该设施将为你处理稍后需要的某些化学配方.比如火箭燃料. 注意,只有达到配方所需化工厂等级才能运行相应配方.%n%n而且化工厂需要大量资源,开始采矿吧! 某些配方需要催化剂, 将它们放在催化剂仓内. 催化剂消耗耐久, 包括看起来没有耐久的.%n%n§3碳化硅可在搅拌机中获得, 不一定需要合金冶炼炉.§r%n%n可用的固体外壳:(决定可处理的配方等级)%n0 强化青铜机械方块%n1 脱氧钢机械方块%n2 强化铝机械方块%n3 洁净不锈钢机械方块%n4 加强钛机械方块%n5 强化钨钢机械方块%n6 强化劳伦姆合金机械方块%n7 强化博特姆合金机械方块%n%n可用的机械方块:(决定仓室/总线的等级上限)%nLV-UHV机械方块%n%n可用的管道方块:(+2并行, -20％催化剂消耗几率)%n青铜%n钢%n钛%n钨钢%n%n可用的线圈:(每个等级提速+50％, 初始速度50％)%n白铜%n坎塔尔合金%n镍铬合金%n钨钢%n高速钢-G%n硅岩%n硅岩合金%n译者注: 更高级的线圈仍然可以运行, 但没有提速效果.
 
 # Quest.2398 - §3§lHidden drawers
 gtnh.quest2398.name=§3§l隐藏式抽屉
@@ -10782,19 +10782,19 @@ gtnh.quest2609.desc=如果想要一些这种高度神秘的材料, 你需要前�
 
 # Quest.2695 - Serious Upgrades
  gtnh.quest2695.name=重大升级
- gtnh.quest2695.desc=So if you thought 'hey, the purple stuff wasn't that bad, why not make the green?'. Well, first of all, you may need professional help. Second, you're going to need to be in ZPM to make the casings you need, full stop. You need a ZPM ABS for the components, so come back once you've made a ZPM Energy Hatch.%n%nYou can probably figure most of it out on your own, but keep in mind that some of the materials need to be created in the ABS, solidified, macerated, and then used in another ABS recipe. Examples are: Hastelloy-N and Inconel-792.%n%nLaurenium is also like this, and also inclues Rhenium and Dysprosium. Rhenium uses a nonstandard ABS recipe to make, and Dysprosium requires either making Rare Earth (III) or going to the Toxic Everglades. You'll also need to make Rare Earth (I) for Ytterbium or, again, visit the Everglades for it.%n%nHave fun with that!%n%n§3You'll almost certainly need more than this, but the exact amount, as always, depends on your hatches and busses.
+ gtnh.quest2695.desc=如果你觉得'嘿, 这个紫色的东西还不错, 为什么不做绿色的呢?'. 好吧, 首先, 你可能需要专业协助. 第二, 你需要进入ZPM阶段才能制造所需的机械方块, 完毕. 一台ZPM的合金冶炼炉是制作部件必不可少的机器, 所以等你制造出ZPM能源仓再来吧.%n%n你可能可以自行解决大部分问题, 但请记住, 某些材料需要在合金冶炼炉中才能制成, 固化, 打粉, 然后作为另一配方的原料重新投入合金冶炼炉中. 比如: 哈斯特洛依合金-N和镍铬基合金-792.%n%n劳伦姆合金也是这样, 还包括铼和镝. 铼是由非标合金冶炼炉配方制出的, 而镝需要稀土(III)或前往废土世界才能制得. 你还需要稀土(I)中的镱或者再次前往废土世界.%n%n玩得开心!%n%n§3几乎可以肯定, 你将需要的比任务要求的多, 但一如既往, 确切的数量取决于你的仓室/总线数量.
 
 # Quest.2696 - Beyond the Limit
- gtnh.quest2696.name=Beyond the Limit
- gtnh.quest2696.desc=Rugged Botmium Casings are currently completely optional, as well as being hard to make. They also don't do anything, other than return the CP back to a reasonable color, since there's no T7 recipes.%n%nYou can certainly figure out the rest by now, but the Advanced Nitinol may confuse you. You make it out of blocks of Nitinol 60 with a Quantum Anomaly in a Laser Engraver. This means you need to make the Cyclotron, and hit 2 1％ chances in a row, so good luck with that!
+ gtnh.quest2696.name=超越极限
+ gtnh.quest2696.desc=强化博特姆合金机械方块目前完全可以制造, 但制造起来可不容易. 目前它们没有任何作用, 除了让化工厂换个颜色, 因为还不存在7阶配方.%n%n我相信你一定可以找出其他的材料, 除了高级镍钛诺可能让你有点头疼. 它是由镍钛诺60块配合量子反常在激光蚀刻机制成的. 这意味着你需要先搭一个紧凑式回旋加速器, 并连续碰上两次1％的几率. 祝你好运!
 
 # Quest.2697 - Chlorine, Your New Best Friend
- gtnh.quest2697.name=Chlorine, Your New Best Friend
- gtnh.quest2697.desc=Chlorine is a fluid that is used in significant quantities throughout the game, so you might as well get used to collecting it now.%n%nYou can electrolyse Salt, Rock Salt, Sodalite (finally a use!), or Salt Water for it. Since you'll need so much, you may wish to consider using your first Super Tank to hold it all.
+ gtnh.quest2697.name=氯, 你最好的新朋友
+ gtnh.quest2697.desc=氯是一种在整个游戏过程中大量使用的流体, 所以你不妨现在就习惯收集它.%n%n你可以电解盐、岩盐、方钠石(终于有用了!)、或者盐水. 因为你需要量非常庞大, 不妨考虑用第一个超级缸来容纳它.
 
 # Quest.2698 - Niobium Needs
- gtnh.quest2698.name=Niobium Needs
- gtnh.quest2698.desc=While you're on Io, you should pick up some ore for Niobium. It'll be worth it later.
+ gtnh.quest2698.name=铌需求
+ gtnh.quest2698.desc=登陆木卫一的时候, 别忘了获取一些用于制造铌的矿石. 不久的将来你就会用上的.
 
 ##################################Line##################################
 
