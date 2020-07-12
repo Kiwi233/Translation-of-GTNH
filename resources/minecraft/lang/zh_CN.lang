@@ -6702,7 +6702,7 @@ gtnh.quest1674.desc=使用IV电路组装机和SoC,你现在可以以更低的成
 
 # Quest.1675 - §b§lGlass Fiber
 gtnh.quest1675.name=§b§l玻璃纤维
-gtnh.quest1675.desc=玻璃纤维用于制作纤维强化电路基板. 硼砂可以从盐矿中提取出来.将其电解以获得硼并将其与玻璃粉搅拌.制出的锭可以在线材轧机中制成玻璃纤维.
+gtnh.quest1675.desc=玻璃纤维用于制作纤维强化电路基板. 硼砂可以从盐矿中提取出来.将其电解以获得硼并将其与玻璃粉搅拌.制出的锭可以在线材轧机中制成玻璃纤维.%n%n译者注: 建议用压模机制作玻璃纤维...
 
 # Quest.1676 - §a§b§lFiber Reinforced Epoxid Sheet
 gtnh.quest1676.name=§a§b§l纤维强化环氧树脂片
@@ -6909,8 +6909,8 @@ gtnh.quest1726.name=5阶火箭
 gtnh.quest1726.desc=经过一个月的努力和数以万计的工业TNT,你的第五枚火箭终于准备好了. 但在你去土星和天王星卫星之前,你需要再制作一些东西.%n%n你需要CN3H7O3(紫色)或者更高级的火箭燃料.
 
 # Quest.1727 - Heavy Duty Nose Cone Tier 3
-gtnh.quest1727.name=3阶重型鼻锥
-gtnh.quest1727.desc=每枚火箭都需要一个鼻锥. 5阶火箭需要一个3阶重型鼻锥.
+gtnh.quest1727.name=3阶重型火箭鼻锥
+gtnh.quest1727.desc=每枚火箭都需要一个鼻锥. 5阶火箭需要一个3阶重型火箭鼻锥.
 
 # Quest.1728 - Heavy Duty Rocket Engine Tier 3
 gtnh.quest1728.name=3阶重型火箭引擎
@@ -6926,7 +6926,7 @@ gtnh.quest1730.desc=每个火箭都需要燃料罐. 对于5阶火箭,你需要�
 
 # Quest.1731 - Booster Tier 2
 gtnh.quest1731.name=2阶助推器
-gtnh.quest1731.desc=现在行星和卫星之间的距离要大得多,因此火箭需要更大的助推器来达到目的地.
+gtnh.quest1731.desc=现在行星和卫星之间的距离要大得多,因此火箭需要更大的助推器才能到达目的地.
 
 # Quest.1732 - EVA equipment
 gtnh.quest1732.name=EVA装备
@@ -10809,56 +10809,56 @@ gtnh.quest2701.name=混沌能量
 gtnh.quest2701.desc=最终, 无尽的RF! ...但我能用它来做什么?
 
 # Quest.2702 - Tier 7 Schematic
-gtnh.quest2702.name=Tier 7 Schematic
-gtnh.quest2702.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The fourth tier schematic circuit uses an elite circuit and a heavy duty plate tier 6 and the data stick in a ZPM circuit assembler.
+gtnh.quest2702.name=7阶火箭设计图
+gtnh.quest2702.desc=每枚火箭都需要一个设计图. 在HV扫描仪中扫描并将结构数据放在闪存上. 7阶设计图电路需要IV电路板和7阶重型装甲板层以及ZPM电路组装机中的闪存.
 
 # Quest.2703 - Extra Large Fuel Canisters
-gtnh.quest2703.name=Extra Large Fuel Canisters
-gtnh.quest2703.desc=Every rocket needs fuel storage canisters. For the tier 7 rocket you need to craft two large and two extra large canisters.
+gtnh.quest2703.name=特大型燃料罐
+gtnh.quest2703.desc=每枚火箭都需要燃料罐. 对于7阶火箭,你需要制作两个大型和两个特大型燃料罐.
 
 # Quest.2704 - Booster Tier 3
-gtnh.quest2704.name=Booster Tier 3
-gtnh.quest2704.desc=The distance between Planets and Moons is much larger now, so the rocket needs bigger boosters to reach it.
+gtnh.quest2704.name=3阶助推器
+gtnh.quest2704.desc=现在行星和卫星之间的距离要大得多得多,因此火箭需要更大的助推器来达到目的地.
 
 # Quest.2705 - Heavy Duty Rocket Engine Tier 4
-gtnh.quest2705.name=Heavy Duty Rocket Engine Tier 4
-gtnh.quest2705.desc=每枚火箭都需要火箭引擎. 5阶火箭需要3阶重型火箭引擎.
+gtnh.quest2705.name=4阶重型火箭引擎
+gtnh.quest2705.desc=每枚火箭都需要火箭引擎. 7阶火箭需要4阶重型火箭引擎.
 
 # Quest.2706 - Heavy Duty Rocket Fins Tier 4
-gtnh.quest2706.name=Heavy Duty Rocket Fins Tier 4
-gtnh.quest2706.desc=Every rocket needs a few rocket fins. Tier 7 rockets need heavy ones Tier 4.
+gtnh.quest2706.name=4阶重型火箭鳍
+gtnh.quest2706.desc=每枚火箭都需要一些火箭鳍. 7阶火箭需要4阶重型火箭鳍.
 
 # Quest.2707 - Heavy Duty Nose Cone Tier 4
-gtnh.quest2707.name=Heavy Duty Nose Cone Tier 4
-gtnh.quest2707.desc=Every rocket needs a nose cone. Tier 7 rocket needs a heavy nose cone tier 4.
+gtnh.quest2707.name=4阶重型火箭鼻锥
+gtnh.quest2707.desc=每枚火箭都需要一个鼻锥. 7阶火箭需要一个4阶重型火箭鼻锥.
 
 # Quest.2708 - Pluto Dungeon
-gtnh.quest2708.name=Pluto Dungeon
-gtnh.quest2708.desc=After hours and hours you will find a Pluto dungeon. A big hole will show you the way to the dungeon. Go and fight some mobs before you have to kill the Boss Monster. It will drop the key for the chest with the schematic for tier 8 rockets.%n%nThis will open a lot of planets outside of our solar system such as Barnarda.
+gtnh.quest2708.name=冥王星地牢
+gtnh.quest2708.desc=经过无数小时的寻找,你终于发现了冥王星地牢. 一个大洞指示了通往地牢的道路. 在你遇到冥王星Boss之前你必须去和一些小怪打架. 冥王星Boss将掉落宝箱钥匙,宝箱中有8阶火箭的设计图.%n%n这将解锁太阳系外的许多星球, 比如巴纳德星系.
 
 # Quest.2709 - Booster Tier 4
-gtnh.quest2709.name=Booster Tier 4
-gtnh.quest2709.desc=The distance to other solar sytems is quite literally Astronomical, so you'll need even bigger boosters to reach them.
+gtnh.quest2709.name=4阶助推器
+gtnh.quest2709.desc=不同星系之间的距离是天文数字,因此火箭需要更巨大的助推器才能到达目的地.
 
 # Quest.2710 - Tier 8 Schematic
-gtnh.quest2710.name=Tier 8 Schematic
-gtnh.quest2710.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The fourth tier schematic circuit uses an elite circuit and a heavy duty plate tier 8 and the data stick in a UV circuit assembler.
+gtnh.quest2710.name=8阶火箭设计图
+gtnh.quest2710.desc=每枚火箭都需要一个设计图. 在HV扫描仪中扫描并将结构数据放在闪存上. 8阶设计图电路需要IV电路板和8阶重型装甲板层以及UV电路组装机中的闪存.
 
 # Quest.2711 - Fluids for Copying Cultures
-gtnh.quest2711.name=Fluids for Copying Cultures
-gtnh.quest2711.desc=Ok, so let's say you've made some kind of culture, but you want more of it? You only need one per Vat, but they're consumed when making DNA Samples, so you should probably learn how.%n%nTo start off, you'll need to get an eColi Culture.%n%nUse that to make the eColi Bacteria Fluid.§3 (I know the name is completely different, deal with it)§r%n%nCentrifuge that to make Liquid DNA.%n%nAnd combine it with Radon in the Mixer to make FluorecentdDNA.%n%neColi Bacteria Fluid can also be Centrifuged for Plasma Membranes (10% chance) and EnzymesSollution, so do that as well.%n%nAnd then Centrifuge the EnzymesSollution again for Polymerase.%n%nYou should expect to need a significant amount of eColi Bacteria Fluid if you plan on copying a lot of cultures, or making the hard to make ones.%n%n§3To search for items related to copying cultures, search for 'culture', 'dna sample', or 'plasmid'. You can't do this for the Data Orbs, you have to check the uses of DNA Samples.%n%n§5A bunch of the fluids have incorrect spelling, don't blame me for it.
+gtnh.quest2711.name=复制细菌-液体
+gtnh.quest2711.desc=好吧, 你可以说已经获得了不少种类的细菌培养皿, 但你想要更多么? 在细菌培养缸中仅需要一个, 因为它不会被消耗; 但制备DNA样品瓶的时候可就会消耗了, 所以你得学学如何复制它们.%n%n首先, 你需要大肠杆菌培养皿.%n%n然后再制出大肠杆菌液体.§3 (名字看起来有点不同, 不过问题不大)§r%n%n将其离心以获得液态DNA.%n%n再与氡搅拌混合即可获得荧光DNA(FluorecentdDNA).%n%n大肠杆菌液体还可以离心获得质膜[Plasma-Membranes](10%几率)和酶溶液[EnzymesSollution], 一起试试吧.%n%n再次离心酶溶液即可获得聚合酶(Polymerase).%n%n要是你打算复制许多细菌培养皿或者挑战一下概率的话, 你就需要一大批大肠杆菌液体.%n%n§3想要获知复制细菌相关物品需求, 请搜索'培养皿'、'DNA样品瓶'或'质粒'. 光有数据球可没法存储这些复杂的数据, 请查看DNA样品瓶的用途.%n%n§5一堆液体拼写错误, 别怪我.
 
 # Quest.2712 - DNA Samples for Copying Cultures
-gtnh.quest2712.name=DNA Samples for Copying Cultures
-gtnh.quest2712.desc=To copy cultures, you'll need to make a DNA sample first. Many of these have low chances, but this one's 100%. I'm sure you can figure it out yourself, but keep in mind that the Modules are not consumed, and that you may wish to use one of the IC2 Crops for the Detergent materials.
+gtnh.quest2712.name=复制细菌-DNA样品瓶
+gtnh.quest2712.desc=DNA样品瓶是复制细菌的必需品. 大部分样品瓶的制取几率都很低, 但这种是100%. 我相信你可以自己弄清楚的, 但请记住, 模块不会被消耗, 另外某种IC2作物可作为洗涤粉的材料.
 
 # Quest.2713 - Data Orbs for Copying Cultures
-gtnh.quest2713.name=Data Orbs for Copying Cultures
-gtnh.quest2713.desc=After getting your sample you need to encode the information to a Data Orb. Again, many times you'll have to do it repeatedly (the Data Orb is given back if it fails), but in this case it's 100%.%n%n§3Look at the uses of the eColi DNA Sample to see the recipe.
+gtnh.quest2713.name=复制细菌-数据球
+gtnh.quest2713.desc=获取样品瓶后, 你需要将信息编码写入数据球. 同样, 很多时候你得反复进行多次尝试(写入失败的数据球会返还), 但是写入这种样品瓶数据的成功率是100%.%n%n§3请查看大肠杆菌样品瓶的用途以获知配方.
 
 # Quest.2714 - Actually Copying Cultures
-gtnh.quest2714.name=Actually Copying Cultures
-gtnh.quest2714.desc=To copy a culture, you'll need%n1) A Sterilized Petri Dish%n2) A Plasma Membrane (made from Stemcells, or gotten while making EnzymesSollution)%n3) Stemcells%n4) A Data Orb with the appropriate data on it%n5) Liquid DNA%n6) A LuV Bio Lab%n7) A Clonal Cellular Synthesis Module%n%nYou can change out the Data Orb for one with whatever culture you wish to copy. Keep in mind that it might be easier to make a second culture the normal way, and that there's generally an alternative recipe that uses the fluid it produces to make it with a higher chance.%n%nPS: This recipe is the only one in NEI that uses this module, so you can find it if you look, but the number will change, so I can't specify which page.
+gtnh.quest2714.name=复制细菌
+gtnh.quest2714.desc=复制细菌需要准备%n1)一个无菌培养皿%n2)一个质膜(由干细胞制成, 或在制作酶溶液时获得)%n3)干细胞%n4)相应数据球%n5)液态DNA%n6)一台LuV生物实验室%n7)克隆细胞合成模块%n%n数据球可以改换为任意想要复制的细菌数据. 请记住, 以常规方式获得第二个细菌培养皿可能会更容易, 并且通常存在一种替代方法, 该方法可以利用其产生的液体使其具有更高的成功几率.%n%nPS: 此配方是唯一使用模块的配方, 所以你可以一眼就看到, 但数字会改变, 所以我无法准确指出在哪个页面.
 
 # Quest.2715 - General Purpose Fermenting Bacteria
 gtnh.quest2715.name=General Purpose Fermenting Bacteria
