@@ -10,25 +10,25 @@ item.upgrade.core.hopper.name=漏斗升级
 item.upgrade.core.void.name=虚空升级
 item.upgrade.core.creative.name=创造升级
 
-text.jabba.ubgrade.core.ender=把桶成B空间桶
+text.jabba.ubgrade.core.ender=将桶升级为B空间桶
 text.jabba.ubgrade.core.redstone=允许桶发出红石信号
 text.jabba.ubgrade.core.hopper=允许桶自动输出
 text.jabba.ubgrade.core.storage=将储存容量升至%s组
-text.jabba.ubgrade.core.void=一旦桶被填满就会删除多余的额外物品。
-text.jabba.ubgrade.core.creative=允许从桶中无限取出物品。
+text.jabba.ubgrade.core.void=一旦桶被填满就会删除多余的物品
+text.jabba.ubgrade.core.creative=允许从桶中无限取出物品
 
 item.upgrade.side.sticker.name=贴面
 item.upgrade.side.hopper.name=漏斗贴面
 item.upgrade.side.redstone.name=红石贴面
 
-item.upgrade.structural=结构等级 MK
-item.upgrade.structural.0.name=结构等级 MKI (木)
-item.upgrade.structural.1.name=结构等级 MKII (铁)
-item.upgrade.structural.2.name=结构等级 MKIII (金)
-item.upgrade.structural.3.name=结构等级 MKIV (钻石)
-item.upgrade.structural.4.name=结构等级 MKV (黑曜石)
-item.upgrade.structural.5.name=结构等级 MKVI (末地石)
-item.upgrade.structural.6.name=结构等级 MKVII (绿宝石)
+item.upgrade.structural=结构等级-MK
+item.upgrade.structural.0.name=结构等级-MKI(木)
+item.upgrade.structural.1.name=结构等级-MKII(铁)
+item.upgrade.structural.2.name=结构等级-MKIII(金)
+item.upgrade.structural.3.name=结构等级-MKIV(钻石)
+item.upgrade.structural.4.name=结构等级-MKV(黑曜石)
+item.upgrade.structural.5.name=结构等级-MKVI(末地石)
+item.upgrade.structural.6.name=结构等级-MKVII(绿宝石)
 
 item.hammer.normal.name=桶锤
 item.hammer.bspace.name=桶锤(谐振)
@@ -86,6 +86,6 @@ text.jabba.waila.key.content=桶内物品
 text.jabba.waila.key.quantity=物品数量
 text.jabba.waila.key.stacks=最大组数
 
-text.jabba.tooltip.slots.used=插槽以使用：
-text.jabba.tooltip.slots.provided=可用插槽数量：
+text.jabba.tooltip.slots.used=使用插槽数：
+text.jabba.tooltip.slots.provided=可用插槽数：
 text.jabba.tooltip.empty=<空>
