@@ -10861,8 +10861,8 @@ gtnh.quest2714.name=复制细菌
 gtnh.quest2714.desc=复制细菌需要准备%n1)一个无菌培养皿%n2)一个质膜(由干细胞制成, 或在制作酶溶液时获得)%n3)干细胞%n4)相应数据球%n5)液态DNA%n6)一台LuV生物实验室%n7)克隆细胞合成模块%n%n数据球可以改换为任意想要复制的细菌数据. 请记住, 以常规方式获得第二个细菌培养皿可能会更容易, 并且通常存在一种替代方法, 该方法可以利用其产生的液体使其具有更高的成功几率.%n%nPS: 此配方是唯一使用模块的配方, 所以你可以一眼就看到, 但数字会改变, 所以我无法准确指出在哪个页面.
 
 # Quest.2715 - General Purpose Fermenting Bacteria
-gtnh.quest2715.name=General Purpose Fermenting Bacteria
-gtnh.quest2715.desc=So if you looked in NEI and tried to figure out how to make this, you were probably confused by the fact that you use the fluid it produces to make it. This is where NEI is lying to you. Like the previous recipe, NEI doesn't show it correctly (they should be around the same page in NEI, they both also appear to produce Sterilized Petri Dishes, (even if that's not true) and both use unique Modules).%n%nIn order to make this, you'll need to make the Rotten Flesh Bacteria culture, get the DNA Sample, and then get the Data Orb. It changes it's name to beta-Lactamase, that's normal.%n%nThen, do the same thing for Common Yeast (get the right Yeast!).%n%nThen you need to use the recipe to combine the information from the Data Orbs and get the Common Yeast Plasmid from that.%n%nLastly, use the Rotten Flesh Bacteria culture, the Common Yeast Plasmid, Penicillin (make it by centrifuging Common Yeast Fluid), and Distilled Water. You want the Transformation Module for this. It's a 100% chance.%n%nYou'll want to use the normal recipe to make more cultures, since it also becomes beta-Lactamase once you turn it into a DNA Sample.
+gtnh.quest2715.name=通用酵母菌
+gtnh.quest2715.desc=如果你在NEI中查询如何制作, 你可能会感到很困惑--需要用它制造出的液体来制造它. NEI骗了你. 与之前的配方一样, NEI没有正确显示配方(这些配方应该在NEI的同一页附近, 它俩似乎也可用于生产无菌培养皿, (虽然有点不对...) 而且还要求奇怪的模块).%n%n你需要制作出腐肉菌, 获取DNA样品瓶, 然后得到数据球. 名字变为了(β-内酰胺酶), 这是正常现象.%n%n然后, 对普通酵母做同样的事情(得到正确的酵母!).%n%n然后, 你需要使用某种配方来组合来自数据球的信息, 并从中获取普通酵母质粒.%n%n最后, 将腐肉菌, 普通酵母质粒, 青霉素(通过离心普通酵母菌液体获得), 以及蒸馏水. 为此你需要转换模块. 100％成功.%n%n用普通配方制取更多培养皿吧, 因为当你把它转化成DNA样品瓶的时候, 它会变成β-内酰胺酶...
 
 # Quest.2716 - Longbow of the Heavens
 gtnh.quest2716.name=天堂陨落长弓
@@ -10870,27 +10870,27 @@ gtnh.quest2716.desc=与同等等级的武器, 甚至与这把弓的合成材料�
 
 # Quest.2717 - The Ultimate Plastic
 gtnh.quest2717.name=终极塑料
-gtnh.quest2717.desc=拉多X聚合物. 一种高度复杂的塑料, 然鹅目前完全没用... 不过闲的没事可以做做看. *理论上*.%n %n如果你敢于接受这一艰巨的挑战, you need to get the Xenoxene Xenoxis culture first. The recipe is similar to the General Purpose one, so you can't figure it out from NEI. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nFrom this point, it's pretty easy to figure it out, but basically, only Super Light Radox and Diluted Xenoxene (so you can run it again) are useful from Distilling. All the other products are kinda useless.%n%nHave fun with your useless ingot!
+gtnh.quest2717.desc=拉多X聚合物. 一种高度复杂的塑料, 然鹅目前完全没用... 不过闲的没事可以做做看. *理论上*.%n %n如果你敢于接受这一艰巨的挑战, 你得准备好异氙菌. 配方类似于通用酵母菌, 所以NEI里头没有... 请注意, 所有这条线上的配方都是低概率配方.%n%n第一步是获取巴纳德菌, 然后是DNA样品瓶, 再然后是数据球. 如果你之前没有获得树苗和泥土(种植更多的树并获取原木)的话, 回到巴纳德C采集一些吧.%n%n与通用酵母菌配方的唯一区别就是--巴纳德菌的数据球替换了普通酵母. 你需要先获取巴纳德菌质粒.%n%n再次, 下一步的配方还是一样的, 只是换成了鲸鱼座T星E菌和巴纳德菌质粒, 这样就能制得异氙菌. 大概4％的几率.%n%n你也可以选择正常的配方来制取更多培养皿, 因为复制很容易失败.%n%n从这一点来看, 一目了然, 但基本上, 只有超轻拉多X和钝化异氙(所以你可以再来一次)是有点用的. 其他的所有产物都完全没用.%n%n祝你玩得开心!
 
 # Quest.2718 - Does Anyone Even Still Use These?
-gtnh.quest2718.name=Does Anyone Even Still Use These?
-gtnh.quest2718.desc=If you do, they're now really good. I guess. They sound like it at least?
+gtnh.quest2718.name=还有人会用吗?
+gtnh.quest2718.desc=如果你正在用, 那么它们就不错, 我猜. 至少听起来像这么回事?
 
 # Quest.2719 - For All the Artists Out There
-gtnh.quest2719.name=For All the Artists Out There
-gtnh.quest2719.desc=These are the Creative components. Depending on what it is, there's also T2 and T3 components too.
+gtnh.quest2719.name=从那出来的所有艺术家
+gtnh.quest2719.desc=它们是创造组件. 基于它们本身, 还有T2和T3组件.
 
 # Quest.2750 - Proteus Dungeon
-gtnh.quest2750.name=Proteus Dungeon
-gtnh.quest2750.desc=After hours and hours and watching carefully the ground in the dark you will find a Proteus dungeon. A big hole will show you the way to the dungeon. Go and fight some mobs before you have to kill the Boss Monster. It will drop the key for the chest with the schematics for tier 7 rockets.%n%nThis will open the planet Pluto and the Kuiper Belt.
+gtnh.quest2750.name=海卫八地牢
+gtnh.quest2750.desc=经过无数小时的寻找,你终于发现了海卫八地牢. 一个大洞指示了通往地牢的道路. 在你遇到海卫八Boss之前你必须去和一些小怪打架. 海卫八Boss将掉落宝箱钥匙,宝箱中有7阶火箭的设计图.%n%n这将解锁冥王星和柯伊伯带.
 
 # Quest.2751 - Tier 6 Schematic
-gtnh.quest2751.name=Tier 6 Schematic
-gtnh.quest2751.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The fourth tier schematic circuit uses an elite circuit and a heavy duty plate tier 6 and the data stick in a LuV circuit assembler.
+gtnh.quest2751.name=6阶火箭设计图
+gtnh.quest2751.desc=每枚火箭都需要一个设计图. 在HV扫描仪中扫描并将结构数据放在闪存上. 6阶设计图电路需要IV电路板和6阶重型装甲板层以及LuV电路组装机中的闪存.
 
 # Quest.2752 - Enceladus Dungeon
-gtnh.quest2752.name=Enceladus Dungeon
-gtnh.quest2752.desc=After hours and hours and clearing the snow you will find a Enceladus dungeon. A big hole will show you the way to the dungeon. Go and fight some mobs before you have to kill the Boss Monster. It will drop the key for the chest with the schematic for tier 6 rockets.%n%nThis will open the Moons from Neptune.
+gtnh.quest2752.name=土卫二地牢
+gtnh.quest2752.desc=经过无数小时的寻找,你终于发现了土卫二地牢. 一个大洞指示了通往地牢的道路. 在你遇到土卫二Boss之前你必须去和一些小怪打架. 土卫二Boss将掉落宝箱钥匙,宝箱中有6阶火箭的设计图.%n%n这将解锁海王星的卫星.
 
 ##################################Line##################################
 
