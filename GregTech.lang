@@ -6,6 +6,37 @@ enablelangfile {
 
 
 languagefile {
+    # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 19]
+    I:"Book.Chemical Plant Manual.APageNum"=19
+    S:"Book.Chemical Plant Manual.Name"=化工厂手册
+    S:"Book.Chemical Plant Manual.Page00"=This book will explain how the Chemical Plant is constructed, which blocks are valid to upgrade it and also how the upgrades work.
+    S:"Book.Chemical Plant Manual.Page01"=Solid Casings = Plant tier[CR]Machine Casings = Hatch tier[CR]Higher tier coils  More Speed[CR]T1 50% , T2 100% , T3 150%, etc[CR]
+    S:"Book.Chemical Plant Manual.Page02"=Higher tier pipe casings boost parallel[CR]and reduce catalyst consumption[CR]+2 parallel per tier, 20% extra chance of[CR]not damaging catalyst per tier[CR]
+    S:"Book.Chemical Plant Manual.Page03"=Valid Solid Machine Casings:[CR]0 - Strong Bronze[CR]1 - Solid Steel[CR]2 - Sturdy Aluminium[CR]3 - Clean Stainless Steel[CR]4 - Stable Titanium[CR]5 - Robust Tungstensteel[CR]6 - Vigorous Laurenium[CR]7 - Rugged Botmium
+    S:"Book.Chemical Plant Manual.Page04"=Valid Tiered Machine Casings:[CR][CR]1 - ULV[CR]2 - LV[CR]3 - MV[CR]4 - HV[CR]5 - EV[CR]6 - IV[CR]7 - LuV[CR]8 - ZPM[CR]9 - UV[CR]10 - UHV
+    S:"Book.Chemical Plant Manual.Page05"=Valid Pipe Casings:[CR][CR]1 - Bronze[CR]2 - Steel[CR]3 - Titanium[CR]4 - Tungstensteel
+    S:"Book.Chemical Plant Manual.Page06"=Valid Coils:[CR][CR]1 - Cupronickel[CR]2 - Kanthal[CR]3 - Nichrome[CR]4 - Tungstensteel[CR]5 - HSS-G[CR]6 - Naquadah[CR]7 - Naquadah Alloy
+    S:"Book.Chemical Plant Manual.Page07"=Multiblock Requirements:[CR][CR]27x Coils[CR]18x Pipe Casings[CR]57x Tiered Machine Casings[CR]80+ Solid Casings[CR]1x Catalyst Housing (Catalysts cannot go inside an Input Bus)
+    S:"Book.Chemical Plant Manual.Page08"=Construction Guide Pt1:[CR][CR]Controller is placed on a middle casing in the bottom layer[CR]Hatches can only be placed on the bottom layer edges
+    S:"Book.Chemical Plant Manual.Page09"=Construction Guide Pt2:[CR][CR]7x7x7 Hollow frame of solid casings[CR]5x1x5 layer of solid casings (fills in top layer)[CR]5x1x5 layer of machine casings (fills in bottom layer)
+    S:"Book.Chemical Plant Manual.Page10"=Construction Guide Pt3:[CR]In the central 3x5x3:[CR]3x1x3 layer of Coils, surrounded by ring of Machine Casings[CR]3x1x3 layer of Pipe Casings[CR]3x1x3 layer of Coils[CR]3x1x3 layer of Pipe Casings[CR]3x1x3 layer of Coils, surrounded by ring of Machine Casings
+    S:"Book.Chemical Plant Manual.Page11"=Information:[CR][CR]A = Air[CR]X = Solid Casing[CR]M = Machine Casing[CR]P = Pipe Casing[CR]C = Coil Casing
+    S:"Book.Chemical Plant Manual.Page12"=Layer 1:[CR][CR]XXXXXXX[CR]XMMMMMX[CR]XMMMMMX[CR]XMMMMMX[CR]XMMMMMX[CR]XMMMMMX[CR]XXXXXXX
+    S:"Book.Chemical Plant Manual.Page13"=Layer 2:[CR][CR]AAAAAAA[CR]AMMMMMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMMMMMA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page14"=Layer 3:[CR][CR]AAAAAAA[CR]AAAAAAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAAAAAA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page15"=Layer 4:[CR][CR]AAAAAAA[CR]AAAAAAA[CR]AACCCAA[CR]AACCCAA[CR]AACCCAA[CR]AAAAAAA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page16"=Layer 5:[CR][CR]AAAAAAA[CR]AAAAAAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAAAAAA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page17"=Layer 6:[CR][CR]AAAAAAA[CR]AMMMMMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMMMMMA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page18"=Layer 7:[CR][CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX
+
+    # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 5]
+    I:"Book.How to: Modular Baubles.APageNum"=5
+    S:"Book.How to: Modular Baubles.Name"=模块化饰品手册
+    S:"Book.How to: Modular Baubles.Page00"=Concept: This idea came from wanting flexibility. [CR]First step, Build a Modularity table to begin customisation of your Bauble. [CR] After this has been constructed, you can now combine the upgrades listed within this book to improve the baubles level/100.
+    S:"Book.How to: Modular Baubles.Page01"=Defence:[CR]Can be upgraded by combining metal plates with the bauble. [CR] | +1 | Aluminium [CR] | +2 | Stainless Steel [CR] | +3 | Tungsten [CR] | +4 | Tungsten Steel [CR] | +5 | Naquadah [CR]
+    S:"Book.How to: Modular Baubles.Page02"=There was once a sad and lonely oak tree. [CR]
+    S:"Book.How to: Modular Baubles.Page03"=There was once a sad and lonely oak tree. [CR]
+    S:"Book.How to: Modular Baubles.Page04"=There was once a sad and lonely oak tree. [CR]
     S:"Book.Microwave Oven Manual.Name"=微波炉手册
     S:"Book.Microwave Oven Manual.Page00"=恭喜！你将一本表面上空空如也的书塞进了微波炉，但这里，一些字符神奇地显示了出来。
     S:"Book.Microwave Oven Manual.Page01"=你刚刚获得了一台微波炉，然后扪心自问“我为什么会需要这玩意儿？” 答案很简单。一台微波炉只要128EU的电力即可工作，并且能以疯狂的速度烹饪食物。你再也不能找出什么别的机器能将这件事做得像它一样又好又快又便宜了。
@@ -15,6 +46,37 @@ languagefile {
     S:"Book.Microwave Oven Manual.Page05"=不要用它来干燥你的动物。否则无论你放进去的是什么动物，你都会得到一份热狗。
     S:"Book.Microwave Oven Manual.Page06"=不要放入不可燃物品，除非你想点着你的微波炉。
     S:"Book.Microwave Oven Manual.Page07"=不要放入能引起爆炸的东西。比如鸡蛋，是的，不要这么做。
+
+    # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 6]
+    I:"Book.Multi-Machine Manual.APageNum"=6
+    S:"Book.Multi-Machine Manual.Name"=大型加工厂手册
+    S:"Book.Multi-Machine Manual.Page00"=This Multiblock, depending upon the mode used, can function as a variety of different machines. The idea behind this, was that most of these machines are rather niche compared to any others, as such, not used often.
+    S:"Book.Multi-Machine Manual.Page01"=To build, you need to construct a hollow 3x3x3 structure made from Multi-Use casings, With a minimum of 6. Any Casing position can be substituted out with an Input Hatch/Bus, an Output Hatch/Bus, Muffler, Maint. Hatch or Energy Injector Hatch.
+    S:"Book.Multi-Machine Manual.Page02"=The Mode can be set by using a Screwdriver on the controller block. Each mode allows the use of Numbered Circuits, to allow a different machine 'type' for each input bus.
+    S:"Book.Multi-Machine Manual.Page03"=[Metal Work] Mode A - Allows the multiblock to function as a Compressor, a Lathe or an Electro-Magnet. To allow a hatch to run in Compressor mode, insert a No. 20 circuit. For Lathe, use No. 21 and for Electro-Magnet use No. 22.
+    S:"Book.Multi-Machine Manual.Page04"=[Fluid Work] Mode B - Allows the multiblock to function as a Fermenter, a Fluid Extractor or an Extractor. To allow a hatch to run in Fermenter mode, insert a No. 20 circuit. For Fluid Extractor, use No. 21 and for Extractor use No. 22.
+    S:"Book.Multi-Machine Manual.Page05"=[Misc. Work] Mode C - Allows the multiblock to function as a Laser Engraver, an Autoclave or a Fluid Solidifier. To allow a hatch to run in Laser Engraver mode, insert a No. 20 circuit. For Autoclave, use No. 21 and for Solidifier use No. 22.
+
+    # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 5]
+    I:"Book.Nuclear Chemistry [FFPP].APageNum"=5
+    S:"Book.Nuclear Chemistry [FFPP].Name"=反应堆燃料加工厂手册
+    S:"Book.Nuclear Chemistry [FFPP].Page00"=Fission Fuel Processing Plant[CR]Size: 3x9x3 [LxHxW][CR]Controller: Center, Bottom[CR]4x Input Hatch[CR]2x Output Hatch[CR]1x Output Bus[CR]1x ZPM+ Muffler[CR]1x Maintenance Hatch[CR]1x Energy Hatch[CR]
+    S:"Book.Nuclear Chemistry [FFPP].Page01"=[1] 7x Hastelloy-X or I/O[CR][2] 5x Incoloy-DS Fluid Containment[CR][3] 4x Zeron-100 Shielding[CR][4] 17x Hastelloy-N Sealant Case[CR]Multiblock Construction[CR]Convention is [LxHxW][CR][CR]
+    S:"Book.Nuclear Chemistry [FFPP].Page02"=Layer 1/2:[CR][1][1][1][CR][1][1][1][CR][1][1][1][CR][CR]Layer 3/5/6[CR][ ][4][ ][CR][4][2][4][CR][ ][4][ ][CR][CR]
+    S:"Book.Nuclear Chemistry [FFPP].Page03"=Layer 4[CR][ ][3][ ][CR][3][2][3][CR][ ][3][ ][CR][CR]Layer 7/8/9[CR][ ][ ][ ][CR][ ][3][ ][CR][ ][ ][ ][CR]
+    S:"Book.Nuclear Chemistry [FFPP].Page04"=Fission Fuel[CR]Processing Plant----------------------[CR]This structure is used to produce the Molten Salts required to run a Liquid Fluorine Thorium Reactor [LFTR].
+
+    # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 8]
+    I:"Book.Power Storage & You [Version 0.64].APageNum"=8
+    S:"Book.Power Storage & You [Version 0.64].Name"=能源站手册
+    S:"Book.Power Storage & You [Version 0.64].Page00"=So, when it comes to power storage you relaly have three seperate options:[CR] [CR]Battery Buffers,[CR]Energy Buffers,[CR]The Power Sub-Station[CR]
+    S:"Book.Power Storage & You [Version 0.64].Page01"=Battery Buffer[CR] [CR]Is rather portable. Allowing you to throw set one up and insert batteries where ever you may need.[CR]They output 1A for each battery stored inside, upto a maximum of 16A.
+    S:"Book.Power Storage & You [Version 0.64].Page02"=Energy Buffer[CR] [CR]Is a more optimal choice for storage in your base. Once placed down, they cannot be moved without losing all stored power.[CR]Energy Buffers can output 4A from the output side, however accept 16A as input.
+    S:"Book.Power Storage & You [Version 0.64].Page03"=The Power Sub-Station [CR]Is used for storing Insane amounts of power later game.[CR]Consumes 2% of the average voltage of all energy type hatches every tick.[CR]
+    S:"Book.Power Storage & You [Version 0.64].Page04"=Allows Insertation/Removal of power from the rear face of the controller, swap with a screwdriver.[CR]Variable Height Structure, between 4-16Y. Inserted Redox Cells dictate max energy tier of structure.[CR]
+    S:"Book.Power Storage & You [Version 0.64].Page05"=Redox Cells cannot be placed into the Top or Bottom layer and only take up 3xhx3 internally.[CR]Different Tier cells CANNOT be mixed together.[CR]
+    S:"Book.Power Storage & You [Version 0.64].Page06"=All Hatches Must be HV at a Minimum, this minimum tier is in place to stop people abusing ULV/LV hatches to lower the avg/t.[CR]Currently the GUI will NOT display anything at all until the structure forms, this is a known bug.[CR]
+    S:"Book.Power Storage & You [Version 0.64].Page07"=Valid Hatches:[CR]Energy Hatch,[CR]Dynamo Hatch,[CR]Charging Bus,[CR]Discharging Bus,[CR]Dynamo Buffer,[CR]Multi-Amp Dynamo Hatch.[CR][CR][CR]Structure MUST contain at least one energy input and one energy output hatch.
     S:"Book.Printer Manual V2.0.Name"=打印机手册 V2.0
     S:"Book.Printer Manual V2.0.Page00"=这份手册描述了格雷科技打印机的未在NEI合成表中列出的功能。尽管NEI包括了大部分的功能，但它还是漏掉了一些。
     S:"Book.Printer Manual V2.0.Page01"=1、给物品和方块染色：你一定知道那些由八个物品围绕着一份染料或是有一份物品加一份染料构成的合成吧？这两种类型的合成可以由打印机以经济的方式进行自动化处理。
@@ -38,6 +100,26 @@ languagefile {
     S:"Book.Punch Card Manual V0.0.Page10"=如果你需要内置循环，每个循环你只需要一个穿孔卡片，这些穿孔卡片能够在被执行完毕后立刻重新开始，当然，它们会根据你放入了多少个穿孔卡片来逐步完成整个程序。
     S:"Book.Punch Card Manual V0.0.Page11"=一个穿孔卡片处理器能够最多运行四个循环，每次能够并行计算七个穿孔卡片
     S:"Book.Punch Card Manual V0.0.Page12"=为什么穿孔卡片要墨水制作？因为空的穿孔卡片上面总得画些线啊，而已经穿孔的卡片会在自身上印出能够使人类看懂的内容。
+
+    # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 16]
+    I:"Book.Thermal Boiler Manual.APageNum"=16
+    S:"Book.Thermal Boiler Manual.Name"=地热锅炉手册
+    S:"Book.Thermal Boiler Manual.Page00"=This Book explains how to set up and run your Thermal Boiler. We are not responsible for any Damage done by this Book itself nor its content.
+    S:"Book.Thermal Boiler Manual.Page01"=First you need to craft the following things for a Thermal Boiler to Function: The Main Boiler Block, 20 Thermal Containment Casings, two Input Hatches, two Output Hatches, a bunch of different Tools and a Maintenance Hatch.
+    S:"Book.Thermal Boiler Manual.Page02"=To begin the building, lay out the first 3x3 layer of Machine Casings on the ground (with a Hatch in the Middle), then place the Boiler Block facing outward in the middle of one of the 3m wide Sides.
+    S:"Book.Thermal Boiler Manual.Page03"=Now grab 3 other Hatches and place them on the remaining three 3m wide Sides also facing outwards. And now the four corners of the Machine need also a Machine Casing. There should only be a Hole left in the middle of the Cube.
+    S:"Book.Thermal Boiler Manual.Page04"=So, now place a 3x3 of Machine Casings ontop, at the 3rd Layer with the last Hatch in the middle facing outwards as well.
+    S:"Book.Thermal Boiler Manual.Page05"=When accessing the Boiler Block, it should now stop telling you, that the structure is incomplete (bottom Line of that Screen). Now go with a bunch of different Tools (Metal Hammer, Rubber Hammer, Screwdriver, Wrench, Soldering Iron and Crowbar)
+    S:"Book.Thermal Boiler Manual.Page06"=to the Maintenance Hatch and access it. After that you grab the 6 Tools and rightclick the Slot with each of them in your Hand in the Maintenance GUI. Note that you need Soldering Tin/Lead in your Inventory to use the Soldering Iron.
+    S:"Book.Thermal Boiler Manual.Page07"=The Main Block should now tell you that you need to use the Rubber Hammer on it to (re)activate the Machine. The Rubber Hammer can enable and disable Machines. The Machine disables itself after something important broke.
+    S:"Book.Thermal Boiler Manual.Page08"=If you want to use Lava with this Device, then you should add a Lava Filter to extract additional Resources from the Lava. If the Filter breaks, the Machine won't explode like a Turbine would. If you use molten Salt, then you won't need a Filter.
+    S:"Book.Thermal Boiler Manual.Page09"=You will get Obsidian when processing Lava, however if a Filter is used, you will get sometimes an Ingot instead of a Block of Obsidian. When using molten Salt, you will get the Salt back.
+    S:"Book.Thermal Boiler Manual.Page10"=So, now for the Maintenance. After a few Hours of running nonstop, your Boiler will get small Problems, which don't prevent it from running, these Problems just decrease Efficiency. Every Problem listed on the Screen does -10% Efficiency.
+    S:"Book.Thermal Boiler Manual.Page11"=To fix these Problems, just go to the Maintenance Hatch and click with the problem corresponding Tool on the Slot to repair. If all six possible runtime Problems happen, the Machine will auto-shutdown no matter what. No Explosion, it's just stopping.
+    S:"Book.Thermal Boiler Manual.Page12"=The Thermal Boiler will produce 800 Liters of Steam per tick for about 5 or 6 Liters of Water per tick at reaching 100% Efficiency. In case of Lava it consumes 1666 Liters every Second.
+    S:"Book.Thermal Boiler Manual.Page13"=A Thermal Boiler is worth about 33 small Thermal Generators, and as the Boilers get much less Efficient, when not having enough Fuel, you should consider making a large Nether Pump for Lava, or a good Nuclear Reactor for molten Salt.
+    S:"Book.Thermal Boiler Manual.Page14"=Input and Output Slots are fully optional, you can place multiple ones of them or even none on the Machine. A Machine without Input couldn't process any Recipes, while a Machine without Output just voids all outputted Items and Liquids.
+    S:"Book.Thermal Boiler Manual.Page15"=It might be useful to use the Screwdriver on the Output Hatches to determine what is outputted where.
     S:"Escherichia cadaver"=腐肉菌
     S:"Escherichia koli"=大肠杆菌
     S:Interaction_DESCRIPTION_Index_001=输出到相邻容器的格子#
