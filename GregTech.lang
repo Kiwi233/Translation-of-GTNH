@@ -7,36 +7,34 @@ enablelangfile {
 
 languagefile {
     # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 19]
-    I:"Book.Chemical Plant Manual.APageNum"=19
+    I:"Book.Chemical Plant Manual.APageNum"=17
     S:"Book.Chemical Plant Manual.Name"=化工厂手册
-    S:"Book.Chemical Plant Manual.Page00"=This book will explain how the Chemical Plant is constructed, which blocks are valid to upgrade it and also how the upgrades work.
-    S:"Book.Chemical Plant Manual.Page01"=Solid Casings = Plant tier[CR]Machine Casings = Hatch tier[CR]Higher tier coils  More Speed[CR]T1 50% , T2 100% , T3 150%, etc[CR]
-    S:"Book.Chemical Plant Manual.Page02"=Higher tier pipe casings boost parallel[CR]and reduce catalyst consumption[CR]+2 parallel per tier, 20% extra chance of[CR]not damaging catalyst per tier[CR]
-    S:"Book.Chemical Plant Manual.Page03"=Valid Solid Machine Casings:[CR]0 - Strong Bronze[CR]1 - Solid Steel[CR]2 - Sturdy Aluminium[CR]3 - Clean Stainless Steel[CR]4 - Stable Titanium[CR]5 - Robust Tungstensteel[CR]6 - Vigorous Laurenium[CR]7 - Rugged Botmium
-    S:"Book.Chemical Plant Manual.Page04"=Valid Tiered Machine Casings:[CR][CR]1 - ULV[CR]2 - LV[CR]3 - MV[CR]4 - HV[CR]5 - EV[CR]6 - IV[CR]7 - LuV[CR]8 - ZPM[CR]9 - UV[CR]10 - UHV
-    S:"Book.Chemical Plant Manual.Page05"=Valid Pipe Casings:[CR][CR]1 - Bronze[CR]2 - Steel[CR]3 - Titanium[CR]4 - Tungstensteel
-    S:"Book.Chemical Plant Manual.Page06"=Valid Coils:[CR][CR]1 - Cupronickel[CR]2 - Kanthal[CR]3 - Nichrome[CR]4 - Tungstensteel[CR]5 - HSS-G[CR]6 - Naquadah[CR]7 - Naquadah Alloy
-    S:"Book.Chemical Plant Manual.Page07"=Multiblock Requirements:[CR][CR]27x Coils[CR]18x Pipe Casings[CR]57x Tiered Machine Casings[CR]80+ Solid Casings[CR]1x Catalyst Housing (Catalysts cannot go inside an Input Bus)
-    S:"Book.Chemical Plant Manual.Page08"=Construction Guide Pt1:[CR][CR]Controller is placed on a middle casing in the bottom layer[CR]Hatches can only be placed on the bottom layer edges
-    S:"Book.Chemical Plant Manual.Page09"=Construction Guide Pt2:[CR][CR]7x7x7 Hollow frame of solid casings[CR]5x1x5 layer of solid casings (fills in top layer)[CR]5x1x5 layer of machine casings (fills in bottom layer)
-    S:"Book.Chemical Plant Manual.Page10"=Construction Guide Pt3:[CR]In the central 3x5x3:[CR]3x1x3 layer of Coils, surrounded by ring of Machine Casings[CR]3x1x3 layer of Pipe Casings[CR]3x1x3 layer of Coils[CR]3x1x3 layer of Pipe Casings[CR]3x1x3 layer of Coils, surrounded by ring of Machine Casings
-    S:"Book.Chemical Plant Manual.Page11"=Information:[CR][CR]A = Air[CR]X = Solid Casing[CR]M = Machine Casing[CR]P = Pipe Casing[CR]C = Coil Casing
-    S:"Book.Chemical Plant Manual.Page12"=Layer 1:[CR][CR]XXXXXXX[CR]XMMMMMX[CR]XMMMMMX[CR]XMMMMMX[CR]XMMMMMX[CR]XMMMMMX[CR]XXXXXXX
-    S:"Book.Chemical Plant Manual.Page13"=Layer 2:[CR][CR]AAAAAAA[CR]AMMMMMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMMMMMA[CR]AAAAAAA
-    S:"Book.Chemical Plant Manual.Page14"=Layer 3:[CR][CR]AAAAAAA[CR]AAAAAAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAAAAAA[CR]AAAAAAA
-    S:"Book.Chemical Plant Manual.Page15"=Layer 4:[CR][CR]AAAAAAA[CR]AAAAAAA[CR]AACCCAA[CR]AACCCAA[CR]AACCCAA[CR]AAAAAAA[CR]AAAAAAA
-    S:"Book.Chemical Plant Manual.Page16"=Layer 5:[CR][CR]AAAAAAA[CR]AAAAAAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAAAAAA[CR]AAAAAAA
-    S:"Book.Chemical Plant Manual.Page17"=Layer 6:[CR][CR]AAAAAAA[CR]AMMMMMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMMMMMA[CR]AAAAAAA
-    S:"Book.Chemical Plant Manual.Page18"=Layer 7:[CR][CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX
+    S:"Book.Chemical Plant Manual.Page00"=本书将解释化工厂的建造方法、可用于升级的方块以及升级的效果.
+    S:"Book.Chemical Plant Manual.Page01"=固体外壳-决定可处理的配方等级[CR]机械方块-决定仓室/总线的等级上限[CR]越高阶的线圈带来越快的速度[CR]T1 50% , T2 100% , T3 150%, 以此类推[CR]越高阶的管道方块带来越多的并行,并降低催化剂的消耗[CR]每级+2并行,-20％催化剂消耗几率[CR]
+    S:"Book.Chemical Plant Manual.Page02"=可用的固体外壳:[CR][CR]0 - 强化青铜机械方块[CR]1 - 脱氧钢机械方块[CR]2 - 强化铝机械方块[CR]3 - 洁净不锈钢机械方块[CR]4 - 加强钛机械方块[CR]5 - 强化钨钢机械方块[CR]6 - 强化劳伦姆合金机械方块[CR]7 - 强化博特姆合金机械方块
+    S:"Book.Chemical Plant Manual.Page03"=可用的机械方块:[CR][CR]1 - ULV[CR]2 - LV[CR]3 - MV[CR]4 - HV[CR]5 - EV[CR]6 - IV[CR]7 - LuV[CR]8 - ZPM[CR]9 - UV[CR]10 - UHV
+    S:"Book.Chemical Plant Manual.Page04"=可用的管道方块:[CR][CR]1 - 青铜[CR]2 - 钢[CR]3 - 钛[CR]4 - 钨钢
+    S:"Book.Chemical Plant Manual.Page05"=可用的线圈:[CR][CR]1 - 白铜[CR]2 - 坎塔尔合金[CR]3 - 镍铬合金[CR]4 - 钨钢[CR]5 - 高速钢-G[CR]6 - 硅岩[CR]7 - 硅岩合金
+    S:"Book.Chemical Plant Manual.Page06"=多方块结构总计需要:[CR][CR]27x线圈[CR]18x管道方块[CR]57x机械方块[CR]80+固体外壳[CR]1x催化剂仓(催化剂不能放入输入总线)
+    S:"Book.Chemical Plant Manual.Page07"=结构指导 Pt1:[CR][CR]控制器方块(底层侧中)[CR]仓室仅可放置于底层边缘[CR][CR][CR]结构指导 Pt2:[CR][CR]7x7x7中空的固体外壳框架[CR]5x1x5固体外壳(填满顶层)[CR]5x1x5机械方块(填满底层)
+    S:"Book.Chemical Plant Manual.Page08"=结构指导 Pt3:[CR][CR]中央的3x5x3从下到上:[CR]3x1x3线圈,周围环绕一圈机械方块[CR]3x1x3管道方块[CR]3x1x3线圈[CR]3x1x3管道方块[CR]3x1x3线圈,周围环绕一圈机械方块
+    S:"Book.Chemical Plant Manual.Page09"=图例:[CR][CR]A = 空气[CR]X = 固体外壳[CR]M = 机械方块[CR]P = 管道方块[CR]C = 线圈
+    S:"Book.Chemical Plant Manual.Page10"=第1层:[CR][CR]XXXXXXX[CR]XMMMMMX[CR]XMMMMMX[CR]XMMMMMX[CR]XMMMMMX[CR]XMMMMMX[CR]XXXXXXX
+    S:"Book.Chemical Plant Manual.Page11"=第2层:[CR][CR]AAAAAAA[CR]AMMMMMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMMMMMA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page12"=第3层:[CR][CR]AAAAAAA[CR]AAAAAAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAAAAAA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page13"=第4层:[CR][CR]AAAAAAA[CR]AAAAAAA[CR]AACCCAA[CR]AACCCAA[CR]AACCCAA[CR]AAAAAAA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page14"=第5层:[CR][CR]AAAAAAA[CR]AAAAAAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAAAAAA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page15"=第6层:[CR][CR]AAAAAAA[CR]AMMMMMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMMMMMA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page16"=第7层:[CR][CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX
 
     # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 5]
     I:"Book.How to: Modular Baubles.APageNum"=5
     S:"Book.How to: Modular Baubles.Name"=模块化饰品手册
-    S:"Book.How to: Modular Baubles.Page00"=Concept: This idea came from wanting flexibility. [CR]First step, Build a Modularity table to begin customisation of your Bauble. [CR] After this has been constructed, you can now combine the upgrades listed within this book to improve the baubles level/100.
-    S:"Book.How to: Modular Baubles.Page01"=Defence:[CR]Can be upgraded by combining metal plates with the bauble. [CR] | +1 | Aluminium [CR] | +2 | Stainless Steel [CR] | +3 | Tungsten [CR] | +4 | Tungsten Steel [CR] | +5 | Naquadah [CR]
-    S:"Book.How to: Modular Baubles.Page02"=There was once a sad and lonely oak tree. [CR]
-    S:"Book.How to: Modular Baubles.Page03"=There was once a sad and lonely oak tree. [CR]
-    S:"Book.How to: Modular Baubles.Page04"=There was once a sad and lonely oak tree. [CR]
+    S:"Book.How to: Modular Baubles.Page00"=构想: 这个想法来自灵活性的需求. [CR]第一步, 建造一个模块化工作台作为量身定制饰品的开端. [CR] 建造完成后, 你就可以结合本书中列出的升级来提高饰品的等级/100.
+    S:"Book.How to: Modular Baubles.Page01"=防御:[CR]可通过添加金属板来升级防御. [CR] | +1 | 铝 [CR] | +2 | 不锈钢 [CR] | +3 | 钨 [CR] | +4 | 钨钢 [CR] | +5 | 硅岩 [CR]
+    S:"Book.How to: Modular Baubles.Page02"=曾经有一棵悲伤而孤独的橡树. [CR]
+    S:"Book.How to: Modular Baubles.Page03"=曾经有一棵悲伤而孤独的橡树. [CR]
+    S:"Book.How to: Modular Baubles.Page04"=曾经有一棵悲伤而孤独的橡树. [CR]
     S:"Book.Microwave Oven Manual.Name"=微波炉手册
     S:"Book.Microwave Oven Manual.Page00"=恭喜！你将一本表面上空空如也的书塞进了微波炉，但这里，一些字符神奇地显示了出来。
     S:"Book.Microwave Oven Manual.Page01"=你刚刚获得了一台微波炉，然后扪心自问“我为什么会需要这玩意儿？” 答案很简单。一台微波炉只要128EU的电力即可工作，并且能以疯狂的速度烹饪食物。你再也不能找出什么别的机器能将这件事做得像它一样又好又快又便宜了。
