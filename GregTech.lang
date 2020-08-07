@@ -48,30 +48,30 @@ languagefile {
     # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 6]
     I:"Book.Multi-Machine Manual.APageNum"=6
     S:"Book.Multi-Machine Manual.Name"=大型加工厂手册
-    S:"Book.Multi-Machine Manual.Page00"=This Multiblock, depending upon the mode used, can function as a variety of different machines. The idea behind this, was that most of these machines are rather niche compared to any others, as such, not used often.
-    S:"Book.Multi-Machine Manual.Page01"=To build, you need to construct a hollow 3x3x3 structure made from Multi-Use casings, With a minimum of 6. Any Casing position can be substituted out with an Input Hatch/Bus, an Output Hatch/Bus, Muffler, Maint. Hatch or Energy Injector Hatch.
-    S:"Book.Multi-Machine Manual.Page02"=The Mode can be set by using a Screwdriver on the controller block. Each mode allows the use of Numbered Circuits, to allow a different machine 'type' for each input bus.
-    S:"Book.Multi-Machine Manual.Page03"=[Metal Work] Mode A - Allows the multiblock to function as a Compressor, a Lathe or an Electro-Magnet. To allow a hatch to run in Compressor mode, insert a No. 20 circuit. For Lathe, use No. 21 and for Electro-Magnet use No. 22.
-    S:"Book.Multi-Machine Manual.Page04"=[Fluid Work] Mode B - Allows the multiblock to function as a Fermenter, a Fluid Extractor or an Extractor. To allow a hatch to run in Fermenter mode, insert a No. 20 circuit. For Fluid Extractor, use No. 21 and for Extractor use No. 22.
-    S:"Book.Multi-Machine Manual.Page05"=[Misc. Work] Mode C - Allows the multiblock to function as a Laser Engraver, an Autoclave or a Fluid Solidifier. To allow a hatch to run in Laser Engraver mode, insert a No. 20 circuit. For Autoclave, use No. 21 and for Solidifier use No. 22.
+    S:"Book.Multi-Machine Manual.Page00"=这台多方块机器, 根据使用模式的不同, 可以用作各种不同的机器. 这台机器是为了解决部分小众机器的工业化生产需求.
+    S:"Book.Multi-Machine Manual.Page01"=建造时, 你需要用多功能机械方块搭建出一个3x3x3的中空结构, 至少需要6个. 任意机械方块均可用输入仓/总线、输出仓/总线、消声仓、维护仓或能源仓替换.
+    S:"Book.Multi-Machine Manual.Page02"=使用螺丝刀右键控制器方块即可切换模式. 每种模式还可以通过每个输入总线中的编程电路区分不同机器类型.(注意:输入总线中必须有编程电路,空置的输入总线会影响整台多方块机器的运行)
+    S:"Book.Multi-Machine Manual.Page03"=模式A：金属[Metal] - 多方块机器可充当压缩机、车床或磁化机. [CR][CR]电路板20 - 压缩机[CR]电路板21 - 车床[CR]电路板22 - 磁化机.
+    S:"Book.Multi-Machine Manual.Page04"=模式B：流体[Fluid] - 多方块机器可充当发酵槽、流体提取机或提取机. [CR][CR]电路板20 - 发酵槽[CR]电路板21 - 流体提取机[CR]电路板22 - 提取机.
+    S:"Book.Multi-Machine Manual.Page05"=模式C：杂项[Misc.] - 多方块机器可充当激光蚀刻机、高压釜或流体固化器. [CR][CR]电路板20 - 激光蚀刻机[CR]电路板21 - 高压釜[CR]电路板22 - 流体固化器.
 
     # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 5]
     I:"Book.Nuclear Chemistry [FFPP].APageNum"=5
     S:"Book.Nuclear Chemistry [FFPP].Name"=反应堆燃料加工厂手册
-    S:"Book.Nuclear Chemistry [FFPP].Page00"=Fission Fuel Processing Plant[CR]Size: 3x9x3 [LxHxW][CR]Controller: Center, Bottom[CR]4x Input Hatch[CR]2x Output Hatch[CR]1x Output Bus[CR]1x ZPM+ Muffler[CR]1x Maintenance Hatch[CR]1x Energy Hatch[CR]
-    S:"Book.Nuclear Chemistry [FFPP].Page01"=[1] 7x Hastelloy-X or I/O[CR][2] 5x Incoloy-DS Fluid Containment[CR][3] 4x Zeron-100 Shielding[CR][4] 17x Hastelloy-N Sealant Case[CR]Multiblock Construction[CR]Convention is [LxHxW][CR][CR]
-    S:"Book.Nuclear Chemistry [FFPP].Page02"=Layer 1/2:[CR][1][1][1][CR][1][1][1][CR][1][1][1][CR][CR]Layer 3/5/6[CR][ ][4][ ][CR][4][2][4][CR][ ][4][ ][CR][CR]
-    S:"Book.Nuclear Chemistry [FFPP].Page03"=Layer 4[CR][ ][3][ ][CR][3][2][3][CR][ ][3][ ][CR][CR]Layer 7/8/9[CR][ ][ ][ ][CR][ ][3][ ][CR][ ][ ][ ][CR]
-    S:"Book.Nuclear Chemistry [FFPP].Page04"=Fission Fuel[CR]Processing Plant----------------------[CR]This structure is used to produce the Molten Salts required to run a Liquid Fluorine Thorium Reactor [LFTR].
+    S:"Book.Nuclear Chemistry [FFPP].Page00"=反应堆燃料加工厂[CR]大小(宽x高x长)：3x9x3[CR]控制器方块(正面底中)[CR]4x输入仓[CR]2x输出仓[CR]1x输出总线[CR]1xZPM+消声仓[CR]1x维护仓[CR]1x能源仓[CR]
+    S:"Book.Nuclear Chemistry [FFPP].Page01"=[1] 3x2x3的哈斯特洛伊合金-X结构方块基座(至少7个)或是各功能舱室[CR][2] 1x5x1的耐热铬铁合金-DS流体容器方块立柱[CR][3] 4x塞龙-100反应堆屏蔽机械方块(立柱的第二层，紧邻耐热铬铁合金-DS流体容器方块)[CR][4] 17x哈斯特洛伊合金-N密封机械方块(立柱顶端及侧面)
+    S:"Book.Nuclear Chemistry [FFPP].Page02"=第1、2层:[CR][1][1][1][CR][1][1][1][CR][1][1][1][CR][CR]第3、5、6层[CR][ ][4][ ][CR][4][2][4][CR][ ][4][ ][CR][CR]
+    S:"Book.Nuclear Chemistry [FFPP].Page03"=第4层[CR][ ][3][ ][CR][3][2][3][CR][ ][3][ ][CR][CR]第7、8、9层[CR][ ][ ][ ][CR][ ][3][ ][CR][ ][ ][ ][CR]
+    S:"Book.Nuclear Chemistry [FFPP].Page04"=反应堆燃料[CR]加工厂----------------------[CR]这台多方块机器用于生产液态氟钍反应堆[LFTR]所需的熔盐.
 
     # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 8]
     I:"Book.Power Storage & You [Version 0.64].APageNum"=8
     S:"Book.Power Storage & You [Version 0.64].Name"=能源站手册
-    S:"Book.Power Storage & You [Version 0.64].Page00"=So, when it comes to power storage you relaly have three seperate options:[CR] [CR]Battery Buffers,[CR]Energy Buffers,[CR]The Power Sub-Station[CR]
-    S:"Book.Power Storage & You [Version 0.64].Page01"=Battery Buffer[CR] [CR]Is rather portable. Allowing you to throw set one up and insert batteries where ever you may need.[CR]They output 1A for each battery stored inside, upto a maximum of 16A.
-    S:"Book.Power Storage & You [Version 0.64].Page02"=Energy Buffer[CR] [CR]Is a more optimal choice for storage in your base. Once placed down, they cannot be moved without losing all stored power.[CR]Energy Buffers can output 4A from the output side, however accept 16A as input.
-    S:"Book.Power Storage & You [Version 0.64].Page03"=The Power Sub-Station [CR]Is used for storing Insane amounts of power later game.[CR]Consumes 2% of the average voltage of all energy type hatches every tick.[CR]
-    S:"Book.Power Storage & You [Version 0.64].Page04"=Allows Insertation/Removal of power from the rear face of the controller, swap with a screwdriver.[CR]Variable Height Structure, between 4-16Y. Inserted Redox Cells dictate max energy tier of structure.[CR]
+    S:"Book.Power Storage & You [Version 0.64].Page00"=关于能源存储你现在有三种选择:[CR] [CR]电池箱；[CR]能量缓冲器；[CR]能源站[CR][CR]译者注：这是局限于GT和GTPP的选择, 另外还有兰波顿超级电容库
+    S:"Book.Power Storage & You [Version 0.64].Page01"=电池箱[CR] [CR]相当便携. 随便在什么地方都可以放置, 插入电池后即可正常使用.[CR]内部存储的每个电池可提供1A的输出电流, 最高为16A.
+    S:"Book.Power Storage & You [Version 0.64].Page02"=能量缓冲器[CR] [CR]比较适合在基地中使用. 放置并充能后, 只能在内部能量全部释放后拆卸.[CR]能量缓冲器在输出面可以输出4A电流, 而在输入面可以接受16A电流.
+    S:"Book.Power Storage & You [Version 0.64].Page03"=能源站[CR]用于在游戏中后期存储巨量电能.[CR]每t消耗所有能源仓/动力仓平均电压的2%作为运行损耗.[CR]
+    S:"Book.Power Storage & You [Version 0.64].Page04"=可通过螺丝刀切换, 允许从控制器的背面输入/输出能量.[CR]高度可选, 在4-16格之间均可. 插入拉多X单元可激活MAX能级.[CR]
     S:"Book.Power Storage & You [Version 0.64].Page05"=Redox Cells cannot be placed into the Top or Bottom layer and only take up 3xhx3 internally.[CR]Different Tier cells CANNOT be mixed together.[CR]
     S:"Book.Power Storage & You [Version 0.64].Page06"=All Hatches Must be HV at a Minimum, this minimum tier is in place to stop people abusing ULV/LV hatches to lower the avg/t.[CR]Currently the GUI will NOT display anything at all until the structure forms, this is a known bug.[CR]
     S:"Book.Power Storage & You [Version 0.64].Page07"=Valid Hatches:[CR]Energy Hatch,[CR]Dynamo Hatch,[CR]Charging Bus,[CR]Discharging Bus,[CR]Dynamo Buffer,[CR]Multi-Amp Dynamo Hatch.[CR][CR][CR]Structure MUST contain at least one energy input and one energy output hatch.
@@ -8694,7 +8694,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_834_Index_4=同维度传输时消耗512EU/t
     S:TileEntity_DESCRIPTION_834_Index_5=跨维度传输时消耗2048EU/t
     S:TileEntity_DESCRIPTION_835_Index_17=反应堆燃料加工厂的控制器方块
-    S:TileEntity_DESCRIPTION_835_Index_18=大小(宽x高x长)：3x8x3
+    S:TileEntity_DESCRIPTION_835_Index_18=大小(宽x高x长)：3x9x3
     S:TileEntity_DESCRIPTION_835_Index_19=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_835_Index_20=3x2x3的哈斯特洛伊合金-X结构方块基座(至少7个)
     S:TileEntity_DESCRIPTION_835_Index_21=1x5x1的耐热铬铁合金-DS流体容器方块立柱(基座上方正中)
