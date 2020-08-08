@@ -71,10 +71,10 @@ languagefile {
     S:"Book.Power Storage & You [Version 0.64].Page01"=电池箱[CR] [CR]相当便携. 随便在什么地方都可以放置, 插入电池后即可正常使用.[CR]内部存储的每个电池可提供1A的输出电流, 最高为16A.
     S:"Book.Power Storage & You [Version 0.64].Page02"=能量缓冲器[CR] [CR]比较适合在基地中使用. 放置并充能后, 只能在内部能量全部释放后拆卸.[CR]能量缓冲器在输出面可以输出4A电流, 而在输入面可以接受16A电流.
     S:"Book.Power Storage & You [Version 0.64].Page03"=能源站[CR]用于在游戏中后期存储巨量电能.[CR]每t消耗所有能源仓/动力仓平均电压的2%作为运行损耗.[CR]
-    S:"Book.Power Storage & You [Version 0.64].Page04"=可通过螺丝刀切换, 允许从控制器的背面输入/输出能量.[CR]高度可选, 在4-16格之间均可. 插入拉多X单元可激活MAX能级.[CR]
-    S:"Book.Power Storage & You [Version 0.64].Page05"=Redox Cells cannot be placed into the Top or Bottom layer and only take up 3xhx3 internally.[CR]Different Tier cells CANNOT be mixed together.[CR]
-    S:"Book.Power Storage & You [Version 0.64].Page06"=All Hatches Must be HV at a Minimum, this minimum tier is in place to stop people abusing ULV/LV hatches to lower the avg/t.[CR]Currently the GUI will NOT display anything at all until the structure forms, this is a known bug.[CR]
-    S:"Book.Power Storage & You [Version 0.64].Page07"=Valid Hatches:[CR]Energy Hatch,[CR]Dynamo Hatch,[CR]Charging Bus,[CR]Discharging Bus,[CR]Dynamo Buffer,[CR]Multi-Amp Dynamo Hatch.[CR][CR][CR]Structure MUST contain at least one energy input and one energy output hatch.
+    S:"Book.Power Storage & You [Version 0.64].Page04"=可通过螺丝刀切换, 允许从控制器的背面输入/输出能量.[CR]高度可选, 在4-16格之间均可. 插入的钒氧化还原能量单元决定了能源站的最高能级.[CR]
+    S:"Book.Power Storage & You [Version 0.64].Page05"=钒氧化还原单元不能放在顶层或底层, 只能在内部占用3xhx3空间.[CR]不同等级的能量单元不能混用![CR]
+    S:"Book.Power Storage & You [Version 0.64].Page06"=最低仓室等级不能低于HV, 就是为了防止有人用ULV或者LV的仓室来拉低平均值以降低耗电.[CR]目前的GUI在搭建完成之前不会显示任何信息, 这是一个已知bug.[CR]
+    S:"Book.Power Storage & You [Version 0.64].Page07"=可用仓室:[CR]能源仓,[CR]动力仓,[CR]电池输入总线,[CR]电池输出总线,[CR]动力仓[缓冲],[CR]多A动力仓.[CR][CR][CR]整个多方块结构必须包含至少一个能量输入仓和一个能量输出仓.
     S:"Book.Printer Manual V2.0.Name"=打印机手册 V2.0
     S:"Book.Printer Manual V2.0.Page00"=这份手册描述了格雷科技打印机的未在NEI合成表中列出的功能。尽管NEI包括了大部分的功能，但它还是漏掉了一些。
     S:"Book.Printer Manual V2.0.Page01"=1、给物品和方块染色：你一定知道那些由八个物品围绕着一份染料或是有一份物品加一份染料构成的合成吧？这两种类型的合成可以由打印机以经济的方式进行自动化处理。
