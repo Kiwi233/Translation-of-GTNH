@@ -2602,7 +2602,7 @@ gtnh.quest649.desc=Your coal jetpack needs coal and water to produce steam. Afte
 
 # Quest.650 - Copter jetpack
 gtnh.quest650.name=Copter jetpack
-gtnh.quest650.desc=The copter jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. %nBuckets of creosote, lava, oil, cetane, diesel,ethanol, and fuel will work.%nEquip your jetpack and hit Shift and the adventure backpacks action-key. You can also switch between hover and normal mode.%n%nMax flying height is limited to Y level 200. %n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.
+gtnh.quest650.desc=The copter jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. %nBuckets of creosote, lava, oil, cetane, diesel,ethanol, and fuel will work.%nEquip your jetpack and hit Shift and the adventure backpacks action-key. You can also switch between hover and normal mode.%n%nMax flying height is limited to Y level 200. %n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.%n%n§3Dropped items will be pushed away from you, just like a helicopter pushes things away, so be careful in the End, or by cliffsides.
 
 # Quest.651 - Electric jetpack
 gtnh.quest651.name=Electric jetpack
@@ -3134,7 +3134,7 @@ gtnh.quest782.desc=To make wafers, you need to make monocrystalline silicon firs
 
 # Quest.783 - §6§lWe need big toys
 gtnh.quest783.name=§6§lWe need big toys
-gtnh.quest783.desc=All your little turbines take up too much space? Are you running out of water? It is time to solve these problems. This large turbine can help you produce a tremendous amount of energy. It will also distill water for you, so you can use the same water again inside your large boiler.  Don't forget to make a rotor for the turbine. %n%nMake sure you provide the optimal flow of steam using a fluid regulator. Don't exceed your dynamo hatch's EU rating, or it will explode! For HV you will probably want an IC2 fluid regulator. Above HV you can use the fluid regulator covers.%n%nTurbines with a small turbine durability below 75k have their recipes removed. Use NEI with the appropriate long rod to find assembler recipes that will work for you. Long magnalium for small turbines, long titanium for normal turbines, etc.%n%nPre-moon, the best rotors are small ardite or vibrant alloy. Remember to disassemble rotor blades before they break to recover the materials.%n%nPost-moon, the best HV rotors are normal damascus or blue steel. Risk-takers can try ultimet but you must not provide optimal flow since it will give 517 EU/t, blowing up a single amp dynamo. Luckily turbines are now fully functional with multi-amp dynamos, so give those a try if you need extra amps!%n%nFor additional choices, see the Large Turbine Calculator in Discord.
+gtnh.quest783.desc=All your little turbines take up too much space? Are you running out of water? It is time to solve these problems. This large turbine can help you produce a tremendous amount of energy. It will also distill water for you, so you can use the same water again inside your large boiler.  Don't forget to make a rotor for the turbine. %n%nMake sure you provide the optimal flow of steam using a fluid regulator. Don't exceed your dynamo hatch's EU rating, or it will explode! For HV you will probably want an IC2 fluid regulator. Above HV you can use the fluid regulator covers.%n%nTurbines with a small turbine durability below 75k have their recipes removed. Use NEI with the appropriate long rod to find assembler recipes that will work for you. Long magnalium for small turbines, long titanium for normal turbines, etc.%n%nPre-moon, the best rotors are small ardite or vibrant alloy.%n%nPost-moon, the best HV rotors are normal damascus or blue steel. Risk-takers can try ultimet but you must not provide optimal flow since it will give 517 EU/t, blowing up a single amp dynamo. Luckily turbines are now fully functional with multi-amp dynamos, so give those a try if you need extra amps!%n%nFor additional choices, see the Large Turbine Calculator in Discord.
 
 # Quest.784 - §6§lIt's time to get more steam
 gtnh.quest784.name=§6§lIt's time to get more steam
@@ -3238,7 +3238,7 @@ gtnh.quest808.desc=High Tier dusts need HV Mixer.
 
 # Quest.809 - NASA Workbench aka Dire Crafting Table
 gtnh.quest809.name=NASA Workbench aka Dire Crafting Table
-gtnh.quest809.desc=The Avaritia 9x9 dire crafting table replaces the NASA workbench. It is required to craft all rockets and high tier equipment. First of all you need 81 crafting tables to make a double compressed crafting table, a few HV components, wafers and a crystal matrix. And yes, you do need nether stars. Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.
+gtnh.quest809.desc=The Avaritia 9x9 dire crafting table replaces the NASA workbench. It is required to craft all rockets and high tier equipment. First of all you need 81 crafting tables to make a double compressed crafting table, a few HV components, wafers and a crystal matrix. And yes, you do need that many nether stars.%n%n§3Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.§r%n%n§3Also, if you're having trouble getting the wither skulls, you can make a Cleaver or the Skullfire Sword to help with that.
 
 # Quest.810 - Rocket Tier 1
 gtnh.quest810.name=Rocket Tier 1
@@ -3298,7 +3298,7 @@ gtnh.quest823.desc=The oxygen mask is part of the system used to breathe on plan
 
 # Quest.824 - Oxygen Tanks
 gtnh.quest824.name=Oxygen Tanks
-gtnh.quest824.desc=The Light oxygen tank is an oxygen storage tank that can hold up to 900 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.
+gtnh.quest824.desc=The Light oxygen tank is an oxygen storage tank that can hold up to 1000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.
 
 # Quest.825 - §2§lCopper Ore
 gtnh.quest825.name=§2§lCopper Ore
@@ -5186,7 +5186,7 @@ gtnh.quest1295.desc=The crystal growth chamber is used for fast crystal growth, 
 
 # Quest.1296 - Purifying the Impure
 gtnh.quest1296.name=Purifying the Impure
-gtnh.quest1296.desc=Purified versions of nether, certus and fluix crystals
+gtnh.quest1296.desc=The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.%n%nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.%n%n§3Distilled water reduced the recipe time in the Autoclave by half.%n
 
 # Quest.1297 - Dragon essense
 gtnh.quest1297.name=Dragon essense
@@ -5726,7 +5726,7 @@ gtnh.quest1430.desc=Why not recycle your old Tier 1 rocket to get componets for 
 
 # Quest.1431 - Booster
 gtnh.quest1431.name=Booster
-gtnh.quest1431.desc=The distance between Mars and Earth is much larger than to the Moon and so the rocket needsboosters to reach it.
+gtnh.quest1431.desc=The distance between Mars and Earth is much larger than to the Moon, so the rocket needs boosters to reach it.
 
 # Quest.1432 - Mars Lander
 gtnh.quest1432.name=Mars Lander
@@ -5750,7 +5750,7 @@ gtnh.quest1436.desc=The moon buggy needs gasoline to work. Build a 3x3 fueling p
 
 # Quest.1437 - Bigger Oxygen Tanks
 gtnh.quest1437.name=Bigger Oxygen Tanks
-gtnh.quest1437.desc=The Medium oxygen tank is an oxygen storage tank that can hold up to 1800 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.
+gtnh.quest1437.desc=The Medium oxygen tank is an oxygen storage tank that can hold up to 2000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.
 
 # Quest.1438 - Me glass cable
 gtnh.quest1438.name=Me glass cable
@@ -5874,7 +5874,7 @@ gtnh.quest1467.desc=The Oxygen Sealer is a machine that fills a room with oxygen
 
 # Quest.1468 - Large Oxygen Tanks
 gtnh.quest1468.name=Large Oxygen Tanks
-gtnh.quest1468.desc=The Large oxygen tank is an oxygen storage tank that can hold up to 2700 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+gtnh.quest1468.desc=The Large oxygen tank is an oxygen storage tank that can hold up to 3000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
 
 # Quest.1469 - Bacterial Sludge
 gtnh.quest1469.name=Bacterial Sludge
@@ -8566,7 +8566,7 @@ gtnh.quest2140.desc=Only the craziest fool would use diamonds to make a tool! Or
 
 # Quest.2141 - §6§lWelcome to the Church of Benzene
 gtnh.quest2141.name=§6§lWelcome to the Church of Benzene
-gtnh.quest2141.desc=If you made it to MV using steam, you're probably wondering how to survive going further. One option is to switch to Light Fuel, discussed in LV.  Another option is to use Benzene. Benzene is made from Wood Tar. There are a couple of pathways for that. Both start with logs from trees.  %n%nOne path is to use Coke ovens or Advanced Coke Ovens to make charcoal, and fluid-extract Wood Tar from it (use LV fluid extractors for maximum EU efficiency). Then distill the Wood Tar to make Benzene. This method produces no pollution.%n%nThe second path is to use the Pyrolyze Oven multiblock and Nitrogen gas to extract Wood Tar and Charcoal. Fluid Extract the Charcoal for addtional Wood Tar.  Then proceed as above. This method will create pollution from the Pyrolyze, but will provide more Benzene per log.%n%nExcess wood tar can also be turned into Toluene, a key ingredient for explosives that you will need later on.
+gtnh.quest2141.desc=If you made it to MV using steam, you're probably wondering how to survive going further. One option is to switch to Light Fuel, discussed in LV.  Another option is to use Benzene. Benzene is made from Wood Tar. There are a couple of pathways for that. Both start with logs from trees.  %n%nOne path is to use Coke ovens or Advanced Coke Ovens to make charcoal, and fluid-extract Wood Tar from it (use LV fluid extractors for maximum EU efficiency). Then distill the Wood Tar to make Benzene. This method produces no pollution.%n%nThe second path is to use the Pyrolyze Oven multiblock and Nitrogen gas to extract Wood Tar and Charcoal. Fluid Extract the Charcoal for addtional Wood Tar.  Then proceed as above. This method will create pollution from the Pyrolyze, but will provide more Benzene per log.%n%nExcess wood tar can also be turned into Toluene, a key ingredient for explosives that you will need later on.%n%nIf you use the Charcoal Byproducts recipe, you can get a plethora of useful byproducts as well, but you'll need 4 DTs.
 
 # Quest.2142 - §5§lAutomated Crafting
 gtnh.quest2142.name=§5§lAutomated Crafting
@@ -10879,6 +10879,30 @@ gtnh.quest2718.desc=If you do, they're now really good. I guess. They sound like
 # Quest.2719 - For All the Artists Out There
 gtnh.quest2719.name=For All the Artists Out There
 gtnh.quest2719.desc=These are the Creative components. Depending on what it is, there's also T2 and T3 components too.
+
+# Quest.2720 - Too Many Leaves
+gtnh.quest2720.name=Too Many Leaves
+gtnh.quest2720.desc=Want to clear out shrubbery but don't want to pull out leaves by hand? Need to find that last log hidden in the middle of a bunch of leaves?%n%nTry an Iron Scythe! When used, it clears out a 5x5x5 area of leaves, crops, flowers, or grass. Excellent for tearing through Sacred Oak leaves or dense shrubbery in certain biomes. Later when you have a Cutting Machine you can upgrade to a Diamond Scythe with a 7x7x7 area of effect, or use Amethyst for 9x9x9 to FLEX.%n%n§3The lower tiers break leaves instantly, but don't seem to have the 3x3x3 range for some reason.
+
+# Quest.2721 - Personally, I prefer Pepsi™
+gtnh.quest2721.name=Personally, I prefer Pepsi™
+gtnh.quest2721.desc=You may have noticed that you can make more than just Charcoal in a Coke Oven, you can also make Coke. But which kinds are better?%n%nCoal (1600BT) + 1800t -> Coal Coke (3200BT) +500l Cr%nWood Log (300BT) + 1800t -> Charcoal (1600BT) + 250l Cr%nCactus (50BT) + 500t -> Cactus Charcoal (400BT) +30l Cr%nCactus Charcoal (400BT) + 500t -> Cactus Coke (800BT) +30l Cr%nSugar Cane (50BT) + 500t -> Sugar Charcoal (400BT) +30l Cr%nSugar Charcoal (400BT) + 500t -> Sugar Coke (800BT) +30l Cr%n%nYou'll want Coke for making steel in your BBF later on. Though you can use still use charcoal if you want.
+
+# Quest.2722 - Water, Fast
+gtnh.quest2722.name=Water, Fast
+gtnh.quest2722.desc=The Remote IO Water Reservoir works like the Everfull Urn in that you can pull water out as fast as you can pull it out, but you can use all the sides to do so.
+
+# Quest.2723 - Super Large Oxygen Tanks
+gtnh.quest2723.name=Super Large Oxygen Tanks
+gtnh.quest2723.desc=The Super Large oxygen tank is an oxygen storage tank that can hold up to 4000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+
+# Quest.2724 - Ultra Large Oxygen Tanks
+gtnh.quest2724.name=Ultra Large Oxygen Tanks
+gtnh.quest2724.desc=The Super Large oxygen tank is an oxygen storage tank that can hold up to 5000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+
+# Quest.2725 - Barley time
+gtnh.quest2725.name=Barley time
+gtnh.quest2725.desc=It's time to plant some barley to make some bread. If you cant find wheat barley is a good alternative source to make flour.
 
 # Quest.2750 - Proteus Dungeon
 gtnh.quest2750.name=Proteus Dungeon
