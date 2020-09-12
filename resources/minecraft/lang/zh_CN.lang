@@ -310,7 +310,9 @@ gtnh.quest76.desc=你需要钢？呃...好的.我们有得忙的...  提示:砖�
 
 # Quest.77 - §r§6§l§5§l§o§l§r§6§lEBF-Time
 gtnh.quest77.name=§r§6§l§5§l§o§l§r§6§l工业高炉时代
-gtnh.quest77.desc=为了得到铝,你需要一个工业高炉.这是通向胜利的另一重要的一步.让我们开始吧. 加热线圈可能会很棘手...... §4(你需要两个LV级能源仓并提供总共4A的LV电流,或者如果你没有修复全部的故障,你就需要三个LV级能源仓和更多的电流)  §r一些高炉配方会产生CO2/SO2.你可以在工业高炉顶层放置一个输出仓来收集这些气体.而能收集到的比例与消声仓的等级有关.MAX等级的消声仓可回收78％的气体.  某些"智者"总是说:让消声仓Moint-Mup.其实应该是point-up(指向上方).  如果你需要一台完美的工业高炉,你可以添加更多的输入仓,在其中存储不同的气体.  译者注:前期氧与氮两种气体,中期陆续加入氦和氩,后期会有氡,至于氢气用得非常少,不建议常备.  §4如果污染变得非常严重,查看GT++的污染清理机.
+#B gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.%n%nGetting the heating coils might be a little tricky...%n%n§4(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)%n%n§rA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers = 78 percent.%n%nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%n§4If the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber.
+#A gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.%n%nGetting the Mica for the heating coils might be a little tricky...but you can use a substitute for the first tier of coils.%n%n§4(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)%n%n§rA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Bart's Platinum Series recipes otuput fluids on the BOTTOM, so if you want to do Platinum Stuff later, remember that.%n%nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%nThe EBF also has a heat adjustment of 100K for each power tier +/- MV. Basically, for CuNi Coils, with an LV Energy Hatch, the heat capacity is 1701K (-100), MV=1801K (no change), HV=1901K (+100), etc. Coils only set the base value.%n%nThis adjustment does not apply to the Volcanus or MEBF.%n%n§4If the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber, or upgrade your Muffler.%n
+#C gtnh.quest77.desc=为了得到铝,你需要一个工业高炉.这是通向胜利的另一重要的一步.让我们开始吧. 加热线圈可能会很棘手...... §4(你需要两个LV级能源仓并提供总共4A的LV电流,或者如果你没有修复全部的故障,你就需要三个LV级能源仓和更多的电流)  §r一些高炉配方会产生CO2/SO2.你可以在工业高炉顶层放置一个输出仓来收集这些气体.而能收集到的比例与消声仓的等级有关.MAX等级的消声仓可回收78％的气体.  某些"智者"总是说:让消声仓Moint-Mup.其实应该是point-up(指向上方).  如果你需要一台完美的工业高炉,你可以添加更多的输入仓,在其中存储不同的气体.  译者注:前期氧与氮两种气体,中期陆续加入氦和氩,后期会有氡,至于氢气用得非常少,不建议常备.  §4如果污染变得非常严重,查看GT++的污染清理机.
 
 # Quest.78 - §6§lUpgrade #1: More heat - Kanthal Coils
 gtnh.quest78.name=§6§l升级#1: 更多的热量 - 坝塔尔线圈
@@ -366,7 +368,9 @@ gtnh.quest90.desc=够了,再也不用为几根导线去浪费巨量的矿锭了.
 
 # Quest.91 - §5§lYou're gonna hate this #1
 gtnh.quest91.name=§5§l你会讨厌它们的#1
-gtnh.quest91.desc=第一种你非常需要的东西.如果你想将物品从箱子或桶中抽出物品,你就会需要一个. 跟物品管道或GT机器配合起来非常好用,用螺丝刀调整模式.
+#B gtnh.quest91.desc=The first item you'll need a lot of. If you want to pull items out of chests or barrels you'll need one. %n%nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.
+#A gtnh.quest91.desc=The first item you'll need a lot of. If you want to pull items out of chests or barrels you'll need one. %n%nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.%n%n§3PS: Covers have a Shift-Right-Click interface now!
+#C gtnh.quest91.desc=第一种你非常需要的东西.如果你想将物品从箱子或桶中抽出物品,你就会需要一个. 跟物品管道或GT机器配合起来非常好用,用螺丝刀调整模式.
 
 # Quest.92 - §5§lYou're gonna hate this #4
 gtnh.quest92.name=§5§l你会讨厌它们的#4
@@ -374,7 +378,9 @@ gtnh.quest92.desc=第四种你非常需要的东西,而且它合成起来令人�
 
 # Quest.93 - §5§lYou're gonna hate this #2
 gtnh.quest93.name=§5§l你会讨厌它们的#2
-gtnh.quest93.desc=第二种你非常需要的东西.当你想要将液体从储罐中抽出时,你需要它. 提示:可用于管道或GT机器.使用螺丝刀进行调整.无法用于机器正面.  当你看向管道或者机器时,你可以使用网格来将覆盖板贴到看不到的其他面上,你也可以对着网格使用螺丝刀来调整相应面的覆盖板.  当机器或管道装上覆盖板后,如果使用扳手拆除后,覆盖板将会保留在其中.当此机器或管道再次被放置后,覆盖板将会在原有方向重新出现,且保留其中设置.通过这种方式,可以事先在开阔位置设置好机器的覆盖板,然后再放置于比较狭小不便操作的位置.要移除覆盖板,需要使用撬棍.  它还可以进一步升级为可以精确控制流体传输速度的流体校准器.
+#B gtnh.quest93.desc=The second item you'll need a lot. When you want to get fluid out of tanks you'll need one. %n%nHint: Attach to fluid pipes or GT machines. Adjust the direction and redstone behavior with a screwdriver. Place it on the side facing the tank or machine.  When looking at a pipe or machine, you can use the grid to place it on a side already touching another thing. You can use the grid with a screwdriver to adjust a cover on that side as well.%n%nWhen a GT pipe or machine has any cover, including a pump cover, wrenching the machine back into an item keeps the cover on that machine.  The cover stays with the machine in the same N S E W direction when it is placed down again. This way you can arrange pump and conveyor covers on a machine outside a tight spot and place it there. To remove covers, use the crowbar.%n%nIt can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.
+#A gtnh.quest93.desc=The second item you'll need a lot. When you want to get fluid out of tanks you'll need one. %n%nHint: Attach to fluid pipes or GT machines. Adjust the direction and redstone behavior with a screwdriver. Place it on the side facing the tank or machine.  When looking at a pipe or machine, you can use the grid to place it on a side already touching another thing. You can use the grid with a screwdriver to adjust a cover on that side as well.%n%nWhen a GT pipe or machine has any cover, including a pump cover, wrenching the machine back into an item keeps the cover on that machine.  The cover stays with the machine in the same N S E W direction when it is placed down again. This way you can arrange pump and conveyor covers on a machine outside a tight spot and place it there. To remove covers, use the crowbar.%n%nIt can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.%n%n§3PS: Covers have a Shift-Right-Click interface now!
+#C gtnh.quest93.desc=第二种你非常需要的东西.当你想要将液体从储罐中抽出时,你需要它. 提示:可用于管道或GT机器.使用螺丝刀进行调整.无法用于机器正面.  当你看向管道或者机器时,你可以使用网格来将覆盖板贴到看不到的其他面上,你也可以对着网格使用螺丝刀来调整相应面的覆盖板.  当机器或管道装上覆盖板后,如果使用扳手拆除后,覆盖板将会保留在其中.当此机器或管道再次被放置后,覆盖板将会在原有方向重新出现,且保留其中设置.通过这种方式,可以事先在开阔位置设置好机器的覆盖板,然后再放置于比较狭小不便操作的位置.要移除覆盖板,需要使用撬棍.  它还可以进一步升级为可以精确控制流体传输速度的流体校准器.
 
 # Quest.94 - §5§lElectric macerator
 gtnh.quest94.name=§5§l电力粉碎机
@@ -526,7 +532,9 @@ gtnh.quest130.desc=在此之前,你还要用BC储罐来带液体到处跑,这事
 
 # Quest.131 - §6§lSimple RF power: Solid
 gtnh.quest131.name=§6§l简易RF能源:固体
-gtnh.quest131.desc=这台机器能通过燃烧煤炭作为燃料产生RF能量,足够供给你的基础机器.这台机器还可以接受压缩方块燃料或者多充压缩方块燃料.一块烧一年? 你同样可以通过安装电容来提升这台机器的输出和效率.GT导线和变压器可以将EU转换为RF,但EIO机器可以淋雨.  这台机器可能对基因工业的机器比较有用,因为它们直接连接GT导线时会消耗更多电能-而林业的机器和EIO的机器就没有这种问题.
+#B gtnh.quest131.desc=By simply burning coal as fuel, this machine produces RF power. Enough for a basic machine setup. This machine will also accept compressed and multiple-compressed blocks.  Want to burn for 250+ days? Also, with double or octadic capacitors the output will increase and efficiency will improve. GT wiring can convert EU to RF, but EnderIO machines can be left safely out in the rain. %n%nMight be useful for Genetics machines since they consume excessive power when attached to GT wiring - Forestry and EnderIO machines work fine.
+#A gtnh.quest131.desc=By simply burning coal as fuel, this machine produces RF power. Enough for a basic machine setup. This machine will also accept compressed and multiple-compressed blocks.  Want to burn for 250+ days? Also, with double or octadic capacitors the output will increase and efficiency will improve. GT wiring can convert EU to RF, but not the other way around. Ender IO machines and GT cables and Wires can be left safely out in the rain. %n%nIt might be useful for Genetics machines since they consume excessive power when attached to GT wiring - Forestry and EnderIO machines work fine (except for the Thermionic Fabricator). Or use a Capacitor Bank.
+#C gtnh.quest131.desc=这台机器能通过燃烧煤炭作为燃料产生RF能量,足够供给你的基础机器.这台机器还可以接受压缩方块燃料或者多充压缩方块燃料.一块烧一年? 你同样可以通过安装电容来提升这台机器的输出和效率.GT导线和变压器可以将EU转换为RF,但EIO机器可以淋雨.  这台机器可能对基因工业的机器比较有用,因为它们直接连接GT导线时会消耗更多电能-而林业的机器和EIO的机器就没有这种问题.
 
 # Quest.132 - §6§lSimple RF power: Liquids
 gtnh.quest132.name=§6§l简易RF能源:液体
@@ -1228,56 +1236,80 @@ gtnh.quest305.desc=这个神奇的石头在你死后会找到你的灵魂,有些
 gtnh.quest306.name=有用的树
 gtnh.quest306.desc=虽然和其他植物类似,但是这几种树有一些特别的能力,可以吸引各种"友好"或者"不友好"的生物. (前提是你没有将他们种植在荒凉的生物群系)
 
-# Quest.307 - The power of gods
-gtnh.quest307.name=神的力量
+# Quest.307 - The Power of Gods
+#B gtnh.quest307.name=The power of gods
+#A gtnh.quest307.name=The Power of Gods
+#C gtnh.quest307.name=神的力量
 gtnh.quest307.desc=你发现这颗珍珠会对你造成一些有趣的影响.曾经在你耳边的那些低语消失了,并且扩大了你在某些方面的感知力. 你能"感觉"到在你身边的魔力.这值得进一步研究一下.
 
 # Quest.308 - The final goal
 gtnh.quest308.name=最终的目标
 gtnh.quest308.desc=在你的帮助下,我终于创造了一个终极的能量来源:一个被磁场包裹的迷你虫洞.它将从人工宇宙中吸取能量,直到它生命的终点-热寂. 你已经帮助我完成了我的梦想,这个人工虫洞我还没有使用它,现在它是你的了. 最后再次感谢你,我的朋友！
 
-# Quest.309 - Shards of opposite worlds
-gtnh.quest309.name=相反世界的碎片
+# Quest.309 - Shards of Opposite Worlds
+#B gtnh.quest309.name=Shards of opposite worlds
+#A gtnh.quest309.name=Shards of Opposite Worlds
+#C gtnh.quest309.name=相反世界的碎片
 gtnh.quest309.desc=在你过去的旅程中,你已经见过了许多不同颜色的神奇的碎片. 但是和你每天使用的原始碎片不同,这两种碎片似乎包含了它们所在世界的原始本质.天堂和地狱....两个截然相反的世界.
 
-# Quest.310 - Unleashed the power
-gtnh.quest310.name=释放力量
+# Quest.310 - Unleashed the Power - Cowl
+#B gtnh.quest310.name=Unleashed the power
+#A gtnh.quest310.name=Unleashed the Power - Cowl
+#C gtnh.quest310.name=释放力量
 gtnh.quest310.desc=为了让你的盔甲在最大程度上保护你,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
-# Quest.311 - Unbreakable cowl
-gtnh.quest311.name=永不磨损的头巾
+# Quest.311 - Unbreakable Cowl
+#B gtnh.quest311.name=Unbreakable cowl
+#A gtnh.quest311.name=Unbreakable Cowl
+#C gtnh.quest311.name=永不磨损的头巾
 gtnh.quest311.desc=它永远不会损坏,这会非常方便.
 
-# Quest.312 - Unleashed the power
-gtnh.quest312.name=释放力量
+# Quest.312 - Unleashed the Power - Leggings
+#B gtnh.quest312.name=Unleashed the power
+#A gtnh.quest312.name=Unleashed the Power - Leggings
+#C gtnh.quest312.name=释放力量
 gtnh.quest312.desc=为了让你的盔甲在最大程度上保护你,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
-# Quest.313 - Unbreakable leggings
-gtnh.quest313.name=永不磨损的护腿
+# Quest.313 - Unbreakable Leggings
+#B gtnh.quest313.name=Unbreakable leggings
+#A gtnh.quest313.name=Unbreakable Leggings
+#C gtnh.quest313.name=永不磨损的护腿
 gtnh.quest313.desc=它们永远不会损坏,这会非常方便.
 
-# Quest.314 - Unleashed the power
-gtnh.quest314.name=释放力量
+# Quest.314 - Unleashed the Power - Robe
+#B gtnh.quest314.name=Unleashed the power
+#A gtnh.quest314.name=Unleashed the Power - Robe
+#C gtnh.quest314.name=释放力量
 gtnh.quest314.desc=为了让你的盔甲在最大程度上保护你,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
-# Quest.315 - Unbreakable robe
-gtnh.quest315.name=永不磨损的法袍
+# Quest.315 - Unbreakable Robe
+#B gtnh.quest315.name=Unbreakable robe
+#A gtnh.quest315.name=Unbreakable Robe
+#C gtnh.quest315.name=永不磨损的法袍
 gtnh.quest315.desc=它永远不会损坏,这会非常方便.
 
-# Quest.316 - Infused cloth
-gtnh.quest316.name=神奇的布匹
+# Quest.316 - Infused Cloth
+#B gtnh.quest316.name=Infused cloth
+#A gtnh.quest316.name=Infused Cloth
+#C gtnh.quest316.name=神奇的布匹
 gtnh.quest316.desc=将布匹和灵液结合,你将创造出一种堪比秘银的布匹.它比羊毛还要轻,但是却比钢铁还要坚固.而且,它如同你所知道的材料一样可以注入魔法力量.这真是制造新型装甲的绝佳材料！
 
-# Quest.317 - Unleashed the power
-gtnh.quest317.name=释放力量
+# Quest.317 - Unleashed the Power - Boots
+#B gtnh.quest317.name=Unleashed the power
+#A gtnh.quest317.name=Unleashed the Power - Boots
+#C gtnh.quest317.name=释放力量
 gtnh.quest317.desc=为了让你的盔甲在最大程度上保护你,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
-# Quest.318 - Unbreakable boots
-gtnh.quest318.name=永不磨损的靴子
+# Quest.318 - Unbreakable Boots
+#B gtnh.quest318.name=Unbreakable boots
+#A gtnh.quest318.name=Unbreakable Boots
+#C gtnh.quest318.name=永不磨损的靴子
 gtnh.quest318.desc=它们永远不会损坏,这会非常方便.
 
-# Quest.319 - Unbreakable axe
-gtnh.quest319.name=永不磨损的斧头
+# Quest.319 - Unbreakable Axe
+#B gtnh.quest319.name=Unbreakable axe
+#A gtnh.quest319.name=Unbreakable Axe
+#C gtnh.quest319.name=永不磨损的斧头
 gtnh.quest319.desc=用新金属打造的斧头永远不会损坏,并且可以更容易的获得高等级的附魔.不过一会还有更多的事情告诉你...
 
 # Quest.320 - Infused Thaumium
@@ -1288,45 +1320,67 @@ gtnh.quest320.desc=使用灵液和一些神秘的力量,我们可以转换出一
 gtnh.quest321.name=永不磨损的剑
 gtnh.quest321.desc=用新金属打造的剑永远不会损坏,并且可以更容易的获得高等级的附魔.不过一会还有更多的事情告诉你...
 
-# Quest.322 - Unbreakable
-gtnh.quest322.name=永不磨损的镐
+# Quest.322 - Unbreakable Pickaxe
+#B gtnh.quest322.name=Unbreakable
+#A gtnh.quest322.name=Unbreakable Pickaxe
+#C gtnh.quest322.name=永不磨损的镐
 gtnh.quest322.desc=用新金属打造的镐永远不会损坏,并且可以更容易的获得高等级的附魔.不过一会还有更多的事情告诉你...
 
-# Quest.323 - Unbreakable shovel
-gtnh.quest323.name=永不磨损的铲
+# Quest.323 - Unbreakable Shovel
+#B gtnh.quest323.name=Unbreakable shovel
+#A gtnh.quest323.name=Unbreakable Shovel
+#C gtnh.quest323.name=永不磨损的铲
 gtnh.quest323.desc=用新金属打造的铲永远不会损坏,并且可以更容易的获得高等级的附魔.不过一会还有更多的事情告诉你...
 
-# Quest.324 - Unleashed the power
-gtnh.quest324.name=释放力量
+# Quest.324 - Unleashed the Power - Sword
+#B gtnh.quest324.name=Unleashed the power
+#A gtnh.quest324.name=Unleashed the Power - Sword
+#C gtnh.quest324.name=释放力量
 gtnh.quest324.desc=为了让你的新工具更加有效率,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
-# Quest.325 - Unleashed the power
-gtnh.quest325.name=释放力量
+# Quest.325 - Unleashed the Power - Shovel
+#B gtnh.quest325.name=Unleashed the power
+#A gtnh.quest325.name=Unleashed the Power - Shovel
+#C gtnh.quest325.name=释放力量
 gtnh.quest325.desc=为了让你的新工具更加有效率,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
-# Quest.326 - Unleashed the power
-gtnh.quest326.name=释放力量
+# Quest.326 - Unleashed the Power - Axe
+#B gtnh.quest326.name=Unleashed the power
+#A gtnh.quest326.name=Unleashed the Power - Axe
+#C gtnh.quest326.name=释放力量
 gtnh.quest326.desc=为了让你的新工具更加有效率,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
-# Quest.327 - Unleashed the power
-gtnh.quest327.name=释放力量
+# Quest.327 - Unleashed the Power - Pickaxe
+#B gtnh.quest327.name=Unleashed the power
+#A gtnh.quest327.name=Unleashed the Power - Pickaxe
+#C gtnh.quest327.name=释放力量
 gtnh.quest327.desc=为了让你的新工具更加有效率,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
-# Quest.328 - Hold all the foci
-gtnh.quest328.name=把你喜欢的东西都存起来.
+# Quest.328 - Hold All the Foci
+#B gtnh.quest328.name=Hold all the foci
+#A gtnh.quest328.name=Hold All the Foci
+#C gtnh.quest328.name=把你喜欢的东西都存起来.
 gtnh.quest328.desc=赫敏的手袋.(哈利波特7里面赫敏的神奇手袋,被施以无痕伸展咒.)
 
-# Quest.329 - Where do the items go?
-gtnh.quest329.name=那些东西去哪了？
+# Quest.329 - Where Do the Items Go?
+#B gtnh.quest329.name=Where do the items go?
+#A gtnh.quest329.name=Where Do the Items Go?
+#C gtnh.quest329.name=那些东西去哪了？
 gtnh.quest329.desc=最好不要问这个问题...
 
-# Quest.330 - Magical waystones
-gtnh.quest330.name=神奇的传送核心
-gtnh.quest330.desc=使用仙域召唤核心可以直接通过法杖激活仙域珍珠绑定的坐标进行传送.
+# Quest.330 - Magical Waystones
+#B gtnh.quest330.name=Magical waystones
+#A gtnh.quest330.name=Magical Waystones
+#C gtnh.quest330.name=神奇的传送核心
+#B gtnh.quest330.desc=These are used to mark locations in order to teleport around
+#A gtnh.quest330.desc=This can be used to go back to a Celestial Gateway if you have a bound Celestial Pearl in your hotbar. It will use the leftmost one in your hotbar, so you can carry multiple to travel around!
+#C gtnh.quest330.desc=使用仙域召唤核心可以直接通过法杖激活仙域珍珠绑定的坐标进行传送.
 
 # Quest.331 - Why walk...
 gtnh.quest331.name=我们为什么要步行？
-gtnh.quest331.desc=...这个小装置可以让你几乎能免费的进行传送.这是作弊么？是OP？不,当然不是,这是一个仙域之门！
+#B gtnh.quest331.desc=...when you can teleport? This little device allows you to teleport around almost for free. Is it cheaty? Is it OP? Nope, it's a celestial gateway!
+#A gtnh.quest331.desc=...when you can teleport? This little device allows you to teleport around almost for free. Is it cheaty? Is it OP? Nope, it's a celestial gateway!%n%n10 can be set per device, so get creative! ...Unless you want to go to other Dims, which it can't do. But hey, faster travel around your base!
+#C gtnh.quest331.desc=...这个小装置可以让你几乎能免费的进行传送.这是作弊么？是OP？不,当然不是,这是一个仙域之门！
 
 # Quest.332 - Fire burn and...
 gtnh.quest332.name=被火烧伤和......
@@ -1404,9 +1458,13 @@ gtnh.quest349.desc=有时候打扮花哨的衣服会很麻烦.然而,如果你�
 gtnh.quest350.name=还有点事儿......
 gtnh.quest350.desc=好吧,我这里有全套的组装设备.但是你能帮我准备一些额外的配件吗？ 我需要升级我大部分的机器.在研究他们时我的大部分机器都损坏了.来吧我给你列个清单.  在我测试这些生命和灵魂碎片的导电率时我的大部分电路都被烧毁了,我需要一些更好的电路替换它们. 还有这些天杀的神秘碎片,我的钻石磨头对它们无能为力,帮我买个更好的来. 还有你看到旁边那堆铬了吗？什么,没看到？好吧那可能是因为你给我奇点......哎...算了,给我弄一个更好的机器外壳吧. 最后我没有稳定器所需要的力场发生器,再给我弄2个过来.
 
-# Quest.351 - Hello there
-gtnh.quest351.name=嘿！看那里！
-gtnh.quest351.desc=我注意到你了.不得不说,你让我印象深刻.我手头有一个大项目,所以我可能很快就需要你的帮助.
+# Quest.351 - Hello There!
+#B gtnh.quest351.name=Hello there
+#A gtnh.quest351.name=Hello There!
+#C gtnh.quest351.name=嘿！看那里！
+#B gtnh.quest351.desc=I've observed your pathway, and I have to say, I'm impressed. I might need your help soon, on a big project of mine.
+#A gtnh.quest351.desc=I've observed your progress, and I have to say, I'm impressed. I might need your help soon on a big project of mine.
+#C gtnh.quest351.desc=我注意到你了.不得不说,你让我印象深刻.我手头有一个大项目,所以我可能很快就需要你的帮助.
 
 # Quest.352 - Power. So much power!
 gtnh.quest352.name=能量.很多的能量！
@@ -4436,12 +4494,18 @@ gtnh.quest1107.desc=一个人很孤独？想要帮忙保护你的基地？想要
 gtnh.quest1108.name=§3§l一个很酷的家伙
 gtnh.quest1108.desc=一个人很孤独？或者你居住的地方距离雪原很远？制造一个雪傀儡吧,也许你还可以和它来玩打雪仗,
 
-# Quest.1109 - Oh crunchy
-gtnh.quest1109.name=嘎嘣脆鸡肉味
-gtnh.quest1109.desc=在进行神秘研究的过程中你找到了一次性永久祛除扭曲的方法-纯净泪水.吃掉它你将祛除你身上所有的扭曲. 但是小心,祛除扭曲的同时可能负面效果十分致命.
+# Quest.1109 - Ohhh, Crunchy
+#B gtnh.quest1109.name=Oh crunchy
+#A gtnh.quest1109.name=Ohhh, Crunchy
+#C gtnh.quest1109.name=嘎嘣脆鸡肉味
+#B gtnh.quest1109.desc=After hours of doing Thaumcraft research you found a way to craft pure tears. Ichorium purifies the nether star which sucks all the warp away. Be careful, as this may have a deadly end.
+#A gtnh.quest1109.desc=After many, many, hours of doing Thaumcraft research you found a way to craft pure tears. Ichorium purifies the nether star which sucks all the warp away. Be careful, as this may have a deadly end.
+#C gtnh.quest1109.desc=在进行神秘研究的过程中你找到了一次性永久祛除扭曲的方法-纯净泪水.吃掉它你将祛除你身上所有的扭曲. 但是小心,祛除扭曲的同时可能负面效果十分致命.
 
-# Quest.1110 - Purge all your warp
-gtnh.quest1110.name=净化你的扭曲
+# Quest.1110 - Purge All Your Warp
+#B gtnh.quest1110.name=Purge all your warp
+#A gtnh.quest1110.name=Purge All Your Warp
+#C gtnh.quest1110.name=净化你的扭曲
 gtnh.quest1110.desc=你有没有一个梦想,祛除扭曲的同时不会产生副作用？ 净化护身符会让你的梦想成真. 但是别忘了带上它.
 
 # Quest.1111 - A Chest for Bees
@@ -4806,7 +4870,9 @@ gtnh.quest1200.desc=现在,你已经拥有了一个聚变反应堆,是时候利�
 
 # Quest.1201 - §a§b§c§d§e§f§d§l§l§c§lTurbine Time
 gtnh.quest1201.name=§a§b§c§d§e§f§d§l§l§c§l涡轮
-gtnh.quest1201.desc=你崭新的等离子涡轮机需要一个全新的转子来驱动它.%n%n你可以使用任何的GT材料来制造涡轮, 但是目前涡轮的最佳材料是龙锭.  三钛材质的涡轮将提供最大的EU/T输出. 而中子材质的涡轮将提供最高的持久度,但是效率比较低,整体的涡轮机功率将比较小. 觉醒龙锭材质的涡轮将会提供比较平衡的属性.%n%n你可以制造4种不同尺寸的涡轮,涡轮越大,涡轮的所有性能都将有所提升.然而,并不是越大的涡轮就是最适合的. 因为我们要注意涡轮的最佳流量,最佳流量的计算方法是涡轮的每秒最佳能量流除以所使用的等离子燃料的能量值.  译者注：注意单位换算,并向上取整.
+#B gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any GT material, but the best right now is Draconium. %n%nYou can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn't also the most efficient. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. Make sure to use a fluid regulator set to this flow rate.
+#A gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any GT material, but the best right now is NORMAL Draconium. §4Always test in Creative first!§r%n%nYou can make turbines in 4 different sizes. The larger the turbine the more eu/t it will produce. However, the largest turbine isn't also the most efficient. Generally Large is the best. When using turbines be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. Or use the spreadsheet to do it for you (there's a link in the main spreadsheet, which is linked to in discord). Make sure to use a fluid regulator set to this flow rate.
+#C gtnh.quest1201.desc=你崭新的等离子涡轮机需要一个全新的转子来驱动它.%n%n你可以使用任何的GT材料来制造涡轮, 但是目前涡轮的最佳材料是龙锭.  三钛材质的涡轮将提供最大的EU/T输出. 而中子材质的涡轮将提供最高的持久度,但是效率比较低,整体的涡轮机功率将比较小. 觉醒龙锭材质的涡轮将会提供比较平衡的属性.%n%n你可以制造4种不同尺寸的涡轮,涡轮越大,涡轮的所有性能都将有所提升.然而,并不是越大的涡轮就是最适合的. 因为我们要注意涡轮的最佳流量,最佳流量的计算方法是涡轮的每秒最佳能量流除以所使用的等离子燃料的能量值.  译者注：注意单位换算,并向上取整.
 
 # Quest.1202 - I Put Fusion in Your Fusion so you Can Fusion While You Fusion
 gtnh.quest1202.name=套娃聚变(I Put Fusion in Your Fusion so you Can Fusion While You Fusion)
@@ -6666,7 +6732,9 @@ gtnh.quest1665.desc=现在你有了HSS-G,是时候制作HSS-S了. 这种新型�
 
 # Quest.1666 - §c§b§lArgon
 gtnh.quest1666.name=§c§b§l氩
-gtnh.quest1666.desc=要处理一些你以后会发现的新锭,你需要氩气. 氩气第一个来源来自空气中的少量存在(稀有气体).  §4提示:在真空冷冻机中冷冻压缩空气单元并获得液态空气单元.这将是氩气的来源.
+#B gtnh.quest1666.desc=To process some of the new ingots you will find, you need argon. Your first source will come from air, in small amounts.%n%n§4Hint: Use compresed air in a vacuum freezer and get liquid air. This will be a source of argon.
+#A gtnh.quest1666.desc=To process some of the new ingots you will find, you need argon. Your first source will come from air, in small amounts. Unlike centrifuging Compressed Air Cells, you'll need to turn the Air into Liquid Air first in a Vacuum Freezer so you can centrifuge it more efficiently.%n%nThe VF only works on cells, but the upgraded version available later works on the liquid itself. You can also make the Air Intake Hatch instead of using a Compresser PA, it's way better. It's only compatible with the upgraded VF and the Rocket Engine multis, but you can pump out the air it produces directly, and then can it to use in the VF. An HV pump or EIO conduit is all you need. %n%nDon't bother with the DT recipe unless you need the other fluids from it, it's not nearly as good as centrifuging. You also need the Liquid Air Fluid Hatch (only works with Liquid Air!) and Giant Output Hatch when you want to do that.%n%n§3The MVF inherits the VFs qualities, so it uses cells too, unlike the upgraded one (Cryogenic).
+#C gtnh.quest1666.desc=要处理一些你以后会发现的新锭,你需要氩气. 氩气第一个来源来自空气中的少量存在(稀有气体).  §4提示:在真空冷冻机中冷冻压缩空气单元并获得液态空气单元.这将是氩气的来源.
 
 # Quest.1667 - §b§lNaquadah
 gtnh.quest1667.name=§b§l硅岩
@@ -7334,7 +7402,9 @@ gtnh.quest1832.desc=风车可以用风的力量研磨物品和方块.它非常�
 
 # Quest.1833 - §6§lUpgrade #8: Upgrade tier 9 - Awakened Draconium Coils
 gtnh.quest1833.name=§6§l升级#8:升级到第9阶 - 觉醒龙锭线圈
-gtnh.quest1833.desc=处理最先进的材料(无尽催化剂、无尽),你需要超过9900K的炉温.将你的工业高炉温度提高到10800K.
+#B gtnh.quest1833.desc=To process the most advanced materials like Infinity Catalys or Infinity need more than 9900K. Upgrade your EBF to 10800k.
+#A gtnh.quest1833.desc=To process the most advanced materials like Infinity Catalyst or Infinity need more than 9900K. Upgrade your EBF to 10800k.%n%n§3With the heat adjustment included, you can get up to 11601K if you OC with UHV hatches. Not that you need it or anything.
+#C gtnh.quest1833.desc=处理最先进的材料(无尽催化剂、无尽),你需要超过9900K的炉温.将你的工业高炉温度提高到10800K.
 
 # Quest.1834 - §1§lMushroom Biomes ? why there so many?
 gtnh.quest1834.name=§1§l蘑菇岛?为什么有这么多蘑菇岛?
@@ -9178,7 +9248,9 @@ gtnh.quest2293.desc=想要制取四氧化二氮,你需要将一些铜粉和硝�
 
 # Quest.2294 - §a§lRocket Engine EV
 gtnh.quest2294.name=§a§l火箭引擎(EV)
-gtnh.quest2294.desc=这种火箭引擎非常浪费,燃料效率仅为60％. 每秒产生200-2000点污染.
+#B gtnh.quest2294.desc=The Rocket Engine is a very dirty device which generate power out of rocket fuels at 60% efficiency.%n200 to 2000 polution each sec.
+#A gtnh.quest2294.desc=The Rocket Engine is a very dirty device which generates power out of rocket fuels at 80% efficiency, and produces 250 to 2000 pollution/s.%n%n§3There are 4 Rocket Fuels. Follow the Space Race tab quests to see how to make the rest. Expect to need more than one (probably several) Chemical Plants if you want to autmate production. There's also a RE multi later on too.
+#C gtnh.quest2294.desc=这种火箭引擎非常浪费,燃料效率仅为60％. 每秒产生200-2000点污染.
 
 # Quest.2295 - §l§6§lGetting your first Platinum
 gtnh.quest2295.name=§l§6§l获得第一块铂锭
@@ -10222,7 +10294,9 @@ gtnh.quest2554.desc=到处都是虫子(bug)! 这些该死的混蛋. 最好快逃
 
 # Quest.2555 - Underground Fluids
 gtnh.quest2555.name=地下的流体
-gtnh.quest2555.desc=你可能想知道地下都有些什么流体, 好吧, 这里有一个列表. 按火箭等级与行星分类, 带有地下流体区块(8x8普通区块)生成几率和最大储量这两个数据. 没有列出的世界就没有地下流体. 此表随时可能因平衡而更改!:%n%n%n0阶火箭:%n主世界%n天然气 20 350%n石油 20 625%n原油 20 625%n轻油 20 625%n重油 20 625%n%n%n1阶火箭:%n月球%n氦-3 100 425%n盐水 20 200%n%n%n2阶火箭:%n火星%n氯苯 100 400%n盐水 100 400%n%n%n3阶火箭:%n木卫四%n液态空气 100 2-20%n氧气 100 200%n%n木卫二%n蒸馏水 80 3500%n盐水 100 800%n极重油 20 200%n%n罗斯128b%n蒸馏水 100 5000%n岩浆 5 32767%n天然气 65 625%n极重油 40 625%n%n%n4阶火箭:%n木卫一%n二氧化碳 80 750%n熔融铅 20 650%n硫酸 80 350%n%n水星%n氦-3 100 800%n熔融铁 30 400%n%n金星%n二氧化碳 100 1500%n熔融铅 100 1600%n硫酸 100 250%n%n%n5阶火箭:%n天卫五%n硫化氢 100 900%n%n天卫四%n一氧化碳 100 2000%n%n罗斯128ba%n氦-3 60 1250%n盐水 40 1250%n%n土卫六%n乙烷 100 200%n甲烷 100 800%n%n%n6阶火箭:%n海卫八%n氘 100 700%n%n海卫一%n乙烯 100 800%n氮气 100 800%n%n%n7阶火箭:%n鸟神星%n氢氯酸 80 300%n%n冥王星%n氟 80 4-800%n液态空气 40 4-40%n氮气 100 800%n氧气 100 800%n%n%n8阶火箭:%n半人马Bb%n熔融铜 10 300%n%n巴纳德C%n蒸馏水 100 8000%n不明液体 100 300%n极重油 100 800%n%n巴纳德E%n液态空气 20 20%n%n巴纳德F%n熔融锡 15 400%n%n鲸鱼座T星E%n蒸馏水 100 10000%n氢气 50 700%n极重油 100 200
+#B gtnh.quest2555.desc=So you're probably wondering what all the underground fluids are, well here's a list. They're sorted by rocket tier and planet, with the chance per underground fluid chunk (8x8 regular chunks) and max amount listed. Any Dims not listed have none. This list is subject to change due to balancing at any time!:%n%n%nTier 0:%nOverworld%nNatural Gas 20 350%nOil 20 625%nRaw Oil 20 625%nLight Oil 20 625%nHeavy Oil 20 625%n%n%nTier 1:%nMoon%nHelium-3 100 425%nSalt water 20 200%n%n%nTier 2:%nMars%nChlorobenzene 100 400%nSalt Water 100 400%n%n%nTier 3:%nCallisto%nLiquid Air 100 2-20%nOxygen 100 200%n%nEuropa%nDistilled Water 80 3500%nSalt Water 100 800%nVery Heavy Oil 20 200%n%nRoss128b%nDistilled Water 100 5000%nLava 5 32767%nNatural Gas 65 625%nVery Heavy Oil 40 625%n%n%nTier 4:%nIo%nCarbon Dioxide 80 750%nMolten Lead 20 650%nSulfuric Acid 80 350%n%nMercury%nHelium-3 100 800%nMolten Iron 30 400%n%nVenus%nCarbon Dioxide 100 1500%nMolten Lead 100 1600%nSulfuric Acid 100 250%n%n%nTier 5:%nMiranda%nHydrogen Sulfide 100 900%n%nOberon%nCarbon Monoxide 100 2000%n%nRoss128ba%nHelium-3 60 1250%nSalt Water 40 1250%n%nTitan%nEthane 100 200%nMethane 100 800%n%n%nTier 6:%nProteus%nDeuterium 100 700%n%nTriton%nEthylene 100 800%nNitrogen 100 800%n%n%nTier 7:%nMakemake%nHydrofluoric Acid 80 300%n%nPluto%nFluorine 80 4-800%nLiquid Air 40 4-40%nNitrogen 100 800%nOxygen 100 800%n%n%nTier 8:%nAlpha Centauri Bb%nMolten Copper 10 300%n%nBarnarda C%nDistilled Water 100 8000%nUnknown Water 100 300%nVery Heavy Oil 100 800%n%nBarnarda E%nLiquid Air 20 20%n%nBarnarda F%nMolten Tin 15 400%n%nTau Ceti E%nDistilled Water 100 10000%nHydrogen 50 700%nVery Heavy Oil 100 200
+#A gtnh.quest2555.desc=So you're probably wondering what all the underground fluids are, so here's a list. They're sorted by rocket tier and planet. Any Dims not listed have none.%n%n§cThis list is subject to change due to balancing at any time!§r%n%n§2Example:%n%nTier X:%nDimension/Planet%nFluid <Number that represents how likely it is for this fluid to show up> <Number that represents how much can be present in any 8x8 UF chunk. They are 0-# unless otherwise specified>%nOther fluid that is also present <same as above> <same as above>%nEtc§r%n%n%n§5Tier 0:§r%nOverworld%nNatural Gas 20 350%nOil 20 625%nRaw Oil 20 625%nLight Oil 20 625%nHeavy Oil 20 625%n%n%n§5Tier 1:§r%nMoon%nHelium-3 100 425%nSalt water 20 200%n%n%n§5Tier 2:§r%nMars%nChlorobenzene 100 400%nSalt Water 100 400%n%n%n§5Tier 3:§r%nCallisto%nLiquid Air 100 2-20%nOxygen 100 200%n%nEuropa%nDistilled Water 80 3500%nSalt Water 100 800%nVery Heavy Oil 20 200%n%nRoss128b%nDistilled Water 100 5000%nLava 5 32767%nNatural Gas 65 625%nVery Heavy Oil 40 625%n%n%n§5Tier 4:§r%nIo%nCarbon Dioxide 80 750%nMolten Lead 20 650%nSulfuric Acid 80 350%n%nMercury%nHelium-3 100 800%nMolten Iron 30 400%n%nVenus%nCarbon Dioxide 100 1500%nMolten Lead 100 1600%nSulfuric Acid 100 250%n%n%n§5Tier 5:§r%nMiranda%nHydrogen Sulfide 100 900%n%nOberon%nCarbon Monoxide 100 2000%n%nRoss128ba%nHelium-3 60 1250%nSalt Water 40 1250%n%nTitan%nEthane 100 200%nMethane 100 800%n%n%n§5Tier 6:§r%nProteus%nDeuterium 100 700%n%nTriton%nEthylene 100 800%nNitrogen 100 800%n%n%n§5Tier 7:§r%nMakemake%nHydrofluoric Acid 80 300%n%nPluto%nFluorine 80 4-800%nLiquid Air 40 4-40%nNitrogen 100 800%nOxygen 100 800%n%n%n§5Tier 8:§r%nAlpha Centauri Bb%nMolten Copper 10 300%n%nBarnarda C%nDistilled Water 100 8000%nUnknown Water 100 300%nVery Heavy Oil 100 800%n%nBarnarda E%nLiquid Air 20 20%n%nBarnarda F%nMolten Tin 15 400%n%nTau Ceti E%nDistilled Water 100 10000%nHydrogen 50 700%nVery Heavy Oil 100 200
+#C gtnh.quest2555.desc=你可能想知道地下都有些什么流体, 好吧, 这里有一个列表. 按火箭等级与行星分类, 带有地下流体区块(8x8普通区块)生成几率和最大储量这两个数据. 没有列出的世界就没有地下流体. 此表随时可能因平衡而更改!:%n%n%n0阶火箭:%n主世界%n天然气 20 350%n石油 20 625%n原油 20 625%n轻油 20 625%n重油 20 625%n%n%n1阶火箭:%n月球%n氦-3 100 425%n盐水 20 200%n%n%n2阶火箭:%n火星%n氯苯 100 400%n盐水 100 400%n%n%n3阶火箭:%n木卫四%n液态空气 100 2-20%n氧气 100 200%n%n木卫二%n蒸馏水 80 3500%n盐水 100 800%n极重油 20 200%n%n罗斯128b%n蒸馏水 100 5000%n岩浆 5 32767%n天然气 65 625%n极重油 40 625%n%n%n4阶火箭:%n木卫一%n二氧化碳 80 750%n熔融铅 20 650%n硫酸 80 350%n%n水星%n氦-3 100 800%n熔融铁 30 400%n%n金星%n二氧化碳 100 1500%n熔融铅 100 1600%n硫酸 100 250%n%n%n5阶火箭:%n天卫五%n硫化氢 100 900%n%n天卫四%n一氧化碳 100 2000%n%n罗斯128ba%n氦-3 60 1250%n盐水 40 1250%n%n土卫六%n乙烷 100 200%n甲烷 100 800%n%n%n6阶火箭:%n海卫八%n氘 100 700%n%n海卫一%n乙烯 100 800%n氮气 100 800%n%n%n7阶火箭:%n鸟神星%n氢氯酸 80 300%n%n冥王星%n氟 80 4-800%n液态空气 40 4-40%n氮气 100 800%n氧气 100 800%n%n%n8阶火箭:%n半人马Bb%n熔融铜 10 300%n%n巴纳德C%n蒸馏水 100 8000%n不明液体 100 300%n极重油 100 800%n%n巴纳德E%n液态空气 20 20%n%n巴纳德F%n熔融锡 15 400%n%n鲸鱼座T星E%n蒸馏水 100 10000%n氢气 50 700%n极重油 100 200
 
 # Quest.2556 - §6§lUpgrade #1 : Upgrade Tier 4 - EV Glass
 gtnh.quest2556.name=§6§l升级#1 : 4阶-EV玻璃
@@ -10486,7 +10560,9 @@ gtnh.quest2620.desc=我想知道它们在什么温度开始超导?
 
 # Quest.2621 - Superconductors at 2,097,152 EU/t
 gtnh.quest2621.name=2,097,152 EU/t超导
-gtnh.quest2621.desc=在这之上还有UEV, UIV, UMV, UXV, 和OpV的导线. 只有UEV和UIV有线缆, 且没有超导线. 你可以选用UHV超导线, 也可以使用超便宜的材料并承受一些损耗来输送电力. 同时也有其他选择, 比如AE的EU-P2P或者现场供电.%n%n目前, 更高阶的导线材料有龙锭, 下界之星, 量子, 黑钚, 还有觉醒龙锭. 如果这些阶段实际使用之后, 可能还会有些变化.%n%n什么, UHV超导线? 你不是已经做了吗?
+#B gtnh.quest2621.desc=So above this is the UEV, UIV, UMV, UXV, and OpV wires. Only UEV and UIV have cable versions, and there are no superconductors. You can use UHV superconductors, or use a super cheap material and accept some losses to move your power around. Aside from other options like sending it through an AE tunnel or making power on site again.%n%nThe materials to make the higher tiers are currently Draconium, Nether Star, Quantium, Black Plutonium, and Awakened Draconium. Expect these to change if the tiers actually see use.%n%nWhat, the UHV superconductor? Didn't you already make that?
+#A gtnh.quest2621.desc=So above this is the UEV, UIV, UMV, UXV, and OpV wires. Only UEV and UIV have cable versions, and there are no superconductors. You can use UHV superconductors, or use a super cheap material and accept some losses to move your power around. Aside from other options like sending it through an AE tunnel or making power on site again.%n%nThe materials to make the higher tiers are currently Draconium, Nether Star, Quantium, Black Plutonium, and Awakened Draconium. Expect these to change if the tiers actually see use.%n%nWhat, the UHV superconductor? Didn't you already make that?%n%n§4If you forgot, you get a heat adjustment when using the EBF based on energy hatch tier. So you can smelt the Base UHV Ingot with Fluxed Coils and an UV hatch, since you get up to 10501K. And no, you can't use a Volcanus or MEBF.
+#C gtnh.quest2621.desc=在这之上还有UEV, UIV, UMV, UXV, 和OpV的导线. 只有UEV和UIV有线缆, 且没有超导线. 你可以选用UHV超导线, 也可以使用超便宜的材料并承受一些损耗来输送电力. 同时也有其他选择, 比如AE的EU-P2P或者现场供电.%n%n目前, 更高阶的导线材料有龙锭, 下界之星, 量子, 黑钚, 还有觉醒龙锭. 如果这些阶段实际使用之后, 可能还会有些变化.%n%n什么, UHV超导线? 你不是已经做了吗?
 
 # Quest.2622 - Tier VII Field Generator
 gtnh.quest2622.name=力场发生器(Tier VII)
@@ -10518,7 +10594,9 @@ gtnh.quest2628.desc=下一阶的聚变反应堆需要这种能源仓, 这样你�
 
 # Quest.2629 - UHV Energy Hatch
 gtnh.quest2629.name=UHV能源仓
-gtnh.quest2629.desc=如果你想建造MK4聚变反应堆, 你就需要这种能源仓. 当然, 更主要的用途还是升级多方块机器.
+#B gtnh.quest2629.desc=If you want to make the mk4 reactor, you'll need this. But it's not like you need to or anything.
+#A gtnh.quest2629.desc=If you want to make the T8 Rocket or the mk4 reactor, you'll need this.
+#C gtnh.quest2629.desc=如果你想建造MK4聚变反应堆, 你就需要这种能源仓. 当然, 更主要的用途还是升级多方块机器.
 
 # Quest.2630 - Europium Doped Wafers
 gtnh.quest2630.name=铕掺杂的晶元
@@ -10903,6 +10981,18 @@ gtnh.quest2724.desc=极大型氧气罐是一个储氧罐,最多可容纳5000单�
 # Quest.2725 - Barley time
 gtnh.quest2725.name=大麦时间
 gtnh.quest2725.desc=是时候种一些大麦来做点面包了. 在没有小麦的时候, 大麦是不错的替代选择.
+
+# Quest.2726 - Ichor Core
+#N gtnh.quest2726.name=Ichor Core
+#N gtnh.quest2726.desc=You can now make the best wand core, so do so.
+
+# Quest.2727 - Ichor Caps
+#N gtnh.quest2727.name=Ichor Caps
+#N gtnh.quest2727.desc=These tie with Shadowmetal, but they look nicer.
+
+# Quest.2728 - Best Wand
+#N gtnh.quest2728.name=Best Wand
+#N gtnh.quest2728.desc=This is the best non-endgame/creative wand you can make. There's also a Scepter version.
 
 # Quest.2750 - Proteus Dungeon
 gtnh.quest2750.name=海卫八地牢
