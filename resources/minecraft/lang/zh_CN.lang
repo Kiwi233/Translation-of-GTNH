@@ -310,9 +310,7 @@ gtnh.quest76.desc=你需要钢？呃...好的.我们有得忙的...  提示:砖�
 
 # Quest.77 - §r§6§l§5§l§o§l§r§6§lEBF-Time
 gtnh.quest77.name=§r§6§l§5§l§o§l§r§6§l工业高炉时代
-#B gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.%n%nGetting the heating coils might be a little tricky...%n%n§4(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)%n%n§rA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Max muffler recovers = 78 percent.%n%nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%n§4If the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber.
-#A gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.%n%nGetting the Mica for the heating coils might be a little tricky...but you can use a substitute for the first tier of coils.%n%n§4(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)%n%n§rA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Bart's Platinum Series recipes otuput fluids on the BOTTOM, so if you want to do Platinum Stuff later, remember that.%n%nMoron always says - Make Muffler Moint Mup.  Or point up, anyways.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%nThe EBF also has a heat adjustment of 100K for each power tier +/- MV. Basically, for CuNi Coils, with an LV Energy Hatch, the heat capacity is 1701K (-100), MV=1801K (no change), HV=1901K (+100), etc. Coils only set the base value.%n%nThis adjustment does not apply to the Volcanus or MEBF.%n%n§4If the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber, or upgrade your Muffler.%n
-#C gtnh.quest77.desc=为了得到铝,你需要一个工业高炉.这是通向胜利的另一重要的一步.让我们开始吧. 加热线圈可能会很棘手...... §4(你需要两个LV级能源仓并提供总共4A的LV电流,或者如果你没有修复全部的故障,你就需要三个LV级能源仓和更多的电流)  §r一些高炉配方会产生CO2/SO2.你可以在工业高炉顶层放置一个输出仓来收集这些气体.而能收集到的比例与消声仓的等级有关.MAX等级的消声仓可回收78％的气体.  某些"智者"总是说:让消声仓Moint-Mup.其实应该是point-up(指向上方).  如果你需要一台完美的工业高炉,你可以添加更多的输入仓,在其中存储不同的气体.  译者注:前期氧与氮两种气体,中期陆续加入氦和氩,后期会有氡,至于氢气用得非常少,不建议常备.  §4如果污染变得非常严重,查看GT++的污染清理机.
+gtnh.quest77.desc=为了得到铝,你需要一个工业高炉.这是通向胜利的另一重要的一步.让我们开始吧.%n%n加热线圈所需的云母可能会很棘手...但一阶线圈有替代方案.%n%n§4(你需要两个LV级能源仓并提供总共4A的LV电流,或者如果你没有修复全部的故障,你就需要三个LV级能源仓和更多的电流)%n%n§r一些高炉配方会产生CO2/SO2.你可以在工业高炉顶层放置一个输出仓来收集这些气体.而能收集到的比例与消声仓的等级有关. Bart的铂系处理配方, 流体将在底层输出, 记住这一点.%n%n某些"智者"总是说:让消声仓Moint-Mup.其实应该是point-up(指向上方).%n%n如果你需要一台完美的工业高炉,你可以添加更多的输入仓,在其中存储不同的气体.%n%n译者注:前期氧与氮两种气体,中期陆续加入氦和氩,后期会有氡,至于氢气用得非常少,不建议常备.%n%n工业高炉还会根据电压调整炉温, 从MV开始, 每提升一个电压等级, 实际炉温将提高100开(LV将降低100开). 举个例子, 对于白铜线圈, 一个LV能源仓时, 炉温为1700K(-100), MV=1800K(不变), HV=1900K(+100), 以此类推. 线圈本身仅仅决定了基础炉温.%n%n这种炉温调整不适用与炽焱高炉或巨型工业高炉.%n%n§4如果污染变得非常严重,查看GT++的污染清理机, 或者升级你的消声仓.%n
 
 # Quest.78 - §6§lUpgrade #1: More heat - Kanthal Coils
 gtnh.quest78.name=§6§l升级#1: 更多的热量 - 坝塔尔线圈
@@ -368,9 +366,7 @@ gtnh.quest90.desc=够了,再也不用为几根导线去浪费巨量的矿锭了.
 
 # Quest.91 - §5§lYou're gonna hate this #1
 gtnh.quest91.name=§5§l你会讨厌它们的#1
-#B gtnh.quest91.desc=The first item you'll need a lot of. If you want to pull items out of chests or barrels you'll need one. %n%nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.
-#A gtnh.quest91.desc=The first item you'll need a lot of. If you want to pull items out of chests or barrels you'll need one. %n%nHint: Goes pretty well with item pipes or GT machines, adjust with a screwdriver.%n%n§3PS: Covers have a Shift-Right-Click interface now!
-#C gtnh.quest91.desc=第一种你非常需要的东西.如果你想将物品从箱子或桶中抽出物品,你就会需要一个. 跟物品管道或GT机器配合起来非常好用,用螺丝刀调整模式.
+gtnh.quest91.desc=第一种你非常需要的东西.如果你想将物品从箱子或桶中抽出物品,你就会需要一个. 跟物品管道或GT机器配合起来非常好用,用螺丝刀调整模式.%n%n§3PS: Shift+右键覆盖板可访问其GUI!
 
 # Quest.92 - §5§lYou're gonna hate this #4
 gtnh.quest92.name=§5§l你会讨厌它们的#4
@@ -378,9 +374,7 @@ gtnh.quest92.desc=第四种你非常需要的东西,而且它合成起来令人�
 
 # Quest.93 - §5§lYou're gonna hate this #2
 gtnh.quest93.name=§5§l你会讨厌它们的#2
-#B gtnh.quest93.desc=The second item you'll need a lot. When you want to get fluid out of tanks you'll need one. %n%nHint: Attach to fluid pipes or GT machines. Adjust the direction and redstone behavior with a screwdriver. Place it on the side facing the tank or machine.  When looking at a pipe or machine, you can use the grid to place it on a side already touching another thing. You can use the grid with a screwdriver to adjust a cover on that side as well.%n%nWhen a GT pipe or machine has any cover, including a pump cover, wrenching the machine back into an item keeps the cover on that machine.  The cover stays with the machine in the same N S E W direction when it is placed down again. This way you can arrange pump and conveyor covers on a machine outside a tight spot and place it there. To remove covers, use the crowbar.%n%nIt can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.
-#A gtnh.quest93.desc=The second item you'll need a lot. When you want to get fluid out of tanks you'll need one. %n%nHint: Attach to fluid pipes or GT machines. Adjust the direction and redstone behavior with a screwdriver. Place it on the side facing the tank or machine.  When looking at a pipe or machine, you can use the grid to place it on a side already touching another thing. You can use the grid with a screwdriver to adjust a cover on that side as well.%n%nWhen a GT pipe or machine has any cover, including a pump cover, wrenching the machine back into an item keeps the cover on that machine.  The cover stays with the machine in the same N S E W direction when it is placed down again. This way you can arrange pump and conveyor covers on a machine outside a tight spot and place it there. To remove covers, use the crowbar.%n%nIt can also be further upgraded into a fluid regulator that allows precise control of fluid transfer speed.%n%n§3PS: Covers have a Shift-Right-Click interface now!
-#C gtnh.quest93.desc=第二种你非常需要的东西.当你想要将液体从储罐中抽出时,你需要它. 提示:可用于管道或GT机器.使用螺丝刀进行调整.无法用于机器正面.  当你看向管道或者机器时,你可以使用网格来将覆盖板贴到看不到的其他面上,你也可以对着网格使用螺丝刀来调整相应面的覆盖板.  当机器或管道装上覆盖板后,如果使用扳手拆除后,覆盖板将会保留在其中.当此机器或管道再次被放置后,覆盖板将会在原有方向重新出现,且保留其中设置.通过这种方式,可以事先在开阔位置设置好机器的覆盖板,然后再放置于比较狭小不便操作的位置.要移除覆盖板,需要使用撬棍.  它还可以进一步升级为可以精确控制流体传输速度的流体校准器.
+gtnh.quest93.desc=第二种你非常需要的东西.当你想要将液体从储罐中抽出时,你需要它.%n%n提示:可用于管道或GT机器.使用螺丝刀进行调整.无法用于机器正面.  当你看向管道或者机器时,你可以使用网格来将覆盖板贴到看不到的其他面上,你也可以对着网格使用螺丝刀来调整相应面的覆盖板.%n%n当机器或管道装上覆盖板后,如果使用扳手拆除后,覆盖板将会保留在其中.当此机器或管道再次被放置后,覆盖板将会在原有方向重新出现,且保留其中设置.通过这种方式,可以事先在开阔位置设置好机器的覆盖板,然后再放置于比较狭小不便操作的位置.要移除覆盖板,需要使用撬棍.%n%n它还可以进一步升级为可以精确控制流体传输速度的流体校准器.%n%n§3PS: Shift+右键覆盖板可访问其GUI!
 
 # Quest.94 - §5§lElectric macerator
 gtnh.quest94.name=§5§l电力粉碎机
@@ -532,9 +526,7 @@ gtnh.quest130.desc=在此之前,你还要用BC储罐来带液体到处跑,这事
 
 # Quest.131 - §6§lSimple RF power: Solid
 gtnh.quest131.name=§6§l简易RF能源:固体
-#B gtnh.quest131.desc=By simply burning coal as fuel, this machine produces RF power. Enough for a basic machine setup. This machine will also accept compressed and multiple-compressed blocks.  Want to burn for 250+ days? Also, with double or octadic capacitors the output will increase and efficiency will improve. GT wiring can convert EU to RF, but EnderIO machines can be left safely out in the rain. %n%nMight be useful for Genetics machines since they consume excessive power when attached to GT wiring - Forestry and EnderIO machines work fine.
-#A gtnh.quest131.desc=By simply burning coal as fuel, this machine produces RF power. Enough for a basic machine setup. This machine will also accept compressed and multiple-compressed blocks.  Want to burn for 250+ days? Also, with double or octadic capacitors the output will increase and efficiency will improve. GT wiring can convert EU to RF, but not the other way around. Ender IO machines and GT cables and Wires can be left safely out in the rain. %n%nIt might be useful for Genetics machines since they consume excessive power when attached to GT wiring - Forestry and EnderIO machines work fine (except for the Thermionic Fabricator). Or use a Capacitor Bank.
-#C gtnh.quest131.desc=这台机器能通过燃烧煤炭作为燃料产生RF能量,足够供给你的基础机器.这台机器还可以接受压缩方块燃料或者多充压缩方块燃料.一块烧一年? 你同样可以通过安装电容来提升这台机器的输出和效率.GT导线和变压器可以将EU转换为RF,但EIO机器可以淋雨.  这台机器可能对基因工业的机器比较有用,因为它们直接连接GT导线时会消耗更多电能-而林业的机器和EIO的机器就没有这种问题.
+gtnh.quest131.desc=这台机器能通过燃烧煤炭作为燃料产生RF能量,足够供给你的基础机器.这台机器还可以接受压缩方块燃料或者多充压缩方块燃料.一块烧一年? 你同样可以通过安装电容来提升这台机器的输出和效率.GT导线和变压器可以将EU转换为RF, 却无法逆向转换, 而EIO机器、GT导线和线缆可以淋雨.%n%n这台机器可能对基因工业的机器比较有用,因为它们直接连接GT导线时会消耗更多电能-而林业的机器和EIO的机器就没有这种问题(除了热电子加工台). 或使用电容库中转.
 
 # Quest.132 - §6§lSimple RF power: Liquids
 gtnh.quest132.name=§6§l简易RF能源:液体
@@ -1237,9 +1229,7 @@ gtnh.quest306.name=有用的树
 gtnh.quest306.desc=虽然和其他植物类似,但是这几种树有一些特别的能力,可以吸引各种"友好"或者"不友好"的生物. (前提是你没有将他们种植在荒凉的生物群系)
 
 # Quest.307 - The Power of Gods
-#B gtnh.quest307.name=The power of gods
-#A gtnh.quest307.name=The Power of Gods
-#C gtnh.quest307.name=神的力量
+gtnh.quest307.name=神的力量
 gtnh.quest307.desc=你发现这颗珍珠会对你造成一些有趣的影响.曾经在你耳边的那些低语消失了,并且扩大了你在某些方面的感知力. 你能"感觉"到在你身边的魔力.这值得进一步研究一下.
 
 # Quest.308 - The final goal
@@ -1247,69 +1237,47 @@ gtnh.quest308.name=最终的目标
 gtnh.quest308.desc=在你的帮助下,我终于创造了一个终极的能量来源:一个被磁场包裹的迷你虫洞.它将从人工宇宙中吸取能量,直到它生命的终点-热寂. 你已经帮助我完成了我的梦想,这个人工虫洞我还没有使用它,现在它是你的了. 最后再次感谢你,我的朋友！
 
 # Quest.309 - Shards of Opposite Worlds
-#B gtnh.quest309.name=Shards of opposite worlds
-#A gtnh.quest309.name=Shards of Opposite Worlds
-#C gtnh.quest309.name=相反世界的碎片
+gtnh.quest309.name=相反世界的碎片
 gtnh.quest309.desc=在你过去的旅程中,你已经见过了许多不同颜色的神奇的碎片. 但是和你每天使用的原始碎片不同,这两种碎片似乎包含了它们所在世界的原始本质.天堂和地狱....两个截然相反的世界.
 
 # Quest.310 - Unleashed the Power - Cowl
-#B gtnh.quest310.name=Unleashed the power
-#A gtnh.quest310.name=Unleashed the Power - Cowl
-#C gtnh.quest310.name=释放力量
+gtnh.quest310.name=释放力量-头巾
 gtnh.quest310.desc=为了让你的盔甲在最大程度上保护你,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
 # Quest.311 - Unbreakable Cowl
-#B gtnh.quest311.name=Unbreakable cowl
-#A gtnh.quest311.name=Unbreakable Cowl
-#C gtnh.quest311.name=永不磨损的头巾
+gtnh.quest311.name=永不磨损的头巾
 gtnh.quest311.desc=它永远不会损坏,这会非常方便.
 
 # Quest.312 - Unleashed the Power - Leggings
-#B gtnh.quest312.name=Unleashed the power
-#A gtnh.quest312.name=Unleashed the Power - Leggings
-#C gtnh.quest312.name=释放力量
+gtnh.quest312.name=释放力量-护腿
 gtnh.quest312.desc=为了让你的盔甲在最大程度上保护你,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
 # Quest.313 - Unbreakable Leggings
-#B gtnh.quest313.name=Unbreakable leggings
-#A gtnh.quest313.name=Unbreakable Leggings
-#C gtnh.quest313.name=永不磨损的护腿
+gtnh.quest313.name=永不磨损的护腿
 gtnh.quest313.desc=它们永远不会损坏,这会非常方便.
 
 # Quest.314 - Unleashed the Power - Robe
-#B gtnh.quest314.name=Unleashed the power
-#A gtnh.quest314.name=Unleashed the Power - Robe
-#C gtnh.quest314.name=释放力量
+gtnh.quest314.name=释放力量-法袍
 gtnh.quest314.desc=为了让你的盔甲在最大程度上保护你,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
 # Quest.315 - Unbreakable Robe
-#B gtnh.quest315.name=Unbreakable robe
-#A gtnh.quest315.name=Unbreakable Robe
-#C gtnh.quest315.name=永不磨损的法袍
+gtnh.quest315.name=永不磨损的法袍
 gtnh.quest315.desc=它永远不会损坏,这会非常方便.
 
 # Quest.316 - Infused Cloth
-#B gtnh.quest316.name=Infused cloth
-#A gtnh.quest316.name=Infused Cloth
-#C gtnh.quest316.name=神奇的布匹
+gtnh.quest316.name=神奇的布匹
 gtnh.quest316.desc=将布匹和灵液结合,你将创造出一种堪比秘银的布匹.它比羊毛还要轻,但是却比钢铁还要坚固.而且,它如同你所知道的材料一样可以注入魔法力量.这真是制造新型装甲的绝佳材料！
 
 # Quest.317 - Unleashed the Power - Boots
-#B gtnh.quest317.name=Unleashed the power
-#A gtnh.quest317.name=Unleashed the Power - Boots
-#C gtnh.quest317.name=释放力量
+gtnh.quest317.name=释放力量-靴子
 gtnh.quest317.desc=为了让你的盔甲在最大程度上保护你,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
 # Quest.318 - Unbreakable Boots
-#B gtnh.quest318.name=Unbreakable boots
-#A gtnh.quest318.name=Unbreakable Boots
-#C gtnh.quest318.name=永不磨损的靴子
+gtnh.quest318.name=永不磨损的靴子
 gtnh.quest318.desc=它们永远不会损坏,这会非常方便.
 
 # Quest.319 - Unbreakable Axe
-#B gtnh.quest319.name=Unbreakable axe
-#A gtnh.quest319.name=Unbreakable Axe
-#C gtnh.quest319.name=永不磨损的斧头
+gtnh.quest319.name=永不磨损的斧头
 gtnh.quest319.desc=用新金属打造的斧头永远不会损坏,并且可以更容易的获得高等级的附魔.不过一会还有更多的事情告诉你...
 
 # Quest.320 - Infused Thaumium
@@ -1321,57 +1289,39 @@ gtnh.quest321.name=永不磨损的剑
 gtnh.quest321.desc=用新金属打造的剑永远不会损坏,并且可以更容易的获得高等级的附魔.不过一会还有更多的事情告诉你...
 
 # Quest.322 - Unbreakable Pickaxe
-#B gtnh.quest322.name=Unbreakable
-#A gtnh.quest322.name=Unbreakable Pickaxe
-#C gtnh.quest322.name=永不磨损的镐
+gtnh.quest322.name=永不磨损的镐
 gtnh.quest322.desc=用新金属打造的镐永远不会损坏,并且可以更容易的获得高等级的附魔.不过一会还有更多的事情告诉你...
 
 # Quest.323 - Unbreakable Shovel
-#B gtnh.quest323.name=Unbreakable shovel
-#A gtnh.quest323.name=Unbreakable Shovel
-#C gtnh.quest323.name=永不磨损的铲
+gtnh.quest323.name=永不磨损的铲
 gtnh.quest323.desc=用新金属打造的铲永远不会损坏,并且可以更容易的获得高等级的附魔.不过一会还有更多的事情告诉你...
 
 # Quest.324 - Unleashed the Power - Sword
-#B gtnh.quest324.name=Unleashed the power
-#A gtnh.quest324.name=Unleashed the Power - Sword
-#C gtnh.quest324.name=释放力量
+gtnh.quest324.name=释放力量-剑
 gtnh.quest324.desc=为了让你的新工具更加有效率,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
 # Quest.325 - Unleashed the Power - Shovel
-#B gtnh.quest325.name=Unleashed the power
-#A gtnh.quest325.name=Unleashed the Power - Shovel
-#C gtnh.quest325.name=释放力量
+gtnh.quest325.name=释放力量-铲
 gtnh.quest325.desc=为了让你的新工具更加有效率,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
 # Quest.326 - Unleashed the Power - Axe
-#B gtnh.quest326.name=Unleashed the power
-#A gtnh.quest326.name=Unleashed the Power - Axe
-#C gtnh.quest326.name=释放力量
+gtnh.quest326.name=释放力量-斧
 gtnh.quest326.desc=为了让你的新工具更加有效率,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
 # Quest.327 - Unleashed the Power - Pickaxe
-#B gtnh.quest327.name=Unleashed the power
-#A gtnh.quest327.name=Unleashed the Power - Pickaxe
-#C gtnh.quest327.name=释放力量
+gtnh.quest327.name=释放力量-镐
 gtnh.quest327.desc=为了让你的新工具更加有效率,你需要释放隐藏在其中的力量.这可能很困难,但是值得你付出努力！
 
 # Quest.328 - Hold All the Foci
-#B gtnh.quest328.name=Hold all the foci
-#A gtnh.quest328.name=Hold All the Foci
-#C gtnh.quest328.name=把你喜欢的东西都存起来.
+gtnh.quest328.name=把所有核心都存起来.
 gtnh.quest328.desc=赫敏的手袋.(哈利波特7里面赫敏的神奇手袋,被施以无痕伸展咒.)
 
 # Quest.329 - Where Do the Items Go?
-#B gtnh.quest329.name=Where do the items go?
-#A gtnh.quest329.name=Where Do the Items Go?
-#C gtnh.quest329.name=那些东西去哪了？
+gtnh.quest329.name=那些东西去哪了？
 gtnh.quest329.desc=最好不要问这个问题...
 
 # Quest.330 - Magical Waystones
-#B gtnh.quest330.name=Magical waystones
-#A gtnh.quest330.name=Magical Waystones
-#C gtnh.quest330.name=神奇的传送核心
+gtnh.quest330.name=神奇的传送核心
 #B gtnh.quest330.desc=These are used to mark locations in order to teleport around
 #A gtnh.quest330.desc=This can be used to go back to a Celestial Gateway if you have a bound Celestial Pearl in your hotbar. It will use the leftmost one in your hotbar, so you can carry multiple to travel around!
 #C gtnh.quest330.desc=使用仙域召唤核心可以直接通过法杖激活仙域珍珠绑定的坐标进行传送.
