@@ -16,6 +16,8 @@
 
 另外，有些小更正不会重发release，所以获取最新汉化的最佳方式是点击右上角“Clone or download”，然后选择“download ZIP”
 
+如果直接clone仓库的话，加载界面底端tips汉化文件需要手动修改编码，位置：/config/Betterloadingscreen/tips/en_US.txt，将编码修改为ANSI即可
+
 PS：有时任务书无法正确汉化，可以尝试重载任务书，方法有两种：
 1、输入指令/bq_admin default load
 2、寻找一个名为`默认加载方块`的命令方块，右键即可
