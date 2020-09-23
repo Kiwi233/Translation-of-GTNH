@@ -117,22 +117,12 @@ tile.kekztech_tfftstoragefieldblock2_block.name=T.F.F.T存储库方块(T2)
 tile.kekztech_tfftstoragefieldblock3_block.name=T.F.F.T存储库方块(T3)
 tile.kekztech_tfftstoragefieldblock4_block.name=T.F.F.T存储库方块(T4)
 tile.kekztech_tfftstoragefieldblock5_block.name=T.F.F.T存储库方块(T5)
-tile.kekztech_tfftmultihatch_block.name=T.F.F.T流体输入/出仓
-tile.kekztech_tfftmultihatch_block.0.desc=T.F.F.T的特殊仓室
-tile.kekztech_tfftmultihatch_block.1.desc=可以通过此方块与所有存储的流体进行自动交互
-tile.kekztech_tfftmultihatch_block.2.desc=手持螺丝刀右键以启用自动输出
-tile.kekztech_tfftmultihatch_block.3.desc=自动输出将会尝试向相邻储罐以每种流体1000L/s的速度输出流体
-
-# -------- Item Server: Structure Blocks
-tile.kekztech_itemserverdrive_block.name=物流服务器驱动器
-tile.kekztech_itemserverdrive_block.0.desc=物流服务器的存储驱动器
-tile.kekztech_itemserverrackcasing_block.name=物流服务器外壳
-tile.kekztech_itemserverrackcasing_block.0.desc=崭新闪亮的服务器外壳
-tile.kekztech_itemserverioport_block.name=物流服务器输入/出总线
-tile.kekztech_itemserverioport_block.0.desc=用于与物流服务器交互的输入/出端口
-
-# -------- Item Server: Crafting Components
-item.kekztech_crafting_item.16.name=物流刀片服务器
+#N tile.kekztech_tfftmultihatch_block.0.name=[DEPRECATED] T.F.F.T Multi-Fluid I/O Hatch (Tier I)
+#N tile.kekztech_tfftmultihatch_block.1.name=[DEPRECATED] T.F.F.T Multi-Fluid I/O Hatch (Tier II)
+#N tile.kekztech_tfftmultihatch_block.2.name=[DEPRECATED] T.F.F.T Multi-Fluid I/O Hatch (Tier III)
+#B tile.kekztech_tfftmultihatch_block.0.desc=Special hatch for the T.F.F.T
+#A tile.kekztech_tfftmultihatch_block.0.desc=Put in crafting field to change to update
+#C tile.kekztech_tfftmultihatch_block.0.desc=T.F.F.T的特殊仓室
 
 # -------- Item Proxy: Structure Blocks
 tile.kekztech_itemproxycable_block.name=物流网络线缆
@@ -183,3 +173,9 @@ tile.kekztech_spaceelevator_block.desc=太空电梯基站的一部分
 tile.kekztech_spaceelevatorcapacitor_block.name=太空电梯电容
 tile.kekztech_spaceelevatorcapacitor_block.desc=透视对你的FPS有好处!
 tile.kekztech_spaceelevatortether_block.name=太空电梯线缆
+
+# -------- Cosmetic Blocks
+#N tile.kekztech_largehextile_block=Large Hex Tile
+
+# -------- Beam Transmitter
+#N tile.kekztech_beamtransmitter_block=Beam Transmitter
