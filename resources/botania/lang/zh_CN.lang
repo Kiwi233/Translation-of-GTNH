@@ -545,8 +545,8 @@ achievement.botania:pinkinator.desc=使用粉色手炮
 
 achievement.botania:infiniteFruit=Innocentia
 achievement.botania:infiniteFruit.desc=获得战利品:禁忌果实
-#N achievement.botania:kingKey=A Fake, Fake Psychotropic
-#N achievement.botania:kingKey.desc=Be rewarded the Key of the King's Law for a heroic feat
+achievement.botania:kingKey=A Fake, Fake Psychotropic
+achievement.botania:kingKey.desc=获得战利品:王之宝钥
 achievement.botania:flugelEye=Angel of Death
 achievement.botania:flugelEye.desc=获得战利品:天翼族之眼
 achievement.botania:thorRing=One Step Layered
@@ -1498,9 +1498,9 @@ item.botania:elementiumChest.name=源质钢胸甲
 item.botania:elementiumLegs.name=源质钢护腿
 item.botania:elementiumBoots.name=源质钢靴子
 item.botania:elementiumPick.name=源质钢镐
-#N item.botania:elementiumShovel.name=Elementium Shovel
-#N item.botania:elementiumAxe.name=Elementium Axe
-#N item.botania:elementiumSword.name=Elementium Sword
+item.botania:elementiumShovel.name=源质钢铲
+item.botania:elementiumAxe.name=源质钢斧
+item.botania:elementiumSword.name=源质钢剑
 item.botania:elementiumShears.name=源质钢剪
 item.botania:openBucket.name=无底桶
 item.botania:spawnerMover.name=生命聚合器
@@ -2529,7 +2529,7 @@ botania.entry.endoflame=火红莲
 botania.tagline.endoflame=燃烧产能
 botania.page.endoflame0=尽管&1太阳花&0很好,对植物魔法 师而言还需要更有效的生产 &4魔力&0的方法.<br>&1火红莲&0恰好是那样的,它会吸 收掉落在附近的任何可燃物 品和方块(每次一个)并在燃 烧期间释放出魔力.
 botania.page.endoflame1=有个小提示,&1火红莲&0不会燃烧 有燃烧产物的物品,比如&1岩浆&0 &1桶&0,会留下&1空桶&0.<br>根据它们的特性,你在书中所 见的&1花格箱&0或许能助你实现 它的补给.
-#N botania.page.endoflame3=As the &1Endoflame&0 is often a botanist's first foray into proper automatable &4Active Generating Flora&0, it would be best to not leave it to manual usage forever. As the flower requires dropped items, an &1Open Crate&0 (which you can find in the &4Natural Apparatus&0) section, and some sort of limiting mechanism (a timer or pressure plate) would be ideal for it.
+botania.page.endoflame3=&1火红莲&0是植物学家初涉自动化 时经常用到的&4主动型产能花&0, 别一直手动了. 由于此花需要掉落物,所以一个 &1花格箱&0(见&4自然装置&0) 加上某种限制机制(计时器或压力板) 就挺合适的.
 botania.page.endoflame2=&o不是闪耀之光&r.
 
 # -- HYDROANGEAS
@@ -2543,9 +2543,9 @@ botania.page.hydroangeas1=&o超次元来物&r?
 botania.entry.thermalily=炽玫瑰
 botania.tagline.thermalily=地热发电植魔版
 botania.page.thermalily0=有时候产能速度太慢了,就像 &1水绣球&0和&1火红莲&0.这个问题的 答案就是&1炽玫瑰&0,原理类似&1水&0 &1绣球&0,但它吸收的是&1岩浆&0.它 会在消耗&1岩浆&0时迅速产生大 量的&1魔力&0,这也会让它过热, 因此它在重新开始产能前还 需要一些时间来冷却.
-#N botania.page.thermalily2=The amount of &4Mana&0 the &1Thermalily&0 produces during its active period is extremely high, serving as a very functional flower for when a quick boost is needed.<br>During the "cooldown" period, if the flower were to absorb any &4Lava&0, it instead consumes it, generating no &4Mana&0 and having to wait 5 minutes from there to start over.
-#N botania.page.thermalily3=While placing &1Lava&0 in the world is definitely possible via &1Dispensers&0, automatically gathering it and carrying it from the &4Nether&0 or deep underground is another story entirely.<br>As such, the &1Thermalily&0 is clasified as a "semi-automatable" flower.
-botania.page.thermalily1=&o0108 Style&r.
+botania.page.thermalily2=&1炽玫瑰&0工作时产生的&4魔力&0 非常多,可用于为需要快速充能的 功能花供能.<br>在"冷却"期间,炽玫瑰碰到的&4岩浆&0将被直接消耗,同时没有&4魔力&0产出,并重新计算5分钟的等待时间.
+botania.page.thermalily3=想要将&1岩浆&0放置到世界上肯定 需要通过&1红线发射器&0, 而自动收集岩浆并将其从&4下界&0 或者地下深处送回基地就是另一个故事了.<br>因此,&1炽玫瑰&0被列为"半 自动"产能花.
+botania.page.thermalily1=&o0108款&r.
 
 # -- ROSA ARCANA
 botania.entry.arcanerose=阿卡纳蔷薇
@@ -2584,7 +2584,7 @@ botania.page.gourmaryllis3=&o为我们的新房客准备的火锅&r.
 botania.entry.narslimmus=粘球草
 botania.tagline.narslimmus=黏黏魔法
 botania.page.narslimmus0=这个世界上一些地方还存在 着未知的能量场,那里能产生 &1史莱姆&0.人们称其&4史莱姆区块&0 .&1粘球草&0就能利用这种能量.如 果它被种在了一只由那种能 量生出的&1史莱姆&0旁边,它就会 将其分解并收集由其产生的 所有&4魔力&0.&1史莱姆&0越大,产生 的&4魔力&0就越多.它也会弄得黏 黏糊糊的.
-botania.page.narslimmus1=&oStick around, would ye&r? 
+botania.page.narslimmus1=&o留下来吧,好吗&r? 
 
 # -- SPECTROLUS
 botania.entry.spectrolus=斑斓花
@@ -2671,7 +2671,7 @@ botania.page.manaAlchemy21=将&1硬化粘土&0变成&1红沙&0
 botania.page.manaAlchemy22=粉碎&1粘土&0&1和砖块&0
 botania.page.manaAlchemy23=制作&1劣质土&0
 botania.page.manaAlchemy24=&1草类&0的转化
-#N botania.page.manaAlchemy25=Transmuting mundane flowers
+botania.page.manaAlchemy25=回归平凡的花
 
 # -- BOTANICAL BREWERY
 botania.entry.brewery=植物酿造
@@ -2760,7 +2760,7 @@ botania.page.openCrate2=一个精妙的箱子
 
 # -- DRUM OF THE WILD
 botania.entry.forestDrum=狂野之鼓
-#N botania.tagline.forestDrum=Harvest crops and uproot grass with mana bursts
+botania.tagline.forestDrum=通过魔力脉冲激发,收获作物并除草
 botania.page.forestDrum0=&1狂野之鼓&0通俗说,就是打击乐 器版的&1狂野号角&0.它与手持的 号角有相同的功能,但是放置 在地上的.<br>要击响它破坏附近的花草,需 要向它发射一道&4魔力脉冲&0.
 botania.page.forestDrum1=注意鼓本身并不存储魔力,然 而,为了触发它,需要&1红石魔&0 &1力发射器&0或是&1魔力脉冲&0.
 botania.page.forestDrum2=但如果你闭上了眼睛...
@@ -2785,8 +2785,8 @@ botania.page.manaConjuration6=炼造&1雪&0
 botania.page.manaConjuration7=炼造&1地狱岩&0
 botania.page.manaConjuration8=炼造&1灵魂沙&0
 botania.page.manaConjuration9=炼造&1砂砾&0
-#N botania.page.manaConjuration10=Conjuring &1Leaves&0
-#N botania.page.manaConjuration11=Conjuring &1Grass&0
+botania.page.manaConjuration10=炼造&1树叶&0
+botania.page.manaConjuration11=炼造&1草&0
 
 # -- SPECTRAL PLATFORM
 botania.entry.spectralPlatform=幻影平台
@@ -3018,7 +3018,7 @@ botania.page.vineBall4=哦,你也能制作&1苔石&0
 
 # -- SHARD OF LAPUTA
 botania.entry.laputaShard=拉普达碎片
-#N botania.tagline.laputaShard=Raise parts of your world as floating islands
+botania.tagline.laputaShard=天空之城拉普达的碎片
 botania.page.laputaShard0=通过有些复杂的激活程序,结 合一些有趣的材料包括&1盖亚&0 &1之魂&0就能制作一个特殊的碎 片,当对土地使用时,就能让 附近一个几乎的球形区域升至 空中.<br>这个过程可持续10分钟 并且根据土地的质量消耗对 应量的碎片.
 botania.page.laputaShard2=创建的岛的初始半径为14格 ,换句话说就是直径28格.可 通过添加&1盖亚之魂&0来升级,每 个增加1格半径,即2格直径.
 botania.page.laputaShard1=看呐白,拉普达真的存在!
@@ -3045,7 +3045,7 @@ botania.page.glassPick1=请勿与食物放在一起
 
 # -- ROD OF DIVINING
 botania.entry.diviningRod=占矿法杖
-#N botania.tagline.diviningRod=A rod to find ores
+botania.tagline.diviningRod=能寻找矿石的法杖
 botania.page.diviningRod0=就如其名所示,&1占矿法杖&0能卜 测使用者周围大范围内的矿 物.它们会闪出亮点来显示位 置.<br>这个过程显然会消耗掉玩家 相当量的&4魔力&0.
 botania.page.diviningRod2=它可以给&1活木化身&0使用.如 果这么做,它会显示周边所 有的矿物,如同玩家使用它 一般,但直到它被移除为止 都会一直显示<br>这个过程化身需要&4魔力&0,并 且可以给它一个红石信号以 关闭它.
 botania.page.diviningRod1=inb4 ee3 
@@ -3053,13 +3053,13 @@ botania.page.diviningRod1=inb4 ee3
 # -- ROD OF THE BLACK MESA
 botania.entry.gravityRod=黑山法杖
 botania.tagline.gravityRod=举起,扔出生物
-botania.page.gravityRod0=&1黑山法杖&0是个强力的遗物,传说这些最 初和撬棍被发现于一座黑山 的山顶.<br>使用时需要对怪物或是物品 右键.松开右键就会扔出选择 的实体,左键时则会让它吃发 强力的爆破.
+botania.page.gravityRod0=&1黑山法杖&0是个强力的遗物,传说这些最 初和撬棍被发现于一座黑山 的山顶.<br>使用时需要对怪物或是物品 右键.松开右键就会扔出选择 的实体,左键时则会让它发出 强力的爆破.
 botania.page.gravityRod1=当然这种力量不是免费的,它 会消耗使用者相当大量的&4魔&0 &4力&0.
-botania.page.gravityRod2=Why the flax?
+botania.page.gravityRod2=为什么是亚麻?
 
 # -- TIMELESS IVY
 botania.entry.regenIvy=永恒常春藤
-botania.tagline.regenIvy=Ivy that can be attached to items to have them regenerate durability
+botania.tagline.regenIvy=附着在物品上,消耗魔力修复耐久的常春藤
 botania.page.regenIvy0=尽管&1魔钢&0和&1源质钢&0能用&4魔力&0 保护自身,其他的工具和护甲 却没有这种能力.<br>可以给几乎所有物品附上一 些&1永恒常春藤&0,使它们能用&4魔&0 &4力&0修复.
 botania.page.regenIvy1=使用的话,只需将常春藤和目 标工具,以及3个在铁砧上修 理该工具的材料(比如&1钻石镐 &0用的就是&1钻石&0)<br>由于没有直接连接到材料,这样消耗的&4魔力&0比起&1魔钢&0的会多很多.
 botania.page.regenIvy2=带上你的炼狱扁斧
@@ -3083,7 +3083,7 @@ botania.entry.clip=透镜夹
 botania.tagline.clip=魔力脉冲枪的多透镜升级
 botania.page.clip0=&1魔力脉冲枪&0作为一个强大而 万能的工具,它的缺陷就在于 每次最多只能储存一个&1透镜&0. 将&1透镜夹&0和&1魔力脉冲枪&0在合 成栏合成后,就能让它储存最 多6个透镜.<br>就像他们常说的,没有枪的 俄罗斯轮盘可不算赌博...
 botania.page.clip1=添加和取出&1透镜&0就像之前做 的那样,要注意的是,只会按 照脉冲枪当前的槽取出或装 入透镜.<br>Shift右击&1魔力脉冲枪&0即可切 换槽位.同时也会改变所选的 透镜,前提是槽内装了透镜.
-botania.page.clip2=Since we're dubbed by 4Kids we must make do without one
+botania.page.clip2=透镜太多?合而为一,自由切换吧!
 
 # -- ROD OF THE DEPTHS
 botania.entry.cobbleRod=深渊法杖
@@ -3220,7 +3220,7 @@ botania.tagline.enderHand=随时随地的末影箱
 botania.page.enderHand0=&1末影之手&0让使用者能跨维度 触及末界,换言之就是&1末影箱&0 的物品栏.无论何地只需用这 个手右击并消耗一些&4魔力&0.<br>若对其他玩家使用则会相应 打开&o他们的&r末影物品栏,消耗 更多的&4魔力&0.
 botania.page.enderHand0a=&1末影之手&0让使用者能跨维度 触及末界,换言之就是&1末影箱&0 的物品栏.无论何地只需用这 个手右击并消耗一些&4魔力&0.
 botania.page.enderHand2=不仅如此,若玩家的背包中有 &1末影之手&0,那么&1移壳杆&0就能使 用玩家&1末影箱&0里的方块,这比 起平时使用,要消耗更多的&4魔 力&0.
-botania.page.enderHand1=Zezima hates him!
+botania.page.enderHand1=Zezima讨厌他!
 botania.page.enderHand1a=就像是4G版的末影箱
 
 # -- SOULSCRIBE
@@ -3235,11 +3235,11 @@ botania.entry.spawnerClaw=生命灌注器
 botania.tagline.spawnerClaw=用魔力生成怪物,即使你不在身边
 botania.page.spawnerClaw0=&1刷怪笼&0是个有趣的东西.它们 能从稀薄的空气中抽取出生 命,但不知何故,只在附近有 玩家时才会运行.<br>当然这会在某些程度上限制 它生成生物的速度.
 botania.page.spawnerClaw1=将一个&1生命灌注器&0放在刷怪 笼的顶端并用&1魔力发射器&0提 供大量的&4魔力&0,当附近无玩家 时,&4魔力&0就会驱动刷怪笼, 就好像有玩家存在一样.
-botania.page.spawnerClaw2=Something something shadow dragon
+botania.page.spawnerClaw2=暗影巨龙
 
 # -- RED STRING
 botania.entry.redString=红线
-#N botania.tagline.redString=Remote inventories and other remote things
+botania.tagline.redString=远程容器还有各种远程设备
 botania.page.redString0=Lore说过上帝将一条红线系在了 那些命中注定会互相影响各自 生命的人们的脚踝处.这启发 了发明家们想出了一种远程连 接方块的方法,并命名为&1红线&0 .用这种精致的材料制成的方 块可面朝6个基础方向,并且 在一定范围内与它能找到的第 一个有效且可相容的方块绑定.
 botania.page.redString1=每个&4红线&0方块都有自己不同的 绑定标准,但是每个变体都有 相同的绑定距离要求.如果方 块已建立绑定,则玩家手持 &1森林法杖&0就会看到线.<br>中间的 方块不会阻挡方块之间的连接 .最后,&1红线&0方块不能被绑定
 botania.page.redString2=你是否正处于紧要关头?
@@ -3289,9 +3289,9 @@ botania.page.corporeaIndex2=输入"铁..."将搜索任何名称包 括"铁"的�
 botania.page.corporeaIndex3=物品名称的复数形式只能在 常规名词涉及到复数(以"-s", "-es"或"-ies"为后缀)时使用, 当前版本同样适用于多个物 品请求,例如"10 苹果".<br>"10 of this"搜索10个等同于 玩家手持物品的物品.
 botania.page.corporeaIndex4=复数请求的例子包括 "10 apples", "a stack of apples", "2 stacks of apples", "2 stacks and 20 apples", "half a stack of apples", "a dozen apples",等等.<br>索引可以识别或多或少的搜 索的繁琐形式,所以: "2x stacks and 20x of apples"等同于 "2 stack 2 apple"或 "2 stacks + 2 apples".
 botania.page.corporeaIndex5=搜索"all"或"every"会提供网络 内符合条件的全部物品,所以 "all 苹果"将提供网络内所有 苹果.<br>另外,搜索"count","show","tell" 或"display"不会抽取任何物品, 但会显示物品库存.
-#N botania.page.corporeaIndex8=While near a &1Corporea Index&0, if one is using &4NotEnoughItems&0, pressing C on an item in one's inventory (or NEI panel) will request 1 of said item.<br>Using SHIFT will instead request a full stack, CTRL will request half a stack and SHIFT+CTRL a quarter of a stack.
-botania.page.corporeaIndex6=A certain magical one at that
-#N botania.page.corporeaIndex7=A certain magical one at that
+botania.page.corporeaIndex8=While near a &1Corporea Index&0, if one is using &4NotEnoughItems&0, pressing C on an item in one's inventory (or NEI panel) will request 1 of said item.<br>Using SHIFT will instead request a full stack, CTRL will request half a stack and SHIFT+CTRL a quarter of a stack.
+botania.page.corporeaIndex6=Lastly, while near a &1Corporea Index&0, writing part of an item's name and pressing TAB in the chat menu will autocomplete the item's name.
+botania.page.corporeaIndex7=A certain magical one at that
 
 # -- CORPOREA FUNNEL
 botania.entry.corporeaFunnel=多媒体漏斗
@@ -3329,8 +3329,8 @@ botania.tagline.endStoneDecor=一些末地风格的装饰
 botania.page.endStoneDecor0=类似于其它石质方块,&1末地石&0 也能制成砖块和錾制石砖,砖 块可以跟&1石砖&0一样用于制作 楼梯和台阶.
 botania.page.endStoneDecor1=制作&1末地石砖&0
 botania.page.endStoneDecor2=制作&1錾制末地石砖&0
-#N botania.page.endStoneDecor3=&1Ender Bricks&0, Purpur is a silly name
-#N botania.page.endStoneDecor4=Making &1Pillar Ender Bricks&0
+botania.page.endStoneDecor3=&1Ender Bricks&0, Purpur is a silly name
+botania.page.endStoneDecor4=Making &1Pillar Ender Bricks&0
 
 # -- LIFE AGGREGATOR
 botania.entry.spawnerMover=生命聚合器
@@ -3379,7 +3379,7 @@ botania.page.thunderSword1=商业交涉必备利器
 # - BAUBLES AND ACCESSORIES
 # -- AN INTRODUCTION TO BAUBLES
 botania.entry.bIntro=饰品介绍
-#N botania.tagline.bIntro=Accessories that provide power
+botania.tagline.bIntro=Accessories that provide power
 botania.page.bIntro0=&4饰品(Baubles)&0,平常也指&4小&0 &4饰品&0或者&4护身符&0这样在穿戴 时提供不同效果的装备.<br>要装备只需按&4B&0键(可修改). 有四个栏,一个&4项链&0栏,两个 &4戒指&0栏和一个&4腰带&0栏.
 botania.page.bIntro1=&4饰品栏界面&0
 botania.page.bIntro2=注意,如果&4神秘时代&0或其他使 用Baubles的模组也安装了 的话,这个栏会与它们共享.
@@ -3487,10 +3487,10 @@ botania.page.miningRing1=挖呀挖洞
 
 # -- RING OF MAGNETIZATION
 botania.entry.magnetRing=磁化指环
-#N botania.tagline.magnetRing=Pull items towards you
+botania.tagline.magnetRing=Pull items towards you
 botania.page.magnetRing0=通过将&1磁化透镜&0做成可穿戴 的指环,可用它来磁化周围的 物品.装备时,这个指环会将 附近物品吸向穿戴者,前提是 非潜行状态.<br>注意它有一个特性,当装备者 扔出一个物品后5秒内它会 停止工作,以免再将扔出去的 东西吸回来.
 botania.page.magnetRing1=怎么做到的?
-#N botania.page.magnetRing2=Upgrading the ring for a larger range
+botania.page.magnetRing2=Upgrading the ring for a larger range
 
 # -- RING OF FAR REACH
 botania.entry.reachRing=触物指环
@@ -3763,7 +3763,7 @@ botania.page.tinyPotato1=将它放在Kickstarter网站上 就起效了
 botania.entry.headCreating=头颅制造
 botania.tagline.headCreating=制造玩家的头颅
 botania.page.headCreating0=一个特别的精灵咒语,配合一 些材料和一个&1命名牌&0就能做 出牌子里所写者头的复制品. 虽然并不知道这是怎样的原 理,但似乎可以用&1符文祭坛&0来 制作.
-#N botania.page.headCreating2=A subset of the community has dedicated themselves to creating heads that serve as all sorts of decorations. Unlike any other page in this lexicon, clicking the &1View Online&0 button on the left of this page will take you to a website with a list of names that can be used for this purpose. Note, however, that this list is not affiliated with Botania in any way and is definitely not the only place to find these types of heads.
+botania.page.headCreating2=A subset of the community has dedicated themselves to creating heads that serve as all sorts of decorations. Unlike any other page in this lexicon, clicking the &1View Online&0 button on the left of this page will take you to a website with a list of names that can be used for this purpose. Note, however, that this list is not affiliated with Botania in any way and is definitely not the only place to find these types of heads.
 botania.page.headCreating1=在游戏中获得你的头
 
 # -- AZULEJO -- http://en.wikipedia.org/wiki/Azulejo
@@ -3778,7 +3778,7 @@ botania.page.azulejo3=各种样式间循环
 botania.entry.starfield=星空制造器
 botania.tagline.starfield=制造星空
 botania.page.starfield0=&1星空制造器&0就像它的名字一 样,通过将精灵的能量释放到 空中,置于世界上时,会在夜 晚创造出一片距离很远的星 空.
-#N botania.page.starfield1=Twinkle twinkle
+botania.page.starfield1=Twinkle twinkle
 
 # -- TRODDEN DIRT
 botania.entry.dirtPath=沙土
