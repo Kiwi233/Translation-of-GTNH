@@ -117,12 +117,10 @@ tile.kekztech_tfftstoragefieldblock2_block.name=T.F.F.T存储库方块(T2)
 tile.kekztech_tfftstoragefieldblock3_block.name=T.F.F.T存储库方块(T3)
 tile.kekztech_tfftstoragefieldblock4_block.name=T.F.F.T存储库方块(T4)
 tile.kekztech_tfftstoragefieldblock5_block.name=T.F.F.T存储库方块(T5)
-#N tile.kekztech_tfftmultihatch_block.0.name=[DEPRECATED] T.F.F.T Multi-Fluid I/O Hatch (Tier I)
-#N tile.kekztech_tfftmultihatch_block.1.name=[DEPRECATED] T.F.F.T Multi-Fluid I/O Hatch (Tier II)
-#N tile.kekztech_tfftmultihatch_block.2.name=[DEPRECATED] T.F.F.T Multi-Fluid I/O Hatch (Tier III)
-#B tile.kekztech_tfftmultihatch_block.0.desc=Special hatch for the T.F.F.T
-#A tile.kekztech_tfftmultihatch_block.0.desc=Put in crafting field to change to update
-#C tile.kekztech_tfftmultihatch_block.0.desc=T.F.F.T的特殊仓室
+tile.kekztech_tfftmultihatch_block.0.name=[已弃用]T.F.F.T输入/输出仓(Tier I)
+tile.kekztech_tfftmultihatch_block.1.name=[已弃用]T.F.F.T输入/输出仓(Tier II)
+tile.kekztech_tfftmultihatch_block.2.name=[已弃用]T.F.F.T输入/输出仓(Tier III)
+tile.kekztech_tfftmultihatch_block.0.desc=放入合成栏以升级
 
 # -------- Item Proxy: Structure Blocks
 tile.kekztech_itemproxycable_block.name=物流网络线缆
@@ -175,7 +173,7 @@ tile.kekztech_spaceelevatorcapacitor_block.desc=透视对你的FPS有好处!
 tile.kekztech_spaceelevatortether_block.name=太空电梯线缆
 
 # -------- Cosmetic Blocks
-#N tile.kekztech_largehextile_block=Large Hex Tile
+tile.kekztech_largehextile_block=大六角瓷砖
 
 # -------- Beam Transmitter
-#N tile.kekztech_beamtransmitter_block=Beam Transmitter
+tile.kekztech_beamtransmitter_block=光束发射器
