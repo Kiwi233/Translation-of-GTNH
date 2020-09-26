@@ -1076,18 +1076,20 @@ Assembler.addRecipe(<dreamcraft:item.IrradiantReinforcedBedrockiumPlate>, [<drea
 
 
 // --- Mysterious Crystal Shards
-Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:water> * 1000, 9000, 3600, 480);
+Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:water> * 1000, 8000, 3600, 480);
 // -
-Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:ic2distilledwater> * 1000, 10000, 2400, 480);
+Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:ic2distilledwater> * 800, 9000, 2400, 480);
+//-
+Autoclave.addRecipe(<GalaxySpace:item.UnknowCrystal>, <gregtech:gt.metaitem.01:2398>, <liquid:molten.void> * 288, 10000, 1200, 480);
 
 // --- Bio Fiber
 Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:ic2biomass> * 8, 3300, 200, 20);
 // -
-Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:methanol> * 8, 5000, 200, 20);
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:methanol> * 8, 5000, 150, 20);
 // -
-Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:fuel> * 8, 9000, 200, 20);
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:fuel> * 8, 9000, 100, 20);
 // -
-Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:nitrofuel> * 8, 10000, 200, 20);
+Autoclave.addRecipe(<dreamcraft:item.RawBioFiber>, <IC2:itemFuelPlantBall> * 16, <liquid:nitrofuel> * 8, 10000, 50, 20);
 
 
 
@@ -1692,7 +1694,7 @@ mods.thaumcraft.Research.addInfusionPage("PORTALMILLENIUM", <ExtraUtilities:dark
 mods.thaumcraft.Warp.addToResearch("PORTALMILLENIUM", 2);
 
 // --- Portal to the Deep Dark
-mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "NEWHORIZONS", "alienis 15, spiritus 15, metallum 12, fabrico 9 lucrum 6, potentia 3", 2, 8, 4, <ExtraUtilities:dark_portal>);
+mods.thaumcraft.Research.addResearch("PORTALDEEPDARK", "NEWHORIZONS", "vacuos 27, tempus 24, luxuria 21, alienis 18 terminus 15, gula 12, superbia 9", 2, 8, 4, <ExtraUtilities:dark_portal>);
 game.setLocalization("tc.research_name.PORTALDEEPDARK", "\u6f06\u9ed1\u4e4b\u95e8");
 game.setLocalization("tc.research_text.PORTALDEEPDARK", "[EU]\u6df1\u6c89\u6df1\u6c89\u6df1\u6c89\u7684\u9ed1\u6697");
 mods.thaumcraft.Research.addPrereq("PORTALDEEPDARK", "PORTALMILLENIUM", false);
@@ -1704,9 +1706,9 @@ game.setLocalization("ExtraUtilities.research_page.PORTALDEEPDARK", "\u4f5c\u4e3
 \u4f20\u95fb\u6f06\u9ed1\u4e16\u754c\u4e2d\u65e0\u5c3d\u7684\u9ed1\u6697\u662f\u6709\u751f\u547d\u7684,\u5b83\u4f1a\u541e\u566c\u90a3\u4e9b\u8d2a\u5fc3\u4e0d\u8db3\u7684\u5012\u9709\u77ff\u5de5.
 \u8bb0\u5f97\u5e26\u4e0a\u706b\u628a\u4e0a\u8def,\u4e0d\u8fc7\u706b\u628a\u4e0d\u80fd\u4e3a\u4f60\u5e26\u6765\u8db3\u591f\u7684\u5b89\u5168,\u6df1\u6e0a\u4e16\u754c\u5f53\u4e2d\u7684\u602a\u7269\u751f\u6210\u5e76\u4e0d\u53d7\u5149\u7167\u5f3a\u5ea6\u7684\u5f71\u54cd.
 \u4f46\u662f\u5353\u8d8a\u706b\u70ac\u548c\u5962\u534e\u540a\u9876\u706f\u4f9d\u65e7\u80fd\u6709\u6548\u7684\u9632\u6b62\u602a\u7269\u751f\u6210.");
-mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <ExtraUtilities:dark_portal:2>, [<ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:decorativeBlock1:5>, <TConstruct:heavyPlate:314>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:315>, <gregtech:gt.metaitem.01:17397>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:314>, <ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:cobblestone_compressed:4>, <ExtraUtilities:decorativeBlock1:5>, <TConstruct:heavyPlate:314>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:315>, <gregtech:gt.metaitem.01:17397>, <gregtech:gt.metaitem.01:22388>, <TConstruct:heavyPlate:314>, <ExtraUtilities:decorativeBlock1:5>], "alienis 300, spiritus 150, metallum 200, fabrico 150 lucrum 100, potentia 200",  <ExtraUtilities:dark_portal>, 12);
+mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <ExtraUtilities:cobblestone_compressed:7>, [<gregtech:gt.blockreinforced:12>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>], "vacuos 512, tempus 512, luxuria 512, alienis 512, terminus 512, gula 512, superbia 512" ,  <ExtraUtilities:dark_portal>, 64);
 mods.thaumcraft.Research.addInfusionPage("PORTALDEEPDARK", <ExtraUtilities:dark_portal>);
-mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 8);
+mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 64);
 
 // --- Magical Wood
 mods.thaumcraft.Research.addResearch("MAGICALWOOD", "NEWHORIZONS", "praecantatio 15, lucrum 12, arbor 9, cognitio 6, pannus 3", -2 as int, 6, 4, MagicalWood);
@@ -2140,6 +2142,20 @@ mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_
 mods.thaumcraft.Research.addInfusionPage("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet:1>);
 mods.thaumcraft.Warp.addToResearch("GHOSTAMULET", 3);
 
+// --- Skullfire Sword
+mods.thaumcraft.Research.addResearch("SFSWORD", "NEWHORIZONS", "auram 8, corpus 8, exanimis 8, metallum 8, mortuus 8", 4, 4, 4, <Avaritia:Skull_Sword>);
+game.setLocalization("tc.research_name.SFSWORD", "\u70bd\u7130\u4e4b\u5544\u9885\u5251");
+game.setLocalization("tc.research_text.SFSWORD", "[\u65e0\u5c3d\u8d2a\u5a6a]\u66f4\u591a\u5934\u9885");
+mods.thaumcraft.Research.addPrereq("SFSWORD", "INFUSION", false);
+mods.thaumcraft.Research.setConcealed("SFSWORD", true);
+mods.thaumcraft.Research.setRound("SFSWORD", true);
+mods.thaumcraft.Research.addPage("SFSWORD", "Avaritia.research_page.SFSWORD.1");
+game.setLocalization("Avaritia.research_page.SFSWORD.1", "\u730e\u6740\u51cb\u7075\u9ab7\u9ac5\u83b7\u53d6\u4ed6\u4eec\u7684\u5934\u9885\u662f\u4e00\u4ef6\u65e2\u5371\u9669\u53c8\u65e0\u804a\u7684\u82e6\u5dee\u4e8b.\u800c\u6709\u4e86\u8fd9\u628a\u6b66\u5668,\u666e\u901a\u9ab7\u9ac5\u6216\u5176\u53d8\u79cd\u90fd\u5fc5\u7136\u6389\u843d\u51cb\u7075\u9ab7\u9ac5\u5934\u9885!\u81ea\u52a8\u5316\u52a0\u5206\u9879.");
+mods.thaumcraft.Infusion.addRecipe("SFSWORD", <TwilightForest:item.fierySword>,
+[<minecraft:blaze_rod>, <minecraft:blaze_powder>, <Avaritia:Resource:0>, <dreamcraft:item.LichBone>, <Avaritia:Resource:0>, <TConstruct:materials:8>, <gregtech:gt.metaitem.01:11054>, <TConstruct:materials:8>, <Avaritia:Resource:0>, <dreamcraft:item.LichBone>, <Avaritia:Resource:0>, <minecraft:blaze_powder>],
+"auram 64, corpus 64, exanimis 64, metallum 64, mortuus 64", <Avaritia:Skull_Sword>, 15);
+mods.thaumcraft.Research.addInfusionPage("SFSWORD", <Avaritia:Skull_Sword>);
+mods.thaumcraft.Warp.addToResearch("SFSWORD", 1);
 
 
 // --- Hiding Stuff ----

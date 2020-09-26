@@ -74,7 +74,7 @@ mods.thaumcraft.Infusion.addRecipe("CAP_elementium", <ForbiddenMagic:WandCaps:6>
 
 
 // Journey
-mods.thaumcraft.Research.addResearch("JOURNEY", "FORBIDDEN", "iter 5, praecantatio 10, instrumentum 3", -3 as int, 3, 8, <BiomesOPlenty:food:7>);
+mods.thaumcraft.Research.addResearch("JOURNEY", "FORBIDDEN", "iter 5, praecantatio 10, instrumentum 3", -3 as int, 1, 8, <BiomesOPlenty:food:7>);
 game.setLocalization("zh_CN", "tc.research_name.JOURNEY");
 game.setLocalization("zh_CN", "tc.research_text.JOURNEY");
 mods.thaumcraft.Research.addPage("JOURNEY", "derp.research_page.JOURNEY");

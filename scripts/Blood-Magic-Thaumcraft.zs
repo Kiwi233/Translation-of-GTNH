@@ -34,13 +34,13 @@ game.setLocalization("tc.research_category.BLOODMAGIC", "\u8840\u9b54\u6cd5");
 mods.thaumcraft.Research.addResearch("BLOODALTAR", "BLOODMAGIC", "alienis 15, praecantatio 12, auram 9, fames 6, terra 3", 0, 0, 3, <AWWayofTime:Altar>);
 game.setLocalization("tc.research_name.BLOODALTAR", "\u8840\u4e4b\u796d\u575b");
 game.setLocalization("tc.research_text.BLOODALTAR", "[BM]\u9ad8\u6602\u7684\u4ee3\u4ef7");
-mods.thaumcraft.Research.addPage("BLOODALTAR", "bloodmagic.research_page.BLOODALTAR.1");
-game.setLocalization("bloodmagic.research_page.BLOODALTAR.1", "\u8840\u4e4b\u796d\u575b\u662f\u7531\u8840\u9b54\u6cd5(Blood-Magic)\u6dfb\u52a0\u7684\u65b9\u5757.\u5b83\u662f\u7528\u4e8e\u5c06\u751f\u547d\u6e90\u8d28(LP)\u8f6c\u5316\u4e3a\u5404\u79cd\u7269\u54c1\u7684. 
+mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.1");
+game.setLocalization("tc.research_page.BLOODALTAR.1", "\u8840\u4e4b\u796d\u575b\u662f\u7531\u8840\u9b54\u6cd5(Blood-Magic)\u6dfb\u52a0\u7684\u65b9\u5757.\u5b83\u662f\u7528\u4e8e\u5c06\u751f\u547d\u6e90\u8d28(LP)\u8f6c\u5316\u4e3a\u5404\u79cd\u7269\u54c1\u7684. 
 \u8840\u4e4b\u796d\u575b\u6709\u4e00\u4e2a1000LP\u7684\u5185\u90e8\u5b58\u50a8\u7f13\u51b2\u533a,\u6b64\u7f13\u51b2\u533a\u5fc5\u987b\u5b58\u5728LP,\u5426\u5219\u65e0\u6cd5\u5f00\u59cb\u5408\u6210. 
 \u796d\u575b\u53ef\u4ee5\u6269\u5c55\u4e3a\u591a\u65b9\u5757\u7ed3\u6784,\u4ece\u800c\u80fd\u591f\u8fdb\u884c\u66f4\u5f3a\u5927\u7684\u8f6c\u5316.\u76ee\u524d\u6709\u516d\u4e2a\u5c42\u7ea7\u7684\u8840\u4e4b\u796d\u575b. 
 \u8840\u4e4b\u796d\u575b\u8f6c\u5316\u51fa\u7684\u7269\u54c1\u53ef\u7528\u4e8e\u8840\u9b54\u6cd5\u7684\u5927\u90e8\u5206\u5185\u5bb9.\u672a\u5347\u7ea7\u7684\u796d\u575b\u53ef\u5b58\u50a8\u6700\u591a10000LP.");
-mods.thaumcraft.Research.addPage("BLOODALTAR", "bloodmagic.research_page.BLOODALTAR.2");
-game.setLocalization("bloodmagic.research_page.BLOODALTAR.2","\u4e0b\u9762\u5217\u51fa\u4e86\u4ec5\u4f7f\u7528\u589e\u5bb9\u7b26\u6587\u6784\u6210\u7684\u796d\u575b\u6bcf\u4e2a\u7b49\u7ea7\u7684\u6700\u5927\u5b58\u50a8\u91cf.
+mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.2");
+game.setLocalization("tc.research_page.BLOODALTAR.2","\u4e0b\u9762\u5217\u51fa\u4e86\u4ec5\u4f7f\u7528\u589e\u5bb9\u7b26\u6587\u6784\u6210\u7684\u796d\u575b\u6bcf\u4e2a\u7b49\u7ea7\u7684\u6700\u5927\u5b58\u50a8\u91cf.
 \u4e0e\u4fe1\u6807\u7c7b\u4f3c,\u8840\u4e4b\u796d\u575b\u4ee5\u91d1\u5b57\u5854\u5f0f\u7684\u65b9\u5f0f\u589e\u52a0\u5c42\u6570.
 \u4e5f\u5c31\u662f\u8bf4,\u6bcf\u4e2a\u6709\u6548\u7684\u65b0\u5c42\u7ea7\u5fc5\u987b\u5efa\u7b51\u5728\u539f\u6709\u5c42\u7ea7\u7684\u4e0b\u65b9\u5e76\u5411\u5916\u6269\u5c55.
 \u4e0e\u4fe1\u6807\u4e0d\u540c\u7684\u5730\u65b9\u5728\u4e8e,\u5c42\u7ea7\u7684\u5185\u90e8\u548c\u7ed3\u6784\u4e2d\u7684\u4efb\u4f55\u95f4\u9699\u90fd\u53ef\u4ee5\u7559\u7a7a.
@@ -59,12 +59,12 @@ game.setLocalization("tc.research_text.LIFEINFUSER", "[BA]\u8f6c\u5316\u4f60\u76
 mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "BLOODALTAR", false);
 mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("LIFEINFUSER", false);
-mods.thaumcraft.Research.addPage("LIFEINFUSER", "bloodmagic.research_page.LIFEINFUSER");
-game.setLocalization("bloodmagic.research_page.LIFEINFUSER", "\u751f\u547d\u6ce8\u5165\u5668\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757.\u5b83\u53ef\u4ee5\u4f7f\u7528LP\u9010\u6b65\u4fee\u590d\u5de5\u5177,\u6bcf\u70b9\u8010\u4e45\u9700\u8981\u6d88\u8017500LP.
+mods.thaumcraft.Research.addPage("LIFEINFUSER", "tc.research_page.LIFEINFUSER");
+game.setLocalization("tc.research_page.LIFEINFUSER", "\u751f\u547d\u6ce8\u5165\u5668\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757.\u5b83\u53ef\u4ee5\u4f7f\u7528LP\u9010\u6b65\u4fee\u590d\u5de5\u5177,\u6bcf\u70b9\u8010\u4e45\u9700\u8981\u6d88\u8017500LP.
 \u5c06\u6c14\u8840\u5b9d\u73e0\u63d2\u5165\u751f\u547d\u80fd\u91cf\u5177\u73b0\u5668\u4e2d,\u5b83\u5c31\u4f1a\u4ece\u6c14\u8840\u5b9d\u73e0\u4e3b\u4eba\u7684\u7075\u9b42\u7f51\u7edc\u4e2d\u62bd\u53d6LP\u8f6c\u5316\u6210\u53ef\u88ab\u62bd\u51fa\u7684\u6db2\u6001LP.
 (\u8f6c\u5316\u6548\u7387150:100)");
 mods.thaumcraft.Infusion.addRecipe("LIFEINFUSER", <AWWayofTime:Altar>, 
-[<minecraft:nether_star>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>, <AWWayofTime:imbuedSlate>, <TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:501>, <TConstruct:heavyPlate:251>, <AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>], 
+[<minecraft:nether_star>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>, <AWWayofTime:imbuedSlate>, <TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>, <AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>], 
 "victus 32, alienis 32, praecantatio 24, auram 16, fames 8, terra 8", <BloodArsenal:life_infuser>, 5);
 mods.thaumcraft.Research.addInfusionPage("LIFEINFUSER", <BloodArsenal:life_infuser>);
 mods.thaumcraft.Warp.addToResearch("LIFEINFUSER", 3);
@@ -82,8 +82,8 @@ game.setLocalization("tc.research_name.SOULCOMPACTER", "\u7075\u9b42\u538b\u7f29
 game.setLocalization("tc.research_text.SOULCOMPACTER", "[BA]\u6253\u5305\u4f60\u7684\u4eea\u5f0f");
 mods.thaumcraft.Research.addPrereq("SOULCOMPACTER", "MASTERRITUALSTONE", false);
 mods.thaumcraft.Research.setConcealed("SOULCOMPACTER", false);
-mods.thaumcraft.Research.addPage("SOULCOMPACTER", "bloodmagic.research_page.SOULCOMPACTER");
-game.setLocalization("bloodmagic.research_page.SOULCOMPACTER","\u7075\u9b42\u538b\u7f29\u5668\u6781\u5176\u5f3a\u5927,\u4f7f\u7528\u65b9\u6cd5\u4e3a:
+mods.thaumcraft.Research.addPage("SOULCOMPACTER", "tc.research_page.SOULCOMPACTER");
+game.setLocalization("tc.research_page.SOULCOMPACTER","\u7075\u9b42\u538b\u7f29\u5668\u6781\u5176\u5f3a\u5927,\u4f7f\u7528\u65b9\u6cd5\u4e3a:
 \u653e\u7f6e\u4e8e\u4e3b\u4eea\u5f0f\u77f3\u4e0b\u65b9\u6216\u8840\u4e4b\u796d\u575b\u4e0b\u65b9.
 \u624b\u6301\u6c14\u8840\u5b9d\u73e0\u53f3\u952e\u7075\u9b42\u538b\u7f29\u5668.
 \u6574\u4e2a\u4eea\u5f0f\u6216\u796d\u575b\u5c06\u4f1a\u88ab\u6253\u5305\u6210\u4e00\u4e2a\u65b9\u5757!
@@ -101,8 +101,8 @@ game.setLocalization("tc.research_name.SACRIFICIALKNIFE", "\u727a\u7272\u5315\u9
 game.setLocalization("tc.research_text.SACRIFICIALKNIFE", "[BM]\u55f7!\u6709\u70b9\u75bc.");
 mods.thaumcraft.Research.addPrereq("SACRIFICIALKNIFE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("SACRIFICIALKNIFE", false);
-mods.thaumcraft.Research.addPage("SACRIFICIALKNIFE", "bloodmagic.research_page.SACRIFICIALKNIFE");
-game.setLocalization("bloodmagic.research_page.SACRIFICIALKNIFE", "\u727a\u7272\u5315\u9996\u6216\u662f\u727a\u7272\u5b9d\u73e0,\u662f\u5728\u8840\u4e4b\u796d\u575b\u4e2d\u4ea7\u751fLP\u7684\u4e24\u79cd\u65b9\u6cd5\u4e4b\u4e00.
+mods.thaumcraft.Research.addPage("SACRIFICIALKNIFE", "tc.research_page.SACRIFICIALKNIFE");
+game.setLocalization("tc.research_page.SACRIFICIALKNIFE", "\u727a\u7272\u5315\u9996\u6216\u662f\u727a\u7272\u5b9d\u73e0,\u662f\u5728\u8840\u4e4b\u796d\u575b\u4e2d\u4ea7\u751fLP\u7684\u4e24\u79cd\u65b9\u6cd5\u4e4b\u4e00.
 \u727a\u7272\u5315\u9996\u53ef\u7528\u4f5c\u81ea\u6211\u727a\u7272\u7684\u65b9\u5f0f,\u4f7f\u7528\u8005\u5c06\u81ea\u5df1\u7684\u751f\u547d\u503c\u8f6c\u5316\u4e3a\u53ef\u7528\u7684LP.
 \u82e5\u662f\u60f3\u5265\u593a\u522b\u7684\u751f\u7269\u7684\u751f\u547d\u503c\u8f6c\u5316\u4e3aLP,\u90a3\u5c31\u5fc5\u987b\u4f7f\u7528\u732e\u796d\u5200.
 \u5982\u679c\u727a\u7272\u5315\u9996\u7684\u4f7f\u7528\u8005\u662f\u5438\u8840\u9b3c,\u90a3\u4e48\u5c06\u4f1a\u628a\u4ed6\u7684\u8840\u6db2\u5b58\u8d2e\u8f6c\u5316\u4e3aLP\u800c\u4e0d\u662f\u81ea\u8eab\u751f\u547d\u503c.");
@@ -119,8 +119,8 @@ game.setLocalization("tc.research_text.ALCHEMICCHEMSTRYSET", "[BM]\u5495\u565c\u
 mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "SACRIFICIALKNIFE", false);
 mods.thaumcraft.Research.setConcealed("ALCHEMICCHEMSTRYSET", true);
-mods.thaumcraft.Research.addPage("ALCHEMICCHEMSTRYSET", "bloodmagic.research_page.ALCHEMICCHEMSTRYSET");
-game.setLocalization("bloodmagic.research_page.ALCHEMICCHEMSTRYSET", "\u70bc\u91d1\u672f\u53f0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757.\u8fd9\u662f\u4e0a\u8ff0mod\u7684\u5316\u5b66\u53cd\u5e94\u8bbe\u5907.
+mods.thaumcraft.Research.addPage("ALCHEMICCHEMSTRYSET", "tc.research_page.ALCHEMICCHEMSTRYSET");
+game.setLocalization("tc.research_page.ALCHEMICCHEMSTRYSET", "\u70bc\u91d1\u672f\u53f0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757.\u8fd9\u662f\u4e0a\u8ff0mod\u7684\u5316\u5b66\u53cd\u5e94\u8bbe\u5907.
 \u5b83\u7684\u4e3b\u8981\u7528\u9014\u662f,\u4f60\u731c\u5bf9\u4e86,\u662f\u917f\u9020\u836f\u6c34!
 \u836f\u6c34\u917f\u9020\u662f\u8fd9\u4e2amod\u7684\u91cd\u8981\u90e8\u5206;\u800c\u6b64\u65b9\u5757\u53ef\u4ee5\u917f\u9020\u5404\u79cd\u57fa\u7840\u7269\u54c1.
 \u8bf4\u4e86\u8fd9\u4e48\u591a\u7528\u5904,\u4f60\u60f3\u8981\u771f\u6b63\u4f7f\u7528\u6b64\u65b9\u5757\u5c31\u9700\u8981LP.
@@ -138,8 +138,8 @@ game.setLocalization("tc.research_text.AMORPHICCATALYST", "[BA]\u6df7\u5408\u768
 mods.thaumcraft.Research.addPrereq("AMORPHICCATALYST", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("AMORPHICCATALYST", "ALCHEMICCHEMSTRYSET", false);
 mods.thaumcraft.Research.setConcealed("AMORPHICCATALYST", true);
-mods.thaumcraft.Research.addPage("AMORPHICCATALYST", "bloodmagic.research_page.AMORPHICCATALYST");
-game.setLocalization("bloodmagic.research_page.AMORPHICCATALYST", "\u62ff\u4e2a\u52a0\u5f3a\u7684\u77f3\u677f,\u7136\u540e\u5411\u5176\u6ce8\u5165\u4f60\u80fd\u5236\u9020\u7684\u6240\u6709\u9b54\u6cd5\u6210\u5206.
+mods.thaumcraft.Research.addPage("AMORPHICCATALYST", "tc.research_page.AMORPHICCATALYST");
+game.setLocalization("tc.research_page.AMORPHICCATALYST", "\u62ff\u4e2a\u52a0\u5f3a\u7684\u77f3\u677f,\u7136\u540e\u5411\u5176\u6ce8\u5165\u4f60\u80fd\u5236\u9020\u7684\u6240\u6709\u9b54\u6cd5\u6210\u5206.
 \u73b0\u5728\u4f60\u6709\u4e86\u4e00\u4efd\u5f3a\u5927\u7684\u50ac\u5316\u5242.");
 mods.thaumcraft.Infusion.addRecipe("AMORPHICCATALYST", <AWWayofTime:reinforcedSlate>, 
 [<AWWayofTime:simpleCatalyst>, <AWWayofTime:aether>, <AWWayofTime:terrae>, <AWWayofTime:crystallos>, <AWWayofTime:sanctus>, <AWWayofTime:magicales>, <AWWayofTime:crepitous>, <AWWayofTime:incendium>, <AWWayofTime:aquasalus>, <AWWayofTime:tennebrae>], 
@@ -154,8 +154,8 @@ game.setLocalization("tc.research_text.BIDIAMONDBLOCK", "[BA]\u8840\u6dcb\u6dcb\
 mods.thaumcraft.Research.addPrereq("BIDIAMONDBLOCK", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("BIDIAMONDBLOCK", "AMORPHICCATALYST", false);
 mods.thaumcraft.Research.setConcealed("BIDIAMONDBLOCK", true);
-mods.thaumcraft.Research.addPage("BIDIAMONDBLOCK", "bloodmagic.research_page.BIDIAMONDBLOCK");
-game.setLocalization("bloodmagic.research_page.BIDIAMONDBLOCK", "\u6ce8\u8840\u94bb\u77f3\u5757\u662f\u75319\u4e2a\u7ea6\u675f\u94bb\u77f3\u901a\u8fc7\u6ce8\u9b54\u5236\u6210\u7684.
+mods.thaumcraft.Research.addPage("BIDIAMONDBLOCK", "tc.research_page.BIDIAMONDBLOCK");
+game.setLocalization("tc.research_page.BIDIAMONDBLOCK", "\u6ce8\u8840\u94bb\u77f3\u5757\u662f\u75319\u4e2a\u7ea6\u675f\u94bb\u77f3\u901a\u8fc7\u6ce8\u9b54\u5236\u6210\u7684.
 \u6ce8\u8840\u94bb\u77f3\u5de5\u5177\u9700\u8981\u7528\u5230\u6b64\u65b9\u5757");
 mods.thaumcraft.Infusion.addRecipe("BIDIAMONDBLOCK", <minecraft:diamond_block>, 
 [<BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>, <BloodArsenal:blood_infused_diamond_bound>], 
@@ -171,8 +171,8 @@ mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "NITOR", false);
 mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("DIVINATIONSIGIL", true);
-mods.thaumcraft.Research.addPage("DIVINATIONSIGIL", "bloodmagic.research_page.DIVINATIONSIGIL");
-game.setLocalization("bloodmagic.research_page.DIVINATIONSIGIL", "\u5360\u535c\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u53ef\u7528\u4e8e\u68c0\u6d4b\u8840\u4e4b\u796d\u575b\u548c\u73a9\u5bb6\u7075\u9b42\u7f51\u7edc\u7684\u5404\u9879\u91cd\u8981\u4fe1\u606f,\u5305\u62ec\u796d\u575b\u5c42\u7ea7\u4ee5\u53caLP\u7684\u603b\u5b58\u50a8\u91cf.
+mods.thaumcraft.Research.addPage("DIVINATIONSIGIL", "tc.research_page.DIVINATIONSIGIL");
+game.setLocalization("tc.research_page.DIVINATIONSIGIL", "\u5360\u535c\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u53ef\u7528\u4e8e\u68c0\u6d4b\u8840\u4e4b\u796d\u575b\u548c\u73a9\u5bb6\u7075\u9b42\u7f51\u7edc\u7684\u5404\u9879\u91cd\u8981\u4fe1\u606f,\u5305\u62ec\u796d\u575b\u5c42\u7ea7\u4ee5\u53caLP\u7684\u603b\u5b58\u50a8\u91cf.
 \u5728\u6301\u6709\u5360\u535c\u5370\u8bb0\u65f6,\u73a9\u5bb6\u6709\u4e24\u79cd\u53ef\u80fd\u7684\u7528\u9014:
 \u7784\u51c6\u8840\u4e4b\u796d\u575b\u5e76\u53f3\u51fb\u65f6,\u804a\u5929\u8f93\u51fa\u5c06\u663e\u793a\u5b58\u50a8\u5728\u796d\u575b\u5185\u7684\u603bLP\u3001\u796d\u575b\u5f53\u524d\u5c42\u7ea7\u53ca\u5176\u6700\u5927\u5bb9\u91cf.
 \u5728\u4efb\u4f55\u5176\u4ed6\u5730\u65b9\u53f3\u51fb\u65f6,\u804a\u5929\u8f93\u51fa\u5c06\u663e\u793a\u5b58\u50a8\u5728\u73a9\u5bb6\u4e2a\u4eba\u7f51\u7edc\u4e2d\u7684\u603bLP.");
@@ -188,8 +188,8 @@ game.setLocalization("tc.research_text.SPEEDRUNE", "[BM]\u4f60\u7684\u796d\u575b
 mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("SPEEDRUNE", true);
-mods.thaumcraft.Research.addPage("SPEEDRUNE", "bloodmagic.research_page.SPEEDRUNE");
-game.setLocalization("bloodmagic.research_page.SPEEDRUNE", "\u901f\u5ea6\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
+mods.thaumcraft.Research.addPage("SPEEDRUNE", "tc.research_page.SPEEDRUNE");
+game.setLocalization("tc.research_page.SPEEDRUNE", "\u901f\u5ea6\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
 \u901f\u5ea6\u7b26\u6587\u53ef\u4e0e\u4efb\u4f55\u5176\u4ed6\u7b26\u6587\u4e92\u6362\u4f7f\u7528.
 \u901f\u5ea6\u7b26\u6587\u5c31\u50cf\u5b83\u7684\u540d\u5b57\u6240\u6697\u793a\u7684\u90a3\u6837,\u53ef\u4f7f\u8840\u4e4b\u796d\u575b\u7684\u5904\u7406\u901f\u5ea6\u63d0\u9ad820%.");
 mods.thaumcraft.Infusion.addRecipe("SPEEDRUNE", <AWWayofTime:AlchemicalWizardrybloodRune>, 
@@ -203,14 +203,14 @@ game.setLocalization("tc.research_name.IMPERFECTRITUALSTONE", "\u4e0d\u5b8c\u558
 game.setLocalization("tc.research_text.IMPERFECTRITUALSTONE", "[BM]\u57fa\u7840\u4f46...\u54e6\u8c41");
 mods.thaumcraft.Research.addPrereq("IMPERFECTRITUALSTONE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("IMPERFECTRITUALSTONE", false);
-mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "bloodmagic.research_page.IMPERFECTRITUALSTONE.1");
-game.setLocalization("bloodmagic.research_page.IMPERFECTRITUALSTONE.1", "\u4e0d\u5b8c\u5584\u7684\u4eea\u5f0f\u77f3\u662f\u8840\u9b54\u6cd5\u4e2d\u7528\u4e8e\u6784\u5efa\u4eea\u5f0f\u7684\u65b9\u5757.
+mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "tc.research_page.IMPERFECTRITUALSTONE.1");
+game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.1", "\u4e0d\u5b8c\u5584\u7684\u4eea\u5f0f\u77f3\u662f\u8840\u9b54\u6cd5\u4e2d\u7528\u4e8e\u6784\u5efa\u4eea\u5f0f\u7684\u65b9\u5757.
 \u4e0d\u5b8c\u5584\u7684\u4eea\u5f0f\u77f3\u7528\u4e8e\u5f31\u5316\u4eea\u5f0f,\u5982\u6c34\u4e4b\u4eea\u5f0f. 
 \u5f31\u5316\u4eea\u5f0f\u867d\u7136\u7b80\u5355\u4f46\u662f\u6709\u7528.
 \u6bcf\u4e2a\u4eea\u5f0f\u90fd\u662f\u901a\u8fc7\u5728\u4e0d\u5b8c\u5584\u7684\u4eea\u5f0f\u77f3\u4e0a\u653e\u7f6e\u4e00\u4e2a\u7279\u5b9a\u7684\u65b9\u5757\u6765\u521b\u5efa\u7684,\u653e\u7f6e\u65b9\u5757\u540e\u53f3\u51fb\u4eea\u5f0f\u77f3\u6fc0\u6d3b\u4eea\u5f0f.
 \u6bcf\u6b21\u9700\u6d88\u80175000LP.");
-mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "bloodmagic.research_page.IMPERFECTRITUALSTONE.2");
-game.setLocalization("bloodmagic.research_page.IMPERFECTRITUALSTONE.2", "1. Water source block creates a thunderstorm.
+mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "tc.research_page.IMPERFECTRITUALSTONE.2");
+game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.2", "1. Water source block creates a thunderstorm.
 2. Block of coal summons a strong zombie.
 3. Lapis lazuli block makes it night time.
 4. Bedrock above grants Resistance II for 1 minute.");
@@ -227,8 +227,8 @@ game.setLocalization("tc.research_text.RITUALSTONE", "[BM]\u4eea\u5f0f!");
 mods.thaumcraft.Research.addPrereq("RITUALSTONE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RITUALSTONE", "IMPERFECTRITUALSTONE", false);
 mods.thaumcraft.Research.setConcealed("RITUALSTONE", true);
-mods.thaumcraft.Research.addPage("RITUALSTONE", "bloodmagic.research_page.RITUALSTONE");
-game.setLocalization("bloodmagic.research_page.RITUALSTONE", "\u4eea\u5f0f\u77f3\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u7528\u4e8e\u521b\u5efa\u5404\u79cd\u4eea\u5f0f,\u6bd4\u5982\u7ed1\u5b9a\u4eea\u5f0f.
+mods.thaumcraft.Research.addPage("RITUALSTONE", "tc.research_page.RITUALSTONE");
+game.setLocalization("tc.research_page.RITUALSTONE", "\u4eea\u5f0f\u77f3\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u7528\u4e8e\u521b\u5efa\u5404\u79cd\u4eea\u5f0f,\u6bd4\u5982\u7ed1\u5b9a\u4eea\u5f0f.
 \u4eea\u5f0f\u77f3\u53ef\u7531\u4eea\u5f0f\u63a8\u6d4b\u6756\u81ea\u52a8\u653e\u7f6e\u5e76\u7ed8\u5236,\u4e5f\u53ef\u4ee5\u624b\u52a8\u653e\u7f6e\u5e76\u6d82\u4e0a\u5404\u79cd\u5143\u7d20\u58a8\u6c34,\u4f8b\u5982\u5143\u7d20\u94ed\u6587:\u6c14.
 \u4eea\u5f0f\u77f3\u4e5f\u53ef\u88ab\u7528\u4e8e\u5408\u6210\u4e3b\u4eea\u5f0f\u77f3.");
 mods.thaumcraft.Infusion.addRecipe("RITUALSTONE", <AWWayofTime:imperfectRitualStone>, 
@@ -244,8 +244,8 @@ game.setLocalization("tc.research_text.SPELLTABLE", "[BM]\u5df4\u5566\u5566\u80f
 mods.thaumcraft.Research.addPrereq("SPELLTABLE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SPELLTABLE", "RITUALSTONE", false);
 mods.thaumcraft.Research.setConcealed("SPELLTABLE", true);
-mods.thaumcraft.Research.addPage("SPELLTABLE", "bloodmagic.research_page.SPELLTABLE");
-game.setLocalization("bloodmagic.research_page.SPELLTABLE", "\u7b26\u5492\u684c\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u4f5c\u4e3a\u57fa\u7840\u6cd5\u672f\u7cfb\u7edf\u7684\u6838\u5fc3.
+mods.thaumcraft.Research.addPage("SPELLTABLE", "tc.research_page.SPELLTABLE");
+game.setLocalization("tc.research_page.SPELLTABLE", "\u7b26\u5492\u684c\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u4f5c\u4e3a\u57fa\u7840\u6cd5\u672f\u7cfb\u7edf\u7684\u6838\u5fc3.
 \u7b26\u5492\u684c\u8981\u4e0e\u672a\u7ed1\u5b9a\u7684\u6c34\u6676\u4ee5\u53ca\u8840\u4e4b\u796d\u575b\u4e00\u8d77\u4f7f\u7528.
 \u5c06\u7b26\u5492\u684c\u4e34\u8fd1\u8840\u4e4b\u796d\u575b\u6446\u653e.
 \u7136\u540e,\u5fc5\u987b\u5728\u7b26\u5492\u684c\u4e0a\u6446\u653e\u4e00\u4e2a\u5934\u9885,\u4ee5\u51b3\u5b9a\u65bd\u653e\u6cd5\u672f\u65f6\u4f1a\u4ea7\u751f\u4ec0\u4e48\u7c7b\u578b\u7684\u6548\u679c.
@@ -265,8 +265,8 @@ game.setLocalization("tc.research_text.MASTERRITUALSTONE", "[BM]\u8ba9\u6211\u4e
 mods.thaumcraft.Research.addPrereq("MASTERRITUALSTONE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("MASTERRITUALSTONE", "RITUALSTONE", false);
 mods.thaumcraft.Research.setConcealed("MASTERRITUALSTONE", true);
-mods.thaumcraft.Research.addPage("MASTERRITUALSTONE", "bloodmagic.research_page.MASTERRITUALSTONE");
-game.setLocalization("bloodmagic.research_page.MASTERRITUALSTONE", "\u4e3b\u4eea\u5f0f\u77f3\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u7528\u4e8e\u6240\u6709\u975e\u5f31\u5316\u4eea\u5f0f.
+mods.thaumcraft.Research.addPage("MASTERRITUALSTONE", "tc.research_page.MASTERRITUALSTONE");
+game.setLocalization("tc.research_page.MASTERRITUALSTONE", "\u4e3b\u4eea\u5f0f\u77f3\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u7528\u4e8e\u6240\u6709\u975e\u5f31\u5316\u4eea\u5f0f.
 \u4e3b\u4eea\u5f0f\u77f3\u662f\u6240\u6709\u4eea\u5f0f\u7684\u4e2d\u5fc3,\u4f60\u9700\u8981\u7528\u5b83\u6765\u6fc0\u6d3b\u4eea\u5f0f.
 \u5411\u4e3b\u4eea\u5f0f\u77f3\u53d1\u9001\u7ea2\u77f3\u4fe1\u53f7\u5c06\u4f1a\u5bfc\u81f4\u4eea\u5f0f\u505c\u6b62\u8fd0\u8f6c.
 \u518d\u79fb\u9664\u6b64\u7ea2\u77f3\u4fe1\u53f7,\u4eea\u5f0f\u5c06\u7ee7\u7eed\u8fd0\u8f6c\u800c\u4e0d\u7528\u91cd\u65b0\u4f7f\u7528\u6fc0\u6d3b\u6c34\u6676.");
@@ -283,8 +283,8 @@ game.setLocalization("tc.research_text.WATERSIGIL", "[BM]\u65e0\u9650\u6c34\u6e9
 mods.thaumcraft.Research.addPrereq("WATERSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("WATERSIGIL", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("WATERSIGIL", true);
-mods.thaumcraft.Research.addPage("WATERSIGIL", "bloodmagic.research_page.WATERSIGIL");
-game.setLocalization("bloodmagic.research_page.WATERSIGIL", "\u6c34\u4e4b\u5370\u8bb0\u53ef\u7528\u4f5c\u6c34\u6876\u7684\u66ff\u4ee3\u54c1,\u6bcf\u751f\u6210\u4e00\u683c\u6c34\u6d88\u8017200LP.
+mods.thaumcraft.Research.addPage("WATERSIGIL", "tc.research_page.WATERSIGIL");
+game.setLocalization("tc.research_page.WATERSIGIL", "\u6c34\u4e4b\u5370\u8bb0\u53ef\u7528\u4f5c\u6c34\u6876\u7684\u66ff\u4ee3\u54c1,\u6bcf\u751f\u6210\u4e00\u683c\u6c34\u6d88\u8017200LP.
 \u6d88\u8017\u7684LP\u5c06\u4ece\u6b64\u5370\u8bb0\u7ed1\u5b9a\u73a9\u5bb6\u7684\u7075\u9b42\u7f51\u7edc\u4e2d\u62bd\u53d6.
 \u6c34\u4e4b\u5370\u8bb0\u4e5f\u53ef\u7528\u4e8e\u5408\u6210\u5143\u7d20\u5370\u8bb0.");
 mods.thaumcraft.Infusion.addRecipe("WATERSIGIL", <AWWayofTime:reinforcedSlate>, 
@@ -300,8 +300,8 @@ game.setLocalization("tc.research_text.LAVASIGIL", "[BM]\u4f60\u6700\u597d\u4e0d
 mods.thaumcraft.Research.addPrereq("LAVASIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("LAVASIGIL", "SIGILOFTHEBLOODLAMP", false);
 mods.thaumcraft.Research.setConcealed("LAVASIGIL", true);
-mods.thaumcraft.Research.addPage("LAVASIGIL", "bloodmagic.research_page.LAVASIGIL");
-game.setLocalization("bloodmagic.research_page.LAVASIGIL", "\u7194\u5ca9\u5370\u8bb0\u53ef\u7528\u4f5c\u5ca9\u6d46\u6876\u7684\u66ff\u4ee3\u54c1,\u6bcf\u751f\u6210\u4e00\u683c\u5ca9\u6d46\u6d88\u80172000LP.
+mods.thaumcraft.Research.addPage("LAVASIGIL", "tc.research_page.LAVASIGIL");
+game.setLocalization("tc.research_page.LAVASIGIL", "\u7194\u5ca9\u5370\u8bb0\u53ef\u7528\u4f5c\u5ca9\u6d46\u6876\u7684\u66ff\u4ee3\u54c1,\u6bcf\u751f\u6210\u4e00\u683c\u5ca9\u6d46\u6d88\u80172000LP.
 \u6d88\u8017\u7684LP\u5c06\u4ece\u6b64\u5370\u8bb0\u7ed1\u5b9a\u73a9\u5bb6\u7684\u7075\u9b42\u7f51\u7edc\u4e2d\u62bd\u53d6.
 \u7194\u5ca9\u5370\u8bb0\u4e5f\u53ef\u7528\u4e8e\u5408\u6210\u5143\u7d20\u5370\u8bb0.");
 mods.thaumcraft.Infusion.addRecipe("LAVASIGIL", <AWWayofTime:imbuedSlate>, 
@@ -317,8 +317,8 @@ game.setLocalization("tc.research_text.EMPTYCORE", "[BM]\u4f60\u6240\u9700\u8981
 mods.thaumcraft.Research.addPrereq("EMPTYCORE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("EMPTYCORE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("EMPTYCORE", true);
-mods.thaumcraft.Research.addPage("EMPTYCORE", "bloodmagic.research_page.EMPTYCORE");
-game.setLocalization("bloodmagic.research_page.EMPTYCORE", "\u7a7a\u767d\u6838\u5fc3\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u90e8\u4ef6.
+mods.thaumcraft.Research.addPage("EMPTYCORE", "tc.research_page.EMPTYCORE");
+game.setLocalization("tc.research_page.EMPTYCORE", "\u7a7a\u767d\u6838\u5fc3\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u90e8\u4ef6.
 \u5b83\u88ab\u7528\u4e8e\u5408\u6210\u5404\u79cd\u6838\u5fc3, \u6bd4\u5982\u629b\u5c04\u6838\u5fc3\u3001\u5b57\u4f53\u6838\u5fc3\u3001\u683c\u6597\u6838\u5fc3\u4ee5\u53ca\u7194\u5ca9\u6676\u4f53.");
 mods.thaumcraft.Arcane.addShaped("EMPTYCORE", <AWWayofTime:bloodMagicBaseItems:1>, "aer 15, ignis 15, terra 15, aqua 15, ordo 15, perditio 15", [
 [<Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.metaitem.01:17351>, <Thaumcraft:blockCosmeticOpaque:2>],
@@ -335,8 +335,8 @@ mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "EMPTYCORE", false);
 mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "LAVACRYSTAL", false);
 mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "WARDEDARCANA", false);
 mods.thaumcraft.Research.setConcealed("BMLAVACRYSTAL", true);
-mods.thaumcraft.Research.addPage("BMLAVACRYSTAL", "bloodmagic.research_page.BMLAVACRYSTAL");
-game.setLocalization("bloodmagic.research_page.BMLAVACRYSTAL", "\u7194\u5ca9\u6676\u4f53\u53ef\u7528\u4f5c\u7194\u7089\u548c\u5f15\u64ce\u7684\u66ff\u4ee3\u71c3\u6599.
+mods.thaumcraft.Research.addPage("BMLAVACRYSTAL", "tc.research_page.BMLAVACRYSTAL");
+game.setLocalization("tc.research_page.BMLAVACRYSTAL", "\u7194\u5ca9\u6676\u4f53\u53ef\u7528\u4f5c\u7194\u7089\u548c\u5f15\u64ce\u7684\u66ff\u4ee3\u71c3\u6599.
 \u7194\u5ca9\u6676\u4f53\u4e0d\u4f1a\u635f\u5931\u8010\u4e45,\u800c\u662f\u6bcf\u6b21\u64cd\u4f5c\u4ece\u73a9\u5bb6\u7684\u7075\u9b42\u7f51\u7edc\u4e2d\u62bd\u53d625LP.
 \u4f7f\u7528\u7194\u5ca9\u6676\u4f53\u524d\u9700\u7ed1\u5b9a\u73a9\u5bb6.\u53ea\u9700\u624b\u6301\u6b64\u6676\u4f53\u5e76\u53f3\u952e\u5373\u53ef\u7ed1\u5b9a.
 \u4e00\u65e6\u7ed1\u5b9a\u5230\u73a9\u5bb6,\u5b83\u5c06\u5f00\u59cb\u4f5c\u4e3a\u71c3\u6599\u6765\u6e90.
@@ -353,8 +353,8 @@ game.setLocalization("tc.research_text.RUNESACRIFICE", "[BM]\u9c9c\u8840\u6dcb\u
 mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESACRIFICE", true);
-mods.thaumcraft.Research.addPage("RUNESACRIFICE", "bloodmagic.research_page.RUNESACRIFICE");
-game.setLocalization("bloodmagic.research_page.RUNESACRIFICE", "\u732e\u796d\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
+mods.thaumcraft.Research.addPage("RUNESACRIFICE", "tc.research_page.RUNESACRIFICE");
+game.setLocalization("tc.research_page.RUNESACRIFICE", "\u732e\u796d\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
 \u6b64\u7b26\u6587\u53ef\u4e0e\u4efb\u4f55\u5176\u4ed6\u7b26\u6587\u4e92\u6362\u4f7f\u7528,\u5e76\u53ef\u5728\u5347\u7ea7\u8fc7\u7a0b\u4e2d\u4e0e\u6bcf\u4e00\u79cd\u7b26\u6587\u4e00\u8d77\u4f7f\u7528.
 \u732e\u796d\u7b26\u6587\u5c06\u63d0\u534710%\u732e\u796d\u5200\u6740\u6b7b\u751f\u7269\u65f6\u83b7\u5f97\u7684LP\u603b\u91cf.");
 mods.thaumcraft.Infusion.addRecipe("RUNESACRIFICE", <BloodArsenal:blood_stone:1>, 
@@ -369,8 +369,8 @@ game.setLocalization("tc.research_text.RUNESELFSACRIFICE", "[BM]\u6709\u70b9\u88
 mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESELFSACRIFICE", true);
-mods.thaumcraft.Research.addPage("RUNESELFSACRIFICE", "bloodmagic.research_page.RUNESELFSACRIFICE");
-game.setLocalization("bloodmagic.research_page.RUNESELFSACRIFICE", "\u727a\u7272\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
+mods.thaumcraft.Research.addPage("RUNESELFSACRIFICE", "tc.research_page.RUNESELFSACRIFICE");
+game.setLocalization("tc.research_page.RUNESELFSACRIFICE", "\u727a\u7272\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
 \u6b64\u7b26\u6587\u53ef\u4e0e\u4efb\u4f55\u5176\u4ed6\u7b26\u6587\u4e92\u6362\u4f7f\u7528,\u5e76\u53ef\u5728\u5347\u7ea7\u8fc7\u7a0b\u4e2d\u4e0e\u6bcf\u4e00\u79cd\u7b26\u6587\u4e00\u8d77\u4f7f\u7528.
 \u727a\u7272\u7b26\u6587\u5c06\u63d0\u534710%\u4f7f\u7528\u727a\u7272\u5315\u9996\u65f6\u83b7\u5f97\u7684LP\u603b\u91cf.");
 mods.thaumcraft.Infusion.addRecipe("RUNESELFSACRIFICE", <BloodArsenal:blood_stone:1>, 
@@ -385,8 +385,8 @@ game.setLocalization("tc.research_text.AIRSIGIL", "[BM]\u50cf\u9e1f\u4e00\u6837\
 mods.thaumcraft.Research.addPrereq("AIRSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("AIRSIGIL", "LAVASIGIL", false);
 mods.thaumcraft.Research.setConcealed("AIRSIGIL", true);
-mods.thaumcraft.Research.addPage("AIRSIGIL", "bloodmagic.research_page.AIRSIGIL");
-game.setLocalization("bloodmagic.research_page.AIRSIGIL", "\u7a7a\u6c14\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u4f7f\u7528\u8005\u53ef\u4ee5\u83b7\u5f97\u98de\u7fd4\u7684\u80fd\u529b,\u5f53\u7136\u4ee5\u6d88\u8017LP\u4e3a\u4ee3\u4ef7.
+mods.thaumcraft.Research.addPage("AIRSIGIL", "tc.research_page.AIRSIGIL");
+game.setLocalization("tc.research_page.AIRSIGIL", "\u7a7a\u6c14\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u4f7f\u7528\u8005\u53ef\u4ee5\u83b7\u5f97\u98de\u7fd4\u7684\u80fd\u529b,\u5f53\u7136\u4ee5\u6d88\u8017LP\u4e3a\u4ee3\u4ef7.
 \u624b\u6301\u7a7a\u6c14\u5370\u8bb0\u5e76\u53f3\u952e,\u73a9\u5bb6\u5c06\u4f1a\u88ab\u5411\u5176\u9762\u671d\u65b9\u5411\u63a8\u51fa,\u6bcf\u6b21\u70b9\u51fb\u6d88\u801750LP.
 \u4f46\u8bf7\u6ce8\u610f,\u5982\u679c\u6ca1\u6709\u4efb\u4f55\u5f62\u5f0f\u7684\u4fdd\u62a4(\u5982\u5143\u7d20\u5370\u8bb0),\u4f7f\u7528\u8005\u4ecd\u7136\u4f1a\u53d7\u5230\u5760\u843d\u4f24\u5bb3.");
 mods.thaumcraft.Infusion.addRecipe("AIRSIGIL", <AWWayofTime:demonicSlate>, 
@@ -402,8 +402,8 @@ game.setLocalization("tc.research_text.FASTERMINING", "[BM]\u6025\u8febII,\u4f60
 mods.thaumcraft.Research.addPrereq("FASTERMINING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FASTERMINING", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("FASTERMINING", true);
-mods.thaumcraft.Research.addPage("FASTERMINING", "bloodmagic.research_page.FASTERMINING");
-game.setLocalization("bloodmagic.research_page.FASTERMINING", "\u901f\u6398\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u4f7f\u7528\u8005\u6d88\u8017LP\u4ee5\u83b7\u5f97\u6025\u8febII\u6548\u679c.
+mods.thaumcraft.Research.addPage("FASTERMINING", "tc.research_page.FASTERMINING");
+game.setLocalization("tc.research_page.FASTERMINING", "\u901f\u6398\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u4f7f\u7528\u8005\u6d88\u8017LP\u4ee5\u83b7\u5f97\u6025\u8febII\u6548\u679c.
 \u53f3\u952e\u6fc0\u6d3b\u901f\u6398\u5370\u8bb0,\u4f7f\u7528\u8005\u5c06\u83b7\u5f97\u6025\u8febII\u6548\u679c\u5e76\u4ece\u7ed1\u5b9a\u8005\u7684\u7075\u9b42\u7f51\u7edc\u4e2d\u6d88\u8017100LP.
 \u6fc0\u6d3b\u540e\u6bcf\u5341\u79d2,\u5c06\u6d88\u8017100LP\u4ee5\u7ef4\u6301\u6025\u8febII\u6548\u679c.");
 mods.thaumcraft.Infusion.addRecipe("FASTERMINING", <AWWayofTime:reinforcedSlate>, 
@@ -419,8 +419,8 @@ game.setLocalization("tc.research_text.GREENGROW", "[BM]\u6709\u4eba\u9700\u8981
 mods.thaumcraft.Research.addPrereq("GREENGROW", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("GREENGROW", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("GREENGROW", true);
-mods.thaumcraft.Research.addPage("GREENGROW", "bloodmagic.research_page.GREENGROW");
-game.setLocalization("bloodmagic.research_page.GREENGROW", "\u7eff\u4e1b\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
+mods.thaumcraft.Research.addPage("GREENGROW", "tc.research_page.GREENGROW");
+game.setLocalization("tc.research_page.GREENGROW", "\u7eff\u4e1b\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
 \u6fc0\u6d3b\u540e,\u6b64\u5370\u8bb0\u5c06\u52a0\u901f\u5468\u56f4\u6240\u6709\u690d\u7269\u7684\u751f\u957f,\u7c7b\u4f3c\u4e8e\u7eff\u4e1b\u4eea\u5f0f\u6548\u679c.
 \u53f3\u952e\u6fc0\u6d3b\u7eff\u4e1b\u5370\u8bb0,\u73a9\u5bb6\u9644\u8fd1\u534a\u5f846\u683c\u5185\u7684\u690d\u7269\u5c06\u83b7\u5f97\u989d\u5916\u7684\u751f\u957ftick.\u6b64\u6548\u679c\u6bcf\u4e94\u79d2\u6d88\u8017150LP.
 \u76f4\u63a5\u53f3\u952e\u690d\u7269\u7c7b\u4f3c\u4e8e\u5bf9\u690d\u7269\u4f7f\u7528\u9aa8\u7c89,\u6bcf\u6b21\u53f3\u952e\u6d88\u8017150LP.\u6b64\u6548\u679c\u53ea\u5bf9\u53ef\u7528\u9aa8\u7c89\u50ac\u719f\u690d\u7269\u6709\u6548.");
@@ -437,8 +437,8 @@ game.setLocalization("tc.research_text.VOIDSIGIL", "[BM]\u80dc\u8fc7\u901f\u6613
 mods.thaumcraft.Research.addPrereq("VOIDSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("VOIDSIGIL", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("VOIDSIGIL", true);
-mods.thaumcraft.Research.addPage("VOIDSIGIL", "bloodmagic.research_page.VOIDSIGIL");
-game.setLocalization("bloodmagic.research_page.VOIDSIGIL", "\u865a\u7a7a\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u7528\u4e8e\u6d88\u8017\u5c11\u91cfLP\u6e05\u9664\u6db2\u4f53\u65b9\u5757.
+mods.thaumcraft.Research.addPage("VOIDSIGIL", "tc.research_page.VOIDSIGIL");
+game.setLocalization("tc.research_page.VOIDSIGIL", "\u865a\u7a7a\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u7528\u4e8e\u6d88\u8017\u5c11\u91cfLP\u6e05\u9664\u6db2\u4f53\u65b9\u5757.
 \u53ef\u4e0e\u7194\u5ca9\u5370\u8bb0\u6216\u6c34\u4e4b\u5370\u8bb0\u7ed3\u5408\u4f7f\u7528,\u7528\u4e8e\u6e05\u9664\u4e0d\u5c0f\u5fc3\u653e\u4e0b\u7684\u6db2\u4f53\u65b9\u5757.
 \u4f7f\u7528\u865a\u7a7a\u5370\u8bb0\u524d\u9700\u7ed1\u5b9a\u73a9\u5bb6.\u53ea\u9700\u624b\u6301\u6b64\u5370\u8bb0\u5e76\u53f3\u952e\u5373\u53ef\u7ed1\u5b9a.
 \u7ed1\u5b9a\u4e4b\u540e,\u53f3\u952e\u4efb\u610f\u6db2\u4f53\u65b9\u5757\u5373\u53ef\u6e05\u9664\u5b83,\u6d88\u801750LP\u4ee5\u53ca\u6b64\u6db2\u4f53\u65b9\u5757(\u5e9f\u8bdd).");
@@ -455,8 +455,8 @@ game.setLocalization("tc.research_text.SIGILOFSWIMMING", "[BA]\u50cf\u9c7c\u4e00
 mods.thaumcraft.Research.addPrereq("SIGILOFSWIMMING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFSWIMMING", "VOIDSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFSWIMMING", true);
-mods.thaumcraft.Research.addPage("SIGILOFSWIMMING", "bloodmagic.research_page.SIGILOFSWIMMING");
-game.setLocalization("bloodmagic.research_page.SIGILOFSWIMMING", "\u6c34\u6cf3\u5370\u8bb0\u4f7f\u73a9\u5bb6\u5728\u6c34\u4e0b\u79fb\u52a8\u66f4\u5feb,\u7834\u574f\u65b9\u5757\u901f\u5ea6\u63d0\u5347,\u4ee5\u53ca\u83b7\u5f97\u6c34\u4e0b\u547c\u5438\u6548\u679c!
+mods.thaumcraft.Research.addPage("SIGILOFSWIMMING", "tc.research_page.SIGILOFSWIMMING");
+game.setLocalization("tc.research_page.SIGILOFSWIMMING", "\u6c34\u6cf3\u5370\u8bb0\u4f7f\u73a9\u5bb6\u5728\u6c34\u4e0b\u79fb\u52a8\u66f4\u5feb,\u7834\u574f\u65b9\u5757\u901f\u5ea6\u63d0\u5347,\u4ee5\u53ca\u83b7\u5f97\u6c34\u4e0b\u547c\u5438\u6548\u679c!
 \u6240\u4ee5\u4f60\u73b0\u5728\u53ef\u4ee5\u91cd\u5efa\u4e9a\u7279\u5170\u8482\u65af\u57ce\u4e86.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFSWIMMING", <AWWayofTime:voidSigil>, 
 [<AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <AWWayofTime:demonicSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>], 
@@ -470,8 +470,8 @@ game.setLocalization("tc.research_name.BLOODLETTERSPACK", "\u8840\u6db2\u80cc\u5
 game.setLocalization("tc.research_text.BLOODLETTERSPACK", "[BM]\u8fd9\u4e2a\u80cc\u5305\u6709\u70b9\u8be1\u5f02...");
 mods.thaumcraft.Research.addPrereq("BLOODLETTERSPACK", "SACRIFICIALKNIFE", false);
 mods.thaumcraft.Research.setConcealed("BLOODLETTERSPACK", true);
-mods.thaumcraft.Research.addPage("BLOODLETTERSPACK", "bloodmagic.research_page.BLOODLETTERSPACK");
-game.setLocalization("bloodmagic.research_page.BLOODLETTERSPACK", "\u8840\u6db2\u80cc\u5305\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u62a4\u7532.
+mods.thaumcraft.Research.addPage("BLOODLETTERSPACK", "tc.research_page.BLOODLETTERSPACK");
+game.setLocalization("tc.research_page.BLOODLETTERSPACK", "\u8840\u6db2\u80cc\u5305\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u62a4\u7532.
 \u7a7f\u7740\u6b64\u80cc\u5305\u6bcf\u79d2\u53d7\u5230\u4e00\u5fc3\u4f24\u5bb3\u540c\u65f6\u83b7\u5f97100LP,\u5e76\u4e14\u4e0d\u4f1a\u5c06\u73a9\u5bb6\u7684\u751f\u547d\u503c\u964d\u4f4e\u52305\u5fc3\u4ee5\u4e0b.
 \u6b64\u80cc\u5305\u6700\u5927\u5b58\u50a810000LP,\u5347\u7ea7\u672a\u77e5.
 \u8840\u6db2\u80cc\u5305\u662f\u7528\u4e8e\u5728\u8fdc\u79bb\u8840\u4e4b\u796d\u575b\u65f6\u5b58\u50a8LP\u7684.
@@ -488,8 +488,8 @@ game.setLocalization("tc.research_name.IMBUEARMOR", "\u751f\u547d\u704c\u6ce8\u8
 game.setLocalization("tc.research_text.IMBUEARMOR", "[BM]\u4e3a\u8840\u800c\u751f");
 mods.thaumcraft.Research.addPrereq("IMBUEARMOR", "BLOODLETTERSPACK", false);
 mods.thaumcraft.Research.setConcealed("IMBUEARMOR", true);
-mods.thaumcraft.Research.addPage("IMBUEARMOR", "bloodmagic.research_page.IMBUEARMOR");
-game.setLocalization("bloodmagic.research_page.IMBUEARMOR", "\u751f\u547d\u704c\u6ce8\u88c5\u7532\u662f\u4e00\u79cd\u53ef\u5b58\u50a8LP\u5e76\u5229\u7528\u5176\u4fdd\u62a4\u7a7f\u6234\u8005\u7684\u5f3a\u5927\u62a4\u7532.
+mods.thaumcraft.Research.addPage("IMBUEARMOR", "tc.research_page.IMBUEARMOR");
+game.setLocalization("tc.research_page.IMBUEARMOR", "\u751f\u547d\u704c\u6ce8\u88c5\u7532\u662f\u4e00\u79cd\u53ef\u5b58\u50a8LP\u5e76\u5229\u7528\u5176\u4fdd\u62a4\u7a7f\u6234\u8005\u7684\u5f3a\u5927\u62a4\u7532.
 \u7a7f\u6234\u5168\u5957\u6b64\u62a4\u7532\u5c06\u6d88\u8017\u62a4\u7532\u4e2d\u5b58\u50a8LP\u968f\u673a\u6cbb\u7597\u4f60.
 \u53ef\u5728\u751f\u547d\u6ce8\u5165\u5668\u4e2d\u91cd\u65b0\u88c5\u586bLP.");
 mods.thaumcraft.Arcane.addShaped("IMBUEARMOR", <BloodArsenal:life_imbued_helmet>.withTag({LPStored: 0}), "terra 30, ignis 30, ordo 30, perditio 30", [
@@ -526,8 +526,8 @@ game.setLocalization("tc.research_name.WEAKORB", "\u865a\u5f31\u6c14\u8840\u5b9d
 game.setLocalization("tc.research_text.WEAKORB", "[BM]\u5b9d\u73e0\u53d8\u6362Tier I");
 mods.thaumcraft.Research.addPrereq("WEAKORB", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("WEAKORB", true);
-mods.thaumcraft.Research.addPage("WEAKORB", "bloodmagic.research_page.WEAKORB");
-game.setLocalization("bloodmagic.research_page.WEAKORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u4e00\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
+mods.thaumcraft.Research.addPage("WEAKORB", "tc.research_page.WEAKORB");
+game.setLocalization("tc.research_page.WEAKORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u4e00\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
 \u7b2c\u4e00\u6b65\u662f\u4e3a\u5b9d\u73e0\u6dfb\u52a0\u9b54\u529b.
 \u7136\u540e\u4f60\u9700\u8981\u7528\u8840\u4e4b\u796d\u575b\u4e2d\u7684\u9c9c\u8840\u586b\u5145\u5b83\u4ee5\u83b7\u5f97\u4e00\u4e2a\u865a\u5f31\u6c14\u8840\u5b9d\u73e0");
 mods.thaumcraft.Arcane.addShaped("WEAKORB", <dreamcraft:item.WeakOrb>, "aer 20, aqua 20, ignis 20, terra 20, perditio 20, ordo 20", [
@@ -543,8 +543,8 @@ game.setLocalization("tc.research_name.APPRENTICEORB", "\u5b66\u5f92\u6c14\u8840
 game.setLocalization("tc.research_text.APPRENTICEORB", "[BM]\u5b9d\u73e0\u53d8\u6362Tier II");
 mods.thaumcraft.Research.addPrereq("APPRENTICEORB", "WEAKORB", false);
 mods.thaumcraft.Research.setConcealed("APPRENTICEORB", true);
-mods.thaumcraft.Research.addPage("APPRENTICEORB", "bloodmagic.research_page.APPRENTICEORB");
-game.setLocalization("bloodmagic.research_page.APPRENTICEORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u4e8c\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
+mods.thaumcraft.Research.addPage("APPRENTICEORB", "tc.research_page.APPRENTICEORB");
+game.setLocalization("tc.research_page.APPRENTICEORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u4e8c\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
 \u7b2c\u4e00\u6b65\u662f\u4e3a\u5b9d\u73e0\u6dfb\u52a0\u9b54\u529b.
 \u7136\u540e\u4f60\u9700\u8981\u7528\u8840\u4e4b\u796d\u575b\u4e2d\u7684\u9c9c\u8840\u586b\u5145\u5b83\u4ee5\u83b7\u5f97\u4e00\u4e2a\u5b66\u5f92\u6c14\u8840\u5b9d\u73e0.");
 mods.thaumcraft.Arcane.addShaped("APPRENTICEORB", <dreamcraft:item.ApprenticeOrb>, "aer 40, aqua 40, ignis 40, terra 40, perditio 40, ordo 40", [
@@ -560,8 +560,8 @@ game.setLocalization("tc.research_name.MAGICANORB", "\u6cd5\u5e08\u6c14\u8840\u5
 game.setLocalization("tc.research_text.MAGICANORB", "[BM]\u5b9d\u73e0\u53d8\u6362Tier III");
 mods.thaumcraft.Research.addPrereq("MAGICANORB", "APPRENTICEORB", false);
 mods.thaumcraft.Research.setConcealed("MAGICANORB", true);
-mods.thaumcraft.Research.addPage("MAGICANORB", "bloodmagic.research_page.MAGICANORB");
-game.setLocalization("bloodmagic.research_page.MAGICANORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u4e09\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
+mods.thaumcraft.Research.addPage("MAGICANORB", "tc.research_page.MAGICANORB");
+game.setLocalization("tc.research_page.MAGICANORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u4e09\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
 \u7b2c\u4e00\u6b65\u662f\u4e3a\u5b9d\u73e0\u6dfb\u52a0\u9b54\u529b.
 \u7136\u540e\u4f60\u9700\u8981\u7528\u8840\u4e4b\u796d\u575b\u4e2d\u7684\u9c9c\u8840\u586b\u5145\u5b83\u4ee5\u83b7\u5f97\u4e00\u4e2a\u6cd5\u5e08\u6c14\u8840\u5b9d\u73e0.");
 mods.thaumcraft.Arcane.addShaped("MAGICANORB", <dreamcraft:item.MagicianOrb>, "aer 60, aqua 60, ignis 60, terra 60, perditio 60, ordo 60", [
@@ -577,8 +577,8 @@ game.setLocalization("tc.research_name.MASTERORB", "\u5bfc\u5e08\u6c14\u8840\u5b
 game.setLocalization("tc.research_text.MASTERORB", "[BM]\u5b9d\u73e0\u53d8\u6362Tier IV");
 mods.thaumcraft.Research.addPrereq("MASTERORB", "MAGICANORB", false);
 mods.thaumcraft.Research.setConcealed("MASTERORB", true);
-mods.thaumcraft.Research.addPage("MASTERORB", "bloodmagic.research_page.MASTERORB");
-game.setLocalization("bloodmagic.research_page.MASTERORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u56db\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
+mods.thaumcraft.Research.addPage("MASTERORB", "tc.research_page.MASTERORB");
+game.setLocalization("tc.research_page.MASTERORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u56db\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
 \u7b2c\u4e00\u6b65\u662f\u4e3a\u5b9d\u73e0\u6dfb\u52a0\u9b54\u529b.
 \u7136\u540e\u4f60\u9700\u8981\u7528\u8840\u4e4b\u796d\u575b\u4e2d\u7684\u9c9c\u8840\u586b\u5145\u5b83\u4ee5\u83b7\u5f97\u4e00\u4e2a\u5bfc\u5e08\u6c14\u8840\u5b9d\u73e0.");
 mods.thaumcraft.Arcane.addShaped("MASTERORB", <dreamcraft:item.MasterOrb>, "aer 80, aqua 80, ignis 80, terra 80, perditio 80, ordo 80", [
@@ -594,8 +594,8 @@ game.setLocalization("tc.research_name.ARCHMAGEORB", "\u8d24\u8005\u6c14\u8840\u
 game.setLocalization("tc.research_text.ARCHMAGEORB", "[BM]\u5b9d\u73e0\u53d8\u6362Tier V");
 mods.thaumcraft.Research.addPrereq("ARCHMAGEORB", "MASTERORB", false);
 mods.thaumcraft.Research.setConcealed("ARCHMAGEORB", true);
-mods.thaumcraft.Research.addPage("ARCHMAGEORB", "bloodmagic.research_page.ARCHMAGEORB");
-game.setLocalization("bloodmagic.research_page.ARCHMAGEORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u4e94\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
+mods.thaumcraft.Research.addPage("ARCHMAGEORB", "tc.research_page.ARCHMAGEORB");
+game.setLocalization("tc.research_page.ARCHMAGEORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u4e94\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
 \u7b2c\u4e00\u6b65\u662f\u4e3a\u5b9d\u73e0\u6dfb\u52a0\u9b54\u529b.
 \u7136\u540e\u4f60\u9700\u8981\u7528\u8840\u4e4b\u796d\u575b\u4e2d\u7684\u9c9c\u8840\u586b\u5145\u5b83\u4ee5\u83b7\u5f97\u4e00\u4e2a\u8d24\u8005\u6c14\u8840\u5b9d\u73e0.");
 mods.thaumcraft.Arcane.addShaped("ARCHMAGEORB", <dreamcraft:item.ArchmageOrb>, "aer 100, aqua 100, ignis 100, terra 100, perditio 100, ordo 100", [
@@ -611,8 +611,8 @@ game.setLocalization("tc.research_name.TRANSCENDENTORB", "\u5353\u8d8a\u6c14\u88
 game.setLocalization("tc.research_text.TRANSCENDENTORB", "[BM]\u5b9d\u73e0\u53d8\u6362Tier VI");
 mods.thaumcraft.Research.addPrereq("TRANSCENDENTORB", "ARCHMAGEORB", false);
 mods.thaumcraft.Research.setConcealed("TRANSCENDENTORB", true);
-mods.thaumcraft.Research.addPage("TRANSCENDENTORB", "bloodmagic.research_page.TRANSCENDENTORB");
-game.setLocalization("bloodmagic.research_page.TRANSCENDENTORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u516d\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
+mods.thaumcraft.Research.addPage("TRANSCENDENTORB", "tc.research_page.TRANSCENDENTORB");
+game.setLocalization("tc.research_page.TRANSCENDENTORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u516d\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
 \u7b2c\u4e00\u6b65\u662f\u4e3a\u5b9d\u73e0\u6dfb\u52a0\u9b54\u529b.
 \u7136\u540e\u4f60\u9700\u8981\u7528\u8840\u4e4b\u796d\u575b\u4e2d\u7684\u9c9c\u8840\u586b\u5145\u5b83\u4ee5\u83b7\u5f97\u4e00\u4e2a\u5353\u8d8a\u6c14\u8840\u5b9d\u73e0.");
 mods.thaumcraft.Arcane.addShaped("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>, "aer 150, aqua 150, ignis 150, terra 150, perditio 150, ordo 150", [
@@ -628,8 +628,8 @@ game.setLocalization("tc.research_name.TRANSPARENTORB", "\u900f\u660e\u6c14\u884
 game.setLocalization("tc.research_text.TRANSPARENTORB", "[BM]\u4f60\u7684\u5b9d\u73e0\u91cc\u6709\u591a\u5c11LP?");
 mods.thaumcraft.Research.addPrereq("TRANSPARENTORB", "TRANSCENDENTORB", false);
 mods.thaumcraft.Research.setConcealed("TRANSPARENTORB", true);
-mods.thaumcraft.Research.addPage("TRANSPARENTORB", "bloodmagic.research_page.TRANSPARENTORB");
-game.setLocalization("bloodmagic.research_page.TRANSPARENTORB", "\u900f\u660e\u6c14\u8840\u5b9d\u73e0: 
+mods.thaumcraft.Research.addPage("TRANSPARENTORB", "tc.research_page.TRANSPARENTORB");
+game.setLocalization("tc.research_page.TRANSPARENTORB", "\u900f\u660e\u6c14\u8840\u5b9d\u73e0: 
 \u4f60\u662f\u5426\u60f3\u77e5\u9053\u4f60\u7684\u6c14\u8840\u5b9d\u73e0\u91cc\u5230\u5e95\u6709\u591a\u5c11LP?
 \u73b0\u5728\u4f60\u53ef\u4ee5\u505a\u5230\u4e86.\u52a8\u6001\u6d4b\u91cfLP!\u8fd9\u5f88\u819c\u6cd5\u5427.");
 mods.thaumcraft.Arcane.addShaped("TRANSPARENTORB", <BloodArsenal:transparent_orb>, "aer 175, aqua 175, ignis 175, terra 175, perditio 175, ordo 175", [
@@ -645,8 +645,8 @@ game.setLocalization("tc.research_name.EMPTYSOCKET", "\u7a7a\u7684\u8840\u63d2\u
 game.setLocalization("tc.research_text.EMPTYSOCKET", "[BM]\u55ef,\u8fd9\u4e2a\u770b\u8d77\u6765\u4e0d\u80fd\u7528...");
 mods.thaumcraft.Research.addPrereq("EMPTYSOCKET", "BLOODLETTERSPACK", false);
 mods.thaumcraft.Research.setConcealed("EMPTYSOCKET", true);
-mods.thaumcraft.Research.addPage("EMPTYSOCKET", "bloodmagic.research_page.EMPTYSOCKET");
-game.setLocalization("bloodmagic.research_page.EMPTYSOCKET", "\u7a7a\u7684\u8840\u63d2\u69fd\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u7528\u4e8e\u5408\u6210\u6ee1\u7684\u8840\u63d2\u69fd.
+mods.thaumcraft.Research.addPage("EMPTYSOCKET", "tc.research_page.EMPTYSOCKET");
+game.setLocalization("tc.research_page.EMPTYSOCKET", "\u7a7a\u7684\u8840\u63d2\u69fd\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u7528\u4e8e\u5408\u6210\u6ee1\u7684\u8840\u63d2\u69fd.
 \u7a7a\u7684\u8840\u63d2\u69fd\u662f\u5236\u4f5c\u7ea6\u675f\u88c5\u7532\u7684\u7b2c\u4e00\u6b65.");
 mods.thaumcraft.Arcane.addShaped("EMPTYSOCKET", <AWWayofTime:emptySocket>, "aer 50, aqua 50, ignis 50, terra 50, perditio 50, ordo 50", [
 [<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:25>, <AWWayofTime:weakBloodShard>],
@@ -662,14 +662,14 @@ game.setLocalization("tc.research_text.SOULARMORFORGE", "[BM]\u6076\u9b54\u62a4\
 mods.thaumcraft.Research.addPrereq("SOULARMORFORGE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SOULARMORFORGE", "EMPTYSOCKET", false);
 mods.thaumcraft.Research.setConcealed("SOULARMORFORGE", true);
-mods.thaumcraft.Research.addPage("SOULARMORFORGE", "bloodmagic.research_page.SOULARMORFORGE.1");
-game.setLocalization("bloodmagic.research_page.SOULARMORFORGE.1", "\u7075\u9b42\u88c5\u7532\u953b\u9020\u77f3\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u7528\u4e8e\u5236\u4f5c\u7ea6\u675f\u88c5\u7532.
+mods.thaumcraft.Research.addPage("SOULARMORFORGE", "tc.research_page.SOULARMORFORGE.1");
+game.setLocalization("tc.research_page.SOULARMORFORGE.1", "\u7075\u9b42\u88c5\u7532\u953b\u9020\u77f3\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u7528\u4e8e\u5236\u4f5c\u7ea6\u675f\u88c5\u7532.
 \u60f3\u8981\u5236\u4f5c\u7075\u9b42\u88c5\u7532\u953b\u9020\u77f3\u4e0e\u5168\u5957\u7ea6\u675f\u88c5\u7532,\u4f60\u9700\u898128\u4e2a\u6ee1\u7684\u8840\u63d2\u69fd.
 \u7075\u9b42\u88c5\u7532\u953b\u9020\u77f3\u5fc5\u987b\u88ab\u653e\u7f6e\u4e8e\u4e16\u754c\u4e2d\u5e76\u7528\u6ee1\u7684\u8840\u63d2\u69fd\u5305\u56f4,\u5f62\u6210\u6240\u9700\u76d4\u7532\u7684\u5f62\u72b6.
 \u7075\u9b42\u88c5\u7532\u953b\u9020\u77f3\u5fc5\u987b\u63a5\u89e6\u5c3d\u53ef\u80fd\u591a\u7684\u8840\u63d2\u69fd,\u5426\u5219\u65e0\u6cd5\u6b63\u5e38\u5de5\u4f5c,\u5982\u53f3\u56fe\u6240\u793a.
 \u6c34\u5e73\u6216\u5782\u76f4\u653e\u7f6e\u8840\u63d2\u69fd\u5747\u53ef.");
-mods.thaumcraft.Research.addPage("SOULARMORFORGE", "bloodmagic.research_page.SOULARMORFORGE.2");
-game.setLocalization("bloodmagic.research_page.SOULARMORFORGE.2", "\u653e\u7f6e\u597d\u8840\u63d2\u69fd\u540e\u002c\u624b\u6301\u5370\u8bb0\u3001\u6c14\u8840\u5b9d\u73e0\u3001\u6216\u6c14\u8840\u788e\u7247\u53f3\u952e\u8840\u63d2\u69fd\u5373\u53ef\u5c06\u8fd9\u4e9b\u7269\u54c1\u63d2\u5165\u002c\u4e0e\u88ab\u63d2\u5165\u7684\u90a3\u7247\u62a4\u7532\u7ed1\u5b9a\u002e");
+mods.thaumcraft.Research.addPage("SOULARMORFORGE", "tc.research_page.SOULARMORFORGE.2");
+game.setLocalization("tc.research_page.SOULARMORFORGE.2", "\u653e\u7f6e\u597d\u8840\u63d2\u69fd\u540e\u002c\u624b\u6301\u5370\u8bb0\u3001\u6c14\u8840\u5b9d\u73e0\u3001\u6216\u6c14\u8840\u788e\u7247\u53f3\u952e\u8840\u63d2\u69fd\u5373\u53ef\u5c06\u8fd9\u4e9b\u7269\u54c1\u63d2\u5165\u002c\u4e0e\u88ab\u63d2\u5165\u7684\u90a3\u7247\u62a4\u7532\u7ed1\u5b9a\u002e");
 mods.thaumcraft.Infusion.addRecipe("SOULARMORFORGE", <TConstruct:ToolForgeBlock:6>, 
 [<AWWayofTime:bloodSocket>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodSocket>, <BloodArsenal:blood_stone:2>, <AWWayofTime:magicales>, <AWWayofTime:bloodSocket>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodSocket>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>], 
 "tutamen 64, metallum 40, praecantatio 32, auram 24, tenebrae 16, exanimis 8", <AWWayofTime:armourForge>, 7);
@@ -683,8 +683,8 @@ game.setLocalization("tc.research_text.RUNEOFARGUMENTEDCAPACITY", "[BM]\u6269\u5
 mods.thaumcraft.Research.addPrereq("RUNEOFARGUMENTEDCAPACITY", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFARGUMENTEDCAPACITY", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFARGUMENTEDCAPACITY", true);
-mods.thaumcraft.Research.addPage("RUNEOFARGUMENTEDCAPACITY", "bloodmagic.research_page.RUNEOFARGUMENTEDCAPACITY");
-game.setLocalization("bloodmagic.research_page.RUNEOFARGUMENTEDCAPACITY", "\u589e\u5bb9\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
+mods.thaumcraft.Research.addPage("RUNEOFARGUMENTEDCAPACITY", "tc.research_page.RUNEOFARGUMENTEDCAPACITY");
+game.setLocalization("tc.research_page.RUNEOFARGUMENTEDCAPACITY", "\u589e\u5bb9\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
 \u6b64\u7b26\u6587\u53ef\u4e0e\u4efb\u4f55\u5176\u4ed6\u7b26\u6587\u4e92\u6362\u4f7f\u7528,\u5e76\u53ef\u5728\u5347\u7ea7\u8fc7\u7a0b\u4e2d\u4e0e\u6bcf\u4e00\u79cd\u7b26\u6587\u4e00\u8d77\u4f7f\u7528.
 \u6bcf\u4e2a\u589e\u5bb9\u7b26\u6587\u4e3a\u8840\u4e4b\u796d\u575b\u589e\u52a0\u989d\u5916\u76842000LP\u5b58\u50a8\u5bb9\u91cf.
 \u6bcf\u4e2a\u6b64\u7b26\u6587\u8fd8\u53ef\u63d0\u5347\u796d\u575b\u5185\u90e8\u7f13\u5b58\u5bb9\u91cf10%.");
@@ -700,8 +700,8 @@ game.setLocalization("tc.research_text.RUNEOFDISLOCATION", "[BM]\u90a3\u592a\u5f
 mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFDISLOCATION", true);
-mods.thaumcraft.Research.addPage("RUNEOFDISLOCATION", "bloodmagic.research_page.RUNEOFDISLOCATION");
-game.setLocalization("bloodmagic.research_page.RUNEOFDISLOCATION", "\u8f6c\u4f4d\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
+mods.thaumcraft.Research.addPage("RUNEOFDISLOCATION", "tc.research_page.RUNEOFDISLOCATION");
+game.setLocalization("tc.research_page.RUNEOFDISLOCATION", "\u8f6c\u4f4d\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
 \u6b64\u7b26\u6587\u53ef\u4e0e\u4efb\u4f55\u5176\u4ed6\u7b26\u6587\u4e92\u6362\u4f7f\u7528,\u5e76\u53ef\u5728\u5347\u7ea7\u8fc7\u7a0b\u4e2d\u4e0e\u6bcf\u4e00\u79cd\u7b26\u6587\u4e00\u8d77\u4f7f\u7528.
 \u8f6c\u4f4d\u7b26\u6587\u53ef\u63d0\u5347\u796d\u575b\u62bd\u51fa\u6216\u6cf5\u5165LP\u7684\u901f\u5ea6,\u6bcf\u4e2a\u63d0\u534720%(\u4e58\u6cd5).");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFDISLOCATION", <BloodArsenal:blood_stone:1>, 
@@ -716,8 +716,8 @@ game.setLocalization("tc.research_text.SIGILOFELEMENTALAFFINITY", "[BM]\u518d\u4
 mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "AIRSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFELEMENTALAFFINITY", true);
-mods.thaumcraft.Research.addPage("SIGILOFELEMENTALAFFINITY", "bloodmagic.research_page.SIGILOFELEMENTALAFFINITY");
-game.setLocalization("bloodmagic.research_page.SIGILOFELEMENTALAFFINITY", "\u5143\u7d20\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u5b83\u8d4b\u4e88\u4f7f\u7528\u8005\u591a\u79cd\u5f62\u5f0f\u7684\u73af\u5883\u4fdd\u62a4.
+mods.thaumcraft.Research.addPage("SIGILOFELEMENTALAFFINITY", "tc.research_page.SIGILOFELEMENTALAFFINITY");
+game.setLocalization("tc.research_page.SIGILOFELEMENTALAFFINITY", "\u5143\u7d20\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u5b83\u8d4b\u4e88\u4f7f\u7528\u8005\u591a\u79cd\u5f62\u5f0f\u7684\u73af\u5883\u4fdd\u62a4.
 \u8fd9\u4e9b\u4fdd\u62a4\u5305\u62ec\u514d\u75ab\u6389\u843d\u4f24\u5bb3,\u6c34\u4e0b\u547c\u5438,\u706b\u7130\u514d\u75ab,\u6700\u5999\u7684\u662f\u6d88\u8017\u7684LP\u8fd8\u4e0d\u591a.
 \u624b\u6301\u5370\u8bb0\u5e76\u53f3\u952e\u6fc0\u6d3b,\u5370\u8bb0\u5c06\u4e3a\u4f7f\u7528\u8005\u9644\u52a0\u6c34\u4e0b\u547c\u5438,\u706b\u7130(\u548c\u5ca9\u6d46)\u514d\u75ab,\u4ee5\u53ca\u6389\u843d\u4f24\u5bb3\u514d\u75ab.\u6bcf10\u79d2\u6d88\u8017300LP.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFELEMENTALAFFINITY", <AWWayofTime:demonicSlate>, 
@@ -733,8 +733,8 @@ game.setLocalization("tc.research_text.SIGILOFLIGHTNING", "[BA]\u96f7\u516c\u52a
 mods.thaumcraft.Research.addPrereq("SIGILOFLIGHTNING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFLIGHTNING", "SIGILOFELEMENTALAFFINITY", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFLIGHTNING", true);
-mods.thaumcraft.Research.addPage("SIGILOFLIGHTNING", "bloodmagic.research_page.SIGILOFLIGHTNING");
-game.setLocalization("bloodmagic.research_page.SIGILOFLIGHTNING", "\u95ea\u7535\u5370\u8bb0\u975e\u5e38\u5f3a\u5927,\u53ef\u5728\u4f60\u6307\u5411\u7684\u4efb\u4f55\u5730\u65b9\u53ec\u5524\u95ea\u7535!
+mods.thaumcraft.Research.addPage("SIGILOFLIGHTNING", "tc.research_page.SIGILOFLIGHTNING");
+game.setLocalization("tc.research_page.SIGILOFLIGHTNING", "\u95ea\u7535\u5370\u8bb0\u975e\u5e38\u5f3a\u5927,\u53ef\u5728\u4f60\u6307\u5411\u7684\u4efb\u4f55\u5730\u65b9\u53ec\u5524\u95ea\u7535!
 \u5b83\u67095\u79cd\u4e0d\u540c\u7684\u6a21\u5f0f.
 \u6a21\u5f0f1\u53ec\u5524\u4e00\u9053\u95ea\u7535,\u6a21\u5f0f2\u53ec\u5524\u4e24\u9053\u95ea\u7535....");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFLIGHTNING", <AWWayofTime:bloodMagicBaseItems:27>, 
@@ -750,8 +750,8 @@ game.setLocalization("tc.research_text.SIGILOFHOLDING", "[BM] Up to 5 Slots");
 mods.thaumcraft.Research.addPrereq("SIGILOFHOLDING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFHOLDING", "SIGILOFMAGNETISM", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFHOLDING", true);
-mods.thaumcraft.Research.addPage("SIGILOFHOLDING", "bloodmagic.research_page.SIGILOFHOLDING");
-game.setLocalization("bloodmagic.research_page.SIGILOFHOLDING", "\u96c6\u6301\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u7528\u4e8e\u5c06\u591a\u79cd\u5370\u8bb0\u96c6\u4e2d\u6210\u4e00\u4e2a.
+mods.thaumcraft.Research.addPage("SIGILOFHOLDING", "tc.research_page.SIGILOFHOLDING");
+game.setLocalization("tc.research_page.SIGILOFHOLDING", "\u96c6\u6301\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u7528\u4e8e\u5c06\u591a\u79cd\u5370\u8bb0\u96c6\u4e2d\u6210\u4e00\u4e2a.
 \u4f7f\u7528\u65f6,\u6bcf\u6b21Shift+\u53f3\u952e\u96c6\u6301\u5370\u8bb0\u5c06\u4ece\u5feb\u6377\u680f\u4e2d\u4ece\u5de6\u81f3\u53f3\u6d88\u8017\u4e00\u4e2a\u5370\u8bb0,\u6700\u591a\u53ea\u80fd\u50a8\u5b584\u4e2a\u5370\u8bb0.
 \u5f53\u7269\u54c1\u680f\u4e2d\u6ca1\u6709\u5176\u5b83\u5370\u8bb0\u6216\u96c6\u6301\u5370\u8bb0\u5df2\u6ee1\u65f6,shift+\u53f3\u952e\u53ef\u5207\u6362\u96c6\u6301\u5370\u8bb0\u4e2d\u7684\u5370\u8bb0,\u53f3\u952e\u53ef\u6fc0\u6d3b\u663e\u793a\u7684\u5370\u8bb0.
 \u53ef\u901a\u8fc7\u89e3\u7ed1\u4eea\u5f0f\u53d6\u51fa\u96c6\u6301\u5370\u8bb0\u4e2d\u5b58\u50a8\u7684\u5370\u8bb0.");
@@ -768,8 +768,8 @@ game.setLocalization("tc.research_text.SIGILOFAUGMENTETHOLDING", "[BA]\u6700\u59
 mods.thaumcraft.Research.addPrereq("SIGILOFAUGMENTETHOLDING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFAUGMENTETHOLDING", "SIGILOFHOLDING", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFAUGMENTETHOLDING", true);
-mods.thaumcraft.Research.addPage("SIGILOFAUGMENTETHOLDING", "bloodmagic.research_page.SIGILOFAUGMENTETHOLDING");
-game.setLocalization("bloodmagic.research_page.SIGILOFAUGMENTETHOLDING", "\u589e\u5f3a\u96c6\u6301\u5370\u8bb0\u662f\u96c6\u6301\u5370\u8bb0\u7684\u5347\u7ea7\u7248\u672c,\u5b83\u6700\u591a\u53ef\u5b58\u50a89\u4e2a\u5370\u8bb0!
+mods.thaumcraft.Research.addPage("SIGILOFAUGMENTETHOLDING", "tc.research_page.SIGILOFAUGMENTETHOLDING");
+game.setLocalization("tc.research_page.SIGILOFAUGMENTETHOLDING", "\u589e\u5f3a\u96c6\u6301\u5370\u8bb0\u662f\u96c6\u6301\u5370\u8bb0\u7684\u5347\u7ea7\u7248\u672c,\u5b83\u6700\u591a\u53ef\u5b58\u50a89\u4e2a\u5370\u8bb0!
 \u4f7f\u7528\u65f6,\u6bcf\u6b21Shift+\u53f3\u952e\u589e\u5f3a\u96c6\u6301\u5370\u8bb0\u5c06\u4ece\u5feb\u6377\u680f\u4e2d\u4ece\u5de6\u81f3\u53f3\u6d88\u8017\u4e00\u4e2a\u5370\u8bb0.
 \u5f53\u7269\u54c1\u680f\u4e2d\u6ca1\u6709\u5176\u5b83\u5370\u8bb0\u6216\u96c6\u6301\u5370\u8bb0\u5df2\u6ee1\u65f6,shift+\u53f3\u952e\u53ef\u5207\u6362\u96c6\u6301\u5370\u8bb0\u4e2d\u7684\u5370\u8bb0,\u53f3\u952e\u53ef\u6fc0\u6d3b\u663e\u793a\u7684\u5370\u8bb0.
 \u53ef\u901a\u8fc7\u89e3\u7ed1\u4eea\u5f0f\u53d6\u51fa\u589e\u5f3a\u96c6\u6301\u5370\u8bb0\u4e2d\u5b58\u50a8\u7684\u5370\u8bb0.");
@@ -786,8 +786,8 @@ game.setLocalization("tc.research_text.SIGILOFPHANTOMBRIDGE", "[BM]\u7a7a\u4e2d\
 mods.thaumcraft.Research.addPrereq("SIGILOFPHANTOMBRIDGE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFPHANTOMBRIDGE", "VOIDSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFPHANTOMBRIDGE", true);
-mods.thaumcraft.Research.addPage("SIGILOFPHANTOMBRIDGE", "bloodmagic.research_page.SIGILOFPHANTOMBRIDGE");
-game.setLocalization("bloodmagic.research_page.SIGILOFPHANTOMBRIDGE", "\u5f71\u6865\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
+mods.thaumcraft.Research.addPage("SIGILOFPHANTOMBRIDGE", "tc.research_page.SIGILOFPHANTOMBRIDGE");
+game.setLocalization("tc.research_page.SIGILOFPHANTOMBRIDGE", "\u5f71\u6865\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
 \u6fc0\u6d3b\u65f6,\u6b64\u5370\u8bb0\u4f1a\u521b\u5efa\u4e00\u4e2a\u4ee5\u73a9\u5bb6\u4e3a\u4e2d\u5fc3\u76845x5\u5e7d\u7075\u65b9\u5757\u5e73\u53f0.\u5e73\u53f0\u4e4b\u5916\u7684\u5e7d\u7075\u65b9\u5757\u5c06\u57285\u79d2\u540e\u6d88\u5931.
 \u5de6\u952e\u53ef\u7acb\u523b\u6253\u788e\u6b64\u65b9\u5757,\u5e76\u4e14\u7528\u5176\u4ed6\u65b9\u5757\u53f3\u952e\u53ef\u66ff\u6362\u5e7d\u7075\u65b9\u5757.\u8fd9\u4e2a\u7279\u6027\u53ef\u4ee5\u7528\u6765\u5728\u7a7a\u4e2d\u5efa\u7b51.
 Shift+\u53f3\u952e\u80fd\u4f7f\u811a\u4e0b\u7684\u5f71\u6865\u4e00\u683c\u683c\u6d88\u5931\u800c\u4e0b\u843d.
@@ -805,8 +805,8 @@ game.setLocalization("tc.research_text.SIGILOFMAGNETISM", "[BM]\u9b54\u6cd5\u78c
 mods.thaumcraft.Research.addPrereq("SIGILOFMAGNETISM", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFMAGNETISM", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFMAGNETISM", true);
-mods.thaumcraft.Research.addPage("SIGILOFMAGNETISM", "bloodmagic.research_page.SIGILOFMAGNETISM");
-game.setLocalization("bloodmagic.research_page.SIGILOFMAGNETISM", "\u78c1\u5f15\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u53ef\u6d88\u8017LP\u5438\u5f15\u534a\u5f845\u683c\u4e4b\u5185\u7684\u7269\u54c1.
+mods.thaumcraft.Research.addPage("SIGILOFMAGNETISM", "tc.research_page.SIGILOFMAGNETISM");
+game.setLocalization("tc.research_page.SIGILOFMAGNETISM", "\u78c1\u5f15\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u53ef\u6d88\u8017LP\u5438\u5f15\u534a\u5f845\u683c\u4e4b\u5185\u7684\u7269\u54c1.
 \u6fc0\u6d3b\u6b64\u5370\u8bb0\u5c06\u4ece\u7ed1\u5b9a\u8005\u7684\u7075\u9b42\u7f51\u7edc\u4e2d\u6d88\u801775LP,\u6b64\u540e\u6bcf10\u79d2\u6d88\u801775LP\u4ee5\u7ef4\u6301\u6548\u679c.
 \u6b64\u5370\u8bb0\u7684\u6709\u6548\u8303\u56f4\u662f\u4ee5\u73a9\u5bb6\u4e3a\u4e2d\u5fc3,\u534a\u5f845\u683c\u7684\u5706.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFMAGNETISM", <AWWayofTime:imbuedSlate>, 
@@ -822,8 +822,8 @@ game.setLocalization("tc.research_text.SIGILOFTHEBLOODLAMP", "[BM]\u8840\u4e4b\u
 mods.thaumcraft.Research.addPrereq("SIGILOFTHEBLOODLAMP", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFTHEBLOODLAMP", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFTHEBLOODLAMP", true);
-mods.thaumcraft.Research.addPage("SIGILOFTHEBLOODLAMP", "bloodmagic.research_page.SIGILOFTHEBLOODLAMP");
-game.setLocalization("bloodmagic.research_page.SIGILOFTHEBLOODLAMP", "\u8840\u5149\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
+mods.thaumcraft.Research.addPage("SIGILOFTHEBLOODLAMP", "tc.research_page.SIGILOFTHEBLOODLAMP");
+game.setLocalization("tc.research_page.SIGILOFTHEBLOODLAMP", "\u8840\u5149\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
 \u624b\u6301\u6b64\u5370\u8bb0\u53f3\u952e\u4efb\u610f\u65b9\u5757\u53ef\u6d88\u801730LP\u5236\u9020\u4e00\u4e2a\u8840\u4e4b\u5149\u6e90.
 \u8840\u4e4b\u5149\u6e90\u5c04\u51fa\u5149\u8292,\u901a\u5e38\u7528\u4e8e\u7167\u4eae\u73a9\u5bb6\u7684\u57fa\u5730.
 \u8840\u5149\u5370\u8bb0\u8fd8\u53ef\u4f5c\u4e3a\u8fdc\u7a0b\u6b66\u5668\u4f7f\u7528.
@@ -841,8 +841,8 @@ game.setLocalization("tc.research_text.SIGILOFSIGHT", "[BM]\u514d\u8d39\u7684\u8
 mods.thaumcraft.Research.addPrereq("SIGILOFSIGHT", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFSIGHT", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFSIGHT", true);
-mods.thaumcraft.Research.addPage("SIGILOFSIGHT", "bloodmagic.research_page.SIGILOFSIGHT");
-game.setLocalization("bloodmagic.research_page.SIGILOFSIGHT", "\u89c1\u89e3\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
+mods.thaumcraft.Research.addPage("SIGILOFSIGHT", "tc.research_page.SIGILOFSIGHT");
+game.setLocalization("tc.research_page.SIGILOFSIGHT", "\u89c1\u89e3\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
 \u5f53\u5728\u8840\u796d\u575b\u4e0a\u4f7f\u7528\u65f6,\u5b83\u663e\u793a\u7269\u54c1\u8fdb\u5ea6,\u6d88\u8017\u7387,\u5f53\u524dLP,\u4ee5\u53ca\u8f93\u5165\u8f93\u51fa\u69fd.
 \u4f7f\u7528\u6b64\u5370\u8bb0\u6d88\u80170LP,\u4f46\u63d2\u5165\u7ea6\u675f\u88c5\u7532\u65f6\u65e0\u6548");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFSIGHT", <AWWayofTime:divinationSigil>, 
@@ -857,8 +857,8 @@ game.setLocalization("tc.research_text.RITUALDIVINER", "[BM]\u65b0\u7684\u4eea\u
 mods.thaumcraft.Research.addPrereq("RITUALDIVINER", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RITUALDIVINER", "MASTERRITUALSTONE", false);
 mods.thaumcraft.Research.setConcealed("RITUALDIVINER", true);
-mods.thaumcraft.Research.addPage("RITUALDIVINER", "bloodmagic.research_page.RITUALDIVINER.1");
-game.setLocalization("bloodmagic.research_page.RITUALDIVINER.1", "\u4eea\u5f0f\u63a8\u6d4b\u6756\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u7528\u4e8e\u5e2e\u52a9\u6784\u5efa\u4eea\u5f0f.
+mods.thaumcraft.Research.addPage("RITUALDIVINER", "tc.research_page.RITUALDIVINER.1");
+game.setLocalization("tc.research_page.RITUALDIVINER.1", "\u4eea\u5f0f\u63a8\u6d4b\u6756\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u7528\u4e8e\u5e2e\u52a9\u6784\u5efa\u4eea\u5f0f.
 Shift+\u53f3\u952e\u53ef\u5207\u6362\u53ef\u7528\u4eea\u5f0f.tooltip\u5c06\u663e\u793a\u6784\u5efa\u6240\u9700\u4eea\u5f0f\u77f3\u7684\u6570\u91cf\u4ee5\u53ca\u7c7b\u578b.
 \u5bf9\u4e3b\u4eea\u5f0f\u77f3\u53f3\u952e\u53ef\u653e\u7f6e\u5e76\u7ed8\u5236\u4eea\u5f0f\u6240\u9700\u7684\u4eea\u5f0f\u77f3.
 \u653e\u7f6e\u4eea\u5f0f\u77f3\u4f1a\u6d88\u8017LP\u3001\u7269\u54c1\u680f\u4e2d\u7684\u4eea\u5f0f\u77f3\u5e76\u4ea7\u751f\u7eff\u8272\u7c92\u5b50\u6548\u679c.
@@ -870,8 +870,8 @@ mods.thaumcraft.Research.addInfusionPage("RITUALDIVINER", <AWWayofTime:itemRitua
 mods.thaumcraft.Warp.addToResearch("RITUALDIVINER", 3);
 
 // --- Ritual Diviner Tier 2
-mods.thaumcraft.Research.addPage("RITUALDIVINER", "bloodmagic.research_page.RITUALDIVINER.2");
-game.setLocalization("bloodmagic.research_page.RITUALDIVINER.2", "\u5982\u679c\u4eea\u5f0f\u63a8\u6d4b\u6756\u653e\u7f6e\u4eea\u5f0f\u77f3\u5931\u8d25,\u5b83\u4e0d\u4f1a\u53d1\u51fa\u4efb\u4f55\u7c92\u5b50\u6548\u679c.
+mods.thaumcraft.Research.addPage("RITUALDIVINER", "tc.research_page.RITUALDIVINER.2");
+game.setLocalization("tc.research_page.RITUALDIVINER.2", "\u5982\u679c\u4eea\u5f0f\u63a8\u6d4b\u6756\u653e\u7f6e\u4eea\u5f0f\u77f3\u5931\u8d25,\u5b83\u4e0d\u4f1a\u53d1\u51fa\u4efb\u4f55\u7c92\u5b50\u6548\u679c.
 \u6cd5\u5e08\u9700\u8981\u6e05\u9664\u969c\u788d\u7269\u624d\u80fd\u7ee7\u7eed\u653e\u7f6e.
 \u96ea\u3001\u9ad8\u8349\u548c\u706b\u628a\u662f\u5e38\u89c1\u7684\u3001\u4f46\u5f88\u5bb9\u6613\u88ab\u5ffd\u89c6\u7684\u969c\u788d\u7269.
 \u6709\u4e09\u4e2a\u7b49\u7ea7\u7684\u63a8\u6d4b\u6756,\u4e00\u9636\u63a8\u6d4b\u6756\u53ef\u653e\u7f6e\u5404\u79cd\u5143\u7d20\u4eea\u5f0f\u77f3,\u4e8c\u9636\u53ef\u653e\u7f6e\u5e7d\u6697\u4eea\u5f0f\u77f3,\u4e09\u9636\u53ef\u653e\u7f6e\u7834\u6653\u4eea\u5f0f\u77f3.
@@ -895,8 +895,8 @@ game.setLocalization("tc.research_text.RUNEOFTHEORB", "[BM]\u66f4\u591a\u7b26\u6
 mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFTHEORB", true);
-mods.thaumcraft.Research.addPage("RUNEOFTHEORB", "bloodmagic.research_page.RUNEOFTHEORB");
-game.setLocalization("bloodmagic.research_page.RUNEOFTHEORB", "\u5b9d\u73e0\u7b26\u6587\u53ef\u7528\u4e8e\u8840\u4e4b\u796d\u575b\u7684\u5347\u7ea7.
+mods.thaumcraft.Research.addPage("RUNEOFTHEORB", "tc.research_page.RUNEOFTHEORB");
+game.setLocalization("tc.research_page.RUNEOFTHEORB", "\u5b9d\u73e0\u7b26\u6587\u53ef\u7528\u4e8e\u8840\u4e4b\u796d\u575b\u7684\u5347\u7ea7.
 \u6bcf\u4e2a\u5b9d\u73e0\u7b26\u6587\u53ef\u63d0\u5347\u8f6c\u79fb\u8fdb\u5165\u7075\u9b42\u7f51\u7edc\u7684LP\u6570\u91cf(\u539f\u6709\u503c\u76842%).
 \u5bf9\u4e8e\u865a\u5f31\u6c14\u8840\u5b9d\u73e0\u6765\u8bf4\u5c31\u662f\u6bcf\u4e2a\u7b26\u6587\u63d0\u5347100LP,\u4f46\u5bf9\u4e8e\u6cd5\u5e08\u6c14\u8840\u5b9d\u73e0\u6765\u8bf4\u5c31\u662f200000LP\u4e86.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFTHEORB", <BloodArsenal:blood_stone:3>, 
@@ -911,13 +911,13 @@ game.setLocalization("tc.research_text.RUNEOFSUPERIORCAPACITY", "[BM] More Blood
 mods.thaumcraft.Research.addPrereq("RUNEOFSUPERIORCAPACITY", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFSUPERIORCAPACITY", "RUNEOFARGUMENTEDCAPACITY", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFSUPERIORCAPACITY", true);
-mods.thaumcraft.Research.addPage("RUNEOFSUPERIORCAPACITY", "bloodmagic.research_page.RUNEOFSUPERIORCAPACITY.1");
-game.setLocalization("bloodmagic.research_page.RUNEOFSUPERIORCAPACITY.1", "\u8d85\u5bb9\u7b26\u6587\u53ef\u7528\u4e8e\u8840\u4e4b\u796d\u575b\u7684\u5347\u7ea7.
+mods.thaumcraft.Research.addPage("RUNEOFSUPERIORCAPACITY", "tc.research_page.RUNEOFSUPERIORCAPACITY.1");
+game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.1", "\u8d85\u5bb9\u7b26\u6587\u53ef\u7528\u4e8e\u8840\u4e4b\u796d\u575b\u7684\u5347\u7ea7.
 \u6bcf\u4e2a\u8d85\u5bb9\u7b26\u6587\u63d0\u534710%\u796d\u575b\u7684LP\u5bb9\u91cf(\u4e58\u6cd5):\u4e24\u4e2a\u8d85\u5bb9\u7b26\u6587\u63d0\u534721%,\u4e09\u4e2a\u63d0\u534733%,\u4ee5\u6b64\u7c7b\u63a8.
 \u81f3\u4e8e\u4f7f\u7528\u589e\u5bb9\u7b26\u6587\u8fd8\u662f\u8d85\u5bb9\u7b26\u6587,\u5c11\u4e8e15\u4e2a\u7b26\u6587\u65f6,\u7528\u589e\u5bb9\u7b26\u6587\u66f4\u6709\u6548\u7387.
 \u4f46\u8bf7\u6ce8\u610f,\u540c\u65f6\u4f7f\u7528\u589e\u5bb9\u7b26\u6587\u4e0e\u8d85\u5bb9\u7b26\u6587\u65f6,\u8d85\u5bb9\u7b26\u6587\u53ea\u4f1a\u589e\u52a0\u539f\u59cb\u50a8\u5b58\u91cf10000\u768410%,\u800c\u5bf9\u589e\u5bb9\u7b26\u6587\u540e\u6dfb\u52a0\u7684n*2000\u7684\u5b58\u50a8\u91cf\u6ca1\u6709\u6548\u679c.");
-mods.thaumcraft.Research.addPage("RUNEOFSUPERIORCAPACITY", "bloodmagic.research_page.RUNEOFSUPERIORCAPACITY.2");
-game.setLocalization("bloodmagic.research_page.RUNEOFSUPERIORCAPACITY.2", "The capacity of your altar can be calculated with the formula: (2000*A) + (10000)*(1.1)^S
+mods.thaumcraft.Research.addPage("RUNEOFSUPERIORCAPACITY", "tc.research_page.RUNEOFSUPERIORCAPACITY.2");
+game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.2", "The capacity of your altar can be calculated with the formula: (2000*A) + (10000)*(1.1)^S
 Where A is equal to the number of Runes of Augmented Capacity and S is equal to the number of Runes of Superior Capacity are in place.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFSUPERIORCAPACITY", <BloodArsenal:blood_stone:3>, 
 [<irontank:diamondTank>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:3>, <AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:demonicSlate>, <irontank:diamondTank>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:3>, <AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:demonicSlate>], 
@@ -932,8 +932,8 @@ mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "RUNEOFARGUMENTEDCAPACITY", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "RUNEOFDISLOCATION", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFACCELERATION", true);
-mods.thaumcraft.Research.addPage("RUNEOFACCELERATION", "bloodmagic.research_page.RUNEOFACCELERATION");
-game.setLocalization("bloodmagic.research_page.RUNEOFACCELERATION", "\u8f6c\u4f4d\u7b26\u6587\u589e\u52a0\u7684\u662f\u6bcf\u6b21\u4ece\u4e00\u4e2a\u5b58\u50a8\u69fd\u8f6c\u79fb\u5230\u53e6\u4e00\u4e2a\u65f6\u7684LP\u6570\u91cf.(\u5355\u6b21\u8f6c\u79fb\u6570)
+mods.thaumcraft.Research.addPage("RUNEOFACCELERATION", "tc.research_page.RUNEOFACCELERATION");
+game.setLocalization("tc.research_page.RUNEOFACCELERATION", "\u8f6c\u4f4d\u7b26\u6587\u589e\u52a0\u7684\u662f\u6bcf\u6b21\u4ece\u4e00\u4e2a\u5b58\u50a8\u69fd\u8f6c\u79fb\u5230\u53e6\u4e00\u4e2a\u65f6\u7684LP\u6570\u91cf.(\u5355\u6b21\u8f6c\u79fb\u6570)
 \u4fc3\u8fdb\u7b26\u6587\u589e\u52a0\u7684\u662f\u8f6c\u79fb\u52a8\u4f5c\u7684\u9891\u7387.(\u8f6c\u79fb\u9891\u7387)");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFACCELERATION", <BloodArsenal:blood_stone:4>, 
 [<AWWayofTime:AlchemicalWizardrybloodRune:2>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:4>, <gregtech:gt.metaitem.01:32614>, <AWWayofTime:speedRune>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:4>, <gregtech:gt.metaitem.01:32614>], 
@@ -947,8 +947,8 @@ game.setLocalization("tc.research_text.ARCANEPEDESTALANDPLINTH", "[BM]\u53ec\u55
 mods.thaumcraft.Research.addPrereq("ARCANEPEDESTALANDPLINTH", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ARCANEPEDESTALANDPLINTH", "MASTERRITUALSTONE", false);
 mods.thaumcraft.Research.setConcealed("ARCANEPEDESTALANDPLINTH", true);
-mods.thaumcraft.Research.addPage("ARCANEPEDESTALANDPLINTH", "bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.1");
-game.setLocalization("bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.1", "\u5965\u672f\u57fa\u5ea7\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757.
+mods.thaumcraft.Research.addPage("ARCANEPEDESTALANDPLINTH", "tc.research_page.ARCANEPEDESTALANDPLINTH.1");
+game.setLocalization("tc.research_page.ARCANEPEDESTALANDPLINTH.1", "\u5965\u672f\u57fa\u5ea7\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757.
 \u4e0e\u5965\u672f\u57fa\u67f1\u7ed3\u5408\u4f7f\u7528\u65f6,\u5373\u53ef\u6839\u636e\u653e\u7f6e\u5176\u4e0a\u7684\u7269\u54c1\u53ec\u5524\u6076\u9b54\u6216\u662f\u5143\u7d20\u7cbe\u7075.
 \u5965\u672f\u57fa\u5ea7\u4e5f\u53ef\u7528\u4e8e\u5408\u6210\u5965\u672f\u57fa\u67f1.");
 mods.thaumcraft.Arcane.addShaped("ARCANEPEDESTALANDPLINTH", <AWWayofTime:blockPedestal>, "ignis 30, terra 30, ordo 30, perditio 30,", [
@@ -958,22 +958,22 @@ mods.thaumcraft.Arcane.addShaped("ARCANEPEDESTALANDPLINTH", <AWWayofTime:blockPe
 mods.thaumcraft.Research.addArcanePage("ARCANEPEDESTALANDPLINTH", <AWWayofTime:blockPedestal>);
 
 // --- Arcane Plinth
-mods.thaumcraft.Research.addPage("ARCANEPEDESTALANDPLINTH", "bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.2");
-game.setLocalization("bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.2", "\u5965\u672f\u57fa\u67f1\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757.
+mods.thaumcraft.Research.addPage("ARCANEPEDESTALANDPLINTH", "tc.research_page.ARCANEPEDESTALANDPLINTH.2");
+game.setLocalization("tc.research_page.ARCANEPEDESTALANDPLINTH.2", "\u5965\u672f\u57fa\u67f1\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757.
 \u53ef\u4e0e\u5965\u672f\u57fa\u67f1\u7ed3\u5408\u4f7f\u7528\u4ee5\u53ec\u5524\u6076\u9b54\u548c\u5143\u7d20\u7cbe\u7075.
 \u5965\u672f\u57fa\u67f1\u662f\u53ec\u5524\u4eea\u5f0f\u7684\u4e2d\u5fc3,\u5e76\u4e14\u5176\u4e0a\u5fc5\u987b\u653e\u7f6e\u6c14\u8840\u5b9d\u73e0(\u5927\u4e8e\u7b49\u4e8e\u53ec\u5524\u6240\u9700\u7b49\u7ea7)\u4ee5\u5b8c\u6210\u53ec\u5524.");
 mods.thaumcraft.Infusion.addRecipe("ARCANEPEDESTALANDPLINTH", <AWWayofTime:blockPedestal>, 
 [<BloodArsenal:blood_infused_iron_block>, <witchery:ingredient:130>, <AWWayofTime:weakBloodShard>, <BloodArsenal:blood_infused_iron_block>, <AWWayofTime:weakBloodShard>, <witchery:ingredient:130>, <BloodArsenal:blood_infused_iron_block>, <witchery:ingredient:130>, <AWWayofTime:weakBloodShard>, <BloodArsenal:blood_infused_iron_block>, <AWWayofTime:weakBloodShard>, <witchery:ingredient:130>], 
 "metallum 64, ignis 48, terra 32, tenebrae 24, praecantatio 16, alienis 8", <AWWayofTime:blockPlinth>, 10);
 mods.thaumcraft.Research.addInfusionPage("ARCANEPEDESTALANDPLINTH", <AWWayofTime:blockPlinth>);
-mods.thaumcraft.Research.addPage("ARCANEPEDESTALANDPLINTH", "bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.3");
-game.setLocalization("bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.3", "\u53ec\u5524\u4eea\u5f0f\u6709\u4e09\u4e2a\u7b49\u7ea7(\u4e09\u4e2a\u5708),\u6bcf\u63d0\u5347\u4e00\u7ea7\u4fbf\u80fd\u53ec\u5524\u66f4\u5f3a\u5927\u7684\u6076\u9b54.
+mods.thaumcraft.Research.addPage("ARCANEPEDESTALANDPLINTH", "tc.research_page.ARCANEPEDESTALANDPLINTH.3");
+game.setLocalization("tc.research_page.ARCANEPEDESTALANDPLINTH.3", "\u53ec\u5524\u4eea\u5f0f\u6709\u4e09\u4e2a\u7b49\u7ea7(\u4e09\u4e2a\u5708),\u6bcf\u63d0\u5347\u4e00\u7ea7\u4fbf\u80fd\u53ec\u5524\u66f4\u5f3a\u5927\u7684\u6076\u9b54.
 \u53ec\u5524\u6076\u9b54\u9700\u8981\u4f60\u5728\u5965\u672f\u57fa\u67f1\u5468\u56f4\u7684\u57fa\u5ea7\u4e0a\u653e\u7f6e\u4e00\u7cfb\u5217\u7279\u5b9a\u7684\u7269\u54c1.\u7269\u54c1\u53ef\u4ee5\u6309\u4efb\u4f55\u987a\u5e8f\u548c\u4f4d\u7f6e\u653e\u7f6e. 
 \u5c06\u7269\u54c1\u653e\u7f6e\u5728\u57fa\u5ea7\u4e0a\u7684\u65b9\u5f0f\u4e0e\u5c06\u7269\u54c1\u653e\u7f6e\u5728\u8840\u4e4b\u796d\u575b\u4e0a\u7684\u65b9\u5f0f\u4e00\u81f4,\u624b\u6301\u7269\u54c1\u53f3\u952e\u57fa\u5ea7\u5373\u53ef\u5b8c\u6210\u653e\u7f6e.
 \u7a7a\u624b\u53f3\u952e\u53ef\u53d6\u56de\u57fa\u5ea7\u6216\u57fa\u67f1\u4e0a\u653e\u7f6e\u7684\u7269\u54c1.
 \u9664\u4e86\u90a3\u4e00\u7cfb\u5217\u7684\u7279\u5b9a\u7269\u54c1,\u53ec\u5524\u5747\u8fd8\u9700\u5728\u5965\u672f\u57fa\u67f1\u4e0a\u653e\u7f6e\u6c14\u8840\u5b9d\u73e0.");
-mods.thaumcraft.Research.addPage("ARCANEPEDESTALANDPLINTH", "bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.4");
-game.setLocalization("bloodmagic.research_page.ARCANEPEDESTALANDPLINTH.4", "The blood orb can be placed at any time during the summoning process, or simply left atop the Arcane Plinth between summons. If the items were placed correctly lightning will strike each pedestal in turn, consuming the placed items as it strikes. When all items are consumed, the Arcane Plinth will be struck with lightning and the demon will be summoned.");
+mods.thaumcraft.Research.addPage("ARCANEPEDESTALANDPLINTH", "tc.research_page.ARCANEPEDESTALANDPLINTH.4");
+game.setLocalization("tc.research_page.ARCANEPEDESTALANDPLINTH.4", "The blood orb can be placed at any time during the summoning process, or simply left atop the Arcane Plinth between summons. If the items were placed correctly lightning will strike each pedestal in turn, consuming the placed items as it strikes. When all items are consumed, the Arcane Plinth will be struck with lightning and the demon will be summoned.");
 mods.thaumcraft.Warp.addToResearch("ARCANEPEDESTALANDPLINTH", 2);
 
 // --- Alchemic Calcinator
@@ -982,8 +982,8 @@ game.setLocalization("tc.research_name.ALCHEMICCALCINATOR", "\u70bc\u91d1\u7145\
 game.setLocalization("tc.research_text.ALCHEMICCALCINATOR", "[BM]\u917f\u9020\u4e9b\u795e\u5947\u7684\u4e1c\u897f");
 mods.thaumcraft.Research.addPrereq("ALCHEMICCALCINATOR", "ARCANEPEDESTALANDPLINTH", false);
 mods.thaumcraft.Research.setConcealed("ALCHEMICCALCINATOR", true);
-mods.thaumcraft.Research.addPage("ALCHEMICCALCINATOR", "bloodmagic.research_page.ALCHEMICCALCINATOR");
-game.setLocalization("bloodmagic.research_page.ALCHEMICCALCINATOR", "\u70bc\u91d1\u7145\u70e7\u7089\u53ef\u6d88\u80172000LP\u5c06\u4e00\u4e2a\u8bd5\u5242\u8f6c\u6362\u4e3a1000AR(Alchemy-Reagent\u70bc\u91d1\u8bd5\u5242).
+mods.thaumcraft.Research.addPage("ALCHEMICCALCINATOR", "tc.research_page.ALCHEMICCALCINATOR");
+game.setLocalization("tc.research_page.ALCHEMICCALCINATOR", "\u70bc\u91d1\u7145\u70e7\u7089\u53ef\u6d88\u80172000LP\u5c06\u4e00\u4e2a\u8bd5\u5242\u8f6c\u6362\u4e3a1000AR(Alchemy-Reagent\u70bc\u91d1\u8bd5\u5242).
 \u8f6c\u6362\u8fc7\u7a0b\u4e2d,\u4ea7\u751f\u7684AR\u5148\u586b\u5165\u70bc\u91d1\u7145\u70e7\u7089\u5185\u90e8\u7684\u7f13\u5b58\u6c60(2000AR)\u4e2d,\u5e76\u4ece\u7f13\u5b58\u6c60\u7f13\u6162\u586b\u5165\u4e3b\u5b58\u50a8\u6c60(4000AR)\u4e2d.
 \u4e3b\u5b58\u50a8\u6c60\u5c06\u4f1a\u5411\u5355\u4e00\u76ee\u6807\u5bb9\u5668\u8f93\u51fa.\u8fd9\u79cd\u8f93\u51fa\u53ef\u4ee5\u901a\u8fc7\u7ea2\u77f3\u4fe1\u53f7\u7981\u7528.
 \u624b\u6301\u6c14\u8840\u5b9d\u73e0\u6216\u8bd5\u5242\u53f3\u952e\u70bc\u91d1\u7145\u70e7\u7089\u5373\u53ef\u653e\u5165.\u8bf7\u5148\u653e\u5165\u6c14\u8840\u5b9d\u73e0.
@@ -1002,8 +1002,8 @@ game.setLocalization("tc.research_name.ALCHEMICTOOLS", "\u70bc\u91d1\u5de5\u5177
 game.setLocalization("tc.research_text.ALCHEMICTOOLS", "[BM] Let's link it");
 mods.thaumcraft.Research.addPrereq("ALCHEMICTOOLS", "ALCHEMICCALCINATOR", false);
 mods.thaumcraft.Research.setConcealed("ALCHEMICTOOLS", true);
-mods.thaumcraft.Research.addPage("ALCHEMICTOOLS", "bloodmagic.research_page.ALCHEMICTOOLS.1");
-game.setLocalization("bloodmagic.research_page.ALCHEMICTOOLS.1", "\u70bc\u91d1\u901a\u9012\u6756\u662f\u7528\u6765\u8bbe\u7f6e\u5bb9\u5668(\u70bc\u91d1\u7145\u70e7\u7089,\u70bc\u91d1\u4e2d\u7ee7\u5668,\u73bb\u7483\u949f\u7f69\u548c\u4e3b\u4eea\u5f0f\u77f3)\u95f4\u94fe\u63a5\u7684.
+mods.thaumcraft.Research.addPage("ALCHEMICTOOLS", "tc.research_page.ALCHEMICTOOLS.1");
+game.setLocalization("tc.research_page.ALCHEMICTOOLS.1", "\u70bc\u91d1\u901a\u9012\u6756\u662f\u7528\u6765\u8bbe\u7f6e\u5bb9\u5668(\u70bc\u91d1\u7145\u70e7\u7089,\u70bc\u91d1\u4e2d\u7ee7\u5668,\u73bb\u7483\u949f\u7f69\u548c\u4e3b\u4eea\u5f0f\u77f3)\u95f4\u94fe\u63a5\u7684.
 \u521b\u5efa\u65b0\u94fe\u63a5\u65f6,\u9996\u5148\u624b\u6301\u70bc\u91d1\u901a\u9012\u6756\u53f3\u952e\u6765\u6e90\u5bb9\u5668,\u7136\u540e\u518d\u7528\u901a\u9012\u6756\u53f3\u952e\u76ee\u6807\u5bb9\u5668.
 \u901a\u9012\u6756\u53ef\u4ee5\u8bbe\u7f6e\u4e3a\u4ec5\u4e3a\u7279\u5b9a\u8bd5\u5242\u521b\u5efa\u94fe\u63a5.Shift+\u53f3\u952e\u5bb9\u5668\u4ee5\u5faa\u73af\u663e\u793a\u5b58\u50a8\u7684\u4e0d\u540c\u7c7b\u578b\u7684\u8bd5\u5242.
 \u4f60\u53ef\u4ee5\u901a\u8fc7Shift+\u53f3\u952e\u7a7a\u6c14\u6765\u6e05\u9664\u901a\u9012\u6756\u4e2d\u4fdd\u5b58\u7684\u6765\u6e90\u5bb9\u5668\u5750\u6807.
@@ -1015,8 +1015,8 @@ mods.thaumcraft.Arcane.addShaped("ALCHEMICTOOLS", <AWWayofTime:itemAttunedCrysta
 mods.thaumcraft.Research.addArcanePage("ALCHEMICTOOLS", <AWWayofTime:itemAttunedCrystal>);
 
 // --- Alchemical Clearer
-mods.thaumcraft.Research.addPage("ALCHEMICTOOLS", "bloodmagic.research_page.ALCHEMICTOOLS.2");
-game.setLocalization("bloodmagic.research_page.ALCHEMICTOOLS.2", "\u70bc\u91d1\u6e05\u901a\u5668\u662f\u7528\u4e8e\u79fb\u9664\u901a\u9012\u6756\u521b\u9020\u94fe\u63a5\u7684\u5de5\u5177.
+mods.thaumcraft.Research.addPage("ALCHEMICTOOLS", "tc.research_page.ALCHEMICTOOLS.2");
+game.setLocalization("tc.research_page.ALCHEMICTOOLS.2", "\u70bc\u91d1\u6e05\u901a\u5668\u662f\u7528\u4e8e\u79fb\u9664\u901a\u9012\u6756\u521b\u9020\u94fe\u63a5\u7684\u5de5\u5177.
 \u7528\u5176\u53f3\u952e\u4efb\u4f55\u5bb9\u5668,\u5b83\u5c31\u4f1a\u79fb\u9664\u4ece\u8be5\u5bb9\u5668\u5230\u5176\u4ed6\u5bb9\u5668\u7684\u6240\u6709\u4f20\u51fa\u94fe\u63a5.");
 mods.thaumcraft.Arcane.addShaped("ALCHEMICTOOLS", <AWWayofTime:itemDestinationClearer>, "terra 15, aer 15, perditio 15", [
 [<AWWayofTime:bloodMagicBaseItems>, <AWWayofTime:bloodMagicBaseAlchemyItems:3>, <AWWayofTime:bloodMagicBaseItems>],
@@ -1025,8 +1025,8 @@ mods.thaumcraft.Arcane.addShaped("ALCHEMICTOOLS", <AWWayofTime:itemDestinationCl
 mods.thaumcraft.Research.addArcanePage("ALCHEMICTOOLS", <AWWayofTime:itemDestinationClearer>);
 
 // --- Alchemical Segmenter
-mods.thaumcraft.Research.addPage("ALCHEMICTOOLS", "bloodmagic.research_page.ALCHEMICTOOLS.3");
-game.setLocalization("bloodmagic.research_page.ALCHEMICTOOLS.3", "\u70bc\u91d1\u5206\u914d\u6756\u53ef\u7528\u4e8e\u9650\u5236\u67d0\u79cdAR\u6240\u94fe\u63a5\u5b58\u50a8\u6c60\u7684\u6570\u91cf.
+mods.thaumcraft.Research.addPage("ALCHEMICTOOLS", "tc.research_page.ALCHEMICTOOLS.3");
+game.setLocalization("tc.research_page.ALCHEMICTOOLS.3", "\u70bc\u91d1\u5206\u914d\u6756\u53ef\u7528\u4e8e\u9650\u5236\u67d0\u79cdAR\u6240\u94fe\u63a5\u5b58\u50a8\u6c60\u7684\u6570\u91cf.
 Shift+\u53f3\u952e\u5bb9\u5668\u4ee5\u5faa\u73af\u5176\u8bd5\u5242\u7c7b\u578b,\u76f4\u5230\u4f60\u60f3\u9650\u5236\u7684\u8bd5\u5242\u7c7b\u578b.\u7136\u540e\u5de6\u952e\u76ee\u6807\u5bb9\u5668\u76f4\u5230\u4f60\u60f3\u8981\u7684\u6700\u5927\u5b58\u50a8\u6c60\u6570.
 \u716e\u4e2a\u6817\u5b50:\u4f60\u53ef\u4ee5\u9650\u5236\u70bc\u91d1\u4e2d\u7ee7\u5668(\u62e5\u6709\u4e24\u4e2a\u5b58\u50a8\u6c60)\u6700\u591a\u53ea\u5b58\u50a81\u6c60\u5b88\u62a4\u5143\u7d20,1\u6c60\u6548\u80fd\u5143\u7d20\u548c1\u6c60\u795e\u5723\u5143\u7d20.");
 mods.thaumcraft.Arcane.addShaped("ALCHEMICTOOLS", <AWWayofTime:itemTankSegmenter>, "terra 15, aer 15, ignis 15", [
@@ -1041,8 +1041,8 @@ game.setLocalization("tc.research_name.BELLJAR", "\u73bb\u7483\u949f\u7f69");
 game.setLocalization("tc.research_text.BELLJAR", "[BM]\u6076\u9b54\u4e4b\u706f");
 mods.thaumcraft.Research.addPrereq("BELLJAR", "ALCHEMICCALCINATOR", false);
 mods.thaumcraft.Research.setConcealed("BELLJAR", true);
-mods.thaumcraft.Research.addPage("BELLJAR", "bloodmagic.research_page.BELLJAR");
-game.setLocalization("bloodmagic.research_page.BELLJAR", "\u73bb\u7483\u949f\u7f69\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757.
+mods.thaumcraft.Research.addPage("BELLJAR", "tc.research_page.BELLJAR");
+game.setLocalization("tc.research_page.BELLJAR", "\u73bb\u7483\u949f\u7f69\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757.
 \u5b83\u6700\u591a\u53ef\u5b58\u50a816000AR,\u5e76\u53ea\u80fd\u5411\u5355\u4e00\u5bb9\u5668\u8f93\u51fa.
 \u73bb\u7483\u949f\u7f69\u53ef\u8f93\u51fa\u7ea2\u77f3\u4fe1\u53f7,\u5176\u5f3a\u5ea6\u6839\u636e\u5185\u90e8\u50a8\u5b58\u5145\u8db3\u7a0b\u5ea6\u800c\u53d8\u5316.");
 mods.thaumcraft.Arcane.addShaped("BELLJAR", <AWWayofTime:blockCrystalBelljar>, "aer 20, terra 15, ordo 20", [
@@ -1057,8 +1057,8 @@ game.setLocalization("tc.research_name.ALCHEMYRELAY", " \u70bc\u91d1\u4e2d\u7ee7
 game.setLocalization("tc.research_text.ALCHEMYRELAY", "[BM]\u4e0d\u6b62\u4e00\u4e2a\u7145\u70e7\u7089");
 mods.thaumcraft.Research.addPrereq("ALCHEMYRELAY", "ALCHEMICCALCINATOR", false);
 mods.thaumcraft.Research.setConcealed("ALCHEMYRELAY", true);
-mods.thaumcraft.Research.addPage("ALCHEMYRELAY", "bloodmagic.research_page.ALCHEMYRELAY");
-game.setLocalization("bloodmagic.research_page.ALCHEMYRELAY", "\u70bc\u91d1\u4e2d\u7ee7\u5668\u6709\u4e24\u4e2a\u5b58\u50a8\u6c60(2000AR).
+mods.thaumcraft.Research.addPage("ALCHEMYRELAY", "tc.research_page.ALCHEMYRELAY");
+game.setLocalization("tc.research_page.ALCHEMYRELAY", "\u70bc\u91d1\u4e2d\u7ee7\u5668\u6709\u4e24\u4e2a\u5b58\u50a8\u6c60(2000AR).
 \u4e0e\u70bc\u91d1\u7145\u70e7\u7089\u548c\u73bb\u7483\u949f\u7f69\u4e0d\u540c,\u5b83\u652f\u6301\u591a\u4e2a\u4f20\u51fa\u94fe\u63a5.
 \u8fd9\u4f7f\u5f97\u5b83\u5bf9\u4e8e\u5206\u9009\u8bd5\u5242\u7279\u522b\u6709\u7528.
 \u901a\u5165\u7ea2\u77f3\u4fe1\u53f7\u53ef\u4ee5\u505c\u6b62\u4f20\u8f93.");
@@ -1075,8 +1075,8 @@ game.setLocalization("tc.research_text.CRYSTALCLUSTER", "[BM]\u516d\u9636,\u84c4
 mods.thaumcraft.Research.addPrereq("CRYSTALCLUSTER", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("CRYSTALCLUSTER", "RUNEOFACCELERATION", false);
 mods.thaumcraft.Research.setConcealed("CRYSTALCLUSTER", true);
-mods.thaumcraft.Research.addPage("CRYSTALCLUSTER", "bloodmagic.research_page.CRYSTALCLUSTER");
-game.setLocalization("bloodmagic.research_page.CRYSTALCLUSTER", "\u788e\u7247\u96c6\u6676\u7528\u4e8e\u5c06\u8840\u4e4b\u796d\u575b\u63d0\u5347\u81f3\u516d\u9636.
+mods.thaumcraft.Research.addPage("CRYSTALCLUSTER", "tc.research_page.CRYSTALCLUSTER");
+game.setLocalization("tc.research_page.CRYSTALCLUSTER", "\u788e\u7247\u96c6\u6676\u7528\u4e8e\u5c06\u8840\u4e4b\u796d\u575b\u63d0\u5347\u81f3\u516d\u9636.
 \u75315\u4e2a\u7075\u9b42\u788e\u7247\u4ee5\u53ca5\u4e2a\u751f\u547d\u788e\u7247\u5236\u6210");
 mods.thaumcraft.Infusion.addRecipe("CRYSTALCLUSTER", <BloodArsenal:blood_stone:4>, 
 [<AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>], 
@@ -1091,8 +1091,8 @@ game.setLocalization("tc.research_text.ICHORIUMBLOCK", "[BM]\u6700\u540e\u4e00\u
 mods.thaumcraft.Research.addPrereq("ICHORIUMBLOCK", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ICHORIUMBLOCK", "CRYSTALCLUSTER", false);
 mods.thaumcraft.Research.setConcealed("ICHORIUMBLOCK", true);
-mods.thaumcraft.Research.addPage("ICHORIUMBLOCK", "bloodmagic.research_page.ICHORIUMBLOCK");
-game.setLocalization("bloodmagic.research_page.ICHORIUMBLOCK", "\u4f60\u7684\u8840\u4e4b\u796d\u575b\u7684\u7b2c\u516d\u9636\u4e5f\u662f\u6700\u540e\u4e00\u9636\u9700\u898176\u4e2a\u989d\u5916\u7684\u8840\u4e4b\u7b26\u6587,\u4ee5\u53ca\u56db\u4e2a7\u683c\u9ad8\u8840\u8165\u7075\u5b9d\u5757\u5236\u6210\u7684\u7acb\u67f1,\u5e76\u5728\u7acb\u67f1\u9876\u7aef\u653e\u7f6e\u788e\u7247\u96c6\u6676.
+mods.thaumcraft.Research.addPage("ICHORIUMBLOCK", "tc.research_page.ICHORIUMBLOCK");
+game.setLocalization("tc.research_page.ICHORIUMBLOCK", "\u4f60\u7684\u8840\u4e4b\u796d\u575b\u7684\u7b2c\u516d\u9636\u4e5f\u662f\u6700\u540e\u4e00\u9636\u9700\u898176\u4e2a\u989d\u5916\u7684\u8840\u4e4b\u7b26\u6587,\u4ee5\u53ca\u56db\u4e2a7\u683c\u9ad8\u8840\u8165\u7075\u5b9d\u5757\u5236\u6210\u7684\u7acb\u67f1,\u5e76\u5728\u7acb\u67f1\u9876\u7aef\u653e\u7f6e\u788e\u7247\u96c6\u6676.
 \u516d\u9636\u796d\u575b\u4f1a\u89e3\u9501\u66f4\u5f3a\u5927\u7684\u8f6c\u6362\u5408\u6210\u8868,\u4f1a\u8ba9\u4f60\u5145\u5206\u53d1\u6325\u8840\u9b54\u6cd5\u7684\u6f5c\u529b.
 \u4e0e\u4e4b\u524d\u7684\u51e0\u4e2a\u7b49\u9636\u4e00\u6837,\u7b26\u6587\u7684\u7b2c\u516d\u5708\u9700\u8981\u4ece\u524d\u4e00\u5c42\u7b26\u6587\u5708\u5411\u4e0b\u4e00\u683c,\u5411\u5916\u4e24\u683c.
 \u8840\u8165\u7075\u5b9d\u5757\u9700\u8981\u4f7f\u7528\u4e94\u9636\u796d\u575b,\u7531\u7075\u5b9d\u952d\u5757\u6ce8\u8840\u5f97\u5230.");
@@ -1109,16 +1109,16 @@ game.setLocalization("tc.research_text.GLYPHSTONE", "[BM]\u6b27\u7c73\u4f3d....\
 mods.thaumcraft.Research.addPrereq("GLYPHSTONE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("GLYPHSTONE", "SOULARMORFORGE", false);
 mods.thaumcraft.Research.setConcealed("GLYPHSTONE", true);
-mods.thaumcraft.Research.addPage("GLYPHSTONE", "bloodmagic.research_page.GLYPHSTONE.1");
-game.setLocalization("bloodmagic.research_page.GLYPHSTONE.1", "\u73b0\u5728\u662f\u65f6\u5019\u4e3e\u884c\u6b27\u7c73\u4f3d\u4eea\u5f0f\u4e86.
+mods.thaumcraft.Research.addPage("GLYPHSTONE", "tc.research_page.GLYPHSTONE.1");
+game.setLocalization("tc.research_page.GLYPHSTONE.1", "\u73b0\u5728\u662f\u65f6\u5019\u4e3e\u884c\u6b27\u7c73\u4f3d\u4eea\u5f0f\u4e86.
 \u6b27\u7c73\u4f3d\u88c5\u7532\u662f\u4ece\u8840\u9b54\u6cd5\u7684\u666e\u901a\u7ea6\u675f\u88c5\u7532\u5347\u7ea7\u800c\u6765\u7684.
 \u5efa\u9020\u6b27\u7c73\u4f3d\u5bc6\u5ba4\u662f\u6b27\u7c73\u4f3d\u4eea\u5f0f\u6700\u590d\u6742\u4e5f\u662f\u6700\u91cd\u8981\u7684\u90e8\u5206.\u4f60\u7684\u6b27\u7c73\u4f3d\u88c5\u7532\u7684\u6301\u7eed\u65f6\u95f4,\u4fdd\u62a4\u6548\u679c\u51e0\u4e4e\u90fd\u662f\u57fa\u4e8e\u4f60\u7684\u5bc6\u5ba4\u7684.
 \u4eea\u5f0f\u7684\u539f\u7406\u5c31\u662f\u5728\u6fc0\u6d3b\u4eea\u5f0f\u540e,\u4f1a\u91ca\u653e\u5b58\u50a8\u5728\u4e3b\u4eea\u5f0f\u77f3\u4e2d\u7684\u8bd5\u5242(AR)\u6c14\u4f53,\u4ee5\u6b64\u5347\u7ea7\u4f60\u7684\u7ea6\u675f\u88c5\u7532.
 \u4f46\u662f\u8fd9\u79cd\u8bd5\u5242\u6c14\u4f53\u4e0d\u80fd\u5230\u5904\u53d1\u6563\u624d\u80fd\u4e3a\u4f60\u7684\u88c5\u7532\u8d4b\u4e88\u80fd\u529b,\u6240\u4ee5\u5f53\u6fc0\u6d3b\u4eea\u5f0f\u65f6,\u5bc6\u5ba4\u5fc5\u987b\u5b8c\u5168\u5c01\u95ed.
 \u4e00\u65e6\u8bd5\u5242\u6c14\u4f53\u5df2\u7ecf\u8fdb\u5165\u4f60\u7684\u88c5\u7532\u4e2d,\u90a3\u4e48\u4f60\u53ef\u4ee5\u6253\u5f00\u5bc6\u5ba4\u51fa\u6765.
 \u56e0\u4e3a\u662f\u6c14\u4f53,\u6240\u4ee5\u5bc6\u5ba4\u7684\u4f53\u79ef\u4e0d\u91cd\u8981,\u91cd\u8981\u7684\u662f\u63a5\u89e6\u9762\u79ef.\u6bcf\u4e2a\u4e0e\u4e3b\u4eea\u5f0f\u77f3\u4e0a\u65b9\u76f8\u8fde\u7a7a\u6c14\u6709\u63a5\u89e6\u9762\u7684\u5bc6\u5ba4\u65b9\u5757\u63d0\u4f9b1\u70b9\u7a33\u5b9a\u6027.");
-mods.thaumcraft.Research.addPage("GLYPHSTONE", "bloodmagic.research_page.GLYPHSTONE.2");
-game.setLocalization("bloodmagic.research_page.GLYPHSTONE.1", "\u4e3a\u4e86\u4f7f\u4eea\u5f0f\u6210\u529f\u6fc0\u6d3b,\u7a33\u5b9a\u6027\u9700\u8981\u4e3a151\u6216\u66f4\u9ad8.\u7a33\u5b9a\u6027\u8d8a\u9ad8,\u4f60\u7684\u88c5\u7532\u6301\u7eed\u65f6\u95f4\u5c31\u8d8a\u957f.
+mods.thaumcraft.Research.addPage("GLYPHSTONE", "tc.research_page.GLYPHSTONE.2");
+game.setLocalization("tc.research_page.GLYPHSTONE.1", "\u4e3a\u4e86\u4f7f\u4eea\u5f0f\u6210\u529f\u6fc0\u6d3b,\u7a33\u5b9a\u6027\u9700\u8981\u4e3a151\u6216\u66f4\u9ad8.\u7a33\u5b9a\u6027\u8d8a\u9ad8,\u4f60\u7684\u88c5\u7532\u6301\u7eed\u65f6\u95f4\u5c31\u8d8a\u957f.
 \u5982\u679c\u4f60\u4f7f\u7528\u4e86\u56fe\u7b26:\u521a\u786c\u7a33\u5b9a,\u6bcf\u4e2a\u63a5\u89e6\u9762\u5c06\u63d0\u4f9b2\u70b9\u7a33\u5b9a\u6027.\u867d\u7136\u8fd9\u6837\u663e\u7136\u6bd4\u4f7f\u7528\u6ce5\u571f\u6216\u662f\u522b\u7684\u65b9\u5757\u6784\u5efa\u5bc6\u5ba4\u66f4\u8d35,\u4f46\u8fd9\u6837\u57fa\u672c\u4e0a\u4f7f\u5bc6\u5ba4\u7684\u7a33\u5b9a\u6027\u7ffb\u500d\u4e86.
 \u56e0\u6b64,\u6700\u597d\u7528\u8fd9\u4e9b\u56fe\u7b26\u6784\u5efa\u6574\u4e2a\u5bc6\u5ba4\u7684\u5916\u90e8(\u9664\u4e86\u5fc5\u987b\u662f\u4eea\u5f0f\u77f3\u548c\u73bb\u7483\u949f\u7f69\u7684\u5730\u677f).");
 mods.thaumcraft.Arcane.addShaped("GLYPHSTONE", <AWWayofTime:blockStabilityGlyph>, "aer 20, terra 20, aqua 20, ignis 20, ordo 20, perditio 20", [
@@ -1129,14 +1129,14 @@ mods.thaumcraft.Research.addArcanePage("GLYPHSTONE", <AWWayofTime:blockStability
 mods.thaumcraft.Warp.addToResearch("GLYPHSTONE", 3);
 
 // --- Glyph of Adept Enchanter
-mods.thaumcraft.Research.addPage("GLYPHSTONE", "bloodmagic.research_page.GLYPHSTONE.2");
-game.setLocalization("bloodmagic.research_page.GLYPHSTONE.2", "\u4e3a\u4e86\u63d0\u5347\u6b27\u7c73\u4f3d\u72b6\u6001\u7684\u6301\u7eed\u65f6\u95f4,\u5bc6\u5ba4\u7684\u7a33\u5b9a\u6027\u9700\u8981\u63d0\u9ad8.
+mods.thaumcraft.Research.addPage("GLYPHSTONE", "tc.research_page.GLYPHSTONE.2");
+game.setLocalization("tc.research_page.GLYPHSTONE.2", "\u4e3a\u4e86\u63d0\u5347\u6b27\u7c73\u4f3d\u72b6\u6001\u7684\u6301\u7eed\u65f6\u95f4,\u5bc6\u5ba4\u7684\u7a33\u5b9a\u6027\u9700\u8981\u63d0\u9ad8.
 \u4e3a\u4e86\u63d0\u5347\u88c5\u7532\u7684\u9644\u9b54\u5a01\u529b,\u5bc6\u5ba4\u7684\u9644\u9b54\u6027\u4e5f\u8981\u63d0\u9ad8,\u4f60\u9700\u8981\u56fe\u7b26\u4ee5\u63a5\u53d7\u9644\u9b54.
 \u6709\u4e24\u79cd\u9644\u9b54\u56fe\u7b26,\u9b54\u5492\u4e13\u5bb6:\u63d0\u5347\u88c5\u7532\u7684\u9644\u9b54\u4eb2\u548c\u6027\u3001\u795e\u79d8\u6f5c\u80fd:\u63d0\u5347\u5f53\u524d\u9644\u9b54\u7b49\u7ea7.
 \u90a3\u4e3a\u4ec0\u4e48\u4e0d\u5c06\u4f60\u7684\u5bc6\u5ba4\u5168\u90e8\u7528\u8fd9\u4e24\u79cd\u56fe\u7b26\u5efa\u9020\u5462,\u56e0\u4e3a\u6bcf\u4e2a\u9b54\u5492\u4e13\u5bb6\u4f1a\u964d\u4f4e10\u70b9\u7a33\u5b9a\u6027,\u6bcf\u4e2a\u795e\u79d8\u6f5c\u80fd\u4f1a\u964d\u4f4e20\u70b9\u7a33\u5b9a\u6027.
 \u8fd9\u4e5f\u662f\u6211\u5efa\u8bae\u4f60\u6700\u597d\u7528\u5c3d\u53ef\u80fd\u591a\u7684\u521a\u786c\u7a33\u5b9a\u6784\u5efa\u5bc6\u5ba4\u7684\u539f\u56e0.");
-mods.thaumcraft.Research.addPage("GLYPHSTONE", "bloodmagic.research_page.GLYPHSTONE.3");
-game.setLocalization("bloodmagic.research_page.GLYPHSTONE.3", "\u4e3a\u4e86\u4f7f\u4f60\u7684\u88c5\u7532\u83b7\u5f97\u66f4\u9ad8\u7684\u9644\u9b54,\u4f60\u7684\u5bc6\u5ba4\u5c31\u4e0d\u80fd\u4ec5\u4ec5\u662f\u4e00\u4e2a\u706b\u67f4\u76d2,\u4f60\u9700\u8981\u5728\u5ba4\u5185\u6dfb\u52a0\u65b9\u5757.
+mods.thaumcraft.Research.addPage("GLYPHSTONE", "tc.research_page.GLYPHSTONE.3");
+game.setLocalization("tc.research_page.GLYPHSTONE.3", "\u4e3a\u4e86\u4f7f\u4f60\u7684\u88c5\u7532\u83b7\u5f97\u66f4\u9ad8\u7684\u9644\u9b54,\u4f60\u7684\u5bc6\u5ba4\u5c31\u4e0d\u80fd\u4ec5\u4ec5\u662f\u4e00\u4e2a\u706b\u67f4\u76d2,\u4f60\u9700\u8981\u5728\u5ba4\u5185\u6dfb\u52a0\u65b9\u5757.
 \u4f46\u4f60\u4e0d\u80fd\u76f4\u63a5\u5c06\u5bc6\u5ba4\u586b\u6ee1,\u56e0\u4e3a\u53ea\u6709\u4e0e\u5185\u90e8\u7a7a\u6c14\u63a5\u89e6\u7684\u8868\u9762\u624d\u4f5c\u4e3a\u6709\u6548\u8868\u9762\u6570.
 \u53ef\u4ee5\u60f3\u8c61\u8bd5\u5242\u6c14\u4f53\u4ece\u4e3b\u4eea\u5f0f\u77f3\u9038\u6563\u5f00\u6765,\u6240\u6709\u8fde\u63a5\u7740\u7684\u7a7a\u6c14\u65b9\u5757\u90fd\u4f1a\u5145\u6ee1\u8fd9\u79cd\u6c14\u4f53,\u800c\u53ea\u6709\u4e0e\u8fd9\u4e9b\u7a7a\u6c14\u65b9\u5757\u63a5\u89e6\u7684\u5bc6\u5ba4\u65b9\u5757\u624d\u4f1a\u63d0\u4f9b\u7a33\u5b9a\u6027\u4e0e\u9644\u9b54\u6027.
 \u8bf7\u6ce8\u610f,\u4f60\u4e0d\u80fd\u8d85\u51fa\u4eea\u5f0f\u8303\u56f4\u6784\u5efa\u5bc6\u5ba4,\u4e14\u5bc6\u5ba4\u5185\u90e8\u9ad8\u5ea6\u6700\u5927\u4e3a4\u683c,\u5bc6\u5ba4\u4e0a\u65b9\u4e0d\u80fd\u6709\u906e\u6321\u7269.");
@@ -1159,8 +1159,8 @@ game.setLocalization("tc.research_name.KEYOFBINDING", "\u7ea6\u675f\u94a5\u5319"
 game.setLocalization("tc.research_text.KEYOFBINDING", "[BM]\u7ed1\u5b9a\u6240\u6709");
 mods.thaumcraft.Research.addPrereq("KEYOFBINDING", "SACRIFICIALKNIFE", false);
 mods.thaumcraft.Research.setConcealed("KEYOFBINDING", true);
-mods.thaumcraft.Research.addPage("KEYOFBINDING", "bloodmagic.research_page.KEYOFBINDING");
-game.setLocalization("bloodmagic.research_page.KEYOFBINDING", "\u7ea6\u675f\u94a5\u5319\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u7528\u4e8e\u5c06\u672a\u7ed1\u5b9a\u7269\u54c1\u7ed1\u5b9a\u81f3\u94a5\u5319\u6240\u6709\u8005\u7684\u7075\u9b42\u7f51\u7edc.
+mods.thaumcraft.Research.addPage("KEYOFBINDING", "tc.research_page.KEYOFBINDING");
+game.setLocalization("tc.research_page.KEYOFBINDING", "\u7ea6\u675f\u94a5\u5319\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u7528\u4e8e\u5c06\u672a\u7ed1\u5b9a\u7269\u54c1\u7ed1\u5b9a\u81f3\u94a5\u5319\u6240\u6709\u8005\u7684\u7075\u9b42\u7f51\u7edc.
 \u6709\u4e24\u79cd\u7ea6\u675f\u94a5\u5319:\u7b2c\u4e00\u79cd\u662f\u6807\u51c6\u7684\u53ef\u5408\u6210\u94a5\u5319,\u7b2c\u4e8c\u79cd\u53ea\u80fd\u901a\u8fc7\u521b\u9020\u6a21\u5f0f\u83b7\u53d6,\u7528\u4e8e\u9884\u5148\u7ed1\u5b9a\u81f3\u670d\u52a1\u5668\u7075\u9b42\u7f51\u7edc\u5e76\u4f7f\u7528\u5b83.
 \u624b\u6301\u94a5\u5319\u53f3\u952e,\u5b83\u4f1a\u641c\u7d22\u4f7f\u7528\u8005\u7684\u7269\u54c1\u680f,\u5e76\u5c06\u627e\u5230\u7684\u7b2c\u4e00\u4ef6\u672a\u7ed1\u5b9a\u7269\u54c1\u7ed1\u5b9a\u81f3\u4f7f\u7528\u8005\u7684\u7075\u9b42\u7f51\u7edc.");
 mods.thaumcraft.Arcane.addShaped("KEYOFBINDING", <AWWayofTime:itemKeyOfDiablo>, "terra 15, ordo 15, ignis 15", [
@@ -1175,8 +1175,8 @@ game.setLocalization("tc.research_name.ARMORINHIBITOR", "\u88c5\u7532\u6291\u523
 game.setLocalization("tc.research_text.ARMORINHIBITOR", "[BM]\u538b\u6291\u7075\u9b42");
 mods.thaumcraft.Research.addPrereq("ARMORINHIBITOR", "SOULARMORFORGE", false);
 mods.thaumcraft.Research.setConcealed("ARMORINHIBITOR", true);
-mods.thaumcraft.Research.addPage("ARMORINHIBITOR", "bloodmagic.research_page.ARMORINHIBITOR");
-game.setLocalization("bloodmagic.research_page.ARMORINHIBITOR", "\u6fc0\u6d3b\u65f6,\u88c5\u7532\u6291\u5236\u5668\u5c06\u505c\u7528\u6240\u6709\u7ea6\u675f\u88c5\u7532\u4e0a\u7684\u5347\u7ea7.
+mods.thaumcraft.Research.addPage("ARMORINHIBITOR", "tc.research_page.ARMORINHIBITOR");
+game.setLocalization("tc.research_page.ARMORINHIBITOR", "\u6fc0\u6d3b\u65f6,\u88c5\u7532\u6291\u5236\u5668\u5c06\u505c\u7528\u6240\u6709\u7ea6\u675f\u88c5\u7532\u4e0a\u7684\u5347\u7ea7.
 \u6bd4\u5982\u8bf4,\u5982\u679c\u7a7f\u7740\u5e26\u6709\u6025\u901f\u5370\u8bb0\u7684\u7ea6\u675f\u9774\u5b50,\u90a3\u4e48\u6291\u5236\u5668\u5c06\u7981\u7528\u6025\u901f\u6548\u679c.
 \u5982\u679c\u7a7f\u6234\u6709\u78c1\u5f15\u5370\u8bb0\u6216\u5f71\u6865\u5370\u8bb0\u7684\u88c5\u7532,\u6b64\u6291\u5236\u5668\u5c06\u4f1a\u5f88\u6709\u7528.
 \u64cd\u4f5c\u6b64\u6291\u5236\u5668\u65e0\u9700\u4efb\u4f55LP.");
@@ -1193,8 +1193,8 @@ game.setLocalization("tc.research_text.SIGILOFHASTE", "[BM]\u4f60\u5f88\u5feb?")
 mods.thaumcraft.Research.addPrereq("SIGILOFHASTE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFHASTE", "AIRSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFHASTE", true);
-mods.thaumcraft.Research.addPage("SIGILOFHASTE", "bloodmagic.research_page.SIGILOFHASTE");
-game.setLocalization("bloodmagic.research_page.SIGILOFHASTE", "\u6025\u901f\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u53ef\u6d88\u8017LP\u8d4b\u4e88\u6025\u901fII\u6548\u679c.
+mods.thaumcraft.Research.addPage("SIGILOFHASTE", "tc.research_page.SIGILOFHASTE");
+game.setLocalization("tc.research_page.SIGILOFHASTE", "\u6025\u901f\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u53ef\u6d88\u8017LP\u8d4b\u4e88\u6025\u901fII\u6548\u679c.
 \u6fc0\u6d3b\u6025\u901f\u5370\u8bb0\u65f6\u5c06\u4ece\u7ed1\u5b9a\u8005\u7684\u7075\u9b42\u7f51\u7edc\u62bd\u53d6300LP,\u6fc0\u6d3b\u540e\u6bcf10\u79d2\u6d88\u8017300LP\u4ee5\u7ef4\u6301\u6025\u901fII\u6548\u679c.
 \u63d2\u5165\u7ea6\u675f\u88c5\u7532\u65f6\u53ef\u63d0\u4f9b\u6025\u901f\u6548\u679c.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFHASTE", <AWWayofTime:demonicSlate>, 
@@ -1210,8 +1210,8 @@ game.setLocalization("tc.research_text.SIGILOFWHIRLWIND", "[BM]\u8ba9\u98ce\u66b
 mods.thaumcraft.Research.addPrereq("SIGILOFWHIRLWIND", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFWHIRLWIND", "AIRSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFWHIRLWIND", true);
-mods.thaumcraft.Research.addPage("SIGILOFWHIRLWIND", "bloodmagic.research_page.SIGILOFWHIRLWIND");
-game.setLocalization("bloodmagic.research_page.SIGILOFWHIRLWIND", "\u65cb\u98ce\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
+mods.thaumcraft.Research.addPage("SIGILOFWHIRLWIND", "tc.research_page.SIGILOFWHIRLWIND");
+game.setLocalization("tc.research_page.SIGILOFWHIRLWIND", "\u65cb\u98ce\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
 \u6fc0\u6d3b\u65f6,\u5b83\u4f1a\u504f\u8f6c\u5c04\u5411\u73a9\u5bb6\u7684\u5f39\u5c04\u7269\u548c\u7bad.
 \u6bcf\u6b21\u6fc0\u6d3b\u6d88\u8017350LP.
 \u63d2\u5165\u7ea6\u675f\u88c5\u7532\u65f6\u6548\u679c\u76f8\u540c.");
@@ -1228,8 +1228,8 @@ game.setLocalization("tc.research_text.SIGILOFSUPRESSION", "[BM]\u50cf\u4e0a\u5e
 mods.thaumcraft.Research.addPrereq("SIGILOFSUPRESSION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFSUPRESSION", "VOIDSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFSUPRESSION", true);
-mods.thaumcraft.Research.addPage("SIGILOFSUPRESSION", "bloodmagic.research_page.SIGILOFSUPRESSION");
-game.setLocalization("bloodmagic.research_page.SIGILOFSUPRESSION", "\u6291\u6db2\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
+mods.thaumcraft.Research.addPage("SIGILOFSUPRESSION", "tc.research_page.SIGILOFSUPRESSION");
+game.setLocalization("tc.research_page.SIGILOFSUPRESSION", "\u6291\u6db2\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
 \u6fc0\u6d3b\u65f6,\u5b83\u4f1a\u6682\u65f6\u79fb\u9664\u73a9\u5bb6\u534a\u5f845\u683c\u4e4b\u5185\u7684\u6db2\u4f53\u65b9\u5757.
 \u505c\u7528\u6216\u73a9\u5bb6\u79fb\u52a8\u51fa\u8303\u56f4\u540e,\u90a3\u4e9b\u6db2\u4f53\u65b9\u5757\u53c8\u4f1a\u8fd4\u56de\u539f\u5904.
 \u5b83\u5bf9\u6240\u6709\u4f7f\u7528Forge\u6db2\u4f53API\u7684\u6db2\u4f53\u6709\u6548,\u6bd4\u5982\u6c34,\u5ca9\u6d46\u6216\u77f3\u6cb9.
@@ -1249,8 +1249,8 @@ mods.thaumcraft.Research.addPrereq("SIGILOFENDERSEVERANCE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFENDERSEVERANCE", "SIGILOFELEMENTALAFFINITY", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFENDERSEVERANCE", "OCULUS", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFENDERSEVERANCE", true);
-mods.thaumcraft.Research.addPage("SIGILOFENDERSEVERANCE", "bloodmagic.research_page.SIGILOFENDERSEVERANCE");
-game.setLocalization("bloodmagic.research_page.SIGILOFENDERSEVERANCE", "\u7edd\u5f71\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u53ef\u7528\u4e8e\u963b\u6b62\u4f20\u9001.
+mods.thaumcraft.Research.addPage("SIGILOFENDERSEVERANCE", "tc.research_page.SIGILOFENDERSEVERANCE");
+game.setLocalization("tc.research_page.SIGILOFENDERSEVERANCE", "\u7edd\u5f71\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u53ef\u7528\u4e8e\u963b\u6b62\u4f20\u9001.
 \u5176\u8303\u56f4\u662f\u4ee5\u73a9\u5bb6\u4e3a\u4e2d\u5fc3\u8d85\u8fc711x11x11\u683c.
 \u6b64\u5370\u8bb0\u4f7f\u73a9\u5bb6\u53ef\u4ee5\u7528\u8fdc\u7a0b\u6b66\u5668\u8f7b\u677e\u653b\u51fb\u672b\u5f71\u4eba,\u800c\u4e0d\u50cf\u5e73\u65f6\u90a3\u6837\u88ab\u672b\u5f71\u4eba\u95ea\u8fc7\u653b\u51fb\u7136\u540e\u4f20\u9001\u81f3\u80cc\u540e\u7206*\u82b1.
 \u6fc0\u6d3b\u65f6\u6b64\u5370\u8bb0\u6bcf10\u79d2\u6d88\u8017300LP.");
@@ -1267,8 +1267,8 @@ game.setLocalization("tc.research_text.ENDERSIGIL", "[BA]\u628a\u4f60\u7684\u624
 mods.thaumcraft.Research.addPrereq("ENDERSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ENDERSIGIL", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("ENDERSIGIL", true);
-mods.thaumcraft.Research.addPage("ENDERSIGIL", "bloodmagic.research_page.ENDERSIGIL");
-game.setLocalization("bloodmagic.research_page.ENDERSIGIL", "\u672b\u5f71\u5370\u8bb0\u6709\u4e24\u4e2a\u529f\u80fd.
+mods.thaumcraft.Research.addPage("ENDERSIGIL", "tc.research_page.ENDERSIGIL");
+game.setLocalization("tc.research_page.ENDERSIGIL", "\u672b\u5f71\u5370\u8bb0\u6709\u4e24\u4e2a\u529f\u80fd.
 \u53f3\u952e\u65f6\u53ef\u6253\u5f00\u73a9\u5bb6\u7684\u672b\u5f71\u7bb1\u5b50;Shift+\u53f3\u952e\u65f6\u53ef\u5c06\u73a9\u5bb6\u4f20\u9001\u81f3\u5176\u9762\u671d\u7684\u4efb\u610f\u65b9\u5757.");
 mods.thaumcraft.Infusion.addRecipe("ENDERSIGIL", <AWWayofTime:sigilOfEnderSeverance>, 
 [<EnderStorage:enderChest>, <gregtech:gt.metaitem.01:32726>, <gregtech:gt.metaitem.01:17770>, <gregtech:gt.metaitem.01:32724>, <minecraft:ender_eye>, <minecraft:ender_eye>, <gregtech:gt.metaitem.01:32724>, <gregtech:gt.metaitem.01:17770>, <gregtech:gt.metaitem.01:32726>], 
@@ -1283,8 +1283,8 @@ game.setLocalization("tc.research_text.SIGILOFDIVINITY", "[BA]\u529b\u91cf\u4e0e
 mods.thaumcraft.Research.addPrereq("SIGILOFDIVINITY", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFDIVINITY", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFDIVINITY", true);
-mods.thaumcraft.Research.addPage("SIGILOFDIVINITY", "bloodmagic.research_page.SIGILOFDIVINITY");
-game.setLocalization("bloodmagic.research_page.SIGILOFDIVINITY", "\u795e\u7075\u5370\u8bb0\u662f\u7ec8\u6781\u7684\u4fdd\u62a4\u5f62\u5f0f,\u6fc0\u6d3b\u65f6,\u5b83\u5c31\u4f1a\u4e3a\u73a9\u5bb6\u63d0\u4f9b\u4e00\u4e2a\u5438\u6536\u5c4f\u969c.
+mods.thaumcraft.Research.addPage("SIGILOFDIVINITY", "tc.research_page.SIGILOFDIVINITY");
+game.setLocalization("tc.research_page.SIGILOFDIVINITY", "\u795e\u7075\u5370\u8bb0\u662f\u7ec8\u6781\u7684\u4fdd\u62a4\u5f62\u5f0f,\u6fc0\u6d3b\u65f6,\u5b83\u5c31\u4f1a\u4e3a\u73a9\u5bb6\u63d0\u4f9b\u4e00\u4e2a\u5438\u6536\u5c4f\u969c.
 \u867d\u7136\u8fd9\u4e2a\u5c4f\u969c\u53ef\u4ee5\u62b5\u6321\u6076\u9b54\u7684\u653b\u51fb,\u4f46\u9700\u8981\u6d88\u8017\u975e\u5e38\u591a\u7684LP(\u522b\u8bf4\u6211\u6ca1\u6709\u8b66\u544a\u8fc7\u4f60)!");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFDIVINITY", <AWWayofTime:sigilOfElementalAffinity>, 
 [<BloodArsenal:blood_stone:4>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_diamond_block>, <TConstruct:diamondApple>, <BloodArsenal:blood_infused_glowstone>, <BloodArsenal:amorphic_catalyst>, <gregtech:gt.metaitem.01:32726>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone>, <TConstruct:diamondApple>, <BloodArsenal:blood_infused_diamond_block>, <BloodArsenal:amorphic_catalyst>], 
@@ -1299,8 +1299,8 @@ game.setLocalization("tc.research_text.HARVESTGODDESSSIGIL", "[BM]\u79cd\u74dc\u
 mods.thaumcraft.Research.addPrereq("HARVESTGODDESSSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("HARVESTGODDESSSIGIL", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("HARVESTGODDESSSIGIL", true);
-mods.thaumcraft.Research.addPage("HARVESTGODDESSSIGIL", "bloodmagic.research_page.HARVESTGODDESSSIGIL");
-game.setLocalization("bloodmagic.research_page.HARVESTGODDESSSIGIL", "\u4e30\u6536\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,
+mods.thaumcraft.Research.addPage("HARVESTGODDESSSIGIL", "tc.research_page.HARVESTGODDESSSIGIL");
+game.setLocalization("tc.research_page.HARVESTGODDESSSIGIL", "\u4e30\u6536\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,
 \u6b64\u5370\u8bb0\u7684\u6548\u679c\u4e0e\u6ee1\u6708\u6536\u5272\u4eea\u5f0f\u6781\u4e3a\u76f8\u4f3c,\u4f46\u4e3a\u4e86\u4fbf\u643a\u6027\u727a\u7272\u4e86\u8303\u56f4\u548c\u81ea\u52a8\u5316.
 \u53ef\u7528\u4e8e\u6536\u83b7\u5e76\u91cd\u65b0\u79cd\u690d\u6301\u6709\u8005\u534a\u5f843\u683c\u4ee5\u5185\u7684\u6210\u719f\u4f5c\u7269,\u4f46\u4e0d\u4f1a\u62fe\u8d77\u6389\u843d\u7684\u4f5c\u7269\u6216\u79cd\u5b50.
 \u6b64\u5370\u8bb0\u6fc0\u6d3b\u65f6\u6bcf10\u79d2\u6d88\u8017600LP.
@@ -1318,8 +1318,8 @@ game.setLocalization("tc.research_text.SIGILOFCOMPRESSION", "[BM]\u4f60\u60f3\u6
 mods.thaumcraft.Research.addPrereq("SIGILOFCOMPRESSION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFCOMPRESSION", "SIGILOFMAGNETISM", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFCOMPRESSION", true);
-mods.thaumcraft.Research.addPage("SIGILOFCOMPRESSION", "bloodmagic.research_page.SIGILOFCOMPRESSION");
-game.setLocalization("bloodmagic.research_page.SIGILOFCOMPRESSION", "\u538b\u7f29\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
+mods.thaumcraft.Research.addPage("SIGILOFCOMPRESSION", "tc.research_page.SIGILOFCOMPRESSION");
+game.setLocalization("tc.research_page.SIGILOFCOMPRESSION", "\u538b\u7f29\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
 \u53ef\u7528\u4e8e\u5c06\u4efb\u4f55\u53ef\u88ab\u538b\u7f29\u7684\u62fe\u53d6\u7269\u54c1\u538b\u7f29\u6210\u65b9\u5757\u5f62\u5f0f.
 \u9057\u61be\u7684\u662f\u5bf9GT\u7684\u952d\u65e0\u6548.
 \u6fc0\u6d3b\u6b64\u5370\u8bb0\u6bcf10\u79d2\u6d88\u8017250LP.");
@@ -1337,8 +1337,8 @@ mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAI", "CRYSTALCLUSTER", false);
 mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAI", "ICHOR_SWORD_GEM", false);
 mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAI", "PRIMALCRUSHER", false);
 mods.thaumcraft.Research.setConcealed("ENERGYBAZOOKAI", true);
-mods.thaumcraft.Research.addPage("ENERGYBAZOOKAI", "bloodmagic.research_page.ENERGYBAZOOKAI");
-game.setLocalization("bloodmagic.research_page.ENERGYBAZOOKAI", "\u80fd\u91cf\u706b\u7bad\u7b52\u662f\u80fd\u6e90\u7206\u88c2\u67aa\u7684\u5347\u7ea7\u7248.
+mods.thaumcraft.Research.addPage("ENERGYBAZOOKAI", "tc.research_page.ENERGYBAZOOKAI");
+game.setLocalization("tc.research_page.ENERGYBAZOOKAI", "\u80fd\u91cf\u706b\u7bad\u7b52\u662f\u80fd\u6e90\u7206\u88c2\u67aa\u7684\u5347\u7ea7\u7248.
 \u8fd9\u79cd\u6b66\u5668\u6d88\u80172000LP\u53d1\u5c04\u4e00\u679a\u4e8c\u9636\u629b\u5c04\u7269.
 \u521d\u59cb\u629b\u5c04\u7269\u5728\u51fb\u4e2d\u76ee\u6807\u662f\u4f1a\u7206\u70b8\u621020\u4e2a\u6b21\u7ea7\u629b\u5c04\u7269,\u4f24\u5bb3200.
 \u6b21\u7ea7\u629b\u5c04\u7269\u5c06\u4f1a\u53cd\u5f39\u5e76\u7206\u70b8,\u4f24\u5bb3250.");
@@ -1356,8 +1356,8 @@ game.setLocalization("tc.research_text.ENERGYBAZOOKAII", "[BM] Boooom II");
 mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAII", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAII", "ENERGYBAZOOKAI", false);
 mods.thaumcraft.Research.setConcealed("ENERGYBAZOOKAII", true);
-mods.thaumcraft.Research.addPage("ENERGYBAZOOKAII", "bloodmagic.research_page.ENERGYBAZOOKAII");
-game.setLocalization("bloodmagic.research_page.ENERGYBAZOOKAII", "\u80fd\u91cf\u706b\u7bad\u7b52\u662f\u80fd\u6e90\u7206\u88c2\u67aa\u7684\u5347\u7ea7\u7248.
+mods.thaumcraft.Research.addPage("ENERGYBAZOOKAII", "tc.research_page.ENERGYBAZOOKAII");
+game.setLocalization("tc.research_page.ENERGYBAZOOKAII", "\u80fd\u91cf\u706b\u7bad\u7b52\u662f\u80fd\u6e90\u7206\u88c2\u67aa\u7684\u5347\u7ea7\u7248.
 \u8fd9\u79cd\u6b66\u5668\u6d88\u801720000LP\u53d1\u5c04\u4e00\u679a\u4e8c\u9636\u629b\u5c04\u7269.
 \u521d\u59cb\u629b\u5c04\u7269\u5728\u51fb\u4e2d\u76ee\u6807\u662f\u4f1a\u7206\u70b8\u621020\u4e2a\u6b21\u7ea7\u629b\u5c04\u7269,\u4f24\u5bb3500.
 \u6b21\u7ea7\u629b\u5c04\u7269\u5c06\u4f1a\u53cd\u5f39\u5e76\u7206\u70b8,\u4f24\u5bb3750.");
@@ -1374,8 +1374,8 @@ game.setLocalization("tc.research_text.ENERGYBAZOOKAIII", "[BM] Boooom III");
 mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAIII", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ENERGYBAZOOKAIII", "ENERGYBAZOOKAII", false);
 mods.thaumcraft.Research.setConcealed("ENERGYBAZOOKAIII", true);
-mods.thaumcraft.Research.addPage("ENERGYBAZOOKAIII", "bloodmagic.research_page.ENERGYBAZOOKAIII");
-game.setLocalization("bloodmagic.research_page.ENERGYBAZOOKAIII", "\u80fd\u91cf\u706b\u7bad\u7b52\u662f\u80fd\u6e90\u7206\u88c2\u67aa\u7684\u5347\u7ea7\u7248.
+mods.thaumcraft.Research.addPage("ENERGYBAZOOKAIII", "tc.research_page.ENERGYBAZOOKAIII");
+game.setLocalization("tc.research_page.ENERGYBAZOOKAIII", "\u80fd\u91cf\u706b\u7bad\u7b52\u662f\u80fd\u6e90\u7206\u88c2\u67aa\u7684\u5347\u7ea7\u7248.
 \u8fd9\u79cd\u6b66\u5668\u6d88\u8017200000LP\u53d1\u5c04\u4e00\u679a\u4e8c\u9636\u629b\u5c04\u7269.
 \u521d\u59cb\u629b\u5c04\u7269\u5728\u51fb\u4e2d\u76ee\u6807\u662f\u4f1a\u7206\u70b8\u621020\u4e2a\u6b21\u7ea7\u629b\u5c04\u7269,\u4f24\u5bb31000.
 \u6b21\u7ea7\u629b\u5c04\u7269\u5c06\u4f1a\u53cd\u5f39\u5e76\u7206\u70b8,\u4f24\u5bb31500.");
@@ -1420,7 +1420,6 @@ mods.thaumcraft.Research.addPrereq("RODBLOODWOODSTAFF", "ROD_blood_staff", false
 mods.thaumcraft.Research.addPrereq("RODBLOODWOODSTAFF", "ROD_blood_wood", false);
 mods.thaumcraft.Research.setConcealed("RODBLOODWOODSTAFF", true);
 mods.thaumcraft.Research.setSpikey("RODBLOODWOODSTAFF", true);
-mods.thaumcraft.Research.addPage("RODBLOODWOODSTAFF", "tc.research_page.RODBLOODWOODSTAFF");
 mods.thaumcraft.Research.addPage("RODBLOODWOODSTAFF", "blood_arsenal.research_page.ROD_blood_wood_staff.1");
 mods.thaumcraft.Infusion.addRecipe("RODBLOODWOODSTAFF", <ForbiddenMagic:WandCores:9>,
 [<BloodArsenal:wand_cores>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:wand_cores>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>, <BloodArsenal:blood_infused_wood>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone_dust>],

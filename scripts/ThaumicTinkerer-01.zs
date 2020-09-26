@@ -377,7 +377,7 @@ game.setLocalization("tc.research_text.FIREPERDITIO", "[TT]\u5927\u626b\u8361\u6
 mods.thaumcraft.Research.addPage("FIREPERDITIO", "tt.research.page.FIREPERDITIO");
 game.setLocalization("tt.research.page.FIREPERDITIO", "\u67d0\u79cd\u5b9b\u5982\u89e3\u836f\u7684\u706b\u7130.\u4f60\u53ef\u4ee5\u91ca\u653e\u8fd9\u4e2a\u7279\u522b\u8bbe\u8ba1\u7684\u706b\u7130\u5bf9\u4ed8\u5931\u63a7\u7684\u5143\u7d20\u706b\u7130.<BR><BR>\u5b83\u80fd\u591f\u795b\u9664\u5143\u7d20\u706b\u7130\u4e2d\u7684\u9b54\u529b\u5c06\u5b83\u4eec\u8f6c\u53d8\u4e3a\u666e\u901a\u706b\u7130.");
 mods.thaumcraft.Infusion.addRecipe("FIREPERDITIO", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "perditio"}]}),
-[<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal>, <minecraft:redstone>, <Thaumcraft:blockCrystal>],
+[<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:5>, <minecraft:redstone>, <Thaumcraft:blockCrystal:5>],
 "perditio 10, lux 10, aer 10, praecantatio 10", <ThaumicTinkerer:fireChaos>, 16);
 mods.thaumcraft.Research.addInfusionPage("FIREPERDITIO", <ThaumicTinkerer:fireChaos>);
 mods.thaumcraft.Warp.addToResearch("FIREPERDITIO", 10);
