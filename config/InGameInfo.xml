@@ -55,6 +55,13 @@
                 <str>$7(黑夜)</str>
             </if>
         </line>
+	<line>
+            <icon>
+                <str>minecraft:daylight_detector</str>
+            </icon>
+            <str> $f现实时间： $r</str>
+            <str>$6{rltime24} $r</str>
+        </line>
         <line>
             <icon>
                 <str>HardcoreEnderExpansion:temple_end_portal</str>
