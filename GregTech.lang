@@ -96,7 +96,7 @@ languagefile {
     S:"Book.Punch Card Manual V0.0.Page10"=如果你需要内置循环，每个循环你只需要一个穿孔卡片，这些穿孔卡片能够在被执行完毕后立刻重新开始，当然，它们会根据你放入了多少个穿孔卡片来逐步完成整个程序。
     S:"Book.Punch Card Manual V0.0.Page11"=一个穿孔卡片处理器能够最多运行四个循环，每次能够并行计算七个穿孔卡片
     S:"Book.Punch Card Manual V0.0.Page12"=为什么穿孔卡片要墨水制作？因为空的穿孔卡片上面总得画些线啊，而已经穿孔的卡片会在自身上印出能够使人类看懂的内容。
-
+    
     # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 16]
     I:"Book.Thermal Boiler Manual.APageNum"=9
     S:"Book.Thermal Boiler Manual.Name"=地热锅炉手册
@@ -5172,7 +5172,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_15310_Index_1=用户控制的计算力路由
     S:TileEntity_DESCRIPTION_15310_Index_2=§b§l§b§l服务质量是必须的
     S:TileEntity_DESCRIPTION_15311_Index_0=§9§9Tec§1Tech§9：万物基石
-    S:TileEntity_DESCRIPTION_15311_Index_1=11111101 01000000 10110001 11010101
+    S:TileEntity_DESCRIPTION_15311_Index_1=10101111 01000010 01000011 00110110
     S:TileEntity_DESCRIPTION_15311_Index_2=§b§l§b§l你需要它来处理上面的这串数字
     S:TileEntity_DESCRIPTION_15312_Index_0=§9§9Bass§1Tech§9: Θ转移
     S:TileEntity_DESCRIPTION_15312_Index_1=高频烤炉
@@ -22598,28 +22598,6 @@ languagefile {
     S:gt.blockstones.7.name=平滑大理石
     S:gt.blockstones.8.name=玄武岩
     S:gt.blockstones.9.name=玄武岩圆石
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1109.name=空气胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1109.tooltip=N₄₀O₁₁Ar(CO₂)₂₁He₉(CH₄)₃D
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1121.name=超级冷却液胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1121.tooltip=
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1122.name=粗制拉多X胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1122.tooltip=
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1123.name=超轻拉多X胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1123.tooltip=
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1124.name=轻拉多X胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1124.tooltip=
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1125.name=重拉多X胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1125.tooltip=
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1126.name=超重拉多X胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1126.tooltip=
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1127.name=异氙胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1127.tooltip=
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1128.name=钝化异氙胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1128.tooltip=
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1129.name=裂化拉多X胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1129.tooltip=
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1130.name=拉多X气胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.1130.tooltip=
     S:gt.bwMetaGeneratedGTEnhancementcapsule.147.name=建筑泡沫胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.147.tooltip=
     S:gt.bwMetaGeneratedGTEnhancementcapsule.15.name=氯胶囊
@@ -22628,8 +22606,6 @@ languagefile {
     S:gt.bwMetaGeneratedGTEnhancementcapsule.172.tooltip=
     S:gt.bwMetaGeneratedGTEnhancementcapsule.19.name=氘胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.19.tooltip=D
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.209.name=岩浆胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.209.tooltip=
     S:gt.bwMetaGeneratedGTEnhancementcapsule.24.name=氟胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.24.tooltip=F
     S:gt.bwMetaGeneratedGTEnhancementcapsule.252.name=UU-A胶囊
@@ -22642,8 +22618,6 @@ languagefile {
     S:gt.bwMetaGeneratedGTEnhancementcapsule.276.tooltip=
     S:gt.bwMetaGeneratedGTEnhancementcapsule.284.name=杂酚油胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.284.tooltip=
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.285.name=乙醇胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.285.tooltip=C₂H₆O
     S:gt.bwMetaGeneratedGTEnhancementcapsule.286.name=鱼油胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.286.tooltip=
     S:gt.bwMetaGeneratedGTEnhancementcapsule.287.name=发酵生物质胶囊
@@ -22656,8 +22630,6 @@ languagefile {
     S:gt.bwMetaGeneratedGTEnhancementcapsule.29.tooltip=H
     S:gt.bwMetaGeneratedGTEnhancementcapsule.291.name=热煎炸油胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.291.tooltip=
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.292.name=蜂蜜胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.292.tooltip=
     S:gt.bwMetaGeneratedGTEnhancementcapsule.294.name=润滑油胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.294.tooltip=
     S:gt.bwMetaGeneratedGTEnhancementcapsule.295.name=麦高芬239胶囊
@@ -22668,8 +22640,6 @@ languagefile {
     S:gt.bwMetaGeneratedGTEnhancementcapsule.30.tooltip=He
     S:gt.bwMetaGeneratedGTEnhancementcapsule.300.name=石油胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.300.tooltip=
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.306.name=种子油胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.306.tooltip=
     S:gt.bwMetaGeneratedGTEnhancementcapsule.31.name=氦-3胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.31.tooltip=He-3
     S:gt.bwMetaGeneratedGTEnhancementcapsule.313.name=醋胶囊
@@ -22694,14 +22664,10 @@ languagefile {
     S:gt.bwMetaGeneratedGTEnhancementcapsule.329.tooltip=N
     S:gt.bwMetaGeneratedGTEnhancementcapsule.330.name=液氧胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.330.tooltip=O
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.351.name=水胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.351.tooltip=H₂O
     S:gt.bwMetaGeneratedGTEnhancementcapsule.365.name=硝化甘油胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.365.tooltip=C₃H₅N₃O₉
     S:gt.bwMetaGeneratedGTEnhancementcapsule.368.name=圣水胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.368.tooltip=H₂O
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.369.name=冰胶囊
-    S:gt.bwMetaGeneratedGTEnhancementcapsule.369.tooltip=H₂O
     S:gt.bwMetaGeneratedGTEnhancementcapsule.373.name=四氯化钛胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.373.tooltip=TiCl₄
     S:gt.bwMetaGeneratedGTEnhancementcapsule.386.name=二氧化氮胶囊
