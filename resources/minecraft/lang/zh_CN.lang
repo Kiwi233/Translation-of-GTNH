@@ -2502,9 +2502,7 @@ gtnh.quest624.desc=装罐机主要用来装填任何食物到锡罐中.但也可
 
 # Quest.625 - §3§lPacking your tanks chests and barrels
 gtnh.quest625.name=§3§l打包你的箱子
-#B gtnh.quest625.desc=Packing your chests and barrels without spilling all the things (buildcraft(tm))? %nNo problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. Not portable buildcraft and iron tanks can moved so too without loosing fluids.%n%n§4PS Later on you can fly or make a traveller's belt to get around the debuff.
-#A gtnh.quest625.desc=Packing your chests and barrels without spilling all the things (buildcraft(tm))? %nNo problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. Non-portable buildcraft and iron tanks can be moved without losing fluids too.%n%n§4PS: Later on you can fly or make a traveller's belt to get around the debuff.
-#C gtnh.quest625.desc=打包箱子而不使物品散落满地(BC)?  没问题!做台手推车你就可以带着装满的箱子、桶子或储存抽屉到任何地方去.但注意,你会得到缓慢负面效果,希望你不是要去太远的地方.即便是非便携式的BC储罐和更多储罐,你也可以通过手推车移动它们(不损失液体).  §4PS:以后你可以通过飞行或穿戴旅行者腰带来绕过缓慢这个debuff.
+gtnh.quest625.desc=打包箱子而不使物品散落满地(BC)?  没问题!做台手推车你就可以带着装满的箱子、桶子或储存抽屉到任何地方去.但注意,你会得到缓慢负面效果,希望你不是要去太远的地方.即便是非便携式的BC储罐和更多储罐,你也可以通过手推车移动它们(不损失液体).%n%n§4PS:以后你可以通过飞行或穿戴旅行者腰带来绕过缓慢这个debuff.
 
 # Quest.626 - §5§lPortable mob spawners..? Cool!
 gtnh.quest626.name=§5§l可携式刷怪笼...？酷！
@@ -3964,9 +3962,7 @@ gtnh.quest989.desc=脉冲合金是将充能合金粉末、末影之眼粉末和�
 
 # Quest.990 - §9§lEnergetic Alloy
 gtnh.quest990.name=§9§l充能合金
-#B gtnh.quest990.desc=Energetic alloy is a new alloy from EnderIO made out of gold, conductive iron and black steel dust. Double-layer capacitors need it and it can be made in the  electric blast furnace with tier 2 coils (2700K).
-#A gtnh.quest990.desc=Energetic alloy is a new alloy from EnderIO made out of gold, conductive iron and black steel dust. Double-layer capacitors need it and it can be made in the EBF with tier 2 coils (2700K).
-#C gtnh.quest990.desc=充能合金是将导电铁、黑钢和金搅拌而成的一种新型合金.在生产双层电容的时候需要用到它. 在得到充能合金粉末后需要将它放入2700K炉温(达到这个温度需要用到贝尔塔合金线圈)的工业高炉中熔炼成充能合金锭.
+gtnh.quest990.desc=充能合金是将导电铁、黑钢和金搅拌而成的一种新型合金.在生产双层电容的时候需要用到它. 在得到充能合金粉末后需要将它放入2700K炉温(达到这个温度需要用到坎塔尔合金线圈)的工业高炉中熔炼成充能合金锭.
 
 # Quest.991 - Dark Steel Armor basic upgrades
 gtnh.quest991.name=玄钢护甲基础升级
@@ -4058,9 +4054,7 @@ gtnh.quest1012.desc=想要得到钛你首先需要得到一些金红石. 通过�
 
 # Quest.1013 - §6§lSMD Circuit components
 gtnh.quest1013.name=§6§l贴片电路元件
-#B gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and resistors until you have a steady supply with an HV macerator, bees, or bauxite ore. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.%n
-#A gtnh.quest1013.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than basic capacitors, transitors, diodes and resistors. You need an Advanced Assembler and some molten polyethylene.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and transistors until you have a steady supply with an HV macerator, bees, or bauxite ore. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.%n
-#C gtnh.quest1013.desc=SMD(Surface-mount devices意为:表面贴装机件)是一种更先进的电子零件. 在生产高级电路板的时候你需要用到它们.并且它们要比基础的电容、晶体管、二极管、电阻便宜. 要生产这些零件,你首先需要一个高级的组装机和一些熔融聚乙烯.%n%n建议你检查下自己还有多少镓存货.现在使用贴片二极管和贴片电阻并不划算,除非你有一台高压粉碎机、蜜蜂或是铝土矿. 使用IC相应杂交产物可以让你的锌、闪锌和铝土拥有4倍产出.
+gtnh.quest1013.desc=SMD(Surface-mount devices意为:表面贴装机件)是一种更先进的电子零件. 在生产高级电路板的时候你需要用到它们.并且它们要比基础的电容、晶体管、二极管、电阻便宜. 要生产这些零件,你首先需要一个高级的组装机和一些熔融聚乙烯.%n%n建议你检查下自己还有多少镓存货.现在使用贴片二极管和贴片晶体管并不划算,除非你有一台高压粉碎机、蜜蜂或是铝土矿. 使用IC相应杂交产物可以让你的锌、闪锌和铝土拥有4倍产出.
 
 # Quest.1014 - §9§lWorkstation Extreme Circuit
 gtnh.quest1014.name=§9§l工作站电路板
@@ -4952,9 +4946,7 @@ gtnh.quest1235.desc=微型处理器是制造LV电路最昂贵的方法.他需要
 
 # Quest.1236 - §9§lCutting Machine HV
 gtnh.quest1236.name=§9§l进阶板材切割机II
-#B gtnh.quest1236.desc=Nor, nand and other high tier chips require an HV cutting machine. This machine is also needed for cutting glowstone doped wafers.
-#A gtnh.quest1236.desc=NOR, NAND and other high tier chips require an HV cutting machine.
-#C gtnh.quest1236.desc=生产NOR、NAND和其他的高端芯片都需要用到HV级别的切割机.你还需要这台机器切割萤石掺杂的单晶硅.
+gtnh.quest1236.desc=生产NOR、NAND和其他的高端芯片都需要用到HV级别的切割机.你还需要这台机器切割萤石掺杂的单晶硅.
 
 # Quest.1237 - §a§9§lGlowstone Doped Monocrystalline Silicon
 gtnh.quest1237.name=§a§9§l萤石掺杂的单晶硅
