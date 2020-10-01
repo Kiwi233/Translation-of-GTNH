@@ -723,7 +723,7 @@
                 <num>0</num>
             </icon>
             <str> 区块坐标： X:$6 {chunkx} $fZ:$6 {chunkz}$f Off: $3$6 {chunkoffsetx} $f:$6 {chunkoffsetz} $f</str>
-            <str> Z: $6{yfeeti}$f 面向 $6</str>
+            <str> Y: $6{yfeeti}$f 面向 $6</str>
             <op>
                 <str>eq</str>
                 <var>finedirection</var>
@@ -1138,4 +1138,4 @@
         </line>
     </lines>
 </config>
-`
+
