@@ -346,8 +346,8 @@ languagefile {
     S:Item_DESCRIPTION_Index_016=量: %s L
     S:Item_DESCRIPTION_Index_017=温度: %s 开
     S:Item_DESCRIPTION_Index_018=状态: %s
-    S:Item_DESCRIPTION_Index_500=涡轮效率 (松): %s
-    S:Item_DESCRIPTION_Index_501=最佳蒸汽流量 (松): %s L/t
+    S:Item_DESCRIPTION_Index_500=涡轮效率(松): %s
+    S:Item_DESCRIPTION_Index_501=最佳蒸汽流量(松): %s L/t
     S:MU-metaitem.01.32003.name=电动泵(MAX)
     S:MU-metaitem.01.32003.tooltip=
     S:MU-metaitem.01.32007.name=电动马达(MAX)
@@ -7146,8 +7146,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_31040_Index_1=容量: 64000L
     S:TileEntity_DESCRIPTION_31040_Index_2=接收流体: §e蒸汽§r
     S:TileEntity_DESCRIPTION_31041_Index_10=大小(宽x高x长)：3x3x3(中空)，控制器方块(正面正中)
-    S:TileEntity_DESCRIPTION_31041_Index_11=1x输入总线 (任意机械方块)
-    S:TileEntity_DESCRIPTION_31041_Index_12=1x输出总线(任意机械方块)
+    S:TileEntity_DESCRIPTION_31041_Index_11=1x输入总线(蒸汽)(任意机械方块)
+    S:TileEntity_DESCRIPTION_31041_Index_12=1x输出总线(蒸汽)(任意机械方块)
     S:TileEntity_DESCRIPTION_31041_Index_13=1x蒸汽仓(任意机械方块)
     S:TileEntity_DESCRIPTION_31041_Index_14=剩余方块为镀铜砖块(至少14个!)
     S:TileEntity_DESCRIPTION_31041_Index_15=机器类型: §e研磨机§r
@@ -8449,7 +8449,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_790_Index_19=用螺丝刀禁用动画
     S:TileEntity_DESCRIPTION_790_Index_20=只需要使用配方要求电压的90%
     S:TileEntity_DESCRIPTION_790_Index_21=每提升一个电压等级，每次运行可以多处理6个物品
-    S:TileEntity_DESCRIPTION_790_Index_22=大小(宽x高x长): 3x3x3 (中空)
+    S:TileEntity_DESCRIPTION_790_Index_22=大小(宽x高x长): 3x3x3(中空)
     S:TileEntity_DESCRIPTION_790_Index_23=离心机机械方块(至少10)
     S:TileEntity_DESCRIPTION_790_Index_24=控制器方块(正面正中)
     S:TileEntity_DESCRIPTION_790_Index_25=1x输入仓
@@ -8466,7 +8466,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_791_Index_20=每提升一个电压等级，处理速度提高4%
     S:TileEntity_DESCRIPTION_791_Index_21=若使用隔热焦炉机械方块则一次处理12次合成
     S:TileEntity_DESCRIPTION_791_Index_22=若使用绝热焦炉机械方块则一次处理24次合成
-    S:TileEntity_DESCRIPTION_791_Index_23=大小(宽x高x长): 3x3x3 (中空)
+    S:TileEntity_DESCRIPTION_791_Index_23=大小(宽x高x长): 3x3x3(中空)
     S:TileEntity_DESCRIPTION_791_Index_24=剩余方块为焦炉机械方块(至少8个!)
     S:TileEntity_DESCRIPTION_791_Index_25=控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_791_Index_26=8x隔热/绝热焦炉机械方块(中间层，中空)
@@ -8485,7 +8485,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_792_Index_19=每提升一个电压等级，每次运行可以多处理4个物品
     S:TileEntity_DESCRIPTION_792_Index_20=将编程电路放入输入总线以控制配方
     S:TileEntity_DESCRIPTION_792_Index_21=每个输入总线中可以放入一个不同的电路板/模具
-    S:TileEntity_DESCRIPTION_792_Index_22=大小(宽x高x长): 3x3x3 (中空)
+    S:TileEntity_DESCRIPTION_792_Index_22=大小(宽x高x长): 3x3x3(中空)
     S:TileEntity_DESCRIPTION_792_Index_23=剩余方块为辊压机机械方块(至少10个!)
     S:TileEntity_DESCRIPTION_792_Index_24=控制器方块(正面中央)
     S:TileEntity_DESCRIPTION_792_Index_25=1x输入总线
@@ -8508,7 +8508,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_796_Index_17=比同电压下的单方块机器快180%！
     S:TileEntity_DESCRIPTION_796_Index_18=只需要使用配方要求电压的90%
     S:TileEntity_DESCRIPTION_796_Index_19=每提升一个电压等级，每次运行可以多处理2个物品
-    S:TileEntity_DESCRIPTION_796_Index_20=大小(宽x高x长): 3x3x3 (中空)
+    S:TileEntity_DESCRIPTION_796_Index_20=大小(宽x高x长): 3x3x3(中空)
     S:TileEntity_DESCRIPTION_796_Index_21=剩余方块为电解机机械方块(至少10个!)
     S:TileEntity_DESCRIPTION_796_Index_22=控制器方块(正面中央)
     S:TileEntity_DESCRIPTION_796_Index_23=1x输入总线
@@ -8539,7 +8539,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_798_Index_15=比相同电压的单方块机器快200% 
     S:TileEntity_DESCRIPTION_798_Index_16=只需要使用配方要求电压的75%
     S:TileEntity_DESCRIPTION_798_Index_17=每提升一个电压等级，每次运行可以多处理4个物品
-    S:TileEntity_DESCRIPTION_798_Index_18=大小(宽x高x长): 3x3x5 (中空)
+    S:TileEntity_DESCRIPTION_798_Index_18=大小(宽x高x长): 3x3x5(中空)
     S:TileEntity_DESCRIPTION_798_Index_19=剩余方块为线缆轧机机械方块(至少32个！)
     S:TileEntity_DESCRIPTION_798_Index_20=控制器方块(正面中央)
     S:TileEntity_DESCRIPTION_798_Index_21=1x输入总线
@@ -8774,7 +8774,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_850_Index_26=X   X
     S:TileEntity_DESCRIPTION_850_Index_27=XXXXX
     S:TileEntity_DESCRIPTION_850_Index_28=控制器方块(正面中央)
-    S:TileEntity_DESCRIPTION_850_Index_29=1x输入总线 (任意机械方块)
+    S:TileEntity_DESCRIPTION_850_Index_29=1x输入总线(任意机械方块)
     S:TileEntity_DESCRIPTION_850_Index_30=2x输入仓(任意机械方块)
     S:TileEntity_DESCRIPTION_850_Index_31=1x输出总线(任意机械方块)
     S:TileEntity_DESCRIPTION_850_Index_32=1x能源仓(任意机械方块)
@@ -8797,7 +8797,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_859_Index_20=将配方用到的模具放入输入总线
     S:TileEntity_DESCRIPTION_859_Index_21=每个输入总线中可以放入一个不同的模具!
     S:TileEntity_DESCRIPTION_859_Index_22=每个多方块结构中你可以使用多个输入总线
-    S:TileEntity_DESCRIPTION_859_Index_23=大小(宽x高x长): 3x3x5 (中空)
+    S:TileEntity_DESCRIPTION_859_Index_23=大小(宽x高x长): 3x3x5(中空)
     S:TileEntity_DESCRIPTION_859_Index_24=剩余方块为强化镍铬机械方块(至少28个!)
     S:TileEntity_DESCRIPTION_859_Index_25=控制器方块(正面中央)
     S:TileEntity_DESCRIPTION_859_Index_26=1x输入总线
@@ -8814,7 +8814,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_860_Index_16=比相同电压的单方块机器快250%
     S:TileEntity_DESCRIPTION_860_Index_17=只需要使用配方要求电压的80%
     S:TileEntity_DESCRIPTION_860_Index_18=每提升一个电压等级，每次运行可以多处理2个物品
-    S:TileEntity_DESCRIPTION_860_Index_19=大小(宽x高x长): 3x3x3 (中空)
+    S:TileEntity_DESCRIPTION_860_Index_19=大小(宽x高x长): 3x3x3(中空)
     S:TileEntity_DESCRIPTION_860_Index_20=控制器方块(正面中央)
     S:TileEntity_DESCRIPTION_860_Index_21=至少6x多功能机械方块
     S:TileEntity_DESCRIPTION_860_Index_22=阅读大型加工厂手册(Multi-Machine Manual)来获取更多的信息
@@ -8933,7 +8933,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_876_Index_27==以对合成配方进行自动化
     S:TileEntity_DESCRIPTION_876_Index_28=需要在合成计划台中扫描配方
     S:TileEntity_DESCRIPTION_876_Index_29=--------------------------------------
-    S:TileEntity_DESCRIPTION_876_Index_30=大小(宽x高x长): 3x3x3 (中空)
+    S:TileEntity_DESCRIPTION_876_Index_30=大小(宽x高x长): 3x3x3(中空)
     S:TileEntity_DESCRIPTION_876_Index_31=剩余方块为自动合成框架(至少10个!)
     S:TileEntity_DESCRIPTION_876_Index_32=控制器方块(正面中央)
     S:TileEntity_DESCRIPTION_876_Index_33=1x输入总线
@@ -9337,12 +9337,12 @@ languagefile {
     S:TileEntity_DESCRIPTION_941_Index_16=实验型深地钻探平台-MK I 的控制器方块
     S:TileEntity_DESCRIPTION_941_Index_17=大小(宽x高x长) 3x7x3, 控制器方块(正面底中)
     S:TileEntity_DESCRIPTION_941_Index_18=底层3x1x3三元金属机械方块
-    S:TileEntity_DESCRIPTION_941_Index_19=1x3x1三元金属机械方块支柱 (底层中央)
+    S:TileEntity_DESCRIPTION_941_Index_19=1x3x1三元金属机械方块支柱(底层中央)
     S:TileEntity_DESCRIPTION_941_Index_20=1x3x1镍铬基合金-690框架(每个支柱的侧面和顶部)(即1x3x1*5)
-    S:TileEntity_DESCRIPTION_941_Index_21=2x输入仓 (任意底层机械方块)
-    S:TileEntity_DESCRIPTION_941_Index_22=1x输入总线 (放置采矿管道) (任意底层机械方块;非必须)
+    S:TileEntity_DESCRIPTION_941_Index_21=2x输入仓(任意底层机械方块)
+    S:TileEntity_DESCRIPTION_941_Index_22=1x输入总线(放置采矿管道)(任意底层机械方块;非必须)
     S:TileEntity_DESCRIPTION_941_Index_23=1x输出总线(任意底层机械方块)
-    S:TileEntity_DESCRIPTION_941_Index_24=1x维护仓 (任意底层机械方块)
+    S:TileEntity_DESCRIPTION_941_Index_24=1x维护仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_941_Index_25=1xIV+能源仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_941_Index_26=半径为144方块
     S:TileEntity_DESCRIPTION_941_Index_27=这个机器每t会交替消耗烈焰之炽焱和极寒之凛冰
@@ -9358,7 +9358,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_942_Index_23=比相同电压的单方块机器快到不知道哪里去了
     S:TileEntity_DESCRIPTION_942_Index_24=只需要使用配方要求电压的75%
     S:TileEntity_DESCRIPTION_942_Index_25=每提升一个电压等级，每次运行可以多处理5个物品
-    S:TileEntity_DESCRIPTION_942_Index_26=大小(宽x高x长): 3x3x3 (中空)
+    S:TileEntity_DESCRIPTION_942_Index_26=大小(宽x高x长): 3x3x3(中空)
     S:TileEntity_DESCRIPTION_942_Index_27=剩余方块为仓库机械方块(至少10个!)
     S:TileEntity_DESCRIPTION_942_Index_28=控制器方块(正面中央)
     S:TileEntity_DESCRIPTION_942_Index_29=1x输入总线
