@@ -1,4 +1,4 @@
-﻿//**************************//
+//**************************//
 //WIRELESS CRAFTING TEMRINAL//
 //**************************//
 
@@ -21,7 +21,7 @@ gui.tooltips.ae2wct.NotInstalled=未安装
 gui.tooltips.ae2wct.Active=激活
 gui.tooltips.ae2wct.Inactive=停用
 gui.tooltips.ae2wct.Status=状态
-gui.tooltips.ae2wct.EmptyTrash=Delete
+gui.tooltips.ae2wct.EmptyTrash=清除
 gui.tooltips.ae2wct.EmptyTrashDesc=清空回收站
 gui.tooltips.ae2wct.MagnetFilterTitle=磁卡过滤名单
 gui.tooltips.ae2wct.FilterMode=过滤模式
@@ -31,18 +31,29 @@ gui.tooltips.ae2wct.MagnetActiveDesc1=多余的物品将被收到身上
 gui.tooltips.ae2wct.MagnetActiveDesc2=多余的物品将被留在地上
 gui.tooltips.ae2wct.Not=Not
 gui.tooltips.ae2wct.Using=使用
-gui.tooltips.ae2wct.Ignore=Ignore
-gui.tooltips.ae2wct.Ignoring=Ignoring
+gui.tooltips.ae2wct.Ignore=忽略
+gui.tooltips.ae2wct.Ignoring=忽略中
 gui.tooltips.ae2wct.NBTData=NBT数据
 gui.tooltips.ae2wct.MetaData=Meta数据
 gui.tooltips.ae2wct.OreDict=矿物词典
 gui.tooltips.ae2wct.FilteredItems=过滤物品
-gui.tooltips.ae2wct.OrPress=or press
-gui.tooltips.ae2wct.Press=Press
+gui.tooltips.ae2wct.OrPress=或按下
+gui.tooltips.ae2wct.Press=按下
 gui.tooltips.ae2wct.ToSwitchMode=切换磁卡模式
 
 //Labels
 gui.labels.ae2wct.WirelessTermLabel=无线终端
+
+//Config Descriptions
+config.ae2wct.MaxPowerDesc=无线终端可容纳的最大能量(AE)
+config.ae2wct.InfinityBoosterCfgDesc=启用量子增幅器升级
+config.ae2wct.EasyModeDesc=启用简单模式(简化合成+量子增幅器)
+config.ae2wct.BoosterDropChance=凋灵掉落量子增幅器的几率(当 %-100时, 总是掉落)
+config.ae2wct.DisableBoosterDrop=启用增幅器掉落-困难模式(true=启用)
+config.ae2wct.MineTweakerOverride=启用MineTweaker覆盖(true=禁用所有合成表)
+config.ae2wct.DoVersionCheck=检查更新
+config.ae2wct.NewVersionAvailable=有新版本WCT可用!
+config.ae2wct.ClickString=["点击此处转到下载页面 [",{"text":"Download","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click this to download the latest version","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
 
 //Achievements
 achievement.wctAchievement=有木有WiFi五毛且耐用嘞
