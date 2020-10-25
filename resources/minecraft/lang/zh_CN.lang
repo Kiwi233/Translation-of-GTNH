@@ -10926,31 +10926,31 @@ gtnh.quest2730.desc=激光仓是发送大电流能量的高端方式, 起步就�
 
 # Quest.2731 - Transform and...Stay Put Actually
 gtnh.quest2731.name=变压并...保持
-gtnh.quest2731.desc=有源变压器可以进行任意电压间的变换, 而损耗仅为0.78125%, 如果不介意这部分损耗的话, 使用有源变压器可比用一大串变压器层层变压高端多了. 不过这玩意有点贵... 同时, 这台机器还可以用于转折激光仓发出的激光, 说不定这才是它的正在用法!%n%n它无需维护仓, 只需有输入/输出仓即可.%n%n§4如果不想在拆卸机器是引发爆炸, 一定记得关掉'导能'按钮!
+gtnh.quest2731.desc=有源变压器可以进行任意电压间的变换, 而损耗仅为0.78125%, 如果不介意这部分损耗的话, 使用有源变压器可比用一大串变压器层层变压高端多了. 不过这玩意有点贵... 同时, 这台机器还可以用于转折激光仓发出的激光, 说不定这才是它的正在用法!%n%n它无需维护仓, 只需有输入/输出仓即可.%n%n§4如果不想在拆卸机器时引发爆炸, 一定记得关掉'导能'按钮!
 
 # Quest.2732 - The Third Time's the Charm
-gtnh.quest2732.name=The Third Time's the Charm
-gtnh.quest2732.desc=The Lapotronic Supercapacitor is an alternative to the Power Sub-Station (or Power Station Control Node as indicated on the controller) and the LESU. It holds less power per tier than the PSS, and is harder to make, but it has it's own benefits:%n%n1) It looks cooler%n2) Hatch tier is not limited by the capacitors like cells, so you can use whatever hatch tier you want if you store up power or have the input for it%n3) Can mix and match Capacitor tiers%n4) Loses 1% of total capacity every 24h, so much much less, but you can't cheese it%n5) Actually stores way more power at the last tier%n6) Can use LASER HATCHES!!! That output at very high amperage (and the other TT ones)%n%nIt also has downsides of course:%n1) More expensive to make%n2) Stores less power%n3) Can only I/O on the bottom 2 layers%n4) Can't cheese power loss%n5) Doesn't store as much power until the final tier%n6) It can have maintenance issues, unlike the PSS, voiding 20% more power per, so try not to let that slide. Though at most it's still only 2.2%%n%nFor the first, smallest one, you'll need the following, plus an Energy Hatch and a Dynamo (or the laser equivalents). Remember that you can get your Lapos back if you run the capacitor through an unpackager. Finally a reason to make one!%n%nBTW your LSC can hold between 900K and 13.5M EU with these.
+gtnh.quest2732.name=事不过三(The Third Time's the Charm)
+gtnh.quest2732.desc=兰波顿超级电容库是能源站和LESU的替代品. 超级电容库的储电量相比于同等级的能源站都会少一点, 同时制造起来更加麻烦, 但它也有自己的优势:%n%n1) 看起来更cooool%n2) 不像能源站的仓室等级被其内芯单元限制, 超级电容库可以使用任意等级的仓室%n3) 不同等级的电容可以混用%n4) 每24h损失1％的电, 相比于能源站的消耗少多了, 但也没有空子可以钻了%n5) 最高等级的电容库可以存储相当相当可观的电能%n6) 支持激光仓!!! 可以输出相当可观的电流(类似TecTech机器)%n%n当然它也有缺点:%n1) 制造成本更高%n2) 存储电能更少%n3) 只能在底部两层进行输入/输出%n4) 能量损失没得商量%n5) 除了最后一级, 存储电能不足%n6) 可能出现维护问题, 每个维护问题将额外消耗20％能量(试试自动维护仓). 不过就算这样, 它的最高能量损失也就2.2％%n%n最初也是最小的超级电容库需要以下方块, 再加上能源仓和动力仓(或激光仓). 别忘了解包器可以将制成电容的电池拆出来. 最后一个理由!%n%n顺便说一句, 这样一台兰波顿超级电容库可以存储900K到13.5M-EU.
 
 # Quest.2733 - Lapotronic Capacitor (LuV)
-gtnh.quest2733.name=Lapotronic Capacitor (LuV)
-gtnh.quest2733.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 9M and 135M EU with these.
+gtnh.quest2733.name=兰波顿电容(LuV)
+gtnh.quest2733.desc=相比前一级电容, 除了能存储更多电能, 其余没什么区别. 现在, 你的兰波顿超级电容库可以存储9M到135M-EU.
 
 # Quest.2734 - Lapotronic Capacitor (ZPM)
-gtnh.quest2734.name=Lapotronic Capacitor (ZPM)
-gtnh.quest2734.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 90M and 1.350B EU with these.
+gtnh.quest2734.name=兰波顿电容(ZPM)
+gtnh.quest2734.desc=相比前一级电容, 除了能存储更多电能, 其余没什么区别. 现在, 你的兰波顿超级电容库可以存储90M到1.350B-EU.
 
 # Quest.2735 - Lapotronic Capacitor (UV)
-gtnh.quest2735.name=Lapotronic Capacitor (UV)
-gtnh.quest2735.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 900M and 13.50B EU with these.%n%n§3PS: The last tier is on the Engame Goals tab.
+gtnh.quest2735.name=兰波顿电容(UV)
+gtnh.quest2735.desc=相比前一级电容, 除了能存储更多电能, 其余没什么区别. 现在, 你的兰波顿超级电容库可以存储900M到13.50B-EU.%n%n§3PS: 最高级的电容任务在"终极目标"任务栏.
 
 # Quest.2736 - Hangover From All That Glue?
-gtnh.quest2736.name=Hangover From All That Glue?
-gtnh.quest2736.desc=Surface-mount devices are more advanced circuits parts. They are needed for high tier circuits and are cheaper to craft than the basic versions. You need an Advanced Assembler and some molten polyethylene. For now, resistors are probably the only ones you can make with any ease.
+gtnh.quest2736.name=胶水留痕(Hangover From All That Glue)?
+gtnh.quest2736.desc=贴片元件是更高级的电路板部件. 它们是高级电路板的必需品, 且制造成本更低. 你需要进阶组装机和聚乙烯才能生产它们. 目前, 贴片电阻可能是你唯一可以轻松制造的贴片元件.
 
 # Quest.2737 - More Food, More Hearts
-gtnh.quest2737.name=More Food, More Hearts
-gtnh.quest2737.desc=So, food is great, right? But what's even greater is eating tons of it! Too boring and pointless you say? Well, what if I told you you can get extra hearts just by expanding your palate. You get 1 point for every half shank of hunger from a food eaten, and after 50 points, you get 1 extra heart! Now you have a reason to make all those Pam's foods. Of course, each food only contributes it's shank value once, no cheating!%n%nIf you want to see what foods you've eaten, you can use the (not) handy Food Journal. Realistically though, you'll want to use NEI to both see foods eaten and not eaten. You can search for 'not yet eaten' to see foods left, and 'assisted' to see foods eaten.%n%n§3If it doesn't work for you, try the following. First, go to NEI options in the bottom left when the inventory is open, then click on inventory, and change Search Mode to Regex. Then restart your client, and try searching again.§r%n%nThere are also two commands:%n%n/foodlist size%nWill tell you total progress, and progress to next heart.%n%n/foodlist sync <PlayerName>%nIs to sync with the server if it gets out of sync.
+gtnh.quest2737.name=食物就是生命
+gtnh.quest2737.desc=众所周知, 食物是伟大! 但它可以变得更伟大, 只要你多多尝试新口味! 你说这太无聊了并且毫无意义? 那要是我告诉你这样能提高生命上限呢? 食用的食物每回复半个饥饿值记1点, 累积50点后, 你的生命上限就能提高1颗心! 现在你有烹制所有潘马斯食物的理由了. 当然, 每种食物只能生效一次, 这可没的空子可钻!%n%n如果你想查看吃过些什么, 只需查看"膳食记录"即可. 当然更方便的做法是用NEI. 搜索'从未食用'/'食用过'就能得知吃过什么, 没吃什么.%n%n§3如果搜索失败, 请参考以下步骤. 首先, 打开NEI选项(物品栏界面左下角), 然后点击'物品栏', 将'搜索模式'改为'正则表达式'. 最后重启客户端并再次尝试.§r%n%n还有两个指令:%n%n/foodlist size%n这个指令会告诉你总计食用点数、下次提高生命上限还差多少点数.%n%n/foodlist sync <玩家名>%n如果服务器不同步, 则与服务器同步.
 
 # Quest.2750 - Proteus Dungeon
 gtnh.quest2750.name=海卫八地牢
