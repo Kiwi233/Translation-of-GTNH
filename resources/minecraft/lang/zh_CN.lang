@@ -3437,12 +3437,8 @@ gtnh.quest810.name=1阶火箭
 #C gtnh.quest810.desc=在经过数小时的辛勤努力,你的1阶火箭终于已经准备就绪.但是点火登月之前你需要制作一些其他的东西.
 
 # Quest.811 - Tier 1 Control Computer
-#B gtnh.quest811.name=Tier 1 Schematic
-#A gtnh.quest811.name=Tier 1 Control Computer
-#C gtnh.quest811.name=1阶火箭设计图
-#B gtnh.quest811.desc=Each rocket needs a construction plan. You can craft the first one using a data circuit and a compressed steel plate in a hv circuit assembler.
-#A gtnh.quest811.desc=Each rocket needs a Control Computer, appropriate to the tier of the rocket.
-#C gtnh.quest811.desc=制造每个火箭都需要严谨的计划.你可以用工作站芯片和压缩钢板制作一个火箭的制造设计图.
+gtnh.quest811.name=1阶火箭控制电脑
+gtnh.quest811.desc=每枚火箭都需要一台控制电脑, 且电脑需要匹配火箭等级.
 
 # Quest.812 - Tier 1 Heavy Duty Plates
 gtnh.quest812.name=1阶重型装甲板
@@ -5997,12 +5993,8 @@ gtnh.quest1427.name=2阶重型装甲板
 gtnh.quest1427.desc=火箭需要重型装甲板作为主箭体. 让我们用一阶重型装甲板和陨铁板制作11个2阶重型装甲板吧.%n%n同时你还需要一些钨钢.获取钨的手段有很多,处理末地石或末地石粉,或是打粉月岩都可以.
 
 # Quest.1428 - Tier 2 Control Computer
-#B gtnh.quest1428.name=Tier 2 Schematic
-#A gtnh.quest1428.name=Tier 2 Control Computer
-#C gtnh.quest1428.name=2阶火箭设计图
-#B gtnh.quest1428.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The tier 2 rocket uses an elite circuit, a heavy duty plate tier 2, and the data stick in a hv circuit assembler.
-#A gtnh.quest1428.desc=Each rocket needs a Control Computer, appropriate to the tier of the rocket.
-#C gtnh.quest1428.desc=每枚火箭都需要一个建造方案. 在高压扫描仪中扫描并将结构数据放在闪存上. 2阶火箭使用精英电路板,重型装甲板,以及HV电路组装机中的闪存.
+gtnh.quest1428.name=2阶火箭控制电脑
+gtnh.quest1428.desc=每枚火箭都需要一台控制电脑, 且电脑需要匹配火箭等级.
 
 # Quest.1429 - Rocket Tier 2
 gtnh.quest1429.name=2阶火箭
@@ -6091,12 +6083,8 @@ gtnh.quest1447.name=太空采矿机设计图
 #C gtnh.quest1447.desc=太空采矿机需要一个设计图. 在高压扫描仪中扫描并将结构数据放在闪存上. 太空采矿机电路使用EV等级电路,3阶重型装甲板和闪存.
 
 # Quest.1448 - Tier 3 Control Computer
-#B gtnh.quest1448.name=Tier 3 Schematic
-#A gtnh.quest1448.name=Tier 3 Control Computer
-#C gtnh.quest1448.name=3阶火箭设计图
-#B gtnh.quest1448.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The third tier schematic circuit uses an elite circuit and a heavy duty plate tier 3 and the data stick in a iv circuit assembler.
-#A gtnh.quest1448.desc=Each rocket needs a Control Computer, appropriate to the tier of the rocket.
-#C gtnh.quest1448.desc=每枚火箭都需要一个设计图. 在高压扫描仪中扫描并将结构数据放在闪存上. 3阶火箭电路使用精英电路,3阶重型装甲板以及IV电路组装机中的闪存.
+gtnh.quest1448.name=3阶火箭控制电脑
+gtnh.quest1448.desc=每枚火箭都需要一台控制电脑, 且电脑需要匹配火箭等级.
 
 # Quest.1449 - Cargo Rocket Schematic
 gtnh.quest1449.name=货运火箭设计图
@@ -6441,12 +6429,8 @@ gtnh.quest1530.name=谷神星地牢
 gtnh.quest1530.desc=几个小时后你会发现一个谷神星地牢. 一个大洞将告诉你通往地牢的路. 在你见到谷神星Boss前,你必须和一些小怪打架. 谷神星Boss将掉落宝箱钥匙,宝箱中有4阶火箭的设计图. 而4阶火箭将带你前往金星和水星以及木星的卫星.
 
 # Quest.1531 - Tier 4 Control Computer
-#B gtnh.quest1531.name=Tier 4 Schematic
-#A gtnh.quest1531.name=Tier 4 Control Computer
-#C gtnh.quest1531.name=4阶火箭设计图
-#B gtnh.quest1531.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The fourth tier schematic circuit uses an elite circuit and a heavy duty plate tier 4 and the data stick in a iv circuit assembler.
-#A gtnh.quest1531.desc=Each rocket needs a Control Computer, appropriate to the tier of the rocket.
-#C gtnh.quest1531.desc=每枚火箭都需要一个设计图. 在高压扫描仪中扫描并将结构数据放在闪存上. 4阶火箭设计图电路使用精英电路和4阶重型装甲板以及在IV电路组装机中的闪存.
+gtnh.quest1531.name=4阶火箭控制电脑
+gtnh.quest1531.desc=每枚火箭都需要一台控制电脑, 且电脑需要匹配火箭等级.
 
 # Quest.1532 - Tier 4 Heavy Duty Plates
 gtnh.quest1532.name=4阶重型装甲板
@@ -7297,12 +7281,8 @@ gtnh.quest1724.name=5阶重型装甲板
 gtnh.quest1724.desc=火箭的主箭体需要重型装甲板. 让我们用4阶重型装甲板和压缩量子板制作60个5阶重型装甲板.
 
 # Quest.1725 - Tier 5 Control Computer
-#B gtnh.quest1725.name=Tier 5 Schematic
-#A gtnh.quest1725.name=Tier 5 Control Computer
-#C gtnh.quest1725.name=5阶火箭设计图
-#B gtnh.quest1725.desc=Each rocket needs a construction plan. Scan it in an HV Scanner and put the construction data on a Data Stick. The fourth tier schematic circuit uses an elite circuit and a heavy duty plate tier 5 and the data stick in a LuV circuit assembler.
-#A gtnh.quest1725.desc=Each rocket needs a Control Computer, appropriate to the tier of the rocket.
-#C gtnh.quest1725.desc=每枚火箭都需要一个设计图. 在HV扫描仪中扫描并将结构数据放在闪存上. 5阶设计图电路使用精英电路和5阶重型装甲板层以及LuV电路组装机中的闪存.
+gtnh.quest1725.name=5阶火箭控制电脑
+gtnh.quest1725.desc=每枚火箭都需要一台控制电脑, 且电脑需要匹配火箭等级.
 
 # Quest.1726 - Rocket Tier 5
 gtnh.quest1726.name=5阶火箭
@@ -11383,12 +11363,8 @@ gtnh.quest2701.name=混沌能量
 gtnh.quest2701.desc=最终, 无尽的RF! ...但我能用它来做什么?
 
 # Quest.2702 - Tier 7 Control Computer
-#B gtnh.quest2702.name=Tier 7 Schematic
-#A gtnh.quest2702.name=Tier 7 Control Computer
-#C gtnh.quest2702.name=7阶火箭设计图
-#B gtnh.quest2702.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The fourth tier schematic circuit uses an elite circuit and a heavy duty plate tier 6 and the data stick in a ZPM circuit assembler.
-#A gtnh.quest2702.desc=Each rocket needs a Control Computer, appropriate to the tier of the rocket.
-#C gtnh.quest2702.desc=每枚火箭都需要一个设计图. 在HV扫描仪中扫描并将结构数据放在闪存上. 7阶设计图电路需要IV电路板和7阶重型装甲板层以及ZPM电路组装机中的闪存.
+gtnh.quest2702.name=7阶火箭控制电脑
+gtnh.quest2702.desc=每枚火箭都需要一台控制电脑, 且电脑需要匹配火箭等级.
 
 # Quest.2703 - Extra Large Fuel Canisters
 gtnh.quest2703.name=特大型燃料罐
@@ -11419,12 +11395,8 @@ gtnh.quest2709.name=4阶助推器
 gtnh.quest2709.desc=不同星系之间的距离是天文数字,因此火箭需要更巨大的助推器才能到达目的地.
 
 # Quest.2710 - Tier 8 Control Computer
-#B gtnh.quest2710.name=Tier 8 Schematic
-#A gtnh.quest2710.name=Tier 8 Control Computer
-#C gtnh.quest2710.name=8阶火箭设计图
-#B gtnh.quest2710.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The fourth tier schematic circuit uses an elite circuit and a heavy duty plate tier 8 and the data stick in a UV circuit assembler.
-#A gtnh.quest2710.desc=Each rocket needs a Control Computer, appropriate to the tier of the rocket.
-#C gtnh.quest2710.desc=每枚火箭都需要一个设计图. 在HV扫描仪中扫描并将结构数据放在闪存上. 8阶设计图电路需要IV电路板和8阶重型装甲板层以及UV电路组装机中的闪存.
+gtnh.quest2710.name=8阶火箭控制电脑
+gtnh.quest2710.desc=每枚火箭都需要一台控制电脑, 且电脑需要匹配火箭等级.
 
 # Quest.2711 - Fluids for Copying Cultures
 gtnh.quest2711.name=复制细菌-液体
@@ -11532,161 +11504,145 @@ gtnh.quest2736.desc=贴片元件是更高级的电路板部件. 它们是高级�
 
 # Quest.2737 - More Food, More Hearts
 gtnh.quest2737.name=食物就是生命
-#B gtnh.quest2737.desc=So, food is great, right? But what's even greater is eating tons of it! Too boring and pointless you say? Well, what if I told you you can get extra hearts just by expanding your palate. You get 1 point for every half shank of hunger from a food eaten, and after 50 points, you get 1 extra heart! Now you have a reason to make all those Pam's foods. Of course, each food only contributes it's shank value once, no cheating!%n%nIf you want to see what foods you've eaten, you can use the (not) handy Food Journal. Realistically though, you'll want to use NEI to both see foods eaten and not eaten. You can search for 'not yet eaten' to see foods left, and 'assisted' to see foods eaten.%n%n§3If it doesn't work for you, try the following. First, go to NEI options in the bottom left when the inventory is open, then click on inventory, and change Search Mode to Regex. Then restart your client, and try searching again.§r%n%nThere are also two commands:%n%n/foodlist size%nWill tell you total progress, and progress to next heart.%n%n/foodlist sync <PlayerName>%nIs to sync with the server if it gets out of sync.
-#A gtnh.quest2737.desc=So, food is great, right? But what's even greater is eating tons of it! Too boring and pointless you say? Well, what if I told you you can get extra hearts just by expanding your palate. You get 1 point for every half shank of hunger from a food eaten, and after 50 points, you get 1 extra heart! Now you have a reason to make all those Pam's foods. Of course, each food only contributes it's shank value once, no cheating!%n%nIf you want to see what foods you've eaten, you can use the (not) handy Food Journal. Realistically though, you'll want to use NEI to both see foods eaten and not eaten. You can search for 'not yet eaten' to see foods left, and 'assisted' to see foods eaten. You need to have started diminishing returns first to see this.%n%n§3If it doesn't work for you, try the following. First, go to NEI options in the bottom left when the inventory is open, then click on inventory, and change Search Mode to Regex. Then restart your client, and try searching again.§r%n%nThere are also two commands:%n%n/foodlist size%nWill tell you total progress, and progress to next heart.%n%n/foodlist sync <PlayerName>%nIs to sync with the server if it gets out of sync.
-#C gtnh.quest2737.desc=众所周知, 食物是伟大! 但它可以变得更伟大, 只要你多多尝试新口味! 你说这太无聊了并且毫无意义? 那要是我告诉你这样能提高生命上限呢? 食用的食物每回复半个饥饿值记1点, 累积50点后, 你的生命上限就能提高1颗心! 现在你有烹制所有潘马斯食物的理由了. 当然, 每种食物只能生效一次, 这可没的空子可钻!%n%n如果你想查看吃过些什么, 只需查看"膳食记录"即可. 当然更方便的做法是用NEI. 搜索'从未食用'/'食用过'就能得知吃过什么, 没吃什么.%n%n§3如果搜索失败, 请参考以下步骤. 首先, 打开NEI选项(物品栏界面左下角), 然后点击'物品栏', 将'搜索模式'改为'正则表达式'. 最后重启客户端并再次尝试.§r%n%n还有两个指令:%n%n/foodlist size%n这个指令会告诉你总计食用点数、下次提高生命上限还差多少点数.%n%n/foodlist sync <玩家名>%n如果服务器不同步, 则与服务器同步.
+gtnh.quest2737.desc=众所周知, 食物是伟大! 但它可以变得更伟大, 只要你多多尝试新口味! 你说这太无聊了并且毫无意义? 那要是我告诉你这样能提高生命上限呢? 食用的食物每回复半个饥饿值记1点, 累积50点后, 你的生命上限就能提高1颗心! 现在你有烹制所有潘马斯食物的理由了. 当然, 每种食物只能生效一次, 这可没的空子可钻!%n%n如果你想查看吃过些什么, 只需查看"膳食记录"即可. 当然更方便的做法是用NEI. 搜索'从未食用'/'食用过'就能得知吃过什么, 没吃什么.%n%n§3如果搜索失败, 请参考以下步骤. 首先, 打开NEI选项(物品栏界面左下角), 然后点击'物品栏', 将'搜索模式'改为'正则表达式'. 最后重启客户端并再次尝试.§r%n%n还有两个指令:%n%n/foodlist size%n这个指令会告诉你总计食用点数、下次提高生命上限还差多少点数.%n%n/foodlist sync <玩家名>%n如果服务器不同步, 则与服务器同步.
 
 # Quest.2738 - Ironically, It's Not Used in AE2 Anymore
-#N gtnh.quest2738.name=Ironically, It's Not Used in AE2 Anymore
-#N gtnh.quest2738.desc=Need some Sky Stone, but it's all picked over? Buy some!%n%n§3PS: The presses are craftable at EV.
+gtnh.quest2738.name=讽刺的是, 这不是用于AE2的
+gtnh.quest2738.desc=需要一些陨石, 但都被挖空了? 买一些吧!%n%n§3PS: 压印模板可在EV阶段合成.
 
 # Quest.2739 - Fire is Cool
-#N gtnh.quest2739.name=Fire is Cool
-#N gtnh.quest2739.desc=Want some more of those fire jets or smoking blocks from TF? Buy some!%n%n§3You can also make them into redstone controlled versions too!
+gtnh.quest2739.name=Fire is Cool
+gtnh.quest2739.desc=想要更多暮色的火焰喷射或者烟雾方块? 买一些吧!%n%n§3你也可以把它们做成红石控制版!
 
 # Quest.2740 - Dragon Warrior
-#N gtnh.quest2740.name=Dragon Warrior
-#N gtnh.quest2740.desc=Did your Dragon Heart drop into the void somehow? Or maybe you just want more? Buy one!
+gtnh.quest2740.name=屠龙者
+gtnh.quest2740.desc=各种各样的原因, 你的龙心掉入了虚空? 也许你只是想要更多? 买一个吧!
 
 # Quest.2741 - T1 BM Slates
-#N gtnh.quest2741.name=T1 BM Slates
-#N gtnh.quest2741.desc=Finally, a use for those bloody coins! Buy some slates!
+gtnh.quest2741.name=T1血魔法石板
+gtnh.quest2741.desc=吸血鬼币终于有用处了! 买些石板吧!
 
 # Quest.2742 - T2 BM Slates
-#N gtnh.quest2742.name=T2 BM Slates
-#N gtnh.quest2742.desc=Finally, a use for those bloody coins! Buy some slates!
+gtnh.quest2742.name=T2血魔法石板
+gtnh.quest2742.desc=吸血鬼币终于有用处了! 买些石板吧!
 
 # Quest.2743 - T3 BM Slates
-#N gtnh.quest2743.name=T3 BM Slates
-#N gtnh.quest2743.desc=Finally, a use for those bloody coins! Buy some slates!
+gtnh.quest2743.name=T3血魔法石板
+gtnh.quest2743.desc=吸血鬼币终于有用处了! 买些石板吧!
 
 # Quest.2744 - NASA Workbench
-#N gtnh.quest2744.name=NASA Workbench
-#N gtnh.quest2744.desc=The NASA Workbench is used to craft your rockets and other related vehicles. Build it to start your journey into space.
+gtnh.quest2744.name=NASA工作台
+gtnh.quest2744.desc=NASA工作台用于装配火箭及其他相关载具. 把它造出来, 然后走向你的星辰大海吧.
 
 # Quest.2745 - A Backpack for Bees
-#N gtnh.quest2745.name=A Backpack for Bees
-#N gtnh.quest2745.desc=It's exactly what it says. It's also incredibly useful.
+gtnh.quest2745.name=养蜂员背包
+gtnh.quest2745.desc=顾名思义, 它非常有用.
 
 # Quest.2746 - A Chest for...Butterflies? Really?
-#N gtnh.quest2746.name=A Chest for...Butterflies? Really?
-#N gtnh.quest2746.desc=Store your completely useless butterlies in this.
+gtnh.quest2746.name=蝴蝶箱子? 真的吗?
+gtnh.quest2746.desc=将完全无用的蝴蝶存放在此.
 
 # Quest.2747 - A Bag for Butterflies, *yawn*
-#N gtnh.quest2747.name=A Bag for Butterflies, *yawn*
-#N gtnh.quest2747.desc=I'm not sure this has any utility value since the butterflies are going to all be in chunkloaded areas, and thus near your base, but feel free to make it anyway.
+gtnh.quest2747.name=鳞翅目昆虫学家背包, *哈欠*
+gtnh.quest2747.desc=我不确定这些会到处都是的蝴蝶有什么用, 不过做个包倒没什么.
 
 # Quest.2748 - Only the Best: Tree Breeding
-#N gtnh.quest2748.name=Only the Best: Tree Breeding
-#N gtnh.quest2748.desc=For those who love Forestry trees.
+gtnh.quest2748.name=只有最好: 树木培育
+gtnh.quest2748.desc=为那些喜欢林业树木的人准备.
 
 # Quest.2749 - Only the Worst: Trees Suck!
-#N gtnh.quest2749.name=Only the Worst: Trees Suck!
-#N gtnh.quest2749.desc=For those who don't like flowers or trees :(.
+gtnh.quest2749.name=只有最坏: 树木销毁!
+gtnh.quest2749.desc=为那些不喜欢花草树木的人准备 :(.
 
 # Quest.2750 - Proteus Dungeon
 gtnh.quest2750.name=海卫八地牢
 gtnh.quest2750.desc=经过无数小时的寻找,你终于发现了海卫八地牢. 一个大洞指示了通往地牢的道路. 在你遇到海卫八Boss之前你必须去和一些小怪打架. 海卫八Boss将掉落宝箱钥匙,宝箱中有7阶火箭的设计图.%n%n这将解锁冥王星和柯伊伯带.
 
 # Quest.2751 - Tier 6 Control Computer
-#B gtnh.quest2751.name=Tier 6 Schematic
-#A gtnh.quest2751.name=Tier 6 Control Computer
-#C gtnh.quest2751.name=6阶火箭设计图
-#B gtnh.quest2751.desc=Each rocket needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The fourth tier schematic circuit uses an elite circuit and a heavy duty plate tier 6 and the data stick in a LuV circuit assembler.
-#A gtnh.quest2751.desc=Each rocket needs a Control Computer, appropriate to the tier of the rocket.
-#C gtnh.quest2751.desc=每枚火箭都需要一个设计图. 在HV扫描仪中扫描并将结构数据放在闪存上. 6阶设计图电路需要IV电路板和6阶重型装甲板层以及LuV电路组装机中的闪存.
+gtnh.quest2751.name=6阶火箭控制电脑
+gtnh.quest2751.desc=每枚火箭都需要一台控制电脑, 且电脑需要匹配火箭等级.
 
 # Quest.2752 - Enceladus Dungeon
 gtnh.quest2752.name=土卫二地牢
 gtnh.quest2752.desc=经过无数小时的寻找,你终于发现了土卫二地牢. 一个大洞指示了通往地牢的道路. 在你遇到土卫二Boss之前你必须去和一些小怪打架. 土卫二Boss将掉落宝箱钥匙,宝箱中有6阶火箭的设计图.%n%n这将解锁海王星的卫星.
 
 # Quest.2753 - Basic AE2 System
-#N gtnh.quest2753.name=Basic AE2 System
-#N gtnh.quest2753.desc=So you've unlocked AE2, but don't know how to use it? Not to worry, that's what this questline is for. For a basic (and not completely useless) ME system, make the items on the right first. After you go through the quests to get them normally of course.%n%n§3You could technically make one with an ME Chest, but there'd be no advantage over using a regular chest.§r%n%nConnect power to the Energy Acceptor, place the ME Drive next to it, place a Fluix Cable on top of the ME Drive connect the ME Terminal to the cable. Just put in the Storage cells, and you're done! Remember you need a Network Tool to see how much power it actually uses. Also, it lets you pick up stuff easier.%n%nTo save power, let's do a little extra work. Place the Pressure Plate two spaces in front of the ME Terminal, place redstone next to it and beside the Energy Acceptor. Remove the EA and place a Fluix Cable there, and then place the ME Toggle Bus between the Drive and where the Energy Acceptor will be. Then plunk that back down and re-power it. This will cause it to only connect (and thus use power) when you stand on the plate. This tiny network uses about 38 EU by itself, so you should understand that an ME system is not cheap either in materials or power.
+gtnh.quest2753.name=Basic AE2 System
+gtnh.quest2753.desc=So you've unlocked AE2, but don't know how to use it? Not to worry, that's what this questline is for. For a basic (and not completely useless) ME system, make the items on the right first. After you go through the quests to get them normally of course.%n%n§3You could technically make one with an ME Chest, but there'd be no advantage over using a regular chest.§r%n%nConnect power to the Energy Acceptor, place the ME Drive next to it, place a Fluix Cable on top of the ME Drive connect the ME Terminal to the cable. Just put in the Storage cells, and you're done! Remember you need a Network Tool to see how much power it actually uses. Also, it lets you pick up stuff easier.%n%nTo save power, let's do a little extra work. Place the Pressure Plate two spaces in front of the ME Terminal, place redstone next to it and beside the Energy Acceptor. Remove the EA and place a Fluix Cable there, and then place the ME Toggle Bus between the Drive and where the Energy Acceptor will be. Then plunk that back down and re-power it. This will cause it to only connect (and thus use power) when you stand on the plate. This tiny network uses about 38 EU by itself, so you should understand that an ME system is not cheap either in materials or power.
 
 # Quest.2754 - External Storage
-#N gtnh.quest2754.name=External Storage
-#N gtnh.quest2754.desc=Drawers are great, right? Well, let's connect your ME system to a bank of them. Set up some drawers nearby with a controller attached. Then place an ME Storage Bus against the controller and set the priority to +1. This will prioritize I/O to the drawer controller. Lock your drawers before they fill with random stuff. Now you have access to the whole thing! Great for the results of mining, and anything else you have thousands of, while keeping your ME system relatively empty.%n%nYou can also connect to chests and other things if you want. You can use an Ender Chest to send stuff into your network, which will then send it to the drawers, but you'll have stuff entering and exiting constantly, so it'll mess up your view in the Terminal. You can use filtered view cells, or process them before they go into your ME network (or in a different one) and/or send them to the DC directly via another EC. It depends on what you want to do and what it is.
+gtnh.quest2754.name=External Storage
+gtnh.quest2754.desc=Drawers are great, right? Well, let's connect your ME system to a bank of them. Set up some drawers nearby with a controller attached. Then place an ME Storage Bus against the controller and set the priority to +1. This will prioritize I/O to the drawer controller. Lock your drawers before they fill with random stuff. Now you have access to the whole thing! Great for the results of mining, and anything else you have thousands of, while keeping your ME system relatively empty.%n%nYou can also connect to chests and other things if you want. You can use an Ender Chest to send stuff into your network, which will then send it to the drawers, but you'll have stuff entering and exiting constantly, so it'll mess up your view in the Terminal. You can use filtered view cells, or process them before they go into your ME network (or in a different one) and/or send them to the DC directly via another EC. It depends on what you want to do and what it is.
 
 # Quest.2755 - Autocrafting
-#N gtnh.quest2755.name=Autocrafting
-#N gtnh.quest2755.desc=This is the main purpose of AE2, so let's get to it. Plunk down the Crafting Storage and Molecular Assembler, connect the Pattern Terminal to a cable, and attach the ME Interface to the MA (make sure it has power from another side). You could run it without a ME Interface, but you can only do one recipe then. Place a Blank Pattern in the Pattern Terminal, and add the recipe for a Crafting Table, then click the arrow to save it to the pattern. Put this in the ME Interface and you can now request a craft of it. (if the items are in the network, otherwise it'll fail obviously)%n%nFor processing patterns (machines, anything not regular 3x3 crafting) click the button on the right. You'll need to specify all I/O for it yourself. You can use this on an ME Interface on a furnace (for example), combined with an ME Import Bus to collect the results. If it's a machine that auto-ejects (like multis) you can use a ME Interface to collect the results much faster (and with less lag).
+gtnh.quest2755.name=Autocrafting
+gtnh.quest2755.desc=This is the main purpose of AE2, so let's get to it. Plunk down the Crafting Storage and Molecular Assembler, connect the Pattern Terminal to a cable, and attach the ME Interface to the MA (make sure it has power from another side). You could run it without a ME Interface, but you can only do one recipe then. Place a Blank Pattern in the Pattern Terminal, and add the recipe for a Crafting Table, then click the arrow to save it to the pattern. Put this in the ME Interface and you can now request a craft of it. (if the items are in the network, otherwise it'll fail obviously)%n%nFor processing patterns (machines, anything not regular 3x3 crafting) click the button on the right. You'll need to specify all I/O for it yourself. You can use this on an ME Interface on a furnace (for example), combined with an ME Import Bus to collect the results. If it's a machine that auto-ejects (like multis) you can use a ME Interface to collect the results much faster (and with less lag).
 
 # Quest.2756 - P2P
-#N gtnh.quest2756.name=P2P
-#N gtnh.quest2756.desc=One of the more complicated parts of AE2, you'll need to understand this to really get anywhere with the mod. First, replace your EA with an ME Controller. Now you have a bunch more channels to work with. Place the P2P Bus against one of the sides and then connect some cables to it to a place a bit away. Make sure to send power to this cable with an EA or Quartz Fiber, but NOT a normal cable, this is now a separate network, and that would cancel that. Connect the second P2P Bus to the other end, and then place at least 1 Dense Cable coming off of it. Shift-right click your 1st P2P Bus, then Right click the 2nd. They're now connected, and there are 2 channels being used on your subnetwork, while you have the full 32 from the side of your Controller to use. For each subnetwork that doesn't have an ME Controller, you can send 4 sides, or 128 channels. I'm sure you can understand how useful this is, right?%n%nThere's lots more to understand about AE2, but you should probably either experiment, read the quests, or watch a video for more than the basics.%n%nAlso keep in mind that EC2 is kinda completely broken in regards to fluids, so maybe avoid that. (The questmaker is sad :()
+gtnh.quest2756.name=P2P
+gtnh.quest2756.desc=One of the more complicated parts of AE2, you'll need to understand this to really get anywhere with the mod. First, replace your EA with an ME Controller. Now you have a bunch more channels to work with. Place the P2P Bus against one of the sides and then connect some cables to it to a place a bit away. Make sure to send power to this cable with an EA or Quartz Fiber, but NOT a normal cable, this is now a separate network, and that would cancel that. Connect the second P2P Bus to the other end, and then place at least 1 Dense Cable coming off of it. Shift-right click your 1st P2P Bus, then Right click the 2nd. They're now connected, and there are 2 channels being used on your subnetwork, while you have the full 32 from the side of your Controller to use. For each subnetwork that doesn't have an ME Controller, you can send 4 sides, or 128 channels. I'm sure you can understand how useful this is, right?%n%nThere's lots more to understand about AE2, but you should probably either experiment, read the quests, or watch a video for more than the basics.%n%nAlso keep in mind that EC2 is kinda completely broken in regards to fluids, so maybe avoid that. (The questmaker is sad :()
 
 # Quest.2757 - Cool Guys Don't Look at Explosions
-#N gtnh.quest2757.name=Cool Guys Don't Look at Explosions
-#N gtnh.quest2757.desc=They automate them instead.%n%n§3This multi is IV, but uses platline mats and ZPM circuits.
+gtnh.quest2757.name=Cool Guys Don't Look at Explosions
+gtnh.quest2757.desc=They automate them instead.%n%n§3This multi is IV, but uses platline mats and ZPM circuits.
 
 # Quest.2758 - For When the Multi is Worse than the Singleblock
-#N gtnh.quest2758.name=For When the Multi is Worse than the Singleblock
-#N gtnh.quest2758.desc=Seriously, it may look cool, but don't use it, it's worse. Because MATH.%n%n§3This multi is UV, just to drive the pain in a little more.
+gtnh.quest2758.name=For When the Multi is Worse than the Singleblock
+gtnh.quest2758.desc=Seriously, it may look cool, but don't use it, it's worse. Because MATH.%n%n§3This multi is UV, just to drive the pain in a little more.
 
 # Quest.2759 - I Want SOLIDS not LIQUIDS!
-#N gtnh.quest2759.name=I Want SOLIDS not LIQUIDS!
-#N gtnh.quest2759.desc=For when your ABS isn't the right machine. Also uses coils.%n%n§3This multi is IV.
+gtnh.quest2759.name=I Want SOLIDS not LIQUIDS!
+gtnh.quest2759.desc=For when your ABS isn't the right machine. Also uses coils.%n%n§3This multi is IV.
 
 # Quest.2760 - What Even is This?
-#N gtnh.quest2760.name=What Even is This?
-#N gtnh.quest2760.desc=In addition to being a dehydrator multi, it's also a Vacuum Furnace, for which no singleblock exists. It's supposed to be used with the IsaMill Grinding Machine multi and the Flotation Cell Regulator multi, but neither of those are done. You can see the recipes in NEI by searching Hafnium Dust if you want.%n%n§3This multi is ZPM.
+gtnh.quest2760.name=What Even is This?
+gtnh.quest2760.desc=In addition to being a dehydrator multi, it's also a Vacuum Furnace, for which no singleblock exists. It's supposed to be used with the IsaMill Grinding Machine multi and the Flotation Cell Regulator multi, but neither of those are done. You can see the recipes in NEI by searching Hafnium Dust if you want.%n%n§3This multi is ZPM.
 
 # Quest.2761 - Do I Really Need to Make This?
-#N gtnh.quest2761.name=Do I Really Need to Make This?
-#N gtnh.quest2761.desc=No, you don't. The main thing you would probably get out of it is the Quantum Anomaly for Advanced Nitinol.%n%n§3This multi is LuV.
+gtnh.quest2761.name=Do I Really Need to Make This?
+gtnh.quest2761.desc=No, you don't. The main thing you would probably get out of it is the Quantum Anomaly for Advanced Nitinol.%n%n§3This multi is LuV.
 
 # Quest.2762 - This is Not How You Get Into Space
-#N gtnh.quest2762.name=This is Not How You Get Into Space
-#N gtnh.quest2762.desc=This produces power out of Rocket Fuels. To see how to make them, look at the Space Race tab. May or may not be power positive, math is hard.%n%n§3This multi is IV.
+gtnh.quest2762.name=This is Not How You Get Into Space
+gtnh.quest2762.desc=This produces power out of Rocket Fuels. To see how to make them, look at the Space Race tab. May or may not be power positive, math is hard.%n%n§3This multi is IV.
 
 # Quest.2763 - I Put a Machine Into Your Machine
-#N gtnh.quest2763.name=I Put a Machine Into Your Machine
-#N gtnh.quest2763.desc=Effectively lets you parallel like crazy if you can afford the power. 1 EV hatch can supply all 64 possible machines if they're LV. You can also separate busses with a screwdriver. You can use this to automate Assemblers, PLEs, and more!%n%n§3Doesn't work with some machines, like mass fabs.
+gtnh.quest2763.name=I Put a Machine Into Your Machine
+gtnh.quest2763.desc=Effectively lets you parallel like crazy if you can afford the power. 1 EV hatch can supply all 64 possible machines if they're LV. You can also separate busses with a screwdriver. You can use this to automate Assemblers, PLEs, and more!%n%n§3Doesn't work with some machines, like mass fabs.
 
 # Quest.2764 - A Steam Tier Multi? Unpossible!
-#N gtnh.quest2764.name=A Steam Tier Multi? Unpossible!
-#N gtnh.quest2764.desc=It's a larger version of the steam macerator. It's probably better?%n%nNote that this multi requires §4§lVery Specific§r I/O blocks, don't mess it up.%n%nAlso only works 8 at a time.
+gtnh.quest2764.name=A Steam Tier Multi? Unpossible!
+gtnh.quest2764.desc=It's a larger version of the steam macerator. It's probably better?%n%nNote that this multi requires §4§lVery Specific§r I/O blocks, don't mess it up.%n%nAlso only works 8 at a time.
 
 # Quest.2765 - TFFT
-#N gtnh.quest2765.name=TFFT
-#N gtnh.quest2765.desc=The TFFT is very useful if you don't want to have a bunch of Super Tanks with overflow covers on buffer ULV Tanks.%n%nWith the tier I storage field block, it consumes 31.5 EU/t but only has about 0.315x the storage capacity of a ST I per fluid.%n%nWith the tier V storage field block it consumes 504 EU/t and has about 1.26x the storage capacity of a QT III per fluid.%n%nYou can use the multi hatch to access all the fluids at once with an ME Fluid Storage Bus or Fluid Ender Conduit.%n%nYou need 63 of any tier of storage field block, you can mix them too.%n%n§3Remember to turn auto-voiding on.
+gtnh.quest2765.name=TFFT
+gtnh.quest2765.desc=The TFFT is very useful if you don't want to have a bunch of Super Tanks with overflow covers on buffer ULV Tanks.%n%nWith the tier I storage field block, it consumes 31.5 EU/t but only has about 0.315x the storage capacity of a ST I per fluid.%n%nWith the tier V storage field block it consumes 504 EU/t and has about 1.26x the storage capacity of a QT III per fluid.%n%nYou can use the multi hatch to access all the fluids at once with an ME Fluid Storage Bus or Fluid Ender Conduit.%n%nYou need 63 of any tier of storage field block, you can mix them too.%n%n§3Remember to turn auto-voiding on.
 
 # Quest.2766 - Deep Earth Heating Pump
-#N gtnh.quest2766.name=Deep Earth Heating Pump
-#N gtnh.quest2766.desc=This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.%n%nSee https://gtnh.miraheze.org/wiki/Fluid_Reactor and replace the FR with the DEHP to produce hot coolant.%n%nIt's basically free power, but so is using an everburn urn with the LHE, so whatever.
+gtnh.quest2766.name=Deep Earth Heating Pump
+gtnh.quest2766.desc=This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.%n%nSee https://gtnh.miraheze.org/wiki/Fluid_Reactor and replace the FR with the DEHP to produce hot coolant.%n%nIt's basically free power, but so is using an everburn urn with the LHE, so whatever.
 
 ##################################Line##################################
 
 # QuestLine.0 - Tier 0 - And So, It Begins
-#B gtnh.line0.name=Tier 0 - It begins
-#A gtnh.line0.name=Tier 0 - And So, It Begins
-#C gtnh.line0.name=第0阶-由此开始
+gtnh.line0.name=第0阶-由此开始
 gtnh.line0.desc=第一层︰0阶.本章节将介绍GTNH整合包的基本机制,包含︰原版、潘马斯农场.
 
 # QuestLine.1 - Tier 0.5 - Stone Age
 gtnh.line1.name=第0.5阶-石器时代
-#B gtnh.line1.desc=Basically the "Tier 0" of all your progression. This set helps you through the first tier until you can build your first steam machine
-#A gtnh.line1.desc=This tab continues the basics until you make your first steam machine, and are ready for the real GT stuff
-#C gtnh.line1.desc=起步的"第0阶".本章节将帮助你度过初始艰难的阶段,直到你成功制作出第一台蒸汽机.
+gtnh.line1.desc=起步的"第0阶".本章节将帮助你度过初始艰难的阶段,直到你成功制作出第一台蒸汽机,并准备用于真正的GT机器.
 
 # QuestLine.2 - Tier 1 - Steam
 gtnh.line2.name=第1阶-蒸汽时代
-#B gtnh.line2.desc=Quest set for all steam-based machines.
-#A gtnh.line2.desc=Steam to electricity (EU) is the progression of this tab. Most of the machines you make in this tier you'll use the whole game, if in an upgraded form.
-#C gtnh.line2.desc=任务——为了所有基于蒸汽的机器.
+gtnh.line2.desc=此章节的主题是从蒸汽走向电力.同时这个阶段制造的大部分机器,会随着升压陪你走过整个游戏.
 
 # QuestLine.3 - Tier 2 - 32 EU (LV)
 gtnh.line3.name=第2阶-低压(32 LV)
-#B gtnh.line3.desc=The first "voltage" tier of this pack. Things are getting easier...%nBTW, if you can't see any quests, click in the quest window or use the mousewheel to zoom in and out. 
-#A gtnh.line3.desc=The first "voltage" tier of this pack. Things should be a little easier with some of the machines you can now make, and almost every type of machine is now available, try not to be overwhelmed. You can get away with using LV machines for automating processing of things like polyethylene or electrolyzing water the whole game, so consider setting that up when you need it.%n
-#C gtnh.line3.desc=第一个 "电压" 的阶段.事情变得越来越容易了...如果你看不到任何任务,请点击任务窗口或使用鼠标滚轮放大和缩小.
+gtnh.line3.desc=第一个 "电压" 的阶段.随着制造的机器越来越多,事情也变得越来越容易了...几乎所有种类的机器都可以制造,别看花了眼.很多自动流水线的电压要求都不太高,LV的聚乙烯或电解水生产线可能会陪你度过相当长的时间,所以当你有需要的时候不要犹豫,大胆地设计第一条流水线吧.
 
 # QuestLine.4 - Tier 3 - 128 EU (MV)
 gtnh.line4.name=第3阶-中压(128 MV)
-#B gtnh.line4.desc=Your second voltage tier. Don't mix different voltage levels, or you will be punished in a hard way. Start thinking about how to expand your base. %nAgain, use mousewheel to zoom out to see quests.
-#A gtnh.line4.desc=Your second voltage tier. Don't mix different voltage levels, or you'll have a fancy new crater. Start thinking about how to expand your base. %n%nBTW, for OCing purposes, this counts as tier 2, ULV doesn't count.
-#C gtnh.line4.desc=第二个 "电压" 的阶段.不要把不同电压的机器混用,否则你会得到教训.开始考虑如何扩展你的基地.再来一次,使用鼠标滚轮缩小以查看任务.
+gtnh.line4.desc=第二个 "电压" 的阶段.不要把不同电压的机器混用,否则你会得到一个大坑.开始考虑如何扩展你的基地.%n%n顺便一提,对OCing来说,这算作第2阶,ULV不算.
 
 # QuestLine.5 - Tier 4 - 512 EU (HV)
 gtnh.line5.name=第4阶-高压(512 HV)
