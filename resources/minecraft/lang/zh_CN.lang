@@ -22,9 +22,7 @@ gtnh.quest4.desc=现在,你可能会发现出现了两个新任务.注意一下�
 
 # Quest.5 - §1§lTools
 gtnh.quest5.name=§1§l基本工具
-#B gtnh.quest5.desc=Now that you've got a shelter, crafting table, and a place to store your items, you should make some tools. (Unless you'd like to continue punching trees with your bare hand...)%n%nNOTE: Make sure to use vanilla sticks, not Natura sticks.
-#A gtnh.quest5.desc=Now that you've got a shelter and a crafting table, you should make some tools. (Unless you'd like to continue punching trees with your bare hand...)%n%nNOTE: Make sure to use vanilla sticks, not Natura sticks.%n%n§3You should probably make the shovel first so you can get gravel for the rest more easily.
-#C gtnh.quest5.desc=现在你有一个避难所、工作台和一个存放杂品的地方.你应该开始做一些基本工具了.(除非你想继续空手撸树......)%n%n注意:确保使用原版木棍,而不要使用Natura的木棍.
+gtnh.quest5.desc=现在你有一个避难所、工作台和一个存放杂物的地方.该做一些基本工具了.(除非你想继续空手撸树...)%n%n注意:确保使用原版木棍,而不要使用Natura的木棍.%n%n§3建议先做铲子, 以便更轻松地获取燧石.
 
 # Quest.6 - §1§lYou reap...
 gtnh.quest6.name=§1§l要怎么收获......
@@ -100,9 +98,7 @@ gtnh.quest23.desc=你试图用你的方块手乘点水,然而并没有什么卵�
 
 # Quest.24 - §1§2§lGetting (char)coal
 gtnh.quest24.name=§1§2§l获得(焦)木炭
-#B gtnh.quest24.desc=It's time to get yourself some charcoal. For that, we're going to build a coke oven. Good that you just collected a lot of resources! (What a coincidence...)
-#A gtnh.quest24.desc=It's time to get yourself some charcoal. For that, we're going to build a coke oven. Good that you just collected a lot of resources! (What a coincidence...)%n%n§3Even though Waila says you can't, you can punch these blocks to get them back if you mess up the placement before you have a metal pickaxe.
-#C gtnh.quest24.desc=该弄点木炭了.为此,我们要建造一个焦炉.干得好,你刚刚收集了很多资源！(好巧啊...)
+gtnh.quest24.desc=该弄点木炭了.为此,我们要建造一个焦炉.干得好,你刚刚收集了很多资源！(好巧啊...)%n%n§3虽然Waila告诉你必须用镐子才能采掘这些方块, 但实际上手撸就行...
 
 # Quest.25 - §2§lAnother brick in the wall
 gtnh.quest25.name=§2§l墙上的另一块砖
@@ -429,47 +425,31 @@ gtnh.quest105.name=§5§l缺少的一环
 gtnh.quest105.desc=曾有人说......<basdxz>管他的！把卷板机加进LV级任务......然后他就在那了.
 
 # Quest.106 - Your First Automation
-#B gtnh.quest106.name=Your first automation
-#A gtnh.quest106.name=Your First Automation
-#C gtnh.quest106.name=第一个自动化
+gtnh.quest106.name=第一个自动化
 gtnh.quest106.desc=好吧,也许不是第一次.但一定很重要！首先,你需要一台矿车组装机.
 
 # Quest.107 - Cart Modules: Coal Power
-#B gtnh.quest107.name=Cart modules: Power Coal
-#A gtnh.quest107.name=Cart Modules: Coal Power
-#C gtnh.quest107.name=矿车模块:煤炭引擎
+gtnh.quest107.name=矿车模块:煤炭引擎
 gtnh.quest107.desc=你的矿车显然需要能量.矿车可以通过太阳能或岩浆供能.但现在你只能用简单的煤炭引擎.
 
 # Quest.108 - Automated (un-)Loading
-#B gtnh.quest108.name=Automated (un-)loading
-#A gtnh.quest108.name=Automated (un-)Loading
-#C gtnh.quest108.name=自动装(卸)载
+gtnh.quest108.name=自动装(卸)载
 gtnh.quest108.desc=你可以手动填充和清空你的矿车,但自动化转移物品更方便,不是吗？
 
 # Quest.109 - Cart Modules: Farming
-#B gtnh.quest109.name=Cart modules: Farming
-#A gtnh.quest109.name=Cart Modules: Farming
-#C gtnh.quest109.name=矿车模块:农业
+gtnh.quest109.name=矿车模块:农业
 gtnh.quest109.desc=不幸的是,基础农业模块除了小麦以外什么都不能种.它并不贵,也许是最便宜的自动化食物生产方法.
 
 # Quest.110 - Cart Modules: Storage
-#B gtnh.quest110.name=Cart modules: Storage
-#A gtnh.quest110.name=Cart Modules: Storage
-#C gtnh.quest110.name=矿车模块:储存
+gtnh.quest110.name=矿车模块:储存
 gtnh.quest110.desc=一个基础的矿车不能容纳任何物品,所以你需要附上特殊的箱子.
 
 # Quest.111 - A Simple Cart
-#B gtnh.quest111.name=A simple cart
-#A gtnh.quest111.name=A Simple Cart
-#C gtnh.quest111.name=简单的矿车
-#B gtnh.quest111.desc=In order to create or customize your cart you need a hull to attach your desired upgrades to. The wooden one can be used for really simple applications, but to farm wheat or wood, you need at least an iron one.%n%n§c§lWARNING: §r§cUnprotected carts can be knocked off their rails by lightning. Cover the area with glass to prevent carts from disappearing.%n%nAlso, make sure to keep your cart in one chunk, or use chunkloaders covering the whole area the cart works within. Loading/unloading chunks may cause carts to disappear or duplicate.
-#A gtnh.quest111.desc=In order to create or customize your cart you need a hull to attach your desired upgrades to. The wooden one can be used for really simple applications, but to farm wheat or wood, you need at least an iron one.%n%n§c§lWARNING: §r§cUnprotected carts can be knocked off their rails by lightning. Cover the area with glass (or any solid block) to prevent carts from disappearing.%n%nAlso, make sure to keep your cart in one chunk, or use chunkloaders covering the whole area the cart works within. Loading/unloading chunks may cause carts to disappear or duplicate.
-#C gtnh.quest111.desc=为了组装或定制你的矿车,你需要一个车壳来附加所需的升级.木制的可以用于非常简单的应用,但要种植小麦或树木,你至少需要一个铁的.  §c§l警告: §r§c不受保护的矿车可能会被雷电击中而脱轨.用玻璃遮盖该区域,以防矿车消失.  另外,请确保将矿车放在一个区块中,或使用覆盖整个矿车工作区域的区块加载器.加载/卸载区块可能会导致矿车消失或重复.
+gtnh.quest111.name=简单的矿车
+gtnh.quest111.desc=为了组装或定制你的矿车,你需要一个车壳来附加所需的升级.木制的可以用于非常简单的应用,但要种植小麦或树木,你至少需要一个铁的.%n%n§c§l警告: §r§c不受保护的矿车可能会被雷电击中而脱轨.用玻璃(或任何固体方块)遮盖该区域,以防矿车消失.%n%n另外,请确保将矿车放在一个区块中,或使用覆盖整个矿车工作区域的区块加载器.加载/卸载区块可能会导致矿车消失或重复.
 
 # Quest.112 - Cart Modules: Wood Cutter
-#B gtnh.quest112.name=Cart modules: Wood cutter
-#A gtnh.quest112.name=Cart Modules: Wood Cutter
-#C gtnh.quest112.name=矿车模块:伐木
+gtnh.quest112.name=矿车模块:伐木
 gtnh.quest112.desc=基础伐木机用一段时间之后就会坏,但是你永远都不需要更换它.它可以很容易地用钻石修复.
 
 # Quest.113 - §5§lBasic transport pipe
@@ -577,9 +557,7 @@ gtnh.quest138.name=§5§6§l来到黑暗面......
 gtnh.quest138.desc=.......我们有饼干.
 
 # Quest.139 - Luke, I'm Your Father
-#B gtnh.quest139.name=Luke, I'm your father
-#A gtnh.quest139.name=Luke, I'm Your Father
-#C gtnh.quest139.name=卢克,我是你亲爹！
+gtnh.quest139.name=卢克,我是你亲爹！
 gtnh.quest139.desc=有了玄钢,你现在可以制作一套新的护甲了.它在开始的时候非常基础,但它以后可以升级以解锁强大的功能.
 
 # Quest.140 - §6§lDark steel tools
@@ -11665,12 +11643,8 @@ gtnh.line10.name=捕鱼,农业,烹饪
 gtnh.line10.desc=抓住它,养护它,吃它！
 
 # QuestLine.11 - Getting Around Without Dying
-#B gtnh.line11.name=Armors and Jetpacks
-#A gtnh.line11.name=Getting Around Without Dying
-#C gtnh.line11.name=装甲和喷气背包
-#B gtnh.line11.desc=Guiding you through the armor and jetpacks and Adventure Backpacks.
-#A gtnh.line11.desc=In order to not die constantly, you'll need armor and transportation. There's also utility stuff like minecarts/trains, adventure backpacks and jetpacks.
-#C gtnh.line11.desc=指导你穿上装甲和喷气背包以及更先进的背包.
+gtnh.line11.name=摆脱死亡,游历四方
+gtnh.line11.desc=你需要装甲和交通工具才能免于不断死亡. 还有一些实用工具, 比如矿车/火车, 探险背包还有喷气背包.
 
 # QuestLine.12 - Multiblock Goals
 gtnh.line12.name=多方块结构
@@ -11678,29 +11652,19 @@ gtnh.line12.desc=这里有所有的多方块结构,你可以在各个阶段建�
 
 # QuestLine.13 - Building Better Bases
 gtnh.line13.name=基地建设
-#B gtnh.line13.desc=Tired of torches everywhere making your base look like a loser built it? Make your base look like a winner with these quests. (under construction)
-#A gtnh.line13.desc=Tired of torches everywhere making your base look like a loser built it? Make your base look like a winner with these quests.
-#C gtnh.line13.desc=厌倦了到处都是火把的基地,这让你的基地像个失败的作品?来看看这些任务吧,它们会让你的基地焕然一新(在建中...)
+gtnh.line13.desc=厌倦了到处都是火把的基地,这让你的基地像个失败的作品?来看看这些任务吧,它们会让你的基地焕然一新.
 
 # QuestLine.14 - Basic Automation
-#B gtnh.line14.name=Steve Carts
-#A gtnh.line14.name=Basic Automation
-#C gtnh.line14.name=史蒂夫矿车
-#B gtnh.line14.desc=Basic auto farming and mining.  Protect them from lightning strikes!
-#A gtnh.line14.desc=Steve's Carts and ProjectRed automation, for your auto-farming and auto-crafting needs, lag included!
-#C gtnh.line14.desc=基本的自动农业和采矿.保护他们免受雷击！
+gtnh.line14.name=基础自动化
+gtnh.line14.desc=史蒂夫矿车和红石计划自动化, 基础的自动化农业、采矿业, 还有延迟!
 
 # QuestLine.16 - Coins, Coins, Coins
 gtnh.line16.name=硬币、硬币、硬币
-#B gtnh.line16.desc=These quests will guide you to use your Coins wisely and buy some useful or fancy stuff.%nZoom out using mousewheel to see all the amazing things for sale!
-#A gtnh.line16.desc=These quests will give you something to use your Coins on. So come on in and and buy some useful or fancy stuff.
-#C gtnh.line16.desc=这些任务将引导你明智地使用硬币,并购买一些有用或奇特的东西. 用鼠标滚轮缩小视图,看看能买到的所有好东西吧!
+gtnh.line16.desc=这些任务将引导你明智地使用硬币,进来购买一些有用或奇特的东西吧.
 
 # QuestLine.17 - GT++ 
 gtnh.line17.name=GT++ 
-#B gtnh.line17.desc=GT++ adds new functionality to GT, including high speed multiblocks - Under Construction
-#A gtnh.line17.desc=GT++ adds new functionality to GT, including high speed multiblocks
-#C gtnh.line17.desc=GT++为GT增加了新的功能,包括高效的多方块(在建中...)
+gtnh.line17.desc=GT++为GT增加了新的功能,包括高效的多方块
 
 # QuestLine.18 - Forestry and Multi-farms
 gtnh.line18.name=林业与农业
@@ -11711,15 +11675,11 @@ gtnh.line19.name=蜜蜂育种
 gtnh.line19.desc=这里将引导你如何繁殖蜜蜂(实验版,可能会导致蜂蜜泄漏)
 
 # QuestLine.20 - How to Be(e)
-#B gtnh.line20.name=How to be(e)
-#A gtnh.line20.name=How to Be(e)
-#C gtnh.line20.name=人来疯(蜂)
+gtnh.line20.name=人来疯(蜂)
 gtnh.line20.desc=一套在游戏中不分阶段的任务,蜜蜂的基础探索和指南.是一个非常有用来推进的工具.
 
 # QuestLine.22 - Novice Thaumaturgy
-#B gtnh.line22.name=Novice Thaumaturge
-#A gtnh.line22.name=Novice Thaumaturgy
-#C gtnh.line22.name=魔法学徒
+gtnh.line22.name=魔法学徒
 gtnh.line22.desc=魔法的奥秘皆藏于此.卓越的成就,但也需要大量的工作.我将成为你的导师.照我的指导,你将成为一位伟大的法师,就像我.
 
 # QuestLine.23 - Adept Thaumaturgy
@@ -11736,20 +11696,14 @@ gtnh.line25.desc=你知道哪个法杖核心是有用的吗？
 
 # QuestLine.26 - Electro Magic
 gtnh.line26.name=电力魔法
-#B gtnh.line26.desc=This Tab focus on Electro Magic Tools and Thaumic Energistics. These are some nice mods, that will help you with machinery and magic.
-#A gtnh.line26.desc=This Tab focuses on Electro Magic Tools which will help you with combining machinery and magic.
-#C gtnh.line26.desc=本章节主要围绕电动魔法工具和神秘能源展开. 这都是很不错的MOD,它们将帮助你同时发展你的科技和魔法.
+gtnh.line26.desc=本章节主要围绕电动魔法工具展开. 它能帮助你将科技与魔法结合.
 
 # QuestLine.27 - Look to the Edges
-#B gtnh.line27.name=Look to the edges
-#A gtnh.line27.name=Look to the Edges
-#C gtnh.line27.name=替代魔法
+gtnh.line27.name=替代魔法
 gtnh.line27.desc=这是什么样的巫术！？
 
 # QuestLine.28 - Paying the Highest Price
-#B gtnh.line28.name=Paying the highest price
-#A gtnh.line28.name=Paying the Highest Price
-#C gtnh.line28.name=付出最高的代价
+gtnh.line28.name=付出最高的代价
 gtnh.line28.desc=当普通魔法不够的时候,召唤恶魔来服侍你！虽然代价有些吓人...但没有风险就没有乐趣！
 
 # QuestLine.29 - Endgame Goals
@@ -11761,38 +11715,24 @@ gtnh.line30.name=第8阶-零点压(131072 ZPM)
 gtnh.line30.desc=恭喜, 你已经完成了装配线和聚变反应堆并提升到了零点压. 你已经进入了游戏后期, 但仍有许多东西可以玩. 祝你好运!
 
 # QuestLine.31 - Advanced Automation
-#B gtnh.line31.name=Open Computers
-#A gtnh.line31.name=Advanced Automation
-#C gtnh.line31.name=开放式电脑
-#B gtnh.line31.desc=The magical world of ingame programming!
-#A gtnh.line31.desc=SFM and OC have your back for assline automation! And automating other stuff too complex for AE2, like infusion or blood altars. You can do a lot of cool stuff with OC, feel free to give it a try.
-#C gtnh.line31.desc=游戏内编程的神奇世界！
+gtnh.line31.name=先进自动化
+gtnh.line31.desc=SFM和OC将帮助你实现装配线自动化! 还有些设备单纯靠AE自动化太过复杂, 比如聚变或血魔法祭坛. 你可以通过OC实现很多非常实用的功能, 多尝试尝试吧.
 
 # QuestLine.34 - Space Race
 gtnh.line34.name=太空竞赛
-#B gtnh.line34.desc=A guide to help you start Galacticraft and reach the Moon
-#A gtnh.line34.desc=A guide to help you start Galacticraft to reach the Moon and beyond
-#C gtnh.line34.desc=帮助你开始星系mod并遨游星际.我们的征途是星辰大海！
+gtnh.line34.desc=帮助你开始星系mod并遨游星际.我们的征途是星辰大海！
 
 # QuestLine.35 - Applied Energistics
 gtnh.line35.name=应用能源
-#B gtnh.line35.desc=AE2 focuses on creating a compact, easily accessible, considerably extendible storage system called an ME Network. 
-#A gtnh.line35.desc=AE2 focuses on creating a compact, easily accessible, considerably extendible storage system called an ME Network. You can use it to autocraft items as well, and if you want to finish the pack, you will.
-#C gtnh.line35.desc=AE2的重点是如何建立一个紧凑、方便、可无限扩展的,被我们称之为ME网络的超级存储系统.
+gtnh.line35.desc=AE2的重点是如何建立一个紧凑、方便、可无限扩展的,被我们称之为ME网络的超级存储系统. 它同样能实现各种自动化, 如果你的目标是毕业的话, AE是必不可少的.
 
 # QuestLine.37 - Kill All the Things
-#B gtnh.line37.name=Kill all the things
-#A gtnh.line37.name=Kill All the Things
-#C gtnh.line37.name=杀戮时刻
+gtnh.line37.name=杀戮时刻
 gtnh.line37.desc=这世界充满了污秽的东西.是时候杀了它们提高你的声望了.
 
 # QuestLine.40 - Legendary Quests
-#B gtnh.line40.name=Legendary Tier X
-#A gtnh.line40.name=Legendary Quests
-#C gtnh.line40.name=传奇阶段 X
-#B gtnh.line40.desc=A legendary quest-line with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?
-#A gtnh.line40.desc=A legendary quest-line with difficult tasks, expensive recipes and potentially dangerous locations. Are you prepared?%n%nMay be related to Dragons?
-#C gtnh.line40.desc=传说级的任务线,艰巨的任务,昂贵的配方和潜在的危险地点. 准备好了吗？
+gtnh.line40.name=传奇任务
+gtnh.line40.desc=传说级的任务线,艰巨的任务,昂贵的配方和潜在的危险地点. 准备好了吗？%n%n可能与龙有关?
 
 # QuestLine.42 - Reward Area
 gtnh.line42.name=奖励区
