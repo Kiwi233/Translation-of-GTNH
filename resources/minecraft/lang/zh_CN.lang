@@ -650,9 +650,7 @@ gtnh.quest161.desc=当一般的魔法已经不能满足你需要的时候,你可
 
 # Quest.162 - §9§lDimensional goal: Moon
 gtnh.quest162.name=§9§l目标:月球
-#B gtnh.quest162.desc=HV is the age where you should focus on reaching the Moon, as soon as possible. You will need titanium in large quantities. %n%n§4Hint: more info will be found in the Space Race quest tab.
-#A gtnh.quest162.desc=HV is about getting to the moon so you can get Titanium, used to make EV and AE2 machines. It's a long and involved task though, so head on over to the Space Race tab for more info.%n%n§3You need IV circuits and the HV assembler to start the tab though.
-#C gtnh.quest162.desc=在HV阶段,你应该尽快登上月球.在月球上可以获得大量的钛. §4提示:你可以在"太空竞赛"任务栏中找到更多的信息.
+gtnh.quest162.desc=在HV阶段,你应该尽快登上月球.以获得钛,用于制造EV机器和AE系统. 虽然这是一个漫长而艰巨的任务, 请转到"太空竞赛"任务栏获取更多信息.%n%n§3另外,IV电路板和HV组装机是这个任务栏的前置条件.
 
 # Quest.163 - §9§lI see everything
 gtnh.quest163.name=§9§l我看到了一切
@@ -719,9 +717,7 @@ gtnh.quest178.name=存储时间！
 gtnh.quest178.desc=现在你已经进入高压时代了,你可以开始考虑建设你的外星存储系统(AE). 在一开始AE提供给你的存储空间很小而且整个系统特别的费电.但是外星科技绝绝对值得你付出努力. 首先你应该获得4种不同类型芯片的压印模板.
 
 # Quest.179 - Gotta Find Them All
-#B gtnh.quest179.name=Find them all
-#A gtnh.quest179.name=Gotta Find Them All
-#C gtnh.quest179.name=找到他们
+gtnh.quest179.name=得找到它们
 gtnh.quest179.desc=地表上有很多陨石,但地下有更多.为了找到这些陨石,你需要一个陨石罗盘.但陨石罗盘只会告诉你当前区块里有一颗陨石,而用你古老的寻矿魔杖,你可以更好地知道陨石藏在哪里.  想要获知AE2的更多细节,访问https://tinyurl.com/GTNH-AE2
 
 # Quest.180 - 16k Item Storage Cell
@@ -1237,9 +1233,7 @@ gtnh.quest307.name=神的力量
 gtnh.quest307.desc=你发现这颗珍珠会对你造成一些有趣的影响.曾经在你耳边的那些低语消失了,并且扩大了你在某些方面的感知力. 你能"感觉"到在你身边的魔力.这值得进一步研究一下.
 
 # Quest.308 - The Final Goal
-#B gtnh.quest308.name=The final goal
-#A gtnh.quest308.name=The Final Goal
-#C gtnh.quest308.name=最终的目标
+gtnh.quest308.name=最终的目标
 gtnh.quest308.desc=在你的帮助下,我终于创造了一个终极的能量来源:一个被磁场包裹的迷你虫洞.它将从人工宇宙中吸取能量,直到它生命的终点-热寂. 你已经帮助我完成了我的梦想,这个人工虫洞我还没有使用它,现在它是你的了. 最后再次感谢你,我的朋友！
 
 # Quest.309 - Shards of Opposite Worlds
@@ -1287,12 +1281,8 @@ gtnh.quest319.name=永不磨损的斧头
 gtnh.quest319.desc=用新金属打造的斧头永远不会损坏,并且可以更容易的获得高等级的附魔.不过一会还有更多的事情告诉你...
 
 # Quest.320 - Ichorium
-#B gtnh.quest320.name=Infused Thaumium
-#A gtnh.quest320.name=Ichorium
-#C gtnh.quest320.name=注入神秘的力量
-#B gtnh.quest320.desc=By combining ichor with some thaumium, the metal turned into something new; Something extremely durable but also soft. Its magic conductivity is incredible
-#A gtnh.quest320.desc=By combining ichor with some void metal and osmiridium, the metal turned into something new; Something extremely durable but also soft. Its magic conductivity is incredible
-#C gtnh.quest320.desc=使用灵液和一些神秘的力量,我们可以转换出一种新型的金属.这种金属十分柔软,但是却超级耐用.并且这种金属有着令人难以置信的魔力传导性.
+gtnh.quest320.name=灵宝
+gtnh.quest320.desc=将灵液和虚空金属以及铱锇合金结合, 我们可以转换出一种新型的金属. 这种金属十分柔软, 但是却超级耐用. 并且这种金属有着令人难以置信的魔力传导性.
 
 # Quest.321 - Unbreakable Sword
 gtnh.quest321.name=永不磨损的剑
@@ -1411,12 +1401,8 @@ gtnh.quest349.name=成为一个吸血鬼,打扮得像个花花公子
 gtnh.quest349.desc=有时候打扮花哨的衣服会很麻烦.然而,如果你证明自己是有价值的,你就可以得到一套免费的.
 
 # Quest.350 - A Few More Things...
-#B gtnh.quest350.name=A few more things...
-#A gtnh.quest350.name=A Few More Things...
-#C gtnh.quest350.name=还有点事儿......
-#B gtnh.quest350.desc=Ok, I think I have everything I need to assemble the device. Can you assist me with some additional materials? I need to update most of my machines, as these exotic components you got me damaged most of them already. Don't worry, I have a list here.%n%nMost of my circuits burned to a crisp while I was trying to measure the conductivity of these soul and life shards. I need better ones.%n%nGood lord, these mysterious crystals have eaten away my diamond grinding head! How could that happen? Can you get me a better one?%n%nDo you see that pile of chrome over there? No? Neither do I. Because the machine was VAPORIZED! Good that you gave me 2 singularities, the first one... Well... Just get me a better casing, would you?%n%nIt seems, that the stabilizers need... stabilizing... But I'm out of field generators. Can you help me with this?
-#A gtnh.quest350.desc=Ok, I think I have everything I need to assemble the device. Can you assist me with some additional materials? I need to update some of my machines, as these exotic components you got me damaged some of them already. Don't worry, I have a list here.%n%nSome of my circuits burned to a crisp while I was trying to measure the conductivity of these soul and life shards. I need better ones.%n%nGood lord, these mysterious crystals have eaten away my diamond grinding head! How could that happen? Can you get me a better one?%n%nDo you see that pile of Rhodium and Palladium over there? No? Neither do I. Because the machine was VAPORIZED! Good that you gave me 2 singularities, the first one... Well... Just get me a better casing, would you?%n%nIt seems, that the stabilizers need... stabilizing... But I'm out of field generators. Can you help me with this?
-#C gtnh.quest350.desc=好吧,我这里有全套的组装设备.但是你能帮我准备一些额外的配件吗？ 我需要升级我大部分的机器.在研究他们时我的大部分机器都损坏了.来吧我给你列个清单.  在我测试这些生命和灵魂碎片的导电率时我的大部分电路都被烧毁了,我需要一些更好的电路替换它们. 还有这些天杀的神秘碎片,我的钻石磨头对它们无能为力,帮我买个更好的来. 还有你看到旁边那堆铬了吗？什么,没看到？好吧那可能是因为你给我奇点......哎...算了,给我弄一个更好的机器外壳吧. 最后我没有稳定器所需要的力场发生器,再给我弄2个过来.
+gtnh.quest350.name=还有点事儿......
+gtnh.quest350.desc=好吧,我这里有全套的组装设备.但是你能帮我准备一些额外的配件吗？ 我需要升级我的部分机器.在研究他们时我的部分机器损坏了.来吧我给你列个清单.%n%n在我测试这些生命和灵魂碎片的导电率时我的部分电路被烧毁了,我需要一些更好的电路替换它们.%n%n还有这些天杀的神秘碎片,我的钻石磨头对它们无能为力,帮我买个更好的来.%n%n还有你看到旁边那堆铑和钯了吗？什么,没看到？好吧那可能是因为机器已经气化...哎...算了,给我弄一个更好的机器外壳吧.%n%n最后我没有稳定器所需要的力场发生器,再给我弄2个过来.
 
 # Quest.351 - Hello There!
 gtnh.quest351.name=嘿！看那里！
