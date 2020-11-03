@@ -1409,23 +1409,15 @@ gtnh.quest351.name=嘿！看那里！
 gtnh.quest351.desc=我看到了你的进步, 不得不说, 你让我印象深刻. 我手头有一个大项目, 所以可能很快就需要你的帮助.
 
 # Quest.352 - Power, So Much Power!
-#B gtnh.quest352.name=Power. So much power!
-#A gtnh.quest352.name=Power, So Much Power!
-#C gtnh.quest352.name=能量.很多的能量！
-#B gtnh.quest352.desc=If only I could harness it... Well, hi there my friend. I need your help with a project of mine. I want to create an immense power source, but I have a few problems that I need to solve first. Will you help me? You will be rewarded.
-#A gtnh.quest352.desc=If only I could harness it... Well, hello there my friend. I need your help with a project of mine. I want to create an immense power source, but I have a few problems that I need to solve first. Will you help me? You'll be well rewarded.%n%n§3The quests to get items will trigger the next part once you hold the item in question.
-#C gtnh.quest352.desc=嗨！你好.我手头有一个项目需要帮助. 我想创造一个巨大的能量源,但是有一些问题需要先解决. 当然,如果你能帮助我我会给予你一些奖励的！
+gtnh.quest352.name=能量.很多的能量！
+gtnh.quest352.desc=嗨！你好.我手头有一个项目需要帮助. 我想创造一个巨大的能量源,但是有一些问题需要先解决. 当然,帮助我会得到不错的奖励的！%n%n§3当你手持有问题的物品时, 获取下一个物品的任务将会触发.
 
 # Quest.353 - A Problem that Matters
-#B gtnh.quest353.name=A problem that matters
-#A gtnh.quest353.name=A Problem that Matters
-#C gtnh.quest353.name=一个重要的问题
+gtnh.quest353.name=一个重要的问题
 gtnh.quest353.desc=我需要打开一个虫洞.但是我需要一个巨大的引力场. 就像恒星爆炸, 黑洞那样强大的引力场. 但是我不可能去"杀死"太阳.我需要某种方法来压缩物质. 但是,怎么做? 我想我可能需要专门的机器, 不需要聚爆的, 因为它的密度不够高.
 
 # Quest.354 - Now that Matters!
-#B gtnh.quest354.name=Now that matters!
-#A gtnh.quest354.name=Now that Matters!
-#C gtnh.quest354.name=现在的问题！
+gtnh.quest354.name=现在的问题！
 gtnh.quest354.desc=哦！物质聚合机！我怎么就没想到呢？
 
 # Quest.355 - I need a stabilizer
@@ -1437,30 +1429,20 @@ gtnh.quest356.name=闪闪发光
 gtnh.quest356.desc=这是这个世界的东西吗？这太神奇了！我需要你提供更多的这个东西！ 这种神奇的材料可以稳定虫洞.
 
 # Quest.357 - I'm Hungry
-#B gtnh.quest357.name=I'm hungry
-#A gtnh.quest357.name=I'm Hungry
-#C gtnh.quest357.name=我饿了
+gtnh.quest357.name=我饿了
 gtnh.quest357.desc=我的工作很多！请拿点吃的给我.
 
 # Quest.358 - It Needs a Power Plug...
-#B gtnh.quest358.name=It needs a power plug...
-#A gtnh.quest358.name=It Needs a Power Plug...
-#C gtnh.quest358.name=我需要一个能量"插头"
+gtnh.quest358.name=我需要一个能量"插头"
 gtnh.quest358.desc=我正在制造的这台设备需要某种插头来做能量的出口. 我需要某种能够引导巨大能量的材料. 我曾经考虑过超导体.但是这种材料不能安装在我最想要的水晶外壳上面. 所以我还是需要2种晶体,一种晶体作为能源输出装置的正极,另外要一种作为负极.
 
 # Quest.359 - Red and Blue
-#B gtnh.quest359.name=Red and blue
-#A gtnh.quest359.name=Red and Blue
-#C gtnh.quest359.name=红色和蓝色
+gtnh.quest359.name=红色和蓝色
 gtnh.quest359.desc=真的？红色和蓝色的水晶？这真令人惊叹！ 以防万一,我想我每一种都需要8个.
 
 # Quest.360 - A Casing
-#B gtnh.quest360.name=A casing
-#A gtnh.quest360.name=A Casing
-#C gtnh.quest360.name=外壳
-#B gtnh.quest360.desc=I need something for the outer shell. Again, a crystal-based material would be best, because I like it shiny. I tested all crystals we know and none of them meet the requirements. I heard you have access to outer space? Can you try to find a suitable material while you're out there?
-#A gtnh.quest360.desc=I need something for the outer shell. Again, a crystal-based material would be best, because I like it shiny. I tested all crystals I know of and none of them met the requirements. I heard you have access to outer space? Can you try to find a suitable material while you're out there?
-#C gtnh.quest360.desc=我需要一些制造外壳的材料. 再说一次,晶体材料将是最好的选择,因为我喜欢它们的光泽. 我测试了我知道的所有晶体材料,但是没有一种晶体可以满足我的要求. 听说你最近有空？你在外边冒险的时候能不能帮我找一找合适的材料？
+gtnh.quest360.name=外壳
+gtnh.quest360.desc=我需要一些制造外壳的材料. 再说一次,晶体材料将是最好的选择,因为我喜欢它们的光泽. 我测试了我知道的所有晶体材料,但是没有一种晶体可以满足我的要求. 听说你最近有空？你在外边冒险的时候能不能帮我找一找合适的材料？
 
 # Quest.361 - Fancy!
 gtnh.quest361.name=真贵!
@@ -2027,9 +2009,7 @@ gtnh.quest501.name=找到一些蜜蜂
 gtnh.quest501.desc=下一步:在世界各地找一些野生蜂巢.你能找到11个种类的蜂巢,其中8种可以在主世界被发现.找到任何种类的蜜蜂都可以帮助你完成任务.
 
 # Quest.502 - A New Home
-#B gtnh.quest502.name=A new home
-#A gtnh.quest502.name=A New Home
-#C gtnh.quest502.name=一个新家
+gtnh.quest502.name=一个新家
 #B gtnh.quest502.desc=Now that you've destroyed the poor bees homes, you should build them a new one. The humble Bee House will not let your bees mutate into new species. But you'll need the combs anyways for better housing.  The production rate isn't too bad, but they cannot be automated.%n%nOne tip - Put some vanilla saplings near the Bee Houses. Bee Houses give a natural boost of 3x to pollination vs better housing. The bees will pollinate them and you might get lucky and start getting some Forestry tree crossbreeding. Stick with Oak and Birch trees, they'll give you a nice mix of starter Forestry trees.
 #A gtnh.quest502.desc=Now that you've destroyed the poor bees' homes, you should build them a new one. The humble Bee House will not let your bees mutate into new species. But you'll need the combs anyways for better housing. The production rate isn't too bad, but they cannot be automated.%n%nOne tip - Put some vanilla saplings near the Bee Houses. Bee Houses give a natural boost of 3x to pollination vs better housing. The bees will pollinate them and you might get lucky and start getting some Forestry tree crossbreeding. Stick with Oak and Birch trees, they'll give you a nice mix of starter Forestry trees.%n%nOf course, if you do this without taking precautions, you may find yourself swarmed by laggy butterflies...%n%nYou may also notice that bees with the 'flower' type flower spread flowers. This can be used to get, say, lavender among others. If you don't like them spreading them everywhere, replace the dirt/grass blocks, remove the trait, or reduce the pollination speed/territory.
 #C gtnh.quest502.desc=既然你已经摧毁了蜜蜂的家园,那么你应该给他们找一个新家.这种低阶蜂房不会使你的蜜蜂变异.但你还是需要蜂巢来为蜜蜂制作更好的住房.  简易蜂房的生产速度还不错,但不能自动化.  一个提示-在你的蜂房附近种些原版树苗.简易蜂房比起"更好的住房"有3倍的授粉速度.蜜蜂会给树木授粉,然后你就可以开始林业树木杂交了.把橡木和白桦相邻种植,它们会给你一个林业树木杂交良好的开端.
