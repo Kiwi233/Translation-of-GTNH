@@ -2077,24 +2077,16 @@ gtnh.quest518.name=要有光
 gtnh.quest518.desc=给公主蜂注射基因性状好麻烦？懒得去寻找大量的蜜蜂？这都不是问题, 有了这个漂亮的小装置, 你可以用大量的能量、液体DNA和蛋白质来制造你想要的任何蜜蜂. 唯一的缺点就是: 所有制造出的蜜蜂都是卑贱种, 这意味着这些小家伙在繁衍多个周期后有绝代的可能性.%n%n当然, 工业蜂箱有个升级可以解决这个问题.
 
 # Quest.519 - Only the Best: Temperature
-gtnh.quest519.name=只要最好:耐温性全3
-gtnh.quest519.desc=为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.%n%n§3None is for testing jubilant state, while 3 is what you'll have on most of the time. You can hit all temp reqs with 3 if you work in a normal temp area. You can go up to 5 if you use the acclimatizer and want nether bees working in an icy area for some reason.
+gtnh.quest519.name=只要最好:耐温性
+gtnh.quest519.desc=为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.%n%n§3耐温性带来的温度适应无法使蜜蜂处于最佳状态(无法生产特殊产物), 绝大多数情况下, 耐温性全3就足够了. 在常温区域, 耐温性全3可以让所有种类的蜜蜂正常工作. 当然, 这项属性的极限是全5, 如果你感兴趣的话, 通过适应性调整器, 可以让地狱蜂在寒冷区域正常工作.
 
 # Quest.520 - Only the Best: Humidity
-#B gtnh.quest520.name=Only the Best: Humidity 3
-#A gtnh.quest520.name=Only the Best: Humidity
-#C gtnh.quest520.name=只要最好:耐湿性全3
-#B gtnh.quest520.desc=On your way to awesome bees, you have to collect only the best traits available.
-#A gtnh.quest520.desc=On your way to awesome bees, you have to collect only the best traits available.%n%n§3None is for testing jubilant state, while 2 is what you'll have on most of the time. 3+ don't do anything as the range doesn't go that high.
-#C gtnh.quest520.desc=为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.
+gtnh.quest520.name=只要最好:耐湿性
+gtnh.quest520.desc=为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.%n%n§3耐湿性带来的湿度适应无法使蜜蜂处于最佳状态(无法生产特殊产物), 绝大多数情况下, 耐温性全2就足够了. 3+的耐湿性没有什么意义, 因为湿度范围没有那么大.
 
 # Quest.521 - Only the Best: Fertility
-#B gtnh.quest521.name=Only the Best: Fertility 4
-#A gtnh.quest521.name=Only the Best: Fertility
-#C gtnh.quest521.name=只要最好:生育能力4
-#B gtnh.quest521.desc=On your way to awesome bees, you have to collect only the best traits available. Bees bees everywhere!
-#A gtnh.quest521.desc=On your way to awesome bees, you have to collect only the best traits available. Bees bees everywhere!%n%n§3F4 is great while breeding bees, but F1 is what you want to use when producing stuff.
-#C gtnh.quest521.desc=为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征. 蜜蜂到处都是！
+gtnh.quest521.name=只要最好:生育能力
+gtnh.quest521.desc=为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征. 蜜蜂到处都是！%n%n§3生育能力4是培育蜜蜂的核心属性, 但生育能力1却是蜜蜂生产物品时你最想要的属性.
 
 # Quest.522 - Highend species: Draconic
 gtnh.quest522.name=高级品种:恶龙
@@ -2105,9 +2097,7 @@ gtnh.quest523.name=高级品种:博士
 gtnh.quest523.desc=为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.
 
 # Quest.524 - Only the Best: Speed Blinding
-#B gtnh.quest524.name=Only the Best: Speed Fastest
-#A gtnh.quest524.name=Only the Best: Speed Blinding
-#C gtnh.quest524.name=只要最好:速度最快
+gtnh.quest524.name=只要最好:快到模糊
 gtnh.quest524.desc=为了培育最好的蜜蜂,你必须只收集他们身上最好的性状特征.嗡嗡嗡嗡嗡嗡,努力工作,真的嗡嗡！
 
 # Quest.525 - Highend species: Silicon
@@ -2456,27 +2446,23 @@ gtnh.quest610.desc=你无法在主世界或下界找到铅、方铅矿跟银.该
 
 # Quest.611 - §5§lSingle use battery: Mercury
 gtnh.quest611.name=§5§l一次性电池:汞
-gtnh.quest611.desc=汞及酸性电池是一次性电池,新成品电力是满的,但不能充电.一旦电力用完了,可以使用抽取机转换回小型电池外壳.这些电池可以放在LV级GT机器的电池槽中,机器机器将优先使用电池电力.也可以使用在LV电池箱中.
+gtnh.quest611.desc=汞及酸性电池是一次性电池,新成品电力是满的,但不能充电.一旦电力用完了,可以使用提取机转换回小型电池外壳.这些电池可以放在LV级GT机器的电池槽中,机器机器将优先使用电池电力.也可以使用在LV电池箱中.
 
 # Quest.612 - §5§lSingle use battery: Acid
 gtnh.quest612.name=§5§l一次性电池:酸
-gtnh.quest612.desc=汞及酸性电池是一次性电池,新成品电力是满的,但不能充电.一旦电力用完了,可以使用抽取机转换回小型电池外壳.这些电池可以放在LV级GT机器的电池槽中,机器将优先使用电池的EU电力,然后才是内部的EU储存.电池也可以使用在LV电池箱中做为缓冲.
+gtnh.quest612.desc=汞及酸性电池是一次性电池,新成品电力是满的,但不能充电.一旦电力用完了,可以使用提取机转换回小型电池外壳.这些电池可以放在LV级GT机器的电池槽中,机器将优先使用电池的EU电力,然后才是内部的EU储存.电池也可以使用在LV电池箱中做为缓冲.
 
 # Quest.613 - §5§lReusable battery: Sodium
 gtnh.quest613.name=§5§l可重复使用电池:钠
-#B gtnh.quest613.desc=Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.
-#A gtnh.quest613.desc=Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.%n%n§3Sodium is the one that stores the least EU of the 3 rechargable batteries, but is definitely the easiest to get.
-#C gtnh.quest613.desc=钠、镉、锂电池都是可充电电池.新成品没有电力,但可以在任何GT机器中充电.如果不需要了,可以用抽取机转换回小型电池外壳,但会失去内容物.
+gtnh.quest613.desc=钠、镉、锂电池都是可充电电池.新成品没有电力,但可以在任何GT机器中充电.如果不需要了,可以用提取机转换回小型电池外壳,但会失去内容物.%n%n§3钠电池的储电量是三种电池中最小的, 不过它也是造价最低廉的.
 
 # Quest.614 - §5§lReusable battery: Cadmium
 gtnh.quest614.name=§5§l可重复使用电池:镉
-gtnh.quest614.desc=钠、镉、锂电池都是可充电电池.新成品没有电力,但可以在任何GT机器中充电.如果不需要了,可以用抽取机转换回小型电池外壳,但会失去内容物.
+gtnh.quest614.desc=钠、镉、锂电池都是可充电电池.新成品没有电力,但可以在任何GT机器中充电.如果不需要了,可以用提取机转换回小型电池外壳,但会失去内容物.
 
 # Quest.615 - §5§lReusable battery: Lithium
 gtnh.quest615.name=§5§l可重复使用电池:锂
-#B gtnh.quest615.desc=Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.
-#A gtnh.quest615.desc=Sodium, cadmium, and lithium batteries are rechargeable batteries. They are crafted without stored energy, but can be charged in any gregtech machine. If unneeded, they can be placed in an extractor and converted back into small battery hulls, but their contents are lost.%n%n§3Lithium is the one that stores the most EU of the 3 rechargable batteries.
-#C gtnh.quest615.desc=钠、镉、锂电池都是可充电电池.新成品没有电力,但可以在任何GT机器中充电.如果不需要了,可以用抽取机转换回小型电池外壳,但会失去内容物.
+gtnh.quest615.desc=钠、镉、锂电池都是可充电电池.新成品没有电力,但可以在任何GT机器中充电.如果不需要了,可以用提取机转换回小型电池外壳,但会失去内容物.%n%n§3锂电池的储电量是三种电池中最大的.
 
 # Quest.616 - §5§lMercury
 gtnh.quest616.name=§5§l汞
@@ -2595,42 +2581,24 @@ gtnh.quest644.name=§5§l甲烷
 gtnh.quest644.desc=蒸馏某些精炼气体,可以得到甲烷,有许多方法可以得到甲烷.
 
 # Quest.645 - Glider Wings
-#B gtnh.quest645.name=Glider wings
-#A gtnh.quest645.name=Glider Wings
-#C gtnh.quest645.name=滑翔翼
-#B gtnh.quest645.desc=If for some reason you want to be able to jump down a cliff without getting the message "Player X fell from a high place". A great idea would be to find a way to soften your landing first. The hang glider should do that just fine.
-#A gtnh.quest645.desc=If for some reason you want to be able to jump down a cliff without getting the message "Player X fell from a high place", a great idea would be to find a way to soften your landing first. The hang glider should do that just fine.
-#C gtnh.quest645.desc=如果你想跳下悬崖,而不出现某某玩家从高处跌落的讯息,找个办法缓和你的降落是个好主意.滑翔翼可以做到这点.
+gtnh.quest645.name=滑翔翼
+gtnh.quest645.desc=如果你想跳下悬崖,而不出现某某玩家从高处跌落的讯息,找个办法缓和你的降落是个好主意.滑翔翼可以做到这点.
 
 # Quest.646 - §5§lElectrotine battery
 gtnh.quest646.name=§5§l空电池(蓝石)
-#B gtnh.quest646.desc=The electrotine battery is exclusively used in project red machines and the jetpack.%nElectrotine is a mixture of redstone and electrum dust.
-#A gtnh.quest646.desc=The electrotine battery is exclusively used in project red machines and the jetpack.%nElectrotine is a mixture of redstone and electrum dust.%n%nYou can either find it in the Nether or make it yourself in a Mixer.
-#C gtnh.quest646.desc=空电池这种蓝石电池专门用于PR的机器跟喷气背包中.蓝石粉由红石跟琥珀金粉搅拌而成.
+gtnh.quest646.desc=空电池这种蓝石电池专门用于PR的机器跟喷气背包中.蓝石粉由红石跟琥珀金粉搅拌而成.%n%n不过蓝石可以直接在下界挖到, 至于是搅拌还是挖就看你自己了.
 
 # Quest.647 - Electrotine Jetpack
-#B gtnh.quest647.name=Electrotine jetpack
-#A gtnh.quest647.name=Electrotine Jetpack
-#C gtnh.quest647.name=喷气背包
-#B gtnh.quest647.desc=Your glider gets you to the ground safely but it does not have any method to get up. After you researched electrotine you discovered that it is powerful enough for your first jetpack.%nA diamond chestplate surrounded with 4 electrotine batteries is powerful enough to bring you up in the air.%n%nIt does not have a hover mode so you better take your glider with you. %n%nHint: This jetpack can't fly higher than Y level 128.
-#A gtnh.quest647.desc=Your glider gets you to the ground safely but it does not have any method to get up. After you researched electrotine you discovered that it is powerful enough for your first jetpack.%nA diamond chestplate surrounded with 4 electrotine batteries is powerful enough to bring you up in the air.%n%nIt does not have a hover mode so you better take your glider with you. %n%nHint: This jetpack can't fly higher than Y-128.
-#C gtnh.quest647.desc=滑翔翼让你可以安全降落,但没办法让你往上飞.研究蓝石后,你发现他的能量足够让你做出第一个喷气背包.一个钻石胸甲加上四个空电池,就足够让你飞上天.但它并没有盘旋模式,所以最好带着你的滑翔翼.提示:这个喷气背包无法飞超过(128层).
+gtnh.quest647.name=喷气背包
+gtnh.quest647.desc=滑翔翼让你可以安全降落,但没办法让你往上飞.研究蓝石后,你发现他的能量足够让你做出第一个喷气背包.一个钻石胸甲加上四个空电池,就足够让你飞上天.但它并没有盘旋模式,所以最好带着你的滑翔翼.提示:这个喷气背包无法飞到超过Y-128的地方.
 
 # Quest.648 - Refill Your Jetpack
-#B gtnh.quest648.name=Refill your jetpack
-#A gtnh.quest648.name=Refill Your Jetpack
-#C gtnh.quest648.name=装填喷气背包
-#B gtnh.quest648.desc=GREAT.... you now have an empty jetpack.%nYou need 25 electrotine dust to completely fill it.%nLet's craft an electrotine generator and a charging bench to use the power of electrotine. %nYou will very quickly discover that, while it is fast and cheap, it's empty in the blink of an eye. Despite this, it is useful in combination with the hang glider to get into the air and to get away from hairy situations.
-#A gtnh.quest648.desc=GREAT.... you now have an empty jetpack. You need 25 electrotine dust to completely fill it. Let's craft an electrotine generator and a charging bench to use the power of electrotine. %n%nYou will very quickly discover that, while it is fast and cheap, it's empty in the blink of an eye. Despite this, it is useful in combination with the hang glider to get into the air and to get away from hairy situations.
-#C gtnh.quest648.desc=好极了...你现在有一个空的喷气背包.你需要25个蓝石粉来完全装满它.制作蓝石发电机跟充电台以便使用蓝石的能量.你马上就会发现,虽然充电又快又便宜,但是在眨眼间就用尽了.尽管如此,配合滑翔翼可以让你飞上空中,逃离一些困境.
+gtnh.quest648.name=装填喷气背包
+gtnh.quest648.desc=好极了...你现在有一个空的喷气背包. 你需要25个蓝石粉来完全装满它. 制作蓝石发电机跟充电台以便使用蓝石的能量.%n%n你马上就会发现,虽然充电又快又便宜,但是也会在眨眼间就用尽了.尽管如此,配合滑翔翼可以让你飞上空中,逃离一些困境.
 
 # Quest.649 - Coal Steam Jetpack
-#B gtnh.quest649.name=Coal steam jetpack
-#A gtnh.quest649.name=Coal Steam Jetpack
-#C gtnh.quest649.name=燃煤喷气背包
-#B gtnh.quest649.desc=Your coal jetpack needs coal and water to produce steam. After a short warm-up period you can go and take it for a ride. Keep in mind you will need your glider to make a soft landing.%n%nPut your jetpack on your back and hit Shift and the adventure backpacks action-key to start it.%n%nMax flying height for these jetpacks is the Y level of 185.%n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.
-#A gtnh.quest649.desc=Your coal jetpack needs coal and water to produce steam. After a short warm-up period you can go and take it for a ride. Keep in mind you will need your glider to make a soft landing.%n%nPut your jetpack on your back and hit Shift and the adventure backpack's action-key to start it.%n%nMax flying height for this jetpack is Y-185.%n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.
-#C gtnh.quest649.desc=你的燃煤喷气背包需要水跟炭来制造蒸汽.在短暂的暖机之后,就可以起飞了.记住你需要滑翔翼来安全的降落.将蒸汽背包装在你的背上,并按shift以及探险背包动作键来启动它.这种喷气背包的最大飞行高度是(185层).垂直速度在超过理想高度后,会线性降低.喷气背包的理想高度是(135层),直升机的理想高度是(100层).
+gtnh.quest649.name=燃煤喷气背包
+gtnh.quest649.desc=你的燃煤喷气背包需要水跟炭来制造蒸汽.在短暂的暖机之后,就可以起飞了.记住你需要滑翔翼来安全的降落.%n%n将蒸汽背包装在你的背上,并按shift以及探险背包动作键来启动它.%n%n这些喷气背包的最大飞行高度是185层.%n%n垂直速度在超过理想高度后,会线性降低.喷气背包的理想高度是135层,直升机的理想高度是100层.
 
 # Quest.650 - Copterpack, More 'Hover' than 'Jet'
 #B gtnh.quest650.name=Copter jetpack
