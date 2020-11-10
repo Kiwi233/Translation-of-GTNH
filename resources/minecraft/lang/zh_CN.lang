@@ -2598,51 +2598,31 @@ gtnh.quest648.desc=好极了...你现在有一个空的喷气背包. 你需要25
 
 # Quest.649 - Coal Steam Jetpack
 gtnh.quest649.name=燃煤喷气背包
-gtnh.quest649.desc=你的燃煤喷气背包需要水跟炭来制造蒸汽.在短暂的暖机之后,就可以起飞了.记住你需要滑翔翼来安全的降落.%n%n将蒸汽背包装在你的背上,并按shift以及探险背包动作键来启动它.%n%n这些喷气背包的最大飞行高度是185层.%n%n垂直速度在超过理想高度后,会线性降低.喷气背包的理想高度是135层,直升机的理想高度是100层.
+gtnh.quest649.desc=你的燃煤喷气背包需要水跟炭来制造蒸汽.在短暂的暖机之后,就可以起飞了.记住你需要滑翔翼来安全的降落.%n%n将蒸汽背包装在你的背上,并按shift以及探险背包动作键来启动它.%n%n这些喷气背包的最大飞行高度是185层.%n%n垂直速度在超过理想高度后,会线性降低.喷气背包的理想高度是135层,直升机背包的理想高度是100层.
 
 # Quest.650 - Copterpack, More 'Hover' than 'Jet'
-#B gtnh.quest650.name=Copter jetpack
-#A gtnh.quest650.name=Copterpack, More 'Hover' than 'Jet'
-#C gtnh.quest650.name=直升机背包
-#B gtnh.quest650.desc=The copter jetpack is the first jetpack with a hover mode. It is using all kind of different fuel types in buckets. %nBuckets of creosote, lava, oil, cetane, diesel,ethanol, and fuel will work.%nEquip your jetpack and hit Shift and the adventure backpacks action-key. You can also switch between hover and normal mode.%n%nMax flying height is limited to Y level 200. %n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.%n%n§3Dropped items will be pushed away from you, just like a helicopter pushes things away, so be careful in the End, or by cliffsides.
-#A gtnh.quest650.desc=The copterpack is the first jetpack with a hover mode. It uses several different types of fuels to power it. %n%nBuckets of creosote, lava, oil, diesel, cetane, ethanol, and fuel will work.%n%nEquip your jetpack and hit Shift and the adventure backpack's action-key. You can also switch between hover and normal mode.%n%nMax flying height is limited to Y-200. %n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.%n%n§3Dropped items will be pushed away from you, just like a helicopter pushes things away, so be careful in the End, or by cliffsides.
-#C gtnh.quest650.desc=直升机背包是第一个有盘旋模式的喷气背包.它可以使用所有桶装的燃料.%n桶装杂酚油、岩浆、石油,或燃料都可以.%n装备你的喷气背包,按shift以及探险背包动作键来启动它.你可以在正常模式跟盘旋模式间切换.%n%n最大飞行高度是(200层).%n%n垂直速度在超过理想高度后,会线性降低.喷气背包的理想高度是(135层),直升机的理想高度是(100层).%n%n§3掉落物会被吹走, 就像现实里的直升机一样, 所以在末地或悬崖边需要注意这一点.
+gtnh.quest650.name=直升机背包, 更擅悬停
+gtnh.quest650.desc=直升机背包是第一个有盘旋模式的喷气背包.它可以使用所有桶装的燃料.%n%n桶装杂酚油、岩浆、石油,或燃料都可以.%n%n装备你的喷气背包,按shift以及探险背包动作键来启动它.你可以在正常模式跟盘旋模式间切换.%n%n最大飞行高度是200层.%n%n垂直速度在超过理想高度后,会线性降低.喷气背包的理想高度是135层,直升机背包的理想高度是100层.%n%n§3掉落物会被吹走, 就像现实里的直升机一样, 所以在末地或悬崖边需要注意这一点.
 
 # Quest.651 - Electric Jetpack
-#B gtnh.quest651.name=Electric jetpack
-#A gtnh.quest651.name=Electric Jetpack
-#C gtnh.quest651.name=电力喷气背包
-#B gtnh.quest651.desc=Your first electrical jetpack. You need to hit the IC2 mode-switch key to toggle between normal mode and hover mode while holding down the jump key. When descending, remember to shut off hover mode or else you'll drain your jetpack.%n%nThe only limitation is that you can't fly higher than Y level 185.%n%nFor charging on the go, you can craft a charging crystal from ic2 charging components. You have to take the backpack out of the armor slot and put it in your hotbar and activate the charger by sneak-clicking. There are better models than this one old one I don't need any more. Look in NEI.%n%nLater on GT++ Charging Packs are belts that can charge everything in your inventory including armor. Check NEI for latest recipes.%n%nFinally, the GT++ wireless charger will charge everything in your inventory, including the jetpack, from your base at long ranges. A quest is unlocked once you finish your nanosuit. Just remember when you are off world or in the Nether that your jetpack isn't charging!
-#A gtnh.quest651.desc=Your first electrical jetpack. You need to hit the IC2 mode-switch key to toggle between normal mode and hover mode while holding down the jump key. When descending, remember to shut off hover mode or else you'll drain your jetpack.%n%nThe only limitation is that you can't fly higher than Y-185.%n%nFor charging on the go, you can craft a charging crystal from ic2 charging components. You have to take the backpack out of the armor slot and put it in your hotbar and activate the charger by sneak-clicking. There are better models than this one old one I don't need any more. Look in NEI.%n%nLater on GT++ charging packs are belts that can charge everything in your inventory including armor. Check NEI for the recipe.%n%nFinally, the GT++ wireless charger will charge everything in your inventory, including the jetpack, from your base at long ranges. A quest is unlocked once you finish your nanosuit. Just remember when you are off world or in the Nether that your jetpack isn't charging!
-#C gtnh.quest651.desc=你的第一个电力喷气背包.你需要按IC2的切换模式键及空格键来切换飞行模式.当你想下降时,记得关闭悬停模式,否则会耗尽你的喷气背包.  喷气背包唯一的限制是不能飞超过(185层).  想要在旅途中为喷气背包充电,你需要制作一个IC2能量充电电池.你需要将喷气背包从装备栏脱下,放入快捷栏,然后shift+右键激活充电电池.充电电池还有更高级的型号,不过我用不着.你要是感兴趣就查查NEI吧.  以后还可以制作重力胸甲的充电背包、GT++的充电工具包(腰带),它们可以为你物品栏和装备栏中的物品充电.  最后,还有GT++的无线充电器,它可以为你物品栏和装备栏中的物品充电,以你的基地为中心,覆盖很大一片范围.当你完成了你的纳米套装后会有一个相关任务解锁.唯一要记住的就是,当你去了其他世界,你的喷气背包将不会被实时充电！
+gtnh.quest651.name=电力喷气背包
+gtnh.quest651.desc=你的第一个电力喷气背包.你需要按IC2的切换模式键及空格键来切换飞行模式.当你想下降时,记得关闭悬停模式,否则会耗尽你的喷气背包.%n%n喷气背包唯一的限制是不能飞超过185层.%n%n想要在旅途中为喷气背包充电,你需要制作一个IC2能量充电电池.你需要将喷气背包从装备栏脱下,放入快捷栏,然后shift+右键激活充电电池.充电电池还有更高级的型号,不过我用不着.你要是感兴趣就查查NEI吧.%n%n以后还可以制作重力胸甲的充电背包、GT++的充电工具包(腰带),它们可以为你物品栏和装备栏中的物品充电.%n%n最后,还有GT++的无线充电器,它可以为你物品栏和装备栏中的物品充电,以你的基地为中心,覆盖很大一片范围.当你完成了你的纳米套装后会有一个相关任务解锁.唯一要记住的就是,当你去了其他世界,你的喷气背包将不会被实时充电！
 
 # Quest.652 - Fueled jetpack
 gtnh.quest652.name=燃气喷气背包
-#B gtnh.quest652.desc=This jetpack uses IC2 biogas and can fly up to Y level 245.%nYou can switch between hover and normal mode using the IC2 mode-switch key.%n%nYour jetpack can be (re-)fueled in the IC2 fluid canner with 30 buckets/cells worth of biogas.
-#A gtnh.quest652.desc=This jetpack uses IC2 biogas and can fly up to Y-245.%nYou can switch between hover and normal mode using the IC2 mode-switch key.%n%nYour jetpack can be (re-)fueled in the IC2 fluid canner with 30 buckets/cells worth of biogas.
-#C gtnh.quest652.desc=这个喷气背包使用IC2的沼气,最高可飞到(245层).你需要使用IC2的切换模式键及空格键来切换飞行模式.你的喷气背包可以在IC2装罐机中装填燃料,共需30桶的沼气.
+gtnh.quest652.desc=这个喷气背包使用IC2的沼气,最高可飞到245层.%n你需要使用IC2的切换模式键及空格键来切换飞行模式.%n%n你的喷气背包可以在IC2装罐机中装填燃料,共需30桶沼气.
 
 # Quest.653 - Advanced Electric Jetpack
-#B gtnh.quest653.name=Advanced electric jetpack
-#A gtnh.quest653.name=Advanced Electric Jetpack
-#C gtnh.quest653.name=进阶电力喷气背包
-#B gtnh.quest653.desc=The advanced electric jetpack is an upgraded version of the electric jetpack.%nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the advanced lappack from its 3.000.000 EU internal storage.%n%nThe advanced electric jetpack is limited to a maximum flying height of Y level 256.
-#A gtnh.quest653.desc=The advanced electric jetpack is an upgraded version of the electric jetpack.%nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the advanced lappack from its 3.000.000 EU internal storage.%n%nThe advanced electric jetpack is limited to a maximum flying height of Y-256.
-#C gtnh.quest653.desc=进阶电力喷气背包是电动喷气背包的升级版.可以装备在胸甲部位,当充满EU电力时,可以飞行.它并没有任何保护功能,但其内部储存的3MEU电力可以为你的工具充电,如同进阶电池背包一样运作.进阶喷气背包的最大飞行高度是(256层).
+gtnh.quest653.name=进阶电力喷气背包
+gtnh.quest653.desc=进阶电力喷气背包是电动喷气背包的升级版.%n可以装备在胸甲部位,当充满EU电力时,可以飞行.它并没有任何保护功能,但其内部储存的3MEU电力可以为你的工具充电,如同进阶电池背包一样运作.%n%n进阶喷气背包的最大飞行高度是256层.
 
 # Quest.654 - Advanced Nano Chestplate
-#B gtnh.quest654.name=Advanced nano chestplate
-#A gtnh.quest654.name=Advanced Nano Chestplate
-#C gtnh.quest654.name=进阶纳米重力胸甲
+gtnh.quest654.name=进阶纳米重力胸甲
 gtnh.quest654.desc=将进阶电力喷气背包及纳米护甲组合,会得到进阶纳米重力胸甲.就可以拥有胸甲的防护能力,并可使用喷气背包自由的移动.
 
 # Quest.655 - Gravi Suit
-#B gtnh.quest655.name=Gravi suit
-#A gtnh.quest655.name=Gravi Suit
-#C gtnh.quest655.name=重力胸甲
-#B gtnh.quest655.desc=The gravi chestplate is the ultimate quantum armor combined with a high powered jetpack. It also has hidden features that you need to discover while wearing the whole quantum armor.
-#A gtnh.quest655.desc=The gravi chestplate is the ultimate quantum armor combined with a high powered jetpack. It also has hidden features that you need to discover while wearing the whole quantum armor.%n%nOr read a wiki or something.
-#C gtnh.quest655.desc=重力胸甲是由量子护甲、剧差级变压器、终极蓝博顿电池背包、超导线缆、冷却核心、重力引擎、终极晶体电脑、致密铿铀板、蓝博顿能量球簇、力场发生器(Tier5)、电动马达(ZMP)、铿铀螺丝、熔融焊锡、熔融三钛组合而成.穿着全套的量子装备有隐藏的效果,需要你自己去发掘.
+gtnh.quest655.name=重力胸甲
+gtnh.quest655.desc=重力胸甲是由量子护甲、剧差级变压器、终极蓝博顿电池背包、超导线缆、冷却核心、重力引擎、终极晶体电脑、致密铿铀板、蓝博顿能量球簇、力场发生器(Tier5)、电动马达(ZMP)、铿铀螺丝、熔融焊锡、熔融三钛组合而成.穿着全套的量子装备有隐藏的效果,需要你自己去发掘.%n%n或者找找Wiki上怎么说(其他靠谱的教程也行).
 
 # Quest.656 - §1§2§lIron shields
 gtnh.quest656.name=§1§2§l铁盾
@@ -2718,9 +2698,7 @@ gtnh.quest673.desc=LV时代的压模机并不是很有用.但你可以使用他�
 
 # Quest.674 - Wooden rail variants
 gtnh.quest674.name=更多不同的木轨
-#B gtnh.quest674.desc=The wooden junction, wye and switch tracks need an assembling machine to craft. They allow you to join and switch to tracks going to different locations.%n%nNei not shows the right recipe on the first page. Switch a bit through the recipes to find the right one.
-#A gtnh.quest674.desc=The wooden junction, wye and switch tracks need an assembling machine to craft. They allow you to join and switch to tracks going to different locations.%n%nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.
-#C gtnh.quest674.desc=需要一台组装机来组装木制十字轨、木制Y型轨、木制跟转辙轨.它们使你可以结合或切换通往不同地点的轨道.
+gtnh.quest674.desc=你需要一台组装机来组装木制十字轨、木制Y型轨、木制转辙轨.它们使你可以结合或切换通往不同地点的轨道.%n%nNEI的第一页不对. 往后翻翻你就能找到正确的合成表.
 
 # Quest.675 - Switch lever
 gtnh.quest675.name=手动转辙机
@@ -2755,17 +2733,11 @@ gtnh.quest682.name=交通运输:类别2 > 交通运输:类别1
 gtnh.quest682.desc=三个交通运输:类别2奖励包可以换一个更好的交通运输:类别1奖励包.
 
 # Quest.683 - Wet Dirt Armor?
-#B gtnh.quest683.name=Wet dirt armor?
-#A gtnh.quest683.name=Wet Dirt Armor?
-#C gtnh.quest683.name=泥巴护甲？
-#B gtnh.quest683.desc=If you don't have any armor, "mud armor" is better than nothing. Mud can be found in some wet biomes.
-#A gtnh.quest683.desc=If you don't have any armor, "mud armor" is better than nothing. Mud can be found in some wet biomes, or crafted from dirt and water.
-#C gtnh.quest683.desc=如果你没有任何护甲,泥巴护甲至少比什么都没有好.泥巴可以在某些湿地找到.
+gtnh.quest683.name=泥巴护甲？
+gtnh.quest683.desc=如果你没有任何护甲, 泥巴护甲至少比什么都没有好. 泥巴可以在某些湿地找到, 也可以用泥土和水合成.
 
 # Quest.684 - Wooden Armor
-#B gtnh.quest684.name=Wooden armor
-#A gtnh.quest684.name=Wooden Armor
-#C gtnh.quest684.name=木制护甲
+gtnh.quest684.name=木制护甲
 gtnh.quest684.desc=如果你没办法找到泥巴,你可以用木头制作非常简陋的护甲.砍一些树来做一套.同时你也会需要一个软锤,为此存一些木头吧.
 
 # Quest.685 - Armor 2.0
@@ -2773,9 +2745,7 @@ gtnh.quest685.name=护甲2.0
 gtnh.quest685.desc=铁制护甲比皮革护甲好得多.特别是当你在夜晚出外探险的时候.
 
 # Quest.686 - Leather Armor
-#B gtnh.quest686.name=Leather armor
-#A gtnh.quest686.name=Leather Armor
-#C gtnh.quest686.name=皮革护甲
+gtnh.quest686.name=皮革护甲
 gtnh.quest686.desc=杀一些牛来取得足够的皮革,以便制作一套完整的皮革护甲.提示:你可以染色这套护甲.
 
 # Quest.687 - Bronze armor
@@ -2783,21 +2753,15 @@ gtnh.quest687.name=青铜护甲
 gtnh.quest687.desc=青铜护甲跟铁制护甲有相同的性能.同样的耐久,同样的护甲,以及同样的附魔潜力.
 
 # Quest.688 - "Nice to Have" Armor
-#B gtnh.quest688.name="Nice to have" armor
-#A gtnh.quest688.name="Nice to Have" Armor
-#C gtnh.quest688.name=「有钱真好」护甲
+gtnh.quest688.name=「有钱真好」护甲
 gtnh.quest688.desc=拥有黄金护甲也不错.它的耐久不非常低,不过穿着黄金护甲使你看起来很高贵.
 
 # Quest.689 - "Oh, Shiny" Armor
-#B gtnh.quest689.name="Oh shiny" armor
-#A gtnh.quest689.name="Oh, Shiny" Armor
-#C gtnh.quest689.name=闪亮亮护甲
+gtnh.quest689.name=闪亮亮护甲
 gtnh.quest689.desc=在原版中,钻石护甲是最好的护甲.但在这有很多更好的护甲.
 
 # Quest.690 - Fancy Armor
-#B gtnh.quest690.name=Fancy armor
-#A gtnh.quest690.name=Fancy Armor
-#C gtnh.quest690.name=花俏护甲
+gtnh.quest690.name=花俏护甲
 gtnh.quest690.desc=并非真的比较好,但很花俏.锁炼护甲是使用钢环制作的.
 
 # Quest.691 - Armor 2.5
@@ -2805,9 +2769,7 @@ gtnh.quest691.name=护甲 2.5
 gtnh.quest691.desc=钢铁护甲的耐久度比铁、青铜,以及锁炼护甲都高非常多.
 
 # Quest.692 - Composite Vest
-#B gtnh.quest692.name=Composite vest
-#A gtnh.quest692.name=Composite Vest
-#C gtnh.quest692.name=复合背心
+gtnh.quest692.name=复合背心
 gtnh.quest692.desc=将高级合金的强度与钢铁胸甲结合,将使你非常非常硬.现在你有双倍的耐久度,以及额外的1.5护甲.
 
 # Quest.693 - §2§lFallen from the sky
@@ -3139,23 +3101,15 @@ gtnh.quest774.name=§6§l方法二:生物有机网
 gtnh.quest774.desc=如果你想保护生态系统,可以用高压釜将16个植物球制成未加工的生物纤维.可以使用下列液体:  §4-生物质:33％机率. -甲醇:50％机率. -柴油:90％机率. -硝基柴油:100％机率.  §r然而,想要通过这种方法制造碳板,你还需要工业高炉.
 
 # Quest.775 - Carbon Parts
-#B gtnh.quest775.name=Carbon parts
-#A gtnh.quest775.name=Carbon Parts
-#C gtnh.quest775.name=碳纤零件
+gtnh.quest775.name=碳纤零件
 gtnh.quest775.desc=这些零件是你最爱的纳米装甲所需要的.
 
 # Quest.776 - Seeing Things Brighter
-#B gtnh.quest776.name=Seeing things brighter
-#A gtnh.quest776.name=Seeing Things Brighter
-#C gtnh.quest776.name=看得更清楚
-#B gtnh.quest776.desc=The nano helmet is a bit special. It will provide you with night vision as long as you have energy!  Don't turn it on in bright areas or you'll be blinded!
-#A gtnh.quest776.desc=The nano helmet is a bit special. It will provide you with night vision as long as you have energy! Don't turn it on in bright areas or you'll be blinded!
-#C gtnh.quest776.desc=纳米头盔比较特殊.只要有能量,它可以提供你夜视能力.
+gtnh.quest776.name=看得更清楚
+gtnh.quest776.desc=纳米头盔比较特殊. 只要有能量, 它可以为你提供夜视能力！ 在明亮的地方千万不要打开夜视, 你会被亮瞎的!
 
 # Quest.777 - Are Those Green Diamonds? 
-#B gtnh.quest777.name=Are those green diamonds? 
-#A gtnh.quest777.name=Are Those Green Diamonds? 
-#C gtnh.quest777.name=这是绿钻石吗？
+gtnh.quest777.name=这是绿钻石吗？
 gtnh.quest777.desc=它们可能不是绿钻石,但你的纳米装甲需要它们.
 
 # Quest.778 - §7§6§lCarbon Plates
@@ -3163,9 +3117,7 @@ gtnh.quest778.name=§7§6§l碳板
 gtnh.quest778.desc=碳板是纳米装甲所需要的.检视装甲的章节.
 
 # Quest.779 - Carbon Skin
-#B gtnh.quest779.name=Carbon skin
-#A gtnh.quest779.name=Carbon Skin
-#C gtnh.quest779.name=碳皮肤
+gtnh.quest779.name=碳皮肤
 gtnh.quest779.desc=现在你可以不用担心大部份的怪物了.这将帮助你存活,并让你很酷.你的旅程还没结束,旅行者,量子护甲还在等着你！
 
 # Quest.780 - §6§lOrganic Way
@@ -3233,9 +3185,7 @@ gtnh.quest795.name=§5§l基础电路组装机
 gtnh.quest795.desc=高级电路需要一台LV级电路组装机.制造一台吧.
 
 # Quest.796 - Sensor Lens
-#B gtnh.quest796.name=Sensor lens
-#A gtnh.quest796.name=Sensor Lens
-#C gtnh.quest796.name=探测镜片
+gtnh.quest796.name=探测镜片
 gtnh.quest796.desc=夜视镜需要特殊的探测镜片来运作.
 
 # Quest.797 - Advanced Heat Exchanger
@@ -3247,21 +3197,15 @@ gtnh.quest798.name=铁端宏伟之木法杖
 gtnh.quest798.desc=制作金端宏伟之木法杖需要30vis,但你的旧法杖的极限是25.所以先做一把铁或铜端的宏伟之木法杖,达到50vis容量,然后在下一个任务,制作一把金端宏伟之木法杖.
 
 # Quest.799 - Don't Try to Dive With It
-#B gtnh.quest799.name=Don't try to dive with it
-#A gtnh.quest799.name=Don't Try to Dive With It
-#C gtnh.quest799.name=别试着用它潜水
+gtnh.quest799.name=别试着用它潜水
 gtnh.quest799.desc=用组装机将防化头盔及纳米头盔结合,可以得到纳米潜水头盔.最好别试着用它潜水,因为你做不到.这是新的量子头盔的零件.
 
 # Quest.800 - Plated Leggings - Better Not Try to Wear It
-#B gtnh.quest800.name=Plated Leggings - Better not try to wear it
-#A gtnh.quest800.name=Plated Leggings - Better Not Try to Wear It
-#C gtnh.quest800.name=电镀护腿,别试着穿它
+gtnh.quest800.name=电镀护腿,别试着穿它
 gtnh.quest800.desc=用组装机将不锈钢物品外壳及纳米护腿结合,会得到纳米镀层护腿.最好别试着穿上它们,因为做不到.这是新的量子护腿的零件.
 
 # Quest.801 - Don't Try to Walk With It
-#B gtnh.quest801.name=Don't try to walk with it
-#A gtnh.quest801.name=Don't Try to Walk With It
-#C gtnh.quest801.name=别试着穿它走路
+gtnh.quest801.name=别试着穿它走路
 gtnh.quest801.desc=用组装机将橡胶靴及纳米靴子结合,会得到纳米橡胶靴.最好别试着穿它走路,因为你做不到.这是新的量子靴子的零件.
 
 # Quest.802 - Iridium Plated
@@ -3273,9 +3217,7 @@ gtnh.quest803.name=量子装甲
 gtnh.quest803.desc=量子装甲是高阶且非常耐用的装甲,并有许多特色,如夜视、坠落减伤,及快速跑步.
 
 # Quest.804 - Quantum Crystal 
-#B gtnh.quest804.name=Quantum crystal 
-#A gtnh.quest804.name=Quantum Crystal 
-#C gtnh.quest804.name=量子水晶
+gtnh.quest804.name=量子水晶
 gtnh.quest804.desc=量子水晶是必需品,用于将量子护甲零件转换成可穿戴的量子护甲.
 
 # Quest.805 - §a§lLapotron Dust
