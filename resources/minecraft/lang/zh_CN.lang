@@ -3246,9 +3246,7 @@ gtnh.quest808.desc=高阶粉末需要HV级搅拌机.
 
 # Quest.810 - Rocket Tier 1
 gtnh.quest810.name=1阶火箭
-#B gtnh.quest810.desc=After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to craft a few more things.
-#A gtnh.quest810.desc=After hours of hard work and a few stacks of TNT your first rocket is finally ready. But before you can go to the Moon you need to actually craft it.
-#C gtnh.quest810.desc=在经过数小时的辛勤努力,你的1阶火箭终于已经准备就绪.但是点火登月之前你需要制作一些其他的东西.
+gtnh.quest810.desc=在经过数小时的辛勤努力,你的1阶火箭终于已经准备就绪.但是点火登月之前你需要把它真正造出来.
 
 # Quest.811 - Tier 1 Control Computer
 gtnh.quest811.name=1阶火箭控制电脑
@@ -3288,9 +3286,7 @@ gtnh.quest819.desc=每一个火箭都需要储存燃料的储罐. 1阶火箭需�
 
 # Quest.820 - Rocket Launch Pad
 gtnh.quest820.name=火箭发射平台
-#B gtnh.quest820.desc=Every rocket needs a launch pad. Build a 3x3 launch pad and place your rocket on top of it.%n%nMake sure you don't have any lightning warp effects or you'll be really sad - storms can also knock your rocket off, so make sure to not leave it alone.%n%n§c§cBefore liftoff, make sure you clear the airspace above you! Even clouds...%n%nBe sure to checkout https://gtnh.miraheze.org/wiki/Rockets for a Departure Checklist!
-#A gtnh.quest820.desc=Every rocket needs a launch pad. Build a 3x3 launch pad and place your rocket on top of it.%n%nStorms and other events that affect entities can knock your rocket off (but not lightning warp anymore), so make sure to not leave it alone.%n%n§4Before liftoff, make sure you clear the airspace above you! Even clouds...%n%nBe sure to checkout https://gtnh.miraheze.org/wiki/Rockets for a Departure Checklist!%n%nAlso note that they emit pollution, lots of it. So either put it far from your base, or use a scrubber while launching. You probably won't have to worry until T4 or so though.
-#C gtnh.quest820.desc=发射火箭当然需要发射平台. 建立一个3x3大小的火箭发射平台然后将你的火箭放在中央.%n%n确保你身上没有闪电扭曲效果,否则你会很伤心的. - 暴风雨同样可能使你的火箭被击落,因此请确认天气条件.%n%n§c§c发射前,请清理上方空域!就算是云也不能有...%n%n查看 https://gtnh.miraheze.org/wiki/Rockets 页面获取检查列表!
+gtnh.quest820.desc=发射火箭当然需要发射平台. 建立一个3x3大小的火箭发射平台然后将你的火箭放在中央.%n%n确保你身上没有闪电扭曲效果, 否则你会很伤心的. - 暴风雨以及类似会影响实体的现象都可能击落你的火箭, 因此请确认天气条件.%n%n§4发射前, 请清理上方空域! 就算是云也不能有...%n%n查看 https://gtnh.miraheze.org/wiki/Rockets 页面获取检查列表!%n%n同时请注意, 发射时会产生污染, 大量污染. 所以要么把发射场放在远离基地的地方, 要么使用污染清洗机. 不过T4之前可以不用担心这个问题.
 
 # Quest.821 - Gas 'Er Up
 gtnh.quest821.name=加油站
@@ -3498,15 +3494,11 @@ gtnh.quest871.desc=在你可以制作钢铁和拥有一台匠魂冶炼炉之后,
 
 # Quest.872 - Maple Syrup
 gtnh.quest872.name=枫糖浆
-#B gtnh.quest872.desc=You spent hours and hours to find some maple trees? Why not use your forest ranger coins to buy some syrup? Add some spruce saplings and plant some maple trees.
-#A gtnh.quest872.desc=You spent hours and hours trying to find some maple trees? Why not use your forest ranger coins to buy some syrup? Add some spruce saplings and plant some maple trees.
-#C gtnh.quest872.desc=你花了大把的时间来寻找一些枫糖树？何不用用你的护林员币来买些树苗？增加些杉树苗、种植些枫糖树.
+gtnh.quest872.desc=你花了大把的时间来寻找一些枫糖树？何不用用你的护林员币来买些树苗？加上些杉树苗、种植些枫糖树.
 
 # Quest.873 - Seed Bags
 gtnh.quest873.name=种子袋
-#B gtnh.quest873.desc=Finding some special "pams harvest craft" seeds can be very difficult. With your farmer coins you can buy some seedbags.
-#A gtnh.quest873.desc=Finding some special "Pam's HarvestCraft" seeds can be very difficult. With your farmer coins you can buy some seedbags.
-#C gtnh.quest873.desc=要找到一些特别的潘马斯种子挺困难的,但你可以用你的农民币买些种子袋.
+gtnh.quest873.desc=要找到一些特别的潘马斯种子挺困难的,但你可以用你的农民币买些种子袋.
 
 # Quest.874 - Jetpack v.0.1 Alpha
 gtnh.quest874.name=喷气背包v.0.1 内部测试
@@ -3774,9 +3766,7 @@ gtnh.quest939.desc=你的锄头现在肯定已经磨坏了！为什么不制作�
 
 # Quest.940 - §6§lCleanroom
 gtnh.quest940.name=§6§l超净间
-#B gtnh.quest940.desc=If you want to make more advanced circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxD) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to 5% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines.%n%nYou can pass materials through the walls using Machine Hulls.  You can pass 1A of power using Machine Hulls as well, or you can use Diodes to pass multiple amps through walls.%n%nJust be really careful when upgrading you machines. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom. Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.
-#A gtnh.quest940.desc=If you want to make more advanced circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxD) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch , a reinforced door and three machine hulls. For now you can use MV tier.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to 5% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines.%n%nYou can pass materials through the walls using Machine Hulls.  You can pass 1A of power using Machine Hulls as well, or you can use Diodes to pass multiple amps through walls.%n%nJust be really careful when upgrading you machines. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom. Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%n§3Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one.
-#C gtnh.quest940.desc=更加先进的电路板需要在无尘环境下才能制作.为了得到无尘环境我们需要超净间. 超净间整体为大小在3x4x3到15x15x15之间的中空多方块结构.超净间的地板和墙壁需要使用塑料混凝土方块来搭建.在底层和墙壁方块中,需要放置1个维护仓、1个MV能源仓、3个MV机械方块和1扇IC2的防爆门.防爆门可以通过压力板来控制开关. 过滤机械方块来作为超净间的天花板.在天花板的中央位置放置超净间控制器,控制器必须要放在正中间,因此超净间的长宽必须为奇数. 能源仓和机械方块都可以使用不同等级的方块替换,目前我们使用MV等级的.  让我们来搭建一个5x5x5的超净间.防爆玻璃可以替换不超过5％的塑料混凝土方块,这样超净间就可以有窗户了,可以在外面就能看到内部机器状态.  你可以通过超净间墙壁上的机器外壳与内部交互,传送材料,输送1A的电力.你还可以用线缆二极管来输送多A电力.  但是在为你的内部机器更新换代时你要万分小心.务必拆下旧的机器外壳和线缆二级管然后用新的更高电压的替换,否则你一定会很伤心的.  如果超净间有维护问题,它就有几率吞掉在其中制作的物品.用便携式扫描仪、工业信息屏或维护提示覆盖板来监控你的超净间.
+gtnh.quest940.desc=更加先进的电路板需要在无尘环境下才能制作.为了得到无尘环境我们需要超净间. 超净间整体为大小在3x4x3到15x15x15之间的中空多方块结构.超净间的地板和墙壁需要使用塑料混凝土方块来搭建.在底层和墙壁方块中,需要放置1个维护仓、1个MV能源仓、3个MV机械方块和1扇IC2的防爆门.防爆门可以通过压力板来控制开关. 过滤机械方块来作为超净间的天花板.在天花板的中央位置放置超净间控制器,控制器必须要放在正中间,因此超净间的长宽必须为奇数. 能源仓和机械方块都可以使用不同等级的方块替换,目前我们使用MV等级的.%n%n让我们来搭建一个5x5x5的超净间.防爆玻璃可以替换不超过5％的塑料混凝土方块,这样超净间就可以有窗户了,可以在外面就能看到内部机器状态.%n%n你可以通过超净间墙壁上的机器外壳与内部交互,传送材料,输送1A的电力.你还可以用线缆二极管来输送多A电力.%n%n但是在为你的内部机器更新换代时你要万分小心.务必拆下旧的机器外壳和线缆二级管然后用新的更高电压的替换,否则你一定会很伤心的.%n%n如果超净间有维护问题,它就有几率吞掉在其中制作的物品.用便携式扫描仪、工业信息屏或维护提示覆盖板来监控你的超净间.%n%n§3多方块机器如大型化学反应釜、大型加工厂或是处理阵列都可以提供超净环境, 所以这些机器无需放入超净间.
 
 # Quest.941 - §6§lA very useful Scanner
 gtnh.quest941.name=§6§l一个非常有用的扫描仪
@@ -3812,9 +3802,7 @@ gtnh.quest948.desc=当你有了一点钢并且能够制作高压蒸汽机器的�
 
 # Quest.949 - Garden Bags
 gtnh.quest949.name=种子袋
-#B gtnh.quest949.desc=Finding some special "Pam's HarvestCraft" gardens can be very difficult. With your farmer coins you can buy some garden bags.
-#A gtnh.quest949.desc=Finding some special "Pam's HarvestCraft" gardens can be very difficult. With your farmer coins you can buy some garden bags.%n%n§3This does include the nether version BTW.
-#C gtnh.quest949.desc=寻找一些特殊的潘马斯的果园十分困难,不过你可以用农民币来购买一点！
+gtnh.quest949.desc=寻找一些特殊的潘马斯的果园十分困难, 不过你可以用农民币来购买一点！%n%n§3对了, 这个里头同样包含下界的菜园.
 
 # Quest.950 - XP berries
 gtnh.quest950.name=经验浆果
@@ -3989,12 +3977,8 @@ gtnh.quest992.name=去寻找一些热带蜜蜂
 gtnh.quest992.desc=接下来,你需要找到一些热带蜜蜂. 这种蜜蜂的蜂巢可以在丛林生物群系找到. 你要小心这些蜜蜂,它们攻击性很强,可以蛰死你. 热带蜜蜂的产物是热带蜂巢,热带蜂巢可以提取出制造养蜂人套种所需要的丝缕.试着找到蜂巢以获取原始的蜜蜂.要是找不着,你也可以使用生物群系指南针以寻找特定生物群系.%n译者注:服务器慎用...
 
 # Quest.993 - Silky Combs and Propoli
-#B gtnh.quest993.name=Silky combs and Propolis
-#A gtnh.quest993.name=Silky Combs and Propoli
-#C gtnh.quest993.name=丝滑蜂窝
-#B gtnh.quest993.desc=Collect silky combs and extract some silk wisp out of it in order to make some Apiarist's clothes.%nThis can take quite a bit of time.%nUse a GregTech or Forestry Centrifuge to get Silky Propolis.
-#A gtnh.quest993.desc=Collect silky combs and extract some silk wisp out of it in order to make some Apiarist's clothes.%n%nThis can take a very long time, so parallelize!%n%nUse a GregTech or Forestry Centrifuge to get Silky Propoli.
-#C gtnh.quest993.desc=丝滑蜂窝第一处理可以得到丝滑蜂胶,再次处理丝滑蜂胶可以得到制作养蜂人套装所需要的丝缕. 这是非常漫长的过程. 使用格雷或者林业的离心机来进行处理.
+gtnh.quest993.name=丝滑蜂窝
+gtnh.quest993.desc=丝滑蜂窝第一处理可以得到丝滑蜂胶,再次处理丝滑蜂胶可以得到制作养蜂人套装所需要的丝缕.%n%n这是非常漫长的过程, 所以用阵列来加快速度吧.%n%n使用格雷或者林业的离心机来进行处理.
 
 # Quest.994 - The Centrifuge
 gtnh.quest994.name=离心机(林业MOD)
@@ -4002,20 +3986,14 @@ gtnh.quest994.desc=林业离心机能从蜂窝中提取最多高达9种物品,�
 
 # Quest.995 - Woven silk
 gtnh.quest995.name=丝绸
-#B gtnh.quest995.desc=Centrifuge your silky propolis to get some silk wisp at a chance of 60 percent. Put 9 silk wisp in the Forestry carpenter or Gregtech assembler to get woven silk. %nThis fine fabric can be used for crafting Apiarist's Clothes or to upgrade your Forestry Backpacks to 45 slots.
-#A gtnh.quest995.desc=Centrifuge your silky propoli to get some silk wisp at a chance of 60 percent. Put 9 silk wisp in the Forestry carpenter or Gregtech assembler to get woven silk. %n%nThis fine fabric can be used for crafting Apiarist's Clothes or to upgrade a Forestry Backpacks to 45 slots.
-#C gtnh.quest995.desc=离心丝滑蜂胶,有60％的几率得到丝缕.用林业木工机或者格雷的组装机将9个丝缕制成丝绸. 这种编织物可以用来制作养蜂人套装或者将你的林业背包升级到45格.
+gtnh.quest995.desc=离心丝滑蜂胶,有60％的几率得到丝缕.用林业木工机或者格雷的组装机将9个丝缕制成丝绸.%n%n这种编织物可以用来制作养蜂人套装或者将你的林业背包升级到45格.
 
 # Quest.996 - Apiarist's Cloth
 gtnh.quest996.name=养蜂人的织物
-#B gtnh.quest996.desc=If you have collected 24 woven silk you can make a complete Apiarist's suit to be protected from bee stings and other bad bee effects. You can also use the suit parts to upgrade your EnderIO Dark Steel Armor.
-#A gtnh.quest996.desc=If you have collected 24 woven silk you can make a complete Apiarist's suit to be protected from bee stings and other bad bee effects. You can also use the suit parts to upgrade your EnderIO Dark Steel Armor to have the same effect.
-#C gtnh.quest996.desc=如果你已经收集了24块丝绸,那么你可以制作一套完整的养蜂人衣服来保证不会被蜜蜂蛰伤或者受到其他不良影响. 你还可以用这套装备来给玄钢装备升级,让玄钢装备也获得同样的效果.
+gtnh.quest996.desc=如果你已经收集了24块丝绸,那么你可以制作一套完整的养蜂人衣服来保证不会被蜜蜂蛰伤或者受到其他不良影响. 你还可以用这套装备来给玄钢装备升级,让玄钢装备也获得同样的效果.
 
 # Quest.997 - Dark Steel Armor Advanced Upgrades
-#B gtnh.quest997.name=Dark Steel Armor advanced upgrades
-#A gtnh.quest997.name=Dark Steel Armor Advanced Upgrades
-#C gtnh.quest997.name=玄钢护甲高级升级
+gtnh.quest997.name=玄钢护甲高级升级
 gtnh.quest997.desc=你的玄钢护甲可以通过和多种物品相结合来增强他们的能力. 因此你需要一个铁砧和大量的经验值.
 
 # Quest.998 - §9§lDark Steel Tool and Weapon basic upgrades
@@ -4119,12 +4097,8 @@ gtnh.quest1022.name=磁化钢杆
 gtnh.quest1022.desc=你可以用硬币购买一些磁化钢杆.
 
 # Quest.1023 - Aluminium Rods
-#B gtnh.quest1023.name=Alu Rods
-#A gtnh.quest1023.name=Aluminium Rods
-#C gtnh.quest1023.name=铝杆
-#B gtnh.quest1023.desc=Want some alu rods? Buy some!
-#A gtnh.quest1023.desc=Want some aluminium rods? Buy some!
-#C gtnh.quest1023.desc=你可以用硬币购买一些铝杆.
+gtnh.quest1023.name=铝杆
+gtnh.quest1023.desc=你可以用硬币购买一些铝杆.
 
 # Quest.1024 - Bronze Rotor
 gtnh.quest1024.name=青铜转子
@@ -4183,27 +4157,19 @@ gtnh.quest1037.name=中央处理器
 gtnh.quest1037.desc=你可以用硬币购买一些中央处理器.
 
 # Quest.1038 - SMD Resistors
-#B gtnh.quest1038.name=Resistors SMD
-#A gtnh.quest1038.name=SMD Resistors
-#C gtnh.quest1038.name=贴片电阻
+gtnh.quest1038.name=贴片电阻
 gtnh.quest1038.desc=你可以用硬币购买一些贴片电阻.
 
 # Quest.1039 - SMD Diodes
-#B gtnh.quest1039.name=Diodes SMD
-#A gtnh.quest1039.name=SMD Diodes
-#C gtnh.quest1039.name=贴片二极管
+gtnh.quest1039.name=贴片二极管
 gtnh.quest1039.desc=你可以用硬币购买一些贴片二极管.
 
 # Quest.1040 - SMD Transistors
-#B gtnh.quest1040.name=Transistors SMD
-#A gtnh.quest1040.name=SMD Transistors
-#C gtnh.quest1040.name=贴片晶体管
+gtnh.quest1040.name=贴片晶体管
 gtnh.quest1040.desc=你可以用硬币购买一些贴片晶体管.
 
 # Quest.1041 - SMD Capacitor
-#B gtnh.quest1041.name=Capacitor SMD
-#A gtnh.quest1041.name=SMD Capacitor
-#C gtnh.quest1041.name=贴片电容
+gtnh.quest1041.name=贴片电容
 gtnh.quest1041.desc=你可以用硬币购买一些贴片电容.
 
 # Quest.1042 - Logic processor
@@ -4216,9 +4182,7 @@ gtnh.quest1043.desc=你可以用硬币购买一些氯气.
 
 # Quest.1044 - Iron (III) Chloride
 gtnh.quest1044.name=氯化铁
-#B gtnh.quest1044.desc=Want some iron 3 chloride? Buy some!
-#A gtnh.quest1044.desc=Want some Iron (III) Chloride? Buy some!
-#C gtnh.quest1044.desc=你可以用硬币购买一些氯化铁.
+gtnh.quest1044.desc=你可以用硬币购买一些氯化铁.
 
 # Quest.1045 - Sodium Persulfate
 gtnh.quest1045.name=过硫酸钠
@@ -4226,9 +4190,7 @@ gtnh.quest1045.desc=你可以用硬币购买一些过硫酸钠.
 
 # Quest.1046 - Pyrochlore Ore
 gtnh.quest1046.name=烧绿石矿石
-#B gtnh.quest1046.desc=Can't find Pyrochlore ore because of an old worldgen? Buy some Ores.
-#A gtnh.quest1046.desc=Can't find Pyrochlore ore because of old worldgen? Buy some Ores.
-#C gtnh.quest1046.desc=在你的世界中找不到烧绿石？那真是没办法,用硬币购买一些把！
+gtnh.quest1046.desc=在你的世界中找不到烧绿石？那真是没办法,用硬币购买一些把！
 
 # Quest.1047 - Forest Hive
 gtnh.quest1047.name=森林蜂巢
@@ -4243,9 +4205,7 @@ gtnh.quest1049.name=末影蜂巢
 gtnh.quest1049.desc=你可以用硬币购买一些末影蜂巢.
 
 # Quest.1050 - Bee Houses
-#B gtnh.quest1050.name=Bees House
-#A gtnh.quest1050.name=Bee Houses
-#C gtnh.quest1050.name=简易蜂房
+gtnh.quest1050.name=简易蜂房
 gtnh.quest1050.desc=你可以用硬币购买一些简易蜂房.
 
 # Quest.1051 - Apiary
@@ -4321,9 +4281,7 @@ gtnh.quest1068.name=你准备好了吗？
 gtnh.quest1068.desc=你准备好去月球了吗？多准备一些东西可以帮助你活下去,防止你死在月球上. 如果你在月球上死掉那么你将两手空空地回到地球. 坟墓就在你死亡的地方. 灵魂绑定附魔可以在你死亡时把该物品留在你身上.
 
 # Quest.1069 - Vanilla Saplings
-#B gtnh.quest1069.name=Oak, Spruce, Birch, Jungle Sapling
-#A gtnh.quest1069.name=Vanilla Saplings
-#C gtnh.quest1069.name=橡树、白桦、云杉、丛林木
+gtnh.quest1069.name=原版树苗
 gtnh.quest1069.desc=你的家安置在沙漠因此需要橡树或者白桦树苗来种植它们嘛？没问题！5个护林员硬币就可以购买左侧列表中5棵树苗.
 
 # Quest.1070 - Magic Feather
@@ -4384,9 +4342,7 @@ gtnh.quest1083.desc=更好的机器需要更好的电池.锂是制作电池最�
 
 # Quest.1084 - §5§lLubricant
 gtnh.quest1084.name=§5§l润滑油
-#B gtnh.quest1084.desc=Using lubricant instead of water or distilled water in your cutting machines will increase the output or speed of the machines.%nYou can make lubricant out of oil, seed oil, fish oil or creosote in a distillery. If you are able to craft a brewery you can use talc and soapstone to get much more lubricant each cycle.%n%nLube cells are required to make low tier energy hatches, so stockpile a few cells and use the rest to make your cutting machine faster.
-#A gtnh.quest1084.desc=Using lubricant instead of water or distilled water in your cutting machines will increase the output or speed of the machines.%n%nYou can make lubricant out of oil, seed oil, fish oil or creosote in a distillery (or distillation tower later on). If you are able to craft a brewery you can use talc and soapstone to get much more lubricant each cycle, but you can't use oil.%n%nLube cells are required to make low tier energy hatches, so stockpile a few cells and use the rest to make your cutting machine faster.
-#C gtnh.quest1084.desc=使用润滑油代替水或者蒸馏水会减少切割机在生产板材过程中的耗能并能提高切割速度. 你可以通过蒸馏种子油、鱼油或者杂酚油来获得润滑油.如果你能制作酿造室,通过添加滑石可以获得更多的润滑油.  低阶能源仓需要润滑油单元来制造,所以囤积一些润滑油单元,然后将剩下的用来给切割机加速吧.  译者注:其实高阶能源仓还是要润滑油,只是要的不是单元-_-
+gtnh.quest1084.desc=使用润滑油代替水或者蒸馏水会减少切割机在生产板材过程中的耗能并能提高切割速度.%n%n你可以通过蒸馏种子油、鱼油或者杂酚油来获得润滑油(蒸馏室或后面的蒸馏塔).如果你能制作酿造室,通过添加滑石或红石可以获得更多的润滑油, 但是你不能用石油.%n%n低阶能源仓需要润滑油单元来制造,所以囤积一些润滑油单元,然后将剩下的用来给切割机加速吧.  译者注:其实高阶能源仓还是要润滑油,只是要的不是单元-_-
 
 # Quest.1085 - §2§lMore Compact Storage
 gtnh.quest1085.name=§2§l更加紧凑的存储
@@ -4498,9 +4454,7 @@ gtnh.quest1111.desc=只能存储蜜蜂的箱子. 不过它可以存储多达125�
 
 # Quest.1112 - Frames
 gtnh.quest1112.name=框架
-#B gtnh.quest1112.desc=Untreated frames are the simplest frames. They do not work in bee houses, only in apiaries. You will need them to craft bee houses.%n%nThey increase the bee's performance. Each untreated frame will double a bee's productivity.
-#A gtnh.quest1112.desc=Untreated frames are the simplest frames. They do not work in bee houses, only in apiaries or alvearies. You will need them to craft bee houses.%n%nThey increase the bee's performance. Each untreated frame will double a bee's productivity.
-#C gtnh.quest1112.desc=未处理框架是最简单的框架.你不能在简易蜂房使用它们,只能用于蜂箱.你还需要它们来制作蜂箱.  将框架安装在蜂箱中,它们可以提高蜜蜂的产量.每个未处理框架将使蜜蜂的产量翻倍.
+gtnh.quest1112.desc=未处理框架是最简单的框架. 你不能在简易蜂房使用它们, 只能用于蜂箱或蜂箱组. 它们还可用于合成蜂箱.%n%n将框架安装在蜂箱中, 它们可以提高蜜蜂的产量. 每个未处理框架将使蜜蜂的产量翻倍.
 
 # Quest.1113 - Impregnated Frames
 gtnh.quest1113.name=浸渍框架
@@ -4544,9 +4498,7 @@ gtnh.quest1122.desc=蜂王浆,是蜜蜂巢中培育幼虫的青年工蜂咽头�
 
 # Quest.1123 - Alvearies
 gtnh.quest1123.name=蜂箱组
-#B gtnh.quest1123.desc=The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks. %n%nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.%n%nCertain bees will not produce their specialty items unless they are Jubilant. This requires matching their preferred Temperature/Humidity, without any genetic modifiers.%n%nIt is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.%n%nA submission station is recommended for quests with large amounts of items.
-#A gtnh.quest1123.desc=The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks. %n%nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.%n%nCertain bees will not produce their specialty items unless they are Jubilant. This requires matching their preferred Temperature/Humidity, without any genetic modifiers. Some bees also need a block of something beneath them as well.%n%nIt is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.
-#C gtnh.quest1123.desc=蜂箱组是蜂房的进阶版. 可增加自然生产速度(以及通过蜂箱组框架支架添加多达六个框架的能力)并且可被其他块修改.  可以使用蜂箱组加热器或蜂箱组风扇来调节蜂箱组的内部温度,以适应需要更热或更冷气候的蜜蜂.  除非对环境非常满意,否则某些特定的蜜蜂将不会生产其特产.想要做到这一点,你需要使环境的温度和湿度完全符合该蜜蜂的初始要求,即未培育强化过温度/湿度适应性时要求.  也可以使用基因突变器来增加突变的机会,蜂箱组日光灯和挡雨方块允许蜜蜂分别在夜间和下雨期间工作,即使没有夜行和宽容基因.并且使用多余的蜂王浆来制造持续数代的公主.  建议:对于有大量物品的任务,提交站是不错的选择.
+gtnh.quest1123.desc=蜂箱组是蜂房的进阶版. 可增加自然生产速度(以及通过蜂箱组框架支架添加多达六个框架的能力)并且可被其他块修改.%n%n可以使用蜂箱组加热器或蜂箱组风扇来调节蜂箱组的内部温度, 以适应需要更热或更冷气候的蜜蜂.%n%n除非对环境非常满意, 否则某些特定的蜜蜂将不会生产其特产. 想要做到这一点, 你需要使环境的温度和湿度完全符合该蜜蜂的初始要求, 即未培育强化过温度/湿度适应性时要求. 某些蜜蜂还需要在蜂箱下方有特定方块.%n%n也可以使用基因突变器来增加突变的机会, 蜂箱组日光灯和挡雨方块允许蜜蜂分别在夜间和下雨期间工作, 即使没有夜行和耐雨飞行性基因也没关系. 还可使用多余的蜂王浆来制造持续数代的公主蜂.%n%n建议:对于有大量物品的任务,提交站是不错的选择.
 
 # Quest.1124 - Barrel Upgrades
 gtnh.quest1124.name=木桶升级
@@ -4698,9 +4650,7 @@ gtnh.quest1160.desc=要制作空单元需要用到卷板机,不过记得将编�
 
 # Quest.1161 - Redalloy Cable
 gtnh.quest1161.name=红色合金线缆
-#B gtnh.quest1161.desc=Want some redalloy cable? Buy some!
-#A gtnh.quest1161.desc=Want some red alloy cable? Buy some!
-#C gtnh.quest1161.desc=你可以使用硬币购买一些红色合金线缆.
+gtnh.quest1161.desc=你可以使用硬币购买一些红色合金线缆.
 
 # Quest.1162 - Tin Cable
 gtnh.quest1162.name=锡线缆
@@ -4748,15 +4698,11 @@ gtnh.quest1172.desc=相比在电高炉中生产退火铜,使用电弧炉在耗�
 
 # Quest.1173 - Wrought Iron Ingots
 gtnh.quest1173.name=锻铁锭
-#B gtnh.quest1173.desc=Whant some wrought iron ingots?  Buy some!
-#A gtnh.quest1173.desc=Want some wrought iron ingots? Buy some!
-#C gtnh.quest1173.desc=你可以使用硬币购买一些锻铁锭.
+gtnh.quest1173.desc=你可以使用硬币购买一些锻铁锭.
 
 # Quest.1174 - Steel Ingots
 gtnh.quest1174.name=钢锭
-#B gtnh.quest1174.desc=Want some steel ingots?  Buy some!
-#A gtnh.quest1174.desc=Want some steel ingots? Buy some!
-#C gtnh.quest1174.desc=你可以使用硬币购买一些钢锭
+gtnh.quest1174.desc=你可以使用硬币购买一些钢锭
 
 # Quest.1175 - Aluminium Ingots
 gtnh.quest1175.name=铝锭
@@ -4812,20 +4758,14 @@ gtnh.quest1187.desc=你梦想过在我的世界中驾驶高速列车嘛？ 你�
 
 # Quest.1188 - The transcontinental railroad - blast proof
 gtnh.quest1188.name=横贯大陆的防爆铁路
-#B gtnh.quest1188.desc=Railroads in the nether are dangerous. The reinforced tracks are blast proof. Hope you are blast proof too. %nYou can move 25% faster than with normal tracks.%n%nNei not shows the right recipe on the first page. Switch a bit through the recipes to find the right one.
-#A gtnh.quest1188.desc=Railroads in the nether are dangerous. The reinforced tracks are blast proof. Hope you are blast proof too. %n%nYou can move 25% faster than with normal tracks.%n%nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.
-#C gtnh.quest1188.desc=在下界铺设铁路十分危险.因此你需要铺设特殊设计过防爆的强化轨道. 不过希望你比铁路更加防爆... 强化轨道的移动速度比普通轨道快25％.
+gtnh.quest1188.desc=在下界铺设铁路十分危险. 因此你需要铺设特殊设计过的防爆强化轨道. 不过希望你比铁路更加防爆...%n%n强化轨道的移动速度比普通轨道快25％.%n%nNEI的第一页不对. 往后翻翻你就能找到正确的合成表.
 
 # Quest.1189 - The transcontinental railroad electrical
 gtnh.quest1189.name=横贯大陆的电力轨道
-#B gtnh.quest1189.desc=Electrical tracks are used together with your electrical locomotive. You need to power the rails with energy.%n%nNei not shows the right recipe on the first page. Switch a bit through the recipes to find the right one.
-#A gtnh.quest1189.desc=Electrical tracks are used together with your electrical locomotive. You need to power the rails with energy.%n%nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.
-#C gtnh.quest1189.desc=电力轨道和你的电力机车一起使用.你需要给轨道提供电力.
+gtnh.quest1189.desc=电力轨道和你的电力机车一起使用. 你需要给轨道提供电力.%n%nNEI的第一页不对. 往后翻翻你就能找到正确的合成表.
 
 # Quest.1190 - Electric Feeder Unit
-#B gtnh.quest1190.name=Electric feeder Unit
-#A gtnh.quest1190.name=Electric Feeder Unit
-#C gtnh.quest1190.name=电力供给单元
+gtnh.quest1190.name=电力供给单元
 gtnh.quest1190.desc=为了使你的轨道交通进入电气化时代,你需要给你新铺设的电力轨道提供能源. 你现在需要电力供给单元、电力分路线缆和线缆支撑架. 你可以使用一个MFE或者变压器来获取GT输入的电能.
 
 # Quest.1191 - Magic "Staffter"
@@ -4882,9 +4822,7 @@ gtnh.quest1203.desc=虽然有一个聚变堆已经很好了,但是为什么不�
 
 # Quest.1204 - §1§lCrafting time
 gtnh.quest1204.name=§1§l合成时间
-#B gtnh.quest1204.desc=It's time to get yourself a 3x3 crafting area. Grab some flint and some wood, and build one!
-#A gtnh.quest1204.desc=It's time to get yourself a 3x3 crafting area. Use your flint and some wood, and build one!
-#C gtnh.quest1204.desc=是时候解锁3x3的工作台了.拿一些燧石和原木,制造一个!
+gtnh.quest1204.desc=是时候解锁3x3的工作台了. 拿一些燧石和原木, 制造一个!
 
 # Quest.1205 - §3§lHoppers
 gtnh.quest1205.name=§3§l漏斗
@@ -4899,9 +4837,7 @@ gtnh.quest1207.name=重燃油
 gtnh.quest1207.desc=你可以使用硬币购买一些重燃油.
 
 # Quest.1208 - Cart Modules: Solar Power
-#B gtnh.quest1208.name=Cart modules: Power Solar
-#A gtnh.quest1208.name=Cart Modules: Solar Power
-#C gtnh.quest1208.name=矿车模块:太阳能引擎
+gtnh.quest1208.name=矿车模块:太阳能引擎
 gtnh.quest1208.desc=你的矿车需要动力. 矿车可以使用煤、太阳能或者岩浆来供电. 如果你造了太阳能电池板,你可以用太阳能来为你的矿车充电.
 
 # Quest.1209 - Cart modules: Digging
@@ -4909,15 +4845,11 @@ gtnh.quest1209.name=矿车模块:挖掘
 gtnh.quest1209.desc=想试一试让矿车来挖掘么？用铁做的钻头是最便宜的代替品.
 
 # Quest.1210 - Cart Modules: Thermal Engine
-#B gtnh.quest1210.name=Cart modules: Thermal Engine
-#A gtnh.quest1210.name=Cart Modules: Thermal Engine
-#C gtnh.quest1210.name=矿车模块:地热引擎
+gtnh.quest1210.name=矿车模块:地热引擎
 gtnh.quest1210.desc=你的矿车需要动力. 矿车可以使用煤、太阳能或者岩浆来供电. 试着用岩浆来驱动矿车吧.
 
 # Quest.1211 - Cart Modules: More Storage
-#B gtnh.quest1211.name=Cart modules: More Storage
-#A gtnh.quest1211.name=Cart Modules: More Storage
-#C gtnh.quest1211.name=矿车模块:更多的存储空间
+gtnh.quest1211.name=矿车模块:更多的存储空间
 gtnh.quest1211.desc=矿车不但可以侧挂箱子,上面、前面和矿车内部都可以增加存储空间. 不过有些地方是预留给工具的,所有箱子无法放到哪里.
 
 # Quest.1212 - §l§c§lStarting Fusion
@@ -5538,15 +5470,11 @@ gtnh.quest1365.desc=没有描述(No Description)
 
 # Quest.1366 - Ocean Bees
 gtnh.quest1366.name=海洋蜜蜂
-#B gtnh.quest1366.desc=Want some Ocean Bees? Since some servers don't provide ocean biomes, buy some!
-#A gtnh.quest1366.desc=Want some Ocean Bees? Since some servers don't generate ocean biomes, buy some!
-#C gtnh.quest1366.desc=想要一些海洋蜜蜂？由于有些服务器没有海洋生物群系,所以买一些！
+gtnh.quest1366.desc=想要一些海洋蜜蜂？有些服务器没有生成海洋生物群系, 所以在这买一些吧！
 
 # Quest.1367 - Upgrade your Forestry Backpack
 gtnh.quest1367.name=升级你的林业背包
-#B gtnh.quest1367.desc=With your woven silk you can upgrade your Forestry backpacks. Each Pack has 45 slots.%nYou need a carpenter, your old backpack and a bit of seed oil.%n%nIf the recipe is not working, put the bag in a crafting grid to reset additional nbt data.
-#A gtnh.quest1367.desc=With your woven silk you can upgrade your Forestry backpacks. Each Pack has 45 slots.%n%nYou need a carpenter, your old backpack and a bit of seed oil.%n%nIf the recipe is not working, put the bag in a crafting grid to reset its nbt data. After removing anything in it of course.
-#C gtnh.quest1367.desc=使用你的编织丝绸,你可以升级你的林业背包. 每个包有45个插槽.你需要一个木工机、你的旧背包和一点种子油.  如果配方不起作用,请将空背包放入合成栏中以重置它的nbt数据.
+gtnh.quest1367.desc=使用编织丝绸, 可以将你的林业背包升级. 每个包有45个插槽.%n%n你需要一个木工机、你的旧背包和一点种子油.%n%n如果配方不起作用, 请将空背包放入合成栏中以重置它的nbt数据. 当然在这么干之前记得把里头的东西先拿出来.
 
 # Quest.1368 - Lost in the Twilight Forest
 gtnh.quest1368.name=迷失在暮色森林里
@@ -5745,12 +5673,8 @@ gtnh.quest1416.name=§a§l野鸭生锈臭臭(Mallard Rust Smelly)
 gtnh.quest1416.desc=或者是合金冶炼炉(Alloy Blast Smelter)？ 嗯,这更有意义. 这个多方块可以生产更先进的GT++多方块所需的更高级合金. 它直接将金属熔炼成液体. 这台机器甚至可以更快地熔化钨之类的金属! 至少在你给工业高炉更换更高级线圈之前是这样的.
 
 # Quest.1417 - §6§lCough Cough - Something Needs to Be Done About the Smell
-#B gtnh.quest1417.name=§6§lCough cough - Something needs to be done about the smell
-#A gtnh.quest1417.name=§6§lCough Cough - Something Needs to Be Done About the Smell
-#C gtnh.quest1417.name=§6§l咳嗽咳嗽 - 需要处理下污染了！
-#B gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small black steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.
-#A gtnh.quest1417.desc=Birds falling out of the sky, fish dead and floating belly up in the rivers, acid rain melting the ground...Time to start picking up the trash and cleaning up the air. Small black steel turbines should be fine for now. You'll need two amps of steady power to keep the scrubber working.%n%nThe detector's setting can be changed by clicking on the +/- texture with a screwdriver. Also, in general, better (and larger) turbines work better at cleaning up pollution. The code is too complex to fully explain here, but that's basically it. More EU turbine = more pollution cleaning turbine.
-#C gtnh.quest1417.desc=鸟儿从天坠落, 鱼在河里翻着肚皮, 酸雨融化了地面......是时候处理垃圾、净化空气了.%n%n小型黑钢涡轮可以满足目前所需. 你需要2A的稳定电流才能保证污染清洗机持续工作.%n%n译者注: 如果去过末地的话, 终末涡轮是不错的选择.
+gtnh.quest1417.name=§6§l咳咳咳-需要处理下污染了！
+gtnh.quest1417.desc=鸟儿从天坠落, 鱼在河里翻着肚皮, 酸雨融化了地面......是时候处理垃圾、净化空气了.%n%n小型黑钢涡轮可以满足目前所需. 你需要2A的稳定电流才能保证污染清洗机持续工作.%n%n译者注: 如果去过末地的话, 终末涡轮是不错的选择.%n%n用螺丝刀单击+/-标志可以改变污染探测仪的设置. 另外, 通常来说, 更好(更大)的涡轮, 清理污染效果就越好. 代码太复杂, 无法在此处进行详细说明, 但基本上就是这样. 发电越多的涡轮 = 更能清理污染的涡轮.
 
 # Quest.1418 - §c§9§a§lEU packets flowing everywhere...
 gtnh.quest1418.name=§c§9§a§l电流的到处都是
