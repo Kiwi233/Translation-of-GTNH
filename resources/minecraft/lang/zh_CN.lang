@@ -5514,7 +5514,7 @@ gtnh.quest1376.desc=法杖核心:寒霜,当装备到法杖上时,它将发射一
 
 # Quest.1377 - Wand Focus Warding
 gtnh.quest1377.name=法杖核心:守护
-gtnh.quest1377.desc=法杖核心:守护,可以用来创造"守护方块".为了阻挡其他玩家对其的破坏,需要使用一根法杖或权杖右击需要保护的方块.这会使方块无法被其他玩家破坏或对其做出更不恰当的行为,直到通过用法杖再次右击它来解除守护.请注意,只有对这个方块进行守护的玩家才能将其保护状态取消. 守护方块是完全坚不可摧的,当所有者或其他玩家试图打破它时,会产生类似于符文阻挡的粒子效果.此外,受到重力影响的块（如沙子和沙砾）在受到保护时不会掉落.保护方块不会受到红石和活塞等外部影响.如果你试图对着玻璃使用守护核心,它会破坏玻璃.在针对奥术守护的相关研究中,有一种被称为守卫者玻璃的方块. 破坏受保护方块的唯一方法是通过所有者使用手中的法杖右键单击其本身.守卫一个方块需要花费0.1vis水,0.25vis秩序和0.25vis地之要素. 特别注意:被守护的方块会发光. 这个核心可以在核心镶嵌台上升级.
+gtnh.quest1377.desc=法杖核心:守护,可以用来创造"守护方块".为了阻挡其他玩家对其的破坏,需要使用一根法杖或权杖右击需要保护的方块.这会使方块无法被其他玩家破坏或对其做出更不恰当的行为,直到通过用法杖再次右击它来解除守护.请注意,只有对这个方块进行守护的玩家才能将其保护状态取消. 守护方块是完全坚不可摧的,当所有者或其他玩家试图打破它时,会产生类似于符文阻挡的粒子效果.此外,受到重力影响的块(如沙子和沙砾)在受到保护时不会掉落.保护方块不会受到红石和活塞等外部影响.如果你试图对着玻璃使用守护核心,它会破坏玻璃.在针对奥术守护的相关研究中,有一种被称为守卫者玻璃的方块. 破坏受保护方块的唯一方法是通过所有者使用手中的法杖右键单击其本身.守卫一个方块需要花费0.1vis水,0.25vis秩序和0.25vis地之要素. 特别注意:被守护的方块会发光. 这个核心可以在核心镶嵌台上升级.
 
 # Quest.1378 - Wand Focus Portable Hole
 gtnh.quest1378.name=法杖核心:便携式洞穴
@@ -5594,7 +5594,7 @@ gtnh.quest1396.desc=法杖核心:邪术允许玩家发射类似邪术守卫发�
 
 # Quest.1397 - Wand Focus Time
 gtnh.quest1397.name=法杖核心:时间
-gtnh.quest1397.desc=法杖核心:时间任何法杖都可以装备. 白天使用时,会将时间设定为黄昏. 在夜间使用时,会将时间设置为日出. 每次施法都需要花费10vis所有种类要素,并且会让玩家在30秒内无法使用任何其他核心. 这个核心可以在核心镶嵌台上升级.  译者注:使用时间核心获得的夜晚均为满月.
+gtnh.quest1397.desc=法杖核心:时间 任何法杖都可以装备. 白天使用时,会将时间设定为黄昏. 在夜间使用时,会将时间设置为日出. 每次施法都需要花费10vis所有种类要素,并且会让玩家在30秒内无法使用任何其他核心. 这个核心可以在核心镶嵌台上升级.  译者注:使用时间核心获得的夜晚均为满月.
 
 # Quest.1398 - Wand Focus Meteorology
 gtnh.quest1398.name=法杖核心:天气
@@ -5678,41 +5678,27 @@ gtnh.quest1417.desc=鸟儿从天坠落, 鱼在河里翻着肚皮, 酸雨融化�
 
 # Quest.1418 - §c§9§a§lEU packets flowing everywhere...
 gtnh.quest1418.name=§c§9§a§l电流的到处都是
-#B gtnh.quest1418.desc=...in my dreams. What if instead of having battery packs on every generator, we could centralize all the generation in one location? Put it away from the well travelled parts of the the base? Out in the country somewhere?  Let the animals deal with the pollution.  Anyways, let's start working on a Power Sub-Station to store EU and deliver it to our base.              
-#A gtnh.quest1418.desc=...in my dreams. What if instead of having battery packs on every generator, we could centralize all the generation in one location? Put it away from the well travelled parts of the the base? Out in the country somewhere?  Let the animals deal with the pollution.  Anyways, let's start working on a Power Sub-Station to store EU and deliver it to our base.%n%n§3This multi is IV.
-#C gtnh.quest1418.desc=...在我的梦里. 每个发电机上都装有电池组,我们可以将所有发电机组集中在一个位置？ 把它放在基地里远离活动范围的部分？ 然后出门离开？ 让动物面对污染去吧. 无论如何,让我们开始在能源站方面的工作,以存储EU并供给我们的基地.
+gtnh.quest1418.desc=...在我的梦里. 每个发电机上都装有电池组, 我们可以将所有发电机组集中在一个位置？ 把它放在基地里远离活动范围的部分？ 然后出门离开？ 让动物面对污染去吧. 无论如何, 让我们开始准备搭建能源站吧, 它可以存储EU并供给我们的基地.%n%n§3这台多方块机器在IV阶段可以制造.
 
 # Quest.1419 - Who Cares About a Little Cancer...
-#B gtnh.quest1419.name=Who cares about a little cancer...
-#A gtnh.quest1419.name=Who Cares About a Little Cancer...
-#C gtnh.quest1419.name=谁在乎一点癌症...
-gtnh.quest1419.desc=...它意味着你不必脱光衣服为你的纳米套装充电？ 无线充电器可以为你的装甲和工具充电(等于或小于充电器的电压等级),而无需将其放入电池缓冲区. 你还是不想要孩子......
+gtnh.quest1419.name=谁在乎一点癌症...
+gtnh.quest1419.desc=...它意味着你不必脱光衣服为你的纳米套装充电？ 无线充电器可以为你的装甲和工具充电(等于或小于充电器的电压等级(译者注: 实测大于也能充- -)),而无需将其放入电池缓冲区. 你还是不想要孩子......
 
 # Quest.1420 - §9§lShake That Booty...
-#B gtnh.quest1420.name=§9§lShake that booty...
-#A gtnh.quest1420.name=§9§lShake That Booty...
-#C gtnh.quest1420.name=§9§l摇起来......
-#B gtnh.quest1420.desc=...out of the purified ores.  Anyways, a Large Sifter will increase your sifting rate significantly. What will you do with all these gems??
-#A gtnh.quest1420.desc=...out of the purified ores. Anyways, a Large Sifter will increase your sifting rate significantly. What will you do with all these gems??%n%n§3Has a 13% bonus output, which kinda breaks the platline balance.
-#C gtnh.quest1420.desc=......来自洗净的矿石. 无论如何,工业筛选机会显著提高筛分率. 你将如何处理所有这些宝石？
+gtnh.quest1420.name=§9§l摇起来......
+gtnh.quest1420.desc=......来自洗净的矿石. 无论如何,工业筛选机会显著提高筛分率. 你将如何处理所有这些宝石？%n%n§3增产约为13％, 至于这会打破铂系处理的平衡, 谁在乎呢.
 
 # Quest.1421 - Hulk Smash!
 gtnh.quest1421.name=绿巨人重拳粉碎！
-#B gtnh.quest1421.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration statck to keep up with all the ores you are getting.
-#A gtnh.quest1421.desc=Mass destruction! Or at least, lots and lots of crushed ores. Build a maceration statck to keep up with all the ores you are getting.%n%n§3This multi is IV, but uses a ZPM circuit. Also has 33% bonus output.
-#C gtnh.quest1421.desc=大规模破坏！ 或者至少,可以粉碎很多很多的矿石. 建造一个工业粉碎机,以处理你获得的所有矿石.
+gtnh.quest1421.desc=大规模破坏！ 或者至少, 可以粉碎很多很多的矿石. 建造一个工业粉碎机, 处理你获得的所有矿石.%n%n§3这台多方块机器在IV阶段可以制造, 但它需要ZPM的电路板. 增产约为33％.
 
 # Quest.1422 - The rocks in the washer...
 gtnh.quest1422.name=洗矿厂里的矿石......
-#B gtnh.quest1422.desc=...go round and round, all the live long day. A large orewashing plant gets your rocks nice and clean.
-#A gtnh.quest1422.desc=...go round and round, all the live long day. A large orewashing plant gets your rocks nice and clean. You can switch between Ore Washer and Chemical Bath modes with a screwdriver.%n%n§3This multi is IV.
-#C gtnh.quest1422.desc=......周而复始,24小时运作. 一个大型的洗矿厂让你的矿石变得干净整洁.
+gtnh.quest1422.desc=......周而复始,24小时运作. 一个大型的洗矿厂可以将你的矿石变得干净又整洁. 通过螺丝刀可切换洗矿模式和化学浸洗模式.%n%n§3这台多方块机器在IV阶段可以制造.
 
 # Quest.1423 - Dancing in circles
 gtnh.quest1423.name=在圈子里跳舞
-#B gtnh.quest1423.desc=Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge.  Build a large thermal refinery to get the most out of your ores.%n%nYou can use Noise Hazard Signs instead of Thermal Processing Casings, as long as you have at least 8 Thermal Processing Casings.
-#A gtnh.quest1423.desc=Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge.  Build a large thermal refinery to get the most out of your ores.%n%nYou can use Noise Hazard Signs instead of Thermal Processing Casings, as long as you have at least 8 Thermal Processing Casings.%n%n§3This multi is IV.
-#C gtnh.quest1423.desc=旋转,变热--听起来像一个舞蹈. 或是热力离心机. 建造一个工业热力精炼厂,以充分利用你的矿石. 只要你有至少8个热处理机械方块,你可以使用噪音危险标志代替热处理机械方块.
+gtnh.quest1423.desc=旋转,变热--听起来像一个舞蹈. 或是热力离心机. 建造一个工业热力精炼厂,以充分利用你的矿石.%n%n只要保证至少8个热处理机械方块,你就可以用噪音危险标志来代替热处理机械方块.%n%n§3这台多方块机器在IV阶段可以制造.
 
 # Quest.1424 - §9§lFind Ilmenite
 gtnh.quest1424.name=§9§l寻找钛铁
@@ -5748,15 +5734,11 @@ gtnh.quest1431.desc=火星和地球之间的距离远远大于月球,因此火�
 
 # Quest.1432 - Mars Lander
 gtnh.quest1432.name=火星着陆器
-#B gtnh.quest1432.desc=The Mars lander is required for a soft landing.%nPut the Moon lander on a Parachute and surround it with airbags - that will do the trick. You hope.%n%nHint: Some times you can't loot or break the lander. Try to retrieve the contents with a hopper underneath.
-#A gtnh.quest1432.desc=The Mars lander is required for a soft landing.%nPut the Moon lander on a Parachute and surround it with airbags - that will do the trick. You hope.%n%nHint: Some times you can't loot or break the lander. Try to retrieve the contents with a hopper underneath. To prevent this, make sure to wait until you come to a full and complete stop, like when at a stop sign. Everyone does that, right?
-#C gtnh.quest1432.desc=软着陆器是软着陆所必需的.将月球着陆器放在降落伞上并用气囊包围-这样就可以了,你希望. 提示:有时你不能右键或破坏着陆器. 尝试将漏斗放在下方抽出物品.
+gtnh.quest1432.desc=软着陆器是软着陆所必需的. 将火星着陆器放在降落伞上并用气囊包围-这样就可以了, 希望吧. 提示:有时你不能右键或破坏着陆器. 尝试将漏斗放在下方抽出物品. 为了避免这种情况, 请在确认着陆器完全挺稳后再离开它. 红灯停, 绿灯行, 每个人都要遵守对吧?
 
 # Quest.1433 - Moon Dungeon
 gtnh.quest1433.name=月球地牢
-#B gtnh.quest1433.desc=While looking for the meteoric iron you will find a moon dungeon. Look for a deep hole that is not a crater with a bottom that is not moon rock - it will show you the way to the dungeon. Go and fight a few mobs before you have to kill the Boss Monster. It will drop the key for the chest with the schematics for tier 2 rockets.%n%nKill the Boss Monster again in a different dungeon if you want an extra tier 2 schematic to exchange for a moon buggy schematic.
-#A gtnh.quest1433.desc=While looking for the meteoric iron you will find a moon dungeon. Look for a deep hole that is not a crater with a bottom that is not moon rock - it will show you the way to the dungeon. Go and fight a few mobs before you have to kill the Boss Monster. It will drop the key for the chest with the schematics for tier 2 rockets.%n%nKill the Boss Monster again in a different dungeon if you want an extra tier 2 schematic to exchange for a moon buggy schematic.%n%nPlace the schematic in the NASA Worbench and unlock it on the last tab. This will unlock it for your character, so you can move the workbench if you want.%n%n§3If you've made the chip in an older version, you can turn it back into a schematic in a PLE.
-#C gtnh.quest1433.desc=在寻找陨铁时,你会发现一个月球地牢. 寻找一个不是陨石坑的深洞,它的底部不是月球石头--它会告诉你通往地牢的路. 在你见到月球BOSS之前你需要去和几个怪物战斗.boss会掉落装有2阶火箭设计图的宝箱钥匙. 如果你想要一个额外的2阶设计图来换取月球车的设计图,那就在另一个地牢里再次杀死月球BOSS.
+gtnh.quest1433.desc=在寻找陨铁时,你会发现一个月球地牢. 寻找一个不是陨石坑的深洞,它的底部不是月球石头--它会告诉你通往地牢的路. 在你见到月球BOSS之前你需要去和几个怪物战斗.boss会掉落装有2阶火箭设计图的宝箱钥匙. 如果你想要一个额外的2阶设计图来换取月球车的设计图,那就在另一个地牢里再次杀死月球BOSS.%n%n打开NASA工作台的GUI, 点击下一个, 将设计图放入新增设计图页面内的插槽中, 点击解锁设计图即可. 此解锁与玩家绑定, 所以你可以放心地移动工作台.%n%n§3如果你在此前版本已经消耗设计图, 将其合成为了设计图芯片, 可通过激光蚀刻机将其还原成设计图.
 
 # Quest.1434 - Moon Patrol
 gtnh.quest1434.name=月球巡逻队
@@ -5764,9 +5746,7 @@ gtnh.quest1434.desc=在月球或其他行星表面上移动得更快会很有趣
 
 # Quest.1435 - Moon Buggy Schematic
 gtnh.quest1435.name=月球车设计图
-#B gtnh.quest1435.desc=The moon buggy needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The moon buggy circuit uses a EV-tiercircuit, a heavy duty plate tier 1, and the data stick in a ev circuit assembler.
-#A gtnh.quest1435.desc=The moon buggy needs a schematic. Place it in the NASA worbench and unlock it on the last tab.%n%n§3If you've made the chip in an older version, you can turn it back into a schematic in a PLE.
-#C gtnh.quest1435.desc=月球车需要一个设计图. 在高压扫描仪中扫描并将结构数据放在闪存上. 月球车电路使用EV电路板,1阶重型装甲板,以及ev电路组装机中的闪存.
+gtnh.quest1435.desc=月球车需要一个设计图. 在NASA工作台的最后一页中解锁设计图. %n%n§3如果你在此前版本已经消耗设计图, 将其合成为了设计图芯片, 可通过激光蚀刻机将其还原成设计图.
 
 # Quest.1436 - Fueling your Buggy
 gtnh.quest1436.name=给你的月球车加油
@@ -5777,9 +5757,7 @@ gtnh.quest1437.name=更大的氧气罐
 gtnh.quest1437.desc=中型氧气罐是一种储氧罐,可容纳多达2000个单位的氧气. 它的作用是在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐. 要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的Galacticraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中. 三种类型的氧气罐中,中型氧气罐,其容纳的氧气量是轻型罐的两倍,而重型氧气罐的容量是轻型罐的三倍. 我建议制作中型氧气罐并使用轻型氧气罐作为返回基地的备用储备.
 
 # Quest.1438 - ME glass cable
-#B gtnh.quest1438.name=Me glass cable
-#A gtnh.quest1438.name=ME glass cable
-#C gtnh.quest1438.name=ME玻璃线缆
+gtnh.quest1438.name=ME玻璃线缆
 gtnh.quest1438.desc=你可以用硬币购买一些ME玻璃线缆
 
 # Quest.1439 - Permanent Oxygen Systems
@@ -5816,9 +5794,7 @@ gtnh.quest1446.desc=几小时后你会发现一个火星地牢. 一个大洞将�
 
 # Quest.1447 - Astro Miner Schematic
 gtnh.quest1447.name=太空采矿机设计图
-#B gtnh.quest1447.desc=The astro miner needs a construction plan. Scan it in a hv scanner and put the construction data on a data stick. The astro miner circuit uses a EV-tier circuit and a heavy duty plate tier 3 and the data stick.
-#A gtnh.quest1447.desc=The astro miner needs a schematic.
-#C gtnh.quest1447.desc=太空采矿机需要一个设计图. 在高压扫描仪中扫描并将结构数据放在闪存上. 太空采矿机电路使用EV等级电路,3阶重型装甲板和闪存.
+gtnh.quest1447.desc=太空采矿机需要一个设计图. 在NASA工作台的最后一页中解锁设计图. %n%n§3如果你在此前版本已经消耗设计图, 将其合成为了设计图芯片, 可通过激光蚀刻机将其还原成设计图.
 
 # Quest.1448 - Tier 3 Control Computer
 gtnh.quest1448.name=3阶火箭控制电脑
@@ -5830,9 +5806,7 @@ gtnh.quest1449.desc=货运火箭能够在星际间运输固体物品,是在不�
 
 # Quest.1450 - Astro Miner
 gtnh.quest1450.name=太空采矿机
-#B gtnh.quest1450.desc=The Astro Miner is an automatic mining vehicle which moves around, making tunnels and mining up everything it finds, and brings it all back to a base station where it docks. It is not player-rideable* so do not try and climb inside it!%n
-#A gtnh.quest1450.desc=The Astro Miner is an automatic mining vehicle which moves around, making tunnels and mining up everything it finds, and brings it all back to a base station where it docks. It is not player-rideable* so do not try and climb inside it!%n%n§3Usefulness not guaranteed.
-#C gtnh.quest1450.desc=太空采矿机是一种自动采矿车辆,可以四处移动,开凿隧道并挖掘所有发现的东西,并将其全部带回到停靠的基地. 它不是玩家可乘坐的,所以不要试图爬进它内部！
+gtnh.quest1450.desc=太空采矿机是一种自动采矿车辆, 可以四处移动, 开凿隧道并挖掘所有发现的东西, 然后将其全部带回到停靠的基地. 它不是玩家可乘坐的载具, 所以不要试图爬进它内部！%n%n§3不保证实用性.
 
 # Quest.1451 - Astro Miner Base
 gtnh.quest1451.name=太空采矿机基地
@@ -5888,9 +5862,7 @@ gtnh.quest1463.desc=冬眠舱用于在其他星球上睡觉并跳过漫长的黑
 
 # Quest.1464 - Arc Lamp
 gtnh.quest1464.name=弧光灯
-#B gtnh.quest1464.desc=The Arc Lamp is a very bright lamp. It is directional - meaning the light it casts is brighter in the direction it is facing. Its facing can be rotated using a Standard Wrench.%n%nIncluding the Arc Lamp the brightness of blocks which are close to light sources is:%n%nRedstone Torch: 3-6%nTorch: 9-12%nBlock of Glowstone: 10-13%nArc Lamp: 13-14%n%nThe Arc Lamp can light up a fairly large area - for example a whole room - at light level 14: it is almost as bright as full sunlight.%n%nThe Arc Lamp also has the interesting property of actively repelling mobs. Not only does its light prevent mobs from spawning nearby, but it is so bright that if a mob comes close to the Arc Lamp the mob will turn around and walk away again. This mob repellant effect is confirmed to work on : Zombies, Skeletons, Creepers, Evolved Zombies, Evolved Skeletons, Evolved Creepers. It may also work on other types of mobs (confirmation required). But it has no effect on Spiders (they are not afraid of sunlight either) or boss mobs.
-#A gtnh.quest1464.desc=The Arc Lamp is a very bright lamp. It is directional - meaning the light it casts is brighter in the direction it is facing. Its facing can be rotated using a Standard Wrench.%n%nIncluding the Arc Lamp the brightness of blocks which are close to light sources is:%n%nRedstone Torch: 3-6%nTorch: 9-12%nBlock of Glowstone: 10-13%nArc Lamp: 13-14%n%nThe Arc Lamp can light up a fairly large area - for example a whole room - at light level 14: it is almost as bright as full sunlight.%n%nThe Arc Lamp also has the interesting property of actively repelling mobs. Not only does its light prevent mobs from spawning nearby, but it is so bright that if a mob comes close to the Arc Lamp the mob will turn around and walk away again. This mob repellant effect is confirmed to work on : Zombies, Skeletons, Creepers, Evolved Zombies, Evolved Skeletons, Evolved Creepers. It may also work on other types of mobs (confirmation required). But it has no effect on Spiders (they are not afraid of sunlight either) or boss mobs.%n%n§4May cause BW multis nearby to not work, due to bart's lack of desire to fix the problem. 
-#C gtnh.quest1464.desc=弧光灯是一种非常明亮的灯.它是指向性的————意味着它所投射的光线朝向它所朝向的方向更亮.它的表面可以使用标准扳手旋转. 包括弧形灯在内,靠近光源的方块的亮度为: 红石火把:3-6 火把:9-12  萤石:10-13 弧光灯:13-14 弧光灯可以照亮相当大的区域--例如整个房间--在14级光照等级下:它几乎和白昼时一样明亮. 弧光灯也是具有积极驱逐怪物的有趣特性.它的光线不仅可以防止怪物在附近生成,而且它非常明亮,如果怪物靠近弧形灯,怪物会转身再次走开. 这种怪物驱逐效果被证实可用于:僵尸,骷髅,爬行者,进化的僵尸,进化的骷髅,进化的爬行者.它也适用于其他类型的怪物(需要确认).但它对蜘蛛(他们也不怕阳光)或boss怪没有影响.
+gtnh.quest1464.desc=弧光灯是一种非常明亮的灯. 它是指向性的————意味着它所投射的光线朝向它所朝向的方向更亮. 它的表面可以使用标准扳手旋转.%n%n包括弧形灯在内, 靠近光源的方块的亮度为:%n%n红石火把:3-6%n火把:9-12%n萤石:10-13%n弧光灯:13-14%n%n弧光灯可以照亮相当大的区域--例如整个房间--在14级光照等级下:它几乎和白昼时一样明亮.%n%n弧光灯也是具有积极驱逐怪物的有趣特性. 它的光线不仅可以防止怪物在附近生成, 而且它非常明亮, 如果怪物靠近弧形灯, 它们会转身再次走开. 这种怪物驱逐效果被证实可用于:僵尸、骷髅、爬行者、进化的僵尸、进化的骷髅、进化的爬行者. 它也适用于其他类型的怪物(需要确认). 但它对蜘蛛(它们不怕阳光)或boss怪没有影响.%n%n§4可能导致附近的BartWorks多方块机器无法正常工作, 都怪Bart, 而且他好像也没有解决此问题的想法. 
 
 # Quest.1465 - Air Lock
 gtnh.quest1465.name=气密闸
@@ -6002,9 +5974,7 @@ gtnh.quest1491.desc=在你用钨钢升级了工业高炉的线圈后,你可以�
 
 # Quest.1492 - Plunger 2.0 The Hand Pump Replacement
 gtnh.quest1492.name=搋子2.0替代手泵
-#B gtnh.quest1492.desc=What? Lost your hand pump already? Well here is a replacement.  Well sure it costs a few coins too, don't be such a fumble fingers next time! What do you think I am, a hardware store?
-#A gtnh.quest1492.desc=What? Lost your hand pump already? Well here is a replacement. Well sure it costs a few coins too, don't be such a fumble fingers next time! What do you think I am, a hardware store?
-#C gtnh.quest1492.desc=什么？你把你的手泵丢了？ 那么这里是一个替代品. 它也要花几块硬币,下次不要再这么丢三落四！ 你觉得我这是什么,五金店？
+gtnh.quest1492.desc=什么？你把你的手泵丢了？ 那么这里是一个替代品. 它也要花几块硬币,下次不要再这么丢三落四！ 你觉得我这是什么,五金店？
 
 # Quest.1493 - §c§lTier 7
 gtnh.quest1493.name=§c§l第7阶段
@@ -6039,10 +6009,8 @@ gtnh.quest1500.name=§1§l更好的任务？
 gtnh.quest1500.desc=如果你需要任务帮助,可以按住F3+H以查看任务ID,然后任务ID将自动显示在你的任务书中.%n%n如果你想要激活极限模式,打开局域模式,启用作弊,然后输入%n%n§l/bq_admin hardcore%n§r%n如果你在私人服务器上,可直接使用命令行,而无需重启你的客户端才能离开局域模式并关闭作弊.%n%n极限模式下,一开始你只有三条命,祝你好运."杀戮时刻"任务栏中的任务可提高你的生命上限.%n%n想要正确保存任务,你必须在线并登录Mojang帐户. 对不起,这是BQ(更好任务mod)的限制.%n%n组队任务同步: 队伍内任务同步是可用的, 但如果你是后来者, 需要首先在队内的帮助下完成之前的所有任务才能正常同步. 前两个阶段是最麻烦的, 因为那些任务大部分是合成任务, 而之后的任务许多只是要求捡起指定物品. 另外消耗任务也是无法避开的. 还可以使用以下指令:%n%n§l/bq_copyquests <已完成任务玩家> <新玩家>
 
 # Quest.1501 - §1§lBackup your stuff...
-gtnh.quest1501.name=§1§l备份你的东西......
-#B gtnh.quest1501.desc=Single player? Please install your preferred backup mod, or use the command line to backup your game. Not sure which to use? §6AromaBackup for 1.7.10 §rworks pretty well.%n%nRemember though Journeymap and Thaumcraft Node Tracker information isn't included with AromaBackup, so you should backup your journeymap and tcnodetracker directories after exploration.%n%nWhile you're at it, check out our wiki at https://gtnh.miraheze.org/ for a list of mods you could add as well to further increase your playing experience. The wiki contains some really useful information and beginners guides you shouldn't miss if you're new to the modpack.
-#A gtnh.quest1501.desc=Single player? Please install your preferred backup mod, or use the command line to backup your game. Not sure which to use? §6AromaBackup for 1.7.10 §rworks pretty well.%n%nRemember though Journeymap and Thaumcraft Node Tracker information isn't included with AromaBackup, so you should backup your journeymap and tcnodetracker directories after exploration.%n%nWhile you're at it, check out our wiki at https://gtnh.miraheze.org/ for a list of mods you could add as well to further increase your playing experience. The wiki contains some really useful information and beginners guides you shouldn't miss if you're new to the modpack.%n%n§3If you're on 2.0.9.1 or later, AromaBackup should be included already. If you want to use FTBUtil instead, you'll need to install it yourself. Having both is probably not a great idea either.%n%n
-#C gtnh.quest1501.desc=单人玩家？请安装你首选的备份mod,或使用命令行备份你的游戏. 不确定使用哪个？ §6AromaBackup§r就不错.  请注意,Journeymap(旅行地图)的地图和Thaumcraft(神秘)节点跟踪器信息不包含在AromaBackup中,因此你应该在探索后备份你的Journeymap和tcnodetracker文件.  你还可以浏览我们的Wiki: https://gtnh.miraheze.org/ 查看可添加的Mod列表,以进一步提升你的游戏体验.Wiki中还包含一些非常有用的信息和初学者指南,如果你是GTNH的萌新,一定不要错过.
+gtnh.quest1501.name=§1§l备份你的存档......
+gtnh.quest1501.desc=单人玩家？请安装你首选的备份mod,或使用命令行备份你的游戏. 不确定使用哪个？ §6AromaBackup§r就不错.%n%n请注意,Journeymap(旅行地图)的地图和Thaumcraft(神秘)节点跟踪器信息不包含在AromaBackup中,因此你应该在探索后备份你的Journeymap和tcnodetracker文件.%n%n你还可以浏览我们的Wiki: https://gtnh.miraheze.org/ 查看可添加的Mod列表,以进一步提升你的游戏体验.Wiki中还包含一些非常有用的信息和初学者指南,如果你是GTNH的萌新,一定不要错过.%n%n§3在2.0.9.1以后的版本, §6AromaBackup§r默认包含在整合包内. 如果你想换成FTBU, 请自行安装. 同时使用两者可能不是个好主意.%n%n
 
 # Quest.1502 - §9§lTesla would be proud
 gtnh.quest1502.name=§9§l特斯拉很自豪
@@ -6078,19 +6046,15 @@ gtnh.quest1509.desc=旅行权杖可以让你在你的基地中自由移动.
 
 # Quest.1510 - §5§lBiomes everywhere, but not the one you want?
 gtnh.quest1510.name=§5§l生物群系无处不在,但不是你想要的那个？
-gtnh.quest1510.desc=厌倦了在地图上搜索那个竹林或热带雨林？ 寻找令人绝望的粘土粉还是需要找到一个峡谷生物群系?  §4生物群系指南针将引导你找到你所需的生物群系,如果它在搜索范围内的话.  译者注:服务器慎用!
+gtnh.quest1510.desc=厌倦了在地图上搜索那个竹林或热带雨林？ 寻找令人绝望的粘土粉还是需要找到一个峡谷生物群系?%n§4生物群系指南针将引导你找到你所需的生物群系,如果它在搜索范围内的话.%n%n译者注:服务器慎用!
 
 # Quest.1511 - Humid and Warm?
-#B gtnh.quest1511.name=Humid and warm?
-#A gtnh.quest1511.name=Humid and Warm?
-#C gtnh.quest1511.name=潮湿温暖？
+gtnh.quest1511.name=潮湿而温暖？
 gtnh.quest1511.desc=不用猜测你的生物群系的湿度和温度. 使用栖息地定位仪来了解你当前的气候.
 
 # Quest.1512 - Put the drones in a jar and shake it up
 gtnh.quest1512.name=将雄峰放入罐子中并摇晃
-#B gtnh.quest1512.desc=Once you get good effects from your bees, instead of just trashing the excessive drones, you can put them in collector's jars to get the effects anywhere in your base.%n%nHealing? XP? Poison?%n%nThe collector's jars can even be piped or connected to a conveyor so that drones last a long time.
-#A gtnh.quest1512.desc=Once you get good effects from your bees, instead of just trashing the excess drones, you can put them in collector's jars to get the effects anywhere in your base.%n%nHealing? XP? Poison?%n%nThe collector's jars can even be piped or connected to a conveyor so that drones last a long time.
-#C gtnh.quest1512.desc=一旦你从蜜蜂身上获得了很好的效果,你就可以将它们放在蜜蜂收集者的罐子中,而不是只是丢弃过时的雄峰,以便在你的基地的任何地方获得效果. 治疗？XP？中毒？蜜蜂收集者的罐子甚至可以用管道连接或连接到传送带上,这样雄峰可以持续很长时间.
+gtnh.quest1512.desc=一旦你从蜜蜂身上获得了很好的效果,你就可以将它们放在蜜蜂收集者的罐子中,而不是只是丢弃过时的雄峰,以便在你的基地的任何地方获得效果.%n%n治疗？XP？中毒？%n%n蜜蜂收集者的罐子甚至可以用管道或传送带连接,这样雄峰可以持续很长时间.
 
 # Quest.1513 - Magic frames
 gtnh.quest1513.name=魔法框架
@@ -6133,10 +6097,8 @@ gtnh.quest1522.name=§b§l铌钛合金
 gtnh.quest1522.desc=在LuV阶段,铌钛合金变得非常重要.它需要EV搅拌机和拥有钨钢线圈的工业高炉制作.
 
 # Quest.1523 - Can't find those ores?
-gtnh.quest1523.name=找不到那些矿石？
-#B gtnh.quest1523.desc=Having trouble locating some of the basic ores? Trade in some coins for oreblocks to use in the Ore Finder Wand.%n%nIf you are clever, you can use one oreblock to find a vein containing another oreblock to use to find another vein.  For example, if you choose Redstone, you can use that to find Cinnabar, which can be used to find Thaumcraft Aspect Shard ores in the Twilight Forest.  Experiment and find some combos!
-#A gtnh.quest1523.desc=Having trouble locating some of the basic ores? Trade in some coins for oreblocks to use in the Ore Finder Wand.%n%nIf you are clever, you can use one oreblock to find a vein containing another oreblock to use to find another vein. For example, if you choose Redstone, you can use that to find Cinnabar, which can be used to find Thaumcraft Aspect Shard ores in the Twilight Forest. Experiment and find some combos!
-#C gtnh.quest1523.desc=难以找到一些基本矿石？买些矿石,然后用到寻矿魔杖中吧. 如果你很聪明,你可以用一块矿石找到含有这种矿石的矿脉,然后用这个矿脉中的不同矿石再找到另一条矿脉. 例如,如果你选择红石,你可以使用它来寻找朱砂,而朱砂又可用于在暮色森林中查找神秘的蕴魔石. 多试验实验,找到一些最佳搭配！
+gtnh.quest1523.name=找不到某些矿脉？
+gtnh.quest1523.desc=难以找到一些基础矿石？买些矿石, 然后用到寻矿魔杖中吧.%n%n你是个聪明人, 你可以用一块矿石找到含有这种矿石的矿脉, 然后用这个矿脉中的不同矿石再找到另一条矿脉.%n%n煮个栗子, 如果选择红石, 你可以用它来找到朱砂, 而朱砂又可用于在暮色森林中寻找神秘的蕴魔石. 多实验实验, 找到一些最佳搭配！
 
 # Quest.1524 - §6§lBetter bolts
 gtnh.quest1524.name=§6§l更好的弩箭
@@ -6172,9 +6134,7 @@ gtnh.quest1531.desc=每枚火箭都需要一台控制电脑, 且电脑需要匹�
 
 # Quest.1532 - Tier 4 Heavy Duty Plates
 gtnh.quest1532.name=4阶重型装甲板
-#B gtnh.quest1532.desc=Rockets require heavy duty plates for the main hull. Let's craft 13 tier 4 heavy duty plates out of tier 3 plates and compressed ice plates.
-#A gtnh.quest1532.desc=Rockets require heavy duty plates for the main hull. Let's craft 13 tier 4 heavy duty plates out of tier 3 plates and compressed ice plates.%n%n§3The recipe should use Ruridit Bolts, but Bart's stuff broke and he didn't fix it, so the quest will change until he does.
-#C gtnh.quest1532.desc=火箭的主箭体需要重型装甲板. 让我们用3阶重型装甲板和压缩冰板制作13个4阶重型装甲板.
+gtnh.quest1532.desc=火箭的主箭体需要重型装甲板. 让我们用3阶重型装甲板和压缩冰板制作13个4阶重型装甲板.%n%n§3合成中涉及钌铱合金螺栓, 但Bart的东西坏了, 他也还没修, 在他修复这个问题之前, 这个任务会一直在这.
 
 # Quest.1533 - §b§lCallisto Trip
 gtnh.quest1533.name=§b§l木卫四之旅
@@ -6245,29 +6205,19 @@ gtnh.quest1549.name=§5§l搋子2.0-手泵
 gtnh.quest1549.desc=新的手泵可以清除机器输入槽中的液体. 旧的搋子只能移除了液体,而手泵可以存储它,并将其排放到储罐中.%n%n在LV组装机中合成一个手泵硬币,然后再用它制作一个手泵.%n%n在你升级组装机之后,你可以制作更好的手泵,最高能达到EV.%n%n§c此合成需要铝, 而铝需要工业高炉来制造. 不过你也能通过宝箱直接获得少量铝锭...
 
 # Quest.1550 - More Seed Types
-#B gtnh.quest1550.name=More seed types
-#A gtnh.quest1550.name=More Seed Types
-#C gtnh.quest1550.name=更多种子类型
-#B gtnh.quest1550.desc=This fancy addon allows your cart to plant/harvest more seed types. If you got an MV+ centrifuge you might want to look at glow flowers for some free redstone and gold.
-#A gtnh.quest1550.desc=This fancy addon allows your cart to plant/harvest more seed types. If you got an MV+ centrifuge you might want to look at glow flowers for some free redstone and gold.%n%n§3You can't harvest IC2 crops with carts, so give up on that.
-#C gtnh.quest1550.desc=这个花哨的插件允许你的矿车种植/收获更多的种子类型. 如果你有MV+离心机,通过辉光花,你可以得到一些免费的红石和金.
+gtnh.quest1550.name=更多种子类型
+gtnh.quest1550.desc=这个花哨的拓展可以让你的矿车种植/收获更多的种子类型. 如果你有MV+离心机, 种植辉光花, 你可以白嫖红石和金.%n%n§3矿车无法收获IC2作物架, 放弃吧.
 
 # Quest.1551 - More Tree Types
-#B gtnh.quest1551.name=More tree types
-#A gtnh.quest1551.name=More Tree Types
-#C gtnh.quest1551.name=更多的树
+gtnh.quest1551.name=更多的树
 gtnh.quest1551.desc=标准的木材切割机(史蒂夫矿车)只能砍伐(和重新种植)原版树. 如果你想使用其他mod的树苗,那么这个插件会派上用场. 谁知道-也许你已经厌倦了用木龙头点击橡胶树.
 
 # Quest.1552 - Further Automation
-#B gtnh.quest1552.name=Further automation
-#A gtnh.quest1552.name=Further Automation
-#C gtnh.quest1552.name=进一步自动化
+gtnh.quest1552.name=进一步自动化
 gtnh.quest1552.desc=如果你想从货物管理器中装载或卸载许多不同的物品,管道可能会变得非常混乱. 你可以将外部分配器放置在货物管理器旁边,它将帮助你访问货物管理器,可在分配器GUI中指定的不同栏位.非常方便地抽出物品！
 
 # Quest.1553 - Advanced Detector Rail
-#B gtnh.quest1553.name=Advanced detector rail
-#A gtnh.quest1553.name=Advanced Detector Rail
-#C gtnh.quest1553.name=高级探测轨道
+gtnh.quest1553.name=高级探测轨道
 gtnh.quest1553.desc=现在你有一个货物管理器,你需要一个特定的铁路,这样你的矿车就可以与之互动. 只需将高级探测轨道放在货物管理器旁边,根据其所在侧面的颜色,你必须调整货物管理器GUI中的设置.
 
 # Quest.1554 - Exhale of the horned one
@@ -6487,12 +6437,8 @@ gtnh.quest1607.name=一片又一片
 gtnh.quest1607.desc=一旦你开辟了更大的田地,收获作物可能是一件真正的麻烦事. 为你自己制作GT镰刀,让收获变得容易5x5=25倍.
 
 # Quest.1608 - Annealed Copper Cable
-#B gtnh.quest1608.name=Annealead Copper Cable
-#A gtnh.quest1608.name=Annealed Copper Cable
-#C gtnh.quest1608.name=退火铜线缆
-#B gtnh.quest1608.desc=Want some annealead copper cable? Buy some!
-#A gtnh.quest1608.desc=Want some annealed copper cable? Buy some!
-#C gtnh.quest1608.desc=想要一些退火铜线缆？ 买一些！
+gtnh.quest1608.name=退火铜线缆
+gtnh.quest1608.desc=想要一些退火铜线缆？ 买一些！
 
 # Quest.1609 - Gold Cable
 gtnh.quest1609.name=金线缆
@@ -6551,141 +6497,83 @@ gtnh.quest1622.name=§9§l生丁苯橡胶
 gtnh.quest1622.desc=下一步是制取生丁苯橡胶.混合你的丁二烯,苯乙烯和空气(也可使用氧气)制作生丁苯橡胶粉末.  §4需要HV化学反应釜.
 
 # Quest.1623 - Let's Get Some Pipes
-#B gtnh.quest1623.name=Let's get some pipes
-#A gtnh.quest1623.name=Let's Get Some Pipes
-#C gtnh.quest1623.name=让我们做些管道
-#B gtnh.quest1623.desc=First we're gonna need some pipes to connect everything. Do not use these pipes in junctions or the items will choose which path to go at random and you don't want that.
-#A gtnh.quest1623.desc=First we're gonna need some pipes to connect everything. Do not use these pipes in junctions or the items will choose which path to go at random and you don't want that.%n%n§3Keep in mind PR automation is laggy, so don't use it more than the minimum you can get away with on servers, wait until AE2 for that. In SP, do what you want, but keep in mind that AE2 is way more powerful.
-#C gtnh.quest1623.desc=首先,我们需要一些管道来连接一切. 不要在交叉点使用这些管道,否则物品将随机选择哪条路径,而你显然不希望这样.
+gtnh.quest1623.name=让我们做些管道
+gtnh.quest1623.desc=首先, 我们需要一些管道来连接各种东西. 不要在交叉点使用这些管道, 否则物品将随机选择哪条路径, 而你显然不希望这样.%n%n§3请注意, 红石计划的自动化可能会造成延迟, 所以在服务器上尽量不要大规模使用, 等到解锁AE后再开始你的全面自动化计划吧. 在单机的话就随你了, 但别忘了AE的功能更加强大.
 
 # Quest.1624 - Junctions
 gtnh.quest1624.name=交叉点
 gtnh.quest1624.desc=那么我们如何处理交叉点呢？ 我们使用这种交错管道.它们很聪明,它们会把所有东西送到需要去的地方,所以如果你建立一个管道系统,一定要把这种管道放在交叉点.
 
 # Quest.1625 - Interacting With Stuff
-#B gtnh.quest1625.name=Interacting with stuff
-#A gtnh.quest1625.name=Interacting With Stuff
-#C gtnh.quest1625.name=与东西互动
-gtnh.quest1625.desc=这一切都很好,但这些管道都没有连接到箱子和机器. 我该怎么办呢？ 我很高兴你问这个.你需要一种特殊的管道.这是你需要用来连接机器和箱子的管道. 你必须用我们即将制作的芯片来设置它.
+gtnh.quest1625.name=与东西互动
+gtnh.quest1625.desc=这一切都很好, 但这些管道都没有连接到箱子和机器. 我该怎么办呢？ 我很高兴听到你的提问. 你需要一种特殊的管道. 这是用来连接机器和箱子的管道. 你必须用我们即将制作的芯片来设置它.
 
 # Quest.1626 - Chips
 gtnh.quest1626.name=芯片
-#B gtnh.quest1626.desc=Now you need to make some chips to use in those interface pipes. These ones do not do anything but are needed as a material for crafting the others.%n%nNow would be a good time to look into IC2 crops to get all the dyes you will need for your advanced chips.
-#A gtnh.quest1626.desc=Now you need to make some chips to use in those interface pipes. These ones do not do anything but are needed as a material for crafting the others.%n%nNow would be a good time to look into IC2 crops to get all the dyes you will need for your advanced chips.%n%n§3If NEI's bookmarks are blocking you on the left, you can turn it off (O) until that gets fixed.
-#C gtnh.quest1626.desc=现在你需要制作一些芯片用于那些接口管道. 这些芯片还不能做任何事情,但这是制作其他芯片的材料.  现在是时候找找IC作物以获取你所需的染料了.
+gtnh.quest1626.desc=现在你需要制作一些芯片用于那些接口管道. 这些芯片还无法直接使用, 但这是制作其他芯片的材料.%n%n现在是时候找找IC作物以获取你所需的染料了.%n%n§3如果NEI左侧的书签栏挡住你了, 可以将其关闭(O), 直到我们修复这个问题.
 
 # Quest.1627 - Item Responder Chip
-#B gtnh.quest1627.name=Item responder chip
-#A gtnh.quest1627.name=Item Responder Chip
-#C gtnh.quest1627.name=物品响应芯片
-#B gtnh.quest1627.desc=This chip also stores items in connected invetory. It designates a storage for items that are set in the filter of this chip. They do not actively request for items they only serve as a destination for items to go. You can open up the menu by rightclicking the chip. There you can set which items should it accept and the priority. Items will go to item responders with higher priority first.
-#A gtnh.quest1627.desc=This chip also stores items in connected invetory. It designates a storage for items that are set in the filter of this chip. They do not actively request for items, they only serve as a destination for items to go. You can open up the menu by rightclicking the chip. There you can set which items should it accept and the priority. Items will go to item responders with higher priority first.
-#C gtnh.quest1627.desc=该芯片可将物品存储到连接的库存(如箱子)中.它只会存储过滤(Filter)设置的物品.这种芯片不会主动请求物品,它们仅作为物品的目的地. 你可以通过右键单击芯片打开菜单.在那里你可以设置它接受哪些物品以及优先级.物品将首先转到具有更高优先级的物品响应芯片.
+gtnh.quest1627.name=物品响应芯片
+gtnh.quest1627.desc=该芯片可将物品存储到连接的库存(如箱子)中. 它只会存储过滤(Filter)设置的物品. 这种芯片不会主动请求物品, 它们仅作为物品的目的地.%n你可以通过右键单击芯片打开菜单. 在那里你可以设置它接受哪些物品以及优先级. 物品将首先转到具有更高优先级的物品响应芯片.
 
 # Quest.1628 - Item Overflow Chip
-#B gtnh.quest1628.name=Item overflow chip
-#A gtnh.quest1628.name=Item Overflow Chip
-#C gtnh.quest1628.name=物品过载响应芯片
-#B gtnh.quest1628.desc=This chip stores the items in connecting inventory. It designates a storage for items that have no other place to go. It is strongly recomended to have a default storage for items in every pipe system, otherwise bad stuff can happen. Best used with some large chest (diamond one for example).%n%nIt seems to have some bugs though, so don't craft more than one without testing it first.%n%nYou might have to just use a normal item responder and add the items you want routed back to you overflow spot.
-#A gtnh.quest1628.desc=This chip stores the items in a connected inventory. It designates a storage for items that have no other place to go. It is strongly recomended to have a default storage for items in every pipe system, otherwise bad stuff can happen. Best used with a large chest (diamond for example).%n%nIt seems to have some bugs though, so don't craft more than one without testing it first.%n%nYou might have to just use a normal item responder and add the items you want routed back to your overflow spot.
-#C gtnh.quest1628.desc=该芯片可将物品存储到连接的库存(如箱子)中.它为没有其他地方可去的物品指定存储空间. 强烈建议在每个管道系统中都有一个默认存储空间,否则会发生不好的事情. 最适合搭配一些大箱子(如钻石箱子).  看起来这玩意有点bug,所以先做一个试试,别一下做太多.  你可能必须用一个普通的物品响应芯片然后手动添加那些可能过载的物品.
+gtnh.quest1628.name=物品过载响应芯片
+gtnh.quest1628.desc=该芯片可将物品存储到连接的库存(如箱子)中.它为没有其他地方可去的物品指定存储空间. 强烈建议在每个管道系统中都有一个默认存储空间,否则会发生不好的事情. 最适合搭配一些大箱子(如钻石箱子).%n%n看起来这玩意有点bug,所以先做一个试试,别一下做太多.%n%n你可能必须用一个普通的物品响应芯片然后手动添加那些可能过载的物品.
 
 # Quest.1629 - Dynamic Item Responder
-#B gtnh.quest1629.name=Dynamic item responder
-#A gtnh.quest1629.name=Dynamic Item Responder
-#C gtnh.quest1629.name=动态物品响应芯片
-#B gtnh.quest1629.desc=Dynamic item responder chip behaves exatly like an item responder chip, but instead of you setting up which items it should accept, it looks in the chest what items are there and those items it will accept.
-#A gtnh.quest1629.desc=The dynamic item responder chip behaves exactly like an item responder chip, but instead of you setting up which items it should accept, it looks in the chest what items are there and those items it will accept.
-#C gtnh.quest1629.desc=动态物品响应芯片功能与物品响应芯片类似,但不是由你设置它接受的物品,它会接受箱子中存在的物品.
+gtnh.quest1629.name=动态物品响应芯片
+gtnh.quest1629.desc=动态物品响应芯片功能与物品响应芯片类似, 但不是由你设置它接受的物品, 它会接受箱子中存在的物品.
 
 # Quest.1630 - Item Extractor Chip
-#B gtnh.quest1630.name=Item extractor chip
-#A gtnh.quest1630.name=Item Extractor Chip
-#C gtnh.quest1630.name=物品抽取芯片
+gtnh.quest1630.name=物品抽取芯片
 gtnh.quest1630.desc=该芯片将从连接库存中抽取物品. 然后,抽取的物品会查找带有物品响应芯片的管道,其中是否有可用的空闲空间.如果它们没有找到,它们将转到物品过载响应芯片所在的默认存储箱. 如果你想要抽取所有物品,请将过滤(Filter)留空并将其设置为黑名单模式(*blacklisted).
 
 # Quest.1631 - Item Broadcaster
-#B gtnh.quest1631.name=Item broadcaster
-#A gtnh.quest1631.name=Item Broadcaster
-#C gtnh.quest1631.name=物品广播芯片
-#B gtnh.quest1631.desc=Item broadcaster is a chip that tells everyone in the pipe system what items it has in the connecting inventory and if anyone needs anything it will send it to them. Right click it to set the items it will transmit. If you leave it empty and set to blacklist it will transmit everything.%n%nDefinitely use one in combination with an item overflow chip on your default storage chest. That way overflow will end up in the chest, but will be useable by the rest of your system.
-#A gtnh.quest1631.desc=The item broadcaster is a chip that tells everything in the pipe system what items it has in the connecting inventory and if another chip needs anything it will send it to them. Right click it to set the items it will transmit. If you leave it empty and set to blacklist it will transmit everything.%n%nDefinitely use one in combination with an item overflow chip on your default storage chest. That way overflow will end up in the chest, but will be useable by the rest of your system.
-#C gtnh.quest1631.desc=物品广播芯片告诉管道系统中的每个设备,此芯片所连接的库存中有哪些物品,如果有设备需要什么,它会发送给那些设备. 右键单击它以设置它将传输的物品.如果你将它留空并设置为黑名单模式(*blacklisted),它将传输所有物品. 建议将物品广播芯片与物品过载响应芯片结合使用.这样溢出的物品会存放入缓存箱子中,但是你的系统的其余设备任可使用这些物品.
+gtnh.quest1631.name=物品广播芯片
+gtnh.quest1631.desc=物品广播芯片告诉管道系统中的每个设备, 此芯片所连接的库存中有哪些物品, 如果有设备需要什么, 它会发送给那些设备. 右键单击它以设置它将传输的物品. 如果你将它留空并设置为黑名单模式(*blacklisted), 它将传输所有物品. 建议将物品广播芯片与物品过载响应芯片结合使用. 这样溢出的物品会存放入缓存箱子中, 但是你的系统的其余设备任可使用这些物品.
 
 # Quest.1632 - Item Stock Keeper Chip
-#B gtnh.quest1632.name=Item stock keeper chip
-#A gtnh.quest1632.name=Item Stock Keeper Chip
-#C gtnh.quest1632.name=物品堆栈维护芯片
-#B gtnh.quest1632.desc=Item stock keeper looks at the connecting inventory and keeps item stocked in there. If the item is missing it will keep bothering item broadcasters every few seconds if they have the item and if they can send it. It's basically like an annoying child. %n%nIt is really useful though. Want a chest that will always have 64 cobble and dirt in it and if you take them they will get replaced? This guy is perfect for that job. It's great for keeping  machines stocked. When stocking GT machines, the top left slot of the 3x3 is equal to the left slot of the machine.  Want a chemical reactor that keeps 3 hydrogen cells ready to go to make ammonia, just add nitrogen?  This is the chip for you.
-#A gtnh.quest1632.desc=The item stock keeper looks at the connecting inventory and keeps item stocked in there. If the item is missing it will keep bothering item broadcasters every few seconds if they have the item and if they can send it. It's basically like an annoying child. %n%nIt is really useful though. Want a chest that will always have 64 cobble and dirt in it and if you take them they will get replaced? This guy is perfect for that job. It's great for keeping machines stocked. When stocking GT machines, the top left slot of the 3x3 is equal to the left slot of the machine. Want a chemical reactor that keeps 3 hydrogen cells ready to go to make ammonia, just add nitrogen? This is the chip for you.
-#C gtnh.quest1632.desc=物品堆栈维护芯片会查看所连接的库存并保留一定数量的物品.如果该物品被移除,如果系统内有这种物品,并且可以被发送,它将每隔几秒钟就向物品广播芯片发送请求.基本上就像一个讨厌的孩子. 虽然它真的很有用.例如你想要一个总会有64块圆石和泥土的箱子,如果你拿走它们会马上补充？这家伙就非常适合这份工作. 这对于一些机器保留库存来说非常棒.  连接到GT机器时,3x3的左上槽相当于机器的左侧槽.  想要化学反应釜始终保留3个氢单元,你只需要加入氮就可以制作氨么,你需要这个.这里有些芯片给你.
+gtnh.quest1632.name=物品堆栈维护芯片
+gtnh.quest1632.desc=物品堆栈维护芯片会查看所连接的库存并保留一定数量的物品. 如果该物品被移除, 如果系统内有这种物品, 并且可以被发送, 它将每隔几秒钟就向物品广播芯片发送请求. 基本上就像一个讨厌的孩子.%n%n不过它真的很有用. 例如你想要一个总会有64块圆石和泥土的箱子, 如果你拿走它们会马上补充？这家伙就非常适合这份工作. 这对于一些机器保留库存来说非常棒.  连接到GT机器时,3x3的左上槽相当于机器的左侧槽.  想要化学反应釜始终保留3个氢单元, 你只需要加入氮就可以制作氨么, 它就很合适. 这里有些芯片给你.
 
 # Quest.1633 - Crafting Chip
-#B gtnh.quest1633.name=Crafting chip
-#A gtnh.quest1633.name=Crafting Chip
-#C gtnh.quest1633.name=物品合成芯片
-#B gtnh.quest1633.desc=Crafting chip does exactly what it says. It's not just for default crafting. You can use it with GT machines. Just put in the matrix that it should insert and the output is what it should extract. Great use for them is in combination with fluid canners or super tanks for filling cells. I would strongly recommend not overusing them. Wait untill you have access to AE2 for autocrafting stuff.
-#A gtnh.quest1633.desc=The crafting chip does exactly what it says. It's not just for default crafting. You can use it with GT machines. Just put in the matrix that it should insert and the output is what it should extract. A great use for them is in combination with fluid canners or super tanks for filling cells. I would strongly recommend not overusing them. Wait untill you have access to AE2 for autocrafting stuff.
-#C gtnh.quest1633.desc=物品合成芯片完全符合它的名字.它不仅仅适用于工作台合成.你还可以将它与GT机器一起使用.只需在它的设置里"Matrix"选项,类似AE样板终端,左侧为工作台合成表或机器输入,右侧为成品输出. 它们的一种好用法就是与流体储罐或超级缸一起使用,以填充单元. 我强烈建议不要过度使用此芯片.以后你可以解锁AE进行自动合成.
+gtnh.quest1633.name=物品合成芯片
+gtnh.quest1633.desc=物品合成芯片完全符合它的名字.它不仅仅适用于工作台合成.你还可以将它与GT机器一起使用.只需在它的设置里"Matrix"选项,类似AE样板终端,左侧为工作台合成表或机器输入,右侧为成品输出. 它们的一种好用法就是与流体储罐或超级缸一起使用,以填充单元. 我强烈建议不要过度使用此芯片.以后你可以解锁AE进行自动合成.
 
 # Quest.1634 - Request Pipe
-#B gtnh.quest1634.name=Request pipe
-#A gtnh.quest1634.name=Request Pipe
-#C gtnh.quest1634.name=路由需求管道
-#B gtnh.quest1634.desc=This pipe let's you request stuff from the system. It shows all items that are avaible thanks to broadcast chips and even stuff that can be crafted thanks to crafting chips.
-#A gtnh.quest1634.desc=This pipe lets you request stuff from the system. It shows all items that are available thanks to broadcast chips and even stuff that can be crafted thanks to crafting chips.
-#C gtnh.quest1634.desc=这个管道让你从系统中请求物品.它可显示系统中所有可用的物品(包括物品广播芯片,以及可以通过物品合成芯片合成的产物).
+gtnh.quest1634.name=路由需求管道
+gtnh.quest1634.desc=这个管道让你从系统中请求物品.它可显示系统中所有可用的物品(包括物品广播芯片,以及可以通过物品合成芯片合成的产物).
 
 # Quest.1635 - Simple Storage System
-#B gtnh.quest1635.name=Simple storage system
-#A gtnh.quest1635.name=Simple Storage System
-#C gtnh.quest1635.name=简单的存储系统
+gtnh.quest1635.name=简单的存储系统
 gtnh.quest1635.desc=是时候构建一个简单的系统来存储你的东西. 放下抽屉控制器并将抽屉放在其周围.将路由接口管道连接到抽屉控制器,并将动态物品响应芯片和物品广播芯片放入其中.不要忘记设置物品广播芯片传输所有物品(将过滤(Filter)留空并将其设置为黑名单模式(*blacklisted)). 现在如果你有一个箱子,连接接着路由口管道且管道已插入物品抽取芯片,你就可以从你的存储系统中请求物品,而你放入的所有物品都将被分类存入存储系统中.
 
 # Quest.1636 - Desulfurizing Oil Automation
-#B gtnh.quest1636.name=Desulfuring oil automation
-#A gtnh.quest1636.name=Desulfurizing Oil Automation
-#C gtnh.quest1636.name=石油脱硫自动化
-#B gtnh.quest1636.desc=This quest line will show you how to automate desulfuring of oil products. Return here once you have unlocked the LV distillery quest and have some polyethylene plates.
-#A gtnh.quest1636.desc=This quest line will show you how to automate desulfurizing of oil products. Return here once you have unlocked the LV distillery quest and have some polyethylene plates.
-#C gtnh.quest1636.desc=该任务线将向你展示如何自动脱硫石油产品. 一旦解锁了LV蒸馏室的任务并拥有一些聚乙烯片,就回到这里.
+gtnh.quest1636.name=石油脱硫自动化
+gtnh.quest1636.desc=该任务线将向你展示如何自动脱硫石油产品. 一旦解锁了LV蒸馏室的任务并拥有一些聚乙烯片,就回到这里.
 
 # Quest.1637 - Storing the Fluids
-#B gtnh.quest1637.name=Storing the fluids
-#A gtnh.quest1637.name=Storing the Fluids
-#C gtnh.quest1637.name=储存液体
-#B gtnh.quest1637.desc=First we should make some place to store all the fluids we'll use. 2 super tanks are required for this quest but you'll need one more later so it's better to build 3 right now.%n%nIf you're interested what they'll be used for:%n1 for oxygen%n1 for hydrogen%n1 for sulfuric acid
-#A gtnh.quest1637.desc=First we should make a place to store all the fluids we'll use.%n%nIf you're interested what they'll be used for:%n1 for oxygen%n1 for hydrogen%n1 for sulfuric acid
-#C gtnh.quest1637.desc=首先,我们应该在一些地方存放我们将使用的所有液体. 这个任务需要2个超级缸,但是你还需要再使用一个,所以现在最好建3个. 如果你对它们的用途感兴趣:1为氧气1为氢气1为硫酸
+gtnh.quest1637.name=储存液体
+gtnh.quest1637.desc=首先,我们应该在一些地方存放我们将使用的所有液体. 需要3个超级缸.%n%n如果你对它们的用途感兴趣:%n1为氧气%n1为氢气%n1为硫酸
 
 # Quest.1638 - Electrolyzing Water
-#B gtnh.quest1638.name=Electrolyzing water
-#A gtnh.quest1638.name=Electrolyzing Water
-#C gtnh.quest1638.name=电解水
+gtnh.quest1638.name=电解水
 gtnh.quest1638.desc=现在让我们自动将水电解成氧气和氢气. 你需要氢气来处理大量的东西,包括脱硫,获得钨以及用于硝酸生产. 氧气也是有用的,因为我确信你在制造钢时注意到了这一点. 如何设置它: 放下电解机并将其连接到水和电.将2个超级缸放在附近.设置电解机以产生氢气和氧单元.使用普通的GT流体管道将氢气输出到一个超级缸中.那就是你的储氢缸了.现在将路由接口管道连接到所有3台机器.  对于连接电解机的物品堆栈维护芯片设置,始终在机器内保存2个空单元.还应放入物品抽取芯片,并设置过滤抽取氧单元. 现在储存氧气,将物品响应芯片设置为接受氧单元,而物品抽取芯片设置为抽取空单元. 现在将一些空单元放入你的默认储存箱中,不要忘记在那里还要插入一个物品广播芯片.
 
 # Quest.1639 - Desulfurizing the Oil
-#B gtnh.quest1639.name=Desulfuring the oil
-#A gtnh.quest1639.name=Desulfurizing the Oil
-#C gtnh.quest1639.name=石油脱硫
-#B gtnh.quest1639.desc=Now it's time to start the actual desulfurization. Use a chemical reactor of your choice, fill it with sulfuric light fuel and hook it to power. Now connect an interface pipe to it. Put an item stock keeper inside set to store 4 hydrogen cells. Then put in item extractor set to extract Hydrogen sulfide and empty cell.%n%nGo to your hydrogen storage super tank and put in a crafting chip set to make one hydrogen cell from one empty cell.%n%nAnd that's all.
-#A gtnh.quest1639.desc=Now it's time to start the actual desulfurization. Use a chemical reactor of your choice, fill it with sulfuric light fuel and hook it to power. Now connect an interface pipe to it. Put an item stock keeper inside set to store 4 hydrogen cells. Then put in item extractor set to extract hydrogen sulfide and empty cells.%n%nGo to your hydrogen storage super tank and put in a crafting chip set to make one hydrogen cell from one empty cell.%n%nAnd that's all.
-#C gtnh.quest1639.desc=现在是时候开始实际脱硫了. 使用你选择的化学反应釜,填充含硫轻燃油并将其连接到电源. 现在连接一个路由接口管道,插入物品堆栈维护芯片,设置为始终保留4个氢单元.然后插入物品抽取芯片,设置为抽取硫化氢单元和空单元. 最后去你的储氢超级缸,插入一个物品合成芯片,设置为用一个空单元合成一个氢单元. 你的石油脱硫自动化就完成了.
+gtnh.quest1639.name=石油脱硫
+gtnh.quest1639.desc=现在是时候开始实际脱硫了. 使用你选择的化学反应釜,填充含硫轻燃油并将其连接到电源. 现在连接一个路由接口管道,插入物品堆栈维护芯片,设置为始终保留4个氢单元.然后插入物品抽取芯片,设置为抽取硫化氢单元和空单元.%n%n最后去你的储氢超级缸,插入一个物品合成芯片,设置为用一个空单元合成一个氢单元.%n%n你的石油脱硫自动化就完成了.
 
 # Quest.1640 - Dealing with H2S
 gtnh.quest1640.name=处理硫化氢
 gtnh.quest1640.desc=现在让我们将所有硫化氢转化为硫酸. 将化学反应釜连接到电源,水和物品接口管道.插入物品响应芯片,设置为接受硫化氢单元,然后插入物品抽取芯片,设置为抽取空单元.在蒸馏室中蒸馏稀硫酸并将产物储存在超级缸中. 恭喜你!你现在可以完全石油自动脱硫,自动生产氢气和氧气,还可以储存所有硫酸.
 
 # Quest.1641 - Small Reward
-#B gtnh.quest1641.name=Small reward
-#A gtnh.quest1641.name=Small Reward
-#C gtnh.quest1641.name=小奖励
+gtnh.quest1641.name=小奖励
 gtnh.quest1641.desc=这是制作所有芯片的小奖励.
 
 # Quest.1642 - Reward for Desulfurizing Automation
-#B gtnh.quest1642.name=Reward for desulfuring automation
-#A gtnh.quest1642.name=Reward for Desulfurizing Automation
-#C gtnh.quest1642.name=对脱硫自动化的奖励
+gtnh.quest1642.name=对脱硫自动化的奖励
 gtnh.quest1642.desc=如果你已经正确地完成了所有事情,那么最大的好处就是让你的东西自动化了.但是这里还有更多的奖励. 后面几部就是自动化制造聚乙烯和硝酸. 使用物品堆栈维护芯片,你可以随时保留一定数量的物品,当你取出单元,在其他地方使用时,你的自动化系统将自动生产更多.
 
 # Quest.1643 - §6§lThere can be only one...
@@ -6866,9 +6754,7 @@ gtnh.quest1686.desc=现在你已经进入了LuV,你可以更简单地制作IV电
 
 # Quest.1687 - §c§lCrystal Chips
 gtnh.quest1687.name=§c§l晶体芯片
-#B gtnh.quest1687.desc=To make these chips you need Europium, as well as an HV Autoclave in the Asteroid Field dimension (or on your space station) to achieve "low gravity".%n%n§3Alternatively you can use a PA or LPF anywhere.
-#A gtnh.quest1687.desc=To make these chips you need Europium, as well as an HV Autoclave in the Asteroid Field dimension (or on your space station) to achieve "low gravity".%n%n§3Alternatively you can use an LPF anywhere, but not a PA.
-#C gtnh.quest1687.desc=要制造这些芯片,你需要铕,以及在小行星带(或空间站)的HV高压釜,以实现"低重力".%n%n§3或者通过多方块机器(处理阵列或大型加工厂)无视环境要求.
+gtnh.quest1687.desc=要制造这些芯片,你需要铕,以及在小行星带(或空间站)的HV高压釜,以实现"低重力".%n%n§3或者通过多方块机器(大型加工厂)无视环境要求, 但处理阵列不行.
 
 # Quest.1688 - §c§lElite Circuit Board
 gtnh.quest1688.name=§c§l精英电路板
@@ -7100,52 +6986,38 @@ gtnh.quest1744.desc=更高级的配方如聚乙烯需要MV化学反应釜.而处
 
 # Quest.1745 - Welcome to OpenComputers!
 gtnh.quest1745.name=欢迎来到开放式电脑
-#B gtnh.quest1745.desc=Hello there, my name is Teirdalin and today we shall embark on one of the most exciting and fun mods;  OpenComputers!  First things first though, you will need some patience to get through this mod, but it will certainly pay off in the end!
-#A gtnh.quest1745.desc=Hello there, my name is Teirdalin and today we shall embark on one of the most exciting and fun mods; OpenComputers! First things first though, you will need some patience to get through this mod, but it will certainly pay off in the end!
-#C gtnh.quest1745.desc=你好,我的名字是Teirdalin,今天我们将开始一个最令人兴奋且有趣的mod:开放式电脑(OpenComputers)！ 首先,你需要一些耐心才能学会这个mod,但你最终会得到回报！
+gtnh.quest1745.desc=你好,我的名字是Teirdalin,今天我们将开始一个最令人兴奋且有趣的mod:开放式电脑(OpenComputers)！ 首先,你需要一些耐心才能学会这个mod,但你最终会得到回报！
 
 # Quest.1746 - Your First Microchip
 gtnh.quest1746.name=你的第一个简易微芯片
 gtnh.quest1746.desc=简易微芯片将在你制作的大部分物品中使用,如果可能的话,我建议大量制作.
 
 # Quest.1747 - Your First Computer
-gtnh.quest1747.name=你的第一个电脑
-#B gtnh.quest1747.desc=Place the power converter you gotten earlier near an electircal cable and connect it with your wire cutters.   Now place your computer case by the converter and by the magic of technology it shall fuel the computer case!  Now take your hard drive, memory and graphics cards and place them inside, place the disk drive next to the computer and insertin the operating system disk.  Insert the bios we made into the case and turn it on.
-#A gtnh.quest1747.desc=Place the power converter you got earlier near an electircal cable and connect it with your wire cutters. Now place your computer case by the converter and by the magic of technology it shall fuel the computer case! Now take your hard drive, memory and graphics cards and place them inside, place the disk drive next to the computer and insertin the operating system disk. Insert the BIOS we made into the case and turn it on.
-#C gtnh.quest1747.desc=将你之前获得的能量转换器放置在线缆附近并将其用剪线钳连接. 现在挨着转换器放置你的计算机机箱,通过科技的力量,它将为计算机机箱提供电力！ 现在将硬盘驱动,内存和显卡放入内部,将磁盘驱动器放在计算机旁边,然后插入操作系统磁盘.将我们制作的BIOS插入机箱然后打开.
+gtnh.quest1747.name=你的第一台电脑
+gtnh.quest1747.desc=将你之前获得的能量转换器放置在线缆附近并将其用剪线钳连接. 现在挨着转换器放置你的计算机机箱,通过科技的力量,它将为计算机机箱提供电力！ 现在将硬盘驱动,内存和显卡放入内部,将磁盘驱动器放在计算机旁边,然后插入操作系统磁盘.将我们制作的BIOS插入机箱然后打开.
 
 # Quest.1748 - Arithmetic Logic Circuits
 gtnh.quest1748.name=算术逻辑电路
-#B gtnh.quest1748.desc=The Arithmetic Logic Circuits are used in numerous parts;  mostly in groups of 8-16 upto 64.   %nSo make sure to make plenty.
-#A gtnh.quest1748.desc=The Arithmetic Logic Circuits are used in numerous parts;  mostly in groups of 8-16 up to 64.   %nSo make sure to make plenty.
-#C gtnh.quest1748.desc=算术逻辑电路用于许多部分;大多数是8-16至多64的组. 确保充足.
+gtnh.quest1748.desc=算术逻辑电路用于许多部件合成;大多数是8-16至多64的组.%n所以请确保供应充足.
 
 # Quest.1749 - All Your Card Are Belong To Us
 gtnh.quest1749.name=你的所有卡都属于我们
-#B gtnh.quest1749.desc=Card bases are just as you might think they are;  they're the base part that each card you make will use to connect onto the motherboard.%n%nI suggest making a handful of these for future cards.
-#A gtnh.quest1749.desc=Card bases are just as you might think they are; they're the base part that each card you make will use to connect onto the motherboard.%n%nI suggest making a handful of these for future cards.
-#C gtnh.quest1749.desc=基板就像你认为的那样;它们是你制作的每张卡用于连接主板的基础部分.  我建议为未来的卡片制作一些这样的卡片.
+gtnh.quest1749.desc=基板就像你认为的那样;它们是你制作的每张卡用于连接主板的基础部分.%n%n我建议为未来的卡片制作一些这样的卡片.
 
 # Quest.1750 - Short Term Memory
 gtnh.quest1750.name=短期存储
-#B gtnh.quest1750.desc=Gotta get more ram.%n%nMemory, or ramis essentially a temporary storage of data on your computer that can be rapidly accessed via your programs..%nHence the name Rapid Access Memory.
-#A gtnh.quest1750.desc=Gotta get more RAM.%n%nMemory, or RAM is essentially a temporary storage of data on your computer that can be rapidly accessed via your programs..%nHence the name Rapid Access Memory.
-#C gtnh.quest1750.desc=得到更多的内存. 内存,或RAM本质上是你的计算机上的临时数据存储,可以通过你的程序快速访问. 因此名为快速访问内存(Rapid Access Memory)RAM.
+gtnh.quest1750.desc=得到更多的内存.%n%n内存,或RAM本质上是你的计算机上的临时数据存储,可以通过你的程序快速访问.%n因此名为快速访问内存(Rapid-Access-Memory)RAM.
 
 # Quest.1751 - Woah Rad Graphics!
 gtnh.quest1751.name=精彩的图像!
-#B gtnh.quest1751.desc=See the digital world.%n%nYour graphics card allows the computer to draw text and other things to the screen. %nThe better graphics card you use the higher resolution, and better features can be drawn.%n%nYou also need a higher tier monitor to display colors or to get touchscreen compatability-%nbut that's something to worry about for another day.
-#A gtnh.quest1751.desc=See the digital world.%n%nYour graphics card allows the computer to draw text and other things to the screen. %n%nThe better graphics card you use the higher resolution, and better features can be drawn.%n%nYou also need a higher tier monitor to display colors or to get touchscreen compatability, but that's something to worry about for another day.
-#C gtnh.quest1751.desc=查看数字世界. 你的显卡允许计算机在屏幕上绘制文本和其他内容. 使用更高分辨率的更好的显卡,可以拥有更好的绘制功能. 你还需要更高级别的显示器来显示颜色或获得触摸屏的兼容性,但这是以后需要担心的事情.
+gtnh.quest1751.desc=观察数字的世界.%n%n你的显卡允许计算机在屏幕上绘制文本和其他内容.%n%n使用更高分辨率的更好的显卡,可以拥有更好的绘制功能.%n%n你还需要更高级别的显示器来显示颜色或获得触摸屏的兼容性,但这是以后需要担心的事情.
 
 # Quest.1752 - Control Units
 gtnh.quest1752.name=控制单元
 gtnh.quest1752.desc=如此可控！ 奇怪的是,这部分采用高压电路来制作;所以这里有一些MV电路来代替你的第一台电脑零件.不要把它们全部放在一个地方！
 
 # Quest.1753 - What Did the Data Say to the CPU?
-#B gtnh.quest1753.name=What did the data say to the CPU?
-#A gtnh.quest1753.name=What Did the Data Say to the CPU?
-#C gtnh.quest1753.name=数据对CPU说了什么？
+gtnh.quest1753.name=数据对CPU说了什么？
 gtnh.quest1753.desc=让我在外面缓存. 你的CPU基本上代表你的计算机处理数据的速度. 更强的CPU=更快的计算机.
 
 # Quest.1754 - Computer Case
@@ -7154,9 +7026,7 @@ gtnh.quest1754.desc=100％防水.(100％漏液)　计算机器箱本质上是所
 
 # Quest.1755 - My Little Scrench
 gtnh.quest1755.name=我的小侦探
-#B gtnh.quest1755.desc=A screwdriver and wrench in one.  Not really a necessary tool, but has some purposes; I suggest referring to your computer manual.
-#A gtnh.quest1755.desc=A screwdriver and wrench in one. Not really a necessary tool, but has some purposes; I suggest referring to your computer manual.
-#C gtnh.quest1755.desc=一把螺丝刀和扳手. 不是真正必要的工具,但有一些用处;我建议你参考你的计算机手册.
+gtnh.quest1755.desc=一把螺丝刀和扳手. 不是真正必要的工具,但有一些用处;我建议多读读你的计算机手册.
 
 # Quest.1756 - HDD
 gtnh.quest1756.name=硬盘
@@ -7168,9 +7038,7 @@ gtnh.quest1757.desc=我们的硬盘需要这些.
 
 # Quest.1758 - BIOS
 gtnh.quest1758.name=BIOS
-#B gtnh.quest1758.desc=The rom disks are necessary to get your computer to start, they're also what you use to run a drone off from.%nYour BIOs go onto these little disks,  get me a blank and I'll write the basic BIOs onto it for you.%n%nYou can do this later when you make more computers by flashing your existing bios onto new cards or combining a blank with the manual.
-#A gtnh.quest1758.desc=The rom disks are necessary to get your computer to start, they're also what you use to run a drone off from.%n%nYour BIOS go onto these little disks,  get me a blank and I'll write the basic BIOS onto it for you.%n%nYou can do this later when you make more computers by flashing your existing BIOS onto new cards or combining a blank with the manual.
-#C gtnh.quest1758.desc=ROM是让你的计算机启动所必需的,它们也是你用来运行无人机的.　你的BIOs进入这些小磁盘,给我一个空白磁盘,我会把基本的BIOs写到它上面. 你以后也可以这样做,只要制作更多计算机,将现有的BIOS闪存到新磁盘上或将空白的磁盘与手册结合起来.
+gtnh.quest1758.desc=ROM是让你的计算机启动所必需的,它们也是你用来运行无人机的.%n%n你的BIOS进入这些小磁盘,给我一个空白磁盘,我会把基本的BIOS写到它上面.%n%n你以后也可以这样做,只要制作更多计算机,将现有的BIOS闪存到新磁盘上或将空白的磁盘与手册结合起来.
 
 # Quest.1759 - Tier 1
 gtnh.quest1759.name=第一阶
@@ -7182,29 +7050,19 @@ gtnh.quest1760.desc=这个方块允许我们的计算机与GT机器和其他一�
 
 # Quest.1761 - Hello World!
 gtnh.quest1761.name=Hello World!
-#B gtnh.quest1761.desc=First things first,  let's install OpenOS to the computer so you don't always need disk in the drive.  Type in 'install' and then type 'Y' when asked if you wish to install OpenOS.     %nWhen finished, remove the disk and toss it on your wall and reboot the computer. %nType 'df' to display all present file systems and mount points, you'll notice one named OpenOS; this is your hard drives default name after installing the OS.  %nLet's change it with 'label set -a OpenOS HDD'   -a checks for names starting with what you type after it with that command.%n%nNow for fun, let's make your first program!   How about something functional,  make a with 'edit startup'  this will bring you to an edit page for a new program called startup.      Let's just have it do something simple,  'print("Hello World!")'  Like that'll never get old.%n%nNow press Ctrl+S to save, and Ctrl+W to get out of that screen.   Back in your home root let's now type startup and you'll see it display "Hello World!"  neat huh?%n%nLet's now make startup actually work on startup.  Type 'edit .shrc' .shrc is a mystic file that runs shell commands when booting your PC.  So in .shrc type 'startup'   save and reboot the computer.  Now it should say "Hello World!" upon starting.   Double neat right?
-#A gtnh.quest1761.desc=First things first, let's install OpenOS to the computer so you don't always need disk in the drive. Type in 'install' and then type 'Y' when asked if you wish to install OpenOS.     %n%nWhen finished, remove the disk and toss it on your wall and reboot the computer.%n%nType 'df' to display all present file systems and mount points, you'll notice one named OpenOS; this is your hard drive's default name after installing the OS.%n%nLet's change it with 'label set -a OpenOS HDD', '-a' checks for names starting with what you type after it with that command.%n%nNow for fun, let's make your first program! How about something functional, make a with 'edit startup' this will bring you to an edit page for a new program called startup. Let's just have it do something simple, 'print("Hello World!")' Like that'll never get old.%n%nNow press Ctrl+S to save, and Ctrl+W to get out of that screen. Back in your home root let's now type startup and you'll see it display "Hello World!"  neat huh?%n%nLet's now make startup actually work on startup. Type 'edit .shrc' .shrc is a mystic file that runs shell commands when booting your PC. So in .shrc type 'startup' save and reboot the computer. Now it should say "Hello World!" upon starting. Double neat right?
-#C gtnh.quest1761.desc=首先,让我们将OpenOS安装到计算机上,这样你就不必总是需要驱动器中的磁盘.输入“install”,然后在询问你是否要安装OpenOS时键入“Y”.　完成后,取出磁盘并将其扔在墙上并重新启动计算机. 键入'df'以显示所有当前文件系统和挂载点,你会注意到一个名为OpenOS的文件;这是安装操作系统后的硬盘驱动器默认名称. 让我们用'label set -a OpenOS HDD'来改变它-用你的命令检查名字后面的名字. 为了好玩,让我们制作你的第一个程序吧！如何实现功能,使用'edit startup'这将带你进入一个名为startup的新程序的编辑页面.让我们做一些简单的事情,'print("Hello World!")'就像那样永远不会过时. 现在按Ctrl+S保存,按Ctrl+W退出该屏幕.回到你的HOME根目录,让我们现在输入启动,你会看到它显示“Hello World！”清楚吧？ 现在让startup真正在startup工作.键入'edit.shrc'.shrc是一个神秘文件,在启动PC时运行shell命令.所以在.shrc类型'启动'保存并重新启动计算机.现在应该说“Hello World！”一开始.双重整齐吧？
+gtnh.quest1761.desc=首先,让我们将OpenOS安装到计算机上,这样你就不必总是需要驱动器中的磁盘.输入“install”,然后在询问你是否要安装OpenOS时键入“Y”.%n%n完成后,取出磁盘并将其扔在墙上并重新启动计算机.%n%n键入'df'以显示所有当前文件系统和挂载点,你会注意到一个名为OpenOS的文件;这是安装操作系统后的硬盘驱动器默认名称.%n%n让我们用'label set -a OpenOS HDD'来改变它-用你的命令检查名字后面的名字.%n%n现在让我们玩玩,制作你的第一个程序吧！如何实现功能,使用'edit startup'这将带你进入一个名为startup的新程序的编辑页面.让我们做一些简单的事情,'print("Hello World!")'就像那样永远不会过时.%n%n现在按Ctrl+S保存,按Ctrl+W退出该屏幕.回到你的HOME根目录,让我们现在输入启动,你会看到它显示“Hello World！”清楚吧？%n%n现在让startup真正在startup工作.键入'edit.shrc'.shrc是一个神秘文件,在启动PC时运行shell命令.所以在.shrc类型'启动'保存并重新启动计算机.现在应该说“Hello World！”一开始.双重整齐吧？
 
 # Quest.1762 - I Love Pressing the F5 Key.
-#B gtnh.quest1762.name=I love pressing the F5 key.
-#A gtnh.quest1762.name=I Love Pressing the F5 Key.
-#C gtnh.quest1762.name=我喜欢按F5键.
-#B gtnh.quest1762.desc=It's so refreshing.%n%nPlace a keyboard facing a screen- or stuck to the back of a screen to make it able to interact with a computer.%nAbsolutely necessary to doing anything on your computer, but can safely be removed once you have an endlessly running program.
-#A gtnh.quest1762.desc=It's so refreshing.%n%nPlace a keyboard facing a screen, or stuck to the back of a screen to make it able to interact with a computer.%nAbsolutely necessary to doing anything on your computer, but can safely be removed once you have an endlessly running program.
-#C gtnh.quest1762.desc=它是如此令人耳目一新. 放置一个面向屏幕的键盘-或粘在屏幕背面,使其能够与计算机进行交互. 键盘是绝对有必要的,你的计算机上做任何事情,但是一旦你有了一个无休止地运行的程序,可以安全地删除它.
+gtnh.quest1762.name=我喜欢按F5键.
+gtnh.quest1762.desc=它是如此令人耳目一新.%n%n放置一个面向屏幕的键盘-或粘在屏幕背面,使其能够与计算机进行交互.%n键盘是绝对有必要的,没有它你几乎什么都做不成,但是一旦你有了一个无休止地运行的程序,那就可以安全地拆除它了.
 
 # Quest.1763 - Mounting your HDD
 gtnh.quest1763.name=安装硬盘
-#B gtnh.quest1763.desc=Alright,  you have your computer, it says "Hello World!" When you start it, and you feel awesome and capable of world domination. %n%nNow lets setup your HDD.    Open .shrc again in the editor, and press ENTER to go down a line after the print, and type in 'cd ../'  this will move your viewed directory that's being viewed to-  well, the absolute base directory.  %n%nNow go down another line and type in 'mount HDD C:'  because why not, it's Classic; this mounts the file drive into the folder you're in.   Go down another line and type cd 'C:/'   save and reboot the computer.%n%nYou'll now start in C:/  nifty!  Try typing 'mkdir programs' and now you have a dedicated directory to put your programs in for the sake of organization.%n'cd programs' will then take you to programs, and 'cd ../' will take you back a directory; you can also do things like- lets say you have a folder called apples in C as well but you're in apples, type 'cd ../apples' and it'll take you to apples,  .. essentially just means previous directory and this can be stacked; works with copying files and moving them as well, very useful to know.  %n%nut right now we're going to do something functional,  come over to the next quest and bring your adapter and cables.
-#A gtnh.quest1763.desc=Alright, you have your computer, it says "Hello World!" When you start it, and you feel awesome and capable of world domination. %n%nNow lets setup your HDD. Open .shrc again in the editor, and press ENTER to go down a line after the print, and type in 'cd ../' this will move your viewed directory that's being viewed to the absolute base directory.  %n%nNow go down another line and type in 'mount HDD C:' because why not, it's Classic; this mounts the file drive into the folder you're in. Go down another line and type cd 'C:/' save and reboot the computer.%n%nYou'll now start in C:/ nifty! Try typing 'mkdir programs' and now you have a dedicated directory to put your programs in for the sake of organization.%n'cd programs' will then take you to programs, and 'cd ../' will take you back a directory; you can also do things like, lets say you have a folder called apples in C as well but you're in apples, type 'cd ../apples' and it'll take you to apples. '..' essentially just means previous directory and this can be stacked; works with copying files and moving them as well, very useful to know.  %n%nBut right now we're going to do something functional, come over to the next quest and bring your adapter and cables.
-#C gtnh.quest1763.desc=好吧,你有你的电脑,它说“Hello World！”当你开始它,你觉得很棒,能够统治世界. 现在让我们设置你的硬盘.在编辑器中再次打开.shrc,然后按ENTER键在打印后按下一行,然后输入'cd ../'这将移动你正在查看的已查看目录,即绝对基目录. 现在换行并键入'mount HDD C:',因为为什么不,它是Classic;这会将文件驱动器安装到你所在的文件夹中.按下另一行并键入cd'C:/'保存并重新启动计算机. 现在,你将以C:/ nifty开头！尝试输入“mkdir programs”,现在你有一个专门的目录来放置你的程序,以便组织. 'cd programs'将带你到程序,'cd ../'会带你回到一个目录;你也可以做类似的事情 - 假设你在C中有一个名为apples的文件夹但是你在apples中,键入'cd ../apples'它会带你到apples,...基本上只是意味着以前的目录这可以堆叠;适用于复制文件并移动它们,非常有用. 现在我们要做一些功能性的事情,来到下一个任务并带上你的适配器和线缆.
+gtnh.quest1763.desc=好吧,你有你的电脑,它说“Hello World！”当你开始它,你觉得很棒,能够统治世界.%n%n现在让我们设置你的硬盘.在编辑器中再次打开.shrc,然后按ENTER键在打印后按下一行,然后输入'cd ../'这将移动你正在查看的已查看目录,即绝对基目录.%n%n现在换行并键入'mount HDD C:',因为为什么不,它是Classic;这会将文件驱动器安装到你所在的文件夹中.按下另一行并键入cd'C:/'保存并重新启动计算机.%n%n现在,你将以C:/ nifty开头！尝试输入“mkdir programs”,现在你有一个专门的目录来放置你的程序,以便组织. 'cd programs'将带你到程序,'cd ../'会带你回到一个目录;你也可以做类似的事情 - 假设你在C中有一个名为apples的文件夹但是你在apples中,键入'cd ../apples'它会带你到apples,...基本上只是意味着以前的目录这可以堆叠;适用于复制文件并移动它们,非常有用.%n%n现在我们要做一些功能性的事情,来到下一个任务并带上你的适配器和线缆.
 
 # Quest.1764 - Basic Power Display
 gtnh.quest1764.name=基本电源显示
-#B gtnh.quest1764.desc=For this part we will learn how to use our adapter,  place it next to- let's say your EBFs battery buffer and connect it to the computer with cables.%nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.%n%nType in 'component.list()'   this will display a table of all of .list from component.  What we're looking for is gt_batterybuffer.%nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.%n%nSo now assign a variable to it; for example 'a = component.gt_batterybuffer';  now we can call 'a' to see what methods the batteryBuffer has.%nWhat we'll be using in this example is the 'getBatteryCharge' method.  So type%n 'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.%n%n So if we're using a 2x2 battery buffer; we can type something like- 'for i=1, 4 do print(a.getBatteryCharge(i)) end%nPoof you now see what all the batteries EU values.  Now what can we do with this?%n%nTry making a variable called 'batteryCharge = 0',  now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'%n%nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.%n%nPlace in your tape drive and type 'install', and follow the promps to install it into C.  Then edit it, test it, figure how it works.%n%nI suppose that's enough for now; congrats!  Experiment and learn, and don't forget to check google as much as possible!  %nThis questline will be updated again in the future; but I figure this is a good ending point for now.
-#A gtnh.quest1764.desc=For this part we will learn how to use our adapter, place it next to, let's say your EBFs battery buffer and connect it to the computer with cables.%nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.%n%nType in 'component.list()' this will display a table of all of .list from component. What we're looking for is gt_batterybuffer.%nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.%n%nSo now assign a variable to it; for example 'a = component.gt_batterybuffer'; now we can call 'a' to see what methods the batteryBuffer has.%nWhat we'll be using in this example is the 'getBatteryCharge' method. So type  'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.%n%nSo if we're using a 2x2 battery buffer; we can type something like, 'for i=1, 4 do print(a.getBatteryCharge(i)) end'%nPoof you now see what all the batteries EU values. Now what can we do with this?%n%nTry making a variable called 'batteryCharge = 0', now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'%n%nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.%n%nPlace in your tape drive and type 'install', and follow the promps to install it into C. Then edit it, test it, figure how it works.%n%nI suppose that's enough for now; congrats! Experiment and learn, and don't forget to check google as much as possible!  %nThis questline will be updated again in the future; but I figure this is a good ending point for now.
-#C gtnh.quest1764.desc=对于这一部分,我们将学习如何使用我们的适配器,将它放在旁边-比如你的工业高炉(EBF)电池缓冲区并用线缆将它连接到计算机. 现在让我们在计算机上键入lua以打开LUA环境我们可以测试事物而不用担心保存和尝试我们的程序. 在'component.list（）'中输入这将显示一个包含组件中所有.list的表.我们正在寻找的是gt_batterybuffer. 如果附近有太多东西可能无法显示,搜索整个组件列表的方式对于初学者来说太先进了. 现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法. 我们在这个例子中将使用的是'getBatteryCharge'方法.因此输入\ n'a.getBatteryCharge（1）'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge. 因此,如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print（a.getBatteryCharge（i））end 目前你看看EU所有电池的价值.现在我们可以做些什么呢？ 尝试制作一个名为'batteryCharge = 0'的变量,现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge（i）end' 现在打印（ batteryCharge）将显示总电量.这是一个使用它的程序示例. 在你的磁带机中放置并键入“install”,然后按照提示将其安装到C中.然后编辑它,测试它,确定它是如何工作的. 我想这就足够了;恭喜！实验和学习,不要忘记尽可能多地检查谷歌！ 这个任务线将来会再次更新;但我认为现在这是一个很好的结局. 原文:For this part we will learn how to use our adapter,  place it next to- let's say your EBFs battery buffer and connect it to the computer with cables.%nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.  Type in 'component.list()'   this will display a table of all of .list from component.  What we're looking for is gt_batterybuffer.%nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.  So now assign a variable to it;for example 'a = component.gt_batterybuffer'; now we can call 'a' to see what methods the batteryBuffer has.%nWhat we'll be using in this example is the 'getBatteryCharge' method.  So type%n 'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.   So if we're using a 2x2 battery buffer;we can type something like- 'for i=1, 4 do print(a.getBatteryCharge(i)) end%nPoof you now see what all the batteries EU values.  Now what can we do with this?  Try making a variable called 'batteryCharge = 0',  now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'  Now print(batteryCharge) will display the total charge. Here's a program example of this being used.  Place in your tape drive and type 'install', and follow the promps to install it into C.  Then edit it, test it, figure how it works.  I suppose that's enough for now;congrats!  Experiment and learn, and don't forget to check google as much as possible!  %nThis questline will be updated again in the future;but I figure this is a good ending point for now.
+gtnh.quest1764.desc=对于这一部分,我们将学习如何使用我们的适配器,将它放在旁边-比如你的工业高炉(EBF)电池缓冲区并用线缆将它连接到计算机.%n现在让我们在计算机上键入lua以打开LUA环境我们可以测试事物而不用担心保存和尝试我们的程序.%n%n在'component.list()'中输入这将显示一个包含组件中所有.list的表.我们正在寻找的是gt_batterybuffer.%n如果附近有太多东西可能无法显示,搜索整个组件列表的方式对于初学者来说太先进了.%n%n现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法.%n我们在这个例子中将使用的是'getBatteryCharge'方法.因此输入\ n'a.getBatteryCharge(1)'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge.%n%n因此,如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print(a.getBatteryCharge(i))end 目前你看看EU所有电池的价值.现在我们可以做些什么呢？%n%n尝试制作一个名为'batteryCharge = 0'的变量,现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge(i)end'%n%n现在打印( batteryCharge)将显示总电量.这是一个使用它的程序示例.%n%n在你的磁带机中放置并键入“install”,然后按照提示将其安装到C中.然后编辑它,测试它,确定它是如何工作的.%n%n我想这就足够了;恭喜！实验和学习,不要忘记尽可能多地检查谷歌！ 这个任务线将来会再次更新;但我认为现在这是一个很好的结局.%n%n%n%n原文:For this part we will learn how to use our adapter, place it next to, let's say your EBFs battery buffer and connect it to the computer with cables.%nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.%n%nType in 'component.list()' this will display a table of all of .list from component. What we're looking for is gt_batterybuffer.%nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.%n%nSo now assign a variable to it; for example 'a = component.gt_batterybuffer'; now we can call 'a' to see what methods the batteryBuffer has.%nWhat we'll be using in this example is the 'getBatteryCharge' method. So type  'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.%n%nSo if we're using a 2x2 battery buffer; we can type something like, 'for i=1, 4 do print(a.getBatteryCharge(i)) end'%nPoof you now see what all the batteries EU values. Now what can we do with this?%n%nTry making a variable called 'batteryCharge = 0', now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'%n%nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.%n%nPlace in your tape drive and type 'install', and follow the promps to install it into C. Then edit it, test it, figure how it works.%n%nI suppose that's enough for now; congrats! Experiment and learn, and don't forget to check google as much as possible!  %nThis questline will be updated again in the future; but I figure this is a good ending point for now.
 
 # Quest.1765 - Online Shopping - Tier 1
 gtnh.quest1765.name=在线购物-第一阶
@@ -7263,12 +7121,8 @@ gtnh.quest1778.name=扭曲警报
 gtnh.quest1778.desc=神秘通过其设备与工具带来了巨大的力量. 但力量是需要付出代价的.... 从版本4.2开始,这种代价以扭曲为代表: 人物思想与灵魂的侵蚀,逐渐对他们造成更多可怕的影响. 虽然扭曲的效果可以从烦人到致命,但积累足够多的扭曲也可以让你获得更大的力量......代价就是越发疯狂并被黑暗力量越发关注. 至少,其他人可能称之为疯狂... 但是,当你头脑中的声音给出了有用的知识时；在你离开之前出现的怪物仍然留在你身后时,你开始怀疑它真的是精神的错乱吗？ 神秘扭曲学添加了一系列扭曲效果. 你要万分当心因为你肯定不想在你的基地内部或周围生成凋灵. 扭曲效果与扭曲等级相关. 10扭曲时可能发生虚拟的爆炸 10扭曲时可能生成虚拟的爬行者 15扭曲时可能生成虚拟的蝙蝠 16扭曲时可能中毒 18扭曲时可能获得跳跃提升 25扭曲时可能下雨 25扭曲时可能流血 25扭曲时可能反胃 26扭曲时可能使爬行者变得友好 30扭曲时可能出现闪电 32扭曲时可能出现牲畜之雨 38扭曲时可能出现怪风 43扭曲时可能失明 45扭曲时可能随机传送 50扭曲时可能获得急速 50扭曲时可能出现装备腐蚀 50扭曲时可能随机种树(可怕的毁家效果) 80扭曲时你的箱子可能会一团糟 80扭曲时可能会生成凋灵
 
 # Quest.1779 - Step Assistant
-#B gtnh.quest1779.name=Step Assistant.
-#A gtnh.quest1779.name=Step Assistant
-#C gtnh.quest1779.name=爬坡助手
-#B gtnh.quest1779.desc=The Piston Boots are a bouncy pair of shoes for adventurers.%n%nIt functions as a piece of armor for the foot slot that gives a fun jump boost! They let the wearer jump up to THREE blocks in height and increase run speed. They also grant a Step Up enchantment to allow the wearer to step up a single block without jumping while sprinting.
-#A gtnh.quest1779.desc=The Piston Boots are a bouncy pair of shoes for adventurers.%n%nIt functions as a piece of armor for the foot slot that gives a fun jump boost! They let the wearer jump up to THREE blocks in height and increase run speed. They also grant a Step Up enchantment to allow the wearer to step up a single block without jumping while sprinting.%n%nBasically, make the ASAP.
-#C gtnh.quest1779.desc=活塞靴子是探险家的一双有弹性的鞋. 它能提升一点足部护甲并能赋予有趣的跳跃提升！ 它们能使穿戴者跳起三格高并提升跑步速度. 它们还能使穿戴者在疾跑时自动爬上一格高的障碍物.
+gtnh.quest1779.name=爬坡助手
+gtnh.quest1779.desc=活塞靴子是探险家的一双有弹性的鞋.%n%n它能提升一点足部护甲并能赋予有趣的跳跃提升！ 它们能使穿戴者跳起三格高并提升跑步速度. 它们还能使穿戴者在疾跑时自动爬上一格高的障碍物.%n%n总之,尽快合成它吧.
 
 # Quest.1780 - Olives Saplings
 gtnh.quest1780.name=橄榄树苗
@@ -7279,33 +7133,23 @@ gtnh.quest1781.name=旅行者的装备
 gtnh.quest1781.desc=它本身的护目镜,翅膀,靴子,马甲,腰带和靴子并不是特别的.  你可以使用护目镜进行缩放,使用腰带增加一个快捷栏,使用靴子加强爬坡(自动爬上一格高的障碍物),使用旅行者之翼进行跳跃提升,并使用马甲更快地游泳.  你也可以像使用普通护甲一样得到保护.  以后你可以将这些物品升级为更强大的物品.
 
 # Quest.1782 - Traveller's Goggles Upgrades
-#B gtnh.quest1782.name=Traveller's Goggles upgrades
-#A gtnh.quest1782.name=Traveller's Goggles Upgrades
-#C gtnh.quest1782.name=旅行者护目镜升级版
+gtnh.quest1782.name=旅行者护目镜升级版
 gtnh.quest1782.desc=夜视非常有用.如果你将护目镜与夜视药水(3:00,一次做3个),金萝卜和打火机在匠魂装配台中结合起来,就会得到夜视护目镜.记得把护目镜放在装配台的中间.  提示:自动修复也可以添加到护目镜中. 每件护甲都有3个用于升级的插槽.
 
 # Quest.1783 - Traveller's Vest Upgrades
-#B gtnh.quest1783.name=Traveller's Vest upgrades
-#A gtnh.quest1783.name=Traveller's Vest Upgrades
-#C gtnh.quest1783.name=旅行者马甲升级
+gtnh.quest1783.name=旅行者马甲升级
 gtnh.quest1783.desc=你的马甲可以配备一些升级,比如完美闪避和隐形.  完美闪避意味着你更难被击中并且可以叠加3次.  隐形让你在潜行时别人看不见你.  记得把马甲放在装配台的中间.  提示:自动修复也可以添加到马甲中. 每件护甲都有3个用于升级的插槽.
 
 # Quest.1784 - Traveller's Wings Upgrades
-#B gtnh.quest1784.name=Traveller's Wings upgrades
-#A gtnh.quest1784.name=Traveller's Wings Upgrades
-#C gtnh.quest1784.name=旅行者之翼升级
+gtnh.quest1784.name=旅行者之翼升级
 gtnh.quest1784.desc=你的旅行者之翼可以配备一些升级,比如羽落和二重跳.  羽落意味着让你在空中缓慢滑行.  二重跳意味着你在空中可以再次跳跃.  记得把旅行者之翼放在装配台的中间.  提示:自动修复也可以添加到旅行者之翼中. 每件护甲都有3个用于升级的插槽.
 
 # Quest.1785 - Traveller's Gloves Upgrades
-#B gtnh.quest1785.name=Traveller's Gloves upgrades
-#A gtnh.quest1785.name=Traveller's Gloves Upgrades
-#C gtnh.quest1785.name=旅行者手套升级
+gtnh.quest1785.name=旅行者手套升级
 gtnh.quest1785.desc=将红石放在我的武器上使它更快.那么我为什么不直接把它放在我的手上呢！  它会提高挖掘速度.  提示:每件护甲都有3个用于升级的插槽.但手套有5个.
 
 # Quest.1786 - Traveller's Shoes Upgrades
-#B gtnh.quest1786.name=Traveller's Shoes upgrades
-#A gtnh.quest1786.name=Traveller's Shoes Upgrades
-#C gtnh.quest1786.name=旅行者靴子升级
+gtnh.quest1786.name=旅行者靴子升级
 gtnh.quest1786.desc=你的靴子可以配备一些升级,如水上步行,二重跳,铅靴或黏滑靴子.  水上步行意味着让你走过水.  二重跳意味着在空中可以再次跳跃.  铅靴意味着允许你在水下行走,防止你游泳,还可以获得额外空气.  黏滑靴子可减少你受到的掉落伤害.  提示:自动修复也可以添加到靴子上. 每件护甲都有3个用于升级的插槽.
 
 # Quest.1787 - §6§lData Reader
