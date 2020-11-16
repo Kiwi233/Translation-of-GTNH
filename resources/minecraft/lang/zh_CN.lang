@@ -3237,12 +3237,8 @@ gtnh.quest808.name=§9§lHV级搅拌
 gtnh.quest808.desc=高阶粉末需要HV级搅拌机.
 
 # Quest.809 - Dire Crafting Table
-#B gtnh.quest809.name=NASA Workbench aka Dire Crafting Table
-#A gtnh.quest809.name=Dire Crafting Table
-#C gtnh.quest809.name=NASA工作台,又名终极工作台
-#B gtnh.quest809.desc=The Avaritia 9x9 dire crafting table replaces the NASA workbench. It is required to craft all rockets and high tier equipment. First of all you need 81 crafting tables to make a double compressed crafting table, a few HV components, wafers and a crystal matrix. And yes, you do need that many nether stars.%n%n§3Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.§r%n%n§3Also, if you're having trouble getting the wither skulls, you can make a Cleaver or the Skullfire Sword to help with that.
-#A gtnh.quest809.desc=The Avaritia 9x9 dire crafting table...is no longer used to make rockets :(. But you can still make it, if you want solars, kinetics, or whatnot. First of all you need 81 crafting tables to make a double compressed crafting table, a few HV components, wafers and a crystal matrix. And yes, you do need that many nether stars.%n%n§3Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.§r%n%n§3Also, if you're having trouble getting the wither skulls, you can make a Cleaver or the Skullfire Sword to help with that.
-#C gtnh.quest809.desc=Avarita的9x9终极工作台取代了NASA工作台.这是制作所有火箭及高阶装备的必需品.首先,你需要81个工作台来制作一个双重压缩工作台,一些HV组件、晶元,以及一个水晶矩阵.然后......没错,你确实需要很多下界之星.%n%n§3提示:查看下界之星的配方,可使用枯竭水晶及世界盐合成.枯竭水晶可以通过加入岩浆膏、烈焰粉及小撮下界之星粉复制.§r%n%n§3另外, 如果你搞不到凋灵骷髅头, 劈刀或者炽焰之啄颅剑都挺好用的.
+gtnh.quest809.name=终极工作台
+gtnh.quest809.desc=Avarita的9x9终极工作台...不再用于制造火箭 :(.不过如果你需要太阳能、动能发电机的话, 它也是必不可少的.首先,你需要81个工作台来制作一个双重压缩工作台,一些HV组件、晶元,以及一个水晶矩阵.然后......没错,你确实需要很多下界之星.%n%n§3提示:查看下界之星的配方,可使用枯竭水晶及世界盐合成.枯竭水晶可以通过加入岩浆膏、烈焰粉及小撮下界之星粉复制.§r%n%n§3另外, 如果你搞不到凋灵骷髅头, 劈刀或者炽焰之啄颅剑都挺好用的.
 
 # Quest.810 - Rocket Tier 1
 gtnh.quest810.name=1阶火箭
@@ -8370,9 +8366,7 @@ gtnh.quest2090.desc=GT++的诱变框架可使你的蜜蜂在眨眼间完成突�
 
 # Quest.2091 - Upgrading the Alveary (tier 1)
 gtnh.quest2091.name=蜂箱组升级(1阶)
-#B gtnh.quest2091.desc=These basic upgrades to the Alveary make it more powerful. %n%nFrame housing - Automation-enabled frames for the Alveary%nSwarmer - Creates additional Ignoble queens in hives around the Alveary%nHygroregulator - Controls for humidity, and to a lesser extent temperature. Will require lava or water.%nStabilizer - Prevents the princess or queen from changing species. Ideal for breeding traits into a line.%nSieve - Instead of the pollen from a bee fertilizing a nearby tree, it is stored here and can be manually applied. Requires manually placing woven silk in the inventory.%nRain shield - Keeps bees that are not rain tolerant dry and working.%nHatchery - Hatches larval bees for use in Genetics or to create additional drones.
-#A gtnh.quest2091.desc=These basic upgrades to the Alveary make it more powerful. %n%nFrame housing - Automation-enabled frames for the Alveary. 3 per unit%nSwarmer - Creates additional Ignoble queens in hives around the Alveary%nHygroregulator - Controls for humidity, and to a lesser extent temperature. Will require lava or water.%nStabilizer - Prevents the princess or queen from changing species. Ideal for breeding traits into a line.%nSieve - Instead of the pollen from a bee fertilizing a nearby tree, it is stored here and can be manually applied. Requires manually placing woven silk in the inventory.%nRain shield - Keeps bees that are not rain tolerant dry and working.%nHatchery - Hatches larval bees for use in Genetics or to create additional drones.
-#C gtnh.quest2091.desc=这些蜂箱组的基础升级使它更强大.  框架栏-自动化-使蜂箱组可以安装框架 克隆盒-在蜂箱组周围生成蜂巢,其内为卑贱种蜂后 保湿器-控制湿度,小范围控制温度.需要岩浆和水. 稳定器-蜜蜂突变的几率为0,但是不影响基因的自由组合.非常适合将某条特性培育进蜜蜂基因. 滤网-收集蜜蜂工作范围内的花粉,而不是让它们给树授粉,收集的花粉可以手动使用. 需要手动将丝绸放入蜂箱组中. 挡雨方块-使没有耐雨飞行性的蜜蜂在雨天也可以工作. 孵化间-孵化蜜蜂幼体,用于注入基因或制造额外的雄峰.
+gtnh.quest2091.desc=这些蜂箱组的基础升级使它更强大.%n%n框架栏-自动化-使蜂箱组可以安装框架,每个可装三个框架%n克隆盒-在蜂箱组周围生成蜂巢,其内为卑贱种蜂后%n保湿器-控制湿度,小范围控制温度.需要岩浆和水.%n稳定器-蜜蜂突变的几率为0,但是不影响基因的自由组合.非常适合将某条特性培育进蜜蜂基因.%n滤网-收集蜜蜂工作范围内的花粉,而不是让它们给树授粉,收集的花粉可以手动使用. 需要手动将丝绸放入蜂箱组中.%n挡雨方块-使没有耐雨飞行性的蜜蜂在雨天也可以工作.%n孵化间-孵化蜜蜂幼体,用于注入基因或制造额外的雄峰.
 
 # Quest.2092 - Busy Bees Buzzing Boldly
 gtnh.quest2092.name=忙碌的蜜蜂大胆地嗡嗡叫
@@ -8444,9 +8438,7 @@ gtnh.quest2108.desc=这个数据库持续追踪你发现的所有蜜蜂.
 
 # Quest.2109 - Fluttering Facts
 gtnh.quest2109.name=蝴蝶现象
-#B gtnh.quest2109.desc=This database tracks all your knowledge of butterflies.
-#A gtnh.quest2109.desc=This database tracks all your knowledge of butterflies.%n%nBTW, see the BBB tab for the Botany stuff.
-#C gtnh.quest2109.desc=此设备将追踪你发现的所有蝴蝶.
+gtnh.quest2109.desc=此设备将追踪你发现的所有蝴蝶.%n%n对了, 有关植物学任务, 请查看BBB任务栏.
 
 # Quest.2110 - Speeding up slow machines
 gtnh.quest2110.name=加速缓慢的机器
@@ -8457,29 +8449,19 @@ gtnh.quest2111.name=向王欢呼
 gtnh.quest2111.desc=如果你是欧皇,能在旅途中遇到史莱姆王,那么将其杀死后,我会给你其中一件工具换上非常棒的部件(头).
 
 # Quest.2112 - Sometimes Life is Scary and Dark - Bring a Backpack
-#B gtnh.quest2112.name=Sometimes life is scary and dark - Bring a backpack
-#A gtnh.quest2112.name=Sometimes Life is Scary and Dark - Bring a Backpack
-#C gtnh.quest2112.name=有时生活是可怕并黑暗的-带上一个背包
-#B gtnh.quest2112.desc=Now that you are MV, you can make an Adventure Backpack. This very useful backpack can do many things. It can store 2 tools for quick access, has internal tanks for containing liquids - use the Hose to access them, a built in crafting table, and storage. When placed on your back, it can be accessed using a quick-access key, default is B. Check your controls for details. %nWhen placed on the ground, it can be accessed with a right-click. While on the ground, the bedroll can be deployed and used. %nThey can also be upgraded to add special abilities. For more special abilities than those featured here, check the Adventure Backpacks wiki.
-#A gtnh.quest2112.desc=Now that you are MV, you can make an Adventure Backpack. This very useful backpack can do many things. It can store 2 tools for quick access, has internal tanks for containing liquids - use the Hose to access them, a built in crafting table, and storage. %n%nWhen placed on your back, it can be accessed using a quick-access key, default is B. Check your controls for details.%n%nWhen placed on the ground, it can be accessed with a right-click. While on the ground, the bedroll can be deployed and used.%n%nThey can also be upgraded to add special abilities. For more special abilities than those featured here, check the Adventure Backpacks wiki.
-#C gtnh.quest2112.desc=既然你到达了MV阶段,那么你就可以制作探险者背包了.这个非常有用的背包可以做很多事情.它可以存储2个工具-可以快速切换;有内置储罐以存储液体-使用背包软管访问它们;一个内置工作台;以及存储功能.  当在你背上时,它可以通过快捷键访问,默认是B.检查你的选项-控制.  当放在地上时,它可以通过右键访问,卧室可以布置并使用(不就是个床么...).  它们也可以通过升级来添加特殊能力.想获知比这里介绍的更多的特殊能力,请查看探险背包(Adventure-Backpacks)mod的wiki主页.
+gtnh.quest2112.name=有时生活是可怕而黑暗的-带上一个背包
+gtnh.quest2112.desc=既然你到达了MV阶段,那么你就可以制作探险者背包了.这个非常有用的背包可以做很多事情.它可以存储2个工具-可以快速切换;有内置储罐以存储液体-使用背包软管访问它们;一个内置工作台;以及存储功能.%n%n当在你背上时,它可以通过快捷键访问,默认是B.检查你的选项-控制.%n%n当放在地上时,它可以通过右键访问,卧室可以布置并使用(不就是个床么...).%n%n它们也可以通过升级来添加特殊能力.想获知比这里介绍的更多的特殊能力,请查看探险背包(Adventure-Backpacks)mod的wiki主页.
 
 # Quest.2113 - See Like a ... Bat?
-#B gtnh.quest2113.name=See like a ... bat?
-#A gtnh.quest2113.name=See Like a ... Bat?
-#C gtnh.quest2113.name=看起来像是一只...蝙蝠?
+gtnh.quest2113.name=看起来像是一只...蝙蝠?
 gtnh.quest2113.desc=夜视是一个很棒的背包能力.
 
 # Quest.2114 - Swim Like a .... Aquid?
-#B gtnh.quest2114.name=Swim like a .... squid?
-#A gtnh.quest2114.name=Swim Like a .... Aquid?
-#C gtnh.quest2114.name=游起来像一只...鱿鱼?
+gtnh.quest2114.name=游起来像一只...鱿鱼?
 gtnh.quest2114.desc=如果你想深潜或者进行水下探险,这种背包就是为你准备的.
 
 # Quest.2115 - Walk Through Fire
-#B gtnh.quest2115.name=Walk through fire
-#A gtnh.quest2115.name=Walk Through Fire
-#C gtnh.quest2115.name=赴汤蹈火
+gtnh.quest2115.name=赴汤蹈火
 gtnh.quest2115.desc=僵尸猪人背包会提供火焰保护,这让下界变成坦途.想要获得它,你得想办法在背着猪背包的时候被闪电击中...  译者注:可以试试雷神之锤或者直接去找会放闪电的精英怪.
 
 # Quest.2116 - Creeper Repellant
@@ -8487,18 +8469,12 @@ gtnh.quest2116.name=驱逐爬行者
 gtnh.quest2116.desc=豹猫背包会使爬行者远离你.针对那些水栖爬行者,这是很棒的保护!不要离它们太近,否则对的它们排斥将会被压制,而它们就会爆炸！
 
 # Quest.2117 - Milk Without the Cow?
-#B gtnh.quest2117.name=Milk without the cow?
-#A gtnh.quest2117.name=Milk Without the Cow?
-#C gtnh.quest2117.name=不用牛获得牛奶?
+gtnh.quest2117.name=不用牛获得牛奶?
 gtnh.quest2117.desc=在存储栏里放小麦就可以让牛背包产生牛奶.懒人福音!
 
 # Quest.2118 - Here there be Dragons
-#B gtnh.quest2118.name=Here be dragons
-#A gtnh.quest2118.name=Here there be Dragons
-#C gtnh.quest2118.name=化身巨龙
-#B gtnh.quest2118.desc=The Dragon backpack gives you Fire Resistance, Strength, Water Breathing, Night Vision and Regeneration.
-#A gtnh.quest2118.desc=The Dragon backpack gives you Fire Resistance, Strength, Water Breathing, Night Vision and Regeneration.%n%n§3It may be really good, but also uses up a dragon egg, so be sure you want it, or can craft another.
-#C gtnh.quest2118.desc=龙背包给予你火焰保护、力量、水下呼吸、夜视和生命回复效果.
+gtnh.quest2118.name=化身巨龙
+gtnh.quest2118.desc=龙背包给予你火焰保护、力量、水下呼吸、夜视和生命回复效果.%n%n§3它的功能的确很强大, 但它也会消耗一个龙蛋, 所以请确定这是你必须的, 或者你有把握再做个龙蛋.
 
 # Quest.2119 - Smart cables
 gtnh.quest2119.name=智能线缆
@@ -9306,9 +9282,7 @@ gtnh.quest2319.desc=将氯铱酸与氯化铵混合,你将获得一些氯化铱,�
 
 # Quest.2320 - §6§lTower of Babylon
 gtnh.quest2320.name=§6§l巴比伦塔
-#B gtnh.quest2320.desc=Well what might happen if you combine 64 Distillation Towers in one...? You know... you get a 61 Blocks tall Multiblock%n%nThis can handle up to 256 Recipes at once.
-#A gtnh.quest2320.desc=Well what might happen if you combine 64 Distillation Towers in one...? You know... you get a 61 Block tall Multiblock.%n%nThis can handle up to 256 Recipes at once.
-#C gtnh.quest2320.desc=嗯...如果将64个蒸馏塔合为一座会发生什么...?你懂的...你会得到一个61层高的多方块结构.%n%n此多方块机器一次最多可以处理256个配方.
+gtnh.quest2320.desc=嗯...如果将64个蒸馏塔合为一座会发生什么...?你懂的...你会得到一个61层高的多方块结构.%n%n此多方块机器一次最多可以处理256个配方.
 
 # Quest.2321 - §b§lIridium
 gtnh.quest2321.name=§b§l铱
@@ -9408,9 +9382,7 @@ gtnh.quest2344.desc=先知之石是水晶球的一种变体,它能使巫师就�
 
 # Quest.2345 - Iron Ore exchange
 gtnh.quest2345.name=交换铁矿石
-#B gtnh.quest2345.desc=You can exchange your Stack of GT Iron Ore for another Iron Type of Ores.
-#A gtnh.quest2345.desc=You can exchange your Stack of GT Iron Ore for vanilla Iron Ore.
-#C gtnh.quest2345.desc=可以把你的GT铁矿石换成另一种铁矿石.
+gtnh.quest2345.desc=可以把你的GT铁矿石换成原版铁矿石.
 
 # Quest.2346 - §9§8§7§6§5§3§lTame an Ocelot to get a Friend
 gtnh.quest2346.name=§9§8§7§6§5§3§l驯服豹猫来交朋友
@@ -9617,9 +9589,7 @@ gtnh.quest2396.name=过氧化氢
 gtnh.quest2396.desc=过氧化氢需在GT++化工厂制取.  将空气、2-乙基蒽氢醌和蒽进行反应.
 
 # Quest.2397 - Playing With the Big Boys, Chemically
-#B gtnh.quest2397.name=Playing with the Big Boys, chemically
-#A gtnh.quest2397.name=Playing With the Big Boys, Chemically
-#C gtnh.quest2397.name=大男孩,咱们来玩玩化工吧
+gtnh.quest2397.name=大男孩,咱们来玩玩化工吧
 gtnh.quest2397.desc=该设施将为你处理稍后需要的某些化学配方.比如火箭燃料. 注意,只有达到配方所需化工厂等级才能运行相应配方.%n%n而且化工厂需要大量资源,开始采矿吧! 某些配方需要催化剂, 将它们放在催化剂仓内. 催化剂消耗耐久, 包括看起来没有耐久的.%n%n§3碳化硅可在搅拌机中获得, 不一定需要合金冶炼炉.§r%n%n可用的固体外壳:(决定可处理的配方等级)%n0 强化青铜机械方块%n1 脱氧钢机械方块%n2 强化铝机械方块%n3 洁净不锈钢机械方块%n4 加强钛机械方块%n5 强化钨钢机械方块%n6 强化劳伦姆合金机械方块%n7 强化博特姆合金机械方块%n%n可用的机械方块:(决定仓室/总线的等级上限)%nLV-UHV机械方块%n%n可用的管道方块:(+2并行, -20％催化剂消耗几率)%n青铜%n钢%n钛%n钨钢%n%n可用的线圈:(每个等级提速+50％, 初始速度50％)%n白铜%n坎塔尔合金%n镍铬合金%n钨钢%n高速钢-G%n硅岩%n硅岩合金%n译者注: 更高级的线圈仍然可以运行, 但没有提速效果.
 
 # Quest.2398 - §3§lHidden drawers
@@ -9632,15 +9602,11 @@ gtnh.quest2399.desc=去命名器是一个简单而实用的机器,可以移除�
 
 # Quest.2400 - Steadfast Bees
 gtnh.quest2400.name=坚定蜂
-#B gtnh.quest2400.desc=Normally you find Steadfast drones in dungeon loot chests. If you haven't been lucky yet, or if your server owners are cruel and disable dungeons, you can buy some here.
-#A gtnh.quest2400.desc=Normally you find Steadfast drones in dungeon loot chests. If you haven't been lucky yet, they're all picked over, or if your server owners are cruel and disable dungeons, you can buy some here.
-#C gtnh.quest2400.desc=通常你会在地牢的宝箱中找到坚定雄峰.如果你不太走运,或者所在的服务器管理员禁用了地牢,可以在这里买一些.
+gtnh.quest2400.desc=通常你会在地牢的宝箱中找到坚定雄峰.如果你不太走运,它们都被人捷足先登了,或者所在的服务器管理员禁用了地牢,可以在这里买一些.
 
 # Quest.2401 - Monastic Bees
 gtnh.quest2401.name=僧侣蜂
-#B gtnh.quest2401.desc=Normally you find Monastic drones by trading Beekeeper villagers. If you haven't been lucky yet, villages are all dead, or if your server owners are cruel and disable villages, you can buy some here.%n%nExpensive to encourage you to try looking really hard, and to try and heal zombie villagers.  Good luck!
-#A gtnh.quest2401.desc=Normally you find Monastic drones by trading with Beekeeper villagers. If you haven't been lucky yet, villages are all dead, or if your server owners are cruel and disable villages, you can buy some here.%n%n§3It's expensive to encourage you to try looking really hard, and to try and heal zombie villagers.  Good luck!
-#C gtnh.quest2401.desc=通常,你可以通过与养蜂员村民交易来获取僧侣雄峰.如果你不太走运,村民都死光了,或是所在的服务器管理员禁用了村庄,可以在这里买一些.%n%n我们定下昂贵的价格激励你更加努力地寻找,还可以尝试治愈僵尸村民.祝你好运!
+gtnh.quest2401.desc=通常,你可以通过与养蜂员村民交易来获取僧侣雄峰.如果你不太走运,村民都死光了,或是所在的服务器管理员禁用了村庄,可以在这里买一些.%n%n§3我们定下昂贵的价格激励你更加努力地寻找,还可以尝试治愈僵尸村民.祝你好运!
 
 # Quest.2402 - §2§lGot a flat tire?
 gtnh.quest2402.name=§2§l爆胎?平平整整!(Got a flat tire?)
@@ -9684,15 +9650,11 @@ gtnh.quest2411.desc=手持着元始魔力,你突然明白了耳语中的某些�
 
 # Quest.2412 - Gen XXXXXXXXXX...
 gtnh.quest2412.name=淦XXXXXXXXXX...
-#B gtnh.quest2412.desc=Yes! Yes! The eyes! You understand now, it is all too clear! The land of riches, it is yours! But what is this? It's empty? Why, where have your Riches gone? The sole inhabitant tells you that all such things have faded away long ago, with the End of Time at hand...But that simply means you're in the right PLACE after all! You're simply in the wrong TIME. If you simply adjust the portal a little, you can arrive at the right PLACE and TIME to get your well-deserved Riches. You suspect that such an adjustment would require something strong...INFINITELY strong.%n%nIn the meantime you now have a very very big closet to store your things in once the old owner...moves out. Upon leaving, you spot a tiny Ghast, surely just your imagination? Unfortunately the shifting of time causes you to end up in what is likely wilderness when you leave. (Exiting sends you back to the world spawn)
-#A gtnh.quest2412.desc=Yes! Yes! The eyes! You understand now, it is all too clear! The land of riches, it is yours! But what is this? It's empty? Why, where have your Riches gone? The sole inhabitant tells you that all such things have faded away long ago, with the End of Time at hand...But that simply means you're in the right PLACE after all! You're simply in the wrong TIME. If you simply adjust the portal a little, you can arrive at the right PLACE and TIME to get your well-deserved Riches. You suspect that such an adjustment would require something strong...INFINITELY strong.%n%nIn the meantime you now have a very very big closet to store your things in once the old owner...moves out. Upon leaving, you spot a tiny Ghast, surely just your imagination? Unfortunately the shifting of time causes you to end up in what is likely wilderness when you leave. (Exiting sends you back to the world spawn)%n%nIn order to build a machine to take you to both the right place and time, you're goint to have to roll up your sleeves and get to the very limits of technological prowess you can imagine. (see the Endgame Goals tab when you're ready)
-#C gtnh.quest2412.desc=是了! 就是它! 眼睛! 你终于明白了,这太简单了! 无尽的财富,都是你的! 不对!这是哪里? 这里是空的? 为什么,你的财富哪去了? 唯一的原住民告诉你,所有这些早已随着时间的洪流消逝...但这毕竟意味着你已经到达了正确的位置! 只是在时间维度上出了点问题. 只要稍微调整一下传送门,你就可以在正确的时间到达正确的地点,并心安理得地享受这无尽的财富. 你怀疑这样的调整需要一些强大的物品...无尽的强大.%n%n同时,原主人搬走后,你就能拥有一个世界来存放自己的物品了.离开时,你好像瞥见了一只小恶魂,当然这只是你幻觉? 不幸的是,随着时间的流逝,你离开的时候可能会陷入荒原.(退出深渊世界后你将被传送到出生点)
+gtnh.quest2412.desc=是了! 就是它! 眼睛! 你终于明白了,这太简单了! 无尽的财富,都是你的! 不对!这是哪里? 这里是空的? 为什么,你的财富哪去了? 唯一的原住民告诉你,所有这些早已随着时间的洪流消逝...但这毕竟意味着你已经到达了正确的位置! 只是在时间维度上出了点问题. 只要稍微调整一下传送门,你就可以在正确的时间到达正确的地点,并心安理得地享受这无尽的财富. 你怀疑这样的调整需要一些强大的物品...无尽的强大.%n%n同时,原主人搬走后,你就能拥有一个世界来存放自己的物品了.离开时,你好像瞥见了一只小恶魂,当然这只是你幻觉? 不幸的是,随着时间的流逝,你离开的时候可能会陷入荒原.(退出深渊世界后你将被传送到出生点)%n%n为了制造一台能够带你来到正确时间和地点的机器, 你不得不撸起袖子, 在现有技术实力下做到极限. (做好准备后, 请查看"终极目标"任务栏)
 
 # Quest.2413 - The Darkness of Choice for Edgelords
 gtnh.quest2413.name=漆黑之门!
-#B gtnh.quest2413.desc=The madness that gripped you before has passed, but the idea for claiming the 'Riches' you thought of before still seems...reasonably sound. You'll need more than just something Strong though, you need something Hard, something Dense, something Unstable, and some magic to force it all together. You suspect you may need to upgrade your Infusion Altar for this, given the number of materials needed. You believe you can simply mine this new location for any ore you need from now on...%n%n§3Unfortunately, those tasty ores are locked beneath the mantle of the planet. You'll need to use a Void Miner to get them out.
-#A gtnh.quest2413.desc=In order to get to the riches you rightfully deserve, you'll first need to make a Raw Portal, then complete it with more materials. You can then access this dimension that should contain every ore imaginable...%n%n§3Unfortunately, those tasty ores are locked beneath the mantle of the planet. You'll need to use a Void Miner to get them out.
-#C gtnh.quest2413.desc=之前困扰你的疯狂已经过去,但之前攫取财富的想法看起来...仍然可行.你不仅需要强大的物品,还需要一些坚硬的物品、一些致密的物品、一些不稳定的物品、以及将它们强行融合的魔法. 看着众多的注魔材料,你怀疑可能需要为此升级注魔祭坛. 你相信,只要到了那个地方,你就能开采一切所需的矿石了...
+gtnh.quest2413.desc=为了你本该得到的, 无尽的财富, 你需要先制造一个漆黑之门粗胚, 然后再用更多的材料将其完善. 最后你终于进入了这个维度, 应该蕴含了所有可以想到的矿石...%n%n§3太倒霉了, 那些可口的矿石被牢牢地锁在地幔之下. 只有通过虚空采矿场才能对它们进行开采.
 
 # Quest.2414 - Too many items? Unpossible!
 gtnh.quest2414.name=物品太多? 不存在的!
@@ -9748,75 +9710,51 @@ gtnh.quest2426.desc=GT和EIO的电容都会用到钽,它还是铌的一种来源
 
 # Quest.2427 - Gold Ore exchange
 gtnh.quest2427.name=交换金矿石
-#B gtnh.quest2427.desc=You can exchange your Stack of GT Gold Ore for another Gold Type of Ores.
-#A gtnh.quest2427.desc=You can exchange your Stack of GT Gold Ore for vanilla Gold Ore.
-#C gtnh.quest2427.desc=可以把你的GT金矿石换成另一种金矿石.
+gtnh.quest2427.desc=可以把你的GT金矿石换成原版金矿石.
 
 # Quest.2428 - Coal Ore exchange
 gtnh.quest2428.name=交换煤矿石
-#B gtnh.quest2428.desc=You can exchange your Stack of GT Coal Ore for another Coal Type of Ores.
-#A gtnh.quest2428.desc=You can exchange your Stack of GT Coal Ore for vanilla Coal Ore.
-#C gtnh.quest2428.desc=可以把你的GT煤矿石换成另一种煤矿石.
+gtnh.quest2428.desc=可以把你的GT煤矿石换成原版煤矿石.
 
 # Quest.2429 - Lapis Ore exchange
 gtnh.quest2429.name=交换青金石矿石
-#B gtnh.quest2429.desc=You can exchange your Stack of GT Lapis Ore for another Lapis Type of Ores.
-#A gtnh.quest2429.desc=You can exchange your Stack of GT Lapis Ore for vanilla Lapis Ore.
-#C gtnh.quest2429.desc=可以把你的GT青金石矿石换成另一种青金石矿石.
+gtnh.quest2429.desc=可以把你的GT青金石矿石换成原版青金石矿石.
 
 # Quest.2430 - Diamond Ore exchange
 gtnh.quest2430.name=交换钻石矿石
-#B gtnh.quest2430.desc=You can exchange your Stack of GT Diamond Ore for another Diamond Type of Ores.
-#A gtnh.quest2430.desc=You can exchange your Stack of GT Diamond Ore for vanilla Diamond Ore.
-#C gtnh.quest2430.desc=可以把你的GT钻石矿石换成另一种钻石矿石.
+gtnh.quest2430.desc=可以把你的GT钻石矿石换成原版钻石矿石.
 
 # Quest.2431 - Redstone Ore exchange
 gtnh.quest2431.name=交换红石矿石
-#B gtnh.quest2431.desc=You can exchange your Stack of GT Redstone Ore for another Redstone Type of Ores.
-#A gtnh.quest2431.desc=You can exchange your Stack of GT Redstone Ore for vanilla Redstone Ore.
-#C gtnh.quest2431.desc=可以把你的GT红石矿石换成另一种红石矿石.
+gtnh.quest2431.desc=可以把你的GT红石矿石换成原版红石矿石.
 
 # Quest.2432 - Netherquartz Ore exchange
 gtnh.quest2432.name=交换下界石英矿石
-#B gtnh.quest2432.desc=You can exchange your Stack of GT Netherquartz Ore for another Netherquartz Type of Ores.
-#A gtnh.quest2432.desc=You can exchange your Stack of GT Nether Quartz Ore for vanilla Nether Quartz Ore.
-#C gtnh.quest2432.desc=可以把你的GT下界石英矿石换成另一种下界石英矿石.
+gtnh.quest2432.desc=可以把你的GT下界石英矿石换成原版下界石英矿石.
 
 # Quest.2433 - Copper Ore exchange
 gtnh.quest2433.name=交换铜矿石
-#B gtnh.quest2433.desc=You can exchange your Stack of GT Copper Ore for another Copper Type of Ores.
-#A gtnh.quest2433.desc=You can exchange your Stack of GT Copper Ore for IC2 Copper Ore.
-#C gtnh.quest2433.desc=可以把你的GT铜矿石换成另一种铜矿石.
+gtnh.quest2433.desc=可以把你的GT铜矿石换成IC2铜矿石.
 
 # Quest.2434 - Tin Ore exchange
 gtnh.quest2434.name=交换锡矿石
-#B gtnh.quest2434.desc=You can exchange your Stack of GT Tin Ore for another Tin Type of Ores.
-#A gtnh.quest2434.desc=You can exchange your Stack of GT Tin Ore for IC2 Tin Ore.
-#C gtnh.quest2434.desc=可以把你的GT锡矿石换成另一种锡矿石.
+gtnh.quest2434.desc=可以把你的GT锡矿石换成IC2锡矿石.
 
 # Quest.2435 - Uranium Ore exchange
 gtnh.quest2435.name=交换铀矿石
-#B gtnh.quest2435.desc=You can exchange your Stack of GT Uranium Ore for another Uranium Type of Ores.
-#A gtnh.quest2435.desc=You can exchange your Stack of GT Uranium Ore for IC2 Uranium Ore.
-#C gtnh.quest2435.desc=可以把你的GT铀矿石换成另一种铀矿石.
+gtnh.quest2435.desc=可以把你的GT铀矿石换成IC2铀矿石.
 
 # Quest.2436 - Lead Ore exchange
 gtnh.quest2436.name=交换铅矿石
-#B gtnh.quest2436.desc=You can exchange your Stack of GT Lead Ore for another Lead Type of Ores.
-#A gtnh.quest2436.desc=You can exchange your Stack of GT Lead Ore for IC2 Lead Ore.
-#C gtnh.quest2436.desc=可以把你的GT铅矿石换成另一种铅矿石.
+gtnh.quest2436.desc=可以把你的GT铅矿石换成IC2铅矿石.
 
 # Quest.2437 - Seeing Inside Your Chests
-#B gtnh.quest2437.name=Seeing inside your Chest
-#A gtnh.quest2437.name=Seeing Inside Your Chests
-#C gtnh.quest2437.name=看穿你的箱子
+gtnh.quest2437.name=看穿你的箱子
 gtnh.quest2437.desc=有了全息眼镜, 你就能看穿箱子、桶和抽屉了, 就像物品显示(HoloInventory mod)一样.
 
 # Quest.2438 - Holo Glasses
 gtnh.quest2438.name=全息眼镜
-#B gtnh.quest2438.desc=What? Lost your Hologlasses already? Well here is a replacement.  Well sure it costs a few coins too, be carefull next time!
-#A gtnh.quest2438.desc=What? Lost your Hologlasses already? Well here is a replacement. Well sure it costs a few coins too, be careful next time!
-#C gtnh.quest2438.desc=什么? 你弄丢了全息眼镜? 好吧, 这是一个替代品.  你得花几枚硬币,下次要小心!
+gtnh.quest2438.desc=什么? 你弄丢了全息眼镜? 好吧, 这是一个替代品.  你得花几枚硬币,下次要小心!
 
 # Quest.2439 - Pumpkin Pie
 gtnh.quest2439.name=南瓜派
@@ -10264,9 +10202,7 @@ gtnh.quest2549.desc=当傀儡在无线范围内时, 你就能通过无线傀儡�
 
 # Quest.2550 - Endermanhead
 gtnh.quest2550.name=末影人的头
-#B gtnh.quest2550.desc=Want some endermanheads? Buy some!
-#A gtnh.quest2550.desc=Want some enderman heads? Buy some!
-#C gtnh.quest2550.desc=你可以用硬币买一些末影人的头!
+gtnh.quest2550.desc=你可以用硬币买一些末影人的头!
 
 # Quest.2551 - Time to kill (Scorching Lens)
 gtnh.quest2551.name=杀戮时刻(灼热之眼)
@@ -10393,9 +10329,7 @@ gtnh.quest2581.name=世界崩解之镐
 gtnh.quest2581.desc=无尽镐, 永不磨损, 能够破坏基岩且一次可以挖掘16x16x16范围.
 
 # Quest.2582 - Infinity Blocks, Because Why Not?
-#B gtnh.quest2582.name=Infinity blocks, because why not?
-#A gtnh.quest2582.name=Infinity Blocks, Because Why Not?
-#C gtnh.quest2582.name=无尽块, 因为所以?
+gtnh.quest2582.name=无尽块, 因为所以?
 gtnh.quest2582.desc=我的意思是, 如果你真的需要的话...
 
 # Quest.2583 - Galaxy in a Bottle...?
@@ -10419,9 +10353,7 @@ gtnh.quest2587.name=UV太阳能
 gtnh.quest2587.desc=白天时产生1A的UV电. 如果你的基地所在维度是永昼的话那就太棒了(比如花园世界).
 
 # Quest.2588 - Well This Looks... Shiny?
-#B gtnh.quest2588.name=Well this looks... shiny?
-#A gtnh.quest2588.name=Well This Looks... Shiny?
-#C gtnh.quest2588.name=好吧, 看起来...闪亮?
+gtnh.quest2588.name=好吧, 看起来...闪亮?
 gtnh.quest2588.desc=永恒奇点, 由GTNH中几乎所有资源构成. 一个星门大概总共需要200个永恒奇点.
 
 # Quest.2589 - Infinite Oxygen Tank
@@ -10429,9 +10361,7 @@ gtnh.quest2589.name=无限氧气罐
 gtnh.quest2589.desc=提供无限的氧气, 很遗憾, 只能用于补充氧气罐, 而不能直接装备在氧气罐槽位中.
 
 # Quest.2590 - You Know the Drill
-#B gtnh.quest2590.name=You know the drill
-#A gtnh.quest2590.name=You Know the Drill
-#C gtnh.quest2590.name=你知道该怎么做
+gtnh.quest2590.name=你知道该怎么做
 gtnh.quest2590.desc=我不确定它们到底有没有用, 不过它们看起来蓝蓝的所以有点酷.
 
 # Quest.2591 - Gods+
@@ -10447,21 +10377,15 @@ gtnh.quest2593.name=欢迎来到地狱
 gtnh.quest2593.desc=恭喜你, 你已经通过了这个整合包的简单部分. 是时候面对一些真正的挑战了, 向我出示你的证明, 然后我们继续.
 
 # Quest.2594 - You'll Probably Need Quite a Few of These
-#B gtnh.quest2594.name=You'll probably need quite a few of these
-#A gtnh.quest2594.name=You'll Probably Need Quite a Few of These
-#C gtnh.quest2594.name=你可能需要这些
+gtnh.quest2594.name=你可能需要这些
 gtnh.quest2594.desc=实际上它可能无法存储任何能量, 但对于其他一些终极物品仍然有用.
 
 # Quest.2595 - These Exist?
-#B gtnh.quest2595.name=These exist?
-#A gtnh.quest2595.name=These Exist?
-#C gtnh.quest2595.name=这些存在吗?
+gtnh.quest2595.name=这些存在吗?
 gtnh.quest2595.desc=好吧, 从技术上讲, 是的, 从当前版本开始, 这些电路是游戏中最高等级的电路.
 
 # Quest.2596 - Who Needs UV Solars When You Have Magic
-#B gtnh.quest2596.name=Who needs UV solars when you have magic
-#A gtnh.quest2596.name=Who Needs UV Solars When You Have Magic
-#C gtnh.quest2596.name=有了魔法, 谁还要UV太阳能啊
+gtnh.quest2596.name=有了魔法, 谁还要UV太阳能啊
 gtnh.quest2596.desc=当使用水注魔时, 这种单方块最大可以产生600M-EU/t, 这很平衡...对吧?
 
 # Quest.2597 - Stargate Command
@@ -10469,9 +10393,7 @@ gtnh.quest2597.name=存储命令
 gtnh.quest2597.desc=好吧, 如果你真的想使用星门, 你需要这些来给它供能并进行拨号.
 
 # Quest.2598 - What, How?
-#B gtnh.quest2598.name=What, how?
-#A gtnh.quest2598.name=What, How?
-#C gtnh.quest2598.name=什么, 怎么样?
+gtnh.quest2598.name=什么, 怎么样?
 gtnh.quest2598.desc=你不应该在这里... 我认为如果你合法解锁了此物品, 你得出门晒晒太阳了...%n%n同时, 这是你的奖励, 别一次全花光!
 
 # Quest.2599 - §4§c§lLuV Energy Hatch
@@ -10488,9 +10410,7 @@ gtnh.quest2601.desc=这些用于构建4台7片的电路装配线, 足够满足�
 
 # Quest.2602 - §c§lImprints, They're Important
 gtnh.quest2602.name=§c§l铭刻, 非常重要
-#B gtnh.quest2602.desc=Now that you've finally gotten all the materials to make your imprints, you can make them as you get your new circuits. You'll need to slice the circuits for the imprint in either a tier-appropriate slicing machine, or the Cutting Factory in slicing mode.%n%nTo use the imprints, place them in the CAL controller's item slot. The CAL will be imprinted once you turn it on. You can see what it's imprinted with by using a portable scanner on the controller. You can also swap out controllers if you're too lazy to make more CALs.%n%n§3If you already have an imprint for them, you don't need to make another, it works with both recipes.%n%n§4Because of the way oredicting and recipes work, slicing LV or HV circuits in the Cutting Factory will not work properly, so use at least an HV slicing machine for those.
-#A gtnh.quest2602.desc=Now that you've finally gotten all the materials to make your imprints, you can make them as you get your new circuits. You'll need to slice the circuits for the imprint in either a tier-appropriate slicing machine, or the Cutting Factory in slicing mode.%n%nTo use the imprints, place them in the CAL controller's item slot. The CAL will be imprinted once you turn it on. You can see what it's imprinted with by using a portable scanner on the controller. You can also swap out controllers if you're too lazy to make more CALs.%n%n§3If you already have an imprint for an earlier version of a recipe, you don't need to make another, it works with both recipes.%n%n§4Because of the way oredicting and recipes work, slicing LV or HV circuits in the Cutting Factory will not work properly, so use at least an HV slicing machine for those.
-#C gtnh.quest2602.desc=现在, 你已获得了制造压印电路的所有材料, 是时候制造它们了. 你需要将所需压印的电路板在适当等级的食材切片机中切片, 也可以使用工业切割机的切片机模式.%n%n只需将压印电路放置在电路装配线的控制器方块的物品槽中, 第一次合成电路板的时候即可完成铭刻. 使用三录仪扫描控制器方块可以获知已经铭刻的电路. 如果你不想造太多条电路装配线, 或许手动替换控制器方块是个可行的方法...%n%n§3某些电路板有两个配方, 而你只需要一台电路装配线即可.%n%n§4由于矿辞问题, 在工业切割机内切割LV或HV电路板可能会出问题, 所以用HV切割机切割它们吧.
+gtnh.quest2602.desc=现在, 你已获得了制造压印电路的所有材料, 是时候制造它们了. 你需要将所需压印的电路板在适当等级的食材切片机中切片, 也可以使用工业切割机的切片机模式.%n%n只需将压印电路放置在电路装配线的控制器方块的物品槽中, 第一次合成电路板的时候即可完成铭刻. 使用三录仪扫描控制器方块可以获知已经铭刻的电路. 如果你不想造太多条电路装配线, 或许手动替换控制器方块是个可行的方法...%n%n§3某些电路板有两个配方, 而你只需要一台电路装配线即可.%n%n§4由于矿辞问题, 在工业切割机内切割LV或HV电路板可能会出问题, 所以用HV切割机切割它们吧.
 
 # Quest.2603 - §c§lFetching Tellurium
 gtnh.quest2603.name=§c§l获取碲
@@ -10614,9 +10534,7 @@ gtnh.quest2632.desc=纳米功率IC用于制造太阳能, UV->UHV变压器, 以�
 
 # Quest.2633 - Quantum Power ICs
 gtnh.quest2633.name=量子功率IC
-#B gtnh.quest2633.desc=You need Quantum Power ICs for UEV -> UIV and UIV -> UMV transformers, and UHV Hatches and Dynamos.%n%nThe Wafers are needed for the next tier of Fusion, so don't cut them all!%n%n§3You'll need a UHV Cutting Machine, or an OC'd multi.%n%n%n
-#A gtnh.quest2633.desc=You need Quantum Power ICs for UEV -> UIV and UIV -> UMV transformers, and UHV Hatches and Dynamos.%n%n§3You'll need a UHV Cutting Machine, or an OC'd multi to actually cut the wafers.%n%n%n
-#C gtnh.quest2633.desc=量子功率IC用于制造UEV->UIV和UIV->UMV变压器, 以及UHV能源仓和动力仓.%n%n而晶元是制造下一阶聚变的材料, 所以别把它们都切了!%n%n§3你需要UHV切割机, 或者工业切割机用于切割晶元.%n%n%n
+gtnh.quest2633.desc=量子功率IC用于制造UEV->UIV和UIV->UMV变压器, 以及UHV能源仓和动力仓.%n%n§3你需要一台UHV切割机或是合适电压的多方块机器(工业切割机)来切割晶元.%n%n%n
 
 # Quest.2634 - A Vision of the Future (FPS drop not included)
 gtnh.quest2634.name=未来掠影(不含FPS下降)
