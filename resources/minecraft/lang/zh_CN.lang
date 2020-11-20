@@ -11546,13 +11546,11 @@ gtnh.quest2765.desc=TFFT非常有用, 只要你不想弄一堆超级缸配合ULV
 
 # Quest.2766 - Deep Earth Heating Pump
 gtnh.quest2766.name=深地热泵
-#B gtnh.quest2766.desc=This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.%n%nSee https://gtnh.miraheze.org/wiki/Fluid_Reactor and replace the FR with the DEHP to produce hot coolant.%n%nIt's basically free power, but so is using an everburn urn with the LHE, so whatever.
-#A gtnh.quest2766.desc=This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.%n%nIt's basically free power, but so is using an everburn urn with the LHE, so whatever.
-#C gtnh.quest2766.desc=这台机器使用地热能加热冷却液, 可以跳过流体核反应堆.%n%n请查看https://gtnh.miraheze.org/wiki/Fluid_Reactor 并用深地热泵替换流体核反应堆.%n%n这是基础的无限能源, 不过用炼狱之壶配合流体热交换机也可以实现相同功能...随便啦.
+gtnh.quest2766.desc=这台机器使用地热能加热冷却液, 可以跳过流体核反应堆.%n%n请查看https://gtnh.miraheze.org/wiki/Fluid_Reactor 并用深地热泵替换流体核反应堆.%n%n这是基础的无限能源, 不过用炼狱之壶配合流体热交换机也可以实现相同功能...随便啦.
 
 # Quest.2767 - Get it Together Bees!
 #N gtnh.quest2767.name=Get it Together Bees!
-#N gtnh.quest2767.desc=These frames help prevent genetic decay.
+#N gtnh.quest2767.desc=这些框架有助于防止基因衰退.
 
 # Quest.2768 - Bee Slurry, the Breakfast of, Well, Weirdos
 #N gtnh.quest2768.name=Bee Slurry, the Breakfast of, Well, Weirdos
@@ -11850,9 +11848,7 @@ gtnh.line10.desc=抓住它,养护它,吃它！
 
 # QuestLine.11 - Getting Around Without Dying
 gtnh.line11.name=摆脱死亡,游历四方
-#B gtnh.line11.desc=In order to not die constantly, you'll need armor and transportation. There's also utility stuff like minecarts/trains, adventure backpacks and jetpacks.
-#A gtnh.line11.desc=In order to not die constantly, you'll need weapons, armor and transportation. There's also utility stuff like minecarts/trains, adventure backpacks and jetpacks.
-#C gtnh.line11.desc=你需要装甲和交通工具才能免于不断死亡. 还有一些实用工具, 比如矿车/火车, 探险背包还有喷气背包.
+gtnh.line11.desc=你需要武器、装甲和交通工具才能免于不断死亡. 这里还有一些实用工具, 比如矿车/火车, 探险背包还有喷气背包.
 
 # QuestLine.12 - Multiblock Goals
 gtnh.line12.name=多方块结构
@@ -11899,12 +11895,8 @@ gtnh.line24.name=龟...派...气...功波！
 gtnh.line24.desc=终极的奥法力量！！！
 
 # QuestLine.25 - Focus on Wand Foci & EMT
-#B gtnh.line25.name=Focus on Wand Foci
-#A gtnh.line25.name=Focus on Wand Foci & EMT
-#C gtnh.line25.name=来关注法杖核心吧！
-#B gtnh.line25.desc=Did you know which wand focus is useful and which not?
-#A gtnh.line25.desc=Do you know which wand focus is useful and which not? Also, some EMT stuff.
-#C gtnh.line25.desc=你知道哪个法杖核心是有用的吗？
+gtnh.line25.name=来关注法杖核心&电力魔法工具吧！
+gtnh.line25.desc=你知道哪个法杖核心是有用的吗？ 这里还有一些电力魔法工具.
 
 # QuestLine.27 - Look to the Edges
 gtnh.line27.name=替代魔法
