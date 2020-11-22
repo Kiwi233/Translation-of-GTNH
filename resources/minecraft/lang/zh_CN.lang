@@ -298,7 +298,7 @@ gtnh.quest73.desc=所有机器都需要一个机箱来保护它们的敏感部�
 
 # Quest.74 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou are not prepared!!!
 gtnh.quest74.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§l你还没准备好！！！
-gtnh.quest74.desc=迎接一个大家伙的时间到了——冶炼炉！那还有许多工作要做,所以最好搜集些资源......  如果你找不到地表的铝矿沙砾,那么可以将铝矿莓种植于作物架上,然后熔炼获得用于制作铸模的铝.  PS:这本书告诉你的是一个3X3的底座,但是你可以用一个较小的底座搭建一个冶炼炉,更高更大的冶炼炉可以同时做更多的物品以节约燃料.
+gtnh.quest74.desc=迎接一个大家伙的时间到了——冶炼炉！那还有许多工作要做,所以最好搜集些资源......  如果你找不到地表的铝矿砂砾,那么可以将铝矿莓种植于作物架上,然后熔炼获得用于制作铸模的铝.  PS:这本书告诉你的是一个3X3的底座,但是你可以用一个较小的底座搭建一个冶炼炉,更高更大的冶炼炉可以同时做更多的物品以节约燃料.
 
 # Quest.75 - §6§lThe water dilemma
 gtnh.quest75.name=§6§l缺水危机
@@ -306,9 +306,7 @@ gtnh.quest75.desc=有限的水源是一个问题,但不要害怕.我会引导你
 
 # Quest.76 - §6§lTime to get some steel
 gtnh.quest76.name=§6§l是时候获得一些钢了！
-#B gtnh.quest76.desc=You need steel? Uhh... fine. Let's get busy...%n%nHint: The bricked blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...%n%nIf you are short on Stone Dust, you can get more by macerating cobblestone.
-#A gtnh.quest76.desc=You need steel? Uhh... fine. Let's get busy...%n%nHint: The bricked blast furnace can share walls with other ones, just like most GT multi blocks. How will this affect the air quality though...%n%nIf you are short on Stone Dust, you can get more by macerating cobblestone.%n%n§4I know it's a huge pain, but collect all of a material before you move on to the next step. BQ3 detects the highest amount in your inventory, not total over time, so you'll just have to do it again if you start firing bricks before getting all the unfired ones, for example.
-#C gtnh.quest76.desc=你需要钢？呃...好的.我们有得忙的...  提示:砖高炉和大多数GT多方块机器一样,它们之间可以共享墙壁.尽管这样做会影响到空气质量...  如果你缺石粉,通过打粉圆石,你可以获得更多的石粉.
+gtnh.quest76.desc=你需要钢？呃...好的.我们有得忙的...  提示:砖高炉和大多数GT多方块机器一样,它们之间可以共享墙壁.尽管这样做会影响到空气质量...%n%n如果你缺石粉,打粉圆石,可以获得更多的石粉.%n%n§4我知道这很难,但请先收集所有材料,然后再继续进行下一步. BQ3检测的是物品栏内任务物品的最高数量,而不是随时间推移的总数量,所以如果还没准备好所有未烧制的砖前就开始烧制,你就得再来一遍了.
 
 # Quest.77 - §r§6§l§5§l§o§l§r§6§lEBF-Time
 gtnh.quest77.name=§r§6§l§5§l§o§l§r§6§l工业高炉时代
@@ -364,9 +362,7 @@ gtnh.quest89.desc=如果你决定在中压阶段使用蒸汽作为能量.那么�
 
 # Quest.90 - §5§lDamn you, wire cutter!
 gtnh.quest90.name=§5§l去死吧,剪线钳！
-#B gtnh.quest90.desc=Enough is enough. No more wasting gazillions of ingots just for a couple of wires. Now that you have power, you should go for a wiremill!
-#A gtnh.quest90.desc=After the Bending Machine, this should be your next step. You get 2 wires for every ingot. You can run them back through to get 4 fine wires each if you want those.
-#C gtnh.quest90.desc=够了,再也不用为几根导线去浪费巨量的矿锭了.现在有了电,你应该做一台线材轧机！
+gtnh.quest90.desc=够了,再也不用为几根导线去浪费巨量的矿锭了.现在有了电,你应该做一台线材轧机！这应该是卷板机后的下一台电力机器.它可以将一个锭制成两根导线.如果需要的话,将导线再次通过此机器可以获得4根细导线.
 
 # Quest.91 - §5§lYou're gonna hate this #1
 gtnh.quest91.name=§5§l你会讨厌它们的#1
@@ -398,9 +394,7 @@ gtnh.quest97.desc=电影粉丝绝对必须要拥有它.哦,当然要用来做所
 
 # Quest.98 - §5§lNo more filing
 gtnh.quest98.name=§5§l不用锉刀了
-#B gtnh.quest98.desc=Why waste a full ingot to make a rod by using a tool which loses durability and takes even MORE ingots? With this little device, all your rod-needs shall be fulfilled (for now).
-#A gtnh.quest98.desc=Why waste a full ingot to make a rod by using a tool which loses durability and takes even MORE ingots? With this little device, all your rod-needs shall be fulfilled (for now at least, the MV Extruder is the next step for rods).
-#C gtnh.quest98.desc=为什么要耗费一个完整的锭来制作杆？而且还需要使用一种消耗耐久的工具,导致花费了更多的金属锭. 有了这个小装置,你所需要的所有的杆都会被完整地加工出来(对于现在).
+gtnh.quest98.desc=为什么要耗费一个完整的锭来制作杆？而且还需要使用一种消耗耐久的工具,导致花费了更多的金属锭. 有了这个小装置,你所需要的所有的杆都会被完整地加工出来(只是暂时的,MV压模机是杆的下一步加工手段).
 
 # Quest.99 - Bzzz... Whoom... (Defunct do not complete)
 gtnh.quest99.name=滋滋...嗡咛...
@@ -420,21 +414,15 @@ gtnh.quest102.desc=绝对必要的机器.能将杆切成螺栓、板切成外壳
 
 # Quest.103 - §5§lGet ready for Tier 3
 gtnh.quest103.name=§5§l第3阶准备
-#B gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, nine is enough to unlock this quest. Probably the best source for aluminium is clay or hardened clay from canyons, however you need an MV machine for that. So you need to find an alternative until you have enough dusts for your initial setup. Check back in your Tier 0.5 quests for hints.%nOnce you have the dusts, you will need to do the EBF quest in Multiblock Goals to turn the dusts into ingots.%nAlso check the Armor and Jetpacks tab for new unlocks.
-#A gtnh.quest103.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, nine is enough to unlock this quest. Probably the best source for aluminium is clay or hardened clay from canyons, however you need an MV machine for that. So you need to find an alternative until you have enough dusts for your initial setup. Check back in your Tier 0.5 quests for hints.%n%nYou will need to do the EBF quest in Multiblock Goals to turn the dust into ingots. Expect that to take half the tier or longer. Grow some aluminum oreberries and/or collect the gravel while you progress.%n%nAlso check the Armor and Jetpacks tab for new unlocks.
-#C gtnh.quest103.desc=为了进一步发展,你需要铝、非常多的铝.但现在只需要9个铝粉来完成这任务.粘土可能是最好的铝来源.但那需要MV级机器,现在你需要找替代方案,直到你有足够的铝粉来完成准备工作.可以在"第0.5阶-石器时代"任务栏找到一些提示. 当你获得了足够的铝粉后,你需要完成"多方块结构"任务栏里的工业高炉(EBF)任务,用工业高炉将粉加工成锭. 不要忘了看看"装甲和喷气背包"任务栏里解锁的新任务.
+gtnh.quest103.desc=为了进一步发展,你需要铝、非常多的铝.但现在只需要9个铝粉来完成这任务.粘土可能是最好的铝来源.但那需要MV级机器,现在你需要找替代方案,直到你有足够的铝粉来完成准备工作.可以在"第0.5阶-石器时代"任务栏找到一些提示.%n%n想要用铝粉制成铝锭,你需要首先完成多方块任务栏内的电力高炉(EBF)任务.整个阶段的一半时间以上都在进行相关工作.在烧制铝锭的过程中,可以种些铝矿莓并/或收集一些铝矿砂砾.当你获得了足够的铝粉后,你需要完成"多方块结构"任务栏里的工业高炉(EBF)任务,用工业高炉将粉加工成锭.%n%n不要忘了看看"摆脱死亡,游历四方"任务栏里解锁的新任务.
 
 # Quest.104 - §5§lYour magic progression
 gtnh.quest104.name=§5§l你的魔法之路
 gtnh.quest104.desc=现在你炼出铝了,可以开始研究魔法.如果你还没解锁神秘任务.找到银树树苗跟宏伟之树树苗.
 
 # Quest.105 - §5§lSaving Metal with Bending
-#B gtnh.quest105.name=§5§lThe missing one
-#A gtnh.quest105.name=§5§lSaving Metal with Bending
-#C gtnh.quest105.name=§5§l缺少的一环
-#B gtnh.quest105.desc=It was once said... <basdxz> But ffs, add a plate bender to the LV tier book ...and then it popped into existence.
-#A gtnh.quest105.desc=Instead of a 3:2 ratio of ingots to plates, this machine allows for 1:1. This saves an enormous amount of metal, so make it ASAP.%n%nBTW if you want foils, run the plate back through. There's other circuit modes, but you can discover them later.
-#C gtnh.quest105.desc=曾有人说......<basdxz>管他的！把卷板机加进LV级任务......然后他就在那了.
+gtnh.quest105.name=§5§l卷板机万岁
+gtnh.quest105.desc=不同于合金炉的3锭出2板,卷板机可以1:1地生产各种金属板. 这可以节约大量的金属,所以尽快制造一台吧.%n%n还有,如果需要制造箔的话,只需将板再次通过卷板机即可. 此外,不同电路板还代表了不同模式,稍后你就会发现了.
 
 # Quest.106 - Your First Automation
 gtnh.quest106.name=第一个自动化
@@ -521,9 +509,7 @@ gtnh.quest126.name=§6§l电解万物
 gtnh.quest126.desc=自从你开始磨粉,洗矿和离心矿石,你收集了很多粉末.到目前为止,你还不能分解它们.现在是时候从它们中获取纯净的成分和有用的材料了. 译者注:格雷的电解机一点都不电解！这分明是原子剥离机......
 
 # Quest.127 - Project red beginning (hidden)
-#B gtnh.quest127.name=Project red beginning
-#A gtnh.quest127.name=Project red beginning (hidden)
-#C gtnh.quest127.name=红石计划请求
+gtnh.quest127.name=红石计划请求(隐藏)
 gtnh.quest127.desc=首先,有三种类型的管道:空逻辑、加压和路由. 空逻辑管道是最基础的一种,它们没有任何的逻辑行为.物品运输管道属于这种类型,它们用于制造或连接路由管道和加压管道.多准备一些物品运输管道是一个明智的选择. 路由管道是最高级的.它们可以相互通信,以便创建管道网络,并可用于非常复杂的任务. 加压管道解释和使用起来太复杂了,你不会需要它们的,因为你可以用路由管道完成任何你想要做的任何事情. 然而,为了控制路由管道的逻辑,你还会需要芯片.
 
 # Quest.128 - §6§lIO, IO, it's off to EnderIO we go
@@ -760,15 +746,11 @@ gtnh.quest185.desc=这个ME终端是一个HID(人机接口设备),你可以通�
 
 # Quest.186 - §a§lDimensional goal: Mars
 gtnh.quest186.name=§a§l目标:火星
-#B gtnh.quest186.desc=Mars has many new ores you need to find like tungsten, uranium and plutonium.
-#A gtnh.quest186.desc=Mars has a few new ores you need to find like tungsten, uranium and desh. You can centrifuge uranium-238 for U-235 and plutonium-239, which can also be centrifuged to get Pu-241 if you happen to need it.
-#C gtnh.quest186.desc=你在火星可以找到一些新的矿物,比如说坞、铀和钚.
+gtnh.quest186.desc=你在火星可以找到一些新的矿物,比如说坞、铀和戴斯. 从铀-238里可以离心出铀-235和钚-239,而有必要的情况下,钚-239还可以离心出钚-241.
 
 # Quest.187 - §a§k§l§r§a§lDimensional goal: Phobos
 gtnh.quest187.name=§a§k§l§r§a§l目标:火卫一
-#B gtnh.quest187.desc=A smaller goal, as the main goal is Mars. But you'll find different ores on this moon also.
-#A gtnh.quest187.desc=A smaller goal, as the main goal is Mars. But you'll find different ores on this moon also.%n%n§3Honestly, aside from the dungeon, Phobos has all the ores you need.
-#C gtnh.quest187.desc=一个小目标,你的主要目标还是火星. 不过你能在这颗卫星上面发现一些不同的矿物.
+gtnh.quest187.desc=一个小目标,你的主要目标还是火星. 不过你能在这颗卫星上面发现一些不同的矿物.%n%n§3坦白说,除了地牢以外,现阶段的所有矿石都可以在火卫一找到.
 
 # Quest.188 - §a§lDimensional goal: Deimos
 gtnh.quest188.name=§a§l目标:火卫二
@@ -792,9 +774,7 @@ gtnh.quest192.desc=这种燃料具有很高的放射性,但同时它也是你可
 
 # Quest.193 - §a§lTier 1 fuel: Thorium
 gtnh.quest193.name=§a§l第一阶燃料:钍
-#B gtnh.quest193.desc=The weakest of all rods, but very easy to produce, very easy to keep cool and runs twice as long as uranium. A perfect "fission and forget" power source.%n%nHint:%nAfter they are used up you can recycle them to get Lutetium which is used for make americium in the fusion reactor.%nAmericium is needed for top tier materials later, so start stockpiling now. Plus, you get power!
-#A gtnh.quest193.desc=The weakest of all rods, but very easy to produce, very easy to keep cool and runs twice as long as uranium. A perfect "fission and forget" power source.%n%nHint:%nAfter they are used up you can recycle them to get Lutetium which is used for making americium in the fusion reactor.%nAmericium is needed for top tier materials later, so start stockpiling now. Plus, you get power!
-#C gtnh.quest193.desc=钍燃料棒是所有燃料棒里面最弱的一个.但是优点是很容易生产,而且比较好控制堆温,运行时间很长(是铀棒的2倍). 所以用钍可以做一个完美的"一劳永逸"的电力供应装置.  提示: 当钍燃料棒耗尽后,你可以离心它获得镥,而镥是聚变获得镅的原料. 虽然你只有到UV阶段才会需要镅,但你现在就可以开始囤积镥了,而且你还能获得电力,何乐而不为?
+gtnh.quest193.desc=钍燃料棒是所有燃料棒里面最弱的一个.但是优点是很容易生产,而且比较好控制堆温,运行时间很长(是铀棒的2倍). 所以用钍可以做一个完美的"一劳永逸"的电力供应装置.%n%n提示:%n当钍燃料棒耗尽后,你可以离心它获得镥,而镥是聚变获得镅的原料.%n虽然你只有到UV阶段才会需要镅,但你现在就可以开始囤积镥了,而且你还能获得电力,何乐而不为?
 
 # Quest.194 - §a§lMonitoring your reactor
 gtnh.quest194.name=§a§l监视你的反应堆
@@ -878,31 +858,19 @@ gtnh.quest213.desc=在IV级.你的机器将会需要钨钢. 你应该造访火�
 
 # Quest.214 - §b§lThis is the end.... ?
 gtnh.quest214.name=§b§l这就结束了...？
-#B gtnh.quest214.desc=Basically the "end" of the conventional tiered game play. However! This is just the start of your journey, as you'll have access to even more powerful and awesome stuff. You have proven yourself worthy, and mastered the challenges up to this Tier. Congratulations!
-#A gtnh.quest214.desc=The end of the handholding maybe. However! This is just the start of your journey, as you'll have access to even more powerful and awesome stuff. You have proven yourself worthy, and mastered the challenges up to this Tier. Congratulations!
-#C gtnh.quest214.desc=游戏的常规内容基本上已经结束了. 但是！这仅仅是你旅程的开始,因为以后游戏中还有更强大和更有趣的东西. 你已经证明了你非常强大,并且已经成功通过了这一阶段的挑战. 祝贺你！
+gtnh.quest214.desc=我手把手教你的日子到头了. 但是！这仅仅是旅程的开始,因为以后游戏中还有更强大而更有趣的东西. 你已经证明了你非常强大,并且已经成功通过了这一阶段的挑战. 祝贺你！
 
 # Quest.215 - §b§lOn your way to Asteroids and other Tier 3 DIMs
-#B gtnh.quest215.name=§b§lOn your way to Asteriods and other Tier 3 DIMs
-#A gtnh.quest215.name=§b§lOn your way to Asteroids and other Tier 3 DIMs
-#C gtnh.quest215.name=§b§l前往小行星和其他三阶星球的路上
-#B gtnh.quest215.desc=The next tier is defined as "Asteroids-Dimension" and "8192 EU/t machines". The machines now reached their full potential, and some asteroids may contain precious ores to improve your power generation.
-#A gtnh.quest215.desc=The next tier is defined as "Asteroids-Dimension" and "8192 EU/t machines". The machines now reached their full potential, and some asteroids may contain precious ores to improve your power generation.%n%n§3You can grab some naquadah on the asteroids if you like.
-#C gtnh.quest215.desc=下一个阶段我想应该是"到达其他的小行星"并且拥有IV级别的机器. 当你进入了这个级别,你的发电机应该已经发挥了几乎全部的潜能.去一些小行星上采集一些珍贵的矿石可以帮助你提高你的发电能力.
+gtnh.quest215.name=§b§l前往小行星和其他三阶星球的路上
+gtnh.quest215.desc=下一个阶段我想应该是"到达其他的小行星"并且拥有IV级别的机器. 当进入了这个级别后,你的发电机应该已经发挥了几乎全部的潜能.去某些小行星上采集一些珍贵的矿石可以帮助提高你的发电能力.%n%n§3当然,小行星上也有硅岩,任君采撷.
 
 # Quest.216 - Portable Clean Energy IV
-#B gtnh.quest216.name=§b§l"Clean" energy..?
-#A gtnh.quest216.name=Portable Clean Energy IV
-#C gtnh.quest216.name=§b§l"清洁"的能源？
-#B gtnh.quest216.desc=Finally, a reliable and powerful source of energy for your base. And why waste your time with a 2k generator? Go for a 8k one! %n%n§4Hint: It's probably a good idea to wear your hazmat suit before claiming your reward...
-#A gtnh.quest216.desc=This is the IV version.
-#C gtnh.quest216.desc=最后一个可靠的常规能源. 不要在你的EV级发电机上面浪费时间了！去做一个IV级的发电机. §4提示:在你领取你的奖励之前,穿上你的防护服是一个不错的主意.
+gtnh.quest216.name=§b§l便携式"清洁"能源？
+gtnh.quest216.desc=最后一个可靠的常规能源. 不要在你的EV级发电机上面浪费时间了！去做一个IV级的发电机. §4提示:在你领取你的奖励之前,穿上你的防护服是一个不错的主意.
 
 # Quest.217 - §b§lFinal choice: Personal Dimension
 gtnh.quest217.name=§b§l最终的选择:私人维度
-#B gtnh.quest217.desc=Tired of mobs in your base? Want to build somewhere... different? Probably in a personal dimension? Then this is your chance. But choose wisely; You can only pick one option.
-#A gtnh.quest217.desc=Tired of mobs in your base? Want to build somewhere... different? Probably in a personal dimension? Then this is your chance. But choose wisely; You can only pick one option.%n%n§4If your garden or void world is buggy, too bad, we can't really do anything about it. BTW this includes BM not working, chunk resets, AE2 deleting or duping things, etc. ...Why do we have these again?
-#C gtnh.quest217.desc=厌倦了你的基地里面的怪物？想在一些特别的地方来建造你的新家？在一个私有维度里面？ 那么现在这就是你的机会,你只有一次选择的机会！
+gtnh.quest217.desc=厌倦了你的基地里面的怪物？想在一些特别的地方来建造你的新家？在一个私有维度里面？ 那么现在这就是你的机会,你只有一次选择的机会！%n%n§4如果发现你的花园或者虚空世界有bug,那太遗憾了,我们无法修复这些bug. 这些bug包括血魔法无法运行、区块重置、AE2吞东西或复制物品等等...但还是香啊...%n%n译者注：还有AE2面板无法正常开始自动合成、巫术仪式失效等...
 
 # Quest.218 - §b§lFinal choice: Loot
 gtnh.quest218.name=§b§l最终的选择:奖励包
@@ -1162,9 +1130,7 @@ gtnh.quest281.desc=傻瓜.我说他们是一群傻瓜！ 他们什么都不知�
 
 # Quest.282 - Secrets
 gtnh.quest282.name=秘密
-#B gtnh.quest282.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt.. They will tell me!%n%nNOTE: You might want to setup a spawner because you'll need to kill a lot of these.
-#A gtnh.quest282.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt.. They will tell me!%n%nNOTE: You might want to setup a spawner because you'll likely need to kill a lot of these for the book.
-#C gtnh.quest282.desc=我感觉到了！是的,是的是的是的是的！！！！！！ 我们将获得更大的力量,力量！！！！我的宝贝！. 这些声音给了我一个线索,有一个难以置信充满了魔法力量的维度. 我必须去那,我必须去！ 邪术教徒们知道这个秘密.我会将他们撕成碎片...嘿嘿嘿他们会告诉我的！  注意:你可能需要一个刷怪笼,掉落几率不太高.
+gtnh.quest282.desc=我感觉到了！是的,是的是的是的是的！！！！！！ 我们将获得更大的力量,力量！！！！我的宝贝！. 这些声音给了我一个线索,有一个难以置信充满了魔法力量的维度. 我必须去那,我必须去！ 邪术教徒们知道这个秘密.我会将他们撕成碎片...嘿嘿嘿他们会告诉我的！%n%n注意:你可能需要一个刷怪笼,掉落几率不太高.
 
 # Quest.283 - Find the key
 gtnh.quest283.name=找到钥匙
@@ -1636,9 +1602,7 @@ gtnh.quest399.desc=角魔狩猎者是狩猎者的一员,是角之神创造的强
 
 # Quest.400 - Kill Ender Dragon
 gtnh.quest400.name=杀了末影龙
-#B gtnh.quest400.desc=The dragon must die. Long enough he destroyed those precious endstone blocks!
-#A gtnh.quest400.desc=The dragon must die. Long enough has he destroyed those precious endstone blocks!
-#C gtnh.quest400.desc=这条龙必须死！如果给它足够长的时间,它会摧毁那些珍贵的末地石块！
+gtnh.quest400.desc=这条龙必须死！如果给它足够长的时间,它会摧毁那些珍贵的末地石块！
 
 # Quest.401 - Kill Shade of Leonard
 gtnh.quest401.name=杀了半羊人之影
@@ -2037,15 +2001,11 @@ gtnh.quest499.name=柴油,杂酚油:看着它们燃烧！
 gtnh.quest499.desc=你马上要成功了.为了进入第2阶,需要最后一个制作步骤.继续前进！
 
 # Quest.500 - First Things First
-#B gtnh.quest500.name=First things first
-#A gtnh.quest500.name=First Things First
-#C gtnh.quest500.name=先说重要的事情
+gtnh.quest500.name=先说重要的事情
 gtnh.quest500.desc=像往常一样,如果你想开始养殖蜜蜂,首先要准备一些最基础的工具————一个捕虫网.要完成这个任务,你需要制作GT捕虫网.稍后你可以自行选择制作魔法捕虫网或者可充电捕虫网.
 
 # Quest.501 - Go Find Some Bees
-#B gtnh.quest501.name=Go find some bees
-#A gtnh.quest501.name=Go Find Some Bees
-#C gtnh.quest501.name=找到一些蜜蜂
+gtnh.quest501.name=找到一些蜜蜂
 gtnh.quest501.desc=下一步:在世界各地找一些野生蜂巢.你能找到11个种类的蜂巢,其中8种可以在主世界被发现.找到任何种类的蜜蜂都可以帮助你完成任务.
 
 # Quest.502 - A New Home
@@ -2053,21 +2013,15 @@ gtnh.quest502.name=一个新家
 gtnh.quest502.desc=既然你已经摧毁了可怜的蜜蜂们的家园, 那么你应该给它们找一个新家. 这种低阶蜂房不会使你的蜜蜂变异. 但你还是需要蜂巢来为蜜蜂制作更好的住房.  简易蜂房的生产速度还不错, 但不能自动化.%n%n一个提示-在你的蜂房附近种些原版树苗. 简易蜂房比起"更好的住房"有3倍的授粉速度. 蜜蜂会给树木授粉, 然后你就可以开始林业树木杂交了. 把橡木和白桦相邻种植, 它们会给你林业树木杂交开个好头.%n%n当然, 如果你忘了预防措施, 一段时间后你就会发现自己被蝴蝶包围了...%n%n你可能还注意到了带有'鲜花'类型的蜜蜂会让花扩散开来. 可以利用这一点获取薰衣草之类的罕见花卉. 如果你不想让花到处都是, 只需要把泥土或者草方块换掉, 或者换掉这个属性, 亦或降低授粉速度和活动范围.
 
 # Quest.503 - Analyze Them All
-#B gtnh.quest503.name=Analyze them all
-#A gtnh.quest503.name=Analyze Them All
-#C gtnh.quest503.name=分析它们
+gtnh.quest503.name=分析它们
 gtnh.quest503.desc=每一只蜜蜂都有很多属性来定义它们的行为.它们在雨中或者在夜晚是什么样子的,还有其他好多方面.你必须对蜜蜂的这些行为进行跟踪分析.这玩意不是很好,因为它无法告诉隐姓基因,你但别不想要,别浪费.  你将需要用纸来分析每只蜜蜂.
 
 # Quest.504 - Scan or not to scan
 gtnh.quest504.name=扫描或者不扫描
-#B gtnh.quest504.desc=In order to get into bee breeding, you need a way to see all the traits, active and inactive. You only want to breed so called "pure" bees; For those, both "Active" and "Inactive" traits are identical.
-#A gtnh.quest504.desc=In order to get into bee breeding, you need a way to see all the traits, active and inactive. You only want to breed so called "pure" bees; For those, both "Active" and "Inactive" traits are identical.%n%n§3BTW, it's not like the more 'advanced' versions are actually better, just that they have more functions. Use the one you like.
-#C gtnh.quest504.desc=为了让你捕获蜜蜂更好的繁殖,你需要用一种更加先进的方式来观察蜜蜂的所有特征. 比如说"活跃"或者"不活跃的".你只想繁殖那些"纯种"的蜜蜂,对于纯种蜜蜂,它们的显性和隐性基因完全相同. 
+gtnh.quest504.desc=为了让你捕获蜜蜂更好的繁殖,你需要用一种更加先进的方式来观察蜜蜂的所有特征. 比如说"活跃"或者"不活跃的".你只想繁殖那些"纯种"的蜜蜂,对于纯种蜜蜂,它们的显性和隐性基因完全相同.%n%n§3另外,并非越'高级'的特征越好,适应要求的才是最好的.使用你喜欢的那个.
 
 # Quest.505 - Top-Tier Analyser
-#B gtnh.quest505.name=Top-Tier analyser
-#A gtnh.quest505.name=Top-Tier Analyser
-#C gtnh.quest505.name=顶级分析仪
+gtnh.quest505.name=顶级分析仪
 gtnh.quest505.desc=你可以获得最佳扫描和分析需求.
 
 # Quest.506 - To Play God
@@ -2075,16 +2029,12 @@ gtnh.quest506.name=上帝游戏
 gtnh.quest506.desc=为了得到你喜欢品种的蜜蜂,你需要使用诱变剂来让蜜蜂变异. 这种绿色的、有臭味的液体需要从放射性菌泥中提炼出来,但是这种细菌似乎只有在火星上才能找到.一旦你到达火星,你就可以继续你的研究.%n%n在此期间,你可以开始研究遗传学的工作了,因为我们知道基因工业实在是太容易了... 看看合成表,你就会明白为什么你应该研究遗传学了.%n%n§3当你能造细菌培养缸之后, 记得多造点菌泥.
 
 # Quest.507 - Upgraded Home
-#B gtnh.quest507.name=Upgraded home
-#A gtnh.quest507.name=Upgraded Home
-#C gtnh.quest507.name=改善它们的家园
+gtnh.quest507.name=改善它们的家园
 gtnh.quest507.desc=蜂房可以稳定蜜蜂的突变.例如,如果你培育了两种不同的蜜蜂,但隐性基因不同于显性基因.  想要把它们一起培育,形成新的物种,你需要个新玩意-蜂箱.想要建造它们,你需要木工机和浸渍框架,以及种子油和杂酚油-需要相当的工业水准！或者你很幸运的话,你可以找到养蜂员村民然后跟他交易些有用的东西.或许你可以帮这个村民也"幸运地"造出更多的养蜂员村民?要是丘比特和他的弓箭刚好就在附近那就太棒了...  空蜂箱的生产速度很低-事实上比简易蜂房都低不少.但蜂箱有两大优势-框架和自动化.你现在可以在其内放入你的未处理框架或浸渍框架来提升产出-而且这种增益是可叠加的.所以3个x2框架可以给你2*2*2=8倍的产出增益！  另外,找找基因工程(Genetics)里有用的机器.适应性调整器可以无需繁殖培育蜜蜂,即可使非常挑剔的蜜蜂具有更宽的温度或湿度耐受性.
 
 # Quest.508 - Mutatron
 gtnh.quest508.name=诱变机
-#B gtnh.quest508.desc=Mutations can be boring, they can be annoying, and most times, they are frustrating. With this machine, you will get a 100 percent pure bred mutation. If the combination of princess and drone can result in multiple mutations, the outcome is random. But who cares?%n%n§3You can now upgrade your leftover Bees Advanced bags to Bees Expert in the last quest tab.%n%nIf you missed grabbing an effect from a species, this is a way to get it again.
-#A gtnh.quest508.desc=Mutations can be boring, they can be annoying, and most times, they are frustrating. With this machine, you will get a 100 percent pure bred mutation. If the combination of princess and drone can result in multiple mutations, the outcome is random. But who cares?%n%n§3You can now upgrade your leftover Bees Advanced bags to Bees Expert in the last quest tab.%n%nIf you missed grabbing an effect from a species, this is a way to get it again.%n%nYou'll need naquadah bees to make this, or the other Gendustry machines.
-#C gtnh.quest508.desc=等待突变的过程是既漫长又让人厌恶,而且大部分突变的结果很令人沮丧. 但是有了这台机器,你可以100％的得到纯种的突变产物. 如果公主蜂和雄峰的组合有多种突变产物,那么突变的结果也会是随机的.但是那又能怎么样？%n%n§3现在,在最后的任务栏(奖励区),你可以将你的战利品袋(Bees-Advanced)升级为战利品袋(Bees-Expert).%n%n如果你没有从某个品种的蜜蜂身上获取某个特殊效果, 这是重新获取此效果的方式之一.
+gtnh.quest508.desc=等待突变的过程是既漫长又让人厌恶,而且大部分突变的结果很令人沮丧. 但是有了这台机器,你可以100％的得到纯种的突变产物. 如果公主蜂和雄峰的组合有多种突变产物,那么突变的结果也会是随机的.但是那又能怎么样？%n%n§3现在,在最后的任务栏(奖励区),你可以将你的战利品袋(Bees-Advanced)升级为战利品袋(Bees-Expert).%n%n如果你没有从某个品种的蜜蜂身上获取某个特殊效果, 这是重新获取此效果的方式之一.%n%n制造它需要硅岩蜂,或是其他基因工业机器.
 
 # Quest.509 - Genetic Sampler
 gtnh.quest509.name=基因采样机
@@ -2104,20 +2054,14 @@ gtnh.quest512.desc=物种或者形状的DNA样本相当有研究价值.你应该
 
 # Quest.513 - Advanced Mutatron
 gtnh.quest513.name=高级诱变机
-#B gtnh.quest513.desc=A more advanced version of the mutatron. It uses more energy to mutate a drone with a princess, and you can select which mutation you want to have. This machine is a must-have for high-tier bees.
-#A gtnh.quest513.desc=A more advanced version of the mutatron. It uses more energy to mutate a drone with a princess, and you can select which mutation you want to have. This machine is a must-have for high-tier bees.%n%n§3You'll need neutronium bees to make this.
-#C gtnh.quest513.desc=一个更加先进版本的诱变机. 它会消耗更多的能量来让蜜蜂发生突变,并且你可以选择你想要的突变类型. 这台机器是生产高级蜜蜂的必备工具！
+gtnh.quest513.desc=一个更加先进版本的诱变机. 它会消耗更多的能量来让蜜蜂发生突变,并且你可以选择你想要的突变类型. 这台机器是生产高级蜜蜂的必备工具！%n%n§3制造它需要中子蜂.
 
 # Quest.514 - Blank Gene Samples
-#B gtnh.quest514.name=Blank gene sample
-#A gtnh.quest514.name=Blank Gene Samples
-#C gtnh.quest514.name=空白的基因样本
+gtnh.quest514.name=空白的基因样本
 gtnh.quest514.desc=如果你想获得不同特征的蜜蜂样本,那么你需要大量的能量、实验室和一个空的基因样本. 你不需要很多的这个东西,因为你可以吧你不需要的或者不想要的基因样本扔进炉子里面烧掉.现在你可以开始研究基因改造了,因为我们都知道基因改造实在是太容易了.遗传学运用于蜜蜂、树木和花,因此它有自己的任务栏.基因工业(Gendustry)确实对蜜蜂有好处,但需要顶级的设备才能制作.
 
 # Quest.515 - Genetic Template
-#B gtnh.quest515.name=Genetic template
-#A gtnh.quest515.name=Genetic Template
-#C gtnh.quest515.name=基因模板
+gtnh.quest515.name=基因模板
 gtnh.quest515.desc=基因模板用来将多个基因样本组合到一起.一个基因模板可以有多个特性,如果你能在一个模板中填充所有13个特性,那么你就可以使用液体DNA和蛋白质复制出一直蜜蜂. 当然这些基因模板和基因样板一样都是可以复制的.
 
 # Quest.516 - A Rather Cruel Disposal
@@ -2185,18 +2129,12 @@ gtnh.quest531.name=§5§l扫描蜜蜂、种子以及更多
 gtnh.quest531.desc=自动化扫描你的蜜蜂和种子.在后面,这台机器可以用于扫描高级机器零件的装配线资料或者将UU物质生产资料写入数据球.带有勘探数据的闪存也需要用到扫描仪.
 
 # Quest.532 - §5§lExploding Fluids For Power
-#B gtnh.quest532.name=§5§lDiesel, oil or maybe creosote?
-#A gtnh.quest532.name=§5§lExploding Fluids For Power
-#C gtnh.quest532.name=§5§l柴油,石油或者木榴油.
-#B gtnh.quest532.desc=You probably collected a ton of creosote and maybe even have built your first ELECTRIC blast furnace. Creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source. Small generators will only use fuel if there is EU demand.%n%nTo extract the creosote from your coke ovens, you can use buckets or cells to do it by hand, or the TiCon faucet into GT fluid pipes, or an electric pump cover from You're Going to Hate This #2.
-#A gtnh.quest532.desc=You probably collected a ton of creosote and maybe even have built your first ELECTRIC blast furnace. Creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source. Small generators will only use fuel if there is EU demand.%n%nTo extract the creosote from your coke ovens, you can use buckets or cells to do it by hand, or the TiCon faucet into GT fluid pipes, or an electric pump cover from You're Going to Hate This #2.%n%n%nLight Fuel is really easy to make, so that's probably the best for now. You can also use it for Creosote, but the fuel efficiency is terrible.
-#C gtnh.quest532.desc=你可能已经收集了大量的木榴油,甚至已经建好了第一台工业高炉. 木榴油在一段时间里是一种非常不错的燃料.造一些柴油发电机用它们充当除了蒸汽以外的第二能源.小型发电机只会在有EU需求时使用燃料.  你可以使用桶或单元手动从焦炉里提取杂酚油,也可以用匠魂的浇注口通入GT流体管道,或是用电动泵将杂酚油泵出.
+gtnh.quest532.name=§5§l引爆液体获取能量
+gtnh.quest532.desc=你可能已经收集了大量的木榴油,甚至已经建好了第一台工业高炉. 木榴油在一段时间里是一种非常不错的燃料.造一些柴油发电机用它们充当除了蒸汽以外的第二能源.小型发电机只会在有EU需求时使用燃料.%n%n你可以使用桶或单元手动从焦炉里提取杂酚油,也可以用匠魂的浇注口通入GT流体管道,或是用电动泵将杂酚油泵出.%n%n%n轻燃油很容易制作,所以应该是现在最好的选择.当然直接用杂酚油也行,不过实在不耐烧(燃料效率很低).
 
 # Quest.533 - §4§5§lHydrogen, methane or some farts... (Natural gas) 
 gtnh.quest533.name=§4§5§l氢气、甲烷或者一些屁(天然气)
-#B gtnh.quest533.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.%n%nGas turbines produce half the pollution of combusion generators, but their fuels are generally not as efficient. Choice is up to you which power source you use.
-#A gtnh.quest533.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.%n%nGas turbines produce half the pollution of combusion generators, but their fuels are generally not as efficient. The choice is up to you which power source you use.
-#C gtnh.quest533.desc=在日常生产中你可能会剩下一些氢气或者甲烷. 比如说在离心机中离心棕褐铁或者黄褐铁可以得到氢气,把你吃剩下的食物扔进离心机可以获得甲烷.当然离心橡胶树原木可以获得60MB的甲烷. 也许你应该尝试制作一座橡胶树场了？
+gtnh.quest533.desc=在日常生产中你可能会剩下一些氢气或者甲烷. 比如说在离心机中离心棕褐铁或者黄褐铁可以得到氢气,把你吃剩下的食物扔进离心机可以获得甲烷.当然离心橡胶树原木可以获得60MB的甲烷. 也许你应该尝试制作一座橡胶树场了？您还可以将石油精炼成炼油气或石脑油燃烧.%n%n燃气涡轮相比于柴油发电机只产生一半的污染,但它们的燃料效率通常不高.使用何种能源完全取决于你自己.
 
 # Quest.534 - §4§3§lPollution what....?
 gtnh.quest534.name=§4§3§l什么？污染！
@@ -2204,9 +2142,7 @@ gtnh.quest534.desc=如果你的砖高炉运行了很久,在你接近他的时候
 
 # Quest.535 - §1§2§lRedstone, early game processing
 gtnh.quest535.name=§1§2§l红石的前期处理
-#B gtnh.quest535.desc=Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer and get the crushed ore. Then use with the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack but you will need a new iron bucket as the fired clay bucket just isnt fit for the task. You will get pure redstone dust for your red alloy ingots.
-#A gtnh.quest535.desc=Are you wondering how to process redstone without a macerator? Well you can mine it with a gregtech hammer (you can place the ore you got back down to do this) and get the crushed ore. Then use the hammer in the crafting table to get some impure redstone dust. After this, fill a cauldron with water and drop the dust in it - CTRL-Q drops a whole stack but you will need a new iron bucket as the fired clay bucket just isnt fit for the task. You will get pure redstone dust for your red alloy ingots.
-#C gtnh.quest535.desc=你想知道如何在没有粉碎机的时候处理红石？嗯,你可以用GT锻造锤开采它们得到粉碎的矿石,然后在工作台里用锻造锤把它们砸成含杂红石粉.之后,在炼药锅里装上水,把粉末扔进去-按住Ctrl+Q可以一次丢出整组物品. 你需要一个铁桶,原来的粘土桶无法完成这项工作.这样你就可以得到为烧红石合金准备的纯净的红石粉了.
+gtnh.quest535.desc=你想知道如何在没有粉碎机的时候处理红石？嗯,你可以用GT锻造锤开采它们(可以将挖回来的矿石重新放置出来)得到粉碎的矿石,然后在工作台里用锻造锤把它们砸成含杂红石粉.之后,在炼药锅里装上水,把粉末扔进去-按住Ctrl+Q可以一次丢出整组物品. 你需要一个铁桶,原来的粘土桶无法完成这项工作.这样你就可以得到为烧红石合金准备的纯净的红石粉了.
 
 # Quest.536 - §3§lLow tier wires
 gtnh.quest536.name=§3§l低阶线缆
@@ -2369,12 +2305,8 @@ gtnh.quest575.name=高级蜜蜂 > 专业蜜蜂
 gtnh.quest575.desc=三个高级蜜蜂奖励 = 专业蜜蜂奖励
 
 # Quest.576 - Working Table 2.0
-#B gtnh.quest576.name=Working table 2.0
-#A gtnh.quest576.name=Working Table 2.0
-#C gtnh.quest576.name=工作台2.0
-#B gtnh.quest576.desc=A manual crafting table which remembers the last nine used recipes. Left click one of the recipes shown in the right-hand side to automatically fill in the crafting grid. Right-click to lock a memorized recipe and prevent a newer recipe from bumping it off.%n%nResources need to go into the internal inventory. The crafting matrix is only a visual representation.%n%nThe Forestry worktable is super-useful, and can reduce the tedium of many common jobs because you can click-drag across a row of items, and it will use tools in its own inventory to continue crafting. Specifically:%nMaking torches with creosote - just drag-click all your buckets into the worktable%nMaking fresh water for Pam's - Same as above%nMaking fresh milk for Pam's - Same as above%nMaking clay bricks - a wooden form is automatically reused%nMaking concrete - not tested, but would probably make this easier too.
-#A gtnh.quest576.desc=A manual crafting table which remembers the last nine used recipes. Left click one of the recipes shown in the right-hand side to automatically fill in the crafting grid. Right-click to lock a memorized recipe and prevent a newer recipe from bumping it off.%n%nResources need to go into the internal inventory. The crafting matrix is only a visual representation.%n%nThe Forestry worktable is super-useful, and can reduce the tedium of many common jobs because you can click-drag across a row of items, and it will use tools in its own inventory to continue crafting.%n%nSpecifically:%nMaking <Item X> with (Bucket of Y> - Put all the ingredients into the table, and if the recipe is selected, shift click the result to craft them all at once (until you run out)%nMaking fresh water for Pam's - Same as above, but no second item%nMaking clay bricks - The wooden form is automatically reused%nMaking anything that uses a tool - Also automatically reused, while consuming durability
-#C gtnh.quest576.desc=一个强化的手动工作台,但是这个工作台可以记住之前的9个合成表. 左键点击右侧的合成表可以提取合成配方. 右键点击可以锁定合成表. 合成所使用的物品可以放置到GUI下方的物品缓存区内. 工作台上面的制作矩阵仅仅是视觉效果,并没有实际用途.  这种林业工作台非常有用,可以大大简化合成工作,它还会自动使用缓存区中的工具参与合成.有了它,用杂酚油桶制作火把只需要把你所有的杂酚油桶放入缓存区,然后按住shift再左键即可. 合成潘马斯的淡水、新鲜牛奶的方法与上方类似. 制作粘土砖-会自动重复使用模具. 制作混凝土-没有测试,但应该也会更方便.
+gtnh.quest576.name=工作台2.0
+gtnh.quest576.desc=一个强化的手动工作台,但是这个工作台可以记住之前的9个合成表. 左键点击右侧的合成表可以提取合成配方. 右键点击可以锁定合成表.%n%n合成所使用的物品可以放置到GUI下方的物品缓存区内. 工作台上面的制作矩阵仅仅是视觉效果,并没有实际用途.%n%n这种林业工作台非常有用,可以大大简化合成工作,它还会自动使用缓存区中的工具参与合成.%n%n特别的:%n用<一桶Y>合成<物品X>时-将所有原料放入工作台,选择好合成表,Shift+左键点击成品就可以全部合成完毕(耗尽库存内原料)%n合成潘马斯的淡水-与上面类似,但没有第二物品%n合成粘土砖-木模具会自动重复使用%n合成任意使用工具的物品-工具也会自动重复使用并消耗耐久.
 
 # Quest.577 - Forestry core block
 gtnh.quest577.name=林业mod核心方块
@@ -7834,7 +7766,7 @@ gtnh.quest1865.desc=需要末影珍珠?杀戮末影人来获取珍珠实在是�
 
 # Quest.1866 - §2§lOptions for finding aluminium at this age
 gtnh.quest1866.name=§2§l在这个阶段找到铝
-gtnh.quest1866.desc=在旧的服务器或是非洲人的世界种子里,可能很难找到铝矿沙砾.铝矿沙砾的替代品是种植铝矿莓(冶炼炉任务的奖励) 在宝箱中寻找铝锭 经验桶  当你到达LV阶段,你能电解蓝宝石,或是离心各种矿石获取少量铝. 当你MV后,你可以电解粘土粉或红色花岗岩粉获取铝. 查查NEI吧.
+gtnh.quest1866.desc=在旧的服务器或是非洲人的世界种子里,可能很难找到铝矿砂砾.铝矿砂砾的替代品是种植铝矿莓(冶炼炉任务的奖励) 在宝箱中寻找铝锭 经验桶  当你到达LV阶段,你能电解蓝宝石,或是离心各种矿石获取少量铝. 当你MV后,你可以电解粘土粉或红色花岗岩粉获取铝. 查查NEI吧.
 
 # Quest.1867 - §6§lMV Motor
 gtnh.quest1867.name=§6§lMV马达
