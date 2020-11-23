@@ -2313,70 +2313,40 @@ gtnh.quest577.name=林业mod核心方块
 gtnh.quest577.desc=坚固部件几乎是所有农业方块的基础,你可以理解为他是农业MOD里面的机械外壳！
 
 # Quest.578 - The Carpenter
-#B gtnh.quest578.name=The carpenter
-#A gtnh.quest578.name=The Carpenter
-#C gtnh.quest578.name=木工机
-#B gtnh.quest578.desc=The carpenter is similar to an automatic crafting table. It has an item input slot and a storage slot for the recipes. Some recipes need an additional fluid like water, creosote, honey or molten redstone. With the carpenter you can make farmblocks, woven backpacks, bee and tree analysers and many more.%n%nThe carpenter needs power to work. You can use a GT cable or a battery box to connect to the machine or make some forestry, railcraft or buildcraft RF engines.
-#A gtnh.quest578.desc=The carpenter is similar to an automatic crafting table. It has an item input slot and a storage slot for the recipes. Some recipes need an additional fluid like water, creosote, honey or molten redstone. With the carpenter you can make farmblocks, woven backpacks, bee and tree analysers and many more.%n%nThe carpenter needs power to work. You can use a GT cable or a battery box to connect to the machine or make some forestry, railcraft or buildcraft RF engines.%n%n§3PS: Yes it's a pain in the ass to automate, just make one for each thing you want to make.
-#C gtnh.quest578.desc=木工机类似一个自动化的工作台,它有一个物品输入槽、配方储存槽和产物输出槽.一些配方需要一些额外的液体,比如说水、牛奶、蜂蜜或者熔融红石.使用木工机你可以制作农场方块、编织更好的背包和制作蜜蜂或者树木或者蝴蝶分析仪等. 木工机在工作的时候需要能量,你可以直接把GT的线缆或者电池盒连接到机器上,或者制造一些林业MOD、铁路MOD、建筑MOD立面的RF引擎.
+gtnh.quest578.name=木工机
+gtnh.quest578.desc=木工机类似一个自动化的工作台,它有一个物品输入槽、配方储存槽和产物输出槽.一些配方需要一些额外的液体,比如说水、牛奶、蜂蜜或者熔融红石.使用木工机你可以制作农场方块、编织更好的背包和制作蜜蜂或者树木或者蝴蝶分析仪等. %n%n木工机在工作的时候需要能量,你可以直接把GT的线缆或者电池盒连接到机器上,或者制造一些林业MOD、铁路MOD、建筑MOD立面的RF引擎.%n%n§3PS: 是的,想要实现这玩意的自动化是很痛苦的,建议一个配方做一个.
 
 # Quest.579 - §5§lMolten redstone?
 gtnh.quest579.name=§5§l熔融红石?
 gtnh.quest579.desc=你听说有些配方需要熔融红石,而得到熔融红石的方法就是使用流体提取机.好的！让我们来制作一台.
 
 # Quest.580 - Thermionic Fabricator
-#B gtnh.quest580.name=Thermionic fabricator
-#A gtnh.quest580.name=Thermionic Fabricator
-#C gtnh.quest580.name=热电子加工台
-#B gtnh.quest580.desc=The thermionic fabricator is used to craft electron tubes and stained glass. It requires redstone flux (RF) energy to run. It is your first machine made in the carpenter. Once warmed up, it needs to maintain a certain heat level to operate. The amount of power supplied will determine how much heat will be generated. If you do not supply enough power to maintain the current temperature it will slowly drop. It will continuously draw power, so disconnect it if you don't need it.
-#A gtnh.quest580.desc=The thermionic fabricator is used to craft electron tubes and stained glass. It requires redstone flux (RF) energy to run.%n%nIt is your first machine made in the carpenter. Once warmed up, it needs to maintain a certain heat level to operate. The amount of power supplied will determine how much heat will be generated. If you do not supply enough power to maintain the current temperature it will slowly drop. It will continuously draw power, so disconnect it if you don't need it.
-#C gtnh.quest580.desc=热电子加工台可以制作各种真空管或者彩色玻璃,他需要RF能量才能运行. 这是林业MOD的第一台机器,你可以通过木工机来制作出来.这个设备在工作之前需要预热,一旦开始工作就需要保持一定的工作温度来持续运转. 而提供的能量多少将决定热电子加工台的工作温度.而如果你没有足够的能量来维持这个温度,那么温度就将慢慢的下降.
+gtnh.quest580.name=热电子加工台
+gtnh.quest580.desc=热电子加工台可以制作各种真空管或者彩色玻璃,他需要RF能量才能运行.%n%n这是林业MOD的第一台机器,你可以通过木工机来制作出来.这个设备在工作之前需要预热,一旦开始工作就需要保持一定的工作温度来持续运转. 而提供的能量多少将决定热电子加工台的工作温度.而如果你没有足够的能量来维持这个温度,那么温度就将慢慢的下降.
 
 # Quest.581 - A Series of Tubes
 gtnh.quest581.name=磷灰石电子管
-#B gtnh.quest581.desc=Before you can craft your first farm block you need apatite tubes. Make some apatite rods first with a lathe, then use a forge hammer to join them into long apatite rods. You need golden bolts and a red alloy plate.%nPut some glass or sand into your thermionic fabricator and make your first tubes.
-#A gtnh.quest581.desc=Before you can craft your first farm block you need apatite tubes. Make some apatite rods first with a lathe, then use a forge hammer to join them into long apatite rods. You need golden bolts and a red alloy plate.%n%nPut some glass or sand into your thermionic fabricator and make your first tubes.%n%n§3You can also use the circuit assembler for a better output. Why did we have you make the TF again?
-#C gtnh.quest581.desc=在你制作第一个农场方块之前,你需要一些磷灰石电子管.先做一些磷灰石长杆(先用车床制作磷灰石杆,然后用锤子或者锻造锤制造长杆),然后还需要一些金螺栓、玻璃和红色合金板.然后将这些零件连同沙子放入热电子加工台中.你就会制造出来它了
+gtnh.quest581.desc=在你制作第一个农场方块之前,你需要一些磷灰石电子管.先做一些磷灰石长杆(先用车床制作磷灰石杆,然后用锤子或者锻造锤制造长杆),然后还需要一些金螺栓、玻璃和红色合金板.%n%n然后将这些零件连同沙子放入热电子加工台中.你就会制造出来它了.%n%n§3用电路组装机可以获得更多输出.热电子加工台还有什么用呢?
 
 # Quest.582 - The Multifarm
-#B gtnh.quest582.name=Your first multiblock farm
-#A gtnh.quest582.name=The Multifarm
-#C gtnh.quest582.name=你的第一个多方块农场
-#B gtnh.quest582.desc=The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). For water input you need a valve, items go through the hatches, and to supply the farm with energy you need a gearbox. With the farm control block you can control which fields of your farm work by applying a redstone signal. Remember to put creosote in the carpenter when crafting the different farm blocks. If you need the farm to work faster, just add more gearboxes.%nYou can use Orchard mode to collect Pam foods and Natura products. You can even mix and match modes on the same farm - logging and collecting fruit from trees, for example.
-#A gtnh.quest582.desc=The smallest farm you can build requires 36 farm blocks (3x4x3 - the largest is 5x4x5 or 100 farm blocks). Place the underlying blocks corresponding to the farm type you built. In this case, Stone Bricks. It will search above these blocks for crops, saplings, dirt, farmland, whatever it supports. You can place these blocks beside or under the multi structure, but not above.%n%nYou can use Orchard mode to collect Pam foods and Natura products, Arboretum for trees, and so on. You can even mix and match modes on the same farm - logging and collecting fruit from trees, for example. So long as they're on different sides, at least.
-#C gtnh.quest582.desc=建立一个最小的农场需要36个农场方块.这个农场需要一个农场水阀来引入水,需要一个农场出货箱来输入输出物品,还需要一个农场齿轮箱来给农场提供能量.而农场控制盒可以用红石信号来控制你的农场工作状态.记住！在木工机里面加入杂酚油和相应的材料可以制作材质不同的农场方块.
+gtnh.quest582.name=多方块农场
+gtnh.quest582.desc=建立一个最小的农场需要36个农场方块(3x4x3-最大号的农场需要100个农场方块5x4x5).这个农场需要一个农场水阀来引入水,需要一个农场出货箱来输入输出物品,还需要一个农场齿轮箱来给农场提供能量.而农场控制盒可以用红石信号来控制你的农场工作状态.记住！在木工机里面加入杂酚油和相应的材料可以制作材质不同的农场方块.%n%n根据农场方块合成使用的方块,选择同样的方块作为土壤的基底.比如石砖. 农场将会在其上搜索作物、树苗、泥土、耕地等一切支持的东西.你可以将基底方块放置在多方块结构的旁边或者底下,但不能高于.%n%n果园(Orchard)模式可以收集潘马斯作物和Natura作物,林场(Arboreal)模式可种植各种树木,以此类推. 甚至可以在同一个农场内混合各种模式-比如从树上收集水果或者获取木材.
 
 # Quest.583 - Farm Logic
-#B gtnh.quest583.name=Farm logic
-#A gtnh.quest583.name=Farm Logic
-#C gtnh.quest583.name=农场逻辑电路
-#B gtnh.quest583.desc=This chip is optional and more advanced. Farms can work without it. But if you want to configure your farm you will need one of them. For each circuit tier, you can configure 1/4 more of your farm. So if you want to do more than grow trees, you'll need them.
-#A gtnh.quest583.desc=This chip allows you to select the farm type (when combined with the right electron tubes), and not use the default of growing trees. Unless that's what you want, in which case you don't need it. %n%nFor each circuit tier, you can configure 1/4 more of your farm.
-#C gtnh.quest583.desc=这个芯片是可选的.你的农场没有他们也可以正常工作,但是在农场上面配置了他们会让你的农场变得更加的先进.
+gtnh.quest583.name=农场逻辑电路
+gtnh.quest583.desc=此芯片可以使你能够选择农场模式(与正确的电子管结合),不止是默认的林场.不过要是你只要木材的话,当我没说. %n%n每个电子管可指定1/4的农场模式.
 
 # Quest.584 - Changing Your Foresty Circuit Configuration
-#B gtnh.quest584.name=Change your farm circuit configuration
-#A gtnh.quest584.name=Changing Your Foresty Circuit Configuration
-#C gtnh.quest584.name=更改你的农场电路配置
-#B gtnh.quest584.desc=The (forestry) soldering iron is a tool used for attaching electron tubes to circuit boards in order to manipulate how an electrical engine works or to program multiblock farms. As well as upgrading the squeezer or centrifuge.%nOnce electron tubes have been attached to a circuit board they cannot be removed, only replaced. The circuit board is automatically crafted as soon as the basic recipe requirements are met, so it's best practice to first place your electron tubes and then add the circuit board.%n%nThe soldering iron can also be used to remove the circuit board from electrical engines, multiblock farms, squeezers and centrifuges by opening the machine's GUI and left clicking with the soldering iron on the circuit board slot.
-#A gtnh.quest584.desc=The (forestry) soldering iron is a tool used for attaching electron tubes to circuit boards in order to manipulate how an electrical engine works or to program multifarms, as well as upgrading the squeezer or centrifuge. Honestly, you'll probably only use it for the multifarm though.%n%nOnce electron tubes have been attached to a circuit board they cannot be removed, only replaced. The circuit board is automatically crafted as soon as the basic recipe requirements are met, so it's best practice to first place your electron tubes and then add the circuit board.%n%nThe soldering iron can also be used to remove the circuit board from electrical engines, multifarms, squeezers and centrifuges by opening the machine's GUI and left clicking with the soldering iron on the circuit board slot.
-#C gtnh.quest584.desc=林业MOD里面的电烙铁是用来将电子管连接到电路板上面的一种工具,电路板除了能放入林业榨汁机和离心机外,还可以通过在电路板上配置不同的电子管可以改变林业引擎的工作方式或者农场的工作模式.一旦电子管被焊接到电路板上后就就只能被更换而无法被移除.一旦放入电烙铁中的配方满足要求电路板就会自动被生成,因此最好先放入电子管,在检查确认无误后再放入电路板.电烙铁还可以将放入引擎、农场、榨汁机和离心机中的电路板拆卸下来.具体操作方法是打开机器的GUI,拿着电烙铁点击电路板.
+gtnh.quest584.name=更改你的农场电路配置
+gtnh.quest584.desc=林业MOD里面的电烙铁是用来将电子管连接到电路板上面的一种工具,电路板除了能放入林业榨汁机和离心机外,还可以通过在电路板上配置不同的电子管可以改变林业引擎的工作方式或者农场的工作模式.不过老实说,一般也就用来改改农场模式了.%n%n一旦电子管被焊接到电路板上后就就只能被更换而无法被移除.一旦放入电烙铁中的配方满足要求电路板就会自动焊接完毕,因此最好先放入电子管,检查确认无误后再放入电路板.%n%n电烙铁还可以将放入引擎、农场、榨汁机和离心机中的电路板拆卸下来.具体操作方法是打开机器的GUI,拿着电烙铁点击电路板.
 
 # Quest.585 - Heating Coils
-#B gtnh.quest585.name=Heating coils
-#A gtnh.quest585.name=Heating Coils
-#C gtnh.quest585.name=加热线圈
-#B gtnh.quest585.desc=Your thermionic fabricator needs heating coils to function. So combine some magnetized (requires polariser) steel rods with some copper wire and make some.
-#A gtnh.quest585.desc=Your thermionic fabricator needs heating coils to function. So combine some magnetized (requires polariser) steel rods with some copper wire and make some.%n%n§3Why is this a separate quest again?
-#C gtnh.quest585.desc=你的热电子加工台需要一些零件一遍在工作时提高温度.所以用磁化钢杆和铜线来制作一些加热线圈.
+gtnh.quest585.name=加热线圈
+gtnh.quest585.desc=你的热电子加工台需要一些零件一遍在工作时提高温度.所以用磁化钢杆和铜线来制作一些加热线圈.%n%n§3为什么这又是一个单独的任务?
 
 # Quest.586 - Welcome to Forestry
-#B gtnh.quest586.name=Welcome to forestry
-#A gtnh.quest586.name=Welcome to Forestry
-#C gtnh.quest586.name=欢迎来玩林业MOD
-#B gtnh.quest586.desc=Want to make some automated farms or work with bee and tree breeding? Want the Forestry Worktable for easy recipe access? Then this is the right chapter for you.%n%nForestry farms in Orchard mode will even fertilize, water and harvest IC2 crops on cropsticks.
-#A gtnh.quest586.desc=Want to make some automated farms or work with tree breeding? Want the Forestry Worktable for easy recipe access? Then this is the right chapter for you.
-#C gtnh.quest586.desc=你想要做一个自动化的农场、树场或者养殖蜜蜂？想要林业工作台简化合成?那么到这一章就对了！  林业树厂的果园模式(Orchard mode)甚至可以为作物架上的作物施肥、浇水、收获.
+gtnh.quest586.name=欢迎来玩林业MOD
+gtnh.quest586.desc=你想要做一个自动化的农场、树场或者养殖蜜蜂？想要林业工作台简化合成?那么到这一章就对了！%n%n林业农场的果园模式(Orchard-mode)甚至可以为作物架上的作物施肥、浇水、收获.
 
 # Quest.587 - §5§lMagnetize your rods
 gtnh.quest587.name=§5§l磁化你的金属杆
@@ -2387,20 +2357,12 @@ gtnh.quest588.name=找到磷灰石
 gtnh.quest588.desc=现在是寻找一些矿石的时候了.磷灰石是林业MOD中最基础的矿物之一.用磷灰石可以制作肥料、农场方块或者其他很多东西.这种矿物你可以在Y轴40-60这个范围内找到.
 
 # Quest.589 - Multifarm: Hatch
-#B gtnh.quest589.name=Multiblock farm: Hatch
-#A gtnh.quest589.name=Multifarm: Hatch
-#C gtnh.quest589.name=农场出货箱
-#B gtnh.quest589.desc=Farm hatch (Item pipe connectivity)%n%nYou can supply and extract items from the farm by using farm hatches that are connected to pipe systems. %n%nSupplying items%nThe farm hatch is clever enough to know which item goes where. If an item isn't appropriate for the farm's configuration, the hatch will simply reject it.%n%nExtracting items%nAny item that is harvested by the Multifarm is automatically ejected by the farm hatches into inventories or pipes. Pipes can be used to extract from other sides.
-#A gtnh.quest589.desc=You can supply and extract items from the farm by using farm hatches that are connected to pipe systems. %n%nSupplying items%nThe farm hatch is clever enough to know which item goes where. If an item isn't appropriate for the farm's configuration, the hatch will simply reject it.%n%nExtracting items%nAny item that is harvested by the Multifarm is automatically ejected by the farm hatches into inventories or pipes. Pipes can be used to extract from other sides. You may need more than one, or a better conveyor if it isn't extracting fast enough for you.
-#C gtnh.quest589.desc=你可以通过管道系统与农场出货箱相连接来提取或者输送农场的物品.农场出货箱十分智能,它知道管道输送过来的物品是否符合农场的配置,如果不符合那么农场就会拒绝接受这个物品.而任何由农场收获的物品将会从农场出货箱自动输出至管道或者容器中.管道可以从其他侧面提取物品.
+gtnh.quest589.name=农场出货箱
+gtnh.quest589.desc=你可以通过管道系统与农场出货箱相连接来提取或者输送农场的物品.%n%n供应物品%n农场出货箱十分智能,它知道管道输送过来的物品是否符合农场的配置,如果不符合那么农场就会拒绝接受这个物品.%n%n输出物品%n而任何由农场收获的物品将会从农场出货箱自动输出至管道或者容器中.管道可以从其他侧面提取物品.如果速度不够快说不定需要多个管道或者换个更高级的传送带.
 
 # Quest.590 - Multifarm: Valve
-#B gtnh.quest590.name=Multiblock farm: Valve
-#A gtnh.quest590.name=Multifarm: Valve
-#C gtnh.quest590.name=农场水阀
-#B gtnh.quest590.desc=Farm valve (Hydration)%n%nSome farms require water for hydration purposes. Although you can do it manually by supplying it through liquid containers (such as cans), you can also automate the process by using farm valves.%n%nBy connecting fluid pipes into the farm valve and supplying water, you can automatically fill the farm's water tank.
-#A gtnh.quest590.desc=Most farms require water for hydration purposes. Although you can do it manually by supplying it through liquid containers (such as cans), you can also automate the process by using farm valves.%n%nBy connecting fluid pipes into the farm valve and supplying water, you can automatically fill the farm's water tank.%n%nIf it hasn't rained for a while, the required water will go up, up to 1500%. Use an Everfull Urn, or Reservoir (RIO) for serious water needs.
-#C gtnh.quest590.desc=有一些农场里面的作物需要经常补充水分,虽然你可以通过液体容器(如储罐)来手动给你的作物浇水.但是你也可以通过农场水阀来自动化浇水这个过程.通过流体管道将供水系统和农场水阀连接,以便于可以自动给农场水阀补充水分.
+gtnh.quest590.name=农场水阀
+gtnh.quest590.desc=大部分农场里面的作物需要经常补充水分,虽然你可以通过液体容器(如储罐)来手动给你的作物浇水.但是你也可以通过农场水阀来自动化浇水这个过程.%n%n通过流体管道将供水系统和农场水阀连接起来,以便于可以自动给农场水阀补充水分.%n%n如果一段时间没有下雨的话,需水量就会提升,最高可达1500％.无尽之壶、蓄水箱(RIO)可支持相当巨量的水需求.
 
 # Quest.591 - Multifarm: Control
 #B gtnh.quest591.name=Multiblock farm: Control block
@@ -11260,11 +11222,11 @@ gtnh.quest2711.desc=好吧, 你可以说已经获得了不少种类的细菌培�
 
 # Quest.2712 - DNA Samples for Copying Cultures
 gtnh.quest2712.name=复制细菌-DNA样品瓶
-gtnh.quest2712.desc=DNA样品瓶是复制细菌的必需品. 大部分样品瓶的制取几率都很低, 但这种是100%. 我相信你可以自己弄清楚的, 但请记住, 模块不会被消耗, 另外某种IC2作物可作为洗涤粉的材料.
+gtnh.quest2712.desc=DNA样品瓶是复制细菌的必需品. 大部分样品瓶的制取几率都很低, 但这种是100％. 我相信你可以自己弄清楚的, 但请记住, 模块不会被消耗, 另外某种IC2作物可作为洗涤粉的材料.
 
 # Quest.2713 - Data Orbs for Copying Cultures
 gtnh.quest2713.name=复制细菌-数据球
-gtnh.quest2713.desc=获取样品瓶后, 你需要将信息编码写入数据球. 同样, 很多时候你得反复进行多次尝试(写入失败的数据球会返还), 但是写入这种样品瓶数据的成功率是100%.%n%n§3请查看大肠杆菌样品瓶的用途以获知配方.
+gtnh.quest2713.desc=获取样品瓶后, 你需要将信息编码写入数据球. 同样, 很多时候你得反复进行多次尝试(写入失败的数据球会返还), 但是写入这种样品瓶数据的成功率是100％.%n%n§3请查看大肠杆菌样品瓶的用途以获知配方.
 
 # Quest.2714 - Actually Copying Cultures
 gtnh.quest2714.name=复制细菌
