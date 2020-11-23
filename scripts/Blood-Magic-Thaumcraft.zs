@@ -898,7 +898,7 @@ mods.thaumcraft.Research.setConcealed("RUNEOFTHEORB", true);
 mods.thaumcraft.Research.addPage("RUNEOFTHEORB", "tc.research_page.RUNEOFTHEORB");
 game.setLocalization("tc.research_page.RUNEOFTHEORB", "\u5b9d\u73e0\u7b26\u6587\u53ef\u7528\u4e8e\u8840\u4e4b\u796d\u575b\u7684\u5347\u7ea7.
 \u6bcf\u4e2a\u5b9d\u73e0\u7b26\u6587\u53ef\u63d0\u5347\u8f6c\u79fb\u8fdb\u5165\u7075\u9b42\u7f51\u7edc\u7684LP\u6570\u91cf(\u539f\u6709\u503c\u76842%).
-\u5bf9\u4e8e\u865a\u5f31\u6c14\u8840\u5b9d\u73e0\u6765\u8bf4\u5c31\u662f\u6bcf\u4e2a\u7b26\u6587\u63d0\u5347100LP,\u4f46\u5bf9\u4e8e\u6cd5\u5e08\u6c14\u8840\u5b9d\u73e0\u6765\u8bf4\u5c31\u662f200000LP\u4e86.");
+\u5bf9\u4e8e\u865a\u5f31\u6c14\u8840\u5b9d\u73e0\u6765\u8bf4\u5c31\u662f\u6bcf\u4e2a\u7b26\u6587\u63d0\u5347100LP,\u4f46\u5bf9\u4e8e\u8d24\u8005\u6c14\u8840\u5b9d\u73e0\u6765\u8bf4\u5c31\u662f200000LP\u4e86.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFTHEORB", <BloodArsenal:blood_stone:3>, 
 [<AWWayofTime:demonicSlate>, <BloodArsenal:blood_stone:3>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:3>], 
 "potentia 32, victus 24, motus 16, lucrum 8, praecantatio 4", <AWWayofTime:AlchemicalWizardrybloodRune:3>, 6);
