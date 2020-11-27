@@ -2365,44 +2365,24 @@ gtnh.quest590.name=农场水阀
 gtnh.quest590.desc=大部分农场里面的作物需要经常补充水分,虽然你可以通过液体容器(如储罐)来手动给你的作物浇水.但是你也可以通过农场水阀来自动化浇水这个过程.%n%n通过流体管道将供水系统和农场水阀连接起来,以便于可以自动给农场水阀补充水分.%n%n如果一段时间没有下雨的话,需水量就会提升,最高可达1500％.无尽之壶、蓄水箱(RIO)可支持相当巨量的水需求.
 
 # Quest.591 - Multifarm: Control
-#B gtnh.quest591.name=Multiblock farm: Control block
-#A gtnh.quest591.name=Multifarm: Control
-#C gtnh.quest591.name=农场控制盒
-#B gtnh.quest591.desc=Farm control%n%nYou can control which fields of your farm work by applying a redstone signal to the control block. You can either shut down the whole farm by applying a redstone signal from top or below or you can disable a specific side by applying a redstone signal on the matching side of the control block.
-#A gtnh.quest591.desc=You can control which fields of your farm work by applying a redstone signal to the control block. You can either shut down the whole farm by applying a redstone signal from top or below or you can disable a specific side by applying a redstone signal on the matching side of the control block.
-#C gtnh.quest591.desc=有了农场控制盒你可以通过红石信号来控制你的农场是否工作.在农场控制盒上方或者下方提供一个红石信号将会将关闭整个农场,而从侧面提供信号将仅仅会禁用这一个面.
+gtnh.quest591.name=农场控制盒
+gtnh.quest591.desc=有了农场控制盒你可以通过红石信号来控制你的农场是否工作.在农场控制盒上方或者下方提供一个红石信号将会将关闭整个农场,而从侧面提供信号将仅仅会禁用这一个面.
 
 # Quest.592 - Multifarm: Gearbox
-#B gtnh.quest592.name=Multiblock farm: Gearbox
-#A gtnh.quest592.name=Multifarm: Gearbox
-#C gtnh.quest592.name=农场齿轮箱
-#B gtnh.quest592.desc=Farm gearbox (Power)%nTo power your farm and have it automatically harvest crops, you will need at least one farm gearbox.%n%nFarm operations can be hastened with additional gearboxes.%n%nEach farm gearbox requires power. You can use either RF or EU.
-#A gtnh.quest592.desc=To power your farm and have it automatically harvest crops, you will need at least one farm gearbox to supply power. You can use either RF or EU. If you use EU, make sure to use a cable to allow conversion. Farm operations can be hastened with additional gearboxes.%n%nTesting has shown that splitting the amps to 4 gearboxes (4A ULV) works better than sending 1A LV to 4 gearboxes.%n%nA max sized IC2 Crop farm (5x4x5) using all space possible with max stat seeds (31/31/0) on a fast crop needs only 6A ULV to keep up.%n%nSimilarly, a max sized small farm (3x4x3) using all space possible with max stat seeds (31/31/0) on a high tier, moderate speed crop needs only 4A ULV.%n%nSending more power to the same gearbox doesn't work. If it can get to max RF capacity but your farm can't keep up, sending more power won't help, so add more gearboxes.%n%nOf course, if you mix your slower crops with your faster ones, you aren't likely to need to min-max to this extent.
-#C gtnh.quest592.desc=农场齿轮箱可以为你的农场提供动力,让农场可以自动收割庄稼.一个农场至少需要一个农场齿轮箱,你也可以配置额外的农场齿轮箱来提供更多的能量加速农场运转速度.农场齿轮箱需要电力,你可以采用RF能源或者EU能源.
+gtnh.quest592.name=农场齿轮箱
+gtnh.quest592.desc=农场齿轮箱可以为你的农场提供动力,让农场可以自动收割庄稼.一个农场至少需要一个农场齿轮箱,你也可以配置额外的农场齿轮箱来提供更多的能量加速农场运转速度.你可以采用RF或EU供能.如果使用EU供能的话,请使用线缆将能量转化.%n%n测试表明,使用4A-ULV供能4个齿轮箱时的工作效率强于1A-LV供能4个齿轮箱.%n%n一块最大尺寸的IC2杂交作物田(5x4x5),种植满属性(31/31/0)低级作物(生长速度快),只需6A-ULV即可维持正常工作.%n%n类似的,一块稍小一点的杂交作物田(3x4x3),种植满属性(31/31/0)高级作物(生长速度慢),仅需要4A-ULV供能.%n%n向同一个齿轮箱输入更多能量不起作用.当齿轮箱RF存满但农场还是没有满速运行时,提高电压无效,只能添加更多的齿轮箱.%n%n当然,如果你的高速作物和低速作物混合种植,那么以上数据仅供参考.
 
 # Quest.593 - Enhanced Farm Logic
-#B gtnh.quest593.name=Enhanced farm logic
-#A gtnh.quest593.name=Enhanced Farm Logic
-#C gtnh.quest593.name=中型电子板
-#B gtnh.quest593.desc=This chip is optional and more advanced than the basic one. The farms can work without them. However, if you want to configure your farm you will need one of them.
-#A gtnh.quest593.desc=This circuit allows you to configure 2/4 areas of your farm.
-#C gtnh.quest593.desc=这个芯片也是可选的,它比小型电子版更加的先进.可以提供2个电子管的焊接位置
+gtnh.quest593.name=中型电子板
+gtnh.quest593.desc=这个芯片也是可选的,它比小型电子版更加的先进.可以提供2个电子管的焊接位置,可以指定你的农场2/4面积的模式.
 
 # Quest.594 - Refined Farm Logic
-#B gtnh.quest594.name=Refined farm logic
-#A gtnh.quest594.name=Refined Farm Logic
-#C gtnh.quest594.name=大型电子板
-#B gtnh.quest594.desc=This chip is optional and more advanced than the enhanced one. The farms can work without them. If you want to configure your farm even more you will need one of them.
-#A gtnh.quest594.desc=This circuit allows you to configure 3/4 areas of your farm.
-#C gtnh.quest594.desc=这个芯片也是可选的,它比中型电子版更加的先进.可以提供3个电子管的焊接位置
+gtnh.quest594.name=大型电子板
+gtnh.quest594.desc=这个芯片也是可选的,它比中型电子版更加的先进.可以提供3个电子管的焊接位置,可以用于指定你的农场3/4面积的模式.
 
 # Quest.595 - Intricate Farm Logic
-#B gtnh.quest595.name=Intricate farm logic
-#A gtnh.quest595.name=Intricate Farm Logic
-#C gtnh.quest595.name=先进电子板
-#B gtnh.quest595.desc=This chip is optional and more advanced than the refined one. The farms will work without them, but if you want to configure your farm even more you will need one of them.%n%nHint: The circuit assembler recipe is cheaper than the carpenter.
-#A gtnh.quest595.desc=This circuit allows you to configure 4/4 areas of your farm. Honestly, there's a decent chance you'll just skip the others.
-#C gtnh.quest595.desc=这个芯片也是可选的,它比大型电子板更加先进.可以提供4个电子管的焊接位置.
+gtnh.quest595.name=先进电子板
+gtnh.quest595.desc=这个芯片也是可选的,它比大型电子板更加先进.可以提供4个电子管的焊接位置,可以用于指定你的农场4/4面积的模式.虽然大概率你会略过其他模式.
 
 # Quest.596 - §3§k§l§1§2§3§lUpgrade of the upgrade of the...
 gtnh.quest596.name=§3§k§l§1§2§3§l升级！升级！升级！
@@ -2634,15 +2614,11 @@ gtnh.quest652.desc=这个喷气背包使用IC2的沼气,最高可飞到245层.%n
 
 # Quest.653 - Advanced Electric Jetpack
 gtnh.quest653.name=进阶电力喷气背包
-#B gtnh.quest653.desc=The advanced electric jetpack is an upgraded version of the electric jetpack.%nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the advanced lappack from its 3.000.000 EU internal storage.%n%nThe advanced electric jetpack is limited to a maximum flying height of Y-256.
-#A gtnh.quest653.desc=The advanced electric jetpack is an upgraded version of the electric jetpack.%nWhile worn in the chest armor slot and charged with EU, it allows the player to fly. It provides no armor protection, but will charge tools being used in the same manner as the advanced lappack from its 3.000.000 EU internal storage.%n%nThe advanced electric jetpack is limited to a maximum flying height of Y-256.%n%n§3To turn it on, hit the fly key listed under gravisuite. You can then use space to fly up. To activate hover, hit the IC2 mode key while holding space. Will also recharge tools.
-#C gtnh.quest653.desc=进阶电力喷气背包是电动喷气背包的升级版.%n可以装备在胸甲部位,当充满EU电力时,可以飞行.它并没有任何保护功能,但其内部储存的3MEU电力可以为你的工具充电,如同进阶电池背包一样运作.%n%n进阶喷气背包的最大飞行高度是256层.
+gtnh.quest653.desc=进阶电力喷气背包是电动喷气背包的升级版.%n可以装备在胸甲部位,当充满EU电力时,可以飞行.它并没有任何保护功能,但其内部储存的3MEU电力可以为你的工具充电,如同进阶电池背包一样运作.%n%n进阶喷气背包的最大飞行高度是256层.%n%n§3在控制里的重力装甲(gravisuite)栏下的fly键开启喷气背包.空格键提升高度.悬停模式可通过按住空格并按下IC2切换模式的快捷键激活.进阶电力喷气背包也可以为物品栏中的工具充能.
 
 # Quest.654 - Advanced Nano Chestplate
 gtnh.quest654.name=进阶纳米重力胸甲
-#B gtnh.quest654.desc=Combining the advanced electric jetpack and nanosuit yields you the advanced nano chestplate. Now you have the protection of the chestplate combined with the freedom of movement of the jetpack.
-#A gtnh.quest654.desc=Combining the advanced electric jetpack and nanosuit yields you the advanced nano chestplate. Now you have the protection of the chestplate combined with the freedom of movement of the jetpack.%n%n§3Works like the AEJ.
-#C gtnh.quest654.desc=将进阶电力喷气背包及纳米护甲组合,会得到进阶纳米重力胸甲.就可以拥有胸甲的防护能力,并可使用喷气背包自由的移动.
+gtnh.quest654.desc=将进阶电力喷气背包及纳米护甲组合,会得到进阶纳米重力胸甲.就可以拥有胸甲的防护能力,并可使用喷气背包自由的移动.%n%n§3用起来更进阶电力喷气背包一样.
 
 # Quest.655 - Gravi Suit
 gtnh.quest655.name=重力胸甲
@@ -3319,8 +3295,8 @@ gtnh.quest815.name=火箭引擎
 gtnh.quest815.desc=每一个火箭都需要一台引擎.制作2台1阶火箭引擎,因为到达月球时着陆器也需要一个.
 
 # Quest.816 - Moon Lander
-gtnh.quest816.name=登录月球
-gtnh.quest816.desc=登录月球应该实现软着陆. 因此你需要一个频率模块来探测月球上的一些状况和需要一个舒服的座椅.
+gtnh.quest816.name=登陆月球
+gtnh.quest816.desc=登陆月球应该实现软着陆. 因此你需要一个频率模块来探测月球上的一些状况和需要一个舒服的座椅.
 
 # Quest.817 - Buggy Seat
 gtnh.quest817.name=车座
@@ -6184,7 +6160,7 @@ gtnh.quest1499.desc=等等,什么？你想从矿石中获得更多副产品吗�
 gtnh.quest1500.name=§1§l更好的任务？
 #B gtnh.quest1500.desc=If you need help with a quest, you can find the Quest ID by holding F3 + H together to get extended tooltips, and then Quest IDs will show in your questbook.%n%nIf you want to enable Hardcore Mode, open to LAN, enable cheats, then type %n%n§l/bq_admin hardcore%n§r%nIf you are using a personal server, you can do the command on the command line, without the /. Restart your client to leave LAN mode and disable cheats.%n%nYou only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%nFor quests to save properly, you must be online and logged into your Mojang account.  Sorry, it's a limitation of Better Questing.%n%nParty Syncing: Party syncing works, but if you have someone join later, you'll need to help them go through all the quests first. This is mostly annoying in the first two ages, as they're mostly crafting tasks, instead of retrieval you can just have them pick up. You still need to do consume tasks separately though. You can also try the following command (untested, but seen in code):%n%n§l/bq_copyquests <NewPlayer> <PlayerWithQuestsCompleted>
 #A gtnh.quest1500.desc=If you need help with a quest, you can find the Quest ID by holding F3 + H together to get extended tooltips, and then Quest IDs will show in your questbook.%n%nIf you want to enable Hardcore Mode, open to LAN, enable cheats, then type %n%n§l/bq_admin hardcore%n§r%nIf you are using a personal server, you can do the command on the command line, without the /. Restart your client to leave LAN mode and disable cheats.%n%nYou only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%nFor quests to save properly, you must be online and logged into your Mojang account.  Sorry, it's a limitation of Better Questing.%n%nParty Syncing: Party syncing works, but if you have someone join later, you'll need to help them go through all the quests first. This is mostly annoying in the first two ages, as they're mostly crafting tasks, instead of retrieval you can just have them pick up. You still need to do consume tasks separately though. You can also use the following command if you have access to commands:%n%n§l/bq_copyquests <PlayerWithQuestsCompleted> <NewPlayer>
-#C gtnh.quest1500.desc=如果你需要任务帮助,可以按住F3+H以查看任务ID,然后任务ID将自动显示在你的任务书中.%n%n如果你想要激活极限模式,打开局域模式,启用作弊,然后输入%n%n§l/bq_admin hardcore%n§r%n如果你在私人服务器上,可直接使用命令行,而无需重启你的客户端才能离开局域模式并关闭作弊.%n%n极限模式下,一开始你只有三条命,祝你好运."杀戮时刻"任务栏中的任务可提高你的生命上限.%n%n想要正确保存任务,你必须在线并登录Mojang帐户. 对不起,这是BQ(更好任务mod)的限制.%n%n组队任务同步: 队伍内任务同步是可用的, 但如果你是后来者, 需要首先在队内的帮助下完成之前的所有任务才能正常同步. 前两个阶段是最麻烦的, 因为那些任务大部分是合成任务, 而之后的任务许多只是要求捡起指定物品. 另外消耗任务也是无法避开的. 还可以使用以下指令:%n%n§l/bq_copyquests <已完成任务玩家> <新玩家>
+#C gtnh.quest1500.desc=如果你需要任务帮助,可以按住F3+H以查看任务ID,然后任务ID将自动显示在你的任务书中.%n%n如果你想要激活极限模式,打开局域模式,启用作弊,然后输入%n%n§l/bq_admin hardcore%n§r%n如果你在私人服务器上,可直接使用命令行,而无需重启你的客户端才能离开局域模式并关闭作弊.%n%n极限模式下,一开始你只有三条命,祝你好运."杀戮时刻"任务栏中的任务可提高你的生命上限.%n%n想要正确保存任务,你必须在线并登陆Mojang帐户. 对不起,这是BQ(更好任务mod)的限制.%n%n组队任务同步: 队伍内任务同步是可用的, 但如果你是后来者, 需要首先在队内的帮助下完成之前的所有任务才能正常同步. 前两个阶段是最麻烦的, 因为那些任务大部分是合成任务, 而之后的任务许多只是要求捡起指定物品. 另外消耗任务也是无法避开的. 还可以使用以下指令:%n%n§l/bq_copyquests <已完成任务玩家> <新玩家>
 
 # Quest.1501 - §1§lBackup your stuff...
 gtnh.quest1501.name=§1§l备份你的存档......
@@ -9694,7 +9670,7 @@ gtnh.quest2334.desc=一份可让死者复活的羊皮纸上书写着恶魔契约
 
 # Quest.2335 - Taglock Kit
 gtnh.quest2335.name=巫媒
-gtnh.quest2335.desc=巫媒(Taglock-Kit)用于收集其他玩家或生物的标记(Taglock),例如头发、指甲屑或血液,巫媒被用于各种配方中,以在生物与巫术之间建立联系.%n%n想要收集巫媒,对着生物或者对着玩家使用过的床右键即可.在同一张床上重复右键,将循环收集该张床的每个玩家的巫媒.还可以在陷阱箱上收集打开箱子的玩家的巫媒,或在血玫瑰上收集走过它的玩家的巫媒.%n%nShift-左键任意床将收集当前玩家的巫媒.%n%n直接对玩家使用巫媒收集可能会失败,失败的同时还会通知该玩家你想做什么.想要提高收集成功的几率,你需要潜行并从背后靠近他.%n%n只能从登录到同一世界的玩家那里收集巫媒.%n%n带有骨针的玻璃瓶即可制成巫媒.
+gtnh.quest2335.desc=巫媒(Taglock-Kit)用于收集其他玩家或生物的标记(Taglock),例如头发、指甲屑或血液,巫媒被用于各种配方中,以在生物与巫术之间建立联系.%n%n想要收集巫媒,对着生物或者对着玩家使用过的床右键即可.在同一张床上重复右键,将循环收集该张床的每个玩家的巫媒.还可以在陷阱箱上收集打开箱子的玩家的巫媒,或在血玫瑰上收集走过它的玩家的巫媒.%n%nShift-左键任意床将收集当前玩家的巫媒.%n%n直接对玩家使用巫媒收集可能会失败,失败的同时还会通知该玩家你想做什么.想要提高收集成功的几率,你需要潜行并从背后靠近他.%n%n只能从登陆到同一世界的玩家那里收集巫媒.%n%n带有骨针的玻璃瓶即可制成巫媒.
 
 # Quest.2336 - Mutandis Extremis
 gtnh.quest2336.name=超级转生粉
@@ -10016,7 +9992,7 @@ gtnh.quest2414.desc=东西太多放不下? 只要把这个坏小子拍在抽屉�
 
 # Quest.2415 - Bringing the Biome to You
 gtnh.quest2415.name=我不去就山,让山来就我
-gtnh.quest2415.desc=你也许找不到适合你的农作物或蜜蜂的沼泽或热带森林,也有可能是离得太远很不方便,你的还可能位于较冷的气候下,使你不得不经常面对狼群. 别急着打包所有东西并搬到其他地方,何不试试改变生物群系呢? 在这个整合包中有几种不同的方法可以做到:%n%n使用巫师宝具(Witching-Gadgets)中的奥术群系转化器%n-需要EV电路板、钨钢,、三阶火箭%n-还需要注魔、虚空金属(足够的扭曲)、提供CV的充能节点、大量源质%n-半径16格%n-只能把生物群系更改为几种特定​​原版或神秘的生物群系%n-有点慢%n%n使用血魔法(Blood-Magic)的盖亚仪式(Ritual-of-Gaia's-Transformation)%n-需要虚空金属、注魔、钨钢%n-需要深入研究血魔法(以及随之而来的扭曲)%n-需要1,000,000-LP、导师气血宝珠、4阶祭坛和[觉醒]激活水晶%n-半径10格,可用血石砖(任意类型)精确指定%n-无法指定生物群系,你只能在0.0到2.0的范围内修改温度/湿度,然后听天由命%n-由于范围有限以及范围重叠等问题,某些生物群系无法出现%n-通过主仪式石周围8个基座上的物品来调节温度/湿度%n-需要重新登录才能看到改变%n-文字与解释都很少%n-速度快%n%n使用巫术(Witchery)的季节变迁药水%n-小范围, 范围与药水等级有关(强度等级而不是喷溅等级)%n-可以明确指定生物群系%n-需使用复杂的定制酿造系统制作%n-可以添加不同的成分以改变药水的范围%n-最小修改一个方块%n-最大为半径3格的圆%n-立即生效(你使用后)%n%n使用巫术的季节变迁仪式%n-需要不锈钢、宏伟之木权杖或更好的法杖来制造巫术的蒸馏塔%n-你必须搓一堆巫术配套设备%n-只要完成一次,以后就简单了%n-超大范围,16/32/48格半径的圆%n-可以明确指定生物群系%n-有时在特定的区块中会失败%n-速度很快%n%n如果你想知道巫术的相关教程,请查看"替代魔法"任务栏.%n%n注意:IC2和星系(Galacticraft)的地形转换(改造)机只能改变地表,无法改变生物群系.
+gtnh.quest2415.desc=你也许找不到适合你的农作物或蜜蜂的沼泽或热带森林,也有可能是离得太远很不方便,你的还可能位于较冷的气候下,使你不得不经常面对狼群. 别急着打包所有东西并搬到其他地方,何不试试改变生物群系呢? 在这个整合包中有几种不同的方法可以做到:%n%n使用巫师宝具(Witching-Gadgets)中的奥术群系转化器%n-需要EV电路板、钨钢,、三阶火箭%n-还需要注魔、虚空金属(足够的扭曲)、提供CV的充能节点、大量源质%n-半径16格%n-只能把生物群系更改为几种特定​​原版或神秘的生物群系%n-有点慢%n%n使用血魔法(Blood-Magic)的盖亚仪式(Ritual-of-Gaia's-Transformation)%n-需要虚空金属、注魔、钨钢%n-需要深入研究血魔法(以及随之而来的扭曲)%n-需要1,000,000-LP、导师气血宝珠、4阶祭坛和[觉醒]激活水晶%n-半径10格,可用血石砖(任意类型)精确指定%n-无法指定生物群系,你只能在0.0到2.0的范围内修改温度/湿度,然后听天由命%n-由于范围有限以及范围重叠等问题,某些生物群系无法出现%n-通过主仪式石周围8个基座上的物品来调节温度/湿度%n-需要重新登陆才能看到改变%n-文字与解释都很少%n-速度快%n%n使用巫术(Witchery)的季节变迁药水%n-小范围, 范围与药水等级有关(强度等级而不是喷溅等级)%n-可以明确指定生物群系%n-需使用复杂的定制酿造系统制作%n-可以添加不同的成分以改变药水的范围%n-最小修改一个方块%n-最大为半径3格的圆%n-立即生效(你使用后)%n%n使用巫术的季节变迁仪式%n-需要不锈钢、宏伟之木权杖或更好的法杖来制造巫术的蒸馏塔%n-你必须搓一堆巫术配套设备%n-只要完成一次,以后就简单了%n-超大范围,16/32/48格半径的圆%n-可以明确指定生物群系%n-有时在特定的区块中会失败%n-速度很快%n%n如果你想知道巫术的相关教程,请查看"替代魔法"任务栏.%n%n注意:IC2和星系(Galacticraft)的地形转换(改造)机只能改变地表,无法改变生物群系.
 
 # Quest.2416 - Ghetto Biome Changing
 gtnh.quest2416.name=廉价的生物群系改变
