@@ -11443,256 +11443,256 @@ gtnh.quest2766.name=深地热泵
 gtnh.quest2766.desc=这台机器使用地热能加热冷却液, 可以跳过流体核反应堆.%n%n请查看https://gtnh.miraheze.org/wiki/Fluid_Reactor 并用深地热泵替换流体核反应堆.%n%n这是基础的无限能源, 不过用炼狱之壶配合流体热交换机也可以实现相同功能...随便啦.
 
 # Quest.2767 - Get it Together Bees!
-#N gtnh.quest2767.name=Get it Together Bees!
-#N gtnh.quest2767.desc=这些框架有助于防止基因衰退.
+gtnh.quest2767.name=团结起来,蜜蜂们!
+gtnh.quest2767.desc=这些框架有助于防止基因衰退.
 
 # Quest.2768 - Bee Slurry, the Breakfast of, Well, Weirdos
-#N gtnh.quest2768.name=Bee Slurry, the Breakfast of, Well, Weirdos
-#N gtnh.quest2768.desc=Why would you even need this?
+gtnh.quest2768.name=蜂浆,早餐,很好,Weirdos
+gtnh.quest2768.desc=你还要这个做什么?
 
 # Quest.2769 - Even More Stats
-#N gtnh.quest2769.name=Even More Stats
-#N gtnh.quest2769.desc=There's seven more stats to worry about too.%n%n§7Fertilizer§r, §9Water§r, and §4Weed-EX§r are all about how much of these is on the crop stick rather than the crop itself. They're all about how much was applied, and is left of that.%n%n§2Nutrients§r, §1Humidity§r, and §6Air Quality§r are all about the environment. They're also affected by the Fertilizer and Water stats.%n%nNutrients and Humidity are mostly about the right biome, with swamp and rainforest types (hot+humid) being the best, but you can also get some extra stats by setting up right.%n%n§2Nutrients§r:%n3 possible free points from dirt under the farmland block, 2 for plants that require a specific block. So optimally always make sure that the required block is at the bottommost bottom in the column, because it checks in chain, not certain height. For example: cropstick -> farmland -> dirt -> oreblock -> dirt, it will only register 1 dirt, ignoring the one below the oreblock.%n%n5-10 possible points from fertilizing your crops. You can use fertilizer on a crop to increase its nutrients stat. Fertilizer caps at 199 which gives 10 nutrients, but can be applied again only if the crop drops below 100 fertilizer points. So for high stat crops its safe to assume and make tests for 100 fertilizer points as its a given constant unlike 199->100 values. You can apply bonemeal, IC2 fertilizer and Forestry fertilizer to a crop by hand. Forestry manual orchard multifarm and crop matron does this automatically when supplied with fertilizer (the multifarm needs fertilizer to harvest crops as well).%n%n§1Humidity§r:%n2 free points from using dirt as farmland, as when farmland gets hydrated by water(turns darker) it gains 2 humidity points. This is why other blocks for this suck, since they don't give this bonus.%n%n10 possible points from hydrating your crop. Similiar to fertilizing, water can be applied to crop up to 200 points, which is 10 humidity points, altough unlike fertilizer it does not need to drop below value of 100, water can be applied over and over keeping it at constant 200 points. You can apply water to your crop by using IC2 hydration cells by hand, or let your Forestry manual orchard multifarm and crop matron do it automatically. The multifarm needs water to harvest crops as well though.%n%n§6Air Quality§r:%n4 potential free points from empty space around crop. A crop checks for empty spaces to calculate bonus air quality points, it gives up to 4 points, 1 point for each 2 empty spaces. It only counts full blocks or cropsticks though. If you like looks, you'll probably have to sacrifice this.%n%n4 free points from height of your farm. You get 1 free point every 15 blocks startng at Y79.%n79 - 1 point%n94 - 2 points%n109 - 3 points%n124 - 4 points%n%n2 free points from no opaque blocks above the crop. You can place glass above and you won't lose the bonus since it's a transparent block. You cannot use dark glass, several layers of water, or gaseous tenebrae to get around this if your crop likes the dark. Unless you only let it grow at night I guess§..%n%n§aGrowability§r:%nYour crop will require a certain level of NHA, try to reach or surpass this, or the crop will either not grow, or even die (disappear). Each crop is different, and higher tiers (and stats) require more. It's generally easy to meet though, as long as you're in a good biome.%n%nGrowability is determined by the difference between what the crop needs in terms of NHA, and what it actually has. If you have more than what you need it grows faster. This is why you don't want a maxed resistance stat, since higher stats will slow it down.
+gtnh.quest2769.name=更多状态
+gtnh.quest2769.desc=还需要考虑另外七个状态.%n%n§7肥料(Fertilizer)§r、§9水分(Water)§r、和§4除草剂(Weed-EX)§r这三个状态值更多反应的是作物架而非作物本身的状态.反应的都是使用了/剩下了多少肥料/水分/除草剂.%n%n§2养分(Nutrients)§r、§1湿度(Humidity)§r、和§6空气质量(Air-Quality)§r这三个状态都是关于环境的.且它们还受肥料和水分状态的影响.%n%n养分和湿度与生物群系的关系最大,沼泽(swamp)和雨林(rainforest)生物群系最佳(炎热+潮湿),不过你也可以通过正确的设置获得额外的状态加成.%n%n§2养分§r:%n农田下方的泥土方块有3点加成,作物所需的特定方块有2点加成.所以,最佳做法是将所需特定方块至于泥土链的最下方,因为作物判定环境时是按照链式检测的,并非检测特定高度. 举个例子:作物架->田->泥土->矿石->泥土,这样的排列只会计算1块泥土的养分值,矿石下方的泥土将被忽略.%n%n作物上所施的肥料会决定5-10点养分值.即可通过施肥提高其养分值.199点肥料值可获得10点养分值加成,但只有在作物肥料值低于100时才能再次施肥(这也是养分值5-10浮动的原因).所以对于高级作物而言,计算养分值时请以100点肥料值为基准,而不要用199点肥料值这一极限加成.骨粉、IC2肥料、林业肥料都可用于施肥.为林业农场(果园模式)或作物监管机提供肥料都可以实现自动施肥(林业农场收割作物时也需要肥料).%n%n§1湿度§r:%n当泥土耕地被水湿润(变黑)时,可提供2点湿度值加成.而其他方块作为农田无法享受此加成.%n%n作物的水分值可提供10点湿度值.这与肥料值类似,作物最高200点水分值可提供10点湿度值;而不同的是水分值可以不断补充保持200这一峰值,而不用等到低于100,所以水分值提供的湿度值一般稳定10点.手持IC2水化单元可以浇水,而林业农场和作物监管机也可以实现自动化灌溉.不过林业农场收割作物时也需要水.%n%n§6空气质量§r:%n作物周围的8格空间,决定了4点空气质量值加成.一株作物会检测周围8格是否为完整方块或其他作物,如果不是,那么每两处空间将提供1点空气质量值加成,最高4点.一般来说这4点或多或少会有部分牺牲,无法拿全.%n%n农田高度也决定了4点空气质量值.从Y=79开始,每提高15格可获得1点空气质量值.%n79-1点%n94-2点%n109-3点%n124-4点%n%n作物上方是否有不透明方块决定了2点空气质量值加成.上方的玻璃不会影响此加成,因为玻璃是透明方块.但深色玻璃、几层水或暗影气瓶都会影响此空气质量值.除非你让作物只在晚上生长,否则对喜暗作物一般无法获得此空气质量值加成.%n%n§a生长点(Growability)§r:%n作物会要求某一具体的养分/湿度/空气质量,努力达到或超过这一要求吧,否则作物就无法生长,甚至可能死亡(消失).每株作物的要求都不同,越高级的作物要求越高(同种作物三围越高的要求也越高).只要你处于不错的生物群系,这一环境要求一般很容易达到.%n%n生长点的累积速度由实际环境值与作物要求环境值之间的差距决定.实际环境值越高累积越快.这也是为什么我们不想要满抗性值的作物,因为高属性的作物会提高要求的环境值,相应的会降低生长点累积的速度.
 
 # Quest.2770 - Min-Maxing Crops
-#N gtnh.quest2770.name=Min-Maxing Crops
-#N gtnh.quest2770.desc=Breed stickreed until it's around 20/31/10, then create other crops with it, they inherit the stats. Crossbreeding with the ones you got on the way to raise their stats is also good.%n%nSetup camp in a swamp/jungle type biome around Y130, or use the biome changing methods to make one. This is way faster when breeding crops, not just growing them for drops.%n%nUse multifarms, always. You can use them together with the harvesters if you have super fast crops. Or just use more farms.%n%nDark glass is nice for oreberry crops.%n%nTo avoid weeding, checkerboard up and down on your multifarm. It may look stupid, but no weeds, Gr 23->31, and +2 AQ!%n%nUse fertilia to create more fertilizer.%n%nYou can replace mob farms with crops if you don't care about the other drops. Infernals drop special stuff though.%n%nUse WAs in TE mode to accelerate crops if you need it.%n%nAs you tier up, you can create 31/31/0 crops with the machines and UUM. It's up to you whether it's worth it though.%n%nGo do bees if you want something higher than EV tier materials.
+gtnh.quest2770.name=最适作物/最强作物
+gtnh.quest2770.desc=将粘性甘蔗(stickreed)培育到20/31/10(译者注:其实极限是21/31/0),然后用它来杂交出其他作物,新作物即可继承三围属性.当然这样的粘性甘蔗还可以与需要提高自身三围的其他作物杂交.%n%n在沼泽/雨林生物群系,高度130格左右建立农场,或是用各种改变生物群系的方法也可以达到同样的效果.这样不止可以让作物快速生长获得产物,还可以快速培育作物.%n%n推荐使用多方块农场(林业).如果你的作物长得飞快,可同时再加上作物收割机.%n%n深色玻璃很适合矿莓类作物.%n%n为了避免杂草成灾,将林业农场搭建成上下错位的棋盘格吧.虽然这样看起来很傻...成长值上限可从23提升到31,还能获得2点空气质量值加成!%n%n肥料花(fertilia)可以产出更多肥料.%n%n如果忽略怪物的其他掉落物的话,用农场代替怪物屠宰场是个不错的主意.虽说精英怪会掉落一些特殊物品.%n%n如果需要的话,可使用实体方块(TE)模式的世界加速器加速作物生长.%n%n随着你的电压等级不断提升,你可以用UU-M配合机器直接制出31/31/0的作物.这是否值得取决于你.%n%n如果想要获得EV以上的材料,你得考虑考虑养蜂了.
 
 # Quest.2771 - U-238 Tu-Wait, Seriously?
-#N gtnh.quest2771.name=U-238 Tu-Wait, Seriously?
-#N gtnh.quest2771.desc=If you want IC2 crops to work with the multifarm, you now need this. Get the U-238 from thorium, and the endereyes from either your crops, villagers, or the normal way in HV. It also only searches 6 blocks above the farm structure block to prevent lag. So goodbye MF stacking, you always looked dumb, and didn't make any sense.%n%nThe largest size supports ~1100 crops, while the smallest supports ~600 depending on your layout if you use it for IC2 crops. This is because it will look for crops up to 5 blocks out further than normal in this mode (In the cardinal directions, it's further out in the corners. Just try it out, it's hard to describe). They're the same size as in previous versions, so you don't need to rejigger them.%n
+gtnh.quest2771.name=铀-238,等等,你确定?
+gtnh.quest2771.desc=如果想要多方块农场支持IC2作物,你就需要这个.从钍中获得铀-238,然后通过作物掉落、洗劫村庄或者HV阶段的正常方式获得末影之眼.为了防止延迟过高,它同样只会检索多方块农场上6格.所以向堆叠说再见吧,这没有任何意义.%n%n最大尺寸支持越1100株作物,而最小尺寸支持越600株作物,这取决于你的布局.这是因为在此模式下,它会检索比正常模式多5格的作物(在基本方向上,虽然貌似在角落可以达到更远,不过这很难描述,试试看吧.).它们的大小与以前的版本相同,因此你无需重新调整它们的大小.%n
 
 # Quest.2772 - BEGONE, LAG! Also, Bats
-#N gtnh.quest2772.name=BEGONE, LAG! Also, Bats
-#N gtnh.quest2772.desc=Lag = Butterflies in this case, since they like to pile up just outside of chunk loading range. Also, they're annoying since they convert regular trees into more forestry ones, one leaf block at a time. Which causes more of the buggers to spawn. Fortunately, the settings we use prevent too many from being present at once, but still, they're annoying.%n%nThe solution to this is to kill them. Also, the bats. Stupid Thaumcraft warp. Use the (clearly unfinished) Pest Killer to do so.%n%nNotes: Hydrogen Cyanide has no recipe. Formaldehyde requires the Chemical Plant of all things. It doesn't appear to use any of the Formaldehyde up though. The range is apparently 5x5 chunks, not blocks. It also only runs once every 30s or so?%n%n§3PS: If you experience problems using it (more than already mentioned), complain to Alkalus.
+gtnh.quest2772.name=延迟,延迟!还有,蝙蝠
+gtnh.quest2772.desc=在此,延迟=蝴蝶,因为连区块加载范围之外都会被它们堆满. Also, they're annoying since they convert regular trees into more forestry ones, one leaf block at a time. Which causes more of the buggers to spawn. Fortunately, the settings we use prevent too many from being present at once, but still, they're annoying.%n%nThe solution to this is to kill them. Also, the bats. Stupid Thaumcraft warp. Use the (clearly unfinished) Pest Killer to do so.%n%nNotes: Hydrogen Cyanide has no recipe. Formaldehyde requires the Chemical Plant of all things. It doesn't appear to use any of the Formaldehyde up though. The range is apparently 5x5 chunks, not blocks. It also only runs once every 30s or so?%n%n§3PS: If you experience problems using it (more than already mentioned), complain to Alkalus.
 
 # Quest.2773 - Purge...Some of Your Warp?
-#N gtnh.quest2773.name=Purge...Some of Your Warp?
-#N gtnh.quest2773.desc=They're a pain to make, and only work if you have 50+ warp, but if you're wondering if you have dementia from all the chest scrambling, they may be for you. Check the warp theory tab in the thaumonomicon for this and the related items.
+gtnh.quest2773.name=Purge...Some of Your Warp?
+gtnh.quest2773.desc=They're a pain to make, and only work if you have 50+ warp, but if you're wondering if you have dementia from all the chest scrambling, they may be for you. Check the warp theory tab in the thaumonomicon for this and the related items.
 
 # Quest.2774 - §lPower of the Sun at LuV Level
-#N gtnh.quest2774.name=§lPower of the Sun at LuV Level
-#N gtnh.quest2774.desc=The LuV solar panel generates 32768 EU/t.
+gtnh.quest2774.name=§lPower of the Sun at LuV Level
+gtnh.quest2774.desc=The LuV solar panel generates 32768 EU/t.
 
 # Quest.2775 - §lPower of the Sun 1x1 LuV
-#N gtnh.quest2775.name=§lPower of the Sun 1x1 LuV
-#N gtnh.quest2775.desc=This is the block version that doesn't need cleaning.
+gtnh.quest2775.name=§lPower of the Sun 1x1 LuV
+gtnh.quest2775.desc=This is the block version that doesn't need cleaning.
 
 # Quest.2776 - §lPower of the Sun at ZPM Level
-#N gtnh.quest2776.name=§lPower of the Sun at ZPM Level
-#N gtnh.quest2776.desc=The ZPM solar panel generates 131072 EU/t.
+gtnh.quest2776.name=§lPower of the Sun at ZPM Level
+gtnh.quest2776.desc=The ZPM solar panel generates 131072 EU/t.
 
 # Quest.2777 - §lPower of the Sun at LuV Level
-#N gtnh.quest2777.name=§lPower of the Sun at LuV Level
-#N gtnh.quest2777.desc=The UV solar panel generates 524288 EU/t.
+gtnh.quest2777.name=§lPower of the Sun at LuV Level
+gtnh.quest2777.desc=The UV solar panel generates 524288 EU/t.
 
 # Quest.2778 - §lPower of the Sun 1x1 LuV
-#N gtnh.quest2778.name=§lPower of the Sun 1x1 LuV
-#N gtnh.quest2778.desc=This is the block version that doesn't need cleaning.
+gtnh.quest2778.name=§lPower of the Sun 1x1 LuV
+gtnh.quest2778.desc=This is the block version that doesn't need cleaning.
 
 # Quest.2779 - Pocket Plasma EV
-#N gtnh.quest2779.name=Pocket Plasma EV
-#N gtnh.quest2779.desc=Assuming you don't want to setup something crazy every time you move your miners, you'll need some kind of SB to power them. This is one of the good options. You can just teleport the fuel instead.%n%n§3You may note that the efficiency goes §oup§3 rather than down as it goes up in tiers. Enjoy this small comfort, the multis are still way better.
+gtnh.quest2779.name=Pocket Plasma EV
+gtnh.quest2779.desc=Assuming you don't want to setup something crazy every time you move your miners, you'll need some kind of SB to power them. This is one of the good options. You can just teleport the fuel instead.%n%n§3You may note that the efficiency goes §oup§3 rather than down as it goes up in tiers. Enjoy this small comfort, the multis are still way better.
 
 # Quest.2780 - Pocket Plasma IV
-#N gtnh.quest2780.name=Pocket Plasma IV
-#N gtnh.quest2780.desc=This is the IV version.
+gtnh.quest2780.name=Pocket Plasma IV
+gtnh.quest2780.desc=This is the IV version.
 
 # Quest.2781 - Pocket Plasma LuV
-#N gtnh.quest2781.name=Pocket Plasma LuV
-#N gtnh.quest2781.desc=This is the LuV version.
+gtnh.quest2781.name=Pocket Plasma LuV
+gtnh.quest2781.desc=This is the LuV version.
 
 # Quest.2782 - Pocket Plasma ZPM
-#N gtnh.quest2782.name=Pocket Plasma ZPM
-#N gtnh.quest2782.desc=This is the ZPM version.
+gtnh.quest2782.name=Pocket Plasma ZPM
+gtnh.quest2782.desc=This is the ZPM version.
 
 # Quest.2783 - Pocket Plasma UV
-#N gtnh.quest2783.name=Pocket Plasma UV
-#N gtnh.quest2783.desc=This is the UV version.
+gtnh.quest2783.name=Pocket Plasma UV
+gtnh.quest2783.desc=This is the UV version.
 
 # Quest.2784 - §a§lRocket Engine IV
-#N gtnh.quest2784.name=§a§lRocket Engine IV
-#N gtnh.quest2784.desc=This is the IV version. It has 70% efficiency, and produces 500 to 4000 pollution/s.
+gtnh.quest2784.name=§a§lRocket Engine IV
+gtnh.quest2784.desc=This is the IV version. It has 70% efficiency, and produces 500 to 4000 pollution/s.
 
 # Quest.2785 - §a§lRocket Engine LuV
-#N gtnh.quest2785.name=§a§lRocket Engine LuV
-#N gtnh.quest2785.desc=This is the LuV version. It has 60% efficiency, and produces 750 to 6000 pollution/s.
+gtnh.quest2785.name=§a§lRocket Engine LuV
+gtnh.quest2785.desc=This is the LuV version. It has 60% efficiency, and produces 750 to 6000 pollution/s.
 
 # Quest.2786 - How Many Forests Did You Cut Down to Power This?
-#N gtnh.quest2786.name=How Many Forests Did You Cut Down to Power This?
-#N gtnh.quest2786.desc=Keep it up with the Benzene! Maybe make a Pyro? Or think about §oNitro§rbenzene.
+gtnh.quest2786.name=How Many Forests Did You Cut Down to Power This?
+gtnh.quest2786.desc=Keep it up with the Benzene! Maybe make a Pyro? Or think about §oNitro§rbenzene.
 
 # Quest.2787 - Even Better Diesel
-#N gtnh.quest2787.name=Even Better Diesel
-#N gtnh.quest2787.desc=You can make Cetane-Boosted Diesel now. Unfortunately, HOG is down another route, so you can't make Cetane into it later.
+gtnh.quest2787.name=Even Better Diesel
+gtnh.quest2787.desc=You can make Cetane-Boosted Diesel now. Unfortunately, HOG is down another route, so you can't make Cetane into it later.
 
 # Quest.2788 - Putting the 'Semi' Back Into Generators LV
-#N gtnh.quest2788.name=Putting the 'Semi' Back Into Generators LV
-#N gtnh.quest2788.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§3BTW, there's ULV versions of the Steam, Gas, and Combustion Gens, but they're totally pointless.
+gtnh.quest2788.name=Putting the 'Semi' Back Into Generators LV
+gtnh.quest2788.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§3BTW, there's ULV versions of the Steam, Gas, and Combustion Gens, but they're totally pointless.
 
 # Quest.2789 - Putting the 'Semi' Back Into Generators MV
-#N gtnh.quest2789.name=Putting the 'Semi' Back Into Generators MV
-#N gtnh.quest2789.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.
+gtnh.quest2789.name=Putting the 'Semi' Back Into Generators MV
+gtnh.quest2789.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.
 
 # Quest.2790 - Putting the 'Semi' Back Into Generators HV
-#N gtnh.quest2790.name=Putting the 'Semi' Back Into Generators HV
-#N gtnh.quest2790.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.
+gtnh.quest2790.name=Putting the 'Semi' Back Into Generators HV
+gtnh.quest2790.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.
 
 # Quest.2791 - You Haven't Learned How to Separate Fluids Yet? Seriously?
-#N gtnh.quest2791.name=You Haven't Learned How to Separate Fluids Yet? Seriously?
-#N gtnh.quest2791.desc=This seems suspiciously like another MB I know? §oProbably§r just my imagination.
+gtnh.quest2791.name=You Haven't Learned How to Separate Fluids Yet? Seriously?
+gtnh.quest2791.desc=This seems suspiciously like another MB I know? §oProbably§r just my imagination.
 
 # Quest.2792 - Acid Trip
-#N gtnh.quest2792.name=Acid Trip
-#N gtnh.quest2792.desc=This is the HV version. Will people really use this?
+gtnh.quest2792.name=Acid Trip
+gtnh.quest2792.desc=This is the HV version. Will people really use this?
 
 # Quest.2793 - Hallucinogenics Not Included
-#N gtnh.quest2793.name=Hallucinogenics Not Included
-#N gtnh.quest2793.desc=This is the EV version. I hope you're not using this for primary power gen?
+gtnh.quest2793.name=Hallucinogenics Not Included
+gtnh.quest2793.desc=This is the EV version. I hope you're not using this for primary power gen?
 
 # Quest.2794 - Portable Clean Energy EV
-#N gtnh.quest2794.name=Portable Clean Energy EV
-#N gtnh.quest2794.desc=As long as you don't hold the fuel, that is. Very useful for your Mining rigs, the efficiency on these goes way up as they increase in tier. Though they require more Enriched Naquadah each tier (and Naquadria at ZPM).%n%n§3The fuel is radioactive, dummy.
+gtnh.quest2794.name=Portable Clean Energy EV
+gtnh.quest2794.desc=As long as you don't hold the fuel, that is. Very useful for your Mining rigs, the efficiency on these goes way up as they increase in tier. Though they require more Enriched Naquadah each tier (and Naquadria at ZPM).%n%n§3The fuel is radioactive, dummy.
 
 # Quest.2795 - Portable Clean Energy LuV
-#N gtnh.quest2795.name=Portable Clean Energy LuV
-#N gtnh.quest2795.desc=This is the LuV version.
+gtnh.quest2795.name=Portable Clean Energy LuV
+gtnh.quest2795.desc=This is the LuV version.
 
 # Quest.2796 - Portable Clean Energy ZPM
-#N gtnh.quest2796.name=Portable Clean Energy ZPM
-#N gtnh.quest2796.desc=This is the ZPM version. It uses Naquadria now.
+gtnh.quest2796.name=Portable Clean Energy ZPM
+gtnh.quest2796.desc=This is the ZPM version. It uses Naquadria now.
 
 # Quest.2797 - Portable Clean Energy UV
-#N gtnh.quest2797.name=Portable Clean Energy UV
-#N gtnh.quest2797.desc=This is the UV version.
+gtnh.quest2797.name=Portable Clean Energy UV
+gtnh.quest2797.desc=This is the UV version.
 
 # Quest.2798 - Geothermal Power EV
-#N gtnh.quest2798.name=Geothermal Power EV
-#N gtnh.quest2798.desc=Turns lava into power, at very inefficient rates. Also, seems to produce way more pollution than it says. They also require you to be 2 tiers above the output amount, so, yeah.%n%n§3Wasn't geothermal supposed to be environmentally friendly?
+gtnh.quest2798.name=Geothermal Power EV
+gtnh.quest2798.desc=Turns lava into power, at very inefficient rates. Also, seems to produce way more pollution than it says. They also require you to be 2 tiers above the output amount, so, yeah.%n%n§3Wasn't geothermal supposed to be environmentally friendly?
 
 # Quest.2799 - Geothermal Power IV
-#N gtnh.quest2799.name=Geothermal Power IV
-#N gtnh.quest2799.desc=The LuV version. Almost certainly produces more pollution than it says.
+gtnh.quest2799.name=Geothermal Power IV
+gtnh.quest2799.desc=The LuV version. Almost certainly produces more pollution than it says.
 
 # Quest.2800 - Geothermal Power LuV
-#N gtnh.quest2800.name=Geothermal Power LuV
-#N gtnh.quest2800.desc=This is the LuV version. Even if you use it with an Everburn Urn, would it even be useful?
+gtnh.quest2800.name=Geothermal Power LuV
+gtnh.quest2800.desc=This is the LuV version. Even if you use it with an Everburn Urn, would it even be useful?
 
 # Quest.2801 - Radioisotope Thermoelectric Generator
-#N gtnh.quest2801.name=Radioisotope Thermoelectric Generator
-#N gtnh.quest2801.desc=Runs forever on the fuel you give it. Puts out 1 EU/t, but doubles for each one added, up to 32 EU/t. Might be useful for a farm?
+gtnh.quest2801.name=Radioisotope Thermoelectric Generator
+gtnh.quest2801.desc=Runs forever on the fuel you give it. Puts out 1 EU/t, but doubles for each one added, up to 32 EU/t. Might be useful for a farm?
 
 # Quest.2802 - Radioisotope Thermoelectric Generator
-#N gtnh.quest2802.name=Radioisotope Thermoelectric Generator
-#N gtnh.quest2802.desc=Runs for a reaaaally long time. Outputs an amount based on the fuel pellet given.%n%n241Am: 16 EU, 69875 days%n90Sr: 30 EU, 62640 days%n238Pu: 64 EU, 42982 days%n210Po: 480 EU, 34560 days%n%nHonestly, it's super not worth it. Especially considering you need to make a Cyclotron to make the fuel. And it's not even guaranteed!
+gtnh.quest2802.name=Radioisotope Thermoelectric Generator
+gtnh.quest2802.desc=Runs for a reaaaally long time. Outputs an amount based on the fuel pellet given.%n%n241Am: 16 EU, 69875 days%n90Sr: 30 EU, 62640 days%n238Pu: 64 EU, 42982 days%n210Po: 480 EU, 34560 days%n%nHonestly, it's super not worth it. Especially considering you need to make a Cyclotron to make the fuel. And it's not even guaranteed!
 
 # Quest.2803 - §9§lKinetic Power EV
-#N gtnh.quest2803.name=§9§lKinetic Power EV
-#N gtnh.quest2803.desc=This is the EV version, it works the same.
+gtnh.quest2803.name=§9§lKinetic Power EV
+gtnh.quest2803.desc=This is the EV version, it works the same.
 
 # Quest.2804 - §9§lKinetic Power IV
-#N gtnh.quest2804.name=§9§lKinetic Power IV
-#N gtnh.quest2804.desc=This is the IV version.
+gtnh.quest2804.name=§9§lKinetic Power IV
+gtnh.quest2804.desc=This is the IV version.
 
 # Quest.2805 - §9§lKinetic Power LuV
-#N gtnh.quest2805.name=§9§lKinetic Power LuV
-#N gtnh.quest2805.desc=This is the LuV version.
+gtnh.quest2805.name=§9§lKinetic Power LuV
+gtnh.quest2805.desc=This is the LuV version.
 
 # Quest.2806 - §9§lKinetic Power ZPM
-#N gtnh.quest2806.name=§9§lKinetic Power ZPM
-#N gtnh.quest2806.desc=This is the ZPM version.
+gtnh.quest2806.name=§9§lKinetic Power ZPM
+gtnh.quest2806.desc=This is the ZPM version.
 
 # Quest.2807 - §9§lKinetic Water Power EV
-#N gtnh.quest2807.name=§9§lKinetic Water Power EV
-#N gtnh.quest2807.desc=This is the EV version, it works the same.
+gtnh.quest2807.name=§9§lKinetic Water Power EV
+gtnh.quest2807.desc=This is the EV version, it works the same.
 
 # Quest.2808 - §9§lKinetic Wind Power EV
-#N gtnh.quest2808.name=§9§lKinetic Wind Power EV
-#N gtnh.quest2808.desc=This is the EV version, it works the same.
+gtnh.quest2808.name=§9§lKinetic Wind Power EV
+gtnh.quest2808.desc=This is the EV version, it works the same.
 
 # Quest.2809 - §9§lKinetic Water Power IV
-#N gtnh.quest2809.name=§9§lKinetic Water Power IV
-#N gtnh.quest2809.desc=This is the IV version.
+gtnh.quest2809.name=§9§lKinetic Water Power IV
+gtnh.quest2809.desc=This is the IV version.
 
 # Quest.2810 - §9§lKinetic Wind Power IV
-#N gtnh.quest2810.name=§9§lKinetic Wind Power IV
-#N gtnh.quest2810.desc=This is the IV version.
+gtnh.quest2810.name=§9§lKinetic Wind Power IV
+gtnh.quest2810.desc=This is the IV version.
 
 # Quest.2811 - §9§lKinetic Water Power LuV
-#N gtnh.quest2811.name=§9§lKinetic Water Power LuV
-#N gtnh.quest2811.desc=This is the LuV version.
+gtnh.quest2811.name=§9§lKinetic Water Power LuV
+gtnh.quest2811.desc=This is the LuV version.
 
 # Quest.2812 - §9§lKinetic Wind Power LuV
-#N gtnh.quest2812.name=§9§lKinetic Wind Power LuV
-#N gtnh.quest2812.desc=This is the LuV version.
+gtnh.quest2812.name=§9§lKinetic Wind Power LuV
+gtnh.quest2812.desc=This is the LuV version.
 
 # Quest.2813 - §9§lKinetic Water Power ZPM
-#N gtnh.quest2813.name=§9§lKinetic Water Power ZPM
-#N gtnh.quest2813.desc=This is the ZPM version.
+gtnh.quest2813.name=§9§lKinetic Water Power ZPM
+gtnh.quest2813.desc=This is the ZPM version.
 
 # Quest.2814 - §9§lKinetic Wind Power ZPM
-#N gtnh.quest2814.name=§9§lKinetic Wind Power ZPM
-#N gtnh.quest2814.desc=This is the ZPM version.
+gtnh.quest2814.name=§9§lKinetic Wind Power ZPM
+gtnh.quest2814.desc=This is the ZPM version.
 
 # Quest.2815 - Quadruple Compressed Solar
-#N gtnh.quest2815.name=Quadruple Compressed Solar
-#N gtnh.quest2815.desc=Puts out 10000-32768 EU/t.
+gtnh.quest2815.name=Quadruple Compressed Solar
+gtnh.quest2815.desc=Puts out 10000-32768 EU/t.
 
 # Quest.2816 - Quintuple Compressed Solar
-#N gtnh.quest2816.name=Quintuple Compressed Solar
-#N gtnh.quest2816.desc=Puts out 100,000-131,072 EU/t.
+gtnh.quest2816.name=Quintuple Compressed Solar
+gtnh.quest2816.desc=Puts out 100,000-131,072 EU/t.
 
 # Quest.2817 - Sextuple Compressed Solar
-#N gtnh.quest2817.name=Sextuple Compressed Solar
-#N gtnh.quest2817.desc=Puts out 1,000,000-2,097,152 EU/t.
+gtnh.quest2817.name=Sextuple Compressed Solar
+gtnh.quest2817.desc=Puts out 1,000,000-2,097,152 EU/t.
 
 # Quest.2818 - Septuple Compressed Solar
-#N gtnh.quest2818.name=Septuple Compressed Solar
-#N gtnh.quest2818.desc=Puts out 10,000,000-33,554,432 EU/t.
+gtnh.quest2818.name=Septuple Compressed Solar
+gtnh.quest2818.desc=Puts out 10,000,000-33,554,432 EU/t.
 
 # Quest.2819 - Toss Your Magic Junk in Here LV
-#N gtnh.quest2819.name=Toss Your Magic Junk in Here LV
-#N gtnh.quest2819.desc=And recieve power in return. Especially good with Nether Stars if you've got a bunch. Or practically any magic material item (not crafted stuff mostly).
+gtnh.quest2819.name=Toss Your Magic Junk in Here LV
+gtnh.quest2819.desc=And recieve power in return. Especially good with Nether Stars if you've got a bunch. Or practically any magic material item (not crafted stuff mostly).
 
 # Quest.2820 - Toss Your Magic Junk in Here MV
-#N gtnh.quest2820.name=Toss Your Magic Junk in Here MV
-#N gtnh.quest2820.desc=The MV version.
+gtnh.quest2820.name=Toss Your Magic Junk in Here MV
+gtnh.quest2820.desc=The MV version.
 
 # Quest.2821 - Toss Your Magic Junk in Here HV
-#N gtnh.quest2821.name=Toss Your Magic Junk in Here HV
-#N gtnh.quest2821.desc=The HV Version.
+gtnh.quest2821.name=Toss Your Magic Junk in Here HV
+gtnh.quest2821.desc=The HV Version.
 
 # Quest.2822 - Absorbing Magic Energy to Produce EU HV
-#N gtnh.quest2822.name=Absorbing Magic Energy to Produce EU HV
-#N gtnh.quest2822.desc=The HV Version.
+gtnh.quest2822.name=Absorbing Magic Energy to Produce EU HV
+gtnh.quest2822.desc=The HV Version.
 
 # Quest.2823 - Absorbing Magic Energy to Produce EU MV
-#N gtnh.quest2823.name=Absorbing Magic Energy to Produce EU MV
-#N gtnh.quest2823.desc=The MV version.
+gtnh.quest2823.name=Absorbing Magic Energy to Produce EU MV
+gtnh.quest2823.desc=The MV version.
 
 # Quest.2824 - Absorbing Magic Energy to Produce EU LV
-#N gtnh.quest2824.name=Absorbing Magic Energy to Produce EU LV
-#N gtnh.quest2824.desc=These produce power by absorbing magic energy from nodes, dragon eggs, etc.
+gtnh.quest2824.name=Absorbing Magic Energy to Produce EU LV
+gtnh.quest2824.desc=These produce power by absorbing magic energy from nodes, dragon eggs, etc.
 
 # Quest.2825 - Absorbing Magic Energy to Produce EU HV
-#N gtnh.quest2825.name=Absorbing Magic Energy to Produce EU HV
-#N gtnh.quest2825.desc=The EV Version.
+gtnh.quest2825.name=Absorbing Magic Energy to Produce EU HV
+gtnh.quest2825.desc=The EV Version.
 
 # Quest.2826 - Solid-Oxide Fuel Cell Mk II
-#N gtnh.quest2826.name=Solid-Oxide Fuel Cell Mk II
-#N gtnh.quest2826.desc=It's the same as the previous, but more/better. It takes less time to heat up, but it chews through fuel pretty fast too. It still isn't as good as an LGT for power produced over time, but it can produce power faster. As long as you use it with the HP Steam Turbine.%n%nIt can produce 1A+ of LuV if you set it up right.
+gtnh.quest2826.name=Solid-Oxide Fuel Cell Mk II
+gtnh.quest2826.desc=It's the same as the previous, but more/better. It takes less time to heat up, but it chews through fuel pretty fast too. It still isn't as good as an LGT for power produced over time, but it can produce power faster. As long as you use it with the HP Steam Turbine.%n%nIt can produce 1A+ of LuV if you set it up right.
 
 # Quest.2827 - Solid-Oxide Fuel Cell Mk I
-#N gtnh.quest2827.name=Solid-Oxide Fuel Cell Mk I
-#N gtnh.quest2827.desc=It uses Gas fuels to produce power and steam. It produces steam only once heated up, but make sure you have a turbine to utilize it to actually get the power out of it. It's not as good as an LGT, especially since it requires Oxygen, but it does produce less pollution if you care about that.
+gtnh.quest2827.name=Solid-Oxide Fuel Cell Mk I
+gtnh.quest2827.desc=It uses Gas fuels to produce power and steam. It produces steam only once heated up, but make sure you have a turbine to utilize it to actually get the power out of it. It's not as good as an LGT, especially since it requires Oxygen, but it does produce less pollution if you care about that.
 
 # Quest.2828 - It's 'Super' Heated Steam
-#N gtnh.quest2828.name=It's 'Super' Heated Steam
-#N gtnh.quest2828.desc=So that means it produces §otwice§r as much power! You can get this steam through the LHE or the SOFC Mk II. It gets converted to normal steam as the output at a 1:1 ratio, so make sure to have a non-HP one to take advantage of that.
+gtnh.quest2828.name=It's 'Super' Heated Steam
+gtnh.quest2828.desc=So that means it produces §otwice§r as much power! You can get this steam through the LHE or the SOFC Mk II. It gets converted to normal steam as the output at a 1:1 ratio, so make sure to have a non-HP one to take advantage of that.
 
 # Quest.2829 - Fluid Nukes
-#N gtnh.quest2829.name=Fluid Nukes
-#N gtnh.quest2829.desc=Also, Vac Nukes and Wrench reactors (lol), are more advanced versions of the normal one.%n%nFluid means you build it differently (with the parts on the right, it's a 5x5 cube surrounding the normal one), with the goal of producing as much hot coolant (cycle in non-hot) as possible, to use that to produce power. It doesn't produce power on it's own, but more overall. Send it to the LHE to get SH steam out of it, then go through a HP steam turbine, then a normal steam turbine.%n%nVac nukes just refer to using a vacuum freezer to restore the Helium/NaK cells' durability. You can do this instead of making it heat neutral or lossy with Heat Vents and such, but one mistake and KA-BOOM!%n%nWrench reactors are when you fill the reacor with fuel rods, turn it on, and wrench it to reset it's heat state before it explodes. If you can automate it, you deserve a medal!%n%nIf you still don't know what a MOX one is, it produces more power the higher the temperature, so you try to keep it heat neutral, and as hot as possible. Of course, this can cause things nearby to, well, §omelt.§r Naquadria fuel cells work the same way. You can also get more Plutonium out of MOX than Uranium.%n%nA breeder reactor is when you setup a reactor to get an item out of it rather than power, like Lutetium from Thorium, Plutonium from MOX, etc. Look at the depleted x fuel rod list in NEI to see more.%n%n§3Since Fluid Nukes are liable to explode if you run out of coolant, make sure you setup a cutoff tied to the temperature with redstone.
+gtnh.quest2829.name=Fluid Nukes
+gtnh.quest2829.desc=Also, Vac Nukes and Wrench reactors (lol), are more advanced versions of the normal one.%n%nFluid means you build it differently (with the parts on the right, it's a 5x5 cube surrounding the normal one), with the goal of producing as much hot coolant (cycle in non-hot) as possible, to use that to produce power. It doesn't produce power on it's own, but more overall. Send it to the LHE to get SH steam out of it, then go through a HP steam turbine, then a normal steam turbine.%n%nVac nukes just refer to using a vacuum freezer to restore the Helium/NaK cells' durability. You can do this instead of making it heat neutral or lossy with Heat Vents and such, but one mistake and KA-BOOM!%n%nWrench reactors are when you fill the reacor with fuel rods, turn it on, and wrench it to reset it's heat state before it explodes. If you can automate it, you deserve a medal!%n%nIf you still don't know what a MOX one is, it produces more power the higher the temperature, so you try to keep it heat neutral, and as hot as possible. Of course, this can cause things nearby to, well, §omelt.§r Naquadria fuel cells work the same way. You can also get more Plutonium out of MOX than Uranium.%n%nA breeder reactor is when you setup a reactor to get an item out of it rather than power, like Lutetium from Thorium, Plutonium from MOX, etc. Look at the depleted x fuel rod list in NEI to see more.%n%n§3Since Fluid Nukes are liable to explode if you run out of coolant, make sure you setup a cutoff tied to the temperature with redstone.
 
 ##################################Line##################################
 
@@ -11733,8 +11733,8 @@ gtnh.line8.name=第7阶-剧差压(32768 LuV)
 gtnh.line8.desc=你已经走了这么远了,你应该昂首挺胸地继续向前,因为你已经开始进入游戏的中期.虽然离毕业仍有一段很长的路要走,但你现在算是一个GTNH专家了,别的大部分mod你都已经精通.恭喜你,为你的大*能量(Big Dick Energy)而骄傲吧.
 
 # QuestLine.9 - How to Generate Power
-#N gtnh.line9.name=How to Generate Power
-#N gtnh.line9.desc=If there's a way to generate EU, it'll be on this tab, so check back after a new milestone to see if anything became available.
+gtnh.line9.name=How to Generate Power
+gtnh.line9.desc=If there's a way to generate EU, it'll be on this tab, so check back after a new milestone to see if anything became available.
 
 # QuestLine.10 - Fishing Farming Cooking
 gtnh.line10.name=捕鱼,农业,烹饪
