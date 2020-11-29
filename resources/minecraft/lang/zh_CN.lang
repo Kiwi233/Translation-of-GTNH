@@ -2134,7 +2134,7 @@ gtnh.quest532.desc=你可能已经收集了大量的木榴油,甚至已经建好
 
 # Quest.533 - §4§5§lHydrogen, methane or some farts... (Natural gas) 
 gtnh.quest533.name=§4§5§l氢气、甲烷或者一些屁(天然气)
-gtnh.quest533.desc=在日常生产中你可能会剩下一些氢气或者甲烷. 比如说在离心机中离心棕褐铁或者黄褐铁可以得到氢气,把你吃剩下的食物扔进离心机可以获得甲烷.当然离心橡胶树原木可以获得60MB的甲烷. 也许你应该尝试制作一座橡胶树场了？您还可以将石油精炼成炼油气或石脑油燃烧.%n%n燃气涡轮相比于柴油发电机只产生一半的污染,但它们的燃料效率通常不高.使用何种能源完全取决于你自己.
+gtnh.quest533.desc=在日常生产中你可能会剩下一些氢气或者甲烷. 比如说在离心机中离心棕褐铁或者黄褐铁可以得到氢气,把你吃剩下的食物扔进离心机可以获得甲烷.当然离心橡胶树原木可以获得60MB的甲烷. 也许你应该尝试制作一座橡胶树场了？你还可以将石油精炼成炼油气或石脑油燃烧.%n%n燃气涡轮相比于柴油发电机只产生一半的污染,但它们的燃料效率通常不高.使用何种能源完全取决于你自己.
 
 # Quest.534 - §4§3§lPollution what....?
 gtnh.quest534.name=§4§3§l什么？污染！
@@ -2874,23 +2874,15 @@ gtnh.quest717.desc=进阶电子电路是基础电子电路的改良版.它是所
 
 # Quest.718 - §2§lMoron's Manual to Fecund Farms
 gtnh.quest718.name=§2§l农场"智者"手册
-#B gtnh.quest718.desc=If you ever wanted to know how crop breeding works you are in the right place. Get some crops (the sticks) and some seeds from farming with a hoe or mattock. You can also place some plants and berries directly on crop sticks. Good plants to start with are flowers, wheat, cactus and sugarcane. %n%nMake a plot of farmland with your tool and place water in the middle. For now, make 3x1 plots, separated by a row of dirt or cobble. You want to be able to see the center of each column of 3x1 plots all at once, like this:%nFFFdddFFF%ndddFFFddd%nFFFdddFFF%ndddFFFddd%nFFFdWdFFF%ndddFFFddd%nFFFdddFFF%ndddFFFddd %nFFFdddFFF%nNow place crop sticks in each end of the 3x1 plot. Then place the seeds on the sticks and wait a bit.%n%nWhen they are almost fully grown you can put double crop sticks in the center spots by using crop sticks on already placed crop sticks. This center area can now grow new crops, even new species.%n%nWith some luck you might get a new unknown seed which can be scanned later.%n%nWeeds need to be removed with a trowel  or spade otherwise your field will become overgrown by them.%n%nUsing 3x1 plots is easy and not much work.  Check them every 5-10 minutes to remove weeds and gather new seeds. If you forget, you only lose one or two seeds. %n%nIf you find a really nice seed, you can do 3x3 or 5x5 plots with the nice seed in the middle and others next to it for crossing. But this requires more babysitting since weeds could destroy the whole field.%n%nDon't leave new crops in these intensive fields. Pull them out and hopefully get a seedbag. Put low stat seeds in production fields that don't require babysitting. Keep the high stat seeds for more crossing. %n%nCrossing happens when 2 or more almost mature crops are next to a double cropstick. There is a 90 percent change of getting the same species as the parents. The rest of the time will be a mutation. More details in the IC2 cropnalyzer quest.
-#A gtnh.quest718.desc=If you ever wanted to know how crop breeding works you are in the right place. Get some crops (the sticks) and some seeds from farming with a hoe or mattock. You can also place some plants and berries directly on crop sticks. Good plants to start with are flowers, wheat, cactus and sugarcane. %n%nMake a plot of farmland with your tool and place water in the middle. For now, make 3x1 plots, separated by a row of dirt or cobble. You want to be able to see the center of each column of 3x1 plots all at once, like this:%nFFFdddFFF%ndddFFFddd%nFFFdddFFF%ndddFFFddd%nFFFdWdFFF%ndddFFFddd%nFFFdddFFF%ndddFFFddd %nFFFdddFFF%nNow place crop sticks in each end of the 3x1 plot. Then place the seeds on the sticks and wait a bit.%n%nWhen they are almost fully grown you can put double crop sticks in the center spots by using crop sticks on already placed crop sticks. This center area can now grow new crops, even new species.%n%nWith some luck you might get a new unknown seed which can be scanned later.%n%nWeeds need to be removed with a trowel or spade otherwise your field will become overgrown by them.%n%nUsing 3x1 plots is easy and not much work.  Check them every 5-10 minutes to remove weeds and gather new seeds. If you forget, you only lose one or two seeds. %n%nIf you find a really nice seed, you can do 3x3 or 5x5 plots with the nice seed in the middle and others next to it for crossing. But this requires more babysitting since weeds could destroy the whole field.%n%nNote that the more crops next to the double crop stick the faster new plants will show up, up to 4 obviously. This is also the way to get new versions of the same plant, you can't do it with just one parent like Agricraft.%n%nDon't leave new crops in these intensive fields. Pull them out and hopefully get a seedbag. Put low stat seeds in production fields that don't require babysitting. Keep the high stat seeds for more crossing. %n%nCrossing happens when 2 or more almost mature crops are next to a double cropstick. There is a high chance of getting the same species as the parents. The rest of the time will be a mutation. More details in the IC2 cropnalyzer quest.
-#C gtnh.quest718.desc=如果你想知道如何种植作物,你看这页就对了！拿起锄头和鹤嘴锄取得一些作物(或作物架)和种子.你也可以把一些植物和浆果直接放在作物架上.最好的初始植物是花、小麦、仙人掌和甘蔗.  接着使用你的工具耕块田,确保这块田面积够大并且光线充足,并在田中央放上水源. 建议开垦许多3x1大小的田且相互之间隔离,如下所示: 田田田土土土田田田 土土土田田田土土土 田田田土土土田田田 土土土田田田土土土 田田田土水土田田田 土土土田田田土土土 田田田土土土田田田 土土土田田田土土土 田田田土土土田田田 土土土田田田土土土 现在将将作物架放在田的两端,接着放些种子到作物架上,然后等个一会.  等作物架上的作物完全成熟后,你可以试试利用双重作物架(杂交架)——在成熟作物旁的空作物架,再插上一次作物架. 如果你运气够好,你可以获得一些将来可以被扫描的新型未知种子. 记得,使用你的铲子把作物架上的杂草处理掉,否则它们会四处长满你的田地.  使用3x1大小的田可以降低你的工作量.每5-10分钟检查一次,清除杂草,收集新种子.即使你忘记了,你也只会损失一两颗种子.  如果你杂交出了某些稀有种子,你可以另外开辟3x3或5x5的田地,在稀有种子旁边放上三围较高的种子,杂交改良它的属性.但你得更加留心,因为这样一旦长杂草就可能会毁了你的整块育种田.  不要在这种育种田里留下新作物,若是杂交产生了新作物,左键作物架将其拔出,希望你足够幸运能获得种子袋.在3x1的种子生产田种植三围较低的作物(译者注:抗性过高会降低杂交几率,可以使用生长较快的作物自交培育出三围较高的作物(译者再注:不要无限提升作物的生长属性,当生长值大于等于24时,作物将获得类似杂草的属性,疯狂地使临近空作物架滋生杂草,相信我,这会是一场灾难.所以讲生长属性控制在21或以下,至于为什么,涉及到杂交机制问题,这里太小写不下,简而言之,两个21属性的作物杂交产生的新作物生长属性不会超过23.收获属性可以堆到最高31,至于抗性,我至今没发现它有啥用,该长杂草照样长.另外,高三围作物要求必须保持水分充沛,否则种下后会消失,并留下空的作物架,所以你需要一台作物监管机),如粘性甘蔗,然后将使用低三围作物杂交出的稀有种子与高三围作物杂交,改良稀有种子的属性).  当杂交架与两种或两种以上近乎成熟的作物相邻时,杂交就有可能发生(译者注:不推荐使用两种以上作物杂交,使用IC作物分析仪的作物计算器模式你就会发现,使用两种以上作物杂交出稀有作物的几率极低),你有90％的几率获得与父本母本相同的作物,余下个位数的几率,作物可能发生突变,产生新的作物.参考IC2作物分析仪任务获知更多细节.
+gtnh.quest718.desc=如果你想知道如何种植作物,你看这页就对了！拿起锄头和鹤嘴锄取得一些作物(或作物架)和种子.你也可以把一些植物和浆果直接放在作物架上.最好的初始植物是花、小麦、仙人掌和甘蔗.%n%n接着使用你的工具耕块田,确保这块田面积够大并且光线充足,并在田中央放上水源. 建议开垦许多3x1大小的田且相互之间隔离,如下所示:%n田田田土土土田田田%n土土土田田田土土土%n田田田土土土田田田%n土土土田田田土土土%n田田田土水土田田田%n土土土田田田土土土%n田田田土土土田田田%n土土土田田田土土土%n田田田土土土田田田%n土土土田田田土土土%n现在将将作物架放在田的两端,接着放些种子到作物架上,然后等个一会.%n%n等作物架上的作物完全成熟后,你可以试试利用双重作物架(杂交架)——在成熟作物旁的空作物架,再插上一次作物架.%n%n如果你运气够好,你可以获得一些将来可以被扫描的新型未知种子.%n%n记得,使用你的铲子把作物架上的杂草处理掉,否则它们会四处长满你的田地.%n%n使用3x1大小的田可以降低你的工作量.每5-10分钟检查一次,清除杂草,收集新种子.即使你忘记了,你也只会损失一两颗种子.%n%n如果你杂交出了某些稀有种子,你可以另外开辟3x3或5x5的田地,在稀有种子旁边放上三围较高的种子,杂交改良它的属性.但你得更加留心,因为这样一旦长杂草就可能会毁了你的整块育种田.%n%n请注意,杂交架边的作物越多,新作物就越容易长出来,显然作物数上限为4.同时这也是繁殖同种作物的方法,IC2不像农业工艺(Agricraft)只需通过剪枝即可快速繁殖.%n%n不要在这种育种田里留下新作物,若是杂交产生了新作物,左键作物架将其拔出,希望你足够幸运能获得种子袋.在3x1的种子生产田种植三围较低的作物%n译者注:抗性过高会降低杂交几率,可以使用生长较快的作物自交培育出三围较高的作物,如粘性甘蔗,然后将使用低三围作物杂交出的稀有种子与高三围作物杂交,改良稀有种子的属性.%n译者再注:不要无限提升作物的生长属性,当生长值大于等于24时,作物将获得类似杂草的属性,疯狂地使临近空作物架滋生杂草,相信我,这会是一场灾难.所以讲生长属性控制在21或以下,至于为什么,涉及到杂交机制问题,这里太小写不下,简而言之,两个21属性的作物杂交产生的新作物生长属性不会超过23.收获属性可以堆到最高31,至于抗性,我至今没发现它有啥用,该长杂草照样长.另外,高三围作物要求必须保持水分充沛,否则种下后会消失,并留下空的作物架,所以你需要一台作物监管机.%n%n当杂交架与两种或两种以上近乎成熟的作物相邻时,杂交就有可能发生%n译者三注:不推荐使用两种以上作物杂交,使用IC作物分析仪的作物计算器模式你就会发现,使用两种以上作物杂交出稀有作物的几率极低%n你有90％的几率获得与父本母本相同的作物,余下个位数的几率,作物可能发生突变,产生新的作物.参考IC2作物分析仪任务获知更多细节.
 
 # Quest.719 - First Breeding
 gtnh.quest719.name=初次杂交
-#B gtnh.quest719.desc=New plants have grown on your crop sticks. You can harvest the crop by right clicking it.%n%nLeft clicking with a seed bag will destroy the plant and replace it with the seedbag, so be careful. Collect 8 seeds of any kind.%n%nTo unlock the next quest, you will need the LV scanner.%n%nIf you haven't already, go back to Steam and build some Filing Cabinets. They make storing and moving large quantities of seeds a breeze. Plus they will properly sort the seeds based on name. To find a specific seed, type its name in the NEI search bar, and double click the bar so it highlights yellow.  Now you can look through the Filing Cabinet and find the exact seedbag you want.
-#A gtnh.quest719.desc=New plants have grown on your crop sticks. You can harvest the crop by right clicking it.%n%nLeft clicking with a seed bag will destroy the plant and replace it with the seedbag, so be careful. This is not guaranteed however, bu the chances rise as the maturity does. Collect 8 seeds of any kind to complete this quest.%n%nTo unlock the next quest, you will need the LV scanner.%n%nIf you haven't already, go back to Steam and build some Filing Cabinets. They make storing and moving large quantities of seeds a breeze. Plus they will properly sort the seeds based on name. To find a specific seed, type its name in the NEI search bar, and double click the bar so it highlights yellow.  Now you can look through the Filing Cabinet and find the exact seedbag you want.%n%nOr use double chests and toss the ones you don't want.
-#C gtnh.quest719.desc=你的作物架上已经种好了新的植物.对着作物架点击右键来收获作物,或者点击左键来取得一个种子袋,此动作会破坏植物(译者注:并不一定掉落一个种子袋,可能会掉落0-2个种子袋,检验血统的时刻到了!).收集好八种不限种类的种子.  想要解锁下一个任务,你需要一台LV扫描仪.  要是你以前没做过,回到蒸汽时代制作一些文档柜.它们可存储、携带大量同种物品,非常适合种子袋.另外,文档柜会将存储物按名称排序.想要找到特定的种子袋,将它的名字输入NEI搜索栏,然后双击搜索栏,使其黄色高亮.现在你就可以很容易地在文档柜中发现你要找的种子袋了.
+gtnh.quest719.desc=你的作物架上已经种好了新的植物.%n%n对着作物架点击右键来收获作物,或者点击左键来取得一个种子袋,此动作会破坏植物(译者注:并不一定掉落一个种子袋,可能会掉落0-2个种子袋,检验血统的时刻到了!).提示,随着作物成熟度的增加,掉落种子袋的几率增加(非酋福音).收集好八种不限种类的种子即可完成此任务.%n%n想要解锁下一个任务,你需要一台LV扫描仪.%n%n要是你以前没做过,回到蒸汽时代制作一些文档柜.它们可存储、携带大量同种物品,非常适合种子袋.另外,文档柜会将存储物按名称排序.想要找到特定的种子袋,将它的名字输入NEI搜索栏,然后双击搜索栏,使其黄色高亮.现在你就可以很容易地在文档柜中发现你要找的种子袋了.%n%n或者直接把不要的种子丢进箱子里.
 
 # Quest.720 - Weeds II
-#B gtnh.quest720.name=Weed II
-#A gtnh.quest720.name=Weeds II
-#C gtnh.quest720.name=杂草II
-#B gtnh.quest720.desc=Weeds, weeds, and more weeds. You get so many of them while cross breeding. %nNeed some  biogas cells for your power production in exchange? Or maybe some glowstone to light up your fields?
-#A gtnh.quest720.desc=Weeds, weeds, and more weeds. You get so many of them while cross breeding. %n%nNeed some biogas cells for your power production in exchange? Or maybe some glowstone to light up your fields?
-#C gtnh.quest720.desc=杂草,杂草,更多的杂草.当你在做作物交叉繁殖的时候,你收到了大量的杂草. 你的发电设备需要些生物质电源来换些电力？或许该拿些发光的东西照亮你的田地了.
+gtnh.quest720.name=杂草II
+gtnh.quest720.desc=杂草,杂草,更多的杂草.当你进行作物杂交育种时,获得了大量的杂草.%n%n你的发电设备需要些生物质来转化为电力？或许该拿些发光的东西照亮你的田地了.
 
 # Quest.721 - Unknown seeds no more
 gtnh.quest721.name=种子不再未知
@@ -2902,23 +2894,15 @@ gtnh.quest722.desc=为了加快生长过程,你可以使用些肥料.你会注�
 
 # Quest.723 - Potatos, Carrots, Pumpkins and Melons
 gtnh.quest723.name=马玲薯、胡萝卜、南瓜和西瓜.
-#B gtnh.quest723.desc=Your seeds have three different values: Growth, gain, and resistance (GGR).%n%nThe only way to change a crop's GGR without 3rd party tools is through cross breeding. When two plants cross-breed, the resulting plant will have a GGR score that is between both "parent" plants' GGR. Sometimes it will also be a little bit higher or lower. Thus, to obtain high GGR scores you must go through numerous generations of crossbreeding.%n%nThe highest score for GGR is 31.
-#A gtnh.quest723.desc=Your seeds have three different values: Growth, gain, and resistance (GGR).%n%nThe only way to change a crop's GGR without 3rd party tools (like NBTedit!) is through cross breeding. When two plants cross-breed, the resulting plant will have a GGR score that is between both "parent" plants' GGR. Sometimes it will also be a little bit higher or lower. Thus, to obtain high GGR scores you must go through numerous generations of crossbreeding.%n%nThe highest score for GGR is 31, while the lowest is 0.%n%n§3BTW, if you want to skip all this BS, the nbtedit command is /nbtedit me, click root in the upper left, then scroll down to inventory, and find the seedbag (empty your inventory first to make it easier) and click on the icons until you find the page with the stats. Once you've found the GGR stats, select one and click edit in the upper left, make sure to save.%n%n§4Remember that you can §5permanantly brick your character!§4 So make a backup first if you don't know what you're doing, or want to edit your actual character.§r%n%nOf course, you can't do any of this on a server.
-#C gtnh.quest723.desc=你的种子有三种不同的数值－－生长、收获、抗性(GGR). 在没有第三方工具的情况下,只能透过交叉繁殖配种来改变作物的GGR.两株植物交叉繁殖产生的作物的GGR值,会介在两株亲代GGR的中间.有时,它的值可能会高一点点或低一点点.因此,想要取得更高的GGR值,你必须历经数代的繁殖配种. GGR的最高数值是31.
+gtnh.quest723.desc=你的种子有三种不同的数值－－生长、产量、抗性(GGR).%n%n在没有第三方工具(比如NBT编辑器!)的情况下,只能透过交叉繁殖配种来改变作物的GGR.两株植物交叉繁殖产生的作物的GGR值,会介在两株亲代GGR的中间.有时,它的值可能会高一点点或低一点点.因此,想要取得更高的GGR值,你必须历经数代的繁殖配种.%n%nGGR的最高数值是31,而最低值为0.%n%n§3顺便一提,如果你想要跳过这些步骤,NBT编辑指令为/nbtedit me,点击左上角的'root',然后向下滚动到物品栏,再找到种子袋(先清空物品栏可以更容易找到),找到包含属性信息的页面并点击图标.找到GGR属性信息后,选择一项,然后单击左上角的"编辑",别忘了保存.%n%n§4记住你可能§5永久封锁你的玩家信息!§4所以在编辑你的实际玩家前请做好备份.§r%n%n当然,在服务器上别想这么干.
 
 # Quest.724 - Weeds
-#B gtnh.quest724.name=Weed
-#A gtnh.quest724.name=Weeds
-#C gtnh.quest724.name=杂草
-#B gtnh.quest724.desc=Weed will show up from time to time on your crop sticks. Be careful and harvest the weed with your weed trowel before the whole field becomes overgrown with them and they destroy all your plants. Later you can make some weed Ex to destroy it.
-#A gtnh.quest724.desc=Weeds will show up from time to time on empty or double crop sticks. They will spread from there an take over all your precious crops, so harvest the weed with your weed trowel before you start desiring to reload the last backup. Later you can make some weed-Ex to prevent them from appearing (until it runs out).
-#C gtnh.quest724.desc=杂草会不时地在你的作物架上生长.在整片田地被长满杂草,并摧毁了你的作物前,仔细注意并用你的耙子清除杂草.以后你可以制作除草剂来除草.
+gtnh.quest724.name=杂草
+gtnh.quest724.desc=杂草会不时地在你空的作物架/杂交架上生长.它们会在其上生长并蔓延,吞噬你珍贵的作物,所以请在你想要恢复到上一个备份前,仔细注意并用你的除草剪清除杂草.%n以后你可以制作除草剂来除草(除草剂用尽之前不会产生杂草).
 
 # Quest.725 - Flower Power
 gtnh.quest725.name=花的力量
-#B gtnh.quest725.desc=Growing dyes on crops sticks? Try to plant some flowers. If you cross breed Rose and Dandelion flowers you maybe get a new flower and new dyes with different colors.%n%nYou will need to plant 4 vanilla flowers to get them on a cropstick. They also don't plant unless they are in bright light.%n%nTo get "Rose Seeds" place poppies.
-#A gtnh.quest725.desc=Growing dyes on crops sticks? Try to plant some flowers. If you cross breed Rose and Dandelion flowers maybe you'll get a new flower and new dyes with different colors.%n%nYou will need to plant 4 vanilla flowers to get them on a cropstick. They also don't plant unless they are in bright light.%n%nTo get "Rose Seeds" place poppies. Honestly there's several flowers you can use, though.%n%n§3If you actually want these for dyes, go make the rainbow cactus instead.
-#C gtnh.quest725.desc=在作物架上种植染料？试着种一些花,如果你将玫瑰及蒲公英配种,可以得到一种新的花以及不同颜色的染料.%n%n你需要将4种原版花放置在作物架上种植.它们同样需要较高的亮度才能生长.%n%n想要获得"玫瑰种子",你需要将罂粟种植在作物架上.
+gtnh.quest725.desc=在作物架上种植染料？试着种一些花,如果你将玫瑰及蒲公英配种,可以得到一种新的花以及不同颜色的染料.%n%n你需要将4种原版花放置在作物架上种植.它们同样需要较高的亮度才能生长.%n%n想要获得"玫瑰种子",你需要将罂粟种植在作物架上.老实说,只有几种花可以用.%n%n§3如果你真的想要这些染料,请改用彩虹仙人掌.
 
 # Quest.726 - §5§lChemical rubber production
 gtnh.quest726.name=§5§l橡胶化学制程
@@ -2965,21 +2949,15 @@ gtnh.quest736.name=§6§l发酵生物质
 gtnh.quest736.desc=使用MV发酵槽,你可以制造发酵生物质.这是制作甲烷(methane)、乙醇(ethanol)和甲醇(methanol)的基础原料.当你达到HV阶段,使用蒸馏塔可以更有效率的处理它.
 
 # Quest.737 - Can u eat those?  (hidden)
-#B gtnh.quest737.name=Can u eat those? 
-#A gtnh.quest737.name=Can u eat those?  (hidden)
-#C gtnh.quest737.name=这能吃吗？
+gtnh.quest737.name=这能吃吗？(隐藏)
 gtnh.quest737.desc=不,这不能吃,但你可以将它们加入你的路由管道.没有这些芯片,路由管道没有任何用处.芯片有一个设定GUI可以使用右键开启. 共有八种芯片:物品抽取芯片,用于由容器中抽出物品,送往管道网络中.物品响应芯片、动态物品响应芯片、终端芯片和物品过载响应芯片. 物品响应芯片:会根据过滤(Filter)条件向网络中的抽取芯片送出物品请求,并将物品送至与之连接的容器.有较高的优先级的芯片,将优先获得物品.直到其容器满了,物品才会送至其他符合过滤(Filter)条件及有空间的容器. 动态物品响应芯片会根据容器中的物品,去对网络中的抽取芯片请求物品.这个芯片必须跟物品响应芯片放在同一个接口管道才能起作用.优先级规则在此也适用. 物品过载响应芯片的作用跟物品响应芯片完全一样.但它只接收多余的物品,也就是无法送往物品响应芯片、动态物品响应芯片,或物品终端芯片的物品. 物品终端芯片是物品响应芯片的备援.物品广播芯片会将其容器中的物品,显示到网络中的路由需求管道,你可以在路由需求管道选择要获取的物品.它们也可以被设定由哪一个方向抽取物品. 物品堆栈维护芯片将维持其容器中设定的物品数量,它会持续检查网络以取得缺少的物品.如果芯片设定为用完补充,它将只会在物品用完时补充. 物品合成芯片及物品合成扩展芯片用在物品合成管道中,记得要将ID随机数化.
 
 # Quest.738 - Routed Pipes (hidden)
-#B gtnh.quest738.name=Routed Pipes
-#A gtnh.quest738.name=Routed Pipes (hidden)
-#C gtnh.quest738.name=路由管道(Routed Pipes)
+gtnh.quest738.name=路由管道(Routed Pipes)(隐藏)
 gtnh.quest738.desc=共有六种路由管道:交错管道用于连接互相交叉的管道,使其他的路由管道可以沟通. 将接口管道接到容器上,使你可以抽取或送进物品,芯片可以控制其运作逻辑. 需求管道使你可以只请求指定的物品,并由管道网络送来. 防火墙管道可以控制哪些物品可以通过.
 
 # Quest.739 - Ghetto ME System (hidden)
-#B gtnh.quest739.name=Ghetto ME System
-#A gtnh.quest739.name=Ghetto ME System (hidden)
-#C gtnh.quest739.name=集中式存储系统(Ghetto Me System)
+gtnh.quest739.name=集中式存储系统(Ghetto Me System)(隐藏)
 gtnh.quest739.desc=现在你对这个模块很熟悉了,是时候将基地中的物品整顿一番了.以下是建立基础抽取/送入系统所需要的物品. 首先你需要一个抽屉管理器,你可以从奖励取得或者自己制作一个.将抽屉管理器摆放好,在其隔壁摆放任意数量的抽屉.确保它们都彼此相连. 下一步是将路由接口管道连接到抽屉管理器上.取出物品响应芯片,将其过滤(Filter)设为黑名单模式(*blacklisted)(这使你能从系统中取得所有物品).持芯片对路由接口管道点击右键,将之加入.也别忘了动态物品响应芯片.为了使你的系统能看到所有物品,你必须加入物品广播芯片*到连接抽屉管理器的路由接口管道. 最后一步是将一个路由需求管道连接到路由接口管道的网络,右键点击需求管道以存取GUI.你只能从此抽取物品.而存放物品只要单纯的对抽屉管理器点击右键. 你可以在youtube上找到更复杂的自动合成教学.
 
 # Quest.740 - §6§lExtrude all the things
@@ -3011,9 +2989,7 @@ gtnh.quest746.name=§6§l硅
 gtnh.quest746.desc=在生产芯片过程中硅是一种十分重要的原材料.你可以透过离心漂白土、石棉粉,或红石来得到硅(更简单的方法是电解粘土粉,可以获得大量的硅、铝、钠和锂,这四种材料在一段时间都很有用).你需要使用工业高炉来将硅粉制作成为硅锭. 制作硅锭需要工业高炉达到1687K的炉温,并且需要工业高炉拥有120EU/T的功率,若是使用生硅需要耗时84秒.而若是用二氧化硅和碳粉,就只需12秒！很多时候,在使用NEI时多翻几页,往往能找到更优选择.
 
 # Quest.747 - §5§lDiodes
-#B gtnh.quest747.name=§5§lDiode
-#A gtnh.quest747.name=§5§lDiodes
-#C gtnh.quest747.name=§5§l二极管
+gtnh.quest747.name=§5§l二极管
 #B gtnh.quest747.desc=Good circuits need diodes. There are two ways to craft them. Right now you have to use the Gallium Arsenide method with fine copper wires and molten glass. Later when you get an EBF you can use it to make silicon wafers to make even more. Once you have polyethylene you can use annealed copper wires to increase your output yet again. %n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find.
 #A gtnh.quest747.desc=Good circuits need diodes. There are two main ways to craft them. Right now you have to use the Gallium Arsenide method with fine copper wires and molten glass. Later when you get an EBF you can use it to make silicon wafers to make even more. Note that the wafers are way easier to get than gallium, so even a reduced amount is still worth it.%n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more. %n
 #C gtnh.quest747.desc=优质的电子电路板需要二极管.有两种方法可以制造它们.现在你只能用砷化镓处理细铜导线和熔融玻璃来获得二极管.稍后,当你拥有了工业高炉,你就能制作硅晶元,用它替代砷化镓可以实现增产.  一旦你有了聚乙烯,你就能用细退火铜导线替代细铜导线,实现再次增产.  老生常谈,时时检查NEI,不要一个合成表用一辈子.
@@ -5480,7 +5456,7 @@ gtnh.quest1334.desc=这台发电机相当棘手.它需要灵气源质,这并不�
 
 # Quest.1335 - Infused Solars
 gtnh.quest1335.name=注魔太阳能
-gtnh.quest1335.desc=压缩太阳能电池板可以注魔一些要素的附加功能.检查它们并选择其中一个.
+gtnh.quest1335.desc=压缩太阳能可通过注魔提高发电量.查看它们的tooltip,选择一种吧.
 
 # Quest.1336 - Double Compressed Solar
 gtnh.quest1336.name=双重压缩太阳能
@@ -5488,12 +5464,10 @@ gtnh.quest1336.desc=72个1EU的太阳能制造出100EU？听起来很不错.来�
 
 # Quest.1337 - Even more Infused
 gtnh.quest1337.name=更多压缩注魔
-gtnh.quest1337.desc=你可以注魔双重或三重压缩太阳能.
+gtnh.quest1337.desc=你可以注魔压缩太阳能,获得某种场合下更高的发电量.
 
 # Quest.1338 - Triple Compressed Solar
-#B gtnh.quest1338.name=Full power
-#A gtnh.quest1338.name=Triple Compressed Solar
-#C gtnh.quest1338.name=全功率
+gtnh.quest1338.name=三重压缩的太阳能
 gtnh.quest1338.desc=三重压缩的太阳能. 恩,那就对了. 它们相比双重压缩太阳能贵一点,共计需要576个太阳能. 但是它们可发电1000GT-EU,不需要清洗.怎么会这样？ 魔法大法好.
 
 # Quest.1339 - Essentia Generator: Ignis
@@ -8378,7 +8352,7 @@ gtnh.quest2028.desc=用多方块采矿场获得的数以千计的矿石可以交
 
 # Quest.2029 - Bask in the currents
 gtnh.quest2029.name=沐浴在电流中
-gtnh.quest2029.desc=成百上千玻璃的优秀来源?我不知道,想些有趣的事给我留下深刻印象!%n%n工业电弧炉的"有效"电压比能源仓要低一阶.举个例子,使用MV能源仓,机器可处理LV电弧炉的配方.%n%n这台机器还可以处理等离子电弧炉的配方.%n%n§3这台多方块机器可以在LuV阶段制造. 原料之一是钍232, 一方面用途不多, 另一方面制造起来还特别麻烦.%n%n译者注: 钍232算啥, 看看套娃能量核心! 不过做出来之后还是很香的.
+gtnh.quest2029.desc=成百上千玻璃的优秀来源?我不知道,想些有趣的事给我留下深刻印象!%n%n工业电弧炉的"有效"电压比能源仓要低一阶.举个例子,使用MV能源仓,机器可处理LV电弧炉的配方.%n%n这台机器还可以处理等离子电弧炉的配方.%n%n§3这台多方块机器可以在LuV阶段制造. 原料之一是钍-232, 一方面用途不多, 另一方面制造起来还特别麻烦.%n%n译者注: 钍-232算啥, 看看套娃能量核心! 不过做出来之后还是很香的.
 
 # Quest.2030 - Bate Bate Chocolate
 gtnh.quest2030.name=搅拌/搅拌/巧克力(爱探险的多拉)
@@ -8394,7 +8368,7 @@ gtnh.quest2032.desc=当你有了一台装满了小刀的机器, 你看啥都像�
 
 # Quest.2033 - A 9 in 1 machine, what a steal!
 gtnh.quest2033.name=九合一,这是作弊!
-gtnh.quest2033.desc=这台机器有3个模式,能够实现9种不太常用的机器功能.%n%n通过对控制器使用螺丝刀切换这三种模式.每个模式可以支持2-3种不同机器功能,通过输入总线中的电路板区分.如果你看过NEI中控制器的tooltip,你就会知道每种模式支持的机器类型.使用电路板20,21,22区分同种模式下的不同机器类型.这也意味着你可以使用多个输入总线,每个总线根据需要选择电路板,将这台机器的全部潜力开发出来.你还可以将配方中不消耗的物品放入不同输入总线中实现不同配方.%n%n译者注:非常适合激光蚀刻机.另外,如果使用多输入总线的话,一定要保证每个总线中都有电路板,否则机器不会运行...%n%n§3这台多方块机器可以在IV阶段制造, 但需要钍232还有一堆不便宜的电路板.
+gtnh.quest2033.desc=这台机器有3个模式,能够实现9种不太常用的机器功能.%n%n通过对控制器使用螺丝刀切换这三种模式.每个模式可以支持2-3种不同机器功能,通过输入总线中的电路板区分.如果你看过NEI中控制器的tooltip,你就会知道每种模式支持的机器类型.使用电路板20,21,22区分同种模式下的不同机器类型.这也意味着你可以使用多个输入总线,每个总线根据需要选择电路板,将这台机器的全部潜力开发出来.你还可以将配方中不消耗的物品放入不同输入总线中实现不同配方.%n%n译者注:非常适合激光蚀刻机.另外,如果使用多输入总线的话,一定要保证每个总线中都有电路板,否则机器不会运行...%n%n§3这台多方块机器可以在IV阶段制造, 但需要钍-232还有一堆不便宜的电路板.
 
 # Quest.2034 - ZzzZZZzzzZtt
 gtnh.quest2034.name=嗞...嗞...嗞...
@@ -10683,7 +10657,7 @@ gtnh.quest2586.name=上帝的蓄电池
 gtnh.quest2586.desc=有了这个容量超过600,000个能源站的电池, 谁还要能源站啊.
 
 # Quest.2587 - UV Solar
-gtnh.quest2587.name=UV太阳能
+gtnh.quest2587.name=太阳之力(UV)1x1
 gtnh.quest2587.desc=白天时产生1A的UV电. 如果你的基地所在维度是永昼的话那就太棒了(比如花园世界).
 
 # Quest.2588 - Well This Looks... Shiny?
@@ -10703,9 +10677,7 @@ gtnh.quest2591.name=上帝之上
 gtnh.quest2591.desc=容量并没有变大, 只是输入/输出更快. 把它填满作为你毕生的目标吧!
 
 # Quest.2592 - Anywhere, anytime (hidden)
-#B gtnh.quest2592.name=Anywhere, anytime
-#A gtnh.quest2592.name=Anywhere, anytime (hidden)
-#C gtnh.quest2592.name=随时, 随地
+gtnh.quest2592.name=随时, 随地(隐藏)
 gtnh.quest2592.desc=这个传送机可以将你传送至任意世界的任意坐标. 你需要付出的仅仅是氮等离子体和EU.
 
 # Quest.2593 - Welcome to hell
@@ -11440,235 +11412,235 @@ gtnh.quest2771.desc=如果想要多方块农场支持IC2作物,你就需要这�
 
 # Quest.2772 - BEGONE, LAG! Also, Bats
 gtnh.quest2772.name=延迟,延迟!还有,蝙蝠
-gtnh.quest2772.desc=在此,延迟=蝴蝶,因为连区块加载范围之外都会被它们堆满. Also, they're annoying since they convert regular trees into more forestry ones, one leaf block at a time. Which causes more of the buggers to spawn. Fortunately, the settings we use prevent too many from being present at once, but still, they're annoying.%n%nThe solution to this is to kill them. Also, the bats. Stupid Thaumcraft warp. Use the (clearly unfinished) Pest Killer to do so.%n%nNotes: Hydrogen Cyanide has no recipe. Formaldehyde requires the Chemical Plant of all things. It doesn't appear to use any of the Formaldehyde up though. The range is apparently 5x5 chunks, not blocks. It also only runs once every 30s or so?%n%n§3PS: If you experience problems using it (more than already mentioned), complain to Alkalus.
+gtnh.quest2772.desc=在此,延迟=蝴蝶,因为连区块加载范围之外都会被它们堆满.而且它们会将常规树木转换为更多的林业树木,每次转换一块叶子,非常烦人.这会导致更多的蝴蝶生成.幸好我们的默认设置不会让它们同时显示太多,但它们还是很烦人.%n%n最佳解决方式就是把它们屠杀一空.还有蝙蝠!愚蠢的神秘扭曲!害虫杀手(显然还没做好)可以消灭它们.%n%n注意:氢氰酸还没有合成.甲醛需要用到化工厂.但好像甲醛没啥用.范围显然是5x5区块而不是5x5格.约30秒运行一次?%n%n§3PS:如果使用过程中遇到了问题(而这里还没有提到),去找Alkalus的麻烦吧.
 
 # Quest.2773 - Purge...Some of Your Warp?
-gtnh.quest2773.name=Purge...Some of Your Warp?
-gtnh.quest2773.desc=They're a pain to make, and only work if you have 50+ warp, but if you're wondering if you have dementia from all the chest scrambling, they may be for you. Check the warp theory tab in the thaumonomicon for this and the related items.
+gtnh.quest2773.name=清除...你的部分扭曲?
+gtnh.quest2773.desc=这种制作起来很麻烦,且只在你拥有50+扭曲时才生效的玩意,不过要是你为箱子里到处乱动的物品而大感头痛的话,它还是有点用的.请查看魔导手册中"神秘扭曲学"章节,其中详细介绍了它及相关物品.
 
 # Quest.2774 - §lPower of the Sun at LuV Level
-gtnh.quest2774.name=§lPower of the Sun at LuV Level
-gtnh.quest2774.desc=The LuV solar panel generates 32768 EU/t.
+gtnh.quest2774.name=§l太阳之力(LuV)
+gtnh.quest2774.desc=LuV太阳能覆盖板发电量为32768EU/t.
 
 # Quest.2775 - §lPower of the Sun 1x1 LuV
-gtnh.quest2775.name=§lPower of the Sun 1x1 LuV
-gtnh.quest2775.desc=This is the block version that doesn't need cleaning.
+gtnh.quest2775.name=§l太阳之力(LuV)1x1
+gtnh.quest2775.desc=这是不需要清洁的方块版本.
 
 # Quest.2776 - §lPower of the Sun at ZPM Level
-gtnh.quest2776.name=§lPower of the Sun at ZPM Level
-gtnh.quest2776.desc=The ZPM solar panel generates 131072 EU/t.
+gtnh.quest2776.name=§l太阳之力(ZPM)
+gtnh.quest2776.desc=ZPM太阳能覆盖板发电量为131072EU/t.
 
 # Quest.2777 - §lPower of the Sun at LuV Level
-gtnh.quest2777.name=§lPower of the Sun at LuV Level
-gtnh.quest2777.desc=The UV solar panel generates 524288 EU/t.
+gtnh.quest2777.name=§l太阳之力(UV)
+gtnh.quest2777.desc=UV太阳能覆盖板发电量为524288EU/t.
 
 # Quest.2778 - §lPower of the Sun 1x1 LuV
-gtnh.quest2778.name=§lPower of the Sun 1x1 LuV
-gtnh.quest2778.desc=This is the block version that doesn't need cleaning.
+gtnh.quest2778.name=§l太阳之力(ZPM)1x1
+gtnh.quest2778.desc=这是不需要清洁的方块版本.
 
 # Quest.2779 - Pocket Plasma EV
-gtnh.quest2779.name=Pocket Plasma EV
-gtnh.quest2779.desc=Assuming you don't want to setup something crazy every time you move your miners, you'll need some kind of SB to power them. This is one of the good options. You can just teleport the fuel instead.%n%n§3You may note that the efficiency goes §oup§3 rather than down as it goes up in tiers. Enjoy this small comfort, the multis are still way better.
+gtnh.quest2779.name=口袋里的等离子(EV)
+gtnh.quest2779.desc=你不想每次搬动矿机的时候都要重新安装一大套配套设施,所以你需要某种简单易用的单方块发电机为其供能.等离子发电机是一个不错的选择.只需远程传送燃料即可.%n%n§3你可能注意到了,随着电压等级的提高,等离子发电机的燃料效率在§o提高§3,而不像其他发电机一样下降.享受这个小福利吧,虽说最高效的仍然是多方块机器:大型等离子涡轮.%n%n译者注:以后有了虚空采矿场,不用老是搬动,集中使用多方块等离子供能是个不错的主意.
 
 # Quest.2780 - Pocket Plasma IV
-gtnh.quest2780.name=Pocket Plasma IV
-gtnh.quest2780.desc=This is the IV version.
+gtnh.quest2780.name=口袋里的等离子(IV)
+gtnh.quest2780.desc=这是IV版本.
 
 # Quest.2781 - Pocket Plasma LuV
-gtnh.quest2781.name=Pocket Plasma LuV
-gtnh.quest2781.desc=This is the LuV version.
+gtnh.quest2781.name=口袋里的等离子(LuV)
+gtnh.quest2781.desc=这是LuV版本.
 
 # Quest.2782 - Pocket Plasma ZPM
-gtnh.quest2782.name=Pocket Plasma ZPM
-gtnh.quest2782.desc=This is the ZPM version.
+gtnh.quest2782.name=口袋里的等离子(ZPM)
+gtnh.quest2782.desc=这是ZPM版本.
 
 # Quest.2783 - Pocket Plasma UV
-gtnh.quest2783.name=Pocket Plasma UV
-gtnh.quest2783.desc=This is the UV version.
+gtnh.quest2783.name=口袋里的等离子(UV)
+gtnh.quest2783.desc=这是UV版本.
 
 # Quest.2784 - §a§lRocket Engine IV
-gtnh.quest2784.name=§a§lRocket Engine IV
-gtnh.quest2784.desc=This is the IV version. It has 70% efficiency, and produces 500 to 4000 pollution/s.
+gtnh.quest2784.name=§a§l火箭引擎(IV)
+gtnh.quest2784.desc=这是IV版本. 它的燃料效率为70％,同时每秒产生500到4000点污染.
 
 # Quest.2785 - §a§lRocket Engine LuV
-gtnh.quest2785.name=§a§lRocket Engine LuV
-gtnh.quest2785.desc=This is the LuV version. It has 60% efficiency, and produces 750 to 6000 pollution/s.
+gtnh.quest2785.name=§a§l火箭引擎(LuV)
+gtnh.quest2785.desc=这是LuV版本. 它的燃料效率为60％,同时每秒产生750到6000点污染.
 
 # Quest.2786 - How Many Forests Did You Cut Down to Power This?
-gtnh.quest2786.name=How Many Forests Did You Cut Down to Power This?
-gtnh.quest2786.desc=Keep it up with the Benzene! Maybe make a Pyro? Or think about §oNitro§rbenzene.
+gtnh.quest2786.name=为了供应它,你砍伐了多少森林?
+gtnh.quest2786.desc=让它烧苯吧!造个热解炉怎么样?或者考虑考虑§o硝基§r苯?
 
 # Quest.2787 - Even Better Diesel
-gtnh.quest2787.name=Even Better Diesel
-gtnh.quest2787.desc=You can make Cetane-Boosted Diesel now. Unfortunately, HOG is down another route, so you can't make Cetane into it later.
+gtnh.quest2787.name=更好的柴油
+gtnh.quest2787.desc=现在你可以制造高十六烷值柴油了!不过,高辛烷值汽油是另一条线,所以高十六烷值柴油线不好直接转而生产高辛烷值汽油.
 
 # Quest.2788 - Putting the 'Semi' Back Into Generators LV
-gtnh.quest2788.name=Putting the 'Semi' Back Into Generators LV
-gtnh.quest2788.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§3BTW, there's ULV versions of the Steam, Gas, and Combustion Gens, but they're totally pointless.
+gtnh.quest2788.name=把'半流质'塞回发电机里(LV)
+gtnh.quest2788.desc=从本质上来说,半流质是一种怪异的流体,通常不会产生太多能量.你大概会将其与石油、重燃油或者杂酚油混用.%n%n§3顺便说一句,蒸汽轮机、燃气轮机和柴油发电机都有ULV版本,但它们完全没有意义...
 
 # Quest.2789 - Putting the 'Semi' Back Into Generators MV
-gtnh.quest2789.name=Putting the 'Semi' Back Into Generators MV
-gtnh.quest2789.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.
+gtnh.quest2789.name=把'半流质'塞回发电机里(MV)
+gtnh.quest2789.desc=从本质上来说,半流质是一种怪异的流体,通常不会产生太多能量.你大概会将其与石油、重燃油或者杂酚油混用.
 
 # Quest.2790 - Putting the 'Semi' Back Into Generators HV
-gtnh.quest2790.name=Putting the 'Semi' Back Into Generators HV
-gtnh.quest2790.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.
+gtnh.quest2790.name=把'半流质'塞回发电机里(HV)
+gtnh.quest2790.desc=从本质上来说,半流质是一种怪异的流体,通常不会产生太多能量.你大概会将其与石油、重燃油或者杂酚油混用.
 
 # Quest.2791 - You Haven't Learned How to Separate Fluids Yet? Seriously?
-gtnh.quest2791.name=You Haven't Learned How to Separate Fluids Yet? Seriously?
-gtnh.quest2791.desc=This seems suspiciously like another MB I know? §oProbably§r just my imagination.
+gtnh.quest2791.name=你还没有学会分离流体?真的么?
+gtnh.quest2791.desc=这玩意看起来像是另一个MB? §o大概§r只是我的想像吧.
 
 # Quest.2792 - Acid Trip
-gtnh.quest2792.name=Acid Trip
-gtnh.quest2792.desc=This is the HV version. Will people really use this?
+gtnh.quest2792.name=酸之旅
+gtnh.quest2792.desc=这是HV版本.为什么人类真的会用到这?
 
 # Quest.2793 - Hallucinogenics Not Included
-gtnh.quest2793.name=Hallucinogenics Not Included
-gtnh.quest2793.desc=This is the EV version. I hope you're not using this for primary power gen?
+gtnh.quest2793.name=不含致幻剂
+gtnh.quest2793.desc=这是EV版本.我希望你没有将其当做主力发电机...
 
 # Quest.2794 - Portable Clean Energy EV
-gtnh.quest2794.name=Portable Clean Energy EV
-gtnh.quest2794.desc=As long as you don't hold the fuel, that is. Very useful for your Mining rigs, the efficiency on these goes way up as they increase in tier. Though they require more Enriched Naquadah each tier (and Naquadria at ZPM).%n%n§3The fuel is radioactive, dummy.
+gtnh.quest2794.name=便携式清洁能源(EV)
+gtnh.quest2794.desc=当你不手持燃料时,它的确是清洁能源.这种便携式能源对采矿场这类基地外机器相当有用,而它的燃料效率随电压等级的提升而提升. 不过每一级电压的提升就会要求更高浓度的硅岩(ZPM时要求超能硅岩).%n%n§3燃料具有放射性,该死.
 
 # Quest.2795 - Portable Clean Energy LuV
-gtnh.quest2795.name=Portable Clean Energy LuV
-gtnh.quest2795.desc=This is the LuV version.
+gtnh.quest2795.name=便携式清洁能源(LuV)
+gtnh.quest2795.desc=这是LuV版本.
 
 # Quest.2796 - Portable Clean Energy ZPM
-gtnh.quest2796.name=Portable Clean Energy ZPM
-gtnh.quest2796.desc=This is the ZPM version. It uses Naquadria now.
+gtnh.quest2796.name=便携式清洁能源(ZPM)
+gtnh.quest2796.desc=这是ZPM版本.它需要超能硅岩.
 
 # Quest.2797 - Portable Clean Energy UV
-gtnh.quest2797.name=Portable Clean Energy UV
-gtnh.quest2797.desc=This is the UV version.
+gtnh.quest2797.name=便携式清洁能源(UV)
+gtnh.quest2797.desc=这是UV版本.
 
 # Quest.2798 - Geothermal Power EV
-gtnh.quest2798.name=Geothermal Power EV
-gtnh.quest2798.desc=Turns lava into power, at very inefficient rates. Also, seems to produce way more pollution than it says. They also require you to be 2 tiers above the output amount, so, yeah.%n%n§3Wasn't geothermal supposed to be environmentally friendly?
+gtnh.quest2798.name=地热引擎(EV)
+gtnh.quest2798.desc=以相当低效的转化率,将岩浆转化为能量.另外,似乎产生的污染比它说的要多...而且相比于它的输出电压,制造它的材料还要高2个电压等级.以上.%n%n§3地热能不是应该对环境友好吗?
 
 # Quest.2799 - Geothermal Power IV
-gtnh.quest2799.name=Geothermal Power IV
-gtnh.quest2799.desc=The LuV version. Almost certainly produces more pollution than it says.
+gtnh.quest2799.name=地热引擎(IV)
+gtnh.quest2799.desc=这是IV版本.几乎可以肯定,产生的污染比它说的要多...
 
 # Quest.2800 - Geothermal Power LuV
-gtnh.quest2800.name=Geothermal Power LuV
-gtnh.quest2800.desc=This is the LuV version. Even if you use it with an Everburn Urn, would it even be useful?
+gtnh.quest2800.name=地热引擎(LuV)
+gtnh.quest2800.desc=这是LuV版本.就算配合炼狱之壶一起使用,但真的有用吗?
 
 # Quest.2801 - Radioisotope Thermoelectric Generator
-gtnh.quest2801.name=Radioisotope Thermoelectric Generator
-gtnh.quest2801.desc=Runs forever on the fuel you give it. Puts out 1 EU/t, but doubles for each one added, up to 32 EU/t. Might be useful for a farm?
+gtnh.quest2801.name=放射性同位素温差发电机
+gtnh.quest2801.desc=给它提供燃料,它就能一直工作到地老天荒.输出1EU/t,但每添加一枚靶丸就可以翻倍,最高32EU/t.可能对农场有用?
 
 # Quest.2802 - Radioisotope Thermoelectric Generator
-gtnh.quest2802.name=Radioisotope Thermoelectric Generator
-gtnh.quest2802.desc=Runs for a reaaaally long time. Outputs an amount based on the fuel pellet given.%n%n241Am: 16 EU, 69875 days%n90Sr: 30 EU, 62640 days%n238Pu: 64 EU, 42982 days%n210Po: 480 EU, 34560 days%n%nHonestly, it's super not worth it. Especially considering you need to make a Cyclotron to make the fuel. And it's not even guaranteed!
+gtnh.quest2802.name=放射性同位素温差发电机
+gtnh.quest2802.desc=可以运行相当相当长的时间.根据提供的靶丸输出能量.%n%n镅-241:16EU/t,69875天%n锶-90:30EU/t,62640天%n钚-238:64EU/t,42982天%n钋-210:480EU/t,34560天%n%n坦白来说,这玩意完全不值.特别是考虑到为了制造这些靶丸,还需要新修一台回旋加速器...甚至制造过程还要看脸!
 
 # Quest.2803 - §9§lKinetic Power EV
-gtnh.quest2803.name=§9§lKinetic Power EV
-gtnh.quest2803.desc=This is the EV version, it works the same.
+gtnh.quest2803.name=§9§l动能发电机(EV)
+gtnh.quest2803.desc=这是EV版本,其工作原理相同.
 
 # Quest.2804 - §9§lKinetic Power IV
-gtnh.quest2804.name=§9§lKinetic Power IV
-gtnh.quest2804.desc=This is the IV version.
+gtnh.quest2804.name=§9§l动能发电机(IV)
+gtnh.quest2804.desc=这是IV版本.
 
 # Quest.2805 - §9§lKinetic Power LuV
-gtnh.quest2805.name=§9§lKinetic Power LuV
-gtnh.quest2805.desc=This is the LuV version.
+gtnh.quest2805.name=§9§l动能发电机(LuV)
+gtnh.quest2805.desc=这是LuV版本.
 
 # Quest.2806 - §9§lKinetic Power ZPM
-gtnh.quest2806.name=§9§lKinetic Power ZPM
-gtnh.quest2806.desc=This is the ZPM version.
+gtnh.quest2806.name=§9§l动能发电机(ZPM)
+gtnh.quest2806.desc=这是ZPM版本.
 
 # Quest.2807 - §9§lKinetic Water Power EV
-gtnh.quest2807.name=§9§lKinetic Water Power EV
-gtnh.quest2807.desc=This is the EV version, it works the same.
+gtnh.quest2807.name=§9§l水力动能发生机(EV)
+gtnh.quest2807.desc=这是EV版本,其工作原理相同.
 
 # Quest.2808 - §9§lKinetic Wind Power EV
-gtnh.quest2808.name=§9§lKinetic Wind Power EV
-gtnh.quest2808.desc=This is the EV version, it works the same.
+gtnh.quest2808.name=§9§l风力动能发生机(EV)
+gtnh.quest2808.desc=这是EV版本,其工作原理相同.
 
 # Quest.2809 - §9§lKinetic Water Power IV
-gtnh.quest2809.name=§9§lKinetic Water Power IV
-gtnh.quest2809.desc=This is the IV version.
+gtnh.quest2809.name=§9§l水力动能发生机(IV)
+gtnh.quest2809.desc=这是IV版本.
 
 # Quest.2810 - §9§lKinetic Wind Power IV
-gtnh.quest2810.name=§9§lKinetic Wind Power IV
-gtnh.quest2810.desc=This is the IV version.
+gtnh.quest2810.name=§9§l风力动能发生机(IV)
+gtnh.quest2810.desc=这是IV版本.
 
 # Quest.2811 - §9§lKinetic Water Power LuV
-gtnh.quest2811.name=§9§lKinetic Water Power LuV
-gtnh.quest2811.desc=This is the LuV version.
+gtnh.quest2811.name=§9§l水力动能发生机(LuV)
+gtnh.quest2811.desc=这是LuV版本.
 
 # Quest.2812 - §9§lKinetic Wind Power LuV
-gtnh.quest2812.name=§9§lKinetic Wind Power LuV
-gtnh.quest2812.desc=This is the LuV version.
+gtnh.quest2812.name=§9§l风力动能发生机(LuV)
+gtnh.quest2812.desc=这是LuV版本.
 
 # Quest.2813 - §9§lKinetic Water Power ZPM
-gtnh.quest2813.name=§9§lKinetic Water Power ZPM
-gtnh.quest2813.desc=This is the ZPM version.
+gtnh.quest2813.name=§9§l水力动能发生机(ZPM)
+gtnh.quest2813.desc=这是ZPM版本.
 
 # Quest.2814 - §9§lKinetic Wind Power ZPM
-gtnh.quest2814.name=§9§lKinetic Wind Power ZPM
-gtnh.quest2814.desc=This is the ZPM version.
+gtnh.quest2814.name=§9§l风力动能发生机(ZPM)
+gtnh.quest2814.desc=这是ZPM版本.
 
 # Quest.2815 - Quadruple Compressed Solar
-gtnh.quest2815.name=Quadruple Compressed Solar
-gtnh.quest2815.desc=Puts out 10000-32768 EU/t.
+gtnh.quest2815.name=四重压缩太阳能(Quadruple Compressed Solar)
+gtnh.quest2815.desc=可输出10000-32768EU/t.
 
 # Quest.2816 - Quintuple Compressed Solar
-gtnh.quest2816.name=Quintuple Compressed Solar
-gtnh.quest2816.desc=Puts out 100,000-131,072 EU/t.
+gtnh.quest2816.name=五重压缩太阳能(Quintuple Compressed Solar)
+gtnh.quest2816.desc=可输出100,000-131,072EU/t.
 
 # Quest.2817 - Sextuple Compressed Solar
-gtnh.quest2817.name=Sextuple Compressed Solar
-gtnh.quest2817.desc=Puts out 1,000,000-2,097,152 EU/t.
+gtnh.quest2817.name=六重压缩太阳能(Sextuple Compressed Solar)
+gtnh.quest2817.desc=可输出1,000,000-2,097,152EU/t.
 
 # Quest.2818 - Septuple Compressed Solar
-gtnh.quest2818.name=Septuple Compressed Solar
-gtnh.quest2818.desc=Puts out 10,000,000-33,554,432 EU/t.
+gtnh.quest2818.name=七重压缩太阳能(Septuple Compressed Solar)
+gtnh.quest2818.desc=可输出10,000,000-33,554,432EU/t.
 
 # Quest.2819 - Toss Your Magic Junk in Here LV
-gtnh.quest2819.name=Toss Your Magic Junk in Here LV
-gtnh.quest2819.desc=And recieve power in return. Especially good with Nether Stars if you've got a bunch. Or practically any magic material item (not crafted stuff mostly).
+gtnh.quest2819.name=把你的魔法垃圾都扔到这里来(LV)
+gtnh.quest2819.desc=然后收获电力作为回馈.要是你的下界之星多到用不完,丢到这里头就是它最好的归宿了.这玩意可以吃掉几乎任何魔法材料(大部分非合成物品).
 
 # Quest.2820 - Toss Your Magic Junk in Here MV
-gtnh.quest2820.name=Toss Your Magic Junk in Here MV
-gtnh.quest2820.desc=The MV version.
+gtnh.quest2820.name=把你的魔法垃圾都扔到这里来(MV)
+gtnh.quest2820.desc=这是MV版本.
 
 # Quest.2821 - Toss Your Magic Junk in Here HV
-gtnh.quest2821.name=Toss Your Magic Junk in Here HV
-gtnh.quest2821.desc=The HV Version.
+gtnh.quest2821.name=把你的魔法垃圾都扔到这里来(HV)
+gtnh.quest2821.desc=这是HV版本.
 
 # Quest.2822 - Absorbing Magic Energy to Produce EU HV
-gtnh.quest2822.name=Absorbing Magic Energy to Produce EU HV
-gtnh.quest2822.desc=The HV Version.
+gtnh.quest2822.name=吸收魔法能源转化为EU(HV)
+gtnh.quest2822.desc=这是HV版本.
 
 # Quest.2823 - Absorbing Magic Energy to Produce EU MV
-gtnh.quest2823.name=Absorbing Magic Energy to Produce EU MV
-gtnh.quest2823.desc=The MV version.
+gtnh.quest2823.name=吸收魔法能源转化为EU(MV)
+gtnh.quest2823.desc=这是MV版本.
 
 # Quest.2824 - Absorbing Magic Energy to Produce EU LV
-gtnh.quest2824.name=Absorbing Magic Energy to Produce EU LV
-gtnh.quest2824.desc=These produce power by absorbing magic energy from nodes, dragon eggs, etc.
+gtnh.quest2824.name=吸收魔法能源转化为EU(LV)
+gtnh.quest2824.desc=它们通过吸收节点、龙蛋等的魔法能量来产生电力.%n%n译者注:爬行者蛋也可以哦.
 
 # Quest.2825 - Absorbing Magic Energy to Produce EU HV
-gtnh.quest2825.name=Absorbing Magic Energy to Produce EU HV
-gtnh.quest2825.desc=The EV Version.
+gtnh.quest2825.name=吸收魔法能源转化为EU(EV)
+gtnh.quest2825.desc=这是EV版本.
 
 # Quest.2826 - Solid-Oxide Fuel Cell Mk II
-gtnh.quest2826.name=Solid-Oxide Fuel Cell Mk II
-gtnh.quest2826.desc=It's the same as the previous, but more/better. It takes less time to heat up, but it chews through fuel pretty fast too. It still isn't as good as an LGT for power produced over time, but it can produce power faster. As long as you use it with the HP Steam Turbine.%n%nIt can produce 1A+ of LuV if you set it up right.
+gtnh.quest2826.name=固体氧化物燃料电池 Mk II
+gtnh.quest2826.desc=以上一级一样,但发电更多/更好.加热时间更少,但消耗燃料的速度也更快.在长期产能方面它仍然比不上全速运行的大型燃气涡轮,但它可以做到快速反应.别忘了还要配合大型高压蒸汽涡轮.%n%n正确设置后,它能提供1A以上的LuV输出.
 
 # Quest.2827 - Solid-Oxide Fuel Cell Mk I
-gtnh.quest2827.name=Solid-Oxide Fuel Cell Mk I
-gtnh.quest2827.desc=It uses Gas fuels to produce power and steam. It produces steam only once heated up, but make sure you have a turbine to utilize it to actually get the power out of it. It's not as good as an LGT, especially since it requires Oxygen, but it does produce less pollution if you care about that.
+gtnh.quest2827.name=固体氧化物燃料电池 Mk I
+gtnh.quest2827.desc=它使用气体燃料产生能量和蒸汽(只在加热后产生).想要使用这些蒸汽发电的话,你最好弄个涡轮.它比不上大型燃气涡轮,尤其是它还需要消耗氧气,但它的污染更低,如果你在意污染的话...
 
 # Quest.2828 - It's 'Super' Heated Steam
-gtnh.quest2828.name=It's 'Super' Heated Steam
-gtnh.quest2828.desc=So that means it produces §otwice§r as much power! You can get this steam through the LHE or the SOFC Mk II. It gets converted to normal steam as the output at a 1:1 ratio, so make sure to have a non-HP one to take advantage of that.
+gtnh.quest2828.name=它是'过热'蒸汽
+gtnh.quest2828.desc=所以这意味着它会产生§o两倍§r的能量!你可以从大型热交换机和固体氧化物燃料电池MKII中获得过热蒸汽.通过高压蒸汽涡轮后,过热蒸汽会1:1地转化为普通蒸汽,所以最好再加一台普通蒸汽涡轮以达到最大利用率.
 
 # Quest.2829 - Fluid Nukes
-gtnh.quest2829.name=Fluid Nukes
-gtnh.quest2829.desc=Also, Vac Nukes and Wrench reactors (lol), are more advanced versions of the normal one.%n%nFluid means you build it differently (with the parts on the right, it's a 5x5 cube surrounding the normal one), with the goal of producing as much hot coolant (cycle in non-hot) as possible, to use that to produce power. It doesn't produce power on it's own, but more overall. Send it to the LHE to get SH steam out of it, then go through a HP steam turbine, then a normal steam turbine.%n%nVac nukes just refer to using a vacuum freezer to restore the Helium/NaK cells' durability. You can do this instead of making it heat neutral or lossy with Heat Vents and such, but one mistake and KA-BOOM!%n%nWrench reactors are when you fill the reacor with fuel rods, turn it on, and wrench it to reset it's heat state before it explodes. If you can automate it, you deserve a medal!%n%nIf you still don't know what a MOX one is, it produces more power the higher the temperature, so you try to keep it heat neutral, and as hot as possible. Of course, this can cause things nearby to, well, §omelt.§r Naquadria fuel cells work the same way. You can also get more Plutonium out of MOX than Uranium.%n%nA breeder reactor is when you setup a reactor to get an item out of it rather than power, like Lutetium from Thorium, Plutonium from MOX, etc. Look at the depleted x fuel rod list in NEI to see more.%n%n§3Since Fluid Nukes are liable to explode if you run out of coolant, make sure you setup a cutoff tied to the temperature with redstone.
+gtnh.quest2829.name=流体反应堆
+gtnh.quest2829.desc=另外,还有冰箱核电和扳手反应堆(lol),是不同于普通版的进阶版本.%n%n流体反应堆的建造方式与普通反应堆不同(使用右侧的这些方块,在普通核电外围成一个5x5x5的中空立方体),目的是产生尽可能多的热冷却液(热交换后循环使用),再将其转化为电力.流体反应堆自己不发电,但更全面.将热冷却液送到大型热交换机,即可获得过热蒸汽,再将其依次通过高压蒸汽涡轮、普通蒸汽涡轮.%n%n冰箱核电(我们一般叫强冷) 指使用真空冷冻机恢复氦/钠钾冷却单元耐久.这样就无需通过散热片来保证产热散热平衡,意味着可以塞更多的燃料棒,但一个小问题就会...KA-BOOM!%n%n扳手反应堆 指将反应堆塞满燃料棒,启动,在其爆炸前用扳手拆掉,重置热量状态.如果你可以将这个过程自动化,你就能获得我们GTNH核科学的最高奖章!%n%n要是你还不知道MOX怎么用,让我来教教你.简而言之,MOX燃料棒的发电量随堆温升高而升高.所以你需要维持好热平衡并尽可能地提高堆温.不过太高的堆温可能造成附近的方块被§o融化§r.超能硅岩燃料棒工作方式相同.另外,MOX可以产出不少钚(而铀偏少).%n%n增殖反应堆 指搭建此反应堆,更倾向于获得其产物而非靠其发电,比如用钍堆获得镥,MOX堆获得钚,等等.请在NEI中查看燃料棒(枯竭xxx)的用途.%n%n§3由于冷却液耗尽时,流体反应堆很容易爆炸,所以请确保正确设置了温度相关的红石信号,可以紧急关停反应堆.(建议其他任何反应堆都设置一个温控保险)
 
 ##################################Line##################################
 
@@ -11709,8 +11681,8 @@ gtnh.line8.name=第7阶-剧差压(32768 LuV)
 gtnh.line8.desc=你已经走了这么远了,你应该昂首挺胸地继续向前,因为你已经开始进入游戏的中期.虽然离毕业仍有一段很长的路要走,但你现在算是一个GTNH专家了,别的大部分mod你都已经精通.恭喜你,为你的大*能量(Big Dick Energy)而骄傲吧.
 
 # QuestLine.9 - How to Generate Power
-gtnh.line9.name=How to Generate Power
-gtnh.line9.desc=If there's a way to generate EU, it'll be on this tab, so check back after a new milestone to see if anything became available.
+gtnh.line9.name=如何发电
+gtnh.line9.desc=在这个章节,几乎搜罗了所有产生EU的方式,所以当你的科技达到新阶段的时候,来这里看看又解锁了哪些发电手段吧.
 
 # QuestLine.10 - Fishing Farming Cooking
 gtnh.line10.name=捕鱼,农业,烹饪
