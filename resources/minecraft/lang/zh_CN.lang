@@ -2986,13 +2986,11 @@ gtnh.quest745.desc=如果你离心粘性树脂,就会得到一些胶水.在制�
 
 # Quest.746 - §6§lSilicon
 gtnh.quest746.name=§6§l硅
-gtnh.quest746.desc=在生产芯片过程中硅是一种十分重要的原材料.你可以透过离心漂白土、石棉粉,或红石来得到硅(更简单的方法是电解粘土粉,可以获得大量的硅、铝、钠和锂,这四种材料在一段时间都很有用).你需要使用工业高炉来将硅粉制作成为硅锭. 制作硅锭需要工业高炉达到1687K的炉温,并且需要工业高炉拥有120EU/T的功率,若是使用生硅需要耗时84秒.而若是用二氧化硅和碳粉,就只需12秒！很多时候,在使用NEI时多翻几页,往往能找到更优选择.
+gtnh.quest746.desc=在生产芯片过程中硅是一种十分重要的原材料.你可以透过离心漂白土、石棉粉,或红石来得到硅(更简单的方法是电解粘土粉,可以获得大量的硅、铝、钠和锂,这四种材料在一段时间都很有用).你需要使用工业高炉来将硅粉制作成为硅锭. 制作硅锭需要工业高炉达到1687K的炉温,并且需要工业高炉拥有120EU/t的功率,若是使用生硅需要耗时84秒.而若是用二氧化硅和碳粉,就只需12秒！很多时候,在使用NEI时多翻几页,往往能找到更优选择.
 
 # Quest.747 - §5§lDiodes
 gtnh.quest747.name=§5§l二极管
-#B gtnh.quest747.desc=Good circuits need diodes. There are two ways to craft them. Right now you have to use the Gallium Arsenide method with fine copper wires and molten glass. Later when you get an EBF you can use it to make silicon wafers to make even more. Once you have polyethylene you can use annealed copper wires to increase your output yet again. %n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find.
-#A gtnh.quest747.desc=Good circuits need diodes. There are two main ways to craft them. Right now you have to use the Gallium Arsenide method with fine copper wires and molten glass. Later when you get an EBF you can use it to make silicon wafers to make even more. Note that the wafers are way easier to get than gallium, so even a reduced amount is still worth it.%n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more. %n
-#C gtnh.quest747.desc=优质的电子电路板需要二极管.有两种方法可以制造它们.现在你只能用砷化镓处理细铜导线和熔融玻璃来获得二极管.稍后,当你拥有了工业高炉,你就能制作硅晶元,用它替代砷化镓可以实现增产.  一旦你有了聚乙烯,你就能用细退火铜导线替代细铜导线,实现再次增产.  老生常谈,时时检查NEI,不要一个合成表用一辈子.
+gtnh.quest747.desc=优质的电子电路板需要二极管.有两种主要方法可以制造它们.现在你只能用砷化镓处理细铜导线和熔融玻璃来获得二极管.稍后,当你拥有了工业高炉,你就能制作硅晶元,用它替代砷化镓可以实现增产. 请注意,晶元比镓更容易获得,因此即使减少晶元数量也是值得的.%n%n老生常谈,时时检查NEI(特别是解锁了新材料后),不要一个合成表用一辈子.%n有了聚乙烯之后,你就能用细退火铜导线替代细铜导线,实现再次增产.  
 
 # Quest.748 - §5§lEmpty Circuit Board
 gtnh.quest748.name=§5§l电路板基板
@@ -3068,9 +3066,7 @@ gtnh.quest765.desc=泵是很好,但你现在到了一个需要更多更多更多
 
 # Quest.766 - §6§lLet's get crackin!
 gtnh.quest766.name=§6§l裂化石油
-#B gtnh.quest766.desc=Cracking oil products like light and heavy fuel with the oil cracker is faster and more efficent than using a chemical reactor, producing 25 percent more output. Cracked products will result in additional by-products in the distillation tower. It is a smart idea to get this multiblock since you are going to need TONS of industrial TNT from Toluene for advanced tier rockets. %n%nThe 16 coils form 2 vertical rings of 8 on either side of the controller. The casings between the rings can be replaced with a hatch for steam/hydrogen input. Energy hatch and maintenance hatch can replace any of the casings. The input product hatch and output product hatch must replace one of the casings outside of the coils.%n%nHint: Only GT/Railcraft steam can be used, not ic2 steam.
-#A gtnh.quest766.desc=Cracking oil products like light and heavy fuel with the oil cracker is faster and more efficent than using a chemical reactor, producing 25 percent more output. Cracked products will result in additional by-products in the distillation tower. It is a smart idea to get this multiblock since you are going to need TONS of industrial TNT from Toluene for advanced tier rockets. %n%nThe 16 coils form 2 vertical rings of 8 on either side of the controller. The casings between the rings can be replaced with a hatch for steam/hydrogen input. Energy hatch and maintenance hatch can replace any of the casings. The input product hatch and output product hatch must replace one of the casings outside of the coils.%n%nHint: Only GT/Railcraft steam can be used, not ic2 steam.%n%n§3The circuit goes in the controller.
-#C gtnh.quest766.desc=裂化石油可以在蒸馏塔中得到更好的副产品.制造这个多方块构造是个聪明的主意,因为高阶火箭将会需要非常大量的工业TNT.  16个线圈在控制器方块两侧构成两个竖直的环.环之间的机械方块可以用输入仓替换,以输入蒸汽或氢气. 能源仓和维护仓替换任意机械方块. 而加入裂化原理和输出裂化产物的输入/输出仓必须在线圈环之外.  提示:只可使用GT或RC的蒸汽,IC的蒸汽无效.
+gtnh.quest766.desc=裂化石油可以在蒸馏塔中得到更好的副产品.制造这个多方块构造是个聪明的主意,因为高阶火箭将会需要非常大量的工业TNT.%n%n16个线圈在控制器方块两侧构成两个竖直的环.环之间的机械方块可以用输入仓替换,以输入蒸汽或氢气. 能源仓和维护仓替换任意机械方块. 而加入裂化原理和输出裂化产物的输入/输出仓必须在线圈环之外.%n%n提示:只可使用GT或RC的蒸汽,IC的蒸汽无效.%n%n§3请将编程电路放入控制器方块.
 
 # Quest.767 - §6§lAnalyzing the soil
 gtnh.quest767.name=§6§l分析地层
@@ -3242,9 +3238,7 @@ gtnh.quest808.desc=高阶粉末需要HV级搅拌机.
 
 # Quest.809 - Dire Crafting Table
 gtnh.quest809.name=终极工作台
-#B gtnh.quest809.desc=The Avaritia 9x9 dire crafting table...is no longer used to make rockets :(. But you can still make it, if you want solars, kinetics, or whatnot. First of all you need 81 crafting tables to make a double compressed crafting table, a few HV components, wafers and a crystal matrix. And yes, you do need that many nether stars.%n%n§3Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.§r%n%n§3Also, if you're having trouble getting the wither skulls, you can make a Cleaver or the Skullfire Sword to help with that.
-#A gtnh.quest809.desc=The Avaritia 9x9 dire crafting table...is no longer used to make rockets :(. But you can still make it, if you want solars, kinetics, or whatnot. First of all you need 81 crafting tables to make a double compressed crafting table, a few HV components, wafers and a crystal matrix. And yes, you do need that many nether stars.
-#C gtnh.quest809.desc=Avarita的9x9终极工作台...不再用于制造火箭 :(.不过如果你需要太阳能、动能发电机的话, 它也是必不可少的.首先,你需要81个工作台来制作一个双重压缩工作台,一些HV组件、晶元,以及一个水晶矩阵.然后......没错,你确实需要很多下界之星.%n%n§3提示:查看下界之星的配方,可使用枯竭水晶及世界盐合成.枯竭水晶可以通过加入岩浆膏、烈焰粉及小撮下界之星粉复制.§r%n%n§3另外, 如果你搞不到凋灵骷髅头, 劈刀或者炽焰之啄颅剑都挺好用的.
+gtnh.quest809.desc=Avarita的9x9终极工作台...不再用于制造火箭 :(.不过如果你需要太阳能、动能发电机的话, 它也是必不可少的.首先,你需要81个工作台来制作一个双重压缩工作台,一些HV组件、晶元,以及一个水晶矩阵.然后......没错,你确实需要很多下界之星.%n%n§3提示:查看下界之星的配方,可使用枯竭水晶及世界盐合成.枯竭水晶可以通过加入岩浆膏、烈焰粉及小撮下界之星粉复制.§r%n%n§3另外, 如果你搞不到凋灵骷髅头, 劈刀或者炽焰之啄颅剑都挺好用的.
 
 # Quest.810 - Rocket Tier 1
 gtnh.quest810.name=1阶火箭
@@ -3340,9 +3334,7 @@ gtnh.quest832.desc=基础晶元用于制造各种基础的机器,如基础太阳
 
 # Quest.833 - Purge your warp
 gtnh.quest833.name=清除你的扭曲
-#B gtnh.quest833.desc=The warp you have accumulated over time is starting to become a problem. Making bath salts to clean off the warp is only a temporary solution. To truly get rid of it, you need something more powerful, a pure tear. If you collect a few things for me, I will give you one. Think wisely about using it, since it's a very long journey to unlock it through research.
-#A gtnh.quest833.desc=The warp you have accumulated over time is starting to become a problem. Making bath salts to clean off the warp is only a temporary solution. To truly get rid of it, you need something more powerful, a pure tear. If you collect a few things for me, I will give you one. Think wisely about using it, since it's a very long journey to unlock it through research.%n%n§3PS: You need IV power for the osmiridium.
-#C gtnh.quest833.desc=随着时间的推移,你身上所积累的扭曲开始成为一个让你头痛的问题. 使用浴盐和驱邪肥皂也只是一种暂时的解决办法.要真正的摆脱扭曲,你需要一些包含更加强大力量的东西,一滴纯净泪水. 如果你帮我收集一些东西,我可以给你一滴. 好好想想在什么时候使用它,因为如果你想通过研究来解锁这个物品那可是非常漫长的过程.
+gtnh.quest833.desc=随着时间的推移,你身上所积累的扭曲开始成为一个让你头痛的问题. 使用浴盐和驱邪肥皂也只是一种暂时的解决办法.要真正的摆脱扭曲,你需要一些包含更加强大力量的东西,一滴纯净泪水. 如果你帮我收集一些东西,我可以给你一滴. 好好想想在什么时候使用它,因为如果你想通过研究来解锁这个物品,那可是非常漫长的过程.%n%n§3PS:铱锇合金需要IV级的供能.
 
 # Quest.834 - §3§lCircuit Boards
 gtnh.quest834.name=§3§l电路板
@@ -3618,9 +3610,7 @@ gtnh.quest901.desc=OK,这是个迷宫.还有,那是......牛头人战士.但弥�
 
 # Quest.902 - A big ugly snake
 gtnh.quest902.name=大丑蛇
-#B gtnh.quest902.desc=Required for your first wand and in general, an ugly creature.
-#A gtnh.quest902.desc=Required for your first wand, and in general, an ugly creature.%n%n§3To progress in TF, you need to follow the achievements. They §ofrequently§r §3bug out, so drop and pickup everything that dropped from the bosses. Yes, right after you picked it up the first time. It's dumb, we know.%n%nAlso, BQ3 §oalso§r §3has a tendency to bug out detecting boss kills if you don't melee them, so if you want to complete these quests, use the spawn eggs from the coins tab and melee when they get low or something if you missed them the first time.
-#C gtnh.quest902.desc=一般来说,制作你第一根法杖需要一个丑陋的生物.
+gtnh.quest902.desc=一般来说,制作你第一根法杖需要一个丑陋的生物.%n%n§3想要在暮色森林中持续推进,你需要一步一个脚印依次完成成就.它们§o经常§r §3出bug,所以,请将BOSS的掉落物反复丢出、捡起.没错,有的时候首次捡起这些掉落物的时候,mod脑子一抽,我们都懂的.%n%n另外,如果你不是使用近战攻击杀死BOSS的话,任务书3(BQ3)§o也§r §3有可能无法正确检测到击杀,所以想要完成这些任务的话(错失了第一次机会),请使用硬币章节买到的刷怪蛋,然后等到BOSS残血的时候跟他站撸吧.
 
 # Quest.903 - Adventure time!
 gtnh.quest903.name=冒险时间！
@@ -3707,9 +3697,7 @@ gtnh.quest923.name=史莱姆:进化
 gtnh.quest923.desc=在我看来它长得跟神秘史莱姆没两样,你不这么觉得吗？在海卫八找到这位老兄.
 
 # Quest.924 - Wolf: Evolved
-#B gtnh.quest924.name=Wolf:Evolved
-#A gtnh.quest924.name=Wolf: Evolved
-#C gtnh.quest924.name=狼:进化
+gtnh.quest924.name=狼:进化
 gtnh.quest924.desc=最后的区域…一只…狼…它甚至不是铁娘子乐团的粉丝欸？你在期待什么？一个超强王怪？呵呵,想太多.预算有限好吗.
 
 # Quest.925 - Killing: Evolved
@@ -3738,40 +3726,30 @@ gtnh.quest930.desc=LV时代的自动采矿设备.所以这台漂亮的机器可�
 
 # Quest.931 - §6§lAuto Mining MV
 gtnh.quest931.name=§6§lMV自动采矿机
-gtnh.quest931.desc=MV采矿机同样可以帮助你挖出地下的矿石,而且做得更好. 同样,在机器的GUI的左侧放置两组挖矿管道. MV采矿机需要32EU/T的能源才能工作.它可以在以自己为中心33x33格的范围内搜索矿石(可用螺丝刀调整范围),并且可以比LV级别的采矿机速度快上2倍.还有增产2的奖励！对贫瘠矿尤其有效...  别忘了遮雨！这些矿机和发电机都是GT机器,所以别忘了防雨.然后在旅行地图上标记好位置,这样你就再也不会忘记自己把矿机放哪了!
+gtnh.quest931.desc=MV采矿机同样可以帮助你挖出地下的矿石,而且做得更好. 同样,在机器的GUI的左侧放置两组挖矿管道. MV采矿机需要32EU/t的能源才能工作.它可以在以自己为中心33x33格的范围内搜索矿石(可用螺丝刀调整范围),并且可以比LV级别的采矿机速度快上2倍.还有增产2的奖励！对贫瘠矿尤其有效...  别忘了遮雨！这些矿机和发电机都是GT机器,所以别忘了防雨.然后在旅行地图上标记好位置,这样你就再也不会忘记自己把矿机放哪了!
 
 # Quest.932 - §9§lAuto Mining HV
 gtnh.quest932.name=§9§lHV自动采矿机
-gtnh.quest932.desc=和LV和MV的自动采矿机差不多. HV采矿机需要128EU/T的能源才能工作.它可以在以自己为中心49x49格的范围内搜索矿石(可用螺丝刀调整范围)(刚好3x3区块,非常适合区块加载器),并且比MV的自动采矿机还要快上两倍！还有增产3的奖励！对贫瘠矿尤其有效...  别忘了遮雨！这些矿机和发电机都是GT机器,所以别忘了防雨.然后在旅行地图上标记好位置,这样你就再也不会忘记自己把矿机放哪了!
+gtnh.quest932.desc=和LV和MV的自动采矿机差不多. HV采矿机需要128EU/t的能源才能工作.它可以在以自己为中心49x49格的范围内搜索矿石(可用螺丝刀调整范围)(刚好3x3区块,非常适合区块加载器),并且比MV的自动采矿机还要快上两倍！还有增产3的奖励！对贫瘠矿尤其有效...  别忘了遮雨！这些矿机和发电机都是GT机器,所以别忘了防雨.然后在旅行地图上标记好位置,这样你就再也不会忘记自己把矿机放哪了!
 
 # Quest.933 - §6§lPower of the Sun
 gtnh.quest933.name=§6§l太阳能
-#B gtnh.quest933.desc=Now its time to invest in some renewable energy. Let's start with solar panels. The basic one only gives 1 EU/t. Most GT machines can use them as covers. Be sure to put a glass layer above them in case it rains while you swap panels. You will still want to keep rain off the sides of the machine hull too.%n%n§4The Aluminium Iron plate needs an MV Forming Press.
-#A gtnh.quest933.desc=Now its time to invest in some renewable energy. Let's start with solar panels. The basic one only gives 1 EU/t. Most GT machines can use them as covers, and receive power, but only so long as it can see the sun (the top). Be sure to put a glass layer above them in case it rains while you swap panels. You'll still want to keep rain off the sides of the machine hull too.%n%n§4The Aluminium Iron plate needs an MV Forming Press.
-#C gtnh.quest933.desc=现在我们应该研究一些别的可再生能源了.让我们从太阳能开始,最低等级的太阳能板发电量是1EU/T.这些太阳能板可以作为大部分GT机器的覆盖板使用,让这些机器能从太阳中获取能源.  千万记住挡雨,在机器上方放一层玻璃,也别忘了机器紧邻的方块也不能淋雨.  §4铝铁板需要MV冲压机床.
+gtnh.quest933.desc=现在我们应该研究一些别的可再生能源了.让我们从太阳能开始,最低等级的太阳能板发电量是1EU/t.这些太阳能板可以作为大部分GT机器的覆盖板使用,让这些机器能从太阳中获取能源(但前提是它可以看见太阳,即顶部没有不透明遮挡).%n%n千万记住挡雨,在机器上方放一层玻璃,也别忘了机器紧邻的方块也不能淋雨.%n%n§4铝铁板需要MV冲压机床.
 
 # Quest.934 - §6§lPower of the Sun ULV
-#B gtnh.quest934.name=§6§lPower of the Sun 8V
-#A gtnh.quest934.name=§6§lPower of the Sun ULV
-#C gtnh.quest934.name=§6§l8V太阳能板
-#B gtnh.quest934.desc=The next solar panel you can make is the ULV one. It generates 8 EU/t. Most gt machines can use them as covers.
-#A gtnh.quest934.desc=The next solar panel you can make is the ULV one. It generates 8 EU/t.
-#C gtnh.quest934.desc=下一个等级的太阳能板等级是ULV级,他们可以提供8EU/T的能源.同样他们也可以作为大部分格雷机器的覆盖板使用.
+gtnh.quest934.name=§6§l太阳之力(ULV)
+gtnh.quest934.desc=下一个等级的太阳能板等级是ULV级,他们可以提供8EU/t的能源.同样他们也可以作为大部分格雷机器的覆盖板使用.
 
 # Quest.935 - §6§lPower of the Sun 1x1
-gtnh.quest935.name=§6§l单方块太阳能发电机
-#B gtnh.quest935.desc=Put those single eu panels on a block to make them placeable in the world. Use an MV assembler to combine the panel with a ULV hull.
-#A gtnh.quest935.desc=Put those single EU panels on a block to make them placeable in the world. Use an MV assembler to combine the panel with a ULV hull.
-#C gtnh.quest935.desc=把一块基础太阳能板和一个ULV机器方块放到MV级别组装机中,组装机将会将他们组装为一个ULV等级的太阳能发电机.
+gtnh.quest935.name=§6§l太阳之力(ULV)1x1
+gtnh.quest935.desc=把一块基础太阳能板和一个ULV机器方块放入MV级别的组装机中,组装机将会把它们组装为一个ULV等级的太阳能发电机.
 
 # Quest.936 - §a§lPower of the Sun at LV Level
-gtnh.quest936.name=§a§lLV级太阳能
-#B gtnh.quest936.desc=The next solar panel you can make is the LV one. It generates 32 EU/t max. Most gt machines can use them as covers. First you need to produce a sunnarium item by using 10 million eu power.
-#A gtnh.quest936.desc=The next solar panel you can make is the LV one. It generates 32 EU/t. You'll need to make some sunnarium first though.
-#C gtnh.quest936.desc=现在你可以制造LV级别的太阳能板了.他可以提供最大32EU/T的输出,它同样可以作为覆盖板直接贴到GT的机器上面来给设备供电. 不过要制造LV的太阳能板你首先需要在分子重组仪里面用10,000,000EU的电力来制造"小块阳光化合物".
+gtnh.quest936.name=§a§l太阳之力(LV)
+gtnh.quest936.desc=现在你可以制造LV级别的太阳能板了.他可以提供最大32EU/t的输出,它同样可以作为覆盖板直接贴到GT的机器上面来给设备供电.%n不过要制造LV的太阳能板你首先需要在分子重组仪里面用10,000,000EU的电力来制造"小块阳光化合物".
 
 # Quest.937 - §a§lPower of the Sun 1x1 LV
-gtnh.quest937.name=§a§l单方块太阳能发电机(LV级)
+gtnh.quest937.name=§a§l太阳之力(LV)1x1
 gtnh.quest937.desc=历尽千辛万苦你终于可以制造LV级别的太阳能发电机了. 把LV机器外壳和LV级太阳能覆盖板放到MV的组装机里面.
 
 # Quest.938 - §6§lAutomated Sticky Resin Farmer
@@ -3788,7 +3766,7 @@ gtnh.quest940.desc=更加先进的电路板需要在无尘环境下才能制作.
 
 # Quest.941 - §6§lA very useful Scanner
 gtnh.quest941.name=§6§l一个非常有用的扫描仪
-gtnh.quest941.desc=这个便携扫描仪是一个非常有用的工具,他可以扫描游戏中几乎每一个方块并且显示很多有用的信息. 这个工具首先你需要给它充电.它可以接受MV级别128EU/T的充电速率,并且可以储存400kEU的电量. 它可以扫描在作物架上面的种子,你可以看到信息比IC2作物扫描仪还要多一些.但是它不能扫描掉落在世界中的种子袋. 它可以扫描GT的各种机器,能看到当前工作的进度,储存的能量、效率、CPU负载等. 对于游戏中任何方块,它都会获得它的ID、元数据、位置及硬度值. 并且还可以扫描当前区块的污染数值！ 除此之外还可显示超净间内的洁净水平.
+gtnh.quest941.desc=这个便携扫描仪是一个非常有用的工具,他可以扫描游戏中几乎每一个方块并且显示很多有用的信息. 这个工具首先你需要给它充电.它可以接受MV级别128EU/t的充电速率,并且可以储存400kEU的电量. 它可以扫描在作物架上面的种子,你可以看到信息比IC2作物扫描仪还要多一些.但是它不能扫描掉落在世界中的种子袋. 它可以扫描GT的各种机器,能看到当前工作的进度,储存的能量、效率、CPU负载等. 对于游戏中任何方块,它都会获得它的ID、元数据、位置及硬度值. 并且还可以扫描当前区块的污染数值！ 除此之外还可显示超净间内的洁净水平.
 
 # Quest.942 - §3§lIt's a dirty job, and you're going to do it
 gtnh.quest942.name=§3§l这是一项肮脏的工作，但你得去干
@@ -3991,12 +3969,8 @@ gtnh.quest991.name=玄钢护甲基础升级
 gtnh.quest991.desc=为了升级玄钢护甲,你需要充能晶体和一些经验值. 使用充能晶体升级完毕后的护甲可以获得注能附魔,给予10万的电池容量.能量吸收抵消一半的耐久损伤.
 
 # Quest.992 - Go Find Some Tropical Bees
-#B gtnh.quest992.name=Go find some tropical bees
-#A gtnh.quest992.name=Go Find Some Tropical Bees
-#C gtnh.quest992.name=去寻找一些热带蜜蜂
-#B gtnh.quest992.desc=Next you will need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very aggressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist's clothes. Try to get pristine bees. If you're having trouble finding them, you can use Nature's Compass to search for a specific biome.
-#A gtnh.quest992.desc=Next you'll need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very aggressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist's clothes. Try to get pristine bees. If you're having trouble finding them, you can use Nature's Compass to search for a specific biome.
-#C gtnh.quest992.desc=接下来,你需要找到一些热带蜜蜂. 这种蜜蜂的蜂巢可以在丛林生物群系找到. 你要小心这些蜜蜂,它们攻击性很强,可以蛰死你. 热带蜜蜂的产物是热带蜂巢,热带蜂巢可以提取出制造养蜂人套种所需要的丝缕.试着找到蜂巢以获取原始的蜜蜂.要是找不着,你也可以使用生物群系指南针以寻找特定生物群系.%n译者注:服务器慎用...
+gtnh.quest992.name=去寻找一些热带蜜蜂
+gtnh.quest992.desc=接下来,你需要找到一些热带蜜蜂. 这种蜜蜂的蜂巢可以在丛林生物群系找到. 你要小心这些蜜蜂,它们攻击性很强,可以蛰死你. 热带蜜蜂的产物是热带蜂巢,热带蜂巢可以提取出制造养蜂人套种所需要的丝缕.试着找到蜂巢以获取原始的蜜蜂.要是找不着,你也可以使用生物群系指南针以寻找特定生物群系.%n译者注:服务器慎用...
 
 # Quest.993 - Silky Combs and Propoli
 gtnh.quest993.name=丝滑蜂窝
@@ -4004,9 +3978,7 @@ gtnh.quest993.desc=丝滑蜂窝第一处理可以得到丝滑蜂胶,再次处理
 
 # Quest.994 - The Centrifuge
 gtnh.quest994.name=离心机(林业MOD)
-#B gtnh.quest994.desc=The Forestry Centrifuge is able to centrifuge up to 9 items out of bee combs. It uses RF energy.
-#A gtnh.quest994.desc=The Forestry Centrifuge is able to centrifuge up to 9 items out of bee combs. It uses RF energy.%n%nLatter bee combs need the GT one though, so keep that in mind.
-#C gtnh.quest994.desc=林业离心机能从蜂窝中提取最多高达9种物品,这个机器使用RF能量.
+gtnh.quest994.desc=林业离心机能从蜂窝中提取最多高达9种物品,这台机器使用RF能量.%n%n不过请记住,后期的蜂窝需要GT机器才能处理.
 
 # Quest.995 - Woven silk
 gtnh.quest995.name=丝绸
@@ -4041,32 +4013,24 @@ gtnh.quest1002.name=魔法泥土
 gtnh.quest1002.desc=魔法泥土可以让树苗或者作物在上面生长的更快. 当堆叠在一起的时候,多个泥土堆积在一起的时候会随机增加顶端的时间流逝. 变相随机让树苗或者作物的生长速度增加一点. 注:在魔导手册神秘养蜂学找到相关研究.
 
 # Quest.1003 - §aPower of the Sun at MV Level
-gtnh.quest1003.name=§aMV级别太能能板
-#B gtnh.quest1003.desc=The next solar panel you can make is the MV one. It gives 128 EU/t max. Most GT machines can use them as covers. First you need to produce sunnarium out of 9 smaller sunnarium pieces.
-#A gtnh.quest1003.desc=The next solar panel you can make is the MV one. It gives 128 EU/t.
-#C gtnh.quest1003.desc=现在你可以制造MV级别的太阳能板了.它可以提供最大128EU/T的输出,它同样可以作为覆盖板直接贴到GT的机器上面来给设备供电. 在这之前你需要生产一个阳光化合物,阳光化合物需要9个小块阳光化合物.
+gtnh.quest1003.name=§a太阳之力(MV)
+gtnh.quest1003.desc=现在你可以制造MV级别的太阳能板了.它可以提供最大128EU/t的输出,它同样可以作为覆盖板直接贴到GT的机器上面来给设备供电.%n在这之前你需要生产一个阳光化合物,阳光化合物需要9个小块阳光化合物.
 
 # Quest.1004 - §a§lPower of the Sun 1x1 MV
-gtnh.quest1004.name=§a§l单方块太阳能发电机(MV级)
-#B gtnh.quest1004.desc=Put those 128 EU panels on a block to make them placeable in the world. Use an HV assembler to combine the panel with an MV hull, a battery, and a robot arm. This panel doesn't need to be cleaned manually.
-#A gtnh.quest1004.desc=Put those 128 EU panels on a block to make them placeable in the world.
-#C gtnh.quest1004.desc=把那些128EU的太阳能板制造成方块,这样他们能够被放置到世界中. 使用HV级别的组装机将MV级太阳能板和MV机器外壳组装到一起.
+gtnh.quest1004.name=§a§l太阳之力(MV)1x1
+gtnh.quest1004.desc=把那些128EU的太阳能板制造成方块,这样他们能够被放置到世界中. 使用HV级别的组装机将MV级太阳能板、MV机器外壳、一个电池和一个机械臂组装到一起.
 
 # Quest.1005 - §a§lIndium
 gtnh.quest1005.name=§a§l铟
 gtnh.quest1005.desc=在EV阶段你需要铟来制作HV级别的太阳能板.但是铟无法通过矿石来得到.你只能通过EV级的化学反应来得到它. 首先你需要将洗干净的方铅矿和闪锌矿在化学反应釜中和硫酸进行反应得到铟富集溶液,然后在铟富集溶液中加入铝粉再次进行反应后才能得到一点点铟粉末.
 
 # Quest.1006 - §b§lPower of the Sun at HV Level
-gtnh.quest1006.name=§b§lHV级别太能能板
-#B gtnh.quest1006.desc=The next solar panel you can make is the HV one. It generates 512 EU/t max. Most GregTech machines can use them as covers. First you need to produce enriched sunnarium by mixing irradiated uranium and sunnarium. The Avaritia 9x9 dire crafting table is required to make this panel.
-#A gtnh.quest1006.desc=The next solar panel you can make is the HV one. It generates 512 EU/t. First you need to produce enriched sunnarium by mixing irradiated uranium and sunnarium. The Avaritia 9x9 dire crafting table is required to make this and later panels.
-#C gtnh.quest1006.desc=接下来要开始制作HV级别太阳能板,它可以提供最大512EU/T的输出.大多数GT机器可以使用他们作为覆盖板. 首先你需要生产富集阳光化合物和铀238板. HV级别太阳能板需要在9*9格的终极工作台.
+gtnh.quest1006.name=§b§l太阳之力(HV)
+gtnh.quest1006.desc=接下来要开始制作HV级别太阳能板,它可以提供最大512EU/t的输出.大多数GT机器可以使用他们作为覆盖板.%n首先你需要生产富集阳光化合物和铀238板. HV级别及以上的太阳能板需要在9*9格的终极工作台合成.
 
 # Quest.1007 - §b§lPower of the Sun 1x1 HV
-gtnh.quest1007.name=§b§l单方块太阳能发电机(HV级)
-#B gtnh.quest1007.desc=Put those 512 EU panels on a block to make them placeable in the world. Use an EV assembler to combine the panel with an HV hull, a battery, and a robot arm. This panel doesn't need to be cleaned manually.
-#A gtnh.quest1007.desc=Put those 512 EU panels on a block to make them placeable in the world.
-#C gtnh.quest1007.desc=把那些512EU的太阳能板制造成方块,这样他们能够被放置到世界中. 使用HV级别的组装机将HV级太阳能板和HV机器外壳组装到一起.
+gtnh.quest1007.name=§b§l太阳之力(HV)1x1
+gtnh.quest1007.desc=把那些512EU的太阳能板制造成方块,这样它们能够被放置到世界中. 使用HV级别的组装机将HV级太阳能板、HV机器外壳、一个电池和一个机械臂组装到一起.
 
 # Quest.1008 - §3§lBooks
 gtnh.quest1008.name=§3§l书
@@ -4330,53 +4294,35 @@ gtnh.quest1072.desc=我有一个小礼物送给你:一个护身符,在这无比�
 
 # Quest.1073 - Naga
 gtnh.quest1073.name=娜迦
-#B gtnh.quest1073.desc=Summon a Naga in the Twilight Forest.
-#A gtnh.quest1073.desc=Summon a Naga. ONLY in the Twilight Forest dim.
-#C gtnh.quest1073.desc=在暮色森林中召唤娜迦！
+gtnh.quest1073.desc=在暮色森林中召唤娜迦！(也只能在暮色森林世界才能召唤成功)
 
 # Quest.1074 - Lich
 gtnh.quest1074.name=巫妖
-#B gtnh.quest1074.desc=Summon a Lich in the Twilight Forest.
-#A gtnh.quest1074.desc=Summon a Lich. ONLY in the Twilight Forest dim.
-#C gtnh.quest1074.desc=在暮色森林中召唤巫妖！
+gtnh.quest1074.desc=在暮色森林中召唤巫妖！(也只能在暮色森林世界才能召唤成功)
 
 # Quest.1075 - Minoshroom
 gtnh.quest1075.name=米诺陶
-#B gtnh.quest1075.desc=Summon a Minoshroom in the Twilight Forest.
-#A gtnh.quest1075.desc=Summon a Minoshroom. ONLY in the Twilight Forest dim.
-#C gtnh.quest1075.desc=在暮色森林中召唤米诺陶！
+gtnh.quest1075.desc=在暮色森林中召唤米诺陶！(也只能在暮色森林世界才能召唤成功)
 
 # Quest.1076 - Hydra
 gtnh.quest1076.name=九头蛇
-#B gtnh.quest1076.desc=Summon a Hydra in the Twilight Forest.
-#A gtnh.quest1076.desc=Summon a Hydra. ONLY in the Twilight Forest dim.
-#C gtnh.quest1076.desc=在暮色森林中召唤九头蛇！
+gtnh.quest1076.desc=在暮色森林中召唤九头蛇！(也只能在暮色森林世界才能召唤成功)
 
 # Quest.1077 - Knight Phantom
 gtnh.quest1077.name=幻影骑士
-#B gtnh.quest1077.desc=Summon a Knight Phantom in the Twilight Forest.
-#A gtnh.quest1077.desc=Summon a Knight Phantom. ONLY in the Twilight Forest dim.
-#C gtnh.quest1077.desc=在暮色森林中召唤幻影骑士！
+gtnh.quest1077.desc=在暮色森林中召唤幻影骑士！(也只能在暮色森林世界才能召唤成功)
 
 # Quest.1078 - Ur-Ghast
-#B gtnh.quest1078.name=Ur Ghast
-#A gtnh.quest1078.name=Ur-Ghast
-#C gtnh.quest1078.name=暮色恶魂
-#B gtnh.quest1078.desc=Summon an Ur-Ghast in the Twilight Forest.
-#A gtnh.quest1078.desc=Summon an Ur-Ghast. ONLY in the Twilight Forest dim.
-#C gtnh.quest1078.desc=在暮色森林中召唤暮色恶魂！
+gtnh.quest1078.name=暮色恶魂
+gtnh.quest1078.desc=在暮色森林中召唤暮色恶魂！(也只能在暮色森林世界才能召唤成功)
 
 # Quest.1079 - Yeti
 gtnh.quest1079.name=雪人首领
-#B gtnh.quest1079.desc=Summon a Yeti in the Twilight Forest.
-#A gtnh.quest1079.desc=Summon a Yeti. ONLY in the Twilight Forest dim.
-#C gtnh.quest1079.desc=在暮色森林中召唤雪人首领！
+gtnh.quest1079.desc=在暮色森林中召唤雪人首领！(也只能在暮色森林世界才能召唤成功)
 
 # Quest.1080 - Snow Queen
 gtnh.quest1080.name=冰雪女王
-#B gtnh.quest1080.desc=Summon a Snow Queen in the Twilight Forest.
-#A gtnh.quest1080.desc=Summon a Snow Queen. ONLY in the Twilight Forest dim.
-#C gtnh.quest1080.desc=在暮色森林中召唤冰雪女王！
+gtnh.quest1080.desc=在暮色森林中召唤冰雪女王！(也只能在暮色森林世界才能召唤成功)
 
 # Quest.1081 - §6§lMV Bending
 gtnh.quest1081.name=§6§l进阶卷板机
@@ -4511,12 +4457,8 @@ gtnh.quest1113.name=浸渍框架
 gtnh.quest1113.desc=浸渍框架比未处理框架更好. 相比未处理框架来说浸渍框架拥有更高的耐久,但是比标定框架的耐久要低一些. 对于产量提升来讲浸渍框架和未处理框架没有什么区别.
 
 # Quest.1114 - Production Frames
-#B gtnh.quest1114.name=Proven Frame
-#A gtnh.quest1114.name=Production Frames
-#C gtnh.quest1114.name=标定框架
-#B gtnh.quest1114.desc=Proven frames are much better than impregnated ones.%nEach frame doubles the bee's productivity. Out of the three Forestry frames (Untreated, Impregnated and Proven), the proven frame has the longest durability.%n%nYou can make them or purchase them from a villager. If you can't find a beekeeper, there are couple of different options to get one. Rescue a zombie villager, add doors to a village to get them to make kids, or perhaps use a cupid's bow and arrow...
-#A gtnh.quest1114.desc=You can make proven frames or purchase them from a villager. If you can't find a beekeeper, there are couple of different options to get one. Rescue a zombie villager, add doors to a village to get them to make kids, or perhaps use a cupid's bow and arrow...%n%nAbout magic frames:%nThey're the core of magically endowed frames. They also have a special ability - no maximum production chance. Normal frames are ineffective to get above 16x production (4 frames) but with magic frames you can keep going - just watch out, above 16x you'll be working your bees so hard they have a chance to degenerate into ignoble ones. This can happen any bee tick, not just when they die. Frames to lower genetic decay will lower the chances of this happening.%n%nOf course, with very long lifespans, high production genes, swarmers, and tons of frames, you may think this is worth it.%n%nNote that normal products have a cap of 200% produced, and specialties 100%.
-#C gtnh.quest1114.desc=标定框架比浸渍框架还要好. 经过验证在三种林业原版框架中(未处理、浸渍和标定)标定框架是最经久耐用的！你可以制作它们或从村民那里购买.如果你找不到养蜂员村民,还有几个其他选择.治疗一个僵尸村民、在村庄中添加门来让村民们自己增加人口、或是用丘比特的弓和箭...
+gtnh.quest1114.name=标定框架(生产框架)
+gtnh.quest1114.desc=标定框架比浸渍框架还要好.%n每个标定框架可提高一倍的产量.经过验证在三种林业原版框架中(未处理、浸渍和标定)标定框架是最经久耐用的！%n%n你可以制作它们或从村民那里购买.如果你找不到养蜂员村民,还有几个其他选择.治疗一个僵尸村民、在村庄中添加门来让村民们自己增加人口、或是用丘比特的弓和箭...%n%nAbout magic frames:%nThey're the core of magically endowed frames. They also have a special ability - no maximum production chance. Normal frames are ineffective to get above 16x production (4 frames) but with magic frames you can keep going - just watch out, above 16x you'll be working your bees so hard they have a chance to degenerate into ignoble ones. This can happen any bee tick, not just when they die. Frames to lower genetic decay will lower the chances of this happening.%n%nOf course, with very long lifespans, high production genes, swarmers, and tons of frames, you may think this is worth it.%n%nNote that normal products have a cap of 200% produced, and specialties 100%.
 
 # Quest.1115 - Moron's Guide to Taller Trees
 gtnh.quest1115.name=种树"智者"手册
@@ -4606,11 +4548,11 @@ gtnh.quest1134.name=§5§l进阶锅炉[LV]
 
 # Quest.1135 - §5§lULV Transformer
 gtnh.quest1135.name=§5§l超低压变压器
-gtnh.quest1135.desc=如果你想让你的简易洗矿机工作,那么你会需要一个低压变压器的.简易洗矿机只能工作在8EU/T的电压下,如果你接入的更高的电压,那么你的基地就会被炸出一个大洞！
+gtnh.quest1135.desc=如果你想让你的简易洗矿机工作,那么你会需要一个低压变压器的.简易洗矿机只能工作在8EU/t的电压下,如果你接入的更高的电压,那么你的基地就会被炸出一个大洞！
 
 # Quest.1136 - §5§lLossless LV Cables
 gtnh.quest1136.name=§5§l无损低压线缆
-gtnh.quest1136.desc=在32EU/T的电压下如何进行无损传输呢？为什么不试试无损低压线缆呢? 红石合金可制成超导导线并可无损传输你的能量. 红色合金是一种新的合金,工业高炉需要用到它. 将红石、硅和煤混合,虽然用手也可以,但用搅拌机效果更佳.
+gtnh.quest1136.desc=在32EU/t的电压下如何进行无损传输呢？为什么不试试无损低压线缆呢? 红石合金可制成超导导线并可无损传输你的能量. 红色合金是一种新的合金,工业高炉需要用到它. 将红石、硅和煤混合,虽然用手也可以,但用搅拌机效果更佳.
 
 # Quest.1137 - §9§lKinetic Power HV
 #B gtnh.quest1137.name=§9§lKinetic Power
@@ -4880,13 +4822,13 @@ gtnh.quest1196.desc=你可以用硬币购买一些锡矿莓
 #C gtnh.quest1197.name=§d§l聚变反应堆MK2-更大,更好,更强
 #B gtnh.quest1197.desc=Now that you have some Europium, put it to use by making a mk2 reactor. %n%nThis one will require the same block placement, but replaces LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and uses ZPM tier hatches. %n%nThis reactor can handle recipes up to 320M EU at startup. In addition, if you perform a mk1 recipe on a mk2, you will overclock it. Fusion overclocking is different than normal GT. It will take 2x the power, but the recipe will go 2x faster.
 #A gtnh.quest1197.desc=Now that you have some Europium, put it to use by making a mkII reactor. %n%nThis one will require the same block placement, but replaces LuV casings with fusion machine casings, superconducting coil blocks with fusion coil blocks, and uses ZPM tier hatches. %n%nThis reactor can handle recipes up to 320M EU at startup. In addition, if you perform a mkI recipe on a mkII, you will overclock it. Fusion overclocking is different than normal GT. It will take 2x the power, but the recipe will go 2x faster.
-#C gtnh.quest1197.desc=现在你已经有了铕块,可以将聚变反应堆升级到MK2了.%n%nMK2型聚变反应堆搭建方式和MK1完全一样,不同的是你需要将LuV机械方块升级到聚变机械方块,超导线圈也要升级到专为聚变反应堆设计的聚变线圈.所有的输入/输出仓都需要升级到ZPM级.%n%nMK2型反应堆可以处理启动电量少于320M-EU和持续供电少于65536EU/T的聚变配方. 另外,如果你用MK2反应堆处理MK1的配方,将会获得超频.不同于普通超频,聚变反应堆超频时功率变为2倍,处理速度也变为2倍,即无损超频.
+#C gtnh.quest1197.desc=现在你已经有了铕块,可以将聚变反应堆升级到MK2了.%n%nMK2型聚变反应堆搭建方式和MK1完全一样,不同的是你需要将LuV机械方块升级到聚变机械方块,超导线圈也要升级到专为聚变反应堆设计的聚变线圈.所有的输入/输出仓都需要升级到ZPM级.%n%nMK2型反应堆可以处理启动电量少于320M-EU和持续供电少于65536EU/t的聚变配方. 另外,如果你用MK2反应堆处理MK1的配方,将会获得超频.不同于普通超频,聚变反应堆超频时功率变为2倍,处理速度也变为2倍,即无损超频.
 
 # Quest.1198 - §d§lUpgrading the Reactor
 gtnh.quest1198.name=§d§l聚变反应堆MK3
 #B gtnh.quest1198.desc=A mark 2 is nice, but why not make a mark 3? %n%nIt will double the power needed per recipe, while cutting the processing time in half. %n%nThis time you will need UV or above hatches, as well as Fusion machine casing MK2s. This reactor can handle recipes up to 640M EU at startup. Each energy hatch is capable of providing up to 8192eu/t per energy hatch for the recipe. The reactor can take as little as 8192eu/t to run.
 #A gtnh.quest1198.desc=A mark II is nice, but why not make a mark III? %n%nIt will double the power needed per recipe, while cutting the processing time in half. %n%nThis time you will need UV or above hatches, as well as Fusion machine casing MK2s. This reactor can handle recipes up to 640M EU at startup. Each energy hatch is capable of providing up to 8192eu/t per energy hatch for the recipe. The reactor can take as little as 8192eu/t to run.
-#C gtnh.quest1198.desc=MK2型反应堆虽然很好,但是既然可以将反应堆的功率继续提升,那我们为什么不继续下去？%n%nMK3型反应堆将会使所有配方的功率增加一倍,同时处理时间减半.%n%n你需要将所有的输入/输出仓都升级到不低于UV级,同时将聚变机械方块升级到聚变机械方块MK-II. MK3型反应堆可以完成几乎所有的聚变配方(启动电量小于640M-EU). 每个能源仓可输入8192EU/T的持续电流用于聚变反应堆工作,而UV能源仓本身能够接收高达2A的电流和低于524288EU/T的持续供电而不会爆炸.
+#C gtnh.quest1198.desc=MK2型反应堆虽然很好,但是既然可以将反应堆的功率继续提升,那我们为什么不继续下去？%n%nMK3型反应堆将会使所有配方的功率增加一倍,同时处理时间减半.%n%n你需要将所有的输入/输出仓都升级到不低于UV级,同时将聚变机械方块升级到聚变机械方块MK-II. MK3型反应堆可以完成几乎所有的聚变配方(启动电量小于640M-EU). 每个能源仓可输入8192EU/t的持续电流用于聚变反应堆工作,而UV能源仓本身能够接收高达2A的电流和低于524288EU/t的持续供电而不会爆炸.
 
 # Quest.1199 - §d§lMaking Americium
 gtnh.quest1199.name=§d§l获得镅
@@ -4898,7 +4840,7 @@ gtnh.quest1200.desc=现在,你已经拥有了一个聚变反应堆,是时候利�
 
 # Quest.1201 - §a§b§c§d§e§f§d§l§l§c§lTurbine Time
 gtnh.quest1201.name=§a§b§c§d§e§f§d§l§l§c§l涡轮
-gtnh.quest1201.desc=你崭新的等离子涡轮机需要一个全新的转子来驱动它.%n%n你可以使用任何的GT材料来制造涡轮, 但是目前涡轮的最佳材料是普通龙锭.  三钛材质的涡轮将提供最大的EU/T输出. 而中子材质的涡轮将提供最高的耐久,但是效率比较低,整体的涡轮机功率将比较小. 觉醒龙锭材质的涡轮将会提供比较平衡的属性.§4Always test in Creative first!§r%n%n你可以制造4种不同尺寸的涡轮,涡轮越大,涡轮的所有性能都将有所提升.然而,并不是越大的涡轮就是最适合的.Generally Large is the best. 因为我们要注意涡轮的最佳流量,最佳流量的计算方法是涡轮的每秒最佳能量流除以所使用的等离子燃料的能量值.%n%n译者注：注意单位换算,并向上取整.%n%n在Discord上有专门用于计算涡轮流量的表格.
+gtnh.quest1201.desc=你崭新的等离子涡轮机需要一个全新的转子来驱动它.%n%n你可以使用任何的GT材料来制造涡轮, 但是目前涡轮的最佳材料是普通龙锭.  三钛材质的涡轮将提供最大的EU/t输出. 而中子材质的涡轮将提供最高的耐久,但是效率比较低,整体的涡轮机功率将比较小. 觉醒龙锭材质的涡轮将会提供比较平衡的属性.§4Always test in Creative first!§r%n%n你可以制造4种不同尺寸的涡轮,涡轮越大,涡轮的所有性能都将有所提升.然而,并不是越大的涡轮就是最适合的.Generally Large is the best. 因为我们要注意涡轮的最佳流量,最佳流量的计算方法是涡轮的每秒最佳能量流除以所使用的等离子燃料的能量值.%n%n译者注：注意单位换算,并向上取整.%n%n在Discord上有专门用于计算涡轮流量的表格.
 
 # Quest.1202 - I Put Fusion in Your Fusion so you Can Fusion While You Fusion
 gtnh.quest1202.name=套娃聚变(I Put Fusion in Your Fusion so you Can Fusion While You Fusion)
@@ -4942,7 +4884,7 @@ gtnh.quest1211.desc=矿车不但可以侧挂箱子,上面、前面和矿车内�
 
 # Quest.1212 - §l§c§lStarting Fusion
 gtnh.quest1212.name=§l§c§l开始聚变
-gtnh.quest1212.desc=现在你对电力的需求正在大幅度增加,所以你需要一种更加强大的发电方式. 清洁环保可持续产生1A-ZPM级电流的机器你有两个选择,太阳能和核聚变.%n%n利用太阳能很简单,太阳能覆盖板可以产生524288EU/T的能量输出. 但是经过正确配置的核聚变能够达到其近8倍的能量产出.(最关键的是太阳能的造价实在是丧心病狂...)%n%n要制造你的第一个聚变反应堆,你需要一个反应堆控制电脑,不低于Luv级别的2-16个输入仓,1-16个输出仓,和16个能源仓.给每个能源仓提供2048EU/T的电力供应,10M-EU的储能.%n%n这意味着你就可以生产所有低于32768EU/T并且启动能量需求少于160M-EU的配方了. 使用更多的输入/输出仓意味着你可以使用更少的LuV机械方块.但这个原则在MK1级别的聚变反应堆中不是很重要,然而这在日后对反应堆进行升级时很有帮助.
+gtnh.quest1212.desc=现在你对电力的需求正在大幅度增加,所以你需要一种更加强大的发电方式. 清洁环保可持续产生1A-ZPM级电流的机器你有两个选择,太阳能和核聚变.%n%n利用太阳能很简单,太阳能覆盖板可以产生524288EU/t的能量输出. 但是经过正确配置的核聚变能够达到其近8倍的能量产出.(最关键的是太阳能的造价实在是丧心病狂...)%n%n要制造你的第一个聚变反应堆,你需要一个反应堆控制电脑,不低于Luv级别的2-16个输入仓,1-16个输出仓,和16个能源仓.给每个能源仓提供2048EU/t的电力供应,10M-EU的储能.%n%n这意味着你就可以生产所有低于32768EU/t并且启动能量需求少于160M-EU的配方了. 使用更多的输入/输出仓意味着你可以使用更少的LuV机械方块.但这个原则在MK1级别的聚变反应堆中不是很重要,然而这在日后对反应堆进行升级时很有帮助.
 
 # Quest.1213 - §b§9§d§l§b§c§lGetting Europium
 gtnh.quest1213.name=§b§9§d§l§b§c§l获得铕
@@ -5176,19 +5118,19 @@ gtnh.quest1265.desc=一个更便宜的GT++EV电池.
 
 # Quest.1266 - §5§lLow Voltage Transformer
 gtnh.quest1266.name=§5§lLV-MV变压器
-gtnh.quest1266.desc=使用LV电压驱动MV机器是可以实现的.建立一个变压器,并使用4个32EU/T的电源来给一个128EU/T的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么千万不要改变模式,否则你将会看到机器组成的烟花.
+gtnh.quest1266.desc=使用LV电压驱动MV机器是可以实现的.建立一个变压器,并使用4个32EU/t的电源来给一个128EU/t的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么千万不要改变模式,否则你将会看到机器组成的烟花.
 
 # Quest.1267 - §6§lMedium Voltage Transformer
 gtnh.quest1267.name=§6§lMV-HV变压器
-gtnh.quest1267.desc=使用MV电压驱动HV机器是可以实现的.建立一个变压器,并使用4个128EU/T的电源来给一个512EU/T的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么千万不要改变模式,否则你将会看到机器组成的烟花.
+gtnh.quest1267.desc=使用MV电压驱动HV机器是可以实现的.建立一个变压器,并使用4个128EU/t的电源来给一个512EU/t的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么千万不要改变模式,否则你将会看到机器组成的烟花.
 
 # Quest.1268 - §6§lLV High-Amp Transformer
 gtnh.quest1268.name=§6§l高电流LV-MV变压器
-gtnh.quest1268.desc=如果你需要通过变压器输出一个4A以上的电流,那么你需要一个高电流变压器. 你可以将128EU/T　4A的电源接入变压器并输出32EU/T　16A的电流. 高电流变压器同样可以使用软锤改变升压降压模式.
+gtnh.quest1268.desc=如果你需要通过变压器输出一个4A以上的电流,那么你需要一个高电流变压器. 你可以将128EU/t　4A的电源接入变压器并输出32EU/t　16A的电流. 高电流变压器同样可以使用软锤改变升压降压模式.
 
 # Quest.1269 - §6§lLow Voltage Power Transformer
 gtnh.quest1269.name=§6§lLV-MV高能变压器
-gtnh.quest1269.desc=如果你需要更大的电流,那么你就需要使用高能变压器——它将提供高达64A的输出电流. 这个变压器最高可以接入16个128EU/T的电源. 使用软锤改变变压器的运行模式.
+gtnh.quest1269.desc=如果你需要更大的电流,那么你就需要使用高能变压器——它将提供高达64A的输出电流. 这个变压器最高可以接入16个128EU/t的电源. 使用软锤改变变压器的运行模式.
 
 # Quest.1270 - Time for a Spade
 gtnh.quest1270.name=铲子时间到
