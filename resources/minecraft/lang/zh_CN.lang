@@ -4560,7 +4560,7 @@ gtnh.quest1136.desc=在32EU/t的电压下如何进行无损传输呢？为什么
 #C gtnh.quest1137.name=§9§l动能
 #B gtnh.quest1137.desc=The Kinetic Generator will transform mechanical energy into electricity. The EU output depends on the KU input. It is most commonly used together with a Kinetic Wind Generator, Kinetic Water Generator or a Kinetic Steam Generator.%n%nWhen placing a kinetic generator, any time, the "input" side is the side facing you.  So you will place the kinetic generator, then the wind/water/steam gen, and then place a rotor inside. Power can be drawn from any side of the kinetic generator, up to the rated amount per side. %n%nNOTE: It now requires an Avaritia Dire Crafting Table and Titanium. Follow the quests in Space Race and get to the moon. Use NEI to find the recipe since Better Questing cannot show it.%n%nWARNING: Breaking a kinetic generator improperly will not return the generator.  Use a GT wrench, and right-CLICK it.  It should drop immediately.  Try again if it just changed directions. 
 #A gtnh.quest1137.desc=The Kinetic Generator will transform mechanical energy into electricity. The EU output depends on the KU input. It is most commonly used together with a Kinetic Wind Generator or Kinetic Water Generator. The Kinetic Steam Generator only has one tier, so your should probably use a Steam Turbine instead.%n%nWhen placing a kinetic generator, any time, the "input" side is the side facing you.  So you will place the kinetic generator, then the wind/water/steam gen, and then place a rotor inside. Power can be drawn from any side of the kinetic generator, up to the rated amount per side. %n%nWARNING: Breaking a kinetic generator improperly will not return the generator.  Use a GT wrench, and right-CLICK it.  It should drop immediately.  Try again if it just changed directions. 
-#C gtnh.quest1137.desc=动能发电机可以将机械能转化成电能.产生的电力取决于动能输入. 动能发电机通常和风力动能发生机、水力动能发生机或者蒸汽动能发生机一起使用.  当放置动能发电机时,任何时候,输入端都是面向你的.所以你总是先放置动能发电机,然后再是风力/水力/蒸汽动能发生机,然后再将转子放入.能量可以从动能发电机的任意面输出,而每一面的最高输出即动能发电机的电压等级.  注意:要制作这些需要无尽贪婪的终极合成台和钛.完成太空竞赛里的任务,到达月球.使用NEI来查看这类合成表,因为任务书无法显示.  警告:不正确地破坏动能发电机将无法掉落发电机.你需要使用GT扳手,右键它.它就会立刻掉落.要是它转了个方向,那就再试一次. 
+#C gtnh.quest1137.desc=动能发电机可以将机械能转化成电能.产生的电力取决于动能输入. 动能发电机通常和风力动能发生机、水力动能发生机或者蒸汽动能发生机一起使用.  当放置动能发电机时,任何时候,输入端都是面向你的.所以你总是先放置动能发电机,然后再是风力/水力/蒸汽动能发生机,然后再将转子放入.能量可以从动能发电机的任意面输出,而每一面的最高输出即动能发电机的电压等级.  注意:要制作这些需要无尽贪婪的终极工作台和钛.完成太空竞赛里的任务,到达月球.使用NEI来查看这类合成表,因为任务书无法显示.  警告:不正确地破坏动能发电机将无法掉落发电机.你需要使用GT扳手,右键它.它就会立刻掉落.要是它转了个方向,那就再试一次. 
 
 # Quest.1138 - §9§lKinetic Wind Power HV
 #B gtnh.quest1138.name=§9§lKinetic Wind Power
@@ -4576,7 +4576,7 @@ gtnh.quest1136.desc=在32EU/t的电压下如何进行无损传输呢？为什么
 #C gtnh.quest1139.name=§9§l水电
 #B gtnh.quest1139.desc=The Kinetic Water Generator allows Kinetic Units to be produced via the movement of water in river and ocean biomes. As with the Kinetic Wind Generator, it requires either Gearbox Rotor. Search NEI for appropriate options.%n%nIf the Kinetic Water Generator's Rotor isn't entirely submerged in water, it will alert you there is "no room for the rotor". If the Kinetic Water Generator isn't placed in a river, ocean or deep ocean biome, it will alert you it "must be placed in a river or ocean biome". Check the Game Mechanics spreadsheet on Discord for a list of biomes and their tags.%n%nWhile inconvenient, the Water Generator runs more consistently.%n%nYou will need to use NEI to see the recipe, since it use the Dire Crafting table. Make sure to put the items in the right place, or you will get a Wind Generator instead.%n%n§4You can use Witchery to convert biomes.
 #A gtnh.quest1139.desc=The Kinetic Water Generator allows Kinetic Units to be produced via the movement of water in river and ocean biomes. As with the Kinetic Wind Generator, it requires either Gearbox Rotor. Search NEI for appropriate options.%n%nIf the Kinetic Water Generator's Rotor isn't entirely submerged in water, it will alert you there is "no room for the rotor". If the Kinetic Water Generator isn't placed in a river, ocean or deep ocean biome, it will alert you it "must be placed in a river or ocean biome". Check the Game Mechanics spreadsheet on Discord for a list of biomes and their tags.%n%nWhile inconvenient, the Water Generator runs more consistently.%n%n§4You can use Witchery (for example) to convert biomes.
-#C gtnh.quest1139.desc=水力动能发生机需要通过水在河流或者海洋中的流动来产生动能. 和风力动能发生机一样,水力动能发生机也需要使用木、铁、钢、碳制转子或者使用GT++的材料.  如果水力动能发生机的转子不是完全浸没在水中,则机器会提醒你"转子没有足够的空间".如果水力动能发生机不是放置在河流、海洋或深海生物群系,那么机器会提醒你"必须放置在河流和海洋生物群系".查看Discord上的游戏机制表格,你能找到生物群系及其标签的列表.  虽然不太方便,但水力发电机运行更加稳定.  由于它们需要终极合成台制作,所以你得好好查查NEI.一定要把物品放在正确的地方,否则你可能会得到一个风力发电机...  §4你可以通过巫术来转换生物群系.
+#C gtnh.quest1139.desc=水力动能发生机需要通过水在河流或者海洋中的流动来产生动能. 和风力动能发生机一样,水力动能发生机也需要使用木、铁、钢、碳制转子或者使用GT++的材料.  如果水力动能发生机的转子不是完全浸没在水中,则机器会提醒你"转子没有足够的空间".如果水力动能发生机不是放置在河流、海洋或深海生物群系,那么机器会提醒你"必须放置在河流和海洋生物群系".查看Discord上的游戏机制表格,你能找到生物群系及其标签的列表.  虽然不太方便,但水力发电机运行更加稳定.  由于它们需要终极工作台制作,所以你得好好查查NEI.一定要把物品放在正确的地方,否则你可能会得到一个风力发电机...  §4你可以通过巫术来转换生物群系.
 
 # Quest.1140 - §c§9§lRotor
 gtnh.quest1140.name=§c§9§l转子
@@ -7320,15 +7320,11 @@ gtnh.quest1792.desc=当你使用地震勘探者时,你需要扫描仪和打印�
 
 # Quest.1794 - Even more stats
 gtnh.quest1794.name=更多信息
-#B gtnh.quest1794.desc=With the portable scanner, you can get the crop's stats and environmental info while it is still in the ground.  Look for the portable scanner quest after the EBF in Multiblock Goals.
-#A gtnh.quest1794.desc=With the portable scanner, you can get the crop's stats and environmental info while it is still in the ground by right clicking it. It also stays scanned after getting the seed. Look for the portable scanner quest after the EBF in Multiblock Goals. About those stats:%n%n§aGrowth§r:%nHow fast it grows, with higher = faster. Specifically, it increases the growth points your crop gets per growth tick. If it gets to 24+, your crop acts like a weed, so most people say to stay at 23 or less. However, it will only weed other crops under certain conditions.%n%n1) Is in a cardinal direction on the same Y level. 2) Will only affect dirt/grass, or cropsticks or crops 3) If there's a crop there that is §oalso§r a weed, if it's at a maturity level > 1, it §owon't affect it§r 4) If it affects the crop, it'll be replaced with a normal weed%n%n§9Gain§r:%nInfluences chances of how many drops you get, and whether you get any at all. 31 is the best for sure.%n%n§eResistance§r:%nThis stat is responsible for a couple of crops' properties: chances for getting a seed while punching crop, resistance of your crop to trampling (jumping on it), decreases chance of crop dying due to lack of enviromental stats, and resistance of crop to weed spread. It also reduces mutation chance as it goes up (apparently). Aim for around 10 for balance.
-#C gtnh.quest1794.desc=使用便携式扫描仪对种植于土地上的作物扫描,你可以获知作物信息与环境信息.  你可以在多方块任务栏的工业高炉任务后找到便携式扫描仪的任务.
+gtnh.quest1794.desc=使用便携式扫描仪对种植于土地上的作物扫描,你可以获知作物信息与环境信息.扫描之后的作物掉落的种子也会保持扫描状态.%n你可以在多方块任务栏的工业高炉任务后找到便携式扫描仪的任务.关于这些参数:%n%n§a生长(Growth)§r:%n生长速度多快,数值越高=越快.具体来说,就是每个生长刻(growth-tick) Specifically, it increases the growth points your crop gets per . If it gets to 24+, your crop acts like a weed, so most people say to stay at 23 or less. However, it will only weed other crops under certain conditions.%n%n1) Is in a cardinal direction on the same Y level. 2) Will only affect dirt/grass, or cropsticks or crops 3) If there's a crop there that is §oalso§r a weed, if it's at a maturity level > 1, it §owon't affect it§r 4) If it affects the crop, it'll be replaced with a normal weed%n%n§9Gain§r:%nInfluences chances of how many drops you get, and whether you get any at all. 31 is the best for sure.%n%n§eResistance§r:%nThis stat is responsible for a couple of crops' properties: chances for getting a seed while punching crop, resistance of your crop to trampling (jumping on it), decreases chance of crop dying due to lack of enviromental stats, and resistance of crop to weed spread. It also reduces mutation chance as it goes up (apparently). Aim for around 10 for balance.
 
 # Quest.1795 - Metals from the Sky
 gtnh.quest1795.name=天外金属
-#B gtnh.quest1795.desc=You can even create metals not found on Earth using crops!  You'll need the proper metal block beneath the crop in order for them to fully mature.
-#A gtnh.quest1795.desc=You can even create metals not found on Earth using crops!  You'll need the proper metal block beneath the crop in order for them to fully mature.%n%nBTW, higher tier crops have a lower chance of dropping seeds, so consider breeding a second one before you try breaking them, ok?
-#C gtnh.quest1795.desc=你甚至可以用作物创造出地表不存在的金属!  当然,你需要将合适的金属方块至于作物之下,才能使其完全成熟.
+、gtnh.quest1795.desc=你甚至可以用作物创造出地表不存在的金属!  当然,你需要将合适的金属方块至于作物之下,才能使其完全成熟.%n%n另外,高阶作物掉落种子的几率更低,所以在尝试左键获取种子袋之前,最好再繁殖一株保险?
 
 # Quest.1796 - §5§lBetter Gallium and Arsenic sources
 gtnh.quest1796.name=§5§l镓和砷的更好来源
@@ -7380,9 +7376,7 @@ gtnh.quest1807.desc=不必把暮色森林翻个底朝天来寻找钢叶了,你�
 
 # Quest.1808 - Plants that make their own fertilizer?
 gtnh.quest1808.name=自产肥料的植物?
-#B gtnh.quest1808.desc=Sign me up! This plant will create fertilzer ingredients for you. %n%nDecent plants to cross to get Fertilia are spidernip, venomilia, or zomplant. Watch out for venomilia though, not only is it poisonous, it also promotes weed growth!%n%nYou can make Forestry fertilizer with the drops from this plant in a mixer.
-#A gtnh.quest1808.desc=Sign me up! This plant will create fertilzer ingredients for you. %n%nThe best plants to cross to get Fertilia are zomplant, venomilia, trollplant, or spidernip. Watch out for venomilia though, not only is it poisonous, it also acts like a weed at growth 8+!%n%nUse the IC2 fertilizer and apatite this drops to make forestry fertilizer if using the multifarm.%n%n§3BTW this is the rarest one, with a 0.76% chance even for zomplant, so expect it to take approximately 3 eternities.
-#C gtnh.quest1808.desc=给我签个名!肥料花(Fertilia)会为你生产肥料.  比较容易杂交出肥料花的作物有:蜘蛛花(spidernip)、奇妙花(venomilia)或僵尸草(zomplant).当心奇妙花,不只是因为它有毒,还因为它更容易长杂草！  你可以用肥料花的掉落物在搅拌机中制作林业肥料.
+gtnh.quest1808.desc=给我签个名!肥料花(Fertilia)会为你生产肥料.%n%n比较容易杂交出肥料花的作物有:蜘蛛花(spidernip)、山精草(trollplant)、奇妙花(venomilia)或僵尸草(zomplant).当心奇妙花,不只是因为它有毒,还因为它更容易长杂草(生长8+)!%n%n你可以用肥料花的掉落物和IC2肥料在搅拌机中制作可用于多方块农场的林业肥料.%n%n§3另外,肥料花极端稀有,就算用僵尸草杂交也只有0.76％的几率,所以请做好花大概三不朽(three-eternities)时间的准备.
 
 # Quest.1809 - Renewable oil
 gtnh.quest1809.name=可再生石油
@@ -7422,9 +7416,7 @@ gtnh.quest1817.desc=处理更先进的材料(宇宙中子素、三钛合金和�
 
 # Quest.1818 - §6§lLarge Essentia Generator
 gtnh.quest1818.name=§6§l大型源质发电机
-#B gtnh.quest1818.desc=Having one Essentia Generator per Essentoia type seeems unpracticable.... Better make a Large Essentia Generator and burn all this Essentia in parallel! As another Bonus, this Generator produces 20x the Energy a Single Block Machine will produce. You might need more Magic Containment Casings than this Quest asks for.
-#A gtnh.quest1818.desc=Having one Essentia Generator per Essentia type seeems unpracticable.... Better make a Large Essentia Generator and burn all this Essentia in parallel! As another Bonus, this Generator produces 20x the Energy a Single Block Machine will produce. You might need more Magic Containment Casings than this Quest asks for.%n%n§4PS: This is apparently super buggy and may or may not work.
-#C gtnh.quest1818.desc=每种源质准备一台源质发电机看起来不太实用....你最好造一台大型源质发电机,然后只管往里丢源质就行了!这台发电机的另一个好处是,使用等量源质,大型源质发电机的发电量是单方块源质发电机的20倍.你可能需要比此任务所需更多的魔法机械方块.
+gtnh.quest1818.desc=每种源质准备一台源质发电机看起来不太实用....你最好造一台大型源质发电机,然后只管往里丢源质就行了!这台发电机的另一个好处是,使用等量源质,大型源质发电机的发电量是单方块源质发电机的20倍.你可能需要比此任务所需更多的魔法机械方块.%n%n§4PS:这显然是个超级bug,也许能工作,也许不能...
 
 # Quest.1819 - §6§lCircuit Programmer
 gtnh.quest1819.name=§6§l电路编程器
@@ -7540,9 +7532,7 @@ gtnh.quest1846.desc=想要造个人工湖?试试液闸吧,它会用你给的任�
 
 # Quest.1847 - §a§lPortable hole? How about portable chunk!
 gtnh.quest1847.name=§a§l便携式洞穴?便携式区块怎么样!
-#B gtnh.quest1847.desc=With further research, I've discovered a key made of spectral iron can open a portal into a pocket dimension.  It's only one chunk wide and quite short, but you can increase the height by adding more ectoplasm to the spectre core in the room.  Perfect for retrieving ores from far planets, or as a quiet refuge.
-#A gtnh.quest1847.desc=With further research, I've discovered a key made of spectral iron can open a portal into a pocket dimension. It's only one chunk wide, but perfect for storing stuff I might need while exploring faraway planets, or as a quiet refuge after a difficult battle.
-#C gtnh.quest1847.desc=通过进一步研究,我发现了用灵魂之铁制作的灵魂之匙可以打开一个通灵世界.这个世界只有一个区块宽,而且很短,但你可以向这个世界的核心添加灵气来提升世界的高度.  这个世界非常适合从遥远的星球上回收矿石,或是作为避难所.
+gtnh.quest1847.desc=通过进一步研究,我发现了用灵魂之铁制作的灵魂之匙可以打开一个通灵世界.这个世界只有一个区块宽,但你可以向这个世界的核心添加灵气来提升世界的高度.  这个世界非常适合从遥远的星球上回收矿石,或是作为一场艰苦战斗后的避难所.
 
 # Quest.1848 - Armor of the Dead
 gtnh.quest1848.name=灵魂护甲
@@ -7602,9 +7592,7 @@ gtnh.quest1861.desc=用硬币买些鸡蛋吧.
 
 # Quest.1862 - Robotic crop pickers
 gtnh.quest1862.name=机械化作物收割
-#B gtnh.quest1862.desc=The Crop Harvester will pick your crops for you, which is great. 
-#A gtnh.quest1862.desc=The Crop Harvester will pick your crops for you, which is great. %n%nWhat's not great is that it's worse than the multifarm, why is this HV again?
-#C gtnh.quest1862.desc=作物收割机可以自动收获作物,太棒了! 
+gtnh.quest1862.desc=作物收割机可以自动收获作物,太棒了! %n%n不太棒的是,它比不上多方块农场,为什么这是HV?
 
 # Quest.1863 - §5§lThrowing out the trash
 gtnh.quest1863.name=§5§l把垃圾都扔了
@@ -7631,20 +7619,12 @@ gtnh.quest1868.name=§6§l超低功率IC
 gtnh.quest1868.desc=MV能源仓需要超低功率IC.去制造一些吧.
 
 # Quest.1869 - §6§lThe Church of Benzene's Holy Altar
-#B gtnh.quest1869.name=§6§lHydrogen, methane or some farts... (Natural gas) MV 
-#A gtnh.quest1869.name=§6§lThe Church of Benzene's Holy Altar
-#C gtnh.quest1869.name=§6§l氢,甲烷或屁... (天然气) MV 
-#B gtnh.quest1869.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. You can also setup a Benzene based operation (see quest to the right). Or you can start refining oil into refinery gas or naphtha to burn.%n%n§4Gas turbines produce half the pollution of combusion generators, but their fuels are generally not as efficient. Choice is up to you which power source you use.%n%nMV Gas Turbines have a 90 percent fuel efficiency.
-#A gtnh.quest1869.desc=If you're going the Gas route, make some Benzene.
-#C gtnh.quest1869.desc=某些物品离心处理后会留下气体,比如氢气或甲烷.离心棕褐铁矿和黄褐铁矿可以获得氢气,把你吃剩的食物丢进离心机可获得甲烷,离心原木是更好的选择,每个可产出60mb的甲烷.可能是时候造个树厂了.你还可以处理苯来获取甲烷(看右边的任务).你还可以把石油蒸馏成炼油气或是石脑油来烧.  §4燃气轮机比柴油发电机的污染少一半,但它们的燃料效率通常不同.使用何种电源选择权在你.  MV燃气轮机的燃料效率为90％.
+gtnh.quest1869.name=§6§l大苯环神教圣堂
+gtnh.quest1869.desc=如果你在搭天然气线的话,造些苯吧!%n%n译者注:别听他的,树厂的苯多的不要不要的...
 
 # Quest.1870 - §6§lDiesel Power
-#B gtnh.quest1870.name=§6§lDiesel, oil or maybe creosote? MV
-#A gtnh.quest1870.name=§6§lDiesel Power
-#C gtnh.quest1870.name=§6§l柴油,石油或者杂酚油? MV
-#B gtnh.quest1870.desc=You probably collected a ton of creosote and maybe even have built your first Electric Blast Furnace. Creosote will be a good fuel for the moment. So try to build a few of the combustion generators and use them besides steam as a secondary power source. Small generators will only use fuel if there is EU demand.%n%n§4Advanced Combustion Gnerators have a 90 percent fuel efficiency.%n%nThis will also unlock new quests in the Armors and Jetpacks tab.
-#A gtnh.quest1870.desc=Have you noticed you can make diesel yet? Well you can. It's also used in the copterpack, so why not use it for power too?%n%n§3This will also unlock new quests in the Armors and Jetpacks tab.
-#C gtnh.quest1870.desc=你可能收集了成吨的杂酚油,甚至可能已经建造了第一台工业高炉.这时,杂酚油就是不错的燃料.所以试着制造一些柴油发电机并用它们作为蒸汽以外的第二种能量来源.小型发电机只会在有EU需求时使用燃料.  §4MV柴油发电机的燃料效率为90％.  这也将解锁"装甲和喷气背包"任务栏中的新任务.
+gtnh.quest1870.name=§6§l柴油能源
+gtnh.quest1870.desc=注意到了没,你已经可以制造柴油了!柴油可用于直升机背包,那么为什么不用它发电呢?%n%n§3此任务还可以解锁"摆脱死亡,游历四方"章节中的任务.
 
 # Quest.1871 - §9§lField Generator I
 gtnh.quest1871.name=§9§l力场发生器 I
@@ -7727,12 +7707,8 @@ gtnh.quest1890.name=§b§lIV组装机
 gtnh.quest1890.desc=想要制作HV太阳能覆盖板,你需要富集阳光化合物,做一台IV组装机吧!  它比EV组装机快一倍.
 
 # Quest.1891 - §a§lCritical Materials
-#B gtnh.quest1891.name=§a§lDesh, Scheelite, Tungstate
-#A gtnh.quest1891.name=§a§lCritical Materials
-#C gtnh.quest1891.name=§a§l戴斯, 白钨, 钨酸盐
-#B gtnh.quest1891.desc=Tungstensteel is the material you need but first go find some desh scheelite and tungstate mix on Mars. Look at Y 5-40.
-#A gtnh.quest1891.desc=For more tungsten and tungstensteel, you'll want scheelite and tungstate. But the most important is desh, found only as small ore elsewhere, and used for the next rocket. Check Y 5-40.%n%n§3Since there's a good chance you have the MBM by now, you can do the crushed ore task §oinstead§r§3 of the ore one. This holds for other, similar quests.
-#C gtnh.quest1891.desc=钨钢是你不可或缺的一种材料,但你首先得在火星上找到戴斯、白钨、钨酸盐三者混合的矿脉. 搜索Y=5-40.
+gtnh.quest1891.name=§a§l关键材料
+gtnh.quest1891.desc=钨钢是你不可或缺的一种材料,但你首先得在火星上找到戴斯、白钨、钨酸盐三者混合的矿脉.请搜索Y=5-40.戴斯同样是一种非常重要的材料(下一阶火箭),除了此矿脉以外,只能通过贫瘠矿获取.%n%n§3现在你大概率已经拥有了多方块采矿场,所以你可以用粉碎矿石§o替代§r§3矿石提交任务.这也适用于其他类似任务.
 
 # Quest.1892 - Fluorine
 gtnh.quest1892.name=氟
@@ -7740,15 +7716,11 @@ gtnh.quest1892.desc=需要一些氟? 来买点吧!
 
 # Quest.1893 - §6§lFluid Regulator
 gtnh.quest1893.name=§6§l流体校准器
-#B gtnh.quest1893.desc=Turbines require precise amounts of fluids or else they will explode.  Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right click with an empty hand%n16L - Right click with a screwdriver%n256L - Right click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side.
-#A gtnh.quest1893.desc=Turbines require precise amounts of fluids or else they will §4explode§r. Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right click with an empty hand%n16L - Right click with a screwdriver%n256L - Right click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side.%n%nUse the Large Turbine Calculator and the the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.
-#C gtnh.quest1893.desc=涡轮需要精确控制流量,否则容易造成爆炸或浪费.  将流体校准器贴在连接到输入总线的管道上,控制进入涡轮的流量.想要提高流量,对准流体校准器的右侧,然后:  1L-空手右键 16L-手持螺丝刀右键 256L-手持螺丝刀,Shift+右键  想要降低流量,对准流体校准器的左侧,其余操作一致.
+gtnh.quest1893.desc=涡轮需要精确控制流量,否则容易造成§4爆炸§r或浪费.  将流体校准器贴在连接到输入总线的管道上,控制进入涡轮的流量.想要提高流量,对准流体校准器的右侧,然后:%n%n1L-空手右键%n16L-手持螺丝刀右键%n256L-手持螺丝刀,Shift+右键%n%n想要降低流量,对准流体校准器的左侧,其余操作一致.%n%n请参考大型涡轮计算器和涡轮参数表设置流量(确认燃料后).在GTNH,这些数学计算就交给我们吧!至少在这个任务.
 
 # Quest.1894 - §6§lGas Turbine
 gtnh.quest1894.name=§6§l大型燃气涡轮
-#B gtnh.quest1894.desc=A Large Gas Turbine is more fuel-efficient than singleblock turbines and can have lower pollution with upgraded mufflers.%n%nYou will also need a muffler, maintenance hatch, input hatch, and dynamo hatch.  Don't forget a fluid regulator. It can be a low tier fluid regulator since the fluid/tick necessary is much less than steam.%n%nSelecting a rotor is pretty easy. Take the EU/t of your dynamo hatch, and select a rotor that has (optimal gas flow * efficiency) that is close. Now, setting up the fluid regulator is hard. The easiest way is to let in 1 L/t and use the hand-scanner to tell you the optimal flow rate. Otherwise divide the optimal gas flow by the EU/L of your gas and round down. %n%nFor example, if we are using a normal vibrant alloy turbine with 1800 EU/t optimal gas flow and 115 percent efficiency with benzene. %n1800/288 = 6.25%nRounded down that is 6L/t.  6 * 288 * 1.15 = 1987, perfect for an EV dynamo.%nOther gases may output slightly higher or lower EU depending on how close to optimal they can reach. For example refinery gas%n1800/160 = 11.25%n11 * 160 * 1.15 = 2024, still OK for an EV dynamo%nHowever hydrogen at 20 EU/L is dangerous because%n1800/20 = 90%n90 * 20 * 1.15 = 2070, above 2048, so BOOOOM.  You'll have to use a multi-amp dynamo hatch to prevent an explosion.%n%nOther useful turbine options at EV are normal ardite and galgadorian.%n%nFor additional choices, see the Large Turbine Calculator in Discord.
-#A gtnh.quest1894.desc=A Large Gas Turbine is more fuel-efficient than singleblock turbines and can have lower pollution with upgraded mufflers.%n%nYou will also need a muffler and dynamo hatch.  Don't forget a fluid regulator. It can be an LV fluid regulator since the fluid/tick necessary is much lower than steam.%n%nSelecting a rotor is pretty easy. Take the EU/t of your dynamo hatch, and select a rotor that has (optimal gas flow * efficiency) that is close. Now, setting up the fluid regulator is hard. The easiest way is to let in 1 L/t and use the hand-scanner to tell you the optimal flow rate. Otherwise divide the optimal gas flow by the EU/L of your gas and round down. %n%nFor example, if we are using a normal vibrant alloy turbine with 1800 EU/t optimal gas flow and 115 percent efficiency with benzene. %n1800/288 = 6.25%nRounded down that is 6L/t.  6 * 288 * 1.15 = 1987, perfect for an EV dynamo.%nOther gases may output slightly higher or lower EU depending on how close to optimal they can reach. For example refinery gas%n1800/160 = 11.25%n11 * 160 * 1.15 = 2024, still OK for an EV dynamo%nHowever hydrogen at 20 EU/L is dangerous because%n1800/20 = 90%n90 * 20 * 1.15 = 2070, above 2048, so BOOOOM.  You'll have to use a multi-amp dynamo hatch to prevent an explosion.%n%nOther useful turbine options at EV are normal ardite and galgadorian.%n%nFor additional choices, see the Large Turbine Calculator in Discord.
-#C gtnh.quest1894.desc=大型燃气涡轮相比于单方块燃气轮机,拥有更高的燃料效率,还可以通过升级消声仓来降低污染.  你需要消声仓、维护仓、输入仓和动力仓.  别忘了流体校准器.由于大型燃气涡轮每t需要的气体远低于大型蒸汽涡轮所需的蒸汽,所以不需要太高级的流体校准器.  挑选涡轮转子很容易.只要根据你的动力仓电压,挑选接近这个电压的转子即可(最佳气体流量*效率).  比较难的是设置流体校准器.最简单的方法是先通入1L/t的气体,然后使用便携式扫描仪获知最佳流量.或者也可以用最佳气体流量除以气体的燃烧值并向下取整.  举个栗子,如果你使用普通的脉冲合金涡轮,它的最佳气体流量为1800EU/t,效率为115％.当你用苯作为燃料时,苯的燃烧值为288EU/L,1800/288=6.25,向下取整为6L/t. 发电为6*288*1.15=1987EU/t,非常适合EV动力仓.  其他气体的输出电压可能略高或略低,取决于它们与最佳气体流量接近程度. 再举个栗子,炼油气,燃烧值为160EU/L,1800/160=11.25,11*160*1.15=2024,依然适用于EV动力仓. 但是用氢就很危险了,氢的燃烧值为20EU/L,1800/20=90,90*20*1.15=2070,超过了2048,于是BOOOOM.  其他比较适合EV阶段的涡轮:普通阿迪特涡轮、普通强化混合晶涡轮.  至于其他选择,详见Discord频道中的大型涡轮计算器.
+gtnh.quest1894.desc=大型燃气涡轮相比于单方块燃气轮机,拥有更高的燃料效率,还可以通过升级消声仓来降低污染.%n%n你还需要消声仓、维护仓、输入仓和动力仓.  别忘了流体校准器.由于大型燃气涡轮每t需要的气体远低于大型蒸汽涡轮所需的蒸汽,所以不需要太高级的流体校准器(目前LV就够了).%n%n挑选涡轮转子很容易.只要根据你的动力仓电压,挑选接近这个电压的转子即可(最佳气体流量*效率).  比较难的是设置流体校准器.最简单的方法是先通入1L/t的气体,然后使用便携式扫描仪获知最佳流量.或者也可以用最佳气体流量除以气体的燃烧值并向下取整.%n%n举个栗子,如果你使用普通的脉冲合金涡轮,它的最佳气体流量为1800EU/t,效率为115％.%n当你用苯作为燃料时,苯的燃烧值为288EU/L,1800/288=6.25,向下取整为6L/t. 发电为6*288*1.15=1987EU/t,非常适合EV动力仓.%n其他气体的输出电压可能略高或略低,取决于它们与最佳气体流量接近程度.%n再举个栗子,炼油气,燃烧值为160EU/L,1800/160=11.25,11*160*1.15=2024,依然适用于EV动力仓. 但是用氢就很危险了,氢的燃烧值为20EU/L,1800/20=90,90*20*1.15=2070,超过了2048,于是BOOOOM.%n%n其他比较适合EV阶段的涡轮:普通阿迪特涡轮、普通强化混合晶涡轮.%n%n至于其他选择,详见Discord频道中的大型涡轮计算器.
 
 # Quest.1895 - Manganese Ore
 gtnh.quest1895.name=锰矿石
@@ -7780,9 +7752,7 @@ gtnh.quest1901.desc=需要更多的能量?何不把二联燃料棒结合起来?�
 
 # Quest.1902 - §a§lNo Boom Tomorrow
 gtnh.quest1902.name=§a§l愿再无爆炸
-#B gtnh.quest1902.desc=With a nuke, you can cause some real catastrophic damage to your base. You can either place it 20 chunks away, or surround it with blast proof materials. Fused quartz is relatively cheap, and can be converted into a variant that glows, or a variant that blocks light. Make some fused quartz and I'll give you some enlightened fused quartz.%n%n§4Alternatives include Warded Glass from Thaumcraft.
-#A gtnh.quest1902.desc=With a nuke, you can cause some real catastrophic damage to your base. You can either place it 20 chunks away, or surround it with blast proof materials. %n%nFused Questz is no good now, forget about it ok? Instead, use the GTNH approved Plated Reinforced Stone series! Or one of the other options I guess, like Warded Glass. You may need multiple layers depending on your reactor, try it out in creative.%n%n§3There are 6 of them, use NEI.
-#C gtnh.quest1902.desc=有了核反应堆之后,你对基地的破坏能力突破了天际...你可以把反应堆放得远远的(20区块远),或是用防爆材料将反应堆围个严严实实.EIO的石英玻璃就是一种廉价防爆材料,它还可以制作成发光的变种或是遮光的变种.制作一些石英玻璃,我会给你一些发光的.  §4其他的可选防爆材料还包括神秘的守卫者玻璃.
+gtnh.quest1902.desc=有了核(弹)反应堆之后,你对基地的破坏能力突破了天际...你可以把反应堆放得远远的(20区块远),或是用防爆材料将反应堆围个严严实实.%n%nEIO的石英玻璃不再好用,忘了它们吧.请使用GTNH认证的镀层防爆石系列!  §4其他的可选防爆材料还包括神秘的守卫者玻璃.根据你的反应堆威力,可能需要多层防爆石,请在创造模式测试.%n%n§3有六种镀层防爆石,具体请查看NEI.
 
 # Quest.1903 - §9§e§9§lHV Energy Hatch
 gtnh.quest1903.name=§9§e§9§lHV能源仓
@@ -7854,9 +7824,7 @@ gtnh.quest1919.desc=那是不可能的！但如果你真的想摆脱那些多余
 
 # Quest.1920 - Can't tell them apart either?
 gtnh.quest1920.name=啥啥分不清楚?
-#B gtnh.quest1920.desc=Many plants look the same. Someday we'll update their DNA so they are each unique, but for now you can make a simple Plant Lens to at least identify species.
-#A gtnh.quest1920.desc=Many plants look the same. Someday you'll be able to use a machine to tell them apart+more, but for now you can make a simple Plant Lens to at least identify species.%n%nAfter using it you can tell the following:%nSpecies%nCrop tier%nWhether it can grow (some crops have requirements)%nWhether you can harvest it%nGrowth stage, and progress to the next
-#C gtnh.quest1920.desc=许多植物看起来都差不多.总有一天我们会升级它们的DNA让它们独一无二,但是现在你需要制作一个简易的植物透镜,至少能分辨它们的物种.
+gtnh.quest1920.desc=许多植物看起来都差不多.总有一天你可以用机器将它们区分开了,但是现在你需要制作一个简易的植物透镜,至少能分辨它们的物种.%n%n使用透镜后,你可以知道以下信息:%n种类%n作物等级%n是否可以生长(某些作物有特殊要求)%n是否可以收获%n生长状态,到下一阶段的进度
 
 # Quest.1921 - §9§lSeparating molecules
 gtnh.quest1921.name=§9§l分子分离器
@@ -7876,9 +7844,7 @@ gtnh.quest1924.desc=为真正的用电狂人准备,可将16A降压变为64A的�
 
 # Quest.1925 - §a§lWhat's in the box?
 gtnh.quest1925.name=§a§l这盒子里有什么?
-#B gtnh.quest1925.desc=Tired of waiting around 7 hours with radium in your inventory waiting for it to decay? With a lead-lined box you can safely leave your radium and other materials and they will decay while you do real work.%n%n§3You may not be able to shift click items in and out, but pipes still work. Use a filter to automate the whole process.
-#A gtnh.quest1925.desc=Tired of waiting around 7 hours with radium in your inventory waiting for it to decay? With a lead-lined box you can safely leave your radium and other materials and they will decay while you do real work.%n%n§3You may not be able to shift click items in and out, but pipes still work. Use a filter to automate the whole process.%n%nYou can WA the box if you hate waiting.
-#C gtnh.quest1925.desc=厌倦了揣着一兜镭等待大约7小时衰变?有了这个铅封盒,你就能将镭和别的材料放进去,它们会自己衰变,同时你就能干点别的了.
+gtnh.quest1925.desc=厌倦了揣着一兜镭等待大约7小时衰变?有了这个铅封盒,你就能将镭和别的材料放进去,它们会自己衰变,同时你就能干点别的了.%n%n§3你可能无法通过shift+单机快速存入或取出物品,但管道仍可工作.使用一个过滤器即可自动化整个过程.%n%n如果还觉得慢,那就搞个阵列吧.
 
 # Quest.1926 - §2§lA quicker way to get around
 gtnh.quest1926.name=§2§l一种更快捷的出行方式
@@ -8326,9 +8292,7 @@ gtnh.quest2036.desc=炽焱高炉能以难以置信的速度处理物品. 想要�
 
 # Quest.2037 - Spools and spools
 gtnh.quest2037.name=绕了一圈又一圈
-#B gtnh.quest2037.desc=Need enough wire to go around the world? Here you go.%n%n§3This multi is LuV.
-#A gtnh.quest2037.desc=Need enough wire to go around the world? Here you go.%n%n§3This multi is IV.
-#C gtnh.quest2037.desc=想要绕地球几圈的导线?试试这个吧.%n%n§3这台多方块机器可以在LuV阶段制造.
+gtnh.quest2037.desc=想要绕地球几圈的导线?试试这个吧.%n%n§3这台多方块机器可以在IV阶段制造.
 
 # Quest.2038 - Bender more bending
 gtnh.quest2038.name=弯曲、辊压
@@ -8383,15 +8347,11 @@ gtnh.quest2050.name=贪婪箱子
 gtnh.quest2050.desc=自动化魔法(Automagy)的贪婪箱子看起来有些有趣的用法.对神秘使来说,这也是非常重要的设备.
 
 # Quest.2051 - Another Path to Ethanol
-#B gtnh.quest2051.name=Another way to Ethanol
-#A gtnh.quest2051.name=Another Path to Ethanol
-#C gtnh.quest2051.name=获得乙醇的另一种方法
+gtnh.quest2051.name=获得乙醇的另一种方法
 gtnh.quest2051.desc=使用发酵槽处理多余的树苗或其他垃圾获得林业生物质.你的树苗多汁属性越高,你的收获就会越多.
 
 # Quest.2052 - Why No, This is Not Fit For Human Consumption
-#B gtnh.quest2052.name=Why no, this is not fit for human consumption
-#A gtnh.quest2052.name=Why No, This is Not Fit For Human Consumption
-#C gtnh.quest2052.name=为什么不,这不适合人类消费
+gtnh.quest2052.name=为什么不,这不适合人类消费
 gtnh.quest2052.desc=收集发酵槽中的生物质,再放入蒸馏室中蒸馏,可获得乙醇.用来发电并不太合适,但要是你想制备乙烯,它就很有用.  要是不想太麻烦,你可以用老旧的蒸汽设备为这套机器加上林业农场供能,或者你也可以选择用出产的乙醇来供能.
 
 # Quest.2053 - Empty the oceans
@@ -8403,9 +8363,7 @@ gtnh.quest2054.name=把所有工人赶出工作岗位
 gtnh.quest2054.desc=大规模自动装配机可以为你组装大量的物品. 它将组装机、拆解机和自动合成机的功能集成到了一起.%n%n§3这台多方块机器可以在ZPM阶段制造, 在此之前, 打消跳科技的念头吧.
 
 # Quest.2055 - Better Fermenter Outputs
-#B gtnh.quest2055.name=Better fermenter outputs
-#A gtnh.quest2055.name=Better Fermenter Outputs
-#C gtnh.quest2055.name=更好的发酵产出
+gtnh.quest2055.name=更好的发酵产出
 gtnh.quest2055.desc=有了榨汁机,你可以提高发酵槽的产出,节省肥料或覆盖戍并且提高每个树苗的产出.有许多作物可用于获取果汁,所以培育愉快.
 
 # Quest.2056 - §3§lJacques Cousteau
@@ -8461,9 +8419,7 @@ gtnh.quest2068.name=祛魔
 gtnh.quest2068.desc=如果你发现一个物品或一本书有一个不错的附魔-但同时还有一堆垃圾附魔.使用祛魔台,你可以将这些附魔一个一个分离出来,封印到书中.将其用书柜环绕起来,以减少对物品的损坏.
 
 # Quest.2069 - §9§lHot hot hot! (hidden)
-#B gtnh.quest2069.name=§9§lHot hot hot!
-#A gtnh.quest2069.name=§9§lHot hot hot! (hidden)
-#C gtnh.quest2069.name=§9§l热,热,热!
+gtnh.quest2069.name=§9§l热,热,热!(隐藏)
 gtnh.quest2069.desc=有了真空冷冻机之后,你受够了捧着炽热的锭跑来跑去了.  你的旧手套正在分崩离析,而且会占用双手.我觉得会有办法将它们结合起来的,这样你就可以只用一只手端着那些烫东西了.试试这个.
 
 # Quest.2070 - So you want to go slower...wait, what?
@@ -8515,29 +8471,19 @@ gtnh.quest2081.name=欢迎来到生物课堂!
 gtnh.quest2081.desc=Binnie的基因工程(Genetics)mod使你能够提取并挑选蜜蜂、树和花的基因.但这不是免费的!你需要付出一定的代价.  直接用GT的EU给这些机器供电不是好的选择(会造成大量浪费),你应该给EIO的电容库提供能量,然后再用电容库给这些机器供应RF能量.
 
 # Quest.2082 - Making Bees More Comfortable
-#B gtnh.quest2082.name=Making bees more comfortable
-#A gtnh.quest2082.name=Making Bees More Comfortable
-#C gtnh.quest2082.name=让蜜蜂住得更舒服
+gtnh.quest2082.name=让蜜蜂住得更舒服
 gtnh.quest2082.desc=适应性调整器是你培育蜜蜂的关键机器.  有了大量的能量和适当的配料,你就能使蜜蜂在任何地方茁壮成长.推荐使用EIO的空间传送器为设备供能.但是,即使蜜蜂能够忍受各种气候并生产,可它们只有在最喜欢的环境下才会产出特殊产物.把蜜蜂和这些物品一起放入来调整蜜蜂的基因:  雪球-更强的低温耐受性  岩浆-更强的高温耐受性  沙子-更强的耐旱性  水-更强的耐湿性  对于水,最好用蜂蜡制成的蜂蜡胶囊盛放,对于岩浆,使用耐火蜂蜡制成的耐火胶囊盛放.适应性调整器不会返还胶囊或单元.
 
 # Quest.2083 - Such Pretty Leaves...
-#B gtnh.quest2083.name=Such pretty leaves...
-#A gtnh.quest2083.name=Such Pretty Leaves...
-#C gtnh.quest2083.name=多么漂亮的树叶...
-#B gtnh.quest2083.desc=Now that you have entered MV you can begin breeding Forestry trees the smart way. Start by getting a Treealyzer, and scanning some common vanilla trees like oak, dark oak, spruce, birch, acacia, and jungle saplings. You will need to gather honey or honeydew drops from bee combs to power the Treealyzer. %n%nIf you want to bulk scan saplings, you can feed them through a GT scanner filled with honey.%n%nIf you have reached MV, you can try the Slice and Splice tab for information on Genetics.
-#A gtnh.quest2083.desc=Now that you have entered MV you can begin breeding Forestry trees the smart way. Start by getting a Treealyzer, and scan the vanilla trees. They will transfrom into the forestry versions. You will need to gather honey or honeydew drops from bee combs to power the Treealyzer. %n%nIf you want to bulk scan saplings, you can feed them through a GT scanner filled with honey.%n%nYou can also try the Genetics mod to modify them. It's on the first bee tab.
-#C gtnh.quest2083.desc=既然你已经进入了MV阶段,你就可以开始用聪明的方法培育林业的树了. 首先做个林木分析仪,然后扫描一些常见的原版树苗,比如橡木、深色橡木、云杉、白桦、金合欢和丛林木.你得用蜂窝弄些蜂蜜或者蜂蜜汁来驱动林木分析仪.  如果你想要批量扫描树苗,你可以使用装满蜂蜜的GT扫描仪.  你还可以看看"切片、嫁接、杂交"任务栏,获知基因工程mod的更多信息.
+gtnh.quest2083.name=多么漂亮的树叶...
+gtnh.quest2083.desc=既然你已经进入了MV阶段,你就可以开始用聪明的方法培育林业的树了. 首先做个林木分析仪,然后扫描一些常见的原版树苗,比如橡木、深色橡木、云杉、白桦、金合欢和丛林木.这样它们就会转化为林业版本的树苗.你得用蜂窝弄些蜂蜜或者蜂蜜汁来驱动林木分析仪.%n%n如果你想要批量扫描树苗,可以使用装满蜂蜜的GT扫描仪.%n%n你还可以试着用基因工业的机器修改它们.
 
 # Quest.2084 - Collecting the Hybrids
-#B gtnh.quest2084.name=Collecting the hybrids
-#A gtnh.quest2084.name=Collecting the Hybrids
-#C gtnh.quest2084.name=收集混血儿们
+gtnh.quest2084.name=收集混血儿们
 gtnh.quest2084.desc=如果你幸运地在村庄中找到了一些蜜蜂,你可以把它们放入临近树木的蜂箱中.随着时间的推移,蜜蜂会慢慢地为树木的叶子授粉.使用剪枝器,你可以破坏树叶收集树苗.你可以跟村民交易来获得使用寿命更长的剪枝器.也可以研究研究魔法,你听到谣言称,最耐用的剪枝器只有魔法师才可以制作.  GT也提供了非常好的工具,同样名为剪枝器.
 
 # Quest.2085 - Seeing the Fruits of Your Labor
-#B gtnh.quest2085.name=Seeing the fruits of your labors
-#A gtnh.quest2085.name=Seeing the Fruits of Your Labor
-#C gtnh.quest2085.name=看看你的劳动成果
+gtnh.quest2085.name=看看你的劳动成果
 gtnh.quest2085.desc=很难看出哪块树叶被授粉了.制作一副眼镜来获取更好的视野.
 
 # Quest.2086 - §6§lGrinding heads are better than none
@@ -8553,45 +8499,27 @@ gtnh.quest2088.name=恒温箱
 gtnh.quest2088.desc=这是一台合成机器,可将物品和液体加热到能够促进细菌生长的温度.  培养的第一步就是制作培养基液体(水+培养基).随后将其与小麦一起培养以产生细菌.这种细菌液体可以与糖一起进行第三次培养,产生酶.酶是其他机器也要用到的重要物质.  因此,制造酶的最佳方法是用三个恒温箱构造一个流水线.
 
 # Quest.2089 - Bees By the Millions
-#B gtnh.quest2089.name=Bees by the millions
-#A gtnh.quest2089.name=Bees By the Millions
-#C gtnh.quest2089.name=百万蜜蜂
+gtnh.quest2089.name=百万蜜蜂
 gtnh.quest2089.desc=如果你想要终极的蜜蜂生产速度,工业蜂箱是唯一的道路.  工业蜂箱中类似框架的升级是不会损坏的. 产量升级可以叠加最多8个.还有许多环境模拟类的升级、基因寿命类升级、授粉升级、还有最关键的自动化升级-工业化量产的关键.
 
 # Quest.2090 - Fastest Way to Get There
-#B gtnh.quest2090.name=Fastest way to get there
-#A gtnh.quest2090.name=Fastest Way to Get There
-#C gtnh.quest2090.name=最快突变
-#B gtnh.quest2090.desc=A GT++ Mutagenic frame will get your bees to their final destination faster than you can blink. Just remember to wear your rubber suit while making it!
-#A gtnh.quest2090.desc=A GT++ Mutagenic frame will get your bees to their final destination faster than you can blink. Just remember to wear your rubber suit while making it!%n%n§3These will break in the alveary before they take effect since their durability is under 6. So you can only get to 125x, but I think that's enough, don't you?
-#C gtnh.quest2090.desc=GT++的诱变框架可使你的蜜蜂在眨眼间完成突变.  只是记得制作它的时候要穿好防化服!
+gtnh.quest2090.name=最快突变
+gtnh.quest2090.desc=GT++的诱变框架可使你的蜜蜂在眨眼间完成突变.只是记得制作它的时候要穿好防化服!%n%n§3低于6耐久的框架会在其生效前直接损坏.所以速度只能提升到125倍,但我觉得已经足够了,不是吗?
 
 # Quest.2091 - Upgrading the Alveary
-#B gtnh.quest2091.name=Upgrading the Alveary (tier 1)
-#A gtnh.quest2091.name=Upgrading the Alveary
-#C gtnh.quest2091.name=蜂箱组升级(1阶)
-#B gtnh.quest2091.desc=These basic upgrades to the Alveary make it more powerful. %n%nFrame housing - Automation-enabled frames for the Alveary. 3 per unit%nSwarmer - Creates additional Ignoble queens in hives around the Alveary%nHygroregulator - Controls for humidity, and to a lesser extent temperature. Will require lava or water.%nStabilizer - Prevents the princess or queen from changing species. Ideal for breeding traits into a line.%nSieve - Instead of the pollen from a bee fertilizing a nearby tree, it is stored here and can be manually applied. Requires manually placing woven silk in the inventory.%nRain shield - Keeps bees that are not rain tolerant dry and working.%nHatchery - Hatches larval bees for use in Genetics or to create additional drones.
-#A gtnh.quest2091.desc=These basic upgrades to the Alveary make it more powerful. %n%nFrame Housing - Automation-enabled frame slot for the Alveary. Uses §55 durability§r every bee tick (27s). If it runs out on that tick, it has no effect.%nAveary Stabilizer - Prevents the bees from mutating into another species. Ideal for breeding traits into a line.%nAlveary Transmission - Power input for upgrades that use power.%nHatchery - Hatches larval bees for use in Genetics or to create additional drones. Not used for Gendustry stuff.%nAlveary Sieve - Instead of the pollen from a bee fertilizing a nearby tree, it is stored here and can be manually applied. Requires manually placing woven silk in the inventory.%nSwarmer - Creates additional Ignoble queens in hives around the Alveary. These are genetic copies of the original. This uses royal jelly or aromatic lumps. The latter are more effective.%n%n§3Note that all upgrade blocks must be in the bottom 2 layers. The center block also cannot be an upgrade block, though the bottom center can.%n%n§4When using power, the transmission block will suck down entire amps to fill a tiny amount. Use the EIO capacitors or something similar to prevent this.
-#C gtnh.quest2091.desc=这些蜂箱组的基础升级使它更强大.%n%n框架栏-自动化-使蜂箱组可以安装框架,每个可装三个框架%n克隆盒-在蜂箱组周围生成蜂巢,其内为卑贱种蜂后%n保湿器-控制湿度,小范围控制温度.需要岩浆和水.%n稳定器-蜜蜂突变的几率为0,但是不影响基因的自由组合.非常适合将某条特性培育进蜜蜂基因.%n滤网-收集蜜蜂工作范围内的花粉,而不是让它们给树授粉,收集的花粉可以手动使用. 需要手动将丝绸放入蜂箱组中.%n挡雨方块-使没有耐雨飞行性的蜜蜂在雨天也可以工作.%n孵化间-孵化蜜蜂幼体,用于注入基因或制造额外的雄峰.
+gtnh.quest2091.name=蜂箱组升级
+gtnh.quest2091.desc=这些蜂箱组的基础升级使它更强大.%n%n框架栏-自动化-使蜂箱组可以安装框架,每个可装三个框架.每个蜜蜂刻(27s)消耗§55点耐久§r.如果在当前刻耐久耗尽,那么框架就会失效.%n稳定器-蜜蜂突变的几率为0,但是不影响基因的自由组合.非常适合将某条特性培育进蜜蜂基因.%n蜂箱组能量接口-为蜂箱组中需要能量的框架供能%n孵化间-孵化蜜蜂幼体,用于注入基因或制造额外的雄峰.不兼容基因工业蜜蜂...%n蜂箱组滤网-收集蜜蜂工作范围内的花粉,而不是让它们给树授粉,收集的花粉可以手动使用. 需要手动将丝绸放入蜂箱组中.%n蜂箱组克隆盒-在蜂箱组周围生成蜂巢,其内为卑贱种蜂后.新生成的蜂后为内部蓝本的完全基因克隆体.克隆盒需要蜂王浆或芬芳块,而后者效率更高.%n%n§3请注意,所有的升级方块都必须在蜂箱组的底部两层.同时中央方块不可为升级方块,不过底部中央方块可以为升级方块.%n%n§4需要能量是,蜂箱组能量接口会吸收所有电流,充满一个极小的缓存.所以请使用EIO电容或类似的设备,防止其浪费主线电流.
 
 # Quest.2092 - Busy Bees Buzzing Boldly
-gtnh.quest2092.name=忙碌的蜜蜂大胆地嗡嗡叫
-#B gtnh.quest2092.desc=These upgrades can significantly increase your production rate by keeping your bees from stopping production.%nTransmission - Provides power to frame blocks that need it throughout the alveary.%nAlveary Fan - Cools your temperature a large amount.%nAlveary Heater - Warms your temperature a large amount.%nLighting - Provides light for bees that do not work at night.
-#A gtnh.quest2092.desc=These upgrades can significantly increase your production rate by keeping your bees from stopping production due to the environment.%n%nRain Shield - Can work through the rain%nLighting - Can work day and night%nAlveary Heater - Increases temperature a flat 20% each (needs power)%nAlveary Fan - Decreases temperature a flat 20% each (needs power)%nAlveary Hygroregulator[sic] - Has two modes, water and lava%nLava - Temp+10%, Humidity-20%%nWater - Temp010%, Humidity+20%%n%nUnfortunately, there's no way to make them like caves with a block.
-#C gtnh.quest2092.desc=这些升级通过使蜜蜂保持工作,从而极大地提升你的生产效率. 能量接口-为整个蜂箱组中需要的组件提供能量. 蜂箱组风扇-强效降温. 蜂箱组加热器-强效升温. 蜂箱组日光灯-为没有夜行性的蜜蜂提供光照.
+gtnh.quest2092.name=忙碌的蜜蜂尽情嗡鸣
+gtnh.quest2092.desc=这些升级通过使蜜蜂保持工作(不因环境因素停止工作),从而极大地提升你的生产效率.%n%n挡雨方块-可在雨中工作%n蜂箱组日光灯-为没有夜行性的蜜蜂提供光照%n蜂箱组加热器-将平均温度提高20％(需要能量)%n蜂箱组风扇-将平均温度降低20％(需要能量)%n蜂箱组保湿器-有两种模式,水和岩浆%n岩浆-温度提高10％,湿度降低20％%n水-温度降低10％,湿度提高20％%n%n很遗憾,暂时没有升级可以让这些蜜蜂喜欢穴居环境...
 
 # Quest.2093 - A Stim a Day Keeps the Doctor Awake
-#B gtnh.quest2093.name=A stim a day keeps the doctor awake
-#A gtnh.quest2093.name=A Stim a Day Keeps the Doctor Awake
-#C gtnh.quest2093.name=一天一刺激,医生找上门
-#B gtnh.quest2093.desc=Supporting circuit boards that can hold 4 electron tubes, the Electrical Stimulator provides a variety of functions. All numbers are in percent%n%nLV - Prod: 150 (Max 500) - Iron ET%nHV - Prod: 250 (Max 1000) - Diamantine ET%nBiotic - Poll: 150 (Max 500) - Apatine ET%nCharged - Life: 80 (Min 20) - Obsidian ET%nGentle - Life: 150 (Max 500) - Lapis ET%nMolten - Simulates the Nether - Blazing ET%nMutagenic - Muta: 150 (Max 500) - Golden ET%nInhibiting - Terr: 40 (Min 10) Prod: 90 (Min 50) - Tin ET%nAgitating - Terr: 150 (Max 500) - Bronze ET
-#A gtnh.quest2093.desc=Supporting circuit boards that can hold 4 electron tubes, the Electrical Stimulator provides a variety of functions. All numbers are in percent:%n%nIron ET - Production: 150 (Max 500)%nDiamantine ET - Production: 250 (Max 1000)%nApatine ET - Pollination: 150 (Max 500)%nObsidian ET - Lifespan: 80 (Min 20)%nLapis ET - Lifespan: 150 (Max 500)%nBlazing ET - Simulates the Nether%nGolden ET - Mutation rate: 150 (Max 500)%nTin ET - Territory: 40 (Min 10) Prod: 90 (Min 50)%nBronze ET - Territory: 150 (Max 500)%n%nGenetic Decay is also increased by 50% for all of them. This affects how long until ignoble bees die off, so don't worry about it if your bees are pristine.
-#C gtnh.quest2093.desc=电刺激器,一块能加装4个电子管的的电子板,提供多种功能.  表中所有数据均为当前数据  低压刺激-产量:150(最高500)-铁电子管 高压刺激-产量:250(最高1000)-钻石电子管 生物刺激-授粉:150(最高500)-磷灰石电子管 充能刺激-寿命:80(最小20)-黑曜石电子管 柔和刺激-寿命:150(最高500)-青金石电子管 灼热刺激-模拟下界-烈焰电子管 突变刺激-突变:150(最高500)-金电子管 抑制刺激-范围:40(最小10)、产量:90(最小50)-锡电子管 不稳刺激-范围:150(最高500)-青铜电子管
+gtnh.quest2093.name=一天一刺激,医生找上门
+gtnh.quest2093.desc=电刺激器,一块能加装4个电子管的的电子板,提供多种功能.  表中所有数据均为当前数据%n%n铁电子管-产量:150(最高500)%n钻石电子管-产量:250(最高1000)%n磷灰石电子管-授粉:150(最高500)%n黑曜石电子管-寿命:80(最小20)%n青金石电子管-寿命:150(最高500)%n烈焰电子管-模拟下界%n金电子管-突变:150(最高500)%n锡电子管-范围:40(最小10)、产量:90(最小50)%n青铜电子管-范围:150(最高500)%n%n这些刺激也会造成基因衰退几率提高50％.而这会影响卑贱种的死亡时间,所以如果你用的是始祖种,那就不用担心.
 
 # Quest.2094 - X-Men, or Should I Say X-Bee?
-#B gtnh.quest2094.name=X-Men, or should I say X-Bee?
-#A gtnh.quest2094.name=X-Men, or Should I Say X-Bee?
-#C gtnh.quest2094.name=X战警,或者我应该说X-蜜蜂?
+gtnh.quest2094.name=X战警,或者我应该说X-蜜蜂?
 gtnh.quest2094.desc=基因突变器能极大地加速基因突变,甚至让那些极为罕见的蜜蜂得以被培育出来.插入基因突变器的物品控制它提升多少突变.  灵魂沙-提升50％  末影珍珠-提升100％  末影之眼-提升300％
 
 # Quest.2095 - Genepool
@@ -8639,21 +8567,15 @@ gtnh.quest2105.name=追踪你的发现(植物学)
 gtnh.quest2105.desc=这个方便的设备将追踪你迄今为止发现的花及其特性.
 
 # Quest.2106 - Figuring Out Butterflies
-#B gtnh.quest2106.name=Figuring out Butterflies
-#A gtnh.quest2106.name=Figuring Out Butterflies
-#C gtnh.quest2106.name=研究蝴蝶
+gtnh.quest2106.name=研究蝴蝶
 gtnh.quest2106.desc=蝴蝶做的不多,但这台分析仪会为你详细介绍它们的能力.
 
 # Quest.2107 - Keeping Track of All Those Trees
-#B gtnh.quest2107.name=Keeping track of trees
-#A gtnh.quest2107.name=Keeping Track of All Those Trees
-#C gtnh.quest2107.name=追踪林木
+gtnh.quest2107.name=追踪林木
 gtnh.quest2107.desc=此设备将追踪你发现的所有树.
 
 # Quest.2108 - Bee More Knowledgeable
-#B gtnh.quest2108.name=Bee more knowledgeable
-#A gtnh.quest2108.name=Bee More Knowledgeable
-#C gtnh.quest2108.name=更多的蜜蜂知识
+gtnh.quest2108.name=更多的蜜蜂知识
 gtnh.quest2108.desc=这个数据库持续追踪你发现的所有蜜蜂.
 
 # Quest.2109 - Fluttering Facts
@@ -8705,15 +8627,11 @@ gtnh.quest2120.name=致密线缆
 gtnh.quest2120.desc=致密线缆会成为你的网络的主干.它们可以传输32个频道并显示在用频道数.总线和平面状接口无法直接连接它们.  译者注:终端也不行.
 
 # Quest.2121 - Better Grafter Through Technology
-#B gtnh.quest2121.name=Better Grafter through Technology
-#A gtnh.quest2121.name=Better Grafter Through Technology
-#C gtnh.quest2121.name=科技带来更好的剪枝器
+gtnh.quest2121.name=科技带来更好的剪枝器
 gtnh.quest2121.desc=GT的剪枝器比林业的好多了.根据你所用的材料,它的耐久不同,但远高于林业剪枝器.
 
 # Quest.2122 - Speak For the Trees
-#B gtnh.quest2122.name=Speak for the trees
-#A gtnh.quest2122.name=Speak For the Trees
-#C gtnh.quest2122.name=为树代言
+gtnh.quest2122.name=为树代言
 gtnh.quest2122.desc=你需要找一堆原版树来开始你的培育计划.你可以使用林木分析仪直接将它们转化为林业树苗-但是你需要一个木工机和一个来自MV的铝才能制作它. 或者,你可以种上一堆原版树,然后用装有不错授粉属性蜜蜂的蜂箱把这些树围起来. 眼镜会帮助你分辨被授粉的树叶,然后用你的剪枝器收获那些树叶.  想要完成这个任务需要扫描过的树苗,但你可以在等待GT扫描仪或林木扫描仪制作完成的这段时间里先开始你的培育.
 
 # Quest.2123 - Unlocking tree breeding lines
@@ -8826,9 +8744,7 @@ gtnh.quest2149.desc=兰波顿能量球是IV等级的电池.它可以存储100M-E
 
 # Quest.2150 - §b§lOne BILLION EU
 gtnh.quest2150.name=§b§l10亿EU
-#B gtnh.quest2150.desc=If you want a stationary battery, you can make an AFSU capable of storing up to 1 billion EU and charging items. You can pick it up with a wrench, but you'll lose a percentage of the stored EU. Make sure you right-click, not left-click.  Left-clicking will cause it to lose all stored EU.%n%nAs an alternative, if you can afford them, try the GT++ Energy Buffers. They are more expensive and cannot charge items, but store more, don't lose any EU, and can be configured from 1-16A. See the GT++ tab for details.
-#A gtnh.quest2150.desc=If you want a stationary battery, you can make an AFSU capable of storing up to 1 billion EU and charging items. You can pick it up with a wrench, but you'll lose a percentage of the stored EU. Make sure you right-click, not left-click.  Left-clicking will cause it to lose all stored EU.%n%nAs an alternative, if you can afford them, try the GT++ Energy Buffers. They are more expensive and cannot charge items, but store more, don't lose any EU, and can be configured from 1-16A. See the GT++ tab for details.%n%n§3These can apparently draw infinite amps, so maybe use a diode or something if you like having the power on.
-#C gtnh.quest2150.desc=如果你想要一个固定的电池,你可以制作AFSU可储存10亿EU还能为物品充电.你可以使用扳手拾起它,但这样你会失去20％存储的EU.确保你是用右键而不是用左键.左键会导致损失所有存储的EU.  作为替代方案,如果你能做得起的话,试试GT++的能量缓冲器吧.它们更贵而且无法为物品充电,但存储量更多,且不会损失EU,而且输出可设置为1-16A.查看GT++任务栏以获知更多细节.
+gtnh.quest2150.desc=如果你想要一个固定的电池,制作AFSU吧,它可以储存10亿EU还能为物品充电.你可以使用扳手拆卸它,但这样你会失去存储EU的20％.记得是用右键而不是用左键.左键会导致你损失所有存储的EU.%n%n作为替代方案,如果你能做得起的话,试试GT++的能量缓冲器吧.它们更贵而且无法为物品充电,但存储量更多,且不会损失EU,而且输出可设置为1-16A.查看GT++任务栏以获知更多细节.%n%n§3它们可以接收无限大的电流,所以或许你需要配合二极管或其他什么(如果你不想影响到主线供电的话).
 
 # Quest.2151 - Can't spell Lignite without Ignite
 gtnh.quest2151.name=没有火字旁就写不出褐煤(Can't spell Lignite without Ignite)
@@ -9240,21 +9156,15 @@ gtnh.quest2252.desc= 这种有趣的蜜蜂没有任何有用的产物,但它确�
 
 # Quest.2253 - §6§lToo much Mercury?
 gtnh.quest2253.name=§6§l汞太多了?
-#B gtnh.quest2253.desc=After a couple of hours..days..weeks..of processing redstone for Ruby you'll have a massive stockpile of Mercury and not know what to do with it.  You can store it all in supertanks, but really, how much hypochlorous acid does one need? Instead you can build an Acid Generator and at least get a little power out of it.
-#A gtnh.quest2253.desc=After a couple of hours...days...weeks...of processing redstone for Ruby you'll have a massive stockpile of Mercury and not know what to do with it.  You can store it all in supertanks, but really, how much hypochlorous acid does one need? Instead you can build an Acid Generator and at least get a little power out of it.
-#C gtnh.quest2253.desc=一小时又一小时...一天又一天...一周又一周...你为了红宝石处理了成吨的红石,也积攒了大量的汞,不知道能用来做什么.你可以将其都存到超级缸里,但事实上没人需要那么多次氯酸.你可以制造一台酸性发电机,至少能获得一点电.  译者注:使用汞化学浸洗处理某些矿物可以增产.
+gtnh.quest2253.desc=一小时又一小时...一天又一天...一周又一周...你为了红宝石处理了成吨的红石,也积攒了大量的汞,不知道能用来做什么.%n%n你可以将其都存到超级缸里,但事实上没人需要那么多次氯酸.你可以制造一台酸性发电机,至少能白嫖点电.%n%n译者注:使用汞化学浸洗处理某些矿物可以增产.
 
 # Quest.2254 - Arsenic Princess
 gtnh.quest2254.name=砷蜂
 gtnh.quest2254.desc=这种致命的蜜蜂会为你生产砷,非常适合用于你的电路板.蜂箱下方得放个砷块.由银蜂和锌蜂培育而来.
 
 # Quest.2255 - Keep Calm and Bee On
-#B gtnh.quest2255.name=Keep calm and bee on
-#A gtnh.quest2255.name=Keep Calm and Bee On
-#C gtnh.quest2255.name=保持冷静,继续(蜜蜂)前进(Keep calm and be(e) on)
-#B gtnh.quest2255.desc=The gentle frame can help protect your bees from the damaging effects of high productivity or mutation rates.
-#A gtnh.quest2255.desc=This frame will let your bees last longer, and also increase the territory to help with tree breeding.
-#C gtnh.quest2255.desc=柔性框架可以保护你的蜜蜂,免受高生产率或高突变率的破坏性影响.
+gtnh.quest2255.name=保持冷静,继续(蜜蜂)前进(Keep calm and be(e) on)
+gtnh.quest2255.desc=此框架可以让你的蜜蜂持续更长时间,并同时提升活动范围以帮助林业树木培育.
 
 # Quest.2256 - Brazil Nut
 gtnh.quest2256.name=巴西栗
@@ -9286,15 +9196,11 @@ gtnh.quest2262.desc=量子旅行者之靴,让你像风一样奔跑.可能会出�
 
 # Quest.2263 - Industrial Grafter
 gtnh.quest2263.name=工业剪枝器
-#B gtnh.quest2263.desc=If you're tired of constantly replacing branchcutters, this Industrial Grafter is rechargeable.
-#A gtnh.quest2263.desc=If you're tired of constantly replacing branchcutters, this Industrial Grafter is rechargeable.%n%n§3Or you could just make better ones.
-#C gtnh.quest2263.desc=要是你厌倦了不断更换剪枝器的话,这个工业剪枝器是可充电的.
+gtnh.quest2263.desc=要是你厌倦了不断更换剪枝器的话,这个工业剪枝器是可充电的.%n%n§3要是你看不上这个的话,还有更好的版本.
 
 # Quest.2264 - Do you taste metal?
 gtnh.quest2264.name=你尝过金属的味道么?
-#B gtnh.quest2264.desc=Metal oreberries are a great source of new seeds. You can breed some or buy some from the Coins shop. I need some Copper myself, so give me some berries please.
-#A gtnh.quest2264.desc=Metal oreberries are a great source of new seeds. You can breed some or buy some from the Coins shop. I need some Copper myself, so give me some berries please.%n%nMetal oreberries require a block of that metal to fully mature, but you can harvest a reduced amount before then. Pretty much everything else that needs a block can't be harvested before maturity though. Look at the seedbag to see what it wants. You can also go to the wiki for the exact blocks. Usually, you can use an ore or metal block for those that have them.
-#C gtnh.quest2264.desc=金属矿莓是新种子的优秀来源.你可以培育出它们,或者从硬币商店购买一些.我需要一些铜,所以给我一些铜矿莓吧.
+gtnh.quest2264.desc=金属矿莓是新种子的优秀来源.你可以培育出它们,或者从硬币商店购买一些.我需要一些铜,所以给我一些铜矿莓吧.%n%n金属矿莓需要相应的金属块才能完全成熟,但你可以在完全成熟前收获它们(掉落数量减少).不过几乎所有其他需要特定方块的作物都无法在完全成熟前收获.请查看种子袋可以获知它具体需要什么.你还可以到wiki上查阅更多详细信息.通常这类作物需要矿石或金属块.
 
 # Quest.2265 - Deep blue sea of sapphires
 gtnh.quest2265.name=深蓝色的蓝宝石之海
@@ -9302,9 +9208,7 @@ gtnh.quest2265.desc=用铜矿莓可以很容易得获得蓝宝石草(Sapphirum).
 
 # Quest.2266 - Red touch yellow
 gtnh.quest2266.name=红配黄
-#B gtnh.quest2266.desc=Garnets are actually more valuable than Sapphires. They're an early source of Chrome and Manganese, which you'll need for HV machines. To reach maturity, you will need a block of Garnet beneath these crops. You can get Garnets from the HV macerator and Spessartine Ore, or you can use an Implosion Compressor to turn Garnet Sands into crystals to make blocks.
-#A gtnh.quest2266.desc=Garnets are actually more valuable than Sapphires. They're an early source of Chrome and Manganese, which you'll need for HV machines. To reach maturity, you will need a block of Garnet (either type) beneath this crop. You can get Garnets from the HV macerator and Spessartine Ore, or you can use an Implosion Compressor to turn Garnet Sands into crystals to make blocks.
-#C gtnh.quest2266.desc=石榴石实际上比蓝宝石更有价值.它们是初期铬和锰的可靠来源.这两样金属对HV机器的制造来说是必不可少的.你需要在田地下方放个石榴石块才能培育出它.你可以通过粉碎锰铝榴石矿石获取石榴石(副产物),你还可以用聚爆压缩机将石榴石粉重新压成晶体,再制作成块.
+gtnh.quest2266.desc=石榴石实际上比蓝宝石更有价值.它们是初期铬和锰的可靠来源.而这两样金属对HV机器的制造来说是必不可少的. 你需要在田地下方放个石榴石块(任意类型)才能培育出它. 可以通过粉碎锰铝榴石矿石获取石榴石(副产物),还可以用聚爆压缩机将石榴石粉重新压成晶体,再制作成块.
 
 # Quest.2267 - A travel companion
 gtnh.quest2267.name=旅行伴侣
@@ -9383,9 +9287,7 @@ gtnh.quest2285.name=橡胶蜂
 gtnh.quest2285.desc=最后!沼泽系列蜜蜂中最有用的一种.橡胶蜂会直接为你生产橡胶条!不用再用那些散发异味的硫了!由分馏蜂和树脂蜂杂交培育而来.
 
 # Quest.2286 - Master Registry
-#B gtnh.quest2286.name=Master registry
-#A gtnh.quest2286.name=Master Registry
-#C gtnh.quest2286.name=全图鉴
+gtnh.quest2286.name=全图鉴
 gtnh.quest2286.desc=大师级的养蜂员需要大师级的图鉴-全图鉴.确保你能满足蜜蜂的所有需求,这样它们才能在蜂箱中正常工作!
 
 # Quest.2287 - Agrarian
@@ -9418,9 +9320,7 @@ gtnh.quest2293.desc=想要制取四氧化二氮,你需要将一些铜粉和硝�
 
 # Quest.2294 - §a§lRocket Engine EV
 gtnh.quest2294.name=§a§l火箭引擎(EV)
-#B gtnh.quest2294.desc=The Rocket Engine is a very dirty device which generates power out of rocket fuels at 80% efficiency, and produces 250 to 2000 pollution/s.%n%n§3There are 4 Rocket Fuels. Follow the Space Race tab quests to see how to make the rest. Expect to need more than one (probably several) Chemical Plants if you want to autmate production. There's also a RE multi later on too.
-#A gtnh.quest2294.desc=The Rocket Engine is a very dirty device which generates power out of rocket fuels at 80% efficiency, and produces 250 to 2000 pollution/s.%n%n§3There are 4 Rocket Fuels. Follow the Space Race tab quests to see how to make the rest. Expect to need more than one (probably several) Chemical Plants if you want to automate production.
-#C gtnh.quest2294.desc=这种火箭引擎是一种高污染发电设备, 燃料效率为80％. 每秒产生250-2000点污染.%n%n§3有4种火箭燃料. 在太空竞赛任务栏下查看剩余燃料的制造方式. 如果要自动化生产, 预计需要多个化工厂. 另外火箭引擎也有多方块版本.
+gtnh.quest2294.desc=这种火箭引擎是一种高污染发电设备,燃料效率为80％.每秒产生250-2000点污染.%n%n§3有4种火箭燃料.请在太空竞赛任务栏下查看剩余燃料的制造方式.如果要自动化生产这些燃料,预计需要多个化工厂. 另外火箭引擎也有多方块版本. 还有一款多方块火箭引擎正在研发.
 
 # Quest.2295 - §l§6§lGetting your first Platinum
 gtnh.quest2295.name=§l§6§l获得第一块铂锭
@@ -9488,9 +9388,7 @@ gtnh.quest2310.desc=首先,你需要用富钯铵将钯金属粉重结晶为硝�
 
 # Quest.2311 - §b§lRoss128b Trip
 gtnh.quest2311.name=§b§l罗斯128b之旅
-#B gtnh.quest2311.desc=Ross128b is a lovely Planet, that does not contain Monsters. It offers a lot of new Veins and rumors say, there would be ruins of ancient civilisations that left a few Machines there. You can find this Planet in the bottom of your Galacticraft Map.
-#A gtnh.quest2311.desc=Ross128b is a lovely and habitable planet, that does not contain any hostile lifeforms. It offers a several new ore veins and, rumors say, there are ruins of ancient civilisations that left quite a few machines there. You can find this planet to the galactic south.
-#C gtnh.quest2311.desc=罗斯128b是一颗很棒的星球,不会生成怪物.星球上有多种新的矿脉,有传言说那里会有古代文明的遗迹,还有一些遗留下的机器.你可以在星系地图的底部找到该星球.
+gtnh.quest2311.desc=罗斯128b是一颗很棒且宜居的星球,不会生成怪物(包括任何形式的敌对生物).星球上有多种新的矿脉,有传言说那里会有古代文明的遗迹,还有一些遗留下的机器.你可以在星系地图的底部找到该星球.
 
 # Quest.2312 - §b§lThird Separation - Osmium
 gtnh.quest2312.name=§b§l第三次分离-锇
@@ -9866,9 +9764,7 @@ gtnh.quest2404.desc=你可以用原版的方式猎杀末影人来获取珍珠.�
 
 # Quest.2405 - Wax on, Wax off
 gtnh.quest2405.name="盆栽"树
-#B gtnh.quest2405.desc=You can take vanilla tree saplings and place them directly on crop sticks. This will give you a "bonsai" tree. Bonsai trees will give you drops just like a tree, but without the wasted CPU of placing all the tree blocks just to chop them down again. This can be significant overhead on a server, so if you want to be nice, breed some bonsai trees for your pyrolyze ovens.
-#A gtnh.quest2405.desc=You can take vanilla tree saplings and place them directly on crop sticks. This will give you a "bonsai" tree. Bonsai trees will give you drops just like a tree, but without the wasted CPU of placing all the tree blocks just to chop them down again.%n%nThis can be significant overhead on a server, so if you want to be nice, breed some bonsai trees for your pyrolyze ovens. They also drop a ton and are fast, especially statted up, so there's no reason not to if you can automate them.
-#C gtnh.quest2405.desc=你可以直接将原版树苗放置在作物架上.这样你就能获得"盆栽"树.盆栽树的产物与普通树相同,还能节约树木生长、被砍伐时的CPU计算.服务器友好型!所以用盆栽树为你的热解炉提供木材吧.
+gtnh.quest2405.desc=你可以直接将原版树苗放置在作物架上.这样你就能获得"盆栽"树.盆栽树的产物与普通树相同,还能节约树木生长、被砍伐时的CPU计算.%n%n而这些通常是消耗服务器资源的大头,所以如果你想玩得流畅,就用盆栽树为你的热解炉提供木材吧.它们同样可以以极快的速度出产成吨的木材,尤其是属性提高后,你还有什么理由不将其用在你的自动化树厂呢.(译者注:如果某++的卫星树厂落地的话...)
 
 # Quest.2406 - Numbers in the corner?
 gtnh.quest2406.name=角落里的数字?
@@ -10088,9 +9984,7 @@ gtnh.quest2459.desc=它们的实用性严重值得怀疑, 所以何不尝试血�
 
 # Quest.2460 - It holds more, ok?
 gtnh.quest2460.name=它能承载更多, 没错吧?
-#B gtnh.quest2460.desc=But why is it transparent?
-#A gtnh.quest2460.desc=But why is it transparent?%n%n§3Does not actually hold more, doesn't render the blood in it properly, and can't be used in the altar. It does list the amount of blood you have in realtime though, and is used to make the next one.
-#C gtnh.quest2460.desc=但是它为什么是透明的?
+gtnh.quest2460.desc=但是它为什么是透明的?%n%n§3实际上容量没有提升,也不能正确显示其内的气血,同时无法在祭坛上使用.不过它确实会显示你当前的LP量,且可用于合成下一阶宝珠.
 
 # Quest.2461 - 'Easy' Teleportation
 gtnh.quest2461.name='简便'传送
@@ -10498,9 +10392,7 @@ gtnh.quest2561.desc=细菌培养缸是一种独特的多方块机器.%n在当前
 
 # Quest.2562 - §2§1§3§4§3§4§3§b§lThe Clean Lab
 gtnh.quest2562.name=§2§1§3§4§3§4§3§b§l洁净的实验室
-#B gtnh.quest2562.desc=You need an IV Bio Lab in a Cleanroom to create a culture to make Wetware, so let's create one.%nSince you'll be using Raw Growth Medium in large amounts, it's a good idea to start making it now!%n%n§cRaw Growth Medium is a ZPM material, and it entirely up to you whether it's worth it to start producing it earlier than that.
-#A gtnh.quest2562.desc=You need an IV Bio Lab in a Cleanroom to create a culture to make Wetware, so let's create one.%n%nSince you'll be using Raw Growth Medium in large amounts, it's a good idea to start making it now!%n%n§4Raw Growth Medium is a ZPM material, and it's entirely up to you whether it's worth it to start producing it earlier than that.
-#C gtnh.quest2562.desc=制作湿件电路所需的培养皿要求IV生物实验室和超净间环境, 让我们制作一台吧.%n你将会需要大量的培养基原液, 所以从现在就开始吧!%n%n§c培养基原液是一种ZPM材料, 是否值得提前开始生产, 完全由你决定.
+gtnh.quest2562.desc=制作湿件电路所需的培养皿要求IV生物实验室和超净间环境,让我们制作一台吧.%n%nS你将会需要大量的培养基原液,所以从现在就开始吧!%n%n§4培养基原液是一种ZPM材料,是否值得提前开始生产,完全由你决定.
 
 # Quest.2563 - §6§lSievert for the Vat
 gtnh.quest2563.name=§6§l细菌所需的辐射剂量(SV)
@@ -10680,9 +10572,7 @@ gtnh.quest2606.desc=收集完所有材料后, 你需要使用搅拌机来制造�
 
 # Quest.2607 - §c§lNaquadah Alloy
 gtnh.quest2607.name=§c§l硅岩合金
-#B gtnh.quest2607.desc=In order to make a Fusion Reactor you're going to need some Naquadah Alloy.%n%nFirst, pop on by Mercury and collect some Deep Iron from small ores, and get Trinium out of it.%n%nYou'll also need Naquadah coils, and LuV Energy Hatches.
-#A gtnh.quest2607.desc=In order to make a Fusion Reactor you're going to need some Naquadah Alloy.%n%nFirst, pop on by Mercury and collect some Deep Iron from small ores if you haven't already, and get Trinium out of it.%n%nYou'll also need Naquadah coils, and LuV Energy Hatches.
-#C gtnh.quest2607.desc=建造聚变反应堆需要一些硅岩合金.%n%n首先, 登陆水星并收集一些深渊铁贫瘠矿, 从中获取三元金属.%n%n硅岩线圈和LuV能源仓也是制造硅岩合金所必须的.
+gtnh.quest2607.desc=建造聚变反应堆需要一些硅岩合金.%n%n首先,登陆水星并收集一些深渊铁贫瘠矿(如果之前没有获得的话),从中获取三元金属.%n%n硅岩线圈和LuV能源仓也是制造硅岩合金所必须的.
 
 # Quest.2608 - §c§lAdvanced SMDs
 gtnh.quest2608.name=§c§l进阶贴片元件
@@ -10770,9 +10660,7 @@ gtnh.quest2628.desc=下一阶的聚变反应堆需要这种能源仓, 这样你�
 
 # Quest.2629 - UHV Energy Hatch
 gtnh.quest2629.name=UHV能源仓
-#B gtnh.quest2629.desc=If you want to make the T8 Rocket or the mk4 reactor, you'll need this.
-#A gtnh.quest2629.desc=If you want to make the T8 Rocket or the mkIV reactor, you'll need this.
-#C gtnh.quest2629.desc=如果你想建造8阶火箭或MK4聚变反应堆, 你就需要这种能源仓. 当然, 更主要的用途还是升级多方块机器.
+gtnh.quest2629.desc=如果你想建造8阶火箭或MK4聚变反应堆, 你就需要这种能源仓. 当然, 更主要的用途还是升级多方块机器.
 
 # Quest.2630 - Europium Doped Wafers
 gtnh.quest2630.name=铕掺杂的晶元
@@ -10952,15 +10840,11 @@ gtnh.quest2673.desc=现在让我们来制作宇宙中子素, 它是一种游戏�
 
 # Quest.2674 - Compressing the Core of a Star
 gtnh.quest2674.name=压缩星核
-#B gtnh.quest2674.desc=The next material is Infinity Catalyst. Infinity Catalyst needs to be compressed with insane amounts of force. The only machine capable of doing that is a Neutronium Compressor. Let's make one.%n%nTo make the Catalyst, go to Vega B to get the dust. Then use the Neutronium Compressor to make Infinity Catalyst with 64 of the dust.%n%nYou can also do the insane Avaritia recipe to make the Infinity Catalyst, if you want a challenge :P%n%n§3The compressor can also be used to make singularities, culiminating in the Eternal Singularity, used in the alternate recipe.
-#A gtnh.quest2674.desc=The next material is Infinity Catalyst. Infinity Catalyst needs to be compressed with insane amounts of force. The only machine capable of doing that is a Neutronium Compressor. Let's make one.%n%nTo make the Catalyst, go to Vega B to get the dust. Then use the Neutronium Compressor to make Infinity Catalyst with 64 of the dust.%n%nYou can also do the insane Avaritia recipe to make the Infinity Catalyst, if you want a challenge :P%n%n§3The compressor can also be used to make singularities, culiminating in the Eternal Singularity, used in the alternate recipe.%n%nIf you want to automate singularity creation you can use OC to make an AE2 pattern that goes beyond the normal limits. Ask how that works on discord, I have no idea.
-#C gtnh.quest2674.desc=下一种材料是无尽催化剂. 无尽催化剂需要疯狂地压缩. 唯一可以做到的就是中子态素压缩机. 让我们合成一台.%n%n想要获得催化剂, 你需要前往织女座B通过贫瘠矿获得粉. 然后将64个无尽催化剂粉压缩成一个无尽催化剂.%n%n当然你想试试无尽贪婪那个疯狂的手搓无尽催化剂的配方也没人拦着你, 挑战自我吧 :P%n%n§3这台压缩机还可用于制造奇点, 最终制成永恒奇点.
+gtnh.quest2674.desc=下一种材料是无尽催化剂. 无尽催化剂需要疯狂地压缩. 唯一可以做到的就是中子态素压缩机. 让我们合成一台.%n%n想要获得催化剂, 你需要前往织女座B通过贫瘠矿获得粉. 然后将64个无尽催化剂粉压缩成一个无尽催化剂.%n%n当然你想试试无尽贪婪那个疯狂的手搓无尽催化剂的配方也没人拦着你, 挑战自我吧 :P%n%n§3这台压缩机还可用于制造奇点, 最终制成永恒奇点.%n%n如果想要自动化合成奇点,你可以使用OC编辑AE2样板,超越其处理极限.请在discord上询问具体方式,因为我也不知道.
 
 # Quest.2675 - One Ingot, Infinite Power
 gtnh.quest2675.name=一锭在手, 无尽力量
-#B gtnh.quest2675.desc=Here at Questbook, Inc. we are seriously worrying about your health if you got here legitimately. Playing this much might be bad for you. You can always go outside, you know?%n%nBy the way, to make the ingot, it's just a simple Dire Crafting Table recipe. Remember that you were the one that chose to be here.%n%n§3A number of endgame recipes have now opened up. Check the Endgame Goals tab or NEI recipes for the Table to see what they are.
-#A gtnh.quest2675.desc=Here at Questbook, Inc. we are seriously worried about your health if you got here legitimately. Playing this much might be bad for you. You can always go outside, you know?%n%nBy the way, to make the ingot, it's just a simple Dire Crafting Table recipe. Remember that you were the one that chose to be here.%n%n§3A number of endgame recipes have now opened up. Check the Endgame Goals tab or NEI recipes for the Table to see what they are.%n%nSomething else to note is that there's an automated DCT if you happen to need a lot of these (hint: you will).
-#C gtnh.quest2675.desc=这里是任务书有限公司. 如果你是合法玩到这里的话, 我们严重关切你的健康. 你可以随时暂停游戏出去走走, 不是吗?%n%n顺便一提, 无尽锭只需要手搓即可获得, 多简单呀. 你就是天选之人.%n%n§3现在你解锁了一系列终极物品的合成. 查看终极目标任务栏或是终极合成台的NEI合成表, 你就能知道这些终极物品都是啥了.
+gtnh.quest2675.desc=这里是任务书有限公司. 如果你是合法玩到这里的话, 我们严重关切你的健康. 你可以随时暂停游戏出去走走, 不是吗?%n%n顺便一提, 无尽锭只需要手搓即可获得, 多简单呀. 你就是天选之人.%n%n§3现在你解锁了一系列终极物品的合成. 查看终极目标任务栏或是终极工作台的NEI合成表, 你就能知道这些终极物品都是啥了.%n%n还有一点需要注意,当你需要通过终极工作台大量合成时,别忘了还有个极限自动合成台(你会需要它的).
 
 # Quest.2676 - Collecting Neutrons the Alternate Way
 gtnh.quest2676.name=获取中子素的另一种方式
@@ -11051,12 +10935,8 @@ gtnh.quest2697.name=氯, 你最好的新朋友
 gtnh.quest2697.desc=氯是一种在整个游戏过程中大量使用的流体, 所以你不妨现在就习惯收集它.%n%n你可以电解盐、岩盐、方钠石(终于有用了!)、或者盐水. 因为你需要量非常庞大, 不妨考虑用第一个超级缸来容纳它.
 
 # Quest.2698 - Io Trip
-#B gtnh.quest2698.name=Niobium Needs
-#A gtnh.quest2698.name=Io Trip
-#C gtnh.quest2698.name=铌需求
-#B gtnh.quest2698.desc=While you're on Io, you should pick up some ore for Niobium. It'll be worth it later.
-#A gtnh.quest2698.desc=Any ore veins not on Venus are on this planet for this tier. The pyrolusite vein can have niobium extracted from it, and samarium can be acquired from mytryl and rubracium. Infused gold is also found here.%n%n§3Like Venus, you can collect firestone from small ore here.
-#C gtnh.quest2698.desc=登陆木卫一的时候, 别忘了获取一些用于制造铌的矿石. 不久的将来你就会用上的.
+gtnh.quest2698.name=木卫一之旅
+gtnh.quest2698.desc=此阶段的矿脉,如果在金星上找不到,那么在木卫一一定可以找到. 软锰矿脉可出产铌,而深空秘银和褐铜可以出产钐.在这里还可以找到注魔金矿脉.%n%n§3与金星类似,这里还有火石的贫瘠矿.
 
 # Quest.2699 - Play it Again, Sam
 gtnh.quest2699.name=再来一次
@@ -11240,9 +11120,7 @@ gtnh.quest2743.desc=吸血鬼币终于有用处了! 买些石板吧!
 
 # Quest.2744 - NASA Workbench
 gtnh.quest2744.name=NASA工作台
-#B gtnh.quest2744.desc=The NASA Workbench is used to craft your rockets and other related vehicles. Build it to start your journey into space.
-#A gtnh.quest2744.desc=The NASA Workbench is used to craft your rockets and other related vehicles. Build it to start your journey into space.%n%n§3Hint: Check out the nether star recipe which uses null catalyst and salis mundus. Null catalyst can be duplicated by adding magma cream, blaze powder and a tiny pile of nether star dust.§r%n%n§3Also, if you're having trouble getting the wither skulls, you can make a Cleaver or the Skullfire Sword to help with that.
-#C gtnh.quest2744.desc=NASA工作台用于装配火箭及其他相关载具. 把它造出来, 然后走向你的星辰大海吧.
+gtnh.quest2744.desc=NASA工作台用于装配火箭及其他相关载具. 把它造出来, 然后走向你的星辰大海吧.%n%n§3提示:请查看使用枯竭水晶和世界盐制造下界之星的合成表. 使用岩浆膏、烈焰粉和小撮下界之星粉即可复制枯竭水晶.§r%n%n§3另外,如果你的凋灵骷髅头不足,可以试试制造劈刀或炽焰之啄颅剑.
 
 # Quest.2745 - A Backpack for Bees
 gtnh.quest2745.name=养蜂员背包
