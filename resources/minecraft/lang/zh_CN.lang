@@ -641,9 +641,7 @@ gtnh.quest159.name=§6§l烧死他们,全都烧死！
 gtnh.quest159.desc=嗯...酥脆的培根.如果你将中立的生物作为目标,会发生什么？
 
 # Quest.160 - §9§lTier 4
-#B gtnh.quest160.name=§9§lTier 4§7
-#A gtnh.quest160.name=§9§lTier 4
-#C gtnh.quest160.name=§9§l第4阶§7
+gtnh.quest160.name=§9§l第4阶
 gtnh.quest160.desc=照例是第一个机器外壳...
 
 # Quest.161 - Paying the highest price
@@ -2372,9 +2370,7 @@ gtnh.quest591.desc=有了农场控制盒你可以通过红石信号来控制你�
 
 # Quest.592 - Multifarm: Gearbox
 gtnh.quest592.name=农场齿轮箱
-#B gtnh.quest592.desc=To power your farm and have it automatically harvest crops, you will need at least one farm gearbox to supply power. You can use either RF or EU. If you use EU, make sure to use a cable to allow conversion. Farm operations can be hastened with additional gearboxes.%n%nTesting has shown that splitting the amps to 4 gearboxes (4A ULV) works better than sending 1A LV to 4 gearboxes.%n%nA max sized IC2 Crop farm (5x4x5) using all space possible with max stat seeds (31/31/0) on a fast crop needs only 6A ULV to keep up.%n%nSimilarly, a max sized small farm (3x4x3) using all space possible with max stat seeds (31/31/0) on a high tier, moderate speed crop needs only 4A ULV.%n%nSending more power to the same gearbox doesn't work. If it can get to max RF capacity but your farm can't keep up, sending more power won't help, so add more gearboxes.%n%nOf course, if you mix your slower crops with your faster ones, you aren't likely to need to min-max to this extent.
-#A gtnh.quest592.desc=To power your farm and have it automatically harvest crops, you will need at least one farm gearbox to supply power. You can use either RF or EU. If you use EU, make sure to use a cable to allow conversion. Farm operations can be hastened with additional gearboxes.%n%nTesting has shown that splitting the amps to 4 gearboxes (4A ULV) works better than sending 1A LV to 4 gearboxes.%n%nA max sized IC2 Crop farm (5x4x5) using all space possible with max stat seeds (31/31/0) on a fast crop needs only 6A ULV to keep up.%n%nSimilarly, a max sized small farm (3x4x3) using all space possible with max stat seeds (31/31/0) on a high tier, moderate speed crop needs only 4A ULV.%n%nSending more power to the same gearbox doesn't work. If it can get to max RF capacity but your farm can't keep up, sending more power won't help, so add more gearboxes.%n%nIn addition, you lose 2 EU from the the energy emitting device for every A of ULV (which is only 8 to begin with), so it's not nearly as efficient as using LV or higher. Just keep in mind that more A to more gearboxes is better than to the same one.%n%nOf course, if you mix your slower crops with your faster ones, you aren't likely to need to min-max to this extent.
-#C gtnh.quest592.desc=农场齿轮箱可以为你的农场提供动力,让农场可以自动收割庄稼.一个农场至少需要一个农场齿轮箱,你也可以配置额外的农场齿轮箱来提供更多的能量加速农场运转速度.你可以采用RF或EU供能.如果使用EU供能的话,请使用线缆将能量转化.%n%n测试表明,使用4A-ULV供能4个齿轮箱时的工作效率强于1A-LV供能4个齿轮箱.%n%n一块最大尺寸的IC2杂交作物田(5x4x5),种植满属性(31/31/0)低级作物(生长速度快),只需6A-ULV即可维持正常工作.%n%n类似的,一块稍小一点的杂交作物田(3x4x3),种植满属性(31/31/0)高级作物(生长速度慢),仅需要4A-ULV供能.%n%n向同一个齿轮箱输入更多能量不起作用.当齿轮箱RF存满但农场还是没有满速运行时,提高电压无效,只能添加更多的齿轮箱.%n%n当然,如果你的高速作物和低速作物混合种植,那么以上数据仅供参考.
+gtnh.quest592.desc=农场齿轮箱可以为你的农场提供动力,让农场可以自动收割庄稼.一个农场至少需要一个农场齿轮箱,你也可以配置额外的农场齿轮箱来提供更多的能量加速农场运转速度.你可以采用RF或EU供能.如果使用EU供能的话,请使用线缆将能量转化.%n%n测试表明,使用4A-ULV供能4个齿轮箱时的工作效率强于1A-LV供能4个齿轮箱.%n%n一块最大尺寸的IC2杂交作物田(5x4x5),种植满属性(31/31/0)低级作物(生长速度快),只需6A-ULV即可维持正常工作.%n%n类似的,一块稍小一点的杂交作物田(3x4x3),种植满属性(31/31/0)高级作物(生长速度慢),仅需要4A-ULV供能.%n%n向同一个齿轮箱输入更多能量不起作用.当齿轮箱RF存满但农场还是没有满速运行时,提高电压无效,只能添加更多的齿轮箱.%n%n当然之前说的是理想情况,实际上如果用ULV供电,你可能会损失2/8EU,所以这么算的话就比不上LV供电有效率了.总之,只需要记住中心思想:多A供多齿轮箱优于单A供单齿轮箱.%n%n当然,如果你的高速作物和低速作物混合种植,那么以上数据仅供参考.
 
 # Quest.593 - Enhanced Farm Logic
 gtnh.quest593.name=中型电子板
@@ -3018,9 +3014,7 @@ gtnh.quest752.desc=高级电路板需要蚀刻高压电路(晶体管),由硅板�
 
 # Quest.753 - §6§lStainless Steel EBF processing
 gtnh.quest753.name=§6§l不锈钢与工业高炉
-#B gtnh.quest753.desc=Stainless steel ingots are made in the electric blast furnace at a temperature of 1700K. %nIt takes 80 seconds at 480 EU/t or by adding oxygen gas 60 seconds at 480 EU/t.%n%n§4You need a miniumum of two MV energy hatches to power the EBF.
-#A gtnh.quest753.desc=Stainless Steel ingots are made in the Electric Blast Furnace at a temperature of 1700K.%n%nIt takes 80 seconds at 480 EU/t or 60 seconds at 480 EU/t by adding Oxygen gas.%n%n§4You need a miniumum of two MV energy hatches to power the EBF to HV voltages.
-#C gtnh.quest753.desc=不锈钢锭是在工业高炉中制造,温度1700K.需要480EU/t烧制80秒,如果加入氧气则需要60秒.  §4你至少需要两个MV级能源仓来为工业高炉供电.
+gtnh.quest753.desc=不锈钢锭需要在工业高炉中烧制,炉温要求1700K.%n%n需要480EU/t烧制80秒,如果加入氧气则需要60秒.%n%n§4你至少需要两个MV级能源仓来为工业高炉供电(双仓升压).
 
 # Quest.754 - §6§lMV Energy Hatch
 gtnh.quest754.name=§6§lMV级能源仓
@@ -4552,9 +4546,7 @@ gtnh.quest1135.desc=如果你想让你的简易洗矿机工作,那么你会需�
 
 # Quest.1136 - §5§lLossless LV Cables
 gtnh.quest1136.name=§5§l无损低压线缆
-#B gtnh.quest1136.desc=How about losless 32 EU LV Cables ? Redstone alloy is a superconductor wire and will transfer your energy without any loss.%nRedalloy is a new alloy which requires an EBF. Mix redstone, silicon and coal by hand, or in the mixer for a better result.
-#A gtnh.quest1136.desc=How about lossless 32 EU cables? Redstone alloy is a superconductor and will transfer your energy without any loss.%n%nRedstone Alloy is a new alloy which requires an EBF. Mix redstone, silicon and coal by hand, or in the mixer for a better result.
-#C gtnh.quest1136.desc=在32EU/t的电压下如何进行无损传输呢？为什么不试试无损低压线缆呢? 红石合金可制成超导导线并可无损传输你的能量. 红色合金是一种新的合金,工业高炉需要用到它. 将红石、硅和煤混合,虽然用手也可以,但用搅拌机效果更佳.
+gtnh.quest1136.desc=在32EU/t的电压下如何进行无损传输呢？为什么不试试无损低压线缆呢? 红石合金可制成超导导线并可无损传输你的能量.%n%n红石合金是一种新的合金,需要使用工业高炉烧制. 将红石、硅粉和煤粉混合,虽然用手也可以,但用搅拌机效果更佳.
 
 # Quest.1137 - §9§lKinetic Power HV
 gtnh.quest1137.name=§9§l动能发电机(HV)
@@ -5625,20 +5617,12 @@ gtnh.quest1403.name=§9§l高压蒸汽轮机
 gtnh.quest1403.desc=如果你决定在高压阶段使用蒸汽,那么就该建造一台涡轮蒸汽轮机了.
 
 # Quest.1404 - §9§lMV Superconductors (128 EU/t)
-#B gtnh.quest1404.name=§9§lSuperconductors 128 eu/t
-#A gtnh.quest1404.name=§9§lMV Superconductors (128 EU/t)
-#C gtnh.quest1404.name=§9§lMV超导
-#B gtnh.quest1404.desc=How about lossless 128 EU MV Wires ? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage now has a superconductor wire and a base wire with only a very small loss.%nMix cadmium, magnesium and oxygen in a mv mixer. Next te base dust needs an EBF with Kanthal Coils. A vacuum freezer is also required to cool it down. Make some MV Superconductor base Wires and use an assembler to combine these wires with Helium, Stainless Steel pipes and HV pumps to get your 128 eu/t superconductor wires.
-#A gtnh.quest1404.desc=How about lossless 128 EU Wires? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage now has a superconductor wire with 0 and a base wire with only a very small loss.%n%nMix Cadmium, Magnesium and Oxygen in an MV mixer. Next the base dust needs an EBF with Kanthal Coils to be smelted. A vacuum freezer is also required to cool it down. Make some MV Superconductor Base Wires and use an Assembler to combine these wires with Helium, Stainless Steel pipes and HV pumps to get your 128 eu/t superconductor wires.%n%n§3Whether these are worth it to save a little power or not is up to you of course. Also note that although they're wires, you aren't hurt by coming into contact with them.
-#C gtnh.quest1404.desc=无损的MV超导导线怎么样？ MV超导是一种超导材料,可以毫无损失地传递能量. 现在,每个电压都有超导线和粗胚,损耗很小.在搅拌机中搅拌镉,镁和氧. 接下来的粗胚粉需要带有坎塔尔合金线圈的工业高炉(EBF). 还需要真空冷冻机来冷却它. 制作一些MV超导粗胚导线并使用组装机将这些导线与氦,不锈钢流体管道和高压泵组合在一起,以获得128eu/t的超导导线.
+gtnh.quest1404.name=§9§lMV超导(128 EU/t)
+gtnh.quest1404.desc=无损的MV超导导线怎么样？ Pentacadmiummagnesiumhexaoxide(MV超导)是一种超导材料,可以毫无损失地传递能量. 现在,每个电压都有超导导线和粗胚导线,超导线损为0而超导粗胚线损很小.%n%n在搅拌机中搅拌镉,镁和氧. 制得的粗胚粉需要用带有坎塔尔合金线圈的工业高炉(EBF)烧制. 再用真空冷冻机来冷却它. 制作一些MV超导粗胚导线并使用组装机将这些导线与氦、不锈钢流体管道和高压泵组合在一起,以获得128EU/t的超导导线.%n%n§3当然,是否需要为了节省这么一点能量,就通过这么复杂的工序制造超导导线,完全取决于你自己. 另外请注意,虽然这些超导导线是"导线",但你不会因为触碰到它们而被电击.
 
 # Quest.1405 - §9§lHV Superconductors (512 EU/t)
-#B gtnh.quest1405.name=§9§lSuperconductors 512 eu/t
-#A gtnh.quest1405.name=§9§lHV Superconductors (512 EU/t)
-#C gtnh.quest1405.name=§9§lHV超导
-#B gtnh.quest1405.desc=How about lossless 512 EU HV Wires ? Titaniumonabariumdecacoppereikosaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage now has a superconductor wire and a base wire with only a very small loss.%nMix titanium, barium, copper and oxygen in an HV mixer. Next the base needs an EBF with Nichrome Coils. A vacuum freezer is also required to cool it down. Make some HV Superconductor base Wires and use an assembler to combine these wires with Helium, Titanium pipes and EV pumps to get your 512 eu/t superconductor wires.
-#A gtnh.quest1405.desc=How about lossless 512 EU Wires? Titaniumonabariumdecacoppereikosaoxide is a superconductor wire and will transfer your energy without any loss. %n%nYou'll need Nichrome Coils and an HV Assembler.%n%n§3Whether these are worth it to save a little power or not is up to you of course.
-#C gtnh.quest1405.desc=无损的HV超导导线如何？ HV超导是一种超导材料,可以毫无损失地传递你的能量. 现在每个电压都有超导线和粗胚,损耗非常小. 在高压搅拌机中搅拌钛,钡,铜和氧. 接下来,粗胚粉需要带有镍铬合金线圈的工业高炉(EBF). 还需要真空冷冻机来冷却它. 制作一些HV超导粗胚导线并使用组装机将这些导线与氦,钛流体管道和EV泵组合在一起,以获得512eu/t的超导导线.
+gtnh.quest1405.name=§9§lHV超导(512 EU/t)
+gtnh.quest1405.desc=无损的HV超导导线如何? Titaniumonabariumdecacoppereikosaoxide(HV超导)是一种超导材料,可以毫无损失地传递你的能量. 现在每个电压都有超导导线和粗胚导线,超导线损为0而超导粗胚线损很小.%n%n在高压搅拌机中搅拌钛、钡、铜和氧. 制得的粗胚粉需要用带有镍铬合金线圈的工业高炉(EBF)烧制. 再用真空冷冻机来冷却它. 制作一些HV超导粗胚导线并使用组装机将这些导线与氦、钛流体管道和EV泵组合在一起,以获得512EU/t的超导导线.%n%n§3当然,是否需要为了节省这么一点能量,就通过这么复杂的工序制造超导导线,完全取决于你自己.
 
 # Quest.1406 - §a§lEV Assembler
 gtnh.quest1406.name=§a§lEV组装机
@@ -5649,26 +5633,16 @@ gtnh.quest1407.name=§a§k§r§a§lEV精密激光蚀刻机
 gtnh.quest1407.desc=制造量子晶体需要EV精密激光蚀刻机. 其他配方的速度是HV精密激光蚀刻机的两倍.
 
 # Quest.1408 - §a§lEV Superconductors (2048 EU/t)
-#B gtnh.quest1408.name=§a§lSuperconductors 2048 eu/t
-#A gtnh.quest1408.name=§a§lEV Superconductors (2048 EU/t)
-#C gtnh.quest1408.name=§a§lEV超导
-#B gtnh.quest1408.desc=How about lossless 2048 EU EV Wires ? Uraniumtriplatinide is a superconductor wire and will transfer your energy without any loss. Every Voltage now has a superconductor wire and a base wire with only a very small loss.%nMix uranium 238 and platinum in an HV mixer. Next the base needs an EBF with Tungstensteel Coils. A vacuum freezer is also required to cool it down. Make some EV Superconductor base Wires and use an assembler to combine these wires with Nitrogen, Helium, Tungstensteel pipes and IV pumps to get your 2048 eu/t superconductor wires.
-#A gtnh.quest1408.desc=How about lossless 2048 EU Wires? Uraniumtriplatinide is a superconductor wire and will transfer your energy without any loss. %n%nYou'll need Tungstensteel Coils.%n%n§3Whether these are worth it to save a little power or not is up to you of course.
-#C gtnh.quest1408.desc=无损的EV超导导线怎么样？ EV超导是一种超导材料,可以毫无损失地传递能量. 现在每个电压都有超导线和损耗非常小的超导粗胚. 在高压搅拌机中搅拌铀238和铂. 接下来,粗胚粉需要带有钨钢线圈的工业高炉(EBF). 还需要真空冷冻机来冷却它. 制作一些EV超导粗胚导线并使用组装机将这些导线与氦,钨钢流体管道和IV泵组合在一起,以获得2048eu/t超导导线.
+gtnh.quest1408.name=§a§lEV超导(2048 EU/t)
+gtnh.quest1408.desc=无损的EV超导导线怎么样？ Uraniumtriplatinide(EV超导)是一种超导材料,可以毫无损失地传递能量. 现在每个电压都有超导导线和粗胚导线,超导线损为0而超导粗胚线损很小.%n%n在高压搅拌机中搅拌铀238和铂. 制得的粗胚粉需要用带有钨钢线圈的工业高炉(EBF)烧制. 再用真空冷冻机来冷却它. 制作一些EV超导粗胚导线并使用组装机将这些导线与氦,钨钢流体管道和IV泵组合在一起,以获得2048EU/t超导导线.%n%n§3当然,是否需要为了节省这么一点能量,就通过这么复杂的工序制造超导导线,完全取决于你自己.
 
 # Quest.1409 - §b§lIV Superconductors (8192 EU/t)
-#B gtnh.quest1409.name=§b§lSuperconductors 8192 eu/t
-#A gtnh.quest1409.name=§b§lIV Superconductors (8192 EU/t)
-#C gtnh.quest1409.name=§b§lIV超导
-#B gtnh.quest1409.desc=How about lossless 8192 EU IV wires? Vanadiumtriindinide is a superconductor wire and will transfer your energy without any loss. Every voltage now has superconductor wires and a base wire with only a very small EU/t loss.%n%nMix vanadium and indium in a HV mixer. Now you have the base dust, which needs an EBF with HSS-G coils, and a vacuum freezer to cool it down.%n%nMake some IV superconductor base wires and use an assembler to combine these wires with nitrogen, helium and niobiumtitanium pipes and an IV pump to get your 8192 EU/t superconductor wires.
-#A gtnh.quest1409.desc=How about lossless 8192 EU Wires? Vanadiumtriindinide is a superconductor wire and will transfer your energy without any loss. %n%nFrom now on, SCs are not optional.
-#C gtnh.quest1409.desc=无损的IV超导导线怎么样？ IV超导是一种超导材料,可以毫无损失地传递能量. 现在每个电压都有超导线和只有极小损耗的超导粗胚. 在高压搅拌机中搅拌钒和铟. 现在你有了粗胚粉,它需要一个带有HSS-G线圈的工业高炉(EBF),还有一个真空冷冻机来冷却它. 制造一些IV超导粗胚导线并使用组装机将这些线与氦和铌钛流体管道和LuV泵组合在一起,以获得你的8192EU/t超导导线.
+gtnh.quest1409.name=§b§lIV超导(8192 EU/t)
+gtnh.quest1409.desc=无损的IV超导导线怎么样？ Vanadiumtriindinide(IV超导)是一种超导材料,可以毫无损失地传递能量. 现在每个电压都有超导导线和粗胚导线,超导线损为0而超导粗胚线损很小.%n%n在高压搅拌机中搅拌钒和铟. 制得的粗胚粉需要用带有HSS-G线圈的工业高炉(EBF)烧制. 再用真空冷冻机来冷却它. 制造一些IV超导粗胚导线并使用组装机将这些线与氦和铌钛流体管道和LuV泵组合在一起,以获得你的8192EU/t超导导线.%n%n自IV以上,超导导线将加入一些合成中强制要求.
 
 # Quest.1410 - §b§lIV Mixer
 gtnh.quest1410.name=§b§lIV搅拌机
-#B gtnh.quest1410.desc=An IV mixer is required to mixe niobiumtitanium and vanadiumgallium dust. Other recipes are twice faster than with an EV mixer.
-#A gtnh.quest1410.desc=An IV mixer is required to mix Niobium-Titanium and Vanadium-Gallium dust. You need both to progress.%n%n§3...Who thought of these lazy-ass names? Well, at least you can tell what they're made of.
-#C gtnh.quest1410.desc=需要IV搅拌机来搅拌铌钛和钒镓粉. 其他配方比使用EV搅拌机快两倍.
+gtnh.quest1410.desc=需要IV搅拌机来搅拌铌钛合金粉和钒镓合金粉. 这两种合金在科技推进上必不可少.%n%n§3...谁随便起的这些名字? 好吧,这样至少我们可以直接记住它们的组成成分.
 
 # Quest.1411 - §9§lSome rare high tier metals
 gtnh.quest1411.name=§9§l一些罕见的高级金属
@@ -6748,9 +6722,7 @@ gtnh.quest1679.desc=Qbit晶元由纳米CPU晶元和量子之眼制成.将其制�
 
 # Quest.1680 - §c§lThought emitters were bad enough?
 gtnh.quest1680.name=§c§l你觉得发射器已经够糟糕了？
-#B gtnh.quest1680.desc=Field generators are a big part of lategame crafts, and yes they always suck to make.
-#A gtnh.quest1680.desc=Field generators are a big part of lategame crafts. And yes, they always suck to make.
-#C gtnh.quest1680.desc=力场发生器是后期工艺的重要组成部分,是的,它们制作起来总是很困难.
+gtnh.quest1680.desc=力场发生器是后期合成的重要组成部分,是的,它们制作起来总是很困难.
 
 # Quest.1681 - §c§lAccelerating things II
 gtnh.quest1681.name=§c§l加速II
@@ -6814,9 +6786,7 @@ gtnh.quest1695.desc=在IV化学反应釜中将3,3-二氯联苯胺与氨和锌搅
 
 # Quest.1696 - §b§lChemical reactions at IV level
 gtnh.quest1696.name=§b§lIV化学反应釜
-#B gtnh.quest1696.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternativly you can use your Large Chemical Rector with two EV or one IV energy hatch.
-#A gtnh.quest1696.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternativly you can use your Large Chemical Reactor with two EV or one IV energy hatch.%n%n§3...Which you can make after you finish the platline. Have fun!
-#C gtnh.quest1696.desc=高级化学配方需要高级IV化学反应釜.  或者你也可以给你的大型化学反应釜换上两个EV能源仓或是一个IV能源仓.
+gtnh.quest1696.desc=高级化学配方需要IV化学反应釜.%n%n或者你也可以给你的大型化学反应釜换上两个EV能源仓或是一个IV能源仓.
 
 # Quest.1697 - §b§lPolybenzimidazole finally
 gtnh.quest1697.name=§b§l最后--聚苯并咪唑
@@ -6875,12 +6845,8 @@ gtnh.quest1710.name=§c§l晶体处理器主机
 gtnh.quest1710.desc=晶体处理器主机是你可以制作的第一个UV电路.需要超净间.
 
 # Quest.1711 - §c§lLuV Superconductors (32,768 EU/t)
-#B gtnh.quest1711.name=§c§lSuperconductors 32768 eu/t
-#A gtnh.quest1711.name=§c§lLuV Superconductors (32,768 EU/t)
-#C gtnh.quest1711.name=§c§l32768-EU/t的超导
-#B gtnh.quest1711.desc=How about lossless 32768 EU IV wires? Tetraindiumditindibariumtitaniumheptacoppertetrakaidekaoxide is a superconductor wire and will transfer your energy without any loss. Every voltage now has superconductor wires and a base wire with only a very small EU/t loss.%n%nMix indium, tin, barium, tianium, copper and oxygen in an EV mixer. Now you have the base dust, which needs an EBF with Naquadah coils, and a vacuum freezer to cool it down.%n%nMake some LuV superconductor base wires and use an assembler to combine these wires with helium and tiny enderium pipes and an LuV pump to get your 32768 EU/t superconductor wires.
-#A gtnh.quest1711.desc=How about lossless 32768 EU Wires? Tetraindiumditindibariumtitaniumheptacoppertetrakaidekaoxide is a superconductor wire and will transfer your energy without any loss. 
-#C gtnh.quest1711.desc=无损32768-EU-LuV导线怎么样？ Tetraindiumditindibariumtitaniumheheptacoppertetrakaidekaoxide(是的你没有看错,这就是这种材料的原文)是一种超导导线,可以毫无损失地传输你的能量. 现在每个电压都有超导导线和粗胚,粗胚的线损很小. 在EV搅拌机中搅拌铟,锡,钡,钽,铜和氧.现在你有了超导粗胚粉,它需要一个带有硅岩线圈的工业高炉(EBF),以及一个真空冷冻机来冷却它. 制造一些LuV超导粗胚导线并使用组装机将这些导线与氦和微型末影(te)管道和LuV泵组合在一起,你就能获得32768-EU/t的超导导线.
+gtnh.quest1711.name=§c§lLuV超导(32,768 EU/t)
+gtnh.quest1711.desc=无损32768-EU-LuV导线怎么样？ Tetraindiumditindibariumtitaniumheheptacoppertetrakaidekaoxide(是的你没有看错,这就是这种材料的原文)是一种超导材料,可以毫无损失地传输你的能量. 现在每个电压都有超导导线和粗胚导线,超导线损为0而超导粗胚线损很小.%n%n在EV搅拌机中搅拌铟、锡、钡、钽、铜和氧.制得的超导粗胚粉需要用带有硅岩线圈的工业高炉(EBF)烧制,再用真空冷冻机来冷却它. 制造一些LuV超导粗胚导线并使用组装机将这些导线与氦和微型末影(te)管道和LuV泵组合在一起,你就能获得32768-EU/t的超导导线.
 
 # Quest.1712 - §b§lCheaper LV circuits
 gtnh.quest1712.name=§b§l廉价的低压电路
@@ -7216,7 +7182,7 @@ gtnh.quest1794.desc=使用便携式扫描仪对种植于土地上的作物扫描
 
 # Quest.1795 - Metals from the Sky
 gtnh.quest1795.name=天外金属
-#N gtnh.quest1795.desc=You can even create metals not found on Earth using crops!  You'll need the proper metal block beneath the crop in order for them to fully mature.%n%nBTW, higher tier crops have a lower chance of dropping seeds, so consider breeding a second one before you try breaking them, ok?
+gtnh.quest1795.desc=你甚至可以用作物创造出地表不存在的金属!  当然,你需要将合适的金属方块至于作物之下,才能使其完全成熟.%n%n另外,高阶作物掉落种子的几率更低,所以在尝试左键获取种子袋之前,最好再繁殖一株保险...
 
 # Quest.1796 - §5§lBetter Gallium and Arsenic sources
 gtnh.quest1796.name=§5§l镓和砷的更好来源
@@ -8128,9 +8094,7 @@ gtnh.quest2022.desc=不想带着末影箱子然后不停的放下然后破坏拾
 
 # Quest.2023 - §b§a§lMore power needed, sir!
 gtnh.quest2023.name=§b§a§l需要更多的电力,先生!
-#B gtnh.quest2023.desc=EBF and LCR recipes are going to need even more power.  You'll need to craft EV energy hatches to supply them and keep them running.
-#A gtnh.quest2023.desc=EBF and LCR recipes are going to need even more power. You'll need to craft EV energy hatches to supply them and keep them running.
-#C gtnh.quest2023.desc=工业高炉和大型化学反应釜的配方需要越来越多的电力.  你需要合成EV能源仓来为它们供电,保持它们的持续运行.
+gtnh.quest2023.desc=工业高炉和大型化学反应釜的配方需要越来越多的电力.  你需要合成EV能源仓来为它们供电,保持它们的持续运行.
 
 # Quest.2024 - §c§lAssline quest updates
 gtnh.quest2024.name=§c§l装配线配方更新
@@ -10513,22 +10477,16 @@ gtnh.quest2618.name=UHV阶段更难, 更好, 更快, 更强... Pt 2
 gtnh.quest2618.desc=记得每小时休息一次(lol).
 
 # Quest.2619 - ZPM Superconductors (131,072 EU/t)
-#B gtnh.quest2619.name=Superconductors at 131,072 EU/t
-#A gtnh.quest2619.name=ZPM Superconductors (131,072 EU/t)
-#C gtnh.quest2619.name=131,072 EU/t超导
+gtnh.quest2619.name=ZPM超导(131,072 EU/t)
 gtnh.quest2619.desc=你能自己弄清楚如何制作, 对吧?
 
 # Quest.2620 - UV Superconductors (524,288 EU/t)
-#B gtnh.quest2620.name=Superconductors at 524,288 EU/t
-#A gtnh.quest2620.name=UV Superconductors (524,288 EU/t)
-#C gtnh.quest2620.name=524,288 EU/t超导
+gtnh.quest2620.name=UV超导(524,288 EU/t)
 gtnh.quest2620.desc=我想知道它们在什么温度开始超导?
 
 # Quest.2621 - UHV Superconductors at (2,097,152 EU/t)
-#B gtnh.quest2621.name=Superconductors at 2,097,152 EU/t
-#A gtnh.quest2621.name=UHV Superconductors at (2,097,152 EU/t)
-#C gtnh.quest2621.name=2,097,152 EU/t超导
-gtnh.quest2621.desc=在这之上还有UEV, UIV, UMV, UXV, 和OpV的导线. 只有UEV和UIV有线缆, 且没有超导线. 你可以选用UHV超导线, 也可以使用超便宜的材料并承受一些损耗来输送电力. 同时也有其他选择, 比如AE的EU-P2P或者现场供电.%n%n目前, 更高阶的导线材料有龙锭, 下界之星, 量子, 黑钚, 还有觉醒龙锭. 如果这些阶段实际使用之后, 可能还会有些变化.%n%n什么, UHV超导线? 你不是已经做了吗?%n%n§4别忘了工业高炉基于能源仓的炉温调节特性. 所以你可以用通流琥珀金线圈配合UV能源仓(达到10500K炉温), 处理UHV超导粗胚. 但炽焱高炉或者巨型工业高炉就做不到这一点.
+gtnh.quest2621.name=UHV超导(2,097,152 EU/t)
+gtnh.quest2621.desc=在这之上还有UEV、UIV、UMV、UXV、和OpV的导线.只有UEV和UIV有线缆,且没有超导线. 你可以选用UHV超导线,也可以使用超便宜的材料并承受一些损耗来输送电力. 同时也有其他选择,比如AE的EU-P2P或者现场供电.%n%n目前,更高阶的导线材料有龙锭、下界之星、量子、黑钚、还有觉醒龙锭(以及超级IMBA的无尽). 如果这些阶段实装后,可能还会有些变化.%n%n什么,UHV超导线? 你不是已经做了吗?%n%n§4别忘了工业高炉基于能源仓的炉温调节特性.所以你可以用通流琥珀金线圈配合UV能源仓(达到10500K炉温),处理UHV超导粗胚. 但炽焱高炉或者巨型工业高炉就做不到这一点.
 
 # Quest.2622 - Tier VII Field Generator
 gtnh.quest2622.name=力场发生器(Tier VII)
@@ -11363,76 +11321,76 @@ gtnh.quest2829.name=流体反应堆
 gtnh.quest2829.desc=另外,还有冰箱核电和扳手反应堆(lol),是不同于普通版的进阶版本.%n%n流体反应堆的建造方式与普通反应堆不同(使用右侧的这些方块,在普通核电外围成一个5x5x5的中空立方体),目的是产生尽可能多的热冷却液(热交换后循环使用),再将其转化为电力.流体反应堆自己不发电,但更全面.将热冷却液送到大型热交换机,即可获得过热蒸汽,再将其依次通过高压蒸汽涡轮、普通蒸汽涡轮.%n%n冰箱核电(我们一般叫强冷) 指使用真空冷冻机恢复氦/钠钾冷却单元耐久.这样就无需通过散热片来保证产热散热平衡,意味着可以塞更多的燃料棒,但一个小问题就会...KA-BOOM!%n%n扳手反应堆 指将反应堆塞满燃料棒,启动,在其爆炸前用扳手拆掉,重置热量状态.如果你可以将这个过程自动化,你就能获得我们GTNH核科学的最高奖章!%n%n要是你还不知道MOX怎么用,让我来教教你.简而言之,MOX燃料棒的发电量随堆温升高而升高.所以你需要维持好热平衡并尽可能地提高堆温.不过太高的堆温可能造成附近的方块被§o融化§r.超能硅岩燃料棒工作方式相同.另外,MOX可以产出不少钚(而铀偏少).%n%n增殖反应堆 指搭建此反应堆,更倾向于获得其产物而非靠其发电,比如用钍堆获得镥,MOX堆获得钚,等等.请在NEI中查看燃料棒(枯竭xxx)的用途.%n%n§3由于冷却液耗尽时,流体反应堆很容易爆炸,所以请确保正确设置了温度相关的红石信号,可以紧急关停反应堆.(建议其他任何反应堆都设置一个温控保险)
 
 # Quest.2830 - IV Energy Hatch
-#N gtnh.quest2830.name=IV Energy Hatch
-#N gtnh.quest2830.desc=You'll need this to increase the power to your multis and progress.%n%nYou need some Vanadium-Gallium to make HPIC Wafers for it, and an IV Cutting Machine if you haven't made the multi.%n%n§3I hope you had fun with the platline, lol.
+gtnh.quest2830.name=IV能源仓
+gtnh.quest2830.desc=You'll need this to increase the power to your multis and progress.%n%nYou need some Vanadium-Gallium to make HPIC Wafers for it, and an IV Cutting Machine if you haven't made the multi.%n%n§3I hope you had fun with the platline, lol.
 
 # Quest.2831 - Nickel and Cobalt
-#N gtnh.quest2831.name=Nickel and Cobalt
-#N gtnh.quest2831.desc=Your Electric Blast Furnace needs lots of nickel. It is now time to find a nickel deposit in the Twilight Forest. %nCobalt can later be washed out of the Cobaltite ore more easily than found it in the Nether. The vein is located at Y level 5 - 30.
+gtnh.quest2831.name=Nickel and Cobalt
+gtnh.quest2831.desc=Your Electric Blast Furnace needs lots of nickel. It is now time to find a nickel deposit in the Twilight Forest. %nCobalt can later be washed out of the Cobaltite ore more easily than found it in the Nether. The vein is located at Y level 5 - 30.
 
 # Quest.2832 - Time to kill (Bighorn Sheep)
-#N gtnh.quest2832.name=Time to kill (Bighorn Sheep)
-#N gtnh.quest2832.desc=Oh no not the poor bighorn sheeps. Fluffy and red I am so sad in the twilight Forest.
+gtnh.quest2832.name=Time to kill (Bighorn Sheep)
+gtnh.quest2832.desc=Oh no not the poor bighorn sheeps. Fluffy and red I am so sad in the twilight Forest.
 
 # Quest.2833 - Time to kill (Wild Deer)
-#N gtnh.quest2833.name=Time to kill (Wild Deer)
-#N gtnh.quest2833.desc=Christmas is canceled this year. So sad.
+gtnh.quest2833.name=Time to kill (Wild Deer)
+gtnh.quest2833.desc=Christmas is canceled this year. So sad.
 
 # Quest.2834 - Time to kill (Wild Boar)
-#N gtnh.quest2834.name=Time to kill (Wild Boar)
-#N gtnh.quest2834.desc=Delicious roasted wild boar. Mhh very tasty.
+gtnh.quest2834.name=Time to kill (Wild Boar)
+gtnh.quest2834.desc=Delicious roasted wild boar. Mhh very tasty.
 
 # Quest.2835 - Time to kill (Rabbit)
-#N gtnh.quest2835.name=Time to kill (Rabbit)
-#N gtnh.quest2835.desc=Oh how cute this little rabbits.  Pow! .... oh dead?
+gtnh.quest2835.name=Time to kill (Rabbit)
+gtnh.quest2835.desc=Oh how cute this little rabbits.  Pow! .... oh dead?
 
 # Quest.2836 - Time to kill (Raven)
-#N gtnh.quest2836.name=Time to kill (Raven)
-#N gtnh.quest2836.desc=Abracadabra ... give me your black feathers.
+gtnh.quest2836.name=Time to kill (Raven)
+gtnh.quest2836.desc=Abracadabra ... give me your black feathers.
 
 # Quest.2837 - Time to kill (Penguin)
-#N gtnh.quest2837.name=Time to kill (Penguin)
-#N gtnh.quest2837.desc=Be careful not to slip on the Ice and land on a penguin.
+gtnh.quest2837.name=Time to kill (Penguin)
+gtnh.quest2837.desc=Be careful not to slip on the Ice and land on a penguin.
 
 # Quest.2838 - Time to kill (Squirrell)
-#N gtnh.quest2838.name=Time to kill (Squirrell)
-#N gtnh.quest2838.desc=Mmh yummy squirrel on a stick!
+gtnh.quest2838.name=Time to kill (Squirrell)
+gtnh.quest2838.desc=Mmh yummy squirrel on a stick!
 
 # Quest.2839 - Time to kill (Tiny Birds)
-#N gtnh.quest2839.name=Time to kill (Tiny Birds)
-#N gtnh.quest2839.desc= Tweet,  tweet,  tweet.... death.
+gtnh.quest2839.name=Time to kill (Tiny Birds)
+gtnh.quest2839.desc= Tweet,  tweet,  tweet.... death.
 
 # Quest.2840 - Time to kill (Skeleton Druid)
-#N gtnh.quest2840.name=Time to kill (Skeleton Druid)
-#N gtnh.quest2840.desc=The druid skeleton is always infernal so watch out. It can be found in little huts all over the Twilight Forest.
+gtnh.quest2840.name=Time to kill (Skeleton Druid)
+gtnh.quest2840.desc=The druid skeleton is always infernal so watch out. It can be found in little huts all over the Twilight Forest.
 
 # Quest.2841 - Time to kill (Kobolt)
-#N gtnh.quest2841.name=Time to kill (Kobolt)
-#N gtnh.quest2841.desc=Kobold spawners can be found in Hollow Hills.  It will spawn almost anywhere that is dark within the Twilight Forest dimension and tends to spawn in large groups. 
+gtnh.quest2841.name=Time to kill (Kobolt)
+gtnh.quest2841.desc=Kobold spawners can be found in Hollow Hills.  It will spawn almost anywhere that is dark within the Twilight Forest dimension and tends to spawn in large groups. 
 
 # Quest.2842 - Time to kill (Redcap)
-#N gtnh.quest2842.name=Time to kill (Redcap)
-#N gtnh.quest2842.desc=The Redcap is a goblin carries an Iron Pickaxe, wears Iron Boots, and constantly giggles to itself. They are found lurking in Hollow Hills, as well as occasionally appearing in the Goblin Knight Stronghold. 
+gtnh.quest2842.name=Time to kill (Redcap)
+gtnh.quest2842.desc=The Redcap is a goblin carries an Iron Pickaxe, wears Iron Boots, and constantly giggles to itself. They are found lurking in Hollow Hills, as well as occasionally appearing in the Goblin Knight Stronghold. 
 
 # Quest.2843 - Time to kill (Fire Beetle)
-#N gtnh.quest2843.name=Time to kill (Fire Beetle)
-#N gtnh.quest2843.desc=The Fire Beetle is found in Hollow Hills and Labyrinths. Fire Beetles will shoot a breath of fire at nearby players, dealing 2 (Heart.svg) damage every half second the player is exposed to the fire.
+gtnh.quest2843.name=Time to kill (Fire Beetle)
+gtnh.quest2843.desc=The Fire Beetle is found in Hollow Hills and Labyrinths. Fire Beetles will shoot a breath of fire at nearby players, dealing 2 (Heart.svg) damage every half second the player is exposed to the fire.
 
 # Quest.2844 - Time to kill (Slime Beetle)
-#N gtnh.quest2844.name=Time to kill (Slime Beetle)
-#N gtnh.quest2844.desc=The Slime Beetlecan be found in Hollow Hills, and Labyrinths. Slime Beetles fire slimy projectiles at players that deal about 8 Hearts points of damage on attack. They have incredible accuracy, and move extremely quickly when the player attempts to approach one.
+gtnh.quest2844.name=Time to kill (Slime Beetle)
+gtnh.quest2844.desc=The Slime Beetlecan be found in Hollow Hills, and Labyrinths. Slime Beetles fire slimy projectiles at players that deal about 8 Hearts points of damage on attack. They have incredible accuracy, and move extremely quickly when the player attempts to approach one.
 
 # Quest.2845 - Time to kill (Swarm Spider)
-#N gtnh.quest2845.name=Time to kill (Swarm Spider)
-#N gtnh.quest2845.desc=The Swarm Spider can be found in large groups inside various landmarks, such as Hollow Hills, Leaf Dungeons and Hedge Mazes. Swarm Spiders can sometimes spawn with Skeletons riding them. They have 3 Hearts health points, making them weak to almost any attack. Swarm Spiders will attempt to attack but due to their low attack, they barely inflict damage on anything.
+gtnh.quest2845.name=Time to kill (Swarm Spider)
+gtnh.quest2845.desc=The Swarm Spider can be found in large groups inside various landmarks, such as Hollow Hills, Leaf Dungeons and Hedge Mazes. Swarm Spiders can sometimes spawn with Skeletons riding them. They have 3 Hearts health points, making them weak to almost any attack. Swarm Spiders will attempt to attack but due to their low attack, they barely inflict damage on anything.
 
 # Quest.2846 - Time to kill (Pinch Beetle)
-#N gtnh.quest2846.name=Time to kill (Pinch Beetle)
-#N gtnh.quest2846.desc=Pinch Beetles  have 20 hearts worth of health and can hit for 4 hearts of damage when grabbed. They can be found in the largest Hollow Hills, Labyrinths, and in Dark Towers. Pinch Beetles charge at you and grab your body. When in this situation you want to quickly attack and kill them. They are very fast and can be extremely dangerous when near lava, a cliff, or other enemies. Pinch beetles can suffocate you of the ceiling is too low.
+gtnh.quest2846.name=Time to kill (Pinch Beetle)
+gtnh.quest2846.desc=Pinch Beetles  have 20 hearts worth of health and can hit for 4 hearts of damage when grabbed. They can be found in the largest Hollow Hills, Labyrinths, and in Dark Towers. Pinch Beetles charge at you and grab your body. When in this situation you want to quickly attack and kill them. They are very fast and can be extremely dangerous when near lava, a cliff, or other enemies. Pinch beetles can suffocate you of the ceiling is too low.
 
 # Quest.2847 - Time to kill (Wraith)
-#N gtnh.quest2847.name=Time to kill (Wraith)
-#N gtnh.quest2847.desc=The Twilight Wraith is a  floating spirits are not initially aggressive towards the player but will become angry when approached. When spotted by a Wraith it can be difficult to lose it, as they are relentless in chasing the player and its ability to phase through blocks. They are found in large Hollow Hills. 
+gtnh.quest2847.name=Time to kill (Wraith)
+gtnh.quest2847.desc=The Twilight Wraith is a  floating spirits are not initially aggressive towards the player but will become angry when approached. When spotted by a Wraith it can be difficult to lose it, as they are relentless in chasing the player and its ability to phase through blocks. They are found in large Hollow Hills. 
 
 ##################################Line##################################
 
