@@ -640,8 +640,8 @@ gtnh.quest158.desc=They hit hard. You have been warned.
 gtnh.quest159.name=§6§lBurn them. Burn them all!
 gtnh.quest159.desc=Hmmm, crispy bacon. What would happen if you enable neutral mobs as targeting...?
 
-# Quest.160 - §9§lTier 4§7
-gtnh.quest160.name=§9§lTier 4§7
+# Quest.160 - §9§lTier 4
+gtnh.quest160.name=§9§lTier 4
 gtnh.quest160.desc=Your first hull as usual...
 
 # Quest.161 - Paying the highest price
@@ -2370,7 +2370,7 @@ gtnh.quest591.desc=You can control which fields of your farm work by applying a 
 
 # Quest.592 - Multifarm: Gearbox
 gtnh.quest592.name=Multifarm: Gearbox
-gtnh.quest592.desc=To power your farm and have it automatically harvest crops, you will need at least one farm gearbox to supply power. You can use either RF or EU. If you use EU, make sure to use a cable to allow conversion. Farm operations can be hastened with additional gearboxes.%n%nTesting has shown that splitting the amps to 4 gearboxes (4A ULV) works better than sending 1A LV to 4 gearboxes.%n%nA max sized IC2 Crop farm (5x4x5) using all space possible with max stat seeds (31/31/0) on a fast crop needs only 6A ULV to keep up.%n%nSimilarly, a max sized small farm (3x4x3) using all space possible with max stat seeds (31/31/0) on a high tier, moderate speed crop needs only 4A ULV.%n%nSending more power to the same gearbox doesn't work. If it can get to max RF capacity but your farm can't keep up, sending more power won't help, so add more gearboxes.%n%nOf course, if you mix your slower crops with your faster ones, you aren't likely to need to min-max to this extent.
+gtnh.quest592.desc=To power your farm and have it automatically harvest crops, you will need at least one farm gearbox to supply power. You can use either RF or EU. If you use EU, make sure to use a cable to allow conversion. Farm operations can be hastened with additional gearboxes.%n%nTesting has shown that splitting the amps to 4 gearboxes (4A ULV) works better than sending 1A LV to 4 gearboxes.%n%nA max sized IC2 Crop farm (5x4x5) using all space possible with max stat seeds (31/31/0) on a fast crop needs only 6A ULV to keep up.%n%nSimilarly, a max sized small farm (3x4x3) using all space possible with max stat seeds (31/31/0) on a high tier, moderate speed crop needs only 4A ULV.%n%nSending more power to the same gearbox doesn't work. If it can get to max RF capacity but your farm can't keep up, sending more power won't help, so add more gearboxes.%n%nIn addition, you lose 2 EU from the the energy emitting device for every A of ULV (which is only 8 to begin with), so it's not nearly as efficient as using LV or higher. Just keep in mind that more A to more gearboxes is better than to the same one.%n%nOf course, if you mix your slower crops with your faster ones, you aren't likely to need to min-max to this extent.
 
 # Quest.593 - Enhanced Farm Logic
 gtnh.quest593.name=Enhanced Farm Logic
@@ -3014,7 +3014,7 @@ gtnh.quest752.desc=Advanced circuits require transistors, which are made out of 
 
 # Quest.753 - §6§lStainless Steel EBF processing
 gtnh.quest753.name=§6§lStainless Steel EBF processing
-gtnh.quest753.desc=Stainless steel ingots are made in the electric blast furnace at a temperature of 1700K. %nIt takes 80 seconds at 480 EU/t or by adding oxygen gas 60 seconds at 480 EU/t.%n%n§4You need a miniumum of two MV energy hatches to power the EBF.
+gtnh.quest753.desc=Stainless Steel ingots are made in the Electric Blast Furnace at a temperature of 1700K.%n%nIt takes 80 seconds at 480 EU/t or 60 seconds at 480 EU/t by adding Oxygen gas.%n%n§4You need a miniumum of two MV energy hatches to power the EBF to HV voltages.
 
 # Quest.754 - §6§lMV Energy Hatch
 gtnh.quest754.name=§6§lMV Energy Hatch
@@ -4546,7 +4546,7 @@ gtnh.quest1135.desc=To get your simple ore washer working you need a ULV Transfo
 
 # Quest.1136 - §5§lLossless LV Cables
 gtnh.quest1136.name=§5§lLossless LV Cables
-gtnh.quest1136.desc=How about losless 32 EU LV Cables ? Redstone alloy is a superconductor wire and will transfer your energy without any loss.%nRedalloy is a new alloy which requires an EBF. Mix redstone, silicon and coal by hand, or in the mixer for a better result.
+gtnh.quest1136.desc=How about lossless 32 EU cables? Redstone alloy is a superconductor and will transfer your energy without any loss.%n%nRedstone Alloy is a new alloy which requires an EBF. Mix redstone, silicon and coal by hand, or in the mixer for a better result.
 
 # Quest.1137 - §9§lKinetic Power HV
 gtnh.quest1137.name=§9§lKinetic Power HV
@@ -5616,13 +5616,13 @@ gtnh.quest1402.desc=Chrome screws are nice, but they seem to break if too much v
 gtnh.quest1403.name=§9§lHV Steam Turbine
 gtnh.quest1403.desc=If you decide to use steam in HV tier then it's time to build a steam turbine.
 
-# Quest.1404 - §9§lSuperconductors 128 eu/t
-gtnh.quest1404.name=§9§lSuperconductors 128 eu/t
-gtnh.quest1404.desc=How about lossless 128 EU MV Wires ? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage now has a superconductor wire and a base wire with only a very small loss.%nMix cadmium, magnesium and oxygen in a mv mixer. Next te base dust needs an EBF with Kanthal Coils. A vacuum freezer is also required to cool it down. Make some MV Superconductor base Wires and use an assembler to combine these wires with Helium, Stainless Steel pipes and HV pumps to get your 128 eu/t superconductor wires.
+# Quest.1404 - §9§lMV Superconductors (128 EU/t)
+gtnh.quest1404.name=§9§lMV Superconductors (128 EU/t)
+gtnh.quest1404.desc=How about lossless 128 EU Wires? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage now has a superconductor wire with 0 and a base wire with only a very small loss.%n%nMix Cadmium, Magnesium and Oxygen in an MV mixer. Next the base dust needs an EBF with Kanthal Coils to be smelted. A vacuum freezer is also required to cool it down. Make some MV Superconductor Base Wires and use an Assembler to combine these wires with Helium, Stainless Steel pipes and HV pumps to get your 128 eu/t superconductor wires.%n%n§3Whether these are worth it to save a little power or not is up to you of course. Also note that although they're wires, you aren't hurt by coming into contact with them.
 
-# Quest.1405 - §9§lSuperconductors 512 eu/t
-gtnh.quest1405.name=§9§lSuperconductors 512 eu/t
-gtnh.quest1405.desc=How about lossless 512 EU HV Wires ? Titaniumonabariumdecacoppereikosaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage now has a superconductor wire and a base wire with only a very small loss.%nMix titanium, barium, copper and oxygen in an HV mixer. Next the base needs an EBF with Nichrome Coils. A vacuum freezer is also required to cool it down. Make some HV Superconductor base Wires and use an assembler to combine these wires with Helium, Titanium pipes and EV pumps to get your 512 eu/t superconductor wires.
+# Quest.1405 - §9§lHV Superconductors (512 EU/t)
+gtnh.quest1405.name=§9§lHV Superconductors (512 EU/t)
+gtnh.quest1405.desc=How about lossless 512 EU Wires? Titaniumonabariumdecacoppereikosaoxide is a superconductor wire and will transfer your energy without any loss. %n%nYou'll need Nichrome Coils and an HV Assembler.%n%n§3Whether these are worth it to save a little power or not is up to you of course.
 
 # Quest.1406 - §a§lEV Assembler
 gtnh.quest1406.name=§a§lEV Assembler
@@ -5632,17 +5632,17 @@ gtnh.quest1406.desc=An EV asembler is required to make some lapotron crystals. O
 gtnh.quest1407.name=§a§k§r§a§lEV Laser Engraver
 gtnh.quest1407.desc=An EV precision laser is required to make quantum crystals. Other recipes are twice as fast than with an HV precision laser.
 
-# Quest.1408 - §a§lSuperconductors 2048 eu/t
-gtnh.quest1408.name=§a§lSuperconductors 2048 eu/t
-gtnh.quest1408.desc=How about lossless 2048 EU EV Wires ? Uraniumtriplatinide is a superconductor wire and will transfer your energy without any loss. Every Voltage now has a superconductor wire and a base wire with only a very small loss.%nMix uranium 238 and platinum in an HV mixer. Next the base needs an EBF with Tungstensteel Coils. A vacuum freezer is also required to cool it down. Make some EV Superconductor base Wires and use an assembler to combine these wires with Nitrogen, Helium, Tungstensteel pipes and IV pumps to get your 2048 eu/t superconductor wires.
+# Quest.1408 - §a§lEV Superconductors (2048 EU/t)
+gtnh.quest1408.name=§a§lEV Superconductors (2048 EU/t)
+gtnh.quest1408.desc=How about lossless 2048 EU Wires? Uraniumtriplatinide is a superconductor wire and will transfer your energy without any loss. %n%nYou'll need Tungstensteel Coils.%n%n§3Whether these are worth it to save a little power or not is up to you of course.
 
-# Quest.1409 - §b§lSuperconductors 8192 eu/t
-gtnh.quest1409.name=§b§lSuperconductors 8192 eu/t
-gtnh.quest1409.desc=How about lossless 8192 EU IV wires? Vanadiumtriindinide is a superconductor wire and will transfer your energy without any loss. Every voltage now has superconductor wires and a base wire with only a very small EU/t loss.%n%nMix vanadium and indium in a HV mixer. Now you have the base dust, which needs an EBF with HSS-G coils, and a vacuum freezer to cool it down.%n%nMake some IV superconductor base wires and use an assembler to combine these wires with nitrogen, helium and niobiumtitanium pipes and an IV pump to get your 8192 EU/t superconductor wires.
+# Quest.1409 - §b§lIV Superconductors (8192 EU/t)
+gtnh.quest1409.name=§b§lIV Superconductors (8192 EU/t)
+gtnh.quest1409.desc=How about lossless 8192 EU Wires? Vanadiumtriindinide is a superconductor wire and will transfer your energy without any loss. %n%nFrom now on, SCs are not optional.
 
 # Quest.1410 - §b§lIV Mixer
 gtnh.quest1410.name=§b§lIV Mixer
-gtnh.quest1410.desc=An IV mixer is required to mixe niobiumtitanium and vanadiumgallium dust. Other recipes are twice faster than with an EV mixer.
+gtnh.quest1410.desc=An IV mixer is required to mix Niobium-Titanium and Vanadium-Gallium dust. You need both to progress.%n%n§3...Who thought of these lazy-ass names? Well, at least you can tell what they're made of.
 
 # Quest.1411 - §9§lSome rare high tier metals
 gtnh.quest1411.name=§9§lSome rare high tier metals
@@ -6722,7 +6722,7 @@ gtnh.quest1679.desc=The Qbit Wafer is made out of a Nano CPU Wafer and Quantum E
 
 # Quest.1680 - §c§lThought emitters were bad enough?
 gtnh.quest1680.name=§c§lThought emitters were bad enough?
-gtnh.quest1680.desc=Field generators are a big part of lategame crafts, and yes they always suck to make.
+gtnh.quest1680.desc=Field generators are a big part of lategame crafts. And yes, they always suck to make.
 
 # Quest.1681 - §c§lAccelerating things II
 gtnh.quest1681.name=§c§lAccelerating things II
@@ -6786,7 +6786,7 @@ gtnh.quest1695.desc=Mixing 3,3 Dichlorobenzidine with Ammonia and Zinc in an IV 
 
 # Quest.1696 - §b§lChemical reactions at IV level
 gtnh.quest1696.name=§b§lChemical reactions at IV level
-gtnh.quest1696.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternativly you can use your Large Chemical Rector with two EV or one IV energy hatch.
+gtnh.quest1696.desc=High tier chemical recipes need a high tier IV chemical reactor.%n%nAlternativly you can use your Large Chemical Reactor with two EV or one IV energy hatch.%n%n§3...Which you can make after you finish the platline. Have fun!
 
 # Quest.1697 - §b§lPolybenzimidazole finally
 gtnh.quest1697.name=§b§lPolybenzimidazole finally
@@ -6844,9 +6844,9 @@ gtnh.quest1709.desc=The Ultimate Crystalcomputer is a ZPM circuit. A cleanroom i
 gtnh.quest1710.name=§c§lCrystalprocessor Mainframe
 gtnh.quest1710.desc=The Crystalprocessor Mainframe is the first UV circuit you can make. A cleanroom is needed.
 
-# Quest.1711 - §c§lSuperconductors 32768 eu/t
-gtnh.quest1711.name=§c§lSuperconductors 32768 eu/t
-gtnh.quest1711.desc=How about lossless 32768 EU IV wires? Tetraindiumditindibariumtitaniumheptacoppertetrakaidekaoxide is a superconductor wire and will transfer your energy without any loss. Every voltage now has superconductor wires and a base wire with only a very small EU/t loss.%n%nMix indium, tin, barium, tianium, copper and oxygen in an EV mixer. Now you have the base dust, which needs an EBF with Naquadah coils, and a vacuum freezer to cool it down.%n%nMake some LuV superconductor base wires and use an assembler to combine these wires with helium and tiny enderium pipes and an LuV pump to get your 32768 EU/t superconductor wires.
+# Quest.1711 - §c§lLuV Superconductors (32,768 EU/t)
+gtnh.quest1711.name=§c§lLuV Superconductors (32,768 EU/t)
+gtnh.quest1711.desc=How about lossless 32768 EU Wires? Tetraindiumditindibariumtitaniumheptacoppertetrakaidekaoxide is a superconductor wire and will transfer your energy without any loss. 
 
 # Quest.1712 - §b§lCheaper LV circuits
 gtnh.quest1712.name=§b§lCheaper LV circuits
@@ -8094,7 +8094,7 @@ gtnh.quest2022.desc=Instead of chest you have to keep placing and breaking, how 
 
 # Quest.2023 - §b§a§lMore power needed, sir!
 gtnh.quest2023.name=§b§a§lMore power needed, sir!
-gtnh.quest2023.desc=EBF and LCR recipes are going to need even more power.  You'll need to craft EV energy hatches to supply them and keep them running.
+gtnh.quest2023.desc=EBF and LCR recipes are going to need even more power. You'll need to craft EV energy hatches to supply them and keep them running.
 
 # Quest.2024 - §c§lAssline quest updates
 gtnh.quest2024.name=§c§lAssline quest updates
@@ -10476,16 +10476,16 @@ gtnh.quest2617.desc=You can play other games you know?
 gtnh.quest2618.name=Harder, Better, Faster, Stronger... Pt 2 in UHV
 gtnh.quest2618.desc=Remember to take a break once an hour (lol).
 
-# Quest.2619 - Superconductors at 131,072 EU/t
-gtnh.quest2619.name=Superconductors at 131,072 EU/t
+# Quest.2619 - ZPM Superconductors (131,072 EU/t)
+gtnh.quest2619.name=ZPM Superconductors (131,072 EU/t)
 gtnh.quest2619.desc=You can figure out how to make them yourself, right?
 
-# Quest.2620 - Superconductors at 524,288 EU/t
-gtnh.quest2620.name=Superconductors at 524,288 EU/t
+# Quest.2620 - UV Superconductors (524,288 EU/t)
+gtnh.quest2620.name=UV Superconductors (524,288 EU/t)
 gtnh.quest2620.desc=I wonder what temperature they start superconducting at?
 
-# Quest.2621 - Superconductors at 2,097,152 EU/t
-gtnh.quest2621.name=Superconductors at 2,097,152 EU/t
+# Quest.2621 - UHV Superconductors at (2,097,152 EU/t)
+gtnh.quest2621.name=UHV Superconductors at (2,097,152 EU/t)
 gtnh.quest2621.desc=So above this is the UEV, UIV, UMV, UXV, and OpV wires. Only UEV and UIV have cable versions, and there are no superconductors. You can use UHV superconductors, or use a super cheap material and accept some losses to move your power around. Aside from other options like sending it through an AE tunnel or making power on site again.%n%nThe materials to make the higher tiers are currently Draconium, Nether Star, Quantium, Black Plutonium, and Awakened Draconium. Expect these to change if the tiers actually see use.%n%nWhat, the UHV superconductor? Didn't you already make that?%n%n§4If you forgot, you get a heat adjustment when using the EBF based on energy hatch tier. So you can smelt the Base UHV Ingot with Fluxed Coils and an UV hatch, since you get up to 10501K. And no, you can't use a Volcanus or MEBF.
 
 # Quest.2622 - Tier VII Field Generator
@@ -11319,6 +11319,78 @@ gtnh.quest2828.desc=So that means it produces §otwice§r as much power! You can
 # Quest.2829 - Fluid Nukes
 gtnh.quest2829.name=Fluid Nukes
 gtnh.quest2829.desc=Also, Vac Nukes and Wrench reactors (lol), are more advanced versions of the normal one.%n%nFluid means you build it differently (with the parts on the right, it's a 5x5 cube surrounding the normal one), with the goal of producing as much hot coolant (cycle in non-hot) as possible, to use that to produce power. It doesn't produce power on it's own, but more overall. Send it to the LHE to get SH steam out of it, then go through a HP steam turbine, then a normal steam turbine.%n%nVac nukes just refer to using a vacuum freezer to restore the Helium/NaK cells' durability. You can do this instead of making it heat neutral or lossy with Heat Vents and such, but one mistake and KA-BOOM!%n%nWrench reactors are when you fill the reacor with fuel rods, turn it on, and wrench it to reset it's heat state before it explodes. If you can automate it, you deserve a medal!%n%nIf you still don't know what a MOX one is, it produces more power the higher the temperature, so you try to keep it heat neutral, and as hot as possible. Of course, this can cause things nearby to, well, §omelt.§r Naquadria fuel cells work the same way. You can also get more Plutonium out of MOX than Uranium.%n%nA breeder reactor is when you setup a reactor to get an item out of it rather than power, like Lutetium from Thorium, Plutonium from MOX, etc. Look at the depleted x fuel rod list in NEI to see more.%n%n§3Since Fluid Nukes are liable to explode if you run out of coolant, make sure you setup a cutoff tied to the temperature with redstone.
+
+# Quest.2830 - IV Energy Hatch
+gtnh.quest2830.name=IV Energy Hatch
+gtnh.quest2830.desc=You'll need this to increase the power to your multis and progress.%n%nYou need some Vanadium-Gallium to make HPIC Wafers for it, and an IV Cutting Machine if you haven't made the multi.%n%n§3I hope you had fun with the platline, lol.
+
+# Quest.2831 - Nickel and Cobalt
+gtnh.quest2831.name=Nickel and Cobalt
+gtnh.quest2831.desc=Your Electric Blast Furnace needs lots of nickel. It is now time to find a nickel deposit in the Twilight Forest. %nCobalt can later be washed out of the Cobaltite ore more easily than found it in the Nether. The vein is located at Y level 5 - 30.
+
+# Quest.2832 - Time to kill (Bighorn Sheep)
+gtnh.quest2832.name=Time to kill (Bighorn Sheep)
+gtnh.quest2832.desc=Oh no not the poor bighorn sheeps. Fluffy and red I am so sad in the twilight Forest.
+
+# Quest.2833 - Time to kill (Wild Deer)
+gtnh.quest2833.name=Time to kill (Wild Deer)
+gtnh.quest2833.desc=Christmas is canceled this year. So sad.
+
+# Quest.2834 - Time to kill (Wild Boar)
+gtnh.quest2834.name=Time to kill (Wild Boar)
+gtnh.quest2834.desc=Delicious roasted wild boar. Mhh very tasty.
+
+# Quest.2835 - Time to kill (Rabbit)
+gtnh.quest2835.name=Time to kill (Rabbit)
+gtnh.quest2835.desc=Oh how cute this little rabbits.  Pow! .... oh dead?
+
+# Quest.2836 - Time to kill (Raven)
+gtnh.quest2836.name=Time to kill (Raven)
+gtnh.quest2836.desc=Abracadabra ... give me your black feathers.
+
+# Quest.2837 - Time to kill (Penguin)
+gtnh.quest2837.name=Time to kill (Penguin)
+gtnh.quest2837.desc=Be careful not to slip on the Ice and land on a penguin.
+
+# Quest.2838 - Time to kill (Squirrell)
+gtnh.quest2838.name=Time to kill (Squirrell)
+gtnh.quest2838.desc=Mmh yummy squirrel on a stick!
+
+# Quest.2839 - Time to kill (Tiny Birds)
+gtnh.quest2839.name=Time to kill (Tiny Birds)
+gtnh.quest2839.desc= Tweet,  tweet,  tweet.... death.
+
+# Quest.2840 - Time to kill (Skeleton Druid)
+gtnh.quest2840.name=Time to kill (Skeleton Druid)
+gtnh.quest2840.desc=The druid skeleton is always infernal so watch out. It can be found in little huts all over the Twilight Forest.
+
+# Quest.2841 - Time to kill (Kobolt)
+gtnh.quest2841.name=Time to kill (Kobolt)
+gtnh.quest2841.desc=Kobold spawners can be found in Hollow Hills.  It will spawn almost anywhere that is dark within the Twilight Forest dimension and tends to spawn in large groups. 
+
+# Quest.2842 - Time to kill (Redcap)
+gtnh.quest2842.name=Time to kill (Redcap)
+gtnh.quest2842.desc=The Redcap is a goblin carries an Iron Pickaxe, wears Iron Boots, and constantly giggles to itself. They are found lurking in Hollow Hills, as well as occasionally appearing in the Goblin Knight Stronghold. 
+
+# Quest.2843 - Time to kill (Fire Beetle)
+gtnh.quest2843.name=Time to kill (Fire Beetle)
+gtnh.quest2843.desc=The Fire Beetle is found in Hollow Hills and Labyrinths. Fire Beetles will shoot a breath of fire at nearby players, dealing 2 (Heart.svg) damage every half second the player is exposed to the fire.
+
+# Quest.2844 - Time to kill (Slime Beetle)
+gtnh.quest2844.name=Time to kill (Slime Beetle)
+gtnh.quest2844.desc=The Slime Beetlecan be found in Hollow Hills, and Labyrinths. Slime Beetles fire slimy projectiles at players that deal about 8 Hearts points of damage on attack. They have incredible accuracy, and move extremely quickly when the player attempts to approach one.
+
+# Quest.2845 - Time to kill (Swarm Spider)
+gtnh.quest2845.name=Time to kill (Swarm Spider)
+gtnh.quest2845.desc=The Swarm Spider can be found in large groups inside various landmarks, such as Hollow Hills, Leaf Dungeons and Hedge Mazes. Swarm Spiders can sometimes spawn with Skeletons riding them. They have 3 Hearts health points, making them weak to almost any attack. Swarm Spiders will attempt to attack but due to their low attack, they barely inflict damage on anything.
+
+# Quest.2846 - Time to kill (Pinch Beetle)
+gtnh.quest2846.name=Time to kill (Pinch Beetle)
+gtnh.quest2846.desc=Pinch Beetles  have 20 hearts worth of health and can hit for 4 hearts of damage when grabbed. They can be found in the largest Hollow Hills, Labyrinths, and in Dark Towers. Pinch Beetles charge at you and grab your body. When in this situation you want to quickly attack and kill them. They are very fast and can be extremely dangerous when near lava, a cliff, or other enemies. Pinch beetles can suffocate you of the ceiling is too low.
+
+# Quest.2847 - Time to kill (Wraith)
+gtnh.quest2847.name=Time to kill (Wraith)
+gtnh.quest2847.desc=The Twilight Wraith is a  floating spirits are not initially aggressive towards the player but will become angry when approached. When spotted by a Wraith it can be difficult to lose it, as they are relentless in chasing the player and its ability to phase through blocks. They are found in large Hollow Hills. 
 
 ##################################Line##################################
 
