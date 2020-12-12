@@ -1,0 +1,5 @@
+commands.forge.usage=指令：/forge <子命令>. 子命令包括：tps, track
+commands.forge.usage.tracking=指令：/forge track <类型> <持续时间>. 可用类型有：te (实体方块). 持续时间 < 60. 
+commands.forge.tps.summary=%s : 平均tick耗时: %d ms. 平均TPS: %d
+
+commands.forge.tracking.te.enabled=已启用实体方块追踪 %d 秒.
