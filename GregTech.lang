@@ -111,28 +111,6 @@ languagefile {
     S:"Book.Thermal Boiler Manual.Page07"=地热锅炉在100%效率时,每t消耗大约5-6升水,产生800升蒸汽.每秒消耗1666升岩浆.[CR][CR]一台地热锅炉与33台小型锅炉相当,而且由于当锅炉没有足够的燃料时,其效率就会大大降低,所以你得考虑在地狱造个大泵抽岩浆了,或者造个不错的反应堆来提供熔盐.
     S:"Book.Thermal Boiler Manual.Page08"=输入和输出仓室是可选的,你可以装好多个,也可以一个都不装.一台没有输入的机器无法处理任何配方,而一台没有输出的机器将销毁本该输出的物品或流体.[CR][CR]在输出仓上使用螺丝刀可锁定输出流体种类,这个小技巧挺有用的.
     
-    S:gt.scanner.distancetexts.0=  位于当前区块， 
-    S:gt.scanner.distancetexts.1=  距离1-2区块， 
-    S:gt.scanner.distancetexts.2=  距离3-5区块， 
-    S:gt.scanner.distancetexts.3=  距离6-8区块， 
-    S:gt.scanner.distancetexts.4=  距离9区块及以上，
-    S:gt.scanner.fail=%badluck个区块勘探失败。祝你下次好运！
-    S:gt.scanner.foundtexts.0=没有发现矿石
-    S:gt.scanner.foundtexts.1=零星(1-9)
-    S:gt.scanner.foundtexts.2=少量(10-29)
-    S:gt.scanner.foundtexts.3=中等(30-59)
-    S:gt.scanner.foundtexts.4=较多(60-99)
-    S:gt.scanner.foundtexts.5=极多(100+)
-    S:gt.scanner.foundtexts.6=发现 
-    S:gt.scanner.mode.0=当前模式：矿石
-    S:gt.scanner.mode.1=当前模式：矿石(含贫瘠矿石)
-    S:gt.scanner.mode.2=当前模式：原油
-    S:gt.scanner.mode.3=当前模式：污染
-    S:gt.scanner.mode.error=当前模式：错误
-    S:gt.scanner.prospecting=正在勘探 
-    S:gt.scanner.success=全部区块勘探成功！
-    S:gt.scanner.small_ore.keyword=贫瘠
-
     S:"Escherichia cadaver"=腐肉菌
     S:"Escherichia koli"=大肠杆菌
     S:Interaction_DESCRIPTION_Index_001=输出到相邻容器的格子#
