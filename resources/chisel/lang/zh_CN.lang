@@ -16,6 +16,7 @@ item.chisel.chisel.desc.modes=拥有多种雕刻模式.
 
 item.chisel.chisel_diamond.name=钻石凿子
 item.chisel.chisel_obsidian.name=黑曜石凿子
+item.chisel.chisel_netherstar.name=下界之星凿子
 
 item.ballMoss.name=苔藓球
 item.ballMoss.desc=右键丢出.若碰到圆石则使其变成苔石.
@@ -59,6 +60,14 @@ tile.shingles.5.desc=黑色大方瓦
 tile.chisel.valentines.name=少女心方块
 tile.valentines.0.desc=少女心砖块
 tile.valentines.1.desc=如果她开始说话了,你最好远离她
+tile.valentines.2.desc=如果她说话了而你没理她,请注意安全
+tile.valentines.3.desc=
+tile.valentines.4.desc=
+tile.valentines.5.desc=
+tile.valentines.6.desc=
+tile.valentines.7.desc=
+tile.valentines.8.desc=
+tile.valentines.9.desc=
 
 #AntiBlocks
 tile.chisel.antiBlock.name=纯色方块
@@ -724,6 +733,7 @@ tile.glass2.0.desc=非对称式格栅铅框玻璃
 
 #Sandstone
 tile.chisel.sandstone.name=沙石
+tile.chisel.sandstone2.name=沙石
 
 tile.sandstone.0.desc=雕文沙石
 tile.sandstone.1.desc=沙圆石
@@ -742,6 +752,8 @@ tile.sandstone.12.desc=沙石块
 tile.sandstone.13.desc=方砖沙石
 tile.sandstone.14.desc=镶嵌图案沙石
 tile.sandstone.15.desc=层叠沙石瓷砖
+tile.sandstone.16.desc=沙石砖块
+tile.sandstone.17.desc=
 
 #Sandstone scribbles
 tile.chisel.sandstone_scribbles.name=刻文沙石
@@ -1729,3 +1741,4 @@ container.chisel.mode.single=单个雕刻
 container.chisel.mode.panel=范围雕刻
 container.chisel.mode.column=竖向雕刻
 container.chisel.mode.row=横向雕刻
+
