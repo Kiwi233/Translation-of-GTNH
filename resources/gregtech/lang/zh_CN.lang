@@ -1,3 +1,25 @@
+# Multiblock Tooltip Builder Keywords
+# Context can be found in the class gregtech.api.util.GT_Multiblock_Tooltip_Builder
+GT5U.MBTT.MachineType=机器类型
+GT5U.MBTT.Dimensions=大小
+GT5U.MBTT.Hollow=(中空)
+GT5U.MBTT.Structure=结构
+GT5U.MBTT.Controller=控制器
+GT5U.MBTT.Minimum=(至少)
+GT5U.MBTT.MaintenanceHatch=维护仓
+GT5U.MBTT.MufflerHatch=消声仓
+GT5U.MBTT.EnergyHatch=能源仓
+GT5U.MBTT.DynamoHatch=动力仓
+GT5U.MBTT.InputBus=输入总线
+GT5U.MBTT.InputHatch=输入仓
+GT5U.MBTT.OutputBus=输出总线
+GT5U.MBTT.OutputHatch=输出仓
+GT5U.MBTT.Causes=产生
+GT5U.MBTT.PPS=点/秒污染
+GT5U.MBTT.Hold=按住
+GT5U.MBTT.Display=以显示结构指导
+GT5U.MBTT.Mod=添加模组：
+
 GT5U.turbine.running.true=涡轮运行
 GT5U.turbine.running.false=涡轮停止
 GT5U.turbine.maintenance.false=没有维护问题
@@ -41,9 +63,11 @@ GT5U.machines.separatebus=输入总线已独立
 GT5U.machines.pumpareaset=工作区域设置为
 GT5U.machines.oilfluidpump=石油/流体钻机
 GT5U.machines.minermulti=采矿场
+GT5U.machines.voidoveflow.enabled=启用溢出销毁
+GT5U.machines.voidoveflow.disabled=禁用溢出销毁
 
-
-
+GT5U.hatch.disableFilter.true=关闭输入过滤
+GT5U.hatch.disableFilter.false=开启输入过滤
 
 GT5U.multiblock.pollution=污染减少到
 GT5U.multiblock.energy=存储能量
@@ -815,6 +839,8 @@ achievement.gt.blockmachines.multimachine.em.emtoessentia=源质反量子化仪
 achievement.gt.blockmachines.multimachine.em.emtoessentia.desc=捡起这个物品以在NEI内查看配方
 achievement.gt.blockmachines.multimachine.em.scanner=元物质扫描仪
 achievement.gt.blockmachines.multimachine.em.scanner.desc=捡起这个物品以在NEI内查看配方
+achievement.gt.blockmachines.multimachine.em.databank=数据库
+achievement.gt.blockmachines.multimachine.em.databank.desc=捡起这个物品以在NEI内查看配方
 achievement.gt.blockcasingsTT.8=中空机械方块
 achievement.gt.blockcasingsTT.8.desc=捡起这个物品以在NEI内查看配方
 achievement.gt.blockcasingsTT.7=分子线圈
@@ -824,11 +850,11 @@ achievement.gt.blockmachines.multimachine.em.infuser.desc=捡起这个物品以�
 achievement.gt.blockmachines.hatch.holder.tier.09=物品固定容器
 achievement.gt.blockmachines.hatch.holder.tier.09.desc=捡起这个物品以在NEI内查看配方
 
-achievement.item.StargateShieldingFoil=Stargate-Radiation-Containment-Plate
+achievement.item.StargateShieldingFoil=星门辐射防护板
 achievement.item.StargateShieldingFoil.desc=捡起这个物品以在NEI内查看配方
-achievement.item.StargateChevron=Stargate Chevron
+achievement.item.StargateChevron=星门三角部件
 achievement.item.StargateChevron.desc=捡起这个物品以在NEI内查看配方
-achievement.item.StargateFramePart=Stargate Frame Part
+achievement.item.StargateFramePart=星门框架部件
 achievement.item.StargateFramePart.desc=捡起这个物品以在NEI内查看配方
 
 achievement.gt.metaitem.01.32605=终极电池
@@ -1015,3 +1041,4 @@ gregtech.speedUnproductive=不生产
 gregtech.speedAccelerated=加速
 gregtech.lifeBlink=瞬灭 
 gregtech.lifeEon=永生
+
