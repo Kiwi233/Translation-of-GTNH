@@ -1,0 +1,86 @@
+# -- Items --
+item.TravellersGear.simpleGear.cloak.name=披风
+item.TravellersGear.simpleGear.belt.name=腰带
+item.TravellersGear.simpleGear.ringGold.name=金指环
+item.TravellersGear.simpleGear.ringSilver.name=银指环
+item.TravellersGear.simpleGear.pauldrons.name=肩铠
+item.TravellersGear.simpleGear.vambraces.name=臂铠
+item.TravellersGear.simpleGear.title.name=头衔卷轴
+# -- Blocks -- 
+tile.TravellersGear.armorstand.name=衣架
+
+#-- GUI --
+TG.guitext.equipment=装备界面
+#N TG.guitext.lvl=Lvl
+TG.guitext.visDiscount=灵气减免
+
+TG.guitext.preset=预置调置
+TG.guitext.texture=材质
+
+TG.guitext.rightclickToOpen=右击打开
+TG.guitext.linkInChat=Ctrl+右击将此物品复制到聊天窗口
+
+TG.guitext.showPlate=显示底板
+TG.guitext.showTable=显示桌板
+TG.guitext.showArmor0=显示头盔
+TG.guitext.showArmor1=显示胸甲
+TG.guitext.showArmor2=显示护腿
+TG.guitext.showArmor3=显示靴子
+TG.guitext.showBaubles0=显示护身符
+TG.guitext.showBaubles1=显示指环(一)
+TG.guitext.showBaubles2=显示指环(二)
+TG.guitext.showBaubles3=显示腰带
+TG.guitext.showTG0=显示斗篷
+TG.guitext.showTG1=显示肩甲
+TG.guitext.showTG2=显示臂甲
+TG.guitext.showMari0=显示戒指
+TG.guitext.showMari1=显示手镯
+TG.guitext.showMari2=显示项链
+
+TG.guitext.renderBaubles0=于衣架上渲染护身符
+TG.guitext.renderBaubles1=于衣架上渲染指环(一)
+TG.guitext.renderBaubles2=于衣架上渲染指环(二)
+TG.guitext.renderBaubles3=于衣架上渲染腰带
+TG.guitext.renderTG0=于衣架上渲染斗篷
+TG.guitext.renderTG1=于衣架上渲染肩甲
+TG.guitext.renderTG2=于衣架上渲染臂甲
+TG.guitext.style=衣架样式 >
+
+TG.guitext.add=添加
+TG.guitext.rem=移除
+TG.guitext.translation=翻译
+TG.guitext.rotation=旋转
+TG.guitext.scale=比例
+TG.guitext.hideWhenEquipped=装备时隐藏
+TG.guitext.rotateWithHead=以头部为中心旋转
+					
+TG.chattext.showItem=%1$s 展示物品: %2$s
+
+TG.desc.gearSlot.tg.0=可装备于§a斗篷§7格
+TG.desc.gearSlot.tg.1=可装备于§a肩甲§7格
+TG.desc.gearSlot.tg.2=可装备于§a臂甲§7格
+TG.desc.gearSlot.tg.3=可装备于§a头衔§7格
+TG.desc.gearSlot.bauble.RING=可装备于§a指环§7格
+TG.desc.gearSlot.bauble.BELT=可装备于§a腰带§7格
+TG.desc.gearSlot.bauble.AMULET=可装备于§a护身符§7格
+
+itemGroup.travellersgear=旅行者的装备栏
+
+TG.keybind.openInv=打开旅行者的装备栏
+TG.keybind.activeaAbilities=激活能力
+TG.keybind.activeaAbility1=激活能力1
+TG.keybind.activeaAbility2=激活能力2
+TG.keybind.activeaAbility3=激活能力3
+
+#-- Title --
+TG.personaltitle.treepuncher=职业伐木工
+TG.personaltitle.titan=非凡矿工
+TG.personaltitle.librarian=图书管理员
+TG.personaltitle.bursar=财务主管
+TG.personaltitle.archchancellor=魔法师
+TG.personaltitle.justicar=仲裁者
+TG.personaltitle.explorer=勇往直前的探险家
+TG.personaltitle.defender=正义的伙伴
+TG.personaltitle.seeker=寻宝人
+TG.personaltitle.boxFox=盒中狐狸
+TG.personaltitle.freshPrince=初涉世事的王子
