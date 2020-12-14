@@ -121,6 +121,9 @@ recipes.remove(<witchery:ingredient:92>);
 // --- Waystone
 recipes.remove(<witchery:ingredient:12>);
 
+//Ruby slippers
+recipes.remove(<witchery:rubyslippers>); 
+
 
 
 
@@ -379,6 +382,23 @@ mods.thaumcraft.Arcane.addShaped("SPINNINGWHEELW", <witchery:spinningwheel>, "ae
 [<ore:stickStainlessSteel>, <ore:craftingToolScrewdriver>, <ore:stickStainlessSteel>]]);
 mods.thaumcraft.Research.addArcanePage("SPINNINGWHEELW", <witchery:spinningwheel>);
 
+// --- Ruby Slippers
+mods.thaumcraft.Research.addResearch("RUBYSLIPPERS", "WITCHERY", "auram 21, aer 18, fames 15, lucrum 12, vitreus 9, potentia 6, praecantatio 3", 6, -2 as int, 4, <witchery:rubyslippers>);
+game.setLocalization("tc.research_name.RUBYSLIPPERS", "Ruby Slippers");
+game.setLocalization("tc.research_text.RUBYSLIPPERS", "[WI] Welcome home");
+mods.thaumcraft.Research.addPrereq("RUBYSLIPPERS", "BLOODALTAR", false);
+mods.thaumcraft.Research.addPrereq("RUBYSLIPPERS", "SPINNINGWHEELW", false);
+mods.thaumcraft.Research.setConcealed("RUBYSLIPPERS", true);
+mods.thaumcraft.Research.addPage("RUBYSLIPPERS", "Witchery.research_page.RUBYSLIPPERS.1");
+game.setLocalization("Witchery.research_page.RUBYSLIPPERS.1", "Ruby Slippers are worn in the foot slot and have the same durability and protection as leather boots. They can be enchanted like leather boots too. They cannot be dyed.<BR>Once every 30 minutes, if a player is infused, if the player chants *There's no place like home* into the chat or uses the command: *chant there's no place like home<BR> They will be teleported back to their spawn point in the same dimension, this ability costs 40% of the players total infused power (or 60% if the teleport is cross-dimensional).");
+mods.thaumcraft.Research.addPage("RUBYSLIPPERS", "Witchery.research_page.RUBYSLIPPERS.2");
+game.setLocalization("Witchery.research_page.RUBYSLIPPERS.2", "Alternatively, once every 60 seconds the player may drop a Bound Waystone near to themselves and use the above chant to teleport to the location of the waystone (the waystone will be consumed!).<BR> This ability saves the need to draw a circle to use the Rite of Transposition. This ability costs 20% of the players total infused power (or 40% if the teleport is cross-dimensional).<BR>Ruby Slippers will turn invisible when the player is invisible. This is only a visual change, mobs will still react as if normal shoes were worn. Other players however will not be able to see the slippers!");
+mods.thaumcraft.Infusion.addRecipe("RUBYSLIPPERS", <witchery:seepingshoes>, 
+[<witchery:ingredient:80>, <dreamcraft:item.ManyullynCrystal>, <witchery:ingredient:34>, <BloodArsenal:blood_burned_string>, <dreamcraft:item.ManyullynCrystal>, <witchery:ingredient:80>, <dreamcraft:item.ManyullynCrystal>, <BloodArsenal:blood_burned_string>, <witchery:ingredient:34>, <dreamcraft:item.ManyullynCrystal>], 
+"auram 64, aer 64, lucrum 32, potentia 16, praecantatio 16, fames 32", <witchery:rubyslippers>, 5);
+mods.thaumcraft.Research.addInfusionPage("RUBYSLIPPERS", <witchery:rubyslippers>);
+mods.thaumcraft.Warp.addToResearch("RUBYSLIPPERS", 5);
+
 // --- Distillery
 mods.thaumcraft.Research.addResearch("DISTILLERY", "WITCHERY", "metallum 18, motus 15, fabrico 12, instrumentum 9, aqua 6, praecantatio 3", 8, 0, 4, <witchery:distilleryidle>);
 game.setLocalization("tc.research_name.DISTILLERY", "\u84b8\u998f\u5854");
@@ -572,7 +592,7 @@ mods.thaumcraft.Research.addPage("WAYSTONE", "Witchery.research_page.WAYSTONE");
 game.setLocalization("Witchery.research_page.WAYSTONE", "\u5bfb\u8def\u77f3\u662f\u4e00\u5757\u96d5\u523b\u8fc7\u7684\u71e7\u77f3,\u5b83\u662f\u5706\u73af\u6cd5\u9635\u7684\u4e00\u79cd\u91cd\u8981\u6838\u5fc3\u7269\u54c1,\u4e3b\u8981\u7528\u4e8e\u4f20\u9001\u6cd5\u9635.\u53ef\u4f7f\u7528\u300a\u5deb\u672f\uff1a\u5706\u73af\u6cd5\u9635\u300b\u4e00\u4e66\u4e2d\u7684\u7ed1\u5b9a\u4eea\u5f0f,\u5c06\u5bfb\u8def\u77f3\u7ed1\u5b9a\u5230\u7279\u5b9a\u5730\u70b9.
 \u5c068\u4e2a\u4ed6\u5904\u7b26\u6587\u7ed8\u5236\u6210\u4e00\u4e2a3x3\u7684\u7a7a\u5fc3\u5706,\u7136\u540e\u5c06\u4e00\u5757\u5bfb\u8def\u77f3\u4e22\u8fdb\u5706\u73af\u4e2d\u5fc3\u5e76\u7b49\u5f85\u4e00\u6bb5\u65f6\u95f4,\u4e5f\u53ef\u4ee5\u5236\u4f5c\u51fa\u7ed1\u5b9a\u5230\u8be5\u5904\u7684\u7ed1\u5b9a\u7684\u5bfb\u8def\u77f3.");
 mods.thaumcraft.Infusion.addRecipe("WAYSTONE", <minecraft:flint>, 
-[<witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>], 
-"motus 32, iter 16, praecantatio 24, tenebrae 16", <witchery:ingredient:12>, 5);
+[<witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkotherwhere>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkotherwhere>, <witchery:ingredient:7>], 
+"motus 48, iter 64, praecantatio 24, tenebrae 32, aer 64", <witchery:ingredient:12>, 5);
 mods.thaumcraft.Research.addInfusionPage("WAYSTONE", <witchery:ingredient:12>);
 mods.thaumcraft.Warp.addToResearch("WAYSTONE", 5);
