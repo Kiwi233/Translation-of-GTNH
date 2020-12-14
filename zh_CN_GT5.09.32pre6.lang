@@ -1358,7 +1358,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1170_Index_7=      格栅机械方块(或控制器方块或数据访问仓)
     S:TileEntity_DESCRIPTION_1170_Index_8=顶层：脱氧钢机械方块(或能源仓)
     S:TileEntity_DESCRIPTION_1170_Index_9=至多16片重复结构， 最后一片为输出总线
-    S:TileEntity_DESCRIPTION_1171_Index_0=大型柴油引擎的控制器方块
+    S:TileEntity_DESCRIPTION_1171_Index_0=大型内燃引擎的控制器方块
     S:TileEntity_DESCRIPTION_1171_Index_1=大小(宽x高x长)：3x3x4, 控制器方块(正面正中)
     S:TileEntity_DESCRIPTION_1171_Index_10=提供柴油类燃料与1000升/小时的润滑油以运行。
     S:TileEntity_DESCRIPTION_1171_Index_11=提供40升/秒的氧气以提高输出(可选)。
@@ -4729,9 +4729,9 @@ languagefile {
     S:gt.blockmachines.automation.typefilter.tier.07.name=零点压类型过滤器
     S:gt.blockmachines.automation.typefilter.tier.08.name=极限压类型过滤器
     S:gt.blockmachines.automation.typefilter.tier.09.name=极高压类型过滤器
-    S:gt.blockmachines.basicgenerator.diesel.tier.01.name=基础柴油发电机
-    S:gt.blockmachines.basicgenerator.diesel.tier.02.name=进阶柴油发电机
-    S:gt.blockmachines.basicgenerator.diesel.tier.03.name=涡轮柴油发电机
+    S:gt.blockmachines.basicgenerator.diesel.tier.01.name=基础内燃发电机
+    S:gt.blockmachines.basicgenerator.diesel.tier.02.name=进阶内燃发电机
+    S:gt.blockmachines.basicgenerator.diesel.tier.03.name=涡轮内燃发电机
     S:gt.blockmachines.basicgenerator.gasturbine.tier.01.name=基础燃气轮机
     S:gt.blockmachines.basicgenerator.gasturbine.tier.02.name=进阶燃气轮机
     S:gt.blockmachines.basicgenerator.gasturbine.tier.03.name=涡轮燃气轮机
@@ -5747,7 +5747,7 @@ languagefile {
     S:gt.blockmachines.multimachine.concretebackfiller1.name=混凝土回填机
     S:gt.blockmachines.multimachine.concretebackfiller3.name=进阶混凝土回填机
     S:gt.blockmachines.multimachine.cracker.name=石油裂化机
-    S:gt.blockmachines.multimachine.dieselengine.name=大型柴油引擎
+    S:gt.blockmachines.multimachine.dieselengine.name=大型内燃引擎
     S:gt.blockmachines.multimachine.distillationtower.name=蒸馏塔
     S:gt.blockmachines.multimachine.heatexchanger.name=大型热交换机
     S:gt.blockmachines.multimachine.implosioncompressor.name=聚爆压缩机
@@ -14906,7 +14906,7 @@ languagefile {
     S:gt.metaitem.01.32400.name=空塑料燃料罐
     S:gt.metaitem.01.32400.tooltip=用来储存燃料
     S:gt.metaitem.01.32401.name=塑料燃料罐
-    S:gt.metaitem.01.32401.tooltip=在柴油发电机里燃烧得很好
+    S:gt.metaitem.01.32401.tooltip=在内燃发电机里燃烧得很好
     S:gt.metaitem.01.32402.name=空喷漆罐
     S:gt.metaitem.01.32402.tooltip=用来制作喷漆罐
     S:gt.metaitem.01.32403.name=空板条箱
@@ -21153,7 +21153,7 @@ languagefile {
     S:gt.recipe.compressor=压缩机
     S:gt.recipe.craker=石油裂化机
     S:gt.recipe.cuttingsaw=板材切割机
-    S:gt.recipe.dieselgeneratorfuel=柴油发电机燃料
+    S:gt.recipe.dieselgeneratorfuel=内燃发电机燃料
     S:gt.recipe.distillationtower=蒸馏塔
     S:gt.recipe.distillery=蒸馏室
     S:gt.recipe.electrolyzer=电解机

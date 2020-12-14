@@ -2293,7 +2293,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1170_Index_7=第四层 - 空，脱氧钢机械方块，空 - 脱氧钢机械方块可用能源仓
     S:TileEntity_DESCRIPTION_1170_Index_8=至多16片重复结构，第一片的格栅机械方块替换为装配线主方块，
     S:TileEntity_DESCRIPTION_1170_Index_9=最后一片为输出总线
-    S:TileEntity_DESCRIPTION_1171_Index_0=大型柴油引擎的控制器方块
+    S:TileEntity_DESCRIPTION_1171_Index_0=大型内燃引擎的控制器方块
     S:TileEntity_DESCRIPTION_1171_Index_1=大小(宽x高x长)：3x3x4, 控制器方块(正面正中)
     S:TileEntity_DESCRIPTION_1171_Index_10=提供柴油类燃料与1000升/小时的润滑油以运行
     S:TileEntity_DESCRIPTION_1171_Index_11=提供40升/秒的氧气以提高输出(可选)
@@ -6147,7 +6147,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_2104_Index_2=用闪存,扫描闪存,打印闪存,将内容打印到书上
     S:TileEntity_DESCRIPTION_2104_Index_3=矿物勘探区为勘探者下方144x144大小的方块
     S:TileEntity_DESCRIPTION_2104_Index_4=石油勘探区为3x3油田，每块油田为8x8区块
-    S:TileEntity_DESCRIPTION_2105_Index_0=极限柴油引擎的控制器方块
+    S:TileEntity_DESCRIPTION_2105_Index_0=极限内燃引擎的控制器方块
     S:TileEntity_DESCRIPTION_2105_Index_1=大小(宽x高x长)：3x3x4, 控制器方块(正面正中)
     S:TileEntity_DESCRIPTION_2105_Index_10=引擎进气机械方块正前方不得堵塞(只允许空气方块)
     S:TileEntity_DESCRIPTION_2105_Index_11=提供高辛烷值汽油与8000升/小时的润滑油以运行
@@ -11776,10 +11776,10 @@ languagefile {
     S:gt.blockmachines.basic_crop_replicator.name=基础作物复制机
     S:gt.blockmachines.basic_crop_synthesiser.name=基础作物合成机
     S:gt.blockmachines.basic_cropweedpicker.name=基础作物除草机
-    S:gt.blockmachines.basicgenerator.diesel.tier.00.name=简易柴油发电机
-    S:gt.blockmachines.basicgenerator.diesel.tier.01.name=基础柴油发电机
-    S:gt.blockmachines.basicgenerator.diesel.tier.02.name=进阶柴油发电机
-    S:gt.blockmachines.basicgenerator.diesel.tier.03.name=涡轮柴油发电机
+    S:gt.blockmachines.basicgenerator.diesel.tier.00.name=简易内燃发电机
+    S:gt.blockmachines.basicgenerator.diesel.tier.01.name=基础内燃发电机
+    S:gt.blockmachines.basicgenerator.diesel.tier.02.name=进阶内燃发电机
+    S:gt.blockmachines.basicgenerator.diesel.tier.03.name=涡轮内燃发电机
     S:gt.blockmachines.basicgenerator.gas.tier.00.name=简易燃气轮机
     S:gt.blockmachines.basicgenerator.gasturbine.tier.01.name=基础燃气轮机
     S:gt.blockmachines.basicgenerator.gasturbine.tier.02.name=进阶燃气轮机
@@ -14062,7 +14062,7 @@ languagefile {
     S:gt.blockmachines.multimachine.concretebackfiller1.name=混凝土回填机
     S:gt.blockmachines.multimachine.concretebackfiller3.name=进阶混凝土回填机
     S:gt.blockmachines.multimachine.cracker.name=石油裂化机
-    S:gt.blockmachines.multimachine.dieselengine.name=大型柴油引擎
+    S:gt.blockmachines.multimachine.dieselengine.name=大型内燃引擎
     S:gt.blockmachines.multimachine.distillationtower.name=蒸馏塔
     S:gt.blockmachines.multimachine.em.annihilation.name=湮灭发电机
     S:gt.blockmachines.multimachine.em.blackholegenerator.name=黑洞发生器
@@ -14084,7 +14084,7 @@ languagefile {
     S:gt.blockmachines.multimachine.em.switch.name=QoS网络交换机
     S:gt.blockmachines.multimachine.em.transformer.name=有源变压器
     S:gt.blockmachines.multimachine.em.wormhole.name=虫洞
-    S:gt.blockmachines.multimachine.extremedieselengine.name=极限柴油引擎
+    S:gt.blockmachines.multimachine.extremedieselengine.name=极限内燃引擎
     S:gt.blockmachines.multimachine.fuelcellmk1.name=固体氧化物燃料电池 Mk I
     S:gt.blockmachines.multimachine.fuelcellmk2.name=固体氧化物燃料电池 Mk II
     S:gt.blockmachines.multimachine.heatexchanger.name=大型热交换机
@@ -36984,7 +36984,7 @@ languagefile {
     S:gt.metaitem.01.32400.name=空塑料燃料罐
     S:gt.metaitem.01.32400.tooltip=用来储存燃料
     S:gt.metaitem.01.32401.name=塑料燃料罐
-    S:gt.metaitem.01.32401.tooltip=在柴油发电机里燃烧得很好
+    S:gt.metaitem.01.32401.tooltip=在内燃发电机里燃烧得很好
     S:gt.metaitem.01.32402.name=空喷漆罐
     S:gt.metaitem.01.32402.tooltip=用来制作喷漆罐
     S:gt.metaitem.01.32403.name=空板条箱
@@ -54840,7 +54840,7 @@ languagefile {
     S:gt.recipe.cryogenicfreezer=凛冰冷冻机
     S:gt.recipe.cuttingsaw=板材切割机
     S:gt.recipe.cyclotron=COMET-紧凑式回旋加速器
-    S:gt.recipe.dieselgeneratorfuel=柴油发电机燃料
+    S:gt.recipe.dieselgeneratorfuel=内燃发电机燃料
     S:gt.recipe.distillationtower=蒸馏塔
     S:gt.recipe.distillery=蒸馏室
     S:gt.recipe.electricimplosioncompressor=电动聚爆压缩机
@@ -54849,7 +54849,7 @@ languagefile {
     S:gt.recipe.em_scanner=元物质扫描岩浆
     S:gt.recipe.extractor=提取机
     S:gt.recipe.extrahugenaquadahreactor=硅岩反应堆 MkV
-    S:gt.recipe.extremedieselgeneratorfuel=极限柴油引擎燃料
+    S:gt.recipe.extremedieselgeneratorfuel=极限内燃引擎燃料
     S:gt.recipe.extruder=压模器
     S:gt.recipe.fakeAssemblylineProcess=装配线加工
     S:gt.recipe.fermenter=发酵槽
