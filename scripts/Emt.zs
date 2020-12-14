@@ -222,9 +222,9 @@ mods.thaumcraft.Research.addPage("DiamondChainsaw", "tc.research_page.DiamondCha
 game.setLocalization("tc.research_page.DiamondChainsaw", "\u4e0d\u77e5\u4e3a\u4f55,\u50cf\u94bb\u77f3\u7535\u94bb\u90a3\u6837\u7528\u94bb\u77f3\u5347\u7ea7\u7535\u952f\u7684\u60f3\u6cd5\u51fa\u73b0\u5728\u4f60\u7684\u8111\u6d77\u4e2d.
 \u8fd9\u4e2a\u5347\u7ea7\u4f7f\u5f97\u7535\u952f\u80fd\u50a8\u5b58\u66f4\u591a\u7684\u7535\u529b\u5e76\u4e14\u80fd\u66f4\u5feb\u5730\u7834\u574f\u65b9\u5757.");
 mods.thaumcraft.Arcane.addShaped("DiamondChainsaw", <EMT:DiamondChainsaw:27>.withTag({shearsMode: 1 as byte}), "aer 35, terra 35, ignis 35, aqua 35, ordo 35, perditio 35", [
-[<ore:screwDiamond>, <ore:plateDiamond>, <ore:screwDiamond>],
-[<ore:plateDiamond>, <gregtech:gt.metatool.01:112>.withTag({ench: [{lvl: 2 as short, id: 35 as short}, {lvl: 2 as short, id: 21 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 51200 as long, Tier: 2 as long, MaxCharge: 400000 as long, Voltage: 128 as long, Electric: 1 as byte, SecondaryMaterial: "Titanium"}, "GT.CraftingComponents": {"Ingredient.5": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.6": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.7": {id: 7041 as short, Count: 1 as byte, Damage: 32528 as short}, "Ingredient.8": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.0": {id: 7041 as short, Count: 1 as byte, Damage: 27028 as short}, "Ingredient.1": {id: 7042 as short, Count: 1 as byte, Damage: 9330 as short}, "Ingredient.3": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.4": {id: 7041 as short, Count: 1 as byte, Damage: 32601 as short}}, "GT.ItemCharge": 400000 as long}), <ore:plateDiamond>],
-[<ore:craftingToolHardHammer>, <ore:plateDiamond>, <ore:craftingToolWrench>]]);
+[<ore:screwTitanium>, <ore:toolHeadChainsawThaumium>, <ore:screwTitanium>],
+[<ore:plateDiamond>, <ore:circuitAdvanced>, <ore:plateDiamond>],
+[<ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:32528>, <ore:craftingToolWrench>]]);
 mods.thaumcraft.Research.addArcanePage("DiamondChainsaw", <EMT:DiamondChainsaw:27>.withTag({shearsMode: 1 as byte}));
 
 // --- Thaumic Plate
@@ -388,9 +388,9 @@ game.setLocalization("tc.research_page.IronOmnitool", "\u5f53\u4f60\u7814\u7a76\
 \u4ee5\u6b64\u4f60\u5f97\u5230\u4e86\u4e00\u4e2a\u540c\u65f6\u53ef\u91c7\u77ff,\u780d\u6811\u548c\u5fa1\u654c\u7684\u5de5\u5177!
 \u5728\u5904\u7406\u666e\u901a\u91d1\u5c5e\u77ff\u7269\u65f6,\u5e76\u4e0d\u9700\u8981\u4ec0\u4e48\u9b54\u6cd5\u6548\u5e94.");
 mods.thaumcraft.Arcane.addShaped("IronOmnitool", <EMT:Omnitool:27>, "aer 15, terra 15, ignis 15, aqua 15, ordo 15, perditio 15", [
-[<ore:screwIron>, <gregtech:gt.metatool.01:100>.withTag({ench: [{lvl: 2 as short, id: 35 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 25600 as long, Tier: 1 as long, MaxCharge: 100000 as long, Voltage: 32 as long, Electric: 1 as byte, SecondaryMaterial: "StainlessSteel"}, "GT.CraftingComponents": {"Ingredient.5": {id: 7042 as short, Count: 1 as byte, Damage: 20306 as short}, "Ingredient.6": {id: 7041 as short, Count: 1 as byte, Damage: 17306 as short}, "Ingredient.7": {id: 7041 as short, Count: 1 as byte, Damage: 32518 as short}, "Ingredient.8": {id: 7041 as short, Count: 1 as byte, Damage: 17306 as short}, "Ingredient.0": {id: 7041 as short, Count: 1 as byte, Damage: 27306 as short}, "Ingredient.1": {id: 7042 as short, Count: 1 as byte, Damage: 8330 as short}, "Ingredient.3": {id: 7042 as short, Count: 1 as byte, Damage: 20306 as short}, "Ingredient.4": {id: 7041 as short, Count: 1 as byte, Damage: 32600 as short}}, "GT.ItemCharge": 100000 as long}), <ore:screwIron>],
-[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-[<ore:craftingToolHardHammer>, <gregtech:gt.metatool.01:110>.withTag({ench: [{lvl: 2 as short, id: 35 as short}, {lvl: 2 as short, id: 21 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 25600 as long, Tier: 1 as long, MaxCharge: 100000 as long, Voltage: 32 as long, Electric: 1 as byte, SecondaryMaterial: "StainlessSteel"}, "GT.CraftingComponents": {"Ingredient.5": {id: 7042 as short, Count: 1 as byte, Damage: 20306 as short}, "Ingredient.6": {id: 7041 as short, Count: 1 as byte, Damage: 17306 as short}, "Ingredient.7": {id: 7041 as short, Count: 1 as byte, Damage: 32518 as short}, "Ingredient.8": {id: 7041 as short, Count: 1 as byte, Damage: 17306 as short}, "Ingredient.0": {id: 7041 as short, Count: 1 as byte, Damage: 27306 as short}, "Ingredient.1": {id: 7042 as short, Count: 1 as byte, Damage: 9330 as short}, "Ingredient.3": {id: 7042 as short, Count: 1 as byte, Damage: 20306 as short}, "Ingredient.4": {id: 7041 as short, Count: 1 as byte, Damage: 32600 as short}}, "GT.ItemCharge": 100000 as long}), <ore:craftingToolWrench>]]);
+[<ore:screwStainlessSteel>, <ore:toolHeadDrillThaumium>, <ore:screwStainlessSteel>],
+[<ore:circuitBasic>, <gregtech:gt.metaitem.01:32518>, <ore:circuitBasic>],
+[<ore:craftingToolHardHammer>, <ore:toolHeadChainsawThaumium>, <ore:craftingToolWrench>]]);
 mods.thaumcraft.Research.addArcanePage("IronOmnitool", <EMT:Omnitool:27>);
 
 // --- Diamond Omnitool
@@ -407,8 +407,8 @@ mods.thaumcraft.Research.addPage("DiamondOmnitool", "tc.research_page.DiamondOmn
 game.setLocalization("tc.research_page.DiamondOmnitool", "\u94c1\u5236\u94bb\u952f\u7684\u53d1\u73b0\u8ba9\u4f60\u8bd5\u7740\u5c06\u540c\u6837\u7684\u7ed3\u5408\u7528\u5728\u4e00\u4e9b\u66f4\u5f3a\u529b\u7684\u8bbe\u5907\u4e0a.
 \u4f60\u5df2\u53d1\u73b0\u4e86\u4e00\u79cd\u7ed3\u5408\u94bb\u77f3\u7535\u952f\u548c\u7535\u94bb\u7684\u65b9\u6cd5,\u7ed3\u679c\u5f97\u5230\u4e86\u4e00\u4e2a\u62e5\u6709\u780d\u6811\u548c\u6316\u77ff\u5e76\u5fa1\u654c\u7684\u5de5\u5177,\u540c\u65f6\u4fdd\u6301\u7740\u94bb\u77f3\u5de5\u5177\u7684\u7279\u6027.
 \u7531\u4e8e\u94bb\u77f3\u5728\u88ab\u5236\u6210\u7535\u94bb\u7535\u952f\u8fd9\u6837\u7684\u5de5\u5177\u540e\u5f88\u96be\u88ab\u91cd\u5851,\u6240\u4ee5\u4f60\u5c06\u9700\u8981\u4e00\u70b9\u9b54\u6cd5\u7684\u529b\u91cf\u6765\u878d\u5408\u5b83\u4eec.");
-mods.thaumcraft.Infusion.addRecipe("DiamondOmnitool", <EMT:DiamondChainsaw:32767>,
-[<gregtech:gt.metatool.01:102>.withTag({ench: [{lvl: 2 as short, id: 35 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 51200 as long, Tier: 2 as long, MaxCharge: 400000 as long, Voltage: 128 as long, Electric: 1 as byte, SecondaryMaterial: "Titanium"}, "GT.CraftingComponents": {"Ingredient.5": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.6": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.7": {id: 7041 as short, Count: 1 as byte, Damage: 32528 as short}, "Ingredient.8": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.0": {id: 7041 as short, Count: 1 as byte, Damage: 27028 as short}, "Ingredient.1": {id: 7042 as short, Count: 1 as byte, Damage: 8330 as short}, "Ingredient.3": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.4": {id: 7041 as short, Count: 1 as byte, Damage: 32601 as short}}, "GT.ItemCharge": 400000 as long}), <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>],
+mods.thaumcraft.Infusion.addRecipe("DiamondOmnitool", <gregtech:gt.metatool.01:102>.withTag({ench: [{lvl: 2 as short, id: 35 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 51200 as long, Tier: 2 as long, MaxCharge: 400000 as long, Voltage: 128 as long, Electric: 1 as byte, SecondaryMaterial: "Titanium"}, "GT.ItemCharge": 400000 as long}),
+[<EMT:DiamondChainsaw:32767>, <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:27330>, <gregtech:gt.metaitem.01:17500>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17500>],
 "instrumentum 32, perfodio 24, potentia 24, metallum 16, telum 16, terra 8", <EMT:Diamond Omnitool:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("DiamondOmnitool", <EMT:Diamond Omnitool:27>);
 
@@ -466,7 +466,7 @@ mods.thaumcraft.Research.addPage("NanoBootsoftheTraveller", "tc.research_page.Na
 game.setLocalization("tc.research_page.NanoBootsoftheTraveller", "\u4f60\u7684\u7535\u5b50\u65c5\u884c\u8005\u4e4b\u9774\u8fd8\u4e0d\u9519,\u4f46\u4f60\u89c9\u5f97\u4f60\u80fd\u505a\u5f97\u66f4\u597d.
 \u4f60\u5df2\u53d1\u73b0\u4e86\u4e00\u79cd\u5c06\u8fd9\u4e9b\u9774\u5b50\u5347\u7ea7\u5230\u7eb3\u7c73\u7b49\u7ea7\u7684\u65b9\u6cd5:\u6539\u826f\u673a\u68b0\u96f6\u4ef6\u548c\u9774\u5b50\u7684\u7b26\u6587.
 \u8fd9\u53cc\u9774\u5b50\u63d0\u4f9b\u4e86\u6bd4\u4ee5\u5f80\u66f4\u9ad8\u7684\u8df3\u8dc3\u9ad8\u5ea6\u548c\u66f4\u5feb\u7684\u5954\u8dd1\u901f\u5ea6.");
-mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller:*>,
+mods.thaumcraft.Infusion.addRecipe("NanoBootsoftheTraveller", <EMT:ElectricBootsTraveller:32767>,
 [<IC2:itemArmorNanoBoots:32767>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.blockmachines:1442>, <IC2:itemBatCrystal:32767>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:32602>, <gregtech:gt.metaitem.01:17330>], 
 "motus 48, potentia 24, tutamen 32, praecantatio 16, volatus 8, iter 16", <EMT:NanoBootsTraveller:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("NanoBootsoftheTraveller", <EMT:NanoBootsTraveller:27>);
@@ -484,7 +484,7 @@ game.setLocalization("tc.research_text.QuantumBootsoftheTraveller", "\u6bd4\u514
 mods.thaumcraft.Research.addPage("QuantumBootsoftheTraveller", "tc.research_page.QuantumBootsoftheTraveller");
 game.setLocalization("tc.research_page.QuantumBootsoftheTraveller", "\u4f60\u5229\u7528\u91cf\u5b50\u7269\u7406\u5b66\u6765\u6539\u826f\u4f60\u7684\u9774\u5b50,\u4f7f\u5f97\u5b83\u5982\u6b64\u4e4b\u5feb,\u8ba9\u4f60\u603b\u80fd\u5728\u7b2c\u4e00\u65f6\u95f4\u5230\u8fbe\u5404\u4e2a\u5730\u70b9.
 \u4f46\u662f\u522b\u5fd8\u4e86\u859b\u5b9a\u8c14\u7684\u732b\u53d1\u751f\u4e86\u4ec0\u4e48...");
-mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsTraveller:*>,
+mods.thaumcraft.Infusion.addRecipe("QuantumBootsoftheTraveller", <EMT:NanoBootsTraveller:32767>,
 [<IC2:itemArmorQuantumBoots:32767>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.blockmachines:1563>, <IC2:itemPartIridium>, <IC2:itemBatLamaCrystal:32767>, <IC2:itemPartIridium>, <gregtech:gt.blockmachines:1563>, <gregtech:gt.metaitem.01:32603>, <gregtech:gt.metaitem.01:17970>], 
 "motus 64, potentia 32, tutamen 48, praecantatio 24, volatus 16, iter 24, aer 8", <EMT:QuantumBootsTraveller:27>, 9);
 mods.thaumcraft.Research.addInfusionPage("QuantumBootsoftheTraveller", <EMT:QuantumBootsTraveller:27>);
@@ -502,7 +502,7 @@ game.setLocalization("tc.research_text.ThaumiumDrill", "\u9b54\u6cd5\u5f0f\u91c7
 mods.thaumcraft.Research.addPage("ThaumiumDrill", "tc.research_page.ThaumiumDrill");
 game.setLocalization("tc.research_page.ThaumiumDrill", "\u4f60\u5df2\u53d1\u73b0\u4e86\u4e00\u79cd\u5411\u795e\u79d8\u6750\u6599\u6ce8\u5165\u666e\u901a\u7535\u5b50\u7684\u65b9\u6cd5.
 \u5c06\u795e\u79d8\u6750\u6599\u878d\u5165\u94bb\u77f3\u94bb\u5934,\u4ea7\u751f\u4e86\u4e00\u4e2a\u80fd\u5feb\u901f\u91c7\u96c6\u77f3\u5934\u7684\u9ad8\u6027\u80fd\u5de5\u5177.<BR><BR>\u5c3d\u7ba1\u795e\u79d8\u677f\u662f\u5341\u5206\u6709\u7528\u4e14\u5f3a\u529b\u7684\u6750\u6599,\u4f46\u5b83\u8fd8\u4e0d\u80fd\u4e0e\u94f1\u76f8\u6bd4. \u5b83\u66f4\u50cf\u662f\u4e00\u4e2a\u8fc7\u6e21\u5de5\u5177.<BR><BR>\u8fd9\u4e2a\u5de5\u5177\u4e0d\u662f\u6700\u5f3a\u7684,\u4f46\u4f60\u89c9\u5f97\u4f60\u672a\u6765\u8fd8\u80fd\u7ee7\u7eed\u5347\u7ea7\u5b83.");
-mods.thaumcraft.Infusion.addRecipe("ThaumiumDrill", <gregtech:gt.metatool.01:102>.withTag({ench: [{lvl: 2 as short, id: 35 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 51200 as long, Tier: 2 as long, MaxCharge: 400000 as long, Voltage: 128 as long, Electric: 1 as byte, SecondaryMaterial: "Titanium"}, "GT.CraftingComponents": {"Ingredient.5": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.6": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.7": {id: 7041 as short, Count: 1 as byte, Damage: 32528 as short}, "Ingredient.8": {id: 7041 as short, Count: 1 as byte, Damage: 17028 as short}, "Ingredient.0": {id: 7041 as short, Count: 1 as byte, Damage: 27028 as short}, "Ingredient.1": {id: 7042 as short, Count: 1 as byte, Damage: 8330 as short}, "Ingredient.3": {id: 7042 as short, Count: 1 as byte, Damage: 20028 as short}, "Ingredient.4": {id: 7041 as short, Count: 1 as byte, Damage: 32601 as short}}, "GT.ItemCharge": 400000 as long}),
+mods.thaumcraft.Infusion.addRecipe("ThaumiumDrill", <gregtech:gt.metatool.01:102>.withTag({ench: [{lvl: 2 as short, id: 35 as short}], "GT.ToolStats": {PrimaryMaterial: "Thaumium", SpecialData: -1 as long, MaxDamage: 51200 as long, Tier: 2 as long, MaxCharge: 400000 as long, Voltage: 128 as long, Electric: 1 as byte, SecondaryMaterial: "Titanium"}, "GT.ItemCharge": 400000 as long}),
 [<gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:27028>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:32705>, <gregtech:gt.metaitem.01:17316>], 
 "instrumentum 32, perfodio 16, potentia 32, lucrum 24, praecantatio 8", <EMT:ThaumiumDrill:27>, 7);
 mods.thaumcraft.Research.addInfusionPage("ThaumiumDrill", <EMT:ThaumiumDrill:27>);
@@ -623,7 +623,7 @@ mods.thaumcraft.Arcane.addShaped("ElectricGogglesofRevealing", <EMT:ElectricGogg
 [<ProjRed|Integration:projectred.integration.gate:10>, <IC2:itemAdvBat:32767>, <ProjRed|Integration:projectred.integration.gate:10>]]);
 mods.thaumcraft.Research.addArcanePage("ElectricGogglesofRevealing", <EMT:ElectricGogglesRevealing:165>);
 
-// --- Nanosuit Goggle of Revealing
+// --- Nanosuit Goggles of Revealing
 mods.thaumcraft.Research.addResearch("NanosuitGogglesofRevealing", "EMT", "tutamen 18, potentia 15, sensus 12, praecantatio 9, auram 6, electrum 3", -4 as int, -2 as int, 3, <EMT:NanosuitGogglesRevealing>);
 mods.thaumcraft.Research.addPrereq("NanosuitGogglesofRevealing", "ElectricGogglesofRevealing", false);
 mods.thaumcraft.Research.setConcealed("NanosuitGogglesofRevealing", true);
@@ -634,13 +634,13 @@ mods.thaumcraft.Research.addPage("NanosuitGogglesofRevealing", "tc.research_page
 game.setLocalization("tc.research_page.NanosuitGogglesofRevealing", "\u4f60\u5df2\u53d1\u73b0\u4e86\u4e00\u79cd\u65e0\u9700\u6539\u52a8\u592a\u591a\u5c31\u80fd\u5c06\u4f60\u73cd\u8d35\u7684\u9b54\u529b\u611f\u5e94\u5668\u548c\u7eb3\u7c73\u5934\u76d4\u7ed3\u5408\u7684\u65b9\u6cd5.
 \u901a\u8fc7\u7ed9\u7eb3\u7c73\u5934\u76d4\u6ce8\u9b54,\u4f60\u5c06\u80fd\u7528\u5b83\u770b\u89c1\u7075\u6c14\u8282\u70b9.
 \u5728\u8fd9\u4e2a\u9b54\u6cd5\u8fc7\u7a0b\u4e2d,\u591c\u89c6\u7528\u7684\u63a7\u5236\u82af\u7247\u88ab\u7528\u4e8e\u5438\u6536\u591a\u4f59\u9b54\u6cd5\u80fd\u91cf\u7684\u7535\u5bb9\u548c\u9b54\u529b\u611f\u5e94\u5fae\u82af\u7247\u4ee3\u66ff\u4e86,\u4ee5\u9632\u4f60\u4e0d\u5c0f\u5fc3\u5173\u95ed\u4e86\u591c\u89c6.(\u5176\u5b9e\u8c8c\u4f3c\u6ca1\u7535\u65f6\u4e5f\u53ef\u4ee5\u6301\u7eed\u63d0\u4f9b\u591c\u89c6\u6548\u679c)");
-mods.thaumcraft.Infusion.addRecipe("NanosuitGogglesofRevealing", <EMT:ElectricGogglesRevealing:*>,
+mods.thaumcraft.Infusion.addRecipe("NanosuitGogglesofRevealing", <EMT:ElectricGogglesRevealing:32767>,
 [<IC2:itemArmorNanoHelmet:32767>, <gregtech:gt.blockmachines:1442>, <gregtech:gt.metaitem.01:17330>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:32692>, <IC2:itemBatCrystal:32767>, <gregtech:gt.metaitem.01:32692>, <IC2:itemPartCircuitAdv>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.blockmachines:1442>], 
 "tutamen 32, potentia 32, sensus 24, praecantatio 16, auram 8, electrum 8", <EMT:NanosuitGogglesRevealing:27>, 6);
 mods.thaumcraft.Research.addInfusionPage("NanosuitGogglesofRevealing", <EMT:NanosuitGogglesRevealing:27>);
 mods.thaumcraft.Warp.addToResearch("NanosuitGogglesofRevealing", 1);
 
-// --- Quantum Goggle of Revealing
+// --- Quantum Goggles of Revealing
 mods.thaumcraft.Research.addResearch("QuantumGogglesofRevealing", "EMT", "tutamen 21, potentia 18, sensus 15, praecantatio 12, auram 9, lucrum 6, electrum 3", -2 as int, -2 as int, 4, <EMT:QuantumGogglesRevealing>);
 mods.thaumcraft.Research.addPrereq("QuantumGogglesofRevealing", "NanosuitGogglesofRevealing", false);
 mods.thaumcraft.Research.setConcealed("QuantumGogglesofRevealing", true);
