@@ -54,8 +54,8 @@ val GreatwoodLog = <Thaumcraft:blockMagicalLog>;
 
 val String = <minecraft:string>;
 
-// --- Removing Recipes ---
 
+// --- Removing Recipes ---
 
 
 // --- Dissenchanter
@@ -70,7 +70,8 @@ recipes.remove(<AdvancedSolarPanel:asp_crafting_items:7>);
 // --- Irradiant Reinforced Iridium Plate
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:8>);
 
-
+// --- Obsidian Tile
+recipes.remove(<Thaumcraft:blockCosmeticSolid:1>);
 
 
 // --- Adding Back Recipes ---
@@ -753,6 +754,12 @@ recipes.addShaped(<gregtech:gt.metaitem.01:1343>, [
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>],
 [<OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>, <OpenBlocks:filledbucket>]]);
 
+// --- Compressed Raw Alloy SDHC-120
+recipes.addShaped(<dreamcraft:item.RawSDHCAlloy>, [
+[<ore:screwStainlessSteel>, <ore:craftingToolScrewdriver>, <ore:screwStainlessSteel>],
+[<GalaxySpace:item.CompressedDualBronze>, <GalaxySpace:item.CompressedCoal>, <GalaxySpace:item.CompressedDualAluminium>],
+[<ore:screwStainlessSteel>, <ore:craftingToolHardHammer>, <ore:screwStainlessSteel>]]);
+
 
 
 
@@ -907,12 +914,6 @@ recipes.addShaped(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [
 // -
 recipes.addShapeless(<dreamcraft:item.OvenGlove:1>.withTag({Durability: 1000}), [<dreamcraft:item.OvenGlove:1>, <ore:itemLeather>, <ore:itemLeather>, <ore:itemLeather>]);
 
-// --- Neutron Reflector Parts
-recipes.addShaped(<dreamcraft:item.NeutronReflectorParts>, [
-[<IC2:reactorReflectorThick:0>, <IC2:reactorReflectorThick:0>, <IC2:reactorReflectorThick:0>],
-[<IC2:reactorReflectorThick:0>, <ore:craftingToolWrench>, <IC2:reactorReflectorThick:0>],
-[<IC2:reactorReflectorThick:0>, <IC2:reactorReflectorThick:0>, <IC2:reactorReflectorThick:0>]]);
-
 // --- Wooden Brick Form
 recipes.addShaped(<dreamcraft:item.WoodenBrickForm>, [
 [Knife, BlankPattern, null]]);
@@ -1016,7 +1017,7 @@ Assembler.addRecipe(<dreamcraft:tile.CompressedGraphite> * 2, <minecraft:stone> 
 Assembler.addRecipe(<dreamcraft:item.BlankPlatedChip>, <RIO:item.chip.location>, <RIO:item.blank_plate>, 100, 480);
 
 // --- Spatial Processor Tier I
-Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorSpatialPulsatingCore>, <appliedenergistics2:item.ItemMultiMaterial:24>, <dreamcraft:item.PulsatingSpatialCoreChip>, 100, 30720);
+Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorSpatialPulsatingCore>, <appliedenergistics2:item.ItemMultiMaterial:24>, <dreamcraft:item.PulsatingSpatialCoreChip>, 100, 7680);
 
 // --- Fluid Processor Tier I
 Assembler.addRecipe(<dreamcraft:item.EngineeringProcessorFluidDiamondCore>, <appliedenergistics2:item.ItemMultiMaterial:24>, <dreamcraft:item.DiamondFluidCoreChip>, 100, 1920);
@@ -1706,7 +1707,7 @@ game.setLocalization("ExtraUtilities.research_page.PORTALDEEPDARK", "\u4f5c\u4e3
 \u4f20\u95fb\u6f06\u9ed1\u4e16\u754c\u4e2d\u65e0\u5c3d\u7684\u9ed1\u6697\u662f\u6709\u751f\u547d\u7684,\u5b83\u4f1a\u541e\u566c\u90a3\u4e9b\u8d2a\u5fc3\u4e0d\u8db3\u7684\u5012\u9709\u77ff\u5de5.
 \u8bb0\u5f97\u5e26\u4e0a\u706b\u628a\u4e0a\u8def,\u4e0d\u8fc7\u706b\u628a\u4e0d\u80fd\u4e3a\u4f60\u5e26\u6765\u8db3\u591f\u7684\u5b89\u5168,\u6df1\u6e0a\u4e16\u754c\u5f53\u4e2d\u7684\u602a\u7269\u751f\u6210\u5e76\u4e0d\u53d7\u5149\u7167\u5f3a\u5ea6\u7684\u5f71\u54cd.
 \u4f46\u662f\u5353\u8d8a\u706b\u70ac\u548c\u5962\u534e\u540a\u9876\u706f\u4f9d\u65e7\u80fd\u6709\u6548\u7684\u9632\u6b62\u602a\u7269\u751f\u6210.");
-mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <ExtraUtilities:cobblestone_compressed:7>, [<gregtech:gt.blockreinforced:12>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>], "vacuos 512, tempus 512, luxuria 512, alienis 512, terminus 512, gula 512, superbia 512" ,  <ExtraUtilities:dark_portal>, 64);
+mods.thaumcraft.Infusion.addRecipe("PORTALDEEPDARK", <gregtech:gt.blockreinforced:12>, [<gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>, <gregtech:gt.metaitem.01:32679>, <eternalsingularity:eternal_singularity>], "vacuos 512, tempus 512, luxuria 512, alienis 512, terminus 512, gula 512, superbia 512" ,  <ExtraUtilities:dark_portal>, 64);
 mods.thaumcraft.Research.addInfusionPage("PORTALDEEPDARK", <ExtraUtilities:dark_portal>);
 mods.thaumcraft.Warp.addToResearch("PORTALDEEPDARK", 64);
 
@@ -2060,7 +2061,7 @@ game.setLocalization("EnderStorage.research_page.ENDERTANK", "\u672b\u5f71\u84c4
 \u79c1\u6709\u7684\u672b\u5f71\u84c4\u6c34\u69fd\u4e0d\u4f1a\u548c\u4efb\u4f55\u516c\u5f00\u7684\u6c34\u69fd\u5171\u4eab\u6db2\u4f53,\u4e5f\u4e0d\u4f1a\u548c\u4efb\u4f55\u522b\u4eba\u7684\u79c1\u6709\u84c4\u6c34\u69fd\u5171\u4eab,\u5373\u4f7f\u5b83\u4eec\u9891\u9053\u76f8\u540c(\u989c\u8272\u4e00\u81f4).");
 mods.thaumcraft.Arcane.addShaped("ENDERTANK", <EnderStorage:enderChest:4096>, "aer 100, aqua 100, ignis 100, terra 100, ordo 100", [
 [<gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.02:22801>],
-[<gregtech:gt.metaitem.01:32694>, <BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:32684>],
+[<gregtech:gt.metaitem.01:32694>, <irontank:obsidianTank>, <gregtech:gt.metaitem.01:32684>],
 [<gregtech:gt.metaitem.02:22801>, <gregtech:gt.metaitem.01:22321>, <gregtech:gt.metaitem.02:22801>]]);
 mods.thaumcraft.Research.addArcanePage("ENDERTANK", <EnderStorage:enderChest:4096>);
 
@@ -2156,6 +2157,26 @@ mods.thaumcraft.Infusion.addRecipe("SFSWORD", <TwilightForest:item.fierySword>,
 "auram 64, corpus 64, exanimis 64, metallum 64, mortuus 64", <Avaritia:Skull_Sword>, 15);
 mods.thaumcraft.Research.addInfusionPage("SFSWORD", <Avaritia:Skull_Sword>);
 mods.thaumcraft.Warp.addToResearch("SFSWORD", 1);
+
+// --- Obsidian Tile and Totem
+mods.thaumcraft.Research.addResearch("MAGICOBSIDIAN", "NEWHORIZONS", "perditio 8, terra 8", 2, 4, 2, <Thaumcraft:blockCosmeticSolid:0>);
+game.setLocalization("tc.research_name.MAGICOBSIDIAN", "\u9b54\u6cd5\u9ed1\u66dc\u77f3\u5757");
+game.setLocalization("tc.research_text.MAGICOBSIDIAN", "\u5236\u9020\u4ee3\u66ff\u5bfb\u627e");
+mods.thaumcraft.Research.addPrereq("MAGICOBSIDIAN", "INFUSION", false);
+mods.thaumcraft.Research.setConcealed("MAGICOBSIDIAN", true);
+mods.thaumcraft.Research.setRound("MAGICOBSIDIAN", false);
+mods.thaumcraft.Research.addPage("MAGICOBSIDIAN", "Thaum.research_page.MAGICOBSIDIAN");
+game.setLocalization("Thaum.research_page.MAGICOBSIDIAN", "\u538c\u5026\u4e86\u4e3a\u8840\u9b54\u6cd5\u4eea\u5f0f\u6ee1\u4e16\u754c\u627e\u9ed1\u66dc\u77f3?\u76f4\u63a5\u5236\u9020\u5b83\u4eec\u5427!");
+mods.thaumcraft.Arcane.addShaped("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:1> * 4, "ignis 4, terra 4,", [
+[<minecraft:obsidian>, <minecraft:obsidian>, null],
+[<minecraft:obsidian>, <minecraft:obsidian>, null],
+[null, null, null]]);
+mods.thaumcraft.Research.addArcanePage("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:1>);
+mods.thaumcraft.Infusion.addRecipe("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:1>,
+[<Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:blockCosmeticSolid:1>],
+"perditio 16, tenebrae 16, terra 16", <Thaumcraft:blockCosmeticSolid:0> * 4, 3);
+mods.thaumcraft.Research.addInfusionPage("MAGICOBSIDIAN", <Thaumcraft:blockCosmeticSolid:0>);
+mods.thaumcraft.Warp.addToResearch("MAGICOBSIDIAN", 1);
 
 
 // --- Hiding Stuff ----
