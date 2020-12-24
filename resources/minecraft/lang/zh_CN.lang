@@ -102,9 +102,7 @@ gtnh.quest24.desc=该弄点木炭了.为此,我们要建造一个焦炉.干得�
 
 # Quest.25 - §2§lAnother brick in the wall
 gtnh.quest25.name=§2§l墙上的另一块砖
-#B gtnh.quest25.desc=Your vision becomes more clear, you'll need bricks for your first multiblock structure. You think that 104 bricks should be enough. However, the bricks you'll need are somewhat special. Make sure to craft the correct ones!
-#A gtnh.quest25.desc=Your vision becomes more clear, you'll need bricks for your first multiblock structure. You think that 104 bricks should be enough. However, the bricks you'll need are somewhat special. Make sure to craft the correct ones!%n%n§3Make sure to collect them all before you move on to putting them in the furnace if you actually want to complete the quest!
-#C gtnh.quest25.desc=你的目标变得更明确,你将需要砖块来完成你的第一个多方块构造.你认为104个砖块应该足够了.但是,你需要的方块有点特别,请确定你的制作方式是否正确！
+gtnh.quest25.desc=你的目标变得更明确,你将需要砖块来完成你的第一个多方块构造.你认为104个砖块应该足够了.但是,你需要的方块有点特别,请确定你的制作方式是否正确！%n%n§3如果你想完成这个任务的话,请不要在收集全它们之前就塞进熔炉...
 
 # Quest.26 - §2§lForming press v0.1
 gtnh.quest26.name=§2§l冲压机 v0.1
@@ -184,9 +182,7 @@ gtnh.quest44.desc=欢迎,到目前为止做得很好！在本阶(第1阶)你将�
 
 # Quest.45 - §6§lMultiblock tanks... Railcraft tanks
 gtnh.quest45.name=§6§l多方块储罐...RC蓄水器
-#B gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. You can color the tank with Buildcraft paintbrushes and the GT spray can.%n%nUse only Buckets to move fluids because cells get destroyed.
-#A gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. The output rate is 1000 MB/t so twice as faster as a GT HV Pump Cover. You can color the tank with Buildcraft paintbrushes and the GT spray can.%n%nUse only Buckets to move fluids because cells get destroyed.
-#C gtnh.quest45.desc=576桶的容量,这应该够你储存你截至目前为止所获得的杂酚油了吧！ 如果不够的话,你可以让这个蓄水器更大！最小的蓄水器大小是3x3x4,而最大的则是9x9x8(x和z必须是相同的,奇数). 提示:如果你把阀门放在蓄水器底部的话,只需要连接一根液体管道就可以自动输出蓄水器里面的液体.你可以使用BC的颜料刷和GT的喷漆罐来给蓄水器上色.注意:请使用桶来移动液体,如果使用单元,单元将会消失.(手持单元右键蓄水器,单元就不会消失)
+gtnh.quest45.desc=576桶的容量,这应该够你储存你截至目前为止所获得的杂酚油了吧！ 如果不够的话,你可以让这个蓄水器更大！最小的蓄水器大小是3x3x4,而最大的则是9x9x8(x和z必须是相同的,奇数).%n%n提示:如果你把阀门放在蓄水器底部的话,只需要连接一根液体管道就可以自动输出蓄水器里面的液体.输出速率为1000MB/t,是GT电动泵(HV)的两倍.你可以使用BC的颜料刷和GT的喷漆罐来给蓄水器上色.%n%n注意:请使用桶来移动液体,如果使用单元,单元将会消失.(手持单元右键蓄水器,单元就不会消失)
 
 # Quest.46 - §3§lMore advanced alloys
 gtnh.quest46.name=§3§l更多高级合金
@@ -202,9 +198,7 @@ gtnh.quest48.desc=最重要的合金当然是红色合金(直到你到达更高�
 
 # Quest.49 - §3§lThe hell is that?
 gtnh.quest49.name=§3§l什么鬼东西？
-#B gtnh.quest49.desc=In order to get more machines, you'll need pistons. But not those amateurish ones, you need special ones, and I shall guide you in the making of them.
-#A gtnh.quest49.desc=In order to get more machines, you'll need pistons. But not those amateurish ones, you need special ones, and I shall guide you in the making of them.%n%n§3PS: Infernals can drop them, though you won't get credit for the quest that way.
-#C gtnh.quest49.desc=为了得到更多的机器,你需要活塞.可不是要那些业余的东西,你缺的是特别的那种,而我将指导你该如何做出它们.
+gtnh.quest49.desc=为了得到更多的机器,你需要活塞.可不是要那些业余的东西,你缺的是特别的那种,而我将指导你该如何做出它们.%n%n§3PS:精英怪会掉落活塞,不过这样的话你就无法得到此任务的认可.
 
 # Quest.50 - §3§lMacerator v1.0!
 gtnh.quest50.name=§3§l粉碎机 v1.0!
@@ -244,9 +238,7 @@ gtnh.quest58.desc=一台新版的蒸汽研磨机.它消耗更多的蒸汽,但几
 
 # Quest.59 - §3§lSteam alternatives
 gtnh.quest59.name=§3§l蒸汽替代品
-#B gtnh.quest59.desc=There is more than one way to get steam for your machines. This completely optional quest shows you some alternative methods for producing steam.
-#A gtnh.quest59.desc=There is more than one way to get steam for your machines. This completely optional quest shows you some alternative methods for producing steam.%n%n§3For the ones that need glass, you'll need to progress a few more quests to see how to do so, though you can also make it now if you want.
-#C gtnh.quest59.desc=不只一种方法可以让你的机器得到蒸汽,而这个支线任务向你展示了一些产生蒸汽的替代方案.
+gtnh.quest59.desc=有多种方式可以为你的机器产生蒸汽,而这个支线任务向你展示了一些产生蒸汽的替代方案.%n%n§3至于想要玻璃的话,你需要再多完成几个任务才能看到相关指导,当然你也可以自己看NEI直接造.
 
 # Quest.60 - §3§lUpgrade: Coal boiler
 gtnh.quest60.name=§3§l升级:燃煤锅炉
@@ -302,15 +294,11 @@ gtnh.quest72.desc=不同等级的转子的制作方法也是相似的,只是材�
 
 # Quest.73 - §3§lBasic crafting: Casings
 gtnh.quest73.name=§3§l基础制作:外壳
-#B gtnh.quest73.desc=All machines need a hull to keep their private parts together. Good news is: They are crafted in the same way for every tier, only the materials change.
-#A gtnh.quest73.desc=All machines need a hull to keep their private parts together. Good news is: They are crafted in the same way for every tier, only the materials change.%n%n§3As noted on the tooltip, you can also use a machine hull to pass EU through, at 1A. This can be useful for a 1A diode on Thermos servers, splitting cables from 4A->1A or in a cleanroom later. You can also pass items or fluids through it.
-#C gtnh.quest73.desc=所有机器都需要一个机箱来保护它们的敏感部件.好消息是:它们每一等级都以相同的方式制作,只有材料发生变化.
+gtnh.quest73.desc=所有机器都需要一个机箱来保护它们的敏感部件.好消息是:它们每一等级都以相同的方式制作,只有材料发生变化.%n%n§3正如tooltip所述,使用机器外壳可以传输1A的电流.这在Thermos服务器里被用作1A的线缆二极管,将线缆内的电流分出1A,或是用于稍后的超净间.同样,物品或流体也可以通过机器外壳.
 
 # Quest.74 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou are not prepared!!!
 gtnh.quest74.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§l你还没准备好！！！
-#B gtnh.quest74.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources...%n%nThe aluminium oreberries can be planted on cropsticks, and macerated to get small quantites of aluminium for molds if you cannot find aluminium gravel.%n%nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base.  Taller/wider smelteries can do more items at one time, conserving fuel.
-#A gtnh.quest74.desc=It's time for something really big: A smeltery! There's a lot to craft, so better gather some resources...%n%nThe aluminium oreberries can be planted on cropsticks, and macerated to get small quantites of aluminium for molds if you cannot find aluminium gravel.%n%nNote: The book says a 3x3 base, but you can make a smeltery with a smaller base.  Taller/wider smelteries can do more items at one time, conserving fuel.%n%n§3You need to make it yourself. Stuff you've stolen from villages doesn't count.
-#C gtnh.quest74.desc=迎接一个大家伙的时间到了——冶炼炉！那还有许多工作要做,所以最好搜集些资源......  如果你找不到地表的铝矿砂砾,那么可以将铝矿莓种植于作物架上,然后熔炼获得用于制作铸模的铝.  PS:这本书告诉你的是一个3X3的底座,但是你可以用一个较小的底座搭建一个冶炼炉,更高更大的冶炼炉可以同时做更多的物品以节约燃料.
+gtnh.quest74.desc=迎接一个大家伙的时间到了——冶炼炉！那还有许多工作要做,所以最好搜集些资源...%n%n如果你找不到地表的铝矿砂砾,那么可以将铝矿莓种植于作物架上,然后熔炼获得用于制作铸模的铝.%n%nPS:这本书告诉你的是一个3X3的底座,但是你可以用一个较小的底座搭建一个冶炼炉,更高更大的冶炼炉可以同时做更多的物品以节约燃料.%n%n§3你需要自己合成!从村庄顺来的不计算在内.
 
 # Quest.75 - §6§lThe water dilemma
 gtnh.quest75.name=§6§l缺水危机
@@ -362,9 +350,7 @@ gtnh.quest86.desc=要处理更高级的材料,如:末影锭,富集硅岩或铌�
 
 # Quest.87 - §6§lSteel multiblock tanks
 gtnh.quest87.name=§6§l钢质蓄水器
-#B gtnh.quest87.desc=Do you want to have tanks that can hold double the amount of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x4x3 to 9x8x9 blocks (X and Z must be the same, and odd). Just like the iron tanks, the Buildcraft paintbrush and GT spray can colorize tanks for identification. Get started on that tank farm full of lube!%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank - valves cannot be on an edge!%n%nOnly use buckets or large fluid cells because 1000L GT cells get destroyed.
-#A gtnh.quest87.desc=Do you want to have tanks that can hold double the amount of the iron ones? Go ahead and make a steel tank. All sizes allowed from 3x4x3 to 9x8x9 blocks (X and Z must be the same, and odd). Just like the iron tanks, the Buildcraft paintbrush and GT spray can colorize tanks for identification. Get started on that tank farm full of lube!%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank - valves cannot be on an edge! The output rate is 1000 MB/t so twice as faster as a GT HV Pump Cover.%n%nOnly use buckets or large fluid cells because 1000L GT cells get destroyed.
-#C gtnh.quest87.desc=想要双倍容量的蓄水槽？去做一个钢质蓄水器.尺寸可以从3x3x4到9x9x8.(x和z必须是相同的,奇数)允许的所有大小.就像铁质蓄水器一样,可以使用BC颜料刷和GT喷漆罐来改变颜色. 提示:如果你在底部放了阀门,流体能够自动输出(不需要任何的泵).PS:请使用桶来移动液体,如果使用单元,单元将会消失.
+gtnh.quest87.desc=想要双倍容量的蓄水槽？去做一个钢质蓄水器.尺寸可以从3x3x4到9x9x8.(x和z必须是相同的,奇数)允许的所有大小.就像铁质蓄水器一样,可以使用BC颜料刷和GT喷漆罐来改变颜色.%n%n提示:如果你在底部(非边缘)放了阀门,流体能够自动输出(不需要任何的泵).输出速率为1000MB/t,是GT电动泵(HV)的两倍.%n%nPS:请使用桶来移动液体,如果使用单元,单元将会消失.
 
 # Quest.88 - §5§r§5§lWelcome to Tier 2
 gtnh.quest88.name=§5§r§5§l欢迎来到第2阶！
@@ -775,9 +761,7 @@ gtnh.quest189.name=§a§lHEV Mk III 防护系统
 gtnh.quest189.desc=接下来你会接触到一些有污染甚至很危险的东西. 你可能会在这里跟许多肮脏的东西打交道,所以你要做好最坏的打算.  要是不做好防护,某些物品会给你带来辐射状态.你多快获得这个状态取决于物品种类.有的物品给你的辐射状态持续时间超长,这将杀死你,因为你无法拜托这种状态只能等死.  另一些物品将会给你带来一些常见异常状态(debuff),而不是直接辐射状态.这样就还可以抢救,比如牛奶、大地疣、水蜜蜂等.
 
 # Quest.190 - §a§lAppropriate Power
-#B gtnh.quest190.name=§a§lAppropriate power
-#A gtnh.quest190.name=§a§lAppropriate Power
-#C gtnh.quest190.name=§a§l适当的能源
+gtnh.quest190.name=§a§l合适的能源
 #B gtnh.quest190.desc=Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let's start with something more powerful: A nuclear reactor!%n%n§4Hint:%nThe multiplier is set to 10x in this pack. That means your nuclear reactor is 10 times more efficient.%n%nFor some ideas on nuke setups, check out https://tinyurl.com/GTNH-Nukes
 #A gtnh.quest190.desc=Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you'll need to upgrade your power grid, at least for your EBF(s). So let's start with something more powerful: A nuclear reactor!%n%nIf you want to know how they work, refer to The Internet or the Reactor Planner at https://github.com/MauveCloud/Ic2ExpReactorPlanner/releases%n%nNote: The EU multiplier is set to 10x in this pack. That means your nuclear reactor is 10 times more efficient. Make sure to set the planner to GTNH mode under advanced. Also, the base numbers (before 10xing) can be seen on the hover text for all the components.%n%nIf you just want to use them, go to https://tinyurl.com/GTNH-Nukes for reactor designs. The Thorium 1920 EU one is probably best for now.
 #C gtnh.quest190.desc=不管你在用魔法、蒸汽、石油或者沼气在发电,到了这一阶段你都会碰到问题. 所以你需要升级的的电网,至少对你的高炉供电系统进行升级. 所以让我们来使用强大的能源:核能！ §4提示: 这个整合包核反应堆的效率乘数为10,这意味着GTNH牌反应堆的效率要比以往的高10倍！！！  在https://tinyurl.com/GTNH-Nukes 可以获知更多GTNH核反应堆信息.
