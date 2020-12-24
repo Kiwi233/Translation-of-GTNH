@@ -9636,15 +9636,11 @@ gtnh.quest2377.desc=净化药水是一种可以饮用或投掷的药水,它可�
 
 # Quest.2378 - Curse Amulet
 gtnh.quest2378.name=诅咒护符
-#B gtnh.quest2378.desc=The Curse Amulet reveals all nearby Curses  placed on blocks and depletes Curses quicker when held.%n%nIt is created by throwing End Powder, Gold Ingot, Ectoplasm and String into Ender Goo.
-#A gtnh.quest2378.desc=The Curse Amulet reveals all nearby Curses placed on blocks and depletes Curses quicker when held.%n%nIt is created by throwing End Powder, Gold Ingot, Ectoplasm and String into Ender Goo.
-#C gtnh.quest2378.desc=诅咒护符可揭示附近所有放置在方块上的诅咒,手持时还可以更快地耗尽诅咒.  它是通过将末影粉末、金锭、外质和线丢进末影粘浆中而制成的.
+gtnh.quest2378.desc=诅咒护符可揭示附近所有放置在方块上的诅咒,手持时还可以更快地耗尽诅咒.  它是通过将末影粉末、金锭、外质和线丢进末影粘浆中而制成的.
 
 # Quest.2379 - Infused Brewing Stand
 gtnh.quest2379.name=强化强化酿造台
-#B gtnh.quest2379.desc=A Brewing Stand with one or more special effects (enhancements).%n%nThe primary way of obtaining an enhanced Brewing Stand is right click with End Powder in your Hand to modify your Brewingstand. %n%nAn important feature of the effects is stacking, which means that you can continue adding as many effects to one Brewing Stand as you want.%n%nEnhancements:%nTier (Ectoplasm)%nYour potion can have a higher tier and a longer potion duration than vanilla ones. (Tier IV up to 12 mins)%n%nSpeed (Igneous Rock)%nIncreasing the speed of the Brewing Stand.%n%nCost (Emerald)%nReduce the cost of End Powder using in a brewing cycle.
-#A gtnh.quest2379.desc=A Brewing Stand with one or more special effects (enhancements).%n%nYou can upgrade your Enhanced Brewing Stand with End Powder to modify it like other HEE items. %n%nAn important feature of the effects is stacking, which means that you can continue adding as many effects to one Brewing Stand as you want.%n%nEnhancements:%nTier (Ectoplasm)%nYour potion can have a higher tier and a longer potion duration than vanilla ones. (Tier IV up to 12 mins)%n%nSpeed (Igneous Rock)%nIncreasing the speed of the Brewing Stand.%n%nCost (Emerald)%nReduce the cost of End Powder used in a brewing cycle.
-#C gtnh.quest2379.desc=具有一种或多种特殊效果(强化)的酿造台.%n%n想要强化你的强化酿造台,手持末影粉末右键它.这种强化效果的重要特征是可堆叠,这意味着你可以根据需要继续向一个酿造台添加尽可能多的强化效果.%n%n强化:%n等级(外质)%n你的药水可以比原版药水具有更高的等级和更长的持续时间.(等级IV最长持续12分钟)%n%n速度(火成岩)%n提高酿造速度.%n%n消耗(绿宝石)%n降低在酿造周期中消耗的末影粉末.
+gtnh.quest2379.desc=具有一种或多种特殊效果(强化)的酿造台.%n%n可以使用末影粉末升级你的强化酿造台,就像升级其他HEE物品一样.%n%n强化:%n等级(外质)%n你的药水可以比原版药水具有更高的等级和更长的持续时间.(等级IV最长持续12分钟)%n%n速度(火成岩)%n提高酿造速度.%n%n消耗(绿宝石)%n降低在酿造周期中消耗的末影粉末.
 
 # Quest.2380 - TNT Enchantments
 gtnh.quest2380.name=强化TNT
@@ -9684,9 +9680,7 @@ gtnh.quest2388.desc=由于mod冲突,你无法正常获得苦艾.所以你可以�
 
 # Quest.2389 - HP Solar Boilers
 gtnh.quest2389.name=高压太阳能锅炉
-#B gtnh.quest2389.desc=Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. The HP solar boiler will heat up §lvery §r§c§4fast, so make sure you are ready with water.
-#A gtnh.quest2389.desc=Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. The HP solar boiler will heat up §lvery §r§c§4fast, so make sure you are ready with water.%n%n§3You'll need silver from the Twilight Forest (LV+) for this.
-#C gtnh.quest2389.desc=当有了一些蒸汽机器后,你可以制造一些高压太阳能锅炉.它们的每秒蒸汽输出更高,其他方面与普通太阳能锅炉相同.  从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽.  §4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能.高压太阳能锅炉升温§l非常§r§c§4迅速,所以一定要准备好水.
+gtnh.quest2389.desc=当有了一些蒸汽机器后,你可以制造一些高压太阳能锅炉.它们的每秒蒸汽输出更高,其他方面与普通太阳能锅炉相同.%n%n从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽.%n%n§4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能.高压太阳能锅炉升温§l非常§r§c§4迅速,所以一定要准备好水.%n%n§3为此你需要收集一些银(暮色森林).
 
 # Quest.2390 - §a§lTiny bit of Tungstensteel
 gtnh.quest2390.name=§a§l积少成钨钢
@@ -9738,9 +9732,7 @@ gtnh.quest2401.desc=通常,你可以通过与养蜂员村民交易来获取僧�
 
 # Quest.2402 - §2§lGot a flat tire?
 gtnh.quest2402.name=§2§l爆胎?平平整整!(Got a flat tire?)
-#B gtnh.quest2402.desc=The crowbar is the GT tool used to remove a cover off of a machine, pipe, or wire. Covers can be decorative, functional like pumps and conveyors, or safety, like putting a wooden plank over your steam pipes so they don't burn you.%n%nSorry, it only comes in blue!
-#A gtnh.quest2402.desc=The crowbar is the GT tool used to remove a cover off of a machine, pipe, or wire. Covers can be decorative, functional like pumps and conveyors, or for safety, like putting a wooden plank over your steam pipes so they don't burn you.%n%nSorry, it only comes in blue!
-#C gtnh.quest2402.desc=撬棍是GT工具,用于移除机器、管道或线缆上的覆盖板.覆盖板即可用于装饰性,也可以像泵和传送带那样有具体功能,还可以用于隔离确保安全.例如可以在蒸汽管道上放一块木板,以被管道烫伤.%n译者注:不同电压的线缆之间用覆盖板隔离可有效防止手残造成的爆炸.%n%n抱歉,目前只有蓝色的撬棍!
+gtnh.quest2402.desc=撬棍是GT工具,用于移除机器、管道或线缆上的覆盖板.覆盖板即可用于装饰,也可以像泵和传送带那样有具体功能,还可以用于隔离确保安全.例如可以在蒸汽管道上放一块木板,以被管道烫伤.%n译者注:不同电压的线缆之间用覆盖板隔离可有效防止手残造成的爆炸.%n%n抱歉,目前只有蓝色的撬棍!
 
 # Quest.2403 - §5§lToo much fluid? Impossible!
 gtnh.quest2403.name=§5§l流体太多?不存在的!
