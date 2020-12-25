@@ -762,33 +762,19 @@ gtnh.quest189.desc=接下来你会接触到一些有污染甚至很危险的东�
 
 # Quest.190 - §a§lAppropriate Power
 gtnh.quest190.name=§a§l合适的能源
-#B gtnh.quest190.desc=Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you need to upgrade your power grid, at least for your blast furnaces. So let's start with something more powerful: A nuclear reactor!%n%n§4Hint:%nThe multiplier is set to 10x in this pack. That means your nuclear reactor is 10 times more efficient.%n%nFor some ideas on nuke setups, check out https://tinyurl.com/GTNH-Nukes
-#A gtnh.quest190.desc=Whether you used magic, steam, oil or biogas for power until now, you will run into problems as you advance to higher tiers. So you'll need to upgrade your power grid, at least for your EBF(s). So let's start with something more powerful: A nuclear reactor!%n%nIf you want to know how they work, refer to The Internet or the Reactor Planner at https://github.com/MauveCloud/Ic2ExpReactorPlanner/releases%n%nNote: The EU multiplier is set to 10x in this pack. That means your nuclear reactor is 10 times more efficient. Make sure to set the planner to GTNH mode under advanced. Also, the base numbers (before 10xing) can be seen on the hover text for all the components.%n%nIf you just want to use them, go to https://tinyurl.com/GTNH-Nukes for reactor designs. The Thorium 1920 EU one is probably best for now.
-#C gtnh.quest190.desc=不管你在用魔法、蒸汽、石油或者沼气在发电,到了这一阶段你都会碰到问题. 所以你需要升级的的电网,至少对你的高炉供电系统进行升级. 所以让我们来使用强大的能源:核能！ §4提示: 这个整合包核反应堆的效率乘数为10,这意味着GTNH牌反应堆的效率要比以往的高10倍！！！  在https://tinyurl.com/GTNH-Nukes 可以获知更多GTNH核反应堆信息.
+gtnh.quest190.desc=不管你在用魔法、蒸汽、石油或者沼气在发电,到了这一阶段你都会碰到问题. 所以你需要升级你的电网,至少对高炉供电系统进行升级. 所以让我们来使用强大的能源:核能！%n%n如果你想了解反应堆的工作原理,请参考英特网以及 https://github.com/MauveCloud/Ic2ExpReactorPlanner/releases 这里的核电计算器%n%n§4提示: 这个整合包核反应堆的效率乘数为10,这意味着GTNH牌反应堆的效率要比以往的高10倍！！！请确保在高级中将计算器设置为GTNH模式.另外,所有部件悬停显示的都是基础数据(x10之前).%n%n在https://tinyurl.com/GTNH-Nukes 可以获知更多GTNH核反应堆信息. 目前1920EU/t的钍堆应该是最佳选择.
 
 # Quest.191 - Standard Nuclear Fuel: Uranium
-#B gtnh.quest191.name=§a§lTier 2 fuel: Uranium
-#A gtnh.quest191.name=Standard Nuclear Fuel: Uranium
-#C gtnh.quest191.name=§a§l第二阶燃料:铀
-#B gtnh.quest191.desc=Just "regular" uranium fuel, nothing special about it.
-#A gtnh.quest191.desc=Just "regular" uranium fuel, nothing special about it. It produces 5x the power, and 4x the heat of thorium, while lasting 2/5 the time.%n%nMost fuel rods are basically this, but slightly modified. You generally get this from Mars and it's moons, but you can get a little from centrifuging thorium if you want.%n%nBTW, one of the reactor types 'pulses' the reactor to turn it off once it gets too hot. You can pack in the rods and then cool it off for a while to get higher efficiency out of each rod. Try it if you like explosions.
-#C gtnh.quest191.desc=这仅仅是"普通"的铀燃料.没有什么特殊的...
+gtnh.quest191.name=§a§l标准核燃料:铀
+gtnh.quest191.desc=这仅仅是"普通"的铀燃料.没有什么特殊的...它产生的能量是钍的5倍,而产生的热量为其4倍,同时持续时间为其2/5.%n%n大多数燃料棒都大同小异.通常在火星及其卫星上获取铀,别忘了从钍中也可以离心出一点铀.%n%n顺便一提,有一种'脉冲'型的反应堆(当过热后关闭反应堆).将这些棒子打包后冷静一下,这样可以让每根燃料棒达到最大的利用效率.当然,一不小心就是BOOM.
 
 # Quest.192 - Tricky Nuclear Fuel: MOX
-#B gtnh.quest192.name=§a§lTier 3 fuel: MOX
-#A gtnh.quest192.name=Tricky Nuclear Fuel: MOX
-#C gtnh.quest192.name=§a§l第三阶燃料:MOX
-#B gtnh.quest192.desc=Highly radioactive, the most powerful fuel rod you can get. Burns twice as fast as uranium, but produces massive amounts of power. Rumors are, that peaks up to 11k EU/t are possible...
-#A gtnh.quest192.desc=Under normal conditions, produces the same amount of power as uranium, but MOX produces more power the more you let the reactor heat up. Try to come up with a heat-neutral design as close to the limit as possible to take advantage of this. It lasts 1/2 the time, and produces more heat once the reactor is over 50%. A fuel for all the engineers out there.%n%n§3You'll need to run a uranium reactor for a while to get some plutonium if you don't have another way to get it. Remember that there's more than 1 type!%n%n§4Make sure to test in creative and/or use protection against explosions!
-#C gtnh.quest192.desc=这种燃料具有很高的放射性,但同时它也是你可以获得的最强大的燃料棒. MOX燃烧速度是铀的两倍,但是在高速燃烧的同时会产生巨大的电力. 传闻,MOX发电速度可以达到不可思议的11kEU/t的程度.
+gtnh.quest192.name=§a§l棘手的核燃料:MOX
+gtnh.quest192.desc=在正常情况下,MOX的发电与铀棒相同,但随着反应堆升温,MOX可以产出更多能量.想要利用这一优势,你需要尝试设计出一种接近极限温度的热平衡堆.它的燃烧时间只有铀棒的一半,且当反应堆温度超过50％时,MOX棒会放出更多热量.一根棒子顶所有引擎!%n%n§3如果没有其他方式获取钚的话,你需要先运行一个普通的铀堆,再离心枯竭铀.别忘了MOX棒不止一种!%n%n§4请确保在创造模式测试过且/或做好防爆工作!
 
 # Quest.193 - §a§lBasic Nuclear Fuel: Thorium
-#B gtnh.quest193.name=§a§lTier 1 fuel: Thorium
-#A gtnh.quest193.name=§a§lBasic Nuclear Fuel: Thorium
-#C gtnh.quest193.name=§a§l第一阶燃料:钍
-#B gtnh.quest193.desc=The weakest of all rods, but very easy to produce, very easy to keep cool and runs twice as long as uranium. A perfect "fission and forget" power source.%n%nHint:%nAfter they are used up you can recycle them to get Lutetium which is used for making americium in the fusion reactor.%nAmericium is needed for top tier materials later, so start stockpiling now. Plus, you get power!
-#A gtnh.quest193.desc=The weakest of all fuel rods, but very easy to produce, very easy to keep cool and runs twice as long as uranium. It even returns 1/3 of the thorium back later. A perfect "fission and forget" power source.%n%n§4Note: After they are used up you can recycle them to get Lutetium which is used for making americium in the fusion reactor. Americium is §lneeded§r§4 for top tier materials later, so start stockpiling now. Plus, you get power!
-#C gtnh.quest193.desc=钍燃料棒是所有燃料棒里面最弱的一个.但是优点是很容易生产,而且比较好控制堆温,运行时间很长(是铀棒的2倍). 所以用钍可以做一个完美的"一劳永逸"的电力供应装置.%n%n提示:%n当钍燃料棒耗尽后,你可以离心它获得镥,而镥是聚变获得镅的原料.%n虽然你只有到UV阶段才会需要镅,但你现在就可以开始囤积镥了,而且你还能获得电力,何乐而不为?
+gtnh.quest193.name=§a§l基础核燃料:钍
+gtnh.quest193.desc=钍燃料棒是所有燃料棒里面最弱的一个.但是优点是很容易生产,而且比较好控制堆温,运行时间很长(是铀棒的2倍).甚至在烧完后还会返还1/3的钍! 所以用钍可以做一个完美的"一劳永逸"的电力供应装置.%n%n§4请注意:当钍燃料棒耗尽后,你可以离心它获得镥,而镥是聚变获得镅的§l原料§r§4.%n虽然你只有到UV阶段才会需要镅,但你现在就可以开始囤积镥了,而且你还能获得电力,何乐而不为?
 
 # Quest.194 - §a§lMonitoring your reactor
 gtnh.quest194.name=§a§l监视你的反应堆
@@ -800,21 +786,15 @@ gtnh.quest195.desc=想要释放反应堆全部的潜力,你就需要给你的反
 
 # Quest.196 - §a§lMove the heat
 gtnh.quest196.name=§a§l热交换
-#B gtnh.quest196.desc=Reactors heat up, well the rods do, so you need to "move the heat away" to somewhere else. You should get one of each, and try to figure out what each individual heat exchanger does, in order to figure out a good setup.
-#A gtnh.quest196.desc=Reactors heat up, so you need to "move the heat away" to somewhere else. You should get one of each, and try to figure out what each individual heat exchanger does, in order to figure out a good setup.
-#C gtnh.quest196.desc=反应堆温度会提高,燃料棒也会.因此你需要将燃料棒的温度转移到其他什么地方去. 热交换器可以实现这种功能,你应该每一种热交换器都制造一个,并且试一试哪一种更适合你的反应堆.
+gtnh.quest196.desc=反应堆温度会升高.因此你需要将燃料棒的温度转移到其他什么地方去. 热交换器可以实现这种功能,你应该每一种热交换器都制造一个,并且试一试哪一种更适合你的反应堆.
 
 # Quest.197 - §a§lVenting heat
 gtnh.quest197.name=§a§l散热
 gtnh.quest197.desc=你不能让热量聚集在反应堆内部,最终你需要将反应堆内部的热量散发的大气中. 不同的散热片有不同的散热能力,你需要找出他们哪一种散热片适合用在你设计的反应堆中.
 
 # Quest.198 - Alternate Nuclear Fuel: Tiberium
-#B gtnh.quest198.name=Double the fun
-#A gtnh.quest198.name=Alternate Nuclear Fuel: Tiberium
-#C gtnh.quest198.name=二联燃料棒,双倍的快乐(double the fun(fuel))
-#B gtnh.quest198.desc=Need even more power? Why not combine rods? Produces twice the amount of power (and heat, obviously) but only uses up one slot.
-#A gtnh.quest198.desc=They're the same as uranium but produce half as much heat. Given that there's no reactor designs floating around, and the fact that you need to go to Ross128ba, a T5 rocket (LuV) planet to get the tiberium, I'm gonna say they're probably not worth it. If you disagree, make a design and show it to people, 'kay?
-#C gtnh.quest198.desc=你需要更多的能量？为什么不把燃料棒组合在一起呢？ 二联燃料棒可以产生两倍的能量(显然发热量也是两倍),但同时只占用一个槽.
+gtnh.quest198.name=§a§l可选核燃料:泰伯利亚
+gtnh.quest198.desc=它们与铀类似不过发热仅为其一半.目前还没有现成的反应堆设计图,而且你需要T5火箭(LuV),才能到达罗斯128ba,获取泰伯利亚,我觉得完全不值.如果你不同意这一点,请为大家设计一个泰伯利亚反应堆.
 
 # Quest.199 - §a§lQuit exhaling dusts
 gtnh.quest199.name=§a§lQED(Quit exhaling dusts)
@@ -1981,12 +1961,8 @@ gtnh.quest489.name=§2§l更好的午餐盒
 gtnh.quest489.desc=过去的午餐盒已经很久了而且被用的很狼狈,那么现在应该弄一个更好的午餐盒. 来让我们制作一个可以装更多食物的更大的午餐盒吧.
 
 # Quest.490 - Obscenely Dangerous Nuclear Fuel: The Core
-#B gtnh.quest490.name=Horseback riding
-#A gtnh.quest490.name=Obscenely Dangerous Nuclear Fuel: The Core
-#C gtnh.quest490.name=骑马
-#B gtnh.quest490.desc=Are you ready for a small trip? With your new lunch box, saddle, lead and of course a horse we can start a small journey. Be sure to make paths over water, horses don't like going over deep water.
-#A gtnh.quest490.desc=For the truly insane mad scientists out there. Or people who can read a website (not guaranteed, trust me!). You HAVE to use coolant cells with it if you want power or to have it not explode after 1s.
-#C gtnh.quest490.desc=你准备好出去旅行了么？带着你的便当、马鞍、绳栓,哦当然还需要一匹马！好了我们可以开始一段旅程了！一定要在路上行走,马不喜欢越过深水.
+gtnh.quest490.name=极端危险的核燃料:"核心"
+gtnh.quest490.desc=为那些真正疯狂的核工业科学家准备的.或是那些懂得上网的人(不能保证,请相信我!).如果你需要用它发电或是不想它开一秒就爆炸的话,需要使用大量的冷却单元.
 
 # Quest.491 - §2§lSleeping outside
 gtnh.quest491.name=§2§l在野外休息
@@ -9928,7 +9904,7 @@ gtnh.quest2455.desc=制成这个终极气血宝珠, 你将拥有无限的LP. 但
 
 # Quest.2456 - Demon Blood Shards
 gtnh.quest2456.name=恶魔气血碎片
-gtnh.quest2456.desc=想要获得恶魔气血碎片, 你得先召唤一只恶魔然后杀死它. 你得先像这样放置奥术基座:%n%nxpxpx%nxxxxx%npxPxp%nxxxxx%nxpxpx%n%nx=空位, p=基座, P=基柱%n%n在基柱上放置一个绑定过的导师气血宝珠(或以上), 然后再基座上放上相应的祭品. 祭品需要拥有相同元素. 神圣粉末, 以太元素, 火焰粉末, 液之粉末, 泥土粉末, 暗黑粉末.%n%n启动时会有闪电出现, 一次吸收祭品后恶魔将会出现(其实是元素精灵, 更多恶魔召唤请参考教程). 杀死恶魔并不会总是掉落碎片, 所以最好一次准备多套祭品.
+gtnh.quest2456.desc=想要获得恶魔气血碎片, 你得先召唤一只恶魔然后杀死它. 你得先像这样放置奥术基座:%n%nxpxpx%nxxxxx%npxPxp%nxxxxx%nxpxpx%n%nx=空位, p=基座, P=基柱%n%n在基柱上放置一个绑定过的导师气血宝珠(或以上), 然后在基座上放上相应的祭品. 祭品需要拥有相同元素. 神圣粉末, 以太元素, 火焰粉末, 液之粉末, 泥土粉末, 暗黑粉末.%n%n启动时会有闪电出现, 一次吸收祭品后恶魔将会出现(其实是元素精灵, 更多恶魔召唤请参考教程). 杀死恶魔并不会总是掉落碎片, 所以最好一次准备多套祭品.
 
 # Quest.2457 - Starter Key
 gtnh.quest2457.name=启动器
