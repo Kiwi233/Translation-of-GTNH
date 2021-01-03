@@ -2394,7 +2394,7 @@ gtnh.quest597.desc=Maybe you are wondering why you need tetrahedrite or stibnite
 
 # Quest.598 - §5§lAntimony
 gtnh.quest598.name=§5§lAntimony
-gtnh.quest598.desc=The most efficient way to get antimony for batteries is to centrifuge stibnite dust, the second most efficient way is to use tetrahedrite dust.
+gtnh.quest598.desc=The most efficient way to get antimony for batteries is to run stibnite through a BBF or EBF, burning off the impurities (sulfur), and giving you more antimony. You can also centrifuge it if you want to keep the sulfur. You can also centrifuge tetrahedrite dust if you're desperate.
 
 # Quest.599 - §5§lThermal centrifuge
 gtnh.quest599.name=§5§lThermal centrifuge
@@ -2438,7 +2438,7 @@ gtnh.quest608.desc=The next step of making batteries is to collect some lead. Le
 
 # Quest.609 - §5§lBattery alloy
 gtnh.quest609.name=§5§lBattery alloy
-gtnh.quest609.desc=Mixing antimony and lead in the alloy smelter will give you some battery alloy.%nCombine it with some tin cable and voila there is your small battery hull.
+gtnh.quest609.desc=Mixing antimony and lead in the alloy smelter will give you some battery alloy.%nCombine it with some tin cable and voila there is your small battery hull.%n%n§3Note that if you make the battery alloy in the mixer you need to use dusts, but if you use the alloy smelter you can use either.
 
 # Quest.610 - Lead, galena and silver
 gtnh.quest610.name=Lead, galena and silver
@@ -3118,7 +3118,7 @@ gtnh.quest778.desc=Carbon plates are needed for the nano armor. Go check out the
 
 # Quest.779 - Carbon Skin
 gtnh.quest779.name=Carbon Skin
-gtnh.quest779.desc=You can stop worrying about some mobs for now. This will help you survive a bit and will give you some of that SWAG. Your journey doesn't stop here traveller, as quantum armor awaits you!
+gtnh.quest779.desc=You can stop worrying about some mobs for now. This will help you survive a bit and will give you some of that SWAG. Your journey doesn't stop here traveller, as quantum armor awaits you!%n%n§3PS: The nano suit also acts as hazmat gear.
 
 # Quest.780 - §6§lOrganic Way
 gtnh.quest780.name=§6§lOrganic Way
@@ -3346,7 +3346,7 @@ gtnh.quest835.desc=Every basic circuit needs two resistors to work
 
 # Quest.836 - §5§lGallium Arsenide
 gtnh.quest836.name=§5§lGallium Arsenide
-gtnh.quest836.desc=The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite dust in an electrolyzer is the primary source of gallium at this tier. %nYou can also get gallium out of crushed zinc ore by using a thermal centrifuge. You can find the small zinc ores in the Overworld or the in the Nether at Y Level 80 - 210. To get additional crushed ore, use a Tinker's Construct tool with the Luck (Fortune) enchant on it - apply a lot of Lapis. %n%nYou can get arsenic from realgar small ores in the Nether at Y level 5 - 85. Centrifuge the dusts in a centrifuge. Other sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest.%n%nYou need to level up your pickaxe to ardite or make an Ironwood Pickaxe to harvest cobalt ore.%n%nAnother nice way to get gallium and arsenic is with XP buckets in a crafting grid.%n%nMix those two dusts in a mixer to get gallium arsenic dust.%n%nIn the nether it is easier to use a GT miner near the ceiling to get all the ores you need.%n%nAnother source is cobaltite ore. You get arsenic out of it during electrolyzing but that requires MV Voltage.
+gtnh.quest836.desc=The diode requires gallium arsenide and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier. You can get gallium out of them by using a thermal centrifuge.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80 - 210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. %n%nYou can get arsenic from realgar small ores in the Nether at Y 5 - 85. Centrifuge the dusts in a centrifuge. Other sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest, but that requires MV Voltage.%n%nYou need to level up your pickaxe to ardite or make an Ironwood Pickaxe to harvest cobalt ore.%n%nAnother nice way to get gallium and arsenic is with XP buckets in a crafting grid.%n%nMix those two dusts in a mixer to get gallium arsenic dust.%n%nIn the nether it is easier to use a GT miner near the ceiling to get all the ores you need.
 
 # Quest.837 - §6§lILC and RAM
 gtnh.quest837.name=§6§lILC and RAM
@@ -4074,7 +4074,7 @@ gtnh.quest1017.desc=Another variant of the advanced circuit from IC2 is the proc
 
 # Quest.1018 - §9§lCentral Processing Unit
 gtnh.quest1018.name=§9§lCentral Processing Unit
-gtnh.quest1018.desc=Integrated Processors need central processing units. You can get these by cutting a ram wafer.%n%nA cleanroom is needed.
+gtnh.quest1018.desc=Integrated Processors need central processing units. You can get these by cutting a central processing unit wafer.%n%nA cleanroom is needed.
 
 # Quest.1019 - §9§lSmall Coil
 gtnh.quest1019.name=§9§lSmall Coil
@@ -5650,7 +5650,7 @@ gtnh.quest1411.desc=Platinum, Palladium, Iridium and Osmium can be extracted wit
 
 # Quest.1412 - §6§lAssembling Line
 gtnh.quest1412.name=§6§lAssembling Line
-gtnh.quest1412.desc=The assembling line (short form 'Ass Line') is a multiblock and important for high tier Components in LuV tier and above for Motors, Pistons, Robot Arms, Pumps and many more.%n%nThe machine can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it's crafting. A length of 11 blocks will fit 80 percent of all recipes in GTNH.%nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items(10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.%n%nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.%n%nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.%n%nThe fourth layer is a single line of Solid Steel Machine Casings in the middle(11), with two Energy Hatches for power. Once you have it built, you can replace the two IV energy hatches with 1 LuV energy hatch.%n%nAutomating the assline is God tier GTNH endgame. While it can be done with Enderio, it's easier to use SFM or OpenComputers.%n%nFor more details on using the Assembly Line, check out the wiki page https://tinyurl.com/GTNH-Assline
+gtnh.quest1412.desc=The assembling line (short form 'Assline') is an important machine for high tier components in LuV tier and above for making Motors, Pistons, Robot Arms, Pumps and many more.%n%nThe multiblock can be 5-16 blocks long. The minimum length required depends on the number of components and fluids required by the recipe it's crafting. A length of 11 blocks will fit 80 percent of all recipes in GTNH.%n%nThe bottom layer must have on one outer side all the Input Hatches for fluids (4), in the bottom middle layer Input Busses for items (10), and on the end 1 Output Bus. Also on the bottom outer layer must be one Maintainance Hatch. The rest is Solid Steel Machine Casings.%n%nThe second layer on the outer sides left and right are Reinforced Glass and in the middle center Assembling Line Casing.%n%nThe third layer has on the left and right Grate Machine Casings and in the middle Assembler Machine Casings (Note the name change!). The Assembling Line control block and Data Access Hatch are on the opposite edge from the Input Hatches - not at the end with the Output Bus.%n%nThe fourth layer is a single line of Solid Steel Machine Casings in the middle (11), with two Energy Hatches for power. Once you have it built, you can replace the two IV energy hatches with 1 LuV energy hatch.%n%nAutomating the assline is God tier GTNH endgame. While it can be done with Enderio, it's easier to use SFM or OpenComputers.%n%nFor more details on using the Assembly Line, check out the wiki page https://tinyurl.com/GTNH-Assline%n%n§3BTW the input busses are ULV to help with your automating, if you don't want to automate it, you can use higher tier ones, unlike the CAL.
 
 # Quest.1413 - §b§lYou gonna hate this 1-4 in IV
 gtnh.quest1413.name=§b§lYou gonna hate this 1-4 in IV
@@ -7602,7 +7602,7 @@ gtnh.quest1899.desc=Need even more power? Why not combine rods? Produces more po
 
 # Quest.1900 - Unfortunately, There's No Depleted Uranium Bullets
 gtnh.quest1900.name=Unfortunately, There's No Depleted Uranium Bullets
-gtnh.quest1900.desc=After your rods have finished their cycle they turn into depleted rods. You can then thermal centrifuge them for some materials back. Depending on the rod, you can get different stuff, see the wiki for details.
+gtnh.quest1900.desc=After your rods have finished their cycle they turn into depleted rods. You can then thermal centrifuge them for some materials back. Depending on the rod, you can get different stuff, see NEI or the wiki for details.
 
 # Quest.1901 - §5§l§6§l§9§lHV Advanced Steam Boiler
 gtnh.quest1901.name=§5§l§6§l§9§lHV Advanced Steam Boiler
@@ -10922,7 +10922,7 @@ gtnh.quest2730.desc=Laser hatches are a high-end way of sending lots of amps of 
 
 # Quest.2731 - Transform and...Stay Put Actually
 gtnh.quest2731.name=Transform and...Stay Put Actually
-gtnh.quest2731.desc=Active Transformers will transform power up or down at only a 0.78125% power loss, making using several in a row obsolete, if you can afford it. Unfortunately, it's kinda expensive. On the other hand, you can use it to turn your lasers from your laser hatches, which is probably a better use.%n%nIt doesn't need a Maintenance Hatch, just the I/O Hatches.%n%n§4Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode!
+gtnh.quest2731.desc=Active Transformers will transform power up or down at only a 0.004% power loss, making using several in a row obsolete, if you can afford it. Unfortunately, it's kinda expensive. On the other hand, you can use it to turn your lasers from your laser hatches, which is probably a better use.%n%nIt doesn't need a Maintenance Hatch, just the I/O Hatches.%n%n§4Be sure to turn off Power Pass if you want to edit your machine and don't want it to explode!
 
 # Quest.2732 - The Third Time's the Charm
 gtnh.quest2732.name=The Third Time's the Charm
