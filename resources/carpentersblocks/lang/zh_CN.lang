@@ -1,0 +1,60 @@
+# Carpenter's Blocks Language File = Simplified Chinese
+
+# CREATIVE TAB
+itemGroup.carpentersBlocks.name=木匠方块
+
+# ITEMS
+item.itemCarpentersHammer.name=木匠锤
+item.itemCarpentersChisel.name=木匠凿
+item.itemCarpentersDoor.name=木匠门
+item.itemCarpentersBed.name=木匠床
+item.itemCarpentersTile.name=木匠瓷砖
+
+# BLOCKS
+tile.blockCarpentersBarrier.name=木匠栅栏
+tile.blockCarpentersBed.name=木匠床
+tile.blockCarpentersBlock.name=木匠方块
+tile.blockCarpentersButton.name=木匠按钮
+tile.blockCarpentersDaylightSensor.name=木匠阳光传感器
+tile.blockCarpentersCollapsibleBlock.name=木匠折叠方块
+tile.blockCarpentersDoor.name=木匠门
+tile.blockCarpentersGarageDoor.name=木匠卷闸门
+tile.blockCarpentersGate.name=木匠栅栏门
+tile.blockCarpentersHatch.name=木匠活板门
+tile.blockCarpentersLadder.name=木匠梯子
+tile.blockCarpentersLever.name=木匠拉杆
+tile.blockCarpentersPressurePlate.name=木匠压力盘
+tile.blockCarpentersSlope.wedge.name=木匠楔形斜坡
+tile.blockCarpentersSlope.obliqueInterior.name=木匠内倾斜坡
+tile.blockCarpentersSlope.obliqueExterior.name=木匠外倾斜坡
+tile.blockCarpentersSlope.prism.name=木匠棱形斜坡
+tile.blockCarpentersSlope.prismWedge.name=木匠三角坡
+tile.blockCarpentersStairs.name=木匠楼梯
+tile.blockCarpentersTorch.name=木匠火把
+tile.blockCarpentersSafe.name=木匠保险箱
+tile.blockCarpentersFlowerPot.name=木匠花盆
+
+# ENTITIES
+entity.CarpentersTile.name=木匠瓷砖
+
+# MESSAGES
+message.polarity_pos.name=输出相: 标准红石信号输出.
+message.polarity_neg.name=输出相: 反相红石信号输出.
+message.activation_iron.name=激活条件: 类似铁门需要信号控制.
+message.activation_wood.name=激活条件: 类似木门不需要信号控制.
+message.trigger_player.name=触发条件: 只能由玩家触发.
+message.trigger_monster.name=触发条件: 只能由怪物触发.
+message.trigger_animal.name=触发条件: 只能由动物触发.
+message.trigger_all.name=触发条件: 任何实体均可触发.
+message.safe_lock.name=控制: 保险箱已锁.
+message.safe_unlock.name=控制: 保险箱已解锁.
+message.automation_all.name=自动: 可以放入取出物品.
+message.automation_disabled.name=自动: 禁用.
+message.automation_insert.name=自动: 仅能放入物品.
+message.automation_extract.name=自动: 仅能取出物品.
+message.block_lock.name=控制: 该方块已锁.
+message.sensitivity_sleep.name=灵敏性:晚间睡觉临界点切换状态 (日出与日落).
+message.sensitivity_monsters.name=灵敏性:怪物生成亮度临界点切换状态 (包括雨天).
+message.sensitivity_dynamic.name=灵敏性:输出红石信号强度根据太阳位置变化.
+
+# </file>
