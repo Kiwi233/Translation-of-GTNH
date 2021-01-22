@@ -154,7 +154,9 @@ gtnh.quest37.desc=在各种矿脉里都可以找到铁.  磁铁矿脉(30—180�
 
 # Quest.38 - §2§lMaking better tools
 gtnh.quest38.name=§2§l做些更好的工具
-gtnh.quest38.desc=有了铝和铜后,你可以做些更漂亮耐用的金属——铝黄铜！它还可以拿来制作更好的工具、用来开采更好的矿石！但你先要有一个冶炼炉.你可以在附近村庄里找找看,或者看看书上标「多方块结构」的章节.
+#B gtnh.quest38.desc=With aluminium and copper, you can create a pretty durable material "Aluminum Brass", which can be used to cast better tools. These can be used to mine some more advanced ores.%n%nBut first you need a smeltery. See the Multiblock Goals chapter in this book, or find smeltery blocks in a village nearby.
+#A gtnh.quest38.desc=With aluminium and copper, you can create a material with a higher melting temperature, "Aluminum Brass", which can be used to cast better tools.%n%nBut first you'll need a smeltery. See the Multiblock Goals tab for details. You can also grab some extra blocks from some villages, but they don't count towards the quest.%n%nYou can then use your fancy new bronze to make better tools. Note that it has a higher mining level than iron, so you'll need it for mining some ores.
+#C gtnh.quest38.desc=有了铝和铜后,你可以做些更漂亮耐用的金属——铝黄铜！它还可以拿来制作更好的工具、用来开采更好的矿石！但你先要有一个冶炼炉.你可以在附近村庄里找找看,或者看看书上标「多方块结构」的章节.
 
 # Quest.39 - §2§lBetter storage
 gtnh.quest39.name=§2§l更好的存储
@@ -1188,9 +1190,13 @@ gtnh.quest295.desc=当然你可以使用很多的罐子来存储大量的源质,
 gtnh.quest296.name=基础元素
 gtnh.quest296.desc=当然,你知道如何获得那些基础的源质类型,但你知道...？
 
-# Quest.297 - Essentia transmission
-gtnh.quest297.name=输送源质
-gtnh.quest297.desc=这些镜子可以帮助你从不同的位置将源质传输到注魔祭坛里.这样的话你就可以把那些讨厌的源质管子从你的注魔祭坛上面拿下去了.此外,这些镜子可能还有一些其他的用途... (详细信息参考魔导手册炼化学-源质之镜)  你有一种直觉,拥有更强能量的金属会有非常有趣的用途.
+# Quest.297 - Magical Item Teleportation
+#B gtnh.quest297.name=Essentia transmission
+#A gtnh.quest297.name=Magical Item Teleportation
+#C gtnh.quest297.name=输送源质
+#B gtnh.quest297.desc=What if... you could send essentia from a different location to your infusion matrix? You could finally get rid of all those jars around your altar. Also, there might be an additional use for those mirrors.%n%nYou have an intuition that a more energetic metal would allow for very interesting uses.
+#A gtnh.quest297.desc=It's annoying to do, but you can teleport items with this. Check the thaumonomicon for details.
+#C gtnh.quest297.desc=这些镜子可以帮助你从不同的位置将源质传输到注魔祭坛里.这样的话你就可以把那些讨厌的源质管子从你的注魔祭坛上面拿下去了.此外,这些镜子可能还有一些其他的用途... (详细信息参考魔导手册炼化学-源质之镜)  你有一种直觉,拥有更强能量的金属会有非常有趣的用途.
 
 # Quest.298 - (Almost) automated essentia
 gtnh.quest298.name=(几乎)自动化源质
@@ -1202,7 +1208,9 @@ gtnh.quest299.desc=一个一个去检查你的源质罐子是一个很麻烦的�
 
 # Quest.300 - Cleaning the goo
 gtnh.quest300.name=清理粘浆
-gtnh.quest300.desc=如果你经常进行注魔,那么你肯定很讨厌注魔过程中产生的咒波粘浆.净化铲可以帮你清理这些咒波粘浆,所以在注魔过程中这可是一个必不可少的工具！(魔导手册伪经)
+#B gtnh.quest300.desc=As you do more and more infusions, you're getting tired of removing all the flux that's generated. The shovel of the purifier will help you cleaning up flux, and is a must-have.
+#A gtnh.quest300.desc=As you do more and more infusions, you're getting tired of removing all the flux that's generated. The shovel of the purifier will help you cleaning up flux, and is a must-have.%n%n§3Actually this is pretty useless, if you have any concept of what you're doing.
+#C gtnh.quest300.desc=如果你经常进行注魔,那么你肯定很讨厌注魔过程中产生的咒波粘浆.净化铲可以帮你清理这些咒波粘浆,所以在注魔过程中这可是一个必不可少的工具！(魔导手册伪经)
 
 # Quest.301 - One does not simply...
 gtnh.quest301.name=都不简单
@@ -1890,11 +1898,15 @@ gtnh.quest471.desc=你可能发现了,一直吃一种食物很不健康而且越
 
 # Quest.472 - §2§lYour first tool
 gtnh.quest472.name=§2§l你的第一把工具
-gtnh.quest472.desc=当你准备好了匠魂里面各种组装台、工具台什么的,你就可以开始制作你第一个匠魂工具了. 如果你没找到一个有匠魂冶炼炉的村庄,那么你只能从燧石工具开始制作. 让我们首先来制作稿子、铲子和斧头.燧石不能制作剑,因为剑需要金属比如铁或者青铜,你在以后的时候可以制作它. 刚做好的工具可能会比你现在用的GT工具要弱一点,但是随着你使用时间的增加,这些工具也会越来越好. 组成工具的各个部件可被替换,但你必须将工具完全修复才可以替换部件.
+#B gtnh.quest472.desc=When your tinkers tables are ready you can craft your first tool. If you did not find a village yet you can only craft flint tools. Let's start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords. Your new tools are weak at first but the more you use them the better they will get. They will level up to level 99 if you play long enough. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.
+#A gtnh.quest472.desc=When your tinkers tables are ready you can craft your first tool. If you didn't find a village yet (to grab some parts from the chest), you can only craft flint tools.%n%nLet's start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords.%n%nYour new tools are weak at first but the more you use them the better they will get. You get a modifer slot after some levels, needing more as you level it up. They will level up to level 99 if you play long enough. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.%n%nPS: Don
+#C gtnh.quest472.desc=当你准备好了匠魂里面各种组装台、工具台什么的,你就可以开始制作你第一个匠魂工具了. 如果你没找到一个有匠魂冶炼炉的村庄,那么你只能从燧石工具开始制作. 让我们首先来制作稿子、铲子和斧头.燧石不能制作剑,因为剑需要金属比如铁或者青铜,你在以后的时候可以制作它. 刚做好的工具可能会比你现在用的GT工具要弱一点,但是随着你使用时间的增加,这些工具也会越来越好. 组成工具的各个部件可被替换,但你必须将工具完全修复才可以替换部件.
 
 # Quest.473 - §2§lMaking a better sword
 gtnh.quest473.name=§2§l做一把好剑
-gtnh.quest473.desc=现在是时候做一把匠魂剑了！首先你需要制作剑刃、护手和手柄.在匠魂冶炼炉里面融化一些青铜来铸造这些零件.拿去工具组装台把它们装好,这样你就有你第一把匠魂的剑了.
+#B gtnh.quest473.desc=Now it's time to make your first tinkers sword. First you have to make blade, hand guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... there is your first tinkers sword.
+#A gtnh.quest473.desc=Now it's time to make your first tinkers sword. First you have to make blade, a type of guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... there is your first tinkers sword. There are 4 types of guard, changing them gets you a different sword type, see the tinker's book for details.
+#C gtnh.quest473.desc=现在是时候做一把匠魂剑了！首先你需要制作剑刃、护手和手柄.在匠魂冶炼炉里面融化一些青铜来铸造这些零件.拿去工具组装台把它们装好,这样你就有你第一把匠魂的剑了.
 
 # Quest.474 - §2§k§l§l§r§2§lUpgrade 2.0
 gtnh.quest474.name=§2§k§l§l§r§2§l升级2.0
@@ -1922,7 +1934,9 @@ gtnh.quest479.desc=现在这里有更加危险的精英怪物. 玩得开心！�
 
 # Quest.480 - §2§lMalachite
 gtnh.quest480.name=§2§l孔雀石
-gtnh.quest480.desc=铜的另一个来源就是"孔雀石". 你可以在Y轴10到40之间发现这种矿脉.这里包含了很多铁矿石的变种,如"带状铁矿石""黄褐铁矿石""棕褐铁矿石"  译者注:这种矿石中期提取氢气很有用,留意它们的位置.  §4提示: 想要知道在哪里可以找到某些特殊矿石,你可以点击NEI中的原矿,NEI会显示此矿石的更多细节(包括可能的矿脉、生成高度、概率以及生成世界等信息). 也适用于贫瘠矿石.
+#B gtnh.quest480.desc=Another copper source  is "malachite" which can be found between Y level 10 and 40. This vein contains more iron ore variants like "brown limonite", "yellow limonite" and "banded iron ore".%n%n§4Hint:%nTo see where a special ore can be found click the raw ore in nei and it will show you more details. Works with small ores too.
+#A gtnh.quest480.desc=Another copper source is "malachite" which can be found between Y level 10 and 40. This vein contains more iron ore variants like "brown limonite", "yellow limonite" and "banded iron ore".%n%n§4Hint:%nTo see where a special ore can be found click the raw ore in nei and it will show you more details. Works with small ores too.
+#C gtnh.quest480.desc=铜的另一个来源就是"孔雀石". 你可以在Y轴10到40之间发现这种矿脉.这里包含了很多铁矿石的变种,如"带状铁矿石""黄褐铁矿石""棕褐铁矿石"  译者注:这种矿石中期提取氢气很有用,留意它们的位置.  §4提示: 想要知道在哪里可以找到某些特殊矿石,你可以点击NEI中的原矿,NEI会显示此矿石的更多细节(包括可能的矿脉、生成高度、概率以及生成世界等信息). 也适用于贫瘠矿石.
 
 # Quest.481 - §l§2§lCreosote oil
 gtnh.quest481.name=§l§2§l杂酚油
@@ -2774,7 +2788,9 @@ gtnh.quest692.desc=将高级合金的强度与钢铁胸甲结合,将使你非常
 
 # Quest.693 - §2§lFallen from the sky
 gtnh.quest693.name=§2§l从天而降
-gtnh.quest693.desc=你可以在许多地方找到巨大的陨石.而你可能会疑惑为何需要现在去挖掘它们？在LV时代,陨石是地球上稀有金属的一个好来源. 在陨石中你可以找到一个陨石箱,其中装了一些处理器印压模板.将它们保存起来,它们非常重要.
+#B gtnh.quest693.desc=There are big meteors everywhere and you are wondering why you need to mine them now?%nSkystone is a good source of rare earth metals in the LV age. %nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, as they are really important. Plus the chest is nice, and can be placed underneath blocks and still opened.%n%nHint: If your all your surface meteors have been raided, put some skystone in your orefinder to find underground ones.  Often there is a second meteor right next to the one on the surface!
+#A gtnh.quest693.desc=There are big meteors everywhere and you are wondering why you need to mine them now? §3Honestly so am I.§r%n%nSkystone is a good source of rare earth metals in the LV age. %n%nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, as they are really important. Plus the chest is nice, and can be placed underneath blocks and still opened.%n%nHint: If your all your surface meteors have been raided, put some skystone in your orefinder to find underground ones.  Often there is a second meteor right next to the one on the surface!
+#C gtnh.quest693.desc=你可以在许多地方找到巨大的陨石.而你可能会疑惑为何需要现在去挖掘它们？在LV时代,陨石是地球上稀有金属的一个好来源. 在陨石中你可以找到一个陨石箱,其中装了一些处理器印压模板.将它们保存起来,它们非常重要.
 
 # Quest.694 - §3§lOne Anvil... Better make that two!
 gtnh.quest694.name=§3§l一个铁砧...最好做两个！
@@ -2946,7 +2962,9 @@ gtnh.quest735.desc=如果你幸运的找到一个酿造台,或者对神秘时代
 
 # Quest.736 - §6§lFermented Biomass
 gtnh.quest736.name=§6§l发酵生物质
-gtnh.quest736.desc=使用MV发酵槽,你可以制造发酵生物质.这是制作甲烷(methane)、乙醇(ethanol)和甲醇(methanol)的基础原料.当你达到HV阶段,使用蒸馏塔可以更有效率的处理它.
+#B gtnh.quest736.desc=No Description
+#A gtnh.quest736.desc=Processing your biomass to get more products out of it like methanol, ethanol, bio gas.
+#C gtnh.quest736.desc=使用MV发酵槽,你可以制造发酵生物质.这是制作甲烷(methane)、乙醇(ethanol)和甲醇(methanol)的基础原料.当你达到HV阶段,使用蒸馏塔可以更有效率的处理它.
 
 # Quest.737 - Can u eat those?  (hidden)
 gtnh.quest737.name=这能吃吗？(隐藏)
@@ -3298,7 +3316,9 @@ gtnh.quest823.desc=氧气面罩是用来在没有氧气的行星上面呼吸的�
 
 # Quest.824 - Oxygen Tanks
 gtnh.quest824.name=氧气罐
-gtnh.quest824.desc=轻型氧气罐可以储存1000单位的氧气,在没有氧气的区域他可以作为便携式的氧气来源.%n%n使用方法:%n每次最多装备两个任意类型的氧气罐,打开物品栏,点击上方的Galacticraft标签,在这里你将会看到携带各种装备的位置.将氧气罐放进氧气罐槽位即可完成装备. 还有其他类型的氧气罐,中型氧气罐储存的氧气量是轻型的2倍,而重型氧气罐则是3倍.我建议制作并使用中型氧气罐,而将轻型氧气罐作为返回基地的备件.
+#B gtnh.quest824.desc=The Light oxygen tank is an oxygen storage tank that can hold up to 1000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.
+#A gtnh.quest824.desc=The Light oxygen tank is an oxygen storage tank that can hold up to 1000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks include the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+#C gtnh.quest824.desc=轻型氧气罐可以储存1000单位的氧气,在没有氧气的区域他可以作为便携式的氧气来源.%n%n使用方法:%n每次最多装备两个任意类型的氧气罐,打开物品栏,点击上方的Galacticraft标签,在这里你将会看到携带各种装备的位置.将氧气罐放进氧气罐槽位即可完成装备. 还有其他类型的氧气罐,中型氧气罐储存的氧气量是轻型的2倍,而重型氧气罐则是3倍.我建议制作并使用中型氧气罐,而将轻型氧气罐作为返回基地的备件.
 
 # Quest.825 - §2§lCopper Ore
 gtnh.quest825.name=§2§l铜矿
@@ -4626,7 +4646,9 @@ gtnh.quest1155.desc=如果你想让液体变成固体那么你就需要液体固
 
 # Quest.1156 - §3§lWooden Bolts
 gtnh.quest1156.name=§3§l铁质弩箭
-gtnh.quest1156.desc=光有弩还不够,我们还需要一些弹药.让我们来制作一些木质弩箭.现在你可以用冶炼炉熔炼铁、钢或者铝装上你的箭头.  更高阶的弩箭和箭头制造需要用到流体固化器,将你想要用的金属泵入流体固化器吧.%n%n§4升级:%n§3下界(赛特斯)石英-提高伤害%n苔藓球-自我修复(在魔导手册GTNH栏解锁)
+#B gtnh.quest1156.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts. For now, you can put either iron, alumite, or steel on the tip of your bolts using the Smeltery.  For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.%n%n§4For upgrades%n§3Nether Quartz - More damage%nMoss - Self-Repair (unlock in GTNH Thaumcraft tab)
+#A gtnh.quest1156.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts. For now, you can put either iron, alumite, or steel on the tip of your bolts using the Smeltery.  For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.%n%n§4For upgrades%n§3Nether Quartz - More damage%nMoss - Self-Repair (unlock in GTNH Thaumcraft tab)%n%nNote that upgrading bolts is broken (doesn't update stats correctly), craft new ones if you want better ones.
+#C gtnh.quest1156.desc=光有弩还不够,我们还需要一些弹药.让我们来制作一些木质弩箭.现在你可以用冶炼炉熔炼铁、钢或者铝装上你的箭头.  更高阶的弩箭和箭头制造需要用到流体固化器,将你想要用的金属泵入流体固化器吧.%n%n§4升级:%n§3下界(赛特斯)石英-提高伤害%n苔藓球-自我修复(在魔导手册GTNH栏解锁)
 
 # Quest.1157 - §3§lRubber Soft Mallet
 gtnh.quest1157.name=§3§l橡胶软锤
@@ -5642,7 +5664,9 @@ gtnh.quest1409.desc=无损的IV超导导线怎么样？ Vanadiumtriindinide(IV�
 
 # Quest.1410 - §b§lIV Mixer
 gtnh.quest1410.name=§b§lIV搅拌机
-gtnh.quest1410.desc=需要IV搅拌机来搅拌铌钛合金粉和钒镓合金粉. 这两种合金在科技推进上必不可少.%n%n§3...谁随便起的这些名字? 好吧,这样至少我们可以直接记住它们的组成成分.
+#B gtnh.quest1410.desc=An IV mixer is required to mix Niobium-Titanium and Vanadium-Gallium dust. You need both to progress.%n%n§3...Who thought of these lazy-ass names? Well, at least you can tell what they're made of.
+#A gtnh.quest1410.desc=An IV mixer is required to mix HSS-G dust, so you can get new coils.
+#C gtnh.quest1410.desc=需要IV搅拌机来搅拌铌钛合金粉和钒镓合金粉. 这两种合金在科技推进上必不可少.%n%n§3...谁随便起的这些名字? 好吧,这样至少我们可以直接记住它们的组成成分.
 
 # Quest.1411 - §9§lSome rare high tier metals
 gtnh.quest1411.name=§9§l一些罕见的高级金属
@@ -5750,7 +5774,9 @@ gtnh.quest1436.desc=月球车需要汽油才能工作. 构建一个3x3燃料补�
 
 # Quest.1437 - Bigger Oxygen Tanks
 gtnh.quest1437.name=更大的氧气罐
-gtnh.quest1437.desc=中型氧气罐是一种储氧罐,可容纳多达2000个单位的氧气. 它的作用是在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐. 要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的Galacticraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中. 三种类型的氧气罐中,中型氧气罐,其容纳的氧气量是轻型罐的两倍,而重型氧气罐的容量是轻型罐的三倍. 我建议制作中型氧气罐并使用轻型氧气罐作为返回基地的备用储备.
+#B gtnh.quest1437.desc=The Medium oxygen tank is an oxygen storage tank that can hold up to 2000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank. I recommend making the medium tanks and using the light tanks as spares to return to base.
+#A gtnh.quest1437.desc=The Medium oxygen tank is an oxygen storage tank that can hold up to 2000 units of air.
+#C gtnh.quest1437.desc=中型氧气罐是一种储氧罐,可容纳多达2000个单位的氧气. 它的作用是在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐. 要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的Galacticraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中. 三种类型的氧气罐中,中型氧气罐,其容纳的氧气量是轻型罐的两倍,而重型氧气罐的容量是轻型罐的三倍. 我建议制作中型氧气罐并使用轻型氧气罐作为返回基地的备用储备.
 
 # Quest.1438 - ME glass cable
 gtnh.quest1438.name=ME玻璃线缆
@@ -5874,7 +5900,9 @@ gtnh.quest1467.desc=氧气供给器是一种用氧气填充房间的机器(虽�
 
 # Quest.1468 - Large Oxygen Tanks
 gtnh.quest1468.name=重型氧气罐
-gtnh.quest1468.desc=重型氧气罐是一个储氧罐,最多可容纳3000单位空气. 它的作用是在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐. 要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的Galacticraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中. 其他类型的氧气罐是中型氧气罐,其容纳的氧气量是轻型氧气罐的两倍,而重型氧气罐的容量是轻型氧气罐的三倍.我建议制作中型氧气罐并使用轻型氧气罐作为返回基地的备用储备.
+#B gtnh.quest1468.desc=The Large oxygen tank is an oxygen storage tank that can hold up to 3000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+#A gtnh.quest1468.desc=The Heavy oxygen tank is an oxygen storage tank that can hold up to 3000 units of air.
+#C gtnh.quest1468.desc=重型氧气罐是一个储氧罐,最多可容纳3000单位空气. 它的作用是在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐. 要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的Galacticraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中. 其他类型的氧气罐是中型氧气罐,其容纳的氧气量是轻型氧气罐的两倍,而重型氧气罐的容量是轻型氧气罐的三倍.我建议制作中型氧气罐并使用轻型氧气罐作为返回基地的备用储备.
 
 # Quest.1469 - Bacterial Sludge
 gtnh.quest1469.name=菌泥
@@ -5986,7 +6014,9 @@ gtnh.quest1495.desc=如果你正在玩单人生存,那么更新意味着必须�
 
 # Quest.1496 - §2§lHow the heck do I find ores?
 gtnh.quest1496.name=§2§l见鬼,我该怎么找到矿石？
-gtnh.quest1496.desc=GregTech矿石生成基于矿脉. 矿脉以矿石中心为中心,基于区块数. 要查找区块数,请按F3. 在X和Z行中,你将看到c:3(14)、c:-2(1)等数字.3,-2是区块的地址.忽略负号. 现在,矿脉中心位于3N+1区块. 所以,4,7是矿脉中心.10,16、-22,19.等等  提示:要找出一个数字是否可以被3整除,将各位数字相加并检查总和是否可以被3整除.比如86:8+6=14.所以你需要向下一个区块或者向上2个区块,这样你就可以到达3N+1区块. 看在你一路读下来的份上,给你块铁锭吧.
+#B gtnh.quest1496.desc=GregTech ore generation is based on veins. Veins are centered on orecenters, based on the chunk number. To find the chunk number, hit F3. In the X and Z lines you will see numbers like%nc: 3 (14)%nc: -2 (1)%n%nThe 3,-2 is the chunk's address. Ignore the negative sign.  Now, the orecenters are located at 3N+1 chunks.  So, 4,7 is an orecenter. 10,16. -22,19.  Etc. %n%nProtip: to find out if a number is divisible by 3, add the digits and see if the sum is divisible by 3.  So 86 = 8+6 = 14. So you need to go down 1 chunk or up 2 chunks so that you are on a 3N+1 chunk.%n%nFor reading all the way, I'll give you an ingot of iron.
+#A gtnh.quest1496.desc=GregTech ore generation is based on veins. Veins are centered on orecenters, based on the chunk number. To find the chunk number, hit F3. In the X and Z lines you will see numbers like%nc: 3 (14)%nc: -2 (1)%n%nThe 3,-2 is the chunk's address. Ignore the negative sign.  Now, the orecenters are located at 3N+1 chunks.  So, 4,7 is an orecenter. 10,16. -22,19.  Etc. %n%nProtip: to find out if a number is divisible by 3, add the digits and see if the sum is divisible by 3.  So 86 = 8+6 = 14. So you need to go down 1 chunk or up 2 chunks so that you are on a 3N+1 chunk.%n%nFor reading all the way, I'll give you an ingot of iron.%n%n§3They have nothing to do with biomes, ok?
+#C gtnh.quest1496.desc=GregTech矿石生成基于矿脉. 矿脉以矿石中心为中心,基于区块数. 要查找区块数,请按F3. 在X和Z行中,你将看到c:3(14)、c:-2(1)等数字.3,-2是区块的地址.忽略负号. 现在,矿脉中心位于3N+1区块. 所以,4,7是矿脉中心.10,16、-22,19.等等  提示:要找出一个数字是否可以被3整除,将各位数字相加并检查总和是否可以被3整除.比如86:8+6=14.所以你需要向下一个区块或者向上2个区块,这样你就可以到达3N+1区块. 看在你一路读下来的份上,给你块铁锭吧.
 
 # Quest.1497 - §2§lDigging deeper
 gtnh.quest1497.name=§2§l深层发掘
@@ -7614,7 +7644,9 @@ gtnh.quest1902.desc=有了核(弹)反应堆之后,你对基地的破坏能力突
 
 # Quest.1903 - §9§e§9§lHV Energy Hatch
 gtnh.quest1903.name=§9§e§9§lHV能源仓
-gtnh.quest1903.desc=HV能源仓是一台高速工业高炉的关键,还能解锁更高级的配方.你需要制作氦冷却单元或者钠钾冷却单元.NEI会告诉你怎么做的.
+#B gtnh.quest1903.desc=The HV energy hatch is crucial to a fast EBF that can do high tier recipes. You will need to make He coolant cells or NaK coolant cells. Follow NEI to figure out how.
+#A gtnh.quest1903.desc=The HV energy hatch is crucial to a fast EBF that can do high tier recipes. You will need to make He coolant cells or NaK coolant cells. You'll need a fluid canner to make them. Follow NEI to figure out how to make them, and the rest. Note that you'll need a cleanroom, vacuum freezer, and new coils.
+#C gtnh.quest1903.desc=HV能源仓是一台高速工业高炉的关键,还能解锁更高级的配方.你需要制作氦冷却单元或者钠钾冷却单元.NEI会告诉你怎么做的.
 
 # Quest.1904 - §6§lHelium is not just for balloons
 gtnh.quest1904.name=§6§l氦气可不仅仅能用来充气球
@@ -10894,11 +10926,15 @@ gtnh.quest2722.desc=远程接口(Remote-IO)的蓄水箱类似无尽之壶, 其�
 
 # Quest.2723 - Super Large Oxygen Tanks
 gtnh.quest2723.name=超大型氧气罐
-gtnh.quest2723.desc=超大型氧气罐是一个储氧罐,最多可容纳4000单位空气. 它的作用是在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐. 要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的Galacticraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中. 其他类型的氧气罐是中型氧气罐,其容纳的氧气量是轻型氧气罐的两倍,而重型氧气罐的容量是轻型氧气罐的三倍.
+#B gtnh.quest2723.desc=The Super Large oxygen tank is an oxygen storage tank that can hold up to 4000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+#A gtnh.quest2723.desc=The Super Heavy oxygen tank is an oxygen storage tank that can hold up to 4000 units of air.
+#C gtnh.quest2723.desc=超大型氧气罐是一个储氧罐,最多可容纳4000单位空气. 它的作用是在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐. 要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的Galacticraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中. 其他类型的氧气罐是中型氧气罐,其容纳的氧气量是轻型氧气罐的两倍,而重型氧气罐的容量是轻型氧气罐的三倍.
 
 # Quest.2724 - Ultra Large Oxygen Tanks
 gtnh.quest2724.name=极大型氧气罐
-gtnh.quest2724.desc=极大型氧气罐是一个储氧罐,最多可容纳5000单位空气. 它的作用是在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐. 要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的Galacticraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中. 其他类型的氧气罐是中型氧气罐,其容纳的氧气量是轻型氧气罐的两倍,而重型氧气罐的容量是轻型氧气罐的三倍.
+#B gtnh.quest2724.desc=The Super Large oxygen tank is an oxygen storage tank that can hold up to 5000 units of air. It is used to provide a portable source of oxygen while in areas that do not have an oxygen source of their own.%n%nUsage:%nUp to two oxygen tanks can be worn at a time. To wear any type of oxygen tank, open your inventory and click on the Galacticraft tab at the top of the menu. Here you will see the available spots for your various types of equipment. Simply place your tank(s) in one of the slots with a grey picture of an oxygen tank. Other types of oxygen tanks are the medium oxygen tank, which holds twice the amount of oxygen as a light tank, and the heavy oxygen tank, which holds three times the amount of a light tank.
+#A gtnh.quest2724.desc=The Ultra Heavy oxygen tank is an oxygen storage tank that can hold up to 5000 units of air.
+#C gtnh.quest2724.desc=极大型氧气罐是一个储氧罐,最多可容纳5000单位空气. 它的作用是在没有氧气源的区域提供便携式氧气源.%n%n用途:%n一次可以佩戴两个氧气罐. 要佩戴任何类型的氧气罐,请打开背包并单击菜单顶部的Galacticraft标签. 在这里,你将看到各种类型设备的可用位置. 只需将你的氧气罐放在其中一个带有氧气罐灰色图片的插槽中. 其他类型的氧气罐是中型氧气罐,其容纳的氧气量是轻型氧气罐的两倍,而重型氧气罐的容量是轻型氧气罐的三倍.
 
 # Quest.2725 - Barley time
 gtnh.quest2725.name=大麦时间
@@ -11419,6 +11455,18 @@ gtnh.quest2853.desc=它们具有很高的爆炸性,而且炸出来的洞比普�
 # Quest.2854 - Time to kill (IMP)
 gtnh.quest2854.name=杀戮时刻(小恶魔)
 gtnh.quest2854.desc=小恶魔是一种会在整个下界跑来跑去的橘色小动物.它们很和平不会攻击你. %n杀戮一些以获取皮革再打造防火护甲吧.
+
+# Quest.2855 - Essentia transmission
+gtnh.quest2855.name=输送源质
+#N gtnh.quest2855.desc=What if... you could send essentia from a different location to your infusion matrix? You could finally get rid of all those jars around your altar.
+
+# Quest.2856 - §6§lRotate your Multiblock
+#N gtnh.quest2856.name=§6§lRotate your Multiblock
+#N gtnh.quest2856.desc=Multiblock Controllers can now rotated with the "Front Rotation Screwdriver".%nIt is possible to build an Electric Blast furnace laying on the side.%nSame for the Vacuum Freezer and other GT Multiblocks.%n%nClick on the Control Block with the Blueprint to shows up the buildstructure.
+
+# Quest.2857 - Magic Mirror Glass?
+#N gtnh.quest2857.name=Magic Mirror Glass?
+#N gtnh.quest2857.desc=This glass seems useful for several things, including, perhaps, teleportation of items or essentia?
 
 ##################################Line##################################
 
