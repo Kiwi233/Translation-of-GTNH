@@ -2569,7 +2569,7 @@ gtnh.quest640.name=§5§l液化石油气(LPG)
 gtnh.quest640.desc=离心炼油气可以得到液化石油气,其燃烧值为320KEU,与石脑油相同.这也是另一个得到甲烷并最终制成环氧氯丙烷的方法.(目前配方为离心丙烷与丁烷)
 
 # Quest.641 - §5§lNaphtha
-gtnh.quest641.name=§5§l柴油
+gtnh.quest641.name=§5§l石脑油
 gtnh.quest641.desc=你可以将含硫石脑油处理成石脑油.石脑油在燃气发电机中有320,000EU的燃烧值.石脑油也是聚乙烯和聚己内酰胺的基础原料.
 
 # Quest.642 - §5§lSulfuric gas
@@ -3022,7 +3022,7 @@ gtnh.quest752.desc=高级电路板需要蚀刻高压电路(晶体管),由硅板�
 
 # Quest.753 - §6§lStainless Steel EBF processing
 gtnh.quest753.name=§6§l不锈钢与工业高炉
-gtnh.quest753.desc=不锈钢锭需要在工业高炉中烧制,炉温要求1700K.%n%n需要480EU/t烧制85秒,如果加入氧气则需要60秒.%n%n§4你至少需要两个MV级能源仓来为工业高炉供电(双仓升压).
+gtnh.quest753.desc=不锈钢锭需要在工业高炉中烧制,炉温要求1700K.%n%n需要480EU/t烧制80秒,如果加入氧气则需要60秒.%n%n§4你至少需要两个MV级能源仓来为工业高炉供电(双仓升压).
 
 # Quest.754 - §6§lMV Energy Hatch
 gtnh.quest754.name=§6§lMV级能源仓
@@ -9797,10 +9797,6 @@ gtnh.quest2442.desc=Mh打开了烤架. 我们需要更多的肉.
 # Quest.2443 - Time to kill (Chicken)
 gtnh.quest2443.name=杀戮时刻(鸡)
 gtnh.quest2443.desc=别叫了, 没用的. 乖乖变成鸡汤吧?
-
-# Quest.2444 - §5§lLong Distance Fluid Pipeline
-gtnh.quest2444.name=§5§l长距离流体管道
-gtnh.quest2444.desc=你是否梦想过能将原油从遥远的油田直接传送回基地?%n%n现在这个梦想实现了. 使用长距离流体管道控制方块在起点和终点与机器连接.在两点之间用关联流体管道连接.%n%n用区块加载器或其他手段加载油田与基地区块,这样原油就会直接"传送"回家了. %n%n途中的管道无需加载.%n%n%n§%n§6§2注意: 没有输入/输出速度限制,只取决于外部输入/接收速度.
 
 # Quest.2445 - Time to kill (Squid)
 gtnh.quest2445.name=杀戮时刻(鱿鱼)
