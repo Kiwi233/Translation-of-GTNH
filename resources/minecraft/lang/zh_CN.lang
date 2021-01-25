@@ -154,9 +154,7 @@ gtnh.quest37.desc=在各种矿脉里都可以找到铁.  磁铁矿脉(30—180�
 
 # Quest.38 - §2§lMaking better tools
 gtnh.quest38.name=§2§l做些更好的工具
-#B gtnh.quest38.desc=With aluminium and copper, you can create a pretty durable material "Aluminum Brass", which can be used to cast better tools. These can be used to mine some more advanced ores.%n%nBut first you need a smeltery. See the Multiblock Goals chapter in this book, or find smeltery blocks in a village nearby.
-#A gtnh.quest38.desc=With aluminium and copper, you can create a material with a higher melting temperature, "Aluminum Brass", which can be used to cast better tools.%n%nBut first you'll need a smeltery. See the Multiblock Goals tab for details. You can also grab some extra blocks from some villages, but they don't count towards the quest.%n%nYou can then use your fancy new bronze to make better tools. Note that it has a higher mining level than iron, so you'll need it for mining some ores.
-#C gtnh.quest38.desc=有了铝和铜后,你可以做些更漂亮耐用的金属——铝黄铜！它还可以拿来制作更好的工具、用来开采更好的矿石！但你先要有一个冶炼炉.你可以在附近村庄里找找看,或者看看书上标「多方块结构」的章节.
+gtnh.quest38.desc=有了铝和铜后,你可以造出熔点更高性能更优的新材料--铝黄铜！它还可以拿来制作更好的工具、用来开采更好的矿石%n%n但你先要有一个冶炼炉.你可以看看任务书"多方块结构"的章节,或者在附近村庄里找找看,不过抢来的东西可不计入任务.%n%n接下来你就可以用这种"新青铜"制造更好的工具了.请注意它的开采等级比铁更高,所以你可以用它来挖掘某些矿石.
 
 # Quest.39 - §2§lBetter storage
 gtnh.quest39.name=§2§l更好的存储
@@ -1191,12 +1189,8 @@ gtnh.quest296.name=基础元素
 gtnh.quest296.desc=当然,你知道如何获得那些基础的源质类型,但你知道...？
 
 # Quest.297 - Magical Item Teleportation
-#B gtnh.quest297.name=Essentia transmission
-#A gtnh.quest297.name=Magical Item Teleportation
-#C gtnh.quest297.name=输送源质
-#B gtnh.quest297.desc=What if... you could send essentia from a different location to your infusion matrix? You could finally get rid of all those jars around your altar. Also, there might be an additional use for those mirrors.%n%nYou have an intuition that a more energetic metal would allow for very interesting uses.
-#A gtnh.quest297.desc=It's annoying to do, but you can teleport items with this. Check the thaumonomicon for details.
-#C gtnh.quest297.desc=这些镜子可以帮助你从不同的位置将源质传输到注魔祭坛里.这样的话你就可以把那些讨厌的源质管子从你的注魔祭坛上面拿下去了.此外,这些镜子可能还有一些其他的用途... (详细信息参考魔导手册炼化学-源质之镜)  你有一种直觉,拥有更强能量的金属会有非常有趣的用途.
+gtnh.quest297.name=魔法-物品传输
+gtnh.quest297.desc=它的合成很麻烦,但可用于传送物品.请查看魔导手册以获取更多信息.
 
 # Quest.298 - (Almost) automated essentia
 gtnh.quest298.name=(几乎)自动化源质
@@ -1208,9 +1202,7 @@ gtnh.quest299.desc=一个一个去检查你的源质罐子是一个很麻烦的�
 
 # Quest.300 - Cleaning the goo
 gtnh.quest300.name=清理粘浆
-#B gtnh.quest300.desc=As you do more and more infusions, you're getting tired of removing all the flux that's generated. The shovel of the purifier will help you cleaning up flux, and is a must-have.
-#A gtnh.quest300.desc=As you do more and more infusions, you're getting tired of removing all the flux that's generated. The shovel of the purifier will help you cleaning up flux, and is a must-have.%n%n§3Actually this is pretty useless, if you have any concept of what you're doing.
-#C gtnh.quest300.desc=如果你经常进行注魔,那么你肯定很讨厌注魔过程中产生的咒波粘浆.净化铲可以帮你清理这些咒波粘浆,所以在注魔过程中这可是一个必不可少的工具！(魔导手册伪经)
+gtnh.quest300.desc=如果你经常进行注魔,那么你肯定很讨厌注魔过程中产生的咒波粘浆.净化铲可以帮你清理这些咒波粘浆,所以在注魔过程中这可是一个必不可少的工具！(魔导手册伪经)%n%n§3实际上,如果你对所做的注魔有充分的准备的话,可以让这东西完全无用武之地.
 
 # Quest.301 - One does not simply...
 gtnh.quest301.name=都不简单
@@ -1898,9 +1890,7 @@ gtnh.quest471.desc=你可能发现了,一直吃一种食物很不健康而且越
 
 # Quest.472 - §2§lYour first tool
 gtnh.quest472.name=§2§l你的第一把工具
-#B gtnh.quest472.desc=When your tinkers tables are ready you can craft your first tool. If you did not find a village yet you can only craft flint tools. Let's start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords. Your new tools are weak at first but the more you use them the better they will get. They will level up to level 99 if you play long enough. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.
-#A gtnh.quest472.desc=When your tinkers tables are ready you can craft your first tool. If you didn't find a village yet (to grab some parts from the chest), you can only craft flint tools.%n%nLet's start with a pickaxe, an axe and a shovel. At this point swords are unobtainable since they need metals like iron or bronze which you will get at a later stage. In the meantime use your gregtech swords.%n%nYour new tools are weak at first but the more you use them the better they will get. You get a modifer slot after some levels, needing more as you level it up. They will level up to level 99 if you play long enough. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.%n%nPS: Don
-#C gtnh.quest472.desc=当你准备好了匠魂里面各种组装台、工具台什么的,你就可以开始制作你第一个匠魂工具了. 如果你没找到一个有匠魂冶炼炉的村庄,那么你只能从燧石工具开始制作. 让我们首先来制作稿子、铲子和斧头.燧石不能制作剑,因为剑需要金属比如铁或者青铜,你在以后的时候可以制作它. 刚做好的工具可能会比你现在用的GT工具要弱一点,但是随着你使用时间的增加,这些工具也会越来越好. 组成工具的各个部件可被替换,但你必须将工具完全修复才可以替换部件.
+gtnh.quest472.desc=当你准备好了匠魂里面各种组装台、工具台什么的,你就可以开始制作你第一个匠魂工具了. 如果你没找到一个有匠魂冶炼炉的村庄(白嫖箱子中的部件),那么你只能从燧石工具开始制作.%n%n让我们首先来制作稿子、铲子和斧头.燧石不能制作剑,因为剑需要金属比如铁或者青铜,你在以后的时候可以制作它.%n%n刚做好的工具可能会比你现在用的GT工具要弱一点,但是随着你使用时间的增加,这些工具也会越来越好.提升工具等级时有几率附带一个升级槽You get a modifer slot after some levels, needing more as you level it up. 组成工具的各个部件可被替换,但你必须将工具完全修复才可以替换部件.
 
 # Quest.473 - §2§lMaking a better sword
 gtnh.quest473.name=§2§l做一把好剑
@@ -11458,15 +11448,15 @@ gtnh.quest2854.desc=小恶魔是一种会在整个下界跑来跑去的橘色小
 
 # Quest.2855 - Essentia transmission
 gtnh.quest2855.name=输送源质
-#N gtnh.quest2855.desc=What if... you could send essentia from a different location to your infusion matrix? You could finally get rid of all those jars around your altar.
+gtnh.quest2855.desc=这些镜子可以帮助你从不同的位置将源质传输到注魔祭坛里.这样的话你就可以把那些讨厌的源质管子从你的注魔祭坛上面拿下去了.此外,这些镜子可能还有一些其他的用途... (详细信息参考魔导手册炼化学-源质之镜)%n%n你有一种直觉,拥有更强能量的金属会有非常有趣的用途..
 
 # Quest.2856 - §6§lRotate your Multiblock
-#N gtnh.quest2856.name=§6§lRotate your Multiblock
-#N gtnh.quest2856.desc=Multiblock Controllers can now rotated with the "Front Rotation Screwdriver".%nIt is possible to build an Electric Blast furnace laying on the side.%nSame for the Vacuum Freezer and other GT Multiblocks.%n%nClick on the Control Block with the Blueprint to shows up the buildstructure.
+gtnh.quest2856.name=§6§l旋转多方块机器
+gtnh.quest2856.desc=可通过"正面旋转扳手"旋转多方块的控制器方块.%n这样就有可能搭建出躺在地上的工业高炉啦!%n类似的还有真空冷冻机以及其他的GT多方块机器.%n%n手持多方块机器蓝图右键控制器方块可显示结构指导.
 
 # Quest.2857 - Magic Mirror Glass?
-#N gtnh.quest2857.name=Magic Mirror Glass?
-#N gtnh.quest2857.desc=This glass seems useful for several things, including, perhaps, teleportation of items or essentia?
+gtnh.quest2857.name=魔镜的玻璃?
+gtnh.quest2857.desc=这种玻璃看起来用途挺多的,可能包括,传输物品或源质?
 
 ##################################Line##################################
 
