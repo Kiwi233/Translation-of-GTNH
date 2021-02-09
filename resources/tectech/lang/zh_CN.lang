@@ -92,6 +92,11 @@ item.tm.enderfluidlinkcover.desc.0=在机器间无线传输流体!
 item.tm.enderfluidlinkcover.desc.1=可贴在储罐/机器/管道的任意面以将其与末影相连
 item.tm.enderfluidlinkcover.desc.2=末影储罐太逊了! -来自Chads-of-NH的Bot
 
+item.tm.powerpassupgradecover.name=导能升级覆盖板
+item.tm.powerpassupgradecover.desc.0=为TecTech多方块机器添加导能功能
+item.tm.powerpassupgradecover.desc.1=罐中的有源变压器??
+item.tm.powerpassupgradecover.desc.2=将它们像圣诞彩灯一样串起来!
+
 #Death Messages
 death.attack.microwaving=%1$s被辐射脱水。
 death.attack.microwaving.player=%1$s在与%2$s的战斗中被辐射脱水。
@@ -776,7 +781,7 @@ gt.blockmachines.debug.tt.data.desc.0=量子数据输出
 gt.blockmachines.debug.tt.data.desc.1=高速光纤接口
 gt.blockmachines.debug.tt.data.desc.2=启用前必须涂色
 gt.blockmachines.debug.tt.maintenance.name=Debug维护仓
-gt.blockmachines.debug.tt.maintenance.desc.0=用于维护多方块
+gt.blockmachines.debug.tt.maintenance.desc.0=自动维护多方块机器
 gt.blockmachines.debug.tt.maintenance.desc.1=它能修好一切，除了自己.
 gt.blockmachines.debug.tt.maintenance.desc.2=为人民服务!
 gt.blockmachines.debug.tt.genny.name=Debug发电机
