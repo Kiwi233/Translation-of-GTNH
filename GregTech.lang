@@ -38,6 +38,79 @@ languagefile {
     S:"Book.Punch Card Manual V0.0.Page10"=如果你需要内置循环，每个循环你只需要一个穿孔卡片，这些穿孔卡片能够在被执行完毕后立刻重新开始，当然，它们会根据你放入了多少个穿孔卡片来逐步完成整个程序。
     S:"Book.Punch Card Manual V0.0.Page11"=一个穿孔卡片处理器能够最多运行四个循环，每次能够并行计算七个穿孔卡片
     S:"Book.Punch Card Manual V0.0.Page12"=为什么穿孔卡片要墨水制作？因为空的穿孔卡片上面总得画些线啊，而已经穿孔的卡片会在自身上印出能够使人类看懂的内容。
+
+    # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 19]
+    I:"Book.Chemical Plant Manual.APageNum"=17
+    S:"Book.Chemical Plant Manual.Name"=化工厂手册
+    S:"Book.Chemical Plant Manual.Page00"=本书将解释化工厂的建造方法、可用于升级的方块以及升级的效果.
+    S:"Book.Chemical Plant Manual.Page01"=固体外壳-决定可处理的配方等级[CR]机械方块-决定仓室/总线的等级上限[CR]越高阶的线圈带来越快的速度[CR]T1 50% , T2 100% , T3 150%, 以此类推[CR]越高阶的管道方块带来越多的并行,并降低催化剂的消耗[CR]每级+2并行,-20％催化剂消耗几率[CR]
+    S:"Book.Chemical Plant Manual.Page02"=可用的固体外壳:[CR][CR]0 - 强化青铜机械方块[CR]1 - 脱氧钢机械方块[CR]2 - 强化铝机械方块[CR]3 - 洁净不锈钢机械方块[CR]4 - 加强钛机械方块[CR]5 - 强化钨钢机械方块[CR]6 - 强化劳伦姆合金机械方块[CR]7 - 强化博特姆合金机械方块
+    S:"Book.Chemical Plant Manual.Page03"=可用的机械方块:[CR][CR]1 - ULV[CR]2 - LV[CR]3 - MV[CR]4 - HV[CR]5 - EV[CR]6 - IV[CR]7 - LuV[CR]8 - ZPM[CR]9 - UV[CR]10 - UHV
+    S:"Book.Chemical Plant Manual.Page04"=可用的管道方块:[CR][CR]1 - 青铜[CR]2 - 钢[CR]3 - 钛[CR]4 - 钨钢
+    S:"Book.Chemical Plant Manual.Page05"=可用的线圈:[CR][CR]1 - 白铜[CR]2 - 坎塔尔合金[CR]3 - 镍铬合金[CR]4 - 钨钢[CR]5 - 高速钢-G[CR]6 - 硅岩[CR]7 - 硅岩合金
+    S:"Book.Chemical Plant Manual.Page06"=多方块结构总计需要:[CR][CR]27x线圈[CR]18x管道方块[CR]57x机械方块[CR]80+固体外壳[CR]1x催化剂仓(催化剂不能放入输入总线)
+    S:"Book.Chemical Plant Manual.Page07"=结构指导 Pt1:[CR][CR]控制器方块(底层侧中)[CR]仓室仅可放置于底层边缘[CR][CR][CR]结构指导 Pt2:[CR][CR]7x7x7中空的固体外壳框架[CR]5x1x5固体外壳(填满顶层)[CR]5x1x5机械方块(填满底层)
+    S:"Book.Chemical Plant Manual.Page08"=结构指导 Pt3:[CR][CR]中央的3x5x3从下到上:[CR]3x1x3线圈,周围环绕一圈机械方块[CR]3x1x3管道方块[CR]3x1x3线圈[CR]3x1x3管道方块[CR]3x1x3线圈,周围环绕一圈机械方块
+    S:"Book.Chemical Plant Manual.Page09"=图例:[CR][CR]A = 空气[CR]X = 固体外壳[CR]M = 机械方块[CR]P = 管道方块[CR]C = 线圈
+    S:"Book.Chemical Plant Manual.Page10"=第1层:[CR][CR]XXXXXXX[CR]XMMMMMX[CR]XMMMMMX[CR]XMMMMMX[CR]XMMMMMX[CR]XMMMMMX[CR]XXXXXXX
+    S:"Book.Chemical Plant Manual.Page11"=第2层:[CR][CR]AAAAAAA[CR]AMMMMMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMMMMMA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page12"=第3层:[CR][CR]AAAAAAA[CR]AAAAAAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAAAAAA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page13"=第4层:[CR][CR]AAAAAAA[CR]AAAAAAA[CR]AACCCAA[CR]AACCCAA[CR]AACCCAA[CR]AAAAAAA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page14"=第5层:[CR][CR]AAAAAAA[CR]AAAAAAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAPPPAA[CR]AAAAAAA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page15"=第6层:[CR][CR]AAAAAAA[CR]AMMMMMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMCCCMA[CR]AMMMMMA[CR]AAAAAAA
+    S:"Book.Chemical Plant Manual.Page16"=第7层:[CR][CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX[CR]XXXXXXX
+
+    # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 5]
+    I:"Book.How to: Modular Baubles.APageNum"=5
+    S:"Book.How to: Modular Baubles.Name"=模块化饰品手册
+    S:"Book.How to: Modular Baubles.Page00"=构想: 这个想法来自灵活性的需求.[CR]第一步,建造一个模块化工作台作为量身定制饰品的开端.[CR] 建造完成后,你就可以结合本书中列出的升级来提高饰品的等级/100.
+    S:"Book.How to: Modular Baubles.Page01"=防御:[CR]可通过添加金属板来升级防御.[CR] | +1 | 铝 [CR] | +2 | 不锈钢 [CR] | +3 | 钨 [CR] | +4 | 钨钢 [CR] | +5 | 硅岩 [CR]
+    S:"Book.How to: Modular Baubles.Page02"=曾经有一棵悲伤而孤独的橡树.[CR]
+    S:"Book.How to: Modular Baubles.Page03"=曾经有一棵悲伤而孤独的橡树.[CR]
+    S:"Book.How to: Modular Baubles.Page04"=曾经有一棵悲伤而孤独的橡树.[CR]
+ 
+    # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 6]
+    I:"Book.Multi-Machine Manual.APageNum"=6
+    S:"Book.Multi-Machine Manual.Name"=大型加工厂手册
+    S:"Book.Multi-Machine Manual.Page00"=这台多方块机器,根据使用模式的不同,可以用作各种不同的机器.这台机器是为了解决部分小众机器的工业化生产需求.
+    S:"Book.Multi-Machine Manual.Page01"=建造时,你需要用多功能机械方块搭建出一个3x3x3的中空结构,至少需要6个.任意机械方块均可用输入仓/总线、输出仓/总线、消声仓、维护仓或能源仓替换.
+    S:"Book.Multi-Machine Manual.Page02"=使用螺丝刀右键控制器方块即可切换模式.每种模式还可以通过每个输入总线中的编程电路区分不同机器类型.(注意:输入总线中必须有编程电路,空置的输入总线会影响整台多方块机器的运行)
+    S:"Book.Multi-Machine Manual.Page03"=模式A：金属[Metal] - 多方块机器可充当压缩机、车床或磁化机.[CR][CR]电路板20 - 压缩机[CR]电路板21 - 车床[CR]电路板22 - 磁化机.
+    S:"Book.Multi-Machine Manual.Page04"=模式B：流体[Fluid] - 多方块机器可充当发酵槽、流体提取机或提取机.[CR][CR]电路板20 - 发酵槽[CR]电路板21 - 流体提取机[CR]电路板22 - 提取机.
+    S:"Book.Multi-Machine Manual.Page05"=模式C：杂项[Misc.] - 多方块机器可充当激光蚀刻机、高压釜或流体固化器.[CR][CR]电路板20 - 激光蚀刻机[CR]电路板21 - 高压釜[CR]电路板22 - 流体固化器.
+
+    # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 5]
+    I:"Book.Nuclear Chemistry [FFPP].APageNum"=5
+    S:"Book.Nuclear Chemistry [FFPP].Name"=反应堆燃料加工厂手册
+    S:"Book.Nuclear Chemistry [FFPP].Page00"=反应堆燃料加工厂[CR]大小(宽x高x长)：3x9x3[CR]控制器方块(正面底中)[CR]4x输入仓[CR]2x输出仓[CR]1x输出总线[CR]1xZPM+消声仓[CR]1x维护仓[CR]1x能源仓[CR]
+    S:"Book.Nuclear Chemistry [FFPP].Page01"=[1] 3x2x3的哈斯特洛伊合金-X结构方块基座(至少7个)或是各功能舱室[CR][2] 1x5x1的耐热铬铁合金-DS流体容器方块立柱[CR][3] 4x塞龙-100反应堆屏蔽机械方块(立柱的第二层，紧邻耐热铬铁合金-DS流体容器方块)[CR][4] 17x哈斯特洛伊合金-N密封机械方块(立柱顶端及侧面)
+    S:"Book.Nuclear Chemistry [FFPP].Page02"=第1、2层:[CR][1][1][1][CR][1][1][1][CR][1][1][1][CR][CR]第3、5、6层[CR][ ][4][ ][CR][4][2][4][CR][ ][4][ ][CR][CR]
+    S:"Book.Nuclear Chemistry [FFPP].Page03"=第4层[CR][ ][3][ ][CR][3][2][3][CR][ ][3][ ][CR][CR]第7、8、9层[CR][ ][ ][ ][CR][ ][3][ ][CR][ ][ ][ ][CR]
+    S:"Book.Nuclear Chemistry [FFPP].Page04"=反应堆燃料[CR]加工厂----------------------[CR]这台多方块机器用于生产液态氟钍反应堆[LFTR]所需的熔盐.
+
+    # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 8]
+    I:"Book.Power Storage & You [Version 0.64].APageNum"=6
+    S:"Book.Power Storage & You [Version 0.64].Name"=能源站手册
+    S:"Book.Power Storage & You [Version 0.64].Page00"=关于能源存储你现在有三种选择:[CR] [CR]电池箱；[CR]能量缓冲器；[CR]能源站[CR][CR]译者注：这是局限于GT和GTPP的选择,另外还有兰波顿超级电容库
+    S:"Book.Power Storage & You [Version 0.64].Page01"=电池箱[CR] [CR]相当便携.随便在什么地方都可以放置,插入电池后即可正常使用.[CR]内部存储的每个电池可提供1A的输出电流,最高为16A.
+    S:"Book.Power Storage & You [Version 0.64].Page02"=能量缓冲器[CR] [CR]比较适合在基地中使用.放置并充能后,只能在内部能量全部释放后拆卸.[CR]能量缓冲器在输出面可以输出4A电流,而在输入面可以接受16A电流.
+    S:"Book.Power Storage & You [Version 0.64].Page03"=能源站[CR] [CR]用于在游戏中后期存储巨量电能.[CR]每t消耗所有能源仓/动力仓平均电压的2%作为运行损耗.[CR]可通过螺丝刀切换,允许从控制器的背面输入/输出能量.[CR]高度可选,在4-16格之间均可.插入的钒氧化还原能量单元决定了能源站的最高能级.[CR]
+    S:"Book.Power Storage & You [Version 0.64].Page04"=钒氧化还原单元不能放在顶层或底层,只能在内部占用3xhx3空间.[CR]不同等级的能量单元不能混用![CR]最低仓室等级不能低于HV,就是为了防止有人用ULV或者LV的仓室来拉低平均值以降低耗电.[CR]目前的GUI在搭建完成之前不会显示任何信息,这是一个已知bug.[CR]
+    S:"Book.Power Storage & You [Version 0.64].Page05"=可用仓室:[CR]能源仓,[CR]动力仓,[CR]电池输入总线,[CR]电池输出总线,[CR]动力仓[缓冲],[CR]多A动力仓.[CR][CR][CR]整个多方块结构必须包含至少一个能量输入仓和一个能量输出仓.   
+    
+    # 定义手册页数，增减手册页数后修改本参数 [range: 1 ~ 48, default: 16]
+    I:"Book.Thermal Boiler Manual.APageNum"=9
+    S:"Book.Thermal Boiler Manual.Name"=地热锅炉手册
+    S:"Book.Thermal Boiler Manual.Page00"=本书将解释如何建造并运行你的地热锅炉.对于本手册本身或其内容所造成的任何损害,我们概不负责.
+    S:"Book.Thermal Boiler Manual.Page01"=首先,地热锅炉想要正常工作需要做好以下准备: 锅炉主方块、20x热抑制机械方块、2x输入仓、2x输出仓、1x维护仓以及一堆工具.[CR][CR]建造时,首先在地上放置3x3的一层热抑制机械方块(中心为仓室),然后将锅炉主方块放置在第二层的侧面中心处.
+    S:"Book.Thermal Boiler Manual.Page02"=现在将剩余的3个仓室放置在剩余的3个侧面的中心处.在第二层剩下的四个角放置热抑制机械方块.立方体中间只应留一个孔.[CR][CR]最后,在顶层放置3x3的热抑制机械方块,同样在中心处放置最后一个仓室.
+    S:"Book.Thermal Boiler Manual.Page03"=现在访问锅炉主方块时,它应该不再告诉你结构不完整了(最下面一行).现在带上一堆工具(锻造锤、软锤、螺丝刀、扳手电烙铁和撬棍)去维护仓吧.[CR]在维护仓GUI界面中,依次手持这六种工具右键.注意,你需要在背包内携带锡或者铅才能使用电烙铁.
+    S:"Book.Thermal Boiler Manual.Page04"=维护完成后,主方块应该会告诉你需要用软锤右键它,来启动或重启此多方块机器.软锤可以启动或关闭机器.而机器在遇到一些严重故障时也会自己停止运行.
+    S:"Book.Thermal Boiler Manual.Page05"=如果需要用岩浆来供给此设备的话,你还需要添加一个岩浆过滤器来从其中提取其他资源.过滤器损坏后,锅炉不会像涡轮机一样爆炸.而要是你用的是熔盐的话,就用不着过滤器了.[CR][CR]处理岩浆时你会得到黑曜石,但如果用了过滤器的话,你获得的将是黑曜石锭而不是黑曜石块.使用熔盐时,你可以重新获得那些盐.
+    S:"Book.Thermal Boiler Manual.Page06"=现在来讲讲维护吧.连续运行几个小时后,你的锅炉可能会出些小问题,这些小问题不会打断它的运行,只会降低其效率.显示的每个维护问题会降低机器10%的效率.[CR][CR]在维护仓GUI中使用与问题相应的工具即可修复维护问题.如果所有六个可能的维护问题都发生了,无论如何机器都会自动关闭,不会爆炸,只是停机.
+    S:"Book.Thermal Boiler Manual.Page07"=地热锅炉在100%效率时,每t消耗大约5-6升水,产生800升蒸汽.每秒消耗1666升岩浆.[CR][CR]一台地热锅炉与33台小型锅炉相当,而且由于当锅炉没有足够的燃料时,其效率就会大大降低,所以你得考虑在地狱造个大泵抽岩浆了,或者造个不错的反应堆来提供熔盐.
+    S:"Book.Thermal Boiler Manual.Page08"=输入和输出仓室是可选的,你可以装好多个,也可以一个都不装.一台没有输入的机器无法处理任何配方,而一台没有输出的机器将销毁本该输出的物品或流体.[CR][CR]在输出仓上使用螺丝刀可锁定输出流体种类,这个小技巧挺有用的.
+    
     S:"Escherichia cadaver"=腐肉菌
     S:"Escherichia koli"=大肠杆菌
     S:Interaction_DESCRIPTION_Index_001=输出到相邻容器的格子#
