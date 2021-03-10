@@ -752,9 +752,8 @@ mods.thaumcraft.Research.addPrereq("SIGILOFHOLDING", "SIGILOFMAGNETISM", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFHOLDING", true);
 mods.thaumcraft.Research.addPage("SIGILOFHOLDING", "tc.research_page.SIGILOFHOLDING");
 game.setLocalization("tc.research_page.SIGILOFHOLDING", "\u96c6\u6301\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u7528\u4e8e\u5c06\u591a\u79cd\u5370\u8bb0\u96c6\u4e2d\u6210\u4e00\u4e2a.
-\u4f7f\u7528\u65f6,\u6bcf\u6b21Shift+\u53f3\u952e\u96c6\u6301\u5370\u8bb0\u5c06\u4ece\u5feb\u6377\u680f\u4e2d\u4ece\u5de6\u81f3\u53f3\u6d88\u8017\u4e00\u4e2a\u5370\u8bb0,\u6700\u591a\u53ea\u80fd\u50a8\u5b584\u4e2a\u5370\u8bb0.
-\u5f53\u7269\u54c1\u680f\u4e2d\u6ca1\u6709\u5176\u5b83\u5370\u8bb0\u6216\u96c6\u6301\u5370\u8bb0\u5df2\u6ee1\u65f6,shift+\u53f3\u952e\u53ef\u5207\u6362\u96c6\u6301\u5370\u8bb0\u4e2d\u7684\u5370\u8bb0,\u53f3\u952e\u53ef\u6fc0\u6d3b\u663e\u793a\u7684\u5370\u8bb0.
-\u53ef\u901a\u8fc7\u89e3\u7ed1\u4eea\u5f0f\u53d6\u51fa\u96c6\u6301\u5370\u8bb0\u4e2d\u5b58\u50a8\u7684\u5370\u8bb0.");
+\u4f7f\u7528\u65f6\u002c\u6bcf\u6b21\u0053\u0068\u0069\u0066\u0074\u002b\u53f3\u952e\u96c6\u6301\u5370\u8bb0\u5c06\u4ece\u5feb\u6377\u680f\u4e2d\u4ece\u5de6\u81f3\u53f3\u6d88\u8017\u0028\u6216\u4ece\u96c6\u6301\u5370\u8bb0\u4e2d\u79fb\u9664\u0029\u4e00\u4e2a\u5370\u8bb0\u002c\u6700\u591a\u53ea\u80fd\u50a8\u5b58\u0035\u4e2a\u5370\u8bb0.
+Shift+\u9f20\u6807\u6eda\u8f6e\u53ef\u5207\u6362\u96c6\u6301\u5370\u8bb0\u4e2d\u7684\u5370\u8bb0\u002c\u53f3\u952e\u53ef\u6fc0\u6d3b\u663e\u793a\u7684\u5370\u8bb0.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFHOLDING", <AWWayofTime:imbuedSlate>, 
 [<IronChest:BlockIronChest>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:reinforcedSlate>], 
 "lucrum 32, cognitio 24, gula 16, superbia 16, limus 16, praecantatio 8", <AWWayofTime:sigilOfHolding>, 9);
