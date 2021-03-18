@@ -326,11 +326,11 @@ gtnh.quest80.desc=DreamMasterXXL(GTNH作者)最喜欢的机器.压缩所有的�
 
 # Quest.81 - §6§lAt the end of...
 gtnh.quest81.name=§6§l终结......
-#C gtnh.quest81.desc=...宇宙的终将热寂.但要等待宇宙的死亡未免需要太长的时间了.因此,我们向你推荐真空冷冻机.它应该足以冷却你炽热的材料.Ingots that go through the EBF above a certain temperature will come out as hot ingots that need to be cooled. 你需要至少16个防冻机械方块,剩下的部分取决于你的配置.
+gtnh.quest81.desc=...宇宙的终将热寂.但要等待宇宙的死亡未免需要太长的时间了.因此,我们向你推荐真空冷冻机.它应该足以冷却你炽热的材料. 经过工业高炉熔炼的各种锭,相当一部分会以热x锭的形式输出,而它需要冷冻. 你需要至少16个防冻机械方块,剩下的部分取决于你配置的仓室.
 
 # Quest.82 - §7§6§lAn unexpected Bonus
 gtnh.quest82.name=§7§6§l意想不到的福利
-#C gtnh.quest82.desc=因为我们是友善的开发者,所以我们决定加入一点小小的福利,在你碰巧把木炭拿去压缩成木炭块的时候.Use it 砖高炉, or in a boiler, it使每块木炭块的燃烧时间10倍于木炭的燃烧时间,而不是9倍.所以有一块木炭是免费的.这个加成只在第一次压缩的时候才会出现. (但哪怕是为了好玩,你也一定要制作一个五重压缩的木炭块!)%n%n§3Of course, if you're not using BBFs or boilers, they're kinda useless.
+gtnh.quest82.desc=因为我们是友善的开发者,所以我们决定加入一点小小的福利,在你碰巧把木炭拿去压缩成木炭块后.将其用于砖高炉,或锅炉,你会发现每块木炭块的燃烧时间10倍于木炭的燃烧时间,而不是9倍.所以有一块木炭是免费的.这个加成只在第一次压缩的时候才会出现. (但哪怕是为了好玩,你也一定要制作一个五重压缩的木炭块!)%n%n§3当然,当然锅炉的话,它们就完全没用了.
 
 # Quest.83 - §6§lHigh speed charcoal
 gtnh.quest83.name=§6§l高速木炭炉
@@ -509,8 +509,8 @@ gtnh.quest126.name=§6§l电解万物
 gtnh.quest126.desc=自从你开始磨粉,洗矿和离心矿石,你收集了很多粉末.到目前为止,你还不能分解它们.现在是时候从它们中获取纯净的成分和有用的材料了. 译者注:格雷的电解机一点都不电解！这分明是原子剥离机......
 
 # Quest.127 - Project red beginning
-gtnh.quest127.name=红石计划请求
-#C gtnh.quest127.desc==Welcome to Project Red!%n%nThis quest will teach you the basics of Projectred and show you how to set up a Ghetto AE system.%n%nThe Ghetto AE system will be really useful for sorting all of your first items%n%n首先,有三种类型的管道:%n%n空逻辑、加压和路由. 空逻辑管道是最基础的一种,它们没有任何的逻辑行为.物品运输管道属于这种类型,它们用于制造或连接路由管道和加压管道.多准备一些物品运输管道是一个明智的选择. 路由管道是最高级的.它们可以相互通信,以便创建管道网络,并可用于非常复杂的任务. 加压管道解释和使用起来太复杂了,你不会需要它们的,因为你可以用路由管道完成任何你想要做的任何事情.%n%n然而,为了控制路由管道的逻辑,你还会需要芯片.%n%n§4Note: I have no idea how PR works, or if this questline is entirely a duplicate, and have zero willpower to read all the boring text and find out, so I just unhid them since no one came forward with any info after I asked. If it should be removed or w/e, make a ticket.
+gtnh.quest127.name=开始红石计划
+gtnh.quest127.desc==欢迎来到红石计划!%n%n此任务将会为你介绍红石计划的基础知识,并向你展示如何建造一个廉价AE系统.%n%n在起步阶段,这个廉价AE系统会非常有用的.%n%n首先,有三种类型的管道:%n%n空逻辑、加压和路由. 空逻辑管道是最基础的一种,它们没有任何的逻辑行为.物品运输管道属于这种类型,它们用于制造或连接路由管道和加压管道.多准备一些物品运输管道是一个明智的选择. 路由管道是最高级的.它们可以相互通信,以便创建管道网络,并可用于非常复杂的任务. 加压管道解释和使用起来太复杂了,你不会需要它们的,因为你可以用路由管道完成任何你想要做的任何事情.%n%n然而,为了控制路由管道的逻辑,你还会需要芯片.%n%n§4注意:我对PR的原理其实不太了解,也不清楚这条任务线是否是重复的,而且也不想通读一遍查漏补缺. 由于我询问之后没有收到任何反馈,所以我只是将这些任务取消了隐藏. 如果你发现任务存在问题或需要移除,请发issue.
 
 # Quest.128 - §6§lIO, IO, it's off to EnderIO we go
 gtnh.quest128.name=§6§lIO,IO,我们去EnderIO
@@ -1930,7 +1930,7 @@ gtnh.quest481.desc=我猜你会惊奇的发现再将原木处理为木炭的过�
 
 # Quest.482 - §2§lAnimal farms
 gtnh.quest482.name=§2§l动物农场
-#C gtnh.quest482.desc=你需要皮革或者羊毛吗？ 你可能需要花费很多时间来在外面狩猎,或者你可以做一个简单的动物农场来获得数量可观的皮革、羊毛或者肉.确保你不要在牧场放太多动物,否则它们会过度拥挤并互相残杀(这一点放在村民身上也一样).%n%n动物将优先向草方块移动, 如果周围没有草方块, 动物更倾向于发光的方块. 把围栏周围(包括地下)的草方块换成其他方块, 然后在围栏中间插一根火把, 就能让你的动物乖乖呆在围栏里(或者至少不挤在边缘处). 对于羊这种需要吃草(提早成年、长出被剪的羊毛)的动物, 将其放在非草方块边框的清理区域的中心.%n%n另外, 大量动物会导致服务器延迟, 尤其是当他们相互碰撞时. 所以在服务器中, 请确保小动物(比如鸡)每只至少有1格的区域, 而大型动物(比如牛)每只至少有2格的区域.%n%n§3PS: Mutton amount was reduced because apparently mutton and calamari (from squid) drops are extremely low on servers for some reason.%n%nPPS: Most animal/mob drops can be gotten from less laggy IC2 crop farms.
+gtnh.quest482.desc=你需要皮革或者羊毛吗？ 你可能需要花费很多时间来在外面狩猎,或者你可以做一个简单的动物农场来获得数量可观的皮革、羊毛或者肉.确保你不要在牧场放太多动物,否则它们会过度拥挤并互相残杀(这一点放在村民身上也一样).%n%n动物将优先向草方块移动,如果周围没有草方块,动物更倾向于发光的方块. 把围栏周围(包括地下)的草方块换成其他方块, 然后在围栏中间插一根火把,就能让你的动物乖乖呆在围栏里(或者至少不挤在边缘处). 对于羊这种需要吃草(提早成年、长出被剪的羊毛)的动物,将其放在非草方块边框的清理区域的中心.%n%n另外,大量动物会导致服务器延迟,尤其是当他们相互碰撞时.所以在服务器中,请确保小动物(比如鸡)每只至少有1格的区域,而大型动物(比如牛)每只至少有2格的区域.%n%n§3PS: 由于某些原因,服务器上的羊肉和鱿鱼掉落量极低...%n%nPPS:大多数动物/怪物掉落物都可以从不太落后的IC2作物农场获得.
 
 # Quest.483 - §2§lGardener
 gtnh.quest483.name=§2§l园丁
