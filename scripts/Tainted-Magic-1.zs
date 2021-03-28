@@ -184,7 +184,7 @@ mods.thaumcraft.Crucible.addRecipe("ShadowmetalGTNH", <TaintedMagic:BlockShadowO
 mods.thaumcraft.Research.addCruciblePage("ShadowmetalGTNH", <TaintedMagic:BlockShadowOre>);
 mods.thaumcraft.Warp.addToResearch("ShadowmetalGTNH", 2);
 
-+// --- Shadow Metal Hoe
+// --- Shadow Metal Hoe
 mods.thaumcraft.Arcane.addShaped("ShadowmetalGTNH", <TaintedMagic:ItemShadowmetalHoe>, "perditio 45, terra 30", [
 [<gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:11368>, <ore:craftingToolHardHammer>],
 [<ore:craftingToolFile>, <ore:stickWood>, null],
