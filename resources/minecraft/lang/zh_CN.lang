@@ -2549,15 +2549,15 @@ gtnh.quest635.desc=做面包的第一步是使用研钵或磨粉机磨碎小麦�
 
 # Quest.636 - First Handmade Bread
 gtnh.quest636.name=第一个手作面包
-#C gtnh.quest636.desc=在熔炉烘焙你的生面团,做些好吃的面包吧.你的第一个面包！
+gtnh.quest636.desc=在熔炉烘焙你的生面团,做些好吃的面包吧.你的第一个面包！
 
 # Quest.637 - Do'h!
 gtnh.quest637.name=生面团
-#C gtnh.quest637.desc=水跟面粉可以制成生面团.%n生面团可以用于许多潘马斯的配方中.%n%n不要用那糟糕的NEI配方,将一组面粉丢入装满水的炼药锅中吧.谨防Celiacs!
+gtnh.quest637.desc=水跟面粉可以制成生面团. 生面团可以用于许多潘马斯的配方中.%n%n不要用那糟糕的NEI配方,将一组面粉丢入装满水的炼药锅中吧.谨防Celiacs!
 
 # Quest.638 - Tasty Toast
 gtnh.quest638.name=美味烤面包
-#C gtnh.quest638.desc=在次烘焙你的面包做成烤面包！？更加营养而且有更多烹饪的潜力！
+gtnh.quest638.desc=再次烘焙你的面包,把它做成烤面包！？它能为你提供更多营养点数,而且具有更高的烹饪潜力！
 
 # Quest.639 - §5§lSulfuric naphtha
 gtnh.quest639.name=§5§l含硫石脑油
@@ -2585,7 +2585,7 @@ gtnh.quest644.desc=蒸馏某些精炼气体,可以得到甲烷,有许多方法�
 
 # Quest.645 - Glider Wings
 gtnh.quest645.name=滑翔翼
-#C gtnh.quest645.desc=如果你想跳下悬崖,而不出现某某玩家从高处跌落的讯息,找个办法缓和你的降落是个好主意.滑翔翼可以做到这点.
+gtnh.quest645.desc=如果你想跳下悬崖,而不出现某某玩家从高处跌落的讯息,找个办法降低你的掉落速度应该是个好主意. 商店里的羽落药水卖光了,做个滑翔翼吧.
 
 # Quest.646 - §5§lElectrotine battery
 gtnh.quest646.name=§5§l空电池(蓝石)
@@ -2593,7 +2593,7 @@ gtnh.quest646.desc=空电池这种蓝石电池专门用于PR的机器跟喷气�
 
 # Quest.647 - Electrotine Jetpack
 gtnh.quest647.name=喷气背包
-#C gtnh.quest647.desc=滑翔翼让你可以安全降落,但没办法让你往上飞.研究蓝石后,你发现他的能量足够让你做出第一个喷气背包.一个钻石胸甲加上四个空电池,就足够让你飞上天.但它并没有盘旋模式,所以最好带着你的滑翔翼.提示:这个喷气背包无法飞到超过Y-128的地方.
+gtnh.quest647.desc=滑翔翼让你可以安全降落,但没办法让你往上飞.研究蓝石后,你发现他的能量足够让你做出第一个喷气背包.%n%n一个钻石胸甲加上四个空电池,就足够让你飞上天.%n%n但它并没有盘旋模式,所以最好带着你的滑翔翼.%n%n提示:这个喷气背包无法飞到超过Y-128的高度.
 
 # Quest.648 - Refill Your Jetpack
 gtnh.quest648.name=装填喷气背包
@@ -2613,7 +2613,7 @@ gtnh.quest651.desc=你的第一个电力喷气背包.你需要按IC2的切换模
 
 # Quest.652 - Fueled Jetpack
 gtnh.quest652.name=燃气喷气背包
-#C gtnh.quest652.desc=这个喷气背包使用IC2的沼气,最高可飞到245层.%n你需要使用IC2的切换模式键及空格键来切换飞行模式.%n%n你的喷气背包可以在IC2装罐机中装填燃料,共需30桶沼气.
+gtnh.quest652.desc=这个喷气背包使用IC2的沼气,最高可飞到245层. 你需要使用IC2的切换模式键+空格键来切换飞行模式.%n%n你的喷气背包可以在IC2装罐机中装填燃料,共需30桶沼气.
 
 # Quest.653 - Advanced Electric Jetpack
 gtnh.quest653.name=进阶电力喷气背包
@@ -2629,7 +2629,7 @@ gtnh.quest655.desc=重力胸甲是由量子护甲、剧差级变压器、终极�
 
 # Quest.656 - §1§2§lIron Shields
 gtnh.quest656.name=§1§2§l铁盾
-#C gtnh.quest656.desc=你的皮盾已经用够久了.完成第一个工具后,取得一些铁矿,制作一个良好的铁盾吧.
+gtnh.quest656.desc=你的皮盾已经用够久了.完成第一个工具后,挖些铁矿,然后制作一个精良的铁盾吧.
 
 # Quest.657 - §2§lStone spear
 gtnh.quest657.name=§2§l石头标枪
@@ -2637,19 +2637,19 @@ gtnh.quest657.desc=升级你的木标枪,使用铁螺丝钉为它加上石箭头
 
 # Quest.658 - §3§lIron Spear
 gtnh.quest658.name=§3§l铁标枪
-#C gtnh.quest658.desc=升级你的木标枪,使用两个钢螺丝钉为它加上铁箭头就变成铁标枪.铁标枪的耐久度比石标枪更好.
+gtnh.quest658.desc=升级你的木标枪,使用两个钢螺丝钉为它加上铁箭头就变成铁标枪.%n%n铁标枪的耐久比石标枪更高.
 
 # Quest.659 - §6§lDiamond Spear
 gtnh.quest659.name=§6§l钻石标枪
-#C gtnh.quest659.desc=在MV阶段你可以升级你的铁标枪成钻石标枪.做一个钻石箭头,两个不锈钢螺丝钉,跟一个木标枪.这标枪有优秀的耐久度.
+gtnh.quest659.desc=在MV阶段你可以升级你的铁标枪成钻石标枪.做一个钻石箭头,两个不锈钢螺丝钉,跟一个木标枪.%n%n这种标枪的耐久更加优秀.
 
 # Quest.660 - §6§lDiamond Shield
 gtnh.quest660.name=§6§l钻石盾
-#C gtnh.quest660.desc=你的铁盾已经很老旧了.使用钻石大板制成的盾牌,你将可以持续格挡5秒.
+gtnh.quest660.desc=你的铁盾已经破旧不堪了.用钻石大板制成新的盾牌吧,它可以持续格挡5秒.
 
 # Quest.661 - §5§lBow, Arrows and Quiver
 gtnh.quest661.name=§5§l弓,箭,与箭袋
-#C gtnh.quest661.desc=哇,你的第一台手作机器做出了弓.你发现可以将弓放在武器格子.现在是时候做些箭和一个箭袋了.想要将箭放入箭袋里,你需要把箭袋和一组箭放入合成栏.确保控制中的"Special"按键没有冲突.默认为Z.  当你选中弓时,按下Z来交换箭袋里的箭.  虽然看起来这些可能毫无价值, 但这些箭确实有特殊用途.  你真的想跟你的朋友分享一个曲奇饼干,不是吗?  开始狩猎吧.
+gtnh.quest661.desc=哇,你的第一台手作机器做出了弓.你发现可以将弓放在武器格子.现在是时候做些箭和一个箭袋了.%n%n想要将箭放入箭袋里,你需要把箭袋和一组箭放入合成栏.确保控制中的"Special"按键没有冲突.默认为Z.  当你选中弓时,按下Z来交换箭袋里的箭.%n%n虽然看起来这些可能毫无价值,但这些箭确实有特殊用途.  你真的想跟你的朋友分享一个曲奇饼干,不是吗?%n%n开始狩猎吧.
 
 # Quest.662 - §5§lBasic arc furnace
 gtnh.quest662.name=§5§l基础电弧炉
@@ -2669,7 +2669,7 @@ gtnh.quest665.desc=为了烹调健康的食物,你需要先制做一些工具.�
 
 # Quest.666 - Row, Row, Row Your Boat
 gtnh.quest666.name=划呀划呀划着你的船
-#C gtnh.quest666.desc=你住在水边却没有船？你需要木板、台阶、跟刀来制作一艘. (这是任务编号666,小心点,有什么事要发生了.)
+#C gtnh.quest666.desc=你住在水边却没有船？%n%n你需要木板、台阶、跟刀来制作一艘. (这是任务编号666,小心点,有什么事要发生了.) %n%n§3We here at QuestBook, Inc. do not guarantee the usefulness of boats. The standard worldgen does not include oceans, so their usefulness is heavily curtailed. There are lots of rivers, but horses might be more useful if not on a server.
 
 # Quest.667 - Trainspotting
 gtnh.quest667.name=猜火车
