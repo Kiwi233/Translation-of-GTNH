@@ -2693,7 +2693,7 @@ gtnh.quest671.desc=电动船的运作和原版的船相似,以相当快的速度
 
 # Quest.672 - Boat Shape?
 gtnh.quest672.name=船模具
-#C gtnh.quest672.desc=别怀疑,为了做更高阶的船,你需要一个新的范本. 但是首先你需要制作一台压模机.
+gtnh.quest672.desc=别怀疑,为了做更高阶的船,你需要一个新的范本.%n%n但是首先你需要制作一台压模机.
 
 # Quest.673 - §5§lLV extruder
 gtnh.quest673.name=§5§l基础压模机
@@ -2705,35 +2705,35 @@ gtnh.quest674.desc=你需要一台组装机来组装木制十字轨、木制Y型
 
 # Quest.675 - Switch Lever
 gtnh.quest675.name=手动转辙机
-#C gtnh.quest675.desc=手动转辙机是手动版本的电动转辙机,需要玩家来操作而非使用红石信号.在许多不同的信号系统中被使用,主要是用来切换转辙轨及Y型轨的运作方式.
+gtnh.quest675.desc=手动转辙机是手动版本的电动转辙机,需要玩家来操作而非使用红石信号.%n%n在许多不同的信号系统中被使用,主要是用来切换转辙轨及Y型轨的运作方式.
 
 # Quest.676 - Crowbar
 gtnh.quest676.name=撬棍
-#C gtnh.quest676.desc=撬棍有RC版本跟GT版本.可以用来操作RC的机器,或用来移除在GT管道和机器上的覆盖板(电动泵,传送带模块等等).并可以更快的拆除一些对象,像是轨道.这样工具也可用来存取RC的物品库存.撬棍也可以当武器使用,虽然攻击会消耗双倍耐久(就像其他的非武器工具一样...). 译者注:食我物理学圣剑啦！
+gtnh.quest676.desc=撬棍有RC版本跟GT版本(以及神秘的RC版本).可以用来操作RC的机器,或用来移除在GT管道和机器上的覆盖板(电动泵,传送带模块等等).并可以更快的拆除一些对象,比如轨道.这样工具也可用来存取RC的物品库存.%n%n手持撬棍Shift+右键以链接矿车.点击首个矿车后依次点击添加更多矿车.链接的矿车数量越多,运行越慢.%n%n撬棍也可以当武器使用,虽然攻击会消耗双倍耐久(就像其他的非武器工具一样...). 译者注:食我物理学圣剑啦！
 
 # Quest.677 - Minecart
 gtnh.quest677.name=矿车
-#C gtnh.quest677.desc=当你做好第一台车,旅程就可以开始了.好吧,还不行,你还需要先准备一些轨道.  §c§l警告: §r§c不受保护的矿车可能会被雷电击中而脱轨.用玻璃遮盖该区域,以防矿车消失.  另外,请确保将矿车放在一个区块中,或使用覆盖整个矿车工作区域的区块加载器.加载/卸载区块可能会导致矿车消失或重复.
+#C gtnh.quest677.desc=当你做好第一台车,旅程就可以开始了.%n%n好吧,还不行,你还需要先准备一些轨道.%n%n§3We here at QuestBook, Inc. do not guarantee the usefulness of minecarts or trains in any way. Especially since you can mine out a vein in a single session once you have a hammer and backpacks.%n%n§c§l警告: §r§c不受保护的矿车可能会被雷电击中而脱轨.用玻璃遮盖该区域,以防矿车消失.%n%n另外,请确保将矿车放在一个区块中,或使用覆盖整个矿车工作区域的区块加载器.加载/卸载区块可能会导致矿车消失或重复.
 
 # Quest.678 - Fast Food > Slow Food Lootbag Trade
-#C gtnh.quest678.name=快餐 > 正餐
-#C gtnh.quest678.desc=三个快餐奖励包可以换一个更好的正餐奖励包. 从何时开始正餐被认为是比较好的？
+gtnh.quest678.name=快餐奖励 > 正餐奖励
+gtnh.quest678.desc=三个快餐奖励包可以换一个更好的正餐奖励包. 从何时开始正餐被认为是比较好的？
 
 # Quest.679 - Slow Food > Haute Cuisine Lootbag Trade
-#C gtnh.quest679.name=正餐 > 美食
-#C gtnh.quest679.desc=三个正餐奖励包可以换一个更好的美食奖励包.
+gtnh.quest679.name=正餐奖励 > 美食奖励
+gtnh.quest679.desc=三个正餐奖励包可以换一个更好的美食奖励包.
 
 # Quest.680 - Haute Cuisine > Dessert Lootbag Trade
-#C gtnh.quest680.name=美食 > 甜点
-#C gtnh.quest680.desc=六个美食奖励包可以换一个更好的甜点奖励包.
+gtnh.quest680.name=美食奖励 > 甜点奖励
+gtnh.quest680.desc=三个美食奖励包可以换一个更好的甜点奖励包.%n%n§3不过,这个奖励包里头只有棉花糖,所以其实不太值...
 
 # Quest.681 - Transportation Class 3 > Transportation Class 2 Lootbag Trade
-#C gtnh.quest681.name=交通运输:类别3 > 交通运输:类别2
-#C gtnh.quest681.desc=三个交通运输:类别3奖励包可以换一个更好的交通运输:类别2奖励包.
+gtnh.quest681.name=交通运输类-3奖励 > 交通运输类-2奖励
+gtnh.quest681.desc=三个交通运输类-3奖励包可以换一个更好的交通运输类-2奖励包.
 
 # Quest.682 - Transportation Class 2 > Transportation Class 1 Lootbag Trade
-#C gtnh.quest682.name=交通运输:类别2 > 交通运输:类别1
-#C gtnh.quest682.desc=三个交通运输:类别2奖励包可以换一个更好的交通运输:类别1奖励包.
+gtnh.quest682.name=交通运输类-2奖励 > 交通运输类-1奖励
+gtnh.quest682.desc=三个交通运输类-2奖励包可以换一个更好的交通运输类-1奖励包.
 
 # Quest.683 - Wet Dirt Armor?
 gtnh.quest683.name=泥巴护甲？
@@ -2760,12 +2760,12 @@ gtnh.quest688.name=「有钱真好」护甲
 gtnh.quest688.desc=拥有黄金护甲也不错.它的耐久不非常低,不过穿着黄金护甲使你看起来很高贵.
 
 # Quest.689 - "Ooo, Shiny" Armor
-#C gtnh.quest689.name=闪亮亮护甲
+gtnh.quest689.name=闪亮亮的护甲
 gtnh.quest689.desc=在原版中,钻石护甲是最好的护甲.但在这有很多更好的护甲.
 
 # Quest.690 - Fancy Armor
-gtnh.quest690.name=花俏护甲
-#C gtnh.quest690.desc=并非真的比较好,但很花俏.锁炼护甲是使用钢环制作的.
+gtnh.quest690.name=花俏的护甲
+gtnh.quest690.desc=并非真的比较好,但更花俏.锁炼护甲是用钢环制作的.
 
 # Quest.691 - Armor 2.5
 gtnh.quest691.name=护甲 2.5
@@ -2777,18 +2777,18 @@ gtnh.quest692.desc=将高级合金的强度与钢铁胸甲结合,将使你非常
 
 # Quest.693 - §2§lFallen From the Sky
 gtnh.quest693.name=§2§l从天而降
-#C gtnh.quest693.desc=你可以在许多地方找到巨大的陨石.而你可能会疑惑为何需要现在去挖掘它们？§3老实说,我也是.§r%n%n在LV时代,陨石是获取稀有金属的不错来源.%n%n在陨石中你可以找到一个陨石箱,其中装了一些处理器印压模板.将它们保存起来,它们非常重要.
+gtnh.quest693.desc=你可能注意到了随处可见的巨大陨石,并且可能还在想它们是否有用?好吧,它们有用,但不是现在. 现在收集一些陨石吧,我会给你一些奖励.%n%n在陨石中你可以找到一个陨石箱,其中装了一些处理器印压模板.将它们保存起来,它们是AE的核心部件.不过当你EV之后,也可以自己做. 另外这个箱子也不错,而且放置在方块下方是还能正常打开.%n%n提示:要是所有地表的陨石都被洗劫一空了,在寻矿魔杖中放入陨石,即可用于寻找地下的陨石.或者等到可以制作陨石罗盘再出门寻找.
 
 # Quest.694 - §3§lOne Anvil... Better Make That Two!
 gtnh.quest694.name=§3§l一个铁砧...最好做两个！
 gtnh.quest694.desc=使用你全新的压缩机,可以制作一些金属块以制作铁砧.最好做两个铁砧,一个用于制作锻造锤.  §4有了铁砧你就可以修理、更名或附魔你的护甲及工具.
 
 # Quest.695 - §6§o§1§2§3§r§r§r§r§r§r§3§4§r§o§7§7§8§9§9§5§3§1§0§r§o§m§k§c§e§l§r§1§1§r§6§lAutomation, Tier 1
-#C gtnh.quest695.name=§6§o§1§2§3§r§r§r§r§r§r§3§4§r§o§7§7§8§9§9§5§3§1§0§r§o§m§k§c§e§l§r§1§1§r§6§l自动化 T1
-#C gtnh.quest695.desc=因为你计划制作许多通透玻璃,你希望将冶炼炉自动化吗？%n没问题,制作一个大型青铜流体管道,将之放在浇注口下.记得用扳手将管道与浇筑口连接起来.现在那些熔融液体将在管道中流动.在管道下你必须放置铸造盆或浇铸台.%n在下方放置漏斗及箱子,将有助于自动输出成品.%n%n注意: 打开后立刻关闭,浇筑口每次将会精确地输出144L流体.这一点稍后会用到...
+gtnh.quest695.name=§6§o§1§2§3§r§r§r§r§r§r§3§4§r§o§7§7§8§9§9§5§3§1§0§r§o§m§k§c§e§l§r§1§1§r§6§l自动化 T1
+gtnh.quest695.desc=你正计划着制作许多通透玻璃,所以希望将冶炼炉自动化吗？%n%n没问题,制作一个大型青铜流体管道,将之放在浇注口下.记得用扳手将管道与浇筑口连接起来.现在那些熔融液体将在管道中流动.在管道下你必须放置铸造盆或浇铸台.%n%n在下方放置漏斗及箱子,将有助于自动输出成品.%n%n注意: 打开后立刻关闭,浇筑口每次将会精确地输出144L流体.这一点稍后会用到...
 
 # Quest.696 - §6§lAutomation, Tier 2
-#C gtnh.quest696.name=§6§l自动化 T2
+gtnh.quest696.name=§6§l自动化 T2
 gtnh.quest696.desc=你想要比管道更好的自动化吗？肯定是,制作一个红石比较器,并将红石铺设在地面与之连结.红石必须连接浇注口来启动制造程序.
 
 # Quest.697 - §6§l2x Steel
@@ -2797,15 +2797,15 @@ gtnh.quest697.desc=钢铁的制作过程实在太慢了.如果你有足够的红
 
 # Quest.698 - §6§l4x Steel
 gtnh.quest698.name=§6§l四倍钢铁
-#C gtnh.quest698.desc=两个砖高炉(BBF)还是不够快...
+#C gtnh.quest698.desc=两个砖高炉(BBF)还是不够快...Can you figure out how to save the most bricks making 4?%n%n§3PS: If you can't, this pack may not be for you.
 
 # Quest.699 - §6§lWhy One Coke Oven When You Can Have Ten?
 gtnh.quest699.name=§6§l一个焦炉?不,你需要10个!
-#C gtnh.quest699.desc=你的砖高炉的炭用量大得要命,而你的蒸汽锅炉也是？好吧,是时候建造更多焦炉然后将它们自动化了.木制流体管道以及锡物品管道将帮助你完成目标.  你可以使用红石钟+浇筑口或者直接使用LV泵来清空焦炉内的杂酚油.至于木炭,等到你有了组装机后,漏斗是很容易获得的.%n%n不同于GT的多方块机器,焦炉必须在每台炉子之间留出1格空间.%n%n搜索NEI,找找制造焦炉砖的更优方式.%n%n你得用钢制及以上的扳手才能拆卸锡物品管道.
+gtnh.quest699.desc=你的砖高炉的炭用量大得要命,而你的蒸汽锅炉也是？好吧,是时候建造更多焦炉然后将它们自动化了.木制流体管道以及锡物品管道将帮助你完成目标.  你可以使用红石钟+浇筑口或者直接使用LV泵来清空焦炉内的杂酚油.至于木炭,等到你有了组装机后,漏斗是很容易获得的.%n%n不同于GT的多方块机器,焦炉必须在每台炉子之间留出1格空间.%n%n搜索NEI,找找制造焦炉砖的更优方式.%n%n§4你得用钢制及以上的扳手才能拆卸锡物品管道.
 
 # Quest.700 - How Dark Can You Go?
 gtnh.quest700.name=你能够有多黑暗？
-#C gtnh.quest700.desc=认真地,一个人能有多黑暗？你确信水晶中的那张脸只不过是你的想象.
+gtnh.quest700.desc=认真地,一个人能有多黑暗？你确信水晶中的那张脸只不过是你的想象.
 
 # Quest.701 - Ascended
 gtnh.quest701.name=升华
@@ -2825,7 +2825,7 @@ gtnh.quest704.desc=4阶石板:接近了.
 
 # Quest.705 - §3§lAccelerated Plant Growth
 gtnh.quest705.name=§3§l加速植物生长速度
-#C gtnh.quest705.desc=植物生长得很缓慢,你现在应该发现这点了.所以何不改善这点？洒水壶马上就可以派上用场.
+gtnh.quest705.desc=植物生长得很缓慢,你现在应该发现这点了.所以何不试着加点速？洒水壶马上就可以派上用场.
 
 # Quest.706 - Ethereal Chalk
 gtnh.quest706.name=元素粉笔
@@ -2856,20 +2856,20 @@ gtnh.quest712.name=进阶仪式
 gtnh.quest712.desc=更强力的仪式需要幽暗铭文.使用你的新幽暗粉笔,可以强化你的仪式推测杖来放置这些.让你可以进行更多的仪式.
 
 # Quest.713 - High-end Rituals
-#C gtnh.quest713.name=高端仪式
-#C gtnh.quest713.desc=最后的符文,用于最强大的仪式.
+gtnh.quest713.name=高端仪式
+gtnh.quest713.desc=最后的符文,用于最强大的仪式.
 
 # Quest.714 - Convocation of the Damned
 gtnh.quest714.name=恶魔入侵
-#C gtnh.quest714.desc=是时候开启一个传送门,通往我们以往召唤的恶魔所在之地.能出什么差错呢? (建议在一个行星上进行这个仪式,恶魔的城市会延伸蛮大的范围...)%n%n解释起来很复杂, 所以查看wiki来获取详细信息吧. 不过你得记住, 开启这个仪式需要15M的LP, 所以你需要至少25个宝珠符文. 另外, 你还需要炼金煅烧炉等一系列工具才能获得所需的玻璃钟罩, 请查阅魔导手册中的血魔法章节获取更多信息.
+gtnh.quest714.desc=是时候开启一个传送门,通往我们以往召唤的恶魔所在之地.能出什么差错呢? (建议在一个行星上进行这个仪式,恶魔的城市会延伸蛮大的范围...)%n%n解释起来很复杂,所以查看wiki来获取详细信息吧. 不过你得记住,开启这个仪式需要15M的LP,所以你需要至少25个宝珠符文. 另外,你还需要炼金煅烧炉等一系列工具才能获得所需的玻璃钟罩,请查阅魔导手册中的血魔法章节获取更多信息.
 
 # Quest.715 - Imbued Spell Upgrades
 gtnh.quest715.name=灌输法术附属(Imbued spell upgrades)
-#C gtnh.quest715.desc=有了这些新的碎片,你可以制作最强力的法术组件.也许是时候升级你的挖矿法术了？
+gtnh.quest715.desc=有了这些新的碎片,你可以制作最强力的法术组件.也许是时候升级你的采掘法术了？
 
 # Quest.716 - §5§lProcess Some Certus Quartz
-#C gtnh.quest716.name=§5§l寻找石英(Find some Quartz)
-#C gtnh.quest716.desc=下界充满各种不同的石英.找到一个石英岩及赛特斯石英矿脉.其分布高度为Y=40-80.
+gtnh.quest716.name=§5§l处理赛特斯石英
+gtnh.quest716.desc=为了制造发射器和传感器,你需要处理一些赛特斯石英.
 
 # Quest.717 - §4§3§5§lGood Circuits
 gtnh.quest717.name=§4§3§5§l进阶电子电路(Good Circuits.)
@@ -2881,7 +2881,7 @@ gtnh.quest718.desc=如果你想知道如何种植作物,你看这页就对了！
 
 # Quest.719 - First Breeding
 gtnh.quest719.name=初次杂交
-#C gtnh.quest719.desc=你的作物架上已经种好了新的植物.%n%n对着作物架点击右键来收获作物,或者点击左键来取得一个种子袋,此动作会破坏植物(译者注:并不一定掉落一个种子袋,可能会掉落0-2个种子袋,检验血统的时刻到了!).提示,随着作物成熟度的增加,掉落种子袋的几率增加(非酋福音).收集好八种不限种类的种子即可完成此任务.%n%n想要解锁下一个任务,你需要一台LV扫描仪.%n%n要是你以前没做过,回到蒸汽时代制作一些文档柜.它们可存储、携带大量同种物品,非常适合种子袋.另外,文档柜会将存储物按名称排序.想要找到特定的种子袋,将它的名字输入NEI搜索栏,然后双击搜索栏,使其黄色高亮.现在你就可以很容易地在文档柜中发现你要找的种子袋了.%n%n或者直接把不要的种子丢进箱子里.
+gtnh.quest719.desc=你的作物架上已经种好了新的植物.对着作物架上的成熟作物右键可以收获掉落物,%n%n而左键会破坏作物并掉落种子袋(译者注:并不一定掉落一个种子袋,可能会掉落0-2个种子袋,检验血统的时刻到了!).提示,随着作物成熟度的增加,掉落种子袋的几率增加(非酋福音).收集好八种不限种类的种子即可完成此任务.%n%n想要解锁下一个任务,你需要一台LV扫描仪.%n%n要是你以前没做过,可以考虑制作一些文档柜.它们可存储、携带大量同种物品,非常适合种子袋.另外,文档柜会将存储物按名称排序.想要找到特定的种子袋,将它的名字输入NEI搜索栏,然后双击搜索栏,使其黄色高亮.现在你就可以很容易地在文档柜中发现你要找的种子袋了.%n%n或者直接把不要的种子丢进箱子里.
 
 # Quest.720 - Weeds II
 gtnh.quest720.name=杂草II
@@ -2889,7 +2889,7 @@ gtnh.quest720.desc=杂草,杂草,更多的杂草.当你进行作物杂交育种�
 
 # Quest.721 - Unknown Seeds No More
 gtnh.quest721.name=种子不再未知
-#C gtnh.quest721.desc=利用你的扫描仪来扫描你已拥有的所有未知种子. 种子可以再次被栽种而成长为更好、适应性更佳的作物.  稍后你可以使用你的便携式扫描仪直接扫描作物架上的作物.  养分与田地之下的泥土方块(最多4块)、生物群系(沼泽最好,其次是丛林或者蘑菇岛--基本上任何潮湿或湿润的生物群系都不错,比如雨林或河口)、空气质量(Y=124以上拥有最好的空气质量,且不要在你的作物上方或周围放置太多方块)(译者注:别忘了GT机器的污染,让你的杂交田远离工厂). 当作物等级和作物属性都很高后,它们对环境要求会变高,如果没有合适的环境,作物会死亡(译者注:远离污染,水分充沛即可).  某些作物,如红麦(Reawheat)需要特定的光照等级才能培育出来并生长(译者注:光照等级5-10,推荐使用红石火把(7)).
+gtnh.quest721.desc=利用你的扫描仪来扫描你已拥有的所有未知种子.%n %n种子可以再次被栽种用于培育更好、适应性更佳的作物.%n%n稍后你可以使用你的便携式扫描仪(三录仪)直接扫描作物架上的作物.%n%n养分与田地之下的泥土方块(最多4块)、生物群系(沼泽与丛林最好,其实是蘑菇岛--基本上任何潮湿或湿润的生物群系都不错,比如雨林或河口)、空气质量(Y=124以上拥有最好的空气质量,且不要在你的作物上方或周围放置太多方块)(译者注:别忘了GT机器的污染,让你的杂交田远离工厂)、湿度,和肥料. 当作物等级和作物属性都很高后,它们对环境要求会变高,如果没有合适的环境,作物会死亡(在合适的生物群系下,这种情况不会出现).%n%n译者注:远离污染,水分与肥料充沛,你就可以在任何地方种植.%n%n当作物的生长属性过高,大于等于24后,作物将表现杂草的属性--向相邻作物架传播杂草.%n%n某些作物,如红麦(Reawheat)或矿莓(oreberries)需要特定的光照等级才能培育出来并生长(译者注:光照等级5-10,推荐使用红石火把(7)).
 
 # Quest.722 - Speed Up Your Plant Growth
 gtnh.quest722.name=加快你的植物生长进度
@@ -2969,19 +2969,19 @@ gtnh.quest740.desc=现在你达到了MV阶段,是时候得到一些更好的制�
 
 # Quest.741 - §5§3§lTool Forge
 gtnh.quest741.name=§5§3§l工具装配台
-#C gtnh.quest741.desc=终于,你得到了第一个铝锭.现在该制作一个工具装配台用来制造进阶的匠魂工具了.你同时需要一台进阶卷板机. 
+gtnh.quest741.desc=制出铝锭后,时候后制作一个工具装配台,进而制造更大(并且更好)的匠魂工具了.
 
 # Quest.742 - §3§lOne Block Mining is so Old School
 gtnh.quest742.name=§3§l一格一格挖矿已经过气了
-#C gtnh.quest742.desc=制作一柄大锤,你就可以一次挖3x3范围的矿.你可以使用各种材料，如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.更高阶的材料需要MV压模机.  你需要一个锤头、两个大板、一个坚韧手柄来制造一柄大锤.  在下界小心点,因为一不小心你就会被岩浆煮熟.
+#C gtnh.quest742.desc=制作一柄大锤,你就可以一次挖3x3范围的矿.你可以使用各种材料，如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.更高阶的材料需要MV压模机.  你需要一个锤头、两个大板、一个坚韧手柄来制造一柄大锤.  在下界小心点,因为一不小心你就会被岩浆煮熟.%n%n§6The quest should accept the tool whatever materials you used.
 
 # Quest.743 - §3§lCutting a Tree log by log is so Old School
 gtnh.quest743.name=§3§l一次砍一个原木已经过气了
-#C gtnh.quest743.desc=制作一把伐木斧,你就可以一次砍掉一整棵树.你可以使用各种材料，如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.更高阶的材料需要MV压模机.  当你砍掉一棵神圣橡木时,别忘了带上你的背包.
+#C gtnh.quest743.desc=制作一把伐木斧,你就可以一次砍掉一整棵树.你可以使用各种材料，如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.更高阶的材料需要MV压模机.  当你砍掉一棵神圣橡木时,别忘了带上你的背包.%n%n§6The quest should accept the tool whatever materials you used.%n%n§3Protip: Make one out of netherrack, the lower the durability, the less XP needed to level up. Use the modifier slots to add reinforced. Once you've got it leveled up enough, change the parts out for better (and faster) ones. You can't use auto-smelt, so don't bother with that.
 
 # Quest.744 - §3§lMining Dirt Block by Block is so Old School
 gtnh.quest744.name=§3§l慢慢挖土已经过气了
-#C gtnh.quest744.desc=制作一把挖掘铲,你就可以一次挖3x3范围的土.你可以使用各种材料，如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.更高阶的材料需要MV压模机.  别不小心毁了你的整个花园.
+#C gtnh.quest744.desc=制作一把挖掘铲,你就可以一次挖3x3范围的土.你可以使用各种材料，如铁、钢或冶炼炉生产的耐酸铝,不用局限于钢.%n%n更高阶的材料需要MV压模机.  别不小心毁了你的整个花园.%n%n§6The quest should accept the tool whatever materials you used.
 
 # Quest.745 - §5§lGlue
 gtnh.quest745.name=§5§l胶水
