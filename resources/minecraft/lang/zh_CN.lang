@@ -2996,7 +2996,7 @@ gtnh.quest747.name=§5§l二极管
 gtnh.quest747.desc=优质的电子电路板需要二极管.有两种主要方法可以制造它们.现在你只能用砷化镓处理细铜导线和熔融玻璃来获得二极管.稍后,当你拥有了工业高炉,你就能制作硅晶元,用它替代砷化镓可以实现增产. 请注意,晶元比镓更容易获得,因此即使减少晶元数量也是值得的.%n%n老生常谈,时时检查NEI(特别是解锁了新材料后),不要一个合成表用一辈子.%n有了聚乙烯之后,你就能用细退火铜导线替代细铜导线,实现再次增产.  
 
 # Quest.748 - §5§lEmpty Circuit Board
-gtnh.quest748.name=§5§l电路板基板
+gtnh.quest748.name=§5§l电路基板
 gtnh.quest748.desc=优质的电子电路板需要木头纸浆跟精制胶水来制作酚醛树脂电路板,再加上金线缆就可以制成.
 
 # Quest.749 - §6§lAre you Prepared for HV?
@@ -3025,7 +3025,7 @@ gtnh.quest754.desc=有些原料如不锈钢,需要480EU/t.你的LV级能源仓�
 
 # Quest.755 - §6§lBetter Than Duct Tape
 gtnh.quest755.name=§6§l比胶带更好
-#C gtnh.quest755.desc=电烙铁可以移除"电路短路了"的故障讯息,比胶带更好.修复时需要一个细焊锡导线跟10KEU的电力.有许多材料可以做为焊接材料,由锡、铅,或焊锡制成的细导线、杆,或锭都可以.电烙铁将会消耗玩家物品栏中找到的第一个这类材料.  完成任务所需的电烙铁需要充满电.  至于其他故障需要其他的工具.可能的故障有,管道松了——扳手,有些螺丝没有到位——螺丝刀,有什么东西卡住了——软锤,板子凹凸不平——锤,电路短路了——电烙铁,有个零件不应该在这里——撬棍.
+#C gtnh.quest755.desc=使用电烙铁可以移除"电路短路了"的故障讯息,比用胶带更便宜.%n%n修复时需要一个细焊锡导线跟10KEU的电力.有许多材料可以做为焊接材料,由锡、铅,或焊锡制成的细导线、杆,或锭都可以.电烙铁将会消耗玩家物品栏中找到的第一个这类材料. Since you'll likely have more than enough, Fine Wires of Soldering Alloy are probably best.%n%nYou can also use it to adjust the redstone strength from weak to strong emitted by GT machines.%n%nAlso, while holding it all pipes, wires, and cables will look very small, so that you can see everything past them, and also be sure of the exact connections.%n%n完成任务所需的电烙铁需要充满电.%n%n至于其他故障需要其他的工具.%n%n可能的故障                维修工具%n"管道松了"                扳手%n"有些螺丝没有到位"        螺丝刀%n"有什么东西卡住了"        软锤%n"板子凹凸不平"            锻造锤%n"电路短路了"              电烙铁%n"有个零件不应该在这里"    撬棍.
 
 # Quest.756 - §6§lLess Power Loss
 gtnh.quest756.name=§6§l减少电力损失
@@ -3064,8 +3064,8 @@ gtnh.quest764.name=§6§l炸药
 gtnh.quest764.desc=炸药是聚爆压缩机所使用的最基础的爆炸物.在化学反应釜中搅拌纸、线,跟硝化甘油来制造炸药.
 
 # Quest.765 - §6§lTime to Drill for Oil!
-#C gtnh.quest765.name=§6§l钻井时刻！
-#C gtnh.quest765.desc=泵是很好,但你现在到了一个需要更多更多更多石油的时刻.这个多方块构造能帮助你,但你需要使用地震探矿去搜寻石油.你可以找到石油、轻油,或重油.也有机会找到天然气.使用越高阶段的电力钻得越快.使用相对应的能源仓来提供电力.  稍后你可以升级钻井,同时从多个区块抽取.  你需要将采矿管道放入机器的控制器方块.  钻井和发电机都是GT机器,所以别忘了防雨.然后在旅行地图上标记好位置,这样你就再也不会忘记自己把钻井放哪了!  在宇宙中的各个星球世界,基岩下方有可能有各种流体,查看“太空竞赛”任务栏获取相关信息.
+gtnh.quest765.name=§6§l钻井时刻！
+gtnh.quest765.desc=泵是很好用,但你现在到了一个需要更多多多多多多石油的阶段.这个多方块结构能帮你钻油(或其他地下流体),但你还需要使用地震探矿去搜寻石油.你可以找到原油、轻油、石油或重油.也有几率找到天然气.%n%n供给钻井越高电压就可以使其钻得越快.使用对应的能源仓来接收电力.%n%n稍后你可以升级钻井,使其可以同时从多个区块抽取地下流体.%n%n你需要将采矿管道放入机器的控制器方块GUI中.如果要用到超过64个采矿管道,还可以使用输入总线.%n%n钻井和发电机都是GT机器,所以别忘了防雨.然后在旅行地图上标记好位置,这样你就再也不会忘记自己把钻井放哪了!%n%n在宇宙中的各个星球世界,基岩下方有可能有各种流体,查看“太空竞赛”任务栏获取相关信息.
 
 # Quest.766 - §6§lLet's Get Crackin!
 gtnh.quest766.name=§6§l裂化石油
@@ -3077,7 +3077,7 @@ gtnh.quest767.desc=厌倦了手动寻找矿脉?想要找到一个能抽一辈子
 
 # Quest.768 - §6§lYou Smell Like a Distillery!
 gtnh.quest768.name=§6§l你闻起来像掉到了酒桶里!
-#C gtnh.quest768.desc=这个狠角色会极大的增加你处理裂解燃料油时的副产品.如此一来你就可以更有效率的制造工业TNT、塑料、聚四氟乙烯,以及其他塑料产品.你也需要这台机器来完成你的自动化产线.  你需要在超净间中制作EV电路板,才能制成这台机器.  至于仓室,你可以自由选择.一个MV能源仓就可以胜任大多数有用的配方.两个MV能源仓或者一个HV能源仓就可以覆盖除了污染或丙酮外几乎所有的配方.  你还需要一个输入仓、至少五个输出仓.一个输出总线可以收集那些固体产出.
+gtnh.quest768.desc=在你处理裂解燃料或热解炉配方时,这个狠角色会极大地提高副产率.如此一来你就可以更有效率的制造工业TNT、塑料、聚四氟乙烯,以及其他塑料产品.你也需要这台机器来完成你的铂线.%n%n你需要在超净间中制造EV电路板,然后才能制做这台机器.%n%n至于仓室,你可以自由选择.一个MV能源仓就可以胜任大多数有用的配方.两个MV能源仓或者一个HV能源仓就可以覆盖除了污染或丙酮外几乎所有的配方.%n%n你还需要一个输入仓、至少五个输出仓,以及一个输出总线用于收集那些固体产出.
 
 # Quest.769 - §9§lPlaying with dust
 gtnh.quest769.name=§9§l玩泥巴
@@ -3130,6 +3130,7 @@ gtnh.quest780.desc=生物碳板由生物有机网制成.将生碳板放入工业
 # Quest.781 - §6§lStill Not Enough Charcoal?
 gtnh.quest781.name=§6§l木炭还是不够？
 #C gtnh.quest781.desc=现在你有一台真空冷却机,有制造铁铬铝耐热材料的可能性.是时候盖一座热解炉了.这座炉是得到木炭及杂酚油的最佳途径(RC焦炉的五十倍快).你将需要大量的青铜、铁,及钢来制造它.但这是值得的,现在你可能可以拆掉你的木炭坑了.
+This oven is the best way to get charcoal and creosote (x50 faster than Railcraft's coke oven) and other byproducts. You will need tons of bronze, iron and steel to build it, but it's worth it. Finally, it will be possible to dismantle the charcoal pit.%n%nWith Cupronickel coils the oven is a bit slower. Each coil tier speeds up the charcoal production.
 
 # Quest.782 - §6§lMonocrystalline Silicon
 gtnh.quest782.name=§6§l单晶硅
@@ -3137,11 +3138,12 @@ gtnh.quest782.desc=为了制造晶元,你必须先制造单晶硅.这制程需�
 
 # Quest.783 - §6§lWe Need Big Toys
 gtnh.quest783.name=§6§l我们需要些大家伙
-#C gtnh.quest783.desc=你的基础蒸汽轮机太占空间？该解决这个问题了.这台大型蒸汽轮机可以帮助你生产大量的能源.它还能为你生产蒸馏水,不过你最好循环利用这些水.  别忘了为它制造一个涡轮.%n%n使用流体校准器或流体流量调节机确保所提供的蒸汽是涡轮的最佳流量.注意你的动力仓等级,如果发电超过其电压等级,它将会爆炸! 在HV阶段,你可能需要使用IC2的流体流量调节机,HV阶段以后就能使用流体校准器覆盖板了.%n%n75K耐久以下的涡轮配方移除.用合适的长杆,使用NEI查询用途,你就能看到有用的组装配方了. 长镁铝合金杆对应小型涡轮、长钛杆对应普通涡轮,等等...%n%n登月前,最好的转子是阿迪特或脉冲合金制成的小型转子.%n%n登月后,最好的HV转子是大马士革钢或蓝钢制成的普通转子.敢于冒险的人可以尝试哈氏合金,但千万不要给它提供最优流量的蒸汽,因为那时它的输出为517EU/t,将会引爆你只有1A的动力仓.幸运的是,现在涡轮机可以支持多A动力仓了,所以如果你需要额外电流,试试看吧！%n%n至于其他选择,详见Discord频道中的大型涡轮计算器.
+gtnh.quest783.desc=你的基础蒸汽轮机太占空间？该解决这个问题了.这台大型蒸汽轮机可以帮助你生产大量的能源.它还能为你生产蒸馏水,不过你最好循环利用这些水.  别忘了为它制造一个涡轮.%n%n使用流体校准器或流体流量调节机确保所提供的蒸汽是涡轮的最佳流量.注意你的动力仓等级,如果发电超过其电压等级,它将会爆炸! 在HV阶段,你可能需要使用IC2的流体流量调节机,HV阶段以后就能使用流体校准器覆盖板了.%n%n75K耐久以下的涡轮配方移除.用合适的长杆,使用NEI查询用途,你就能看到有用的组装配方了.当然你也可以查我们的数据表格.  长镁铝合金杆对应小型涡轮、长钛杆对应普通涡轮,等等...%n%n登月前,最好的转子是阿迪特或脉冲合金制成的小型转子.%n%n登月后,最好的HV转子是大马士革钢或蓝钢制成的普通转子.敢于冒险的人可以尝试哈氏合金,但千万不要给它提供最优流量的蒸汽,因为那时它的输出为517EU/t,将会引爆你只有1A的动力仓.幸运的是,现在涡轮机可以支持多A动力仓了,所以如果你需要额外电流,试试看吧！%n%n至于其他选择,详见Discord频道中的大型涡轮计算器和数据表格.
 
 # Quest.784 - §6§lIt's Time to Get More Steam
 gtnh.quest784.name=§6§l该制造更多蒸汽了
-#C gtnh.quest784.desc=一旦你有能力储存大量的能源,就需要有方法生产大量的能源.你需要一个大型青铜锅炉.但为了制造这个锅炉,你需要像山一样多的青铜.这个锅炉每tick能产生800L的蒸汽,这足供十台基础蒸汽轮机运作了.
+#C gtnh.quest784.desc=一旦你有能力储存大量的能源,那就有必要寻找生产大量能源的方法. 你需要一台大型青铜锅炉.但为了制造这个锅炉,你需要像山一样多的青铜.这个锅炉每tick能产生800L的蒸汽,这足供十台基础蒸汽轮机运作了.%n%nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 150L of steam.%n%nTo make a large boiler you must make a 3x3x5 structure with Bronze Pipe Casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.
+
 
 # Quest.785 - §6§lTransistor
 gtnh.quest785.name=§6§l晶体管
@@ -3153,11 +3155,11 @@ gtnh.quest786.desc=现在你可以制造高级电路板了,这也是盖大型钢
 
 # Quest.787 - §6§lMoooooore steam
 gtnh.quest787.name=§6§l更多更多更多蒸汽
-#C gtnh.quest787.desc=囤积钛,这会很有趣.大型钛锅炉每t生产1600L蒸汽.为应付这数量,你需要为你的大型蒸汽轮机选择正确的涡轮.例如,两个大马士革钢涡轮就很适当.大马士革钢涡轮的最佳流量是800L/t.用组装机制作一个流体校准器来控制流量.如果你有不止一个锅炉,你就需要做更多计算来选择适当的涡轮.确保你的动力仓可以接受所有产生的EU,否则它就会爆炸！
+gtnh.quest787.desc=囤积钛,这会很有趣. 大型钛锅炉每t生产1600L蒸汽.为应付这个数量,你需要为你的大型蒸汽轮机选择正确的涡轮. 例如,两个大马士革钢涡轮就很适当.大马士革钢涡轮的最佳流量是800L/t.用组装机制作一个流体校准器来控制流量.如果你有不止一个锅炉,你就需要做更多计算来选择适当的涡轮.确保你的动力仓可以接受所有产生的EU,否则它就会爆炸！
 
 # Quest.788 - §6§lEven More Steam? Are You Sure?
 gtnh.quest788.name=§6§l还要更多蒸汽？你确定吗？
-#C gtnh.quest788.desc=这台锅炉是最有效率产生蒸汽的途径.其产能达到2B/t.如果你需要更多,盖两台甚至四台锅炉.
+gtnh.quest788.desc=这台锅炉是最有效率产生蒸汽的途径.其产能达到2B/t.如果你需要更多,那就盖两台甚至四台锅炉吧.
 
 # Quest.789 - §9§lEnergy Crystals
 gtnh.quest789.name=§9§l能量水晶
@@ -3269,7 +3271,7 @@ gtnh.quest815.desc=每一个火箭都需要一台引擎.制作2台1阶火箭引�
 
 # Quest.816 - Moon Lander
 gtnh.quest816.name=登陆月球
-#C gtnh.quest816.desc=登陆月球应该实现软着陆. 因此你需要一个频率模块来探测月球上的一些状况和需要一个舒服的座椅.
+gtnh.quest816.desc=登陆月球应该实现软着陆. 因此你需要一个频率模块来探测月球上的一些状况,还需要一个舒服的座椅(后面可能还要造个月球车).
 
 # Quest.817 - Buggy Seat
 gtnh.quest817.name=车座
@@ -3305,15 +3307,15 @@ gtnh.quest824.desc=轻型氧气罐可以储存1000单位的氧气,在没有氧�
 
 # Quest.825 - §2§lCopper Ore
 gtnh.quest825.name=§2§l铜矿
-#C gtnh.quest825.desc=在Y轴5-60之间也许能找到"铜矿石"或者"黄铜矿石",一般的情况你还同时会发现"铁矿石"和"黄铁矿石".  §4提示: 想要知道在哪里可以找到某些特殊矿石,你可以点击NEI中的原矿,NEI会显示此矿石的更多细节(包括可能的矿脉、生成高度、概率以及生成世界等信息). 也适用于贫瘠矿石.
+gtnh.quest825.desc=在Y轴5-60之间也许能找到"铜矿石"或者"黄铜矿石",一般的情况你还同时会发现"铁矿石"和"黄铁矿石".%n%n§4提示:%n想要知道在哪里可以找到某些特殊矿石,你可以点击NEI中的原矿,NEI会显示此矿石的更多细节(包括可能的矿脉、生成高度、概率以及生成世界等信息). 也适用于贫瘠矿石.
 
 # Quest.826 - §2§lIron Ore
 gtnh.quest826.name=§2§l铁矿
-#C gtnh.quest826.desc=使用铁工具,你可以开采主世界中大部分的矿物了. 我想你已经找到了铁矿或者磁铁矿了.所以给我带来一些矿石来吧他们做成铁锭.  §4提示: 想要知道在哪里可以找到某些特殊矿石,你可以点击NEI中的原矿,NEI会显示此矿石的更多细节(包括可能的矿脉、生成高度、概率以及生成世界等信息). 也适用于贫瘠矿石.
+gtnh.quest826.desc=有了铁工具,你可以开采主世界中大部分的矿物了. 我想你可能已经找到铁矿或者磁铁矿了(因为它们非常常见).所以给我一些矿石,然后做成铁锭.%n%n§4提示:%n想要知道在哪里可以找到某些特殊矿石,你可以点击NEI中的原矿,NEI会显示此矿石的更多细节(包括可能的矿脉、生成高度、概率以及生成世界等信息). 也适用于贫瘠矿石.
 
 # Quest.827 - Rocket Fuel
 gtnh.quest827.name=火箭燃料
-#C gtnh.quest827.desc=火箭每次飞行都需要一些燃料, 所以为你的火箭提炼一些火箭燃料吧.%nT1火箭可以使用高十六烷值柴油, 但是更高级的火箭需要更强的燃料.%n%n为了登陆月球,你最好把你的火箭装满燃料,不然你可能就回不来了.但你也可以制作一些额外的燃料罐随身携带以解决燃料问题.%n%n火箭燃料的消耗与目的地以及燃料类型相关, 同时, 更高级的火箭可以存储更多燃料且消耗更少.
+gtnh.quest827.desc=火箭每次飞行都需要一些燃料,所以为你的火箭提炼一些火箭燃料吧.%nT1火箭可以使用高十六烷值柴油,但是更高级的火箭需要更强的燃料.%n%n为了登陆月球,你最好把你的火箭装满燃料,不然你可能就回不来了.但你也可以制作一些额外的燃料罐随身携带以解决燃料问题.%n%n火箭燃料的消耗与目的地以及燃料类型相关,同时,更高级的火箭可以存储更多燃料且消耗更少. 另外,星球引力也会影响燃料使用量,引力越低,登陆所需的燃料越少.
 
 # Quest.828 - Oxygen Collector
 gtnh.quest828.name=氧气收集器
@@ -3340,12 +3342,12 @@ gtnh.quest833.name=清除你的扭曲
 gtnh.quest833.desc=随着时间的推移,你身上所积累的扭曲开始成为一个让你头痛的问题. 使用浴盐和驱邪肥皂也只是一种暂时的解决办法.要真正的摆脱扭曲,你需要一些包含更加强大力量的东西,一滴纯净泪水. 如果你帮我收集一些东西,我可以给你一滴. 好好想想在什么时候使用它,因为如果你想通过研究来解锁这个物品,那可是非常漫长的过程.%n%n§3PS:铱锇合金需要IV级的供能.
 
 # Quest.834 - §3§lCircuit Boards
-gtnh.quest834.name=§3§l电路板
-#C gtnh.quest834.desc=每一块电路板都需要电路板基板. 电路板基板使用覆膜电基板和铜线来制作.
+gtnh.quest834.name=§3§l电路基板
+gtnh.quest834.desc=每一块电路板都需要电路基板. 它由覆膜电基板和铜线制作而成.
 
 # Quest.835 - §5§4§3§lResistor
 gtnh.quest835.name=§5§4§3§l电阻
-#C gtnh.quest835.desc=每个电路板都需要两个电阻.
+gtnh.quest835.desc=每个电路板都需要两个电阻.%n%n稍后你还可以制造更好版本的电阻.
 
 # Quest.836 - §5§lGallium Arsenide
 gtnh.quest836.name=§5§l砷化镓
@@ -3449,11 +3451,11 @@ gtnh.quest860.desc=金红石、氯和碳粉可制成四氯化钛. 把它与镁�
 
 # Quest.861 - §a§lTungstensteel
 gtnh.quest861.name=§a§l钨钢
-#C gtnh.quest861.desc=下一阶段需要钨钢.在火星或者月球的石头粉里可以找到钨,将其和些钢粉搅拌,并将它们在3000K(需要镍铬合金线圈)的工业高炉中融合起来.
+gtnh.quest861.desc=下一阶段需要钨钢.在火星或者月球的石头粉里可以找到钨,将其和些钢粉搅拌,并将它们在3000K(需要镍铬合金线圈)的工业高炉中融合起来.%n%n§3有一系列新的配方获取钨锭,但可能还会改变,所以目前没有任务.
 
 # Quest.862 - §2§lYour First Bow
 gtnh.quest862.name=§2§l你的第一把骨弓
-#C gtnh.quest862.desc=由于普通的弓箭需要在组装机中制造,而且普通的小怪不会掉落(精英怪有几率掉落).因此你需要一把可以长时间使用的弓.虽然可以用木头做,但是用骨头会好得多. 用骨头做2个弓臂,用线作出弓弦.而箭头可以用骨头和燧石,它轻得多,但是可能耐久方面比不上普通的箭.  §4修复弓的方式和修复其他匠魂工具一样,而箭则可以通过工具台或者直接从地上将箭捡起来的方式来恢复数量.
+gtnh.quest862.desc=由于普通的弓箭需要在组装机中制造,而且普通的小怪不会掉落(精英怪有几率掉落).因此你需要一张可以长时间使用的弓.%n%n虽然可以用木头做,但是用骨头会好得多. 用骨头做2个弓臂,用线作出弓弦.而箭头可以用骨头和燧石,它轻得多,但是可能耐久方面比不上普通的箭.%n%n§4修复弓的方式和修复其他匠魂工具一样,而箭则可以通过工具台或者直接从地上将箭捡起来的方式来恢复数量.
 
 # Quest.863 - §2§lBronze Javelin
 gtnh.quest863.name=§2§l铜制标枪
@@ -3465,7 +3467,7 @@ gtnh.quest864.desc=骨弓对你来说太贵了？那就做把燧石飞刀吧！�
 
 # Quest.865 - §1§lMonster Trap
 gtnh.quest865.name=§1§l怪物陷阱
-#C gtnh.quest865.desc=如果你足够幸运地在沙漠或雨林区重生,并且找到了些流沙,去搜集一堆这玩意,然后挖个小洞后用流沙填满它,来保护你的「泥沙」屋.
+gtnh.quest865.desc=如果你很走运,出生点在沙漠或雨林生物群系,并且找到了些流沙,那就去搜集一堆这玩意,然后挖个小洞后用流沙填满它,这样就能保护你的泥土小屋了. 当心别自己掉进去了!
 
 # Quest.866 - The Transcontinental Railroad
 gtnh.quest866.name=横贯铁路
@@ -3473,7 +3475,7 @@ gtnh.quest866.desc=已发现的不同矿脉看来似乎相隔颇远的.想缩短
 
 # Quest.867 - §3§lLapis, Lazurite, Sodalite, Calcite
 gtnh.quest867.name=§3§l青金岩、青金石、方纳石、方解石
-#C gtnh.quest867.desc=为了你的砖高炉你必须找到一条含有方解石的青金石矿脉.你可以在主世界或者暮色森林(20—50层)找到矿脉.
+gtnh.quest867.desc=为了你的砖高炉你必须找到一条含有方解石的青金石矿脉.%n%n你可以在主世界或者暮色森林(20—50层)找到矿脉.
 
 # Quest.868 - §1§2§3§lGypsum
 gtnh.quest868.name=§1§2§3§l石膏
@@ -3485,7 +3487,7 @@ gtnh.quest869.desc=你需要无瑕或精致的钻石、祖母绿、红宝石或�
 
 # Quest.870 - §6§lSmelt All the Things...
 gtnh.quest870.name=§6§l熔了所有东西...
-#C gtnh.quest870.desc=想一次熔炼多达九件物品？只要一点点钢,你就可以做一台railcraft蒸汽烤炉.这是一个2x2x2的多方块结构. 提示:所有熔炉的配方运作得都不错,但你没办法用它来烧木头制作木炭.
+gtnh.quest870.desc=一次熔炼多达九件物品听起来不错吧？只要一点点钢,你就可以做一台RC蒸汽烤炉.这是一个2x2x2的多方块结构.%n%n提示:所有熔炉的配方运作得都不错,但你没办法用它来将木头烧制成木炭.
 
 # Quest.871 - §4§3§lMolds, Molds, Molds
 gtnh.quest871.name=§4§3§l铸模、模具、铸模
@@ -3856,12 +3858,12 @@ gtnh.quest962.name=§5§lVroooooom...
 gtnh.quest962.desc=厌倦了站在周围从你的钻石锥刺上收集所有的掉落物和XP？ 做一个真空料斗来吸收所有的掉落物和XP. 将XP送入罐中储存.
 
 # Quest.963 - Basic Circuit Board
-gtnh.quest963.name=电路板基板
-gtnh.quest963.desc=你可以用硬币购买一些电路板基板.
+gtnh.quest963.name=电路基板
+gtnh.quest963.desc=你可以用硬币购买一些电路基板.
 
 # Quest.964 - Good Circuit Board
-gtnh.quest964.name=进阶电路板基板
-gtnh.quest964.desc=你可以用硬币购买一些进阶电路板基板.
+gtnh.quest964.name=进阶电路基板
+gtnh.quest964.desc=你可以用硬币购买一些进阶电路基板.
 
 # Quest.965 - Vacuum Tubes
 gtnh.quest965.name=真空管
@@ -4085,7 +4087,7 @@ gtnh.quest1019.desc=生产处理器集群时需要用到小型线圈,有许多�
 
 # Quest.1020 - §6§lIron (III) Chloride
 gtnh.quest1020.name=§6§l氯化铁
-gtnh.quest1020.desc=氯化铁可以用于蚀刻电路板基板. 想要制取这种液体,你首先需要用氢气和氯气制取氢氯酸,然后再将氢氯酸和铁粉搅拌.
+gtnh.quest1020.desc=氯化铁可以用于蚀刻电路基板. 想要制取这种液体,你首先需要用氢气和氯气制取氢氯酸,然后再将氢氯酸和铁粉搅拌.
 
 # Quest.1021 - §6§r§6§k§r§6§lSodium Persulfate
 gtnh.quest1021.name=§6§r§6§k§r§6§l过硫酸钠
@@ -4901,7 +4903,7 @@ gtnh.quest1223.desc=有了EV的电路组装机就可以生产更加先进的IV�
 
 # Quest.1224 - Epoxid
 gtnh.quest1224.name=环氧化物
-gtnh.quest1224.desc=环氧化物可以用来制作高级电路板基板.你需要让环氧氯丙烷、双酚A和氢氧化钠反应来制取它.
+gtnh.quest1224.desc=环氧化物可以用来制作高级电路基板.你需要让环氧氯丙烷、双酚A和氢氧化钠反应来制取它.
 
 # Quest.1225 - §9§lIV Circuit Mainframe
 gtnh.quest1225.name=§9§lIV处理器主机
@@ -4940,8 +4942,8 @@ gtnh.quest1233.name=§9§l末影之眼
 gtnh.quest1233.desc=末影之眼可以在高压化学反应釜中制作.让烈焰粉和末影珍珠进行反应.
 
 # Quest.1234 - §a§lEmpty Expoxid Board
-gtnh.quest1234.name=§a§l高级电路板基板
-gtnh.quest1234.desc=首先我们需要使用使用硫酸将金箔和环氧树脂片结合制取环氧树脂基板.然后在使用氯化铁或者过硫酸钠将琥珀金板和环氧树脂基板结合,就可以得到高级电路板基板了. 以上制作过程都需要用到化学反应釜.
+gtnh.quest1234.name=§a§l高级电路基板
+gtnh.quest1234.desc=首先我们需要使用使用硫酸将金箔和环氧树脂片结合制取环氧树脂基板.然后在使用氯化铁或者过硫酸钠将琥珀金板和环氧树脂基板结合,就可以得到高级电路基板了. 以上制作过程都需要用到化学反应釜.
 
 # Quest.1235 - §9§lMicroprocessor LV
 gtnh.quest1235.name=§9§lLV级微型处理器
@@ -4997,7 +4999,7 @@ gtnh.quest1247.desc=生产EV发射器和传感器需要用到量子之眼,通过
 
 # Quest.1248 - §a§lNano Processor
 gtnh.quest1248.name=§a§l纳米处理器
-gtnh.quest1248.desc=HV级别的电路板有三种类型,高级电路板、处理器集群和纳米处理器. 纳米处理器集群需要用到纳米处理器和环氧树脂制作的高级电路板基板. 生产过程中需要保持全程无尘环境.
+gtnh.quest1248.desc=HV级别的电路板有三种类型,高级电路板、处理器集群和纳米处理器. 纳米处理器集群需要用到纳米处理器和环氧树脂制作的高级电路基板. 生产过程中需要保持全程无尘环境.
 
 # Quest.1249 - §a§lNano CPU Wafer and Chip
 gtnh.quest1249.name=§a§l纳米晶元和CPU
