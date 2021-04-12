@@ -3979,7 +3979,7 @@ gtnh.quest992.desc=接下来,你需要找到一些热带蜜蜂. 这种蜜蜂的�
 
 # Quest.993 - Silky Combs and Propoli
 gtnh.quest993.name=丝滑蜂窝
-#C gtnh.quest993.desc=丝滑蜂窝第一处理可以得到丝滑蜂胶,再次处理丝滑蜂胶可以得到制作养蜂人套装所需要的丝缕.%n%n这是非常漫长的过程, 所以用阵列来加快速度吧.%n%n使用格雷或者林业的离心机来进行处理.
+gtnh.quest993.desc=丝滑蜂窝第一处理可以得到丝滑蜂胶,再次处理丝滑蜂胶可以得到制作养蜂人套装所需要的丝缕.%n%n这是非常漫长的过程, 所以用阵列来加快速度吧.%n%n使用格雷或者林业的离心机来进行处理. 而想要处理更高级(也更有用)的蜂巢,只能使用GT离心机.
 
 # Quest.994 - The Centrifuge
 gtnh.quest994.name=离心机(林业MOD)
@@ -4039,15 +4039,15 @@ gtnh.quest1007.desc=把那些512EU的太阳能板制造成方块,这样它们能
 
 # Quest.1008 - §3§lBooks
 gtnh.quest1008.name=§3§l书
-#C gtnh.quest1008.desc=你可以很容易的在村庄或者有着砖块屋顶的地牢里面找到书. 不过我可以告诉你书的合成表.  现在,胶水在你的手上...或者说在马身上？试着将一匹马放到冶炼炉中,并喂给它一些干草保证它存活.(动物保护者协会表示强烈谴责)  或者你也可以等到能去下界,获取一些硫.随你选哪个. 
+gtnh.quest1008.desc=你可以很容易的在村庄或者有着砖块屋顶的地牢里面找到书. 不过我可以告诉你书的合成表.%n%n现在,胶水在你的手上...或者说在马身上？试着将一匹马放到冶炼炉中,并喂给它一些干草保证它的存活.(动物保护者协会表示强烈谴责)%n%n或者你也可以等到能去下界之后,获取一些硫.随你选哪个.
 
 # Quest.1009 - Fish Trapping 2.0
 gtnh.quest1009.name=捕鱼陷阱2.0
-#C gtnh.quest1009.desc=钓鱼真的很无聊.那为什么不用捕鱼机来自动捕鱼呢？ 那么来做一个2.0版本的捕鱼陷阱吧！不需要鱼饵呦~~~
+gtnh.quest1009.desc=钓鱼真的很无聊.那为什么不用捕鱼陷阱来自动捕鱼呢？%n%n那么来做一个2.0版本的捕鱼陷阱吧！不需要鱼饵呦~~~
 
 # Quest.1010 - Fresh Water and Milk
 gtnh.quest1010.name=淡水和牛奶
-#C gtnh.quest1010.desc=很多合成表都需要用到牛奶和淡水.但是普通的制作方法很麻烦. 但是如果使用林业工作台就容易得多.把所有装有牛奶或者水的桶都放进工作台的缓存区,点击一下合成表,就可以一次全部处理完毕了.
+gtnh.quest1010.desc=很多合成表都需要用到牛奶和淡水.但是普通的制作方法很麻烦.%n%n但是如果使用林业工作台就容易得多.把所有装有牛奶或者水的桶都放进工作台的缓存区,按住Shift点击一下合成表,就可以一次全部处理完毕了.
 
 # Quest.1011 - §9§lFind Bauxite
 gtnh.quest1011.name=§9§l找到铝土矿脉
@@ -4154,7 +4154,7 @@ gtnh.quest1036.name=塑料电路基板
 gtnh.quest1036.desc=你可以用硬币购买一些塑料电路基板.
 
 # Quest.1037 - Central Procesing Unit
-#C gtnh.quest1037.name=中央处理器
+gtnh.quest1037.name=中央处理器
 gtnh.quest1037.desc=你可以用硬币购买一些中央处理器.
 
 # Quest.1038 - SMD Resistors
@@ -4227,7 +4227,7 @@ gtnh.quest1054.desc=你可以用硬币购买一些堙没蜂巢.
 
 # Quest.1055 - Did You Want to Know Your Warp Level?
 gtnh.quest1055.name=你想知道你现在的扭曲值么？
-#C gtnh.quest1055.desc=在进行了一些禁忌的研究之后,你的扭曲值增加了一些. 但是你想知道你目前的扭曲值到底有多高么？ 制作一些奥术石蕊试纸来测一测吧！
+gtnh.quest1055.desc=在进行了一些禁忌的研究之后,你的扭曲值增加了一些. 但是你想知道你目前的扭曲值到底有多高么？%n%n制作一些奥术石蕊试纸来测一测吧！
 
 # Quest.1056 - Meadow Hive
 gtnh.quest1056.name=草地蜂巢
@@ -4275,11 +4275,11 @@ gtnh.quest1066.desc=你可以用硬币购买一些共鸣蜂巢.
 
 # Quest.1067 - Space Station
 gtnh.quest1067.name=空间站
-#C gtnh.quest1067.desc=你想拥有一个自己的空间站！你可以在你的空间站上面加装四个旋转推进机来旋转它. 空间站上面的一天要比地球上面长很多,因此你可以有更多的时间来使用太阳能发电机发电！
+gtnh.quest1067.desc=你可以建造一个自己的空间站！你可以在你的空间站上面加装四个旋转推进机让其旋转.%n%n空间站上面的一天要比地球上面长很多,因此你可以有更多的时间来使用太阳能发电机发电！
 
 # Quest.1068 - Are You Prepared?
 gtnh.quest1068.name=你准备好了吗？
-#C gtnh.quest1068.desc=你准备好去月球了吗？多准备一些东西可以帮助你活下去,防止你死在月球上. 如果你在月球上死掉那么你将两手空空地回到地球. 坟墓就在你死亡的地方. 灵魂绑定附魔可以在你死亡时把该物品留在你身上.
+gtnh.quest1068.desc=你准备好去月球了吗？多准备一些东西可以帮助你活下去,防止你死在月球上.%n%n如果你在月球上死掉那么你将两手空空地回到地球. 坟墓就在你死亡的地方. 灵魂绑定附魔可以在你死亡时把该物品留在你身上.
 
 # Quest.1069 - Vanilla Saplings
 gtnh.quest1069.name=原版树苗
@@ -4287,47 +4287,47 @@ gtnh.quest1069.desc=你的家安置在沙漠因此需要橡树或者白桦树苗
 
 # Quest.1070 - Magic Feather
 gtnh.quest1070.name=神奇的羽毛
-#C gtnh.quest1070.desc=让我们来制作魔法地图核心来创造一张魔法地图,这将帮助你在暮色森林更加顺利的进行探险. 首先收集乌鸦的羽毛,你可以在暮色森林通过杀死乌鸦来得到它.然后你需要一点火炬浆果和萤石粉.
+gtnh.quest1070.desc=让我们来合成魔法地图核心,并以此制造一张魔法地图,它将帮助你在暮色森林更加顺利地进行探险.%n%n首先寻找并收集乌鸦的羽毛,你可以在暮色森林通过杀死乌鸦来得到它.它们经常在黑曜石柱边出没. 然后你需要一点火炬浆果和萤石粉.
 
 # Quest.1071 - Magic Map
 gtnh.quest1071.name=魔法地图
-#C gtnh.quest1071.desc=要制作魔法地图,你需要魔法地图核心和一叠纸.请记住！一定要在暮色森里中使用魔法地图.在24个小时之内你只能得到一张魔法地图,所以要小心！
+#C gtnh.quest1071.desc=要制作魔法地图,你需要魔法地图核心和一叠纸.It will fill in the area near you, and reveal boss locations. You need to kill these to get access to the rest of the Forest. Start with the Naga. You can see what to do next in the achievement tab. There's also quests for the boss kills on another tab.在24个小时之内你只能得到一张魔法地图,所以要小心使用！%n%n§4请记住！一定要在暮色森里中使用魔法地图.在主世界或其他世界使用会给服务器带来延迟!
 
 # Quest.1072 - Moon Arrival
 gtnh.quest1072.name=抵达月球
-#C gtnh.quest1072.desc=我有一个小礼物送给你:一个护身符,在这无比黑暗满地怪物的夜晚很有用. 首先,你必须证明你可以自己在月球上生存.挖掘一些月面草皮、泥土和岩石后,你就可以获得它.  务必留意HV任务栏,看看在月球你需要那些矿物.
+gtnh.quest1072.desc=我有一个小礼物送给你:一个护身符,在这无比黑暗满地怪物的夜晚很有用.%n%n首先,你必须证明你可以自己在月球上生存.挖掘一些月面草皮、泥土和岩石后,你就可以获得它.%n%n务必留意HV任务栏,看看在月球你需要寻找哪些矿物.
 
 # Quest.1073 - Naga
 gtnh.quest1073.name=娜迦
-#C gtnh.quest1073.desc=在暮色森林中召唤娜迦！(也只能在暮色森林世界才能召唤成功)
+gtnh.quest1073.desc=在暮色森林中召唤娜迦！%n%n§3也只能在暮色森林世界才能召唤成功.
 
 # Quest.1074 - Lich
 gtnh.quest1074.name=巫妖
-#C gtnh.quest1074.desc=在暮色森林中召唤巫妖！(也只能在暮色森林世界才能召唤成功)
+gtnh.quest1074.desc=在暮色森林中召唤巫妖！%n%n§3也只能在暮色森林世界才能召唤成功.
 
 # Quest.1075 - Minoshroom
 gtnh.quest1075.name=米诺陶
-#C gtnh.quest1075.desc=在暮色森林中召唤米诺陶！(也只能在暮色森林世界才能召唤成功)
+gtnh.quest1075.desc=在暮色森林中召唤米诺陶！%n%n§3也只能在暮色森林世界才能召唤成功.
 
 # Quest.1076 - Hydra
 gtnh.quest1076.name=九头蛇
-#C gtnh.quest1076.desc=在暮色森林中召唤九头蛇！(也只能在暮色森林世界才能召唤成功)
+gtnh.quest1076.desc=在暮色森林中召唤九头蛇！%n%n§3也只能在暮色森林世界才能召唤成功.
 
 # Quest.1077 - Knight Phantom
 gtnh.quest1077.name=幻影骑士
-#C gtnh.quest1077.desc=在暮色森林中召唤幻影骑士！(也只能在暮色森林世界才能召唤成功)
+gtnh.quest1077.desc=在暮色森林中召唤幻影骑士！%n%n§3也只能在暮色森林世界才能召唤成功.
 
 # Quest.1078 - Ur-Ghast
 gtnh.quest1078.name=暮色恶魂
-#C gtnh.quest1078.desc=在暮色森林中召唤暮色恶魂！(也只能在暮色森林世界才能召唤成功)
+gtnh.quest1078.desc=在暮色森林中召唤暮色恶魂！%n%n§3也只能在暮色森林世界才能召唤成功.
 
 # Quest.1079 - Yeti
 gtnh.quest1079.name=雪人首领
-#C gtnh.quest1079.desc=在暮色森林中召唤雪人首领！(也只能在暮色森林世界才能召唤成功)
+gtnh.quest1079.desc=在暮色森林中召唤雪人首领！%n%n§3也只能在暮色森林世界才能召唤成功.
 
 # Quest.1080 - Snow Queen
 gtnh.quest1080.name=冰雪女王
-#C gtnh.quest1080.desc=在暮色森林中召唤冰雪女王！(也只能在暮色森林世界才能召唤成功)
+gtnh.quest1080.desc=在暮色森林中召唤冰雪女王！%n%n§3也只能在暮色森林世界才能召唤成功.
 
 # Quest.1081 - §6§lMV Bending
 gtnh.quest1081.name=§6§l进阶卷板机
@@ -4347,11 +4347,11 @@ gtnh.quest1084.desc=使用润滑油代替水或者蒸馏水会减少切割机在
 
 # Quest.1085 - §2§lMore Compact Storage
 gtnh.quest1085.name=§2§l更加紧凑的存储
-#C gtnh.quest1085.desc=现在你已经有了越来越多的铁储备,你感觉你的木头箱子太小了.不能大量的存储你发现和收集的东西. 那么现在是时候升级你的箱子了. 你可以直接制造一个全新的铁箱子,或者通过升级组件将木头箱子升级到铁箱子.
+gtnh.quest1085.desc=现在你已经有了越来越多的铁储备,你感觉你的木头箱子太小了.不能大量的存储你发现和收集的东西. 那么现在是时候升级你的箱子了. 你可以直接制造一个全新的铁箱子,或者通过升级组件将木头箱子升级到铁箱子.
 
 # Quest.1086 - Juice
-gtnh.quest1086.name=饮料
-#C gtnh.quest1086.desc=大部分的水果都可以榨成果汁. 这是一个获得更多食物种类的方法,并且果汁比直接吃水果营养价值要高.
+gtnh.quest1086.name=果汁
+gtnh.quest1086.desc=大部分的水果都可以榨成果汁. 这是一个获得更多食物种类的方法,并且果汁比直接吃水果的营养价值要高.
 
 # Quest.1087 - Potato Cakes
 gtnh.quest1087.name=马铃薯蛋糕
@@ -4363,7 +4363,7 @@ gtnh.quest1088.desc=超简单！用平底锅来煎鸡蛋！
 
 # Quest.1089 - Hearty Breakfast
 gtnh.quest1089.name=丰盛的早餐
-#C gtnh.quest1089.desc=现在让我们吧所有的东西放在一起,来做一顿丰盛的早餐. 一些烹饪熟的肉、马铃薯蛋糕、烤面包、煎鸡蛋和美味的果汁将会让你早餐很有营养！
+gtnh.quest1089.desc=现在让我们吧所有的东西放在一起,来做一顿丰盛而美味的早餐.%n%n一些烹饪熟的肉、马铃薯蛋糕、烤面包、煎鸡蛋和美味的果汁将会让你早餐很有营养！%n%n在这里只能使用熟肉和果汁.
 
 # Quest.1090 - §5§lTime to dry out the Nether
 gtnh.quest1090.name=§5§l是时候抽干下界了
