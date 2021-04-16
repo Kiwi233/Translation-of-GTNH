@@ -4431,23 +4431,23 @@ gtnh.quest1105.desc=伪逆徽章的仪式要比激活分割徽章的仪式要困
 
 # Quest.1106 - Blub Blub Blub.....
 gtnh.quest1106.name=咕噜...咕噜...咕噜...
-#C gtnh.quest1106.desc=酿造台可以酿造各种各样的药水,比如说夜视、治疗、急速和跳跃.也可以制造一些攻击性药剂或者喷溅型药水. 用最基础的法杖就可以制造酿造台. 具体的合成表可以在魔导手册中的GTNH页面找到.
+gtnh.quest1106.desc=酿造台可以酿造各种各样的药水,比如说夜视、治疗、急速以及跳跃.也可以制造一些攻击性药剂或者喷溅型药水. 酿造台同时还是机器酿造室的原材料之一.%n%n只要有最基础的法杖就可以制造出酿造台.%n%n具体的合成表可以在魔导手册中的GTNH页面找到.
 
 # Quest.1107 - §4§3§lThe Iron Guy
 gtnh.quest1107.name=§4§3§l铁家伙
-#C gtnh.quest1107.desc=一个人很孤独？想要帮忙保护你的基地？想要在独对下界猪人时有个坚强的后盾? 它们可以制造大量的伤害并拉取敌人仇恨,让类似猪人的家伙远离你.它们甚至可以对付讨厌的吸血鬼猪人. 用铁块和南瓜制作一些铁傀儡,这样你基地里面的怪物问题就会消失了.
+gtnh.quest1107.desc=一个人很孤独？想要帮忙保护你的基地？想要在独对下界猪人时有个坚强的后盾? 用铁块和南瓜制作一些铁傀儡,这样你基地里面的怪物问题就会消失了.%n%n铁傀儡可以制造大量的伤害并拉取敌人仇恨,让类似猪人的家伙远离你.它们甚至可以对付讨厌的吸血鬼猪人. 
 
 # Quest.1108 - §3§lThe Cool Guy
-gtnh.quest1108.name=§3§l一个很酷的家伙
-#C gtnh.quest1108.desc=一个人很孤独？或者你居住的地方距离雪原很远？制造一个雪傀儡吧,也许你还可以和它来玩打雪仗,
+gtnh.quest1108.name=§3§l冷酷的家伙
+gtnh.quest1108.desc=一个人很孤独？或者你居住的地方距离雪原很远？%n制造一个雪傀儡吧,也许你还可以和它一起打打雪仗,
 
 # Quest.1109 - Ohhh, Crunchy
 gtnh.quest1109.name=嘎嘣脆鸡肉味
-#C gtnh.quest1109.desc=在进行很长很长时间的神秘研究后, 你找到了一次性永久祛除扭曲的方法-纯净泪水. 吃掉它你将祛除你身上所有的扭曲. 但是小心,祛除扭曲的同时可能负面效果十分致命.
+gtnh.quest1109.desc=在进行很长很长时间的神秘研究后,你找到了一次性永久祛除扭曲的方法-纯净泪水. 吃掉它将祛除你身上所有的扭曲. 但是小心,祛除扭曲的同时可能负面效果十分致命.%n%n译者注:会将身上扭曲值会产生的效果一次性爆发出来,且持续时间非常长,建议吃完赶紧自杀.
 
 # Quest.1110 - Purge All Your Warp
 gtnh.quest1110.name=净化你的扭曲
-#C gtnh.quest1110.desc=你有没有一个梦想,祛除扭曲的同时不会产生副作用？ 净化护身符会让你的梦想成真. 但是别忘了带上它.
+gtnh.quest1110.desc=你有没有一个梦想,祛除扭曲的同时不会产生副作用？ 净化护身符会让你的梦想成真.它能随时间一点一滴地祛除你身上的扭曲,所以不会有副作用!%n%n别忘了带上它.
 
 # Quest.1111 - A Chest for Bees
 gtnh.quest1111.name=养蜂人箱子
@@ -4466,8 +4466,11 @@ gtnh.quest1114.name=标定框架(生产框架)
 gtnh.quest1114.desc=标定框架比浸渍框架还要好.%n每个标定框架可提高一倍的产量.经过验证在三种林业原版框架中(未处理、浸渍和标定)标定框架是最经久耐用的！%n%n你可以制作它们或从村民那里购买.如果你找不到养蜂员村民,还有几个其他选择.治疗一个僵尸村民、在村庄中添加门来让村民们自己增加人口、或是用丘比特的弓和箭...%n%n魔法框架相关:%n魔法蜜蜂的所有框架都以魔法框架为核心.同时魔法框架本身也有特殊功能-打破最大产量提升.普通框架无法达到16倍以上的产量(4框架),但有了魔法框架,这个最大值可以继续提升-不过有一点需要注意,超过16倍的产量会让你的蜜蜂超负荷工作,有一定几率退化成卑贱种.这种退化可能发生在任何蜜蜂刻(bee-tick),不止是蜜蜂死亡时.降低基因衰退的框架可以降低发生这种情况的几率.%n%n当然,具有悠长的寿命,高产的基因,蜂拥而至和巨量的框架,你可能认为这是值得的.%n%n请注意,普通产物的生产上限为200％,而特殊产物的生产上限为100％.
 
 # Quest.1115 - Moron's Guide to Better Trees
-#C gtnh.quest1115.name=种树"智者"手册
-#C gtnh.quest1115.desc=林业的树有多种属性.  当你获得一株具有某条优秀属性的树后,你可以将这条属性培育到其他树身上.用这种方法,你可以获得一棵终极之树,拥有所有你需要的属性-包括所结水果类型！这些培育线不包括所有选择,甚至不一定是最好的,但是你进入林业的良好开端.  注意:你的林业树木培育必须在封闭空间或地下进行,已知蝴蝶会严重影响tps.  想要快速培育你的树,将它封闭起来,这样蝴蝶就跑不出去了,并且还能培育具有更好活动范围和授粉特性的蜜蜂.  你可以在NEI中搜索以下属性.基因采样机中的配方可显示所有提供此属性的树苗.而此任务指出的是最容易完成的线路.  干围(G)-树的宽度. 越宽的树有越多的树叶,但也需要越多的树苗才能开始生长.所有树苗必须同种,且具有相同干围.西北角的树苗决定了新树的状态,而且是催生时骨粉的使用点.核桃初始就提供了2x2干围.  高度(H)-控制树木的生长高度.丛林木的高度已经很高了,但如果你想要最高的树,这里有获得黄檀树的指南.有传言说,罕见的村民有巨大的红杉树苗,能够伸入云端...  成熟(M)-树苗长成树的速度. 要是你想快速获得大量原木,这个参数很重要.  树苗(S)(基因工业中为"生育能力")-破坏树叶获得树苗的几率. 巴尔杉树,一种想要培育出黄檀树的必经之树,有很高的树苗值.有利于制作生物质或是别的什么用途.  多汁(S)-在发酵机中,每个树苗可产生的生物质量.通常用蜂蜜或果汁来提高发酵机的出产.高槿提供了最高的多汁值,但柠檬和李子也不错.  产量(Y)-破坏树叶获得果实的几率.李子最高.  果实(F)-来自不同树木的每种果实都有不同的优势.柠檬是果汁的主要来源,但无法为发酵机提供多少覆盖戍. 另一方面,李子出产果汁的能力普通,但很能产覆盖戍.出产种子油最多的坚果是椰子,但核桃或榛子也是不错的选择.  当你要完成这些杂交树任务,你需要"纯种"的树,"杂种"树可不行.
+gtnh.quest1115.name=种树"智者"手册
+gtnh.quest1115.desc=林业的树有多种属性.  当你获得一株具有某条优秀属性的树后,你可以将这条属性培育到其他树身上.用这种方法,你可以获得一棵终极之树,拥有所有你需要的属性-包括所结水果类型！要是你的科技已经发展到较高水平,还可以制造基因工业的机器辅助树苗培育.%n%n注意:你的林业树木培育必须在封闭空间或地下进行,已知蝴蝶会严重影响tps.%n%n想要快速培育树苗的话,你得将它封闭起来,这样蝴蝶就跑不出去了,并且还能培育具有更好活动范围和授粉特性的蜜蜂.如果你尤有余力,还可以使用框架. 要是你能造一个蜂箱组的话,筛滤(花粉收集)会有一定帮助. §3PS:你需要蜜蜂或蝴蝶来帮助树木授粉. §r%n%n§e树苗/生育能力§r: 破坏树叶获得树苗的几率. 高树苗掉率有利于制造生物质或其他用途. 巴尔杉树,有很高的树苗值,由鹅莓树和枫香树杂交培育而来.%n%n等位基因    掉落几率%n最低        1％%n较低        2.5％%n低          3.5％%n平均        5％%n高          10％%n%n§c成熟(Maturation/Matures)§r: 树苗长成树的速度.要是你想快速获得大量原木,这个参数很重要. 金树莓的成熟速度为最快.%n%n等位基因    长成时间%n最慢        10%n较慢        7%n慢速        5%n平均        4%n快速        3%n较快        2%n最快        ?%n%n§d高度§r: 控制树木的生长高度.丛林木的高度已经很高了,但如果你想要最高的树,这里有获得黄檀树的指南.有传言说,罕见的村民拥有巨大的红杉树苗,能够伸入云端...可能有点§o太§r高大了.%n%n等位基因    高度值%n最小        25％%n较小        50％%n小          75％%n平均        100％%n大          125％%n较大        150％%n最大        175％%n巨大        BIG%n%n§b干围§r: 树的宽度. 越宽的树有越多的原木与树叶,但也需要越多的树苗才能开始生长.所有树苗必须同种,且具有相同干围.西北角的树苗决定了新树的状态,而且是催生时骨粉的使用点.核桃初始就提供了2x2干围. 黄檀树的干围同样是最大的.%n%n等位基因    尺寸%n1x1%n2x2%n3x3%n4x4 %n%nYield: Chances of getting a fruit from a destroyed leaf. Orchard Apple and Chili Pepper are the best here.%n%nAllele     Drop Chance%nLowest   2.5％%nLower    5％%nLow       10％%nAverage 20％%nHigh       30％ %nHigher    ?%%n%n§6Sappiness§r: The amount of biomass a sapling produces in the Fermenter (forestry). Boost Fermenter output more using honey or fruit juice. Blue Mahoe and Red Maple are the best. §3NEI doesn't show recipes for analyzed saplings in the fermenter (and maybe hybrids, I dunno).§r%n%nAllele  Biomass (forestry)%nLowest   100mB%nLower    200mB%nLow       300mB%nAverage 400mB%nHigh       600mB %n%n§4Fireproof§r: Kind of obvious. Applies to the wood. Only the Coast and Giant Sequoia have this.%n%n§7Effect§r: All trees are None.%n%n========================================================================%n%n§2Growth§r: Sipiri trees have Tropical instead of Light, and can only be bred in a Biome with temperature 90％-190％ and humidity 90％-200％ and can only grow in 120％-190％ temp and 90％-200％ humidity. All other trees just need light to grow.%n%n§3Territory/Soil§r: All trees have Average, whatever that means. Probably something related to the below that never really got used.%n%n§eTolerates§r: If it can be planted on sand or not. Only Desert Acacia and Grandidier's Baobab have this. The trait is either Plains or Plains, Desert.%n%n§5Supports§r: What kind of fruits it can theoretically have. Determined by Species. Only fruits from families listed under this trait can be produced by the tree, regardless of what appears under the tree's §aFruits§r trait. There's a number of Extra Trees trees that support all 4 types, but none from Forestry itself.%n%n§aFruit§r: Determines what fruit or nut it produces. Each fruit/nut provides different advantages:%nPlum and Cherry Plum only produces 100L Fruit Juice, but have a 60％ chance of producing Mulch in the Fluid Extractor or Squeezer.%nPapaya produces 600L Fruit Juice, but only has a 10％ chance to produce Mulch.%nCoconuts produce 300L Seed Oil, but only have a 25％ chance to produce Mulch.%nUse a forestry Multifarm so you don't have to break the leaf block to get the fruit/nut. Set it to Manual Orchard, and place everything first.%n%n§bFamily§r: Tells you what family of the fruit listed under the Fruits trait is: Pomes, Prunes, Nuts or Jungle.%n%n§4When breeding these trees for quests, you will need to breed the species "pure", not a hybrid. Fortunately, that's much easier for trees. You should probably save the crossbreeding 'till after you get all the good ones.
+你可以在NEI中搜索以下属性.基因采样机中的配方可显示所有提供此属性的树苗.而此任务指出的是最容易完成的线路.  
+干围(G)-树的宽度. 越宽的树有越多的原木与树叶,但也需要越多的树苗才能开始生长.所有树苗必须同种,且具有相同干围.西北角的树苗决定了新树的状态,而且是催生时骨粉的使用点.核桃初始就提供了2x2干围.
+多汁(S)-在发酵机中,每个树苗可产生的生物质量.通常用蜂蜜或果汁来提高发酵机的出产.高槿提供了最高的多汁值,但柠檬和李子也不错.  产量(Y)-破坏树叶获得果实的几率.李子最高.  果实(F)-来自不同树木的每种果实都有不同的优势.柠檬是果汁的主要来源,但无法为发酵机提供多少覆盖戍. 另一方面,李子出产果汁的能力普通,但很能产覆盖戍.出产种子油最多的坚果是椰子,但核桃或榛子也是不错的选择.  当你要完成这些杂交树任务,你需要"纯种"的树,"杂种"树可不行.
 
 # Quest.1116 - Breed some cultivated bees
 gtnh.quest1116.name=培育一些田野蜂
