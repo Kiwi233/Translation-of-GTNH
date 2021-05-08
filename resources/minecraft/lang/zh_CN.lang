@@ -7156,24 +7156,24 @@ gtnh.quest1786.name=旅行者靴子升级
 gtnh.quest1786.desc=你的靴子可以配备一些升级,如水上步行,二重跳,铅靴或黏滑靴子.%n%n水上步行意味着让你走过水.%n二重跳意味着在空中可以再次跳跃.%n铅靴意味着允许你在水下行走,防止你游泳,还可以获得额外空气.%n黏滑靴子可减少你受到的掉落伤害.%n%n提示:%n自动修复也可以添加到靴子上.%n%n每件护甲都有3个用于升级的插槽.
 
 # Quest.1787 - §6§lData Access Hatches
-#C gtnh.quest1787.name=§6§l数据读取机
-#C gtnh.quest1787.desc=装配线的合成表一向令人**痛苦. 扫描物品,打印然后做成书,经过这样漫长的过程制成的书还仅仅只有文字内容. 何不用TecTech的数据读取机呢？ 它可直接将合成表显示到NEI上.
+gtnh.quest1787.name=§6§l数据访问仓
+#C gtnh.quest1787.desc=So, if you want to do more than one recipe in your Assline, you want a Data Access Hatch. There are 3+1 versions.%n%nData Access Hatch: It holds 4 data sticks, so 4 recipes.%nAdvanced Data Access Hatch: It holds 16 data sticks. Ironically, you can make this right away.%nAutomatable Data Access Hatch: It's UV, but it allows I/O of the sticks. Skip it.%nThe Data Bank Multi: Can be connected to multiple Asslines, and can contain more than 1 DAH. Use this. It's apparently ZPM, but the quest is UV cuz all the TT stuff is there.%n%n§3You only need to make one.
 
 # Quest.1788 - Trigger:Unlocking bee breeding lines (unlock)
-#C gtnh.quest1788.name=解锁蜜蜂培育任务线(隐藏)
-#C gtnh.quest1788.desc=没有描述
+gtnh.quest1788.name=解锁蜜蜂培育任务线(解锁)
+gtnh.quest1788.desc=完成蜜蜂培育任务
 
 # Quest.1789 - §3§lFactory Iron Door
 gtnh.quest1789.name=§3§l工厂的铁门
-#C gtnh.quest1789.desc=你的新工厂需要铁门. 不幸的是, 合成表真的很难,而且需要钢.%n如果你愿意的话, 可以选择额外的两个门作为奖励.
+gtnh.quest1789.desc=你的新工厂需要铁门. 不幸的是,合成表真的很难,而且需要钢.%n%n如果你愿意的话,可以选择额外的两个门作为奖励.
 
 # Quest.1790 - §2§lWooden Door
 gtnh.quest1790.name=§2§l木门
-#C gtnh.quest1790.desc=你的新家需要木门. 当然合成表真的很难,而且需要铁/铜和大量的木头.%n如果你愿意的话, 可以选择额外的两个门作为奖励.
+gtnh.quest1790.desc=你的新家需要木门. 当然合成表真的很难,而且需要铁/铜和大量的木头.%n%n如果你愿意的话,可以选择额外的两个门作为奖励.
 
 # Quest.1791 - §5§lOilsand, or how you get heavy Oil
-#C gtnh.quest1791.name=§5§l油砂或是别的什么获得重油的方式
-#C gtnh.quest1791.desc=油砂是获得石油、重油的另一种方式.可能你很幸运,在沙漠里找到了油砂矿脉.使用你的离心机,你可以从油砂中获得重油和沙子. 油砂矿脉可以在Y=50-80找到.
+gtnh.quest1791.name=§5§l油砂或是别的什么获得重油的方式
+gtnh.quest1791.desc=油砂是获得石油、重油的另一种方式.可能你很幸运,在沙漠里找到了油砂矿脉.使用你的离心机,你可以从油砂中获得重油和沙子.%n%n油砂矿脉可以在Y=50-80找到.
 
 # Quest.1792 - §5§lI guess it's an inkjet?
 gtnh.quest1792.name=§5§l我猜它是喷墨机?
@@ -7184,12 +7184,12 @@ gtnh.quest1793.name=更好(?)的泥土
 gtnh.quest1793.desc=将泥土与沙子放入组装机,再加上一些种子油,你就能获得花土.  这是完美的农田,不需要附近存在水源,你在上面跳跃不会破坏它.但是如果你在上面疾跑可能会将其变回泥土,所以小心点.你可能需要看看"基地建设"任务栏中有关"缓建戒指"的任务.%n%n与被浇灌的耕地不同,花土无法提供额外的湿度值加成,也不能加速IC2作物生长,所以你就不用考虑什么最大最小了.%n%n附魔土、催生灯、洒水器等也是一样.
 
 # Quest.1794 - Crop Stats
-#C gtnh.quest1794.name=更多信息
+gtnh.quest1794.name=作物信息
 gtnh.quest1794.desc=使用便携式扫描仪对种植于土地上的作物扫描,你可以获知作物信息与环境信息.扫描之后的作物掉落的种子也会保持扫描状态.%n你可以在多方块任务栏的工业高炉任务后找到便携式扫描仪的任务.关于这些参数:%n%n§a生长(Growth)§r:%n生长速度多快,数值越高=越快.具体来说,就是每个生长刻(growth-tick)累积的生长点数.当生长达到24+,这株作物就会表现得像杂草一样,所以很多人都说需要将生长控制在23及以下.%n但是,杂草作物只会影响某些条件下的作物.%n%n1)在同一高度,4个基本方向上的作物.%n2)只会影响泥土/草方块,作物架或作物.%n3)如果紧邻一株杂草作物的§o也是§r杂草作物,且它的成熟度>1,它们就会§o相安无事§r%n4)要是一不小心让它影响了正常作物,那么此作物将被杂草替换%n%n§9产量§r:%n影响是否有掉落物,及掉落物的数量.显然,31是最优数值.%n%n§e抗性§r:%n该属性影响作物的多个方面:破坏作物时掉落种子的几率,作物对践踏的抵抗力(在其上跳跃奔跑),减少由于环境要求不满足而导致作物死亡的几率,还有作物对杂草蔓延的抵抗力. 随着抗性提升,突变几率会降低(显然). 建议将其控制在10附近,以获取较平衡的收益.
 
 # Quest.1795 - Metals From the Sky
 gtnh.quest1795.name=天外金属
-#C gtnh.quest1795.desc=你甚至可以用作物创造出地表不存在的金属!  当然,你需要将合适的金属方块置于作物之下,才能使其完全成熟.%n%n另外,高阶作物掉落种子的几率更低,所以在尝试左键获取种子袋之前,最好再繁殖一株保险...
+gtnh.quest1795.desc=你甚至可以用作物创造出地表不存在的金属!  当然,你需要将合适的金属方块置于作物之下,才能使其完全成熟.%n%n另外,高阶作物掉落种子的几率更低,所以在尝试左键获取种子袋之前,最好再繁殖一株保险...
 
 # Quest.1796 - §5§lBetter Gallium and Arsenic sources
 gtnh.quest1796.name=§5§l镓和砷的更好来源
@@ -7209,7 +7209,7 @@ gtnh.quest1799.desc=那么种植一些烈焰甘蔗(blazereed)吧,你再也不用
 
 # Quest.1800 - A Girl's Best Friend
 gtnh.quest1800.name=女孩最好的朋友
-#C gtnh.quest1800.desc=想给一个女孩留下深刻印象?种个钻石出来怎么样?!?
+gtnh.quest1800.desc=想给一个女孩留下深刻印象?种个钻石出来怎么样?!?
 
 # Quest.1801 - Why Does My Plant Bawk Like a Chicken?
 gtnh.quest1801.name=为什么我的作物像鸡一样叫?
