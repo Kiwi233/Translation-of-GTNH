@@ -4727,7 +4727,7 @@ gtnh.quest1179.desc=以前你可能会不停地用扫描仪来检查你工业高
 
 # Quest.1180 - §6§lPassive Chunkloading
 gtnh.quest1180.name=§6§l区块加载
-gtnh.quest1180.desc=让我们制造一些锚来保持区块加载吧.制作锚所需的致密板可以使用MV卷板机生产. 这些锚可以加载3x3区块,你需要加载器硬币或末影珍珠来驱动这些锚.%n%n1个末影珍珠可以为个人锚供能4小时,为被动锚供能1小时.世界锚需要使用区块加载器硬币来驱动(1级提供12个小时加载时间,2级24小时,3级48小时).%n%n§9个人锚§r只有在玩家在线时才有效.%n%n§a被动锚§r在玩家登陆后即生效,直到服务器重启才会失效.%n%n§4世界锚§r只要服务器运行,就一直有效.重启后仍然可以即刻生效.
+gtnh.quest1180.desc=让我们制造一些锚来保持区块加载吧.制作锚所需的致密板可以使用MV卷板机生产. 这些锚可以加载3x3区块,你需要加载器硬币或末影珍珠来驱动这些锚.%n%n1个末影珍珠可以为个人锚供能4小时,为被动锚供能1小时.世界锚需要使用区块加载器硬币来驱动(1级提供12个小时加载时间,2级24小时,3级48小时).%n%n§9个人锚§r只有在玩家在线时才有效.%n%n§a被动锚§r在玩家登录后即生效,直到服务器重启才会失效.%n%n§4世界锚§r只要服务器运行,就一直有效.重启后仍然可以即刻生效.
 
 # Quest.1181 - Minecart with Tank, Workbench or Furnace
 gtnh.quest1181.name=让矿车可以蓄水、储物和制造物品
@@ -6007,7 +6007,7 @@ gtnh.quest1499.desc=等等,什么？你想从矿石中获得更多副产品吗�
 
 # Quest.1500 - §1§lBetter Questing?
 gtnh.quest1500.name=§1§l更好的任务？
-#C gtnh.quest1500.desc=如果你需要任务帮助,可以按住F3+H以查看任务ID,然后任务ID将自动显示在你的任务书中.%n%n如果你想要激活极限模式,打开局域模式,启用作弊,然后输入:%n%n§l/bq_admin hardcore%n§r%n如果你在私人服务器上,可直接使用命令行,而无需重启你的客户端才能离开局域模式并关闭作弊.%n%n极限模式下,一开始你只有三条命,祝你好运."杀戮时刻"任务栏中的任务可提高你的生命上限.%n%n§4想要正确保存任务,你必须在打开游戏的时候登陆Mojang帐户. 对不起,这是BQ(更好任务mod)的限制.§r%n%n组队任务同步: 队伍内任务同步是可用的, 但如果你是后来者, 需要首先在队内的帮助下完成之前的所有任务才能正常同步. 前两个阶段是最麻烦的, 因为那些任务大部分是合成任务, 而之后的任务许多只是要求捡起指定物品. 另外消耗任务也是无法避开的. 还可以使用以下指令:%n%n§l/bq_copyquests <已完成任务玩家> <新玩家>
+#C gtnh.quest1500.desc=如果你需要任务帮助,可以按住F3+H以查看任务ID,然后任务ID将自动显示在你的任务书中.%n%n如果你想要激活极限模式,打开局域模式,启用作弊,然后输入:%n%n§l/bq_admin hardcore%n§r%n如果你在私人服务器上,可直接使用命令行,而无需重启你的客户端才能离开局域模式并关闭作弊.%n%n极限模式下,一开始你只有三条命,祝你好运."杀戮时刻"任务栏中的任务可提高你的生命上限.%n%n§4想要正确保存任务,你必须在打开游戏的时候登录Mojang帐户. 对不起,这是BQ(更好任务mod)的限制.§r%n%n组队任务同步: 队伍内任务同步是可用的, 但如果你是后来者, 需要首先在队内的帮助下完成之前的所有任务才能正常同步. 前两个阶段是最麻烦的, 因为那些任务大部分是合成任务, 而之后的任务许多只是要求捡起指定物品. 另外消耗任务也是无法避开的. 还可以使用以下指令:%n%n§l/bq_copyquests <已完成任务玩家> <新玩家>
 gtnh.quest1500.desc=Better Questing has a number of commands, I'll list the useful ones here so ya'll can stop asking on discord. Note that you need to have cheats enabled to use them.%n%nIf your world does not have cheats enabled, there's a workaround: On the ESC screen, open to LAN, then enable cheats. This makes pausing impossible, so consider reloading your world after. If you are using a personal server, you can do the command on the command line, without the /. You can also edit the level.dat file, and set 'allowCommands' to 1. Make sure to make a backup first, and use NBTExplorer or a similar program to do so.%n%n§l/bq_admin edit§r%nTurns on edit mode so you can edit quests, like me. Most people will just use it to §6see all the quests and their requirements§r though. Hover over a quest to see the requirements, and ID, if you've enabled extended tooltips with F3 + H (outside of the QB).%n%n§l/bq_admin reset all <Player>§r%nResets ALL quests. Use this if you want to start over, or are editing the QB. You should define the player as well if it's a server, otherwise you can skip that part.%n%n§l/bq_admin reset <number> <Player>§r%nResets a specific quest, defined by the number. It may be easier to go into edit mode and use the designer tool to specify which to reset in SP though.%n%n§l/bq_admin complete <number> <Player>§r%nCompletes a specific quest, similarly to above. You can still claim the rewards. §6Use this if a quest is broken, and then report it on Github!§r After checking if it's already reported of course.%n%n§l/bq_admin default load§r%nReloads the quest database from the file. Your save has a version of the QB that it stores that can be different from the one in the file. §6Use this command after updating the pack to update the QB!§r%n%n§l/bq_admin default save§r%nSaves changes to the QB after editing it. Make sure to turn creative off first and reset all quests, because it saves both of those.%n%n§l/bq_admin hardcore§r%nEnables BQ3 Hardcore Mode. You only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%n§l/bq_copyquests <PlayerWithQuestsCompleted> <NewPlayer>§r%n§6Syncs quests with another player.§r If someone joins your party and you don't want to help them through all the quests, use this. They do not gain any rewards from the quests!%n%nAbout Party Syncing: Party syncing works, but if you have someone join later, you'll need to help them go through all the quests first. This is mostly annoying in the first two ages, as they're mostly crafting tasks, instead of retrieval you can just have them pick up. You always need to do consume tasks separately though. %n%n§4For quests to save properly, you must be online and logged into your Mojang account when starting the game. Sorry, it's a limitation of Better Questing.§r
 
 # Quest.1501 - §1§lBackup Your Stuff...
@@ -6121,11 +6121,11 @@ gtnh.quest1527.desc=曾经想要抓只凋灵,但唯一的选择是不可移动�
 
 # Quest.1528 - §5§lPersonal Chunkloading
 gtnh.quest1528.name=§5§l个人锚
-gtnh.quest1528.desc=让我们制作一些个人锚. 你需要双重金板,黑曜石板,钻石板和末影珍珠.可加载3x3区块.你需要用加载器硬币或末影珍珠来驱动这些锚.%n%n1个末影珍珠可以为个人锚供能4小时,为被动锚供能1小时.世界锚需要使用区块加载器硬币来驱动(1级提供12个小时加载时间,2级24小时,3级48小时).个人锚还可用末影碎片供能1小时.%n%n§9个人锚§r只有在玩家在线时才有效.%n%n§a被动锚§r在玩家登陆后即生效,直到服务器重启才会失效.%n%n§4世界锚§r只要服务器运行,就一直有效.重启后仍然可以即刻生效.
+gtnh.quest1528.desc=让我们制作一些个人锚. 你需要双重金板,黑曜石板,钻石板和末影珍珠.可加载3x3区块.你需要用加载器硬币或末影珍珠来驱动这些锚.%n%n1个末影珍珠可以为个人锚供能4小时,为被动锚供能1小时.世界锚需要使用区块加载器硬币来驱动(1级提供12个小时加载时间,2级24小时,3级48小时).个人锚还可用末影碎片供能1小时.%n%n§9个人锚§r只有在玩家在线时才有效.%n%n§a被动锚§r在玩家登录后即生效,直到服务器重启才会失效.%n%n§4世界锚§r只要服务器运行,就一直有效.重启后仍然可以即刻生效.
 
 # Quest.1529 - §9§lChunkloading
 gtnh.quest1529.name=§9§l世界锚
-gtnh.quest1529.desc=使用你的HV组装机,你可以制作一个世界锚.可加载3x3区块.%n%n你需要硬币来为区块加载器供能.%n%n1个末影珍珠可以为个人锚供能4小时,为被动锚供能1小时.世界锚需要使用区块加载器硬币来驱动(1级提供12个小时加载时间,2级24小时,3级48小时).%n%n§9个人锚§r只有在玩家在线时才有效.%n%n§a被动锚§r在玩家登陆后即生效,直到服务器重启才会失效.%n%n§4世界锚§r只要服务器运行,就一直有效.重启后仍然可以即刻生效.%n%n§3请与服务器OP确认,世界锚是否被禁用. 在官方服务器,为了保证TPS维持在较高水平,世界锚目前被禁用.
+gtnh.quest1529.desc=使用你的HV组装机,你可以制作一个世界锚.可加载3x3区块.%n%n你需要硬币来为区块加载器供能.%n%n1个末影珍珠可以为个人锚供能4小时,为被动锚供能1小时.世界锚需要使用区块加载器硬币来驱动(1级提供12个小时加载时间,2级24小时,3级48小时).%n%n§9个人锚§r只有在玩家在线时才有效.%n%n§a被动锚§r在玩家登录后即生效,直到服务器重启才会失效.%n%n§4世界锚§r只要服务器运行,就一直有效.重启后仍然可以即刻生效.%n%n§3请与服务器OP确认,世界锚是否被禁用. 在官方服务器,为了保证TPS维持在较高水平,世界锚目前被禁用.
 
 # Quest.1530 - Ceres Dungeon
 gtnh.quest1530.name=谷神星地牢
@@ -7829,11 +7829,11 @@ gtnh.quest1954.desc=基因工程的分析仪和林业的分析仪功能上没啥
 
 # Quest.1955 - Powder Power
 gtnh.quest1955.name=粉末的力量(Powder Power)
-gtnh.quest1955.desc=植物学利用各种粉末来提高花土属性.  提高PH值-灰烬粉、木浆粉  降低PH值-覆盖物粉、硫磺粉  提高肥沃度-肥料粉、堆肥粉
+gtnh.quest1955.desc=植物学利用各种粉末来提高花土属性.%n%n提高PH值-灰烬粉、木浆粉%n降低PH值-覆盖物粉、硫磺粉%n提高肥沃度-肥料粉、堆肥粉
 
 # Quest.1956 - Killing Weeds and Growing Flowers
 gtnh.quest1956.name=除草种花
-#C gtnh.quest1956.desc=没人喜欢杂草.除草剂可以为你的花土除草.  骨粉可促进花卉发芽,使其更快成熟.
+gtnh.quest1956.desc=没人喜欢杂草.除草剂可以为你的花土除草.%n%n骨粉可促进花卉发芽,使其更快成熟.
 
 # Quest.1957 - Like Having a County Extension Office in Your Hand
 gtnh.quest1957.name=就上手里拿着个县扩展办公室
@@ -7841,7 +7841,7 @@ gtnh.quest1957.desc=土壤检测计将告诉你花土的状态-干燥性、肥�
 
 # Quest.1958 - 80 New Colors to Play With
 gtnh.quest1958.name=又多了80种新颜色给你玩
-#C gtnh.quest1958.desc=当你种植原版花,在其成熟后.用剪刀收割获得幼苗-可以重新种植繁殖.破坏花就会获得一朵成熟的花.用工作台处理这花,你就能获得染料.  想要杂交,你需要将花与空花土相邻种植.留神杂草.最后一个小幼苗就会开始生长.  记住,做这些事情时要在地下或是封闭空间,否则你的TPS会后悔的.
+gtnh.quest1958.desc=当你种植原版花,在其成熟后.用剪刀收割获得幼苗-可以重新种植繁殖.破坏花就会获得一朵成熟的花.用工作台处理这花,你就能获得染料.%n%n想要杂交,你需要将花与空花土相邻种植.留神杂草.最后一个小幼苗就会开始生长.%n%n记住,做这些事情时要在地下或是封闭空间,否则你的TPS会后悔的.
 
 # Quest.1959 - Glass of Many Colors
 gtnh.quest1959.name=五颜六色的玻璃
@@ -7861,11 +7861,11 @@ gtnh.quest1962.desc=现在你有了瓷砖,你可以制作一些简单的图案.�
 
 # Quest.1963 - Tileworker
 gtnh.quest1963.name=瓷砖作坊
-gtnh.quest1963.desc=瓷砖作坊可以将单色陶瓷块做成各种有漂亮图案的方块.  与名字想法,在这里处理的是陶瓷块,而不是瓷砖.
+gtnh.quest1963.desc=瓷砖作坊可以将单色陶瓷块做成各种有漂亮图案的方块.%n%n与名字相反,在这里处理的是陶瓷块,而不是瓷砖.
 
 # Quest.1964 - Does This Shit Even Work?
 gtnh.quest1964.name=这玩意还能用么?
-#C gtnh.quest1964.desc=谁来告诉我?Wiki上关于这,除了"花园"其他啥词条也没有.  也许可以做一些,然后把它们贴在一个林业树厂的林业电路板上?谁在乎,祝你好运.
+gtnh.quest1964.desc=谁来告诉我?Wiki上关于这,除了"花园"其他啥词条也没有.  也许可以做一些,然后把它们贴在一个林业树厂的林业电路板上?谁在乎,祝你好运.
 
 # Quest.1965 - Glassworker
 gtnh.quest1965.name=玻璃作坊
@@ -7873,7 +7873,7 @@ gtnh.quest1965.desc=想要定制玻璃的形状和配置?玻璃作坊可以提�
 
 # Quest.1966 - Mo' Hammers Mo' Problems
 gtnh.quest1966.name=Mo'锤子Mo'麻烦
-#C gtnh.quest1966.desc=没错,是时候看看别的锤子了. 木工大师锤使你能够旋转许多方块. 潜行使用可以垂直旋转方块. 为什么低阶的锤子叫大师锤?谁知道??
+gtnh.quest1966.desc=没错,是时候看看别的锤子了. 木工大师锤使你能够旋转许多方块.%n%n潜行使用可以垂直旋转方块.%n%n为什么低阶的锤子叫大师锤?谁知道??
 
 # Quest.1967 - Panels to Cover Your...Everything
 gtnh.quest1967.name=覆盖万物
@@ -7885,7 +7885,7 @@ gtnh.quest1968.desc=有了木材作坊,你可以做出许多花哨的木头.你�
 
 # Quest.1969 - Look Mom, No Torches!
 gtnh.quest1969.name=妈妈快看！没有火把！
-#C gtnh.quest1969.desc=厌倦了基地里只有火把照明?这一系列任务将会为你展示各种各样的照明手段,一定让你漂亮的基地亮亮堂堂的.  首先,铁路mod的灯笼.这些灯笼有各种材质,包括各种石头和金属.石头做的灯笼合成起来并不太难.有个优点或者说缺点:这些灯笼是固体方块-你不能穿过它们,它们也不会像沙子那样掉落.在NEI中搜索"灯笼"来寻找更多材质.现在做起来有点麻烦,但稍后你可以用组装机非常简单地制作它们.
+gtnh.quest1969.desc=厌倦了基地里只有火把照明?这一系列任务将会为你展示各种各样的照明手段,一定让你漂亮的基地亮亮堂堂的.%n%n首先,铁路mod的灯笼.这些灯笼有各种材质,包括各种石头和金属.石头做的灯笼合成起来并不太难.有个优点或者说缺点:这些灯笼是固体方块-你不能穿过它们,它们也不会像沙子那样掉落.在NEI中搜索"灯笼"来寻找更多材质.现在做起来有点麻烦,但稍后你可以用组装机非常简单地制作它们.
 
 # Quest.1970 - Second Saw
 gtnh.quest1970.name=第二把锯--手锯
@@ -7897,19 +7897,19 @@ gtnh.quest1971.desc=展示架(Bibliocraft)mod提供各种精致灯笼. 还能用
 
 # Quest.1972 - Glowstone
 gtnh.quest1972.name=萤石
-#C gtnh.quest1972.desc=你已经到过下界并收集了萤石.除了合成用途,你还可以用它来照明.你可以将萤石涂色(不幸的是,在1.7.10,不支持彩光)或者用手锯将其切成小粒,这样既能照明又不占太大地方.  你能找到或培育出多种能出产萤石的植物,比如辉光花.
+gtnh.quest1972.desc=你已经到过下界并收集了萤石.除了合成用途,你还可以用它来照明.你可以将萤石涂色(不幸的是,在1.7.10,不支持彩光)或者用手锯将其切成小粒,这样既能照明又不占太大地方.%n%n你能找到或培育出多种能出产萤石的植物,比如辉光花.
 
 # Quest.1973 - Basic ProjectRed Illumination
 gtnh.quest1973.name=基础的红石计划:照明
-#C gtnh.quest1973.desc=基础的红石计划:照明的灯只需要LV的搅拌机就能制作了.  普通版本的需要红石信号才能开启.而反相版本的则是只在没有红石信号时开启.
+gtnh.quest1973.desc=基础的红石计划:照明的灯只需要LV的搅拌机就能制作了.  普通版本的需要红石信号才能开启.而反相版本的则是只在没有红石信号时开启.
 
 # Quest.1974 - Fancier ProjectRed Illumination
 gtnh.quest1974.name=花哨的红石计划:照明
 gtnh.quest1974.desc=花哨的红石计划:照明的灯、灯笼和灯具需要冲压机床和组装机才能制造.
 
 # Quest.1975 - ProjectRed Lights With a Purpose
-gtnh.quest1975.name=有目的的红石计划灯
-#C gtnh.quest1975.desc=红石计划提供了两种特殊的灯,可以用作按钮.  普通的按钮一直保持点亮.反馈照明按钮会在收到红石信号时点亮.
+gtnh.quest1975.name=功能性红石计划灯
+gtnh.quest1975.desc=红石计划提供了两种特殊的灯,可以用作按钮.  普通的按钮一直保持点亮.反馈照明按钮会在收到红石信号时点亮.
 
 # Quest.1976 - Flat Lamps
 gtnh.quest1976.name=平面灯
@@ -7917,11 +7917,11 @@ gtnh.quest1976.desc=这些Ztones中简单的灯有漂亮、柔和的灯形.我�
 
 # Quest.1977 - Glowstone & Chisel torches, space rated
 gtnh.quest1977.name=萤石&凿子火把, 太空使用评估
-#C gtnh.quest1977.desc=当你离开地球,探索星空时,你需要最优秀的火把-可以在无氧环境使用的火把.为此,你需要萤石火把.你可以用凿子将这些火把做成各种样式.这种火把已被证实可在深空使用.
+gtnh.quest1977.desc=当你离开地球,探索星空时,你需要最优秀的火把-可以在无氧环境使用的火把.为此,你需要萤石火把.你可以用凿子将这些火把做成各种样式.这种火把已被证实可在深空使用.
 
 # Quest.1978 - Lighting Up a Large Area, Without Electricity
 gtnh.quest1978.name=不用电照亮一大片区域
-#C gtnh.quest1978.desc=如果你有相当大的一片区域需要照明,而你又不想用电,你可以用这些泛光灯.它们可以使用熔炉的燃料,包括方块和压缩方块.制作时确实需要一些电子元件.  它可以发出一道长距离的光束,也可以放出短距离的光锥.
+gtnh.quest1978.desc=如果你有相当大的一片区域需要照明,而你又不想用电,你可以用这些泛光灯.它们可以使用熔炉的燃料,包括方块和压缩方块.制作时确实需要一些电子元件.  它可以发出一道长距离的光束,也可以放出短距离的光锥.
 
 # Quest.1979 - Lighting Up a Large Area, With Electricity
 gtnh.quest1979.name=用电照亮一大片区域
@@ -7936,24 +7936,24 @@ gtnh.quest1981.name=更好的EIO?
 gtnh.quest1981.desc=EIO的电灯和无线电灯可以照亮最多10格,而普通火把只能照亮7格.你需要离心液态空气才能过去制作灯泡所需的气体.
 
 # Quest.1982 - What's Behind Door #3?
-#C gtnh.quest1982.name=门后有什么?
-#C gtnh.quest1982.desc=更多门(MalisisDoors)mod可以让你见识各种奇思妙想的定制门.  用玩家探测覆盖板开门比起用按钮或压力板开门好多了...不过对原料不太熟.  或许你可以找到这台方块混合器的用法,它太奇怪了并且无法正确工作.我正打算把它扔了呢.  还有一些可合成的更多门mod的物品,查看NEI吧.
+gtnh.quest1982.name=门后有什么#3?
+gtnh.quest1982.desc=更多门(MalisisDoors)mod可以让你见识各种奇思妙想的定制门.%n%n用玩家探测覆盖板开门比起用按钮或压力板开门好多了...不过对原料不太熟.%n%n或许你可以找到这台方块混合器的用法,它太奇怪了并且无法正确工作.我正打算把它扔了呢.%n%n还有一些可合成的更多门mod的物品,查看NEI吧.
 
 # Quest.1983 - Build it Bigger
 gtnh.quest1983.name=造个大家伙
-#C gtnh.quest1983.desc=你可以的！建筑指导仪可以为你显示某些简单几何图形的轮廓.你需要给它红石信号才能激活它.  译者注:你可以通过Shift+右键它来改变形状,或者右键它的不同面来增大或减小轮廓.
+gtnh.quest1983.desc=你可以的！建筑指导仪可以为你显示某些简单几何图形的轮廓.你需要给它红石信号才能激活它.  译者注:你可以通过Shift+右键它来改变形状,或者右键它的不同面来增大或减小轮廓.
 
 # Quest.1984 - Faster, Better, Buildi-er
-#C gtnh.quest1984.name=更快、更好、更"建筑"
-#C gtnh.quest1984.desc=强化建筑指导仪提供了更有特征的指导.最重要的是,你可以手持你想要放置的方块右键这台机器任意白色部分,然后这个方块就会被放置在世界中.你需要提供红石信号来激活这台机器.
+gtnh.quest1984.name=更快、更好、更"建筑"
+gtnh.quest1984.desc=强化建筑指导仪提供了更有特征的指导.最重要的是,你可以手持你想要放置的方块右键这台机器任意白色部分,然后这个方块就会被放置在世界中.你需要提供红石信号来激活这台机器.
 
 # Quest.1985 - So Much Nicer Than Ladders
 gtnh.quest1985.name=比梯子好多了
 gtnh.quest1985.desc=电梯非常适合在你的基地用于快速垂直运输.离开有色电梯将停在同一颜色的电梯上.用一些更多门(Malisis-doors)mod的门来做出"真正"电梯的效果. 旋转电梯会根据玩家面朝的方向将玩家向下或向上传送.很适合于你的电梯井位于某一层的一侧,而另一侧是另外一层.
 
 # Quest.1986 - More Like Ouch-i-tect
-gtnh.quest1986.name=More like ouch-i-tect
-#C gtnh.quest1986.desc=建筑师锯台可以将大部分整立方体方块加工成各种令人惊叹的形状.  用木工锤右键可将方块旋转90度.用木工锤Shift+右键可更改底面的方向.  凿子有许多方式来改变方块的结构. 某些块自动与相邻方块形成连接.可以通过手持凿子右键你想改变的面附近,来禁用或重新启用自动连接. 某些方块可以塞入第二材料.用凿子右键方块的中心,可以取出第二材料. 你还可以用凿子右键原版玻璃、玻璃板、萤石或冰块来无损采集它们.
+gtnh.quest1986.name=更像 Ouch-i-tect
+gtnh.quest1986.desc=建筑师锯台可以将大部分整立方体方块加工成各种令人惊叹的形状.%n%n用木工锤右键可将方块旋转90度.用木工锤Shift+右键可更改底面的方向.%n%n凿子有许多方式来改变方块的结构. 某些块自动与相邻方块形成连接.可以通过手持凿子右键你想改变的面附近,来禁用或重新启用自动连接.%n%n某些方块可以塞入第二材料.用凿子右键方块的中心,可以取出第二材料.%n%n你还可以用凿子右键原版玻璃、玻璃板、萤石或冰块来无损采集它们.
 
 # Quest.1987 - §3§lUpgrading Drawers
 gtnh.quest1987.name=§3§l升级抽屉
@@ -7961,11 +7961,11 @@ gtnh.quest1987.desc=抽屉升级不同于桶升级.首先你需要制作升级�
 
 # Quest.1988 - §3§lYour Mom Says to Upgrade Your Drawers
 gtnh.quest1988.name=§3§l你妈妈说你得升级抽屉了
-#C gtnh.quest1988.desc=抽屉有许多升级等级.制作一些铁、金等级的抽屉升级,我将会给你一些特殊用途的抽屉升级,让我们在你的基地实验实验这些特殊升级吧.查看NEI获知黑曜石、绿宝石、钻石等更多抽屉升级.  §4想要移除升级,空手Shift+右键抽屉打开升级GUI.
+gtnh.quest1988.desc=抽屉有许多升级等级.制作一些铁、金等级的抽屉升级,我将会给你一些特殊用途的抽屉升级,让我们在你的基地实验实验这些特殊升级吧.查看NEI获知黑曜石、绿宝石、钻石等更多抽屉升级.%n%n§4想要移除升级,空手Shift+右键抽屉打开升级GUI.
 
 # Quest.1989 - Machine Inventory Manager
 gtnh.quest1989.name=工厂管理器
-#C gtnh.quest1989.desc=工厂管理器是史蒂大...我是说史蒂夫工厂管理(SFM)的核心方块. SFM是一种高阶自动化系统.AE2可以一次处理最多9格的自动合成或加工,甚至可以嵌套.而SFM可以处理更复杂的合成,比如说装配线合成表.  工厂线缆可将工厂管理器连接到物品或流体容器.  直到某个智者写出智者手册以前,你最好的选择是实验,在Discord上寻求帮助,或是搜索Google.这个界面类似于大多数基于图形用户界面的自动化系统,比如LabView.  设计糟糕的SFM系统会导致tps下降.确保你的输出空置,千万不要填满  工厂线缆是SFM的基础线缆.它们使工厂管理器能与各种容器交互,并充当管理器与其他设备之间的连接者.  mehdi2344认为我在章节标题上开了个糟糕的玩笑,但他是个笨蛋,就这样.  感谢这些任务的书写者Nori-Silverrage!
+gtnh.quest1989.desc=工厂管理器是史蒂大...我是说史蒂夫工厂管理(SFM)的核心方块. SFM是一种高阶自动化系统.AE2可以一次处理最多9格的自动合成或加工,甚至可以嵌套.而SFM可以处理更复杂的合成,比如说装配线合成表.%n%n工厂线缆可将工厂管理器连接到物品或流体容器.%n%n在某个智者写出智者手册以前,你最好的选择就是实验,在Discord上寻求帮助,或是搜索Google.这个界面类似于大多数基于图形用户界面的自动化系统,比如LabView.%n%n设计糟糕的SFM系统会导致tps下降.确保你的输出空置,千万不要填满.%n%n工厂线缆是SFM的基础线缆.它们使工厂管理器能与各种容器交互,并充当管理器与其他设备之间的连接者.%n%nmehdi2344认为我在章节标题上开了个糟糕的玩笑,但他是个笨蛋,就这样.%n%n感谢这些任务的书写者Nori-Silverrage!%n%n§3另外,在创造模式测试时,可以使用'创造物品供应器'. Energistics-Connector被禁用,原因是它无法正确工作.
 
 # Quest.1990 - Moving the Manager 
 gtnh.quest1990.name=移动工厂管理器
@@ -7973,7 +7973,7 @@ gtnh.quest1990.desc=曾经完成了一个很棒的程序,然后意识到你的�
 
 # Quest.1991 - Naming Names
 gtnh.quest1991.name=命名
-#C gtnh.quest1991.desc=工厂贴标器使你能够给予任意能与工厂管理器连接的东西一个独一无二的名字-这将有助于你写程序时辨认它们.  在文本框中设置标签或者搜索已存储的标签-点击任意已存储标签以选中它,双击以编辑它.关闭GUI时,无论文本框中有什么都将被设置为标签.  手持贴标器左键以贴上标签,右键以打开GUI.贴上一个空白标签将会移除任意已存在的标签.  或许有bug或许没有,玩得开心！
+gtnh.quest1991.desc=工厂贴标器使你能够给予任意能与工厂管理器连接的东西一个独一无二的名字-这将有助于你写程序时辨认它们.%n%n在文本框中设置标签或者搜索已存储的标签-点击任意已存储标签以选中它,双击以编辑它.关闭GUI时,无论文本框中有什么都将被设置为标签.%n%n手持贴标器左键以贴上标签,右键以打开GUI.贴上一个空白标签将会移除任意已存在的标签.%n%n§3或许有bug或许没有.多人游戏重新登录会造成标签丢失,不过在单人游戏中没有这样的问题.玩得开心！
 
 # Quest.1992 - Wand Enhancements
 gtnh.quest1992.name=法杖强化
@@ -7985,7 +7985,7 @@ gtnh.quest1993.desc=将这个强化应用到法杖中会使法杖额外增加25�
 
 # Quest.1994 - Vis Channels
 gtnh.quest1994.name=法杖强化: Vis隧道
-#C gtnh.quest1994.desc=将这个强化应用到法杖将使法杖减少10％的vis消耗.但同时增加5％的不稳定性.  我不确定这东西能否正常工作,但试试看吧,然后把你的实验结果告诉我,好吗?
+gtnh.quest1994.desc=将这个强化应用到法杖将使法杖减少10％的vis消耗.但同时增加5％的不稳定性.  我不确定这东西能否正常工作,但试试看吧,然后把你的实验结果告诉我,好吗?
 
 # Quest.1995 - What Are You, a Seamstress?
 gtnh.quest1995.name=你是谁,一个女裁缝?
@@ -7997,11 +7997,11 @@ gtnh.quest1996.desc=每一点vis都很重要,所以为你自己制作神秘使�
 
 # Quest.1997 - Boots Are Made For Walking
 gtnh.quest1997.name=靴子是用来走路的
-#C gtnh.quest1997.desc=也用来游泳...在你环游世界时,这些旅行者之靴将使你快出残影.想要制作它们,你得先研究研究注魔.
+gtnh.quest1997.desc=也用来游泳...在你环游世界时,这些旅行者之靴将使你快出残影.想要制作它们,你得先研究研究注魔.%n%n§3还有电子版本,拥有更高的魔力减免,请查阅'电子魔法工具'章节.
 
 # Quest.1998 - I Can See Everything
 gtnh.quest1998.name=我可以看到一切
-#C gtnh.quest1998.desc=有了新法杖,你就可以制作揭示之护目镜了.再加上神秘节点追踪器,寻找节点那都不是事儿. 神秘节点追踪器的默认快捷键是"I".你可以在列表中选择你扫描过的节点,然后箭头会告诉你怎么走的.你还可以对此列表排序.  更妙的是,护目镜还会为你提供5％的魔力减免.  简单的镜片升级也可以让你拥有各种视觉能力.  稍后你可以制作更先进的护目镜,甚至可以将护目镜与护甲结合起来.
+gtnh.quest1998.desc=有了新法杖,你就可以制作揭示之护目镜了.  更妙的是,护目镜还会为你提供5％的魔力减免.%n%n简单的镜片升级也可以让你拥有各种视觉能力.%n%n稍后你可以制作更先进的护目镜,甚至可以将护目镜与护甲结合起来.%n%n结合神秘节点追踪器,寻找节点那都不是事儿. 神秘节点追踪器的默认快捷键是"I".你可以在列表中选择你扫描过的节点,然后箭头会告诉你怎么走的.你还可以对此列表排序.
 
 # Quest.1999 - Redstone Emitter
 gtnh.quest1999.name=红石信号发射器
@@ -8009,7 +8009,7 @@ gtnh.quest1999.desc=红石信号发射器的6个面都能发出红石信号.红�
 
 # Quest.2000 - Cable Camouflage
 gtnh.quest2000.name=伪装方块
-#C gtnh.quest2000.desc=伪装方块能使线缆的面可以模拟任意其他方块.伪装方块在完整的程序运行中可以正常工作,因此可以实现动态更新.  请注意,伪装方块与所有SFM线缆放置起来没什么区别,但它无法充当工厂线缆,因此在许多情况下需要与高级集线器结合使用.
+gtnh.quest2000.desc=伪装方块能使线缆的面可以模拟任意其他方块.伪装方块在完整的程序运行中可以正常工作,因此可以实现动态更新.%n%n请注意,伪装方块与所有SFM线缆放置起来没什么区别,但它无法充当工厂线缆,因此在许多情况下需要与高级集线器结合使用.
 
 # Quest.2001 - Inventory Relay
 gtnh.quest2001.name=物品栏中转站
@@ -8049,7 +8049,7 @@ gtnh.quest2009.desc=告示牌更新器使你的工厂管理器可以更新外部
 
 # Quest.2010 - Item Valve
 gtnh.quest2010.name=物品阀门
-#C gtnh.quest2010.desc=物品阀门使你的工厂管理器可以在3x3x3的立方体范围内吸入掉落物.你还可以用它将物品沿着它的方向扔到世界里.
+gtnh.quest2010.desc=物品阀门使你的工厂管理器可以在3x3x3的立方体范围内吸入掉落物.你还可以用它将物品沿着它的方向扔到世界里.
 
 # Quest.2011 - Rapid Item Valve
 gtnh.quest2011.name=快速物品阀门
@@ -8057,7 +8057,7 @@ gtnh.quest2011.desc=快速物品阀门可无延迟地吸入掉落物.
 
 # Quest.2012 - Cable Cluster
 gtnh.quest2012.name=集线器
-#C gtnh.quest2012.desc=集线器使你能将尽可能多的其他线缆组合到一个方块中.你可以把红石信号接收器和红石信号发射器以及物品栏中转站统统整合到一个方块中. 组合而来的线缆是一种"终端"类的线缆,它不能像工厂线缆一样扩展工厂管理器的范围.
+gtnh.quest2012.desc=集线器使你能将尽可能多的其他线缆组合到一个方块中.你可以把红石信号接收器和红石信号发射器以及物品栏中转站统统整合到一个方块中.%n%n组合而来的线缆是一种"终端"类的线缆,它不能像工厂线缆一样扩展工厂管理器的范围.
 
 # Quest.2013 - Advanced Cable Cluster
 gtnh.quest2013.name=高级集线器
@@ -8065,7 +8065,7 @@ gtnh.quest2013.desc=高级集线器具有工厂线缆的功能,可以扩展工�
 
 # Quest.2014 - §6§lAll Those Chunks, All in a Row
 gtnh.quest2014.name=§6§l将那些区块,变成一行
-#C gtnh.quest2014.desc=有时你不需要加载3x3区块,但需要加载一条长长的线.这对铁路线或长距离输电线很有用.  拱卫之锚可以胜任这项工作.  手持撬棍右键区块加载器以激活它.然后沿直线走出,放置拱卫之锚,手持撬棍右键.这样,最多25x1的区块将会保持加载.  相比于一路正常加载3x3区块,这样节省得多,但还是要多多囤积末影珍珠和区块加载币.
+gtnh.quest2014.desc=有时你不需要加载3x3区块,但需要加载一条长长的线.这对铁路线或长距离输电线很有用.  拱卫之锚可以胜任这项工作.  手持撬棍右键区块加载器以激活它.然后沿直线走出,放置拱卫之锚,手持撬棍右键.这样,最多25x1的区块将会保持加载.%n%n相比于一路正常加载3x3区块,这样节省得多,但还是要多多囤积末影珍珠和区块加载币.
 
 # Quest.2015 - Redstone Receiver
 gtnh.quest2015.name=红石信号接收器
@@ -8073,7 +8073,7 @@ gtnh.quest2015.desc=红石信号接收器的六个面都可以接收红石信号
 
 # Quest.2016 - Block Gate
 gtnh.quest2016.name=方块交互器
-#C gtnh.quest2016.desc=方块交互器可以破坏并拾取或是放置方块.
+gtnh.quest2016.desc=方块交互器可以破坏并拾取或是放置方块.
 
 # Quest.2017 - Block Detector
 gtnh.quest2017.name=方块更新检测器
@@ -8081,23 +8081,23 @@ gtnh.quest2017.desc=方块更新检测器使你的工厂管理器可以检测到
 
 # Quest.2018 - §9§a§lCutting Up Stuff at EV
 gtnh.quest2018.name=§9§a§lEV切割机
-#C gtnh.quest2018.desc=既然你已经到达EV阶段了,你就需要更先进的切割机.最好做一个.
+gtnh.quest2018.desc=既然你已经到达EV阶段了,你就需要更先进的切割机.最好做一个.
 
 # Quest.2019 - The Basics of SFM
 gtnh.quest2019.name=SFM基础
-gtnh.quest2019.desc=变量-声明vs标准 声明会创建一个包含合格方块的变量.这使工作流更新很方便.比如,你可以有个包含两个箱子的变量.你在每个循环中都用到这个变量,稍后你添加了一个箱子.只需更新变量,每个循环就可以正常使用这个变量了.  标准变量可以插入到工作流的中间(它有输入/输出),因此可以在运行中进行修改.  请注意,对于每个循环,都需要一个空变量.这在循环中列为"元素".  全局vs本地 全局将保留对工作流中完成的变量的更改,反之,本地保留对该工作流部分本地执行的任何操作.  译者注:这一段我懵了,请参阅原文.  Variables - Declaration vs Standard  Declaration is simply creating a variable with eligible blocks in it. This allows easy updating of workflows. For instance you could have a variable that contains 2 chests. You use it in a nifty for each loop and later add another chest. Simply update the variable and the for each loop will start using it.  Standard variables are able to be inserted into the middle of a workflow (it has input/output) and thus can be modified on the run.  Please note that for each loops will require a empty variable to work with. This is listed as "Element" in the loop.  Global vs Local  Global will keep changes to a variable that are done in the workflow, whereas local keeps anything done local to that part of the workflow.
+gtnh.quest2019.desc=变量-声明vs标准 声明会创建一个包含合格方块的变量.这使工作流更新很方便.比如,你可以有个包含两个箱子的变量.你在每个循环中都用到这个变量,稍后你添加了一个箱子.只需更新变量,每个循环就可以正常使用这个变量了.  标准变量可以插入到工作流的中间(它有输入/输出),因此可以在运行中进行修改.  请注意,对于每个循环,都需要一个空变量.这在循环中列为"元素".  全局vs本地 全局将保留对工作流中完成的变量的更改,反之,本地保留对该工作流部分本地执行的任何操作.%n%n译者注:这一段我懵了,请参阅原文.%n%nVariables - Declaration vs Standard  Declaration is simply creating a variable with eligible blocks in it. This allows easy updating of workflows. For instance you could have a variable that contains 2 chests. You use it in a nifty for each loop and later add another chest. Simply update the variable and the for each loop will start using it.  Standard variables are able to be inserted into the middle of a workflow (it has input/output) and thus can be modified on the run.  Please note that for each loops will require a empty variable to work with. This is listed as "Element" in the loop.  Global vs Local  Global will keep changes to a variable that are done in the workflow, whereas local keeps anything done local to that part of the workflow.
 
 # Quest.2020 - A Magical Box
 gtnh.quest2020.name=神奇的盒子
-#C gtnh.quest2020.desc=末影箱子非常神奇.无论你制造了多少末影箱子,它们看起来都相互连接到同一维度.我可以在一处放入物品,然后再在另一处拿出它们!还可以对箱子顶部染色来限定频道,任何拥有相同颜色组合的末影箱子共享同一片空间.对箱子使用钻石可以将其锁定为你的私人箱子,并使用私人网络.空手Shift+右键可以移除钻石让箱子重新回到公共网络中.
+gtnh.quest2020.desc=末影箱子非常神奇.无论你制造了多少末影箱子,它们看起来都相互连接到同一维度.我可以在一处放入物品,然后再在另一处拿出它们!还可以对箱子顶部染色来限定频道,任何拥有相同颜色组合的末影箱子共享同一片空间.对箱子使用钻石可以将其锁定为你的私人箱子,并使用私人网络.空手Shift+右键可以移除钻石让箱子重新回到公共网络中.
 
 # Quest.2021 - A Magical Tank
 gtnh.quest2021.name=神奇的储罐
-#C gtnh.quest2021.desc=这个储罐似乎总是连接到同一个空间,无论你制造了多少末影储罐.  我可以在一个维度将流体通入储罐,然后再完全不同的另一个维度抽取这些流体!我发现了一个方法,可以对储罐顶部染色来为每个储罐指定一个频道.  使用钻石使储罐成为私有的,连接使用者的私人网络,且不会同其他玩家的储罐分享流体.Shift+右键可以移除钻石让储罐重新回到公共网络中.  前部的刻度盘控制储罐的输入/输出. 当蓝色在上时,储罐接收流体.当橙色在上时,储罐输出流体. 
+gtnh.quest2021.desc=这个储罐似乎总是连接到同一个空间,无论你制造了多少末影储罐.  我可以在一个维度将流体通入储罐,然后再完全不同的另一个维度抽取这些流体!我发现了一个方法,可以对储罐顶部染色来为每个储罐指定一个频道.  使用钻石使储罐成为私有的,连接使用者的私人网络,且不会同其他玩家的储罐分享流体.Shift+右键可以移除钻石让储罐重新回到公共网络中.  前部的刻度盘控制储罐的输入/输出. 当蓝色在上时,储罐接收流体.当橙色在上时,储罐输出流体. 
 
 # Quest.2022 - That Chest is Too Big to Carry Around
 gtnh.quest2022.name=箱子太重了,难以携带
-#C gtnh.quest2022.desc=不想带着末影箱子然后不停的放下然后破坏拾取,何不试试方便好用的末影袋子呢?你必须将它与你想要链接的箱子同步.若要将其与新的箱子同步,手持袋子Shift+右键新的箱子.
+gtnh.quest2022.desc=不想带着末影箱子然后不停的放下然后破坏拾取,何不试试方便好用的末影袋子呢?你必须将它与你想要链接的箱子同步.若要将其与新的箱子同步,手持袋子Shift+右键新的箱子.
 
 # Quest.2023 - §b§a§lMore Power Needed, Sir!
 gtnh.quest2023.name=§b§a§l需要更多的电力,先生!
@@ -8105,15 +8105,15 @@ gtnh.quest2023.desc=工业高炉和大型化学反应釜的配方需要越来越
 
 # Quest.2024 - §c§lAssline Quest Updates
 gtnh.quest2024.name=§c§l装配线配方更新
-#C gtnh.quest2024.desc=整合包升级后, 对装配线配方有改动的话, 你的旧闪存就没用了. 但是更麻烦的是, 你不能通过重新扫描一个旧UV马达来获得新UHV马达的数据, 你需要扫描一个新UV马达才行. 最好从最低阶改动的部件开始, 然后继续前进, 知道重新扫描到你的当前阶段. 是的, 这糟透了, 你希望有其他方法.  通过查看NEI配方是否与数据读取机中的配方匹配, 可以判断闪存是否过期. NEI永远正确.
+gtnh.quest2024.desc=整合包升级后,对装配线配方有改动的话,你的旧闪存就没用了. 但是更麻烦的是,你不能通过重新扫描一个旧UV马达来获得新UHV马达的数据,你需要扫描一个新UV马达才行. 最好从最低阶改动的部件开始,然后继续前进,直到重新扫描到你的当前阶段. 是的,这糟透了,你希望有其他方法.  通过查看NEI配方是否与数据读取机中的配方匹配,可以判断闪存是否过期. NEI永远正确.%n%n§3以上请询问Bart,然后看看你能否从他那得到答案. 他干的拆解NBT移除,可能会或可能没有做到这一点.
 
 # Quest.2025 - GT++ Knowledge
 gtnh.quest2025.name=GT++知识
 gtnh.quest2025.desc=想要成为GT++专家,你需要合成相应机器的手册.
 
 # Quest.2026 - §3§lA Better Way to Find Items
-#C gtnh.quest2026.name=§3§l更好的寻找物品方式
-#C gtnh.quest2026.desc=NEI具有内置搜索功能,用于查找存储在附近库存中的物品. 仓库目录(Stockroom-Catalog)可以显示你库存中的物品列表.  手持仓库目录Shift+右键一个新库存(箱子、书架、桶以及任何有物品栏的东西),来将这个库存加入仓库目录中进行追踪.再次Shift+右键相同的方块来从目录中移除此库存.  在仓库目录中的方块会有小小的粒子效果,让你知道它正在被追踪.  手持仓库目录右键可以打开它的GUI并看到列表.  你可以对列表进行排序,包括升序和降序、数量(计数)或字母顺序.  你还可以看到有某件特定物品的所有库存列表,并可以很方便地将那些库存中的某一个加入仓库目录.  仓库目录还可以用排版台和拓印机复印.  点击仓库目录的标题可随意改动,自定义它的标签.  点击每个列表右侧的小箱子图标可以打开库存列表视图.  如果你想的话,可以制作一个路标盘,用来指向你要找的箱子.由于我们已经有了旅行地图和NEI,所以这玩意不是必需品.
+gtnh.quest2026.name=§3§l更好的寻找物品方式
+gtnh.quest2026.desc=NEI具有内置搜索功能,用于查找存储在附近库存中的物品. 仓库目录(Stockroom-Catalog)可以显示你库存中的物品列表.%n%n手持仓库目录Shift+右键一个新库存(箱子、书架、桶以及任何有物品栏的东西),来将这个库存加入仓库目录中进行追踪.%n%n再次Shift+右键相同的方块来从目录中移除此库存.%n%n在仓库目录中的方块会有小小的粒子效果,让你知道它正在被追踪.%n%n手持仓库目录右键可以打开它的GUI并看到列表.  你可以对列表进行排序,包括升序和降序、数量(计数)或字母顺序.%n%n你还可以看到有某件特定物品的所有库存列表,并可以很方便地将那些库存中的某一个加入仓库目录.%n%n仓库目录还可以用排版台和拓印机复印.%n%n点击仓库目录的标题可随意改动,自定义它的标签.%n%n点击每个列表右侧的小箱子图标可以打开库存列表视图.%n%n如果你想的话,可以制作一个路标盘,用来指向你要找的箱子.由于我们已经有了旅行地图和NEI,所以这玩意不是必需品.
 
 # Quest.2027 - §6§lThermal Boiler - Lava you long time
 gtnh.quest2027.name=§6§l地热锅炉-爱(Lava-Love)你一万年
@@ -8185,15 +8185,15 @@ gtnh.quest2043.desc=既然你有了MV电解机,你就能从硼砂中电解出硼
 
 # Quest.2044 - §6§lMega is Betta
 gtnh.quest2044.name=§6§l越大越好
-#C gtnh.quest2044.desc=对于一个需要炼制*荒唐*数量材料的人来说,这台机器是完美的.  这个机器怪兽可以同时处理256个配方. 玻璃等级(比如在NEI搜索"玻璃等级:HV")限制了这台机器的最高能源仓等级.  你可以通过螺丝刀调整其主方块来设置首选电路.
+gtnh.quest2044.desc=对于一个需要炼制*荒唐*数量材料的人来说,这台机器是完美的.  这个机器怪兽可以同时处理256个配方.%n%n玻璃等级(比如在NEI搜索"玻璃等级:HV")限制了这台机器的最高能源仓等级.%n%n你可以通过螺丝刀调整其主方块来设置电路板优先级.
 
 # Quest.2045 - §6§lFrostbite!
 gtnh.quest2045.name=§6§l冻伤!
 gtnh.quest2045.desc=这台巨型真空冷冻机可以同时处理最多256个配方.
 
 # Quest.2046 - A Better Fluid Pipe
-gtnh.quest2046.name=更好的流体派(pie)管道(pipe)
-#C gtnh.quest2046.desc=既然你有了铅,你就可以把你的青铜流体管道换成具有更高容量的粗青铜合金流体管道了.
+gtnh.quest2046.name=更好的流体管道
+gtnh.quest2046.desc=既然你有了铅,你就可以把你的青铜流体管道换成具有更高容量的粗青铜合金流体管道了.%n%n不过,巨型管道并没有提升.
 
 # Quest.2047 - §6§lBulk Programming
 gtnh.quest2047.name=§6§l批量编程
@@ -9349,7 +9349,7 @@ gtnh.quest2334.desc=一份可让死者复活的羊皮纸上书写着恶魔契约
 
 # Quest.2335 - Taglock Kit
 gtnh.quest2335.name=巫媒
-gtnh.quest2335.desc=巫媒(Taglock-Kit)用于收集其他玩家或生物的标记(Taglock),例如头发、指甲屑或血液,巫媒被用于各种配方中,以在生物与巫术之间建立联系.%n%n想要收集巫媒,对着生物或者对着玩家使用过的床右键即可.在同一张床上重复右键,将循环收集该张床的每个玩家的巫媒.还可以在陷阱箱上收集打开箱子的玩家的巫媒,或在血玫瑰上收集走过它的玩家的巫媒.%n%nShift-左键任意床将收集当前玩家的巫媒.%n%n直接对玩家使用巫媒收集可能会失败,失败的同时还会通知该玩家你想做什么.想要提高收集成功的几率,你需要潜行并从背后靠近他.%n%n只能从登陆到同一世界的玩家那里收集巫媒.%n%n带有骨针的玻璃瓶即可制成巫媒.
+gtnh.quest2335.desc=巫媒(Taglock-Kit)用于收集其他玩家或生物的标记(Taglock),例如头发、指甲屑或血液,巫媒被用于各种配方中,以在生物与巫术之间建立联系.%n%n想要收集巫媒,对着生物或者对着玩家使用过的床右键即可.在同一张床上重复右键,将循环收集该张床的每个玩家的巫媒.还可以在陷阱箱上收集打开箱子的玩家的巫媒,或在血玫瑰上收集走过它的玩家的巫媒.%n%nShift-左键任意床将收集当前玩家的巫媒.%n%n直接对玩家使用巫媒收集可能会失败,失败的同时还会通知该玩家你想做什么.想要提高收集成功的几率,你需要潜行并从背后靠近他.%n%n只能从登录到同一世界的玩家那里收集巫媒.%n%n带有骨针的玻璃瓶即可制成巫媒.
 
 # Quest.2336 - Mutandis Extremis
 gtnh.quest2336.name=超级转生粉
@@ -9669,7 +9669,7 @@ gtnh.quest2414.desc=东西太多放不下? 只要把这个坏小子拍在抽屉�
 
 # Quest.2415 - Bringing the Biome to You
 gtnh.quest2415.name=我不去就山,让山来就我
-gtnh.quest2415.desc=你也许找不到适合你的农作物或蜜蜂的沼泽或热带森林,也有可能是离得太远很不方便,你的还可能位于较冷的气候下,使你不得不经常面对狼群. 别急着打包所有东西并搬到其他地方,何不试试改变生物群系呢? 在这个整合包中有几种不同的方法可以做到:%n%n使用巫师宝具(Witching-Gadgets)中的奥术群系转化器%n-需要EV电路板、钨钢,、三阶火箭%n-还需要注魔、虚空金属(足够的扭曲)、提供CV的充能节点、大量源质%n-半径16格%n-只能把生物群系更改为几种特定​​原版或神秘的生物群系%n-有点慢%n%n使用血魔法(Blood-Magic)的盖亚仪式(Ritual-of-Gaia's-Transformation)%n-需要虚空金属、注魔、钨钢%n-需要深入研究血魔法(以及随之而来的扭曲)%n-需要1,000,000-LP、导师气血宝珠、4阶祭坛和[觉醒]激活水晶%n-半径10格,可用血石砖(任意类型)精确指定%n-无法指定生物群系,你只能在0.0到2.0的范围内修改温度/湿度,然后听天由命%n-由于范围有限以及范围重叠等问题,某些生物群系无法出现%n-通过主仪式石周围8个基座上的物品来调节温度/湿度%n-需要重新登陆才能看到改变%n-文字与解释都很少%n-速度快%n%n使用巫术(Witchery)的季节变迁药水%n-小范围, 范围与药水等级有关(强度等级而不是喷溅等级)%n-可以明确指定生物群系%n-需使用复杂的定制酿造系统制作%n-可以添加不同的成分以改变药水的范围%n-最小修改一个方块%n-最大为半径3格的圆%n-立即生效(你使用后)%n%n使用巫术的季节变迁仪式%n-需要不锈钢、宏伟之木权杖或更好的法杖来制造巫术的蒸馏塔%n-你必须搓一堆巫术配套设备%n-只要完成一次,以后就简单了%n-超大范围,16/32/48格半径的圆%n-可以明确指定生物群系%n-有时在特定的区块中会失败%n-速度很快%n%n如果你想知道巫术的相关教程,请查看"替代魔法"任务栏.%n%n注意:IC2和星系(Galacticraft)的地形转换(改造)机只能改变地表,无法改变生物群系.
+gtnh.quest2415.desc=你也许找不到适合你的农作物或蜜蜂的沼泽或热带森林,也有可能是离得太远很不方便,你的还可能位于较冷的气候下,使你不得不经常面对狼群. 别急着打包所有东西并搬到其他地方,何不试试改变生物群系呢? 在这个整合包中有几种不同的方法可以做到:%n%n使用巫师宝具(Witching-Gadgets)中的奥术群系转化器%n-需要EV电路板、钨钢,、三阶火箭%n-还需要注魔、虚空金属(足够的扭曲)、提供CV的充能节点、大量源质%n-半径16格%n-只能把生物群系更改为几种特定​​原版或神秘的生物群系%n-有点慢%n%n使用血魔法(Blood-Magic)的盖亚仪式(Ritual-of-Gaia's-Transformation)%n-需要虚空金属、注魔、钨钢%n-需要深入研究血魔法(以及随之而来的扭曲)%n-需要1,000,000-LP、导师气血宝珠、4阶祭坛和[觉醒]激活水晶%n-半径10格,可用血石砖(任意类型)精确指定%n-无法指定生物群系,你只能在0.0到2.0的范围内修改温度/湿度,然后听天由命%n-由于范围有限以及范围重叠等问题,某些生物群系无法出现%n-通过主仪式石周围8个基座上的物品来调节温度/湿度%n-需要重新登录才能看到改变%n-文字与解释都很少%n-速度快%n%n使用巫术(Witchery)的季节变迁药水%n-小范围, 范围与药水等级有关(强度等级而不是喷溅等级)%n-可以明确指定生物群系%n-需使用复杂的定制酿造系统制作%n-可以添加不同的成分以改变药水的范围%n-最小修改一个方块%n-最大为半径3格的圆%n-立即生效(你使用后)%n%n使用巫术的季节变迁仪式%n-需要不锈钢、宏伟之木权杖或更好的法杖来制造巫术的蒸馏塔%n-你必须搓一堆巫术配套设备%n-只要完成一次,以后就简单了%n-超大范围,16/32/48格半径的圆%n-可以明确指定生物群系%n-有时在特定的区块中会失败%n-速度很快%n%n如果你想知道巫术的相关教程,请查看"替代魔法"任务栏.%n%n注意:IC2和星系(Galacticraft)的地形转换(改造)机只能改变地表,无法改变生物群系.
 
 # Quest.2416 - Ghetto Biome Changing
 gtnh.quest2416.name=廉价的生物群系改变
@@ -9709,7 +9709,7 @@ gtnh.quest2424.desc=现在你有了蟾蜍和猫头鹰, 除此之外你还可以�
 
 # Quest.2425 - Greenhouses on Mountains, Hell on Earth
 gtnh.quest2425.name=山巅的温室, 地上的炼狱
-gtnh.quest2425.desc=你就快完成了! 想要让仪式发挥效果, 你需要先召集聚会女巫. 寻找聚会女巫并完成她们交付的任务:%n掌控亡者的奥义(The means to control the dead) -> 死灵石%n统治恶魔位面的暴力手段(The beating means to master the infernal dimension) -> 恶魔之心%n我必须施展许多诅咒, 为我带回必要的药水 -> 怪诞之酿药水 x5%n我想预知未来(I desire to predict the future) -> 水晶球%n另外还有些战斗任务.%n%n完成任务后, 聚会女巫就会消失, 直到你召唤她们. 当你经过自己的出生点时, 聚会女巫偶尔会出现在附近, 所以不要把出生点放在岩浆或别的什么上面, 因为聚会女巫会死的, 并降低你的聚会数量. 你最多拥有6名聚会女巫, 还可以有一名额外的女巫帮助你进行炼药锅仪式. 可以考虑在地牢里留几个聚会女巫以防万一.%n%n等你的聚会召集完毕后, 只需要在准备仪式本身所需物品即可: 蜘蛛眼、青蛙趾、蝙蝠毛、狗之舌、小毛头鹰之翼、调谐之石和调谐之石(充能).%n%n指定生物群系: 查看生态之书, 然后查找 1) 类型 (森林、平原等等), 2) 记住序号. 类型决定了所需的核心, 序号决定了获得特定生物群系所需的萤石粉数量. 记得将圆环法阵打包进环形护身符中, 这样你就不用重新绘制了, 然后携带一些圆石准备搭个平台 (15x15, 任意高度). 尽量别在夜晚进行此仪式, 除非你喜欢与恶魔打交道.%n%n想要进行仪式, 你需要将圆环法阵放置到地上(译者注: 环形护身符右键地面即可, 以右键处为圆心展开所保存的圆环法阵, 若法阵环上有障碍物则会失败), 仪式物品(包括核心与萤石粉)在圆环之内, 然后手持先知之石右键法阵中心.%n%n有效范围由你的聚会女巫数量决定. 以16*(聚会女巫数量-3)为半径的圆, 要是不失败的话, 半径就会是16/32/48这几个数字.%n%n不幸的是, 当你退出重新登陆后, 有时会发现在一些特定的区块并未生效, 这(可能)是因为区块更新有限,并未能正确保存改变的生物群系ID. 单纯地重新进行仪式并不会有什么效果, 相反仪式结束后, 退出之前, 放置水可能会有助于解决此问题. 或者用鸡也行. 得用很多鸡...%n%n另外, 如果你在范围里种植过作物, 它们在方块更新或者重新登陆前会消失.%n%nPS: 想要把你的圆环法阵重新打包回家, 你最好带上祭坛.%n译者注: 其实使用带有调谐之石(充能)的那个绑定仪式即可.
+gtnh.quest2425.desc=你就快完成了! 想要让仪式发挥效果, 你需要先召集聚会女巫. 寻找聚会女巫并完成她们交付的任务:%n掌控亡者的奥义(The means to control the dead) -> 死灵石%n统治恶魔位面的暴力手段(The beating means to master the infernal dimension) -> 恶魔之心%n我必须施展许多诅咒, 为我带回必要的药水 -> 怪诞之酿药水 x5%n我想预知未来(I desire to predict the future) -> 水晶球%n另外还有些战斗任务.%n%n完成任务后, 聚会女巫就会消失, 直到你召唤她们. 当你经过自己的出生点时, 聚会女巫偶尔会出现在附近, 所以不要把出生点放在岩浆或别的什么上面, 因为聚会女巫会死的, 并降低你的聚会数量. 你最多拥有6名聚会女巫, 还可以有一名额外的女巫帮助你进行炼药锅仪式. 可以考虑在地牢里留几个聚会女巫以防万一.%n%n等你的聚会召集完毕后, 只需要在准备仪式本身所需物品即可: 蜘蛛眼、青蛙趾、蝙蝠毛、狗之舌、小毛头鹰之翼、调谐之石和调谐之石(充能).%n%n指定生物群系: 查看生态之书, 然后查找 1) 类型 (森林、平原等等), 2) 记住序号. 类型决定了所需的核心, 序号决定了获得特定生物群系所需的萤石粉数量. 记得将圆环法阵打包进环形护身符中, 这样你就不用重新绘制了, 然后携带一些圆石准备搭个平台 (15x15, 任意高度). 尽量别在夜晚进行此仪式, 除非你喜欢与恶魔打交道.%n%n想要进行仪式, 你需要将圆环法阵放置到地上(译者注: 环形护身符右键地面即可, 以右键处为圆心展开所保存的圆环法阵, 若法阵环上有障碍物则会失败), 仪式物品(包括核心与萤石粉)在圆环之内, 然后手持先知之石右键法阵中心.%n%n有效范围由你的聚会女巫数量决定. 以16*(聚会女巫数量-3)为半径的圆, 要是不失败的话, 半径就会是16/32/48这几个数字.%n%n不幸的是, 当你退出重新登录后, 有时会发现在一些特定的区块并未生效, 这(可能)是因为区块更新有限,并未能正确保存改变的生物群系ID. 单纯地重新进行仪式并不会有什么效果, 相反仪式结束后, 退出之前, 放置水可能会有助于解决此问题. 或者用鸡也行. 得用很多鸡...%n%n另外, 如果你在范围里种植过作物, 它们在方块更新或者重新登录前会消失.%n%nPS: 想要把你的圆环法阵重新打包回家, 你最好带上祭坛.%n译者注: 其实使用带有调谐之石(充能)的那个绑定仪式即可.
 
 # Quest.2426 - §6§lTantalum Nether
 gtnh.quest2426.name=§6§l下界的钽
