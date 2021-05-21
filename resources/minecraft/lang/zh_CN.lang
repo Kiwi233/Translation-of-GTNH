@@ -8305,7 +8305,7 @@ gtnh.quest2073.desc=...你期待过某种突袭而来的boss么?如果你算算�
 
 # Quest.2074 - Time to Kill (Dire Wolf)
 gtnh.quest2074.name=杀戮时刻(冰原狼)
-#C gtnh.quest2074.desc=这些狼不喜欢你靠近它们或给它们骨头!一开始是中立的,但接近它们后,它们就会极为敌视和危险.它们会马上把骨头从你身上扯下来!这些狼一般会出现在冰雪森林(snowy-forest)生物群系.
+gtnh.quest2074.desc=这些狼不喜欢你靠近它们或给它们骨头!一开始是中立的,但接近它们后,它们就会敌视你并变得极度危险.它们会马上把骨头从你身上扯下来!这些狼一般会出现在冰雪森林(snowy-forest)生物群系.
 
 # Quest.2075 - Time to Kill (Hellhound)
 gtnh.quest2075.name=杀戮时刻(地狱犬)
@@ -8333,19 +8333,19 @@ gtnh.quest2080.desc=...但非常适合用来生产！蜂箱或蜂箱组中的巧
 
 # Quest.2081 - Welcome to Biology Class!
 gtnh.quest2081.name=欢迎来到生物课堂!
-#C gtnh.quest2081.desc=Binnie的基因工程(Genetics)mod使你能够提取并挑选蜜蜂、树和花的基因.但这不是免费的!你需要付出一定的代价.  直接用GT的EU给这些机器供电不是好的选择(会造成大量浪费),你应该给EIO的电容库提供能量,然后再用电容库给这些机器供应RF能量.
+gtnh.quest2081.desc=Binnie的基因工程(Genetics)mod使你能够提取并挑选蜜蜂、树和花的基因.但这不是免费的!你需要付出一定的代价.%n%n直接用GT的EU给这些机器供电不是好的选择(会造成大量浪费),你应该给EIO的电容库提供能量,然后再用电容库给这些机器供应RF能量. 基因工程的机器无法在GT的电流包系统下很好工作.
 
 # Quest.2082 - Making Bees More Comfortable
 gtnh.quest2082.name=让蜜蜂住得更舒服
-#C gtnh.quest2082.desc=适应性调整器是你培育蜜蜂的关键机器.  有了大量的能量和适当的配料,你就能使蜜蜂在任何地方茁壮成长.推荐使用EIO的空间传送器为设备供能.但是,即使蜜蜂能够忍受各种气候并生产,可它们只有在最喜欢的环境下才会产出特殊产物.把蜜蜂和这些物品一起放入来调整蜜蜂的基因:  雪球-更强的低温耐受性  岩浆-更强的高温耐受性  沙子-更强的耐旱性  水-更强的耐湿性  对于水,最好用蜂蜡制成的蜂蜡胶囊盛放,对于岩浆,使用耐火蜂蜡制成的耐火胶囊盛放.适应性调整器不会返还胶囊或单元.
+gtnh.quest2082.desc=适应性调整器是你培育蜜蜂的关键机器.  有了大量的能量和适当的配料,你就能使蜜蜂在任何地方茁壮成长.推荐使用EIO的空间传送器为设备供能.但是,即使蜜蜂能够忍受各种气候并生产,可它们只有在最喜欢的环境下才会产出特殊产物.把蜜蜂和这些物品一起放入来调整蜜蜂的基因:%n%n雪球-更强的低温耐受性%n岩浆-更强的高温耐受性%n沙子-更强的耐旱性%n水-更强的耐湿性%n%n对于水,最好用蜂蜡制成的蜂蜡胶囊盛放,对于岩浆,使用耐火蜂蜡制成的耐火胶囊盛放.适应性调整器不会返还胶囊或单元.
 
 # Quest.2083 - Such Pretty Leaves...
 gtnh.quest2083.name=多么漂亮的树叶...
-#C gtnh.quest2083.desc=既然你已经进入了MV阶段,你就可以开始用聪明的方法培育林业的树了. 首先做个林木分析仪,然后扫描一些常见的原版树苗,比如橡木、深色橡木、云杉、白桦、金合欢和丛林木.这样它们就会转化为林业版本的树苗.你得用蜂窝弄些蜂蜜或者蜂蜜汁来驱动林木分析仪.%n%n如果你想要批量扫描树苗,可以使用装满蜂蜜的GT扫描仪.%n%n你还可以试着用基因工业的机器修改它们.
+gtnh.quest2083.desc=既然你已经进入了MV阶段,你就可以开始用聪明的方法培育林业的树了. 首先做个林木分析仪,然后扫描一些常见的原版树苗,比如橡木、深色橡木、云杉、白桦、金合欢和丛林木.这样它们就会转化为林业版本的树苗.你得用蜂窝弄些蜂蜜或者蜂蜜汁来驱动林木分析仪.%n%n如果你想要批量扫描树苗,可以使用装满蜂蜜的GT扫描仪.%n%n你还可以试着用基因工业的机器修改它们.
 
 # Quest.2084 - Collecting the Hybrids
 gtnh.quest2084.name=收集混血儿们
-#C gtnh.quest2084.desc=如果你幸运地在村庄中找到了一些蜜蜂,你可以把它们放入临近树木的蜂箱中.随着时间的推移,蜜蜂会慢慢地为树木的叶子授粉.使用剪枝器,你可以破坏树叶收集树苗.你可以跟村民交易来获得使用寿命更长的剪枝器.也可以研究研究魔法,你听到谣言称,最耐用的剪枝器只有魔法师才可以制作.  GT也提供了非常好的工具,同样名为剪枝器.
+gtnh.quest2084.desc=如果你幸运地在村庄中找到了一些蜜蜂,你可以把它们放入临近树木的蜂箱中.随着时间的推移,蜜蜂会慢慢地为树木的叶子授粉.使用剪枝器,你可以破坏树叶并100％掉落树苗,这在获取林业树木时比较有用.不过貌似对魔法树木无效. 你可以跟村民交易来获得使用寿命更长的剪枝器.也可以研究研究魔法,你听到谣言称,最耐用的剪枝器只有魔法师才可以制作.%n%nGT也提供了非常好的工具,同样名为剪枝器.
 
 # Quest.2085 - Seeing the Fruits of Your Labor
 gtnh.quest2085.name=看看你的劳动成果
@@ -8357,7 +8357,7 @@ gtnh.quest2086.desc=虽然SAG研磨机没有研磨头也能用,而燧石研磨�
 
 # Quest.2087 - §3§lKey to Your Heart
 gtnh.quest2087.name=§3§l你的心灵之匙
-#C gtnh.quest2087.desc=桶默认就可以锁定只接受特定物品,即使自己是空的也可以指定.  而对于抽屉,你需要制作抽屉钥匙来将其锁定只接受特定物品.  译者注:空抽屉也可以锁定,这样抽屉不会接受自动化来的物品,但可以手持物品右键来指定该物品.
+gtnh.quest2087.desc=桶默认就可以锁定只接受特定物品,即使自己是空的也可以指定.  而对于抽屉,你需要制作抽屉钥匙来将其锁定只接受特定物品.  译者注:空抽屉也可以锁定,这样抽屉不会接受自动化来的物品,但可以手持物品右键来指定该物品.
 
 # Quest.2088 - Incubator
 gtnh.quest2088.name=恒温箱
@@ -8365,7 +8365,7 @@ gtnh.quest2088.desc=这是一台合成机器,可将物品和液体加热到能�
 
 # Quest.2089 - Bees By the Millions
 gtnh.quest2089.name=百万蜜蜂
-#C gtnh.quest2089.desc=如果你想要终极的蜜蜂生产速度,工业蜂箱是唯一的道路.  工业蜂箱中类似框架的升级是不会损坏的. 产量升级可以叠加最多8个.还有许多环境模拟类的升级、基因寿命类升级、授粉升级、还有最关键的自动化升级-工业化量产的关键.
+gtnh.quest2089.desc=如果你想要终极的蜜蜂生产速度,工业蜂箱是唯一的道路.  工业蜂箱中类似框架的升级是不会损坏的. 产量升级可以叠加最多8个.还有许多环境模拟类的升级、基因寿命类升级、授粉升级、还有最关键的自动化升级-工业化量产的关键.%n%n到了现在,我认为你已经精通NEI,并可以完全理解各种升级的tooltip,及其工作方式,对吧?
 
 # Quest.2090 - Fastest Way to Get There
 gtnh.quest2090.name=最快突变
@@ -8413,7 +8413,7 @@ gtnh.quest2100.desc=试验台是个可以放置各种数据库的方块(右键�
 
 # Quest.2101 - Orchard Apple
 gtnh.quest2101.name=苹果树
-#C gtnh.quest2101.desc=苹果树有两个很好的属性.较快的生长属性意味着它可以很快从树苗长成树.更高的产量是任何林业树木的最佳属性.苹果树由苹果橡树与山丘樱杂交培育而来.%n%n如果你想要最快生长速度,可以培育金树莓.尝试自己找出它的培育线吧.
+gtnh.quest2101.desc=苹果树有两个很好的属性.较快的生长属性意味着它可以很快从树苗长成树.更高的产量是任何林业树木的最佳属性.苹果树由苹果橡树与山丘樱杂交培育而来.%n%n如果你想要最快生长速度,可以培育金树莓.尝试自己找出它的培育线吧.%n%n高产量属性Get!
 
 # Quest.2102 - Registry
 gtnh.quest2102.name=图鉴
@@ -8428,8 +8428,8 @@ gtnh.quest2104.name=遗传学家的工具
 gtnh.quest2104.desc=在你开始操纵遗传物质之前,你需要各种各样的工具和耗材.
 
 # Quest.2105 - Keeping Track of Your Findings (Flowers)
-#C gtnh.quest2105.name=追踪你的发现(植物学)
-gtnh.quest2105.desc=这个方便的设备将追踪你迄今为止发现的花及其特性.
+gtnh.quest2105.name=追踪你的发现(花)
+gtnh.quest2105.desc=这个实用的设备将追踪记录你迄今为止发现的花及其特性.
 
 # Quest.2106 - Figuring Out Butterflies
 gtnh.quest2106.name=研究蝴蝶
@@ -8457,14 +8457,14 @@ gtnh.quest2111.desc=如果你是欧皇,能在旅途中遇到史莱姆王,那么�
 
 # Quest.2112 - Sometimes Life is Scary and Dark - Bring a Backpack
 gtnh.quest2112.name=有时生活是可怕而黑暗的-带上一个背包
-#C gtnh.quest2112.desc=既然你到达了MV阶段,那么你就可以制作探险者背包了.这个非常有用的背包可以做很多事情.它可以存储2个工具-可以快速切换;有内置储罐以存储液体-使用背包软管访问它们;一个内置工作台;以及存储功能.%n%n当在你背上时,它可以通过快捷键访问,默认是B.检查你的选项-控制.%n%n当放在地上时,它可以通过右键访问,卧室可以布置并使用(不就是个床么...).%n%n它们也可以通过升级来添加特殊能力.想获知比这里介绍的更多的特殊能力,请查看探险背包(Adventure-Backpacks)mod的wiki主页.
+gtnh.quest2112.desc=既然你到达了MV阶段,那么你就可以制作探险者背包了.这个非常有用的背包可以做很多事情.它可以存储2个工具-可以快速切换;有内置储罐以存储液体-使用背包软管访问它们;一个内置工作台;以及存储功能.%n%n当在你背上时,它可以通过快捷键访问,默认是B.检查你的选项-控制.%n%n当放在地上时,它可以通过右键访问,卧室可以布置并使用(不就是个床么...).%n%n它们也可以通过升级来添加特殊能力.想获知比这里介绍的更多的特殊能力,请查看探险背包(Adventure-Backpacks)mod的wiki主页.%n%n§3探险背包和直升机背包共用同一个槽位,所以你只能择一装备,或是替换它们.
 
 # Quest.2113 - See Like a ... Bat?
 gtnh.quest2113.name=看起来像是一只...蝙蝠?
 gtnh.quest2113.desc=夜视是一个很棒的背包能力.
 
 # Quest.2114 - Swim Like a .... Squid?
-#C gtnh.quest2114.name=游起来像一只...鱿鱼?
+gtnh.quest2114.name=游起来像一只...鱿鱼?
 gtnh.quest2114.desc=如果你想深潜或者进行水下探险,这种背包就是为你准备的.
 
 # Quest.2115 - Walk Through Fire
@@ -8473,7 +8473,7 @@ gtnh.quest2115.desc=僵尸猪人背包会提供火焰保护,这让下界变成�
 
 # Quest.2116 - Creeper Repellant
 gtnh.quest2116.name=驱逐爬行者
-#C gtnh.quest2116.desc=豹猫背包会使爬行者远离你.针对那些水栖爬行者,这是很棒的保护!不要离它们太近,否则对的它们排斥将会被压制,而它们就会爆炸！
+gtnh.quest2116.desc=豹猫背包会使爬行者远离你.针对那些水栖爬行者,这是很棒的保护!不要离它们太近,否则对的它们排斥将会被压制,而它们就会爆炸！
 
 # Quest.2117 - Milk Without the Cow?
 gtnh.quest2117.name=不用牛获得牛奶?
@@ -8500,8 +8500,8 @@ gtnh.quest2122.name=为树代言
 gtnh.quest2122.desc=你需要找一堆原版树来开始你的培育计划.你可以使用林木分析仪直接将它们转化为林业树苗-但是你需要一个木工机和一个来自MV的铝才能制作它. 或者,你可以种上一堆原版树,然后用装有不错授粉属性蜜蜂的蜂箱把这些树围起来. 眼镜会帮助你分辨被授粉的树叶,然后用你的剪枝器收获那些树叶.  想要完成这个任务需要扫描过的树苗,但你可以在等待GT扫描仪或林木扫描仪制作完成的这段时间里先开始你的培育.
 
 # Quest.2123 - Trigger:CtH (unlock)
-#C gtnh.quest2123.name=解锁树木培育任务线
-#C gtnh.quest2123.desc=没有描述(No Description)
+gtnh.quest2123.name=触发:树木培育任务线(解锁)
+gtnh.quest2123.desc=完全收集杂交树木触发.
 
 # Quest.2124 - Silver Lime
 gtnh.quest2124.name=银橙
@@ -8509,11 +8509,11 @@ gtnh.quest2124.desc=银橙,一种基础杂交树.用白桦和苹果橡木杂交�
 
 # Quest.2125 - Teak
 gtnh.quest2125.name=柚树
-#C gtnh.quest2125.desc=柚树是培育黄檀树(一个真正的巨无霸)的第一步.用丛林木和深色橡木杂交培育而来.%n%n注意: 对于所有的林木杂交任务,需要的树苗必须为纯种,并且被扫描过.
+gtnh.quest2125.desc=柚树是培育巨杉或黄檀树(一个真正的巨无霸)的第一步.用丛林木和深色橡木杂交培育而来.%n%n注意: 对于所有的林木杂交任务,需要的树苗必须为纯种,并且被扫描过.
 
 # Quest.2126 - Balsa
 gtnh.quest2126.name=巴尔杉树
-#C gtnh.quest2126.desc=巴尔杉树的原木很漂亮.用柚树和金合欢树杂交培育而来.
+gtnh.quest2126.desc=巴尔杉树的原木很漂亮.用柚树和金合欢树杂交培育而来.%n%n§e高树苗掉率Get!
 
 # Quest.2127 - Common Beech
 gtnh.quest2127.name=普通山毛榉
@@ -8521,15 +8521,15 @@ gtnh.quest2127.desc=普通山毛榉可使你获得更快的成熟属性.用银�
 
 # Quest.2128 - Hill Cherry
 gtnh.quest2128.name=山丘樱
-#C gtnh.quest2128.desc=山丘樱是培育的重要一环.用银橙和苹果橡木杂交培育而来.
+gtnh.quest2128.desc=山丘樱是培育的重要一环.用银橙和苹果橡木/银桦树杂交培育而来.
 
 # Quest.2129 - Mundane Larch
-#C gtnh.quest2129.name=普通核桃树
-#C gtnh.quest2129.desc=普通核桃树是生产种子油的一般选择,每个坚果产出54L种子油.用山丘樱和银橙杂交培育而来.
+gtnh.quest2129.name=落叶松
+gtnh.quest2129.desc=你可以用红果云杉和银桦树/苹果橡木杂交培育出落叶松.这是获得红杉的必经之路.%n%n注意: 对于所有的林木杂交任务,需要的树苗必须为纯种,并且被扫描过.
 
 # Quest.2130 - Bull Pine
-#C gtnh.quest2130.name=灰核桃树
-#C gtnh.quest2130.desc=灰核桃树是生产种子油非常好的选择,每个坚果可以产生180L种子油.用山丘樱和普通核桃树杂交培育而来.  它的基础属性不太好,但通过小小的杂交,你就能获得2x2干围的大树,生产速度相当可观.为了获得最佳的果实生产速度,尝试培育水果蜂(fruity-bee).
+gtnh.quest2130.name=西黄松
+gtnh.quest2130.desc=你可以用红果云杉和落叶松杂交培育出西黄松.
 
 # Quest.2131 - Lemon
 gtnh.quest2131.name=柠檬树
@@ -8537,7 +8537,7 @@ gtnh.quest2131.desc=柠檬树最适合生产果汁.用山丘樱和银橙杂交�
 
 # Quest.2132 - Plum
 gtnh.quest2132.name=李子树
-#C gtnh.quest2132.desc=李子树是一种多用途树.  产量很高,果实覆盖率最高.它的多汁属性也不错,适合用于生产生物质.由山丘樱和柠檬树杂交培育而来.
+gtnh.quest2132.desc=李子树是一种多用途树.  产量很高,果实覆盖率最高.它的多汁属性也不错,适合用于生产生物质.由山丘樱和柠檬树杂交培育而来.%n%n§d李子和覆盖物Get!
 
 # Quest.2133 - Desert Acacia
 gtnh.quest2133.name=沙漠刺槐
@@ -8545,11 +8545,11 @@ gtnh.quest2133.desc=沙漠刺槐.培育道路上的另一步.用柚树和巴尔�
 
 # Quest.2134 - Cocobolo
 gtnh.quest2134.name=黄檀树
-#C gtnh.quest2134.desc=黄檀树是一种非常高大的树,非常适合与李子树或核桃树杂交,以使其产量最大化.用沙漠刺槐和深色橡木杂交培育而来.
+gtnh.quest2134.desc=黄檀树是一种非常高大的树,非常适合与李子树、核桃树或是别的什么树杂交,以使其产量最大化.用沙漠刺槐和深色橡木杂交培育而来.
 
 # Quest.2135 - Blue Mahoe
 gtnh.quest2135.name=高槿树
-#C gtnh.quest2135.desc=高槿树有最高的多汁属性.  它将极大地提高发酵机生产生物质的效率.用沙漠刺槐和巴尔杉树杂交培育而来.
+gtnh.quest2135.desc=高槿树有最高的多汁属性.  它将极大地提高发酵机生产生物质的效率.用沙漠刺槐和巴尔杉树杂交培育而来.%n%n§6高多汁属性Get!
 
 # Quest.2136 - Energy Acceptor
 gtnh.quest2136.name=能源接收器
@@ -8569,7 +8569,7 @@ gtnh.quest2139.desc=虽然猪背包本身没啥用,但它可以转化成非常�
 
 # Quest.2140 - §3§lA Fool Fit for a King
 gtnh.quest2140.name=§3§l一个适合做国王的傻瓜
-#C gtnh.quest2140.desc=只有最疯狂的傻瓜才会用钻石制作工具! 也许这个疯子大智若愚?
+gtnh.quest2140.desc=只有最疯狂的傻瓜才会用钻石制作工具! 也许这个疯子大智若愚?%n%n§3PS: 你还可以把它们§o用作燃料§r,§3这太疯狂了!
 
 # Quest.2141 - §6§lWelcome to the Church of Benzene
 gtnh.quest2141.name=§6§l欢迎来到大苯环神教
@@ -8585,7 +8585,7 @@ gtnh.quest2143.desc=想要有个燃料选择图?好吧,我们没有这玩意,但
 
 # Quest.2144 - §6§lDon't Put a Finger in That Socket
 gtnh.quest2144.name=§6§l别把手指插进插座里
-#C gtnh.quest2144.desc=如果你想让多A电流通过你的超净间墙壁,使用线缆二极管吧.  当从主电源线分支到通常不会使用那么多A电流的支线时,也可以方便使用线缆二级管来限制电流,但是你要防止在填充机器缓存时着火.
+gtnh.quest2144.desc=如果你想让多A电流通过你的超净间墙壁,使用线缆二极管吧.  当从主电源线分支到通常不会使用那么多A电流的支线时,也可以使用线缆二级管,来很方便地限制电流,但是你要防止在填充机器缓存时着火.
 
 # Quest.2145 - §1§lE_TOO_MANY_KEYS
 gtnh.quest2145.name=§1§l错误:太多按键需要绑定
@@ -8593,11 +8593,11 @@ gtnh.quest2145.desc=错误:键盘只有104个按键,但有太对需要绑定了.
 
 # Quest.2146 - BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
 gtnh.quest2146.name=BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS(brains)脑子
-#C gtnh.quest2146.desc=自动化魔法非常巧妙,只有"聪明的"法师才需要研究它.制作一些水晶之脑并扫描它们,以解锁下一阶段.你会用到僵尸之脑,通常从凶险节点刷出的危险的红眼巨人僵尸身上收集而来.
+gtnh.quest2146.desc=自动化魔法非常巧妙,只有"聪明的"法师才需要研究它.制作一些水晶之脑并扫描它们,以解锁下一阶段.你会用到僵尸之脑,通常从凶险节点刷出的危险的红眼巨人僵尸身上收集而来.
 
 # Quest.2147 - Gimme gimme gimme
 gtnh.quest2147.name=给我,给我,给我
-#C gtnh.quest2147.desc=贪婪珍珠是下一个你要互动的对象,以此来解锁自动化魔法的下一部分.制作一个贪婪珍珠,把一些东西扔到地上,然后拿着珍珠一遍又一遍地右键扔向那些物品,直到获得贪婪珍珠碎片,这会解锁更多研究项目.
+gtnh.quest2147.desc=贪婪珍珠是下一个你要互动的对象,以此来解锁自动化魔法的下一部分.制作一个贪婪珍珠,把一些东西扔到地上,然后拿着珍珠一遍又一遍地右键扔向那些物品,直到获得贪婪珍珠碎片,这会解锁更多研究项目.
 
 # Quest.2148 - §b§k§n§r§b§lEngraved Lapotrons
 gtnh.quest2148.name=§b§k§n§r§b§l刻蚀兰波顿
@@ -8605,14 +8605,14 @@ gtnh.quest2148.desc=IV等级的电池需要大量的资源.  首先,你需要激
 
 # Quest.2149 - §b§lLapotronic Energy Orb
 gtnh.quest2149.name=§b§l兰波顿能量球
-#C gtnh.quest2149.desc=兰波顿能量球是IV等级的电池.它可以存储100M-EU.  记得在你交任务之前不要给它充电.
+gtnh.quest2149.desc=兰波顿能量球是IV等级的电池.它可以存储100M-EU.  记得在你交任务之前不要给它充电.%n%n§3提示: 在IV之前,可以用它们造几台处理阵列.
 
 # Quest.2150 - §b§lOne BILLION EU
 gtnh.quest2150.name=§b§l10亿EU
 gtnh.quest2150.desc=如果你想要一个固定的电池,制作AFSU吧,它可以储存10亿EU还能为物品充电.你可以使用扳手拆卸它,但这样你会失去存储EU的20％.记得是用右键而不是用左键.左键会导致你损失所有存储的EU.%n%n作为替代方案,如果你能做得起的话,试试GT++的能量缓冲器吧.它们更贵而且无法为物品充电,但存储量更多,且不会损失EU,而且输出可设置为1-16A.查看GT++任务栏以获知更多细节.%n%n§3它们可以接收无限大的电流,所以或许你需要配合二极管或其他什么(如果你不想影响到主线供电的话).
 
 # Quest.2151 - You Can't Spell Lignite Without Ignite
-#C gtnh.quest2151.name=没有火字旁就写不出褐煤(Can't spell Lignite without Ignite)
+gtnh.quest2151.name=没有火字旁就写不出褐煤(You Can't Spell Lignite Without Ignite)
 gtnh.quest2151.desc=神之燃料!
 
 # Quest.2152 - Who Would Use This Garbage??
@@ -9021,7 +9021,7 @@ gtnh.quest2252.desc= 这种有趣的蜜蜂没有任何有用的产物,但它确�
 
 # Quest.2253 - §6§lToo Much Mercury?
 gtnh.quest2253.name=§6§l汞太多了?
-#C gtnh.quest2253.desc=一小时又一小时...一天又一天...一周又一周...你为了红宝石处理了成吨的红石,也积攒了大量的汞,不知道能用来做什么.%n%n你可以将其都存到超级缸里,但事实上没人需要那么多次氯酸.你可以制造一台酸性发电机,至少能白嫖点电.%n%n译者注:使用汞化学浸洗处理某些矿物可以增产.
+gtnh.quest2253.desc=一小时又一小时...一天又一天...一周又一周...你为了红宝石处理了成吨的红石,也积攒了大量的汞,不知道能用来做什么.%n%n你可以将其都存到超级缸里,但事实上没人需要那么多次氯酸.你可以制造一台酸性发电机,至少能白嫖点电.%n%n译者注:使用汞化学浸洗处理某些矿物可以增产.
 
 # Quest.2254 - Arsenic Princess
 gtnh.quest2254.name=砷蜂
@@ -9037,7 +9037,7 @@ gtnh.quest2256.desc=巴西栗无法带给你太多重要的特性.用普通山�
 
 # Quest.2257 - Coconut
 gtnh.quest2257.name=椰子树
-#C gtnh.quest2257.desc=椰子树是种子油之王-每个坚果产出300L.用巴西栗和巴尔杉树杂交培育而来.
+gtnh.quest2257.desc=椰子树是种子油之王-每个坚果产出300L.用巴西栗和巴尔杉树杂交培育而来.%n%n§e椰子和种子油Get!
 
 # Quest.2258 - Aromatic Lump
 gtnh.quest2258.name=芬芳块
@@ -9077,11 +9077,11 @@ gtnh.quest2266.desc=石榴石实际上比蓝宝石更有价值.它们是初期�
 
 # Quest.2267 - A Travel Companion
 gtnh.quest2267.name=旅行伴侣
-#C gtnh.quest2267.desc=感到孤单?箱子宝宝是一种简单的旅行伴侣,为你提供额外的空间.升级后(每个箱子)它可以为你提供一些不错的增益.与其他傀儡类似,你可以用傀儡铃铛将其重新变成掉落物捡起.它的脑子不太好用,所以很容易卡住.你可以通过GUI命令它在原地停留.只要区块在加载,即使被卡住它也会传送回你身边.它还能跟随你到其他维度.   它会缓慢治疗自己,如果你手持食物(任何食物,甚至腐肉也可以)右键它,它就能更快地恢复.远离岩浆.  傀儡升级效果: 风:更快移动. 地:多一行物品栏. 火:攻击敌对生物,点燃它们. 水:几乎无懈可击.只能由放置它的玩家打开或捡起. 混沌:内部有空间时,拾取附近掉落物. 秩序:捡起时可携带内部物品,并可嵌套进其他存储物(如箱子).别犯傻.
+gtnh.quest2267.desc=感到孤单?箱子宝宝是一种简单的旅行伴侣,为你提供额外的空间.升级后(每个箱子)它可以为你提供一些不错的增益.与其他傀儡类似,你可以用傀儡铃铛将其重新变成掉落物捡起.它的脑子不太好用,所以很容易卡住.你可以通过GUI命令它在原地停留.只要区块在加载,即使被卡住它也会传送回你身边.它还能跟随你到其他维度.%n%n它会缓慢治疗自己,如果你手持食物(任何食物,甚至腐肉也可以)右键它,它就能更快地恢复.远离岩浆.%n%n傀儡升级效果:%n风:更快移动.%n地:多一行物品栏.%n火:攻击敌对生物,点燃它们.%n水:几乎无懈可击.只能由放置它的玩家打开或捡起.%n混沌:内部有空间时,拾取附近掉落物.%n秩序:捡起时可携带内部物品,并可嵌套进其他存储物(如箱子).别犯傻.
 
 # Quest.2268 - Who Needs Friends?
 gtnh.quest2268.name=谁需要朋友?
-#C gtnh.quest2268.desc=行李箱总比笨重老旧的箱子宝宝好.它会自动拾取周围的掉落物,帮你在挖掘时节省时间.它近乎无懈可击,包括在岩浆中.它会像一只热切的小狗一样跟着你,直到世界的尽头-但在改换维度之前,你可能需要把它捡起来.雷击可提供更多空间.Shift+右键将会把它变成物品(携带内部物品).在魔导手册,GTNH章节寻找它的相关研究.
+gtnh.quest2268.desc=行李箱总比笨重老旧的箱子宝宝好.它会自动拾取周围的掉落物,帮你在挖掘时节省时间.它近乎无懈可击,包括在岩浆中.它会像一只热切的小狗一样跟着你,直到世界的尽头-但在改换维度之前,你可能需要把它捡起来.雷击可提供更多空间.Shift+右键将会把它变成物品(携带内部物品).在魔导手册,GTNH章节寻找它的相关研究.
 
 # Quest.2269 - Magenta
 gtnh.quest2269.name=品红色蜂
@@ -9221,27 +9221,29 @@ gtnh.quest2302.desc=可以通过加热精炼铂盐以蒸发掉最后剩余的杂
 
 # Quest.2303 - §b§lPalladium Processing
 gtnh.quest2303.name=§b§l钯处理
-#C gtnh.quest2303.desc=钯是一种相当有用的铂系金属,而制取又很简单.%n%n但你未来需要很多,因此,本任务将帮助你弄清楚如何高效地处理它.%n%n首先,你需要将一半的​​富钯铵处理成钯盐粉.
+gtnh.quest2303.desc=钯是一种相当有用的铂系金属,是所有LuV机器的必须材料.%n%n本任务线将帮助你弄清楚如何高效地处理它.%n%n首先,你需要将一半的​​富钯铵处理成钯盐粉.
 
 # Quest.2304 - §b§lPlatinum Group Processing - All the Other Metals
 gtnh.quest2304.name=§b§l铂系处理-其他所有金属
-#C gtnh.quest2304.desc=目前为止,你已经使用这种简单的方法处理了不少铂,你应该获得了不少矿泥粉.%n%n我们在这里处理这些矿泥粉并从中获得各种不同的产物.但是要做到这一点,我们需要一些化学制品,收集一些熔融焦硫酸钾吧.
+gtnh.quest2304.desc=目前为止,你已经使用这种简单的方法处理了不少铂,你应该获得了不少铂渣粉.%n%n现在我们在这里处理这些铂渣粉并从中获得余下的稀有金属.但是要做到这一点,我们再多走几步制备焦硫酸钾,并将其提取为熔融状态.
 
 # Quest.2305 - §b§lFirst Separation - Rhodium
 gtnh.quest2305.name=§b§l第一次分离-铑
 #C gtnh.quest2305.desc=铂系矿物处理是一个分步链式过程.%n%n所有副产物均通过此链式过程获得,这就是为什么不建议手动处理的原因,自动化可以使此链式过程不停进行.%n%n第一步,我们将铑与其他金属分开,它将蒸发为气体化合物(在你的工业高炉中收集).%n%n注意:记得在§l§n底部§r放上输出仓!
+gtnh.quest2305.desc=The Platinum Group processing line (AKA Platline) is a multi-step complicated process. Because of it's complexity, and how much you need, you should have a processing line running all the time. You should be able to comprehend it better after doing these quests. Or maybe you set it up already, and you're siphoning off some of the results? Either way.%n%nAs a first step in getting Rhodium, Ruthenium, Iridium, and Osmium, we will split apart the Rhodium from the other metals in an EBF with the Potassium Disulfate you made previously.%n%nThe amounts for this step are pretty annoying, blame Bart for that.%n%n§4Your output hatch needs to be at the bottom to collect the Rhodium Sulfate.
 
 # Quest.2306 - §b§lSecond Separation - Ruthenium
 gtnh.quest2306.name=§b§l第二次分离-钌
 #C gtnh.quest2306.desc=链式过程的下一步,我们将从矿泥中分离出钌.此过程比你想象的要复杂一些,该过程需要大量硝石.
+gtnh.quest2306.desc=For the next step in the process, we will split up the Ruthenium from the Leach Residue. Remember that you can get it from both Platinum Residue and a little bit more from making Rhodium Sulfate Solution.%n%nYou'll need Saltpeter and Saltwater for this. You can pump saltwater or make it, and mine saltpeter or make it too. Given how much KNO3 you need, you should probably automate making it.%n%nFor the steam, you can void it or reuse it for making Hot Ruthenium Tetroxide.
 
 # Quest.2307 - §b§lRe-Solving the Purity Issue
 gtnh.quest2307.name=§b§l重新解决纯度问题
-#C gtnh.quest2307.desc=嗯,筛选机表现不错,你失去了很多杂质,但同时,筛选出了些新的...是时候用水过滤掉它们了.
+gtnh.quest2307.desc=嗯,筛选机表现不错,你失去了很多杂质,但同时,筛选出了些新的...是时候用水过滤掉它们了.
 
 # Quest.2308 - §b§lSalty Metals Are the Worst!
 gtnh.quest2308.name=§b§l金属盐是最糟糕的!
-#C gtnh.quest2308.desc=现在,你获得了钯盐,但盐对你毫无用处,所以你需要将其机械筛分,其中的硝酸钯可以分离出来并结晶.
+gtnh.quest2308.desc=现在,你获得了钯盐,但盐对你毫无用处,所以你需要将其机械筛分,获取钯金属粉.不过成功筛得粉的几率为95％.%n%n译者注:大筛选的增产会导致...
 
 # Quest.2309 - §b§lAnother Acid to Worry About!
 gtnh.quest2309.name=§b§l另一种需要头疼的酸!
