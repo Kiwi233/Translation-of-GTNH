@@ -1338,7 +1338,7 @@ gtnh.quest333.desc=为了满足祭品的所有需求.当然,它看起来也很co
 
 # Quest.334 - ...Cauldron Bubble
 gtnh.quest334.name=...巫师炼药锅,咕噜咕噜噜
-#C gtnh.quest334.desc=你需要做的第二件事就是巫师炼药锅.它被用来处理大多数基本物品,比如转生粉. It requires anointing paste,which you will need an MV mixer to make.%n%n用受魔之膏涂抹在普通炼药锅上,可将其转变为巫师炼药锅,然后就能炼制有趣的药水与物品了.将不同的巫术种子与水在搅拌机内混合即可得到受魔之膏.%n%nTo brew a potion,cast a ritual or create an item,the cauldron must first be filled with water. This can be achieved by using three buckets of water on it,pumping water into it using pipes,or by using a Dispenser containing a Brew of Endless Water.%n%nOnce a cauldron is full of water,it must boil. Lighting a fire beneath the cauldron is the only way for this to happen. Using a netherrack block will guarantee the fire does not go out,although if it does go out,it may be set to boil again without any consequences (unlike brewing in a Kettle!).%n%nWhen the water is boiling,ingredients may be added to the Cauldron (one after another),to create the desired effect. The book,Witches' Brews gives a complete overview of all ingredients and what they can do when added to a brew.
+gtnh.quest334.desc=你需要做的第二件事就是巫师炼药锅.它被用来处理大多数基本物品,比如转生粉. 巫师炼药锅需要用到受魔之膏,这需要MV以上的搅拌机才能制造.%n%n用受魔之膏涂抹在普通炼药锅上,可将其转化为巫师炼药锅,然后就能炼制有趣的药水与物品了.将不同的巫术种子与水在搅拌机内混合即可得到受魔之膏.%n%n在用巫师炼药锅酿造药水、进行仪式或制造物品之前,首先需要将其装满水. 可以手动加入三桶水、使用管道泵入水、或者用内含无限水的发射器.%n%n装满水后,还需要把水烧沸.唯一方式就是在巫师炼药锅下方点上一堆火. 以地狱岩为基即可让火一直燃烧,就算火灭了,只要让它重新燃烧并加热沸腾就可以继续反应,不会有任何损失(不像水壶酿药,中断会造成损失!).%n%n在水沸腾之后,就可以将各种原料[依次]投入炼药锅. 巫术:酿造这本书列出了所有原料,及其在酿造药水中的作用.
 
 # Quest.335 - Don't Touch the Needle!
 gtnh.quest335.name=不要碰针！
@@ -1354,7 +1354,7 @@ gtnh.quest337.desc=与硝酸不同,这东西不会爆炸.但你还是不应该�
 
 # Quest.338 - Spirit Coin Transfer
 gtnh.quest338.name=精神硬币转换
-#C gtnh.quest338.desc=水心之酿只能在精神世界制作.想知道在精神世界中如何获得你所需的设备,如水壶、转轮或是巫师炼药锅?好吧,在服务器中你或许可以通过末影箱子之类的东西,但我这里提供了另外的选择,你可以花些硬币,将这些设备传送到精神世界中.在你前往那边之前不要提交任务.%n%n你已经通过前面的任务收集了不少硬币.让我们将它转换并存到箱子里.%n%n§4Don't claim the coins until you've gone to the other side.
+gtnh.quest338.desc=水心之酿只能在精神世界制作.想知道在精神世界中如何获得你所需的设备,如水壶、转轮或是巫师炼药锅?好吧,在服务器中你或许可以通过末影箱子之类的东西,但我这里提供了另外的选择,你可以花些硬币,将这些设备传送到精神世界中.在你前往那边之前不要提交任务.%n%n你已经通过前面的任务收集了不少硬币.让我们将它转换并存到箱子里.%n%n§4再次强调:在你到达另一边之前,不要提交任务.
 
 # Quest.339 - Circle Magic
 gtnh.quest339.name=圆环法阵
@@ -1373,11 +1373,11 @@ gtnh.quest342.name=Nimbus 1999
 gtnh.quest342.desc=不如它的继承者,2000的型号,但仍然"某种程度上"有用......
 
 # Quest.343 - Bloodlust: Ghast Tear
-gtnh.quest343.name=嗜血:恶魂之泪
+gtnh.quest343.name=嗜血: 恶魂之泪
 gtnh.quest343.desc=如果你打不到恶魂,却还想要精炼邪恶的话...
 
 # Quest.344 - Bloodlust: Witches Hand
-gtnh.quest344.name=嗜血:女巫之爪
+gtnh.quest344.name=嗜血: 女巫之爪
 gtnh.quest344.desc=万一你不喜欢地狱女巫...
 
 # Quest.345 - Seeping Shoes
@@ -1385,8 +1385,8 @@ gtnh.quest345.name=嗜血: 睡鞋
 gtnh.quest345.desc=谁需要解药？ 现在有免费肥料！聪明点,杀死恶魔前可以与其交易.
 
 # Quest.346 - Taglock Kits
-#C gtnh.quest346.name=嗜血: 巫媒
-gtnh.quest346.desc=右键对其他玩家使用,会获得其他玩家的触媒(建议玩家睡觉的时候采集)被采集的玩家右下角会提示被采集中(可对目标玩家的床,触碰过的水蛭箱子使用)
+gtnh.quest346.name=嗜血: 巫媒
+gtnh.quest346.desc=右键对其他玩家使用,会获得其他玩家的巫媒(建议玩家睡觉的时候采集)被采集的玩家右下角会提示被采集中(可对目标玩家的床,触碰过的水蛭箱子使用)
 
 # Quest.347 - Bloodlust: Wool of Bat
 gtnh.quest347.name=嗜血: 蝙蝠之毛
@@ -1593,31 +1593,31 @@ gtnh.quest397.name=无尽的进化
 gtnh.quest397.desc=使用你的机器,你现在可以处理无限数量的这些核心.并且由于让你的傀儡只为一个核心工作是很可怕的,所以你决定一次做16个.真是个好主意.
 
 # Quest.398 - Kill Baba Yaga
-gtnh.quest398.name=杀了芭芭雅嘎
+gtnh.quest398.name=猎杀芭芭雅嘎
 gtnh.quest398.desc=芭芭雅嘎是一个女巫(或同名三姐妹之一),看上去是一个畸形和/或凶残的老妇人.她坐在一个臼中飞来飞去,挥舞着杵.她住在森林深处,在一个通常被描述为站在鸡腿上的棚屋里,有一个用人头骨装饰的篱笆.芭芭雅嘎可以帮助或阻碍那些遇到或寻找她的人.
 
 # Quest.399 - Kill Horned Huntsman
-gtnh.quest399.name=杀了角魔狩猎者
-gtnh.quest399.desc=角魔狩猎者是狩猎者的一员,是角之神创造的强大实体.如果遇到一只角魔狩猎者,准备一场艰苦的战斗,或者溜之大吉.
+gtnh.quest399.name=猎杀角魔狩猎者
+gtnh.quest399.desc=角魔狩猎者是狩猎者的一员,是角之神创造的强大实体.如果遇到一只角魔狩猎者,做好准备迎接一场艰苦的战斗吧,或者你也可以溜之大吉.
 
 # Quest.400 - Kill Ender Dragon
-gtnh.quest400.name=杀了末影龙
-#C gtnh.quest400.desc=这条龙必须死！如果给它足够长的时间,它会摧毁那些珍贵的末地石块！%n%n§3PS: Hold shift and whack it with a vanilla sword.
+gtnh.quest400.name=猎杀末影龙
+gtnh.quest400.desc=这条龙必须死！如果给它足够长的时间,它会摧毁那些珍贵的末地石块！%n%n§3PS:手持原版剑,按住Shift左键龙蛋即可采集.
 
 # Quest.401 - Kill Shade of Leonard
-gtnh.quest401.name=杀了半羊人之影
+gtnh.quest401.name=猎杀半羊人之影
 gtnh.quest401.desc=半羊人是一个恶魔般的存在,据传他曾教过一批德国女巫与恶魔交易,并经常支配他们的手下. 根据巫术:酿造一书中描述的方法,熟练的巫师炼药锅可以召唤此恶魔的投影.
 
 # Quest.402 - Kill Lord of Tormentum
-gtnh.quest402.name=杀了痛苦之王
+gtnh.quest402.name=猎杀痛苦之王
 gtnh.quest402.desc=痛苦之王是一个强大的恶魔,能够制造监狱来折磨受害者.那些愚蠢的召唤这些生物的人必须为一场艰苦的战斗做好准备.
 
 # Quest.403 - Kill Mog and Gulg
-gtnh.quest403.name=杀了莫哥和瓜哥
+gtnh.quest403.name=猎杀莫哥和瓜哥
 gtnh.quest403.desc=莫哥和瓜哥是妖精崇拜的神.他们可以派自己的化身去拜访女巫,他们利用他们的崇拜(有一个妖精主顾之雕像).谣传使用下界之星可能会引起他们的注意.
 
 # Quest.404 - Kill Demon
-gtnh.quest404.name=杀了恶魔
+gtnh.quest404.name=猎杀恶魔
 gtnh.quest404.desc=恶魔是强大的,邪恶的存在,它们生活在地狱般的维度中.到目前为止,还没有人在下界看到它们游荡,在那里它们的奴仆:恶魂、烈焰人和火焰和它们的变种似乎占主导地位.如果你没有保护自己的手段就遇到了恶魔,你几乎肯定会死亡.它们的攻击就像重型卡车一样强力,并需要巨量的伤害才能杀死它们.一些恶魔甚至可以射击火球！当然,它们还能免疫火焰伤害.
 
 # Quest.405 - The Power of Infinity
@@ -1890,7 +1890,7 @@ gtnh.quest471.desc=你可能发现了,一直吃一种食物很不健康而且越
 
 # Quest.472 - §2§lYour First Tool
 gtnh.quest472.name=§2§l你的第一把工具
-#C gtnh.quest472.desc=当你准备好了匠魂里面各种组装台、工具台什么的,你就可以开始制作你第一个§o真正的§r匠魂工具了. 如果你没找到一个有匠魂冶炼炉的村庄(白嫖箱子中的部件),那么你只能从燧石工具开始制作.%n%n让我们首先来制作稿子、铲子和斧头.燧石不能制作剑,因为剑需要金属比如铁或者青铜,你在以后的时候可以制作它.%n%n刚做好的工具可能会比你现在用的GT工具要弱一点,但是随着你使用时间的增加,这些工具也会越来越好.提升工具等级时有几率附送一个升级槽,而升级所需经验随着等级提升而增加. 组成工具的各个部件可被替换,但你必须将工具完全修复才可以替换部件.%n%n§3PS: You need to level up the mining level each time you replace the parts to unleash the full power of the pickaxe.
+gtnh.quest472.desc=当你准备好了匠魂里面各种组装台、工具台什么的,你就可以开始制作你第一个§o真正的§r匠魂工具了. 如果你没找到一个有匠魂冶炼炉的村庄(白嫖箱子中的部件),那么你只能从燧石工具开始制作.%n%n让我们首先来制作稿子、铲子和斧头.燧石不能制作剑,因为剑需要金属比如铁或者青铜,你在以后的时候可以制作它.%n%n刚做好的工具可能会比你现在用的GT工具要弱一点,但是随着你使用时间的增加,这些工具也会越来越好.提升工具等级时有几率附送一个升级槽,而升级所需经验随着等级提升而增加. 组成工具的各个部件可被替换,但你必须将工具完全修复才可以替换部件.%n%n§3PS:每次更换镐头后,你都需要重新提高挖掘等级,才能发挥其全部的能力.
 
 # Quest.473 - §2§lMaking a Better Sword
 gtnh.quest473.name=§2§l做一把好剑
@@ -1942,7 +1942,7 @@ gtnh.quest484.desc=你已经厌倦了等待胡萝卜成熟的漫长的过程？�
 
 # Quest.485 - §2§lYou Need MOOOOOOORE Wood
 gtnh.quest485.name=§2§l你需要很多很多很多的木头
-#C gtnh.quest485.desc=你的新焦炉需要大量的原木来获得更多的木炭.因此你需要寻找一种有效的植树方法. 去寻找一些云杉树苗或者丛林树苗.以2x2的方式种植下去,这些树木就可以生长成为更大的树.%n%n§3PS: I have no idea why this quest asks you for something,and then gives you a reward that makes it obselete immediately.
+gtnh.quest485.desc=你的新焦炉需要大量的原木来获得更多的木炭.因此你需要寻找一种有效的植树方法. 去寻找一些云杉树苗或者丛林树苗.以2x2的方式种植下去,这些树木就可以生长成为更大的树.%n%n§3PS: 我也不知道为什么任务会找你索要某样东西,然后立刻奖励你一个可以淘汰它的东西...
 
 # Quest.486 - §2§lTanned Leather
 gtnh.quest486.name=§2§l柔软的皮革
@@ -2038,7 +2038,7 @@ gtnh.quest508.desc=等待突变的过程是既漫长又让人厌恶,而且大部
 
 # Quest.509 - Genetic Sampler
 gtnh.quest509.name=基因采样机
-#C gtnh.quest509.desc=使用这台机器,你可以从样本中(蜂蜜、树苗、蝴蝶或者花朵)中提取一个随机的性状.样本在被提取的过程中将被摧毁. 这个过程需要一个空的基因样本和一个基因药皿.%n%nThe resulting sample is random,so make sure to recycle the extra gene samples you don't want.
+gtnh.quest509.desc=使用这台机器,你可以从样本(蜂蜜、树苗、蝴蝶或者花朵)中提取一个随机的性状.样本在被提取的过程中将被摧毁. 这个过程需要一个空的基因样本和一个基因药皿.%n%n获得的样品是随机的,所以记得回收那些多余的基因样本.
 
 # Quest.510 - Diamondware
 gtnh.quest510.name=钻石制品
@@ -2254,7 +2254,7 @@ gtnh.quest562.desc=当你有了钢之后你就可以制作高压锅炉方块了.
 
 # Quest.563 - Time to Kill (Wither Skeleton)
 gtnh.quest563.name=杀戮时刻(凋灵骷髅)
-#C gtnh.quest563.desc=Gimme yo §oSkuuuuull!!!§r <-- The thought of every non-noob player upon seeing one.%n%nBTW,in case you didn't know,you can summon the Wither by placing 4 soul sand blocks in a T shape,with 3 wither skulls on top. Don't do so in your base.
+gtnh.quest563.desc=借尔项上§o头颅§r一用!!! <-- 这是每一个玩家看到凋灵骷髅心里想的吧.%n%n要是你还不知道的话,这里提一句,将4个灵魂沙摆成竖着的T形,然后在上头放3个凋灵骷髅头,你就能召唤出凋灵BOSS了. 别在你的基地里这么干.
 
 # Quest.564 - Forest Ranger Basic > Forest Ranger Advanced Lootbag Trade
 gtnh.quest564.name=基础林业奖励 > 高级林业奖励
