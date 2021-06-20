@@ -3383,7 +3383,7 @@ gtnh.quest844.desc=乙醇可以作为内燃发电机的燃料.每单位(1000mb)�
 
 # Quest.845 - §6§lBio Diesel Fuel
 gtnh.quest845.name=§6§l生物柴油
-gtnh.quest845.desc=你可以使用甲醇、乙醇、种子油或者鱼油来制作生物柴油.每单位(1000mb)的生物柴油燃烧后能产生192,000EU的电力.柴油和生物柴油都可以驱动内燃发电机,而且柴油、生物柴油和轻燃油都可以在搅拌机中搅拌四硝基甲烷得到高十六烷值柴油.在生产生物柴油的过程中你能获得一些甘油副产物,把他们收集起来,这样就可以为你以后制造用于生产炸药的硝化甘油或者环氧树脂.
+gtnh.quest845.desc=你可以使用甲醇、乙醇、种子油或者鱼油来制作生物柴油.每单位(1000mb)的生物柴油燃烧后能产生256,000EU的电力.柴油和生物柴油都可以驱动内燃发电机,而且柴油、生物柴油和轻燃油都可以在搅拌机中搅拌四硝基甲烷得到高十六烷值柴油.在生产生物柴油的过程中你能获得一些甘油副产物,把他们收集起来,这样就可以为你以后制造用于生产炸药的硝化甘油或者环氧树脂.
 
 # Quest.846 - §6§lO like Oxygen
 gtnh.quest846.name=§6§lO似乎是氧
@@ -3434,8 +3434,8 @@ gtnh.quest857.name=§9§l甲醛
 gtnh.quest857.desc=在化工厂中将甲醛催化剂、氧气和甲醇进行反应会产生一些甲醛.%n%n你可以使用热解炉,从几种来源中蒸馏出甲醇,也可以使用你在工业高炉中收集的二氧化碳气体中制取甲醇.
 
 # Quest.858 - Chef Training
-#N gtnh.quest858.name=Chef Training
-#N gtnh.quest858.desc=I need some ingredients to help me train since they don't grow well where I am,could you provide some? I'll give you the results in return.%n%n§3You only need to turn in one set each time you complete the quest.
+gtnh.quest858.name=厨师训练
+gtnh.quest858.desc=我需要一些配料来帮助我进行练习,不过它们无法在我这里种植,你可以提供一些吗? 我会回报你一些成品.%n%n§3只需凑齐一组即可完成任务.
 
 # Quest.859 - §a§9§lHypochlorous Acid
 gtnh.quest859.name=§a§9§l次氯酸
@@ -8510,8 +8510,8 @@ gtnh.quest2126.name=巴尔杉树
 gtnh.quest2126.desc=巴尔杉树的原木很漂亮.用柚树和金合欢树杂交培育而来.%n%n§e高树苗掉率Get!
 
 # Quest.2127 - Common Beech
-gtnh.quest2127.name=普通山毛榉
-gtnh.quest2127.desc=普通山毛榉可使你获得更快的成熟属性.用银橙和苹果橡木杂交培育而来.%n%n注意: 对于所有的林木杂交任务,需要的树苗必须为纯种,并且被扫描过.
+gtnh.quest2127.name=山毛榉
+gtnh.quest2127.desc=山毛榉可使你获得更快的成熟属性.用银橙和苹果橡木杂交培育而来.%n%n注意: 对于所有的林木杂交任务,需要的树苗必须为纯种,并且被扫描过.
 
 # Quest.2128 - Hill Cherry
 gtnh.quest2128.name=山丘樱
@@ -10370,8 +10370,8 @@ gtnh.quest2591.name=上帝之上
 gtnh.quest2591.desc=容量并没有变大,只是输入/输出更快. 把它填满作为你毕生的目标吧!
 
 # Quest.2592 - Papaya
-#N gtnh.quest2592.name=Papaya
-#N gtnh.quest2592.desc=The Papaya tree produces Papayas,which produce the most Fruice Juice. Sluuuurp!%n%n§aPapaya and Fruit Juice Get!
+gtnh.quest2592.name=木瓜
+gtnh.quest2592.desc=木瓜树出产木瓜,木瓜出产最好的果汁. 嘶溜嘶溜!%n%n§a木瓜和果汁Get!
 
 # Quest.2593 - Welcome to Hell
 gtnh.quest2593.name=欢迎来到地狱
@@ -11435,135 +11435,135 @@ gtnh.quest2857.desc=这种玻璃看起来用途挺多的,可能包括,传输物�
 
 # Quest.2858 - Machine Interface Fluid I/O
 gtnh.quest2858.name=机器GUI流体输入/输出
-#N gtnh.quest2858.desc=感谢开发组不倦的努力,现在我们可以使用单元,直接在机器的GUI中输入/输出流体.只需要手持单元或是其他装有流体的容器,点击机器的流体槽即可.%n%n有几点需要考虑:%n1) 左键会尝试装满/倒空光标所指的[所有]流体容器.%n2) 右键会尝试装满/倒空光标所指的[一个]流体容器.%n3) 支持所有可在标准GT储罐(比如超级缸或XX电压储罐)使用的流体容器,包括但不限于:水瓶、原版桶、IC2单元、通用流体单元、容量瓶、大型流体单元、高压流体储罐,等等.%n4) Can fill/take less than one cell (1000L or 144L if molten) of fluid if the fluid container supports doing so.%n5) It won't check if it's a valid fluid for the machine/recipe,keep that in mind.%n6) The brewery is difficult to use this way without volumetric flasks,as its input and output are only 750L.%n7) Doesn't work with seared tanks or the Crops++ alcohols,feel free to code compatibility for us.%n8) EIO tanks need to be placed and picked up first before they can be used.%n6) Works on all GT single block machines that have an interface except for those that already have a way to I/O fluids,like hatches,tanks,or generators.
+gtnh.quest2858.desc=感谢开发组不懈的努力,现在我们可以使用单元,直接在机器的GUI中输入/输出流体.只需要手持单元或是其他装有流体的容器,点击机器的流体槽即可.%n%n有几点需要考虑:%n1) 左键会尝试装满/倒空光标所指的[所有]流体容器.%n2) 右键会尝试装满/倒空光标所指的[一个]流体容器.%n3) 支持所有可在标准GT储罐(比如超级缸或XX电压储罐)使用的流体容器,包括但不限于:水瓶、原版桶、IC2单元、通用流体单元、容量瓶、大型流体单元、高压流体储罐,等等.%n4) 如果流体容器支持,可以不装满(1000L或熔融的144L).%n5) 请记住,GUI输入不会检查此流体是否为机器/配方的有效流体.%n6) 如果不用容量瓶,酿造室用起来就很难受,因为它的输入和输出都只有750L.%n7) 不支持焦黑储罐或Crops++的酒,欢迎来提供兼容性代码.%n8) 想要使用EIO的储罐,需要先放置再拿起来才能正常使用.%n9) 支持所有带GUI的GT单方块机器,除了已经有输入/输出流体方式的,比如输入/输出仓、超级缸或发电机.
 
 # Quest.2859 - Combustion Engine
-#N gtnh.quest2859.name=Combustion Engine
-#N gtnh.quest2859.desc=The combustion engine combusts things for power like a car engine does. You need water in it if it's over 100 degrees,or it will explode. Don't run out of water! You turn it on with a redstone signal.%n%nYour options for fuel are:%nOil @30RF/t for a total of 150K%nEthanol @40RF/t for a total of 360K%nDiesel @60RF/t for a total of 1,500K%n%n§3Make sure to use Oil,not raw,light,medium,or heavy oil.
+gtnh.quest2859.name=燃油引擎
+gtnh.quest2859.desc=燃油引擎通过燃烧物品产生能量,类似于汽车发动机. 超过100度时,需要给它加水,否则它就会爆炸,别把水用完了! 使用红石信号激活它.%n%n可选的燃料有:%n石油 @30RF/t 总计150K-RF%n乙醇 @40RF/t 总计360K-RF%n柴油 @60RF/t 总计1500K-RF%n%n§3用石油的时候,别用成原油、轻油、重油了.
 
 # Quest.2860 - Kinesis Pipes
-#N gtnh.quest2860.name=Kinesis Pipes
-#N gtnh.quest2860.desc=To transfer RF power more than 1 block,you'll want some kinesis pipes. Use a wooden one first to connect to the pipe network,then other types to transfer it. That said,they seem to be lossy somewhat,so conduits are better,if more expensive. Also,you need capacitors to store the RF anyway.
+gtnh.quest2860.name=能量管道
+gtnh.quest2860.desc=想要将RF能量传输1格以上,你需要一些能量管道. 首先使用木质管道连接到管道网络,然后再通过其他种类的管道输送能量. 而且,其中的某些似乎是有损的,而更贵的管道一般更好. 另外,你需要电容库来存储RF.
 
 # Quest.2861 - Prison Gangs are Obsolete
-#N gtnh.quest2861.name=Prison Gangs are Obsolete
-#N gtnh.quest2861.desc=Want lots of cobble,stone,or obsidian? This is the machine for you!%n%nCobble: Water and lava on 2 of the sides.%nStone: Water on a side,lava on top.%nObsidian: Either of the above,and redstone in the machine%n%nYou of course need to power it. If you don't want to spend power on cobble,do it the ExU way with the WIU.
+gtnh.quest2861.name=刷石机过气了
+gtnh.quest2861.desc=想要大量的圆石、石头或者黑曜石? 那么这台机器很适合你!%n%n圆石: 机器两侧放上水和岩浆.%n石头: 机器侧面放上水,顶部放上岩浆.%n黑曜石: 随便水和岩浆怎么放,机器内需要供给红石.%n%n当然,还要给它供能. 如果不想在圆石上浪费电力,你也可以用ExU的传输节点.
 
 # Quest.2862 - Coast Sequoia
-#N gtnh.quest2862.name=Coast Sequoia
-#N gtnh.quest2862.desc=You can breed a Coast Sequoia by combining Mundane Larch and Bull Pine.%n%n§4Fireproof Wood Get! If you care.
+gtnh.quest2862.name=海岸红杉
+gtnh.quest2862.desc=将落叶松与西黄松杂交,你就可以培育出海岸红杉.%n%n§4防火木Get!
 
 # Quest.2863 - Wenge
-#N gtnh.quest2863.name=Wenge
-#N gtnh.quest2863.desc=You can get Wenge by combining Balsa and Cocobolo.
+gtnh.quest2863.name=崖豆
+gtnh.quest2863.desc=将巴尔杉树与黄檀树杂交,你就可以培育出崖豆.
 
 # Quest.2864 - Grandidier's Baobab
-#N gtnh.quest2864.name=Grandidier's Baobab
-#N gtnh.quest2864.desc=You can get Grandidier's Baobab by combining Wenge and Balsa.%n%n§eAbility to grow trees on sand,Get! Like you care.
+gtnh.quest2864.name=猴面包树
+gtnh.quest2864.desc=将崖豆与巴尔杉树杂交,你就可以培育出猴面包树.%n%n§e可以在沙子上种树,Get!
 
 # Quest.2865 - Giant Sequoia
-#N gtnh.quest2865.name=Giant Sequoia
-#N gtnh.quest2865.desc=You can get Giant Sequoia by combining Coast Sequoia and Grandidier's Baobab.%n%n§dBoth Height and §bGirth,Get!§r%n%n§3PS: If this doesn't work (NEI says yes,internet says no) you should also be able to trade a forestry villager for it.
+gtnh.quest2865.name=巨杉
+gtnh.quest2865.desc=将海岸红杉与猴面包树杂交,你就可以培育出巨杉.%n%n§d高度与§b干围,同时Get!§r%n%n§3PS: 如果这样杂交不出来(NEI说这是对的,网上说这是错的),你还可以从林业村民那里交易得到巨杉树苗.
 
 # Quest.2866 - Common Alder
-#N gtnh.quest2866.name=Common Alder
-#N gtnh.quest2866.desc=You can breed a Common Alder by combining Silver Birch and Common Beech.
+gtnh.quest2866.name=桤木
+gtnh.quest2866.desc=将银桦与山毛榉杂交,你就可以培育出桤木.
 
 # Quest.2867 - Aspen
-#N gtnh.quest2867.name=Aspen
-#N gtnh.quest2867.desc=You can breed an Aspen by combining Common Alder and Common Beech.
+gtnh.quest2867.name=Aspen
+gtnh.quest2867.desc=You can breed an Aspen by combining Common Alder and Common Beech.
 
 # Quest.2868 - Elderberry
-#N gtnh.quest2868.name=Elderberry
-#N gtnh.quest2868.desc=You can breed an Elderberry by combining Common Alder and Aspen.
+gtnh.quest2868.name=Elderberry
+gtnh.quest2868.desc=You can breed an Elderberry by combining Common Alder and Aspen.
 
 # Quest.2869 - Raspberry
-#N gtnh.quest2869.name=Raspberry
-#N gtnh.quest2869.desc=You can breed Raspberry by combining Hill Cherry and Elderberry.
+gtnh.quest2869.name=Raspberry
+gtnh.quest2869.desc=You can breed Raspberry by combining Hill Cherry and Elderberry.
 
 # Quest.2870 - Pomelo
-#N gtnh.quest2870.name=Pomelo
-#N gtnh.quest2870.desc=You can breed a Pomelo by combining Hill Cherry and Lemon.
+gtnh.quest2870.name=Pomelo
+gtnh.quest2870.desc=You can breed a Pomelo by combining Hill Cherry and Lemon.
 
 # Quest.2871 - Manderine
-#N gtnh.quest2871.name=Manderine
-#N gtnh.quest2871.desc=You can get Manderine by combining Pomelo and Hill Cherry.
+gtnh.quest2871.name=Manderine
+gtnh.quest2871.desc=You can get Manderine by combining Pomelo and Hill Cherry.
 
 # Quest.2872 - Orange
-#N gtnh.quest2872.name=Orange
-#N gtnh.quest2872.desc=You can get Orange by combining Pomelo and Manderine.
+gtnh.quest2872.name=Orange
+gtnh.quest2872.desc=You can get Orange by combining Pomelo and Manderine.
 
 # Quest.2873 - Golden Raspberry
-#N gtnh.quest2873.name=Golden Raspberry
-#N gtnh.quest2873.desc=You can get Golden Raspberry by combining Raspberry and Orange.%n%n§cFastest Maturity Get!§r%n%n§3That probably took forever,huh? BTW,it probably would've been faster to make more multifarms or farming stations instead.%n%nAlso,you still gotta create the ultimate hybrid,too.
+gtnh.quest2873.name=Golden Raspberry
+gtnh.quest2873.desc=You can get Golden Raspberry by combining Raspberry and Orange.%n%n§cFastest Maturity Get!§r%n%n§3That probably took forever,huh? BTW,it probably would've been faster to make more multifarms or farming stations instead.%n%nAlso,you still gotta create the ultimate hybrid,too.
 
 # Quest.2874 - Loading the Chunks
-#N gtnh.quest2874.name=Loading the Chunks
-#N gtnh.quest2874.desc=In this,like many packs,you'll want to have things in your base keep running while you're off exploring. §3(Though admittedly once you reach midgame you'll spend almost no time off-base,you'll still want to make sure everything is still chunkloaded just in case to prevent machine explosions,especially for multiblocks)§r%n%nIn order to have things keep running,you need to have the chunks loaded. You can do this in a few ways.%n%n1) Install FTBUtil and claim chunks,then set them to chunkload. By default you may not be able to claim/chunkload enough per player,so feel free to increase the number. You need to be in SP or running your own server to do this.%n%n2) Use an Anchor from Railcraft. There are 4 types. Anchors are not craftable until LV. In SP,or a server you run,cheat in Admin Anchors to chunkload forever,for free. They're limited on servers to prevent TPS dropping from people chunkloading a base forever when they aren't even there. On the officials,you need to use Ender Fragments,Ender Pearls,or Coins to fuel them. Look at the tooltip on each for how long it will work,and in what chunkloader. You also can't make the coin mold on the officials,so you need to get them another way. Feel free to limit yourself to chunkloading this way in SP if you want to make it more challenging though.%n%n3) Use chicken chunks to get anchor-like blocks. But don't do this,it's buggy.%n%n4) Use one of the blocks that chunkloads itself. If you do this on a server,expect the admins to possibly get very mad with you if it's not something you're allowed to do. Same for vanilla methods.
+gtnh.quest2874.name=Loading the Chunks
+gtnh.quest2874.desc=In this,like many packs,you'll want to have things in your base keep running while you're off exploring. §3(Though admittedly once you reach midgame you'll spend almost no time off-base,you'll still want to make sure everything is still chunkloaded just in case to prevent machine explosions,especially for multiblocks)§r%n%nIn order to have things keep running,you need to have the chunks loaded. You can do this in a few ways.%n%n1) Install FTBUtil and claim chunks,then set them to chunkload. By default you may not be able to claim/chunkload enough per player,so feel free to increase the number. You need to be in SP or running your own server to do this.%n%n2) Use an Anchor from Railcraft. There are 4 types. Anchors are not craftable until LV. In SP,or a server you run,cheat in Admin Anchors to chunkload forever,for free. They're limited on servers to prevent TPS dropping from people chunkloading a base forever when they aren't even there. On the officials,you need to use Ender Fragments,Ender Pearls,or Coins to fuel them. Look at the tooltip on each for how long it will work,and in what chunkloader. You also can't make the coin mold on the officials,so you need to get them another way. Feel free to limit yourself to chunkloading this way in SP if you want to make it more challenging though.%n%n3) Use chicken chunks to get anchor-like blocks. But don't do this,it's buggy.%n%n4) Use one of the blocks that chunkloads itself. If you do this on a server,expect the admins to possibly get very mad with you if it's not something you're allowed to do. Same for vanilla methods.
 
 # Quest.2875 - Trigger:Loot Game
-#N gtnh.quest2875.name=Trigger:Loot Game
-#N gtnh.quest2875.desc=Find a loot game room
+gtnh.quest2875.name=Trigger:Loot Game
+gtnh.quest2875.desc=Find a loot game room
 
 # Quest.2876 - Loot Games
-#N gtnh.quest2876.name=Loot Games
-#N gtnh.quest2876.desc=It looks like you've found a secret room hidden...not so deep within the earth. Pretty close to the surface,actually. You can find these all over the place,and have a chance at sweet sweet loot if you're good at simon says. It counts the highest level you completed,so you can get fail the other rounds on purpose to go faster if you don't think you can do better. BTW,cheaters go to minecraft hell,where all the blocks have hardness -1.%n%n§4Make sure that no water/oil is flowing into the room because of worldgen or it will kill you and destroy your grave becuase of 'cheating'. This is a bug.
+gtnh.quest2876.name=Loot Games
+gtnh.quest2876.desc=It looks like you've found a secret room hidden...not so deep within the earth. Pretty close to the surface,actually. You can find these all over the place,and have a chance at sweet sweet loot if you're good at simon says. It counts the highest level you completed,so you can get fail the other rounds on purpose to go faster if you don't think you can do better. BTW,cheaters go to minecraft hell,where all the blocks have hardness -1.%n%n§4Make sure that no water/oil is flowing into the room because of worldgen or it will kill you and destroy your grave becuase of 'cheating'. This is a bug.
 
 # Quest.2877 - Applied Greg?
-#N gtnh.quest2877.name=Applied Greg?
-#N gtnh.quest2877.desc=The Output Bus (ME) is a combination of technology and...other technology. Don't give me that look,it is,ok? With this,you can now directly output the results of your GT MBs into the ME network. This has §osignificantly§r less lag,so please start using them as soon as possible on servers.%n%nYou just pop off your output bus (GT) + ME input bus or ME interface combination,and replace both with the new bus and connect a fluix cable directly to it. It uses 1 channel,same as the other options.
+gtnh.quest2877.name=Applied Greg?
+gtnh.quest2877.desc=The Output Bus (ME) is a combination of technology and...other technology. Don't give me that look,it is,ok? With this,you can now directly output the results of your GT MBs into the ME network. This has §osignificantly§r less lag,so please start using them as soon as possible on servers.%n%nYou just pop off your output bus (GT) + ME input bus or ME interface combination,and replace both with the new bus and connect a fluix cable directly to it. It uses 1 channel,same as the other options.
 
 # Quest.2878 - §b§lPalladium
 gtnh.quest2878.name=§b§l钯
-#N gtnh.quest2878.desc=Lastly,add Formic Acid to Reprecipated Palladium to get pure Palladium,along with other stuff you can reuse.
+gtnh.quest2878.desc=Lastly,add Formic Acid to Reprecipated Palladium to get pure Palladium,along with other stuff you can reuse.
 
 # Quest.2879 - §b§lSalt Can't be Stored in Water?
-#N gtnh.quest2879.name=§b§lSalt Can't be Stored in Water?
-#N gtnh.quest2879.desc=Dissolve the Rhodium Salt in Water in a mixer to get Rhodium Salt Solution.
+gtnh.quest2879.name=§b§lSalt Can't be Stored in Water?
+gtnh.quest2879.desc=Dissolve the Rhodium Salt in Water in a mixer to get Rhodium Salt Solution.
 
 # Quest.2880 - §b§lSodium Nitrate
-#N gtnh.quest2880.name=§b§lSodium Nitrate
-#N gtnh.quest2880.desc=You need Sodium Nitrate to process your Rhodium further.
+gtnh.quest2880.name=§b§lSodium Nitrate
+gtnh.quest2880.desc=You need Sodium Nitrate to process your Rhodium further.
 
 # Quest.2881 - §b§lHeat it Up!
-#N gtnh.quest2881.name=§b§lHeat it Up!
-#N gtnh.quest2881.desc=You can make Hot Tetroxide Solution in either the fluid heater or cracker,but the cracker gives twice as much,so use that.%n%nYou only get 2/9 buckets of Steam from 2 steps ago when automating,so use a fluid heater to get the rest.
+gtnh.quest2881.name=§b§lHeat it Up!
+gtnh.quest2881.desc=You can make Hot Tetroxide Solution in either the fluid heater or cracker,but the cracker gives twice as much,so use that.%n%nYou only get 2/9 buckets of Steam from 2 steps ago when automating,so use a fluid heater to get the rest.
 
 # Quest.2882 - RF Node
-#N gtnh.quest2882.name=RF Node
-#N gtnh.quest2882.desc=The RF Node acts as an I/O point for RF. If you need that,I guess.
+gtnh.quest2882.name=RF Node
+gtnh.quest2882.desc=The RF Node acts as an I/O point for RF. If you need that,I guess.
 
 # Quest.2883 - §b§lWhy,Bart,Why?
-#N gtnh.quest2883.name=§b§lWhy,Bart,Why?
-#N gtnh.quest2883.desc=Take your Hot Ruthenium Tetroxide Solution and distill it in a DT to get Ruthenium Tetroxide. Also,Salt and Water.%n%nThe amounts in this step are quite annoying unfortunately. You need to run it 5 times to get whole cell amounts.
+gtnh.quest2883.name=§b§lWhy,Bart,Why?
+gtnh.quest2883.desc=Take your Hot Ruthenium Tetroxide Solution and distill it in a DT to get Ruthenium Tetroxide. Also,Salt and Water.%n%nThe amounts in this step are quite annoying unfortunately. You need to run it 5 times to get whole cell amounts.
 
 # Quest.2884 - §b§lCool it Back Down
-#N gtnh.quest2884.name=§b§lCool it Back Down
-#N gtnh.quest2884.desc=You just need to run your Ruthenium Tetroxide through a fluid solidifer in this step to,well,solidify it.
+gtnh.quest2884.name=§b§lCool it Back Down
+gtnh.quest2884.desc=You just need to run your Ruthenium Tetroxide through a fluid solidifer in this step to,well,solidify it.
 
 # Quest.2885 - Can You Really See Out of Those?
-#N gtnh.quest2885.name=Can You Really See Out of Those?
-#N gtnh.quest2885.desc=If you take a little dip into the dark side,you can make these goggles. They give the best discount until you can make infinity armor. And who even does that?%n%nYou'll need infusion and some warping research first.%n%nIf you're a §oscaredy-cat§r you can make the Electric goggles on the armor tab instead.
+gtnh.quest2885.name=Can You Really See Out of Those?
+gtnh.quest2885.desc=If you take a little dip into the dark side,you can make these goggles. They give the best discount until you can make infinity armor. And who even does that?%n%nYou'll need infusion and some warping research first.%n%nIf you're a §oscaredy-cat§r you can make the Electric goggles on the armor tab instead.
 
 # Quest.2886 - It's Called the Thaumatorium,OK?
-#N gtnh.quest2886.name=It's Called the Thaumatorium,OK?
-#N gtnh.quest2886.desc=This device will allow automating the crucible. Check the research to the far right of the crucible for details.
+gtnh.quest2886.name=It's Called the Thaumatorium,OK?
+gtnh.quest2886.desc=This device will allow automating the crucible. Check the research to the far right of the crucible for details.
 
 # Quest.2887 - These Items Will Not 'Be Back'
-#N gtnh.quest2887.name=These Items Will Not 'Be Back'
-#N gtnh.quest2887.desc=One of the more useful things you can do with the pearl is to make a better Alchemical Furnace. You can melt items into essentia way faster with this.%n%n§3The pearl is not used up,nor does it take durability damage from this craft.
+gtnh.quest2887.name=These Items Will Not 'Be Back'
+gtnh.quest2887.desc=One of the more useful things you can do with the pearl is to make a better Alchemical Furnace. You can melt items into essentia way faster with this.%n%n§3The pearl is not used up,nor does it take durability damage from this craft.
 
 # Quest.2888 - 「 」
-#N gtnh.quest2888.name=「 」
-#N gtnh.quest2888.desc=If you somehow manage to connect to it,you can get a lot of aspect points,but can't become God. You don't disappear though,so it's probably a decent tradeoff.
+gtnh.quest2888.name=「 」
+gtnh.quest2888.desc=If you somehow manage to connect to it,you can get a lot of aspect points,but can't become God. You don't disappear though,so it's probably a decent tradeoff.
 
 # Quest.2889 - §a§lTungstate Processing - Step 1
 gtnh.quest2890.name=§a§l钨酸锂处理 - 第2步
-#N gtnh.quest2889.desc=In return for the smelting time not being absurd,you now have to put in some effort. First,let's turn our Tungstate into Scheelite. When you can get Scheelite ore,you can just skip this step.%n%nNote that if you're processing Huebnerite or Ferberite from ross128b or 128ba,the first step is slightly different.
+gtnh.quest2889.desc=In return for the smelting time not being absurd,you now have to put in some effort. First,let's turn our Tungstate into Scheelite. When you can get Scheelite ore,you can just skip this step.%n%nNote that if you're processing Huebnerite or Ferberite from ross128b or 128ba,the first step is slightly different.
 
 # Quest.2890 - §a§lTungstate Processing - Step 2
-#N gtnh.quest2890.name=§a§lTungstate Processing - Step 2
-#N gtnh.quest2890.desc=Next up is Tungsten Trioxide. Note that you got back all of the Calcium Chloride. If you process Scheelite ore at all,you'll want to setup an electrolyzer.
+gtnh.quest2890.name=§a§lTungstate Processing - Step 2
+gtnh.quest2890.desc=Next up is Tungsten Trioxide. Note that you got back all of the Calcium Chloride. If you process Scheelite ore at all,you'll want to setup an electrolyzer.
 
 ##################################Line##################################
 
