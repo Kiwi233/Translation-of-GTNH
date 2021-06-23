@@ -11499,71 +11499,71 @@ gtnh.quest2873.desc=将树莓和橙子树杂交,你就可以培育出金树莓.%
 
 # Quest.2874 - Loading the Chunks
 gtnh.quest2874.name=加载区块
-gtnh.quest2874.desc=与许多整合包一样,在GTNH,你也会需要让基地里的机器,在你外出探索时保持运行. §3(不过不可否认,当你进入游戏中期后,几乎就没啥时间出去浪了,但你还是想要确保基地里的一切井井有条地运行,尤其是多方块机器因为加载问题可能爆炸,比如部分加载造成的供水问题)§r%n%nIn order to have things keep running,you need to have the chunks loaded. You can do this in a few ways.%n%n1) Install FTBUtil and claim chunks,then set them to chunkload. By default you may not be able to claim/chunkload enough per player,so feel free to increase the number. You need to be in SP or running your own server to do this.%n%n2) Use an Anchor from Railcraft. There are 4 types. Anchors are not craftable until LV. In SP,or a server you run,cheat in Admin Anchors to chunkload forever,for free. They're limited on servers to prevent TPS dropping from people chunkloading a base forever when they aren't even there. On the officials,you need to use Ender Fragments,Ender Pearls,or Coins to fuel them. Look at the tooltip on each for how long it will work,and in what chunkloader. You also can't make the coin mold on the officials,so you need to get them another way. Feel free to limit yourself to chunkloading this way in SP if you want to make it more challenging though.%n%n3) Use chicken chunks to get anchor-like blocks. But don't do this,it's buggy.%n%n4) Use one of the blocks that chunkloads itself. If you do this on a server,expect the admins to possibly get very mad with you if it's not something you're allowed to do. Same for vanilla methods.
+gtnh.quest2874.desc=与许多整合包一样,在GTNH,你也会需要让基地里的机器,在你外出探索时保持运行. §3(不过不可否认,当你进入游戏中期后,几乎就没啥时间出去浪了,但你还是想要确保基地里的一切井井有条地运行,尤其是多方块机器可能因为加载问题而爆炸,比如部分加载造成的供水问题)§r%n%n你需要使区块保持加载,才能让自己的工厂夜以继日地干活. 有多种方法可以达到这一目的.%n%n1) 安装FTBUtil,认领区块,再加载区块. 如果你是一个人玩的话,默认配置下的认领/加载数可能不够用,所以尽管增加数量吧. 不过修改配置文件只有在单人模式或私人服务器可以做到.%n%n2) 使用RC的锚. 一共有4种锚.你得到LV阶段以后才能制造它们. 在单人模式或是私人服务器中,你可以通过作弊获取管理员世界锚,免费永久加载区块. 在公共服务器上,为了防止长时间不上线玩家基地持续加载而大幅降低tps,这些是被限制的. 在我们的官方服务器中,这些锚需要消耗末影碎片、末影珍珠或是区块加载器硬币.请查看tooltip,获知它们在什么锚中分别有多长的工作时间. 在官方服务器中,你也无法制造区块加载器硬币,你得通过其他方式获取. 不过,即使你在单人游戏中,如果想要让游戏更具挑战性,还是限制一下自己的区块加载吧.%n%n3) 使用chicken-chunks来获取类似锚的方块.但我们不建议这样,因为这玩意bug多多.%n%n4) 使用某种会加载自己的方块.这里就不列了. 如果在公共服务器上,没有经过管理员允许就大量使用此方块,那他可能会给你点颜色看看了.就算是某些原版方式也不行.
 
 # Quest.2875 - Trigger:Loot Game
-gtnh.quest2875.name=Trigger:Loot Game
-gtnh.quest2875.desc=Find a loot game room
+gtnh.quest2875.name=触发:奖励小游戏(Loot Game)
+gtnh.quest2875.desc=找到一座小游戏地牢.
 
 # Quest.2876 - Loot Games
-gtnh.quest2876.name=Loot Games
-gtnh.quest2876.desc=It looks like you've found a secret room hidden...not so deep within the earth. Pretty close to the surface,actually. You can find these all over the place,and have a chance at sweet sweet loot if you're good at simon says. It counts the highest level you completed,so you can get fail the other rounds on purpose to go faster if you don't think you can do better. BTW,cheaters go to minecraft hell,where all the blocks have hardness -1.%n%n§4Make sure that no water/oil is flowing into the room because of worldgen or it will kill you and destroy your grave becuase of 'cheating'. This is a bug.
+gtnh.quest2876.name=奖励小游戏(Loot Game)
+gtnh.quest2876.desc=看起来...你在不太深的地下(实际上很接近地表)找到了一个隐藏房间. 这种隐藏房间到处都是,如果你擅长'你说我做'(simon-says)这种游戏的话,就有机会获得丰厚的奖励. 奖励只计算完成的最高难度等级,所以如果你觉得事不可为,完全可以故意输掉再去找下一处. 另外,这里是偷鸡者的地狱,所有的方块硬度都是-1(不可破坏).%n%n§4请确保世界生成的时候没有在房间内留下水/石油,否则小游戏会认为你在'作弊',击杀并毁掉你的墓碑. 这是个bug.
 
 # Quest.2877 - Applied Greg?
-gtnh.quest2877.name=Applied Greg?
-gtnh.quest2877.desc=The Output Bus (ME) is a combination of technology and...other technology. Don't give me that look,it is,ok? With this,you can now directly output the results of your GT MBs into the ME network. This has §osignificantly§r less lag,so please start using them as soon as possible on servers.%n%nYou just pop off your output bus (GT) + ME input bus or ME interface combination,and replace both with the new bus and connect a fluix cable directly to it. It uses 1 channel,same as the other options.
+gtnh.quest2877.name=应用格雷(Applied Greg)?
+gtnh.quest2877.desc=输出总线(ME)是一种科技和...另一种科技结合的产物. 别这么看我,它就是,好不? 有了这种输出总线,你可以将GT多方块机器的产物直接输出到AE网络中. 它可以§o大幅度§r降低延迟,从而§o显著§r提升tps,所以在服务器中,请尽早换用这种总线.%n%n只需要拆除你的普通输出总线+ME输入总线/ME接口,再换上输出总线(ME),并直接连上AE线缆,即可完成换装. 它会使用1个频道,而其他方案一样要用1个频道.
 
 # Quest.2878 - §b§lPalladium
 gtnh.quest2878.name=§b§l钯
-gtnh.quest2878.desc=Lastly,add Formic Acid to Reprecipated Palladium to get pure Palladium,along with other stuff you can reuse.
+gtnh.quest2878.desc=最后,向再沉淀钯中加入甲酸,获取纯净的钯,以及一些可以循环利用的产物.
 
 # Quest.2879 - §b§lSalt Can't be Stored in Water?
-gtnh.quest2879.name=§b§lSalt Can't be Stored in Water?
-gtnh.quest2879.desc=Dissolve the Rhodium Salt in Water in a mixer to get Rhodium Salt Solution.
+gtnh.quest2879.name=§b§l盐不能在水中储存?
+gtnh.quest2879.desc=使用搅拌机,将铑盐溶解在水中,获取铑盐溶液.
 
 # Quest.2880 - §b§lSodium Nitrate
-gtnh.quest2880.name=§b§lSodium Nitrate
-gtnh.quest2880.desc=You need Sodium Nitrate to process your Rhodium further.
+gtnh.quest2880.name=§b§l硝酸钠
+gtnh.quest2880.desc=进一步处理铑需要用到硝酸钠.
 
 # Quest.2881 - §b§lHeat it Up!
-gtnh.quest2881.name=§b§lHeat it Up!
-gtnh.quest2881.desc=You can make Hot Tetroxide Solution in either the fluid heater or cracker,but the cracker gives twice as much,so use that.%n%nYou only get 2/9 buckets of Steam from 2 steps ago when automating,so use a fluid heater to get the rest.
+gtnh.quest2881.name=§b§l加热!
+gtnh.quest2881.desc=获取热四氧化钌溶液有两种方式,流体加热器或者石油裂化机都行,不过裂化机的出产是加热器的两倍,所以建议使用裂化机.%n%n自动化时,两步之前回收的蒸汽只有2/9桶,剩下的蒸汽建议用流体加热器补充.
 
 # Quest.2882 - RF Node
-gtnh.quest2882.name=RF Node
-gtnh.quest2882.desc=The RF Node acts as an I/O point for RF. If you need that,I guess.
+gtnh.quest2882.name=RF节点
+gtnh.quest2882.desc=RF节点就是一个RF的输入/输出节点. 我猜你有可能需要.
 
 # Quest.2883 - §b§lWhy,Bart,Why?
-gtnh.quest2883.name=§b§lWhy,Bart,Why?
-gtnh.quest2883.desc=Take your Hot Ruthenium Tetroxide Solution and distill it in a DT to get Ruthenium Tetroxide. Also,Salt and Water.%n%nThe amounts in this step are quite annoying unfortunately. You need to run it 5 times to get whole cell amounts.
+gtnh.quest2883.name=§b§l为什么,Bart,为什么?
+gtnh.quest2883.desc=带上你的热四氧化钌溶液,使用蒸馏塔对其进行蒸馏,获取四氧化钌,以及盐和水.%n%n但是,这一步的数量非常烦人.你需要运行5次才能得到一个单元的量.
 
 # Quest.2884 - §b§lCool it Back Down
-gtnh.quest2884.name=§b§lCool it Back Down
-gtnh.quest2884.desc=You just need to run your Ruthenium Tetroxide through a fluid solidifer in this step to,well,solidify it.
+gtnh.quest2884.name=§b§l冷静一下
+gtnh.quest2884.desc=在这一步,你只需要将四氧化钌通过一台流体固化器,把它...固化一下.
 
 # Quest.2885 - Can You Really See Out of Those?
-gtnh.quest2885.name=Can You Really See Out of Those?
-gtnh.quest2885.desc=If you take a little dip into the dark side,you can make these goggles. They give the best discount until you can make infinity armor. And who even does that?%n%nYou'll need infusion and some warping research first.%n%nIf you're a §oscaredy-cat§r you can make the Electric goggles on the armor tab instead.
+gtnh.quest2885.name=你真的能看到那些吗?
+gtnh.quest2885.desc=如果你稍微涉入一点黑暗面的话,应该就能制作这些护目镜. 它们的魔力减免仅次于无尽头盔. 而且谁会去做无尽套呢?%n%n不过首先,你需要注魔和一些会带来扭曲的研究.%n%n如果你是个§o胆小鬼§r,也可以制造'摆脱死亡,游历四方'任务栏中的电子揭示护目镜.
 
 # Quest.2886 - It's Called the Thaumatorium,OK?
-gtnh.quest2886.name=It's Called the Thaumatorium,OK?
-gtnh.quest2886.desc=This device will allow automating the crucible. Check the research to the far right of the crucible for details.
+gtnh.quest2886.name=它叫神秘炼金塔,好不?
+gtnh.quest2886.desc=这台设备相当于自动化坩埚. 请查看魔导手册中,坩埚右边远处的研究,以获取更多信息.
 
 # Quest.2887 - These Items Will Not 'Be Back'
-gtnh.quest2887.name=These Items Will Not 'Be Back'
-gtnh.quest2887.desc=One of the more useful things you can do with the pearl is to make a better Alchemical Furnace. You can melt items into essentia way faster with this.%n%n§3The pearl is not used up,nor does it take durability damage from this craft.
+gtnh.quest2887.name=这些东西不会'回来'了
+gtnh.quest2887.desc=这种珍珠比较实用的用途之一,就是制造更好的炼金炉. 通过这种炼金炉,你可以用更快的速度,将物品炼成源质.%n%n§3在合成过程中,珍珠不会被消耗,也不会损失耐久.
 
 # Quest.2888 - 「 」
 gtnh.quest2888.name=「 」
-gtnh.quest2888.desc=If you somehow manage to connect to it,you can get a lot of aspect points,but can't become God. You don't disappear though,so it's probably a decent tradeoff.
+gtnh.quest2888.desc=当你以某种方式设法连接上它后,可以获得大量的研究点,但你不会因此成为上帝. 不过你也不会就此消失,所以这可能是一次体面的交易吧.
 
 # Quest.2889 - §a§lTungstate Processing - Step 1
-gtnh.quest2890.name=§a§l钨酸锂处理 - 第2步
-gtnh.quest2889.desc=In return for the smelting time not being absurd,you now have to put in some effort. First,let's turn our Tungstate into Scheelite. When you can get Scheelite ore,you can just skip this step.%n%nNote that if you're processing Huebnerite or Ferberite from ross128b or 128ba,the first step is slightly different.
+gtnh.quest2890.name=§a§l钨酸锂处理 - 第1步
+gtnh.quest2889.desc=为了让熔炼时间不那么离谱,你需要做一定的努力. 首先,让我们把钨酸锂转化为白钨. 要是你直接挖到了白钨,那就跳过这一步.%n%n请注意,如果你正在处理罗斯128b(a)上挖到的钨酸锰或钨铁,第一步会略有不同.
 
 # Quest.2890 - §a§lTungstate Processing - Step 2
-gtnh.quest2890.name=§a§lTungstate Processing - Step 2
-gtnh.quest2890.desc=Next up is Tungsten Trioxide. Note that you got back all of the Calcium Chloride. If you process Scheelite ore at all,you'll want to setup an electrolyzer.
+gtnh.quest2890.name=§a§l钨酸锂处理 - 第2步
+gtnh.quest2890.desc=下一步是三氧化钨. 请注意,所有氯化钙都能完全循环利用. 如果一起处理了白钨矿,你会需要一台电解机的.
 
 ##################################Line##################################
 
