@@ -9009,7 +9009,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_840_Index_15=工业筛选机的控制器方块
     S:TileEntity_DESCRIPTION_840_Index_16=比相同电压的单方块机器快400%
     S:TileEntity_DESCRIPTION_840_Index_17=只需要使用配方要求电压的75%
-    S:TileEntity_DESCRIPTION_840_Index_18=每提升一个电压等级，每次运行可以多处理4个物品(副产物提升约25%)
+    S:TileEntity_DESCRIPTION_840_Index_18=每提升一个电压等级，每次运行可以多处理4个物品(副产物提升约13.6%)
     S:TileEntity_DESCRIPTION_840_Index_19=大小(宽x高x长): 5x3x5
     S:TileEntity_DESCRIPTION_840_Index_20=控制器方块(底层中央)
     S:TileEntity_DESCRIPTION_840_Index_21=1x输入总线(任意顶层或底层边缘)
@@ -9087,7 +9087,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_860_Index_15=大型加工厂的控制器方块
     S:TileEntity_DESCRIPTION_860_Index_16=比相同电压的单方块机器快250%
     S:TileEntity_DESCRIPTION_860_Index_17=只需要使用配方要求电压的80%
-    S:TileEntity_DESCRIPTION_860_Index_18=每提升一个电压等级，每次运行可以多处理2个物品
+    S:TileEntity_DESCRIPTION_860_Index_18=并行 = 电压等级 * 2 (LV电压等级 = 1)
     S:TileEntity_DESCRIPTION_860_Index_19=大小(宽x高x长): 3x3x3(中空)
     S:TileEntity_DESCRIPTION_860_Index_20=控制器方块(正面中央)
     S:TileEntity_DESCRIPTION_860_Index_21=至少6x多功能机械方块
@@ -9395,7 +9395,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_9233_Index_0=可以缓存至多27组物品
     S:TileEntity_DESCRIPTION_9233_Index_1=用螺丝刀右击以校准输出数目
     S:TileEntity_DESCRIPTION_9233_Index_2=移动物品时不消耗能量
-    S:TileEntity_DESCRIPTION_9233_Index_3=每镉1秒输出一次物品
+    S:TileEntity_DESCRIPTION_9233_Index_3=每隔1秒输出一次物品
     S:TileEntity_DESCRIPTION_9234_Index_0=可以缓存至多27组物品
     S:TileEntity_DESCRIPTION_9234_Index_1=用螺丝刀右击以校准输出数目
     S:TileEntity_DESCRIPTION_9234_Index_2=移动物品时不消耗能量
@@ -9539,7 +9539,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_9303_Index_0=可以缓存至多256组物品
     S:TileEntity_DESCRIPTION_9303_Index_1=用螺丝刀右击以校准输出数目
     S:TileEntity_DESCRIPTION_9303_Index_2=移动物品时不消耗能量
-    S:TileEntity_DESCRIPTION_9303_Index_3=每镉1秒输出一次物品
+    S:TileEntity_DESCRIPTION_9303_Index_3=每隔1秒输出一次物品
     S:TileEntity_DESCRIPTION_9304_Index_0=可以缓存至多256组物品
     S:TileEntity_DESCRIPTION_9304_Index_1=用螺丝刀右击以校准输出数目
     S:TileEntity_DESCRIPTION_9304_Index_2=移动物品时不消耗能量
@@ -49326,7 +49326,7 @@ languagefile {
     S:gt.metaitem.02.32480.tooltip=可作覆盖板时
     S:gt.metaitem.02.32481.name=崖豆木木板
     S:gt.metaitem.02.32481.tooltip=可作覆盖板时
-    S:gt.metaitem.02.32482.name=猴面包木木板
+    S:gt.metaitem.02.32482.name=猴面包树木板
     S:gt.metaitem.02.32482.tooltip=可作覆盖板时
     S:gt.metaitem.02.32483.name=红衫木木板
     S:gt.metaitem.02.32483.tooltip=可作覆盖板时
