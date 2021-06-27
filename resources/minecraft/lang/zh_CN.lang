@@ -514,7 +514,7 @@ gtnh.quest127.desc==欢迎来到红石计划!%n%n此任务将会为你介绍红�
 
 # Quest.128 - §6§lIO, IO, It's Off to EnderIO We Go
 gtnh.quest128.name=§6§lIO,IO,我们去EnderIO
-#C gtnh.quest128.desc=你以前可能用过末影接口.对很多事情来说,它都是非常有用的.但在这里,很多东西都变了,所以让我们从头开始吧.
+gtnh.quest128.desc=你之前可能已经用过末影接口的东西了.对很多事情来说,它都是非常有用的.但在这里,很多合成表都变了,而且对于类似矿物处理的事,它们也难以胜任了. 让我们看看它能提供些什么. 请注意,另外一半需要等到HV阶段才能解锁.
 
 # Quest.129 - §6§lMachine Chassis
 gtnh.quest129.name=§6§l机器框架
@@ -522,23 +522,23 @@ gtnh.quest129.desc=所有末影接口的机器都需要机器框架,它的合成
 
 # Quest.130 - §6§lPortable Tanks
 gtnh.quest130.name=§6§l便携式储罐
-#C gtnh.quest130.desc=在此之前,你还要用BC储罐来带液体到处跑,这事干起来真叫一个痛苦. 而这些EIO的小储罐能够自己输出和抽进液体,因为它们内置了一些由魔法能源驱动的泵,真方便.  §4但是要小心,它会吞掉水单元,不会返还单元.  高压流体储罐可以储存两倍的流体.
+gtnh.quest130.desc=在此之前,你还要用手推车带着BC储罐来携带液体到处跑,这事干起来真叫一个痛苦,还慢. 而这些EIO的流体箱能够自己输出/抽进流体,因为它们内置了一些由魔法能源驱动的泵,真方便.%n%n高压流体箱具有两倍的容积.%n%n§3但是要小心,它会吞掉水单元,不会返还单元.
 
 # Quest.131 - §6§lSimple RF power: Solid
 gtnh.quest131.name=§6§l简易RF能源:固体
-#C gtnh.quest131.desc=这台机器能通过燃烧煤炭作为燃料产生RF能量,足够供给你的基础机器.这台机器还可以接受压缩方块燃料或者多重压缩方块燃料.一块烧一年? 你同样可以通过安装电容来提升这台机器的输出和效率.GT导线和变压器可以将EU转换为RF,却无法逆向转换,而EIO机器、GT导线和线缆可以淋雨.%n%n这台机器可能对基因工业的机器比较有用,因为它们直接连接GT导线时会消耗更多电能-而林业的机器和EIO的机器就没有这种问题(除了热电子加工台). 或使用电容库中转.
+gtnh.quest131.desc=这台机器能通过燃烧煤炭作为燃料产生RF能量,足够供给你的基础机器.这台机器还可以接受压缩方块燃料或者多重压缩方块燃料.一块烧一年? 你同样可以通过安装电容来提升这台机器的输出和效率.GT导线和变压器可以将EU转换为RF,却无法逆向转换,而EIO机器、GT导线和线缆可以淋雨.%n%n这台机器可能对基因工业的机器比较有用,因为它们直接连接GT导线时会消耗更多电能-而林业的机器和EIO的机器就没有这种问题(除了热电子加工台). 或使用电容库中转.
 
 # Quest.132 - §6§lSimple RF Power: Liquids
 gtnh.quest132.name=§6§l简易RF能源:液体
-#C gtnh.quest132.desc=这台发电机需要作为冷却剂的水和作为燃料的可燃液体,它发电的功率取决于使用的液体.
+gtnh.quest132.desc=这台发电机需要作为冷却剂的水和作为燃料的可燃液体,它发电的功率取决于使用的液体.%n%n流体           燃烧时间(ticks/mb)    输出功率(RF/tick)    输出能量(RF/mb) %n油             5                     30                   150%n烈酒           6                     60                   360%n乙醇           15                    40                   600 %n火焰水         15                    80                   1200%n柴油           25                    60                   1500%n%n§3火箭燃料已禁用.
 
 # Quest.133 - §9§lThe Power of Endermen
-#C gtnh.quest133.name=§9§l末影人的力量
-#C gtnh.quest133.desc=电梯是好的,但它们仅限于垂直传送,作用范围也有限.旅行锚没有这个限制.你可以从一个锚传送到一定范围内的任何其他锚.你可以命名它们,甚至把它们设为私人的.他们有2秒的冷却时间.
+gtnh.quest133.name=§9§l末影人的力量
+gtnh.quest133.desc=电梯很棒,但它们仅限于垂直传送,作用范围也很有限. 旅行锚没有角度上的限制.你可以从一个锚传送到128格内的任何其他锚. 只需站在一个锚上,看向你希望传送到的锚,再按下Shift,即可完成传送. 你可以命名它们,甚至把它们设为私人的.它们有2秒的传送冷却时间(tooltip写的是错的).
 
 # Quest.134 - §6§lConduits
 gtnh.quest134.name=§6§l导管
-#C gtnh.quest134.desc=这可能是多种传输方式中最棒的一种,每一种都做一些吧.而且还存在更高级的导管.
+gtnh.quest134.desc=这可能是多种传输方式中最棒的一种,每一种都做一些吧.而且每种(除了物品导管)都有更高级的导管.%n%n§3等你科技到了,还有ME导管.
 
 # Quest.135 - §6§lYet Another Wrench
 gtnh.quest135.name=§6§l另一种扳手
@@ -546,7 +546,7 @@ gtnh.quest135.desc=以太扳手不仅仅是一个普通的扳手.在握住它的
 
 # Quest.136 - §6§lImproving Conduits
 gtnh.quest136.name=§6§l升级导管
-#C gtnh.quest136.desc=导管本身是非常棒的,但你可以做得更好.通过使用过滤器和速度升级,你可以更好地控制它们的工作和工作速度.
+gtnh.quest136.desc=导管本身是非常棒的,但你可以做得更好.通过使用过滤器和速度升级,你可以更好地控制它们的工作和工作速度.%n%n§3PS:不过你现在一个都做不出来.
 
 # Quest.137 - §6§lMaking Things Pretty
 gtnh.quest137.name=§6§l变得漂亮
@@ -566,27 +566,27 @@ gtnh.quest140.desc=还有玄钢制成的工具.它们都可以接受升级.按�
 
 # Quest.141 - §9§lVibrant Crystals
 gtnh.quest141.name=§9§l充能晶体
-#C gtnh.quest141.desc=制造谐振电容库需要这种神奇的晶体.同时升级玄钢制造的盔甲和工具也需要使用到它.
+gtnh.quest141.desc=制造谐振电容库需要这种神奇的晶体.同时升级玄钢制造的盔甲和工具也需要用到它.
 
 # Quest.142 - §6§lBrewing Liquids
 gtnh.quest142.name=§6§l酿造液体
-#C gtnh.quest142.desc=这种机器不仅能够酿造更强大的可燃液体,还可用于酿造营养精华液,可能很快(tm)就有用了.
+gtnh.quest142.desc=这种机器不仅能够酿造更强大的可燃液体,还可用于酿造营养精华液,可能很快(tm)就有用了.%n%n配方有许多可选物品,请注意,不同物品的产率不同. 请根据自己的情况自行选择.
 
 # Quest.143 - §6§lSmelting All-Joy
 gtnh.quest143.name=§6§l熔炼合金(alloy)(熔炼所有乐趣(all-joy))
-#C gtnh.quest143.desc=这种合金炉允许你生产各种石英玻璃和纯净玻璃.
+gtnh.quest143.desc=这种合金炉可以帮你生产各种石英玻璃和纯净玻璃.%n%n但是它§o不能§r制造EIO的各种合金,你需要搅拌机和(可能)工业高炉才能制造它们.
 
 # Quest.144 - §9§lAutomated Crafting
 gtnh.quest144.name=§9§l自动合成
-#C gtnh.quest144.desc=你了解的另一个自动合成方法... 左侧的3x3格子中设置合成表.左侧的中间格将显示输出.右侧的物品栏是给你放原料的.输出物品将出现在右侧中间格中. 这台机器支持自动化. 你可以用电容升级这台机器,提高能源消耗速度与合成速度.
+gtnh.quest144.desc=你了解的另一个自动合成方法...%n%n左侧的3x3格子中设置合成表.左侧的中间格将显示输出.右侧的物品栏是给你放原料的.输出物品将出现在右侧中间格中.%n这台机器支持自动化.%n你可以用电容升级这台机器,提高能源消耗速度与合成速度.
 
 # Quest.145 - §6§lOre Processing, Kind Of...
-#C gtnh.quest145.name=§6§l一种矿物处理......
-#C gtnh.quest145.desc=研磨机与SAG研磨之间的战争仍在继续,看不到尽头,那么何必纠结选哪个呢?  HV研磨机可获得更多的副产物,但SAG研磨机也有其闪光点:升级研磨头！SAG研磨机是一种完美的机器,可以在不使用蜜蜂和作物的情况下从矿石中获得最大的收益. 使用钨磨头可以获得额外的输出,但这并不意味着你可以以此刷材料.(比如锭,就没有额外产出)  另外,对于许多矿物,你将直接获得最终输出,而无需进一步处理.它可以很方便地处理红石获得铬!  SAG对于铅、铜、锡、银、镍、红石、红宝石、青金石、石英和孔雀石矿都很有用.要是你用了足够好的磨头,还有些别的矿物也将获得更多的输出.  甚至煤炭、木炭、小麦和末影珍珠都能获得额外输出.
+gtnh.quest145.name=§6§l一种矿物处理...
+gtnh.quest145.desc=研磨机与SAG研磨之间的战争仍在继续,看不到尽头,那么何必纠结选哪个呢?%n%nHV研磨机可获得更多的副产物,但SAG研磨机也有其闪光点:升级研磨头！SAG研磨机是一种完美的机器,可以在不使用蜜蜂和作物的情况下从矿石中获得最大的收益. 使用钨磨头可以获得额外的输出,但这并不意味着你可以以此刷材料.(比如锭,就没有额外产出)  另外,对于许多矿物,你将直接获得最终输出,而无需进一步处理.它可以很方便地处理红石获得铬!%n%nSAG对于铅、铜、锡、银、镍、红石、红宝石、青金石、石英和孔雀石矿都很有用.要是你用了足够好的磨头,还有些别的矿物也将获得更多的输出.%n%n甚至煤炭、木炭、小麦和末影珍珠都能获得额外输出.%n%n换句话说,在这方面,GT的研磨机还在后头拍马追赶呢.
 
 # Quest.146 - §9§lTorture Device
 gtnh.quest146.name=§9§l酷刑装置
-gtnh.quest146.desc=当臣民们不愿合作时......
+gtnh.quest146.desc=当臣民们不愿合作时...
 
 # Quest.147 - H8N4C2O4 (Green) Rocket Fuel
 gtnh.quest147.name=H8N4C2O4(绿色)火箭燃料
@@ -6698,7 +6698,7 @@ gtnh.quest1673.name=§b§lSoC-芯片级的系统！
 
 # Quest.1674 - §b§lCheaper MV Circuits
 gtnh.quest1674.name=§b§l更便宜的MV电路
-#N gtnh.quest1674.desc=With the IV circuit assembler and SoCs you can now make integrated processors for a reduced price.
+gtnh.quest1674.desc=使用IV电路组装机和SoC,你现在可以用更低的成本制造集成处理器.
 
 # Quest.1675 - §b§lGlass Fiber
 gtnh.quest1675.name=§b§l玻璃纤维
@@ -7774,7 +7774,7 @@ gtnh.quest1942.desc= 凿子提供种类繁多的方块.在NEI中搜索"chisel"�
 
 # Quest.1943 - Fun Party Blocks
 gtnh.quest1943.name=有趣的方块聚会
-#N gtnh.quest1943.desc=There's also some really funky blocks available. 
+gtnh.quest1943.desc=这里还有一些真正时髦的方块.
 
 # Quest.1944 - Concrete and GT Stones
 gtnh.quest1944.name=混凝土和GT石头
@@ -11557,7 +11557,7 @@ gtnh.quest2888.name=「 」
 gtnh.quest2888.desc=当你以某种方式设法连接上它后,可以获得大量的研究点,但你不会因此成为上帝. 不过你也不会就此消失,所以这可能是一次体面的交易吧.
 
 # Quest.2889 - §a§lTungstate Processing - Step 1
-#N gtnh.quest2889.name=§a§lTungstate Processing - Step 1
+gtnh.quest2889.name=§a§l钨酸锂处理 - 第1步
 gtnh.quest2889.desc=为了让熔炼时间不那么离谱,你需要做一定的努力. 首先,让我们把钨酸锂转化为白钨. 要是你直接挖到了白钨,那就跳过这一步.%n%n请注意,如果你正在处理罗斯128b(a)上挖到的钨酸锰或钨铁,第一步会略有不同.
 
 # Quest.2890 - §a§lTungstate Processing - Step 2
