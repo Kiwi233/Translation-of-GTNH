@@ -270,7 +270,7 @@ tile.TitanGrunt.name=土卫六地表岩石
 tile.TitanSubGrunt.name=土卫六地底岩石
 tile.TitanStone.name=土卫六石头
 tile.Methane.name=土卫六液态甲烷
-tile.NuclearFuel.name=有机燃料
+tile.NuclearFuel.name=生物燃料
 
 tile.MirandaGrunt.name=天卫五地表岩石
 tile.MirandaSubGrunt.name=天卫五地底岩石
@@ -465,7 +465,7 @@ item.computerBuggy.name=月球车控制电脑
 item.computerMiner.name=太空采矿机控制电脑
 item.RobotArm.name=多用途机械臂
 
-item.biofuelCanister.name=有机燃料罐
+item.biofuelCanister.name=生物燃料罐
 
 item.CeresGlowstoneDust.name=谷神星萤石粉
 item.IoGlowstoneDust.name=木卫一萤石粉
@@ -500,7 +500,7 @@ gui.message.lava.name=岩浆
 gui.message.water.name=水
 gui.status.nofuelgenerator.name=没有燃料
 gui.warning.atmosphericPressure=高压！
-gui.message.biofuel.name=有机燃料
+gui.message.biofuel.name=生物燃料
 
 gui.quantbow.desc1=1.5倍耐久和2倍的伤害！
 gui.quantbow.desc2=火矢
@@ -596,3 +596,5 @@ planet.TCetiF=鲸鱼座T星F
 planet.TCetiG=鲸鱼座T星G
 planet.TCetiAsteroids=鲸鱼座T星星系小行星带
 
+fluid.biofuel=生物燃料
+fluid.unknowwater=不明液体
