@@ -4594,7 +4594,7 @@ gtnh.quest1147.desc=也许你在想为什么现在的导线或者线缆不会自
 
 # Quest.1148 - §6§lTier 2 (MV)
 gtnh.quest1148.name=§6§l第2阶(MV)
-#C gtnh.quest1148.desc=MV阶段的机器需要铝,大量的铝. 保持你的工业高炉的运行,多准备一些铝.
+gtnh.quest1148.desc=MV阶段的机器需要铝,大量的铝. 在这个阶段,每种机器及部件都需要铝,所以让工业高炉保持运行.%n%n不知道你是否还记得'安全第一'这个任务,关于接错电压的细节描述? 简而言之就是把MV电送到LV机器会把它炸掉.让MV电流通过LV线缆会烧掉线缆,造成的火焰也可能引发机器爆炸. 另外,用高电压机器加工低电压配方(不包括ULV),会进行超频. 超频会消耗4倍的功率,缩短一半的加工时间.
 
 # Quest.1149 - §5§lA new alloy - Magnalium
 gtnh.quest1149.name=§5§l新的合金-镁铝合金
@@ -4658,7 +4658,7 @@ gtnh.quest1163.desc=你可以使用硬币购买一些铜导线
 
 # Quest.1164 - §9§lUniversal Macerator
 gtnh.quest1164.name=§9§l通用研磨机
-#C gtnh.quest1164.desc=通用研磨机是HV阶段的主要设备之一. 它有一个额外的输出槽,在研磨的过程中这个额外的输出槽可以获得更多的材料.  §4这是现阶段镓的主要额外来源.
+gtnh.quest1164.desc=通用研磨机是HV阶段的重要机器之一. 它有一个额外的输出槽,在研磨的过程中这个额外的输出槽可以获得更多的材料. 你非常,非常,非常需要这台机器.有了它,你就能对镓危机说再见了!
 
 # Quest.1165 - Rubber Ingots
 gtnh.quest1165.name=橡胶条
@@ -4886,27 +4886,27 @@ gtnh.quest1220.desc=电子管可以用来配置多功能农场种植特殊作物
 
 # Quest.1221 - §9§lAdvanced Circuit Assembler
 gtnh.quest1221.name=§9§l进阶电路组装机
-#C gtnh.quest1221.desc=更先进的电路需要更先进的电路组装机. 来让我们做一个~%n%n§3PS:想要继续的话,你得先造个超净间.
+gtnh.quest1221.desc=EV电路板需要MV的电路组装机,制造一台吧.%n%n§y§3不久之后,所有的电路板配方都会需要超净间环境,尽快搭建好超净间吧!
 
 # Quest.1222 - §9§lAdvanced Circuit Assembler II
 gtnh.quest1222.name=§9§l进阶电路组装机II
-#C gtnh.quest1222.desc=工作站电路可以用来制造HV及电路组装机.这台机器可以生产更加先进的电路板.
+gtnh.quest1222.desc=工作站电路可以用来制造HV电路组装机.这台机器可以生产更加先进的电路板(IV).
 
 # Quest.1223 - §b§a§lEV Circuit Assembler
-#C gtnh.quest1223.name=§b§a§lEV级电路组装机
-#C gtnh.quest1223.desc=有了EV的电路组装机就可以生产更加先进的IV级电路板了.
+gtnh.quest1223.name=§b§a§lEV级电路组装机
+gtnh.quest1223.desc=EV电路组装机需要IV电路板参与合成.有了这台机器,你就能制造更加先进的电路板了.
 
 # Quest.1224 - Epoxid
 gtnh.quest1224.name=环氧化物
-#C gtnh.quest1224.desc=环氧化物可以用来制作高级电路基板.你需要让环氧氯丙烷、双酚A和氢氧化钠反应来制取它.
+gtnh.quest1224.desc=环氧化物可以用来制作高级电路基板.你需要将环氧氯丙烷、双酚A和氢氧化钠进行反应,可以制取出环氧树脂.%n%n在其他东西上,你还会用到熔融状态,请自行查看NEI.
 
 # Quest.1225 - §9§lMainframes, Your First IV Circuit 
-#C gtnh.quest1225.name=§9§lIV处理器主机
-#C gtnh.quest1225.desc=处理器主机是你可以制造的第一种IV电路板.它可以用于合成EV和IV机器或部件.%n%n另外,正如列表所示,你还需要16个电容,贴片或非贴片都可以.%n%n当你获得一套可靠的聚乙烯生产线后,使用贴片元件会节省大量资源.
+gtnh.quest1225.name=§9§l处理器主机,你的第一种IV电路板
+gtnh.quest1225.desc=处理器主机是你可以制造的第一种IV电路板.它可以用于合成部分EV机器以及所有基础IV机器及部件.%n%n另外,正如列表所示,你还需要16个电容,贴片或非贴片都可以.%n%n当你搭建好一条可靠的聚乙烯生产线后,使用贴片元件会节省大量资源.
 
 # Quest.1226 - §6§lGlycerol
 gtnh.quest1226.name=§6§l甘油
-#C gtnh.quest1226.desc=甘油是制作环氧树脂的重要材料之一.环氧树脂是下一层的重要化工原料. 并且甘油对于生产TNT也很重要. 在制作生物柴油的过程中会剩余甘油,请将他们保存好.
+gtnh.quest1226.desc=甘油是生产生物柴油的副产物,但它真的很有用. 在EV阶段,甘油可以用来制造环氧树脂,以及...我猜还有炸药. 包括TNT和更好的工业TNT(iTNT).%n%n§3PS: 炸药并不是必需品,而环氧树脂有其他的制造方式,如果你并不想要生物柴油的话.
 
 # Quest.1227 - §6§lHCL
 gtnh.quest1227.name=§6§l氢氯酸
@@ -4925,11 +4925,11 @@ gtnh.quest1230.name=§a§l双酚A
 gtnh.quest1230.desc=制作环氧树脂的化工原料之一. 通过结合苯酚、丙酮、氢氯酸制取.
 
 # Quest.1231 - §9§lYou're Gonna Hate This 1-4 in HV
-#C gtnh.quest1231.name=§9§lHV阶段你最讨厌的4个物品
+gtnh.quest1231.name=§9§lHV阶段你最讨厌的4个物品
 gtnh.quest1231.desc=泵、活塞、传送带、机械臂这都是HV阶段很重要的部件.每样先做一个.
 
 # Quest.1232 - §9§lYou're Gonna Hate This 5 and 6 in HV
-#C gtnh.quest1232.name=§9§lHV阶段你最讨厌的另外2个物品
+gtnh.quest1232.name=§9§lHV阶段你最讨厌的另外2个物品
 gtnh.quest1232.desc=一些机器需要发射器和传感器,比如说扫描仪或者电路组装机.
 
 # Quest.1233 - §9§lEnder Eyes
@@ -4938,39 +4938,39 @@ gtnh.quest1233.desc=末影之眼可以在高压化学反应釜中制作.让烈�
 
 # Quest.1234 - §a§lEmpty Expoxid Board
 gtnh.quest1234.name=§a§l高级电路基板
-#C gtnh.quest1234.desc=首先我们需要使用使用硫酸将金箔和环氧树脂片结合制取环氧树脂基板.然后在使用氯化铁或者过硫酸钠将琥珀金板和环氧树脂基板结合,就可以得到高级电路基板了. 以上制作过程都需要用到化学反应釜.
+gtnh.quest1234.desc=首先我们需要使用使用硫酸将金箔和环氧树脂片结合制取环氧树脂基板.然后再使用氯化铁或者过硫酸钠将琥珀金板和环氧树脂基板结合,就可以得到高级电路基板了. 以上制作过程都需要用到化学反应釜.
 
 # Quest.1235 - §9§lLV Microprocessor
-#C gtnh.quest1235.name=§9§lLV级微型处理器
-#C gtnh.quest1235.desc=微型处理器是制造LV电路最高等级的方法.他需要塑料板、超净间、中央处理器和一些贴片元件. 但随着你基地的科技突飞猛进,我认为这些成本不会太高吧.%n%n这种电路板需要超净间环境.
+gtnh.quest1235.name=§9§lLV级微型处理器
+gtnh.quest1235.desc=微型处理器是制造LV电路最高等级的方法,此合成每次运行可以产出2个.%n%n除了列出的东西以为,你还需要2电阻、晶体管和电容,贴片或非贴片都可以.%n%n这种先进的电路板需要超净间环境.
 
 # Quest.1236 - §9§lHV Cutting Machine
-#C gtnh.quest1236.name=§9§l进阶板材切割机II
-#C gtnh.quest1236.desc=生产NOR、NAND和其他的高端芯片都需要用到HV级别的切割机.你还需要这台机器切割萤石掺杂的单晶硅.
+gtnh.quest1236.name=§9§lHV板材切割机
+gtnh.quest1236.desc=生产NOR、NAND和其他的高端芯片都需要用到HV级别的切割机.你还需要这台机器切割萤石掺杂的单晶硅.%n%n§3很快你就会发现,每种切割配方都需要超净间环境了,所以记得仔细查看NEI.
 
 # Quest.1237 - §a§9§lGlowstone Doped Monocrystalline Silicon
 gtnh.quest1237.name=§a§9§l萤石掺杂的单晶硅
-#C gtnh.quest1237.desc=传统的单晶硅制造方法很昂贵. 因此我们有了一种新的单晶硅制造方法,电高炉通入氮气在不低于2484K的炉温下冶炼硅和萤石的搅拌粉末,这样你就可以得到掺杂了萤石的单晶硅. 这种单晶硅单个能够切割出32片晶元!%n%n不幸的是,这些单晶硅需要的炉温超过了白铜线圈可以提供的炉温.%n你需要到"多方块结构"任务栏,依次获得超净间、真空冷冻机和坎塔尔线圈,然后你才能烧制单晶硅.%n%n译者注: 幸运的是,高炉会随电压,在基础炉温的基础上调整实际炉温. 详情请参考"工业高炉时代"任务.
+gtnh.quest1237.desc=传统的单晶硅制造方法相当昂贵. 因此我们研发了一种新的单晶硅制造方法,工业高炉通入氮气在不低于2484K的炉温下冶炼硅和萤石的搅拌粉末,这样你就可以得到掺杂了萤石的单晶硅. 这种单晶硅单个能够切割出32片晶元!%n%n不幸的是,这些单晶硅需要的炉温超过了白铜线圈可以提供的炉温.%n你需要到"多方块结构"任务栏,依次获得超净间、真空冷冻机和坎塔尔线圈,然后你才能烧制单晶硅.%n%n译者注:幸运的是,高炉会随电压,在基础炉温的基础上调整实际炉温. 详情请参考"工业高炉时代"任务.
 
 # Quest.1238 - §9§lGlowstone Doped Wafer
 gtnh.quest1238.name=§9§l萤石掺杂的晶元
-#C gtnh.quest1238.desc=想要将萤石掺杂的单晶硅切割成晶元需要MV以上的切割机,并且需要保证切割环境绝对无尘. 未来技术更加先进的单晶硅会用到HV以上的切割机!
+gtnh.quest1238.desc=想要将萤石掺杂的单晶硅切割成晶元需要MV以上的切割机,并且需要保证切割环境绝对无尘. 未来技术更加先进的单晶硅会用到HV以上的切割机!
 
 # Quest.1239 - §9§lNOR and NAND Chips
 gtnh.quest1239.name=§9§lNOR芯片和NAND芯片
-#C gtnh.quest1239.desc=NAND芯片可用于制造闪存、数据球和UV电路板.NOR芯片可用于制造数据期和LuV电路板.通过切割NAND或NOR晶元即可获得相应的芯片. 虽然目前你可能只用得上闪存.%n要求超净间环境.
+gtnh.quest1239.desc=NAND芯片可用于制造闪存、数据球和UV电路板.NOR芯片可用于制造数据球和LuV电路板.切割NAND或NOR晶元即可获得相应的芯片. 虽然目前你可能只用得上闪存.%n要求超净间环境.
 
 # Quest.1240 - Data Sticks
 gtnh.quest1240.name=闪存
 gtnh.quest1240.desc=闪存可以用来保存地震勘探者数据,并且闪存对于LuV的装配线中也是十分重要.因此去制作一些闪存吧.
 
 # Quest.1241 - §a§lRadon Loop
-#C gtnh.quest1241.name=§a§l氡
-#C gtnh.quest1241.desc=氡是制作量子之眼和量子之星的原材料一直.量子之眼和量子之星分别是生产EV和IV的发射器传感器重要的原材料. 首先你需要找到一个沥青铀矿脉,并/或回收核反应堆中的钚和铀.  §4沥青铀矿脉可在火星和火卫一上找到.  译者注:当前只有这俩星球可以找到,后面还有许多星球都有沥青油矿脉,详情参考NEI.
+gtnh.quest1241.name=§a§l氡循环
+gtnh.quest1241.desc=氡是制作量子之眼和量子之星的原材料之一.量子之眼和量子之星分别是生产EV和IV的发射器传感器重要的原材料.%n%n首先你需要找到一个沥青铀矿脉,并/或回收核反应堆中的钚239和铀238.%n%n§4沥青铀矿脉可在火星和火卫一上找到.%n%n译者注:当前只有这俩星球可以找到,后面还有许多星球都有沥青油矿脉,详情参考NEI.%n%n有了钚和铀之后,使用大型化学反应釜的产氡配方,循环使用钚-239即可源源不断地获得氡了.
 
 # Quest.1242 - §b§a§lEV Chemical Reactor
 gtnh.quest1242.name=§b§a§lEV级化学反应釜
-#C gtnh.quest1242.desc=EV级别的化学反应釜可以让你生产铟,同时加快生产氡的速度.
+gtnh.quest1242.desc=EV级别的化学反应釜可以让你生产铟,同时大大加快生产氡的速度.如果你已经造了大型化学反应釜,可以直接升压使用.%n%n§3完成任意要求即可.
 
 # Quest.1243 - §a§lReactor Fuels
 gtnh.quest1243.name=§a§l沥青铀矿(核燃料)
@@ -4981,11 +4981,11 @@ gtnh.quest1244.name=§a§l其他矿石
 gtnh.quest1244.desc=在这些星球上还可以找到一些其他矿石(其中有些老实说没啥用),当前阶段最有可能用到的在右边列出. 还有龙矿、玉、芒硝、坦桑石、温特姆和幽冥剧毒结晶.
 
 # Quest.1245 - §a§f§a§lYou're Gonna Hate This 1-4 in EV
-#C gtnh.quest1245.name=§a§f§a§lEV阶段让你讨厌的4个物品
+gtnh.quest1245.name=§a§f§a§lEV阶段让你讨厌的4个物品
 gtnh.quest1245.desc=泵、活塞、传送带、机械臂在EV阶段依然很重要,每样做一个样品吧.
 
 # Quest.1246 - §a§lYou're Gonna Hate This 5 and 6 in EV
-#C gtnh.quest1246.name=§a§lEV阶段你最讨厌的另外2个物品
+gtnh.quest1246.name=§a§lEV阶段你最讨厌的另外2个物品
 gtnh.quest1246.desc=一些机器需要发射器和传感器,比如说扫描仪或者电路组装机.
 
 # Quest.1247 - §a§lQuantum Eye
