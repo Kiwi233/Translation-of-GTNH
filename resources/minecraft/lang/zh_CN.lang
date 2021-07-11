@@ -4993,20 +4993,20 @@ gtnh.quest1247.name=§a§l量子之眼
 gtnh.quest1247.desc=生产EV发射器和传感器需要用到量子之眼,通过化学浸洗器将末影之眼浸泡在氡中就可以得到.
 
 # Quest.1248 - §a§lNanoprocessor
-#C gtnh.quest1248.name=§a§l纳米处理器
-#C gtnh.quest1248.desc=HV级别的电路板有三种类型,高级电路板、处理器集群和纳米处理器. 纳米处理器集群需要用到纳米处理器和环氧树脂制作的高级电路基板. 生产过程中需要保持全程无尘环境.
+gtnh.quest1248.name=§a§l纳米处理器
+gtnh.quest1248.desc=这里是纳米系列电路板.它们最大的意义就在于通过前三种,套娃出最后一种电路板,它们都叫同一个名字(在这里就是纳米).
 
 # Quest.1249 - §a§lNanoCPU Wafer and Chip
-#C gtnh.quest1249.name=§a§l纳米晶元和CPU
-#C gtnh.quest1249.desc=纳米晶元是由CPU晶元通过添加生碳纤维,在经过和液态萤石进行反应后得到的一种纳米级CPU晶元. 通过切割纳米CPU晶元就可以得到纳米CPU了.
+gtnh.quest1249.name=§a§l纳米晶元和CPU
+gtnh.quest1249.desc=纳米CPU晶元是由CPU晶元,添加生碳纤维,再与熔融萤石进行反应后得到的一种纳米级CPU晶元. 切割纳米CPU晶元就可以得到纳米CPU了.
 
 # Quest.1250 - §a§lNanoprocessor Array
-#C gtnh.quest1250.name=§a§l纳米处理器集群
-#C gtnh.quest1250.desc=纳米处理器集群是EV级电路. 生产过程中同样需要保证全程无尘.
+gtnh.quest1250.name=§a§l纳米处理器集群
+gtnh.quest1250.desc=纳米处理器集群是EV级电路.%n生产过程中同样需要保证全程无尘.
 
 # Quest.1251 - §a§lElite Nanocomputer
-#C gtnh.quest1251.name=§a§l精英纳米电脑
-#C gtnh.quest1251.desc=精英纳米电脑是IV级的电路.
+gtnh.quest1251.name=§a§l精英纳米电脑
+gtnh.quest1251.desc=精英纳米电脑是IV级的电路.%n生产过程中同样需要保证全程无尘.
 
 # Quest.1252 - §a§lHV Chemical Bath
 gtnh.quest1252.name=§a§l化学浸洗器
@@ -5045,47 +5045,47 @@ gtnh.quest1260.name=合成监控器
 gtnh.quest1260.desc=自动合成单元的一部分,通过这个组件你可以看到目前自动合成的进度.
 
 # Quest.1261 - §a§lNanoprocessor Mainframe
-#C gtnh.quest1261.name=§a§l纳米处理器主机
-#C gtnh.quest1261.desc=纳米处理器主机是LuV级电路.
+gtnh.quest1261.name=§a§l纳米处理器主机
+gtnh.quest1261.desc=纳米处理器主机是你能制造的第一种LuV级电路板.
 
 # Quest.1262 - §a§lEV Battery Buffer
-#C gtnh.quest1262.name=§a§l电池缓冲器X9
-#C gtnh.quest1262.desc=EV电池缓冲器最多可容纳9节电池.
+gtnh.quest1262.name=§a§lEV电池箱
+gtnh.quest1262.desc=它是EV的,好不?%n%n§3完成一个要求即可.
 
 # Quest.1263 - §a§lBlue Steel
 gtnh.quest1263.name=§a§l蓝钢
-#C gtnh.quest1263.desc=你的太阳电池是用蓝钢制成的:钢、黑钢、黄铜和玫瑰金的搅拌物.
+gtnh.quest1263.desc=阳光化合物电池外壳是用蓝钢制成的,蓝钢是钢、黑钢、黄铜和玫瑰金的搅拌物.
 
 # Quest.1264 - §a§lEV Sunnarium Battery
 gtnh.quest1264.name=§a§lEV阳光化合物电池
-#C gtnh.quest1264.desc=你的第一个EV阳光化合物电池在EV等级使用.你用以前制造的阳光化合物来制作它
+gtnh.quest1264.desc=阳光化合物电池是你的第一种EV电池.它们比兰波顿电池便宜(可能?),制造成本更低(至少在材料方面),但容量也更小.
 
 # Quest.1265 - §a§lEV GT++ Batteries
 gtnh.quest1265.name=§a§lEV GT++电池
-#C gtnh.quest1265.desc=一个更便宜的GT++EV电池.
+gtnh.quest1265.desc=想要更便宜的EV电池? 把你的旧电池放在一起捣碎,说不定就能做出来什么!
 
 # Quest.1266 - §5§lLow Voltage Transformer
-gtnh.quest1266.name=§5§lLV-MV变压器
-#C gtnh.quest1266.desc=使用LV电压驱动MV机器是可以实现的.建立一个变压器,并使用4个32EU/t的电源来给一个128EU/t的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么千万不要改变模式,否则你将会看到机器组成的烟花.
+gtnh.quest1266.name=§5§lLV变压器
+gtnh.quest1266.desc=使用LV电压驱动MV机器是可以实现的.制造一个变压器,并使用4个32EU/t的电源来给一个128EU/t的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么千万不要改变模式,否则你将会看到机器组成的烟花. 在旋转方向的时候要特别当心 - 最好不直接用扳手旋转,容易直接把某一条线上的机器全炸了,推荐拆掉再重新调整方向放置.%n%n变压器可将电压升高或降低(升压模式/降压模式),用软锤切换. 升压模式就是将4A-LV,转换为1A-MV;降压模式相反.%n%n降压模式(这也是默认模式)时,大点的一面是输入面. 而降压模式时,这一面是输出面. §4要是不想爆炸,千万不要弄混了!§r%nLV机器接收到MV电就会爆炸! 如果变压器直接与电源相连,或是经过电源,请勿在连接了电器的情况下切换变压器模式,否则估计你就能看到个§4大烟花§r. 最好拆掉后重新放(清空缓存的能量),比起用扳手旋转后炸掉一排机器. 请确认已经用剪线钳断开了附件的线缆.
 
 # Quest.1267 - §6§lMedium Voltage Transformer
-gtnh.quest1267.name=§6§lMV-HV变压器
-#C gtnh.quest1267.desc=使用MV电压驱动HV机器是可以实现的.建立一个变压器,并使用4个128EU/t的电源来给一个512EU/t的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么千万不要改变模式,否则你将会看到机器组成的烟花.
+gtnh.quest1267.name=§6§lMV变压器
+gtnh.quest1267.desc=使用MV电压驱动HV机器是可以实现的.制造一个MV变压器,并使用4个128EU/t的电源来给一个512EU/t的设备供电.你可以使用软锤来调整变压器的模式. 注意:如果变压器已经接入电网,或者变压器已经负载机器工作,那么千万不要改变模式,否则你将会看到机器组成的烟花.
 
 # Quest.1268 - §6§lLV High-Amp Transformer
-gtnh.quest1268.name=§6§l高电流LV-MV变压器
-#C gtnh.quest1268.desc=如果你需要通过变压器输出一个4A以上的电流,那么你需要一个高电流变压器. 你可以将128EU/t　4A的电源接入变压器并输出32EU/t　16A的电流. 高电流变压器同样可以使用软锤改变升压降压模式.
+gtnh.quest1268.name=§6§lLV高电流变压器
+gtnh.quest1268.desc=如果你需要通过变压器输出一个4A以上的电流,那么你需要一个高电流变压器. 你可以输入4A-MV,输出16A-LV. 这在需要让大量LV机器同时运行时非常有用. 高电流变压器同样可以使用软锤改变升压/降压模式,与之前的普通变压器类似.
 
 # Quest.1269 - §6§lLow Voltage Power Transformer
-gtnh.quest1269.name=§6§lLV-MV高能变压器
-#C gtnh.quest1269.desc=如果你需要更大的电流,那么你就需要使用高能变压器——它将提供高达64A的输出电流. 这个变压器最高可以接入16个128EU/t的电源. 使用软锤改变变压器的运行模式.
+gtnh.quest1269.name=§6§lLV高能变压器
+gtnh.quest1269.desc=如果你需要更大的电流,那么你就需要使用高能变压器——它将提供高达64A的输出电流(输入16A). 使用软锤改变变压器的运行模式.
 
 # Quest.1270 - Time for a Spade
 gtnh.quest1270.name=铲子时间到
 gtnh.quest1270.desc=多功能铲结合了除草铲、锄头和铲子的功能.如果你有点马虎,请仅在必要时使用它,因为很容易弄乱,不知道自己是要除草还是收获作物. 什么?这就是应该做的?当然,掉落几率非常§5糟糕§r时,Ie:§4不要用它!§r%n%n但是,在作物初始成熟状态下,你可以右键获得种子,所以如果你无法让作物完全成熟,或是想要立刻获得掉落物,那就这么干吧. 注意,高阶/高属性作物掉落种子的几率更低,而且是低得多.%n%n§3公式是:1+tanh((-1)(X+5((-抗性/2)+生长+产量)/21)/12); X为作物等级(0-16)
 
 # Quest.1271 - §9§lHV Extruder
-#C gtnh.quest1271.name=§9§lHV压模机
+gtnh.quest1271.name=§9§lHV压模机
 gtnh.quest1271.desc=你需要HV压模机来挤压那些难以加工的金属,如钨钢和HSS.
 
 # Quest.1272 - Wheaty Juice
