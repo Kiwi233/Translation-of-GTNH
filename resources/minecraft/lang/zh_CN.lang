@@ -11565,28 +11565,28 @@ gtnh.quest2890.name=§a§l钨酸锂处理 - 第2步
 gtnh.quest2890.desc=下一步是三氧化钨. 请注意,所有氯化钙都能完全循环利用. 如果一起处理了白钨矿,你会需要一台电解机的.
 
 # Quest.2891 - §5§lMagnets != Magic
-#N gtnh.quest2891.name=§5§lMagnets != Magic
-#N gtnh.quest2891.desc=Tired of running after ore or other blocks? Use a magnet! It has a limited range, but who cares? Just remember to turn it on.%n%n§3Craft it into the better one in HV, if you still need a magnet by then.
+gtnh.quest2891.name=§5§l磁铁 ≠ 魔法
+gtnh.quest2891.desc=厌倦了跟着矿石或者其他方块跑来跑去? 使用磁铁吧! 虽然它的范围有限,但谁在乎呢?你只要记得开启它就行.%n%n§3等到HV阶段,如果你还需要磁铁的话,可以将其升级为更好的.
 
 # Quest.2892 - §6§lHSS-S Coil Upgrade
-#N gtnh.quest2892.name=§6§lHSS-S Coil Upgrade
-#N gtnh.quest2892.desc=You...might need these? Or not? Make them anyway, ok? Time to upgrade your EBF to 6300k.
+gtnh.quest2892.name=§6§l升级高速钢-S线圈
+gtnh.quest2892.desc=你...可能需要这些?也可能不需要? 不管怎么样,请造一些吧! 是时候后将工业高炉的基础炉温提升为6300K了.
 
 # Quest.2893 - §6§lTrinium Coil Upgrade
-#N gtnh.quest2893.name=§6§lTrinium Coil Upgrade
-#N gtnh.quest2893.desc=To process more advanced materials like neutronium or fluxed electrum you need more than 8100K. Upgrade your EBF to 9001k. (OVER 9000!!!)
+gtnh.quest2893.name=§6§l升级三元金属线圈
+gtnh.quest2893.desc=想要处理更先进的材料,比如中子或通流琥珀金,需要超过8100K的炉温. 把工业高炉的基础炉温提升为9001K. (超过了9000!!!)
 
 # Quest.2894 - §6§lLapotronic Capacitor (IV)
-#N gtnh.quest2894.name=§6§lLapotronic Capacitor (IV)
-#N gtnh.quest2894.desc=It holds more than the previous tier, other than that there is no difference. Your LSC can hold between 900M and 13.5B EU with these.
+gtnh.quest2894.name=§6§l兰波顿电容(IV)
+gtnh.quest2894.desc=比起之前的版本,它的容量更大,其余没啥差别. 使用这种电容,你的兰波顿超级电容库基于层数不同,可以容纳900M到13.5B-EU.
 
 # Quest.2895 - Cooking for Blockheads
-#N gtnh.quest2895.name=Cooking for Blockheads
-#N gtnh.quest2895.desc=Say thanks to mitch for backporting this great mod. You can use it to help you craft new food items. All blocks connected to the kitchen floor (use it as walls too!) are considered part of the same multiblock.%n%nItems stored in storages like the cabinet (or your inventory) can be used in recipes. All storage spaces for items are the same, so don't bother making a ton of fridges unless you really want to. Supply water to the sink to get water for recipes.%n%nYou can store some cooking tools in the oven. You can store the rest on tool racks to auto-use them all in recipes. This includes stuff like the GT soft mallet if you can't make all the Pam's tools yet.%n%nThe oven has 3 input slots and 3 output slots, and can work on 9 items at once. It's basically a furnace. You can request items be cooked from the cooking table too.%n%nThe Cooking Table will automatically show you all recipes that can be created with the existing ingredients, and you can click on them to craft them. Make all the food, and get all the hearts!%n%nNote that the implementation is not finished, so there are some problems:%nThe toaster does not currently have a recipe, so you cannot make toast. Upgrades like powering the oven with RF/EU are not in yet. And so on.%n%nPlease report any bugs/problems to the CFB-specific GTNH issue tracker at https://github.com/GTNewHorizons/CookingForBlockheads/issues%n%n§3There is no cow in a jar, it will not come back.
+gtnh.quest2895.name=懒人厨房(Cooking for Blockheads)
+gtnh.quest2895.desc=感谢mitch对这个超棒mod进行的后端支持. 通过这个mod可以帮助你合成新食物. 所有与厨房地板相连的方块都被视为同一多方块结构(都可以直接使用!).%n%n存储在存储器(比如橱柜)或你的物品栏中的物品,都可以参与合成. 所有存储物品的储存器都是一样的,所以除非你真的很想要一面墙的冰箱,否则不要造太多... 为水槽供水,即可支持所有需要水的食物配方.%n%nYou can store some cooking tools in the oven. You can store the rest on tool racks to auto-use them all in recipes. This includes stuff like the GT soft mallet if you can't make all the Pam's tools yet.%n%nThe oven has 3 input slots and 3 output slots, and can work on 9 items at once. It's basically a furnace. You can request items be cooked from the cooking table too.%n%nThe Cooking Table will automatically show you all recipes that can be created with the existing ingredients, and you can click on them to craft them. Make all the food, and get all the hearts!%n%nNote that the implementation is not finished, so there are some problems:%nThe toaster does not currently have a recipe, so you cannot make toast. Upgrades like powering the oven with RF/EU are not in yet. And so on.%n%nPlease report any bugs/problems to the CFB-specific GTNH issue tracker at https://github.com/GTNewHorizons/CookingForBlockheads/issues%n%n§3There is no cow in a jar, it will not come back.
 
 # Quest.2896 - §6§lGimme My Stuff Back!
-#N gtnh.quest2896.name=§6§lGimme My Stuff Back!
-#N gtnh.quest2896.desc=At some point, you'll be all, 'Man, arc furnace-ing or macerating these things to recycle them blows, I barely get any of the materials I used back'. Well, there's a solution, the Disassembler.%n%nBasically, things go in, parts it's made of go out. It needs to be at the same tier or higher though.%n%nIt works on hand and assembler crafted items, but it doesn't work on assline stuff (LuV+), or non-GT items. However, for some reason on some items it fails for seemingly no reason. Ask bart why that happens. If there's an oredicted item like a circuit, it should return the least valuable one. You can now recyle your old coils, hatches, machines, etc with impunity!%n%n§3The % chance based on tier is gone now. Also, it's really fast!
+gtnh.quest2896.name=§6§lGimme My Stuff Back!
+gtnh.quest2896.desc=At some point, you'll be all, 'Man, arc furnace-ing or macerating these things to recycle them blows, I barely get any of the materials I used back'. Well, there's a solution, the Disassembler.%n%nBasically, things go in, parts it's made of go out. It needs to be at the same tier or higher though.%n%nIt works on hand and assembler crafted items, but it doesn't work on assline stuff (LuV+), or non-GT items. However, for some reason on some items it fails for seemingly no reason. Ask bart why that happens. If there's an oredicted item like a circuit, it should return the least valuable one. You can now recyle your old coils, hatches, machines, etc with impunity!%n%n§3The % chance based on tier is gone now. Also, it's really fast!
 
 ##################################Line##################################
 
