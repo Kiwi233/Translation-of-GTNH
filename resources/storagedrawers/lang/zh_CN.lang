@@ -35,6 +35,8 @@ item.storagedrawers.upgradeRedstone.max.name=红石升级(最大)
 item.storagedrawers.upgradeRedstone.max.description=根据储物抽屉物品数量最多的一格传输红石信号.
 item.storagedrawers.upgradeRedstone.min.name=红石升级(最小)
 item.storagedrawers.upgradeRedstone.min.description=根据储物抽屉物品数量最少的一格传输红石信号.
+item.storagedrawers.upgradeDowngrade.name=抽屉容量降级
+item.storagedrawers.upgradeDowngrade.description=将抽屉的基础容量设为1组.
 item.storagedrawers.upgradeSorting.name=分拣升级
 item.storagedrawers.upgradeSorting.description=将抽屉升级为分拣抽屉。
 item.storagedrawers.shroudKey.name=屏蔽钥匙
@@ -187,16 +189,17 @@ storageDrawers.config.prop.wailaStackRemainder=物品数量显示
 storageDrawers.config.prop.wailaStackRemainder.tooltip=改变高亮显示增强(WAILA)中物品数量的显示方式。
 storageDrawers.config.prop.controllerRange=管理器管理范围
 storageDrawers.config.prop.controllerRange.tooltip=抽屉管理器检测抽屉网络的范围。
+storageDrawers.config.prop.controllerMaxDrawers=抽屉管理器最大抽屉数
+storageDrawers.config.prop.controllerMaxDrawers.tooltip=抽屉管理器检测的最大抽屉数
 storageDrawers.config.prop.enableFramedDrawers=允许自定义抽屉
 storageDrawers.config.prop.enableFramedDrawers.tooltip=自定义抽屉的材质。
 
-storageDrawers.config.addons=扩展包
-storageDrawers.config.addons.tooltip=设定显示独立的扩充包标签。
+storageDrawers.config.addons=扩充包
+storageDrawers.config.addons.tooltip=配置全局扩充包设置。
 
 storageDrawers.config.addons.showNEI=在NEI中显示扩充包方块。
 storageDrawers.config.addons.showCreative=在创造模式窗口中显示扩充包方块。
 storageDrawers.config.addons.separateTabs=标签分类
-storageDrawers.config.addons.tooltip=设定显示独立的扩充包标签。
 
 storageDrawers.config.integration=关联设定
 storageDrawers.config.integration.tooltip=设定本模组与其它模组之间的联动性。
@@ -208,3 +211,4 @@ storageDrawers.config.integration.enableMineTweaker=允许关联MineTweaker
 storageDrawers.config.integration.enableRefinedRelocation=允许关联精准重定位
 storageDrawers.config.integration.enableThermalExpansion=允许关联热力膨胀
 storageDrawers.config.integration.enableThermalFoundation=允许关联热力基础
+
