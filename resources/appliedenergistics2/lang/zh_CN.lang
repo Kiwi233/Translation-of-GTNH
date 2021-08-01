@@ -229,11 +229,13 @@ gui.appliedenergistics2.inWorldCraftingPresses=压印模板可以在陨石块的
 gui.appliedenergistics2.Included=包含匹配
 gui.appliedenergistics2.Excluded=排除匹配
 gui.appliedenergistics2.Partitioned=分区
+gui.appliedenergistics2.PartitionedOre=矿典过滤卡
 gui.appliedenergistics2.Precise=精确匹配
 gui.appliedenergistics2.Fuzzy=模糊匹配
 gui.appliedenergistics2.SmallFontCraft=合成
 gui.appliedenergistics2.LargeFontCraft=+
 gui.appliedenergistics2.Renamer=自定义名称: (回车保存设置)
+gui.appliedenergistics2.OreFilterLabel=矿典过滤卡
 gui.appliedenergistics2.Nothing=无
 
 # GUI Tooltips
@@ -329,6 +331,8 @@ gui.tooltips.appliedenergistics2.SchedulingModeRandom=随机输出模式.
 gui.tooltips.appliedenergistics2.ItemsStored=存储物品: %s
 gui.tooltips.appliedenergistics2.ItemsRequestable=可请求: %s
 gui.tooltips.appliedenergistics2.P2PFrequency=频率: %s
+gui.tooltips.appliedenergistics2.OreFilterHint=使用矿典名
+gui.tooltips.appliedenergistics2.OreFilter=过滤物品
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
@@ -396,6 +400,7 @@ item.appliedenergistics2.ItemMaterial.CardFuzzy.name=模糊卡
 item.appliedenergistics2.ItemMaterial.CardInverter.name=反相卡
 item.appliedenergistics2.ItemMaterial.CardRedstone.name=红石卡
 item.appliedenergistics2.ItemMaterial.CardSpeed.name=加速卡
+item.appliedenergistics2.ItemMaterial.CardOreFilter.name=矿典过滤卡
 item.appliedenergistics2.ItemMaterial.Cell2SpatialPart.name=2³-空间组件
 item.appliedenergistics2.ItemMaterial.Cell16SpatialPart.name=16³-空间组件
 item.appliedenergistics2.ItemMaterial.Cell128SpatialPart.name=128³-空间组件
