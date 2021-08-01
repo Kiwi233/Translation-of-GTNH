@@ -8,6 +8,8 @@ enchantment.eldritchBane=异域杀手
 enchantment.magicTouch=魔法之触
 enchantment.Tainted=污染
 enchantment.vaporising=蒸发
+tb.rec.enchantments.magictouched=附魔了魔法之触的武器杀死生物时会掉落更多的要素球.
+tb.rec.enchantments.vaporising=附魔了蒸发的武器杀死生物时,有几率掉落生命晶化源质.
 
 #blocks
 tile.quicksilverBlock.name=水银块
@@ -422,7 +424,7 @@ tb.rec.eDec.page.0=有时候神秘使会需要更多的知识来继续他的研�
 
 tc.research_name.TB.GoldenOak=神秘树木学
 tc.research_text.TB.GoldenOak=咬树皮的知识
-tb.rec.goldenOak.page.0=不仅仅是芦苇和花能够被魔力加工成新的东西!树木也具有这种潜能!然而它们自身已经足够强壮,因此它们会抵抗简单的魔力注入.但是注魔应该可以完成这个工作!你已经成功创造出了这种黄金橡树.这种树能够像普通橡树一样生长,它也会掉落苹果,但是这些苹果会变成金色!然而,它并不能得到带有魔法的金苹果.由于在注魔中使用了Greed要素,因此它想成为唯一一个吸收阳光和雨水的生物,这导致了它掉落树苗的概率大大下降了.
+tb.rec.goldenOak.page.0=不仅仅是芦苇和花能够被魔力加工成新的东西!树木也具有这种潜能!然而它们自身已经足够强壮,因此它们会抵抗简单的魔力注入.但是注魔应该可以完成这个工作!你已经成功创造出了这种黄金橡树.这种树能够像普通橡树一样生长,它也会掉落苹果,但是这些苹果会变成金色!然而,它并不能得到带有魔法的金苹果.由于在注魔中使用了Greed要素,因此它想成为唯一一个吸收阳光和雨水的生物,这导致了它掉落树苗的概率大大下降了.由于某种魔法反常现象,(读作:这是GTNH特有的事)用剪刀破坏树叶只会掉落苹果.
 
 tc.research_name.TB.NodeMan=节点调节器
 tc.research_text.TB.NodeMan=完全掌控!
@@ -474,7 +476,6 @@ tb.rec.foci.taint.page.0=污染核心将会让节点调节器缓慢的将一个�
 tc.research_name.TB.Enchantments=新的附魔!
 tc.research_text.TB.Enchantments=魔法重生!
 tb.rec.enchantments.page.0=任何神秘使都已经成功将新的魔法力量应用到他们的工具上,然而这也需要他们自身的经验作为代价来注入.这些新的附魔会给神秘使带来他们渴望的东西.
-
 tb.rec.enchantments.ewisdom=附魔了睿智的武器杀死生物时,有几率为手持其的神秘使提供研究点.
 tb.rec.enchantments.ebane=附魔了异域杀手的武器会对末影人和邪术生物造成更多伤害.
 tb.rec.enchantments.magictouch=附魔了魔法之触的武器杀死生物时会掉落更多的要素球.
@@ -740,3 +741,4 @@ tb.rec.bracelet.primal.page.0=使用始源杖芯的知识你制作出了一个�
 #Chat notifications
 tb.txt.linkStarted=连接开始
 tb.txt.linkEstabilished=连接已建立
+
