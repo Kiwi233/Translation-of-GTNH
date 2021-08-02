@@ -1,6 +1,13 @@
 nei.load=载入
 nei.save=保存
+
+# PC/Linux Control Key
+nei.key.ctrl=CTRL
+# Mac Command Key
+nei.key.ctrl.mac=CMD
+
 nei.bookmark.toggle=书签
+nei.bookmark.toggle.tip=显示/隐藏书签页
 
 nei.enchant=附魔
 nei.enchant.level=等级
@@ -12,6 +19,11 @@ nei.potion.duration=持续时间
 nei.potion.level=等级
 
 nei.inventory.options=选项
+nei.inventory.options.tip=NEI设置
+nei.inventory.options.tip.cheatmode.0=合成模式
+nei.inventory.options.tip.cheatmode.1=实用模式
+nei.inventory.options.tip.cheatmode.2=作弊模式
+nei.inventory.options.tip.cheatmode.disable=%s-点击此处以循环切换合成/实用/作弊模式.
 nei.inventory.prev=上一页
 nei.inventory.next=下一页
 nei.inventory.item_subsets=物品分类
@@ -36,10 +48,15 @@ nei.inventory.dusk.set=设置时间为黄昏
 nei.inventory.midnight.enable=激活午夜时间设置
 nei.inventory.midnight.set=设置时间为午夜
 nei.inventory.heal=治愈玩家并回满饱食度
-nei.inventory.gamemode.0=设置为生存模式
-nei.inventory.gamemode.1=设置为创造模式
-nei.inventory.gamemode.2=设置为创造模式+
-nei.inventory.gamemode.3=设置为冒险模式
+nei.inventory.current.gamemode.0=当前游戏模式: 生存
+nei.inventory.current.gamemode.1=当前游戏模式: 创造
+nei.inventory.current.gamemode.2=当前游戏模式: 创造+
+nei.inventory.current.gamemode.3=当前游戏模式: 冒险
+
+nei.inventory.gamemode.0=点击设置为生存模式
+nei.inventory.gamemode.1=点击设置为创造模式
+nei.inventory.gamemode.2=点击设置为创造+模式
+nei.inventory.gamemode.3=点击设置为冒险模式
 
 nei.chat.gamemode.0=生存模式开启
 nei.chat.gamemode.1=创造模式开启
@@ -76,6 +93,7 @@ nei.options.keys.gui.next_machine=下一机器
 nei.options.keys.gui.prev_machine=上一机器
 nei.options.keys.gui.search=跳转到搜索框
 nei.options.keys.gui.bookmark=添加书签
+nei.options.keys.gui.hide_bookmarks=显示/隐藏书签页
 nei.options.keys.world=世界
 nei.options.keys.world.chunkoverlay=区块(chunks)边界显示
 nei.options.keys.world.moboverlay=刷怪区域显示
@@ -90,12 +108,23 @@ nei.options.keys.world.creative=游戏模式
 nei.options.keys.world.creative.tip=循环游戏模式
 
 nei.options.inventory=物品栏
+nei.options.inventory.bookmarksEnabled=显示/隐藏书签页
+nei.options.inventory.bookmarksEnabled.true=显示
+nei.options.inventory.bookmarksEnabled.false=隐藏
+nei.options.inventory.jei_style_tabs=JEI标签页
+nei.options.inventory.jei_style_tabs.true=是
+nei.options.inventory.jei_style_tabs.false=否 [不会吧]
+nei.options.inventory.jei_style_item_presence_overlay=JEI风格物品覆盖?-悬停
+nei.options.inventory.jei_style_item_presence_overlay.true=是
+nei.options.inventory.jei_style_item_presence_overlay.false=否
+nei.options.inventory.creative_tab_style=创造模式/JEI标签页
+nei.options.inventory.creative_tab_style.true=创造模式
+nei.options.inventory.creative_tab_style.false=JEI
 nei.options.inventory.widgetsenabled.true=激活NEI
 nei.options.inventory.widgetsenabled.false=禁用NEI
 nei.options.inventory.cheatmode.0=合成模式
 nei.options.inventory.cheatmode.1=实用模式
 nei.options.inventory.cheatmode.2=作弊模式
-nei.options.inventory.layoutstyle=界面风格
 nei.options.inventory.profileRecipes=合成查阅性能分析
 nei.options.inventory.profileRecipes.true=开启
 nei.options.inventory.profileRecipes.false=关闭
@@ -124,6 +153,12 @@ nei.options.inventory.gamemodes.tip=选择游戏模式循环调整时的选项
 nei.options.inventory.gamemodes.creative=创造模式
 nei.options.inventory.gamemodes.creative+=创造模式+
 nei.options.inventory.gamemodes.adventure=冒险模式
+nei.options.inventory.disableMouseScrollTransfer=禁用鼠标滚轮移动物品
+nei.options.inventory.disableMouseScrollTransfer.true=开启
+nei.options.inventory.disableMouseScrollTransfer.false=关闭
+nei.options.inventory.invertMouseScrollTransfer=反转鼠标滚轮方向
+nei.options.inventory.invertMouseScrollTransfer.true=开启
+nei.options.inventory.invertMouseScrollTransfer.false=关闭
 
 nei.options.command=指令
 nei.options.command.creative=游戏模式
@@ -143,6 +178,9 @@ nei.options.world.highlight_tips.show=显示
 nei.options.world.highlight_tips.sample=样本
 
 nei.options.tools=工具
+nei.options.tools.handler_load_from_config=从Config加载预设(handler)
+nei.options.tools.handler_load_from_config.true=Config
+nei.options.tools.handler_load_from_config.false=JAR
 nei.options.tools.dump=数据存储
 nei.options.tools.dump.dump=存储
 nei.options.tools.dump.dumped=%s ID已保存到.minecraft/%s
@@ -167,9 +205,10 @@ nei.options.tools.dump.itempanel.mode.2=Json
 nei.options.tools.dump.itempanel.mode.3=PNG
 nei.options.tools.dump.itempanel.icon.dumped=物品面板图标已保存到.minecraft/e%s
 nei.options.tools.dump.itempanel.icon.cancelled=保存取消
-
-nei.layoutstyle.minecraft=Minecraft风格
-nei.layoutstyle.oldtmi=老式TMI风格
+nei.options.tools.dump.handlers=NEI预设
+nei.options.tools.dump.handlers.dumped=预设(handlers)已存至 %s
+nei.options.tools.dump.handlers.mode.0=CSV
+nei.options.tools.dump.handlers.mode.1=Json
 
 nei.recipe.page=页数 %s/%s
 nei.recipe.tooltip=合成表

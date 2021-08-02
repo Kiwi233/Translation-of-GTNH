@@ -177,7 +177,7 @@ val ControllerCircuit = <Railcraft:part.circuit>;
 
 val WoodenTrack = <Railcraft:track:736>.withTag({track: "railcraft:track.slow"});
 val Track = <minecraft:rail>;
-val ReinforcedTrack = <Railcraft:track:24050>.withTag({track: "railcraft:track.reinforced"});
+val ReinforcedTrack = <Railcraft:track>.withTag({track: "railcraft:track.reinforced"});
 val HsTrack = <Railcraft:track:816>.withTag({track: "railcraft:track.speed"});
 val ElectricTrack = <Railcraft:track>.withTag({track: "railcraft:track.electric"});
 
@@ -452,7 +452,7 @@ recipes.remove(<Railcraft:post>);
 // --- Stone Post ---
 recipes.remove(<Railcraft:post:1>);
 
-// --- Wood Plattform ---
+// --- Wood Platform ---
 recipes.remove(<Railcraft:post:4>);
 
 // --- Stone Platform ---
@@ -765,7 +765,7 @@ recipes.addShaped(<minecraft:golden_rail> * 4, [
 [Screwdriver, RedAlloyPlate, HHammer]]);
 
 // --- Reinfored Track ---
-recipes.addShaped(<Railcraft:track:24050>.withTag({track: "railcraft:track.reinforced"}) * 8, [
+recipes.addShaped(ReinforcedTrack * 8, [
 [StainlessSteelScrew, null, StainlessSteelScrew],
 [ReinforedRail, StoneRailbed, ReinforedRail],
 [Screwdriver, null, HHammer]]);
@@ -1414,6 +1414,11 @@ recipes.addShaped(<Railcraft:machine.epsilon:5>, [
 [<ore:plateSteel>, <gregtech:gt.metaitem.01:32600>, <ore:plateSteel>],
 [<ore:craftingToolScrewdriver>, <ore:plateSteel>, <ore:craftingToolHardHammer>]]);
 
+// --- Nether Cobblestone
+recipes.addShaped(<Railcraft:brick.nether:5> * 4, [
+[CobbleStone, <minecraft:netherrack>, null],
+[<minecraft:netherrack>, CobbleStone, null],
+[null, null, null]]);
 
 
 // --- Add Fuels ---
@@ -1698,8 +1703,8 @@ mods.railcraft.Rolling.addShaped(<Railcraft:post> * 4, [[<Railcraft:part.tie>, <
 mods.railcraft.Rolling.addShaped(<Railcraft:post:1> * 4, [[<minecraft:stone>, null, <minecraft:stone>], [<Railcraft:part.rebar>, <Railcraft:part.rebar>, <Railcraft:part.rebar>], [<minecraft:stone>, null, <minecraft:stone>]]);
 mods.railcraft.Rolling.addShaped(<Railcraft:post:1> * 4, [[<minecraft:stone>, <Railcraft:part.rebar>, <minecraft:stone>], [null, <Railcraft:part.rebar>, null], [<minecraft:stone>, <Railcraft:part.rebar>, <minecraft:stone>]]);
 
-// --- Wood Plattform ---
-mods.railcraft.Rolling.addShaped(<Railcraft:post:4>, [[null, <Railcraft:slab:37>, null], [null, <Railcraft:post>, null]]);
+// --- Wood Platform ---
+mods.railcraft.Rolling.addShaped(<Railcraft:post:4>, [[null, <Railcraft:slab:38>, null], [null, <Railcraft:post>, null]]);
 
 // --- Stone Platform ---
 mods.railcraft.Rolling.addShaped(<Railcraft:post:5>, [[null, <Railcraft:slab:2>, null], [null, <Railcraft:post:1>, null]]);
