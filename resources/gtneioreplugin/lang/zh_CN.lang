@@ -1,4 +1,4 @@
-# gui names
+﻿# gui names
 gtnop.gui.veinStat.name=矿脉信息
 gtnop.gui.asteroidStat.name=小行星信息
 gtnop.gui.smallOreStat.name=贫瘠矿石信息
@@ -28,19 +28,48 @@ gtnop.gui.nei.ieVeinComponent=矿脉构成
 gtnop.gui.nei.fromMod=来自模组
 
 gtnop.gui.nei.seeAll=查看全部
-gtnop.gui.nei.vein=矿脉
+
 gtnop.gui.nei.oreOthers=伴随生成
 gtnop.nei.genPosition=生成位置
 gtnop.nei.genPositionInfo=各个区块的正中心
 
 
 # world names
-gtnop.world.overworld.name=主世界
-gtnop.world.nether.name=下界
-gtnop.world.end.name=末地
-gtnop.world.moon.name=月球
-gtnop.world.mars.name=火星
-gtnop.world.asteroid.name=星系mod小行星带
+gtnop.world.Overworld=主世界
+gtnop.world.Nether=下界
+gtnop.world.TheEnd=末地
+gtnop.world.Twilight=暮色森林
+gtnop.world.EndAsteroid=末地小行星
+gtnop.world.Vanilla EndAsteroids=原版末地小行星
+gtnop.world.Moon=月球
+gtnop.world.Mars=火星
+gtnop.world.Phobos=火卫一
+gtnop.world.Deimos=火卫二
+gtnop.world.Asteroids=小行星带
+gtnop.world.Ceres=谷神星
+gtnop.world.Europa=木卫二
+gtnop.world.Ganymede=木卫三
+gtnop.world.Callisto=木卫四
+gtnop.world.Io=木卫一
+gtnop.world.Venus=金星
+gtnop.world.Mercury=水星
+gtnop.world.Enceladus=土卫二
+gtnop.world.Titan=土卫六
+gtnop.world.Miranda=天卫五
+gtnop.world.Oberon=天卫四
+gtnop.world.Proteus=海卫八
+gtnop.world.Triton=海卫一
+gtnop.world.Pluto=冥王星
+gtnop.world.Kuiperbelt=柯伊伯带
+gtnop.world.Haumea=妊神星
+gtnop.world.MakeMake=鸟神星
+gtnop.world.CentauriA=半人马Bb
+gtnop.world.VegaB=织女B
+gtnop.world.BarnardC=巴纳德C
+gtnop.world.BarnardE=巴纳德E
+gtnop.world.BarnardF=巴纳德F
+gtnop.world.TcetiE=鲸鱼座T星E
+gtnop.world.Underdark=漆黑世界
 
 
 # biome names
@@ -55,41 +84,3 @@ gtnop.ore.null.name=无
 gtnop.ore.vein.name=矿脉
 gtnop.ore.asteroid.name=小行星
 gtnop.ore.custom.name=自定义
-
-# vein names
-# gregtech5.09
-gtnop.ore.mix.naquadah=硅岩
-gtnop.ore.mix.lignite=褐煤
-gtnop.ore.mix.coal=煤
-gtnop.ore.mix.magnetite=磁铁
-gtnop.ore.mix.gold=金
-gtnop.ore.mix.iron=铁
-gtnop.ore.mix.cassiterite=锡石
-gtnop.ore.mix.tetrahedrite=黝铜
-gtnop.ore.mix.netherquartz=下界石英
-gtnop.ore.mix.sulfur=硫
-gtnop.ore.mix.copper=铜
-gtnop.ore.mix.bauxite=铝土
-gtnop.ore.mix.salts=岩盐
-gtnop.ore.mix.redstone=红石
-gtnop.ore.mix.soapstone=皂石
-gtnop.ore.mix.nickel=镍
-gtnop.ore.mix.platinum=铂
-gtnop.ore.mix.pitchblende=沥青铀
-gtnop.ore.mix.uranium=铀
-gtnop.ore.mix.monazite=独居石
-gtnop.ore.mix.molybdenum=钼
-gtnop.ore.mix.tungstate=钨酸锂
-gtnop.ore.mix.sapphire=蓝宝石
-gtnop.ore.mix.manganese=锰
-gtnop.ore.mix.quartz=石英岩
-gtnop.ore.mix.diamond=钻石
-gtnop.ore.mix.olivine=橄榄石
-gtnop.ore.mix.apatite=磷灰石
-gtnop.ore.mix.galena=方铅矿
-gtnop.ore.mix.lapis=青金石
-gtnop.ore.mix.beryllium=铍
-gtnop.ore.mix.oilsand=油砂
-
-# gregtech5.08
-gtnop.ore.mix.plutonium=钚
