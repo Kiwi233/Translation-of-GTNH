@@ -146,7 +146,7 @@ gtnh.quest35.desc=你现在已经找到铜和锡了,你应该做些青铜.试着
 
 # Quest.36 - §2§lImportant Tools
 gtnh.quest36.name=§2§l重要的工具
-#C gtnh.quest36.desc=为了做些最基本的机器,你需要一些新的工具,这些工具在之后都可以被机器替代.而现在呢,鉴于你将需要大量的工具,从今天起.你应该熟悉每个工具的制作方法.%n%n这些新工具可以用来制作RC水箱,基于水源十分有限的状态下,这家伙可是非常实用的多方块结构.%n%n你得先做这些不用电的工具,后续可以进行升级. 另外,工具材质不同有许许多多不同版本,它们大体遵循匠魂部件的规则,也与涡轮类似.
+gtnh.quest36.desc=为了做些最基本的机器,你需要一些新的工具,这些工具在之后都可以被机器替代.而现在呢,鉴于你将需要大量的工具,从今天起.你应该熟悉每个工具的制作方法.%n%n这些新工具可以用来制作RC水箱,基于水源十分有限的状态下,这家伙可是非常实用的多方块结构.%n%n这些工具还有电动版本,有需要的话,后续可以进行升级. 另外,工具材质不同有许许多多不同版本,它们大体遵循匠魂部件的规则,也与涡轮类似. 关于GT工具的参数,你可以查阅数据表格,那里更加详细.%n%n§3你可以使用任意材料.锯的宝石版本与金属版本不同. 更高阶的工具,木棍需要用钢杆或钨钢杆替代.
 
 # Quest.37 - §2§lGetting Iron
 gtnh.quest37.name=§2§l获得铁
@@ -374,7 +374,7 @@ gtnh.quest92.desc=第四种你非常需要的东西,而且它合成起来令人�
 
 # Quest.93 - §5§lYou're Gonna Hate This #2
 gtnh.quest93.name=§5§l你会讨厌它们的#2
-#C gtnh.quest93.desc=第二种你非常需要的东西.当你想要将液体从储罐中抽出时,你需要它.%n%n可用于管道或GT机器.使用螺丝刀进行调整.无法用于机器正面.  当你看向管道或者机器时,你可以使用网格来将覆盖板贴到看不到的其他面上,你也可以对着网格使用螺丝刀来调整相应面的覆盖板.%n%n当机器或管道装上覆盖板后,如果使用扳手拆除后,覆盖板将会保留在其中.当此机器或管道再次被放置后,覆盖板将会在原有方向重新出现,且保留其中设置.通过这种方式,可以事先在开阔位置设置好机器的覆盖板,然后再放置于比较狭小不便操作的位置.要移除覆盖板,需要使用撬棍.%n%n它还可以进一步升级为可以精确控制流体传输速度的流体校准器.%n%n§3PS: Shift+右键覆盖板可访问其GUI!
+gtnh.quest93.desc=第二种你非常需要的东西.当你想要将液体从储罐中抽出时,你需要它.%n%n可用于流体管道或GT机器/方块.使用螺丝刀进行调整.无法用于机器正面.  当你看向管道或者机器时,你可以使用网格来将覆盖板贴到看不到的其他面上,你也可以对着网格使用螺丝刀来调整相应面的覆盖板.%n%n当机器或管道装上覆盖板后,如果使用扳手拆除后,覆盖板将会保留在其中.当此机器或管道再次被放置后,覆盖板将会在原有方向重新出现,且保留其中设置.通过这种方式,可以事先在开阔位置设置好机器的覆盖板,然后再放置于比较狭小不便操作的位置.要移除覆盖板,需要使用撬棍.%n%n它还可以进一步升级为可以精确控制流体传输速度的流体校准器.%n%n§3PS: Shift+右键覆盖板可访问其GUI!
 
 # Quest.94 - §5§lElectric Macerator
 gtnh.quest94.name=§5§l电力粉碎机
@@ -390,7 +390,7 @@ gtnh.quest96.desc=厌倦使用四个红石制做一个磁化铁杆了吗？好�
 
 # Quest.97 - §5§lAvengers, Assemble!
 gtnh.quest97.name=§5§l复仇者,组装!
-#C gtnh.quest97.desc=电影粉丝绝对必须拥有它.哦,当然要用来做所有的东西. 有非常多的配方,用组装机生产会比手搓造价低得多,还有的必须使用组装机,所以尽快制造一台吧!%n%n§3提示:你可以使用GUI中的电池插槽和其他额外的插槽来存储未使用的编程电路.
+gtnh.quest97.desc=电影粉丝绝对必须拥有它.哦,当然要用来做所有的东西. 有非常多的配方,用组装机生产会比手搓造价低得多,还有的必须使用组装机,所以尽快制造一台吧!%n%n§3提示:你可以使用GUI中的电池插槽和其他额外的插槽来存储未使用的编程电路.%n%n如果你完成了第一章节的银树任务,在制造出组装机后,就可以去暮色森林了. 请查看"魔法学徒"任务栏获取更多信息.
 
 # Quest.98 - §5§lNo More Filing
 gtnh.quest98.name=§5§l不用锉刀了
@@ -650,7 +650,7 @@ gtnh.quest161.desc=当一般的魔法已经不能满足你需要的时候,你可
 
 # Quest.162 - §9§lDimensional Goal: Moon
 gtnh.quest162.name=§9§l目标:月球
-#C gtnh.quest162.desc=在HV阶段,你应该尽快登上月球.以获得钛,用于制造EV机器和AE系统. 虽然这是一个漫长而艰巨的任务,请转到"太空竞赛"任务栏获取更多信息.%n%n§3另外,IV电路板和HV组装机是这个任务栏的前置条件.
+gtnh.quest162.desc=在HV阶段,你应该尽快登上月球.以获得钛,用于制造EV机器和AE系统. 虽然这是一个漫长而艰巨的任务,请转到"太空竞赛"任务栏获取更多信息.%n%n§3另外,IV电路板和HV组装机是这个任务栏的前置条件.%n%n§6如果你正在进行不上天挑战,可以手持一组钛锭触发. 等你到EV阶段之后,还能手持一组钨钢锭触发下一步.
 
 # Quest.163 - §9§lI See Everything
 gtnh.quest163.name=§9§l我看到了一切
@@ -11605,39 +11605,39 @@ gtnh.quest2900.name=触发脚蹼
 gtnh.quest2900.desc=获得脚蹼触发.
 
 # Quest.2901 - Trigger:Titanium Moon Skip
-gtnh.quest2901.name=Trigger:Titanium Moon Skip
+gtnh.quest2901.name=触发:跳过月球钛
 gtnh.quest2901.desc=没有描述.
 
 # Quest.2902 - Trigger:Platline Platinum Skip
-gtnh.quest2902.name=Trigger:Platline Platinum Skip
+gtnh.quest2902.name=触发:跳过铂线铂
 gtnh.quest2902.desc=没有描述.
 
 # Quest.2903 - Trigger:PBI Skip
-gtnh.quest2903.name=Trigger:PBI Skip
+gtnh.quest2903.name=触发:跳过PBI
 gtnh.quest2903.desc=没有描述.
 
 # Quest.2904 - Trigger:Platline Palladium Skip
-gtnh.quest2904.name=Trigger:Platline Palladium Skip
+gtnh.quest2904.name=触发:跳过铂线钯
 gtnh.quest2904.desc=没有描述.
 
 # Quest.2905 - Trigger:Platline Rhodium Skip
-gtnh.quest2905.name=Trigger:Platline Rhodium Skip
+gtnh.quest2905.name=触发:跳过铂线铑
 gtnh.quest2905.desc=没有描述.
 
 # Quest.2906 - Trigger:Platline Ruthenium Skip
-gtnh.quest2906.name=Trigger:Platline Ruthenium Skip
+gtnh.quest2906.name=触发:跳过铂线钌
 gtnh.quest2906.desc=没有描述.
 
 # Quest.2907 - Trigger:Platline Iridium Skip
-gtnh.quest2907.name=Trigger:Platline Iridium Skip
+gtnh.quest2907.name=触发:跳过铂线铱
 gtnh.quest2907.desc=没有描述.
 
 # Quest.2908 - Trigger:Platline Osmium Skip
-gtnh.quest2908.name=Trigger:Platline Osmium Skip
+gtnh.quest2908.name=触发:跳过铂线锇
 gtnh.quest2908.desc=没有描述.
 
 # Quest.2909 - Trigger:Tungstensteel Mars Skip
-gtnh.quest2909.name=Trigger:Tungstensteel Mars Skip
+gtnh.quest2909.name=触发:跳过火星钨钢
 gtnh.quest2909.desc=没有描述.
 
 ##################################Line##################################
