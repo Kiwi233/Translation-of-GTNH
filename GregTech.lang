@@ -1275,8 +1275,20 @@ languagefile {
     S:TileEntity_DESCRIPTION_1000_Index_7=每秒产生§5400§7点污染
     S:TileEntity_DESCRIPTION_1000_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_1000_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
-    S:TileEntity_Secondary_DESCRIPTION_1000_Index_0=
-
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_0=Dimensions: 3x4x3 (WxHxL) (Hollow)
+Structure: 
+Controller: Front bottom
+0x Heat Proof Machine Casing (minimum)
+Heating Coils: Two middle Layers 
+Energy Hatch: Any bottom layer casing
+Maintenance Hatch: Any bottom layer casing
+Muffler Hatch: Top middle
+Input Bus: Any bottom layer casing
+Input Hatch: Any bottom layer casing
+Output Bus: Any bottom layer casing
+Output Hatch: Gasses, Any top layer casing
+Recovery amount scales with Mufler Hatch tier
+Output Hatch: Platline fluids, Any bottom layer casing
     S:TileEntity_DESCRIPTION_1001_Index_0=机器类型:  §e聚爆压缩机§r
 #N     S:TileEntity_DESCRIPTION_1001_Index_1=Explosions are fun
 #N     S:TileEntity_DESCRIPTION_1001_Index_2=Controller block for the Implosion Compressor
@@ -1284,12 +1296,30 @@ languagefile {
     S:TileEntity_DESCRIPTION_1001_Index_4=-----------------------------------------
     S:TileEntity_DESCRIPTION_1001_Index_5=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1001_Index_6=由 §aGregtech§7 添加
+Dimensions: 3x3x3 (WxHxL) (Hollow)
+Structure: 
+Controller: Front center
+16x Solid steel Machine Casing (minimum)
+Casings can be replaced with Explosion Harning Signs
+Energy Hatch: Any casing
+Maintenance Hatch: Any casing
+Muffler Hatch: Any casing
+Input Bus: Any casing
+Output Bus: Any casing
     S:TileEntity_DESCRIPTION_1002_Index_0=机器类型:  §e真空冷冻机§r
 #N     S:TileEntity_DESCRIPTION_1002_Index_1=Controller Block for the Vacuum Freezer
 #N     S:TileEntity_DESCRIPTION_1002_Index_2=Cools hot ingots and cells
     S:TileEntity_DESCRIPTION_1002_Index_3=-----------------------------------------
     S:TileEntity_DESCRIPTION_1002_Index_4=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1002_Index_5=由 §aGregtech§7 添加
+Dimensions: 3x3x3 (WxHxL) (Hollow)
+Structure: 
+Controller: Front center
+16X Frost Proof Machine Casing (minimum)
+Energy Hatch: Any casing
+Maintenance Hatch: Any casing
+Input Bus: Any casing
+Output Bus: Any casing
 #N     S:TileEntity_DESCRIPTION_1003_Index_0=Machine Type: §eFurnace§r
 #N     S:TileEntity_DESCRIPTION_1003_Index_1=Controller Block for the Multi Smelter
 #N     S:TileEntity_DESCRIPTION_1003_Index_2=Smelts up to 8-128 items at once
@@ -1298,6 +1328,16 @@ languagefile {
     S:TileEntity_DESCRIPTION_1003_Index_5=-----------------------------------------
     S:TileEntity_DESCRIPTION_1003_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1003_Index_7=由 §aGregtech§7 添加
+Dimensions: 3x3x3 (HxHXL) (Hollow)
+Structure:
+Controller: Front bottom
+8x Heat Proof Machine Casing (minimum)
+Heating Coils: Middle layer 
+Energy Hatch: Any bottom casing
+Maintenance Hatch: Any bottom casing
+Mufler Hatch: Top Middle
+Input Bus: Any bottom casing
+Output Bus: Any bottom casing
     S:TileEntity_DESCRIPTION_100_Index_0=获得蒸汽能源的早期手段
     S:TileEntity_DESCRIPTION_100_Index_1=每秒生产120升的蒸汽
     S:TileEntity_DESCRIPTION_100_Index_2=每秒产生20点污染
@@ -1398,7 +1438,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_102_Index_0=一个消耗岩浆的锅炉
     S:TileEntity_DESCRIPTION_102_Index_1=每秒生产600升的蒸汽
     S:TileEntity_DESCRIPTION_102_Index_2=每秒产生20点污染
-#N     S:TileEntity_DESCRIPTION_102_Index_3=Consumes 3.0L of Lava every 20 ticks when fully heat up
+    S:TileEntity_DESCRIPTION_102_Index_3=预热完成后,每20t消耗3.0L岩浆
     S:TileEntity_DESCRIPTION_103_Index_0=消耗蒸汽以熔炼物品
     S:TileEntity_DESCRIPTION_104_Index_0=消耗蒸汽以熔炼物品
     S:TileEntity_DESCRIPTION_105_Index_0=来自太阳的蒸汽能源
@@ -2313,6 +2353,16 @@ languagefile {
     S:TileEntity_DESCRIPTION_1154_Index_7=-----------------------------------------
     S:TileEntity_DESCRIPTION_1154_Index_8=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1154_Index_9=由 §aGregtech§7 添加
+Dimensions: 3x4x3 (WxHxL)
+Structure:
+Controller: Front bottom
+20x Stable Titanium Machine Casing (minimum)
+Titanium Pipe Casing: Center 2 blocks
+Maintenance Hatch: Any casing
+Input Hatch: Hot fluid, bottom center
+Input Hatch: Distilled water, any casing
+Output Hatch: Cold fluid, top center
+Qutput Hatch: Steam/SH Steam, any casing
     S:TileEntity_DESCRIPTION_1155_Index_0=机器类型: §e木炭堆打火器§r
     S:TileEntity_DESCRIPTION_1155_Index_1=木炭堆的控制器方块
     S:TileEntity_DESCRIPTION_1155_Index_2=将原木转换为易碎的木炭块
@@ -2402,6 +2452,17 @@ languagefile {
 #N     S:TileEntity_DESCRIPTION_1160_Index_6=Gets 5% EU/t reduction per coil tier
     S:TileEntity_DESCRIPTION_1160_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1160_Index_8=由 §aGregtech§7 添加
+Dimensions: 5x3x3 (WxHxL) (Hollow)
+Structure:
+Controller: Front center
+18x Clean Stainless Steel Machine Casing (minimum)
+2 Rings of 8 Coils: Each side of the controller
+Energy Hatch: Any casing
+Maintenance Hatch: Any casing
+Input Hatch: Steam/Hydrogen ONLY, Any middle ring casing
+Input Hatch: Any left/right side casing
+Output Hatch: Any right/left side casing
+Input/Output Hatches must be on opposite sides!
     S:TileEntity_DESCRIPTION_1161_Index_0=能量的无线传输
     S:TileEntity_DESCRIPTION_1161_Index_1=灌入氮等离子体
     S:TileEntity_DESCRIPTION_1161_Index_2=以进行跨维度传输
@@ -3801,8 +3862,19 @@ languagefile {
 #B     S:TileEntity_DESCRIPTION_12729_Index_8=1x Maintenance Hatch (One of base casings)
 #A     S:TileEntity_DESCRIPTION_12729_Index_8=Added by: §aAdded by bartimaeusnek via §2BartWorks§7§7
 #C     S:TileEntity_DESCRIPTION_12729_Index_8=1x维护仓(任意底层机械方块)
+Dimensions: 3x7x3 (WxHxL)
+Structure:
+Controller: Front bottom
+Heat Proof Machine Casing form the 3x1x3 Base
+Heat Proof Machine Casing: 1x3x1 pillar above the center of the base (2 minimum total)
+Tungsten Frame Boxes: Each pillar's side and 1x3x1 on top 
+Energy Hatch: HV+, Any base casing 
+Maintenance Hatch: Any base casing 
+Input Bus: Mining Pipes, optional, any base casing
+Input Hatch: Any base casing
+Output Hatch: Any base casing
 #B     S:TileEntity_DESCRIPTION_12730_Index_0=Controller Block for the Mega Blast Furnace
-    S:TileEntity_DESCRIPTION_12730_Index_0=机器类型: §eBlast Furnace§r
+    S:TileEntity_DESCRIPTION_12730_Index_0=机器类型: §e工业高炉§r
 #C     S:TileEntity_DESCRIPTION_12730_Index_0=巨型工业高炉的控制器方块
 #B     S:TileEntity_DESCRIPTION_12730_Index_1=Size(WxHxD): 15x20x15 (Hollow)
 #A     S:TileEntity_DESCRIPTION_12730_Index_1=Controller block for the Mega Blast Furnace
@@ -3834,6 +3906,22 @@ languagefile {
 #B     S:TileEntity_DESCRIPTION_12730_Index_9=1x Maintenance Hatch (Any casing)
 #A     S:TileEntity_DESCRIPTION_12730_Index_9=Hold §l[LSHIFT]§r§7 to display structure guidelines
 #C     S:TileEntity_DESCRIPTION_12730_Index_9=1x维护仓(任意机械方块)(注:所有底层仓室必须置于边缘)
+Dimensions: 15x20x15 (WxHxL) (Hollow)
+Structure:
+Controller: Front bottom
+0x Heat Proof Machine Casing (minimum)
+Heating Coils: Inner 13x18x13 (Hollow)
+Borosil icate Glass: Outer 15x18x15 
+The glass tier limits the Energy Input tier
+Energy Hatch: Any bottom layer casing
+Maintenance Hatch: Any bottom layer casing
+Muffler Hatch: Top middle 13x13
+Input Bus: Any bottom layer casing
+Input Hatch: Any bottom layer casing
+Output Bus: Any bottom layer casing
+Output Hatch: Gasses, Any top layer casing
+Recovery amount scales with Muffler Hatch tier 
+Qutput Hatch: Platline fluids, Any bottom layer casing
     S:TileEntity_DESCRIPTION_12731_Index_0=巨型真空冷冻机的控制器方块
     S:TileEntity_DESCRIPTION_12731_Index_1=将炽热的锭与单元强力冷却
     S:TileEntity_DESCRIPTION_12731_Index_2=大小(宽x高x长)：15x15x15(中空)
@@ -3863,6 +3951,13 @@ languagefile {
 #N     S:TileEntity_DESCRIPTION_12732_Index_7=Consume coolant 50mb/t to increase the efficiency:
 #N     S:TileEntity_DESCRIPTION_12732_Index_8=IC2 Coolant 105%, Super Coolant 150%, Cryotheum 275%
 #N     S:TileEntity_DESCRIPTION_12732_Index_9=Consume excited liquid to increase the output power:
+Dimensions: 7x8x7 (WxHxL) (Hollow)
+Structure: 
+Controller: Front bottom
+Energy Hatch: Any bottom layer casing, only accept ONE!
+Input Hatch: Any bottom layer casing
+Qutput Hatch: Any bottom layer casing
+Maintenance Hatch: Any bottom layer casing
     S:TileEntity_DESCRIPTION_12733_Index_0=钍高温反应堆的控制器方块
     S:TileEntity_DESCRIPTION_12733_Index_1=大小(宽x高x长)：11x12x11(中空)
     S:TileEntity_DESCRIPTION_12733_Index_10=运行时需要持续供应冷却液,运行结束后会重新输出
@@ -3909,7 +4004,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12737_Index_3=可以被设定为仅输出/仅不输出 物品/蒸汽/流体
     S:TileEntity_DESCRIPTION_12737_Index_4=被设定过的输出仓在多方块中拥有更高的优先级
 #B     S:TileEntity_DESCRIPTION_12738_Index_0=Controller Block for the Mega Distillation Tower
-    S:TileEntity_DESCRIPTION_12738_Index_0=机器类型: §eDistillery§r
+    S:TileEntity_DESCRIPTION_12738_Index_0=机器类型: §e蒸馏塔§r
 #C     S:TileEntity_DESCRIPTION_12738_Index_0=巨型蒸馏塔的控制器方块
 #B     S:TileEntity_DESCRIPTION_12738_Index_1=Size(WxHxD): 15xhx15 (Hollow), with h ranging from 16 to 56
 #A     S:TileEntity_DESCRIPTION_12738_Index_1=Controller block for the Distillation Tower
@@ -3929,8 +4024,18 @@ languagefile {
 #B     S:TileEntity_DESCRIPTION_12738_Index_6=2-11+ Output Hatch (One or more per Output Layer)
 #A     S:TileEntity_DESCRIPTION_12738_Index_6=Added by: §aAdded by bartimaeusnek via §2BartWorks§7§7
 #C     S:TileEntity_DESCRIPTION_12738_Index_6=2-11+输出仓(每个输出层1个或多个)
+Dimensions: 15-15x16-56x15-15 (WxHxL) (Hollow)
+Structure:
+Controller: Front bottom 
+Clean Stainless Steel Machine Casing: 15 X h-5 (minimum)
+Energy Hatch: Any casing
+Maintenance Hatch: Any casing
+Input Hatch: Any bottom layer casing
+Output Bus: Any bottom layer casing
+Output Hatch: 2-11x Output Hatches (one per Output Layer except bottom layer)
+An "Output Layer" consists of 5 layers!
 #B     S:TileEntity_DESCRIPTION_12739_Index_0=Controller Block for the Void Miner UV
-    S:TileEntity_DESCRIPTION_12739_Index_0=机器类型: §eMiner§r
+    S:TileEntity_DESCRIPTION_12739_Index_0=机器类型: §e采矿机§r
 #C     S:TileEntity_DESCRIPTION_12739_Index_0=虚空采矿场III的控制器方块
 #B     S:TileEntity_DESCRIPTION_12739_Index_1=Size(WxHxD): 3x7x3
 #A     S:TileEntity_DESCRIPTION_12739_Index_1=Controller Block for the Void Miner UV
@@ -3953,8 +4058,20 @@ languagefile {
 #B     S:TileEntity_DESCRIPTION_12739_Index_7=Optional: 0+ Input Hatch (One of base casings)
 #A     S:TileEntity_DESCRIPTION_12739_Index_7=Added by: §aGregtech§7
 #C     S:TileEntity_DESCRIPTION_12739_Index_7=0+输入仓(可选，任意底层机械方块)
+Di mensions: 3x7x3 (WxHxL)
+Structure:
+Control ler: Front bottom
+Mining Neutronium Casing form the 3x1x3 Base
+Mining Neutronium Casing:
+1x3x1 pillar above the center of the base (2 minimum total)
+Neutronium Frame Boxes: Each pillar's side and 1x3x1 on top 
+Energy Hatch: UV+, Any base casing 
+Maintenance Hatch: Any base casing 
+Input Bus: Mining Pipes, optional, any base casing
+Input Hatch: Optional noble gas, any base casing
+Output Bus: Any base casing
 #B     S:TileEntity_DESCRIPTION_12740_Index_0=Controller Block for the Void Miner ZPM
-    S:TileEntity_DESCRIPTION_12740_Index_0=机器类型: §eMiner§r
+    S:TileEntity_DESCRIPTION_12740_Index_0=机器类型: §e采矿机§r
 #C     S:TileEntity_DESCRIPTION_12740_Index_0=虚空采矿场II的控制器方块
 #B     S:TileEntity_DESCRIPTION_12740_Index_1=Size(WxHxD): 3x7x3
 #A     S:TileEntity_DESCRIPTION_12740_Index_1=Controller Block for the Void Miner ZPM
@@ -3977,8 +4094,20 @@ languagefile {
 #B     S:TileEntity_DESCRIPTION_12740_Index_7=Optional: 0+ Input Hatch (One of base casings)
 #A     S:TileEntity_DESCRIPTION_12740_Index_7=Added by: §aGregtech§7
 #C     S:TileEntity_DESCRIPTION_12740_Index_7=0+输入仓(可选，任意底层机械方块)
+Dimensions: 3x7x3 (WxHxL)
+Structure:
+Controller: Front bottom 
+Mining Black Plutonium Casing form the 3x1x3 Base
+Mining Black Plutonium Casing:
+1x3x1 pillar above the center of the base (2 minimum total)
+BlackPlutonium Frame Boxes: Each pillar's side and 1x3x1 on top
+Energy Hatch: ZPM+, Any base casing
+Maintenance Hatch: Any base casing
+Input Bus: Mining Pipes, optional, any base casing
+Input Hatch: optional noble gas, any base casing
+Output Bus: Any base casing
 #B     S:TileEntity_DESCRIPTION_12741_Index_0=Controller Block for the Void Miner LuV
-    S:TileEntity_DESCRIPTION_12741_Index_0=机器类型: §eMiner§r
+    S:TileEntity_DESCRIPTION_12741_Index_0=机器类型: §e采矿机§r
 #C     S:TileEntity_DESCRIPTION_12741_Index_0=虚空采矿场I的控制器方块
 #B     S:TileEntity_DESCRIPTION_12741_Index_1=Size(WxHxD): 3x7x3
 #A     S:TileEntity_DESCRIPTION_12741_Index_1=Controller Block for the Void Miner LuV
@@ -4001,6 +4130,17 @@ languagefile {
 #B     S:TileEntity_DESCRIPTION_12741_Index_7=Optional: 0+ Input Hatch (One of base casings)
 #A     S:TileEntity_DESCRIPTION_12741_Index_7=Added by: §aGregtech§7
 #C     S:TileEntity_DESCRIPTION_12741_Index_7=0+输入仓(可选，任意底层机械方块)
+Dimensions: 3x7x3 (WxHxL)
+Structure: 
+Controller: Front bottom
+UV Machine Casing form the 3x1x3 Base
+UV Machine Casing: 1x3x1 pillar above the center of the base (2 minimum total)
+Europium Frame Boxes: Each pillar's side and 1x3x1 on top
+Energy Hatch: LuV+, Any base casing
+Maintenance Hatch: Any base casing
+Input Bus: Mining Pipes, optional, any base casing
+Input Hatch: Optional noble gas, any base casing
+Output Bus: Any base casing 
     S:TileEntity_DESCRIPTION_12742_Index_0=用于低功率激光的原始线缆
     S:TileEntity_DESCRIPTION_12742_Index_1=不会自动连接
     S:TileEntity_DESCRIPTION_12742_Index_2=§b§b请勿转弯
@@ -6191,6 +6331,10 @@ languagefile {
 #N     S:TileEntity_DESCRIPTION_16999_Index_7=Follow the§1 Tec§9Tech§7 blueprint to build the main structure.
     S:TileEntity_DESCRIPTION_16999_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_16999_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
+Input Hatch: The casings adjoin the field restriction glass.
+Input Bus: The casings adjoin the field restriction glass.
+Output Hatch: The casings adjoin the field restriction glass.
+Energy Hatch: The casings adjoin the field restriction glass.
     S:TileEntity_DESCRIPTION_169_Index_1=1格
     S:TileEntity_DESCRIPTION_16_Index_0=§r§r你需要§5绝§d对§4天§c马§e行§a空§b的§3想§9象§1能§5力§r来使用它。
 #N     S:TileEntity_DESCRIPTION_17000_Index_0=Hydro Dam Controller
@@ -6337,6 +6481,7 @@ languagefile {
 #N     S:TileEntity_DESCRIPTION_17016_Index_6=Efficiency: 55%
 #N     S:TileEntity_DESCRIPTION_17016_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
 #N     S:TileEntity_DESCRIPTION_17016_Index_8=Use Redstone to automate!
+
 #N     S:TileEntity_DESCRIPTION_17018_Index_0=Hydro Turbine Controller
 #N     S:TileEntity_DESCRIPTION_17018_Index_1=Controller Block for the Hydro Turbine
 #N     S:TileEntity_DESCRIPTION_17018_Index_2=Consumes pressurize water to produce EU
@@ -7895,6 +8040,10 @@ languagefile {
 #N     S:TileEntity_DESCRIPTION_32001_Index_7=The proportion is bigger, and the efficiency will be higher.
 #N     S:TileEntity_DESCRIPTION_32001_Index_8=It creates sqrt(Current Output Power) pollution every second
 #N     S:TileEntity_DESCRIPTION_32001_Index_9=If you forge to supply Combustion Promoter, this engine will swallow all the fuel §ewithout outputting energy§7.
+Maintenance Hatch: Hint block with dot 1
+Muffler Hatch: Hint block with dot 2
+Input Hatch: Hint block with dot 3
+Dynamo Hatch: Hint block with dot 4
 #N     S:TileEntity_DESCRIPTION_32002_Index_0=Machine Type: §eEssentia Generator§r
 #N     S:TileEntity_DESCRIPTION_32002_Index_1=Controller block for the Large Essentia Generator
 #N     S:TileEntity_DESCRIPTION_32002_Index_2=Maybe some thaumaturages are upset by it. . .
@@ -7905,6 +8054,10 @@ languagefile {
     S:TileEntity_DESCRIPTION_32002_Index_7=-----------------------------------------
     S:TileEntity_DESCRIPTION_32002_Index_8=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_32002_Index_9=Added by: §aGood Generator§7
+Maintenance Hatch: Hint block with dot 1
+Input Hatch: Hint block with dot 1
+Dynamo Hatch: Hint block with dot 1
+Essentia Input Hatch: Hint block with dot 1
     S:TileEntity_DESCRIPTION_321_Index_0=它可以复制书或其他印刷品
     S:TileEntity_DESCRIPTION_322_Index_0=它可以复制书或其他印刷品
     S:TileEntity_DESCRIPTION_323_Index_0=它可以复制书或其他印刷品
