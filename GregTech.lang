@@ -1264,80 +1264,80 @@ languagefile {
     S:"Saccharomyces cerevisiae var bayanus"=葡萄酒酵母菌
     S:"Saccharomyces cerevisiae var cerevisiae"=啤酒酵母菌
     S:"Saccharomyces escherichia"=通用酵母菌
-    S:TileEntity_DESCRIPTION_1000_Index_0=机器类型:  §e工业高炉§r
+    S:TileEntity_DESCRIPTION_1000_Index_0=机器类型: §e工业高炉§r
     S:TileEntity_DESCRIPTION_1000_Index_1=工业高炉的控制器方块
     S:TileEntity_DESCRIPTION_1000_Index_10=由 §aGregtech§7 添加
     S:TileEntity_DESCRIPTION_1000_Index_2=你可以用某些流体缩短烧制时间.在输入总线中放入编程电路.
     S:TileEntity_DESCRIPTION_1000_Index_3=自配方的最小炉温起，每高出900K会减少5%的能耗，以乘法叠加，
     S:TileEntity_DESCRIPTION_1000_Index_4=自配方的最小炉温起，每高出1800K将允许一次无损超频
     S:TileEntity_DESCRIPTION_1000_Index_5=无损超频将减少加工时间至25%(而非普通超频的50%)并提升功率至400%
-    S:TileEntity_DESCRIPTION_1000_Index_6=电压自MV起可提供额外炉温,即实际炉温=线圈温度+(电压等级-2)*100
+    S:TileEntity_DESCRIPTION_1000_Index_6=电压自MV起可提供额外炉温，即实际炉温=线圈温度+(电压等级-2)*100
     S:TileEntity_DESCRIPTION_1000_Index_7=每秒产生§5400§7点污染
     S:TileEntity_DESCRIPTION_1000_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_1000_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
-    S:TileEntity_Secondary_DESCRIPTION_1000_Index_0=Dimensions: 3x4x3 (WxHxL) (Hollow)
-Structure: 
-Controller: Front bottom
-0x Heat Proof Machine Casing (minimum)
-Heating Coils: Two middle Layers 
-Energy Hatch: Any bottom layer casing
-Maintenance Hatch: Any bottom layer casing
-Muffler Hatch: Top middle
-Input Bus: Any bottom layer casing
-Input Hatch: Any bottom layer casing
-Output Bus: Any bottom layer casing
-Output Hatch: Gasses, Any top layer casing
-Recovery amount scales with Mufler Hatch tier
-Output Hatch: Platline fluids, Any bottom layer casing
-    S:TileEntity_DESCRIPTION_1001_Index_0=机器类型:  §e聚爆压缩机§r
-#N     S:TileEntity_DESCRIPTION_1001_Index_1=Explosions are fun
-#N     S:TileEntity_DESCRIPTION_1001_Index_2=Controller block for the Implosion Compressor
-#N     S:TileEntity_DESCRIPTION_1001_Index_3=Causes: §510000 §7pollution per second
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_0=大小(宽x高x长)：3x4x3(中空)
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_3=   0x隔热机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_4=   加热线圈：中间2层，中空
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_5=   能源仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_6=   维护仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_7=   消声仓：  顶层中央
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_8=   输入总线：任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_9=   输入仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_10=   输出总线：任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_11=   输出仓：  回收气体，任意顶层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_12=       回收比例取决于消声仓等级
+    S:TileEntity_Secondary_DESCRIPTION_1000_Index_13=   输出仓：  铂线流体，任意底层机械方块
+    S:TileEntity_DESCRIPTION_1001_Index_0=机器类型: §e聚爆压缩机§r
+    S:TileEntity_DESCRIPTION_1001_Index_1=爆炸就是艺术！
+    S:TileEntity_DESCRIPTION_1001_Index_2=聚爆压缩机的控制器方块
+    S:TileEntity_DESCRIPTION_1001_Index_3=每秒产生§510000§7点污染
     S:TileEntity_DESCRIPTION_1001_Index_4=-----------------------------------------
     S:TileEntity_DESCRIPTION_1001_Index_5=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1001_Index_6=由 §aGregtech§7 添加
-Dimensions: 3x3x3 (WxHxL) (Hollow)
-Structure: 
-Controller: Front center
-16x Solid steel Machine Casing (minimum)
-Casings can be replaced with Explosion Harning Signs
-Energy Hatch: Any casing
-Maintenance Hatch: Any casing
-Muffler Hatch: Any casing
-Input Bus: Any casing
-Output Bus: Any casing
-    S:TileEntity_DESCRIPTION_1002_Index_0=机器类型:  §e真空冷冻机§r
-#N     S:TileEntity_DESCRIPTION_1002_Index_1=Controller Block for the Vacuum Freezer
-#N     S:TileEntity_DESCRIPTION_1002_Index_2=Cools hot ingots and cells
+    S:TileEntity_Secondary_DESCRIPTION_1001_Index_0=大小(宽x高x长)：3x3x3(中空)
+    S:TileEntity_Secondary_DESCRIPTION_1001_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_1001_Index_2=   控制器：  正面中央
+    S:TileEntity_Secondary_DESCRIPTION_1001_Index_3=   16x脱氧钢机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_1001_Index_4=   爆炸危险警示方块可替换机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1001_Index_5=   能源仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1001_Index_6=   维护仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1001_Index_7=   消声仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1001_Index_8=   输入总线：任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1001_Index_9=   输出总线：任意机械方块
+    S:TileEntity_DESCRIPTION_1002_Index_0=机器类型: §e真空冷冻机§r
+    S:TileEntity_DESCRIPTION_1002_Index_1=真空冷冻机的控制器方块
+    S:TileEntity_DESCRIPTION_1002_Index_2=将炽热的锭与单元强力冷却
     S:TileEntity_DESCRIPTION_1002_Index_3=-----------------------------------------
     S:TileEntity_DESCRIPTION_1002_Index_4=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1002_Index_5=由 §aGregtech§7 添加
-Dimensions: 3x3x3 (WxHxL) (Hollow)
-Structure: 
-Controller: Front center
-16X Frost Proof Machine Casing (minimum)
-Energy Hatch: Any casing
-Maintenance Hatch: Any casing
-Input Bus: Any casing
-Output Bus: Any casing
-#N     S:TileEntity_DESCRIPTION_1003_Index_0=Machine Type: §eFurnace§r
-#N     S:TileEntity_DESCRIPTION_1003_Index_1=Controller Block for the Multi Smelter
-#N     S:TileEntity_DESCRIPTION_1003_Index_2=Smelts up to 8-128 items at once
-#N     S:TileEntity_DESCRIPTION_1003_Index_3=Items smelted increases with coil tier
-#N     S:TileEntity_DESCRIPTION_1003_Index_4=Causes: §5400 §7pollution per second
+    S:TileEntity_Secondary_DESCRIPTION_1002_Index_0=大小(宽x高x长)：3x3x3(中空)
+    S:TileEntity_Secondary_DESCRIPTION_1002_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_1002_Index_2=   控制器：  正面中央
+    S:TileEntity_Secondary_DESCRIPTION_1002_Index_3=   16x防冻机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_1002_Index_4=   能源仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1002_Index_5=   维护仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1002_Index_6=   输入总线：任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1002_Index_7=   输出总线：任意机械方块
+    S:TileEntity_DESCRIPTION_1003_Index_0=机器类型: §e熔炉§r
+    S:TileEntity_DESCRIPTION_1003_Index_1=工业熔炉的控制器方块
+    S:TileEntity_DESCRIPTION_1003_Index_2=一次性熔炼8-128个物品
+    S:TileEntity_DESCRIPTION_1003_Index_3=一次熔炼物品数随线圈等级提高而增多
+    S:TileEntity_DESCRIPTION_1003_Index_4=每秒产生§5400§7点污染
     S:TileEntity_DESCRIPTION_1003_Index_5=-----------------------------------------
     S:TileEntity_DESCRIPTION_1003_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1003_Index_7=由 §aGregtech§7 添加
-Dimensions: 3x3x3 (HxHXL) (Hollow)
-Structure:
-Controller: Front bottom
-8x Heat Proof Machine Casing (minimum)
-Heating Coils: Middle layer 
-Energy Hatch: Any bottom casing
-Maintenance Hatch: Any bottom casing
-Mufler Hatch: Top Middle
-Input Bus: Any bottom casing
-Output Bus: Any bottom casing
+    S:TileEntity_Secondary_DESCRIPTION_1003_Index_0=大小(宽x高x长)：3x3x3 (HxHXL)(中空)
+    S:TileEntity_Secondary_DESCRIPTION_1003_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_1003_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_1003_Index_3=   8x隔热机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_1003_Index_4=   加热线圈：中间1层，中空
+    S:TileEntity_Secondary_DESCRIPTION_1003_Index_5=   能源仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1003_Index_6=   维护仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1003_Index_7=   消声仓：  顶层中央
+    S:TileEntity_Secondary_DESCRIPTION_1003_Index_8=   输入总线：任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1003_Index_9=   输出总线：任意底层机械方块
     S:TileEntity_DESCRIPTION_100_Index_0=获得蒸汽能源的早期手段
     S:TileEntity_DESCRIPTION_100_Index_1=每秒生产120升的蒸汽
     S:TileEntity_DESCRIPTION_100_Index_2=每秒产生20点污染
@@ -2343,26 +2343,26 @@ Output Bus: Any bottom casing
     S:TileES:TileEntity_Secondary_DESCRIPTION_1153_Index_5=   维护仓：  侧面中央
     S:TileES:TileEntity_Secondary_DESCRIPTION_1153_Index_6=   输入仓：  等离子流体, 侧面中央
     S:TileES:TileEntity_Secondary_DESCRIPTION_1153_Index_7=   输出仓：  熔融流体, 可选, 侧面中央
-#N     S:TileEntity_DESCRIPTION_1154_Index_0=Machine Type: §eHeat Exchanger§r
-#N     S:TileEntity_DESCRIPTION_1154_Index_1=Controller Block for the Large Heat Exchanger
-#N     S:TileEntity_DESCRIPTION_1154_Index_2=More complicated than a Fusion Reactor. Seriously
-#N     S:TileEntity_DESCRIPTION_1154_Index_3=Inputs are Hot Coolant or Lava
-#N     S:TileEntity_DESCRIPTION_1154_Index_4=Outputs Coolant or Pahoehoe Lava and SH Steam/Steam
-#N     S:TileEntity_DESCRIPTION_1154_Index_5=Read the wiki article to understand how it works
-#N     S:TileEntity_DESCRIPTION_1154_Index_6=Then go to the Discord to understand the wiki
+    S:TileEntity_DESCRIPTION_1154_Index_0=机器类型: §e热交换机§r
+    S:TileEntity_DESCRIPTION_1154_Index_1=大型热交换机控制器方块
+    S:TileEntity_DESCRIPTION_1154_Index_2=比聚变反应堆更复杂. 确信
+    S:TileEntity_DESCRIPTION_1154_Index_3=输入热冷却液或岩浆
+    S:TileEntity_DESCRIPTION_1154_Index_4=输出冷却液或熔岩岩浆，并出产(过热)蒸汽
+    S:TileEntity_DESCRIPTION_1154_Index_5=请阅读Wiki教程，理解其工作方式
+    S:TileEntity_DESCRIPTION_1154_Index_6=然后再到Discord，理解Wiki教程
     S:TileEntity_DESCRIPTION_1154_Index_7=-----------------------------------------
     S:TileEntity_DESCRIPTION_1154_Index_8=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1154_Index_9=由 §aGregtech§7 添加
-Dimensions: 3x4x3 (WxHxL)
-Structure:
-Controller: Front bottom
-20x Stable Titanium Machine Casing (minimum)
-Titanium Pipe Casing: Center 2 blocks
-Maintenance Hatch: Any casing
-Input Hatch: Hot fluid, bottom center
-Input Hatch: Distilled water, any casing
-Output Hatch: Cold fluid, top center
-Qutput Hatch: Steam/SH Steam, any casing
+    S:TileEntity_Secondary_DESCRIPTION_1154_Index_0=大小(宽x高x长)：3x4x3
+    S:TileEntity_Secondary_DESCRIPTION_1154_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_1154_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_1154_Index_3=   3x4x3的加强钛机械方块(中空，至少20个！)
+    S:TileEntity_Secondary_DESCRIPTION_1154_Index_4=   2x钛管道方块(在中空的机械方块之中)
+    S:TileEntity_Secondary_DESCRIPTION_1154_Index_5=   维护仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1154_Index_6=   输入仓：  热流体，底层中央
+    S:TileEntity_Secondary_DESCRIPTION_1154_Index_7=   输入仓：  蒸馏水，任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1154_Index_8=   输出仓：  冷流体，顶层中央
+    S:TileEntity_Secondary_DESCRIPTION_1154_Index_9=   输出仓：  (过热)蒸汽，任意机械方块
     S:TileEntity_DESCRIPTION_1155_Index_0=机器类型: §e木炭堆打火器§r
     S:TileEntity_DESCRIPTION_1155_Index_1=木炭堆的控制器方块
     S:TileEntity_DESCRIPTION_1155_Index_2=将原木转换为易碎的木炭块
@@ -2443,26 +2443,26 @@ Qutput Hatch: Steam/SH Steam, any casing
     S:TileES:TileEntity_Secondary_DESCRIPTION_1159_Index_10=   输出总线：任意底层机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1159_Index_11=   输出仓：  任意底层机械方块
     S:TileEntity_DESCRIPTION_115_Index_0=压缩物品
-#N     S:TileEntity_DESCRIPTION_1160_Index_0=Machine Type: §eCracker§r
-#N     S:TileEntity_DESCRIPTION_1160_Index_1=Controller block for the Oil Cracking Unit
-#N     S:TileEntity_DESCRIPTION_1160_Index_2=Thermally cracks heavy hydrocarbons into lighter fractions
-#N     S:TileEntity_DESCRIPTION_1160_Index_3=More efficient than the Chemical Reactor
-#N     S:TileEntity_DESCRIPTION_1160_Index_4=Place the appropriate circuit in the controller
+    S:TileEntity_DESCRIPTION_1160_Index_0=机器类型: §e裂化机§r
+    S:TileEntity_DESCRIPTION_1160_Index_1=石油裂化机的控制器方块
+    S:TileEntity_DESCRIPTION_1160_Index_2=将重质烃热裂解成轻质馏分
+    S:TileEntity_DESCRIPTION_1160_Index_3=比化学反应釜更高效
+    S:TileEntity_DESCRIPTION_1160_Index_4=在控制器GUI中放入相应编程电路
     S:TileEntity_DESCRIPTION_1160_Index_5=-----------------------------------------
-#N     S:TileEntity_DESCRIPTION_1160_Index_6=Gets 5% EU/t reduction per coil tier
+    S:TileEntity_DESCRIPTION_1160_Index_6=线圈等级每提升一级，会减少5%的能耗
     S:TileEntity_DESCRIPTION_1160_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1160_Index_8=由 §aGregtech§7 添加
-Dimensions: 5x3x3 (WxHxL) (Hollow)
-Structure:
-Controller: Front center
-18x Clean Stainless Steel Machine Casing (minimum)
-2 Rings of 8 Coils: Each side of the controller
-Energy Hatch: Any casing
-Maintenance Hatch: Any casing
-Input Hatch: Steam/Hydrogen ONLY, Any middle ring casing
-Input Hatch: Any left/right side casing
-Output Hatch: Any right/left side casing
-Input/Output Hatches must be on opposite sides!
+    S:TileEntity_Secondary_DESCRIPTION_1160_Index_0=大小(宽x高x长)：5x3x3(中空)
+    S:TileEntity_Secondary_DESCRIPTION_1160_Index_0=结构：
+    S:TileEntity_Secondary_DESCRIPTION_1160_Index_0=   控制器：  正面中央
+    S:TileEntity_Secondary_DESCRIPTION_1160_Index_0=   18x洁净不锈钢机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_1160_Index_0=   8x线圈方块构成2个环(控制器左右两侧)
+    S:TileEntity_Secondary_DESCRIPTION_1160_Index_0=   能源仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1160_Index_0=   维护仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1160_Index_0=   输入仓：  蒸汽/氢气，任意中环机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1160_Index_0=   输入仓：  任意左/右侧机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1160_Index_0=   输出仓：  任意右/左侧机械方块
+    S:TileEntity_Secondary_DESCRIPTION_1160_Index_0=   输入/输出仓必须处在对侧
     S:TileEntity_DESCRIPTION_1161_Index_0=能量的无线传输
     S:TileEntity_DESCRIPTION_1161_Index_1=灌入氮等离子体
     S:TileEntity_DESCRIPTION_1161_Index_2=以进行跨维度传输
@@ -2550,7 +2550,7 @@ Input/Output Hatches must be on opposite sides!
     S:TileES:TileEntity_Secondary_DESCRIPTION_1171_Index_6=   引擎进气机械方块正前方不得堵塞(只允许空气方块)
     S:TileES:TileEntity_Secondary_DESCRIPTION_1171_Index_7=   动力仓：  背面中央
     S:TileES:TileEntity_Secondary_DESCRIPTION_1171_Index_8=   维护仓：  与齿轮箱相邻的机械方块之一
-    S:TileES:TileEntity_Secondary_DESCRIPTION_1171_Index_9=   消声仓：  顶层正中靠后，与后侧的齿轮箱相邻
+    S:TileES:TileEntity_Secondary_DESCRIPTION_1171_Index_9=   消声仓：  顶层中央靠后，与后侧的齿轮箱相邻
     S:TileES:TileEntity_Secondary_DESCRIPTION_1171_Index_10=   输入仓：  燃料，与齿轮箱相邻的机械方块之一
     S:TileES:TileEntity_Secondary_DESCRIPTION_1171_Index_11=   输入仓：  润滑油，与齿轮箱相邻的机械方块之一
     S:TileES:TileEntity_Secondary_DESCRIPTION_1171_Index_12=   输入仓：  氧，可选，与齿轮箱相邻的机械方块之一
@@ -3835,93 +3835,53 @@ Input/Output Hatches must be on opposite sides!
     S:TileEntity_DESCRIPTION_12728_Index_3=效率：§e88
     S:TileEntity_DESCRIPTION_12728_Index_4=输出电流：§e1
     S:TileEntity_DESCRIPTION_12728_Index_5=添加者：bartimaeusnek,模组：§2BartWorks§7
-#B     S:TileEntity_DESCRIPTION_12729_Index_0=Controller Block for the Deep Earth Heat Pump 
     S:TileEntity_DESCRIPTION_12729_Index_0=机器类型: §e地源热泵§r
-#C     S:TileEntity_DESCRIPTION_12729_Index_0=深地热泵的控制器方块
-#B     S:TileEntity_DESCRIPTION_12729_Index_1=Size(WxHxD): 3x7x3
-#A     S:TileEntity_DESCRIPTION_12729_Index_1=消耗功率: 512EU/t
-#C     S:TileEntity_DESCRIPTION_12729_Index_1=大小(宽x高x长) 3x7x3
-#B     S:TileEntity_DESCRIPTION_12729_Index_2=Controller (Front middle at bottom)
-#A     S:TileEntity_DESCRIPTION_12729_Index_2=有4种模式,使用螺丝刀切换模式:
-#C     S:TileEntity_DESCRIPTION_12729_Index_2=控制器方块(正面底中)
-#B     S:TileEntity_DESCRIPTION_12729_Index_3=3x1x3 Base of Casing_HeatProof
-#A     S:TileEntity_DESCRIPTION_12729_Index_3=0 Idle, 1 & 2 Coolant Heating Mode (no Difference between them), 3 Retract
-#C     S:TileEntity_DESCRIPTION_12729_Index_3=3x1x3隔热机械方块基座
-#B     S:TileEntity_DESCRIPTION_12729_Index_4=1x3x1 Casing_HeatProof pillar (Center of base)
-#A     S:TileEntity_DESCRIPTION_12729_Index_4=Explodes when it runs out of Coolant
-#C     S:TileEntity_DESCRIPTION_12729_Index_4=1x3x1隔热机械方块立柱(基座中央)
-#B     S:TileEntity_DESCRIPTION_12729_Index_5=1x3x1 Tungsten Frame Boxes (Each pillar side and on top)
-#A     S:TileEntity_DESCRIPTION_12729_Index_5=Heats up 960L/s Coolant(minus 10% per Maintenance Problem)
-#C     S:TileEntity_DESCRIPTION_12729_Index_5=1x3x1钨框架(立柱的每个侧面与上方)
-#B     S:TileEntity_DESCRIPTION_12729_Index_6=1x Input Hatch (One of base casings)
-#A     S:TileEntity_DESCRIPTION_12729_Index_6=-----------------------------------------
-#C     S:TileEntity_DESCRIPTION_12729_Index_6=1x输入仓(任意底层机械方块)
-#B     S:TileEntity_DESCRIPTION_12729_Index_7=1x Output Hatch (One of base casings)
-#A     S:TileEntity_DESCRIPTION_12729_Index_7=Hold §l[LSHIFT]§r§7 to display structure guidelines
-#C     S:TileEntity_DESCRIPTION_12729_Index_7=1x输出仓(任意底层机械方块)
-#B     S:TileEntity_DESCRIPTION_12729_Index_8=1x Maintenance Hatch (One of base casings)
-#A     S:TileEntity_DESCRIPTION_12729_Index_8=Added by: §aAdded by bartimaeusnek via §2BartWorks§7§7
-#C     S:TileEntity_DESCRIPTION_12729_Index_8=1x维护仓(任意底层机械方块)
-Dimensions: 3x7x3 (WxHxL)
-Structure:
-Controller: Front bottom
-Heat Proof Machine Casing form the 3x1x3 Base
-Heat Proof Machine Casing: 1x3x1 pillar above the center of the base (2 minimum total)
-Tungsten Frame Boxes: Each pillar's side and 1x3x1 on top 
-Energy Hatch: HV+, Any base casing 
-Maintenance Hatch: Any base casing 
-Input Bus: Mining Pipes, optional, any base casing
-Input Hatch: Any base casing
-Output Hatch: Any base casing
-#B     S:TileEntity_DESCRIPTION_12730_Index_0=Controller Block for the Mega Blast Furnace
+    S:TileEntity_DESCRIPTION_12729_Index_1=消耗功率: 512EU/t
+    S:TileEntity_DESCRIPTION_12729_Index_2=有4种模式，使用螺丝刀切换模式:
+    S:TileEntity_DESCRIPTION_12729_Index_3=模式0：空闲，模式1&2：加热冷却液(两个模式没有区别)，模式3：回收管道
+    S:TileEntity_DESCRIPTION_12729_Index_4=当冷却液用完时会爆炸
+    S:TileEntity_DESCRIPTION_12729_Index_5=每秒加热960L冷却液(每个维护问题减少10%)
+    S:TileEntity_DESCRIPTION_12729_Index_6=-----------------------------------------
+    S:TileEntity_DESCRIPTION_12729_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_12729_Index_8=添加者：bartimaeusnek,模组：§2BartWorks§7
+    S:TileEntity_Secondary_DESCRIPTION_12729_Index_0=大小(宽x高x长)：3x7x3
+    S:TileEntity_Secondary_DESCRIPTION_12729_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_12729_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_12729_Index_3=   3x1x3隔热机械方块基座
+    S:TileEntity_Secondary_DESCRIPTION_12729_Index_4=   1x3x1隔热机械方块立柱(基座中央)
+    S:TileEntity_Secondary_DESCRIPTION_12729_Index_5=   1x3x1钨框架(立柱的每个侧面与上方)
+    S:TileEntity_Secondary_DESCRIPTION_12729_Index_6=   能源仓：  HV+，任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12729_Index_7=   维护仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12729_Index_8=   输入总线：采矿管道，可选，任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12729_Index_9=   输入仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12729_Index_10=   输出仓：  任意底层机械方块
     S:TileEntity_DESCRIPTION_12730_Index_0=机器类型: §e工业高炉§r
-#C     S:TileEntity_DESCRIPTION_12730_Index_0=巨型工业高炉的控制器方块
-#B     S:TileEntity_DESCRIPTION_12730_Index_1=Size(WxHxD): 15x20x15 (Hollow)
-#A     S:TileEntity_DESCRIPTION_12730_Index_1=Controller block for the Mega Blast Furnace
-#C     S:TileEntity_DESCRIPTION_12730_Index_1=大小(宽x高x长)：15x20x15(中空)
-#B     S:TileEntity_DESCRIPTION_12730_Index_10=13x13 Muffler Hatches (Top middle)
-#A     S:TileEntity_DESCRIPTION_12730_Index_10=Added by: §aAdded by bartimaeusnek via §2BartWorks§7§7
-#C     S:TileEntity_DESCRIPTION_12730_Index_10=13x1x13消声仓(顶层中央)
-#B     S:TileEntity_DESCRIPTION_12730_Index_2=Controller: 3rd Layer Middle Center
-#A     S:TileEntity_DESCRIPTION_12730_Index_2=You can use some fluids to reduce recipe time. Place the circuit in the Input Bus
-#C     S:TileEntity_DESCRIPTION_12730_Index_2=控制器方块在第三层正面中央
-#B     S:TileEntity_DESCRIPTION_12730_Index_3=Inner 13x18x13 Heating Coils (Hollow)
-#A     S:TileEntity_DESCRIPTION_12730_Index_3=Each 900K over the min. Heat required multiplies EU/t by 0.95
-#C     S:TileEntity_DESCRIPTION_12730_Index_3=内层13x18x13加热线圈(中空)
-#B     S:TileEntity_DESCRIPTION_12730_Index_4=Outer 15x18x15 Borosilicate Glass
-#A     S:TileEntity_DESCRIPTION_12730_Index_4=Each 1800K over the min. Heat required allows for one upgraded overclock instead of normal
-#C     S:TileEntity_DESCRIPTION_12730_Index_4=外层15x18x15硼玻璃方块
-#B     S:TileEntity_DESCRIPTION_12730_Index_5=The glass tier limits the Energy Input tier
-#A     S:TileEntity_DESCRIPTION_12730_Index_5=Upgraded overclocks reduce recipe time to 25% (instead of 50%) and increase EU/t to 400%
-#C     S:TileEntity_DESCRIPTION_12730_Index_5=玻璃等级限制了能源仓等级
-#B     S:TileEntity_DESCRIPTION_12730_Index_6=1+ Input Hatch/Bus (Any casing)
-#A     S:TileEntity_DESCRIPTION_12730_Index_6=Additionally gives +100K for every tier past MV
-#C     S:TileEntity_DESCRIPTION_12730_Index_6=1+输入仓/总线(任意机械方块)
-#B     S:TileEntity_DESCRIPTION_12730_Index_7=1+ Output Hatch/Bus (Any casing)
-#A     S:TileEntity_DESCRIPTION_12730_Index_7=Causes: §5102400 §7pollution per second
-#C     S:TileEntity_DESCRIPTION_12730_Index_7=1+输出仓/总线(任意机械方块)
-#B     S:TileEntity_DESCRIPTION_12730_Index_8=1+ Energy Hatch (Any casing)
-#A     S:TileEntity_DESCRIPTION_12730_Index_8=-----------------------------------------
-#C     S:TileEntity_DESCRIPTION_12730_Index_8=1+能源仓(任意机械方块)
-#B     S:TileEntity_DESCRIPTION_12730_Index_9=1x Maintenance Hatch (Any casing)
-#A     S:TileEntity_DESCRIPTION_12730_Index_9=Hold §l[LSHIFT]§r§7 to display structure guidelines
-#C     S:TileEntity_DESCRIPTION_12730_Index_9=1x维护仓(任意机械方块)(注:所有底层仓室必须置于边缘)
-Dimensions: 15x20x15 (WxHxL) (Hollow)
-Structure:
-Controller: Front bottom
-0x Heat Proof Machine Casing (minimum)
-Heating Coils: Inner 13x18x13 (Hollow)
-Borosil icate Glass: Outer 15x18x15 
-The glass tier limits the Energy Input tier
-Energy Hatch: Any bottom layer casing
-Maintenance Hatch: Any bottom layer casing
-Muffler Hatch: Top middle 13x13
-Input Bus: Any bottom layer casing
-Input Hatch: Any bottom layer casing
-Output Bus: Any bottom layer casing
-Output Hatch: Gasses, Any top layer casing
-Recovery amount scales with Muffler Hatch tier 
-Qutput Hatch: Platline fluids, Any bottom layer casing
+    S:TileEntity_DESCRIPTION_12730_Index_1=巨型工业高炉的控制器方块
+    S:TileEntity_DESCRIPTION_12730_Index_10=添加者：bartimaeusnek,模组：§2BartWorks§7
+    S:TileEntity_DESCRIPTION_12730_Index_2=你可以用某些流体缩短烧制时间.在输入总线中放入编程电路.
+    S:TileEntity_DESCRIPTION_12730_Index_3=自配方的最小炉温起，每高出900K会减少5%的能耗，以乘法叠加，
+    S:TileEntity_DESCRIPTION_12730_Index_4=自配方的最小炉温起，每高出1800K将允许一次无损超频
+    S:TileEntity_DESCRIPTION_12730_Index_5=无损超频将减少加工时间至25%(而非普通超频的50%)并提升功率至400%
+    S:TileEntity_DESCRIPTION_12730_Index_6=电压自MV起可提供额外炉温，即实际炉温=线圈温度+(电压等级-2)*100
+    S:TileEntity_DESCRIPTION_12730_Index_7=每秒产生§5102400§7点污染
+    S:TileEntity_DESCRIPTION_12730_Index_8=-----------------------------------------
+    S:TileEntity_DESCRIPTION_12730_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_0=大小(宽x高x长)：15x20x15(中空)
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_3=   0x隔热机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_4=   加热线圈：内层13x18x13(中空)
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_5=   硼玻璃：  外层15x18x15
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_6=       玻璃等级限制了能源输入等级
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_7=   能源仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_8=   维护仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_9=   消声仓：  顶层中央13x1x13
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_10=   输入总线：任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_11=   输入仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_12=   输出总线：任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_13=   输出仓：  回收气体，任意顶层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_14=       回收比例取决于消声仓等级
+    S:TileEntity_Secondary_DESCRIPTION_12730_Index_15=   输出仓：  铂线流体，任意底层机械方块
     S:TileEntity_DESCRIPTION_12731_Index_0=巨型真空冷冻机的控制器方块
     S:TileEntity_DESCRIPTION_12731_Index_1=将炽热的锭与单元强力冷却
     S:TileEntity_DESCRIPTION_12731_Index_2=大小(宽x高x长)：15x15x15(中空)
@@ -3932,32 +3892,32 @@ Qutput Hatch: Platline fluids, Any bottom layer casing
     S:TileEntity_DESCRIPTION_12731_Index_7=1x能源仓(任意机械方块)
     S:TileEntity_DESCRIPTION_12731_Index_8=剩余方块为防冻机械方块
     S:TileEntity_DESCRIPTION_12731_Index_9=添加者：bartimaeusnek,模组：§2BartWorks§7
-#N     S:TileEntity_DESCRIPTION_12732_Index_0=Machine Type: §eNaquadah Reactor§r
-#N     S:TileEntity_DESCRIPTION_12732_Index_1=Controller block for the Naquadah Reactor
-#N     S:TileEntity_DESCRIPTION_12732_Index_10=molten caesium | 2x power | 9mb/t 
-#N     S:TileEntity_DESCRIPTION_12732_Index_11=molten uranium-235 | 3x power | 9mb/t
-#N     S:TileEntity_DESCRIPTION_12732_Index_12=molten naquadah | 4x power | 1mb/t
-#N     S:TileEntity_DESCRIPTION_12732_Index_13=molten Atomic Separation Catalyst | 16x power | 1mb/t
-#N     S:TileEntity_DESCRIPTION_12732_Index_14=The structure is too complex!
-#N     S:TileEntity_DESCRIPTION_12732_Index_15=Follow the§1 Tec§9Tech§7 blueprint to build the main structure.
+    S:TileEntity_DESCRIPTION_12732_Index_0=机器类型: §e硅岩反应堆§r
+    S:TileEntity_DESCRIPTION_12732_Index_1=大型硅岩反应堆的控制器方块
+    S:TileEntity_DESCRIPTION_12732_Index_10=熔融铯 | 2x功率 | 9mB/t 
+    S:TileEntity_DESCRIPTION_12732_Index_11=熔融铀-235 | 3x功率 | 9mB/t
+    S:TileEntity_DESCRIPTION_12732_Index_12=熔融硅岩 | 4x功率 | 1mB/t
+    S:TileEntity_DESCRIPTION_12732_Index_13=熔融原子分离催化剂 | 16x功率 | 1mB/t
+    S:TileEntity_DESCRIPTION_12732_Index_14=结构太复杂了！
+    S:TileEntity_DESCRIPTION_12732_Index_15=请参考§1Tec§9Tech§7蓝图，构建主体结构
     S:TileEntity_DESCRIPTION_12732_Index_16=-----------------------------------------
     S:TileEntity_DESCRIPTION_12732_Index_17=按住 §l[LSHIFT]§r§7 以显示结构指导
-#N     S:TileEntity_DESCRIPTION_12732_Index_18=Added by: §aGood Generator§7
-#N     S:TileEntity_DESCRIPTION_12732_Index_2=Environmental Friendly!
-#N     S:TileEntity_DESCRIPTION_12732_Index_3=Generate power with the High-energy liquid.
-#N     S:TileEntity_DESCRIPTION_12732_Index_4=Consume liquid air 120mb/t to keep running, otherwise§e it will void your fuel§7.
-#N     S:TileEntity_DESCRIPTION_12732_Index_5=Input liquid nuclear fuel or liquid naquadah fuel.
-#N     S:TileEntity_DESCRIPTION_12732_Index_6=The reactor will explode when there are more than§c ONE§7 types of fuel in the hatch!
-#N     S:TileEntity_DESCRIPTION_12732_Index_7=Consume coolant 50mb/t to increase the efficiency:
-#N     S:TileEntity_DESCRIPTION_12732_Index_8=IC2 Coolant 105%, Super Coolant 150%, Cryotheum 275%
-#N     S:TileEntity_DESCRIPTION_12732_Index_9=Consume excited liquid to increase the output power:
-Dimensions: 7x8x7 (WxHxL) (Hollow)
-Structure: 
-Controller: Front bottom
-Energy Hatch: Any bottom layer casing, only accept ONE!
-Input Hatch: Any bottom layer casing
-Qutput Hatch: Any bottom layer casing
-Maintenance Hatch: Any bottom layer casing
+    S:TileEntity_DESCRIPTION_12732_Index_18=由 §aGood Generator§7 添加
+    S:TileEntity_DESCRIPTION_12732_Index_2=环境友好型！
+    S:TileEntity_DESCRIPTION_12732_Index_3=使用高能流体产生能量.
+    S:TileEntity_DESCRIPTION_12732_Index_4=运行时需要消耗120mB/t液态空气，否则§e你的燃料将被销毁§7.
+    S:TileEntity_DESCRIPTION_12732_Index_5=输入液态核燃料或液态硅岩燃料.
+    S:TileEntity_DESCRIPTION_12732_Index_6=输入仓内出现不止§c一种§7燃料时，反应堆会爆炸！
+    S:TileEntity_DESCRIPTION_12732_Index_7=消耗50mB/t冷却液以提升效率:
+    S:TileEntity_DESCRIPTION_12732_Index_8=IC2冷却液：105%；超级冷却液：150%，极寒之凛冰：275%
+    S:TileEntity_DESCRIPTION_12732_Index_9=消耗激发流体以提升输出功率:
+    S:TileEntity_Secondary_DESCRIPTION_12732_Index_0=大小(宽x高x长)：7x8x7(中空)
+    S:TileEntity_Secondary_DESCRIPTION_12732_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_12732_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_12732_Index_3=   能源仓：  任意底层机械方块，只接受单能源仓！
+    S:TileEntity_Secondary_DESCRIPTION_12732_Index_4=   输入仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12732_Index_5=   输出仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12732_Index_6=   维护仓：  任意底层机械方块
     S:TileEntity_DESCRIPTION_12733_Index_0=钍高温反应堆的控制器方块
     S:TileEntity_DESCRIPTION_12733_Index_1=大小(宽x高x长)：11x12x11(中空)
     S:TileEntity_DESCRIPTION_12733_Index_10=运行时需要持续供应冷却液,运行结束后会重新输出
@@ -4003,144 +3963,80 @@ Maintenance Hatch: Any bottom layer casing
     S:TileEntity_DESCRIPTION_12737_Index_2=用螺丝刀右击以限制自动输出
     S:TileEntity_DESCRIPTION_12737_Index_3=可以被设定为仅输出/仅不输出 物品/蒸汽/流体
     S:TileEntity_DESCRIPTION_12737_Index_4=被设定过的输出仓在多方块中拥有更高的优先级
-#B     S:TileEntity_DESCRIPTION_12738_Index_0=Controller Block for the Mega Distillation Tower
     S:TileEntity_DESCRIPTION_12738_Index_0=机器类型: §e蒸馏塔§r
-#C     S:TileEntity_DESCRIPTION_12738_Index_0=巨型蒸馏塔的控制器方块
-#B     S:TileEntity_DESCRIPTION_12738_Index_1=Size(WxHxD): 15xhx15 (Hollow), with h ranging from 16 to 56
-#A     S:TileEntity_DESCRIPTION_12738_Index_1=Controller block for the Distillation Tower
-#C     S:TileEntity_DESCRIPTION_12738_Index_1=大小(宽x高x长)：15xhx15(中空)，高度h在16~56之间
-#B     S:TileEntity_DESCRIPTION_12738_Index_2=Controller (Front bottom)
-#A     S:TileEntity_DESCRIPTION_12738_Index_2=Fluids are only put out at the correct height
-#C     S:TileEntity_DESCRIPTION_12738_Index_2=控制器方块(正面底中)
-#B     S:TileEntity_DESCRIPTION_12738_Index_3=1+ Input Hatch (Any bottom layer casing)
-#A     S:TileEntity_DESCRIPTION_12738_Index_3=The correct height equals the slot number in the NEI recipe
-#C     S:TileEntity_DESCRIPTION_12738_Index_3=1+输入仓(任意底层机械方块)
-#B     S:TileEntity_DESCRIPTION_12738_Index_4=1+ Output Bus (Any bottom layer casing)
-#A     S:TileEntity_DESCRIPTION_12738_Index_4=-----------------------------------------
-#C     S:TileEntity_DESCRIPTION_12738_Index_4=1+输出总线(任意底层机械方块)
-#B     S:TileEntity_DESCRIPTION_12738_Index_5=An "Output Layer" consists of 5 layers!
-#A     S:TileEntity_DESCRIPTION_12738_Index_5=Hold §l[LSHIFT]§r§7 to display structure guidelines
-#C     S:TileEntity_DESCRIPTION_12738_Index_5=一个"输出层"由5层构成!
-#B     S:TileEntity_DESCRIPTION_12738_Index_6=2-11+ Output Hatch (One or more per Output Layer)
-#A     S:TileEntity_DESCRIPTION_12738_Index_6=Added by: §aAdded by bartimaeusnek via §2BartWorks§7§7
-#C     S:TileEntity_DESCRIPTION_12738_Index_6=2-11+输出仓(每个输出层1个或多个)
-Dimensions: 15-15x16-56x15-15 (WxHxL) (Hollow)
-Structure:
-Controller: Front bottom 
-Clean Stainless Steel Machine Casing: 15 X h-5 (minimum)
-Energy Hatch: Any casing
-Maintenance Hatch: Any casing
-Input Hatch: Any bottom layer casing
-Output Bus: Any bottom layer casing
-Output Hatch: 2-11x Output Hatches (one per Output Layer except bottom layer)
-An "Output Layer" consists of 5 layers!
-#B     S:TileEntity_DESCRIPTION_12739_Index_0=Controller Block for the Void Miner UV
+    S:TileEntity_DESCRIPTION_12738_Index_1=巨型蒸馏塔的控制器方块
+    S:TileEntity_DESCRIPTION_12738_Index_2=流体仅在对应的输出层处输出
+    S:TileEntity_DESCRIPTION_12738_Index_3=输出层可在NEI中查询
+    S:TileEntity_DESCRIPTION_12738_Index_4=-----------------------------------------
+    S:TileEntity_DESCRIPTION_12738_Index_5=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_12738_Index_6=添加者：bartimaeusnek,模组：§2BartWorks§7
+    S:TileEntity_Secondary_DESCRIPTION_12738_Index_0=大小(宽x高x长)：15-15x16-56x15-15(中空)
+    S:TileEntity_Secondary_DESCRIPTION_12738_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_12738_Index_2=   控制器：  正面底中 
+    S:TileEntity_Secondary_DESCRIPTION_12738_Index_3=   剩余方块为洁净不锈钢机械方块(至少15*h-5个！)
+    S:TileEntity_Secondary_DESCRIPTION_12738_Index_4=   能源仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12738_Index_5=   维护仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12738_Index_6=   输入仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12738_Index_7=   输出总线：任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12738_Index_8=   输出仓：  2-11x输出仓(每个输出层1个，底层除外)
+    S:TileEntity_Secondary_DESCRIPTION_12738_Index_9=       一个"输出层"由5层构成！
     S:TileEntity_DESCRIPTION_12739_Index_0=机器类型: §e采矿机§r
-#C     S:TileEntity_DESCRIPTION_12739_Index_0=虚空采矿场III的控制器方块
-#B     S:TileEntity_DESCRIPTION_12739_Index_1=Size(WxHxD): 3x7x3
-#A     S:TileEntity_DESCRIPTION_12739_Index_1=Controller Block for the Void Miner UV
-#C     S:TileEntity_DESCRIPTION_12739_Index_1=大小(宽x高x长) 3x7x3
-#B     S:TileEntity_DESCRIPTION_12739_Index_2=Controller (Front middle at bottom)
-#A     S:TileEntity_DESCRIPTION_12739_Index_2=Consumes 524288EU/t
-#C     S:TileEntity_DESCRIPTION_12739_Index_2=控制器方块(正面底中)
-#B     S:TileEntity_DESCRIPTION_12739_Index_3=3x1x3 Base of Mining Neutronium Casing
-#A     S:TileEntity_DESCRIPTION_12739_Index_3=Can be supplied with 2L/s of Neon(x4), Krypton(x8), Xenon(x16) or Oganesson(x64) for higher outputs.
-#C     S:TileEntity_DESCRIPTION_12739_Index_3=3x1x3的中子采矿机械方块基座
-#B     S:TileEntity_DESCRIPTION_12739_Index_4=1x3x1 Mining Neutronium Casing pillar (Center of base)
-#A     S:TileEntity_DESCRIPTION_12739_Index_4=Will output 6 Ores per Second depending on the Dimension it is build in
-#C     S:TileEntity_DESCRIPTION_12739_Index_4=1x3x1的中子采矿机械方块立柱(基座中央)
-#B     S:TileEntity_DESCRIPTION_12739_Index_5=1x3x1 Neutronium Frame Boxes (Each pillar side and on top)
-#A     S:TileEntity_DESCRIPTION_12739_Index_5=-----------------------------------------
-#C     S:TileEntity_DESCRIPTION_12739_Index_5=1x3x1的中子锭框架(立柱的每个侧面与上方)
-#B     S:TileEntity_DESCRIPTION_12739_Index_6=1x Output Bus (One of base casings)
-#A     S:TileEntity_DESCRIPTION_12739_Index_6=Hold §l[LSHIFT]§r§7 to display structure guidelines
-#C     S:TileEntity_DESCRIPTION_12739_Index_6=1x输出总线(任意底层机械方块)
-#B     S:TileEntity_DESCRIPTION_12739_Index_7=Optional: 0+ Input Hatch (One of base casings)
-#A     S:TileEntity_DESCRIPTION_12739_Index_7=Added by: §aGregtech§7
-#C     S:TileEntity_DESCRIPTION_12739_Index_7=0+输入仓(可选，任意底层机械方块)
-Di mensions: 3x7x3 (WxHxL)
-Structure:
-Control ler: Front bottom
-Mining Neutronium Casing form the 3x1x3 Base
-Mining Neutronium Casing:
-1x3x1 pillar above the center of the base (2 minimum total)
-Neutronium Frame Boxes: Each pillar's side and 1x3x1 on top 
-Energy Hatch: UV+, Any base casing 
-Maintenance Hatch: Any base casing 
-Input Bus: Mining Pipes, optional, any base casing
-Input Hatch: Optional noble gas, any base casing
-Output Bus: Any base casing
-#B     S:TileEntity_DESCRIPTION_12740_Index_0=Controller Block for the Void Miner ZPM
+    S:TileEntity_DESCRIPTION_12739_Index_1=虚空采矿场III的控制器方块
+    S:TileEntity_DESCRIPTION_12739_Index_2=消耗功率：524288EU/t
+    S:TileEntity_DESCRIPTION_12739_Index_3=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或<气奥>(x64)，以提高产量
+    S:TileEntity_DESCRIPTION_12739_Index_4=每秒输出6个矿石，矿石种类取决于机器所在的世界
+    S:TileEntity_DESCRIPTION_12739_Index_5=-----------------------------------------
+    S:TileEntity_DESCRIPTION_12739_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_12739_Index_7=由 §aGregtech§7 添加
+    S:TileEntity_Secondary_DESCRIPTION_12739_Index_0=大小(宽x高x长)：3x7x3
+    S:TileEntity_Secondary_DESCRIPTION_12739_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_12739_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_12739_Index_3=   3x1x3的中子采矿机械方块基座
+    S:TileEntity_Secondary_DESCRIPTION_12739_Index_4=   1x3x1的中子采矿机械方块立柱(基座中央)
+    S:TileEntity_Secondary_DESCRIPTION_12739_Index_5=   1x3x1的中子锭框架(立柱的每个侧面与上方)
+    S:TileEntity_Secondary_DESCRIPTION_12739_Index_6=   能源仓：  UV+，任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12739_Index_7=   维护仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12739_Index_8=   输入总线：采矿管道，可选，任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12739_Index_9=   输入仓：  稀有气体，可选，任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12739_Index_10=   输出总线：任意底层机械方块
     S:TileEntity_DESCRIPTION_12740_Index_0=机器类型: §e采矿机§r
-#C     S:TileEntity_DESCRIPTION_12740_Index_0=虚空采矿场II的控制器方块
-#B     S:TileEntity_DESCRIPTION_12740_Index_1=Size(WxHxD): 3x7x3
-#A     S:TileEntity_DESCRIPTION_12740_Index_1=Controller Block for the Void Miner ZPM
-#C     S:TileEntity_DESCRIPTION_12740_Index_1=大小(宽x高x长) 3x7x3
-#B     S:TileEntity_DESCRIPTION_12740_Index_2=Controller (Front middle at bottom)
-#A     S:TileEntity_DESCRIPTION_12740_Index_2=Consumes 131072EU/t
-#C     S:TileEntity_DESCRIPTION_12740_Index_2=控制器方块(正面底中)
-#B     S:TileEntity_DESCRIPTION_12740_Index_3=3x1x3 Base of Mining Black Plutonium Casing
-#A     S:TileEntity_DESCRIPTION_12740_Index_3=Can be supplied with 2L/s of Neon(x4), Krypton(x8), Xenon(x16) or Oganesson(x64) for higher outputs.
-#C     S:TileEntity_DESCRIPTION_12740_Index_3=3x1x3的黑钚采矿机械方块基座
-#B     S:TileEntity_DESCRIPTION_12740_Index_4=1x3x1 Mining Black Plutonium Casing pillar (Center of base)
-#A     S:TileEntity_DESCRIPTION_12740_Index_4=Will output 4 Ores per Second depending on the Dimension it is build in
-#C     S:TileEntity_DESCRIPTION_12740_Index_4=1x3x1的黑钚采矿机械方块立柱(基座中央)
-#B     S:TileEntity_DESCRIPTION_12740_Index_5=1x3x1 BlackPlutonium Frame Boxes (Each pillar side and on top)
-#A     S:TileEntity_DESCRIPTION_12740_Index_5=-----------------------------------------
-#C     S:TileEntity_DESCRIPTION_12740_Index_5=1x3x1的黑钚框架(立柱的每个侧面与上方)
-#B     S:TileEntity_DESCRIPTION_12740_Index_6=1x Output Bus (One of base casings)
-#A     S:TileEntity_DESCRIPTION_12740_Index_6=Hold §l[LSHIFT]§r§7 to display structure guidelines
-#C     S:TileEntity_DESCRIPTION_12740_Index_6=1x输出总线(任意底层机械方块)
-#B     S:TileEntity_DESCRIPTION_12740_Index_7=Optional: 0+ Input Hatch (One of base casings)
-#A     S:TileEntity_DESCRIPTION_12740_Index_7=Added by: §aGregtech§7
-#C     S:TileEntity_DESCRIPTION_12740_Index_7=0+输入仓(可选，任意底层机械方块)
-Dimensions: 3x7x3 (WxHxL)
-Structure:
-Controller: Front bottom 
-Mining Black Plutonium Casing form the 3x1x3 Base
-Mining Black Plutonium Casing:
-1x3x1 pillar above the center of the base (2 minimum total)
-BlackPlutonium Frame Boxes: Each pillar's side and 1x3x1 on top
-Energy Hatch: ZPM+, Any base casing
-Maintenance Hatch: Any base casing
-Input Bus: Mining Pipes, optional, any base casing
-Input Hatch: optional noble gas, any base casing
-Output Bus: Any base casing
-#B     S:TileEntity_DESCRIPTION_12741_Index_0=Controller Block for the Void Miner LuV
+    S:TileEntity_DESCRIPTION_12740_Index_1=虚空采矿场II的控制器方块
+    S:TileEntity_DESCRIPTION_12740_Index_2=消耗功率：131072EU/t
+    S:TileEntity_DESCRIPTION_12740_Index_3=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或<气奥>(x64)，以提高产量
+    S:TileEntity_DESCRIPTION_12740_Index_4=每秒输出4个矿石，矿石种类取决于机器所在的世界
+    S:TileEntity_DESCRIPTION_12740_Index_5=-----------------------------------------
+    S:TileEntity_DESCRIPTION_12740_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_12740_Index_7=由 §aGregtech§7 添加
+    S:TileEntity_Secondary_DESCRIPTION_12740_Index_0=大小(宽x高x长)：3x7x3
+    S:TileEntity_Secondary_DESCRIPTION_12740_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_12740_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_12740_Index_3=   3x1x3的黑钚采矿机械方块基座
+    S:TileEntity_Secondary_DESCRIPTION_12740_Index_4=   1x3x1的黑钚采矿机械方块立柱(基座中央)
+    S:TileEntity_Secondary_DESCRIPTION_12740_Index_5=   1x3x1的黑钚框架(立柱的每个侧面与上方)
+    S:TileEntity_Secondary_DESCRIPTION_12740_Index_6=   能源仓：  ZPM+，任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12740_Index_7=   维护仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12740_Index_8=   输入总线：采矿管道，可选，任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12740_Index_9=   输入仓：  稀有气体，可选，任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12740_Index_10=   输出总线：任意底层机械方块
     S:TileEntity_DESCRIPTION_12741_Index_0=机器类型: §e采矿机§r
-#C     S:TileEntity_DESCRIPTION_12741_Index_0=虚空采矿场I的控制器方块
-#B     S:TileEntity_DESCRIPTION_12741_Index_1=Size(WxHxD): 3x7x3
-#A     S:TileEntity_DESCRIPTION_12741_Index_1=Controller Block for the Void Miner LuV
-#C     S:TileEntity_DESCRIPTION_12741_Index_1=大小(宽x高x长) 3x7x3
-#B     S:TileEntity_DESCRIPTION_12741_Index_2=Controller (Front middle at bottom)
-#A     S:TileEntity_DESCRIPTION_12741_Index_2=Consumes 32768EU/t
-#C     S:TileEntity_DESCRIPTION_12741_Index_2=控制器方块(正面底中)
-#B     S:TileEntity_DESCRIPTION_12741_Index_3=3x1x3 Base of UV Machine Casing
-#A     S:TileEntity_DESCRIPTION_12741_Index_3=Can be supplied with 2L/s of Neon(x4), Krypton(x8), Xenon(x16) or Oganesson(x64) for higher outputs.
-#C     S:TileEntity_DESCRIPTION_12741_Index_3=3x1x3 UV机械方块基座
-#B     S:TileEntity_DESCRIPTION_12741_Index_4=1x3x1 UV Machine Casing pillar (Center of base)
-#A     S:TileEntity_DESCRIPTION_12741_Index_4=Will output 2 Ores per Second depending on the Dimension it is build in
-#C     S:TileEntity_DESCRIPTION_12741_Index_4=1x3x1 UV机械方块立柱(基座中央)
-#B     S:TileEntity_DESCRIPTION_12741_Index_5=1x3x1 Europium Frame Boxes (Each pillar side and on top)
-#A     S:TileEntity_DESCRIPTION_12741_Index_5=-----------------------------------------
-#C     S:TileEntity_DESCRIPTION_12741_Index_5=1x3x1的铕框架(立柱的每个侧面与上方)
-#B     S:TileEntity_DESCRIPTION_12741_Index_6=1x Output Bus (One of base casings)
-#A     S:TileEntity_DESCRIPTION_12741_Index_6=Hold §l[LSHIFT]§r§7 to display structure guidelines
-#C     S:TileEntity_DESCRIPTION_12741_Index_6=1x输出总线(任意底层机械方块)
-#B     S:TileEntity_DESCRIPTION_12741_Index_7=Optional: 0+ Input Hatch (One of base casings)
-#A     S:TileEntity_DESCRIPTION_12741_Index_7=Added by: §aGregtech§7
-#C     S:TileEntity_DESCRIPTION_12741_Index_7=0+输入仓(可选，任意底层机械方块)
-Dimensions: 3x7x3 (WxHxL)
-Structure: 
-Controller: Front bottom
-UV Machine Casing form the 3x1x3 Base
-UV Machine Casing: 1x3x1 pillar above the center of the base (2 minimum total)
-Europium Frame Boxes: Each pillar's side and 1x3x1 on top
-Energy Hatch: LuV+, Any base casing
-Maintenance Hatch: Any base casing
-Input Bus: Mining Pipes, optional, any base casing
-Input Hatch: Optional noble gas, any base casing
-Output Bus: Any base casing 
+    S:TileEntity_DESCRIPTION_12741_Index_1=虚空采矿场I的控制器方块
+    S:TileEntity_DESCRIPTION_12741_Index_2=消耗功率：32768EU/t
+    S:TileEntity_DESCRIPTION_12741_Index_3=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或<气奥>(x64)，以提高产量
+    S:TileEntity_DESCRIPTION_12741_Index_4=每秒输出2个矿石，矿石种类取决于机器所在的世界
+    S:TileEntity_DESCRIPTION_12741_Index_5=-----------------------------------------
+    S:TileEntity_DESCRIPTION_12741_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_12741_Index_7=由 §aGregtech§7 添加
+    S:TileEntity_Secondary_DESCRIPTION_12741_Index_0=大小(宽x高x长)：3x7x3
+    S:TileEntity_Secondary_DESCRIPTION_12741_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_12741_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_12741_Index_3=   3x1x3的UV机械方块基座
+    S:TileEntity_Secondary_DESCRIPTION_12741_Index_4=   1x3x1的UV机械方块立柱(基座中央)
+    S:TileEntity_Secondary_DESCRIPTION_12741_Index_5=   1x3x1的铕框架(立柱的每个侧面与上方)
+    S:TileEntity_Secondary_DESCRIPTION_12741_Index_6=   能源仓：  LuV+，任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12741_Index_7=   维护仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12741_Index_8=   输入总线：采矿管道，可选，任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12741_Index_9=   输入仓：  稀有气体，可选，任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12741_Index_10=   输出总线：任意底层机械方块
     S:TileEntity_DESCRIPTION_12742_Index_0=用于低功率激光的原始线缆
     S:TileEntity_DESCRIPTION_12742_Index_1=不会自动连接
     S:TileEntity_DESCRIPTION_12742_Index_2=§b§b请勿转弯
@@ -4410,7 +4306,7 @@ Output Bus: Any base casing
     S:TileEntity_DESCRIPTION_13000_Index_15=由EMT添加
     S:TileEntity_DESCRIPTION_13000_Index_16=由bartimaeusnek制作
     S:TileEntity_DESCRIPTION_13000_Index_2=大小(宽x高x长)：7x4x7，控制器方块(正面底中)
-    S:TileEntity_DESCRIPTION_13000_Index_3=顶部中央5x1x5消声仓(噪音大户— —)
+    S:TileEntity_DESCRIPTION_13000_Index_3=顶层中央5x1x5消声仓(噪音大户— —)
     S:TileEntity_DESCRIPTION_13000_Index_4=内部5x2x5为源质扩散单元
     S:TileEntity_DESCRIPTION_13000_Index_5=以下都在底部或两侧
     S:TileEntity_DESCRIPTION_13000_Index_6=1x流体输入仓
@@ -4760,7 +4656,7 @@ Output Bus: Any base casing
     S:TileES:TileEntity_Secondary_DESCRIPTION_140_Index_1=结构：
     S:TileES:TileEntity_Secondary_DESCRIPTION_140_Index_2=   控制器：  正面中央
     S:TileES:TileEntity_Secondary_DESCRIPTION_140_Index_3=   除控制器以外所有方块均为耐火砖
-    S:TileES:TileEntity_Secondary_DESCRIPTION_140_Index_4=   顶部中央留空
+    S:TileES:TileEntity_Secondary_DESCRIPTION_140_Index_4=   顶层中央留空
     S:TileES:TileEntity_Secondary_DESCRIPTION_140_Index_5=   GT多方块机器可共享方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_140_Index_6=   每多联一台，平均成本就降低一次，到四联平均成本最低
     S:TileEntity_DESCRIPTION_1410_Index_0=最大电压： %s
@@ -6320,309 +6216,309 @@ Output Bus: Any base casing
     S:TileEntity_DESCRIPTION_1691_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1691_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1691_Index_2=线损/米/安： %s 伏
-#N     S:TileEntity_DESCRIPTION_16999_Index_0=Machine Type: §eNaquadah Fuel Refinery§r
-#N     S:TileEntity_DESCRIPTION_16999_Index_1=Controller block for the Naquadah Fuel Refine Factory
-#N     S:TileEntity_DESCRIPTION_16999_Index_10=Added by: §aGood Generator§7
-#N     S:TileEntity_DESCRIPTION_16999_Index_2=But at what cost?
-#N     S:TileEntity_DESCRIPTION_16999_Index_3=Produce the endgame naquadah fuel.
-#N     S:TileEntity_DESCRIPTION_16999_Index_4=Need field restriction coil to control the fatal radiation.
-#N     S:TileEntity_DESCRIPTION_16999_Index_5=Use higher tier coil to unlock more fuel and reduce the process time.
-#N     S:TileEntity_DESCRIPTION_16999_Index_6=The structure is too complex!
-#N     S:TileEntity_DESCRIPTION_16999_Index_7=Follow the§1 Tec§9Tech§7 blueprint to build the main structure.
+    S:TileEntity_DESCRIPTION_16999_Index_0=机器类型: §e硅岩燃料精炼厂§r
+    S:TileEntity_DESCRIPTION_16999_Index_1=硅岩燃料精炼厂的控制器方块
+    S:TileEntity_DESCRIPTION_16999_Index_10=由 §aGood Generator§7添加
+    S:TileEntity_DESCRIPTION_16999_Index_2=但代价是什么?
+    S:TileEntity_DESCRIPTION_16999_Index_3=生产终极硅岩燃料.
+    S:TileEntity_DESCRIPTION_16999_Index_4=需要力场约束线圈方块，以控制致命辐射.
+    S:TileEntity_DESCRIPTION_16999_Index_5=使用高阶线圈，以解锁更多燃料并减少处理时间.
+    S:TileEntity_DESCRIPTION_16999_Index_6=结构太复杂了！
+    S:TileEntity_DESCRIPTION_16999_Index_7=请参考§1Tec§9Tech§7蓝图，构建主体结构
     S:TileEntity_DESCRIPTION_16999_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_16999_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
-Input Hatch: The casings adjoin the field restriction glass.
-Input Bus: The casings adjoin the field restriction glass.
-Output Hatch: The casings adjoin the field restriction glass.
-Energy Hatch: The casings adjoin the field restriction glass.
+    S:TileEntity_Secondary_DESCRIPTION_16999_Index_0=与聚变反应堆结构一致
+    S:TileEntity_Secondary_DESCRIPTION_16999_Index_1=   输入仓：  与力场约束玻璃相邻的机械方块
+    S:TileEntity_Secondary_DESCRIPTION_16999_Index_2=   输入总线：与力场约束玻璃相邻的机械方块
+    S:TileEntity_Secondary_DESCRIPTION_16999_Index_3=   输出仓：  与力场约束玻璃相邻的机械方块
+    S:TileEntity_Secondary_DESCRIPTION_16999_Index_4=   能源仓：  与力场约束玻璃相邻的机械方块
     S:TileEntity_DESCRIPTION_169_Index_1=1格
     S:TileEntity_DESCRIPTION_16_Index_0=§r§r你需要§5绝§d对§4天§c马§e行§a空§b的§3想§9象§1能§5力§r来使用它。
-#N     S:TileEntity_DESCRIPTION_17000_Index_0=Hydro Dam Controller
-#N     S:TileEntity_DESCRIPTION_17000_Index_1=Controller Block for the Hydro Dam
-#N     S:TileEntity_DESCRIPTION_17000_Index_2=Input is pressurized water from Hydro Pumps
-#N     S:TileEntity_DESCRIPTION_17000_Index_3=Output is pressurized water for Hydro Turbines
-#N     S:TileEntity_DESCRIPTION_17000_Index_4=Requires an Input and Output Hatch on the front!
-#N     S:TileEntity_DESCRIPTION_17000_Index_5=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17002_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17002_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17002_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17002_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17002_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17002_Index_5=Requires 32mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17002_Index_6=Efficiency: 97%
-#N     S:TileEntity_DESCRIPTION_17002_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17002_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17003_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17003_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17003_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17003_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17003_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17003_Index_5=Requires 128mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17003_Index_6=Efficiency: 94%
-#N     S:TileEntity_DESCRIPTION_17003_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17003_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17004_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17004_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17004_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17004_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17004_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17004_Index_5=Requires 512mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17004_Index_6=Efficiency: 91%
-#N     S:TileEntity_DESCRIPTION_17004_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17004_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17005_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17005_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17005_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17005_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17005_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17005_Index_5=Requires 2048mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17005_Index_6=Efficiency: 88%
-#N     S:TileEntity_DESCRIPTION_17005_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17005_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17006_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17006_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17006_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17006_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17006_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17006_Index_5=Requires 8192mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17006_Index_6=Efficiency: 85%
-#N     S:TileEntity_DESCRIPTION_17006_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17006_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17007_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17007_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17007_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17007_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17007_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17007_Index_5=Requires 32768mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17007_Index_6=Efficiency: 82%
-#N     S:TileEntity_DESCRIPTION_17007_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17007_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17008_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17008_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17008_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17008_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17008_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17008_Index_5=Requires 131072mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17008_Index_6=Efficiency: 79%
-#N     S:TileEntity_DESCRIPTION_17008_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17008_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17009_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17009_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17009_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17009_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17009_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17009_Index_5=Requires 524288mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17009_Index_6=Efficiency: 76%
-#N     S:TileEntity_DESCRIPTION_17009_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17009_Index_8=Use Redstone to automate!
+    S:TileEntity_DESCRIPTION_17000_Index_0=水库控制器
+    S:TileEntity_DESCRIPTION_17000_Index_1=水库的控制器方块
+    S:TileEntity_DESCRIPTION_17000_Index_2=从水泵输入加压水
+    S:TileEntity_DESCRIPTION_17000_Index_3=向水轮机输出加压水
+    S:TileEntity_DESCRIPTION_17000_Index_4=需要在正面安装一个输入仓和一个输出仓！
+    S:TileEntity_DESCRIPTION_17000_Index_5=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17002_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17002_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17002_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17002_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17002_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17002_Index_5=每tick需要32mB水
+    S:TileEntity_DESCRIPTION_17002_Index_6=效率：97%
+    S:TileEntity_DESCRIPTION_17002_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17002_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17003_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17003_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17003_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17003_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17003_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17003_Index_5=每tick需要128mB水
+    S:TileEntity_DESCRIPTION_17003_Index_6=效率：94%
+    S:TileEntity_DESCRIPTION_17003_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17003_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17004_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17004_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17004_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17004_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17004_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17004_Index_5=每tick需要512mB水
+    S:TileEntity_DESCRIPTION_17004_Index_6=效率：91%
+    S:TileEntity_DESCRIPTION_17004_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17004_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17005_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17005_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17005_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17005_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17005_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17005_Index_5=每tick需要2048mB水
+    S:TileEntity_DESCRIPTION_17005_Index_6=效率：88%
+    S:TileEntity_DESCRIPTION_17005_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17005_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17006_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17006_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17006_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17006_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17006_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17006_Index_5=每tick需要8192mB水
+    S:TileEntity_DESCRIPTION_17006_Index_6=效率：85%
+    S:TileEntity_DESCRIPTION_17006_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17006_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17007_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17007_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17007_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17007_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17007_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17007_Index_5=每tick需要32768mB水
+    S:TileEntity_DESCRIPTION_17007_Index_6=效率：82%
+    S:TileEntity_DESCRIPTION_17007_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17007_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17008_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17008_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17008_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17008_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17008_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17008_Index_5=每tick需要131072mB水
+    S:TileEntity_DESCRIPTION_17008_Index_6=效率：79%
+    S:TileEntity_DESCRIPTION_17008_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17008_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17009_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17009_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17009_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17009_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17009_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17009_Index_5=每tick需要524288mB水
+    S:TileEntity_DESCRIPTION_17009_Index_6=效率：76%
+    S:TileEntity_DESCRIPTION_17009_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17009_Index_8=使用红石进行自动化！
     S:TileEntity_DESCRIPTION_1700_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1700_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1700_Index_2=线损/米/安： %s 伏
-#N     S:TileEntity_DESCRIPTION_17010_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17010_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17010_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17010_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17010_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17010_Index_5=Requires 2097152mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17010_Index_6=Efficiency: 73%
-#N     S:TileEntity_DESCRIPTION_17010_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17010_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17011_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17011_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17011_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17011_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17011_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17011_Index_5=Requires 8388608mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17011_Index_6=Efficiency: 70%
-#N     S:TileEntity_DESCRIPTION_17011_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17011_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17012_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17012_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17012_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17012_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17012_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17012_Index_5=Requires 33554432mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17012_Index_6=Efficiency: 67%
-#N     S:TileEntity_DESCRIPTION_17012_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17012_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17013_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17013_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17013_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17013_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17013_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17013_Index_5=Requires 134217728mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17013_Index_6=Efficiency: 64%
-#N     S:TileEntity_DESCRIPTION_17013_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17013_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17014_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17014_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17014_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17014_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17014_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17014_Index_5=Requires 536870912mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17014_Index_6=Efficiency: 61%
-#N     S:TileEntity_DESCRIPTION_17014_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17014_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17015_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17015_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17015_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17015_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17015_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17015_Index_5=Requires 1073741824mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17015_Index_6=Efficiency: 58%
-#N     S:TileEntity_DESCRIPTION_17015_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17015_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17016_Index_0=Hydro Pump Controller
-#N     S:TileEntity_DESCRIPTION_17016_Index_1=Controller Block for the Hydro Pump
-#N     S:TileEntity_DESCRIPTION_17016_Index_2=Consumes EU to pressurize water
-#N     S:TileEntity_DESCRIPTION_17016_Index_3=Output is pressurized water for Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17016_Index_4=Requires a Energy, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17016_Index_5=Requires 2147483647mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17016_Index_6=Efficiency: 55%
-#N     S:TileEntity_DESCRIPTION_17016_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17016_Index_8=Use Redstone to automate!
-
-#N     S:TileEntity_DESCRIPTION_17018_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17018_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17018_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17018_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17018_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17018_Index_5=Produces up to 32mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17018_Index_6=Efficiency: 97%
-#N     S:TileEntity_DESCRIPTION_17018_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17018_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17019_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17019_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17019_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17019_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17019_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17019_Index_5=Produces up to 128mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17019_Index_6=Efficiency: 94%
-#N     S:TileEntity_DESCRIPTION_17019_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17019_Index_8=Use Redstone to automate!
+    S:TileEntity_DESCRIPTION_17010_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17010_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17010_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17010_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17010_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17010_Index_5=每tick需要2097152mB水
+    S:TileEntity_DESCRIPTION_17010_Index_6=效率：73%
+    S:TileEntity_DESCRIPTION_17010_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17010_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17011_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17011_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17011_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17011_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17011_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17011_Index_5=每tick需要8388608mB水
+    S:TileEntity_DESCRIPTION_17011_Index_6=效率：70%
+    S:TileEntity_DESCRIPTION_17011_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17011_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17012_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17012_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17012_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17012_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17012_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17012_Index_5=每tick需要33554432mB水
+    S:TileEntity_DESCRIPTION_17012_Index_6=效率：67%
+    S:TileEntity_DESCRIPTION_17012_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17012_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17013_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17013_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17013_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17013_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17013_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17013_Index_5=每tick需要134217728mB水
+    S:TileEntity_DESCRIPTION_17013_Index_6=效率：64%
+    S:TileEntity_DESCRIPTION_17013_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17013_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17014_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17014_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17014_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17014_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17014_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17014_Index_5=每tick需要536870912mB水
+    S:TileEntity_DESCRIPTION_17014_Index_6=效率：61%
+    S:TileEntity_DESCRIPTION_17014_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17014_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17015_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17015_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17015_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17015_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17015_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17015_Index_5=每tick需要1073741824mB水
+    S:TileEntity_DESCRIPTION_17015_Index_6=效率：58%
+    S:TileEntity_DESCRIPTION_17015_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17015_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17016_Index_0=水泵控制器
+    S:TileEntity_DESCRIPTION_17016_Index_1=水泵的控制器方块
+    S:TileEntity_DESCRIPTION_17016_Index_2=消耗EU，为水加压
+    S:TileEntity_DESCRIPTION_17016_Index_3=为水库输出加压水
+    S:TileEntity_DESCRIPTION_17016_Index_4=需要在任意位置安装能源仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17016_Index_5=每tick需要2147483647mB水
+    S:TileEntity_DESCRIPTION_17016_Index_6=效率：55%
+    S:TileEntity_DESCRIPTION_17016_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17016_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17018_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17018_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17018_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17018_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17018_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17018_Index_5=每tick最多产生32mB水
+    S:TileEntity_DESCRIPTION_17018_Index_6=效率：97%
+    S:TileEntity_DESCRIPTION_17018_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17018_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17019_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17019_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17019_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17019_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17019_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17019_Index_5=每tick最多产生128mB水
+    S:TileEntity_DESCRIPTION_17019_Index_6=效率：94%
+    S:TileEntity_DESCRIPTION_17019_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17019_Index_8=使用红石进行自动化！
     S:TileEntity_DESCRIPTION_1701_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1701_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1701_Index_2=线损/米/安： %s 伏
-#N     S:TileEntity_DESCRIPTION_17020_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17020_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17020_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17020_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17020_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17020_Index_5=Produces up to 512mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17020_Index_6=Efficiency: 91%
-#N     S:TileEntity_DESCRIPTION_17020_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17020_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17021_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17021_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17021_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17021_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17021_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17021_Index_5=Produces up to 2048mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17021_Index_6=Efficiency: 88%
-#N     S:TileEntity_DESCRIPTION_17021_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17021_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17022_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17022_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17022_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17022_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17022_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17022_Index_5=Produces up to 8192mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17022_Index_6=Efficiency: 85%
-#N     S:TileEntity_DESCRIPTION_17022_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17022_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17023_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17023_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17023_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17023_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17023_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17023_Index_5=Produces up to 32768mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17023_Index_6=Efficiency: 82%
-#N     S:TileEntity_DESCRIPTION_17023_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17023_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17024_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17024_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17024_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17024_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17024_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17024_Index_5=Produces up to 131072mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17024_Index_6=Efficiency: 79%
-#N     S:TileEntity_DESCRIPTION_17024_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17024_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17025_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17025_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17025_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17025_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17025_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17025_Index_5=Produces up to 524288mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17025_Index_6=Efficiency: 76%
-#N     S:TileEntity_DESCRIPTION_17025_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17025_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17026_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17026_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17026_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17026_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17026_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17026_Index_5=Produces up to 2097152mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17026_Index_6=Efficiency: 73%
-#N     S:TileEntity_DESCRIPTION_17026_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17026_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17027_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17027_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17027_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17027_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17027_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17027_Index_5=Produces up to 8388608mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17027_Index_6=Efficiency: 70%
-#N     S:TileEntity_DESCRIPTION_17027_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17027_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17028_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17028_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17028_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17028_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17028_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17028_Index_5=Produces up to 33554432mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17028_Index_6=Efficiency: 67%
-#N     S:TileEntity_DESCRIPTION_17028_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17028_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17029_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17029_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17029_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17029_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17029_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17029_Index_5=Produces up to 134217728mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17029_Index_6=Efficiency: 64%
-#N     S:TileEntity_DESCRIPTION_17029_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17029_Index_8=Use Redstone to automate!
+    S:TileEntity_DESCRIPTION_17020_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17020_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17020_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17020_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17020_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17020_Index_5=每tick最多产生512mB水
+    S:TileEntity_DESCRIPTION_17020_Index_6=效率：91%
+    S:TileEntity_DESCRIPTION_17020_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17020_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17021_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17021_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17021_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17021_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17021_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17021_Index_5=每tick最多产生2048mB水
+    S:TileEntity_DESCRIPTION_17021_Index_6=效率：88%
+    S:TileEntity_DESCRIPTION_17021_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17021_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17022_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17022_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17022_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17022_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17022_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17022_Index_5=每tick最多产生8192mB水
+    S:TileEntity_DESCRIPTION_17022_Index_6=效率：85%
+    S:TileEntity_DESCRIPTION_17022_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17022_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17023_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17023_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17023_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17023_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17023_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17023_Index_5=每tick最多产生32768mB水
+    S:TileEntity_DESCRIPTION_17023_Index_6=效率：82%
+    S:TileEntity_DESCRIPTION_17023_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17023_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17024_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17024_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17024_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17024_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17024_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17024_Index_5=每tick最多产生131072mB水
+    S:TileEntity_DESCRIPTION_17024_Index_6=效率：79%
+    S:TileEntity_DESCRIPTION_17024_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17024_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17025_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17025_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17025_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17025_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17025_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17025_Index_5=每tick最多产生524288mB水
+    S:TileEntity_DESCRIPTION_17025_Index_6=效率：76%
+    S:TileEntity_DESCRIPTION_17025_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17025_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17026_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17026_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17026_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17026_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17026_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17026_Index_5=每tick最多产生2097152mB水
+    S:TileEntity_DESCRIPTION_17026_Index_6=效率：73%
+    S:TileEntity_DESCRIPTION_17026_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17026_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17027_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17027_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17027_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17027_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17027_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17027_Index_5=每tick最多产生8388608mB水
+    S:TileEntity_DESCRIPTION_17027_Index_6=效率：70%
+    S:TileEntity_DESCRIPTION_17027_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17027_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17028_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17028_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17028_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17028_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17028_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17028_Index_5=每tick最多产生33554432mB水
+    S:TileEntity_DESCRIPTION_17028_Index_6=效率：67%
+    S:TileEntity_DESCRIPTION_17028_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17028_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17029_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17029_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17029_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17029_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17029_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17029_Index_5=每tick最多产生134217728mB水
+    S:TileEntity_DESCRIPTION_17029_Index_6=效率：64%
+    S:TileEntity_DESCRIPTION_17029_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17029_Index_8=使用红石进行自动化！
     S:TileEntity_DESCRIPTION_1702_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1702_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1702_Index_2=线损/米/安： %s 伏
-#N     S:TileEntity_DESCRIPTION_17030_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17030_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17030_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17030_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17030_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17030_Index_5=Produces up to 536870912mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17030_Index_6=Efficiency: 61%
-#N     S:TileEntity_DESCRIPTION_17030_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17030_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17031_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17031_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17031_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17031_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17031_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17031_Index_5=Produces up to 1073741824mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17031_Index_6=Efficiency: 58%
-#N     S:TileEntity_DESCRIPTION_17031_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17031_Index_8=Use Redstone to automate!
-#N     S:TileEntity_DESCRIPTION_17032_Index_0=Hydro Turbine Controller
-#N     S:TileEntity_DESCRIPTION_17032_Index_1=Controller Block for the Hydro Turbine
-#N     S:TileEntity_DESCRIPTION_17032_Index_2=Consumes pressurize water to produce EU
-#N     S:TileEntity_DESCRIPTION_17032_Index_3=Input is pressurized water from Hydro Dams
-#N     S:TileEntity_DESCRIPTION_17032_Index_4=Requires a Dynamo, Input, Output and Maintenance Hatch anywhere!
-#N     S:TileEntity_DESCRIPTION_17032_Index_5=Produces up to 2147483647mB Water per Tick
-#N     S:TileEntity_DESCRIPTION_17032_Index_6=Efficiency: 55%
-#N     S:TileEntity_DESCRIPTION_17032_Index_7=To see the structure, use a §9Tec§1Tech§7 Blueprint on the Controller!
-#N     S:TileEntity_DESCRIPTION_17032_Index_8=Use Redstone to automate!
+    S:TileEntity_DESCRIPTION_17030_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17030_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17030_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17030_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17030_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17030_Index_5=每tick最多产生536870912mB水
+    S:TileEntity_DESCRIPTION_17030_Index_6=效率：61%
+    S:TileEntity_DESCRIPTION_17030_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17030_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17031_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17031_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17031_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17031_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17031_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17031_Index_5=每tick最多产生1073741824mB水
+    S:TileEntity_DESCRIPTION_17031_Index_6=效率：58%
+    S:TileEntity_DESCRIPTION_17031_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17031_Index_8=使用红石进行自动化！
+    S:TileEntity_DESCRIPTION_17032_Index_0=水轮机控制器
+    S:TileEntity_DESCRIPTION_17032_Index_1=水轮机的控制器方块
+    S:TileEntity_DESCRIPTION_17032_Index_2=消耗加压水产生EU
+    S:TileEntity_DESCRIPTION_17032_Index_3=从水库输入加压水
+    S:TileEntity_DESCRIPTION_17032_Index_4=需要在任意位置安装动力仓、输入仓、输出仓和维护仓各一！
+    S:TileEntity_DESCRIPTION_17032_Index_5=每tick最多产生2147483647mB水
+    S:TileEntity_DESCRIPTION_17032_Index_6=效率：55%
+    S:TileEntity_DESCRIPTION_17032_Index_7=请在主方块上使用§9Tec§1Tech§7蓝图，以查看整体结构！
+    S:TileEntity_DESCRIPTION_17032_Index_8=使用红石进行自动化！
     S:TileEntity_DESCRIPTION_1703_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1703_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1703_Index_2=线损/米/安： %s 伏
@@ -7033,7 +6929,7 @@ Energy Hatch: The casings adjoin the field restriction glass.
     S:TileES:TileEntity_Secondary_DESCRIPTION_2105_Index_6=   引擎进气机械方块正前方不得堵塞(只允许空气方块)
     S:TileES:TileEntity_Secondary_DESCRIPTION_2105_Index_7=   动力仓：  背面中央
     S:TileES:TileEntity_Secondary_DESCRIPTION_2105_Index_8=   维护仓：  与齿轮箱相邻的机械方块之一
-    S:TileES:TileEntity_Secondary_DESCRIPTION_2105_Index_9=   消声仓：  顶层正中靠后，与后侧的齿轮箱相邻
+    S:TileES:TileEntity_Secondary_DESCRIPTION_2105_Index_9=   消声仓：  顶层中央靠后，与后侧的齿轮箱相邻
     S:TileES:TileEntity_Secondary_DESCRIPTION_2105_Index_10=   输入仓：  高辛烷值汽油，与齿轮箱相邻的机械方块之一
     S:TileES:TileEntity_Secondary_DESCRIPTION_2105_Index_11=   输入仓：  润滑油，与齿轮箱相邻的机械方块之一
     S:TileES:TileEntity_Secondary_DESCRIPTION_2105_Index_12=   输入仓：  液氧，可选，与齿轮箱相邻的机械方块之一
@@ -7886,7 +7782,7 @@ Energy Hatch: The casings adjoin the field restriction glass.
     S:TileEntity_DESCRIPTION_31015_Index_6=比相同电压的多方块聚变反应堆慢16倍
     S:TileEntity_DESCRIPTION_31015_Index_7=输入/输出仓放置于侧面和底部
     S:TileEntity_DESCRIPTION_31015_Index_8=电源只能插入背面
-    S:TileEntity_DESCRIPTION_31015_Index_9=机器类型:  §e聚变反应堆§r
+    S:TileEntity_DESCRIPTION_31015_Index_9=机器类型: §e聚变反应堆§r
     S:TileEntity_DESCRIPTION_31016_Index_0=§6§6精炼抑制容器§7
     S:TileEntity_DESCRIPTION_31016_Index_1=§6§6容量: §3256000L§7
     S:TileEntity_DESCRIPTION_31016_Index_2=§6§6支持 §489§6 种等离子体§7
@@ -8024,40 +7920,40 @@ Energy Hatch: The casings adjoin the field restriction glass.
     S:TileEntity_DESCRIPTION_315_Index_0=你真的阅读了指导手册的内容吗？
     S:TileEntity_DESCRIPTION_31_Index_0=接受多方块机器生产的能量
     S:TileEntity_DESCRIPTION_31_Index_1=最大输出1安
-#N     S:TileEntity_DESCRIPTION_32001_Index_0=Machine Type: §eChemical Engine§r
-#N     S:TileEntity_DESCRIPTION_32001_Index_1=Controller block for the Chemical Engine
-#N     S:TileEntity_DESCRIPTION_32001_Index_10=The efficiency is up to 150%.
-#N     S:TileEntity_DESCRIPTION_32001_Index_11=The structure is too complex!
-#N     S:TileEntity_DESCRIPTION_32001_Index_12=Follow the§1 Tec§9Tech§7 blueprint to build the main structure.
+    S:TileEntity_DESCRIPTION_32001_Index_0=机器类型: §e化学引擎§r
+    S:TileEntity_DESCRIPTION_32001_Index_1=通用化学燃料引擎的控制器方块
+    S:TileEntity_DESCRIPTION_32001_Index_10=效率高达150%！
+    S:TileEntity_DESCRIPTION_32001_Index_11=结构太复杂了！
+    S:TileEntity_DESCRIPTION_32001_Index_12=请参考§1Tec§9Tech§7蓝图，构建主体结构
     S:TileEntity_DESCRIPTION_32001_Index_13=-----------------------------------------
     S:TileEntity_DESCRIPTION_32001_Index_14=按住 §l[LSHIFT]§r§7 以显示结构指导
-#N     S:TileEntity_DESCRIPTION_32001_Index_15=Added by: §aGood Generator§7
-#N     S:TileEntity_DESCRIPTION_32001_Index_2=BURNING BURNING BURNING
-#N     S:TileEntity_DESCRIPTION_32001_Index_3=Use combustible liquid to generate power.
-#N     S:TileEntity_DESCRIPTION_32001_Index_4=You need to supply Combustion Promoter to keep it running.
-#N     S:TileEntity_DESCRIPTION_32001_Index_5=This engine will consume all the fuel and combustion promoter in the hatch every second.
-#N     S:TileEntity_DESCRIPTION_32001_Index_6=The efficiency is determined by the proportion of Combustion Promoter to fuel.
-#N     S:TileEntity_DESCRIPTION_32001_Index_7=The proportion is bigger, and the efficiency will be higher.
-#N     S:TileEntity_DESCRIPTION_32001_Index_8=It creates sqrt(Current Output Power) pollution every second
-#N     S:TileEntity_DESCRIPTION_32001_Index_9=If you forge to supply Combustion Promoter, this engine will swallow all the fuel §ewithout outputting energy§7.
-Maintenance Hatch: Hint block with dot 1
-Muffler Hatch: Hint block with dot 2
-Input Hatch: Hint block with dot 3
-Dynamo Hatch: Hint block with dot 4
-#N     S:TileEntity_DESCRIPTION_32002_Index_0=Machine Type: §eEssentia Generator§r
-#N     S:TileEntity_DESCRIPTION_32002_Index_1=Controller block for the Large Essentia Generator
-#N     S:TileEntity_DESCRIPTION_32002_Index_2=Maybe some thaumaturages are upset by it. . .
-#N     S:TileEntity_DESCRIPTION_32002_Index_3=Transform essentia into energy!
-#N     S:TileEntity_DESCRIPTION_32002_Index_4=You can find more information about this generator in Thaumonomicon.
-#N     S:TileEntity_DESCRIPTION_32002_Index_5=The structure is too complex!
-#N     S:TileEntity_DESCRIPTION_32002_Index_6=Follow the§1 Tec§9Tech§7 blueprint to build the main structure.
+    S:TileEntity_DESCRIPTION_32001_Index_15=由 §aGood Generator§7添加
+    S:TileEntity_DESCRIPTION_32001_Index_2=燃烧吧！燃烧吧！
+    S:TileEntity_DESCRIPTION_32001_Index_3=使用可燃流体产生能量.
+    S:TileEntity_DESCRIPTION_32001_Index_4=需要提供助燃剂，以使其保持运行.
+    S:TileEntity_DESCRIPTION_32001_Index_5=这台引擎每秒会消耗输入仓内的所有燃料和助燃剂.
+    S:TileEntity_DESCRIPTION_32001_Index_6=效率取决于助燃剂和燃料的比例.
+    S:TileEntity_DESCRIPTION_32001_Index_7=比例越高，效率也越高.
+    S:TileEntity_DESCRIPTION_32001_Index_8=每秒产生的污染=sqrt(当前输出功率)
+    S:TileEntity_DESCRIPTION_32001_Index_9=如果你忘记为其提供助燃剂，它会吞掉所有的燃料§e且不输出能量§7.
+    S:TileEntity_Secondary_DESCRIPTION_32001_Index_0=维护仓：  提示方块：1号
+    S:TileEntity_Secondary_DESCRIPTION_32001_Index_1=消声仓：  提示方块：2号
+    S:TileEntity_Secondary_DESCRIPTION_32001_Index_2=输入仓：  提示方块：3号
+    S:TileEntity_Secondary_DESCRIPTION_32001_Index_3=能源仓：  提示方块：4号
+    S:TileEntity_DESCRIPTION_32002_Index_0=机器类型: §e源质发电机§r
+    S:TileEntity_DESCRIPTION_32002_Index_1=大型源质发电机的控制器方块
+    S:TileEntity_DESCRIPTION_32002_Index_2=可能某些神秘使会对它感到不安...
+    S:TileEntity_DESCRIPTION_32002_Index_3=将源质转化为能量！
+    S:TileEntity_DESCRIPTION_32002_Index_4=你可以在魔导手册中读到更多信息.
+    S:TileEntity_DESCRIPTION_32002_Index_5=结构太复杂了！
+    S:TileEntity_DESCRIPTION_32002_Index_6=请参考§1Tec§9Tech§7蓝图，构建主体结构
     S:TileEntity_DESCRIPTION_32002_Index_7=-----------------------------------------
     S:TileEntity_DESCRIPTION_32002_Index_8=按住 §l[LSHIFT]§r§7 以显示结构指导
-#N     S:TileEntity_DESCRIPTION_32002_Index_9=Added by: §aGood Generator§7
-Maintenance Hatch: Hint block with dot 1
-Input Hatch: Hint block with dot 1
-Dynamo Hatch: Hint block with dot 1
-Essentia Input Hatch: Hint block with dot 1
+    S:TileEntity_DESCRIPTION_32002_Index_9=由 §aGood Generator§7添加
+    S:TileEntity_Secondary_DESCRIPTION_32002_Index_0=维护仓：    提示方块：1号
+    S:TileEntity_Secondary_DESCRIPTION_32002_Index_1=输入仓：    提示方块：1号
+    S:TileEntity_Secondary_DESCRIPTION_32002_Index_2=能源仓：    提示方块：1号
+    S:TileEntity_Secondary_DESCRIPTION_32002_Index_3=源质输入仓：提示方块：1号
     S:TileEntity_DESCRIPTION_321_Index_0=它可以复制书或其他印刷品
     S:TileEntity_DESCRIPTION_322_Index_0=它可以复制书或其他印刷品
     S:TileEntity_DESCRIPTION_323_Index_0=它可以复制书或其他印刷品
@@ -9501,7 +9397,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:TileEntity_DESCRIPTION_812_Index_22=大小(宽x高x长): 内部 3x(H-2)x3, 钒氧化还原能量单元
     S:TileEntity_DESCRIPTION_812_Index_23=阅读'§oPower Storage & You  [Version 0.64]' 以获取更多信息
     S:TileEntity_DESCRIPTION_812_Index_24=1x维护仓
-    S:TileEntity_DESCRIPTION_812_Index_25=机器类型:  §e能量缓存器§r
+    S:TileEntity_DESCRIPTION_812_Index_25=机器类型: §e能量缓存器§r
     S:TileEntity_DESCRIPTION_813_Index_0=将你的葡萄做成葡萄干. 
     S:TileEntity_DESCRIPTION_814_Index_0=宿醉是你的身体对脱水的反应方式. 
     S:TileEntity_DESCRIPTION_815_Index_0=你或许可以用它做太空冰淇淋...
@@ -9608,7 +9504,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:TileEntity_DESCRIPTION_836_Index_11=在GUI插槽中需要一把锯(或电锯)
     S:TileEntity_DESCRIPTION_836_Index_12=结构与普通真空冷冻机一致
     S:TileEntity_DESCRIPTION_836_Index_13=剩余机械方块为无菌农场方块(至少10个!)
-    S:TileEntity_DESCRIPTION_836_Index_14=机器类型:  §e树场§r
+    S:TileEntity_DESCRIPTION_836_Index_14=机器类型: §e树场§r
     S:TileEntity_DESCRIPTION_836_Index_15=每秒造成100污染
     S:TileEntity_DESCRIPTION_836_Index_8=[制作中]禁用
     S:TileEntity_DESCRIPTION_836_Index_9=将EU转化为橡木原木
@@ -9644,7 +9540,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:TileEntity_DESCRIPTION_849_Index_18=每提升一个电压等级，每次运行可以多处理8个配方
     S:TileEntity_DESCRIPTION_849_Index_19=大小(宽x高x长)：3x2x3
     S:TileEntity_DESCRIPTION_849_Index_20=剩余方块为热处理机械方块(至少8个!)
-    S:TileEntity_DESCRIPTION_849_Index_21=噪音危险标志块也算为有效外壳。
+    S:TileEntity_DESCRIPTION_849_Index_21=噪声危险警示方块也算为有效机械方块
     S:TileEntity_DESCRIPTION_849_Index_22=控制器方块(上层正面中央)
     S:TileEntity_DESCRIPTION_849_Index_23=1x输入总线(任意底层机械方块)
     S:TileEntity_DESCRIPTION_849_Index_24=1x输出总线(任意底层机械方块)
@@ -9709,9 +9605,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:TileEntity_DESCRIPTION_860_Index_20=控制器方块(正面中央)
     S:TileEntity_DESCRIPTION_860_Index_21=至少6x多功能机械方块
     S:TileEntity_DESCRIPTION_860_Index_22=阅读大型加工厂手册(Multi-Machine Manual)来获取更多的信息
-    S:TileEntity_DESCRIPTION_860_Index_23=机器类型:  [A]-§e压缩机, 车床, 两极磁化机§r
-    S:TileEntity_DESCRIPTION_860_Index_24=机器类型:  [B]-§e发酵槽, 流体提取机, 提取机§r
-    S:TileEntity_DESCRIPTION_860_Index_25=机器类型:  [C]-§e精密激光蚀刻机, 高压釜, 流体固化器§r
+    S:TileEntity_DESCRIPTION_860_Index_23=机器类型: [A]-§e压缩机, 车床, 两极磁化机§r
+    S:TileEntity_DESCRIPTION_860_Index_24=机器类型: [B]-§e发酵槽, 流体提取机, 提取机§r
+    S:TileEntity_DESCRIPTION_860_Index_25=机器类型: [C]-§e精密激光蚀刻机, 高压釜, 流体固化器§r
     S:TileEntity_DESCRIPTION_860_Index_26=1x消声仓
     S:TileEntity_DESCRIPTION_860_Index_27=1x维护仓
     S:TileEntity_DESCRIPTION_860_Index_28=机器类型: §e九合一§r
@@ -9987,7 +9883,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:TileEntity_DESCRIPTION_910_Index_11=结构与普通真空冷冻机一致
     S:TileEntity_DESCRIPTION_910_Index_12=剩余方块为凛冰冷冻机机械方块(至少10个!)
     S:TileEntity_DESCRIPTION_910_Index_13=1x凛冰流体输入仓(必须)
-    S:TileEntity_DESCRIPTION_910_Index_14=机器类型:  §e真空冷冻机§r
+    S:TileEntity_DESCRIPTION_910_Index_14=机器类型: §e真空冷冻机§r
     S:TileEntity_DESCRIPTION_910_Index_15=每秒造成500污染
     S:TileEntity_DESCRIPTION_910_Index_8=工业级先进真空冷冻机
     S:TileEntity_DESCRIPTION_910_Index_9=速度: 200% | Eu消耗: 100% | 同时处理: 4
@@ -10303,11 +10199,11 @@ Essentia Input Hatch: Hint block with dot 1
     S:TileEntity_DESCRIPTION_963_Index_11=结构与普通工业高炉一致
     S:TileEntity_DESCRIPTION_963_Index_12=剩余方块为炽焱高炉机械方块(至少9个!)
     S:TileEntity_DESCRIPTION_963_Index_13=1x炽焱输入仓(必须)
-    S:TileEntity_DESCRIPTION_963_Index_14=机器类型:  §e工业高炉§r
+    S:TileEntity_DESCRIPTION_963_Index_14=机器类型: §e工业高炉§r
     S:TileEntity_DESCRIPTION_963_Index_15=每秒造成500污染
     S:TileEntity_DESCRIPTION_963_Index_8=工业级先进高炉
     S:TileEntity_DESCRIPTION_963_Index_9=速度: 120% | Eu消耗: 90% | 同时处理: 8
-    S:TileEntity_DESCRIPTION_964_Index_10=机器类型:  §e聚爆压缩机§r
+    S:TileEntity_DESCRIPTION_964_Index_10=机器类型: §e聚爆压缩机§r
     S:TileEntity_DESCRIPTION_964_Index_11=每秒造成5000污染
     S:TileEntity_DESCRIPTION_964_Index_6=工业级先进聚爆压缩机
     S:TileEntity_DESCRIPTION_964_Index_7=速度: 100% | Eu消耗: 100% | 同时处理: ((电压等级/2)+1)
@@ -10430,7 +10326,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:TileEntity_DESCRIPTION_996_Index_29=大小(宽x高x长)：3x3x10, 控制器方块(正面正中)
     S:TileEntity_DESCRIPTION_996_Index_30=3x3x10的涡轮引擎机械方块(中空,至少64个!)
     S:TileEntity_DESCRIPTION_996_Index_31=内部为8x强化镍铬机械方块
-    S:TileEntity_DESCRIPTION_996_Index_32=1x动力仓(顶部中央,最多8个)支持TecTech多A动力仓
+    S:TileEntity_DESCRIPTION_996_Index_32=1x动力仓(顶层中央,最多8个)支持TecTech多A动力仓
     S:TileEntity_DESCRIPTION_996_Index_33=8x进气仓(与齿轮机械方块相邻,可置于顶层)
     S:TileEntity_DESCRIPTION_996_Index_34=3x输入仓(火箭燃料/助燃剂/co2)(非边缘机械方块,不可置于顶层)
     S:TileEntity_DESCRIPTION_996_Index_35=1x输入总线(为进阶消声仓提供空气过滤器)(非边缘机械方块,不可置于顶层)
@@ -10492,7 +10388,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:achievement.item.HeavyDutyAlloyIngotT8.desc=前往T8星球!
     S:bw.blockores.01.1.name=泡铋矿石
     S:bw.blockores.01.10.name=砷黄铁矿石
-#N     S:bw.blockores.01.10023.name=Orundum Ore
+    S:bw.blockores.01.10023.name=合成玉矿石
     S:bw.blockores.01.11.name=钨铁矿石
     S:bw.blockores.01.12.name=斜方砷铁矿石
     S:bw.blockores.01.13.name=硫铟铜矿石
@@ -10529,7 +10425,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:bw.blockores.01.95.name=黄氯汞矿石
     S:bw.blockores.02.1.name=贫瘠泡铋矿石
     S:bw.blockores.02.10.name=贫瘠砷黄铁矿石
-#N     S:bw.blockores.02.10023.name=Small Orundum Ore
+    S:bw.blockores.02.10023.name=贫瘠合成玉矿石
     S:bw.blockores.02.11.name=贫瘠钨铁矿石
     S:bw.blockores.02.12.name=贫瘠斜方砷铁矿石
     S:bw.blockores.02.13.name=贫瘠硫铟铜矿石
@@ -10569,9 +10465,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:bw.recipe.biolab=生物实验室
     S:bw.recipe.cal=电路装配线
     S:bw.werkstoffblocks.01.1.name=泡铋块
-#N     S:bw.werkstoffblocks.01.10022.name=Block of Atomic Separation Catalyst
-#N     S:bw.werkstoffblocks.01.10023.name=Block of Orundum
-#N     S:bw.werkstoffblocks.01.10024.name=Block of Extremely Unstable Naquadah
+    S:bw.werkstoffblocks.01.10022.name=原子分离催化剂块
+    S:bw.werkstoffblocks.01.10023.name=合成玉块
+    S:bw.werkstoffblocks.01.10024.name=极不稳定硅岩块
     S:bw.werkstoffblocks.01.19.name=红锆石块
     S:bw.werkstoffblocks.01.20.name=盐块
     S:bw.werkstoffblocks.01.21.name=锂辉石块
@@ -10621,9 +10517,9 @@ Essentia Input Hatch: Hint block with dot 1
 #N     S:bw.werkstoffblockscasing.01.10019.name=Bolted thorium Tetrachloride Casing
 #N     S:bw.werkstoffblockscasing.01.10020.name=Bolted Thorium Tetrafluoride Casing
 #N     S:bw.werkstoffblockscasing.01.10021.name=Bolted Thorium-232 Tetrafluoride Casing
-#N     S:bw.werkstoffblockscasing.01.10022.name=Bolted Atomic Separation Catalyst Casing
-#N     S:bw.werkstoffblockscasing.01.10023.name=Bolted Orundum Casing
-#N     S:bw.werkstoffblockscasing.01.10024.name=Bolted Extremely Unstable Naquadah Casing
+#N     S:bw.werkstoffblockscasing.01.10022.name=Bolted 原子分离催化剂 Casing
+#N     S:bw.werkstoffblockscasing.01.10023.name=Bolted 合成玉 Casing
+#N     S:bw.werkstoffblockscasing.01.10024.name=Bolted 极不稳定硅岩 Casing
 #N     S:bw.werkstoffblockscasing.01.10025.name=Bolted Light Naquadah Fuel Casing
 #N     S:bw.werkstoffblockscasing.01.10026.name=Bolted Heavy Naquadah Fuel Casing
 #N     S:bw.werkstoffblockscasing.01.10027.name=Bolted Naquadah Gas Casing
@@ -10904,9 +10800,9 @@ Essentia Input Hatch: Hint block with dot 1
 #N     S:bw.werkstoffblockscasingadvanced.01.10019.name=Rebolted thorium Tetrachloride Casing
 #N     S:bw.werkstoffblockscasingadvanced.01.10020.name=Rebolted Thorium Tetrafluoride Casing
 #N     S:bw.werkstoffblockscasingadvanced.01.10021.name=Rebolted Thorium-232 Tetrafluoride Casing
-#N     S:bw.werkstoffblockscasingadvanced.01.10022.name=Rebolted Atomic Separation Catalyst Casing
-#N     S:bw.werkstoffblockscasingadvanced.01.10023.name=Rebolted Orundum Casing
-#N     S:bw.werkstoffblockscasingadvanced.01.10024.name=Rebolted Extremely Unstable Naquadah Casing
+#N     S:bw.werkstoffblockscasingadvanced.01.10022.name=Rebolted 原子分离催化剂 Casing
+#N     S:bw.werkstoffblockscasingadvanced.01.10023.name=Rebolted 合成玉 Casing
+#N     S:bw.werkstoffblockscasingadvanced.01.10024.name=Rebolted 极不稳定硅岩 Casing
 #N     S:bw.werkstoffblockscasingadvanced.01.10025.name=Rebolted Light Naquadah Fuel Casing
 #N     S:bw.werkstoffblockscasingadvanced.01.10026.name=Rebolted Heavy Naquadah Fuel Casing
 #N     S:bw.werkstoffblockscasingadvanced.01.10027.name=Rebolted Naquadah Gas Casing
@@ -11558,11 +11454,11 @@ Essentia Input Hatch: Hint block with dot 1
     S:fluid.moderatelysteamcracked.propane=中度蒸汽裂化的丙烷
     S:fluid.moderatelysteamcracked.propene=中度蒸汽裂化的丙烯
     S:"fluid.molten.Ademic Steel"=熔融硬钢
-#N     S:"fluid.molten.Atomic Separation Catalyst"=Molten Atomic Separation Catalyst
+    S:"fluid.molten.Atomic Separation Catalyst"=熔融原子分离催化剂
     S:fluid.molten.BArTiMaEuSNeK=熔融BArTiMaEuSNeK
     S:fluid.molten.Calcium=熔融钙
     S:fluid.molten.Californium=熔融锎
-#N     S:"fluid.molten.Extremely Unstable Naquadah"=Molten Extremely Unstable Naquadah
+    S:"fluid.molten.Extremely Unstable Naquadah"=熔融极不稳定硅岩
     S:"fluid.molten.High Durability Compound Steel"=熔融高耐久性复合钢
     S:"fluid.molten.Potassium Disulfate"=熔融焦硫酸钾
     S:fluid.molten.Rhodium=熔融铑
@@ -12377,8 +12273,8 @@ Essentia Input Hatch: Hint block with dot 1
     S:for.bees.species.vibrantalloy=脉冲合金
     S:for.bees.species.yellowgarnet=黄石榴石
     S:for.bees.species.zinc=锌
-#N     S:gg.recipe.naquadah_fuel_refine_factory=Naquadah Fuel Refine Factory
-#N     S:gg.recipe.naquadah_reactor=Large Naquadah Reactor
+    S:gg.recipe.naquadah_fuel_refine_factory=硅岩燃料精炼厂
+    S:gg.recipe.naquadah_reactor=大型硅岩反应堆
     S:gt.1080k_Space_Coolantcell.name=1080k空间冷却单元
     S:gt.180k_Helium_Coolantcell.name=180k氦冷却单元
     S:gt.180k_NaK_Coolantcell.name=180k钠钾冷却单元
@@ -14037,7 +13933,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.blockmachines.fluidtank.tier.01.name=低压流体储罐
     S:gt.blockmachines.fluidtank.tier.02.name=中压流体储罐
     S:gt.blockmachines.fluidtank.tier.03.name=高压流体储罐
-#N     S:gt.blockmachines.frf.name=Naquadah Fuel Refinery
+    S:gt.blockmachines.frf.name=硅岩燃料精炼厂
     S:gt.blockmachines.fusioncomputer.tier.06.name=核聚变反应堆控制电脑Mk I
     S:gt.blockmachines.fusioncomputer.tier.07.name=核聚变反应堆控制电脑Mk II
     S:gt.blockmachines.fusioncomputer.tier.08.name=核聚变反应堆控制电脑Mk III
@@ -14981,37 +14877,37 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.blockmachines.hatch.superbus.output.tier.09.name=超级输出总线(MAX)
     S:gt.blockmachines.hatch.turbine.input.tier.00.name=涡轮仓
     S:gt.blockmachines.hatch.turbine.name=转子仓
-#N     S:gt.blockmachines.he_dam.name=Hydro Dam
-#N     S:gt.blockmachines.he_pump_ev.name=Hydro Pump (EV)
-#N     S:gt.blockmachines.he_pump_hv.name=Hydro Pump (HV)
-#N     S:gt.blockmachines.he_pump_iv.name=Hydro Pump (IV)
-#N     S:gt.blockmachines.he_pump_luv.name=Hydro Pump (LuV)
-#N     S:gt.blockmachines.he_pump_lv.name=Hydro Pump (LV)
-#N     S:gt.blockmachines.he_pump_max.name=Hydro Pump (MAX)
-#N     S:gt.blockmachines.he_pump_mv.name=Hydro Pump (MV)
-#N     S:gt.blockmachines.he_pump_opv.name=Hydro Pump (OpV)
-#N     S:gt.blockmachines.he_pump_uev.name=Hydro Pump (UEV)
-#N     S:gt.blockmachines.he_pump_uhv.name=Hydro Pump (UHV)
-#N     S:gt.blockmachines.he_pump_uiv.name=Hydro Pump (UIV)
-#N     S:gt.blockmachines.he_pump_umv.name=Hydro Pump (UMV)
-#N     S:gt.blockmachines.he_pump_uv.name=Hydro Pump (UV)
-#N     S:gt.blockmachines.he_pump_uxv.name=Hydro Pump (UXV)
-#N     S:gt.blockmachines.he_pump_zpm.name=Hydro Pump (ZPM)
-#N     S:gt.blockmachines.he_turbine_ev.name=Hydro Turbine (EV)
-#N     S:gt.blockmachines.he_turbine_hv.name=Hydro Turbine (HV)
-#N     S:gt.blockmachines.he_turbine_iv.name=Hydro Turbine (IV)
-#N     S:gt.blockmachines.he_turbine_luv.name=Hydro Turbine (LuV)
-#N     S:gt.blockmachines.he_turbine_lv.name=Hydro Turbine (LV)
-#N     S:gt.blockmachines.he_turbine_max.name=Hydro Turbine (MAX)
-#N     S:gt.blockmachines.he_turbine_mv.name=Hydro Turbine (MV)
-#N     S:gt.blockmachines.he_turbine_opv.name=Hydro Turbine (OpV)
-#N     S:gt.blockmachines.he_turbine_uev.name=Hydro Turbine (UEV)
-#N     S:gt.blockmachines.he_turbine_uhv.name=Hydro Turbine (UHV)
-#N     S:gt.blockmachines.he_turbine_uiv.name=Hydro Turbine (UIV)
-#N     S:gt.blockmachines.he_turbine_umv.name=Hydro Turbine (UMV)
-#N     S:gt.blockmachines.he_turbine_uv.name=Hydro Turbine (UV)
-#N     S:gt.blockmachines.he_turbine_uxv.name=Hydro Turbine (UXV)
-#N     S:gt.blockmachines.he_turbine_zpm.name=Hydro Turbine (ZPM)
+    S:gt.blockmachines.he_dam.name=水库
+    S:gt.blockmachines.he_pump_ev.name=水泵(EV)
+    S:gt.blockmachines.he_pump_hv.name=水泵(HV)
+    S:gt.blockmachines.he_pump_iv.name=水泵(IV)
+    S:gt.blockmachines.he_pump_luv.name=水泵(LuV)
+    S:gt.blockmachines.he_pump_lv.name=水泵(LV)
+    S:gt.blockmachines.he_pump_max.name=水泵(MAX)
+    S:gt.blockmachines.he_pump_mv.name=水泵(MV)
+    S:gt.blockmachines.he_pump_opv.name=水泵(OpV)
+    S:gt.blockmachines.he_pump_uev.name=水泵(UEV)
+    S:gt.blockmachines.he_pump_uhv.name=水泵(UHV)
+    S:gt.blockmachines.he_pump_uiv.name=水泵(UIV)
+    S:gt.blockmachines.he_pump_umv.name=水泵(UMV)
+    S:gt.blockmachines.he_pump_uv.name=水泵(UV)
+    S:gt.blockmachines.he_pump_uxv.name=水泵(UXV)
+    S:gt.blockmachines.he_pump_zpm.name=水泵(ZPM)
+    S:gt.blockmachines.he_turbine_ev.name=水轮机(EV)
+    S:gt.blockmachines.he_turbine_hv.name=水轮机(HV)
+    S:gt.blockmachines.he_turbine_iv.name=水轮机(IV)
+    S:gt.blockmachines.he_turbine_luv.name=水轮机(LuV)
+    S:gt.blockmachines.he_turbine_lv.name=水轮机(LV)
+    S:gt.blockmachines.he_turbine_max.name=水轮机(MAX)
+    S:gt.blockmachines.he_turbine_mv.name=水轮机(MV)
+    S:gt.blockmachines.he_turbine_opv.name=水轮机(OpV)
+    S:gt.blockmachines.he_turbine_uev.name=水轮机(UEV)
+    S:gt.blockmachines.he_turbine_uhv.name=水轮机(UHV)
+    S:gt.blockmachines.he_turbine_uiv.name=水轮机(UIV)
+    S:gt.blockmachines.he_turbine_umv.name=水轮机(UMV)
+    S:gt.blockmachines.he_turbine_uv.name=水轮机(UV)
+    S:gt.blockmachines.he_turbine_uxv.name=水轮机(UXV)
+    S:gt.blockmachines.he_turbine_zpm.name=水轮机(ZPM)
     S:gt.blockmachines.hpmachine.alloysmelter.name=高压合金炉
     S:gt.blockmachines.hpmachine.compressor.name=高压压缩机
     S:gt.blockmachines.hpmachine.extractor.name=高压提取机
@@ -15199,7 +15095,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.blockmachines.multimachine.tm.teslacoil.name=特斯拉电塔
     S:gt.blockmachines.multimachine.vacuumfreezer.name=真空冷冻机
     S:gt.blockmachines.multitank.controller.tier.single.name=格雷科技大型储罐
-#N     S:gt.blockmachines.nag.name=Large Naquadah Reactor
+    S:gt.blockmachines.nag.name=大型硅岩反应堆
     S:gt.blockmachines.pipe.datastream.name=光缆
     S:gt.blockmachines.pipe.elementalmatter.name=量子隧道
     S:gt.blockmachines.pipe.energystream.name=激光真空管
@@ -15303,7 +15199,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.blockmachines.transformer.tier.14.name=OpV变压器
     S:gt.blockmachines.treefarm.controller.tier.single.name=树场
     S:gt.blockmachines.treefarmer.structural.name=树场的结构方块
-#N     S:gt.blockmachines.universalchemicalfuelengine.name=Universal Chemical Fuel Engine
+    S:gt.blockmachines.universalchemicalfuelengine.name=通用化学燃料引擎
     S:gt.blockmachines.voidminer1.name=虚空采矿场 I
     S:gt.blockmachines.voidminer2.name=虚空采矿场 II
     S:gt.blockmachines.voidminer3.name=虚空采矿场 III
@@ -25076,9 +24972,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedItem0.9.name=精英磁共振电路
     S:gt.bwMetaGeneratedItem0.9.tooltip=
     S:gt.bwMetaGeneratedItem0.name=Generated Item
-#N     S:gt.bwMetaGeneratedbolt.10022.name=Atomic Separation Catalyst Bolt
-#N     S:gt.bwMetaGeneratedbolt.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedbolt.10024.name=Extremely Unstable Naquadah Bolt
+    S:gt.bwMetaGeneratedbolt.10022.name=原子分离催化剂螺栓
+#N     S:gt.bwMetaGeneratedbolt.10022.tooltip=熔核...
+    S:gt.bwMetaGeneratedbolt.10024.name=极不稳定硅岩螺栓
 #N     S:gt.bwMetaGeneratedbolt.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedbolt.88.name=镀铑钯螺栓
     S:gt.bwMetaGeneratedbolt.88.tooltip=Pd₃Rh
@@ -25260,9 +25156,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedcapsule.86.name=铑滤饼溶液胶囊
     S:gt.bwMetaGeneratedcapsule.86.tooltip=
     S:gt.bwMetaGeneratedcapsule.name=Generated Item
-#N     S:gt.bwMetaGeneratedcapsuleMolten.10022.name=Molten Atomic Separation Catalyst Capsule
-#N     S:gt.bwMetaGeneratedcapsuleMolten.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedcapsuleMolten.10024.name=Molten Extremely Unstable Naquadah Capsule
+    S:gt.bwMetaGeneratedcapsuleMolten.10022.name=熔融原子分离催化剂胶囊
+#N     S:gt.bwMetaGeneratedcapsuleMolten.10022.tooltip=熔核...
+    S:gt.bwMetaGeneratedcapsuleMolten.10024.name=熔融极不稳定硅岩胶囊
 #N     S:gt.bwMetaGeneratedcapsuleMolten.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedcapsuleMolten.39.name=熔融锎胶囊
     S:gt.bwMetaGeneratedcapsuleMolten.39.tooltip=Cf
@@ -25454,9 +25350,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedcell.86.name=铑滤饼溶液单元
     S:gt.bwMetaGeneratedcell.86.tooltip=
     S:gt.bwMetaGeneratedcell.name=Generated Item
-#N     S:gt.bwMetaGeneratedcellMolten.10022.name=Molten Atomic Separation Catalyst Cell
-#N     S:gt.bwMetaGeneratedcellMolten.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedcellMolten.10024.name=Molten Extremely Unstable Naquadah Cell
+    S:gt.bwMetaGeneratedcellMolten.10022.name=熔融原子分离催化剂单元
+#N     S:gt.bwMetaGeneratedcellMolten.10022.tooltip=熔核...
+    S:gt.bwMetaGeneratedcellMolten.10024.name=熔融极不稳定硅岩单元
 #N     S:gt.bwMetaGeneratedcellMolten.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedcellMolten.39.name=熔融锎单元
     S:gt.bwMetaGeneratedcellMolten.39.tooltip=Cf
@@ -25483,7 +25379,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedcrushed.1.tooltip=Bi₂O₂(CO₂)₂
     S:gt.bwMetaGeneratedcrushed.10.name=粉碎的砷黄铁矿石
     S:gt.bwMetaGeneratedcrushed.10.tooltip=FeAsS
-#N     S:gt.bwMetaGeneratedcrushed.10023.name=Crushed Orundum Ore
+    S:gt.bwMetaGeneratedcrushed.10023.name=粉碎的合成玉矿石
 #N     S:gt.bwMetaGeneratedcrushed.10023.tooltip=Or
     S:gt.bwMetaGeneratedcrushed.11.name=粉碎的钨铁矿石
     S:gt.bwMetaGeneratedcrushed.11.tooltip=FeWO₃
@@ -25558,7 +25454,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedcrushedCentrifuged.1.tooltip=Bi₂O₂(CO₂)₂
     S:gt.bwMetaGeneratedcrushedCentrifuged.10.name=离心砷黄铁矿石
     S:gt.bwMetaGeneratedcrushedCentrifuged.10.tooltip=FeAsS
-#N     S:gt.bwMetaGeneratedcrushedCentrifuged.10023.name=Centrifuged Orundum Ore
+    S:gt.bwMetaGeneratedcrushedCentrifuged.10023.name=离心合成玉矿石
 #N     S:gt.bwMetaGeneratedcrushedCentrifuged.10023.tooltip=Or
     S:gt.bwMetaGeneratedcrushedCentrifuged.11.name=离心钨铁矿石
     S:gt.bwMetaGeneratedcrushedCentrifuged.11.tooltip=FeWO₃
@@ -25633,7 +25529,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedcrushedPurified.1.tooltip=Bi₂O₂(CO₂)₂
     S:gt.bwMetaGeneratedcrushedPurified.10.name=洗净的砷黄铁矿石
     S:gt.bwMetaGeneratedcrushedPurified.10.tooltip=FeAsS
-#N     S:gt.bwMetaGeneratedcrushedPurified.10023.name=Purified Orundum Ore
+    S:gt.bwMetaGeneratedcrushedPurified.10023.name=洗净的合成玉矿石
 #N     S:gt.bwMetaGeneratedcrushedPurified.10023.tooltip=Or
     S:gt.bwMetaGeneratedcrushedPurified.11.name=洗净的钨铁矿石
     S:gt.bwMetaGeneratedcrushedPurified.11.tooltip=FeWO₃
@@ -25722,11 +25618,11 @@ Essentia Input Hatch: Hint block with dot 1
 #N     S:gt.bwMetaGenerateddust.10017.tooltip=Th(OH)₄
 #N     S:gt.bwMetaGenerateddust.10018.name=Sodium Oxalate Dust
 #N     S:gt.bwMetaGenerateddust.10018.tooltip=Na₂C₂O₄
-#N     S:gt.bwMetaGenerateddust.10022.name=Atomic Separation Catalyst Dust
-#N     S:gt.bwMetaGenerateddust.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGenerateddust.10023.name=Orundum Dust
+#N     S:gt.bwMetaGenerateddust.10022.name=原子分离催化剂 Dust
+#N     S:gt.bwMetaGenerateddust.10022.tooltip=熔核...
+#N     S:gt.bwMetaGenerateddust.10023.name=合成玉 Dust
 #N     S:gt.bwMetaGenerateddust.10023.tooltip=Or
-#N     S:gt.bwMetaGenerateddust.10024.name=Extremely Unstable Naquadah Dust
+#N     S:gt.bwMetaGenerateddust.10024.name=极不稳定硅岩 Dust
 #N     S:gt.bwMetaGenerateddust.10024.tooltip=Nq☆
 #N     S:gt.bwMetaGenerateddust.10035.name=Radioactive Sludge Dust
 #N     S:gt.bwMetaGenerateddust.10035.tooltip=>>> DANGER <<<
@@ -25893,7 +25789,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGenerateddustImpure.1.tooltip=Bi₂O₂(CO₂)₂
     S:gt.bwMetaGenerateddustImpure.10.name=含杂砷黄铁粉
     S:gt.bwMetaGenerateddustImpure.10.tooltip=FeAsS
-#N     S:gt.bwMetaGenerateddustImpure.10023.name=Impure Pile of Orundum Dust
+#N     S:gt.bwMetaGenerateddustImpure.10023.name=Impure Pile of 合成玉 Dust
 #N     S:gt.bwMetaGenerateddustImpure.10023.tooltip=Or
     S:gt.bwMetaGenerateddustImpure.11.name=含杂钨铁粉
     S:gt.bwMetaGenerateddustImpure.11.tooltip=FeWO₃
@@ -25968,7 +25864,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGenerateddustPure.1.tooltip=Bi₂O₂(CO₂)₂
     S:gt.bwMetaGenerateddustPure.10.name=洁净砷黄铁粉
     S:gt.bwMetaGenerateddustPure.10.tooltip=FeAsS
-#N     S:gt.bwMetaGenerateddustPure.10023.name=Purified Pile of Orundum Dust
+#N     S:gt.bwMetaGenerateddustPure.10023.name=Purified Pile of 合成玉 Dust
 #N     S:gt.bwMetaGenerateddustPure.10023.tooltip=Or
     S:gt.bwMetaGenerateddustPure.11.name=洁净钨铁粉
     S:gt.bwMetaGenerateddustPure.11.tooltip=FeWO₃
@@ -26057,11 +25953,11 @@ Essentia Input Hatch: Hint block with dot 1
 #N     S:gt.bwMetaGenerateddustSmall.10017.tooltip=Th(OH)₄
 #N     S:gt.bwMetaGenerateddustSmall.10018.name=Small Pile of Sodium Oxalate Dust
 #N     S:gt.bwMetaGenerateddustSmall.10018.tooltip=Na₂C₂O₄
-#N     S:gt.bwMetaGenerateddustSmall.10022.name=Small Pile of Atomic Separation Catalyst Dust
-#N     S:gt.bwMetaGenerateddustSmall.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGenerateddustSmall.10023.name=Small Pile of Orundum Dust
+#N     S:gt.bwMetaGenerateddustSmall.10022.name=Small Pile of 原子分离催化剂 Dust
+#N     S:gt.bwMetaGenerateddustSmall.10022.tooltip=熔核...
+#N     S:gt.bwMetaGenerateddustSmall.10023.name=Small Pile of 合成玉 Dust
 #N     S:gt.bwMetaGenerateddustSmall.10023.tooltip=Or
-#N     S:gt.bwMetaGenerateddustSmall.10024.name=Small Pile of Extremely Unstable Naquadah Dust
+#N     S:gt.bwMetaGenerateddustSmall.10024.name=Small Pile of 极不稳定硅岩 Dust
 #N     S:gt.bwMetaGenerateddustSmall.10024.tooltip=Nq☆
 #N     S:gt.bwMetaGenerateddustSmall.10035.name=Small Pile of Radioactive Sludge Dust
 #N     S:gt.bwMetaGenerateddustSmall.10035.tooltip=>>> DANGER <<<
@@ -26242,11 +26138,11 @@ Essentia Input Hatch: Hint block with dot 1
 #N     S:gt.bwMetaGenerateddustTiny.10017.tooltip=Th(OH)₄
 #N     S:gt.bwMetaGenerateddustTiny.10018.name=Tiny Pile of Sodium Oxalate Dust
 #N     S:gt.bwMetaGenerateddustTiny.10018.tooltip=Na₂C₂O₄
-#N     S:gt.bwMetaGenerateddustTiny.10022.name=Tiny Pile of Atomic Separation Catalyst Dust
-#N     S:gt.bwMetaGenerateddustTiny.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGenerateddustTiny.10023.name=Tiny Pile of Orundum Dust
+#N     S:gt.bwMetaGenerateddustTiny.10022.name=Tiny Pile of 原子分离催化剂 Dust
+#N     S:gt.bwMetaGenerateddustTiny.10022.tooltip=熔核...
+#N     S:gt.bwMetaGenerateddustTiny.10023.name=Tiny Pile of 合成玉 Dust
 #N     S:gt.bwMetaGenerateddustTiny.10023.tooltip=Or
-#N     S:gt.bwMetaGenerateddustTiny.10024.name=Tiny Pile of Extremely Unstable Naquadah Dust
+#N     S:gt.bwMetaGenerateddustTiny.10024.name=Tiny Pile of 极不稳定硅岩 Dust
 #N     S:gt.bwMetaGenerateddustTiny.10024.tooltip=Nq☆
 #N     S:gt.bwMetaGenerateddustTiny.10035.name=Tiny Pile of Radioactive Sludge Dust
 #N     S:gt.bwMetaGenerateddustTiny.10035.tooltip=>>> DANGER <<<
@@ -26409,9 +26305,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGenerateddustTiny.97.name=小撮粗制硬钢粉
     S:gt.bwMetaGenerateddustTiny.97.tooltip=(Fe₅₀C)₂VCr(Fe₅₀C)₇Fe₅₀C
     S:gt.bwMetaGenerateddustTiny.name=Generated Item
-#N     S:gt.bwMetaGeneratedgearGt.10022.name=Atomic Separation Catalyst Gear
-#N     S:gt.bwMetaGeneratedgearGt.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedgearGt.10024.name=Extremely Unstable Naquadah Gear
+#N     S:gt.bwMetaGeneratedgearGt.10022.name=原子分离催化剂 Gear
+#N     S:gt.bwMetaGeneratedgearGt.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedgearGt.10024.name=极不稳定硅岩 Gear
 #N     S:gt.bwMetaGeneratedgearGt.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedgearGt.88.name=镀铑钯齿轮
     S:gt.bwMetaGeneratedgearGt.88.tooltip=Pd₃Rh
@@ -26424,9 +26320,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedgearGt.96.name=硬钢齿轮
     S:gt.bwMetaGeneratedgearGt.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedgearGt.name=Generated Item
-#N     S:gt.bwMetaGeneratedgearGtSmall.10022.name=Small Atomic Separation Catalyst Gear
-#N     S:gt.bwMetaGeneratedgearGtSmall.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedgearGtSmall.10024.name=Small Extremely Unstable Naquadah Gear
+#N     S:gt.bwMetaGeneratedgearGtSmall.10022.name=Small 原子分离催化剂 Gear
+#N     S:gt.bwMetaGeneratedgearGtSmall.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedgearGtSmall.10024.name=Small 极不稳定硅岩 Gear
 #N     S:gt.bwMetaGeneratedgearGtSmall.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedgearGtSmall.88.name=小型镀铑钯齿轮
     S:gt.bwMetaGeneratedgearGtSmall.88.tooltip=Pd₃Rh
@@ -26441,7 +26337,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedgearGtSmall.name=Generated Item
     S:gt.bwMetaGeneratedgem.1.name=泡铋
     S:gt.bwMetaGeneratedgem.1.tooltip=Bi₂O₂(CO₂)₂
-#N     S:gt.bwMetaGeneratedgem.10023.name=Orundum
+#N     S:gt.bwMetaGeneratedgem.10023.name=合成玉
 #N     S:gt.bwMetaGeneratedgem.10023.tooltip=Or
     S:gt.bwMetaGeneratedgem.19.name=红锆石
     S:gt.bwMetaGeneratedgem.19.tooltip=ZrSiO₄
@@ -26480,7 +26376,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedgem.name=Generated Item
     S:gt.bwMetaGeneratedgemChipped.1.name=破碎的泡铋
     S:gt.bwMetaGeneratedgemChipped.1.tooltip=Bi₂O₂(CO₂)₂
-#N     S:gt.bwMetaGeneratedgemChipped.10023.name=Chipped Orundum
+#N     S:gt.bwMetaGeneratedgemChipped.10023.name=Chipped 合成玉
 #N     S:gt.bwMetaGeneratedgemChipped.10023.tooltip=Or
     S:gt.bwMetaGeneratedgemChipped.19.name=破碎的红锆石
     S:gt.bwMetaGeneratedgemChipped.19.tooltip=ZrSiO₄
@@ -26519,7 +26415,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedgemChipped.name=Generated Item
     S:gt.bwMetaGeneratedgemExquisite.1.name=精致的泡铋
     S:gt.bwMetaGeneratedgemExquisite.1.tooltip=Bi₂O₂(CO₂)₂
-#N     S:gt.bwMetaGeneratedgemExquisite.10023.name=Exquisite Orundum
+#N     S:gt.bwMetaGeneratedgemExquisite.10023.name=Exquisite 合成玉
 #N     S:gt.bwMetaGeneratedgemExquisite.10023.tooltip=Or
     S:gt.bwMetaGeneratedgemExquisite.19.name=精致的红锆石
     S:gt.bwMetaGeneratedgemExquisite.19.tooltip=ZrSiO₄
@@ -26558,7 +26454,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedgemExquisite.name=Generated Item
     S:gt.bwMetaGeneratedgemFlawed.1.name=有瑕的泡铋
     S:gt.bwMetaGeneratedgemFlawed.1.tooltip=Bi₂O₂(CO₂)₂
-#N     S:gt.bwMetaGeneratedgemFlawed.10023.name=Flawed Orundum
+#N     S:gt.bwMetaGeneratedgemFlawed.10023.name=Flawed 合成玉
 #N     S:gt.bwMetaGeneratedgemFlawed.10023.tooltip=Or
     S:gt.bwMetaGeneratedgemFlawed.19.name=有瑕的红锆石
     S:gt.bwMetaGeneratedgemFlawed.19.tooltip=ZrSiO₄
@@ -26597,7 +26493,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedgemFlawed.name=Generated Item
     S:gt.bwMetaGeneratedgemFlawless.1.name=无瑕的泡铋
     S:gt.bwMetaGeneratedgemFlawless.1.tooltip=Bi₂O₂(CO₂)₂
-#N     S:gt.bwMetaGeneratedgemFlawless.10023.name=Flawless Orundum
+#N     S:gt.bwMetaGeneratedgemFlawless.10023.name=Flawless 合成玉
 #N     S:gt.bwMetaGeneratedgemFlawless.10023.tooltip=Or
     S:gt.bwMetaGeneratedgemFlawless.19.name=无瑕的红锆石
     S:gt.bwMetaGeneratedgemFlawless.19.tooltip=ZrSiO₄
@@ -26634,9 +26530,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedgemFlawless.91.name=无瑕的氟石
     S:gt.bwMetaGeneratedgemFlawless.91.tooltip=CaF₂
     S:gt.bwMetaGeneratedgemFlawless.name=Generated Item
-#N     S:gt.bwMetaGeneratedingot.10022.name=Atomic Separation Catalyst Ingot
-#N     S:gt.bwMetaGeneratedingot.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedingot.10024.name=Extremely Unstable Naquadah Ingot
+#N     S:gt.bwMetaGeneratedingot.10022.name=原子分离催化剂 Ingot
+#N     S:gt.bwMetaGeneratedingot.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedingot.10024.name=极不稳定硅岩 Ingot
 #N     S:gt.bwMetaGeneratedingot.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedingot.39.name=锎锭
     S:gt.bwMetaGeneratedingot.39.tooltip=Cf
@@ -26657,9 +26553,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedingot.96.name=硬钢锭
     S:gt.bwMetaGeneratedingot.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedingot.name=Generated Item
-#N     S:gt.bwMetaGeneratedingotDouble.10022.name=Double Atomic Separation Catalyst Ingot
-#N     S:gt.bwMetaGeneratedingotDouble.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedingotDouble.10024.name=Double Extremely Unstable Naquadah Ingot
+#N     S:gt.bwMetaGeneratedingotDouble.10022.name=Double 原子分离催化剂 Ingot
+#N     S:gt.bwMetaGeneratedingotDouble.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedingotDouble.10024.name=Double 极不稳定硅岩 Ingot
 #N     S:gt.bwMetaGeneratedingotDouble.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedingotDouble.88.name=双重镀铑钯锭
     S:gt.bwMetaGeneratedingotDouble.88.tooltip=Pd₃Rh
@@ -26670,9 +26566,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedingotDouble.96.name=双重硬钢锭
     S:gt.bwMetaGeneratedingotDouble.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedingotDouble.name=Generated Item
-#N     S:gt.bwMetaGeneratedingotHot.10022.name=Hot Atomic Separation Catalyst Ingot
-#N     S:gt.bwMetaGeneratedingotHot.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedingotHot.10024.name=Hot Extremely Unstable Naquadah Ingot
+#N     S:gt.bwMetaGeneratedingotHot.10022.name=Hot 原子分离催化剂 Ingot
+#N     S:gt.bwMetaGeneratedingotHot.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedingotHot.10024.name=Hot 极不稳定硅岩 Ingot
 #N     S:gt.bwMetaGeneratedingotHot.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedingotHot.39.name=热锎锭
     S:gt.bwMetaGeneratedingotHot.39.tooltip=Cf
@@ -26693,9 +26589,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedingotHot.96.name=热硬钢锭
     S:gt.bwMetaGeneratedingotHot.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedingotHot.name=Generated Item
-#N     S:gt.bwMetaGeneratedingotQuadruple.10022.name=Quadruple Atomic Separation Catalyst Ingot
-#N     S:gt.bwMetaGeneratedingotQuadruple.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedingotQuadruple.10024.name=Quadruple Extremely Unstable Naquadah Ingot
+#N     S:gt.bwMetaGeneratedingotQuadruple.10022.name=Quadruple 原子分离催化剂 Ingot
+#N     S:gt.bwMetaGeneratedingotQuadruple.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedingotQuadruple.10024.name=Quadruple 极不稳定硅岩 Ingot
 #N     S:gt.bwMetaGeneratedingotQuadruple.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedingotQuadruple.88.name=四重镀铑钯锭
     S:gt.bwMetaGeneratedingotQuadruple.88.tooltip=Pd₃Rh
@@ -26706,9 +26602,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedingotQuadruple.96.name=四重硬钢锭
     S:gt.bwMetaGeneratedingotQuadruple.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedingotQuadruple.name=Generated Item
-#N     S:gt.bwMetaGeneratedingotQuintuple.10022.name=Quintuple Atomic Separation Catalyst Ingot
-#N     S:gt.bwMetaGeneratedingotQuintuple.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedingotQuintuple.10024.name=Quintuple Extremely Unstable Naquadah Ingot
+#N     S:gt.bwMetaGeneratedingotQuintuple.10022.name=Quintuple 原子分离催化剂 Ingot
+#N     S:gt.bwMetaGeneratedingotQuintuple.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedingotQuintuple.10024.name=Quintuple 极不稳定硅岩 Ingot
 #N     S:gt.bwMetaGeneratedingotQuintuple.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedingotQuintuple.88.name=五重镀铑钯锭
     S:gt.bwMetaGeneratedingotQuintuple.88.tooltip=Pd₃Rh
@@ -26719,9 +26615,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedingotQuintuple.96.name=五重硬钢锭
     S:gt.bwMetaGeneratedingotQuintuple.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedingotQuintuple.name=Generated Item
-#N     S:gt.bwMetaGeneratedingotTriple.10022.name=Triple Atomic Separation Catalyst Ingot
-#N     S:gt.bwMetaGeneratedingotTriple.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedingotTriple.10024.name=Triple Extremely Unstable Naquadah Ingot
+#N     S:gt.bwMetaGeneratedingotTriple.10022.name=Triple 原子分离催化剂 Ingot
+#N     S:gt.bwMetaGeneratedingotTriple.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedingotTriple.10024.name=Triple 极不稳定硅岩 Ingot
 #N     S:gt.bwMetaGeneratedingotTriple.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedingotTriple.88.name=三重镀铑钯锭
     S:gt.bwMetaGeneratedingotTriple.88.tooltip=Pd₃Rh
@@ -26734,7 +26630,7 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedingotTriple.name=Generated Item
     S:gt.bwMetaGeneratedlens.1.name=泡铋透镜
     S:gt.bwMetaGeneratedlens.1.tooltip=Bi₂O₂(CO₂)₂
-#N     S:gt.bwMetaGeneratedlens.10023.name=Orundum Lens
+#N     S:gt.bwMetaGeneratedlens.10023.name=合成玉 Lens
 #N     S:gt.bwMetaGeneratedlens.10023.tooltip=Or
     S:gt.bwMetaGeneratedlens.19.name=红锆石透镜
     S:gt.bwMetaGeneratedlens.19.tooltip=ZrSiO₄
@@ -26771,9 +26667,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedlens.91.name=氟石透镜
     S:gt.bwMetaGeneratedlens.91.tooltip=CaF₂
     S:gt.bwMetaGeneratedlens.name=Generated Item
-#N     S:gt.bwMetaGeneratednugget.10022.name=Atomic Separation Catalyst Nugget
-#N     S:gt.bwMetaGeneratednugget.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratednugget.10024.name=Extremely Unstable Naquadah Nugget
+#N     S:gt.bwMetaGeneratednugget.10022.name=原子分离催化剂 Nugget
+#N     S:gt.bwMetaGeneratednugget.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratednugget.10024.name=极不稳定硅岩 Nugget
 #N     S:gt.bwMetaGeneratednugget.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratednugget.39.name=锎粒
     S:gt.bwMetaGeneratednugget.39.tooltip=Cf
@@ -26796,11 +26692,11 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratednugget.name=Generated Item
     S:gt.bwMetaGeneratedplate.1.name=泡铋板
     S:gt.bwMetaGeneratedplate.1.tooltip=Bi₂O₂(CO₂)₂
-#N     S:gt.bwMetaGeneratedplate.10022.name=Atomic Separation Catalyst Plate
-#N     S:gt.bwMetaGeneratedplate.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedplate.10023.name=Orundum Plate
+#N     S:gt.bwMetaGeneratedplate.10022.name=原子分离催化剂 Plate
+#N     S:gt.bwMetaGeneratedplate.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedplate.10023.name=合成玉 Plate
 #N     S:gt.bwMetaGeneratedplate.10023.tooltip=Or
-#N     S:gt.bwMetaGeneratedplate.10024.name=Extremely Unstable Naquadah Plate
+#N     S:gt.bwMetaGeneratedplate.10024.name=极不稳定硅岩 Plate
 #N     S:gt.bwMetaGeneratedplate.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedplate.19.name=红锆石板
     S:gt.bwMetaGeneratedplate.19.tooltip=ZrSiO₄
@@ -26853,9 +26749,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedplate.96.name=硬钢板
     S:gt.bwMetaGeneratedplate.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedplate.name=Generated Item
-#N     S:gt.bwMetaGeneratedplateDense.10022.name=Dense Atomic Separation Catalyst Plate
-#N     S:gt.bwMetaGeneratedplateDense.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedplateDense.10024.name=Dense Extremely Unstable Naquadah Plate
+#N     S:gt.bwMetaGeneratedplateDense.10022.name=Dense 原子分离催化剂 Plate
+#N     S:gt.bwMetaGeneratedplateDense.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedplateDense.10024.name=Dense 极不稳定硅岩 Plate
 #N     S:gt.bwMetaGeneratedplateDense.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedplateDense.88.name=致密镀铑钯板
     S:gt.bwMetaGeneratedplateDense.88.tooltip=Pd₃Rh
@@ -26866,9 +26762,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedplateDense.96.name=致密硬钢板
     S:gt.bwMetaGeneratedplateDense.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedplateDense.name=Generated Item
-#N     S:gt.bwMetaGeneratedplateDouble.10022.name=Double Atomic Separation Catalyst Plate
-#N     S:gt.bwMetaGeneratedplateDouble.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedplateDouble.10024.name=Double Extremely Unstable Naquadah Plate
+#N     S:gt.bwMetaGeneratedplateDouble.10022.name=Double 原子分离催化剂 Plate
+#N     S:gt.bwMetaGeneratedplateDouble.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedplateDouble.10024.name=Double 极不稳定硅岩 Plate
 #N     S:gt.bwMetaGeneratedplateDouble.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedplateDouble.88.name=双重镀铑钯板
     S:gt.bwMetaGeneratedplateDouble.88.tooltip=Pd₃Rh
@@ -26879,9 +26775,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedplateDouble.96.name=双重硬钢板
     S:gt.bwMetaGeneratedplateDouble.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedplateDouble.name=Generated Item
-#N     S:gt.bwMetaGeneratedplateQuadruple.10022.name=Quadruple Atomic Separation Catalyst Plate
-#N     S:gt.bwMetaGeneratedplateQuadruple.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedplateQuadruple.10024.name=Quadruple Extremely Unstable Naquadah Plate
+#N     S:gt.bwMetaGeneratedplateQuadruple.10022.name=Quadruple 原子分离催化剂 Plate
+#N     S:gt.bwMetaGeneratedplateQuadruple.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedplateQuadruple.10024.name=Quadruple 极不稳定硅岩 Plate
 #N     S:gt.bwMetaGeneratedplateQuadruple.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedplateQuadruple.88.name=四重镀铑钯板
     S:gt.bwMetaGeneratedplateQuadruple.88.tooltip=Pd₃Rh
@@ -26892,9 +26788,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedplateQuadruple.96.name=四重硬钢板
     S:gt.bwMetaGeneratedplateQuadruple.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedplateQuadruple.name=Generated Item
-#N     S:gt.bwMetaGeneratedplateQuintuple.10022.name=Quintuple Atomic Separation Catalyst Plate
-#N     S:gt.bwMetaGeneratedplateQuintuple.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedplateQuintuple.10024.name=Quintuple Extremely Unstable Naquadah Plate
+#N     S:gt.bwMetaGeneratedplateQuintuple.10022.name=Quintuple 原子分离催化剂 Plate
+#N     S:gt.bwMetaGeneratedplateQuintuple.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedplateQuintuple.10024.name=Quintuple 极不稳定硅岩 Plate
 #N     S:gt.bwMetaGeneratedplateQuintuple.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedplateQuintuple.88.name=五重镀铑钯板
     S:gt.bwMetaGeneratedplateQuintuple.88.tooltip=Pd₃Rh
@@ -26905,9 +26801,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedplateQuintuple.96.name=五重硬钢板
     S:gt.bwMetaGeneratedplateQuintuple.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedplateQuintuple.name=Generated Item
-#N     S:gt.bwMetaGeneratedplateTriple.10022.name=Triple Atomic Separation Catalyst Plate
-#N     S:gt.bwMetaGeneratedplateTriple.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedplateTriple.10024.name=Triple Extremely Unstable Naquadah Plate
+#N     S:gt.bwMetaGeneratedplateTriple.10022.name=Triple 原子分离催化剂 Plate
+#N     S:gt.bwMetaGeneratedplateTriple.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedplateTriple.10024.name=Triple 极不稳定硅岩 Plate
 #N     S:gt.bwMetaGeneratedplateTriple.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedplateTriple.88.name=三重镀铑钯板
     S:gt.bwMetaGeneratedplateTriple.88.tooltip=Pd₃Rh
@@ -26918,9 +26814,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedplateTriple.96.name=三重硬钢板
     S:gt.bwMetaGeneratedplateTriple.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedplateTriple.name=Generated Item
-#N     S:gt.bwMetaGeneratedring.10022.name=Atomic Separation Catalyst Ring
-#N     S:gt.bwMetaGeneratedring.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedring.10024.name=Extremely Unstable Naquadah Ring
+#N     S:gt.bwMetaGeneratedring.10022.name=原子分离催化剂 Ring
+#N     S:gt.bwMetaGeneratedring.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedring.10024.name=极不稳定硅岩 Ring
 #N     S:gt.bwMetaGeneratedring.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedring.88.name=镀铑钯环
     S:gt.bwMetaGeneratedring.88.tooltip=Pd₃Rh
@@ -26933,9 +26829,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedring.96.name=硬钢环
     S:gt.bwMetaGeneratedring.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedring.name=Generated Item
-#N     S:gt.bwMetaGeneratedrotor.10022.name=Atomic Separation Catalyst Rotor
-#N     S:gt.bwMetaGeneratedrotor.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedrotor.10024.name=Extremely Unstable Naquadah Rotor
+#N     S:gt.bwMetaGeneratedrotor.10022.name=原子分离催化剂 Rotor
+#N     S:gt.bwMetaGeneratedrotor.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedrotor.10024.name=极不稳定硅岩 Rotor
 #N     S:gt.bwMetaGeneratedrotor.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedrotor.88.name=镀铑钯转子
     S:gt.bwMetaGeneratedrotor.88.tooltip=Pd₃Rh
@@ -26948,9 +26844,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedrotor.96.name=硬钢转子
     S:gt.bwMetaGeneratedrotor.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedrotor.name=Generated Item
-#N     S:gt.bwMetaGeneratedscrew.10022.name=Atomic Separation Catalyst Screw
-#N     S:gt.bwMetaGeneratedscrew.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedscrew.10024.name=Extremely Unstable Naquadah Screw
+#N     S:gt.bwMetaGeneratedscrew.10022.name=原子分离催化剂 Screw
+#N     S:gt.bwMetaGeneratedscrew.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedscrew.10024.name=极不稳定硅岩 Screw
 #N     S:gt.bwMetaGeneratedscrew.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedscrew.88.name=镀铑钯螺丝
     S:gt.bwMetaGeneratedscrew.88.tooltip=Pd₃Rh
@@ -26963,9 +26859,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedscrew.96.name=硬钢螺丝
     S:gt.bwMetaGeneratedscrew.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedscrew.name=Generated Item
-#N     S:gt.bwMetaGeneratedspring.10022.name=Atomic Separation Catalyst Spring
-#N     S:gt.bwMetaGeneratedspring.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedspring.10024.name=Extremely Unstable Naquadah Spring
+#N     S:gt.bwMetaGeneratedspring.10022.name=原子分离催化剂 Spring
+#N     S:gt.bwMetaGeneratedspring.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedspring.10024.name=极不稳定硅岩 Spring
 #N     S:gt.bwMetaGeneratedspring.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedspring.88.name=镀铑钯弹簧
     S:gt.bwMetaGeneratedspring.88.tooltip=Pd₃Rh
@@ -26978,9 +26874,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedspring.96.name=硬钢弹簧
     S:gt.bwMetaGeneratedspring.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedspring.name=Generated Item
-#N     S:gt.bwMetaGeneratedspringSmall.10022.name=Small Atomic Separation Catalyst Spring
-#N     S:gt.bwMetaGeneratedspringSmall.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedspringSmall.10024.name=Small Extremely Unstable Naquadah Spring
+#N     S:gt.bwMetaGeneratedspringSmall.10022.name=Small 原子分离催化剂 Spring
+#N     S:gt.bwMetaGeneratedspringSmall.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedspringSmall.10024.name=Small 极不稳定硅岩 Spring
 #N     S:gt.bwMetaGeneratedspringSmall.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedspringSmall.88.name=小型镀铑钯弹簧
     S:gt.bwMetaGeneratedspringSmall.88.tooltip=Pd₃Rh
@@ -26995,11 +26891,11 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedspringSmall.name=Generated Item
     S:gt.bwMetaGeneratedstick.1.name=泡铋杆
     S:gt.bwMetaGeneratedstick.1.tooltip=Bi₂O₂(CO₂)₂
-#N     S:gt.bwMetaGeneratedstick.10022.name=Atomic Separation Catalyst Rod
-#N     S:gt.bwMetaGeneratedstick.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedstick.10023.name=Orundum Rod
+#N     S:gt.bwMetaGeneratedstick.10022.name=原子分离催化剂 Rod
+#N     S:gt.bwMetaGeneratedstick.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedstick.10023.name=合成玉 Rod
 #N     S:gt.bwMetaGeneratedstick.10023.tooltip=Or
-#N     S:gt.bwMetaGeneratedstick.10024.name=Extremely Unstable Naquadah Rod
+#N     S:gt.bwMetaGeneratedstick.10024.name=极不稳定硅岩 Rod
 #N     S:gt.bwMetaGeneratedstick.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedstick.19.name=红锆石杆
     S:gt.bwMetaGeneratedstick.19.tooltip=ZrSiO₄
@@ -27054,11 +26950,11 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedstick.name=Generated Item
     S:gt.bwMetaGeneratedstickLong.1.name=长泡铋杆
     S:gt.bwMetaGeneratedstickLong.1.tooltip=Bi₂O₂(CO₂)₂
-#N     S:gt.bwMetaGeneratedstickLong.10022.name=Long Atomic Separation Catalyst Rod
-#N     S:gt.bwMetaGeneratedstickLong.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedstickLong.10023.name=Long Orundum Rod
+#N     S:gt.bwMetaGeneratedstickLong.10022.name=Long 原子分离催化剂 Rod
+#N     S:gt.bwMetaGeneratedstickLong.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedstickLong.10023.name=Long 合成玉 Rod
 #N     S:gt.bwMetaGeneratedstickLong.10023.tooltip=Or
-#N     S:gt.bwMetaGeneratedstickLong.10024.name=Long Extremely Unstable Naquadah Rod
+#N     S:gt.bwMetaGeneratedstickLong.10024.name=Long 极不稳定硅岩 Rod
 #N     S:gt.bwMetaGeneratedstickLong.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedstickLong.19.name=长红锆石杆
     S:gt.bwMetaGeneratedstickLong.19.tooltip=ZrSiO₄
@@ -27113,11 +27009,11 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedstickLong.name=Generated Item
     S:gt.bwMetaGeneratedtoolHeadHammer.1.name=泡铋锤头
     S:gt.bwMetaGeneratedtoolHeadHammer.1.tooltip=Bi₂O₂(CO₂)₂
-#N     S:gt.bwMetaGeneratedtoolHeadHammer.10022.name=Atomic Separation Catalyst Hammer Head
-#N     S:gt.bwMetaGeneratedtoolHeadHammer.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedtoolHeadHammer.10023.name=Orundum Hammer Head
+#N     S:gt.bwMetaGeneratedtoolHeadHammer.10022.name=原子分离催化剂 Hammer Head
+#N     S:gt.bwMetaGeneratedtoolHeadHammer.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedtoolHeadHammer.10023.name=合成玉 Hammer Head
 #N     S:gt.bwMetaGeneratedtoolHeadHammer.10023.tooltip=Or
-#N     S:gt.bwMetaGeneratedtoolHeadHammer.10024.name=Extremely Unstable Naquadah Hammer Head
+#N     S:gt.bwMetaGeneratedtoolHeadHammer.10024.name=极不稳定硅岩 Hammer Head
 #N     S:gt.bwMetaGeneratedtoolHeadHammer.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedtoolHeadHammer.19.name=红锆石锤头
     S:gt.bwMetaGeneratedtoolHeadHammer.19.tooltip=ZrSiO₄
@@ -27172,11 +27068,11 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedtoolHeadHammer.name=Generated Item
     S:gt.bwMetaGeneratedtoolHeadSaw.1.name=泡铋锯刃
     S:gt.bwMetaGeneratedtoolHeadSaw.1.tooltip=Bi₂O₂(CO₂)₂
-#N     S:gt.bwMetaGeneratedtoolHeadSaw.10022.name=Atomic Separation Catalyst Saw Blade
-#N     S:gt.bwMetaGeneratedtoolHeadSaw.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedtoolHeadSaw.10023.name=Orundum Saw Blade
+#N     S:gt.bwMetaGeneratedtoolHeadSaw.10022.name=原子分离催化剂 Saw Blade
+#N     S:gt.bwMetaGeneratedtoolHeadSaw.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedtoolHeadSaw.10023.name=合成玉 Saw Blade
 #N     S:gt.bwMetaGeneratedtoolHeadSaw.10023.tooltip=Or
-#N     S:gt.bwMetaGeneratedtoolHeadSaw.10024.name=Extremely Unstable Naquadah Saw Blade
+#N     S:gt.bwMetaGeneratedtoolHeadSaw.10024.name=极不稳定硅岩 Saw Blade
 #N     S:gt.bwMetaGeneratedtoolHeadSaw.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedtoolHeadSaw.19.name=红锆石锯刃
     S:gt.bwMetaGeneratedtoolHeadSaw.19.tooltip=ZrSiO₄
@@ -27231,11 +27127,11 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedtoolHeadSaw.name=Generated Item
     S:gt.bwMetaGeneratedtoolHeadWrench.1.name=泡铋扳手顶
     S:gt.bwMetaGeneratedtoolHeadWrench.1.tooltip=Bi₂O₂(CO₂)₂
-#N     S:gt.bwMetaGeneratedtoolHeadWrench.10022.name=Atomic Separation Catalyst Wrench Tip
-#N     S:gt.bwMetaGeneratedtoolHeadWrench.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedtoolHeadWrench.10023.name=Orundum Wrench Tip
+#N     S:gt.bwMetaGeneratedtoolHeadWrench.10022.name=原子分离催化剂 Wrench Tip
+#N     S:gt.bwMetaGeneratedtoolHeadWrench.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedtoolHeadWrench.10023.name=合成玉 Wrench Tip
 #N     S:gt.bwMetaGeneratedtoolHeadWrench.10023.tooltip=Or
-#N     S:gt.bwMetaGeneratedtoolHeadWrench.10024.name=Extremely Unstable Naquadah Wrench Tip
+#N     S:gt.bwMetaGeneratedtoolHeadWrench.10024.name=极不稳定硅岩 Wrench Tip
 #N     S:gt.bwMetaGeneratedtoolHeadWrench.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedtoolHeadWrench.19.name=红锆石扳手顶
     S:gt.bwMetaGeneratedtoolHeadWrench.19.tooltip=ZrSiO₄
@@ -27288,9 +27184,9 @@ Essentia Input Hatch: Hint block with dot 1
     S:gt.bwMetaGeneratedtoolHeadWrench.96.name=硬钢扳手顶
     S:gt.bwMetaGeneratedtoolHeadWrench.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedtoolHeadWrench.name=Generated Item
-#N     S:gt.bwMetaGeneratedwireFine.10022.name=Fine Atomic Separation Catalyst Wire
-#N     S:gt.bwMetaGeneratedwireFine.10022.tooltip=the melting core...
-#N     S:gt.bwMetaGeneratedwireFine.10024.name=Fine Extremely Unstable Naquadah Wire
+#N     S:gt.bwMetaGeneratedwireFine.10022.name=Fine 原子分离催化剂 Wire
+#N     S:gt.bwMetaGeneratedwireFine.10022.tooltip=熔核...
+#N     S:gt.bwMetaGeneratedwireFine.10024.name=Fine 极不稳定硅岩 Wire
 #N     S:gt.bwMetaGeneratedwireFine.10024.tooltip=Nq☆
     S:gt.bwMetaGeneratedwireFine.88.name=细镀铑钯导线
     S:gt.bwMetaGeneratedwireFine.88.tooltip=Pd₃Rh
