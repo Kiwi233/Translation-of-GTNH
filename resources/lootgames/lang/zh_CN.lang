@@ -1,8 +1,7 @@
-# Blocks
-tile.lootGamesMaster.name=嘿，哥们，要找点乐子耍吗？
+itemGroup.LootGames=奖励游戏
+
 tile.chessGame.name=象棋
 tile.lightGame.name=游戏灯
-itemGroup.LootGames=奖励游戏
 tile.dungeonBrick_0.name=地牢墙壁
 tile.dungeonBrick_1.name=地牢天花板
 tile.dungeonBrick_2.name=地牢地板
@@ -13,15 +12,48 @@ tile.dungeonBrick_6.name=护盾地牢地板
 tile.dungeonLight_0.name=地牢灯
 tile.dungeonLight_1.name=坏掉的地牢灯
 
+#N tile.lootgames.board_border.name=Board Border
+tile.lootgames.gol_activator.name=游戏灯
+tile.lootgames.gol_master.name=游戏灯
+#N tile.lootgames.ms_activator.name=扫雷
+#N tile.lootgames.ms_master.name=扫雷
+#N tile.lootgames.smart_subordinate.name=Smart Subordinate
+#N tile.lootgames.puzzle_master.name=Puzzle Master
 
-lootgames.achievementPage.name=奖励游戏
+#N item.lootgames.dungeon_block.tooltip=Mobs can't spawn on this block.
+
+#N msg.lootgames.stage_complete=The structure seems to acknowledge your efforts...
+#N msg.lootgames.puzzle_master.turned_off=This structure seems to be disabled by the higher powers...
+#N msg.lootgames.win=The structure is pleased and rewards you!
+#N msg.lootgames.lose=The structure seems to be offended by your failure.
+#N msg.lootgames.attempt_left=You have %d attempts left.
+#N msg.lootgames.field.not_enough_space=The construction whines drawlingly. Seems like there's no place for it: %dx%dx%d
+#N msg.lootgames.ms.bomb_touched=Oops... It seems to be a BOOM. Run!
+#N msg.lootgames.ms.new_attempt=The structure calmed down. You can try to play again.
+#N msg.lootgames.ms.reveal_on_hidden=You can't reveal neighbours around hidden field.
+#N msg.lootgames.ms.reveal_invalid_mark_count=You can't reveal field's neighbours, because flagged neighbours differ from its number.
+#N msg.lootgames.gol.start=Let's play the game! Click on the center block!
+#N msg.lootgames.gol.click_center=Click the center to start the game!
+#N msg.lootgames.gol.rules=You just need to repeat the colors.
+#N msg.lootgames.gol.not_ready=You feel that the structure is not ready for reply now.
+#N msg.lootgames.gol.wrong_block=It appears you chose the wrong color...
+#N msg.lootgames.gol.reward_level_info=Current reward level reached: %d (Best: %d)
+
+lootgames.achievement_page.name=奖励游戏
 achievement.lootgames.find_dungeon=深埋的秘密
-achievement.lootgames.find_dungeon.desc=发现一个神秘的小游戏地下城
-achievement.lootgames.win=我的宝贝！
-achievement.lootgames.win.desc=赢得一个迷你游戏并获得一些奖励
-achievement.lootgames.fail=祝你下次好运。
-achievement.lootgames.fail.desc=失败了（真的吗？）一个小游戏（比如，你失败了..？）
-achievement.lootgames.gol.level3=几乎得到了大脑
-achievement.lootgames.gol.level3.desc=打赢一场3级的灯光游戏（你仍然在第4级失败了。加油！）
-achievement.lootgames.gol.level4=史诗般的记忆
-achievement.lootgames.gol.level4.desc=打赢一场4级的灯光游戏
+achievement.lootgames.find_dungeon.desc=发现一个神秘的小游戏地牢
+achievement.lootgames.win_game=我的宝贝！
+achievement.lootgames.win_game.desc=赢得一个迷你游戏并获得一些奖励
+achievement.lootgames.lose_game=祝你下次好运。
+achievement.lootgames.lose_game.desc=失败了（真的吗？）一个小游戏（比如，你失败了..？）
+achievement.lootgames.gol.start=点灯！
+achievement.lootgames.gol.start.desc=获得灯光游戏机会
+achievement.lootgames.gol.beat_level_3=记忆超群
+achievement.lootgames.gol.beat_level_3.desc=打赢一场3级的灯光游戏（你仍然在第4级失败了。加油！）
+achievement.lootgames.gol.beat_level_4=史诗般的记忆
+achievement.lootgames.gol.beat_level_4.desc=打赢一场4级的灯光游戏
+achievement.lootgames.ms.start=我们需要更多旗帜！
+achievement.lootgames.ms.start.desc=获得扫雷游戏机会
+achievement.lootgames.ms.beat_level_4=没有坏工兵
+achievement.lootgames.ms.beat_level_4.desc=打赢一场4级的扫雷游戏
+
