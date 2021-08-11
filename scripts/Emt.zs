@@ -1149,7 +1149,7 @@ game.setLocalization("tc.research_page.ShieldFocus", "\u901a\u8fc7\u5bf9\u4fbf\u
 \u6ce8\u610f,\u5728\u4f7f\u7528\u8fd9\u4e2a\u6838\u5fc3\u5c06\u8fd9\u4e9b\u65b9\u5757\u5e26\u5165\u6211\u4eec\u7684\u7ef4\u5ea6\u65f6,\u5c06\u4f1a\u4ece\u7ef4\u5ea6\u51fa\u73b0\u7684\u5730\u65b9\u8f6c\u7f6e\u4efb\u4f55\u65b9\u5757,\u4e0d\u4f1a\u518d\u8fd4\u8fd8.
 \u800c\u4e14\u5728\u76fe\u724c\u65b9\u5757\u5b58\u5728\u65f6\u4f60\u5c06\u65e0\u6cd5\u79fb\u52a8.");
 mods.thaumcraft.Infusion.addRecipe("ShieldFocus", <Thaumcraft:FocusPortableHole>,
-[<dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:3>, <IC2:itemPartAlloy>, <gregtech:gt.metaitem.01:17383>, <gregtech:gt.blockreinforced:3>, <dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:3>, <gregtech:gt.metaitem.01:17383>, <IC2:itemPartAlloy>, <gregtech:gt.blockreinforced:3>], 
+[<gregtech:gt.metaitem.01:17602>, <gregtech:gt.blockreinforced:3>, <IC2:itemPartAlloy>, <gregtech:gt.metaitem.01:17383>, <gregtech:gt.blockreinforced:3>, <gregtech:gt.metaitem.01:17602>, <gregtech:gt.blockreinforced:3>, <gregtech:gt.metaitem.01:17383>, <IC2:itemPartAlloy>, <gregtech:gt.blockreinforced:3>], 
 "aer 32, tutamen 40, victus 16, vinculum 24, vitreus 16, praecantatio 8", <EMT:ShieldFocus>, 9);
 mods.thaumcraft.Research.addInfusionPage("ShieldFocus", <EMT:ShieldFocus>);
 
@@ -1167,7 +1167,7 @@ game.setLocalization("tc.research_page.ShieldBlock", "\u7814\u7a76\u4e86\u62a4\u
 \u5b83\u4eec\u6709\u5f88\u9ad8\u7684\u7206\u70b8\u6297\u6027,\u5e76\u4e14\u751a\u81f3\u80fd\u9632\u6b62\u6838\u5f39\u7684\u7834\u574f. \u7136\u800c,\u5728\u4e00\u6b21\u6838\u7206\u70b8\u8bd5\u9a8c\u4e2d,\u5c3d\u7ba1\u62a4\u76fe\u65b9\u5757\u6beb\u53d1\u65e0\u635f,\u4f46\u5b83\u5468\u56f4\u7684\u65b9\u5757\u5374\u4e0d\u662f.<BR><BR>\u8fd9\u4e9b\u62a4\u76fe\u65b9\u5757\u5e76\u4e0d\u7a33\u5b9a\u4e14\u7834\u574f\u65f6\u4e0d\u4f1a\u6389\u843d,\u5c31\u7b97\u4f60\u4f7f\u7528\u7cbe\u51c6\u91c7\u96c6\u4e5f\u662f\u5982\u6b64.");
 mods.thaumcraft.Arcane.addShaped("ShieldBlock", <EMT:ShieldBlock> * 10, "terra 20, ordo 20, perditio 20", [
 [<Thaumcraft:blockCosmeticSolid:1>, <IC2:itemPartAlloy>, <Thaumcraft:blockCosmeticSolid:1>],
-[<dreamcraft:item.ReinforcedGlassPlate>, <gregtech:gt.blockreinforced:1>, <dreamcraft:item.ReinforcedGlassPlate>],
+[<ore:plateReinforcedGlass>, <gregtech:gt.blockreinforced:1>, <ore:plateReinforcedGlass>],
 [<Thaumcraft:blockCosmeticSolid:1>, <IC2:itemPartAlloy>, <Thaumcraft:blockCosmeticSolid:1>]]);
 mods.thaumcraft.Research.addArcanePage("ShieldBlock", <EMT:ShieldBlock>);
 
