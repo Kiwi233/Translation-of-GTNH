@@ -62,6 +62,10 @@ PS：有时任务书无法正确汉化，可以尝试重载任务书，方法有
 
 另外，由于许多汉化都是在模组自带汉化基础上完善的，所以无法得知作者，只能在此一并感谢所有为汉化工作作出过贡献的人们！
 
+## 关于全角标点和新元素字库
+
+全角标点修复文件和新元素字库文件来源于 `CFPA-Team` 的 [Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package)
+
 ## 汉化采用协议
 
 汉化部分采用 CC-BY-NC-SA 协议
