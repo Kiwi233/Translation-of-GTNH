@@ -758,7 +758,7 @@ languagefile {
     S:Material.fireclay=耐火粘土
     S:Material.firestone=火石
     S:Material.fishoil=鱼油
-    S:Material.flerovium_gt5u=𫓧(鈇)
+    S:Material.flerovium_gt5u=
     S:Material.flint=燧石
     S:Material.fluidnaqudahfuel=硅岩燃料
     S:Material.fluix=福鲁伊克斯
@@ -3983,7 +3983,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12739_Index_0=机器类型: §e采矿机§r
     S:TileEntity_DESCRIPTION_12739_Index_1=虚空采矿场III的控制器方块
     S:TileEntity_DESCRIPTION_12739_Index_2=消耗功率：524288EU/t
-    S:TileEntity_DESCRIPTION_12739_Index_3=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或<气奥>(x64)，以提高产量
+    S:TileEntity_DESCRIPTION_12739_Index_3=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或鿫(x64)，以提高产量
     S:TileEntity_DESCRIPTION_12739_Index_4=每秒输出6个矿石，矿石种类取决于机器所在的世界
     S:TileEntity_DESCRIPTION_12739_Index_5=-----------------------------------------
     S:TileEntity_DESCRIPTION_12739_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
@@ -4002,7 +4002,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12740_Index_0=机器类型: §e采矿机§r
     S:TileEntity_DESCRIPTION_12740_Index_1=虚空采矿场II的控制器方块
     S:TileEntity_DESCRIPTION_12740_Index_2=消耗功率：131072EU/t
-    S:TileEntity_DESCRIPTION_12740_Index_3=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或<气奥>(x64)，以提高产量
+    S:TileEntity_DESCRIPTION_12740_Index_3=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或鿫(x64)，以提高产量
     S:TileEntity_DESCRIPTION_12740_Index_4=每秒输出4个矿石，矿石种类取决于机器所在的世界
     S:TileEntity_DESCRIPTION_12740_Index_5=-----------------------------------------
     S:TileEntity_DESCRIPTION_12740_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
@@ -4021,7 +4021,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12741_Index_0=机器类型: §e采矿机§r
     S:TileEntity_DESCRIPTION_12741_Index_1=虚空采矿场I的控制器方块
     S:TileEntity_DESCRIPTION_12741_Index_2=消耗功率：32768EU/t
-    S:TileEntity_DESCRIPTION_12741_Index_3=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或<气奥>(x64)，以提高产量
+    S:TileEntity_DESCRIPTION_12741_Index_3=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或鿫(x64)，以提高产量
     S:TileEntity_DESCRIPTION_12741_Index_4=每秒输出2个矿石，矿石种类取决于机器所在的世界
     S:TileEntity_DESCRIPTION_12741_Index_5=-----------------------------------------
     S:TileEntity_DESCRIPTION_12741_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
@@ -10710,7 +10710,7 @@ languagefile {
     S:bw.werkstoffblockscasing.01.35.name=堇云石机械方块
     S:bw.werkstoffblockscasing.01.36.name=磁共振石机械方块
     S:bw.werkstoffblockscasing.01.37.name=氙机械方块
-    S:bw.werkstoffblockscasing.01.38.name=<气奥>机械方块
+    S:bw.werkstoffblockscasing.01.38.name=鿫机械方块
     S:bw.werkstoffblockscasing.01.39.name=锎机械方块
     S:bw.werkstoffblockscasing.01.4.name=立方氧化锆机械方块
     S:bw.werkstoffblockscasing.01.40.name=钙机械方块
@@ -10993,7 +10993,7 @@ languagefile {
     S:bw.werkstoffblockscasingadvanced.01.35.name=强化堇云石机械方块
     S:bw.werkstoffblockscasingadvanced.01.36.name=强化磁共振石机械方块
     S:bw.werkstoffblockscasingadvanced.01.37.name=强化氙机械方块
-    S:bw.werkstoffblockscasingadvanced.01.38.name=强化<气奥>机械方块
+    S:bw.werkstoffblockscasingadvanced.01.38.name=强化鿫机械方块
     S:bw.werkstoffblockscasingadvanced.01.39.name=强化锎机械方块
     S:bw.werkstoffblockscasingadvanced.01.4.name=强化立方氧化锆机械方块
     S:bw.werkstoffblockscasingadvanced.01.40.name=强化钙机械方块
@@ -11581,7 +11581,7 @@ languagefile {
     S:fluid.molten.fairy=熔融精灵
     S:fluid.molten.fermium=熔融镄
     S:fluid.molten.fierysteel=熔融炽热的钢
-    S:fluid.molten.flerovium_gt5u=熔融𫓧(鈇)
+    S:fluid.molten.flerovium_gt5u=熔融
     S:fluid.molten.force=熔融力量锭
     S:fluid.molten.francium=熔融钫
     S:fluid.molten.gadolinium=熔融钆
@@ -11887,7 +11887,7 @@ languagefile {
     S:fluid.plasma.empty=空等离子体
     S:fluid.plasma.erbium=铒等离子体
     S:fluid.plasma.europium=铕等离子体
-    S:fluid.plasma.flerovium_gt5u=𫓧(鈇)等离子体
+    S:fluid.plasma.flerovium_gt5u=等离子体
     S:fluid.plasma.fluorine=氟等离子体
     S:fluid.plasma.gadolinium=钆等离子体
     S:fluid.plasma.gallium=镓等离子体
@@ -24826,7 +24826,7 @@ languagefile {
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.82.tooltip=Y
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.83.name=熔融锌胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.83.tooltip=Zn
-    S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.84.name=熔融𫓧(鈇)胶囊
+    S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.84.name=熔融胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.84.tooltip=Fl
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.97.name=熔融蛇纹石胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.97.tooltip=
@@ -25115,7 +25115,7 @@ languagefile {
     S:gt.bwMetaGeneratedcapsule.29938.tooltip=
     S:gt.bwMetaGeneratedcapsule.37.name=氙胶囊
     S:gt.bwMetaGeneratedcapsule.37.tooltip=Xe
-    S:gt.bwMetaGeneratedcapsule.38.name=<气奥>胶囊
+    S:gt.bwMetaGeneratedcapsule.38.name=鿫胶囊
     S:gt.bwMetaGeneratedcapsule.38.tooltip=Og
     S:gt.bwMetaGeneratedcapsule.41.name=氖胶囊
     S:gt.bwMetaGeneratedcapsule.41.tooltip=Ne
@@ -25309,7 +25309,7 @@ languagefile {
     S:gt.bwMetaGeneratedcell.29938.tooltip=
     S:gt.bwMetaGeneratedcell.37.name=氙单元
     S:gt.bwMetaGeneratedcell.37.tooltip=Xe
-    S:gt.bwMetaGeneratedcell.38.name=<气奥>单元
+    S:gt.bwMetaGeneratedcell.38.name=鿫单元
     S:gt.bwMetaGeneratedcell.38.tooltip=Og
     S:gt.bwMetaGeneratedcell.41.name=氖单元
     S:gt.bwMetaGeneratedcell.41.tooltip=Ne
