@@ -1,4 +1,6 @@
+#This is the lang file for GoodGenerator!
 
+#Blocks
 MAR_Casing.0.name=力场约束机械方块
 radiationProtectionSteelFrame.0.name=防辐射钢框架
 fieldRestrictingGlass.0.name=力场约束玻璃
@@ -14,6 +16,7 @@ essentiaCell.1.name=学徒源质扩散单元
 essentiaCell.2.name=大师源质扩散单元
 essentiaHatch.0.name=源质输入仓
 
+#Items
 item.radiationProtectionPlate.name=防辐射板
 item.wrappedUraniumIngot.name=封装铀锭
 item.highDensityUraniumNugget.name=浓缩铀粒
@@ -31,6 +34,7 @@ item.aluminumNitride.name=氮化铝粉
 item.specialCeramics.name=特种陶瓷粉
 item.specialCeramicsPlate.name=特种陶瓷板
 
+#Fluids
 fluid.lightlyCrackedNaquadahGas=轻度裂化硅岩气
 fluid.moderatelyCrackedNaquadahGas=中度裂化硅岩气
 fluid.heavilyCrackedNaquadahGas=重度裂化硅岩气
@@ -82,6 +86,7 @@ fluid.Thorium Based Liquid Fuel (Depleted)=钍基流体燃料(枯竭的)
 fluid.thorium Tetrachloride=四氯化钍
 fluid.Uranium Based Liquid Fuel (Excited State)=铀基流体燃料(激发态)
 
+#Fluid Tiles
 tile.lightlyCrackedNaquadahGas.name=轻度裂化硅岩气
 tile.moderatelyCrackedNaquadahGas.name=中度裂化硅岩气
 tile.heavilyCrackedNaquadahGas.name=重度裂化硅岩气
@@ -96,16 +101,26 @@ tile.moderatelyCrackedNaquadahAsphalt.name=中度裂化硅岩沥青
 tile.heavilyCrackedNaquadahAsphalt.name=重度裂化硅岩沥青
 tile.combustionPromotor.name=助燃剂
 
+#Tab Name
 itemGroup.Good Generator=更多发电机
 
+#Scanner Info
 scanner.info.FRF=线圈等级：
 
+#GUI Info
+#N gui.NeutronSensor.0=输入中子动能值.
+#N gui.NeutronSensor.1=比如 >5000KeV, <=30MeV . . .
+#N gui.NeutronSensor.2=有效
+#N gui.NeutronSensor.3=无效
+
+#NEI Info
 tile.recipe.naquadah_reactor=大型硅岩反应堆
 tile.naquadah_fuel_refine_factory=硅岩燃料精炼厂
 value.naquadah_reactor=基础输出电压：
 value.naquadah_fuel_refine_factory.0=要求等级
 value.naquadah_fuel_refine_factory.1=线圈
 
+#TecTech Structure Info
 FuelRefineFactory.hint.0=8x力场约束玻璃
 FuelRefineFactory.hint.1=32x力场约束线圈(任意等级)
 FuelRefineFactory.hint.2=104x硅岩燃料精炼机械方块(至少！)
@@ -139,6 +154,7 @@ LargeEssentiaGenerator.hint.2=24x奥术石砖
 LargeEssentiaGenerator.hint.3=53x魔法机械方块(至少！)
 LargeEssentiaGenerator.hint.4=1 - 维护仓/输入仓/动力仓/源质输入仓
 
+#Achievement
 achievement.gt.blockmachines.nag=大型硅岩反应堆
 achievement.gt.blockmachines.nag.desc=捡起这个物品以在NEI内查看配方
 achievement.gt.blockmachines.frf=硅岩燃料精炼厂
@@ -152,6 +168,7 @@ achievement.FRF_Coil_2.0.desc=捡起这个物品以在NEI内查看配方
 achievement.FRF_Coil_3.0=终极力场约束线圈
 achievement.FRF_Coil_3.0.desc=捡起这个物品以在NEI内查看配方
 
+#Thaumcraft Research Context
 research.ESSENTIA_GENERATOR.page.0=你发现源质内蕴含的能量超乎你的想象.有没有用这些源质发电的方法呢?
 research.ESSENTIA_GENERATOR.page.1=不同的源质蕴含不等的能量.<BR><BR>Potentia: 4500EU<BR><BR>Ignis: 3000EU<BR><BR>Lucrum: 13000EU<BR><BR>Auram: 9000EU<BR><BR>Arbor: 2200EU<BR><BR>Aer: 1300EU<BR><BR>Praecantatio: 5200EU<BR><BR>Machina: 4000EU<BR><BR>Electrum: 32768EU<BR><BR>Radio: 131072EU
 research.ESSENTIA_GENERATOR.page.2=未列出的源质,每点均含有512EU.
