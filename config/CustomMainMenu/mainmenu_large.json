@@ -202,10 +202,16 @@
 			"posY": 0,
 			"alignment": "column_bottom"
 		},
-		"aviators": {
-			"text": "\u5f00\u653e\u80cc\u666f\u97f3\u4e50\u7248\u6743\u002c\u0020\u4f5c\u8005Aviators",
+		"version": {
+			"text": "file:mainmenu:version.txt",
 			"posX": 155,
 			"posY": -10,
+			"alignment": "column_bottom"
+		},
+		"aviators": {
+			"text": "\u5f00\u653e\u80cc\u666f\u97f3\u4e50\u7248\u6743\u002c\u0020\u4f5c\u8005Aviators",
+			"posX": 150,
+			"posY": -20,
 			"fontSize": 0.5,
 			"alignment": "column_bottom"
 		}
