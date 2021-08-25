@@ -66,8 +66,6 @@ PS：有时任务书无法正确汉化，可以尝试重载任务书，方法有
 
 全角标点修复文件和新元素字库文件来源于 `CFPA-Team` 的 [Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package)
 
-下载汉化包本体后，如果想要修复这些无法正常显示的新元素，可以下载补丁包(NewElementPatch)，并使用相同方式安装。
-
 大部分输入法不能输入这些新元素汉字，所以补丁包自带搜索mod(`vfyjxf`提供)，可用全拼+声调精确搜索。
 
 ## 汉化采用协议
