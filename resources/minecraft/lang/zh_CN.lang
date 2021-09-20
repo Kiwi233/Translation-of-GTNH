@@ -4626,7 +4626,9 @@ gtnh.quest1155.desc=如果你想让液体变成固体那么你就需要流体固
 
 # Quest.1156 - §3§lWooden Bolts
 gtnh.quest1156.name=§3§l铁质弩箭
-gtnh.quest1156.desc=光有弩还不够,我们还需要一些弹药.让我们来制作一些木质弩箭.现在你可以用冶炼炉熔炼铁、钢或者铝装上你的箭头.%n更高阶的弩箭和箭头制造需要用到流体固化器,将你想要用的金属泵入流体固化器吧.%n%n§4升级:%n§3下界(赛特斯)石英-提高伤害%n苔藓球-自我修复(在魔导手册GTNH栏解锁)%n%n请注意,弩箭部件替换已损坏(无法正确升级对应属性),如果想要更好的弩箭,那就再做一个吧.
+#B gtnh.quest1156.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts. For now, you can put either iron, alumite, or steel on the tip of your bolts using the Smeltery. For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.%n%n§4For upgrades%n§3Nether Quartz - More damage%nMoss - Self-Repair (unlock in GTNH Thaumcraft tab)%n%nNote that upgrading bolts is broken (doesn't update stats correctly), craft new ones if you want better ones.
+#A gtnh.quest1156.desc=Your crossbow need some ammo to shoot with. Let's craft some wooden bolts. For now, you can put either iron, alumite, or steel on the tip of your bolts using the Smeltery. For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.%n%n§4For upgrades%n§3Nether Quartz - More damage%nMoss - Self-Repair (unlock in GTNH Thaumcraft tab)
+#C gtnh.quest1156.desc=光有弩还不够,我们还需要一些弹药.让我们来制作一些木质弩箭.现在你可以用冶炼炉熔炼铁、钢或者铝装上你的箭头.%n更高阶的弩箭和箭头制造需要用到流体固化器,将你想要用的金属泵入流体固化器吧.%n%n§4升级:%n§3下界(赛特斯)石英-提高伤害%n苔藓球-自我修复(在魔导手册GTNH栏解锁)%n%n请注意,弩箭部件替换已损坏(无法正确升级对应属性),如果想要更好的弩箭,那就再做一个吧.
 
 # Quest.1157 - §3§lRubber Soft Mallet
 gtnh.quest1157.name=§3§l橡胶软锤
@@ -6986,7 +6988,9 @@ gtnh.quest1745.desc=你好,我的名字是Teirdalin,今天我们将开始一个�
 
 # Quest.1746 - Your First Microchip
 gtnh.quest1746.name=你的第一个简易微芯片
-gtnh.quest1746.desc=简易微芯片将在你制作的大部分物品中用到,如果可能的话,我建议大量制作.%n%n§3T1和T3微芯片的电路板矿典坏了,而且没有人知道为什么,所以别怪我们.
+#B gtnh.quest1746.desc=Microchips will be used in most things you make, so if possible; I suggest bulk crafting quite a few of these.%n%n§3Oredict for the circuits is broken for T1 and T3 microchips, and no-one understands why, so don't blame us.
+#A gtnh.quest1746.desc=Microchips will be used in most things you make, so if possible; I suggest bulk crafting quite a few of these.
+#C gtnh.quest1746.desc=简易微芯片将在你制作的大部分物品中用到,如果可能的话,我建议大量制作.%n%n§3T1和T3微芯片的电路板矿典坏了,而且没有人知道为什么,所以别怪我们.
 
 # Quest.1747 - Your First Computer
 gtnh.quest1747.name=你的第一台电脑
@@ -7434,7 +7438,9 @@ gtnh.quest1857.desc=你喜欢派吗?当然!  有许多多种派可供选择.  �
 
 # Quest.1858 - §9§lMagnetic Personality
 gtnh.quest1858.name=§9§l私人磁铁
-gtnh.quest1858.desc=如果你没有从战利品袋里开到过电磁铁,那就用充能晶体做一个吧.  在服务器中,如果你移动太快时,它不能很好地工作,但它能使收获作物变得简单.%n%n译者注:试试龙研的磁铁吧,现在它的造价大幅度下调了.
+#B gtnh.quest1858.desc=If you haven't received one in a lootbag already, you can craft a nice magnet with a vibrant crystal. It doesn't work great on servers if you'2re moving around too fast, but it makes harvesting crops a lot easier.
+#A gtnh.quest1858.desc=If you haven't received one in a lootbag already, you can craft a nice magnet with a vibrant crystal. It doesn't work great on servers if you're moving around too fast, but it makes harvesting crops a lot easier.
+#C gtnh.quest1858.desc=如果你没有从战利品袋里开到过电磁铁,那就用充能晶体做一个吧.  在服务器中,如果你移动太快时,它不能很好地工作,但它能使收获作物变得简单.%n%n译者注:试试龙研的磁铁吧,现在它的造价大幅度下调了.
 
 # Quest.1859 - Need Some Leather?
 gtnh.quest1859.name=需要一些皮革?
@@ -7574,7 +7580,9 @@ gtnh.quest1892.desc=需要一些氟? 来买点吧!
 
 # Quest.1893 - §6§lFluid Regulator
 gtnh.quest1893.name=§6§l流体校准器
-gtnh.quest1893.desc=涡轮需要精确控制流量,否则容易造成§4爆炸§r或浪费.  将流体校准器贴在连接到输入总线的管道上,控制进入涡轮的流量.想要提高流量,对准流体校准器的右侧,然后:%n%n1L-空手右键%n16L-手持螺丝刀右键%n256L-手持螺丝刀,Shift+右键%n%n想要降低流量,对准流体校准器的左侧,其余操作一致.%n%n请参考大型涡轮计算器和涡轮参数表设置流量(确认燃料后).在GTNH,这些数学计算就交给我们吧!至少在这个任务.%n%n§3按住Shift,空手右键校准器可以打开GUI,进行更精确的设置.
+#B gtnh.quest1893.desc=Turbines require precise amounts of fluids or else they will §4explode§r. Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right click with an empty hand%n16L - Right click with a screwdriver%n256L - Right click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side.%n%nUse the Large Turbine Calculator and the the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.%n%n§3If you shift-right click on it you can use the interface which is more precise.
+#A gtnh.quest1893.desc=Turbines require precise amounts of fluids or else they will §4explode§r. Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right click with an empty hand%n16L - Right click with a screwdriver%n256L - Right click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side.%n%nUse the Large Turbine Calculator and the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.%n%n§3If you shift-right click on it you can use the interface which is more precise.
+#C gtnh.quest1893.desc=涡轮需要精确控制流量,否则容易造成§4爆炸§r或浪费.  将流体校准器贴在连接到输入总线的管道上,控制进入涡轮的流量.想要提高流量,对准流体校准器的右侧,然后:%n%n1L-空手右键%n16L-手持螺丝刀右键%n256L-手持螺丝刀,Shift+右键%n%n想要降低流量,对准流体校准器的左侧,其余操作一致.%n%n请参考大型涡轮计算器和涡轮参数表设置流量(确认燃料后).在GTNH,这些数学计算就交给我们吧!至少在这个任务.%n%n§3按住Shift,空手右键校准器可以打开GUI,进行更精确的设置.
 
 # Quest.1894 - §6§lGas Turbine
 gtnh.quest1894.name=§6§l大型燃气涡轮
@@ -7654,7 +7662,9 @@ gtnh.quest1912.desc=在注魔的时候,要是能知道准确稳定度就好了. 
 
 # Quest.1913 - §6§lGut-Enough For You? Bet You Thought Newspapers Were Dead!
 gtnh.quest1913.name=§6§l你受够了?我打赌你觉得报纸早就死了!
-gtnh.quest1913.desc=排版台和拓印机使你能复制附魔书.这个过程有点复杂,所以你最好查查Bibliocraft这个mod的wiki.复制附魔书需要大量的经验,所以是时候去刷刷经验了...%n%n§3你还需要一些神秘锭.你可以去魔法森林里的奖励箱中碰碰运气,或是尝试培育魔法金属莓(Magical-Metal-Berry)这种杂交作物.
+#B gtnh.quest1913.desc=The Typesetting Table and Printing Press will allow you to duplicate books, including enchanted books. The process is kinda complicated, so check out the Bibliocraft mod wiki page. You'll need to use XP to duplicate enchanted books, so now would be a good time to figure out how to collect large amounts...%n%n§3You'll need some Thaumium ingots. You can get into Thaumcraft, find some in a chest, or try breeding the Magical Metal Berry IC2 crop.
+#A gtnh.quest1913.desc=The Typesetting Table and Printing Press will allow you to duplicate books, including enchanted books. The process is kinda complicated, so check out the Bibliocraft mod wiki page. You'll need to use XP to duplicate enchanted books, so now would be a good time to figure out how to collect large amounts...%n%nTo duplicate a Fortune III book you may need 40+ levels. Note that the wiki mentions black dye but only vanilla ink sacs will work.%n%n§3You'll need some Thaumium ingots. You can get into Thaumcraft, find some in a chest, or try breeding the Magical Metal Berry IC2 crop.
+#C gtnh.quest1913.desc=排版台和拓印机使你能复制附魔书.这个过程有点复杂,所以你最好查查Bibliocraft这个mod的wiki.复制附魔书需要大量的经验,所以是时候去刷刷经验了...%n%n§3你还需要一些神秘锭.你可以去魔法森林里的奖励箱中碰碰运气,或是尝试培育魔法金属莓(Magical-Metal-Berry)这种杂交作物.
 
 # Quest.1914 - §6§lDo You Feel Unlucky?
 gtnh.quest1914.name=§6§l你觉得你是非酋?
@@ -9390,7 +9400,9 @@ gtnh.quest2346.desc=寻找豹猫%n%n拥有所需材料后,你将需要找到一�
 
 # Quest.2347 - Flame Imp
 gtnh.quest2347.name=烈焰小鬼
-gtnh.quest2347.desc=烈焰小鬼是与火焰魔法紧密相关的恶魔.%n%n烈焰小鬼不像他们的表兄弟那么强壮,他们就像是调皮的动物,很容易随个人喜好而摇摆.如果付出足够的代价,它们甚至愿意跟巫师签订契约.%n%n使用召唤仪式召唤烈焰小鬼,他们最有可能攻击他们看到的第一个人.建议尽快与他们交易.%n%n交易%n%n想要与烈焰小鬼交易,巫师需要与它签署用自己的血液书写的恶魔契约(用巫媒制作).  制作完恶魔契约后,需要对着烈焰小鬼使用,同时会消耗经验等级(一般是25级).%n%n一旦契约达成,烈焰小鬼将被绑定到交易位置,无法走得太远.烈焰小鬼会攻击对其主人怀有敌意的任何人.%n%n烈焰小鬼喜欢收到有价值的礼物,当礼物使他满意时,烈焰小鬼可以在主人的要求下进行各种与火焰有关的咒语.%n%n咒语以契约的形式描述做什么以及向谁做.%n只需制作具有必要配件的恶魔契约,然后使用巫媒生成最终的契约.%n然后把契约交给烈焰小鬼.只要目标生物在同一世界,魔法就会成功释放.%n%n烈焰小鬼有时也可能会赠予礼物,以换取有价值的东西.已知其中包括可以使用以允许巫师能够施放恶魔咒语的恶魔灵魂.%n%n烈焰小鬼交易的终极物品就是苦痛卷轴,可用于召唤痛苦之王.
+#B gtnh.quest2347.desc=Flame Imps are demons strongly associated with fiery magic.%n%nNot as physically strong as their dimmer cousins, Flame Imps are mischievous creatures who are very easily swayed with the promise of personal gain. They may even be bound into the service of a witch (or warlock) if the offer is good enough.%n%nFlame Imps are summoned using a Rite of Summoning, and they are most likely to attack the first person they see. It is advisable to make a deal with them quickly.%n%nMaking a deal%n%nTo bind a Flame Imp into service, a witch must write the agreement into a Demonic Contract and sign it with their own blood (craft with a Taglock Kit). %nThis contract must then be given to the Flame Imp, who will require a down-payment of Experience Levels (typically 25).%n%nOnce a deal is struck, the imp will be bound to the location of the deal, not able to wander too far away. The Imp will attack anyone hostile to its master.%n%nImps like receiving valuable gifts, once suitably impressed an imp may be prepared to perform various flame related spells at the request of their master.%n%nSpells take the form of contracts describing what must be done and to whom. %nSimply craft a Demonic Contract with the necessary components and then the resulting contract with a taglock. %nThen give the contract to the the Imp. So long as the creature is in the same dimension, the magic will take hold.%n%nA Flame imp may also occasionally give a gift in return for being given valuable things. These have been known to include the souls of demons that can be consumed to allow a witch to cast demonic spells. %n%nA very well treated Flame Imp may even yield knowledge to summon a Lord of Torment.%n%n
+#A gtnh.quest2347.desc=Flame Imps are demons strongly associated with fiery magic.%n%nNot as physically strong as their dimmer cousins, Flame Imps are mischievous creatures who are very easily swayed with the promise of personal gain. They may even be bound into the service of a witch (or warlock) if the offer is good enough.%n%nFlame Imps are summoned using a Rite of Summoning, and they are most likely to attack the first person they see. It is advisable to make a deal with them quickly.%n%nMaking a deal%n%nTo bind a Flame Imp into service, a witch must write the agreement into a Demonic Contract and sign it with their own blood (craft with a Taglock Kit). %nThis contract must then be given to the Flame Imp, who will require a down-payment of Experience Levels (typically 25).%n%nOnce a deal is struck, the imp will be bound to the location of the deal, not able to wander too far away. The Imp will attack anyone hostile to its master.%n%nImps like receiving valuable gifts, once suitably impressed an imp may be prepared to perform various flame related spells at the request of their master.%n%nSpells take the form of contracts describing what must be done and to whom. %nSimply craft a Demonic Contract with the necessary components and then the resulting contract with a taglock. %nThen give the contract to the Imp. So long as the creature is in the same dimension, the magic will take hold.%n%nA Flame imp may also occasionally give a gift in return for being given valuable things. These have been known to include the souls of demons that can be consumed to allow a witch to cast demonic spells. %n%nA very well treated Flame Imp may even yield knowledge to summon a Lord of Torment.%n%n
+#C gtnh.quest2347.desc=烈焰小鬼是与火焰魔法紧密相关的恶魔.%n%n烈焰小鬼不像他们的表兄弟那么强壮,他们就像是调皮的动物,很容易随个人喜好而摇摆.如果付出足够的代价,它们甚至愿意跟巫师签订契约.%n%n使用召唤仪式召唤烈焰小鬼,他们最有可能攻击他们看到的第一个人.建议尽快与他们交易.%n%n交易%n%n想要与烈焰小鬼交易,巫师需要与它签署用自己的血液书写的恶魔契约(用巫媒制作).  制作完恶魔契约后,需要对着烈焰小鬼使用,同时会消耗经验等级(一般是25级).%n%n一旦契约达成,烈焰小鬼将被绑定到交易位置,无法走得太远.烈焰小鬼会攻击对其主人怀有敌意的任何人.%n%n烈焰小鬼喜欢收到有价值的礼物,当礼物使他满意时,烈焰小鬼可以在主人的要求下进行各种与火焰有关的咒语.%n%n咒语以契约的形式描述做什么以及向谁做.%n只需制作具有必要配件的恶魔契约,然后使用巫媒生成最终的契约.%n然后把契约交给烈焰小鬼.只要目标生物在同一世界,魔法就会成功释放.%n%n烈焰小鬼有时也可能会赠予礼物,以换取有价值的东西.已知其中包括可以使用以允许巫师能够施放恶魔咒语的恶魔灵魂.%n%n烈焰小鬼交易的终极物品就是苦痛卷轴,可用于召唤痛苦之王.
 
 # Quest.2348 - Lord of Torment
 gtnh.quest2348.name=痛苦之王
@@ -11639,6 +11651,22 @@ gtnh.quest2908.desc=没有描述.
 # Quest.2909 - Trigger:Tungstensteel Mars Skip
 gtnh.quest2909.name=触发:跳过火星获得钨钢
 gtnh.quest2909.desc=没有描述.
+
+# Quest.2910 - §3§lBarrel Upgrades Tier 3
+#N gtnh.quest2910.name=§3§lBarrel Upgrades Tier 3
+gtnh.quest2910.desc=什么？你的桶又满了？ 不要紧,继续升级!
+
+# Quest.2911 - §3§lBarrel Upgrades Tier 4
+#N gtnh.quest2911.name=§3§lBarrel Upgrades Tier 4
+gtnh.quest2911.desc=什么？你的桶又满了？ 不要紧,继续升级!
+
+# Quest.2912 - §3§lBarrel Upgrades Tier 5
+#N gtnh.quest2912.name=§3§lBarrel Upgrades Tier 5
+gtnh.quest2912.desc=什么？你的桶又满了？ 不要紧,继续升级!
+
+# Quest.2913 - Sticky Matter
+#N gtnh.quest2913.name=Sticky Matter
+#N gtnh.quest2913.desc=Can't find any Rubber Trees? Can't build a water tank? Too lazy to make a tree tap?  Buy a stack of sticky resin for some coins.
 
 ##################################Line##################################
 
