@@ -1545,7 +1545,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1003_Index_5=-----------------------------------------
     S:TileEntity_DESCRIPTION_1003_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1003_Index_7=由 §aGregtech§7 添加
-    S:TileEntity_Secondary_DESCRIPTION_1003_Index_0=大小(宽x高x长)：3x3x3 (HxHXL)(中空)
+    S:TileEntity_Secondary_DESCRIPTION_1003_Index_0=大小(宽x高x长)：3x3x3(中空)
     S:TileEntity_Secondary_DESCRIPTION_1003_Index_1=结构：
     S:TileEntity_Secondary_DESCRIPTION_1003_Index_2=   控制器：  正面底中
     S:TileEntity_Secondary_DESCRIPTION_1003_Index_3=   8x隔热机械方块(至少！)
@@ -2775,30 +2775,14 @@ languagefile {
     S:TileEntity_DESCRIPTION_1172_Index_1=超净间的控制器方块
     S:TileEntity_DESCRIPTION_1172_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1172_Index_11=由 §aGregtech§7 添加
-#B     S:TileEntity_DESCRIPTION_1172_Index_2=Consumes 40 EU/t when first turned on and 4 EU/t once at 100% efficiency when not overclocked
-#A     S:TileEntity_DESCRIPTION_1172_Index_2=Consumes 40 EU/t when first turned on
-#C     S:TileEntity_DESCRIPTION_1172_Index_2=初次启动功率：40EU/t，100%洁净度稳定运行时功率：4EU/t(非超频下)
-#B     S:TileEntity_DESCRIPTION_1172_Index_3=An energy hatch accepts up to 2A, so you can use 2A LV or 1A MV
-#A     S:TileEntity_DESCRIPTION_1172_Index_3=and 4 EU/t once at 100% efficiency when not overclocked
-#C     S:TileEntity_DESCRIPTION_1172_Index_3=单个能源仓最高接受2A电流，所以你可以用2A-LV或1A-MV供电
-#B     S:TileEntity_DESCRIPTION_1172_Index_4=2 LV batteries + 1 LV generator or 1 MV generator
-#A     S:TileEntity_DESCRIPTION_1172_Index_4=An energy hatch accepts up to 2A, so you can use 2A LV or 1A MV
-#C     S:TileEntity_DESCRIPTION_1172_Index_4=2xLV电池+1xLV发电机或1xMV发电机
-#B     S:TileEntity_DESCRIPTION_1172_Index_5=Time required to reach full efficiency is propotional to the height of empty space within
-#A     S:TileEntity_DESCRIPTION_1172_Index_5=2 LV batteries + 1 LV generator or 1 MV generator
-#C     S:TileEntity_DESCRIPTION_1172_Index_5=达到最大洁净度所需的时间与内部空间的高度成正比
-#B     S:TileEntity_DESCRIPTION_1172_Index_6=Make sure your Energy Hatch matches! ?
-#A     S:TileEntity_DESCRIPTION_1172_Index_6=Time required to reach full efficiency is proportional to
-#C     S:TileEntity_DESCRIPTION_1172_Index_6=确保你的能源仓匹配! ?
-#B     S:TileEntity_DESCRIPTION_1172_Index_7=-----------------------------------------
-#A     S:TileEntity_DESCRIPTION_1172_Index_7=the height of empty space within
-#C     S:TileEntity_DESCRIPTION_1172_Index_7=-----------------------------------------
-#B     S:TileEntity_DESCRIPTION_1172_Index_8=Hold §l[LSHIFT]§r§7 to display structure guidelines
-#A     S:TileEntity_DESCRIPTION_1172_Index_8=Make sure your Energy Hatch matches! ?
-#C     S:TileEntity_DESCRIPTION_1172_Index_8=按住 §l[LSHIFT]§r§7 以显示结构指导
-#B     S:TileEntity_DESCRIPTION_1172_Index_9=Added by: §aGregtech§7
-#A     S:TileEntity_DESCRIPTION_1172_Index_9=-----------------------------------------
-#C     S:TileEntity_DESCRIPTION_1172_Index_9=由 §aGregtech§7 添加
+    S:TileEntity_DESCRIPTION_1172_Index_2=初次启动功率：40EU/t
+    S:TileEntity_DESCRIPTION_1172_Index_3=100%洁净度稳定运行时功率：4EU/t(非超频下)
+    S:TileEntity_DESCRIPTION_1172_Index_4=单个能源仓最高接受2A电流，所以你可以用2A-LV或1A-MV供电
+    S:TileEntity_DESCRIPTION_1172_Index_5=2xLV电池+1xLV发电机或1xMV发电机
+    S:TileEntity_DESCRIPTION_1172_Index_6=达到最大洁净度所需的时间
+    S:TileEntity_DESCRIPTION_1172_Index_7=与内部空间的高度成正比
+    S:TileEntity_DESCRIPTION_1172_Index_8=确保你的能源仓匹配! ?
+    S:TileEntity_DESCRIPTION_1172_Index_9=-----------------------------------------
     S:TileES:TileEntity_Secondary_DESCRIPTION_1172_Index_0=大小(宽x高x长)：3-15x4-15x3-15 (中空)
     S:TileES:TileEntity_Secondary_DESCRIPTION_1172_Index_1=结构：
     S:TileES:TileEntity_Secondary_DESCRIPTION_1172_Index_2=   控制器：  顶层中央
@@ -4153,53 +4137,29 @@ languagefile {
     S:TileEntity_Secondary_DESCRIPTION_12732_Index_4=   输入仓：  任意底层机械方块
     S:TileEntity_Secondary_DESCRIPTION_12732_Index_5=   输出仓：  任意底层机械方块
     S:TileEntity_Secondary_DESCRIPTION_12732_Index_6=   维护仓：  任意底层机械方块
-#B     S:TileEntity_DESCRIPTION_12733_Index_0=Controller Block for the Thorium High Temperature Reactor
-#A     S:TileEntity_DESCRIPTION_12733_Index_0=Machine Type: §eHigh Temperature Reactor§r
-#C     S:TileEntity_DESCRIPTION_12733_Index_0=钍高温反应堆的控制器方块
-#B     S:TileEntity_DESCRIPTION_12733_Index_1=Size(WxHxD): 11x12x11 (Hollow)
-#A     S:TileEntity_DESCRIPTION_12733_Index_1=Controller block for the Thorium High Temperature Reactor (THTR)
-#C     S:TileEntity_DESCRIPTION_12733_Index_1=大小(宽x高x长)：11x12x11(中空)
-#B     S:TileEntity_DESCRIPTION_12733_Index_10=Needs a constant supply of coolant while running, will output after complete operation
-#A     S:TileEntity_DESCRIPTION_12733_Index_10=Hold §l[LSHIFT]§r§7 to display structure guidelines
-#C     S:TileEntity_DESCRIPTION_12733_Index_10=运行时需要持续供应冷却液,运行结束后会重新输出
-#B     S:TileEntity_DESCRIPTION_12733_Index_11=Needs at least 100k Fuel pebbles to start operation (can hold up to 675k pebbles)
-#A     S:TileEntity_DESCRIPTION_12733_Index_11=Added by: §aBartworks§7
-#C     S:TileEntity_DESCRIPTION_12733_Index_11=需要至少100k燃料丸才能开始运行(最多可容纳675k燃料丸)
-#B     S:TileEntity_DESCRIPTION_12733_Index_2=Controller: Front Center, Lowest Layer
-#A     S:TileEntity_DESCRIPTION_12733_Index_2=Needs a constant supply of coolant while running
-#C     S:TileEntity_DESCRIPTION_12733_Index_2=控制器方块(正面底中)
-#B     S:TileEntity_DESCRIPTION_12733_Index_3=Corners and the 2 touching blocks are air (cylindric)
-#A     S:TileEntity_DESCRIPTION_12733_Index_3=Needs at least 100k Fuel pebbles to start operation (can hold up to 675k pebbles)
-#C     S:TileEntity_DESCRIPTION_12733_Index_3=角落及其相邻方块均为空气方块(圆柱型)
-#B     S:TileEntity_DESCRIPTION_12733_Index_4=Once built, Helium is inserted into the Fluid Input Hatch until it doesn't accept any more
-#A     S:TileEntity_DESCRIPTION_12733_Index_4=Consumes up to 0.5% of total Fuel Pellets per Operation depending on efficiency
-#C     S:TileEntity_DESCRIPTION_12733_Index_4=一旦搭建完成后,需向输入仓持续通入氦,直到其不再接受为止
-#B     S:TileEntity_DESCRIPTION_12733_Index_5=1+ Output Hatch (Any Bottom casing)
-#A     S:TileEntity_DESCRIPTION_12733_Index_5=Efficiency is calculated exponentially depending on the amount of pebbles in the internal buffer
-#C     S:TileEntity_DESCRIPTION_12733_Index_5=1+输出仓(任意底层机械方块)
-#B     S:TileEntity_DESCRIPTION_12733_Index_6=1+ Input Hatch (Any Top casing)
-#A     S:TileEntity_DESCRIPTION_12733_Index_6=Reactor will take 4 800L/t of coolant multiplied by efficiency
-#C     S:TileEntity_DESCRIPTION_12733_Index_6=1+输入仓(任意顶层机械方块)
-#B     S:TileEntity_DESCRIPTION_12733_Index_7=1+ Input Bus (Any Top casing)
-#A     S:TileEntity_DESCRIPTION_12733_Index_7=Uses 3 840 EU/t
-#C     S:TileEntity_DESCRIPTION_12733_Index_7=1+输入总线(任意顶层机械方块)
-#B     S:TileEntity_DESCRIPTION_12733_Index_8=1x Maintenance Hatch (Any casing)
-#A     S:TileEntity_DESCRIPTION_12733_Index_8=One Operation takes 9 hour
-#C     S:TileEntity_DESCRIPTION_12733_Index_8=1x维护仓(任意机械方块)
-#B     S:TileEntity_DESCRIPTION_12733_Index_9=Radiation Proof Casings for the Rest
-#A     S:TileEntity_DESCRIPTION_12733_Index_9=-----------------------------------------
-#C     S:TileEntity_DESCRIPTION_12733_Index_9=剩余方块为防辐射机械方块
-Dimensions: 11x12x11 (HxHXL) (Hollow)
-Structure:
-Controller: Front bottom center
-0x Radiation Proof Casings (minimum)
-Corners and the 2 touching blocks are air (cy1indric)
-Input Bus: Any top layer casing
-Input Hatch: Any top layer casing 
-Dutput Bus: Any bottom layer casing
-Dutput Hatch: Any bottom layer casing 
-Energy Hatch: Any bottom layer casing
-Maintenance Hatch: Any bottom layer casing
+    S:TileEntity_DESCRIPTION_12733_Index_0=机器类型: §e高温反应堆§r
+    S:TileEntity_DESCRIPTION_12733_Index_1=钍高温反应堆(THTR)的控制器方块
+    S:TileEntity_DESCRIPTION_12733_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_12733_Index_11=由 §aBartworks§7 添加
+    S:TileEntity_DESCRIPTION_12733_Index_2=运行时需要持续供应冷却液
+    S:TileEntity_DESCRIPTION_12733_Index_3=需要至少100k燃料丸才能开始运行(最多可容纳675k燃料丸)
+    S:TileEntity_DESCRIPTION_12733_Index_4=基于效率每次运行最多消耗所有燃料丸的0.5%
+    S:TileEntity_DESCRIPTION_12733_Index_5=效率是指数增长的,具体取决于内部缓冲区中的燃料丸数量
+    S:TileEntity_DESCRIPTION_12733_Index_6=反应堆每t需要4800L*效率的冷却液
+    S:TileEntity_DESCRIPTION_12733_Index_7=并消耗3840EU/t
+    S:TileEntity_DESCRIPTION_12733_Index_8=一次运行持续9小时
+    S:TileEntity_DESCRIPTION_12733_Index_9=-----------------------------------------
+    S:TileEntity_Secondary_DESCRIPTION_12733_Index_0=大小(宽x高x长)：11x12x11(中空)
+    S:TileEntity_Secondary_DESCRIPTION_12733_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_12733_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_12733_Index_3=   0x防辐射机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_12733_Index_4=   角落及其相邻方块均为空气方块(圆柱型)
+    S:TileEntity_Secondary_DESCRIPTION_12733_Index_5=   输入总线：任意顶层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12733_Index_6=   输入仓：  任意顶层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12733_Index_7=   输出总线：任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12733_Index_8=   输出仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12733_Index_9=   能源仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12733_Index_10=   维护仓：  任意底层机械方块
     S:TileEntity_DESCRIPTION_12734_Index_0=电动聚爆压缩机的控制器方块
     S:TileEntity_DESCRIPTION_12734_Index_1=大小(宽x高x长)：3x9x3
     S:TileEntity_DESCRIPTION_12734_Index_2=用电代替炸药
@@ -4451,29 +4411,29 @@ Maintenance Hatch: Any bottom layer casing
     S:TileEntity_DESCRIPTION_12790_Index_0=多方块机器的能量输出端
     S:TileEntity_DESCRIPTION_12790_Index_1=通量：§e16 777 210§r EU/t
     S:TileEntity_DESCRIPTION_12790_Index_2=添加者：bartimaeusnek,模组：§2BartWorks§7
-#N     S:TileEntity_DESCRIPTION_12791_Index_0=Machine Type: §eBreeder Reactor§r
-#N     S:TileEntity_DESCRIPTION_12791_Index_1=Controller block for the High Temperature Gas-cooled Reactor (HTGR)
+    S:TileEntity_DESCRIPTION_12791_Index_0=机器类型: §e增殖反应堆§r
+    S:TileEntity_DESCRIPTION_12791_Index_1=高温气冷反应堆(HTGR)的控制器方块
     S:TileEntity_DESCRIPTION_12791_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
-#N     S:TileEntity_DESCRIPTION_12791_Index_11=Added by: §aBartworks§7
-#N     S:TileEntity_DESCRIPTION_12791_Index_2=Needs a constant supply of coolant while running
-#N     S:TileEntity_DESCRIPTION_12791_Index_3=Needs at least 72k Fuel pebbles to start operation (can hold up to 720k pebbles)
-#N     S:TileEntity_DESCRIPTION_12791_Index_4=Consumes up to 0.5% of total Fuel Pellets per Operation depending on efficiency
-#N     S:TileEntity_DESCRIPTION_12791_Index_5=Efficiency is calculated exponentially depending on the amount of pebbles in the internal buffer
-#N     S:TileEntity_DESCRIPTION_12791_Index_6=Reactor will take 4 000L/s of coolant multiplied by efficiency and by fuel coolant value (check tooltips)
-#N     S:TileEntity_DESCRIPTION_12791_Index_7=Uses 30 720 EU/t
-#N     S:TileEntity_DESCRIPTION_12791_Index_8=One Operation takes 1 hour
+    S:TileEntity_DESCRIPTION_12791_Index_11=由 §aBartworks§7 添加
+    S:TileEntity_DESCRIPTION_12791_Index_2=运行时需要持续供应冷却液
+    S:TileEntity_DESCRIPTION_12791_Index_3=需要至少72k燃料丸才能开始运行(最多可容纳720k燃料丸)
+    S:TileEntity_DESCRIPTION_12791_Index_4=基于效率每次运行最多消耗所有燃料丸的0.5%
+    S:TileEntity_DESCRIPTION_12791_Index_5=效率是指数增长的,具体取决于内部缓冲区中的燃料丸数量
+    S:TileEntity_DESCRIPTION_12791_Index_6=反应堆消耗冷却液量：4000L/s*效率*燃料冷却值(查看tooltips)
+    S:TileEntity_DESCRIPTION_12791_Index_7=并消耗30 720 EU/t
+    S:TileEntity_DESCRIPTION_12791_Index_8=一次运行持续1小时
     S:TileEntity_DESCRIPTION_12791_Index_9=-----------------------------------------
-Dimensions: 11x12x11 (HxHxL) (Hollow)
-Structure:
-Controller: Front bottom center
-0x Europium Reinforced Radiation Proof Casings (minimum)
-Corners and the 2 touching blocks are air (cylindric)
-Input Bus: Any top layer casing
-Input Hatch: Any top layer casing
-Qutput Bus: Any bottom layer casing
-Dutput Hatch: Any bottom layer casing
-Energy Hatch: Any bottom layer casing
-Maintenance Hatch: Any bottom layer casing
+    S:TileEntity_Secondary_DESCRIPTION_12791_Index_0=大小(宽x高x长)：11x12x11(中空)
+    S:TileEntity_Secondary_DESCRIPTION_12791_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_12791_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_12791_Index_3=   0x铕强化防辐射机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_12791_Index_4=   角落及其相邻方块均为空气方块(圆柱型)
+    S:TileEntity_Secondary_DESCRIPTION_12791_Index_5=   输入总线：任意顶层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12791_Index_6=   输入仓：  任意顶层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12791_Index_7=   输出总线：任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12791_Index_8=   输出仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12791_Index_9=   能源仓：  任意底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_12791_Index_10=   维护仓：  任意底层机械方块
     S:TileEntity_DESCRIPTION_127_Index_0=可以储存512 000 000个物品
     S:TileEntity_DESCRIPTION_127_Index_1=使用螺丝刀启用
     S:TileEntity_DESCRIPTION_127_Index_2=物品过量销毁模式
@@ -5945,9 +5905,7 @@ Maintenance Hatch: Any bottom layer casing
     S:TileEntity_DESCRIPTION_15310_Index_1=用户控制的计算力路由
     S:TileEntity_DESCRIPTION_15310_Index_2=§b§l§b§l服务质量是必须的
     S:TileEntity_DESCRIPTION_15311_Index_0=§9§9Tec§1Tech§9：万物基石
-#B     S:TileEntity_DESCRIPTION_15311_Index_1=00111010 10000100 10010101 10000110
-#A     S:TileEntity_DESCRIPTION_15311_Index_1=00101000 11101011 10111110 00111011
-#C     S:TileEntity_DESCRIPTION_15311_Index_1=00111010 10000100 10010101 10000110
+    S:TileEntity_DESCRIPTION_15311_Index_1=00101000 11101011 10111110 00111011
     S:TileEntity_DESCRIPTION_15311_Index_2=§b§l§b§l你需要它来处理上面的这串数字
     S:TileEntity_DESCRIPTION_15312_Index_0=§9§9Bass§1Tech§9: Θ转移
     S:TileEntity_DESCRIPTION_15312_Index_1=高频烤炉
@@ -8255,9 +8213,7 @@ Maintenance Hatch: Any bottom layer casing
     S:TileEntity_DESCRIPTION_32001_Index_6=效率取决于助燃剂和燃料的比例.
     S:TileEntity_DESCRIPTION_32001_Index_7=比例越高，效率也越高.
     S:TileEntity_DESCRIPTION_32001_Index_8=每秒产生的污染=sqrt(当前输出功率)
-#B     S:TileEntity_DESCRIPTION_32001_Index_9=If you forge to supply Combustion Promoter, this engine will swallow all the fuel §ewithout outputting energy§7.
-#A     S:TileEntity_DESCRIPTION_32001_Index_9=If you forget to supply Combustion Promoter, this engine will swallow all the fuel §ewithout outputting energy§7.
-#C     S:TileEntity_DESCRIPTION_32001_Index_9=如果你忘记为其提供助燃剂，它会吞掉所有的燃料§e且不输出能量§7.
+    S:TileEntity_DESCRIPTION_32001_Index_9=如果你忘记为其提供助燃剂，它会吞掉所有的燃料§e且不输出能量§7.
     S:TileEntity_Secondary_DESCRIPTION_32001_Index_0=维护仓：  提示方块：1号
     S:TileEntity_Secondary_DESCRIPTION_32001_Index_1=消声仓：  提示方块：2号
     S:TileEntity_Secondary_DESCRIPTION_32001_Index_2=输入仓：  提示方块：3号
@@ -8278,80 +8234,44 @@ Maintenance Hatch: Any bottom layer casing
     S:TileEntity_Secondary_DESCRIPTION_32002_Index_3=源质输入仓：提示方块：1号
     S:TileEntity_DESCRIPTION_32003_Index_0=输入EU，加速中子！
     S:TileEntity_DESCRIPTION_32003_Index_1=最大EU输入：8
-#B     S:TileEntity_DESCRIPTION_32003_Index_2=Max EU consumption: 10
-#A     S:TileEntity_DESCRIPTION_32003_Index_2=Max EU consumption: 6
-#C     S:TileEntity_DESCRIPTION_32003_Index_2=最大EU消耗：10
-#B     S:TileEntity_DESCRIPTION_32003_Index_3=Every EU can be transformed into 0.1~0.2 KeV Neutron Kinetic Energy.
-#A     S:TileEntity_DESCRIPTION_32003_Index_3=Every EU can be transformed into 10~20 eV Neutron Kinetic Energy.
-#C     S:TileEntity_DESCRIPTION_32003_Index_3=每点EU都会转化为0.1~0.2-KeV中子动能.
+    S:TileEntity_DESCRIPTION_32003_Index_2=最大EU消耗：6
+    S:TileEntity_DESCRIPTION_32003_Index_3=每点EU都会转化为10~20-eV中子动能.
     S:TileEntity_DESCRIPTION_32004_Index_0=输入EU，加速中子！
     S:TileEntity_DESCRIPTION_32004_Index_1=最大EU输入：32
-#B     S:TileEntity_DESCRIPTION_32004_Index_2=Max EU consumption: 40
-#A     S:TileEntity_DESCRIPTION_32004_Index_2=Max EU consumption: 25
-#C     S:TileEntity_DESCRIPTION_32004_Index_2=最大EU消耗：40
-#B     S:TileEntity_DESCRIPTION_32004_Index_3=Every EU can be transformed into 0.1~0.2 KeV Neutron Kinetic Energy.
-#A     S:TileEntity_DESCRIPTION_32004_Index_3=Every EU can be transformed into 10~20 eV Neutron Kinetic Energy.
-#C     S:TileEntity_DESCRIPTION_32004_Index_3=每点EU都会转化为0.1~0.2-KeV中子动能.
+    S:TileEntity_DESCRIPTION_32004_Index_2=最大EU消耗：25
+    S:TileEntity_DESCRIPTION_32004_Index_3=每点EU都会转化为10~20-eV中子动能.
     S:TileEntity_DESCRIPTION_32005_Index_0=输入EU，加速中子！
     S:TileEntity_DESCRIPTION_32005_Index_1=最大EU输入：128
-#B     S:TileEntity_DESCRIPTION_32005_Index_2=Max EU consumption: 160
-#A     S:TileEntity_DESCRIPTION_32005_Index_2=Max EU consumption: 102
-#C     S:TileEntity_DESCRIPTION_32005_Index_2=最大EU消耗：160
-#B     S:TileEntity_DESCRIPTION_32005_Index_3=Every EU can be transformed into 0.1~0.2 KeV Neutron Kinetic Energy.
-#A     S:TileEntity_DESCRIPTION_32005_Index_3=Every EU can be transformed into 10~20 eV Neutron Kinetic Energy.
-#C     S:TileEntity_DESCRIPTION_32005_Index_3=每点EU都会转化为0.1~0.2-KeV中子动能.
+    S:TileEntity_DESCRIPTION_32005_Index_2=最大EU消耗：102
+    S:TileEntity_DESCRIPTION_32005_Index_3=每点EU都会转化为10~20-eV中子动能.
     S:TileEntity_DESCRIPTION_32006_Index_0=输入EU，加速中子！
     S:TileEntity_DESCRIPTION_32006_Index_1=最大EU输入：512
-#B     S:TileEntity_DESCRIPTION_32006_Index_2=Max EU consumption: 640
-#A     S:TileEntity_DESCRIPTION_32006_Index_2=Max EU consumption: 409
-#C     S:TileEntity_DESCRIPTION_32006_Index_2=最大EU消耗：640
-#B     S:TileEntity_DESCRIPTION_32006_Index_3=Every EU can be transformed into 0.1~0.2 KeV Neutron Kinetic Energy.
-#A     S:TileEntity_DESCRIPTION_32006_Index_3=Every EU can be transformed into 10~20 eV Neutron Kinetic Energy.
-#C     S:TileEntity_DESCRIPTION_32006_Index_3=每点EU都会转化为0.1~0.2-KeV中子动能.
+    S:TileEntity_DESCRIPTION_32006_Index_2=最大EU消耗：409
+    S:TileEntity_DESCRIPTION_32006_Index_3=每点EU都会转化为10~20-eV中子动能.
     S:TileEntity_DESCRIPTION_32007_Index_0=输入EU，加速中子！
     S:TileEntity_DESCRIPTION_32007_Index_1=最大EU输入：2048
-#B     S:TileEntity_DESCRIPTION_32007_Index_2=Max EU consumption: 2560
-#A     S:TileEntity_DESCRIPTION_32007_Index_2=Max EU consumption: 1638
-#C     S:TileEntity_DESCRIPTION_32007_Index_2=最大EU消耗：2560
-#B     S:TileEntity_DESCRIPTION_32007_Index_3=Every EU can be transformed into 0.1~0.2 KeV Neutron Kinetic Energy.
-#A     S:TileEntity_DESCRIPTION_32007_Index_3=Every EU can be transformed into 10~20 eV Neutron Kinetic Energy.
-#C     S:TileEntity_DESCRIPTION_32007_Index_3=每点EU都会转化为0.1~0.2-KeV中子动能.
+    S:TileEntity_DESCRIPTION_32007_Index_2=最大EU消耗：1638
+    S:TileEntity_DESCRIPTION_32007_Index_3=每点EU都会转化为10~20-eV中子动能.
     S:TileEntity_DESCRIPTION_32008_Index_0=输入EU，加速中子！
     S:TileEntity_DESCRIPTION_32008_Index_1=最大EU输入：8192
-#B     S:TileEntity_DESCRIPTION_32008_Index_2=Max EU consumption: 10240
-#A     S:TileEntity_DESCRIPTION_32008_Index_2=Max EU consumption: 6553
-#C     S:TileEntity_DESCRIPTION_32008_Index_2=最大EU消耗：10240
-#B     S:TileEntity_DESCRIPTION_32008_Index_3=Every EU can be transformed into 0.1~0.2 KeV Neutron Kinetic Energy.
-#A     S:TileEntity_DESCRIPTION_32008_Index_3=Every EU can be transformed into 10~20 eV Neutron Kinetic Energy.
-#C     S:TileEntity_DESCRIPTION_32008_Index_3=每点EU都会转化为0.1~0.2-KeV中子动能.
+    S:TileEntity_DESCRIPTION_32008_Index_2=最大EU消耗：6553
+    S:TileEntity_DESCRIPTION_32008_Index_3=每点EU都会转化为10~20-eV中子动能.
     S:TileEntity_DESCRIPTION_32009_Index_0=输入EU，加速中子！
     S:TileEntity_DESCRIPTION_32009_Index_1=最大EU输入：32768
-#B     S:TileEntity_DESCRIPTION_32009_Index_2=Max EU consumption: 40960
-#A     S:TileEntity_DESCRIPTION_32009_Index_2=Max EU consumption: 26214
-#C     S:TileEntity_DESCRIPTION_32009_Index_2=最大EU消耗：40960
-#B     S:TileEntity_DESCRIPTION_32009_Index_3=Every EU can be transformed into 0.1~0.2 KeV Neutron Kinetic Energy.
-#A     S:TileEntity_DESCRIPTION_32009_Index_3=Every EU can be transformed into 10~20 eV Neutron Kinetic Energy.
-#C     S:TileEntity_DESCRIPTION_32009_Index_3=每点EU都会转化为0.1~0.2-KeV中子动能.
+    S:TileEntity_DESCRIPTION_32009_Index_2=最大EU消耗：26214
+    S:TileEntity_DESCRIPTION_32009_Index_3=每点EU都会转化为10~20-eV中子动能.
     S:TileEntity_DESCRIPTION_32010_Index_0=输入EU，加速中子！
     S:TileEntity_DESCRIPTION_32010_Index_1=最大EU输入：131072
-#B     S:TileEntity_DESCRIPTION_32010_Index_2=Max EU consumption: 163840
-#A     S:TileEntity_DESCRIPTION_32010_Index_2=Max EU consumption: 104857
-#C     S:TileEntity_DESCRIPTION_32010_Index_2=最大EU消耗：163840
-#B     S:TileEntity_DESCRIPTION_32010_Index_3=Every EU can be transformed into 0.1~0.2 KeV Neutron Kinetic Energy.
-#A     S:TileEntity_DESCRIPTION_32010_Index_3=Every EU can be transformed into 10~20 eV Neutron Kinetic Energy.
-#C     S:TileEntity_DESCRIPTION_32010_Index_3=每点EU都会转化为0.1~0.2-KeV中子动能.
+    S:TileEntity_DESCRIPTION_32010_Index_2=最大EU消耗：104857
+    S:TileEntity_DESCRIPTION_32010_Index_3=每点EU都会转化为10~20-eV中子动能.
     S:TileEntity_DESCRIPTION_32011_Index_0=输入EU，加速中子！
     S:TileEntity_DESCRIPTION_32011_Index_1=最大EU输入：524288
-#B     S:TileEntity_DESCRIPTION_32011_Index_2=Max EU consumption: 655360
-#A     S:TileEntity_DESCRIPTION_32011_Index_2=Max EU consumption: 419430
-#C     S:TileEntity_DESCRIPTION_32011_Index_2=最大EU消耗：655360
-#B     S:TileEntity_DESCRIPTION_32011_Index_3=Every EU can be transformed into 0.1~0.2 KeV Neutron Kinetic Energy.
-#A     S:TileEntity_DESCRIPTION_32011_Index_3=Every EU can be transformed into 10~20 eV Neutron Kinetic Energy.
-#C     S:TileEntity_DESCRIPTION_32011_Index_3=每点EU都会转化为0.1~0.2-KeV中子动能.
+    S:TileEntity_DESCRIPTION_32011_Index_2=最大EU消耗：419430
+    S:TileEntity_DESCRIPTION_32011_Index_3=每点EU都会转化为10~20-eV中子动能.
     S:TileEntity_DESCRIPTION_32012_Index_0=可安装在中子活化器上.
     S:TileEntity_DESCRIPTION_32012_Index_1=基于中子动能输出红石信号.
     S:TileEntity_DESCRIPTION_32012_Index_2=右键以打开GUI进行设置.
-#N     S:TileEntity_DESCRIPTION_32013_Index_0=Machine Type: §eNeutron Activator§r
+#N     S:TileEntity_DESCRIPTION_32013_Index_0=机器类型: §eNeutron Activator§r
 #N     S:TileEntity_DESCRIPTION_32013_Index_1=Controller block for the Neutron Activator
     S:TileEntity_DESCRIPTION_32013_Index_10=-----------------------------------------
     S:TileEntity_DESCRIPTION_32013_Index_11=按住 §l[LSHIFT]§r§7 以显示结构指导
@@ -8364,14 +8284,14 @@ Maintenance Hatch: Any bottom layer casing
 #N     S:TileEntity_DESCRIPTION_32013_Index_7=It will explode when the Neutron Kinetic Energy is over§c 1200MeV§7.
     S:TileEntity_DESCRIPTION_32013_Index_8=结构太复杂了！
 #N     S:TileEntity_DESCRIPTION_32013_Index_9=Follow the§9 Structure§1Lib§7 hologram projector to build the main structure.
-Dimensions: 5x6x5 (HxHxL)
-Structure: 
-Controller: Front bottom
-Input Hatch: Hint block with dot 1
-Input Bus: Hint block with dot 1
-Output Hatch: Hint block with dot 2
-Output Bus: Hint block with dot 2
-Maintenance Hatch: Hint block with dot 2
+大小(宽x高x长)：5x6x5
+结构： 
+   控制器：  正面底中
+   输入仓：  Hint block with dot 1
+   输入总线：Hint block with dot 1
+   输出仓：  Hint block with dot 2
+   输出总线：Hint block with dot 2
+   维护仓：  Hint block with dot 2
 Neutron Accelerator: Hint block with dot 2
 Neutron Sensor: Hint block with dot 2
 7X Clean Stainless Steel Machine Casing (minimum)
