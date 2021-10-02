@@ -514,24 +514,24 @@ languagefile {
     S:MU-metaitem.01.32162.tooltip=你不会喜欢用这个的
     S:MU-metaitem.01.name=Generated Item
     S:"Material.1,1dimethylhydrazine"=偏二甲肼
-#N     S:Material.2-ethyl-1-hexanol=2-Ethyl-1-Hexanol
-#N     S:Material.2-tert-butyl-anthrahydroquinone=2-tert-butyl-anthrahydroquinone
-#N     S:Material.2-tert-butyl-anthraquinone=2-tert-butyl-anthraquinone
+    S:Material.2-ethyl-1-hexanol=2-乙基己醇
+    S:Material.2-tert-butyl-anthrahydroquinone=2-叔丁基蒽氢醌
+    S:Material.2-tert-butyl-anthraquinone=2-叔丁基蒽醌
     S:Material.2nitrochlorobenzene=2-硝基氯苯
-    S:"Material.3,3diaminobenzidine"=3,3-二氨基联苯胺
-    S:"Material.3,3dichlorobenzidine"=3,3-二氯联苯胺
-#N     S:Material._null=_NULL
+    S:"Material.3,3diaminobenzidine"=3,3'-二氨基联苯胺
+    S:"Material.3,3dichlorobenzidine"=3,3'-二氯联苯胺
+    S:Material._null=_NULL
     S:Material.aceticacid=乙酸
     S:Material.acetone=丙酮
-#N     S:Material.acetylhydrazine=Acetylhydrazine
-#N     S:Material.acidiciridiumsolution=Acidic Iridium Solution
-#N     S:Material.acidicosmiumsolution=Acidic Osmium Solution
-#N     S:Material.acidnaquadahemulsion=Acid Naquadah Emulsion
-#N     S:Material.adamantine=Adamantine
-    S:Material.adamantium=精金合金
-#N     S:Material.adamantiumalloy=Adamantium Alloy
+    S:Material.acetylhydrazine=乙酰肼
+    S:Material.acidiciridiumsolution=酸性铱溶液
+    S:Material.acidicosmiumsolution=酸性锇溶液
+    S:Material.acidnaquadahemulsion=酸性硅岩乳液
+    S:Material.adamantine=氧化精金
+    S:Material.adamantium=精金
+    S:Material.adamantiumalloy=精金合金
     S:Material.adamite=水砷锌矿
-#N     S:Material.ademicsteel=Ademic Steel
+    S:Material.ademicsteel=硬钢
     S:Material.adluorite=亚萤石
     S:Material.advanced=高级
     S:Material.agate=玛瑙
@@ -1213,7 +1213,7 @@ languagefile {
     S:Material.randomite=随机
     S:Material.rareearth=稀土
 #N     S:Material.rarestmetalresidue=Rarest Metal Residue
-#N     S:Material.rawademicsteel=Raw Ademic Steel
+    S:Material.rawademicsteel=粗制硬钢
     S:Material.rawgasoline=粗汽油
     S:Material.rawradox=粗制拉多X
     S:Material.rawrubber=生橡胶
@@ -10825,7 +10825,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:bw.werkstoffblocks.01.10082.name=Block of Zircaloy-4
 #N     S:bw.werkstoffblocks.01.10083.name=Block of Zircaloy-2
 #N     S:bw.werkstoffblocks.01.10084.name=Block of Incoloy-903
-#N     S:bw.werkstoffblocks.01.10085.name=Block of Adamantium Alloy
+#N     S:bw.werkstoffblocks.01.10085.name=Block of 精金合金
     S:bw.werkstoffblocks.01.19.name=红锆石块
     S:bw.werkstoffblocks.01.20.name=盐块
     S:bw.werkstoffblocks.01.21.name=锂辉石块
@@ -10856,7 +10856,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:bw.werkstoffblockscasing.01.10082.name=Bolted Zircaloy-4 Casing
 #N     S:bw.werkstoffblockscasing.01.10083.name=Bolted Zircaloy-2 Casing
 #N     S:bw.werkstoffblockscasing.01.10084.name=Bolted Incoloy-903 Casing
-#N     S:bw.werkstoffblockscasing.01.10085.name=Bolted Adamantium Alloy Casing
+    S:bw.werkstoffblockscasing.01.10085.name=精金合金机械方块
     S:bw.werkstoffblockscasing.01.31776.name=碳机械方块
     S:bw.werkstoffblockscasing.01.31785.name=铝机械方块
     S:bw.werkstoffblockscasing.01.31794.name=钛机械方块
@@ -10883,7 +10883,7 @@ Neutron Sensor: Hint block with dot 2
     S:bw.werkstoffblockscasing.01.32071.name=钢机械方块
     S:bw.werkstoffblockscasing.01.32072.name=不锈钢机械方块
     S:bw.werkstoffblockscasing.01.32083.name=铱锇合金机械方块
-#N     S:bw.werkstoffblockscasing.01.32090.name=Bolted Naquadah Casing
+    S:bw.werkstoffblockscasing.01.32090.name=硅岩机械方块
     S:bw.werkstoffblockscasing.01.32091.name=硅岩合金机械方块
     S:bw.werkstoffblockscasing.01.32100.name=黑钢机械方块
     S:bw.werkstoffblockscasing.01.32101.name=大马士革钢机械方块
@@ -10909,7 +10909,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:bw.werkstoffblockscasingadvanced.01.10082.name=Rebolted Zircaloy-4 Casing
 #N     S:bw.werkstoffblockscasingadvanced.01.10083.name=Rebolted Zircaloy-2 Casing
 #N     S:bw.werkstoffblockscasingadvanced.01.10084.name=Rebolted Incoloy-903 Casing
-#N     S:bw.werkstoffblockscasingadvanced.01.10085.name=Rebolted Adamantium Alloy Casing
+    S:bw.werkstoffblockscasingadvanced.01.10085.name=强化精金合金机械方块
     S:bw.werkstoffblockscasingadvanced.01.31776.name=强化碳机械方块
     S:bw.werkstoffblockscasingadvanced.01.31785.name=强化铝机械方块
     S:bw.werkstoffblockscasingadvanced.01.31794.name=强化钛机械方块
@@ -10936,7 +10936,7 @@ Neutron Sensor: Hint block with dot 2
     S:bw.werkstoffblockscasingadvanced.01.32071.name=强化钢机械方块
     S:bw.werkstoffblockscasingadvanced.01.32072.name=强化不锈钢机械方块
     S:bw.werkstoffblockscasingadvanced.01.32083.name=强化铱锇合金机械方块
-#N     S:bw.werkstoffblockscasingadvanced.01.32090.name=Rebolted Naquadah Casing
+    S:bw.werkstoffblockscasingadvanced.01.32090.name=强化硅岩机械方块
     S:bw.werkstoffblockscasingadvanced.01.32091.name=强化硅岩合金机械方块
     S:bw.werkstoffblockscasingadvanced.01.32100.name=强化黑钢机械方块
     S:bw.werkstoffblockscasingadvanced.01.32101.name=强化大马士革钢机械方块
@@ -11101,8 +11101,8 @@ Neutron Sensor: Hint block with dot 2
     S:enchantment.damage.radioactivity=辐射
     S:"fluid.1,1dimethylhydrazine"=偏二甲肼
     S:fluid.2nitrochlorobenzene=2-硝基氯苯
-    S:"fluid.3,3diaminobenzidine"=3,3-二氨基联苯胺
-    S:"fluid.3,3dichlorobenzidine"=3,3-二氯联苯胺
+    S:"fluid.3,3diaminobenzidine"=3,3'-二氨基联苯胺
+    S:"fluid.3,3dichlorobenzidine"=3,3'-二氯联苯胺
     S:"fluid.Fulvic Acid"=富里酸
     S:"fluid.Heated Fulvic Acid"=加热的富里酸
     S:fluid.Kerogen=油母质
@@ -11351,7 +11351,7 @@ Neutron Sensor: Hint block with dot 2
     S:fluid.moderatelysteamcracked.naphtha=中度蒸汽裂化的石脑油
     S:fluid.moderatelysteamcracked.propane=中度蒸汽裂化的丙烷
     S:fluid.moderatelysteamcracked.propene=中度蒸汽裂化的丙烯
-#N     S:"fluid.molten.Adamantium Alloy"=Molten Adamantium Alloy
+#N     S:"fluid.molten.Adamantium Alloy"=Molten 精金合金
     S:"fluid.molten.Ademic Steel"=熔融硬钢
     S:"fluid.molten.Atomic Separation Catalyst"=熔融原子分离催化剂
     S:fluid.molten.BArTiMaEuSNeK=熔融BArTiMaEuSNeK
@@ -11370,7 +11370,7 @@ Neutron Sensor: Hint block with dot 2
     S:"fluid.molten.Zn-Th Alloy"=熔融锌钍合金
     S:fluid.molten.abyssalalloy=熔融深渊合金
     S:fluid.molten.actinium=熔融锕
-    S:fluid.molten.adamantium=熔融精金合金
+    S:fluid.molten.adamantium=熔融精金
     S:fluid.molten.adluorite=熔融亚萤石
     S:fluid.molten.advancednitinol=熔融高级镍钛诺
     S:fluid.molten.alduorite=熔融神秘蓝金
@@ -12178,7 +12178,7 @@ Neutron Sensor: Hint block with dot 2
     S:for.bees.species.zinc=锌
     S:gg.recipe.naquadah_fuel_refine_factory=硅岩燃料精炼厂
     S:gg.recipe.naquadah_reactor=大型硅岩反应堆
-#N     S:gg.recipe.neutron_activator=Neutron Activator
+    S:gg.recipe.neutron_activator=中子活化器
     S:gt.1080k_Space_Coolantcell.name=1080k空间冷却单元
     S:gt.180k_Helium_Coolantcell.name=180k氦冷却单元
     S:gt.180k_NaK_Coolantcell.name=180k钠钾冷却单元
@@ -12362,7 +12362,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.blockcasings8.3.name=黑钚采矿机械方块
     S:gt.blockcasings8.32767.name=任何本方块的子方块
     S:gt.blockcasings8.4.name=极限引擎进气机械方块
-#N     S:gt.blockcasings8.5.name=Europium Reinforced Radiation Proof Machine Casing
+    S:gt.blockcasings8.5.name=铕强化防辐射机械方块
     S:gt.blockcasingsBA0.0.name=红石合金初级特斯拉绕组
     S:gt.blockcasingsBA0.1.name=MV超导初级特斯拉绕组
     S:gt.blockcasingsBA0.2.name=HV超导初级特斯拉绕组
@@ -13847,7 +13847,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.blockmachines.generatorarray.controller.tier.01.name=大型发电阵列
     S:gt.blockmachines.giantoutputhatch.name=巨型输出仓
     S:gt.blockmachines.gt_frame.desc.format=只是一个能安装覆盖板的方块
-    S:gt.blockmachines.gt_frame_adamantium.name=精金合金框架
+    S:gt.blockmachines.gt_frame_adamantium.name=精金框架
     S:gt.blockmachines.gt_frame_alduorite.name=神秘蓝金框架
     S:gt.blockmachines.gt_frame_aluminium.name=铝框架
     S:gt.blockmachines.gt_frame_alumite.name=%material框架
@@ -14819,7 +14819,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.blockmachines.hpmachine.furnace.name=高压蒸汽熔炉
     S:gt.blockmachines.hpmachine.hammer.name=高压锻造锤
     S:gt.blockmachines.hpmachine.macerator.name=高压研磨机
-#N     S:gt.blockmachines.htgr.name=High Temperature Gas-cooled Reactor
+    S:gt.blockmachines.htgr.name=高温气冷反应堆
     S:gt.blockmachines.hull.bronze.name=青铜外壳
     S:gt.blockmachines.hull.bronze_bricked.name=砖砌青铜外壳
     S:gt.blockmachines.hull.steel.name=钢外壳
@@ -15012,7 +15012,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.blockmachines.neutron_accelerator_uv.name=UV中子加速器
     S:gt.blockmachines.neutron_accelerator_zpm.name=ZPM中子加速器
     S:gt.blockmachines.neutron_sensor.name=中子传感器
-#N     S:gt.blockmachines.neutronactivator.name=Neutron Activator
+    S:gt.blockmachines.neutronactivator.name=中子活化器
     S:gt.blockmachines.pipe.datastream.name=光缆
     S:gt.blockmachines.pipe.elementalmatter.name=量子隧道
     S:gt.blockmachines.pipe.energystream.name=激光真空管
@@ -15522,7 +15522,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.blockmachines.zpm_lplaser_hatch_32.name=ZPM 32A/t 低功率激光靶仓
     S:gt.blockmachines.zpm_lplaser_hatch_64.name=ZPM 64A/t 低功率激光靶仓
     S:gt.blockmachines.zpm_lplaser_hatch_96.name=ZPM 96A/t 低功率激光靶仓
-    S:gt.blockmetal1.0.name=精金合金块
+    S:gt.blockmetal1.0.name=精金块
     S:gt.blockmetal1.1.name=铝块
     S:gt.blockmetal1.10.name=铋青铜块
     S:gt.blockmetal1.11.name=黑青铜块
@@ -15767,7 +15767,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.blockores.1316.name=钨钢矿石
     S:gt.blockores.1317.name=铱锇合金矿石
     S:gt.blockores.1318.name=阳光化合物矿石
-    S:gt.blockores.1319.name=精金合金矿石
+    S:gt.blockores.1319.name=精金矿石
     S:gt.blockores.1320.name=通流琥珀金矿石
     S:gt.blockores.1321.name=末影锭矿石
     S:gt.blockores.1322.name=HSLA钢矿石
@@ -20488,7 +20488,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.blockores.2316.name=钨钢矿石
     S:gt.blockores.2317.name=铱锇合金矿石
     S:gt.blockores.2318.name=阳光化合物矿石
-    S:gt.blockores.2319.name=精金合金矿石
+    S:gt.blockores.2319.name=精金矿石
     S:gt.blockores.2320.name=通流琥珀金矿石
     S:gt.blockores.2321.name=末影锭矿石
     S:gt.blockores.2322.name=HSLA钢矿石
@@ -21086,7 +21086,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.blockores.316.name=钨钢矿石
     S:gt.blockores.317.name=铱锇合金矿石
     S:gt.blockores.318.name=阳光化合物矿石
-    S:gt.blockores.319.name=精金合金矿石
+    S:gt.blockores.319.name=精金矿石
     S:gt.blockores.32.name=%material矿石
     S:gt.blockores.320.name=通流琥珀金矿石
     S:gt.blockores.321.name=末影锭矿石
@@ -21123,7 +21123,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.blockores.3316.name=钨钢矿石
     S:gt.blockores.3317.name=铱锇合金矿石
     S:gt.blockores.3318.name=阳光化合物矿石
-    S:gt.blockores.3319.name=精金合金矿石
+    S:gt.blockores.3319.name=精金矿石
     S:gt.blockores.3320.name=通流琥珀金矿石
     S:gt.blockores.3321.name=末影锭矿石
     S:gt.blockores.3322.name=HSLA钢矿石
@@ -21795,7 +21795,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.blockores.4316.name=钨钢矿石
     S:gt.blockores.4317.name=铱锇合金矿石
     S:gt.blockores.4318.name=阳光化合物矿石
-    S:gt.blockores.4319.name=精金合金矿石
+    S:gt.blockores.4319.name=精金矿石
     S:gt.blockores.4320.name=通流琥珀金矿石
     S:gt.blockores.4321.name=末影锭矿石
     S:gt.blockores.4322.name=HSLA钢矿石
@@ -22437,7 +22437,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.blockores.5316.name=钨钢矿石
     S:gt.blockores.5317.name=铱锇合金矿石
     S:gt.blockores.5318.name=阳光化合物矿石
-    S:gt.blockores.5319.name=精金合金矿石
+    S:gt.blockores.5319.name=精金矿石
     S:gt.blockores.532.name=末影珍珠矿石
     S:gt.blockores.5320.name=通流琥珀金矿石
     S:gt.blockores.5321.name=末影锭矿石
@@ -23090,7 +23090,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.blockores.6316.name=钨钢矿石
     S:gt.blockores.6317.name=铱锇合金矿石
     S:gt.blockores.6318.name=阳光化合物矿石
-    S:gt.blockores.6319.name=精金合金矿石
+    S:gt.blockores.6319.name=精金矿石
     S:gt.blockores.632.name=对二氯苯矿石
     S:gt.blockores.6320.name=通流琥珀金矿石
     S:gt.blockores.6321.name=末影锭矿石
@@ -24247,7 +24247,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.117.tooltip=D
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.118.name=熔融觉醒龙锭胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.118.tooltip=D*
-    S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.121.name=熔融精金合金胶囊
+    S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.121.name=熔融精金胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.121.tooltip=Ad
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.123.name=熔融亚萤石胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsuleMolten.123.tooltip=
@@ -24899,7 +24899,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedbolt.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedbolt.10084.name=Incoloy-903 Bolt
 #N     S:gt.bwMetaGeneratedbolt.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedbolt.10085.name=Adamantium Alloy Bolt
+#N     S:gt.bwMetaGeneratedbolt.10085.name=精金合金 Bolt
 #N     S:gt.bwMetaGeneratedbolt.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedbolt.88.name=镀铑钯螺栓
     S:gt.bwMetaGeneratedbolt.88.tooltip=Pd₃Rh
@@ -24988,7 +24988,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedcapsule.10056.tooltip=??NqGaAd??
 #N     S:gt.bwMetaGeneratedcapsule.10058.name=Low Quality Naquadah Solution Capsule
 #N     S:gt.bwMetaGeneratedcapsule.10058.tooltip=~??NqAd??~
-#N     S:gt.bwMetaGeneratedcapsule.10059.name=2-Ethyl-1-Hexanol Capsule
+#N     S:gt.bwMetaGeneratedcapsule.10059.name=2-乙基己醇 Capsule
 #N     S:gt.bwMetaGeneratedcapsule.10059.tooltip=C₈H₁₈O
 #N     S:gt.bwMetaGeneratedcapsule.10060.name=P-507 Capsule
 #N     S:gt.bwMetaGeneratedcapsule.10060.tooltip=(C₈H₁₇)₂PO₃H
@@ -25121,7 +25121,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedcapsuleMolten.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedcapsuleMolten.10084.name=Molten Incoloy-903 Capsule
 #N     S:gt.bwMetaGeneratedcapsuleMolten.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedcapsuleMolten.10085.name=Molten Adamantium Alloy Capsule
+#N     S:gt.bwMetaGeneratedcapsuleMolten.10085.name=Molten 精金合金 Capsule
 #N     S:gt.bwMetaGeneratedcapsuleMolten.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedcapsuleMolten.39.name=熔融锎胶囊
     S:gt.bwMetaGeneratedcapsuleMolten.39.tooltip=Cf
@@ -25220,7 +25220,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedcell.10056.tooltip=??NqGaAd??
 #N     S:gt.bwMetaGeneratedcell.10058.name=Low Quality Naquadah Solution Cell
 #N     S:gt.bwMetaGeneratedcell.10058.tooltip=~??NqAd??~
-#N     S:gt.bwMetaGeneratedcell.10059.name=2-Ethyl-1-Hexanol Cell
+#N     S:gt.bwMetaGeneratedcell.10059.name=2-乙基己醇 Cell
 #N     S:gt.bwMetaGeneratedcell.10059.tooltip=C₈H₁₈O
 #N     S:gt.bwMetaGeneratedcell.10060.name=P-507 Cell
 #N     S:gt.bwMetaGeneratedcell.10060.tooltip=(C₈H₁₇)₂PO₃H
@@ -25353,7 +25353,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedcellMolten.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedcellMolten.10084.name=Molten Incoloy-903 Cell
 #N     S:gt.bwMetaGeneratedcellMolten.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedcellMolten.10085.name=Molten Adamantium Alloy Cell
+#N     S:gt.bwMetaGeneratedcellMolten.10085.name=Molten 精金合金 Cell
 #N     S:gt.bwMetaGeneratedcellMolten.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedcellMolten.39.name=熔融锎单元
     S:gt.bwMetaGeneratedcellMolten.39.tooltip=Cf
@@ -25657,7 +25657,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGenerateddust.10057.tooltip=Ga(OH)₃
 #N     S:gt.bwMetaGenerateddust.10063.name=Naquadahine Dust
 #N     S:gt.bwMetaGenerateddust.10063.tooltip=NqO₂
-#N     S:gt.bwMetaGenerateddust.10066.name=Adamantine Dust
+#N     S:gt.bwMetaGenerateddust.10066.name=氧化精金 Dust
 #N     S:gt.bwMetaGenerateddust.10066.tooltip=Ad₂O₃
 #N     S:gt.bwMetaGenerateddust.10067.name=Enriched-Naquadah Oxide Mixture Dust
 #N     S:gt.bwMetaGenerateddust.10067.tooltip=??KeNq⁺??
@@ -25683,7 +25683,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGenerateddust.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGenerateddust.10084.name=Incoloy-903 Dust
 #N     S:gt.bwMetaGenerateddust.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGenerateddust.10085.name=Adamantium Alloy Dust
+#N     S:gt.bwMetaGenerateddust.10085.name=精金合金 Dust
 #N     S:gt.bwMetaGenerateddust.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGenerateddust.11.name=钨铁粉
     S:gt.bwMetaGenerateddust.11.tooltip=FeWO₃
@@ -26044,7 +26044,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGenerateddustSmall.10057.tooltip=Ga(OH)₃
 #N     S:gt.bwMetaGenerateddustSmall.10063.name=Small Pile of Naquadahine Dust
 #N     S:gt.bwMetaGenerateddustSmall.10063.tooltip=NqO₂
-#N     S:gt.bwMetaGenerateddustSmall.10066.name=Small Pile of Adamantine Dust
+#N     S:gt.bwMetaGenerateddustSmall.10066.name=Small Pile of 氧化精金 Dust
 #N     S:gt.bwMetaGenerateddustSmall.10066.tooltip=Ad₂O₃
 #N     S:gt.bwMetaGenerateddustSmall.10067.name=Small Pile of Enriched-Naquadah Oxide Mixture Dust
 #N     S:gt.bwMetaGenerateddustSmall.10067.tooltip=??KeNq⁺??
@@ -26070,7 +26070,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGenerateddustSmall.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGenerateddustSmall.10084.name=Small Pile of Incoloy-903 Dust
 #N     S:gt.bwMetaGenerateddustSmall.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGenerateddustSmall.10085.name=Small Pile of Adamantium Alloy Dust
+#N     S:gt.bwMetaGenerateddustSmall.10085.name=Small Pile of 精金合金 Dust
 #N     S:gt.bwMetaGenerateddustSmall.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGenerateddustSmall.11.name=小堆钨铁粉
     S:gt.bwMetaGenerateddustSmall.11.tooltip=FeWO₃
@@ -26269,7 +26269,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGenerateddustTiny.10057.tooltip=Ga(OH)₃
 #N     S:gt.bwMetaGenerateddustTiny.10063.name=Tiny Pile of Naquadahine Dust
 #N     S:gt.bwMetaGenerateddustTiny.10063.tooltip=NqO₂
-#N     S:gt.bwMetaGenerateddustTiny.10066.name=Tiny Pile of Adamantine Dust
+#N     S:gt.bwMetaGenerateddustTiny.10066.name=Tiny Pile of 氧化精金 Dust
 #N     S:gt.bwMetaGenerateddustTiny.10066.tooltip=Ad₂O₃
 #N     S:gt.bwMetaGenerateddustTiny.10067.name=Tiny Pile of Enriched-Naquadah Oxide Mixture Dust
 #N     S:gt.bwMetaGenerateddustTiny.10067.tooltip=??KeNq⁺??
@@ -26295,7 +26295,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGenerateddustTiny.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGenerateddustTiny.10084.name=Tiny Pile of Incoloy-903 Dust
 #N     S:gt.bwMetaGenerateddustTiny.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGenerateddustTiny.10085.name=Tiny Pile of Adamantium Alloy Dust
+#N     S:gt.bwMetaGenerateddustTiny.10085.name=Tiny Pile of 精金合金 Dust
 #N     S:gt.bwMetaGenerateddustTiny.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGenerateddustTiny.11.name=小撮钨铁粉
     S:gt.bwMetaGenerateddustTiny.11.tooltip=FeWO₃
@@ -26466,7 +26466,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedgearGt.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedgearGt.10084.name=Incoloy-903 Gear
 #N     S:gt.bwMetaGeneratedgearGt.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedgearGt.10085.name=Adamantium Alloy Gear
+#N     S:gt.bwMetaGeneratedgearGt.10085.name=精金合金 Gear
 #N     S:gt.bwMetaGeneratedgearGt.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedgearGt.88.name=镀铑钯齿轮
     S:gt.bwMetaGeneratedgearGt.88.tooltip=Pd₃Rh
@@ -26489,7 +26489,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedgearGtSmall.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedgearGtSmall.10084.name=Small Incoloy-903 Gear
 #N     S:gt.bwMetaGeneratedgearGtSmall.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedgearGtSmall.10085.name=Small Adamantium Alloy Gear
+#N     S:gt.bwMetaGeneratedgearGtSmall.10085.name=Small 精金合金 Gear
 #N     S:gt.bwMetaGeneratedgearGtSmall.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedgearGtSmall.88.name=小型镀铑钯齿轮
     S:gt.bwMetaGeneratedgearGtSmall.88.tooltip=Pd₃Rh
@@ -26709,7 +26709,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedingot.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedingot.10084.name=Incoloy-903 Ingot
 #N     S:gt.bwMetaGeneratedingot.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedingot.10085.name=Adamantium Alloy Ingot
+#N     S:gt.bwMetaGeneratedingot.10085.name=精金合金 Ingot
 #N     S:gt.bwMetaGeneratedingot.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedingot.39.name=锎锭
     S:gt.bwMetaGeneratedingot.39.tooltip=Cf
@@ -26755,7 +26755,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedingotHot.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedingotHot.10084.name=Hot Incoloy-903 Ingot
 #N     S:gt.bwMetaGeneratedingotHot.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedingotHot.10085.name=Hot Adamantium Alloy Ingot
+#N     S:gt.bwMetaGeneratedingotHot.10085.name=Hot 精金合金 Ingot
 #N     S:gt.bwMetaGeneratedingotHot.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedingotHot.39.name=热锎锭
     S:gt.bwMetaGeneratedingotHot.39.tooltip=Cf
@@ -26866,7 +26866,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratednugget.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratednugget.10084.name=Incoloy-903 Nugget
 #N     S:gt.bwMetaGeneratednugget.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratednugget.10085.name=Adamantium Alloy Nugget
+#N     S:gt.bwMetaGeneratednugget.10085.name=精金合金 Nugget
 #N     S:gt.bwMetaGeneratednugget.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratednugget.39.name=锎粒
     S:gt.bwMetaGeneratednugget.39.tooltip=Cf
@@ -26903,7 +26903,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedplate.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedplate.10084.name=Incoloy-903 Plate
 #N     S:gt.bwMetaGeneratedplate.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedplate.10085.name=Adamantium Alloy Plate
+#N     S:gt.bwMetaGeneratedplate.10085.name=精金合金 Plate
 #N     S:gt.bwMetaGeneratedplate.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedplate.19.name=红锆石板
     S:gt.bwMetaGeneratedplate.19.tooltip=ZrSiO₄
@@ -27031,7 +27031,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedring.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedring.10084.name=Incoloy-903 Ring
 #N     S:gt.bwMetaGeneratedring.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedring.10085.name=Adamantium Alloy Ring
+#N     S:gt.bwMetaGeneratedring.10085.name=精金合金 Ring
 #N     S:gt.bwMetaGeneratedring.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedring.88.name=镀铑钯环
     S:gt.bwMetaGeneratedring.88.tooltip=Pd₃Rh
@@ -27054,7 +27054,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedrotor.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedrotor.10084.name=Incoloy-903 Rotor
 #N     S:gt.bwMetaGeneratedrotor.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedrotor.10085.name=Adamantium Alloy Rotor
+#N     S:gt.bwMetaGeneratedrotor.10085.name=精金合金 Rotor
 #N     S:gt.bwMetaGeneratedrotor.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedrotor.88.name=镀铑钯转子
     S:gt.bwMetaGeneratedrotor.88.tooltip=Pd₃Rh
@@ -27077,7 +27077,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedscrew.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedscrew.10084.name=Incoloy-903 Screw
 #N     S:gt.bwMetaGeneratedscrew.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedscrew.10085.name=Adamantium Alloy Screw
+#N     S:gt.bwMetaGeneratedscrew.10085.name=精金合金 Screw
 #N     S:gt.bwMetaGeneratedscrew.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedscrew.88.name=镀铑钯螺丝
     S:gt.bwMetaGeneratedscrew.88.tooltip=Pd₃Rh
@@ -27100,7 +27100,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedspring.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedspring.10084.name=Incoloy-903 Spring
 #N     S:gt.bwMetaGeneratedspring.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedspring.10085.name=Adamantium Alloy Spring
+#N     S:gt.bwMetaGeneratedspring.10085.name=精金合金 Spring
 #N     S:gt.bwMetaGeneratedspring.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedspring.88.name=镀铑钯弹簧
     S:gt.bwMetaGeneratedspring.88.tooltip=Pd₃Rh
@@ -27123,7 +27123,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedspringSmall.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedspringSmall.10084.name=Small Incoloy-903 Spring
 #N     S:gt.bwMetaGeneratedspringSmall.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedspringSmall.10085.name=Small Adamantium Alloy Spring
+#N     S:gt.bwMetaGeneratedspringSmall.10085.name=Small 精金合金 Spring
 #N     S:gt.bwMetaGeneratedspringSmall.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedspringSmall.88.name=小型镀铑钯弹簧
     S:gt.bwMetaGeneratedspringSmall.88.tooltip=Pd₃Rh
@@ -27152,7 +27152,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedstick.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedstick.10084.name=Incoloy-903 Rod
 #N     S:gt.bwMetaGeneratedstick.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedstick.10085.name=Adamantium Alloy Rod
+#N     S:gt.bwMetaGeneratedstick.10085.name=精金合金 Rod
 #N     S:gt.bwMetaGeneratedstick.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedstick.19.name=红锆石杆
     S:gt.bwMetaGeneratedstick.19.tooltip=ZrSiO₄
@@ -27221,7 +27221,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedstickLong.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedstickLong.10084.name=Long Incoloy-903 Rod
 #N     S:gt.bwMetaGeneratedstickLong.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedstickLong.10085.name=Long Adamantium Alloy Rod
+#N     S:gt.bwMetaGeneratedstickLong.10085.name=Long 精金合金 Rod
 #N     S:gt.bwMetaGeneratedstickLong.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedstickLong.19.name=长红锆石杆
     S:gt.bwMetaGeneratedstickLong.19.tooltip=ZrSiO₄
@@ -27290,7 +27290,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedtoolHeadHammer.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedtoolHeadHammer.10084.name=Incoloy-903 Hammer Head
 #N     S:gt.bwMetaGeneratedtoolHeadHammer.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedtoolHeadHammer.10085.name=Adamantium Alloy Hammer Head
+#N     S:gt.bwMetaGeneratedtoolHeadHammer.10085.name=精金合金 Hammer Head
 #N     S:gt.bwMetaGeneratedtoolHeadHammer.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedtoolHeadHammer.19.name=红锆石锤头
     S:gt.bwMetaGeneratedtoolHeadHammer.19.tooltip=ZrSiO₄
@@ -27359,7 +27359,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedtoolHeadSaw.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedtoolHeadSaw.10084.name=Incoloy-903 Saw Blade
 #N     S:gt.bwMetaGeneratedtoolHeadSaw.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedtoolHeadSaw.10085.name=Adamantium Alloy Saw Blade
+#N     S:gt.bwMetaGeneratedtoolHeadSaw.10085.name=精金合金 Saw Blade
 #N     S:gt.bwMetaGeneratedtoolHeadSaw.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedtoolHeadSaw.19.name=红锆石锯刃
     S:gt.bwMetaGeneratedtoolHeadSaw.19.tooltip=ZrSiO₄
@@ -27428,7 +27428,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedtoolHeadWrench.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedtoolHeadWrench.10084.name=Incoloy-903 Wrench Tip
 #N     S:gt.bwMetaGeneratedtoolHeadWrench.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedtoolHeadWrench.10085.name=Adamantium Alloy Wrench Tip
+#N     S:gt.bwMetaGeneratedtoolHeadWrench.10085.name=精金合金 Wrench Tip
 #N     S:gt.bwMetaGeneratedtoolHeadWrench.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedtoolHeadWrench.19.name=红锆石扳手顶
     S:gt.bwMetaGeneratedtoolHeadWrench.19.tooltip=ZrSiO₄
@@ -27491,7 +27491,7 @@ Neutron Sensor: Hint block with dot 2
 #N     S:gt.bwMetaGeneratedwireFine.10083.tooltip=Zr₃₄Sn₄FeCrNi
 #N     S:gt.bwMetaGeneratedwireFine.10084.name=Fine Incoloy-903 Wire
 #N     S:gt.bwMetaGeneratedwireFine.10084.tooltip=Fe₁₂Ni₁₀Co₈Ti₄Mo₂Al
-#N     S:gt.bwMetaGeneratedwireFine.10085.name=Fine Adamantium Alloy Wire
+#N     S:gt.bwMetaGeneratedwireFine.10085.name=Fine 精金合金 Wire
 #N     S:gt.bwMetaGeneratedwireFine.10085.tooltip=Ad₅Nq₂La₃
     S:gt.bwMetaGeneratedwireFine.88.name=细镀铑钯导线
     S:gt.bwMetaGeneratedwireFine.88.tooltip=Pd₃Rh
@@ -27877,7 +27877,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.11317.tooltip=Ir₃Os
     S:gt.metaitem.01.11318.name=阳光化合物锭
     S:gt.metaitem.01.11318.tooltip=Su
-    S:gt.metaitem.01.11319.name=精金合金锭
+    S:gt.metaitem.01.11319.name=精金锭
     S:gt.metaitem.01.11319.tooltip=Ad
     S:gt.metaitem.01.11320.name=通流琥珀金锭
     S:gt.metaitem.01.11320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -28207,7 +28207,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.12317.tooltip=Ir₃Os
     S:gt.metaitem.01.12318.name=热阳光化合物锭
     S:gt.metaitem.01.12318.tooltip=Su
-    S:gt.metaitem.01.12319.name=热精金合金锭
+    S:gt.metaitem.01.12319.name=热精金锭
     S:gt.metaitem.01.12319.tooltip=Ad
     S:gt.metaitem.01.12320.name=热通流琥珀金锭
     S:gt.metaitem.01.12320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -28477,7 +28477,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.1317.tooltip=Ir₃Os
     S:gt.metaitem.01.1318.name=小堆阳光化合物粉
     S:gt.metaitem.01.1318.tooltip=Su
-    S:gt.metaitem.01.1319.name=小堆精金合金粉
+    S:gt.metaitem.01.1319.name=小堆精金粉
     S:gt.metaitem.01.1319.tooltip=Ad
     S:gt.metaitem.01.1320.name=小堆通流琥珀金粉
     S:gt.metaitem.01.1320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -28541,7 +28541,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.13317.tooltip=Ir₃Os
     S:gt.metaitem.01.13318.name=双重阳光化合物锭
     S:gt.metaitem.01.13318.tooltip=Su
-    S:gt.metaitem.01.13319.name=双重精金合金锭
+    S:gt.metaitem.01.13319.name=双重精金锭
     S:gt.metaitem.01.13319.tooltip=Ad
     S:gt.metaitem.01.13320.name=双重通流琥珀金锭
     S:gt.metaitem.01.13320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -29127,7 +29127,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.14317.tooltip=Ir₃Os
     S:gt.metaitem.01.14318.name=三重阳光化合物锭
     S:gt.metaitem.01.14318.tooltip=Su
-    S:gt.metaitem.01.14319.name=三重精金合金锭
+    S:gt.metaitem.01.14319.name=三重精金锭
     S:gt.metaitem.01.14319.tooltip=Ad
     S:gt.metaitem.01.14320.name=三重通流琥珀金锭
     S:gt.metaitem.01.14320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -29645,7 +29645,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.15317.tooltip=Ir₃Os
     S:gt.metaitem.01.15318.name=四重阳光化合物锭
     S:gt.metaitem.01.15318.tooltip=Su
-    S:gt.metaitem.01.15319.name=四重精金合金锭
+    S:gt.metaitem.01.15319.name=四重精金锭
     S:gt.metaitem.01.15319.tooltip=Ad
     S:gt.metaitem.01.1532.name=小堆末影珍珠粉
     S:gt.metaitem.01.1532.tooltip=BeK₄N₅Ma₆
@@ -30155,7 +30155,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.16317.tooltip=Ir₃Os
     S:gt.metaitem.01.16318.name=五重阳光化合物锭
     S:gt.metaitem.01.16318.tooltip=Su
-    S:gt.metaitem.01.16319.name=五重精金合金锭
+    S:gt.metaitem.01.16319.name=五重精金锭
     S:gt.metaitem.01.16319.tooltip=Ad
     S:gt.metaitem.01.16320.name=五重通流琥珀金锭
     S:gt.metaitem.01.16320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -30617,7 +30617,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.17317.tooltip=Ir₃Os
     S:gt.metaitem.01.17318.name=阳光化合物板
     S:gt.metaitem.01.17318.tooltip=Su
-    S:gt.metaitem.01.17319.name=精金合金板
+    S:gt.metaitem.01.17319.name=精金板
     S:gt.metaitem.01.17319.tooltip=Ad
     S:gt.metaitem.01.17320.name=通流琥珀金板
     S:gt.metaitem.01.17320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -31247,7 +31247,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.18317.tooltip=Ir₃Os
     S:gt.metaitem.01.18318.name=双重阳光化合物板
     S:gt.metaitem.01.18318.tooltip=Su
-    S:gt.metaitem.01.18319.name=双重精金合金板
+    S:gt.metaitem.01.18319.name=双重精金板
     S:gt.metaitem.01.18319.tooltip=Ad
     S:gt.metaitem.01.1832.name=小堆活根粉
     S:gt.metaitem.01.1832.tooltip=
@@ -31883,7 +31883,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.19317.tooltip=Ir₃Os
     S:gt.metaitem.01.19318.name=三重阳光化合物板
     S:gt.metaitem.01.19318.tooltip=Su
-    S:gt.metaitem.01.19319.name=三重精金合金板
+    S:gt.metaitem.01.19319.name=三重精金板
     S:gt.metaitem.01.19319.tooltip=Ad
     S:gt.metaitem.01.1932.name=小堆蛭石
     S:gt.metaitem.01.1932.tooltip=Fe₃Al₄Si₄H₂(H₂O)₄O₁₂
@@ -32463,7 +32463,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.20317.tooltip=Ir₃Os
     S:gt.metaitem.01.20318.name=四重阳光化合物板
     S:gt.metaitem.01.20318.tooltip=Su
-    S:gt.metaitem.01.20319.name=四重精金合金板
+    S:gt.metaitem.01.20319.name=四重精金板
     S:gt.metaitem.01.20319.tooltip=Ad
     S:gt.metaitem.01.2032.name=铁粉
     S:gt.metaitem.01.2032.tooltip=Fe
@@ -33005,7 +33005,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.21317.tooltip=Ir₃Os
     S:gt.metaitem.01.21318.name=五重阳光化合物板
     S:gt.metaitem.01.21318.tooltip=Su
-    S:gt.metaitem.01.21319.name=五重精金合金板
+    S:gt.metaitem.01.21319.name=五重精金板
     S:gt.metaitem.01.21319.tooltip=Ad
     S:gt.metaitem.01.21320.name=五重通流琥珀金板
     S:gt.metaitem.01.21320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -33445,7 +33445,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.22317.tooltip=Ir₃Os
     S:gt.metaitem.01.22318.name=致密阳光化合物板
     S:gt.metaitem.01.22318.tooltip=Su
-    S:gt.metaitem.01.22319.name=致密精金合金板
+    S:gt.metaitem.01.22319.name=致密精金板
     S:gt.metaitem.01.22319.tooltip=Ad
     S:gt.metaitem.01.22320.name=致密通流琥珀金板
     S:gt.metaitem.01.22320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -33885,7 +33885,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.2317.tooltip=Ir₃Os
     S:gt.metaitem.01.2318.name=阳光化合物粉
     S:gt.metaitem.01.2318.tooltip=Su
-    S:gt.metaitem.01.2319.name=精金合金粉
+    S:gt.metaitem.01.2319.name=精金粉
     S:gt.metaitem.01.2319.tooltip=Ad
     S:gt.metaitem.01.2320.name=通流琥珀金粉
     S:gt.metaitem.01.2320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -33951,7 +33951,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.23317.tooltip=Ir₃Os
     S:gt.metaitem.01.23318.name=阳光化合物杆
     S:gt.metaitem.01.23318.tooltip=Su
-    S:gt.metaitem.01.23319.name=精金合金杆
+    S:gt.metaitem.01.23319.name=精金杆
     S:gt.metaitem.01.23319.tooltip=Ad
     S:gt.metaitem.01.23320.name=通流琥珀金杆
     S:gt.metaitem.01.23320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -34791,7 +34791,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.25317.tooltip=Ir₃Os
     S:gt.metaitem.01.25318.name=阳光化合物滚珠
     S:gt.metaitem.01.25318.tooltip=Su
-    S:gt.metaitem.01.25319.name=精金合金滚珠
+    S:gt.metaitem.01.25319.name=精金滚珠
     S:gt.metaitem.01.25319.tooltip=Ad
     S:gt.metaitem.01.2532.name=末影珍珠粉
     S:gt.metaitem.01.2532.tooltip=BeK₄N₅Ma₆
@@ -35321,7 +35321,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.26317.tooltip=Ir₃Os
     S:gt.metaitem.01.26318.name=阳光化合物螺栓
     S:gt.metaitem.01.26318.tooltip=Su
-    S:gt.metaitem.01.26319.name=精金合金螺栓
+    S:gt.metaitem.01.26319.name=精金螺栓
     S:gt.metaitem.01.26319.tooltip=Ad
     S:gt.metaitem.01.26320.name=通流琥珀金螺栓
     S:gt.metaitem.01.26320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -35887,7 +35887,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.27317.tooltip=Ir₃Os
     S:gt.metaitem.01.27318.name=阳光化合物螺丝
     S:gt.metaitem.01.27318.tooltip=Su
-    S:gt.metaitem.01.27319.name=精金合金螺丝
+    S:gt.metaitem.01.27319.name=精金螺丝
     S:gt.metaitem.01.27319.tooltip=Ad
     S:gt.metaitem.01.27320.name=通流琥珀金螺丝
     S:gt.metaitem.01.27320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -36485,7 +36485,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.28317.tooltip=Ir₃Os
     S:gt.metaitem.01.28318.name=阳光化合物环
     S:gt.metaitem.01.28318.tooltip=Su
-    S:gt.metaitem.01.28319.name=精金合金环
+    S:gt.metaitem.01.28319.name=精金环
     S:gt.metaitem.01.28319.tooltip=Ad
     S:gt.metaitem.01.2832.name=活根粉
     S:gt.metaitem.01.2832.tooltip=
@@ -37139,7 +37139,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.29317.tooltip=Ir₃Os
     S:gt.metaitem.01.29318.name=阳光化合物箔
     S:gt.metaitem.01.29318.tooltip=Su
-    S:gt.metaitem.01.29319.name=精金合金箔
+    S:gt.metaitem.01.29319.name=精金箔
     S:gt.metaitem.01.29319.tooltip=Ad
     S:gt.metaitem.01.2932.name=蛭石
     S:gt.metaitem.01.2932.tooltip=Fe₃Al₄Si₄H₂(H₂O)₄O₁₂
@@ -38181,7 +38181,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.317.tooltip=Ir₃Os
     S:gt.metaitem.01.318.name=小撮阳光化合物粉
     S:gt.metaitem.01.318.tooltip=Su
-    S:gt.metaitem.01.319.name=小撮精金合金粉
+    S:gt.metaitem.01.319.name=小撮精金粉
     S:gt.metaitem.01.319.tooltip=Ad
     S:gt.metaitem.01.31975.name=龙锭等离子体单元
     S:gt.metaitem.01.31975.tooltip=D
@@ -39010,7 +39010,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.3307.tooltip=Fe
     S:gt.metaitem.01.331.name=小撮秘银粉
     S:gt.metaitem.01.331.tooltip=Pt₂FeMa
-    S:gt.metaitem.01.3319.name=含杂精金合金粉
+    S:gt.metaitem.01.3319.name=含杂精金粉
     S:gt.metaitem.01.3319.tooltip=Ad
     S:gt.metaitem.01.3320.name=含杂通流琥珀金粉
     S:gt.metaitem.01.3320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -39672,7 +39672,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.4303.tooltip=AgAu
     S:gt.metaitem.01.4307.name=洁净生铁粉
     S:gt.metaitem.01.4307.tooltip=Fe
-    S:gt.metaitem.01.4319.name=洁净精金合金粉
+    S:gt.metaitem.01.4319.name=洁净精金粉
     S:gt.metaitem.01.4319.tooltip=Ad
     S:gt.metaitem.01.4320.name=洁净通流琥珀金粉
     S:gt.metaitem.01.4320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -40248,7 +40248,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.5307.tooltip=Fe
     S:gt.metaitem.01.531.name=小撮硝石粉
     S:gt.metaitem.01.531.tooltip=KNO₃
-    S:gt.metaitem.01.5319.name=粉碎的精金合金矿石
+    S:gt.metaitem.01.5319.name=粉碎的精金矿石
     S:gt.metaitem.01.5319.tooltip=Ad
     S:gt.metaitem.01.532.name=小撮末影珍珠粉
     S:gt.metaitem.01.532.tooltip=BeK₄N₅Ma₆
@@ -40824,7 +40824,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.6307.tooltip=Fe
     S:gt.metaitem.01.631.name=小撮聚苯硫醚粉
     S:gt.metaitem.01.631.tooltip=C₆H₄S
-    S:gt.metaitem.01.6319.name=洗净的精金合金矿石
+    S:gt.metaitem.01.6319.name=洗净的精金矿石
     S:gt.metaitem.01.6319.tooltip=Ad
     S:gt.metaitem.01.6320.name=洗净的通流琥珀金矿石
     S:gt.metaitem.01.6320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -41350,7 +41350,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.7303.tooltip=AgAu
     S:gt.metaitem.01.7307.name=离心生铁矿石
     S:gt.metaitem.01.7307.tooltip=Fe
-    S:gt.metaitem.01.7319.name=离心精金合金矿石
+    S:gt.metaitem.01.7319.name=离心精金矿石
     S:gt.metaitem.01.7319.tooltip=Ad
     S:gt.metaitem.01.7320.name=离心通流琥珀金矿石
     S:gt.metaitem.01.7320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -42232,7 +42232,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.01.9317.tooltip=Ir₃Os
     S:gt.metaitem.01.9318.name=阳光化合物粒
     S:gt.metaitem.01.9318.tooltip=Su
-    S:gt.metaitem.01.9319.name=精金合金粒
+    S:gt.metaitem.01.9319.name=精金粒
     S:gt.metaitem.01.9319.tooltip=Ad
     S:gt.metaitem.01.932.name=小撮蛭石
     S:gt.metaitem.01.932.tooltip=Fe₃Al₄Si₄H₂(H₂O)₄O₁₂
@@ -42739,7 +42739,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.10317.tooltip=Ir₃Os
     S:gt.metaitem.02.10318.name=阳光化合物扳手顶
     S:gt.metaitem.02.10318.tooltip=Su
-    S:gt.metaitem.02.10319.name=精金合金扳手顶
+    S:gt.metaitem.02.10319.name=精金扳手顶
     S:gt.metaitem.02.10319.tooltip=Ad
     S:gt.metaitem.02.1032.name=铁镐头
     S:gt.metaitem.02.1032.tooltip=Fe
@@ -43101,7 +43101,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.11317.tooltip=Ir₃Os
     S:gt.metaitem.02.11318.name=阳光化合物万用铲头
     S:gt.metaitem.02.11318.tooltip=Su
-    S:gt.metaitem.02.11319.name=精金合金万用铲头
+    S:gt.metaitem.02.11319.name=精金万用铲头
     S:gt.metaitem.02.11319.tooltip=Ad
     S:gt.metaitem.02.11320.name=通流琥珀金万用铲头
     S:gt.metaitem.02.11320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -43503,7 +43503,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.12317.tooltip=Ir₃Os
     S:gt.metaitem.02.12318.name=阳光化合物镰刀刃
     S:gt.metaitem.02.12318.tooltip=Su
-    S:gt.metaitem.02.12319.name=精金合金镰刀刃
+    S:gt.metaitem.02.12319.name=精金镰刀刃
     S:gt.metaitem.02.12319.tooltip=Ad
     S:gt.metaitem.02.12320.name=通流琥珀金镰刀刃
     S:gt.metaitem.02.12320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -43907,7 +43907,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.1317.tooltip=Ir₃Os
     S:gt.metaitem.02.1318.name=阳光化合物镐头
     S:gt.metaitem.02.1318.tooltip=Su
-    S:gt.metaitem.02.1319.name=精金合金镐头
+    S:gt.metaitem.02.1319.name=精金镐头
     S:gt.metaitem.02.1319.tooltip=Ad
     S:gt.metaitem.02.1320.name=通流琥珀金镐头
     S:gt.metaitem.02.1320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -43965,7 +43965,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.13317.tooltip=Ir₃Os
     S:gt.metaitem.02.13318.name=阳光化合物犁头
     S:gt.metaitem.02.13318.tooltip=Su
-    S:gt.metaitem.02.13319.name=精金合金犁头
+    S:gt.metaitem.02.13319.name=精金犁头
     S:gt.metaitem.02.13319.tooltip=Ad
     S:gt.metaitem.02.13320.name=通流琥珀金犁头
     S:gt.metaitem.02.13320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -44497,7 +44497,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.14317.tooltip=Ir₃Os
     S:gt.metaitem.02.14318.name=阳光化合物箭头
     S:gt.metaitem.02.14318.tooltip=Su
-    S:gt.metaitem.02.14319.name=精金合金箭头
+    S:gt.metaitem.02.14319.name=精金箭头
     S:gt.metaitem.02.14319.tooltip=Ad
     S:gt.metaitem.02.14320.name=通流琥珀金箭头
     S:gt.metaitem.02.14320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -44953,7 +44953,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.15317.tooltip=Ir₃Os
     S:gt.metaitem.02.15318.name=阳光化合物圆锯锯刃
     S:gt.metaitem.02.15318.tooltip=Su
-    S:gt.metaitem.02.15319.name=精金合金圆锯锯刃
+    S:gt.metaitem.02.15319.name=精金圆锯锯刃
     S:gt.metaitem.02.15319.tooltip=Ad
     S:gt.metaitem.02.15320.name=通流琥珀金圆锯锯刃
     S:gt.metaitem.02.15320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -45295,7 +45295,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.16317.tooltip=Ir₃Os
     S:gt.metaitem.02.16318.name=阳光化合物涡轮扇叶
     S:gt.metaitem.02.16318.tooltip=Su
-    S:gt.metaitem.02.16319.name=精金合金涡轮扇叶
+    S:gt.metaitem.02.16319.name=精金涡轮扇叶
     S:gt.metaitem.02.16319.tooltip=Ad
     S:gt.metaitem.02.16320.name=通流琥珀金涡轮扇叶
     S:gt.metaitem.02.16320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -46271,7 +46271,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.19317.tooltip=Ir₃Os
     S:gt.metaitem.02.19318.name=细阳光化合物导线
     S:gt.metaitem.02.19318.tooltip=Su
-    S:gt.metaitem.02.19319.name=细精金合金导线
+    S:gt.metaitem.02.19319.name=细精金导线
     S:gt.metaitem.02.19319.tooltip=Ad
     S:gt.metaitem.02.19320.name=细通流琥珀金导线
     S:gt.metaitem.02.19320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -46623,7 +46623,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.20317.tooltip=Ir₃Os
     S:gt.metaitem.02.20318.name=小型阳光化合物齿轮
     S:gt.metaitem.02.20318.tooltip=Su
-    S:gt.metaitem.02.20319.name=小型精金合金齿轮
+    S:gt.metaitem.02.20319.name=小型精金齿轮
     S:gt.metaitem.02.20319.tooltip=Ad
     S:gt.metaitem.02.2032.name=铁铲头
     S:gt.metaitem.02.2032.tooltip=Fe
@@ -46953,7 +46953,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.21317.tooltip=Ir₃Os
     S:gt.metaitem.02.21318.name=阳光化合物转子
     S:gt.metaitem.02.21318.tooltip=Su
-    S:gt.metaitem.02.21319.name=精金合金转子
+    S:gt.metaitem.02.21319.name=精金转子
     S:gt.metaitem.02.21319.tooltip=Ad
     S:gt.metaitem.02.21320.name=通流琥珀金转子
     S:gt.metaitem.02.21320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -47303,7 +47303,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.22317.tooltip=Ir₃Os
     S:gt.metaitem.02.22318.name=长阳光化合物杆
     S:gt.metaitem.02.22318.tooltip=Su
-    S:gt.metaitem.02.22319.name=长精金合金杆
+    S:gt.metaitem.02.22319.name=长精金杆
     S:gt.metaitem.02.22319.tooltip=Ad
     S:gt.metaitem.02.22320.name=长通流琥珀金杆
     S:gt.metaitem.02.22320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -47841,7 +47841,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.2317.tooltip=Ir₃Os
     S:gt.metaitem.02.2318.name=阳光化合物铲头
     S:gt.metaitem.02.2318.tooltip=Su
-    S:gt.metaitem.02.2319.name=精金合金铲头
+    S:gt.metaitem.02.2319.name=精金铲头
     S:gt.metaitem.02.2319.tooltip=Ad
     S:gt.metaitem.02.2320.name=通流琥珀金铲头
     S:gt.metaitem.02.2320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -47905,7 +47905,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.23317.tooltip=Ir₃Os
     S:gt.metaitem.02.23318.name=小型阳光化合物弹簧
     S:gt.metaitem.02.23318.tooltip=Su
-    S:gt.metaitem.02.23319.name=小型精金合金弹簧
+    S:gt.metaitem.02.23319.name=小型精金弹簧
     S:gt.metaitem.02.23319.tooltip=Ad
     S:gt.metaitem.02.23320.name=小型通流琥珀金弹簧
     S:gt.metaitem.02.23320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -48483,7 +48483,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.24317.tooltip=Ir₃Os
     S:gt.metaitem.02.24318.name=阳光化合物弹簧
     S:gt.metaitem.02.24318.tooltip=Su
-    S:gt.metaitem.02.24319.name=精金合金弹簧
+    S:gt.metaitem.02.24319.name=精金弹簧
     S:gt.metaitem.02.24319.tooltip=Ad
     S:gt.metaitem.02.24320.name=通流琥珀金弹簧
     S:gt.metaitem.02.24320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -48911,7 +48911,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.25317.tooltip=Ir₃Os
     S:gt.metaitem.02.25318.name=阳光化合物箭
     S:gt.metaitem.02.25318.tooltip=Su
-    S:gt.metaitem.02.25319.name=精金合金箭
+    S:gt.metaitem.02.25319.name=精金箭
     S:gt.metaitem.02.25319.tooltip=Ad
     S:gt.metaitem.02.25320.name=通流琥珀金箭
     S:gt.metaitem.02.25320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -49335,7 +49335,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.26317.tooltip=Ir₃Os
     S:gt.metaitem.02.26318.name=轻质阳光化合物箭
     S:gt.metaitem.02.26318.tooltip=Su
-    S:gt.metaitem.02.26319.name=轻质精金合金箭
+    S:gt.metaitem.02.26319.name=轻质精金箭
     S:gt.metaitem.02.26319.tooltip=Ad
     S:gt.metaitem.02.26320.name=轻质通流琥珀金箭
     S:gt.metaitem.02.26320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -50021,7 +50021,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.31317.tooltip=Ir₃Os
     S:gt.metaitem.02.31318.name=阳光化合物齿轮
     S:gt.metaitem.02.31318.tooltip=Su
-    S:gt.metaitem.02.31319.name=精金合金齿轮
+    S:gt.metaitem.02.31319.name=精金齿轮
     S:gt.metaitem.02.31319.tooltip=Ad
     S:gt.metaitem.02.31320.name=通流琥珀金齿轮
     S:gt.metaitem.02.31320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -50233,7 +50233,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.31884.tooltip=De
     S:gt.metaitem.02.31889.name=蜡封木齿轮
     S:gt.metaitem.02.31889.tooltip=
-    S:gt.metaitem.02.319.name=精金合金剑刃
+    S:gt.metaitem.02.319.name=精金剑刃
     S:gt.metaitem.02.319.tooltip=Ad
     S:gt.metaitem.02.31912.name=石棉齿轮
     S:gt.metaitem.02.31912.tooltip=Mg₃Si₂H₄O₉
@@ -50691,7 +50691,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.3317.tooltip=Ir₃Os
     S:gt.metaitem.02.3318.name=阳光化合物斧头
     S:gt.metaitem.02.3318.tooltip=Su
-    S:gt.metaitem.02.3319.name=精金合金斧头
+    S:gt.metaitem.02.3319.name=精金斧头
     S:gt.metaitem.02.3319.tooltip=Ad
     S:gt.metaitem.02.3320.name=通流琥珀金斧头
     S:gt.metaitem.02.3320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -51225,7 +51225,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.4317.tooltip=Ir₃Os
     S:gt.metaitem.02.4318.name=阳光化合物锄头
     S:gt.metaitem.02.4318.tooltip=Su
-    S:gt.metaitem.02.4319.name=精金合金锄头
+    S:gt.metaitem.02.4319.name=精金锄头
     S:gt.metaitem.02.4319.tooltip=Ad
     S:gt.metaitem.02.4320.name=通流琥珀金锄头
     S:gt.metaitem.02.4320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -51687,7 +51687,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.5317.tooltip=Ir₃Os
     S:gt.metaitem.02.5318.name=阳光化合物锤头
     S:gt.metaitem.02.5318.tooltip=Su
-    S:gt.metaitem.02.5319.name=精金合金锤头
+    S:gt.metaitem.02.5319.name=精金锤头
     S:gt.metaitem.02.5319.tooltip=Ad
     S:gt.metaitem.02.5320.name=通流琥珀金锤头
     S:gt.metaitem.02.5320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -52111,7 +52111,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.6317.tooltip=Ir₃Os
     S:gt.metaitem.02.6318.name=阳光化合物锉刀刃
     S:gt.metaitem.02.6318.tooltip=Su
-    S:gt.metaitem.02.6319.name=精金合金锉刀刃
+    S:gt.metaitem.02.6319.name=精金锉刀刃
     S:gt.metaitem.02.6319.tooltip=Ad
     S:gt.metaitem.02.6320.name=通流琥珀金锉刀刃
     S:gt.metaitem.02.6320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -52439,7 +52439,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.7317.tooltip=Ir₃Os
     S:gt.metaitem.02.7318.name=阳光化合物锯刃
     S:gt.metaitem.02.7318.tooltip=Su
-    S:gt.metaitem.02.7319.name=精金合金锯刃
+    S:gt.metaitem.02.7319.name=精金锯刃
     S:gt.metaitem.02.7319.tooltip=Ad
     S:gt.metaitem.02.7320.name=通流琥珀金锯刃
     S:gt.metaitem.02.7320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -52777,7 +52777,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.8317.tooltip=Ir₃Os
     S:gt.metaitem.02.8318.name=阳光化合物电钻钻头
     S:gt.metaitem.02.8318.tooltip=Su
-    S:gt.metaitem.02.8319.name=精金合金电钻钻头
+    S:gt.metaitem.02.8319.name=精金电钻钻头
     S:gt.metaitem.02.8319.tooltip=Ad
     S:gt.metaitem.02.8320.name=通流琥珀金电钻钻头
     S:gt.metaitem.02.8320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -53133,7 +53133,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.02.9317.tooltip=Ir₃Os
     S:gt.metaitem.02.9318.name=阳光化合物链锯刃
     S:gt.metaitem.02.9318.tooltip=Su
-    S:gt.metaitem.02.9319.name=精金合金链锯刃
+    S:gt.metaitem.02.9319.name=精金链锯刃
     S:gt.metaitem.02.9319.tooltip=Ad
     S:gt.metaitem.02.9320.name=通流琥珀金链锯刃
     S:gt.metaitem.02.9320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -53588,7 +53588,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.03.1317.tooltip=Ir₃Os
     S:gt.metaitem.03.1318.name=板条箱：阳光化合物锭
     S:gt.metaitem.03.1318.tooltip=Su
-    S:gt.metaitem.03.1319.name=板条箱：精金合金锭
+    S:gt.metaitem.03.1319.name=板条箱：精金锭
     S:gt.metaitem.03.1319.tooltip=Ad
     S:gt.metaitem.03.1320.name=板条箱：通流琥珀金锭
     S:gt.metaitem.03.1320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
@@ -54162,7 +54162,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.03.317.tooltip=Ir₃Os
     S:gt.metaitem.03.318.name=板条箱：阳光化合物粉
     S:gt.metaitem.03.318.tooltip=Su
-    S:gt.metaitem.03.319.name=板条箱：精金合金粉
+    S:gt.metaitem.03.319.name=板条箱：精金粉
     S:gt.metaitem.03.319.tooltip=Ad
     S:gt.metaitem.03.32.name=板条箱：铁粉
     S:gt.metaitem.03.32.tooltip=Fe
@@ -54462,7 +54462,7 @@ Neutron Sensor: Hint block with dot 2
     S:gt.metaitem.03.3317.tooltip=Ir₃Os
     S:gt.metaitem.03.3318.name=板条箱：阳光化合物板
     S:gt.metaitem.03.3318.tooltip=Su
-    S:gt.metaitem.03.3319.name=板条箱：精金合金板
+    S:gt.metaitem.03.3319.name=板条箱：精金板
     S:gt.metaitem.03.3319.tooltip=Ad
     S:gt.metaitem.03.3320.name=板条箱：通流琥珀金板
     S:gt.metaitem.03.3320.tooltip=(CuAu₄)(AuMa*)(CuAu₄ZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)(Ag₂FeMa)((CuAg₄)(Nq₂KeC)(Sn₉Sb)(CuAg₄BiZnCu₃(Fe₅₀C)₂(NiAuAgCu₃(Fe₅₀C)₃)₄)
