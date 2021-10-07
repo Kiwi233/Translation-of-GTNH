@@ -1,0 +1,127 @@
+neicustomdiagram.api.stacksize=Stack size: %,d
+neicustomdiagram.api.hasnbt=Has NBT (<Shift> to view)
+neicustomdiagram.api.componentindex=Component: %,d / %,d
+neicustomdiagram.api.showalldiagrams=Show all diagrams
+
+neicustomdiagram.util.capacity=Capacity: %,d
+
+neicustomdiagram.generators.debug.ruler.groupname=Debug Ruler
+neicustomdiagram.generators.debug.ruler.slotlabel=Slot (%02d, %02d)
+
+neicustomdiagram.generators.enderstorage.chestoverview.groupname=Ender Storage Chest Overview
+neicustomdiagram.generators.enderstorage.chestoverview.globalbutton=View global frequencies
+neicustomdiagram.generators.enderstorage.chestoverview.personalbutton=View personal frequencies
+neicustomdiagram.generators.enderstorage.chestoverview.personalitemlabel=Use this item to switch to personal frequency:
+neicustomdiagram.generators.enderstorage.chestoverview.globallabel=Global frequency
+neicustomdiagram.generators.enderstorage.chestoverview.personallabel=Personal frequency
+neicustomdiagram.generators.enderstorage.chestoverview.frequencyslot=Frequency
+neicustomdiagram.generators.enderstorage.chestoverview.inventoryslot=Chest contents
+
+neicustomdiagram.generators.enderstorage.tankoverview.groupname=Ender Storage Tank Overview
+neicustomdiagram.generators.enderstorage.tankoverview.globalbutton=View global frequencies
+neicustomdiagram.generators.enderstorage.tankoverview.personalbutton=View personal frequencies
+neicustomdiagram.generators.enderstorage.tankoverview.personalitemlabel=Use this item to switch to personal frequency:
+neicustomdiagram.generators.enderstorage.tankoverview.globallabel=Global frequencies
+neicustomdiagram.generators.enderstorage.tankoverview.personallabel=Personal frequencies
+neicustomdiagram.generators.enderstorage.tankoverview.frequencyslot=Frequency
+neicustomdiagram.generators.enderstorage.tankoverview.tankslot=Tank contents
+
+neicustomdiagram.generators.forge.fluidcontainers.groupname=Forge Fluid Containers
+neicustomdiagram.generators.forge.fluidcontainers.fluidlabel=Fluid
+neicustomdiagram.generators.forge.fluidcontainers.blocklabel=Block
+neicustomdiagram.generators.forge.fluidcontainers.gregtechitemlabel=GregTech display item
+neicustomdiagram.generators.forge.fluidcontainers.containersslot=Containers
+
+neicustomdiagram.generators.forge.oredictionary.groupname=Forge Ore Dictionary
+neicustomdiagram.generators.forge.oredictionary.orenamelabel=Ore name
+
+neicustomdiagram.generators.gregtech.util.outputchance=Chance: %.2f%%
+
+neicustomdiagram.generators.gregtech.materialparts.groupname=GregTech Material Parts
+neicustomdiagram.generators.gregtech.materialparts.materialinforadioactive=DANGER! RADIOACTIVE!
+neicustomdiagram.generators.gregtech.materialparts.materialinfohot=DANGER! HOT!
+neicustomdiagram.generators.gregtech.materialparts.materialinfocold=DANGER! COLD!
+neicustomdiagram.generators.gregtech.materialparts.blastfurnaceinfo=Blast furnace required!
+neicustomdiagram.generators.gregtech.materialparts.blastfurnaceinfotemp=Blast furnace temp: %,dK
+neicustomdiagram.generators.gregtech.materialparts.blastfurnaceinfocoils=Usable coils:
+neicustomdiagram.generators.gregtech.materialparts.materiallabel=Material: %s
+neicustomdiagram.generators.gregtech.materialparts.relatedmaterialsslot=Related materials
+neicustomdiagram.generators.gregtech.materialparts.prefixlabel=Ore prefix: %s
+neicustomdiagram.generators.gregtech.materialparts.fluidtypelabel=Fluid type: %s
+neicustomdiagram.generators.gregtech.materialparts.fluidtypefluid=Fluid
+neicustomdiagram.generators.gregtech.materialparts.fluidtypegas=Gas
+neicustomdiagram.generators.gregtech.materialparts.fluidtypesolid=Solid
+neicustomdiagram.generators.gregtech.materialparts.fluidtypemolten=Molten
+neicustomdiagram.generators.gregtech.materialparts.fluidtypeplasma=Plasma
+neicustomdiagram.generators.gregtech.materialparts.fluidtypelightlyhydrocracked=Lightly hydro-cracked
+neicustomdiagram.generators.gregtech.materialparts.fluidtypemoderatelyhydrocracked=Moderately hydro-cracked
+neicustomdiagram.generators.gregtech.materialparts.fluidtypeseverelyhydrocracked=Severely hydro-cracked
+neicustomdiagram.generators.gregtech.materialparts.fluidtypelightlysteamcracked=Lightly steam-cracked
+neicustomdiagram.generators.gregtech.materialparts.fluidtypemoderatelysteamcracked=Moderately steam-cracked
+neicustomdiagram.generators.gregtech.materialparts.fluidtypeseverelysteamcracked=Severely steam-cracked
+neicustomdiagram.generators.gregtech.materialparts.fluidsslot=Fluids
+neicustomdiagram.generators.gregtech.materialparts.hydrocrackedfluidsslot=Hydro-cracked fluids
+neicustomdiagram.generators.gregtech.materialparts.steamcrackedfluidsslot=Steam-cracked fluids
+neicustomdiagram.generators.gregtech.materialparts.gemsslot=Gems
+neicustomdiagram.generators.gregtech.materialparts.gemslot=Gem
+neicustomdiagram.generators.gregtech.materialparts.lensslot=Lens
+neicustomdiagram.generators.gregtech.materialparts.dustsslot=Dusts
+neicustomdiagram.generators.gregtech.materialparts.ingotsslot=Ingots
+neicustomdiagram.generators.gregtech.materialparts.hotingotslot=Hot ingot
+neicustomdiagram.generators.gregtech.materialparts.multiingotsslot=Multi-ingots
+neicustomdiagram.generators.gregtech.materialparts.platesslot=Plates
+neicustomdiagram.generators.gregtech.materialparts.multiplatesslot=Multi-plates
+neicustomdiagram.generators.gregtech.materialparts.rodsslot=Rods
+neicustomdiagram.generators.gregtech.materialparts.boltsslot=Bolts
+neicustomdiagram.generators.gregtech.materialparts.ringslot=Ring
+neicustomdiagram.generators.gregtech.materialparts.roundslot=Round
+neicustomdiagram.generators.gregtech.materialparts.springsslot=Springs
+neicustomdiagram.generators.gregtech.materialparts.gearsslot=Gears
+neicustomdiagram.generators.gregtech.materialparts.alloyplateslot=Alloy plate
+neicustomdiagram.generators.gregtech.materialparts.casingslot=Casing
+neicustomdiagram.generators.gregtech.materialparts.rotorslot=Rotor
+neicustomdiagram.generators.gregtech.materialparts.frameboxslot=Frame box
+neicustomdiagram.generators.gregtech.materialparts.wiresslot=Wires
+neicustomdiagram.generators.gregtech.materialparts.finewireslot=Fine wire
+neicustomdiagram.generators.gregtech.materialparts.cablesslot=Cables
+neicustomdiagram.generators.gregtech.materialparts.pipesslot=Pipes
+neicustomdiagram.generators.gregtech.materialparts.specialpipesslot=Special pipes
+
+neicustomdiagram.generators.gregtech.materialtools.groupname=GregTech Material Tools
+neicustomdiagram.generators.gregtech.materialtools.materialinfohandlematerial=Handle material: %s
+neicustomdiagram.generators.gregtech.materialtools.prefixlabel=Ore prefix: %s
+neicustomdiagram.generators.gregtech.materialtools.toolheadsslot=Tool heads
+neicustomdiagram.generators.gregtech.materialtools.toolsslot=Tools
+neicustomdiagram.generators.gregtech.materialtools.turbinebladeslot=Turbine blade
+neicustomdiagram.generators.gregtech.materialtools.turbinesslot=Turbines
+neicustomdiagram.generators.gregtech.materialtools.arrowheadslot=Arrowhead
+neicustomdiagram.generators.gregtech.materialtools.arrowsslot=Arrows
+neicustomdiagram.generators.gregtech.materialtools.scannersslot=Prospector's Scanners
+neicustomdiagram.generators.gregtech.materialtools.electricscannersslot=Electric Prospector's Scanners
+
+neicustomdiagram.generators.gregtech.oredictionary.groupname=GregTech Ore Dictionary
+neicustomdiagram.generators.gregtech.oredictionary.materialnamelabel=Material name
+neicustomdiagram.generators.gregtech.oredictionary.prefixnamelabel=Ore prefix name
+neicustomdiagram.generators.gregtech.oredictionary.unifyslot=Unified items
+neicustomdiagram.generators.gregtech.oredictionary.allslot=All associated items
+
+neicustomdiagram.generators.gregtech.oreprocessing.groupname=GregTech Ore Processing
+neicustomdiagram.generators.gregtech.oreprocessing.maceratorlabel=Macerator
+neicustomdiagram.generators.gregtech.oreprocessing.maceratorslot=Macerator output
+neicustomdiagram.generators.gregtech.oreprocessing.orewasherlabel=Ore Washer
+neicustomdiagram.generators.gregtech.oreprocessing.orewasherslot=Ore Washer output
+neicustomdiagram.generators.gregtech.oreprocessing.centrifugelabel=Centrifuge
+neicustomdiagram.generators.gregtech.oreprocessing.centrifugeslot=Centrifuge output
+neicustomdiagram.generators.gregtech.oreprocessing.thermalcentrifugelabel=Thermal Centrifuge
+neicustomdiagram.generators.gregtech.oreprocessing.thermalcentrifugeslot=Thermal Centrifuge output
+neicustomdiagram.generators.gregtech.oreprocessing.sifterlabel=Sifter
+neicustomdiagram.generators.gregtech.oreprocessing.sifterslot=Sifter output
+neicustomdiagram.generators.gregtech.oreprocessing.electromagneticseparatorlabel=Electromagnetic Separator
+neicustomdiagram.generators.gregtech.oreprocessing.electromagneticseparatorslot=Electromagnetic Separator output
+neicustomdiagram.generators.gregtech.oreprocessing.furnacelabel=Additional Furnace recipes
+neicustomdiagram.generators.gregtech.oreprocessing.ebflabel=Additional Electric Blast Furnace recipes
+neicustomdiagram.generators.gregtech.oreprocessing.chemicalbathlabel=Additional Chemical Bath recipes
+neicustomdiagram.generators.gregtech.oreprocessing.chemicalreactorlabel=Additional Chemical Reactor recipes
+neicustomdiagram.generators.gregtech.oreprocessing.autoclavelabel=Additional Autoclave recipes
+neicustomdiagram.generators.gregtech.oreprocessing.additionalrecipeoutputsslot=Additional recipe outputs
+
