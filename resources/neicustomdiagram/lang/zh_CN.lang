@@ -1,9 +1,9 @@
-neicustomdiagram.api.stacksize=Stack size: %,d
-neicustomdiagram.api.hasnbt=Has NBT (<Shift> to view)
-neicustomdiagram.api.componentindex=Component: %,d / %,d
+neicustomdiagram.api.stacksize=最大堆叠：%,d
+neicustomdiagram.api.hasnbt=有NBT(<Shift>查看)
+neicustomdiagram.api.componentindex=Component：%,d / %,d
 neicustomdiagram.api.showalldiagrams=Show all diagrams
 
-neicustomdiagram.util.capacity=Capacity: %,d
+neicustomdiagram.util.capacity=Capacity：%,d
 
 neicustomdiagram.generators.debug.ruler.groupname=Debug Ruler
 neicustomdiagram.generators.debug.ruler.slotlabel=Slot (%02d, %02d)
@@ -35,19 +35,19 @@ neicustomdiagram.generators.forge.fluidcontainers.containersslot=Containers
 neicustomdiagram.generators.forge.oredictionary.groupname=Forge Ore Dictionary
 neicustomdiagram.generators.forge.oredictionary.orenamelabel=Ore name
 
-neicustomdiagram.generators.gregtech.util.outputchance=Chance: %.2f%%
+neicustomdiagram.generators.gregtech.util.outputchance=Chance：%.2f%%
 
 neicustomdiagram.generators.gregtech.materialparts.groupname=GregTech Material Parts
 neicustomdiagram.generators.gregtech.materialparts.materialinforadioactive=DANGER! RADIOACTIVE!
 neicustomdiagram.generators.gregtech.materialparts.materialinfohot=DANGER! HOT!
 neicustomdiagram.generators.gregtech.materialparts.materialinfocold=DANGER! COLD!
 neicustomdiagram.generators.gregtech.materialparts.blastfurnaceinfo=Blast furnace required!
-neicustomdiagram.generators.gregtech.materialparts.blastfurnaceinfotemp=Blast furnace temp: %,dK
+neicustomdiagram.generators.gregtech.materialparts.blastfurnaceinfotemp=Blast furnace temp：%,dK
 neicustomdiagram.generators.gregtech.materialparts.blastfurnaceinfocoils=Usable coils:
-neicustomdiagram.generators.gregtech.materialparts.materiallabel=Material: %s
+neicustomdiagram.generators.gregtech.materialparts.materiallabel=Material：%s
 neicustomdiagram.generators.gregtech.materialparts.relatedmaterialsslot=Related materials
-neicustomdiagram.generators.gregtech.materialparts.prefixlabel=Ore prefix: %s
-neicustomdiagram.generators.gregtech.materialparts.fluidtypelabel=Fluid type: %s
+neicustomdiagram.generators.gregtech.materialparts.prefixlabel=Ore prefix：%s
+neicustomdiagram.generators.gregtech.materialparts.fluidtypelabel=Fluid type：%s
 neicustomdiagram.generators.gregtech.materialparts.fluidtypefluid=Fluid
 neicustomdiagram.generators.gregtech.materialparts.fluidtypegas=Gas
 neicustomdiagram.generators.gregtech.materialparts.fluidtypesolid=Solid
@@ -88,8 +88,8 @@ neicustomdiagram.generators.gregtech.materialparts.pipesslot=Pipes
 neicustomdiagram.generators.gregtech.materialparts.specialpipesslot=Special pipes
 
 neicustomdiagram.generators.gregtech.materialtools.groupname=GregTech Material Tools
-neicustomdiagram.generators.gregtech.materialtools.materialinfohandlematerial=Handle material: %s
-neicustomdiagram.generators.gregtech.materialtools.prefixlabel=Ore prefix: %s
+neicustomdiagram.generators.gregtech.materialtools.materialinfohandlematerial=Handle material：%s
+neicustomdiagram.generators.gregtech.materialtools.prefixlabel=Ore prefix：%s
 neicustomdiagram.generators.gregtech.materialtools.toolheadsslot=Tool heads
 neicustomdiagram.generators.gregtech.materialtools.toolsslot=Tools
 neicustomdiagram.generators.gregtech.materialtools.turbinebladeslot=Turbine blade
