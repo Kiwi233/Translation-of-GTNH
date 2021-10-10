@@ -329,7 +329,7 @@ mods.thaumcraft.Research.setConcealed("ShadowClothGTNH", true);
 game.setLocalization("tc.research_name.ShadowClothGTNH", "\u6697\u5f71\u5e03\u5339");
 game.setLocalization("tc.research_text.ShadowClothGTNH", "\u5b83\u67d4\u8f6f\u5f97\u4ee4\u4eba\u4e0d\u5b89...");
 mods.thaumcraft.Research.addPage("ShadowClothGTNH", "tm.text.SHADOWCLOTH.1");
-mods.thaumcraft.Arcane.addShaped("ShadowClothGTNH", <TaintedMagic:ItemMaterial:1>, "aer 10, ignis 10, terra 10, aqua 10, ordo 10, perditio 10", [
+mods.thaumcraft.Arcane.addShaped("ShadowClothGTNH", <TaintedMagic:ItemMaterial:1>, "aer 15, ignis 15, terra 15, aqua 15, ordo 15, perditio 15", [
 [<Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.02:19368>, <Thaumcraft:ItemResource:7>],
 [<gregtech:gt.metaitem.01:29368>, <gregtech:gt.metaitem.01:29330>, <gregtech:gt.metaitem.01:29368>],
 [<Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.02:19368>, <Thaumcraft:ItemResource:7>]]);
@@ -460,9 +460,9 @@ mods.thaumcraft.Research.setConcealed("KnightRobesGTNH", true);
 game.setLocalization("tc.research_name.KnightRobesGTNH", "\u8840\u8165\u4eff\u5236");
 game.setLocalization("tc.research_text.KnightRobesGTNH", "\u8840\u8a93\u9a91\u58eb");
 mods.thaumcraft.Research.addPage("KnightRobesGTNH", "tm.text.KNIGHTROBES.1");
-mods.thaumcraft.Infusion.addRecipe("KnightRobesGTNH", <gregtech:gt.metaitem.01:17330>,
-[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:7>], 
-"metallum 16, praecantatio 16, tenebrae 16, alienis 16, tutamen 16", <TaintedMagic:ItemMaterial:8>, 6);
+mods.thaumcraft.Infusion.addRecipe("KnightRobesGTNH", <gregtech:gt.metaitem.01:20330>,
+[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:7>, <gregtech:gt.metaitem.01:27346>, <gregtech:gt.metaitem.01:29344>, <gregtech:gt.metaitem.01:29362>, <gregtech:gt.metaitem.01:29333>, <gregtech:gt.metaitem.01:27346>, <TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:7>, <gregtech:gt.metaitem.01:27346>, <gregtech:gt.metaitem.01:29344>, <gregtech:gt.metaitem.01:29362>, <gregtech:gt.metaitem.01:29333>, <gregtech:gt.metaitem.01:27346>, <TaintedMagic:ItemMaterial:7>], 
+"metallum 32, praecantatio 32, tenebrae 32, alienis 32, tutamen 32, ignis 32, fames 32", <TaintedMagic:ItemMaterial:8>, 6);
 mods.thaumcraft.Research.addInfusionPage("KnightRobesGTNH", <TaintedMagic:ItemMaterial:8>);
 mods.thaumcraft.Warp.addToResearch("KnightRobesGTNH", 4);
 
@@ -797,8 +797,8 @@ game.setLocalization("tc.research_name.ROD_warpwood", "\u626d\u66f2\u4e4b\u6728\
 game.setLocalization("tc.research_text.ROD_warpwood", "\u8fd9\u6cd5\u6756\u9009\u62e9\u4e86\u90aa\u672f...");
 mods.thaumcraft.Research.addPage("ROD_warpwood", "tm.text.ROD_warpwood.1");
 mods.thaumcraft.Infusion.addRecipe("ROD_warpwood", <Thaumcraft:ItemEldritchObject:3>,
-[<TaintedMagic:BlockWarpwoodLog>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <Thaumcraft:ItemZombieBrain>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>], 
-"alienis 64, arbor 64, praecantatio 64, tenebrae 48, instrumentum 32, terra 24", <TaintedMagic:ItemWandRod>, 9);
+[<TaintedMagic:BlockWarpwoodLog>, <gregtech:gt.metaitem.01:28081>, <gregtech:gt.metaitem.01:19368>, <gregtech:gt.metaitem.01:18970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:18970>, <gregtech:gt.metaitem.01:19368>, <gregtech:gt.metaitem.01:28081>, <Thaumcraft:ItemZombieBrain>, <gregtech:gt.metaitem.01:28081>, <gregtech:gt.metaitem.01:19368>, <gregtech:gt.metaitem.01:18970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:18970>, <gregtech:gt.metaitem.01:19368>, <gregtech:gt.metaitem.01:28081>], 
+"alienis 64, arbor 64, praecantatio 64, tenebrae 48, instrumentum 32, terra 24", <TaintedMagic:ItemWandRod>, 16);
 mods.thaumcraft.Research.addInfusionPage("ROD_warpwood", <TaintedMagic:ItemWandRod>);
 mods.thaumcraft.Warp.addToResearch("ROD_warpwood", 3);
 mods.thaumcraft.Research.addPage("ROD_warpwood", "tm.text.ROD_warpwood.2");
@@ -899,11 +899,11 @@ mods.thaumcraft.Research.setConcealed("CAP_shadowcloth", true);
 game.setLocalization("tc.research_name.CAP_shadowcloth", "\u6697\u5f71\u5e03\u5339\u6756\u7aef");
 game.setLocalization("tc.research_text.CAP_shadowcloth", "\u661f\u671f\u4e09\u6211\u4eec\u5e94\u8be5\u7a7f\u9ed1\u8863\u670d");
 mods.thaumcraft.Research.addPage("CAP_shadowcloth", "tc.research_page.CAP_shadowcloth");
-game.setLocalization("tc.research_page.CAP_shadowcloth", "You've created a new type of wand cap using the exact same design as the Cloth Caps, except using Shadow-Imbued Cloth. The idea was definitely a success, though you needed to use a Charged Thaumium Wand Cap to bind it all together.<BR>The Shadow Cloth Caps are exactly the same as the Cloth Caps, but slightly more efficient. They will grant a 10% Vis Discount.");
+game.setLocalization("tc.research_page.CAP_shadowcloth", "You've created a new type of wand cap using the exact same design as the Cloth Caps, except using Shadow-Imbued Cloth. The idea was definitely a success, though you needed to use a Charged Thaumium Wand Cap to bind it all together.<BR>The Shadow Cloth Caps are exactly the same as the Cloth Caps, but slightly more efficient. They will grant a 15% Vis Discount.");
 mods.thaumcraft.Arcane.addShaped("CAP_shadowcloth", <TaintedMagic:ItemWandCap:3>, "terra 50, ignis 50, ordo 50, perditio 50", [
-[<TaintedMagic:ItemMaterial:1>, <ore:foilShadow>, <TaintedMagic:ItemMaterial:1>], 
-[<ore:foilShadow>, <Thaumcraft:WandCap:2>, <ore:foilShadow>],
-[<TaintedMagic:ItemMaterial:1>, <ore:foilShadow>, <TaintedMagic:ItemMaterial:1>]]);
+[<TaintedMagic:ItemMaterial:1>, <ore:foilVibrantAlloy>, <TaintedMagic:ItemMaterial:1>], 
+[<ore:foilVibrantAlloy>, <Thaumcraft:WandCap:2>, <ore:foilVibrantAlloy>],
+[<TaintedMagic:ItemMaterial:1>, <ore:foilVibrantAlloy>, <TaintedMagic:ItemMaterial:1>]]);
 mods.thaumcraft.Research.addArcanePage("CAP_shadowcloth", <TaintedMagic:ItemWandCap:3>);
 mods.thaumcraft.Warp.addToResearch("CAP_shadowcloth", 2);
 
@@ -917,11 +917,11 @@ mods.thaumcraft.Research.setConcealed("CAP_crimsoncloth", true);
 game.setLocalization("tc.research_name.CAP_crimsoncloth", "\u8840\u8165\u5e03\u5339\u6756\u7aef");
 game.setLocalization("tc.research_text.CAP_crimsoncloth", "\u6211\u559c\u6b22\u8fd9\u7ea2\u8272");
 mods.thaumcraft.Research.addPage("CAP_crimsoncloth", "tc.research_page.CAP_crimsoncloth");
-game.setLocalization("tc.research_page.CAP_crimsoncloth", "Using the same concept that the Cloth Caps laid down, you created very similar caps from Crimson-Stained Cloth. Though, you needed some Enchanted Cloth Cap to bind it all together.<BR>It seems that the Crystal Blood from which the cloth was stained helps the caps channel vis at a far more efficient rate. The Crimson Cloth Caps seem to provide a 15% vis discount.");
-mods.thaumcraft.Arcane.addShaped("CAP_crimsoncloth", <TaintedMagic:ItemWandCap:2>, "terra 75, ignis 75, ordo 75, perditio 75", [
-[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>], 
-[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemWandCap:1>, <TaintedMagic:ItemMaterial:2>],
-[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:2>]]);
+game.setLocalization("tc.research_page.CAP_crimsoncloth", "Your research down the rabbit-hole of such Crimson Seamstry and the darkness of Shadow-Imbued Cloth Caps led to a concentrated piece of an immense condensed magical conductor.<BR>It seems that the Crystal Blood from which the cloth was stained helps the caps channel vis at a far more efficient rate. The Crimson Cloth Caps unusually provide a 20% vis discount.");
+mods.thaumcraft.Arcane.addShaped("CAP_crimsoncloth", <TaintedMagic:ItemWandCap:2>, "aer 100, ignis 100, aqua 100, terra 100, ordo 100, perditio 100", [
+[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>], 
+[<TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemWandCap:3>, <TaintedMagic:ItemMaterial:8>],
+[<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>]]);
 mods.thaumcraft.Research.addArcanePage("CAP_crimsoncloth", <TaintedMagic:ItemWandCap:2>);
 mods.thaumcraft.Warp.addToResearch("CAP_crimsoncloth", 4);
 
@@ -940,7 +940,7 @@ game.setLocalization("tc.research_page.CaP_ShadowmetalGTNH", "\u6839\u636e\u4f60
 \u6697\u5f71\u6756\u7aef\u4f3c\u4e4e\u80fd\u5341\u5206\u6709\u6548\u5730\u8282\u7701\u9b54\u529b,\u5bf9\u6240\u6709\u9b54\u529b\u90fd\u670935%\u7684\u51cf\u514d.
 \u5143\u59cb\u73cd\u73e0\u4e0d\u4f1a\u5728\u5408\u6210\u4e2d\u88ab\u6d88\u8017.");
 mods.thaumcraft.Infusion.addRecipe("CAP_shadowmetal", <Thaumcraft:ItemEldritchObject:3>,
-[<Thaumcraft:WandCap:7>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:3>], 
-"alienis 96, praecantatio 96, tenebrae 84, metallum 72, vacuos 64, cognitio 32, lucrum 16", <TaintedMagic:ItemWandCap>, 12);
+[<Thaumcraft:WandCap:7>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:20368>, <gregtech:gt.metaitem.01:22970>, <gregtech:gt.metaitem.01:20368>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.02:30508>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:20368>, <gregtech:gt.metaitem.01:22970>, <gregtech:gt.metaitem.01:20368>, <TaintedMagic:ItemMaterial:3>], 
+"alienis 96, praecantatio 96, tenebrae 84, metallum 72, vacuos 64, cognitio 68, lucrum 32, fames 32", <TaintedMagic:ItemWandCap>, 12);
 mods.thaumcraft.Research.addInfusionPage("CAP_shadowmetal", <TaintedMagic:ItemWandCap>);
 mods.thaumcraft.Warp.addToResearch("CAP_shadowmetal", 8);
