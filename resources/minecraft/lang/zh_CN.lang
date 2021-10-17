@@ -262,9 +262,7 @@ gtnh.quest64.desc=一台新版的蒸汽熔炉!它消耗更多的蒸汽,但几乎
 
 # Quest.65 - §3§lBlastoff!
 gtnh.quest65.name=§3§l熔炼!
-#B gtnh.quest65.desc=It's about time to make some steel. Look in the Multiblock Goals quest tab and build a Bricked Blast Furnace. Return here once you've made at least 8 steel ingots.
-#A gtnh.quest65.desc=It's about time to make some steel. Look in the Multiblock Goals quest tab and build a Bricked Blast Furnace. Return here once you've made at least 8 steel ingots.%n%nCan't see the quest yet? You need to do more quests here until you've unlocked the Steam Compressor.
-#C gtnh.quest65.desc=是时候搞些钢了!查看多方块任务,建造个砖高炉.当你制作了至少8钢铁锭时,回到这页提交任务.
+gtnh.quest65.desc=是时候搞些钢了!查看多方块任务,建造砖高炉.当你至少制作了8个钢锭后,回到这页提交任务.%n%n还看不到这个任务?你需要在这里多完成些任务,直到解锁蒸汽压缩机.
 
 # Quest.66 - §3§lTime For Some Logic
 gtnh.quest66.name=§3§l是时候搞些逻辑电路
@@ -552,9 +550,7 @@ gtnh.quest136.desc=导管本身是非常棒的,但你可以做得更好.通过�
 
 # Quest.137 - §6§lMaking Things Pretty
 gtnh.quest137.name=§6§l变得漂亮
-#B gtnh.quest137.desc=While conduits on their own are already awesome, you can also hide them if you want. There are 2 types of facades, basic and hardened. While basic ones are simple and easy, the reinforced ones are able to withstand explosions and mining with tools. You have to use your Yeta Wrench to remove it.
-#A gtnh.quest137.desc=While conduits on their own are already awesome, you can also hide them if you want. There are 2 types of facades, basic and hardened. While basic ones are simple and easy, the reinforced ones are able to withstand explosions and mining with tools. You have to use your Yeta Wrench to remove it.%n%nYou'll have to paint your facades in the Painting Machine first - place the block you want them to look like where the paintbrush is, and the facade on the left. Of course, the Painting Machine needs to be powered.
-#C gtnh.quest137.desc=虽然管道本身已经很棒了,如果你想要的话,你也可以隐藏它们.有两种类型的导管框架,基础的和硬化的.虽然基础的简单易用,但是硬化的能够抵御爆炸和工具的挖掘.你必须使用你的以太扳手来移除它.
+gtnh.quest137.desc=虽然导管本身已经很棒了,但如果你想的话,也可以隐藏它们. 有两种类型的导管框架,基础的和硬化的. 基础的简单易用,而硬化的能够抵御爆炸和工具的挖掘. 你得用以太扳手才能拆除它.%n%n你得先在喷涂机中对框架进行喷涂-在漆刷处放置你想要的外观方块,再在左侧放上框架. 当然,喷涂机需要供能.
 
 # Quest.138 - §5§6§lCome to the Dark Side...
 gtnh.quest138.name=§5§6§l来到黑暗面...
@@ -566,9 +562,7 @@ gtnh.quest139.desc=有了玄钢,你现在可以制作一套新的护甲了.它�
 
 # Quest.140 - §6§lDark Steel Tools
 gtnh.quest140.name=§6§l玄钢工具
-#B gtnh.quest140.desc=There are also tools made of dark steel. Each of them can receive upgrades. Hold shift to get the tooltip which will explain what you need in order to upgrade them.%n%nThese tools can also be enchanted like vanilla tools.%n%nThe Ender will increase wither skull and ender pearl drops. It can be upgraded to teleport the player.%n%nDark shears can be empowered, and then will shear a large area, including leaves. Handy for clearing away that giant redwood! Maybe you will find other uses for it.%n%nThe axe, once empowered, can be recharged wirelessly while in farming station.%n%nThe pick? Well, it can mine cobalt I guess if you haven't gotten a tool capable of that yet. You could keep it around to use for base decorations if your normal pick is too fast, I supose.
-#A gtnh.quest140.desc=There are also tools made of dark steel. Each of them can receive upgrades. Hold shift to get the tooltip which will explain what you need in order to upgrade them.%n%nThese tools can also be enchanted like vanilla tools.%n%nThe Ender will increase wither skull and ender pearl drops. It can be upgraded to teleport the player.%n%nDark shears can be empowered, and then will shear a large area, including leaves. Handy for clearing away that giant redwood! Maybe you will find other uses for it.%n%nThe axe, once empowered, can be recharged wirelessly while in farming station.%n%nThe pick? Well, it can mine cobalt I guess if you haven't gotten a tool capable of that yet. You could keep it around to use for base decorations if your normal pick is too fast, I suppose.
-#C gtnh.quest140.desc=还有玄钢制成的工具.它们都可以接受升级.按住shift以获得工具提示,它会解释你需要用什么材料来给工具升级.  这些工具还可以像原版工具一样获得附魔. 终结之剑可以提升凋灵骷髅头与末影珍珠的掉落几率.它还可以被升级,能够传送玩家.  玄钢剪可以被注能,可以一次剪下5x5x3的范围(包括树叶).用它来清理巨大的红木吧!可能你还能找到它别的用途.  玄钢斧,一旦被注能,放入种植站的玄钢斧可以被无线充能.  玄钢镐?好吧,它能开采钴,要是你还没有别的能开采钴的镐子的话.要是你的日常开采镐比这个好的话,玄钢镐还可以用来作为装饰物...
+gtnh.quest140.desc=还有玄钢制成的工具.它们都可以接受升级.按住shift以获得工具提示,它会解释你需要用什么材料来给工具升级.%n%n这些工具还可以像原版工具一样获得附魔. 终结之剑可以提升凋灵骷髅头与末影珍珠的掉落几率.它还可以被升级,能够传送玩家.%n%n玄钢剪可以被注能,可以一次剪下5x5x3的范围(包括树叶).用它来清理巨大的红木吧!可能你还能找到它别的用途.%n%n玄钢斧,一旦被注能,放入种植站的玄钢斧可以被无线充能.%n%n玄钢镐?好吧,它能开采钴,要是你还没有别的能开采钴的镐子的话.要是你的日常开采镐比这个好的话,玄钢镐还可以用来作为装饰物...
 
 # Quest.141 - §9§lVibrant Crystals
 gtnh.quest141.name=§9§l充能晶体
@@ -1387,16 +1381,12 @@ gtnh.quest344.name=嗜血: 女巫之爪
 gtnh.quest344.desc=万一你不喜欢地狱女巫...
 
 # Quest.345 - Seeping Shoes
-gtnh.quest345.name=嗜血: 睡鞋
+gtnh.quest345.name=睡鞋
 gtnh.quest345.desc=谁需要解药？ 现在有免费肥料!聪明点,杀死恶魔前可以与其交易.
 
 # Quest.346 - Poppets
-#B gtnh.quest346.name=Taglock Kits
-#A gtnh.quest346.name=Poppets
-#C gtnh.quest346.name=嗜血: 巫媒
-#B gtnh.quest346.desc=Get a death protection poppet and get a stack of taglock kits. For all your trolling needs.
-#A gtnh.quest346.desc=Get a poppet and make the type you like with it to protect you against that thing. We recommend the death protection one.%n%nConsider making the poppet shelf so you don't need to carry a bunch of them around with you. It needs to be chunkloaded to work.
-#C gtnh.quest346.desc=右键对其他玩家使用,会获得其他玩家的巫媒(建议玩家睡觉的时候采集)被采集的玩家右下角会提示被采集中(可对目标玩家的床,触碰过的水蛭箱子使用)
+gtnh.quest346.name=娃娃
+gtnh.quest346.desc=制作一个基础娃娃,然后制成相应防护类型的娃娃. 我们建议先制作死亡守护娃娃.%n%n考虑制造娃娃台子,这样就不用随身带着一大票娃娃了.它需要被加载才可以生效.
 
 # Quest.347 - Bloodlust: Wool of Bat
 gtnh.quest347.name=嗜血: 蝙蝠之毛
@@ -2488,9 +2478,7 @@ gtnh.quest618.desc=用化学反应釜搅拌硫化氢跟水,可以得到用于一
 
 # Quest.619 - §5§lBattery Buffer
 gtnh.quest619.name=§5§l电池箱
-#B gtnh.quest619.desc=Batteries work pretty much the same in a battery buffer as in a regular machine's battery slot. Battery buffers are used to buffer power to stabilize output.%n%nThey come in different sizes: 1, 4, 9(!) and 16 slots. They can draw 2A and output 1A per battery inserted - watch your wire amperage! Cables come in 1x, 2x, 4x, 8x, 12x, and 16x, with tin transferring 1A per size. Make sure not to mess up, or your cable will melt, becoming a fire, and possibly an explosion.%n%nRemember that there's loss when outputting EU from any GT machine, so putting 4 4-slot ones in a row loses 8 power compared to 2 from 1 16-slot one. And this is for every amp too.
-#A gtnh.quest619.desc=Batteries work pretty much the same in a battery buffer as in a regular machine's battery slot. Battery buffers are used to buffer power to stabilize output.%n%nThey come in different sizes: 1, 4, 9(!) and 16 slots. They can draw 2A and output 1A per battery inserted - watch your wire amperage! Cables come in 1x, 2x, 4x, 8x, 12x, and 16x, with tin transferring 1A per size. Make sure not to mess up, or your cable will melt, becoming a fire, and possibly an explosion.%n%nRemember that there's loss when outputting EU from any GT machine, so putting 4 4-slot ones in a row loses 8 power compared to 2 from 1 16-slot one. And this is for every amp too.%n%n§3You can import batteries into one, but ONLY empty acid batteries can be exported from one. No, you can't get around this.
-#C gtnh.quest619.desc=电池直接装在机器的电池槽时,与放在电池箱中时的工作方式基本一致.电池箱主要用途就是缓冲能量,提供一个稳定的输出.%n%n有1、4、9(!)、16槽可以选择. 每个在电池箱内的电池可以接收2A,并可以输出1A-请注意这一点,别烧线了! 线缆有1x、2x、4x、8x、12x和16x,以锡为例,每x可以传输1A. 请确保不要超过其最大电流,不然线缆会被融化,化为火焰,而且有概率引爆机器.%n%n请记住,电池箱接收EU时也会有损失,所以用4个4槽电池箱排成一列会损失8,而1个16槽电池箱只会损失2. 而且这个损耗也是每A计算的.
+gtnh.quest619.desc=电池直接装在机器的电池槽时,与放在电池箱中时的工作方式基本一致.电池箱主要用途就是缓冲能量,提供一个稳定的输出.%n%n有1、4、9(!)、16槽可以选择. 每个在电池箱内的电池可以接收2A,并可以输出1A-请注意这一点,别烧线了! 线缆有1x、2x、4x、8x、12x和16x,以锡为例,每x可以传输1A. 请确保不要超过其最大电流,不然线缆会被融化,化为火焰,而且有概率引爆机器.%n%n请记住,电池箱接收EU时也会有损失,所以用4个4槽电池箱排成一列会损失8,而1个16槽电池箱只会损失2. 而且这个损耗也是每A计算的.%n%n§3你可以用物流输入电池,但只有空的酸性电池可以从电池箱中输出. 不,你无法循环利用它.
 
 # Quest.620 - §5§lIC2 Battery
 gtnh.quest620.name=§5§lIC2电池
@@ -2939,7 +2927,7 @@ gtnh.quest730.desc=你现在使用蒸汽、杂酚油,可能还有石油及其副
 # Quest.731 - §6§lPlantballs
 gtnh.quest731.name=§6§l植物球
 #B gtnh.quest731.desc=The first step is to compress plantballs out of your wheat. Your LV compressor is too slow for it. I suggest crafting 4 MV compressors for the new bio diesel processing line.
-#A gtnh.quest731.desc=Next you should compress plantballs out of your wheat.%n%nThe MV compressor is twice as fast as the LV. You might think this means using it is a good idea. You would be §4WRONG§r. Why? Remember it also uses 4x the power. This means you spend 4x the EU to get the same amount of EU, twice as fast. Eventually, you end up with an EU deficit with this kind of setup, though not necessarily this setup. Ironic, I know. You can use multiple machines (like, a lot), and later use a Processing Array or multiblock if there is one. This applies to all fuel production, basically.
+gtnh.quest731.desc=Next you should compress plantballs out of your wheat.%n%nThe MV compressor is twice as fast as the LV. You might think this means using it is a good idea. You would be §4WRONG§r. Why? Remember it also uses 4x the power. This means you spend 4x the EU to get the same amount of EU, twice as fast. Eventually, you end up with an EU deficit with this kind of setup, though not necessarily this setup. Ironic, I know. You can use multiple machines (like, a lot), and later use a Processing Array or multiblock if there is one. This applies to all fuel production, basically.
 #C gtnh.quest731.desc=第一步是将小麦压缩成植物球.你的LV压缩机太慢了.我建议你为新的生物柴油生产线制造四台MV压缩机.
 
 # Quest.732 - §6§lPlant Mass
