@@ -262,7 +262,9 @@ gtnh.quest64.desc=一台新版的蒸汽熔炉!它消耗更多的蒸汽,但几乎
 
 # Quest.65 - §3§lBlastoff!
 gtnh.quest65.name=§3§l熔炼!
-gtnh.quest65.desc=是时候搞些钢了!查看多方块任务,建造个砖高炉.当你制作了至少8钢铁锭时,回到这页提交任务.
+#B gtnh.quest65.desc=It's about time to make some steel. Look in the Multiblock Goals quest tab and build a Bricked Blast Furnace. Return here once you've made at least 8 steel ingots.
+#A gtnh.quest65.desc=It's about time to make some steel. Look in the Multiblock Goals quest tab and build a Bricked Blast Furnace. Return here once you've made at least 8 steel ingots.%n%nCan't see the quest yet? You need to do more quests here until you've unlocked the Steam Compressor.
+#C gtnh.quest65.desc=是时候搞些钢了!查看多方块任务,建造个砖高炉.当你制作了至少8钢铁锭时,回到这页提交任务.
 
 # Quest.66 - §3§lTime For Some Logic
 gtnh.quest66.name=§3§l是时候搞些逻辑电路
@@ -550,7 +552,9 @@ gtnh.quest136.desc=导管本身是非常棒的,但你可以做得更好.通过�
 
 # Quest.137 - §6§lMaking Things Pretty
 gtnh.quest137.name=§6§l变得漂亮
-gtnh.quest137.desc=虽然管道本身已经很棒了,如果你想要的话,你也可以隐藏它们.有两种类型的导管框架,基础的和硬化的.虽然基础的简单易用,但是硬化的能够抵御爆炸和工具的挖掘.你必须使用你的以太扳手来移除它.
+#B gtnh.quest137.desc=While conduits on their own are already awesome, you can also hide them if you want. There are 2 types of facades, basic and hardened. While basic ones are simple and easy, the reinforced ones are able to withstand explosions and mining with tools. You have to use your Yeta Wrench to remove it.
+#A gtnh.quest137.desc=While conduits on their own are already awesome, you can also hide them if you want. There are 2 types of facades, basic and hardened. While basic ones are simple and easy, the reinforced ones are able to withstand explosions and mining with tools. You have to use your Yeta Wrench to remove it.%n%nYou'll have to paint your facades in the Painting Machine first - place the block you want them to look like where the paintbrush is, and the facade on the left. Of course, the Painting Machine needs to be powered.
+#C gtnh.quest137.desc=虽然管道本身已经很棒了,如果你想要的话,你也可以隐藏它们.有两种类型的导管框架,基础的和硬化的.虽然基础的简单易用,但是硬化的能够抵御爆炸和工具的挖掘.你必须使用你的以太扳手来移除它.
 
 # Quest.138 - §5§6§lCome to the Dark Side...
 gtnh.quest138.name=§5§6§l来到黑暗面...
@@ -562,7 +566,9 @@ gtnh.quest139.desc=有了玄钢,你现在可以制作一套新的护甲了.它�
 
 # Quest.140 - §6§lDark Steel Tools
 gtnh.quest140.name=§6§l玄钢工具
-gtnh.quest140.desc=还有玄钢制成的工具.它们都可以接受升级.按住shift以获得工具提示,它会解释你需要用什么材料来给工具升级.  这些工具还可以像原版工具一样获得附魔. 终结之剑可以提升凋灵骷髅头与末影珍珠的掉落几率.它还可以被升级,能够传送玩家.  玄钢剪可以被注能,可以一次剪下5x5x3的范围(包括树叶).用它来清理巨大的红木吧!可能你还能找到它别的用途.  玄钢斧,一旦被注能,放入种植站的玄钢斧可以被无线充能.  玄钢镐?好吧,它能开采钴,要是你还没有别的能开采钴的镐子的话.要是你的日常开采镐比这个好的话,玄钢镐还可以用来作为装饰物...
+#B gtnh.quest140.desc=There are also tools made of dark steel. Each of them can receive upgrades. Hold shift to get the tooltip which will explain what you need in order to upgrade them.%n%nThese tools can also be enchanted like vanilla tools.%n%nThe Ender will increase wither skull and ender pearl drops. It can be upgraded to teleport the player.%n%nDark shears can be empowered, and then will shear a large area, including leaves. Handy for clearing away that giant redwood! Maybe you will find other uses for it.%n%nThe axe, once empowered, can be recharged wirelessly while in farming station.%n%nThe pick? Well, it can mine cobalt I guess if you haven't gotten a tool capable of that yet. You could keep it around to use for base decorations if your normal pick is too fast, I supose.
+#A gtnh.quest140.desc=There are also tools made of dark steel. Each of them can receive upgrades. Hold shift to get the tooltip which will explain what you need in order to upgrade them.%n%nThese tools can also be enchanted like vanilla tools.%n%nThe Ender will increase wither skull and ender pearl drops. It can be upgraded to teleport the player.%n%nDark shears can be empowered, and then will shear a large area, including leaves. Handy for clearing away that giant redwood! Maybe you will find other uses for it.%n%nThe axe, once empowered, can be recharged wirelessly while in farming station.%n%nThe pick? Well, it can mine cobalt I guess if you haven't gotten a tool capable of that yet. You could keep it around to use for base decorations if your normal pick is too fast, I suppose.
+#C gtnh.quest140.desc=还有玄钢制成的工具.它们都可以接受升级.按住shift以获得工具提示,它会解释你需要用什么材料来给工具升级.  这些工具还可以像原版工具一样获得附魔. 终结之剑可以提升凋灵骷髅头与末影珍珠的掉落几率.它还可以被升级,能够传送玩家.  玄钢剪可以被注能,可以一次剪下5x5x3的范围(包括树叶).用它来清理巨大的红木吧!可能你还能找到它别的用途.  玄钢斧,一旦被注能,放入种植站的玄钢斧可以被无线充能.  玄钢镐?好吧,它能开采钴,要是你还没有别的能开采钴的镐子的话.要是你的日常开采镐比这个好的话,玄钢镐还可以用来作为装饰物...
 
 # Quest.141 - §9§lVibrant Crystals
 gtnh.quest141.name=§9§l充能晶体
@@ -1384,9 +1390,13 @@ gtnh.quest344.desc=万一你不喜欢地狱女巫...
 gtnh.quest345.name=嗜血: 睡鞋
 gtnh.quest345.desc=谁需要解药？ 现在有免费肥料!聪明点,杀死恶魔前可以与其交易.
 
-# Quest.346 - Taglock Kits
-gtnh.quest346.name=嗜血: 巫媒
-gtnh.quest346.desc=右键对其他玩家使用,会获得其他玩家的巫媒(建议玩家睡觉的时候采集)被采集的玩家右下角会提示被采集中(可对目标玩家的床,触碰过的水蛭箱子使用)
+# Quest.346 - Poppets
+#B gtnh.quest346.name=Taglock Kits
+#A gtnh.quest346.name=Poppets
+#C gtnh.quest346.name=嗜血: 巫媒
+#B gtnh.quest346.desc=Get a death protection poppet and get a stack of taglock kits. For all your trolling needs.
+#A gtnh.quest346.desc=Get a poppet and make the type you like with it to protect you against that thing. We recommend the death protection one.%n%nConsider making the poppet shelf so you don't need to carry a bunch of them around with you. It needs to be chunkloaded to work.
+#C gtnh.quest346.desc=右键对其他玩家使用,会获得其他玩家的巫媒(建议玩家睡觉的时候采集)被采集的玩家右下角会提示被采集中(可对目标玩家的床,触碰过的水蛭箱子使用)
 
 # Quest.347 - Bloodlust: Wool of Bat
 gtnh.quest347.name=嗜血: 蝙蝠之毛
@@ -2478,7 +2488,9 @@ gtnh.quest618.desc=用化学反应釜搅拌硫化氢跟水,可以得到用于一
 
 # Quest.619 - §5§lBattery Buffer
 gtnh.quest619.name=§5§l电池箱
-gtnh.quest619.desc=电池直接装在机器的电池槽时,与放在电池箱中时的工作方式基本一致.电池箱主要用途就是缓冲能量,提供一个稳定的输出.%n%n有1、4、9(!)、16槽可以选择. 每个在电池箱内的电池可以接收2A,并可以输出1A-请注意这一点,别烧线了! 线缆有1x、2x、4x、8x、12x和16x,以锡为例,每x可以传输1A. 请确保不要超过其最大电流,不然线缆会被融化,化为火焰,而且有概率引爆机器.%n%n请记住,电池箱接收EU时也会有损失,所以用4个4槽电池箱排成一列会损失8,而1个16槽电池箱只会损失2. 而且这个损耗也是每A计算的.
+#B gtnh.quest619.desc=Batteries work pretty much the same in a battery buffer as in a regular machine's battery slot. Battery buffers are used to buffer power to stabilize output.%n%nThey come in different sizes: 1, 4, 9(!) and 16 slots. They can draw 2A and output 1A per battery inserted - watch your wire amperage! Cables come in 1x, 2x, 4x, 8x, 12x, and 16x, with tin transferring 1A per size. Make sure not to mess up, or your cable will melt, becoming a fire, and possibly an explosion.%n%nRemember that there's loss when outputting EU from any GT machine, so putting 4 4-slot ones in a row loses 8 power compared to 2 from 1 16-slot one. And this is for every amp too.
+#A gtnh.quest619.desc=Batteries work pretty much the same in a battery buffer as in a regular machine's battery slot. Battery buffers are used to buffer power to stabilize output.%n%nThey come in different sizes: 1, 4, 9(!) and 16 slots. They can draw 2A and output 1A per battery inserted - watch your wire amperage! Cables come in 1x, 2x, 4x, 8x, 12x, and 16x, with tin transferring 1A per size. Make sure not to mess up, or your cable will melt, becoming a fire, and possibly an explosion.%n%nRemember that there's loss when outputting EU from any GT machine, so putting 4 4-slot ones in a row loses 8 power compared to 2 from 1 16-slot one. And this is for every amp too.%n%n§3You can import batteries into one, but ONLY empty acid batteries can be exported from one. No, you can't get around this.
+#C gtnh.quest619.desc=电池直接装在机器的电池槽时,与放在电池箱中时的工作方式基本一致.电池箱主要用途就是缓冲能量,提供一个稳定的输出.%n%n有1、4、9(!)、16槽可以选择. 每个在电池箱内的电池可以接收2A,并可以输出1A-请注意这一点,别烧线了! 线缆有1x、2x、4x、8x、12x和16x,以锡为例,每x可以传输1A. 请确保不要超过其最大电流,不然线缆会被融化,化为火焰,而且有概率引爆机器.%n%n请记住,电池箱接收EU时也会有损失,所以用4个4槽电池箱排成一列会损失8,而1个16槽电池箱只会损失2. 而且这个损耗也是每A计算的.
 
 # Quest.620 - §5§lIC2 Battery
 gtnh.quest620.name=§5§lIC2电池
@@ -2926,7 +2938,9 @@ gtnh.quest730.desc=你现在使用蒸汽、杂酚油,可能还有石油及其副
 
 # Quest.731 - §6§lPlantballs
 gtnh.quest731.name=§6§l植物球
-gtnh.quest731.desc=第一步是将小麦压缩成植物球.你的LV压缩机太慢了.我建议你为新的生物柴油生产线制造四台MV压缩机.
+#B gtnh.quest731.desc=The first step is to compress plantballs out of your wheat. Your LV compressor is too slow for it. I suggest crafting 4 MV compressors for the new bio diesel processing line.
+#A gtnh.quest731.desc=Next you should compress plantballs out of your wheat.%n%nThe MV compressor is twice as fast as the LV. You might think this means using it is a good idea. You would be §4WRONG§r. Why? Remember it also uses 4x the power. This means you spend 4x the EU to get the same amount of EU, twice as fast. Eventually, you end up with an EU deficit with this kind of setup, though not necessarily this setup. Ironic, I know. You can use multiple machines (like, a lot), and later use a Processing Array or multiblock if there is one. This applies to all fuel production, basically.
+#C gtnh.quest731.desc=第一步是将小麦压缩成植物球.你的LV压缩机太慢了.我建议你为新的生物柴油生产线制造四台MV压缩机.
 
 # Quest.732 - §6§lPlant Mass
 gtnh.quest732.name=§6§l植物团块
@@ -3356,8 +3370,10 @@ gtnh.quest837.desc=先进的电路板需要集成逻辑电路和随机存取芯�
 gtnh.quest838.name=§6§l高级电路板
 gtnh.quest838.desc=最后,HV电路板.制造它需要不错的集成电路、集成逻辑电路、RAM、晶体管、细琥珀金导线和铜螺栓.%n%n另外,随着科技提升,电路板的造价会随之降低,不过需要在HV之后才能享受到.
 
-# Quest.839 - §6§lHandle Tiny Piles Like a K1ng
-gtnh.quest839.name=§6§l自动化处理小撮的粉末
+# Quest.839 - §5§6§l§5§lHandle Tiny Piles Like a K1ng
+#B gtnh.quest839.name=§6§lHandle Tiny Piles Like a K1ng
+#A gtnh.quest839.name=§5§6§l§5§lHandle Tiny Piles Like a K1ng
+#C gtnh.quest839.name=§6§l自动化处理小撮的粉末
 gtnh.quest839.desc=你是不是很讨厌手动压缩这些小撮的各种粉末？好,让我来给你们演示一下如何让这种工作实现自动化.使用一种类型的过滤器和物品缓存器(LV或者HV的都可以)和打包机,这样就能让你摆脱合成小撮粉末的工作了.	
 
 # Quest.840 - §5§lButane and Propane
@@ -3994,7 +4010,9 @@ gtnh.quest997.desc=你的玄钢护甲可以通过和多种物品相结合来增�
 
 # Quest.998 - §9§lDark Steel Tool and Weapon Basic Upgrades
 gtnh.quest998.name=§9§l玄钢工具和武器的基础升级
-gtnh.quest998.desc=为了升级玄钢工具和武器,你需要充能晶体和一些经验值. 升级需要在铁砧上面进行. 使用充能晶体升级完毕后的武器和工具可以获得注能附魔,给予10万的电池容量.能量吸收抵消一半的耐久损伤.
+#B gtnh.quest998.desc=In order to upgrade a weapon or tool, you need a vibrant crystal and 10 xp levels.
+#A gtnh.quest998.desc=In order to upgrade a Dark Steel weapon or tool, you need a vibrant crystal, 10 xp levels, and your trusty anvil.
+#C gtnh.quest998.desc=为了升级玄钢工具和武器,你需要充能晶体和一些经验值. 升级需要在铁砧上面进行. 使用充能晶体升级完毕后的武器和工具可以获得注能附魔,给予10万的电池容量.能量吸收抵消一半的耐久损伤.
 
 # Quest.999 - §9§lDark Steel Tool and Weapon Advanced Upgrades
 gtnh.quest999.name=§9§l玄钢工具和武器的高级升级
@@ -4294,7 +4312,9 @@ gtnh.quest1072.desc=我有一个小礼物送给你:一个护身符,在这无比�
 
 # Quest.1073 - Naga
 gtnh.quest1073.name=娜迦
-gtnh.quest1073.desc=在暮色森林中召唤娜迦!%n%n§3也只能在暮色森林世界才能召唤成功.
+#B gtnh.quest1073.desc=Summon a Naga.%n%n§3Only works in the Twilight Forest dim.
+#A gtnh.quest1073.desc=Summon a Naga.%n%n§3Only works in the Twilight Forest dim.%n%nThe name of the nagastone is messed up, this is a side effect of allowing any meta #.
+#C gtnh.quest1073.desc=在暮色森林中召唤娜迦!%n%n§3也只能在暮色森林世界才能召唤成功.
 
 # Quest.1074 - Lich
 gtnh.quest1074.name=巫妖
@@ -4374,7 +4394,9 @@ gtnh.quest1092.desc=你在下界发现了一些和萤石很类似的植物. 将�
 
 # Quest.1093 - §6§lDid You Run Low On Gold or Redstone?
 gtnh.quest1093.name=§6§l你用完了黄金或者红石？
-gtnh.quest1093.desc=你已经用完了你的黄金或者红石储备？如果你已经建设好了辉光花农场的话.你可以通过离心萤石粉来获得小堆的红石和金粉. 红石也是获得铝和铬的很好途径. 在HV阶段,你会用到成吨的金,在此之前早做储备是个好主意.
+#B gtnh.quest1093.desc=Did you run low on redstone and/or gold? It's no problem with a glowstone flower farm. You can centrifuge glowstone dust to redstone and gold dust. Redstone is also a good source of chrome. You'll need tons of gold for HV, so it's a good idea to set this up before then.
+#A gtnh.quest1093.desc=Did you run low on redstone and/or gold? It's no problem with a glowstone flower farm. You can centrifuge glowstone dust to redstone and gold dust. Redstone is also a good source of chrome. You'll need tons of gold for HV, so it's a good idea to set this up before then.%n%n§3There's actually a couple plants that produce glowstone, pick the one you like!
+#C gtnh.quest1093.desc=你已经用完了你的黄金或者红石储备？如果你已经建设好了辉光花农场的话.你可以通过离心萤石粉来获得小堆的红石和金粉. 红石也是获得铝和铬的很好途径. 在HV阶段,你会用到成吨的金,在此之前早做储备是个好主意.
 
 # Quest.1094 - §5§lDiamond Chests... Ooo, Shiny
 gtnh.quest1094.name=§5§l钻石箱子...哦,闪闪发亮
@@ -4386,7 +4408,9 @@ gtnh.quest1095.desc=如果你找到了足够多的黄金,那么你可以继续�
 
 # Quest.1096 - Scribing Tool
 gtnh.quest1096.name=书写工具
-gtnh.quest1096.desc=需要笔和纸才可以解锁某项研究. 而想要进行研究,你需要在研究台中放入笔与墨、研究笔记进行连连看,所以你最好做两个. 哦别忘了你还需要一些墨水.
+#B gtnh.quest1096.desc=To unlock research you need a scribing tool and paper. To do the research, you need a scribing tool and the research note you made in the research table, so you should probably make 2.
+#A gtnh.quest1096.desc=To unlock research you need a scribing tool and paper. To do the research, you need a scribing tool and the research note you made in the research table, so you should probably make two tools.%n%nNote: Thaumcraft Research Tweaks has reworked the research table GUI. Aspects are now combined with drag & drop between aspects in the GUI. You can also right-click while dragging the aspect instead of dropping; the same works with the hexes. All the new features are described in your Thaumonomicon, make sure to checkout the 'Research', 'Research Expertise', 'Research Mastery' and 'Research Duplication' pages.
+#C gtnh.quest1096.desc=需要笔和纸才可以解锁某项研究. 而想要进行研究,你需要在研究台中放入笔与墨、研究笔记进行连连看,所以你最好做两个. 哦别忘了你还需要一些墨水.
 
 # Quest.1097 - Bathing the Warp Effects Away
 gtnh.quest1097.name=沐浴更衣,远离扭曲烦恼
@@ -5162,7 +5186,9 @@ gtnh.quest1289.desc=HV卷板机的速度是LV卷板机的4倍,而且它还解锁
 
 # Quest.1290 - Imma Chargin' My...
 gtnh.quest1290.name=吱吱吱...充电
-gtnh.quest1290.desc=充能赛特斯石英是制作很多AE物品的基础材料.你可以让红石粉和赛特斯粉发生反应,得到充能赛特斯粉,然后使用高压釜晶化得到它.%n%n或者如果你有大量的钠,则可以使用化学反应釜配方. 你还可以制造充能器(AE),直接将赛特斯石英充能,但这比较慢. 充能器底部可直接与GT线缆或AE线缆连接.
+#B gtnh.quest1290.desc=Charged certus quartz is one of the basic components for a lot of AE recipes. Just mix some certus quartz and redstone dust to get charged certus quartz dust.%n%nUse the autoclave to make crystals. Or if you have lots of sodium, you can use the chemical reactor recipe. You can also make the charger to go directly from crystal to charged crystal, but it's not very fast. The charger can connect directly to a GT cable or a fluix cable from the bottom.
+#A gtnh.quest1290.desc=Charged certus quartz is one of the basic components for a lot of AE recipes. Just mix some certus quartz and redstone dust to get charged certus quartz dust.%n%nUse the autoclave to make crystals. Or if you have lots of sodium, you can use the chemical reactor recipe. You can also make the charger to go directly from crystal to charged crystal, but it's not very fast. The charger can connect directly to a GT cable or a fluix cable from the bottom.%n%n§3Note that some recipies only have a chance of producting a charged crystal, which is true of many of these.
+#C gtnh.quest1290.desc=充能赛特斯石英是制作很多AE物品的基础材料.你可以让红石粉和赛特斯粉发生反应,得到充能赛特斯粉,然后使用高压釜晶化得到它.%n%n或者如果你有大量的钠,则可以使用化学反应釜配方. 你还可以制造充能器(AE),直接将赛特斯石英充能,但这比较慢. 充能器底部可直接与GT线缆或AE线缆连接.
 
 # Quest.1291 - Keeping Your Network Happy
 gtnh.quest1291.name=保持网络稳定
@@ -5186,7 +5212,9 @@ gtnh.quest1295.desc=晶体催生仓可以通过插入加速卡来更加快速地
 
 # Quest.1296 - Purifying the Impure
 gtnh.quest1296.name=高纯度晶体
-gtnh.quest1296.desc=高纯度的下界石英、赛特斯和福鲁伊克斯水晶可通过种子(组装沙子和晶体粉末)获得.%n%n将它们丢入水中可以免费生长,而在GT高压釜中可以大大加快这一过程.%n%n§3高压釜配方中,蒸馏水可以让时间减半.%n
+#B gtnh.quest1296.desc=The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.%n%nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.%n%n§3Distilled water reduced the recipe time in the Autoclave by half.%n
+#A gtnh.quest1296.desc=The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.%n%nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.%n%n§3Distilled water reduces the recipe time in the Autoclave by half.%n
+#C gtnh.quest1296.desc=高纯度的下界石英、赛特斯和福鲁伊克斯水晶可通过种子(组装沙子和晶体粉末)获得.%n%n将它们丢入水中可以免费生长,而在GT高压釜中可以大大加快这一过程.%n%n§3高压釜配方中,蒸馏水可以让时间减半.%n
 
 # Quest.1297 - Dragon Essense
 gtnh.quest1297.name=龙之精华
@@ -5282,7 +5310,9 @@ gtnh.quest1319.desc=这个处理用来制作16K和64K的存储元件.
 
 # Quest.1320 - §6§lAdvanced Compressor
 gtnh.quest1320.name=§6§l进阶压缩机
-gtnh.quest1320.desc=MV压缩机比LV压缩机工作速度快2倍,电力消耗高4倍. 这可能是个好主意,但也有可能§4不是§r. 为什么呢?4倍的功率意味着双倍的消耗,只是更快一些. 有些情况下,过高的超频可能会得不偿失(比如燃料生产线). 讽刺吧,我知道,你可以用多个机器,稍后还有处理阵列或相应多方块机器.%n%n当然,如果是其他加工过程,这种超频带来的提速可能是§o值得的§r.
+#B gtnh.quest1320.desc=The MV compressor is twice as fast as the LV one but uses 4x the power. You might think using this is a good idea. You would be §4WRONG§r. Why? The 4x power means you spend more EU to get the same amount of EU, just faster. Eventually, you get a deficit with this kind of setup. Ironic, I know. You can use multiple machines, and later use a Processing Array or multiblock if there is one.%n%nOf course, if you're not using a particular machine to make power, the speed §ois§r probably worth it.
+#A gtnh.quest1320.desc=The MV compressor is twice as fast as the LV one but uses 4x the power.
+#C gtnh.quest1320.desc=MV压缩机比LV压缩机工作速度快2倍,电力消耗高4倍. 这可能是个好主意,但也有可能§4不是§r. 为什么呢?4倍的功率意味着双倍的消耗,只是更快一些. 有些情况下,过高的超频可能会得不偿失(比如燃料生产线). 讽刺吧,我知道,你可以用多个机器,稍后还有处理阵列或相应多方块机器.%n%n当然,如果是其他加工过程,这种超频带来的提速可能是§o值得的§r.
 
 # Quest.1321 - §6§lAdvanced Macerator
 gtnh.quest1321.name=§6§l进阶研磨机
@@ -5846,7 +5876,9 @@ gtnh.quest1460.desc=每个火箭都需要燃料储存罐. 对于3阶火箭,你�
 
 # Quest.1461 - Just Tell Me What to Scan Already!
 gtnh.quest1461.name=告诉我要扫描什么!
-gtnh.quest1461.desc=不想再猜测什么物品含有什么要素? 只想直接开始工作? 扫描这些东西吧. 第一组需要按顺序扫描. 如果它们中的某些物品无法扫描出结果,请尝试先扫描别的(特别是第三组). 最后5个是虚拟要素,可以忽略,因此它们不在此表中.%n%n洒水壶%n火把%n煤%n草方块%n活板门%n箱子%n玻璃%n白骨方块%n鸡%n灵魂沙%n纸%n腐肉%n小麦%n燧石%n黑曜石%n%n灰云%n任意染料%n羊毛%n蜘蛛眼%n雪%n牛奶%n原版锄%n原版镐%n箭%n原版护甲%n水银%n栅栏门%n铁粒%n金%n僵尸之脑%n末影珍珠%n粘液球.实在找不着史莱姆可以在坩埚里加满物品制造咒波粘浆,然后就可以生成神秘史莱姆了(别在基地里这么干)%n带污染的任意物品.%n天域之华(任意要素,小精灵的掉落物,当然你也可以手撸节点)或大地疣%n%n铝锭%n铂金属粉%n细铜导线%n磁铁矿粉%n钍粉%n猪%n地狱岩%n金制护甲%n床%n拴绳(不是铅) 译者注:拴绳和铅在英语中都是Lead%n恶魂之泪%n时钟%n水晶矩阵
+#B gtnh.quest1461.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the third set). The last 5 aspects are dummy aspects you can ignore, and as such are not included in this list.%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nBleached Bone Block%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnow%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate %nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps OR Terra Wart%n%nAlumite Ingot%nPlatinum Metallic Powder%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot
+#A gtnh.quest1461.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the third set). The last 5 aspects are dummy aspects you can ignore, and as such are not included in this list.%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nBleached Bone Block%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnow%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate %nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps OR Terra Wart%n%nAlumite Ingot%nPlatinum Metallic Powder%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot%n%nNote that the above list is for aspects, you may need to scan things like the Nether Portal to unlock certain researches.
+#C gtnh.quest1461.desc=不想再猜测什么物品含有什么要素? 只想直接开始工作? 扫描这些东西吧. 第一组需要按顺序扫描. 如果它们中的某些物品无法扫描出结果,请尝试先扫描别的(特别是第三组). 最后5个是虚拟要素,可以忽略,因此它们不在此表中.%n%n洒水壶%n火把%n煤%n草方块%n活板门%n箱子%n玻璃%n白骨方块%n鸡%n灵魂沙%n纸%n腐肉%n小麦%n燧石%n黑曜石%n%n灰云%n任意染料%n羊毛%n蜘蛛眼%n雪%n牛奶%n原版锄%n原版镐%n箭%n原版护甲%n水银%n栅栏门%n铁粒%n金%n僵尸之脑%n末影珍珠%n粘液球.实在找不着史莱姆可以在坩埚里加满物品制造咒波粘浆,然后就可以生成神秘史莱姆了(别在基地里这么干)%n带污染的任意物品.%n天域之华(任意要素,小精灵的掉落物,当然你也可以手撸节点)或大地疣%n%n铝锭%n铂金属粉%n细铜导线%n磁铁矿粉%n钍粉%n猪%n地狱岩%n金制护甲%n床%n拴绳(不是铅) 译者注:拴绳和铅在英语中都是Lead%n恶魂之泪%n时钟%n水晶矩阵
 
 # Quest.1462 - Thermal Cloth
 gtnh.quest1462.name=隔热布匹
@@ -6148,9 +6180,13 @@ gtnh.quest1535.desc=经过数周的艰苦努力和成千上万的工业TNT,你�
 gtnh.quest1536.name=§3§l我不怕没鬼!
 gtnh.quest1536.desc=我已经找到从死者灵魂中收集的灵气的用途了.它可以制作一种非常实用的玻璃,你可以在其上行走,但是怪物不能. 但是,怪物却认为它们可以!%n%n因此,你可以使用它在你的基地周围创建护城河,以各种方式将怪物摧毁,或者只是将它们移到其他地方. 或是在刷怪场里使用它? 对付从地狱门中走出来的猪人? 这么多的可能性!
 
-# Quest.1537 - §6§lBlack and Decker
-gtnh.quest1537.name=§6§lBlack and Decker(美国一家著名电动工具公司)
-gtnh.quest1537.desc=厌倦了不得不一直更换工具？ 现在已经有了不锈钢,是时候制作电动版的螺丝刀和扳手了! 像电池一样给它们充电,它们的使用寿命比正常版本的工具长得多.%n%n你可以使用锂电池,或镉电池/钠电池.  以后,脉冲合金可以制造出具有出色耐久的优质工具.%n%n§3查阅NEI后,你还发现了MV和HV版本的电动工具,但它们的制造材料要求钛和钨钢.
+# Quest.1537 - §§§5§lBlack and Decker
+#B gtnh.quest1537.name=§6§lBlack and Decker
+#A gtnh.quest1537.name=§§§5§lBlack and Decker
+#C gtnh.quest1537.name=§6§lBlack and Decker(美国一家著名电动工具公司)
+#B gtnh.quest1537.desc=Tired of having to replace tools all the time? Now that stainless steel is available, it's time to make some electric versions of the screwdriver and wrench! Charge them up like a battery, and they'll last much longer than normal versions of the tools.%n%nYou can use lithium batteries, or if you're on a budget, cadmium or sodium batteries instead. Later on, Vibrant Alloy will make excellent tools with great durability.%n%n§3If you look in NEI, you can also see MV and HV versions, but you need Titanium or Tungstensteel for those.
+#A gtnh.quest1537.desc=Tired of having to replace tools all the time? Now that steel is available, it's time to make some electric versions of the screwdriver and wrench! Charge them up like a battery, and they'll last much longer than normal versions of the tools.%n%nYou can use lithium batteries, or if you're on a budget, cadmium or sodium batteries instead. Later on, Vibrant Alloy will make excellent tools with great durability.%n%n§3If you look in NEI, you can also see MV and HV versions, but you need Aluminium or Stainless Steel for those.
+#C gtnh.quest1537.desc=厌倦了不得不一直更换工具？ 现在已经有了不锈钢,是时候制作电动版的螺丝刀和扳手了! 像电池一样给它们充电,它们的使用寿命比正常版本的工具长得多.%n%n你可以使用锂电池,或镉电池/钠电池.  以后,脉冲合金可以制造出具有出色耐久的优质工具.%n%n§3查阅NEI后,你还发现了MV和HV版本的电动工具,但它们的制造材料要求钛和钨钢.
 
 # Quest.1538 - §b§lCeres Trip
 gtnh.quest1538.name=§b§l谷神星之旅
@@ -6282,7 +6318,9 @@ gtnh.quest1569.desc=厄运之息是许多合成表中使用的成分. 当在巫�
 
 # Quest.1570 - Tormented Twine
 gtnh.quest1570.name=折磨线团
-gtnh.quest1570.desc=折磨线团是使用转轮从干扰棉花纺出的. 它是制作织梦者的一种成分. 它是用转轮制成的,干扰棉花,线和厄运之息. 祭坛必须在附近为转轮提供动力.
+#B gtnh.quest1570.desc=Tormented Twine is spun from Disturbed Cotton using a Spinning Wheel. It is an ingredient used to make Dream Catchers.%n%nIt is made in a Spinning Wheel using Disturbed Cotton, String and Reek of Misfortune.%n%nAn Altar must be nearby to power the spinning wheel.
+#A gtnh.quest1570.desc=Tormented Twine is spun from Disturbed Cotton using a Spinning Wheel. It is an ingredient used to make Dream Catchers.%n%nIt is made in a Spinning Wheel using Disturbed Cotton, Blood Burned String and Reek of Misfortune.%n%n§4You need a T2 BM Blood Altar to make the string, so go over to the BM tab if you want to continue and haven't done that yet.%n%n§rAn Altar must be nearby to power the spinning wheel.
+#C gtnh.quest1570.desc=折磨线团是使用转轮从干扰棉花纺出的. 它是制作织梦者的一种成分. 它是用转轮制成的,干扰棉花,线和厄运之息. 祭坛必须在附近为转轮提供动力.
 
 # Quest.1571 - Distillery
 gtnh.quest1571.name=蒸馏塔
@@ -6668,9 +6706,13 @@ gtnh.quest1665.desc=现在你有了HSS-G,是时候制作HSS-S了. 这种新型�
 gtnh.quest1666.name=§c§b§l氩
 gtnh.quest1666.desc=要处理一些你以后会发现的新锭,你需要氩气. 氩气第一个来源来自空气中的少量存在(稀有气体). 不同于直接离心压缩空气单元,你需要先将其在真空冷冻机内转化成液态空气单元,这样才能更有效地离心.%n%n真空冷冻机只能处理单元,但后面的升级版本可直接处理流体. 你还可以制造进气仓替代压缩机,效果碾压. 不过进气仓仅兼容升级版真空冷冻机和多方块火箭引擎(译者注: 实际上大化反、大离心、化工厂均兼容),不过你可以将生产出的空气泵出装单元,然后就可以用在真空冷冻机了. HV泵或者EIO流体导管就足够了. %n%n除非你对某些稀有气体感兴趣,不然的话不用在意蒸馏塔的配方,它比不上离心配方. 蒸馏塔蒸馏液态空气还要求液态空气仓(只对液态空气有效)和巨型输出仓.%n%n§3巨型真空冷冻机与普通真空冷冻机性质类似,也只能处理单元,而升级版凛冰冷冻机却可以直接处理流体.
 
-# Quest.1667 - §b§lNaquadah
-gtnh.quest1667.name=§b§l硅岩
-gtnh.quest1667.desc=在谷神星,你可以找到贫瘠硅岩矿石. 既然你有了粉和氩气,你可以制作一些硅岩锭.你的工业高炉(EBF)需要HSS-G线圈.
+# Quest.1667 - §b§lYour First Naquadah Ingot
+#B gtnh.quest1667.name=§b§lNaquadah
+#A gtnh.quest1667.name=§b§lYour First Naquadah Ingot
+#C gtnh.quest1667.name=§b§l硅岩
+#B gtnh.quest1667.desc=On Ceres you can find small naquadah ores. Now that you have the dust and argon, you can make some naquadah ingots.%nYour EBF needs HSS-G heating coils.
+#A gtnh.quest1667.desc=You may have noticed that you can't get naquadah dust from the naquadah ore, it will only give you the Naquadah Oxide Mixture (NOM) dust, annoying.%n%nThe full naquadah processing line is too complex to set up in IV, I believe you won't want to set up another line after finish platinum and PBI line.%n%nLucky, you can directly smelt the NOM dust into naquadah nuggets in EBF, but it is inefficient and you will lose the byproducts in it.%n%n§3PS: The Naquadah Oxide Mixture is once called "Naquadah Metal Oxide Mixture" and someone called it Nq-MOM for short. §6§4
+#C gtnh.quest1667.desc=在谷神星,你可以找到贫瘠硅岩矿石. 既然你有了粉和氩气,你可以制作一些硅岩锭.你的工业高炉(EBF)需要HSS-G线圈.
 
 # Quest.1668 - HSSG
 gtnh.quest1668.name=HSS-G
@@ -7250,7 +7292,9 @@ gtnh.quest1811.desc=4000桶还不够?想存够烧一辈子的柴油?试试超级
 
 # Quest.1812 - §9§lTeflon Don
 gtnh.quest1812.name=§9§l聚四氟乙烯
-gtnh.quest1812.desc=你只需几步即可制造出聚四氟乙烯.%n%n第一步是制作氢氟酸.如果你还没能登上月球,最好的氟来源是开采方解石或沙石(1/640的几率得到氟石矿石)还有离心石粉或黑色花岗岩粉获得的黑云母粉可电解出氟.你还能从盐矿脉中的锂云母中获得少量氟.  将所得的氟与氢反应,你就会获得氢氟酸.
+#B gtnh.quest1812.desc=To make PTFE, aka Teflon, you only need a few steps.  %n%nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine are mining calcite or sandstone for a chance at fluorite ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.
+#A gtnh.quest1812.desc=To make PTFE, aka Teflon, you only need a few steps.  %n%nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine are mining calcite or sandstone for a chance at fluorite ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.%n%nIf you have reached the moon, process Bastnasite ore.
+#C gtnh.quest1812.desc=你只需几步即可制造出聚四氟乙烯.%n%n第一步是制作氢氟酸.如果你还没能登上月球,最好的氟来源是开采方解石或沙石(1/640的几率得到氟石矿石)还有离心石粉或黑色花岗岩粉获得的黑云母粉可电解出氟.你还能从盐矿脉中的锂云母中获得少量氟.  将所得的氟与氢反应,你就会获得氢氟酸.
 
 # Quest.1813 - §9§lChloroform
 gtnh.quest1813.name=§9§l氯仿
@@ -9486,7 +9530,9 @@ gtnh.quest2370.desc=灼热之镐是一种特殊的镐,它会熔炼方块并向�
 
 # Quest.2371 - Death Flowers
 gtnh.quest2371.name=死亡之花
-gtnh.quest2371.desc=这种紫色的花生长在末地小岛的最高处.可以种植在末地石、泥土、草方块上.也可以种植在花盆中.%n%n在末地外,即使在花盆中,花也会慢慢腐烂.%n%n经过一段时间的枯萎,它开始偶尔吸引愤怒的末影人.%n%n当花完全枯萎后,它会变黑并对周围释放出凋亡效果,但同时会生成能量星团.%n%n使用末影粉末可以部分治愈枯萎.
+#B gtnh.quest2371.desc=The purple flowers found on top of Endstone Blobs is a Death Flower. It can be planted on End Stone, Dirt, Grass or inside Flower Pots.%n%nOutside the End, the flower will slowly decay, even if in a Flower Pot.%n%nAfter some time of decaying, it starts to occasionally attract Angry Endermen.%n%nWhen the flower decays completely, it turns dark, propagates massive amount decay to nearby blocks and spawns an Energy Cluster.%n%nPartial decay can be healed a little using End Powder.
+#A gtnh.quest2371.desc=The purple flowers found on top of Endstone Blobs are Death Flowers. They can be planted on End Stone, Dirt, Grass or inside Flower Pots.%n%nOutside the End, the flower will slowly decay, even if in a Flower Pot.%n%nAfter some time of decaying, it starts to occasionally attract Angry Endermen.%n%nWhen the flower decays completely, it turns dark, propagates massive amount decay to nearby blocks and spawns an Energy Cluster.%n%nPartial decay can be healed a little using End Powder.
+#C gtnh.quest2371.desc=这种紫色的花生长在末地小岛的最高处.可以种植在末地石、泥土、草方块上.也可以种植在花盆中.%n%n在末地外,即使在花盆中,花也会慢慢腐烂.%n%n经过一段时间的枯萎,它开始偶尔吸引愤怒的末影人.%n%n当花完全枯萎后,它会变黑并对周围释放出凋亡效果,但同时会生成能量星团.%n%n使用末影粉末可以部分治愈枯萎.
 
 # Quest.2372 - Living Matter
 gtnh.quest2372.name=活跃物质
@@ -9546,7 +9592,9 @@ gtnh.quest2385.desc=在征服了末地的大部分内容之后,是时候进行�
 
 # Quest.2386 - Indium Dust
 gtnh.quest2386.name=铟粉
-gtnh.quest2386.desc=什么?铟?让我买§m一点点§r!
+#B gtnh.quest2386.desc=What some Indium? Buy §msome§r one!
+#A gtnh.quest2386.desc=Want some Indium? Buy §msome§r one!
+#C gtnh.quest2386.desc=什么?铟?让我买§m一点点§r!
 
 # Quest.2387 - Mutating Sprig
 gtnh.quest2387.name=变异枝条
@@ -9694,7 +9742,9 @@ gtnh.quest2422.desc=想要制作生物陷阱,首先,你得在一格水的上方�
 
 # Quest.2423 - Mad Science is the Best Science
 gtnh.quest2423.name=疯狂科学是最好的科学(Mad Science is the Best Science)
-gtnh.quest2423.desc=接下来,我们需要将一些小动物填入做好的陷阱里,蝙蝠和史莱姆就不错. 对于蝙蝠,你只需要站在陷阱上挂机就行了(你的扭曲足以生成蝙蝠),不然的话...嗯,到洞穴里去抓?%n%n对于史莱姆,如果你实在找不着史莱姆区块,可以用暮色森林中米诺陶迷宫中的迷宫史莱姆. 你抓住它们后,再抓来一只狼和一只豹猫(黄金套索或灵魂瓶非常好用).%n%n现在,我们来创造♂新生命吧,蟾蜍和猫头鹰. 首先,你得在一格水的上方放置一个蜘蛛网,然后在蜘蛛网四个对角位置放置擒拿草,四个基本方位放置前面制作的两套生物陷阱(蝙蝠或史莱姆)中的一套. 在一个擒拿草上放入一颗调谐之石(充能),另外的三个放入超级转生粉. 接着将抓住的两种动物之一放入中心的蜘蛛网中,最后使用变异枝条右键蜘蛛网即可. 注意狼对应的是生物陷阱(蝙蝠),而豹猫对应的是生物陷阱(史莱姆). 驯服的狼(狗)或者豹猫也是可以的.%n%n恭喜,你刚刚无视了自然法则创造出了新的生命! 希望别因为你在室外进行此操作而让它们跑了 :(%n记得它们可以繁殖,下一步会用到. 生猪排或生牛肉可用于驯服、繁殖猫头鹰,而腐肉可用于驯服、繁殖蟾蜍.
+#B gtnh.quest2423.desc=Next we need to fill our snares up with some critters, specifically Bats and Slimes. For the Bats, just place them beneath you and AFK if your warp is high enough to spawn bats, otherwise...uh, go caving?%n%nFor the Slimes, if you can't find any just use the Maze Slimes from the Minoshroom maze in the Twilight Forest for this. After you get them, also go collect a Wolf and an Ocelot (Lassos or Soul Vials are great for this).%n%nNow we'll be creating new life, specifically Toads and Owls. Arrange a Cobweb above a water block with grasspers at the diagonals and one of the two sets of snares in the cardinal directions. Place Attuned Stone (Charged) in all 4 Grasspers. Then place one of the two animals in the center and right-click with your Mutating Sprig like when making the snares. Use the Wolf with the Bats, and the Ocelot with the Slimes. The tamed versions also work.%n%nCongratulations, you've defied the natural order and created new life! Hopefully they didn't run away because you created them outside :(%nMake sure to breed them for the next part. Use Raw Porkchop or Raw Beef for Owls, and Rotten Flesh for Toads to both tame and breed them.
+#A gtnh.quest2423.desc=Next we need to fill our snares up with some critters, specifically Bats and Slimes. For the Bats, just place them beneath you and AFK if your warp is high enough to spawn bats, otherwise...uh, go caving?%n%nFor the Slimes, if you can't find any just use the Maze Slimes from the Minoshroom maze in the Twilight Forest for this. After you get them, also go collect a Wolf and an Ocelot (Lassos or Soul Vials are great for this).%n%nNow we'll be creating new life, specifically Toads and Owls. Arrange a Cobweb above a water block with grasspers at the diagonals and one of the two sets of snares in the cardinal directions. Place Attuned Stone (Charged) in one of the Grasspers, and Mutandis Extremis in the other 3. Then place one of the two animals in the center and right-click with your Mutating Sprig like when making the snares. Use the Wolf with the Bats, and the Ocelot with the Slimes. The tamed versions also work.%n%nCongratulations, you've defied the natural order and created new life! Hopefully they didn't run away because you created them outside :(%n%nMake sure to breed them for the next part. Use Raw Porkchop or Raw Beef for Owls, and Rotten Flesh for Toads to both tame and breed them.
+#C gtnh.quest2423.desc=接下来,我们需要将一些小动物填入做好的陷阱里,蝙蝠和史莱姆就不错. 对于蝙蝠,你只需要站在陷阱上挂机就行了(你的扭曲足以生成蝙蝠),不然的话...嗯,到洞穴里去抓?%n%n对于史莱姆,如果你实在找不着史莱姆区块,可以用暮色森林中米诺陶迷宫中的迷宫史莱姆. 你抓住它们后,再抓来一只狼和一只豹猫(黄金套索或灵魂瓶非常好用).%n%n现在,我们来创造♂新生命吧,蟾蜍和猫头鹰. 首先,你得在一格水的上方放置一个蜘蛛网,然后在蜘蛛网四个对角位置放置擒拿草,四个基本方位放置前面制作的两套生物陷阱(蝙蝠或史莱姆)中的一套. 在一个擒拿草上放入一颗调谐之石(充能),另外的三个放入超级转生粉. 接着将抓住的两种动物之一放入中心的蜘蛛网中,最后使用变异枝条右键蜘蛛网即可. 注意狼对应的是生物陷阱(蝙蝠),而豹猫对应的是生物陷阱(史莱姆). 驯服的狼(狗)或者豹猫也是可以的.%n%n恭喜,你刚刚无视了自然法则创造出了新的生命! 希望别因为你在室外进行此操作而让它们跑了 :(%n记得它们可以繁殖,下一步会用到. 生猪排或生牛肉可用于驯服、繁殖猫头鹰,而腐肉可用于驯服、繁殖蟾蜍.
 
 # Quest.2424 - Finally Binding a Familiar
 gtnh.quest2424.name=最后,绑定爱宠
@@ -9702,7 +9752,9 @@ gtnh.quest2424.desc=现在你有了蟾蜍和猫头鹰,除此之外你还可以�
 
 # Quest.2425 - Greenhouses on Mountains, Hell on Earth
 gtnh.quest2425.name=山巅的温室,地上的炼狱
-gtnh.quest2425.desc=你就快完成了! 想要让仪式发挥效果,你需要先召集聚会女巫. 寻找聚会女巫并完成她们交付的任务:%n掌控亡者的奥义(The means to control the dead) -> 死灵石%n统治恶魔位面的暴力手段(The beating means to master the infernal dimension) -> 恶魔之心%n我必须施展许多诅咒,为我带回必要的药水 -> 怪诞之酿药水 x5%n我想预知未来(I desire to predict the future) -> 水晶球%n另外还有些战斗任务.%n%n完成任务后,聚会女巫就会消失,直到你召唤她们. 当你经过自己的出生点时,聚会女巫偶尔会出现在附近,所以不要把出生点放在岩浆或别的什么上面,因为聚会女巫会死的,并降低你的聚会数量. 你最多拥有6名聚会女巫,还可以有一名额外的女巫帮助你进行炼药锅仪式. 可以考虑在地牢里留几个聚会女巫以防万一.%n%n等你的聚会召集完毕后,只需要在准备仪式本身所需物品即可: 蜘蛛眼、青蛙趾、蝙蝠毛、狗之舌、小毛头鹰之翼、调谐之石和调谐之石(充能).%n%n指定生物群系: 查看生态之书,然后查找 1) 类型 (森林、平原等等),2) 记住序号. 类型决定了所需的核心,序号决定了获得特定生物群系所需的萤石粉数量. 记得将圆环法阵打包进环形护身符中,这样你就不用重新绘制了,然后携带一些圆石准备搭个平台 (15x15,任意高度). 尽量别在夜晚进行此仪式,除非你喜欢与恶魔打交道.%n%n想要进行仪式,你需要将圆环法阵放置到地上(译者注: 环形护身符右键地面即可,以右键处为圆心展开所保存的圆环法阵,若法阵环上有障碍物则会失败),仪式物品(包括核心与萤石粉)在圆环之内,然后手持先知之石右键法阵中心.%n%n有效范围由你的聚会女巫数量决定. 以16*(聚会女巫数量-3)为半径的圆,要是不失败的话,半径就会是16/32/48这几个数字.%n%n不幸的是,当你退出重新登录后,有时会发现在一些特定的区块并未生效,这(可能)是因为区块更新有限,并未能正确保存改变的生物群系ID. 单纯地重新进行仪式并不会有什么效果,相反仪式结束后,退出之前,放置水可能会有助于解决此问题. 或者用鸡也行. 得用很多鸡...%n%n另外,如果你在范围里种植过作物,它们在方块更新或者重新登录前会消失.%n%nPS: 想要把你的圆环法阵重新打包回家,你最好带上祭坛.%n译者注: 其实使用带有调谐之石(充能)的那个绑定仪式即可.
+#B gtnh.quest2425.desc=You're almost there! To actually use the ritual, you need to recruit a coven first. Find some Coven Witches and complete their quests:%nThe means to control the dead -> Necromantic Stone%nThe beating means to master the infernal dimension -> Demon Heart%nI must perform many curses, bring me the necessary brew -> Brew of the Grotesquex5%nI desire to predict the future -> Crystal Ball%nOr just fight something.%n%nOnce completed, they'll disappear until you need them. They will sometimes appear near your spawn point if you walk by it, so don't position it over lava or something, since they CAN die and reduce the number of your coven. You can have 6, with one extra appearing for Cauldron work. Consider keeping some extras around in a dungeon just in case.%n%nAfter you recruit your coven, you just need a few things for the ritual itself: Spider Eye, Toe of Frog, Wool of Bat, Tongue of Dog, Owlet's Wing, Attuned Stone, and Attuned Stone (Charged).%n%nTo specify the biome, look in the Book of Biomes, and find 1) the type (Forest, Plains, etc), and 2) the number. Type determines the foci used, and number determines the amount of Glowstone Dust used to get that specific biome. Make sure to pack up a ritual circle into a circle talisman so you don't have to redraw it, and bring some cobblestone to make a flat area (15x15, any height). Try not to do it at night unless you like dealing with infernals.%n%nTo actually do the ritual, have the ritual circle on the ground, the items (including the foci and Glowstone) in the circle, and right-click the center with the Seer's Stone.%n%nThe area affected is determined by the number of witches in your coven. It's 16 * (size of coven - 3) radius in a circular area, so 16/32/48 if it doesn't fail.%n%nUnfortunately, sometimes after logging out and back in again you may find that it didn't work correctly in specific chunks, this is (possibly) due to lack of chunk updates and it not saving the changed biome ID correctly. Just redoing the ritual doesn't really help, you'll just get patches in the same places, however placing water after the ritual and before logging out may help with this. Or use chickens. Lots of chickens.%n%nAlso, if you already have crops in the area, they'll disappear until a block update or relog.%n%nPSA: To pack your circle back up, you need to bring your altar with you.%n
+#A gtnh.quest2425.desc=You're almost there! To actually use the ritual, you need to recruit a coven first. Find some Coven Witches and complete their quests:%nThe means to control the dead -> Necromantic Stone%nThe beating means to master the infernal dimension -> Demon Heart%nI must perform many curses, bring me the necessary brew -> Brew of the Grotesquex5%nI desire to predict the future -> Crystal Ball%nOr just fight something.%n%nOnce completed, they'll disappear until you need them. They will sometimes appear near your spawn point if you walk by it, so don't position it over lava or something, since they CAN die and reduce the number of your coven. You can have 6, with one extra appearing for Cauldron work. Consider keeping some extras around in a dungeon just in case.%n%nAfter you recruit your coven, you just need a few things for the ritual itself: Spider Eye, Toe of Frog, Wool of Bat, Tongue of Dog, Owlet's Wing, Attuned Stone, and Attuned Stone (Charged).%n%nTo specify the biome, look in the Book of Biomes, and find 1) the type (Forest, Plains, etc), and 2) the number. Type determines the foci used, and number determines the amount of Glowstone Dust used to get that specific biome. Make sure to pack up a ritual circle into a circle talisman so you don't have to redraw it, and bring some cobblestone to make a flat area (15x15, any height). Try not to do it at night unless you like dealing with infernals.%n%nTo actually do the ritual, have the ritual circle on the ground, the items (including the foci and Glowstone) in the circle, and right-click the center with the Seer's Stone.%n%nThe area affected is determined by the number of witches in your coven. It's 16 * (size of coven - 3) radius in a circular area, so 16/32/48 if it doesn't fail.%n%nUnfortunately, sometimes after logging out and back in again you may find that it didn't work correctly in specific chunks, this is (possibly) due to lack of chunk updates and it not saving the changed biome ID correctly. Just redoing the ritual doesn't really help, you'll just get patches in the same places, however placing water after the ritual and before logging out may help with this. Or use chickens. Lots of chickens.%n%nAlso, if you already have crops in the area, they'll disappear until a block update or relog.%n%n§3PS: To pack your circle back up, you need to bring your altar with you.%n
+#C gtnh.quest2425.desc=你就快完成了! 想要让仪式发挥效果,你需要先召集聚会女巫. 寻找聚会女巫并完成她们交付的任务:%n掌控亡者的奥义(The means to control the dead) -> 死灵石%n统治恶魔位面的暴力手段(The beating means to master the infernal dimension) -> 恶魔之心%n我必须施展许多诅咒,为我带回必要的药水 -> 怪诞之酿药水 x5%n我想预知未来(I desire to predict the future) -> 水晶球%n另外还有些战斗任务.%n%n完成任务后,聚会女巫就会消失,直到你召唤她们. 当你经过自己的出生点时,聚会女巫偶尔会出现在附近,所以不要把出生点放在岩浆或别的什么上面,因为聚会女巫会死的,并降低你的聚会数量. 你最多拥有6名聚会女巫,还可以有一名额外的女巫帮助你进行炼药锅仪式. 可以考虑在地牢里留几个聚会女巫以防万一.%n%n等你的聚会召集完毕后,只需要在准备仪式本身所需物品即可: 蜘蛛眼、青蛙趾、蝙蝠毛、狗之舌、小毛头鹰之翼、调谐之石和调谐之石(充能).%n%n指定生物群系: 查看生态之书,然后查找 1) 类型 (森林、平原等等),2) 记住序号. 类型决定了所需的核心,序号决定了获得特定生物群系所需的萤石粉数量. 记得将圆环法阵打包进环形护身符中,这样你就不用重新绘制了,然后携带一些圆石准备搭个平台 (15x15,任意高度). 尽量别在夜晚进行此仪式,除非你喜欢与恶魔打交道.%n%n想要进行仪式,你需要将圆环法阵放置到地上(译者注: 环形护身符右键地面即可,以右键处为圆心展开所保存的圆环法阵,若法阵环上有障碍物则会失败),仪式物品(包括核心与萤石粉)在圆环之内,然后手持先知之石右键法阵中心.%n%n有效范围由你的聚会女巫数量决定. 以16*(聚会女巫数量-3)为半径的圆,要是不失败的话,半径就会是16/32/48这几个数字.%n%n不幸的是,当你退出重新登录后,有时会发现在一些特定的区块并未生效,这(可能)是因为区块更新有限,并未能正确保存改变的生物群系ID. 单纯地重新进行仪式并不会有什么效果,相反仪式结束后,退出之前,放置水可能会有助于解决此问题. 或者用鸡也行. 得用很多鸡...%n%n另外,如果你在范围里种植过作物,它们在方块更新或者重新登录前会消失.%n%nPS: 想要把你的圆环法阵重新打包回家,你最好带上祭坛.%n译者注: 其实使用带有调谐之石(充能)的那个绑定仪式即可.
 
 # Quest.2426 - §6§lTantalum Nether
 gtnh.quest2426.name=§6§l下界的钽
@@ -11394,7 +11446,9 @@ gtnh.quest2847.desc=暮色幽灵是漂浮的灵魂,并不会主动攻击玩家,�
 
 # Quest.2848 - How the Eff Do I Charge This Sh*t?
 gtnh.quest2848.name=我该怎么为这*玩意充电?
-gtnh.quest2848.desc=鉴于有许多玩家对此提出疑问,并且它确实与§o相当§r多的方法都不兼容,在这个任务我们会告诉你什么可以为它§o有效§r充电.%n%n你只需要选择其一.%n%n另外别忘了,如果你只想充电的话,能量存储模块/储能簇可以接收EU输入,而太阳能板却不行(而太阳风发电机因为某些原因也不兼容...).更高级的充电更快(高级太阳能板只需指向太阳即可在整个白天以100％功率发电,而普通太阳能板只能在正午发电,另外混合太阳能板更快.而且混合太阳能板不会仅仅因为放置它们而使游戏崩溃!)
+#B gtnh.quest2848.desc=Given the number of people asking about this and the incompatibility it has with §oso§r many methods, here's a quest to tell you what §owill§r work.%n%nYou only need to make one.%n%nAlso keep in mind that the energy storage ones can have EU put in, if you just wanna charge, unlike the solars (also the solar wind ones don't work for some reason). The higher tier ones charge faster (advanced solars just point at the sun to get 100% power during daylight instead of only at noonish, but hybrids are indeed faster. Also hybrids don't crash the game just by placing them anymore!)
+#A gtnh.quest2848.desc=Given the number of people asking about this and the incompatibility it has with §oso§r many methods, here's a quest to tell you what §owill§r work.%n%n§3You only need to make one.%n%n§rAlso keep in mind that the energy storage ones can have EU put in, if you just wanna charge, unlike the solars (also the solar wind ones don't work for some reason). The higher tier ones charge faster (advanced solars just point at the sun to get 100% power during daylight instead of only at noonish, but hybrids are indeed faster. Also hybrids don't crash the game just by placing them anymore!)
+#C gtnh.quest2848.desc=鉴于有许多玩家对此提出疑问,并且它确实与§o相当§r多的方法都不兼容,在这个任务我们会告诉你什么可以为它§o有效§r充电.%n%n你只需要选择其一.%n%n另外别忘了,如果你只想充电的话,能量存储模块/储能簇可以接收EU输入,而太阳能板却不行(而太阳风发电机因为某些原因也不兼容...).更高级的充电更快(高级太阳能板只需指向太阳即可在整个白天以100％功率发电,而普通太阳能板只能在正午发电,另外混合太阳能板更快.而且混合太阳能板不会仅仅因为放置它们而使游戏崩溃!)
 
 # Quest.2849 - §5§lFaster Steam Transportation
 gtnh.quest2849.name=§5§l更快地传输蒸汽
@@ -11655,6 +11709,234 @@ gtnh.quest2912.desc=什么？你的桶又满了？ 不要紧,继续升级!
 # Quest.2913 - Sticky Matter
 gtnh.quest2913.name=粘性树脂
 gtnh.quest2913.desc=找不到橡胶树? 造不出蓄水器? 不想老是搓木龙头?  花点硬币买一组粘性树脂吧.
+
+# Quest.2914 - §d§0§5§lCobalt from Cobaltite
+#N gtnh.quest2914.name=§d§0§5§lCobalt from Cobaltite
+#N gtnh.quest2914.desc=Can't find any Cobalt in the Nether? Too lazy to bother finding some Ironwood in the Twilight Forest, even though it's super duper easy?%n%nYou can make it with your EBF now using Cobaltite Ore from the Twilight Forest and Oxygen to get Cobalt. It's a little complicated, but you also get arsenic out of it.%n%n§3You can also just electrolyze it out in MV, which is what you §oshould§r§3 be doing instead of this, assuming you actually need it.
+
+# Quest.2915 - §5§lDamascus Steel
+#N gtnh.quest2915.name=§5§lDamascus Steel
+#N gtnh.quest2915.desc=Damascus Steel is one of the hardest materials you can get, at your current tier. It time to craft a stack of Damascus Steel.%n%nThere are few options here, so check NEI to see which mixture suits you best.
+
+# Quest.2916 - §5§lVanadiumsteel
+#N gtnh.quest2916.name=§5§lVanadiumsteel
+#N gtnh.quest2916.desc=Vanadiumsteel is much better than Damascus Steel. It's time to craft a stack of Vanadium Steel.%n%nLater on you can use this new Material make better and more durable Tinkers Tools.
+
+# Quest.2917 - §9§lBetter Magnetic Rods
+#N gtnh.quest2917.name=§9§lBetter Magnetic Rods
+#N gtnh.quest2917.desc=You don't need them this tier, but for EV motors, you're going to need Magnetic Neodymium Rods, so make sure to make this before you start EV.
+
+# Quest.2918 - §b§lEven Betterer Magnetic Rods
+#N gtnh.quest2918.name=§b§lEven Betterer Magnetic Rods
+#N gtnh.quest2918.desc=Like before, you're going to need better rods for your motors next tier. Build this to make your Magnetic Samarium Rods.
+
+# Quest.2919 - Enriched Naquadah Ingot
+#N gtnh.quest2919.name=Enriched Naquadah Ingot
+#N gtnh.quest2919.desc=Ah, you made it.%n%nYou can choose to smelt it with zinc in EBF or electrolyze it. Of course I will electrolyze it because zinc is more useful than enriched naquadah if I were you.
+
+# Quest.2920 - Enriched Naquadah Time
+#N gtnh.quest2920.name=Enriched Naquadah Time
+#N gtnh.quest2920.desc=Enriched naquadah line is much more shorter than naquadah line, and easier. Basically, the only use of enriched naquadah is for fuel, so if you don't want to build a line for it, just ignore this quest.
+
+# Quest.2921 - §c§lEther Strike!
+#N gtnh.quest2921.name=§c§lEther Strike!
+#N gtnh.quest2921.desc=The naquadah is so inert that most acid won't react with it, so you need a more powerful kind of acid to dissolve it.%n%nLet's prepare some necessary organic solvent to make the acid.
+
+# Quest.2922 - §c§lAntimony And Chlorine
+#N gtnh.quest2922.name=§c§lAntimony And Chlorine
+#N gtnh.quest2922.desc=Now put the antimony, chlorine and ether in LCR to get antimony trichloride solution.
+
+# Quest.2923 - §c§lRecycle Fluorine
+#N gtnh.quest2923.name=§c§lRecycle Fluorine
+#N gtnh.quest2923.desc=Fluorine is one of the most important resources. You can recycle most fluorine from it.
+
+# Quest.2924 - §c§lMore Chlorine
+#N gtnh.quest2924.name=§c§lMore Chlorine
+#N gtnh.quest2924.desc=Oh god why I can't get it in one step.
+
+# Quest.2925 - §c§lSeparate Solvent
+#N gtnh.quest2925.name=§c§lSeparate Solvent
+#N gtnh.quest2925.desc=Distill the antimony pentachloride solution to get the pure antimony pentachloride liquid, and you can recycle §c§6ALL§r ether.
+
+# Quest.2926 - §c§lFracture Chlorine
+#N gtnh.quest2926.name=§c§lFracture Chlorine
+#N gtnh.quest2926.desc=The fluorine atom has higher electronegativity, so it will replace the chlorine atom around the antimony.
+
+# Quest.2927 - §c§lKing of Acid
+#N gtnh.quest2927.name=§c§lKing of Acid
+#N gtnh.quest2927.desc=This is the fluoroantimonic acid, the strongest acid in the world currently. It can dissolve almost everything on earth, so it is the best choice to dissolve our NOM dust.%n%nOf course there are something the fluoroantimonic acid can't deal with, like the "Empty Cell". x)
+
+# Quest.2928 - §c§lEBF Time
+#N gtnh.quest2928.name=§c§lEBF Time
+#N gtnh.quest2928.desc=Heat the NOM dust with fluoroantimonic acid and it will dissolve the Nq, Ga, Ad, and the titanium will become precipitate.
+
+# Quest.2929 - §c§lNeutralization
+#N gtnh.quest2929.name=§c§lNeutralization
+#N gtnh.quest2929.desc=The solution is acidic now. Gallium will be separated when 8 < pH < 10.
+
+# Quest.2930 - §c§lExtraction
+#N gtnh.quest2930.name=§c§lExtraction
+#N gtnh.quest2930.desc=Now, the metal elements have been concentrated in solution.
+
+# Quest.2931 - §c§lRecycle Waste Water
+#N gtnh.quest2931.name=§c§lRecycle Waste Water
+#N gtnh.quest2931.desc=The 'Waste Water' is still very useful to some extend and you can get something interesting from it.
+
+# Quest.2932 - §c§lRecycle Titanium
+#N gtnh.quest2932.name=§c§lRecycle Titanium
+#N gtnh.quest2932.desc=As to titanium trifluoride, you can recycle titanium and some hydrofluoric acid in EBF, or you can choose to electrolyze it directly.
+
+# Quest.2933 - §c§lRecycle Gallium
+#N gtnh.quest2933.name=§c§lRecycle Gallium
+#N gtnh.quest2933.desc=You have three choices to deal with it.%n%n1) Electrolyze it.%n%n2) React with sodium in chemical reactor.%n%n3) Mix it with indium phosphate in mixer.
+
+# Quest.2934 - §c§lAnother Solvent
+#N gtnh.quest2934.name=§c§lAnother Solvent
+#N gtnh.quest2934.desc=Why it needs seed oil?
+
+# Quest.2935 - §c§lP-507
+#N gtnh.quest2935.name=§c§lP-507
+#N gtnh.quest2935.desc=This solvent can be 100% recycled in naquadah process line, so don't make a line for it.
+
+# Quest.2936 - §6§lNeutron Activator
+#N gtnh.quest2936.name=§6§lNeutron Activator
+#N gtnh.quest2936.desc=You will need machine to process the naquadah in future.%n%nThis machine is different from most mulits. It needs to use §4Neutron Accelerator§r this special hatch instead of energy hatch to keep it running.%n%nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn't meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.%n%nWhen all Neutron Accelerator§rs aren't running, NKE will decrease 72keV/s.%n%nNeutron Activator will explode when NKE is over 1200MeV.
+
+# Quest.2937 - §6§lNeutron Sensor
+#N gtnh.quest2937.name=§6§lNeutron Sensor
+#N gtnh.quest2937.desc=The sensor will sends redstone signals according to the NKE of the Neutron Activator.%n%nYou only need to input some expressions like ">120MeV", "<=1000keV" etc in the sensor, and it will work as you want.
+
+# Quest.2938 - §6§lNeutron Accelerator
+#N gtnh.quest2938.name=§6§lNeutron Accelerator
+#N gtnh.quest2938.desc=It is used to accelerate the NKE. You just need to connect a cable to it and it will keep consuming the energy.%n%nThe highest tier of accelerator is LuV. Think twice before you try it.%n%n§3PS: You can use a controller cover to stop it.
+
+# Quest.2939 - §6§lOops
+#N gtnh.quest2939.name=§6§lOops
+#N gtnh.quest2939.desc=If you failed to meet the NKE as NEI requested, you can recycle something useful in this place.
+
+# Quest.2940 - §c§lSeparation
+#N gtnh.quest2940.name=§c§lSeparation
+#N gtnh.quest2940.desc=WHY IT COMES BACK AGAINNNNN? ! ! !
+
+# Quest.2941 - §c§lAlmost Success
+#N gtnh.quest2941.name=§c§lAlmost Success
+#N gtnh.quest2941.desc=Now you only have to subside the naquadah from the solution. Hooray!
+
+# Quest.2942 - §c§lNaquadah Dust
+#N gtnh.quest2942.name=§c§lNaquadah Dust
+#N gtnh.quest2942.desc=You can directly get naquadah dust in chemical reactor.
+
+# Quest.2943 - §c§lNaquadah Ingot
+#N gtnh.quest2943.name=§c§lNaquadah Ingot
+#N gtnh.quest2943.desc=If you want ingots, you can smelt it in EBF with carbon.
+
+# Quest.2944 - §c§lSilicon Boule
+#N gtnh.quest2944.name=§c§lSilicon Boule
+#N gtnh.quest2944.desc=You can also use naquadahine dust directly make Silicon Boule in EBF, which takes less time than naquadah dust.
+
+# Quest.2945 - Concentration
+#N gtnh.quest2945.name=Concentration
+#N gtnh.quest2945.desc=Now, let's neutralize the solution.
+
+# Quest.2946 - Recycle Trinium
+#N gtnh.quest2946.name=Recycle Trinium
+#N gtnh.quest2946.desc=I think you just yeet the enriched naquadah and keep the trinium. lol%n%nYou can get the trinium dust by reacting it with hydrogen in LCR or electrolyze it if you don't care the loss.
+
+# Quest.2947 - Linear Accelerator
+#N gtnh.quest2947.name=Linear Accelerator
+#N gtnh.quest2947.desc=I think you should have known how to process it.%n%nSuitable for 9+ to use.
+
+# Quest.2948 - Large Naquadah Reactor
+#N gtnh.quest2948.name=Large Naquadah Reactor
+#N gtnh.quest2948.desc=The multi block version of naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and output the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputing power.%n%n§4It will explode when more one types of fuel in its hatch.%n%n§rYou can input in coolant to increase efficiency.%nIC2 Coolant: 105%%nSuper Coolant: 150%%nCryotheum: 275%%n%nYou can also input molten metals to increase power.%nMolten Ccaesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. It works like add 'paralle' to reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n§3PS: This generator has the highest output power in this pack currently, but it may get nerfed in future.
+
+# Quest.2949 - Refining
+#N gtnh.quest2949.name=Refining
+#N gtnh.quest2949.desc=So it is a circle?
+
+# Quest.2950 - N.N.Q.Q.N.Q.Q
+#N gtnh.quest2950.name=N.N.Q.Q.N.Q.Q
+#N gtnh.quest2950.desc=Do you wanna some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of NERF. You have to build a line for it like the naquadah.
+
+# Quest.2951 - Purification
+#N gtnh.quest2951.name=Purification
+#N gtnh.quest2951.desc=The barium will react with sulphuric acid and become insoluble dust so we can remove it.
+
+# Quest.2952 - Recycle Indium
+#N gtnh.quest2952.name=Recycle Indium
+#N gtnh.quest2952.desc=Free indium!%n%nYou have three choices to deal with it.%n%n1) Electrolyze it.%n%n2) React with calcium in chemical reactor.%n%n3) Mix it with gallium hydroxide in mixer.
+
+# Quest.2953 - Disproportionation
+#N gtnh.quest2953.name=Disproportionation
+#N gtnh.quest2953.desc=The chemical property of naquadria is a bit weird.%n%nThere's nothing known can precipitate it. the only way to get naquadria from the solution is to use high energy particle to bombard it.%n%nHowever, only part of output naquadria can be used for further process and you  have to re-purification the rest.
+
+# Quest.2954 - Once again
+#N gtnh.quest2954.name=Once again
+#N gtnh.quest2954.desc=The miscibility of P-507 and naquadria is still very perfect like naquadah. Most naquadria can be concentrated again.
+
+# Quest.2955 - Naquadria Ingot
+#N gtnh.quest2955.name=Naquadria Ingot
+#N gtnh.quest2955.desc=Smelt it with magnesium dust in EBF.
+
+# Quest.2956 - Nuclear Based Fuel (Th)
+#N gtnh.quest2956.name=Nuclear Based Fuel (Th)
+#N gtnh.quest2956.desc=Cheapest one, with 9 800EU/t output lasting 10s per mB.%n%nIt is also the source of praseodymium, which will be used for naquadah fuel.
+
+# Quest.2957 - Nuclear Based Fuel (U)
+#N gtnh.quest2957.name=Nuclear Based Fuel (U)
+#N gtnh.quest2957.desc=Provides 12 960EU/t output lasting 5s per mB.
+
+# Quest.2958 - Nuclear Based Fuel (Pu)
+#N gtnh.quest2958.name=Nuclear Based Fuel (Pu)
+#N gtnh.quest2958.desc=Provides 32 400EU/t output lasting 7.5s per mB.
+
+# Quest.2959 - Naquadah Fuel Refinery
+#N gtnh.quest2959.name=Naquadah Fuel Refinery
+#N gtnh.quest2959.desc=The insane machine is used for make MkIII and higher tier naquadah fuel.%n%nIt works like fusion that can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coil.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%ne.g. The MkIV fuel requires Teir 2 coil and the refinery is using Teir 3 coil. This allows a perfect overclock, using 2x power and 0.5x time.
+
+# Quest.2960 - Teir 2 Coil
+#N gtnh.quest2960.name=Teir 2 Coil
+#N gtnh.quest2960.desc=It will unlock MkIV and MkV fuel.
+
+# Quest.2961 - Naquadah Based Fuel MkI
+#N gtnh.quest2961.name=Naquadah Based Fuel MkI
+#N gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Looks not very good.
+
+# Quest.2962 - Naquadah Based Fuel MkII
+#N gtnh.quest2962.name=Naquadah Based Fuel MkII
+#N gtnh.quest2962.desc=380 000 EU/t lasting 1s per mB. Still very limited.
+
+# Quest.2963 - Naquadah Based Fuel MkIII
+#N gtnh.quest2963.name=Naquadah Based Fuel MkIII
+#N gtnh.quest2963.desc=10.5M EU/t lasting 3s per mB. UEV @ 1.2A in other words.
+
+# Quest.2964 - Naquadah Based Fuel MkIV
+#N gtnh.quest2964.name=Naquadah Based Fuel MkIV
+#N gtnh.quest2964.desc=138M EU/t lasting 7s per mB. It means its output power is over an Oct compressed solar in normal condition.
+
+# Quest.2965 - Naquadah Based Fuel MkV
+#N gtnh.quest2965.name=Naquadah Based Fuel MkV
+#N gtnh.quest2965.desc=1B EU/t lasting 10s per mB. I must admit that it is a disaster. This power means that you can fill a UHV Lapotronic Capacitor with 43k MkV Fuel cells.
+
+# Quest.2966 - Teir 3 Coil
+#N gtnh.quest2966.name=Teir 3 Coil
+#N gtnh.quest2966.desc=For overclock. Wait, you are going to overclock a UXV recipe?
+
+# Quest.2967 - Incomplete Combustion
+#N gtnh.quest2967.name=Incomplete Combustion
+#N gtnh.quest2967.desc=A chemical fuel engine for LuV? ! Well, if you are the crazy fan for diesel or benzene, you will love it.%n%nThis engine accept all diesel fuel and gas fuel. It also needs Combustion Promoter to keep it running.%n%nThis engine consumes all fuel and combustion promoter in its hatch per second and output power depending on the sum of fuel value.%n%nIts efficiency is determined by the Combustion Promoter/Fuel ratio. The ratio larger, and the eff will be higher. The max eff is 150%.%n%ne.g. You input HOG 100mB/s and combustion promoter 1000mB/s. The eff is 149% and sum of the HOG fuel value is 172 800 EU. So the output power is 172 800 * 149% / 20 = 12 873 EU/t
+
+# Quest.2968 - §6§lLarge Essentia Generator (Good Generator)
+#N gtnh.quest2968.name=§6§lLarge Essentia Generator (Good Generator)
+#N gtnh.quest2968.desc=This Essentia Generator is a rework version of bart's one. The essentia fuel value is different from bart's one and you can find all information about it in Thaumonomicon.%n%n§3PS: The essentia fuel value is still in test state. It may get changed.
+
+# Quest.2969 - §6§lAdept Cell
+#N gtnh.quest2969.name=§6§lAdept Cell
+#N gtnh.quest2969.desc=You can mix different cells in the same generator. It will increase the efficiency.
+
+# Quest.2970 - §6§lMaster Cell
+#N gtnh.quest2970.name=§6§lMaster Cell
+#N gtnh.quest2970.desc=Same as Adept one, but will higher efficiency.
 
 ##################################Line##################################
 
