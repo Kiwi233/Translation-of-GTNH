@@ -527,10 +527,10 @@ languagefile {
     S:Material.alfium=阿尔菲姆
     S:Material.allylchloride=烯丙基氯
     S:Material.almandine=铁铝榴石
-#N     S:Material.alumina=Alumina
+    S:Material.alumina=氧化铝
     S:Material.aluminium=铝
     S:Material.aluminiumbrass=铝黄铜
-#N     S:Material.aluminiumhydroxide=Aluminium Hydroxide
+    S:Material.aluminiumhydroxide=氢氧化铝
     S:Material.alumite=耐酸铝
     S:Material.alunite=明矾石
     S:Material.amber=琥珀
@@ -698,7 +698,7 @@ languagefile {
     S:Material.crudeoil=原油
     S:Material.cruderhodiummetal=粗制铑金属
     S:Material.crudesteel=复合粘土
-#N     S:Material.cryolite=Cryolite
+    S:Material.cryolite=冰晶石
     S:Material.cryotheum=极寒之凛冰
     S:Material.crystal=水晶
     S:Material.crystalflux=咒波结晶
@@ -1213,7 +1213,7 @@ languagefile {
     S:Material.redalloy=红色合金
     S:Material.reddescloizite=红钒铅锌
     S:Material.redfuchsite=红铬云母
-#N     S:Material.redmud=Red Mud
+    S:Material.redmud=赤泥
     S:Material.redrock=红岩
     S:Material.redsteel=红钢
     S:Material.redstone=红石
@@ -1277,15 +1277,15 @@ languagefile {
     S:Material.sodaash=纯碱
     S:Material.sodalite=方钠石
     S:Material.sodium=钠
-#N     S:Material.sodiumaluminate=Sodium Aluminate
+    S:Material.sodiumaluminate=氯酸钠
     S:Material.sodiumbisulfate=硫酸氢钠
-#N     S:Material.sodiumcarbonate=Sodium Carbonate
+    S:Material.sodiumcarbonate=碳酸钠
     S:Material.sodiumfluoride=氟化钠
     S:Material.sodiumformate=甲酸钠
     S:Material.sodiumhydroxide_gt5u=氢氧化钠
     S:Material.sodiumnitrate=硝酸钠
     S:Material.sodiumoxalate=草酸钠
-#N     S:Material.sodiumoxide=Sodium Oxide
+    S:Material.sodiumoxide=氧化钠
     S:Material.sodiumperoxide=过氧化钠
     S:Material.sodiumpersulfate=过硫酸钠
     S:Material.sodiumruthenate=钌酸钠
@@ -1475,7 +1475,7 @@ languagefile {
     S:"Saccharomyces cerevisiae var bayanus"=葡萄酒酵母菌
     S:"Saccharomyces cerevisiae var cerevisiae"=啤酒酵母菌
     S:"Saccharomyces escherichia"=通用酵母菌
-    S:TileEntity_DESCRIPTION_1000_Index_0=机器类型: §e工业高炉§r
+    S:TileEntity_DESCRIPTION_1000_Index_0=机器类型：§e工业高炉§r
     S:TileEntity_DESCRIPTION_1000_Index_1=工业高炉的控制器方块
     S:TileEntity_DESCRIPTION_1000_Index_10=由 §aGregtech§7 添加
     S:TileEntity_DESCRIPTION_1000_Index_2=你可以用某些流体缩短烧制时间.在输入总线中放入编程电路.
@@ -1500,7 +1500,7 @@ languagefile {
     S:TileEntity_Secondary_DESCRIPTION_1000_Index_11=   输出仓：  回收气体，任意顶层机械方块
     S:TileEntity_Secondary_DESCRIPTION_1000_Index_12=       回收比例取决于消声仓等级
     S:TileEntity_Secondary_DESCRIPTION_1000_Index_13=   输出仓：  铂线流体，任意底层机械方块
-    S:TileEntity_DESCRIPTION_1001_Index_0=机器类型: §e聚爆压缩机§r
+    S:TileEntity_DESCRIPTION_1001_Index_0=机器类型：§e聚爆压缩机§r
     S:TileEntity_DESCRIPTION_1001_Index_1=爆炸就是艺术！
     S:TileEntity_DESCRIPTION_1001_Index_2=聚爆压缩机的控制器方块
     S:TileEntity_DESCRIPTION_1001_Index_3=每秒产生§510000§7点污染
@@ -1517,7 +1517,7 @@ languagefile {
     S:TileEntity_Secondary_DESCRIPTION_1001_Index_7=   消声仓：  任意机械方块
     S:TileEntity_Secondary_DESCRIPTION_1001_Index_8=   输入总线：任意机械方块
     S:TileEntity_Secondary_DESCRIPTION_1001_Index_9=   输出总线：任意机械方块
-    S:TileEntity_DESCRIPTION_1002_Index_0=机器类型: §e真空冷冻机§r
+    S:TileEntity_DESCRIPTION_1002_Index_0=机器类型：§e真空冷冻机§r
     S:TileEntity_DESCRIPTION_1002_Index_1=真空冷冻机的控制器方块
     S:TileEntity_DESCRIPTION_1002_Index_2=将炽热的锭与单元强力冷却
     S:TileEntity_DESCRIPTION_1002_Index_3=-----------------------------------------
@@ -1531,7 +1531,7 @@ languagefile {
     S:TileEntity_Secondary_DESCRIPTION_1002_Index_5=   维护仓：  任意机械方块
     S:TileEntity_Secondary_DESCRIPTION_1002_Index_6=   输入总线：任意机械方块
     S:TileEntity_Secondary_DESCRIPTION_1002_Index_7=   输出总线：任意机械方块
-    S:TileEntity_DESCRIPTION_1003_Index_0=机器类型: §e熔炉§r
+    S:TileEntity_DESCRIPTION_1003_Index_0=机器类型：§e熔炉§r
     S:TileEntity_DESCRIPTION_1003_Index_1=工业熔炉的控制器方块
     S:TileEntity_DESCRIPTION_1003_Index_2=一次性熔炼8-128个物品
     S:TileEntity_DESCRIPTION_1003_Index_3=一次熔炼物品数随线圈等级提高而增多
@@ -1555,7 +1555,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_101_Index_0=比青铜锅炉要快
     S:TileEntity_DESCRIPTION_101_Index_1=每秒生产300升的蒸汽
     S:TileEntity_DESCRIPTION_101_Index_2=每秒产生30点污染
-    S:TileEntity_DESCRIPTION_1020_Index_0=机器类型: §e锅炉§r
+    S:TileEntity_DESCRIPTION_1020_Index_0=机器类型：§e锅炉§r
     S:TileEntity_DESCRIPTION_1020_Index_1=大型青铜锅炉的控制器方块
     S:TileEntity_DESCRIPTION_1020_Index_2=每块煤将以16000升/秒的速率产生共计32000升的蒸汽
     S:TileEntity_DESCRIPTION_1020_Index_3=在控制器方块中放入编程电路以进行节流(每点配置减少1000升/秒的流量)
@@ -1577,7 +1577,7 @@ languagefile {
     S:TileEntity_Secondary_DESCRIPTION_1020_Index_10=   可任意使用固体燃料或流体燃料, 或者同时使用
     S:TileEntity_Secondary_DESCRIPTION_1020_Index_11=   输入仓：  水, 任意燃烧室
     S:TileEntity_Secondary_DESCRIPTION_1020_Index_12=   输出仓：  蒸汽, 任意机械方块
-    S:TileEntity_DESCRIPTION_1021_Index_0=机器类型: §e锅炉§r
+    S:TileEntity_DESCRIPTION_1021_Index_0=机器类型：§e锅炉§r
     S:TileEntity_DESCRIPTION_1021_Index_1=大型钢锅炉的控制器方块
     S:TileEntity_DESCRIPTION_1021_Index_2=每块煤将以24000升/秒的速率产生共计36000升的蒸汽
     S:TileEntity_DESCRIPTION_1021_Index_3=在控制器方块中放入编程电路以进行节流(每点配置减少1000升/秒的流量)
@@ -1599,7 +1599,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1021_Index_7=   消声仓：  任意燃烧室
     S:TileES:TileEntity_Secondary_DESCRIPTION_1021_Index_8=   输入总线：固体燃料, 任意燃烧室
     S:TileES:TileEntity_Secondary_DESCRIPTION_1021_Index_9=   输入仓：  流体燃料, 任意燃烧室
-    S:TileEntity_DESCRIPTION_1022_Index_0=机器类型: §e锅炉§r
+    S:TileEntity_DESCRIPTION_1022_Index_0=机器类型：§e锅炉§r
     S:TileEntity_DESCRIPTION_1022_Index_1=大型钛锅炉的控制器方块
     S:TileEntity_DESCRIPTION_1022_Index_2=每块煤将以32000升/秒的速率产生共计41600升的蒸汽
     S:TileEntity_DESCRIPTION_1022_Index_3=在控制器方块中放入配置电路以进行节流(每点配置减少1000升/秒的流量)
@@ -1621,7 +1621,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1022_Index_10=   可任意使用固体燃料或流体燃料, 或者同时使用
     S:TileES:TileEntity_Secondary_DESCRIPTION_1022_Index_11=   输入仓：  水, 任意燃烧室
     S:TileES:TileEntity_Secondary_DESCRIPTION_1022_Index_12=   输出仓：  蒸汽, 任意机械方块
-    S:TileEntity_DESCRIPTION_1023_Index_0=机器类型: §e锅炉§r
+    S:TileEntity_DESCRIPTION_1023_Index_0=机器类型：§e锅炉§r
     S:TileEntity_DESCRIPTION_1023_Index_1=大型钨钢锅炉的控制器方块
     S:TileEntity_DESCRIPTION_1023_Index_2=每块煤将以40000升/秒的速率产生共计48000升的蒸汽
     S:TileEntity_DESCRIPTION_1023_Index_3=在控制器方块中放入配置电路以进行节流(每点配置减少1000升/秒的流量)
@@ -2087,7 +2087,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_11263_Index_1=4格
     S:TileEntity_DESCRIPTION_11264_Index_1=4格
     S:TileEntity_DESCRIPTION_11265_Index_1=4格
-    S:TileEntity_DESCRIPTION_1126_Index_0=机器类型: §e蒸馏塔§r
+    S:TileEntity_DESCRIPTION_1126_Index_0=机器类型：§e蒸馏塔§r
     S:TileEntity_DESCRIPTION_1126_Index_1=蒸馏塔的控制器方块
     S:TileEntity_DESCRIPTION_1126_Index_2=流体仅在对应的层高处输出
     S:TileEntity_DESCRIPTION_1126_Index_3=层高等于NEI配方中的格数
@@ -2219,7 +2219,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_11319_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_11319_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_11319_Index_2=线损/米/安： %s 伏
-    S:TileEntity_DESCRIPTION_1131_Index_0=机器类型: §e蒸汽涡轮§r
+    S:TileEntity_DESCRIPTION_1131_Index_0=机器类型：§e蒸汽涡轮§r
     S:TileEntity_DESCRIPTION_1131_Index_1=大型蒸汽涡轮的控制器方块
     S:TileEntity_DESCRIPTION_1131_Index_2=需要涡轮转子(控制器方块的GUI中)
     S:TileEntity_DESCRIPTION_1131_Index_3=同时输出蒸馏水和能量
@@ -2504,7 +2504,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_114_Index_2=随着时间的推移逐渐钙化,蒸汽输出降低到120L/s.
     S:TileEntity_DESCRIPTION_114_Index_3=拆卸并重新放置以清除钙化
     S:TileEntity_DESCRIPTION_1150_Index_0=驱逐那些讨厌的怪物。范围：64未充能/256充能，耗能1024EU/t
-    S:TileEntity_DESCRIPTION_1151_Index_0=机器类型: §e燃气涡轮§r
+    S:TileEntity_DESCRIPTION_1151_Index_0=机器类型：§e燃气涡轮§r
     S:TileEntity_DESCRIPTION_1151_Index_1=大型燃气涡轮的控制器方块
     S:TileEntity_DESCRIPTION_1151_Index_2=需要涡轮转子(控制器方块的GUI中)
     S:TileEntity_DESCRIPTION_1151_Index_3=每秒产生§5300§7点污染
@@ -2519,7 +2519,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1151_Index_5=   维护仓：  侧面中央
     S:TileES:TileEntity_Secondary_DESCRIPTION_1151_Index_6=   消声仓：  侧面中央
     S:TileES:TileEntity_Secondary_DESCRIPTION_1151_Index_7=   输入仓：  气体燃料, 侧面中央
-    S:TileEntity_DESCRIPTION_1152_Index_0=机器类型: §e蒸汽涡轮§r
+    S:TileEntity_DESCRIPTION_1152_Index_0=机器类型：§e蒸汽涡轮§r
     S:TileEntity_DESCRIPTION_1152_Index_1=大型高压蒸汽涡轮的控制器方块
     S:TileEntity_DESCRIPTION_1152_Index_2=需要涡轮转子(控制器方块的GUI中)
     S:TileEntity_DESCRIPTION_1152_Index_3=同时输出蒸汽和能量
@@ -2536,7 +2536,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1152_Index_5=   维护仓：  侧面中央
     S:TileES:TileEntity_Secondary_DESCRIPTION_1152_Index_6=   输入仓：  过热蒸汽, 侧面中央
     S:TileES:TileEntity_Secondary_DESCRIPTION_1152_Index_7=   输出仓：  蒸汽, 侧面中央
-    S:TileEntity_DESCRIPTION_1153_Index_0=机器类型: §e等离子涡轮§r
+    S:TileEntity_DESCRIPTION_1153_Index_0=机器类型：§e等离子涡轮§r
     S:TileEntity_DESCRIPTION_1153_Index_1=大型等离子涡轮的控制器方块
     S:TileEntity_DESCRIPTION_1153_Index_2=需要涡轮转子(控制器方块的GUI中)
     S:TileEntity_DESCRIPTION_1153_Index_3=使用聚变反应堆生产等离子
@@ -2551,7 +2551,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1153_Index_5=   维护仓：  侧面中央
     S:TileES:TileEntity_Secondary_DESCRIPTION_1153_Index_6=   输入仓：  等离子流体, 侧面中央
     S:TileES:TileEntity_Secondary_DESCRIPTION_1153_Index_7=   输出仓：  熔融流体, 可选, 侧面中央
-    S:TileEntity_DESCRIPTION_1154_Index_0=机器类型: §e热交换机§r
+    S:TileEntity_DESCRIPTION_1154_Index_0=机器类型：§e热交换机§r
     S:TileEntity_DESCRIPTION_1154_Index_1=大型热交换机控制器方块
     S:TileEntity_DESCRIPTION_1154_Index_2=比聚变反应堆更复杂. 确信
     S:TileEntity_DESCRIPTION_1154_Index_3=输入热冷却液或岩浆
@@ -2571,7 +2571,7 @@ languagefile {
     S:TileEntity_Secondary_DESCRIPTION_1154_Index_7=   输入仓：  蒸馏水，任意机械方块
     S:TileEntity_Secondary_DESCRIPTION_1154_Index_8=   输出仓：  冷流体，顶层中央
     S:TileEntity_Secondary_DESCRIPTION_1154_Index_9=   输出仓：  (过热)蒸汽，任意机械方块
-    S:TileEntity_DESCRIPTION_1155_Index_0=机器类型: §e木炭堆打火器§r
+    S:TileEntity_DESCRIPTION_1155_Index_0=机器类型：§e木炭堆打火器§r
     S:TileEntity_DESCRIPTION_1155_Index_1=木炭堆的控制器方块
     S:TileEntity_DESCRIPTION_1155_Index_2=将原木转换为易碎的木炭块
     S:TileEntity_DESCRIPTION_1155_Index_3=结构正确后会自动启动
@@ -2587,7 +2587,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1155_Index_5=   原木：       包裹于前面所提到方块之中
     S:TileES:TileEntity_Secondary_DESCRIPTION_1155_Index_6=   原木方块之间不得有空气
     S:TileEntity_DESCRIPTION_1156_Index_0=放置后用爆炸物右击进行探矿(8炸药，1硝化甘油单元，4TNT或2工业TNT)，之后用闪存右击
-    S:TileEntity_DESCRIPTION_1157_Index_0=机器类型: §e泵§r
+    S:TileEntity_DESCRIPTION_1157_Index_0=机器类型：§e泵§r
     S:TileEntity_DESCRIPTION_1157_Index_1=石油/天然气/液体钻机I的控制器方块
     S:TileEntity_DESCRIPTION_1157_Index_2=工作范围: 1x1区块
     S:TileEntity_DESCRIPTION_1157_Index_3=使用螺丝刀调整工作范围
@@ -2606,7 +2606,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1157_Index_7=   维护仓：  任意基座机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1157_Index_8=   输入总线：采矿管道或编程电路, 可选, 任意基座机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1157_Index_9=   输出仓：  任意基座机械方块
-    S:TileEntity_DESCRIPTION_1158_Index_0=机器类型: §e采矿机§r
+    S:TileEntity_DESCRIPTION_1158_Index_0=机器类型：§e采矿机§r
     S:TileEntity_DESCRIPTION_1158_Index_1=采矿场I的控制器方块
     S:TileEntity_DESCRIPTION_1158_Index_10=由 §aGregtech§7 添加
     S:TileEntity_DESCRIPTION_1158_Index_2=使用螺丝刀调整采矿范围
@@ -2628,7 +2628,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1158_Index_8=   输入总线：采矿管道, 可选, 任意基座机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1158_Index_9=   输入仓：  钻井液, 任意基座机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1158_Index_10=   输出总线：任意基座机械方块
-    S:TileEntity_DESCRIPTION_1159_Index_0=机器类型: §e焦炉§r
+    S:TileEntity_DESCRIPTION_1159_Index_0=机器类型：§e焦炉§r
     S:TileEntity_DESCRIPTION_1159_Index_1=热解炉的控制器方块
     S:TileEntity_DESCRIPTION_1159_Index_2=初级工业化木炭生产
     S:TileEntity_DESCRIPTION_1159_Index_3=工作速度与线圈等级成正比：
@@ -2651,7 +2651,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1159_Index_10=   输出总线：任意底层机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1159_Index_11=   输出仓：  任意底层机械方块
     S:TileEntity_DESCRIPTION_115_Index_0=压缩物品
-    S:TileEntity_DESCRIPTION_1160_Index_0=机器类型: §e裂化机§r
+    S:TileEntity_DESCRIPTION_1160_Index_0=机器类型：§e裂化机§r
     S:TileEntity_DESCRIPTION_1160_Index_1=石油裂化机的控制器方块
     S:TileEntity_DESCRIPTION_1160_Index_2=将重质烃热裂解成轻质馏分
     S:TileEntity_DESCRIPTION_1160_Index_3=比化学反应釜更高效
@@ -2695,7 +2695,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1166_Index_1=使用氮等离子体
     S:TileEntity_DESCRIPTION_1166_Index_2=以进行跨维度传输
     S:TileEntity_DESCRIPTION_1166_Index_3=每100方块损失0.004EU
-    S:TileEntity_DESCRIPTION_1169_Index_0=机器类型: §e化学反应釜§r
+    S:TileEntity_DESCRIPTION_1169_Index_0=机器类型：§e化学反应釜§r
     S:TileEntity_DESCRIPTION_1169_Index_1=大型化学反应釜的控制器方块
     S:TileEntity_DESCRIPTION_1169_Index_2=超频时效率不会降低
     S:TileEntity_DESCRIPTION_1169_Index_3=请直接输入流体而非流体单元
@@ -2716,7 +2716,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1169_Index_11=   输出仓：  任意机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1169_Index_12=   可使用多个仓室/总线
     S:TileEntity_DESCRIPTION_116_Index_0=压缩物品
-    S:TileEntity_DESCRIPTION_1170_Index_0=机器类型: §e装配线§r
+    S:TileEntity_DESCRIPTION_1170_Index_0=机器类型：§e装配线§r
     S:TileEntity_DESCRIPTION_1170_Index_1=装配线的控制器方块
     S:TileEntity_DESCRIPTION_1170_Index_2=用于制造复杂的机器部件(LuV+)
     S:TileEntity_DESCRIPTION_1170_Index_3=不兼容组装机合成表
@@ -2739,7 +2739,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1170_Index_13=   输入总线：第一层的指定位置(其实侧面也可以)
     S:TileES:TileEntity_Secondary_DESCRIPTION_1170_Index_14=   输入仓：  任意第一层机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1170_Index_15=   输出总线：替换最后一片的输入总线
-    S:TileEntity_DESCRIPTION_1171_Index_0=机器类型: §e内燃发电机§r
+    S:TileEntity_DESCRIPTION_1171_Index_0=机器类型：§e内燃发电机§r
     S:TileEntity_DESCRIPTION_1171_Index_1=大型内燃引擎的控制器方块
     S:TileEntity_DESCRIPTION_1171_Index_10=由 §aGregtech§7 添加
     S:TileEntity_DESCRIPTION_1171_Index_2=提供柴油类燃料与1000升/小时的润滑油以运行
@@ -2763,7 +2763,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1171_Index_10=   输入仓：  燃料，与齿轮箱相邻的机械方块之一
     S:TileES:TileEntity_Secondary_DESCRIPTION_1171_Index_11=   输入仓：  润滑油，与齿轮箱相邻的机械方块之一
     S:TileES:TileEntity_Secondary_DESCRIPTION_1171_Index_12=   输入仓：  氧，可选，与齿轮箱相邻的机械方块之一
-    S:TileEntity_DESCRIPTION_1172_Index_0=机器类型: §e超净间§r
+    S:TileEntity_DESCRIPTION_1172_Index_0=机器类型：§e超净间§r
     S:TileEntity_DESCRIPTION_1172_Index_1=超净间的控制器方块
     S:TileEntity_DESCRIPTION_1172_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_1172_Index_11=由 §aGregtech§7 添加
@@ -2794,7 +2794,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1174_Index_0=利用闪电的力量产生电能
     S:TileEntity_DESCRIPTION_1175_Index_0=利用闪电的力量产生电能
     S:TileEntity_DESCRIPTION_1176_Index_0=利用闪电的力量产生电能
-    S:TileEntity_DESCRIPTION_1177_Index_0=机器类型: §e采矿机§r
+    S:TileEntity_DESCRIPTION_1177_Index_0=机器类型：§e采矿机§r
     S:TileEntity_DESCRIPTION_1177_Index_1=采矿场II的控制器方块
     S:TileEntity_DESCRIPTION_1177_Index_10=由 §aGregtech§7 添加
     S:TileEntity_DESCRIPTION_1177_Index_2=使用螺丝刀调整采矿范围
@@ -2816,7 +2816,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1177_Index_8=   输入总线：采矿管道, 可选, 任意基座机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1177_Index_9=   输入仓：  钻井液, 任意基座机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1177_Index_10=   输出总线：任意基座机械方块
-    S:TileEntity_DESCRIPTION_1178_Index_0=机器类型: §e采矿机§r
+    S:TileEntity_DESCRIPTION_1178_Index_0=机器类型：§e采矿机§r
     S:TileEntity_DESCRIPTION_1178_Index_1=采矿场III的控制器方块
     S:TileEntity_DESCRIPTION_1178_Index_10=由 §aGregtech§7 添加
     S:TileEntity_DESCRIPTION_1178_Index_2=使用螺丝刀调整采矿范围
@@ -2838,7 +2838,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1178_Index_8=   输入总线：采矿管道, 可选, 任意基座机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1178_Index_9=   输入仓：  钻井液, 任意基座机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1178_Index_10=   输出总线：任意基座机械方块
-    S:TileEntity_DESCRIPTION_1179_Index_0=机器类型: §e采矿机§r
+    S:TileEntity_DESCRIPTION_1179_Index_0=机器类型：§e采矿机§r
     S:TileEntity_DESCRIPTION_1179_Index_1=采矿场IV的控制器方块
     S:TileEntity_DESCRIPTION_1179_Index_10=由 §aGregtech§7 添加
     S:TileEntity_DESCRIPTION_1179_Index_2=使用螺丝刀调整采矿范围
@@ -2889,7 +2889,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1191_Index_1=燃料效率：100%
     S:TileEntity_DESCRIPTION_1192_Index_0=需要长富集硅岩杆
     S:TileEntity_DESCRIPTION_1192_Index_1=燃料效率：150%
-    S:TileEntity_DESCRIPTION_1193_Index_0=机器类型: §e聚变反应堆§r
+    S:TileEntity_DESCRIPTION_1193_Index_0=机器类型：§e聚变反应堆§r
     S:TileEntity_DESCRIPTION_1193_Index_1=战斗力超过9000！！！
     S:TileEntity_DESCRIPTION_1193_Index_2=核聚变反应堆Mk-I的控制器方块
     S:TileEntity_DESCRIPTION_1193_Index_3=每个能源仓提供2048EU/t的输入与10MEU的容量
@@ -2908,7 +2908,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1193_Index_7=   输入仓：  2-16, 指定位置的机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1193_Index_8=   输出仓：  1-16, 指定位置的机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1193_Index_9=   所有仓室必须为LuV以上
-    S:TileEntity_DESCRIPTION_1194_Index_0=机器类型: §e聚变反应堆§r
+    S:TileEntity_DESCRIPTION_1194_Index_0=机器类型：§e聚变反应堆§r
     S:TileEntity_DESCRIPTION_1194_Index_1=战斗力超过9000！！！
     S:TileEntity_DESCRIPTION_1194_Index_2=核聚变反应堆Mk-II的控制器方块
     S:TileEntity_DESCRIPTION_1194_Index_3=每个能源仓提供4096EU/t的输入与20MEU的容量
@@ -2927,7 +2927,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_1194_Index_7=   输入仓：  2-16, 指定位置的机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1194_Index_8=   输出仓：  1-16, 指定位置的机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_1194_Index_9=   所有仓室必须为ZPM以上
-    S:TileEntity_DESCRIPTION_1195_Index_0=机器类型: §e聚变反应堆§r
+    S:TileEntity_DESCRIPTION_1195_Index_0=机器类型：§e聚变反应堆§r
     S:TileEntity_DESCRIPTION_1195_Index_1=坠落于大地的恒星
     S:TileEntity_DESCRIPTION_1195_Index_2=核聚变反应堆Mk-III的控制器方块
     S:TileEntity_DESCRIPTION_1195_Index_3=每个能源仓提供8192EU/t的输入与40MEU的容量
@@ -2954,7 +2954,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_11989_Index_1=输入4A，输出16A
     S:TileEntity_DESCRIPTION_1198_Index_0=将等离子体转化为能源
     S:TileEntity_DESCRIPTION_1198_Index_1=燃料效率：70%
-    S:TileEntity_DESCRIPTION_1199_Index_0=机器类型: §e处理阵列§r
+    S:TileEntity_DESCRIPTION_1199_Index_0=机器类型：§e处理阵列§r
     S:TileEntity_DESCRIPTION_1199_Index_1=让其中的机器如同放置在世界中一样运行
     S:TileEntity_DESCRIPTION_1199_Index_10=由 §aGregtech§7 添加
     S:TileEntity_DESCRIPTION_1199_Index_2=在控制器GUI中放置至多64个GT单方块机器
@@ -3028,7 +3028,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1201_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1201_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1201_Index_2=线损/米/安： %s 伏
-    S:TileEntity_DESCRIPTION_12020_Index_0=机器类型: §e空气过滤器§r
+    S:TileEntity_DESCRIPTION_12020_Index_0=机器类型：§e空气过滤器§r
     S:TileEntity_DESCRIPTION_12020_Index_1=空气过滤器的控制器方块
     S:TileEntity_DESCRIPTION_12020_Index_2=在控制器GUI中放入涡轮转子,提升效率
     S:TileEntity_DESCRIPTION_12020_Index_3=在输入总线中放入吸附过滤器,效率翻倍
@@ -4046,7 +4046,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12728_Index_3=效率：§e88
     S:TileEntity_DESCRIPTION_12728_Index_4=输出电流：§e1
     S:TileEntity_DESCRIPTION_12728_Index_5=添加者：bartimaeusnek,模组：§2BartWorks§7
-    S:TileEntity_DESCRIPTION_12729_Index_0=机器类型: §e地源热泵§r
+    S:TileEntity_DESCRIPTION_12729_Index_0=机器类型：§e地源热泵§r
     S:TileEntity_DESCRIPTION_12729_Index_1=消耗功率: 512EU/t
     S:TileEntity_DESCRIPTION_12729_Index_2=有4种模式，使用螺丝刀切换模式:
     S:TileEntity_DESCRIPTION_12729_Index_3=模式0：空闲，模式1&2：加热冷却液(两个模式没有区别)，模式3：回收管道
@@ -4066,7 +4066,7 @@ languagefile {
     S:TileEntity_Secondary_DESCRIPTION_12729_Index_8=   输入总线：采矿管道，可选，任意底层机械方块
     S:TileEntity_Secondary_DESCRIPTION_12729_Index_9=   输入仓：  任意底层机械方块
     S:TileEntity_Secondary_DESCRIPTION_12729_Index_10=   输出仓：  任意底层机械方块
-    S:TileEntity_DESCRIPTION_12730_Index_0=机器类型: §e工业高炉§r
+    S:TileEntity_DESCRIPTION_12730_Index_0=机器类型：§e工业高炉§r
     S:TileEntity_DESCRIPTION_12730_Index_1=巨型工业高炉的控制器方块
     S:TileEntity_DESCRIPTION_12730_Index_10=添加者：bartimaeusnek,模组：§2BartWorks§7
     S:TileEntity_DESCRIPTION_12730_Index_2=你可以用某些流体缩短烧制时间.在输入总线中放入编程电路.
@@ -4105,7 +4105,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12731_Index_7=0-1x输出仓(任意机械方块)
     S:TileEntity_DESCRIPTION_12731_Index_8=1x维护仓(任意机械方块)
     S:TileEntity_DESCRIPTION_12731_Index_9=1x能源仓(任意机械方块)
-    S:TileEntity_DESCRIPTION_12732_Index_0=机器类型: §e硅岩反应堆§r
+    S:TileEntity_DESCRIPTION_12732_Index_0=机器类型：§e硅岩反应堆§r
     S:TileEntity_DESCRIPTION_12732_Index_1=大型硅岩反应堆的控制器方块
     S:TileEntity_DESCRIPTION_12732_Index_10=熔融铯            | 2x功率  | 180 L/s 
     S:TileEntity_DESCRIPTION_12732_Index_11=熔融铀-235        | 3x功率  | 180 L/s
@@ -4131,7 +4131,7 @@ languagefile {
     S:TileEntity_Secondary_DESCRIPTION_12732_Index_4=   输入仓：  任意底层机械方块
     S:TileEntity_Secondary_DESCRIPTION_12732_Index_5=   输出仓：  任意底层机械方块
     S:TileEntity_Secondary_DESCRIPTION_12732_Index_6=   维护仓：  任意底层机械方块
-    S:TileEntity_DESCRIPTION_12733_Index_0=机器类型: §e高温反应堆§r
+    S:TileEntity_DESCRIPTION_12733_Index_0=机器类型：§e高温反应堆§r
     S:TileEntity_DESCRIPTION_12733_Index_1=钍高温反应堆(THTR)的控制器方块
     S:TileEntity_DESCRIPTION_12733_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_12733_Index_11=由 §aBartworks§7 添加
@@ -4182,7 +4182,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12737_Index_2=用螺丝刀右击以限制自动输出
     S:TileEntity_DESCRIPTION_12737_Index_3=可以被设定为仅输出/仅不输出 物品/蒸汽/流体
     S:TileEntity_DESCRIPTION_12737_Index_4=被设定过的输出仓在多方块中拥有更高的优先级
-    S:TileEntity_DESCRIPTION_12738_Index_0=机器类型: §e蒸馏塔§r
+    S:TileEntity_DESCRIPTION_12738_Index_0=机器类型：§e蒸馏塔§r
     S:TileEntity_DESCRIPTION_12738_Index_1=巨型蒸馏塔的控制器方块
     S:TileEntity_DESCRIPTION_12738_Index_2=流体仅在对应的输出层处输出
     S:TileEntity_DESCRIPTION_12738_Index_3=输出层可在NEI中查询
@@ -4199,7 +4199,7 @@ languagefile {
     S:TileEntity_Secondary_DESCRIPTION_12738_Index_7=   输出总线：任意底层机械方块
     S:TileEntity_Secondary_DESCRIPTION_12738_Index_8=   输出仓：  2-11x输出仓(每个输出层1个，底层除外)
     S:TileEntity_Secondary_DESCRIPTION_12738_Index_9=       一个"输出层"由5层构成！
-    S:TileEntity_DESCRIPTION_12739_Index_0=机器类型: §e采矿机§r
+    S:TileEntity_DESCRIPTION_12739_Index_0=机器类型：§e采矿机§r
     S:TileEntity_DESCRIPTION_12739_Index_1=虚空采矿场III的控制器方块
     S:TileEntity_DESCRIPTION_12739_Index_2=消耗功率：524288EU/t
     S:TileEntity_DESCRIPTION_12739_Index_3=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或鿫(x64)，以提高产量
@@ -4218,7 +4218,7 @@ languagefile {
     S:TileEntity_Secondary_DESCRIPTION_12739_Index_8=   输入总线：采矿管道，可选，任意底层机械方块
     S:TileEntity_Secondary_DESCRIPTION_12739_Index_9=   输入仓：  稀有气体，可选，任意底层机械方块
     S:TileEntity_Secondary_DESCRIPTION_12739_Index_10=   输出总线：任意底层机械方块
-    S:TileEntity_DESCRIPTION_12740_Index_0=机器类型: §e采矿机§r
+    S:TileEntity_DESCRIPTION_12740_Index_0=机器类型：§e采矿机§r
     S:TileEntity_DESCRIPTION_12740_Index_1=虚空采矿场II的控制器方块
     S:TileEntity_DESCRIPTION_12740_Index_2=消耗功率：131072EU/t
     S:TileEntity_DESCRIPTION_12740_Index_3=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或鿫(x64)，以提高产量
@@ -4237,7 +4237,7 @@ languagefile {
     S:TileEntity_Secondary_DESCRIPTION_12740_Index_8=   输入总线：采矿管道，可选，任意底层机械方块
     S:TileEntity_Secondary_DESCRIPTION_12740_Index_9=   输入仓：  稀有气体，可选，任意底层机械方块
     S:TileEntity_Secondary_DESCRIPTION_12740_Index_10=   输出总线：任意底层机械方块
-    S:TileEntity_DESCRIPTION_12741_Index_0=机器类型: §e采矿机§r
+    S:TileEntity_DESCRIPTION_12741_Index_0=机器类型：§e采矿机§r
     S:TileEntity_DESCRIPTION_12741_Index_1=虚空采矿场I的控制器方块
     S:TileEntity_DESCRIPTION_12741_Index_2=消耗功率：32768EU/t
     S:TileEntity_DESCRIPTION_12741_Index_3=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或鿫(x64)，以提高产量
@@ -4405,7 +4405,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12790_Index_0=多方块机器的能量输出端
     S:TileEntity_DESCRIPTION_12790_Index_1=通量：§e16 777 210§r EU/t
     S:TileEntity_DESCRIPTION_12790_Index_2=添加者：bartimaeusnek,模组：§2BartWorks§7
-    S:TileEntity_DESCRIPTION_12791_Index_0=机器类型: §e增殖反应堆§r
+    S:TileEntity_DESCRIPTION_12791_Index_0=机器类型：§e增殖反应堆§r
     S:TileEntity_DESCRIPTION_12791_Index_1=高温气冷反应堆(HTGR)的控制器方块
     S:TileEntity_DESCRIPTION_12791_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_12791_Index_11=由 §aBartworks§7 添加
@@ -4586,7 +4586,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_1309_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1309_Index_2=线损/米/安： %s 伏
     S:TileEntity_DESCRIPTION_130_Index_0=可以存储4 000 000升的流体
-    S:TileEntity_DESCRIPTION_13101_Index_0=机器类型: §e燃气涡轮§r
+    S:TileEntity_DESCRIPTION_13101_Index_0=机器类型：§e燃气涡轮§r
     S:TileEntity_DESCRIPTION_13101_Index_1=使用氧化气体燃料发电，不会污染环境
     S:TileEntity_DESCRIPTION_13101_Index_2=以高达97%的效率，每秒消耗相当于29480EU燃烧值的燃料
     S:TileEntity_DESCRIPTION_13101_Index_3=产生蒸汽需要首先将固体氧化物燃料电池完全加热
@@ -4606,7 +4606,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_13101_Index_8=   输入仓：  燃料, 任意机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_13101_Index_9=   输入仓：  氧, 任意机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_13101_Index_10=   输出仓：  蒸汽, 任意机械方块
-    S:TileEntity_DESCRIPTION_13102_Index_0=机器类型: §e燃气涡轮§r
+    S:TileEntity_DESCRIPTION_13102_Index_0=机器类型：§e燃气涡轮§r
     S:TileEntity_DESCRIPTION_13102_Index_1=使用氧化气体燃料发电，不会污染环境
     S:TileEntity_DESCRIPTION_13102_Index_2=以高达97%的效率，每秒消耗相当于442200EU燃烧值的燃料
     S:TileEntity_DESCRIPTION_13102_Index_3=产生蒸汽需要首先将固体氧化物燃料电池完全加热
@@ -4627,7 +4627,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_13102_Index_9=   输入仓：  氧, 任意机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_13102_Index_10=   输出仓：  过热蒸汽, 任意机械方块
     S:TileEntity_DESCRIPTION_13103_Index_0=禁用
-    S:TileEntity_DESCRIPTION_13104_Index_0=机器类型: §e流体储罐§r
+    S:TileEntity_DESCRIPTION_13104_Index_0=机器类型：§e流体储罐§r
     S:TileEntity_DESCRIPTION_13104_Index_1=高科技储罐，最多可容纳25种不同的液体!
     S:TileEntity_DESCRIPTION_13104_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_13104_Index_11=由 §aKekzTech§7 添加
@@ -4653,7 +4653,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_13104_Index_11=   T.F.F.T输入/输出仓：可替换任意与存储库方块相邻的机械方块或玻璃
     S:TileES:TileEntity_Secondary_DESCRIPTION_13104_Index_12=   将其与导管或流体存储总线结合使用，可以直接与所有流体交互.
     S:TileES:TileEntity_Secondary_DESCRIPTION_13104_Index_13=   为什么有4种，而其中还有两种无法合成...
-    S:TileEntity_DESCRIPTION_13106_Index_0=机器类型: §e电池箱§r
+    S:TileEntity_DESCRIPTION_13106_Index_0=机器类型：§e电池箱§r
     S:TileEntity_DESCRIPTION_13106_Index_1=能源存储结构! 但无法为电池或工具充电.
     S:TileEntity_DESCRIPTION_13106_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_13106_Index_11=由 §aKekzTech§7 添加
@@ -4730,36 +4730,36 @@ languagefile {
     S:TileEntity_DESCRIPTION_1331_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1331_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1331_Index_2=线损/米/安： %s 伏
-#N     S:TileEntity_DESCRIPTION_1337_Index_0=Machine Type: §eDyson Swarm§r
-#N     S:TileEntity_DESCRIPTION_1337_Index_1=Controller Block for the Dyson Swarm Command Center
-#N     S:TileEntity_DESCRIPTION_1337_Index_2=Put Dyson Swarm Modules in the Input Hatch(es) to increase energy output by 524,288EU/t per Item
-#N     S:TileEntity_DESCRIPTION_1337_Index_3=1% chance of destruction of a Dyson Swarm Module per second per Item
-#N     S:TileEntity_DESCRIPTION_1337_Index_4=Consumes 1,000L of Gelid Cryotheum per second
+    S:TileEntity_DESCRIPTION_1337_Index_0=机器类型：§e戴森球§r
+    S:TileEntity_DESCRIPTION_1337_Index_1=戴森球指挥中心的控制器方块
+    S:TileEntity_DESCRIPTION_1337_Index_2=在输入仓中放入戴森球模块以提升能量输出，每个524,288EU/t
+    S:TileEntity_DESCRIPTION_1337_Index_3=每秒每个戴森球模块有1%几率损耗
+    S:TileEntity_DESCRIPTION_1337_Index_4=每秒消耗1,000L极寒之凛冰
     S:TileEntity_DESCRIPTION_1337_Index_5=-----------------------------------------
     S:TileEntity_DESCRIPTION_1337_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
-#N     S:TileEntity_DESCRIPTION_1337_Index_7=Added by: §a§5GalaxySpace§7
-Dimensions: 16x20x16 (HxHxL)
-Structure:
-This structure is too complex to describe, use the Muitiblock structure Hologram Pro. jiector!
-Dynamo Hatch: Can use Single- and/or Multi-Amp Dynamo Hatches and/or Laser Source Hatches (1 - 12)
-Maintenance Hatch: 1
-Input Bus: 1-11
-Input Hatch: 1-11
-Additionally needed:
-Energy Receiver Base Casing: 53-64 (depending on the amount of Dynamo Hatches) 
-Energy Receiver Dish Block: 81
-Module Deployment Unit Base Casing: 62-72 (depending on the amount of Input Busses & Hatches)
-Module Deployment Unit Core: 1
-Module Deployment Unit superconducting Magnet: 32
-Control Center Base Casing: 139 
-Control Center Primary Hindings: 20
-Control Center Secondary Hindings: 12
-Ultra Hign Strenght Concrete Floor: 1
-Awakened Draconium Coil Block: 9
-Hermetic Casing X: 1
-Titanium Frame Box: 16 
-HSS-S Frame Box: 23
-superconductor Base UHV Frame Box: 64
+    S:TileEntity_DESCRIPTION_1337_Index_7=由 §a§5GalaxySpace§7 添加
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=大小(宽x高x长)：16x20x16
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=结构：
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   此结构非常复杂，请参考§9Structure§1Lib§7全息投影!
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   动力仓：  可使用普通动力仓/多A动力仓/激光源仓(1-12)
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   维护仓：  1
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   输入总线：1-11
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   输入仓：  1-11
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=另外需要：
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   能量接收基座机械方块：    53-64(基于动力仓数量) 
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   能量接收天线方块：        81
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   模块部署单元基座机械方块：62-72(基于输入总线/仓数量)
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   模块部署单元核心：        1
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   模块部署单元超导磁体：    32
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   控制中心基座机械方块：    139 
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   控制中心初级绕组：        20
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   控制中心次级绕组：        12
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   超强混凝土地板：          1
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   觉醒龙线圈方块：          9
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   密封机械方块 X：          1
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   钛框架：                  16 
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   高速钢-S框架：            23
+    S:TileEntity_DESCRIPTION_Secondary_1337_Index_0=   UHV超导粗胚框架：         64
     S:TileEntity_DESCRIPTION_133_Index_0=可以存储32 000 000升的流体
     S:TileEntity_DESCRIPTION_1340_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1340_Index_1=最大电流： %s
@@ -4916,7 +4916,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_1409_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1409_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1409_Index_2=线损/米/安： %s 伏
-    S:TileEntity_DESCRIPTION_140_Index_0=机器类型: §e高炉§r
+    S:TileEntity_DESCRIPTION_140_Index_0=机器类型：§e高炉§r
     S:TileEntity_DESCRIPTION_140_Index_1=砖高炉的控制器方块
     S:TileEntity_DESCRIPTION_140_Index_2=用于炼钢或一般的热冶金
     S:TileEntity_DESCRIPTION_140_Index_3=不同于其他GT多方块机器，砖高炉的控制器可进行自动物品交互
@@ -4937,7 +4937,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_1411_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1411_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1411_Index_2=线损/米/安： %s 伏
-    S:TileEntity_DESCRIPTION_141_Index_0=机器类型: §e泵§r
+    S:TileEntity_DESCRIPTION_141_Index_0=机器类型：§e泵§r
     S:TileEntity_DESCRIPTION_141_Index_1=石油/天然气/液体钻机II的控制器方块
     S:TileEntity_DESCRIPTION_141_Index_2=工作范围: 4x4区块
     S:TileEntity_DESCRIPTION_141_Index_3=使用螺丝刀调整工作范围
@@ -4986,7 +4986,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_1429_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1429_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1429_Index_2=线损/米/安： %s 伏
-    S:TileEntity_DESCRIPTION_142_Index_0=机器类型: §e泵§r
+    S:TileEntity_DESCRIPTION_142_Index_0=机器类型：§e泵§r
     S:TileEntity_DESCRIPTION_142_Index_1=石油/天然气/液体钻机III的控制器方块
     S:TileEntity_DESCRIPTION_142_Index_2=工作范围: 8x8区块
     S:TileEntity_DESCRIPTION_142_Index_3=使用螺丝刀调整工作范围
@@ -5011,7 +5011,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_1431_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1431_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1431_Index_2=线损/米/安： %s 伏
-    S:TileEntity_DESCRIPTION_143_Index_0=机器类型: §e混凝土回填机§r
+    S:TileEntity_DESCRIPTION_143_Index_0=机器类型：§e混凝土回填机§r
     S:TileEntity_DESCRIPTION_143_Index_1=混凝土回填机的控制器方块
     S:TileEntity_DESCRIPTION_143_Index_2=将在其下方填充浅色混凝土.可穿墙
     S:TileEntity_DESCRIPTION_143_Index_3=可用于填充基地下方的所有可刷怪空间，以减小延迟
@@ -5061,7 +5061,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_1449_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1449_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1449_Index_2=线损/米/安： %s 伏
-    S:TileEntity_DESCRIPTION_144_Index_0=机器类型: §e混凝土回填机§r
+    S:TileEntity_DESCRIPTION_144_Index_0=机器类型：§e混凝土回填机§r
     S:TileEntity_DESCRIPTION_144_Index_1=进阶混凝土回填机的控制器方块
     S:TileEntity_DESCRIPTION_144_Index_2=将在其下方填充浅色混凝土.可穿墙
     S:TileEntity_DESCRIPTION_144_Index_3=可用于填充基地下方的所有可刷怪空间，以减小延迟
@@ -6488,7 +6488,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_1691_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1691_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1691_Index_2=线损/米/安： %s 伏
-    S:TileEntity_DESCRIPTION_16999_Index_0=机器类型: §e硅岩燃料精炼厂§r
+    S:TileEntity_DESCRIPTION_16999_Index_0=机器类型：§e硅岩燃料精炼厂§r
     S:TileEntity_DESCRIPTION_16999_Index_1=硅岩燃料精炼厂的控制器方块
     S:TileEntity_DESCRIPTION_16999_Index_10=由 §aGood Generator§7添加
     S:TileEntity_DESCRIPTION_16999_Index_2=但代价是什么?
@@ -7181,7 +7181,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_2104_Index_2=用闪存,扫描闪存,打印闪存,将内容打印到书上
     S:TileEntity_DESCRIPTION_2104_Index_3=矿物勘探区为勘探者下方144x144大小的方块
     S:TileEntity_DESCRIPTION_2104_Index_4=石油勘探区为3x3油田，每块油田为8x8区块
-    S:TileEntity_DESCRIPTION_2105_Index_0=机器类型: §e内燃发电机§r
+    S:TileEntity_DESCRIPTION_2105_Index_0=机器类型：§e内燃发电机§r
     S:TileEntity_DESCRIPTION_2105_Index_1=极限内燃引擎的控制器方块
     S:TileEntity_DESCRIPTION_2105_Index_10=由 §aGregtech§7 添加
     S:TileEntity_DESCRIPTION_2105_Index_2=提供高辛烷值汽油与8000升/小时的润滑油以运行
@@ -8084,7 +8084,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_31015_Index_6=比相同电压的多方块聚变反应堆慢16倍
     S:TileEntity_DESCRIPTION_31015_Index_7=输入/输出仓放置于侧面和底部
     S:TileEntity_DESCRIPTION_31015_Index_8=电源只能插入背面
-    S:TileEntity_DESCRIPTION_31015_Index_9=机器类型: §e聚变反应堆§r
+    S:TileEntity_DESCRIPTION_31015_Index_9=机器类型：§e聚变反应堆§r
     S:TileEntity_DESCRIPTION_31016_Index_0=§6§6精炼抑制容器§7
     S:TileEntity_DESCRIPTION_31016_Index_1=§6§6容量: §3256000L§7
     S:TileEntity_DESCRIPTION_31016_Index_2=§6§6支持 §489§6 种等离子体§7
@@ -8113,7 +8113,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_31021_Index_33=蒸馏室模式: 层数*(4*输入电压等级)
     S:TileEntity_DESCRIPTION_31021_Index_34=1x消声仓
     S:TileEntity_DESCRIPTION_31021_Index_35=1x维护仓
-    S:TileEntity_DESCRIPTION_31021_Index_36=机器类型: §e蒸馏室,蒸馏塔§r
+    S:TileEntity_DESCRIPTION_31021_Index_36=机器类型：§e蒸馏室,蒸馏塔§r
     S:TileEntity_DESCRIPTION_31021_Index_37=每秒造成480点污染
     S:TileEntity_DESCRIPTION_31023_Index_18=工业合金炉的控制器方块
     S:TileEntity_DESCRIPTION_31023_Index_19=每提升一个电压等级,并行系数加一
@@ -8131,11 +8131,11 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_31023_Index_31=1x能源仓
     S:TileEntity_DESCRIPTION_31023_Index_32=1x消声仓
     S:TileEntity_DESCRIPTION_31023_Index_33=1x维护仓
-    S:TileEntity_DESCRIPTION_31023_Index_34=机器类型: §e合金炉§r
+    S:TileEntity_DESCRIPTION_31023_Index_34=机器类型：§e合金炉§r
     S:TileEntity_DESCRIPTION_31023_Index_35=每秒造成300点污染
     S:TileEntity_DESCRIPTION_31024_Index_3=先进集成装配线
     S:TileEntity_DESCRIPTION_31024_Index_4=1x维护仓
-    S:TileEntity_DESCRIPTION_31024_Index_5=机器类型: §e装配线§r
+    S:TileEntity_DESCRIPTION_31024_Index_5=机器类型：§e装配线§r
     S:TileEntity_DESCRIPTION_31025_Index_0=大型涡轮机的自动化端口
     S:TileEntity_DESCRIPTION_31025_Index_1=每分钟检测一次涡轮插槽
     S:TileEntity_DESCRIPTION_31025_Index_2=螺丝刀右键以进行调整
@@ -8160,7 +8160,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_31026_Index_33=1x动力仓(背面正中)
     S:TileEntity_DESCRIPTION_31026_Index_34=1x消声仓
     S:TileEntity_DESCRIPTION_31026_Index_35=1x维护仓
-    S:TileEntity_DESCRIPTION_31026_Index_36=机器类型: §e半流质发电机§r
+    S:TileEntity_DESCRIPTION_31026_Index_36=机器类型：§e半流质发电机§r
     S:TileEntity_DESCRIPTION_31026_Index_37=每秒产生1280点污染
     S:TileEntity_DESCRIPTION_31027_Index_19=艾萨研磨机的控制器方块
     S:TileEntity_DESCRIPTION_31027_Index_20=引擎进气机械方块正前方不得堵塞(只允许空气方块)
@@ -8179,11 +8179,11 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_31027_Index_33=1x动力仓(背面正中)
     S:TileEntity_DESCRIPTION_31027_Index_34=1x消声仓
     S:TileEntity_DESCRIPTION_31027_Index_35=1x维护仓
-    S:TileEntity_DESCRIPTION_31027_Index_36=机器类型: §e研磨机§r
+    S:TileEntity_DESCRIPTION_31027_Index_36=机器类型：§e研磨机§r
     S:TileEntity_DESCRIPTION_31027_Index_37=每秒产生1280点污染
     S:TileEntity_DESCRIPTION_31028_Index_3=处理研磨过的矿石!
     S:TileEntity_DESCRIPTION_31028_Index_4=1x维护仓
-    S:TileEntity_DESCRIPTION_31028_Index_5=机器类型: §e浮选机§r
+    S:TileEntity_DESCRIPTION_31028_Index_5=机器类型：§e浮选机§r
     S:TileEntity_DESCRIPTION_31029_Index_0=专用研磨球存储
     S:TileEntity_DESCRIPTION_31030_Index_0=专用催化剂存储
     S:TileEntity_DESCRIPTION_31040_Index_0=蒸汽多方块机器的流体输入
@@ -8194,7 +8194,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_31041_Index_12=1x输出总线(蒸汽)(任意机械方块)
     S:TileEntity_DESCRIPTION_31041_Index_13=1x蒸汽仓(任意机械方块)
     S:TileEntity_DESCRIPTION_31041_Index_14=剩余方块为镀铜砖块(至少14个!)
-    S:TileEntity_DESCRIPTION_31041_Index_15=机器类型: §e研磨机§r
+    S:TileEntity_DESCRIPTION_31041_Index_15=机器类型：§e研磨机§r
     S:TileEntity_DESCRIPTION_31041_Index_8=大型蒸汽研磨机的控制器方块
     S:TileEntity_DESCRIPTION_31041_Index_9=一次研磨8个矿石
     S:TileEntity_DESCRIPTION_31046_Index_0=蒸汽多方块机器的物品输入
@@ -8207,7 +8207,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_31050_Index_4=元素复制机的控制器方块
     S:TileEntity_DESCRIPTION_31050_Index_5=现在复制不再那么痛苦
     S:TileEntity_DESCRIPTION_31050_Index_6=请阅读对应手册以获取有关结构和用法的更多信息
-    S:TileEntity_DESCRIPTION_31050_Index_7=机器类型: §e复制机§r
+    S:TileEntity_DESCRIPTION_31050_Index_7=机器类型：§e复制机§r
     S:TileEntity_DESCRIPTION_31051_Index_0=元素复制机的数据球存储仓室
     S:TileEntity_DESCRIPTION_31060_Index_0=为多方块机器提供能源
     S:TileEntity_DESCRIPTION_31060_Index_1=接受RTG靶丸作为燃料
@@ -8222,7 +8222,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_315_Index_0=你真的阅读了指导手册的内容吗？
     S:TileEntity_DESCRIPTION_31_Index_0=接受多方块机器生产的能量
     S:TileEntity_DESCRIPTION_31_Index_1=最大输出1安
-    S:TileEntity_DESCRIPTION_32001_Index_0=机器类型: §e化学引擎§r
+    S:TileEntity_DESCRIPTION_32001_Index_0=机器类型：§e化学引擎§r
     S:TileEntity_DESCRIPTION_32001_Index_1=通用化学燃料引擎的控制器方块
     S:TileEntity_DESCRIPTION_32001_Index_10=效率高达150%！
     S:TileEntity_DESCRIPTION_32001_Index_11=结构太复杂了！
@@ -8242,7 +8242,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_Secondary_DESCRIPTION_32001_Index_1=消声仓：  提示方块：2号
     S:TileEntity_Secondary_DESCRIPTION_32001_Index_2=输入仓：  提示方块：3号
     S:TileEntity_Secondary_DESCRIPTION_32001_Index_3=能源仓：  提示方块：4号
-    S:TileEntity_DESCRIPTION_32002_Index_0=机器类型: §e源质发电机§r
+    S:TileEntity_DESCRIPTION_32002_Index_0=机器类型：§e源质发电机§r
     S:TileEntity_DESCRIPTION_32002_Index_1=大型源质发电机的控制器方块
     S:TileEntity_DESCRIPTION_32002_Index_2=可能某些神秘使会对它感到不安...
     S:TileEntity_DESCRIPTION_32002_Index_3=将源质转化为能量！
@@ -8295,7 +8295,7 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_DESCRIPTION_32012_Index_0=可安装在中子活化器上.
     S:TileEntity_DESCRIPTION_32012_Index_1=基于中子动能输出红石信号.
     S:TileEntity_DESCRIPTION_32012_Index_2=右键以打开GUI进行设置.
-    S:TileEntity_DESCRIPTION_32013_Index_0=机器类型: §e中子活化器§r
+    S:TileEntity_DESCRIPTION_32013_Index_0=机器类型：§e中子活化器§r
     S:TileEntity_DESCRIPTION_32013_Index_1=中子活化器的控制器方块
     S:TileEntity_DESCRIPTION_32013_Index_10=当中子动能超过§c1200MeV§7后将会爆炸.
     S:TileEntity_DESCRIPTION_32013_Index_11=结构太复杂了！
@@ -8322,23 +8322,23 @@ superconductor Base UHV Frame Box: 64
     S:TileEntity_Secondary_DESCRIPTION_32013_Index_8=   中子加速器: 提示方块：2号
     S:TileEntity_Secondary_DESCRIPTION_32013_Index_9=   中子传感器: 提示方块：2号
     S:TileEntity_Secondary_DESCRIPTION_32013_Index_10=   7x洁净不锈钢机械方块(至少！)
-    S:TileEntity_DESCRIPTION_32014_Index_0=机器类型: §e储罐§r
-#N     S:TileEntity_DESCRIPTION_32014_Index_1=Controller block for the YOTTank.
+    S:TileEntity_DESCRIPTION_32014_Index_0=机器类型：§e储罐§r
+    S:TileEntity_DESCRIPTION_32014_Index_1=YOTTank的控制器方块
     S:TileEntity_DESCRIPTION_32014_Index_10=由 §aGood Generator§7添加
-#N     S:TileEntity_DESCRIPTION_32014_Index_2=The max output speed is decided by the amount of stored liquid and the output hatch's capacity.
-#N     S:TileEntity_DESCRIPTION_32014_Index_3=The max fluid cell tier is limited by the glass tier.
-#N     S:TileEntity_DESCRIPTION_32014_Index_4=HV glass for T1, EV glass for T2, IV glass for T3. . .
-#N     S:TileEntity_DESCRIPTION_32014_Index_5=The max height of the cell blocks is 15.
+    S:TileEntity_DESCRIPTION_32014_Index_2=输出速度上限由存储流体量及输出仓容量决定.
+    S:TileEntity_DESCRIPTION_32014_Index_3=流体单元等级上限由玻璃等级限制.
+    S:TileEntity_DESCRIPTION_32014_Index_4=HV玻璃=T1，EV玻璃=T2，IV玻璃=T3，以此类推
+    S:TileEntity_DESCRIPTION_32014_Index_5=单元方块的最大高度为15.
     S:TileEntity_DESCRIPTION_32014_Index_6=结构太复杂了！
     S:TileEntity_DESCRIPTION_32014_Index_7=请参考§9Structure§1Lib§7全息投影，构建主体结构
     S:TileEntity_DESCRIPTION_32014_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_32014_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
-Dimensions: 5-5x1-15x5-5 (WxHxL)
-Structure:
-Controller: Front of the second layer
-Input Hatch: Hint block with dot 1
-Maintenance Hatch: Hint block with dot 2
-Output Hatch: Hint block with dot 3
+    S:TileEntity_Secondary_DESCRIPTION_32014_Index_0=大小(宽x高x长)：5-5x1-15x5-5
+    S:TileEntity_Secondary_DESCRIPTION_32014_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_32014_Index_2=   控制器：    正面第二层
+    S:TileEntity_Secondary_DESCRIPTION_32014_Index_3=   输入仓：    提示方块：1号
+    S:TileEntity_Secondary_DESCRIPTION_32014_Index_4=   维护仓：    提示方块：2号
+    S:TileEntity_Secondary_DESCRIPTION_32014_Index_5=   输出仓：    提示方块：3号
     S:TileEntity_DESCRIPTION_321_Index_0=它可以复制书或其他印刷品
     S:TileEntity_DESCRIPTION_322_Index_0=它可以复制书或其他印刷品
     S:TileEntity_DESCRIPTION_323_Index_0=它可以复制书或其他印刷品
@@ -9457,7 +9457,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_751_Index_35=LiFBeF2ThF4UF4, LiFBeF2ZrF4UF4 或LiFBeF2ZrF4U235
     S:TileEntity_DESCRIPTION_751_Index_36=1x消声仓(作者不过脑子,上面已经有了)
     S:TileEntity_DESCRIPTION_751_Index_37=1x维护仓(继续不过脑子)
-    S:TileEntity_DESCRIPTION_751_Index_38=机器类型: §e反应堆§r
+    S:TileEntity_DESCRIPTION_751_Index_38=机器类型：§e反应堆§r
     S:TileEntity_DESCRIPTION_751_Index_39=每秒造成80点污染
     S:TileEntity_DESCRIPTION_752_Index_0=树场的结构方块
     S:TileEntity_DESCRIPTION_753_Index_0=每秒生产750升的蒸汽
@@ -9637,7 +9637,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_790_Index_29=1x能源仓
     S:TileEntity_DESCRIPTION_790_Index_30=1x消声仓
     S:TileEntity_DESCRIPTION_790_Index_31=1x维护仓
-    S:TileEntity_DESCRIPTION_790_Index_32=机器类型: §e离心机§r
+    S:TileEntity_DESCRIPTION_790_Index_32=机器类型：§e离心机§r
     S:TileEntity_DESCRIPTION_790_Index_33=每秒造成300点污染
     S:TileEntity_DESCRIPTION_791_Index_18=将原木和煤处理成木炭与焦煤
     S:TileEntity_DESCRIPTION_791_Index_19=工业焦炉的控制器方块
@@ -9655,7 +9655,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_791_Index_31=1x能源仓
     S:TileEntity_DESCRIPTION_791_Index_32=1x消声仓
     S:TileEntity_DESCRIPTION_791_Index_33=1x维护仓
-    S:TileEntity_DESCRIPTION_791_Index_34=机器类型: §e焦炉§r
+    S:TileEntity_DESCRIPTION_791_Index_34=机器类型：§e焦炉§r
     S:TileEntity_DESCRIPTION_791_Index_35=每秒造成80点污染
     S:TileEntity_DESCRIPTION_792_Index_16=工业辊压机的控制器方块
     S:TileEntity_DESCRIPTION_792_Index_17=可以使用螺丝刀切换为冲压机床模式
@@ -9671,7 +9671,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_792_Index_27=1x能源仓
     S:TileEntity_DESCRIPTION_792_Index_28=1x消声仓
     S:TileEntity_DESCRIPTION_792_Index_29=1x维护仓
-    S:TileEntity_DESCRIPTION_792_Index_30=机器类型: §e卷板机,冲压机床§r
+    S:TileEntity_DESCRIPTION_792_Index_30=机器类型：§e卷板机,冲压机床§r
     S:TileEntity_DESCRIPTION_792_Index_31=每秒造成480点污染
     S:TileEntity_DESCRIPTION_793_Index_0=需要GT++火箭燃料
     S:TileEntity_DESCRIPTION_793_Index_1=燃料效率: 80%
@@ -9696,7 +9696,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_796_Index_27=1x能源仓
     S:TileEntity_DESCRIPTION_796_Index_28=1x消声仓
     S:TileEntity_DESCRIPTION_796_Index_29=1x维护仓
-    S:TileEntity_DESCRIPTION_796_Index_30=机器类型: §e电解机§r
+    S:TileEntity_DESCRIPTION_796_Index_30=机器类型：§e电解机§r
     S:TileEntity_DESCRIPTION_796_Index_31=每秒造成300点污染
     S:TileEntity_DESCRIPTION_797_Index_15=工业粉碎机的控制器方块
     S:TileEntity_DESCRIPTION_797_Index_16=比同电压下的单方块机器快60%！
@@ -9711,7 +9711,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_797_Index_25=1x能源仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_797_Index_26=1x消声仓
     S:TileEntity_DESCRIPTION_797_Index_27=1x维护仓
-    S:TileEntity_DESCRIPTION_797_Index_28=机器类型: §e粉碎机/粉碎者§r
+    S:TileEntity_DESCRIPTION_797_Index_28=机器类型：§e粉碎机/粉碎者§r
     S:TileEntity_DESCRIPTION_797_Index_29=每秒造成400点污染
     S:TileEntity_DESCRIPTION_798_Index_14=工业线缆轧机的控制器方块
     S:TileEntity_DESCRIPTION_798_Index_15=比相同电压的单方块机器快200% 
@@ -9725,7 +9725,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_798_Index_23=1x能源仓
     S:TileEntity_DESCRIPTION_798_Index_24=1x消声仓
     S:TileEntity_DESCRIPTION_798_Index_25=1x维护仓
-    S:TileEntity_DESCRIPTION_798_Index_26=机器类型: §e线缆轧机§r
+    S:TileEntity_DESCRIPTION_798_Index_26=机器类型：§e线缆轧机§r
     S:TileEntity_DESCRIPTION_798_Index_27=每秒造成100污染
     S:TileEntity_DESCRIPTION_799_Index_14=质量发生器的控制器方块
     S:TileEntity_DESCRIPTION_799_Index_15=生产UU-A, UU-M和废料
@@ -9739,7 +9739,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_799_Index_23=1x能源仓
     S:TileEntity_DESCRIPTION_799_Index_24=1x消声仓
     S:TileEntity_DESCRIPTION_799_Index_25=1x维护仓
-    S:TileEntity_DESCRIPTION_799_Index_26=机器类型: §e质量发生器/回收机§r
+    S:TileEntity_DESCRIPTION_799_Index_26=机器类型：§e质量发生器/回收机§r
     S:TileEntity_DESCRIPTION_799_Index_27=每秒造成40点污染
     S:TileEntity_DESCRIPTION_79_Index_0=为多方块机器输入物品
     S:TileEntity_DESCRIPTION_79_Index_1=手持螺丝刀shift+右击以激活/关闭插槽
@@ -9760,7 +9760,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_810_Index_27=1x能源仓
     S:TileEntity_DESCRIPTION_810_Index_28=1x消声仓
     S:TileEntity_DESCRIPTION_810_Index_29=1x维护仓
-    S:TileEntity_DESCRIPTION_810_Index_30=机器类型: §e合金冶炼炉§r
+    S:TileEntity_DESCRIPTION_810_Index_30=机器类型：§e合金冶炼炉§r
     S:TileEntity_DESCRIPTION_810_Index_31=每秒造成200点污染
     S:TileEntity_DESCRIPTION_811_Index_14=工业搅拌机的控制器方块
     S:TileEntity_DESCRIPTION_811_Index_15=比相同电压的单方块机器快250%
@@ -9774,7 +9774,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_811_Index_23=1x能源仓
     S:TileEntity_DESCRIPTION_811_Index_24=1x消声仓
     S:TileEntity_DESCRIPTION_811_Index_25=1x维护仓
-    S:TileEntity_DESCRIPTION_811_Index_26=机器类型: §e搅拌机§r
+    S:TileEntity_DESCRIPTION_811_Index_26=机器类型：§e搅拌机§r
     S:TileEntity_DESCRIPTION_811_Index_27=每秒造成800点污染
     S:TileEntity_DESCRIPTION_812_Index_13=能源站的控制器方块[Bug]GUI只有在完全搭建好后才会工作。(别去GT++那发issue了)
     S:TileEntity_DESCRIPTION_812_Index_14=所有能源仓(动力仓)平均电压的2%将会被消耗
@@ -9788,7 +9788,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_812_Index_22=大小(宽x高x长): 内部 3x(H-2)x3, 钒氧化还原能量单元
     S:TileEntity_DESCRIPTION_812_Index_23=阅读'§oPower Storage & You  [Version 0.64]' 以获取更多信息
     S:TileEntity_DESCRIPTION_812_Index_24=1x维护仓
-    S:TileEntity_DESCRIPTION_812_Index_25=机器类型: §e能量缓存器§r
+    S:TileEntity_DESCRIPTION_812_Index_25=机器类型：§e能量缓存器§r
     S:TileEntity_DESCRIPTION_813_Index_0=将你的葡萄做成葡萄干. 
     S:TileEntity_DESCRIPTION_814_Index_0=宿醉是你的身体对脱水的反应方式. 
     S:TileEntity_DESCRIPTION_815_Index_0=你或许可以用它做太空冰淇淋...
@@ -9814,7 +9814,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_827_Index_21=1x能源仓
     S:TileEntity_DESCRIPTION_827_Index_22=1x消声仓
     S:TileEntity_DESCRIPTION_827_Index_23=1x维护仓
-    S:TileEntity_DESCRIPTION_827_Index_24=机器类型: §e储罐§r
+    S:TileEntity_DESCRIPTION_827_Index_24=机器类型：§e储罐§r
     S:TileEntity_DESCRIPTION_827_Index_25=每秒造成100点污染
     S:TileEntity_DESCRIPTION_828_Index_18=超高速磁力枪
     S:TileEntity_DESCRIPTION_828_Index_19=------------------------------------------------------------
@@ -9832,7 +9832,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_828_Index_31=1-16x能源仓
     S:TileEntity_DESCRIPTION_828_Index_32=1x消声仓
     S:TileEntity_DESCRIPTION_828_Index_33=1x维护仓
-    S:TileEntity_DESCRIPTION_828_Index_34=机器类型: §e粒子加速器§r
+    S:TileEntity_DESCRIPTION_828_Index_34=机器类型：§e粒子加速器§r
     S:TileEntity_DESCRIPTION_828_Index_35=每秒造成200点污染
     S:TileEntity_DESCRIPTION_829_Index_20=珠海渔场的控制器方块
     S:TileEntity_DESCRIPTION_829_Index_21=大小(宽x高x长): 9x3x9 (上侧开放)
@@ -9852,7 +9852,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_829_Index_35=1x能源仓
     S:TileEntity_DESCRIPTION_829_Index_36=1x消声仓
     S:TileEntity_DESCRIPTION_829_Index_37=1x维护仓
-    S:TileEntity_DESCRIPTION_829_Index_38=机器类型: §e渔场§r
+    S:TileEntity_DESCRIPTION_829_Index_38=机器类型：§e渔场§r
     S:TileEntity_DESCRIPTION_829_Index_39=每秒造成20点污染
     S:TileEntity_DESCRIPTION_82_Index_0=从多方块机器输出物品
     S:TileEntity_DESCRIPTION_82_Index_1=物品容量：9组
@@ -9889,13 +9889,13 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_835_Index_29=1x能源仓(任意基座的机械方块)
     S:TileEntity_DESCRIPTION_835_Index_30=1x消声仓
     S:TileEntity_DESCRIPTION_835_Index_31=1x维护仓
-    S:TileEntity_DESCRIPTION_835_Index_32=机器类型: §e燃料精炼厂§r
+    S:TileEntity_DESCRIPTION_835_Index_32=机器类型：§e燃料精炼厂§r
     S:TileEntity_DESCRIPTION_835_Index_33=每秒产生4000点污染
     S:TileEntity_DESCRIPTION_836_Index_10=速度: 非常快 | EU消耗: 100% | 并行: 1
     S:TileEntity_DESCRIPTION_836_Index_11=在GUI插槽中需要一把锯(或电锯)
     S:TileEntity_DESCRIPTION_836_Index_12=结构与普通真空冷冻机一致
     S:TileEntity_DESCRIPTION_836_Index_13=剩余机械方块为无菌农场方块(至少10个!)
-    S:TileEntity_DESCRIPTION_836_Index_14=机器类型: §e树场§r
+    S:TileEntity_DESCRIPTION_836_Index_14=机器类型：§e树场§r
     S:TileEntity_DESCRIPTION_836_Index_15=每秒造成100污染
     S:TileEntity_DESCRIPTION_836_Index_8=[制作中]禁用
     S:TileEntity_DESCRIPTION_836_Index_9=将EU转化为橡木原木
@@ -9923,7 +9923,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_840_Index_25=剩余方块为筛选机机械方块(至少35个!)
     S:TileEntity_DESCRIPTION_840_Index_26=1x消声仓
     S:TileEntity_DESCRIPTION_840_Index_27=1x维护仓
-    S:TileEntity_DESCRIPTION_840_Index_28=机器类型: §e筛选机§r
+    S:TileEntity_DESCRIPTION_840_Index_28=机器类型：§e筛选机§r
     S:TileEntity_DESCRIPTION_840_Index_29=每秒造成40点污染
     S:TileEntity_DESCRIPTION_849_Index_15=工业热力精炼厂的控制器方块
     S:TileEntity_DESCRIPTION_849_Index_16=比同电压下的单方块机器快150%！
@@ -9938,7 +9938,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_849_Index_25=1x能源仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_849_Index_26=1x消声仓
     S:TileEntity_DESCRIPTION_849_Index_27=1x维护仓
-    S:TileEntity_DESCRIPTION_849_Index_28=机器类型: §e热力离心机§r
+    S:TileEntity_DESCRIPTION_849_Index_28=机器类型：§e热力离心机§r
     S:TileEntity_DESCRIPTION_849_Index_29=每秒造成1000点污染
     S:TileEntity_DESCRIPTION_84_Index_0=从多方块机器输出物品
     S:TileEntity_DESCRIPTION_84_Index_1=物品容量：16组
@@ -9984,7 +9984,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_859_Index_29=1x能源仓
     S:TileEntity_DESCRIPTION_859_Index_30=1x消声仓
     S:TileEntity_DESCRIPTION_859_Index_31=1x维护仓
-    S:TileEntity_DESCRIPTION_859_Index_32=机器类型: §e压模机§r
+    S:TileEntity_DESCRIPTION_859_Index_32=机器类型：§e压模机§r
     S:TileEntity_DESCRIPTION_859_Index_33=每秒造成1000污染
     S:TileEntity_DESCRIPTION_85_Index_0=从多方块机器输出物品
     S:TileEntity_DESCRIPTION_85_Index_1=物品容量：16组
@@ -9996,12 +9996,12 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_860_Index_20=控制器方块(正面中央)
     S:TileEntity_DESCRIPTION_860_Index_21=至少6x多功能机械方块
     S:TileEntity_DESCRIPTION_860_Index_22=阅读大型加工厂手册(Multi-Machine Manual)来获取更多的信息
-    S:TileEntity_DESCRIPTION_860_Index_23=机器类型: [A]-§e压缩机, 车床, 两极磁化机§r
-    S:TileEntity_DESCRIPTION_860_Index_24=机器类型: [B]-§e发酵槽, 流体提取机, 提取机§r
-    S:TileEntity_DESCRIPTION_860_Index_25=机器类型: [C]-§e精密激光蚀刻机, 高压釜, 流体固化器§r
+    S:TileEntity_DESCRIPTION_860_Index_23=机器类型：[A]-§e压缩机, 车床, 两极磁化机§r
+    S:TileEntity_DESCRIPTION_860_Index_24=机器类型：[B]-§e发酵槽, 流体提取机, 提取机§r
+    S:TileEntity_DESCRIPTION_860_Index_25=机器类型：[C]-§e精密激光蚀刻机, 高压釜, 流体固化器§r
     S:TileEntity_DESCRIPTION_860_Index_26=1x消声仓
     S:TileEntity_DESCRIPTION_860_Index_27=1x维护仓
-    S:TileEntity_DESCRIPTION_860_Index_28=机器类型: §e九合一§r
+    S:TileEntity_DESCRIPTION_860_Index_28=机器类型：§e九合一§r
     S:TileEntity_DESCRIPTION_860_Index_29=每秒造成400点污染
     S:TileEntity_DESCRIPTION_861_Index_0=多方块机器的流体输入
     S:TileEntity_DESCRIPTION_861_Index_1=容量: 128 000L
@@ -10023,12 +10023,12 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_862_Index_29=1x能源仓
     S:TileEntity_DESCRIPTION_862_Index_30=1x消声仓
     S:TileEntity_DESCRIPTION_862_Index_31=1x维护仓
-    S:TileEntity_DESCRIPTION_862_Index_32=机器类型: §e电弧炉/等离子电弧炉§r
+    S:TileEntity_DESCRIPTION_862_Index_32=机器类型：§e电弧炉/等离子电弧炉§r
     S:TileEntity_DESCRIPTION_862_Index_33=每秒造成2400点污染
     S:TileEntity_DESCRIPTION_863_Index_4=未来的绿色能源
     S:TileEntity_DESCRIPTION_863_Index_5=塔的基座为太阳能塔机械方块
     S:TileEntity_DESCRIPTION_863_Index_6=1x维护仓
-    S:TileEntity_DESCRIPTION_863_Index_7=机器类型: §e太阳能塔§r
+    S:TileEntity_DESCRIPTION_863_Index_7=机器类型：§e太阳能塔§r
     S:TileEntity_DESCRIPTION_864_Index_0=清洁、绿色能源运动的一部分
     S:TileEntity_DESCRIPTION_864_Index_1=指向太阳能塔
     S:TileEntity_DESCRIPTION_864_Index_2=添加者: §2Alkalus §7- §c[GT++]
@@ -10043,7 +10043,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_865_Index_20=输出取决于涡轮和松紧
     S:TileEntity_DESCRIPTION_865_Index_21=使用螺丝刀调节涡轮松紧度
     S:TileEntity_DESCRIPTION_865_Index_22=1x维护仓
-    S:TileEntity_DESCRIPTION_865_Index_23=机器类型: §e大型蒸汽涡轮§r
+    S:TileEntity_DESCRIPTION_865_Index_23=机器类型：§e大型蒸汽涡轮§r
     S:TileEntity_DESCRIPTION_866_Index_12=特大高压蒸汽涡轮的控制器方块
     S:TileEntity_DESCRIPTION_866_Index_13=大小(宽x高x长)：3x3x4(中空)，控制器方块(正面正中)
     S:TileEntity_DESCRIPTION_866_Index_14=1x过热蒸汽输入仓(侧面中央)
@@ -10055,7 +10055,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_866_Index_20=输出取决于涡轮和松紧
     S:TileEntity_DESCRIPTION_866_Index_21=使用螺丝刀调节涡轮松紧度
     S:TileEntity_DESCRIPTION_866_Index_22=1x维护仓
-    S:TileEntity_DESCRIPTION_866_Index_23=机器类型: §e大型过热蒸汽涡轮§r
+    S:TileEntity_DESCRIPTION_866_Index_23=机器类型：§e大型过热蒸汽涡轮§r
     S:TileEntity_DESCRIPTION_869_Index_0=需要RTG靶丸(RTG为放射性同位素温差发电机的缩写)
     S:TileEntity_DESCRIPTION_869_Index_1=燃料的燃料时间数以MC日计(可使用扫描仪查看)
     S:TileEntity_DESCRIPTION_869_Index_2=RTG的输出电压取决于所用的燃料
@@ -10116,7 +10116,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_876_Index_27=1x能源仓
     S:TileEntity_DESCRIPTION_876_Index_28=1x消声仓
     S:TileEntity_DESCRIPTION_876_Index_29=1x维护仓
-    S:TileEntity_DESCRIPTION_876_Index_30=机器类型: §e组装机, 拆解机§r
+    S:TileEntity_DESCRIPTION_876_Index_30=机器类型：§e组装机, 拆解机§r
     S:TileEntity_DESCRIPTION_876_Index_31=每秒造成500点污染
     S:TileEntity_DESCRIPTION_877_Index_0=LV -> ULV(用软锤右击以反转)
     S:TileEntity_DESCRIPTION_877_Index_1=输入4A，输出16A
@@ -10269,7 +10269,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_910_Index_11=结构与普通真空冷冻机一致
     S:TileEntity_DESCRIPTION_910_Index_12=剩余方块为凛冰冷冻机机械方块(至少10个!)
     S:TileEntity_DESCRIPTION_910_Index_13=1x凛冰流体输入仓(必须)
-    S:TileEntity_DESCRIPTION_910_Index_14=机器类型: §e真空冷冻机§r
+    S:TileEntity_DESCRIPTION_910_Index_14=机器类型：§e真空冷冻机§r
     S:TileEntity_DESCRIPTION_910_Index_15=每秒造成500污染
     S:TileEntity_DESCRIPTION_910_Index_8=工业级先进真空冷冻机
     S:TileEntity_DESCRIPTION_910_Index_9=速度: 200% | Eu消耗: 100% | 同时处理: 4
@@ -10522,7 +10522,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_941_Index_28=烈焰之炽焱被用来穿过地幔
     S:TileEntity_DESCRIPTION_941_Index_29=极寒之凛冰被用来冷却内部组件
     S:TileEntity_DESCRIPTION_941_Index_30=1x维护仓
-    S:TileEntity_DESCRIPTION_941_Index_31=机器类型: §e采矿机§r
+    S:TileEntity_DESCRIPTION_941_Index_31=机器类型：§e采矿机§r
     S:TileEntity_DESCRIPTION_942_Index_18=亚马逊仓库的控制器方块
     S:TileEntity_DESCRIPTION_942_Index_19=这个多方块可满足极端的装箱需求
     S:TileEntity_DESCRIPTION_942_Index_20=输入总线中放置设计图(粉末)
@@ -10539,7 +10539,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_942_Index_31=1x能源仓
     S:TileEntity_DESCRIPTION_942_Index_32=1x消声仓
     S:TileEntity_DESCRIPTION_942_Index_33=1x维护仓
-    S:TileEntity_DESCRIPTION_942_Index_34=机器类型: §e打包机§r
+    S:TileEntity_DESCRIPTION_942_Index_34=机器类型：§e打包机§r
     S:TileEntity_DESCRIPTION_942_Index_35=每秒造成40点污染
     S:TileEntity_DESCRIPTION_943_Index_0=充能时加载区块: 9
     S:TileEntity_DESCRIPTION_943_Index_1=消耗电流: 2A
@@ -10585,11 +10585,11 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_963_Index_11=结构与普通工业高炉一致
     S:TileEntity_DESCRIPTION_963_Index_12=剩余方块为炽焱高炉机械方块(至少9个!)
     S:TileEntity_DESCRIPTION_963_Index_13=1x炽焱输入仓(必须)
-    S:TileEntity_DESCRIPTION_963_Index_14=机器类型: §e工业高炉§r
+    S:TileEntity_DESCRIPTION_963_Index_14=机器类型：§e工业高炉§r
     S:TileEntity_DESCRIPTION_963_Index_15=每秒造成500污染
     S:TileEntity_DESCRIPTION_963_Index_8=工业级先进高炉
     S:TileEntity_DESCRIPTION_963_Index_9=速度: 120% | Eu消耗: 90% | 同时处理: 8
-    S:TileEntity_DESCRIPTION_964_Index_10=机器类型: §e聚爆压缩机§r
+    S:TileEntity_DESCRIPTION_964_Index_10=机器类型：§e聚爆压缩机§r
     S:TileEntity_DESCRIPTION_964_Index_11=每秒造成5000污染
     S:TileEntity_DESCRIPTION_964_Index_6=工业级先进聚爆压缩机
     S:TileEntity_DESCRIPTION_964_Index_7=速度: 100% | Eu消耗: 100% | 同时处理: ((电压等级/2)+1)
@@ -10632,7 +10632,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_970_Index_31=1x能源仓(任意顶层机械方块)(应该是动力仓)
     S:TileEntity_DESCRIPTION_970_Index_32=1x消声仓
     S:TileEntity_DESCRIPTION_970_Index_33=1x维护仓
-    S:TileEntity_DESCRIPTION_970_Index_34=机器类型: §e反应堆§r
+    S:TileEntity_DESCRIPTION_970_Index_34=机器类型：§e反应堆§r
     S:TileEntity_DESCRIPTION_970_Index_35=每秒造成2660点污染
     S:TileEntity_DESCRIPTION_97_Index_0=排放污染(可能会导致...)
     S:TileEntity_DESCRIPTION_97_Index_1=请勿阻塞输出！
@@ -10650,7 +10650,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_984_Index_22=1x维护仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_984_Index_23=1xZPM+能源仓(任意底层机械方块)
     S:TileEntity_DESCRIPTION_984_Index_24=1x维护仓
-    S:TileEntity_DESCRIPTION_984_Index_25=机器类型: §e武器化的雷霆权杖§r
+    S:TileEntity_DESCRIPTION_984_Index_25=机器类型：§e武器化的雷霆权杖§r
     S:TileEntity_DESCRIPTION_98_Index_0=排放污染(可能会导致...)
     S:TileEntity_DESCRIPTION_98_Index_1=请勿阻塞输出！
     S:TileEntity_DESCRIPTION_98_Index_2=污染排放减少至12%
@@ -10665,7 +10665,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_990_Index_18=1x输出仓/总线
     S:TileEntity_DESCRIPTION_990_Index_19=1x能源仓(应该是动力仓)
     S:TileEntity_DESCRIPTION_990_Index_20=1x维护仓
-    S:TileEntity_DESCRIPTION_990_Index_21=机器类型: §e处理阵列§r
+    S:TileEntity_DESCRIPTION_990_Index_21=机器类型：§e处理阵列§r
     S:TileEntity_DESCRIPTION_991_Index_0=对于调试或使本地服务器更流畅很有用
     S:TileEntity_DESCRIPTION_991_Index_1=可以请求JVM执行垃圾收集
     S:TileEntity_DESCRIPTION_991_Index_2=可设置为每5分钟运行一次(5-180)
@@ -10684,7 +10684,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_992_Index_25=1x能源仓
     S:TileEntity_DESCRIPTION_992_Index_26=1x消声仓
     S:TileEntity_DESCRIPTION_992_Index_27=1x维护仓
-    S:TileEntity_DESCRIPTION_992_Index_28=机器类型: §e切割机/切片机§r
+    S:TileEntity_DESCRIPTION_992_Index_28=机器类型：§e切割机/切片机§r
     S:TileEntity_DESCRIPTION_992_Index_29=每秒造成160点污染
     S:TileEntity_DESCRIPTION_995_Index_14=工业级真空干燥炉
     S:TileEntity_DESCRIPTION_995_Index_15=可用螺丝刀切换工作温度
@@ -10698,7 +10698,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_995_Index_23=无损超频将减少加工时间至25%并提升功率至400%
     S:TileEntity_DESCRIPTION_995_Index_24=1x消声仓
     S:TileEntity_DESCRIPTION_995_Index_25=1x维护仓
-    S:TileEntity_DESCRIPTION_995_Index_26=机器类型: §e真空炉/脱水机§r
+    S:TileEntity_DESCRIPTION_995_Index_26=机器类型：§e真空炉/脱水机§r
     S:TileEntity_DESCRIPTION_995_Index_27=每秒造成500点污染
     S:TileEntity_DESCRIPTION_996_Index_20=大型火箭引擎的控制器方块
     S:TileEntity_DESCRIPTION_996_Index_21=提供柴油类燃料与1000升/小时(提高模式3000L/小时)的二氧化碳(旧润滑油)以运行
@@ -10719,7 +10719,7 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_996_Index_36=1x维护仓(非边缘机械方块)
     S:TileEntity_DESCRIPTION_996_Index_37=1x消声仓(背面中央)
     S:TileEntity_DESCRIPTION_996_Index_38=1x维护仓
-    S:TileEntity_DESCRIPTION_996_Index_39=机器类型: §e火箭引擎§r
+    S:TileEntity_DESCRIPTION_996_Index_39=机器类型：§e火箭引擎§r
     S:TileEntity_DESCRIPTION_997_Index_18=藻类养殖!
     S:TileEntity_DESCRIPTION_997_Index_19=藻类农场的控制器方块
     S:TileEntity_DESCRIPTION_997_Index_20=提供堆肥可提高一阶产量
@@ -10737,11 +10737,11 @@ Output Hatch: Hint block with dot 3
     S:TileEntity_DESCRIPTION_997_Index_32=1x输入总线(可选)
     S:TileEntity_DESCRIPTION_997_Index_33=1x输入仓(装满水)
     S:TileEntity_DESCRIPTION_997_Index_34=1x维护仓
-    S:TileEntity_DESCRIPTION_997_Index_35=机器类型: §e藻类农场§r
+    S:TileEntity_DESCRIPTION_997_Index_35=机器类型：§e藻类农场§r
     S:TileEntity_DESCRIPTION_998_Index_4=化工厂的控制器方块
     S:TileEntity_DESCRIPTION_998_Index_5=重工业,现在就在你家门口!
     S:TileEntity_DESCRIPTION_998_Index_6=请阅读相关手册获取详细信息
-    S:TileEntity_DESCRIPTION_998_Index_7=机器类型: §e化工厂§r
+    S:TileEntity_DESCRIPTION_998_Index_7=机器类型：§e化工厂§r
     S:TileEntity_DESCRIPTION_99_Index_0=排放污染(可能会导致...)
     S:TileEntity_DESCRIPTION_99_Index_1=请勿阻塞输出！
     S:TileEntity_DESCRIPTION_99_Index_2=污染排放减少至0%
@@ -12012,7 +12012,7 @@ Output Hatch: Hint block with dot 3
     S:fluid.radoxpoly=拉多X聚合物
     S:fluid.rawgasoline=粗汽油
     S:fluid.rawradox=粗制拉多X
-#N     S:fluid.redmud=Red Mud
+    S:fluid.redmud=赤泥
     S:fluid.refinedglue=精制胶水
     S:fluid.reinforcedglass=熔融防爆玻璃
     S:fluid.rocket_fuel=火箭燃料
@@ -12403,8 +12403,8 @@ Output Hatch: Hint block with dot 3
     S:gt.blockcasings8.32767.name=任何本方块的子方块
     S:gt.blockcasings8.4.name=极限引擎进气机械方块
     S:gt.blockcasings8.5.name=铕强化防辐射机械方块
-#N     S:gt.blockcasings8.6.name=Advanced Rhodium Plated Palladium Machine Casing
-#N     S:gt.blockcasings8.7.name=Advanced Iridium Plated Machine Casing
+    S:gt.blockcasings8.6.name=强化镀铑钯机械方块
+    S:gt.blockcasings8.7.name=强化镀铱机械方块
     S:gt.blockcasingsBA0.0.name=红石合金初级特斯拉绕组
     S:gt.blockcasingsBA0.1.name=MV超导初级特斯拉绕组
     S:gt.blockcasingsBA0.2.name=HV超导初级特斯拉绕组
@@ -13816,7 +13816,7 @@ Output Hatch: Hint block with dot 3
     S:gt.blockmachines.diode8auv.name=线缆二极管 8A UV
     S:gt.blockmachines.diode8auxv.name=线缆二极管 8A UXV
     S:gt.blockmachines.diode8azpm.name=线缆二极管 8A ZPM
-#N     S:gt.blockmachines.dysonswarm.name=Dyson Swarm Ground Unit
+    S:gt.blockmachines.dysonswarm.name=戴森球地面单元
     S:gt.blockmachines.electricboiler.1.tier.single.name=进阶锅炉[LV]
     S:gt.blockmachines.electricboiler.2.tier.single.name=进阶锅炉[MV]
     S:gt.blockmachines.electricboiler.3.tier.single.name=进阶锅炉[HV]
@@ -15553,7 +15553,7 @@ Output Hatch: Hint block with dot 3
     S:gt.blockmachines.wire.zinc.08.name=8x%material导线
     S:gt.blockmachines.wire.zinc.12.name=12x%material导线
     S:gt.blockmachines.wire.zinc.16.name=16x%material导线
-#N     S:gt.blockmachines.yottafluidtank.name=YOTTank
+    S:gt.blockmachines.yottafluidtank.name=YOTTank
     S:gt.blockmachines.zpm_lplaser_converter_128.name=ZPM 128A/t 低功率激光转换器
     S:gt.blockmachines.zpm_lplaser_converter_32.name=ZPM 32A/t 低功率激光转换器
     S:gt.blockmachines.zpm_lplaser_converter_64.name=ZPM 64A/t 低功率激光转换器
@@ -24316,7 +24316,7 @@ Output Hatch: Hint block with dot 3
     S:gt.bwMetaGeneratedGTEnhancementcapsule.59.tooltip=Rn
     S:gt.bwMetaGeneratedGTEnhancementcapsule.634.name=稀硫酸胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.634.tooltip=H₂SO₄
-#N     S:gt.bwMetaGeneratedGTEnhancementcapsule.641.name=Red Mud Capsule
+    S:gt.bwMetaGeneratedGTEnhancementcapsule.641.name=赤泥胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.641.tooltip=
     S:gt.bwMetaGeneratedGTEnhancementcapsule.646.name=2-硝基氯苯胶囊
     S:gt.bwMetaGeneratedGTEnhancementcapsule.646.tooltip=C₆H₄ClNO₂
