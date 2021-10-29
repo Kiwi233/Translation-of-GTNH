@@ -11886,35 +11886,35 @@ gtnh.quest2970.desc=Same as Adept one, but will higher efficiency.
 
 # Quest.2971 - §6§lInfinite Energy Storage
 gtnh.quest2971.name=§6§l无限储能
-gtnh.quest2971.desc=你不应该点击陌生人的链接! 虽然这看起来像标题党,但这是真的(从某种角度来看).%n%n利用势能!存储能量! 只需要建造一个水库,并用水铺满这广阔的区域. 你就能通过泵入更多的水存储能量,或是将水排出以获取能量. 它尤其适合风、水和太阳能等波动的能源.或者在平时储存多余的能量,等到有需要了再快速放出. 水库的容量非常巨大,而选择权在你.%n%n听起来很棒! 但是...? -的确. 有一个陷阱：泵和涡轮都一定的损失(效率). 你还有兴趣? 让我们开始制造吧!%n%n这台多方块结构具有不同寻常的外形：后背是开放的.蓄水湖将从多方块结构中延伸出来,并一格一格尽可能地蔓延.蔓延中会将植物用水替代(请保护好你的IC2作物!),而固体方块不会被替代. 另外,你可以在任意方向限制.水永远不会越过这些限制.你可以通过手持螺丝刀右键控制器方块,以打开第二GUI,设置那些限制.%n%n在你配置好限制之后,它会自动纠正到最近的有效设置.这种纠正经常发生在你试图设置超过服务器限制的数值.你可以尝试与管理员讨论提高这些限制(这些限制应该是用来限制恶意破坏的). Further, water is not able to spread into foreign towns.%nYou will also find 3 magical buttons in the top-right of this GUI. From left to right: The first will slowly despawn the lake blocks. You can use this to shrink the lake if it spreaded past a barrier for example. The multi-block will also initialize with this configuration so there is no accidental flooding. The second and third buttons will slowly spawn more lake blocks. Additionally, the second button will render those lake blocks pink so you see where they are so you may plug holes and such things. In this "debug" mode you can walk/breathe/act in the lake like in air. This should make it easy to create a sunken village for decoration purposes. The third button is for normal operations so you can see the water and enjoy a swim in your energy buffer.%n%nOf course, there is also a normal GUI (simple right-click). It shows you the energy stored in the dam. To reach higher water levels you are required to use stronger pumps. For this purpose, you may configure the voltage tier of the GUI with a circuit in the circuit slot. Don't worry: It is only optical. You cannot void any energy if you set a low voltage tier. It is only for the player information. You may give it a try with the reward you earn...%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.%n
+gtnh.quest2971.desc=你不应该点击陌生人的链接! 虽然这看起来像标题党,但这是真的(从某种角度来看).%n%n利用势能!存储能量! 只需要建造一个水库,并用水铺满这广阔的区域. 你就能通过泵入更多的水存储能量,或是将水排出以获取能量. 它尤其适合风、水和太阳能等波动的能源.或者在平时储存多余的能量,等到有需要了再快速放出. 水库的容量非常巨大,而选择权在你.%n%n听起来很棒! 但是...? -的确. 有一个陷阱：泵和涡轮都一定的损失(效率). 你还有兴趣? 让我们开始制造吧!%n%n这台多方块结构具有不同寻常的外形：后背是开放的.蓄水湖将从多方块结构中延伸出来,并一格一格尽可能地蔓延.蔓延中会将植物用水替代(请保护好你的IC2作物!),而固体方块不会被替代. 另外,你可以在任意方向限制.水永远不会越过这些限制.你可以通过手持螺丝刀右键控制器方块,以打开第二GUI,设置那些限制.%n%n在你配置好限制之后,它会自动纠正到最近的有效设置.这种纠正经常发生在你试图设置超过服务器限制的数值.你可以尝试与管理员讨论提高这些限制(这些限制应该是用来限制恶意破坏的). 此外,水无法蔓延到别人的城镇上.%n你还在这个GUI的左上角发现了三个神秘按钮.从左到右：第一个按钮会缓慢移除蓄水湖方块.例如,你可以在蓄水湖蔓延过界的时候将其缩小. 此多方块结构也会默认使用此配置,因此你不用担心突然发大水. 第二、三个按钮会缓慢生成更多的蓄水湖方块.另外,第二个按钮会以粉色显示那些蓄水湖方块,这样你就可以看到它们将会在哪里生成,然后插个洞或者别的什么.在此"debug"模式中,你可以如空气中一样在蓄水湖中行走/呼吸/交互.这可以让你轻易建造一个沉没的村庄,装饰你的水库. 第三个按钮就是正常模式,你可以看到水并在你的能量电池中畅游.%n%n当然,控制器方块也有个普通GUI(空手右键).它会向你展示存储于水库中的能量.想要达到更高的水位需要更强的水泵.为了达到这一目的,你可以在GUI的电路板插槽中插入电路板配置电压等级.别担心：就算你设置了一个很低的电压等级也不会损失任何能量,这只影响玩家信息.你可以用奖励的电路板试试看...%n%n如果你还有其他问题、信息缺失或者任何建议,不要犹豫,直接到GTNH官方Discord来找我吧.请在你发的消息中加入'@SinTh0r4s',以确保我可以看到这条消息.%n
 
 # Quest.2972 - §6§lGotta Pump It Upe
-gtnh.quest2972.name=§6§lGotta Pump It Upe
-gtnh.quest2972.desc=If you made it this far you may already noticed that you cannot pour vanilla water into the dam. That’s what a HydroEnergy Pump is for. This multi-block exists in multiple tiers and will allow you to reach higher water levels (= more energy capacity). Provide the pump with vanilla water as input and pipe the fluid output into the dam. Then the dam will slowly fill up. If the dam is full or full for a pump’s voltage tier, it will void the water and energy.%n%nThat's all folks! Nothing too fancy here.%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.%n%n
+gtnh.quest2972.name=§6§l加油抽呀~嘿哟~
+gtnh.quest2972.desc=当你造好水库之后,应该会发现无法直接将原版水倒入水库.这是液压泵的工作.这种多方块结构有许多等级,可以让你的水库到达不同的水位(=更大的能量容量).为水泵提供原版水作为输入,并将其输出的液体导入水库.这样水库就会慢慢被填满.当水库满了或者抵达了水泵的上限后,水库会销毁接下来的水和能量.%n%n这就是所有的了,没什么特别的!%n%n如果你还有其他问题、信息缺失或者任何建议,不要犹豫,直接到GTNH官方Discord来找我吧.请在你发的消息中加入'@SinTh0r4s',以确保我可以看到这条消息.%n%n
 
 # Quest.2973 - §6§lLet if flow, let it floww ...
-gtnh.quest2973.name=§6§lLet if flow, let it floww ...
-gtnh.quest2973.desc=... can't hold it back anymore. It is time to collect the rewards of your hard work. Connect the fluid output hatch from the dam to the fluid input hatch of this turbine and finally enjoy the power! You can pause this multiblock if you cut the fluid input or use a machine controller. Oh, and you will get your water back in the fluid output hatch.%n%nCongratulations to making it this far! Enjoy your ginormous energy buffer!%n%nIf you have any further questions, missing information or suggestions please do not hesitate to post on the official GT New Horizons Discord. Please add '@SinTh0r4s' to your post to make sure I’ll see it.%n
+gtnh.quest2973.name=§6§l让水流起来呀~流起来呀~
+gtnh.quest2973.desc=...不能再忍了.迫不及待收获你努力工作的成果了!将水库的输出仓与水轮机的输入仓连接起来,享受最终的能量吧!你可以通过截断流体输入,或使用机器控制覆盖板,暂停此多方块结构.噢,你的水就会重新回到输出仓.%n%n祝贺你,建成了自己的水库!享受你的特大号电池吧!%n%n如果你还有其他问题、信息缺失或者任何建议,不要犹豫,直接到GTNH官方Discord来找我吧.请在你发的消息中加入'@SinTh0r4s',以确保我可以看到这条消息.%n
 
 # Quest.2974 - §6§lAluminium Hydroxide
-gtnh.quest2974.name=§6§lAluminium Hydroxide
-gtnh.quest2974.desc=To get ingots straight from aluminum dust you'll need higher temperatures then cupronickel coils can provide. Alternatively you can lower required temperature by mixing aluminum dust with sodiumhydroxide to create aluminiumhydroxide dust. It can be processed to alumina. Cryolite can also lower required temperature to smelt it to ingots.%n%n§d§6Check out NEI to find alternative recepis for aluminiumhydroxide.
+gtnh.quest2974.name=§6§l氢氧化铝
+gtnh.quest2974.desc=想要直接将铝粉炼化为锭,你需要的炉温超过了白铜线圈可以提供的范畴. 还有另一种选择：通过将铝粉与氢氧化钠混合,制成氢氧化铝,以降低所需的炉温.它可以被处理成氧化铝. 而冰晶石可以降低炼锭所需的炉温.%n%n§d§6请查看NEI以寻找氢氧化铝的其他合成表.
 
 # Quest.2975 - §6§lChemical cryolity production
-gtnh.quest2975.name=§6§lChemical cryolity production
-gtnh.quest2975.desc=Feeling too lazy to search for cryolite vein for smelting all this alumina? You can always synthesize it with hydroflouric acid, salt water and aluminiumhydroxide.
+gtnh.quest2975.name=§6§l冰晶石的化学制法
+gtnh.quest2975.desc=不想为了炼化这些氧化铝去寻找冰晶石矿脉? 你可以永远相信化学合成,将氢氟酸、盐水和氢氧化铝反应一下试试.
 
 # Quest.2976 - §9§lAdvanced aluminium production
-gtnh.quest2976.name=§9§lAdvanced aluminium production
-gtnh.quest2976.desc=After you have done your large chemical reactor you are able to recycle your aluminium dust to make sodiumaluminate. %nIt will be even more rewarding after you find baxite.%nIn this process you will also get a lot of hydrogen.
+gtnh.quest2976.name=§9§l先进炼铝工艺
+gtnh.quest2976.desc=当你的大型化学反应釜竣工后,你就可以循环使用铝粉制成铝酸钠. %n等找到铝土矿后,它将更有价值.%n在这个处理过程中,你还会获得大量的氢.
 
 # Quest.2977 - §9§lAdvanced alumina production
-gtnh.quest2977.name=§9§lAdvanced alumina production
-gtnh.quest2977.desc=You can smelt 24 sodium aluminate down into 24 alumina dust. Sodium carbonate will be left over
+gtnh.quest2977.name=§9§l氧化铝的进阶制备方式
+gtnh.quest2977.desc=炼化24份铝酸钠获得24份氧化铝粉.最终剩下碳酸钠.
 
 # Quest.2978 - §9§lRed Mud
-gtnh.quest2978.name=§9§lRed Mud
-gtnh.quest2978.desc=Red mud is a byproduct from sodium aluminate processing. You can get few useful materials out of it by centrifuging.
+gtnh.quest2978.name=§9§l赤泥
+gtnh.quest2978.desc=赤泥是铝酸钠处理的副产物.通过离心,你可以获得一些有用的材料.
 
 ##################################Line##################################
 
