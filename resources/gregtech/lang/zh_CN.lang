@@ -72,6 +72,10 @@ GT5U.machines.voidoveflow.disabled=禁用溢出销毁
 
 GT5U.hatch.disableFilter.true=关闭输入过滤
 GT5U.hatch.disableFilter.false=开启输入过滤
+GT5U.hatch.disableSort.true=关闭整理模式
+GT5U.hatch.disableSort.false=开启整理模式
+GT5U.hatch.disableLimited.true=关闭限制模式
+GT5U.hatch.disableLimited.false=开启限制模式
 
 GT5U.multiblock.pollution=污染减少到
 GT5U.multiblock.energy=存储能量
@@ -1108,7 +1112,7 @@ fluid.Ammonium Dinitramide=二硝酰胺铵
 fluid.LMP-103S=LMP-103S
 fluid.Nitromethane=硝基甲烷
 fluid.O-Xylene=邻二甲苯
-//以下流体没有单元形式，大部分是bart的生物科技
+#以下流体没有单元形式，大部分是bart的生物科技
 fluid.Monomethylhydrazine=一甲基肼
 fluid.binnibacteriafluid=双杆菌液体
 fluid.SeaweedBroth=海藻基质
@@ -1123,12 +1127,12 @@ fluid.Formaldehyde=甲醛
 fluid.tcetieisfucusserratusfluid=鲸鱼座T星藻类培养液
 fluid.MeatExtract=肉汁
 fluid.UnknownNutrientAgar=未知营养琼脂
-//以下流体有贴图没有配方
+#以下流体有贴图没有配方
 fluid.CompressedOxygen=压缩氧气
 fluid.CompressedNitrogen=压缩氮气
 fluid.redplasma=红等离子体
 fluid.tile.fluidBlockSludge=污泥
-//以下流体没有贴图
+#以下流体没有贴图
 fluid.guano=鸟粪
 fluid.poo=便便
 fluid.sewerage=下水
