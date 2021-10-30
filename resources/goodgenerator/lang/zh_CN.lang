@@ -16,6 +16,17 @@ essentiaCell.1.name=学徒源质扩散单元
 essentiaCell.2.name=大师源质扩散单元
 essentiaHatch.0.name=源质输入仓
 speedingPipe.0.name=高速管道方块
+yottaFluidTankCasing.0.name=YOTTank机械方块
+yottaFluidTankCell.0.name=流体单元方块T1
+yottaFluidTankCell.1.name=流体单元方块T2
+yottaFluidTankCell.2.name=流体单元方块T3
+yottaFluidTankCell.3.name=流体单元方块T4
+yottaFluidTankCell.4.name=流体单元方块T5
+yottaFluidTankCell.5.name=流体单元方块T6
+yottaFluidTankCell.6.name=流体单元方块T7
+yottaFluidTankCell.7.name=流体单元方块T8
+yottaFluidTankCell.8.name=流体单元方块T9
+yottaFluidTankCell.9.name=流体单元方块T10
 
 #Items
 item.radiationProtectionPlate.name=防辐射板
@@ -57,6 +68,12 @@ item.rodCompressedPlutonium.name=燃料棒(浓缩钚)
 item.rodCompressedPlutonium2.name=二联燃料棒(浓缩钚)
 item.rodCompressedPlutonium4.name=四联燃料棒(浓缩钚)
 item.advancedFuelRod.name=高级燃料棒(空)
+item.fluidCore.0.name=流体存储核心T1
+item.fluidCore.1.name=流体存储核心T2
+item.fluidCore.2.name=流体存储核心T3
+item.fluidCore.3.name=流体存储核心T4
+item.fluidCore.4.name=流体存储核心T5
+item.fluidCore.5.name=流体存储核心T6
 
 #Tooltip
 inverter.tooltip.0=将直流电转化为交流电.
@@ -67,6 +84,7 @@ EssentiaHatch.tooltip.0=手持源质罐子右键以设置过滤.
 EssentiaHatch.tooltip.1=空手右键以重置过滤.
 fuelrod.tooltip.0=耐久：%s/%s
 depletedfuelrod.tooltip.0=枯竭
+YOTTankCell.tooltip.0=容量：
 
 #Fluids
 fluid.lightlyCrackedNaquadahGas=轻度裂化硅岩气
@@ -154,6 +172,9 @@ itemGroup.Good Generator=更多发电机
 #Scanner Info
 scanner.info.FRF=线圈等级：
 scanner.info.NA=当前中子动能：
+scanner.info.YOTTank.0=当前容量：
+scanner.info.YOTTank.1=流体名：
+scanner.info.YOTTank.2=当前已用：
 
 #GUI Info
 gui.NeutronSensor.0=输入中子动能值.
@@ -162,6 +183,9 @@ gui.NeutronSensor.2=有效
 gui.NeutronSensor.3=无效
 gui.NeutronActivator.0=当前中子动能：
 gui.NeutronActivator.1=输入：
+gui.YOTTank.0=容量：
+gui.YOTTank.1=流体：
+gui.YOTTank.2=已存储：
 
 #NEI Info
 tile.recipe.naquadah_reactor=大型硅岩反应堆
@@ -215,6 +239,13 @@ NeutronActivator.hint.3=4x高速管道方块
 NeutronActivator.hint.4=7x洁净不锈钢机械方块(至少！)
 NeutronActivator.hint.5=1 - 输入仓/输入总线/洁净不锈钢机械方块
 NeutronActivator.hint.6=2 - 输出仓/输出总线/维护仓/中子加速器/中子传感器/洁净不锈钢机械方块
+YOTTank.hint.0=47xYOTTank机械方块(至少！)
+YOTTank.hint.1=16x钢框架
+YOTTank.hint.2=16x同级硼玻璃方块(每层)
+YOTTank.hint.3=9x流体单元方块(每层)
+YOTTank.hint.4=1 - 输入仓
+YOTTank.hint.5=2 - 维护仓
+YOTTank.hint.6=3 - 输出仓
 
 #Achievement
 achievement.gt.blockmachines.nag=大型硅岩反应堆
@@ -229,6 +260,26 @@ achievement.FRF_Coil_2.0=进阶力场约束线圈
 achievement.FRF_Coil_2.0.desc=捡起这个物品以在NEI内查看配方
 achievement.FRF_Coil_3.0=终极力场约束线圈
 achievement.FRF_Coil_3.0.desc=捡起这个物品以在NEI内查看配方
+achievement.gt.blockmachines.neutron_accelerator_luv=Luv中子加速器
+achievement.gt.blockmachines.neutron_accelerator_luv.desc=你真的想要它吗?
+achievement.item.fluidCore.1=流体存储核心T2
+achievement.item.fluidCore.1.desc=捡起这个物品以在NEI内查看配方
+achievement.item.fluidCore.2=流体存储核心T3
+achievement.item.fluidCore.2.desc=捡起这个物品以在NEI内查看配方
+achievement.item.fluidCore.3=流体存储核心T4
+achievement.item.fluidCore.3.desc=捡起这个物品以在NEI内查看配方
+achievement.item.fluidCore.4=流体存储核心T5
+achievement.item.fluidCore.4.desc=捡起这个物品以在NEI内查看配方
+achievement.item.fluidCore.5=流体存储核心T6
+achievement.item.fluidCore.5.desc=捡起这个物品以在NEI内查看配方
+achievement.yottaFluidTankCell.2=流体单元方块T3
+achievement.yottaFluidTankCell.2.desc=捡起这个物品以在NEI内查看配方
+achievement.yottaFluidTankCell.3=流体单元方块T4
+achievement.yottaFluidTankCell.3.desc=捡起这个物品以在NEI内查看配方
+achievement.yottaFluidTankCell.4=流体单元方块T5
+achievement.yottaFluidTankCell.4.desc=捡起这个物品以在NEI内查看配方
+achievement.yottaFluidTankCell.5=流体单元方块T6
+achievement.yottaFluidTankCell.5.desc=捡起这个物品以在NEI内查看配方
 
 #Thaumcraft Research Context
 research.ESSENTIA_GENERATOR.page.0=你发现源质内蕴含的能量超乎你的想象.有没有用这些源质发电的方法呢?
