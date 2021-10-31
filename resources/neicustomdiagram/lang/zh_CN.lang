@@ -13,6 +13,7 @@ neicustomdiagram.util.emptyfluidcontainer=空容器：
 neicustomdiagram.util.gregtech5.materialinforadioactive=危险！放射性！
 neicustomdiagram.util.gregtech5.materialinfohot=危险！炽热！
 neicustomdiagram.util.gregtech5.materialinfocold=危险！冰冷！
+neicustomdiagram.util.gregtech5.reverseunifieditems=矿典同义词：
 neicustomdiagram.util.gregtech5.outputchance=几率：%.2f%%
 neicustomdiagram.util.gregtech5.recipecleanroom=合成表要求超净间
 neicustomdiagram.util.gregtech5.recipelowgravity=合成表要求低重力
@@ -45,12 +46,36 @@ neicustomdiagram.generators.enderstorage.tankoverview.nodatasubheader=抱歉，�
 
 neicustomdiagram.generators.forge.fluidcontainers.groupname=Forge流体容器
 neicustomdiagram.generators.forge.fluidcontainers.fluidlabel=流体
+neicustomdiagram.generators.forge.fluidcontainers.fluidnamelabel=流体名：%s
 neicustomdiagram.generators.forge.fluidcontainers.blocklabel=方块
 neicustomdiagram.generators.forge.fluidcontainers.gregtechitemlabel=GT显示物品
 neicustomdiagram.generators.forge.fluidcontainers.containersslot=容器
 
 neicustomdiagram.generators.forge.oredictionary.groupname=Forge矿物辞典
 neicustomdiagram.generators.forge.oredictionary.orenamelabel=矿辞名
+
+neicustomdiagram.generators.gregtech5.circuits.groupname=GT电路板
+neicustomdiagram.generators.gregtech5.circuits.tierlabel=%s 等级
+neicustomdiagram.generators.gregtech5.circuits.circuitboardsslot=电路基板
+neicustomdiagram.generators.gregtech5.circuits.circuitlinesslot=电路板系列
+neicustomdiagram.generators.gregtech5.circuits.individualcircuitsslot=独立电路板
+neicustomdiagram.generators.gregtech5.circuits.circuitpartsslot=电路板部件
+neicustomdiagram.generators.gregtech5.circuits.overviewbutton=电路板概览
+neicustomdiagram.generators.gregtech5.circuits.previouscircuitslot=系列中的上一级电路板
+neicustomdiagram.generators.gregtech5.circuits.currentcircuitslot=系列中的当前电路板
+neicustomdiagram.generators.gregtech5.circuits.nextcircuitslot=系列中的下一级电路板
+neicustomdiagram.generators.gregtech5.circuits.tiercircuitsslot=同等级电路板
+neicustomdiagram.generators.gregtech5.circuits.craftingtablelabel=有工作台合成表
+neicustomdiagram.generators.gregtech5.circuits.assemblingmachinelabel=有组装机合成表
+neicustomdiagram.generators.gregtech5.circuits.assemblinglinelabel=有装配线合成表
+neicustomdiagram.generators.gregtech5.circuits.circuitassemblingmachinelabel=有电路装配线合成表
+neicustomdiagram.generators.gregtech5.circuits.recipeindexlabel=显示合成表：%d / %d
+neicustomdiagram.generators.gregtech5.circuits.missingcombinationslabel=某些组合无效！
+neicustomdiagram.generators.gregtech5.circuits.requirescleanroomlabel=合成表要求超净间
+neicustomdiagram.generators.gregtech5.circuits.requireslowgravitylabel=合成表要求低重力
+neicustomdiagram.generators.gregtech5.circuits.recipeiteminputsslot=合成表物品 %d 输入
+neicustomdiagram.generators.gregtech5.circuits.recipefluidinputsslot=合成表流体输入
+neicustomdiagram.generators.gregtech5.circuits.recipeoutputslot=合成表输出
 
 neicustomdiagram.generators.gregtech5.materialparts.groupname=GT材料零件
 neicustomdiagram.generators.gregtech5.materialparts.blastfurnaceinfo=需要工业高炉！
