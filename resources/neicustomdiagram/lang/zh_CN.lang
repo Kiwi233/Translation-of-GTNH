@@ -1,8 +1,8 @@
 neicustomdiagram.api.stacksize=最大堆叠：%,d
 neicustomdiagram.api.hasnbt=有NBT(<Shift>查看)
-neicustomdiagram.api.cycleindex=循环索引：%,d / %,d
-neicustomdiagram.api.cycleindexwithshift=循环索引：%,d / %,d (<Shift>查看)
-neicustomdiagram.api.cyclecomponents=循环部件：
+neicustomdiagram.api.cycleindex=循环页码：%,d / %,d
+neicustomdiagram.api.cycleindexwithshift=循环页码：%,d / %,d (<Shift>查看)
+neicustomdiagram.api.cyclecomponents=循环工具：
 neicustomdiagram.api.excesscyclecomponents=(+%,d more)
 neicustomdiagram.api.showalldiagrams=显示所有图表
 
@@ -126,7 +126,7 @@ neicustomdiagram.generators.gregtech5.materialparts.pipesslot=管道
 neicustomdiagram.generators.gregtech5.materialparts.specialpipesslot=特殊管道
 
 neicustomdiagram.generators.gregtech5.materialtools.groupname=GT材料工具
-neicustomdiagram.generators.gregtech5.materialtools.handlelabel=工具手柄材料：%s
+neicustomdiagram.generators.gregtech5.materialtools.handlelabel=工具手柄
 neicustomdiagram.generators.gregtech5.materialtools.prefixlabel=矿辞前缀：%s
 neicustomdiagram.generators.gregtech5.materialtools.primarymateriallabel=初级材料：%s
 neicustomdiagram.generators.gregtech5.materialtools.secondarymateriallabel=次级材料：%s
