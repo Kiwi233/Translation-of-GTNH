@@ -11805,83 +11805,83 @@ gtnh.quest2950.name=N.N.Q.Q.N.Q.Q
 gtnh.quest2950.desc=Do you wanna some naquadria?%n%nUnfortunately, the naquadria dust has become repulsive naquadria oxide mixture dust because of NERF. You have to build a line for it like the naquadah.
 
 # Quest.2951 - Purification
-gtnh.quest2951.name=Purification
+gtnh.quest2951.name=纯化
 gtnh.quest2951.desc=The barium will react with sulphuric acid and become insoluble dust so we can remove it.
 
 # Quest.2952 - Recycle Indium
-gtnh.quest2952.name=Recycle Indium
+gtnh.quest2952.name=回收铟
 gtnh.quest2952.desc=Free indium!%n%nYou have three choices to deal with it.%n%n1) Electrolyze it.%n%n2) React with calcium in chemical reactor.%n%n3) Mix it with gallium hydroxide in mixer.
 
 # Quest.2953 - Disproportionation
-gtnh.quest2953.name=Disproportionation
+gtnh.quest2953.name=歧化反应
 gtnh.quest2953.desc=The chemical property of naquadria is a bit weird.%n%nThere's nothing known can precipitate it. the only way to get naquadria from the solution is to use high energy particle to bombard it.%n%nHowever, only part of output naquadria can be used for further process and you  have to re-purification the rest.
 
 # Quest.2954 - Once again
-gtnh.quest2954.name=Once again
+gtnh.quest2954.name=再来一次
 gtnh.quest2954.desc=The miscibility of P-507 and naquadria is still very perfect like naquadah. Most naquadria can be concentrated again.
 
 # Quest.2955 - Naquadria Ingot
-gtnh.quest2955.name=Naquadria Ingot
+gtnh.quest2955.name=超能硅岩锭
 gtnh.quest2955.desc=Smelt it with magnesium dust in EBF.
 
 # Quest.2956 - Nuclear Based Fuel (Th)
-gtnh.quest2956.name=Nuclear Based Fuel (Th)
+gtnh.quest2956.name=钍基流体燃料
 gtnh.quest2956.desc=Cheapest one, with 9 800EU/t output lasting 10s per mB.%n%nIt is also the source of praseodymium, which will be used for naquadah fuel.
 
 # Quest.2957 - Nuclear Based Fuel (U)
-gtnh.quest2957.name=Nuclear Based Fuel (U)
+gtnh.quest2957.name=铀基流体燃料
 gtnh.quest2957.desc=Provides 12 960EU/t output lasting 5s per mB.
 
 # Quest.2958 - Nuclear Based Fuel (Pu)
-gtnh.quest2958.name=Nuclear Based Fuel (Pu)
+gtnh.quest2958.name=钚基流体燃料
 gtnh.quest2958.desc=Provides 32 400EU/t output lasting 7.5s per mB.
 
 # Quest.2959 - Naquadah Fuel Refinery
-gtnh.quest2959.name=Naquadah Fuel Refinery
+gtnh.quest2959.name=硅岩燃料精炼厂
 gtnh.quest2959.desc=The insane machine is used for make MkIII and higher tier naquadah fuel.%n%nIt works like fusion that can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coil.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%ne.g. The MkIV fuel requires Teir 2 coil and the refinery is using Teir 3 coil. This allows a perfect overclock, using 2x power and 0.5x time.
 
 # Quest.2960 - Teir 2 Coil
-gtnh.quest2960.name=Teir 2 Coil
+gtnh.quest2960.name=2阶线圈
 gtnh.quest2960.desc=It will unlock MkIV and MkV fuel.
 
 # Quest.2961 - Naquadah Based Fuel MkI
-gtnh.quest2961.name=Naquadah Based Fuel MkI
+gtnh.quest2961.name=硅岩基流体燃料-MkI
 gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Looks not very good.
 
 # Quest.2962 - Naquadah Based Fuel MkII
-gtnh.quest2962.name=Naquadah Based Fuel MkII
+gtnh.quest2962.name=硅岩基流体燃料-MkII
 gtnh.quest2962.desc=380 000 EU/t lasting 1s per mB. Still very limited.
 
 # Quest.2963 - Naquadah Based Fuel MkIII
-gtnh.quest2963.name=Naquadah Based Fuel MkIII
+gtnh.quest2963.name=硅岩基流体燃料-MkIII
 gtnh.quest2963.desc=10.5M EU/t lasting 3s per mB. UEV @ 1.2A in other words.
 
 # Quest.2964 - Naquadah Based Fuel MkIV
-gtnh.quest2964.name=Naquadah Based Fuel MkIV
+gtnh.quest2964.name=硅岩基流体燃料-MkIV
 gtnh.quest2964.desc=138M EU/t lasting 7s per mB. It means its output power is over an Oct compressed solar in normal condition.
 
 # Quest.2965 - Naquadah Based Fuel MkV
-gtnh.quest2965.name=Naquadah Based Fuel MkV
+gtnh.quest2965.name=硅岩基流体燃料-MkV
 gtnh.quest2965.desc=1B EU/t lasting 10s per mB. I must admit that it is a disaster. This power means that you can fill a UHV Lapotronic Capacitor with 43k MkV Fuel cells.
 
 # Quest.2966 - Teir 3 Coil
-gtnh.quest2966.name=Teir 3 Coil
+gtnh.quest2966.name=3阶线圈
 gtnh.quest2966.desc=For overclock. Wait, you are going to overclock a UXV recipe?
 
 # Quest.2967 - Incomplete Combustion
-gtnh.quest2967.name=Incomplete Combustion
+gtnh.quest2967.name=不完全燃烧
 gtnh.quest2967.desc=A chemical fuel engine for LuV? ! Well, if you are the crazy fan for diesel or benzene, you will love it.%n%nThis engine accept all diesel fuel and gas fuel. It also needs Combustion Promoter to keep it running.%n%nThis engine consumes all fuel and combustion promoter in its hatch per second and output power depending on the sum of fuel value.%n%nIts efficiency is determined by the Combustion Promoter/Fuel ratio. The ratio larger, and the eff will be higher. The max eff is 150%.%n%ne.g. You input HOG 100mB/s and combustion promoter 1000mB/s. The eff is 149% and sum of the HOG fuel value is 172 800 EU. So the output power is 172 800 * 149% / 20 = 12 873 EU/t
 
 # Quest.2968 - §6§lLarge Essentia Generator (Good Generator)
-gtnh.quest2968.name=§6§lLarge Essentia Generator (Good Generator)
+gtnh.quest2968.name=§6§l大型源质发电机(Good Generator)
 gtnh.quest2968.desc=This Essentia Generator is a rework version of bart's one. The essentia fuel value is different from bart's one and you can find all information about it in Thaumonomicon.%n%n§3PS: The essentia fuel value is still in test state. It may get changed.
 
 # Quest.2969 - §6§lAdept Cell
-gtnh.quest2969.name=§6§lAdept Cell
+gtnh.quest2969.name=§6§l学徒源质扩散单元
 gtnh.quest2969.desc=You can mix different cells in the same generator. It will increase the efficiency.
 
 # Quest.2970 - §6§lMaster Cell
-gtnh.quest2970.name=§6§lMaster Cell
+gtnh.quest2970.name=§6§l大师源质扩散单元
 gtnh.quest2970.desc=Same as Adept one, but will higher efficiency.
 
 # Quest.2971 - §6§lInfinite Energy Storage
