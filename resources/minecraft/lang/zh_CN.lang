@@ -11842,47 +11842,47 @@ gtnh.quest2959.desc=The insane machine is used for make MkIII and higher tier na
 
 # Quest.2960 - Teir 2 Coil
 gtnh.quest2960.name=2阶线圈
-gtnh.quest2960.desc=It will unlock MkIV and MkV fuel.
+gtnh.quest2960.desc=2阶线圈可以解锁MkIV、MkV燃料.
 
 # Quest.2961 - Naquadah Based Fuel MkI
 gtnh.quest2961.name=硅岩基流体燃料-MkI
-gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Looks not very good.
+gtnh.quest2961.desc=每mB出产220,000-EU/t,持续1秒.看起来不太行.
 
 # Quest.2962 - Naquadah Based Fuel MkII
 gtnh.quest2962.name=硅岩基流体燃料-MkII
-gtnh.quest2962.desc=380 000 EU/t lasting 1s per mB. Still very limited.
+gtnh.quest2962.desc=每mB出产380,000-EU/t,持续1秒.还是很有限.
 
 # Quest.2963 - Naquadah Based Fuel MkIII
 gtnh.quest2963.name=硅岩基流体燃料-MkIII
-gtnh.quest2963.desc=10.5M EU/t lasting 3s per mB. UEV @ 1.2A in other words.
+gtnh.quest2963.desc=每mB出产10.5M-EU/t,持续3秒. 换句话说1.2A-UEV.
 
 # Quest.2964 - Naquadah Based Fuel MkIV
 gtnh.quest2964.name=硅岩基流体燃料-MkIV
-gtnh.quest2964.desc=138M EU/t lasting 7s per mB. It means its output power is over an Oct compressed solar in normal condition.
+gtnh.quest2964.desc=每mB出产138M-EU/t,持续7秒. 这意味着它的输出已经超过了普通状态下的8重压缩太阳能.
 
 # Quest.2965 - Naquadah Based Fuel MkV
 gtnh.quest2965.name=硅岩基流体燃料-MkV
-gtnh.quest2965.desc=1B EU/t lasting 10s per mB. I must admit that it is a disaster. This power means that you can fill a UHV Lapotronic Capacitor with 43k MkV Fuel cells.
+gtnh.quest2965.desc=每mB出产1B-EU/t,持续10秒.我必须承认这是一场灾难. 你可以用43k单元的MKV燃料,填满一个UHV兰波顿电容.
 
 # Quest.2966 - Teir 3 Coil
 gtnh.quest2966.name=3阶线圈
-gtnh.quest2966.desc=For overclock. Wait, you are going to overclock a UXV recipe?
+gtnh.quest2966.desc=为了超频! 等等,你想超频UXV合成表?
 
 # Quest.2967 - Incomplete Combustion
 gtnh.quest2967.name=不完全燃烧
-gtnh.quest2967.desc=A chemical fuel engine for LuV? ! Well, if you are the crazy fan for diesel or benzene, you will love it.%n%nThis engine accept all diesel fuel and gas fuel. It also needs Combustion Promoter to keep it running.%n%nThis engine consumes all fuel and combustion promoter in its hatch per second and output power depending on the sum of fuel value.%n%nIts efficiency is determined by the Combustion Promoter/Fuel ratio. The ratio larger, and the eff will be higher. The max eff is 150%.%n%ne.g. You input HOG 100mB/s and combustion promoter 1000mB/s. The eff is 149% and sum of the HOG fuel value is 172 800 EU. So the output power is 172 800 * 149% / 20 = 12 873 EU/t
+gtnh.quest2967.desc=LuV阶段的化学燃料发电机? ! 好吧,如果你是柴油神教或大苯环神教的狂热信徒,那你一定会喜欢上它的.%n%n这台引擎可以接受所有的柴油燃料以及气体燃料.它还需要助燃剂才能保持正常运行.%n%n这台引擎每秒会消耗仓室中所有的燃料与助燃剂,并基于总燃值输出能量.%n%n而效率取决于助燃剂/燃料比.这个比值越大,效率越高,最高为150％.%n%n举个例子:你每秒输入100mB高辛烷值汽油以及1000mB助燃剂.效率为149％,而高辛烷值汽油的总燃值为172,800-EU. 所以输出能量为172,800*1.49/20=12,873-EU/t
 
 # Quest.2968 - §6§lLarge Essentia Generator (Good Generator)
 gtnh.quest2968.name=§6§l大型源质发电机(Good Generator)
-gtnh.quest2968.desc=This Essentia Generator is a rework version of bart's one. The essentia fuel value is different from bart's one and you can find all information about it in Thaumonomicon.%n%n§3PS: The essentia fuel value is still in test state. It may get changed.
+gtnh.quest2968.desc=这台大型源质发电机重做了Bart写的源质发电机(EMT). 源质的燃值不同,关于这方面的详细数据可以在魔导手册上查到.%n%n§3PS:目前源质的燃值还处于测试阶段,仍有可能发生变化.
 
 # Quest.2969 - §6§lAdept Cell
 gtnh.quest2969.name=§6§l学徒源质扩散单元
-gtnh.quest2969.desc=You can mix different cells in the same generator. It will increase the efficiency.
+gtnh.quest2969.desc=你可以在同一台源质发电机内混用不同的单元. 学徒级的单元相比新手单元更具效率.
 
 # Quest.2970 - §6§lMaster Cell
 gtnh.quest2970.name=§6§l大师源质扩散单元
-gtnh.quest2970.desc=Same as Adept one, but will higher efficiency.
+gtnh.quest2970.desc=与学徒级的单元一样,但效率更高.
 
 # Quest.2971 - §6§lInfinite Energy Storage
 gtnh.quest2971.name=§6§l无限储能
