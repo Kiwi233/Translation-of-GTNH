@@ -8958,7 +8958,16 @@ Muffler Hatch: Any Inconel Reinforced Casing
 #N     S:TileEntity_DESCRIPTION_31026_Index_7=Causes: §51280 §7pollution per second
     S:TileEntity_DESCRIPTION_31026_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_31026_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
-
+Dimensions: 3x3x4 (WxHxL)
+Structure:
+Controller: Front Center 
+16x Stable Titanium Machine Casing (minimum)
+2x Steel Gear Box Machine Casing (minimum)
+8x Engine Intake Machine Casing (minimum)
+Input Hatch: Any Casing
+Maintenance Hatch: Any Casing
+Muffler Hatch: Any Casing 
+Dynamo Hatch: Back Center
     S:TileEntity_DESCRIPTION_31027_Index_0=机器类型：§e研磨机§r
     S:TileEntity_DESCRIPTION_31027_Index_1=艾萨研磨机的控制器方块
 #N     S:TileEntity_DESCRIPTION_31027_Index_2=Grind ores.
@@ -8966,7 +8975,16 @@ Muffler Hatch: Any Inconel Reinforced Casing
     S:TileEntity_DESCRIPTION_31027_Index_4=-----------------------------------------
     S:TileEntity_DESCRIPTION_31027_Index_5=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_31027_Index_6=Added by: §aGT++§7
-
+Dimensions: 3x3x4 (WxHxL)
+Structure:
+Controller: Front Center
+40x IsaMill Exterior Casing (minimum)
+6x IsaMill Gearbox (minimum)
+Input Bus: Any Casing
+Output Bus: Any Casing
+Energy Hatch: Any Casing
+Maintenance Hatch: Any Casing
+Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_31028_Index_0=机器类型：§e浮选机§r
     S:TileEntity_DESCRIPTION_31028_Index_1=处理研磨过的矿石!
 #N     S:TileEntity_DESCRIPTION_31028_Index_2=Causes: §50 §7pollution per second
@@ -8979,6 +8997,16 @@ Muffler Hatch: Any Inconel Reinforced Casing
 #B     S:TileEntity_DESCRIPTION_31028_Index_5=Machine Type: §eFlotation Cell§r
 #A     S:TileEntity_DESCRIPTION_31028_Index_5=Added by: §aGT++§7
 #C     S:TileEntity_DESCRIPTION_31028_Index_5=机器类型：§e浮选机§r
+Dimensions: 3x3x3 (WxHXL) (Hollow)
+Structure:
+Controller: Front Center
+68x Inconel Reinforced Casing (minimum)
+52x Flotation Casings (minimum)
+Input Bus: Bottom Casing
+Input Hatch: Bottom Casing
+Output Hatch: Bottom Casing
+Energy Hatch: Bottom Casing 
+Maintenance Hatch: Bottom Casing 
     S:TileEntity_DESCRIPTION_31029_Index_0=专用研磨球存储
     S:TileEntity_DESCRIPTION_31030_Index_0=专用催化剂存储
     S:TileEntity_DESCRIPTION_31040_Index_0=蒸汽多方块机器的流体输入
@@ -8990,6 +9018,10 @@ Muffler Hatch: Any Inconel Reinforced Casing
     S:TileEntity_DESCRIPTION_31041_Index_3=-----------------------------------------
     S:TileEntity_DESCRIPTION_31041_Index_4=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_31041_Index_5=Added by: §aGT++§7
+Dimensions: 3x3x3 (WxHxL) (Hollow) 
+Structure:
+Controller: Front center
+14x Bronze Plated Bricks (minimum)
     S:TileEntity_DESCRIPTION_31046_Index_0=蒸汽多方块机器的物品输入
     S:TileEntity_DESCRIPTION_31046_Index_1=手持螺丝刀Shift+右键以切换物品自动整理模式
     S:TileEntity_DESCRIPTION_31046_Index_2=物品容量：4组
@@ -10278,6 +10310,19 @@ Muffler Hatch: Any Inconel Reinforced Casing
 #N     S:TileEntity_DESCRIPTION_751_Index_7=Causes: §580 §7pollution per second
     S:TileEntity_DESCRIPTION_751_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_751_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
+Dimensions: 7x4x7 (WxHxL) (Hollow) 
+Structure:
+Controller: Bottom Center
+27x Hastelloy-N Reactor Casing (minimum)
+26X Zeron-100 Reactor Shielding (minimum)
+Input Hatch: Top or bottom layer edges
+Output Hatch: Top or bottom layer edges
+Dynamo Hatch: Top or bottom layer edges 
+Maintenance Hatch: Top or bottom layer edges 
+Muffler Hatch: Top 3x3
+All hatches must have IV+ tier.
+10+ Output Hatches, 4+ Input Hatches, 4x Dynamo Hatches
+2x Maintenance Hatches, 4x Mufflers
     S:TileEntity_DESCRIPTION_752_Index_0=树场的结构方块
     S:TileEntity_DESCRIPTION_753_Index_0=每秒生产750升的蒸汽
     S:TileEntity_DESCRIPTION_753_Index_1=每秒产生35点污染
