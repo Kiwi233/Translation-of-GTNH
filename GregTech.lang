@@ -4748,22 +4748,22 @@ languagefile {
     S:TileEntity_DESCRIPTION_13000_Index_7=1x源质输入仓
     S:TileEntity_DESCRIPTION_13000_Index_8=1x动力仓
     S:TileEntity_DESCRIPTION_13000_Index_9=1x维护仓
-#N     S:TileEntity_DESCRIPTION_13001_Index_0=Machine Type: §eResearch Completer§r
-#N     S:TileEntity_DESCRIPTION_13001_Index_1=Controller block for the Research Completer
-#N     S:TileEntity_DESCRIPTION_13001_Index_2=Completes Thaumcraft research notes using EU and Thaumcraft nodes
-#N     S:TileEntity_DESCRIPTION_13001_Index_3=Place nodes in the center row
+    S:TileEntity_DESCRIPTION_13001_Index_0=机器类型：§e自动研究机§r
+    S:TileEntity_DESCRIPTION_13001_Index_1=奥法研究阐释者的控制器方块
+    S:TileEntity_DESCRIPTION_13001_Index_2=消耗EU和节点阐释神秘时代研究笔记
+    S:TileEntity_DESCRIPTION_13001_Index_3=将节点置于中心列
     S:TileEntity_DESCRIPTION_13001_Index_4=-----------------------------------------
     S:TileEntity_DESCRIPTION_13001_Index_5=按住 §l[LSHIFT]§r§7 以显示结构指导
-#N     S:TileEntity_DESCRIPTION_13001_Index_6=Added by: §aElectro-Magic Tools§7
-Dimensions: 3-3x3-3x3-13 (WxHxL) (Hollow) 
-Structure:
-Controller: Front center 
-Magical machine casing: Top and bottom layers outside. 3 x L minimum
-Warded glass: Middle layer outside
-Energy Hatch: Any casing
-Maintenance Hatch: Any casing
-Input Bus: Any casing
-Output Bus: Any casing
+    S:TileEntity_DESCRIPTION_13001_Index_6=由 §aElectro-Magic Tools§7 添加
+    S:TileEntity_Secondary_DESCRIPTION_13001_Index_0=大小(宽x高x长)：3x3xL(中空) L=3-13
+    S:TileEntity_Secondary_DESCRIPTION_13001_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_13001_Index_2=   控制器：      正面中央
+    S:TileEntity_Secondary_DESCRIPTION_13001_Index_3=   魔法机械方块：顶层与底层外侧(至少3xL个！)
+    S:TileEntity_Secondary_DESCRIPTION_13001_Index_4=   守卫者玻璃：  中层外侧
+    S:TileEntity_Secondary_DESCRIPTION_13001_Index_5=   能源仓：      任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_13001_Index_6=   维护仓：      任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_13001_Index_7=   输入总线：    任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_13001_Index_8=   输出总线：    任意机械方块
     S:TileEntity_DESCRIPTION_1300_Index_0=最大电压： %s
     S:TileEntity_DESCRIPTION_1300_Index_1=最大电流： %s
     S:TileEntity_DESCRIPTION_1300_Index_2=线损/米/安： %s 伏
@@ -8311,24 +8311,24 @@ Output Bus: Any casing
     S:TileEntity_DESCRIPTION_31021_Index_0=机器类型：§e蒸馏室,蒸馏塔§r
     S:TileEntity_DESCRIPTION_31021_Index_1=工业蒸馏塔的控制器方块
 #N     S:TileEntity_DESCRIPTION_31021_Index_10=Added by: §aGT++§7
-#N     S:TileEntity_DESCRIPTION_31021_Index_2=T1 and T2 constructed identical to standard DT
-#N     S:TileEntity_DESCRIPTION_31021_Index_3=Right click the controller with screwdriver to change mode.
+    S:TileEntity_DESCRIPTION_31021_Index_2=T1和T2结构与标准蒸馏塔相同
+    S:TileEntity_DESCRIPTION_31021_Index_3=手持螺丝刀右键控制器方块以切换模式Right click the controller with screwdriver to change mode.
     S:TileEntity_DESCRIPTION_31021_Index_4=最大并行取决于机器的层数和模式
     S:TileEntity_DESCRIPTION_31021_Index_5=蒸馏塔模式: T1=4, T2=12
     S:TileEntity_DESCRIPTION_31021_Index_6=蒸馏室模式: 层数*(4*输入电压等级)
     S:TileEntity_DESCRIPTION_31021_Index_7=每秒产生§5480§7点污染
     S:TileEntity_DESCRIPTION_31021_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_31021_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
-大小(宽x高x长)：3x26x3(中空)
-Structure:
-7x Clean Stainless Steel Machine Casing (minimum)
-Input Bus: Bottom Casing
-Output Bus: Bottom Casing
-Input Hatch: Bottom Casing
-Maintenance Hatch: Bottom Casing 
-Energy Hatch: Bottom Casing
-Output Hatch: One per layer except bottom
-Muffler Hatch: Top Center Casing
+    S:TileEntity_Secondary_DESCRIPTION_31021_Index_0=大小(宽x高x长)：3x26x3(中空)
+    S:TileEntity_Secondary_DESCRIPTION_31021_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_31021_Index_2=   剩余方块为洁净不锈钢机械方块(至少7个！)
+    S:TileEntity_Secondary_DESCRIPTION_31021_Index_3=   输入总线：底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31021_Index_4=   输出总线：底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31021_Index_5=   输入仓：  底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31021_Index_6=   维护仓：  底层机械方块 
+    S:TileEntity_Secondary_DESCRIPTION_31021_Index_7=   能源仓：  底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31021_Index_8=   输出仓：  除了底层/顶层外,每层一个
+    S:TileEntity_Secondary_DESCRIPTION_31021_Index_9=   消声仓：  顶层中央
     S:TileEntity_DESCRIPTION_31023_Index_0=机器类型：§e合金炉§r
     S:TileEntity_DESCRIPTION_31023_Index_1=工业合金炉的控制器方块
     S:TileEntity_DESCRIPTION_31023_Index_2=每提升一个电压等级,并行系数加一
@@ -8339,17 +8339,17 @@ Muffler Hatch: Top Center Casing
     S:TileEntity_DESCRIPTION_31023_Index_7=-----------------------------------------
     S:TileEntity_DESCRIPTION_31023_Index_8=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_31023_Index_9=Added by: §aGT++§7
-Dimensions: 3x5x3 (NxHxL) (Hollow)
-Structure:
-Controller: Bottom center
-10x Inconel Reinforced Casings (minimum)
-18x Integral Encasement V (minimum)
-16x Heating Coils (minimum)
-Input Bus: Any Inconel Reinforced Casing 
-Output Bus: Any Inconel Reinforced Casing
-Energy Hatch: Any Inconel Reinforced Casing
-Maintenance Hatch: Any Inconel Reinforced Casing
-Muffler Hatch: Any Inconel Reinforced Casing
+    S:TileEntity_Secondary_DESCRIPTION_31023_Index_0=大小(宽x高x长)：3x5x3(中空)
+    S:TileEntity_Secondary_DESCRIPTION_31023_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_31023_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_31023_Index_3=   10x强化镍铬机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_31023_Index_4=   16x加热线圈(第2、4层,中空)
+    S:TileEntity_Secondary_DESCRIPTION_31023_Index_5=   8x基本外壳 V(第3层,中空)
+    S:TileEntity_Secondary_DESCRIPTION_31023_Index_6=   输入总线：任意底层/顶层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31023_Index_7=   输出总线：任意底层/顶层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31023_Index_8=   能源仓：  任意底层/顶层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31023_Index_9=   维护仓：  任意底层/顶层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31023_Index_10=   消声仓：  任意底层/顶层机械方块
     S:TileEntity_DESCRIPTION_31025_Index_0=大型涡轮机的自动化端口
     S:TileEntity_DESCRIPTION_31025_Index_1=每分钟检测一次涡轮插槽
     S:TileEntity_DESCRIPTION_31025_Index_2=螺丝刀右键以进行调整
@@ -8365,52 +8365,52 @@ Muffler Hatch: Any Inconel Reinforced Casing
     S:TileEntity_DESCRIPTION_31026_Index_4=提供80升/秒的氧气以提高输出(可选)
     S:TileEntity_DESCRIPTION_31026_Index_5=默认：效率100%，输出功率2048EU/t
     S:TileEntity_DESCRIPTION_31026_Index_6=提高：效率150%，输出功率6144EU/t
-#N     S:TileEntity_DESCRIPTION_31026_Index_7=Causes: §51280 §7pollution per second
+    S:TileEntity_DESCRIPTION_31026_Index_7=每秒产生§51280§7点污染
     S:TileEntity_DESCRIPTION_31026_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_31026_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
-Dimensions: 3x3x4 (WxHxL)
-Structure:
-Controller: Front Center 
-16x Stable Titanium Machine Casing (minimum)
-2x Steel Gear Box Machine Casing (minimum)
-8x Engine Intake Machine Casing (minimum)
-Input Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing 
-Dynamo Hatch: Back Center
+    S:TileEntity_Secondary_DESCRIPTION_31026_Index_0=大小(宽x高x长)：3x3x4
+    S:TileEntity_Secondary_DESCRIPTION_31026_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_31026_Index_2=   控制器：  正面中央
+    S:TileEntity_Secondary_DESCRIPTION_31026_Index_3=   3x3x4的加强钛机械方块(中空，至少16个！)
+    S:TileEntity_Secondary_DESCRIPTION_31026_Index_4=   2x钢齿轮机械方块(内部)
+    S:TileEntity_Secondary_DESCRIPTION_31026_Index_5=   8x引擎进气机械方块(控制器周围)
+    S:TileEntity_Secondary_DESCRIPTION_31026_Index_6=   输入仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31026_Index_7=   维护仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31026_Index_8=   消声仓：  任意机械方块 
+    S:TileEntity_Secondary_DESCRIPTION_31026_Index_9=   动力仓：  背面中央
     S:TileEntity_DESCRIPTION_31027_Index_0=机器类型：§e研磨机§r
     S:TileEntity_DESCRIPTION_31027_Index_1=艾萨研磨机的控制器方块
-#N     S:TileEntity_DESCRIPTION_31027_Index_2=Grind ores.
-#N     S:TileEntity_DESCRIPTION_31027_Index_3=Causes: §51280 §7pollution per second
+    S:TileEntity_DESCRIPTION_31027_Index_2=研磨矿石.
+    S:TileEntity_DESCRIPTION_31027_Index_3=每秒产生§51280§7点污染
     S:TileEntity_DESCRIPTION_31027_Index_4=-----------------------------------------
     S:TileEntity_DESCRIPTION_31027_Index_5=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_31027_Index_6=Added by: §aGT++§7
-Dimensions: 3x3x4 (WxHxL)
-Structure:
-Controller: Front Center
-40x IsaMill Exterior Casing (minimum)
-6x IsaMill Gearbox (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+    S:TileEntity_Secondary_DESCRIPTION_31027_Index_0=大小(宽x高x长)：3x3x4
+    S:TileEntity_Secondary_DESCRIPTION_31027_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_31027_Index_2=   控制器：  正面中央
+    S:TileEntity_Secondary_DESCRIPTION_31027_Index_3=   40x艾萨研磨外围机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_31027_Index_4=   6x艾萨研磨齿轮机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_31027_Index_5=   输入总线：任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31027_Index_6=   输出总线：任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31027_Index_7=   能源仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31027_Index_8=   维护仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31027_Index_9=   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_31028_Index_0=机器类型：§e浮选机§r
     S:TileEntity_DESCRIPTION_31028_Index_1=处理研磨过的矿石!
-#N     S:TileEntity_DESCRIPTION_31028_Index_2=Causes: §50 §7pollution per second
+    S:TileEntity_DESCRIPTION_31028_Index_2=每秒产生§50§7点污染
     S:TileEntity_DESCRIPTION_31028_Index_3=-----------------------------------------
     S:TileEntity_DESCRIPTION_31028_Index_4=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_31028_Index_5=Added by: §aGT++§7
-Dimensions: 3x3x3 (WxHXL) (Hollow)
-Structure:
-Controller: Front Center
-68x Inconel Reinforced Casing (minimum)
-52x Flotation Casings (minimum)
-Input Bus: Bottom Casing
-Input Hatch: Bottom Casing
-Output Hatch: Bottom Casing
-Energy Hatch: Bottom Casing 
-Maintenance Hatch: Bottom Casing 
+    S:TileEntity_Secondary_DESCRIPTION_31028_Index_0=大小(宽x高x长)：3x3x3(中空)
+    S:TileEntity_Secondary_DESCRIPTION_31028_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_31028_Index_2=   控制器：  正面中央
+    S:TileEntity_Secondary_DESCRIPTION_31028_Index_3=   68x强化镍铬机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_31028_Index_4=   52x浮选机机械方块(至少！)
+    S:TileEntity_Secondary_DESCRIPTION_31028_Index_5=   输入总线：底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31028_Index_6=   输入仓：  底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31028_Index_7=   输出仓：  底层机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31028_Index_8=   能源仓：  底层机械方块 
+    S:TileEntity_Secondary_DESCRIPTION_31028_Index_9=   维护仓：  底层机械方块 
     S:TileEntity_DESCRIPTION_31029_Index_0=专用研磨球存储
     S:TileEntity_DESCRIPTION_31030_Index_0=专用催化剂存储
     S:TileEntity_DESCRIPTION_31040_Index_0=蒸汽多方块机器的流体输入
@@ -8422,10 +8422,13 @@ Maintenance Hatch: Bottom Casing
     S:TileEntity_DESCRIPTION_31041_Index_3=-----------------------------------------
     S:TileEntity_DESCRIPTION_31041_Index_4=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_31041_Index_5=Added by: §aGT++§7
-Dimensions: 3x3x3 (WxHxL) (Hollow) 
-Structure:
-Controller: Front center
-14x Bronze Plated Bricks (minimum)
+    S:TileEntity_Secondary_DESCRIPTION_31041_Index_0=大小(宽x高x长)：3x3x3(中空)
+    S:TileEntity_Secondary_DESCRIPTION_31041_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_31041_Index_2=   控制器：        正面中央
+    S:TileEntity_Secondary_DESCRIPTION_31041_Index_3=   剩余方块为镀铜砖块(至少14个!)
+    S:TileEntity_Secondary_DESCRIPTION_31041_Index_4=   输入总线(蒸汽)：任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31041_Index_5=   输出总线(蒸汽)：任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_31041_Index_6=   蒸汽仓：        任意机械方块
     S:TileEntity_DESCRIPTION_31046_Index_0=蒸汽多方块机器的物品输入
     S:TileEntity_DESCRIPTION_31046_Index_1=手持螺丝刀Shift+右键以切换物品自动整理模式
     S:TileEntity_DESCRIPTION_31046_Index_2=物品容量：4组
@@ -9669,24 +9672,24 @@ Controller: Front center
     S:TileEntity_DESCRIPTION_751_Index_2=利用β衰变生产热量和能源
     S:TileEntity_DESCRIPTION_751_Index_3=平均每10秒输出铀-233
     S:TileEntity_DESCRIPTION_751_Index_4=输入氟与氦以获取额外副产
-    S:TileEntity_DESCRIPTION_751_Index_5=输入Li2BeF4与熔盐以作为燃料
-#N     S:TileEntity_DESCRIPTION_751_Index_6=LiFBeF2ThF4UF4, LiFBeF2ZrF4UF4 or LiFBeF2ZrF4U235
-#N     S:TileEntity_DESCRIPTION_751_Index_7=Causes: §580 §7pollution per second
+    S:TileEntity_DESCRIPTION_751_Index_5=输入Li2BeF4与熔盐作为燃料
+    S:TileEntity_DESCRIPTION_751_Index_6=LiFBeF2ThF4UF4、LiFBeF2ZrF4UF4或LiFBeF2ZrF4U235
+    S:TileEntity_DESCRIPTION_751_Index_7=每秒产生§580§7点污染
     S:TileEntity_DESCRIPTION_751_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_751_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
-Dimensions: 7x4x7 (WxHxL) (Hollow) 
-Structure:
-Controller: Bottom Center
-27x Hastelloy-N Reactor Casing (minimum)
-26X Zeron-100 Reactor Shielding (minimum)
-Input Hatch: Top or bottom layer edges
-Output Hatch: Top or bottom layer edges
-Dynamo Hatch: Top or bottom layer edges 
-Maintenance Hatch: Top or bottom layer edges 
-Muffler Hatch: Top 3x3
-All hatches must have IV+ tier.
-10+ Output Hatches, 4+ Input Hatches, 4x Dynamo Hatches
-2x Maintenance Hatches, 4x Mufflers
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_0=大小(宽x高x长)：7x4x7(中空)
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_2=   控制器：  正面底中
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_3=   顶层与底层为哈斯特洛依合金-N反应堆机械方块(至少27个！)
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_4=   26x塞龙-100反应堆屏蔽机械方块(中间2层)
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_5=   输入仓：  顶层或底层边缘
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_6=   输出仓：  顶层或底层边缘
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_7=   动力仓：  顶层或底层边缘
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_8=   维护仓：  顶层或底层边缘
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_9=   消声仓：  顶层中央3x3
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_10=     所有仓室必须为IV以上
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_11=     10+输出仓，4+输入仓，4x动力仓
+    S:TileEntity_Secondary_DESCRIPTION_751_Index_12=     2x维护仓，4x消声仓
     S:TileEntity_DESCRIPTION_752_Index_0=树场的结构方块
     S:TileEntity_DESCRIPTION_753_Index_0=每秒生产750升的蒸汽
     S:TileEntity_DESCRIPTION_753_Index_1=每秒产生35点污染
@@ -9860,39 +9863,39 @@ All hatches must have IV+ tier.
     S:TileEntity_DESCRIPTION_790_Index_7=-----------------------------------------
     S:TileEntity_DESCRIPTION_790_Index_8=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_790_Index_9=Added by: §aGT++§7
-Dimensions: 3x3x3 (WxHxL) (Hollow)
-Structure:
-Controller: Front Center
-10X Centrifuge Casings (minimum) 
-Input Bus: Any Casing except front
-Output Bus: Any Casing except front
-Input Hatch: Any Casing except front
-Output Hatch: Any Casing except front
-Energy Hatch: Any Casing except front
-Maintenance Hatch: Any Casing except front
-Muffler Hatch: Any Casing except front
+    S:TileEntity_Secondary_DESCRIPTION_790_Index_0=大小(宽x高x长)：3x3x3(中空)
+    S:TileEntity_Secondary_DESCRIPTION_790_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_790_Index_2=   控制器：  正面中央
+    S:TileEntity_Secondary_DESCRIPTION_790_Index_3=   剩余为离心机机械方块(至少10个！)
+    S:TileEntity_Secondary_DESCRIPTION_790_Index_4=   输入总线：任意非正面机械方块
+    S:TileEntity_Secondary_DESCRIPTION_790_Index_5=   输出总线：任意非正面机械方块
+    S:TileEntity_Secondary_DESCRIPTION_790_Index_6=   输入仓：  任意非正面机械方块
+    S:TileEntity_Secondary_DESCRIPTION_790_Index_7=   输出仓：  任意非正面机械方块
+    S:TileEntity_Secondary_DESCRIPTION_790_Index_8=   能源仓：  任意非正面机械方块
+    S:TileEntity_Secondary_DESCRIPTION_790_Index_9=   维护仓：  任意非正面机械方块
+    S:TileEntity_Secondary_DESCRIPTION_790_Index_10=   消声仓：  任意非正面机械方块
     S:TileEntity_DESCRIPTION_791_Index_0=机器类型：§e焦炉§r
     S:TileEntity_DESCRIPTION_791_Index_1=将原木和煤处理成木炭与焦煤
     S:TileEntity_DESCRIPTION_791_Index_2=工业焦炉的控制器方块
     S:TileEntity_DESCRIPTION_791_Index_3=每提升一个电压等级，处理速度提高4%
     S:TileEntity_DESCRIPTION_791_Index_4=若使用隔热焦炉机械方块则一次处理12次合成
     S:TileEntity_DESCRIPTION_791_Index_5=若使用绝热焦炉机械方块则一次处理24次合成
-#N     S:TileEntity_DESCRIPTION_791_Index_6=Causes: §580 §7pollution per second
+    S:TileEntity_DESCRIPTION_791_Index_6=每秒产生§580§7点污染
     S:TileEntity_DESCRIPTION_791_Index_7=-----------------------------------------
     S:TileEntity_DESCRIPTION_791_Index_8=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_791_Index_9=Added by: §aGT++§7
-Dimensions: 3x3x3 (WxHxL) (Hollow)
-Structure:
-Controller: Front middle at bottom 
-8x Structural Coke Oven Casings (minimum)
-8x Heat Res istant/Proof Coke Oven Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
-Output Hatch: Any Casing 
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing 
+大小(宽x高x长)：3x3x3(中空)
+结构：
+   控制器：  正面底中
+8x Structural Coke Oven Casings(至少！)
+8x Heat Res istant/Proof Coke Oven Casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
+   输出仓：  任意机械方块 
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块 
     S:TileEntity_DESCRIPTION_792_Index_0=机器类型：§e卷板机,冲压机床§r
     S:TileEntity_DESCRIPTION_792_Index_1=工业辊压机的控制器方块
     S:TileEntity_DESCRIPTION_792_Index_2=比同电压下的单方块机器快500%！
@@ -9903,15 +9906,15 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_792_Index_7=-----------------------------------------
     S:TileEntity_DESCRIPTION_792_Index_8=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_792_Index_9=Added by: §aGT++§7
-Dimensions: 3x3x3 (WxHXL) (Hollow)
-Structure:
-Controller: Front Center
-10x Material Press Machine Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+大小(宽x高x长)：3x3x3(中空)
+结构：
+   控制器：  正面中央
+10x Material Press Machine Casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_793_Index_0=需要GT++火箭燃料
     S:TileEntity_DESCRIPTION_793_Index_1=燃料效率: 80%
     S:TileEntity_DESCRIPTION_793_Index_2=每秒造成250-2000污染
@@ -9930,17 +9933,17 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_796_Index_6=-----------------------------------------
     S:TileEntity_DESCRIPTION_796_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_796_Index_8=Added by: §aGT++§7
-Dimensions: 3x3x3 (WxHxL) (Hollow)
-Structure: 
-Controller: Front Center 
-10x Electrolyzer Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
-Output Hatch: Any Cas ing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+大小(宽x高x长)：3x3x3(中空)
+结构： 
+   控制器：  正面中央
+10x Electrolyzer Casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
+   输出仓：  Any Cas ing
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_797_Index_0=机器类型：§e粉碎机/粉碎者§r
     S:TileEntity_DESCRIPTION_797_Index_1=工业粉碎机的控制器方块
     S:TileEntity_DESCRIPTION_797_Index_2=比同电压下的单方块机器快60%！
@@ -9950,15 +9953,15 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_797_Index_6=-----------------------------------------
     S:TileEntity_DESCRIPTION_797_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_797_Index_8=Added by: §aGT++§7
-Dimensions: 3x6x3 (WxHxL) (Hollow)
-Structure:
-Controller: Bottom Center
-26x Maceration Stack Casings (minimum)
-Input Bus: Bottom Casing 
-Energy Hatch: Bottom Casing
-Maintenance Hatch: Bottom Casing
-Output Bus: One per layer except bottom layer
-Muffler Hatch: Any Casing
+大小(宽x高x长)：3x6x3(中空)
+结构：
+   控制器：  正面底中
+26x Maceration Stack Casings(至少！)
+   输入总线：底层机械方块 
+   能源仓：  底层机械方块
+   维护仓：  底层机械方块
+   输出总线：One per layer except bottom layer
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_798_Index_0=机器类型：§e线缆轧机§r
     S:TileEntity_DESCRIPTION_798_Index_1=工业线缆轧机的控制器方块
     S:TileEntity_DESCRIPTION_798_Index_2=比相同电压的单方块机器快200%
@@ -9968,15 +9971,15 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_798_Index_6=-----------------------------------------
     S:TileEntity_DESCRIPTION_798_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_798_Index_8=Added by: §aGT++§7
-Dimensions: 3x3x5 (WxHxL) (Hollow)
-Structure:
-Controller: Front Center
-32x Hire Factory Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+大小(宽x高x长)：3x3x5(中空)
+结构：
+   控制器：  正面中央
+32x Hire Factory Casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_799_Index_0=机器类型：§e质量发生器/回收机§r
     S:TileEntity_DESCRIPTION_799_Index_1=质量发生器的控制器方块
     S:TileEntity_DESCRIPTION_799_Index_2=生产UU-A, UU-M和废料
@@ -9984,19 +9987,19 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_799_Index_4=-----------------------------------------
     S:TileEntity_DESCRIPTION_799_Index_5=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_799_Index_6=Added by: §aGT++§7
-Dimensions: 5x4x5 (WxHxL) (Hollow) 
-Structure:
-Controller: Front Center
-9x miscutils.blockcas ings.8.name (minimum)
-24x gtplusplus.blockcasings.3.15.name (minimum)
-40x miscutils.blockcasings.9.name (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing 
-Input Hatch: Any Casing 
-Output Hatch: Any Casing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+大小(宽x高x长)：5x4x5(中空)
+结构：
+   控制器：  正面中央
+9x miscutils.blockcas ings.8.name(至少！)
+24x gtplusplus.blockcasings.3.15.name(至少！)
+40x miscutils.blockcasings.9.name(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块 
+   输入仓：  任意机械方块 
+   输出仓：  任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_79_Index_0=为多方块机器输入物品
     S:TileEntity_DESCRIPTION_79_Index_1=手持螺丝刀shift+右击以激活/关闭插槽
     S:TileEntity_DESCRIPTION_79_Index_2=物品容量：16组
@@ -10011,17 +10014,17 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_810_Index_6=-----------------------------------------
     S:TileEntity_DESCRIPTION_810_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_810_Index_8=Added by: §aGT++§7
-Dimensions: 3x4x3 (WXHxL) (Hollow)
-Structure:
-Controller: Bottom Center
-10x Blast Smelter Casings (minimum)
-16x Blast Smelter Heat Containment Coils (minimum)
-Input BuS: Any Casing
-Input Hatch: Any Casing
-Output Hatch: Any Casing 
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+大小(宽x高x长)：3x4x3(中空)
+结构：
+   控制器：  正面底中
+10x Blast Smelter Casings(至少！)
+16x Blast Smelter Heat Containment Coils(至少！)
+   输入总线：任意机械方块
+   输入仓：  任意机械方块
+   输出仓：  任意机械方块 
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_811_Index_0=机器类型：§e搅拌机§r
     S:TileEntity_DESCRIPTION_811_Index_1=工业搅拌机的控制器方块
     S:TileEntity_DESCRIPTION_811_Index_2=比相同电压的单方块机器快250%
@@ -10030,17 +10033,17 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_811_Index_5=-----------------------------------------
     S:TileEntity_DESCRIPTION_811_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_811_Index_7=Added by: §aGT++§7
-Dimensions: 3x4x3 (WXHxL) (Hollow)
-Structure:
-Controller: Bottom Center
-10x Blast Smelter Casings (minimum)
-16x Blast Smelter Heat Containment Coils (minimum)
-Input BuS: Any Casing
-Input Hatch: Any Casing
-Dutput Hatch: Any Casing 
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+大小(宽x高x长)：3x4x3(中空)
+结构：
+   控制器：  正面底中
+10x Blast Smelter Casings(至少！)
+16x Blast Smelter Heat Containment Coils(至少！)
+   输入总线：任意机械方块
+   输入仓：  任意机械方块
+Dutput Hatch: 任意机械方块 
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_812_Index_0=机器类型：§e能量缓存器§r
     S:TileEntity_DESCRIPTION_812_Index_1=能源站的控制器方块[Bug]GUI只有在完全搭建好后才会工作。(别去GT++那发issue了)
 #N     S:TileEntity_DESCRIPTION_812_Index_10=Added by: §aGT++§7
@@ -10052,12 +10055,12 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_812_Index_7=使用MAX内芯可支持电压>=UHV
     S:TileEntity_DESCRIPTION_812_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_812_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
-Dimensions: 5x4-18x5 (WXHxL)
-Structure:
-Controller: Bottom Center
-10x Sub-Station External Casings (minimum) 
-Dynamo Hatch: Any Casing
-Energy Hatch: Any Casing
+大小(宽x高x长)：5x4-18x5
+结构：
+   控制器：  正面底中
+10x Sub-Station External Casings(至少！) 
+   动力仓：  任意机械方块
+   能源仓：  任意机械方块
     S:TileEntity_DESCRIPTION_813_Index_0=将你的葡萄做成葡萄干. 
     S:TileEntity_DESCRIPTION_814_Index_0=宿醉是你的身体对脱水的反应方式. 
     S:TileEntity_DESCRIPTION_815_Index_0=你或许可以用它做太空冰淇淋...
@@ -10087,17 +10090,17 @@ Energy Hatch: Any Casing
     S:TileEntity_DESCRIPTION_828_Index_7=结构与核聚变反应堆相同
     S:TileEntity_DESCRIPTION_828_Index_8=与聚变反应堆不同,所有的外部机械方块都可用仓室或总线替代
     S:TileEntity_DESCRIPTION_828_Index_9=回旋加速器线圈周围放置回旋加速器机械方块
-Dimensions: 15x3x15 (WxHxL)
-Structure:
-Controller: See diagram when placed
-40x Cyclotron Machine Casings (minimum)
-32x Cyclotron Coil (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+大小(宽x高x长)：15x3x15
+结构：
+   控制器：  参见全息图
+40x Cyclotron Machine Casings(至少！)
+32x Cyclotron Coil(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_829_Index_0=机器类型：§e渔场§r
     S:TileEntity_DESCRIPTION_829_Index_1=珠海渔场的控制器方块
 #N     S:TileEntity_DESCRIPTION_829_Index_10=Added by: §aGT++§7
@@ -10106,19 +10109,19 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_829_Index_4=编程电路14捕捉鱼类
     S:TileEntity_DESCRIPTION_829_Index_5=编程电路15捞取垃圾
     S:TileEntity_DESCRIPTION_829_Index_6=编程电路16捞取宝藏
-#N     S:TileEntity_DESCRIPTION_829_Index_7=Causes: §520 §7pollution per second
+    S:TileEntity_DESCRIPTION_829_Index_7=每秒产生§520§7点污染
     S:TileEntity_DESCRIPTION_829_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_829_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
-Dimensions: 9x3x9 (WxHxL) (Hollow) 
-Structure:
-Controller: Front Center 
-64x Aquatic Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing 
+大小(宽x高x长)：9x3x9(中空)
+结构：
+   控制器：  正面中央
+64x Aquatic Casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块 
     S:TileEntity_DESCRIPTION_82_Index_0=从多方块机器输出物品
     S:TileEntity_DESCRIPTION_82_Index_1=物品容量：9组
     S:TileEntity_DESCRIPTION_830_Index_0=需要熔岩或岩浆作为燃料
@@ -10141,23 +10144,23 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_834_Index_5=跨维度传输时消耗2048EU/t
     S:TileEntity_DESCRIPTION_835_Index_0=机器类型：§e燃料精炼厂§r
     S:TileEntity_DESCRIPTION_835_Index_1=反应堆燃料加工厂的控制器方块
-#N     S:TileEntity_DESCRIPTION_835_Index_2=Causes: §54000 §7pollution per second
+    S:TileEntity_DESCRIPTION_835_Index_2=每秒产生§54000§7点污染
     S:TileEntity_DESCRIPTION_835_Index_3=-----------------------------------------
     S:TileEntity_DESCRIPTION_835_Index_4=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_835_Index_5=Added by: §aGT++§7
-Dimensions: 3x9x3 (WxHxL)
-Structure:
-Controller: Bottom Center
-7x Hastelloy-X Structural Casing (minimum)
-5x Incoloy-DS Fluid Containment Block (minimum)
-4x Zeron-100 Reactor Shielding (minimum)
-17x Hastelloy-N Sealant Blocks (minimum)
-Input Hatch: Base platform 
-Output Hatch: Base platform
-Output Bus: Base platform
-Muffler Hatch: Base platform
-Maintenance Hatch: Base platform
-Energy Hatch: Base platform
+大小(宽x高x长)：3x9x3
+结构：
+   控制器：  正面底中
+7x Hastelloy-X Structural Casing(至少！)
+5x Incoloy-DS Fluid Containment Block(至少！)
+4x Zeron-100 Reactor Shielding(至少！)
+17x Hastelloy-N Sealant Blocks(至少！)
+   输入仓：  Base platform 
+   输出仓：  Base platform
+   输出总线：Base platform
+   消声仓：  Base platform
+   维护仓：  Base platform
+   能源仓：  Base platform
 Muffler's Tier must be ZPM/ ZPM+
 4x Input Hatches, 2x Output Hatches, 1x Output Bus
 1x Muffler, 1x Maintenance Hatch, 1x Energy Hatch
@@ -10177,38 +10180,38 @@ Muffler's Tier must be ZPM/ ZPM+
     S:TileEntity_DESCRIPTION_840_Index_2=比相同电压的单方块机器快400%
     S:TileEntity_DESCRIPTION_840_Index_3=只需要使用配方要求电压的75%
     S:TileEntity_DESCRIPTION_840_Index_4=每提升一个电压等级，每次运行可以多处理4个物品
-#N     S:TileEntity_DESCRIPTION_840_Index_5=Causes: §540 §7pollution per second
+    S:TileEntity_DESCRIPTION_840_Index_5=每秒产生§540§7点污染
     S:TileEntity_DESCRIPTION_840_Index_6=-----------------------------------------
     S:TileEntity_DESCRIPTION_840_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_840_Index_8=Added by: §aGT++§7
-Dimensions: 5x3x5 (WxHxL)
-Structure:
-Controller: Bottom Center
-18x Sieve Grate (minimum)
-35x sieve Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing 
-Muffler Hatch: Any Casing
+大小(宽x高x长)：5x3x5
+结构：
+   控制器：  正面底中
+18x Sieve Grate(至少！)
+35x sieve Casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块 
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_849_Index_0=机器类型：§e热力离心机§r
     S:TileEntity_DESCRIPTION_849_Index_1=工业热力精炼厂的控制器方块
     S:TileEntity_DESCRIPTION_849_Index_2=比同电压下的单方块机器快150%！
     S:TileEntity_DESCRIPTION_849_Index_3=只需要使用配方要求电压的80%
     S:TileEntity_DESCRIPTION_849_Index_4=每提升一个电压等级，每次运行可以多处理8个配方
-#N     S:TileEntity_DESCRIPTION_849_Index_5=Causes: §51000 §7pollution per second
+    S:TileEntity_DESCRIPTION_849_Index_5=每秒产生§51000§7点污染
     S:TileEntity_DESCRIPTION_849_Index_6=-----------------------------------------
     S:TileEntity_DESCRIPTION_849_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_849_Index_8=Added by: §aGT++§7
-Dimensions: 3x2x3 (WxHxL)
-Structure:
-Controller: Front Center
-8x Thermal Processing Casings/Noise Hazard Sign Blocks (minimum)
-Input Bus: Bottom Casing
-Output Bus: Bottom Casing
-Energy Hatch: Bottom Casing
-Maintenance Hatch: Bottom Casing
-Muffler Hatch: Bottom Casing
+大小(宽x高x长)：3x2x3
+结构：
+   控制器：  正面中央
+8x Thermal Processing Casings/Noise Hazard Sign Blocks(至少！)
+   输入总线：底层机械方块
+   输出总线：底层机械方块
+   能源仓：  底层机械方块
+   维护仓：  底层机械方块
+   消声仓：  底层机械方块
     S:TileEntity_DESCRIPTION_84_Index_0=从多方块机器输出物品
     S:TileEntity_DESCRIPTION_84_Index_1=物品容量：16组
     S:TileEntity_DESCRIPTION_850_Index_0=机器类型：§e洗矿厂, 化学浸洗机§r
@@ -10221,16 +10224,16 @@ Muffler Hatch: Bottom Casing
     S:TileEntity_DESCRIPTION_850_Index_7=-----------------------------------------
     S:TileEntity_DESCRIPTION_850_Index_8=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_850_Index_9=Added by: §aGT++§7
-Dimensions: 5x3x7 (WxHxL) (Hollow)
-Structure:
-Controller: Front Center 
-40x Hash Plant Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing 
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+大小(宽x高x长)：5x3x7(中空)
+结构：
+   控制器：  正面中央
+40x Hash Plant Casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块 
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_851_Index_0=事实上，它确实被搅碎了！
     S:TileEntity_DESCRIPTION_852_Index_0=事实上，它确实被搅碎了！
     S:TileEntity_DESCRIPTION_853_Index_0=事实上，它确实被搅碎了！
@@ -10247,18 +10250,18 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_859_Index_4=将配方用到的模具放入输入总线
     S:TileEntity_DESCRIPTION_859_Index_5=每个输入总线中可以放入一个不同的模具!
 #N     S:TileEntity_DESCRIPTION_859_Index_6=You can use several input buses per multiblock
-#N     S:TileEntity_DESCRIPTION_859_Index_7=Causes: §51000 §7pollution per second
+    S:TileEntity_DESCRIPTION_859_Index_7=每秒产生§51000§7点污染
     S:TileEntity_DESCRIPTION_859_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_859_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
-Dimensions: 3x3x5 (WxHxL) (Hollow)
-Structure:
-Controller: Front Center
-28x Inconel Reinforced Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Back Center
+大小(宽x高x长)：3x3x5(中空)
+结构：
+   控制器：  正面中央
+28x强化镍铬机械方块s(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  Back Center
     S:TileEntity_DESCRIPTION_85_Index_0=从多方块机器输出物品
     S:TileEntity_DESCRIPTION_85_Index_1=物品容量：16组
     S:TileEntity_DESCRIPTION_860_Index_0=机器类型：§e九合一§r
@@ -10274,17 +10277,17 @@ Muffler Hatch: Back Center
     S:TileEntity_DESCRIPTION_860_Index_7=机器类型：[C]-§e精密激光蚀刻机, 高压釜, 流体固化器§r
     S:TileEntity_DESCRIPTION_860_Index_8=阅读大型加工厂手册(Multi-Machine Manual)来获取更多的信息
     S:TileEntity_DESCRIPTION_860_Index_9=每秒产生§5400§7点污染
-Dimensions: 3x3x3 (WxHxL) (Hollow) 
-Structure:
-Controller: Front Center
-6x Multi-Use Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
-Output Hatch: Any Casing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing 
+大小(宽x高x长)：3x3x3(中空)
+结构：
+   控制器：  正面中央
+6x Multi-Use Casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
+   输出仓：  任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块 
     S:TileEntity_DESCRIPTION_861_Index_0=多方块机器的流体输入
     S:TileEntity_DESCRIPTION_861_Index_1=容量: 128,000L
     S:TileEntity_DESCRIPTION_861_Index_2=不要遮挡输入！
@@ -10295,21 +10298,21 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_862_Index_2=比相同电压的单方块机器快250%
     S:TileEntity_DESCRIPTION_862_Index_3=一次处理电压等级*8个物品
     S:TileEntity_DESCRIPTION_862_Index_4=处理等离子电弧炉配方需要最大尺寸
-#N     S:TileEntity_DESCRIPTION_862_Index_5=Causes: §52400 §7pollution per second
+    S:TileEntity_DESCRIPTION_862_Index_5=每秒产生§52400§7点污染
     S:TileEntity_DESCRIPTION_862_Index_6=-----------------------------------------
     S:TileEntity_DESCRIPTION_862_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_862_Index_8=Added by: §aGT++§7
-Controller: Top center
-Size: nx3xn [WxHxL] (Hollow)
-n can be 3,5 or7
-10x gtplusplus.blockcas ings.4.3.name (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
-Output Hatch: Any Casing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+大小(宽x高x长)：nx3xn(中空) n=3/5/7
+结构：
+   控制器：  顶层中央
+10x gtplusplus.blockcas ings.4.3.name(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
+   输出仓：  任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_869_Index_0=需要RTG靶丸(RTG为放射性同位素温差发电机的缩写)
     S:TileEntity_DESCRIPTION_869_Index_1=燃料的燃料时间数以MC日计(可使用扫描仪查看)
     S:TileEntity_DESCRIPTION_869_Index_2=RTG的输出电压取决于所用的燃料
@@ -10346,39 +10349,39 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_875_Index_1=地热锅炉的控制器方块
     S:TileEntity_DESCRIPTION_875_Index_2=将水和热转化为蒸汽
     S:TileEntity_DESCRIPTION_875_Index_3=参阅用户手册获取更多信息
-#N     S:TileEntity_DESCRIPTION_875_Index_4=Causes: §5700 §7pollution per second
+    S:TileEntity_DESCRIPTION_875_Index_4=每秒产生§5700§7点污染
     S:TileEntity_DESCRIPTION_875_Index_5=-----------------------------------------
     S:TileEntity_DESCRIPTION_875_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_875_Index_7=Added by: §aGT++§7
-Dimensions: 3x3x3 (WxHxL) (Hollow) 
-Structure:
-Controller: Front Center
-10x Thermal Containment Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
-Output Hatch: Any Casing 
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing 
+大小(宽x高x长)：3x3x3(中空)
+结构：
+   控制器：  正面中央
+10x Thermal Containment Casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
+   输出仓：  任意机械方块 
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块 
     S:TileEntity_DESCRIPTION_876_Index_0=机器类型：§e组装机, 拆解机§r
     S:TileEntity_DESCRIPTION_876_Index_1=高度先进的自动合成装置
     S:TileEntity_DESCRIPTION_876_Index_2=使用螺丝刀右击以改变模式
     S:TileEntity_DESCRIPTION_876_Index_3=比相同电压的单方块机器快200%
     S:TileEntity_DESCRIPTION_876_Index_4=每提升一个电压等级，每次运行可以多处理2个物品
-#N     S:TileEntity_DESCRIPTION_876_Index_5=Causes: §5500 §7pollution per second
+    S:TileEntity_DESCRIPTION_876_Index_5=每秒产生§5500§7点污染
     S:TileEntity_DESCRIPTION_876_Index_6=-----------------------------------------
     S:TileEntity_DESCRIPTION_876_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_876_Index_8=Added by: §aGT++§7
-Dimensions: 3x3x3 (WxHxL) (Hollow) 
-Structure:
-Controller: Front Center
-10x Thermal Containment Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
-Output Hatch: Any Casing 
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing 
+大小(宽x高x长)：3x3x3(中空)
+结构：
+   控制器：  正面中央
+10x Thermal Containment Casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
+   输出仓：  任意机械方块 
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块 
     S:TileEntity_DESCRIPTION_877_Index_0=LV -> ULV(用软锤右击以反转)
     S:TileEntity_DESCRIPTION_877_Index_1=输入4A，输出16A
     S:TileEntity_DESCRIPTION_878_Index_0=MV -> LV(用软锤右击以反转)
@@ -10531,20 +10534,20 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_910_Index_2=速度: 200% | Eu消耗: 100% | 同时处理: 4
     S:TileEntity_DESCRIPTION_910_Index_3=工作时每2t消耗1L极寒之凛冰(视配方耗时向下取整)
     S:TileEntity_DESCRIPTION_910_Index_4=结构与普通真空冷冻机一致
-#N     S:TileEntity_DESCRIPTION_910_Index_5=Causes: §5500 §7pollution per second
+    S:TileEntity_DESCRIPTION_910_Index_5=每秒产生§5500§7点污染
     S:TileEntity_DESCRIPTION_910_Index_6=-----------------------------------------
     S:TileEntity_DESCRIPTION_910_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_910_Index_8=Added by: §aGT++§7
-Dimensions: 3x3x3 (WxHxL) (Hollow) 
-Structure:
-Controller: Front Center
-10x Thermal Containment Cas ings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
-Output Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+大小(宽x高x长)：3x3x3(中空)
+结构：
+   控制器：  正面中央
+10x Thermal Containment Cas ings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
+   输出仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_911_Index_0=将你的葡萄做成葡萄干. 
     S:TileEntity_DESCRIPTION_912_Index_0=将你的葡萄做成葡萄干. 
     S:TileEntity_DESCRIPTION_91_Index_0=排放污染(可能会导致...)
@@ -10791,16 +10794,16 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_942_Index_6=比相同电压的单方块机器快到不知道哪里去了
     S:TileEntity_DESCRIPTION_942_Index_7=只需要使用配方要求电压的75%
     S:TileEntity_DESCRIPTION_942_Index_8=每提升一个电压等级，每次运行可以多处理5个物品
-#N     S:TileEntity_DESCRIPTION_942_Index_9=Causes: §540 §7pollution per second
-Dimensions: 3x3x3 (WxHxL) (Hollow)
-Structure:
-Controller: Front center
-10x supply Depot casings (minimum)
-Input Bus: Any casing
-Output Bus: Any casing
-Energy Hatch: Any casing
-Maintenance Hatch: Any casing
-Muffler Hatch: Any casing
+    S:TileEntity_DESCRIPTION_942_Index_9=每秒产生§540§7点污染
+大小(宽x高x长)：3x3x3(中空)
+结构：
+   控制器：  正面中央
+10x supply Depot casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_943_Index_0=充能时加载区块: 9
     S:TileEntity_DESCRIPTION_943_Index_1=消耗电流: 2A
     S:TileEntity_DESCRIPTION_943_Index_2=与RC世界锚效果相同
@@ -10846,52 +10849,52 @@ Muffler Hatch: Any casing
     S:TileEntity_DESCRIPTION_963_Index_2=速度: 120% | Eu消耗: 90% | 同时处理: 8
     S:TileEntity_DESCRIPTION_963_Index_3=工作时每2t消耗1L烈焰之炽焱(视配方耗时向下取整)
     S:TileEntity_DESCRIPTION_963_Index_4=结构与普通工业高炉一致
-#N     S:TileEntity_DESCRIPTION_963_Index_5=Causes: §5500 §7pollution per second
+    S:TileEntity_DESCRIPTION_963_Index_5=每秒产生§5500§7点污染
     S:TileEntity_DESCRIPTION_963_Index_6=-----------------------------------------
     S:TileEntity_DESCRIPTION_963_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_963_Index_8=Added by: §aGT++§7
-Dimensions: 3x4x3 (WxHxL) (Hollow)
-Structure:
-Controller: Bottom center 
-9x gtplusplus.blockcas ings.3.11.name (minimum)
-Input Hatch: Any Casing
-Input Bus: Any Casing
-Output Bus: Any Casing
-Output Hatch: Any Casing
-Energy Hatch: Any Casing
-Muffler Hatch: Any Casing
-Maintenance Hatch: Any Casing
+大小(宽x高x长)：3x4x3(中空)
+结构：
+   控制器：  正面底中 
+9x gtplusplus.blockcas ings.3.11.name(至少！)
+   输入仓：  任意机械方块
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输出仓：  任意机械方块
+   能源仓：  任意机械方块
+   消声仓：  任意机械方块
+   维护仓：  任意机械方块
     S:TileEntity_DESCRIPTION_964_Index_0=机器类型：§e聚爆压缩机§r
     S:TileEntity_DESCRIPTION_964_Index_1=工业级先进聚爆压缩机
     S:TileEntity_DESCRIPTION_964_Index_2=速度: 100% | Eu消耗: 100% | 同时处理: ((电压等级/2)+1)
     S:TileEntity_DESCRIPTION_964_Index_3=结构与普通聚爆压缩机一致
-#N     S:TileEntity_DESCRIPTION_964_Index_4=Causes: §55000 §7pollution per second
+    S:TileEntity_DESCRIPTION_964_Index_4=每秒产生§55000§7点污染
     S:TileEntity_DESCRIPTION_964_Index_5=-----------------------------------------
     S:TileEntity_DESCRIPTION_964_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_964_Index_7=Added by: §aGT++§7
-Dimensions: 3x3x3 (WxHxL) (Hollow)
-Structure:
-Controller: Front center
-10x Robust Tungstensteel Machine Casing (minimum)
-Input Bus: Any casing
-Output Bus: Any casing
-Energy Hatch: Any casing
-Maintenance Hatch: Any casing
-Muffler Hatch: Any casing
+大小(宽x高x长)：3x3x3(中空)
+结构：
+   控制器：  正面中央
+10x Robust Tungstensteel Machine Casing(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_965_Index_0=机器类型：§e聚变反应堆§r
     S:TileEntity_DESCRIPTION_965_Index_1=掌控中子星的能量！
     S:TileEntity_DESCRIPTION_965_Index_2=-----------------------------------------
     S:TileEntity_DESCRIPTION_965_Index_3=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_965_Index_4=Added by: §aGT++§7
-Dimensions: 15x3x15 (WxHxL)
-Structure:
-Controller: See diagram when placed
-79x Fusion Machine Casings MK III (minimum)
+大小(宽x高x长)：15x3x15
+结构：
+   控制器：  参见全息图
+79x Fusion Machine Casings MK III(至少！)
 Cover the coils with casing
 Advanced Fusion Coils: Center part of the ring
-Energy Hatch: 1-16， Specified casings
-Input Hatch: 2-16, Specified casings
-Output Hatch: 1-16， Specified casings
+   能源仓：  1-16， Specified casings
+   输入仓：  2-16, Specified casings
+   输出仓：  1-16， Specified casings
 ALL Hatches must be UHV or better
     S:TileEntity_DESCRIPTION_966_Index_5=Ctrl+右键以查看内容
     S:TileEntity_DESCRIPTION_967_Index_0=多方块机器的流体输入
@@ -10924,16 +10927,16 @@ ALL Hatches must be UHV or better
     S:TileEntity_DESCRIPTION_990_Index_4=-----------------------------------------
     S:TileEntity_DESCRIPTION_990_Index_5=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_990_Index_6=Added by: §aGT++§7
-Dimensions: 3x3x3 (WxHxL) (Hollow) 
-Structure:
-Controller: Front center 
-10x Robust Tungstensteel Machine Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
-Output Hatch: Any Casing
-Dynamo Hatch: Any Casing
-Maintenance Hatch: Any Casing
+大小(宽x高x长)：3x3x3(中空)
+结构：
+   控制器：  正面中央
+10x Robust Tungstensteel Machine Casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
+   输出仓：  任意机械方块
+   动力仓：  任意机械方块
+   维护仓：  任意机械方块
     S:TileEntity_DESCRIPTION_991_Index_0=对于调试或使本地服务器更流畅很有用
     S:TileEntity_DESCRIPTION_991_Index_1=可以请求JVM执行垃圾收集
     S:TileEntity_DESCRIPTION_991_Index_2=可设置为每5分钟运行一次(5-180)
@@ -10944,20 +10947,20 @@ Maintenance Hatch: Any Casing
     S:TileEntity_DESCRIPTION_992_Index_2=比相同电压的单方块机器快200%
     S:TileEntity_DESCRIPTION_992_Index_3=只需要使用配方要求电压的75%
     S:TileEntity_DESCRIPTION_992_Index_4=每提升一个电压等级，每次运行可以多处理4个物品
-#N     S:TileEntity_DESCRIPTION_992_Index_5=Causes: §5160 §7pollution per second
+    S:TileEntity_DESCRIPTION_992_Index_5=每秒产生§5160§7点污染
     S:TileEntity_DESCRIPTION_992_Index_6=-----------------------------------------
     S:TileEntity_DESCRIPTION_992_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_992_Index_8=Added by: §aGT++§7
-Dimensions: 3x3x5 (WxHXL) (Hollow)
-Structure: 
-Controller: Front Center
-26x Cutting Factory Frames (minimum) 
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+大小(宽x高x长)：3x3x5(中空)
+结构： 
+   控制器：  正面中央
+26x Cutting Factory Frames(至少！) 
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_995_Index_0=机器类型：§e真空炉/脱水机§r
     S:TileEntity_DESCRIPTION_995_Index_1=工业级真空干燥炉
     S:TileEntity_DESCRIPTION_995_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
@@ -10968,19 +10971,19 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_995_Index_5=自配方的最小炉温起，每高出900K会减少5%的能耗，以乘法叠加
     S:TileEntity_DESCRIPTION_995_Index_6=自配方的最小炉温起，每高出1800K将允许一次无损超频
     S:TileEntity_DESCRIPTION_995_Index_7=无损超频将减少加工时间至25%并提升功率至400%
-#N     S:TileEntity_DESCRIPTION_995_Index_8=Causes: §5500 §7pollution per second
+    S:TileEntity_DESCRIPTION_995_Index_8=每秒产生§5500§7点污染
     S:TileEntity_DESCRIPTION_995_Index_9=-----------------------------------------
-Dimensions: 3x4x3 (WxHxL) (Hollow) 
-Structure:
-Controller: Bottom Center
-10x gtplusplus.blockcasings.4.10.name (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
-Output Hatch: Any Casing
-Energy Hatch: Any Casing
-Maintenance Hatch: Any Casing
-Muffler Hatch: Any Casing
+大小(宽x高x长)：3x4x3(中空)
+结构：
+   控制器：  正面底中
+10x gtplusplus.blockcasings.4.10.name(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
+   输出仓：  任意机械方块
+   能源仓：  任意机械方块
+   维护仓：  任意机械方块
+   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_996_Index_0=机器类型：§e火箭引擎§r
     S:TileEntity_DESCRIPTION_996_Index_1=大型火箭引擎的控制器方块
     S:TileEntity_DESCRIPTION_996_Index_10=-----------------------------------------
@@ -10994,17 +10997,17 @@ Muffler Hatch: Any Casing
     S:TileEntity_DESCRIPTION_996_Index_7=功率超过32K eu/t时,燃料效率降低(3倍输入时效率仅为为1.5倍@57Keu/t)
     S:TileEntity_DESCRIPTION_996_Index_8=公式: x = 输入能量 ; eff = 10K^(1/3)/ x^(1/3)) * (40K^(1/3)/ x^(1/3)
     S:TileEntity_DESCRIPTION_996_Index_9=提高模式将提供3倍输出,但同时燃料消耗也变为3倍
-Dimensions: 3x3x10 (WxHxL)
-Structure:
-Controller: Front Center
-64x Turbodyne Casing (minimum)
-8x Inconel Reinforced Casing (minimum)
-Input Bus: side center line
-Input Hatch: Side center line
-Output Hatch: side center line
-Maintenance Hatch: side center line
-Dynamo Hatch: Top center line
-Muffler Hatch: Back Center
+大小(宽x高x长)：3x3x10
+结构：
+   控制器：  正面中央
+64x Turbodyne Casing(至少！)
+8x强化镍铬机械方块(至少！)
+   输入总线：side center line
+   输入仓：  Side center line
+   输出仓：  side center line
+   维护仓：  side center line
+   动力仓：  Top center line
+   消声仓：  Back Center
     S:TileEntity_DESCRIPTION_997_Index_0=机器类型：§e藻类农场§r
     S:TileEntity_DESCRIPTION_997_Index_1=藻类养殖!
 #N     S:TileEntity_DESCRIPTION_997_Index_10=Added by: §aGT++§7
@@ -11013,17 +11016,17 @@ Muffler Hatch: Back Center
     S:TileEntity_DESCRIPTION_997_Index_4=无需能量也无需维护
 #N     S:TileEntity_DESCRIPTION_997_Index_5=All Machine Casings must be the same tier, this dictates machine speed.
 #N     S:TileEntity_DESCRIPTION_997_Index_6=Fill Input Hatch with water.
-#N     S:TileEntity_DESCRIPTION_997_Index_7=Causes: §50 §7pollution per second
+    S:TileEntity_DESCRIPTION_997_Index_7=每秒产生§50§7点污染
     S:TileEntity_DESCRIPTION_997_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_997_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
-Dimensions: 9x3x9 (WxHXL) (Hollow)
-Structure:
-Controller: Front Center
-64x Machine Casings (minimum)
-34x Sterile Farm Casings (minimum)
-Input Bus: Any Casing
-Output Bus: Any Casing
-Input Hatch: Any Casing
+大小(宽x高x长)：9x3x9(中空)
+结构：
+   控制器：  正面中央
+64x Machine Casings(至少！)
+34x Sterile Farm Casings(至少！)
+   输入总线：任意机械方块
+   输出总线：任意机械方块
+   输入仓：  任意机械方块
     S:TileEntity_DESCRIPTION_998_Index_0=机器类型：§e化工厂§r
     S:TileEntity_DESCRIPTION_998_Index_1=化工厂的控制器方块
     S:TileEntity_DESCRIPTION_998_Index_2=重工业,现在就在你家门口!
@@ -11031,13 +11034,13 @@ Input Hatch: Any Casing
     S:TileEntity_DESCRIPTION_998_Index_4=-----------------------------------------
     S:TileEntity_DESCRIPTION_998_Index_5=按住 §l[LSHIFT]§r§7 以显示结构指导
 #N     S:TileEntity_DESCRIPTION_998_Index_6=Added by: §aGT++§7
-Controller: Bottom Center
-Input Bus: Bottom Casing
-Output Bus: Bottom Casing
-Input Hatch: Bottom Casing
-Output Hatch: Bottom Casing
-Energy Hatch: Bottom Casing
-Maintenance Hatch: Bottom Casing
+   控制器：  正面底中
+   输入总线：底层机械方块
+   输出总线：底层机械方块
+   输入仓：  底层机械方块
+   输出仓：  底层机械方块
+   能源仓：  底层机械方块
+   维护仓：  底层机械方块
     S:TileEntity_DESCRIPTION_99_Index_0=排放污染(可能会导致...)
     S:TileEntity_DESCRIPTION_99_Index_1=请勿阻塞输出！
     S:TileEntity_DESCRIPTION_99_Index_2=污染排放减少至0%
@@ -15409,7 +15412,7 @@ Maintenance Hatch: Bottom Casing
     S:gt.blockmachines.quantum.tank.tier.08.name=量子缸 III
     S:gt.blockmachines.quantum.tank.tier.09.name=量子缸 IV
     S:gt.blockmachines.quantum.tank.tier.10.name=量子缸 V
-#N     S:gt.blockmachines.research_completer.name=Research Completer
+    S:gt.blockmachines.research_completer.name=奥法研究阐释者
     S:gt.blockmachines.rockbreaker.tier.06.name=低温岩浆固化者R-9200
     S:gt.blockmachines.rockbreaker.tier.07.name=低温岩浆固化者R-10200
     S:gt.blockmachines.rockbreaker.tier.08.name=低温岩浆固化者R-11200
@@ -56320,24 +56323,24 @@ Maintenance Hatch: Bottom Casing
     S:gt.metaitem.03.992.name=板条箱：%material粉
     S:gt.metaitem.03.992.tooltip=Nq₄In₂Pd₆Os
     S:gt.metaitem.03.name=Generated Item
-#N     S:gt.metaitem.98.0.name=Steam Cell
-#N     S:gt.metaitem.98.1.name=Bacterial Sludge Cell
-#N     S:gt.metaitem.98.10.name=Enzyme Solution Cell
-#N     S:gt.metaitem.98.11.name=eColi Bacteria Fluid Cell
-#N     S:gt.metaitem.98.12.name=Penicillin Cell
-#N     S:gt.metaitem.98.13.name=Fluorescent DNA Cell
-#N     S:gt.metaitem.98.14.name=Combustion Promoter Cell
-#N     S:gt.metaitem.98.15.name=Bacteria Cell
-#N     S:gt.metaitem.98.16.name=Liquid DNA Cell
-#N     S:gt.metaitem.98.17.name=Polymerase Cell
-#N     S:gt.metaitem.98.2.name=Mutagen Cell
-#N     S:gt.metaitem.98.3.name=Liquid Ender Cell
-#N     S:gt.metaitem.98.4.name=Ender Goo Cell
-#N     S:gt.metaitem.98.5.name=Drilling Fluid Cell
-#N     S:gt.metaitem.98.6.name=Squid Ink Cell
-#N     S:gt.metaitem.98.7.name=Unknown Nutrient Agar Cell
-#N     S:gt.metaitem.98.8.name=Seaweed Broth Cell
-#N     S:gt.metaitem.98.9.name=Super Light Radox Cell
+    S:gt.metaitem.98.0.name=蒸汽单元
+    S:gt.metaitem.98.1.name=菌泥单元
+    S:gt.metaitem.98.10.name=酶溶液单元
+    S:gt.metaitem.98.11.name=大肠杆菌液体单元
+    S:gt.metaitem.98.12.name=青霉素单元
+    S:gt.metaitem.98.13.name=荧光DNA单元
+    S:gt.metaitem.98.14.name=助燃剂单元
+    S:gt.metaitem.98.15.name=细菌单元
+    S:gt.metaitem.98.16.name=液态DNA单元
+    S:gt.metaitem.98.17.name=聚合酶单元
+    S:gt.metaitem.98.2.name=诱变剂单元
+    S:gt.metaitem.98.3.name=液态末影单元
+    S:gt.metaitem.98.4.name=末影粘浆单元
+    S:gt.metaitem.98.5.name=钻井液单元
+    S:gt.metaitem.98.6.name=墨水单元
+    S:gt.metaitem.98.7.name=未知营养琼脂单元
+    S:gt.metaitem.98.8.name=海藻基质单元
+    S:gt.metaitem.98.9.name=超轻拉多X单元
     S:gt.metaitem.98.name=Generated Item
     S:gt.metaitem.99.100.name=熔融%material单元
     S:gt.metaitem.99.100.tooltip=Pu
@@ -57183,7 +57186,7 @@ Maintenance Hatch: Bottom Casing
     S:gt.recipe.fermenter=发酵槽
     S:gt.recipe.fluidcanner=流体灌装机
     S:gt.recipe.fluidextractor=流体提取机
-#N     S:gt.recipe.fluidfuelnaquadahreactor=Fluid Naquadah Reactor
+    S:gt.recipe.fluidfuelnaquadahreactor=大型硅岩反应堆
     S:gt.recipe.fluidheater=流体加热器
     S:gt.recipe.fluidnaquadahreactor=硅岩反应堆 MkIII
     S:gt.recipe.fluidsolidifier=流体固化器
@@ -57394,7 +57397,7 @@ Maintenance Hatch: Bottom Casing
     S:gtpp.recipe.matterfab2=质量发生器
     S:gtpp.recipe.multicentrifuge=工业离心机
     S:gtpp.recipe.multielectro=工业电解机
-#N     S:gtpp.recipe.multimixer=Multiblock Mixer
+    S:gtpp.recipe.multimixer=工业搅拌机
     S:gtpp.recipe.oremill=艾萨研磨机
     S:gtpp.recipe.rocketenginefuel=火箭引擎燃料
     S:gtpp.recipe.semifluidgeneratorfuels=半流质发电机燃料
@@ -57402,7 +57405,7 @@ Maintenance Hatch: Bottom Casing
     S:gtpp.recipe.slowfusionreactor=小型聚变反应堆
     S:gtpp.recipe.steamturbinefuel=地热燃料
     S:gtpp.recipe.temp4=temp4
-#N     S:gtpp.recipe.thermalgeneratorfuel=Thermal Generator Fuel
+    S:gtpp.recipe.thermalgeneratorfuel=地热引擎燃料
     S:gtpp.recipe.vacfurnace=真空炉
     S:ic.recipe.recycler=回收机
     S:ic2.crop.invalid.with.ScannedSeeds.name=已扫描种子
