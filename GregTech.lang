@@ -3226,7 +3226,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_12020_Index_1=结构：
     S:TileES:TileEntity_Secondary_DESCRIPTION_12020_Index_2=   控制器：  正面底中
     S:TileES:TileEntity_Secondary_DESCRIPTION_12020_Index_3=   空气过滤涡轮机械方块(顶层和底层)
-    S:TileES:TileEntity_Secondary_DESCRIPTION_12020_Index_4=   8x空气过滤器排气机械方块(中间两层的角落)
+    S:TileES:TileEntity_Secondary_DESCRIPTION_12020_Index_4=   8x空气过滤排气机械方块(中间两层的角落)
     S:TileES:TileEntity_Secondary_DESCRIPTION_12020_Index_5=   能源仓：  任意底层机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_12020_Index_6=   维护仓：  任意底层机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_12020_Index_7=   消声仓：  中间两层非边缘机械方块(8个)
@@ -3247,7 +3247,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_12021_Index_1=结构：
     S:TileES:TileEntity_Secondary_DESCRIPTION_12021_Index_2=   控制器：  正面底中
     S:TileES:TileEntity_Secondary_DESCRIPTION_12021_Index_3=   进阶空气过滤涡轮机械方块(顶层和底层)
-    S:TileES:TileEntity_Secondary_DESCRIPTION_12021_Index_4=   8x进阶空气过滤器排气机械方块(中间两层的角落)
+    S:TileES:TileEntity_Secondary_DESCRIPTION_12021_Index_4=   8x进阶空气过滤排气机械方块(中间两层的角落)
     S:TileES:TileEntity_Secondary_DESCRIPTION_12021_Index_5=   能源仓：  任意底层机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_12021_Index_6=   维护仓：  任意底层机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_12021_Index_7=   消声仓：  中间两层非边缘机械方块(8个)
@@ -3268,7 +3268,7 @@ languagefile {
     S:TileES:TileEntity_Secondary_DESCRIPTION_12022_Index_1=结构：
     S:TileES:TileEntity_Secondary_DESCRIPTION_12022_Index_2=   控制器：  正面底中
     S:TileES:TileEntity_Secondary_DESCRIPTION_12022_Index_3=   超级空气过滤涡轮机械方块(顶层和底层)
-    S:TileES:TileEntity_Secondary_DESCRIPTION_12022_Index_4=   8x超级空气过滤器排气机械方块(中间两层的角落)
+    S:TileES:TileEntity_Secondary_DESCRIPTION_12022_Index_4=   8x超级空气过滤排气机械方块(中间两层的角落)
     S:TileES:TileEntity_Secondary_DESCRIPTION_12022_Index_5=   能源仓：  任意底层机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_12022_Index_6=   维护仓：  任意底层机械方块
     S:TileES:TileEntity_Secondary_DESCRIPTION_12022_Index_7=   消声仓：  中间两层非边缘机械方块(8个)
@@ -10178,7 +10178,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_812_Index_4=可以搭建4-18之间的任意高度
     S:TileEntity_DESCRIPTION_812_Index_5=仓室几乎可以放置在任意位置
     S:TileEntity_DESCRIPTION_812_Index_6=所有舱室需要HV以上
-    S:TileEntity_DESCRIPTION_812_Index_7=使用MAX内芯可支持电压>=UHV
+    S:TileEntity_DESCRIPTION_812_Index_7=使用UHV内芯可支持电压>=UHV
     S:TileEntity_DESCRIPTION_812_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_812_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_Secondary_DESCRIPTION_812_Index_0=大小(宽x高x长)：5x4-18x5
@@ -10291,23 +10291,23 @@ languagefile {
     S:TileEntity_Secondary_DESCRIPTION_835_Index_13=     消声仓等级必须为ZPM及以上
     S:TileEntity_Secondary_DESCRIPTION_835_Index_14=     4x输入仓、2x输出仓、1x输出总线
     S:TileEntity_Secondary_DESCRIPTION_835_Index_15=     1x消声仓、1x维护仓、1x能源仓
-#N     S:TileEntity_DESCRIPTION_836_Index_0=Machine Type: §eTree Farm§r
-#N     S:TileEntity_DESCRIPTION_836_Index_1=Converts EU to Oak Logs
-#N     S:TileEntity_DESCRIPTION_836_Index_2=Eu Usage: 100% | Parallel: 1
-#N     S:TileEntity_DESCRIPTION_836_Index_3=Requires a Saw or Chainsaw in GUI slot
+    S:TileEntity_DESCRIPTION_836_Index_0=机器类型：§e树场§r
+    S:TileEntity_DESCRIPTION_836_Index_1=将EU转化为橡木原木
+    S:TileEntity_DESCRIPTION_836_Index_2=EU消耗：100% | 并行：1
+    S:TileEntity_DESCRIPTION_836_Index_3=在GUI插槽中需要一把锯(或电锯)
     S:TileEntity_DESCRIPTION_836_Index_4=每秒产生§5100§7点污染
     S:TileEntity_DESCRIPTION_836_Index_5=-----------------------------------------
     S:TileEntity_DESCRIPTION_836_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_836_Index_7=由 §aGT++§7 添加
-Dimensions: 3x3x3 (WxHxL) (Hollow)
-Structure:
-Controller: Front center
-10x Sterile Farm Casing (minimum)
-Input BuS: Any casing
-Output Bus: Any casing
-Energy Hatch: Any casing
-Maintenance Hatch: Any casing
-Muffler Hatch: Any casing
+    S:TileEntity_Secondary_DESCRIPTION_836_Index_0=大小(宽x高x长)：3x3x3(中空)
+    S:TileEntity_Secondary_DESCRIPTION_836_Index_1=结构：
+    S:TileEntity_Secondary_DESCRIPTION_836_Index_2=   控制器：  正面中央
+    S:TileEntity_Secondary_DESCRIPTION_836_Index_3=   剩余方块为无菌农场方块(至少10个！)
+    S:TileEntity_Secondary_DESCRIPTION_836_Index_4=   输入总线：任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_836_Index_5=   输出总线：任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_836_Index_6=   能源仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_836_Index_7=   维护仓：  任意机械方块
+    S:TileEntity_Secondary_DESCRIPTION_836_Index_8=   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_837_Index_0=需要半流质燃料
     S:TileEntity_DESCRIPTION_837_Index_1=每秒产生80点污染
     S:TileEntity_DESCRIPTION_837_Index_2=燃料效率: 95%
@@ -12867,7 +12867,7 @@ Muffler Hatch: Any casing
     S:gt.blockcasingsBA0.8.name=特斯拉次级绕组
     S:gt.blockcasingsBA0.9.name=ZPM超导初级特斯拉绕组
     S:gt.blockcasingsNH.0.name=空气过滤器涡轮机械方块
-    S:gt.blockcasingsNH.1.name=空气过滤器排气机械方块
+    S:gt.blockcasingsNH.1.name=空气过滤排气机械方块
     S:gt.blockcasingsNH.10.name=UEV机械方块
     S:gt.blockcasingsNH.11.name=UIV机械方块
     S:gt.blockcasingsNH.12.name=UMV机械方块
@@ -12875,11 +12875,11 @@ Muffler Hatch: Any casing
     S:gt.blockcasingsNH.14.name=OpV机械方块
     S:gt.blockcasingsNH.15.name=MAX机械方块
     S:gt.blockcasingsNH.2.name=热解炉机械方块
-#N     S:gt.blockcasingsNH.3.name=Advanced Air Filter Turbine Casing
+    S:gt.blockcasingsNH.3.name=进阶空气过滤涡轮机械方块
     S:gt.blockcasingsNH.32767.name=任何本方块的子方块
-#N     S:gt.blockcasingsNH.4.name=Advanced Air Filter Vent Casing
-#N     S:gt.blockcasingsNH.5.name=Super Air Filter Turbine Casing
-#N     S:gt.blockcasingsNH.6.name=Super Air Filter Vent Casing
+    S:gt.blockcasingsNH.4.name=进阶空气过滤排气机械方块
+    S:gt.blockcasingsNH.5.name=超级空气过滤涡轮机械方块
+    S:gt.blockcasingsNH.6.name=超级空气过滤排气机械方块
     S:gt.blockcasingsTT.0.name=超能机械方块
     S:gt.blockcasingsTT.1.name=电子计算机械方块
     S:gt.blockcasingsTT.10.name=传输机械方块
@@ -14971,7 +14971,7 @@ Muffler Hatch: Any casing
     S:gt.blockmachines.hatch.dynamo.buffer.tier.06.name=LuV动力仓[缓冲]
     S:gt.blockmachines.hatch.dynamo.buffer.tier.07.name=ZPM动力仓[缓冲]
     S:gt.blockmachines.hatch.dynamo.buffer.tier.08.name=UV动力仓[缓冲]
-    S:gt.blockmachines.hatch.dynamo.buffer.tier.09.name=Max动力仓[缓冲]
+    S:gt.blockmachines.hatch.dynamo.buffer.tier.09.name=UHV动力仓[缓冲]
     S:gt.blockmachines.hatch.dynamo.tier.00.name=ULV动力仓
     S:gt.blockmachines.hatch.dynamo.tier.01.name=LV动力仓
     S:gt.blockmachines.hatch.dynamo.tier.02.name=MV动力仓
@@ -15236,15 +15236,15 @@ Muffler Hatch: Any casing
     S:gt.blockmachines.hatch.maintenance.auto.name=自动维护仓
     S:gt.blockmachines.hatch.maintenance.name=维护仓
     S:gt.blockmachines.hatch.milling.name=研磨球仓
-#N     S:gt.blockmachines.hatch.muffler.adv.tier.01.name=Advanced Muffler Hatch (LV)
-#N     S:gt.blockmachines.hatch.muffler.adv.tier.02.name=Advanced Muffler Hatch (MV)
-#N     S:gt.blockmachines.hatch.muffler.adv.tier.03.name=Advanced Muffler Hatch (HV)
-#N     S:gt.blockmachines.hatch.muffler.adv.tier.04.name=Advanced Muffler Hatch (EV)
-#N     S:gt.blockmachines.hatch.muffler.adv.tier.05.name=Advanced Muffler Hatch (IV)
-#N     S:gt.blockmachines.hatch.muffler.adv.tier.06.name=Advanced Muffler Hatch (LuV)
-#N     S:gt.blockmachines.hatch.muffler.adv.tier.07.name=Advanced Muffler Hatch (ZPM)
-#N     S:gt.blockmachines.hatch.muffler.adv.tier.08.name=Advanced Muffler Hatch (UV)
-#N     S:gt.blockmachines.hatch.muffler.adv.tier.09.name=Advanced Muffler Hatch (MAX)
+    S:gt.blockmachines.hatch.muffler.adv.tier.01.name=进阶消声仓(LV)
+    S:gt.blockmachines.hatch.muffler.adv.tier.02.name=进阶消声仓(MV)
+    S:gt.blockmachines.hatch.muffler.adv.tier.03.name=进阶消声仓(HV)
+    S:gt.blockmachines.hatch.muffler.adv.tier.04.name=进阶消声仓(EV)
+    S:gt.blockmachines.hatch.muffler.adv.tier.05.name=进阶消声仓(IV)
+    S:gt.blockmachines.hatch.muffler.adv.tier.06.name=进阶消声仓(LuV)
+    S:gt.blockmachines.hatch.muffler.adv.tier.07.name=进阶消声仓(ZPM)
+    S:gt.blockmachines.hatch.muffler.adv.tier.08.name=进阶消声仓(UV)
+    S:gt.blockmachines.hatch.muffler.adv.tier.09.name=进阶消声仓(UHV)
     S:gt.blockmachines.hatch.muffler.desc.format=排放污染(可能会导致...)%n请勿阻塞输出!%n降低污染排放至 %d%%%n回收 %d%% 的CO2/CO/SO2
     S:gt.blockmachines.hatch.muffler.tier.01.name=消声仓(LV)
     S:gt.blockmachines.hatch.muffler.tier.02.name=消声仓(MV)
@@ -15301,7 +15301,7 @@ Muffler Hatch: Any casing
     S:gt.blockmachines.hatch.superbus.input.tier.06.name=超级输入总线(LuV)
     S:gt.blockmachines.hatch.superbus.input.tier.07.name=超级输入总线(ZPM)
     S:gt.blockmachines.hatch.superbus.input.tier.08.name=超级输入总线(UV)
-    S:gt.blockmachines.hatch.superbus.input.tier.09.name=超级输入总线(MAX)
+    S:gt.blockmachines.hatch.superbus.input.tier.09.name=超级输入总线(UHV)
     S:gt.blockmachines.hatch.superbus.output.tier.00.name=超级输出总线(ULV)
     S:gt.blockmachines.hatch.superbus.output.tier.01.name=超级输出总线(LV)
     S:gt.blockmachines.hatch.superbus.output.tier.02.name=超级输出总线(MV)
@@ -15311,7 +15311,7 @@ Muffler Hatch: Any casing
     S:gt.blockmachines.hatch.superbus.output.tier.06.name=超级输出总线(LuV)
     S:gt.blockmachines.hatch.superbus.output.tier.07.name=超级输出总线(ZPM)
     S:gt.blockmachines.hatch.superbus.output.tier.08.name=超级输出总线(UV)
-    S:gt.blockmachines.hatch.superbus.output.tier.09.name=超级输出总线(MAX)
+    S:gt.blockmachines.hatch.superbus.output.tier.09.name=超级输出总线(UHV)
     S:gt.blockmachines.hatch.turbine.input.tier.00.name=涡轮仓
     S:gt.blockmachines.hatch.turbine.name=转子仓
     S:gt.blockmachines.he_dam.name=水库
@@ -15466,9 +15466,9 @@ Muffler Hatch: Any casing
     S:gt.blockmachines.multimachine.adv.implosioncompressor.name=进阶聚爆压缩机
     S:gt.blockmachines.multimachine.adv.industrialfreezer.name=凛冰冷冻机
     S:gt.blockmachines.multimachine.adv.vacuumfurnace.name=真空干燥炉
-#N     S:gt.blockmachines.multimachine.airfilter.01.name=Electric Air Filter T1
-#N     S:gt.blockmachines.multimachine.airfilter.02.name=Electric Air Filter T2
-#N     S:gt.blockmachines.multimachine.airfilter.03.name=Electric Air Filter T3
+    S:gt.blockmachines.multimachine.airfilter.01.name=大型空气过滤机T1
+    S:gt.blockmachines.multimachine.airfilter.02.name=大型空气过滤机T2
+    S:gt.blockmachines.multimachine.airfilter.03.name=大型空气过滤机T3
     S:gt.blockmachines.multimachine.assemblyline.name=装配线
     S:gt.blockmachines.multimachine.blastfurnace.name=工业高炉
     S:gt.blockmachines.multimachine.boiler.bronze.name=大型青铜锅炉
@@ -15640,8 +15640,8 @@ Muffler Hatch: Any casing
     S:gt.blockmachines.transformer.tier.12.name=UMV变压器
     S:gt.blockmachines.transformer.tier.13.name=UXV变压器
     S:gt.blockmachines.transformer.tier.14.name=OpV变压器
-#N     S:gt.blockmachines.treefarm.controller.tier.single.name=Tree Growth Simulator
-    S:gt.blockmachines.treefarmer.structural.name=树场的结构方块
+    S:gt.blockmachines.treefarm.controller.tier.single.name=原木拟生场
+    S:gt.blockmachines.treefarmer.structural.name=树场结构方块
     S:gt.blockmachines.universalchemicalfuelengine.name=通用化学燃料引擎
     S:gt.blockmachines.voidminer1.name=虚空采矿场 I
     S:gt.blockmachines.voidminer2.name=虚空采矿场 II
@@ -57290,14 +57290,14 @@ Muffler Hatch: Any casing
     S:gt.neutronreflector.tooltip_main=无限耐久
     S:gt.nomobspawnsonthisblock=生物不会在这个方块上生成
     S:gt.notileentityinthisblock=这不是一个实体！
-#N     S:gt.nuclearIsotopeMaterial.1000.name=Thorium-232
-#N     S:gt.nuclearIsotopeMaterial.1000.tooltip=§bThorium's Isotope.§r
-#N     S:gt.nuclearIsotopeMaterial.2000.name=Tiny of Thorium-232
-#N     S:gt.nuclearIsotopeMaterial.2000.tooltip=§bThorium's Isotope.§r
-#N     S:gt.nuclearIsotopeMaterial.3000.name=Thorium-232 Oxide
-#N     S:gt.nuclearIsotopeMaterial.3000.tooltip=§bThorium's Isotope.§r
-#N     S:gt.nuclearIsotopeMaterial.4000.name=Tiny of Thorium-232 Oxide
-#N     S:gt.nuclearIsotopeMaterial.4000.tooltip=§bThorium's Isotope.§r
+    S:gt.nuclearIsotopeMaterial.1000.name=钍-232
+    S:gt.nuclearIsotopeMaterial.1000.tooltip=§b钍的同位素.§r
+    S:gt.nuclearIsotopeMaterial.2000.name=小撮钍-232
+    S:gt.nuclearIsotopeMaterial.2000.tooltip=§b钍的同位素.§r
+    S:gt.nuclearIsotopeMaterial.3000.name=氧化钍-232
+    S:gt.nuclearIsotopeMaterial.3000.tooltip=§b钍的同位素.§r
+    S:gt.nuclearIsotopeMaterial.4000.name=小撮氧化钍-232
+    S:gt.nuclearIsotopeMaterial.4000.tooltip=§b钍的同位素.§r
     S:gt.nuclearIsotopeMaterial.name=Generated Item
     S:gt.plusplus.metatool.01.7534.name=电子打火器 9k
     S:gt.plusplus.metatool.01.7534.tooltip=电火花!
@@ -57459,7 +57459,7 @@ Muffler Hatch: Any casing
     S:gtplusplus.blockcasings.3.5.name=钒氧化还原能量单元(LuV)
     S:gtplusplus.blockcasings.3.6.name=钒氧化还原能量单元(ZPM)
     S:gtplusplus.blockcasings.3.7.name=钒氧化还原能量单元(UV)
-    S:gtplusplus.blockcasings.3.8.name=钒氧化还原能量单元(MAX)
+    S:gtplusplus.blockcasings.3.8.name=钒氧化还原能量单元(UHV)
     S:gtplusplus.blockcasings.3.9.name=仓库机械方块
     S:gtplusplus.blockcasings.4.0.name=硅岩反应堆机械方块
     S:gtplusplus.blockcasings.4.1.name=反应堆管道方块
@@ -57671,16 +57671,16 @@ Muffler Hatch: Any casing
     S:tc.aspect.strontio=愚蠢，无能
     S:tc.research_name.ESSENTIA_CELL=进阶扩散单元
     S:tc.research_name.ESSENTIA_GENERATOR=奥术世界的内燃引擎
-#N     S:tc.research_name.ESSENTIA_UPGRADE_AIR=Essentia: AIR
-#N     S:tc.research_name.ESSENTIA_UPGRADE_BLANK=Upgrade your generator
-#N     S:tc.research_name.ESSENTIA_UPGRADE_ELECTRIC=Essentia: ELECTRIC
-#N     S:tc.research_name.ESSENTIA_UPGRADE_MECHANICS=Essentia: MECHANICS
-#N     S:tc.research_name.ESSENTIA_UPGRADE_RADIATION=Essentia: RADIATION
-#N     S:tc.research_name.ESSENTIA_UPGRADE_SPRITE=Essentia: SPRITE
-#N     S:tc.research_name.ESSENTIA_UPGRADE_TAINTED=Essentia: TAINTED
-#N     S:tc.research_name.ESSENTIA_UPGRADE_THERMAL=Essentia: THERMAL
-#N     S:tc.research_name.ESSENTIA_UPGRADE_UNSTABLE=Essentia: UNSTABLE
-#N     S:tc.research_name.ESSENTIA_UPGRADE_VICTUS=Essentia: VICTUS
+    S:tc.research_name.ESSENTIA_UPGRADE_AIR=源质：AIR
+    S:tc.research_name.ESSENTIA_UPGRADE_BLANK=升级你的发电机
+    S:tc.research_name.ESSENTIA_UPGRADE_ELECTRIC=源质：ELECTRIC
+    S:tc.research_name.ESSENTIA_UPGRADE_MECHANICS=源质：MECHANICS
+    S:tc.research_name.ESSENTIA_UPGRADE_RADIATION=源质：RADIATION
+    S:tc.research_name.ESSENTIA_UPGRADE_SPRITE=源质：SPRITE
+    S:tc.research_name.ESSENTIA_UPGRADE_TAINTED=源质：TAINTED
+    S:tc.research_name.ESSENTIA_UPGRADE_THERMAL=源质：THERMAL
+    S:tc.research_name.ESSENTIA_UPGRADE_UNSTABLE=源质：UNSTABLE
+    S:tc.research_name.ESSENTIA_UPGRADE_VICTUS=源质：VICTUS
     S:tc.research_name.GT_ADVANCEDMETALLURGY=进阶金属嬗变术
     S:tc.research_name.GT_CRYSTALLISATION=碎片重结晶术
     S:tc.research_name.GT_FILL_WATER_BUCKET=嬗变术:水
@@ -57706,16 +57706,16 @@ Muffler Hatch: Any casing
     S:tc.research_name.GT_WOOD_TO_CHARCOAL=嬗变术:木炭
     S:tc.research_text.ESSENTIA_CELL=[GT]效率更高.
     S:tc.research_text.ESSENTIA_GENERATOR=[GT]它会造成咒波污染吗?
-#N     S:tc.research_text.ESSENTIA_UPGRADE_AIR=[GT] I can feel it on the wind.
-#N     S:tc.research_text.ESSENTIA_UPGRADE_BLANK=[GT] Let's try some more dangerous essentia.
-#N     S:tc.research_text.ESSENTIA_UPGRADE_ELECTRIC=[GT] Get electricity from... electricity?
-#N     S:tc.research_text.ESSENTIA_UPGRADE_MECHANICS=[GT] Driven by Ether.
-#N     S:tc.research_text.ESSENTIA_UPGRADE_RADIATION=[GT] Atomic Heart
-#N     S:tc.research_text.ESSENTIA_UPGRADE_SPRITE=[GT] Brain in a Machine.
-#N     S:tc.research_text.ESSENTIA_UPGRADE_TAINTED=[GT] Dirty Deeds Done Dirt Cheap
-#N     S:tc.research_text.ESSENTIA_UPGRADE_THERMAL=[GT] Melting down.
-#N     S:tc.research_text.ESSENTIA_UPGRADE_UNSTABLE=[GT] Heart of chaos.
-#N     S:tc.research_text.ESSENTIA_UPGRADE_VICTUS=[GT] Will it bleed?
+    S:tc.research_text.ESSENTIA_UPGRADE_AIR=[GT]我可以在风中感受到它.
+    S:tc.research_text.ESSENTIA_UPGRADE_BLANK=[GT]让我们来试试一些更危险的源质.
+    S:tc.research_text.ESSENTIA_UPGRADE_ELECTRIC=[GT]以电...生电?
+    S:tc.research_text.ESSENTIA_UPGRADE_MECHANICS=[GT]由以太驱动.
+    S:tc.research_text.ESSENTIA_UPGRADE_RADIATION=[GT]原子之心
+    S:tc.research_text.ESSENTIA_UPGRADE_SPRITE=[GT]机中之脑.
+    S:tc.research_text.ESSENTIA_UPGRADE_TAINTED=[GT]恶行易施(Dirty Deeds Done Dirt Cheap)
+    S:tc.research_text.ESSENTIA_UPGRADE_THERMAL=[GT]熔融.
+    S:tc.research_text.ESSENTIA_UPGRADE_UNSTABLE=[GT]混沌之心.
+    S:tc.research_text.ESSENTIA_UPGRADE_VICTUS=[GT]它会流血吗?
     S:tc.research_text.GT_ADVANCEDMETALLURGY=[GT]掌控基础金属
     S:tc.research_text.GT_CRYSTALLISATION=[GT]修复你珍贵的碎片
     S:tc.research_text.GT_FILL_WATER_BUCKET=[GT]给桶装水
