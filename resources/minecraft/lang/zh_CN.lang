@@ -314,9 +314,7 @@ gtnh.quest77.desc=为了得到铝,你需要一个工业高炉.这是通向胜利
 
 # Quest.78 - §6§lMore Heat - Kanthal Coil Upgrade
 gtnh.quest78.name=§6§l更多的热量 - 坎塔尔线圈
-#B gtnh.quest78.desc=Better materials need higher temperatures. You can just exchange the old coils with the new ones. Kanthal coils let you reach 2700K. You can even reuse the old coils in your Pyro or to make other machines, how fancy is that! If you don't have any other place to use them, you can macerate, arc furnace, or disassemble them too.%n%nRemember that you can get an upgraded OC (4/4) instead of a regular one (4/2) if your coils are 1800K above the recipe temperature, as well as a EU discount. This applies to every 900K or 1800K above, so you should try to upgrade your coils as soon as you can.
-#A gtnh.quest78.desc=Better materials need higher temperatures. You can just exchange the old coils with the new ones. Kanthal coils let you reach 2700K. You can even reuse the old coils in your Pyro or to make other machines, how fancy is that! If you don't have any other place to use them, you can macerate, arc furnace, or disassemble them too.%n%nIf you dont have a Vacuum Freezer yet coole the hot ingots in a MV Chemical Bath with Coolant.%n%nRemember that you can get an upgraded OC (4/4) instead of a regular one (4/2) if your coils are 1800K above the recipe temperature, as well as a EU discount. This applies to every 900K or 1800K above, so you should try to upgrade your coils as soon as you can.
-#C gtnh.quest78.desc=更好的材料需要更高的温度.坎塔尔线圈可以达到2700K.你甚至可以回收利用替换下来的旧线圈用在热解炉上,或是制造其他机器,真棒! 如果你实在找不到它们的用处,还可以将它们粉碎、电弧炉或者拆解.%n%n请记住,如果你的线圈提供的炉温,每超出配方限定炉温1800K,工业高炉就可以进行一次无损超频(功率*4,加工时间/4). 而当炉温每超出配方限定炉温900K时,还有一定的功率减免,所以升级高炉线圈是首要任务.
+gtnh.quest78.desc=更好的材料需要更高的温度.坎塔尔线圈可以达到2700K.你甚至可以回收利用替换下来的旧线圈用在热解炉上,或是制造其他机器,真棒! 如果你实在找不到它们的用处,还可以将它们粉碎、电弧炉或者拆解.%n%n在拥有真空冷冻机之前,可以在MV化学浸洗机内使用冷却液对热锭进行降温.%n%n请记住,如果你的线圈提供的炉温,每超出配方限定炉温1800K,工业高炉就可以进行一次无损超频(功率*4,加工时间/4). 而当炉温每超出配方限定炉温900K时,还有一定的功率减免,所以升级高炉线圈是首要任务.
 
 # Quest.79 - §6§lNichrome Coil Upgrade
 gtnh.quest79.name=§6§l升级镍铬线圈
@@ -3786,7 +3784,7 @@ gtnh.quest944.desc=超级缸的工作方式与之前小一点的GT储罐一致,�
 
 # Quest.945 - §2§lChad - A Better Way to Make Paper
 gtnh.quest945.name=§2§l纸屑,更好的造纸方法
-gtnh.quest945.desc=使用木浆和水来造纸既单调又麻烦. 既然这样让我们换一种造纸工艺,磨碎甘蔗得到一些纸屑,将纸屑放在两块石台阶中间,用力一压. 可能你感觉这还是很麻烦,你以后可以使用化学浸洗器来快速的造纸.
+gtnh.quest945.desc=使用木浆和水来造纸既单调又麻烦. 既然这样让我们换一种造纸工艺,磨碎甘蔗得到一些纸屑,将纸屑放在两块石台阶中间,用力一压. 可能你感觉这还是很麻烦,你以后可以使用化学浸洗机来快速的造纸.
 
 # Quest.946 - §1§lBamboo Fence
 gtnh.quest946.name=§1§l竹栅栏
@@ -4996,7 +4994,7 @@ gtnh.quest1246.desc=一些机器需要发射器和传感器,比如说扫描仪�
 
 # Quest.1247 - §a§lQuantum Eye
 gtnh.quest1247.name=§a§l量子之眼
-gtnh.quest1247.desc=生产EV发射器和传感器需要用到量子之眼,通过化学浸洗器将末影之眼浸泡在氡中就可以得到.
+gtnh.quest1247.desc=生产EV发射器和传感器需要用到量子之眼,通过化学浸洗机将末影之眼浸泡在氡中就可以得到.
 
 # Quest.1248 - §a§lNanoprocessor
 gtnh.quest1248.name=§a§l纳米处理器
@@ -5015,8 +5013,8 @@ gtnh.quest1251.name=§a§l精英纳米电脑
 gtnh.quest1251.desc=精英纳米电脑是IV级的电路.%n生产过程中同样需要保证全程无尘.
 
 # Quest.1252 - §a§lHV Chemical Bath
-gtnh.quest1252.name=§a§l化学浸洗器
-gtnh.quest1252.desc=制作量子之眼需要用到HV+级别的化学浸洗器.
+gtnh.quest1252.name=§a§l化学浸洗机
+gtnh.quest1252.desc=制作量子之眼需要用到HV+级别的化学浸洗机.
 
 # Quest.1253 - 16k Component
 gtnh.quest1253.name=16K组件
