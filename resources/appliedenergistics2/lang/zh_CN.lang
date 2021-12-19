@@ -207,7 +207,7 @@ gui.appliedenergistics2.Cancel=取消
 gui.appliedenergistics2.ETAFormat=HH:mm:ss
 gui.appliedenergistics2.Crafting=正在合成
 gui.appliedenergistics2.Scheduled=计划合成
-gui.appliedenergistics2.CraftingStatus=合成情况
+gui.appliedenergistics2.CraftingStatus=合成状态
 gui.appliedenergistics2.FromStorage=可用数量
 gui.appliedenergistics2.ToCraft=合成数量
 gui.appliedenergistics2.CraftingPlan=合成计划
@@ -343,6 +343,8 @@ gui.tooltips.appliedenergistics2.SaveSearchStringYes=是
 gui.tooltips.appliedenergistics2.SaveSearchStringNo=否
 gui.tooltips.appliedenergistics2.DoublePattern=双倍样板
 gui.tooltips.appliedenergistics2.DoublePatternHint=样板输入/输出物品堆叠同时x2
+gui.tooltips.appliedenergistics2.CraftingStatus=合成状态
+gui.tooltips.appliedenergistics2.CraftingStatusDesc=打开合成状态窗口
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
