@@ -54,6 +54,7 @@ config.ae2wct.MineTweakerOverride=启用MineTweaker覆盖(true=禁用所有合�
 config.ae2wct.DoVersionCheck=检查更新
 config.ae2wct.NewVersionAvailable=有新版本WCT可用!
 config.ae2wct.ClickString=["点击此处转到下载页面 [",{"text":"Download","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click this to download the latest version","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
+config.ae2wct.SaveSearchString=不同终端之间保留搜索栏内容
 
 //Achievements
 achievement.wctAchievement=有木有WiFi五毛且耐用嘞
