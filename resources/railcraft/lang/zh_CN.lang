@@ -1,4 +1,4 @@
-﻿# zh_CN
+# zh_CN
 # Translated by crafteverywhere
 # Parent Language: zh_TW
 
@@ -295,8 +295,8 @@ railcraft.color.brown=棕色
 railcraft.color.cyan=青色
 railcraft.color.gray=灰色
 railcraft.color.green=绿色
-railcraft.color.light.blue=浅蓝色
-railcraft.color.light.gray=浅灰色
+railcraft.color.light.blue=淡蓝色
+railcraft.color.light.gray=淡灰色
 railcraft.color.lime=柠檬色
 railcraft.color.magenta=品红色
 railcraft.color.orange=桔色
@@ -520,7 +520,7 @@ railcraft.gui.routing.table.manual.page2=指令关键字:\n   AND - 两个操作
 railcraft.gui.routing.table.manual.page3=条件关键字:\n   Dest=<字符串>\n      如果机车目的地\n      字符串以这条字符串开头,\n      则条件为真.\n      "Dest=null" 将匹配那些没有\n      目的地的矿车.\n   Owner=<用户名>\n      机车属于对应名称玩家\n      则为真.
 railcraft.gui.routing.table.manual.page4=条件关键字:\n   Name=<实体名>\n      当与矿车在铁砧中命名的\n      名称相同则为真.\n      "Name=null"将匹配没有自定义名称\n      的矿车.\n   Type=<modid:物品名称>\n      当与矿车物品名称相同\n      则为真.
 railcraft.gui.routing.table.manual.page5=条件关键字:\n   Riding=<乘客名>\n      当列车被此玩家乘坐\n      则为真.\n   Ridden=<true/false>\n      当列车被玩家乘坐\n      则为真.
-railcraft.gui.routing.table.manual.page6=条件关键字:\n   Color=<车身色>,<底盘色>\n      如果机车的车身颜色与底盘颜色匹配\n      则为真.\n      可以使用"Any"作为通配符.\n      颜色(请键入英文): Black(黑色), Red(红色), Green(绿色), Brown(棕色), Blue(蓝色),\n      Purple(紫色), Cyan(青色), LightGray(浅灰色), Gray(灰色), Pink(粉色), Lime(柠檬色),\n      Yellow(黄色), LightBlue(浅蓝色), Magenta(品红色), Orange(橙色), White(白色)\n   NeedsRefuel=<true/false>\n      判断机车是否缺燃料或水.\n      匹配则触发它.
+railcraft.gui.routing.table.manual.page6=条件关键字:\n   Color=<车身色>,<底盘色>\n      如果机车的车身颜色与底盘颜色匹配\n      则为真.\n      可以使用"Any"作为通配符.\n      颜色(请键入英文): Black(黑色), Red(红色), Green(绿色), Brown(棕色), Blue(蓝色),\n      Purple(紫色), Cyan(青色), LightGray(淡灰色), Gray(灰色), Pink(粉色), Lime(柠檬色),\n      Yellow(黄色), LightBlue(淡蓝色), Magenta(品红色), Orange(橙色), White(白色)\n   NeedsRefuel=<true/false>\n      判断机车是否缺燃料或水.\n      匹配则触发它.
 railcraft.gui.routing.table.manual.page7=条件关键字:\n   Redstone=<true/false>\n      路由方块被红石充能\n      则为真.
 railcraft.gui.routing.table.manual.page8=脚本范例:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 railcraft.gui.routing.table.manual.page9=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头.
@@ -560,7 +560,7 @@ railcraft.gui.switch.motor.action=对应信号域来转辙轨道
 railcraft.gui.switch.motor.redstone=忽略红石信号
 
 railcraft.gui.tank.iron=铁质蓄水罐
-railcraft.gui.tank.steel=钢制蓄水罐
+railcraft.gui.tank.steel=钢质蓄水罐
 railcraft.gui.tank.water=蓄水罐
 
 railcraft.gui.ticks=ticks
@@ -630,7 +630,11 @@ tile.goldenRail.name=推进轨道
 tile.rail.name=轨道
 
 tile.railcraft.anvil.intact.name=钢砧
+#B tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Anvil
+#A tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Steel Anvil
 tile.railcraft.anvil.slightlyDamaged.name=裂纹钢砧
+#B tile.railcraft.anvil.veryDamaged.name=Very Damaged Anvil
+#A tile.railcraft.anvil.veryDamaged.name=Very Damaged Steel Anvil
 tile.railcraft.anvil.veryDamaged.name=碎裂钢砧
 
 tile.railcraft.brick.abyssal.block.name=深渊方块
@@ -780,7 +784,7 @@ tile.railcraft.machine.beta.tank.iron.valve.name=铁质蓄水器阀门
 tile.railcraft.machine.beta.tank.iron.valve.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9   
 tile.railcraft.machine.beta.tank.iron.wall.name=铁质蓄水器壁板
 tile.railcraft.machine.beta.tank.iron.wall.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
-tile.railcraft.machine.beta.tank.steel.gauge.name=钢制蓄水器量计
+tile.railcraft.machine.beta.tank.steel.gauge.name=钢质蓄水器量计
 tile.railcraft.machine.beta.tank.steel.gauge.tip=多方块结构:尺寸可变\n必须在底部两层输出液体.
 tile.railcraft.machine.beta.tank.steel.valve.name=钢质蓄水器阀门
 tile.railcraft.machine.beta.tank.steel.valve.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
@@ -815,7 +819,7 @@ tile.railcraft.machine.gamma.loader.item.advanced.tip=为矿车装载物品\n§o
 tile.railcraft.machine.gamma.loader.item.name=物品装载机
 tile.railcraft.machine.gamma.loader.item.tip=为矿车装载物品\n§o§c- 需要放置在轨道上方 -
 tile.railcraft.machine.gamma.loader.liquid.name=流体装载机
-tile.railcraft.machine.gamma.loader.liquid.tip=为矿车装载流体\n§o§c- 需要放置在轨道上方 -
+tile.railcraft.machine.gamma.loader.liquid.tip=为矿车装载流体\n§o§c- 需要放置在轨道上方1-2格 -
 tile.railcraft.machine.gamma.unloader.energy.name=能量卸载机
 tile.railcraft.machine.gamma.unloader.energy.tip=为IC2能量运输矿车卸载电力\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限Ic2电力
 tile.railcraft.machine.gamma.unloader.rf.name=RF能量卸载机
@@ -826,6 +830,66 @@ tile.railcraft.machine.gamma.unloader.item.name=物品卸载机
 tile.railcraft.machine.gamma.unloader.item.tip=为矿车卸载物品\n§o§c- 需要放置在轨道下方 -
 tile.railcraft.machine.gamma.unloader.liquid.name=流体卸载机
 tile.railcraft.machine.gamma.unloader.liquid.tip=为矿车卸载流体\n§o§c- 需要放置在轨道下方 -
+
+railcraft.gui.tank.aluminium=铝质蓄水器
+railcraft.gui.tank.stainless=不锈钢蓄水器
+railcraft.gui.tank.titanium=钛质蓄水器
+railcraft.gui.tank.tungstensteel=钨钢蓄水器
+railcraft.gui.tank.palladium=钯质蓄水器
+
+tile.railcraft.machine.zeta.tank.aluminium.gauge.name=铝质蓄水器量计
+tile.railcraft.machine.zeta.tank.aluminium.gauge.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.aluminium.valve.name=铝质蓄水器阀门
+tile.railcraft.machine.zeta.tank.aluminium.valve.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.aluminium.wall.name=铝质蓄水器壁板
+tile.railcraft.machine.zeta.tank.aluminium.wall.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.stainless.gauge.name=不锈钢蓄水器量计
+tile.railcraft.machine.zeta.tank.stainless.gauge.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.stainless.valve.name=不锈钢蓄水器阀门
+tile.railcraft.machine.zeta.tank.stainless.valve.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.stainless.wall.name=不锈钢蓄水器壁板
+tile.railcraft.machine.zeta.tank.stainless.wall.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.titanium.gauge.name=钛质蓄水器量计
+tile.railcraft.machine.zeta.tank.titanium.gauge.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.titanium.valve.name=钛质蓄水器阀门
+tile.railcraft.machine.zeta.tank.titanium.valve.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.titanium.wall.name=钛质蓄水器壁板
+tile.railcraft.machine.zeta.tank.titanium.wall.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.tungstensteel.gauge.name=钨钢蓄水器量计
+tile.railcraft.machine.zeta.tank.tungstensteel.gauge.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.tungstensteel.valve.name=钨钢蓄水器阀门
+tile.railcraft.machine.zeta.tank.tungstensteel.valve.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.tungstensteel.wall.name=钨钢蓄水器壁板
+tile.railcraft.machine.zeta.tank.tungstensteel.wall.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.palladium.gauge.name=钯质蓄水器量计
+tile.railcraft.machine.zeta.tank.palladium.gauge.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.palladium.valve.name=钯质蓄水器阀门
+tile.railcraft.machine.zeta.tank.palladium.valve.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.palladium.wall.name=钯质蓄水器壁板
+tile.railcraft.machine.zeta.tank.palladium.wall.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+
+railcraft.gui.tank.iridium=铱质蓄水器
+railcraft.gui.tank.osmium=锇质蓄水器
+railcraft.gui.tank.neutronium=中子蓄水器
+
+tile.railcraft.machine.eta.tank.iridium.gauge.name=铱质蓄水器量计
+tile.railcraft.machine.eta.tank.iridium.gauge.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.iridium.valve.name=铱质蓄水器阀门
+tile.railcraft.machine.eta.tank.iridium.valve.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.iridium.wall.name=铱质蓄水器壁板
+tile.railcraft.machine.eta.tank.iridium.wall.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.osmium.gauge.name=锇质蓄水器量计
+tile.railcraft.machine.eta.tank.osmium.gauge.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.osmium.valve.name=锇质蓄水器阀门
+tile.railcraft.machine.eta.tank.osmium.valve.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.osmium.wall.name=锇质蓄水器壁板
+tile.railcraft.machine.eta.tank.osmium.wall.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.neutronium.gauge.name=中子蓄水器量计
+tile.railcraft.machine.eta.tank.neutronium.gauge.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.neutronium.valve.name=中子蓄水器阀门
+tile.railcraft.machine.eta.tank.neutronium.valve.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.neutronium.wall.name=中子蓄水器壁板
+tile.railcraft.machine.eta.tank.neutronium.wall.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
 
 tile.railcraft.ore.dark.diamond.name=暗黑钻石矿石
 tile.railcraft.ore.dark.emerald.name=暗黑绿宝石矿石
@@ -847,8 +911,8 @@ tile.railcraft.post.metal.brown.name=棕色金属桩
 tile.railcraft.post.metal.cyan.name=青色金属桩
 tile.railcraft.post.metal.gray.name=灰色金属桩
 tile.railcraft.post.metal.green.name=绿色金属桩
-tile.railcraft.post.metal.light.blue.name=浅蓝色金属桩
-tile.railcraft.post.metal.light.gray.name=浅灰色金属桩
+tile.railcraft.post.metal.light.blue.name=淡蓝色金属桩
+tile.railcraft.post.metal.light.gray.name=淡灰色金属桩
 tile.railcraft.post.metal.lime.name=柠檬色金属桩
 tile.railcraft.post.metal.magenta.name=品红色金属桩
 tile.railcraft.post.metal.unpainted.name=金属桩
@@ -860,8 +924,8 @@ tile.railcraft.post.metal.platform.brown.name=棕色金属平台
 tile.railcraft.post.metal.platform.cyan.name=青色金属平台
 tile.railcraft.post.metal.platform.gray.name=灰色金属平台
 tile.railcraft.post.metal.platform.green.name=绿色金属平台
-tile.railcraft.post.metal.platform.light.blue.name=浅蓝色金属平台
-tile.railcraft.post.metal.platform.light.gray.name=浅灰色金属平台
+tile.railcraft.post.metal.platform.light.blue.name=淡蓝色金属平台
+tile.railcraft.post.metal.platform.light.gray.name=淡灰色金属平台
 tile.railcraft.post.metal.platform.lime.name=柠檬色金属平台
 tile.railcraft.post.metal.platform.magenta.name=品红色金属平台
 tile.railcraft.post.metal.platform.unpainted.name=金属平台
