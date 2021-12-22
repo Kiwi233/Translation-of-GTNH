@@ -43,7 +43,6 @@ tooltip.wawla.hardness=硬度
 tooltip.wawla.resistance=爆炸抗性
 tooltip.wawla.enchPower=附魔点数
 
-
 #Fixed/Missing Strings
 tile.null.name=未命名方块,请报告给作者.
 entity.ItemFrame.name=物品展示框
@@ -186,7 +185,9 @@ description.villager.profession.wa.villager=村民
 description.villager.profession.wa.swordsmith=剑士
 description.villager.profession.wa.teaMaster=茶博士
 description.villager.profession.wa.priest=牧师
-
+description.villager.profession.rftools.rftoolsvillager=RF工程师
+description.villager.profession.forbidden.heretic=异教徒
+description.villager.profession.agricraft.villager=农艺农民
 
 #Jewelrycraft Tooltips
 tooltip.wawla.jewelry.molten=Molten
@@ -199,7 +200,6 @@ option.wawla.jewelrycraft.showMoltenAmount=Molten Amounts
 option.wawla.jewelrycraft.showMetalAmount=Unmelted Amounts
 option.wawla.jewelrycraft.showMeltTime=Melting Time
 option.wawla.jewelrycraft.showCooling=Cooling Time
-
 
 #Tinkers Construct Tooltips
 tooltip.wawla.tinkers.dryness=干燥度
@@ -322,73 +322,113 @@ description.enchantment.NaturalAbsorption.absorb=An enchantment for armour. The 
 description.enchantment.fly_longer=Increases the total amount of flaps on Simple Flight devices.
 description.enchantment.fly_faster=Decreases the duration between flaps on Simple Flight devices. Useless on Jet Packs and Jet Gliders.
 
-#More weapons Mod Enchantment Descriptions
+#More Swords Mod Enchantment Descriptions
 description.msm.unused=Note: This item/block has been added to help achieve compatibility with other mods. As of now these do not do anything and are not an ordinary part of this mod. No new ores or tools will be added this is ONLY for for mod compatibility.
-description.enchantment.msm.ignite=此附魔 will set damaged mobs on fire doing damage equal to that of the enchantment level.
-description.enchantment.msm.spark=此附魔 will do 3 fire damage to mobs within 2.4 blocks of the damaged mob. Both the player and the target mob will not be set on fire.
-description.enchantment.msm.feast=此附魔 will restore 0-3 durability when used. The amount restored is multiplied by the level of the effect.
-description.enchantment.msm.vitality=此附魔 will consume 256 durability when used and in turn give the user several buffs such as regen, insta health and extra hearts.
-description.enchantment.msm.venomAspect=此附魔 will poison target mob. The effect will last for seconds equivalent to the level of the effect. It's worth noting that many vanilla mobs such as spiders, zombies and skeletons can not be poisoned rendering this effect useless.
-description.enchantment.msm.absorb=此附魔 has a 5% chance to restore 0-2 hunger points when used.
-description.enchantment.msm.keenEdge=此附魔 increases the damage of the sword by 1 for each level of the effect.
-description.enchantment.msm.scorn=此附魔 will double the damage of the sword by 2 when used in dimensions other than the surface world.
-description.enchantment.msm.enderPulse=此附魔 will warp the player where they are looking when used. This effect has a range of 18 blocks per level. 此附魔 will damage the item by 50 points every time it is used. The player will also take 1 damage in fall damage.
-description.enchantment.msm.enderAura=此附魔 has a 15% chance of activating when the player is hit. When activated the player will warp to a random mob within 30 blocks. This mob may not always be friendly. If no mob is found then the effect will be canceled.
-description.enchantment.msm.greed=此附魔 has a 7% chance to drop 1-3 extra points of exp.
-description.enchantment.msm.wisdom=此附魔 is currently broken. My bad :/
-description.enchantment.msm.frozenAspect=此附魔 will slow mobs for 3 seconds per level.
-description.enchantment.msm.frostWave=此附魔 will slow mobs within 2.5 blocks of the target mob for 1.5 seconds.
-description.enchantment.msm.ascension=此附魔 will propel targeted mobs upwards into the air. Hit the mob before it hits the ground to make increase the launch aspect of the effect exponential amount.
-description.enchantment.msm.descension=此附魔 will cause the player to fall at a much slower rate than normal. To activate the effect press and hold shift.
-description.enchantment.msm.shadows=此附魔 will blind the target mob for 1.5 seconds. There is also a 12% chance that the wither effect will be applied for a second.
-description.enchantment.msm.decay=此附魔 will apply the wither effect to the target mob for just under 4 seconds.
-description.enchantment.msm.stealth=此附魔 will cause the player to become invisible when activated. Unlike the potion of invisibility this effect will not give off particles and has no time limit or duration. To toggle this on or off simply right click with the sword. It's worth noting that 武器 and armor will still be visible while this effect is enabled.
-description.enchantment.msm.extinction=此附魔 will kill all mobs on the map that are an instance of the target mob. This can be used on boats to kill all boats in the world and can be used to manage entities in the world. This effect will not target players.
+description.enchantment.msm.ignite=This enchantmentwill set damaged mobs on fire doing damage equal to that of the enchantment level.
+description.enchantment.msm.spark=This enchantmentwill do 3 fire damage to mobs within 2.4 blocks of the damaged mob. Both the player and the target mob will not be set on fire.
+description.enchantment.msm.feast=This enchantmentwill restore 0-3 durability when used. The amount restored is multiplied by the level of the effect.
+description.enchantment.msm.vitality=This enchantmentwill consume 256 durability when used and in turn give the user several buffs such as regen, insta health and extra hearts.
+description.enchantment.msm.venomAspect=This enchantmentwill poison target mob. The effect will last for seconds equivalent to the level of the effect. It's worth noting that many vanilla mobs such as spiders, zombies and skeletons can not be poisoned rendering this effect useless.
+description.enchantment.msm.absorb=This enchantmenthas a 5% chance to restore 0-2 hunger points when used.
+description.enchantment.msm.keenEdge=This enchantmentincreases the damage of the sword by 1 for each level of the effect.
+description.enchantment.msm.scorn=This enchantmentwill double the damage of the sword by 2 when used in dimensions other than the surface world.
+description.enchantment.msm.enderPulse=This enchantmentwill warp the player where they are looking when used. This effect has a range of 18 blocks per level. This enchantmentwill damage the item by 50 points every time it is used. The player will also take 1 damage in fall damage.
+description.enchantment.msm.enderAura=This enchantmenthas a 15% chance of activating when the player is hit. When activated the player will warp to a random mob within 30 blocks. This mob may not always be friendly. If no mob is found then the effect will be canceled.
+description.enchantment.msm.greed=This enchantmenthas a 7% chance to drop 1-3 extra points of exp.
+description.enchantment.msm.wisdom=This enchantmentis currently broken. My bad :/
+description.enchantment.msm.frozenAspect=This enchantmentwill slow mobs for 3 seconds per level.
+description.enchantment.msm.frostWave=This enchantmentwill slow mobs within 2.5 blocks of the target mob for 1.5 seconds.
+description.enchantment.msm.ascension=This enchantmentwill propel targeted mobs upwards into the air. Hit the mob before it hits the ground to make increase the launch aspect of the effect exponential amount.
+description.enchantment.msm.descension=This enchantmentwill cause the player to fall at a much slower rate than normal. To activate the effect press and hold shift.
+description.enchantment.msm.shadows=This enchantmentwill blind the target mob for 1.5 seconds. There is also a 12% chance that the wither effect will be applied for a second.
+description.enchantment.msm.decay=This enchantmentwill apply the wither effect to the target mob for just under 4 seconds.
+description.enchantment.msm.stealth=This enchantmentwill cause the player to become invisible when activated. Unlike the potion of invisibility this effect will not give off particles and has no time limit or duration. To toggle this on or off simply right click with the sword. It's worth noting that 武器 and armor will still be visible while this effect is enabled.
+description.enchantment.msm.extinction=This enchantmentwill kill all mobs on the map that are an instance of the target mob. This can be used on boats to kill all boats in the world and can be used to manage entities in the world. This effect will not target players.
 
-#Unknown Enchantment Descriptions
-description.enchantment.imperviousness=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#Railcraft Enchantments
+description.enchantment.railcraft.crowbar.destruction=撬棍专用附魔. 扩大范围.
+description.enchantment.railcraft.crowbar.implosion=撬棍专用附魔. 提高对爬行者的伤害.
+description.enchantment.railcraft.crowbar.wrecking=撬棍专用附魔. 提高伤害(类似锋利附魔).
 
-description.enchantment.bash.weightless=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.bash.power=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.bash.damage=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.shield.usage=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.shield.recover=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.bow.loot=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.bow.charge=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#OpenBlocks Enchantments
+description.enchantment.openblocks.explosive=受到伤害时,将消耗火药产生一次爆炸,伤害怪物并破坏方块.
+description.enchantment.openblocks.flimflam=攻击玩家者将遭遇"厄运".
+description.enchantment.openblocks.laststand=当玩家只有一点生命值(半心)时,将消耗XP等级吸收下次伤害.
 
-description.enchantment.poison=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.frost=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.explosive=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.quickdraw=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.venom=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.iceaspect=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.defusing=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.dowsing=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.spellbane=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.mending=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.cleave=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.leech=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.execute=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.poisonprotect=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.knowledge=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.berserk=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.steadfast=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.agility=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.mobility=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.fleetfoot=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.resurrection=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.harvest=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#Forbidden Magic Enchantments
+description.enchantment.cluster=A Chameleon Pickaxe with the Fiery Core enchantment has a chance of dropping clusters when mining certain ores. Clusters are a lot purer than raw ore and can be smelted for the of the ore's normal smelting result. Higher levels of Fiery Core increase the chance of dropping clusters.
+description.enchantment.consuming=Any Cobblestone, Dirt, Gravel, or Netherrack mined by a Consuming tool will be destroyed instead of falling to the ground.
+description.enchantment.corrupting=The Corrupting enchant allows you to harvest Nether Shards without having to be in the Nether. A pickaxe enchanted with Corrupting will randomly corrupt harvested elemental shards, changing them into nether shards. The shards only seem susceptible while they are encased in infused stone, so corrupting a shard cluster will have no effect.
+description.enchantment.educational=You've created an enchantment to infuse a weapon with the very essence of knowledge and learning. Hammering such learning into monsters' heads will result in them dropping more experience than normal, depending on the level of enchantment.
+description.enchantment.greedy=Every time a Capitalist weapon slays a hostile creature, there's a chance to drop Emerald Fragment. If a Capitalist weapon is used to kill a villager, it will instead drop one of the villager's emeralds.
+description.enchantment.impact=A Chameleon Tools with Impact enchantment mines a 3 x 3 area of blocks instead of just one, making exploratory mining faster and flattening areas much easier.
+description.enchantment.voidtouched=The Voidtouched enchant gives Chameleon Tool the same regenerating quality as Void Tools.
+description.enchantment.wrath=The Wrath enchantment increases the offensive power of a weapon, but is still compatible with Sharpness, Bane of Arthropods and Smite.
 
-description.enchantment.Swiftness=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.Vitality=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#BiblioCraft Enchantments
+description.Eternal Compass=When the player dies, they will spawn with an Eternal Compass which will lead them back to their death point.
+description.Reading=When looking at items in BiblioCraft blocks in the world their hover text will be displayed.
 
-description.enchantment.SkyBlow=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#Witching Gadgets Enchantments
+description.enchantment.wg.backstab=Items enchanted with Backstabbing do additional 20% damage per level when attacking from behind, plus another 40% when the target is not aware of you.
+description.enchantment.wg.gemstoneBrittle=Infuse a witchery cut gem with brittleness.
+description.enchantment.wg.gemstonePotency=Infuse a witchery cut gem to make it more potent.
+description.enchantment.wg.invisibleGear=The first level of this enchantment will make your gear translucent when you are invsible yourself, the second level will make it permanently invisible.
+description.enchantment.wg.rideProtect=Moving around is incredibly difficult when someone is piggyback-riding you. Enchanting your helmet with this repulsion spell should fix that problem. Everyone who tries to jump upon you will get thrown off and damaged.
+description.enchantment.wg.soulbound=When the player dies the item/tool/armor will be kept in the inventory and not drop on the ground.
+description.enchantment.wg.stealth=Applying this enchantment to your boots or leggings will give you a chance of staying undetected while you are crouching. The chance rises by 10% with every level, but is diminished by 10% if you are in view of the target in question. Should you be discovered, all enemies in a 5 block radius will be notified.
+description.enchantment.wg.unveiling=This enchantment can be applied to the Goggles of Revealing or other headgear of the same function. While wearing the enchanted item, you will be able to see creatures with the invisibility buff. Furthermore, the Translucency enchantment is rendered ineffective when used by others and users of the spectral mantle are shown more clearly.
 
-description.enchantment.Information=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#Thaumic Exploration Enchantments
+description.enchantment.binding=At level I, slows mobs hit for a few seconds. At level II, prevents Endermen from teleporting and Creepers from exploding for a few seconds.
+description.enchantment.disarm=Attacked enemies have a chance to drop their weapons, does not work on other players. Note: The Thorns enchantment from Vanilla also triggers this.
+description.enchantment.nightVision=Gain a permanent Nightvision potion effect while holding an item with this enchantment.
 
-description.enchantment.autoSmelt=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.oreFragments=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#EnderIO Enchantments
+description.enchantment.autosmelt=Any block mined by an item enchanted with this will have its drop instantly smelted as if processed by a Furnace.
+description.enchantment.xpboost=This enchantment increases the amount of Experience dropped by killing mobs or players or by breaking blocks by a percentage. 
+description.enchantment.enderio.soulBound=When the player dies the item/tool/armor will be kept in the inventory and not drop on the ground.
 
-description.enchantment.smartHarvest=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#EnderZoo Enchantments
+description.enchantment.enderzoo.witherArrow=Applies Wither effect on hit for 5 seconds.
+description.enchantment.enderzoo.witherWeapon=Applies Wither effect on hit for 5 seconds.
 
-description.enchantment.freeze=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#BattleGear Enchantments
+#B description.enchantment.bash.weightless=This enchantment is unknown. Please contact Darkhax to help him provide a description.
+#A description.enchantment.bash.weightless=Reduce the stamina loss per shield bash.
+description.enchantment.bash.weightless=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
+#B description.enchantment.bash.power=This enchantment is unknown. Please contact Darkhax to help him provide a description.
+#A description.enchantment.bash.power=Increase the push force on shield bash (further repulse the opponent).
+description.enchantment.bash.power=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
+#B description.enchantment.bash.damage=This enchantment is unknown. Please contact Darkhax to help him provide a description.
+#A description.enchantment.bash.damage=Adds damage to a shield bash.
+description.enchantment.bash.damage=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
+#B description.enchantment.shield.usage=This enchantment is unknown. Please contact Darkhax to help him provide a description.
+#A description.enchantment.shield.usage=Reduce the stamina lost on shield block.
+description.enchantment.shield.usage=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
+#B description.enchantment.shield.recover=This enchantment is unknown. Please contact Darkhax to help him provide a description.
+#A description.enchantment.shield.recover=Increase the stamina recovery rate when holding the shield, but not when blocking.
+description.enchantment.shield.recover=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
+#B description.enchantment.bow.loot=This enchantment is unknown. Please contact Darkhax to help him provide a description.
+#A description.enchantment.bow.loot=Adds a chance to increase loot on killing with a bow.
+description.enchantment.bow.loot=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
+#B description.enchantment.bow.charge=This enchantment is unknown. Please contact Darkhax to help him provide a description.
+#A description.enchantment.bow.charge=Lower charge time for the bow, without effecting the FOV.
+description.enchantment.bow.charge=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
+
+#Thaumic Bases Enchantments
+description.enchantment.elderKnowledge=Chance to recieve knowledge from fallen mobs.
+description.enchantment.eldritchBane=Deal more damage to eldritch creatures.
+description.enchantment.magicTouch=Gain more Aspect Orbs from killed enemies.
+description.enchantment.tainted=Inflict taint poison on attacked enemies.
+description.enchantment.vaporising=Gain Crystalized Essentia of slain mobs.
+
+#Misc. Enchantments
+description.enchant.cofh.holding=Increases the amount of slots (8-9 per level) of a strongbox or satchel.
+description.enchant.cofh.multishot=Makes bows shoot multiple arrows at 1 arrow cost.
+description.enchantment.draconicevolution.reaperEnchant=Killing a mob has a chance of dropping a corresponding Mob Soul. This bonus chance stacks with the native chance to drop a soul of the various Draconic Evolution weapons.
+description.enchantment.damage.endermen=Deal more damage to Ender mobs and prevent them from teleporting.
+description.enchantment.damage.radioactivity=Add radioactivity to your weapon or armor causing mobs or players to suffer.
+description.gadomancy.enchantment.revealer=An enchantment for your helmet. When used, it makes nodes visible, just like Thaumcraft's Goggles of Revealing.
+description.enchantment.projectred.expansion.fuel_efficiency=Better fuel efficiency for your jetpack.
+
