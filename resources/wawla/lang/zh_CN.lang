@@ -356,79 +356,65 @@ description.enchantment.openblocks.flimflam=攻击玩家者将遭遇"厄运".
 description.enchantment.openblocks.laststand=当玩家只有一点生命值(半心)时,将消耗XP等级吸收下次伤害.
 
 #Forbidden Magic Enchantments
-description.enchantment.cluster=A Chameleon Pickaxe with the Fiery Core enchantment has a chance of dropping clusters when mining certain ores. Clusters are a lot purer than raw ore and can be smelted for the of the ore's normal smelting result. Higher levels of Fiery Core increase the chance of dropping clusters.
-description.enchantment.consuming=Any Cobblestone, Dirt, Gravel, or Netherrack mined by a Consuming tool will be destroyed instead of falling to the ground.
-description.enchantment.corrupting=The Corrupting enchant allows you to harvest Nether Shards without having to be in the Nether. A pickaxe enchanted with Corrupting will randomly corrupt harvested elemental shards, changing them into nether shards. The shards only seem susceptible while they are encased in infused stone, so corrupting a shard cluster will have no effect.
-description.enchantment.educational=You've created an enchantment to infuse a weapon with the very essence of knowledge and learning. Hammering such learning into monsters' heads will result in them dropping more experience than normal, depending on the level of enchantment.
-description.enchantment.greedy=Every time a Capitalist weapon slays a hostile creature, there's a chance to drop Emerald Fragment. If a Capitalist weapon is used to kill a villager, it will instead drop one of the villager's emeralds.
-description.enchantment.impact=A Chameleon Tools with Impact enchantment mines a 3 x 3 area of blocks instead of just one, making exploratory mining faster and flattening areas much easier.
-description.enchantment.voidtouched=The Voidtouched enchant gives Chameleon Tool the same regenerating quality as Void Tools.
-description.enchantment.wrath=The Wrath enchantment increases the offensive power of a weapon, but is still compatible with Sharpness, Bane of Arthropods and Smite.
+description.enchantment.cluster=拥有炽心附魔的避役镐采掘特定矿石时有一定几率掉落矿簇.矿簇比原矿纯净得多,可以像矿石一样被熔炼.炽心附魔等级越高,掉落矿簇的几率越高.
+description.enchantment.consuming=使用挥霍附魔的工具采掘圆石、泥土、沙砾或地狱岩时,不会产生掉落.
+description.enchantment.corrupting=堕落附魔可以让你无需前往下界即可获得七宗罪碎片.有堕落附魔的镐开采蕴魔石时,有一定几率掉落七宗罪碎片.注意只有开采蕴魔石有效,直接采掘晶簇不会触发堕落.
+description.enchantment.educational=将知识注入武器中后,你创造了一种附魔.使用带有教育附魔的武器猛力捶击怪物头部,以使它们掉落更多的经验,增益取决于附魔等级.
+description.enchantment.greedy=使用有剥削附魔的武器杀死敌对生物时,有几率掉落绿宝石碎片.而杀害村民可以掉落整块绿宝石.
+description.enchantment.impact=避役工具附魔冲击后,可一次开采3x3范围的方块,使探矿更快,平地更容易.
+description.enchantment.voidtouched=虚空之触附魔赋予避役工具与虚空工具相同的耐久恢复属性.
+description.enchantment.wrath=暴怒附魔会增加武器的攻击力,而且可与锋利、节肢杀手、亡灵杀手附魔共存.
 
 #BiblioCraft Enchantments
-description.Eternal Compass=When the player dies, they will spawn with an Eternal Compass which will lead them back to their death point.
-description.Reading=When looking at items in BiblioCraft blocks in the world their hover text will be displayed.
+description.Eternal Compass=玩家死亡后,重生时会获得一个指向死亡地点的永恒罗盘.
+description.Reading=看向收藏馆mod方块内的物品时,显示物品名称.
 
 #Witching Gadgets Enchantments
-description.enchantment.wg.backstab=Items enchanted with Backstabbing do additional 20% damage per level when attacking from behind, plus another 40% when the target is not aware of you.
-description.enchantment.wg.gemstoneBrittle=Infuse a witchery cut gem with brittleness.
-description.enchantment.wg.gemstonePotency=Infuse a witchery cut gem to make it more potent.
-description.enchantment.wg.invisibleGear=The first level of this enchantment will make your gear translucent when you are invsible yourself, the second level will make it permanently invisible.
-description.enchantment.wg.rideProtect=Moving around is incredibly difficult when someone is piggyback-riding you. Enchanting your helmet with this repulsion spell should fix that problem. Everyone who tries to jump upon you will get thrown off and damaged.
-description.enchantment.wg.soulbound=When the player dies the item/tool/armor will be kept in the inventory and not drop on the ground.
-description.enchantment.wg.stealth=Applying this enchantment to your boots or leggings will give you a chance of staying undetected while you are crouching. The chance rises by 10% with every level, but is diminished by 10% if you are in view of the target in question. Should you be discovered, all enemies in a 5 block radius will be notified.
-description.enchantment.wg.unveiling=This enchantment can be applied to the Goggles of Revealing or other headgear of the same function. While wearing the enchanted item, you will be able to see creatures with the invisibility buff. Furthermore, the Translucency enchantment is rendered ineffective when used by others and users of the spectral mantle are shown more clearly.
+description.enchantment.wg.backstab=附魔了背刺的武器从敌人后方发动攻击时,每级附魔会造成额外20%的伤害,在目标没有发现你的情况下,再额外增加40%.
+description.enchantment.wg.gemstoneBrittle=为切割出的宝石注入脆性.
+description.enchantment.wg.gemstonePotency=为切割出的宝石注入更多效力.
+description.enchantment.wg.invisibleGear=此附魔的第一级可在玩家隐身时让装备隐形,而第二级可以让装备永久隐形.
+description.enchantment.wg.rideProtect=当有东西跳到你头上的时候移动会变得困难.将此附魔赋予你的头盔就能解决这个问题.每个试图跳到你头上的家伙都会被甩下来并受到伤害.
+description.enchantment.wg.soulbound=附魔有灵魂绑定的物品/工具/装备在玩家死亡后仍然留在物品栏中,不会掉落.
+description.enchantment.wg.stealth=将此附魔赋予你的靴子或护腿,在蹲下时有几率不被发现.这个几率每级提升10%,但如果你在目标的视野内,此几率会减少10%.一旦被发现,将通知半径5格内的所有敌人.
+description.enchantment.wg.unveiling=此附魔可赋予揭示之护目镜或其他具有相同功能的头部装备. 装备带有揭示附魔的物品时,你可以看到处于隐身状态的生物.此外,可使他人的幻影附魔无效,而幽灵斗篷的使用者会更加显眼.
 
 #Thaumic Exploration Enchantments
-description.enchantment.binding=At level I, slows mobs hit for a few seconds. At level II, prevents Endermen from teleporting and Creepers from exploding for a few seconds.
-description.enchantment.disarm=Attacked enemies have a chance to drop their weapons, does not work on other players. Note: The Thorns enchantment from Vanilla also triggers this.
-description.enchantment.nightVision=Gain a permanent Nightvision potion effect while holding an item with this enchantment.
+description.enchantment.binding=一级束缚附魔可以使被攻击的生物获得几秒缓慢buff. 而二级附魔不仅可以阻止末影人的瞬移而且还可以暂时阻止苦力怕的自爆几秒.
+description.enchantment.disarm=攻击敌人可使其武器有几率掉落,对玩家无效.注意:荆棘附魔也会触发此效果.
+description.enchantment.nightVision=装备有夜视附魔的物品时,可获得永久夜视buff.
 
 #EnderIO Enchantments
-description.enchantment.autosmelt=Any block mined by an item enchanted with this will have its drop instantly smelted as if processed by a Furnace.
-description.enchantment.xpboost=This enchantment increases the amount of Experience dropped by killing mobs or players or by breaking blocks by a percentage. 
-description.enchantment.enderio.soulBound=When the player dies the item/tool/armor will be kept in the inventory and not drop on the ground.
+description.enchantment.autosmelt=使用带有此附魔的物品开采方块时,会直接掉落该方块的熔炉产物.
+description.enchantment.xpboost=此附魔可按比例提升杀怪/玩家或开采方块掉落的经验. 
+description.enchantment.enderio.soulBound=附魔有灵魂绑定的物品/工具/装备在玩家死亡后仍然留在物品栏中,不会掉落.
 
 #EnderZoo Enchantments
-description.enchantment.enderzoo.witherArrow=Applies Wither effect on hit for 5 seconds.
-description.enchantment.enderzoo.witherWeapon=Applies Wither effect on hit for 5 seconds.
+description.enchantment.enderzoo.witherArrow=击中后施加5秒凋零效果.
+description.enchantment.enderzoo.witherWeapon=击中后施加5秒凋零效果.
 
 #BattleGear Enchantments
-#B description.enchantment.bash.weightless=This enchantment is unknown. Please contact Darkhax to help him provide a description.
-#A description.enchantment.bash.weightless=Reduce the stamina loss per shield bash.
-description.enchantment.bash.weightless=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
-#B description.enchantment.bash.power=This enchantment is unknown. Please contact Darkhax to help him provide a description.
-#A description.enchantment.bash.power=Increase the push force on shield bash (further repulse the opponent).
-description.enchantment.bash.power=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
-#B description.enchantment.bash.damage=This enchantment is unknown. Please contact Darkhax to help him provide a description.
-#A description.enchantment.bash.damage=Adds damage to a shield bash.
-description.enchantment.bash.damage=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
-#B description.enchantment.shield.usage=This enchantment is unknown. Please contact Darkhax to help him provide a description.
-#A description.enchantment.shield.usage=Reduce the stamina lost on shield block.
-description.enchantment.shield.usage=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
-#B description.enchantment.shield.recover=This enchantment is unknown. Please contact Darkhax to help him provide a description.
-#A description.enchantment.shield.recover=Increase the stamina recovery rate when holding the shield, but not when blocking.
-description.enchantment.shield.recover=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
-#B description.enchantment.bow.loot=This enchantment is unknown. Please contact Darkhax to help him provide a description.
-#A description.enchantment.bow.loot=Adds a chance to increase loot on killing with a bow.
-description.enchantment.bow.loot=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
-#B description.enchantment.bow.charge=This enchantment is unknown. Please contact Darkhax to help him provide a description.
-#A description.enchantment.bow.charge=Lower charge time for the bow, without effecting the FOV.
-description.enchantment.bow.charge=This enchantmentis unknown. Please contact Darkhax to help him provide a description.
+description.enchantment.bash.weightless=降低盾击的耐力消耗.
+description.enchantment.bash.power=提升盾击的推力(击退更远).
+description.enchantment.bash.damage=增加盾击伤害.
+description.enchantment.shield.usage=降低盾牌格挡的耐力消耗.
+description.enchantment.shield.recover=提升按住格挡时的耐力恢复速度,格挡攻击时无效.
+description.enchantment.bow.loot=提升弓箭击杀掉落战利品几率.
+description.enchantment.bow.charge=减少拉弓时间,不影响视野.
 
 #Thaumic Bases Enchantments
-description.enchantment.elderKnowledge=Chance to recieve knowledge from fallen mobs.
-description.enchantment.eldritchBane=Deal more damage to eldritch creatures.
-description.enchantment.magicTouch=Gain more Aspect Orbs from killed enemies.
-description.enchantment.tainted=Inflict taint poison on attacked enemies.
-description.enchantment.vaporising=Gain Crystalized Essentia of slain mobs.
+description.enchantment.elderKnowledge=击杀怪物有几率获取知识.
+description.enchantment.eldritchBane=对末影人或邪术生物造成更多伤害.
+description.enchantment.magicTouch=击杀生物时掉落更多的原始要素球.
+description.enchantment.tainted=攻击时会造成额外的咒波伤害.
+description.enchantment.vaporising=击杀怪物时有一定几率掉落对应类型的晶化源质.
 
 #Misc. Enchantments
-description.enchant.cofh.holding=Increases the amount of slots (8-9 per level) of a strongbox or satchel.
-description.enchant.cofh.multishot=Makes bows shoot multiple arrows at 1 arrow cost.
-description.enchantment.draconicevolution.reaperEnchant=Killing a mob has a chance of dropping a corresponding Mob Soul. This bonus chance stacks with the native chance to drop a soul of the various Draconic Evolution weapons.
-description.enchantment.damage.endermen=Deal more damage to Ender mobs and prevent them from teleporting.
-description.enchantment.damage.radioactivity=Add radioactivity to your weapon or armor causing mobs or players to suffer.
-description.gadomancy.enchantment.revealer=An enchantment for your helmet. When used, it makes nodes visible, just like Thaumcraft's Goggles of Revealing.
-description.enchantment.projectred.expansion.fuel_efficiency=Better fuel efficiency for your jetpack.
+description.enchant.cofh.holding=提升保险箱或背包的容量(每级8-9格).
+description.enchant.cofh.multishot=让弓可以只消耗一支箭,射出多个箭头.
+description.enchantment.draconicevolution.reaperEnchant=击杀怪物时有几率掉落相应的怪物灵魂.此增益可与龙研武器自带的增益叠加.
+description.enchantment.damage.endermen=对末影生物造成更多伤害并阻止其瞬移.
+description.enchantment.damage.radioactivity=为你的武器或护甲施加辐射,让你的敌人或玩家痛苦不堪.
+description.gadomancy.enchantment.revealer=头盔附魔.可以看到灵气节点,类似神秘时代的揭示之护目镜.
+description.enchantment.projectred.expansion.fuel_efficiency=使喷气背包具有更高的燃料效率.
 
