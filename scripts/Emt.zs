@@ -1479,6 +1479,30 @@ mods.thaumcraft.Infusion.addRecipe("EtheralProcessor", <gregtech:gt.blockmachine
 "machina 16, fabrico 16, potentia 24, praecantatio 28, cognitio 8", <EMT:EMTMachines:1>, 9);
 mods.thaumcraft.Research.addInfusionPage("EtheralProcessor", <EMT:EMTMachines:1>);
 
+// --- Research Completer
+mods.thaumcraft.Research.orphanResearch("ResearchCompleter");
+mods.thaumcraft.Research.removeResearch("ResearchCompleter");
+mods.thaumcraft.Research.addResearch("ResearchCompleter", "EMT", "cognitio 8, machina 5, permutatio 5, auram 4", -2 as int, 6, 0, <gregtech:gt.blockmachines:13001>);
+mods.thaumcraft.Research.addPrereq("ResearchCompleter", "WANDPED", false);
+mods.thaumcraft.Research.addPrereq("ResearchCompleter", "WARDEDARCANA", false);
+mods.thaumcraft.Research.setRound("ResearchCompleter", true);
+game.setLocalization("tc.research_name.ResearchCompleter", "\u81ea\u52a8\u5316\u7814\u7a76");
+game.setLocalization("tc.research_text.ResearchCompleter", "\u518d\u4e5f\u4e0d\u7528\u62c5\u5fc3\u79e9\u5e8f\u5371\u673a\u4e86");
+mods.thaumcraft.Research.addPage("ResearchCompleter", "tc.research_page.ResearchCompleter");
+game.setLocalization("tc.research_page.ResearchCompleter", "\u8fde\u8fde\u770b\u4e00\u5f00\u59cb\u5f88\u6709\u8da3,\u4f46\u4f60\u5df2\u7ecf\u51b3\u5b9a\u5bfb\u627e\u4e00\u79cd\u66f4\u597d\u7684\u65b9\u6cd5\u89e3\u51b3\u6240\u6709\u7684\u7814\u7a76.
+\u6700\u7ec8,\u4f60\u7ed3\u5408\u79d1\u6280\u4e0e\u9b54\u6cd5,\u5236\u9020\u51fa\u4e86\u4e00\u53f0\u591a\u65b9\u5757\u673a\u5668,\u53ef\u4ee5\u81ea\u52a8\u5b8c\u6210\u7814\u7a76\u7b14\u8bb0.
+\u9700\u8981\u5c06\u7075\u6c14\u8282\u70b9\u653e\u5728\u673a\u5668\u5185\u90e8\u624d\u80fd\u4f7f\u5176\u6b63\u5e38\u8fd0\u884c,\u800c\u4e14\u5728\u8fd0\u884c\u8fc7\u7a0b\u4e2d,\u673a\u5668\u4f1a\u7f13\u6162\u6467\u6bc1\u8fd9\u4e9b\u8282\u70b9. \u8282\u70b9\u7a33\u5b9a\u5668\u4e0d\u662f\u5fc5\u987b\u54c1,\u4f46\u4e3a\u4e86\u8ba9\u8fd9\u4e48\u591a\u8282\u70b9\u4e0d\u4e92\u76f8\u6253\u67b6,\u6211\u4eec\u8fd8\u662f\u63a8\u8350\u4f7f\u7528\u8282\u70b9\u7a33\u5b9a\u5668.");
+mods.thaumcraft.Arcane.addShaped("ResearchCompleter", <gregtech:gt.blockcasings8:8>, "ignis 8, aer 8, ordo 8", [
+[<ore:plateThaumium>, <Thaumcraft:ItemResource:14>, <ore:plateThaumium>],
+[<ore:plateThaumium>, <ore:frameGtThaumium>, <ore:plateThaumium>],
+[<ore:plateThaumium>, <Thaumcraft:ItemResource:14>, <ore:plateThaumium>]]);
+mods.thaumcraft.Research.addArcanePage("ResearchCompleter", <gregtech:gt.blockcasings8:8>);
+mods.thaumcraft.Arcane.addShaped("ResearchCompleter", <gregtech:gt.blockmachines:13001>, "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
+[<ore:circuitGood>, <Thaumcraft:blockCosmeticOpaque:2>, <ore:circuitGood>],
+[<Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.blockcasings8:8>, <Thaumcraft:blockCosmeticOpaque:2>],
+[<ore:circuitGood>, <Thaumcraft:blockStoneDevice:5>, <ore:circuitGood>]]);
+mods.thaumcraft.Research.addArcanePage("ResearchCompleter", <gregtech:gt.blockmachines:13001>);
+
 
 
 
