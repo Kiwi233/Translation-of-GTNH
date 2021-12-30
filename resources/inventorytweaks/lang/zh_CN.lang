@@ -24,17 +24,13 @@ invtweaks.settings.key=整理键:
 invtweaks.settings.disableci=禁用 CI
 invtweaks.settings.disableci.tooltip=与Convenient Inventory冲突
 invtweaks.settings.middleclick=鼠标中键
-invtweaks.settings.middleclick.tooltip=使用鼠标中键
-the middle click
+invtweaks.settings.middleclick.tooltip=可使用鼠标中键
 invtweaks.settings.chestbuttons=箱子按钮
-invtweaks.settings.chestbuttons.tooltip=在箱子上添加三个
-on chests to sort them
+invtweaks.settings.chestbuttons.tooltip=在箱子上添加三个排序按钮
 invtweaks.settings.shortcuts=快捷键
-invtweaks.settings.shortcuts.tooltip=启用各种快捷键
-to move items around
+invtweaks.settings.shortcuts.tooltip=启用各种移动物品的快捷键
 invtweaks.settings.autorefill=自动重装
-invtweaks.settings.autorefill.tooltip=用物品栏内的物品替换
-with others from your inventory
+invtweaks.settings.autorefill.tooltip=用物品栏内的物品替换损坏的工具或空堆叠
 invtweaks.settings.beforebreak=保留式重装
 invtweaks.settings.beforebreak.tooltip=在工具坏掉前的一瞬间替换它们
 invtweaks.settings.moreoptions=更多选项...
@@ -55,15 +51,12 @@ invtweaks.settings.pvpwarning.pt2=选项通常被视作为作弊！
 invtweaks.settings.exit=完成
 invtweaks.settings.advanced.sortonpickup=拾取物品时排序
 invtweaks.settings.advanced.sortonpickup.soloonly=仅限单人游戏
-invtweaks.settings.advanced.sortonpickup.tooltip=避免用你拾取的物品
-everything that you pickup
+invtweaks.settings.advanced.sortonpickup.tooltip=避免拾取的物品进入快捷栏
 invtweaks.settings.advanced.sortonpickup.tooltip.soloonly=仅限单人游戏模式
 invtweaks.settings.advanced.autoequip=自动装备盔甲
-invtweaks.settings.advanced.autoequip.tooltip=当整理时装备上
-armor when sorting
+invtweaks.settings.advanced.autoequip.tooltip=当整理时装备上可用的最好装备
 invtweaks.settings.advanced.sounds=开启音效
-invtweaks.settings.advanced.sounds.tooltip=在排序或者自动
-or when auto-refill is triggered
+invtweaks.settings.advanced.sounds.tooltip=在排序或者自动重装出发时发出提示音
 invtweaks.settings.advanced.mappingsfile=打开快捷键映射文件...
 invtweaks.settings.advanced.mappingsfile.error=[11]无法打开映射文件
 invtweaks.settings.advanced.serverassist=服务端物品移动

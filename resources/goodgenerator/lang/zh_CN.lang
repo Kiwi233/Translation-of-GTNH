@@ -14,6 +14,7 @@ magicCasing.0.name=魔法机械方块
 essentiaCell.0.name=新手源质扩散单元
 essentiaCell.1.name=学徒源质扩散单元
 essentiaCell.2.name=大师源质扩散单元
+essentiaCell.3.name=宗师源质扩散单元
 essentiaHatch.0.name=源质输入仓
 speedingPipe.0.name=高速管道方块
 yottaFluidTankCasing.0.name=YOTTank机械方块
@@ -74,6 +75,16 @@ item.fluidCore.2.name=流体存储核心T3
 item.fluidCore.3.name=流体存储核心T4
 item.fluidCore.4.name=流体存储核心T5
 item.fluidCore.5.name=流体存储核心T6
+item.upgradeEssentia.0.name=源质发电机：Empty
+item.upgradeEssentia.1.name=§e源质发电机：Air§r
+item.upgradeEssentia.2.name=§c源质发电机：Thermal§r
+item.upgradeEssentia.3.name=§8源质发电机：Unstable§r
+item.upgradeEssentia.4.name=§d源质发电机：Victus§r
+item.upgradeEssentia.5.name=§5源质发电机：Tainted§r
+item.upgradeEssentia.6.name=§b源质发电机：Mechanics§r
+item.upgradeEssentia.7.name=§6源质发电机：Spirit§r
+item.upgradeEssentia.8.name=§a源质发电机：Radiation§r
+item.upgradeEssentia.9.name=§3源质发电机：Electric§r
 
 #Tooltip
 inverter.tooltip.0=将直流电转化为交流电.
@@ -85,6 +96,7 @@ EssentiaHatch.tooltip.1=空手右键以重置过滤.
 fuelrod.tooltip.0=耐久：%s/%s
 depletedfuelrod.tooltip.0=枯竭
 YOTTankCell.tooltip.0=容量：
+hatchTier.tooltip.0=仓室等级：
 
 #Fluids
 fluid.lightlyCrackedNaquadahGas=轻度裂化硅岩气
@@ -100,6 +112,7 @@ fluid.lightlyCrackedNaquadahAsphalt=轻度裂化硅岩沥青
 fluid.moderatelyCrackedNaquadahAsphalt=中度裂化硅岩沥青
 fluid.heavilyCrackedNaquadahAsphalt=重度裂化硅岩沥青
 fluid.combustionPromotor=助燃剂
+fluid.fluid.coalTar=煤焦
 fluid.Naquadah Based Liquid Fuel MkI (Depleted)=硅岩基流体燃料-MkI(枯竭的)
 fluid.Acid Naquadah Emulsion=酸性硅岩乳液
 fluid.Antimony Pentafluoride=五氟化锑
@@ -150,17 +163,17 @@ fluid.Low Quality Naquadria Sulphate=低纯硫酸超能硅岩
 fluid.Naquadah Goo=硅岩粘浆
 fluid.Enriched Naquadah Goo=富集硅岩粘浆
 fluid.Naquadria Goo=超能硅岩粘浆
-fluid.Diethylamine=Diethylamine
-fluid.Cyclopentadiene=Cyclopentadiene
-fluid.Jet Fuel No.3=Jet Fuel No.3
-fluid.Ferrocene Solution=Ferrocene Solution
-fluid.Impure Ferrocene Mixture=Impure Ferrocene Mixture
-fluid.Ethanol Gasoline=Ethanol Gasoline
-fluid.Iron II Chloride=Iron II Chloride
-fluid.Low Quality Naquadah Solution=Low Quality Naquadah Solution
-fluid.Ferrocene Waste=Ferrocene Waste
-fluid.Jet Fuel A=Jet Fuel A
-fluid.Thorium Tetrachloride=Thorium Tetrachloride
+fluid.Diethylamine=二乙胺
+fluid.Cyclopentadiene=环戊二烯
+fluid.Jet Fuel No.3=航空煤油#3
+fluid.Ferrocene Solution=二茂铁溶液
+fluid.Impure Ferrocene Mixture=不纯二茂铁混合物
+fluid.Ethanol Gasoline=乙醇汽油
+fluid.Iron II Chloride=氯化亚铁
+fluid.Low Quality Naquadah Solution=低纯硅岩溶液
+fluid.Ferrocene Waste=二茂铁废水
+fluid.Jet Fuel A=航空煤油A
+fluid.Thorium Tetrachloride=四氯化钍
 
 #Fluid Tiles
 tile.lightlyCrackedNaquadahGas.name=轻度裂化硅岩气
@@ -176,9 +189,11 @@ tile.lightlyCrackedNaquadahAsphalt.name=轻度裂化硅岩沥青
 tile.moderatelyCrackedNaquadahAsphalt.name=中度裂化硅岩沥青
 tile.heavilyCrackedNaquadahAsphalt.name=重度裂化硅岩沥青
 tile.combustionPromotor.name=助燃剂
+tile.coalTar.name=煤焦
 
 #Tab Name
 itemGroup.Good Generator=更多发电机
+itemGroup.Nuclear Items=[GG]多方块核反应堆
 
 #Scanner Info
 scanner.info.FRF=线圈等级：
@@ -254,9 +269,14 @@ YOTTank.hint.0=47xYOTTank机械方块(至少！)
 YOTTank.hint.1=16x钢框架
 YOTTank.hint.2=16x同级硼玻璃方块(每层)
 YOTTank.hint.3=9x流体单元方块(每层)
-YOTTank.hint.4=1 - 输入仓
-YOTTank.hint.5=2 - 维护仓
+YOTTank.hint.4=1 - 输入仓/YOTTank机械方块
+YOTTank.hint.5=2 - 维护仓/YOTTank机械方块
 YOTTank.hint.6=3 - 输出仓
+
+#Chat
+largeessentiagenerator.chat= 已安装!
+essentiahatch.chat.0=成功锁定为 %s.
+essentiahatch.chat.1=已清除.
 
 #Achievement
 achievement.gt.blockmachines.nag=大型硅岩反应堆
@@ -293,7 +313,35 @@ achievement.yottaFluidTankCell.5=流体单元方块T6
 achievement.yottaFluidTankCell.5.desc=捡起这个物品以在NEI内查看配方
 
 #Thaumcraft Research Context
-research.ESSENTIA_GENERATOR.page.0=你发现源质内蕴含的能量超乎你的想象.有没有用这些源质发电的方法呢?
-research.ESSENTIA_GENERATOR.page.1=不同的源质蕴含不等的能量.<BR><BR>Potentia: 45000EU<BR><BR>Ignis: 30000EU<BR><BR>Lucrum: 130000EU<BR><BR>Auram: 120000EU<BR><BR>Arbor: 25000EU<BR><BR>Aer: 13000EU<BR><BR>Praecantatio: 92000EU<BR><BR>Machina: 40000EU<BR><BR>Electrum: 131072EU<BR><BR>Radio: 524288EU
-research.ESSENTIA_GENERATOR.page.2=未列出的源质,每点均含有8192EU.
-research.ESSENTIA_CELL.page.0=新手源质扩散单元的效率实在太低,你完全不能忍受. 所以你研发了一些新的源质扩散单元<BR><BR>新手源质扩散单元只提供1稳定点,学徒级的单元可以提供2稳定点,而大师级的单元可以提供足足5稳定点!<BR><BR>随着稳定点越高,每点源质在发电机中产生的能量就越多.
+research.ESSENTIA_GENERATOR.page.0=你发现源质内蕴含的能量超乎你的想象.有没有用这些源质发电的方法呢?<BR><BR>LEG(大型源质发电机)可以根据动力仓自动调整其输出电压. 扩散单元决定了LEG可接受的最高仓室等级.
+research.ESSENTIA_GENERATOR.page.1=目前只有以下源质可以无需升级,直接转化为能量:<BR><BR>Terra:800EU<BR><BR>Aqua:5000EU<BR><BR>Ordo:12000EU<BR><BR>Lux:13000EU<BR><BR>Tempestas:61200EU<BR><BR>Gelum:3900EU<BR><BR>Vitreus:2000EU<BR><BR>Potentia:25600EU<BR><BR>Permutatio:6000EU<BR><BR>Metallum:2600EU
+research.ESSENTIA_GENERATOR.page.2=Tenebrae:9000EU<BR><BR>Praecantatio:36000EU<BR><BR>Herba:2600EU<BR><BR>Arbor:4500EU<BR><BR>Bestia:1000EU<BR><BR>Messis:9800EU<BR><BR>Perfodio:1300EU<BR><BR>Instrumentum:1200EU<BR><BR>Meto:3600EU<BR><BR>Tutamen:6200EU<BR><BR>Fabrico:1100EU
+research.ESSENTIA_GENERATOR.page.3=Pannus:600EU<BR><BR>Vinculum:500EU<BR><BR>Magneto:108000EU<BR><BR>Custom2:1EU<BR><BR>Custom3:217000<BR><BR>Gula:64000EU<BR><BR>Tempus:142857EU<BR><BR>如果想用其他源质作为燃料,你需要为你的发电机加装相应升级.
+research.ESSENTIA_CELL.page.0=新手源质扩散单元的效率实在太低,你完全不能忍受. 所以你研发了一些新的源质扩散单元<BR><BR>新手源质扩散单元只提供1稳定点,学徒级的单元可以提供2稳定点,大师级的单元可以提供5稳定点,而宗师级的单元可以提供足足10稳定点!<BR><BR>随着稳定点越高,每点源质在发电机中产生的能量就越多.<BR><BR>同时也可以解锁更好的仓室.
+research.ESSENTIA_UPGRADE_BLANK.page.0=空白升级!我感觉它有无限可能.<BR><BR>除了几种特殊源质,大部分源质需要额外流体帮助其在单元中扩散或提高燃烧效率.而没有这些特殊流体,源质将阻塞单元的缝隙,造成效率低下甚至无法输出.你可以为一台大型源质发电机安装多种升级.<BR><BR>计算流体消耗速度的公式如下:<BR>基础消耗速度*源质系数*已消耗源质量
+research.ESSENTIA_UPGRADE_AIR.page.0=这类源质与空气具有很高的亲和性,需要空气辅助其扩散.<BR><BR>我们可以使用更浓缩的液态空气以进一步提高源质效率.<BR><BR>基础消耗速度为160L/秒.
+research.ESSENTIA_UPGRADE_AIR.page.1=可用源质:<BR><BR>Aer:10000EU;系数:x1.0<BR><BR>Motus:20000EU;系数:x0.5<BR><BR>Volatus:56000EU;系数:x2.0<BR><BR>Auram:42000EU;系数:x2.7<BR><BR>需要流体:<BR><BR>空气:效率:x1.0<BR><BR>液态空气:效率:x1.5
+research.ESSENTIA_UPGRADE_THERMAL.page.0=来自这类源质的能量无法完全被转化为电能,部分能量会被转化为热能,并加热扩散单元.<BR><BR>所以需要冷却液以保证发电机的稳定运行,而更好的冷却液可以使源质安全地释放更多能量.<BR><BR>基础消耗速度为40L/秒.
+research.ESSENTIA_UPGRADE_THERMAL.page.1=可用源质:<BR><BR>Ignis:16000EU;系数:x1.0<BR><BR>Custom1:300000EU;系数:x7.0<BR><BR>Volatus:56000EU;系数:x2.0<BR><BR>Infernus:35700EU;系数:x3.0<BR><BR>Ira:82600EU;系数:x5.0
+research.ESSENTIA_UPGRADE_THERMAL.page.2=需要流体:<BR><BR>水:效率:x0.5<BR><BR>蒸馏水:效率:x1.0<BR><BR>碎冰:效率:x1.2<BR><BR>IC2冷却液:效率:x1.5<BR><BR>极寒之凛冰:效率:x5.0<BR><BR>超级冷却液:效率:x9.0
+research.ESSENTIA_UPGRADE_UNSTABLE.page.0=这类源质易与空气发生反应,往往会破坏扩散单元.<BR><BR>所以需要使用惰性气体保护扩散单元.<BR><BR>气体惰性越高,源质就能安全地释放越多能量.<BR><BR>基础消耗速度为80L/秒.
+research.ESSENTIA_UPGRADE_UNSTABLE.page.1=可用源质:<BR><BR>Perditio:4500EU;系数:x1.0<BR><BR>Vacuos:8200EU;系数:x1.5<BR><BR>Venenum:17000EU;系数:x2.0<BR><BR>Telum:14200EU;系数:x2.5<BR><BR>Terminus:300000EU;系数:x10.0
+research.ESSENTIA_UPGRADE_UNSTABLE.page.2=需要流体:<BR><BR>氮:效率:x1.0<BR><BR>氦:效率:x2.0<BR><BR>氖:效率:x2.2<BR><BR>氩:效率:x2.5<BR><BR>氪:效率:x3.0<BR><BR>氙:效率:x4.0
+research.ESSENTIA_UPGRADE_VICTUS.page.0=这类源质蕴含生命的本质.<BR><BR>大部分无法直接转化为能量,但你可以为其提供生命本质,大大增强它们的转化率.<BR><BR>基础消耗速度为360L/秒.
+research.ESSENTIA_UPGRADE_VICTUS.page.1=可用源质:<BR><BR>Victus:20000EU;系数:x1.0<BR><BR>Spiritus:37600EU;系数:x0.7<BR><BR>Sano:24600EU;系数:x1.2<BR><BR>Corpus:5200EU;系数:x0.9<BR><BR>Humanus:16700EU;系数:x1.3<BR><BR>Fames:17600EU;系数:x1.1<BR><BR>Custom5:120000EU;系数:x0.6
+research.ESSENTIA_UPGRADE_VICTUS.page.2=可选流体:<BR><BR>液态XP:效率:x2.0<BR><BR>生命本质:效率:x6.0
+research.ESSENTIA_UPGRADE_TAINTED.page.0=这类源质内含黑暗的能量.运行时可能产生咒波污染.<BR><BR>你可以为其提供净化之水或死亡之水...这会产生两种不同的效果.<BR><BR>净化之水可以净化源质,大大提升输出能量,且不会产生咒波污染.<BR><BR>死亡之水无法溶解源质,但将其加入已扩散的源质可以产生很棒的效果:源质的基础燃值越低,释放的黑暗能量越多.
+research.ESSENTIA_UPGRADE_TAINTED.page.1=基础消耗速度为60L/秒.
+research.ESSENTIA_UPGRADE_TAINTED.page.2=可用源质:<BR><BR>Mortuus:7200EU;系数:x1.0<BR><BR>Alienis:9700EU;系数:x1.7<BR><BR>Vitium:4700EU;系数:x10.0<BR><BR>Exanimis:9000EU;系数:x1.2
+research.ESSENTIA_UPGRADE_TAINTED.page.3=可选流体:<BR><BR>净化之水:效率:x60.0<BR><BR>死亡之水:效率:x(25000/基础燃值)^4
+research.ESSENTIA_UPGRADE_MECHANICS.page.0=这类源质必须处于快速流动中才能释放能量.<BR><BR>需要润滑油来为源质提供足够的流动性<BR><BR>基础消耗速度为400L/秒.
+research.ESSENTIA_UPGRADE_MECHANICS.page.1=可用源质:<BR><BR>Iter:16000EU<BR><BR>Machina:61200EU<BR><BR>Limus:11800EU<BR><BR>系数均为x1.0
+research.ESSENTIA_UPGRADE_MECHANICS.page.2=需要流体:<BR><BR>润滑油:效率:x1.0
+research.ESSENTIA_UPGRADE_SPRITE.page.0=精神类的源质的直接产能很低.只有用水心或虚伪泪水激活后,它们才能展示正在的能量.<BR><BR>当扩散单元的稳定点较低时,虚伪泪水可以从源质中激发出更多能量.而稳定点较高时,只能用水心才能激发出源质的真正能量.<BR><BR>基础消耗速度为40L/秒.
+research.ESSENTIA_UPGRADE_SPRITE.page.1=可用源质:<BR><BR>Cognitio:2200EU;系数:x1.2<BR><BR>Sensus:1400EU;系数:x0.7<BR><BR>Lucrum:6000EU;系数:x2.0<BR><BR>Strontio:200EU;系数:x0.03<BR><BR>Nebrisum:24300EU;系数:x2.0<BR><BR>Luxuria:79200EU;系数:x3.7<BR><BR>Superbia:10900EU;系数:x2.1<BR><BR>Invidia:7700EU;系数:x1.0<BR><BR>Desidia:600EU;系数:x0.1
+research.ESSENTIA_UPGRADE_SPRITE.page.2=可选流体:<BR><BR>虚伪泪水:效率:x15x(1+100/稳定点)<BR><BR>水心:效率:x10x(1+稳定点/100)<BR><BR>简而言之,稳定点超过150后,水心的效率更高.
+research.ESSENTIA_UPGRADE_RADIATION.page.0=用这类源质发电类似于用核燃料发电,不同之处在于源质是纯粹的"放射性"属性,而核燃料还有些乱七八糟的东西.<BR><BR>但是,提升核燃料输出的方法同样适用于此,可以直接提升源质释放的能量.<BR><BR>基础消耗速度为120L/秒.
+research.ESSENTIA_UPGRADE_RADIATION.page.1=可用源质:<BR><BR>Radio:238000EU;系数:x1.0<BR><BR>Custom4:118000EU;系数:x0.5
+research.ESSENTIA_UPGRADE_RADIATION.page.2=可选流体:<BR><BR>熔融铯:效率:x2.0<BR><BR>熔融铀-235:效率:x3.0<BR><BR>熔融硅岩:效率:x4.0<BR><BR>熔融原子分离催化剂:效率:x16.0
+research.ESSENTIA_UPGRADE_ELECTRIC.page.0=ELECTRUM源质本身就代表了电力!<BR><BR>发电机的动力仓电压越高,ELECTRUM源质被越强的电势差影响,发电量就越高.
+research.ESSENTIA_UPGRADE_ELECTRIC.page.1=可用源质:Electrum<BR><BR>能量公式:<BR>8x(3.0^动力仓等级)EU

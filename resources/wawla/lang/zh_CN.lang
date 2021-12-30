@@ -43,7 +43,6 @@ tooltip.wawla.hardness=硬度
 tooltip.wawla.resistance=爆炸抗性
 tooltip.wawla.enchPower=附魔点数
 
-
 #Fixed/Missing Strings
 tile.null.name=未命名方块,请报告给作者.
 entity.ItemFrame.name=物品展示框
@@ -186,7 +185,9 @@ description.villager.profession.wa.villager=村民
 description.villager.profession.wa.swordsmith=剑士
 description.villager.profession.wa.teaMaster=茶博士
 description.villager.profession.wa.priest=牧师
-
+description.villager.profession.rftools.rftoolsvillager=RF工程师
+description.villager.profession.forbidden.heretic=异教徒
+description.villager.profession.agricraft.villager=农艺农民
 
 #Jewelrycraft Tooltips
 tooltip.wawla.jewelry.molten=Molten
@@ -199,7 +200,6 @@ option.wawla.jewelrycraft.showMoltenAmount=Molten Amounts
 option.wawla.jewelrycraft.showMetalAmount=Unmelted Amounts
 option.wawla.jewelrycraft.showMeltTime=Melting Time
 option.wawla.jewelrycraft.showCooling=Cooling Time
-
 
 #Tinkers Construct Tooltips
 tooltip.wawla.tinkers.dryness=干燥度
@@ -322,73 +322,99 @@ description.enchantment.NaturalAbsorption.absorb=An enchantment for armour. The 
 description.enchantment.fly_longer=Increases the total amount of flaps on Simple Flight devices.
 description.enchantment.fly_faster=Decreases the duration between flaps on Simple Flight devices. Useless on Jet Packs and Jet Gliders.
 
-#More weapons Mod Enchantment Descriptions
+#More Swords Mod Enchantment Descriptions
 description.msm.unused=Note: This item/block has been added to help achieve compatibility with other mods. As of now these do not do anything and are not an ordinary part of this mod. No new ores or tools will be added this is ONLY for for mod compatibility.
-description.enchantment.msm.ignite=此附魔 will set damaged mobs on fire doing damage equal to that of the enchantment level.
-description.enchantment.msm.spark=此附魔 will do 3 fire damage to mobs within 2.4 blocks of the damaged mob. Both the player and the target mob will not be set on fire.
-description.enchantment.msm.feast=此附魔 will restore 0-3 durability when used. The amount restored is multiplied by the level of the effect.
-description.enchantment.msm.vitality=此附魔 will consume 256 durability when used and in turn give the user several buffs such as regen, insta health and extra hearts.
-description.enchantment.msm.venomAspect=此附魔 will poison target mob. The effect will last for seconds equivalent to the level of the effect. It's worth noting that many vanilla mobs such as spiders, zombies and skeletons can not be poisoned rendering this effect useless.
-description.enchantment.msm.absorb=此附魔 has a 5% chance to restore 0-2 hunger points when used.
-description.enchantment.msm.keenEdge=此附魔 increases the damage of the sword by 1 for each level of the effect.
-description.enchantment.msm.scorn=此附魔 will double the damage of the sword by 2 when used in dimensions other than the surface world.
-description.enchantment.msm.enderPulse=此附魔 will warp the player where they are looking when used. This effect has a range of 18 blocks per level. 此附魔 will damage the item by 50 points every time it is used. The player will also take 1 damage in fall damage.
-description.enchantment.msm.enderAura=此附魔 has a 15% chance of activating when the player is hit. When activated the player will warp to a random mob within 30 blocks. This mob may not always be friendly. If no mob is found then the effect will be canceled.
-description.enchantment.msm.greed=此附魔 has a 7% chance to drop 1-3 extra points of exp.
-description.enchantment.msm.wisdom=此附魔 is currently broken. My bad :/
-description.enchantment.msm.frozenAspect=此附魔 will slow mobs for 3 seconds per level.
-description.enchantment.msm.frostWave=此附魔 will slow mobs within 2.5 blocks of the target mob for 1.5 seconds.
-description.enchantment.msm.ascension=此附魔 will propel targeted mobs upwards into the air. Hit the mob before it hits the ground to make increase the launch aspect of the effect exponential amount.
-description.enchantment.msm.descension=此附魔 will cause the player to fall at a much slower rate than normal. To activate the effect press and hold shift.
-description.enchantment.msm.shadows=此附魔 will blind the target mob for 1.5 seconds. There is also a 12% chance that the wither effect will be applied for a second.
-description.enchantment.msm.decay=此附魔 will apply the wither effect to the target mob for just under 4 seconds.
-description.enchantment.msm.stealth=此附魔 will cause the player to become invisible when activated. Unlike the potion of invisibility this effect will not give off particles and has no time limit or duration. To toggle this on or off simply right click with the sword. It's worth noting that 武器 and armor will still be visible while this effect is enabled.
-description.enchantment.msm.extinction=此附魔 will kill all mobs on the map that are an instance of the target mob. This can be used on boats to kill all boats in the world and can be used to manage entities in the world. This effect will not target players.
+description.enchantment.msm.ignite=This enchantmentwill set damaged mobs on fire doing damage equal to that of the enchantment level.
+description.enchantment.msm.spark=This enchantmentwill do 3 fire damage to mobs within 2.4 blocks of the damaged mob. Both the player and the target mob will not be set on fire.
+description.enchantment.msm.feast=This enchantmentwill restore 0-3 durability when used. The amount restored is multiplied by the level of the effect.
+description.enchantment.msm.vitality=This enchantmentwill consume 256 durability when used and in turn give the user several buffs such as regen, insta health and extra hearts.
+description.enchantment.msm.venomAspect=This enchantmentwill poison target mob. The effect will last for seconds equivalent to the level of the effect. It's worth noting that many vanilla mobs such as spiders, zombies and skeletons can not be poisoned rendering this effect useless.
+description.enchantment.msm.absorb=This enchantmenthas a 5% chance to restore 0-2 hunger points when used.
+description.enchantment.msm.keenEdge=This enchantmentincreases the damage of the sword by 1 for each level of the effect.
+description.enchantment.msm.scorn=This enchantmentwill double the damage of the sword by 2 when used in dimensions other than the surface world.
+description.enchantment.msm.enderPulse=This enchantmentwill warp the player where they are looking when used. This effect has a range of 18 blocks per level. This enchantmentwill damage the item by 50 points every time it is used. The player will also take 1 damage in fall damage.
+description.enchantment.msm.enderAura=This enchantmenthas a 15% chance of activating when the player is hit. When activated the player will warp to a random mob within 30 blocks. This mob may not always be friendly. If no mob is found then the effect will be canceled.
+description.enchantment.msm.greed=This enchantmenthas a 7% chance to drop 1-3 extra points of exp.
+description.enchantment.msm.wisdom=This enchantmentis currently broken. My bad :/
+description.enchantment.msm.frozenAspect=This enchantmentwill slow mobs for 3 seconds per level.
+description.enchantment.msm.frostWave=This enchantmentwill slow mobs within 2.5 blocks of the target mob for 1.5 seconds.
+description.enchantment.msm.ascension=This enchantmentwill propel targeted mobs upwards into the air. Hit the mob before it hits the ground to make increase the launch aspect of the effect exponential amount.
+description.enchantment.msm.descension=This enchantmentwill cause the player to fall at a much slower rate than normal. To activate the effect press and hold shift.
+description.enchantment.msm.shadows=This enchantmentwill blind the target mob for 1.5 seconds. There is also a 12% chance that the wither effect will be applied for a second.
+description.enchantment.msm.decay=This enchantmentwill apply the wither effect to the target mob for just under 4 seconds.
+description.enchantment.msm.stealth=This enchantmentwill cause the player to become invisible when activated. Unlike the potion of invisibility this effect will not give off particles and has no time limit or duration. To toggle this on or off simply right click with the sword. It's worth noting that 武器 and armor will still be visible while this effect is enabled.
+description.enchantment.msm.extinction=This enchantmentwill kill all mobs on the map that are an instance of the target mob. This can be used on boats to kill all boats in the world and can be used to manage entities in the world. This effect will not target players.
 
-#Unknown Enchantment Descriptions
-description.enchantment.imperviousness=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#Railcraft Enchantments
+description.enchantment.railcraft.crowbar.destruction=撬棍专用附魔. 扩大范围.
+description.enchantment.railcraft.crowbar.implosion=撬棍专用附魔. 提高对爬行者的伤害.
+description.enchantment.railcraft.crowbar.wrecking=撬棍专用附魔. 提高伤害(类似锋利附魔).
 
-description.enchantment.bash.weightless=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.bash.power=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.bash.damage=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.shield.usage=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.shield.recover=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.bow.loot=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.bow.charge=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#OpenBlocks Enchantments
+description.enchantment.openblocks.explosive=受到伤害时,将消耗火药产生一次爆炸,伤害怪物并破坏方块.
+description.enchantment.openblocks.flimflam=攻击玩家者将遭遇"厄运".
+description.enchantment.openblocks.laststand=当玩家只有一点生命值(半心)时,将消耗XP等级吸收下次伤害.
 
-description.enchantment.poison=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.frost=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.explosive=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.quickdraw=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.venom=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.iceaspect=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.defusing=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.dowsing=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.spellbane=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.mending=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.cleave=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.leech=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.execute=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.poisonprotect=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.knowledge=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.berserk=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.steadfast=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.agility=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.mobility=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.fleetfoot=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.resurrection=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.harvest=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#Forbidden Magic Enchantments
+description.enchantment.cluster=拥有炽心附魔的避役镐采掘特定矿石时有一定几率掉落矿簇.矿簇比原矿纯净得多,可以像矿石一样被熔炼.炽心附魔等级越高,掉落矿簇的几率越高.
+description.enchantment.consuming=使用挥霍附魔的工具采掘圆石、泥土、沙砾或地狱岩时,不会产生掉落.
+description.enchantment.corrupting=堕落附魔可以让你无需前往下界即可获得七宗罪碎片.有堕落附魔的镐开采蕴魔石时,有一定几率掉落七宗罪碎片.注意只有开采蕴魔石有效,直接采掘晶簇不会触发堕落.
+description.enchantment.educational=将知识注入武器中后,你创造了一种附魔.使用带有教育附魔的武器猛力捶击怪物头部,以使它们掉落更多的经验,增益取决于附魔等级.
+description.enchantment.greedy=使用有剥削附魔的武器杀死敌对生物时,有几率掉落绿宝石碎片.而杀害村民可以掉落整块绿宝石.
+description.enchantment.impact=避役工具附魔冲击后,可一次开采3x3范围的方块,使探矿更快,平地更容易.
+description.enchantment.voidtouched=虚空之触附魔赋予避役工具与虚空工具相同的耐久恢复属性.
+description.enchantment.wrath=暴怒附魔会增加武器的攻击力,而且可与锋利、节肢杀手、亡灵杀手附魔共存.
 
-description.enchantment.Swiftness=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.Vitality=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#BiblioCraft Enchantments
+description.Eternal Compass=玩家死亡后,重生时会获得一个指向死亡地点的永恒罗盘.
+description.Reading=看向收藏馆mod方块内的物品时,显示物品名称.
 
-description.enchantment.SkyBlow=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#Witching Gadgets Enchantments
+description.enchantment.wg.backstab=附魔了背刺的武器从敌人后方发动攻击时,每级附魔会造成额外20%的伤害,在目标没有发现你的情况下,再额外增加40%.
+description.enchantment.wg.gemstoneBrittle=为切割出的宝石注入脆性.
+description.enchantment.wg.gemstonePotency=为切割出的宝石注入更多效力.
+description.enchantment.wg.invisibleGear=此附魔的第一级可在玩家隐身时让装备隐形,而第二级可以让装备永久隐形.
+description.enchantment.wg.rideProtect=当有东西跳到你头上的时候移动会变得困难.将此附魔赋予你的头盔就能解决这个问题.每个试图跳到你头上的家伙都会被甩下来并受到伤害.
+description.enchantment.wg.soulbound=附魔有灵魂绑定的物品/工具/装备在玩家死亡后仍然留在物品栏中,不会掉落.
+description.enchantment.wg.stealth=将此附魔赋予你的靴子或护腿,在蹲下时有几率不被发现.这个几率每级提升10%,但如果你在目标的视野内,此几率会减少10%.一旦被发现,将通知半径5格内的所有敌人.
+description.enchantment.wg.unveiling=此附魔可赋予揭示之护目镜或其他具有相同功能的头部装备. 装备带有揭示附魔的物品时,你可以看到处于隐身状态的生物.此外,可使他人的幻影附魔无效,而幽灵斗篷的使用者会更加显眼.
 
-description.enchantment.Information=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#Thaumic Exploration Enchantments
+description.enchantment.binding=一级束缚附魔可以使被攻击的生物获得几秒缓慢buff. 而二级附魔不仅可以阻止末影人的瞬移而且还可以暂时阻止苦力怕的自爆几秒.
+description.enchantment.disarm=攻击敌人可使其武器有几率掉落,对玩家无效.注意:荆棘附魔也会触发此效果.
+description.enchantment.nightVision=装备有夜视附魔的物品时,可获得永久夜视buff.
 
-description.enchantment.autoSmelt=此附魔 is unknown. Please contact Darkhax to help him provide a description.
-description.enchantment.oreFragments=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#EnderIO Enchantments
+description.enchantment.autosmelt=使用带有此附魔的物品开采方块时,会直接掉落该方块的熔炉产物.
+description.enchantment.xpboost=此附魔可按比例提升杀怪/玩家或开采方块掉落的经验. 
+description.enchantment.enderio.soulBound=附魔有灵魂绑定的物品/工具/装备在玩家死亡后仍然留在物品栏中,不会掉落.
 
-description.enchantment.smartHarvest=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#EnderZoo Enchantments
+description.enchantment.enderzoo.witherArrow=击中后施加5秒凋零效果.
+description.enchantment.enderzoo.witherWeapon=击中后施加5秒凋零效果.
 
-description.enchantment.freeze=此附魔 is unknown. Please contact Darkhax to help him provide a description.
+#BattleGear Enchantments
+description.enchantment.bash.weightless=降低盾击的耐力消耗.
+description.enchantment.bash.power=提升盾击的推力(击退更远).
+description.enchantment.bash.damage=增加盾击伤害.
+description.enchantment.shield.usage=降低盾牌格挡的耐力消耗.
+description.enchantment.shield.recover=提升按住格挡时的耐力恢复速度,格挡攻击时无效.
+description.enchantment.bow.loot=提升弓箭击杀掉落战利品几率.
+description.enchantment.bow.charge=减少拉弓时间,不影响视野.
+
+#Thaumic Bases Enchantments
+description.enchantment.elderKnowledge=击杀怪物有几率获取知识.
+description.enchantment.eldritchBane=对末影人或邪术生物造成更多伤害.
+description.enchantment.magicTouch=击杀生物时掉落更多的原始要素球.
+description.enchantment.tainted=攻击时会造成额外的咒波伤害.
+description.enchantment.vaporising=击杀怪物时有一定几率掉落对应类型的晶化源质.
+
+#Misc. Enchantments
+description.enchant.cofh.holding=提升保险箱或背包的容量(每级8-9格).
+description.enchant.cofh.multishot=让弓可以只消耗一支箭,射出多个箭头.
+description.enchantment.draconicevolution.reaperEnchant=击杀怪物时有几率掉落相应的怪物灵魂.此增益可与龙研武器自带的增益叠加.
+description.enchantment.damage.endermen=对末影生物造成更多伤害并阻止其瞬移.
+description.enchantment.damage.radioactivity=为你的武器或护甲施加辐射,让你的敌人或玩家痛苦不堪.
+description.gadomancy.enchantment.revealer=头盔附魔.可以看到灵气节点,类似神秘时代的揭示之护目镜.
+description.enchantment.projectred.expansion.fuel_efficiency=使喷气背包具有更高的燃料效率.
+
