@@ -456,7 +456,7 @@ recipes.remove(<EnderIO:itemLiquidConduit:1>);
 // --- Ender Fluid Conduit
 recipes.remove(<EnderIO:itemLiquidConduit:2>);
 
-+// --- Crystalline Ender Fluid Conduit
+// --- Crystalline Ender Fluid Conduit
 recipes.remove(<EnderIO:itemLiquidConduit:3>);
 
 // --- Crystalline Pink Slime Ender Fluid Conduit
