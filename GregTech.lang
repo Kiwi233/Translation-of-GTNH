@@ -9001,18 +9001,53 @@ Muffler Hatch: Any 1 dot hint
     S:TileEntity_DESCRIPTION_31072_Index_6=-----------------------------------------
     S:TileEntity_DESCRIPTION_31072_Index_7=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_31072_Index_8=添加者: §2Alkalus §7- §c[GT++]
+Dimensions: 7x7x7 (WxHxL)
+Structure:
+Controller: Top Center
+40x Robust Tungstensteel Machine Casing (minimum)
+16X Tungstensteel Coils (minimum)
+52x Molecular Containment Casing (minimum )
+32X High Voltage Current Capacitor (minimum)
+4x Particle Containment Casing (minimum)
+5x Resonance Chamber I (minimum)
+4x Modulator I (minimum)
+Input Bus: Any Robust Tungstensteel Machine Casing 
+Output Bus: Any Robust Tungstensteel Machine Casing
+Energy Hatch: Any Robust Tungstensteel Machine Casing
+Maintenance Hatch: Any Robust Tungstensteel Machine Casing
+Muffler Hatch: Any Robust Tungstensteel Machine Casing 
 #N     S:TileEntity_DESCRIPTION_31073_Index_0=Machine Type: §eLarge Gas Turbine§r
 #N     S:TileEntity_DESCRIPTION_31073_Index_1=Controller Block for the XL Gas Turbine
     S:TileEntity_DESCRIPTION_31073_Index_2=每秒产生§55000§7点污染
     S:TileEntity_DESCRIPTION_31073_Index_3=-----------------------------------------
     S:TileEntity_DESCRIPTION_31073_Index_4=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_31073_Index_5=添加者: §2Alkalus §7- §c[GT++]
+Dimensions: 3x9x3 (WxHxL)
+Structure:
+Controller: Top Middle
+360x Reinforced Gas Turbine Casing (minimum)
+Rotor Assembly: Any 1 dot hint
+Input Bus: Any 4 dot hint (min 1)
+Input Hatch: Any 4 dot hint(min 1)
+Dynamo Hatch: Any 4 dot hint(min 1)
+Maintenance Hatch: Any 4 dot hint(min 1)
+Mufler Hatch: Any 7 dot hint (x4)
 #N     S:TileEntity_DESCRIPTION_31074_Index_0=Machine Type: §eLarge Plasma Turbine§r
 #N     S:TileEntity_DESCRIPTION_31074_Index_1=Controller Block for the XL Plasma Turbine
     S:TileEntity_DESCRIPTION_31074_Index_2=每秒产生§50§7点污染
     S:TileEntity_DESCRIPTION_31074_Index_3=-----------------------------------------
     S:TileEntity_DESCRIPTION_31074_Index_4=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_31074_Index_5=添加者: §2Alkalus §7- §c[GT++]
+Dimensions: 3x9x3 (WxHxL)
+Structure:
+Controller: Top Middle
+360x Reinforced Plasma Turbine Casing (minimum)
+Rotor Assembly: Any 1 dot hint
+Input Bus: Any 4 dot hint (min 1)
+Input Hatch: Any 4 dot hint(min 1)
+Output Hatch: Any 4 dot hint(min 1)
+Dynamo Hatch: Any 4 dot hint(min 1)
+Maintenance Hatch: Any 4 dot hint(min 1)
 #N     S:TileEntity_DESCRIPTION_31075_Index_0=Machine Type: §eForge Hammer§r
 #N     S:TileEntity_DESCRIPTION_31075_Index_1=Controller Block for the Industrial Forge Hammer
     S:TileEntity_DESCRIPTION_31075_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
@@ -9025,6 +9060,15 @@ Muffler Hatch: Any 1 dot hint
 #N     S:TileEntity_DESCRIPTION_31075_Index_7=T4 - Void Anvil
 #N     S:TileEntity_DESCRIPTION_31075_Index_8=Causes: §5250 §7pollution per second
     S:TileEntity_DESCRIPTION_31075_Index_9=-----------------------------------------
+Dimensions: 3x3x3 (WxHxL) (Hollow)
+Structure:
+Controller: Front Center
+10x Forge Casing (minimum)
+Input Bus: Any Casing 
+Output Bus: Any Casing
+Energy Hatch: Any Casing
+Maintenance Hatch: Any Casing
+Muffler Hatch: Any Casing
 #N     S:TileEntity_DESCRIPTION_31081_Index_0=For the smaller Projects
 #N     S:TileEntity_DESCRIPTION_31081_Index_1=Hold Shift in GUI to see slot usage
 #N     S:TileEntity_DESCRIPTION_31081_Index_2=Stores 16000L of fluid
@@ -9245,21 +9289,11 @@ Muffler Hatch: Any 1 dot hint
     S:TileEntity_DESCRIPTION_32013_Index_0=机器类型：§e中子活化器§r
     S:TileEntity_DESCRIPTION_32013_Index_1=中子活化器的控制器方块
     S:TileEntity_DESCRIPTION_32013_Index_10=当中子动能超过§c1200MeV§7后将会爆炸.
-#B     S:TileEntity_DESCRIPTION_32013_Index_11=The structure is too complex!
-#A     S:TileEntity_DESCRIPTION_32013_Index_11=Inputting Graphite/Beryllium dust can reduce 10MeV per dust immediately.
-#C     S:TileEntity_DESCRIPTION_32013_Index_11=结构太复杂了！
-#B     S:TileEntity_DESCRIPTION_32013_Index_12=Follow the§9 Structure§1Lib§7 hologram projector to build the main structure.
-#A     S:TileEntity_DESCRIPTION_32013_Index_12=The structure is too complex!
-#C     S:TileEntity_DESCRIPTION_32013_Index_12=请参考§9Structure§1Lib§7全息投影，构建主体结构
-#B     S:TileEntity_DESCRIPTION_32013_Index_13=-----------------------------------------
-#A     S:TileEntity_DESCRIPTION_32013_Index_13=Follow the§9 Structure§1Lib§7 hologram projector to build the main structure.
-#C     S:TileEntity_DESCRIPTION_32013_Index_13=-----------------------------------------
-#B     S:TileEntity_DESCRIPTION_32013_Index_14=Hold §l[LSHIFT]§r§7 to display structure guidelines
-#A     S:TileEntity_DESCRIPTION_32013_Index_14=-----------------------------------------
-#C     S:TileEntity_DESCRIPTION_32013_Index_14=按住 §l[LSHIFT]§r§7 以显示结构指导
-#B     S:TileEntity_DESCRIPTION_32013_Index_15=Added by: §aGood Generator§7
-#A     S:TileEntity_DESCRIPTION_32013_Index_15=Hold §l[LSHIFT]§r§7 to display structure guidelines
-#C     S:TileEntity_DESCRIPTION_32013_Index_15=由 §aGood Generator§7添加
+#N     S:TileEntity_DESCRIPTION_32013_Index_11=Inputting Graphite/Beryllium dust can reduce 10MeV per dust immediately.
+    S:TileEntity_DESCRIPTION_32013_Index_12=结构太复杂了！
+    S:TileEntity_DESCRIPTION_32013_Index_13=请参考§9Structure§1Lib§7全息投影，构建主体结构
+    S:TileEntity_DESCRIPTION_32013_Index_14=-----------------------------------------
+    S:TileEntity_DESCRIPTION_32013_Index_15=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_32013_Index_16=由 §aGood Generator§7添加
     S:TileEntity_DESCRIPTION_32013_Index_2=超光速运动
     S:TileEntity_DESCRIPTION_32013_Index_3=高速管道方块的最低高度为4.
@@ -9307,6 +9341,14 @@ Muffler Hatch: Any 1 dot hint
     S:TileEntity_DESCRIPTION_32016_Index_4=-----------------------------------------
     S:TileEntity_DESCRIPTION_32016_Index_5=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_32016_Index_6=由 §aGood Generator§7添加
+Dimensions: 3x3x4 (WxHxL) (Hollow)
+Structure: 
+Controller: Front center
+24x SC Turbine Casing (minimum)
+Dynamo Hatch: Back center 
+Maintenance Hatch: Side centered
+Mufler Hatch: Side centered
+Input Hatch: supercritical Fluid, Side centered
 #N     S:TileEntity_DESCRIPTION_32017_Index_0=Machine Type: §eHeat Exchanger/Plasma Heat Exchanger§r
 #N     S:TileEntity_DESCRIPTION_32017_Index_1=Controller block for the Extreme Heat Exchanger.
     S:TileEntity_DESCRIPTION_32017_Index_10=由 §aGood Generator§7添加
@@ -9318,6 +9360,15 @@ Muffler Hatch: Any 1 dot hint
     S:TileEntity_DESCRIPTION_32017_Index_7=请参考§9Structure§1Lib§7全息投影，构建主体结构
     S:TileEntity_DESCRIPTION_32017_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_32017_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
+Dimensions: 5x6x11 (WxHxL) (四边留空)
+Structure: 
+Controller: Front bottom
+Input Hatch: distilled water or other working fluid: Hint block with dot 1
+Output Hatch: SC Steam/SH steam/Steam or other heated working fluid: Hint block with dot 2
+Input Hatch: Hot fluid or plasma: Hint block with dot 3
+Output Hatch: Cold fluid: Hint block with dot 4
+Maintenance Hatch: Any Casing
+25x obust Tungstensteel Machine Casings (minimum)
     S:TileEntity_DESCRIPTION_321_Index_0=它可以复制书或其他印刷品
     S:TileEntity_DESCRIPTION_322_Index_0=它可以复制书或其他印刷品
     S:TileEntity_DESCRIPTION_323_Index_0=它可以复制书或其他印刷品
@@ -11095,9 +11146,7 @@ Muffler Hatch: Any 1 dot hint
 #B     S:TileEntity_DESCRIPTION_850_Index_0=Machine Type: §eOre Washer, Chemical Bath§r
 #A     S:TileEntity_DESCRIPTION_850_Index_0=Machine Type: §eOre Washer, Simple Washer, Chemical Bath§r
 #C     S:TileEntity_DESCRIPTION_850_Index_0=机器类型：§e洗矿厂, 化学浸洗机§r
-#B     S:TileEntity_DESCRIPTION_850_Index_1=Controller Block for the Industrial Ore Washing Plant
-#A     S:TileEntity_DESCRIPTION_850_Index_1=Controller Block for the Industrial Wash Plant
-#C     S:TileEntity_DESCRIPTION_850_Index_1=工业洗矿厂的控制器方块
+    S:TileEntity_DESCRIPTION_850_Index_1=工业洗矿厂的控制器方块
 #B     S:TileEntity_DESCRIPTION_850_Index_2=Can be configured with a screwdriver to also process Chemical Bathing
 #A     S:TileEntity_DESCRIPTION_850_Index_2=Can be configured with a screwdriver to also do Simple Washer and process Chemical Bathing
 #C     S:TileEntity_DESCRIPTION_850_Index_2=可使用螺丝刀切换为化学浸洗模式
@@ -11156,15 +11205,9 @@ Muffler Hatch: Any 1 dot hint
     S:TileEntity_DESCRIPTION_860_Index_2=比相同电压的单方块机器快250%
     S:TileEntity_DESCRIPTION_860_Index_3=只需要使用配方要求电压的80%
     S:TileEntity_DESCRIPTION_860_Index_4=每提升一个电压等级，每次运行可以多处理2个物品
-#B     S:TileEntity_DESCRIPTION_860_Index_5=Machine Type: [A] - §eCompressor, Lathe, Electromagnetic Polarizer§r
-#A     S:TileEntity_DESCRIPTION_860_Index_5=Machine Type: [A] - §egt.recipe.compressor, gt.recipe.lathe, gt.recipe.polarizer§r
-#C     S:TileEntity_DESCRIPTION_860_Index_5=机器类型：[A]-§e压缩机、车床、两极磁化机§r
-#B     S:TileEntity_DESCRIPTION_860_Index_6=Machine Type: [B] - §eFermenter, Fluid Extractor, Extractor§r
-#A     S:TileEntity_DESCRIPTION_860_Index_6=Machine Type: [B] - §egt.recipe.fermenter, gt.recipe.fluidextractor, gt.recipe.extractor§r
-#C     S:TileEntity_DESCRIPTION_860_Index_6=机器类型：[B]-§e发酵槽、流体提取机、提取机§r
-#B     S:TileEntity_DESCRIPTION_860_Index_7=Machine Type: [C] - §ePrecision Laser Engraver, Autoclave, Fluid Solidifier§r
-#A     S:TileEntity_DESCRIPTION_860_Index_7=Machine Type: [C] - §egt.recipe.laserengraver, gt.recipe.autoclave, gt.recipe.fluidsolidifier§r
-#C     S:TileEntity_DESCRIPTION_860_Index_7=机器类型：[C]-§e精密激光蚀刻机、高压釜、流体固化器§r
+    S:TileEntity_DESCRIPTION_860_Index_5=机器类型：[A]-§e压缩机、车床、两极磁化机§r
+    S:TileEntity_DESCRIPTION_860_Index_6=机器类型：[B]-§e发酵槽、流体提取机、提取机§r
+    S:TileEntity_DESCRIPTION_860_Index_7=机器类型：[C]-§e精密激光蚀刻机、高压釜、流体固化器§r
     S:TileEntity_DESCRIPTION_860_Index_8=阅读大型加工厂手册(Multi-Machine Manual)以获取更多的信息
     S:TileEntity_DESCRIPTION_860_Index_9=每秒产生§5400§7点污染
     S:TileEntity_Secondary_DESCRIPTION_860_Index_0=大小(宽x高x长)：3x3x3(中空)
@@ -11215,6 +11258,16 @@ Muffler Hatch: Any 1 dot hint
 #N     S:TileEntity_DESCRIPTION_863_Index_7=Tier decreases heating time and allows more salt to be processed
     S:TileEntity_DESCRIPTION_863_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_863_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
+Dimensions: 6x27x6 (WxHxL)
+Structure:
+Controller: Top Middle
+229x Structural Solar Casing (minimum)
+60x Thermally Insulated Casing (minimum )
+66x Salt Containment Casing (minimum)
+60x Thermal Containment Casing (minimum)
+Input Hatch: Any 2 dot hint(min 1)
+Output Hatch: Any 2 dot hint(min 1)
+Maintenance Hatch: Any 2 dot hint
 #N     S:TileEntity_DESCRIPTION_864_Index_0=Part of the Clean Green energy movement
 #N     S:TileEntity_DESCRIPTION_864_Index_1=Point me at a Solar Tower
     S:TileEntity_DESCRIPTION_864_Index_2=添加者: §2Alkalus §7- §c[GT++]
@@ -11224,12 +11277,30 @@ Muffler Hatch: Any 1 dot hint
     S:TileEntity_DESCRIPTION_865_Index_3=-----------------------------------------
     S:TileEntity_DESCRIPTION_865_Index_4=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_865_Index_5=添加者: §2Alkalus §7- §c[GT++]
+Dimensions: 3x3x4 (WxHxL) (Hollow)
+Structure:
+Controller: Front center
+24x Turbine Casing (minimum)
+Dynamo Hatch: Back center
+Maintenance Hatch: Side centered
+Input Hatch: Steam, Side centered
+Output Hatch: Distilled Hater, Side centered
 #N     S:TileEntity_DESCRIPTION_866_Index_0=Machine Type: §eLarge Super-heated Steam Turbine§r
 #N     S:TileEntity_DESCRIPTION_866_Index_1=Controller Block for the XL Super-heated Steam Turbine
     S:TileEntity_DESCRIPTION_866_Index_2=每秒产生§50§7点污染
     S:TileEntity_DESCRIPTION_866_Index_3=-----------------------------------------
     S:TileEntity_DESCRIPTION_866_Index_4=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_866_Index_5=添加者: §2Alkalus §7- §c[GT++]
+Dimensions: 3x9x3 (WxHxL) 
+Structure:
+Controller: Top Middle
+360x Reinforced Steam Turbine Casing (minimum)
+Rotor Assembly: Any 1 dot hint
+Input Bus: Any 4 dot hint (min 1)
+Input Hatch: Any 4 dot hint(min 1)
+Output Hatch: Any 4 dot hint(min 1)
+Dynamo Hatch: Any 4 dot hint(min 1)
+Maintenance Hatch: Any 4 dot hint(min 1)
     S:TileEntity_DESCRIPTION_869_Index_0=需要RTG靶丸(RTG为放射性同位素温差发电机的缩写)
     S:TileEntity_DESCRIPTION_869_Index_1=燃料的燃料时间数以MC日计(可使用扫描仪查看)
     S:TileEntity_DESCRIPTION_869_Index_2=RTG的输出电压取决于所用的燃料
@@ -11772,9 +11843,7 @@ Muffler Hatch: Any 1 dot hint
     S:TileEntity_DESCRIPTION_942_Index_5=1x1, 2x2, 3x3 以及其他的设计图只能置于控制器GUI的插槽中
     S:TileEntity_DESCRIPTION_942_Index_6=比相同电压的单方块机器快到不知道哪里去了
     S:TileEntity_DESCRIPTION_942_Index_7=只需要使用配方要求电压的75%
-#B     S:TileEntity_DESCRIPTION_942_Index_8=Processes five items per voltage tier
-#A     S:TileEntity_DESCRIPTION_942_Index_8=Processes 16 items per voltage tier
-#C     S:TileEntity_DESCRIPTION_942_Index_8=每提升一个电压等级，每次运行可以多处理5个物品
+    S:TileEntity_DESCRIPTION_942_Index_8=每提升一个电压等级，每次运行可以多处理16个物品
     S:TileEntity_DESCRIPTION_942_Index_9=每秒产生§540§7点污染
     S:TileEntity_Secondary_DESCRIPTION_942_Index_0=大小(宽x高x长)：3x3x3(中空)
     S:TileEntity_Secondary_DESCRIPTION_942_Index_1=结构：
@@ -11920,6 +11989,16 @@ Muffler Hatch: Any 1 dot hint
     S:TileEntity_DESCRIPTION_984_Index_5=-----------------------------------------
     S:TileEntity_DESCRIPTION_984_Index_6=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_984_Index_7=添加者: §2Alkalus §7- §c[GT++]
+Dimensions: 1x7x1 (WxHxL)
+Structure:
+Controller: Top Middle
+360x Casing (minimum)
+Rotor Assembly: Any 1 dot hint
+Input Bus: Any 4 dot hint (min 1)
+Input Hatch: Any 4 dot hint(min 1)
+Output Hatch: Any 4 dot hint(min 1)
+Energy Hatch: Any 4 dot hint(min 1)
+Maintenance Hatch: Any 4 dot hint(min 1)
     S:TileEntity_DESCRIPTION_98_Index_0=排放污染(可能会导致...)
     S:TileEntity_DESCRIPTION_98_Index_1=请勿阻塞输出！
     S:TileEntity_DESCRIPTION_98_Index_2=污染排放减少至12%
@@ -14253,30 +14332,14 @@ Muffler Hatch: Any 1 dot hint
     S:gt.blockmachines.basicmachine.chemicalreactor.tier.10.name=史诗化学反应执行者 II
     S:gt.blockmachines.basicmachine.chemicalreactor.tier.11.name=史诗化学反应执行者 III
     S:gt.blockmachines.basicmachine.chemicalreactor.tier.12.name=史诗化学反应执行者 IV
-#B     S:gt.blockmachines.basicmachine.circuitassembler.tier.01.name=Basic Circuit Assembling Machine
-#A     S:gt.blockmachines.basicmachine.circuitassembler.tier.01.name=Basic Circuit Assembler
-#C     S:gt.blockmachines.basicmachine.circuitassembler.tier.01.name=基础电路组装机
-#B     S:gt.blockmachines.basicmachine.circuitassembler.tier.02.name=Advanced Circuit Assembling Machine
-#A     S:gt.blockmachines.basicmachine.circuitassembler.tier.02.name=Advanced Circuit Assembler
-#C     S:gt.blockmachines.basicmachine.circuitassembler.tier.02.name=进阶电路组装机
-#B     S:gt.blockmachines.basicmachine.circuitassembler.tier.03.name=Advanced Circuit Assembling Machine II
-#A     S:gt.blockmachines.basicmachine.circuitassembler.tier.03.name=Advanced Circuit Assembler II
-#C     S:gt.blockmachines.basicmachine.circuitassembler.tier.03.name=进阶电路组装机 II
-#B     S:gt.blockmachines.basicmachine.circuitassembler.tier.04.name=Advanced Circuit Assembling Machine III
-#A     S:gt.blockmachines.basicmachine.circuitassembler.tier.04.name=Advanced Circuit Assembler III
-#C     S:gt.blockmachines.basicmachine.circuitassembler.tier.04.name=进阶电路组装机 III
-#B     S:gt.blockmachines.basicmachine.circuitassembler.tier.05.name=Advanced Circuit Assembling Machine IV
-#A     S:gt.blockmachines.basicmachine.circuitassembler.tier.05.name=Advanced Circuit Assembler IV
-#C     S:gt.blockmachines.basicmachine.circuitassembler.tier.05.name=进阶电路组装机 IV
-#B     S:gt.blockmachines.basicmachine.circuitassembler.tier.06.name=Advanced Circuit Assembling Machine V
-#A     S:gt.blockmachines.basicmachine.circuitassembler.tier.06.name=Advanced Circuit Assembler V
-#C     S:gt.blockmachines.basicmachine.circuitassembler.tier.06.name=进阶电路组装机 V
-#B     S:gt.blockmachines.basicmachine.circuitassembler.tier.07.name=Advanced Circuit Assembling Machine VI
-#A     S:gt.blockmachines.basicmachine.circuitassembler.tier.07.name=Advanced Circuit Assembler VI
-#C     S:gt.blockmachines.basicmachine.circuitassembler.tier.07.name=进阶电路组装机 VI
-#B     S:gt.blockmachines.basicmachine.circuitassembler.tier.08.name=Advanced Circuit Assembling Machine VII
-#A     S:gt.blockmachines.basicmachine.circuitassembler.tier.08.name=Advanced Circuit Assembler VII
-#C     S:gt.blockmachines.basicmachine.circuitassembler.tier.08.name=进阶电路组装机 VII
+    S:gt.blockmachines.basicmachine.circuitassembler.tier.01.name=基础电路组装机
+    S:gt.blockmachines.basicmachine.circuitassembler.tier.02.name=进阶电路组装机
+    S:gt.blockmachines.basicmachine.circuitassembler.tier.03.name=进阶电路组装机 II
+    S:gt.blockmachines.basicmachine.circuitassembler.tier.04.name=进阶电路组装机 III
+    S:gt.blockmachines.basicmachine.circuitassembler.tier.05.name=进阶电路组装机 IV
+    S:gt.blockmachines.basicmachine.circuitassembler.tier.06.name=进阶电路组装机 V
+    S:gt.blockmachines.basicmachine.circuitassembler.tier.07.name=进阶电路组装机 VI
+    S:gt.blockmachines.basicmachine.circuitassembler.tier.08.name=进阶电路组装机 VII
     S:gt.blockmachines.basicmachine.circuitassembler.tier.09.name=终极电路组装机
     S:gt.blockmachines.basicmachine.circuitassembler.tier.10.name=终极电路组装机 II
     S:gt.blockmachines.basicmachine.circuitassembler.tier.11.name=终极电路组装机 III
@@ -14836,9 +14899,7 @@ Muffler Hatch: Any 1 dot hint
     S:gt.blockmachines.breaker.tier.06.name=LuV断路箱
     S:gt.blockmachines.breaker.tier.07.name=ZPM断路箱
     S:gt.blockmachines.breaker.tier.08.name=UV断路箱
-#B     S:gt.blockmachines.breaker.tier.09.name=MAX Voltage Breaker Box
-#A     S:gt.blockmachines.breaker.tier.09.name=UHV Breaker Box
-#C     S:gt.blockmachines.breaker.tier.09.name=MAX断路箱
+    S:gt.blockmachines.breaker.tier.09.name=UHV断路箱
     S:gt.blockmachines.bronzemachine.alloysmelter.name=蒸汽合金炉
     S:gt.blockmachines.bronzemachine.blastfurnace.name=青铜高炉
     S:gt.blockmachines.bronzemachine.compressor.name=蒸汽压缩机
@@ -26610,13 +26671,9 @@ Muffler Hatch: Any 1 dot hint
     S:gt.bwMetaGeneratedbolt.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedbolt.name=Generated Item
     S:gt.bwMetaGeneratedcapsule.10002.name=铀基流体燃料胶囊
-#B     S:gt.bwMetaGeneratedcapsule.10002.tooltip=U₃₆Rb₈Qt₄Rn
-#A     S:gt.bwMetaGeneratedcapsule.10002.tooltip=U₃₆K₈Qt₄Rn
-#C     S:gt.bwMetaGeneratedcapsule.10002.tooltip=U₃₆Rb₈Qt₄Rn
+    S:gt.bwMetaGeneratedcapsule.10002.tooltip=U₃₆K₈Qt₄Rn
     S:gt.bwMetaGeneratedcapsule.10003.name=铀基流体燃料(激发态)胶囊
-#B     S:gt.bwMetaGeneratedcapsule.10003.tooltip=*(U₃₆Rb₈Qt₄Rn)*
-#A     S:gt.bwMetaGeneratedcapsule.10003.tooltip=*(U₃₆K₈Qt₄Rn)*
-#C     S:gt.bwMetaGeneratedcapsule.10003.tooltip=*(U₃₆Rb₈Qt₄Rn)*
+    S:gt.bwMetaGeneratedcapsule.10003.tooltip=*(U₃₆K₈Qt₄Rn)*
     S:gt.bwMetaGeneratedcapsule.10004.name=铀基流体燃料(枯竭的)胶囊
     S:gt.bwMetaGeneratedcapsule.10004.tooltip=Pb?Bi?Ba?Xe?
     S:gt.bwMetaGeneratedcapsule.10006.name=钍基流体燃料胶囊
@@ -26626,13 +26683,9 @@ Muffler Hatch: Any 1 dot hint
     S:gt.bwMetaGeneratedcapsule.10008.name=钍基流体燃料(枯竭的)胶囊
     S:gt.bwMetaGeneratedcapsule.10008.tooltip=Lu?Pr?B?In?
     S:gt.bwMetaGeneratedcapsule.10010.name=钚基流体燃料胶囊
-#B     S:gt.bwMetaGeneratedcapsule.10010.tooltip=Pu₄₅Nt₈Cs₁₆Am₂
-#A     S:gt.bwMetaGeneratedcapsule.10010.tooltip=Pu₄₅Nt₈Cs₁₆Nq₂
-#C     S:gt.bwMetaGeneratedcapsule.10010.tooltip=Pu₄₅Nt₈Cs₁₆Am₂
+    S:gt.bwMetaGeneratedcapsule.10010.tooltip=Pu₄₅Nt₈Cs₁₆Nq₂
     S:gt.bwMetaGeneratedcapsule.10011.name=钚基流体燃料(激发态)胶囊
-#B     S:gt.bwMetaGeneratedcapsule.10011.tooltip=*(Pu₄₅Nt₈Cs₁₆Am₂)*
-#A     S:gt.bwMetaGeneratedcapsule.10011.tooltip=*(Pu₄₅Nt₈Cs₁₆Nq₂)*
-#C     S:gt.bwMetaGeneratedcapsule.10011.tooltip=*(Pu₄₅Nt₈Cs₁₆Am₂)*
+    S:gt.bwMetaGeneratedcapsule.10011.tooltip=*(Pu₄₅Nt₈Cs₁₆Nq₂)*
     S:gt.bwMetaGeneratedcapsule.10012.name=钚基流体燃料(枯竭的)胶囊
     S:gt.bwMetaGeneratedcapsule.10012.tooltip=Tn?Ce?Au?Kr?
     S:gt.bwMetaGeneratedcapsule.10013.name=草酸胶囊
@@ -26866,13 +26919,9 @@ Muffler Hatch: Any 1 dot hint
     S:gt.bwMetaGeneratedcapsuleMolten.96.tooltip=化学式太长...
     S:gt.bwMetaGeneratedcapsuleMolten.name=Generated Item
     S:gt.bwMetaGeneratedcell.10002.name=铀基流体燃料单元
-#B     S:gt.bwMetaGeneratedcell.10002.tooltip=U₃₆Rb₈Qt₄Rn
-#A     S:gt.bwMetaGeneratedcell.10002.tooltip=U₃₆K₈Qt₄Rn
-#C     S:gt.bwMetaGeneratedcell.10002.tooltip=U₃₆Rb₈Qt₄Rn
+    S:gt.bwMetaGeneratedcell.10002.tooltip=U₃₆K₈Qt₄Rn
     S:gt.bwMetaGeneratedcell.10003.name=铀基流体燃料(激发态)单元
-#B     S:gt.bwMetaGeneratedcell.10003.tooltip=*(U₃₆Rb₈Qt₄Rn)*
-#A     S:gt.bwMetaGeneratedcell.10003.tooltip=*(U₃₆K₈Qt₄Rn)*
-#C     S:gt.bwMetaGeneratedcell.10003.tooltip=*(U₃₆Rb₈Qt₄Rn)*
+    S:gt.bwMetaGeneratedcell.10003.tooltip=*(U₃₆K₈Qt₄Rn)*
     S:gt.bwMetaGeneratedcell.10004.name=铀基流体燃料(枯竭的)单元
     S:gt.bwMetaGeneratedcell.10004.tooltip=Pb?Bi?Ba?Xe?
     S:gt.bwMetaGeneratedcell.10006.name=钍基流体燃料单元
@@ -26882,13 +26931,9 @@ Muffler Hatch: Any 1 dot hint
     S:gt.bwMetaGeneratedcell.10008.name=钍基流体燃料(枯竭的)单元
     S:gt.bwMetaGeneratedcell.10008.tooltip=Lu?Pr?B?In?
     S:gt.bwMetaGeneratedcell.10010.name=钚基流体燃料单元
-#B     S:gt.bwMetaGeneratedcell.10010.tooltip=Pu₄₅Nt₈Cs₁₆Am₂
-#A     S:gt.bwMetaGeneratedcell.10010.tooltip=Pu₄₅Nt₈Cs₁₆Nq₂
-#C     S:gt.bwMetaGeneratedcell.10010.tooltip=Pu₄₅Nt₈Cs₁₆Am₂
+    S:gt.bwMetaGeneratedcell.10010.tooltip=Pu₄₅Nt₈Cs₁₆Nq₂
     S:gt.bwMetaGeneratedcell.10011.name=钚基流体燃料(激发态)单元
-#B     S:gt.bwMetaGeneratedcell.10011.tooltip=*(Pu₄₅Nt₈Cs₁₆Am₂)*
-#A     S:gt.bwMetaGeneratedcell.10011.tooltip=*(Pu₄₅Nt₈Cs₁₆Nq₂)*
-#C     S:gt.bwMetaGeneratedcell.10011.tooltip=*(Pu₄₅Nt₈Cs₁₆Am₂)*
+    S:gt.bwMetaGeneratedcell.10011.tooltip=*(Pu₄₅Nt₈Cs₁₆Nq₂)*
     S:gt.bwMetaGeneratedcell.10012.name=钚基流体燃料(枯竭的)单元
     S:gt.bwMetaGeneratedcell.10012.tooltip=Tn?Ce?Au?Kr?
     S:gt.bwMetaGeneratedcell.10013.name=草酸单元
@@ -58792,9 +58837,7 @@ Muffler Hatch: Any 1 dot hint
     S:gtpp.blockmachines.breaker.tier.06.name=LuV断路箱
     S:gtpp.blockmachines.breaker.tier.07.name=ZPM断路箱
     S:gtpp.blockmachines.breaker.tier.08.name=UV断路箱
-#B     S:gtpp.blockmachines.breaker.tier.09.name=MAX Voltage Breaker Box
-#A     S:gtpp.blockmachines.breaker.tier.09.name=UHV Breaker Box
-#C     S:gtpp.blockmachines.breaker.tier.09.name=MAX断路箱
+    S:gtpp.blockmachines.breaker.tier.09.name=UHV断路箱
     S:gtpp.recipe.RTGgenerators=RTG(放射性同位素温差发电机)
     S:gtpp.recipe.advanced.mixer=进阶材料混合机
     S:gtpp.recipe.alloyblastsmelter=合金冶炼炉
@@ -59040,87 +59083,3 @@ Muffler Hatch: Any 1 dot hint
     S:gt.nuclearIsotopeMaterial.4000.tooltip=§b钍的同位素.§r
     S:gt.nuclearIsotopeMaterial.name=Generated Item
     S:gtpp.recipe.lftr.2=液态氟钍反应堆2
-    # NEED MANUAL INSPECTION!!! This keys may have be removed or modified in new en_US.lang.
-    S:Interaction_DESCRIPTION_Index_207=泵速：%d 升/%dt，平均%.2f 升/秒
-    S:Interaction_DESCRIPTION_Index_208= 升
-    S:Interaction_DESCRIPTION_Index_209= t
-    S:Interaction_DESCRIPTION_Index_210=平均：%.2f 升/秒
-    S:Interaction_DESCRIPTION_Index_224=忽略
-    S:Interaction_DESCRIPTION_Index_225=收到信号工作
-    S:Interaction_DESCRIPTION_Index_226=收到信号不工作
-    S:Interaction_DESCRIPTION_Index_227=允许输入
-    S:Interaction_DESCRIPTION_Index_228=禁止输入
-    S:Interaction_DESCRIPTION_Index_229=输入/输出
-    S:Interaction_DESCRIPTION_Index_230=红石信号
-    S:Interaction_DESCRIPTION_Index_231=是否允许输入
-    S:Interaction_DESCRIPTION_Index_232=过滤输入
-    S:Interaction_DESCRIPTION_Index_233=过滤输出
-    S:Interaction_DESCRIPTION_Index_234=禁止输出
-    S:Interaction_DESCRIPTION_Index_235=允许输出
-    S:Interaction_DESCRIPTION_Index_236=白名单流体
-    S:Interaction_DESCRIPTION_Index_237=黑名单流体
-    S:Interaction_DESCRIPTION_Index_238=过滤方向
-    S:Interaction_DESCRIPTION_Index_239=过滤模式
-    S:Interaction_DESCRIPTION_Index_240=是否允许输出
-    S:Interaction_DESCRIPTION_Index_241=合成进程
-    S:Interaction_DESCRIPTION_Index_242=机器闲置
-    S:Interaction_DESCRIPTION_Index_243=收到红石信号时开启
-    S:Interaction_DESCRIPTION_Index_244=收到红石信号时关闭
-    S:Interaction_DESCRIPTION_Index_245=禁用机器
-    S:Interaction_DESCRIPTION_Index_246=频率
-    S:Interaction_DESCRIPTION_Index_247=1 维护问题
-    S:Interaction_DESCRIPTION_Index_248=2 维护问题
-    S:Interaction_DESCRIPTION_Index_249=3 维护问题
-    S:Interaction_DESCRIPTION_Index_250=4 维护问题
-    S:Interaction_DESCRIPTION_Index_251=5 维护问题
-    S:Interaction_DESCRIPTION_Index_252=转子 < 80%
-    S:Interaction_DESCRIPTION_Index_253=转子 < 100%
-    S:Interaction_DESCRIPTION_Index_254=探测槽位#
-    S:Interaction_DESCRIPTION_Index_256=通用储量
-    S:Interaction_DESCRIPTION_Index_257=电能储量
-    S:Interaction_DESCRIPTION_Index_258=蒸汽储量
-    S:Interaction_DESCRIPTION_Index_259=平均输入功率
-    S:Interaction_DESCRIPTION_Index_260=平均输出功率
-    S:Interaction_DESCRIPTION_Index_261=电能储量(含电池)
-    S:Interaction_DESCRIPTION_Index_299=物品过滤：
-    S:Interaction_DESCRIPTION_Index_300=列表已清空!
-    S:Interaction_DESCRIPTION_Index_301=通用
-    S:Interaction_DESCRIPTION_Index_302=内部EU
-    S:Interaction_DESCRIPTION_Index_303=蒸汽
-    S:Interaction_DESCRIPTION_Index_304=平均输入
-    S:Interaction_DESCRIPTION_Index_305=平均输出
-    S:Interaction_DESCRIPTION_Index_306=已存储EU
-    S:Interaction_DESCRIPTION_Index_307=禁止输入，过滤输出
-    S:Interaction_DESCRIPTION_Index_308=禁止输入，反转输出
-    S:Interaction_DESCRIPTION_Index_309=允许输入，过滤输出
-    S:Interaction_DESCRIPTION_Index_310=允许输入，反转输出
-    S:Interaction_DESCRIPTION_Index_311=禁止输出
-    S:Interaction_DESCRIPTION_Index_312=允许输出
-    S:Interaction_DESCRIPTION_Index_313=禁止输入
-    S:Interaction_DESCRIPTION_Index_314=允许输入
-    S:Interaction_DESCRIPTION_Index_315=过滤表为空
-    S:Interaction_DESCRIPTION_Index_316=达到泵速限制!
-    S:Interaction_DESCRIPTION_Index_317=过滤：
-    S:Interaction_DESCRIPTION_Index_318=检查模式
-    S:Interaction_DESCRIPTION_Index_319=任意玩家
-    S:Interaction_DESCRIPTION_Index_320=其他玩家
-    S:Interaction_DESCRIPTION_Index_321=仅自己
-    S:Interaction_DESCRIPTION_Index_322=溢流阈值：
-    S:Interaction_DESCRIPTION_Index_323=升
-    S:Interaction_DESCRIPTION_Index_324=当前
-    S:Interaction_DESCRIPTION_Index_325=最大
-    S:Interaction_DESCRIPTION_Index_507=安全模式
-    S:Interaction_DESCRIPTION_Index_601=使用私有频率
-    S:Interaction_DESCRIPTION_Index_NORMAL=一般
-    S:Interaction_DESCRIPTION_Index_INVERTED=反转
-    S:Interaction_DESCRIPTION_Index_ALL=所有
-    S:TileEntity_DESCRIPTION_812_Index_10=添加者: §2Alkalus §7- §c[GT++]
-    S:gt.bwMetaGenerateddust.82.name=硝酸钠粉
-    S:gt.bwMetaGenerateddust.82.tooltip=NaNO₃
-    S:gt.bwMetaGenerateddustSmall.82.name=小堆硝酸钠粉
-    S:gt.bwMetaGenerateddustSmall.82.tooltip=NaNO₃
-    S:gt.bwMetaGenerateddustTiny.82.name=小撮硝酸钠粉
-    S:gt.bwMetaGenerateddustTiny.82.tooltip=NaNO₃
-}
-
-
