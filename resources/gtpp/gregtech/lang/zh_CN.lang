@@ -15,12 +15,15 @@ GTPP.multiblock.efficiency=效率
 GTPP.multiblock.problems=维护问题
 GTPP.multiblock.mei=最大能量输入
 GTPP.multiblock.usage=NEI功率
+GTPP.multiblock.generation=可能生成
 GTPP.multiblock.specialvalue=特殊值
 GTPP.multiblock.duration=NEI时间
 
+
+
 GTPP.CC.machinetier=控制核心等级
 GTPP.CC.discount=EU损耗
-GTPP.CC.parallel=最大并行处理进程
+GTPP.CC.parallel=最大并行
 
 //Tooltips for the Charger Packs
 GTPP.battpack.tooltip.1=在Baubles的腰带栏内使用
@@ -45,6 +48,17 @@ GTPP.monsterkiller.tooltip.4=目标类型:
 
 //17/08/19
 GTPP.container.decaychest.name=可衰变
+
+
+
+
+
+
+
+
+
+
+
 
 //NEI INFORMATION
 GTPP.nei.info=信息
@@ -72,6 +86,16 @@ GTPP.time.weeks=周
 GTPP.time.months=月
 
 
+
+
+
+
+
+
+
+
+
+
 //Achievements
 
 //4/2/19
@@ -87,6 +111,7 @@ achievement.gt.blockmachines.gtplusplus.fusion.single=可控聚变
 achievement.gt.blockmachines.gtplusplus.tank.plasma=等离子存储
 achievement.gt.blockmachines.gtplusplus.fusion.single.desc=[AL]捡起这个物品以在NEI内查看合成表
 achievement.gt.blockmachines.gtplusplus.tank.plasma.desc=[AL]捡起这个物品以在NEI内查看合成表
+
 
 //5/2/19
 achievement.MU-metaitem.01.32106=初级物理学家
@@ -115,6 +140,8 @@ achievement.item.GTPP.BattPack.06.name.desc=[AL]捡起这个物品以在NEI内�
 achievement.item.GTPP.BattPack.07.name.desc=[AL]捡起这个物品以在NEI内查看合成表
 achievement.item.GTPP.BattPack.08.name.desc=[AL]捡起这个物品以在NEI内查看合成表
 achievement.item.GTPP.BattPack.09.name.desc=[AL]捡起这个物品以在NEI内查看合成表
+
+
 
 //14/2/19
 achievement.gtpp.start=Gregtech++
@@ -188,24 +215,10 @@ achievement.decay.technetium99.desc=回旋加速器产品
 achievement.gt.blockmachines.hatch.turbine.input.tier.00=涡轮仓
 achievement.gt.blockmachines.hatch.turbine.input.tier.00.desc=[AL]捡起这个物品以在NEI内查看合成表
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Added 6/12/21
+achievement.gt.blockmachines.gtpp.multimachine.flotationcell=工业浮选机
+achievement.gt.blockmachines.gtpp.multimachine.flotationcell.desc=[AL]捡起这个物品以在NEI内查看合成表
+achievement.gt.blockmachines.gtpp.multimachine.isamill=艾萨研磨机
+achievement.gt.blockmachines.gtpp.multimachine.isamill.desc=[AL]捡起这个物品以在NEI内查看合成表
 
 
