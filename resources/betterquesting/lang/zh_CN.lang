@@ -54,6 +54,10 @@ betterquesting.btn.zoom_fit=缩放至适应屏幕
 betterquesting.btn.lock_tray=锁定弹出栏
 betterquesting.btn.view_mode=浏览模式
 betterquesting.btn.view_mode_btn=浏览模式按钮
+betterquesting.btn.always_draw_implicit=始终显示隐藏前置任务
+betterquesting.btn.prereq_visbility.normal=默认视图
+betterquesting.btn.prereq_visbility.implicit=除悬停或按住Shift时，其余隐藏
+betterquesting.btn.prereq_visbility.hidden=始终隐藏
 
 betterquesting.home.exit=退出
 betterquesting.home.quests=任务
@@ -98,6 +102,8 @@ betterquesting.tooltip.auto_claim=自动领取: %s
 betterquesting.tooltip.repeat=重置任务: %s
 betterquesting.tooltip.repeat_with_edit_mode=编辑模式已启用，可重复任务不会重置
 betterquesting.tooltip.update_quests=更新可用!%n§7新任务线版本可用.%n单击此处可安装并迁移进度.
+betterquesting.tooltip.cycle.true=点击禁用
+betterquesting.tooltip.cycle.false=点击启用
 
 betterquesting.notice.complete=任务完成
 betterquesting.notice.update=任务更新
@@ -204,6 +210,9 @@ betterquesting.cmd.reset.player_all=重置所有任务对 %s
 betterquesting.cmd.reset.all_single=重置任务 '%s' 对所有玩家
 betterquesting.cmd.reset.all_all=重置所有任务对所有玩家
 betterquesting.cmd.refresh=刷新本地数据...
+
+betterquesting.cmd.cleanup_questline.confirm=这是一个危险的操作.在此之前请确认备份.再次输入此指令以开始清理.
+betterquesting.cmd.cleanup_questline.completed=移除 %d 条目
 
 json.betterquesting.quest.name=任务数据
 jdoc.betterquesting.quest.rewards.name=任务奖励
