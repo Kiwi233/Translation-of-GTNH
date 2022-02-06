@@ -216,6 +216,11 @@ tile.CinderFurnaceLit.name=余烬熔炉 [NYI]
 tile.CinderLog.0.name=余烬原木 [NYI]
 tile.CinderLog.4.name=余烬原木 [NYI]
 tile.CinderLog.8.name=余烬原木 [NYI]
+tile.TFTrophy.0.name=九头蛇战利品
+tile.TFTrophy.1.name=娜迦战利品
+tile.TFTrophy.2.name=巫妖战利品
+tile.TFTrophy.3.name=暮色恶魂战利品
+tile.TFTrophy.4.name=冰雪女王战利品
 
 item.adherentFragment.name=信徒法袍残片
 item.nagaScale.name=娜迦鳞片
@@ -274,8 +279,8 @@ item.meefStroganoff.name=牛头人沙拉酱肉
 item.mazeWafer.name=迷宮薄饼
 item.emptyMagicMap.name=空白的魔法地图
 item.emptyMazeMap.name=空白的迷宮地图
-item.harbingerFragment.name=先驱立方体碎片
 item.emptyOreMap.name=空白的迷宮/矿石地图
+item.harbingerFragment.name=先驱立方体碎片
 item.oreMagnet.name=矿石磁铁
 item.crumbleHorn.name=粉碎号角
 item.peacockFan.name=孔雀羽毛扇
@@ -368,6 +373,7 @@ entity.TwilightForest.Hydra.name=九头蛇
 entity.TwilightForest.HydraHead.name=九头蛇头
 entity.TwilightForest.Twilight Lich.name=巫妖
 entity.TwilightForest.Glacier Penguin.name=企鹅
+entity.TwilightForest.Penguin.name=企鹅
 entity.TwilightForest.Tiny Bird.name=小鸟
 entity.TwilightForest.Forest Squirrel.name=松鼠
 entity.TwilightForest.Forest Bunny.name=兔子
@@ -484,3 +490,5 @@ achievement.twilightProgressCastle.desc=城堡里能有什么?!?
 
 tooltip.tf.adherent=信徒, 谁的信徒?
 tooltip.tf.harbinger=先驱, 什么的先驱?
+
+chat.tf.wrongportalitem=你在期待什么? 尝试使用 %s 吧.
