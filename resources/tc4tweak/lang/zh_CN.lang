@@ -30,3 +30,7 @@ tc4tweaks.config.general.arcaneCraftingHistorySize=Arcane Crafting History Size
 tc4tweaks.config.general.arcaneCraftingHistorySize.tooltip=The maximum size of arcane crafting cache. 0 will effectively turn off the cache. It is suggested to keep a size of at least 1 to ensure shift crafting does not lag the server. \n[range: 0 ~ 256]
 tc4tweaks.config.general.checkWorkbenchRecipes=checkWorkbenchRecipes
 tc4tweaks.config.general.checkWorkbenchRecipes.tooltip=When false, Arcane Workbench will not perform vanilla crafting bench recipes. Arcane Workbench GUI will behave slightly awkwardly if the client has it false but not on server, but nothing would be broken. See curseforge mod page for a detailed explanation.
+
+nei.options.tools.dump.tc4tweaks=TC4Tweaks
+nei.options.tools.dump.tc4tweaks.tc4tags=已注册物品堆叠标签
+nei.options.tools.dump.tc4tweaks.tc4tags.dumped=标签已导出到 %s

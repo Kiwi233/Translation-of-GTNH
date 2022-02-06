@@ -107,6 +107,11 @@ tile.blockCompressedObsidian.2.name=三重压缩黑曜石(729)
 tile.blockCompressedObsidian.3.name=四重压缩黑曜石(6561)
 tile.blockCompressedObsidian.4.name=五重压缩黑曜石(59049)
 tile.blockCompressedObsidian.5.name=反转黑曜石
+tile.blockCompressedObsidian.6.name=压缩萤石(9)
+tile.blockCompressedObsidian.7.name=二重压缩萤石(81)
+tile.blockCompressedObsidian.8.name=三重压缩萤石(729)
+tile.blockCompressedObsidian.9.name=四重压缩萤石(6561)
+tile.blockCompressedObsidian.10.name=五重压缩萤石(59049)
 tile.blockNet.name=网
 
 
@@ -169,11 +174,11 @@ item.itemHotFoodCurriedSausages.name=一份热咖喱香肠
 
 
 //Conversion Dusts
-item.dustNeptunium238.name=镎 238粉
-item.dustRadium226.name=镭 226粉
-item.itemDustDecayedRadium226.name=衰变镭 226粉
-item.itemDustSmallDecayedRadium226.name=小堆衰变镭 226粉
-item.itemDustTinyDecayedRadium226.name=小撮衰变镭 226粉
+item.dustNeptunium238.name=镎-238粉
+item.dustRadium226.name=镭-226粉
+item.itemDustDecayedRadium226.name=衰变镭-226粉
+item.itemDustSmallDecayedRadium226.name=小堆衰变镭-226粉
+item.itemDustTinyDecayedRadium226.name=小撮衰变镭-226粉
 
 //Material Items
 item.itemDustGadolinium.name=钆粉
@@ -1170,14 +1175,14 @@ item.itemRingQuantum.name=量子合金环
 item.itemScrewQuantum.name=量子合金螺丝
 item.itemRotorQuantum.name=量子合金转子
 item.itemGearQuantum.name=量子合金齿轮
-item.itemDustFluorite.name=氟石粉
-item.itemDustTinyFluorite.name=小撮氟石粉
-item.itemDustSmallFluorite.name=小堆氟石粉
-item.crushedFluorite.name=粉碎的氟石矿石
-item.crushedCentrifugedFluorite.name=离心氟石矿石
-item.crushedPurifiedFluorite.name=洗净的氟石矿石
-item.dustImpureFluorite.name=含杂氟石粉
-item.dustPureFluorite.name=洁净氟石粉
+item.itemDustFluoriteF.name=氟石(F)粉
+item.itemDustTinyFluoriteF.name=小撮氟石(F)粉
+item.itemDustSmallFluoriteF.name=小堆氟石(F)粉
+item.crushedFluoriteF.name=粉碎的氟石(F)矿石
+item.crushedCentrifugedFluoriteF.name=离心氟石(F)矿石
+item.crushedPurifiedFluoriteF.name=洗净的氟石(F)矿石
+item.dustImpureFluoriteF.name=含杂氟石(F)粉
+item.dustPureFluoriteF.name=洁净氟石(F)粉
 item.itemDustCrocoite.name=赤铅矿粉
 item.itemDustTinyCrocoite.name=小撮赤铅矿粉
 item.itemDustSmallCrocoite.name=小堆赤铅矿粉
@@ -1418,14 +1423,14 @@ item.crushedCentrifugedFlorencite.name=离心磷铝铈矿矿石
 item.crushedPurifiedFlorencite.name=洗净的磷铝铈矿矿石
 item.dustImpureFlorencite.name=含杂磷铝铈矿粉
 item.dustPureFlorencite.name=洁净磷铝铈矿粉
-item.itemDustCryolite.name=冰晶石粉
-item.itemDustTinyCryolite.name=小撮冰晶石粉
-item.itemDustSmallCryolite.name=小堆冰晶石粉
-item.crushedCryolite.name=粉碎的冰晶石矿石
-item.crushedCentrifugedCryolite.name=离心冰晶石矿石
-item.crushedPurifiedCryolite.name=洗净的冰晶石矿石
-item.dustImpureCryolite.name=含杂冰晶石粉
-item.dustPureCryolite.name=洁净冰晶石粉
+item.itemDustCryoliteF.name=冰晶石(F)粉
+item.itemDustTinyCryoliteF.name=小撮冰晶石(F)粉
+item.itemDustSmallCryoliteF.name=小堆冰晶石(F)粉
+item.crushedCryoliteF.name=粉碎的冰晶石(F)矿石
+item.crushedCentrifugedCryoliteF.name=离心冰晶石(F)矿石
+item.crushedPurifiedCryoliteF.name=洗净的冰晶石(F)矿石
+item.dustImpureCryoliteF.name=含杂冰晶石(F)粉
+item.dustPureCryoliteF.name=洁净冰晶石(F)粉
 item.itemDustTinyYellorium.name=小撮黄铀矿粉
 item.itemDustSmallYellorium.name=小堆黄铀矿粉
 item.crushedYellorium.name=粉碎的黄铀矿矿石
@@ -1482,14 +1487,14 @@ item.itemDustTinyUN18Fertiliser.name=小撮流体肥料un-18粉
 item.itemDustUN32Fertiliser.name=流体肥料UN-32粉
 item.itemDustSmallUN32Fertiliser.name=小堆流体肥料UN-32粉
 item.itemDustTinyUN32Fertiliser.name=小撮流体肥料UN-32粉
-item.itemNuggetPlutonium239.name=钚 239粒
-item.itemCellPlutonium239.name=钚 239单元
-item.itemIngotPlutonium239.name=钚 239锭
-item.itemPlatePlutonium239.name=钚 239板
-item.itemPlateDoublePlutonium239.name=双重钚 239板
-item.itemDustPlutonium239.name=钚 239粉
-item.itemDustSmallPlutonium239.name=小堆钚 239粉
-item.itemDustTinyPlutonium239.name=小撮钚 239粉
+item.itemNuggetPlutonium239.name=钚-239粒
+item.itemCellPlutonium239.name=钚-239单元
+item.itemIngotPlutonium239.name=钚-239锭
+item.itemPlatePlutonium239.name=钚-239板
+item.itemPlateDoublePlutonium239.name=双重钚-239板
+item.itemDustPlutonium239.name=钚-239粉
+item.itemDustSmallPlutonium239.name=小堆钚-239粉
+item.itemDustTinyPlutonium239.name=小撮钚-239粉
 
 
 //Multitools
@@ -1522,8 +1527,8 @@ item.OsmiumMultispade.name=锇复合铲
 item.PalladiumMultipick.name=钯复合镐
 item.PalladiumMultispade.name=钯复合铲
 item.PlatinumMultispade.name=铂复合铲
-item.Plutonium241Multipick.name=钚 241复合镐
-item.Plutonium241Multispade.name=钚 241复合铲
+item.Plutonium241Multipick.name=钚-241复合镐
+item.Plutonium241Multispade.name=钚-241复合铲
 item.SilverMultispade.name=银复合铲
 item.ThoriumMultipick.name=钍复合镐
 item.ThoriumMultispade.name=钍复合铲
@@ -1531,8 +1536,8 @@ item.TitaniumMultipick.name=钛复合镐
 item.TitaniumMultispade.name=钛复合铲
 item.TungstenMultipick.name=钨复合镐
 item.TungstenMultispade.name=钨复合铲
-item.Uranium235Multipick.name=铀 235复合镐
-item.Uranium235Multispade.name=铀 235复合铲
+item.Uranium235Multipick.name=铀-235复合镐
+item.Uranium235Multispade.name=铀-235复合铲
 item.DarkSteelMultipick.name=玄钢复合镐
 item.DarkSteelMultispade.name=玄钢复合铲
 item.DuraniumMultipick.name=铿铀复合镐
@@ -1890,7 +1895,7 @@ tile.Block of Quantum.name=量子合金块
 tile.Quantum Frame Box.name=量子合金框架
 
 //Ores
-tile.OreFluorite.name=氟石矿石
+tile.OreFluoriteF.name=氟石(F)矿石
 tile.OreCrocoite.name=赤铅矿矿石
 tile.OreGeikielite.name=镁钛矿矿石
 tile.OreNichromite.name=镍铬矿矿石
@@ -1921,7 +1926,7 @@ tile.OreHibonite.name=黑铝钙石矿石
 tile.OreCerite.name=铈硅石矿石
 tile.OreFluorcaphite.name=氟碳铈矿矿石
 tile.OreFlorencite.name=磷铝铈矿矿石
-tile.OreCryolite.name=冰晶石矿石
+tile.OreCryoliteF.name=冰晶石(F)矿石
 
 //Misc
 tile.blockMFEffect.name=特殊
@@ -2723,8 +2728,8 @@ item.gtpp.debug.scanner.name=GT++排错扫描器
 item.RawWaste.name=动物粪便单元
 item.ManureSlurry.name=粪浆单元
 item.FertileManureSlurry.name=肥沃的粪浆单元
-item.itemDustTinyDemicheleiteBr.name=小撮德米凯莱(Br)
-item.itemDustSmallDemicheleiteBr.name=小堆德米凯莱(Br)
+item.itemDustTinyDemicheleiteBr.name=小撮重闪石(Br)
+item.itemDustSmallDemicheleiteBr.name=小堆重闪石(Br)
 tile.blockPooCollector.name=农业下水道
 tile.Block of Lithium 7.name=锂7块
 
@@ -3235,9 +3240,139 @@ tile.Botmium Frame Box.name=博特姆合金框架
 item.itemBasicTurbine.name=基础涡轮
 item.itemBasicTurbine_0.name=基础铁涡轮
 item.itemBasicTurbine_1.name=基础青铜涡轮
+item.itemBasicTurbine_2.name=基础钢涡轮
 
 interaction.voidexcess.enabled=启用过量销毁
 interaction.voidexcess.disabled=禁用过量销毁
 
 interaction.separateBusses.enabled=独立输入总线
 interaction.separateBusses.disabled=联合输入总线
+//Added 29/11/21
+
+item.BasicNuclearChemItem.0.name=铀渣混合物
+item.BasicNuclearChemItem.1.name=钚渣混合物
+item.BasicNuclearChemItem.2.name=氟盐渣混合物
+item.BasicNuclearChemItem.3.name=稀有渣混合物
+item.BasicNuclearChemItem.4.name=红藻生物质
+item.BasicNuclearChemItem.5.name=纤维素纤维
+item.BasicNuclearChemItem.6.name=金褐纤维素纤维
+item.BasicNuclearChemItem.7.name=红色纤维素纤维
+
+item.itemCellLiFBeF2ZrF4U235.name=熔盐单元[铀235复合氟化物]
+item.itemCellLiFBeF2ZrF4UF4.name=熔盐单元[铀锆复合氟化物]
+item.itemCellLiFBeF2ThF4UF4.name=熔盐单元[铀钍复合氟化物]
+item.Li2BeF2UF4.name=枯竭熔盐单元[Li2BeF2UF4]
+
+//Added 6/12/21
+item.itemCellLiFBeF2UF4FP.name=LiFBeF2UF4FP单元
+item.itemCellUF6F2.name=UF6F2单元
+item.itemCellLiFBeF2ThF4.name=LiFBeF2ThF4单元
+item.itemCellUF6F2FP.name=UF6F2FP单元
+item.dustProtactinium233.name=镤-233粉
+item.itemCellLiFThF4.name=LiFThF4单元
+item.NuclearWaste.name=核废水单元
+item.itemCellLiFBeF2UF4.name=LiFBeF2UF4单元
+item.itemCellSodiumFluoride.name=氟化钠单元
+item.itemCellLiFBeF2.name=LiFBeF2单元
+
+//Added 7/12/21
+item.itemCellDysprosium.name=镝单元
+item.itemCellThorium.name=钍单元
+item.itemCellTellurium.name=碲单元
+item.itemCellThorium232.name=钍-232单元
+item.itemCellLithiumTetrafluoroberyllate.name=四氟铍酸锂单元
+item.itemCellBurntReactorFuelI.name=枯竭熔盐单元[铀235复合氟化物]
+item.itemCellBurntReactorFuelII.name=枯竭熔盐单元[铀锆复合氟化物]
+item.itemDustTinyIndium.name=小撮铟粉
+item.itemDustSmallIndium.name=小堆铟粉
+item.itemDustIndium.name=铟粉
+item.itemDustTinyBerylliumHydroxide.name=小撮氢氧化铍粉
+item.itemDustSmallBerylliumHydroxide.name=小堆氢氧化铍粉
+item.itemDustBerylliumHydroxide.name=氢氧化铍粉
+item.itemDustTinyAmmoniumBifluoride.name=小撮氟化氢铵粉
+item.itemDustSmallAmmoniumBifluoride.name=小堆氟化氢铵粉
+item.itemDustAmmoniumBifluoride.name=氟化氢铵粉
+item.itemDustTinyAmmoniumTetrafluoroberyllate.name=小撮氟铍酸铵粉
+item.itemDustSmallAmmoniumTetrafluoroberyllate.name=小堆氟铍酸铵粉
+item.itemDustAmmoniumTetrafluoroberyllate.name=氟铍酸铵粉
+
+//Added 10/12/21
+item.ImpureLiFBeF2.name=含杂LiFBeF2单元
+item.itemCellHeliumSpargedLiFBeF2UF4FP.name=氦涤LiFBeF2UF4FP单元
+item.itemCellFluorineSpargedLiFThF4.name=氟涤LiFThF4单元
+item.itemCellFluorineSpargedLiFBeF2ThF4.name=氟涤LiFBeF2ThF4单元
+item.itemIngotHS188A.name=HS-188A锭
+item.itemHotIngotHS188A.name=热HS-188A锭
+item.itemDustHS188A.name=HS-188A粉
+item.itemDustTinyHS188A.name=小撮HS-188A粉
+item.itemDustSmallHS188A.name=小堆HS-188A粉
+item.itemNuggetHS188A.name=HS-188A粒
+item.itemPlateHS188A.name=HS-188A板
+item.itemPlateDoubleHS188A.name=双重HS-188A板
+item.itemBoltHS188A.name=HS-188A螺栓
+item.itemRodHS188A.name=HS-188A杆
+item.itemRodLongHS188A.name=长HS-188A杆
+item.itemRingHS188A.name=HS-188A环
+item.itemScrewHS188A.name=HS-188A螺丝
+item.itemRotorHS188A.name=HS-188A转子
+item.itemGearHS188A.name=HS-188A齿轮
+item.itemCellHS188A.name=HS-188A单元
+
+//Added 12/12/21
+item.itemIngotErbium.name=铒锭
+item.itemHotIngotErbium.name=热铒锭
+item.itemDustErbium.name=铒粉
+item.itemDustTinyErbium.name=小撮铒粉
+item.itemDustSmallErbium.name=小堆铒粉
+item.itemNuggetErbium.name=铒粒
+item.itemPlateErbium.name=铒板
+item.itemPlateDoubleErbium.name=双重铒板
+item.itemBoltErbium.name=铒螺栓
+item.itemRodErbium.name=铒杆
+item.itemRodLongErbium.name=长铒杆
+item.itemRingErbium.name=铒环
+item.itemScrewErbium.name=铒螺丝
+item.itemRotorErbium.name=铒转子
+item.itemGearErbium.name=铒齿轮
+item.itemCellErbium.name=铒单元
+item.itemIngotHeLiCoPtEr.name=HeLiCoPtEr锭
+item.itemHotIngotHeLiCoPtEr.name=热HeLiCoPtEr锭
+item.itemDustHeLiCoPtEr.name=HeLiCoPtEr粉
+item.itemDustTinyHeLiCoPtEr.name=小撮HeLiCoPtEr粉
+item.itemDustSmallHeLiCoPtEr.name=小堆HeLiCoPtEr粉
+item.itemNuggetHeLiCoPtEr.name=HeLiCoPtEr粒
+item.itemPlateHeLiCoPtEr.name=HeLiCoPtEr板
+item.itemPlateDoubleHeLiCoPtEr.name=双重HeLiCoPtEr板
+item.itemBoltHeLiCoPtEr.name=HeLiCoPtEr螺栓
+item.itemRodHeLiCoPtEr.name=HeLiCoPtEr杆
+item.itemRodLongHeLiCoPtEr.name=长HeLiCoPtEr杆
+item.itemRingHeLiCoPtEr.name=HeLiCoPtEr环
+item.itemScrewHeLiCoPtEr.name=HeLiCoPtEr螺丝
+item.itemRotorHeLiCoPtEr.name=HeLiCoPtEr转子
+item.itemGearHeLiCoPtEr.name=HeLiCoPtEr齿轮
+item.itemCellHeLiCoPtEr.name=HeLiCoPtEr单元
+item.itemIngotPraseodymium.name=镨锭
+item.itemHotIngotPraseodymium.name=热镨锭
+item.itemDustPraseodymium.name=镨粉
+item.itemDustTinyPraseodymium.name=小撮镨粉
+item.itemDustSmallPraseodymium.name=小堆镨粉
+item.itemNuggetPraseodymium.name=镨粒
+item.itemPlatePraseodymium.name=镨板
+item.itemPlateDoublePraseodymium.name=双重镨板
+item.itemBoltPraseodymium.name=镨螺栓
+item.itemRodPraseodymium.name=镨杆
+item.itemRodLongPraseodymium.name=长镨杆
+item.itemRingPraseodymium.name=镨环
+item.itemScrewPraseodymium.name=镨螺丝
+item.itemRotorPraseodymium.name=镨转子
+item.itemGearPraseodymium.name=镨齿轮
+item.itemCellPraseodymium.name=镨单元
+item.milledMonazite.name=研磨独居石
+item.FrothMonaziteflotation.name=独居石浮选泡沫单元
+
+//Added 18/12/21
+item.BasicGenericChemItem.13.name=甲醛催化剂
+item.hydrogenchloridemix.name=氢氯混合物
+
+//Added 19/01/22
+item.SunnariumBit.name=阳光化合物粒
