@@ -6806,7 +6806,7 @@ gtnh.quest1700.desc=要获得邻苯二甲酸,你需要在EV化学反应釜中混
 
 # Quest.1701 - §b§lDimethylbenzene
 gtnh.quest1701.name=§b§l二甲苯
-gtnh.quest1701.desc=二甲苯可以用木焦油蒸馏或在化学反应釜中使用苯和甲烷蒸馏.
+gtnh.quest1701.desc=二甲苯可以用木焦油蒸馏或在化学反应釜中使用苯和甲烷反应合成.
 
 # Quest.1702 - §b§lPotassium Dichromate
 gtnh.quest1702.name=§b§l重铬酸钾
@@ -12001,7 +12001,7 @@ gtnh.quest2999.name=柴油
 gtnh.quest2999.desc=最后是柴油,我愿称之为油中之神,至少是早期的神.%n%n柴油作为能源,在EV阶段解锁核弹之前,一直是公认的最佳选择.而到了HV阶段,只要再加入另一条化工线,柴油还可以进一步升级为高十六烷值柴油.不过只需要多加几台机器就可以获得一种燃值高达480k-EU的燃料还是非常划算的.建议一解锁就将其自动化,这样就不会油到用时方恨少了.%n%n在本阶段,你可以使用LV或MV内燃发电机.相比MV内燃发电机,LV的缺点在于为了达到相同发电水平,需要制造的数量更多,而产生的污染也更严重;但它的燃料效率高达95％,相比MV的90％相对省油. 可以说两种发电机各有优势,不过对于一条自动化柴油生产线而言,应该不太会在意这5％的效率差.%n%n随着科技的发展,燃料的能量密度越来越高,而燃料的自动化生产线也会越来越长. 下一级的燃料的制造难度将会大大提升,做好准备吧!
 
 # Quest.3000 - More Oil Options
-gtnh.quest3000.name=More Oil Options
+gtnh.quest3000.name=更多油源
 gtnh.quest3000.desc=除了油气流体钻机之外,还有一些其他的油来源. 对于重油,油砂就是一种不错的来源,它可以在高海拔地区的稀有矿脉中找到.要是你不小心找到了一条油砂矿脉,也就意味着你拥有了大量的重燃油,只要简单处理后就能拿来制造柴油了.%n%n其实石油也是一种可再生资源---IC2杂交作物和蜜蜂. 石油浆果(Oilberry)作物可以无限生产石油,虽然速度非常慢;而石油蜂的速度就要快多了,特别是专门育种过的石油蜂,不过从蜜蜂产物中提取石油不太容易.%n%n另外,通过特定的裂化路线,从相同数量的石油中可以有更多的目标产物产出.比如,轻度加氢裂化重燃油60％可以转化为轻燃油,这种裂化路线在你拥有大量额外重燃油,但缺少轻燃油合成柴油时相当有用.
 
 # Quest.3001 - Using All the Fractions
@@ -12014,39 +12014,39 @@ gtnh.quest3002.desc=石油裂化机是另一台HV解锁的多方块机器,也是
 
 # Quest.3003 - Boosting the Diesel
 gtnh.quest3003.name=升级柴油
-gtnh.quest3003.desc=你可能已经猜到了,在HV阶段的石油处理,新增的不止有额外的副产物,最重要的是,你可以进一步升级发电的主要燃料.升级燃料的事儿你已经在上一个阶段做过一次了---轻燃油升级为柴油.这次升级也差不多,你需要将已有燃料添加新解锁的原料,就能完成升级,不过这次不像柴油一样只需要简单搅拌两种已有燃料,新燃料需要添加的一种全新的化学物质,这需要一系列复杂的处理流程,虽然处理要求的电压较高,不过处理速度较快,最终搅拌获得高十六烷值柴油.%n%n制备这种添加物,四硝基甲烷(TNM),你需要一些可能之前没用过的化学物质.我希望你的蒸馏塔有富余,因为蒸馏塔可以大大简化原料的获取.
+gtnh.quest3003.desc=你可能已经猜到了,在HV阶段的石油处理,新增的不止有额外的副产物,最重要的是,你可以进一步升级发电的主要燃料.升级燃料的事儿你已经在上一个阶段做过一次了---轻燃油升级为柴油.这次升级也差不多,你需要将已有燃料添加新解锁的原料,就能完成升级,不过这次不像柴油一样只需要简单搅拌两种已有燃料,新燃料需要添加的一种全新的化学物质,这需要一系列复杂的处理流程,虽然处理要求的电压较高,不过处理速度较快,最终搅拌获得高十六烷值柴油.%n%n想要制备四硝基甲烷(TNM)这种添加剂,你需要一些可能之前没用过的化学物质.我希望你的蒸馏塔有富余,因为蒸馏塔可以大大简化原料的获取.
 
 # Quest.3004 - Special Rubber from Oil
-gtnh.quest3004.name=Special Rubber from Oil
-gtnh.quest3004.desc=Another one of the Oil "specials" is Butadiene. It can be used in a few ways, including power, but where it shines is in making advanced rubber, specifically Styrene-Butadiene Rubber. You can make it in HV, but it is not required to have an improved rubber until the start of IV. There is a questline for this in the HV tab, so go check it out.%n%nThere is an equivalent alternative, Silicone Rubber, made from other inputs. They are mostly interchangeable, but they each have some unique use that makes it so you should have a good supply of both. 
+gtnh.quest3004.name=产自石油的特殊橡胶
+gtnh.quest3004.desc=石油的另一种重要产物是丁二烯.它有多种用途,包括发电,但其最主要的用途还是合成新型橡胶---丁苯橡胶.在HV阶段就可以制造,但直到IV之前,它都不是必需品.在HV阶段的任务栏中有一条丁苯橡胶的任务线,去看看吧.%n%n还有一种比丁苯橡胶高半级的橡胶---硅橡胶,它的生产路线与丁苯橡胶基本没有交集,不过在绝大多数用途上这两种橡胶都可以互相替换,不过它们也各自拥有一些独特的用途,所以两种橡胶你都得做.
 
 # Quest.3005 - Distilled Heavy Fuel
-gtnh.quest3005.name=Distilled Heavy Fuel
-gtnh.quest3005.desc=You don't always have to crack the base fuels to get useful chemicals out of them. The best example of this is Heavy Fuel, whose recipe only has 3 outputs, but they're all excellent. This is the perfect format for a Distillation Tower automation, so get on it as soon as you can, you won't regret it!%n%nAs a sidenote, all of these are power-dense, and can be used for power if you stockpile a lot of them. Benzene is the first one you should use for this purpose, if you wish to do it, because the other two are core chemicals for required progression in HV and EV. However, Benzene can also turn into several useful chemicals, so don't burn it all for power.
+gtnh.quest3005.name=蒸馏重燃油
+gtnh.quest3005.desc=一般来说你会将基础燃料裂化,以从中获取一些必须的石化产物,但也有例外.最好的例子就是重燃油,虽然蒸馏产物只有3种,但每种都很棒.所以自动化重燃油完美适合蒸馏塔,只要攒够资源赶紧搓一个吧,你不会后悔的!%n%n另外,它们的能量密度都很高,均可用于发电,要是你屯了太多的话可以试试.一般来说苯是最容易装不下的,而另外两种则是HV和EV阶段科技线的核心化工原料.但苯也可以转化为有用的化学物质,所以别把它们都烧了.
 
 # Quest.3006 - Acetone and Ethenone
-gtnh.quest3006.name=Acetone and Ethenone
-gtnh.quest3006.desc=Another ingredient in the making of TNM is Ethenone, which can be made directly from Acetone. This one is a little more organic, which is to say it's much easier to automate if you chose Benzene or Biomass. From those routes, you can get it from a Wood Vinegar DT, or reacting Acetic Acid with Calcite Dust from a Fermented Biomass DT (get the calcite from electryzing Fertilizer). If you used biomass to get Ammonia, you can do it this way.%n%nIf not using plants, though, there are other ways to automate this. Ethenone can be made directly from Acetic Acid and Sulfuric Acid, and this last one should already be automated from cleaning the sulfuric waste from the oil fractions. Acetic Acid, on the other hand, is a mix of Oxygen and Ethylene, a combo that you might have already automated to make Polyethylene. If not, this a good time to do so. %n%nThe amount of Ethenone you need to make a lot of Cetane-Boosted Diesel is small, so it's unlikely that you'll run out of Sulfuric Acid for this. Make sure you automate it all, though.
+gtnh.quest3006.name=丙酮和乙烯酮
+gtnh.quest3006.desc=制造四硝基甲烷的另一原料为乙烯酮,可以直接由丙酮合成出来.乙烯酮更有机,也就是说选择苯或生物质的话,自动化制备乙烯酮会更简单. 对于这些路线,你需要蒸馏木醋酸,或是蒸馏发酵生物质,然后再与方解石粉反应(电解肥料即可获得方解石粉).要是你的自动化生物质->氨产线还有富余原料,用这种方法就很不错.%n%n不过要是你不种田的话,也有其他方法进行自动化生产. 乙烯酮可直接由乙酸和硫酸制得,而后者的自动化应该早在石油处理脱硫工艺时即已完成. 乙酸,换个角度来看,其实就是氧和乙烯的结合,这些原料应该在自动化聚乙烯产线时就完成了自动化生产.如果还没有的话,现在也是一个将其自动化的好机会.%n%n制造高十六烷值柴油所需的乙烯酮量不多,所以应该不会把你的硫酸吃完.不过再次强调,硫酸自动化是十分必要的.
 
 # Quest.3007 - Ammonia Source
-gtnh.quest3007.name=Ammonia Source
-gtnh.quest3007.desc=One of the components of Tetranitromethane is Nitric Acid, which is made from Nitrogen Dioxide, and this from Nitrogen Oxide, which is ultimately created from Ammonia. You can do a small Chemical Reactor chain to do this line of recipes, but the better option is to make an LCR and use the circuit 24 recipe to turn Ammonia and Oxygen directly into Nitric Acid.%n%nYou'll still need to automate Ammonia, though, and there are two main ways of doing this. One of the options is to create it directly from Nitrogen and Hydrogen, but this recipe consumes a lot of EU. The other option is to switch to the biological side of things and get it from the DT recipe of Fermented Biomass, but this requires a whole another setup with sapling automation, a Pyrolyse Oven and some other machines, so don't do it unless you're interested in getting the other outputs of that recipe. It, however, might be a good option if you don't have those yet. Either way, automate your Ammonia.%n%n
+gtnh.quest3007.name=氨
+gtnh.quest3007.desc=硝酸是四硝基甲烷的组分之一,而硝酸来自二氧化氮,二氧化氮来自一氧化氮,一氧化氮由氨制备而来.你可以造一条化学反应釜链,以处理这一系列的配方,但更好的选择是大型化学反应釜,使用24号编程电路指定配方,将氨和氧直接合成为硝酸.%n%n不过不管用那种方法,自动化产氨都是必须的,而自动化产氨有两种主要方法. 其一为直接将氮和氢结合制成氨,但这个配方需要消耗大量的电力. 其二则是通过有机方面的手段,蒸馏发酵生物质,不过这种方法要求另外一整套树苗自动化的设备,一台热解炉还有许多其他机器,所以如果你不是对发酵生物质的其他产出有兴趣的话,建议不要走这条路. 不过话说回来,要是你还没造过这些的话,这些也会是不错的选择. 无论哪条路,完成你的氨自动化吧.%n%n
 
 # Quest.3008 - Tetranitromethane as Additive
-gtnh.quest3008.name=Tetranitromethane as Additive
-gtnh.quest3008.desc=If both Nitric Acid and Ethenone are automated, then you can now get TNM effortlessly!%n%nIf you look at the recipe, you'll see that you need a lot more Nitric Acid than anything else. Given that Ammonia is the most power-hungry recipe, this is what will cut down into the fuel efficiency at the end, but not nearly enough to discourage the creation and use of CBD. Not only that, but if you check the uses of TNM, you'll see that you can treat Biodiesel the same way, although at a higher cost due to its lower fuel value, if you happened to have it.
+gtnh.quest3008.name=添加剂·四硝基甲烷
+gtnh.quest3008.desc=在硝酸和乙烯酮完成自动化后,合成四硝基甲烷就是小事一桩了!%n%n查看NEI配方后,你就能发现,四硝基甲烷消耗最多的就是硝酸.而鉴于直接合成氨消耗的大量电力,这使得最终生产的新燃料的燃料效率无形中打了折扣,但相比于高十六烷值柴油的高能量密度,这点折扣基本可以忽略. 不止如此,如果在你查阅四硝基甲烷的用途时,应该已经发现了生物柴油可以替代柴油,同样可以制造高十六烷值柴油,不过由于燃值较低所以产率较低.要是你不小心捡到了生物柴油的话可以试试.(译者注：用鱼油或种子油制造环氧树脂会产出大量生物柴油)
 
 # Quest.3009 - Cetane-Boosted Diesel
-gtnh.quest3009.name=Cetane-Boosted Diesel
-gtnh.quest3009.desc=If you made it here, then you should be ready to make Cetane-Boosted Diesel flow into your generators by itself. Congratulations!%n%nOil is still the best power option in HV, building up from what you used in LV. This CBD you've made will help fuel your EBFs, get into space and then handle the increased power needs that EV will throw at you, especially if you want to make an AE2 network for quick automation. Your singleblock generators are at the lowest efficiency yet, 85%, but the fuel you use now has a fuel value of 1 million EU per bucket, a very powerful liquid compared to any other you could make at this time.%n%nI'll see you on EV. Good luck when you make it there.
+gtnh.quest3009.name=高十六烷值柴油
+gtnh.quest3009.desc=到了这个任务,你应该已经准备好了将高十六烷值柴油通入发电机了.祝贺你!%n%n在HV阶段,柴油类燃料仍然是最好的发电选择,虽然从LV阶段开始就一直是这样. 制备出的高十六烷值柴油可以帮助你为工业高炉供能,造出火箭送你上天,然后解锁EV阶段新的发电方式,再被你抛弃...不过EV阶段还是非常有诱惑力的,尤其是解锁的AE系统,可以大大加快自动化进程. 在这个阶段,你的单方块发电机的燃料效率已经低至85％,不过你现在使用的燃料燃值每桶可达一百万EU,与你之前用过的燃料比起来,这是一种非常强大的燃料.%n%n我在EV阶段等你.祝你的上天之旅一切顺利.
 
 # Quest.3010 - Superpowered Fuel
-gtnh.quest3010.name=Superpowered Fuel
-gtnh.quest3010.desc=As did all tiers until now, the EV tier introduces a new type of bigger, better liquid fuel to burn on engines, High-Octane Gasoline. However, this one doesn't use the previous fuel, and instead takes a different oil-based route, which means that the CBD you have is of no use in this processing chain.%n%nAlso as before, the amount of processing you will need is greatly increased, and you can expect to need a lot more DTs, Oil Crackers, LCRs and other machines. You will also have to automate the input of materials from other sources, since Oil cannot provide you with everything anymore. You can overclock the multis you have, or build more of them, your choice. In the end, you'll have a fuel that is 2.5x more powerful than CBD, at an impressive fuel value of 2.5 million EU, and more byproducts than you could ever imagine. %n%nYou might have to crack one of the four oil fractions into the other ones, and you will surely need to pump Oil faster and faster to keep up with the power needs that will come when jumping to IV. I do recommend you use AE2 to automate the setup, relying on fluid P2Ps to transport fluids around, because it will make your life easier, even if it's harder to start and learn the setup. Either way you go, don't forget, you have to automate it.%n%n§4Make at least one of these important EV multis to continue.
+gtnh.quest3010.name=超能燃料
+gtnh.quest3010.desc=与之前的阶段一样,EV阶段也解锁了一种新的、能量密度更高的、可用于内燃发电机的流体燃料,高辛烷值汽油.但是,这种燃料并非此前燃料的升级,而是需要另起一条石油处理路线,这也意味着高十六烷值柴油在这条处理路线中完全无用.%n%n另一个共同点就是,新燃料的生产难度再次大大提升,可以预见,你需要大量的蒸馏塔、石油裂化机、大型化学反应釜以及其他机器.你还要将从其他来源的原料自动化,因为石油不再能提供所有的原料.如果你决定搭建这条生产线的话,可以选择将已有多方块机器超频,或者再多造几台. 最后,你将会收获一种比高十六烷值柴油强2.5倍的新燃料,单桶燃值达到了难以置信的二百五十万EU,而且还附赠超乎你想象的副产物.%n%n你可能需要将石油的四大组分之一裂化为另一形态,而随着你冲击IV阶段带来的越来越高的电力需求,你需要越来越快的抽油速度.我建议你使用AE2完善石油处理线自动化,主要使用流体P2P通道或流体端口传输流体,虽然上手可能不太容易,但相信我,它会让你可以更加轻松地搭建产线. 无论你选择什么路线,都不要忘了将其自动化.%n%n§4请制造任意一台关键的EV多方块机器,然后继续吧.
 
 # Quest.3011 - Boiler and Super Fuel
-gtnh.quest3011.name=Boiler and Super Fuel
-gtnh.quest3011.desc=With the advancements in building materials you've made until now, a new kind of generators has been unlocked. The Large Boilers you might have looked at before, and perhaps used, change when you reach Titanium, and if you build one of those, you will get something quite different from the tiers before.%n%nTo start, most burnable items don't work here. These advanced boilers need to burn much hotter, and as such they only accept specific fuels. The fuel of interest here is one of two, who are built in a sort of chain, in a similar fashion as to how Diesel and CBD worked. There is Solid Super Fuel, and Magic Solid Super Fuel, and they are both created from some coal-like block, some binder and some liquid fuel. You can use CBD for this, but Heavy Fuel and LPG are also options.%n%nWhy go through this route, though? The answer is that this extra processing, although it is difficult to automate, creates fuel that is much more efficient than the fuels that were put into it, and this is because the advanced Large Boilers are slow burners that output Superheated Steam, instead of regular one. This also means that they will need two turbines to convert all the steam into EU, and even more if the amount produced is too much for them. If fuel efficiency is something you're looking for, you can tackle this challenge and further process your CBD into something even more powerful.
+gtnh.quest3011.name=锅炉与超级燃料
+gtnh.quest3011.desc=随着科技的进步,你的材料学也不断获得突破,一种新的发电机已经解锁.此前你可能已经研究过大型锅炉,或许还用过,不过到达EV解锁钛之后,一切都不同了,如果你之前用过那就会感觉很明显,钛锅炉与之前的完全就不是简单的升级.%n%n首先,大部分燃烧物都不能在锅炉中使用.这些先进的锅炉要求热值更高的物品,所以它们只能接受一些特定的燃料. 在这里会讲到两种燃料,与柴油和高十六烷值柴油类似,是同一条生产线的不同阶段产物.固体超级燃料和魔法超级燃料,它们都是用炭类方块制造的,再加上粘合剂和某种流体燃料. 高十六烷值柴油、重燃油或是高辛烷值汽油都可充当这种流体燃料.%n%n不过为什么要走这条路? The answer is that this extra processing, although it is difficult to automate, creates fuel that is much more efficient than the fuels that were put into it, and this is because the advanced Large Boilers are slow burners that output Superheated Steam, instead of regular one. This also means that they will need two turbines to convert all the steam into EU, and even more if the amount produced is too much for them. If fuel efficiency is something you're looking for, you can tackle this challenge and further process your CBD into something even more powerful.
 
 # Quest.3012 - Improved Oil Cracker
 gtnh.quest3012.name=Improved Oil Cracker
