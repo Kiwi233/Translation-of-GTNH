@@ -12089,24 +12089,24 @@ gtnh.quest3021.name=动力仓[缓冲]
 gtnh.quest3021.desc=手上有几组钨钢不知道做啥用?造台新的、更强大的发电设备吧,但你还不能马上运行它.就像之前的大型内燃引擎一样,没有一个足够强大的动力仓是无法运行IV级发电机的.%n%n想要在提高模式和非提高模式都适用,你需要一个IV动力仓[缓冲].相信我,它的输出功率不会让你失望的.
 
 # Quest.3022 - Extreme Combustion Engine
-gtnh.quest3022.name=Extreme Combustion Engine
-gtnh.quest3022.desc=Very similar to the LCE in most aspects, the Extreme Combustion Engine was created to close the gap between the diesels and more advanced forms of powergen, mainly nuclear fusion. However, the main thing they differ on is the fuel that they can run, and in this case you're limited to the powerful fuel from the last tier, High Octane Gasoline.%n%nThat's right, only this fuel will work, and in exchange the ECE will output more than 10k EU/t. If you add Liquid Oxygen, which you'll need 4 Vacuum Freezers for (3 at HV and 1 at EV), you can keep it boosted permanently, which will send it up to 4 IV amps of power and 150% fuel efficiency. It's in your best interest to keep this thing going if you want to keep using Oil fuels for power, and the only thing you can rely on is your automated HOG setup, which you might have to, and should improve with the new IV multis as soon as you can, unless you have other sources of power working simultaneously.%n%nAs a last note, there is also an IV equivalent of the Vacuum Freezer, if you want to tackle the Liquid Oxygen needs that way. It's more power efficient, look it up on the GT++ tab.
+gtnh.quest3022.name=极限内燃引擎
+gtnh.quest3022.desc=极限内燃引擎在大多数方面与大型内燃引擎非常相似,它的存在主要是为了缩小大型内燃引擎与更先进的发电方式(主要是核电)之间的差距.两种引擎的主要区别是运行所需的燃料不同,极限内燃引擎限制只能使用最高阶的柴油类燃料--高辛烷值汽油.%n%n没错,只有这种燃料可以使用,作为回报,极限内燃引擎的输出功率将超过10k-EU/t.如果你加入液氧[需要4台真空冷冻机(3个HV与1个EV)才能平衡供应],可以让极限内燃引擎保持提高模式,输出4安培IV电力,燃料效率达到150％.如果你想继续使用柴油类燃料作为能源,保持提高模式是最划算的,你唯一能依赖的就是你的自动化高辛烷值汽油产线,而且你可能不得不,而且也应该将产线升级,尽快用新的IV多方块机器升级产线吧,除非你同时拥有其他的能源.%n%n最后提示一点,如果你想用真空冷冻机的方式来满足液氧需求,还有一种与IV真空冷冻机相当的多方块机器.它更省电,请在GT++任务栏寻找相关任务.
 
 # Quest.3023 - Super Distillation
-gtnh.quest3023.name=Super Distillation
-gtnh.quest3023.desc=Your tallest and closest buddy, the Distillation Tower. You've relied on it so much, haven't you? It's time to take it down.%n%nNo, not really, but you can do better now. The catch is that the upgrade to this, the Dangote Distillus, is special in the sense that its crafting recipe is in the Chemical Plant, and the one you have to build for this recipe is very expensive. Should you decide to accept the costs, though, you can build a Dangote in much the same way as the DT, and even upgrade it to tier 2 for better performance (look in NEI for a Distillus Chip, you have to put it in the controller). %n%nIn summary, this multi runs faster than the DT by doing parallels, a recipe done multiple times at once. A quad DT that you were using to distill Oil can be replaced by a Dangote, and so on. Since distillation is usually a bottleneck in speed for oil processing, this multi should prove useful.
+gtnh.quest3023.name=超级蒸馏
+gtnh.quest3023.desc=你最高、最亲密的伙伴,蒸馏塔.你一直都很依赖它,不是吗？是时候干掉它了.%n%n不,不是真的干掉它,不过你现在可以做一个更好的了.它是蒸馏塔的升级版--丹格特蒸馏厂--比较特别的是,它的部分原料需要在化工厂中合成,而建造一个化工厂十分昂贵.如果你决定接受这些成本,丹格特蒸馏厂的结构与蒸馏塔一样,你可以用一样的方式建造它,甚至可以把它升级到2阶以获得更强的性能(请查看NEI并搜索"升级芯片",需要将其放入控制器方块的GUI中). %n%n总而言之,丹格特蒸馏厂利用高并行(一次性同时运行多次配方),使其处理速度比蒸馏塔更快.你原来用于蒸馏石油的四联蒸馏塔可以被丹格特蒸馏厂取代了. 鉴于蒸馏通常是石化处理(以及之后各种化工产线)的速度瓶颈,丹格特蒸馏厂将证明它的实力.
 
 # Quest.3024 - Maxed Oil Cracker
-gtnh.quest3024.name=Maxed Oil Cracker
-gtnh.quest3024.desc=How many oils have you cracked at this point? No matter the number, you can do it cheaper. Once you reach HSS-G coils, you will have achieved the maximum EU/t discount of 50% on your Oil Crackers, and enjoy the full array of benefits that they can provide you. Don't forget to overclock them if they're running slow, the energy cost is minimal at this point.
+gtnh.quest3024.name=终极石油裂化机
+gtnh.quest3024.desc=到目前为止,你裂化了多少石油？重要的不是数量,而是效率,你可以用更低的成本进行裂化.等你为其换装了高速钢-S线圈后,石油裂化机就会达到最大功率减免,即50％,享受它给你带来的各种福利吧.如果石油裂化机运行缓慢,别忘了对它们进行超频,现在的能耗已经是最低的了.
 
 # Quest.3025 - Super Fuel At The Top
-gtnh.quest3025.name=Super Fuel At The Top
-gtnh.quest3025.desc=I was kidding, there's one more step in Oil, but it isn't really a better fuel, it's just the Tungstensteel Boiler.%n%nThis multi operates in the same fashion as the Titanium one. It needs a Super Fuel, it produces Superheated Steam and it makes you build a bunch of Steam Turbines to actually get power out of the fuel it consumes. The output energy of a single one of these boilers, at 100% efficiency, is 16k EU/t, so you'll need many turbines per boiler. You can build them like that, if you wish to, but at this point the Loose mode on those turbines is really useful. The efficiency hit is big, yes, but the Tungstensteel Boiler is 300% as efficient as the Bronze one, and a single Magic Solid Super Fuel burns for 4,5M EU at 100% turbine efficiency. Look at the amount of CBD you need to make one super fuel, and then you can decide if you want to tackle this super finale.%n%nYes, it's the end, basically. There is a couple of things you can still do, but I'll give you this as an award for having pushed through essentially all the Oil content in the pack. It has been a long journey, and I hope that you found it worthwhile and enjoyable.
+gtnh.quest3025.name=超级燃料之巅
+gtnh.quest3025.desc=我是开玩笑的,在利用石油类燃料方面还有一步,但这一步并非升级更好的燃料,而是使用大型钨钢锅炉.%n%n这台多方块机器的工作方式与大型钛锅炉相同.它需要使用超级燃料,并产生过热蒸汽,而你还得建造一堆蒸汽涡轮,才能真正将其所消耗的燃料,转化为电能. 在100％的效率下,一台大型钨钢锅炉的输出功率为16k-EU/t,所以你需要为每台锅炉配备很多涡轮.如果你愿意的话,可以建造大量涡轮以在默认模式下全额转化电能;不过你还可以利用涡轮的松模式,提高的流量可以大大缩减所需建造的蒸汽涡轮数量.虽然的确损失了很多燃料效率,但大型钨钢锅炉的效率是大型青铜锅炉的300％,在100％的涡轮效率下,一个魔法超级燃料可以燃烧获得4~5M-EU.再看看你需要多少高十六烷值柴油来制造一个超级燃料,然后你就可以决定你是否要解决这个超级终结任务.%n%n是的,这基本上就是终点了.虽然还有几件可做的事情,但我还是决定给你这些作为奖励,因为你已经推完这个整合包中石油处理相关的几乎所有内容.这是一段漫长的旅程,我希望你能发现它物有所值,令人愉快.
 
 # Quest.3026 - Breaking the Mold
-gtnh.quest3026.name=Breaking the Mold
-gtnh.quest3026.desc=Welcome, o' Baron of Oil. For you who has completed the 5 questlines of oil processing, a new chapter awaits you.%n%nThe following quests are not guidelines on how to work with oil. In reality, they are meant for tiers where you're not supposed to be using this kind of power anymore. However, if you do want to continue it, and push it as far as it can go, the following are a few challenges that you can take on, mostly for bragging rights.%n%nAll these challenges are for the tiers after IV. Some of them are for LuV, others need further progression. Good luck!
+gtnh.quest3026.name=打破常规
+gtnh.quest3026.desc=欢迎你,石油大亨.你已经完成了5个石油处理任务线,而一个全新的章节在等着你.%n%n下面的任务不是关于如何处理石油的指南.实际上,它们是为了那些不再使用石油能源的阶段准备的. 无论如何,如果你想继续使用石油能源,并将这条路走到尽头,那么下面有一些你可以接受的挑战,主要还是为了得到炫耀的资本.%n%n所有的这些挑战都是针对IV阶段之后的.其中一些是针对LuV阶段的,其他的一些则需要更进一步的发展.祝你好运!
 
 # Quest.3027 - Ultimate Distillation
 gtnh.quest3027.name=Ultimate Distillation
