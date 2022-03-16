@@ -12121,8 +12121,8 @@ gtnh.quest3029.name=通用燃料能源
 gtnh.quest3029.desc=这是有史以来最强大的内燃引擎.事实上,它不仅仅是这样,还是燃气涡轮和火箭引擎!%n%n通用化学燃料引擎需要燃烧带有一些添加剂的燃料,就像它的前辈一样,但它的运行效率较低.150％就是数值上限了,如果不无限地提供燃料就无法达到这个数值,但是这个引擎通过输入多少燃料就运行多快来弥补不足,没有其他发电设备的功率限制. 只有两件事是你需要确保的,你需要提供足够的助燃剂来保持效率(我会让你自己计算最佳比例,但是1:4的助燃剂:燃料是不错的),以及动力仓需要支持发电的输出功率.%n%n§9§9§b§4你需要一条装配线来制作完成任务所需的动力仓. 为了它物有所值,你最好烧掉足够多的高辛烷值汽油!§r
 
 # Quest.3030 - §6§lHigh Temperature Gas-cooled Reactor
-gtnh.quest3030.name=§6§lHigh Temperature Gas-cooled Reactor
-gtnh.quest3030.desc=§6§lHTGR§r§6 is a ZPM tiered reactor meant to be used as a breeder reactor to make Lutetium and gasses used in void miners.%n%n§rEficiency is calculated based on how full the reactor is, overall it works EXPONENTIALLY better when full.%nThe formula for efficiency is (fuel/72000)^2 (%)%nIt has minimal amount of fuel needed to start operation (10%).%nNeeds 1A LuV and 4000L/s of coolant (times fuel multiplier) to operate.%nFor more info check descriptions of items.%nCheck structure with hologram projector.%n%nInformation about Fuels:%n%n90% of fuel casing parts are recyclable%n%n§2Thorium fuel is turned into Lutetium with 1:1 ratio (but 90% efficiency) also multiplies coolant needed by 1x%n§aUranium fuel is turned into Krypton also multiplies coolant needed by 1.5x%n§cPlutionium fuel is turned into Xenon also multiplies coolant needed by 2x%n%n§Y§9You can find all items by typing htgr in nei.
+gtnh.quest3030.name=§6§l高温气冷反应堆
+gtnh.quest3030.desc=§6§l高温气冷反应堆§r§6是一个ZPM阶段的反应堆, 旨在作为增殖反应堆来制造用于虚空采矿场的镥和气体.%n%n§r效率取决于内部缓冲区中的燃料数量,总的来说,它在满的时候工作效率是指数级提高的.%n效率的公式是(燃料/72000)^2(％)%n高温气冷反应堆有开始运行的最低燃料要求(10％).%n需要1A-LuV和4000L/s冷却液(乘以燃料冷却倍数)来运行.%n更多信息请查看物品描述.%n使用多方块机器全息投影仪,以检查多方块机器结构.%n%n关于燃料的信息:%n%n90%的燃料外壳部分是可回收的%n%n§2钍燃料以1:1的比例转化为镥(但效率为90%),并且冷却液倍数为1x%n§a铀燃料转化为氪,并且冷却液倍数为1.5x%n§c钚燃料转化为氙,并且冷却液倍数为2x%n%n§Y§9你可以通过在NEI输入htgr找到所有物品.
 
 # Quest.3031 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared!!!
 gtnh.quest3031.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§l你还没准备好!!!
