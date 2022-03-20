@@ -55,7 +55,7 @@ betterquesting.btn.lock_tray=锁定弹出栏
 betterquesting.btn.view_mode=浏览模式
 betterquesting.btn.view_mode_btn=浏览模式按钮
 betterquesting.btn.always_draw_implicit=始终显示隐藏前置任务
-betterquesting.btn.prereq_visbility.normal=默认视图
+betterquesting.btn.prereq_visbility.normal=默认
 betterquesting.btn.prereq_visbility.implicit=除悬停或按住Shift时，其余隐藏
 betterquesting.btn.prereq_visbility.hidden=始终隐藏
 
@@ -212,7 +212,7 @@ betterquesting.cmd.reset.all_all=重置所有任务对所有玩家
 betterquesting.cmd.refresh=刷新本地数据...
 
 betterquesting.cmd.cleanup_questline.confirm=这是一个危险的操作.在此之前请确认备份.再次输入此指令以开始清理.
-betterquesting.cmd.cleanup_questline.completed=移除 %d 条目
+betterquesting.cmd.cleanup_questline.completed=已移除 %d 条目
 
 json.betterquesting.quest.name=任务数据
 jdoc.betterquesting.quest.rewards.name=任务奖励
