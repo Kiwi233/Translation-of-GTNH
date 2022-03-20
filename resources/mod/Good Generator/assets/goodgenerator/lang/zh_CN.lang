@@ -30,6 +30,14 @@ yottaFluidTankCell.8.name=流体单元方块T9
 yottaFluidTankCell.9.name=流体单元方块T10
 supercriticalFluidTurbineCasing.0.name=超临界流体涡轮
 pressureResistantWalls.0.name=耐压墙
+preciseUnitCasing.0.name=Precise Electronic Unit Casing MK-I
+preciseUnitCasing.1.name=Precise Electronic Unit Casing MK-II
+preciseUnitCasing.2.name=Precise Electronic Unit Casing MK-III
+compactFusionCoil.0.name=Ameliorated Superconduct Coil
+compactFusionCoil.1.name=Compact Fusion Coil
+compactFusionCoil.2.name=Advanced Compact Fusion Coil
+compactFusionCoil.3.name=Compact Fusion Coil MK-II Prototype
+compactFusionCoil.4.name=Compact Fusion Coil MK-II Finaltype
 
 #Items
 item.radiationProtectionPlate.name=防辐射板
@@ -99,6 +107,16 @@ item.upgradeEssentia.6.name=§b源质发电机：Mechanics§r
 item.upgradeEssentia.7.name=§6源质发电机：Spirit§r
 item.upgradeEssentia.8.name=§a源质发电机：Radiation§r
 item.upgradeEssentia.9.name=§3源质发电机：Electric§r
+item.highEnergyMixture.0.name=High Energy Mixture
+item.saltyRoot.0.name=Salty Root
+item.huiCircuit.0.name=Hi-Computation Station MK-I
+item.huiCircuit.1.name=Hi-Computation Station MK-II
+item.huiCircuit.2.name=Hi-Computation Station MK-III
+item.huiCircuit.3.name=Hi-Computation Station MK-IV Prototype
+item.huiCircuit.4.name=Hi-Computation Station MK-V Finaltype
+
+#Crops
+crops.saltroot=Salty Root
 
 #Tooltip
 inverter.tooltip.0=将直流电转化为交流电.
@@ -114,6 +132,11 @@ fuelrodheat.tooltip.2=具有MOX特性
 depletedfuelrod.tooltip.0=枯竭
 YOTTankCell.tooltip.0=容量：
 hatchTier.tooltip.0=仓室等级：
+huiCircuit.tooltip.0=§b93015 TFlop/s§r
+huiCircuit.tooltip.1=§e76M Processor Units§r
+huiCircuit.tooltip.2=§aInvalidate RSA§r
+huiCircuit.tooltip.3=§c56th Mersenne Prime§r
+huiCircuit.tooltip.4=§5Paradox§r
 
 #Fluids
 fluid.lightlyCrackedNaquadahGas=轻度裂化硅岩气
@@ -130,6 +153,7 @@ fluid.moderatelyCrackedNaquadahAsphalt=中度裂化硅岩沥青
 fluid.heavilyCrackedNaquadahAsphalt=重度裂化硅岩沥青
 fluid.combustionPromotor=助燃剂
 fluid.fluid.coalTar=煤焦
+fluid.supercriticalSteam=Supercritical Steam
 fluid.Naquadah Based Liquid Fuel MkI (Depleted)=硅岩基流体燃料-MkI(枯竭的)
 fluid.Acid Naquadah Emulsion=酸性硅岩乳液
 fluid.Antimony Pentafluoride=五氟化锑
@@ -180,17 +204,6 @@ fluid.Low Quality Naquadria Sulphate=低纯硫酸超能硅岩
 fluid.Naquadah Goo=硅岩粘浆
 fluid.Enriched Naquadah Goo=富集硅岩粘浆
 fluid.Naquadria Goo=超能硅岩粘浆
-fluid.Diethylamine=二乙胺
-fluid.Cyclopentadiene=环戊二烯
-fluid.Jet Fuel No.3=航空煤油#3
-fluid.Ferrocene Solution=二茂铁溶液
-fluid.Impure Ferrocene Mixture=不纯二茂铁混合物
-fluid.Ethanol Gasoline=乙醇汽油
-fluid.Iron II Chloride=氯化亚铁
-fluid.Low Quality Naquadah Solution=低纯硅岩溶液
-fluid.Ferrocene Waste=二茂铁废水
-fluid.Jet Fuel A=航空煤油A
-fluid.Thorium Tetrachloride=四氯化钍
 
 #Fluid Tiles
 tile.lightlyCrackedNaquadahGas.name=轻度裂化硅岩气
@@ -207,6 +220,7 @@ tile.moderatelyCrackedNaquadahAsphalt.name=中度裂化硅岩沥青
 tile.heavilyCrackedNaquadahAsphalt.name=重度裂化硅岩沥青
 tile.combustionPromotor.name=助燃剂
 tile.coalTar.name=煤焦
+tile.supercriticalSteam.name=Supercritical Steam
 
 #Tab Name
 itemGroup.Good Generator=更多发电机
@@ -218,6 +232,9 @@ scanner.info.NA=当前中子动能：
 scanner.info.YOTTank.0=当前容量：
 scanner.info.YOTTank.1=流体名：
 scanner.info.YOTTank.2=当前已用：
+scanner.info.XHE.0=Steam Output is equal to
+scanner.info.XHE.1=Overheated Threshold:
+scanner.info.UX.0=Running Parallel
 
 #GUI Info
 gui.NeutronSensor.0=输入中子动能值.
@@ -229,12 +246,15 @@ gui.NeutronActivator.1=输入：
 gui.YOTTank.0=容量：
 gui.YOTTank.1=流体：
 gui.YOTTank.2=已存储：
+gui.LargeFusion.0=Energy Capacity:
+gui.LargeFusion.1=Stored Energy:
 
 #NEI Info
 tile.recipe.naquadah_reactor=大型硅岩反应堆
 tile.naquadah_fuel_refine_factory=硅岩燃料精炼厂
 tile.neutron_activator=中子活化器
 tile.extreme_heat_exchanger=超级热交换机
+tile.precise_assembler=Precise Assembler
 value.naquadah_reactor=基础输出电压：
 value.naquadah_fuel_refine_factory.0=要求等级
 value.naquadah_fuel_refine_factory.1=线圈
@@ -246,6 +266,8 @@ value.extreme_heat_exchanger.1=最大工质输入：
 value.extreme_heat_exchanger.2=最大热工质输出：
 value.extreme_heat_exchanger.3=最大过热工质输出：
 value.extreme_heat_exchanger.4=阈值：
+value.precise_assembler.0=Need MK-
+value.precise_assembler.1= Casing
 
 #TecTech Structure Info
 FuelRefineFactory.hint.0=8x力场约束玻璃
@@ -295,18 +317,75 @@ YOTTank.hint.3=9x流体单元方块(每层)
 YOTTank.hint.4=1 - 输入仓/YOT机械方块
 YOTTank.hint.5=2 - 维护仓/YOT机械方块
 YOTTank.hint.6=3 - 输出仓/YOT仓
+YOTTank.hint.7=Only one YOTHatch allowed per YOTTank.
 ExtremeHeatExchanger.hint.0=25x强化钨钢机械方块(至少！)
 ExtremeHeatExchanger.hint.1=1 - 输入仓(蒸馏水或其他工质)
 ExtremeHeatExchanger.hint.2=2 - 输出仓(超临界蒸汽/过热蒸汽/蒸汽或其他热工质
 ExtremeHeatExchanger.hint.3=3 - 输入仓(热流体)
 ExtremeHeatExchanger.hint.4=4 - 输出仓(冷流体)
 ExtremeHeatExchanger.hint.5=任意机械方块 - 维护仓
+PreciseAssembler.hint.0=At least 12x Precise Electronic Unit Casings
+PreciseAssembler.hint.1=12x Tungstensteel Frame Box
+PreciseAssembler.hint.2=42x Reinforced Glasses
+PreciseAssembler.hint.3=21x Machine Casing (Not Machine Hull!)
+PreciseAssembler.hint.4=1 - Any Hatch/Precise Electronic Unit Casing
+PreciseAssembler.hint.5=Support TecTech Energy Hatches!
+LargeFusion1.hint.0=At least 1666x LuV Machine Casings
+LargeFusion1.hint.1=At least 63x Chrome Reinforced Borosilicate Glass Blocks
+LargeFusion1.hint.2=558x Ameliorated Superconduct Coils
+LargeFusion1.hint.3=128x Naquadah Alloy Frame Boxes
+LargeFusion1.hint.4=1 - Input Hatch
+LargeFusion1.hint.5=2 - Output Hatch
+LargeFusion1.hint.6=3 - Energy Hatch
+LargeFusion1.hint.7=All Hatches must be LuV or better.
+LargeFusion1.hint.8=Support TecTech Hatches.
+LargeFusion2.hint.0=At least 1666x Fusion Machine Casings
+LargeFusion2.hint.1=At least 63x Iridium Reinforced Borosilicate Glass Blocks
+LargeFusion2.hint.2=558x Compact Fusion Coils
+LargeFusion2.hint.3=128x Duranium Frame Boxes
+LargeFusion2.hint.4=1 - Input Hatch
+LargeFusion2.hint.5=2 - Output Hatch
+LargeFusion2.hint.6=3 - Energy Hatch
+LargeFusion2.hint.7=All Hatches must be ZPM or better.
+LargeFusion2.hint.8=Support TecTech Hatches.
+LargeFusion3.hint.0=At least 1666x Fusion Machine Casing MK II
+LargeFusion3.hint.1=At least 63x Osmium Reinforced Borosilicate Glass Blocks
+LargeFusion3.hint.2=558x Advanced Compact Fusion Coils
+LargeFusion3.hint.3=128x Neutronium Frame Boxes
+LargeFusion3.hint.4=1 - Input Hatch
+LargeFusion3.hint.5=2 - Output Hatch
+LargeFusion3.hint.6=3 - Energy Hatch
+LargeFusion3.hint.7=All Hatches must be UV or better.
+LargeFusion3.hint.8=Support TecTech Hatches.
+LargeFusion4.hint.0=At least 1666x Fusion Machine Casing MK III
+LargeFusion4.hint.1=At least 63x Uranium Reinforced Borosilicate Glass Blocks
+LargeFusion4.hint.2=558x Compact Fusion Coil MK-II Prototype
+LargeFusion4.hint.3=128x Infinity Catalyst Frame Boxes
+LargeFusion4.hint.4=1 - Input Hatch
+LargeFusion4.hint.5=2 - Output Hatch
+LargeFusion4.hint.6=3 - Energy Hatch
+LargeFusion4.hint.7=All Hatches must be UHV or better.
+LargeFusion4.hint.8=Support TecTech Hatches.
+LargeFusion5.hint.0=At least 1666x Fusion Machine Casing MK IV
+LargeFusion5.hint.1=At least 63x Europium Reinforced Borosilicate Glass Blocks
+LargeFusion5.hint.2=558x Compact Fusion Coil MK-II Finaltype
+LargeFusion5.hint.3=128x Infinity Frame Boxes
+LargeFusion5.hint.4=1 - Input Hatch
+LargeFusion5.hint.5=2 - Output Hatch
+LargeFusion5.hint.6=3 - Energy Hatch
+LargeFusion5.hint.7=All Hatches must be UEV or better.
+LargeFusion5.hint.8=Support TecTech Hatches.
 
 #Chat
 largeessentiagenerator.chat= 已安装!
 essentiahatch.chat.0=成功锁定为 %s.
 essentiahatch.chat.1=已清除.
 yothatch.chat.0=存储优先级设为 %s.
+yothatch.chat.1=Set to %s mode
+yottank.chat.0=Clear the lock filter
+yottank.chat.1=Lock to %s
+preciseassembler.chat.0=Precise Mode
+preciseassembler.chat.1=Normal Mode
 
 #Achievement
 achievement.gt.blockmachines.nag=大型硅岩反应堆
@@ -341,6 +420,14 @@ achievement.yottaFluidTankCell.4=流体单元方块T5
 achievement.yottaFluidTankCell.4.desc=捡起这个物品以在NEI内查看配方
 achievement.yottaFluidTankCell.5=流体单元方块T6
 achievement.yottaFluidTankCell.5.desc=捡起这个物品以在NEI内查看配方
+achievement.gt.blockmachines.largefusioncomputer2=Not Enough Fusions
+achievement.gt.blockmachines.largefusioncomputer2.desc=Pickup this item to see the recipe in NEI
+achievement.gt.blockmachines.largefusioncomputer3=PROJECT MOISS
+achievement.gt.blockmachines.largefusioncomputer3.desc=Pickup this item to see the recipe in NEI
+achievement.gt.blockmachines.largefusioncomputer4=イワシがつちからはえてくるんだ
+achievement.gt.blockmachines.largefusioncomputer4.desc=Pickup this item to see the recipe in NEI
+achievement.gt.blockmachines.largefusioncomputer5=XXXX
+achievement.gt.blockmachines.largefusioncomputer5.desc=Pickup this item to see the recipe in NEI
 
 #Thaumcraft Research Context
 research.ESSENTIA_GENERATOR.page.0=你发现源质内蕴含的能量超乎你的想象.有没有用这些源质发电的方法呢?<BR><BR>LEG(大型源质发电机)可以根据动力仓自动调整其输出电压. 扩散单元决定了LEG可接受的最高仓室等级.

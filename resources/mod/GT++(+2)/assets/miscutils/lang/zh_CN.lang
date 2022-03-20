@@ -55,7 +55,7 @@ item.MiscUtils.material.dustCryotheum.name=凛冰之尘
 item.MiscUtils.material.rodBlizz.name=暴雪棒
 item.MiscUtils.material.dustBlizz.name=暴雪粉
 
-//==============
+//============= 'miscutils' is Case Sensitive Here, unsure why
 tile.miscutils.fluid.pyrotheum.name=烈焰之炽焱
 tile.miscutils.fluid.cryotheum.name=极寒之凛冰
 tile.miscutils.fluid.ender.name=谐振熔融末影珍珠
@@ -3247,6 +3247,7 @@ interaction.voidexcess.disabled=禁用过量销毁
 
 interaction.separateBusses.enabled=独立输入总线
 interaction.separateBusses.disabled=联合输入总线
+
 //Added 29/11/21
 
 item.BasicNuclearChemItem.0.name=铀渣混合物
@@ -3376,3 +3377,13 @@ item.hydrogenchloridemix.name=氢氯混合物
 
 //Added 19/01/22
 item.SunnariumBit.name=阳光化合物粒
+
+//Added 29/01/22
+sleep.event.okay=You slept well and now feel a little better.
+sleep.event.good=You slept well and now feel much better.
+sleep.event.wellrested=You feel really well rested.
+sleep.event.downsides=The downsides of life no longer effect you.
+item.miscutils:magicfeather.name=Magical Feather
+
+//Added 10/02/22
+item.BasicGenericChemItem.14.name=Solid-Acid Catalyst

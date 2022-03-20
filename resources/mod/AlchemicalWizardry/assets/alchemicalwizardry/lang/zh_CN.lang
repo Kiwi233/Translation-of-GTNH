@@ -1,4 +1,4 @@
-﻿#Block Localization
+#Block Localization
 tile.bloodAltar.name=血之祭坛
 tile.bloodRune.blank.name=气血符文
 tile.bloodRune.fill.name=增容符文
@@ -260,6 +260,10 @@ text.recipe.altar=血之祭坛
 text.recipe.altar.tier=层数: %s
 text.recipe.altar.bloodRequired=LP: %s
 text.recipe.shapedOrb=合适宝珠合成
+nei.recipe.meteor.category=Meteor Ritual
+nei.recipe.meteor.cost=Cost: %s LP
+nei.recipe.meteor.radius=Radius: %s
+nei.recipe.meteor.chance=Chance: %s%%
 
 #Entities
 entity.AWWayofTime.EarthElemental.name=土之元素精灵
@@ -565,3 +569,4 @@ bm.versioning.error=下载mod时出错!
 bm.versioning.downloadedAlready=你已经拥有最新版本，重新加载游戏以进行更新! 
 bm.versioning.downloadingAlready=正在下载! 耐心点! 
 bm.versioning.disabled=此功能已禁用.
+
