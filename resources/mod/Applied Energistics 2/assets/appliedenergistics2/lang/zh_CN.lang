@@ -410,7 +410,7 @@ waila.appliedenergistics2.P2PUnlinked=未链接
 waila.appliedenergistics2.P2PInputOneOutput=已链接(输入)
 waila.appliedenergistics2.P2PInputManyOutputs=已链接(输入)- %d 输出
 waila.appliedenergistics2.P2POutput=已链接(输出)
-waila.appliedenergistics2.Booting=Network is booting
+waila.appliedenergistics2.Booting=网络正在启动
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=1k-ME存储元件
@@ -580,7 +580,7 @@ commands.ae2.ProfilerFailed=此处没有AE设备
 commands.ae2.ProfilerGridDown=该网格离线
 commands.ae2.ProfilerStop=该网络每t平均延时(纳秒):
 commands.ae2.ProfilerFailedDim=未知世界
-commands.ae2.ToggleFullAccess=Toggle OP full AE access ignoring security terminal settings
+commands.ae2.ToggleFullAccess=OP无视安全终端AE完全访问权限
 
 # Achievements
 achievement.ae2.Compass=陨石猎手
@@ -640,6 +640,6 @@ stat.ae2.ItemsExtracted=物品已取出ME存储
 stat.ae2.TurnedCranks=转动曲柄
 
 # Keys
-key.appliedenergistics2.category=Applied Energistics 2
-key.toggle_focus.desc=Toggle search box focus
+key.appliedenergistics2.category=应用能源2
+key.toggle_focus.desc=切换搜索框
 
