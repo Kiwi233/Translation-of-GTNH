@@ -30,6 +30,14 @@ yottaFluidTankCell.8.name=流体单元方块T9
 yottaFluidTankCell.9.name=流体单元方块T10
 supercriticalFluidTurbineCasing.0.name=超临界流体涡轮
 pressureResistantWalls.0.name=耐压墙
+preciseUnitCasing.0.name=精密电子单元机械方块 MK-I
+preciseUnitCasing.1.name=精密电子单元机械方块 MK-II
+preciseUnitCasing.2.name=精密电子单元机械方块 MK-III
+compactFusionCoil.0.name=改良型超导线圈方块
+compactFusionCoil.1.name=压缩聚变线圈方块
+compactFusionCoil.2.name=进阶压缩聚变线圈方块
+compactFusionCoil.3.name=压缩聚变线圈方块MK-II原型
+compactFusionCoil.4.name=压缩聚变线圈方块MK-II
 
 #Items
 item.radiationProtectionPlate.name=防辐射板
@@ -99,6 +107,16 @@ item.upgradeEssentia.6.name=§b源质发电机：Mechanics§r
 item.upgradeEssentia.7.name=§6源质发电机：Spirit§r
 item.upgradeEssentia.8.name=§a源质发电机：Radiation§r
 item.upgradeEssentia.9.name=§3源质发电机：Electric§r
+item.highEnergyMixture.0.name=高能混合物
+item.saltyRoot.0.name=盐根
+item.huiCircuit.0.name=高算力工作站 MK-I
+item.huiCircuit.1.name=高算力工作站 MK-II
+item.huiCircuit.2.name=高算力工作站 MK-III
+item.huiCircuit.3.name=高算力工作站 MK-IV
+item.huiCircuit.4.name=高算力工作站 MK-V
+
+#Crops
+crops.saltroot=盐根
 
 #Tooltip
 inverter.tooltip.0=将直流电转化为交流电.
@@ -114,6 +132,11 @@ fuelrodheat.tooltip.2=具有MOX特性
 depletedfuelrod.tooltip.0=枯竭
 YOTTankCell.tooltip.0=容量：
 hatchTier.tooltip.0=仓室等级：
+huiCircuit.tooltip.0=§b93015-T浮点运算/秒§r
+huiCircuit.tooltip.1=§e76M处理单元§r
+huiCircuit.tooltip.2=§a无效RSA算法§r
+huiCircuit.tooltip.3=§c第56梅森素数§r
+huiCircuit.tooltip.4=§5佯谬§r
 
 #Fluids
 fluid.lightlyCrackedNaquadahGas=轻度裂化硅岩气
@@ -130,6 +153,7 @@ fluid.moderatelyCrackedNaquadahAsphalt=中度裂化硅岩沥青
 fluid.heavilyCrackedNaquadahAsphalt=重度裂化硅岩沥青
 fluid.combustionPromotor=助燃剂
 fluid.fluid.coalTar=煤焦
+fluid.supercriticalSteam=超临界蒸汽
 fluid.Naquadah Based Liquid Fuel MkI (Depleted)=硅岩基流体燃料-MkI(枯竭的)
 fluid.Acid Naquadah Emulsion=酸性硅岩乳液
 fluid.Antimony Pentafluoride=五氟化锑
@@ -180,17 +204,6 @@ fluid.Low Quality Naquadria Sulphate=低纯硫酸超能硅岩
 fluid.Naquadah Goo=硅岩粘浆
 fluid.Enriched Naquadah Goo=富集硅岩粘浆
 fluid.Naquadria Goo=超能硅岩粘浆
-fluid.Diethylamine=二乙胺
-fluid.Cyclopentadiene=环戊二烯
-fluid.Jet Fuel No.3=航空煤油#3
-fluid.Ferrocene Solution=二茂铁溶液
-fluid.Impure Ferrocene Mixture=不纯二茂铁混合物
-fluid.Ethanol Gasoline=乙醇汽油
-fluid.Iron II Chloride=氯化亚铁
-fluid.Low Quality Naquadah Solution=低纯硅岩溶液
-fluid.Ferrocene Waste=二茂铁废水
-fluid.Jet Fuel A=航空煤油A
-fluid.Thorium Tetrachloride=四氯化钍
 
 #Fluid Tiles
 tile.lightlyCrackedNaquadahGas.name=轻度裂化硅岩气
@@ -207,6 +220,7 @@ tile.moderatelyCrackedNaquadahAsphalt.name=中度裂化硅岩沥青
 tile.heavilyCrackedNaquadahAsphalt.name=重度裂化硅岩沥青
 tile.combustionPromotor.name=助燃剂
 tile.coalTar.name=煤焦
+tile.supercriticalSteam.name=超临界蒸汽
 
 #Tab Name
 itemGroup.Good Generator=更多发电机
@@ -218,6 +232,9 @@ scanner.info.NA=当前中子动能：
 scanner.info.YOTTank.0=当前容量：
 scanner.info.YOTTank.1=流体名：
 scanner.info.YOTTank.2=当前已用：
+scanner.info.XHE.0=输出蒸汽量等于
+scanner.info.XHE.1=超临界阈值：
+scanner.info.UX.0=并行运行！
 
 #GUI Info
 gui.NeutronSensor.0=输入中子动能值.
@@ -229,12 +246,15 @@ gui.NeutronActivator.1=输入：
 gui.YOTTank.0=容量：
 gui.YOTTank.1=流体：
 gui.YOTTank.2=已存储：
+gui.LargeFusion.0=能量容量：
+gui.LargeFusion.1=储存能量：
 
 #NEI Info
 tile.recipe.naquadah_reactor=大型硅岩反应堆
 tile.naquadah_fuel_refine_factory=硅岩燃料精炼厂
 tile.neutron_activator=中子活化器
 tile.extreme_heat_exchanger=超级热交换机
+tile.precise_assembler=精密组装机
 value.naquadah_reactor=基础输出电压：
 value.naquadah_fuel_refine_factory.0=要求等级
 value.naquadah_fuel_refine_factory.1=线圈
@@ -246,6 +266,8 @@ value.extreme_heat_exchanger.1=最大工质输入：
 value.extreme_heat_exchanger.2=最大热工质输出：
 value.extreme_heat_exchanger.3=最大过热工质输出：
 value.extreme_heat_exchanger.4=阈值：
+value.precise_assembler.0=要求 MK-
+value.precise_assembler.1= 机械方块
 
 #TecTech Structure Info
 FuelRefineFactory.hint.0=8x力场约束玻璃
@@ -295,18 +317,75 @@ YOTTank.hint.3=9x流体单元方块(每层)
 YOTTank.hint.4=1 - 输入仓/YOT机械方块
 YOTTank.hint.5=2 - 维护仓/YOT机械方块
 YOTTank.hint.6=3 - 输出仓/YOT仓
+YOTTank.hint.7=每台YOT储罐只接受一个YOT仓.
 ExtremeHeatExchanger.hint.0=25x强化钨钢机械方块(至少！)
 ExtremeHeatExchanger.hint.1=1 - 输入仓(蒸馏水或其他工质)
 ExtremeHeatExchanger.hint.2=2 - 输出仓(超临界蒸汽/过热蒸汽/蒸汽或其他热工质
 ExtremeHeatExchanger.hint.3=3 - 输入仓(热流体)
 ExtremeHeatExchanger.hint.4=4 - 输出仓(冷流体)
 ExtremeHeatExchanger.hint.5=任意机械方块 - 维护仓
+PreciseAssembler.hint.0=12x精密电子单元机械方块(至少！)
+PreciseAssembler.hint.1=12x钨钢框架
+PreciseAssembler.hint.2=42x防爆玻璃
+PreciseAssembler.hint.3=21x机械方块(不是机器外壳!)
+PreciseAssembler.hint.4=1 - 输入仓/输入总线/输出总线/精密电子单元机械方块
+PreciseAssembler.hint.5=支持 TecTech能源仓!
+LargeFusion1.hint.0=1666xLuV机械方块(至少！)
+LargeFusion1.hint.1=63x铬强化硼玻璃方块(至少！)
+LargeFusion1.hint.2=558x改良型超导线圈方块
+LargeFusion1.hint.3=128x硅岩合金框架
+LargeFusion1.hint.4=1 - 输入仓
+LargeFusion1.hint.5=2 - 输出仓
+LargeFusion1.hint.6=3 - 能源仓
+LargeFusion1.hint.7=所有仓室必须为LuV以上
+LargeFusion1.hint.8=支持TecTech能源仓.
+LargeFusion2.hint.0=1666x聚变机械方块(至少！)
+LargeFusion2.hint.1=63x铱强化硼玻璃方块(至少！)
+LargeFusion2.hint.2=558x压缩聚变线圈方块
+LargeFusion2.hint.3=128x铿铀框架
+LargeFusion2.hint.4=1 - 输入仓
+LargeFusion2.hint.5=2 - 输出仓
+LargeFusion2.hint.6=3 - 能源仓
+LargeFusion2.hint.7=所有仓室必须为ZPM以上
+LargeFusion2.hint.8=支持TecTech能源仓.
+LargeFusion3.hint.0=1666x聚变机械方块MK II(至少！)
+LargeFusion3.hint.1=63x锇强化硼玻璃方块(至少！)
+LargeFusion3.hint.2=558x进阶压缩聚变线圈方块
+LargeFusion3.hint.3=128x中子锭框架
+LargeFusion3.hint.4=1 - 输入仓
+LargeFusion3.hint.5=2 - 输出仓
+LargeFusion3.hint.6=3 - 能源仓
+LargeFusion3.hint.7=所有仓室必须为UV以上
+LargeFusion3.hint.8=支持TecTech能源仓.
+LargeFusion4.hint.0=1666x聚变机械方块MK III(至少！)
+LargeFusion4.hint.1=63x铀强化硼玻璃方块(至少！)
+LargeFusion4.hint.2=558x压缩聚变线圈方块MK-II原型
+LargeFusion4.hint.3=128x无尽催化剂框架
+LargeFusion4.hint.4=1 - 输入仓
+LargeFusion4.hint.5=2 - 输出仓
+LargeFusion4.hint.6=3 - 能源仓
+LargeFusion4.hint.7=所有仓室必须为UHV以上
+LargeFusion4.hint.8=支持TecTech能源仓.
+LargeFusion5.hint.0=1666x聚变机械方块MK IV(至少！)
+LargeFusion5.hint.1=63x铕强化硼玻璃方块(至少！)
+LargeFusion5.hint.2=558x压缩聚变线圈方块MK-II
+LargeFusion5.hint.3=128x无尽框架
+LargeFusion5.hint.4=1 - 输入仓
+LargeFusion5.hint.5=2 - 输出仓
+LargeFusion5.hint.6=3 - 能源仓
+LargeFusion5.hint.7=所有仓室必须为UEV以上
+LargeFusion5.hint.8=支持TecTech能源仓.
 
 #Chat
 largeessentiagenerator.chat= 已安装!
 essentiahatch.chat.0=成功锁定为 %s.
 essentiahatch.chat.1=已清除.
 yothatch.chat.0=存储优先级设为 %s.
+yothatch.chat.1=设置为 %s 模式
+yottank.chat.0=清空锁定过滤器
+yottank.chat.1=锁定为 %s
+preciseassembler.chat.0=精密模式
+preciseassembler.chat.1=普通模式
 
 #Achievement
 achievement.gt.blockmachines.nag=大型硅岩反应堆
@@ -341,6 +420,14 @@ achievement.yottaFluidTankCell.4=流体单元方块T5
 achievement.yottaFluidTankCell.4.desc=捡起这个物品以在NEI内查看配方
 achievement.yottaFluidTankCell.5=流体单元方块T6
 achievement.yottaFluidTankCell.5.desc=捡起这个物品以在NEI内查看配方
+achievement.gt.blockmachines.largefusioncomputer2=聚变不嫌多
+achievement.gt.blockmachines.largefusioncomputer2.desc=捡起这个物品以在NEI内查看配方
+achievement.gt.blockmachines.largefusioncomputer3=PROJECT MOISS
+achievement.gt.blockmachines.largefusioncomputer3.desc=捡起这个物品以在NEI内查看配方
+achievement.gt.blockmachines.largefusioncomputer4=イワシがつちからはえてくるんだ
+achievement.gt.blockmachines.largefusioncomputer4.desc=捡起这个物品以在NEI内查看配方
+achievement.gt.blockmachines.largefusioncomputer5=XXXX
+achievement.gt.blockmachines.largefusioncomputer5.desc=捡起这个物品以在NEI内查看配方
 
 #Thaumcraft Research Context
 research.ESSENTIA_GENERATOR.page.0=你发现源质内蕴含的能量超乎你的想象.有没有用这些源质发电的方法呢?<BR><BR>LEG(大型源质发电机)可以根据动力仓自动调整其输出电压. 扩散单元决定了LEG可接受的最高仓室等级.

@@ -8,6 +8,8 @@ item.avaritia_resource.neutronium_ingot.name=宇宙中子态素锭
 item.avaritia_resource.infinity_catalyst.name=无尽催化剂
 item.avaritia_resource.infinity_ingot.name=无尽之锭
 item.avaritia_resource.record_fragment.name=唱片碎片
+item.avaritia_resource.starfuel.name=恒星燃料
+item.avaritia_resource.neutronium_gear.name=中子齿轮
 item.singularity_iron.name=铁奇点
 item.singularity_gold.name=金奇点
 item.singularity_lapis.name=青金石奇点
@@ -19,6 +21,7 @@ item.singularity_lead.name=铅奇点
 item.singularity_silver.name=银奇点
 item.singularity_nickel.name=镍奇点
 item.singularity_enderium.name=末影锭奇点
+item.singularity_clay.name=粘土奇点
 item.infinity_pickaxe.name=世界崩解之镐
 item.infinity_sword.name=寰宇支配之剑
 item.infinity_shovel.name=星球吞噬之铲
@@ -71,12 +74,14 @@ tooltip.neutronium_ingot.desc=致密恒星之心，化为一锭。
 tooltip.infinity_catalyst.desc=一即全，全即一。
 tooltip.infinity_ingot.desc=汝掌心中者，寰宇之力也。
 tooltip.record_fragment.desc=一位笃信音乐带来的自由的人~
+tooltip.starfuel.desc=宇宙之光挥洒四方
 tooltip.skullfire_sword.desc=斩骷髅首级，后烧至焦黑。
 tooltip.matter_cluster.desc=用于毁灭一切。
 tooltip.matter_cluster.desc2=按下SHIFT显示详细信息。
 tooltip.matter_cluster.counter=物品
 tooltip.morvinabox.desc=即时住房。
 tooltip.morvinabox.subdesc=在加拿大，Morvy是成袋装的。
+tooltip.claybalance.desc=无 限 平 衡!!!!
 #
 # Achievements
 achievement.avaritia:crystal_matrix=第一枚纹章
@@ -173,3 +178,4 @@ avaritia.research_page.BIG_PEARL.1=当然,元始珍珠相当强大,但是你认�
 avaritia.research_name.AKASHIC=阿卡西记录
 avaritia.research_text.AKASHIC=比你想要的更多知识(低配慎用)
 avaritia.research_page.AKASHIC.1=你对世界研究得足够深入，能够破碎虚空并进入外域,但是肯定还有进行更多研究的空间,对吧?<BR><BR>阿卡西记录将为你提供世界上所有的研究点,然后再多一点.
+
