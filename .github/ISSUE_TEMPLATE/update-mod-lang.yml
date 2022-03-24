@@ -1,0 +1,30 @@
+---
+name: 对比新版mod语言文件变化
+description: 对比新版mod语言文件变化(仅内部使用)
+labels: [ '自动化:mod语言文件' ]
+
+body:
+  - type: input
+    id: old_modpack_url
+    attributes:
+      label: 旧版整合包链接
+    validations:
+      required: true
+  - type: input
+    id: new_modpack_url
+    attributes:
+      label: 新版整合包链接
+    validations:
+      required: true
+  - type: input
+    id: reference_branch
+    attributes:
+      label: 对比分支
+    validations:
+      required: true
+  - type: input
+    id: branch
+    attributes:
+      label: 提交分支
+    validations:
+      required: true
