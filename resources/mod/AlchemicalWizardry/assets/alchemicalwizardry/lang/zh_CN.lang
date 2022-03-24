@@ -260,6 +260,10 @@ text.recipe.altar=血之祭坛
 text.recipe.altar.tier=层数: %s
 text.recipe.altar.bloodRequired=LP: %s
 text.recipe.shapedOrb=合适宝珠合成
+nei.recipe.meteor.category=陨星仪式
+nei.recipe.meteor.cost=消耗: %s LP
+nei.recipe.meteor.radius=半径: %s
+nei.recipe.meteor.chance=几率: %s%%
 
 #Entities
 entity.AWWayofTime.EarthElemental.name=土之元素精灵
@@ -565,3 +569,4 @@ bm.versioning.error=下载mod时出错!
 bm.versioning.downloadedAlready=你已经拥有最新版本，重新加载游戏以进行更新! 
 bm.versioning.downloadingAlready=正在下载! 耐心点! 
 bm.versioning.disabled=此功能已禁用.
+

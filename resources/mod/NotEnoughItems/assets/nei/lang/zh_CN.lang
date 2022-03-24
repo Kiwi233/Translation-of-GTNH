@@ -111,6 +111,9 @@ nei.options.inventory=物品栏
 nei.options.inventory.worldSpecificBookmarks=书签存储位置
 nei.options.inventory.worldSpecificBookmarks.true=存档内
 nei.options.inventory.worldSpecificBookmarks.false=全局
+nei.options.inventory.worldSpecificPresets=预设存储位置
+nei.options.inventory.worldSpecificPresets.true=存档内
+nei.options.inventory.worldSpecificPresets.false=全局
 nei.options.inventory.bookmarksEnabled=显示/隐藏书签页
 nei.options.inventory.bookmarksEnabled.true=显示
 nei.options.inventory.bookmarksEnabled.false=隐藏
@@ -190,9 +193,12 @@ nei.options.world.highlight_tips.show=显示
 nei.options.world.highlight_tips.sample=样本
 
 nei.options.tools=工具
-nei.options.tools.handler_load_from_config=从Config加载预设(handler)
+nei.options.tools.handler_load_from_config=从Config加载handler(加工所使用的机器类别)
 nei.options.tools.handler_load_from_config.true=Config
 nei.options.tools.handler_load_from_config.false=JAR
+nei.options.tools.catalyst_load_from_config=从Config加载catalysts(加工所使用的具体机器等)
+nei.options.tools.catalyst_load_from_config.true=Config
+nei.options.tools.catalyst_load_from_config.false=JAR
 nei.options.tools.dump=数据存储
 nei.options.tools.dump.dump=存储
 nei.options.tools.dump.dumped=%s ID已保存到.minecraft/%s
@@ -228,8 +234,12 @@ nei.recipe.shaped=有序合成
 nei.recipe.shapeless=无序合成
 nei.recipe.furnace=烧制
 nei.recipe.fuel=燃料
+nei.recipe.fuel.smeltCount=可冶炼%s个物品
+# Deprecated
 nei.recipe.fuel.required=需要%s个 
+# Deprecated
 nei.recipe.fuel.processed=可烧制%s个
+# Deprecated
 nei.recipe.fuel.produced=可制作%s个
 nei.recipe.firework=烟花
 nei.recipe.firework.tooltip0=添加多种染料可增加烟火之星的颜色
@@ -275,3 +285,12 @@ nei.subsets.Items.Weapons=武器
 nei.subsets.Items.Weapons.Ranged=远程
 nei.subsets.Items.Weapons.Swords=剑
 nei.subsets.Mod=Mod
+
+nei.presets.blacklist.label=黑
+nei.presets.blacklist.tooltip=黑名单
+nei.presets.whitelist.label=白
+nei.presets.whitelist.tooltip=白名单
+nei.presets.textfield.tooltip.1=Enter - 保存
+nei.presets.textfield.tooltip.2=Esc - 取消
+nei.presets.label.tooltip=双击编辑
+nei.presets.label.selected=%s 预设
