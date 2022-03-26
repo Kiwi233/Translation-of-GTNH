@@ -1,0 +1,120 @@
+name: Compare
+on:
+  issues:
+    types: [ opened ]
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+    steps:
+      - id: check
+        run: |
+          echo "::set-output name=passed::${{ contains(github.event.issue.labels.*.name, '自动化:mod语言文件') && github.event.issue.user.login == github.repository_owner }}"
+    outputs:
+      passed: ${{ steps.check.outputs.passed }}
+
+  close-issue:
+    name: Close Issue
+    needs: check
+    if: ${{ needs.check.outputs.passed != 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/close-issue@v2.0.0
+        with:
+          comment: |
+            此模板仅由内部人员使用，已自动关闭。
+
+  parse-issue:
+    name: Parse Issue
+    needs: check
+    if: ${{ needs.check.outputs.passed == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          repository: MuXiu1997/GTNH-translation-compare
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+      - run: |
+          python3 -m pip install -r requirements.txt
+      - id: parse-issue
+        run: |
+          python3 parse_issue.py '${{ github.event.issue.body }}'
+    outputs:
+      old-modpack-url: ${{ steps.parse-issue.outputs.old-modpack-url }}
+      new-modpack-url: ${{ steps.parse-issue.outputs.new-modpack-url }}
+      reference-branch: ${{ steps.parse-issue.outputs.reference-branch }}
+      branch: ${{ steps.parse-issue.outputs.branch }}
+      old-modpack-name: ${{ steps.parse-issue.outputs.old-modpack-name }}
+      new-modpack-name: ${{ steps.parse-issue.outputs.new-modpack-name }}
+
+  compare:
+    name: Compare
+    needs: parse-issue
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          repository: MuXiu1997/GTNH-translation-compare
+      - run: mkdir -p .temp
+
+      # region get old modpack
+      - id: get-old-modpack-cache
+        uses: actions/cache@v3
+        with:
+          path: .temp/${{ needs.parse-issue.outputs.old-modpack-name }}
+          key: ${{ needs.parse-issue.outputs.old-modpack-name }}
+      - if: steps.get-old-modpack-cache.outputs.cache-hit != 'true'
+        run: wget -O .temp/${{ needs.parse-issue.outputs.old-modpack-name }} ${{ needs.parse-issue.outputs.old-modpack-url }}
+      # endregion get old modpack
+
+      # region get new modpack
+      - id: get-new-modpack-cache
+        uses: actions/cache@v3
+        with:
+          path: .temp/${{ needs.parse-issue.outputs.new-modpack-name }}
+          key: ${{ needs.parse-issue.outputs.new-modpack-name }}
+      - if: steps.get-new-modpack-cache.outputs.cache-hit != 'true'
+        run: wget -O .temp/${{ needs.parse-issue.outputs.new-modpack-name }} ${{ needs.parse-issue.outputs.new-modpack-url }}
+      # endregion get new modpack
+
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ needs.parse-issue.outputs.reference-branch }}
+          path: '.reference'
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ needs.parse-issue.outputs.branch }}
+          path: '.repo'
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+      - run: |
+          git config user.name 'MuXiu1997'
+          git config user.email 'muxiu1997@gmail.com'
+        working-directory: '.repo'
+      - run: |
+          python3 -m pip install -r requirements.txt
+      - id: compare
+        run: >-
+          python3 main.py
+          --old-modpack-path='.temp/${{ needs.parse-issue.outputs.old-modpack-name }}'
+          --new-modpack-path='.temp/${{ needs.parse-issue.outputs.new-modpack-name }}'
+          --reference-path='.reference'
+          --output-path='.output'
+          --repo-path='.repo'
+      - uses: peter-evans/create-pull-request@v4.0.0
+        with:
+          title: '[自动化]更新mod语言文件'
+          body: |
+            旧版整合包链接: ${{ needs.parse-issue.outputs.old-modpack-url }}
+            新版整合包链接: ${{ needs.parse-issue.outputs.new-modpack-url }}
+            close #${{ github.event.issue.number }}
+          labels: |
+            自动化:mod语言文件
+          branch: automation/mod-lang/${{ github.event.issue.number }}
+          path: '.repo'
