@@ -1,7 +1,7 @@
 ---
-name: 对比新版mod语言文件变化
-description: 对比新版mod语言文件变化(仅内部使用)
-labels: [ '自动化:mod语言文件' ]
+name: 生成新版本对比PR
+description: 对比新版整合包变化, 基于新版整合包生成新版翻译并添加PR(仅内部使用)
+labels: [ '自动化:新版本对比' ]
 
 body:
   - type: input

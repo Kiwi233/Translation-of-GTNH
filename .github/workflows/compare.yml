@@ -9,7 +9,7 @@ jobs:
     steps:
       - id: check
         run: |
-          echo "::set-output name=passed::${{ contains(github.event.issue.labels.*.name, '自动化:mod语言文件') && github.event.issue.user.login == github.repository_owner }}"
+          echo "::set-output name=passed::${{ contains(github.event.issue.labels.*.name, '自动化:新版本对比') && github.event.issue.user.login == github.repository_owner }}"
     outputs:
       passed: ${{ steps.check.outputs.passed }}
 
@@ -109,12 +109,12 @@ jobs:
           --repo-path='.repo'
       - uses: peter-evans/create-pull-request@v4.0.0
         with:
-          title: '[自动化]更新mod语言文件'
+          title: '[自动化]新版本对比 ${{ needs.parse-issue.outputs.new-modpack-name }}'
           body: |
             旧版整合包链接: ${{ needs.parse-issue.outputs.old-modpack-url }}
             新版整合包链接: ${{ needs.parse-issue.outputs.new-modpack-url }}
             close #${{ github.event.issue.number }}
           labels: |
-            自动化:mod语言文件
+            自动化:新版本对比
           branch: automation/mod-lang/${{ github.event.issue.number }}
           path: '.repo'
