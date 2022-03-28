@@ -1108,7 +1108,7 @@ recipes.addShaped(Jukebox, [
 [Noteblock, AnyRecord, Noteblock],
 [Log, IronGear, Log]]);
 
-// --- Jack O'' Lantern
+// --- Jack O' Lantern
 recipes.addShapeless(JackOLantern,
 [Pumpkin, Torch, Knife]);
 
@@ -1208,19 +1208,19 @@ recipes.addShaped(Ladder * 8, [
 
 // --- Fence
 recipes.addShaped(Fence, [
-[Stick, Plank, Stick],
-[Stick, Plank, Stick],
-[Stick, Plank, Stick]]);
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick]]);
 // -
 recipes.addShaped(Fence * 2, [
 [IronScrew, Screwdriver, IronScrew],
-[Stick, Plank, Stick],
-[Stick, Plank, Stick]]);
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick]]);
 // -
 recipes.addShaped(Fence * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
-[Stick, Plank, Stick],
-[Stick, Plank, Stick]]);
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick]]);
 // -
 recipes.addShaped(Fence * 2, [
 [null, null, null],
@@ -3153,7 +3153,6 @@ Assembler.addRecipe(<minecraft:clock>, [<ore:plateGold>, <minecraft:comparator>,
 
 // --- Saddle
 Assembler.addRecipe(<minecraft:saddle>, [<ore:itemLeather> * 4, <gregtech:gt.metaitem.01:28032> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 24);
-
 
 
 
