@@ -1316,10 +1316,10 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:32375>, <liquid:
 // --- Old Tooltips for circuits (stupid IC2 ARR).
 
 // LV
-<IC2:itemPartCircuit>.addTooltip(format.gray("LV-tier"));
+<IC2:itemPartCircuit>.addTooltip(format.gray("LV\u7b49\u7ea7"));
 
 // HV
-<IC2:itemPartCircuitAdv>.addTooltip(format.yellow("HV-tier"));
+<IC2:itemPartCircuitAdv>.addTooltip(format.yellow("HV\u7b49\u7ea7"));
 
 
 // --- Ordict Combs ---
