@@ -1,0 +1,674 @@
+# -- Blocks --
+tile.WG_WallMirror.name=墙上的魔镜
+tile.WG_VoidWalkway.name=虚空走道
+tile.WG_StoneDevice.etherealWall.name=虚无砖块
+tile.WG_StoneDevice.magicTileLock.name=奇异之锁
+tile.WG_StoneDevice.obsidianPlate.name=黑曜石板
+tile.WG_StoneDevice.obsidianDecoration0.name=黑曜石符文
+tile.WG_StoneDevice.obsidianDecoration1.name=黑曜石符文
+tile.WG_StoneDevice.obsidianDecoration2.name=黑曜石符文
+tile.WG_StoneDevice.sarcophagus.name=石棺
+tile.WG_StoneDevice.timeStone.name=生长之石
+tile.WG_StoneDevice.blastFurnace.name=炼狱高炉
+
+tile.WG_WoodenDevice.spinningWheel.name=纺车
+tile.WG_WoodenDevice.loom.name=织机
+tile.WG_WoodenDevice.snowGen.name=神秘造雪机
+tile.WG_WoodenDevice.iceGen.name=神秘制冰机
+tile.WG_WoodenDevice.cobbleGen.name=神秘造石机
+tile.WG_WoodenDevice.armorStand.name=衣架
+tile.WG_WoodenDevice.cuttingTable.name=切割台
+tile.WG_WoodenDevice.saunaStove.name=神秘桑拿炉
+tile.WG_WoodenDevice.labelLibrary.name=要素标记库
+
+tile.WG_MetalDevice.essentiaPump.name=源质泵
+tile.WG_MetalDevice.voidmetalBlock.name=虚空金属块
+tile.WG_MetalDevice.terraformer.name=奥术群系转化器
+tile.WG_MetalDevice.tfFocusPlains.name=群系核心:平原
+tile.WG_MetalDevice.tfFocusColdTaiga.name=群系核心:冻原
+tile.WG_MetalDevice.tfFocusDesert.name=群系核心:沙漠
+tile.WG_MetalDevice.tfFocusJungle.name=群系核心:雨林
+tile.WG_MetalDevice.tfFocusHell.name=群系核心:地狱
+tile.WG_MetalDevice.tfFocusTaint.name=群系核心:腐化之地
+tile.WG_MetalDevice.tfFocusMushroom.name=群系核心:蘑菇岛
+tile.WG_MetalDevice.tfFocusRiver.name=群系核心:河流
+tile.WG_MetalDevice.tfFocusOcean.name=群系核心:海洋
+tile.WG_MetalDevice.tfFocusEnd.name=群系核心:末地
+tile.WG_MetalDevice.tfFocusMagic.name=群系核心:魔法森林
+
+tile.WG_RoseVine.name=玫瑰藤
+tile.WG_CustomAir.name=微光
+
+#
+# -- Items --
+item.WG_Material.threadSimple.name=纱线
+item.WG_Material.threadGold.name=金丝线
+item.WG_Material.threadThaumium.name=神秘丝线
+item.WG_Material.clothSpace.name=宽纺布匹
+item.WG_Material.clothGolden.name=黄金布匹
+item.WG_Material.clothBewitched.name=秘法布匹
+item.WG_Material.wolfPelt.name=狼皮
+item.WG_Material.calculator.name=奥术计算器
+item.WG_Material.cuttingTools.name=宝石切刀
+item.WG_Material.photoPlate.name=成像底片
+item.WG_Material.developedPhoto.name=成像洗片
+item.WG_Material.clusterAluminum.name=铝矿簇
+item.WG_Material.clusterCobalt.name=钴矿簇
+item.WG_Material.clusterArdite.name=阿迪特矿簇
+item.WG_Material.clusterNickel.name=镍矿簇
+item.WG_Material.clusterFZDarkIron.name=玄铁矿簇
+item.WG_Material.guidingString.name=引路线卷
+item.WG_Material.powerlessPearl.name=黯影珍珠
+item.WG_Material.gemstoneDust.name=宝石粉
+
+item.WG_Cluster.name=%1$s矿簇
+
+item.WG_Bag.normal.name=奇术口袋
+item.WG_Bag.void.name=虚空口袋
+item.WG_Bag.ender.name=末影口袋
+item.WG_Bag.hungry.name=饕餮口袋
+
+item.WG_ThaumiumShears.name=神秘剪刀
+item.WG_MagicFood.sweetwart.name=糖渍地狱疣
+item.WG_MagicFood.nethercake.name=地狱蛋糕
+item.WG_MagicFood.brainjerky.name=僵脑肉干
+item.WG_AdvancedRobeChest.name=秘法长袍
+item.WG_AdvancedRobeLegs.name=秘法护腿
+
+item.WG_AdvancedScribingTools.name=发光笔与墨
+
+item.WG_Cloak.standard.name=斗篷
+item.WG_Cloak.storage.name=奇术斗篷
+item.WG_Cloak.raven.name=乌鸦斗篷
+item.WG_Cloak.spectral.name=幽灵斗篷
+item.WG_Cloak.wolf.name=野狼斗篷
+
+item.WG_Kama.standard.name=卡玛短袍
+item.WG_Kama.storage.name=奇术短袍
+item.WG_Kama.raven.name=乌鸦短袍
+item.WG_Kama.spectral.name=幽灵短袍
+item.WG_Kama.wolf.name=野狼短袍
+
+//unused
+item.WG_EliteArmorHelm.ANGELIC_0.name=Ophanic Helm
+item.WG_EliteArmorChest.ANGELIC_1.name=Seraph's Cuirass
+item.WG_EliteArmorLegs.ANGELIC_2.name=Cherub Greaves
+item.WG_EliteArmorBoots.ANGELIC_3.name=Sabatons of the Valkyrie
+
+item.WG_EliteArmorHelm.DEMONIC_0.name=Helm of Leviathan
+item.WG_EliteArmorChest.DEMONIC_1.name=Asrael's Cuirass
+item.WG_EliteArmorLegs.DEMONIC_2.name=Lycan's Greaves
+item.WG_EliteArmorBoots.DEMONIC_3.name=Claws of the Behemoth
+//
+
+item.WG_InfusedGem.name=蕴魔宝石
+item.WG_InfusedGem.innert.name=惰性宝石
+
+item.WG_PrimordialGlove.name=元始手套
+item.WG_PrimordialHammer.name=元始战锤
+item.WG_PrimordialAxe.name=元始巨斧
+item.WG_PrimordialSword.name=元始巨剑
+
+item.WG_PrimordialHelm.name=元始头盔
+item.WG_PrimordialChest.name=元始胸甲
+item.WG_PrimordialLegs.name=元始护腿
+item.WG_PrimordialBoots.name=元始靴子
+
+//
+item.WG_Baubles.ring_primordial.name=元始指环
+item.WG_Baubles.ring_lifeProtection.name=生命保护指环
+//
+
+item.WG_Baubles.shouldersDoublejump.name=炽天使肩铠
+item.WG_Baubles.shouldersKnockback.name=磐石肩铠
+item.WG_Baubles.vambraceStrength.name=狂战士护腕
+item.WG_Baubles.vambraceHaste.name=迅捷护腕
+item.WG_Baubles.titleCrimsonCult.name=称号:血腥教徒
+wg.title.crimsonCultist=§4血腥信徒
+wg.title.crimsonKnight=§4血腥骑士
+wg.title.crimsonPraetor=§6血腥主教
+item.WG_Baubles.ringLuck.name=贪婪指环
+item.WG_Baubles.ringSniper.name=狙击指环
+
+item.WG_ScanCamera.name=神秘相机
+
+item.WG_CrystalFlask.name=水晶容器
+
+item.modifiedTC.luckyCoin=幸运金币
+
+# -- Creative --
+itemGroup.witchinggadgets=巫师宝具
+
+# -- Enchant --
+enchantment.wg.gemstonePotency=闪耀
+enchantment.wg.gemstoneBrittle=脆弱
+enchantment.wg.invisibleGear=幻影
+enchantment.wg.unveiling=揭示
+enchantment.wg.stealth=潜行
+enchantment.wg.backstab=背刺
+enchantment.wg.rideProtect=解缚
+enchantment.wg.soulbound=灵魂绑定
+enchantment.wg.soultether=灵魂绑定
+#
+# -- Random bits of text --
+wg.chat.notyourbag=§7这个口袋属于§r %1$s! §7你不能打开它.§r
+wg.chat.bagunlocked=§7口袋已解锁,其他人可以打开.§r
+wg.chat.baglocked=§7口袋已锁定,除你以外没人能打开.§r
+
+wg.gui.textCurNest=当前巢穴:
+wg.gui.buttonSetNest=设置新巢穴
+wg.gui.buttonMigrate=回到巢穴
+wg.gui.noFeathersToMigrate=你没有回到巢穴需要的物品
+
+wg.desc.noGlide=无法滑翔
+
+wg.gui.visSize=Vis容量
+wg.gui.shiftForAspectList=§7按住§aShift§7查看要素列表§r
+wg.gui.activeGem=主宝石
+wg.gui.passiveGem=副宝石
+wg.chat.gem.shatter=你的蕴魔宝石碎掉了!
+wg.desc.gemcut.POINT=结晶体琢型
+wg.desc.gemcut.TABLE=台式琢型
+wg.desc.gemcut.STEP=阶梯琢型
+wg.desc.gemcut.ROSE=玫瑰琢型
+wg.desc.gemcut.OVAL=椭圆琢型
+wg.desc.gemaffinity=自然亲和:
+wg.desc.gemaversion=自然疏离:
+
+wg.desc.ctrlForAspectList=§7按住§aCtrl§7查看要素列表§r
+wg.desc.scanCompleted=已扫描
+
+wg.desc.gearSlot.tg.0=装备在§a斗篷§7栏
+wg.desc.gearSlot.tg.1=装备在§a肩甲§7栏
+wg.desc.gearSlot.tg.2=装备在§a臂甲§7栏
+wg.desc.gearSlot.tg.3=装备在§a头衔§7栏
+wg.desc.gearSlot.bauble.RING=装备在§a戒指§7栏
+wg.desc.gearSlot.bauble.BELT=装备在§a腰带§7栏
+wg.desc.gearSlot.bauble.AMULET=装备在§a项链§7栏
+
+wg.desc.filteredItems=接受物品:
+
+wg.desc.active=激活
+
+wg.desc.primal=初始校准
+
+wg.desc.infusionStabilizer=可用作注魔祭坛的稳定物
+
+wg.gui.search=Search
+wg.chat.nodeContents.primal=该节点所含的元始要素: §eAer: %1$s§f, §2Terra: %2$s§f, §cIgnis: %3$s§f, §3Aqua: %4$s§f, §7Ordo: %5$s§f, §8Perditio: %6$s
+wg.chat.infusionWarning.pedestalHeight=位于%1$s, %2$s, %3$s的注魔基座不能高于注魔祭坛
+wg.chat.infusionWarning.pedestalPos=位于%1$s, %2$s, %3$s的基座与矩阵的水平距离不能超过8格
+wg.chat.infusionWarning.noPartnerItem=位于%1$s, %2$s, %3$s的基座缺少物品来维持对称
+wg.chat.infusionWarning.noPartnerPedestal=位于%1$s, %2$s, %3$s的基座需要保持对称结构
+wg.chat.infusionWarning.noPartnerStabilizer=位于%1$s, %2$s, %3$s的稳定物需要保持对称结构
+wg.chat.infusionInfo.stabilityTotal=稳定性加成: %1$s
+wg.chat.infusionInfo.instability=该注魔合成的不稳定性: %1$s
+wg.chat.infusionInfo.essentiaMod=该注魔法附魔会消耗相当于书中所示%1$s倍量的源质:
+wg.chat.infusionInfo.essentiaRunicMod=该增广符文护盾源质消耗的指数为%1$s:
+
+
+wg.potionKnockbackRes=抗击
+wg.potionDissolve=消融
+wg.potionCinderCoat=易燃
+
+# -- Research --
+# Formatting:
+# �l 	Bold
+# �m 	Strikethrough
+# �n 	Underline
+# �o 	Italic
+# �r 	Reset
+# <BR>  LineBreak
+# <LINE>Fancy LineBreak
+#
+#
+# Template:
+#  witchinggadgets_research_name.KEY=Research name
+#  witchinggadgets_research_text.KEY=Research subtext
+#  witchinggadgets_research_page.KEY.NUMBER=Research text on page of number NUMBER
+#
+tc.research_category.WITCHGADG=巫师宝具
+#
+
+#WGPOTIONS
+witchinggadgets_research_name.WGPOTIONS=状态效果
+witchinggadgets_research_text.WGPOTIONS=[WG]牛奶总是一个选择!
+witchinggadgets_research_page.WGPOTIONS.1=随着研究的深入,你的可能会发现一些状态效果.已知的如下:<BR><IMG>witchinggadgets:textures/gui/potioneffects.png:18:198:18:18:1</IMG>§n抗击:§r  赋予你抵挡击退效果的能力,每级抵挡几率增加33%.<IMG>witchinggadgets:textures/gui/potioneffects.png:36:198:18:18:1</IMG>§n消融:§r  类似于浸泡在'死亡之水'中,随着时间持续受到伤害.如果死于该状态,则会掉落晶化源质.
+witchinggadgets_research_page.WGPOTIONS.2=<IMG>witchinggadgets:textures/gui/potioneffects.png:54:198:18:18:1</IMG>§n易燃:§r  该效果会增强火焰的威力.所有受到的火焰伤害都会基于该状态的级别造成多倍的伤害.
+#
+witchinggadgets_research_name.ETHEREALWALL=虚无砖块
+witchinggadgets_research_text.ETHEREALWALL=[WG]隐藏在视野中
+witchinggadgets_research_page.ETHEREALWALL.1=对奥术石块的附魔稍加改动就有了一个有趣的发现.只要给这种新石块提供红石信号,就会让它§o无形化§r,让你能直接穿墙而过.<BR>这也会影响到与它相连的其他虚无砖块.
+witchinggadgets_research_page.ETHEREALWALL.2=其次,你能将它伪装成大部分常见的方块.只手持方块右击,它就会被替换成那个方块的材质.空手潜行右击则会移除伪装.(它只能接受普通渲染的方块.原版的透明度有效,但神秘时代的琥珀无效,因为后者是彩色透明的,方向型贴图如原木和石英柱并不能完全支持.)
+#
+witchinggadgets_research_name.STONEEXTRUDER=神秘造石机
+witchinggadgets_research_text.STONEEXTRUDER=[WG]圆石不嫌多
+witchinggadgets_research_page.STONEEXTRUDER.1=即便是神秘学的麻瓜也知道流动的岩浆被水冷却时会凝固成圆石.而精于魔法的家伙们可不想将时间浪费在挖石头上,因此他们想出了自动化的方法.<BR>这台机器会在内部生成圆石,破坏它并将其抛在一边或输入到相连的容器中.当容器已满或有红石信号时则会停止运行.你也可以用法杖来旋转它.
+#
+witchinggadgets_research_name.ICESOLIDIFIER=神秘造雪机
+witchinggadgets_research_text.ICESOLIDIFIER=[WG]雪永远不嫌多
+witchinggadgets_research_page.ICESOLIDIFIER.1=通过操纵和反转神秘造石机,你发现了神秘造雪机,它基本上是相同的装置,但它确实产生了雪而不是圆石.现在去建造一个冰屋吧!
+#
+witchinggadgets_research_name.AGEINGSTONE=生长之石
+witchinggadgets_research_text.AGEINGSTONE=[WG]时光流逝
+witchinggadgets_research_page.AGEINGSTONE.1=每一个年轻的神秘使都想要快点长大!但那也会让你错失许多宝贵的经验和阅历.因此你将影响时间的魔法用在了另一种奥术石块上.<BR>生长之石会加速大部分常见生物的成长,让幼年阶段的羊,牛和猪在其魔法能量的影响下长得更快.<BR>加速生长效果的作用范围是它周边7x7x5的区域,石块越多效果也会越强.
+#
+witchinggadgets_research_name.SPINNINGWHEEL=纺织工艺
+witchinggadgets_research_text.SPINNINGWHEEL=[WG]别戳到自己
+witchinggadgets_research_page.SPINNINGWHEEL.1=有不少巫师会忽视纺织的重要性,但那也只是因为他们低估了它的实力.魔法制品中不乏纺织产物,比如每个神秘使的法袍.一些巫师将会证明在法袍上印刻符文与纺织有着极为相似之处,两者都需要谨慎对待所用的原料,不管是纯生的要素还是纤细的丝线.
+witchinggadgets_research_page.SPINNINGWHEEL.2=对每个初入纺织的实践者而言,都要先做出自己的§l纺车§r.你可以用它来纺出各种纱线,普通的,精致的或是赋予魔法的.然后再将它们织成布匹,做成各种装备或魔法制品-
+witchinggadgets_research_page.SPINNINGWHEEL.r1=<IMG>witchinggadgets:textures/gui/research/spinningRecipes1.png:0:0:255:255:0.5</IMG>§l纱线§r
+witchinggadgets_research_page.SPINNINGWHEEL.r2=<IMG>witchinggadgets:textures/gui/research/spinningRecipes2.png:0:0:255:255:0.5</IMG>§l金丝线§r
+witchinggadgets_research_page.SPINNINGWHEEL.r3=<IMG>witchinggadgets:textures/gui/research/spinningRecipes3.png:0:0:255:255:0.5</IMG>§l神秘丝线§r
+#
+
+witchinggadgets_research_name.CALCULATOR=奥术计算器
+witchinggadgets_research_text.CALCULATOR=[WG] 3-4 = 扭曲?
+witchinggadgets_research_page.CALCULATOR.1=作为一名杰出的神秘使,那些邪术知识可谓唾手可得,你也算是研究混沌的专家了....或许也是因为你缺乏数学方面的知识.但是既然有魔法能为你解决,又有谁会去自找麻烦地研究科学呢?<BR>奥术计算器能帮你解决诸多常见的计算问题.对一个有复合要素的节点使用,它就会计算其所含有的元始要素值.用在注魔矩阵上则可以获取稳定性,稳定物位置,当前注魔风险以及源质额外消耗的相关信息..
+witchinggadgets_research_page.CALCULATOR.2=§o已知最高的注魔风险来自*咳*神秘工匠*咳*,不稳定性高达15.将你的祭坛稳定性控制在那之上将会显得毫无意义.
+#
+witchinggadgets_research_name.LABYRINTHSTRING=引路线卷
+witchinggadgets_research_text.LABYRINTHSTRING=[WG]阿里阿德涅的骄傲(希腊神话中给爱人线团帮其走出迷宫)
+witchinggadgets_research_page.LABYRINTHSTRING.1=迷宫一直以来都被用于从入侵者的手中守护秘密.那其中真正的危险便是再也找不到回去的路.<BR>为了解决那个问题,你发明了引路线卷.当你在暗中摸索前行时,它会在你所经之处留下一道光径.右击就可以激活或者关闭.激活时它会记录你转过的每一个弯.只有手持线卷时才能看见光径,潜行时右击可以清除记录.
+#
+witchinggadgets_research_name.LABELLIB=要素标记库
+witchinggadgets_research_text.LABELLIB=[WG]目录创造的简单!
+witchinggadgets_research_page.LABELLIB.1=当你管理各种源质时,你发现贴标签实在是麻烦至极,你需要一次次地用安瓿装源质再给标签标记,为此你做出了源质标记库.它会记录你所发现的每一个要素,并将其标记在标签上.你只需要放入一个标签,然后选择一个要素,标签就会被标记为对应的要素.
+
+
+
+witchinggadgets_research_page.ENCHFABRIC.r1=<IMG>witchinggadgets:textures/gui/research/weavingRecipes2.png:0:0:255:255:0.5</IMG>
+#
+witchinggadgets_research_name.BAGOFTRICKS=奇术口袋
+witchinggadgets_research_text.BAGOFTRICKS=[WG]我听见了回声?
+witchinggadgets_research_page.BAGOFTRICKS.1=魔法纺织的进一步发展让你发现了§l宽纺布匹§r.它所包含的空间似乎比外面看上去的还要大.用这种材料制成的口袋想必能提供不小的储存空间,同时也能保证它的便携性.<BR>这种布匹似乎对口袋里的内容物也有极强的保护倾向,它会伤害其所有者以外任何想要打开袋子的人.§o所有者在潜行时右击可以设定是否开启这种行为.§r
+witchinggadgets_research_page.BAGOFTRICKS.r1=<IMG>witchinggadgets:textures/gui/research/weavingRecipes1.png:0:0:255:255:0.5</IMG>§l宽纺布匹§r
+witchinggadgets_research_page.BAGOFTRICKS.2=这些口袋都是可以染色的,不加染料直接合成可以变回默认的颜色.
+#
+witchinggadgets_research_name.ENDERBAG=末影口袋
+witchinggadgets_research_text.ENDERBAG=[WG]无处不在!
+witchinggadgets_research_page.ENDERBAG.1=将奇术口袋与你末影箱子的频率相协调,就能随时随地存取末影箱子中的物品了.<BR>请不要将内部翻出来.
+#
+witchinggadgets_research_name.HUNGERBAG=饕餮口袋
+witchinggadgets_research_text.HUNGERBAG=[WG]*咀嚼声*
+witchinggadgets_research_page.HUNGERBAG.1=将奇术口袋的便携性和饕餮箱子那不可遏制的食欲相结合,就有了这么一个能自动将拾取的物品存放起来的口袋.
+#
+witchinggadgets_research_name.VOIDBAG=虚空口袋
+witchinggadgets_research_text.VOIDBAG=[WG]超级黑洞
+witchinggadgets_research_page.VOIDBAG.1=你难道不讨厌那些没用的圆石么?如果它们直接消失该有多好?现在你有办法了!给一个魔法布匹所做的口袋注入虚空的能量后,它就能破坏进入其中的一切物品的物理形态然后释放出它们所含的魔法能量.<BR>使用方法:打开它然后设定你所想的物品.接着,当你捡起那种物品时(只对拾取有效,以其他方式进入物品栏的物品不受影响),它们就会被销毁并随机产生元始要素魔力,给你的法杖充能.
+#
+
+
+witchinggadgets_research_name.ADVANCEDROBES=秘法布匹
+witchinggadgets_research_text.ADVANCEDROBES=[WG]魔法的反面
+witchinggadgets_research_page.ADVANCEDROBES.1=神秘§m之力§r的黑暗面蕴含着巨大的力量.稍稍使用一点那种力量,你就能织出魔法力量更强的布匹.有了这些,你就能做出更富魔力的装备了.
+witchinggadgets_research_page.ADVANCEDROBES.r1=<IMG>witchinggadgets:textures/gui/research/weavingRecipes4.png:0:0:255:255:0.5</IMG>§l秘法布匹§r
+#
+
+
+
+#-----------------------#
+#TG ITEMS
+#-----------------------#
+witchinggadgets_research_name.WGBAUBLES=巫师装备
+witchinggadgets_research_text.WGBAUBLES=[WG]就像神奇的魔法
+witchinggadgets_research_page.WGBAUBLES.1=这几页看上去是从巫术装备商店取来的,实际上居然是魔法装备的制作图!§o所有的这些都可在Baubles或Traveller's Gear的装备栏中装备.TG默认的键位是'数字键7'.§r<BR>§l磐石肩铠:§r<BR>这些肩铠并没有设计得多么好看,保护作用也可以忽略不计.然而其中所蕴含的魔法能让你扎根于地面,从而不会被敌人的攻击所击退.§o赋予你60%的击退抗性.§r
+witchinggadgets_research_page.WGBAUBLES.2=§l狂战士护腕:§r<BR>这些覆盖着狼皮的护腕禁不住刀刃的攻击.但有了注入其中的魔力,就能让使用者如狼般的凶猛.另外,它们也是毛茸茸的.<BR>§o会让你的攻击伤害提升2点.§r
+witchinggadgets_research_page.WGBAUBLES.3=§l迅捷护腕:§r<BR>这些护腕由矮人中的神秘使所设计,能赋予你快速挖掘的能力.它们的效果随工作环境而变化,提升水下,空中以及对坚硬材料的挖掘速度.<BR>它们也会提升爬梯子的速度,以便你能快速从地下脱离.
+witchinggadgets_research_page.WGBAUBLES.4=§l炽天使肩铠:§r<BR>飞翔是许多人所向往的.让使用者飞行算是很高级的魔法了,但在空中继续跳跃还是力所能及的.<BR>这些肩铠会生成强力的魔法之翼,让你能在半空中进行第二次跳跃.
+witchinggadgets_research_page.WGBAUBLES.5=§l狙击指环:§r<BR>有些黑暗生物由于太过强大而最好不要和它们肉搏,因此和它们保持一定距离是一个明智的选择.使用狙击指环会使得这个任务更加容易.<BR>戴上这个指环的时候,你会提升拉开弓时候的移动速度.潜行时可以让你更容易瞄准一个目标.
+witchinggadgets_research_page.WGBAUBLES.6=§l贪婪指环:§r<BR>幸运万岁!但没人能一直保持好运气.你想出了一个办法来增加自己的运气,给戒指镶上一枚金币然后施以魔法.<BR>§o戴着这个指环时你的时运和抢夺等级就会提升2级.<BR>制作金币的附魔书所带的附魔种类不限.§r
+#
+witchinggadgets_research_name.CLOAK=斗篷
+witchinggadgets_research_text.CLOAK=[WG]飕飕!
+witchinggadgets_research_page.CLOAK.1=注意到附魔布匹"飕飕"的性质后,你想到它能用于制作斗篷.尽管这种普通的斗篷缺乏特殊能力,但制作所用的魔法布匹应该能作为高级符文的绝佳载体.<BR>§o它可以装备在旅行者装备栏中,默认的键位是'数字键7'.高级斗篷的特殊能力也能激活.只需要使用旅行者装备栏的'激活能力'菜单.默认的键位是'R'.§r
+#
+witchinggadgets_research_name.CLOAK_STORAGE=奇术斗篷
+witchinggadgets_research_text.CLOAK_STORAGE=[WG]我丢了这里的钥匙...
+witchinggadgets_research_page.CLOAK_STORAGE.1=将奇术口袋和炫酷的斗篷相结合,你就有了更多的储存空间!斗篷也有了50%的额外容量.
+#
+witchinggadgets_research_name.CLOAK_RAVEN=乌鸦斗篷
+witchinggadgets_research_text.CLOAK_RAVEN=[WG] CA-CAW!
+witchinggadgets_research_page.CLOAK_RAVEN.1=在穿过暮色森林的旅行中,你遇到了最迷人的森林乌鸦.这只非凡的鸟在空中表现出高度的敏捷性和操控性十分令人羡慕.<BR>你也可以用羽毛装饰你的斗篷,并灌注神奇的力量,而不是坐着嫉妒它...<BR>穿着这件斗篷,你飞行时的速度明显增加.如果你不飞行,斗篷会让你滑翔.可以在ActiveAbility菜单中禁用滑翔.
+# OLD witchinggadgets_research_page.CLOAK_RAVEN.1=On your travels throughout the Twilight Forest, you have come across the most fascinating Forest Raven. This remarkable bird appears to always find back to his nesting place, even within the dense and dark forest it calls home.<BR>Plucking a feather from it, you have discovered that it, albeit in small scale, inherits this ability. Now you just have to amplify this ability with your thaumic capabilities and infuse your garment with it. The result is the §lMantle of the Raven§r which allows you to set and return to your nesting place at the cost of a raven's feather. You may substitute three chicken feathers.
+#
+witchinggadgets_research_name.CLOAK_SPECTRAL=幽灵斗篷
+witchinggadgets_research_text.CLOAK_SPECTRAL=[WG]现在你看到我了...
+witchinggadgets_research_page.CLOAK_SPECTRAL.1=对于大多数普通人来说,幽灵生物位面是个谜,幸运的是,你不是这大多数人.在为斗篷灌注邪术与幽灵能量后,它将使你能够"转移"自己到那个位面.在那个位面中行走,相对于那些正常位面的普通生物,你将是隐形的.敌人不会看到或瞄准你,除非他们是邪术生物,豁免者或戴着揭示护目镜.<BR>这种能力是以无法与物质世界互动为代价的.你不能攻击,使用物品,破坏或激活方块.此外,它会每隔5秒从你的库存中消耗1风vis.
+witchinggadgets_research_page.CLOAK_SPECTRAL.2=§o免责声明: 仍然可以看到你的生物包括:邪术守卫,邪术典狱官,邪术魔像,血腥主教,以及boss怪比如凋灵或末影龙.由于即使是最狡猾的神秘使也不知道的原因,蜘蛛和史莱姆似乎能够以不同的方式探测到你.任何使用相同斗篷的人也能看见你.§r
+#Creating a cloak that is invisible is an easy task for a thaumaturge, but applying the effect to it's wearer was the hard task. After tedious research however, you have created the §lCloak of Invisibility§r, a garment that renders you invisible to the naked eye. The cloak itself lost a bit of his magic in the process, now only turning mostly transparent, leaving a slight shimmer. Other armor pieces or items that you are holding in your hand are not affected.
+#
+witchinggadgets_research_name.CLOAK_WOLF=野狼斗篷
+witchinggadgets_research_text.CLOAK_WOLF=[WG]你有这么大一个嘴!
+witchinggadgets_research_page.CLOAK_WOLF.1=古老的传说讲述了那些狂战士的故事,它们是被赋予了古魔法之力,隐藏在狼皮之下的冷漠战士.<BR>你的研究发现了类似的魔法装备,由于注重外观和怀旧的原因你决心使用狼皮来制作斗篷.当你在装备它的情况下受到伤害时,会获得攻击力和速度的加成,就如那些古老而无畏的战士们那样.
+#
+witchinggadgets_research_name.CLOAKKAMA=卡玛短袍
+witchinggadgets_research_text.CLOAKKAMA=[WG]这不是一个短裙!
+witchinggadgets_research_page.CLOAKKAMA.1=斗篷及其派生物都兼顾了外观与实用性,但未必太大而显得有点笨重了.将它们缩短然后连接到腰带上就有了卡玛短袍,一种半遮蔽式的护腿.它们的功能保持不变,只是穿着的位置发生了变化.<BR>§l§4警告: 由于未知的错误,shift点击取出合成台的合成物会丢失NBT数据.如果想要保留斗篷的附魔,染色及其内容物,请确保以正常的点击取出合成品.
+#
+
+
+
+#-----------------------#
+#ALCHEMY
+#-----------------------#
+witchinggadgets_research_name.ALCHEMICALTRANSMOGRIFY=炼金转变
+witchinggadgets_research_text.ALCHEMICALTRANSMOGRIFY=[WG]绿草生长,孢子纷飞
+witchinggadgets_research_page.ALCHEMICALTRANSMOGRIFY.1=扩展你的炼金学知识,让你能进一步活化泥土,粉碎圆石,或是纯化砂砾.
+#
+witchinggadgets_research_name.PURECINNABAR=晶簇化:朱砂
+witchinggadgets_research_text.PURECINNABAR=[WG]提纯朱砂成为矿簇
+witchinggadgets_research_page.PURECINNABAR.1=矿簇是稀有的纯金属凝聚物.现在你也能提纯并凝聚朱砂矿中的金属从而获取朱砂矿簇了.<BR>冶炼这些矿簇可获得双倍产量的水银.
+#
+witchinggadgets_research_name.METALLURGICPERFECTION_CLUSTERS=通用炼金:晶簇化
+witchinggadgets_research_text.METALLURGICPERFECTION_CLUSTERS=[WG]提纯大多数矿石成为矿簇
+witchinggadgets_research_page.METALLURGICPERFECTION_CLUSTERS.1=晶簇化的过程似乎对你至今发现的所有金属都适用.<BR>遵循这个逻辑,你创造了通用的提纯理论,让你能将大部分已知矿物中的金属凝聚,从而提纯为矿簇.
+#
+witchinggadgets_research_name.METALLURGICPERFECTION_TRANSMUTATION=通用炼金:嬗变
+witchinggadgets_research_text.METALLURGICPERFECTION_TRANSMUTATION=[WG]嬗变大多数金属
+witchinggadgets_research_page.METALLURGICPERFECTION_TRANSMUTATION.1=金属嬗变术似乎对你至今发现的所有金属都适用.<BR>遵循这个逻辑,你创造了通用的嬗变理论,让你能利用§5metallum§0以及相应的源质获取额外的金属粒.
+#
+witchinggadgets_research_name.PUREALUMINUM=晶簇化:铝
+witchinggadgets_research_text.PUREALUMINUM=[WG]提纯铝成为矿簇
+witchinggadgets_research_page.PUREALUMINUM.1=矿簇是稀有的纯金属凝聚物.你已发现了从铝矿中提纯并凝出铝矿簇的方法.<BR>这些矿簇熔炼后会产出通常产量两倍的铝锭.
+#
+witchinggadgets_research_name.PURECOBALT=晶簇化:钴
+witchinggadgets_research_text.PURECOBALT=[WG]提纯钴成为矿簇
+witchinggadgets_research_page.PURECOBALT.1=矿簇是稀有的纯金属凝聚物.你已发现了从钴矿中提纯并凝出钴矿簇的方法.<BR>这些矿簇熔炼后会产出通常产量两倍的钴锭.
+#
+witchinggadgets_research_name.PUREARDITE=晶簇化:阿迪特
+witchinggadgets_research_text.PUREARDITE=[WG]提纯阿迪特成为矿簇
+witchinggadgets_research_page.PUREARDITE.1=矿簇是稀有的纯金属凝聚物.你已发现了从阿迪特矿中提纯并凝出阿迪特矿簇的方法.<BR>这些矿簇熔炼后会产出通常产量两倍的阿迪特锭.
+#
+witchinggadgets_research_name.PURENICKEL=晶簇化:镍
+witchinggadgets_research_text.PURENICKEL=[WG]提纯镍成为矿簇
+witchinggadgets_research_page.PURENICKEL.1=矿簇是稀有的纯金属凝聚物.你已发现了从镍矿中提纯并凝出镍矿簇的方法.<BR>这些矿簇熔炼后会产出通常产量两倍的镍锭.
+#
+witchinggadgets_research_name.PUREFZDARKIRON=晶簇化:玄铁
+witchinggadgets_research_text.PUREFZDARKIRON=[WG]提纯玄铁成为矿簇
+witchinggadgets_research_page.PUREFZDARKIRON.1=矿簇是稀有的纯金属凝聚物.你已发现了从玄铁矿中提纯并凝出玄铁矿簇的方法.<BR>这些矿簇熔炼后会产出通常产量两倍的玄铁锭.
+
+#
+witchinggadgets_research_name.TRANSALUMINUM=嬗变术:铝
+witchinggadgets_research_text.TRANSALUMINUM=[WG]将别的金属嬗变成铝
+witchinggadgets_research_page.TRANSALUMINUM.1=你发现了一种方法让你能利用从其他金属中提取的§5metallum§0源质实现铝的增产.
+
+#INFERNALBLASTFURNACE
+witchinggadgets_research_name.INFERNALBLASTFURNACE=炼狱高炉
+witchinggadgets_research_text.INFERNALBLASTFURNACE=[WG]火焰跃动...
+witchinggadgets_research_page.INFERNALBLASTFURNACE.1=研究科技的人们想尽各种办法来提纯它们的矿物,而这个炉子就是神秘使对他们的嘲讽.那其中摇曳着的魔法火焰,会将任何矿簇熔为三份金属锭,同时这也不会影响金属粒的生成.<BR>其次,如果你需要钢材,它那高纯度的烈焰也能助你一臂之力,你只需要投入铁锭或铁块然后静待即可.<BR>你也能将加速炼狱熔炉的方法用在这个结构上.
+witchinggadgets_research_page.INFERNALBLASTFURNACE.2=对于普通的烧制而言,它的火焰温度实在是太高了,因此请不要将鸡肉投入炼狱高炉.<BR>免责声明:尽管炉子中的岩浆经过了魔法的增强,危险性依然存在.任何不该投入的物品在炉中都会被气化,包括那些蠢到掉进炉子的神秘使.
+witchinggadgets_research_page.INFERNALBLASTFURNACE.3=§o魔导手册中对于建造结构的显示不太准确.该结构顶部的楼梯方块需要对着中心放置,四角的则与其相适.§r
+
+
+
+#MIRRORPUMP
+witchinggadgets_research_name.MIRRORPUMP=源质泵
+witchinggadgets_research_text.MIRRORPUMP=[WG]吸干它!
+witchinggadgets_research_page.MIRRORPUMP.1=源质魔镜能让注魔祭坛远距离抽取源质,但大部分其他的设备却没法使用这些源质.为了省去铺设管道的麻烦,你发明了源质泵.当它接入管道系统时,它会识别系统中当前的吸力并从邻近的镜子抽取要素源质.
+
+witchinggadgets_research_name.ROSEVINE=玫瑰藤
+witchinggadgets_research_text.ROSEVINE=[WG]尖刺!
+witchinggadgets_research_page.ROSEVINE.1=这些带刺的植物来自某位研究植物学的神秘使.尽管算不上什么装饰物,但它们有着锋利的尖刺,生长迅猛,对于任何藏有§m沉睡§r宝藏的§m城堡§r而言都可以提供天然的保护.蔓延的藤蔓可以用剪刀采集.
+#
+witchinggadgets_research_name.SCANCAMERA=神秘相机
+witchinggadgets_research_text.SCANCAMERA=[WG]里面并没有小淘气!
+witchinggadgets_research_page.SCANCAMERA.1=镜面玻璃的研究显示,在特定情况下它不会映射图像而是储存它们.利用这一原理,你就能将旅途中所见之物的扫描信息存入玻璃板中.之后,再将这些信息转移到纸上,就能与其他神秘使分享了.
+witchinggadgets_research_page.SCANCAMERA.2=§l神秘相机§r的用法和魔导透镜类似.你可以用它来扫描物体,消耗背包中的§l镜面玻璃§r以获取§l成像底片§r.即便是先前扫描过的物体也能再次成像,但只有使用§l成像洗片§r才能获取研究点数.通过这种方式获取的点数会受到和透镜扫描相同的限制.增加所用的纸墨数量可以制作更多的成像副本.
+#
+#SAUNASTOVE
+witchinggadgets_research_name.SAUNASTOVE=神秘桑拿炉
+witchinggadgets_research_text.SAUNASTOVE=[WG]芬兰的魔法!
+witchinggadgets_research_page.SAUNASTOVE.1=清洁卫生以及浴场似乎成为了神秘使们的新潮流.在此之下就有了神秘桑拿炉,它会向周围的空间释放出洁净而怡人的蒸汽.<BR>沉浸在这蒸汽中时,你可以免受扭曲效果的影响,同时也有小几率减少临时扭曲值.然而这伴随着轻微的副作用,一次桑拿过后你也会倍感饥饿!<BR>炉子本身只需要水就能运行,你可以用流体容器或是管道来输入.一桶水就能让它持续运行10分钟!
+witchinggadgets_research_page.SAUNASTOVE.2=如果你安装了EnviroMine,桑拿会使你口渴以及轻微的过热,但它也有助于保持神智清醒!
+
+#CRYSTALCAPSULE
+witchinggadgets_research_name.CRYSTALCAPSULE=水晶容器
+witchinggadgets_research_text.CRYSTALCAPSULE=[WG]威尼斯而来的爱
+witchinggadgets_research_page.CRYSTALCAPSULE.1=谁都能用桶!...然而,这并没有什么用.一些流体不能与平凡的桶共存,但即便是最热或最粘的物质都无法拒绝水晶容器.<BR>这些水晶体并非雕刻而成,而是由源质塑造而来,这也使得它们如水晶般剔透无暇,并且不受其他物质的影响.<BR>§o使用起来和桶一样,但它对所有的流体方块都有效.§r
+
+
+
+#-----------------------#
+#ENCHANTMENTS
+#-----------------------#
+witchinggadgets_research_name.ENCH_INVISIBLEGEAR=附魔:幻影
+witchinggadgets_research_text.ENCH_INVISIBLEGEAR=[WG]透明装甲!
+witchinggadgets_research_page.ENCH_INVISIBLEGEAR.1=每个人都会认同护甲的重要性.在大多数战斗中它们都能救你一命.但若你想要隐蔽自己,这些护甲也会成为累赘.<BR>哪怕你喝下了隐身药水变得隐形,这些笨重的盔甲仍然不受影响.但聪明的神秘使轻松解决了这个问题,只要给这些护甲施以魔法就能让它们变得透明!
+#
+witchinggadgets_research_name.ENCH_UNVEILING=附魔:揭示
+witchinggadgets_research_text.ENCH_UNVEILING=[WG]X光眼镜
+witchinggadgets_research_page.ENCH_UNVEILING.1=每个神秘使都有过这样的经历:总感觉有人或什么东西在盯着自己.但四下张望却又什么都没有.有了正确的眼镜,你就能看见这些家伙,然后盯回去!<BR>这个附魔能用于揭示之护目镜或其他拥有相同功能的头部装备.穿戴着附魔的装备时你就能看见隐身的生物.其次,被其他人使用时会失效,装备了幽灵斗篷的人则会显示得更清晰.
+#
+witchinggadgets_research_name.ENCH_STEALTH=附魔:潜行
+witchinggadgets_research_text.ENCH_STEALTH=[WG]潜伏!
+witchinggadgets_research_page.ENCH_STEALTH.1=通常对于你面对的这些感官敏锐的生物而言,潜行不会起到多大的效果.但现在可不一样了!给你的靴子或护腿附魔潜行就能增加不被发现的几率.每级增加10%.但如果你在目标的视野内则会降低10%.<BR>如果你被发现了,那么5格以内的所有敌人都会注意到你.
+#
+witchinggadgets_research_name.ENCH_BACKSTAB=附魔:背刺
+witchinggadgets_research_text.ENCH_BACKSTAB=[WG]刺客之道
+witchinggadgets_research_page.ENCH_BACKSTAB.1=有了潜行的附魔后,你想到了一种新的战斗方式.通过从敌人背后发动攻击,你就能突破它们的防御.附魔了背刺的物品在敌人后方发动攻击时都会造成额外的伤害,每级增加20%,如果目标没有发现你,则会再附加40%的额外伤害.
+#
+witchinggadgets_research_name.ENCH_RIDEPROTECT=附魔:解缚
+witchinggadgets_research_text.ENCH_RIDEPROTECT=[WG]下来,小子!
+witchinggadgets_research_page.ENCH_RIDEPROTECT.1=当有人骑在你头上时移动会很困难.给头盔加上这个附魔就能解决那个问题.每个试图跳到你头上的家伙都会被甩下来并受到伤害.
+#
+witchinggadgets_research_name.ENCH_SOULBOUND=附魔: 灵魂绑定
+witchinggadgets_research_text.ENCH_SOULBOUND=[WG]死亡只是另一个开始.
+witchinggadgets_research_page.ENCH_SOULBOUND.1=死亡总有点不方便.除了死了,你也往往失去重要的东西,如工具,有价值的材料和盔甲.<BR>通过将末影人产物的奇怪属性注入物品,它似乎与你的精神联系在一起并随你从一个生命到另一个生命.不再失去你最喜欢的袜子了!<BR>由于注魔祭坛总是挑剔的,它也可以制成附魔书.
+
+
+#-----------------------#
+#GEMCUTTING
+#-----------------------#
+witchinggadgets_research_name.GEMCUTTING=宝石雕琢
+witchinggadgets_research_text.GEMCUTTING=[WG]一切都晶莹剔透!
+witchinggadgets_research_page.GEMCUTTING.1=在各种通过物理形式赋予魔法的方法中,宝石雕琢算是较为古老的了.如果将魔法注入宝石中,那么它的使用就不再受限于持有者了.谁都能使用雕琢过的宝石中所存的力量.即便是不精于神秘学的人,也能通过这些宝石获取力量.<BR>宝石的功能取决于它们的琢型和注入的魔法源质.
+
+witchinggadgets_research_page.GEMCUTTING.2=你可以用新造的切割台来制作这些宝石,并向其中注入源质.<BR>在左侧放入一颗有效的宝石,另外三个槽放入天域之华或要素安瓿.它们所含的要素必须是同种类型的,要素类型也会决定蕴魔宝石最终的强度.通过箭头可以选择雕刻的琢型,然后就可以在右侧取出制作完成的宝石.宝石一旦被加工出来,就无法重新加工了.
+witchinggadgets_research_page.GEMCUTTING.3=§l自然亲和§r<BR>一些石头与生俱来就对特定的要素有自然亲和,这会增强它们的效果.如果亲和属性与注入的要素匹配,宝石就会被附魔"闪耀",附魔等级取决于制作时所用的源质量.<BR>§l自然疏离§r<BR>类似的,一些宝石对特定要素也会有自然疏离,如果向宝石注入了这些要素就会使其变得脆弱,削弱它们的效果,并且会让可反复使用的宝石的损坏几率增大.<BR>按住shift就可以查看宝石的自然亲和与自然疏离属性.
+
+witchinggadgets_research_page.GEMCUTTING.4=            §l结晶体琢型§r<LINE>结晶体琢型是蕴魔宝石最基础的琢型.尽管它能储存魔法能量,但你只能通过粉碎宝石来释放.使用过后的宝石会变为一摊宝石粉末.各种要素的效果如下:<BR>§e§lAer:§r§0让你短暂获得大幅的跳跃力提升.<BR>§2§lTerra:§r§0赋予你对击退效果的抗性.<BR>§c§lIgnis:§r§0用临时的光源照亮你周围的区域.
+witchinggadgets_research_page.GEMCUTTING.5=§3§lAqua:§r§0释放出一阵极寒的能量,使附近的水结冰,岩浆凝固.<BR>§f§lOrdo:§r§0让你回复一些生命值.<BR>§8§lPerditio:§r§0增加一些临时扭曲值.
+
+witchinggadgets_research_page.GEMCUTTING.6=              §l椭圆琢型§r<LINE>椭圆琢型是蕴魔宝石的高级琢型.增多雕琢的翻光面后,它就能储存更多的能量.并且会以更集中的脉冲来释放能量.它们的效果与结晶体琢型的截然不同,此外这种琢型的宝石能通过相应的要素魔力充能.<BR>由于其结构的复杂性,将没有自然亲和的原石用于雕琢会使成品十分脆弱,同时制作闪耀宝石所需的源质也会增多.
+witchinggadgets_research_page.GEMCUTTING.7=§e§lAer:§r§0风之力会推动你前行,每次使用消耗1充能.<BR>§2§lTerra:§r§0在一个方块上使用时,它会检测相连的方块来搜寻矿物,每次使用消耗1充能.<BR>§c§lIgnis:§r§0在所指方块上燃起一团火焰,每次使用消耗1充能.<BR>§3§lAqua:§r§0在所指方块上生成水方块.每次使用消耗2充能.<BR>§7§lOrdo:§r§0为你指出最近的节点所在的方位.每次使用消耗2充能.<BR>§8§lPerditio:§r§0对魔镜使用时,会将你传送到相连的另一个魔镜,每次使用消耗16充能.(需要shift右击)
+witchinggadgets_research_page.GEMCUTTING.7.noMirrors=§e§lAer:§r§0风之力会推动你前行,每次使用消耗1充能.<BR>§2§lTerra:§r§0在一个方块上使用时,它会检测相连的方块来搜寻矿物,每次使用消耗1充能.<BR>§c§lIgnis:§r§0在所指方块上燃起一团火焰,每次使用消耗1充能.<BR>§3§lAqua:§r§0在所指方块上生成水方块.每次使用消耗2充能.<BR>§7§lOrdo:§r§0为你指出最近的节点所在的方位.每次使用消耗2充能.<BR>§8§lPerditio:§r§0释放一阵能量波,推开周围的敌人并致盲.每次使用消耗2充能.
+#
+witchinggadgets_research_name.GEMCUT_TABLE=Table Cut
+witchinggadgets_research_text.GEMCUT_TABLE=[WG] Bling
+witchinggadgets_research_page.GEMCUT_TABLE.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:80:0:80:80:1</IMG>The table cut is
+witchinggadgets_research_name.GEMCUT_STEP=Step Cut
+witchinggadgets_research_text.GEMCUT_STEP=[WG] Shwing
+witchinggadgets_research_page.GEMCUT_STEP.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:160:0:80:80:1</IMG>The table cut is
+witchinggadgets_research_name.GEMCUT_ROSE=Rose Cut
+witchinggadgets_research_text.GEMCUT_ROSE=[WG] Sparkle
+witchinggadgets_research_page.GEMCUT_ROSE.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:0:80:80:80:1</IMG>The table cut is
+witchinggadgets_research_name.GEMCUT_OVAL=Oval Cut
+witchinggadgets_research_text.GEMCUT_OVAL=[WG] Gleam
+witchinggadgets_research_page.GEMCUT_OVAL.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:80:80:80:80:1</IMG>The oval cut is the perfection in gemcutting. It is used in the creation of baubles but can also be affixed to most armorpieces and tools, giving them socketed effects. See the following pages for a list.
+
+
+#-----------------------#
+#ELDRITCH
+#-----------------------#
+witchinggadgets_research_name.WGELDRITCHBASE=邪术研究
+witchinggadgets_research_text.WGELDRITCHBASE=[WG]凝视虚空
+witchinggadgets_research_page.WGELDRITCHBASE.1=你的研究表明虚空金属是制作工具的绝佳选择,但它们也能作出强有力的屏障,使得除所有者以外的任何人都无法通过.
+
+#PRIMORDIALGLOVE
+witchinggadgets_research_name.PRIMORDIALGLOVE=元始手套
+witchinggadgets_research_text.PRIMORDIALGLOVE=[WG]各自独立
+witchinggadgets_research_page.PRIMORDIALGLOVE.1=元始珍珠的研究让你开始进一步破解先前所遇到的邪术文字.其中包括了一套装备的设计,它们似乎能通过宝石引导虚空之力.可惜的是,只有手套部分的文本勉强可以辨别出.<BR>该手套内置一个§5节点换能器§0,它一旦抓取到节点,就再也不会将其释放出来,新的节点会替代现有的.<BR>在上面的5个接口安装蕴魔宝石后,你就能引导出宝石的力量了.宝石的充能速度取决于手套中节点的要素含量.
+witchinggadgets_research_page.PRIMORDIALGLOVE.2=接口会稳定其中的宝石,因此一旦安装,宝石就不会粉碎而是再充能<BR>若要选择激活的宝石,只需使用切换法杖核心的键位即可.潜行时按切换键可以打开它的界面,在这里就可以添加或取出宝石.<BR>制作过程不会消耗珍珠.
+
+#PRIMORDIALGEARSET
+witchinggadgets_research_name.PRIMORDIALGEARSET=元始启示录
+witchinggadgets_research_text.PRIMORDIALGEARSET=[WG]异域战争!
+witchinggadgets_research_page.PRIMORDIALGEARSET.1=就像一道闪电划过,之前所见的笔迹突然变得如水晶一般澄澈.你修复的页面所记载的是元始锻造术,一种高能的注魔工艺.有了它你应该就能制作出更卓越的装备了.它的设计表明这些物品并不适合旅行的神秘使.它们是为了与虚空生物间不可避免的冲突而准备的.与它们战斗的话,以其人之道还至其人之身不是最好的么?<BR>为了武装并保护自己,你需要使用虚空金属块和含有元始之力的物品.
+witchinggadgets_research_page.PRIMORDIALGEARSET.2=还没有结束!这些装备上的符文和槽位表明它们还能进一步强化.每一件都能被注入元素之力,极大地发掘其潜能!
+
+#PRIMORDIALWEAPONRY
+witchinggadgets_research_name.PRIMORDIALWEAPONRY=元始武器
+witchinggadgets_research_text.PRIMORDIALWEAPONRY=[WG]移动式始源能量发射平台
+witchinggadgets_research_page.PRIMORDIALWEAPONRY.1=元始武器是为了斩杀邪恶生物而设计的,它们超越了你先前制作的任何魔法武器.各自不仅拥有不同的能力,还能被赋予元始亲和力,进一步获取特殊效果.不要被它们巨大的外观所吓倒,持有者并不会感觉到其重量,而被攻击的目标就不一样了.
+witchinggadgets_research_page.PRIMORDIALWEAPONRY.2=元始巨剑似乎能助你攻击敌人的弱点.它的剑刃会攻击目标的颈部并将其斩首.<BR>元始战锤则会凭借自身巨大的重量将对手击垮.对史莱姆和蜘蛛的伤害加倍,其他的目标则有几率受到冲击.它也能破坏3x3区域的方块,潜行时无效.<BR>元始巨斧可以轻而易举地切除树叶,或是撕裂盔甲.敌人的护甲越高武器的伤害也就越高,护甲本身也会受到额外伤害的影响.
+witchinggadgets_research_page.PRIMORDIALWEAPONRY.3=§l§n     元始亲和:     §r<BR>§nAer:§r武器会攻击多个目标.<BR>§nTerra:§r用武器格挡后会获得抗性,最多叠加3级.<BR>§nIgnis:§r引燃攻击目标,并提升其受到的所有火焰伤害.<BR>§nAqua:§r目标会被覆上消融之水,持续受到伤害.受该影响致死的目标会掉落晶化源质.<BR>§nOrdo:§r 极大提升击杀的经验值,目标会掉落更多经验球.<BR>§nPerditio:§r 攻击会使目标虚弱并陷入饥饿.
+
+#PRIMORDIALCLAYMORE
+witchinggadgets_research_name.PRIMORDIALCLAYMORE=元始巨剑
+witchinggadgets_research_text.PRIMORDIALCLAYMORE=[WG]与头颅同在!
+witchinggadgets_research_page.PRIMORDIALCLAYMORE.1=元始巨剑只是为了战斗和铲除邪恶而生.不知为何其持有者不会感觉到它巨大的重量.而被它所砍中的敌人就不同了.它的剑刃似乎能助你瞄向敌人的颈部,从而提升砍首的几率.
+
+#PRIMORDIALHAMMER
+witchinggadgets_research_name.PRIMORDIALHAMMER=元始战锤
+witchinggadgets_research_text.PRIMORDIALHAMMER=[WG]pia~
+witchinggadgets_research_page.PRIMORDIALHAMMER.1=元始战锤拥有着巨大的锤头,能破坏你前方3x3区域的方块.<BR>它能对史莱姆一类的生物施以毁灭性的打击,造成双倍的伤害并将它们击飞.
+
+#PRIMORDIALGREATAXE
+witchinggadgets_research_name.PRIMORDIALGREATAXE=元始巨斧
+witchinggadgets_research_text.PRIMORDIALGREATAXE=[WG]将它们撕碎
+witchinggadgets_research_page.PRIMORDIALGREATAXE.1=元始巨斧可以轻而易举地破坏树叶和木头.但它那锋利的边缘可不是只能用来砍树的.
+
+witchinggadgets_research_name.PRIMORDIALARMOR=元始护甲
+witchinggadgets_research_text.PRIMORDIALARMOR=[WG]双足坦克
+witchinggadgets_research_page.PRIMORDIALARMOR.1=元始护甲能为你提供绝佳的保护.它不仅能抵御许多伤害,还能接受符文附魔,让你能进一步强化它.它们的特殊效果取决于其元始亲和,这些效果也能在激活能力的菜单中开关.§o(默认键位:R)§r<BR>和要塞盔甲一样,它也能装上揭示之护目镜和其他的面具.
+witchinggadgets_research_page.PRIMORDIALARMOR.2=§l§n     元始亲和:     §r<BR>§nAer:§r射向你的任何抛射物都会被风所捕获然后推回射击者.<BR>§nTerra:§r增强护甲对穿透伤害的保护力.<BR>§nIgnis:§r极大地减少来自火焰和爆炸的伤害,必要时还能熄灭你身上的火.<BR>§nAqua:§r<BR>能治愈(腐)毒,失明,凋零和恶心这类轻微的不适症状.对扭曲效果无效.<BR>§nOrdo:§r所有基于扭曲的状态效果的程度和持续时间都会被减少.<BR>§nPerditio:§r对使用者的大部分攻击都会让攻击者陷入失明和缓慢的效果.
+#witchinggadgets_research_name.PRIMORDIALHELMET=Primordial Helm
+#witchinggadgets_research_text.PRIMORDIALHELMET=[WG] 
+#witchinggadgets_research_page.PRIMORDIALHELMET.1=
+#witchinggadgets_research_name.PRIMORDIALCUIRASS=Primordial Cuirass
+#witchinggadgets_research_text.PRIMORDIALCUIRASS=[WG] 
+#witchinggadgets_research_page.PRIMORDIALCUIRASS.1=
+#witchinggadgets_research_name.PRIMORDIALGREAVES=Primordial Greaves
+#witchinggadgets_research_text.PRIMORDIALGREAVES=[WG] 
+#witchinggadgets_research_page.PRIMORDIALGREAVES.1=
+#witchinggadgets_research_name.PRIMORDIALBOOTS=Primordial Boots
+#witchinggadgets_research_text.PRIMORDIALBOOTS=[WG] 
+#witchinggadgets_research_page.PRIMORDIALBOOTS.1=
+
+#EMPOWERPEARL
+witchinggadgets_research_name.EMPOWERPEARL=珍珠焕活
+witchinggadgets_research_text.EMPOWERPEARL=[WG]120 bpm
+witchinggadgets_research_page.EMPOWERPEARL.1=元始珍珠昔日的力量已然消失.不,还没有消失,它只是变成了另一个物品.还有希望.珍珠本身仍然保存完好,你只是需要再一次给它注入能量...
+
+#TERRAFORMER
+witchinggadgets_research_name.TERRAFORMER=奥术群系转化器
+witchinggadgets_research_text.TERRAFORMER=[WG]随我心意,速速转变!
+witchinggadgets_research_page.TERRAFORMER.1=当普通的园艺不再足够,当你想要将那苦闷的雨变为美丽的雪,当你那该死的蜜蜂们不愿在当前的气候下工作:是时候用上奥术群系转化器了.<BR>在它的顶端放上核心,就会设定需求的要素.这个装置会消耗指定的要素源质以及§2Terra§0要素魔力.每消耗4单位源质和4点魔力,它就会改变周围16格以内某一处的生物群系.
+
+witchinggadgets_research_name.TERRAFORMFOCUS_PLAINS=群系核心:平原
+witchinggadgets_research_text.TERRAFORMFOCUS_PLAINS=[WG]一望无垠
+witchinggadgets_research_page.TERRAFORMFOCUS_PLAINS.1=代表最基础的群系核心.<BR>...<BR> 它需要§2Herba§0源质来运行.
+witchinggadgets_research_name.TERRAFORMFOCUS_COLDTAIGA=群系核心:冰原
+witchinggadgets_research_text.TERRAFORMFOCUS_COLDTAIGA=[WG]凛冬将至
+witchinggadgets_research_page.TERRAFORMFOCUS_COLDTAIGA.1=与沙漠核心截然相反,群系核心:冰原会将周围的区域转化为冬季乐园.它需要§bGelum§0源质来运行.
+witchinggadgets_research_name.TERRAFORMFOCUS_DESERT=群系核心:沙漠
+witchinggadgets_research_text.TERRAFORMFOCUS_DESERT=[WG]不是你喜欢的甜点!
+witchinggadgets_research_page.TERRAFORMFOCUS_DESERT.1=骄阳,热沙,燥土以及一堆带刺的仙人植物.即便是邪术学也没法解释为什么会有人想要生活在这样的环境里.不管怎样,给这个核心供应§cIgnis§0源质就能实现了.
+witchinggadgets_research_name.TERRAFORMFOCUS_JUNGLE=群系核心:雨林
+witchinggadgets_research_text.TERRAFORMFOCUS_JUNGLE=[WG]欢迎!
+witchinggadgets_research_page.TERRAFORMFOCUS_JUNGLE.1=喜爱动物的神秘使们也会想尽办法哄自家的喵咪开心.让它们感觉身处于雨林中.为此就需要这个群系核心了,它需要Arbor源质来驱动.
+witchinggadgets_research_name.TERRAFORMFOCUS_HELL=群系核心:地狱
+witchinggadgets_research_text.TERRAFORMFOCUS_HELL=[WG]钻穿地狱
+witchinggadgets_research_page.TERRAFORMFOCUS_HELL.1=实话说,就算这些神智被扭曲的家伙们都不会想要住在岩浆和硫磺环绕的地方.<BR>...<BR>什么?!你想?!好吧,随你了.给这个核心供应Tenebrae源质,然后享受你的人间地狱吧.
+witchinggadgets_research_name.TERRAFORMFOCUS_MUSHROOM=群系核心:蘑菇岛
+witchinggadgets_research_text.TERRAFORMFOCUS_MUSHROOM=[WG]哞~!
+witchinggadgets_research_page.TERRAFORMFOCUS_MUSHROOM.1=这里的颜色或许不是那么好看,牛群看上去也是怪怪的,但在这里就不用担心各种怪物了,蘑菇岛可谓理想的度假胜地.现在你可以把它搬到家门口了,只需要给这个群系核心供应§aLimus§0源质.
+witchinggadgets_research_name.TERRAFORMFOCUS_TAINT=群系核心:腐化之地
+witchinggadgets_research_text.TERRAFORMFOCUS_TAINT=[WG]带走我的眼泪!
+witchinggadgets_research_page.TERRAFORMFOCUS_TAINT.1=你已经这般疯狂了.人工制造腐化之地?不仅仅是腐化瓶,而是想要更大的面积?<BR>你还在为此研究?好吧,你只要给这个核心供应§5Vitium§0源质然后一个人疯去吧.
+witchinggadgets_research_name.TERRAFORMFOCUS_END=群系核心:末地
+witchinggadgets_research_text.TERRAFORMFOCUS_END=[WG]末地降临
+witchinggadgets_research_page.TERRAFORMFOCUS_END.1=不知何故我突然觉得已经习惯了末地冰冷的气息以及末影人们.<BR>...<BR>给这个核心供应§5Alienis§0源质然后生活在冰冷孤寂的末地吧.
+witchinggadgets_research_name.TERRAFORMFOCUS_RIVER=群系核心:河流
+witchinggadgets_research_text.TERRAFORMFOCUS_RIVER=[WG]如生命一般的河流
+witchinggadgets_research_page.TERRAFORMFOCUS_RIVER.1=钓鱼是每个神秘使最喜欢的事情.这就是为什么他们通常喜欢住在河边.<BR>...<BR>给这个核心供应§bAqua§0源质.
+witchinggadgets_research_name.TERRAFORMFOCUS_OCEAN=群系核心:海洋
+witchinggadgets_research_text.TERRAFORMFOCUS_OCEAN=[WG]漂流
+witchinggadgets_research_page.TERRAFORMFOCUS_OCEAN.1=你为什么想要在你的房子里看到比河流更多的水呢? 海上的空阔是如此浪漫? 将你的河流核心升级至海洋等级然后享受水之爬行者们的热情招待吧.<BR>...<BR>只需供给此群系核心§bAqua§0源质你就能和你的爬行者新朋友愉快地玩耍了,顺便欣赏下这浪漫的景色吧.
+witchinggadgets_research_name.TERRAFORMFOCUS_MAGIC=群系核心:魔法森林
+witchinggadgets_research_text.TERRAFORMFOCUS_MAGIC=[WG]这是某种魔力
+witchinggadgets_research_page.TERRAFORMFOCUS_MAGIC.1=这个世界充斥着魔法,但你从未见过集中的魔法之地,所以是时候创造一个完全的魔法群系了.<BR>...<BR>给这个核心供应§cSano§0源质,感受周围充盈的魔力吧.
+
+# ADVANCED SCRIBING TOOLS
+witchinggadgets_research_name.ADVANCEDSCRIBINGTOOLS=进阶笔与墨
+witchinggadgets_research_text.ADVANCEDSCRIBINGTOOLS=[WG]比剑更有效
+witchinggadgets_research_page.ADVANCEDSCRIBINGTOOLS.1=每个神秘使都知道获取进一步研究所必需的墨水的痛苦.他经常不得不自己寻找鱿鱼!为了避免将来遇到这些麻烦,你已经想到了一套更有效的笔与墨.它们的制作成本可能很高,但它们神奇的墨水池是普通笔与墨的十倍.最重要的是,它不能由墨囊填充,而是从最纯净的光和少量的金子中重新填充.
+
+
+#-----------------------#
+#UNIMPLEMENTED
+#-----------------------#
+
+witchinggadgets_research_name.RUNICCLOAK=符文斗篷
+witchinggadgets_research_text.RUNICCLOAK=[WG]两全其美
+witchinggadgets_research_page.RUNICCLOAK.1=尽管符文护甲的保护很重要,你也想要魔法斗篷的能力.为什么不能两者兼得呢?<BR>将符文胸甲的魔力赋予魔法斗篷,你就能同时保有两者的能力.
+#
+witchinggadgets_research_name.LOOM=织机
+witchinggadgets_research_text.LOOM=[WG]编织魔力
+witchinggadgets_research_page.LOOM.1=为了进一步处理纺出的纱线,巫师就需要制作一台魔法织机来纺得魔法布匹.这个装置不仅能纺织丝线,还能给其注入各种§l要素§r,赋予其魔法特性.为此你需要在附近放置装有源质的§l要素罐子§r.<BR>设定好配方后,只要用法杖轻触织机就能开始纺织了.
+#
+witchinggadgets_research_name.ARCANEAUTOCRAFTER=奥术合成器
+witchinggadgets_research_text.ARCANEAUTOCRAFTER=[WG]奥术自动合成!
+witchinggadgets_research_page.ARCANEAUTOCRAFTER.1=那些发现了永生秘密的法师拥有无尽的时间(你可以通过那些长长的白胡子认出他们).但像你这样平凡的神秘使们又如何呢?为了尽可能的节省时间,为何不让其他人代替你进行枯燥无味的合成工作呢?当然,没人敢将法杖这样危险的东西交付给傀儡,但这个有着半意识的木桌却可以胜任.
+witchinggadgets_research_page.ARCANEAUTOCRAFTER.2=只需要设定好想要的配方(普通配方或奥术合成),提供原料,必要的话还要一根充能的法杖,然后就可以让它为你工作了.要注意的是,合成的研究知识需求受限于放置方块的那个玩家.
+#
+witchinggadgets_research_name.VORPALBLADE=Vorpal Blade
+witchinggadgets_research_text.VORPALBLADE=SNICKER-SNACK!
+witchinggadgets_research_page.VORPALBLADE.1=§oOne, two! One, two! and through and through<BR>The vorpal blade went snicker-snack!<BR>He left it dead, and with its head<BR>He went galumphing back§r<LINE>A sword of legend. So powerful that it will cleanly cut through any material known to men and is likely to fatally strike and behead most any foe.
+#
+witchinggadgets_research_name.WALLMIRROR=Mirror on the Wall
+witchinggadgets_research_text.WALLMIRROR=[WG] The most magical of all!
+witchinggadgets_research_page.WALLMIRROR.1=Further delving into the magic of the mirrors has lead you to the discovery of a safe haven within the void between worlds.<BR>While this location is brimming with magic, otherwise it appears to be void of anything. It has no visible layer of flooring, yet somehow you can stand there.<BR>This space seems to be an excellent way of traveling. Since it is vast and empty as well, it should be easy to store any of your belongings in this void-between-worlds
+witchinggadgets_research_page.WALLMIRROR.2=§lAccess:§r<BR>Place the mirror wherever you like. When you'd like to open the portal, simply right-click it. The dimension accessed through it is the same from any mirror, but portals out of it are only created where it is entered. This means that you can only leave where another Mirror has been placed in the Overworld.<BR><BR>§lNavigation:§r<BR>An invisible floor will spawn in a 5x5 below you wherever you walk. These blocks can be replaced with normal blocks by right-clicking them, allowing you to build there. Jump to ascend, the floor will follow you. Holding the sneak key will make you descend.
+#
+
+
+# ELITE RUNIC ARMOR
+witchinggadgets_research_name.ELITERUNICARMOR=Elite Runic Armor
+witchinggadgets_research_text.ELITERUNICARMOR=[WG] Overshield!
+witchinggadgets_research_page.ELITERUNICARMOR.1=While runic armor is an excellent form of protection, you have come to realize that you can also apply these runes to actual armor. With that you are not only granted normal armor, the bigger surface also allows more runes, increasing the pool of runes this armor provides. A wise mage would use the newly aquired set of scribing tools, because this procedure drains a hundred units of ink and a standard pen would break from this.
+#
+# ELITE ARMOR SETS
+witchinggadgets_research_name.DEMONIC_HELM=Helm of Leviathan
+witchinggadgets_research_text.DEMONIC_HELM=[WG] A beast rising from the sea, with ten horns and seven heads
+witchinggadgets_research_page.DEMONIC_HELM.1=The depths that are home to the beast shall be easily traversed when you wear this helm. You shall find air to breath even down there and be able to see even through the densest darkness.
+#
+witchinggadgets_research_name.DEMONIC_CHEST=Asrael's Cuirass
+witchinggadgets_research_text.DEMONIC_CHEST=[WG] And behold, a pale horse! And its rider's name was Death.
+witchinggadgets_research_page.DEMONIC_CHEST.1=And his victims fell before his feet. While one is wearing this cuirass, they are not only granted the power of flight, but health leeching abilities as well. Upon killing any living creature, the wearer of this infernal armor absorbs part of their very life-force This allows the aforementioned wearer to add twenty percent of the killed creatures health to its own, appearing as absorption hitpoints. These extra units of health last only ten minutes. Only creatures with 10 hearts or more are valid prey for this spell. If that wasn't enough, the wearer is granted twenty seconds of heightened saturation upon killing any creature
+#witchinggadgets_research_page.DEMONIC_CHEST.1=And his victims fell before his feet. While one is wearing this cuirass, they are granted the power of flight. Furthermore, they, upon killing any other living creature, absorb a part of their health. This adds 20% of the creature's health as absorption hitpoints which last for 10 minutes. Only targets with 10 hearts or more are valid. These hitpoints stack up to 10 extra hearts and the timer is reset each time. Furthermore, upon killing any living creature the wearer is granted 20 seconds of saturation.
+#
+witchinggadgets_research_name.DEMONIC_LEGS=Lycan's Greaves
+witchinggadgets_research_text.DEMONIC_LEGS=[WG] These paws were made for pouncing!
+witchinggadgets_research_page.DEMONIC_LEGS.1=Werewolves are ferocious beasts. Even more so when provoked. These greaves, imbued with the aspects that represent them, grant you their immense speed. Should you be attacked, they send you into a blood rage, drastically increasing your damage. While sprinting, hold the assigned key (default: Ctrl) to gain a haste buff.
+#
+witchinggadgets_research_name.DEMONIC_BOOTS=Claws of the Behemoth
+witchinggadgets_research_text.DEMONIC_BOOTS=[WG] And where he tread, he laid waste upon the land
+witchinggadgets_research_page.DEMONIC_BOOTS.1=These clawed feet will allow you to run at higher speed, and wont take damage on falling. It's claws also allow you to scale walls. Crouching before you jump will allow you to jump higher, but this might result in damage to the blocks below you.
+#
+#
+witchinggadgets_research_name.ANGELIC_HELM=Ophanic Helm
+witchinggadgets_research_text.ANGELIC_HELM=[WG] Lights will guide you home
+witchinggadgets_research_page.ANGELIC_HELM.1=Even in the deepest dark, a light will shine for you. Whereever you go, a shimmer of magical light acompanies you. It vanishes shortly after you depart and only appears in dark areas.
+#
+witchinggadgets_research_name.ANGELIC_CHEST=Seraph's Cuirass
+witchinggadgets_research_text.ANGELIC_CHEST=[WG] Blinded by the light!
+witchinggadgets_research_page.ANGELIC_CHEST.1=While wearing this cuirass, the Thaumaturge is strengthened by the powers of light. They are granted the ability to fly and get strengthened by the light. The brighter the light you're standing in, the higher your chance to regenerate some health. Finally, this cuirass contains otherworldly pockets allowing you to store items in it. Open them with the keybinding for using cloaks (default: 'G').
+#
+witchinggadgets_research_name.ANGELIC_LEGS=Cherub Greaves
+witchinggadgets_research_text.ANGELIC_LEGS=[WG] Green...kneecap?
+witchinggadgets_research_page.ANGELIC_LEGS.1=When you sneak over the fields on which the independant Thaumaturge grows his supplies, dirt will be tilled and farmland will be hydrated. Also, should you ever be in a tight spot, try crouching and jumping. You will be propelled high into the air and all creatures around you will be paralyzed for a short moment.
+#
+witchinggadgets_research_name.ANGELIC_BOOTS=Sabatons of the Valkyrie
+witchinggadgets_research_text.ANGELIC_BOOTS=[WG] Feathered steps
+witchinggadgets_research_page.ANGELIC_BOOTS.1=By the magic of these boots you move at higher speed, and wont take damage on falling.<BR>Furthermore, you are granted the power of walking upon the surface of any liquid. This includes water and lava. Should you crouch you will sink.
+#
+witchinggadgets_research_name.THAUMICAPPLICATOR=
+witchinggadgets_research_text.THAUMICAPPLICATOR=[WG] 
+witchinggadgets_research_page.THAUMICAPPLICATOR.1=
+#
+
+tc.research_page.PRIMORDRIALPEARL.1=You have started to understand how primodial pearls work and found a way to replicate them for future use. By hammering the primodial pearl into 3 pieces, you found that its losing energy really quickly. Perhaps, there is a way to reform each pieces them into a pearl.
+tc.research_name.PRIMORDRIALPEARL=Primordial Pearl
+tc.research_text.PRIMORDRIALPEARL=[GT:NH] You found a magical Way of duplication;

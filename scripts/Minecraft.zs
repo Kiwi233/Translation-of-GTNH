@@ -1108,7 +1108,7 @@ recipes.addShaped(Jukebox, [
 [Noteblock, AnyRecord, Noteblock],
 [Log, IronGear, Log]]);
 
-// --- Jack O'' Lantern
+// --- Jack O' Lantern
 recipes.addShapeless(JackOLantern,
 [Pumpkin, Torch, Knife]);
 
@@ -1208,19 +1208,19 @@ recipes.addShaped(Ladder * 8, [
 
 // --- Fence
 recipes.addShaped(Fence, [
-[Stick, Plank, Stick],
-[Stick, Plank, Stick],
-[Stick, Plank, Stick]]);
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick]]);
 // -
 recipes.addShaped(Fence * 2, [
 [IronScrew, Screwdriver, IronScrew],
-[Stick, Plank, Stick],
-[Stick, Plank, Stick]]);
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick]]);
 // -
 recipes.addShaped(Fence * 4, [
 [SteelScrew, Screwdriver, SteelScrew],
-[Stick, Plank, Stick],
-[Stick, Plank, Stick]]);
+[Stick, <minecraft:planks>, Stick],
+[Stick, <minecraft:planks>, Stick]]);
 // -
 recipes.addShaped(Fence * 2, [
 [null, null, null],
@@ -2713,60 +2713,6 @@ recipes.addShaped(<minecraft:gold_nugget> * 9, [
 [null, null, null]]);
 
 
-// --- Charcoal
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:log:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:log2:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<BiomesOPlenty:logs1:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<BiomesOPlenty:logs2:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<BiomesOPlenty:logs3:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<BiomesOPlenty:logs4:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<ExtraTrees:log:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Forestry:logsFireproof:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Forestry:logs:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:tree:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:redwood:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:willow:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:Dark Tree:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Natura:Rare Tree:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<Thaumcraft:blockMagicalLog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<TwilightForest:tile.TFLog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<TwilightForest:tile.TFMagicLog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<witchery:witchlog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<harvestthenether:netherLog:*>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<TaintedMagic:BlockWarpwoodLog>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<harvestcraft:pamCinnamon>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<harvestcraft:pamMaple>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<harvestcraft:pamPaperbark>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<thaumicbases:genLogs>, false, false, 20, <minecraft:coal:1>);
-// -
-mods.railcraft.BlastFurnace.addRecipe(<thaumicbases:genLogs:1>, false, false, 20, <minecraft:coal:1>);
-//-
-mods.railcraft.BlastFurnace.addRecipe(<miscutils:blockRainforestOakLog>, false, false, 20, <minecraft:coal:1>);
-
-
 
 
 // --- Alloy Smelter Recipes ---
@@ -3207,7 +3153,6 @@ Assembler.addRecipe(<minecraft:clock>, [<ore:plateGold>, <minecraft:comparator>,
 
 // --- Saddle
 Assembler.addRecipe(<minecraft:saddle>, [<ore:itemLeather> * 4, <gregtech:gt.metaitem.01:28032> * 2, <gregtech:gt.integrated_circuit:1> * 0], null, 100, 24);
-
 
 
 

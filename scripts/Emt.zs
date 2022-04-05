@@ -111,7 +111,7 @@ mods.thaumcraft.Infusion.removeRecipe(<EMT:QuantumGogglesRevealing:*>);
 // --- Solar Helm of Revealing
 mods.thaumcraft.Infusion.removeRecipe(<EMT:SolarHelmetRevealing:*>);
 
-// --- Compressed Solar Pannels
+// --- Compressed Solar Panels
 mods.thaumcraft.Arcane.removeRecipe(<EMT:EMTSolars:*>);
 // -
 mods.thaumcraft.Infusion.removeRecipe(<EMT:EMTSolars:*>);
@@ -677,7 +677,7 @@ mods.thaumcraft.Infusion.addRecipe("SolarHelmetofRevealing", <EMT:QuantumGoggles
 mods.thaumcraft.Research.addInfusionPage("SolarHelmetofRevealing", <EMT:SolarHelmetRevealing:27>);
 mods.thaumcraft.Warp.addToResearch("SolarHelmetofRevealing", 3);
 
-// --- Compressed Solar Pannels
+// --- Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Compressed Solars");
 mods.thaumcraft.Research.removeResearch("Compressed Solars");
 mods.thaumcraft.Research.addResearch("CompressedSolars", "EMT", "potentia 18, lux 15, metallum 12, praecantatio 9, ignis 6, aer 3", -6 as int, -4 as int, 3, <EMT:EMTSolars>);
@@ -741,7 +741,7 @@ mods.thaumcraft.Infusion.addRecipe("CompressedSolars", <AdvancedSolarPanel:asp_c
 "aer 4800, aqua 4800, terra 4800, ignis 4800, ordo 4800, perditio 4800", <EMT:EMTSolars4:12>, 20);
 mods.thaumcraft.Research.addInfusionPage("CompressedSolars", <EMT:EMTSolars4:12>);
 
-// --- Water Infused Compressed Solar Pannels
+// --- Water Infused Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Water Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Water Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("WaterInfusedSolarPanels", "EMT", "aqua 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -7 as int, -7 as int, 3, <EMT:EMTSolars:3>);
@@ -772,7 +772,7 @@ mods.thaumcraft.Crucible.addRecipe("WaterInfusedSolarPanels", <EMT:EMTSolars5:1>
 mods.thaumcraft.Research.addCruciblePage("WaterInfusedSolarPanels", <EMT:EMTSolars5:1>);
 
 
-// --- Entropy Infused Compressed Solar Pannels
+// --- Entropy Infused Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Entropy Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Entropy Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("EntropyInfusedSolarPanels", "EMT", "perditio 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -8 as int, -6 as int, 3, <EMT:EMTSolars:6>);
@@ -802,7 +802,7 @@ mods.thaumcraft.Crucible.addRecipe("EntropyInfusedSolarPanels", <EMT:EMTSolars4:
 mods.thaumcraft.Research.addCruciblePage("EntropyInfusedSolarPanels", <EMT:EMTSolars4:14>);
 
 
-// --- Order Infused Compressed Solar Pannels
+// --- Order Infused Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Order Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Order Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("OrderInfusedSolarPanels", "EMT", "ordo 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -6 as int, -8 as int, 3, <EMT:EMTSolars:9>);
@@ -831,7 +831,7 @@ mods.thaumcraft.Crucible.addRecipe("OrderInfusedSolarPanels", <EMT:EMTSolars4:13
 mods.thaumcraft.Research.addCruciblePage("OrderInfusedSolarPanels", <EMT:EMTSolars4:13>);
 
 
-// --- Fire Infused Compressed Solar Pannels
+// --- Fire Infused Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Fire Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Fire Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("FireInfusedSolarPanels", "EMT", "ignis 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -5 as int, -7 as int, 3, <EMT:EMTSolars:12>);
@@ -860,7 +860,7 @@ mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolar
 mods.thaumcraft.Crucible.addRecipe("FireInfusedSolarPanels", <EMT:EMTSolars5:2>, <EMT:EMTSolars4:12>, "ignis 4096, permutatio 4096, praecantatio 4096, lux 2048");
 mods.thaumcraft.Research.addCruciblePage("FireInfusedSolarPanels", <EMT:EMTSolars5:2>);
 
-// --- Air Infused Compressed Solar Pannels
+// --- Air Infused Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Air Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Air Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("AirInfusedSolarPanels", "EMT", "aer 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -4 as int, -6 as int, 3, <EMT:EMTSolars:15>);
@@ -888,7 +888,7 @@ mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars
 mods.thaumcraft.Crucible.addRecipe("AirInfusedSolarPanels", <EMT:EMTSolars4:15>, <EMT:EMTSolars4:12>, "aer 4096, permutatio 4096, praecantatio 4096, lux 2048");
 mods.thaumcraft.Research.addCruciblePage("AirInfusedSolarPanels", <EMT:EMTSolars4:15>);
 
-// --- Earth Infused Compressed Solar Pannels
+// --- Earth Infused Compressed Solar Panels
 mods.thaumcraft.Research.orphanResearch("Earth Infused Solar Panels");
 mods.thaumcraft.Research.removeResearch("Earth Infused Solar Panels");
 mods.thaumcraft.Research.addResearch("EarthInfusedSolarPanels", "EMT", "terra 15, praecantatio 12, potentia 9, lux 6, lucrum 3", -6 as int, -7 as int, 3, <EMT:EMTSolars2:2>);
@@ -1478,6 +1478,30 @@ mods.thaumcraft.Infusion.addRecipe("EtheralProcessor", <gregtech:gt.blockmachine
 [<gregtech:gt.blockmachines:262>, <Thaumcraft:blockMetalDevice:9>, <gregtech:gt.metaitem.01:17330>, <Thaumcraft:blockWoodenDevice>, <Thaumcraft:blockStoneDevice>, <Thaumcraft:blockWoodenDevice>, <gregtech:gt.metaitem.01:17330>, <Thaumcraft:blockMetalDevice:9>], 
 "machina 16, fabrico 16, potentia 24, praecantatio 28, cognitio 8", <EMT:EMTMachines:1>, 9);
 mods.thaumcraft.Research.addInfusionPage("EtheralProcessor", <EMT:EMTMachines:1>);
+
+// --- Research Completer
+mods.thaumcraft.Research.orphanResearch("ResearchCompleter");
+mods.thaumcraft.Research.removeResearch("ResearchCompleter");
+mods.thaumcraft.Research.addResearch("ResearchCompleter", "EMT", "cognitio 8, machina 5, permutatio 5, auram 4", -2 as int, 6, 0, <gregtech:gt.blockmachines:13001>);
+mods.thaumcraft.Research.addPrereq("ResearchCompleter", "WANDPED", false);
+mods.thaumcraft.Research.addPrereq("ResearchCompleter", "WARDEDARCANA", false);
+mods.thaumcraft.Research.setRound("ResearchCompleter", true);
+game.setLocalization("tc.research_name.ResearchCompleter", "\u81ea\u52a8\u5316\u7814\u7a76");
+game.setLocalization("tc.research_text.ResearchCompleter", "\u518d\u4e5f\u4e0d\u7528\u62c5\u5fc3\u79e9\u5e8f\u5371\u673a\u4e86");
+mods.thaumcraft.Research.addPage("ResearchCompleter", "tc.research_page.ResearchCompleter");
+game.setLocalization("tc.research_page.ResearchCompleter", "\u8fde\u8fde\u770b\u4e00\u5f00\u59cb\u5f88\u6709\u8da3,\u4f46\u4f60\u5df2\u7ecf\u51b3\u5b9a\u5bfb\u627e\u4e00\u79cd\u66f4\u597d\u7684\u65b9\u6cd5\u89e3\u51b3\u6240\u6709\u7684\u7814\u7a76.
+\u6700\u7ec8,\u4f60\u7ed3\u5408\u79d1\u6280\u4e0e\u9b54\u6cd5,\u5236\u9020\u51fa\u4e86\u4e00\u53f0\u591a\u65b9\u5757\u673a\u5668,\u53ef\u4ee5\u81ea\u52a8\u5b8c\u6210\u7814\u7a76\u7b14\u8bb0.
+\u9700\u8981\u5c06\u7075\u6c14\u8282\u70b9\u653e\u5728\u673a\u5668\u5185\u90e8\u624d\u80fd\u4f7f\u5176\u6b63\u5e38\u8fd0\u884c,\u800c\u4e14\u5728\u8fd0\u884c\u8fc7\u7a0b\u4e2d,\u673a\u5668\u4f1a\u7f13\u6162\u6467\u6bc1\u8fd9\u4e9b\u8282\u70b9. \u8282\u70b9\u7a33\u5b9a\u5668\u4e0d\u662f\u5fc5\u987b\u54c1,\u4f46\u4e3a\u4e86\u8ba9\u8fd9\u4e48\u591a\u8282\u70b9\u4e0d\u4e92\u76f8\u6253\u67b6,\u6211\u4eec\u8fd8\u662f\u63a8\u8350\u4f7f\u7528\u8282\u70b9\u7a33\u5b9a\u5668.");
+mods.thaumcraft.Arcane.addShaped("ResearchCompleter", <gregtech:gt.blockcasings8:8>, "ignis 8, aer 8, ordo 8", [
+[<ore:plateThaumium>, <Thaumcraft:ItemResource:14>, <ore:plateThaumium>],
+[<ore:plateThaumium>, <ore:frameGtThaumium>, <ore:plateThaumium>],
+[<ore:plateThaumium>, <Thaumcraft:ItemResource:14>, <ore:plateThaumium>]]);
+mods.thaumcraft.Research.addArcanePage("ResearchCompleter", <gregtech:gt.blockcasings8:8>);
+mods.thaumcraft.Arcane.addShaped("ResearchCompleter", <gregtech:gt.blockmachines:13001>, "aer 50, terra 50, ignis 50, aqua 50, ordo 50, perditio 50", [
+[<ore:circuitGood>, <Thaumcraft:blockCosmeticOpaque:2>, <ore:circuitGood>],
+[<Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.blockcasings8:8>, <Thaumcraft:blockCosmeticOpaque:2>],
+[<ore:circuitGood>, <Thaumcraft:blockStoneDevice:5>, <ore:circuitGood>]]);
+mods.thaumcraft.Research.addArcanePage("ResearchCompleter", <gregtech:gt.blockmachines:13001>);
 
 
 

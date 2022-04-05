@@ -35,21 +35,18 @@ mods.thaumcraft.Research.addResearch("BLOODALTAR", "BLOODMAGIC", "alienis 15, pr
 game.setLocalization("tc.research_name.BLOODALTAR", "\u8840\u4e4b\u796d\u575b");
 game.setLocalization("tc.research_text.BLOODALTAR", "[BM]\u9ad8\u6602\u7684\u4ee3\u4ef7");
 mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.1");
-game.setLocalization("tc.research_page.BLOODALTAR.1", "\u8840\u4e4b\u796d\u575b\u662f\u7531\u8840\u9b54\u6cd5(Blood-Magic)\u6dfb\u52a0\u7684\u65b9\u5757.\u5b83\u662f\u7528\u4e8e\u5c06\u751f\u547d\u6e90\u8d28(LP)\u8f6c\u5316\u4e3a\u5404\u79cd\u7269\u54c1\u7684. 
-\u8840\u4e4b\u796d\u575b\u6709\u4e00\u4e2a1000LP\u7684\u5185\u90e8\u5b58\u50a8\u7f13\u51b2\u533a,\u6b64\u7f13\u51b2\u533a\u5fc5\u987b\u5b58\u5728LP,\u5426\u5219\u65e0\u6cd5\u5f00\u59cb\u5408\u6210. 
-\u796d\u575b\u53ef\u4ee5\u6269\u5c55\u4e3a\u591a\u65b9\u5757\u7ed3\u6784,\u4ece\u800c\u80fd\u591f\u8fdb\u884c\u66f4\u5f3a\u5927\u7684\u8f6c\u5316.\u76ee\u524d\u6709\u516d\u4e2a\u5c42\u7ea7\u7684\u8840\u4e4b\u796d\u575b. 
-\u8840\u4e4b\u796d\u575b\u8f6c\u5316\u51fa\u7684\u7269\u54c1\u53ef\u7528\u4e8e\u8840\u9b54\u6cd5\u7684\u5927\u90e8\u5206\u5185\u5bb9.\u672a\u5347\u7ea7\u7684\u796d\u575b\u53ef\u5b58\u50a8\u6700\u591a10000LP.");
 mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.2");
-game.setLocalization("tc.research_page.BLOODALTAR.2","\u4e0b\u9762\u5217\u51fa\u4e86\u4ec5\u4f7f\u7528\u589e\u5bb9\u7b26\u6587\u6784\u6210\u7684\u796d\u575b\u6bcf\u4e2a\u7b49\u7ea7\u7684\u6700\u5927\u5b58\u50a8\u91cf.
-\u4e0e\u4fe1\u6807\u7c7b\u4f3c,\u8840\u4e4b\u796d\u575b\u4ee5\u91d1\u5b57\u5854\u5f0f\u7684\u65b9\u5f0f\u589e\u52a0\u5c42\u6570.
-\u4e5f\u5c31\u662f\u8bf4,\u6bcf\u4e2a\u6709\u6548\u7684\u65b0\u5c42\u7ea7\u5fc5\u987b\u5efa\u7b51\u5728\u539f\u6709\u5c42\u7ea7\u7684\u4e0b\u65b9\u5e76\u5411\u5916\u6269\u5c55.
-\u4e0e\u4fe1\u6807\u4e0d\u540c\u7684\u5730\u65b9\u5728\u4e8e,\u5c42\u7ea7\u7684\u5185\u90e8\u548c\u7ed3\u6784\u4e2d\u7684\u4efb\u4f55\u95f4\u9699\u90fd\u53ef\u4ee5\u7559\u7a7a.
-\u53ea\u9700\u8981\u8840\u4e4b\u796d\u575b\u3001\u5404\u79cd\u7c7b\u578b\u7684\u8840\u4e4b\u7b26\u6587\u3001\u4ee5\u53ca\u5728\u6bcf\u5c42\u5efa\u7b51\u4e2d\u4e13\u95e8\u6307\u5b9a\u7684\u4efb\u4f55\u5176\u4ed6\u65b9\u5757.");
+mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.3");
+game.setLocalization("tc.research_page.BLOODALTAR.1", "在你的旅途中,已经面对过各种各样奇奇怪怪的生物了,但很少有人能带来这种不安的感觉,也让你抱有极大的怀疑.<BR><BR>你依然清晰地记得第一次看到血魔法师的情形. 这些人...几乎不被称为人,他们崇拜由痛苦与苦难带来的能量与力量.在神秘使追求秩序与控制时,这些穿着红袍的血法师追求着混沌与破坏,破坏自然,构建怪诞.不过,他们偶尔的成果却是真正的魔法奇迹.");
+game.setLocalization("tc.research_page.BLOODALTAR.2", "黑魔法对你或者大多数曾经涉足神秘学的法师来说都不是什么新鲜事,但这些...人,拥有的不仅仅是简单的疯狂.事实上他们似乎觉得还不够疯狂.<BR><BR>最后,血法师的目光落到了一个用石头与鲜血铸就的祭坛上,他们可以在此将受害者的牺牲转化为自己的力量.有时,受害者是怪物或动物,但在没有其他牺牲者时,血法师也会伤害自己.你本会是砧板上的下一个受害者,不过他们认可了你的能力,并向你展示了他们的艺术仪式,血魔法之路.");
+game.setLocalization("tc.research_page.BLOODALTAR.3", "自始至终,他们的眼中都带着一丝淡淡的空虚,这警告你远离他们,但又勾起了你无尽的好奇...只有疯子才会走这条路.<BR><BR>不管怎样,你已经决定出发了.你已经看到了这种力量,就不会退缩,也不会忽视它的存在.有时,魔导手册会以你几乎听不懂的语言在你耳边呢喃,但你还是有一种感觉,这一切都将是美好的.");
 mods.thaumcraft.Arcane.addShaped("BLOODALTAR", <AWWayofTime:Altar>, "aer 20, ignis 20, terra 20, aqua 20, ordo 20, perditio 20", [
 [<Thaumcraft:blockCosmeticSolid:7>, <witchery:ingredient:10>, <Thaumcraft:blockCosmeticSolid:7>],
 [<ExtraUtilities:cobblestone_compressed:1>, <Thaumcraft:blockMetalDevice>, <ExtraUtilities:cobblestone_compressed:1>],
 [<EnderIO:itemMaterial:5>, <Thaumcraft:blockStoneDevice>, <EnderIO:itemMaterial:5>]]);
 mods.thaumcraft.Research.addArcanePage("BLOODALTAR", <AWWayofTime:Altar>);
+mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.4");
+game.setLocalization("tc.research_page.BLOODALTAR.4", "虽然你献给这座祭坛的第一滴血似乎消失得无影无踪,不过它确实可以作为你牺牲品的第一个缓存池.祭坛最多可以容纳10,000生命本质(LP),不过在你开始合成前,还得先填满一个1,000-LP的缓存.<BR><BR>如你所见,单独的祭坛容量并不大,不过可以在其周围建造一种类似金字塔的结构对其进行扩展,一共有6阶可用的扩展结构.扩展结构由特定方块构成,视方块种类可以为祭坛带来不同方面的提升(也有无功能的结构方块),一路向下延伸.虽然结构方块上的符文看起来很怪异,不过谁在乎呢.");
 mods.thaumcraft.Warp.addToResearch("BLOODALTAR", 2);
 
 // --- Life Infuser
@@ -59,11 +56,11 @@ game.setLocalization("tc.research_text.LIFEINFUSER", "[BA]\u8f6c\u5316\u4f60\u76
 mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "BLOODALTAR", false);
 mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("LIFEINFUSER", false);
-mods.thaumcraft.Research.addPage("LIFEINFUSER", "tc.research_page.LIFEINFUSER");
-game.setLocalization("tc.research_page.LIFEINFUSER", "\u751f\u547d\u6ce8\u5165\u5668\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757.\u5b83\u53ef\u4ee5\u4f7f\u7528LP\u9010\u6b65\u4fee\u590d\u5de5\u5177,\u6bcf\u70b9\u8010\u4e45\u9700\u8981\u6d88\u8017500LP.
-\u5c06\u6c14\u8840\u5b9d\u73e0\u63d2\u5165\u751f\u547d\u80fd\u91cf\u5177\u73b0\u5668\u4e2d,\u5b83\u5c31\u4f1a\u4ece\u6c14\u8840\u5b9d\u73e0\u4e3b\u4eba\u7684\u7075\u9b42\u7f51\u7edc\u4e2d\u62bd\u53d6LP\u8f6c\u5316\u6210\u53ef\u88ab\u62bd\u51fa\u7684\u6db2\u6001LP.
-(\u8f6c\u5316\u6548\u7387150:100)");
-mods.thaumcraft.Infusion.addRecipe("LIFEINFUSER", <AWWayofTime:Altar>, 
+mods.thaumcraft.Research.addPage("LIFEINFUSER", "tc.research_page.LIFEINFUSER.1");
+mods.thaumcraft.Research.addPage("LIFEINFUSER", "tc.research_page.LIFEINFUSER.2");
+game.setLocalization("tc.research_page.LIFEINFUSER.1", "慢慢地,你开始理解这些血腥的臆想.你找到了一种重组物质对象(例如工具)的方法--只需要将你一直在收集的生命本质注入其中.据此原理,你发明了这台生命注入器.<BR><BR>为其提供LP,生命注入器就可以逐渐修复工具,每修复1点耐久需要消耗500LP.将气血宝珠插入生命能量具现器中,它就会从气血宝珠主人的灵魂网络中抽取LP转化成可被抽出的液态LP(转化效率3:2)");
+game.setLocalization("tc.research_page.LIFEINFUSER.2", "很不幸,在你试图提升引导LP的速度时,你的早期原型崩溃了.看来你得为这台设备提供更好的构建方块了,基础的祭坛已无法满足需求,要么安装功能性构建方块,要么升级祭坛. 在完成祭坛的改造或升级之前,贸然用它来进行修复,会有损毁工具的风险.");
+mods.thaumcraft.Infusion.addRecipe("LIFEINFUSER", <AWWayofTime:Altar>,
 [<minecraft:nether_star>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>, <AWWayofTime:imbuedSlate>, <TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>, <AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>], 
 "victus 32, alienis 32, praecantatio 24, auram 16, fames 8, terra 8", <BloodArsenal:life_infuser>, 5);
 mods.thaumcraft.Research.addInfusionPage("LIFEINFUSER", <BloodArsenal:life_infuser>);
@@ -101,11 +98,10 @@ game.setLocalization("tc.research_name.SACRIFICIALKNIFE", "\u727a\u7272\u5315\u9
 game.setLocalization("tc.research_text.SACRIFICIALKNIFE", "[BM]\u55f7!\u6709\u70b9\u75bc.");
 mods.thaumcraft.Research.addPrereq("SACRIFICIALKNIFE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("SACRIFICIALKNIFE", false);
-mods.thaumcraft.Research.addPage("SACRIFICIALKNIFE", "tc.research_page.SACRIFICIALKNIFE");
-game.setLocalization("tc.research_page.SACRIFICIALKNIFE", "\u727a\u7272\u5315\u9996\u6216\u662f\u727a\u7272\u5b9d\u73e0,\u662f\u5728\u8840\u4e4b\u796d\u575b\u4e2d\u4ea7\u751fLP\u7684\u4e24\u79cd\u65b9\u6cd5\u4e4b\u4e00.
-\u727a\u7272\u5315\u9996\u53ef\u7528\u4f5c\u81ea\u6211\u727a\u7272\u7684\u65b9\u5f0f,\u4f7f\u7528\u8005\u5c06\u81ea\u5df1\u7684\u751f\u547d\u503c\u8f6c\u5316\u4e3a\u53ef\u7528\u7684LP.
-\u82e5\u662f\u60f3\u5265\u593a\u522b\u7684\u751f\u7269\u7684\u751f\u547d\u503c\u8f6c\u5316\u4e3aLP,\u90a3\u5c31\u5fc5\u987b\u4f7f\u7528\u732e\u796d\u5200.
-\u5982\u679c\u727a\u7272\u5315\u9996\u7684\u4f7f\u7528\u8005\u662f\u5438\u8840\u9b3c,\u90a3\u4e48\u5c06\u4f1a\u628a\u4ed6\u7684\u8840\u6db2\u5b58\u8d2e\u8f6c\u5316\u4e3aLP\u800c\u4e0d\u662f\u81ea\u8eab\u751f\u547d\u503c.");
+mods.thaumcraft.Research.addPage("SACRIFICIALKNIFE", "tc.research_page.SACRIFICIALKNIFE.1");
+mods.thaumcraft.Research.addPage("SACRIFICIALKNIFE", "tc.research_page.SACRIFICIALKNIFE.2");
+game.setLocalization("tc.research_page.SACRIFICIALKNIFE.1", "简单地用血滴喂祭坛看起来并没有什么收益.你需要通过牺牲才能获得LP,所以最好造把工具专司其职.这把工具就是牺牲匕首了,在血之祭坛边使用即可在祭坛中生成LP.<BR><BR>牺牲匕首是一种自我牺牲,可将使用者的生命值转化为可用的LP.想要把其他生物的生命值转化为LP,你需要另一种工具名为献祭刀.");
+game.setLocalization("tc.research_page.SACRIFICIALKNIFE.2", "如果吸血鬼使用牺牲匕首,被抽取的就不是生命值而是吸血鬼的血液存储条,不过总要有人必须损失生命值,再恢复生命值才能供养祭坛.不管你之前获得了哪些恢复手段,现在就是派用场的时候了.想到继续研究血魔法还不知需要割伤自己多少次,焦虑的颤抖动摇了你的信念...<BR><BR>印象里,似乎新手血法师都经历了这个过程,而那些资深者好像有别的办法.终有一天,你会发现的.");
 mods.thaumcraft.Arcane.addShaped("SACRIFICIALKNIFE", <AWWayofTime:sacrificialKnife>, "aer 10, terra 20, ordo 10, perditio 20", [
 [<ore:screwSteel>, <TConstruct:strangeFood:1>, <ore:craftingToolScrewdriver>],
 [<ore:plateAluminium>, <battlegear2:dagger.diamond>, <TConstruct:strangeFood:1>],
@@ -119,13 +115,11 @@ game.setLocalization("tc.research_text.ALCHEMICCHEMSTRYSET", "[BM]\u5495\u565c\u
 mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "SACRIFICIALKNIFE", false);
 mods.thaumcraft.Research.setConcealed("ALCHEMICCHEMSTRYSET", true);
-mods.thaumcraft.Research.addPage("ALCHEMICCHEMSTRYSET", "tc.research_page.ALCHEMICCHEMSTRYSET");
-game.setLocalization("tc.research_page.ALCHEMICCHEMSTRYSET", "\u70bc\u91d1\u672f\u53f0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757.\u8fd9\u662f\u4e0a\u8ff0mod\u7684\u5316\u5b66\u53cd\u5e94\u8bbe\u5907.
-\u5b83\u7684\u4e3b\u8981\u7528\u9014\u662f,\u4f60\u731c\u5bf9\u4e86,\u662f\u917f\u9020\u836f\u6c34!
-\u836f\u6c34\u917f\u9020\u662f\u8fd9\u4e2amod\u7684\u91cd\u8981\u90e8\u5206;\u800c\u6b64\u65b9\u5757\u53ef\u4ee5\u917f\u9020\u5404\u79cd\u57fa\u7840\u7269\u54c1.
-\u8bf4\u4e86\u8fd9\u4e48\u591a\u7528\u5904,\u4f60\u60f3\u8981\u771f\u6b63\u4f7f\u7528\u6b64\u65b9\u5757\u5c31\u9700\u8981LP.
-LP,\u662f\u672cmod\u7684\u57fa\u7840\u80fd\u91cf,\u5c06\u4f1a\u518d\u53e6\u4e00\u4e2a\u7814\u7a76\u7ebf\u4e2d\u8be6\u7ec6\u4ecb\u7ecd.");
-mods.thaumcraft.Infusion.addRecipe("ALCHEMICCHEMSTRYSET", <minecraft:brewing_stand>, 
+mods.thaumcraft.Research.addPage("ALCHEMICCHEMSTRYSET", "tc.research_page.ALCHEMICCHEMSTRYSET.1");
+mods.thaumcraft.Research.addPage("ALCHEMICCHEMSTRYSET", "tc.research_page.ALCHEMICCHEMSTRYSET.2");
+game.setLocalization("tc.research_page.ALCHEMICCHEMSTRYSET.1", "这不是海市蜃楼,也不是记忆错乱.在你之前的旅途中,遇到的血法师使用的同样是些瓶瓶罐罐,与炼金师没什么两样,不过他们用的不是普通的酿造台,还要加工一下.<BR><BR>炼金术台是血魔法另一分支的基础,用于酿造特有的新药剂、药水,当然还能用于实验其他合成.除了正常提供各种原料外,这个单方块设备还需要LP才能真正运行起来.");
+game.setLocalization("tc.research_page.ALCHEMICCHEMSTRYSET.2", "你记得曾看到过酿造台与一些奇怪的深色石板在一起进行某种加工.你相信你建造的唯一祭坛足以为这些石板注入充足的能量,为你血魔法炼金学的研究铺平道路.虽然刺伤自己的疼痛感已经随着时间的推移而逐渐减弱,不过也许炼金术台能进一步减轻这种刺痛感.<BR><BR>血法师的各种分支中包含了一些奇怪的东西,隐约让你想起巫术的酿造学.看着炼金术台,你相信这里就是制造它们的地方.");
+mods.thaumcraft.Infusion.addRecipe("ALCHEMICCHEMSTRYSET", <minecraft:brewing_stand>,
 [<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>], 
 "fabrico 24, instrumentum 24, praecantatio 18, victus 12, ignis 12", <AWWayofTime:blockWritingTable>, 5);
 mods.thaumcraft.Research.addInfusionPage("ALCHEMICCHEMSTRYSET", <AWWayofTime:blockWritingTable>);
@@ -171,11 +165,10 @@ mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "NITOR", false);
 mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("DIVINATIONSIGIL", true);
-mods.thaumcraft.Research.addPage("DIVINATIONSIGIL", "tc.research_page.DIVINATIONSIGIL");
-game.setLocalization("tc.research_page.DIVINATIONSIGIL", "\u5360\u535c\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u53ef\u7528\u4e8e\u68c0\u6d4b\u8840\u4e4b\u796d\u575b\u548c\u73a9\u5bb6\u7075\u9b42\u7f51\u7edc\u7684\u5404\u9879\u91cd\u8981\u4fe1\u606f,\u5305\u62ec\u796d\u575b\u5c42\u7ea7\u4ee5\u53caLP\u7684\u603b\u5b58\u50a8\u91cf.
-\u5728\u6301\u6709\u5360\u535c\u5370\u8bb0\u65f6,\u73a9\u5bb6\u6709\u4e24\u79cd\u53ef\u80fd\u7684\u7528\u9014:
-\u7784\u51c6\u8840\u4e4b\u796d\u575b\u5e76\u53f3\u51fb\u65f6,\u804a\u5929\u8f93\u51fa\u5c06\u663e\u793a\u5b58\u50a8\u5728\u796d\u575b\u5185\u7684\u603bLP\u3001\u796d\u575b\u5f53\u524d\u5c42\u7ea7\u53ca\u5176\u6700\u5927\u5bb9\u91cf.
-\u5728\u4efb\u4f55\u5176\u4ed6\u5730\u65b9\u53f3\u51fb\u65f6,\u804a\u5929\u8f93\u51fa\u5c06\u663e\u793a\u5b58\u50a8\u5728\u73a9\u5bb6\u4e2a\u4eba\u7f51\u7edc\u4e2d\u7684\u603bLP.");
+mods.thaumcraft.Research.addPage("DIVINATIONSIGIL", "tc.research_page.DIVINATIONSIGIL.1");
+mods.thaumcraft.Research.addPage("DIVINATIONSIGIL", "tc.research_page.DIVINATIONSIGIL.2");
+game.setLocalization("tc.research_page.DIVINATIONSIGIL.1", "你的眼前有片迷雾,让你不得见真实.当你凝视血之祭坛,却只能看到那浅浅一汪血水浸着正在合成的物品,对详细数据一无所知的你如是想道.你想起了自己初涉神秘学的时候,第一次看到灵气节点,为自己模糊视线里的神秘影子而惊叹连连.现在作为血法师又遇到了这似曾相识的情形.<BR><BR>为了扫除迷雾,为了更好理解自己所面的真实,你研发了魔导透镜.而在血魔法,你也需要获得全新的视野,才能继续前进.");
+game.setLocalization("tc.research_page.DIVINATIONSIGIL.2", "你又找到了一种特殊的透镜,可以看穿祭坛的奥秘.为了方便使用,你把这种透镜封装入印记之中,制造出了占卜印记,用于查看血之祭坛和玩家LP网络的重要数据.<BR><BR>手持占卜印记时,玩家有两种使用方式.瞄准血之祭坛并右击时,聊天输出将显示存储在祭坛内的总LP、祭坛当前层级及其最大容量.而在任何其他地方右击时,聊天输出将显示存储在玩家个人网络中的总LP.");
 mods.thaumcraft.Infusion.addRecipe("DIVINATIONSIGIL", <AWWayofTime:blankSlate>, 
 [<Thaumcraft:ItemResource:1>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <Thaumcraft:ItemResource:1>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <TConstruct:GlassPane>], 
 "vitreus 24, terra 18, praecantatio 12, instrumentum 6, metallum 4", <AWWayofTime:divinationSigil>, 3);
@@ -188,11 +181,11 @@ game.setLocalization("tc.research_text.SPEEDRUNE", "[BM]\u4f60\u7684\u796d\u575b
 mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("SPEEDRUNE", true);
-mods.thaumcraft.Research.addPage("SPEEDRUNE", "tc.research_page.SPEEDRUNE");
-game.setLocalization("tc.research_page.SPEEDRUNE", "\u901f\u5ea6\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
-\u901f\u5ea6\u7b26\u6587\u53ef\u4e0e\u4efb\u4f55\u5176\u4ed6\u7b26\u6587\u4e92\u6362\u4f7f\u7528.
-\u901f\u5ea6\u7b26\u6587\u5c31\u50cf\u5b83\u7684\u540d\u5b57\u6240\u6697\u793a\u7684\u90a3\u6837,\u53ef\u4f7f\u8840\u4e4b\u796d\u575b\u7684\u5904\u7406\u901f\u5ea6\u63d0\u9ad820%.");
-mods.thaumcraft.Infusion.addRecipe("SPEEDRUNE", <AWWayofTime:AlchemicalWizardrybloodRune>, 
+mods.thaumcraft.Research.addPage("SPEEDRUNE", "tc.research_page.SPEEDRUNE.1");
+mods.thaumcraft.Research.addPage("SPEEDRUNE", "tc.research_page.SPEEDRUNE.2");
+game.setLocalization("tc.research_page.SPEEDRUNE.1", "血之祭坛的容量似乎直接取决于围绕它建造的扩展结构,而你作为血法师可以走多远也基于此.你在过去见过一些这样的结构,好像是将之前用过的黑色石板组合而成的.<BR><BR>不过你还记得,看到的那些石头上有这奇怪的符文,这些带有符文的石头似乎赋予了其所在祭坛某种意义.当你试图在这块石头上刻下印记时,你也已经意识到这一切意味着什么.");
+game.setLocalization("tc.research_page.SPEEDRUNE.2", "第一次升级无非是在祭坛下方一层扩展3x3方块.你可以使用简单的占位方块,即所谓的气血符文,不过你已经通过反复的实验发现,可以通过注魔,将正确的物品与咒符关注其中,对其进行改进升级.<BR><BR>在许多尝试与实验中,第一个成功的是速度符文,它可以将祭坛的处理速度提高25%,且可与祭坛中的任意其他符文互换使用.祭坛等级越高,所容纳的符文就越多.");
+mods.thaumcraft.Infusion.addRecipe("SPEEDRUNE", <AWWayofTime:AlchemicalWizardrybloodRune>,
 [<AWWayofTime:aether>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:aether>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>], 
 "motus 24, volatus 24, potentia 18, aer 12, fames 4", <AWWayofTime:speedRune>, 4);
 mods.thaumcraft.Research.addInfusionPage("SPEEDRUNE", <AWWayofTime:speedRune>);
@@ -284,9 +277,7 @@ mods.thaumcraft.Research.addPrereq("WATERSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("WATERSIGIL", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("WATERSIGIL", true);
 mods.thaumcraft.Research.addPage("WATERSIGIL", "tc.research_page.WATERSIGIL");
-game.setLocalization("tc.research_page.WATERSIGIL", "\u6c34\u4e4b\u5370\u8bb0\u53ef\u7528\u4f5c\u6c34\u6876\u7684\u66ff\u4ee3\u54c1,\u6bcf\u751f\u6210\u4e00\u683c\u6c34\u6d88\u8017200LP.
-\u6d88\u8017\u7684LP\u5c06\u4ece\u6b64\u5370\u8bb0\u7ed1\u5b9a\u73a9\u5bb6\u7684\u7075\u9b42\u7f51\u7edc\u4e2d\u62bd\u53d6.
-\u6c34\u4e4b\u5370\u8bb0\u4e5f\u53ef\u7528\u4e8e\u5408\u6210\u5143\u7d20\u5370\u8bb0.");
+game.setLocalization("tc.research_page.WATERSIGIL", "通过献祭凡人的能量,你获得了重构怪诞的力量.当你信笔在桶上实验符文时,偶然发现某种符文可以使桶中源源不断涌出清水.于是你又研发了水之印记,以替代笨重的水桶方便使用,消耗200LP即可生成一格水.<BR><BR>消耗的LP将从此印记绑定玩家的灵魂网络中抽取.当进一步研究此印记时,你发现它还有潜力未被挖掘出来,应该还可以与其他某种东西结合使用...");
 mods.thaumcraft.Infusion.addRecipe("WATERSIGIL", <AWWayofTime:reinforcedSlate>, 
 [<witchery:divinerwater>, <IC2:itemCellEmpty:1>, <AWWayofTime:aquasalus>, <AWWayofTime:aquasalus>, <IC2:itemCellEmpty:1>, <IC2:itemCellEmpty:1>, <AWWayofTime:aquasalus>, <AWWayofTime:aquasalus>, <IC2:itemCellEmpty:1>], 
 "aqua 40, terra 32, praecantatio 24, instrumentum 16, metallum 8", <AWWayofTime:waterSigil>, 5);
@@ -301,9 +292,7 @@ mods.thaumcraft.Research.addPrereq("LAVASIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("LAVASIGIL", "SIGILOFTHEBLOODLAMP", false);
 mods.thaumcraft.Research.setConcealed("LAVASIGIL", true);
 mods.thaumcraft.Research.addPage("LAVASIGIL", "tc.research_page.LAVASIGIL");
-game.setLocalization("tc.research_page.LAVASIGIL", "\u7194\u5ca9\u5370\u8bb0\u53ef\u7528\u4f5c\u5ca9\u6d46\u6876\u7684\u66ff\u4ee3\u54c1,\u6bcf\u751f\u6210\u4e00\u683c\u5ca9\u6d46\u6d88\u80172000LP.
-\u6d88\u8017\u7684LP\u5c06\u4ece\u6b64\u5370\u8bb0\u7ed1\u5b9a\u73a9\u5bb6\u7684\u7075\u9b42\u7f51\u7edc\u4e2d\u62bd\u53d6.
-\u7194\u5ca9\u5370\u8bb0\u4e5f\u53ef\u7528\u4e8e\u5408\u6210\u5143\u7d20\u5370\u8bb0.");
+game.setLocalization("tc.research_page.LAVASIGIL", "通过献祭凡人的能量,你获得了重构怪诞的力量.你的新发明差点让你搭进去一只手--你小心翼翼地带回家的熔岩桶开始溢出,没完没了地倒出滚烫的液体,幸好你及时切断了能量供给.你一直在研发与火相关的印记,结果它突然扮演了一个你始料未及的新角色.<BR><BR>熔岩印记可以从绑定者的灵魂网络中抽取2,000LP生成一格岩浆.不知何故,你感觉它能提高自己的抗火属性...");
 mods.thaumcraft.Infusion.addRecipe("LAVASIGIL", <AWWayofTime:imbuedSlate>, 
 [<witchery:divinerlava>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>, <AWWayofTime:lavaCrystal>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>], 
 "ignis 64, terra 40, praecantatio 32, instrumentum 24, metallum 16", <AWWayofTime:lavaSigil>, 7);
@@ -318,8 +307,7 @@ mods.thaumcraft.Research.addPrereq("EMPTYCORE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("EMPTYCORE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("EMPTYCORE", true);
 mods.thaumcraft.Research.addPage("EMPTYCORE", "tc.research_page.EMPTYCORE");
-game.setLocalization("tc.research_page.EMPTYCORE", "\u7a7a\u767d\u6838\u5fc3\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u90e8\u4ef6.
-\u5b83\u88ab\u7528\u4e8e\u5408\u6210\u5404\u79cd\u6838\u5fc3, \u6bd4\u5982\u629b\u5c04\u6838\u5fc3\u3001\u5b57\u4f53\u6838\u5fc3\u3001\u683c\u6597\u6838\u5fc3\u4ee5\u53ca\u7194\u5ca9\u6676\u4f53.");
+game.setLocalization("tc.research_page.EMPTYCORE", "你试图将更高级的魔法知识运用到结构方块中,以开发出此领域真正的潜力.各种石板已被证实是有效的,但它们除了LP,基本无法接受其他材料.<BR><BR>与之相反,空白核心必须容纳其他魔法材料,再配合相应炼金粉末作为催化剂,才能制成各种功能性核心.如果没有上述催化剂,那么这些材料与能量就无论如何都无法成功混合.自从发现催化剂之后,研发新的、更复杂的核心难度应该会大大降低.");
 mods.thaumcraft.Arcane.addShaped("EMPTYCORE", <AWWayofTime:bloodMagicBaseItems:1>, "aer 15, ignis 15, terra 15, aqua 15, ordo 15, perditio 15", [
 [<Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.metaitem.01:17351>, <Thaumcraft:blockCosmeticOpaque:2>],
 [<gregtech:gt.metaitem.01:17306>, <AWWayofTime:simpleCatalyst>, <gregtech:gt.metaitem.01:17306>],
@@ -336,11 +324,7 @@ mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "LAVACRYSTAL", false);
 mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "WARDEDARCANA", false);
 mods.thaumcraft.Research.setConcealed("BMLAVACRYSTAL", true);
 mods.thaumcraft.Research.addPage("BMLAVACRYSTAL", "tc.research_page.BMLAVACRYSTAL");
-game.setLocalization("tc.research_page.BMLAVACRYSTAL", "\u7194\u5ca9\u6676\u4f53\u53ef\u7528\u4f5c\u7194\u7089\u548c\u5f15\u64ce\u7684\u66ff\u4ee3\u71c3\u6599.
-\u7194\u5ca9\u6676\u4f53\u4e0d\u4f1a\u635f\u5931\u8010\u4e45,\u800c\u662f\u6bcf\u6b21\u64cd\u4f5c\u4ece\u73a9\u5bb6\u7684\u7075\u9b42\u7f51\u7edc\u4e2d\u62bd\u53d625LP.
-\u4f7f\u7528\u7194\u5ca9\u6676\u4f53\u524d\u9700\u7ed1\u5b9a\u73a9\u5bb6.\u53ea\u9700\u624b\u6301\u6b64\u6676\u4f53\u5e76\u53f3\u952e\u5373\u53ef\u7ed1\u5b9a.
-\u4e00\u65e6\u7ed1\u5b9a\u5230\u73a9\u5bb6,\u5b83\u5c06\u5f00\u59cb\u4f5c\u4e3a\u71c3\u6599\u6765\u6e90.
-\u7194\u5ca9\u6676\u4f53\u4e5f\u53ef\u7528\u4e8e\u5408\u6210\u7194\u5ca9\u5370\u8bb0.");
+game.setLocalization("tc.research_page.BMLAVACRYSTAL", "目前整个世界的主要能源基本都是自内而生的能量(内能).将一些特定物品通过注魔合成到空白核心中,你制成了熔岩晶体,可作为燃料为熔炉和引擎供能.<BR><BR>熔岩晶体不会损失耐久度,每次运行会从绑定者的灵魂网络中抽取25LP,所以在使用之前必须先进行绑定.绑定方法也很简单,只需手持晶体时右键即可绑定自己.");
 mods.thaumcraft.Infusion.addRecipe("BMLAVACRYSTAL", <AWWayofTime:bloodMagicBaseItems:1>, 
 [<TConstruct:materials:7>, <Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockCosmeticOpaque:2>], 
 "ignis 24, terra 18, praecantatio 18, infernus 6, aer 6", <AWWayofTime:lavaCrystal>, 4);
@@ -354,9 +338,7 @@ mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESACRIFICE", true);
 mods.thaumcraft.Research.addPage("RUNESACRIFICE", "tc.research_page.RUNESACRIFICE");
-game.setLocalization("tc.research_page.RUNESACRIFICE", "\u732e\u796d\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
-\u6b64\u7b26\u6587\u53ef\u4e0e\u4efb\u4f55\u5176\u4ed6\u7b26\u6587\u4e92\u6362\u4f7f\u7528,\u5e76\u53ef\u5728\u5347\u7ea7\u8fc7\u7a0b\u4e2d\u4e0e\u6bcf\u4e00\u79cd\u7b26\u6587\u4e00\u8d77\u4f7f\u7528.
-\u732e\u796d\u7b26\u6587\u5c06\u63d0\u534710%\u732e\u796d\u5200\u6740\u6b7b\u751f\u7269\u65f6\u83b7\u5f97\u7684LP\u603b\u91cf.");
+game.setLocalization("tc.research_page.RUNESACRIFICE", "经过仔细的实验与周密的计划,你正设法从在祭坛上献祭的生物身上获取更多收益.历经多次实验,你终于研发出了献祭符文,安装到祭坛后,每块献祭符文可以提升12%使用献祭刀杀害生物所获得的LP总量.<BR><BR>虽然你还不确定是否可以从敌人身上吸取更多鲜血,不过这一点毫无意义,他们的死亡已经足够.谁又会在乎这些生物呢?");
 mods.thaumcraft.Infusion.addRecipe("RUNESACRIFICE", <BloodArsenal:blood_stone:1>, 
 [<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:incendium>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:incendium>, <AWWayofTime:imbuedSlate>], 
 "fames 24, infernus 24, potentia 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSacrifice>, 5);
@@ -370,9 +352,7 @@ mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESELFSACRIFICE", true);
 mods.thaumcraft.Research.addPage("RUNESELFSACRIFICE", "tc.research_page.RUNESELFSACRIFICE");
-game.setLocalization("tc.research_page.RUNESELFSACRIFICE", "\u727a\u7272\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
-\u6b64\u7b26\u6587\u53ef\u4e0e\u4efb\u4f55\u5176\u4ed6\u7b26\u6587\u4e92\u6362\u4f7f\u7528,\u5e76\u53ef\u5728\u5347\u7ea7\u8fc7\u7a0b\u4e2d\u4e0e\u6bcf\u4e00\u79cd\u7b26\u6587\u4e00\u8d77\u4f7f\u7528.
-\u727a\u7272\u7b26\u6587\u5c06\u63d0\u534710%\u4f7f\u7528\u727a\u7272\u5315\u9996\u65f6\u83b7\u5f97\u7684LP\u603b\u91cf.");
+game.setLocalization("tc.research_page.RUNESELFSACRIFICE", "自从你走上这血腥的旅程后,你感觉刺伤自己已经越来越麻木了,牺牲所得也越来越杯水车薪.为了解决这一点,你研发出了牺牲符文,顾名思义它可以提升牺牲效率,安装到祭坛后,每块牺牲符文可以提升12%使用牺牲匕首所获得的LP总量.<BR><BR>你能看出祭坛的填充速度变快了,但总感觉还是少了点什么.");
 mods.thaumcraft.Infusion.addRecipe("RUNESELFSACRIFICE", <BloodArsenal:blood_stone:1>, 
 [<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>], 
 "fames 24, infernus 24, lucrum 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSelfSacrifice>, 5);
@@ -386,9 +366,7 @@ mods.thaumcraft.Research.addPrereq("AIRSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("AIRSIGIL", "LAVASIGIL", false);
 mods.thaumcraft.Research.setConcealed("AIRSIGIL", true);
 mods.thaumcraft.Research.addPage("AIRSIGIL", "tc.research_page.AIRSIGIL");
-game.setLocalization("tc.research_page.AIRSIGIL", "\u7a7a\u6c14\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u4f7f\u7528\u8005\u53ef\u4ee5\u83b7\u5f97\u98de\u7fd4\u7684\u80fd\u529b,\u5f53\u7136\u4ee5\u6d88\u8017LP\u4e3a\u4ee3\u4ef7.
-\u624b\u6301\u7a7a\u6c14\u5370\u8bb0\u5e76\u53f3\u952e,\u73a9\u5bb6\u5c06\u4f1a\u88ab\u5411\u5176\u9762\u671d\u65b9\u5411\u63a8\u51fa,\u6bcf\u6b21\u70b9\u51fb\u6d88\u801750LP.
-\u4f46\u8bf7\u6ce8\u610f,\u5982\u679c\u6ca1\u6709\u4efb\u4f55\u5f62\u5f0f\u7684\u4fdd\u62a4(\u5982\u5143\u7d20\u5370\u8bb0),\u4f7f\u7528\u8005\u4ecd\u7136\u4f1a\u53d7\u5230\u5760\u843d\u4f24\u5bb3.");
+game.setLocalization("tc.research_page.AIRSIGIL", "慢慢地你意识到,谨慎往往会拖延进度.你曾对这种力量感到恐惧,但现在已经烟消云散,取而代之的是种带有一丝不安的奇怪兴奋感.今天,你学会了如何飞行.<BR><BR>右键使用空气印记,即可以消耗LP为代价,将自己向面朝的方向推出,每次点击消耗50LP.但请注意,如果没有任何形式的保护(如元素印记),使用者仍然会受到坠落伤害.");
 mods.thaumcraft.Infusion.addRecipe("AIRSIGIL", <AWWayofTime:demonicSlate>, 
 [<minecraft:ghast_tear>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <minecraft:ghast_tear>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>], 
 "volatus 64, aer 48, motus 32, praecantatio 24, iter 18, potentia 12, cognitio 6", <AWWayofTime:airSigil>, 9);
@@ -403,9 +381,7 @@ mods.thaumcraft.Research.addPrereq("FASTERMINING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FASTERMINING", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("FASTERMINING", true);
 mods.thaumcraft.Research.addPage("FASTERMINING", "tc.research_page.FASTERMINING");
-game.setLocalization("tc.research_page.FASTERMINING", "\u901f\u6398\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u4f7f\u7528\u8005\u6d88\u8017LP\u4ee5\u83b7\u5f97\u6025\u8febII\u6548\u679c.
-\u53f3\u952e\u6fc0\u6d3b\u901f\u6398\u5370\u8bb0,\u4f7f\u7528\u8005\u5c06\u83b7\u5f97\u6025\u8febII\u6548\u679c\u5e76\u4ece\u7ed1\u5b9a\u8005\u7684\u7075\u9b42\u7f51\u7edc\u4e2d\u6d88\u8017100LP.
-\u6fc0\u6d3b\u540e\u6bcf\u5341\u79d2,\u5c06\u6d88\u8017100LP\u4ee5\u7ef4\u6301\u6025\u8febII\u6548\u679c.");
+game.setLocalization("tc.research_page.FASTERMINING", "很奇怪的是,在尝试将LP施用自身后,你发现它不仅可以带来恢复效果,而且还能促进、加速你的行动.基于这个原理,你研发了速掘印记加以利用,消耗LP赋予使用者急迫II效果.<BR><BR>激活速掘印记后,它将从绑定者的灵魂网络中抽取100LP赋予buff,此后每10秒消耗同样数量的LP维持buff.有了这种印记,你的挖掘效率一定会大大提升.");
 mods.thaumcraft.Infusion.addRecipe("FASTERMINING", <AWWayofTime:reinforcedSlate>, 
 [<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemPickThaumium>, <AWWayofTime:aether>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemShovelThaumium>, <AWWayofTime:aether>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemAxeThaumium>, <AWWayofTime:aether>], 
 "instrumentum 36, praecantatio 24, metallum 18, perfodio 12, motus 8", <AWWayofTime:sigilOfTheFastMiner>, 5);
@@ -420,10 +396,7 @@ mods.thaumcraft.Research.addPrereq("GREENGROW", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("GREENGROW", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("GREENGROW", true);
 mods.thaumcraft.Research.addPage("GREENGROW", "tc.research_page.GREENGROW");
-game.setLocalization("tc.research_page.GREENGROW", "\u7eff\u4e1b\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
-\u6fc0\u6d3b\u540e,\u6b64\u5370\u8bb0\u5c06\u52a0\u901f\u5468\u56f4\u6240\u6709\u690d\u7269\u7684\u751f\u957f,\u7c7b\u4f3c\u4e8e\u7eff\u4e1b\u4eea\u5f0f\u6548\u679c.
-\u53f3\u952e\u6fc0\u6d3b\u7eff\u4e1b\u5370\u8bb0,\u73a9\u5bb6\u9644\u8fd1\u534a\u5f846\u683c\u5185\u7684\u690d\u7269\u5c06\u83b7\u5f97\u989d\u5916\u7684\u751f\u957ftick.\u6b64\u6548\u679c\u6bcf\u4e94\u79d2\u6d88\u8017150LP.
-\u76f4\u63a5\u53f3\u952e\u690d\u7269\u7c7b\u4f3c\u4e8e\u5bf9\u690d\u7269\u4f7f\u7528\u9aa8\u7c89,\u6bcf\u6b21\u53f3\u952e\u6d88\u8017150LP.\u6b64\u6548\u679c\u53ea\u5bf9\u53ef\u7528\u9aa8\u7c89\u50ac\u719f\u690d\u7269\u6709\u6548.");
+game.setLocalization("tc.research_page.GREENGROW", "你发现在一些魔法技巧的辅助下,LP可以促进任何生命物质的生长.你将研发重点又集中在植物方面,终于创造出了绿丛印记.<BR><BR>激活后,此印记将加速周围所有植物的生长,原理是赋予半径6格内的植物额外的生长tick.此效果每五秒消耗150LP.直接右键可以接受骨粉催熟的植物,就相当于使用了一次骨粉,每次右键消耗150LP.");
 mods.thaumcraft.Infusion.addRecipe("GREENGROW", <AWWayofTime:reinforcedSlate>, 
 [<witchery:witchsapling>, <AWWayofTime:terrae>, <witchery:witchsapling:1>, <AWWayofTime:terrae>, <Thaumcraft:blockCustomPlant:1>, <AWWayofTime:terrae>, <Thaumcraft:blockCustomPlant>, <AWWayofTime:terrae>, <TConstruct:slime.sapling>, <AWWayofTime:terrae>], 
 "instrumentum 36, terra 24, herba 18, arbor 12, victus 8", <AWWayofTime:growthSigil>, 5);
@@ -438,10 +411,7 @@ mods.thaumcraft.Research.addPrereq("VOIDSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("VOIDSIGIL", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("VOIDSIGIL", true);
 mods.thaumcraft.Research.addPage("VOIDSIGIL", "tc.research_page.VOIDSIGIL");
-game.setLocalization("tc.research_page.VOIDSIGIL", "\u865a\u7a7a\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u7528\u4e8e\u6d88\u8017\u5c11\u91cfLP\u6e05\u9664\u6db2\u4f53\u65b9\u5757.
-\u53ef\u4e0e\u7194\u5ca9\u5370\u8bb0\u6216\u6c34\u4e4b\u5370\u8bb0\u7ed3\u5408\u4f7f\u7528,\u7528\u4e8e\u6e05\u9664\u4e0d\u5c0f\u5fc3\u653e\u4e0b\u7684\u6db2\u4f53\u65b9\u5757.
-\u4f7f\u7528\u865a\u7a7a\u5370\u8bb0\u524d\u9700\u7ed1\u5b9a\u73a9\u5bb6.\u53ea\u9700\u624b\u6301\u6b64\u5370\u8bb0\u5e76\u53f3\u952e\u5373\u53ef\u7ed1\u5b9a.
-\u7ed1\u5b9a\u4e4b\u540e,\u53f3\u952e\u4efb\u610f\u6db2\u4f53\u65b9\u5757\u5373\u53ef\u6e05\u9664\u5b83,\u6d88\u801750LP\u4ee5\u53ca\u6b64\u6db2\u4f53\u65b9\u5757(\u5e9f\u8bdd).");
+game.setLocalization("tc.research_page.VOIDSIGIL", "创造与毁灭,是所有生命的轮回.掌握水之印记后,你发现自己对创造出来的水方块没有很好的清除手段.作为一名奉行毁灭即是艺术的血法师,这是无法接受的.<BR><BR>你寻找着一种逆向工具,打算将其命名为虚空印记,用于消耗少量LP清除液体方块.功夫不负有心人,你成功了.绑定之后,右键任意液体方块即可清除它,消耗50LP以及此液体方块(废话).拜拜了您内.");
 mods.thaumcraft.Infusion.addRecipe("VOIDSIGIL", <AWWayofTime:imbuedSlate>, 
 [<BloodArsenal:blood_burned_string>, <gregtech:gt.metaitem.01:17970>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <BloodArsenal:blood_burned_string>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <gregtech:gt.metaitem.01:17970>], 
 "vacuos 64, terra 40, praecantatio 32, auram 24, metallum 16", <AWWayofTime:voidSigil>, 7);
@@ -456,8 +426,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFSWIMMING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFSWIMMING", "VOIDSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFSWIMMING", true);
 mods.thaumcraft.Research.addPage("SIGILOFSWIMMING", "tc.research_page.SIGILOFSWIMMING");
-game.setLocalization("tc.research_page.SIGILOFSWIMMING", "\u6c34\u6cf3\u5370\u8bb0\u4f7f\u73a9\u5bb6\u5728\u6c34\u4e0b\u79fb\u52a8\u66f4\u5feb,\u7834\u574f\u65b9\u5757\u901f\u5ea6\u63d0\u5347,\u4ee5\u53ca\u83b7\u5f97\u6c34\u4e0b\u547c\u5438\u6548\u679c!
-\u6240\u4ee5\u4f60\u73b0\u5728\u53ef\u4ee5\u91cd\u5efa\u4e9a\u7279\u5170\u8482\u65af\u57ce\u4e86.");
+game.setLocalization("tc.research_page.SIGILOFSWIMMING", "你孱弱的身躯其实蕴含了超乎想象的潜力.在血魔法的支持下,凭借LP的再注入,你突破了自己的极限.<BR><BR>水泳印记,正如你的草草命名,可以使你在水下移动更快,破坏方块速度提升,并获得水下呼吸效果,每10秒消耗100LP.这种感觉实在太爽了,简直无法置信,你的身体是怎么做到这一点的?");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFSWIMMING", <AWWayofTime:voidSigil>, 
 [<AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <AWWayofTime:demonicSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>], 
 "aer 64, aqua 64, vacuos 64, terra 48, praecantatio 32, auram 24, metallum 16", <BloodArsenal:sigil_of_swimming>, 12);
@@ -470,12 +439,10 @@ game.setLocalization("tc.research_name.BLOODLETTERSPACK", "\u8840\u6db2\u80cc\u5
 game.setLocalization("tc.research_text.BLOODLETTERSPACK", "[BM]\u8fd9\u4e2a\u80cc\u5305\u6709\u70b9\u8be1\u5f02...");
 mods.thaumcraft.Research.addPrereq("BLOODLETTERSPACK", "SACRIFICIALKNIFE", false);
 mods.thaumcraft.Research.setConcealed("BLOODLETTERSPACK", true);
-mods.thaumcraft.Research.addPage("BLOODLETTERSPACK", "tc.research_page.BLOODLETTERSPACK");
-game.setLocalization("tc.research_page.BLOODLETTERSPACK", "\u8840\u6db2\u80cc\u5305\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u62a4\u7532.
-\u7a7f\u7740\u6b64\u80cc\u5305\u6bcf\u79d2\u53d7\u5230\u4e00\u5fc3\u4f24\u5bb3\u540c\u65f6\u83b7\u5f97100LP,\u5e76\u4e14\u4e0d\u4f1a\u5c06\u73a9\u5bb6\u7684\u751f\u547d\u503c\u964d\u4f4e\u52305\u5fc3\u4ee5\u4e0b.
-\u6b64\u80cc\u5305\u6700\u5927\u5b58\u50a810000LP,\u5347\u7ea7\u672a\u77e5.
-\u8840\u6db2\u80cc\u5305\u662f\u7528\u4e8e\u5728\u8fdc\u79bb\u8840\u4e4b\u796d\u575b\u65f6\u5b58\u50a8LP\u7684.
-\u5bf9\u796d\u575b\u4f7f\u7528\u586b\u6ee1\u7684\u8840\u6db2\u80cc\u5305\u5c06\u4f1a\u628a\u80cc\u5305\u5185LP\u8f6c\u79fb\u5230\u796d\u575b\u4e2d.");
+mods.thaumcraft.Research.addPage("BLOODLETTERSPACK", "tc.research_page.BLOODLETTERSPACK.1");
+mods.thaumcraft.Research.addPage("BLOODLETTERSPACK", "tc.research_page.BLOODLETTERSPACK.2");
+game.setLocalization("tc.research_page.BLOODLETTERSPACK.1", "为了供养祭坛,你需要反复损失再恢复生命值,虽然你承受痛苦的能力与日俱增,但这种机械的重复已经耗尽了你的耐心.为了练习魔法,你需要保证手指的灵活,于是你找到了一种可以解放双手的自我牺牲方式--使用神秘胸甲,直接从血管中抽取血液.<BR><BR>内部的尖刺令人望而生畏,不过第一次看到成品时,你并没有感到什么不适,可能已经习惯了吧,你将其命名为血液背包,并毫不犹豫地穿上了它,为了魔法!");
+game.setLocalization("tc.research_page.BLOODLETTERSPACK.2", "血液背包可以自动扣减你的生命值,并转化为LP存储在内部.穿戴此护甲时,每秒会受到1心伤害,产生100LP.作为一种自我保护,当你的生命值在5心以下时,停止自动扣减.<BR><BR>默认模式下,此护甲内部存储上限为10000LP,可以在远离主要存储器的情况下储备LP.对祭坛使用血液背包,可以将其内部存储的LP转移到祭坛的缓冲槽中.再配合某种方便的恢复手段,你可以无休止地保持这种状态.");
 mods.thaumcraft.Arcane.addShaped("BLOODLETTERSPACK", <AWWayofTime:itemBloodPack>, "aer 15, ignis 15, terra 30, aqua 30, ordo 30, perditio 30", [
 [<AWWayofTime:reinforcedSlate>, <AWWayofTime:sacrificialKnife>, <AWWayofTime:reinforcedSlate>],
 [<AWWayofTime:reinforcedSlate>, <Thaumcraft:ItemChestplateThaumium>, <AWWayofTime:reinforcedSlate>],
@@ -526,10 +493,10 @@ game.setLocalization("tc.research_name.WEAKORB", "\u865a\u5f31\u6c14\u8840\u5b9d
 game.setLocalization("tc.research_text.WEAKORB", "[BM]\u5b9d\u73e0\u53d8\u6362Tier I");
 mods.thaumcraft.Research.addPrereq("WEAKORB", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("WEAKORB", true);
-mods.thaumcraft.Research.addPage("WEAKORB", "tc.research_page.WEAKORB");
-game.setLocalization("tc.research_page.WEAKORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u4e00\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
-\u7b2c\u4e00\u6b65\u662f\u4e3a\u5b9d\u73e0\u6dfb\u52a0\u9b54\u529b.
-\u7136\u540e\u4f60\u9700\u8981\u7528\u8840\u4e4b\u796d\u575b\u4e2d\u7684\u9c9c\u8840\u586b\u5145\u5b83\u4ee5\u83b7\u5f97\u4e00\u4e2a\u865a\u5f31\u6c14\u8840\u5b9d\u73e0");
+mods.thaumcraft.Research.addPage("WEAKORB", "tc.research_page.WEAKORB.1");
+mods.thaumcraft.Research.addPage("WEAKORB", "tc.research_page.WEAKORB.2");
+game.setLocalization("tc.research_page.WEAKORB.1", "一般来说,一名血法师不得不留在祭坛附近才能练习魔法.虽然液态的LP可以运输,但它不能简单地通过倾倒或某种燃烧来为大多数魔法设备供能.<BR><BR>但是就你之前所见而已,这一点并非其他血法师的障碍.无论他们身在何处,都可以使用LP的能量完成简单的任务.一定有种办法,可以存储并链接这种内在能量,这样你就可以随身携带魔法了.");
+game.setLocalization("tc.research_page.WEAKORB.2", "这种魔法物品被大多数血法师称为气血宝珠,它可以存储一定数量的LP,供给各种魔法设备使用.合成所用的材料其实用来制造低阶高阶宝珠都行,但每种宝珠都需要注入足够的LP才能正常使用,所以在起步阶段,像你这种新手法师只能制作第一阶:虚弱气血宝珠.<BR><BR>这些宝珠还可以用于参与合成其他物品,且不会被消耗.");
 mods.thaumcraft.Arcane.addShaped("WEAKORB", <dreamcraft:item.WeakOrb>, "aer 20, aqua 20, ignis 20, terra 20, perditio 20, ordo 20", [
 [null, <ore:gemDiamond>, null],
 [<AWWayofTime:blankSlate>, <dreamcraft:item.RawOrbTier1>, <AWWayofTime:blankSlate>],
@@ -543,10 +510,10 @@ game.setLocalization("tc.research_name.APPRENTICEORB", "\u5b66\u5f92\u6c14\u8840
 game.setLocalization("tc.research_text.APPRENTICEORB", "[BM]\u5b9d\u73e0\u53d8\u6362Tier II");
 mods.thaumcraft.Research.addPrereq("APPRENTICEORB", "WEAKORB", false);
 mods.thaumcraft.Research.setConcealed("APPRENTICEORB", true);
-mods.thaumcraft.Research.addPage("APPRENTICEORB", "tc.research_page.APPRENTICEORB");
-game.setLocalization("tc.research_page.APPRENTICEORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u4e8c\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
-\u7b2c\u4e00\u6b65\u662f\u4e3a\u5b9d\u73e0\u6dfb\u52a0\u9b54\u529b.
-\u7136\u540e\u4f60\u9700\u8981\u7528\u8840\u4e4b\u796d\u575b\u4e2d\u7684\u9c9c\u8840\u586b\u5145\u5b83\u4ee5\u83b7\u5f97\u4e00\u4e2a\u5b66\u5f92\u6c14\u8840\u5b9d\u73e0.");
+mods.thaumcraft.Research.addPage("APPRENTICEORB", "tc.research_page.APPRENTICEORB.1");
+mods.thaumcraft.Research.addPage("APPRENTICEORB", "tc.research_page.APPRENTICEORB.2");
+game.setLocalization("tc.research_page.APPRENTICEORB.1", "成功升级血之祭坛后,你还可以升级气血宝珠.第一阶气血宝珠的可用容量实在有限,这次升级可以让你暂缓一口气,同时这也可以帮助你合成更高级的物品或进一步钻研炼金术.当然,现在你可以着手研发一些手段,以减轻你一直在做的自我牺牲,对吧?<BR><BR>你上次询问一名资深血法师,他只是告诉你你会习惯的,你感觉他就在胡扯,他一定在试图隐藏些什么!");
+game.setLocalization("tc.research_page.APPRENTICEORB.2", "2阶气血宝珠可以容纳25,000LP,是1阶的5倍.凭借这种储量,你应该可以同时使用更多印记,至少短时间内没问题.宝珠的升级还解锁了更多合成表以及炼金配方,这也是以后每次升级宝珠都能获得的收益.<BR><BR>你匆匆记下每种配方所需的气血宝珠,这是不容错过的重要细节.");
 mods.thaumcraft.Arcane.addShaped("APPRENTICEORB", <dreamcraft:item.ApprenticeOrb>, "aer 40, aqua 40, ignis 40, terra 40, perditio 40, ordo 40", [
 [null, <ore:gemFlawlessEmerald>, null],
 [<AWWayofTime:reinforcedSlate>, <dreamcraft:item.RawOrbTier2>, <AWWayofTime:reinforcedSlate>],
@@ -554,16 +521,16 @@ mods.thaumcraft.Arcane.addShaped("APPRENTICEORB", <dreamcraft:item.ApprenticeOrb
 mods.thaumcraft.Research.addArcanePage("APPRENTICEORB", <dreamcraft:item.ApprenticeOrb>);
 mods.thaumcraft.Warp.addToResearch("APPRENTICEORB", 2);
 
-// --- Magician's Orb'
+// --- Magician's Orb
 mods.thaumcraft.Research.addResearch("MAGICANORB", "BLOODMAGIC", "vitreus 15, potentia 12, praecantatio 9, cognitio 6, sano 3", 6, 0, 3, <dreamcraft:item.MagicianOrb>);
 game.setLocalization("tc.research_name.MAGICANORB", "\u6cd5\u5e08\u6c14\u8840\u5b9d\u73e0");
 game.setLocalization("tc.research_text.MAGICANORB", "[BM]\u5b9d\u73e0\u53d8\u6362Tier III");
 mods.thaumcraft.Research.addPrereq("MAGICANORB", "APPRENTICEORB", false);
 mods.thaumcraft.Research.setConcealed("MAGICANORB", true);
-mods.thaumcraft.Research.addPage("MAGICANORB", "tc.research_page.MAGICANORB");
-game.setLocalization("tc.research_page.MAGICANORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u4e09\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
-\u7b2c\u4e00\u6b65\u662f\u4e3a\u5b9d\u73e0\u6dfb\u52a0\u9b54\u529b.
-\u7136\u540e\u4f60\u9700\u8981\u7528\u8840\u4e4b\u796d\u575b\u4e2d\u7684\u9c9c\u8840\u586b\u5145\u5b83\u4ee5\u83b7\u5f97\u4e00\u4e2a\u6cd5\u5e08\u6c14\u8840\u5b9d\u73e0.");
+mods.thaumcraft.Research.addPage("MAGICANORB", "tc.research_page.MAGICANORB.1");
+mods.thaumcraft.Research.addPage("MAGICANORB", "tc.research_page.MAGICANORB.2");
+game.setLocalization("tc.research_page.MAGICANORB.1", "回望你的祭坛,它更加庞大也更加复杂,已经慢慢接近你见过的某些资深血法师的祭坛规模了.你对现在的气血宝珠不太满意,想提升其储量而又不想占用祭坛中珍贵的符文位,最佳方式当然是升级气血宝珠本身.<BR><BR>虽然祭坛中的符文位很多,但你无法接受这样基础的使用方式.这种感觉说不清道不明,不过你所建造的这个结构经常以某种遥远的、朦胧的方式在你的脑海中浮现.");
+game.setLocalization("tc.research_page.MAGICANORB.2", "3阶气血宝珠的储量为150,000,是2阶宝珠的6倍.这可以看做一颗巨大的电池,当然,如果你不优化血之祭坛那里LP的获得,可以想见将其充满将是一项艰巨的任务.特定的符文可以帮助你完成此项任务,它们的合成表也随着3阶宝珠以及相应石板而解锁了.");
 mods.thaumcraft.Arcane.addShaped("MAGICANORB", <dreamcraft:item.MagicianOrb>, "aer 60, aqua 60, ignis 60, terra 60, perditio 60, ordo 60", [
 [null, <ore:blockGold>, null],
 [<AWWayofTime:imbuedSlate>, <dreamcraft:item.RawOrbTier3>, <AWWayofTime:imbuedSlate>],
@@ -578,9 +545,7 @@ game.setLocalization("tc.research_text.MASTERORB", "[BM]\u5b9d\u73e0\u53d8\u6362
 mods.thaumcraft.Research.addPrereq("MASTERORB", "MAGICANORB", false);
 mods.thaumcraft.Research.setConcealed("MASTERORB", true);
 mods.thaumcraft.Research.addPage("MASTERORB", "tc.research_page.MASTERORB");
-game.setLocalization("tc.research_page.MASTERORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u56db\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
-\u7b2c\u4e00\u6b65\u662f\u4e3a\u5b9d\u73e0\u6dfb\u52a0\u9b54\u529b.
-\u7136\u540e\u4f60\u9700\u8981\u7528\u8840\u4e4b\u796d\u575b\u4e2d\u7684\u9c9c\u8840\u586b\u5145\u5b83\u4ee5\u83b7\u5f97\u4e00\u4e2a\u5bfc\u5e08\u6c14\u8840\u5b9d\u73e0.");
+game.setLocalization("tc.research_page.MASTERORB", "是时候了,再次升级.跨越了3阶祭坛,你终于可以再次升级你的气血宝珠了,新宝珠的容量为1,000,000LP,是之前的6倍.<BR><BR>它应该很容易填满吧,你思索着,否则新阶段解锁的一切都将与你无关.");
 mods.thaumcraft.Arcane.addShaped("MASTERORB", <dreamcraft:item.MasterOrb>, "aer 80, aqua 80, ignis 80, terra 80, perditio 80, ordo 80", [
 [null, <AWWayofTime:weakBloodShard>, null],
 [<AWWayofTime:demonicSlate>, <dreamcraft:item.RawOrbTier4>, <AWWayofTime:demonicSlate>],
@@ -588,16 +553,16 @@ mods.thaumcraft.Arcane.addShaped("MASTERORB", <dreamcraft:item.MasterOrb>, "aer 
 mods.thaumcraft.Research.addArcanePage("MASTERORB", <dreamcraft:item.MasterOrb>);
 mods.thaumcraft.Warp.addToResearch("MASTERORB", 4);
 
-// --- Archmage's Orb'
+// --- Archmage's Orb
 mods.thaumcraft.Research.addResearch("ARCHMAGEORB", "BLOODMAGIC", "vitreus 21, potentia 18, praecantatio 15, cognitio 12, sano 9, aqua 6, infernus 3", 10, 0, 4, <dreamcraft:item.ArchmageOrb>);
 game.setLocalization("tc.research_name.ARCHMAGEORB", "\u8d24\u8005\u6c14\u8840\u5b9d\u73e0");
 game.setLocalization("tc.research_text.ARCHMAGEORB", "[BM]\u5b9d\u73e0\u53d8\u6362Tier V");
 mods.thaumcraft.Research.addPrereq("ARCHMAGEORB", "MASTERORB", false);
 mods.thaumcraft.Research.setConcealed("ARCHMAGEORB", true);
-mods.thaumcraft.Research.addPage("ARCHMAGEORB", "tc.research_page.ARCHMAGEORB");
-game.setLocalization("tc.research_page.ARCHMAGEORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u4e94\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
-\u7b2c\u4e00\u6b65\u662f\u4e3a\u5b9d\u73e0\u6dfb\u52a0\u9b54\u529b.
-\u7136\u540e\u4f60\u9700\u8981\u7528\u8840\u4e4b\u796d\u575b\u4e2d\u7684\u9c9c\u8840\u586b\u5145\u5b83\u4ee5\u83b7\u5f97\u4e00\u4e2a\u8d24\u8005\u6c14\u8840\u5b9d\u73e0.");
+mods.thaumcraft.Research.addPage("ARCHMAGEORB", "tc.research_page.ARCHMAGEORB.1");
+mods.thaumcraft.Research.addPage("ARCHMAGEORB", "tc.research_page.ARCHMAGEORB.2");
+game.setLocalization("tc.research_page.ARCHMAGEORB.1", "有什么东西在呼唤你,不是来自远方,而是发自内心.当你看到祭坛的结构方块上熠熠生辉的符文时,当你看到再次扩展一层的宏伟祭坛时,突然有一种冲动涌上心头--将新解锁的气血宝珠与祭坛放到一起.<BR><BR>随着时间的推移,材料越来越昂贵,但你不断被消磨的意志却突然又坚定了起来,把你推向了手头的目标.很难理解其发生的原因,但一定有某种东西处于你的盲区之中,但你知道它就在那里.");
+game.setLocalization("tc.research_page.ARCHMAGEORB.2", "这次升级所获得的提升前所未有,5阶气血宝珠最大容量为10,000,000LP,足以让你为所欲为.只有最昂贵、最强大的魔法效果才能在合理时间内清空它的储量...不过你还未发现.<BR><BR>尽管你看似已经尝试了所有魔法技巧,但这种可能性依然推动着你前进.一定还存在未探索的地方,更深入地了解事物的结构,达到并超越内在之眼所能看到的一切...");
 mods.thaumcraft.Arcane.addShaped("ARCHMAGEORB", <dreamcraft:item.ArchmageOrb>, "aer 100, aqua 100, ignis 100, terra 100, perditio 100, ordo 100", [
 [null, <AWWayofTime:demonBloodShard>, null],
 [<AWWayofTime:bloodMagicBaseItems:27>, <dreamcraft:item.RawOrbTier5>, <AWWayofTime:bloodMagicBaseItems:27>],
@@ -611,10 +576,10 @@ game.setLocalization("tc.research_name.TRANSCENDENTORB", "\u5353\u8d8a\u6c14\u88
 game.setLocalization("tc.research_text.TRANSCENDENTORB", "[BM]\u5b9d\u73e0\u53d8\u6362Tier VI");
 mods.thaumcraft.Research.addPrereq("TRANSCENDENTORB", "ARCHMAGEORB", false);
 mods.thaumcraft.Research.setConcealed("TRANSCENDENTORB", true);
-mods.thaumcraft.Research.addPage("TRANSCENDENTORB", "tc.research_page.TRANSCENDENTORB");
-game.setLocalization("tc.research_page.TRANSCENDENTORB", "\u5f53\u4f60\u7528GT\u6750\u6599\u5408\u6210\u51fa\u516d\u9636\u5b9d\u73e0\u7c97\u80da\u65f6,\u4f60\u5fc5\u987b\u8003\u8651\u5982\u4f55\u5c06\u5b83\u5236\u6210\u6c14\u8840\u5b9d\u73e0.
-\u7b2c\u4e00\u6b65\u662f\u4e3a\u5b9d\u73e0\u6dfb\u52a0\u9b54\u529b.
-\u7136\u540e\u4f60\u9700\u8981\u7528\u8840\u4e4b\u796d\u575b\u4e2d\u7684\u9c9c\u8840\u586b\u5145\u5b83\u4ee5\u83b7\u5f97\u4e00\u4e2a\u5353\u8d8a\u6c14\u8840\u5b9d\u73e0.");
+mods.thaumcraft.Research.addPage("TRANSCENDENTORB", "tc.research_page.TRANSCENDENTORB.1");
+mods.thaumcraft.Research.addPage("TRANSCENDENTORB", "tc.research_page.TRANSCENDENTORB.2");
+game.setLocalization("tc.research_page.TRANSCENDENTORB.1", "你已经站在了世界之巅,施于你身的枷锁已被粉碎,自碎片中,一个全新的你已到来,带着满足与胜利的笑容. To sit at the frontier of knowledge, and step into the unknown, is to call out to the gods and only hear your own voice in response.<BR><BR>For the master of all crafts, technological and magical, a new future dawns on the horizon, a sight that everyone else is blind to. What they look at, they will never see, until you flash it in front of their eyes with a powerful lightning.");
+game.setLocalization("tc.research_page.TRANSCENDENTORB.2", "Slayer of demons, this tier 6 Blood Orb is your reward, holding as much as 30,000,000 LP before any Rune upgrades. Any and all sources of LP are now at your disposal, and your Sigil costs will disappear into the abyss.<BR><BR>The whole world is in the palm of your hand, and you only have to squeeze it shut into a fist. It will not shatter, it will only grow, transform into something bigger that is yours to take. The future is uncertain, but success is guaranteed.<BR><BR>If there is something out there that requires a truly powerful Blood Magic component, you are sure that you can produce it now. The only question is when.");
 mods.thaumcraft.Arcane.addShaped("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>, "aer 150, aqua 150, ignis 150, terra 150, perditio 150, ordo 150", [
 [null, <AWWayofTime:blockCrystal>, null],
 [<BloodArsenal:sigil_of_lightning:1>, <dreamcraft:item.RawOrbTier6>, <BloodArsenal:sigil_of_lightning:1>],
@@ -684,10 +649,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFARGUMENTEDCAPACITY", "INFUSION", false
 mods.thaumcraft.Research.addPrereq("RUNEOFARGUMENTEDCAPACITY", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFARGUMENTEDCAPACITY", true);
 mods.thaumcraft.Research.addPage("RUNEOFARGUMENTEDCAPACITY", "tc.research_page.RUNEOFARGUMENTEDCAPACITY");
-game.setLocalization("tc.research_page.RUNEOFARGUMENTEDCAPACITY", "\u589e\u5bb9\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
-\u6b64\u7b26\u6587\u53ef\u4e0e\u4efb\u4f55\u5176\u4ed6\u7b26\u6587\u4e92\u6362\u4f7f\u7528,\u5e76\u53ef\u5728\u5347\u7ea7\u8fc7\u7a0b\u4e2d\u4e0e\u6bcf\u4e00\u79cd\u7b26\u6587\u4e00\u8d77\u4f7f\u7528.
-\u6bcf\u4e2a\u589e\u5bb9\u7b26\u6587\u4e3a\u8840\u4e4b\u796d\u575b\u589e\u52a0\u989d\u5916\u76842000LP\u5b58\u50a8\u5bb9\u91cf.
-\u6bcf\u4e2a\u6b64\u7b26\u6587\u8fd8\u53ef\u63d0\u5347\u796d\u575b\u5185\u90e8\u7f13\u5b58\u5bb9\u91cf10%.");
+game.setLocalization("tc.research_page.RUNEOFARGUMENTEDCAPACITY", "You see the path in front of you, more clearly than anyone else. Whatever you have stored in this Blood Altar, it will not suffice for the days to come. After deep and thorough research, you find yourself facing the Rune of Augmented Capacity. Each one adds an additional 3,500 LP storage potential to the Blood Altar, allowing for health to be sacrificed in bigger batches, and also to craft new items that require more LP. This also increases the tank's internal buffer, as it is always 10% of the altar's capacity, but you find no difficulty in filling such a buffer at this point.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFARGUMENTEDCAPACITY", <BloodArsenal:blood_stone:1>, 
 [<BuildCraft|Factory:tankBlock>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>, <BuildCraft|Factory:tankBlock>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:imbuedSlate>], 
 "aqua 32, lucrum 24, fames 18, praecantatio 12, terra 8, vacuos 4", <AWWayofTime:AlchemicalWizardrybloodRune:1>, 7);
@@ -701,9 +663,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFDISLOCATION", true);
 mods.thaumcraft.Research.addPage("RUNEOFDISLOCATION", "tc.research_page.RUNEOFDISLOCATION");
-game.setLocalization("tc.research_page.RUNEOFDISLOCATION", "\u8f6c\u4f4d\u7b26\u6587\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757,\u53ef\u88ab\u7528\u4e8e\u5347\u7ea7\u8840\u4e4b\u796d\u575b\u5c42\u7ea7.
-\u6b64\u7b26\u6587\u53ef\u4e0e\u4efb\u4f55\u5176\u4ed6\u7b26\u6587\u4e92\u6362\u4f7f\u7528,\u5e76\u53ef\u5728\u5347\u7ea7\u8fc7\u7a0b\u4e2d\u4e0e\u6bcf\u4e00\u79cd\u7b26\u6587\u4e00\u8d77\u4f7f\u7528.
-\u8f6c\u4f4d\u7b26\u6587\u53ef\u63d0\u5347\u796d\u575b\u62bd\u51fa\u6216\u6cf5\u5165LP\u7684\u901f\u5ea6,\u6bcf\u4e2a\u63d0\u534720%(\u4e58\u6cd5).");
+game.setLocalization("tc.research_page.RUNEOFDISLOCATION", "The process of transferring LP out of the Altar is slowly devouring your patience. How annoying, the awful speed of it! A resourceful mage cannot be halted by meager things like this, and your new discovery is clear proof of that. The Rune of Dislocation, as you've named it, increases the speed by which LP can be pumped into and out of the Blood Altar at a multiplicative 20% rate. You can add several of these into a bigger Altar structure, surely achieving double, triple the speed of transfer you had before. Boredom is the enemy of advancement.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFDISLOCATION", <BloodArsenal:blood_stone:1>, 
 [<gregtech:gt.metaitem.01:32613>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.01:32613>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>], 
 "aqua 32, praecantatio 24, motus 18, tempus 12, terra 8, cognitio 4", <AWWayofTime:AlchemicalWizardrybloodRune:2>, 7);
@@ -717,9 +677,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "INFUSION", false
 mods.thaumcraft.Research.addPrereq("SIGILOFELEMENTALAFFINITY", "AIRSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFELEMENTALAFFINITY", true);
 mods.thaumcraft.Research.addPage("SIGILOFELEMENTALAFFINITY", "tc.research_page.SIGILOFELEMENTALAFFINITY");
-game.setLocalization("tc.research_page.SIGILOFELEMENTALAFFINITY", "\u5143\u7d20\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u5b83\u8d4b\u4e88\u4f7f\u7528\u8005\u591a\u79cd\u5f62\u5f0f\u7684\u73af\u5883\u4fdd\u62a4.
-\u8fd9\u4e9b\u4fdd\u62a4\u5305\u62ec\u514d\u75ab\u6389\u843d\u4f24\u5bb3,\u6c34\u4e0b\u547c\u5438,\u706b\u7130\u514d\u75ab,\u6700\u5999\u7684\u662f\u6d88\u8017\u7684LP\u8fd8\u4e0d\u591a.
-\u624b\u6301\u5370\u8bb0\u5e76\u53f3\u952e\u6fc0\u6d3b,\u5370\u8bb0\u5c06\u4e3a\u4f7f\u7528\u8005\u9644\u52a0\u6c34\u4e0b\u547c\u5438,\u706b\u7130(\u548c\u5ca9\u6d46)\u514d\u75ab,\u4ee5\u53ca\u6389\u843d\u4f24\u5bb3\u514d\u75ab.\u6bcf10\u79d2\u6d88\u8017300LP.");
+game.setLocalization("tc.research_page.SIGILOFELEMENTALAFFINITY", "Even though you saw further potential in some earlier Sigils, it was clear to you they could not go beyond themselves, by themselves. The field of Thaumaturgy relies on Infusion, as does your progress in Blood Magic at this point. What would happen, then, if you combined Sigils together?<BR><BR>The result is the Sigil of Elemental Affinity. Its effects range from fall damage negation to water breathing and fire immunity, all at a small LP cost of 300 LP every 10 seconds, understandably more than the components Sigils you used in this craft.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFELEMENTALAFFINITY", <AWWayofTime:demonicSlate>, 
 [<AWWayofTime:earthScribeTool>, <AWWayofTime:weakBloodShard>, <AWWayofTime:lavaSigil>, <AWWayofTime:fireScribeTool>, <AWWayofTime:weakBloodShard>, <AWWayofTime:waterSigil>, <AWWayofTime:waterScribeTool>, <AWWayofTime:weakBloodShard>, <AWWayofTime:airSigil>, <AWWayofTime:airScribeTool>, <AWWayofTime:weakBloodShard>, <AWWayofTime:imbuedSlate>], 
 "volatus 64, aer 48, aqua 48, ignis 48, motus 32, praecantatio 24, iter 18, potentia 12, cognitio 6", <AWWayofTime:sigilOfElementalAffinity>, 9);
@@ -733,11 +691,11 @@ game.setLocalization("tc.research_text.SIGILOFLIGHTNING", "[BA]\u96f7\u516c\u52a
 mods.thaumcraft.Research.addPrereq("SIGILOFLIGHTNING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFLIGHTNING", "SIGILOFELEMENTALAFFINITY", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFLIGHTNING", true);
-mods.thaumcraft.Research.addPage("SIGILOFLIGHTNING", "tc.research_page.SIGILOFLIGHTNING");
-game.setLocalization("tc.research_page.SIGILOFLIGHTNING", "\u95ea\u7535\u5370\u8bb0\u975e\u5e38\u5f3a\u5927,\u53ef\u5728\u4f60\u6307\u5411\u7684\u4efb\u4f55\u5730\u65b9\u53ec\u5524\u95ea\u7535!
-\u5b83\u67095\u79cd\u4e0d\u540c\u7684\u6a21\u5f0f.
-\u6a21\u5f0f1\u53ec\u5524\u4e00\u9053\u95ea\u7535,\u6a21\u5f0f2\u53ec\u5524\u4e24\u9053\u95ea\u7535....");
-mods.thaumcraft.Infusion.addRecipe("SIGILOFLIGHTNING", <AWWayofTime:bloodMagicBaseItems:27>, 
+mods.thaumcraft.Research.addPage("SIGILOFLIGHTNING", "tc.research_page.SIGILOFLIGHTNING.1");
+mods.thaumcraft.Research.addPage("SIGILOFLIGHTNING", "tc.research_page.SIGILOFLIGHTNING.2");
+game.setLocalization("tc.research_page.SIGILOFLIGHTNING.1", "The other day, you were filling up the Altar, while heavy rain poured all around you. The sound was calming, the atmosphere was relaxing and it soothed your nerves, but a strange flash of light suddenly appeared in the reflection of the Life Essence.<BR><BR>You only had time to flinch, instinctively, at the roaring crash of a bolt of lightning only a few meters in front of you, leaving only a tree split down the middle that came to crash against the muddy soil.<BR><BR>Your body shook, you could not stop it, and at that point you knew what remained in front of you.");
+game.setLocalization("tc.research_page.SIGILOFLIGHTNING.2", "A few days later, you resurfaced from a vitreous-eyed frenzy with the Lightning Sigil. Upon command, you can force lightning to cascade wherever you point and click, at a considerable cost of LP.<BR><BR>The Sigil has 5 different modes, each one increasing the amount of lightning you summon, but also the cost of using the Sigil, maxing out at an incredible 168,000 LP.<BR><BR>You look at your hands, healed from the initial pricks that began this journey, and you find yourself filled with a strange sensation, fuller than you have ever been. The power is not just there, it resonates with your very being, shaking with the ground under your two feet.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFLIGHTNING", <AWWayofTime:bloodMagicBaseItems:27>,
 [<AWWayofTime:airSigil>, <BloodArsenal:blood_stone:3>, <BloodArsenal:blood_infused_iron_block>, <BloodArsenal:blood_infused_diamond_block>, <AWWayofTime:waterSigil>, <BloodArsenal:blood_stone:3>, <BloodArsenal:blood_infused_iron_block>, <BloodArsenal:blood_infused_diamond_block>], 
 "tempestas 32, aer 72, aqua 72, terra 64, potentia 48, tenebrae 8, ira 8, electrum 16", <BloodArsenal:sigil_of_lightning>, 15);
 mods.thaumcraft.Research.addInfusionPage("SIGILOFLIGHTNING", <BloodArsenal:sigil_of_lightning>);
@@ -751,9 +709,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFHOLDING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFHOLDING", "SIGILOFMAGNETISM", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFHOLDING", true);
 mods.thaumcraft.Research.addPage("SIGILOFHOLDING", "tc.research_page.SIGILOFHOLDING");
-game.setLocalization("tc.research_page.SIGILOFHOLDING", "\u96c6\u6301\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u7528\u4e8e\u5c06\u591a\u79cd\u5370\u8bb0\u96c6\u4e2d\u6210\u4e00\u4e2a.
-\u4f7f\u7528\u65f6\u002c\u6bcf\u6b21\u0053\u0068\u0069\u0066\u0074\u002b\u53f3\u952e\u96c6\u6301\u5370\u8bb0\u5c06\u4ece\u5feb\u6377\u680f\u4e2d\u4ece\u5de6\u81f3\u53f3\u6d88\u8017\u0028\u6216\u4ece\u96c6\u6301\u5370\u8bb0\u4e2d\u79fb\u9664\u0029\u4e00\u4e2a\u5370\u8bb0\u002c\u6700\u591a\u53ea\u80fd\u50a8\u5b58\u0035\u4e2a\u5370\u8bb0.
-Shift+\u9f20\u6807\u6eda\u8f6e\u53ef\u5207\u6362\u96c6\u6301\u5370\u8bb0\u4e2d\u7684\u5370\u8bb0\u002c\u53f3\u952e\u53ef\u6fc0\u6d3b\u663e\u793a\u7684\u5370\u8bb0.");
+game.setLocalization("tc.research_page.SIGILOFHOLDING", "You have found yourself encumbered with magical trinkets in the past, and the simple, initial exploration of Sigil-related possibilies only worsens that reality. Instead, you dedicated some time to compactly carry your new tools, using the Sigil of Holding.<BR><BR>It is used to save inventory space by combining several Sigils into one. Shift right clicking with it will allow you to place (or remove) up to 5 Sigils into it, and you can switch between the Sigils that it holds by using the scroll on the mouse while holding shift. Right clicking will activate the displayed Sigil.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFHOLDING", <AWWayofTime:imbuedSlate>, 
 [<IronChest:BlockIronChest>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:reinforcedSlate>], 
 "lucrum 32, cognitio 24, gula 16, superbia 16, limus 16, praecantatio 8", <AWWayofTime:sigilOfHolding>, 9);
@@ -768,10 +724,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFAUGMENTETHOLDING", "INFUSION", false)
 mods.thaumcraft.Research.addPrereq("SIGILOFAUGMENTETHOLDING", "SIGILOFHOLDING", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFAUGMENTETHOLDING", true);
 mods.thaumcraft.Research.addPage("SIGILOFAUGMENTETHOLDING", "tc.research_page.SIGILOFAUGMENTETHOLDING");
-game.setLocalization("tc.research_page.SIGILOFAUGMENTETHOLDING", "\u589e\u5f3a\u96c6\u6301\u5370\u8bb0\u662f\u96c6\u6301\u5370\u8bb0\u7684\u5347\u7ea7\u7248\u672c,\u5b83\u6700\u591a\u53ef\u5b58\u50a89\u4e2a\u5370\u8bb0!
-\u4f7f\u7528\u65f6,\u6bcf\u6b21Shift+\u53f3\u952e\u589e\u5f3a\u96c6\u6301\u5370\u8bb0\u5c06\u4ece\u5feb\u6377\u680f\u4e2d\u4ece\u5de6\u81f3\u53f3\u6d88\u8017\u4e00\u4e2a\u5370\u8bb0.
-\u5f53\u7269\u54c1\u680f\u4e2d\u6ca1\u6709\u5176\u5b83\u5370\u8bb0\u6216\u96c6\u6301\u5370\u8bb0\u5df2\u6ee1\u65f6,shift+\u53f3\u952e\u53ef\u5207\u6362\u96c6\u6301\u5370\u8bb0\u4e2d\u7684\u5370\u8bb0,\u53f3\u952e\u53ef\u6fc0\u6d3b\u663e\u793a\u7684\u5370\u8bb0.
-\u53ef\u901a\u8fc7\u89e3\u7ed1\u4eea\u5f0f\u53d6\u51fa\u589e\u5f3a\u96c6\u6301\u5370\u8bb0\u4e2d\u5b58\u50a8\u7684\u5370\u8bb0.");
+game.setLocalization("tc.research_page.SIGILOFAUGMENTETHOLDING", "The attempts at improving the Sigil of Holding have been successful, but with some unavoidable caveats. The Sigil of Augmented Holding, as you've named it, is an upgraded variant that holds 9 sigils in total, instead of 5.<BR><BR>When used, the Sigil of Augmented Holding will consume a single Sigil per sneak-right click, starting at the left of the hotbar, and ending at the right of the hotbar. Sneak-right clicking will filter between the stored Sigils, while right clicking will activate the displayed Sigil. To separate the stored sigils from the Sigil of Holding, a Ritual of Unbinding must be used.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFAUGMENTETHOLDING", <AWWayofTime:sigilOfHolding>, 
 [<IronChest:BlockIronChest:2>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <gregtech:gt.metaitem.01:17977>, <minecraft:blaze_rod>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <AWWayofTime:demonicSlate>, <minecraft:blaze_rod>, <gregtech:gt.metaitem.01:17977>, <minecraft:ghast_tear>, <AWWayofTime:demonicSlate>], 
 "vacuos 48, lucrum 32, cognitio 24, gula 16, superbia 16, limus 16, praecantatio 8", <BloodArsenal:sigil_of_augmented_holding>, 15);
@@ -786,11 +739,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFPHANTOMBRIDGE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFPHANTOMBRIDGE", "VOIDSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFPHANTOMBRIDGE", true);
 mods.thaumcraft.Research.addPage("SIGILOFPHANTOMBRIDGE", "tc.research_page.SIGILOFPHANTOMBRIDGE");
-game.setLocalization("tc.research_page.SIGILOFPHANTOMBRIDGE", "\u5f71\u6865\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
-\u6fc0\u6d3b\u65f6,\u6b64\u5370\u8bb0\u4f1a\u521b\u5efa\u4e00\u4e2a\u4ee5\u73a9\u5bb6\u4e3a\u4e2d\u5fc3\u76845x5\u5e7d\u7075\u65b9\u5757\u5e73\u53f0.\u5e73\u53f0\u4e4b\u5916\u7684\u5e7d\u7075\u65b9\u5757\u5c06\u57285\u79d2\u540e\u6d88\u5931.
-\u5de6\u952e\u53ef\u7acb\u523b\u6253\u788e\u6b64\u65b9\u5757,\u5e76\u4e14\u7528\u5176\u4ed6\u65b9\u5757\u53f3\u952e\u53ef\u66ff\u6362\u5e7d\u7075\u65b9\u5757.\u8fd9\u4e2a\u7279\u6027\u53ef\u4ee5\u7528\u6765\u5728\u7a7a\u4e2d\u5efa\u7b51.
-Shift+\u53f3\u952e\u80fd\u4f7f\u811a\u4e0b\u7684\u5f71\u6865\u4e00\u683c\u683c\u6d88\u5931\u800c\u4e0b\u843d.
-\u6fc0\u6d3b\u6b64\u5370\u8bb0\u6bcf10\u79d2\u6d88\u8017150LP,\u6bcf\u5236\u9020\u4e00\u4e2a\u65b9\u5757\u989d\u5916\u6d88\u80171LP.");
+game.setLocalization("tc.research_page.SIGILOFPHANTOMBRIDGE", "You have set your eyes on the skies above, but you cannot move very well above ground. What if, you thought, you brought the ground up to you?<BR><BR>The Sigil of the Phantom Bridge, when active, creates a 5x5 platform of Spectral Blocks centered around you. These blocks can be broken instantly with a hit and right-clicking on one with another block will replace the Spectral Block. Crouching will create a layer below you, allowing for greater aerial mobility. Activating this Sigil costs 150 LP every 10 seconds while active, plus 1 LP per block created, until deactivated.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFPHANTOMBRIDGE", <AWWayofTime:imbuedSlate>, 
 [<AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>], 
 "terra 48, alienis 32, iter 24, vitreus 16, potentia 8, praecantatio 8", <AWWayofTime:sigilOfTheBridge>, 9);
@@ -805,9 +754,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFMAGNETISM", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFMAGNETISM", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFMAGNETISM", true);
 mods.thaumcraft.Research.addPage("SIGILOFMAGNETISM", "tc.research_page.SIGILOFMAGNETISM");
-game.setLocalization("tc.research_page.SIGILOFMAGNETISM", "\u78c1\u5f15\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u53ef\u6d88\u8017LP\u5438\u5f15\u534a\u5f845\u683c\u4e4b\u5185\u7684\u7269\u54c1.
-\u6fc0\u6d3b\u6b64\u5370\u8bb0\u5c06\u4ece\u7ed1\u5b9a\u8005\u7684\u7075\u9b42\u7f51\u7edc\u4e2d\u6d88\u801775LP,\u6b64\u540e\u6bcf10\u79d2\u6d88\u801775LP\u4ee5\u7ef4\u6301\u6548\u679c.
-\u6b64\u5370\u8bb0\u7684\u6709\u6548\u8303\u56f4\u662f\u4ee5\u73a9\u5bb6\u4e3a\u4e2d\u5fc3,\u534a\u5f845\u683c\u7684\u5706.");
+game.setLocalization("tc.research_page.SIGILOFMAGNETISM", "As you empower yourself with this new magic, you begin to move small objects to your will. Reaching towards them, you can draw them towards you, a magical magnet that you were quickly able to implant into a Sigil, creating the Sigil of Magnetism.<BR><BR>This acts as an item magnet, with a radius of five blocks, at the cost of Life Essence (LP). Upon activating the Sigil, 75 LP will be consumed from your network to act as an item magnet. Every ten seconds after activation, an additional 75 LP will be consumed to continue working.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFMAGNETISM", <AWWayofTime:imbuedSlate>, 
 [<gregtech:gt.blockmetal5:1>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>, <gregtech:gt.blockmetal5:1>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>, <gregtech:gt.blockmetal5:1>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>, <gregtech:gt.blockmetal5:1>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>], 
 "potentia 32, magneto 24, electrum 24, auram 16, cognitio 12, praecantatio 6", <AWWayofTime:sigilOfMagnetism>, 9);
@@ -822,11 +769,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFTHEBLOODLAMP", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFTHEBLOODLAMP", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFTHEBLOODLAMP", true);
 mods.thaumcraft.Research.addPage("SIGILOFTHEBLOODLAMP", "tc.research_page.SIGILOFTHEBLOODLAMP");
-game.setLocalization("tc.research_page.SIGILOFTHEBLOODLAMP", "\u8840\u5149\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
-\u624b\u6301\u6b64\u5370\u8bb0\u53f3\u952e\u4efb\u610f\u65b9\u5757\u53ef\u6d88\u801730LP\u5236\u9020\u4e00\u4e2a\u8840\u4e4b\u5149\u6e90.
-\u8840\u4e4b\u5149\u6e90\u5c04\u51fa\u5149\u8292,\u901a\u5e38\u7528\u4e8e\u7167\u4eae\u73a9\u5bb6\u7684\u57fa\u5730.
-\u8840\u5149\u5370\u8bb0\u8fd8\u53ef\u4f5c\u4e3a\u8fdc\u7a0b\u6b66\u5668\u4f7f\u7528.
-\u4e0d\u6307\u5411\u65b9\u5757\u65f6\u53f3\u952e\u53ef\u5c04\u51fa\u5f39\u4e38,\u5bf9\u88ab\u51fb\u4e2d\u8005\u9020\u6210\u534a\u5fc3\u4f24\u5bb3.");
+game.setLocalization("tc.research_page.SIGILOFTHEBLOODLAMP", "All of this is riddled with energy, yet there is no visible light coming from anywhere. The behavior of Life Essence is unlike that of a Vis Node, and it seems to reject acting as a source of light until enough blood is provided at once.<BR><BR>The Sigil of the Blood Lamp allows you to create a Blood Light anywhere by right-clicking a block, at a 10 LP cost. The Blood Light emits light and serves as an improved light source with less visual clutter. Right clicking the Sigil while not facing a block will shoot a small projectile, dealing half a heart of damage on impact, costing 50 LP.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFTHEBLOODLAMP", <AWWayofTime:imbuedSlate>, 
 [<ThaumicTinkerer:brightNitor>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>, <ThaumicTinkerer:brightNitor>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>], 
 "lux 48, ignis 32, aer 32, potentia 24, sensus 16, praecantatio 8", <AWWayofTime:itemBloodLightSigil>, 4);
@@ -841,9 +784,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFSIGHT", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFSIGHT", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFSIGHT", true);
 mods.thaumcraft.Research.addPage("SIGILOFSIGHT", "tc.research_page.SIGILOFSIGHT");
-game.setLocalization("tc.research_page.SIGILOFSIGHT", "\u89c1\u89e3\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
-\u5f53\u5728\u8840\u796d\u575b\u4e0a\u4f7f\u7528\u65f6,\u5b83\u663e\u793a\u7269\u54c1\u8fdb\u5ea6,\u6d88\u8017\u7387,\u5f53\u524dLP,\u4ee5\u53ca\u8f93\u5165\u8f93\u51fa\u69fd.
-\u4f7f\u7528\u6b64\u5370\u8bb0\u6d88\u80170LP,\u4f46\u63d2\u5165\u7ea6\u675f\u88c5\u7532\u65f6\u65e0\u6548");
+game.setLocalization("tc.research_page.SIGILOFSIGHT", "You find yourself seeing things more clearly as your Altar structure becomes more composed. The Sigil you used before to look into the Altar's secrets can tell you more if it is treated with a good enough orb, and the result is the Sigil of Sight.<BR><BR>When used on a Blood Altar, it shows the item progress, consumption rate, current essence and input/output tanks, at no LP cost per usage. With this, you can better assess the performance of your Altar, and track it as it is upgraded.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFSIGHT", <AWWayofTime:divinationSigil>, 
 [<Thaumcraft:ItemZombieBrain>, <TConstruct:GlassPane>, <AWWayofTime:crystallos>, <TConstruct:GlassPane>, <Thaumcraft:ItemZombieBrain>, <TConstruct:GlassPane>, <AWWayofTime:crystallos>, <TConstruct:GlassPane>], 
 "ordo 24, sensus 18, cognitio 12, vitreus 6, praecantatio 4", <AWWayofTime:seerSigil>, 3);
@@ -895,9 +836,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFTHEORB", true);
 mods.thaumcraft.Research.addPage("RUNEOFTHEORB", "tc.research_page.RUNEOFTHEORB");
-game.setLocalization("tc.research_page.RUNEOFTHEORB", "\u5b9d\u73e0\u7b26\u6587\u53ef\u7528\u4e8e\u8840\u4e4b\u796d\u575b\u7684\u5347\u7ea7.
-\u6bcf\u4e2a\u5b9d\u73e0\u7b26\u6587\u53ef\u63d0\u5347\u8f6c\u79fb\u8fdb\u5165\u7075\u9b42\u7f51\u7edc\u7684LP\u6570\u91cf(\u539f\u6709\u503c\u76842%).
-\u5bf9\u4e8e\u865a\u5f31\u6c14\u8840\u5b9d\u73e0\u6765\u8bf4\u5c31\u662f\u6bcf\u4e2a\u7b26\u6587\u63d0\u5347100LP,\u4f46\u5bf9\u4e8e\u8d24\u8005\u6c14\u8840\u5b9d\u73e0\u6765\u8bf4\u5c31\u662f200000LP\u4e86.");
+game.setLocalization("tc.research_page.RUNEOFTHEORB", "In your attempts to increase the maximum storage of a Soul Network, you perceived a way to do it without having to get a better Blood Orb, by enhancing the Altar with a specific Rune dedicated to the job, the Rune of the Orb.<BR><BR>Each one increases the amount of LP that can be transferred into a Soul Network by 4% of its original value. For the Weak Blood Orb, this is 100 LP per rune, but for the Archmage's Blood Orb it becomes 200,000 LP.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFTHEORB", <BloodArsenal:blood_stone:3>, 
 [<AWWayofTime:demonicSlate>, <BloodArsenal:blood_stone:3>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:3>], 
 "potentia 32, victus 24, motus 16, lucrum 8, praecantatio 4", <AWWayofTime:AlchemicalWizardrybloodRune:3>, 6);
@@ -911,13 +850,9 @@ mods.thaumcraft.Research.addPrereq("RUNEOFSUPERIORCAPACITY", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFSUPERIORCAPACITY", "RUNEOFARGUMENTEDCAPACITY", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFSUPERIORCAPACITY", true);
 mods.thaumcraft.Research.addPage("RUNEOFSUPERIORCAPACITY", "tc.research_page.RUNEOFSUPERIORCAPACITY.1");
-game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.1", "\u8d85\u5bb9\u7b26\u6587\u53ef\u7528\u4e8e\u8840\u4e4b\u796d\u575b\u7684\u5347\u7ea7.
-\u6bcf\u4e2a\u8d85\u5bb9\u7b26\u6587\u63d0\u534710%\u796d\u575b\u7684LP\u5bb9\u91cf(\u4e58\u6cd5):\u4e24\u4e2a\u8d85\u5bb9\u7b26\u6587\u63d0\u534721%,\u4e09\u4e2a\u63d0\u534733%,\u4ee5\u6b64\u7c7b\u63a8.
-\u81f3\u4e8e\u4f7f\u7528\u589e\u5bb9\u7b26\u6587\u8fd8\u662f\u8d85\u5bb9\u7b26\u6587,\u5c11\u4e8e15\u4e2a\u7b26\u6587\u65f6,\u7528\u589e\u5bb9\u7b26\u6587\u66f4\u6709\u6548\u7387.
-\u4f46\u8bf7\u6ce8\u610f,\u540c\u65f6\u4f7f\u7528\u589e\u5bb9\u7b26\u6587\u4e0e\u8d85\u5bb9\u7b26\u6587\u65f6,\u8d85\u5bb9\u7b26\u6587\u53ea\u4f1a\u589e\u52a0\u539f\u59cb\u50a8\u5b58\u91cf10000\u768410%,\u800c\u5bf9\u589e\u5bb9\u7b26\u6587\u540e\u6dfb\u52a0\u7684n*2000\u7684\u5b58\u50a8\u91cf\u6ca1\u6709\u6548\u679c.");
+game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.1", "In another one of your deep exploits, you have resurfaced with a variation on a useful rune you already had. The Rune of Superior Capacity increases the capacity of the altar by 14% LP, unlike its sibling that increases it by a flat amount. These are multiplicative: two is 29%, three is 48% and so on. With fewer than 15 runes dedicated to capacity, it is more efficient to use Runes of Augmented Capacity.<BR><BR>The effects of having both runes of augmented capacity and runes of superior capacity stack, but runes of superior capacity do NOT multiply the 2,000 added by each rune of augmented capacity, only the original 10,000.");
 mods.thaumcraft.Research.addPage("RUNEOFSUPERIORCAPACITY", "tc.research_page.RUNEOFSUPERIORCAPACITY.2");
-game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.2", "The capacity of your altar can be calculated with the formula: (2000*A) + (10000)*(1.1)^S
-Where A is equal to the number of Runes of Augmented Capacity and S is equal to the number of Runes of Superior Capacity are in place.");
+game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.2", "The capacity of your altar can be calculated with the formula: (3500*A) + (10000)*(1.14)^S, where A is equal to the number of Runes of Augmented Capacity and S is equal to the number of Runes of Superior Capacity are in place.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFSUPERIORCAPACITY", <BloodArsenal:blood_stone:3>, 
 [<irontank:diamondTank>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:3>, <AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:demonicSlate>, <irontank:diamondTank>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:3>, <AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:demonicSlate>], 
 "potentia 48, aqua 32, cognitio 24, lucrum 16, praecantatio 8, alienis 4, ", <AWWayofTime:AlchemicalWizardrybloodRune:4>, 8);
@@ -932,8 +867,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "RUNEOFARGUMENTEDCAPACI
 mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "RUNEOFDISLOCATION", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFACCELERATION", true);
 mods.thaumcraft.Research.addPage("RUNEOFACCELERATION", "tc.research_page.RUNEOFACCELERATION");
-game.setLocalization("tc.research_page.RUNEOFACCELERATION", "\u8f6c\u4f4d\u7b26\u6587\u589e\u52a0\u7684\u662f\u6bcf\u6b21\u4ece\u4e00\u4e2a\u5b58\u50a8\u69fd\u8f6c\u79fb\u5230\u53e6\u4e00\u4e2a\u65f6\u7684LP\u6570\u91cf.(\u5355\u6b21\u8f6c\u79fb\u6570)
-\u4fc3\u8fdb\u7b26\u6587\u589e\u52a0\u7684\u662f\u8f6c\u79fb\u52a8\u4f5c\u7684\u9891\u7387.(\u8f6c\u79fb\u9891\u7387)");
+game.setLocalization("tc.research_page.RUNEOFACCELERATION", "The specialization of each Rune gave you an idea. Instead of increasing the amount of fluid that is transported, you can increase the speed at which a new transportation happens.<BR><BR>To accomplish this, you created the Rune of Acceleration, which increases the frequency of the Altar fluid transportations.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFACCELERATION", <BloodArsenal:blood_stone:4>, 
 [<AWWayofTime:AlchemicalWizardrybloodRune:2>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:4>, <gregtech:gt.metaitem.01:32614>, <AWWayofTime:speedRune>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:4>, <gregtech:gt.metaitem.01:32614>], 
 "potentia 64, aqua 48, motus 32, cognitio 24, tempus 16, praecantatio 8, terra 4", <AWWayofTime:AlchemicalWizardrybloodRune:5>, 10);
@@ -1075,8 +1009,7 @@ mods.thaumcraft.Research.addPrereq("CRYSTALCLUSTER", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("CRYSTALCLUSTER", "RUNEOFACCELERATION", false);
 mods.thaumcraft.Research.setConcealed("CRYSTALCLUSTER", true);
 mods.thaumcraft.Research.addPage("CRYSTALCLUSTER", "tc.research_page.CRYSTALCLUSTER");
-game.setLocalization("tc.research_page.CRYSTALCLUSTER", "\u788e\u7247\u96c6\u6676\u7528\u4e8e\u5c06\u8840\u4e4b\u796d\u575b\u63d0\u5347\u81f3\u516d\u9636.
-\u75315\u4e2a\u7075\u9b42\u788e\u7247\u4ee5\u53ca5\u4e2a\u751f\u547d\u788e\u7247\u5236\u6210");
+game.setLocalization("tc.research_page.CRYSTALCLUSTER", "You have spent long hours searching for a block that can maintain the connection within the full structure of a Tier 6 Altar. As you soon came to realize, such a block doesn't exist, the reason why no other Blood Mage ever made a concept of an Altar of this size.<BR><BR>However, the true realization that you achieved was that this material doesn't exist here, where you are located. For a mage of your caliber, the sight forward needs to look beyond this one realm, into the powerful beings of other dimensions, and their belongings... something much grander can come from this.");
 mods.thaumcraft.Infusion.addRecipe("CRYSTALCLUSTER", <BloodArsenal:blood_stone:4>, 
 [<AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>, <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:bloodMagicBaseItems:29>], 
 "potentia 72, victus 64, spiritus 64, praecantatio 32, tenebrae 32, alienis 16, cognitio 16", <AWWayofTime:blockCrystal>, 15);
@@ -1090,12 +1023,11 @@ game.setLocalization("tc.research_text.ICHORIUMBLOCK", "[BM]\u6700\u540e\u4e00\u
 mods.thaumcraft.Research.addPrereq("ICHORIUMBLOCK", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ICHORIUMBLOCK", "CRYSTALCLUSTER", false);
 mods.thaumcraft.Research.setConcealed("ICHORIUMBLOCK", true);
-mods.thaumcraft.Research.addPage("ICHORIUMBLOCK", "tc.research_page.ICHORIUMBLOCK");
-game.setLocalization("tc.research_page.ICHORIUMBLOCK", "\u4f60\u7684\u8840\u4e4b\u796d\u575b\u7684\u7b2c\u516d\u9636\u4e5f\u662f\u6700\u540e\u4e00\u9636\u9700\u898176\u4e2a\u989d\u5916\u7684\u8840\u4e4b\u7b26\u6587,\u4ee5\u53ca\u56db\u4e2a7\u683c\u9ad8\u8840\u8165\u7075\u5b9d\u5757\u5236\u6210\u7684\u7acb\u67f1,\u5e76\u5728\u7acb\u67f1\u9876\u7aef\u653e\u7f6e\u788e\u7247\u96c6\u6676.
-\u516d\u9636\u796d\u575b\u4f1a\u89e3\u9501\u66f4\u5f3a\u5927\u7684\u8f6c\u6362\u5408\u6210\u8868,\u4f1a\u8ba9\u4f60\u5145\u5206\u53d1\u6325\u8840\u9b54\u6cd5\u7684\u6f5c\u529b.
-\u4e0e\u4e4b\u524d\u7684\u51e0\u4e2a\u7b49\u9636\u4e00\u6837,\u7b26\u6587\u7684\u7b2c\u516d\u5708\u9700\u8981\u4ece\u524d\u4e00\u5c42\u7b26\u6587\u5708\u5411\u4e0b\u4e00\u683c,\u5411\u5916\u4e24\u683c.
-\u8840\u8165\u7075\u5b9d\u5757\u9700\u8981\u4f7f\u7528\u4e94\u9636\u796d\u575b,\u7531\u7075\u5b9d\u952d\u5757\u6ce8\u8840\u5f97\u5230.");
-mods.thaumcraft.Infusion.addRecipe("ICHORIUMBLOCK", <dreamcraft:tile.Mytryl>, 
+mods.thaumcraft.Research.addPage("ICHORIUMBLOCK", "tc.research_page.ICHORIUMBLOCK.1");
+mods.thaumcraft.Research.addPage("ICHORIUMBLOCK", "tc.research_page.ICHORIUMBLOCK.2");
+game.setLocalization("tc.research_page.ICHORIUMBLOCK.1", "The reflection you see in the face of this orange-golden block is nothing but exhilaration. You thought it impossible, to flow Blood Magic through this magical miracle material, seeing it reject any and all attempts of mixing with the essence.<BR><BR>Holding it in your grasp, you feel it pulsing with an intensity beyond anything you have felt since you became a Blood Mage. This, this is the foundation of the power every mage has been seeking, all this time! You can only imagine what it can do your Altar.");
+game.setLocalization("tc.research_page.ICHORIUMBLOCK.2", "The sixth and final tier of your Blood Magic altar will require 76 additional Blood Runes, and 4 seven block pillars made of Blood-Soaked Ichorium Blocks capped with Crystal Clusters. The Tier 6 Altar allows you to unlock the full potential of your Blood Magic endeavors by way of unlocking even more and more powerful transfusion recipes.<BR><BR>Like the previous tier, the sixth ring of runes requires a two-block gap outward from the previous ring. The Ichorium Blocks need to be placed in a Tier 5 Altar to soak up the Blood and turn into this new block.");
+mods.thaumcraft.Infusion.addRecipe("ICHORIUMBLOCK", <dreamcraft:tile.Mytryl>,
 [<gregtech:gt.metaitem.01:11978>, <AWWayofTime:bloodMagicBaseItems:28>, <ThaumicTinkerer:kamiResource>, <AWWayofTime:standardBindingAgent>, <gregtech:gt.metaitem.01:11978>, <AWWayofTime:bloodMagicBaseItems:29>, <ThaumicTinkerer:kamiResource>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>], 
 "victus 64, fames 48, praecantatio 32, infernus 24, alienis 16, superbia 16, terra 8", <gregtech:gt.blockmetal8:13>, 12);
 mods.thaumcraft.Research.addInfusionPage("ICHORIUMBLOCK", <gregtech:gt.blockmetal8:13>);
@@ -1109,13 +1041,7 @@ mods.thaumcraft.Research.addPrereq("GLYPHSTONE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("GLYPHSTONE", "SOULARMORFORGE", false);
 mods.thaumcraft.Research.setConcealed("GLYPHSTONE", true);
 mods.thaumcraft.Research.addPage("GLYPHSTONE", "tc.research_page.GLYPHSTONE.1");
-game.setLocalization("tc.research_page.GLYPHSTONE.1", "\u73b0\u5728\u662f\u65f6\u5019\u4e3e\u884c\u6b27\u7c73\u4f3d\u4eea\u5f0f\u4e86.
-\u6b27\u7c73\u4f3d\u88c5\u7532\u662f\u4ece\u8840\u9b54\u6cd5\u7684\u666e\u901a\u7ea6\u675f\u88c5\u7532\u5347\u7ea7\u800c\u6765\u7684.
-\u5efa\u9020\u6b27\u7c73\u4f3d\u5bc6\u5ba4\u662f\u6b27\u7c73\u4f3d\u4eea\u5f0f\u6700\u590d\u6742\u4e5f\u662f\u6700\u91cd\u8981\u7684\u90e8\u5206.\u4f60\u7684\u6b27\u7c73\u4f3d\u88c5\u7532\u7684\u6301\u7eed\u65f6\u95f4,\u4fdd\u62a4\u6548\u679c\u51e0\u4e4e\u90fd\u662f\u57fa\u4e8e\u4f60\u7684\u5bc6\u5ba4\u7684.
-\u4eea\u5f0f\u7684\u539f\u7406\u5c31\u662f\u5728\u6fc0\u6d3b\u4eea\u5f0f\u540e,\u4f1a\u91ca\u653e\u5b58\u50a8\u5728\u4e3b\u4eea\u5f0f\u77f3\u4e2d\u7684\u8bd5\u5242(AR)\u6c14\u4f53,\u4ee5\u6b64\u5347\u7ea7\u4f60\u7684\u7ea6\u675f\u88c5\u7532.
-\u4f46\u662f\u8fd9\u79cd\u8bd5\u5242\u6c14\u4f53\u4e0d\u80fd\u5230\u5904\u53d1\u6563\u624d\u80fd\u4e3a\u4f60\u7684\u88c5\u7532\u8d4b\u4e88\u80fd\u529b,\u6240\u4ee5\u5f53\u6fc0\u6d3b\u4eea\u5f0f\u65f6,\u5bc6\u5ba4\u5fc5\u987b\u5b8c\u5168\u5c01\u95ed.
-\u4e00\u65e6\u8bd5\u5242\u6c14\u4f53\u5df2\u7ecf\u8fdb\u5165\u4f60\u7684\u88c5\u7532\u4e2d,\u90a3\u4e48\u4f60\u53ef\u4ee5\u6253\u5f00\u5bc6\u5ba4\u51fa\u6765.
-\u56e0\u4e3a\u662f\u6c14\u4f53,\u6240\u4ee5\u5bc6\u5ba4\u7684\u4f53\u79ef\u4e0d\u91cd\u8981,\u91cd\u8981\u7684\u662f\u63a5\u89e6\u9762\u79ef.\u6bcf\u4e2a\u4e0e\u4e3b\u4eea\u5f0f\u77f3\u4e0a\u65b9\u76f8\u8fde\u7a7a\u6c14\u6709\u63a5\u89e6\u9762\u7684\u5bc6\u5ba4\u65b9\u5757\u63d0\u4f9b1\u70b9\u7a33\u5b9a\u6027.");
+game.setLocalization("tc.research_page.GLYPHSTONE.1", "Now its time for the Omega Ritual. So the Omega armor is an upgrade from the normal Bound Armor from Blood Magic. You hve to Building a the Omega Chamber the most complicated and most important part of the Omega ritual. The duration and protection of your Omega Armor will be almost completely based on this. The idea behind the ritual is that activating the ritual releases the reagents like a gas from the master ritual stone. However the gas must be contained in order to empower your armor, so the chamber must be completely sealed when you activate the ritual. Once the reagent gas has entered your armor, the chamber may be broken and you can exit. Because it is a gas, the volume of the chamber is not important. Every FACE of a block the is exposed to the gas once the ritual is activated counts for 1 point of stability.");
 mods.thaumcraft.Research.addPage("GLYPHSTONE", "tc.research_page.GLYPHSTONE.2");
 game.setLocalization("tc.research_page.GLYPHSTONE.1", "\u4e3a\u4e86\u4f7f\u4eea\u5f0f\u6210\u529f\u6fc0\u6d3b,\u7a33\u5b9a\u6027\u9700\u8981\u4e3a151\u6216\u66f4\u9ad8.\u7a33\u5b9a\u6027\u8d8a\u9ad8,\u4f60\u7684\u88c5\u7532\u6301\u7eed\u65f6\u95f4\u5c31\u8d8a\u957f.
 \u5982\u679c\u4f60\u4f7f\u7528\u4e86\u56fe\u7b26:\u521a\u786c\u7a33\u5b9a,\u6bcf\u4e2a\u63a5\u89e6\u9762\u5c06\u63d0\u4f9b2\u70b9\u7a33\u5b9a\u6027.\u867d\u7136\u8fd9\u6837\u663e\u7136\u6bd4\u4f7f\u7528\u6ce5\u571f\u6216\u662f\u522b\u7684\u65b9\u5757\u6784\u5efa\u5bc6\u5ba4\u66f4\u8d35,\u4f46\u8fd9\u6837\u57fa\u672c\u4e0a\u4f7f\u5bc6\u5ba4\u7684\u7a33\u5b9a\u6027\u7ffb\u500d\u4e86.
@@ -1193,9 +1119,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFHASTE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFHASTE", "AIRSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFHASTE", true);
 mods.thaumcraft.Research.addPage("SIGILOFHASTE", "tc.research_page.SIGILOFHASTE");
-game.setLocalization("tc.research_page.SIGILOFHASTE", "\u6025\u901f\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u53ef\u6d88\u8017LP\u8d4b\u4e88\u6025\u901fII\u6548\u679c.
-\u6fc0\u6d3b\u6025\u901f\u5370\u8bb0\u65f6\u5c06\u4ece\u7ed1\u5b9a\u8005\u7684\u7075\u9b42\u7f51\u7edc\u62bd\u53d6300LP,\u6fc0\u6d3b\u540e\u6bcf10\u79d2\u6d88\u8017300LP\u4ee5\u7ef4\u6301\u6025\u901fII\u6548\u679c.
-\u63d2\u5165\u7ea6\u675f\u88c5\u7532\u65f6\u53ef\u63d0\u4f9b\u6025\u901f\u6548\u679c.");
+game.setLocalization("tc.research_page.SIGILOFHASTE", "You have sought to move as quickly as the essence in your Altar, but you have achieved no improvements to your speed. Rushing the blood in your veins would kill you within seconds, your distant rational mind tells you, but reinserting it inside you with Blood Magic is a different story.<BR><BR>The Sigil of Haste grants you Boost II at the cost of Life Essence (LP). Upon activating the Sigil of Haste, and every 10 seconds, 300 LP will be consumed from the owner's network to grant the user Boost II When socketed into Bound Armor, the Sigil of Haste grants Boost.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFHASTE", <AWWayofTime:demonicSlate>, 
 [<AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:cookie>, <AWWayofTime:aether>, <AWWayofTime:aether>, <minecraft:sugar>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:sugar>, <AWWayofTime:aether>, <AWWayofTime:aether>, <minecraft:cookie>], 
 "iter 64, motus 32, aer 24, potentia 24, praecantatio 16, alienis 8, cognitio 8", <AWWayofTime:sigilOfHaste>, 8);
@@ -1210,10 +1134,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFWHIRLWIND", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFWHIRLWIND", "AIRSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFWHIRLWIND", true);
 mods.thaumcraft.Research.addPage("SIGILOFWHIRLWIND", "tc.research_page.SIGILOFWHIRLWIND");
-game.setLocalization("tc.research_page.SIGILOFWHIRLWIND", "\u65cb\u98ce\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
-\u6fc0\u6d3b\u65f6,\u5b83\u4f1a\u504f\u8f6c\u5c04\u5411\u73a9\u5bb6\u7684\u5f39\u5c04\u7269\u548c\u7bad.
-\u6bcf\u6b21\u6fc0\u6d3b\u6d88\u8017350LP.
-\u63d2\u5165\u7ea6\u675f\u88c5\u7532\u65f6\u6548\u679c\u76f8\u540c.");
+game.setLocalization("tc.research_page.SIGILOFWHIRLWIND", "With a flicker of the hand, far away objects will come to you, but with another they will be thrown away. You have since mastered these two gestures, and imbued them into Sigils to automatically cause the effects.<BR><BR>The Sigil of the Whirlwind, when active, deflects projectiles and arrows fired at you. Activating this Sigil costs 350 LP per use. When socketed into Bound Armor, the Sigil of the Whirlwind has the same deflection effect.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFWHIRLWIND", <AWWayofTime:airSigil>, 
 [<TwilightForest:item.tfFeather>, <AWWayofTime:aether>, <EMT:EMTItems:7>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <AWWayofTime:aether>, <TwilightForest:item.tfFeather>, <AWWayofTime:aether>, <EMT:EMTItems:7>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <AWWayofTime:aether>], 
 "aer 72, tutamen 48, potentia 32, victus 32, sano 16, cognitio 16, superbia 8, nebrisum 8", <AWWayofTime:sigilOfWind>, 12);
@@ -1228,12 +1149,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFSUPRESSION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFSUPRESSION", "VOIDSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFSUPRESSION", true);
 mods.thaumcraft.Research.addPage("SIGILOFSUPRESSION", "tc.research_page.SIGILOFSUPRESSION");
-game.setLocalization("tc.research_page.SIGILOFSUPRESSION", "\u6291\u6db2\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
-\u6fc0\u6d3b\u65f6,\u5b83\u4f1a\u6682\u65f6\u79fb\u9664\u73a9\u5bb6\u534a\u5f845\u683c\u4e4b\u5185\u7684\u6db2\u4f53\u65b9\u5757.
-\u505c\u7528\u6216\u73a9\u5bb6\u79fb\u52a8\u51fa\u8303\u56f4\u540e,\u90a3\u4e9b\u6db2\u4f53\u65b9\u5757\u53c8\u4f1a\u8fd4\u56de\u539f\u5904.
-\u5b83\u5bf9\u6240\u6709\u4f7f\u7528Forge\u6db2\u4f53API\u7684\u6db2\u4f53\u6709\u6548,\u6bd4\u5982\u6c34,\u5ca9\u6d46\u6216\u77f3\u6cb9.
-\u6fc0\u6d3b\u6b64\u5370\u8bb0\u6bcf10\u79d2\u6d88\u8017500LP.
-\u63d2\u5165\u7ea6\u675f\u88c5\u7532\u65f6\u6548\u679c\u76f8\u540c.");
+game.setLocalization("tc.research_page.SIGILOFSUPRESSION", "It's impressive, what a Blood Mage with a blank mind can come up with. You have seen the possibility to create fluids, and to delete fluids, but never to do both at the same time. What could stop a sufficienly resourceful mage from accomplishing this?<BR><BR>The Sigil of Supression, a rather fun experiment, temporarily removes any fluid source within a 5 block radius. Once it is disabled, or you move out of range, the sources will return. Activating this Sigil costs 500 LP every 10 seconds until deactivated. When socketed into Bound Armor, it has the same effect.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFSUPRESSION", <AWWayofTime:voidSigil>, 
 [<AWWayofTime:blockTeleposer>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <AWWayofTime:demonicSlate>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:demonicSlate>, <AWWayofTime:tennebrae>, <minecraft:bucket>], 
 "vacuos 72, auram 16, aqua 64, metallum 8, praecantatio 32, terra 32, motus 16", <AWWayofTime:sigilOfSupression>, 15);
@@ -1249,10 +1165,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFENDERSEVERANCE", "SIGILOFELEMENTALAFF
 mods.thaumcraft.Research.addPrereq("SIGILOFENDERSEVERANCE", "OCULUS", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFENDERSEVERANCE", true);
 mods.thaumcraft.Research.addPage("SIGILOFENDERSEVERANCE", "tc.research_page.SIGILOFENDERSEVERANCE");
-game.setLocalization("tc.research_page.SIGILOFENDERSEVERANCE", "\u7edd\u5f71\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,\u53ef\u7528\u4e8e\u963b\u6b62\u4f20\u9001.
-\u5176\u8303\u56f4\u662f\u4ee5\u73a9\u5bb6\u4e3a\u4e2d\u5fc3\u8d85\u8fc711x11x11\u683c.
-\u6b64\u5370\u8bb0\u4f7f\u73a9\u5bb6\u53ef\u4ee5\u7528\u8fdc\u7a0b\u6b66\u5668\u8f7b\u677e\u653b\u51fb\u672b\u5f71\u4eba,\u800c\u4e0d\u50cf\u5e73\u65f6\u90a3\u6837\u88ab\u672b\u5f71\u4eba\u95ea\u8fc7\u653b\u51fb\u7136\u540e\u4f20\u9001\u81f3\u80cc\u540e\u7206*\u82b1.
-\u6fc0\u6d3b\u65f6\u6b64\u5370\u8bb0\u6bcf10\u79d2\u6d88\u8017300LP.");
+game.setLocalization("tc.research_page.SIGILOFENDERSEVERANCE", "You have tapped enough into the magic of teleportation to learn how to disable it, and you came up with the equivalent Sigil in an instant.<BR><BR>The Sigil of Ender Severance, named after the black terrors who do it so often, prevents teleporting, meaning that those monsters cannot dodge ranged attacks anymore. It has an effect range over an area of 11 x 11 x 11 blocks, centered on you.  This sigil costs 300 LP per 10 seconds while active.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFENDERSEVERANCE", <AWWayofTime:bloodMagicBaseItems:27>, 
 [<Thaumcraft:ItemEldritchObject>, <AWWayofTime:demonicSlate>, <StevesCarts:ModuleComponents:45>, <TConstruct:slime.gel:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>, <gregtech:gt.metaitem.01:32724>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>, <TConstruct:slime.gel:2>, <StevesCarts:ModuleComponents:45>, <AWWayofTime:demonicSlate>], 
 "alienis 16, cognitio 72, humanus 16, potentia 64, vinculum 48, limus 32, nebrisum 8", <AWWayofTime:sigilOfEnderSeverance>, 17);
@@ -1267,8 +1180,7 @@ mods.thaumcraft.Research.addPrereq("ENDERSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ENDERSIGIL", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("ENDERSIGIL", true);
 mods.thaumcraft.Research.addPage("ENDERSIGIL", "tc.research_page.ENDERSIGIL");
-game.setLocalization("tc.research_page.ENDERSIGIL", "\u672b\u5f71\u5370\u8bb0\u6709\u4e24\u4e2a\u529f\u80fd.
-\u53f3\u952e\u65f6\u53ef\u6253\u5f00\u73a9\u5bb6\u7684\u672b\u5f71\u7bb1\u5b50;Shift+\u53f3\u952e\u65f6\u53ef\u5c06\u73a9\u5bb6\u4f20\u9001\u81f3\u5176\u9762\u671d\u7684\u4efb\u610f\u65b9\u5757.");
+game.setLocalization("tc.research_page.ENDERSIGIL", "Tapping into the energy of Ender Pearls, you have come out with a bundle deal of useful effects on the resulting Sigil.<BR><BR>The Ender Sigil has two functions: when it is right-clicked, it opens up the player's Ender Chest; when it is shift-right-clicked, it teleports the player to whatever block they are facing.");
 mods.thaumcraft.Infusion.addRecipe("ENDERSIGIL", <AWWayofTime:sigilOfEnderSeverance>, 
 [<EnderStorage:enderChest>, <gregtech:gt.metaitem.01:32726>, <gregtech:gt.metaitem.01:17770>, <gregtech:gt.metaitem.01:32724>, <minecraft:ender_eye>, <minecraft:ender_eye>, <gregtech:gt.metaitem.01:32724>, <gregtech:gt.metaitem.01:17770>, <gregtech:gt.metaitem.01:32726>], 
 "vacuos 16, alienis 16, cognitio 72, humanus 16, potentia 64, vinculum 48, limus 32, nebrisum 8", <BloodArsenal:sigil_of_ender>, 20);
@@ -1283,8 +1195,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFDIVINITY", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFDIVINITY", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFDIVINITY", true);
 mods.thaumcraft.Research.addPage("SIGILOFDIVINITY", "tc.research_page.SIGILOFDIVINITY");
-game.setLocalization("tc.research_page.SIGILOFDIVINITY", "\u795e\u7075\u5370\u8bb0\u662f\u7ec8\u6781\u7684\u4fdd\u62a4\u5f62\u5f0f,\u6fc0\u6d3b\u65f6,\u5b83\u5c31\u4f1a\u4e3a\u73a9\u5bb6\u63d0\u4f9b\u4e00\u4e2a\u5438\u6536\u5c4f\u969c.
-\u867d\u7136\u8fd9\u4e2a\u5c4f\u969c\u53ef\u4ee5\u62b5\u6321\u6076\u9b54\u7684\u653b\u51fb,\u4f46\u9700\u8981\u6d88\u8017\u975e\u5e38\u591a\u7684LP(\u522b\u8bf4\u6211\u6ca1\u6709\u8b66\u544a\u8fc7\u4f60)!");
+game.setLocalization("tc.research_page.SIGILOFDIVINITY", "The unfathomable power of a perfected Blood Mage leaves only one weakness, their fragility. One who has sacrificed so much to attain that power cannot be allowed to perish so easily, you repeat to yourself as you envision the level that you have already reached. You have decided to create this protection out of sheer magical strength, working out a Sigil that devours essence to immortalize you.<BR><BR>The Sigil of Divinity is the ultimate form of protection. When activated, it puts up an absorption shield around you, at a very high cost of 50,000 LP every 20 seconds.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFDIVINITY", <AWWayofTime:sigilOfElementalAffinity>, 
 [<BloodArsenal:blood_stone:4>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_diamond_block>, <TConstruct:diamondApple>, <BloodArsenal:blood_infused_glowstone>, <BloodArsenal:amorphic_catalyst>, <gregtech:gt.metaitem.01:32726>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone>, <TConstruct:diamondApple>, <BloodArsenal:blood_infused_diamond_block>, <BloodArsenal:amorphic_catalyst>], 
 "tutamen 64, aer 72, ignis 64, aqua 48, terra 32, ordo 32, perditio 16, sano 8", <BloodArsenal:sigil_of_divinity>, 25);
@@ -1299,11 +1210,7 @@ mods.thaumcraft.Research.addPrereq("HARVESTGODDESSSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("HARVESTGODDESSSIGIL", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("HARVESTGODDESSSIGIL", true);
 mods.thaumcraft.Research.addPage("HARVESTGODDESSSIGIL", "tc.research_page.HARVESTGODDESSSIGIL");
-game.setLocalization("tc.research_page.HARVESTGODDESSSIGIL", "\u4e30\u6536\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177,
-\u6b64\u5370\u8bb0\u7684\u6548\u679c\u4e0e\u6ee1\u6708\u6536\u5272\u4eea\u5f0f\u6781\u4e3a\u76f8\u4f3c,\u4f46\u4e3a\u4e86\u4fbf\u643a\u6027\u727a\u7272\u4e86\u8303\u56f4\u548c\u81ea\u52a8\u5316.
-\u53ef\u7528\u4e8e\u6536\u83b7\u5e76\u91cd\u65b0\u79cd\u690d\u6301\u6709\u8005\u534a\u5f843\u683c\u4ee5\u5185\u7684\u6210\u719f\u4f5c\u7269,\u4f46\u4e0d\u4f1a\u62fe\u8d77\u6389\u843d\u7684\u4f5c\u7269\u6216\u79cd\u5b50.
-\u6b64\u5370\u8bb0\u6fc0\u6d3b\u65f6\u6bcf10\u79d2\u6d88\u8017600LP.
-\u63d2\u5165\u7ea6\u675f\u88c5\u7532\u65f6\u6548\u679c\u4e0d\u53d8,\u8303\u56f4\u51cf\u5f31\u4e3a\u4e34\u8fd1.");
+game.setLocalization("tc.research_page.HARVESTGODDESSSIGIL", "You have found yourself growing more and more bored of the mundane tasks you were otherwise used to. The last time you went to harvest your crops, the action took a couple of hours, but you came out with a new Sigil that outperforms your manual labor.<BR><BR>The Harvest Goddess Sigil immediately replants mature crops within a 3-block radius of the holder. The Harvest Goddess Sigil does not pick up dropped plants or seeds. Activating this Sigil costs 600 LP every 10 seconds while active. When used as an upgrade to a Bound Armor, this Sigil has the same effect.");
 mods.thaumcraft.Infusion.addRecipe("HARVESTGODDESSSIGIL", <AWWayofTime:growthSigil>, 
 [<BloodArsenal:bound_sickle>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>], 
 "herba 72, arbor 64, meto 8, messis 16, cognitio 24, praecantatio 32, alienis 16", <AWWayofTime:itemHarvestSigil>, 20);
@@ -1318,10 +1225,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFCOMPRESSION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFCOMPRESSION", "SIGILOFMAGNETISM", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFCOMPRESSION", true);
 mods.thaumcraft.Research.addPage("SIGILOFCOMPRESSION", "tc.research_page.SIGILOFCOMPRESSION");
-game.setLocalization("tc.research_page.SIGILOFCOMPRESSION", "\u538b\u7f29\u5370\u8bb0\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u5de5\u5177.
-\u53ef\u7528\u4e8e\u5c06\u4efb\u4f55\u53ef\u88ab\u538b\u7f29\u7684\u62fe\u53d6\u7269\u54c1\u538b\u7f29\u6210\u65b9\u5757\u5f62\u5f0f.
-\u9057\u61be\u7684\u662f\u5bf9GT\u7684\u952d\u65e0\u6548.
-\u6fc0\u6d3b\u6b64\u5370\u8bb0\u6bcf10\u79d2\u6d88\u8017250LP.");
+game.setLocalization("tc.research_page.SIGILOFCOMPRESSION", "There are many more mundane tasks you can simplify with Blood Magic. One of them is the compression of certain materials into blocks, which you managed to do with the Sigil of Compression.<BR><BR>This Sigil compresses any item picked-up into its block form, if possible, although this does not work for GregTech ingots or most modded materials. Activating this Sigil costs 250 LP every 10 seconds to continue working.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFCOMPRESSION", <AWWayofTime:demonicSlate>, 
 [<AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:32644>, <gregtech:gt.metaitem.01:32744>, <gregtech:gt.metaitem.01:32604>, <AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:32604>, <gregtech:gt.metaitem.01:32744>, <gregtech:gt.metaitem.01:32644>], 
 "metallum 32, potentia 24, machina 16, lucrum 16, superbia 8", <AWWayofTime:itemCompressionSigil>, 10);
@@ -1450,4 +1354,4 @@ mods.thaumcraft.Research.refreshResearchRecipe("RODBLOODWOODSTUFF");
 
 
 // --- Blood Altar
-<AWWayofTime:Altar>.displayName = "\u683c\u96f7\u7684\u8840\u4e4b\u796d\u575b";
+<AWWayofTime:Altar>.displayName = "Altar of GregoriusT's Blood";

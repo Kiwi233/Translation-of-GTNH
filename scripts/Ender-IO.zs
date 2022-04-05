@@ -456,6 +456,18 @@ recipes.remove(<EnderIO:itemLiquidConduit:1>);
 // --- Ender Fluid Conduit
 recipes.remove(<EnderIO:itemLiquidConduit:2>);
 
+// --- Crystalline Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:3>);
+
+// --- Crystalline Pink Slime Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:4>);
+
+// --- Melodic Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:5>);
+
+// --- Stellar Ender Fluid Conduit
+recipes.remove(<EnderIO:itemLiquidConduit:6>);
+
 // --- Item Conduit
 recipes.remove(<EnderIO:itemItemConduit>);
 
@@ -935,13 +947,13 @@ recipes.addShaped(<EnderIO:blockDarkSteelLadder>, [
 [DarkIronBars, Wrench, DarkIronBars]]);
 
 // --- Powered Light
-recipes.addShaped(<EnderIO:blockElectricLight>, [
+recipes.addShaped(<EnderIO:blockElectricLight> * 8, [
 [FQuartz, FQuartz, FQuartz],
 [SiliconPlate, LightBulp, SiliconPlate],
 [Circuit, Capacitor, Circuit]]);
 
 // --- Light
-recipes.addShaped(<EnderIO:blockElectricLight:2>, [
+recipes.addShaped(<EnderIO:blockElectricLight:2> * 16, [
 [FQuartz, FQuartz, FQuartz],
 [SiliconPlate, <ProjRed|Illumination:projectred.illumination.lamp>, SiliconPlate],
 [IronPlate, RedAlloyWire, IronPlate]]);
@@ -1169,23 +1181,23 @@ Assembler.addRecipe(<EnderIO:itemMaterial:5>, <minecraft:diamond>, <gregtech:gt.
 Assembler.addRecipe(<EnderIO:itemMaterial:6>, <minecraft:emerald>, <gregtech:gt.metaitem.01:9367> * 8, 600, 120);
 
 // --- Grinding Balls
-Assembler.addRecipe(<EnderIO:itemGrindingBall:0>, <gregtech:gt.metaitem.01:17365>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:1>, <gregtech:gt.metaitem.01:17366>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:2>, <gregtech:gt.metaitem.01:17367>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:3>, <gregtech:gt.metaitem.01:17381>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:4>, <gregtech:gt.metaitem.01:17369>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:5>, <gregtech:gt.metaitem.01:17378>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:6>, <gregtech:gt.metaitem.01:17364>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:7>, <gregtech:gt.metaitem.01:17379>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:8>, <gregtech:gt.metaitem.01:17401>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBall:9>, <gregtech:gt.metaitem.01:17401>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy>, <gregtech:gt.metaitem.01:17402>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:1>, <gregtech:gt.metaitem.01:17403>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:2>, <gregtech:gt.metaitem.01:17404>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:3>, <gregtech:gt.metaitem.01:17405>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:4>, <gregtech:gt.metaitem.01:17406>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:5>, <gregtech:gt.metaitem.01:17407>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
-Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:6>, <gregtech:gt.metaitem.01:17408>, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:0>, <gregtech:gt.metaitem.01:17365>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:1>, <gregtech:gt.metaitem.01:17366>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:2>, <gregtech:gt.metaitem.01:17367>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:3>, <gregtech:gt.metaitem.01:17381>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:4>, <gregtech:gt.metaitem.01:17369>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:5>, <gregtech:gt.metaitem.01:17378>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:6>, <gregtech:gt.metaitem.01:17364>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:7>, <gregtech:gt.metaitem.01:17379>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:8>, <gregtech:gt.metaitem.01:17401>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBall:9>, <gregtech:gt.metaitem.01:17401>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy>, <gregtech:gt.metaitem.01:17402>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:1>, <gregtech:gt.metaitem.01:17403>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:2>, <gregtech:gt.metaitem.01:17404>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:3>, <gregtech:gt.metaitem.01:17405>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:4>, <gregtech:gt.metaitem.01:17406>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:5>, <gregtech:gt.metaitem.01:17407>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemGrindingBallEndergy:6>, <gregtech:gt.metaitem.01:17408>, <gregtech:gt.integrated_circuit:5> * 0, 200, 64);
 
 // --- Weather Crystal
 Assembler.addRecipe(WCrystal, <dreamcraft:item.ManyullynCrystal>, <gregtech:gt.metaitem.01:9321> * 8, 200, 256);
@@ -1215,7 +1227,7 @@ Assembler.addRecipe(<EnderIO:blockElectricLight:1>, <EnderIO:blockElectricLight>
 Assembler.addRecipe(<EnderIO:blockElectricLight:3>, <EnderIO:blockElectricLight:2>, <minecraft:redstone_torch>, 100, 30);
 
 // --- Wireless Powered Light
-Assembler.addRecipe(<EnderIO:blockElectricLight:4>, <EnderIO:blockElectricLight>, EResonator, 200, 256);
+Assembler.addRecipe(<EnderIO:blockElectricLight:4> * 16, <EnderIO:blockElectricLight> * 16, EResonator, 200, 256);
 
 // --- Wireless Powered Light Inverted
 Assembler.addRecipe(<EnderIO:blockElectricLight:5>, <EnderIO:blockElectricLight:4>, <minecraft:redstone_torch>, 200, 256);
@@ -1272,7 +1284,7 @@ Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:6>, <gregtech:gt.blockmachi
 Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:7>, <gregtech:gt.blockmachines:1660>, <gregtech:gt.metaitem.01:17407>, <liquid:molten.epoxid> * 144, 100, 320);
 
 // --- Crystalline Energy Conduit
-Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:8>, <gregtech:gt.blockmachines:1700>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.epoxid> * 144, 100, 900);
+Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:8>, <gregtech:gt.blockmachines:1700>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.epoxid> * 144, 100, 960);
 
 // --- Crystalline Pink Slime Energy Conduit
 Assembler.addRecipe(<EnderIO:itemPowerConduitEndergy:9>, <gregtech:gt.blockmachines:1720>, <gregtech:gt.metaitem.01:17406>, <liquid:molten.polytetrafluoroethylene> * 144, 100, 1920);
@@ -1291,6 +1303,18 @@ Assembler.addRecipe(<EnderIO:itemLiquidConduit:1>, <gregtech:gt.blockmachines:51
 
 // --- Ender Fluid Conduit
 Assembler.addRecipe(<EnderIO:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5680>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 100, 480);
+
+// --- Crystalline Ender Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:3>, <gregtech:gt.blockmachines:5682>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.epoxid> * 144, 100, 960);
+
+// --- Crystalline Pink Slime Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:4>, <gregtech:gt.blockmachines:5682>, <gregtech:gt.metaitem.01:17406>, <liquid:molten.polytetrafluoroethylene> * 144, 100, 1920);
+
+// --- Melodic Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:5>, <gregtech:gt.blockmachines:5282>, <gregtech:gt.metaitem.01:17404>, <liquid:molten.polytetrafluoroethylene> * 144, 100, 7680);
+
+// --- Stellar Ender Fluid Conduit
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:6>, <gregtech:gt.blockmachines:5282>, <gregtech:gt.metaitem.01:17405>, <liquid:molten.polybenzimidazole> * 144, 100, 30720);
 
 // --- Item Conduit
 Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 100, 120);

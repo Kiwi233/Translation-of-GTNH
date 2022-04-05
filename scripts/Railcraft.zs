@@ -46,7 +46,6 @@ val IronIngot = <ore:ingotIron>;
 val RedDye = <ore:dyeRed>;
 val HPBoiler = <gregtech:gt.blockmachines:101>;
 val HPBoilerTank = <Railcraft:machine.beta:4>;
-val IronTankGauge = <Railcraft:machine.beta:1>;
 val SteelMCasing = <gregtech:gt.blockcasings2>;
 val ObsidianBlock = <ore:stoneObsidian>;
 
@@ -551,48 +550,6 @@ recipes.remove(<Railcraft:frame>);
 
 // --- Steel Shears
 recipes.remove(<Railcraft:tool.steel.shears>);
-
-// --- Steel Ingot
-mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);
-
-// --- Steel Block
-mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube:2>);
-
-// --- Steel Nuggets
-mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:nugget:1>);
-
-// --- Meteoric Iron
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11340>);
-
-// --- Meteoric Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11341>);
-
-// --- GT Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11305>);
-
-// --- HSLA Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11322>);
-
-// --- Magnetic Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11355>);
-
-// --- Electric Steel
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11365>);
-
-// --- Redstonealloy
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11381>);
-
-// --- Soularium
-mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11379>);
-
-// --- Californium Dust
-mods.railcraft.BlastFurnace.removeRecipe(<bartworks:gt.bwMetaGenerateddust:39>);
-
-// --- Crystalline Pink Slime Ingot
-//mods.railcraft.BlastFurnace.removeRecipe(<gregtech:gt.metaitem.01:11406>);
-
-// --- All Recipes
-mods.railcraft.RockCrusher.removeRecipe(<*>);
 
 // --- Thaumic Crowbar
 mods.thaumcraft.Arcane.removeRecipe(<Railcraft:tool.crowbar.magic>);
@@ -1551,13 +1508,6 @@ Assembler.addRecipe(<Railcraft:tool.surveyor>, [<Railcraft:tool.signal.tuner>, <
 
 
 
-// --- Blast Furnace recipes
-
-
-// --- Coal Coke Block
-mods.railcraft.BlastFurnace.addRecipe(<minecraft:coal_block>, false, false, 180, <Railcraft:cube>);
-
-
 // --- Centrifuge Recipes ---
 
 
@@ -1759,10 +1709,6 @@ mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 2000, [
 // --- Nei Rename ---
 
 
-
-// --- Advanced Coke Oven Bricks
-<Railcraft:machine.alpha:12>.displayName = "\u9ad8\u7ea7\u7126\u7089\u7816\u5757";
-
 // --- Lapatron Loader Upgrade
 <Railcraft:upgrade.lapotron>.displayName = "\u5170\u6ce2\u987f\u88c5\u8f7d\u5347\u7ea7\u63d2\u4ef6";
 
@@ -1813,11 +1759,3 @@ mods.thaumcraft.Research.refreshResearchRecipe("RC_Crowbar_Void");
 
 // --- Tab Removal
 mods.thaumcraft.Research.removeTab("RAILCRAFT");
-
-
-
-// --- Stcksize
-
-
-// --- Firestone
-<Railcraft:firestone.raw>.maxStackSize=9;
