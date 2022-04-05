@@ -37,16 +37,16 @@ game.setLocalization("tc.research_text.BLOODALTAR", "[BM]\u9ad8\u6602\u7684\u4ee
 mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.1");
 mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.2");
 mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.3");
-game.setLocalization("tc.research_page.BLOODALTAR.1", "In your travels, you have found yourself facing many kinds of strange beings, but there are few who can bring forth this unsettling feel, this immense doubt.<BR><BR>The vision is still as clear as it was at that moment, when you first laid eyes upon a Blood Mage. These individuals, hardly referred to as people, seemed to worship the energies and forces that spilled out from pain and suffering. Where a thaumaturge seeks control, a mage in red seeks entropy, the destruction of the natural to build the unnatural. Yet, the rare result of their success is a true wonder of magic.");
-game.setLocalization("tc.research_page.BLOODALTAR.2", "Dark magic is nothing new to you, or most mages who have ever dabbled in thaumaturgy, but these... individuals possessed something more than simple madness. In fact, they seemed to lack it altogether.<BR><BR>This last time, the sight of the Blood Mage was accompanied by an altar, made of stone and blood, where the victim's sacrifices became the owner's power. Sometimes, the victim was a monster or an animal, but the mage also harmed themselves whenever there was no other sacrifice to make. You would have been next in the chopping block, but whoever they were recognized your abilities and showed you the rituals of their art, the ways of Blood Magic.");
-game.setLocalization("tc.research_page.BLOODALTAR.3", "Through it all, there was a slight emptiness in their eyes, something that warned you to stay away, yet dragged in your endless curiosity... only a mad person would walk this path.<BR><BR>Regardless of that, you have decided to go forth. You have seen the power, and you will not retreat from it, nor will you ignore its existence. The Thaumonomicon speaks to you in tongues you barely understand, at times, but you have a feeling that it's all going to be magnificent.");
+game.setLocalization("tc.research_page.BLOODALTAR.1", "在你的旅途中,已经面对过各种各样奇奇怪怪的生物了,但很少有人能带来这种不安的感觉,也让你抱有极大的怀疑.<BR><BR>你依然清晰地记得第一次看到血魔法师的情形. 这些人...几乎不被称为人,他们崇拜由痛苦与苦难带来的能量与力量.在神秘使追求秩序与控制时,这些穿着红袍的血法师追求着混沌与破坏,破坏自然,构建怪诞.不过,他们偶尔的成果却是真正的魔法奇迹.");
+game.setLocalization("tc.research_page.BLOODALTAR.2", "黑魔法对你或者大多数曾经涉足神秘学的法师来说都不是什么新鲜事,但这些...人,拥有的不仅仅是简单的疯狂.事实上他们似乎觉得还不够疯狂.<BR><BR>最后,血法师的目光落到了一个用石头与鲜血铸就的祭坛上,他们可以在此将受害者的牺牲转化为自己的力量.有时,受害者是怪物或动物,但在没有其他牺牲者时,血法师也会伤害自己.你本会是砧板上的下一个受害者,不过他们认可了你的能力,并向你展示了他们的艺术仪式,血魔法之路.");
+game.setLocalization("tc.research_page.BLOODALTAR.3", "自始至终,他们的眼中都带着一丝淡淡的空虚,这警告你远离他们,但又勾起了你无尽的好奇...只有疯子才会走这条路.<BR><BR>不管怎样,你已经决定出发了.你已经看到了这种力量,就不会退缩,也不会忽视它的存在.有时,魔导手册会以你几乎听不懂的语言在你耳边呢喃,但你还是有一种感觉,这一切都将是美好的.");
 mods.thaumcraft.Arcane.addShaped("BLOODALTAR", <AWWayofTime:Altar>, "aer 20, ignis 20, terra 20, aqua 20, ordo 20, perditio 20", [
 [<Thaumcraft:blockCosmeticSolid:7>, <witchery:ingredient:10>, <Thaumcraft:blockCosmeticSolid:7>],
 [<ExtraUtilities:cobblestone_compressed:1>, <Thaumcraft:blockMetalDevice>, <ExtraUtilities:cobblestone_compressed:1>],
 [<EnderIO:itemMaterial:5>, <Thaumcraft:blockStoneDevice>, <EnderIO:itemMaterial:5>]]);
 mods.thaumcraft.Research.addArcanePage("BLOODALTAR", <AWWayofTime:Altar>);
 mods.thaumcraft.Research.addPage("BLOODALTAR", "tc.research_page.BLOODALTAR.4");
-game.setLocalization("tc.research_page.BLOODALTAR.4", "This altar serves as the first reservoir for your sacrifices, although the first drops of blood you gave it seemed to disappear into nothing. It can hold a maximum of 10,000 Life Essence (LP), but it has a 1,000 LP buffer that needs to be satisfied before it can be used for crafting.<BR><BR>According to what you've seen, this single altar can be expanded by building a structure around it, in a similar way to a Beacon, with 6 tiers of construction available. The structure stretches below, like a pyramid, with specific blocks that might or might not improve the Blood Altar. The runes written on some of them looked eerie, though.");
+game.setLocalization("tc.research_page.BLOODALTAR.4", "虽然你献给这座祭坛的第一滴血似乎消失得无影无踪,不过它确实可以作为你牺牲品的第一个缓存池.祭坛最多可以容纳10,000生命本质(LP),不过在你开始合成前,还得先填满一个1,000-LP的缓存.<BR><BR>如你所见,单独的祭坛容量并不大,不过可以在其周围建造一种类似金字塔的结构对其进行扩展,一共有6阶可用的扩展结构.扩展结构由特定方块构成,视方块种类可以为祭坛带来不同方面的提升(也有无功能的结构方块),一路向下延伸.虽然结构方块上的符文看起来很怪异,不过谁在乎呢.");
 mods.thaumcraft.Warp.addToResearch("BLOODALTAR", 2);
 
 // --- Life Infuser
@@ -58,8 +58,8 @@ mods.thaumcraft.Research.addPrereq("LIFEINFUSER", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("LIFEINFUSER", false);
 mods.thaumcraft.Research.addPage("LIFEINFUSER", "tc.research_page.LIFEINFUSER.1");
 mods.thaumcraft.Research.addPage("LIFEINFUSER", "tc.research_page.LIFEINFUSER.2");
-game.setLocalization("tc.research_page.LIFEINFUSER.1", "Slowly, you begin to understand the extent of this bloody conjecture. You have found a way to reconstruct physical objects, such as tools, by imbuing them with the energy of life you have been gathering, a Life Infuser.<BR><BR>It takes in life essence, and gradually repairs a tool using 500 LE per damage point repaired. Once an orb is inserted into the Life Essence Materializer, it will suck out LP from the orb's owner converting it to Life Essence which can then be pumped out, at a 3:2 ratio of LP:LE");
-game.setLocalization("tc.research_page.LIFEINFUSER.2", "Unfortunately, your early prototypes crumbled to pieces when trying to channel the essence at a strong enough rate. It appears you will need better building blocks for this device, something beyond what the basic Altar can create, or its first tier upgrade. Until then, you risk destroying your tools, or yourself, instead of repairing them.");
+game.setLocalization("tc.research_page.LIFEINFUSER.1", "慢慢地,你开始理解这些血腥的臆想.你找到了一种重组物质对象(例如工具)的方法--只需要将你一直在收集的生命本质注入其中.据此原理,你发明了这台生命注入器.<BR><BR>为其提供LP,生命注入器就可以逐渐修复工具,每修复1点耐久需要消耗500LP.将气血宝珠插入生命能量具现器中,它就会从气血宝珠主人的灵魂网络中抽取LP转化成可被抽出的液态LP(转化效率3:2)");
+game.setLocalization("tc.research_page.LIFEINFUSER.2", "很不幸,在你试图提升引导LP的速度时,你的早期原型崩溃了.看来你得为这台设备提供更好的构建方块了,基础的祭坛已无法满足需求,要么安装功能性构建方块,要么升级祭坛. 在完成祭坛的改造或升级之前,贸然用它来进行修复,会有损毁工具的风险.");
 mods.thaumcraft.Infusion.addRecipe("LIFEINFUSER", <AWWayofTime:Altar>,
 [<minecraft:nether_star>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>, <AWWayofTime:imbuedSlate>, <TConstruct:heavyPlate:251>, <TConstruct:heavyPlate:251>, <AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.02:22977>, <gregtech:gt.metaitem.02:22977>], 
 "victus 32, alienis 32, praecantatio 24, auram 16, fames 8, terra 8", <BloodArsenal:life_infuser>, 5);
@@ -100,8 +100,8 @@ mods.thaumcraft.Research.addPrereq("SACRIFICIALKNIFE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("SACRIFICIALKNIFE", false);
 mods.thaumcraft.Research.addPage("SACRIFICIALKNIFE", "tc.research_page.SACRIFICIALKNIFE.1");
 mods.thaumcraft.Research.addPage("SACRIFICIALKNIFE", "tc.research_page.SACRIFICIALKNIFE.2");
-game.setLocalization("tc.research_page.SACRIFICIALKNIFE.1", "Simply using drops of blood to feed the Altar did not seem to get you anywhere. To generate the LP you need through sacrifice, it would be best to create a tool, enchanted for the job. The Sacrificial Knife is such a tool, a way to properly generate LP in the Blood Altar.<BR><BR>The Sacrificial Knife is used as a self-sacrifice method, allowing the user to convert their health points into usable Life Essence. To take health from other creatures in return for LP, sacrifice methods such as the Dagger of Sacrifice must be used.");
-game.setLocalization("tc.research_page.SACRIFICIALKNIFE.2", "If the user of the knife is a Vampire, their blood will be drained rather than their health, but a human will have to lose and regain health to keep the Altar fed. Whichever form of regeneration you might have acquired, this is the time to use, you repeat to yourself. Shudders of anxiety shake your core, to think how many times you will have to stab and slice your skin to continue...<BR><BR>Within your recollections, you remember seeing novice mages going through this process, but the veterans seemed to have other ways. Somehow, you must discover them.");
+game.setLocalization("tc.research_page.SACRIFICIALKNIFE.1", "简单地用血滴喂祭坛看起来并没有什么收益.你需要通过牺牲才能获得LP,所以最好造把工具专司其职.这把工具就是牺牲匕首了,在血之祭坛边使用即可在祭坛中生成LP.<BR><BR>牺牲匕首是一种自我牺牲,可将使用者的生命值转化为可用的LP.想要把其他生物的生命值转化为LP,你需要另一种工具名为献祭刀.");
+game.setLocalization("tc.research_page.SACRIFICIALKNIFE.2", "如果吸血鬼使用牺牲匕首,被抽取的就不是生命值而是吸血鬼的血液存储条,不过总要有人必须损失生命值,再恢复生命值才能供养祭坛.不管你之前获得了哪些恢复手段,现在就是派用场的时候了.想到继续研究血魔法还不知需要割伤自己多少次,焦虑的颤抖动摇了你的信念...<BR><BR>印象里,似乎新手血法师都经历了这个过程,而那些资深者好像有别的办法.终有一天,你会发现的.");
 mods.thaumcraft.Arcane.addShaped("SACRIFICIALKNIFE", <AWWayofTime:sacrificialKnife>, "aer 10, terra 20, ordo 10, perditio 20", [
 [<ore:screwSteel>, <TConstruct:strangeFood:1>, <ore:craftingToolScrewdriver>],
 [<ore:plateAluminium>, <battlegear2:dagger.diamond>, <TConstruct:strangeFood:1>],
@@ -117,8 +117,8 @@ mods.thaumcraft.Research.addPrereq("ALCHEMICCHEMSTRYSET", "SACRIFICIALKNIFE", fa
 mods.thaumcraft.Research.setConcealed("ALCHEMICCHEMSTRYSET", true);
 mods.thaumcraft.Research.addPage("ALCHEMICCHEMSTRYSET", "tc.research_page.ALCHEMICCHEMSTRYSET.1");
 mods.thaumcraft.Research.addPage("ALCHEMICCHEMSTRYSET", "tc.research_page.ALCHEMICCHEMSTRYSET.2");
-game.setLocalization("tc.research_page.ALCHEMICCHEMSTRYSET.1", "It was not a mirage, nor a false memory. The Blood Mages from your past travels worked with flasks and vials, as if they were alchemists, but they did not work on a regular brewing stand. Instead, they operated on this.<BR><BR>The Alchemic Chemistry Set is the foundation of another branch of Blood Magic, a place to brew strange, new potions and concotions, sure to be used in other crafting attempts. Along with many other inputs, you will need LP to actually work with this block.");
-game.setLocalization("tc.research_page.ALCHEMICCHEMSTRYSET.2", "You remember seeing this stand being put together with some strange, dark plates. You believe that the lone Altar you have built is good enough to imbue these plates with enough energy to sustain your soon-to-be alchemical future. Perhaps it will ease the stinging, although that has been softening over the days by itself.<BR><BR>The repertoire of a Blood Mage involves some strange substances, vaguely reminding you of a witch's brewing. Looking at this construct, you believe this is where those are made.");
+game.setLocalization("tc.research_page.ALCHEMICCHEMSTRYSET.1", "这不是海市蜃楼,也不是记忆错乱.在你之前的旅途中,遇到的血法师使用的同样是些瓶瓶罐罐,与炼金师没什么两样,不过他们用的不是普通的酿造台,还要加工一下.<BR><BR>炼金术台是血魔法另一分支的基础,用于酿造特有的新药剂、药水,当然还能用于实验其他合成.除了正常提供各种原料外,这个单方块设备还需要LP才能真正运行起来.");
+game.setLocalization("tc.research_page.ALCHEMICCHEMSTRYSET.2", "你记得曾看到过酿造台与一些奇怪的深色石板在一起进行某种加工.你相信你建造的唯一祭坛足以为这些石板注入充足的能量,为你血魔法炼金学的研究铺平道路.虽然刺伤自己的疼痛感已经随着时间的推移而逐渐减弱,不过也许炼金术台能进一步减轻这种刺痛感.<BR><BR>血法师的各种分支中包含了一些奇怪的东西,隐约让你想起巫术的酿造学.看着炼金术台,你相信这里就是制造它们的地方.");
 mods.thaumcraft.Infusion.addRecipe("ALCHEMICCHEMSTRYSET", <minecraft:brewing_stand>,
 [<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:blankSlate>], 
 "fabrico 24, instrumentum 24, praecantatio 18, victus 12, ignis 12", <AWWayofTime:blockWritingTable>, 5);
@@ -167,8 +167,8 @@ mods.thaumcraft.Research.addPrereq("DIVINATIONSIGIL", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("DIVINATIONSIGIL", true);
 mods.thaumcraft.Research.addPage("DIVINATIONSIGIL", "tc.research_page.DIVINATIONSIGIL.1");
 mods.thaumcraft.Research.addPage("DIVINATIONSIGIL", "tc.research_page.DIVINATIONSIGIL.2");
-game.setLocalization("tc.research_page.DIVINATIONSIGIL.1", "You can see nothing, you are blind to the truth. This is what you think, when you look at the Blood Altar and see nothing but the essential remains of your work. As a mage, you stand in the exact same spot as you did when you first saw a node with the naked eye, in wonder at the mysterious figure in front of your incapable sight.<BR><BR>To overcome this obstacle, and to better understand the reality that you had found yourself facing, you built a Thaumometer. Here, you will have to gain a new kind of vision as well, in order to proceed onwards.");
-game.setLocalization("tc.research_page.DIVINATIONSIGIL.2", "You have found a special kind of lens to see through the Altar's mysteries. This lens takes the form of a Sigil, the Divination Sigil, which is used to check important details of both the Blood Altar and the player's network.<BR><BR>While holding the Divination Sigil, there are two possible uses that you can choose from. When aiming at a Blood Altar and right clicking, a chat printout will display the total essence stored within the altar, the current tier, and its maximum capacity. When right clicking anywhere else, a chat printout will display the total essence stored within the player's personal network.");
+game.setLocalization("tc.research_page.DIVINATIONSIGIL.1", "你的眼前有片迷雾,让你不得见真实.当你凝视血之祭坛,却只能看到那浅浅一汪血水浸着正在合成的物品,对详细数据一无所知的你如是想道.你想起了自己初涉神秘学的时候,第一次看到灵气节点,为自己模糊视线里的神秘影子而惊叹连连.现在作为血法师又遇到了这似曾相识的情形.<BR><BR>为了扫除迷雾,为了更好理解自己所面的真实,你研发了魔导透镜.而在血魔法,你也需要获得全新的视野,才能继续前进.");
+game.setLocalization("tc.research_page.DIVINATIONSIGIL.2", "你又找到了一种特殊的透镜,可以看穿祭坛的奥秘.为了方便使用,你把这种透镜封装入印记之中,制造出了占卜印记,用于查看血之祭坛和玩家LP网络的重要数据.<BR><BR>手持占卜印记时,玩家有两种使用方式.瞄准血之祭坛并右击时,聊天输出将显示存储在祭坛内的总LP、祭坛当前层级及其最大容量.而在任何其他地方右击时,聊天输出将显示存储在玩家个人网络中的总LP.");
 mods.thaumcraft.Infusion.addRecipe("DIVINATIONSIGIL", <AWWayofTime:blankSlate>, 
 [<Thaumcraft:ItemResource:1>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <Thaumcraft:ItemResource:1>, <TConstruct:GlassPane>, <TConstruct:GlassPane>, <TConstruct:GlassPane>], 
 "vitreus 24, terra 18, praecantatio 12, instrumentum 6, metallum 4", <AWWayofTime:divinationSigil>, 3);
@@ -183,8 +183,8 @@ mods.thaumcraft.Research.addPrereq("SPEEDRUNE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("SPEEDRUNE", true);
 mods.thaumcraft.Research.addPage("SPEEDRUNE", "tc.research_page.SPEEDRUNE.1");
 mods.thaumcraft.Research.addPage("SPEEDRUNE", "tc.research_page.SPEEDRUNE.2");
-game.setLocalization("tc.research_page.SPEEDRUNE.1", "The capacity of the Blood Altar seems to directly depend on the structure built around it, and so do your possibilities as a Blood Mage. You have seen some of these structures in the past, put together with black stones similar to those used in Infusion.<BR><BR>You have also, however, seen strange inscriptions on some of those stones, symbols that seemed to give some kind of meaning to the ritualistic pyramid where the Altar stood. As you attempted to engrave markings into this stone, you too have realized what it all means.");
-game.setLocalization("tc.research_page.SPEEDRUNE.2", "The first upgrade is nothing more than a 3x3 square under the Altar. You can use simple blocks, the so called Blank Runes, but it you have managed to improve upon them through trial and error, mixing the correct items and incantations through Infusion.<BR><BR>The first success, surely of many, that you have found yourself facing is the Speed Rune, which accelerates the processing speed of the Altar by 25%, and can replace any other Rune in the structure. The higher the tier, the more Runes you can fit in the structure.");
+game.setLocalization("tc.research_page.SPEEDRUNE.1", "血之祭坛的容量似乎直接取决于围绕它建造的扩展结构,而你作为血法师可以走多远也基于此.你在过去见过一些这样的结构,好像是将之前用过的黑色石板组合而成的.<BR><BR>不过你还记得,看到的那些石头上有这奇怪的符文,这些带有符文的石头似乎赋予了其所在祭坛某种意义.当你试图在这块石头上刻下印记时,你也已经意识到这一切意味着什么.");
+game.setLocalization("tc.research_page.SPEEDRUNE.2", "第一次升级无非是在祭坛下方一层扩展3x3方块.你可以使用简单的占位方块,即所谓的气血符文,不过你已经通过反复的实验发现,可以通过注魔,将正确的物品与咒符关注其中,对其进行改进升级.<BR><BR>在许多尝试与实验中,第一个成功的是速度符文,它可以将祭坛的处理速度提高25%,且可与祭坛中的任意其他符文互换使用.祭坛等级越高,所容纳的符文就越多.");
 mods.thaumcraft.Infusion.addRecipe("SPEEDRUNE", <AWWayofTime:AlchemicalWizardrybloodRune>,
 [<AWWayofTime:aether>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:aether>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>], 
 "motus 24, volatus 24, potentia 18, aer 12, fames 4", <AWWayofTime:speedRune>, 4);
@@ -277,7 +277,7 @@ mods.thaumcraft.Research.addPrereq("WATERSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("WATERSIGIL", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("WATERSIGIL", true);
 mods.thaumcraft.Research.addPage("WATERSIGIL", "tc.research_page.WATERSIGIL");
-game.setLocalization("tc.research_page.WATERSIGIL", "By sacrificing mortal energy, you can reconstruct the unnatural. When tampering with sigils, you found water dripping endlessly from a single bucket. That is the Water Sigil, an alternative to said water buckets, allowing for the creation of water source blocks at the cost of 200 LP per source block.<BR><BR>This essence will be drawn from the network of whoever the sigil is bound to. As you work with this Sigil, you understand it has further potential, but only if combined with something else...");
+game.setLocalization("tc.research_page.WATERSIGIL", "通过献祭凡人的能量,你获得了重构怪诞的力量.当你信笔在桶上实验符文时,偶然发现某种符文可以使桶中源源不断涌出清水.于是你又研发了水之印记,以替代笨重的水桶方便使用,消耗200LP即可生成一格水.<BR><BR>消耗的LP将从此印记绑定玩家的灵魂网络中抽取.当进一步研究此印记时,你发现它还有潜力未被挖掘出来,应该还可以与其他某种东西结合使用...");
 mods.thaumcraft.Infusion.addRecipe("WATERSIGIL", <AWWayofTime:reinforcedSlate>, 
 [<witchery:divinerwater>, <IC2:itemCellEmpty:1>, <AWWayofTime:aquasalus>, <AWWayofTime:aquasalus>, <IC2:itemCellEmpty:1>, <IC2:itemCellEmpty:1>, <AWWayofTime:aquasalus>, <AWWayofTime:aquasalus>, <IC2:itemCellEmpty:1>], 
 "aqua 40, terra 32, praecantatio 24, instrumentum 16, metallum 8", <AWWayofTime:waterSigil>, 5);
@@ -292,7 +292,7 @@ mods.thaumcraft.Research.addPrereq("LAVASIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("LAVASIGIL", "SIGILOFTHEBLOODLAMP", false);
 mods.thaumcraft.Research.setConcealed("LAVASIGIL", true);
 mods.thaumcraft.Research.addPage("LAVASIGIL", "tc.research_page.LAVASIGIL");
-game.setLocalization("tc.research_page.LAVASIGIL", "By sacrificing mortal energy, you can reconstruct the unnatural. Your newfound lack of carefulness almost cost you a hand, as the lava bucket you so carefully brought home began to spill out, endlessly pouring the hot fluid until you stopped feeding it energy. A Sigil related to fire that you had been preparing suddenly took on a new role.<BR><BR>This Lava Sigil allows for the creation of lava source blocks at the cost of 2,000 LP per source block, from your network. You feel as if this can make you more resistant to fire, somehow...");
+game.setLocalization("tc.research_page.LAVASIGIL", "通过献祭凡人的能量,你获得了重构怪诞的力量.你的新发明差点让你搭进去一只手--你小心翼翼地带回家的熔岩桶开始溢出,没完没了地倒出滚烫的液体,幸好你及时切断了能量供给.你一直在研发与火相关的印记,结果它突然扮演了一个你始料未及的新角色.<BR><BR>熔岩印记可以从绑定者的灵魂网络中抽取2,000LP生成一格岩浆.不知何故,你感觉它能提高自己的抗火属性...");
 mods.thaumcraft.Infusion.addRecipe("LAVASIGIL", <AWWayofTime:imbuedSlate>, 
 [<witchery:divinerlava>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>, <AWWayofTime:lavaCrystal>, <IC2:itemCellEmpty:2>, <AWWayofTime:incendium>, <AWWayofTime:incendium>, <IC2:itemCellEmpty:2>], 
 "ignis 64, terra 40, praecantatio 32, instrumentum 24, metallum 16", <AWWayofTime:lavaSigil>, 7);
@@ -307,7 +307,7 @@ mods.thaumcraft.Research.addPrereq("EMPTYCORE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("EMPTYCORE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("EMPTYCORE", true);
 mods.thaumcraft.Research.addPage("EMPTYCORE", "tc.research_page.EMPTYCORE");
-game.setLocalization("tc.research_page.EMPTYCORE", "You have sought to create building blocks for more advanced magic, to grasp at the true potential of this field. The Slates have proven useful, but they can only accept LP and little else.<BR><BR>Instead, an Empty Core must be used to contain other kinds of magical artifacts, with the use of an alchemical Catalyst. Without said catalyst, the new materials and energies you have found yourself embracing will never mix together. From here, it should be easy to put together new, more complex Cores.");
+game.setLocalization("tc.research_page.EMPTYCORE", "你试图将更高级的魔法知识运用到结构方块中,以开发出此领域真正的潜力.各种石板已被证实是有效的,但它们除了LP,基本无法接受其他材料.<BR><BR>与之相反,空白核心必须容纳其他魔法材料,再配合相应炼金粉末作为催化剂,才能制成各种功能性核心.如果没有上述催化剂,那么这些材料与能量就无论如何都无法成功混合.自从发现催化剂之后,研发新的、更复杂的核心难度应该会大大降低.");
 mods.thaumcraft.Arcane.addShaped("EMPTYCORE", <AWWayofTime:bloodMagicBaseItems:1>, "aer 15, ignis 15, terra 15, aqua 15, ordo 15, perditio 15", [
 [<Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.metaitem.01:17351>, <Thaumcraft:blockCosmeticOpaque:2>],
 [<gregtech:gt.metaitem.01:17306>, <AWWayofTime:simpleCatalyst>, <gregtech:gt.metaitem.01:17306>],
@@ -324,7 +324,7 @@ mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "LAVACRYSTAL", false);
 mods.thaumcraft.Research.addPrereq("BMLAVACRYSTAL", "WARDEDARCANA", false);
 mods.thaumcraft.Research.setConcealed("BMLAVACRYSTAL", true);
 mods.thaumcraft.Research.addPage("BMLAVACRYSTAL", "tc.research_page.BMLAVACRYSTAL");
-game.setLocalization("tc.research_page.BMLAVACRYSTAL", "The power from within is now the power to fuel the world. By infusing an Empty Core with an assortment of specific items, you have built the Lava Crystal, a replacement fuel source in furnaces and engines.<BR><BR>Rather than losing durability, the crystal drains 25 Life Essence from your network per operation. In order to use the Lava Crystal, it must first be bound to you. To do this, right click while holding the crystal. Once bound, it will begin to function as a fuel source.");
+game.setLocalization("tc.research_page.BMLAVACRYSTAL", "目前整个世界的主要能源基本都是自内而生的能量(内能).将一些特定物品通过注魔合成到空白核心中,你制成了熔岩晶体,可作为燃料为熔炉和引擎供能.<BR><BR>熔岩晶体不会损失耐久度,每次运行会从绑定者的灵魂网络中抽取25LP,所以在使用之前必须先进行绑定.绑定方法也很简单,只需手持晶体时右键即可绑定自己.");
 mods.thaumcraft.Infusion.addRecipe("BMLAVACRYSTAL", <AWWayofTime:bloodMagicBaseItems:1>, 
 [<TConstruct:materials:7>, <Thaumcraft:blockCosmeticOpaque:2>, <gregtech:gt.metaitem.02:29500>, <Thaumcraft:blockCosmeticOpaque:2>], 
 "ignis 24, terra 18, praecantatio 18, infernus 6, aer 6", <AWWayofTime:lavaCrystal>, 4);
@@ -338,7 +338,7 @@ mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNESACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESACRIFICE", true);
 mods.thaumcraft.Research.addPage("RUNESACRIFICE", "tc.research_page.RUNESACRIFICE");
-game.setLocalization("tc.research_page.RUNESACRIFICE", "Through careful experimentation and planning, you have managed to make more out of every creature you sacrifice to the altar. With the Rune of Sacrifice, the Altar will have the total amount of LP gained by sacrificing mobs increased by 12%, with the Dagger of Sacrifice, for each rune that you add into the Altar's structure.<BR><BR>You are as of yet unsure if you are drawing more blood from your enemies, but their deaths have become meaningless at this point. Who would care about these creatures?");
+game.setLocalization("tc.research_page.RUNESACRIFICE", "经过仔细的实验与周密的计划,你正设法从在祭坛上献祭的生物身上获取更多收益.历经多次实验,你终于研发出了献祭符文,安装到祭坛后,每块献祭符文可以提升12%使用献祭刀杀害生物所获得的LP总量.<BR><BR>虽然你还不确定是否可以从敌人身上吸取更多鲜血,不过这一点毫无意义,他们的死亡已经足够.谁又会在乎这些生物呢?");
 mods.thaumcraft.Infusion.addRecipe("RUNESACRIFICE", <BloodArsenal:blood_stone:1>, 
 [<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:incendium>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:incendium>, <AWWayofTime:imbuedSlate>], 
 "fames 24, infernus 24, potentia 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSacrifice>, 5);
@@ -352,7 +352,7 @@ mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNESELFSACRIFICE", "SPEEDRUNE", false);
 mods.thaumcraft.Research.setConcealed("RUNESELFSACRIFICE", true);
 mods.thaumcraft.Research.addPage("RUNESELFSACRIFICE", "tc.research_page.RUNESELFSACRIFICE");
-game.setLocalization("tc.research_page.RUNESELFSACRIFICE", "Ever since you began in this bloody journey, you have felt your personal sacrifices hurting you less and less, sapping away very little if any of your vigor. Through it, you have discovered the correct rune to boost the efficiency of those sacrifices, the Rune of Sacrifice. This block will increase the total amount of LP gained by using a Sacrificial Dagger by 12%, for each rune that you add into the Altar's structure.<BR><BR>You can tell the Altar is filling faster, but it seems to give you no joy.");
+game.setLocalization("tc.research_page.RUNESELFSACRIFICE", "自从你走上这血腥的旅程后,你感觉刺伤自己已经越来越麻木了,牺牲所得也越来越杯水车薪.为了解决这一点,你研发出了牺牲符文,顾名思义它可以提升牺牲效率,安装到祭坛后,每块牺牲符文可以提升12%使用牺牲匕首所获得的LP总量.<BR><BR>你能看出祭坛的填充速度变快了,但总感觉还是少了点什么.");
 mods.thaumcraft.Infusion.addRecipe("RUNESELFSACRIFICE", <BloodArsenal:blood_stone:1>, 
 [<AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:tennebrae>, <AWWayofTime:imbuedSlate>, <AWWayofTime:sanctus>, <AWWayofTime:imbuedSlate>], 
 "fames 24, infernus 24, lucrum 18, praecantatio 12, terra 4", <AWWayofTime:runeOfSelfSacrifice>, 5);
@@ -366,7 +366,7 @@ mods.thaumcraft.Research.addPrereq("AIRSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("AIRSIGIL", "LAVASIGIL", false);
 mods.thaumcraft.Research.setConcealed("AIRSIGIL", true);
 mods.thaumcraft.Research.addPage("AIRSIGIL", "tc.research_page.AIRSIGIL");
-game.setLocalization("tc.research_page.AIRSIGIL", "Through this journey, you have learned that carefulness often delays progress. You were afraid of using this power on yourself, but these fears are now gone, replaced by a strange rush of excitement and a hint of queasiness. Today, you have learned how to fly.<BR><BR>Using this Air Sigil, you are granted access to a basic method of flight, at the cost of LP. Upon right clicking with the Air Sigil, you can launch yourself in the direction you are facing at the cost of 50 LP per click.  However, you are still vulnerable to fall damage without a form of protection.");
+game.setLocalization("tc.research_page.AIRSIGIL", "慢慢地你意识到,谨慎往往会拖延进度.你曾对这种力量感到恐惧,但现在已经烟消云散,取而代之的是种带有一丝不安的奇怪兴奋感.今天,你学会了如何飞行.<BR><BR>右键使用空气印记,即可以消耗LP为代价,将自己向面朝的方向推出,每次点击消耗50LP.但请注意,如果没有任何形式的保护(如元素印记),使用者仍然会受到坠落伤害.");
 mods.thaumcraft.Infusion.addRecipe("AIRSIGIL", <AWWayofTime:demonicSlate>, 
 [<minecraft:ghast_tear>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <minecraft:ghast_tear>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>, <gregtech:gt.metaitem.01:30004>, <AWWayofTime:aether>], 
 "volatus 64, aer 48, motus 32, praecantatio 24, iter 18, potentia 12, cognitio 6", <AWWayofTime:airSigil>, 9);
@@ -381,7 +381,7 @@ mods.thaumcraft.Research.addPrereq("FASTERMINING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FASTERMINING", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("FASTERMINING", true);
 mods.thaumcraft.Research.addPage("FASTERMINING", "tc.research_page.FASTERMINING");
-game.setLocalization("tc.research_page.FASTERMINING", "How strange. When you try to apply Life Essence back to yourself, it does more than regenerate your body, it facilitates and accelerates your actions. The Sigil of the Fast Miner, as an example, takes advantage of this boost by granting the user Haste II at the cost of Life Essence (LP).<BR><BR>Upon activating the Sigil of the Fast Miner, 100 LP will be consumed from your network to grant the buff, and once again every 10 seconds. Your mining speed will be greatly accelerated while the Sigil is active.");
+game.setLocalization("tc.research_page.FASTERMINING", "很奇怪的是,在尝试将LP施用自身后,你发现它不仅可以带来恢复效果,而且还能促进、加速你的行动.基于这个原理,你研发了速掘印记加以利用,消耗LP赋予使用者急迫II效果.<BR><BR>激活速掘印记后,它将从绑定者的灵魂网络中抽取100LP赋予buff,此后每10秒消耗同样数量的LP维持buff.有了这种印记,你的挖掘效率一定会大大提升.");
 mods.thaumcraft.Infusion.addRecipe("FASTERMINING", <AWWayofTime:reinforcedSlate>, 
 [<Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemPickThaumium>, <AWWayofTime:aether>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemShovelThaumium>, <AWWayofTime:aether>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemAxeThaumium>, <AWWayofTime:aether>], 
 "instrumentum 36, praecantatio 24, metallum 18, perfodio 12, motus 8", <AWWayofTime:sigilOfTheFastMiner>, 5);
@@ -396,7 +396,7 @@ mods.thaumcraft.Research.addPrereq("GREENGROW", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("GREENGROW", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("GREENGROW", true);
 mods.thaumcraft.Research.addPage("GREENGROW", "tc.research_page.GREENGROW");
-game.setLocalization("tc.research_page.GREENGROW", "With a magical sleight of hand, the essence of living can grow any living matter. After focusing your efforts into plants, you have created the Sigil of the Green Grove.<BR><BR>When activated, the Sigil will speed the growth of all nearby plants, by applying additional growth ticks to all plants within a six block radius of the caster. This effect will consume 150 LP every five seconds. Right clicking on a plant that accepts Bone Meal will cause its growth effect to be activated on that plant, consuming 150 LP per usage.");
+game.setLocalization("tc.research_page.GREENGROW", "你发现在一些魔法技巧的辅助下,LP可以促进任何生命物质的生长.你将研发重点又集中在植物方面,终于创造出了绿丛印记.<BR><BR>激活后,此印记将加速周围所有植物的生长,原理是赋予半径6格内的植物额外的生长tick.此效果每五秒消耗150LP.直接右键可以接受骨粉催熟的植物,就相当于使用了一次骨粉,每次右键消耗150LP.");
 mods.thaumcraft.Infusion.addRecipe("GREENGROW", <AWWayofTime:reinforcedSlate>, 
 [<witchery:witchsapling>, <AWWayofTime:terrae>, <witchery:witchsapling:1>, <AWWayofTime:terrae>, <Thaumcraft:blockCustomPlant:1>, <AWWayofTime:terrae>, <Thaumcraft:blockCustomPlant>, <AWWayofTime:terrae>, <TConstruct:slime.sapling>, <AWWayofTime:terrae>], 
 "instrumentum 36, terra 24, herba 18, arbor 12, victus 8", <AWWayofTime:growthSigil>, 5);
@@ -411,7 +411,7 @@ mods.thaumcraft.Research.addPrereq("VOIDSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("VOIDSIGIL", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("VOIDSIGIL", true);
 mods.thaumcraft.Research.addPage("VOIDSIGIL", "tc.research_page.VOIDSIGIL");
-game.setLocalization("tc.research_page.VOIDSIGIL", "Creation and destruction, the cycle of all life. Upon mastering the Water Sigil, you realized that you had no good way of removing the water you created. As a mage dedicated to an art that begins with destruction, this is unacceptable.<BR><BR>Looking for a tool of reversal, you decided to name it the Void Sigil, used to remove source blocks of liquid at a small LP cost. Once bound to you, right clicking any placed liquid source block will cause it to disappear, at the cost of 50 LP, removing that source block from existence. Good riddance.");
+game.setLocalization("tc.research_page.VOIDSIGIL", "创造与毁灭,是所有生命的轮回.掌握水之印记后,你发现自己对创造出来的水方块没有很好的清除手段.作为一名奉行毁灭即是艺术的血法师,这是无法接受的.<BR><BR>你寻找着一种逆向工具,打算将其命名为虚空印记,用于消耗少量LP清除液体方块.功夫不负有心人,你成功了.绑定之后,右键任意液体方块即可清除它,消耗50LP以及此液体方块(废话).拜拜了您内.");
 mods.thaumcraft.Infusion.addRecipe("VOIDSIGIL", <AWWayofTime:imbuedSlate>, 
 [<BloodArsenal:blood_burned_string>, <gregtech:gt.metaitem.01:17970>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <BloodArsenal:blood_burned_string>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <gregtech:gt.metaitem.01:17970>], 
 "vacuos 64, terra 40, praecantatio 32, auram 24, metallum 16", <AWWayofTime:voidSigil>, 7);
@@ -426,7 +426,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFSWIMMING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFSWIMMING", "VOIDSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFSWIMMING", true);
 mods.thaumcraft.Research.addPage("SIGILOFSWIMMING", "tc.research_page.SIGILOFSWIMMING");
-game.setLocalization("tc.research_page.SIGILOFSWIMMING", "There is power beyond improving what your fragile body can already do. By reinfusing your Life Essence, with the use of Blood Magic, you have found yourself transcending your own limitations.<BR><BR>The Sigil of Swimming, as you have hastily named it, allows you to move faster, break faster, and breathe underwater, costing 100 LP every 10 seconds. This is an exhilarating sensation, of the kind you thought impossible. How can your body do this?");
+game.setLocalization("tc.research_page.SIGILOFSWIMMING", "你孱弱的身躯其实蕴含了超乎想象的潜力.在血魔法的支持下,凭借LP的再注入,你突破了自己的极限.<BR><BR>水泳印记,正如你的草草命名,可以使你在水下移动更快,破坏方块速度提升,并获得水下呼吸效果,每10秒消耗100LP.这种感觉实在太爽了,简直无法置信,你的身体是怎么做到这一点的?");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFSWIMMING", <AWWayofTime:voidSigil>, 
 [<AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <AWWayofTime:demonicSlate>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "liquidoxygen", Amount: 1000}}), <gregtech:gt.metaitem.01:30711>], 
 "aer 64, aqua 64, vacuos 64, terra 48, praecantatio 32, auram 24, metallum 16", <BloodArsenal:sigil_of_swimming>, 12);
@@ -441,8 +441,8 @@ mods.thaumcraft.Research.addPrereq("BLOODLETTERSPACK", "SACRIFICIALKNIFE", false
 mods.thaumcraft.Research.setConcealed("BLOODLETTERSPACK", true);
 mods.thaumcraft.Research.addPage("BLOODLETTERSPACK", "tc.research_page.BLOODLETTERSPACK.1");
 mods.thaumcraft.Research.addPage("BLOODLETTERSPACK", "tc.research_page.BLOODLETTERSPACK.2");
-game.setLocalization("tc.research_page.BLOODLETTERSPACK.1", "The repetition of losing and regaining health, all to feed the Altar, has been wearing out your patience more than your pain tolerance. Your fingers are very useful for practicing magic, and as such you have found a different way to undergo self-sacrifice, using a Thaumium Chestplate to magically siphon blood from your veins.<BR><BR>The spikes on the inside are daunting to look at, but you have managed to put it on yourself, with less discomfort than you expected when you first looked at the finished product, which you named after letting it take your blood, for the sake of magic.");
-game.setLocalization("tc.research_page.BLOODLETTERSPACK.2", "The Blood Letter's Pack is a piece of armor that can automate the acquiral of LP from your own life force. Wearing the armor does one heart of damage a second, and fills 100 LP per heart lost. It will not reduce your health below 5 hearts, in your attempts to preserve yourself.<BR><BR>The armor stores up to 10000 LP as built by default, and it can be used to store LP while away from your main reservoir of LP. Using a filled Pack on the Altar will transfer stored LP into the Altar's buffer tank. With a handy source of Regeneration, you can keep this up endlessly.");
+game.setLocalization("tc.research_page.BLOODLETTERSPACK.1", "为了供养祭坛,你需要反复损失再恢复生命值,虽然你承受痛苦的能力与日俱增,但这种机械的重复已经耗尽了你的耐心.为了练习魔法,你需要保证手指的灵活,于是你找到了一种可以解放双手的自我牺牲方式--使用神秘胸甲,直接从血管中抽取血液.<BR><BR>内部的尖刺令人望而生畏,不过第一次看到成品时,你并没有感到什么不适,可能已经习惯了吧,你将其命名为血液背包,并毫不犹豫地穿上了它,为了魔法!");
+game.setLocalization("tc.research_page.BLOODLETTERSPACK.2", "血液背包可以自动扣减你的生命值,并转化为LP存储在内部.穿戴此护甲时,每秒会受到1心伤害,产生100LP.作为一种自我保护,当你的生命值在5心以下时,停止自动扣减.<BR><BR>默认模式下,此护甲内部存储上限为10000LP,可以在远离主要存储器的情况下储备LP.对祭坛使用血液背包,可以将其内部存储的LP转移到祭坛的缓冲槽中.再配合某种方便的恢复手段,你可以无休止地保持这种状态.");
 mods.thaumcraft.Arcane.addShaped("BLOODLETTERSPACK", <AWWayofTime:itemBloodPack>, "aer 15, ignis 15, terra 30, aqua 30, ordo 30, perditio 30", [
 [<AWWayofTime:reinforcedSlate>, <AWWayofTime:sacrificialKnife>, <AWWayofTime:reinforcedSlate>],
 [<AWWayofTime:reinforcedSlate>, <Thaumcraft:ItemChestplateThaumium>, <AWWayofTime:reinforcedSlate>],
@@ -495,8 +495,8 @@ mods.thaumcraft.Research.addPrereq("WEAKORB", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("WEAKORB", true);
 mods.thaumcraft.Research.addPage("WEAKORB", "tc.research_page.WEAKORB.1");
 mods.thaumcraft.Research.addPage("WEAKORB", "tc.research_page.WEAKORB.2");
-game.setLocalization("tc.research_page.WEAKORB.1", "A Blood Mage, by default, is forcefully kept near their Altar to practice magic. Even though liquid essence can be transported, it cannot fuel most magical items simply by pouring it, or burning it in some way.<BR><BR>This, however, is not an impediment to the Blood Mages you have seen working in the field, as they have accomplished simple tasks with the energy from the essence, regardless of their position. There must be a way to store and link this inner energy, so that you can carry the magic with you.");
-game.setLocalization("tc.research_page.WEAKORB.2", "This construct is called a Blood Orb by most mages, and it can store a limited amount of LP to be used by an assortment of magical devices. The materials used in the craft can make higher tier, or lower tier Orbs, but each one has to be infused with enough LP to be operational, so a beginner mage such as yourself can only create the first tier one, the Weak Blood Orb.<BR><BR>These items can also be used for crafting other items, and are never consumed.");
+game.setLocalization("tc.research_page.WEAKORB.1", "一般来说,一名血法师不得不留在祭坛附近才能练习魔法.虽然液态的LP可以运输,但它不能简单地通过倾倒或某种燃烧来为大多数魔法设备供能.<BR><BR>但是就你之前所见而已,这一点并非其他血法师的障碍.无论他们身在何处,都可以使用LP的能量完成简单的任务.一定有种办法,可以存储并链接这种内在能量,这样你就可以随身携带魔法了.");
+game.setLocalization("tc.research_page.WEAKORB.2", "这种魔法物品被大多数血法师称为气血宝珠,它可以存储一定数量的LP,供给各种魔法设备使用.合成所用的材料其实用来制造低阶高阶宝珠都行,但每种宝珠都需要注入足够的LP才能正常使用,所以在起步阶段,像你这种新手法师只能制作第一阶:虚弱气血宝珠.<BR><BR>这些宝珠还可以用于参与合成其他物品,且不会被消耗.");
 mods.thaumcraft.Arcane.addShaped("WEAKORB", <dreamcraft:item.WeakOrb>, "aer 20, aqua 20, ignis 20, terra 20, perditio 20, ordo 20", [
 [null, <ore:gemDiamond>, null],
 [<AWWayofTime:blankSlate>, <dreamcraft:item.RawOrbTier1>, <AWWayofTime:blankSlate>],
@@ -512,8 +512,8 @@ mods.thaumcraft.Research.addPrereq("APPRENTICEORB", "WEAKORB", false);
 mods.thaumcraft.Research.setConcealed("APPRENTICEORB", true);
 mods.thaumcraft.Research.addPage("APPRENTICEORB", "tc.research_page.APPRENTICEORB.1");
 mods.thaumcraft.Research.addPage("APPRENTICEORB", "tc.research_page.APPRENTICEORB.2");
-game.setLocalization("tc.research_page.APPRENTICEORB.1", "After successfully upgrading the tier of your Blood Altar, you can also upgrade your Blood Orb to a new level. The amount of storage you have access to is quite limiting, so this improvement is a sigh of relief, as is the potential of the orb when used to craft other items, or when delving in alchemy. Surely, now, you can invest in ways to ease up on the self-sacrifices you were forced to do so far, right?<BR><BR>The last time you asked a Blood Mage about the topic, they told you that you'll get used to it, but that's surely nonsense. They must have some kind of secret that they're hiding!");
-game.setLocalization("tc.research_page.APPRENTICEORB.2", "This tier 2 Blood Orb can hold 25,000 LP, 5 times more than the previous version. With this storage amount, you should be able to use more demanding Sigils than before, at least for a limited time. The upgrade also allows for more possible crafts and alchemic recipes, a benefit that will happen from now on with each new Blood Orb.<BR><BR>You make a hasty note to remind yourself that the required orb for each recipe is a very important detail that should not be missed.");
+game.setLocalization("tc.research_page.APPRENTICEORB.1", "成功升级血之祭坛后,你还可以升级气血宝珠.第一阶气血宝珠的可用容量实在有限,这次升级可以让你暂缓一口气,同时这也可以帮助你合成更高级的物品或进一步钻研炼金术.当然,现在你可以着手研发一些手段,以减轻你一直在做的自我牺牲,对吧?<BR><BR>你上次询问一名资深血法师,他只是告诉你你会习惯的,你感觉他就在胡扯,他一定在试图隐藏些什么!");
+game.setLocalization("tc.research_page.APPRENTICEORB.2", "2阶气血宝珠可以容纳25,000LP,是1阶的5倍.凭借这种储量,你应该可以同时使用更多印记,至少短时间内没问题.宝珠的升级还解锁了更多合成表以及炼金配方,这也是以后每次升级宝珠都能获得的收益.<BR><BR>你匆匆记下每种配方所需的气血宝珠,这是不容错过的重要细节.");
 mods.thaumcraft.Arcane.addShaped("APPRENTICEORB", <dreamcraft:item.ApprenticeOrb>, "aer 40, aqua 40, ignis 40, terra 40, perditio 40, ordo 40", [
 [null, <ore:gemFlawlessEmerald>, null],
 [<AWWayofTime:reinforcedSlate>, <dreamcraft:item.RawOrbTier2>, <AWWayofTime:reinforcedSlate>],
@@ -529,8 +529,8 @@ mods.thaumcraft.Research.addPrereq("MAGICANORB", "APPRENTICEORB", false);
 mods.thaumcraft.Research.setConcealed("MAGICANORB", true);
 mods.thaumcraft.Research.addPage("MAGICANORB", "tc.research_page.MAGICANORB.1");
 mods.thaumcraft.Research.addPage("MAGICANORB", "tc.research_page.MAGICANORB.2");
-game.setLocalization("tc.research_page.MAGICANORB.1", "You look back at your Altar, immensely bigger and more intricate than it was before, more similar to those you have seen used by your mentors. You envision another upgrade to your Blood Orb, even if just to avoid using up vital Rune spots to increase its storage amount.<BR><BR>Despite having access to a lot more of them, you find it unacceptable to use the available spots in such a rudimentary fashion. It's hard to explain, but the structure you have built weighs on your mind in some distant, faded out way.");
-game.setLocalization("tc.research_page.MAGICANORB.2", "The storage amount of the tier 3 Orb is 150,000, 6 times higher than the tier 2 one. It's a hefty battery, certainly, but you can already foresee the difficulty in filling it up if you don't optimize the LP earnings of your Blood Altar. Specific Runes should help for this task, as should the new recipes that are unlocked with this tier 3 orb and the corresponding Imbued Slates.");
+game.setLocalization("tc.research_page.MAGICANORB.1", "回望你的祭坛,它更加庞大也更加复杂,已经慢慢接近你见过的某些资深血法师的祭坛规模了.你对现在的气血宝珠不太满意,想提升其储量而又不想占用祭坛中珍贵的符文位,最佳方式当然是升级气血宝珠本身.<BR><BR>虽然祭坛中的符文位很多,但你无法接受这样基础的使用方式.这种感觉说不清道不明,不过你所建造的这个结构经常以某种遥远的、朦胧的方式在你的脑海中浮现.");
+game.setLocalization("tc.research_page.MAGICANORB.2", "3阶气血宝珠的储量为150,000,是2阶宝珠的6倍.这可以看做一颗巨大的电池,当然,如果你不优化血之祭坛那里LP的获得,可以想见将其充满将是一项艰巨的任务.特定的符文可以帮助你完成此项任务,它们的合成表也随着3阶宝珠以及相应石板而解锁了.");
 mods.thaumcraft.Arcane.addShaped("MAGICANORB", <dreamcraft:item.MagicianOrb>, "aer 60, aqua 60, ignis 60, terra 60, perditio 60, ordo 60", [
 [null, <ore:blockGold>, null],
 [<AWWayofTime:imbuedSlate>, <dreamcraft:item.RawOrbTier3>, <AWWayofTime:imbuedSlate>],
@@ -545,7 +545,7 @@ game.setLocalization("tc.research_text.MASTERORB", "[BM]\u5b9d\u73e0\u53d8\u6362
 mods.thaumcraft.Research.addPrereq("MASTERORB", "MAGICANORB", false);
 mods.thaumcraft.Research.setConcealed("MASTERORB", true);
 mods.thaumcraft.Research.addPage("MASTERORB", "tc.research_page.MASTERORB");
-game.setLocalization("tc.research_page.MASTERORB", "It is time for this, once again. Stepping past the tier 3 Altar, it is possible to improve your Blood Orb once more, with the new version storing 1,000,000 LP, 6 times more than the previous one.<BR><BR>It should be easy to fill this up, you think to yourself, otherwise you would be in considerable trouble to face whatever this new tier of Blood Magic brings to the table.");
+game.setLocalization("tc.research_page.MASTERORB", "是时候了,再次升级.跨越了3阶祭坛,你终于可以再次升级你的气血宝珠了,新宝珠的容量为1,000,000LP,是之前的6倍.<BR><BR>它应该很容易填满吧,你思索着,否则新阶段解锁的一切都将与你无关.");
 mods.thaumcraft.Arcane.addShaped("MASTERORB", <dreamcraft:item.MasterOrb>, "aer 80, aqua 80, ignis 80, terra 80, perditio 80, ordo 80", [
 [null, <AWWayofTime:weakBloodShard>, null],
 [<AWWayofTime:demonicSlate>, <dreamcraft:item.RawOrbTier4>, <AWWayofTime:demonicSlate>],
@@ -561,8 +561,8 @@ mods.thaumcraft.Research.addPrereq("ARCHMAGEORB", "MASTERORB", false);
 mods.thaumcraft.Research.setConcealed("ARCHMAGEORB", true);
 mods.thaumcraft.Research.addPage("ARCHMAGEORB", "tc.research_page.ARCHMAGEORB.1");
 mods.thaumcraft.Research.addPage("ARCHMAGEORB", "tc.research_page.ARCHMAGEORB.2");
-game.setLocalization("tc.research_page.ARCHMAGEORB.1", "Something calls out to you, not from a distance, but from within. Once you saw the scribings on your Altar's blocks come to life, once again in this new structure, there was a sudden drive to put together the new Blood Orb that you had certainly earned the right to create.<BR><BR>The materials have gotten more expensive over time, but your dwindling will to continue flipped on its head and now shoves you towards the goal at hand. It's difficult to understand why this is happening, but there's something in your blind spot that you cannot yet perceive, but you know is there.");
-game.setLocalization("tc.research_page.ARCHMAGEORB.2", "This upgrade is the biggest yet, with the tier 5 Blood Orb holding an impressive 10,000,000 LP at max capacity, more enough for any Sigil you would like to use. Only the most expensive, most powerful magic effects could empty this orb in a reasonable amount of time... ones you might not have discovered yet.<BR><BR>The possibilities push you here and there, even if you seem to exhaust the possibilities of magic you find around you. There is more to all of this, deeper within the very fabric of the matter, yet you don't see a way to reach beyond what the inner eye can see. There must be something more, somewhere...");
+game.setLocalization("tc.research_page.ARCHMAGEORB.1", "有什么东西在呼唤你,不是来自远方,而是发自内心.当你看到祭坛的结构方块上熠熠生辉的符文时,当你看到再次扩展一层的宏伟祭坛时,突然有一种冲动涌上心头--将新解锁的气血宝珠与祭坛放到一起.<BR><BR>随着时间的推移,材料越来越昂贵,但你不断被消磨的意志却突然又坚定了起来,把你推向了手头的目标.很难理解其发生的原因,但一定有某种东西处于你的盲区之中,但你知道它就在那里.");
+game.setLocalization("tc.research_page.ARCHMAGEORB.2", "这次升级所获得的提升前所未有,5阶气血宝珠最大容量为10,000,000LP,足以让你为所欲为.只有最昂贵、最强大的魔法效果才能在合理时间内清空它的储量...不过你还未发现.<BR><BR>尽管你看似已经尝试了所有魔法技巧,但这种可能性依然推动着你前进.一定还存在未探索的地方,更深入地了解事物的结构,达到并超越内在之眼所能看到的一切...");
 mods.thaumcraft.Arcane.addShaped("ARCHMAGEORB", <dreamcraft:item.ArchmageOrb>, "aer 100, aqua 100, ignis 100, terra 100, perditio 100, ordo 100", [
 [null, <AWWayofTime:demonBloodShard>, null],
 [<AWWayofTime:bloodMagicBaseItems:27>, <dreamcraft:item.RawOrbTier5>, <AWWayofTime:bloodMagicBaseItems:27>],
@@ -578,7 +578,7 @@ mods.thaumcraft.Research.addPrereq("TRANSCENDENTORB", "ARCHMAGEORB", false);
 mods.thaumcraft.Research.setConcealed("TRANSCENDENTORB", true);
 mods.thaumcraft.Research.addPage("TRANSCENDENTORB", "tc.research_page.TRANSCENDENTORB.1");
 mods.thaumcraft.Research.addPage("TRANSCENDENTORB", "tc.research_page.TRANSCENDENTORB.2");
-game.setLocalization("tc.research_page.TRANSCENDENTORB.1", "This is where you stand, at the top of all worlds. The limits you were explained have been shattered to pieces and, out of the shards, a new you arrived, beaming with satisfaction and victory. To sit at the frontier of knowledge, and step into the unknown, is to call out to the gods and only hear your own voice in response.<BR><BR>For the master of all crafts, technological and magical, a new future dawns on the horizon, a sight that everyone else is blind to. What they look at, they will never see, until you flash it in front of their eyes with a powerful lightning.");
+game.setLocalization("tc.research_page.TRANSCENDENTORB.1", "你已经站在了世界之巅,施于你身的枷锁已被粉碎,自碎片中,一个全新的你已到来,带着满足与胜利的笑容. To sit at the frontier of knowledge, and step into the unknown, is to call out to the gods and only hear your own voice in response.<BR><BR>For the master of all crafts, technological and magical, a new future dawns on the horizon, a sight that everyone else is blind to. What they look at, they will never see, until you flash it in front of their eyes with a powerful lightning.");
 game.setLocalization("tc.research_page.TRANSCENDENTORB.2", "Slayer of demons, this tier 6 Blood Orb is your reward, holding as much as 30,000,000 LP before any Rune upgrades. Any and all sources of LP are now at your disposal, and your Sigil costs will disappear into the abyss.<BR><BR>The whole world is in the palm of your hand, and you only have to squeeze it shut into a fist. It will not shatter, it will only grow, transform into something bigger that is yours to take. The future is uncertain, but success is guaranteed.<BR><BR>If there is something out there that requires a truly powerful Blood Magic component, you are sure that you can produce it now. The only question is when.");
 mods.thaumcraft.Arcane.addShaped("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>, "aer 150, aqua 150, ignis 150, terra 150, perditio 150, ordo 150", [
 [null, <AWWayofTime:blockCrystal>, null],
