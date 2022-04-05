@@ -1180,7 +1180,7 @@ mods.thaumcraft.Research.addPrereq("ENDERSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("ENDERSIGIL", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("ENDERSIGIL", true);
 mods.thaumcraft.Research.addPage("ENDERSIGIL", "tc.research_page.ENDERSIGIL");
-game.setLocalization("tc.research_page.ENDERSIGIL", "Tapping into the energy of Ender Pearls, you have come out with a bundle deal of useful effects on the resulting Sigil.<BR><BR>The Ender Sigil has two functions: when it is right-clicked, it opens up the player's Ender Chest; when it is shift-right-clicked, it teleports the player to whatever block they are facing.");
+game.setLocalization("tc.research_page.ENDERSIGIL", "通过发掘末影珍珠的能量,你研发出了末影印记,它有许多有用的效果.<BR><BR>末影印记有两种功能.右键时可打开玩家的末影箱子;Shift+右键时可将玩家传送至其面朝的任意方块.");
 mods.thaumcraft.Infusion.addRecipe("ENDERSIGIL", <AWWayofTime:sigilOfEnderSeverance>, 
 [<EnderStorage:enderChest>, <gregtech:gt.metaitem.01:32726>, <gregtech:gt.metaitem.01:17770>, <gregtech:gt.metaitem.01:32724>, <minecraft:ender_eye>, <minecraft:ender_eye>, <gregtech:gt.metaitem.01:32724>, <gregtech:gt.metaitem.01:17770>, <gregtech:gt.metaitem.01:32726>], 
 "vacuos 16, alienis 16, cognitio 72, humanus 16, potentia 64, vinculum 48, limus 32, nebrisum 8", <BloodArsenal:sigil_of_ender>, 20);
@@ -1195,7 +1195,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFDIVINITY", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFDIVINITY", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFDIVINITY", true);
 mods.thaumcraft.Research.addPage("SIGILOFDIVINITY", "tc.research_page.SIGILOFDIVINITY");
-game.setLocalization("tc.research_page.SIGILOFDIVINITY", "The unfathomable power of a perfected Blood Mage leaves only one weakness, their fragility. One who has sacrificed so much to attain that power cannot be allowed to perish so easily, you repeat to yourself as you envision the level that you have already reached. You have decided to create this protection out of sheer magical strength, working out a Sigil that devours essence to immortalize you.<BR><BR>The Sigil of Divinity is the ultimate form of protection. When activated, it puts up an absorption shield around you, at a very high cost of 50,000 LP every 20 seconds.");
+game.setLocalization("tc.research_page.SIGILOFDIVINITY", "一名完美的血法师拥有深不可测的力量,却留下了一个弱点--他们脆弱的肉体."一个为了获得这种力量作出如此多牺牲的人,怎么能如此轻易地灭亡?"你憧憬着自已已经达到了这个水平,对自己重复地说着.你决定使用纯粹的魔法力量来守护自己,研发出一个吞噬LP的印记,使自己不死不灭.<BR><BR>神灵印记是终极的保护形式,激活时,它就会为玩家提供一个无敌的吸收屏障,不过消耗高达每20秒50,000LP.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFDIVINITY", <AWWayofTime:sigilOfElementalAffinity>, 
 [<BloodArsenal:blood_stone:4>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_diamond_block>, <TConstruct:diamondApple>, <BloodArsenal:blood_infused_glowstone>, <BloodArsenal:amorphic_catalyst>, <gregtech:gt.metaitem.01:32726>, <BloodArsenal:amorphic_catalyst>, <BloodArsenal:blood_infused_glowstone>, <TConstruct:diamondApple>, <BloodArsenal:blood_infused_diamond_block>, <BloodArsenal:amorphic_catalyst>], 
 "tutamen 64, aer 72, ignis 64, aqua 48, terra 32, ordo 32, perditio 16, sano 8", <BloodArsenal:sigil_of_divinity>, 25);
@@ -1210,7 +1210,7 @@ mods.thaumcraft.Research.addPrereq("HARVESTGODDESSSIGIL", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("HARVESTGODDESSSIGIL", "SIGILOFENDERSEVERANCE", false);
 mods.thaumcraft.Research.setConcealed("HARVESTGODDESSSIGIL", true);
 mods.thaumcraft.Research.addPage("HARVESTGODDESSSIGIL", "tc.research_page.HARVESTGODDESSSIGIL");
-game.setLocalization("tc.research_page.HARVESTGODDESSSIGIL", "You have found yourself growing more and more bored of the mundane tasks you were otherwise used to. The last time you went to harvest your crops, the action took a couple of hours, but you came out with a new Sigil that outperforms your manual labor.<BR><BR>The Harvest Goddess Sigil immediately replants mature crops within a 3-block radius of the holder. The Harvest Goddess Sigil does not pick up dropped plants or seeds. Activating this Sigil costs 600 LP every 10 seconds while active. When used as an upgrade to a Bound Armor, this Sigil has the same effect.");
+game.setLocalization("tc.research_page.HARVESTGODDESSSIGIL", "你发现自己越来越厌倦习以为常的无聊工作了.上次你收获作物时,花了好几个小时,为此你研发了一种新的印记,它比你手工劳作强多了.<BR><BR>丰收印记会收获并重新种植持有者半径3格范围内的成熟作物,但它不会拾起掉落的作物或种子.激活此印记时,每10秒消耗600LP.插入约束装甲时效果不变,范围减弱为临近.");
 mods.thaumcraft.Infusion.addRecipe("HARVESTGODDESSSIGIL", <AWWayofTime:growthSigil>, 
 [<BloodArsenal:bound_sickle>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:2>], 
 "herba 72, arbor 64, meto 8, messis 16, cognitio 24, praecantatio 32, alienis 16", <AWWayofTime:itemHarvestSigil>, 20);
@@ -1225,7 +1225,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFCOMPRESSION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFCOMPRESSION", "SIGILOFMAGNETISM", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFCOMPRESSION", true);
 mods.thaumcraft.Research.addPage("SIGILOFCOMPRESSION", "tc.research_page.SIGILOFCOMPRESSION");
-game.setLocalization("tc.research_page.SIGILOFCOMPRESSION", "There are many more mundane tasks you can simplify with Blood Magic. One of them is the compression of certain materials into blocks, which you managed to do with the Sigil of Compression.<BR><BR>This Sigil compresses any item picked-up into its block form, if possible, although this does not work for GregTech ingots or most modded materials. Activating this Sigil costs 250 LP every 10 seconds to continue working.");
+game.setLocalization("tc.research_page.SIGILOFCOMPRESSION", "你可以用血魔法来简化许多枯燥任务.其中之一就是将某些材料压缩成块,你设法用压缩印记做到了这一点.<BR><BR>压缩印记会将任何可被压缩的拾取物品压缩成方块形式,虽然它对GT锭或大多数被修改过的材料无效...激活此印记后,需要每10秒消耗250LP方可持续工作.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFCOMPRESSION", <AWWayofTime:demonicSlate>, 
 [<AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:32644>, <gregtech:gt.metaitem.01:32744>, <gregtech:gt.metaitem.01:32604>, <AWWayofTime:demonicSlate>, <gregtech:gt.metaitem.01:32604>, <gregtech:gt.metaitem.01:32744>, <gregtech:gt.metaitem.01:32644>], 
 "metallum 32, potentia 24, machina 16, lucrum 16, superbia 8", <AWWayofTime:itemCompressionSigil>, 10);
@@ -1354,4 +1354,4 @@ mods.thaumcraft.Research.refreshResearchRecipe("RODBLOODWOODSTUFF");
 
 
 // --- Blood Altar
-<AWWayofTime:Altar>.displayName = "Altar of GregoriusT's Blood";
+<AWWayofTime:Altar>.displayName = "\u683c\u96f7\u7684\u8840\u4e4b\u796d\u575b";
