@@ -561,7 +561,7 @@ mods.thaumcraft.Research.addPrereq("ARCHMAGEORB", "MASTERORB", false);
 mods.thaumcraft.Research.setConcealed("ARCHMAGEORB", true);
 mods.thaumcraft.Research.addPage("ARCHMAGEORB", "tc.research_page.ARCHMAGEORB.1");
 mods.thaumcraft.Research.addPage("ARCHMAGEORB", "tc.research_page.ARCHMAGEORB.2");
-game.setLocalization("tc.research_page.ARCHMAGEORB.1", "有什么东西在呼唤你,不是来自远方,而是发自内心.当你看到祭坛的结构方块上熠熠生辉的符文时,当你看到再次扩展一层的宏伟祭坛时,突然有一种冲动涌上心头--将新解锁的气血宝珠与祭坛放到一起.<BR><BR>随着时间的推移,材料越来越昂贵,但你不断被消磨的意志却突然又坚定了起来,把你推向了手头的目标.很难理解其发生的原因,但一定有某种东西处于你的盲区之中,但你知道它就在那里.");
+game.setLocalization("tc.research_page.ARCHMAGEORB.1", "有什么东西在呼唤你,不是来自远方,而是发自内心.当你看到祭坛的结构方块上流光溢彩的符文时,当你看到再次扩展一层的宏伟祭坛时,突然有一种冲动涌上心头--将新解锁的气血宝珠与祭坛放到一起.<BR><BR>随着时间的推移,材料越来越昂贵,但你不断被消磨的意志却突然又坚定了起来,把你推向了手头的目标.很难理解其发生的原因,但一定有某种东西处于你的盲区之中,但你知道它就在那里.");
 game.setLocalization("tc.research_page.ARCHMAGEORB.2", "这次升级所获得的提升前所未有,5阶气血宝珠最大容量为10,000,000LP,足以让你为所欲为.只有最昂贵、最强大的魔法效果才能在合理时间内清空它的储量...不过你还未发现.<BR><BR>尽管你看似已经尝试了所有魔法技巧,但这种可能性依然推动着你前进.一定还存在未探索的地方,更深入地了解事物的结构,达到并超越内在之眼所能看到的一切...");
 mods.thaumcraft.Arcane.addShaped("ARCHMAGEORB", <dreamcraft:item.ArchmageOrb>, "aer 100, aqua 100, ignis 100, terra 100, perditio 100, ordo 100", [
 [null, <AWWayofTime:demonBloodShard>, null],
@@ -693,8 +693,8 @@ mods.thaumcraft.Research.addPrereq("SIGILOFLIGHTNING", "SIGILOFELEMENTALAFFINITY
 mods.thaumcraft.Research.setConcealed("SIGILOFLIGHTNING", true);
 mods.thaumcraft.Research.addPage("SIGILOFLIGHTNING", "tc.research_page.SIGILOFLIGHTNING.1");
 mods.thaumcraft.Research.addPage("SIGILOFLIGHTNING", "tc.research_page.SIGILOFLIGHTNING.2");
-game.setLocalization("tc.research_page.SIGILOFLIGHTNING.1", "The other day, you were filling up the Altar, while heavy rain poured all around you. The sound was calming, the atmosphere was relaxing and it soothed your nerves, but a strange flash of light suddenly appeared in the reflection of the Life Essence.<BR><BR>You only had time to flinch, instinctively, at the roaring crash of a bolt of lightning only a few meters in front of you, leaving only a tree split down the middle that came to crash against the muddy soil.<BR><BR>Your body shook, you could not stop it, and at that point you knew what remained in front of you.");
-game.setLocalization("tc.research_page.SIGILOFLIGHTNING.2", "A few days later, you resurfaced from a vitreous-eyed frenzy with the Lightning Sigil. Upon command, you can force lightning to cascade wherever you point and click, at a considerable cost of LP.<BR><BR>The Sigil has 5 different modes, each one increasing the amount of lightning you summon, but also the cost of using the Sigil, maxing out at an incredible 168,000 LP.<BR><BR>You look at your hands, healed from the initial pricks that began this journey, and you find yourself filled with a strange sensation, fuller than you have ever been. The power is not just there, it resonates with your very being, shaking with the ground under your two feet.");
+game.setLocalization("tc.research_page.SIGILOFLIGHTNING.1", "前几天,你正在填充祭坛的时候,忽然大雨倾盆而下.不过雨声平静,气氛放松,舒缓了你的神经.然而突然之间,你在祭坛内积蓄的LP倒影中瞥见一道奇异的光芒.<BR><BR>你只来得及本能地后退半步,一道霹雳就伴着隆隆雷声落在眼前,只留下一棵从中裂开的树,残躯落于泥泞之中.<BR><BR>你颤抖着,却又无能为力,不过似乎也由此悟出了些什么.");
+game.setLocalization("tc.research_page.SIGILOFLIGHTNING.2", "几天后,当你再次从狂热的研究中抬首时,闪电印记正在你的手中熠熠生辉.你可以通过点击,在指向的位置召唤闪电,而代价是消耗大量的LP.<BR><BR>印记有5中模式,每种模式都会增加你召唤闪电的数量,但同时也会相应增加LP消耗,最高达到令人发指的168,000LP.<BR><BR>你凝视着自己的双手,开始这段旅程留下的伤口早已痊愈,反倒有一种奇怪的感觉充斥身心,那是一种前所有未的充实感.力量不再遥遥无期,它正与你共鸣,与你双脚下的大地一起颤抖.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFLIGHTNING", <AWWayofTime:bloodMagicBaseItems:27>,
 [<AWWayofTime:airSigil>, <BloodArsenal:blood_stone:3>, <BloodArsenal:blood_infused_iron_block>, <BloodArsenal:blood_infused_diamond_block>, <AWWayofTime:waterSigil>, <BloodArsenal:blood_stone:3>, <BloodArsenal:blood_infused_iron_block>, <BloodArsenal:blood_infused_diamond_block>], 
 "tempestas 32, aer 72, aqua 72, terra 64, potentia 48, tenebrae 8, ira 8, electrum 16", <BloodArsenal:sigil_of_lightning>, 15);
