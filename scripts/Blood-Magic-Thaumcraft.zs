@@ -709,7 +709,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFHOLDING", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFHOLDING", "SIGILOFMAGNETISM", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFHOLDING", true);
 mods.thaumcraft.Research.addPage("SIGILOFHOLDING", "tc.research_page.SIGILOFHOLDING");
-game.setLocalization("tc.research_page.SIGILOFHOLDING", "You have found yourself encumbered with magical trinkets in the past, and the simple, initial exploration of Sigil-related possibilies only worsens that reality. Instead, you dedicated some time to compactly carry your new tools, using the Sigil of Holding.<BR><BR>It is used to save inventory space by combining several Sigils into one. Shift right clicking with it will allow you to place (or remove) up to 5 Sigils into it, and you can switch between the Sigils that it holds by using the scroll on the mouse while holding shift. Right clicking will activate the displayed Sigil.");
+game.setLocalization("tc.research_page.SIGILOFHOLDING", "你发现自己正被那些早期的印记所困扰,虽然功能或多或少都有用处,但太过繁杂不易携带.于是你下了一番功夫,致力于研发一种便携而紧凑的工具,这便是集持印记.<BR><BR>集持印记可以将多个印记集合到一起,可以有效节省物品栏空间.使用时,每次Shift+右键集持印记将从快捷栏中从左至右消耗(或从集持印记中移除)一个印记,最多只能储存5个印记.Shift+鼠标滚轮可切换其显示的印记,右键可激活显示的印记.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFHOLDING", <AWWayofTime:imbuedSlate>, 
 [<IronChest:BlockIronChest>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:crepitous>, <AWWayofTime:reinforcedSlate>, <AWWayofTime:magicales>, <AWWayofTime:reinforcedSlate>], 
 "lucrum 32, cognitio 24, gula 16, superbia 16, limus 16, praecantatio 8", <AWWayofTime:sigilOfHolding>, 9);
