@@ -663,7 +663,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFDISLOCATION", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFDISLOCATION", true);
 mods.thaumcraft.Research.addPage("RUNEOFDISLOCATION", "tc.research_page.RUNEOFDISLOCATION");
-game.setLocalization("tc.research_page.RUNEOFDISLOCATION", "The process of transferring LP out of the Altar is slowly devouring your patience. How annoying, the awful speed of it! A resourceful mage cannot be halted by meager things like this, and your new discovery is clear proof of that. The Rune of Dislocation, as you've named it, increases the speed by which LP can be pumped into and out of the Blood Altar at a multiplicative 20% rate. You can add several of these into a bigger Altar structure, surely achieving double, triple the speed of transfer you had before. Boredom is the enemy of advancement.");
+game.setLocalization("tc.research_page.RUNEOFDISLOCATION", "祭坛传输LP的过程正在慢慢消磨你的耐心.速度简直慢得可怕,太令人恼火了!不过一名足智多谋的血法师怎么会被这种微不足道的事情妨碍,而你的新发明就是明证.转位符文,正如其名,可以提升祭坛抽出或泵入LP的速度,每个符文提升20%(乘法).你可以在一座庞大的祭坛中添加多个转位符文,这样就可以实现两三倍于之前的传输速度.懈怠是进步之敌.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFDISLOCATION", <BloodArsenal:blood_stone:1>, 
 [<gregtech:gt.metaitem.01:32613>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <gregtech:gt.metaitem.01:32613>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>, <AWWayofTime:aquasalus>, <AWWayofTime:imbuedSlate>], 
 "aqua 32, praecantatio 24, motus 18, tempus 12, terra 8, cognitio 4", <AWWayofTime:AlchemicalWizardrybloodRune:2>, 7);
