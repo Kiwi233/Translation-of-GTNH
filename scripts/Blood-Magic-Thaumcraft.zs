@@ -754,8 +754,8 @@ mods.thaumcraft.Research.addPrereq("SIGILOFMAGNETISM", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFMAGNETISM", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFMAGNETISM", true);
 mods.thaumcraft.Research.addPage("SIGILOFMAGNETISM", "tc.research_page.SIGILOFMAGNETISM");
-game.setLocalization("tc.research_page.SIGILOFMAGNETISM", "As you empower yourself with this new magic, you begin to move small objects to your will. Reaching towards them, you can draw them towards you, a magical magnet that you were quickly able to implant into a Sigil, creating the Sigil of Magnetism.<BR><BR>This acts as an item magnet, with a radius of five blocks, at the cost of Life Essence (LP). Upon activating the Sigil, 75 LP will be consumed from your network to act as an item magnet. Every ten seconds after activation, an additional 75 LP will be consumed to continue working.");
-mods.thaumcraft.Infusion.addRecipe("SIGILOFMAGNETISM", <AWWayofTime:imbuedSlate>, 
+game.setLocalization("tc.research_page.SIGILOFMAGNETISM", "随着你对血魔法研究的深入,你开始可以按照自己的意志移动小物体,吸引它们并将其拉向自己,类似于奥术磁铁,虽然作用范围有限,但可以快速植入印记中,由此你研发出了磁引印记.<BR><BR>磁引印记功能类似于奥术念力磁铁,有效半径为5格,激活后就会从网络中抽取75LP,此后每10秒消耗75LP以持续运行.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFMAGNETISM", <AWWayofTime:imbuedSlate>, 473660422
 [<gregtech:gt.blockmetal5:1>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>, <gregtech:gt.blockmetal5:1>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>, <gregtech:gt.blockmetal5:1>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>, <gregtech:gt.blockmetal5:1>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:reinforcedSlate>], 
 "potentia 32, magneto 24, electrum 24, auram 16, cognitio 12, praecantatio 6", <AWWayofTime:sigilOfMagnetism>, 9);
 mods.thaumcraft.Research.addInfusionPage("SIGILOFMAGNETISM", <AWWayofTime:sigilOfMagnetism>);
