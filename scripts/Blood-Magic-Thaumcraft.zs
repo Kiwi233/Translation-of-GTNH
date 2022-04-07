@@ -867,7 +867,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "RUNEOFARGUMENTEDCAPACI
 mods.thaumcraft.Research.addPrereq("RUNEOFACCELERATION", "RUNEOFDISLOCATION", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFACCELERATION", true);
 mods.thaumcraft.Research.addPage("RUNEOFACCELERATION", "tc.research_page.RUNEOFACCELERATION");
-game.setLocalization("tc.research_page.RUNEOFACCELERATION", "The specialization of each Rune gave you an idea. Instead of increasing the amount of fluid that is transported, you can increase the speed at which a new transportation happens.<BR><BR>To accomplish this, you created the Rune of Acceleration, which increases the frequency of the Altar fluid transportations.");
+game.setLocalization("tc.research_page.RUNEOFACCELERATION", "每种符文都有其独有的功能,这带给了你一些灵感.想要提升祭坛的转移速度,除了可以增加每次转移的LP数量外,还可以提高转移动作发生的频率.<BR><BR>为了实现这一点,你研发了促进符文,它可以提升祭坛的LP转移率.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFACCELERATION", <BloodArsenal:blood_stone:4>, 
 [<AWWayofTime:AlchemicalWizardrybloodRune:2>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:4>, <gregtech:gt.metaitem.01:32614>, <AWWayofTime:speedRune>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:bloodMagicBaseItems:27>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:4>, <gregtech:gt.metaitem.01:32614>], 
 "potentia 64, aqua 48, motus 32, cognitio 24, tempus 16, praecantatio 8, terra 4", <AWWayofTime:AlchemicalWizardrybloodRune:5>, 10);
