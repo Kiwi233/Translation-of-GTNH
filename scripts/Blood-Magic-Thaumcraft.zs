@@ -1117,7 +1117,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFHASTE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFHASTE", "AIRSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFHASTE", true);
 mods.thaumcraft.Research.addPage("SIGILOFHASTE", "tc.research_page.SIGILOFHASTE");
-game.setLocalization("tc.research_page.SIGILOFHASTE", "You have sought to move as quickly as the essence in your Altar, but you have achieved no improvements to your speed. Rushing the blood in your veins would kill you within seconds, your distant rational mind tells you, but reinserting it inside you with Blood Magic is a different story.<BR><BR>The Sigil of Haste grants you Boost II at the cost of Life Essence (LP). Upon activating the Sigil of Haste, and every 10 seconds, 300 LP will be consumed from the owner's network to grant the user Boost II When socketed into Bound Armor, the Sigil of Haste grants Boost.");
+game.setLocalization("tc.research_page.SIGILOFHASTE", "你试图将祭坛中LP快速移动的原理运用于自身,但似乎你的速度并没有获得任何提升.你的理智告诉你,要是推动血液在血管中高速运行,只需要几秒就可以杀死自己,不过通过血魔法将其装换为LP,再作用自身就是另一回事了.<BR><BR>急速印记以消耗LP为代价,赋予你急速II效果.激活急速印记时将从绑定者的灵魂网络中抽取300LP,此后每10秒消耗300LP以维持急速II效果.插入约束装甲时可提供急速I效果.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFHASTE", <AWWayofTime:demonicSlate>, 
 [<AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:cookie>, <AWWayofTime:aether>, <AWWayofTime:aether>, <minecraft:sugar>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <minecraft:sugar>, <AWWayofTime:aether>, <AWWayofTime:aether>, <minecraft:cookie>], 
 "iter 64, motus 32, aer 24, potentia 24, praecantatio 16, alienis 8, cognitio 8", <AWWayofTime:sigilOfHaste>, 8);
