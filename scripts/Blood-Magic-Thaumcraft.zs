@@ -739,9 +739,9 @@ mods.thaumcraft.Research.addPrereq("SIGILOFPHANTOMBRIDGE", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFPHANTOMBRIDGE", "VOIDSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFPHANTOMBRIDGE", true);
 mods.thaumcraft.Research.addPage("SIGILOFPHANTOMBRIDGE", "tc.research_page.SIGILOFPHANTOMBRIDGE");
-game.setLocalization("tc.research_page.SIGILOFPHANTOMBRIDGE", "You have set your eyes on the skies above, but you cannot move very well above ground. What if, you thought, you brought the ground up to you?<BR><BR>The Sigil of the Phantom Bridge, when active, creates a 5x5 platform of Spectral Blocks centered around you. These blocks can be broken instantly with a hit and right-clicking on one with another block will replace the Spectral Block. Crouching will create a layer below you, allowing for greater aerial mobility. Activating this Sigil costs 150 LP every 10 seconds while active, plus 1 LP per block created, until deactivated.");
-mods.thaumcraft.Infusion.addRecipe("SIGILOFPHANTOMBRIDGE", <AWWayofTime:imbuedSlate>, 
-[<AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>], 
+game.setLocalization("tc.research_page.SIGILOFPHANTOMBRIDGE", "你已经将目光投向了头顶的天空,但离地而行并不太方便.由此,你思考着,要是把地面带到身边会怎么样?<BR><BR>激活时,影桥印记会以玩家为中心创建一个5x5的幽灵方块平台.平台之外的幽灵方块将在5秒后消失.左键即可立即破坏幽灵方块,放置其他方块也可直接将其替换(可以利用此特性在空中建筑).下蹲即可在脚下更下一层创建幽灵方块,有更灵活的机动性.激活此印记每10秒消耗150LP,每制造一个方块额外消耗1LP.");
+mods.thaumcraft.Infusion.addRecipe("SIGILOFPHANTOMBRIDGE", <AWWayofTime:imbuedSlate>,
+[<AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>, <AWWayofTime:imbuedSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:1>, <EnderIO:blockIngotStorage:7>],
 "terra 48, alienis 32, iter 24, vitreus 16, potentia 8, praecantatio 8", <AWWayofTime:sigilOfTheBridge>, 9);
 mods.thaumcraft.Research.addInfusionPage("SIGILOFPHANTOMBRIDGE", <AWWayofTime:sigilOfTheBridge>);
 mods.thaumcraft.Warp.addToResearch("SIGILOFPHANTOMBRIDGE", 4);
