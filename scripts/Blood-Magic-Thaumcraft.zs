@@ -836,7 +836,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFTHEORB", true);
 mods.thaumcraft.Research.addPage("RUNEOFTHEORB", "tc.research_page.RUNEOFTHEORB");
-game.setLocalization("tc.research_page.RUNEOFTHEORB", "In your attempts to increase the maximum storage of a Soul Network, you perceived a way to do it without having to get a better Blood Orb, by enhancing the Altar with a specific Rune dedicated to the job, the Rune of the Orb.<BR><BR>Each one increases the amount of LP that can be transferred into a Soul Network by 4% of its original value. For the Weak Blood Orb, this is 100 LP per rune, but for the Archmage's Blood Orb it becomes 200,000 LP.");
+game.setLocalization("tc.research_page.RUNEOFTHEORB", "在提升灵魂网络最大容量的不断尝试中,你发现了一种无需升级气血宝珠的方法,即使用特定的符文增强祭坛,进而提升灵魂网络容量,而这种符文就是宝珠符文.<BR><BR>每个宝珠符文可提升转移进入灵魂网络的LP数量(原有值的4%).对于虚弱气血宝珠来说就是每个符文提升100LP,但对于贤者气血宝珠来说就是200,000LP了.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFTHEORB", <BloodArsenal:blood_stone:3>, 
 [<AWWayofTime:demonicSlate>, <BloodArsenal:blood_stone:3>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:3>], 
 "potentia 32, victus 24, motus 16, lucrum 8, praecantatio 4", <AWWayofTime:AlchemicalWizardrybloodRune:3>, 6);
