@@ -769,7 +769,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFTHEBLOODLAMP", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFTHEBLOODLAMP", "WATERSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFTHEBLOODLAMP", true);
 mods.thaumcraft.Research.addPage("SIGILOFTHEBLOODLAMP", "tc.research_page.SIGILOFTHEBLOODLAMP");
-game.setLocalization("tc.research_page.SIGILOFTHEBLOODLAMP", "All of this is riddled with energy, yet there is no visible light coming from anywhere. The behavior of Life Essence is unlike that of a Vis Node, and it seems to reject acting as a source of light until enough blood is provided at once.<BR><BR>The Sigil of the Blood Lamp allows you to create a Blood Light anywhere by right-clicking a block, at a 10 LP cost. The Blood Light emits light and serves as an improved light source with less visual clutter. Right clicking the Sigil while not facing a block will shoot a small projectile, dealing half a heart of damage on impact, costing 50 LP.");
+game.setLocalization("tc.research_page.SIGILOFTHEBLOODLAMP", "LP相关的一切都充满了能量,但却没有可见光发出.这一点与灵气节点截然相反,LP似乎拒绝充当光源,直到有一次你提供了充足的鲜血.<BR><BR>手持血光印记右键任意方块可消耗10LP制造一个血之光源.血之光源射出光芒,可作为一种进阶的光源,而且不易产生视觉混乱.不指向方块时右键可射出弹丸,消耗50LP,对被击中者造成半心伤害.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFTHEBLOODLAMP", <AWWayofTime:imbuedSlate>, 
 [<ThaumicTinkerer:brightNitor>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>, <ThaumicTinkerer:brightNitor>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>, <BloodArsenal:blood_stone:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>], 
 "lux 48, ignis 32, aer 32, potentia 24, sensus 16, praecantatio 8", <AWWayofTime:itemBloodLightSigil>, 4);
