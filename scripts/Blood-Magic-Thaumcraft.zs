@@ -836,7 +836,7 @@ mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFTHEORB", "RUNESACRIFICE", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFTHEORB", true);
 mods.thaumcraft.Research.addPage("RUNEOFTHEORB", "tc.research_page.RUNEOFTHEORB");
-game.setLocalization("tc.research_page.RUNEOFTHEORB", "在提升灵魂网络最大容量的不断尝试中,你发现了一种无需升级气血宝珠的方法,即使用特定的符文增强祭坛,进而提升灵魂网络容量,而这种符文就是宝珠符文.<BR><BR>每个宝珠符文可提升转移进入灵魂网络的LP数量(原有值的4%).对于虚弱气血宝珠来说就是每个符文提升100LP,但对于贤者气血宝珠来说就是200,000LP了.");
+game.setLocalization("tc.research_page.RUNEOFTHEORB", "在提升灵魂网络最大容量的不断尝试中,你发现了一种无需升级气血宝珠的方法,即使用特定的符文增强祭坛,进而提升灵魂网络容量,而这种符文就是宝珠符文.<BR><BR>每个宝珠符文可提升转移进入灵魂网络的LP数量(原有值的4%,加法).对于虚弱气血宝珠来说就是每个符文提升100LP,但对于贤者气血宝珠来说就是200,000LP了.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFTHEORB", <BloodArsenal:blood_stone:3>, 
 [<AWWayofTime:demonicSlate>, <BloodArsenal:blood_stone:3>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseItems:1>, <AWWayofTime:demonicSlate>, <AWWayofTime:bloodMagicBaseAlchemyItems:8>, <BloodArsenal:blood_stone:3>], 
 "potentia 32, victus 24, motus 16, lucrum 8, praecantatio 4", <AWWayofTime:AlchemicalWizardrybloodRune:3>, 6);
@@ -850,9 +850,9 @@ mods.thaumcraft.Research.addPrereq("RUNEOFSUPERIORCAPACITY", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RUNEOFSUPERIORCAPACITY", "RUNEOFARGUMENTEDCAPACITY", false);
 mods.thaumcraft.Research.setConcealed("RUNEOFSUPERIORCAPACITY", true);
 mods.thaumcraft.Research.addPage("RUNEOFSUPERIORCAPACITY", "tc.research_page.RUNEOFSUPERIORCAPACITY.1");
-game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.1", "In another one of your deep exploits, you have resurfaced with a variation on a useful rune you already had. The Rune of Superior Capacity increases the capacity of the altar by 14% LP, unlike its sibling that increases it by a flat amount. These are multiplicative: two is 29%, three is 48% and so on. With fewer than 15 runes dedicated to capacity, it is more efficient to use Runes of Augmented Capacity.<BR><BR>The effects of having both runes of augmented capacity and runes of superior capacity stack, but runes of superior capacity do NOT multiply the 2,000 added by each rune of augmented capacity, only the original 10,000.");
+game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.1", "在对符文学的深入探索过程中,你重构了某种早期的有用符文,研发出了超容符文.它不像其前身只能增加固定容量,而是会按照百分比提升祭坛容量(14%).而且这种提升为乘法:两个超容符文提升29%,三个48%,以此类推.至于使用增容符文还是超容符文,少于15个符文时,用增容符文更有效率.<BR><BR>虽然增容符文和超容符文的效果可以同时生效,但超容符文不会对增容符文提升的n*2000容量生效,仅对祭坛的基础10000容量有效.");
 mods.thaumcraft.Research.addPage("RUNEOFSUPERIORCAPACITY", "tc.research_page.RUNEOFSUPERIORCAPACITY.2");
-game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.2", "The capacity of your altar can be calculated with the formula: (3500*A) + (10000)*(1.14)^S, where A is equal to the number of Runes of Augmented Capacity and S is equal to the number of Runes of Superior Capacity are in place.");
+game.setLocalization("tc.research_page.RUNEOFSUPERIORCAPACITY.2", "祭坛的容量可以通过以下公式计算:(3500*A)+(10000)*(1.14)^S,式中A为增容符文数量,S为超容符文数量.");
 mods.thaumcraft.Infusion.addRecipe("RUNEOFSUPERIORCAPACITY", <BloodArsenal:blood_stone:3>, 
 [<irontank:diamondTank>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:3>, <AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:demonicSlate>, <irontank:diamondTank>, <AWWayofTime:magicales>, <BloodArsenal:blood_stone:3>, <AWWayofTime:magicales>, <AWWayofTime:bloodMagicBaseItems:24>, <AWWayofTime:demonicSlate>], 
 "potentia 48, aqua 32, cognitio 24, lucrum 16, praecantatio 8, alienis 4, ", <AWWayofTime:AlchemicalWizardrybloodRune:4>, 8);
