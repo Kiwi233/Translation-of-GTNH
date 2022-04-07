@@ -784,7 +784,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFSIGHT", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFSIGHT", "DIVINATIONSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFSIGHT", true);
 mods.thaumcraft.Research.addPage("SIGILOFSIGHT", "tc.research_page.SIGILOFSIGHT");
-game.setLocalization("tc.research_page.SIGILOFSIGHT", "You find yourself seeing things more clearly as your Altar structure becomes more composed. The Sigil you used before to look into the Altar's secrets can tell you more if it is treated with a good enough orb, and the result is the Sigil of Sight.<BR><BR>When used on a Blood Altar, it shows the item progress, consumption rate, current essence and input/output tanks, at no LP cost per usage. With this, you can better assess the performance of your Altar, and track it as it is upgraded.");
+game.setLocalization("tc.research_page.SIGILOFSIGHT", "随着你的祭坛结构渐趋稳定,你也逐渐洞悉其内部运行.你将早期研发的占卜印记通过注魔进行了一番升级,,制成了见解印记.<BR><BR>手持此印记对血之祭坛使用,即可显示物品处理进度、LP消耗率、当前LP,以及输入/输出槽状态,使用此印记不消耗LP.有了这个印记,你可以更好地评估祭坛性能,并实时追踪其升级变化.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFSIGHT", <AWWayofTime:divinationSigil>, 
 [<Thaumcraft:ItemZombieBrain>, <TConstruct:GlassPane>, <AWWayofTime:crystallos>, <TConstruct:GlassPane>, <Thaumcraft:ItemZombieBrain>, <TConstruct:GlassPane>, <AWWayofTime:crystallos>, <TConstruct:GlassPane>], 
 "ordo 24, sensus 18, cognitio 12, vitreus 6, praecantatio 4", <AWWayofTime:seerSigil>, 3);
