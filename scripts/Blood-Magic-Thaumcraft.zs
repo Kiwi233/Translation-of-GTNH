@@ -1132,7 +1132,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFWHIRLWIND", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFWHIRLWIND", "AIRSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFWHIRLWIND", true);
 mods.thaumcraft.Research.addPage("SIGILOFWHIRLWIND", "tc.research_page.SIGILOFWHIRLWIND");
-game.setLocalization("tc.research_page.SIGILOFWHIRLWIND", "With a flicker of the hand, far away objects will come to you, but with another they will be thrown away. You have since mastered these two gestures, and imbued them into Sigils to automatically cause the effects.<BR><BR>The Sigil of the Whirlwind, when active, deflects projectiles and arrows fired at you. Activating this Sigil costs 350 LP per use. When socketed into Bound Armor, the Sigil of the Whirlwind has the same deflection effect.");
+game.setLocalization("tc.research_page.SIGILOFWHIRLWIND", "轻轻一挥手,远处的物品就会来到你身边,再一挥手,它们就会被弹开.你已经掌握了这两个手势,并将它们灌注进了印记之中,以自动产生效果.<BR><BR>激活旋风印记后,它会偏转射向持有者的弹射物和箭.每次激活消耗350LP.插入约束装甲时效果相同.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFWHIRLWIND", <AWWayofTime:airSigil>, 
 [<TwilightForest:item.tfFeather>, <AWWayofTime:aether>, <EMT:EMTItems:7>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <AWWayofTime:aether>, <TwilightForest:item.tfFeather>, <AWWayofTime:aether>, <EMT:EMTItems:7>, <AWWayofTime:demonicSlate>, <minecraft:ghast_tear>, <AWWayofTime:aether>], 
 "aer 72, tutamen 48, potentia 32, victus 32, sano 16, cognitio 16, superbia 8, nebrisum 8", <AWWayofTime:sigilOfWind>, 12);
