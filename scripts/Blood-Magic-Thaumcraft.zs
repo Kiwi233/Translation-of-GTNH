@@ -1163,7 +1163,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFENDERSEVERANCE", "SIGILOFELEMENTALAFF
 mods.thaumcraft.Research.addPrereq("SIGILOFENDERSEVERANCE", "OCULUS", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFENDERSEVERANCE", true);
 mods.thaumcraft.Research.addPage("SIGILOFENDERSEVERANCE", "tc.research_page.SIGILOFENDERSEVERANCE");
-game.setLocalization("tc.research_page.SIGILOFENDERSEVERANCE", "You have tapped enough into the magic of teleportation to learn how to disable it, and you came up with the equivalent Sigil in an instant.<BR><BR>The Sigil of Ender Severance, named after the black terrors who do it so often, prevents teleporting, meaning that those monsters cannot dodge ranged attacks anymore. It has an effect range over an area of 11 x 11 x 11 blocks, centered on you.  This sigil costs 300 LP per 10 seconds while active.");
+game.setLocalization("tc.research_page.SIGILOFENDERSEVERANCE", "你已经洞悉了传送魔法的本质,并掌握了如何打断传送,很快你就研发出了同样效果的印记.<BR><BR>绝影印记,以曾经精于传送的黑色梦魇为名,可以打断传送,范围是以玩家为中心超过11x11x11格.此印记使玩家可以用远程武器轻松攻击末影人,而不像平时那样被末影人闪过攻击然后传送至背后爆*花.激活时此印记每10秒消耗300LP.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFENDERSEVERANCE", <AWWayofTime:bloodMagicBaseItems:27>, 
 [<Thaumcraft:ItemEldritchObject>, <AWWayofTime:demonicSlate>, <StevesCarts:ModuleComponents:45>, <TConstruct:slime.gel:2>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>, <gregtech:gt.metaitem.01:32724>, <AWWayofTime:bloodMagicBaseAlchemyItems:7>, <TConstruct:slime.gel:2>, <StevesCarts:ModuleComponents:45>, <AWWayofTime:demonicSlate>], 
 "alienis 16, cognitio 72, humanus 16, potentia 64, vinculum 48, limus 32, nebrisum 8", <AWWayofTime:sigilOfEnderSeverance>, 17);
