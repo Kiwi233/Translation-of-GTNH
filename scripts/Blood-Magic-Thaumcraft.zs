@@ -1147,7 +1147,7 @@ mods.thaumcraft.Research.addPrereq("SIGILOFSUPRESSION", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SIGILOFSUPRESSION", "VOIDSIGIL", false);
 mods.thaumcraft.Research.setConcealed("SIGILOFSUPRESSION", true);
 mods.thaumcraft.Research.addPage("SIGILOFSUPRESSION", "tc.research_page.SIGILOFSUPRESSION");
-game.setLocalization("tc.research_page.SIGILOFSUPRESSION", "It's impressive, what a Blood Mage with a blank mind can come up with. You have seen the possibility to create fluids, and to delete fluids, but never to do both at the same time. What could stop a sufficienly resourceful mage from accomplishing this?<BR><BR>The Sigil of Supression, a rather fun experiment, temporarily removes any fluid source within a 5 block radius. Once it is disabled, or you move out of range, the sources will return. Activating this Sigil costs 500 LP every 10 seconds until deactivated. When socketed into Bound Armor, it has the same effect.");
+game.setLocalization("tc.research_page.SIGILOFSUPRESSION", "对于一名脑袋不太灵光的血法师来说,这已经很厉害了.你已经看到了生成流体以及移除流体的可能性,但绝不能同时进行这两种操作.但有什么能难道一名富有想象力的大法师呢?<BR><BR>抑液印记,它是一个相当有趣的试验品,可以暂时移除半径5格内的任何流体方块.而关闭印记或是玩家移动出范围后,这些被移除的流体方块就会返回原处.激活此印记每10秒消耗500LP.插入约束装甲时效果相同.");
 mods.thaumcraft.Infusion.addRecipe("SIGILOFSUPRESSION", <AWWayofTime:voidSigil>, 
 [<AWWayofTime:blockTeleposer>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <AWWayofTime:demonicSlate>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:tennebrae>, <minecraft:bucket>, <AWWayofTime:demonicSlate>, <AWWayofTime:tennebrae>, <minecraft:bucket>], 
 "vacuos 72, auram 16, aqua 64, metallum 8, praecantatio 32, terra 32, motus 16", <AWWayofTime:sigilOfSupression>, 15);
