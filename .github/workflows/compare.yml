@@ -1,0 +1,122 @@
+name: Compare
+on:
+  issues:
+    types: [ opened ]
+jobs:
+  check-and-parse-issue:
+    name: Check And Parse Issue
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+      #- run: |
+      #    python3 -m pip install -r requirements.txt
+      - name: Checkout MuXiu1997/GTNH-translation-compare
+        uses: actions/checkout@v3
+        with:
+          repository: MuXiu1997/GTNH-translation-compare
+      - name: Run Script
+        id: check-and-parse-issue
+        env:
+          GITHUB_ISSUE: ${{ toJSON(github.event.issue) }}
+          VALID_LABEL: 自动化:新版本对比
+          VALID_USER: ${{ github.repository_owner }}
+        run: |
+          python3 parse_issue.py
+    outputs:
+      passed: ${{ steps.check-and-parse-issue.outputs.passed }}
+      old-modpack-url: ${{ steps.check-and-parse-issue.outputs.old-modpack-url }}
+      new-modpack-url: ${{ steps.check-and-parse-issue.outputs.new-modpack-url }}
+      old-modpack-name: ${{ steps.check-and-parse-issue.outputs.old-modpack-name }}
+      new-modpack-name: ${{ steps.check-and-parse-issue.outputs.new-modpack-name }}
+      old-version: ${{ steps.check-and-parse-issue.outputs.old-version }}
+      new-version: ${{ steps.check-and-parse-issue.outputs.new-version }}
+      reference-branch: ${{ steps.check-and-parse-issue.outputs.reference-branch }}
+      branch: ${{ steps.check-and-parse-issue.outputs.branch }}
+
+  close-issue:
+    name: Close Issue
+    needs: check-and-parse-issue
+    if: ${{ needs.check-and-parse-issue.outputs.passed != 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close Issue
+        uses: peter-evans/close-issue@v2.0.0
+        with:
+          comment: |
+            此模板仅由内部人员使用，已自动关闭。
+
+  compare:
+    name: Compare
+    needs: check-and-parse-issue
+    if: ${{ needs.check-and-parse-issue.outputs.passed == 'true' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+      #- run: |
+      #    python3 -m pip install -r requirements.txt
+      - name: Checkout MuXiu1997/GTNH-translation-compare
+        uses: actions/checkout@v3
+        with:
+          repository: MuXiu1997/GTNH-translation-compare
+      - name: Ensure .temp
+        run: mkdir -p .temp
+      - name: Ensure Old Modpack
+        id: ensure-old-modpack
+        uses: ./.github/actions/ensure-modpack
+        with:
+          dir: .temp
+          url: ${{ needs.check-and-parse-issue.outputs.old-modpack-url }}
+          name: ${{ needs.check-and-parse-issue.outputs.old-version }}
+      - name: Ensure New Modpack
+        id: ensure-new-modpack
+        uses: ./.github/actions/ensure-modpack
+        with:
+          dir: .temp
+          url: ${{ needs.check-and-parse-issue.outputs.new-modpack-url }}
+          name: ${{ needs.check-and-parse-issue.outputs.new-version }}
+      - name: Checkout Reference Translation Pack
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ needs.check-and-parse-issue.outputs.reference-branch }}
+          path: '.reference'
+      - name: Checkout Work Repo
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ needs.check-and-parse-issue.outputs.branch }}
+          path: '.repo'
+      - name: Setup Git
+        run: |
+          git config user.name 'MuXiu1997'
+          git config user.email 'muxiu1997@gmail.com'
+        working-directory: '.repo'
+      - name: Compare
+        id: compare
+        run: >-
+          python3 main.py
+          --new-version='${{ needs.check-and-parse-issue.outputs.new-version }}'
+          --old-modpack-path='.temp/${{ needs.check-and-parse-issue.outputs.old-version }}'
+          --new-modpack-path='.temp/${{ needs.check-and-parse-issue.outputs.new-version }}'
+          --reference-path='.reference'
+          --output-path='.output'
+          --repo-path='.repo'
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v4.0.0
+        with:
+          title: '[自动化${{ needs.check-and-parse-issue.outputs.new-version }}]新版本对比'
+          body: |
+            旧版整合包链接: ${{ needs.check-and-parse-issue.outputs.old-modpack-url }}
+            新版整合包链接: ${{ needs.check-and-parse-issue.outputs.new-modpack-url }}
+            close #${{ github.event.issue.number }}
+          labels: |
+            自动化:新版本对比
+          branch: automation/compare/${{ github.event.issue.number }}
+          path: '.repo'

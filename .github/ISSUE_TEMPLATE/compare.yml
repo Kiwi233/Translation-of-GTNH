@@ -1,0 +1,30 @@
+---
+name: 生成新版本对比PR
+description: 对比新版整合包变化, 基于新版整合包生成新版翻译并添加PR(仅内部使用)
+labels: [ '自动化:新版本对比' ]
+
+body:
+  - type: input
+    id: old_modpack_url
+    attributes:
+      label: 旧版整合包链接
+    validations:
+      required: true
+  - type: input
+    id: new_modpack_url
+    attributes:
+      label: 新版整合包链接
+    validations:
+      required: true
+  - type: input
+    id: reference_branch
+    attributes:
+      label: 对比分支
+    validations:
+      required: true
+  - type: input
+    id: branch
+    attributes:
+      label: 提交分支
+    validations:
+      required: true
