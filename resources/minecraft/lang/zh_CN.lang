@@ -5990,7 +5990,7 @@ gtnh.quest1496.desc=GregTech矿石生成基于矿脉. 矿脉以矿石中心为�
 
 # Quest.1497 - §2§lDigging Deeper
 gtnh.quest1497.name=§2§l深层发掘
-#C gtnh.quest1497.desc=既然你知道在哪里挖掘,就一直挖到基岩,找出那里是否有矿脉.%n%n现在,如果你知道自己想要什么但却找不到它会怎么样？ 我们花哨的开发人员bartimausnek为NEI添加了一个漂亮的功能,向你展示在哪里可以找到矿石! 只需查看NEI中的矿石块,然后点击它就可以得到矿石的位置信息.%n%n确保你查看的是Gregtech的各种矿石. 贫瘠矿同样支持此功能,但并非所有贫瘠矿都支持.
+gtnh.quest1497.desc=你已经知道了应该在哪里挖掘,那就一直挖到基岩,找出那里是否有矿脉.%n%n那么,如果你知道自己想要什么但却找不到它会怎么样？我们睿智的开发人员bartimausnek为NEI添加了一个实用的新功能,向你展示在哪里可以找到矿石! 只需查看NEI中的矿石块,然后点击它就可以得到矿石的位置信息.%n%n确保你查看的是Gregtech的各种矿石.贫瘠矿同样支持此功能,但并非所有贫瘠矿都支持.
 
 # Quest.1498 - §2§lA Dimension by Any Other Name...
 gtnh.quest1498.name=§2§l任何其他名称的世界...
@@ -6130,7 +6130,7 @@ gtnh.quest1531.desc=每枚火箭都需要一台控制电脑,且电脑需要匹�
 
 # Quest.1532 - Tier 4 Heavy Duty Plates
 gtnh.quest1532.name=4阶重型装甲板
-#C gtnh.quest1532.desc=火箭的主箭体需要重型装甲板. 让我们用3阶重型装甲板和压缩冰板制作13个4阶重型装甲板.%n%n§3合成中涉及钌铱合金螺栓,但Bart的东西坏了,他也还没修,在他修复这个问题之前,这个任务会一直在这.
+gtnh.quest1532.desc=火箭的主箭体需要重型装甲板. 让我们用3阶重型装甲板和压缩冰板制作13个4阶重型装甲板.
 
 # Quest.1533 - §b§lCallisto Trip
 gtnh.quest1533.name=§b§l木卫四之旅
@@ -6666,7 +6666,7 @@ gtnh.quest1665.desc=现在你有了HSS-G,是时候制作HSS-S了. 这种新型�
 
 # Quest.1666 - §c§b§lArgon
 gtnh.quest1666.name=§c§b§l氩
-#C gtnh.quest1666.desc=要处理一些你以后会发现的新锭,你需要氩气. 氩气第一个来源来自空气中的少量存在(稀有气体). 不同于直接离心压缩空气单元,你需要先将其在真空冷冻机内转化成液态空气单元,这样才能更有效地离心.%n%n真空冷冻机只能处理单元,但后面的升级版本可直接处理流体. 你还可以制造进气仓替代压缩机,效果碾压. 不过进气仓仅兼容升级版真空冷冻机和多方块火箭引擎(译者注: 实际上大化反、大离心、化工厂均兼容),不过你可以将生产出的空气泵出装单元,然后就可以用在真空冷冻机了. HV泵或者EIO流体导管就足够了. %n%n除非你对某些稀有气体感兴趣,不然的话不用在意蒸馏塔的配方,它比不上离心配方. 蒸馏塔蒸馏液态空气还要求液态空气仓(只对液态空气有效)和巨型输出仓.%n%n§3巨型真空冷冻机与普通真空冷冻机性质类似,也只能处理单元,而升级版凛冰冷冻机却可以直接处理流体.
+gtnh.quest1666.desc=要处理一些你以后会发现的新锭,你需要氩气. 氩气第一个来源来自空气中的少量存在(稀有气体). 不同于直接离心压缩空气单元,你需要先将其在真空冷冻机内转化成液态空气单元,这样才能更有效地离心.%n%n你还可以制造进气仓替代压缩机,效果碾压.%n%n除非你对某些稀有气体感兴趣,不然的话不用在意蒸馏塔的配方,它比不上离心配方. 蒸馏塔蒸馏液态空气还要求液态空气仓(只对液态空气有效)和巨型输出仓.
 
 # Quest.1667 - §b§lYour First Naquadah Ingot
 gtnh.quest1667.name=§b§l你的第一块硅岩锭
@@ -7630,7 +7630,7 @@ gtnh.quest1906.desc=如果你有堆积如山的原木、树苗、地狱岩或别
 
 # Quest.1907 - §6§lOne in a Million
 gtnh.quest1907.name=§6§l百万归一
-#C gtnh.quest1907.desc=还是四百万归一?想要存储无穷无尽的圆石?石粉?树苗?超级箱正是你所需要的东西.一个最简单的超级箱I就可以存储四百万物品,放轻松.你可以一次手动取出一组64个物品,或是使用传送带之类的快速抽取.%n%n将如此数量的物品压缩到这么小的空间里是要付出代价的——无法移动.你最好确定这就是你想要存放百万原木的地方.
+gtnh.quest1907.desc=还是四百万归一?想要存储无穷无尽的圆石?石粉?树苗?超级箱正是你所需要的东西.一个最简单的超级箱I就可以存储四百万物品,放轻松.你可以一次手动取出一组64个物品,或是使用传送带之类的快速抽取.
 
 # Quest.1908 - §3§lLucifer's Little Helper
 gtnh.quest1908.name=§3§l路西法(堕落天使)的小帮手
@@ -8646,7 +8646,7 @@ gtnh.quest2160.desc=另一个自定义方块系统! 木匠方块(Carpenter's-blo
 
 # Quest.2161 - §3§lSafety First
 gtnh.quest2161.name=§3§l安全第一
-#C gtnh.quest2161.desc=对于那些GT新手,这里有些用电方面的提示和警告.%n%n机器不喜欢淋雨,否则附近就会着火.而机器附近的火有随机几率引爆机器.另外,给机器过高电压也会造成爆炸.%n%n在线缆里传输过高电压或过大电流会造成线缆被烧毁并在附近着火,而这可能造成机器爆炸.确保发电机和电池提供的电流数不超过线缆的传输能力.%n%n一台产生1A电流的发电机可能可以为多台机器供电-如果那些机器运行的配方低于满电压的话.举个例子,研磨机处理矿石时只需2EU/t,所以你可以用一台1A发电机带动好几台台研磨机,如果线缆不太长的话.(因为线损计算单位为/电流/米.请注意线缆会优于导线.)但是要当心!有时配方会需要超过你预想的高电压,比如研磨机沙子-->石英矿砂这个配方.%n%n某些机器专用于处理多电流,比如电池箱、变压器和线缆二级管.%n%n如果你需要输送大电流,可以使用更粗的线缆或超导导线(MV+).在后期,你还可以用激光仓输送巨量电流.%n%n跳电的单方块机器在重新有电后会重新开始处理,不会吞掉物品.但多方块机器跳电就会吞掉物品了.%n%n请注意,任何发送EU的方块都存在内阻,电压损失为2^电压等级. 比如LV损失2EU,MV损失4EU,以此类推.因此连续使用大量电池箱会对能量造成极大浪费,尤其在低电压阶段,甚至一个电池箱都会造成MV工业高炉无法稳定运行. 当然,如果你确实需要保持电流输送巅峰值,还是偶尔需要借助电池箱的,不过随着电压的升高,其内阻造成的损失影响也越来越小.%n%n如果这里还没有看明白的话,请转到 https://gtnh.miraheze.org/wiki/Electricity 阅读更多信息.%n%n WIKI 电力：§9gtnh.huijiwiki.com/p/149§r
+gtnh.quest2161.desc=对于那些GT新手,这里有些用电方面的提示和警告.%n%n机器不喜欢淋雨,否则附近就会着火.而机器附近的火有随机几率引爆机器.另外,给机器过高电压也会造成爆炸.%n%n在线缆里传输过高电压或过大电流会造成线缆被烧毁并在附近着火,而这可能造成机器爆炸.确保发电机和电池提供的电流数不超过线缆的传输能力.%n%n一台产生1A电流的发电机可能可以为多台机器供电-如果那些机器运行的配方低于满电压的话.举个例子,研磨机处理矿石时只需2EU/t,所以你可以用一台1A发电机带动好几台台研磨机,如果线缆不太长的话.(因为线损计算单位为/电流/米.请注意线缆会优于导线.)但是要当心!有时配方会需要超过你预想的高电压,比如研磨机沙子-->石英矿砂这个配方.%n%n某些机器专用于处理多电流,比如电池箱、变压器和线缆二级管.%n%n如果你需要输送大电流,可以使用更粗的线缆或超导导线(MV+).在后期,你还可以用激光仓输送巨量电流.%n%n跳电的单方块机器在重新有电后会重新开始处理,不会吞掉物品.但多方块机器跳电就会吞掉物品了.%n%n请注意,任何发送EU的方块都存在内阻,电压损失为2^电压等级. 比如LV损失2EU,MV损失4EU,以此类推.因此连续使用大量电池箱会对能量造成极大浪费,尤其在低电压阶段,甚至一个电池箱都会造成MV工业高炉无法稳定运行. 当然,如果你确实需要保持电流输送巅峰值,还是偶尔需要借助电池箱的,不过随着电压的升高,其内阻造成的损失影响也越来越小.%n%n如果这里还没有看明白的话,请转到 https://gtnh.miraheze.org/wiki/Electricity 阅读更多信息.%n%n WIKI 电力：§9gtnh.huijiwiki.com/p/149§r
 
 # Quest.2162 - Copper
 gtnh.quest2162.name=铜蜂
@@ -9890,7 +9890,7 @@ gtnh.quest2471.desc=它的材质看起来很花哨,不过它的确能够存储�
 
 # Quest.2472 - 256k Crafting Storage
 gtnh.quest2472.name=256k合成存储器
-#C gtnh.quest2472.desc=构建合成CPU的组件,可提供262,144字节合成缓存.%n%n§4目前EC2添加的大容量合成存储器存在bug----你需要使用至少一个原版AE2合成存储器,才能让ME网络识别这个合成CPU.
+gtnh.quest2472.desc=构建合成CPU的组件,可提供262,144字节合成缓存.
 
 # Quest.2473 - 1024k Crafting Storage
 gtnh.quest2473.name=1024k合成存储器
@@ -9902,7 +9902,7 @@ gtnh.quest2474.desc=构建合成CPU的组件,可提供4,194,304字节合成缓�
 
 # Quest.2475 - 16384k Crafting Storage
 gtnh.quest2475.name=16384k合成存储器
-#C gtnh.quest2475.desc=构建合成CPU的组件,可提供4,194,304字节合成缓存.
+gtnh.quest2475.desc=构建合成CPU的组件,可提供16,777,216字节合成缓存.
 
 # Quest.2476 - AE Tier 4 Item Storage
 gtnh.quest2476.name=4阶AE存储
@@ -10222,7 +10222,7 @@ gtnh.quest2554.desc=到处都是虫子(bug)! 这些该死的混蛋. 最好快逃
 
 # Quest.2555 - Underground Fluids
 gtnh.quest2555.name=地下的流体
-#C gtnh.quest2555.desc=你可能想知道地下都有些什么流体,这里有一个列表. 按火箭等级与行星分类,带有地下流体区块(8x8普通区块)生成几率和最大储量这两个数据. 没有列出的世界就没有地下流体.%n%n§c此表随时可能因平衡而更改!§r%n%n§2示例:%n%nX阶火箭:%n世界/行星%n流体 <代表这种流体出现的可能性的数字> <表示8x8区块流体田内,单区块中可能的最大储量. 除非另外说明,否则它们的意思就是储量在0-#之间>%n存在的其他流体 <同上> <同上>%nEtc§r%n%n%n§50阶火箭:§r%n主世界%n天然气 20 350%n石油 20 625%n原油 20 625%n轻油 20 625%n重油 20 625%n%n%n§51阶火箭:§r%n月球%n氦-3 100 425%n盐水 20 200%n%n%n§52阶火箭:§r%n火星%n氯苯 100 400%n盐水 100 400%n%n%n§53阶火箭:§r%n木卫四%n液态空气 100 2-20%n氧气 100 200%n%n木卫二%n蒸馏水 80 3500%n盐水 100 800%n极重油 20 200%n%n罗斯128b%n蒸馏水 100 5000%n岩浆 5 32767%n天然气 65 625%n极重油 40 625%n%n%n§54阶火箭:§r%n木卫一%n二氧化碳 80 750%n熔融铅 20 650%n硫酸 80 350%n%n水星%n氦-3 100 800%n熔融铁 30 400%n%n金星%n二氧化碳 100 1500%n熔融铅 100 1600%n硫酸 100 250%n%n%n§55阶火箭:§r%n天卫五%n硫化氢 100 900%n%n天卫四%n一氧化碳 100 2000%n%n罗斯128ba%n氦-3 60 1250%n盐水 40 1250%n%n土卫六%n乙烷 100 200%n甲烷 100 800%n%n%n§56阶火箭:§r%n海卫八%n氘 100 700%n%n海卫一%n乙烯 100 800%n氮气 100 800%n%n%n§57阶火箭:§r%n鸟神星%n氢氟酸 80 300%n%n冥王星%n氟 80 4-800%n液态空气 40 4-40%n氮气 100 800%n氧气 100 800%n%n%n§58阶火箭:§r%n半人马Bb%n熔融铜 10 300%n%n巴纳德C%n蒸馏水 100 8000%n不明液体 100 300%n极重油 100 800%n%n巴纳德E%n液态空气 20 20%n%n巴纳德F%n熔融锡 15 400%n%n鲸鱼座T星E%n蒸馏水 100 10000%n氢气 50 700%n极重油 100 200
+gtnh.quest2555.desc=你可能想知道地下都有些什么流体,这里有一个列表. 按火箭等级与行星分类,带有地下流体区块(8x8普通区块)生成几率和最大储量这两个数据. 没有列出的世界就没有地下流体.%n%n§c此表随时可能因平衡而更改!§r%n%n§2示例:%n%nX阶火箭:%n世界/行星%n流体 <代表这种流体出现的可能性的数字> <表示8x8区块流体田内,单区块中可能的最大储量. 除非另外说明,否则它们的意思就是储量在0-#之间>%n存在的其他流体 <同上> <同上>%nEtc§r%n%n%n§50阶火箭:§r%n主世界%n天然气 20 350%n石油 20 625%n原油 20 625%n轻油 20 625%n重油 20 625%n%n%n§51阶火箭:§r%n月球%n氦-3 100 425%n盐水 20 200%n%n%n§52阶火箭:§r%n火星%n氯苯 100 400%n盐水 100 400%n%n%n§53阶火箭:§r%n木卫四%n液态空气 100 2-20%n氧气 100 200%n%n木卫二%n蒸馏水 80 3500%n盐水 100 800%n极重油 20 200%n%n罗斯128b%n蒸馏水 100 5000%n岩浆 5 820%n天然气 65 625%n极重油 40 625%n%n%n§54阶火箭:§r%n木卫一%n二氧化碳 80 750%n熔融铅 20 650%n硫酸 80 350%n%n水星%n氦-3 100 800%n熔融铁 30 400%n%n金星%n二氧化碳 100 1500%n熔融铅 100 1600%n硫酸 100 250%n%n%n§55阶火箭:§r%n天卫五%n硫化氢 100 900%n%n天卫四%n一氧化碳 100 2000%n%n罗斯128ba%n氦-3 60 1250%n盐水 40 1250%n%n土卫六%n乙烷 100 200%n甲烷 100 800%n%n%n§56阶火箭:§r%n海卫八%n氘 100 700%n%n海卫一%n乙烯 100 800%n氮气 100 800%n%n%n§57阶火箭:§r%n鸟神星%n氢氟酸 80 300%n%n冥王星%n氟 80 4-800%n液态空气 40 4-40%n氮气 100 800%n氧气 100 800%n%n%n§58阶火箭:§r%n半人马Bb%n熔融铜 10 300%n%n巴纳德C%n蒸馏水 100 8000%n不明液体 100 300%n极重油 100 800%n%n巴纳德E%n液态空气 20 20%n%n巴纳德F%n熔融锡 15 400%n%n鲸鱼座T星E%n蒸馏水 100 10000%n氢气 50 700%n极重油 100 200
 
 # Quest.2556 - §6§lBetter Glass Upgrade, EV Glass
 gtnh.quest2556.name=§6§l更好的玻璃,升级:EV玻璃
@@ -10870,7 +10870,7 @@ gtnh.quest2716.desc=与同等等级的武器,甚至与这把弓的合成材料�
 
 # Quest.2717 - The Ultimate Plastic
 gtnh.quest2717.name=终极塑料
-#C gtnh.quest2717.desc=拉多X聚合物. 一种高度复杂的塑料,然鹅目前完全没用... 不过闲的没事可以做做看. §l理论上§r.%n %n如果你敢于接受这一艰巨的挑战,你得准备好异氙菌. 配方类似于通用酵母菌,所以NEI里头没有... 请注意,所有这条线上的配方都是低概率配方.%n%n第一步是获取巴纳德菌,然后是DNA样品瓶,再然后是数据球. 如果你之前没有获得树苗和泥土(种植更多的树并获取原木)的话,回到巴纳德C采集一些吧.%n%n与通用酵母菌配方的唯一区别就是--巴纳德菌的数据球替换了普通酵母. 你需要先获取巴纳德菌质粒.%n%n再次,下一步的配方还是一样的,只是换成了鲸鱼座T星E菌和巴纳德菌质粒,这样就能制得异氙菌. 大概4％的几率.%n%n你也可以选择正常的配方来制取更多培养皿,因为复制很容易失败.%n%n从这一点来看,一目了然,但基本上,只有超轻拉多X和钝化异氙(所以你可以再来一次)是有点用的. 其他的所有产物都完全没用.%n%n祝你玩得开心!
+gtnh.quest2717.desc=拉多X聚合物%n%n如果你敢于接受这一艰巨的挑战,你得准备好异氙菌.配方类似于通用酵母菌,所以NEI里头没有... 请注意,所有这条线上的配方都是低概率配方.%n%n第一步是获取巴纳德菌,然后是DNA样品瓶,再然后是数据球.如果你之前没有获得树苗和泥土(种植更多的树并获取原木)的话,回到巴纳德C采集一些吧.%n%n与通用酵母菌配方的唯一区别就是--巴纳德菌的数据球替换了普通酵母.你需要先获取巴纳德菌质粒.%n%n再次,下一步的配方还是一样的,只是换成了鲸鱼座T星E菌和巴纳德菌质粒,这样就能制得异氙菌.大概4％的几率.%n%n你也可以选择正常的配方来制取更多培养皿,因为复制很容易失败.%n%n从这一点来看,一目了然,但基本上,只有超轻拉多X和钝化异氙(所以你可以再来一次)是有点用的.其他的所有产物都完全没用.%n%n祝你玩得开心!
 
 # Quest.2718 - Does Anyone Even Still Use These?
 gtnh.quest2718.name=还有人会用吗?
@@ -11425,7 +11425,7 @@ gtnh.quest2855.name=输送源质
 gtnh.quest2855.desc=这些镜子可以帮助你从不同的位置将源质传输到注魔祭坛里.这样的话你就可以把那些讨厌的源质管子从你的注魔祭坛上面拿下去了.此外,这些镜子可能还有一些其他的用途... (详细信息参考魔导手册炼化学-源质之镜)%n%n你有一种直觉,拥有更强能量的金属会有非常有趣的用途..
 
 # Quest.2856 - §6§lAdvanced MB Construction
-#C gtnh.quest2856.name=§6§l多方块机器结构-进阶
+gtnh.quest2856.name=§6§l多方块机器结构-进阶
 gtnh.quest2856.desc=旋转多方块机器、显示其全息图的功能是从§9Tec§1Tech§r§o借(嫖)来的§r,这赋予了你更大的建造自由度! §5(至少等我们nerf了多方块共用墙壁/仓室)§r%n%n与TecTech不同,你可以用普通扳手做到这一点,只需要瞄准控制器正面中心(或是其他的某一面.你只需要瞄准网格的相应部分),然后右键或Shift+右键. 前者会将其顺时针旋转,而后者会把它翻转. 请注意,普通扳手§c无法用于TecTech多方块机器§r.你需要TecTech的扳手才行. 至于正常旋转控制器的朝向,还是以前的操作方式.%n%n使用多方块机器全息投影仪或多方块机器蓝图,以可视化多方块机器结构,请注意左下角聊天栏显示的结构细节.%n%n§3如果这么讲太抽象了,你可以试着放置一个控制器,然后对它使用扳手,然后试试多方块机器蓝图.§r%n%n虽然现在工业高炉已经支持旋转-你可以搭一个躺着的高炉,甚至把高炉埋到地板里,但不是所有机器都支持旋转. 不支持的包括: GT附属mod,比如KekzTech的机器,还未升级;非GT系多方块机器(显然);木炭堆、砖高炉、蒸馏塔、采矿场、虚空采矿场、细菌培养缸、深地热泵以及巨型工业高炉、巨型真空冷冻机和巨型蒸馏塔.%n%n§3PS: 我们确实得到了授权,那只是个小玩笑.
 
 # Quest.2857 - Magic Mirror Glass?
@@ -11841,7 +11841,7 @@ gtnh.quest2959.name=硅岩燃料精炼厂
 gtnh.quest2959.desc=这台疯狂的机器是用来制造MkIII及以上硅岩燃料的.%n%n它的超频机制类似聚变反应堆--不能通过简单升压实现超频.你得用更高阶的线圈才行.%n%n这台多方块机器还支持§9Tec§1Tech§r多A能源仓和激光仓.%n%n举个例子,MkIV硅岩燃料要求2阶线圈,而精炼厂实际安装了3阶线圈,那么会进行一次无损超频--功率x2,时间减半.
 
 # Quest.2960 - Tier 2 Coil
-#C gtnh.quest2960.name=2阶线圈
+gtnh.quest2960.name=2阶线圈
 gtnh.quest2960.desc=2阶线圈可以解锁MkIV、MkV燃料.
 
 # Quest.2961 - Naquadah Based Fuel MkI
@@ -11865,7 +11865,7 @@ gtnh.quest2965.name=硅岩基流体燃料-MkV
 gtnh.quest2965.desc=每mB出产1B-EU/t,持续10秒.我必须承认这是一场灾难. 你可以用43k单元的MKV燃料,填满一个UHV兰波顿电容.
 
 # Quest.2966 - Tier 3 Coil
-#C gtnh.quest2966.name=3阶线圈
+gtnh.quest2966.name=3阶线圈
 gtnh.quest2966.desc=为了超频! 等等,你想超频UXV合成表?
 
 # Quest.2967 - Incomplete Combustion
@@ -12149,216 +12149,216 @@ gtnh.quest3036.name=触发:跳过硅岩处理
 gtnh.quest3036.desc=没有描述.
 
 # Quest.3037 - Space Pumping
-#N gtnh.quest3037.name=Space Pumping
-#N gtnh.quest3037.desc=You might have already wondered: There are these enormous gas planets in the solar system - isn't there a way to "harvest" them? Indeed there is. By constructing the "Planetary Gas Siphon" multiblock, you are able to pump from the infinite supply of gas found on Jupiter, Saturn, Uranus and Neptune. You just need to build a space station around a gas planet to get near enough to be able to reach the gas without falling into it.%n%nBy pumping on different depths, you are able to extract different gases. The depth is controlled by a Programmed Circuit. You need to supply 64 * depth Mining Pipes to be able to rach the selected depth.%n%nWhile operational, the multiblock needs d*4^(t+2) EU/t (t is the space station's tier and d is the depth).%n%n%n§oJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
+gtnh.quest3037.name=太空钻机
+gtnh.quest3037.desc=可能你一直就有疑问：太阳系中有这么多气态巨行星-有没有办法"收获"它们?当然有.只要构建"行星气体钻机"这种多方块机器,你就可以无限抽取那些气态巨行星(木星、土星、天王星和海王星)的大气了.当然,你还需要在目标行星上空建造空间站,距离也需要把控好,既要方便抽取,又不会坠入大气.%n%n通过GUI中的编程电路控制抽取深度,即可提取不同气体.同时还需要提供64*深度的采矿管道,以到达选定的深度.%n%n此多方块运行时功率为：d*4^(t+2)，t为空间站等级，d为深度.%n%n%n§o木星§r%n1 氢 - 15000 L/s%n2 氦 - 500 L/s%n3 氮 - 300 L/s%n4 氧 - 200 L/s%n%n§o土星§r%n1 氢 - 18000 L/s%n2 氦 - 800 L/s%n3 氧 - 500 L/s%n4 液态氧 - 150 L/s%n%n§o天王星§r%n1 氘 - 5000 L/s%n2 氖 - 450 L/s%n3 氩 - 250 L/s%n4 氪 - 100 L/s%n%n§o海王星§r%n1 氚 - 3000 L/s%n2 氦-3 - 500 L/s%n3 氨 - 400 L/s%n4 氙 - 350 L/s
 
 # Quest.3038 - UHT Resistant Mesh
-#N gtnh.quest3038.name=UHT Resistant Mesh
-#N gtnh.quest3038.desc=§o*Slaps UHT Resistant Mesh* This bad boy can withstand so much heat!§r%n%nYou should probably automate this if you want to build and use the Dyson Swarm multiblock.
+gtnh.quest3038.name=耐超高温网
+gtnh.quest3038.desc=§o*拍拍耐超高温网 *这个坏小子可以承受巨量热量!§r%n%n如果你想使用戴森球多方块结构的话,自动化合成耐超高温网是不可或缺的前提条件之一.
 
 # Quest.3039 - Dyson Swarm Ground Unit
-#N gtnh.quest3039.name=Dyson Swarm Ground Unit
-#N gtnh.quest3039.desc=The Dyson Swarm Ground Unit multiblock is basically a solar panel, you just insert Dyson Swarm Modules (how many depends on how much energy you want) and get energy out. There are some complications though:%n- Each second, n of m Modules are destroyed according to this formula: n=X*0.0001*m^1.05, where X is a normally distributed random number between 0 and 2 with mean 1.%n- Needs 1000 L/s of Gelid Cryotheum.%n- Requires n computation per tick according to this formula: n=0.1*m^1.075-128, where m is the amount of modules. As you can see, you get 128 computation for free! Isn't that nice?%n%n§cNote: §9Tec§1Tech§r's Multi-Amp Dynamo Hatches and Laser Source Hatches are supported.%n%n§cNote: §rThe amount of each part on the right is only the minimum, depending on how many Dynamo Hatches, Input Busses, Input Hatches and Optical Slave Connectors you use, you may need more Energy Receiver Base Casings, Module Deployment Unit Base Casings or Control Center Base Casings.%n%n§6Fun fact: §rThe maximum output is 105,553,116,266,496 EU/t (limited by 12 UMV 1048576A/t Laser Source Hatches)
+gtnh.quest3039.name=戴森球地面单元
+gtnh.quest3039.desc=从本质上来说,戴森球地面单元这台多方块机器就是一大块太阳能板,稍微有点不同的是,你需要插入戴森球模块(数量取决于你想要多高的功率输出),才能获得能量产出.不过它并非一劳永逸：%n-每秒m个戴森球模块中有n个会被损耗,公式：n=X*0.0001*m^1.05，X为0~2之间的正态分布随机数，均值为1.%n-每秒消耗1,000L极寒之凛冰.%n-每tick要求提供n点算力，公式：n=0.1*m^1.075-128，m为戴森球模块数.如你所见,相当于其中有128算力是免费赠送的,不错吧?%n%n§c提示：§r已支持§9Tec§1Tech§r的多A动力仓和激光源仓.%n%n§c注意：§r右侧所列的每个部分只是最低要求,基于使用的动力仓、输入总线、输入仓和副光学接口数量,你可能需要更多能量接收基座机械方块、模块部署单元基座机械方块或控制中心基座机械方块.%n%n§6有趣的事实：§r最大输出为105,553,116,266,496-EU/t (12个UEV-1048576A/t激光源仓)
 
 # Quest.3040 - Where Do I Build the Dyson Swarm?
-#N gtnh.quest3040.name=Where Do I Build the Dyson Swarm?
-#N gtnh.quest3040.desc=If you read the Dyson Swarm Ground Unit's tooltip carfeully (which you should), you might have noticed, that it mentions a "dimension-dependent factor". The dimension you build the Dyson Swarm multiblock in can greatly affect the real power output.%n%n§lSorted by factor (descending):§r%n§a231% - Barnarda C%n228% - α Centauri Bb%n198% - Vega B%n194% - Venus Space Stations%n176% - Venus%n161% - Mercury%n141% - Barnarda E%n134% - T Ceti E%n126% - Barnarda F%n112% - Ross128b, Ross128ba%n110% - Earth Space Stations%n§6100% - Overworld, Moon%n§c89% - Mars Space Stations%n81% - Mars, Phobos, Deimos%n61% - Asteroids%n60% - Ceres%n48% - Jupiter Space Stations%n44% - Europa, Io, Ganymede%n36% - Saturn Space Stations%n32% - Enceladus, Titan, Callisto%n25% - Uranus Space Stations%n23% - Oberon, Proteus, Miranda%n20% - Neptune Space Stations%n18% - Triton%n16% - Pluto, Kuiper Belt%n15% - Makemake, Haumea%n1% - Garden, Mining and Void Worlds%n§40% - All other dimensions
+gtnh.quest3040.name=我应该在哪建造戴森球?
+gtnh.quest3040.desc=如若你仔细阅读过戴森球地面单元的tooltip(你也应该这么做),那么你可能已经注意到,tooltip中提到"基于所在世界的系数".事实上,戴森球所在的世界会极大影响其能量输出.%n%n§l按系数从高到低排序：§r%n§a231% - 巴纳德C%n228% - α半人马Bb%n198% - 织女B%n194% - 金星空间站%n176% - 金星%n161% - 水星%n 141% - 巴纳德E%n134% - 鲸鱼座T星E%n126% - 巴纳德F%n112% - 罗斯128b、罗斯128ba%n110% - 地球空间站%n§6100% - 主世界、月球%n§c89% - 火星空间站%n81% - 火星、火卫一、火卫二%n61% - 小行星%n60% - 谷神星%n48% - 木星空间站%n44% - 木卫二、木卫一、木卫三%n36% - 土星空间站%n32% - 土卫二、土卫六、木卫四%n25% - 天王星空间站%n23% - 天卫四、海卫八、天卫五%n20% - 海王星空间站%n18% - 海卫一%n16% - 冥王星、柯伊伯带%n15% - 鸟神星、妊神星%n1% - 花园、虚空世界以及矿界%n§40% - 所有其他世界
 
 # Quest.3041 - Getting Muddy With Monazite
-#N gtnh.quest3041.name=Getting Muddy With Monazite
-#N gtnh.quest3041.desc=Pretty soon you're going to need lanthanide elements. A lot of them. %nThey're not that easy to separate, however...%n%nCraft up a Digester to unlock the questline in the IV tab.
+gtnh.quest3041.name=获得独居石浊溶液
+gtnh.quest3041.desc=很快你就会用到镧系元素,大量的镧系元素.%n然而,它们性质接近,可不是轻易就能分离的....%n%n请先制造一台煮解池,以解锁IV任务栏中的镧系任务线.
 
 # Quest.3042 - Dissolution Tank
-#N gtnh.quest3042.name=Dissolution Tank
-#N gtnh.quest3042.desc=Basically a mixing machine purposely made for dilution.%n%nIt's *supposed* to have a specific ratio mechanic but that isn't currently working :S%n%nAnyway, this plays a large part in the lanthanide line so craft it up.
+gtnh.quest3042.name=溶解罐
+gtnh.quest3042.desc=专为稀释而制造的一种特殊搅拌机.%n%n理论上,它*应该*有一个特定比例机制,不过目前没有生效 :S%n%n不管怎么说,溶解罐在镧系处理中扮演了相当重要的角色,所以赶紧制造一台吧.
 
 # Quest.3043 - Monazite
-#N gtnh.quest3043.name=Monazite
-#N gtnh.quest3043.desc=Welcome to lanthanide processing!%nIt'll be a fun journey, whether you like it or not :P%n%nFirst off get some monazite. This is only to get you started,%nas you're going to need a §oton§o§o§r to truly reap the rewards%nof this line.%n%nYou'll then need to combine it with nitric acid in the Digester multiblock,%nto get its mud form.%nYes, this is a §overy§r nitric acid hungry process!
+gtnh.quest3043.name=独居石
+gtnh.quest3043.desc=欢迎来到镧系处理!%n这将是一次有趣的旅行,不管你喜欢与否 :P%n%nFirst off get some monazite. This is only to get you started,%nas you're going to need a §oton§o§o§r to truly reap the rewards%nof this line.%n%nYou'll then need to combine it with nitric acid in the Digester multiblock,%nto get its mud form.%nYes, this is a §overy§r nitric acid hungry process!
 
 # Quest.3044 - Watery Mud
-#N gtnh.quest3044.name=Watery Mud
-#N gtnh.quest3044.desc=That mud on its own is far too concentrated, so you'll need to dilute it with water in the Dissolution Tank.%n%nFun fact, the saltpeter in the recipe was only added due to a problem with recipe search!%n%nYou also get some Zirconium and Hafnium from this. You'll probably need both later on, so definitely don't void any.
+gtnh.quest3044.name=Watery Mud
+gtnh.quest3044.desc=That mud on its own is far too concentrated, so you'll need to dilute it with water in the Dissolution Tank.%n%nFun fact, the saltpeter in the recipe was only added due to a problem with recipe search!%n%nYou also get some Zirconium and Hafnium from this. You'll probably need both later on, so definitely don't void any.
 
 # Quest.3045 - Zirconia-Hafnia Blend
-#N gtnh.quest3045.name=Zirconia-Hafnia Blend
-#N gtnh.quest3045.desc=This process is a little involved so I'll guide you through it. First, centrifuge the dust you got from the dissolution tank.%n%nBecause Hafnium and Zirconium are refractory metals, like Titanium and Zirconium,%nthey have very similar process to it and each other. %n
+gtnh.quest3045.name=Zirconia-Hafnia Blend
+gtnh.quest3045.desc=This process is a little involved so I'll guide you through it. First, centrifuge the dust you got from the dissolution tank.%n%nBecause Hafnium and Zirconium are refractory metals, like Titanium and Zirconium,%nthey have very similar process to it and each other. %n
 
 # Quest.3046 - Sifting the Goodness Out
-#N gtnh.quest3046.name=Sifting the Goodness Out
-#N gtnh.quest3046.desc=Yes, you're seeing right. A fluid sifting recipe! A lot of the materials here won't be good sources in any way, but they're literally better than nothing.%n%nMonazite Sulfate isn't a actual compound btw, just a term for a collection of rare earth sulfates and other things.%n%nI'll only ask for the primary output as who wants to worry about chances?
+gtnh.quest3046.name=Sifting the Goodness Out
+gtnh.quest3046.desc=Yes, you're seeing right. A fluid sifting recipe! A lot of the materials here won't be good sources in any way, but they're literally better than nothing.%n%nMonazite Sulfate isn't a actual compound btw, just a term for a collection of rare earth sulfates and other things.%n%nI'll only ask for the primary output as who wants to worry about chances?
 
 # Quest.3047 - Hafnium Line
-#N gtnh.quest3047.name=Hafnium Line
-#N gtnh.quest3047.desc=There is a key difference with hafnium here, however. Follow this miniline to hear more.%n%nFirst off you'll need to react your hafnia with some hydrochloric acid.%n%nAnd, like with zirconium, you'll need the solution rather than the dust.
+gtnh.quest3047.name=Hafnium Line
+gtnh.quest3047.desc=There is a key difference with hafnium here, however. Follow this miniline to hear more.%n%nFirst off you'll need to react your hafnia with some hydrochloric acid.%n%nAnd, like with zirconium, you'll need the solution rather than the dust.
 
 # Quest.3048 - Zirconium Line
-#N gtnh.quest3048.name=Zirconium Line
-#N gtnh.quest3048.desc=To get started, react your zirconia with some hydrochloric acid.%n%nThe dust on its own is kinda useless, though... Make it into a solution instead.
+gtnh.quest3048.name=Zirconium Line
+gtnh.quest3048.desc=To get started, react your zirconia with some hydrochloric acid.%n%nThe dust on its own is kinda useless, though... Make it into a solution instead.
 
 # Quest.3049 - EBF Time
-#N gtnh.quest3049.name=EBF Time
-#N gtnh.quest3049.desc=For the next step in the process, just EBF your solution with some magnesium.
+gtnh.quest3049.name=EBF Time
+gtnh.quest3049.desc=For the next step in the process, just EBF your solution with some magnesium.
 
 # Quest.3050 - Zirconium Ingots
-#N gtnh.quest3050.name=Zirconium Ingots
-#N gtnh.quest3050.desc=Just EBF your zirconium tetrachloride with some magnesium and you're done!
+gtnh.quest3050.name=Zirconium Ingots
+gtnh.quest3050.desc=Just EBF your zirconium tetrachloride with some magnesium and you're done!
 
 # Quest.3051 - We Ain't Running a Farm!
-#N gtnh.quest3051.name=We Ain't Running a Farm!
-#N gtnh.quest3051.desc=...What's this low-purity hafnium stuff?%n%nWell, because you of course want your hafnium to be of the highest quality, you're going to have to do a little more than just EBF it with a little magnesium.%n%nGo ahead and react it with some Iodine. If you're not too sure where to get Iodine, have a look at Seaweed Ash. (hint: you'll need to look at small piles)%n%nNote that both the liquid and dust forms of iodine are optional, so you can complete the quest with one. Or none!%n%n
+gtnh.quest3051.name=We Ain't Running a Farm!
+gtnh.quest3051.desc=...What's this low-purity hafnium stuff?%n%nWell, because you of course want your hafnium to be of the highest quality, you're going to have to do a little more than just EBF it with a little magnesium.%n%nGo ahead and react it with some Iodine. If you're not too sure where to get Iodine, have a look at Seaweed Ash. (hint: you'll need to look at small piles)%n%nNote that both the liquid and dust forms of iodine are optional, so you can complete the quest with one. Or none!%n%n
 
 # Quest.3052 - Finally, Actual Hafnium
-#N gtnh.quest3052.name=Finally, Actual Hafnium
-#N gtnh.quest3052.desc=Now that wasn't so hard, was it?%n%nYou also get half of your Iodine back with this. Also, keep the runoff. It might become useful later, especially if stuff's suggested §owink wink nudge nudge§r
+gtnh.quest3052.name=Finally, Actual Hafnium
+gtnh.quest3052.desc=Now that wasn't so hard, was it?%n%nYou also get half of your Iodine back with this. Also, keep the runoff. It might become useful later, especially if stuff's suggested §owink wink nudge nudge§r
 
 # Quest.3053 - Dilution, Yet Again
-#N gtnh.quest3053.name=Dilution, Yet Again
-#N gtnh.quest3053.desc=Those sulfates aren't going to dilute themselves!%n%nYou get more fluid per piece of monazite, what's not to like?
+gtnh.quest3053.name=Dilution, Yet Again
+gtnh.quest3053.desc=Those sulfates aren't going to dilute themselves!%n%nYou get more fluid per piece of monazite, what's not to like?
 
 # Quest.3054 - Now for Nitration
-#N gtnh.quest3054.name=Now for Nitration
-#N gtnh.quest3054.desc=For the next step you'll need ammonium nitrate (again with the nitric acid!) and your diluted monazite sulfate.%nYou'll need to do this in an LCR.%n%nThe resulting fluid simply vanishes into the void. Best not to worry about it.
+gtnh.quest3054.name=Now for Nitration
+gtnh.quest3054.desc=For the next step you'll need ammonium nitrate (again with the nitric acid!) and your diluted monazite sulfate.%nYou'll need to do this in an LCR.%n%nThe resulting fluid simply vanishes into the void. Best not to worry about it.
 
 # Quest.3055 - A Little Bit of Sifting
-#N gtnh.quest3055.name=A Little Bit of Sifting
-#N gtnh.quest3055.desc=Now you can sift some of the radioactive impurities out.
+gtnh.quest3055.name=A Little Bit of Sifting
+gtnh.quest3055.desc=Now you can sift some of the radioactive impurities out.
 
 # Quest.3056 - This Is Probably Not Worth It
-#N gtnh.quest3056.name=This Is Probably Not Worth It
-#N gtnh.quest3056.desc=You can EBF that thorium-phosphate dust to continue that chain but the yield isn't too great in the end...%n%nStill, if you have the resources, why not?
+gtnh.quest3056.name=This Is Probably Not Worth It
+gtnh.quest3056.desc=You can EBF that thorium-phosphate dust to continue that chain but the yield isn't too great in the end...%n%nStill, if you have the resources, why not?
 
 # Quest.3057 - Chemically Bathing!
-#N gtnh.quest3057.name=Chemically Bathing!
-#N gtnh.quest3057.desc=Yep, this really is an all-rounder line. Again you'll need some ammonium nitrate. Just another reminder for those who are yet to make a dedicated nitric acid setup :P
+gtnh.quest3057.name=Chemically Bathing!
+gtnh.quest3057.desc=Yep, this really is an all-rounder line. Again you'll need some ammonium nitrate. Just another reminder for those who are yet to make a dedicated nitric acid setup :P
 
 # Quest.3058 - Thorium and Phosphate
-#N gtnh.quest3058.name=Thorium and Phosphate
-#N gtnh.quest3058.desc=Now you can thermal centrifuge the dust to get both thorium and phosphate out. Told you the yields weren't great...
+gtnh.quest3058.name=Thorium and Phosphate
+gtnh.quest3058.desc=Now you can thermal centrifuge the dust to get both thorium and phosphate out. Told you the yields weren't great...
 
 # Quest.3059 - To Sift, or Not to Sift?
-#N gtnh.quest3059.name=To Sift, or Not to Sift?
-#N gtnh.quest3059.desc=The real question is, who came up with all these sifting recipes?%n%nYou can get some Uranium out of this so it's not all bad.
+gtnh.quest3059.name=To Sift, or Not to Sift?
+gtnh.quest3059.desc=The real question is, who came up with all these sifting recipes?%n%nYou can get some Uranium out of this so it's not all bad.
 
 # Quest.3060 - Uranium Filtrate
-#N gtnh.quest3060.name=Uranium Filtrate
-#N gtnh.quest3060.desc=You can process this further with some hydrofluoric acid.
+gtnh.quest3060.name=Uranium Filtrate
+gtnh.quest3060.desc=You can process this further with some hydrofluoric acid.
 
 # Quest.3061 - New Quest
-#N gtnh.quest3061.name=New Quest
-#N gtnh.quest3061.desc=§o§r...And sift it to get the uranium. You §odo§o§r get some 235 out of it so time not entirely wasted, hopefully?
+gtnh.quest3061.name=New Quest
+gtnh.quest3061.desc=§o§r...And sift it to get the uranium. You §odo§o§r get some 235 out of it so time not entirely wasted, hopefully?
 
 # Quest.3062 - Dry It Real Good
-#N gtnh.quest3062.name=Dry It Real Good
-#N gtnh.quest3062.desc=Your concentrate is far too damp! You'll need to dry it off in the EBF.%n%nThankfully the recipe is far from difficult.
+gtnh.quest3062.name=Dry It Real Good
+gtnh.quest3062.desc=Your concentrate is far too damp! You'll need to dry it off in the EBF.%n%nThankfully the recipe is far from difficult.
 
 # Quest.3063 - Nitration Time... Again
-#N gtnh.quest3063.name=Nitration Time... Again
-#N gtnh.quest3063.desc=You'll need to add even more nitric acid to be able to deal with the dust further. 
+gtnh.quest3063.name=Nitration Time... Again
+gtnh.quest3063.desc=You'll need to add even more nitric acid to be able to deal with the dust further. 
 
 # Quest.3064 - Leach The Concentrate
-#N gtnh.quest3064.name=Leach The Concentrate
-#N gtnh.quest3064.desc=Here you have two options: Either you can mix some water with your nitrated mixture for relatively low yield, or you can mix it with the cerium-containing mixture you get from ores for double the amount.
+gtnh.quest3064.name=Leach The Concentrate
+gtnh.quest3064.desc=Here you have two options: Either you can mix some water with your nitrated mixture for relatively low yield, or you can mix it with the cerium-containing mixture you get from ores for double the amount.
 
 # Quest.3065 - A Sift, a Sift! My Kingdom for a Sift!
-#N gtnh.quest3065.name=A Sift, a Sift! My Kingdom for a Sift!
-#N gtnh.quest3065.desc=Now to filter the leached concentrate in order to get the cerium out.
+gtnh.quest3065.name=A Sift, a Sift! My Kingdom for a Sift!
+gtnh.quest3065.desc=Now to filter the leached concentrate in order to get the cerium out.
 
 # Quest.3066 - The Start of Cerium
-#N gtnh.quest3066.name=The Start of Cerium
-#N gtnh.quest3066.desc=This line will guide you through obtaining elemental cerium.%n%nFirst, react your cerium dioxide with ammonium chloride for some cerium chloride.
+gtnh.quest3066.name=The Start of Cerium
+gtnh.quest3066.desc=This line will guide you through obtaining elemental cerium.%n%nFirst, react your cerium dioxide with ammonium chloride for some cerium chloride.
 
 # Quest.3067 - Compounding With Oxalate
-#N gtnh.quest3067.name=Compounding With Oxalate
-#N gtnh.quest3067.desc=Combining your cerium chloride with oxalate yields you cerium oxalate. This can then be heated (in your EBF(s), of course) to get §oanother §rcerium oxide.
+gtnh.quest3067.name=Compounding With Oxalate
+gtnh.quest3067.desc=Combining your cerium chloride with oxalate yields you cerium oxalate. This can then be heated (in your EBF(s), of course) to get §oanother §rcerium oxide.
 
 # Quest.3068 - Oxalate
-#N gtnh.quest3068.name=Oxalate
-#N gtnh.quest3068.desc=Oxalate is really only useful for cerium processing. Go ahead and make a bit.%n%nThere are a couple options for this so just look through NEI and pick whichever is most suitable for you.
+gtnh.quest3068.name=Oxalate
+gtnh.quest3068.desc=Oxalate is really only useful for cerium processing. Go ahead and make a bit.%n%nThere are a couple options for this so just look through NEI and pick whichever is most suitable for you.
 
 # Quest.3069 - §6§lMake a better Distillery
-#N gtnh.quest3069.name=§6§lMake a better Distillery
-#N gtnh.quest3069.desc=To produce methanol and ethanol much faster, craft a mv distillery.
+gtnh.quest3069.name=§6§lMake a better Distillery
+gtnh.quest3069.desc=To produce methanol and ethanol much faster, craft a mv distillery.
 
 # Quest.3070 - §6§lWay Three: Pyrolyse Oven
-#N gtnh.quest3070.name=§6§lWay Three: Pyrolyse Oven
-#N gtnh.quest3070.desc=§0§r§r§6§rBy using the Pyrolyse Oven, you are able to reap the rewards of coil speed increases.%n%nYou can also side-step the need for a Fermenter. Check out NEI to see which way suits you best. The GT++ Industrial Coke Oven will allow you to do this as well.%n%n(You only have to submit one of these)%n%n
+gtnh.quest3070.name=§6§lWay Three: Pyrolyse Oven
+gtnh.quest3070.desc=§0§r§r§6§rBy using the Pyrolyse Oven, you are able to reap the rewards of coil speed increases.%n%nYou can also side-step the need for a Fermenter. Check out NEI to see which way suits you best. The GT++ Industrial Coke Oven will allow you to do this as well.%n%n(You only have to submit one of these)%n%n
 
 # Quest.3071 - §6§lCooling Kanthal
-#N gtnh.quest3071.name=§6§lCooling Kanthal
-#N gtnh.quest3071.desc=Hot Kanthal ingots can be cooled down in an MV Chemical Bath.
+gtnh.quest3071.name=§6§lCooling Kanthal
+gtnh.quest3071.desc=Hot Kanthal ingots can be cooled down in an MV Chemical Bath.
 
 # Quest.3072 - §6§lFirst Kanthal
-#N gtnh.quest3072.name=§6§lFirst Kanthal
-#N gtnh.quest3072.desc=You made your first Kanthal ingots. It's time to make some more to upgrade your Electric Blast Furnace.
+gtnh.quest3072.name=§6§lFirst Kanthal
+gtnh.quest3072.desc=You made your first Kanthal ingots. It's time to make some more to upgrade your Electric Blast Furnace.
 
 # Quest.3073 - §6§lCoolant
-#N gtnh.quest3073.name=§6§lCoolant
-#N gtnh.quest3073.desc=Make your first coolant out of water or distilled water and lapis dust in an mv mixer.
+gtnh.quest3073.name=§6§lCoolant
+gtnh.quest3073.desc=Make your first coolant out of water or distilled water and lapis dust in an mv mixer.
 
 # Quest.3074 - §a§lPower of the Sun from Nuclear
-#N gtnh.quest3074.name=§a§lPower of the Sun from Nuclear
-#N gtnh.quest3074.desc=Your good old singleblock Molecular Transformer is gone. So how to obtain Sunnarium? Well there are couple of ways, but at EV you'll need to radiate Glowstone and convert to Sunnarium.
+gtnh.quest3074.name=§a§lPower of the Sun from Nuclear
+gtnh.quest3074.desc=Your good old singleblock Molecular Transformer is gone. So how to obtain Sunnarium? Well there are couple of ways, but at EV you'll need to radiate Glowstone and convert to Sunnarium.
 
 # Quest.3075 - Armor Molds
-#N gtnh.quest3075.name=Armor Molds
-#N gtnh.quest3075.desc=Why use plates when you can make your armor pieces out of molten metal?
+gtnh.quest3075.name=Armor Molds
+gtnh.quest3075.desc=Why use plates when you can make your armor pieces out of molten metal?
 
 # Quest.3076 - §b§lGlowing Matter
-#N gtnh.quest3076.name=§b§lGlowing Matter
-#N gtnh.quest3076.desc=Another way to get Sunnarium. Just throw stacks of Glowing Coral and tiny litre of UU-Matter in Autoclave and wish you luck.%n%nYou can also make full use of Coral to make some resources infinite, such as Glowstone, Gold, Redstone, Mercury, etc.%n%n§3Nine in One multi can greatly decrease power consumption, but is also rather expensive to make.
+gtnh.quest3076.name=§b§lGlowing Matter
+gtnh.quest3076.desc=Another way to get Sunnarium. Just throw stacks of Glowing Coral and tiny litre of UU-Matter in Autoclave and wish you luck.%n%nYou can also make full use of Coral to make some resources infinite, such as Glowstone, Gold, Redstone, Mercury, etc.%n%n§3Nine in One multi can greatly decrease power consumption, but is also rather expensive to make.
 
 # Quest.3077 - §c§lMolecular Transformer, finally!
-#N gtnh.quest3077.name=§c§lMolecular Transformer, finally!
-#N gtnh.quest3077.desc=If you're reading this before LuV and want to know how to make Sunnarium, check out EV or IV quests.%n%n§3Yes, this multi is somewhat buggy.
+gtnh.quest3077.name=§c§lMolecular Transformer, finally!
+gtnh.quest3077.desc=If you're reading this before LuV and want to know how to make Sunnarium, check out EV or IV quests.%n%n§3Yes, this multi is somewhat buggy.
 
 # Quest.3078 - Trigger: Obtain Sunnarium
-#N gtnh.quest3078.name=Trigger: Obtain Sunnarium
+gtnh.quest3078.name=Trigger: Obtain Sunnarium
 gtnh.quest3078.desc=没有描述.
 
 # Quest.3079 - You Can't Be Cerious!
-#N gtnh.quest3079.name=You Can't Be Cerious!
-#N gtnh.quest3079.desc=Punny, right?%n%nYou now can electrolyze the cerium oxide to get pure elemental cerium dust.%n%nOh, and oxygen, but who cares about that anymore?
+gtnh.quest3079.name=You Can't Be Cerious!
+gtnh.quest3079.desc=Punny, right?%n%nYou now can electrolyze the cerium oxide to get pure elemental cerium dust.%n%nOh, and oxygen, but who cares about that anymore?
 
 # Quest.3080 - Freezing Nitrates
-#N gtnh.quest3080.name=Freezing Nitrates
-#N gtnh.quest3080.desc=Yep, you're seeing right: A line with a vacuum freezer!%n%nTo separate some of the more... tricky elements, extreme cold is needed.
+gtnh.quest3080.name=Freezing Nitrates
+gtnh.quest3080.desc=Yep, you're seeing right: A line with a vacuum freezer!%n%nTo separate some of the more... tricky elements, extreme cold is needed.
 
 # Quest.3081 - Not Quite Ferromagnetic...
-#N gtnh.quest3081.name=Not Quite Ferromagnetic...
-#N gtnh.quest3081.desc=...But it's enough to separate with the magnetic separator.%n%nNow you can get both Europium Oxide and some of the rarer rare earths.
+gtnh.quest3081.name=Not Quite Ferromagnetic...
+gtnh.quest3081.desc=...But it's enough to separate with the magnetic separator.%n%nNow you can get both Europium Oxide and some of the rarer rare earths.
 
 # Quest.3082 - Brimstone Content: High
-#N gtnh.quest3082.name=Brimstone Content: High
-#N gtnh.quest3082.desc=Europium oxide on its own isn't usable for attaining the pure element.%n%nYou'll need to sulfurize it.
+gtnh.quest3082.name=Brimstone Content: High
+gtnh.quest3082.desc=Europium oxide on its own isn't usable for attaining the pure element.%n%nYou'll need to sulfurize it.
 
 # Quest.3083 - Europium The Easy/Hard Way
-#N gtnh.quest3083.name=Europium The Easy/Hard Way
-#N gtnh.quest3083.desc=§oNow §o§ryou'll be able to separate the elemental europium!%n%nYes, it's a ZPM recipe. Something something gating.
+gtnh.quest3083.name=Europium The Easy/Hard Way
+gtnh.quest3083.desc=§oNow §o§ryou'll be able to separate the elemental europium!%n%nYes, it's a ZPM recipe. Something something gating.
 
 # Quest.3084 - The Other Part
-#N gtnh.quest3084.name=The Other Part
-#N gtnh.quest3084.desc=Getting tired of all the names yet? Hope so.%n%nNow to chlorinate and heat, in order to separate the whole dust further.
+gtnh.quest3084.name=The Other Part
+gtnh.quest3084.desc=Getting tired of all the names yet? Hope so.%n%nNow to chlorinate and heat, in order to separate the whole dust further.
 
 # Quest.3085 - Saturation Needed
-#N gtnh.quest3085.name=Saturation Needed
-#N gtnh.quest3085.desc=You're nearly done!%n%nNow you need to mix with acetone.
+gtnh.quest3085.name=Saturation Needed
+gtnh.quest3085.desc=You're nearly done!%n%nNow you need to mix with acetone.
 
 # Quest.3086 - Separate Those Last Specks
-#N gtnh.quest3086.name=Separate Those Last Specks
-#N gtnh.quest3086.desc=Now to centrifuge what remains. You get a little chlorobenzene back too, s what's not to like?
+gtnh.quest3086.name=Separate Those Last Specks
+gtnh.quest3086.desc=Now to centrifuge what remains. You get a little chlorobenzene back too, s what's not to like?
 
 # Quest.3087 - Higher Yields Are Always Worth
-#N gtnh.quest3087.name=Higher Yields Are Always Worth
-#N gtnh.quest3087.desc=When you inevitably get Samarium Ore, you can add the concentrate you get from it it to the step below to attain even more dust!
+gtnh.quest3087.name=Higher Yields Are Always Worth
+gtnh.quest3087.desc=When you inevitably get Samarium Ore, you can add the concentrate you get from it it to the step below to attain even more dust!
 
 # Quest.3088 - Finally, Samarium!
-#N gtnh.quest3088.name=Finally, Samarium!
-#N gtnh.quest3088.desc=(And Gadolinium)%n%nEasy, right? Not to worry, there's always the bastnasite line to stay your hunger for complex lines!
+gtnh.quest3088.name=Finally, Samarium!
+gtnh.quest3088.desc=(And Gadolinium)%n%nEasy, right? Not to worry, there's always the bastnasite line to stay your hunger for complex lines!
 
 # Quest.3089 - §6§lYour New Friend
-#N gtnh.quest3089.name=§6§lYour New Friend
-#N gtnh.quest3089.desc=It's painful to carry all the tools in your inventory. You can put GT tools and soldering into IC2 Toolbox to save space for inventory.%n%nYou can also use it to do maintenance, without taking out tools. Just hold toolbox and right click the Maintenance Hatch. Now who needs ducttape? (Well you'll need it to automate maintenance.)
+gtnh.quest3089.name=§6§lYour New Friend
+gtnh.quest3089.desc=It's painful to carry all the tools in your inventory. You can put GT tools and soldering into IC2 Toolbox to save space for inventory.%n%nYou can also use it to do maintenance, without taking out tools. Just hold toolbox and right click the Maintenance Hatch. Now who needs ducttape? (Well you'll need it to automate maintenance.)
 
 ##################################Line##################################
 
