@@ -350,7 +350,7 @@ gtnh.quest86.desc=要处理更高级的材料(比如末影锭和铌钛合金),�
 
 # Quest.87 - §6§lSteel Multiblock Tanks
 gtnh.quest87.name=§6§l钢质蓄水器
-gtnh.quest87.desc=想要双倍容量的蓄水槽？去做一个钢质蓄水器.尺寸可以从3x3x4到9x9x8.(x和z必须是相同的,奇数)允许的所有大小.就像铁质蓄水器一样,可以使用BC颜料刷和GT喷漆罐来改变颜色.%n%n提示:如果你在底部(非边缘)放了阀门,流体能够自动输出(不需要任何的泵).输出速率为1000mB/t,是GT电动泵(HV)的两倍.%n%nPS:请使用桶来移动液体,如果使用单元,单元将会消失.
+gtnh.quest87.desc=想要双倍容量的蓄水器？去做一个钢质蓄水器吧.尺寸可以从3x3x4到9x9x8.(x和z必须是相同的,奇数)允许的所有大小.就像铁质蓄水器一样,可以使用BC颜料刷和GT喷漆罐来改变颜色.%n%n提示:如果你在底部(非边缘)放了阀门,流体能够自动输出(不需要任何的泵).输出速率为1000mB/t,是GT电动泵(HV)的两倍.%n%nPS:请使用桶来移动液体,如果使用单元,单元将会消失.
 
 # Quest.88 - §5§r§5§lWelcome to Tier 1, LV
 gtnh.quest88.name=§5§r§5§l欢迎来到第1阶段,LV
@@ -12218,67 +12218,67 @@ gtnh.quest3053.desc=那些硫酸盐可不会自己稀释!%n%n可以从每块独�
 
 # Quest.3054 - Now for Nitration
 gtnh.quest3054.name=现在进行硝化
-gtnh.quest3054.desc=下一步你需要用到硝酸铵(again with the nitric acid!) and your diluted monazite sulfate.%nYou'll need to do this in an LCR.%n%nThe resulting fluid simply vanishes into the void. Best not to worry about it.
+gtnh.quest3054.desc=下一步你需要用到硝酸铵(又要跟硝酸打交道了!),还有稀释硫酸独居石.%n将两者在大型化学反应釜中进行反应.%n%n流体产物就那么简单地消失在虚空中.最好不要担心它们.
 
 # Quest.3055 - A Little Bit of Sifting
-gtnh.quest3055.name=A Little Bit of Sifting
-gtnh.quest3055.desc=Now you can sift some of the radioactive impurities out.
+gtnh.quest3055.name=来点筛选
+gtnh.quest3055.desc=现在,你可以筛出来一些放射性杂质了.
 
 # Quest.3056 - This Is Probably Not Worth It
-gtnh.quest3056.name=This Is Probably Not Worth It
-gtnh.quest3056.desc=You can EBF that thorium-phosphate dust to continue that chain but the yield isn't too great in the end...%n%nStill, if you have the resources, why not?
+gtnh.quest3056.name=这可能不太值
+gtnh.quest3056.desc=你可以直接用高炉煅烧获得的磷酸钍滤饼粉,以继续完成处理链,不过最终的产量不高...%n%n不过,如果你的资源充足,何乐而不为?
 
 # Quest.3057 - Chemically Bathing!
-gtnh.quest3057.name=Chemically Bathing!
-gtnh.quest3057.desc=Yep, this really is an all-rounder line. Again you'll need some ammonium nitrate. Just another reminder for those who are yet to make a dedicated nitric acid setup :P
+gtnh.quest3057.name=化学浸洗!
+gtnh.quest3057.desc=是的,这真是一条全方位的处理线.再一次,你需要用到硝酸铵. 这只是再次提醒那些尚未制造专门的硝酸自动化设施的玩家 :P
 
 # Quest.3058 - Thorium and Phosphate
-gtnh.quest3058.name=Thorium and Phosphate
-gtnh.quest3058.desc=Now you can thermal centrifuge the dust to get both thorium and phosphate out. Told you the yields weren't great...
+gtnh.quest3058.name=钍与磷酸盐
+gtnh.quest3058.desc=现在,将所获得的精粉热力离心,你就可以获得钍和磷酸盐粉.告诉过你产量不高...
 
 # Quest.3059 - To Sift, or Not to Sift?
-gtnh.quest3059.name=To Sift, or Not to Sift?
-gtnh.quest3059.desc=The real question is, who came up with all these sifting recipes?%n%nYou can get some Uranium out of this so it's not all bad.
+gtnh.quest3059.name=筛,还是不筛?
+gtnh.quest3059.desc=真正的问题是,是谁想出这些筛选合成表的?%n%n你可以从中获得一些铀,所以这个合成表还不算太糟.
 
 # Quest.3060 - Uranium Filtrate
-gtnh.quest3060.name=Uranium Filtrate
-gtnh.quest3060.desc=You can process this further with some hydrofluoric acid.
+gtnh.quest3060.name=铀滤渣
+gtnh.quest3060.desc=稍后,你可以用一些氢氟酸处理这些铀滤渣粉.氢氟酸
 
 # Quest.3061 - New Quest
-gtnh.quest3061.name=New Quest
-gtnh.quest3061.desc=§o§r...And sift it to get the uranium. You §odo§o§r get some 235 out of it so time not entirely wasted, hopefully?
+gtnh.quest3061.name=新任务
+gtnh.quest3061.desc=§o§r...并筛选所获得的粉,你可以获得铀-238/235粉.你§o确实§o§r能够从中获得一些铀-235,所以并不是完全浪费时间,希望吧...
 
 # Quest.3062 - Dry It Real Good
-gtnh.quest3062.name=Dry It Real Good
-gtnh.quest3062.desc=Your concentrate is far too damp! You'll need to dry it off in the EBF.%n%nThankfully the recipe is far from difficult.
+gtnh.quest3062.name=烘干真棒
+gtnh.quest3062.desc=你的浓缩粉实在太潮湿了!需要在工业高炉中烘干它们.%n%n谢天谢地,这种加工并不困难.
 
 # Quest.3063 - Nitration Time... Again
-gtnh.quest3063.name=Nitration Time... Again
-gtnh.quest3063.desc=You'll need to add even more nitric acid to be able to deal with the dust further. 
+gtnh.quest3063.name=硝化时间...再一次
+gtnh.quest3063.desc=想要进一步处理这些干燥粉,你还需要投入更多硝酸. 
 
 # Quest.3064 - Leach The Concentrate
-gtnh.quest3064.name=Leach The Concentrate
-gtnh.quest3064.desc=Here you have two options: Either you can mix some water with your nitrated mixture for relatively low yield, or you can mix it with the cerium-containing mixture you get from ores for double the amount.
+gtnh.quest3064.name=浸出浓缩物
+gtnh.quest3064.desc=这里有两个选择：你可以将硝酸浸出混合物与水混合,得到相对较低的产率;或是选择把水换成富铈混合物,得到双倍的产率.
 
 # Quest.3065 - A Sift, a Sift! My Kingdom for a Sift!
-gtnh.quest3065.name=A Sift, a Sift! My Kingdom for a Sift!
-gtnh.quest3065.desc=Now to filter the leached concentrate in order to get the cerium out.
+gtnh.quest3065.name=筛选,筛选!我的筛选王国!
+gtnh.quest3065.desc=现在,筛选(或者说过滤)硝酸浸出混合物,即可从中获取二氧化铈.
 
 # Quest.3066 - The Start of Cerium
-gtnh.quest3066.name=The Start of Cerium
-gtnh.quest3066.desc=This line will guide you through obtaining elemental cerium.%n%nFirst, react your cerium dioxide with ammonium chloride for some cerium chloride.
+gtnh.quest3066.name=铈处理开始
+gtnh.quest3066.desc=这条任务线将会知道你获取元素铈.%n%n首先,将二氧化铈与氯化铵进行反应,制取一些氯化铈.
 
 # Quest.3067 - Compounding With Oxalate
-gtnh.quest3067.name=Compounding With Oxalate
-gtnh.quest3067.desc=Combining your cerium chloride with oxalate yields you cerium oxalate. This can then be heated (in your EBF(s), of course) to get §oanother §rcerium oxide.
+gtnh.quest3067.name=与草酸结合
+gtnh.quest3067.desc=将获得的氯化铈与草酸进行反应,即可制得草酸铈.而草酸铈可以在稍后进行煅烧(当然,是在工业高炉中进行),转化成§o另一种§r铈的氧化物--氧化铈(III).
 
 # Quest.3068 - Oxalate
-gtnh.quest3068.name=Oxalate
-gtnh.quest3068.desc=Oxalate is really only useful for cerium processing. Go ahead and make a bit.%n%nThere are a couple options for this so just look through NEI and pick whichever is most suitable for you.
+gtnh.quest3068.name=草酸
+gtnh.quest3068.desc=目前草酸真的仅适用于铈处理.继续前进并制备一点草酸吧.%n%n有多种方法可以制取草酸,请查阅NEI并选择最适合自己的方法吧.
 
 # Quest.3069 - §6§lMake a better Distillery
-gtnh.quest3069.name=§6§lMake a better Distillery
-gtnh.quest3069.desc=To produce methanol and ethanol much faster, craft a mv distillery.
+gtnh.quest3069.name=§6§l更好的蒸馏室
+gtnh.quest3069.desc=想要更快地生产甲醇和乙醇,制造一台MV蒸馏室吧.
 
 # Quest.3070 - §6§lWay Three: Pyrolyse Oven
 gtnh.quest3070.name=§6§lWay Three: Pyrolyse Oven
