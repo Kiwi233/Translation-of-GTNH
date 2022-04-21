@@ -4012,8 +4012,8 @@ gtnh.quest1001.desc=The upgraded RF solar panel is much better. It outputs 40 RF
 gtnh.quest1002.name=Enchanted Earth
 gtnh.quest1002.desc=Enchanted Earth makes saplings and seeds planted on it grow faster. When stacked on top of each other it has a chance to add ticks to the block above accumulating all the way to the top. This will randomly speed up growth a bit.
 
-# Quest.1003 - §aPower of the Sun at MV Level
-gtnh.quest1003.name=§aPower of the Sun at MV Level
+# Quest.1003 - §a§lPower of the Sun at MV Level
+gtnh.quest1003.name=§a§lPower of the Sun at MV Level
 gtnh.quest1003.desc=The next solar panel you can make is the MV one. It gives 128 EU/t.
 
 # Quest.1004 - §a§lPower of the Sun 1x1 MV
@@ -12158,7 +12158,7 @@ gtnh.quest3038.desc=§o*Slaps UHT Resistant Mesh* This bad boy can withstand so 
 
 # Quest.3039 - Dyson Swarm Ground Unit
 gtnh.quest3039.name=Dyson Swarm Ground Unit
-gtnh.quest3039.desc=The Dyson Swarm Ground Unit multiblock is basically a solar panel, you just insert Dyson Swarm Modules (how many depends on how much energy you want) and get energy out. There are some complications though:%n- Each second, n of m Modules are destroyed according to this formula: n=X*0.0001*m^1.05, where X is a normally distributed random number between 0 and 2 with mean 1.%n- Needs 1000 L/s of Gelid Cryotheum.%n- Requires n computation per tick according to this formula: n=0.1*m^1.075-128, where m is the amount of modules. As you can see, you get 128 computation for free! Isn't that nice?%n%n§cNote: §9Tec§1Tech§r's Multi-Amp Dynamo Hatches and Laser Source Hatches are supported.%n%n§cNote: §rThe amount of each part on the right is only the minimum, depending on how many Dynamo Hatches, Input Busses, Input Hatches and Optical Slave Connectors you use, you may need more Energy Receiver Base Casings, Module Deployment Unit Base Casings or Control Center Base Casings.%n%n§6Fun fact: §rThe maximum output is 105,553,116,266,496 EU/t (limited by 12 UMV 1048576A/t Laser Source Hatches)
+gtnh.quest3039.desc=The Dyson Swarm Ground Unit multiblock is basically a solar panel, you just insert Dyson Swarm Modules (how many depends on how much energy you want) and get energy out. There are some complications though:%n- Each second, n of m Modules are destroyed according to this formula: n=X*0.0001*m^1.05, where X is a normally distributed random number between 0 and 2 with mean 1.%n- Needs 1000 L/s of Gelid Cryotheum.%n- Requires n computation per tick according to this formula: n=0.1*m^1.075-128, where m is the amount of modules. As you can see, you get 128 computation for free! Isn't that nice?%n%n§cNote: §9Tec§1Tech§r's Multi-Amp Dynamo Hatches and Laser Source Hatches are supported.%n%n§cNote: §rThe amount of each part on the right is only the minimum, depending on how many Dynamo Hatches, Input Busses, Input Hatches and Optical Slave Connectors you use, you may need more Energy Receiver Base Casings, Module Deployment Unit Base Casings or Control Center Base Casings.%n%n§6Fun fact: §rThe maximum output is 105,553,116,266,496 EU/t (limited by 12 UEV 1048576A/t Laser Source Hatches)
 
 # Quest.3040 - Where Do I Build the Dyson Swarm?
 gtnh.quest3040.name=Where Do I Build the Dyson Swarm?
@@ -12359,6 +12359,14 @@ gtnh.quest3088.desc=(And Gadolinium)%n%nEasy, right? Not to worry, there's alway
 # Quest.3089 - §6§lYour New Friend
 gtnh.quest3089.name=§6§lYour New Friend
 gtnh.quest3089.desc=It's painful to carry all the tools in your inventory. You can put GT tools and soldering into IC2 Toolbox to save space for inventory.%n%nYou can also use it to do maintenance, without taking out tools. Just hold toolbox and right click the Maintenance Hatch. Now who needs ducttape? (Well you'll need it to automate maintenance.)
+
+# Quest.3090 - §6§lPrecise Assembler
+gtnh.quest3090.name=§6§lPrecise Assembler
+gtnh.quest3090.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%nNormal mode works as multiblock version of Assembler.
+
+# Quest.3091 - §l§c§lSun Fusion
+gtnh.quest3091.name=§l§c§lSun Fusion
+gtnh.quest3091.desc=Alternative way to mass produce Sunnarium.
 
 ##################################Line##################################
 
