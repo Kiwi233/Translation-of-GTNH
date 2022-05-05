@@ -66,6 +66,7 @@ nei.chat.rain.on=开启雨雪
 nei.chat.rain.off=关闭雨雪
 nei.chat.time=白天 %d. %d:00
 nei.chat.give.noitem=没有此物品
+nei.chat.recipe.error=There was error during loading recipe. Please check log for details.
 
 nei.options=NEI选项
 nei.options.back=后退
@@ -132,6 +133,9 @@ nei.options.inventory.saveCurrentRecipeInBookmarksEnabled.false=禁用
 nei.options.inventory.useNBTInBookmarks=在书签中启用NBT
 nei.options.inventory.useNBTInBookmarks.true=是
 nei.options.inventory.useNBTInBookmarks.false=否
+nei.options.inventory.showRecipeMarker=Show Recipe Marker
+nei.options.inventory.showRecipeMarker.true=Yes
+nei.options.inventory.showRecipeMarker.false=No
 nei.options.inventory.creative_tab_style=创造模式/JEI标签页
 nei.options.inventory.creative_tab_style.true=创造模式
 nei.options.inventory.creative_tab_style.false=JEI
@@ -191,6 +195,8 @@ nei.options.world.highlight_tips=高亮显示
 nei.options.world.highlight_tips.hide=隐藏
 nei.options.world.highlight_tips.show=显示
 nei.options.world.highlight_tips.sample=样本
+
+nei.options.world.panels=Panels Settings
 
 nei.options.tools=工具
 nei.options.tools.handler_load_from_config=从Config加载handler(加工所使用的机器类别)

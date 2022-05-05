@@ -186,6 +186,8 @@ GT5U.config.interface.TooltipVerbosity=Tooltip冗余(悬停显示)
 GT5U.config.interface.TooltipVerbosity.tooltip=GT机器GUI的tooltip的详细程度?\n0: 无tooltips\n1: 只有一行tooltip\n2: 普通tooltip[默认]\n3+: 扩展tooltip
 GT5U.config.interface.TooltipShiftVerbosity=Tooltip冗余(按下Shift)
 GT5U.config.interface.TooltipShiftVerbosity.tooltip=按下Shift时,GT机器GUI的tooltip的详细程度?\n0: 无tooltips\n1: 只有一行tooltip\n2: 普通tooltip\n3+: 扩展tooltip[默认]
+GT5U.config.interface.CircuitsOrder=Circuits Order (See details)
+GT5U.config.interface.CircuitsOrder.tooltip=What is the order of the circuits when they are selected?\nFill in the Unique Identifier of the circuits.\nFor example: gregtech:gt.integrated_circuit
 GT5U.config.preference=客户端偏好
 GT5U.config.preference.mInputBusInitialFilter=输入总线的初始输入过滤状态
 GT5U.config.preference.mInputBusInitialFilter.tooltip=放置输入总线时,是否启用输入过滤\n不影响其他人放置的输入总线\n不影响已存在的输入总线
@@ -272,7 +274,7 @@ achievement.Redstone.desc=高度：5-40，几率：60，主世界/下界/火星/
 achievement.Ruby=找到红宝石矿石
 achievement.Ruby.desc=高度：5-40，几率：60，主世界/下界/火星/木卫三/金星/水星/天卫五/织女一B/巴德纳F//
 achievement.Cinnabar=找到朱砂矿石
-achievement.Cinnabar.desc=高度：5-35，几率：16，暮色森林//
+achievement.Cinnabar.desc=Height: 5-40, Chance: 60, Overworld/Nether/Mars/Ganymed/Venus/Mercury/Miranda/VegaB/BarnardF//
 achievement.Cinnabar=找到朱砂矿石
 achievement.Cinnabar.desc=高度：5-35，几率：16，暮色森林//
 achievement.Soapstone=找到皂石矿石
@@ -1237,7 +1239,7 @@ fluid.Ammonium Dinitramide=二硝酰胺铵
 fluid.LMP-103S=LMP-103S
 fluid.Nitromethane=硝基甲烷
 fluid.O-Xylene=邻二甲苯
-#GT_MetaGenerated_Item_98 cells
+//GT_MetaGenerated_Item_98 cells
 fluid.UnknownNutrientAgar=未知营养琼脂
 fluid.SeaweedBroth=海藻基质
 fluid.EnzymesSollution=酶溶液
@@ -1245,7 +1247,7 @@ fluid.escherichiakolifluid=大肠杆菌液体
 fluid.Penicillin=青霉素
 fluid.FluorecentdDNA=荧光DNA
 fluid.Polymerase=聚合酶
-#以下流体没有单元形式，大部分是bart的生物科技
+//No cell, most from bart bio
 fluid.Monomethylhydrazine=一甲基肼
 fluid.binnibacteriafluid=双杆菌液体
 fluid.barnadafisarboriatorisfluid=巴纳德乔木培养液
@@ -1254,12 +1256,12 @@ fluid.sludge=菌泥
 fluid.Formaldehyde=甲醛
 fluid.tcetieisfucusserratusfluid=鲸鱼座T星藻类培养液
 fluid.MeatExtract=肉汁
-#以下流体有贴图没有配方
+//No recipe
 fluid.CompressedOxygen=压缩氧气
 fluid.CompressedNitrogen=压缩氮气
 fluid.redplasma=红等离子体
 fluid.tile.fluidBlockSludge=污泥
-#以下流体没有贴图
+//No Textrue
 fluid.guano=鸟粪
 fluid.poo=便便
 fluid.sewerage=下水

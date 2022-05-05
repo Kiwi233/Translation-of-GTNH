@@ -306,24 +306,24 @@ enderio.soularium_ball.name=魂金磨球
 enderio.endSteel_ball.name=末影钢磨球
 
 tile.blockIngotStorage.name=金属块
-tile.enderio.electricalSteel.name=磁钢块
-tile.enderio.energeticAlloy.name=充能合金块
-tile.enderio.phasedGold.name=脉冲合金块
-tile.enderio.redstoneAlloy.name=红石合金块
-tile.enderio.conductiveIron.name=导电铁块
-tile.enderio.phasedIron.name=脉冲铁块
+tile.enderio.electricalSteel.name=磁钢锭 Block
+tile.enderio.energeticAlloy.name=充能合金锭 Block
+tile.enderio.phasedGold.name=脉冲合金锭 Block
+tile.enderio.redstoneAlloy.name=红石合金锭 Block
+tile.enderio.conductiveIron.name=导电铁锭 Block
+tile.enderio.phasedIron.name=脉冲铁锭 Block
 tile.enderio.vibrantNugget.name=脉冲合金粒块
-tile.enderio.darkSteel.name=玄钢块
-tile.enderio.soularium.name=魂金块
-tile.enderio.endSteel.name=末影钢块
+tile.enderio.darkSteel.name=玄钢锭 Block
+tile.enderio.soularium.name=魂金锭 Block
+tile.enderio.endSteel.name=末影钢锭 Block
 
-tile.enderio.crudeSteel.name=复合粘土块
-tile.enderio.crystallineAlloy.name=晶化合金块
-tile.enderio.melodicAlloy.name=旋律合金块
-tile.enderio.stellarAlloy.name=恒星合金块
-tile.enderio.crystallinePinkSlime.name=晶化粉红史莱姆块
-tile.enderio.energeticSilver.name=充能银块
-tile.enderio.vividAlloy.name=生动合金块
+tile.enderio.crudeSteel.name=复合粘土 Block
+tile.enderio.crystallineAlloy.name=晶化合金 Block
+tile.enderio.melodicAlloy.name=旋律合金 Block
+tile.enderio.stellarAlloy.name=恒星合金 Block
+tile.enderio.crystallinePinkSlime.name=晶化粉红史莱姆 Block
+tile.enderio.energeticSilver.name=充能银 Block
+tile.enderio.vividAlloy.name=生动合金 Block
 
 #Powder / Ingot
 enderio.powderCoal.name=煤粉
@@ -1023,12 +1023,14 @@ enderio.gui.machine.button.storelevels=储存10级
 enderio.gui.machine.tooltip.storelevels=玩家XP
 enderio.gui.machine.button.storeall=储存玩家
 enderio.gui.machine.tooltip.storeall=全部XP
+
 enderio.gui.machine.button.retrievelevel=取出1级
 enderio.gui.machine.tooltip.retrievelevel=玩家XP等级
 enderio.gui.machine.button.retrievelevels=取出10级
 enderio.gui.machine.tooltip.retrievelevels=玩家XP等级
 enderio.gui.machine.button.retrieveall=取出全部
 enderio.gui.machine.tooltip.retrieveall=玩家XP等级
+
 enderio.gui.machine.ioMode.overlay.tooltip=配置IO
 enderio.gui.machine.ioMode.overlay.tooltip.visible.line1=Shift点击会重置各面
 enderio.gui.machine.ioMode.overlay.tooltip.visible.line2=至默认设置
@@ -1156,6 +1158,9 @@ enderio.gui.travelAccessable.ok=已授权
 enderio.gui.travelAccessable.skipLocked=跳过锁定锚, 使用定向传送.
 enderio.gui.travelAccessable.skipObstructed=跳过不通畅锚.
 enderio.gui.travelAccessable.skipPrivate=跳过私有锚.
+enderio.gui.travelAccessable.tooltip.visible=Visibility
+enderio.gui.travelAccessable.tooltip.visible.desc1=When off, you cannot see this block through other blocks.
+enderio.gui.travelAccessable.tooltip.visible.desc2=Handy for use as elevators.
 
 enderio.gui.telepad.configure.travel=旅行设置
 enderio.gui.telepad.configure.telepad=传送台设置
@@ -1310,4 +1315,3 @@ enderio.tooltip.meta=Meta:
 enderio.tooltip.uid=UID:
 enderio.tooltip.anvilupgrades=铁砧升级:
 enderio.waila.config.hiddenfacades=隐形栅栏
-

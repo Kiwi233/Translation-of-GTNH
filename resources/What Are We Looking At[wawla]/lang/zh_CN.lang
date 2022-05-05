@@ -23,7 +23,6 @@ tooltip.wawla.secondary=副增益效果
 tooltip.wawla.shiftEnch=按住Shift来查看附魔介绍
 tooltip.wawla.blockLevel=需求等级
 tooltip.wawla.amount=数量
-tooltip.wawla.item=物品
 tooltip.wawla.lightLevel=亮度等级
 tooltip.wawla.sit=待命
 tooltip.wawla.birth=产仔冷却时间
@@ -387,7 +386,9 @@ description.enchantment.nightVision=装备有夜视附魔的物品时,可获得�
 #EnderIO Enchantments
 description.enchantment.autosmelt=使用带有此附魔的物品开采方块时,会直接掉落该方块的熔炉产物.
 description.enchantment.xpboost=此附魔可按比例提升杀怪/玩家或开采方块掉落的经验. 
-description.enchantment.enderio.soulBound=附魔有灵魂绑定的物品/工具/装备在玩家死亡后仍然留在物品栏中,不会掉落.
+# *** #description.enchantment.enderio.soulBound=Prevents item from being lost on death
+# --- #description.enchantment.enderio.soulBound=该附魔使物品免于死亡掉落
+# +++ #description.enchantment.enderio.soulBound=When the player dies the item/tool/armor will be kept in the inventory and not drop on the ground.
 
 #EnderZoo Enchantments
 description.enchantment.enderzoo.witherArrow=击中后施加5秒凋零效果.
@@ -417,4 +418,3 @@ description.enchantment.damage.endermen=对末影生物造成更多伤害并阻�
 description.enchantment.damage.radioactivity=为你的武器或护甲施加辐射,让你的敌人或玩家痛苦不堪.
 description.gadomancy.enchantment.revealer=头盔附魔.可以看到灵气节点,类似神秘时代的揭示之护目镜.
 description.enchantment.projectred.expansion.fuel_efficiency=使喷气背包具有更高的燃料效率.
-

@@ -1,7 +1,7 @@
-## JourneyMap 5.2.0 Resource Bundle - zh_CN
-## Translated by 酷车手BB弹
-## HAYO Studio
-
+### JourneyMap 5.1.1 Resource Bundle - en_US
+### Notes for translators:
+### Do not translate or alter the codes used for color changes (§b, §e, §f, etc.)
+### Positional parameters (%1$s, %2$s, %3$s, etc.) may be reordered to suit your language's sentence structure
 jm.advanced.announcemod=声明Mod
 jm.advanced.announcemod.tooltip=在聊天窗口中声明JourneyMap已经就绪。
 jm.advanced.automappoll=自动绘图刷新频率
@@ -115,8 +115,6 @@ jm.common.map_style_antialiasing=使用抗锯齿
 jm.common.map_style_antialiasing.tooltip=增强用于表明高度变化的投影效果。关闭该项将会提升性能。
 jm.common.map_style_bathymetry=显示海洋测绘
 jm.common.map_style_bathymetry.tooltip=显示海底与水下的地形
-jm.common.map_style_topography=显示地形图
-jm.common.map_style_topography.tooltip=提供一个等高线和海拔高度的变化图
 jm.common.map_style_button=地图样式……
 jm.common.map_style_caveignoreglass=忽视玻璃材质天花板
 jm.common.map_style_caveignoreglass.tooltip=位于玻璃屋顶下将不会切换为洞穴绘制模式
@@ -264,7 +262,6 @@ jm.fullscreen.hotkeys_west=向西移动地图（16格方块）
 jm.fullscreen.map_caves=洞穴绘图
 jm.fullscreen.map_day=白天
 jm.fullscreen.map_night=黑夜
-jm.fullscreen.map_topo=地形图
 jm.fullscreen.minimap=小地图……
 jm.fullscreen.title=全屏地图
 jm.fullscreen.zoom_in=放大
@@ -383,8 +380,6 @@ jm.waypoint.manage_title=管理导航点
 jm.waypoint.manager=导航点管理器
 jm.waypoint.max_distance=最大距离
 jm.waypoint.max_distance.tooltip=从你本身算起一个导航点可以被呈现的最大距离（单位为 方块数或米）。该项将同时影响地图上的导航点与导航点信标。设为 0 将没有最大距离限制。
-jm.waypoint.min_distance=最小距离
-jm.waypoint.min_distance.tooltip=离你最小距离显示目标点（方块/米）。设置 0 则没有最小距离。
 jm.waypoint.name=名称
 jm.waypoint.new=新建……
 jm.waypoint.new_title=新建导航点

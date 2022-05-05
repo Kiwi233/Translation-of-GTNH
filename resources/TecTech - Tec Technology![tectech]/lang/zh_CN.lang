@@ -789,6 +789,7 @@ gt.blockmachines.debug.tt.genny.name=Debug发电机
 gt.blockmachines.debug.tt.genny.desc.0=凭空而生的能量
 gt.blockmachines.debug.tt.genny.desc.1=一个无限的能源生产/消耗设备
 gt.blockmachines.debug.tt.genny.desc.2=我只是想要一个...
+gt.blockmachines.debug.tt.genny.desc.3=Change it to Laser mode with a screwdriver.
 gt.blockmachines.debug.tt.writer.name=Debug结构打印机
 gt.blockmachines.debug.tt.writer.desc.0=扫描周围的方块
 gt.blockmachines.debug.tt.writer.desc.1=打印多方块非实体的结构样式编码
@@ -1244,3 +1245,5 @@ tt.IUPAC.E=Enn
 tt.IUPAC.ium=ium
 tt.IUPAC.Anti=Anti
 tt.keyword.Weird=*
+
+tt.chat.debug.generator=Laser mode: %s

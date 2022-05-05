@@ -1,11 +1,13 @@
-﻿# Galacticraft Mars Language File = Simplified Chinese
+# Galacticraft Mars Language File = UNITED STATES ENGLISH
 
 # GENERAL ITEMS
 item.rawDesh.name=未精炼戴斯矿
 item.deshStick.name=戴斯棍
 item.ingotDesh.name=戴斯锭
 item.spaceshipTier2.t2Rocket.name=2阶火箭
-item.reinforcedPlateT2.name=重型装甲板
+# *** #item.reinforcedPlateT2.name=Heavy-Duty Plate
+# --- #item.reinforcedPlateT2.name=重型装甲板
+# +++ #item.reinforcedPlateT2.name=Heavy Duty Plate
 item.tier2.desc=2阶
 item.slimelingCargo.name=黏滑物品背包
 item.key.T2.name=2阶地牢钥匙
@@ -96,7 +98,7 @@ gui.message.notEnough.name=缺少
 gui.message.success.name=成功
 gui.message.zeroWater.name=缺水!
 
-# Dollar sign ($) will split text onto a new line
+	# Dollar sign ($) will split text onto a new line
 gui.launchController.desc.0=这是发射控制器的$唯一频率
 gui.launchController.desc.1=火箭发射频率,火箭前往
 gui.launchController.desc.2=发射台是否$在发射时移除
