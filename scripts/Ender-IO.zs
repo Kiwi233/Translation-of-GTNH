@@ -762,12 +762,12 @@ recipes.addShaped(<EnderIO:blockTransceiver>, [
 // --- Item Buffer
 recipes.addShaped(<EnderIO:blockBuffer>, [
 [ESteelPlate, Chest, ESteelPlate],
-[LvConveyor, <ore:frameGtEnderium>, Circuit]]);
+[LvConveyor, <ore:frameGtDarkSteel>, Circuit]]);
 
 // --- Power Buffer
 recipes.addShaped(<EnderIO:blockBuffer:1>, [
 [ESteelPlate, EConduit, ESteelPlate],
-[<gregtech:gt.metaitem.01:32519>, <ore:frameGtEnderium>, Circuit]]);
+[<gregtech:gt.metaitem.01:32519>, <ore:frameGtDarkSteel>, Circuit]]);
 
 // --- Inventory Panel
 recipes.addShaped(<EnderIO:blockInventoryPanel>, [
@@ -1412,4 +1412,6 @@ Pulverizer.addRecipe([<EnderIO:itemMaterial:17>, <EnderIO:itemMaterial:17>, <End
 
 
 // --- Untreated Frame (Forestry)
-<EnderIO:blockTravelAnchor>.addTooltip("\u51b7\u5374\u65f6\u95f4\u003a\u0035\u79d2");
+# *** #<EnderIO:blockTravelAnchor>.addTooltip("Cooldown 5 seconds");
+# --- #<EnderIO:blockTravelAnchor>.addTooltip("\u51b7\u5374\u65f6\u95f4\u003a\u0035\u79d2");
+# +++ #<EnderIO:blockTravelAnchor>.addTooltip("Cooldown 2 seconds");

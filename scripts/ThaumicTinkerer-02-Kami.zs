@@ -188,24 +188,22 @@ furnace.addRecipe(<gregtech:gt.metaitem.01:9978> * 9, <gregtech:gt.metaitem.01:1
 // --- Ichor Wand Cap
 mods.thaumcraft.Research.orphanResearch("CAP_ICHOR");
 mods.thaumcraft.Research.removeResearch("CAP_ICHOR");
-mods.thaumcraft.Research.addResearch("CAPICHOR", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 11, 11, 4, <ThaumicTinkerer:kamiResource:4>);
-game.setLocalization("tc.research_name.CAPICHOR", "\u7075\u5b9d\u6756\u7aef");
-game.setLocalization("tc.research_text.CAPICHOR", "[TT]\u7c7b\u4f3c\u0053\u0074\u0065\u0061\u006d\u5e73\u53f0\u6298\u6263");
-mods.thaumcraft.Research.addPrereq("CAPICHOR", "ICHORIUM", false);
-mods.thaumcraft.Research.setConcealed("CAPICHOR", true);
-mods.thaumcraft.Research.addPage("CAPICHOR", "tt.research.page.CAPICHOR");
-game.setLocalization("tt.research.page.CAPICHOR", "\u4f60\u5c06\u7075\u5b9d\u952d\u6295\u5165\u4e86\u5b83\u7684\u7b2c\u4e00\u9879\u5e94\u7528\u003a\u8bbe\u8ba1\u4e00\u79cd\u80fd\u591f\u51cf\u514d\u5404\u79cd\u9b54\u529b\u6d88\u8017\u0033\u0030\u0025\u7684\u6756\u7aef\u002e
-\u73b0\u5728\u4f60\u80fd\u62ff\u8fd9\u73a9\u610f\u513f\u505a\u66f4\u591a\u7684\u4e8b\u513f\u002c\u5e76\u5236\u9020\u4e00\u79cd\u80fd\u50a8\u5b58\u66f4\u591a\u9b54\u529b\u7684\u6cd5\u6756\u4e86\u002e");
-mods.thaumcraft.Arcane.addShaped("CAPICHOR", <ThaumicTinkerer:kamiResource:4> * 2, "aer 150, aqua 150, ignis 150, terra 150, ordo 150, perditio 150", [
+mods.thaumcraft.Research.addResearch("CAP_ICHOR", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 11, 11, 4, <ThaumicTinkerer:kamiResource:4>);
+game.setLocalization("tc.research_name.CAP_ICHOR", "Ichorium Wand Caps");
+game.setLocalization("tc.research_text.CAP_ICHOR", "[TT] Somewhat like a Steam Sale");
+mods.thaumcraft.Research.addPrereq("CAP_ICHOR", "ICHORIUM", false);
+mods.thaumcraft.Research.setConcealed("CAP_ICHOR", true);
+mods.thaumcraft.Research.addPage("CAP_ICHOR", "ttresearch.page.CAP_ICHOR.0");
+mods.thaumcraft.Arcane.addShaped("CAP_ICHOR", <ThaumicTinkerer:kamiResource:4> * 2, "aer 150, aqua 150, ignis 150, terra 150, ordo 150, perditio 150", [
 [<ThaumicTinkerer:kamiResource>, <Thaumcraft:WandCap:7>, <ThaumicTinkerer:kamiResource>],
 [<ore:ringVoid>, <ore:ingotIchorium>, <ore:ringVoid>],
 [<ThaumicTinkerer:kamiResource>, <Thaumcraft:WandCap:7>, <ThaumicTinkerer:kamiResource>]]);
 // -
-mods.thaumcraft.Research.addArcanePage("CAPICHOR", <ThaumicTinkerer:kamiResource:4>);
+mods.thaumcraft.Research.addArcanePage("CAP_ICHOR", <ThaumicTinkerer:kamiResource:4>);
 // -
-mods.thaumcraft.Research.setAspects("CAPICHOR", "metallum 15, instrumentum 15, tenebrae 12, praecantatio 9, lux 6, alienis 3");
-mods.thaumcraft.Research.setComplexity("CAPICHOR", 4);
-mods.thaumcraft.Warp.addToResearch("CAPICHOR", 3);
+mods.thaumcraft.Research.setAspects("CAP_ICHOR", "metallum 15, instrumentum 15, tenebrae 12, praecantatio 9, lux 6, alienis 3");
+mods.thaumcraft.Research.setComplexity("CAP_ICHOR", 4);
+mods.thaumcraft.Warp.addToResearch("CAP_ICHOR", 3);
 
 // --- Feline Amulet
 mods.thaumcraft.Infusion.addRecipe("CAT_AMULET", <ThaumicTinkerer:kamiResource>, 

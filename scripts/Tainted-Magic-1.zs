@@ -630,7 +630,7 @@ game.setLocalization("tc.research_name.VoidWalkerBootsGTNH", "\u865a\u7a7a\u65c5
 game.setLocalization("tc.research_text.VoidWalkerBootsGTNH", "\u5f98\u5f8a\u4e4b\u5f71");
 mods.thaumcraft.Research.addPage("VoidWalkerBootsGTNH", "tm.text.VOIDWALKERBOOTS.1");
 mods.thaumcraft.Infusion.addRecipe("VoidWalkerBootsGTNH", <Thaumcraft:BootsTraveller>,
-[<Thaumcraft:ItemEldritchObject>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:18599>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemEldritchObject>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:18599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>], 
+[<Thaumcraft:ItemEldritchObject>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:18473>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemEldritchObject>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:18473>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>], 
 "alienis 64, iter 84, tenebrae 72, tutamen 64, vacuos 64, praecantatio 32", <TaintedMagic:ItemVoidwalkerBoots>, 12);
 mods.thaumcraft.Research.addInfusionPage("VoidWalkerBootsGTNH", <TaintedMagic:ItemVoidwalkerBoots>);
 mods.thaumcraft.Warp.addToResearch("VoidWalkerBootsGTNH", 4);
@@ -667,7 +667,7 @@ game.setLocalization("tc.research_name.VoidFortressGTNH", "\u865a\u7a7a\u8981\u5
 game.setLocalization("tc.research_text.VoidFortressGTNH", "\u4e00\u5207\u5c3d\u5728\u638c\u63a7\u4e4b\u4e2d");
 mods.thaumcraft.Research.addPage("VoidFortressGTNH", "tm.text.VOIDFORTRESS.1");
 mods.thaumcraft.Infusion.addRecipe("VoidFortressGTNH", <Thaumcraft:ItemHelmetVoid>,
-[<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:19599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>], 
+[<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:19473>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>], 
 "alienis 32, metallum 48, praecantatio 48, tutamen 48, vacuos 32, tenebrae 16, potentia 16, victus 32", <TaintedMagic:ItemVoidFortressHelmet>, 12);
 mods.thaumcraft.Research.addInfusionPage("VoidFortressGTNH", <TaintedMagic:ItemVoidFortressHelmet>);
 mods.thaumcraft.Warp.addToResearch("VoidFortressGTNH", 5);
@@ -935,10 +935,7 @@ mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "PRIMPEARL", false);
 mods.thaumcraft.Research.setConcealed("CAP_shadowmetal", true);
 game.setLocalization("tc.research_name.CAP_shadowmetal", "\u6697\u5f71\u6756\u7aef");
 game.setLocalization("tc.research_text.CAP_shadowmetal", "\u6709\u591a\u5403\u529b?");
-game.setLocalization("tc.research_page.CaP_ShadowmetalGTNH", "\u6839\u636e\u4f60\u5728\u865a\u7a7a\u6756\u7aef\u4e0a\u7684\u63a2\u7d22\u5fc3\u5f97,\u8fdb\u4e00\u6b65\u63d0\u5347\u8fd9\u79cd\u6756\u7aef\u4f1a\u600e\u4e48\u6837?
-\u4f60\u5c1d\u8bd5\u5c06\u66f4\u591a\u7684\u865a\u7a7a\u952d,\u4e00\u4e9b\u6697\u5f71\u952d\u548c\u4e00\u9897\u5143\u59cb\u73cd\u73e0\u6ce8\u5165\u865a\u7a7a\u6756\u7aef,\u4e8b\u5b9e\u8bc1\u660e\u4f60\u7684\u60f3\u6cd5\u975e\u5e38\u6210\u529f.
-\u6697\u5f71\u6756\u7aef\u4f3c\u4e4e\u80fd\u5341\u5206\u6709\u6548\u5730\u8282\u7701\u9b54\u529b,\u5bf9\u6240\u6709\u9b54\u529b\u90fd\u670935%\u7684\u51cf\u514d.
-\u5143\u59cb\u73cd\u73e0\u4e0d\u4f1a\u5728\u5408\u6210\u4e2d\u88ab\u6d88\u8017.");
+mods.thaumcraft.Research.addPage("CAP_shadowmetal", "With the discovery of Void Metal Wand Caps you wondered if you could improve their performance even further. You tested this theory by infusing the caps with some Shadowmetal, as well as the primal aspects of a primordial pearl. It proved very successful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 30% for all primal aspects.");
 mods.thaumcraft.Infusion.addRecipe("CAP_shadowmetal", <Thaumcraft:ItemEldritchObject:3>,
 [<Thaumcraft:WandCap:7>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:20368>, <gregtech:gt.metaitem.01:22970>, <gregtech:gt.metaitem.01:20368>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.02:30508>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:20368>, <gregtech:gt.metaitem.01:22970>, <gregtech:gt.metaitem.01:20368>, <TaintedMagic:ItemMaterial:3>], 
 "alienis 96, praecantatio 96, tenebrae 84, metallum 72, vacuos 64, cognitio 68, lucrum 32, fames 32", <TaintedMagic:ItemWandCap>, 12);
