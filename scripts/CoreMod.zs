@@ -255,6 +255,24 @@ recipes.addShaped(<dreamcraft:item.MoldFormChestplate>, [
 [null, BlankCast, null],
 [null, null, Hammer]]);
 
+// --- Mold Form Helmet
+recipes.addShaped(<dreamcraft:item.MoldFormHelmet>, [
+[null, null, File],
+[null, BlankCast, null],
+[null, null, Hammer]]);
+
+// --- Mold Form Leggings
+recipes.addShaped(<dreamcraft:item.MoldFormLeggings>, [
+[null, null, null],
+[null, BlankCast, File],
+[null, null, Hammer]]);
+
+// --- Mold Form Marshmallow
+recipes.addShaped(<dreamcraft:item.MarshmallowFormMold>, [
+[null, null, null],
+[null, BlankCast, null],
+[File, Hammer, null]]);
+
 // --- Mold Form Pipe Tiny
 recipes.addShaped(<dreamcraft:item.MoldFormPipeTiny>, [
 [null, File, null],
@@ -284,24 +302,6 @@ recipes.addShaped(<dreamcraft:item.MoldFormPipeHuge>, [
 [Hammer, null, File],
 [null, BlankCast, null],
 [null, null, null]]);
-
-// --- Mold Form Helmet
-recipes.addShaped(<dreamcraft:item.MoldFormHelmet>, [
-[null, null, File],
-[null, BlankCast, null],
-[null, null, Hammer]]);
-
-// --- Mold Form Leggings
-recipes.addShaped(<dreamcraft:item.MoldFormLeggings>, [
-[null, null, null],
-[null, BlankCast, File],
-[null, null, Hammer]]);
-
-// --- Mold Form Marshmallow
-recipes.addShaped(<dreamcraft:item.MarshmallowFormMold>, [
-[null, null, null],
-[null, BlankCast, null],
-[File, Hammer, null]]);
 
 // --- Extruder Shape Plate
 recipes.addShaped(<dreamcraft:item.ShapePlate>, [
@@ -881,32 +881,11 @@ recipes.addShaped(<dreamcraft:item.MoldFormCoinage>, [
 
 
 
+
 // --- Assembler Recipes
 
 
 
-// --- Piston Block
-Assembler.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gregtech:gt.metaitem.02:20032>, <liquid:molten.redstone> * 72, 100, 30);
-// -
-Assembler.addRecipe(<dreamcraft:tile.PistonBlock>, <minecraft:cobblestone>, <gregtech:gt.metaitem.02:20304>, <liquid:molten.redstone> * 72, 100, 30);
-
-// --- Piston Plate
-Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 6, <minecraft:fence>, 100, 30);
-// -
-Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 6, <ExtraTrees:fence:*>, 100, 30);
-// -
-Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 6, <Forestry:fences:*>, 100, 30);
-// -
-Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 6, <Forestry:fencesFireproof:*>, 100, 30);
-// -
-Assembler.addRecipe(<dreamcraft:item.PistonPlate>, <gregtech:gt.metaitem.02:32470> * 6, <Natura:Natura.fence:*>, 100, 30);
-
-// --- Piko Circuit
-//Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.tin> * 864, 600, 30720);
-// -
-//Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.solderingalloy> * 432, 600, 30720);
-// -
-//Assembler.addRecipe(<dreamcraft:item.PikoCircuit>, <dreamcraft:item.NanoProcessorBoard>, <dreamcraft:item.EngravedManyullynCrystalChip> * 4, <liquid:molten.lead> * 1782, 600, 30720);
 
 // --- Enriched Naquadria Sunnarium Alloy
 Assembler.addRecipe(<dreamcraft:item.EnrichedNaquadriaSunnariumAlloy>, <AdvancedSolarPanel:asp_crafting_items:4>, <gregtech:gt.metaitem.01:22327>, 2000, 500000);
@@ -1153,8 +1132,6 @@ CuttingSaw.addRecipe(<dreamcraft:item.IridiumAlloyItemCasing> * 2, null, <IC2:it
 
 // --- Callisto Cold Ice Plate
 CuttingSaw.addRecipe(<dreamcraft:item.CallistoIcePlate> * 9, null, <dreamcraft:tile.CallistoColdIce>, <liquid:ic2coolant> * 1000, 3600, 30);
-
-
 
 
 
@@ -1596,8 +1573,8 @@ mods.thaumcraft.Research.addPage("WITHERRING", "NewHorizons.research_page.WITHER
 game.setLocalization("NewHorizons.research_page.WITHERRING", "\u51cb\u7075\u9632\u62a4\u6307\u73af\u662f\u4e00\u79cd\u975e\u5e38\u7279\u6b8a\u7684\u6307\u73af.
 \u6234\u4e0a\u8fd9\u4e2a\u6307\u73af,\u4f60\u5c31\u80fd\u6446\u8131\u8ba8\u538c\u7684\u51cb\u96f6\u72b6\u6001,\u8f7b\u677e\u6109\u5feb\u5730\u6536\u83b7\u4e0b\u754c\u4e4b\u661f\u5566!
 \u795d\u4f60\u597d\u8fd0!!!");
-mods.thaumcraft.Infusion.addRecipe("WITHERRING", <Thaumcraft:ItemBaubleBlanks:1>, 
-[<minecraft:nether_star>, <minecraft:milk_bucket>, <minecraft:skull:1>, <minecraft:milk_bucket>, <minecraft:skull:1>], 
+mods.thaumcraft.Infusion.addRecipe("WITHERRING", <Thaumcraft:ItemBaubleBlanks:1>,
+[<minecraft:nether_star>, <minecraft:milk_bucket>, <minecraft:skull:1>, <minecraft:milk_bucket>, <minecraft:skull:1>],
 "alienis 45, praecantatio 35, spiritus 30, superbia 25, infernus 15",  <dreamcraft:item.WitherProtectionRing>, 3);
 mods.thaumcraft.Research.addInfusionPage("WITHERRING", <dreamcraft:item.WitherProtectionRing>);
 mods.thaumcraft.Warp.addToResearch("WITHERRING", 2);
@@ -1704,8 +1681,8 @@ game.setLocalization("de.research_page.DEZILSMARSHMALLOW", "\u6700\u7ec8\u6781\u
 \u5403\u4e86\u5b83,\u4f60\u53ef\u4ee5\u5728\u5ca9\u6d46\u4e2d\u6e38\u6cf3,\u50cf\u9c7c\u4e00\u6837\u6f5c\u6c34,\u53d1\u75af\u4e00\u822c\u7684\u6316\u6398,\u8df3\u5f97\u50cf\u5154\u5b50\u4e00\u6837\u9ad8.
 \u53ea\u8981\u5403\u4e86\u4e00\u4e2a\u68c9\u82b1\u7cd6,\u4f60\u5c31\u6c38\u8fdc\u4e5f\u4e0d\u4f1a\u611f\u5230\u9965\u997f.
 \u4f60\u751a\u81f3\u89c9\u5f97\u81ea\u5df1\u53ef\u4ee5\u624b\u6495\u672b\u5f71\u9f99!");
-mods.thaumcraft.Infusion.addRecipe("DEZILSMARSHMALLOW", <dreamcraft:item.Marshmallow>, 
-[<harvestcraft:epicbaconItem>, <harvestcraft:deluxechickencurryItem>, <harvestcraft:meatfeastpizzaItem>, <harvestcraft:beefwellingtonItem>, <harvestcraft:sausageinbreadItem>, <harvestcraft:heartybreakfastItem>], 
+mods.thaumcraft.Infusion.addRecipe("DEZILSMARSHMALLOW", <dreamcraft:item.Marshmallow>,
+[<harvestcraft:epicbaconItem>, <harvestcraft:deluxechickencurryItem>, <harvestcraft:meatfeastpizzaItem>, <harvestcraft:beefwellingtonItem>, <harvestcraft:sausageinbreadItem>, <harvestcraft:heartybreakfastItem>],
 "alienis 32, praecantatio 16, superbia 24, sano 28, iter 20, potentia 12",  <DraconicEvolution:dezilsMarshmallow>, 5);
 mods.thaumcraft.Research.addInfusionPage("DEZILSMARSHMALLOW", <DraconicEvolution:dezilsMarshmallow>);
 mods.thaumcraft.Warp.addToResearch("DEZILSMARSHMALLOW", 8);
@@ -1780,8 +1757,8 @@ game.setLocalization("Minecraft.research_page.BEACON", "\u4fe1\u6807\u662f\u4e00
 \u4fe1\u6807\u53ef\u7528\u4f5c\u5149\u6e90,\u5b83\u4f1a\u53d1\u51fa\u4eae\u5ea6\u7b49\u7ea7\u4e3a15\u7684\u5149. \u50cf\u5176\u4ed6\u7684\u5149\u6e90\u90a3\u6837,\u4fe1\u6807\u4f1a\u878d\u5316\u96ea\u548c\u51b0.
 \u5f53\u88ab\u6fc0\u6d3b\u65f6,\u4fe1\u6807\u53ef\u63d0\u4f9b\u4e24\u79cd\u529f\u80fd:
 \u4e00\u6761\u76f4\u5c04\u4e91\u7aef\u7684\u5730\u6807\u6027\u5149\u675f,\u53ef\u4ee5\u5728\u5f88\u8fdc\u7684\u8ddd\u79bb\u5916\u770b\u5230. \u589e\u76ca\u6548\u679c,\u4fe1\u6807\u8d4b\u4e88\u5904\u4e8e\u7279\u5b9a\u534a\u5f84\u5185\u7684\u73a9\u5bb6\u6b63\u9762\u7684\u72b6\u6001\u6548\u679c.");
-mods.thaumcraft.Infusion.addRecipe("BEACON", <minecraft:diamond_block>, 
-[<minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>], 
+mods.thaumcraft.Infusion.addRecipe("BEACON", <minecraft:diamond_block>,
+[<minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>, <minecraft:glass>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:24506>],
 "praecantatio 64, alienis 64, lux 64, ordo 64, ignis 64, terra 64", <minecraft:beacon>, 6);
 mods.thaumcraft.Research.addInfusionPage("BEACON", <minecraft:beacon>);
 mods.thaumcraft.Warp.addToResearch("BEACON", 2);
@@ -1797,8 +1774,8 @@ mods.thaumcraft.Research.addPage("DRAGONEGG", "Minecraft.research_page.DRAGONEGG
 game.setLocalization("Minecraft.research_page.DRAGONEGG", "\u5f53\u672b\u5f71\u9f99\u88ab\u6740\u6b7b\u65f6\u4f1a\u6389\u843d\u9f99\u86cb.
 \u4f46\u53f3\u952e\u9f99\u86cb\u4f1a\u4f7f\u5176\u77ed\u8ddd\u79bb\u77ac\u79fb.(\u8bd5\u8bd5\u7528\u5251)
 \u73b0\u5728\u4f60\u627e\u5230\u4e86\u4e00\u79cd\u9b54\u6cd5\u624b\u6bb5\u6765\u590d\u5236\u8fd9\u79cd\u5f3a\u5927\u7684\u7269\u54c1,\u90a3\u5c31\u662f\u5c06\u871c\u8702\u4ea7\u7269\u5236\u6210\u7684\u9f99\u4e4b\u5757\u548c\u865a\u5047\u751f\u547d\u6e90\u8d28\u4e00\u8d77\u6ce8\u9b54.");
-mods.thaumcraft.Infusion.addRecipe("DRAGONEGG", <MagicBees:miscResources:7>, 
-[<MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6> ,<MagicBees:miscResources:6>], 
+mods.thaumcraft.Infusion.addRecipe("DRAGONEGG", <MagicBees:miscResources:7>,
+[<MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6>, <MagicBees:miscResources:6> ,<MagicBees:miscResources:6>],
 "alienis 64, bestia 56, praecantatio 48, victus 48",  <minecraft:dragon_egg>, 6);
 mods.thaumcraft.Research.addInfusionPage("DRAGONEGG", <minecraft:dragon_egg>);
 mods.thaumcraft.Warp.addToResearch("DRAGONEGG", 5);
@@ -1831,8 +1808,8 @@ mods.thaumcraft.Research.addPage("LAVACRYSTAL", "TConstruct.research_page.LAVACR
 game.setLocalization("TConstruct.research_page.LAVACRYSTAL", "\u7194\u5ca9\u6676\u4f53\u662f\u5de5\u5177\u548c\u6b66\u5668\u7684\u5f3a\u5316\u7528\u54c1.
 \u5c06\u5176\u6dfb\u52a0\u8fdb\u5de5\u5177,\u53ef\u4f7f\u5de5\u5177\u83b7\u5f97\u7194\u7089\u7684\u529b\u91cf,\u8fd9\u610f\u5473\u7740\u5b83\u4f1a\u81ea\u52a8\u878d\u5316\u65b9\u5757.
 \u4f46\u662f\u5c06\u5176\u6dfb\u52a0\u8fdb\u6b66\u5668\u7f3a\u6ca1\u6709\u76f8\u540c\u7684\u6548\u679c,\u800c\u662f\u4f7f\u88ab\u653b\u51fb\u7684\u751f\u7269\u71c3\u70e73\u79d2.<BR>\u8fd9\u79cd\u5f3a\u5316\u7528\u54c1\u53ef\u4e0e\u65f6\u8fd0\u5171\u5b58\u4f46\u4e0e\u7cbe\u51c6\u91c7\u96c6\u51b2\u7a81.");
-mods.thaumcraft.Infusion.addRecipe("LAVACRYSTAL", <minecraft:fire_charge>, 
-[<minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>, <minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>], 
+mods.thaumcraft.Infusion.addRecipe("LAVACRYSTAL", <minecraft:fire_charge>,
+[<minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>, <minecraft:blaze_rod>, <minecraft:lava_bucket>, <minecraft:fire_charge>, <Thaumcraft:ItemShard:1>],
 "ignis 25, perditio 25, vacuos 20, praecantatio 35", <TConstruct:materials:7>, 3);
 mods.thaumcraft.Research.addInfusionPage("LAVACRYSTAL", <TConstruct:materials:7>);
 
@@ -1846,7 +1823,7 @@ mods.thaumcraft.Research.setConcealed("BALLOFMOSS", true);
 mods.thaumcraft.Research.setRound("BALLOFMOSS", true);
 mods.thaumcraft.Research.addPage("BALLOFMOSS", "TConstruct.research_page.BALLOFMOSS");
 game.setLocalization("TConstruct.research_page.BALLOFMOSS", "\u82d4\u85d3\u7403\u662f\u7528\u4e8e\u5320\u9b42\u5de5\u5177\u7684.<BR>\u628a\u82d4\u85d3\u9644\u5728\u5de5\u5177\u4e0a\u4f7f\u5b83\u5145\u6ee1\u6d3b\u529b.\u8fd9\u628a\u5de5\u5177\u5c31\u80fd\u81ea\u52a8\u4fee\u590d\u81ea\u8eab.<BR>\u6548\u679c:<BR>\u5de5\u5177\u53ef\u81ea\u6211\u4fee\u590d.<BR>\u9633\u5149\u4e0b\u901f\u5ea6\u7ffb\u500d.");
-mods.thaumcraft.Infusion.addRecipe("BALLOFMOSS", <Thaumcraft:ItemResource:15>, 
+mods.thaumcraft.Infusion.addRecipe("BALLOFMOSS", <Thaumcraft:ItemResource:15>,
 [<gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>, <gregtech:gt.metaitem.01:2542>, <TwilightForest:tile.TFPlant:3>, <BiomesOPlenty:moss>],
 "sano 30, terra 25, instrumentum 35", <TConstruct:materials:6>, 5);
 mods.thaumcraft.Research.addInfusionPage("BALLOFMOSS", <TConstruct:materials:6>);
@@ -1883,8 +1860,8 @@ game.setLocalization("TConstruct.research_page.REDHEART.1", "\u5fae\u578b\u7ea2\
 \u6740\u6b7b\u654c\u5bf9\u751f\u7269\u4f1a\u968f\u673a\u6389\u843d\u5b83,\u4e5f\u53ef\u4ee5\u6ce8\u9b54\u83b7\u5f97.\u6389\u843d\u73870.2%.
 \u53ea\u8981\u654c\u5bf9\u751f\u7269\u6b7b\u4ea1\u5c31\u6709\u51e0\u7387\u6389\u843d,\u4e0d\u4e00\u5b9a\u9700\u8981\u73a9\u5bb6\u4eb2\u624b\u6740\u6b7b.
 \u5b83\u7684\u57fa\u672c\u7528\u9014\u5c31\u662f\u5408\u6210\u7ea2\u5fc3\u5bb9\u5668,\u4f46\u5b83\u4e5f\u53ef\u4ee5\u98df\u7528,\u77ac\u95f4\u6062\u590d10\u5fc3\u751f\u547d\u503c.");
-mods.thaumcraft.Infusion.addRecipe("REDHEART", <minecraft:golden_apple>, 
-[<TConstruct:jerky:6>, <minecraft:apple>, <TConstruct:jerky:7>, <TConstruct:materials:8>, <TConstruct:jerky>, <TConstruct:jerky:1>, <TConstruct:jerky:2>, <TConstruct:jerky:3>, <TConstruct:jerky:4>, <TConstruct:jerky:5>], 
+mods.thaumcraft.Infusion.addRecipe("REDHEART", <minecraft:golden_apple>,
+[<TConstruct:jerky:6>, <minecraft:apple>, <TConstruct:jerky:7>, <TConstruct:materials:8>, <TConstruct:jerky>, <TConstruct:jerky:1>, <TConstruct:jerky:2>, <TConstruct:jerky:3>, <TConstruct:jerky:4>, <TConstruct:jerky:5>],
 "exanimis 25, ignis 35, lucrum 35, sano 50, praecantatio 50", <TConstruct:heartCanister:1>, 3);
 mods.thaumcraft.Research.addInfusionPage("REDHEART", <TConstruct:heartCanister:1>);
 mods.thaumcraft.Warp.addToResearch("REDHEARTCANISTER", 1);
@@ -1917,8 +1894,8 @@ mods.thaumcraft.Research.addPage("YELLOWHEART", "TConstruct.research_page.YELLOW
 game.setLocalization("TConstruct.research_page.YELLOWHEART.1", "\u5fae\u578b\u9ec4\u5fc3\u662f\u5320\u9b42\u6dfb\u52a0\u7684\u7269\u54c1.
 \u5b83\u53ef\u901a\u8fc7\u6740\u6b7bboss\u602a\u7269\u83b7\u5f97,\u5982\u51cb\u7075\u6216\u53f2\u83b1\u59c6\u4e4b\u738b,\u6216\u8005\u662f\u66ae\u8272boss,\u5982\u5a1c\u8fe6\u3001\u5deb\u5996\u6216\u662f\u4e5d\u5934\u86c7.
 \u5b83\u7684\u57fa\u672c\u7528\u9014\u5c31\u662f\u5408\u6210\u9ec4\u5fc3\u5bb9\u5668,\u4f46\u5b83\u4e5f\u53ef\u4ee5\u98df\u7528,\u77ac\u95f4\u6062\u590d20\u5fc3\u751f\u547d\u503c.");
-mods.thaumcraft.Infusion.addRecipe("YELLOWHEART", <minecraft:golden_apple:1>, 
-[<TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>], 
+mods.thaumcraft.Infusion.addRecipe("YELLOWHEART", <minecraft:golden_apple:1>,
+[<TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>, <TConstruct:heartCanister:1>, <TConstruct:materials:8>],
 "exanimis 50, ignis 75, lucrum 75, sano 100, praecantatio 100", <TConstruct:heartCanister:3>, 3);
 mods.thaumcraft.Research.addInfusionPage("YELLOWHEART", <TConstruct:heartCanister:3>);
 mods.thaumcraft.Warp.addToResearch("YELLOWHEARTCANISTER", 2);
@@ -1951,8 +1928,8 @@ mods.thaumcraft.Research.addPage("GREENHEART", "TConstruct.research_page.GREENHE
 game.setLocalization("TConstruct.research_page.GREENHEART.1", "\u5fae\u578b\u7eff\u5fc3\u662f\u5320\u9b42\u6dfb\u52a0\u7684\u7269\u54c1.
 \u53ea\u80fd\u901a\u8fc7\u6ce8\u9b54\u83b7\u5f97.
 \u5b83\u7684\u57fa\u672c\u7528\u9014\u5c31\u662f\u5408\u6210\u7eff\u5fc3\u5bb9\u5668,\u4f46\u5b83\u4e5f\u53ef\u4ee5\u98df\u7528,\u77ac\u95f4\u6062\u590d30\u5fc3\u751f\u547d\u503c.");
-mods.thaumcraft.Infusion.addRecipe("GREENHEART", <TConstruct:diamondApple>, 
-[<TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>], 
+mods.thaumcraft.Infusion.addRecipe("GREENHEART", <TConstruct:diamondApple>,
+[<TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>, <TConstruct:heartCanister:3>, <TConstruct:materials:8>],
 "exanimis 100, ignis 150, lucrum 150, sano 200, praecantatio 200", <TConstruct:heartCanister:5>, 3);
 mods.thaumcraft.Research.addInfusionPage("GREENHEART", <TConstruct:heartCanister:5>);
 mods.thaumcraft.Warp.addToResearch("GREENHEART", 3);
@@ -2083,8 +2060,8 @@ mods.thaumcraft.Research.addPage("GHOSTAMULET", "Hee.research_page.GHOSTAMULET.1
 game.setLocalization("Hee.research_page.GHOSTAMULET.1", "\u5728\u591a\u4eba\u670d\u52a1\u5668\u4e0a,\u4ece\u672b\u5f71\u9f99\u8eab\u4e0a\u83b7\u53d6\u9f99\u4e4b\u7cbe\u534e\u662f\u975e\u5e38\u56f0\u96be\u7684.
 \u4f60\u5fc5\u987b\u627e\u5230\u4e00\u79cd\u4e0d\u7528\u9f99\u4e4b\u7cbe\u534e\u7684\u65b9\u6cd5\u6765\u51c0\u5316\u4f60\u7684\u5e7d\u9b42\u62a4\u8eab\u7b26.
 \u4f60\u9700\u8981\u4e00\u4e9b\u9f99\u952d\u3001\u672b\u5f71\u7c89\u672b\u4ee5\u53ca\u4e00\u7cfb\u5217\u672b\u5730\u7269\u54c1\u548c\u77ff\u77f3\u6765\u8fbe\u5230\u4e0e\u9f99\u4e4b\u7cbe\u534e\u76f8\u540c\u7684\u6548\u679c.");
-mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet>, 
-[<gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:end_powder>, <gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:end_powder>], 
+mods.thaumcraft.Infusion.addRecipe("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet>,
+[<gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:end_powder>, <gregtech:gt.metaitem.01:11975>, <HardcoreEnderExpansion:instability_orb>, <gregtech:gt.metaitem.01:28770>, <HardcoreEnderExpansion:end_powder>, <HardcoreEnderExpansion:igneous_rock>, <HardcoreEnderExpansion:fire_shard>, <HardcoreEnderExpansion:end_powder>],
 "auram 64, potentia 64, vitium 32, vitreus 48, spiritus 32, corpus 16, alienis 24, lucrum 8", <HardcoreEnderExpansion:ghost_amulet:1>, 9);
 mods.thaumcraft.Research.addInfusionPage("GHOSTAMULET", <HardcoreEnderExpansion:ghost_amulet:1>);
 mods.thaumcraft.Warp.addToResearch("GHOSTAMULET", 3);

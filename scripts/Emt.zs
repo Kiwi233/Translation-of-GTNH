@@ -916,7 +916,6 @@ mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars4:9>
 mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars4:9>);
 mods.thaumcraft.Crucible.addRecipe("EarthInfusedSolarPanels", <EMT:EMTSolars5>, <EMT:EMTSolars4:12>, "terra 4096, permutatio 4096, praecantatio 4096, lux 2048");
 mods.thaumcraft.Research.addCruciblePage("EarthInfusedSolarPanels", <EMT:EMTSolars5>);
-
 // --- Electric Hoe of Growth
 mods.thaumcraft.Research.orphanResearch("Electric Hoe of Growth");
 mods.thaumcraft.Research.removeResearch("Electric Hoe of Growth");
