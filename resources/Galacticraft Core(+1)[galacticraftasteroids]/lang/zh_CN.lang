@@ -1,4 +1,4 @@
-﻿# Galacticraft Asteroids Language File = SIMPLIFIED CHINESE
+# Galacticraft Asteroids Language File = UNITED STATES ENGLISH
 
 # GENERAL ITEMS
 item.itemTier3Rocket.t3Rocket.name=3阶火箭
@@ -10,8 +10,9 @@ item.shardTitanium.name=钛碎片
 item.shardIron.name=铁碎片
 item.rocketFinsT2.name=重型火箭鳍
 item.engineT2.name=重型火箭引擎
-item.reinforcedPlateT3.name=重型装甲板
-gui.desc.reinforcedPlateT3.name=3阶
+# *** #item.reinforcedPlateT3.name=Heavy-Duty Plate
+# --- #item.reinforcedPlateT3.name=重型装甲板
+# +++ #item.reinforcedPlateT3.name=Heavy Duty Plate
 item.grapple.name=吊钩
 item.atmosphericValve.name=气闸
 item.thermalCloth.name=隔热布匹
@@ -51,7 +52,7 @@ item.canister.liquidArgon.full.name=灌装液态氩(满)
 item.canister.liquidArgon.name=氩
 item.emptyGasCanister.name=气体罐(空)
 
-# Fluids and gases
+# FLUIDS AND GASES
 fluid.methane=甲烷
 fluid.oxygen=氧气
 fluid.nitrogen=氮气
@@ -86,8 +87,8 @@ tile.minerBase.name=太空采矿机基地方块
 # GUI
 planet.asteroids=小行星
 
-# Dollar sign ($) will split text onto a new line
-# Do not remove %s or %d, since that will be replaced in-game
+	# Dollar sign ($) will split text onto a new line
+	# Do not remove %s or %d, since that will be replaced in-game
 gui.telepad.desc.0=这是本传送台的$唯一坐标
 gui.telepad.desc.1=另一个传送台的坐标.$实体会被传送到那里.
 gui.message.address.name=坐标
@@ -132,28 +133,23 @@ tile.beamReflector.description=能量射束反射器用于改变源头来的激�
 tile.beamReceiver.description=能量射束接收器连接到机器以输入和输出能量,使用激光束传输能量.
 tile.telepadShort.description=短距离传送台可用于短距离传送(250格),将玩家和其他生物传送至其他已建立连接的传送台.
 tile.minerBase.description=太空采矿机基地用于太空采矿机的停驻.  它很大 ... 尝试用它们做一个 2 x 2 x 2 的立方体
+
+# SCHEMATICS
 schematic.astroMiner.name=太空采矿机
-schematic.ionDrive.name=离子推进器
 
-# Schematics
-
-# Entity
+# ENTITIES
 entity.SmallAsteroidGC.name=小行星
 entity.GrappleHookGC.name=抓升钩
 entity.Tier3RocketGC.name=3阶火箭
 entity.EntryPodAsteroids.name=入口平台
 entity.AstroMiner.name=太空采矿机
 
-# Container
+# CONTAINERS
 container.shortRangeTelepad.name=短程传送平台
 container.entryPod.name=入口平台
 
 # CONFIG GUI
 gc.configgui.dimensionIDAsteroids=Asteroids Dimension ID(行星维度ID)
-gc.configgui.idEntitySmallAsteroid=Small Asteroid Entity ID(小行星实体ID)
-gc.configgui.idEntityGrappleHook=Grapple Hook Entity ID(抓升钩实体ID)
-gc.configgui.idEntityTier3Rocket=Tier 3 Rocket Entity ID(3阶火箭实体ID)
-gc.configgui.idEntityEntryPod=Entry Pod Entity ID(入口平台实体ID)
 gc.configgui.idSchematicRocketT3=Tier 3 Rocket Schematic ID(3阶火箭设计图ID)
 gc.configgui.disableGalacticraftHelium=Disable Helium gas registration(禁用GC氦气)
 gc.configgui.astroMinersMax=玩家拥有太空采矿机数量上限

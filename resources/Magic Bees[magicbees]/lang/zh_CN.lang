@@ -504,7 +504,7 @@ magicbees.species.description=
 magicbees.speedBlinding=致盲
 
 magicbees.effectCurative=驱散
-binniecore.allele.magicbees.effectCurative.desc=清除玩家的负面效果
+binniecore.allele.magicbees.effectCurative.desc=Removes negative effects from players
 magicbees.effectDigSpeed=挖掘加速
 binniecore.allele.magicbees.effectDigSpeed.desc=提升玩家挖掘速度
 magicbees.effectMoveSpeed=瞬息
@@ -522,13 +522,13 @@ binniecore.allele.magicbees.effectInvisiblility.desc=令玩家隐身
 magicbees.effectVisRecharge=再充能
 binniecore.allele.magicbees.effectVisRecharge.desc=为灵气节点充能
 magicbees.effectNodeEmpower=强充能
-binniecore.allele.magicbees.effectNodeEmpower.desc=永久提高灵气节点的能量
+binniecore.allele.magicbees.effectNodeEmpower.desc=Overcharges nearby Aura Nodes permanently
 magicbees.effectNodeRepair=放大
-binniecore.allele.magicbees.effectNodeEmpower.desc=给灵气节点带来活力
+binniecore.allele.magicbees.effectNodeEmpower.desc=Makes Aura Nodes more vibrant
 magicbees.effectNodeTainting=腐化
-binniecore.allele.magicbees.effectNodeEmpower.desc=污染灵气节点
+binniecore.allele.magicbees.effectNodeEmpower.desc=Pollutes Aura Nodes
 magicbees.effectNodePurifying=净化
-binniecore.allele.magicbees.effectNodeEmpower.desc=净化灵气节点
+binniecore.allele.magicbees.effectNodeEmpower.desc=Purifies Aura Nodes
 magicbees.effectNodeRavening=掠夺
 binniecore.allele.magicbees.effectNodeEmpower.desc=以非正常的方式,让节点更加饥饿
 magicbees.effectBrainy=怒尸
@@ -709,4 +709,3 @@ magicbees.botania.lexicon.hibeescus.crafting=仅为居心不良者使用。
 
 magicbees.botania.lexicon.manaBooster.0=魔力蜂箱是一种非常自然的 让蜜蜂加快工作速度的方式， 但它也有一点...局限。 <br>幸运的是，活石和花瓣的特性 使得它们可以偶尔为蜜蜂充 能，从而使蜜蜂们更高产。 只需向&1魔力蜂箱加速器&0持续 提供魔力，它们就可以一直让 蜜蜂们保持高产状态。
 magicbees.botania.lexicon.manaBooster.crafting=充满魔力的蜂群中!
-

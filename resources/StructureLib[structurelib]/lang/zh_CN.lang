@@ -156,4 +156,3 @@ structurelib.config.client.hologram.maxCoexisting=最大共存全息图数
 structurelib.config.client.hologram.maxCoexisting.tooltip=可以同时存在的全息图数量. 一般一次右键生成的所有提示都视为一个全息图. 当存在多个全息图且超过此数量后，尝试生成新全息图时会删除旧全息图.
 structurelib.config.client.hologram.removeColliding=移除冲突全息图
 structurelib.config.client.hologram.removeColliding.tooltip=已存在的全息图与新全息图冲突时，会删除旧全息图.
-
