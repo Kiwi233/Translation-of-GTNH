@@ -254,9 +254,7 @@ gui.tooltips.appliedenergistics2.SubstitutionsDescDisabled=禁用输入组件替
 gui.tooltips.appliedenergistics2.PatternSlotConfigTitle=切换终端模式
 gui.tooltips.appliedenergistics2.PatternSlotConfigInfo=在(16 -> 4)和(4 -> 16)之间切换样板模式
 gui.tooltips.appliedenergistics2.Encode=编码样板
-# *** #gui.tooltips.appliedenergistics2.EncodeDescription=Write the entered pattern to the current encoded pattern, or to available blank pattern. Hold Shift to transfer directly to your inventory
-# --- #gui.tooltips.appliedenergistics2.EncodeDescription=将输入的样板写入当前编码样板,或可用的空样板.按住Shift使样板直接进入物品栏
-# +++ #gui.tooltips.appliedenergistics2.EncodeDescription=Write the entered pattern to the current encoded pattern, or to available blank pattern. Hold Shift to transfer directly to your inventory. Hold Shift+Control to encode whole stack.
+gui.tooltips.appliedenergistics2.EncodeDescription=将输入的样板写入当前编码样板或可用的空样板;按住Shift使样板直接进入物品栏;按住Ctrl+Shift以编码整组样板.
 
 gui.tooltips.appliedenergistics2.FuzzyMode=模糊对比
 gui.tooltips.appliedenergistics2.FZPercent_25=25%时分离损耗
@@ -369,20 +367,16 @@ gui.tooltips.appliedenergistics2.ToggleShowFullInterfaces=切换显示满样板�
 gui.tooltips.appliedenergistics2.ToggleShowFullInterfacesOnDesc=显示所有接口
 gui.tooltips.appliedenergistics2.ToggleShowFullInterfacesOffDesc=仅显示有空缺的接口
 gui.tooltips.appliedenergistics2.HighlightInterface=高亮接口
-# *** #gui.tooltips.appliedenergistics2.SearchFieldInputs=Inputs OR names
-# --- #gui.tooltips.appliedenergistics2.SearchFieldInputs=输入OR名
-# +++ #gui.tooltips.appliedenergistics2.SearchFieldInputs=Recipe Inputs
-# *** #gui.tooltips.appliedenergistics2.SearchFieldOutputs=Outputs OR names
-# --- #gui.tooltips.appliedenergistics2.SearchFieldOutputs=输出OR名
-# +++ #gui.tooltips.appliedenergistics2.SearchFieldOutputs=Recipe Outputs
-gui.tooltips.appliedenergistics2.SearchFieldNames=Interface Names
+gui.tooltips.appliedenergistics2.SearchFieldInputs=样板输入物品
+gui.tooltips.appliedenergistics2.SearchFieldOutputs=样板输出物品
+gui.tooltips.appliedenergistics2.SearchFieldNames=接口名
 
-gui.tooltips.appliedenergistics2.InsertionModeDefault=Default Insertion Mode
-gui.tooltips.appliedenergistics2.InsertionModeDefaultDesc=First to last, merge stacks as necessary
-gui.tooltips.appliedenergistics2.InsertionModePreferEmpty=Insertion prefer empty slots
-gui.tooltips.appliedenergistics2.InsertionModePreferEmptyDesc=Same as default, but try empty slots first
-gui.tooltips.appliedenergistics2.InsertionModeOnlyEmpty=Insert to empty slots only
-gui.tooltips.appliedenergistics2.InsertionModeOnlyEmptyDesc=First to last, does not merge stacks
+gui.tooltips.appliedenergistics2.InsertionModeDefault=默认输出模式
+gui.tooltips.appliedenergistics2.InsertionModeDefaultDesc=从前到后,倾向于堆叠
+gui.tooltips.appliedenergistics2.InsertionModePreferEmpty=优先向空槽输出
+gui.tooltips.appliedenergistics2.InsertionModePreferEmptyDesc=类似默认模式,但优先向空槽输出
+gui.tooltips.appliedenergistics2.InsertionModeOnlyEmpty=只向空槽输出
+gui.tooltips.appliedenergistics2.InsertionModeOnlyEmptyDesc=从前到后,不堆叠
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
@@ -595,8 +589,8 @@ commands.ae2.ProfilerGridDown=该网格离线
 commands.ae2.ProfilerStop=该网络每t平均延时(纳秒):
 commands.ae2.ProfilerFailedDim=未知世界
 commands.ae2.ToggleFullAccess=开关OP无视安全终端AE完全访问权限
-commands.ae2.ToggleDebugTiming=Toggle debug tick manager logging
-commands.ae2.ToggleDebugPathfinding=Toggle pathfinding debug logging
+commands.ae2.ToggleDebugTiming=开关tick管理器debug日志
+commands.ae2.ToggleDebugPathfinding=开关寻路debug日志
 
 # Achievements
 achievement.ae2.Compass=陨石猎手
