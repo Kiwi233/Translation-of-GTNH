@@ -938,7 +938,7 @@ witchery:potion.colorful.orange=染桔
 witchery:potion.colorful.white=染白
 
 item.witchery:brewbottle.name=酿造
-item.witchery:brewbucket.name=Bucket of Brew
+item.witchery:brewbucket.name=酿造桶
 witchery:brew.planting=种植
 witchery:brew.floating=悬空
 witchery:brew.tilling=耕种
@@ -1167,7 +1167,7 @@ witchery:cauldronbook.cauldron=[next=cauldron2][h1 炼药锅: 配方]巫师炼�
 witchery:cauldronbook.cauldron2=[h1 炼药锅: 清空]丢入下列物品之一可以清空 一个炼药锅:[br][br][stack=witchery:ingredient|17 会清理炼药锅][br][stack=witchery:ingredient|16 会炸掉内容物][br][br][i 然而巫师和附近的方块不会 被伤害.]
 
 witchery:cauldronbook.crafting=[next=toc/crafting2][h1 道具制作] 巫师炼药锅可以用来制作 带有魔法效果的物品,如果 物品按照固定组合被扔进了锅里, 制作过程会自动开始. 用 [url=rituals6 仪式法阵] 来减少魔力消耗!
-witchery:cauldronbook.toc/crafting2=[next=crafting3][h1 Crafting: Recipes]> [url Boiled Meat][br]> [url Mutandis][br]> [url Mutandis Extremis][br]> [url Drop of Luck][br]> [url Otherwhere Chalk][br]> [url Infernal Chalk][br]> [url Golden Chalk][br]> [url Mutating Sprig][br]> [url Nether Wart][br]> [url End Stone][br]> [url Rotten Flesh]
+witchery:cauldronbook.toc/crafting2=[next=crafting3][h1 道具制作: 配方]> [url 熟肉][br]> [url 转生粉][br]> [url 超级转生粉][br]> [url 幸运滴液][br]> [url 他处粉笔][br]> [url 炼狱粉笔][br]> [url=goldenchalk 金色粉笔][br]> [url 变异枝条][br]> [url=netherwart 地狱疣][br]> [url=endstone 末地石][br]> [url=rottenflesh 腐肉]
 witchery:cauldronbook.crafting3=[h1 道具制作: 配方]> [url=pittraps 落穴陷阱][br]> [url=compass 玩家指南针]
 witchery:cauldronbook.boiledmeat=[h1 道具制作: 熟肉]生猪排,生牛排,生鸡排和 生猪排?可以被扔到沸腾的 锅里煮熟.[br][br][template=tcraft stack|0=porkchop 1=cooked_porkchop]
 witchery:cauldronbook.mutandis=[h1 道具制作: 转生粉]对普通植物使用转生粉来 变成其他植物,可能变出来 未知的植物.[br][br][template=tcraft stack|0=witchery:ingredient|22,witchery:ingredient|31,egg 1=witchery:ingredient|14|6]
@@ -1683,3 +1683,9 @@ witchery.rite.mirrormirror.bearing6=最萌的在西方。
 witchery.rite.mirrormirror.bearing7=最萌的在西北方。
 
 witchery.rite.mirrormirror.opchatreveal=下一条信息中, 玩家 "%s" 真的是: "%s"
+
+fluid.witchery:fluidspirit=精神
+fluid.witchery:brew=酿造
+fluid.witchery:brewliquid=液态酿造
+fluid.witchery:brewgas=气态酿造
+fluid.witchery:fluiddisease=瘟疫
