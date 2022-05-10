@@ -248,15 +248,15 @@ message.inputTank=输入槽:
 message.outputTank=输出槽:
 
 #Miscs
-ba.versioning.outdated=您正在使用 Blood Arsenal %s，最新的是 %s。
-ba.versioning.updateMessage=["按此... [",{"text":"下載","color":"red","hoverEvent":{"action":"show_text","value":{"text":"按此自动下载最新版本","color":"red"}},"clickEvent":{"action":"run_command","value":"/bloodarsenal-download-latest %version%"}},"] [",{"text":"官網","color":"red","hoverEvent":{"action":"show_text","value":{"text":"按此去官網","color":"red"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/mc-mods/228823-blood-magic-addon-blood-arsenal/files"}},"] [",{"text":"更新紀錄","color":"red","hoverEvent":{"action":"show_text","value":{"text":"按此看更新紀錄","color":"red"}},"clickEvent":{"action":"open_url","value":"http://www.curse.com/mc-mods/minecraft/228823-blood-magic-addon-blood-arsenal#t1:changes"}},"]"]
-ba.versioning.startingDownload=[{"text":"开始下载 %s 请不要移除硬碟。", "color":"orange"},{"text":"支持作者 Arcaratus","color":"cyan"},{"text":" on [","color":"orange"},{"text":"Patreon","color":"gold","hoverEvent":{"action":"show_text","value":{"text":"按此去 Arcaratus 的 Patreon","color":"cyan"}},"clickEvent":{"action":"open_url","value":"http://www.patreon.com/Arcaratus"}},{"text":"]!","color":"orange"}]
-ba.versioning.doneDownloading=完成下載 %s 删掉旧的 BloodArsenal .jar 并重启游戏来更新。
+ba.versioning.outdated=您正在使用 Blood Arsenal %s，最新版本为 %s。
+ba.versioning.updateMessage=["按此... [",{"text":"下载","color":"red","hoverEvent":{"action":"show_text","value":{"text":"按此自动下载最新版本","color":"red"}},"clickEvent":{"action":"run_command","value":"/bloodarsenal-download-latest %version%"}},"] [",{"text":"官网","color":"red","hoverEvent":{"action":"show_text","value":{"text":"按此去官网","color":"red"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/mc-mods/228823-blood-magic-addon-blood-arsenal/files"}},"] [",{"text":"更新记录","color":"red","hoverEvent":{"action":"show_text","value":{"text":"按此看更新记录","color":"red"}},"clickEvent":{"action":"open_url","value":"http://www.curse.com/mc-mods/minecraft/228823-blood-magic-addon-blood-arsenal#t1:changes"}},"]"]
+ba.versioning.startingDownload=[{"text":"开始下载 %s 请不要移除硬盘。", "color":"orange"},{"text":"支持作者 Arcaratus","color":"cyan"},{"text":" on [","color":"orange"},{"text":"Patreon","color":"gold","hoverEvent":{"action":"show_text","value":{"text":"按此去 Arcaratus 的 Patreon","color":"cyan"}},"clickEvent":{"action":"open_url","value":"http://www.patreon.com/Arcaratus"}},{"text":"]!","color":"orange"}]
+ba.versioning.doneDownloading=完成下载 %s 删掉旧的 BloodArsenal .jar 并重启游戏以更新。
 ba.versioning.error=下载时发生错误！
-ba.versioning.downloadedAlready=您已经拥有最新版本了，删掉旧的 BloodArsenal .jar 并重启游戏来更新！
-ba.versioning.downloadingAlready=正在下載！
+ba.versioning.downloadedAlready=您已经拥有最新版本了，删掉旧的 BloodArsenal .jar 并重启游戏以更新！
+ba.versioning.downloadingAlready=正在下载！
 ba.versioning.disabled=此功能已被关闭。
-owner=主人:
+owner=所有者：
 
 #TConstruct Stuffs
 material.bloodarsenal.blood_infused_wood=注血木
@@ -279,3 +279,10 @@ blood_arsenal.research_page.ROD_blood_wood.2=与炼金杖端适用相同的法�
 blood_arsenal.research_name.ROD_blood_wood_staff=注血木杖芯
 blood_arsenal.research_text.ROD_blood_wood_staff=带来地狱的盛宴
 blood_arsenal.research_page.ROD_blood_wood_staff.1=即使使用你的超级再生法杖和杖端,你仍然不满意.你知道当用血腥杖芯替换血腥杖柄后,法杖的恢复速度是原来的4倍但是储量只有原来的一半.使用一些黑暗魔法和血腥杖芯,你现在可以创造一个活生生的恐怖.此法杖的恢复速度是血腥法杖的2倍，但这也是注血木自身的再生能力达到极限的地方:注血木本身似乎试图以比实际更快的速度再生.为了弥补这一点，它必须在每次恢复vis时从玩家那里吸取生命.与别的血腥法杖不同,它才不关心你是死是活...
+
+#Rituals
+ritual.ARC001Wither.name=凋零仪式
+ritual.ARC002Midas.name=点铁成金
+ritual.ARC003Enchant.name=附魔仪式
+ritual.ARC004MobDisable.name=敌对镇压
+ritual.ARC005Fisherman.name=渔夫礼赞

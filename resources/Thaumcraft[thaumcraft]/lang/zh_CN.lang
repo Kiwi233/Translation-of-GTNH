@@ -1765,38 +1765,3 @@ tc.research_page.PRIMALCRUSHER.1=注魔合成背后的原理并不复杂 - 向�
 tc.research_page.PRIMALCRUSHER.2=它拥有组成部件大多数的能力.<BR>元始杵挖土掘石都视若等闲,并且能够一次作用于3X3的范围.类似炽心镐,它有时会挖出原矿簇而非天然的矿石.<BR>它能够随着时间推移恢复耐久,具有良好的附魔性,揍人打怪时也是不可多得的好武器.<BR>遗憾的是由于追求纯碎的破坏力,它似乎没能保留其原型所具有的建造和探测的能力.
 
 #
-
-# Patch to explain how to batch craft
-#
-tc.research_name.RESEARCHER1=研究专长
-tc.research_text.RESEARCHER1=知识就是力量
-tc.research_page.RESEARCHER1.1=你越发擅长于研究.<BR>当你移除放入六边形的要素,会有25%的几率取回研究点.<BR>另外,当鼠标悬停在上方时,你还能看到该要素所需的合成要素.<BR>最后,你在合成要素方面的技巧已经足够熟练,按住Ctrl合成,即可一次最多合成10点要素.
-#
-tc.research_name.RESEARCHER2=研究精通
-tc.research_text.RESEARCHER2=力量就是知识
-tc.research_page.RESEARCHER2.1=你越发精通于研究.<BR>当你移除放入六边形的要素,会有50%的几率取回研究点.<BR>此外放置要素时也有10%的几率不消耗研究点.<BR>最后,在研究台界面中,你还能够通过按住Shfit点击你想要制造出的要素,以融合要素得到它.如果你有足够用以融合的要素,它们会自动融合成你要制造的复合要素.在这一操作时按住Ctrl即可批量合成.
-#
-tc.research_name.RESEARCHDUPE=研究拷贝
-tc.research_text.RESEARCHDUPE=分享即关怀
-tc.research_page.RESEARCHDUPE.1=你已发现拷贝完整研究笔记的方法.<BR>当完成研究或将研究笔记放入研究台时,并且携有笔墨及纸张,还拥有足够多的可用要素时,你会看到一个可用的复制按钮,点击它就能制成一份研究拷贝.<BR>为某项研究制备越多的拷贝,之后制作拷贝的成本就会越昂贵.
-
-# Patch to show new UI, explain about combining and researching using aspect drag & drop or right click while dragging
-# Research entries
-tc.research_name.RESEARCH=研究
-tc.research_text.RESEARCH=如何发现物品
-tc.research_page.RESEARCH.1=在开始创建神秘学的物品及方块前,你首先需要学会如何进行研究.请遵循以下步骤:<BR>(1)探索世界,使用 §5魔导透镜§0扫描方块,物品以及生物.<BR><BR>(2)在§5研究台§0中使用前述步骤中积累到的研究点来扩充你的要素知识.<BR><BR>(3)在§5研究台§0中使用你研究出的要素来发现实际的知识及物品的合成配方.<LINE>
-tc.research_page.RESEARCH.2=§l      §n(1)探索§r<BR><BR>没有研究点你便无法进行研究,而获得研究点的最佳途径便是探索世界并研究旅途中所遇见的一切事物.<BR>首先你需要先制作出§5魔导透镜§0(见下页).将§5魔导透镜§0对准物品或生物,并按住右键,你便能开始扫描它们.这个过程持续时间并不会很长,但扫描动作会让持有透镜者减速.<BR>扫描完成后§5魔导透镜§0会显示出研究对象蕴含的要素.在屏幕右下角你还能看到所含要素的统计以及你早研究过程中获得了多少研究点.
-tc.research_page.RESEARCH.3=<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>一开始,由于你并未研究出复合要素,因此并不能探查出物品蕴含的所有要素.例如,研究对象蕴含Lux要素.此时仅当你已经研究出了该复合要素才能通过探查物品获得Lux要素,否则你只能通过复合其他两种要素来得到它.
-tc.research_page.RESEARCH.4=<BR>在扫描目标时首次发现某种要素将会比平素多获得2个研究点.<BR>同一物品和生物通常只能被扫描一次.<BR>有时扫描物品也会启发你思索出新的线索并增进你对神秘研究的理解,从而解锁一些你能够进一步研究的项目.
-tc.research_page.RESEARCH.5=§l   §n(2)融合要素§r<BR><BR>当收集到一些研究点后你可以尝试在研究台内将其融合成复合要素<BR>将两个§5台桌§0 比邻而放,然后将笔与墨放在台桌上便可以制成研究台.台桌的合成配方可以在魔导手册的§5炼化术§0 分类下查看.<BR>右击研究台你能看到如右图所示界面.<BR>制作研究台时使用的笔与墨会出现在格子§l1§r中.
-tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/research/table/research-table-tutorial-schematic.png:0:0:256:227:.45</IMG>§l3§r 号区域会列出全部的元始要素以及可能出现的一些复合要素,且下标会注明数量.当你首次进入世界时,会获得少量元始要素作为初始奖励.<BR>若你之前通过魔导透镜做过一些探索研究,则会列出相关的元始要素以及复合要素.
-tc.research_page.RESEARCH.7=<BR>现在你可以开始融合更加复杂的要素了,仅需要拖动1号要素至2号要素上方再松开左键放下即可完成融合,或是按住左键拖动1号要素到2号要素上方右键放下但保持1号要素仍然处于拖动状态,再到3号要素上方继续此操作.如若融合成功,你应该能在右下方看到得到了什么,它会出现在§l3§r号区域中.<BR>即使没有实际获得复合要素,参与融合的要素也会被消耗掉.
-tc.research_page.RESEARCH.8=§l   §n(3)基础研究§r<IMG>thaumcraft:textures/research/table/research-table-tutorial-filled.png:0:0:256:200:.50</IMG>完成此步骤时你需要随身带着一套笔与墨以及纸张.<BR>翻开魔导手册,你能够查阅你已学会的所有知识,也能够查看你目前能够继续探求哪些知识.<BR>闪烁的方块或圆形的图标标志着前置的研究.
-tc.research_page.RESEARCH.9=若你能看到其名称(而非只是些怪异的符文),那你就可以点击它们,消耗掉一些物品栏中的纸张和墨水,获得一份研究笔记.现在将这份研究笔记放入研究台的§l2§r号格子即可开始研究.<BR>§l4§r号区域会显示出一张纸卷,上面排满了外缘绘有要素图标的六边形格子.若你看到的是问号图标,说明你尚不了解这种要素,需要先进行学习.<LINE> 
-tc.research_page.RESEARCH.10=要完成你的研究,只需链接并激活全部要素.为此,你需要将要素写入六边形格子中,并使其要么与能融合成它的要素相连,要么与其能与其他要素融合成的要素相连.至于怎么将要素写入六边形,你可以像之前一样左键拖拽要素,到六边形上方,松开左键放下;也可以通过右键保持拖拽放下要素.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:80:.65</IMG>放置要素会消耗一个研究点.若出现了错误,可以点击要素以移除它,但这不会让你取回付出的研究点.
-tc.research_page.RESEARCH.11=持续上述操作,直到起始的全部要素都被连起来.外圈的要素不必与其他所有要素相连,只需要让它们成为相连的整体即可.<BR>此后研究就会完成,研究笔记会变为发现卷轴.<LINE>注意: 放置或移除六边形中的要素均会消耗墨水,如果墨水耗尽你需要添置一个新的才能继续研究.
-tc.research_page.RESEARCH.12=§l    §n(4)次生研究§r<BR>六边形图标标示的是次生研究.类似基础研究,你也需要点击它们来进行研究.然而你将会直接学会这项研究而非获得研究报告.次生研究也会消耗要素点,但不要求你带着笔墨纸张.
-
-# In case notes get corrupted
-tc.research.notes.corrupted.line.1=笔记损坏了!
-tc.research.notes.corrupted.line.2=试着从头开始吧.

@@ -46,7 +46,7 @@ languagefile {
     S:"Book.Chemical Plant Manual.Page03"=可用的机械方块:[CR][CR]1 - ULV[CR]2 - LV[CR]3 - MV[CR]4 - HV[CR]5 - EV[CR]6 - IV[CR]7 - LuV[CR]8 - ZPM[CR]9 - UV[CR]10 - UHV
     S:"Book.Chemical Plant Manual.Page04"=可用的管道方块:[CR][CR]1 - 青铜[CR]2 - 钢[CR]3 - 钛[CR]4 - 钨钢
     S:"Book.Chemical Plant Manual.Page05"=可用的线圈:[CR][CR]1 - 白铜[CR]2 - 坎塔尔合金[CR]3 - 镍铬合金[CR]4 - 钨钢[CR]5 - 高速钢-G[CR]6 - 硅岩[CR]7 - 硅岩合金
-    S:"Book.Chemical Plant Manual.Page06"=多方块结构总计需要:[CR][CR]27x线圈[CR]18x管道方块[CR]57x机械方块[CR]80+固体外壳[CR]1x催化剂仓(催化剂不能放入输入总线)
+    S:"Book.Chemical Plant Manual.Page06"=多方块结构总计需要:[CR][CR]27x线圈[CR]18x管道方块[CR]57x机械方块[CR]70+固体外壳[CR]1x催化剂仓(催化剂不能放入输入总线)
     S:"Book.Chemical Plant Manual.Page07"=结构指导 Pt1:[CR][CR]控制器方块(底层侧中)[CR]仓室仅可放置于底层边缘[CR][CR][CR]结构指导 Pt2:[CR][CR]7x7x7中空的固体外壳框架[CR]5x1x5固体外壳(填满顶层)[CR]5x1x5机械方块(填满底层)
     S:"Book.Chemical Plant Manual.Page08"=结构指导 Pt3:[CR][CR]中央的3x5x3从下到上:[CR]3x1x3线圈,周围环绕一圈机械方块[CR]3x1x3管道方块[CR]3x1x3线圈[CR]3x1x3管道方块[CR]3x1x3线圈,周围环绕一圈机械方块
     S:"Book.Chemical Plant Manual.Page09"=图例:[CR][CR]A = 空气[CR]X = 固体外壳[CR]M = 机械方块[CR]P = 管道方块[CR]C = 线圈
@@ -5817,7 +5817,7 @@ languagefile {
     S:TileES:TileEntity_DESCRIPTION_148_Secondary_Index_3=   3x1x3的中子采矿机械方块基座
     S:TileES:TileEntity_DESCRIPTION_148_Secondary_Index_4=   1x3x1的中子采矿机械方块立柱(基座中央)
     S:TileES:TileEntity_DESCRIPTION_148_Secondary_Index_5=   1x3x1的中子锭框架(立柱的每个侧面与上方)
-    S:TileES:TileEntity_DESCRIPTION_148_Secondary_Index_6=   能源仓：  UV+, 任意基座机械方块
+    S:TileES:TileEntity_DESCRIPTION_148_Secondary_Index_6=   能源仓：  UHV+, 任意基座机械方块
     S:TileES:TileEntity_DESCRIPTION_148_Secondary_Index_7=   维护仓：  任意基座机械方块
     S:TileES:TileEntity_DESCRIPTION_148_Secondary_Index_8=   输入总线：采矿管道或编程电路, 可选, 任意基座机械方块
     S:TileES:TileEntity_DESCRIPTION_148_Secondary_Index_9=   输出仓：  任意基座机械方块
@@ -10785,7 +10785,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_751_Index_3=平均每10秒输出铀-233
     S:TileEntity_DESCRIPTION_751_Index_4=输入氟与氦以获取额外副产
     S:TileEntity_DESCRIPTION_751_Index_5=输入Li2BeF4与熔盐作为燃料
-    S:TileEntity_DESCRIPTION_751_Index_6=LiFBeF2ThF4UF4、LiFBeF2ZrF4UF4或LiFBeF2ZrF4U235
+    S:TileEntity_DESCRIPTION_751_Index_6=铀钍复合氟化物、铀锆复合氟化物粉或铀235复合氟化物
     S:TileEntity_DESCRIPTION_751_Index_7=每秒产生§50§7点污染
     S:TileEntity_DESCRIPTION_751_Index_8=-----------------------------------------
     S:TileEntity_DESCRIPTION_751_Index_9=按住 §l[LSHIFT]§r§7 以显示结构指导
@@ -11153,7 +11153,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_810_Index_1=合金冶炼炉的控制器方块
     S:TileEntity_DESCRIPTION_810_Index_2=比工业高炉快20%!
     S:TileEntity_DESCRIPTION_810_Index_3=可以冶炼GT++的复杂合金
-    S:TileEntity_DESCRIPTION_810_Index_4=这台多方块机器无法进行超频
+    S:TileEntity_DESCRIPTION_810_Index_4=这台多方块机器只支持单个能源仓
     S:TileEntity_DESCRIPTION_810_Index_5=将编程电路放入输入总线或GUI以控制配方
     S:TileEntity_DESCRIPTION_810_Index_6=每秒产生§5200§7点污染
     S:TileEntity_DESCRIPTION_810_Index_7=-----------------------------------------
@@ -11374,7 +11374,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_840_Secondary_Index_3=   18x筛选格栅机械方块(顶层中部3x3区域)
     S:TileEntity_DESCRIPTION_840_Secondary_Index_4=   剩余方块为筛选机机械方块(至少35个！)
     S:TileEntity_DESCRIPTION_840_Secondary_Index_5=   输入总线：任意机械方块
-    S:TileEntity_DESCRIPTION_840_Secondary_Index_6=   输出总线：任意机械方块
+    S:TileEntity_DESCRIPTION_840_Secondary_Index_6=   输出总线：任意机械方块(x4)
     S:TileEntity_DESCRIPTION_840_Secondary_Index_7=   能源仓：  任意机械方块
     S:TileEntity_DESCRIPTION_840_Secondary_Index_8=   维护仓：  任意机械方块 
     S:TileEntity_DESCRIPTION_840_Secondary_Index_9=   消声仓：  任意机械方块
@@ -13458,11 +13458,11 @@ languagefile {
     S:fluid.molten.ledox=熔融深铅
     S:fluid.molten.lifbef2=熔融LiFBeF2
     S:fluid.molten.lifbef2thf4=熔融LiFBeF2ThF4
-    S:fluid.molten.lifbef2thf4uf4=熔融LiFBeF2ThF4UF4
+    S:fluid.molten.lifbef2thf4uf4=熔融铀钍复合氟化物
     S:fluid.molten.lifbef2uf4=熔融LiFBeF2UF4
     S:fluid.molten.lifbef2uf4fp=熔融LiFBeF2UF4FP
-    S:fluid.molten.lifbef2zrf4u235=熔融LiFBeF2ZrF4U235
-    S:fluid.molten.lifbef2zrf4uf4=熔融LiFBeF2ZrF4UF4
+    S:fluid.molten.lifbef2zrf4u235=熔融铀235复合氟化物
+    S:fluid.molten.lifbef2zrf4uf4=熔融铀锆复合氟化物粉
     S:fluid.molten.lifthf4=熔融LiFThF4
     S:fluid.molten.lithium=熔融锂
     S:fluid.molten.lithium7=熔融锂-7
@@ -14149,8 +14149,8 @@ languagefile {
     S:for.bees.species.uranium=铀
     S:for.bees.species.uranus=天王星
     S:for.bees.species.urghast=暮色恶魂
-    S:for.bees.species.vega=织女座
-    S:for.bees.species.vegab=织女座B
+    S:for.bees.species.vega=织女一
+    S:for.bees.species.vegab=织女一B
     S:for.bees.species.venus=金星
     S:for.bees.species.vibrantalloy=脉冲合金
     S:for.bees.species.yellowgarnet=黄石榴石
@@ -60762,11 +60762,11 @@ languagefile {
     S:itemCellLaurenium=劳伦姆合金单元
     S:itemCellLiFBeF2=LiFBeF2单元
     S:itemCellLiFBeF2ThF4=LiFBeF2ThF4单元
-    S:itemCellLiFBeF2ThF4UF4=LiFBeF2ThF4UF4单元
+    S:itemCellLiFBeF2ThF4UF4=铀钍复合氟化物单元
     S:itemCellLiFBeF2UF4=LiFBeF2UF4单元
     S:itemCellLiFBeF2UF4FP=LiFBeF2UF4FP单元
-    S:itemCellLiFBeF2ZrF4U235=LiFBeF2ZrF4U235单元
-    S:itemCellLiFBeF2ZrF4UF4=LiFBeF2ZrF4UF4单元
+    S:itemCellLiFBeF2ZrF4U235=铀235复合氟化物单元
+    S:itemCellLiFBeF2ZrF4UF4=铀锆复合氟化物粉单元
     S:itemCellLiFThF4=LiFThF4单元
     S:itemCellLiquidHydrogen=液氢单元
     S:itemCellLithiumFluoride=氟化锂单元
@@ -61928,9 +61928,9 @@ languagefile {
     S:itemRodIodine=碘杆
     S:itemRodLafiumCompound=路菲恩化合物杆
     S:itemRodLaurenium=劳伦姆合金杆
-    S:itemRodLiFBeF2ThF4UF4=LiFBeF2ThF4UF4杆
-    S:itemRodLiFBeF2ZrF4U235=LiFBeF2ZrF4U235杆
-    S:itemRodLiFBeF2ZrF4UF4=LiFBeF2ZrF4UF4杆
+    S:itemRodLiFBeF2ThF4UF4=铀钍复合氟化物杆
+    S:itemRodLiFBeF2ZrF4U235=铀235复合氟化物杆
+    S:itemRodLiFBeF2ZrF4UF4=铀锆复合氟化物粉杆
     S:itemRodLithiumTetrafluoroberyllate=四氟铍酸锂杆
     S:itemRodMaragingSteel250=马氏体时效钢250杆
     S:itemRodMaragingSteel300=马氏体时效钢300杆

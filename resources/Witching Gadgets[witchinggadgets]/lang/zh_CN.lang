@@ -89,7 +89,7 @@ item.WG_Kama.raven.name=乌鸦短袍
 item.WG_Kama.spectral.name=幽灵短袍
 item.WG_Kama.wolf.name=野狼短袍
 
-//unused
+#unused
 item.WG_EliteArmorHelm.ANGELIC_0.name=Ophanic Helm
 item.WG_EliteArmorChest.ANGELIC_1.name=Seraph's Cuirass
 item.WG_EliteArmorLegs.ANGELIC_2.name=Cherub Greaves
@@ -99,7 +99,6 @@ item.WG_EliteArmorHelm.DEMONIC_0.name=Helm of Leviathan
 item.WG_EliteArmorChest.DEMONIC_1.name=Asrael's Cuirass
 item.WG_EliteArmorLegs.DEMONIC_2.name=Lycan's Greaves
 item.WG_EliteArmorBoots.DEMONIC_3.name=Claws of the Behemoth
-//
 
 item.WG_InfusedGem.name=蕴魔宝石
 item.WG_InfusedGem.innert.name=惰性宝石
@@ -114,10 +113,8 @@ item.WG_PrimordialChest.name=元始胸甲
 item.WG_PrimordialLegs.name=元始护腿
 item.WG_PrimordialBoots.name=元始靴子
 
-//
 item.WG_Baubles.ring_primordial.name=元始指环
 item.WG_Baubles.ring_lifeProtection.name=生命保护指环
-//
 
 item.WG_Baubles.shouldersDoublejump.name=炽天使肩铠
 item.WG_Baubles.shouldersKnockback.name=磐石肩铠
@@ -330,13 +327,11 @@ witchinggadgets_research_page.CLOAK_STORAGE.1=将奇术口袋和炫酷的斗篷�
 witchinggadgets_research_name.CLOAK_RAVEN=乌鸦斗篷
 witchinggadgets_research_text.CLOAK_RAVEN=[WG] CA-CAW!
 witchinggadgets_research_page.CLOAK_RAVEN.1=在穿过暮色森林的旅行中,你遇到了最迷人的森林乌鸦.这只非凡的鸟在空中表现出高度的敏捷性和操控性十分令人羡慕.<BR>你也可以用羽毛装饰你的斗篷,并灌注神奇的力量,而不是坐着嫉妒它...<BR>穿着这件斗篷,你飞行时的速度明显增加.如果你不飞行,斗篷会让你滑翔.可以在ActiveAbility菜单中禁用滑翔.
-# OLD witchinggadgets_research_page.CLOAK_RAVEN.1=On your travels throughout the Twilight Forest, you have come across the most fascinating Forest Raven. This remarkable bird appears to always find back to his nesting place, even within the dense and dark forest it calls home.<BR>Plucking a feather from it, you have discovered that it, albeit in small scale, inherits this ability. Now you just have to amplify this ability with your thaumic capabilities and infuse your garment with it. The result is the §lMantle of the Raven§r which allows you to set and return to your nesting place at the cost of a raven's feather. You may substitute three chicken feathers.
 #
 witchinggadgets_research_name.CLOAK_SPECTRAL=幽灵斗篷
 witchinggadgets_research_text.CLOAK_SPECTRAL=[WG]现在你看到我了...
 witchinggadgets_research_page.CLOAK_SPECTRAL.1=对于大多数普通人来说,幽灵生物位面是个谜,幸运的是,你不是这大多数人.在为斗篷灌注邪术与幽灵能量后,它将使你能够"转移"自己到那个位面.在那个位面中行走,相对于那些正常位面的普通生物,你将是隐形的.敌人不会看到或瞄准你,除非他们是邪术生物,豁免者或戴着揭示护目镜.<BR>这种能力是以无法与物质世界互动为代价的.你不能攻击,使用物品,破坏或激活方块.此外,它会每隔5秒从你的库存中消耗1风vis.
 witchinggadgets_research_page.CLOAK_SPECTRAL.2=§o免责声明: 仍然可以看到你的生物包括:邪术守卫,邪术典狱官,邪术魔像,血腥主教,以及boss怪比如凋灵或末影龙.由于即使是最狡猾的神秘使也不知道的原因,蜘蛛和史莱姆似乎能够以不同的方式探测到你.任何使用相同斗篷的人也能看见你.§r
-#Creating a cloak that is invisible is an easy task for a thaumaturge, but applying the effect to it's wearer was the hard task. After tedious research however, you have created the §lCloak of Invisibility§r, a garment that renders you invisible to the naked eye. The cloak itself lost a bit of his magic in the process, now only turning mostly transparent, leaving a slight shimmer. Other armor pieces or items that you are holding in your hand are not affected.
 #
 witchinggadgets_research_name.CLOAK_WOLF=野狼斗篷
 witchinggadgets_research_text.CLOAK_WOLF=[WG]你有这么大一个嘴!
@@ -637,7 +632,6 @@ witchinggadgets_research_page.DEMONIC_HELM.1=The depths that are home to the bea
 witchinggadgets_research_name.DEMONIC_CHEST=Asrael's Cuirass
 witchinggadgets_research_text.DEMONIC_CHEST=[WG] And behold, a pale horse! And its rider's name was Death.
 witchinggadgets_research_page.DEMONIC_CHEST.1=And his victims fell before his feet. While one is wearing this cuirass, they are not only granted the power of flight, but health leeching abilities as well. Upon killing any living creature, the wearer of this infernal armor absorbs part of their very life-force This allows the aforementioned wearer to add twenty percent of the killed creatures health to its own, appearing as absorption hitpoints. These extra units of health last only ten minutes. Only creatures with 10 hearts or more are valid prey for this spell. If that wasn't enough, the wearer is granted twenty seconds of heightened saturation upon killing any creature
-#witchinggadgets_research_page.DEMONIC_CHEST.1=And his victims fell before his feet. While one is wearing this cuirass, they are granted the power of flight. Furthermore, they, upon killing any other living creature, absorb a part of their health. This adds 20% of the creature's health as absorption hitpoints which last for 10 minutes. Only targets with 10 hearts or more are valid. These hitpoints stack up to 10 extra hearts and the timer is reset each time. Furthermore, upon killing any living creature the wearer is granted 20 seconds of saturation.
 #
 witchinggadgets_research_name.DEMONIC_LEGS=Lycan's Greaves
 witchinggadgets_research_text.DEMONIC_LEGS=[WG] These paws were made for pouncing!

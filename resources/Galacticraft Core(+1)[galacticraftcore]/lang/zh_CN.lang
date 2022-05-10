@@ -89,8 +89,8 @@ item.basicItem.dehydratedPotato.name=脱水马铃薯
 item.basicItem.cannedFood.name=罐装食物
 item.basicItem.frequencyModule.name=频率模块
 item.standardWrench.name=标准扳手
-item.bucketOil.name=原油桶
-item.bucketFuel.name=燃料桶
+item.bucketOil.name=石油桶
+item.bucketFuel.name=燃油桶
 item.basicItem.ambientThermalController.name=环境温度控制器
 
 # TOOLS
@@ -221,7 +221,7 @@ entity.Buggy.name=星球车
 entity.Flag.name=旗帜
 entity.ParaChest.name=伞降箱
 entity.OxygenBubble.name=氧气气泡
-entity.Lander.name=登陆舱
+entity.Lander.name=太空登陆舱
 entity.GCFlag.name=旗
 entity.MeteorChunk.name=陨石块
 
@@ -632,7 +632,7 @@ container.oxygensealer.name=气密装置
 container.parachest.name=伞降箱
 container.refinery.name=精炼器
 container.treasurechest.name=珍品箱
-container.lander.name=登陆舱
+container.lander.name=太空登陆舱
 container.spaceship.name=1阶火箭
 container.solarbasic.name=基础太阳能板
 container.solaradvanced.name=高级太阳能板
@@ -730,4 +730,3 @@ gc.configgui.disableUpdateCheck=Disable Update Check(禁用更新检查)
 gc.configgui.alwaysDisplayOxygenHUD=Always show Oxygen HUD(总是显示氧气HUD)
 
 gc.configgui.title=Galacticraft Core Config(星系核心配置文件)
-

@@ -938,7 +938,7 @@ witchery:potion.colorful.orange=染桔
 witchery:potion.colorful.white=染白
 
 item.witchery:brewbottle.name=酿造
-item.witchery:bucketbrew.name=酿造桶
+item.witchery:brewbucket.name=酿造桶
 witchery:brew.planting=种植
 witchery:brew.floating=悬空
 witchery:brew.tilling=耕种
@@ -1226,7 +1226,7 @@ witchery:cauldronbook.dispersaltrigger2=[h1 喷溅: 开关 - 仪式]把药水效
 witchery:cauldronbook.extent=[i 喷溅范围] - 按顺序在[url=dispersal 喷溅]材料添加前 添加来增强影响的面积.[br][br][stack=witchery:ingredient|18 +1 (等级II)][br][stack=dye|3 +1 (等级III)][br][stack=witchery:somniancotton +1 (等级IV)]
 witchery:cauldronbook.linger=[i 喷溅持续时间] - 按顺序在[url=dispersal 喷溅]材料添加前 添加来增强持续时间.[br][br][stack=witchery:ingredient|21 +1 (等级II)][br][stack=dye|4 +1 (等级III)][br][stack=end_stone +1 (等级IV)]
 
-witchery:cauldronbook.toc/effects=[h1 药效]在添加[url=power 强度]和[url=duration 持续时间]材 料和[url=modifiers 调料]后添加.确保 已经添加了足够的[url=capacity 容量].[br][br]> [url=level1 等级1][br]> [url=level2 等级2][br]> [url=level4 等级4][br]> [url=level5 等级5][br]> [url=Level6 等级6][br]> [url=level8 等级8][br]> [url=level12 等级12]
+witchery:cauldronbook.toc/effects=[h1 Effects]Add after any [url power] and [url duration] boost or [url modifiers]. Ensure brew has [url capacity].[br][br]> [url Level 1][br]> [url Level 2][br]> [url Level 4][br]> [url Level 5][br]> [url Level 6][br]> [url Level 8][br]> [url Level 12]
 witchery:cauldronbook.level1=[next=level1_2][h1 药效: 等级1][stack=snowball][url=snowburst|middle 雪傀儡之足][br][stack=fish|0][url=swimspeed|middle 流线型身材][br][stack=witchery:ingredient|67][url=enderinhibition|middle 乖乖站好!][br][stack=wheat][url=moonshine|middle 月光美酒][br][stack=sand][url=partwater|middle 潮汐退散]
 witchery:cauldronbook.level1_2=[next=level1_3][h1 药效: 等级1][stack=coal|0][url=extinguish|middle 灭火][br][stack=stone][url=dissipategas|middle 雾气退散][br][stack=yellow_flower][url=growflowers|middle 插花][br][stack=dye|15][url=fertilize|middle 沃土][br][stack=apple][url=harvest|middle 丰收]
 witchery:cauldronbook.level1_3=[next=level1_4][h1 药效: 等级1][stack=dirt][url=tilling|middle 耕地][br][stack=wheat_seeds][url=planting|middle 种植][br][stack=brown_mushroom][url=pruning|middle 散叶][br][stack=string][url=felling|middle 伐木][br][stack=flint][url=pulverize|middle 碎石][br][stack=waterlily][url=growlily|middle 睡莲之梦]

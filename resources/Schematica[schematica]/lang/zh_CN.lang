@@ -34,10 +34,38 @@ schematica.gui.materialdump=保存到文件
 schematica.gui.printer=投影
 
 # gui - config - categories
+schematica.config.category.debug=Debug
+schematica.config.category.debug.tooltip=Debug/开发者设置.\n如果你不清楚自己在做什么,请勿点击.
+schematica.config.category.render=渲染
+schematica.config.category.render.tooltip=渲染相关设置.
+schematica.config.category.printer=投影
+schematica.config.category.printer.tooltip=投影相关设置.
+schematica.config.category.printer.swapslots=快捷栏
+schematica.config.category.printer.swapslots.tooltip=允许投影使用非空快捷栏.
+schematica.config.category.general=常规
+schematica.config.category.general.tooltip=常规设置.
+schematica.config.category.server=服务端
+schematica.config.category.server.tooltip=服务端设置.
 
 # gui - config - debug
+schematica.config.showDebugInfo=显示Debug信息
+schematica.config.showDebugInfo.tooltip=在debug界面(F3)显示额外信息.
 
 # gui - config - render
+schematica.config.alphaEnabled=启用Alpha
+schematica.config.alphaEnabled.tooltip=启用透明材质.
+schematica.config.alpha=Alpha
+schematica.config.alpha.tooltip=渲染Schematic时的Alpha值(1.0 = 不透明, 0.5 = 半透明, 0.0 = 透明).
+schematica.config.highlight=高亮方块
+schematica.config.highlight.tooltip=高亮显示已放置的无效方块和要放置的方块.
+schematica.config.highlightAir=高亮空气
+schematica.config.highlightAir.tooltip=高亮显示必须留空的方块.
+schematica.config.blockDelta=方块Delta
+schematica.config.blockDelta.tooltip=高亮的Delta值(如果遇到了斑驳(z-fighting),请提升Delta值).
+schematica.config.drawQuads=绘制表面
+schematica.config.drawQuads.tooltip=绘制表面.
+schematica.config.drawLines=绘制轮廓
+schematica.config.drawLines.tooltip=绘制轮廓.
 
 # gui - config - printer
 

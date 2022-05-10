@@ -1023,12 +1023,14 @@ enderio.gui.machine.button.storelevels=储存10级
 enderio.gui.machine.tooltip.storelevels=玩家XP
 enderio.gui.machine.button.storeall=储存玩家
 enderio.gui.machine.tooltip.storeall=全部XP
+
 enderio.gui.machine.button.retrievelevel=取出1级
 enderio.gui.machine.tooltip.retrievelevel=玩家XP等级
 enderio.gui.machine.button.retrievelevels=取出10级
 enderio.gui.machine.tooltip.retrievelevels=玩家XP等级
 enderio.gui.machine.button.retrieveall=取出全部
 enderio.gui.machine.tooltip.retrieveall=玩家XP等级
+
 enderio.gui.machine.ioMode.overlay.tooltip=配置IO
 enderio.gui.machine.ioMode.overlay.tooltip.visible.line1=Shift点击会重置各面
 enderio.gui.machine.ioMode.overlay.tooltip.visible.line2=至默认设置
@@ -1156,6 +1158,9 @@ enderio.gui.travelAccessable.ok=已授权
 enderio.gui.travelAccessable.skipLocked=跳过锁定锚, 使用定向传送.
 enderio.gui.travelAccessable.skipObstructed=跳过不通畅锚.
 enderio.gui.travelAccessable.skipPrivate=跳过私有锚.
+enderio.gui.travelAccessable.tooltip.visible=可见性
+enderio.gui.travelAccessable.tooltip.visible.desc1=关闭时,无法透过其他方块看到此方块.
+enderio.gui.travelAccessable.tooltip.visible.desc2=用作电梯时比较实用.
 
 enderio.gui.telepad.configure.travel=旅行设置
 enderio.gui.telepad.configure.telepad=传送台设置
@@ -1310,4 +1315,3 @@ enderio.tooltip.meta=Meta:
 enderio.tooltip.uid=UID:
 enderio.tooltip.anvilupgrades=铁砧升级:
 enderio.waila.config.hiddenfacades=隐形栅栏
-

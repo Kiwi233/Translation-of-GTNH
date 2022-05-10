@@ -2512,7 +2512,6 @@ recipes.addShaped(<TConstruct:decoration.stoneladder> * 4, [
 // --- Add Fuels to the Smeltery ---
 
 
-
 // --- Hot Coolant
 mods.tconstruct.Smeltery.addFuel(<liquid:ic2hotcoolant>, 900, 55);
 
