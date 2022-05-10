@@ -899,7 +899,7 @@ mods.thaumcraft.Research.setConcealed("CAP_shadowcloth", true);
 game.setLocalization("tc.research_name.CAP_shadowcloth", "\u6697\u5f71\u5e03\u5339\u6756\u7aef");
 game.setLocalization("tc.research_text.CAP_shadowcloth", "\u661f\u671f\u4e09\u6211\u4eec\u5e94\u8be5\u7a7f\u9ed1\u8863\u670d");
 mods.thaumcraft.Research.addPage("CAP_shadowcloth", "tc.research_page.CAP_shadowcloth");
-game.setLocalization("tc.research_page.CAP_shadowcloth", "You've created a new type of wand cap using the exact same design as the Cloth Caps, except using Shadow-Imbued Cloth. The idea was definitely a success, though you needed to use a Charged Thaumium Wand Cap to bind it all together.<BR>The Shadow Cloth Caps are exactly the same as the Cloth Caps, but slightly more efficient. They will grant a 15% Vis Discount.");
+game.setLocalization("tc.research_page.CAP_shadowcloth", "\u4f60\u4f7f\u7528\u4e0e\u9b54\u529b\u5e03\u5339\u6756\u7aef\u5b8c\u5168\u76f8\u540c\u7684\u8bbe\u8ba1,\u5236\u9020\u4e86\u4e00\u79cd\u65b0\u7684\u6cd5\u6756\u6756\u7aef,\u4e0d\u8fc7\u4f60\u5c06\u6750\u6599\u6362\u6210\u4e86\u6697\u5f71\u5e03\u5339.\u8fd9\u770b\u8d77\u6765\u975e\u5e38\u6210\u529f,\u552f\u4e00\u7684\u7f3a\u9677\u662f\u4f60\u9700\u8981\u4f7f\u7528\u5145\u80fd\u795e\u79d8\u6756\u7aef,\u624d\u80fd\u5c06\u5b83\u4eec\u56fa\u5b9a\u5230\u4e00\u8d77.<BR>\u6697\u5f71\u5e03\u5339\u6756\u7aef\u4e0e\u9b54\u529b\u5e03\u5339\u6756\u7aef\u51e0\u4e4e\u5b8c\u5168\u76f8\u540c,\u4e0d\u8fc7\u6548\u7387\u66f4\u9ad8.\u5b83\u53ef\u4ee5\u7ed9\u4e8815%\u7684\u9b54\u529b\u51cf\u514d.");
 mods.thaumcraft.Arcane.addShaped("CAP_shadowcloth", <TaintedMagic:ItemWandCap:3>, "terra 50, ignis 50, ordo 50, perditio 50", [
 [<TaintedMagic:ItemMaterial:1>, <ore:foilVibrantAlloy>, <TaintedMagic:ItemMaterial:1>], 
 [<ore:foilVibrantAlloy>, <Thaumcraft:WandCap:2>, <ore:foilVibrantAlloy>],
@@ -917,7 +917,7 @@ mods.thaumcraft.Research.setConcealed("CAP_crimsoncloth", true);
 game.setLocalization("tc.research_name.CAP_crimsoncloth", "\u8840\u8165\u5e03\u5339\u6756\u7aef");
 game.setLocalization("tc.research_text.CAP_crimsoncloth", "\u6211\u559c\u6b22\u8fd9\u7ea2\u8272");
 mods.thaumcraft.Research.addPage("CAP_crimsoncloth", "tc.research_page.CAP_crimsoncloth");
-game.setLocalization("tc.research_page.CAP_crimsoncloth", "Your research down the rabbit-hole of such Crimson Seamstry and the darkness of Shadow-Imbued Cloth Caps led to a concentrated piece of an immense condensed magical conductor.<BR>It seems that the Crystal Blood from which the cloth was stained helps the caps channel vis at a far more efficient rate. The Crimson Cloth Caps unusually provide a 20% vis discount.");
+game.setLocalization("tc.research_page.CAP_crimsoncloth", "\u4f60\u6df1\u9677\u8840\u8165\u88c1\u526a\u4ee5\u53ca\u6697\u5f71\u5e03\u5339\u6756\u7aef\u7684\u76f8\u5173\u7814\u7a76\u4e2d\u4e0d\u53ef\u81ea\u62d4,\u6700\u7ec8\u521b\u9020\u51fa\u4e86\u5b83\u4eec\u7684\u7ed3\u5408\u4f53,\u4e00\u79cd\u62e5\u6709\u6781\u5f3a\u9b54\u529b\u4f20\u5bfc\u6027\u7684\u65b0\u6756\u7aef.<BR>\u5e03\u5339\u4e0a\u6d78\u67d3\u7684\u7ed3\u6676\u8840\u6db2,\u4f3c\u4e4e\u53ef\u4ee5\u5e2e\u52a9\u6756\u7aef\u66f4\u9ad8\u6548\u5730\u6c9f\u901a\u9b54\u529b.\u8840\u8165\u5e03\u5339\u6756\u7aef\u5c06\u7ed9\u4e8820%\u7684\u9b54\u529b\u51cf\u514d.");
 mods.thaumcraft.Arcane.addShaped("CAP_crimsoncloth", <TaintedMagic:ItemWandCap:2>, "aer 100, ignis 100, aqua 100, terra 100, ordo 100, perditio 100", [
 [<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>], 
 [<TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemWandCap:3>, <TaintedMagic:ItemMaterial:8>],
@@ -935,7 +935,9 @@ mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "PRIMPEARL", false);
 mods.thaumcraft.Research.setConcealed("CAP_shadowmetal", true);
 game.setLocalization("tc.research_name.CAP_shadowmetal", "\u6697\u5f71\u6756\u7aef");
 game.setLocalization("tc.research_text.CAP_shadowmetal", "\u6709\u591a\u5403\u529b?");
-mods.thaumcraft.Research.addPage("CAP_shadowmetal", "With the discovery of Void Metal Wand Caps you wondered if you could improve their performance even further. You tested this theory by infusing the caps with some Shadowmetal, as well as the primal aspects of a primordial pearl. It proved very successful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 30% for all primal aspects.");
+mods.thaumcraft.Research.addPage("CAP_shadowmetal", "\u6839\u636e\u4f60\u5728\u865a\u7a7a\u6756\u7aef\u4e0a\u7684\u63a2\u7d22\u5fc3\u5f97,\u8fdb\u4e00\u6b65\u63d0\u5347\u8fd9\u79cd\u6756\u7aef\u4f1a\u600e\u4e48\u6837?
+\u4f60\u5c1d\u8bd5\u5c06\u66f4\u591a\u7684\u865a\u7a7a\u952d,\u4e00\u4e9b\u6697\u5f71\u952d\u548c\u4e00\u9897\u5143\u59cb\u73cd\u73e0\u6ce8\u5165\u865a\u7a7a\u6756\u7aef,\u4e8b\u5b9e\u8bc1\u660e\u4f60\u7684\u60f3\u6cd5\u975e\u5e38\u6210\u529f.
+\u6697\u5f71\u6756\u7aef\u4f3c\u4e4e\u80fd\u5341\u5206\u6709\u6548\u5730\u8282\u7701\u9b54\u529b,\u5bf9\u6240\u6709\u9b54\u529b\u90fd\u670930%\u7684\u51cf\u514d.");
 mods.thaumcraft.Infusion.addRecipe("CAP_shadowmetal", <Thaumcraft:ItemEldritchObject:3>,
 [<Thaumcraft:WandCap:7>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:20368>, <gregtech:gt.metaitem.01:22970>, <gregtech:gt.metaitem.01:20368>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.02:30508>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:20368>, <gregtech:gt.metaitem.01:22970>, <gregtech:gt.metaitem.01:20368>, <TaintedMagic:ItemMaterial:3>], 
 "alienis 96, praecantatio 96, tenebrae 84, metallum 72, vacuos 64, cognitio 68, lucrum 32, fames 32", <TaintedMagic:ItemWandCap>, 12);
