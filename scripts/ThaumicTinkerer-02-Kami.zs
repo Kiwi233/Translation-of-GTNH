@@ -189,8 +189,8 @@ furnace.addRecipe(<gregtech:gt.metaitem.01:9978> * 9, <gregtech:gt.metaitem.01:1
 mods.thaumcraft.Research.orphanResearch("CAP_ICHOR");
 mods.thaumcraft.Research.removeResearch("CAP_ICHOR");
 mods.thaumcraft.Research.addResearch("CAP_ICHOR", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 11, 11, 4, <ThaumicTinkerer:kamiResource:4>);
-game.setLocalization("tc.research_name.CAP_ICHOR", "Ichorium Wand Caps");
-game.setLocalization("tc.research_text.CAP_ICHOR", "[TT] Somewhat like a Steam Sale");
+game.setLocalization("tc.research_name.CAP_ICHOR", "\u7075\u5b9d\u6756\u7aef");
+game.setLocalization("tc.research_text.CAP_ICHOR", "[TT]\u7c7b\u4f3c\u0053\u0074\u0065\u0061\u006d\u5e73\u53f0\u6298\u6263");
 mods.thaumcraft.Research.addPrereq("CAP_ICHOR", "ICHORIUM", false);
 mods.thaumcraft.Research.setConcealed("CAP_ICHOR", true);
 mods.thaumcraft.Research.addPage("CAP_ICHOR", "ttresearch.page.CAP_ICHOR.0");
