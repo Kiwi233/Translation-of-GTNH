@@ -31,6 +31,10 @@ jobs:
         uses: edgarrc/action-7z@v1
         with:
           args: 7z a -t7z -mx=9 ./assets/${{ github.ref_name }}_normal.7z ./temp/normal/*
+      - name: Add NotEnoughCharacters
+        uses: wei/wget@v1
+        with:
+          args: -O assets/NotEnoughCharacters-1.7.10-1.4.3.jar https://github.com/Kiwi233/Translation-of-GTNH/raw/NotEnoughCharacters/NotEnoughCharacters-1.7.10-1.4.3.jar
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
@@ -42,3 +46,4 @@ jobs:
           files: |
             ./assets/${{ github.ref_name }}_complete.7z
             ./assets/${{ github.ref_name }}_normal.7z
+            ./assets/NotEnoughCharacters-1.7.10-1.4.3.jar
