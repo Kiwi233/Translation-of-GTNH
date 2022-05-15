@@ -113,9 +113,10 @@ jobs:
         with:
           title: '[自动化${{ needs.check-and-parse-issue.outputs.new-version }}]新版本对比'
           body: |
+            close #${{ github.event.issue.number }}
             旧版整合包链接: ${{ needs.check-and-parse-issue.outputs.old-modpack-url }}
             新版整合包链接: ${{ needs.check-and-parse-issue.outputs.new-modpack-url }}
-            close #${{ github.event.issue.number }}
+            ${{ steps.compare.outputs.duplicate-keys }}
           labels: |
             自动化:新版本对比
           branch: automation/compare/${{ github.event.issue.number }}
