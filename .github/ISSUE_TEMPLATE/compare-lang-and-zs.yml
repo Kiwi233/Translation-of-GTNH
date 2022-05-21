@@ -1,7 +1,7 @@
 ---
-name: 生成新版本对比PR
-description: 对比新版整合包变化, 基于新版整合包生成新版翻译并添加PR(仅内部使用)
-labels: [ '自动化:新版本对比' ]
+name: 生成lang文件与zs文件对比PR
+description: 对比新版整合包, 生成汉化lang文件和zs文件并添加PR(仅内部使用)
+labels: [ '自动化:lang+zs' ]
 
 body:
   - type: input

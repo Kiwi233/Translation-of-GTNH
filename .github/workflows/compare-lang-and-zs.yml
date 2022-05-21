@@ -1,7 +1,9 @@
-name: Compare
+name: Compare Lang And Zs
+
 on:
   issues:
     types: [ opened ]
+
 jobs:
   check-and-parse-issue:
     name: Check And Parse Issue
@@ -11,8 +13,6 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: '3.10'
-      #- run: |
-      #    python3 -m pip install -r requirements.txt
       - name: Checkout MuXiu1997/GTNH-translation-compare
         uses: actions/checkout@v3
         with:
@@ -21,10 +21,10 @@ jobs:
         id: check-and-parse-issue
         env:
           GITHUB_ISSUE: ${{ toJSON(github.event.issue) }}
-          VALID_LABEL: 自动化:新版本对比
+          VALID_LABEL: 自动化:lang+zs
           VALID_USER: ${{ github.repository_owner }}
         run: |
-          python3 parse_issue.py
+          python3 parse_issue_compare_lang_and_zs.py
     outputs:
       passed: ${{ steps.check-and-parse-issue.outputs.passed }}
       old-modpack-url: ${{ steps.check-and-parse-issue.outputs.old-modpack-url }}
@@ -61,8 +61,6 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: '3.10'
-      #- run: |
-      #    python3 -m pip install -r requirements.txt
       - name: Checkout MuXiu1997/GTNH-translation-compare
         uses: actions/checkout@v3
         with:
@@ -101,7 +99,7 @@ jobs:
       - name: Compare
         id: compare
         run: >-
-          python3 main.py
+          python3 compare_lang_and_zs.py
           --new-version='${{ needs.check-and-parse-issue.outputs.new-version }}'
           --old-modpack-path='.temp/${{ needs.check-and-parse-issue.outputs.old-version }}'
           --new-modpack-path='.temp/${{ needs.check-and-parse-issue.outputs.new-version }}'
@@ -111,13 +109,13 @@ jobs:
       - name: Create PR
         uses: peter-evans/create-pull-request@v4.0.0
         with:
-          title: '[自动化${{ needs.check-and-parse-issue.outputs.new-version }}]新版本对比'
+          title: '[自动化${{ needs.check-and-parse-issue.outputs.new-version }}]生成lang文件与zs文件'
           body: |
             close #${{ github.event.issue.number }}
             旧版整合包链接: ${{ needs.check-and-parse-issue.outputs.old-modpack-url }}
             新版整合包链接: ${{ needs.check-and-parse-issue.outputs.new-modpack-url }}
             ${{ steps.compare.outputs.duplicate-keys }}
           labels: |
-            自动化:新版本对比
+            自动化:lang+zs
           branch: automation/compare/${{ github.event.issue.number }}
           path: '.repo'
