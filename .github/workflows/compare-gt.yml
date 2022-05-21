@@ -86,3 +86,4 @@ jobs:
             自动化:gt
           branch: automation/compare/${{ github.event.issue.number }}
           path: '.repo'
+          delete-branch: true
