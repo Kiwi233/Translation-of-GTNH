@@ -120,3 +120,4 @@ jobs:
             自动化:lang+zs
           branch: automation/compare/${{ github.event.issue.number }}
           path: '.repo'
+          delete-branch: true
