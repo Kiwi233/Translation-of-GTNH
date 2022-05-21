@@ -6,6 +6,7 @@ on:
 
 jobs:
   check-and-parse-issue:
+    if: contains(github.event.issue.labels.*.name, '自动化:lang+zs')
     name: Check And Parse Issue
     runs-on: ubuntu-latest
     steps:

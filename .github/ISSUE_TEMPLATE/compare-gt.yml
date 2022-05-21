@@ -1,0 +1,19 @@
+---
+name: 生成GregTech.lang对比PR
+description: 对比分支内GregTech_US.lang, 生成GregTech.lang并添加PR(仅内部使用)
+labels: [ '自动化:gt' ]
+
+body:
+  - type: input
+    id: branch
+    attributes:
+      label: 分支
+    validations:
+      required: true
+  - type: textarea
+    id: url
+    attributes:
+      label: GregTech
+      description: 拖动上传修改后缀为txt的新GregTech.lang
+    validations:
+      required: true
