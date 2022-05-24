@@ -1,0 +1,12 @@
+---
+name: 生成任务书lang文件对比PR
+description: 对比GTNH主分支任务书lang文件, 生成任务书汉化lang文件并添加PR(仅内部使用)
+labels: [ '自动化:questbook' ]
+
+body:
+  - type: input
+    id: branch
+    attributes:
+      label: 分支
+    validations:
+      required: true
