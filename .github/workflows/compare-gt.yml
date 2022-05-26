@@ -81,7 +81,7 @@ jobs:
         with:
           title: '[自动化]生成GregTech.lang'
           body: |
-            close #${{ github.event.issue.number }}
+            - Closes #${{ github.event.issue.number }}
           labels: |
             自动化:gt
           branch: automation/compare/${{ github.event.issue.number }}

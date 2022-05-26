@@ -79,7 +79,7 @@ jobs:
         with:
           title: '[自动化]生成任务书lang文件'
           body: |
-            close #${{ github.event.issue.number }}
+            - Closes #${{ github.event.issue.number }}
           labels: |
             自动化:questbook
           branch: automation/compare/${{ github.event.issue.number }}
