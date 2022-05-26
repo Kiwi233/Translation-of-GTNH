@@ -282,7 +282,7 @@ gtnh.quest69.desc=Placing wires without insulation seems to be a bad idea. Now t
 
 # Quest.70 - §3§lSteam-a-licious!
 gtnh.quest70.name=§3§lSteam-a-licious!
-gtnh.quest70.desc=You've almost made it. One last crafting step is required in order to advance to Tier 1. Keep going!
+gtnh.quest70.desc=You've almost made it. One last crafting step is required in order to advance to Tier 1. Keep going!%n%nThis Steam Turbine generates electricity from Steam. The power source you've been using is the same, but from this point on you will generate EU, and bring it to your machines via cables, instead of bringing the Steam directly to them. Luckily, electric machines don't need an exhaust port, and they are considerably more efficient than Bronze machines.%n%nAt a later point, you will most likely switch from Steam to another fuel, though.
 
 # Quest.71 - §3§lBasic Crafting: Motors
 gtnh.quest71.name=§3§lBasic Crafting: Motors
@@ -310,7 +310,7 @@ gtnh.quest76.desc=You need steel? Uhh... fine. Let's get busy...%n%nHint: The br
 
 # Quest.77 - §r§6§l§5§l§o§l§r§6§lEBF-Time
 gtnh.quest77.name=§r§6§l§5§l§o§l§r§6§lEBF-Time
-gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.%n%nGetting the Mica for the heating coils might be a little tricky...but you can use a substitute for the first tier of coils.%n%n§4(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)%n%n§rA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Bart's Platinum Series recipes output fluids on the BOTTOM, so if you want to do Platinum Stuff later, remember that.%n%nMoron always says - Make Muffler Moint Mup. Or point up, anyways.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%nThe EBF also has a heat adjustment of 100K for each power tier above or below MV. You can only make LV energy hatches right now, but installing two LV energy hatches will overclock the EBF to MV power, eliminating the 100K penalty and setting the initial heat to 1801K.%n%nAs you upgrade your EBF over the course of the game, this heat adjustment will increase. Two MV energy hatches (overclocking to HV) will add +100K, two HV energy hatches (overclocking to EV) will give +200K, and so on. Coils only set the base value.%n%nThis adjustment does not apply to the Volcanus or MBF.%n%n§4If the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber, or upgrade your Muffler.%n
+gtnh.quest77.desc=In order to get alumin(i)um ingots, you need an electric blast furnace. It's another very important step towards victory, so let's get started.%n%nGetting the Mica for the heating coils might be a little tricky...but you can use a substitute for the first tier of coils.%n%n§4(You need 2 LV hatches with 4A of 32V total, or 3 LV hatches with MOOOORE power if the multiblock is not fully repaired)%n%n§rA few recipes produce CO2/SO2 as fluid. You can put an output fluid hatch to the top layer of the EBF to collect it otherwise it gets auto voided. It depends on the muffler hatch how much fluid you can recover. Bart's Platinum Series recipes output fluids on the BOTTOM, so if you want to do Platinum Stuff later, remember that.%n%nMoron always says - Make Muffler Moint Mup. Or point up, anyways.%n%nIf you want a really fancy EBF, you can add more input fluid hatches and store different fluids in each one.%n%nThe EBF also has a heat adjustment of 100K for each power tier above or below MV. You can only make LV energy hatches right now, but installing two LV energy hatches will overclock the EBF to MV power, eliminating the 100K penalty and setting the initial heat to 1801K.%n%nAs you upgrade your EBF over the course of the game, this heat adjustment will increase. Two MV energy hatches (overclocking to HV) will add +100K, two HV energy hatches (overclocking to EV) will give +200K, and so on. Coils only set the base value.%n%nThis adjustment does not apply to the Volcanus.%n%n§4If the pollution gets really bad, check in GT++ Multiblocks for a pollution scrubber, or upgrade your Muffler.%n
 
 # Quest.78 - §6§lMore Heat - Kanthal Coil Upgrade
 gtnh.quest78.name=§6§lMore Heat - Kanthal Coil Upgrade
@@ -358,7 +358,7 @@ gtnh.quest88.desc=Why, hello there! It seems you've made it into the electrical 
 
 # Quest.89 - §6§lMV Steam Turbine
 gtnh.quest89.name=§6§lMV Steam Turbine
-gtnh.quest89.desc=If you decide to use steam in MV tier then it's time to build a steam turbine.
+gtnh.quest89.desc=Having moved up to MV, you can continue using Steam. However, it's not a great idea to stay here, and other fuel types will be more useful to you instead. This is because Steam Turbine efficiency drops quickly with every tier (this one is only 75%), and the Steam itself needs big pipes to carry it around, compared to Benzene or Diesel.%n%nThat said, if you want to keep using this, then it's a good idea to build a Large Bronze Boiler or, later on, a Large Steel Boiler. You will need lots of solid fuel, probably Charcoal, so make sure you automate it! Definitely do not forget the water.
 
 # Quest.90 - §5§lDamn You, Wire Cutter!
 gtnh.quest90.name=§5§lDamn You, Wire Cutter!
@@ -2130,11 +2130,11 @@ gtnh.quest531.desc=Automate your bee, sapling, or crop scanning. Later on, this 
 
 # Quest.532 - §5§lExploding Fluids For Power
 gtnh.quest532.name=§5§lExploding Fluids For Power
-gtnh.quest532.desc=You've probably collected a ton of creosote and have little to use it on. So build a combustion generator and use them besides steam as a secondary power source. Singleblock generators will only use fuel if there is EU demand.%n%nTo extract the creosote from your coke ovens, you can use buckets or cells to do it by hand, or the TiCon faucet into GT fluid pipes, or an electric pump cover from You're Going to Hate This #2.%n%nIf you want it for more than using up your creosote, Light Fuel is really easy to make, and produces lots of power, so you should use that for now.
+gtnh.quest532.desc=The Combustion Generator produces EU from several fluids. Some are more popular than others, but the Oil processing line has a different combustion fluid in every tier from LV to EV, and all of them are burned in these generators.%n%nTo start, LV is the tier of Light Fuel. It is worth much more than the Oil itself for generating power, so you should distill and dessulfurize the Oil to get clean Light Fuel and use it for power. It's a great way to run your base, and can be upgraded further in the next tiers. Check the "Working with Oil" tab for more information, once you've made a Pump and found some Oil.%n%n§3If you're dealing with Oil processing, this is the type of generator you'll use the most.§r
 
 # Quest.533 - §4§5§lHydrogen, Methane or Some Farts... (Natural gas) 
 gtnh.quest533.name=§4§5§lHydrogen, Methane or Some Farts... (Natural gas) 
-gtnh.quest533.desc=Some centrifugal processes leave gases behind like hydrogen or methane. Centrifuge some brown and yellow limonite to get hydrogen or dump your unused food in a centrifuge to get methane gas. Wood will even give 60 mb per log. Maybe it's time to build a forestry tree farm. Or you can start refining oil into refinery gas or naphtha to burn.%n%nGas turbines produce the same pollution as combusion generators, but their fuels are generally not as efficient. The choice is up to you which power source you use.
+gtnh.quest533.desc=Some centrifugal processes leave gases behind like Hydrogen or Methane. Centrifuge some Brown and Yellow Limonite to get Hydrogen or dump your unused food in a Centrifuge to get Methane gas. Wood will even give 60 mb per log, and many other crops will also generate Methane this way.%n%nThe main powergen lines that use these generators are Oil and Benzene, mostly Benzene, but neither of those are really LV-tier. You can still use Charcoal to generate Carbon Dioxide and get power that way, if you don't want to deal with Steam.%n%n§3If you're dealing with fully renewable powergen, this is the type of generator you'll use the most.
 
 # Quest.534 - §4§3§lPollution What....?
 gtnh.quest534.name=§4§3§lPollution What....?
@@ -5210,7 +5210,7 @@ gtnh.quest1301.desc=Formation Core - a component which can convert energy back i
 
 # Quest.1302 - Interfacing with Machines
 gtnh.quest1302.name=Interfacing with Machines
-gtnh.quest1302.desc=The ME Interface is the only component which can be used as a part, or as a Block. Crafting an ME interface in either form by itself produces the other form. The thin form is useful if you want to provide several different interfaces in a single block of physical space, but each will need its own channel. The block form lets multiple other blocks connect to a single ME interface, using only one channel for the interface. The ME Interface acts as an in between when working with pipes, tubes, networks, or machines from other mods.%n%n§3If you're using a resource pack and the interface's GUI doesn't show up properly, you'll need to delete the assets\\appliedenergistics2\\textures\\guis\\interface.png file in your resourcepack zip file.
+gtnh.quest1302.desc=The ME Interface is the only component which can be used as a part, or as a Block. Crafting an ME interface in either form by itself produces the other form. The thin form is useful if you want to provide several different interfaces in a single block of physical space, but each will need its own channel. The block form lets multiple other blocks connect to a single ME interface, using only one channel for the interface. The ME Interface acts as an in between when working with pipes, tubes, networks, or machines from other mods.%n%n§3If you're using a resource pack and the interface's GUI doesn't show up properly, you'll need to delete the assets\appliedenergistics2\textures\guis\interface.png file in your resourcepack zip file.
 
 # Quest.1303 - Interfacing with Inventories
 gtnh.quest1303.name=Interfacing with Inventories
@@ -5614,7 +5614,7 @@ gtnh.quest1402.desc=Chrome screws are nice, but they seem to break if too much v
 
 # Quest.1403 - §9§lHV Steam Turbine
 gtnh.quest1403.name=§9§lHV Steam Turbine
-gtnh.quest1403.desc=If you decide to use steam in HV tier then it's time to build a steam turbine.
+gtnh.quest1403.desc=Using Steam as your single power source in HV is pretty difficult. Your fuel automation will have to be very fast, your pipes will have to be very big and the final efficiency of HV Steam Turbines is 66%, much lower than the other generators' 85%. %n%nThis is best used with an efficient furnace, like the GT++ Advanced Furnaces, to power something specific like a farm. Powering your entire automation in your path to an EV, using only these, is a nightmare. If you want more efficiency out of your Steam, consider building a Large Steam Turbine.
 
 # Quest.1404 - §6§lMV Superconductors (128 EU/t)
 gtnh.quest1404.name=§6§lMV Superconductors (128 EU/t)
@@ -5926,7 +5926,7 @@ gtnh.quest1480.desc=Radon is needed for EV emitters and sensors.%n%nYou can get 
 
 # Quest.1481 - What Was That? I Can't Hear You Over the Engine!
 gtnh.quest1481.name=What Was That? I Can't Hear You Over the Engine!
-gtnh.quest1481.desc=The Extreme Combustion Engine is §lhighly experimental§r, and thus probably unbalanced. It's an upgraded version of the LCE, basically. It uses ONLY HOG, and boosts with LOX, giving 1-4A IV. It also doesn't get the fuel discount the LCE does.%n%nSubmit suggestions if you don't think it's balanced, like changing the boost fluid, the EU output, the A output max, or the fluid usage amounts. It uses 8x lubricant and puts out 8x the pollution of the LCE. Hopefully useful to get people over the power hump in IV to fusion in LuV. Assuming you can produce that much HOG.
+gtnh.quest1481.desc=The Extreme Combustion Engine is an upgrade to the Large Combustion Engine, the IV version that needs Tungstensteel instead of Titanium. The structure is essentially the same, and it's almost a 1:1 ratio between the two materials, so this is a good generator when you've accumulated several stacks of Tungsteensteel.%n%nThe caveat is that it only accepts High Octane Gasoline. This is the last and most powerful type of combustion fluid made from Oil, and it has the longest processing line of them all. As a reward, it has an excellent §e§b§a2.5M EU per bucket§a§r, and you can burn it here alongside some Liquid Oxygen for almost §a4 IV amps per tick.%n%n§cThe Liquid Oxygen is very important, because it greatly boosts the speed of the multi and the fuel efficiency as well. §f§rIt needs 80 L/s, so you will need more than one Vacuum Freezer to supply it continuously: for an ECE that is always running, you will need a quad Vacuum Freezer, 1 EV and 3 HV. You can run less freezers if you overclock them, if the ECE isn't working all the time or if you upgrade to a Cryogenic Freezer,
 
 # Quest.1482 - §5§6§lPortable Prospecting Tool
 gtnh.quest1482.name=§5§6§lPortable Prospecting Tool
@@ -6006,7 +6006,7 @@ gtnh.quest1500.desc=Better Questing has a number of commands, I'll list the usef
 
 # Quest.1501 - §1§lBackup Your Stuff...
 gtnh.quest1501.name=§1§lBackup Your Stuff...
-gtnh.quest1501.desc=AromaBackup is included with the pack. Adjust the settings as you like (frequency, number of backups to keep, etc). You can also use another mod like FTBUtil, or even an external program. Try not to use more than one, or it'll just use up disk space and CPU power for no reason.%n%nIf you need to restore from a backup, the AB ones are found in the backups folder in the instance directory, not the world save directory.%n%nRemember though, Journeymap and Thaumcraft Node Tracker information isn't included with AromaBackup, so you should backup your journeymap and tcnodetracker directories yourself if you don't trust them or are moving data to another drive or computer. Also, the Thaumcraft data is a little buggy, losing scanned aspect data and Thaumonomicon data, so consider backing up that file as well, the file is the 'saves\\<worldname>\\playerdata\\<nameofplayer>.thaum' file.
+gtnh.quest1501.desc=AromaBackup is included with the pack. Adjust the settings as you like (frequency, number of backups to keep, etc). You can also use another mod like FTBUtil, or even an external program. Try not to use more than one, or it'll just use up disk space and CPU power for no reason.%n%nIf you need to restore from a backup, the AB ones are found in the backups folder in the instance directory, not the world save directory.%n%nRemember though, Journeymap and Thaumcraft Node Tracker information isn't included with AromaBackup, so you should backup your journeymap and tcnodetracker directories yourself if you don't trust them or are moving data to another drive or computer. Also, the Thaumcraft data is a little buggy, losing scanned aspect data and Thaumonomicon data, so consider backing up that file as well, the file is the 'saves\<worldname>\playerdata\<nameofplayer>.thaum' file.
 
 # Quest.1502 - §9§lTesla Would be Proud
 gtnh.quest1502.name=§9§lTesla Would be Proud
@@ -7478,11 +7478,11 @@ gtnh.quest1868.desc=MV Energy hatches need ultra low power ICs. Go and craft som
 
 # Quest.1869 - §6§lThe Church of Benzene's Holy Altar
 gtnh.quest1869.name=§6§lThe Church of Benzene's Holy Altar
-gtnh.quest1869.desc=If you're going the Gas route, make some Benzene.
+gtnh.quest1869.desc=The MV Gas Turbine pairs excellently with Benzene, now that you can actually make it. Look at the "Flower Power" tab for more details on how to go about it, or just check NEI. Benzene is renewable from trees, and it's a powerful source of EU that can keep you going for several tiers as long as you upgrade it with the new multiblocks you unlock over time.%n%nIt's a good idea to switch off Steam, since you need big pipes to carry that around and the fuel efficiency on Steam Turbines is lower. Instead, make a Pyrolyse Oven or an Advanced Coke Oven to make Charcoal faster, extract Benzene from it and run it through a few of these Gas Turbines.
 
 # Quest.1870 - §6§lDiesel Power
 gtnh.quest1870.name=§6§lDiesel Power
-gtnh.quest1870.desc=Have you noticed you can make diesel yet? Well you can. It's also used in the copterpack, so why not use it for power too?%n%n§3This will also unlock new quests in the Armors and Jetpacks tab.
+gtnh.quest1870.desc=The MV Combustion Generator burns Light Fuel faster than the LV version, but you can also automate Diesel and burn that instead, since it's even more powerful. It is arguably the easiest and most efficient way to generate lots of power for automation at this stage, and it'll last you a couple more tiers if you upgrade it as you go.%n%nAdditionally, Diesel can be used as fuel for the Copterpack, a good jetpack that makes it much easier to move around, inside and outside of your base. It's heavily recommended that you make one, if you have Diesel.%n%n§3This will also unlock new quests in the Armors and Jetpacks tab.
 
 # Quest.1871 - §9§lLV Field Generator
 gtnh.quest1871.name=§9§lLV Field Generator
@@ -7622,7 +7622,7 @@ gtnh.quest1904.desc=Higher tier superconducting wires and energy hatches will re
 
 # Quest.1905 - §6§lLarge Heat Exchanger - Fermat's Last
 gtnh.quest1905.name=§6§lLarge Heat Exchanger - Fermat's Last
-gtnh.quest1905.desc=I have discovered truly remarkable instructions for this machine which this margin is too small to contain.%n%nInstead, goto https://tinyurl.com/GTNH-LHE and read it there.%n%nOr https://gtnh.miraheze.org/wiki/Fluid_Reactor for how to use it in a Fluid Reactor setup.
+gtnh.quest1905.desc=The Large Heat Exchanger is a powergen multi that accepts a non-direct fuel, and doesn't output EU. What is it for, then? §7§7§7To heat up water with hot liquids, that's what!§r§r§r%n%nEffectively, it's a Steam Boiler that uses fluids instead of solids, but it's more complicated. The two main sources of energy here are Lava and Hot Coolant, and the second is more powerful, but harder to get. Lava can be automated from Everburn Urns or a myriad of other option, while Hot Coolant usually requires a proper powergen setup.%n%nFor Lava, the LHE will output §d§d§d160 L of Steam for every 1 L of Lava, up to 1000 L/s of Lava input§r§r§r (§a§a§a4000 EU/t§r§r§r at 100% turbine efficiency). For Hot Coolant, the LHE will output §d§d§d400 L of Steam for every 1 L of Hot Coolant, up to 800 L/s of input§r§r§r (§a§a§a8000 EU/t§r§r§r at 100% turbine efficiency).%n%n§c§c§cIf you go above these input rates, the output becomes Superheated Steam, which needs to pass through a Large HP Steam Turbine before the regular Large Steam Turbine.§r§r§r The maximum input rate here is twice of what was before, the conversion is §d§d§d1:80 for Lava§r§r§r and §d§d§d1:200 for Hot Coolant§r§r§r, and the energy output at 100% turbine efficiency is §a§a§a12000 EU/t§r§r§r for Lava and §a§a§a24000 EU/t§r§r§r for Hot Coolant.%n%n§6§lVery powerful, but complicated, and needs turbines!§r§r§r%n%n§3For more information, go to §nhttps://tinyurl.com/GTNH-LHE§r§3 and read about it there, or to §nhttps://gtnh.miraheze.org/wiki/Fluid_Reactor§r §3for how to use it in a Fluid Reactor setup.
 
 # Quest.1906 - §9§lRecycle for the Environment
 gtnh.quest1906.name=§9§lRecycle for the Environment
@@ -8162,7 +8162,7 @@ gtnh.quest2039.desc=The Amazon Warehousing Depot is the ultimate for all your pa
 
 # Quest.2040 - Industrial Coke Oven
 gtnh.quest2040.name=Industrial Coke Oven
-gtnh.quest2040.desc=Swimming in logs? Turn those logs into clean burning charcoal!%n%n§3This multi is EV.%n%nAlso, sorta buggy sometimes.
+gtnh.quest2040.desc=Swimming in logs? Turn those logs into clean burning charcoal! The Industrial Coke Oven is a 3x3x3 multiblock that runs much faster than those gigangic Pyrolyse Ovens. With one of these, you can replace several of those, since it does up to 24x parallels.%n%nYou'll be able to effectively retire the Pyros from now on, unless there's some very fast recipe that they can keep up with. To turn Wood into Charcoal, for example, this ICO can keep up with an entire farm as long as you provide it enough Nitrogen for the job!%n%n§3This multi is EV and doesn't actually need the ABS.
 
 # Quest.2041 - Americium Doped Wafers
 gtnh.quest2041.name=Americium Doped Wafers
@@ -11050,7 +11050,7 @@ gtnh.quest2761.desc=No, you don't. The main thing you would probably get out of 
 
 # Quest.2762 - This is Not How You Get Into Space
 gtnh.quest2762.name=This is Not How You Get Into Space
-gtnh.quest2762.desc=This produces power out of Rocket Fuels. To see how to make them, look at the Space Race tab. The math involved is complicated, but this multi can generate a lot of power if you boost it and keep it fueled with specific amounts of rocket fuel, to not lose efficiency.%n%n§3This multi is IV.
+gtnh.quest2762.desc=This produces power out of Rocket Fuels. To see how to make them, look at the Space Race tab. These are specifically GT++ Rocket Fuels, and automating them for powergen in this multi will also provide you with endless fuel for your space travels.%n%nThe math regarding the Rocketdyne is complicated. Looking at the controller's tooltip helps, but the main gist of it is like this: provide Carbon Dioxide and make sure it doesn't run out, choose the EU/t you want to get, calculate the amount of fuel you need for the fuel you will use, and then provide enough Liquid Hydrogen to boost the multi, according to the EU/t value.%n%nYou will always want to have the Rocketdyne boosted, for several reasons. Assuming you have at least a buffered IV Dynamo Hatch, outputting close to the maximum on that hatch will lower the fuel efficiency, but not if it's boosted. Additionally, this multi doesn't consume fuel continuously, but with intervals of 1 second between consuming and not consuming, while generating power all the same. Boosting this consumption results in huge fuel efficiency, combined with the high fuel values of the Rocket Fuels.%n%n§3This multi is IV.
 
 # Quest.2763 - §6§lI Put a Machine Into Your Machine
 gtnh.quest2763.name=§6§lI Put a Machine Into Your Machine
@@ -11066,7 +11066,7 @@ gtnh.quest2765.desc=The TFFT is very useful if you don't want to have a bunch of
 
 # Quest.2766 - Deep Earth Heating Pump
 gtnh.quest2766.name=Deep Earth Heating Pump
-gtnh.quest2766.desc=This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.%n%nIt's basically free power, but so is using an everburn urn with the LHE, so whatever.
+gtnh.quest2766.desc=This allows you to skip the Fluid Reactor part of a FR setup, by heating the coolant with geothermal energy.%n%nIt's basically free power, but so is using an everburn urn with the LHE, so whatever. This is insanely expensive, so keep that in mind!
 
 # Quest.2767 - Get it Together Bees!
 gtnh.quest2767.name=Get it Together Bees!
@@ -11146,35 +11146,35 @@ gtnh.quest2785.desc=This is the LuV version. It has 60% efficiency, and produces
 
 # Quest.2786 - How Many Forests Did You Cut Down to Power This?
 gtnh.quest2786.name=How Many Forests Did You Cut Down to Power This?
-gtnh.quest2786.desc=Keep it up with the Benzene! Maybe make a Pyro? Or think about §oNitro§rbenzene.
+gtnh.quest2786.desc=This is the HV version, with the lowest efficiency so far of 85%. You can offset that by just generating more Benzene, alongside Phenol and Toluene in a Distillation Tower, or use Naphtha instead... You have many options at this point, surely enough to fight the increasing power demands of your automation.%n%nBenzene doesn't get upgraded in HV, only in EV. You'll be able to make Nitrobenzene when you're there, and burn it in some turbines bigger than this one.
 
 # Quest.2787 - Even Better Diesel
 gtnh.quest2787.name=Even Better Diesel
-gtnh.quest2787.desc=You can make Cetane-Boosted Diesel now. Unfortunately, HOG is down another route, so you can't make Cetane into it later.
+gtnh.quest2787.desc=In HV, you unlock yet another generator, but also Cetane-Boosted Diesel. After a bunch of reactions, you can get a superpowered combustion fuel that is worth §a1M EU per bucket§a§r and run it for quite a while on these improved generators. You will also unlock the Distillation Tower here, so you might get even more fuel that you can burn in these generators.%n%nUnfortunately, the next fuel, unlocked in EV, doesn't come from Diesel. It's a completely different processing line, should you wish to tackle it later.
 
 # Quest.2788 - Putting the 'Semi' Back Into Generators LV
 gtnh.quest2788.name=Putting the 'Semi' Back Into Generators LV
-gtnh.quest2788.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.%n%n§3BTW, there's ULV versions of the Steam, Gas, and Combustion Gens, but they're totally pointless.
+gtnh.quest2788.desc=You've probably collected a ton of Creosote and have little to use it on. To fix that, build a Semifluid Generator and use it alongside Steam as a secondary power source! Singleblock generators will only use fuel if there is EU demand, so you might end up with a filled Creosote buffer if you aren't consuming enough EU.%n%nTo extract the Creosote from your Coke Ovens, you can use buckets or cells to do it by hand, or the TiCon Faucet into GT fluid pipes, or an Electric Pump cover from You're Going to Hate This #2.%n%nThere are other options to burn Creosote, like the Railcraft Liquid Boilers, but this is much cheaper and easier to set up, while still being efficient with Creosote (6x as efficient as Combustion Generators).
 
 # Quest.2789 - Putting the 'Semi' Back Into Generators MV
 gtnh.quest2789.name=Putting the 'Semi' Back Into Generators MV
-gtnh.quest2789.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.
+gtnh.quest2789.desc=If you're still burning Creosote for power, you can get MV amps out of it with these machines. It won't last long, and definitely isn't a good main power source, but it'll give you some EU for your trouble.%n%nAlternatively, Heavy Fuel? It has the same EU per bucket as Benzene, 360k, and is the only semifluid with more than 100k per bucket. If you have it, and are not consuming enough for Diesel, you can use it this way.
 
 # Quest.2790 - Putting the 'Semi' Back Into Generators HV
 gtnh.quest2790.name=Putting the 'Semi' Back Into Generators HV
-gtnh.quest2790.desc=Semifluids are basically the weird fluids that normally don't give much power. You'll probably use this with Oil, Heavy Fuel, or Creosote.
+gtnh.quest2790.desc=If you've built Distillation Towers to improve your Oil or Benzene processing line, you might have ended up with some extra fuels that are semifluids, such as Heavy Fuel or Creosote. If you've accumulated them so much that they've started voiding, you can instead make an HV Semifluid Generator and get free power out of them!%n%nThe Creosote from one DT that is processing Wood Tar is enough to power the DT itself, depending on the fuel efficiency. One HV generator is just enough to power it.
 
 # Quest.2791 - You Haven't Learned How to Separate Fluids Yet? Seriously?
 gtnh.quest2791.name=You Haven't Learned How to Separate Fluids Yet? Seriously?
-gtnh.quest2791.desc=This seems suspiciously like another MB I know? §oProbably§r just my imagination.
+gtnh.quest2791.desc=This multi follows the same logic as the Large Combustion Engine, but it uses semifluids instead. If you have the need to burn any of those for power, like Heavy Fuel for example, you can put this together.%n%n§3Check the Large Combustion Engine quest for more details.
 
 # Quest.2792 - Acid Trip
 gtnh.quest2792.name=Acid Trip
-gtnh.quest2792.desc=This is the HV version. Will people really use this?
+gtnh.quest2792.desc=This is the HV version. Will people really use this? Each stack of Redstone Dust is worth around 580k EU, so look at your storage and see what you have.
 
 # Quest.2793 - Hallucinogenics Not Included
 gtnh.quest2793.name=Hallucinogenics Not Included
-gtnh.quest2793.desc=This is the EV version. I hope you're not using this for primary power gen?
+gtnh.quest2793.desc=This is the EV version. I hope you're not using this for primary power gen? At least, it has a pretty good efficiency of 88% for an EV singleblock, and it's better than voiding the fluids that can be used as fuel here.
 
 # Quest.2794 - Portable Clean Energy EV
 gtnh.quest2794.name=Portable Clean Energy EV
@@ -11310,7 +11310,7 @@ gtnh.quest2826.desc=It's the same as the previous, but more/better. It takes les
 
 # Quest.2827 - Solid-Oxide Fuel Cell Mk I
 gtnh.quest2827.name=Solid-Oxide Fuel Cell Mk I
-gtnh.quest2827.desc=It uses Gas fuels to produce power and steam. It produces steam only once heated up, but make sure you have a turbine to utilize it to actually get the power out of it. It's not as good as an LGT, especially since it requires Oxygen, but it does produce less pollution if you care about that.
+gtnh.quest2827.desc=It uses Gas fuels to produce power and Steam at the same time, while also generating 0 pollution. If the other generators were being problematic, this is the best solution.%n%nIt produces §a4 HV amps per tick§r at a nice fuel efficiency, while consuming 100 L of Oxygen per second. It will heat up over time until it reaches 100% efficiency, at which point it starts outputting Steam as well. You can then use Steam Turbines, singleblocks or multiblocks, to generate even more power.%n%nWith these two things combined, it's more powerful than the Large Gas Turbine that you can build at the start. Only when you unlock better materials for that, will it generate more power than the SOFC Mk I.
 
 # Quest.2828 - It's 'Super' Heated Steam
 gtnh.quest2828.name=It's 'Super' Heated Steam
@@ -12026,7 +12026,7 @@ gtnh.quest3005.desc=You don't always have to crack the base fuels to get useful 
 
 # Quest.3006 - Acetone and Ethenone
 gtnh.quest3006.name=Acetone and Ethenone
-gtnh.quest3006.desc=Another ingredient in the making of TNM is Ethenone, which can be made directly from Acetone. This one is a little more organic, which is to say it's much easier to automate if you chose Benzene or Biomass. From those routes, you can get it from a Wood Vinegar DT, or reacting Acetic Acid with Calcite Dust from a Fermented Biomass DT (get the calcite from electryzing Fertilizer). If you used biomass to get Ammonia, you can do it this way.%n%nIf not using plants, though, there are other ways to automate this. Ethenone can be made directly from Acetic Acid and Sulfuric Acid, and this last one should already be automated from cleaning the sulfuric waste from the oil fractions. Acetic Acid, on the other hand, is a mix of Oxygen and Ethylene, a combo that you might have already automated to make Polyethylene. If not, this a good time to do so. %n%nThe amount of Ethenone you need to make a lot of Cetane-Boosted Diesel is small, so it's unlikely that you'll run out of Sulfuric Acid for this. Make sure you automate it all, though.
+gtnh.quest3006.desc=Another ingredient in the making of TNM is Ethenone, which can be made directly from Acetone. This one is a little more organic, which is to say it's much easier to automate if you chose Benzene or Biomass. From those routes, you can get it from a Wood Vinegar DT, or reacting Acetic Acid with Calcite Dust from a Fermented Biomass DT (get the calcite from electrolyzing Fertilizer). If you used biomass to get Ammonia, you can do it this way.%n%nIf not using plants, though, there are other ways to automate this. Ethenone can be made directly from Acetic Acid and Sulfuric Acid, and this last one should already be automated from cleaning the sulfuric waste from the oil fractions. Acetic Acid, on the other hand, is a mix of Oxygen and Ethylene, a combo that you might have already automated to make Polyethylene. If not, this a good time to do so. %n%nThe amount of Ethenone you need to make a lot of Cetane-Boosted Diesel is small, so it's unlikely that you'll run out of Sulfuric Acid for this. Make sure you automate it all, though.
 
 # Quest.3007 - Ammonia Source
 gtnh.quest3007.name=Ammonia Source
@@ -12042,7 +12042,7 @@ gtnh.quest3009.desc=If you made it here, then you should be ready to make Cetane
 
 # Quest.3010 - Superpowered Fuel
 gtnh.quest3010.name=Superpowered Fuel
-gtnh.quest3010.desc=As did all tiers until now, the EV tier introduces a new type of bigger, better liquid fuel to burn on engines, High-Octane Gasoline. However, this one doesn't use the previous fuel, and instead takes a different oil-based route, which means that the CBD you have is of no use in this processing chain.%n%nAlso as before, the amount of processing you will need is greatly increased, and you can expect to need a lot more DTs, Oil Crackers, LCRs and other machines. You will also have to automate the input of materials from other sources, since Oil cannot provide you with everything anymore. You can overclock the multis you have, or build more of them, your choice. In the end, you'll have a fuel that is 2.5x more powerful than CBD, at an impressive fuel value of 2.5 million EU, and more byproducts than you could ever imagine. %n%nYou might have to crack one of the four oil fractions into the other ones, and you will surely need to pump Oil faster and faster to keep up with the power needs that will come when jumping to IV. I do recommend you use AE2 to automate the setup, relying on fluid P2Ps to transport fluids around, because it will make your life easier, even if it's harder to start and learn the setup. Either way you go, don't forget, you have to automate it.%n%n§4Make at least one of these important EV multis to continue.
+gtnh.quest3010.desc=As did all tiers until now, the EV tier introduces a new type of bigger, better liquid fuel to burn on engines, High-Octane Gasoline. However, this one doesn't use the previous fuel, and instead takes a different oil-based route, which means that the CBD you have is of no use in this processing chain.%n%nAlso as before, the amount of processing you will need is greatly increased, and you can expect to need a lot more DTs, Oil Crackers, LCRs and other machines. You will also have to automate the input of materials from other sources, since Oil cannot provide you with everything anymore. You can overclock the multis you have, or build more of them, your choice. In the end, you'll have a fuel that is 2.5x more powerful than CBD, at an impressive fuel value of 2.5 million EU, and more byproducts than you could ever imagine. %n%nYou might have to crack one of the four oil fractions into the other ones, and you will surely need to pump Oil faster and faster to keep up with the power needs that will come when jumping to IV. I do recommend you use AE2 to automate the setup, relying on fluid P2Ps to transport fluids around, because it will make your life easier, even if it's harder to start and learn the setup. Either way you go, don't forget, you have to automate it.%n%n§4Work on making these important EV multis to continue.
 
 # Quest.3011 - Boiler and Super Fuel
 gtnh.quest3011.name=Boiler and Super Fuel
@@ -12054,7 +12054,7 @@ gtnh.quest3012.desc=Have you built an Oil Cracker? Have you checked its coils? T
 
 # Quest.3013 - Magic Super Fuel
 gtnh.quest3013.name=Magic Super Fuel
-gtnh.quest3013.desc=Solid Super Fuel is an excellent fuel to burn in the Titanium Boiler, but you can do something even better than that. With a touch of magic, you can make yet another solid fuel with 50% more fuel value than the last one, but it's very likely that you will need Thaumcraft progression to automate this fully, should you wish to do so.%n%nIf you do want to do it, I recommend you also find a way to automate Coal, from IC2 crops for example, because the recipes that use it is much more efficient on liquid fuel than the other coals. You will also end up making more boilers, perhaps a quad Titanium Boiler, which will surely force you to increase the amount of Steam Turbines you'll have to make, but there is a catch here: you can screwdriver the turbines into Loose mode, which significantly decreases their efficiency but boosts their speed by something like 8 times, depending on the turbine you're using. Given that this process already boosts the efficiency of your fuels a lot, you may want to lose some of it to keep your number of boilers low.%n%nI'll leave the planning up to you.
+gtnh.quest3013.desc=Solid Super Fuel is an excellent fuel to burn in the Titanium Boiler, but you can do something even better than that. With a touch of magic, you can make yet another solid fuel with 50% more fuel value than the last one, but it's very likely that you will need Thaumcraft progression to automate this fully, should you wish to do so.%n%nIf you do want to do it, I recommend you also find a way to automate Coal, from IC2 crops for example, because the recipes that use it is much more efficient on liquid fuel than the other coals. You will also end up making more boilers, perhaps a quad Titanium Boiler, which will surely force you to increase the amount of Steam Turbines you'll have to make, but there is a catch here: you can screwdriver the turbines into Loose mode, which significantly decreases their efficiency but boosts their speed by something like 8 times, depending on the turbine you're using. Given that this process already boosts the efficiency of your fuels a lot, you may want to lose some of it to keep your number of turbines low.%n%nI'll leave the planning up to you.
 
 # Quest.3014 - Raw Gasoline
 gtnh.quest3014.name=Raw Gasoline
@@ -12066,7 +12066,7 @@ gtnh.quest3015.desc=If you want your generators to last, you'll want to make thi
 
 # Quest.3016 - Zooming with Nitrous
 gtnh.quest3016.name=Zooming with Nitrous
-gtnh.quest3016.desc=Nitrous Oxide, NO2, also known as nitro. It makes cars go really fast for short bursts. In reality, it is a source of extra oxygen when mixed in with the fuel during combustion, allowing it to be consumed faster and also release energy faster, but at the risk of "knocking", detonating the fuel out of its intended boundaries and possibly destroying the engine. %n%nTo avoid this, something else needs to be mixed in this HOG to prevent your generators from exploding, right? Luckily for you, such an option exists and it will be presented after this quest. For now, though, you can focus on automating Nitrous Oxide by mixing Nitrogen with Oxygen. These are the two main products of distilling air, so you can obtain them in one step, but you probably have chosen your source of these gases at this point, so use what you have.
+gtnh.quest3016.desc=Nitrous Oxide, N2O, also known as nitro. It makes cars go really fast for short bursts. In reality, it is a source of extra oxygen when mixed in with the fuel during combustion, allowing it to be consumed faster and also release energy faster, but at the risk of "knocking", detonating the fuel out of its intended boundaries and possibly destroying the engine. %n%nTo avoid this, something else needs to be mixed in this HOG to prevent your generators from exploding, right? Luckily for you, such an option exists and it will be presented after this quest. For now, though, you can focus on automating Nitrous Oxide by mixing Nitrogen with Oxygen. These are the two main products of distilling air, so you can obtain them in one step, but you probably have chosen your source of these gases at this point, so use what you have.
 
 # Quest.3017 - Speeding with Octane
 gtnh.quest3017.name=Speeding with Octane
@@ -12382,7 +12382,7 @@ gtnh.quest3094.desc=If you've automated Carbon Monoxide, you can now burn it dir
 
 # Quest.3095 - Sourcing Your Wood
 gtnh.quest3095.name=Sourcing Your Wood
-gtnh.quest3095.desc=When it comes to power from wood, your only options so far have been the wood itself and Charcoal. Both of these are low on energy per item, so you will need a lot of wood to have a decent EU/t output. How, then, can you easily get that much? There are two ways: the automated way, and the non-automated way.%n%nThe automated way can be done with one of several machines, but in LV you only have one option: the LV Crop Manager. It can automatically harvest crops in an area around it and, for this situation, the crop you want is one of several Bonsais. You can get them by planting saplings on cropsticks (there is a lot more information about how crops work in the Forestry and Multifarms page), and most types of saplings are equivalent to one another, although not all of them can be planted as crops. The ones that stand out are Spruce, which give a bit more wood than the others, and Oak, which give Apples alongside the usual wood and saplings, possibly useful for some chemistry later.%n%nThe non-automated way can be done earlier, and it only requires two things: an unbreakable Lumber Axe and trees with a lot of wood, like Sacred Oak or Redwood. This axe will chop down (most of) the trees and award you with stacks and stacks of wood, much faster than the automated way, but with more work. This process might be useful in the beginning, but you will have to automate the wood input at some point. %n%nComplete one of the tasks to continue. 
+gtnh.quest3095.desc=When it comes to power from wood, your only options so far have been the wood itself and Charcoal. Both of these are low on energy per item, so you will need a lot of wood to have a decent EU/t output. How, then, can you easily get that much? There are two ways: the automated way, and the non-automated way.%n%nThe automated way can be done with one of several machines, but in LV you only have one option: the LV Crop Manager. It can automatically harvest crops in an area around it and, for this situation, the crop you want is one of several Bonsais. You can get them by planting saplings on cropsticks (there is a lot more information about how crops work in the Forestry and Multifarms page), and most types of saplings are equivalent to one another, although not all of them can be planted as crops. The ones that stand out are Spruce, which give a bit more wood than the others, and Oak, which give Apples alongside the usual wood and saplings, possibly useful for some chemistry later.%n%nThe non-automated way can be done earlier, and it only requires two things: an unbreakable Lumber Axe and trees with a lot of wood, like Sacred Oak or Redwood. This axe will chop down (most of) the trees and award you with stacks and stacks of wood, much faster than the automated way, but with more work. This process might be useful in the beginning, but you will have to automate the wood input at some point. %n%nComplete one of the tasks and get some wood to continue. 
 
 # Quest.3096 - Faster Charcoal
 gtnh.quest3096.name=Faster Charcoal
