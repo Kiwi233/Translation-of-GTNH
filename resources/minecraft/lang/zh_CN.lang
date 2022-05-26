@@ -62,7 +62,7 @@ gtnh.quest14.desc=你已经看过很多树了,而有其中有几棵看起来很�
 
 # Quest.15 - §2§lReady, Set, Go!
 gtnh.quest15.name=§2§l准备出发!
-gtnh.quest15.desc=你差不多该建一个家了.不论何时,最基本的要求就是有一个稳定的食物来源.在旅途中,拿着这个袋子来装你要吃的东西.在本阶段(第0.5阶),你将踏上一段路途遥远的旅程,最好做足准备啰!
+gtnh.quest15.desc=你差不多该建一个家了.不论何时,最基本的都是要有一个稳定的食物来源.在旅途中,拿着这个袋子来装你要吃的东西.在本阶(第0.5阶),你将会有一个路途遥远的旅程,最好做足准备啰!
 
 # Quest.16 - §4§3§lBetter Tank... Iron Tank
 gtnh.quest16.name=§4§3§l更好的水槽...铁储罐
@@ -2986,11 +2986,11 @@ gtnh.quest745.desc=离心粘性树脂,可以得到一些胶水.在制作不错�
 
 # Quest.746 - §6§lSilicon
 gtnh.quest746.name=§6§l硅
-gtnh.quest746.desc=所有单晶硅的生产都需要硅(这是一句废话),以及所有的晶圆、芯片和电路板生产都离不开硅. 因此,硅是一种§o极端重要的材料§r.%n%n有许多方法可以获得硅,比如离心或电解多种没啥用的材料(比如方钠石这种).红石或者粘土里都可以产出硅,但如果你想要个刷硅产线的话,我们建议通过刷沙子或燧石粉,产出玻璃粉,进而获取二氧化硅.%n%n石棉、漂白土的处理过程中,也可以获得副产物硅.%n%n你需要使用工业高炉来将硅粉制作成为硅锭. 制作硅锭需要2000mb氧,并且工业高炉达到1600K的炉温,拥有120EU/t的功率,若是使用生硅需要耗时80秒.§6而若是用二氧化硅和碳粉,就只需12秒!§r很多时候,在使用NEI时多翻几页,往往能找到更优选择.
+gtnh.quest746.desc=所有单晶硅的生产都需要硅(这是一句废话),以及所有的晶元、芯片和电路板生产都离不开硅. 因此,硅是一种§o极端重要的材料§r.%n%n有许多方法可以获得硅,比如离心或电解多种没啥用的材料(比如方钠石这种).红石或者粘土里都可以产出硅,但如果你想要个刷硅产线的话,我们建议通过刷沙子或燧石粉,产出玻璃粉,进而获取二氧化硅.%n%n石棉、漂白土的处理过程中,也可以获得副产物硅.%n%n你需要使用工业高炉来将硅粉制作成为硅锭. 制作硅锭需要2000mb氧,并且工业高炉达到1600K的炉温,拥有120EU/t的功率,若是使用生硅需要耗时80秒.§6而若是用二氧化硅和碳粉,就只需12秒!§r很多时候,在使用NEI时多翻几页,往往能找到更优选择.
 
 # Quest.747 - §5§lDiodes
 gtnh.quest747.name=§5§l二极管
-gtnh.quest747.desc=优质的电子电路板需要二极管.有两种主要方法可以制造它们.现在你只能用砷化镓处理细铜导线和熔融玻璃来获得二极管.稍后,当你拥有了工业高炉,你就能制作硅晶圆,用它替代砷化镓可以实现增产. 请注意,晶圆比镓更容易获得,因此即使减少晶圆数量也是值得的.%n%n老生常谈,时时检查NEI(特别是解锁了新材料后),不要一个合成表用一辈子.%n有了聚乙烯之后,你就能用细退火铜导线替代细铜导线,实现再次增产.  
+gtnh.quest747.desc=优质的电子电路板需要二极管.有两种主要方法可以制造它们.现在你只能用砷化镓处理细铜导线和熔融玻璃来获得二极管.稍后,当你拥有了工业高炉,你就能制作硅晶元,用它替代砷化镓可以实现增产. 请注意,晶元比镓更容易获得,因此即使减少晶元数量也是值得的.%n%n老生常谈,时时检查NEI(特别是解锁了新材料后),不要一个合成表用一辈子.%n有了聚乙烯之后,你就能用细退火铜导线替代细铜导线,实现再次增产.  
 
 # Quest.748 - §5§lEmpty Circuit Board
 gtnh.quest748.name=§5§l电路基板
@@ -3018,7 +3018,7 @@ gtnh.quest753.desc=不锈钢锭需要在工业高炉中进行烧制方可获得,
 
 # Quest.754 - §6§lMV Energy Hatch
 gtnh.quest754.name=§6§lMV级能源仓
-gtnh.quest754.desc=有些原料如不锈钢,需要480EU/t.你的LV级能源仓已经不敷使用.制造至少两个MV级能源仓,来将你的工业高炉升级到HV.%n如果你没有所需的超低功率IC,先做点晶圆吧.%n%n§3顺便一提,如果多方块的配方哪怕只超过了某个电压等级1EU,你也§o必须§r §3使用第二个能源仓为其供能.
+gtnh.quest754.desc=有些原料如不锈钢,需要480EU/t.你的LV级能源仓已经不敷使用.制造至少两个MV级能源仓,来将你的工业高炉升级到HV.%n如果你没有所需的超低功率IC,先做点晶元吧.%n%n§3顺便一提,如果多方块的配方哪怕只超过了某个电压等级1EU,你也§o必须§r §3使用第二个能源仓为其供能.
 
 # Quest.755 - §6§lBetter Than Duct Tape
 gtnh.quest755.name=§6§l比胶带更好
@@ -3130,7 +3130,7 @@ gtnh.quest781.desc=这是获取木炭和杂酚油(比RC焦炉快50倍)以及其�
 
 # Quest.782 - §6§lMonocrystalline Silicon Boules
 gtnh.quest782.name=§6§l单晶硅
-gtnh.quest782.desc=制造晶圆之前,你必须先制造单晶硅.这一工序需要在工业高炉加入硅粉以及砷化镓粉,需时450秒.每个单晶硅可以制成16个晶圆.
+gtnh.quest782.desc=制造晶元之前,你必须先制造单晶硅.这一工序需要在工业高炉加入硅粉以及砷化镓粉,需时450秒.每个单晶硅可以制成16个晶元.
 
 # Quest.783 - §6§lWe Need Big Toys
 gtnh.quest783.name=§6§l我们需要些大家伙
@@ -3169,8 +3169,8 @@ gtnh.quest791.name=§6§lMV精密激光蚀刻机
 gtnh.quest791.desc=制造高级电路需要一台MV精密激光蚀刻机,制造一台吧.
 
 # Quest.792 - §6§lSilicon Wafer
-gtnh.quest792.name=§6§l硅晶圆
-gtnh.quest792.desc=将单晶硅放入板材切割机处理,可以获得硅晶圆. 你最好赶紧制作一台MV切割机,之后制作RAM、IC,及其它芯片时都会用到它.%n%n如果你手上已经有了聚乙烯的话,使用晶圆制造二极管的产率会更高.
+gtnh.quest792.name=§6§l硅晶元
+gtnh.quest792.desc=将单晶硅放入板材切割机处理,可以获得硅晶元. 你最好赶紧制作一台MV切割机,之后制作RAM、IC,及其它芯片时都会用到它.%n%n如果你手上已经有了聚乙烯的话,使用晶元制造二极管的产率会更高.
 
 # Quest.793 - §6§lGood Integrated Circuits
 gtnh.quest793.name=§6§l不错的集成电路
@@ -3238,7 +3238,7 @@ gtnh.quest808.desc=搅拌更高级的粉末需要更高级的搅拌机.
 
 # Quest.809 - Dire Crafting Table
 gtnh.quest809.name=终极工作台
-gtnh.quest809.desc=Avarita的9x9终极工作台...不再用于制造火箭 :(.不过如果你需要太阳能、动能发电机的话,它也是必不可少的.首先,你需要81个工作台来制作一个双重压缩工作台,一些HV组件、晶圆,以及一个水晶矩阵.然后...没错,你确实需要很多下界之星.%n%n§3提示:查看下界之星的配方,可使用枯竭水晶及世界盐合成.枯竭水晶可以通过加入岩浆膏、烈焰粉及小撮下界之星粉复制.§r%n%n§3另外,如果你搞不到凋灵骷髅头,劈刀或者炽焰之啄颅剑都挺好用的.
+gtnh.quest809.desc=Avarita的9x9终极工作台...不再用于制造火箭 :(.不过如果你需要太阳能、动能发电机的话,它也是必不可少的.首先,你需要81个工作台来制作一个双重压缩工作台,一些HV组件、晶元,以及一个水晶矩阵.然后...没错,你确实需要很多下界之星.%n%n§3提示:查看下界之星的配方,可使用枯竭水晶及世界盐合成.枯竭水晶可以通过加入岩浆膏、烈焰粉及小撮下界之星粉复制.§r%n%n§3另外,如果你搞不到凋灵骷髅头,劈刀或者炽焰之啄颅剑都挺好用的.
 
 # Quest.810 - Rocket Tier 1
 gtnh.quest810.name=1阶火箭
@@ -3325,12 +3325,12 @@ gtnh.quest830.name=降落伞
 gtnh.quest830.desc=降落伞可以防止在返回主世界大气层是是降落的时候摔死. 降落伞是太空旅行中不可缺少的必备装备之一. 不带着降落伞就进行太空之旅是非常危险的. (There will even be a warning if you try to launch without one on you.) 使用组装机可节省材料.
 
 # Quest.831 - Advanced Wafers
-gtnh.quest831.name=高级晶圆(Advanced Wafers)
-gtnh.quest831.desc=更先进的晶圆可以制造更先进的机器,比如高级太阳能板和进入星辰大海最重要的终极工作台. 高级晶圆也可以用于建立空间站.
+gtnh.quest831.name=高级晶元(Advanced Wafers)
+gtnh.quest831.desc=更先进的晶元可以制造更先进的机器,比如高级太阳能板和进入星辰大海最重要的终极工作台. 高级晶元也可以用于建立空间站.
 
 # Quest.832 - Wafers
-gtnh.quest832.name=晶圆
-gtnh.quest832.desc=基础晶圆用于制造各种基础的机器,如基础太阳能面板、燃料注入机、能量存储模块等.
+gtnh.quest832.name=晶元
+gtnh.quest832.desc=基础晶元用于制造各种基础的机器,如基础太阳能面板、燃料注入机、能量存储模块等.
 
 # Quest.833 - Purge Your Warp
 gtnh.quest833.name=清除你的扭曲
@@ -3350,7 +3350,7 @@ gtnh.quest836.desc=二极管需要砷化镓,你可能想知道在游戏早期要
 
 # Quest.837 - §6§lILC and RAM
 gtnh.quest837.name=§6§l集成逻辑电路和随机存取芯片
-gtnh.quest837.desc=先进的电路板需要集成逻辑电路和随机存取芯片,你可以通过切割集成逻辑电路晶圆和随机存取芯片晶圆来获得他们
+gtnh.quest837.desc=先进的电路板需要集成逻辑电路和随机存取芯片,你可以通过切割集成逻辑电路晶元和随机存取芯片晶元来获得他们
 
 # Quest.838 - §6§lAdvanced Circuits
 gtnh.quest838.name=§6§l高级电路板
@@ -3873,8 +3873,8 @@ gtnh.quest967.name=二极管
 gtnh.quest967.desc=你可以用硬币购买一些二极管.
 
 # Quest.968 - Wafers
-gtnh.quest968.name=晶圆
-gtnh.quest968.desc=你可以用硬币购买一些晶圆.
+gtnh.quest968.name=晶元
+gtnh.quest968.desc=你可以用硬币购买一些晶元.
 
 # Quest.969 - Transistors
 gtnh.quest969.name=晶体管
@@ -4074,7 +4074,7 @@ gtnh.quest1017.desc=处理器系列电路板的第二步,HV等级. 你需要用�
 
 # Quest.1018 - §9§lCentral Processing Unit
 gtnh.quest1018.name=§9§l中央处理器(CPU)
-gtnh.quest1018.desc=集成处理器电路板需要CPU. 切割中央处理器晶圆即可生产CPU.%n%n不过生产过程需要在超净间内进行.包括激光蚀刻和切割过程.
+gtnh.quest1018.desc=集成处理器电路板需要CPU. 切割中央处理器晶元即可生产CPU.%n%n不过生产过程需要在超净间内进行.包括激光蚀刻和切割过程.
 
 # Quest.1019 - §9§lSmall Coil
 gtnh.quest1019.name=§9§l小型线圈
@@ -4950,15 +4950,15 @@ gtnh.quest1236.desc=生产NOR、NAND和其他的高端芯片都需要用到HV级
 
 # Quest.1237 - §a§9§lGlowstone Doped Monocrystalline Silicon
 gtnh.quest1237.name=§a§9§l萤石掺杂的单晶硅
-gtnh.quest1237.desc=传统的单晶硅制造方法相当昂贵. 因此我们研发了一种新的单晶硅制造方法,工业高炉通入氮气在不低于2484K的炉温下冶炼硅和萤石的搅拌粉末,这样你就可以得到掺杂了萤石的单晶硅. 这种单晶硅单个能够切割出32片晶圆!%n%n不幸的是,这些单晶硅需要的炉温超过了白铜线圈可以提供的炉温.%n你需要到"多方块结构"任务栏,依次获得超净间、真空冷冻机和坎塔尔线圈,然后你才能烧制单晶硅.%n%n译者注:幸运的是,高炉会随电压,在基础炉温的基础上调整实际炉温. 详情请参考"工业高炉时代"任务.%n%n更高级的单晶硅可以切出更多的晶圆,制成更多的芯片.但某些时候一些低阶单晶硅也是少不了的.
+gtnh.quest1237.desc=传统的单晶硅制造方法相当昂贵. 因此我们研发了一种新的单晶硅制造方法,工业高炉通入氮气在不低于2484K的炉温下冶炼硅和萤石的搅拌粉末,这样你就可以得到掺杂了萤石的单晶硅. 这种单晶硅单个能够切割出32片晶元!%n%n不幸的是,这些单晶硅需要的炉温超过了白铜线圈可以提供的炉温.%n你需要到"多方块结构"任务栏,依次获得超净间、真空冷冻机和坎塔尔线圈,然后你才能烧制单晶硅.%n%n译者注:幸运的是,高炉会随电压,在基础炉温的基础上调整实际炉温. 详情请参考"工业高炉时代"任务.%n%n更高级的单晶硅可以切出更多的晶元,制成更多的芯片.但某些时候一些低阶单晶硅也是少不了的.
 
 # Quest.1238 - §9§lGlowstone Doped Wafer
-gtnh.quest1238.name=§9§l萤石掺杂的晶圆
-gtnh.quest1238.desc=想要将萤石掺杂的单晶硅切割成晶圆需要MV以上的切割机,并且需要保证切割环境绝对无尘. 未来技术更加先进的单晶硅会用到HV以上的切割机!
+gtnh.quest1238.name=§9§l萤石掺杂的晶元
+gtnh.quest1238.desc=想要将萤石掺杂的单晶硅切割成晶元需要MV以上的切割机,并且需要保证切割环境绝对无尘. 未来技术更加先进的单晶硅会用到HV以上的切割机!
 
 # Quest.1239 - §9§lNOR and NAND Chips
 gtnh.quest1239.name=§9§lNOR芯片和NAND芯片
-gtnh.quest1239.desc=NAND芯片可用于制造闪存、数据球和UV电路板.NOR芯片可用于制造数据球和LuV电路板.切割NAND或NOR晶圆即可获得相应的芯片. 虽然目前你可能只用得上闪存.%n要求超净间环境.
+gtnh.quest1239.desc=NAND芯片可用于制造闪存、数据球和UV电路板.NOR芯片可用于制造数据球和LuV电路板.切割NAND或NOR晶元即可获得相应的芯片. 虽然目前你可能只用得上闪存.%n要求超净间环境.
 
 # Quest.1240 - §9§lData Sticks
 gtnh.quest1240.name=§9§l闪存
@@ -4997,8 +4997,8 @@ gtnh.quest1248.name=§a§l纳米处理器
 gtnh.quest1248.desc=这里是纳米系列电路板.它们最大的意义就在于通过前三种,套娃出最后一种电路板,它们都叫同一个名字(在这里就是纳米).
 
 # Quest.1249 - §a§lNanoCPU Wafer and Chip
-gtnh.quest1249.name=§a§l纳米晶圆和CPU
-gtnh.quest1249.desc=纳米CPU晶圆是由CPU晶圆,添加生碳纤维,再与熔融萤石进行反应后得到的一种纳米级CPU晶圆. 切割纳米CPU晶圆就可以得到纳米CPU了.
+gtnh.quest1249.name=§a§l纳米晶元和CPU
+gtnh.quest1249.desc=纳米CPU晶元是由CPU晶元,添加生碳纤维,再与熔融萤石进行反应后得到的一种纳米级CPU晶元. 切割纳米CPU晶元就可以得到纳米CPU了.
 
 # Quest.1250 - §a§lNanoprocessor Array
 gtnh.quest1250.name=§a§l纳米处理器集群
@@ -6682,11 +6682,11 @@ gtnh.quest1669.desc=IV电路组装机可以让你轻松制作MV电路板,以及�
 
 # Quest.1670 - §b§lNaquadah Doped Monocrystalline Silicon
 gtnh.quest1670.name=§b§l硅岩掺杂的单晶硅
-gtnh.quest1670.desc=要制造更先进的晶圆,首先需要制作硅岩掺杂的单晶硅. 该过程需要750秒,并且需要将硅块和硅岩锭放入工业高炉中. 你可以从每个单晶硅中制作64个晶圆.
+gtnh.quest1670.desc=要制造更先进的晶元,首先需要制作硅岩掺杂的单晶硅. 该过程需要750秒,并且需要将硅块和硅岩锭放入工业高炉中. 你可以从每个单晶硅中制作64个晶元.
 
 # Quest.1671 - §b§lNaquadah Doped Wafer
-gtnh.quest1671.name=§b§l硅岩掺杂的晶圆
-gtnh.quest1671.desc=为了制造一些硅岩掺杂的晶圆,将硅岩掺杂的单晶硅置于切割机中. 这种先进的晶圆和芯片需要HV切割机.
+gtnh.quest1671.name=§b§l硅岩掺杂的晶元
+gtnh.quest1671.desc=为了制造一些硅岩掺杂的晶元,将硅岩掺杂的单晶硅置于切割机中. 这种先进的晶元和芯片需要HV切割机.
 
 # Quest.1672 - §b§lPower of the Sun at EV Level
 gtnh.quest1672.name=§b§l太阳之力(EV)
@@ -6717,8 +6717,8 @@ gtnh.quest1678.name=§b§l单步EV电路
 gtnh.quest1678.desc=量子处理器是你在单一工艺中制造EV电路的第一次机会.
 
 # Quest.1679 - §b§lQBit Wafer and Chip
-gtnh.quest1679.name=§b§lQbit晶圆和芯片
-gtnh.quest1679.desc=Qbit晶圆由纳米CPU晶圆、量子之眼配合砷化镓制得,也可以用纳米CPU晶圆、磷化铟镓配合氡制备. 再将其切割,制成Qbit处理器芯片.
+gtnh.quest1679.name=§b§lQbit晶元和芯片
+gtnh.quest1679.desc=Qbit晶元由纳米CPU晶元、量子之眼配合砷化镓制得,也可以用纳米CPU晶元、磷化铟镓配合氡制备. 再将其切割,制成Qbit处理器芯片.
 
 # Quest.1680 - §c§lThought Emitters Were Bad Enough?
 gtnh.quest1680.name=§c§l你觉得发射器已经够糟糕了？
@@ -8165,8 +8165,8 @@ gtnh.quest2040.name=工业焦炉
 gtnh.quest2040.desc=原木堆成了海?把这些原木变成清洁燃烧的木炭吧!%n%n§3这台多方块机器可以在EV阶段制造.%n%nAlso,sorta buggy sometimes.
 
 # Quest.2041 - Americium Doped Wafers
-gtnh.quest2041.name=镅掺杂的晶圆
-gtnh.quest2041.desc=这些晶圆是目前的终极晶圆,也是最有效率的晶圆.
+gtnh.quest2041.name=镅掺杂的晶元
+gtnh.quest2041.desc=这些晶元是目前的终极晶元,也是最有效率的晶元.
 
 # Quest.2042 - So Thirsty 
 gtnh.quest2042.name=太渴了
@@ -10398,7 +10398,7 @@ gtnh.quest2598.desc=你不应该在这里... 我认为如果你是合法解锁�
 
 # Quest.2599 - §4§c§lLuV Energy Hatch
 gtnh.quest2599.name=§4§c§lLuV能源仓
-gtnh.quest2599.desc=想要升级你的多方块结构(然后制作聚变反应堆),你需要制造这些能源仓. 为了聚变,你需要成吨的晶圆,所以要是你的铟产线还没搭好的话可得抓紧了.%n%n需要LuV切割机,多方块也行.
+gtnh.quest2599.desc=想要升级你的多方块结构(然后制作聚变反应堆),你需要制造这些能源仓. 为了聚变,你需要成吨的晶元,所以要是你的铟产线还没搭好的话可得抓紧了.%n%n需要LuV切割机,多方块也行.
 
 # Quest.2600 - §c§lFetch Quests
 gtnh.quest2600.name=§c§l获取任务
@@ -10521,20 +10521,20 @@ gtnh.quest2629.name=UHV能源仓
 gtnh.quest2629.desc=如果你想建造8阶火箭或MK4聚变反应堆,你就需要这种能源仓. 当然,更主要的用途还是升级多方块机器.
 
 # Quest.2630 - Europium Doped Wafers
-gtnh.quest2630.name=铕掺杂的晶圆
-gtnh.quest2630.desc=比硅岩掺杂的晶圆更有效率.
+gtnh.quest2630.name=铕掺杂的晶元
+gtnh.quest2630.desc=比硅岩掺杂的晶元更有效率.
 
 # Quest.2631 - PPIC Wafers
-gtnh.quest2631.name=皮米能量晶圆
-gtnh.quest2631.desc=皮米功率IC用于制造太阳能,UHV->UEV变压器,以及UV能源仓和动力仓.%n%n§3你需要UV切割机,或者工业切割机用于切割晶圆.
+gtnh.quest2631.name=皮米能量晶元
+gtnh.quest2631.desc=皮米功率IC用于制造太阳能,UHV->UEV变压器,以及UV能源仓和动力仓.%n%n§3你需要UV切割机,或者工业切割机用于切割晶元.
 
 # Quest.2632 - Nano Power ICs
 gtnh.quest2632.name=纳米功率IC
-gtnh.quest2632.desc=纳米功率IC用于制造太阳能,UV->UHV变压器,以及ZPM能源仓和动力仓.%n%n§3你需要ZPM切割机,或者工业切割机用于切割晶圆.
+gtnh.quest2632.desc=纳米功率IC用于制造太阳能,UV->UHV变压器,以及ZPM能源仓和动力仓.%n%n§3你需要ZPM切割机,或者工业切割机用于切割晶元.
 
 # Quest.2633 - Quantum Power ICs
 gtnh.quest2633.name=量子功率IC
-gtnh.quest2633.desc=量子功率IC用于制造UEV->UIV和UIV->UMV变压器,以及UHV能源仓和动力仓.%n%n§3你需要一台UHV切割机或是合适电压的多方块机器(工业切割机)来切割晶圆.%n%n%n
+gtnh.quest2633.desc=量子功率IC用于制造UEV->UIV和UIV->UMV变压器,以及UHV能源仓和动力仓.%n%n§3你需要一台UHV切割机或是合适电压的多方块机器(工业切割机)来切割晶元.%n%n%n
 
 # Quest.2634 - A Vision of the Future (FPS Drop Not Included)
 gtnh.quest2634.name=未来掠影(不含FPS下降)
@@ -11322,7 +11322,7 @@ gtnh.quest2829.desc=流体反应堆,还有冰箱核电和扳手反应堆(lol),�
 
 # Quest.2830 - §1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lIV Energy Hatch
 gtnh.quest2830.name=§1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§lIV能源仓
-gtnh.quest2830.desc=为你的多方块机器升级能源同时推进科技发展.%n%n你需要用钒镓合金制造高功率IC晶圆,然后用IV切割机处理(要是你没做工业切割机的话).%n%n§3希望铂系让你玩得开心,lol.
+gtnh.quest2830.desc=为你的多方块机器升级能源同时推进科技发展.%n%n你需要用钒镓合金制造高功率IC晶元,然后用IV切割机处理(要是你没做工业切割机的话).%n%n§3希望铂系让你玩得开心,lol.
 
 # Quest.2831 - Covering Up
 gtnh.quest2831.name=覆盖板通用手册
