@@ -79,9 +79,9 @@ jobs:
       - name: Create PR
         uses: peter-evans/create-pull-request@v4.0.0
         with:
-          title: '[自动化]生成GregTech.lang'
+          title: '[自动化]生成GregTech.lang Closes #${{ github.event.issue.number }}'
           body: |
-            close #${{ github.event.issue.number }}
+            - Closes #${{ github.event.issue.number }}
           labels: |
             自动化:gt
           branch: automation/compare/${{ github.event.issue.number }}

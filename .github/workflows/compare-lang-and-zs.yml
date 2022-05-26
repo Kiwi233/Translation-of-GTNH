@@ -110,9 +110,9 @@ jobs:
       - name: Create PR
         uses: peter-evans/create-pull-request@v4.0.0
         with:
-          title: '[自动化${{ needs.check-and-parse-issue.outputs.new-version }}]生成lang文件与zs文件'
+          title: '[自动化${{ needs.check-and-parse-issue.outputs.new-version }}]生成lang文件与zs文件 Closes #${{ github.event.issue.number }}'
           body: |
-            close #${{ github.event.issue.number }}
+            - Closes #${{ github.event.issue.number }}
             旧版整合包链接: ${{ needs.check-and-parse-issue.outputs.old-modpack-url }}
             新版整合包链接: ${{ needs.check-and-parse-issue.outputs.new-modpack-url }}
             ${{ steps.compare.outputs.duplicate-keys }}
