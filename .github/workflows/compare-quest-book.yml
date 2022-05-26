@@ -77,9 +77,9 @@ jobs:
       - name: Create PR
         uses: peter-evans/create-pull-request@v4.0.0
         with:
-          title: '[自动化]生成任务书lang文件'
+          title: '[自动化]生成任务书lang文件 Closes #${{ github.event.issue.number }}'
           body: |
-            close #${{ github.event.issue.number }}
+            - Closes #${{ github.event.issue.number }}
           labels: |
             自动化:questbook
           branch: automation/compare/${{ github.event.issue.number }}
