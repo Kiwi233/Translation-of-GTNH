@@ -11,11 +11,19 @@ body:
     validations:
       required: true
   - type: input
+    id: old_modpack_name
+    attributes: 
+      label: 旧版整合包文件名
+  - type: input
     id: new_modpack_url
     attributes:
       label: 新版整合包链接
     validations:
       required: true
+  - type: input
+    id: new_modpack_name
+    attributes:
+      label: 新版整合包文件名
   - type: input
     id: reference_branch
     attributes:
