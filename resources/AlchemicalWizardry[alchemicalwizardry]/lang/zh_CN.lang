@@ -256,6 +256,7 @@ bm.string.drain=消耗
 bm.string.tier=层数
 bm.string.crafting.orb.shaped=特定血宝珠合成
 bm.string.crafting.orb.shapeless=不定血宝珠合成
+// +++ //bm.string.ritualDiviner=Radius: %s
 text.recipe.altar=血之祭坛
 text.recipe.altar.tier=层数: %s
 text.recipe.altar.bloodRequired=LP: %s
@@ -264,6 +265,44 @@ nei.recipe.meteor.category=陨星仪式
 nei.recipe.meteor.cost=消耗: %s LP
 nei.recipe.meteor.radius=半径: %s
 nei.recipe.meteor.chance=几率: %s%%
+
+#Rituals
+// +++ //ritual.AW001Water.name=Ritual of the Full Spring
+// +++ //ritual.AW002Lava.name=Serenade of the Nether
+// +++ //ritual.AW003GreenGrove.name=Ritual of the Green Grove
+// +++ //ritual.AW004Interdiction.name=Interdiction Ritual
+// +++ //ritual.AW005Containment.name=Ritual of Containment
+// +++ //ritual.AW006Binding.name=Ritual of Binding
+// +++ //ritual.AW007Unbinding.name=Ritual of Unbinding
+// +++ //ritual.AW008HighJump.name=Ritual of the High Jump
+// +++ //ritual.AW009Magnetism.name=Ritual of Magnetism
+// +++ //ritual.AW010Crusher.name=Ritual of the Crusher
+// +++ //ritual.AW011Speed.name=Ritual of Speed
+// +++ //ritual.AW012AnimalGrowth.name=Ritual of the Shepherd
+// +++ //ritual.AW013Suffering.name=Well of Suffering
+// +++ //ritual.AW014Regen.name=Ritual of Regeneration
+// +++ //ritual.AW015FeatheredKnife.name=Ritual of the Feathered Knife
+// +++ //ritual.AW016FeatheredEarth.name=Ritual of the Feathered Earth
+// +++ //ritual.AW017Gaia.name=Ritual of Gaia's Transformation
+// +++ //ritual.AW018Condor.name=Reverence of the Condor
+// +++ //ritual.AW019FallingTower.name=Mark of the Falling Tower
+// +++ //ritual.AW020BalladOfAlchemy.name=Ballad of Alchemy
+// +++ //ritual.AW021Expulsion.name=Aura of Expulsion
+// +++ //ritual.AW022Supression.name=Dome of Supression
+// +++ //ritual.AW023Zephyr.name=Call of the Zephyr
+// +++ //ritual.AW024Harvest.name=Reap of the Harvest Moon
+// +++ //ritual.AW025Conduit.name=Cry of the Eternal Soul
+// +++ //ritual.AW026Ellipsoid.name=Focus of the Ellipsoid
+// +++ //ritual.AW027Evaporation.name=Song of Evaporation
+// +++ //ritual.AW028SpawnWard.name=Ward of Sacrosanctity
+// +++ //ritual.AW029VeilOfEvil.name=Veil of Evil
+// +++ //ritual.AW030FullStomach.name=Requiem of the Satiated Stomach
+// +++ //ritual.AW031Convocation.name=Convocation of the Damned
+// +++ //ritual.AW032Symmetry.name=Symmetry of the Omega
+// +++ //ritual.AW033Stalling.name=Duet of the Fused Souls
+// +++ //ritual.AW034Crafting.name=Rhythm of the Beating Anvil
+// +++ //ritual.AW035PhantomHands.name=Orchestra of the Phantom Hands
+// +++ //ritual.AW036SphereIsland.name=Blood of the New Moon
 
 #Entities
 entity.AWWayofTime.EarthElemental.name=土之元素精灵
@@ -321,9 +360,9 @@ commands.network.fill.success=成功填充 %s 的LP网络.
 commands.network.cap.help=将指定玩家的LP网络填充到其持有的最高级气血宝珠可以存储的最大值。
 commands.network.cap.success=成功锁定了 %s 的LP网络.
 
-commands.bind.usage=/bloodmagic bind [true|false] [玩家]
+commands.bind.usage=/bloodmagic bind [true|false] [player]
 commands.bind.help=尝试将手持物品绑定(解绑)
-commands.bind.success=绑定成功
+commands.bind.success=Binding successful
 commands.bind.remove.success=解绑成功
 
 commands.orb.usage=/bloodmagic orb [set|get] player [等级]

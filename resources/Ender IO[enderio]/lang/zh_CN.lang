@@ -1243,7 +1243,9 @@ enderio.weatherObelisk.fuelTank=大气通量仓
 
 #Enchants
 enchantment.enderio.soulBound=灵魂绑定
-description.enchantment.enderio.soulBound=该附魔使物品免于死亡掉落
+// --- //description.enchantment.enderio.soulBound=附魔有灵魂绑定的物品/工具/装备在玩家死亡后仍然留在物品栏中,不会掉落.
+// +++ //description.enchantment.enderio.soulBound=Prevents item from being lost on death
+// ↑↑↑ //description.enchantment.enderio.soulBound=When the player dies the item/tool/armor will be kept in the inventory and not drop on the ground.
 
 #Configuration
 enderio.config.title=末影接口配置文件
