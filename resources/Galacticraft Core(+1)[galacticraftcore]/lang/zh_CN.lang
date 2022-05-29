@@ -1,4 +1,4 @@
-# Galacticraft Core Language File = SIMPLIFIED CHINESE
+# Galacticraft Core Language File = UNITED STATES ENGLISH
 
 # GENERAL ITEMS
 item.oxygenTankLightFull.name=轻型氧气罐
@@ -632,7 +632,9 @@ container.oxygensealer.name=气密装置
 container.parachest.name=伞降箱
 container.refinery.name=精炼器
 container.treasurechest.name=珍品箱
-container.lander.name=太空登陆舱
+// --- //container.lander.name=太空登陆舱
+// +++ //container.lander.name=Space Lander
+// ↑↑↑ //container.lander.name=Lander
 container.spaceship.name=1阶火箭
 container.solarbasic.name=基础太阳能板
 container.solaradvanced.name=高级太阳能板
