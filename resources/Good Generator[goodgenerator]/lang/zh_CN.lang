@@ -38,9 +38,9 @@ compactFusionCoil.1.name=压缩聚变线圈方块
 compactFusionCoil.2.name=进阶压缩聚变线圈方块
 compactFusionCoil.3.name=压缩聚变线圈方块MK-II原型
 compactFusionCoil.4.name=压缩聚变线圈方块MK-II
-// +++ //essentiaFilterCasing.0.name=Essentia Filter Casing
-// +++ //essentiaOutputHatch.0.name=Essentia Output Hatch
-// +++ //essentiaOutputHatch_ME.0.name=Essentia Output Hatch (ME)
+essentiaFilterCasing.0.name=源质过滤机械方块
+essentiaOutputHatch.0.name=源质输出仓
+essentiaOutputHatch_ME.0.name=源质输出仓(ME)
 
 #Items
 item.radiationProtectionPlate.name=防辐射板
@@ -140,8 +140,8 @@ huiCircuit.tooltip.1=§e76M处理单元§r
 huiCircuit.tooltip.2=§a无效RSA算法§r
 huiCircuit.tooltip.3=§c第56梅森素数§r
 huiCircuit.tooltip.4=§5佯谬§r
-// +++ //EssentiaOutputHatch.tooltip.0=Right click it with empty hands to clear the container.
-// +++ //EssentiaOutputHatch.tooltip.1=Capacity:
+EssentiaOutputHatch.tooltip.0=空手右键以清空容器.
+EssentiaOutputHatch.tooltip.1=容量：
 
 #Fluids
 fluid.lightlyCrackedNaquadahGas=轻度裂化硅岩气
@@ -209,17 +209,17 @@ fluid.Low Quality Naquadria Sulphate=低纯硫酸超能硅岩
 fluid.Naquadah Goo=硅岩粘浆
 fluid.Enriched Naquadah Goo=富集硅岩粘浆
 fluid.Naquadria Goo=超能硅岩粘浆
-// +++ //fluid.Diethylamine=Diethylamine
-// +++ //fluid.Cyclopentadiene=Cyclopentadiene
-// +++ //fluid.Jet Fuel No.3=Jet Fuel No.3
-// +++ //fluid.Ferrocene Solution=Ferrocene Solution
-// +++ //fluid.Impure Ferrocene Mixture=Impure Ferrocene Mixture
-// +++ //fluid.Ethanol Gasoline=Ethanol Gasoline
-// +++ //fluid.Iron II Chloride=Iron II Chloride
-// +++ //fluid.Low Quality Naquadah Solution=Low Quality Naquadah Solution
-// +++ //fluid.Ferrocene Waste=Ferrocene Waste
-// +++ //fluid.Jet Fuel A=Jet Fuel A
-// +++ //fluid.Thorium Tetrachloride=Thorium Tetrachloride
+fluid.Diethylamine=二乙胺
+fluid.Cyclopentadiene=环戊二烯
+fluid.Jet Fuel No.3=航空煤油#3
+fluid.Ferrocene Solution=二茂铁溶液
+fluid.Impure Ferrocene Mixture=不纯二茂铁混合物
+fluid.Ethanol Gasoline=乙醇汽油
+fluid.Iron II Chloride=氯化亚铁
+fluid.Low Quality Naquadah Solution=低纯硅岩溶液
+fluid.Ferrocene Waste=二茂铁废水
+fluid.Jet Fuel A=航空煤油A
+fluid.Thorium Tetrachloride=四氯化钍
 
 #Fluid Tiles
 tile.lightlyCrackedNaquadahGas.name=轻度裂化硅岩气
@@ -391,14 +391,14 @@ LargeFusion5.hint.5=2 - 输出仓
 LargeFusion5.hint.6=3 - 能源仓
 LargeFusion5.hint.7=所有仓室必须为UEV以上
 LargeFusion5.hint.8=支持TecTech能源仓.
-// +++ //LargeEssentiaSmeltery.hint.0=At least 24x Magic Casings
-// +++ //LargeEssentiaSmeltery.hint.1=At least 12x Essentia Diffusion Cells
-// +++ //LargeEssentiaSmeltery.hint.2=At least 3x Advanced Alchemical Furnace Blocks
-// +++ //LargeEssentiaSmeltery.hint.3=At least 3x Essentia Filter Casings
-// +++ //LargeEssentiaSmeltery.hint.4=0 - Air
-// +++ //LargeEssentiaSmeltery.hint.5=1 - Basic Hatch/Magic Casing
-// +++ //LargeEssentiaSmeltery.hint.6=2 - Muffler Hatch
-// +++ //LargeEssentiaSmeltery.hint.7=Support TecTech Hatches.
+LargeEssentiaSmeltery.hint.0=24x魔法机械方块(至少！)
+LargeEssentiaSmeltery.hint.1=12x源质扩散单元(至少！)
+LargeEssentiaSmeltery.hint.2=3x高级炼金炉(至少！)
+LargeEssentiaSmeltery.hint.3=3x源质过滤机械方块(至少！)
+LargeEssentiaSmeltery.hint.4=0 - 空气
+LargeEssentiaSmeltery.hint.5=1 - 基础仓室/魔法机械方块
+LargeEssentiaSmeltery.hint.6=2 - 消声仓
+LargeEssentiaSmeltery.hint.7=支持TecTech能源仓.
 
 #Chat
 largeessentiagenerator.chat= 已安装!
@@ -410,7 +410,7 @@ yottank.chat.0=清空锁定过滤器
 yottank.chat.1=锁定为 %s
 preciseassembler.chat.0=精密模式
 preciseassembler.chat.1=普通模式
-// +++ //essentiaoutputhatch.chat.0=Cleared.
+essentiaoutputhatch.chat.0=已清空.
 
 #Achievement
 achievement.gt.blockmachines.nag=大型硅岩反应堆
@@ -487,7 +487,7 @@ research.ESSENTIA_UPGRADE_RADIATION.page.1=可用源质:<BR><BR>Radio:238000EU;�
 research.ESSENTIA_UPGRADE_RADIATION.page.2=可选流体:<BR><BR>熔融铯:效率:x2.0<BR><BR>熔融铀-235:效率:x3.0<BR><BR>熔融硅岩:效率:x4.0<BR><BR>熔融原子分离催化剂:效率:x16.0
 research.ESSENTIA_UPGRADE_ELECTRIC.page.0=ELECTRUM源质本身就代表了电力!<BR><BR>发电机的动力仓电压越高,ELECTRUM源质被越强的电势差影响,发电量就越高.
 research.ESSENTIA_UPGRADE_ELECTRIC.page.1=可用源质:Electrum<BR><BR>能量公式:<BR>8x(3.0^动力仓等级)EU
-// +++ //research.ESSENTIA_SMELTERY.page.0=The Advanced Alchemical Furnace is no longer enough to support your Essentia production...<BR><BR>The LES(Large Elemental Smelter) is an advanced version of the Advanced Alchemical Furnace, which consumes electricity and cent-vis to smelt Essentia.
-// +++ //research.ESSENTIA_SMELTERY.page.1=Ignis and Aqua are the basic conditions for the operation of LES. The minimum demand is about the highest Energy Hatch tier^2*1.15cv/work, and the machine can run only after it is satisfied.<BR><BR>Ordo affects the pollution and the generation of Flux Gas (randomly exhaust Flux Gas at the facing of the muffler when smelting Essentia).<BR><BR>Perditio can speed up machine work, up to 200% (100cv/5t).
-// +++ //research.ESSENTIA_SMELTERY.page.2=The Essentia Diffusion Cell tier and structure size only affect the machine parallel, and the max parallel is 64x.<BR><BR>Items without Essentia will be smelted to 1 point of perditio.
-// +++ //research.ESSENTIA_OUTPUT_HATCH_ME.page.0=Someday you will use it...<BR><BR>Be sure to connect to the network. It has no cache!
+research.ESSENTIA_SMELTERY.page.0=荒古炼金炉已经不足以支撑你的源质生产了...<BR><BR>大型源质冶炼厂(LES)是荒古炼金炉的进阶版,消耗EU和CV(centi-vis,厘魔,百分之一魔力),用以冶炼源质.
+research.ESSENTIA_SMELTERY.page.1=Ignis与Aqua是LES运行的基本条件,最低需求约为最高能源仓等级^2*1.15CV/每次工作,满足后机器才能运行.<BR><BR>Ordo影响污染、咒波瓦斯生成概率(冶炼源质时随机在消声仓仓口排出咒波瓦斯).<BR><BR>Perditio可以加速机器工作,最高200%(100CV/5t).
+research.ESSENTIA_SMELTERY.page.2=扩散单元等级及结构大小仅影响机器并行,最大并行为64x.<BR><BR>不含源质的物品会冶炼出1点perditio.
+research.ESSENTIA_OUTPUT_HATCH_ME.page.0=总有一天你会用到它...<BR><BR>请务必连接网络使用,它没有缓存！
