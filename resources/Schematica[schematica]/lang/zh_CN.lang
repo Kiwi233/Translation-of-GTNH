@@ -68,52 +68,52 @@ schematica.config.drawLines=绘制轮廓
 schematica.config.drawLines.tooltip=绘制轮廓.
 
 # gui - config - printer
-schematica.config.placeDelay=Placement Delay
-schematica.config.placeDelay.tooltip=Delay between placement attempts (in ticks).
-schematica.config.timeout=Timeout
-schematica.config.timeout.tooltip=Timeout before re-trying failed blocks.
-schematica.config.placeInstantly=Place Instantly
-schematica.config.placeInstantly.tooltip=Place all blocks that can be placed in one tick.
-schematica.config.destroyBlocks=Destroy Blocks
-schematica.config.destroyBlocks.tooltip=The printer will destroy blocks (creative mode only).
-schematica.config.destroyInstantly=Destroy Instantly
-schematica.config.destroyInstantly.tooltip=Destroy all blocks that can be destroyed in one tick.
-schematica.config.placeAdjacent=Place Only Adjacent
-schematica.config.placeAdjacent.tooltip=Place blocks only if there is an adjacent block next to them.
+schematica.config.placeDelay=放置延迟
+schematica.config.placeDelay.tooltip=放置尝试之间的延迟(单位tick).
+schematica.config.timeout=暂停
+schematica.config.timeout.tooltip=再尝试失败方块之前的暂停时间.
+schematica.config.placeInstantly=立即放置
+schematica.config.placeInstantly.tooltip=在1tick之内放置所有可放置方块.
+schematica.config.destroyBlocks=破坏方块
+schematica.config.destroyBlocks.tooltip=投影将可以破坏方块(创造模式专用).
+schematica.config.destroyInstantly=立即破坏
+schematica.config.destroyInstantly.tooltip=在1tick之内破坏所有可破坏方块.
+schematica.config.placeAdjacent=仅相邻放置
+schematica.config.placeAdjacent.tooltip=仅当旁边有一个相邻方块时,方可放置方块.
 
 # gui - config - printer - swap slots
-schematica.config.swapSlot0=Allow Slot 1
-schematica.config.swapSlot0.tooltip=Allow the printer to use the hotbar slot 1.
-schematica.config.swapSlot1=Allow Slot 2
-schematica.config.swapSlot1.tooltip=Allow the printer to use the hotbar slot 2.
-schematica.config.swapSlot2=Allow Slot 3
-schematica.config.swapSlot2.tooltip=Allow the printer to use the hotbar slot 3.
-schematica.config.swapSlot3=Allow Slot 4
-schematica.config.swapSlot3.tooltip=Allow the printer to use the hotbar slot 4.
-schematica.config.swapSlot4=Allow Slot 5
-schematica.config.swapSlot4.tooltip=Allow the printer to use the hotbar slot 5.
-schematica.config.swapSlot5=Allow Slot 6
-schematica.config.swapSlot5.tooltip=Allow the printer to use the hotbar slot 6.
-schematica.config.swapSlot6=Allow Slot 7
-schematica.config.swapSlot6.tooltip=Allow the printer to use the hotbar slot 7.
-schematica.config.swapSlot7=Allow Slot 8
-schematica.config.swapSlot7.tooltip=Allow the printer to use the hotbar slot 8.
-schematica.config.swapSlot8=Allow Slot 9
-schematica.config.swapSlot8.tooltip=Allow the printer to use the hotbar slot 9.
+schematica.config.swapSlot0=允许1号格
+schematica.config.swapSlot0.tooltip=允许投影使用快捷栏1号格.
+schematica.config.swapSlot1=允许2号格
+schematica.config.swapSlot1.tooltip=允许投影使用快捷栏2号格.
+schematica.config.swapSlot2=允许3号格
+schematica.config.swapSlot2.tooltip=允许投影使用快捷栏3号格.
+schematica.config.swapSlot3=允许4号格
+schematica.config.swapSlot3.tooltip=允许投影使用快捷栏4号格.
+schematica.config.swapSlot4=允许5号格
+schematica.config.swapSlot4.tooltip=允许投影使用快捷栏5号格.
+schematica.config.swapSlot5=允许6号格
+schematica.config.swapSlot5.tooltip=允许投影使用快捷栏6号格.
+schematica.config.swapSlot6=允许7号格
+schematica.config.swapSlot6.tooltip=允许投影使用快捷栏7号格.
+schematica.config.swapSlot7=允许8号格
+schematica.config.swapSlot7.tooltip=允许投影使用快捷栏8号格.
+schematica.config.swapSlot8=允许9号格
+schematica.config.swapSlot8.tooltip=允许投影使用快捷栏9号格.
 
 # gui - config - general
-schematica.config.schematicDirectory=Schematic Directory
-schematica.config.schematicDirectory.tooltip=Schematic directory.
-schematica.config.extraAirBlocks=Extra Air Blocks
-schematica.config.extraAirBlocks.tooltip=Extra blocks to consider as air for the schematic renderer.
+schematica.config.schematicDirectory=Schematic目录
+schematica.config.schematicDirectory.tooltip=Schematic目录.
+schematica.config.extraAirBlocks=额外空气方块
+schematica.config.extraAirBlocks.tooltip=要视为空气的Schematic渲染额外方块.
 
 # gui - config - server
-schematica.config.printerEnabled=Allow Printer
-schematica.config.printerEnabled.tooltip=Allow players to use the printer.
-schematica.config.saveEnabled=Allow Saving
-schematica.config.saveEnabled.tooltip=Allow players to save schematics.
-schematica.config.loadEnabled=Allow Loading
-schematica.config.loadEnabled.tooltip=Allow players to load schematics.
+schematica.config.printerEnabled=启用投影
+schematica.config.printerEnabled.tooltip=允许玩家使用投影.
+schematica.config.saveEnabled=启用保存
+schematica.config.saveEnabled.tooltip=允许玩家保存schematics.
+schematica.config.loadEnabled=启用加载
+schematica.config.loadEnabled.tooltip=允许玩家加载schematics.
 
 # keys
 schematica.key.category=Schematica
@@ -125,30 +125,30 @@ schematica.key.layerDec=上一层
 
 # commands - save
 schematica.command.save.usage=/schematicaSave <startX> <startY> <startZ> <endX> <endY> <endZ> <name>
-schematica.command.save.playersOnly=This command can only be used by players.
-schematica.command.save.started=Started saving %d chunks into %s.
-schematica.command.save.saveSucceeded=Successfully saved %s.
-schematica.command.save.saveFailed=There was a problem saving the schematic %s.
-schematica.command.save.quotaExceeded=You have exceeded your quota on the server. Please use /schematicaList and /schematicaRemove to remove some old schematics.
-schematica.command.save.playerSchematicDirUnavailable=There was a problem on the server and your schematic was not saved. Please contact the server administrator.
+schematica.command.save.playersOnly=此指令只能由玩家使用.
+schematica.command.save.started=开始将 %d 区块保存至 %s.
+schematica.command.save.saveSucceeded=成功保存 %s.
+schematica.command.save.saveFailed=保存schematic %s 时遇到问题.
+schematica.command.save.quotaExceeded=你已经超出了服务器配额. 请使用/schematicaList 和/schematicaRemove 指令移除一些旧schematics.
+schematica.command.save.playerSchematicDirUnavailable=服务器遇到一个问题, 你的schematic未能保存. 请联系服务器管理员.
 
 # commands - list
 schematica.command.list.usage=/schematicaList [page]
-schematica.command.list.notAvailable=There was a problem retrieving your list of schematics.
-schematica.command.list.remove=Remove
-schematica.command.list.download=Download
-schematica.command.list.header=--- Showing schematics page %d of %d ---
-schematica.command.list.noSuchPage=No such page
-schematica.command.list.noSchematics=You have no schematics available.
+schematica.command.list.notAvailable=检索你的schematics列表时遇到问题.
+schematica.command.list.remove=移除
+schematica.command.list.download=下载
+schematica.command.list.header=--- 显示中schematics第%d页,共%d页 ---
+schematica.command.list.noSuchPage=无此页
+schematica.command.list.noSchematics=没有可用schematics.
 
 # commands - remove
 schematica.command.remove.usage=/schematicaRemove <name>
-schematica.command.remove.schematicRemoved=Schematic "%s" removed.
-schematica.command.remove.schematicNotFound=Schematic "%s" could not be found.
-schematica.command.remove.areYouSure=Are you sure?
+schematica.command.remove.schematicRemoved=已移除Schematic "%s".
+schematica.command.remove.schematicNotFound=找不到Schematic "%s".
+schematica.command.remove.areYouSure=你确定?
 
 # commands - download
 schematica.command.download.usage=/schematicaDownload <name>
-schematica.command.download.started=Started downloading %s...
-schematica.command.download.downloadSucceeded=Successfully downloaded %s.
-schematica.command.download.downloadFail=Download failed.
+schematica.command.download.started=开始下载 %s...
+schematica.command.download.downloadSucceeded=%s 下载成功.
+schematica.command.download.downloadFail=下载失败.
