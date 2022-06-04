@@ -490,13 +490,13 @@ mods.thaumcraft.Arcane.addShaped("ALTAR", <witchery:altar> * 2, "terra 20, ignis
 mods.thaumcraft.Research.addArcanePage("ALTAR", <witchery:altar>);
 mods.thaumcraft.Warp.addToResearch("ALTAR", 2);
 
-
 // --- Chalice
 mods.thaumcraft.Research.addResearch("CHALICE", "WITCHERY", "praecantatio 15, lucrum 12, metallum 9, terra 6", 0, 0, 4, <witchery:ingredient:1>);
 game.setLocalization("tc.research_name.CHALICE", "\u5723\u9910\u676f");
 game.setLocalization("tc.research_text.CHALICE", "[WI](\u309c-\u309c)\u3064\u30ed\u5e72\u676f~");
 mods.thaumcraft.Research.addPrereq("CHALICE", "ALTAR", false);
 mods.thaumcraft.Research.addPrereq("CHALICE", "ATTUNEDSTONE", false);
+mods.thaumcraft.Research.setConcealed("CHALICE", true);
 mods.thaumcraft.Research.addPage("CHALICE", "Witchery.research_page.CHALICE");
 game.setLocalization("Witchery.research_page.CHALICE", "\u5723\u9910\u676f\u662f\u796d\u575b\u5347\u7ea7\u7528\u54c1,\u53ef\u63d0\u5347\u796d\u575b\u80fd\u91cf\u4e0a\u9650.
 \u5723\u9910\u676f\u53ef\u589e\u52a0\u4e00\u500d\u7684\u796d\u575b\u80fd\u91cf\u4e0a\u9650(\u539f\u6709\u6570\u503c).

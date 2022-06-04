@@ -224,6 +224,7 @@ gui.appliedenergistics2.NoCraftingCPUs=没有可用的合成CPU...
 gui.appliedenergistics2.CalculatingWait=正在计算,请等待...
 gui.appliedenergistics2.Clean=清空
 gui.appliedenergistics2.InvalidPattern=无效样板
+gui.appliedenergistics2.UnknownItem=未知物品
 gui.appliedenergistics2.Range=范围
 gui.appliedenergistics2.TransparentFacades=透明的伪装板
 gui.appliedenergistics2.TransparentFacadesHint=控制当网络工具放在快捷栏时,伪装板显示的透明度.
@@ -254,7 +255,7 @@ gui.tooltips.appliedenergistics2.SubstitutionsDescDisabled=禁用输入组件替
 gui.tooltips.appliedenergistics2.PatternSlotConfigTitle=切换终端模式
 gui.tooltips.appliedenergistics2.PatternSlotConfigInfo=在(16 -> 4)和(4 -> 16)之间切换样板模式
 gui.tooltips.appliedenergistics2.Encode=编码样板
-gui.tooltips.appliedenergistics2.EncodeDescription=将输入的样板写入当前编码样板,或可用的空样板.按住Shift使样板直接进入物品栏
+gui.tooltips.appliedenergistics2.EncodeDescription=将输入的样板写入当前编码样板或可用的空样板;按住Shift使样板直接进入物品栏;按住Ctrl+Shift以编码整组样板.
 
 gui.tooltips.appliedenergistics2.FuzzyMode=模糊对比
 gui.tooltips.appliedenergistics2.FZPercent_25=25%时分离损耗
@@ -366,9 +367,20 @@ gui.tooltips.appliedenergistics2.ToggleMolecularAssemblersDescOn=仅显示分子
 gui.tooltips.appliedenergistics2.ToggleShowFullInterfaces=切换显示满样板接口
 gui.tooltips.appliedenergistics2.ToggleShowFullInterfacesOnDesc=显示所有接口
 gui.tooltips.appliedenergistics2.ToggleShowFullInterfacesOffDesc=仅显示有空缺的接口
+gui.tooltips.appliedenergistics2.ToggleShowOnlyInvalidInterface=切换显示无效样板接口
+gui.tooltips.appliedenergistics2.ToggleShowOnlyInvalidInterfaceOnDesc=显示所有接口
+gui.tooltips.appliedenergistics2.ToggleShowOnlyInvalidInterfaceOffDesc=进现实有无效样板的接口
 gui.tooltips.appliedenergistics2.HighlightInterface=高亮接口
-gui.tooltips.appliedenergistics2.SearchFieldInputs=输入OR名
-gui.tooltips.appliedenergistics2.SearchFieldOutputs=输出OR名
+gui.tooltips.appliedenergistics2.SearchFieldInputs=样板输入物品
+gui.tooltips.appliedenergistics2.SearchFieldOutputs=样板输出物品
+gui.tooltips.appliedenergistics2.SearchFieldNames=接口名
+
+gui.tooltips.appliedenergistics2.InsertionModeDefault=默认输出模式
+gui.tooltips.appliedenergistics2.InsertionModeDefaultDesc=从前到后,倾向于堆叠
+gui.tooltips.appliedenergistics2.InsertionModePreferEmpty=优先向空槽输出
+gui.tooltips.appliedenergistics2.InsertionModePreferEmptyDesc=类似默认模式,但优先向空槽输出
+gui.tooltips.appliedenergistics2.InsertionModeOnlyEmpty=只向空槽输出
+gui.tooltips.appliedenergistics2.InsertionModeOnlyEmptyDesc=从前到后,不堆叠
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
@@ -581,6 +593,8 @@ commands.ae2.ProfilerGridDown=该网格离线
 commands.ae2.ProfilerStop=该网络每t平均延时(纳秒):
 commands.ae2.ProfilerFailedDim=未知世界
 commands.ae2.ToggleFullAccess=开关OP无视安全终端AE完全访问权限
+commands.ae2.ToggleDebugTiming=开关tick管理器debug日志
+commands.ae2.ToggleDebugPathfinding=开关寻路debug日志
 
 # Achievements
 achievement.ae2.Compass=陨石猎手
@@ -642,4 +656,3 @@ stat.ae2.TurnedCranks=转动曲柄
 # Keys
 key.appliedenergistics2.category=应用能源2
 key.toggle_focus.desc=切换是否选中搜索框
-

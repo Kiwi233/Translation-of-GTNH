@@ -31,7 +31,8 @@ tooltip.detrav.scanner.range=勘探范围(区块)：
 tooltip.detrav.scanner.usage.0=右键岩石方块以勘探当前区块!
 tooltip.detrav.scanner.usage.1=右键基岩以勘探地下流体!
 tooltip.detrav.scanner.usage.2=右键空气进行全范围扫描!
-tooltip.detrav.scanner.usage.3=双击任何条目以反转背景颜色!
+tooltip.detrav.scanner.usage.3=Shift+右键空气以切换模式
+tooltip.detrav.scanner.usage.4=双击任何条目以反转背景颜色!
 tooltip.detrav.scanner.success.chance=扫描成功几率：
 tooltip.detrav.scanner.distance.0=在你旁边(距离0区块), 离你很近(1-2)
 tooltip.detrav.scanner.distance.1=中等距离(3-5), 长距离(6-8), 很远(9+)
@@ -42,4 +43,3 @@ gui.detrav.scanner.unknown_fluid=未知流体!
 gui.detrav.scanner.tooltip.fluid_name=流体名：
 gui.detrav.scanner.tooltip.fluid_amount=流体储量：
 gui.detrav.scanner.tooltip.no_fluid=空
-

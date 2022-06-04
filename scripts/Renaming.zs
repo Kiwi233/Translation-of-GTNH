@@ -54,4 +54,3 @@
 // --- Creative Energy Cell ---
 <EnderIO:blockCapBank>.withTag({type: "CREATIVE", storedEnergyRF: 2500000}).displayName = "\u6df7\u6c8c\u7535\u5bb9\u5e93";
 <EnderIO:blockCapBank>.withTag({type: "CREATIVE", storedEnergyRF: 2500000}).addTooltip(format.lightPurple("\u65e0\u5c3d\u7684\u80fd\u91cf"));
-

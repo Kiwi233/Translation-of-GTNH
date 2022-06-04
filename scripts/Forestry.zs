@@ -612,7 +612,7 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000,
 <minecraft:fence>, <minecraft:wooden_slab:*>, <minecraft:fence>], 
 <Forestry:frameImpregnated>, <Forestry:apiculture>);
 
-// --- Apiarist's Chest'
+// --- Apiarist's Chest
 mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 1000, 
 [<Forestry:beeCombs:*>, <Forestry:beeCombs:*>, <Forestry:beeCombs:*>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
@@ -625,7 +625,7 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 1000,
 <Forestry:crate>, <gregtech:gt.metaitem.01:27305>, <Forestry:crate>], 
 <minecraft:chest>, <Forestry:apicultureChest>);
 
-// --- Arborist's Chest'
+// --- Arborist's Chest
 mods.forestry.Carpenter.addRecipe(60, <liquid:seedoil> * 1000, 
 [<Forestry:sapling:*>, <Forestry:sapling:*>, <Forestry:sapling:*>, 
 <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, <gregtech:gt.metaitem.01:32403>, 
@@ -687,7 +687,6 @@ mods.forestry.Carpenter.addRecipe(60, <liquid:for.honey> * 5000,
 <Forestry:alveary>, <Forestry:alveary:7>);
 
 // --- Beealyzer
-
 mods.forestry.Carpenter.addRecipe(<Forestry:beealyzer>, 
 [[<gregtech:gt.metaitem.01:27500>, <gregtech:gt.metaitem.02:18057>, <gregtech:gt.metaitem.01:27500>], 
 [<gregtech:gt.metaitem.02:18057>, <ore:circuitBasic>, <gregtech:gt.metaitem.02:18057>], 

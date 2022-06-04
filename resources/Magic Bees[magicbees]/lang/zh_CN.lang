@@ -1,4 +1,4 @@
-language.name=Chinese
+language.name=简体中文
 language.region=CN
 language.code=zh_CN
 
@@ -524,11 +524,11 @@ binniecore.allele.magicbees.effectVisRecharge.desc=为灵气节点充能
 magicbees.effectNodeEmpower=强充能
 binniecore.allele.magicbees.effectNodeEmpower.desc=永久提高灵气节点的能量
 magicbees.effectNodeRepair=放大
-binniecore.allele.magicbees.effectNodeEmpower.desc=给灵气节点带来活力
+binniecore.allele.magicbees.effectNodeRepair.desc=给灵气节点带来活力
 magicbees.effectNodeTainting=腐化
-binniecore.allele.magicbees.effectNodeEmpower.desc=污染灵气节点
+binniecore.allele.magicbees.effectNodeTainting.desc=污染灵气节点
 magicbees.effectNodePurifying=净化
-binniecore.allele.magicbees.effectNodeEmpower.desc=净化灵气节点
+binniecore.allele.magicbees.effectNodePurifying.desc=净化灵气节点
 magicbees.effectNodeRavening=掠夺
 binniecore.allele.magicbees.effectNodeEmpower.desc=以非正常的方式,让节点更加饥饿
 magicbees.effectBrainy=怒尸
@@ -544,7 +544,7 @@ binniecore.allele.magicbees.effectSpidery.desc=随机生成蜘蛛
 magicbees.effectAblaze=火光
 binniecore.allele.magicbees.effectAblaze.desc=随机生成烈焰人
 magicbees.effectCanine=嚎叫
-binniecore.allele.magicbees.effectCurative.desc=随机生成狼
+binniecore.allele.magicbees.effectCanine.desc=随机生成狼
 magicbees.effectManaDrainer=漩涡
 binniecore.allele.magicbees.effectManaDrainer.desc=随机生成魔力爬行者
 magicbees.effectAMWisp=魂灵
@@ -709,4 +709,3 @@ magicbees.botania.lexicon.hibeescus.crafting=仅为居心不良者使用。
 
 magicbees.botania.lexicon.manaBooster.0=魔力蜂箱是一种非常自然的 让蜜蜂加快工作速度的方式， 但它也有一点...局限。 <br>幸运的是，活石和花瓣的特性 使得它们可以偶尔为蜜蜂充 能，从而使蜜蜂们更高产。 只需向&1魔力蜂箱加速器&0持续 提供魔力，它们就可以一直让 蜜蜂们保持高产状态。
 magicbees.botania.lexicon.manaBooster.crafting=充满魔力的蜂群中!
-

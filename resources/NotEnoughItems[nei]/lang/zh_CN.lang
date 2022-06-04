@@ -66,6 +66,7 @@ nei.chat.rain.on=开启雨雪
 nei.chat.rain.off=关闭雨雪
 nei.chat.time=白天 %d. %d:00
 nei.chat.give.noitem=没有此物品
+nei.chat.recipe.error=加载合成表过程中出现错误.请查看log文件获取详细信息.
 
 nei.options=NEI选项
 nei.options.back=后退
@@ -77,7 +78,7 @@ nei.options.wbutton.tip.0=使用全局设置
 nei.options.wbutton.tip.1=覆写全局设置
 
 nei.options.keys=按键绑定
-nei.options.keys.showenchant=显示附魔
+nei.options.keys.showenchant=显示附魔值
 nei.options.keys.gui=物品栏
 nei.options.keys.gui.recipe=查看合成
 nei.options.keys.gui.usage=查看用途
@@ -94,6 +95,7 @@ nei.options.keys.gui.prev_machine=上一机器
 nei.options.keys.gui.search=跳转到搜索框
 nei.options.keys.gui.bookmark=添加书签
 nei.options.keys.gui.hide_bookmarks=显示/隐藏书签页
+nei.options.keys.gui.overlay=提取合成表至合成栏/工作台
 nei.options.keys.world=世界
 nei.options.keys.world.chunkoverlay=区块(chunks)边界显示
 nei.options.keys.world.moboverlay=刷怪区域显示
@@ -132,6 +134,9 @@ nei.options.inventory.saveCurrentRecipeInBookmarksEnabled.false=禁用
 nei.options.inventory.useNBTInBookmarks=在书签中启用NBT
 nei.options.inventory.useNBTInBookmarks.true=是
 nei.options.inventory.useNBTInBookmarks.false=否
+nei.options.inventory.showRecipeMarker=在书签栏显示合成产物标记
+nei.options.inventory.showRecipeMarker.true=是
+nei.options.inventory.showRecipeMarker.false=否
 nei.options.inventory.creative_tab_style=创造模式/JEI标签页
 nei.options.inventory.creative_tab_style.true=创造模式
 nei.options.inventory.creative_tab_style.false=JEI
@@ -174,6 +179,9 @@ nei.options.inventory.disableMouseScrollTransfer.false=关闭
 nei.options.inventory.invertMouseScrollTransfer=反转鼠标滚轮方向
 nei.options.inventory.invertMouseScrollTransfer.true=开启
 nei.options.inventory.invertMouseScrollTransfer.false=关闭
+nei.options.inventory.cacheItemRendering=缓存物品渲染
+nei.options.inventory.cacheItemRendering.true=开启
+nei.options.inventory.cacheItemRendering.false=关闭
 
 nei.options.command=指令
 nei.options.command.creative=游戏模式
@@ -191,6 +199,8 @@ nei.options.world.highlight_tips=高亮显示
 nei.options.world.highlight_tips.hide=隐藏
 nei.options.world.highlight_tips.show=显示
 nei.options.world.highlight_tips.sample=样本
+
+nei.options.world.panels=面板布局
 
 nei.options.tools=工具
 nei.options.tools.handler_load_from_config=从Config加载handler(加工所使用的机器类别)

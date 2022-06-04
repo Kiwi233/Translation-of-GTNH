@@ -34,18 +34,86 @@ schematica.gui.materialdump=保存到文件
 schematica.gui.printer=投影
 
 # gui - config - categories
+schematica.config.category.debug=Debug
+schematica.config.category.debug.tooltip=Debug/开发者设置.\n如果你不清楚自己在做什么,请勿点击.
+schematica.config.category.render=渲染
+schematica.config.category.render.tooltip=渲染相关设置.
+schematica.config.category.printer=投影
+schematica.config.category.printer.tooltip=投影相关设置.
+schematica.config.category.printer.swapslots=快捷栏
+schematica.config.category.printer.swapslots.tooltip=允许投影使用非空快捷栏.
+schematica.config.category.general=常规
+schematica.config.category.general.tooltip=常规设置.
+schematica.config.category.server=服务端
+schematica.config.category.server.tooltip=服务端设置.
 
 # gui - config - debug
+schematica.config.showDebugInfo=显示Debug信息
+schematica.config.showDebugInfo.tooltip=在debug界面(F3)显示额外信息.
 
 # gui - config - render
+schematica.config.alphaEnabled=启用Alpha
+schematica.config.alphaEnabled.tooltip=启用透明材质.
+schematica.config.alpha=Alpha
+schematica.config.alpha.tooltip=渲染Schematic时的Alpha值(1.0 = 不透明, 0.5 = 半透明, 0.0 = 透明).
+schematica.config.highlight=高亮方块
+schematica.config.highlight.tooltip=高亮显示已放置的无效方块和要放置的方块.
+schematica.config.highlightAir=高亮空气
+schematica.config.highlightAir.tooltip=高亮显示必须留空的方块.
+schematica.config.blockDelta=方块Delta
+schematica.config.blockDelta.tooltip=高亮的Delta值(如果遇到了斑驳(z-fighting),请提升Delta值).
+schematica.config.drawQuads=绘制表面
+schematica.config.drawQuads.tooltip=绘制表面.
+schematica.config.drawLines=绘制轮廓
+schematica.config.drawLines.tooltip=绘制轮廓.
 
 # gui - config - printer
+schematica.config.placeDelay=放置延迟
+schematica.config.placeDelay.tooltip=放置尝试之间的延迟(单位tick).
+schematica.config.timeout=暂停
+schematica.config.timeout.tooltip=再尝试失败方块之前的暂停时间.
+schematica.config.placeInstantly=立即放置
+schematica.config.placeInstantly.tooltip=在1tick之内放置所有可放置方块.
+schematica.config.destroyBlocks=破坏方块
+schematica.config.destroyBlocks.tooltip=投影将可以破坏方块(创造模式专用).
+schematica.config.destroyInstantly=立即破坏
+schematica.config.destroyInstantly.tooltip=在1tick之内破坏所有可破坏方块.
+schematica.config.placeAdjacent=仅相邻放置
+schematica.config.placeAdjacent.tooltip=仅当旁边有一个相邻方块时,方可放置方块.
 
 # gui - config - printer - swap slots
+schematica.config.swapSlot0=允许1号格
+schematica.config.swapSlot0.tooltip=允许投影使用快捷栏1号格.
+schematica.config.swapSlot1=允许2号格
+schematica.config.swapSlot1.tooltip=允许投影使用快捷栏2号格.
+schematica.config.swapSlot2=允许3号格
+schematica.config.swapSlot2.tooltip=允许投影使用快捷栏3号格.
+schematica.config.swapSlot3=允许4号格
+schematica.config.swapSlot3.tooltip=允许投影使用快捷栏4号格.
+schematica.config.swapSlot4=允许5号格
+schematica.config.swapSlot4.tooltip=允许投影使用快捷栏5号格.
+schematica.config.swapSlot5=允许6号格
+schematica.config.swapSlot5.tooltip=允许投影使用快捷栏6号格.
+schematica.config.swapSlot6=允许7号格
+schematica.config.swapSlot6.tooltip=允许投影使用快捷栏7号格.
+schematica.config.swapSlot7=允许8号格
+schematica.config.swapSlot7.tooltip=允许投影使用快捷栏8号格.
+schematica.config.swapSlot8=允许9号格
+schematica.config.swapSlot8.tooltip=允许投影使用快捷栏9号格.
 
 # gui - config - general
+schematica.config.schematicDirectory=Schematic目录
+schematica.config.schematicDirectory.tooltip=Schematic目录.
+schematica.config.extraAirBlocks=额外空气方块
+schematica.config.extraAirBlocks.tooltip=要视为空气的Schematic渲染额外方块.
 
 # gui - config - server
+schematica.config.printerEnabled=启用投影
+schematica.config.printerEnabled.tooltip=允许玩家使用投影.
+schematica.config.saveEnabled=启用保存
+schematica.config.saveEnabled.tooltip=允许玩家保存schematics.
+schematica.config.loadEnabled=启用加载
+schematica.config.loadEnabled.tooltip=允许玩家加载schematics.
 
 # keys
 schematica.key.category=Schematica
@@ -56,9 +124,31 @@ schematica.key.layerInc=下一层
 schematica.key.layerDec=上一层
 
 # commands - save
+schematica.command.save.usage=/schematicaSave <startX> <startY> <startZ> <endX> <endY> <endZ> <name>
+schematica.command.save.playersOnly=此指令只能由玩家使用.
+schematica.command.save.started=开始将 %d 区块保存至 %s.
+schematica.command.save.saveSucceeded=成功保存 %s.
+schematica.command.save.saveFailed=保存schematic %s 时遇到问题.
+schematica.command.save.quotaExceeded=你已经超出了服务器配额. 请使用/schematicaList 和/schematicaRemove 指令移除一些旧schematics.
+schematica.command.save.playerSchematicDirUnavailable=服务器遇到一个问题, 你的schematic未能保存. 请联系服务器管理员.
 
 # commands - list
+schematica.command.list.usage=/schematicaList [page]
+schematica.command.list.notAvailable=检索你的schematics列表时遇到问题.
+schematica.command.list.remove=移除
+schematica.command.list.download=下载
+schematica.command.list.header=--- 显示中schematics第%d页,共%d页 ---
+schematica.command.list.noSuchPage=无此页
+schematica.command.list.noSchematics=没有可用schematics.
 
 # commands - remove
+schematica.command.remove.usage=/schematicaRemove <name>
+schematica.command.remove.schematicRemoved=已移除Schematic "%s".
+schematica.command.remove.schematicNotFound=找不到Schematic "%s".
+schematica.command.remove.areYouSure=你确定?
 
 # commands - download
+schematica.command.download.usage=/schematicaDownload <name>
+schematica.command.download.started=开始下载 %s...
+schematica.command.download.downloadSucceeded=%s 下载成功.
+schematica.command.download.downloadFail=下载失败.

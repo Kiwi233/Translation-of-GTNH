@@ -1018,49 +1018,49 @@ recipes.addShaped(<Railcraft:detector:16> * 4, [
 [<minecraft:quartz_block:1>, RedAlloyPlate, <minecraft:quartz_block:1>]]);
 
 // --- Item Loader ---
-recipes.addShaped(<Railcraft:machine.gamma> * 4, [
+recipes.addShaped(<Railcraft:machine.gamma> * 2, [
 [CobbleStone, Hopper, CobbleStone],
 [RedAlloyPlate, <Railcraft:detector>, RedAlloyPlate],
 [CobbleStone, Chest, CobbleStone]]);
 
 // --- Item Unloader ---
-recipes.addShaped(<Railcraft:machine.gamma:1> * 4, [
+recipes.addShaped(<Railcraft:machine.gamma:1> * 2, [
 [CobbleStone, Chest, CobbleStone],
 [RedAlloyPlate, <Railcraft:detector>, RedAlloyPlate],
 [CobbleStone, Hopper, CobbleStone]]);
 
 // --- Adv Item Loader ---
-recipes.addShaped(<Railcraft:machine.gamma:2> * 4, [
+recipes.addShaped(<Railcraft:machine.gamma:2> * 2, [
 [SteelPlate, Hopper, SteelPlate],
 [RedAlloyPlate, <Railcraft:detector:1>, RedAlloyPlate],
 [SteelPlate, Chest, SteelPlate]]);
 
 // --- Adv Item Unloader ---
-recipes.addShaped(<Railcraft:machine.gamma:3> * 4, [
+recipes.addShaped(<Railcraft:machine.gamma:3> * 2, [
 [SteelPlate, Chest, SteelPlate],
 [RedAlloyPlate, <Railcraft:detector:1>, RedAlloyPlate],
 [SteelPlate, Hopper, SteelPlate]]);
 
 // --- Fluid Loader ---
-recipes.addShaped(<Railcraft:machine.gamma:4> * 4, [
+recipes.addShaped(<Railcraft:machine.gamma:4> * 2, [
 [GlassPane, SteelPipe, GlassPane],
 [Pump, <Railcraft:detector:8>, Motor],
 [GlassPane, Tank, GlassPane]]);
 
 // --- Fluid Unloder ---
-recipes.addShaped(<Railcraft:machine.gamma:5> * 4, [
+recipes.addShaped(<Railcraft:machine.gamma:5> * 2, [
 [GlassPane, Tank, GlassPane],
 [Motor, <Railcraft:detector:8>, Pump],
 [GlassPane, SteelPipe, GlassPane]]);
 
 // --- Energy Loader ---
-recipes.addShaped(<Railcraft:machine.gamma:6> * 4, [
+recipes.addShaped(<Railcraft:machine.gamma:6> * 2, [
 [SteelPlate, <gregtech:gt.blockmachines:1426>, SteelPlate],
 [RedAlloyPlate, <Railcraft:detector:10>, RedAlloyPlate],
 [SteelPlate, <IC2:itemAdvBat:*>, SteelPlate]]);
 
 // --- Energy Unloder ---
-recipes.addShaped(<Railcraft:machine.gamma:7> * 4, [
+recipes.addShaped(<Railcraft:machine.gamma:7> * 2, [
 [SteelPlate, <IC2:itemAdvBat:*>, SteelPlate],
 [RedAlloyPlate, <Railcraft:detector:10>, RedAlloyPlate],
 [SteelPlate, <gregtech:gt.blockmachines:1426>, SteelPlate]]);

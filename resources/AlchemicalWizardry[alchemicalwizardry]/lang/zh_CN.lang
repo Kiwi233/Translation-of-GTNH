@@ -256,6 +256,7 @@ bm.string.drain=消耗
 bm.string.tier=层数
 bm.string.crafting.orb.shaped=特定血宝珠合成
 bm.string.crafting.orb.shapeless=不定血宝珠合成
+bm.string.ritualDiviner=仪式: %s
 text.recipe.altar=血之祭坛
 text.recipe.altar.tier=层数: %s
 text.recipe.altar.bloodRequired=LP: %s
@@ -264,6 +265,44 @@ nei.recipe.meteor.category=陨星仪式
 nei.recipe.meteor.cost=消耗: %s LP
 nei.recipe.meteor.radius=半径: %s
 nei.recipe.meteor.chance=几率: %s%%
+
+#Rituals
+ritual.AW001Water.name=涌泉仪式
+ritual.AW002Lava.name=下界夜曲
+ritual.AW003GreenGrove.name=绿丛仪式
+ritual.AW004Interdiction.name=禁止仪式
+ritual.AW005Containment.name=牵制仪式
+ritual.AW006Binding.name=绑定仪式
+ritual.AW007Unbinding.name=解绑仪式
+ritual.AW008HighJump.name=高跳仪式
+ritual.AW009Magnetism.name=磁矿仪式
+ritual.AW010Crusher.name=挖掘仪式
+ritual.AW011Speed.name=速移仪式
+ritual.AW012AnimalGrowth.name=牧养仪式
+ritual.AW013Suffering.name=苦难之井
+ritual.AW014Regen.name=重生仪式
+ritual.AW015FeatheredKnife.name=羽刀仪式
+ritual.AW016FeatheredEarth.name=羽地仪式
+ritual.AW017Gaia.name=盖亚仪式
+ritual.AW018Condor.name=崇敬之鹰
+ritual.AW019FallingTower.name=陨星仪式
+ritual.AW020BalladOfAlchemy.name=炼金之谣
+ritual.AW021Expulsion.name=驱逐氛场
+ritual.AW022Supression.name=抑液仪式
+ritual.AW023Zephyr.name=和风之唤
+ritual.AW024Harvest.name=满月收割
+ritual.AW025Conduit.name=永魂之泣
+ritual.AW026Ellipsoid.name=幽影屏障
+ritual.AW027Evaporation.name=蒸发之曲
+ritual.AW028SpawnWard.name=神圣庇佑
+ritual.AW029VeilOfEvil.name=罪恶遮纱
+ritual.AW030FullStomach.name=盛宴之歌
+ritual.AW031Convocation.name=恶魔入侵
+ritual.AW032Symmetry.name=欧米伽仪式
+ritual.AW033Stalling.name=熔魂合奏
+ritual.AW034Crafting.name=工作节律
+ritual.AW035PhantomHands.name=幻手乐团
+ritual.AW036SphereIsland.name=新月之血
 
 #Entities
 entity.AWWayofTime.EarthElemental.name=土之元素精灵
@@ -321,9 +360,9 @@ commands.network.fill.success=成功填充 %s 的LP网络.
 commands.network.cap.help=将指定玩家的LP网络填充到其持有的最高级气血宝珠可以存储的最大值。
 commands.network.cap.success=成功锁定了 %s 的LP网络.
 
-commands.bind.usage=/bind <玩家>
+commands.bind.usage=/bloodmagic bind [true|false] [玩家]
 commands.bind.help=尝试将手持物品绑定(解绑)
-commands.bind.success=物品成功绑定!
+commands.bind.success=绑定成功
 commands.bind.remove.success=解绑成功
 
 commands.orb.usage=/bloodmagic orb [set|get] player [等级]
@@ -569,4 +608,3 @@ bm.versioning.error=下载mod时出错!
 bm.versioning.downloadedAlready=你已经拥有最新版本，重新加载游戏以进行更新! 
 bm.versioning.downloadingAlready=正在下载! 耐心点! 
 bm.versioning.disabled=此功能已禁用.
-

@@ -158,12 +158,12 @@ extratrees.block.tooltip.twoMaterials=%s - %s
 < %1$s is name of wood used for door >
 extratrees.block.door.name=%1$s木门
 
-< %1$s is name of wood used for door， %2$s is type of door >
+< %1$s is name of wood used for door, %2$s is type of door >
 extratrees.block.door.name.adv=%1$s%2$s木门
 extratrees.block.door.type.standard=
-extratrees.block.door.type.solid=Solid
-extratrees.block.door.type.double=Split
-extratrees.block.door.type.full=Full
+extratrees.block.door.type.solid=坚固
+extratrees.block.door.type.double=分离
+extratrees.block.door.type.full=完整
 
 < %1$s is name of the wood>
 extratrees.block.plank.name=%1$s木板
@@ -173,7 +173,7 @@ extratrees.block.woodstairs.name=%1$s楼梯
 extratrees.block.woodfence.name=%1$s栅栏
 extratrees.block.woodgate.name=%1$s栅栏门
 
-< %1$s is the adjective for the fence type， %2$s is the name of the wood >
+< %1$s is the adjective for the fence type, %2$s is the name of the wood >
 extratrees.block.multifence.name=%2$s %1$s 门
 < %3$s is the name of the second wood >
 extratrees.block.multifence.name2=%2$s %1$s & $3$s 门
@@ -269,7 +269,7 @@ extratrees.species.raspberry.name=树莓
 extratrees.species.blueberry.name=蓝莓
 extratrees.species.cranberry.name=蔓越莓
 extratrees.species.juniper.name=杜松子
-extratrees.species.gooseberry.name=鹅莓
+extratrees.species.gooseberry.name=醋栗
 extratrees.species.goldenraspberry.name=金树莓
 extratrees.species.cinnamon.name=肉桂
 extratrees.species.coconut.name=椰子
@@ -360,6 +360,7 @@ for.extratrees.item.food.olive=橄榄
 for.extratrees.item.food.gingkonut=白果
 for.extratrees.item.food.coffee=咖啡
 for.extratrees.item.food.osangeorange=桑橙
+for.extratrees.item.food.osangeosange=桑橙
 for.extratrees.item.food.clove=丁香
 for.extratrees.item.food.papayimar=Pahimar牌木瓜
 for.extratrees.item.food.blackcurrant=黑加仑
@@ -369,7 +370,7 @@ for.extratrees.item.food.raspberry=树莓
 for.extratrees.item.food.blueberry=蓝莓
 for.extratrees.item.food.cranberry=蔓越莓
 for.extratrees.item.food.juniper=杜松子
-for.extratrees.item.food.gooseberry=鹅莓
+for.extratrees.item.food.gooseberry=醋栗
 for.extratrees.item.food.goldenraspberry=金树莓
 for.extratrees.item.food.coconut=椰子
 for.extratrees.item.food.cashew=腰果
