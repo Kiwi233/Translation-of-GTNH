@@ -2,8 +2,7 @@
 <config>
     <lines at="topleft">
         <line>
-            <str>{pingicon}$6{username}$f </str>
-            <str>FPS: </str>
+            <str>{pingicon}{gold}{username} {white}FPS: </str>
             <op>
                 <str>gt</str>
                 <var>fps</var>
@@ -12,11 +11,11 @@
                 <num>30</num>
                 <num>15</num>
                 <num>0</num>
-                <str>$a</str>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{green}</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
                 <str/>
             </op>
             <var>fps</var>
@@ -31,7 +30,7 @@
             <icon>
                 <str>minecraft:clock</str>
             </icon>
-            <str> $rMC日期： 第$3 </str>
+            <str> MC日期： 第{darkaqua} </str>
             <add>
                 <round>
                     <div>
@@ -48,24 +47,23 @@
                 </round>
                 <num>1</num>
             </add>
-            <str> $r年； 第$3 </str>
+            <str> {white}年； 第{darkaqua} </str>
             <modi>
                 <var>day</var>
                 <num>365</num>
             </modi>
-            <str> $f天； 时间： </str>
-            <str>$6{mctime12} $r</str>
+            <str> {white}天； 时间：{gold}{mctime12} </str>
             <if>
                 <var>daytime</var>
-                <str>$e(白天)</str>
-                <str>$7(黑夜)</str>
+                <str>{yellow}(白天)</str>
+                <str>{gray}(黑夜)</str>
             </if>
         </line>
         <line>
             <icon>
                 <str>HardcoreEnderExpansion:temple_end_portal</str>
             </icon>
-            <str> $r世界： </str>
+            <str> 世界：{gold} </str>
                 <op>
                     <str>eq</str>
                     <var>dimensionid</var>
@@ -214,14 +212,14 @@
                     </greater>
                     <str>$6花园/虚空世界 $e({dimensionid})</str>
                 </if>
-            <str> $r已加载区块数： $6{loadedchunks} </str>
+            <str> {white}已加载区块数： {gold}{loadedchunks} </str>
         </line>
         <line>
             <icon>
                 <str>minecraft:sapling</str>
                 <num>4</num>
             </icon>
-            <str> 生物群系： $3</str>
+            <str> 生物群系： {darkaqua}</str>
             <op>
                 <str>eq</str>
                 <var>biomeid</var>
@@ -707,23 +705,48 @@
 
                 <str/>
             </op>
-            <str>$f $6{temperature}$r°F</str>
-            <str>  $6{humidity}%$f 湿度</str>
+            <str> {gold}{temperature}{white}°F {gold}</str>
+            <round>
+                <div>
+                    <sub>
+                        <var>temperature</var>
+                        <num>32</num>
+                    </sub>
+                    <num>1.8</num>
+                </div>
+                <num>0</num>
+            </round>
+            <str>{white}°C {gold}</str>
+            <round>
+                <add>
+                    <div>
+                        <sub>
+                            <var>temperature</var>
+                            <num>32</num>
+                        </sub>
+                        <num>1.8</num>
+                    </div>
+                    <num>273.15</num>
+                </add>
+                <num>0</num>
+            </round>
+            <str>{white}K</str>
+            <str>  {gold}{humidity}{white}% 湿度</str>
         </line>
         <line>
             <icon>
                 <str>minecraft:skull</str>
                 <num>4</num>
             </icon>
-            <str> 实体： $6{entitiesrendered}$f 已显现 / $6{entitiestotal}$f 已加载  </str>
+            <str> 实体： {gold}{entitiesrendered}{white} 已显现 / {gold}{entitiestotal}{white} 已加载  </str>
         </line>
         <line>
             <icon>
                 <str>minecraft:compass</str>
                 <num>0</num>
             </icon>
-            <str> 区块坐标： X:$6 {chunkx} $fZ:$6 {chunkz}$f Off: $3$6 {chunkoffsetx} $f:$6 {chunkoffsetz} $f</str>
-            <str> Y: $6{yfeeti}$f 面向 $6</str>
+            <str> 区块坐标： X:{gold} {chunkx} {white}Z:{gold} {chunkz}{white} Off:  {gold}{chunkoffsetx} {white}:{gold} {chunkoffsetz} {white}</str>
+            <str> Y: {gold}{yfeeti}{white} 面向 {gold}</str>
             <op>
                 <str>eq</str>
                 <var>finedirection</var>
@@ -747,7 +770,7 @@
             <str>$f</str>
             <if>
                 <var>slimechunk</var>
-                <str> $6史莱姆区块$f</str>
+                <str> {gold}史莱姆区块{white}</str>
             </if>
         </line>
         <line>
@@ -758,19 +781,19 @@
             <max>
                 <var>light</var>
                 <num>7.5</num>
-                <str>$e</str>
-                <str>$c</str>
+                <str>{yellow}</str>
+                <str>{red}</str>
             </max>
             <var>light</var>
-            <str>$r (立足处光照等级： </str>
+            <str>{white} (立足处光照等级： </str>
             <max>
                 <var>lightfeet</var>
                 <num>7.5</num>
-                <str>$e</str>
-                <str>$c</str>
+                <str>{yellow}</str>
+                <str>{red}</str>
             </max>
             <var>lightfeet</var>
-            <str>$r)</str>
+            <str>{white})</str>
         </line>
         <line>
             <icon>
@@ -1535,24 +1558,24 @@
             <str>$f </str>
         </line>
         <line>
-            <str>$0</str>
+            <str>{black}</str>
         </line>
         <line>
             <if>
                 <var>snowing</var>
-                <str>  正在 $2{underline}下雪$r$2$r</str>
+                <str>  正在 {darkgreen}{underline}下雪{reset}</str>
             </if>
             <if>
                 <var>raining</var>
-                <str>  正在 $2{underline}下雨$r$2$r</str>
+                <str>  正在 {darkgreen}{underline}下雨{reset}</str>
             </if>
             <if>
                 <var>thundering</var>
-                <str> 并且是 $2{u}暴风雨$r$2$f.</str>
+                <str> 并且是 {darkgreen}{u}暴风雨{reset}.</str>
             </if>
         </line>
         <line>
-            <str>$0</str>
+            <str>{black}</str>
         </line>
         <line>
             <if>
@@ -1598,7 +1621,7 @@
                         <num>16</num>
                         <num>16</num>
                     </icon>
-                    <str>  此处为 $2{underline}矿脉$f 的中心区块.</str>
+                    <str>  此处为 {darkgreen}{underline}矿脉{white} 的中心区块.</str>
                 </concat>
             </if>
         </line>
@@ -1652,12 +1675,12 @@
                         </and>
                         <str>      </str>
                     </if>
-                    <str>  你正在区块 $4中心$f .</str>
+                    <str>  你正在区块 {darkred}中心{white} .</str>
                 </concat>
             </if>
         </line>
         <line>
-            <str>$0</str>
+            <str>{black}</str>
         </line>
         <line>
             <if>
@@ -1666,17 +1689,17 @@
         </line>
         <line>
             <if>
-                <str>  1) $6{nearbyplayername0}$f({nearbyplayerdistance0}m)</str>
+                <str>  1) {gold}{nearbyplayername0}{white}({nearbyplayerdistance0}m)</str>
             </if>
         </line>
         <line>
             <if>
-                <str>  2) $6{nearbyplayername1}$f({nearbyplayerdistance1}m)</str>
+                <str>  2) {gold}{nearbyplayername1}{white}({nearbyplayerdistance1}m)</str>
             </if>
         </line>
         <line>
             <if>
-                <str>  2) $6{nearbyplayername2}$f({nearbyplayerdistance2}m)</str>
+                <str>  2) {gold}{nearbyplayername2}{white}({nearbyplayerdistance2}m)</str>
             </if>
         </line>
     </lines>
@@ -1694,16 +1717,16 @@
                 <num>20</num>
                 <num>10</num>
                 <num>0</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
                 <str/>
             </op>
             <max>
                 <var>equippeddamageleft</var>
                 <num>0.5</num>
-                <str>{equippeddamageleft}$f / $e{equippedmaxdamage}</str>
+                <str>{equippeddamageleft} {white}/ {yellow}{equippedmaxdamage}</str>
                 <var>equippedname</var>
             </max>
         </line>
@@ -1719,15 +1742,15 @@
                 <num>50</num>
                 <num>20</num>
                 <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
             </op>
             <max>
                 <var>helmetdamageleft</var>
                 <num>0.5</num>
-                <str>{helmetdamageleft}$f / $e{helmetmaxdamage}</str>
+                <str>{helmetdamageleft} {white}/ {yellow}{helmetmaxdamage}</str>
                 <str/>
             </max>
             <str> </str>
@@ -1744,15 +1767,15 @@
                 <num>50</num>
                 <num>20</num>
                 <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
             </op>
             <max>
                 <var>chestplatedamageleft</var>
                 <num>0.5</num>
-                <str>{chestplatedamageleft}$f / $e{chestplatemaxdamage}</str>
+                <str>{chestplatedamageleft} {white}/ {yellow}{chestplatemaxdamage}</str>
                 <str/>
             </max>
             <str> </str>
@@ -1769,15 +1792,15 @@
                 <num>50</num>
                 <num>20</num>
                 <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
             </op>
             <max>
                 <var>leggingsdamageleft</var>
                 <num>0.5</num>
-                <str>{leggingsdamageleft}$f / $e{leggingsmaxdamage}</str>
+                <str>{leggingsdamageleft} {white}/ {yellow}{leggingsmaxdamage}</str>
                 <str/>
             </max>
         </line>
@@ -1793,15 +1816,15 @@
                 <num>50</num>
                 <num>20</num>
                 <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
             </op>
             <max>
                 <var>bootsdamageleft</var>
                 <num>0.5</num>
-                <str>{bootsdamageleft}$f / $e{bootsmaxdamage}</str>
+                <str>{bootsdamageleft} {white}/ {yellow}{bootsmaxdamage}</str>
                 <str/>
             </max>
         </line>
