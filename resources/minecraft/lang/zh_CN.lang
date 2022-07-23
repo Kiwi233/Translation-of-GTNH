@@ -3897,8 +3897,8 @@ gtnh.quest973.name=杂酚油
 gtnh.quest973.desc=你可以用硬币购买一些杂酚油.
 
 # Quest.974 - Naphtha
-gtnh.quest974.name=柴油
-gtnh.quest974.desc=你可以用硬币购买一些柴油.
+gtnh.quest974.name=石脑油
+gtnh.quest974.desc=你可以用硬币购买一些石脑油.
 
 # Quest.975 - Methane
 gtnh.quest975.name=甲烷
@@ -12298,7 +12298,7 @@ gtnh.quest3073.desc=使用MV搅拌机,混合水/蒸馏水与青金石粉,制造�
 
 # Quest.3074 - §a§lPower of the Sun from Nuclear
 gtnh.quest3074.name=§a§l来自核能的太阳之力
-gtnh.quest3074.desc=你的老伙计单方块分子重组仪已经一去不回了.那么如何获取阳光化合物呢? 有几种方法,不过在EV阶段,你只有辐射萤石,再将其转化为阳光化合物这一条路.
+gtnh.quest3074.desc=你的老伙计单方块分子重组仪已经一去不回了.那么如何获取阳光化合物呢? 有几种方法,不过在EV阶段,你只有让萤石在核电中接受辐射,再将其转化为阳光化合物这一条路.
 
 # Quest.3075 - Armor Molds
 gtnh.quest3075.name=护甲模具
@@ -12777,11 +12777,11 @@ gtnh.quest3193.name=MKIII聚变的可选配方
 gtnh.quest3193.desc=鿫(Og) - 钙与锎聚变. 这是稀有气体中最好的一种,而与大多数配方相比,这也是一个非常耗电的配方.但是,鿫(Og)可以帮助你节省工业高炉的耗电,比起其他保护气更能大幅度缩短配方时间;鿫(Og)还将虚空采矿场提高到最大速度. 如果有条件的话,其实比起聚变来说,复制鿫(Og)更加简单且灵活.%n%n镅 - 氢与钚-241聚变. 这是我在MKII可选配方任务中向你承诺的,更便宜的镅配方,而且还无需镥.你应该能够很轻松地获得这两种输入,所以,享受更便宜的镅吧!%n%n中子锭 - 超能硅岩与镅聚变. 中子聚变?你可能不需要用这个配方,不过这也是一种除矿石以外你可以尝试的中子锭来源.
 
 # Quest.3194 - Smaller Fusion Is Bigger
-gtnh.quest3194.name=Smaller Fusion Is Bigger
-gtnh.quest3194.desc=It's not smaller, it's compact!%n%nCompact Fusion. If you've been looking for a big multiblock to put together, you have arrived at a very neat thing. There's hardly anything that could beat its size, except for a max height Mega Distillation Tower, but this is instead a wide multi instead of a tall one. It is so wide, in fact, that it cannot fit in one chunk, and instead covers a 3x3 chunk space! Make sure you follow the instructions and the hologram properly, and jump in joy when you have one of these built.%n%nYou can choose one of four tiers for this reactor, in the same way as the normal Fusion Reactors. The Compact controller will need 48 of the regular controllers in the same tier, plus some other materials, and more than 2 thousand blocks in the structure, which are conveniently detailed in the tooltip. It is much bigger than the previous reactors, but it also has a huge number of parallels, starting at 64x with t1 and ending at a maximum of 256x with t4! %n%nThis is the go-to when you have found yourself deep into t3 fusion, perhaps even t4, and you find yourself running short on power. Instead of making a tower of reactors, why not make one of these? The only power issue that you'll have after getting it done is the amount of turbines you will need to eat up all the plasma.
+gtnh.quest3194.name=似小实大
+gtnh.quest3194.desc=它并不小,虽然它叫压缩!%n%n压缩核聚变反应堆.如果你一直在寻找一种巨构,那么这就是你想要的!除了最大高度的巨型蒸馏塔以外,几乎没有其他多方块机器拥有超过它的尺寸,不过压缩聚变并不以高见长,而是宽,非常非常宽,事实上,它已经宽到无法塞进一个区块中,而是整整覆盖3x3区块的空间!请确保你遵循其结构指导及全息投影,并享受搭建的过程吧.%n%n与常规核聚变反应堆一样,你可以选择四种等级的压缩聚变.压缩聚变控制器需要48个同级常规聚变控制器,再加上一些其他材料,以及2000多个结构方块,这些信息在tooltip中都有详细指导.虽说压缩聚变比此前的常规聚变大得多,但它也有极高的并行数,从1级的64x并行开始,直到4级的最大256x并行! %n%n当你已经深入3级聚变,可能已经开始涉足4级聚变,同时发现自己遇到了能源危机的时候.比起搭建常规聚变塔,何不试试压缩聚变?等到这玩意建成后,你能源方面的唯一问题,就只是为了消耗其产出的所有等离子体,到底需要多少涡轮了.
 
 # Quest.3195 - Thorium Tetrafluoride and Fuel 3
-gtnh.quest3195.name=Thorium Tetrafluoride and Fuel 3
+gtnh.quest3195.name=四氟化钍和燃料3
 gtnh.quest3195.desc=Whether you've mathed it out from NEI, looked at the spreadsheet or done something else, you might have figured something out: Fuel 3 is better in every way. More power, more byproducts, more everything. However, both recipes for it use Thorium Tetrafluoride (TF4), and the source of this is salt sparging, done in the Sparge Tower. Not only that, but Fuel 3 can only be consumed by having 4 LuV Dynamo Hatches in the LFTR, which means that it's a fair bit away from the previous steps in this chain.%n%nOnce you've made it there, though, you can start working on getting this fuel. To make it, you will need at least one Sparge Tower dedicated to using Fluorine, with 枯竭钍熔盐 or 枯竭钍铍熔盐 (枯竭钍铍熔盐 is better, get it from Fuel 2). There is a recipe that uses Helium, but it's not required for Fuel 3 and is meant for byproducts, so the quest for it is in the breeding half of this branch. Using a single tower for both recipes is a bad idea, so don't do it!%n%nPreferably, you should input Fluorine and 枯竭钍铍熔盐 and let it run for a while. Speeding up the recipe by overclocking and making more towers is a good idea, since the TF4 is your bottleneck now. Alongside it, you get several fluorides: Lithium, Neptunium, Technetium and Selenium. These might prove useful in the future, but your goal is the Thorium one.
 
 # Quest.3196 - Naquadah Reactor For Nuclear Fuels
