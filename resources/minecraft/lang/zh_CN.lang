@@ -12782,10 +12782,10 @@ gtnh.quest3194.desc=它并不小,虽然它叫压缩!%n%n压缩核聚变反应堆
 
 # Quest.3195 - Thorium Tetrafluoride and Fuel 3
 gtnh.quest3195.name=四氟化钍和燃料3
-gtnh.quest3195.desc=Whether you've mathed it out from NEI, looked at the spreadsheet or done something else, you might have figured something out: Fuel 3 is better in every way. More power, more byproducts, more everything. However, both recipes for it use Thorium Tetrafluoride (TF4), and the source of this is salt sparging, done in the Sparge Tower. Not only that, but Fuel 3 can only be consumed by having 4 LuV Dynamo Hatches in the LFTR, which means that it's a fair bit away from the previous steps in this chain.%n%nOnce you've made it there, though, you can start working on getting this fuel. To make it, you will need at least one Sparge Tower dedicated to using Fluorine, with 枯竭钍熔盐 or 枯竭钍铍熔盐 (枯竭钍铍熔盐 is better, get it from Fuel 2). There is a recipe that uses Helium, but it's not required for Fuel 3 and is meant for byproducts, so the quest for it is in the breeding half of this branch. Using a single tower for both recipes is a bad idea, so don't do it!%n%nPreferably, you should input Fluorine and 枯竭钍铍熔盐 and let it run for a while. Speeding up the recipe by overclocking and making more towers is a good idea, since the TF4 is your bottleneck now. Alongside it, you get several fluorides: Lithium, Neptunium, Technetium and Selenium. These might prove useful in the future, but your goal is the Thorium one.
+gtnh.quest3195.desc=无论你是用NEI数据计算,查看数据表格,还是其他渠道,都可能已经得出结论：燃料3在各方面都更好. 输出功率更高、副产物更多、各种更强.但是,两个配方都要用到四氟化钍(TF4),而四氟化钍的来源是气涤塔中对熔盐进行气涤处理.不仅如此,燃料3还只能在4个LuV以上动力仓的液态氟钍反应堆中进行反应,这意味着它与这条处理线上前面的步骤有相当大的距离.%n%n然而,你到达这里后可以马上开始着手获取这种燃料.想要合成它,你需要至少一座专门使用氟的气涤塔,处理枯竭钍熔盐,或枯竭钍铍熔盐(枯竭钍铍熔盐更好,可从燃料2中获得). 有个用氦的配方,不过它并非燃料3所必需的,用于副产物的,所以它的相关任务在这个分支的增殖部分.在同一座气涤塔中处理这两个配方不是个好主意,所以不要这样做!%n%n最好这样,你应该输入氟和枯竭钍铍熔盐,并让它运行一段时间.通过超频或是建造更多气涤塔来加速这一过程是个不错的主意,主要是四氟化钍是处理线目前的速度瓶颈所在.此外,你还能获得以下几种元素的氟化物：锂、镎、锝和硒.这些氟化物可能会在未来用到,不过现在你的目标是四氟化钍.
 
 # Quest.3196 - Naquadah Reactor For Nuclear Fuels
-gtnh.quest3196.name=Naquadah Reactor For Nuclear Fuels
+gtnh.quest3196.name=使用核燃料的硅岩反应堆
 gtnh.quest3196.desc=What is the most powerful nuclear fission generator there is? The answer to that question isn't even a nuclear fission generator, for the most part. The answer is the Large Naquadah Generator. It follows the same principle as the LFTR, use a new processing chain to turn Thorium, Uranium and Plutonium into liquid fuels, very dense with energy, which are then slowly burned to generate large amounts of power over a very long period of time. This reactor, for example, burns its fuels 1 milibucket at a time, over several seconds, when running without additives, a very slow burner by default.%n%nLet's look at the NEI recipes. Excited Thorium outputs 2,200 EU/t, Excited Uranium outputs 12,960 EU/t and Excited Plutonium outputs 32,400 EU/t. These are small numbers, clearly, so this can't possibly be the most powerful nuclear fission reactor. However, this multi is more complicated than that! In total, there are 4 inputs you can provide for it: one of them is the required fuel and another is the also required Liquid Air to generate EU from that fuel, but the other 2 are additives that are optional, yet increase both the efficiency and the consumption speed of the fuel. The controller's tooltip lists all the possible additives and their bonuses.%n%nFuel efficiency here means that the fuel is burned at the same rate, but energy output is increased by the percentage. Let's consider the two best options, Cryotheum and Atomic Separation Catalyst. They multiply with each other, so the energy output is 2.75 x 16 = 44 times the displayed EU/t on NEI! Excited Plutonium, the most energetic of the three fuels, will award you with 1,425,600 EU/t, almost 3 UV amps.
 
 # Quest.3197 - Maxed-out LFTR
@@ -12793,7 +12793,7 @@ gtnh.quest3197.name=Maxed-out LFTR
 gtnh.quest3197.desc=An LuV LFTR running on Fuel 3 outputs 4 LuV amps per tick, or 131,072 EU/t. Each bucket is worth 1,048,576,000,000 EU, more than a trillion EU! Certainly, this is the most power-dense fuel you've ever held, and now that you've made it here, you can make it to fusion and beyond much more easily. But wait, there's more!%n%nYou might have noticed that the limiting factor in using the best recipe for Fuel 1 and Fuel 2 was the 枯竭铀熔盐, which ultimately makes the LFTR Fuel Base. You just can't get enough of it to drop that inefficient 4-input recipe. However, the increased output of 枯竭铀熔盐 from Fuel 3, alongside the doubling that you can get from processing Helium Sparged 枯竭铀熔盐 instead of the regular one, means that you can use the 2-input recipe to make all your fuel from now on! If you haven't set up Helium Sparge Towers yet, do so now.%n%nWhen you do this, you can grab the two Fuel Refineries you should have and set them both to the 2-input recipe. Each bucket of Fuel 3 takes 9000 seconds to make, but is consumed in 4000 seconds, so it's good to have more than one Refinery per LFTR. With this, you will make fuel much faster, and generate much more EU than before. If you continue expanding, it's very possible to match the first tiers of fusion power from something like this.
 
 # Quest.3198 - Radioactivity's Additives
-gtnh.quest3198.name=Radioactivity's Additives
+gtnh.quest3198.name=放射性添加剂
 gtnh.quest3198.desc=没有描述
 
 # Quest.3199 - Automation for Fluid Nukes
@@ -12805,7 +12805,7 @@ gtnh.quest3200.name=EV vs. IV
 gtnh.quest3200.desc=Your sourcing of Uranium is gonna be very small in EV, unless you use crops. Similarly, your ability to put together the multiblocks needed for the fluid nuke will be better in IV, since you can mine Small Titanium Ore directly, and use GT++ multis. %n%nAll in all, it becomes very worthwhile to rush the Tier 2 Rocket and land on Mars and Phobos to get Uranium and Tungstate/Scheelite, before you go much farther with IC2 nukes.
 
 # Quest.3201 - Thorium vs. Uranium
-gtnh.quest3201.name=Thorium vs. Uranium
+gtnh.quest3201.name=钍 vs. 铀
 gtnh.quest3201.desc=没有描述
 
 # Quest.3202 - Max Danger Nukes
