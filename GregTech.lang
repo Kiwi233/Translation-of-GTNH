@@ -3293,7 +3293,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00865_Index_03=-----------------------------------------
     S:TileEntity_DESCRIPTION_00865_Index_04=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00865_Index_05=添加者: §2Alkalus §7- §c[GT++]
-    S:TileEntity_DESCRIPTION_00865_Secondary_Index_00=大小(宽x高x长)：3x9x3
+    S:TileEntity_DESCRIPTION_00865_Secondary_Index_00=大小(宽x高x长)：7x9x7
     S:TileEntity_DESCRIPTION_00865_Secondary_Index_01=结构：
     S:TileEntity_DESCRIPTION_00865_Secondary_Index_02=   控制器：  顶层中央
     S:TileEntity_DESCRIPTION_00865_Secondary_Index_03=   剩余方块为加强蒸汽涡轮机械方块(至少360个！)
@@ -3303,13 +3303,13 @@ languagefile {
     S:TileEntity_DESCRIPTION_00865_Secondary_Index_07=   输出仓：  任意提示方块：4号(至少1个！)
     S:TileEntity_DESCRIPTION_00865_Secondary_Index_08=   动力仓：  任意提示方块：4号(至少1个！)
     S:TileEntity_DESCRIPTION_00865_Secondary_Index_09=   维护仓：  任意提示方块：4号(至少1个！)
-    S:TileEntity_DESCRIPTION_00866_Index_00=机器类型：§eL蒸汽涡轮§r
+    S:TileEntity_DESCRIPTION_00866_Index_00=机器类型：§e蒸汽涡轮§r
     S:TileEntity_DESCRIPTION_00866_Index_01=特大高压蒸汽涡轮的控制器方块
     S:TileEntity_DESCRIPTION_00866_Index_02=每秒产生§50§7点污染
     S:TileEntity_DESCRIPTION_00866_Index_03=-----------------------------------------
     S:TileEntity_DESCRIPTION_00866_Index_04=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00866_Index_05=添加者: §2Alkalus §7- §c[GT++]
-    S:TileEntity_DESCRIPTION_00866_Secondary_Index_00=大小(宽x高x长)：3x9x3
+    S:TileEntity_DESCRIPTION_00866_Secondary_Index_00=大小(宽x高x长)：7x9x7
     S:TileEntity_DESCRIPTION_00866_Secondary_Index_01=结构：
     S:TileEntity_DESCRIPTION_00866_Secondary_Index_02=   控制器：  顶层中央
     S:TileEntity_DESCRIPTION_00866_Secondary_Index_03=   剩余方块为加强高压蒸汽涡轮机械方块(至少360个！)
@@ -11972,7 +11972,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_31073_Index_03=-----------------------------------------
     S:TileEntity_DESCRIPTION_31073_Index_04=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_31073_Index_05=添加者: §2Alkalus §7- §c[GT++]
-    S:TileEntity_DESCRIPTION_31073_Secondary_Index_00=大小(宽x高x长)：3x9x3
+    S:TileEntity_DESCRIPTION_31073_Secondary_Index_00=大小(宽x高x长)：7x9x7
     S:TileEntity_DESCRIPTION_31073_Secondary_Index_01=结构：
     S:TileEntity_DESCRIPTION_31073_Secondary_Index_02=   控制器：  顶层中央
     S:TileEntity_DESCRIPTION_31073_Secondary_Index_03=   剩余方块为加强燃气涡轮机械方块(至少360个！)
@@ -11988,7 +11988,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_31074_Index_03=-----------------------------------------
     S:TileEntity_DESCRIPTION_31074_Index_04=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_31074_Index_05=添加者: §2Alkalus §7- §c[GT++]
-    S:TileEntity_DESCRIPTION_31074_Secondary_Index_00=大小(宽x高x长)：3x9x3
+    S:TileEntity_DESCRIPTION_31074_Secondary_Index_00=大小(宽x高x长)：7x9x7
     S:TileEntity_DESCRIPTION_31074_Secondary_Index_01=结构：
     S:TileEntity_DESCRIPTION_31074_Secondary_Index_02=   控制器：  顶层中央
     S:TileEntity_DESCRIPTION_31074_Secondary_Index_03=   剩余方块为加强等离子涡轮机械方块(至少360个！)
@@ -14412,7 +14412,7 @@ languagefile {
     S:fluid.molten.lithium=熔融锂
     S:fluid.molten.lithium7=熔融锂-7
     S:fluid.molten.lithiumfluoride=氟化锂
-    S:fluid.molten.lithiumtetrafluoroberyllatelftb=四氟铍酸锂(LFTB)
+    S:fluid.molten.lithiumtetrafluoroberyllatelftb=四氟铍酸锂(LTFB)
     S:fluid.molten.longasssuperconductornameforuhvwire=熔融UHV超导粗胚
     S:fluid.molten.longasssuperconductornameforuvwire=熔融UV超导粗胚
     S:fluid.molten.ludicrite=熔融纯镥
@@ -14571,7 +14571,7 @@ languagefile {
     S:fluid.molten.thaumium=熔融神秘锭
     S:fluid.molten.thorium=熔融钍
     S:fluid.molten.thorium232=熔融钍-232
-    S:fluid.molten.thoriumberylliumdepletedmoltensalttbsalt=枯竭铀铍熔盐
+    S:fluid.molten.thoriumberylliumdepletedmoltensalttbsalt=枯竭钍铍熔盐
     S:fluid.molten.thoriumdepletedmoltensalttsalt=枯竭钍熔盐
     S:fluid.molten.thoriumhexafluoride=六氟化钍
     S:fluid.molten.thoriumtetrafluoride=四氟化钍
@@ -38932,7 +38932,7 @@ languagefile {
     S:gt.metaitem.01.30673.name=甲醇单元
     S:gt.metaitem.01.30673.tooltip=CH₄O
     S:gt.metaitem.01.30674.name=一氧化碳单元
-    S:gt.metaitem.01.30674.tooltip=Co
+    S:gt.metaitem.01.30674.tooltip=CO
     S:gt.metaitem.01.30675.name=木炭副产单元
     S:gt.metaitem.01.30675.tooltip=
     S:gt.metaitem.01.30677.name=乙烯单元
@@ -58816,7 +58816,7 @@ languagefile {
     S:itemCellLiquidHydrogen=液氢单元
     S:itemCellLithiumFluoride=氟化锂单元
     S:itemCellLithiumPeroxide=过氧化锂单元
-    S:itemCellLithiumTetrafluoroberyllateLFTB=四氟铍酸锂(LFTB)单元
+    S:itemCellLithiumTetrafluoroberyllateLFTB=四氟铍酸锂(LTFB)单元
     S:itemCellManureSlurry=粪浆单元
     S:itemCellMaragingSteel250=马氏体时效钢250单元
     S:itemCellMaragingSteel300=马氏体时效钢300单元
@@ -58882,7 +58882,7 @@ languagefile {
     S:itemCellThallium=铊单元
     S:itemCellThorium=钍单元
     S:itemCellThorium232=钍-232单元
-    S:itemCellThoriumBerylliumDepletedMoltenSaltTBSalt=枯竭铀铍熔盐单元
+    S:itemCellThoriumBerylliumDepletedMoltenSaltTBSalt=枯竭钍铍熔盐单元
     S:itemCellThoriumDepletedMoltenSaltTSalt=枯竭钍熔盐单元
     S:itemCellThoriumHexafluoride=六氟化钍单元
     S:itemCellThoriumTetrafluoride=四氟化钍单元
@@ -59985,7 +59985,7 @@ languagefile {
     S:itemRodLFTRFuel3=液态氟钍反应堆燃料3杆
     S:itemRodLafiumCompound=路菲恩化合物杆
     S:itemRodLaurenium=劳伦姆合金杆
-    S:itemRodLithiumTetrafluoroberyllateLFTB=四氟铍酸锂(LFTB)杆
+    S:itemRodLithiumTetrafluoroberyllateLFTB=四氟铍酸锂(LTFB)杆
     S:itemRodMaragingSteel250=马氏体时效钢250杆
     S:itemRodMaragingSteel300=马氏体时效钢300杆
     S:itemRodMaragingSteel350=马氏体时效钢350杆
