@@ -825,7 +825,7 @@ gtnh.quest205.name=货运火箭:纯粹是为了好玩
 gtnh.quest205.desc=不需要仅仅为了运输矿物,而亲自飞到遥远的行星去.%n%n§3实用性:有待商榷.
 
 # Quest.206 - §c§l[OUTDATED]§r Turning A Into B With C
-gtnh.quest206.name=§a§l[过期]§r用C把A变成B
+gtnh.quest206.name=§c§l[过期]§r用C把A变成B
 gtnh.quest206.desc=用能量改变分子!这个机器最重要的作用就是制作"小块阳光化合物".%n%n比较有用的配方如下:%n萤石 -> 阳光化合物%n红石 -> 红宝石(出铬)%n碳粉 -> 石墨粉%n下界石英 -> 赛特斯石英(要是你的AE系统还缺的话)%n奶酪 -> 奶酪凝乳(不上天挑战,获取奶酪矿石来种植太空作物)%n金 -> 铂(如果你的能量多得没地方用,又不想浪费的话)%n%n§3顺便一提,C=EU.
 
 # Quest.207 - §a§lTurret Base Tier 4
@@ -870,8 +870,7 @@ gtnh.quest216.desc=最后一个可靠的常规能源. 不要在你的EV级发电
 
 # Quest.217 - §b§lFinal choice: Personal Dimension
 gtnh.quest217.name=§b§l最终的选择:私人维度
-// --- //gtnh.quest217.desc=厌倦了你基地里面的怪物？想在一些特别的地方来建造你的新家？比如一个私有维度？ 那么现在这就是你的机会,你只有一次选择的机会!%n%n§3PS： 深渊世界也是一片虚空,所以可能你更倾向于花园世界.%n%n§4如果发现你的花园或者虚空世界有bug,那太遗憾了,我们无法修复这些bug. 这些bug包括血魔法无法运行、区块重置、AE2吞东西或复制物品等等...但还是香啊...(不过这些bug通常都是在forge服务器或thermos服务器出现.)%n%n译者注：还有AE2面板无法正常开始自动合成、巫术仪式失效等...
-// +++ //gtnh.quest217.desc=Tired of mobs in your base? Want to build somewhere... different? Probably in a personal dimension? Then this is your chance. But choose wisely; You can only pick one option.%n%nWhen you first activate the portal, you can configure the world to your liking: it can be a void world, or any superflat world as long as it only consists of blocks such as grass, stone, cobblestone, bedrock, etc.%nBe careful! Once you configure the world, you can only change the cosmetic settings such as sky color by shift-right clicking the portal.%nEditing world generation settings after the world is created is only possible if a server administrator unlocks it for you via the /pspace allow-worldgen-change DIMID command.%n%n§3PS: The Last Millenium is also a void dim.%n%n§2If you're used to the buggy garden/void dimensions from UtilityWorlds, this is now a new mod that should resolve most of the previously known issues with blood magic, etc.
+gtnh.quest217.desc=厌倦了你基地里面的怪物？想在一些特别的地方来建造你的新家？比如一个私有维度？ 那么现在这就是你的机会,你只有一次选择的机会!%n%n当你首次激活传送门时,你可以把这个私人维度设置成你想要的样子：可以是一个虚空世界,或是任意超平坦世界,只由类似草方块、石头、圆石、基岩等方块构成.%n请注意! 完成世界的设置后,你就只能改变渲染设置了(Shift+右键传送门),比如天空颜色.%n只有服务器管理员为你解锁之后,你才可以再次编辑世界生成设置 (指令为/pspace allow-worldgen-change DIMID).%n%n§3PS：深渊世界也是一片虚空.%n%n§2如果你之前用的是UtilityWorlds这个mod的bug花园或bug虚空世界的话,现在这是个新mod,应该解决了大部分的已知问题(比如已有issue的血魔法相关问题,等等...).
 
 # Quest.218 - §b§lFinal Choice: Loot
 gtnh.quest218.name=§b§l最终的选择:奖励包
@@ -1047,18 +1046,15 @@ gtnh.quest260.desc=我已经掌握了基本的魔法知识.师傅给我讲过一
 
 # Quest.261 - An Awesome Magic Conductor
 gtnh.quest261.name=可怕的魔法载体
-// --- //gtnh.quest261.desc=这些眼泪...哇!我从来没有见过如此强大的东西. 可能...我可能可以用它来制作一根新的法杖？
-// +++ //gtnh.quest261.desc=These tears, WOW! I've never felt something so strong. Could it be? Could I make an even more powerful wand with these?
+gtnh.quest261.desc=这些眼泪...哇!我从来没有见过如此强大的东西. 可能...我可能可以用它来制作一根更强大的法杖？
 
 # Quest.262 - An Even Better Conductor?
 gtnh.quest262.name=一根更好的法杖？
 gtnh.quest262.desc=更多...我想要更多! 一定有什么更强大、更古老的东西比九头蛇更加强大.
 
 # Quest.263 - A Silverwood Wand at Last
-// --- //gtnh.quest263.name=还没成功
-// +++ //gtnh.quest263.name=A Silverwood Wand at Last
-// --- //gtnh.quest263.desc=我尝试把巫妖之骨和这个新的杖柄结合在一起.结果在几秒钟内它们就化成了一堆灰烬.我想我需要一种更好的魔导介质. 暮色森林的九头蛇有很强的再生能力-他们能再生整颗头颅! 它的血液里面一定含有大量的魔法.我想下一根法杖我们需要一点.
-// +++ //gtnh.quest263.desc=I tried to combine the lich bones I had with a silverwood rod. The result: A pile of ashes. It crumbled to dust within seconds. I need a better conductor. The hydra in the Twilight Forest has the ability to regrow an entire head! Her blood must contain a large amount of magic. I guess I need a bit of that to finally complete my silverwood wand.
+gtnh.quest263.name=最后,一柄银树法杖
+gtnh.quest263.desc=我尝试把巫妖之骨和这个银树杖柄结合在一起.结果在几秒钟内它们就化成了一堆灰烬.我想我需要一种更好的魔导介质. 暮色森林的九头蛇有很强的再生能力-他们能再生整颗头颅! 它的血液里面一定含有大量的魔力.我想我们需要一点来完成我们的银树法杖.
 
 # Quest.264 - Obsidian Rod
 gtnh.quest264.name=黑曜石杖柄
@@ -1069,10 +1065,8 @@ gtnh.quest265.name=创造更好的法杖
 gtnh.quest265.desc=虽然你的宏伟之木法杖很不错,但是它的缺点也很明显-只能存储50点VIS.我试图使用缸中节点这个魔法来移动节点,但是失败了. 但是我发现了一些其他比较常见的材料可以用来制造一些新的法杖杖芯.
 
 # Quest.266 - More Energetic Screws
-// --- //gtnh.quest266.name=更加耐用的螺丝
-// +++ //gtnh.quest266.name=More Energetic Screws
-// --- //gtnh.quest266.desc=由于这些杖柄可以容纳更多的魔力,因此我在尝试使用那些不锈钢螺丝固定这些杖柄的时候它们都融化了. 所以我需要一种更加耐用的材料,我想我应该试试钛.
-// +++ //gtnh.quest266.desc=Those stainless steel screws don't work on these rods. Due to the huge amounts of vis those wands can carry, the screws somehow "melt" away. I need a material that can handle these energies. I should try energetic alloy next.
+gtnh.quest266.name=更具活性的螺丝
+gtnh.quest266.desc=由于这些杖柄可以容纳更多的魔力,因此,当我尝试使用那些不锈钢螺丝固定这些杖柄的时候,它们都融化了. 所以我需要一种新材料,可以兼容这些活性能量的材料,我想我应该试试充能合金.
 
 # Quest.267 - Quartz Rod
 gtnh.quest267.name=石英杖柄
@@ -2208,8 +2202,7 @@ gtnh.quest549.desc=在化学反应釜中通过氢气将硫化轻燃油转化成�
 
 # Quest.550 - §5§lH for Hydrogen... the Rest of the Alphabet is Too Complicated...
 gtnh.quest550.name=§5§lH代表氢...字母表的其余部分太复杂了!
-// --- //gtnh.quest550.desc=用离心机离心黄褐铁矿石或者棕褐铁矿石来获得一些氢气,或者在电解机里面点解水也可以,不过可能比较费电.
-// +++ //gtnh.quest550.desc=Centrifuge some brown or yellow limonite dust, or use an Electrolyser with water to get some hydrogen.%n%nThere are many other ways of obtaining hydrogen which you might want to look into. Some are only available much later.%n%nExamples are: chemical processing or electrolysis of methane obtained from organic sources, electrolysis of water or salt water, mixing sodium with water, or eventually siphoning hydrogen directly from a gas giant.
+gtnh.quest550.desc=用离心机处理黄褐铁矿石或者棕褐铁矿石,即可获得一些氢气,或者在电解机里面电解水也可以,不过可能比较费电.%n%n你可能想寻找更多其他获取氢气的方法.不过其中部分得在很久之后才能解锁.%n%n例如：水化或电解甲烷(生物来源)、电解水或盐水(将钠与水混合),或是后期直接从气态巨行星抽取氢气.
 
 # Quest.551 - §5§lHeavy Sulfuric Fuel
 gtnh.quest551.name=§5§l含硫重燃油
@@ -2405,8 +2398,7 @@ gtnh.quest598.desc=要得到电池所需的锑,最有效率的方法是用砖高
 
 # Quest.599 - §5§lThermal Centrifuge
 gtnh.quest599.name=§5§l热力离心机
-// --- //gtnh.quest599.desc=想从粉碎矿石或者纯净矿石粉中获得不同的副产物,热力离心机是个选择.%n%n热力离心机还是回收IC2核反应堆产物-枯竭燃料棒的唯一方式.%n%n它还可以从粉碎锌矿石中获取小撮镓,这是不错的电路上的二极管的必需品. 打粉离心过后的闪锌矿,在粉碎机第二格内也有几率出现镓.%n%n如果你无法稳定提供2A的LV电能,等你到达MV后,将MV变压成LV再使用它吧.%n%n§4但是,直接将MV电压输入LV机器,就算机器消耗不止1A也会导致爆炸,所以请勿这样操作.
-// +++ //gtnh.quest599.desc=A machine to get different byproducts out of your crushed or purified ore dust. It's useful for getting a bit of Gallium out of crushed Zinc Ore for your Diodes needed in good circuits.%n%nWhen you have IC2 nuclear reactors and want to recycle your depleted fuel rods, it's the only way to do so.%n%nIf you can't produce the 2A of LV power for this machine right now, wait until you get to MV and use transformers to power an LV version.%n%nIn LV, you can obtain the same ore byproducts via different methods. The Thermal Centrifuge only becomes really important in HV when you can combine it with the HV macerator.%n%n§4Sending MV power to an LV device, even if it uses more than 1A will cause an explosion, so don't do that.
+gtnh.quest599.desc=想从粉碎矿石或者纯净矿石粉中获得不同的副产物,热力离心机是个选择.%n%n热力离心机还是回收IC2核反应堆产物-枯竭燃料棒的唯一方式.%n%n它还可以从粉碎锌矿石中获取一点点镓,这是不错的电路板上二极管的必需品. 打粉离心过后的闪锌矿,在粉碎机第二格内也有几率出现镓.%n%n如果你无法稳定提供2A的LV电能,等你到达MV后,将MV变压成LV再使用它吧.%n%n在LV阶段,你也可以通过不同的方法获得相同的矿石副产物.热力离心机,只有和HV以上研磨机结合使用,才会显出其真正的价值.%n%n§4直接将MV电压输入LV机器,就算机器消耗不止1A也会导致爆炸,所以请勿这样操作.
 
 # Quest.600 - Hunger No More
 gtnh.quest600.name=不再饥饿
@@ -2993,15 +2985,12 @@ gtnh.quest745.name=§5§l胶水
 gtnh.quest745.desc=离心粘性树脂,可以得到一些胶水.在制作不错的集成电路时胶水非常有用.%n%n§3请注意这是GT胶水,并非匠魂胶水.
 
 # Quest.746 - §6§lSolar Grade Ingots
-// --- //gtnh.quest746.name=§6§l硅
-// +++ //gtnh.quest746.name=§6§lSolar Grade Ingots
-// --- //gtnh.quest746.desc=所有单晶硅的生产都需要硅(这是一句废话),以及所有的晶圆、芯片和电路板生产都离不开硅. 因此,硅是一种§o极端重要的材料§r.%n%n有许多方法可以获得硅,比如离心或电解多种没啥用的材料(比如方钠石这种).红石或者粘土里都可以产出硅,但如果你想要个刷硅产线的话,我们建议通过刷沙子或燧石粉,产出玻璃粉,进而获取二氧化硅.%n%n石棉、漂白土的处理过程中,也可以获得副产物硅.%n%n你需要使用工业高炉来将硅粉制作成为硅锭. 制作硅锭需要2000mb氧,并且工业高炉达到1600K的炉温,拥有120EU/t的功率,若是使用生硅需要耗时80秒.§6而若是用二氧化硅和碳粉,就只需12秒!§r很多时候,在使用NEI时多翻几页,往往能找到更优选择.
-// +++ //gtnh.quest746.desc=To turn your solar grade dust into solar grade ingots you need to use an EBF with kanthal coils and then cool the resulting hot ingots in a chemical bath.
+gtnh.quest746.name=§6§l太阳能级锭
+gtnh.quest746.desc=想要将你的太阳能级粉,转化为太阳能级锭,你需要一台至少坎塔尔合金线圈的工业高炉,并将产出的热锭在化学浸洗机中冷却.
 
 # Quest.747 - §5§lDiodes
 gtnh.quest747.name=§5§l二极管
-// --- //gtnh.quest747.desc=优质的电子电路板需要二极管.有两种主要方法可以制造它们.现在你只能用砷化镓处理细铜导线和熔融玻璃来获得二极管.稍后,当你拥有了工业高炉,你就能制作硅晶圆,用它替代砷化镓可以实现增产. 请注意,晶圆比镓更容易获得,因此即使减少晶圆数量也是值得的.%n%n老生常谈,时时检查NEI(特别是解锁了新材料后),不要一个合成表用一辈子.%n有了聚乙烯之后,你就能用细退火铜导线替代细铜导线,实现再次增产.  
-// +++ //gtnh.quest747.desc=Good circuits need diodes. There are two main ways to craft them. You can crush your the Gallium Arsenide crystals to dust and combine that with fine copper wires and molten glass. Once you have solar grade silicon you can use it to make silicon wafers in your EBF to make even more. Note that the wafers are much more efficient on gallium and arsenic, so even a reduced amount is still worth it.%n%nMake sure you check all the NEI recipes for advanced items instead of just using the first one you find. You can use annealed copper wires and polyethylene to increase your output even more. %n
+gtnh.quest747.desc=优质的电子电路板需要二极管.有两种主要方法可以制造它们.你可以将砷化镓晶体打粉后与细铜导线和熔融玻璃结合来获得二极管.等到你拥有了太阳能级硅后,你就能在工业高炉中制造单晶硅,处理得到硅晶圆. 请注意,晶圆可以大大提高镓和砷的利用效率,因此即使减少晶圆数量也是值得的.%n%n老生常谈,时时检查NEI(特别是解锁了新材料后),不要一个合成表用一辈子.%n有了聚乙烯之后,你就能用细退火铜导线替代细铜导线,实现再次增产.
 
 # Quest.748 - §5§lEmpty Circuit Board
 gtnh.quest748.name=§5§l电路基板
@@ -3021,8 +3010,7 @@ gtnh.quest751.desc=想要进阶HV阶段,MV搅拌机不容错过.同时还解锁�
 
 # Quest.752 - §6§lSilicon Plate
 gtnh.quest752.name=§6§l硅板
-// --- //gtnh.quest752.desc=高级电路板需要蚀刻高压电路(晶体管),由硅板、细锡导线,及液态聚乙烯	制成.
-// +++ //gtnh.quest752.desc=Advanced circuits require transistors, which are made out of high grade silicon plates, fine tin wire and molten polyethylene.
+gtnh.quest752.desc=高级电路板需要蚀刻高压电路(晶体管),由高能级硅板、细锡导线,及液态聚乙烯	制成.
 
 # Quest.753 - §6§lStainless Steel EBF processing
 gtnh.quest753.name=§6§l不锈钢与工业高炉
@@ -3054,8 +3042,7 @@ gtnh.quest759.desc=聚乙烯由乙烯和氧气在化学反应釜中制成.%n一�
 
 # Quest.760 - §6§lClay Electrolyzing
 gtnh.quest760.name=§6§l电解粘土
-// --- //gtnh.quest760.desc=翻阅NEI的过程中,你应该发现了电解粘土可以为你带来氧化铝、硅、钠和锂粉.还有水...不过你应该会直接销毁,对吧? 在峡谷、台原和稀树沙漠(canyon-and-lush-desert)生物群系可以找到大量的有色粘土块,将之研磨成粘土粉.%n%n在MV阶段,有非常多的方式获取氧化铝,足以支持你达到EV阶段.
-// +++ //gtnh.quest760.desc=If you looked through NEI you may have found out that electrolyzing clay dust will give you Alumina, Silicon Dioxide, Sodium, and Lithium dust. And water, but you're probably just voiding that already, right? There's plenty of stained clay blocks found in canyon, mesa, lush desert biomes or several to a couple dozen on mountains that can be pulverized to clay dust.%n%nThere's more ways to get alumina now that you're in MV, enough that it's basically worthless by the time you get to EV.
+gtnh.quest760.desc=翻阅NEI的过程中,你应该发现了电解粘土可以为你带来氧化铝、二氧化硅、钠和锂粉.还有水...不过你应该会直接销毁,对吧? 在峡谷、台原和稀树沙漠(canyon-and-lush-desert)生物群系可以找到大量的有色粘土块,将之研磨成粘土粉.%n%n在MV阶段,有非常多的方式获取氧化铝,足以支持你达到EV阶段.
 
 # Quest.761 - §6§lPowderbarrels
 gtnh.quest761.name=§6§l火药桶
@@ -3143,8 +3130,7 @@ gtnh.quest781.desc=这是获取木炭和杂酚油(比RC焦炉快50倍)以及其�
 
 # Quest.782 - §6§lMonocrystalline Silicon Boules
 gtnh.quest782.name=§6§l单晶硅
-// --- //gtnh.quest782.desc=制造晶圆之前,你必须先制造单晶硅.这一工序需要在工业高炉加入硅粉以及砷化镓粉,需时450秒.每个单晶硅可以制成16个晶圆.
-// +++ //gtnh.quest782.desc=To make wafers, you need to make monocrystalline silicon boules first. The process takes 450 seconds and requires solar grade silicon dust and a small gallium arsenide crystal in the electric blast furnace. You can make 16 wafers out of every boule.
+gtnh.quest782.desc=制造晶圆之前,你必须先制造单晶硅.这一工序需要在工业高炉加入太阳能级硅粉以及一个小型砷化镓晶体,用时450秒.每个单晶硅可以制成16个晶圆.
 
 # Quest.783 - §6§lWe Need Big Toys
 gtnh.quest783.name=§6§l我们需要些大家伙
@@ -3284,8 +3270,7 @@ gtnh.quest816.desc=登陆月球应该实现软着陆. 因此你需要一个频�
 
 # Quest.817 - Buggy Seat
 gtnh.quest817.name=车座
-// --- //gtnh.quest817.desc=登陆舱和月球车上面都需要车座才可以.
-// +++ //gtnh.quest817.desc=The buggy seat is part of the Moon lander.
+gtnh.quest817.desc=车座是登陆舱的组件之一.
 
 # Quest.818 - Frequency Module
 gtnh.quest818.name=频率模块
@@ -3360,10 +3345,8 @@ gtnh.quest835.name=§5§4§3§l电阻
 gtnh.quest835.desc=每个电路板都需要两个电阻.%n%n稍后你还可以制造更好版本的电阻.
 
 # Quest.836 - §5§lGallium Arsenide Crystal
-// --- //gtnh.quest836.name=§5§l砷化镓
-// +++ //gtnh.quest836.name=§5§lGallium Arsenide Crystal
-// --- //gtnh.quest836.desc=二极管需要砷化镓,你可能想知道在游戏早期要如何获得砷化镓.%n%n在当前阶段,闪锌和锌是镓的主要来源.你可以用热力离心机从闪锌和锌中获取镓.%n%n你可以在Y轴5-20的硫矿脉中找到闪锌矿石,也可以在主世界或者下界Y轴80-210这个范围内找到贫瘠的锌矿石,从而得到粉碎的锌矿石.不过显然你不会在主世界寻找这种贫瘠矿的. 你最好带着匠魂的稿子,并且在稿子上面附魔一个时运从而增加产量(可能这是寻找方解石途中获得的青金石的最好用途).或者如果你不在意速度问题的话,可以使用采矿机.%n%n-电解闪锌矿有1/4的几率可以出产小撮镓. 这种方法不算很强,但获取闪锌矿比较简单. 如果你电解了一组闪锌只出了3小撮镓,务必到discord上抱怨抱怨,让我们开心开心.%n-粉碎的锌矿石可以洗矿-热离或锻造锤-再离心,同样可以获得小撮镓.但粉碎矿作为掉落物不算太常见,而含杂矿出不了镓.%n%n电解闪锌粉是镓的另一来源.你还可以培育锌蜜蜂,它有小概率生产出镓蜂窝.%n%n你可以在下界Y轴15-85的范围内你能找到贫瘠的雄黄矿石.离心雄黄粉可获得砷.%n%n砷的另一来源是匠魂在下界生成的钴矿石或暮色森林中的辉钴,不过这得等你到MV阶段才能处理.%n%n你需要把你的工具的采掘等级升级到至少阿迪特等级,或是制作一个铁木镐子才能开采钴矿石(其实LV采矿机也可以).%n%n另外一个获取镓和砷的好方法是用经验桶合成.(实在找不到的话)%n%n再把镓粉和砷粉在搅拌机中搅拌在一起,你就得到砷化镓粉末了.%n%n在下界,你可以在顶部放个GT采矿机,就可以很容易地得到那些你需要的贫瘠矿了.
-// +++ //gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a 25% chance of a tiny pile. It's not great, but it's easier to collect the ore. Make sure to go onto discord to complain about how you electrolyzed a stack to only get 3 tiny piles along with everyone else.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest. You can use your EBF for that. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nWith your EBF you can combine these two dusts to make a Gallium Arsenide Crystal.
+gtnh.quest836.name=§5§l砷化镓晶体
+gtnh.quest836.desc=二极管需要砷化镓,你可能想知道在游戏早期要如何获得砷化镓.%n%n在当前阶段,闪锌和锌是镓的主要来源.你可以用热力离心机从闪锌和锌中获取镓.%n%n你可以在Y轴5-20的硫矿脉中找到闪锌矿石,也可以在主世界或者下界Y轴80-210这个范围内找到贫瘠的锌矿石,从而得到粉碎的锌矿石.不过显然你不会在主世界寻找这种贫瘠矿的. 你最好带着匠魂的稿子,并且在稿子上面附魔一个时运从而增加产量(可能这是寻找方解石途中获得的青金石的最好用途).或者如果你不在意速度问题的话,可以使用采矿机.%n%n-电解闪锌矿有1/4的几率可以出产小撮镓. 这种方法不算很强,但获取闪锌矿比较简单. 如果你电解了一组闪锌只出了3小撮镓,务必到discord上抱怨抱怨,让我们开心开心.%n-粉碎的锌矿石可以洗矿-热离或锻造锤-再离心.但粉碎矿作为掉落物不算太常见,而含杂矿出不了镓.%n%n电解闪锌粉是镓的另一来源.你还可以培育锌蜜蜂,它有小概率生产出镓蜂窝.%n%n你可以在下界Y轴15-85的范围内你能找到贫瘠的雄黄矿石.离心雄黄粉可获得砷.%n%n砷的另一来源是匠魂在下界生成的钴矿石或暮色森林中的辉钴,你可以用工业高炉来处理它们.你还需要把你的工具的采掘等级升级到至少阿迪特等级,或是制作一个铁木镐子才能开采钴矿石(其实LV采矿机也可以).%n%n另外一个获取镓和砷的好方法是用经验桶合成.(实在找不到的话)%n%n将这两种粉在工业高炉中煅烧结合,即可制得砷化镓晶体.
 
 # Quest.837 - §6§lILC and RAM
 gtnh.quest837.name=§6§l集成逻辑电路和随机存取芯片
@@ -3779,8 +3762,7 @@ gtnh.quest939.desc=你的锄头现在肯定已经磨坏了!为什么不制作一
 
 # Quest.940 - §6§lCleanroom
 gtnh.quest940.name=§6§l超净间
-// --- //gtnh.quest940.desc=更加先进(也更加洁净!)的电路板需要在无尘环境下才能制作.为了得到无尘环境我们需要超净间. 超净间整体为大小在3x4x3到15x15x15之间的中空多方块结构.超净间的地板和墙壁需要使用塑料混凝土方块来搭建.在底层和墙壁方块中,需要放置1个维护仓、1个MV能源仓、3个MV机器外壳(可选,用于自动化)和1扇IC2的防爆门(是的,不管你需不需要从门进出,总归还得装个门).防爆门可以通过压力板来控制开关. 过滤机械方块来作为超净间的天花板.在天花板的中央位置放置超净间控制器,控制器必须要放在正中间,因此超净间的长宽必须为奇数. 能源仓和机器外壳都可以使用不同等级的方块替换,目前我们使用MV等级的.它们可用于能量输入、物品输入/输出.机器外壳的等级不会影响物品传输的速度,所以就用最便宜的好了.%n%n让我们来搭建一个5x5x5的超净间.垂直方向的扩展很容易,只要不超过最大高度即可,而水平方向的扩展,需要注意让X和Z即长宽为奇数.防爆玻璃可以替换不超过5％的塑料混凝土方块,这样超净间就可以有窗户了,可以在外面就能看到内部机器状态.%n%n你可以通过超净间墙壁上的机器外壳与内部交互,传送材料,输送1A的电力.你还可以用线缆二极管来输送多A电力.%n%n但是在为你的内部机器更新换代时你要万分小心.务必拆下旧的机器外壳和线缆二级管然后用新的更高电压的替换,否则你一定会很伤心的.如果只是用于传输物品,那就不用管等级的事.%n%n如果超净间有维护问题,它就有几率吞掉在其中制作的物品(每个维护问题增加10％几率!).用便携式扫描仪、工业信息屏或维护提示覆盖板来监控你的超净间.%n%n另外,门开的时间越长,洁净度就越低,而这与是否吞东西直接相关.所以尽可能少开门!而且有些方法比如,电梯或旅行锚,完全不需要开门就能进出!%n%n§3多方块机器如大型化学反应釜、大型加工厂或是处理阵列都可以提供超净环境,所以这些机器无需放入超净间.你无法在处理阵列中使用生物实验室,所以在后期你还是会需要超净间的.%n%n其他有用的提示: 直接在超净间内发电、使用AE的无线接入器或矢量变换接口跳过机器外壳、而且你可以升级能源仓以更快地达到100％效率(达到满效率的耗能不变).
-// +++ //gtnh.quest940.desc=If you want to make more advanced (also cheaper!) circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. Besides plascrete blocks for all edges you'll need a controller in the top center, filter machine casings for the rest of the top except edges, an energy and maintenance hatch, a reinforced door (yes, this is always needed) and machine hulls if you want to automate. These are optional, for now, use them for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to 5% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines.%n%nYou can pass materials through the walls using Machine Hulls. You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through.%n%nJust be really careful when upgrading your machines. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don't need to do this for ones you only use to pass items through.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%nAdditionally, the longer the door is open, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible! There are ways around this though, for example, with an elevator or travel anchor, you never actually need to open the door!%n%n§3Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one. You cannot use the bio lab in a PA, so you'll still need the cleanroom later on.%n%nOther helpful hints include: using a wireless connector for AE or a transvector interface to skip machine hulls, and that you can use higher tier energy hatches to reach 100% efficiency faster (does not use more power once at 100%).%n%n§cKeep in mind that you cannot use anything in the cleanroom that causes pollution or it will break down.
+gtnh.quest940.desc=更加先进(也更加洁净!)的电路板需要在无尘环境下才能制作.为了得到无尘环境我们需要超净间. 超净间整体为大小在3x4x3到15x15x15之间的中空多方块结构.超净间的地板和墙壁需要使用塑料混凝土方块来搭建.在底层和墙壁方块中,需要放置1个维护仓、1个MV能源仓、3个MV机器外壳(可选,用于自动化)和1扇IC2的防爆门(是的,不管你需不需要从门进出,总归还得装个门).防爆门可以通过压力板来控制开关. 过滤机械方块来作为超净间的天花板.在天花板的中央位置放置超净间控制器,控制器必须要放在正中间,因此超净间的长宽必须为奇数. 能源仓和机器外壳都可以使用不同等级的方块替换,目前我们使用MV等级的.它们可用于能量输入、物品输入/输出.机器外壳的等级不会影响物品传输的速度,所以就用最便宜的好了.%n%n让我们来搭建一个5x5x5的超净间.垂直方向的扩展很容易,只要不超过最大高度即可,而水平方向的扩展,需要注意让X和Z即长宽为奇数.防爆玻璃可以替换不超过5％的塑料混凝土方块,这样超净间就可以有窗户了,可以在外面就能看到内部机器状态.%n%n你可以通过超净间墙壁上的机器外壳与内部交互,传送材料,输送1A的电力.你还可以用线缆二极管来输送多A电力.%n%n但是在为你的内部机器更新换代时你要万分小心.务必拆下旧的机器外壳和线缆二级管然后用新的更高电压的替换,否则你一定会很伤心的.如果只是用于传输物品,那就不用管等级的事.%n%n如果超净间有维护问题,它就有几率吞掉在其中制作的物品(每个维护问题增加10％几率!).用便携式扫描仪、工业信息屏或维护提示覆盖板来监控你的超净间.%n%n另外,门开的时间越长,洁净度就越低,而这与是否吞东西直接相关.所以尽可能少开门!而且有些方法比如,电梯或旅行锚,完全不需要开门就能进出!%n%n§3多方块机器如大型化学反应釜、大型加工厂或是处理阵列都可以提供超净环境,所以这些机器无需放入超净间.你无法在处理阵列中使用生物实验室,所以在后期你还是会需要超净间的.%n%n其他有用的提示: 直接在超净间内发电(清洁能源)、使用AE的无线接入器或矢量变换接口跳过机器外壳、而且你可以升级能源仓以更快地达到100％效率(达到满效率的耗能不变).%n%n§c请注意：现在超净间内任何会产生污染的机器,都会导致洁净度清零.
 
 # Quest.941 - §6§lA Very Useful Scanner
 gtnh.quest941.name=§6§l一个非常有用的扫描仪
@@ -4816,8 +4798,7 @@ gtnh.quest1198.desc=MK2型反应堆虽然很好,但是既然可以将反应堆�
 
 # Quest.1199 - Making Americium
 gtnh.quest1199.name=制造镅
-// --- //gtnh.quest1199.desc=将反应堆升级到MK3需要用到镅. 可能你会感觉这个配方很贵,但是如果你做出了MK3型反应堆,你将会得到一个简单,而又便宜的配方. MK3型反应堆至少需要128块镅板(实际测下来最少316,最多432),以及控制电脑MK-III需要的13个镅(9个用来扫描以获得合成表,4个用来合成.)
-// +++ //gtnh.quest1199.desc=To upgrade your reactor further and to make UV motors, you will need to get some americium. The recipe is pretty expensive, but once you made the next tier of reactor, you will unlock a simpler and cheaper one. However, to get there you will need a lot of americium already, so better make sure you are producing enough lutetium.%n%nLet's start with just 48 ingots. Enough for a single UV motor.
+gtnh.quest1199.desc=想要将反应堆进一步升级,并可以制造UV电动马达,需要用到一些镅. 这个配方很贵,但是如果你造出了MK3型反应堆,你将会得到一个简单,而又便宜的配方.不过在此之前,你需要大量的镅,所以最好确保你的镥库存充足.MK3型反应堆至少需要128块镅板(实际测下来最少316,最多432),以及控制电脑MK-III需要的13个镅(9个用来扫描以获得合成表,4个用来合成.)%n%n让我们从48个锭开始吧,刚好够一个UV电动马达.
 
 # Quest.1200 - §d§l§f§c§lMaking Power With Your Plasma
 gtnh.quest1200.name=§d§l§f§c§l利用等离子体发电
@@ -4825,8 +4806,7 @@ gtnh.quest1200.desc=现在,你已经拥有了一个聚变反应堆,是时候利�
 
 # Quest.1201 - §a§b§c§d§e§f§d§l§l§c§lTurbine Time
 gtnh.quest1201.name=§a§b§c§d§e§f§d§l§l§c§l涡轮时间
-// --- //gtnh.quest1201.desc=你崭新的等离子涡轮需要一个全新的转子来驱动它.%n%n你可以使用任何GT材料制造涡轮,但是目前涡轮的最佳材料是普通龙锭.  三钛材质的涡轮将提供最大的EU/t输出. 而中子材质的涡轮将提供最高的耐久,但是效率比较低,整体的涡轮机功率将比较小. 觉醒龙锭材质的涡轮将会提供比较平衡的属性.§4请先在创造模式测试!§r%n%n使用涡轮时,需要注意流速.而所谓最佳流速,即涡轮所列不同燃料的最佳流量,除以对应的燃值.你还可以直接用大型涡轮计算器(Large-Turbine-Calculator)[在主数据表格(spreadsheet)内有个链接,指向discord中的计算器];还可以在大型涡轮运行时(只需要提供很少的燃料让它动起来就行),直接扫描主方块,即可获知该涡轮转子使用某种燃料对应的最佳流速. 使用流体校准器或流体流量调节机,确保所提供的燃料速度与涡轮的最佳流速匹配,以发挥最高的燃料效率;不过你也可以选择超出此最佳流速,以降低效率为代价,获得更高的电压输出,而蒸汽涡轮在超出最佳流速后的效率保持是最差的.在HV阶段,你可能需要使用IC2的流体流量调节机,HV阶段以后就能使用流体校准器覆盖板了.%n%n再次重复,当你为涡轮提供超过最佳流速的燃料时(称之为超载状态),涡轮的输出电压提高,但燃料效率降低,同时最高输出电压取决于涡轮转子类型及其超载效率等级.对于等离子涡轮,超载效率等级1：最高超载250％,输出功率158％;超载效率等级2：最高超载400％,输出功率214％;超载效率等级3：最高超载550％,输出功率301％.越接近超载极限,损失的燃料效率越多.%n%n决定权在你!%n%n译者注：计算流量时注意单位换算,并向上取整.
-// +++ //gtnh.quest1201.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it. %n%nYou can make it out of any GT material, but the best right now is NORMAL Draconium. §4Always test in Creative first!§r%n%nWhen using turbines, be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. You can also use the Large Turbine Calculator (there's a link on the main spreadsheet, which is linked to in discord), or scan the multiblock's controller while feeding it a minimal amount of plasma to see what the optimal flow is. Make sure to use a Fluid Regulator set to this flow rate for highest fuel efficiency, or go beyond it to get more EU/t at a cost to efficiency, with Plasma Turbines being the best at retaining efficiency beyond the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 250% of optimal flow to produce 158% of the EU/t, tier 2 reaches the max at 400% of optimal flow to produce 214% of the EU/t and tier 3 reaches the max at 550% of optimal flow to produce 301% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nThe choice is yours!%n%n§3For a lot of extra information on fusion, check out the new quest line called Powerful Nuclear Physics.
+gtnh.quest1201.desc=你崭新的等离子涡轮需要一个全新的转子来驱动它.%n%n你可以使用任何GT材料制造涡轮,但是目前涡轮的最佳材料是普通龙锭.  三钛材质的涡轮将提供最大的EU/t输出. 而中子材质的涡轮将提供最高的耐久,但是效率比较低,整体的涡轮机功率将比较小. 觉醒龙锭材质的涡轮将会提供比较平衡的属性.§4请先在创造模式测试!§r%n%n使用涡轮时,需要注意流速.而所谓最佳流速,即涡轮所列不同燃料的最佳流量,除以对应的燃值.你还可以直接用大型涡轮计算器(Large-Turbine-Calculator)[在主数据表格(spreadsheet)内有个链接,指向discord中的计算器];还可以在大型涡轮运行时(只需要提供很少的燃料让它动起来就行),直接扫描主方块,即可获知该涡轮转子使用某种燃料对应的最佳流速. 使用流体校准器或流体流量调节机,确保所提供的燃料速度与涡轮的最佳流速匹配,以发挥最高的燃料效率;不过你也可以选择超出此最佳流速,以降低效率为代价,获得更高的电压输出,而蒸汽涡轮在超出最佳流速后的效率保持是最差的.在HV阶段,你可能需要使用IC2的流体流量调节机,HV阶段以后就能使用流体校准器覆盖板了.%n%n再次重复,当你为涡轮提供超过最佳流速的燃料时(称之为超载状态),涡轮的输出电压提高,但燃料效率降低,同时最高输出电压取决于涡轮转子类型及其超载效率等级.对于等离子涡轮,超载效率等级1：最高超载250％,输出功率158％;超载效率等级2：最高超载400％,输出功率214％;超载效率等级3：最高超载550％,输出功率301％.越接近超载极限,损失的燃料效率越多.%n%n决定权在你!%n%n译者注：计算流量时注意单位换算,并向上取整.%n%n§3关于聚变的更多额外信息,请查看新任务章节"强大的核物理".
 
 # Quest.1202 - I Put Fusion in Your Fusion so you Can Fusion While You Fusion
 gtnh.quest1202.name=套娃聚变(I Put Fusion in Your Fusion so you Can Fusion While You Fusion)
@@ -4969,16 +4949,12 @@ gtnh.quest1236.name=§9§lHV板材切割机
 gtnh.quest1236.desc=生产NOR、NAND和其他的高端芯片都需要用到HV级别的切割机.你还需要这台机器切割萤石掺杂的单晶硅.%n%n§3很快你就会发现,每种切割配方都需要超净间环境了,所以记得仔细查看NEI.
 
 # Quest.1237 - §a§9Phosphorus Doped Monocrystalline Silicon
-// --- //gtnh.quest1237.name=§a§9§l萤石掺杂的单晶硅
-// +++ //gtnh.quest1237.name=§a§9Phosphorus Doped Monocrystalline Silicon
-// --- //gtnh.quest1237.desc=传统的单晶硅制造方法相当昂贵. 因此我们研发了一种新的单晶硅制造方法,工业高炉通入氮气在不低于2484K的炉温下冶炼硅和萤石的搅拌粉末,这样你就可以得到掺杂了萤石的单晶硅. 这种单晶硅单个能够切割出32片晶圆!%n%n不幸的是,这些单晶硅需要的炉温超过了白铜线圈可以提供的炉温.%n你需要到"多方块结构"任务栏,依次获得超净间、真空冷冻机和坎塔尔线圈,然后你才能烧制单晶硅.%n%n译者注:幸运的是,高炉会随电压,在基础炉温的基础上调整实际炉温. 详情请参考"工业高炉时代"任务.%n%n更高级的单晶硅可以切出更多的晶圆,制成更多的芯片.但某些时候一些低阶单晶硅也是少不了的.
-// +++ //gtnh.quest1237.desc=To make more advanced wafers, you need to make phosphorus doped monocrystalline silicon first. The process takes a while, so make sure you have stable power.%n%nYou can also get more wafers, and thus more chips out of higher tier boules. You still need to make the lower tier ones sometimes though.
+gtnh.quest1237.name=§a§9磷掺杂的单晶硅
+gtnh.quest1237.desc=传统的单晶硅制造方法相当昂贵. 因此我们研发了一种新的单晶硅制造方法,工业高炉通入氮气在不低于2484K的炉温下煅烧硅和磷的混合粉末,这样你就可以得到掺杂了磷的单晶硅.%n%n不幸的是,这些单晶硅需要的炉温超过了白铜线圈可以提供的炉温.%n你需要到"多方块结构"任务栏,依次获得超净间、真空冷冻机和坎塔尔线圈,然后你才能烧制单晶硅.%n%n译者注:幸运的是,高炉会随电压,在基础炉温的基础上调整实际炉温. 详情请参考"工业高炉时代"任务.%n%n更高级的单晶硅可以切出更多的晶圆,制成更多的芯片.但某些时候一些低阶单晶硅也是少不了的.
 
 # Quest.1238 - Phosphorus Doped Wafer
-// --- //gtnh.quest1238.name=§9§l萤石掺杂的晶圆
-// +++ //gtnh.quest1238.name=Phosphorus Doped Wafer
-// --- //gtnh.quest1238.desc=想要将萤石掺杂的单晶硅切割成晶圆需要MV以上的切割机,并且需要保证切割环境绝对无尘. 未来技术更加先进的单晶硅会用到HV以上的切割机!
-// +++ //gtnh.quest1238.desc=To create some phosphorus doped silicon wafers, cut them in a cutting machine. An HV version of the cutting machine is needed for future wafers and chips.
+gtnh.quest1238.name=磷掺杂的晶圆
+gtnh.quest1238.desc=想要将磷掺杂的单晶硅切割成晶圆,需要MV以上的切割机,并且需要保证切割环境洁净无尘. 未来技术更加先进的单晶硅会用到HV以上的切割机!
 
 # Quest.1239 - §9§lNOR and NAND Chips
 gtnh.quest1239.name=§9§lNOR芯片和NAND芯片
@@ -5633,10 +5609,8 @@ gtnh.quest1401.name=升级你的核心
 gtnh.quest1401.desc=尝试为你的震击核心添加潜能. 在3级时,你可以添加闪电链或冲击波.
 
 # Quest.1402 - Oriharukon Screws
-// --- //gtnh.quest1402.name=铱螺丝
-// +++ //gtnh.quest1402.name=Oriharukon Screws
-// --- //gtnh.quest1402.desc=镀铬螺丝很好,但是如果通过它们的vis太多,它们似乎会破裂. 做一些铱螺丝吧.
-// +++ //gtnh.quest1402.desc=Enderium screws are nice, but they seem to break if too much vis channels through them. Get some Oriharukon screws.
+gtnh.quest1402.name=奥利哈钢螺丝
+gtnh.quest1402.desc=末影螺丝很好,但是如果通过它们的vis太多,它们似乎会破裂. 做一些奥利哈钢螺丝吧.
 
 # Quest.1403 - §9§lHV Steam Turbine
 gtnh.quest1403.name=§9§l高压蒸汽轮机
