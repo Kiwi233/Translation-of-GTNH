@@ -10717,10 +10717,8 @@ gtnh.quest2678.name=填色游戏
 gtnh.quest2678.desc=你需要用颜料刷才能把这些高大上的光缆涂上颜色.使用水桶去除涂色.%n%n另外,你也可以用IC2的刷子、GT喷漆罐,或是AE2的染色器.
 
 # Quest.2679 - Outsourcing the Soldering
-// --- //gtnh.quest2679.name=它能产生多少能量?
-// +++ //gtnh.quest2679.name=Outsourcing the Soldering
-// --- //gtnh.quest2679.desc=还有能源危机? 试试觉醒龙锭、无尽催化剂或者无尽.%n%n§3要是炸了可别怪我,好好计算流量与发电,或者先到单机创造模式测试一下.%n%n另外请注意,右侧的动力仓实际上是UHV的.
-// +++ //gtnh.quest2679.desc=Soldering some of your new advanced materials is difficult. But maybe the new bio-technology you have developed can help? You should create a living solder that can do it for you! It will adjust to any challenge and join your materials at an atomic level filling all the gaps!%n%nUse your Botmium Chemical Plant to make this Mutated Living Solder. The catalyst recipe requires infinity, so best upgrade your chemical plant to Tungstensteel Coils and at least Awakened Draconium Coils to remove the durability loss on the catalyst.
+gtnh.quest2679.name=外协焊料
+gtnh.quest2679.desc=某些高新材料焊接起来比较困难.但也许你开发的新-生物技术焊料可以搞定? 你创造出的这种活性焊料完全可以胜任!它将适应任何挑战,并从原子级填补材料间隙!%n%n使用博特姆合金级化工厂制造突变活性焊料.催化剂配方需要无尽,所以最好将你的化工厂升级到钨钢线圈,至少觉醒龙线圈才能让催化剂免于损耗.
 
 # Quest.2680 - §c§lMutating Things is Cool
 gtnh.quest2680.name=§c§l突变令人愉悦
@@ -10736,8 +10734,7 @@ gtnh.quest2682.desc=TecTech多方块机器的一般功能%n%n多安能源仓/动
 
 # Quest.2683 - Configuring TecTech Multiblocks
 gtnh.quest2683.name=配置TecTech多方块机器
-// --- //gtnh.quest2683.desc=通过参数仪,你可以通过调整数字来配置TecTech多方块机器. 参数仪有3个版本. 别问我后面两种,我不知道.%n%n如果多方块界面的"参数"部分中有点亮的部分(请查看之前的TecTech多方块任务),那么你就能配置此多方块,否则这个方块没有任何作用.%n%n如果你想了解参数仪的工作方式,你需要先理解二进制,让我们开始吧. 我们以量子计算机作为例子.%n%nID:0:0:I  ID:0:1:I     ID:1:0:I  ID:1:1:I%nID:0:0:O  ID:0:1:O     ID:1:0:O  ID:1:1:O%n%n在上面的例子中,'方块'由每组的第一个数字表示. 在第一,就是0,在第二,未使用的,就是1.%n%n上面一行中的字母I表示输入(Input),要么由参数仪配置,要么是默认值.%n%n下面一行的字母O表示输出(Output),这是机器给你的信息. (比如热量或算力)%n%n中间的数字指示它是第一个还是第二个参数.%n%n%n在参数仪的GUI中,有16个按钮. 忽略最底下的一行,在这里无用. 左侧和右侧的是+/-(不同程度的),但这对我们来说也没什么用,所以同样忽略它们.%n%n默认参数为: -1,使用标记有ID的+/-按钮来改变将调整的'方块'. 对于量子计算机,只有0'方块',所以将其设置为0.%n%n向下箭头表示当前'O'值,而向上箭头表示当前'I'值. 别忘了你可以通过+/-来改变'I'值. 0或1的值都可以改变,取决于按钮上的图标.%n%n如果你改变0值,这将改变超频比,而如果你改变1值,这将改变过压比. 至少对于量子计算机是这样的.
-// +++ //gtnh.quest2683.desc=The Parametrizer allows you to configure TecTech multis by adjusting the numbers. There are 3 different versions. Let us focus on the basic one.%n%nIf there are lit up sections in the Parameters part of the multi interface (see the TecTech Multiblocks quest), you can configure the multi, otherwise the block does nothing.%n%nWe'll be using the Quantum Computer as our example, since that is what you probably want it for.%n%nFirst we need to understand the parameter naming, like ID:0:1:I. The first number represents the parameter block. For the QC only block 0 is used. Each such block can have up to 4 used parameters, 2 inputs and 2 outputs. The letter at the end specifies if a parameter is an input or output with I or O and the number in the middle distinguishes the 2 parameters of this kind in the block. It is either 0 or 1.%n%nInputs are something that is either set by the Parametrizer, or is a default. Outputs give information that the machine sends to you, that indicates things. (like heat or Computation)%n%nIn the Parametrizer's interface, the outputs are marked by a down arrow, while the inputs are indicated by an up arrow. Around that you can find 16 buttons. The outer 8 just change things by a larger quantity, as does shift clicking. So let us focus on the inner 8.%n%nIn the first row you can change the parameter block to look at or change. For the QC only block 0 is relevant, so change it to that.%n%nThe next two rows now allow us to change either the first or the second input parameter in this block by -1 or +1 per button press. You can see in the QC controller GUI that the first input parameter is the overclock ratio, while the second is the overvoltage ratio.%n%nThe bottom row is where the binary nature of the Parametrizer shows. It lets you multiply the parameters by 2 or divide them by 2. However: it changes both of them together! So if you want different values you will have to change things in the second and third row. Despite what the TecTech wiki claims, being able to divide by 2 also allows you to set non-integer values for your OC and OV ratio!
+gtnh.quest2683.desc=通过参数仪,你可以通过调整数字来配置TecTech多方块机器. 参数仪有3个版本. 让我们关注基础版本.%n%n如果多方块界面的"参数"部分中有点亮的部分(请查看之前的TecTech多方块任务),那么你就能配置此多方块,否则这个方块没有任何作用.%n%n我们将使用量子计算机作为示例,这可能也是你想要的.%n%n首先我们要了解参数命名,比如ID:0:1:I.第一个数字代表参数方块.对于量子计算机,只有方块0可用.每个这样的方块最多可以有4个可用的参数,2输入以及2输出.末尾的字母指定参数是输入(I)还是输出(O),而中间的数字区分了方块中同种参数的先后,在第一,就是0,在第二,未使用的,就是1.%n%n上面一行中的字母I表示输入(Input),要么由参数仪配置,要么是默认值.%n%n下面一行的字母O表示输出(Output),这是机器给你的信息.(比如热量或算力)%n%n在参数仪的GUI中,输出用向下箭头标记,而输入用向上箭头表示.周围你可以找到16个按钮.外侧的8个按钮只是使单次改变了变大,类似Shift单击.所以让我们关注内侧8个按钮.%n%n在第一行中,你可以切换参数方块以查看或更改参数.对于量子计算机只有方块0相关,所以把这一行设为0即可.%n%n下面两行可以让我们改变该参数方块的第一及第二输入参数,每次按下按钮-1或+1.可以在量子计算机控制器方块的GUI中看到,第一输入参数为超频比,而第二输入参数为过压比.%n%n最下一行显示了参数仪的二元性.在此可以将参数×2或÷2.不过,这会同时改变两个参数!所以如果你需要不同的参数值,还需要在二三行进行调整.另外,TecTech的wiki上说,可以通过将超频比或过压比参数÷2,以将其设为非整数值!
 
 # Quest.2684 - RP-1 Rocket Fuel
 gtnh.quest2684.name=RP-1火箭燃料
@@ -10789,8 +10786,7 @@ gtnh.quest2695.desc=如果你觉得'嘿,这个紫色的东西还不错,为什么
 
 # Quest.2696 - Beyond the Limit
 gtnh.quest2696.name=超越极限
-// --- //gtnh.quest2696.desc=强化博特姆合金机械方块目前完全可以制造,但制造起来可不容易. 目前它们没有任何作用,除了让化工厂换个颜色,因为还不存在7阶配方.%n%n我相信你一定可以找出其他的材料,除了高级镍钛诺可能让你有点头疼. 它是由镍钛诺60块配合量子反常在激光蚀刻机制成的. 这意味着你需要先搭一个紧凑式回旋加速器,并连续碰上两次1％的几率. 祝你好运!
-// +++ //gtnh.quest2696.desc=To make living solder for your UEV components or bio-circuits, you will need a chem plant with Rugged Botmium Casings. These are not easy to make!%n%nYou can certainly figure out the rest by now, but the Advanced Nitinol may confuse you. You make it out of blocks of Nitinol 60 with a Quantum Anomaly in a Laser Engraver. This means you need to make a UV Cyclotron, and hit several low chances in a row, so good luck with that!
+gtnh.quest2696.desc=为了制造UEV部件或生物电路板,你需要合成一种全新的活性焊料,这种焊料要求强化博特姆合金机械方块为外壳的化工厂. 这些合金造起来可就不太容易了!%n%n我相信你一定可以找出其他的材料,除了高级镍钛诺可能让你有点头疼. 它是由镍钛诺60块配合量子反常在激光蚀刻机制成的. 这意味着你需要先搭一个紧凑式回旋加速器,并连续碰上两次1％的几率. 祝你好运!
 
 # Quest.2697 - §5§lChlorine, Your New Best Friend
 gtnh.quest2697.name=§5§l氯,你最好的新朋友
@@ -10926,8 +10922,7 @@ gtnh.quest2729.desc=有三种机器为转基因服务. 你不仅需要大功率�
 
 # Quest.2730 - Lasers Solve Everything
 gtnh.quest2730.name=激光解决一切
-// --- //gtnh.quest2730.desc=激光仓是发送大电流能量的高端方式,起步就是32A. 目前共有32/64/96/128/256/1024/4096/16384/65536/262144这些电流数. 激光仓实在是太强大,导致除了§o黑科技§rTecTech以外,只有少量多方块机器支持它们: 兰波顿超级电容库、巨型工业高炉、巨型真空冷冻机,以及能源站.(未来可能还会添加!) 请记住,激光真空管、激光源仓和激光靶仓都需要涂色才能正常使用. 另外,激光源仓=输出,激光靶仓=输入.%n%n激光转换器的工作机制: 激光源仓(在机器上) -> 激光真空管 -> 激光转换器 -> 分成5面输出X安. 记得切换为接收模式. 当然也可以反过来操作,总而言之,它就是一个将激光转换到线缆或从线缆转换为激光的类变压器. 相比于有源变压器的损耗(每个输出电流损耗一定比例)而言,用激光转换器转折激光的损耗是其三倍(且无法发送所有电流). 如果想要避免这种损耗,记得在它们之间加个电池箱.%n%n§3'低功率'仓室或转换器对应低功率激光管,但有一点需要注意: 涂色后这种激光管无法自动连接,需要使用剪线钳手动连接.
-// +++ //gtnh.quest2730.desc=Laser hatches are a high-end way of sending lots of amps of power, so much in fact, that it starts at 32A. This goes 32/64/96/128/256+ and continues from there. They're also so powerful that only a few machines support them outside of the ever §owonderful§r TecTech: LSC, MEBF, MVF. and PSS. (Might be added in the future!) Remember to color both the Laser Vacuum Pipes, and the Source and Target Hatches. Also, Source = Output, Target = Input.%n%nLaser Converters are basically: Laser Source (on machine) -> Vacuum Pipes -> LC -> 5x output split into X amps, 32 for the first. Make sure to put it into recieve mode. Or do it the other way around if you want to go up, it's basically a transformer that converts laser to/from cables. You can also use them to turn the lasers if you don't mind 3x the loss on device output (and not sending all the amps) compared to the Active Transformer (because of loss on each output). Just remember to put a battery buffer in between if you want it to work.%n%n§3You can use the Low Power Laser Pipes if using a 'Low Power' Hatch or Converter, but keep in mind you'll need to connect them with wire cutters yourself after coloring them.%n%n§cBe careful with using very high ampere hatches as every Laser Hatch has 1EU/t per max. ampere passive power loss.
+gtnh.quest2730.desc=激光仓是发送大电流能量的高端方式,起步就是32A. 目前共有32/64/96/128/256/1024/4096/16384/65536/262144这些电流数. 激光仓实在是太强大,导致除了§o黑科技§rTecTech以外,只有少量多方块机器支持它们: 兰波顿超级电容库、巨型工业高炉、巨型真空冷冻机,以及能源站.(未来可能还会添加!) 请记住,激光真空管、激光源仓和激光靶仓都需要涂色才能正常使用. 另外,激光源仓=输出,激光靶仓=输入.%n%n激光转换器的工作机制: 激光源仓(在机器上) -> 激光真空管 -> 激光转换器 -> 分成5面输出X安. 记得切换为接收模式. 当然也可以反过来操作,总而言之,它就是一个将激光转换到线缆或从线缆转换为激光的类变压器. 相比于有源变压器的损耗(每个输出电流损耗一定比例)而言,用激光转换器转折激光的损耗是其三倍(且无法发送所有电流). 如果想要避免这种损耗,记得在它们之间加个电池箱.%n%n§3'低功率'仓室或转换器对应低功率激光管,但有一点需要注意: 涂色后这种激光管无法自动连接,需要使用剪线钳手动连接.%n%n§c请注意,不要每个激光仓都用非常高电流的型号,因为每个激光仓,每安培电流都会有1EU/t的被动损耗.
 
 # Quest.2731 - Transform and...Stay Put Actually
 gtnh.quest2731.name=变压并...保持
@@ -11051,8 +11046,7 @@ gtnh.quest2760.desc=它不单是台脱水机,也是台真空炉,不过真空炉�
 
 # Quest.2761 - Do I Really Need to Make This?
 gtnh.quest2761.name=我真的需要做这个吗?
-// --- //gtnh.quest2761.desc=不,你不用. 这台机器用得着的产物主要是量子反常,用于制造高级镍钛诺(大UU也需要量子反常).%n%n§3这台多方块机器可以在LuV阶段制造.
-// +++ //gtnh.quest2761.desc=Oh wait, yes, you actually need this now! That was supposed to be a rhetorical question!%n%nThe main thing you will probably get out of it is the Quantum Anomaly for Advanced Nitinol.%n%n§3This multi is LuV. But you don't need it until around UHV.
+gtnh.quest2761.desc=以前不用,现在是的,你需要造这台大家伙!这应该是一个反问!%n%n这台机器用得着的产物主要是量子反常,用于制造高级镍钛诺(大UU也需要量子反常).%n%n§3这台多方块机器可以在LuV阶段制造.不过在你到达UHV之前应该都用不上它.
 
 # Quest.2762 - This is Not How You Get Into Space
 gtnh.quest2762.name=这不是去太空的路
@@ -11684,8 +11678,7 @@ gtnh.quest2918.desc=与之前类似,下一阶段的马达需要更好的磁化�
 
 # Quest.2919 - Enriched Naquadah Ingot
 gtnh.quest2919.name=富集硅岩锭
-// --- //gtnh.quest2919.desc=啊哈,你做到了.%n%n你可以选择将其与锌一起在工业高炉中熔炼,或是将其电解. 当然,如果我是你的话,我会选择电解,因为锌可比富集硅岩有用多了.
-// +++ //gtnh.quest2919.desc=Ah, you made it.%n%nYou can choose to smelt it with zinc in an EBF or electrolyze it. Either is fine but you can fully recycle the zinc, so the EBF recipe is better if you want the ingot.
+gtnh.quest2919.desc=啊哈,你做到了.%n%n你可以选择将其与锌一起在工业高炉中熔炼,或是将其电解.两种方式均可以获得富集硅岩,并完全回收锌,所以如果你要的是锭的话,工业高炉会更好.
 
 # Quest.2920 - Enriched Naquadah Time
 gtnh.quest2920.name=富集硅岩时间
