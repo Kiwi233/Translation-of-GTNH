@@ -1,5 +1,4 @@
-#Simplified Chinese (CN) made by Kiwi
-
+#English (US)
 achievement.oxygengearGC=供氧
 achievement.oxygengearGC.desc=合成氧气面罩、供氧设备、氧气罐、频率模块和降落伞.
 achievement.maxoxygentankGC=长期供氧
@@ -485,7 +484,9 @@ item.PartSolarFlares.name=太阳风扇部件
 item.SolarFlares.name=太阳风扇
 item.LeadBattery.name=铅电池
 item.UnknowWaterBucket.name=不明液体桶
-item.BarnardaCStrawberry.name=未知的水果
+// --- //item.BarnardaCStrawberry.name=未知的水果
+// +++ //item.BarnardaCStrawberry.name=Unknown Fruits
+// ↑↑↑ //item.BarnardaCStrawberry.name=Unknow Fruits
 item.dysonSwarmModule.name=戴森球模块
 item.TaHfCNanofibers.name=碳化钽铪纳米纤维
 item.NtNanofibers.name=中子纳米纤维

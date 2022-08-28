@@ -1,0 +1,30 @@
+// +++ //tile.personalSpacePortal.name=Personal Dimension Portal
+// +++ //tile.personalSpacePortalLegacy.name=Legacy Personal Dimension Portal (UW Migration)
+
+// +++ //chat.overworldPersonalDimension=Personal dimensions can only be created from the overworld
+// +++ //chat.personalWorld.created=Personal dimension successfully created!
+// +++ //chat.personalWorld.updated=Personal dimension successfully updated!
+// +++ //chat.personalWorld.relinked=Portal successfully relinked in dimension %d
+// +++ //chat.personalWorld.relinked.error=Portal was not relinked, it would cause losing access to the dimension.
+// +++ //chat.personalWorld.proximity=Too close to another portal.
+
+// +++ //gui.personalWorld.voidWorld=Void world
+// +++ //gui.personalWorld.biome=Biome name
+// +++ //gui.personalWorld.presets=Presets
+// +++ //gui.personalWorld.layers=Layers
+
+// +++ //gui.personalWorld.skyColor=Sky color
+// +++ //gui.personalWorld.skyColor.red=Red: 
+// +++ //gui.personalWorld.skyColor.green=Green: 
+// +++ //gui.personalWorld.skyColor.blue=Blue: 
+// +++ //gui.personalWorld.starBrightness=Star brightness
+
+// +++ //gui.personalWorld.vegetation=Foliage
+// +++ //gui.personalWorld.trees=Trees
+// +++ //gui.personalWorld.weather=Weather
+
+// +++ //commands.pspace.usage=/pspace (give-portal player DIM [X] [Y] [Z])|(tpx player DIM [X Y Z])|(ls)|(where player)|(allow-worldgen-change DIM)
+// +++ //commands.pspace.badDimension=The specified dimension doesn't exist
+// +++ //commands.pspace.where=Player %s is in dimension %d
+// +++ //commands.pspace.tpx=Player %s was teleported to %d: %d, %d, %d
+// +++ //commands.pspace.allow-worldgen-change=Player %s unlocked worldgen settings for dimension %d

@@ -1,0 +1,64 @@
+// +++ //item.fluid_drop.name=drop of %s
+// +++ //item.fluid_encoded_pattern.name=Encode Pattern
+// +++ //item.part_fluid_pattern_terminal.name=ME Fluid Pattern Terminal
+// +++ //item.part_fluid_pattern_terminal_ex.name=ME Fluid Processing Pattern Terminal
+// +++ //item.part_fluid_interface.name=ME Dual Interface
+// +++ //item.part_fluid_import.name=ME Fluid Import Bus
+// +++ //item.part_fluid_export.name=ME Fluid Export Bus
+// +++ //item.fluid_packet.name=Fluid Packet
+// +++ //item.fluid_storage.1.name=1k ME Fluid Storage Cell
+// +++ //item.fluid_storage.4.name=4k ME Fluid Storage Cell
+// +++ //item.fluid_storage.16.name=16k ME Fluid Storage Cell
+// +++ //item.fluid_storage.64.name=64k ME Fluid Storage Cell
+// +++ //item.fluid_storage.256.name=256k ME Fluid Storage Cell
+// +++ //item.fluid_storage.1024.name=1024k ME Fluid Storage Cell
+// +++ //item.fluid_storage.4096.name=4096k ME Fluid Storage Cell
+// +++ //item.fluid_part.0.name=1k ME Fluid Storage Component
+// +++ //item.fluid_part.1.name=4k ME Fluid Storage Component
+// +++ //item.fluid_part.2.name=16k ME Fluid Storage Component
+// +++ //item.fluid_part.3.name=64k ME Fluid Storage Component
+// +++ //item.fluid_part.4.name=256k ME Fluid Storage Component
+// +++ //item.fluid_part.5.name=1024k ME Fluid Storage Component
+// +++ //item.fluid_part.6.name=4096k ME Fluid Storage Component
+
+// +++ //tile.fluid_discretizer.name=Fluid Discretizer
+// +++ //tile.fluid_pattern_encoder.name=Fluid Pattern Encoder
+// +++ //tile.fluid_packet_decoder.name=ME Fluid Packet Decoder
+// +++ //tile.fluid_interface.name=ME Dual Interface
+// +++ //tile.ingredient_buffer.name=Ingredient Buffer
+// +++ //tile.large_ingredient_buffer.name=Large Ingredient Buffer
+// +++ //tile.oc_pattern_editor.name=OC Pattern Editor
+
+// +++ //ae2fc.tooltip.invalid_fluid=Invalid fluid!
+// +++ //ae2fc.tooltip.encode_pattern=Encode Patter
+// +++ //ae2fc.tooltip.fluid_packet=Use a Fluid Packet Decoder to\nconvert this back into fluid.
+// +++ //ae2fc.tooltip.empty=Empty
+// +++ //ae2fc.tooltip.dump_tank=Dump Tank Contents
+// +++ //ae2fc.tooltip.switch_fluid_interface=Switch ME Dual Interface GUI
+// +++ //ae2fc.tooltip.not_combine=Merge the same items
+// +++ //ae2fc.tooltip.not_combine.hint=Disabled
+// +++ //ae2fc.tooltip.combine=Merge the same items
+// +++ //ae2fc.tooltip.combine.hint=Enabled
+
+// +++ //ae2fc.tooltip.not_prio=Allow fluids to be placed first
+// +++ //ae2fc.tooltip.not_prio.hint=Enabled
+// +++ //ae2fc.tooltip.prio=Allow fluids to be placed first
+// +++ //ae2fc.tooltip.prio.hint=Disabled
+
+// +++ //ae2fc.gui.part_fluid_pattern_terminal=Fluid Pattern Terminal
+// +++ //ae2fc.gui.part_fluid_pattern_terminal_ex=Fluid Processing Pattern Terminal
+// +++ //ae2fc.gui.fluid_pattern_encoder=Fluid Pattern Encoder
+// +++ //ae2fc.gui.fluid_packet_decoder=ME Fluid Packet Decoder
+// +++ //ae2fc.gui.ingredient_buffer=Ingredient Buffer
+// +++ //ae2fc.gui.large_ingredient_buffer=Large Ingredient Buffer
+// +++ //ae2fc.gui.fluid_interface=ME Dual Interface
+// +++ //ae2fc.gui.fluid_interface.0=D
+// +++ //ae2fc.gui.fluid_interface.1=U
+// +++ //ae2fc.gui.fluid_interface.2=N
+// +++ //ae2fc.gui.fluid_interface.3=S
+// +++ //ae2fc.gui.fluid_interface.4=W
+// +++ //ae2fc.gui.fluid_interface.5=E
+// +++ //ae2fc.gui.oc_pattern_editor=OC Pattern Editor
+// +++ //ae2fc.gui.button.set=Set
+
+// +++ //itemGroup.ae2fc=Fluid Craft For AE2

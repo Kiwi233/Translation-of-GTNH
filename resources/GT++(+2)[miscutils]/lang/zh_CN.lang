@@ -15,7 +15,7 @@ item.miscutils_itemDebugShapeSpawner.name=[调试用]塑形
 
 //Fluids
 tile.fluidSludge.name=不流动的废水
-tile.fluidSludge.0.name=不流动的废水
+tile.fluidSludge.0.name=Stagnant Waste Water
 
 //Death Messages
 death.attack.plasmabolt=%s 死于滚烫的等离子体.
@@ -25,7 +25,7 @@ death.attack.gtpp.grinder=%s 被艾萨研磨机磨成了渣渣.
 //Alternative Materials
 item.itemPlateBatteryAlloy.name=电池合金板
 item.itemIngotBatteryAlloy.name=电池合金锭
-item.itemStickyRubber.name=粘性橡胶团
+item.itemStickyRubber.name=Gumlet of Sticky Rubber
 
 //Unused Fuel rods
 item.itemFuelRod_Empty.name=空燃料棒
@@ -42,9 +42,9 @@ tile.blockToolBuilder.name=格雷工具组装台
 
 //Tools
 item.itemBufferCore.name=能量核心
-item.itemStaballoyPickaxe.name=隧道挖掘者
-item.itemStaballoyAxe.name=树林砍伐者
-item.itemSandstoneHammer.name=圆石粉碎者
+item.itemStaballoyPickaxe.name=Tunnel Digger
+item.itemStaballoyAxe.name=Tree Feller
+item.itemSandstoneHammer.name=Cobblestone Breaker
 
 //Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=烈焰之炽焱桶
@@ -55,11 +55,11 @@ item.MiscUtils.material.dustCryotheum.name=凛冰之尘
 item.MiscUtils.material.rodBlizz.name=暴雪棒
 item.MiscUtils.material.dustBlizz.name=暴雪粉
 
-//============= 'miscutils' is Case Sensitive Here, unsure why
+//------------- 'miscutils' is Case Sensitive Here, unsure why
 tile.miscutils.fluid.pyrotheum.name=烈焰之炽焱
 tile.miscutils.fluid.cryotheum.name=极寒之凛冰
 tile.miscutils.fluid.ender.name=谐振熔融末影珍珠
-//==============
+//--------------
 
 //Forestry Stuff
 item.frameAccelerated.name=加速框架
@@ -93,12 +93,13 @@ item.itemUltimetShaft.name=哈氏合金轴
 
 
 //Misc Items
-item.itemPLACEHOLDER_Circuit.name=夸克操纵者 (UV)
+item.itemPLACEHOLDER_Circuit.name=Quark Manipulator (UV)
 item.itemPlateEnrichedSoularium.name=富集阳光合金板
-item.itemHeliumBlob.name=神秘氢气物质
-item.itemAlkalusDisk.name=Alkalus圆盘
-item.itemHotIngotRaisinBread.name=一份热葡萄干面包
-item.itemIngotRaisinBread.name=一份葡萄干面包
+item.itemHeliumBlob.name=Mysterious Hydrogen Substance
+item.itemAlkalusDisk.name=Alkalus Disk
+# The following 2 keys have been deprecated and overwritten
+# item.itemHotIngotRaisinBread.name=Hot Loaf of Raisin Bread
+# item.itemIngotRaisinBread.name=§5ImQ009's §fRaisin Bread
 
 //Misc Blocks
 tile.blockCompressedObsidian.0.name=压缩黑曜石(9)
@@ -511,7 +512,6 @@ item.itemDustSmallCalifornium.name=小堆锎粉
 item.itemNuggetCalifornium.name=锎粒
 item.itemPlateCalifornium.name=锎板
 item.itemPlateDoubleCalifornium.name=双重锎板
-item.itemIngotEinsteinium.name=锿锭
 item.itemDustEinsteinium.name=锿粉
 item.itemDustTinyEinsteinium.name=小撮锿粉
 item.itemDustSmallEinsteinium.name=小堆锿粉
@@ -1959,9 +1959,10 @@ tile.Block of Plutonium-239.name=钚-239块
 tile.Fluorite Ore [Old].name=氟石矿[不可用的]
 tile.blockMiningPipeFake.name=强化钢筋挖掘管道
 tile.blockMiningHeadFake.name=基岩钻头
-item.itemCellLiFBeF2ThF4UF4.name=熔盐单元[铀钍复合氟化物]
-item.itemCellLiFBeF2ZrF4UF4.name=熔盐单元[铀锆复合氟化物]
-item.itemCellLiFBeF2ZrF4U235.name=熔盐单元[铀235复合氟化物]
+# The following 3 keys have been deprecated and overwritten
+# item.itemCellLiFBeF2ThF4UF4.name=Cell of Molten Salt [LiFBeF2ThF4UF4]
+# item.itemCellLiFBeF2ZrF4UF4.name=Cell of Molten Salt [LiFBeF2ZrF4UF4]
+# item.itemCellLiFBeF2ZrF4U235.name=Cell of Molten Salt [LiFBeF2ZrF4U235]
 item.itemPlateMeatRaw.name=生肉板
 tile.Block of MeatRaw.name=生肉块
 
@@ -2000,7 +2001,7 @@ item.dustImpureTrinium.name=含杂三元金属粉
 item.dustPureTrinium.name=洗净的三元金属粉
 
 //Added 1/7/18
-entity.WiseVillager.name=聪明的村民
+entity.WiseVillager.name=Wise Villager
 tile.blockMobSpawnerEx.0.name=刷怪笼
 tile.blockMobSpawnerEx.1.name=刷怪笼
 tile.blockMobSpawnerEx.2.name=刷怪笼
@@ -2087,9 +2088,9 @@ item.crushedCentrifugedKoboldite.name=离心粉碎妖金矿石
 item.crushedPurifiedKoboldite.name=纯净粉碎妖金矿石
 item.dustImpureKoboldite.name=含杂妖金粉
 item.dustPureKoboldite.name=纯净妖金粉
-item.itemDustKoboldite.name=妖金粉
-item.itemDustTinyKoboldite.name=小撮妖金粉
-item.itemDustSmallKoboldite.name=小堆妖金粉
+item.itemDustKoboldite.name=Koboldite Dust
+item.itemDustTinyKoboldite.name=Tiny Pile of Koboldite Dust
+item.itemDustSmallKoboldite.name=Small Pile of Koboldite Dust
 
 tile.OrePerroudite.name=溴硫银汞矿石
 item.crushedPerroudite.name=粉碎溴硫银汞矿石
@@ -3109,13 +3110,14 @@ item.BasicGenericChemItem.5.name=棕色金属催化剂
 item.MudRedSlurry.name=红色泥浆单元
 item.liquid_toluene.name=甲苯单元
 
-item.BasicAlgaeItem.0.name=可培植藻类(I)
-item.BasicAlgaeItem.1.name=可培植藻类(II)
-item.BasicAlgaeItem.2.name=可培植藻类(III)
-item.BasicAlgaeItem.3.name=可培植藻类(IV)
-item.BasicAlgaeItem.4.name=可培植藻类(V)
-item.BasicAlgaeItem.5.name=可培植藻类(VI)
-item.BasicAlgaeItem.6.name=可培植藻类(VII)
+# The following 7 keys have been deprecated and overwritten
+# item.BasicAlgaeItem.0.name=Algae Spore (I)
+# item.BasicAlgaeItem.1.name=Algae Spore (II)
+# item.BasicAlgaeItem.2.name=Algae Spore (III)
+# item.BasicAlgaeItem.3.name=Algae Spore (IV)
+# item.BasicAlgaeItem.4.name=Algae Spore (V)
+# item.BasicAlgaeItem.5.name=Algae Spore (VI)
+# item.BasicAlgaeItem.6.name=Algae Spore (VII)
 
 //Added 17/01/20
 item.BasicGenericChemItem.6.name=粉色金属催化剂
@@ -3387,3 +3389,6 @@ item.miscutils:magicfeather.name=魔法羽毛
 
 //Added 10/02/22
 item.BasicGenericChemItem.14.name=固体酸催化剂
+
+//Added 30/05/22
+// +++ //item.BasicGenericChemItem.15.name=Infinite Mutation Catalyst
