@@ -547,16 +547,30 @@ gt.blockcasingsBA0.8.desc.1=谁不想要32k的环氧树脂?
 #Multiblocks
 gt.blockmachines.multimachine.em.transformer.name=有源变压器
 gt.blockmachines.multimachine.em.transformer.hint=1 - 能源仓、动力仓或超能机械方块
-gt.blockmachines.multimachine.em.transformer.desc.0=变电站
-gt.blockmachines.multimachine.em.transformer.desc.1=任意电压间的相互转换!
+// --- //gt.blockmachines.multimachine.em.transformer.desc.0=变电站
+// +++ //gt.blockmachines.multimachine.em.transformer.desc.0=Controller block of the Active Transformer
+// ↑↑↑ //gt.blockmachines.multimachine.em.transformer.desc.0=Power substation
+// --- //gt.blockmachines.multimachine.em.transformer.desc.1=任意电压间的相互转换!
+// +++ //gt.blockmachines.multimachine.em.transformer.desc.1=Can transform to and from any voltage
+// ↑↑↑ //gt.blockmachines.multimachine.em.transformer.desc.1=All the transformation!
 gt.blockmachines.multimachine.em.transformer.desc.2=只有0.004%的能量损失, HAYO!
+// +++ //gt.blockmachines.multimachine.em.transformer.desc.3=Will explode if broken while running
 
 gt.blockmachines.multimachine.tm.microwave.name=微波发生仪
 gt.blockmachines.multimachine.tm.microwave.hint.0=1 - 基础仓室或洁净不锈钢机械方块
 gt.blockmachines.multimachine.tm.microwave.hint.1=也像个漏斗,所以给它个输出总线吧
-gt.blockmachines.multimachine.tm.microwave.desc.0=高频烤炉
-gt.blockmachines.multimachine.tm.microwave.desc.1=从生物到食物，只在转瞬之间!
-gt.blockmachines.multimachine.tm.microwave.desc.2=我说用核弹...我的意思是把晚餐放进微波炉!
+// --- //gt.blockmachines.multimachine.tm.microwave.desc.0=高频烤炉
+// +++ //gt.blockmachines.multimachine.tm.microwave.desc.0=Controller block of the Microwave Grinder
+// ↑↑↑ //gt.blockmachines.multimachine.tm.microwave.desc.0=High Frequency Oven
+// --- //gt.blockmachines.multimachine.tm.microwave.desc.1=从生物到食物，只在转瞬之间!
+// +++ //gt.blockmachines.multimachine.tm.microwave.desc.1=Starts a timer when enabled
+// ↑↑↑ //gt.blockmachines.multimachine.tm.microwave.desc.1=From live to done in seconds!
+// --- //gt.blockmachines.multimachine.tm.microwave.desc.2=我说用核弹...我的意思是把晚餐放进微波炉!
+// +++ //gt.blockmachines.multimachine.tm.microwave.desc.2=While the timer is running anything inside the machine will take damage
+// ↑↑↑ //gt.blockmachines.multimachine.tm.microwave.desc.2=I said nuke the... I meant microwave supper!
+// +++ //gt.blockmachines.multimachine.tm.microwave.desc.3=The machine will also collect any items inside of it
+// +++ //gt.blockmachines.multimachine.tm.microwave.desc.4=Can be configured with a Parametrizer
+// +++ //gt.blockmachines.multimachine.tm.microwave.desc.5=(Do not insert a Wither)
 gt.blockmachines.multimachine.tm.microwave.cfgi.0=功率设置
 gt.blockmachines.multimachine.tm.microwave.cfgi.1=时间设置
 gt.blockmachines.multimachine.tm.microwave.cfgo.0=时间
@@ -565,9 +579,17 @@ gt.blockmachines.multimachine.tm.microwave.cfgo.1=剩余时间
 gt.blockmachines.multimachine.tm.teslaCoil.name=特斯拉电塔
 gt.blockmachines.multimachine.tm.teslaCoil.hint.0=1 - 基础仓室, 电容仓或特斯拉基座机械方块
 gt.blockmachines.multimachine.tm.teslaCoil.hint.1=2 - 钛框架
-gt.blockmachines.multimachine.tm.teslaCoil.desc.0=无线电源塔
-gt.blockmachines.multimachine.tm.teslaCoil.desc.1=讨厌的线缆不见啦!
-gt.blockmachines.multimachine.tm.teslaCoil.desc.2=可能会影响生存几率
+// --- //gt.blockmachines.multimachine.tm.teslaCoil.desc.0=无线电源塔
+// +++ //gt.blockmachines.multimachine.tm.teslaCoil.desc.0=Controller block of the Tesla Tower
+// ↑↑↑ //gt.blockmachines.multimachine.tm.teslaCoil.desc.0=Tower of Wireless Power
+// --- //gt.blockmachines.multimachine.tm.teslaCoil.desc.1=讨厌的线缆不见啦!
+// +++ //gt.blockmachines.multimachine.tm.teslaCoil.desc.1=Used to transmit power to Tesla Coil Covers and Tesla Transceivers
+// ↑↑↑ //gt.blockmachines.multimachine.tm.teslaCoil.desc.1=Fewer pesky cables!
+// --- //gt.blockmachines.multimachine.tm.teslaCoil.desc.2=可能会影响生存几率
+// +++ //gt.blockmachines.multimachine.tm.teslaCoil.desc.2=Can be fed with Helium/Nitrogen/Radon Plasma to increase the range
+// ↑↑↑ //gt.blockmachines.multimachine.tm.teslaCoil.desc.2=Survival chances might be affected
+// +++ //gt.blockmachines.multimachine.tm.teslaCoil.desc.3=Transmitted voltage depends on the used Tesla Capacitor tier
+// +++ //gt.blockmachines.multimachine.tm.teslaCoil.desc.4=Primary Tesla Windings need to be at least the same tier as the Tesla Capacitor
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.0=迟滞低设置
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.1=迟滞高设置
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.2=特斯拉电塔传输半径设置
@@ -590,8 +612,14 @@ gt.blockmachines.multimachine.tm.teslaCoil.cfgo.8=扫描时间显示
 
 gt.blockmachines.multimachine.em.switch.name=QoS网络交换机
 gt.blockmachines.multimachine.em.switch.hint=1 - 基础仓室、光学接口或电子计算机机械方块
-gt.blockmachines.multimachine.em.switch.desc.0=用户控制的计算力路由
-gt.blockmachines.multimachine.em.switch.desc.1=服务质量是必须的
+// --- //gt.blockmachines.multimachine.em.switch.desc.0=用户控制的计算力路由
+// +++ //gt.blockmachines.multimachine.em.switch.desc.0=Controller block of the Network Switch With QoS
+// ↑↑↑ //gt.blockmachines.multimachine.em.switch.desc.0=User controlled computation power routing
+// --- //gt.blockmachines.multimachine.em.switch.desc.1=服务质量是必须的
+// +++ //gt.blockmachines.multimachine.em.switch.desc.1=Used to route and distribute computation
+// ↑↑↑ //gt.blockmachines.multimachine.em.switch.desc.1=Quality of service is a must
+// +++ //gt.blockmachines.multimachine.em.switch.desc.2=Needs a Parametrizer to be configured
+
 
 gt.blockmachines.multimachine.em.computer.name=量子计算机
 gt.blockmachines.multimachine.em.computer.hint.0=1 - 基础仓室、光学接口或电子计算机机械方块
@@ -601,62 +629,97 @@ gt.blockmachines.multimachine.em.computer.cfgi.0=超频比
 gt.blockmachines.multimachine.em.computer.cfgi.1=过压比
 gt.blockmachines.multimachine.em.computer.cfgo.0=当前最大热量
 gt.blockmachines.multimachine.em.computer.cfgo.1=生成算力
+// +++ //gt.blockmachines.multimachine.em.computer.desc.0=Controller block of the Quantum Computer
+// +++ //gt.blockmachines.multimachine.em.computer.desc.1=Used to generate computation (and heat)
 
 gt.blockmachines.multimachine.em.databank.name=数据库
 gt.blockmachines.multimachine.em.databank.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.databank.hint.1=2 - 数据访问仓、数据库主接口或电子计算机械方块
-gt.blockmachines.multimachine.em.databank.desc.0=远程装配数据传递
-gt.blockmachines.multimachine.em.databank.desc.1=直接应用于前部
+// --- //gt.blockmachines.multimachine.em.databank.desc.0=远程装配数据传递
+// +++ //gt.blockmachines.multimachine.em.databank.desc.0=Controller block of the Data Bank
+// ↑↑↑ //gt.blockmachines.multimachine.em.databank.desc.0=Remote assembly data delivery
+// --- //gt.blockmachines.multimachine.em.databank.desc.1=直接应用于前部
+// +++ //gt.blockmachines.multimachine.em.databank.desc.1=Used to supply Assembling Lines with more Data Sticks
+// ↑↑↑ //gt.blockmachines.multimachine.em.databank.desc.1=Apply directly to the forehead
+// +++ //gt.blockmachines.multimachine.em.databank.desc.2=and give multiple Assembling Lines access to the same Data Stick
 
 gt.blockmachines.multimachine.em.junction.name=物质流枢纽
 gt.blockmachines.multimachine.em.junction.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.junction.hint.1=2 - 元物质输入/出仓或分子机械方块
-gt.blockmachines.multimachine.em.junction.desc.0=中转物质流
-gt.blockmachines.multimachine.em.junction.desc.1=沿轴运动！
+// --- //gt.blockmachines.multimachine.em.junction.desc.0=中转物质流
+// +++ //gt.blockmachines.multimachine.em.junction.desc.0=Controller block of the Matter Junction
+// ↑↑↑ //gt.blockmachines.multimachine.em.junction.desc.0=Reroutes Matter
+// --- //gt.blockmachines.multimachine.em.junction.desc.1=沿轴运动！
+// +++ //gt.blockmachines.multimachine.em.junction.desc.1=Used to route and distribute elemental matter
+// ↑↑↑ //gt.blockmachines.multimachine.em.junction.desc.1=Axis aligned movement!
+// +++ //gt.blockmachines.multimachine.em.junction.desc.2=Needs a Parametrizer to be configured
 
 gt.blockmachines.multimachine.em.mattertoem.name=物质量子化仪
 gt.blockmachines.multimachine.em.mattertoem.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.mattertoem.hint.1=2 - 元物质输出仓
 gt.blockmachines.multimachine.em.mattertoem.hint.2=3 - 元物质溢流仓或分子机械方块
-gt.blockmachines.multimachine.em.mattertoem.desc.0=方便地将常规物品转换为量子形态
-gt.blockmachines.multimachine.em.mattertoem.desc.1=使得它们更...不方便
+// --- //gt.blockmachines.multimachine.em.mattertoem.desc.0=方便地将常规物品转换为量子形态
+// +++ //gt.blockmachines.multimachine.em.mattertoem.desc.0=Controller block of the Matter Quantizer
+// ↑↑↑ //gt.blockmachines.multimachine.em.mattertoem.desc.0=Conveniently convert regular stuff into quantum form.
+// --- //gt.blockmachines.multimachine.em.mattertoem.desc.1=使得它们更...不方便
+// +++ //gt.blockmachines.multimachine.em.mattertoem.desc.1=Transforms items into their elemental form
+// ↑↑↑ //gt.blockmachines.multimachine.em.mattertoem.desc.1=To make it more inconvenient.
 
 gt.blockmachines.multimachine.em.emtomatter.name=物质反量子化仪
 gt.blockmachines.multimachine.em.emtomatter.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.emtomatter.hint.1=2 - 元物质输入仓
 gt.blockmachines.multimachine.em.emtomatter.hint.2=3 - 元物质溢流仓或分子机械方块
-gt.blockmachines.multimachine.em.emtomatter.desc.0=将量子转化回
-gt.blockmachines.multimachine.em.emtomatter.desc.1=它们的常规形态...但为什么要这么做？
+// --- //gt.blockmachines.multimachine.em.emtomatter.desc.0=将量子转化回
+// +++ //gt.blockmachines.multimachine.em.emtomatter.desc.0=Controller block of the Matter Dequantizer
+// ↑↑↑ //gt.blockmachines.multimachine.em.emtomatter.desc.0=Transform quantum form back to...
+// --- //gt.blockmachines.multimachine.em.emtomatter.desc.1=它们的常规形态...但为什么要这么做？
+// +++ //gt.blockmachines.multimachine.em.emtomatter.desc.1=Transforms elemental matter back into items
+// ↑↑↑ //gt.blockmachines.multimachine.em.emtomatter.desc.1=regular one, but why?
 
 gt.blockmachines.multimachine.em.emtoessentia.name=源质反量子化仪
 gt.blockmachines.multimachine.em.emtoessentia.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.emtoessentia.hint.1=2 - 元物质输入仓
 gt.blockmachines.multimachine.em.emtoessentia.hint.2=3 - 元物质溢流仓或分子机械方块
 gt.blockmachines.multimachine.em.emtoessentia.hint.3=通用 - 某种源质的储存方块
-gt.blockmachines.multimachine.em.emtoessentia.desc.0=将量子转化回
-gt.blockmachines.multimachine.em.emtoessentia.desc.1=它们的常规形态...但为什么要这么做？
+// --- //gt.blockmachines.multimachine.em.emtoessentia.desc.0=将量子转化回
+// +++ //gt.blockmachines.multimachine.em.emtoessentia.desc.0=Controller block of the Essentia Dequantizer
+// ↑↑↑ //gt.blockmachines.multimachine.em.emtoessentia.desc.0=Transform quantum form back to...
+// --- //gt.blockmachines.multimachine.em.emtoessentia.desc.1=它们的常规形态...但为什么要这么做？
+// +++ //gt.blockmachines.multimachine.em.emtoessentia.desc.1=Transforms elemental matter back into essentia
+// ↑↑↑ //gt.blockmachines.multimachine.em.emtoessentia.desc.1=regular one, but why?
 
 gt.blockmachines.multimachine.em.essentiatoem.name=源质量子化仪
 gt.blockmachines.multimachine.em.essentiatoem.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.essentiatoem.hint.1=2 - 元物质输出仓
 gt.blockmachines.multimachine.em.essentiatoem.hint.2=3 - 元物质溢流仓或分子机械方块
 gt.blockmachines.multimachine.em.essentiatoem.hint.3=通用 - 某种源质的储存方块
-gt.blockmachines.multimachine.em.essentiatoem.desc.0=方便地将常规物品转换为量子形态
-gt.blockmachines.multimachine.em.essentiatoem.desc.1=使得它们更...不方便
+// --- //gt.blockmachines.multimachine.em.essentiatoem.desc.0=方便地将常规物品转换为量子形态
+// +++ //gt.blockmachines.multimachine.em.essentiatoem.desc.0=Controller block of the Essentia Quantizer
+// ↑↑↑ //gt.blockmachines.multimachine.em.essentiatoem.desc.0=Conveniently convert regular stuff into quantum form.
+// --- //gt.blockmachines.multimachine.em.essentiatoem.desc.1=使得它们更...不方便
+// +++ //gt.blockmachines.multimachine.em.essentiatoem.desc.1=Transforms essentia into their elemental form
+// ↑↑↑ //gt.blockmachines.multimachine.em.essentiatoem.desc.1=To make it more inconvenient.
 
 gt.blockmachines.multimachine.em.scanner.name=元物质扫描仪
 gt.blockmachines.multimachine.em.scanner.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.scanner.hint.1=2 - 元物质输入仓或分子机械方块
 gt.blockmachines.multimachine.em.scanner.hint.2=3 - 元物质输出仓或分子机械方块
 gt.blockmachines.multimachine.em.scanner.hint.3=4 - 元物质溢流仓或分子机械方块
-gt.blockmachines.multimachine.em.scanner.desc.0=它是如何存在的？
-gt.blockmachines.multimachine.em.scanner.desc.1=我！不！知！道！(至少暂时是这样)
+// --- //gt.blockmachines.multimachine.em.scanner.desc.0=它是如何存在的？
+// +++ //gt.blockmachines.multimachine.em.scanner.desc.0=Controller block of the Elemental Scanner
+// ↑↑↑ //gt.blockmachines.multimachine.em.scanner.desc.0=What is existing here?
 
 gt.blockmachines.multimachine.em.research.name=研究站
 gt.blockmachines.multimachine.em.research.hint.0=1 - 基础仓室、光学接口或电子计算机械方块
 gt.blockmachines.multimachine.em.research.hint.1=2 - 物品固定容器
-gt.blockmachines.multimachine.em.research.desc.0=哲学家们甚至...
-gt.blockmachines.multimachine.em.research.desc.1=从来不曾梦见它！
+// --- //gt.blockmachines.multimachine.em.research.desc.0=哲学家们甚至...
+// +++ //gt.blockmachines.multimachine.em.research.desc.0=Controller block of the Research Station
+// ↑↑↑ //gt.blockmachines.multimachine.em.research.desc.0=Philosophers didn't even...
+// --- //gt.blockmachines.multimachine.em.research.desc.1=从来不曾梦见它！
+// +++ //gt.blockmachines.multimachine.em.research.desc.1=Used to scan Data Sticks for Assembling Line Recipes
+// ↑↑↑ //gt.blockmachines.multimachine.em.research.desc.1=dream about it!
+// +++ //gt.blockmachines.multimachine.em.research.desc.2=Needs to be fed with computation to work
+// +++ //gt.blockmachines.multimachine.em.research.desc.3=Does not consume the item until the Data Stick is written
 
 gt.blockmachines.multimachine.em.collider.name=物质对撞机
 gt.blockmachines.multimachine.em.collider.hint.0=1 - 基础仓室或超能机械方块
@@ -664,62 +727,92 @@ gt.blockmachines.multimachine.em.collider.hint.1=2 - 元物质输入仓或分子
 gt.blockmachines.multimachine.em.collider.hint.2=3 - 元物质输出仓或分子机械方块
 gt.blockmachines.multimachine.em.collider.hint.3=4 - 元物质溢流仓或分子机械方块
 gt.blockmachines.multimachine.em.collider.hint.4=通用 - 另一个控制器面向相反的方向
-gt.blockmachines.multimachine.em.collider.desc.0=以极高的速度使物质相碰撞
-gt.blockmachines.multimachine.em.collider.desc.1=比光*还快！！！
+// --- //gt.blockmachines.multimachine.em.collider.desc.0=以极高的速度使物质相碰撞
+// +++ //gt.blockmachines.multimachine.em.collider.desc.0=Controller block of the Matter Collider
+// ↑↑↑ //gt.blockmachines.multimachine.em.collider.desc.0=Collide matter at extreme velocities.
+// --- //gt.blockmachines.multimachine.em.collider.desc.1=比光*还快！！！
+// +++ //gt.blockmachines.multimachine.em.collider.desc.1=This machine needs a mirrored copy of it to work
+// ↑↑↑ //gt.blockmachines.multimachine.em.collider.desc.1=Faster than light*!!!
+// +++ //gt.blockmachines.multimachine.em.collider.desc.2=One needs to be set to 'Fuse Mode' and the other to 'Collide Mode'
+// +++ //gt.blockmachines.multimachine.em.collider.desc.3=Fuses two elemental matter to create another (and power)
 gt.blockmachines.multimachine.em.collider.mode.0=模式：聚变
 gt.blockmachines.multimachine.em.collider.mode.1=模式：对撞
 gt.blockmachines.multimachine.em.collider.mode.2=模式：未定义
 gt.blockmachines.multimachine.em.collider.mode.3=从属于其他控制器
+// +++ //gt.blockmachines.multimachine.em.collider.Structure.AdditionalCollider=Needs another Matter Collider that is mirrored to this one
 
 gt.blockmachines.multimachine.em.infuser.name=能量注入仪
 gt.blockmachines.multimachine.em.infuser.hint=1 - 基础仓室或超能机械方块
-gt.blockmachines.multimachine.em.infuser.desc.0=急速的能量转移！
-gt.blockmachines.multimachine.em.infuser.desc.1=瞬间满电！
-gt.blockmachines.multimachine.em.infuser.desc.2=但坏掉的时候不会工作！
-gt.blockmachines.multimachine.em.infuser.desc.3=以及你需要考虑一下损耗...
+// --- //gt.blockmachines.multimachine.em.infuser.desc.0=急速的能量转移！
+// +++ //gt.blockmachines.multimachine.em.infuser.desc.0=Controller block of the Energy Infuser
+// ↑↑↑ //gt.blockmachines.multimachine.em.infuser.desc.0=Power Transfer Extreme!
+// --- //gt.blockmachines.multimachine.em.infuser.desc.1=瞬间满电！
+// +++ //gt.blockmachines.multimachine.em.infuser.desc.1=Can be used to charge items (lossless)
+// ↑↑↑ //gt.blockmachines.multimachine.em.infuser.desc.1=Insanely fast charging!
+// --- //gt.blockmachines.multimachine.em.infuser.desc.2=但坏掉的时候不会工作！
+// +++ //gt.blockmachines.multimachine.em.infuser.desc.2=Can be fed with UU-Matter to repair items
+// ↑↑↑ //gt.blockmachines.multimachine.em.infuser.desc.2=Doesn't work while broken!
+// +++ //gt.blockmachines.multimachine.em.infuser.Structure.HighPowerCasing=Layer 1 and 5
+// +++ //gt.blockmachines.multimachine.em.infuser.Structure.MolecularCoil=Layer 2 and 4
+// +++ //gt.blockmachines.multimachine.em.infuser.Structure.MolecularCasing=Layer 3 (hollow)
+
 
 gt.blockmachines.multimachine.em.processing.name=量子加工机
 gt.blockmachines.multimachine.em.processing.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.processing.hint.1=2 - 元物质输入/出仓或分子机械方块
-gt.blockmachines.multimachine.em.processing.desc.0=从你最启用它开始...
-gt.blockmachines.multimachine.em.processing.desc.1=为你处理量子物质
+// --- //gt.blockmachines.multimachine.em.processing.desc.0=从你最启用它开始...
+// +++ //gt.blockmachines.multimachine.em.processing.desc.0=Controller block of the Quantum Processing machine
+// ↑↑↑ //gt.blockmachines.multimachine.em.processing.desc.0=Processing quantum matter since...
 
 gt.blockmachines.multimachine.em.crafter.name=物质组装机
 gt.blockmachines.multimachine.em.crafter.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.crafter.hint.1=2 - 元物质输入/出仓或分子机械方块
-gt.blockmachines.multimachine.em.crafter.desc.0=以最精确的方法制造物品。
-gt.blockmachines.multimachine.em.crafter.desc.1=(跨过普朗克尺度的过程)
+// --- //gt.blockmachines.multimachine.em.crafter.desc.0=以最精确的方法制造物品。
+// +++ //gt.blockmachines.multimachine.em.crafter.desc.0=Controller block of the Matter Assembler
+// ↑↑↑ //gt.blockmachines.multimachine.em.crafter.desc.0=The most precise way of making stuff.
 
 gt.blockmachines.multimachine.em.stabilizer.name=元物质稳定器
 gt.blockmachines.multimachine.em.stabilizer.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.stabilizer.hint.1=2 - 元物质输入/出仓或分子机械方块
-gt.blockmachines.multimachine.em.stabilizer.desc.0=扭曲时间以稳定物质
-gt.blockmachines.multimachine.em.stabilizer.desc.1=Wibbly wobbly timey wimey stuff.(欣赏原文吧，表示给跪了，大意是时空摇摆不定)
+// --- //gt.blockmachines.multimachine.em.stabilizer.desc.0=扭曲时间以稳定物质
+// +++ //gt.blockmachines.multimachine.em.stabilizer.desc.0=Controller block of the Elemental Stabilizer
+// ↑↑↑ //gt.blockmachines.multimachine.em.stabilizer.desc.0=Alters time to stabilize matter
 
 gt.blockmachines.multimachine.em.wormhole.name=虫洞
 gt.blockmachines.multimachine.em.wormhole.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.wormhole.hint.1=2 - 元物质输入/出仓或分子机械方块
-gt.blockmachines.multimachine.em.wormhole.desc.0=它并没有充满虫子。
-gt.blockmachines.multimachine.em.wormhole.desc.1=它充满了反虫子！！！
+// --- //gt.blockmachines.multimachine.em.wormhole.desc.0=它并没有充满虫子。
+// +++ //gt.blockmachines.multimachine.em.wormhole.desc.0=Controller block of the Wormhole
+// ↑↑↑ //gt.blockmachines.multimachine.em.wormhole.desc.0=It is not full of worms.
 
 gt.blockmachines.multimachine.em.decay.name=衰变发生器
 gt.blockmachines.multimachine.em.decay.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.decay.hint.1=2 - 元物质输入/出仓或分子机械方块
-gt.blockmachines.multimachine.em.decay.desc.0=它的周期太长了吗？
-gt.blockmachines.multimachine.em.decay.desc.1=那么就用它的半衰期(3)代替！
+// --- //gt.blockmachines.multimachine.em.decay.desc.0=它的周期太长了吗？
+// +++ //gt.blockmachines.multimachine.em.decay.desc.0=Controller block of the Decay Generator
+// ↑↑↑ //gt.blockmachines.multimachine.em.decay.desc.0=Is life time too long?
+// --- //gt.blockmachines.multimachine.em.decay.desc.1=那么就用它的半衰期(3)代替！
+// +++ //gt.blockmachines.multimachine.em.decay.desc.1=Decays elemental matter to generate power
+// ↑↑↑ //gt.blockmachines.multimachine.em.decay.desc.1=Make it half-life (3) instead!
+
 gt.blockmachines.multimachine.em.decay.conf=分流器
 
 gt.blockmachines.multimachine.em.annihilation.name=湮灭发电机
 gt.blockmachines.multimachine.em.annihilation.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.annihilation.hint.1=2 - 元物质输入/出仓或分子机械方块
-gt.blockmachines.multimachine.em.annihilation.desc.0=物质和反物质并不是那么喜欢对方。
-gt.blockmachines.multimachine.em.annihilation.desc.1=质能转换!
+// --- //gt.blockmachines.multimachine.em.annihilation.desc.0=物质和反物质并不是那么喜欢对方。
+// +++ //gt.blockmachines.multimachine.em.annihilation.desc.0=Controller block of the Annihilation Generator
+// ↑↑↑ //gt.blockmachines.multimachine.em.annihilation.desc.0=Things+Anti Things don't like each other.
 
 gt.blockmachines.multimachine.em.blackholegenerator.name=黑洞发生器
 gt.blockmachines.multimachine.em.blackholegenerator.hint.0=1 - 基础仓室或超能机械方块
 gt.blockmachines.multimachine.em.blackholegenerator.hint.1=2 - 元物质输入/出仓或分子机械方块
-gt.blockmachines.multimachine.em.blackholegenerator.desc.0=基于奇点的能量获取
-gt.blockmachines.multimachine.em.blackholegenerator.desc.1=极端不稳定！！！
+// --- //gt.blockmachines.multimachine.em.blackholegenerator.desc.0=基于奇点的能量获取
+// +++ //gt.blockmachines.multimachine.em.blackholegenerator.desc.0=Controller block of the Black Hole Generator
+// ↑↑↑ //gt.blockmachines.multimachine.em.blackholegenerator.desc.0=Singularity based power generation.
+// --- //gt.blockmachines.multimachine.em.blackholegenerator.desc.1=极端不稳定！！！
+// +++ //gt.blockmachines.multimachine.em.blackholegenerator.desc.1=Uses a black hole to generate power
+// ↑↑↑ //gt.blockmachines.multimachine.em.blackholegenerator.desc.1=Super unstable!!!
 
 #Pipes
 gt.blockmachines.pipe.elementalmatter.name=量子隧道
@@ -800,6 +893,46 @@ gt.blockmachines.debug.tt.writer.desc.2=ABC轴沿机器正面确定
 tt.keyword.ID=ID
 #Example: 32EU at 1A
 tt.keyword.at= 
+# Structure is too complex
+// +++ //tt.keyword.Structure.StructureTooComplex=The structure is too complex!
+# Any X
+// +++ //tt.keyword.Structure.AnyComputerCasing=Any Computer Casing
+// +++ //tt.keyword.Structure.AnyHighPowerCasing=Any High Power Casing
+// +++ //tt.keyword.Structure.AnyHighPowerCasing1D=Any High Power Casing with 1 dot
+// +++ //tt.keyword.Structure.AnyHighPowerCasing2D=Any High Power Casing with 2 dots
+// +++ //tt.keyword.Structure.AnyHighPowerCasingFront=Any High Power Casing on the front side
+// +++ //tt.keyword.Structure.AnyTeslaBaseCasingOuter=Any outer Tesla Base Casing
+// +++ //tt.keyword.Structure.AnyComputerCasingFirstOrLastSlice=Any Computer Casing on the first or last slice
+// +++ //tt.keyword.Structure.AnyComputerCasingBackMain=Any Computer Casing on the backside of the main body
+// +++ //tt.keyword.Structure.AnyAdvComputerCasingExceptOuter=Any Advanced Computer Casing, except the outer ones
+// +++ //tt.keyword.Structure.AnyMolecularCasing=Any Molecular Casing
+// +++ //tt.keyword.Structure.AnyMolecularCasing2D=Any Molecular Casing with 2 dots
+// +++ //tt.keyword.Structure.AnyMolecularCasing3D=Any Molecular Casing with 3 dots
+// +++ //tt.keyword.Structure.AnyMolecularCasing4D=Any Molecular Casing with 4 dots
+// +++ //tt.keyword.Structure.AnyOuterMolecularCasing3rd=Any outer Molecular Casing on the 3rd slice
+// +++ //tt.keyword.Structure.AnyOuterMolecularCasing4th=Any outer Molecular Casing on the 4th slice
+// +++ //tt.keyword.Structure.AnyOuterMolecularCasing3rd4th=Any outer Molecular Casing on the 3rd or 4th slice
+// +++ //tt.keyword.Structure.AnyOuterCasingOnBottom=Any outer casing on the bottom layer
+# Optional
+// +++ //tt.keyword.Structure.Optional=(optional)
+# Placement specification
+// +++ //tt.keyword.Structure.FrontCenter=Front center
+// +++ //tt.keyword.Structure.BackCenter=Back center
+// +++ //tt.keyword.Structure.SideCenter=Side center
+// +++ //tt.keyword.Structure.FrontCenter3rd=Front 3rd layer center
+// +++ //tt.keyword.Structure.CenterPillar=Center of the front pillar
+// +++ //tt.keyword.Structure.Center=Center
+# Additional structure components
+// +++ //tt.keyword.Structure.DataAccessHatch=Data Access Hatch
+// +++ //tt.keyword.Structure.ElementalOutput=Elemental Output Hatch
+// +++ //tt.keyword.Structure.Elemental=Elemental Hatch
+// +++ //tt.keyword.Structure.ElementalOverflow=Elemental Overflow Hatch
+// +++ //tt.keyword.Structure.ElementalInput=Elemental Input Hatch
+// +++ //tt.keyword.Structure.EssentiaStorage=Essentia Storage
+// +++ //tt.keyword.Structure.DataConnector=Data Connector
+// +++ //tt.keyword.Structure.SuperconductingCoilBlock=Superconducting Coil Block
+// +++ //tt.keyword.Structure.StainlessSteelCasing=Stainless Steel Casing
+
 
 tt.keyphrase.Hint_Details=提示细节
 
