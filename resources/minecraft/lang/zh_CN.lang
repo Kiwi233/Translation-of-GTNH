@@ -389,7 +389,7 @@ gtnh.quest96.name=§5§l拯救红石
 gtnh.quest96.desc=厌倦使用四个红石制做一个磁化铁杆了吗？好消息!使用磁化机不需要红石,只需要通电,你不一定要接上导线,这台机器使用电池也能运作得很好(耗电很低).
 
 # Quest.97 - §5§lAvengers, Assemble!
-gtnh.quest97.name=§5§l复仇者联盟,集合!
+gtnh.quest97.name=§5§l复仇者联盟,组装!
 gtnh.quest97.desc=电影粉丝绝对必须拥有它.哦,当然要用来做所有的东西. 有非常多的配方,用组装机生产会比手搓造价低得多,还有的必须使用组装机,所以尽快制造一台吧!%n%n§3提示:你可以使用GUI中的电池插槽和其他额外的插槽来存储未使用的编程电路.%n%n如果你完成了第一章节的银树任务,在制造出组装机后,就可以去暮色森林了. 请查看"魔法学徒"任务栏获取更多信息.
 
 # Quest.98 - §5§lNo More Filing
@@ -650,7 +650,7 @@ gtnh.quest161.desc=当一般的魔法已经不能满足你需要的时候,你可
 
 # Quest.162 - §9§lDimensional Goal: Moon
 gtnh.quest162.name=§9§l目标:月球
-gtnh.quest162.desc=在HV阶段,你应该尽快登上月球.以获得钛,用于制造EV机器和AE系统. 不过这是一个漫长而艰巨的任务,请转到"太空竞赛"任务栏获取更多信息.%n%n§3另外,IV电路板和HV组装机是这个任务栏的前置条件.%n%n§6如果你正在进行不上天挑战,可以手持一组钛锭触发隐藏任务,前进到下一步. 等你到EV阶段之后,还能手持一组钨钢锭触发.
+gtnh.quest162.desc=在HV阶段,你应该尽快登上月球.以获得钛,用于制造EV机器和AE系统. 不过这是一个漫长而艰巨的任务,请转到"太空竞赛"任务栏获取更多信息.%n%n§3另外,IV电路板和HV组装机是这个任务栏的前置条件.%n%n§6如果你正在进行不上天挑战,可以手持一组钛锭触发隐藏任务,跳过本任务前进到下一步. 等你到EV阶段之后,还能手持一组钨钢锭触发.
 
 # Quest.163 - §9§lI See Everything
 gtnh.quest163.name=§9§l我看到了一切
@@ -714,7 +714,7 @@ gtnh.quest177.desc=是时候抽血了.你必须从你自己开始...%n%n每次�
 
 # Quest.178 - It's Storage Time!
 gtnh.quest178.name=存储时间!
-gtnh.quest178.desc=想要搭建一个AE系统,你需要4种不同类型芯片的压印模板,把它们收集齐全吧! 如果你到EV还未集齐它们的话,也可以通过机器直接制造.%n%n§3另外,搭建AE系统需要成吨的钛,所以先做到量产钛吧!
+gtnh.quest178.desc=想要搭建一个AE系统,你需要4种不同类型芯片的压印模板,把它们收集齐全吧! 如果你到EV阶段还未集齐它们的话,也可以通过机器直接制造.%n%n§3另外,搭建AE系统需要成吨的钛,所以先做到量产钛吧!
 
 # Quest.179 - Gotta Find Them All
 gtnh.quest179.name=得找到它们
@@ -758,7 +758,7 @@ gtnh.quest188.desc=实际上,从其他两个星球上面你可以找到现阶段
 
 # Quest.189 - §a§lHEV Mark III Protective System
 gtnh.quest189.name=§a§lHEV Mk III 防护系统
-gtnh.quest189.desc=接下来你会接触到一些有污染甚至很危险的东西. 你可能会在这里跟许多肮脏的东西打交道,所以你要做好最坏的打算.%n%n要是不做好防护,某些物品会给你带来辐射状态.辐射状态的持续时间取决于物品种类.有的物品给你的辐射状态持续时间超长甚至**.**,这将杀死你,因为你无法摆脱这种状态只能等死.%n%n另一些物品将会给你带来一些常见异常状态(debuff),而不是直接辐射状态.这样就还可以抢救,比如牛奶、大地疣、水蜜蜂等.%n%n如果你穿了一套防化服(别忘了橡胶靴子!),那就不会受到任何辐射debuff影响. 其他有防化服功能(Provides full hazmat protection)的套装也有这个效果.
+gtnh.quest189.desc=接下来你会接触到一些有污染甚至很危险的东西. 你可能会在这里跟许多肮脏的东西打交道,所以你要做好最坏的打算.%n%n要是不做好防护,某些物品会给你带来辐射状态.辐射状态的持续时间取决于物品种类.有的物品给你的辐射状态持续时间超长甚至**.**,这将杀死你,因为你无法摆脱这种状态只能等死.%n%n另一些物品将会给你带来一些常见异常状态(debuff),而不是直接辐射状态.这样就还可以抢救,比如牛奶、大地疣、水蜜蜂等.%n%n如果你穿了一套防化服(别忘了橡胶靴子!),那就不会受到任何辐射debuff影响. 其他有防化服功能(Provides-full-hazmat-protection)的套装也有这个效果.
 
 # Quest.190 - §a§lAppropriate Power
 gtnh.quest190.name=§a§l合适的能源
@@ -1018,7 +1018,7 @@ gtnh.quest253.desc=我有一个简单的想法.有些人仅仅为了从水或者
 
 # Quest.254 - Essentia Filtering
 gtnh.quest254.name=源质过滤
-gtnh.quest254.desc=这个漂亮的小装置会帮你从炼金炉或坩埚中过滤出物品中蕴含的源质.一旦它接收到了任何一种类型源质,那么这个蒸馏器就只会接收这种源质,直到奥术蒸馏器其中的源质被全部提取完毕.你可以在炼金炉上方放置多个蒸馏器,多么方便啊. 最好蒸馏器数量可以对应正在炼金炉中物品的源质种类数.%n%n可使用标签锁定源质种类,否则每当蒸馏器再次被充满,其中可能就是另一种源质了,这样就有可能堵塞你的源质管道.
+gtnh.quest254.desc=这个漂亮的小装置会帮你从炼金炉或坩埚中过滤出物品中蕴含的源质.一旦它接收到了任何一种类型源质,那么这个蒸馏器就只会接收这种源质,直到奥术蒸馏器其中的源质被全部提取完毕.你可以在炼金炉上方放置多个蒸馏器,多么方便啊. 最好蒸馏器数量可以对应正在炼金炉中物品的源质种类数.%n%n可使用标签锁定源质种类,否则每当蒸馏器再次被充满,其中很可能就是另一种源质了,这样就有可能堵塞你的源质管道.
 
 # Quest.255 - An Alternative to Torches
 gtnh.quest255.name=火把的代替品
@@ -1054,7 +1054,7 @@ gtnh.quest262.desc=更多...我想要更多! 一定有什么更强大、更古�
 
 # Quest.263 - A Silverwood Wand at Last
 gtnh.quest263.name=最后,一柄银树法杖
-gtnh.quest263.desc=我尝试把巫妖之骨和这个银树杖柄结合在一起.结果在几秒钟内它们就化成了一堆灰烬.我想我需要一种更好的魔导介质. 暮色森林的九头蛇有很强的再生能力-他们能再生整颗头颅! 她的血液里面一定含有大量的魔力.我想我们需要一点来完成我们的银树法杖.
+gtnh.quest263.desc=我尝试把巫妖之骨和这个银树杖柄结合在一起.结果在几秒钟内它们就化成了一堆灰烬.我想我需要一种更好的魔导介质. 暮色森林的九头蛇有很强的再生能力-能再生整颗头颅! 她的血液里面一定含有大量的魔力.我想我们需要一点来完成我们的银树法杖.
 
 # Quest.264 - Obsidian Rod
 gtnh.quest264.name=黑曜石杖柄
@@ -1206,7 +1206,7 @@ gtnh.quest300.desc=如果你经常进行注魔,那么你肯定很讨厌注魔过
 
 # Quest.301 - One Does Not Simply...
 gtnh.quest301.name=都不简单
-gtnh.quest301.desc=请注意!这些火焰都是十分危险的.但是你难道不想在下界拥有一片雪地嘛？%n%n在服务器上应该禁用火焰蔓延,以防止巨量的延迟以及服务器崩溃. (几种火焰的详情参考魔导手册中魔法工匠部分)
+gtnh.quest301.desc=请注意!这些火焰都是十分危险的.但是你难道不想在下界拥有一片雪地嘛？%n%n在服务器上应该禁用火焰蔓延,以防止产生巨量的延迟进而导致服务器崩溃. (几种火焰的详情参考魔导手册中魔法工匠部分)
 
 # Quest.302 - Useful Plant Life
 gtnh.quest302.name=有用的植物
@@ -1218,7 +1218,7 @@ gtnh.quest303.desc=普通的附魔会有极限,比如说时运最高是3级. 但
 
 # Quest.304 - Enchanting Like a Pro
 gtnh.quest304.name=附魔专家
-gtnh.quest304.desc=最终的一个设备--你可以使用渗透附魔台来选择你想要的附魔. 这个附魔台以VIS为动力,可以创造出你能想象到的最强大的附魔组合.
+gtnh.quest304.desc=终极附魔设备--你可以使用渗透附魔台来选择你想要的附魔. 这个附魔台以VIS为动力,可以创造出你能想象到的最强大的附魔组合.
 
 # Quest.305 - Crying Obsidian...
 gtnh.quest305.name=尖叫黑曜石
@@ -2014,7 +2014,7 @@ gtnh.quest502.desc=既然你已经摧毁了可怜的蜜蜂们的家园,那么你
 
 # Quest.503 - Analyze Them All
 gtnh.quest503.name=分析它们
-gtnh.quest503.desc=每一只蜜蜂都有很多属性来定义它们的行为.它们在雨中或者在夜晚是什么样子的,还有其他好多方面.你必须对蜜蜂的这些行为进行跟踪分析.这玩意不是很好,因为它无法告诉你隐性基因,但俗话说得好,"不浪费,不愁缺".  你将需要用纸来分析每只蜜蜂.
+gtnh.quest503.desc=每一只蜜蜂都有很多属性来定义它们的行为.它们在雨中或者在夜晚是什么样子的,还有其他好多方面.你必须对蜜蜂的这些行为进行跟踪分析.这玩意不是很好,因为它无法告诉你隐性基因,但俗话说得好,"不浪费,不愁缺".%n%n你将需要用纸来分析每只蜜蜂.
 
 # Quest.504 - To Scan or Not to Scan
 gtnh.quest504.name=扫描还是不扫描--这并非一个问题
@@ -2754,7 +2754,7 @@ gtnh.quest687.desc=青铜护甲跟铁制护甲有相同的性能.同样的耐久
 
 # Quest.688 - "Nice to Have" Armor
 gtnh.quest688.name=「有钱真好」护甲
-gtnh.quest688.desc=拥有黄金护甲也不错.它的耐久非常低,不过穿着黄金护甲使你看起来很高贵.
+gtnh.quest688.desc=拥有黄金护甲也不错.它的耐久非常低,不过穿着黄金护甲可以使你看起来很高贵.
 
 # Quest.689 - "Ooo, Shiny" Armor
 gtnh.quest689.name=闪亮亮的护甲
@@ -3081,7 +3081,7 @@ gtnh.quest769.name=§9§l玩泥巴
 gtnh.quest769.desc=这台机器使你可以将粉末制作成水晶,在高阶配方中你将需要水晶.
 
 # Quest.770 - §9§lAvengers, Assemble! 3
-gtnh.quest770.name=§9§l复仇者联盟3,装配!
+gtnh.quest770.name=§9§l复仇者联盟3,组装!
 gtnh.quest770.desc=你知道这是做什么用的.(=￣ω￣=)
 
 # Quest.771 - §5§lDust to Crystals
@@ -3094,7 +3094,7 @@ gtnh.quest772.desc=制作高阶的电路以及其它配方时你将会常使用�
 
 # Quest.773 - §6§lRaw Carbon Mesh
 gtnh.quest773.name=§6§l生碳网
-gtnh.quest773.desc=这种制造碳板的方法是在高压釜中加入碳粉.有四种不同的可用流体.%n%nLV时代,使用熔融聚乙烯会得到1个碳纤维.MV时代,使用聚四氟乙烯会得到2个.HV时代,使用环氧树脂会得到4个.或是在EV时代的最佳方案,使用聚苯并咪唑可以得到16个.
+gtnh.quest773.desc=这种制造碳板的方法是在高压釜中加入碳粉.有四种不同的可用流体.%n%n每个时代都有各自的最佳方案：LV时代,使用熔融聚乙烯会得到1个碳纤维;MV时代,使用聚四氟乙烯会得到2个;HV时代,使用环氧树脂会得到4个;EV时代,使用聚苯并咪唑可以得到16个.
 
 # Quest.774 - §6§lBio Organic Mesh
 gtnh.quest774.name=§6§l生物有机网
@@ -3962,7 +3962,7 @@ gtnh.quest989.desc=脉冲合金是将充能合金粉末、末影之眼粉末和�
 
 # Quest.990 - §9§lEnergetic Alloy
 gtnh.quest990.name=§9§l充能合金
-gtnh.quest990.desc=充能合金是将导电铁、黑钢和金搅拌而成的一种新型合金.在制作双层电容和HV能源仓的时候需要用到它. 在得到充能合金粉末后需要将它放入工业高炉中熔炼成充能合金锭.
+gtnh.quest990.desc=充能合金是将导电铁、黑钢和金搅拌而成的一种新型合金.在制造双层电容和HV能源仓的时候需要用到它. 在得到充能合金粉末后需要将它放入工业高炉中熔炼成充能合金锭.
 
 # Quest.991 - Dark Steel Armor Basic Upgrades
 gtnh.quest991.name=玄钢护甲基础升级
@@ -4010,7 +4010,7 @@ gtnh.quest1001.desc=升级后的高级光伏板要比原来的光伏板输出高
 
 # Quest.1002 - Enchanted Earth
 gtnh.quest1002.name=魔法泥土
-gtnh.quest1002.desc=魔法泥土可以让树苗或者作物在上面生长的更快. 多个泥土堆叠在一起的时候会随机增加顶端的时间流逝. 变相随机让树苗或者作物的生长速度增加一点. 注:在魔导手册神秘养蜂学找到相关研究.
+gtnh.quest1002.desc=魔法泥土可以让树苗或者作物在上面生长的更快. 多块魔法泥土堆叠在一起的时候会随机加速顶端的时间流逝. 变相随机让树苗或者作物的生长速度增加一点. 注:在魔导手册神秘养蜂学找到相关研究.
 
 # Quest.1003 - §a§lPower of the Sun at MV Level
 gtnh.quest1003.name=§a§l太阳之力(MV)
@@ -4490,7 +4490,7 @@ gtnh.quest1121.desc=杂交高尚蜂和威严蜂可以得到帝皇蜂.  这些蜜
 
 # Quest.1122 - Royal Jelly
 gtnh.quest1122.name=蜂王浆
-gtnh.quest1122.desc=蜂王浆,是蜜蜂巢中培育幼虫的青年工蜂咽头腺的分泌物,是供给将要变成蜂王的幼虫的食物.它只能由帝皇蜂生产. 蜂王浆可以用来制作标定框架. 蜂王浆也是一种非常美味的美食,吃掉它可以补充8点饱食度,并且给予40秒的生命回复I BUFF. 蜂王浆也可以用来制作飘香镶板来用于制作蜂箱组.
+gtnh.quest1122.desc=蜂王浆,是蜜蜂巢中培育幼虫的青年工蜂咽头腺的分泌物,是供给将要变成蜂王的幼虫的食物.它只能由帝皇蜂生产. 蜂王浆可以用来制作标定框架. 蜂王浆也是一种非常美味的美食,吃掉它可以补充8点饱食度,并且给予40秒的生命回复I-BUFF. 蜂王浆也可以用来制作飘香镶板来用于制作蜂箱组.
 
 # Quest.1123 - Alvearies
 gtnh.quest1123.name=蜂箱组
@@ -4962,7 +4962,7 @@ gtnh.quest1239.desc=NAND芯片可用于制造闪存、数据球和UV电路板.NO
 
 # Quest.1240 - §9§lData Sticks
 gtnh.quest1240.name=§9§l闪存
-gtnh.quest1240.desc=闪存可以用来保存地震勘探者数据,并且闪存对于LuV中的装配线也是十分重要.因此去制作一些闪存吧.
+gtnh.quest1240.desc=闪存可以用来保存地震勘探者数据,并且闪存对于LuV阶段解锁的装配线也十分重要.因此去制造一些闪存吧.
 
 # Quest.1241 - §a§lRadon Loop
 gtnh.quest1241.name=§a§l氡循环
@@ -5182,7 +5182,7 @@ gtnh.quest1294.desc=这个设备可以加速各种水晶种子的成长速度. �
 
 # Quest.1295 - Perfecting Crystal Growth
 gtnh.quest1295.name=晶体催生仓
-gtnh.quest1295.desc=晶体催生仓可以通过插入加速卡来更加快速地催生晶体. 它的工作方式更像是普通的设备, 晶体在其内部存储空间中生长. 并且与更原始的版本不同, 它在不使用时不耗电. 这台机器也不需要频道.
+gtnh.quest1295.desc=晶体催生仓可以通过插入加速卡来更加快速地催生晶体.它的工作方式更像是普通的设备,晶体在其内部存储空间中生长.并且与更原始的版本不同,它在不使用时不耗电.这台机器也不需要频道.
 
 # Quest.1296 - Purifying the Impure
 gtnh.quest1296.name=高纯度晶体
@@ -12482,7 +12482,7 @@ gtnh.quest3119.desc=四硝基甲烷(TNM)的另一半就是乙烯酮了.同样,�
 
 # Quest.3120 - Green Cetane-Boosted Diesel
 gtnh.quest3120.name=绿色高十六烷值柴油
-gtnh.quest3120.desc=四硝基甲烷是将生物柴油转化为高十六烷值柴油所需的添加剂.而每桶生物柴油可以转化为0.9桶高十六烷值柴油,不过如果你算算两者的每桶EU燃值,320k-EU转化为900k-EU,就算扣除合成消耗的5.7k-EU,这也是发电量的一次巨大提升.合成四硝基甲烷仅需数千EU,合成的主要难点其实是如何将所有原料自动化输入,不过在这个阶段应该也不算太难.%n%n这种燃料的能量密度非常高,但这并不意味着你已经拥有足够的能量跳上EV阶段.真正的难点其实是提供足够支撑你燃料消耗的植物或鱼,因为比起所需的油来说,其他所有的物品和流体基本上都是添加剂.虽然种子油/鱼油无法与获取原油的速度相提并论,不过如果你增加产线的规模,应该可以大大提升它们的产量.%n%n如果你想往这个方向法杖,在未来高十六烷值柴油还有更多可能.
+gtnh.quest3120.desc=四硝基甲烷是将生物柴油转化为高十六烷值柴油所需的添加剂.而每桶生物柴油可以转化为0.9桶高十六烷值柴油,不过如果你算算两者的每桶EU燃值,320k-EU转化为900k-EU,就算扣除合成消耗的5.7k-EU,这也是发电量的一次巨大提升.合成四硝基甲烷仅需数千EU,合成的主要难点其实是如何将所有原料自动化输入,不过在这个阶段应该也不算太难.%n%n这种燃料的能量密度非常高,但这并不意味着你已经拥有足够的能量跳上EV阶段.真正的难点其实是提供足够支撑你燃料消耗的植物或鱼,因为比起所需的油来说,其他所有的物品和流体基本上都是添加剂.虽然种子油/鱼油无法与获取原油的速度相提并论,不过如果你增加产线的规模,应该可以大大提升它们的产量.%n%n如果你想往这个方向发展,在未来高十六烷值柴油还有更多可能.
 
 # Quest.3121 - Fermented Biomass
 gtnh.quest3121.name=发酵生物质
@@ -12806,7 +12806,7 @@ gtnh.quest3200.desc=除非你的杂交农业非常发达,否则你在EV阶段的
 
 # Quest.3201 - Thorium vs. Uranium
 gtnh.quest3201.name=钍 vs. 铀
-gtnh.quest3201.desc=钍和铀有很多不同之处,但也有很多相似之处.%n%n一般来说,铀是一种更好的燃料,不过流体核弹不遵循这一一般规则.因为它不直接输出EU/t,仅仅消耗热量转化为热冷却液,因此两种燃料之间的差异变得很小,而钍更容易获得也更容易转化为燃料棒. The maximum amount of heat you can safely move around in a reactor limits the amount of Uranium Fuel Rods you can use, which means that your HU value will not be as high as you would have wanted.%n%nFor regular and vacuum IC2 nukes, however, Uranium has a big advantage. Especially in vacuum nukes, which are the most powerful, the efficient cooling through the cells makes it so a lot of Uranium can be processed at once, which returns incredible amounts of EU/t. The different conversion from fuel to energy between fluid and vacuum means that Thorium is very good for fluid nukes, whereas Uranium is very good for vacuum nukes.
+gtnh.quest3201.desc=钍和铀有很多不同之处,但也有很多相似之处.%n%n一般来说,铀是一种更好的燃料,不过流体核弹不遵循这一一般规则.因为它不直接输出EU/t,仅仅消耗热量转化为热冷却液,因此两种燃料之间的差异变得很小,而钍更容易获得也更容易转化为燃料棒.你可以安全地从反应堆中抽取热量的速度,限制了你可以使用的铀燃料棒数量,这意味HU值可能无法达到你的预期.%n%n然后,对于普通核弹或强冷核弹而言,铀具有很大的优势.尤其是对于最强大的强冷核弹,通过冷却单元的有效冷却,使其可以一次处理大量的铀燃料棒,从而产出惊人的EU/t. 流体核弹与强冷核弹,燃料转化为能量的转换方式不同,意味着钍非常适合流体核弹,而铀则非常适合强冷核弹.
 
 # Quest.3202 - Max Danger Nukes
 gtnh.quest3202.name=最危险的核弹
@@ -12833,36 +12833,36 @@ gtnh.quest3207.name=第二座反应堆?
 gtnh.quest3207.desc=现在,为什么不呢?你现在应该更有能力负担起它了,而且3级聚变解锁了一个更简单的镅配方,这可以让你能够更轻松地制造第二座3级聚变.你可能不想等那么久,也许你已经熔炼了大量的锭,或是用上了世界加速器?%n%n无论如何,无论你在做什么,在目前,两座氦等离子体聚变肯定足够了.当然,锡等离子体更强,不过将锡转化为银的分子重组仪配方,现在无法在单方块机器中使用了,所以你应该想要更简单的选择(有了两座聚变选择范围大大拓展). 2x的超频,只要准备好不错的等离子涡轮,你就能获得百万EU/t的发电功率.
 
 # Quest.3208 - Transmutative Rod
-// +++ //gtnh.quest3208.name=Transmutative Rod
-// +++ //gtnh.quest3208.desc=Combining Salis Mundis and some clusters, I can get upgrade a greatwood rod to a transmutative rod. Now that looks like a particularly interesting option!
+gtnh.quest3208.name=转换杖柄
+gtnh.quest3208.desc=结合世界盐和一些魔晶,你可以将宏伟之木杖柄升级为转换杖柄. 在目前,这看上去是个相当有趣的选择!
 
 # Quest.3209 - Gas Planets
-// +++ //gtnh.quest3209.name=Gas Planets
-// +++ //gtnh.quest3209.desc=You probably also want a good overview of what you can get with your Gas Siphon. So here we go:%n%n%nJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
+gtnh.quest3209.name=气态行星
+gtnh.quest3209.desc=你可能还想要全面了解可以通过行星气体钻机采集到些什么.所以让我们开始吧：%n%n%n木星§r%n1 氢 - 15000 L/s%n2 氦 - 500 L/s%n3 氮 - 300 L/s%n4 氧 - 200 L/s%n%n§o土星§r%n1 氢 - 18000 L/s%n2 氦 - 800 L/s%n3 氧 - 500 L/s%n4 液氧 - 150 L/s%n%n§o天王星§r%n1 氘 - 5000 L/s%n2 氖 - 450 L/s%n3 氩 - 250 L/s%n4 氪 - 100 L/s%n%n§o海王星§r%n1 氚 - 3000 L/s%n2 氦-3 - 500 L/s%n3 氨 - 400 L/s%n4 氙 - 350 L/s
 
 # Quest.3210 - Another Chemical Multiblock?
-// +++ //gtnh.quest3210.name=Another Chemical Multiblock?
-// +++ //gtnh.quest3210.desc=You probably have built a lot of Large Chemical Reactors by now. With the powerful 4/4 overclocking it is one of the strongest multiblocks there is. But what if even that is not enough to satisfy your chemical needs? You can't make it faster if the recipe time is already down to 1 tick (=0.05s).%n%nFear not, we have a solution for you: The Mega Chemical Reactor. It lets you do 256 parallels for your LCR recipes! And you can still overclock after that if you provide enough power.%n%nIt only unlocks in LuV as it needs 7 Fusion Coil Blocks. Check with your hologram projector to see how it is built and what you need.%n%nThe glass tier limits the energy hatch tier that you can use. You can even use multiamp hatches from TecTech! If you want to use laser hatches however you need at least UV glass.
+gtnh.quest3210.name=另一台多方块化学反应釜?
+gtnh.quest3210.desc=迄今为止,你可能已经建造了许多台大型化学反应釜.拥有强大4/4无损超频的大型化学反应釜是最强多方块之一.然而,如果这都无法满足你的化工产线,怎么办呢?如果一个配方的处理时间已经超频到了1t(0.05秒)以下,你就无法进一步提速了吗?%n%n别担心,我们为你提供了解决方案：巨型化学反应釜.它最高可以同时并行256大型化学反应釜配方!同时,如果你能提供足够的能量,它同样能够进行超频.%n%n由于需要7个聚变线圈方块,所以LuV才能解锁它.请查看全息投影仪,获知它的具体结构以及所需方块.%n%n玻璃等级会限制可用的能源仓等级.你甚至可以用TecTech的多A能源仓!不过,如果你想用激光仓的话,至少需要UV玻璃.
 
 # Quest.3211 - §6§lRaw Silicon Dust
-// +++ //gtnh.quest3211.name=§6§lRaw Silicon Dust
-// +++ //gtnh.quest3211.desc=Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.%n%nWith your new electrolyzer you can obtain raw silicon dust from many different sources. Alternatively, you can also centrifuge redstone. Or, you can also get your raw silicon from silicon dioxide.
+gtnh.quest3211.name=§6§l生硅粉
+gtnh.quest3211.desc=所有单晶硅(以及晶圆、芯片和电路)的制造都需要硅.因此,硅是一种§o非常重要的材料§r.%n%n使用新造的电解机,你可以从许多不同来源获得生硅粉.或者,你也可以离心红石.又或者,你还可以从二氧化硅中获取它.
 
 # Quest.3212 - §6§lSilicon Tetrachloride
-// +++ //gtnh.quest3212.name=§6§lSilicon Tetrachloride
-// +++ //gtnh.quest3212.desc=However, the raw silicon dust you obtained is not pure enough! We will need to work on that. Don't worry, this is just a simple two step process. First let us start by reacting it with some chlorine in a chemical reactor.
+gtnh.quest3212.name=§6§l四氯化硅
+gtnh.quest3212.desc=然而,你获得的生硅粉还不够纯净!我们需要继续努力.别担心,这只需要简单的两步处理.首先,让我们先在化学反应釜中将其与一些氯进行反应.
 
 # Quest.3213 - §6§lSilicon Solar Grade
-// +++ //gtnh.quest3213.name=§6§lSilicon Solar Grade
-// +++ //gtnh.quest3213.desc=As a second step, we combine the tetrachloride with sodium.%n%nThere we go! The silicon dust is now purified to solar grade!
+gtnh.quest3213.name=§6§l太阳能级硅
+gtnh.quest3213.desc=第二步,让我们将四氯化硅与钠结合起来.%n%n好的!硅粉现在被净化到了太阳能级!
 
 # Quest.3214 - §6§lSalty from all the silicon?
-// +++ //gtnh.quest3214.name=§6§lSalty from all the silicon?
-// +++ //gtnh.quest3214.desc=If you are salty about the ingredients needed to purify silicon, I got good news for you! You can recover all of the chlorine and sodium you used by electrolyzing the salt you got!
+gtnh.quest3214.name=§6§l头疼(Salty)的硅产线?
+gtnh.quest3214.desc=如果你对提纯硅所需的各种资源感到头疼的话,我这有个好消息! 你可以通过电解处理产物盐(Salt),回收所有的氯和钠!
 
 # Quest.3215 - Trigger: SMD Transistor Skip
-// +++ //gtnh.quest3215.name=Trigger: SMD Transistor Skip
-// +++ //gtnh.quest3215.desc=No Description
+gtnh.quest3215.name=触发:跳过贴片晶体管
+gtnh.quest3215.desc=没有描述.
 
 ##################################Line##################################
 
