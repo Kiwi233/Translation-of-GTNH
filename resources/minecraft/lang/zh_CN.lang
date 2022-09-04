@@ -1496,7 +1496,7 @@ gtnh.quest372.desc=这只蜜蜂的名字有些不准确.实际上它产出末影
 
 # Quest.373 - §6§lAn Industrial Mobfarm
 gtnh.quest373.name=§6§l工业化怪物农场
-gtnh.quest373.desc=§6§l工业屠宰场§r是全新的,并且可能是§l最好的§r刷怪笼+怪物磨床.有了它,你不仅可以在不影响§lTPS§r的情况下获取掉落物,而且§l极其§r高效,颇具风度.%n%n当然了,这也取决于你的剑,伤害和掠夺是仅有的两种有效属性(武器是可选的,因为多方块结构本身就包含了锥刺.如果你要使用武器,需要放上一个§cULV§r输入总线).%n%n如果你想要的并非普通掉落物,可以在多方块结构的顶部建造一个血魔法仪式"苦难之井"(你还是会得到怪物的掉落物,不过速度很慢).%n机器也会生成液态经验(固定为120L),并且在可能的情况下会生成精英怪(生成时会消耗8倍的功率,所以有时电力消耗会突然飙升,做好准备!)%n译者注:经过测试,机器的功率不足时(EV或者IV电压下)一定不会生成精英怪.%n%n§l注意:§r%n如果机器的动画导致了什么问题,只需用电烙铁右键主机关闭.
+gtnh.quest373.desc=§6§l工业屠宰场§r是全新的,并且可能是§l最好的§r刷怪笼+怪物磨床.有了它,你不仅可以在不影响§lTPS§r的情况下获取掉落物,而且§l极其§r高效,颇具风度.%n%n当然了,这也取决于你的剑,伤害和掠夺是仅有的两种有效属性(武器是可选的,因为多方块结构本身就包含了锥刺.如果你要使用武器,需要放上一个§cULV§r输入总线).%n%n如果你想要的并非普通掉落物,可以在多方块结构的顶部建造一个血魔法仪式"苦难之井"(你还是会得到怪物的掉落物,不过速度很慢).%n机器也会生成液态经验(固定为120L),并且在可能的情况下会生成精英怪(生成时会消耗8倍的功率,所以有时电力消耗会突然飙升,做好准备!)%n%n§l注意:§r%n如果机器的动画导致了什么问题,只需用电烙铁右键主机关闭.%n%n译者注:经过测试,机器的功率不足时(EV或者IV电压下)一定不会生成精英怪.%n%n译者再注:和平难度下无法生成敌对生物.
 
 # Quest.374 - §c§l[OUTDATED]§r I'm on my own now
 gtnh.quest374.name=§c§l[过期]现在要靠我自己了
@@ -2204,7 +2204,7 @@ gtnh.quest549.desc=在化学反应釜中通过氢气将硫化轻燃油转化成�
 
 # Quest.550 - §5§lH for Hydrogen... the Rest of the Alphabet is Too Complicated...
 gtnh.quest550.name=§5§lH代表氢...字母表的其余部分太复杂了!
-gtnh.quest550.desc=用离心机处理黄褐铁矿石或者棕褐铁矿石,即可获得一些氢气,或者在电解机里面电解水也可以,不过可能比较费电.%n%n你可能想寻找更多其他获取氢气的方法.不过其中部分得在很久之后才能解锁.%n%n例如：水化或电解甲烷(生物来源)、电解水或盐水,将钠与水混合,或是后期直接从气态巨行星抽取氢气.
+gtnh.quest550.desc=用离心机处理黄褐铁矿石或者棕褐铁矿石,即可获得一些氢气,或者在电解机里面电解水也可以,不过可能比较费电.%n%n你可能想寻找更多其他获取氢气的方法.不过其中部分得在很久之后才能解锁.%n%n例如：水化或电解甲烷(生物来源)、电解水或盐水、将钠与水混合,或是后期直接从气态巨行星抽取氢气.
 
 # Quest.551 - §5§lHeavy Sulfuric Fuel
 gtnh.quest551.name=§5§l含硫重燃油
@@ -2232,7 +2232,7 @@ gtnh.quest556.desc=孩子们,今天我们将使用甘油来制作一些硝化甘
 
 # Quest.557 - §9§lNITRO! (Cetane-Boosted Diesel)
 gtnh.quest557.name=§9§l硝基!(高十六烷值柴油)
-gtnh.quest557.desc=每单元1M-EU,比柴油更加高能.是的,是的,这太棒了! 制造一些高十六烷值柴油来让增强你的内燃发电机的动力.%n%n§3另外,高辛烷值汽油是另一条路,所以当你在EV阶段想要转用它时,你需要重新搭建整条生产线.
+gtnh.quest557.desc=每单元1M-EU,比柴油更加高能.是的,是的,这太棒了! 制造一些高十六烷值柴油,让你的内燃发电机迸发更强大的动力吧.%n%n§3另外,高辛烷值汽油是另一条路,所以当你在EV阶段想要转用它时,你需要重新搭建整条生产线.
 
 # Quest.558 - §3§lHow Can I Carry All These Items?
 gtnh.quest558.name=§3§l这么多东西往哪放？
@@ -2328,7 +2328,7 @@ gtnh.quest580.desc=热电子加工台可以制作各种真空管或者彩色玻�
 
 # Quest.581 - A Series of Tubes
 gtnh.quest581.name=磷灰石电子管
-gtnh.quest581.desc=在你制作第一个农场方块之前,你需要一些磷灰石电子管.先做一些磷灰石长杆(先用车床制作磷灰石杆,然后用锤子或者锻造锤制造长杆),然后还需要一些金螺栓和红色合金板.%n%n然后将这些零件连同玻璃或沙子放入热电子加工台中.你就能制造出来它了.%n%n§3用电路组装机可以获得更多输出.热电子加工台还有什么用呢?
+gtnh.quest581.desc=在你制作第一个农场方块之前,你需要一些磷灰石电子管.先做一些磷灰石长杆(先用车床制作磷灰石杆,然后用锤子或者锻造锤制造长杆),然后还需要一些金螺栓和红色合金板.%n%n然后将这些零件连同玻璃或沙子放入热电子加工台中.你就能制造出磷灰石电子管了.%n%n§3用电路组装机可以获得更多输出.热电子加工台还有什么用呢?
 
 # Quest.582 - The Multifarm
 gtnh.quest582.name=多方块农场
@@ -6016,7 +6016,7 @@ gtnh.quest1502.desc=厌倦了将EnderIO物品放入电容库中来充电吗？ �
 
 # Quest.1503 - §6§lNobody Wants an Explosion...
 gtnh.quest1503.name=§6§l没有人想爆炸...
-gtnh.quest1503.desc=...当然! 因此,在构建多方块时,请确保:%n%n1、不要跨区块%n%n2、不要依赖来自多方块外部的来源.换句话说,确保你在当地采购水(即水源供应).%n%n还有,要是你前面没注意的话我就再说一遍,机器不喜欢淋雨,否则附近就会着火.而机器附近的火有随机几率引爆机器.这种爆炸还会引爆其他机器,造成连锁反应,直到你的基地变成一个大坑. 这就是需要备份的原因之一. 注意安全!%n%n祝你好运.%n%n§3另外,如果你不确定的话,在log文件夹里还有个"Explosion.log"的文件,它会追踪是什么导致的爆炸. 不过这个文件需要重新加载世界才会出现.
+gtnh.quest1503.desc=...当然! 因此,在构建多方块时,请确保:%n%n1、不要跨区块%n%n2、不要依赖来自多方块外部的来源.换句话说,确保你在当地采购水(即水源供应).%n%n还有,要是你前面没注意的话我就再说一遍,机器不喜欢淋雨,否则附近就会着火.而机器附近的火有随机几率引爆机器.这种爆炸还会引爆其他机器,造成连锁反应,直到你的基地变成一个大坑. 这就是需要备份的原因之一. 注意安全!%n%n祝你好运.%n%n§3另外,如果你不确定的话,在log文件夹里还有个"Explosion.log"的文件,它会追踪是什么导致的爆炸. 不过这个文件需要重新加载世界才会出现.%n%n译者注:机器六面中任何一面接触到雨,都可能会使附近着火从而引发爆炸!
 
 # Quest.1504 - §2§e§k§l§r§3§2§lDivine Rod of the Gods?
 gtnh.quest1504.name=§2§e§k§l§r§3§2§l众神的神圣权柄？
@@ -10920,9 +10920,7 @@ gtnh.quest2728.desc=这是除了毕业装备/创造法杖以外,你能制造的�
 
 # Quest.2729 - Genetically Modifying Your Plants
 gtnh.quest2729.name=转基因作物
-gtnh.quest2729.desc=有三种机器为转基因服务. 你不仅需要大功率的能源,还需要成吨地UU-M.%n%n这三种机器只能处理特定等级以下的作物. 这个等级计算公式为(作物等级+2)/2,再向上取整. 所以LV机器只能处理1级作物,而MV机器就能处理3级作物. 你无法对元始浆果进行转基因(Primoridal-Berries),因为它要求UHV机器.%n%n§3LV=T1,MV=T3,HV=T5,EV=T7,IV=T9,LuV=T11,ZPM=T13,UV=15,UHV-无法合成.§r%n%n首先是作物基因提取机:%n它需要一个种子袋,一个空§2数据球§r(查看EV任务),和§61A§r电流. 使用编程电路调整写入数据球的状态.(译者注: 1-4号编程电路分别对应作物种类和三围.) 你可能需要作物的三围是23-31-0,也有可能不用来繁殖,单纯追求最大的生长速度和产出: 31-31-0. 如果生长超过23,记得采取一定的预防措施,因为这时作物会表现得像野草一样. 有许多种作物,所以你需要成吨地数据球,要是你循环使用数据球当我没说. §4记得保留数据球或者作物作为备份!§r%n%n第二是作物合成机:%n它需要§24个数据球§r(三围各一个,还有一个作物种类),§5作物等级/2*1000L的UU-M§r(这个不取整),以及§616A§r电流. 它能制造出一个新的种子袋,三围如你所愿.%n%n最后是作物复制机:%n它需要一个种子袋,§5作物等级*1000L的UU-M§r,以及§66A§r电流. 复制完毕后,它会返还给你两个相同的种子袋. 这一过程会消耗更多UU-M,但耗电更少,是否值得,取决于你.
-// +++ //gtnh.quest2729.desc=There are 3 machines crucial to doing this. You'll also need bucketloads of power, and the same (literally) of UUM.%n%nAll 3 can only work on crops up to a certain tier, determined by the tier of the machine you made and the crop you're working with. Basically, it's (crop tier+2)/2, rounded up. So an LV machine can work on T1 crops, but an MV one can work on T3.%n%n§3LV=T1, MV=T3, HV=T5, EV=T7, IV=T9, LuV=T11, ZPM=T13, UV=T15, UHV=T17.§r%n%nFirst is the Crop Gene Extractor:%nIt takes an existing crop seedbag, an empty §2Data Orb§r (See EV quests), and §61A§r while running. Use a circuit to determine what stat to copy to the Data Orb. You'll probably want either 23-31-0, or 31-31-0 for max speed and output, since you won't be breeding from these. Remember to take proper precautions if going over 23, as they will attempt to weed everything around them. There's a significant number of crops, so you'll probably need a ton of Orbs too, unless you want to reuse them. §4Remember to keep a Data Orb or seedbag backup!§r%n%nSecond is the Crop Synthesizer:%nIt takes §24 Data Orbs§r, one for each of the types from the CGE, §51000L of UUM per crop tier/2§r (this is not rounded), and §616A§r while running. It will create a new crop seedbag with the desired stats.%n%nLastly is the Crop Replicator:%nIt takes an existing crop seedbag, §51000L per crop tier of UUM§r, and §66A§r while running. After finishing, it gives you back two of the same seedbag, duplicating it. This takes twice as much UUM, but less power, it's up to you whether that's worth it.
-// ↑↑↑ //gtnh.quest2729.desc=There are 3 machines crucial to doing this. You'll also need bucketloads of power, and the same (literally) of UUM.%n%nAll 3 can only work on crops up to a certain tier, determined by the tier of the machine you made and the crop you're working with. Basically, it's (crop tier+2)/2, rounded up. So an LV machine can work on T1 crops, but an MV one can work on T3. You can't modify Primoridal Berries though, as they would be UHV.%n%n§3LV=T1, MV=T3, HV=T5, EV=T7, IV=T9, LuV=T11, ZPM=T13, UV=15, UHV is uncraftable.§r%n%nFirst is the Crop Gene Extractor:%nIt takes an existing crop seedbag, an empty §2Data Orb§r (See EV quests), and §61A§r while running. Use a circuit to determine what stat to copy to the Data Orb. You'll probably want either 23-31-0, or 31-31-0 for max speed and output, since you won't be breeding from these. Remember to take proper precautions if going over 23, as they will attempt to weed everything around them. There's a significant number of crops, so you'll probably need a ton of Orbs too, unless you want to reuse them. §4Remember to keep a Data Orb or seedbag backup!§r%n%nSecond is the Crop Synthesizer:%nIt takes §24 Data Orbs§r, one for each of the types from the CGE, §51000L of UUM per crop tier/2§r (this is not rounded), and §616A§r while running. It will create a new crop seedbag with the desired stats.%n%nLastly is the Crop Replicator:%nIt takes an existing crop seedbag, §51000L per crop tier of UUM§r, and §66A§r while running. After finishing, it gives you back two of the same seedbag, duplicating it. This takes twice as much UUM, but less power, it's up to you whether that's worth it.
+gtnh.quest2729.desc=有三种机器为转基因服务. 你不仅需要大功率的能源,还需要成吨地UU-M.%n%n这三种机器只能处理特定等级以下的作物. 这个等级计算公式为(作物等级+2)/2,再向上取整. 所以LV机器只能处理1级作物,而MV机器就能处理3级作物. %n%n§3LV=T1,MV=T3,HV=T5,EV=T7,IV=T9,LuV=T11,ZPM=T13,UV=T15,UHV=T17.§r%n%n首先是作物基因提取机:%n它需要一个种子袋,一个空§2数据球§r(查看EV任务),和§61A§r电流. 使用编程电路调整写入数据球的状态.(译者注: 1-4号编程电路分别对应作物种类和三围.) 你可能需要作物的三围是23-31-0,也有可能不用来繁殖,单纯追求最大的生长速度和产出: 31-31-0. 如果生长超过23,记得采取一定的预防措施,因为这时作物会表现得像野草一样. 有许多种作物,所以你需要成吨地数据球,要是你循环使用数据球当我没说. §4记得保留数据球或者作物作为备份!§r%n%n第二是作物合成机:%n它需要§24个数据球§r(三围各一个,还有一个作物种类),§5作物等级/2*1000L的UU-M§r(这个不取整),以及§616A§r电流. 它能制造出一个新的种子袋,三围如你所愿.%n%n最后是作物复制机:%n它需要一个种子袋,§5作物等级*1000L的UU-M§r,以及§66A§r电流. 复制完毕后,它会返还给你两个相同的种子袋. 这一过程会消耗更多UU-M,但耗电更少,是否值得,取决于你.
 
 # Quest.2730 - Lasers Solve Everything
 gtnh.quest2730.name=激光解决一切
@@ -11502,9 +11500,7 @@ gtnh.quest2873.desc=将树莓和橙子树杂交,你就可以培育出金树莓.%
 
 # Quest.2874 - §1§lLoading the Chunks
 gtnh.quest2874.name=§1§l加载区块
-gtnh.quest2874.desc=与许多整合包一样,在GTNH,你也会需要让基地里的机器,在你外出探索时保持运行. §3(不过不可否认,当你进入游戏中期后,几乎就没啥时间出去浪了,但你还是想要确保基地里的一切井井有条地运行,尤其是多方块机器可能因为加载问题而爆炸,比如部分加载造成的供水问题)§r%n%n你需要使区块保持加载,才能让自己的工厂夜以继日地干活. 有多种方法可以达到这一目的.%n%n1) 安装FTBUtil,认领区块,再加载区块. 如果你是一个人玩的话,默认配置下的认领/加载数可能不够用,所以尽管增加数量吧. 不过修改配置文件只有在单人模式或私人服务器可以做到.%n%n2) 使用RC的锚. 一共有4种锚.你得到LV阶段以后才能制造它们. 在单人模式或是私人服务器中,你可以通过作弊获取管理员世界锚,免费永久加载区块. 在公共服务器上,为了防止长时间不上线玩家基地持续加载而大幅降低TPS,这些是被限制的. 在我们的官方服务器中,这些锚需要消耗末影碎片、末影珍珠或是区块加载器硬币.请查看tooltip,获知它们在什么锚中分别有多长的工作时间. 在官方服务器中,你也无法制造区块加载器硬币,你得通过其他方式获取. 不过,即使你在单人游戏中,如果想要让游戏更具挑战性,还是限制一下自己的区块加载吧.%n%n3) 使用chicken-chunks来获取类似锚的方块.但我们不建议这样,因为这玩意bug多多.%n%n4) 使用某种会加载自己的方块.这里就不列了. 如果在公共服务器上,没有经过管理员允许就大量使用此方块,那他可能会给你点颜色看看了.就算是某些原版方式也不行.
-// +++ //gtnh.quest2874.desc=In this, like many packs, you'll want to have things in your base keep running while you're off exploring. §3(Though admittedly once you reach midgame you'll spend almost no time off-base, you'll still want to make sure everything is still chunkloaded just in case to prevent machine explosions, especially for multiblocks)§r%n%nIn order to have things keep running, you need to have the chunks loaded. You can do this in a few ways.%n%n1) Install FTB Utilities and claim chunks, then set them to chunkload. By default you may not be able to claim/chunkload enough per player, so feel free to increase the number. You need to be in SP or running your own server to do this.%n%n2) Use an Anchor from Railcraft. There are 4 types. Anchors are not craftable until LV. In SP, or a server you run, cheat in Admin Anchors to chunkload forever, for free. They're limited on servers to prevent TPS dropping from people chunkloading a base forever when they aren't even there. On the officials, you need to use Ender Fragments, Ender Pearls, or Coins to fuel them. Look at the tooltip on each for how long it will work, and in what chunkloader. Feel free to limit yourself to chunkloading this way in SP if you want to make it more challenging though.%n%n3) Use chicken chunks to get anchor-like blocks. But don't do this, it's buggy.%n%n4) Use Chunkloader from GT++. You need EU instead of Ender Pearls.%n%n5) Use one of the blocks that chunkloads itself. If you do this on a server, expect the admins to possibly get very mad with you if it's not something you're allowed to do. Same for vanilla methods.
-// ↑↑↑ //gtnh.quest2874.desc=In this, like many packs, you'll want to have things in your base keep running while you're off exploring. §3(Though admittedly once you reach midgame you'll spend almost no time off-base, you'll still want to make sure everything is still chunkloaded just in case to prevent machine explosions, especially for multiblocks)§r%n%nIn order to have things keep running, you need to have the chunks loaded. You can do this in a few ways.%n%n1) Install FTBUtil and claim chunks, then set them to chunkload. By default you may not be able to claim/chunkload enough per player, so feel free to increase the number. You need to be in SP or running your own server to do this.%n%n2) Use an Anchor from Railcraft. There are 4 types. Anchors are not craftable until LV. In SP, or a server you run, cheat in Admin Anchors to chunkload forever, for free. They're limited on servers to prevent TPS dropping from people chunkloading a base forever when they aren't even there. On the officials, you need to use Ender Fragments, Ender Pearls, or Coins to fuel them. Look at the tooltip on each for how long it will work, and in what chunkloader. You also can't make the coin mold on the officials, so you need to get them another way. Feel free to limit yourself to chunkloading this way in SP if you want to make it more challenging though.%n%n3) Use chicken chunks to get anchor-like blocks. But don't do this, it's buggy.%n%n4) Use one of the blocks that chunkloads itself. If you do this on a server, expect the admins to possibly get very mad with you if it's not something you're allowed to do. Same for vanilla methods.
+gtnh.quest2874.desc=与许多整合包一样,在GTNH,你也会需要让基地里的机器,在你外出探索时保持运行. §3(不过不可否认,当你进入游戏中期后,几乎就没啥时间出去浪了,但你还是想要确保基地里的一切井井有条地运行,尤其是多方块机器可能因为加载问题而爆炸,比如部分加载造成的供水问题)§r%n%n你需要使区块保持加载,才能让自己的工厂夜以继日地干活. 有多种方法可以达到这一目的.%n%n1) 安装FTBUtilities,认领区块,再加载区块. 如果你是一个人玩的话,默认配置下的认领/加载数可能不够用,所以尽管增加数量吧. 不过修改配置文件只有在单人模式或私人服务器可以做到.%n%n2) 使用RC的锚. 一共有4种锚.你得到LV阶段以后才能制造它们. 在单人模式或是私人服务器中,你可以通过作弊获取管理员世界锚,免费永久加载区块. 在公共服务器上,为了防止长时间不上线玩家基地持续加载而大幅降低TPS,这些是被限制的. 在我们的官方服务器中,这些锚需要消耗末影碎片、末影珍珠或是区块加载器硬币.请查看tooltip,获知它们在什么锚中分别有多长的工作时间. 在官方服务器中,你也无法制造区块加载器硬币,你得通过其他方式获取. 不过,即使你在单人游戏中,如果想要让游戏更具挑战性,还是限制一下自己的区块加载吧.%n%n3) 使用chicken-chunks来获取类似锚的方块.但我们不建议这样,因为这玩意bug多多.%n%n4) 使用GT++的区块加载机.需要EU而不是末影珍珠.%n%n5) 使用某种能加载自身所在区块的方块,这里就不列了. 如果在公共服务器上,没有经过管理员允许就大量使用此类方块,那他可能会给你点颜色看看了.就算是某些原版方式也不行.
 
 # Quest.2875 - Trigger:Loot Game
 gtnh.quest2875.name=触发:奖励小游戏(Loot Game)
@@ -11591,12 +11587,8 @@ gtnh.quest2895.name=懒人厨房(Cooking for Blockheads)
 gtnh.quest2895.desc=感谢mitch对这个超棒mod进行的后端支持. 通过这个mod可以帮助你合成新食物. 所有与厨房地板相连的方块都被视为同一多方块结构(都可以直接使用!). 厨房的工作台面会搜索上方两格的橱柜,包括在整个多方块结构中.%n%n存储在存储器(比如橱柜)或你的物品栏中的物品,都可以参与合成. 所有存储物品的储存器都是一样的,所以除非你真的很想要一面墙的冰箱,否则不要造太多... 为水槽供水,即可支持所有需要水的食物配方.%n%n你可以在烤箱中存放一些烹饪工具.剩下的可以存放在厨具架上,这样就可以在合成食谱配方时自动使用它们了. 如果你还没法做齐潘马斯的工具,也是支持GT工具的,比如软锤.%n%n烤箱有3个输入槽,3个输出槽,一次可以处理9个物品. 它基本上就是个炉子.而真正核心的是烹饪桌.%n%n烹饪桌会自动显示基于现有原材料,可以制作的所有食物,而你可以通过点击直接完成它们. 制出所有的食物,并获得所有的奖励生命上限!%n%n你可以使用染料对厨房进行涂色,烤箱除外.%n%n请注意,由于开发还未完成,所以懒人厨房还存在一些问题: 让烤箱之类的机器支持RF/EU能量的升级还没有加入. 等等...不过值得庆贺的是,吐司机修好了!%n%n请到GTNH仓库下的<CFB-specific>反馈bug及问题,地址是 https://github.com/GTNewHorizons/CookingForBlockheads/issues %n%n§3罐子里没有奶牛,未来也不会有.
 
 # Quest.2896 - §5§6§l§5§lGimme My Stuff Back!
-gtnh.quest2896.name=§6§l把我的东西还回来!
-// +++ //gtnh.quest2896.name=§5§6§l§5§lGimme My Stuff Back!
-// ↑↑↑ //gtnh.quest2896.name=§6§lGimme My Stuff Back!
+gtnh.quest2896.name=§5§6§l§5§l把我的东西还回来!
 gtnh.quest2896.desc=总有一天你会说,'兄弟,电弧炉或者粉碎机回收了个寂寞,用来制造的材料几乎剩不下什么'. 好吧,这里有个办法,拆解机.%n%n一般来说,东西丢进去,制造它的各部分拆出来.不过拆解机需要与被拆物品处于相同或更高等级.%n%n对于手搓的合成,拆解机也有效,但无法拆解装配线的产物(LuV+),也无法拆解非GT物品. 但是,由于某种原因,在某些物品上拆解会莫名失效.请询问Bart原因.%n%n如果拆解产物里有带矿辞的物品,比如电路板,返还的会是相同矿辞最低价值的那个. 现在你可以回收你的旧线圈、仓室、机器等各种用不上的东西了!%n%n§3产物的出产几率基于电压等级现已删除. 另外,它非常快!不会给你后悔的机会!
-// +++ //gtnh.quest2896.desc=At some point, you'll be all, 'Man, arc furnacing or macerating these things to recycle them blows, I barely get any of the materials I used back'. Well, there's a solution, the Disassembler.%n%nBasically, things go in, parts it's made of go out. It needs to be at the same tier or higher though.%n%nIt works on hand and assembler crafted items, but it doesn't work on assline stuff (LuV+), or non-GT items. However, for some reason on some items it fails for seemingly no reason. Ask bart why that happens. If there's an oredicted item like a circuit, it should return the least valuable one. You can now recyle your old coils, hatches, machines, etc with impunity!%n%n§3The % chance based on tier is gone now. Also, it's really fast!
-// ↑↑↑ //gtnh.quest2896.desc=At some point, you'll be all, 'Man, arc furnace-ing or macerating these things to recycle them blows, I barely get any of the materials I used back'. Well, there's a solution, the Disassembler.%n%nBasically, things go in, parts it's made of go out. It needs to be at the same tier or higher though.%n%nIt works on hand and assembler crafted items, but it doesn't work on assline stuff (LuV+), or non-GT items. However, for some reason on some items it fails for seemingly no reason. Ask bart why that happens. If there's an oredicted item like a circuit, it should return the least valuable one. You can now recyle your old coils, hatches, machines, etc with impunity!%n%n§3The % chance based on tier is gone now. Also, it's really fast!
 
 # Quest.2897 - §2§lMaking a Rapier
 gtnh.quest2897.name=§2§l制造一柄西洋剑
@@ -11804,9 +11796,7 @@ gtnh.quest2947.desc=我认为你应该已经知道怎么处理它了.%n%n难度�
 
 # Quest.2948 - Large Naquadah Reactor
 gtnh.quest2948.name=大型硅岩反应堆
-gtnh.quest2948.desc=这是硅岩反应堆的多方块版本,但它与单方块的硅岩反应堆完全不同.%n%n它需要的是流体态的硅岩燃料或激发态的核燃料,而输出的是枯竭的燃料. 你可以在NEI查到流体燃料的详细数据.%n%n大型硅岩反应堆运行时每秒消耗2400L液体空气,否则就会持续消耗燃料但不产出能量.%n%n§4仓室中存在一种以上的燃料将会导致爆炸.%n%n§r输入冷却液可以提升效率.%nIC2冷却液:105％%n超级冷却液:150％%n极寒之凛冰:275％%n%n输入某些熔融金属可以提高输出功率.%n熔融铯:2x%n熔融铀-235:3x%n熔融硅岩:4x%n熔融原子分离催化剂:16x%n请注意:与冷却液的效率提升不同(白嫖),熔融金属提高功率的代价是消耗更多的燃料.更像是给反应堆加了'并行'.%n%n大型硅岩反应堆同样支持§9Tec§1Tech§r多A动力仓和激光仓.%n%n§3PS：这台发电机拥有目前整个整合包最高的输出功率,虽然在未来可能会遭到nerf.
-// +++ //gtnh.quest2948.desc=The multi block version of the naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputing power.%n%n§4It will explode with more than one types of fuel in its hatches.%n%n§rYou can input in coolant to increase efficiency.%nIC2 Coolant: 1.05x%nSuper Coolant: 1.5x%nCryotheum: 2.75x%n%nYou can also input molten metals to increase power.%nMolten Caesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The molten metal works like 'parallels' for your reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n§3PS: This generator has the highest output power in this pack currently, but it may get nerfed in future.
-// ↑↑↑ //gtnh.quest2948.desc=The multi block version of naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and output the depleted fuel. You can see the liquid fuel infomation in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputing power.%n%n§4It will explode when more one types of fuel in its hatch.%n%n§rYou can input in coolant to increase efficiency.%nIC2 Coolant: 105%%nSuper Coolant: 150%%nCryotheum: 275%%n%nYou can also input molten metals to increase power.%nMolten Ccaesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. It works like add 'paralle' to reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n§3PS: This generator has the highest output power in this pack currently, but it may get nerfed in future.
+gtnh.quest2948.desc=这是硅岩反应堆的多方块版本,但它与单方块的硅岩反应堆完全不同.%n%n它需要的是流体态的硅岩燃料或激发态的核燃料,而输出的是枯竭的燃料. 你可以在NEI查到流体燃料的详细数据.%n%n大型硅岩反应堆运行时每秒消耗2400L液体空气,否则就会持续消耗燃料但不产出能量.%n%n§4仓室中存在一种以上的燃料将会导致爆炸.%n%n§r输入冷却液可以提升效率.%nIC2冷却液:1.05x%n超级冷却液:1.5x%n极寒之凛冰:2.75x%n%n输入某些熔融金属可以提高输出功率.%n熔融铯:2x%n熔融铀-235:3x%n熔融硅岩:4x%n熔融原子分离催化剂:16x%n请注意:与冷却液的效率提升不同(白嫖),熔融金属提高功率的代价是消耗更多的燃料.更像是给反应堆加了'并行'.%n%n大型硅岩反应堆同样支持§9Tec§1Tech§r多A动力仓和激光仓.%n%n§3PS：这台发电机拥有目前整个整合包最高的输出功率,虽然在未来可能会遭到nerf.
 
 # Quest.2949 - Refining
 gtnh.quest2949.name=精炼
@@ -11838,27 +11828,19 @@ gtnh.quest2955.desc=将其与镁粉一起在工业高炉中进行熔炼.
 
 # Quest.2956 - Nuclear Based Fuel (Th)
 gtnh.quest2956.name=钍基流体燃料
-gtnh.quest2956.desc=最便宜的流体燃料,每mB出产9800EU/t,持续10秒.%n%n它还是镨的来源之一,而镨可用于合成硅岩燃料.
-// +++ //gtnh.quest2956.desc=Cheapest one, with 2,200EU/t output lasting 25s per mB.%n%nIt is also the source of praseodymium, which will be used for naquadah fuel.
-// ↑↑↑ //gtnh.quest2956.desc=Cheapest one, with 9 800EU/t output lasting 10s per mB.%n%nIt is also the source of praseodymium, which will be used for naquadah fuel.
+gtnh.quest2956.desc=最便宜的流体燃料,每mB出产2200EU/t,持续25秒.%n%n它还是镨的来源之一,而镨可用于合成硅岩燃料.
 
 # Quest.2957 - Nuclear Based Fuel (U)
 gtnh.quest2957.name=铀基流体燃料
 gtnh.quest2957.desc=每mB出产12,960EU/t,持续5秒.
-// +++ //gtnh.quest2957.desc=Provides 12,960EU/t output lasting 5s per mB.
-// ↑↑↑ //gtnh.quest2957.desc=Provides 12 960EU/t output lasting 5s per mB.
 
 # Quest.2958 - Nuclear Based Fuel (Pu)
 gtnh.quest2958.name=钚基流体燃料
 gtnh.quest2958.desc=每mB出产32,400EU/t,持续7.5秒.
-// +++ //gtnh.quest2958.desc=Provides 32,400EU/t output lasting 7.5s per mB.
-// ↑↑↑ //gtnh.quest2958.desc=Provides 32 400EU/t output lasting 7.5s per mB.
 
 # Quest.2959 - Naquadah Fuel Refinery
 gtnh.quest2959.name=硅岩燃料精炼厂
-gtnh.quest2959.desc=这台疯狂的机器是用来制造MkIII及以上硅岩燃料的.%n%n它的超频机制类似聚变反应堆--不能通过简单升压实现超频.你得用更高阶的线圈才行.%n%n这台多方块机器还支持§9Tec§1Tech§r多A能源仓和激光仓.%n%n举个例子,MkIV硅岩燃料要求2阶线圈,而精炼厂实际安装了3阶线圈,那么会进行一次无损超频--功率x2,时间减半.
-// +++ //gtnh.quest2959.desc=This insane machine is used to make MkIII and higher tier naquadah fuel.%n%nIt can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coils.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%nExample: The MkIV fuel requires tier 2 coils and the refinery is using tier 3 coils. This gives an overclock similar to fusion, using 2x power and 0.5x time.
-// ↑↑↑ //gtnh.quest2959.desc=The insane machine is used for make MkIII and higher tier naquadah fuel.%n%nIt works like fusion that can't be overclocked by increasing the input voltage. The only way to overclock it is to use higher tier coil.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp energy hatches and laser hatches.%n%ne.g. The MkIV fuel requires Teir 2 coil and the refinery is using Teir 3 coil. This allows a perfect overclock, using 2x power and 0.5x time.
+gtnh.quest2959.desc=这台疯狂的机器是用来制造MkIII及以上硅岩燃料的.%n%n它的超频机制类似聚变反应堆--不能通过简单升压实现超频.你得用更高阶的线圈才行.%n%n这台多方块机器还支持§9Tec§1Tech§r多A能源仓和激光仓.%n%n举个例子,MkIV硅岩燃料要求2阶线圈,而精炼厂实际安装了3阶线圈,那么会进行一次类似于聚变反应堆的超频--功率x2,时间减半.
 
 # Quest.2960 - Tier 2 Coil
 gtnh.quest2960.name=2阶线圈
@@ -11867,8 +11849,6 @@ gtnh.quest2960.desc=2阶线圈可以解锁MkIV、MkV燃料.
 # Quest.2961 - Naquadah Based Fuel MkI
 gtnh.quest2961.name=硅岩基流体燃料-MkI
 gtnh.quest2961.desc=每mB出产220,000-EU/t,持续1秒.看起来不太行.
-// +++ //gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Doesn't looks very good.
-// ↑↑↑ //gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Looks not very good.
 
 # Quest.2962 - Naquadah Based Fuel MkII
 gtnh.quest2962.name=硅岩基流体燃料-MkII
@@ -11876,27 +11856,19 @@ gtnh.quest2962.desc=每mB出产380,000-EU/t,持续1秒.还是很有限.
 
 # Quest.2963 - Naquadah Based Fuel MkIII
 gtnh.quest2963.name=硅岩基流体燃料-MkIII
-gtnh.quest2963.desc=每mB出产10.5M-EU/t,持续3秒. 换句话说1.2A-UEV.
-// +++ //gtnh.quest2963.desc=9.5M EU/t lasting 4s per mB. UEV @ 1.1A in other words.
-// ↑↑↑ //gtnh.quest2963.desc=10.5M EU/t lasting 3s per mB. UEV @ 1.2A in other words.
+gtnh.quest2963.desc=每mB出产9.5M-EU/t,持续4秒. 换句话说1.1A-UEV.
 
 # Quest.2964 - Naquadah Based Fuel MkIV
 gtnh.quest2964.name=硅岩基流体燃料-MkIV
-gtnh.quest2964.desc=每mB出产138M-EU/t,持续7秒. 这意味着它的输出已经超过了普通状态下的8重压缩太阳能.
-// +++ //gtnh.quest2964.desc=88.5M EU/t lasting 5s per mB.
-// ↑↑↑ //gtnh.quest2964.desc=138M EU/t lasting 7s per mB. It means its output power is over an Oct compressed solar in normal condition.
+gtnh.quest2964.desc=每mB出产88.5M-EU/t,持续5秒.
 
 # Quest.2965 - Naquadah Based Fuel MkV
 gtnh.quest2965.name=硅岩基流体燃料-MkV
-gtnh.quest2965.desc=每mB出产1B-EU/t,持续10秒.我必须承认这是一场灾难. 你可以用43k单元的MKV燃料,填满一个UHV兰波顿电容.
-// +++ //gtnh.quest2965.desc=400M EU/t lasting 8s per mB. This power means that you can fill a UHV Lapotronic Capacitor with 145k MkV Fuel cells.
-// ↑↑↑ //gtnh.quest2965.desc=1B EU/t lasting 10s per mB. I must admit that it is a disaster. This power means that you can fill a UHV Lapotronic Capacitor with 43k MkV Fuel cells.
+gtnh.quest2965.desc=每mB出产400M-EU/t,持续8秒.你可以用145k单元的MKV燃料,填满一个UHV兰波顿电容.
 
 # Quest.2966 - Tier 3 Coil
 gtnh.quest2966.name=3阶线圈
 gtnh.quest2966.desc=为了超频! 等等,你想超频UXV合成表?
-// +++ //gtnh.quest2966.desc=For an overclock. Wait, you are going to overclock a UXV recipe?
-// ↑↑↑ //gtnh.quest2966.desc=For overclock. Wait, you are going to overclock a UXV recipe?
 
 # Quest.2967 - Incomplete Combustion
 gtnh.quest2967.name=不完全燃烧
@@ -11928,37 +11900,23 @@ gtnh.quest2973.desc=...不能再忍了.迫不及待收获你努力工作的成�
 
 # Quest.2974 - §6§lAluminium Hydroxide
 gtnh.quest2974.name=§6§l氢氧化铝
-gtnh.quest2974.desc=想要直接将铝粉炼化为锭,你需要的炉温超过了白铜线圈可以提供的范畴. 还有另一种选择：通过将铝粉与氢氧化钠混合,制成氢氧化铝,以降低所需的炉温.它可以被处理成氧化铝. 而冰晶石可以降低炼锭所需的炉温.%n%n§d§6请查看NEI以寻找氢氧化铝的其他合成表.
-// +++ //gtnh.quest2974.desc=To get ingots straight from aluminium dust you'll need higher temperatures then cupronickel coils can provide. One alternative route is to lower the required temperature by turning it into aluminiumhydroxide dust. It can be processed to alumina. You can also use it to make cryolite.
-// ↑↑↑ //gtnh.quest2974.desc=To get ingots straight from aluminium dust you'll need higher temperatures then cupronickel coils can provide. Alternatively you can lower the required temperature by mixing aluminium dust with sodiumhydroxide to create aluminiumhydroxide dust. It can be processed to alumina. Cryolite can also lower the required temperature to smelt it to ingots.%n%n§d§6Check out NEI to find alternative recipes for aluminiumhydroxide.
+gtnh.quest2974.desc=想要直接将铝粉炼化为锭,你需要的炉温超过了白铜线圈可以提供的范畴. 还有另一种选择：通过将铝粉与氢氧化钠混合,制成氢氧化铝,以降低所需的炉温.它可以被处理成氧化铝,也可以用来制造冰晶石.
 
 # Quest.2975 - §6§lChemical cryolite production
 gtnh.quest2975.name=§6§l冰晶石的化学制法
-// +++ //gtnh.quest2975.name=§6§lChemical cryolite production
-// ↑↑↑ //gtnh.quest2975.name=§6§lChemical cryolity production
-gtnh.quest2975.desc=不想为了炼化这些氧化铝去寻找冰晶石矿脉? 你可以永远相信化学合成,将氢氟酸、盐水和氢氧化铝反应一下试试.
-// +++ //gtnh.quest2975.desc=Feeling too lazy to search for a cryolite vein to smelt all this alumina? You can always synthesize it with hydroflouric acid, sodium hydroxide and aluminium hydroxide.
-// ↑↑↑ //gtnh.quest2975.desc=Feeling too lazy to search for a cryolite vein to smelt all this alumina? You can always synthesize it with hydroflouric acid, salt water and aluminiumhydroxide.
+gtnh.quest2975.desc=不想为了炼化这些氧化铝去寻找冰晶石矿脉? 你可以永远相信化学合成,将氢氟酸、氢氧化钠和氢氧化铝反应一下试试.
 
 # Quest.2976 - §6§lAdvanced aluminium production
-gtnh.quest2976.name=§9§l先进炼铝工艺
-// +++ //gtnh.quest2976.name=§6§lAdvanced aluminium production
-// ↑↑↑ //gtnh.quest2976.name=§9§lAdvanced aluminium production
-gtnh.quest2976.desc=当你的大型化学反应釜竣工后,你就可以循环使用铝粉制成铝酸钠. %n等找到铝土矿后,它将更有价值.%n在这个处理过程中,你还会获得大量的氢.
-// +++ //gtnh.quest2976.desc=After you have made an MV chemical reactor you are able to create some sodium aluminate. In this process you will also get a lot of hydrogen.
-// ↑↑↑ //gtnh.quest2976.desc=After you have made a large chemical reactor you are able to recycle your aluminium dust to make sodium aluminate.%nIt will be even more rewarding after you find bauxite.%nIn this process you will also get a lot of hydrogen.
+gtnh.quest2976.name=§6§l先进炼铝工艺
+gtnh.quest2976.desc=有了MV化学反应釜后,就可以制备铝酸钠.在这个处理过程中,你还会获得大量的氢.
 
 # Quest.2977 - §9§lAdvanced alumina production
 gtnh.quest2977.name=§9§l氧化铝的进阶制备方式
-gtnh.quest2977.desc=炼化24份铝酸钠获得24份氧化铝粉.最终剩下碳酸钠.
-// +++ //gtnh.quest2977.desc=You can smelt 24 sodium aluminate down into 15 alumina dust. Sodium carbonate will be left over.
-// ↑↑↑ //gtnh.quest2977.desc=You can smelt 24 sodium aluminate down into 24 alumina dust. Sodium carbonate will be left over.
+gtnh.quest2977.desc=炼化24份铝酸钠获得15份氧化铝粉.还会留下碳酸钠.
 
 # Quest.2978 - §9§lRed Mud
 gtnh.quest2978.name=§9§l赤泥
-gtnh.quest2978.desc=赤泥是铝酸钠处理的副产物.通过离心,你可以获得一些有用的材料.
-// +++ //gtnh.quest2978.desc=Red mud is a byproduct from bauxite processing. You can get few useful materials out of it by centrifuging.%n%n§3Unless you want the red mud specifically, you are probably better off processing your bauxite in a different way. Specifically electrolysis or mixing it with sodium hydroxide to make sodium aluminate.
-// ↑↑↑ //gtnh.quest2978.desc=Red mud is a byproduct from sodium aluminate processing. You can get few useful materials out of it by centrifuging.
+gtnh.quest2978.desc=赤泥是铝土矿粉处理的副产物.通过离心,你可以获得一些有用的材料.%n%n§3除非你特别需要赤泥,否则最好用其他方式处理铝土矿粉.电解处理,或者将其和氢氧化钠混合制成铝酸钠.
 
 # Quest.2979 - §5§6§l§5§lAluminium Tank
 gtnh.quest2979.name=§5§6§l§5§l铝储罐
@@ -12209,171 +12167,115 @@ gtnh.quest3040.name=我应该在哪建造戴森球?
 gtnh.quest3040.desc=如若你仔细阅读过戴森球地面单元的tooltip(你也应该这么做),那么你可能已经注意到,tooltip中提到"基于所在世界的系数".事实上,戴森球所在的世界会极大影响其能量输出.%n%n§l按系数从高到低排序：§r%n§a231％ - 巴纳德C%n228％ - α半人马Bb%n198％ - 织女B%n194％ - 金星空间站%n176％ - 金星%n161％ - 水星%n 141％ - 巴纳德E%n134％ - 鲸鱼座T星E%n126％ - 巴纳德F%n112％ - 罗斯128b、罗斯128ba%n110％ - 地球空间站%n§6100％ - 主世界、月球%n§c89％ - 火星空间站%n81％ - 火星、火卫一、火卫二%n61％ - 小行星%n60％ - 谷神星%n48％ - 木星空间站%n44％ - 木卫二、木卫一、木卫三%n36％ - 土星空间站%n32％ - 土卫二、土卫六、木卫四%n25％ - 天王星空间站%n23％ - 天卫四、海卫八、天卫五%n20％ - 海王星空间站%n18％ - 海卫一%n16％ - 冥王星、柯伊伯带%n15％ - 鸟神星、妊神星%n1％ - 花园、虚空世界以及矿界%n§40％ - 所有其他世界
 
 # Quest.3041 - §6§lGetting Muddy With Monazite
-gtnh.quest3041.name=获得独居石浊溶液
-// +++ //gtnh.quest3041.name=§6§lGetting Muddy With Monazite
-// ↑↑↑ //gtnh.quest3041.name=Getting Muddy With Monazite
+gtnh.quest3041.name=§6§l获得独居石浊溶液
 gtnh.quest3041.desc=很快你就会用到镧系元素,大量的镧系元素.%n然而,它们性质接近,可不是轻易就能分离的....%n%n请先制造一台煮解池,以解锁IV任务栏中的镧系任务线.%n%n请注意：如果不安装消声仓,这台多方块机器就无法正常工作.
 
 # Quest.3042 - §6§lDissolution Tank
-gtnh.quest3042.name=溶解罐
-// +++ //gtnh.quest3042.name=§6§lDissolution Tank
-// ↑↑↑ //gtnh.quest3042.name=Dissolution Tank
+gtnh.quest3042.name=§6§l溶解罐
 gtnh.quest3042.desc=专为稀释而设计的一种特殊搅拌机.%n%n你需要为其按比例(NEI所示)提供输入,否则就无法获得输出.%n%n不管怎么说,溶解罐在镧系处理中扮演了相当重要的角色,所以赶紧制造一台吧.
 
 # Quest.3043 - §b§lMonazite
-gtnh.quest3043.name=独居石
-// +++ //gtnh.quest3043.name=§b§lMonazite
-// ↑↑↑ //gtnh.quest3043.name=Monazite
+gtnh.quest3043.name=§b§l独居石
 gtnh.quest3043.desc=欢迎来到镧系处理!%n这将是一次有趣的旅行,不管你喜欢与否 :P%n%n首先获得一些独居石,当然这只够开始,%n因为后面你会需要§o成吨§o§o§r的独居石才能真正获得这条任务线的所有奖励.%n%n然后,你需要将独居石与硝酸在煮解池内混合,%n获得其浊溶液.%n是的没错,镧系处理§o非常§r消耗硝酸!
 
 # Quest.3044 - §b§lWatery Mud
-gtnh.quest3044.name=稀释泥浆
-// +++ //gtnh.quest3044.name=§b§lWatery Mud
-// ↑↑↑ //gtnh.quest3044.name=Watery Mud
+gtnh.quest3044.name=§b§l稀释泥浆
 gtnh.quest3044.desc=煮解池的产物还是太过浓稠,你还需要用水在溶解罐中对其进行稀释.%n%n有趣的事实：配方中的硝石仅仅是为了便于搜索而添加的!%n%n在稀释过程中,你还会得到一些锆和铪.这两者在之后都会用到,所以千万不要随手销毁了.
 
 # Quest.3045 - §b§lZirconia-Hafnia Blend
-gtnh.quest3045.name=氧化铪-氧化锆混合物
-// +++ //gtnh.quest3045.name=§b§lZirconia-Hafnia Blend
-// ↑↑↑ //gtnh.quest3045.name=Zirconia-Hafnia Blend
-gtnh.quest3045.desc=这个过程有点复杂,所以我会指导你完成它.首先,将你从溶解罐中获得的粉进行离心.%n%n铪和锆都是难溶金属,类似于钛和锆,%n所以它们的处理过程比较相似. %n
+gtnh.quest3045.name=§b§l氧化铪-氧化锆混合物
+gtnh.quest3045.desc=这个过程有点复杂,所以我会指导你完成它.首先,将从溶解罐中获得的粉进行离心.%n%n铪和锆都是难溶金属,类似于钛和锆,%n所以它们的处理过程比较相似. %n
 
 # Quest.3046 - §b§lSifting the Goodness Out
-gtnh.quest3046.name=筛出好东西
-// +++ //gtnh.quest3046.name=§b§lSifting the Goodness Out
-// ↑↑↑ //gtnh.quest3046.name=Sifting the Goodness Out
-gtnh.quest3046.desc=是的,你没看错,筛选流体的配方!这里的很多材料都并非其最佳来源,但总比没有好.%n%n另外,硫酸独居石其实也并不是正在的化合物,仅仅作为一个术语,代指稀土的各种硫酸盐集合体.%n%n由于不想让大家担心其余产物的几率问题,所以本任务只要求主要的输出产物即可.
+gtnh.quest3046.name=§b§l筛出好东西
+gtnh.quest3046.desc=是的,你没看错,筛选流体的配方!这里的很多材料都并非其最佳来源,但总比没有好.%n%n另外,硫酸独居石其实也并不是实际的化合物,仅仅作为一个术语,代指稀土的各种硫酸盐集合体.%n%n由于不想让大家担心其余产物的几率问题,所以本任务只要求主产物即可.
 
 # Quest.3047 - §b§lHafnium Line
-gtnh.quest3047.name=铪处理线
-// +++ //gtnh.quest3047.name=§b§lHafnium Line
-// ↑↑↑ //gtnh.quest3047.name=Hafnium Line
+gtnh.quest3047.name=§b§l铪处理线
 gtnh.quest3047.desc=铪处理在此存在关键分支.依循这一条小任务线可以获得更多信息.%n%n首先,你需要将氧化铪与氢氯酸放在一起反应.%n%n然后,类似锆,更多用到的是溶液而非粉末.
 
 # Quest.3048 - §b§lZirconium Line
-gtnh.quest3048.name=锆处理线
-// +++ //gtnh.quest3048.name=§b§lZirconium Line
-// ↑↑↑ //gtnh.quest3048.name=Zirconium Line
+gtnh.quest3048.name=§b§l锆处理线
 gtnh.quest3048.desc=锆处理线的开端,同样是将氧化锆与氢氯酸进行反应.%n%n氧化锆粉本身基本没用,不过...做成溶液就有相当多的可能了.
 
 # Quest.3049 - §b§lEBF Time
-gtnh.quest3049.name=工业高炉时间
-// +++ //gtnh.quest3049.name=§b§lEBF Time
-// ↑↑↑ //gtnh.quest3049.name=EBF Time
+gtnh.quest3049.name=§b§l工业高炉时间
 gtnh.quest3049.desc=处理的下一步,就是将你制得的溶液配合镁粉,放入工业高炉中进行煅烧.
 
 # Quest.3050 - §b§lZirconium Ingots
-gtnh.quest3050.name=锆锭
-// +++ //gtnh.quest3050.name=§b§lZirconium Ingots
-// ↑↑↑ //gtnh.quest3050.name=Zirconium Ingots
+gtnh.quest3050.name=§b§l锆锭
 gtnh.quest3050.desc=只需要将四氯化锆溶液配合镁粉,放入工业高炉中进行煅烧,然后就大功告成了!
 
 # Quest.3051 - §b§lWe Ain't Running a Farm!
-gtnh.quest3051.name=我们不是在经营农场!
-// +++ //gtnh.quest3051.name=§b§lWe Ain't Running a Farm!
-// ↑↑↑ //gtnh.quest3051.name=We Ain't Running a Farm!
+gtnh.quest3051.name=§b§l我们不是在经营农场!
 gtnh.quest3051.desc=...低纯铪是什么东西?%n%n好吧,你需要的当然是纯度最高的铪,所以不能简单地加点镁粉高炉煅烧,还需要一些其他工序.%n%n继续前进吧,加入一些碘进行反应.要是你还不确定怎么获取碘,看看海藻灰吧. (提示：需要看的是小堆粉哦)%n%n注意：反应中可使用流体状态的碘或者碘粉,所以你可以用其中之一或者不用,即可完成此任务!%n%n
 
 # Quest.3052 - §b§lFinally, Actual Hafnium
-gtnh.quest3052.name=最后,真正的铪
-// +++ //gtnh.quest3052.name=§b§lFinally, Actual Hafnium
-// ↑↑↑ //gtnh.quest3052.name=Finally, Actual Hafnium
+gtnh.quest3052.name=§b§l最后,真正的铪
 gtnh.quest3052.desc=到现在为止还挺简单的对吧?%n%n同时你还可以回收一半的碘.另外,所谓废料也别扔了.之后可能还会有用,特别是如果有人给出好的思路 §owink wink nudge nudge§r
 
 # Quest.3053 - §b§lDilution, Yet Again
-gtnh.quest3053.name=稀释,再一次
-// +++ //gtnh.quest3053.name=§b§lDilution, Yet Again
-// ↑↑↑ //gtnh.quest3053.name=Dilution, Yet Again
+gtnh.quest3053.name=§b§l稀释,再一次
 gtnh.quest3053.desc=那些硫酸盐可不会自己稀释!%n%n可以从每块独居石中获得更多的流体,你不喜欢什么?
 
 # Quest.3054 - §b§lNow for Nitration
-gtnh.quest3054.name=现在进行硝化
-// +++ //gtnh.quest3054.name=§b§lNow for Nitration
-// ↑↑↑ //gtnh.quest3054.name=Now for Nitration
+gtnh.quest3054.name=§b§l现在进行硝化
 gtnh.quest3054.desc=下一步你需要用到硝酸铵(又要跟硝酸打交道了!),还有稀释硫酸独居石.%n将两者在大型化学反应釜中进行反应.%n%n流体产物就那么简单地消失在虚空中.最好不要担心它们.
 
 # Quest.3055 - §b§lA Little Bit of Sifting
-gtnh.quest3055.name=来点筛选
-// +++ //gtnh.quest3055.name=§b§lA Little Bit of Sifting
-// ↑↑↑ //gtnh.quest3055.name=A Little Bit of Sifting
+gtnh.quest3055.name=§b§l来点筛选
 gtnh.quest3055.desc=现在,你可以筛出来一些放射性杂质了.
 
 # Quest.3056 - §b§lThis Is Probably Not Worth It
-gtnh.quest3056.name=这可能不太值
-// +++ //gtnh.quest3056.name=§b§lThis Is Probably Not Worth It
-// ↑↑↑ //gtnh.quest3056.name=This Is Probably Not Worth It
+gtnh.quest3056.name=§b§l这可能不太值
 gtnh.quest3056.desc=你可以直接用高炉煅烧获得的磷酸钍滤饼粉,以继续完成处理链,不过最终的产量不高...%n%n不过,如果你的资源充足,何乐而不为?
 
 # Quest.3057 - §b§lChemically Bathing!
-gtnh.quest3057.name=化学浸洗!
-// +++ //gtnh.quest3057.name=§b§lChemically Bathing!
-// ↑↑↑ //gtnh.quest3057.name=Chemically Bathing!
+gtnh.quest3057.name=§b§l化学浸洗!
 gtnh.quest3057.desc=是的,这真是一条全方位的处理线.再一次,你需要用到硝酸铵. 这只是再次提醒那些尚未制造专门的硝酸自动化设施的玩家 :P
 
 # Quest.3058 - §b§lThorium and Phosphate
-gtnh.quest3058.name=钍与磷酸盐
-// +++ //gtnh.quest3058.name=§b§lThorium and Phosphate
-// ↑↑↑ //gtnh.quest3058.name=Thorium and Phosphate
+gtnh.quest3058.name=§b§l钍与磷酸盐
 gtnh.quest3058.desc=现在,将所获得的精粉热力离心,你就可以获得钍和磷酸盐粉.告诉过你产量不高...
 
 # Quest.3059 - §b§lTo Sift, or Not to Sift?
-gtnh.quest3059.name=筛,还是不筛?
-// +++ //gtnh.quest3059.name=§b§lTo Sift, or Not to Sift?
-// ↑↑↑ //gtnh.quest3059.name=To Sift, or Not to Sift?
+gtnh.quest3059.name=§b§l筛,还是不筛?
 gtnh.quest3059.desc=真正的问题是,是谁想出这些筛选合成表的?%n%n你可以从中获得一些铀,所以这个合成表还不算太糟.
 
 # Quest.3060 - §b§lUranium Filtrate
-gtnh.quest3060.name=铀滤渣
-// +++ //gtnh.quest3060.name=§b§lUranium Filtrate
-// ↑↑↑ //gtnh.quest3060.name=Uranium Filtrate
-gtnh.quest3060.desc=稍后,你可以用一些氢氟酸处理这些铀滤渣粉.氢氟酸
+gtnh.quest3060.name=§b§l铀滤渣
+gtnh.quest3060.desc=稍后,你可以用一些氢氟酸处理这些铀滤渣粉.
 
 # Quest.3061 - §b§lUranium?
-gtnh.quest3061.name=铀?
-// +++ //gtnh.quest3061.name=§b§lUranium?
-// ↑↑↑ //gtnh.quest3061.name=Uranium?
+gtnh.quest3061.name=§b§l铀?
 gtnh.quest3061.desc=§o§r...再筛选所获得的粉,你可以获得铀-238/235粉.你§o确实§o§r能够从中获得一些铀-235,所以并不是完全浪费时间,希望吧...
 
 # Quest.3062 - §b§lDry It Real Good
-gtnh.quest3062.name=烘干真棒
-// +++ //gtnh.quest3062.name=§b§lDry It Real Good
-// ↑↑↑ //gtnh.quest3062.name=Dry It Real Good
+gtnh.quest3062.name=§b§l烘干真棒
 gtnh.quest3062.desc=你的浓缩粉实在太潮湿了!需要在工业高炉中烘干它们.%n%n谢天谢地,这种加工并不困难.
 
 # Quest.3063 - §b§lNitration Time... Again
-gtnh.quest3063.name=硝化时间...再一次
-// +++ //gtnh.quest3063.name=§b§lNitration Time... Again
-// ↑↑↑ //gtnh.quest3063.name=Nitration Time... Again
+gtnh.quest3063.name=§b§l硝化时间...再一次
 gtnh.quest3063.desc=想要进一步处理这些干燥粉,你还需要投入更多硝酸. 
 
 # Quest.3064 - §b§lLeach The Concentrate
-gtnh.quest3064.name=浸出浓缩物
-// +++ //gtnh.quest3064.name=§b§lLeach The Concentrate
-// ↑↑↑ //gtnh.quest3064.name=Leach The Concentrate
+gtnh.quest3064.name=§b§l浸出浓缩物
 gtnh.quest3064.desc=这里有两个选择：你可以将硝酸浸出混合物与水混合,得到相对较低的产率;或是选择把水换成富铈混合物,得到双倍的产率.
 
 # Quest.3065 - §b§lA Sift, a Sift! My Kingdom for a Sift!
-gtnh.quest3065.name=筛选,筛选!我的筛选王国!
-// +++ //gtnh.quest3065.name=§b§lA Sift, a Sift! My Kingdom for a Sift!
-// ↑↑↑ //gtnh.quest3065.name=A Sift, a Sift! My Kingdom for a Sift!
+gtnh.quest3065.name=§b§l筛选,筛选!我的筛选王国!
 gtnh.quest3065.desc=现在,筛选(或者说过滤)硝酸浸出混合物,即可从中获取二氧化铈.
 
 # Quest.3066 - §b§lThe Start of Cerium
-gtnh.quest3066.name=铈处理开始
-// +++ //gtnh.quest3066.name=§b§lThe Start of Cerium
-// ↑↑↑ //gtnh.quest3066.name=The Start of Cerium
-gtnh.quest3066.desc=这条任务线将会知道你获取元素铈.%n%n首先,将二氧化铈与氯化铵进行反应,制取一些氯化铈.
+gtnh.quest3066.name=§b§l铈处理开始
+gtnh.quest3066.desc=这条任务线将会指导你获取元素铈.%n%n首先,将二氧化铈与氯化铵进行反应,制取一些氯化铈.
 
 # Quest.3067 - §b§lCompounding With Oxalate
-gtnh.quest3067.name=与草酸结合
-// +++ //gtnh.quest3067.name=§b§lCompounding With Oxalate
-// ↑↑↑ //gtnh.quest3067.name=Compounding With Oxalate
+gtnh.quest3067.name=§b§l与草酸结合
 gtnh.quest3067.desc=将获得的氯化铈与草酸进行反应,即可制得草酸铈.而草酸铈可以在稍后进行煅烧(当然,是在工业高炉中进行),转化成§o另一种§r铈的氧化物--氧化铈(III).
 
 # Quest.3068 - §b§lOxalate
-gtnh.quest3068.name=草酸
-// +++ //gtnh.quest3068.name=§b§lOxalate
-// ↑↑↑ //gtnh.quest3068.name=Oxalate
+gtnh.quest3068.name=§b§l草酸
 gtnh.quest3068.desc=目前草酸真的仅适用于铈处理.继续前进并制备一点草酸吧.%n%n有多种方法可以制取草酸,请查阅NEI并选择最适合自己的方法吧.
 
 # Quest.3069 - §6§lMake a better Distillery
@@ -12417,63 +12319,43 @@ gtnh.quest3078.name=触发:获得阳光化合物
 gtnh.quest3078.desc=没有描述.
 
 # Quest.3079 - §b§lYou Can't Be Cerious!
-gtnh.quest3079.name=不要太铈(You Can't Be Cerious!)
-// +++ //gtnh.quest3079.name=§b§lYou Can't Be Cerious!
-// ↑↑↑ //gtnh.quest3079.name=You Can't Be Cerious!
+gtnh.quest3079.name=§b§l这铈在开玩笑吧?(You Can't Be Cerious!)
 gtnh.quest3079.desc=一语双关对吧?%n%n现在,你可以电解氧化铈(III)获取纯净的元素铈粉了.%n%n哦,还有氧,不过谁在乎呢?
 
 # Quest.3080 - §b§lFreezing Nitrates
-gtnh.quest3080.name=冷冻硝酸盐
-// +++ //gtnh.quest3080.name=§b§lFreezing Nitrates
-// ↑↑↑ //gtnh.quest3080.name=Freezing Nitrates
+gtnh.quest3080.name=§b§l冷冻硝酸盐
 gtnh.quest3080.desc=是的,你没看错：一条带真空冷冻机的处理线!%n%n想要分离某些更...顽固的元素,需要极度低温.
 
 # Quest.3081 - §b§lNot Quite Ferromagnetic...
-gtnh.quest3081.name=铁磁性不太强...
-// +++ //gtnh.quest3081.name=§b§lNot Quite Ferromagnetic...
-// ↑↑↑ //gtnh.quest3081.name=Not Quite Ferromagnetic...
+gtnh.quest3081.name=§b§l铁磁性不太强...
 gtnh.quest3081.desc=...但是足够电磁离析机将其分离.%n%n现在,你获得了氧化铕和一些更稀有的稀土,我们称之为罕土.
 
 # Quest.3082 - §b§lEuO
-gtnh.quest3082.name=氧化铕(EuO)
-// +++ //gtnh.quest3082.name=§b§lEuO
-// ↑↑↑ //gtnh.quest3082.name=EuO
+gtnh.quest3082.name=§b§l氧化铕(EuO)
 gtnh.quest3082.desc=终于,已经很接近独居石中的铕了!%n%n不过,你得到LuV/ZPM阶段才能处理它们,也有可能你已经在这个阶段了,所以继续前进吧.
 
 # Quest.3083 - §b§lSamarium, The Other Way
-gtnh.quest3083.name=钐,另一条路
-// +++ //gtnh.quest3083.name=§b§lSamarium, The Other Way
-// ↑↑↑ //gtnh.quest3083.name=Samarium, The Other Way
+gtnh.quest3083.name=§b§l钐,另一条路
 gtnh.quest3083.desc=现在,只需要把你的钐从那些垃圾(脉石)中离心出来就行了.同时,你还获得了一点方钍石,真棒.
 
 # Quest.3084 - §b§lThe Other Part
-gtnh.quest3084.name=另一部分
-// +++ //gtnh.quest3084.name=§b§lThe Other Part
-// ↑↑↑ //gtnh.quest3084.name=The Other Part
+gtnh.quest3084.name=§b§l另一部分
 gtnh.quest3084.desc=被这些名字整疲了是吧?希望如此.%n%n现在轮到氯化与加热了,以对所得粉进一步分离.
 
 # Quest.3085 - §b§lSaturation Needed
-gtnh.quest3085.name=饱和需求
-// +++ //gtnh.quest3085.name=§b§lSaturation Needed
-// ↑↑↑ //gtnh.quest3085.name=Saturation Needed
+gtnh.quest3085.name=§b§l饱和需求
 gtnh.quest3085.desc=你快成功了!%n%n现在你需要将其与丙酮混合.
 
 # Quest.3086 - §b§lSeparate Those Last Specks
-gtnh.quest3086.name=分离这些最后的微粒
-// +++ //gtnh.quest3086.name=§b§lSeparate Those Last Specks
-// ↑↑↑ //gtnh.quest3086.name=Separate Those Last Specks
+gtnh.quest3086.name=§b§l分离这些最后的微粒
 gtnh.quest3086.desc=现在,该把剩下的一起离心了.同时你可以从中回收一些氯苯,不错吧?
 
 # Quest.3087 - §b§lThe Other Way
-gtnh.quest3087.name=另一条路
-// +++ //gtnh.quest3087.name=§b§lThe Other Way
-// ↑↑↑ //gtnh.quest3087.name=The Other Way
+gtnh.quest3087.name=§b§l另一条路
 gtnh.quest3087.desc=你必然还会挖到不少钐矿石,最终囤下成吨的粉.这里有两种选择：其一包含在独居石处理线中,并且产量更高;另一种更简单,但产量较低.%n我们在这里先讲一下后者.%n%n最终你可能还会完全切换到独居石选项,但现在,用这种方式进行一定的补充是个好主意.
 
 # Quest.3088 - §b§lFinally, Samarium!
-gtnh.quest3088.name=最后,钐!
-// +++ //gtnh.quest3088.name=§b§lFinally, Samarium!
-// ↑↑↑ //gtnh.quest3088.name=Finally, Samarium!
+gtnh.quest3088.name=§b§l最后,钐!
 gtnh.quest3088.desc=(以及钆)%n%n简单吧?别担心,还有氟碳镧铈处理线等着你呢,应该能满足你对复杂产线的渴望吧!
 
 # Quest.3089 - §6§lYour New Friend
@@ -12494,9 +12376,7 @@ gtnh.quest3092.desc=尽管在野外找到了不少油泉,但你可能也考虑�
 
 # Quest.3093 - Carbon, Chemically
 gtnh.quest3093.name=碳,化学制法
-gtnh.quest3093.desc=这些有机物如何转化为能量呢?当然是燃烧!燃烧获得的热量,把水加热成蒸汽,而蒸汽可以驱动蒸汽涡轮旋转,从而产生旋转能,再通过旋转切割磁场直接转化为电能.非常有序,对吧?原木/木炭作为可燃材料,而大气提供氧气以维持燃烧.借助某些化学反应,还有GTNH魔法手段,我们可以把这些原理以其他方式运用到发电上.%n%n真的很魔法.一氧化碳(CO)是燃气轮机的有效燃料,而它可以用木炭和氧气制得.CO比起制造它所需的木炭来说,拥有更多能量,但是其中需要添加的氧气,无论是用电解水还是离心空气制备都不太值,因为合成氧气所消耗的EU让这一过程效率低下. 但是,还有一种更有效率的方式进行自动化氧气生产,不过你还需要相应作物.%n%n你的目标是糖,因为电解糖产出氧气,算下来每桶只需要将近1000EU.而每桶氧气产出的CO可以产生24000EU,而作为原料的木炭如果用来产蒸汽可以大约获得16000EU,另外合成CO还需要消耗560EU.这样算下来,整个处理过程中,每个木炭可以多产出大约6000EU,差不多白嫖了30％!%n%n而想要从作物中自动化获取糖,最佳作物就是甜菜(Sugar-Beet).虽然甘蔗也能产糖,但它的加工需要消耗更多EU. 可能还有其他方法,但就目前而言,获取大量的糖吧.  
-// +++ //gtnh.quest3093.desc=How does all of this organic stuff produce energy, anyways? You burn it, that's how! The heat from that burning heats up water into Steam, and this can make a Steam Turbine spin, generating rotational energy that can directly be converted into electricity with spinning magnetic fields. Pretty neat, right? The wood/charcoal provides the combustible material, and the atmosphere provides the oxygen to keep the fire going. With some chemistry, and GTNH magic, we can use these principles to generate power in an alternative way.%n%nIt's pretty much magic, really. Carbon Monoxide (CO) is a valid fuel for Gas Turbines, and it can be made with Charcoal and Oxygen. The CO has more power than the Charcoal used to make it, but the additional Oxygen will make this step not worth it if you get it from electrolyzing water or centrifuging air, since the EU needed for those crafts will make this process inefficient. There is, however, a more efficient way to automate Oxygen production, but you will need crops for it.%n%nYour target is Sugar, since electrolyzing it will output Oxygen at almost 1000 EU per bucket. Each bucket of CO produces 24000 EU, made from one Charcoal that produces roughly 16000 EU in Steam, and costing 560 EU per craft. The whole process gives around 6000 EU of free power per Charcoal, around 30% extra power overall!  §4Keep in mind that you have to be MV first before doing this.§r%n%nTo get automated Sugar from crops, you want Sugar Beets. Sugar Canes do the same thing, but with more EU cost to get the Sugar. There are other possible ways but, for now, just get loads of Sugar.  
-// ↑↑↑ //gtnh.quest3093.desc=How does all of this organic stuff produce energy, anyways? You burn it, that's how! The heat from that burning heats up water into Steam, and this can make a Steam Turbine spin, generating rotational energy that can directly be converted into electricity with spinning magnetic fields. Pretty neat, right? The wood/charcoal provides the combustible material, and the atmosphere provides the oxygen to keep the fire going. With some chemistry, and GTNH magic, we can use these principles to generate power in an alternative way.%n%nIt's pretty much magic, really. Carbon Monoxide (CO) is a valid fuel for Gas Turbines, and it can be made with Charcoal and Oxygen. The CO has more power than the Charcoal used to make it, but the additional Oxygen will make this step not worth it if you get it from electrolyzing water or centrifuging air, since the EU needed for those crafts will make this process inefficient. There is, however, a more efficient way to automate Oxygen production, but you will need crops for it.%n%nYour target is Sugar, since electrolyzing it will output Oxygen at almost 1000 EU per bucket. Each bucket of CO produces 24000 EU, made from one Charcoal that produces roughly 16000 EU in Steam, and costing 560 EU per craft. The whole process gives around 6000 EU of free power per Charcoal, around 30% extra power overall! %n%nTo get automated Sugar from crops, you want Sugar Beets. Sugar Canes do the same thing, but with more EU cost to get the Sugar. There are other possible ways but, for now, just get loads of Sugar.  
+gtnh.quest3093.desc=这些有机物如何转化为能量呢?当然是燃烧!燃烧获得的热量,把水加热成蒸汽,而蒸汽可以驱动蒸汽涡轮旋转,从而产生旋转能,再通过旋转切割磁场直接转化为电能.非常有序,对吧?原木/木炭作为可燃材料,而大气提供氧气以维持燃烧.借助某些化学反应,还有GTNH魔法手段,我们可以把这些原理以其他方式运用到发电上.%n%n真的很魔法.一氧化碳(CO)是燃气轮机的有效燃料,而它可以用木炭和氧气制得.CO比起制造它所需的木炭来说,拥有更多能量,但是其中需要添加的氧气,无论是用电解水还是离心空气制备都不太值,因为合成氧气所消耗的EU让这一过程效率低下. 但是,还有一种更有效率的方式进行自动化氧气生产,不过你还需要相应作物.%n%n你的目标是糖,因为电解糖产出氧气,算下来每桶只需要将近1000EU.而每桶氧气产出的CO可以产生24000EU,而作为原料的木炭如果用来产蒸汽可以大约获得16000EU,另外合成CO还需要消耗560EU.这样算下来,整个处理过程中,每个木炭可以多产出大约6000EU,差不多白嫖了30％!§4记住,要做到这些,你得先达到MV阶段.§r%n%n而想要从作物中自动化获取糖,最佳作物就是甜菜(Sugar-Beet).虽然甘蔗也能产糖,但它的加工需要消耗更多EU. 可能还有其他方法,但就目前而言,获取大量的糖吧.  
 
 # Quest.3094 - Burning the Carbon
 gtnh.quest3094.name=燃烧碳元素
@@ -12509,14 +12389,10 @@ gtnh.quest3095.desc=谈到从原木中获取能量,无非就是原木本身以�
 # Quest.3096 - Faster Charcoal
 gtnh.quest3096.name=生生不息的木炭
 gtnh.quest3096.desc=就算你有再多的原木,也无法对你的能源问题有太多帮助.随着科技的发展,直接将原木作为燃料越发乏力,这时将其转化为木炭就非常重要了.你已经造了一台焦炉,也有可能不止一台,但每台生产木炭的周期都是90秒,真是糟糕的速度.更不幸的是,在这个阶段还没有任何手段将其提速,所以你不得不建造一台又一台的焦炉.那么到底要多少呢?%n%n可能你想要达到的目标有很多,但有一个不错的参考指标,满足你能源需求大概需要一套24台焦炉.这个数字的焦炉制造木炭和杂酚油的速度,恰好可以供给两台最大尺寸的低压锅炉(RC),一台固态与一台液态,正好它们的相关任务也就要来了.如果你将这整个系统都完成了自动化,它将能产生大概2A-MV的电力,等于8A-LV,对于现阶段与下一阶段,这样的供电都绰绰有余了.%n%n建造完这些焦炉后,你还需要将它们自动化.有多种方式可以做到这一点,不过最便宜的方式就是使用物品管道,比方说锡物品管道,再配合连接在原木箱子/抽屉上的传送带覆盖板,将原木输送到焦炉内;然后每台焦炉下方配一个漏斗,通入物品管道,用以收集木炭. 杂酚油相对就麻烦一些,不过你可以使用匠魂的浇注口,插在每台焦炉的侧面,浇注口下方直接通入木制流体管道.你还需要通过红石信号不断激活这些浇注口,推荐使用红石钟(Extra-Utilities).
-// +++ //gtnh.quest3096.desc=Even if you have more wood, this won't help your power issues that much. Using it directly as fuel isn't going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn't any faster option in this tier, so you will have to build more of these ovens. How many, exactly?%n%nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 24 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.%n%nAfter building these Coke Ovens, you will need to automate them. There are a few ways to do this, but one of the cheapest ones is to use Item Pipes, made with Tin for example, with a Conveyor Module in the wood chest/drawer to put the wood in the ovens, and then one Hopper below each oven, into more Item Pipes, to gather the Charcoal. The Creosote is a bit harder to extract, but you can do it with Tinkers' Faucets on the side of each Coke Oven, with a Wooden Fluid Pipe directly under the faucet. You will need to keep reactivating them with redstone, which means you'll also need a redstone clock (there's a block dedicated to this purpose, named Redstone Clock, from Extra Utilities).
-// ↑↑↑ //gtnh.quest3096.desc=Even if you have more wood, this won't help your power issues that much. Using it directly as fuel isn't going to do much for you as you move forward, and turning it into Charcoal will be very important. You have already built a Coke Oven, maybe more than one, but each one takes 90 seconds to produce one Charcoal, an abysmal rate. Unfortunately, there isn't any faster option in this tier, so you will have to build more of these ovens. How many, exactly?%n%nThere are many different goals you might want to go for, but a good metric for your power needs is a setup with 24 Coke Ovens. This number will create both Charcoal and Creosote Oil at a rate that will run two max-sized LP (Low Pressure) Railcraft Boilers, one solid and one liquid, with the quest for those coming right after this one. If you automate this entire setup, it will produce around 2 amps of MV, which are equivalent to 8 amps of LV, plenty of power for this tier and enough to advance you to the next one.%n%nAfter building these Coke Ovens, you will need to automate them. There are a few ways to do this, but one of the cheapest ones is to use Item Pipes, made with Tin for example, with a Conveyor Belt in the wood chest/drawer to put the wood in the ovens, and then one Hopper below each oven, into more Item Pipes, to gather the Charcoal. The Creosote is a bit harder to extract, but you can do it with Tinkers' Faucets on the side of each Coke Oven, with a Wooden Fluid Pipe directly under the faucet. You will need to keep reactivating them with redstone, which means you'll also need a redstone clock (there's a block dedicated to this purpose, named Redstone Clock, from Extra Utilities).
 
 # Quest.3097 - Two Big Ovens
 gtnh.quest3097.name=两台大锅炉
-gtnh.quest3097.desc=有了24台自动化焦炉后,你就可以永续供应两台大锅炉了.注意特指RC的低压锅炉,主要用铁合成,尺寸为最大号,上方锅炉3x4x3.这两台多方块机器十分昂贵,但建成后可以提供大量能量并消耗所有的杂酚油,让你的焦炉阵列永续运行.%n%nRC锅炉还有高压版本,不过需要消耗大量的钢,输出的蒸汽也多得多. 等你拥有了足够的钢锭,可以考虑尝试高压锅炉,但也要注意,你的焦炉阵列无法持续供应这台巨兽. 类似的还有大型青铜锅炉--GT提供的锅炉升级路线,但大型青铜锅炉带来了两个问题：你无法为其提供足够的木炭(你的焦炉阵列平均每3.75秒出产一个木炭,而大型青铜锅炉每2秒就要消耗一个木炭);而且大型青铜锅炉燃烧杂酚油的效率十分低下,这意味着它会浪费相当部分的能量.%n%n但是,有个惊喜! GT++的半流质发电机可以用杂酚油,而且效率非常可观.所以你可以造几台配合大型青铜锅炉使用,但你依然还得解决木炭供应速度不足这一问题. 你可以将这种方案作为选项之一完成此任务,不过这种方案比较"实验性".
-// +++ //gtnh.quest3097.desc=With 24 Coke Ovens automated, you can sustain two big boilers endlessly. The boilers you want to build for this are specifically the Low Pressure Railcraft Boilers, made with Iron, each one as big as they can be, a 3x4x3 of the Boiler Tanks. These multiblocks are expensive, but you will have plenty of power and will consume all the Creosote from your Coke Ovens to keep them running permanently.%n%nThese boilers have a High Pressure variant, though, which need a lot more steel than their cheaper counterparts but can output a lot more Steam. If you somehow gathered a lot of stacks of Steel Ingots, you might think of attempting this, but keep in mind that your Coke Oven setup cannot sustain the input those heated behemoths require to keep running. The same goes for the Large Bronze Boiler, GregTech's own way of improving on your tiny boilers, but with two added problems: you can't produce Charcoal fast enough for it (the output speed of your setup is 3.75 seconds per Charcoal, the LBB needs one every 2 seconds), and it has a terrible efficiency for your Creosote, which means most of its power will be wasted. §6And perhaps, the LBB is MV-gated by circuit, compared to the boiler who is early-LV because of steel.§r%n%nHowever, surprise! The GT++ Semifluid Generators work, and they're very efficient with the Creosote. You can use a few of those coupled with a Large Bronze Boiler, but you will still run into the issue of not producing Charcoal fast enough unless you do something about it. You can choose this as an option and complete this quest, but it's a more "experimental" alternative.
-// ↑↑↑ //gtnh.quest3097.desc=With 24 Coke Ovens automated, you can sustain two big boilers endlessly. The boilers you want to build for this are specifically the Low Pressure Railcraft Boilers, made with Iron, each one as big as they can be, a 3x4x3 of the Boiler Tanks. These multiblocks are expensive, but you will have plenty of power and will consume all the Creosote from your Coke Ovens to keep them running permanently.%n%nThese boilers have a High Pressure variant, though, which need a lot more steel than their cheaper counterparts but can output a lot more Steam. If you somehow gathered a lot of stacks of Steel Ingots, you might think of attempting this, but keep in mind that your Coke Oven setup cannot sustain the input those heated behemoths require to keep running. The same goes for the Large Bronze Boiler, Gregtech's own way of improving on your tiny boilers, but with two added problems: you can't produce Charcoal fast enough for it (the output speed of your setup is 3.75 seconds per Charcoal, the LBB needs one every 2 seconds), and it has a terrible efficiency for your Creosote, which means most of its power will be wasted. %n%nHowever, surprise! The GT++ Semifluid Generators work, and they're very efficient with the Creosote. You can use a few of those coupled with a Large Bronze Boiler, but you will still run into the issue of not producing Charcoal fast enough unless you do something about it. You can choose this as an option and complete this quest, but it's a more "experimental" alternative.
+gtnh.quest3097.desc=有了24台自动化焦炉后,你就可以永续供应两台大锅炉了.注意特指RC的低压锅炉,主要用铁合成,尺寸为最大号,上方锅炉3x4x3.这两台多方块机器十分昂贵,但建成后可以提供大量能量并消耗所有的杂酚油,让你的焦炉阵列永续运行.%n%nRC锅炉还有高压版本,不过需要消耗大量的钢,输出的蒸汽也多得多. 等你拥有了足够的钢锭,可以考虑尝试高压锅炉,但也要注意,你的焦炉阵列无法持续供应这台巨兽. 类似的还有大型青铜锅炉--GT提供的锅炉升级路线,但大型青铜锅炉带来了两个问题：你无法为其提供足够的木炭(你的焦炉阵列平均每3.75秒出产一个木炭,而大型青铜锅炉每2秒就要消耗一个木炭);而且大型青铜锅炉燃烧杂酚油的效率十分低下,这意味着它会浪费相当部分的能量.§6而且大型青铜锅炉需要MV级别的电路板,而RC锅炉只需要钢,LV初期就能做.§r%n%n但是,有个惊喜! GT++的半流质发电机可以用杂酚油,而且效率非常可观.所以你可以造几台配合大型青铜锅炉使用,但你依然还得解决木炭供应速度不足这一问题. 你可以将这种方案作为选项之一完成此任务,不过这种方案比较"实验性".
 
 # Quest.3098 - The Benzene Tier
 gtnh.quest3098.name=苯环时代
@@ -12545,8 +12421,6 @@ gtnh.quest3103.desc=随着科技阶段的提升,你的能源需求不止x4,似�
 # Quest.3104 - Pyrolyse Oven
 gtnh.quest3104.name=热解炉
 gtnh.quest3104.desc=某些产线确实占用了你基地中的大量空间.当你完成了焦炉自动化后,可能也曾考虑过这个问题,不过在本阶段,还有另外一个选项,只需要一台巨大的多方块机器,即可满足所需的木炭生产速度,这台多方块机器就是：热解炉.%n%n从本质上来说,热解炉就是原版GT的大型原木处理机器. 它是一台巨大的机器,可能比你之前建造的任何其他多方块机器都要大,不过它的主要材料较为简单,只是青铜和钢而已.如果你愿意为主方块花上几组青铜和钢的话,等你组装起这台庞然大物之后,就可以享受完全不逊于高级焦炉的速度,还有一些额外收益. 不同于其他炉子,这台热解炉由EU驱动,所以你得拉条电线过来,它才能处理你喂给它的原木.%n%n热解炉的最大价值何在? 除了木炭以外,热解炉还会输出副产流体,可以进一步处理得到额外的能量,有可能还有副产物.请查看NEI,以获知所有可用的选择,这台多方块通常可以输出多种流体,不过一次只能输出一种,输出流体的种类取决于内部的编程电路. 当前阶段的最佳选择是木焦油,这也是木炭的提取产物. 首次建造热解炉时,你就可以获得一个永久性的小增益,这实在是太棒了.%n%n另外,热解炉与工业高炉一样都需要用到线圈,而不同等级的线圈也会赋予热解炉相应的速度增益：使用白铜线圈时,加工时间为NEI所示时间的2倍!这相比你的需求来说就太慢了,所以请算清楚你能从热解炉获得多少木炭. 坎塔尔线圈在MV即可合成,使用IC2的冷却液替代真空冷冻机吧.%n%n为其提供氮气也可以加速热解炉.在NEI中有其独立配方.
-// +++ //gtnh.quest3104.desc=Some setups really demand space in your base to work properly. You might have thought that when you finished the Coke Oven automation, but there's also an option in this tier that respects that need for speed by just being a gigantic multiblock: the Pyrolyse Oven.%n%nIn essence, it's the original GregTech large-scale wood processor. It is a massive structure, probably bigger than any other multi you've build before, but it uses simple materials like bronze and steel. If you're able to just throw stacks of those at a controller, you can put this behemoth together and enjoy an alternative to the Advanced Coke Oven that has some extra benefits. Unlike any of the other ovens, this one runs on EU, so you need to route your power back here to process the wood you're feeding it. %n%nWhat makes the Pyro valuable? It outputs a fluid alongside the Charcoal, which you can process for extra power and/or byproducts. Look at NEI to see all the alternatives available to you, this multi can usually output several different fluids, but only one at a time, decided by the circuit inside it. The one to choose at this time is Wood Tar, the same fluid you're extracting from the Charcoal. You get a small constant bonus from having built a Pyro, which is really nice.%n%nHowever, the Pyro uses coils in a similar way to the EBF, and those coils affect the time each recipe takes: if you're using Cupronickel Coils, the recipe time is actually 2x what NEI says! This might be too slow for your needs, so make sure you check how much Charcoal you're getting from here. Kanthal Coils are available in MV, using the IC2 Coolant instead of the Vacuum Freezer.%n%nYou can also boost your Pyro by providing Nitrogen. There are separate recipes for that in NEI.
-// ↑↑↑ //gtnh.quest3104.desc=Some setups really demand space in your base to work properly. You might have thought that when you finished the Coke Oven automation, but there's also an option in this tier that respects that need for speed by just being a gigantic multiblock: the Pyrolyse Oven.%n%nIn essence, it's the original Gregtech large-scale wood processor. It is a massive structure, probably bigger than any other multi you've build before, but it uses simple materials like bronze and steel. If you're able to just throw stacks of those at a controller, you can put this behemoth together and enjoy an alternative to the Advanced Coke Oven that has some extra benefits. Unlike any of the other ovens, this one runs on EU, so you need to route your power back here to process the wood you're feeding it. %n%nWhat makes the Pyro valuable? It outputs a fluid alongside the Charcoal, which you can process for extra power and/or byproducts. Look at NEI to see all the alternatives available to you, this multi can usually output several different fluids, but only one at a time, decided by the circuit inside it. The one to choose at this time is Wood Tar, the same fluid you're extracting from the Charcoal. You get a small constant bonus from having built a Pyro, which is really nice.%n%nHowever, the Pyro uses coils in a similar way to the EBF, and those coils affect the time each recipe takes: if you're using Cupronickel Coils, the recipe time is actually 2x what NEI says! This might be too slow for your needs, so make sure you check how much Charcoal you're getting from here. Kanthal Coils are available in MV, using the IC2 Coolant instead of the Vacuum Freezer.%n%nYou can also boost your Pyro by providing Nitrogen. There are separate recipes for that in NEI.
 
 # Quest.3105 - Large Steel Boiler
 gtnh.quest3105.name=大型钢锅炉
@@ -12698,9 +12572,7 @@ gtnh.quest3141.desc=从木焦油中,你可以选择性地过滤出高能的苯�
 
 # Quest.3142 - §6§lFaster Crops
 gtnh.quest3142.name=§6§l作物加速
-gtnh.quest3142.desc=§W欢迎来到我的TED演讲,今天我们来谈谈§6§l极限工业温室.%n§r这是最先进且§l§n无延迟§r的作物农场,并可以为你提供成吨的作物.%n这台机器在§5EV§r阶段就可以制造,但想要解锁IC2杂交作物模式,还得至少为其提供§dLuV§r能量才行.%n放置控制器方块后对其使用投影仪即可显示整体结构.%n玻璃等级会限制能源等级,而§3UV§r玻璃支持所有能源等级.%n手持螺丝刀Shift+右键以切换作物模式(IC2/普通),很遗憾,你不能在同一台机器内同时种植这两种作物.%n这台机器管理作物有三种模式(使用螺丝刀切换):%n%n§l设置模式(输入):%n§r这个模式下,你可以将作物种植到机器中.%n只需将种子送入机器的输入总线,然后使用软锤启动机器即可.%n另外,你还需要输入IC2杂交作物生长所需要的方块(如果有的话)%n等到输入总线空了,就可以关闭机器并切换模式了.%n请注意,基于不同电压等级,机器内部的作物槽位是有限的.%n普通作物的初始槽位数为1,同时§5EV§r后的每个等级槽位数x2,每个槽位可以种植64株同种作物.%n而在IC2杂交作物模式下,初始槽位数为4,同时§dLuV§r后的每个等级槽位数x4,每个槽位只能种植1株作物.%n%n§l设置模式(输出):%n§r此模式下,你可以移动你的温室,或是升级作物.%n机器在此模式下运行时,将在输出总线中输出其内部的所有已种植作物.%n%n§l普通作物运行:%n§r对于普通作物,单次运行相当直截了当.基础运行时间为5秒,运行结束时所有作物都会长成,并将收获从输出总线中输出. 另外,从§5EV§r之后,运行时间不断缩短§o(基础运行时间除以超过§6HV§r§o的级数为实际运行时间,最小1秒.WOW)§r %n%nIC2杂交作物就是另一种运行方式,没这么简单了. 通常它们是模拟的,只是加速了32倍.基础运行时间同样是5秒.你可以使用三录仪来检查作物生长进度.%n%n如果你想让作物长得更快点,可以使用肥料(至多§l400％,多余会掉落§r!).温室会在运行开始的时候,从输入总线中提取肥料,并在本次运行中使用. 每株普通作物模式下的作物,施肥可以获得+200％,而在IC2杂交作物模式下则为+10％.此项增益均匀地应用于每株作物上. 比如：%n普通作物模式,3个小麦种子,1个茶种子,输入一份肥料,你可以获得+150％小麦掉落,以及+50％茶掉落.%nIC2杂交作物模式,16个西瓜种子袋,输入64份肥料,你会获得+40％掉落.%n%n另外,你的作物都需要水才能生长.每次运行每株作物消耗1000L水.所以,举例来说,如果你种植了576株茶作物,§3UV§r等级的温室,每秒需要576000L水.%n%n§l最后的注意事项:%n§r无法禁用动画.%n无法种植元始珍珠.%n灯可以倒置.%n泥土必须为耕地.%n如果你遇到任何问题或有任何建议,请到github发issue并§l@kuba6000§r.%n这台多方块机器是我为了种茶写的...%n
-// +++ //gtnh.quest3142.desc=§WWelcome to my ted talk, today we talk about the §6§lExtreme Industrial Greenhouse.%n§rIt is the most advanced and §l§nLAG FREE§r crop farm that will allow you to supply the amount of tea you need.%nThe machine starts at §5EV§r, but to farm IC2 crops you will need at least §dLuV§r power.%nTo see the structure, place the controller on ground and use a structure hologram to build.%nThe glass tier limits the energy tier until §3UV§r. With §3UV§r glass you can have an energy tier as high as you want.%nShift click with screwdriver to change crop type (IC2/normal), sadly you can't farm both in one machine.%nThere are 3 modes to manage your crops (change with screwdriver):%n%n§lSetup mode (input):%n§rIn this mode you can plant your crops in the machine.%nJust put them in the input bus and enable the machine with a soft mallet.%nAdditionally, you need to insert block that is required for IC2 crop to grow (if any)%nWhen the bus is empty, just disable it and change the mode.%nKeep in mind that there is limited space of slots for your crops depending on the voltage.%nWith normal crops you start with 1 slot and that multiplies by 2 every tier past §5EV§r, every slot can take 64 crops of the same type.%nWith IC2 crops you start with 4 slots and that multiplies by 4 every tier past §dLuV§r, every slot can take only 1 crop.%n%n§lSetup mode (output):%n§rThis mode allows you to move your Greenhouse or upgrade your crops.%nWhen the machine is running in this mode it will output all planted crops in the output bus.%n%n§lNormal operation:%n§rWith normal crops it is a straightforward process. Base processing time is 5 seconds, at the end of operation all crops are grown and the outputs are added to the output bus. Additionally the time is lower every tier past §5EV§r §o(The time is divided by the number of tiers past §6HV§r§o, minimum 1 second. WOW) §r%n%nIC2 crops on the other hand, are not that easy. They are normally simulated, but accelerated 32 times. Process time is 5 seconds. You can check the progress of the growing process with a tricorder.%n%nIf you want to grow your crops even faster, then you can use a fertilizer (up to §l400% more drops§r !). Machine will take fertilizer from the input busses on start of the operation and will be applied to that operation only. Each fetilizer gives +200% per crop in normal mode or +10% in IC2 mode. The bonus is applied evenly on crops. Examples:%nNormal mode, 3 wheat seeds, 1 tea seeds, you insert 1 fertilizer, you will get +150% wheat drops and +50% tea drops.%nIC2 mode, 16 melon seed bags, you insert 64 fetilizer, you will get +40% drops.%n%nAdditionally, all your crops need water to grow. Every single crop drinks 1000L per operation. So for example if you have planted 576 tea seeds at §3UV§r voltage you will need 576000 L per second.%n%n§lLast notes:%n§rThe animation can’t be disabled.%nThe lamps can be inverted.%nThe dirt must be tilled.%nIf you encounter any issue or have any suggestion please open an issue on github and ping §l@kuba6000§r.%nThis MB was created to farm tea because I wanted to.%n
-// ↑↑↑ //gtnh.quest3142.desc=§WWelcome to my ted talk, today we talk about the §6§lExtreme Industrial Greenhouse.%n§rIt is the most advanced and §l§nLAG FREE§r crop farm that will allow you to supply the amount of tea you need.%nThe machine starts at §5EV§r, but to farm IC2 crops you will need at least §dLuV§r power.%nTo see the structure, place the controller on ground and use a structure hologram to build.%nThe glass tier limits the energy tier until §3UV§r. With §3UV§r glass you can have an energy tier as high as you want.%nShift click with screwdriver to change crop type (IC2/normal), sadly you can't farm both in one machine.%nThere are 3 modes to manage your crops (change with screwdriver):%n%n§lSetup mode (input):%n§rIn this mode you can plant your crops in the machine.%nJust put them in the input bus and enable the machine with a soft mallet.%nAdditionally, you need to insert block that is required for IC2 crop to grow (if any)%nWhen the bus is empty, just disable it and change the mode.%nKeep in mind that there is limited space of slots for your crops depending on the voltage.%nWith normal crops you start with 1 slot and that multiplies by 2 every tier past §5EV§r, every slot can take 64 crops of the same type.%nWith IC2 crops you start with 4 slots and that multiplies by 4 every tier past §dLuV§r, every slot can take only 1 crop.%n%n§lSetup mode (output):%n§rThis mode allows you to move your Greenhouse or upgrade your crops.%nWhen the machine is running in this mode it will output all planted crops in the output bus.%n%n§lNormal operation:%n§rWith normal crops it is a straightforward process. Base processing time is 5 seconds, at the end of operation all crops are grown and the outputs are added to the output bus. Additionally the time is lower every tier past §5EV§r §o(The time is divided by the number of tiers past §6HV§r§o, minimum 1 second. WOW) §r%n%nIC2 crops on the other hand, are not that easy. They are normally simulated, but accelerated 32 times. Process time is 5 seconds. You can check the progress of the growing process with a tricorder.%n%nIf you want to grow your crops even faster, then you can use a fertilizer (up to §l400% more drops§r !). Machine will take fertilizer from the input busses on start of the operation and will be applied to that operation only. Each fetilizer gives +200% per crop in normal mode or +10% in IC2 mode. The bonus is applied evenly on crops. Examples:%nNormal mode, 3 wheat seeds, 1 tea seeds, you insert 1 fertilizer, you will get +150% wheat drops and +50% tea drops.%nIC2 mode, 16 melon seed bags, you insert 64 fetilizer, you will get +40% drops.%n%nAdditionally, all your crops need water to grow. Every single crop drinks 1000L per operation. So for example if you have planted 576 tea seeds at §3UV§r voltage you will need 576000 L per second.%n%n§lLast notes:%n§rThe animation can’t be disabled.%nYou can’t process primordial.%nThe lamps can be inverted.%nThe dirt must be tilled.%nIf you encounter any issue or have any suggestion please open an issue on github and ping §l@kuba6000§r.%nThis MB was created to farm tea because I wanted to.%n
+gtnh.quest3142.desc=§W欢迎来到我的TED演讲,今天我们来谈谈§6§l极限工业温室.%n§r这是最先进且§l§n无延迟§r的作物农场,并可以为你提供成吨的作物.%n这台机器在§5EV§r阶段就可以制造,但想要解锁IC2杂交作物模式,还得至少为其提供§dLuV§r能量才行.%n放置控制器方块后对其使用投影仪即可显示整体结构.%n玻璃等级会限制能源等级,而§3UV§r玻璃支持所有能源等级.%n手持螺丝刀Shift+右键以切换作物模式(IC2/普通),很遗憾,你不能在同一台机器内同时种植这两种作物.%n这台机器管理作物有三种模式(使用螺丝刀切换):%n%n§l设置模式(输入):%n§r这个模式下,你可以将作物种植到机器中.%n只需将种子送入机器的输入总线,然后使用软锤启动机器即可.%n另外,你还需要输入IC2杂交作物生长所需要的方块(如果有的话)%n等到输入总线空了,就可以关闭机器并切换模式了.%n请注意,基于不同电压等级,机器内部的作物槽位是有限的.%n普通作物的初始槽位数为1,同时§5EV§r后的每个等级槽位数x2,每个槽位可以种植64株同种作物.%n而在IC2杂交作物模式下,初始槽位数为4,同时§dLuV§r后的每个等级槽位数x4,每个槽位只能种植1株作物.%n%n§l设置模式(输出):%n§r此模式下,你可以移动你的温室,或是升级作物.%n机器在此模式下运行时,将在输出总线中输出其内部的所有已种植作物.%n%n§l普通作物运行:%n§r对于普通作物,单次运行相当直截了当.基础运行时间为5秒,运行结束时所有作物都会长成,并将收获从输出总线中输出. 另外,从§5EV§r之后,运行时间不断缩短§o(基础运行时间除以超过§6HV§r§o的级数为实际运行时间,最小1秒.WOW)§r %n%nIC2杂交作物就是另一种运行方式,没这么简单了. 通常它们是模拟的,只是加速了32倍.基础运行时间同样是5秒.你可以使用三录仪来检查作物生长进度.%n%n如果你想让作物长得更快点,可以使用肥料(至多§l400％,多余会掉落§r!).温室会在运行开始的时候,从输入总线中提取肥料,并在本次运行中使用. 每株普通作物模式下的作物,施肥可以获得+200％,而在IC2杂交作物模式下则为+10％.此项增益均匀地应用于每株作物上. 比如：%n普通作物模式,3个小麦种子,1个茶种子,输入一份肥料,你可以获得+150％小麦掉落,以及+50％茶掉落.%nIC2杂交作物模式,16个西瓜种子袋,输入64份肥料,你会获得+40％掉落.%n%n另外,你的作物都需要水才能生长.每次运行每株作物消耗1000L水.所以,举例来说,如果你种植了576株茶作物,§3UV§r等级的温室,每秒需要576000L水.%n%n§l最后的注意事项:%n§r无法禁用动画.%n可以用反相灯.%n泥土必须为耕过的沃土(RandomThings-mod的).%n如果你遇到任何问题或有任何建议,请到github发issue并§l@kuba6000§r.%n这台多方块机器是我为了种茶写的...%n
 
 # Quest.3143 - Quantum Chestplate
 gtnh.quest3143.name=量子胸甲
@@ -12713,8 +12585,6 @@ gtnh.quest3144.desc=研磨处理线,为ZPM和UV阶段的玩家设计,是另一�
 # Quest.3145 - Basis for All Reactors
 gtnh.quest3145.name=所有反应堆的基础
 gtnh.quest3145.desc=在EV阶段首次解锁了核能.然而有各种形状、各种形式的反应堆,很难从中选择一种使用. 作为本章节的第一个任务,这里将概述如何产生核能,以及何时解锁.此任务线之下的其他任务,将对每种反应堆进行详细介绍,本任务仅为概述.%n%n太长;不看：%n按照单反应堆功率排序%n核反应堆 < 流体反应堆 < 强冷反应堆 < 液态氟钍反应堆(LFTR) = 钍高温反应堆(THTR) = 硅岩反应堆 < 核聚变反应堆 < 压缩核聚变反应堆.%n对于增殖反应堆,按照增殖速度和产量排序%n核反应堆 < 液态氟钍反应堆 = 硅岩反应堆 < 高温气冷反应堆(HTGR),需要聚变反应堆制造某些材料.%n%n你能获取的第一种核电就是IC2的核反应堆,通常我们叫它核弹.它的本体是单方块机器,还可以加挂额外仓室组成多方块结构,仓室的数量决定了内部可用于核电部件的空间.在核反应堆内部,由放射性材料制成的燃料棒产生能量,其余部件用于控制堆温,防止爆炸. 核反应堆可以直接产生EU,但它还可以升级为流体核弹,不直接输出EU,而改为输出热冷却液,在通过大型热交换机、蒸汽涡轮转化为EU,这样比起核反应堆来说效率更高. 最后,就是强冷反应堆了,它与普通核反应堆非常相似,只是冷却部件换成了各种冷却单元,冷却单元损耗耐久吸收热量,只能用真空冷冻机修复耐久. 核反应堆的常用燃料有钍(EV阶段)以及铀(IV阶段).%n%n在IV和LuV阶段之间,还解锁了另一种反应堆：液态氟钍反应堆(LFTR).在这台巨大的多方块机器之中,钍和铀与炽热的熔盐混合(熔盐需要在另一台多方块机器中制备),可以说是以额外的处理流程为代价,提高了发电量.总之,液态氟钍反应堆是一台非常昂贵的发电机,不过其枯竭燃料可以回收,且获得的副产物比平常更多,尤其是在LuV阶段,你可以获得几乎所有的惰性气体,还可以得到相当可观的能量.%n%n同级别的(尽管主要是LuV及以上),还有两种更大的多方块机器,钍高温反应堆(THTR)和高温气冷反应堆(HTGR). 钍高温反应堆主要用于发电,需要大约0.5A-IV的输入,同时输出多A-LuV能量;而高温气冷反应堆是一种增殖反应堆,输出1/20的热冷却液,这也是其发电之源,不过关键是它转化镥及其他元素的效率很高.%n%n其他种类的核反应堆还有Good-Generators的硅岩反应堆,它除了拥有消耗多种硅岩燃料的配方以外,还凑巧有些消耗钍流体燃料和铀流体燃料的配方.对于钍和铀,这台硅岩反应堆相比普通核弹就快多了,这有助于提高发电量也提高了增殖效率,不过这些燃料需要经过复杂的处理才能最终使用.另外,IC2核弹使用的燃料棒,用的是不同的钍、铀燃料,或多或少与这些有关.%n%n再往后,就是核聚变能了.臭名昭著的GT牌核聚变反应堆,工作机制为将两种元素聚变为一种新元素,通常这种新元素是推进科技树的必需品,同时聚变产生的巨大能量则以等离子体的形式输出.氦离子和锡离子是最常用于发电的等离子体之二,将其送入等离子涡轮即为后期极好的能源,从ZPM到UEV等阶段都很合适.普通的核聚变反应堆有4个等级,另外还有压缩核聚变反应堆,你会在之后的进程中逐步探索这些.%n%n本任务章节主要是指导你在所有这些可能的选择中,挑出最适合自己的.我保证你一定会至少用到其中的两三种的,所以尽量仔细阅读任务描述吧.
-// +++ //gtnh.quest3145.desc=Nuclear energy is first available in EV. However, it comes in all shapes and forms, and it can be hard to choose one kind of setup to use amongst all of those that are available. To start this questbook page, this first quest will be a summary of how nuclear power can be produced, and when it is available. Other quests down the line will have more details about each specific setup, but this is an overview of all of them.%n%nTL;DR: Nuke < Fluid Nuke < Vacuum Nuke < LFTR = THTR = Naq Reactor < Fusion < Compact Fusion for power, per reactor. For breeding, Nuke < LFTR = Naq Reactor < HTGR in terms of breeding speed and outputs, with fusion being required to make some materials.%n%nThe first nuclear source you have access to is the Industrialcraft 2 Nuclear Reactor, usually called a nuke. It's a small singleblock that can have additional chambers attached to it to make a multiblock structure, and the amount of chambers decides the amount of space available for the nuke's components. Inside it, fuel rods with radioactive materials generate power, and every other item serves to control the temperature of the reactor and keep it from exploding. It generates EU directly, but it can be upgraded to a fluid nuke, which outputs hot coolant instead, for the Large Heat Exchanger, but with more efficiency. Lastly, there's also the vacuum nuke, which is very similar to regular nukes but it cools down by using Coolant Cells, which wear out and are only reusable by using Vacuum Freezers. Usual fuels for all of these are Thorium, in EV, and Uranium, in IV.%n%nBetween IV and LuV, there's another kind of reactor, the Liquid Fluoride Thorium Reactor (LFTR). In this large multi, the Thorium and Uranium are mixed with very hot, molten salts (which need to be prepared in another multi), improving the power generation at the cost of additional processing. It's an expensive setup, but the depleted fuel can be recycled into many more byproducts than usual, especially at LuV, where you can get almost all the noble gases amongst other things, alongside huge amounts of power.%n%nAt those same tiers (albeit mostly for LuV and above), there are also two larger multis, the Thorium High Temperature Reactor (THTR) and the High Temperature Gas-cooled Reactor (HTGR). The THTR is mostly for power, needing an input of about 0.5 IV amps and outputting LuV power at a varied amount of amps, whereas the HTGR is a breeder reactor, outputting 1/20 the amount of hot coolant, which is where the power generation comes from, but with much better ratios for breeding into Lutetium and other elements.%n%nAnother kind of nuclear reactor is the Good Generators Naquadah Reactor, which coincidentally has recipes to consume Thorium Liquid Fuel and Uranium Liquid Fuel, alongside the several types of Naquadah fuel that exist. With these two, this reactor can process those elements much faster than regular nukes, which is helpful for power and for breeding, but it requires more processing until those fuels are ready to be consumed. Additionally, there are fuel rods for the IC2 nukes that use different Thorium and Uranium fuels, more or less related to these. %n%nFrom then on, it's fusion power. The infamous GregTech Fusion Reactors work by fusing two elements into a new one, which is often a required step for progression, but they also turn the power they require into exponentially more in the way of plasma. Helium and Tin Plasma are some of the most used for power, and putting them into Plasma Turbines is an excellent source of power for lategame, in ZPM to UEV and so on. There are 4 tiers to the regular Fusion Reactors, but there is also compact fusion and some other kinks to fusion that you might explore later on.%n%nThis page will mostly serve to guide you into making a choice between all of these possibilities. It's pretty much guaranteed that you'll use at least 2-3 of these setups, so try to get comfortable with these quest descriptions.
-// ↑↑↑ //gtnh.quest3145.desc=Nuclear energy is first available in EV. However, it comes in all shapes and forms, and it can be hard to choose one kind of setup to use amongst all of those that are available. To start this questbook page, this first quest will be a summary of how nuclear power can be produced, and when it is available. Other quests down the line will have more details about each specific setup, but this is an overview of all of them.%n%nTL;DR: Nuke < Fluid Nuke < Vacuum Nuke < LFTR = THTR = Naq Reactor < Fusion < Compact Fusion for power, per reactor. For breeding, Nuke < LFTR = Naq Reactor < HTGR in terms of breeding speed and outputs, with fusion being required to make some materials.%n%nThe first nuclear source you have access to is the Industrialcraft 2 Nuclear Reactor, usually called a nuke. It's a small singleblock that can have additional chambers attached to it to make a multiblock structure, and the amount of chambers decides the amount of space available for the nuke's components. Inside it, fuel rods with radioactive materials generate power, and every other item serves to control the temperature of the reactor and keep it from exploding. It generates EU directly, but it can be upgraded to a fluid nuke, which outputs hot coolant instead, for the Large Heat Exchanger, but with more efficiency. Lastly, there's also the vacuum nuke, which is very similar to regular nukes but it cools down by using Coolant Cells, which wear out and are only reusable by using Vacuum Freezers. Usual fuels for all of these are Thorium, in EV, and Uranium, in IV.%n%nBetween IV and LuV, there's another kind of reactor, the Liquid Fluoride Thorium Reactor (LFTR). In this large multi, the Thorium and Uranium are mixed with very hot, molten salts (which need to be prepared in another multi), improving the power generation at the cost of additional processing. It's an expensive setup, but the depleted fuel can be recycled into many more byproducts than usual, especially at LuV, where you can get almost all the noble gases amongst other things, alongside huge amounts of power.%n%nAt those same tiers (albeit mostly for LuV and above), there are also two larger multis, the Thorium High Temperature Reactor (THTR) and the High Temperature Gas-cooled Reactor (HTGR). The THTR is mostly for power, needing an input of about 0.5 IV amps and outputting LuV power at a varied amount of amps, whereas the HTGR is a breeder reactor, outputting 1/20 the amount of hot coolant, which is where the power generation comes from, but with much better ratios for breeding into Lutetium and other elements.%n%nAnother kind of nuclear reactor is the Good Generators Naquadah Reactor, which coincidentally has recipes to consume Thorium Liquid Fuel and Uranium Liquid Fuel, alongside the several types of Naquadah fuel that exist. With these two, this reactor can process those elements much faster than regular nukes, which is helpful for power and for breeding, but it requires more processing until those fuels are ready to be consumed. Additionally, there are fuel rods for the IC2 nukes that use different Thorium and Uranium fuels, more or less related to these. %n%nFrom then on, it's fusion power. The infamous Gregtech Fusion Reactors work by fusing two elements into a new one, which is often a required step for progression, but they also turn the power they require into exponentially more in the way of plasma. Helium and Tin Plasma are some of the most used for power, and putting them into Plasma Turbines is an excellent source of power for lategame, in ZPM to UEV and so on. There are 4 tiers to the regular Fusion Reactors, but there is also compact fusion and some other kinks to fusion that you might explore later on.%n%nThis page will mostly serve to guide you into making a choice between all of these possibilities. It's pretty much guaranteed that you'll use at least 2-3 of these setups, so try to get comfortable with these quest descriptions.
 
 # Quest.3146 - Focus on Breeding
 gtnh.quest3146.name=专注增殖
@@ -12747,8 +12617,6 @@ gtnh.quest3152.desc=核科学在本整合包中应用的巅峰技术就是核聚
 # Quest.3153 - Building the Reactor
 gtnh.quest3153.name=建造反应堆
 gtnh.quest3153.desc=所有常规核聚变反应堆的结构都是相同的.它们各自所属的阶段,是由其所用材料决定的,随着等级的提升而越来越昂贵.MK-I对应LuV,MK-II对应ZPM,MK-III对应UV,MK-IV另算. 整体结构看起来就像个大环,刚好可以在一个区块中放下,而控制器方块在环的内侧,而非外侧.%n%n为了帮助你将所有方块与仓室放在正确的位置,控制器方块的GUI中显示了一张示意图,指出每种方块所在的位置. 而想要在世界中直接看到3D全息影像,请对控制器方块使用<多方块机器全息投影仪>. 如果你还需要更多帮助,网络上可以找到大量相关资源,详细解释其构建过程,这是因为核聚变反应堆是GT的大型多方块机器,在许多整合包内都有涉及,并且构建方式都大同小异.%n%n每个等级的核聚变反应堆的原始任务都将包含在任务线中,它们会提供大量信息并且保持更新.
-// +++ //gtnh.quest3153.desc=All the regular Fusion Reactors share the same structure. The tier they belong to is determined by the materials used, which become more expensive for each tier. Tier 1 is LuV, tier 2 is ZPM, tier 3 is UV and there's also a tier 4. The structure looks like a huge ring, which barely fits in one chunk, with the controller on the inside of the ring, not the outside.%n%nTo help you with placing all the blocks in the right places, the controller's interface shows a diagram of which blocks go where. To get a 3D view of the placements in the world, use the Multiblock Structure Hologram Projector on the controller. If you need even more assistance, there are lots of resources on the internet that explain how it's build, since this is a big GregTech multiblock that is required in many packs, and almost always built the same way.%n%nThe original quests for each reactor tier will be included in the questline, since they provide good information about each tier and are updated.
-// ↑↑↑ //gtnh.quest3153.desc=All the regular Fusion Reactors share the same structure. The tier they belong to is determined by the materials used, which become more expensive for each tier. Tier 1 is LuV, tier 2 is ZPM, tier 3 is UV and there's also a tier 4. The structure looks like a huge ring, which barely fits in one chunk, with the controller on the inside of the ring, not the outside.%n%nTo help you with placing all the blocks in the right places, the controller's interface shows a diagram of which blocks go where. To get a 3D view of the placements in the world, use the Multiblock Structure Hologram Projector on the controller. If you need even more assistance, there are lots of resources on the internet that explain how it's build, since this is a big Gregtech multiblock that is required in many packs, and almost always built the same way.%n%nThe original quests for each reactor tier will be included in the questline, since they provide good information about each tier and are updated.
 
 # Quest.3154 - Fluid Nukes
 gtnh.quest3154.name=流体核弹
@@ -12975,9 +12843,7 @@ gtnh.quest3209.name=气态行星
 gtnh.quest3209.desc=你可能还想要全面了解可以通过行星气体钻机采集到些什么.所以让我们开始吧：%n%n%n木星§r%n1 氢 - 15000 L/s%n2 氦 - 500 L/s%n3 氮 - 300 L/s%n4 氧 - 200 L/s%n%n§o土星§r%n1 氢 - 18000 L/s%n2 氦 - 800 L/s%n3 氧 - 500 L/s%n4 液氧 - 150 L/s%n%n§o天王星§r%n1 氘 - 5000 L/s%n2 氖 - 450 L/s%n3 氩 - 250 L/s%n4 氪 - 100 L/s%n%n§o海王星§r%n1 氚 - 3000 L/s%n2 氦-3 - 500 L/s%n3 氨 - 400 L/s%n4 氙 - 350 L/s
 
 # Quest.3210 - §6§lAnother Chemical Multiblock?
-gtnh.quest3210.name=另一台多方块化学反应釜?
-// +++ //gtnh.quest3210.name=§6§lAnother Chemical Multiblock?
-// ↑↑↑ //gtnh.quest3210.name=Another Chemical Multiblock?
+gtnh.quest3210.name=§6§l另一台多方块化学反应釜?
 gtnh.quest3210.desc=迄今为止,你可能已经建造了许多台大型化学反应釜.拥有强大4/4无损超频的大型化学反应釜是最强多方块之一.然而,如果这都无法满足你的化工产线,怎么办呢?如果一个配方的处理时间已经超频到了1t(0.05秒)以下,你就无法进一步提速了吗?%n%n别担心,我们为你提供了解决方案：巨型化学反应釜.它最高可以同时并行256大型化学反应釜配方!同时,如果你能提供足够的能量,它同样能够进行超频.%n%n由于需要7个聚变线圈方块,所以LuV才能解锁它.请查看全息投影仪,获知它的具体结构以及所需方块.%n%n玻璃等级会限制可用的能源仓等级.你甚至可以用TecTech的多A能源仓!不过,如果你想用激光仓的话,至少需要UV玻璃.
 
 # Quest.3211 - §6§lRaw Silicon Dust
@@ -13001,20 +12867,20 @@ gtnh.quest3215.name=触发:跳过贴片晶体管
 gtnh.quest3215.desc=没有描述.
 
 # Quest.3216 - Optical SMDs
-// +++ //gtnh.quest3216.name=Optical SMDs
-// +++ //gtnh.quest3216.desc=You can now make optical SMDs! They are required for all circuits beyond UEV.%n%nSome of the materials are made in the ABS. Maybe its time to add a few.%n%n§3If you have not gotten any strontium yet, you can obtain it from strontium oxide based on Rare Earth 3, from spessartine froth or from a Deep Dark void miner.
+gtnh.quest3216.name=光学贴片元件
+gtnh.quest3216.desc=你现在能制作光学贴片元件了!它们是UEV+电路板的必要元件.%n%n有些原材料要用合金冶炼炉制造,也许是时候再来几台了.%n%n§3如果你还没有锶的话,可以从氧化锶(处理稀土III获取)、锰铝榴石泡沫或是漆黑世界的虚空采矿场产出中得到.
 
 # Quest.3217 - §6§lInfinity Coil Upgrade
-// +++ //gtnh.quest3217.name=§6§lInfinity Coil Upgrade
-// +++ //gtnh.quest3217.desc=Smelting with the ferocity of the universe itself.%n%nProvides 11701 heat. You could upgrade your EBF. Though at this I guess its more likely for your MEBFs or your DTPF.
+gtnh.quest3217.name=§6§l升级无尽线圈
+gtnh.quest3217.desc=以宇宙自身的野蛮之力熔炼.%n%n提供11701K的基础炉温.可以用来升级工业高炉,不过我猜用在巨型工业高炉或是DTPF上更好.
 
 # Quest.3218 - §6§lHypogen Coil Upgrade
-// +++ //gtnh.quest3218.name=§6§lHypogen Coil Upgrade
-// +++ //gtnh.quest3218.desc=Finally a usage for this damned material. Provides 12601K heat!
+gtnh.quest3218.name=§6§l升级海珀珍线圈
+gtnh.quest3218.desc=这该死的材料总算有个用处了.提供12601K的基础炉温!
 
 # Quest.3219 - §6§lEternal Coil Upgrade
-// +++ //gtnh.quest3219.name=§6§lEternal Coil Upgrade
-// +++ //gtnh.quest3219.desc=Currently the final upgrade with 13501K. This really makes your DTPF shine!
+gtnh.quest3219.name=§6§l升级永恒线圈
+gtnh.quest3219.desc=目前最终极的升级,提供13501K的基础炉温.让你的DTPF大放异彩吧!
 
 # Quest.3220 - The roots of magic
 // +++ //gtnh.quest3220.name=The roots of magic
@@ -13144,7 +13010,7 @@ gtnh.quest3215.desc=没有描述.
 
 # QuestLine.0 - And So, It Begins
 gtnh.line0.name=由此开始
-gtnh.line0.desc=第一层︰0阶.本章节将介绍GTNH整合包的基本机制,包含︰原版、潘马斯农场.
+gtnh.line0.desc=第一层：0阶.本章节将介绍GTNH整合包的基本机制,包含：原版、潘马斯农场.
 
 # QuestLine.1 - Tier 0 - Stone Age
 gtnh.line1.name=第0阶-石器时代
@@ -13155,39 +13021,27 @@ gtnh.line2.name=第0.5阶-蒸汽时代
 gtnh.line2.desc=此章节的主题是从蒸汽走向电力.同时这个阶段制造的大部分机器,会随着升压陪你走过整个游戏.
 
 # QuestLine.3 - Tier 1 - LV
-gtnh.line3.name=第1阶-低压(32 LV)
-// +++ //gtnh.line3.name=Tier 1 - LV
-// ↑↑↑ //gtnh.line3.name=Tier 1 - 32 EU (LV)
-gtnh.line3.desc=第一个 "电压" 的阶段.随着制造的机器越来越多,事情也变得越来越容易了...几乎所有种类的机器都可以制造,别看花了眼.很多自动流水线的电压要求都不太高,LV的聚乙烯或电解水生产线可能会陪你度过相当长的时间,所以当你有需要的时候不要犹豫,大胆地设计第一条流水线吧.
+gtnh.line3.name=第1阶-低压(LV)
+gtnh.line3.desc=第一个"电压"的阶段.随着制造的机器越来越多,事情也变得越来越容易了...几乎所有种类的机器都可以制造,别看花了眼.很多自动产线的电压要求都不太高,LV的聚乙烯或电解水生产线可能会陪你度过相当长的时间,所以当你有需要的时候不要犹豫,大胆地设计第一条产线吧.
 
 # QuestLine.4 - Tier 2 - MV
-gtnh.line4.name=第2阶-中压(128 MV)
-// +++ //gtnh.line4.name=Tier 2 - MV
-// ↑↑↑ //gtnh.line4.name=Tier 2 - 128 EU (MV)
-gtnh.line4.desc=第二个 "电压" 的阶段.不要把不同电压的机器混用,否则你会得到一个大坑.开始考虑如何扩展你的基地.%n%n顺便一提,对OCing来说,这算作第2阶,ULV不算.
+gtnh.line4.name=第2阶-中压(MV)
+gtnh.line4.desc=第二个"电压"的阶段.不要把不同电压的机器混用,否则你会得到一个大坑.开始考虑如何扩展你的基地.%n%n顺便一提,对超频来说,这算作第2阶,ULV不算.
 
 # QuestLine.5 - Tier 3 - HV
-gtnh.line5.name=第3阶-高压(512 HV)
-// +++ //gtnh.line5.name=Tier 3 - HV
-// ↑↑↑ //gtnh.line5.name=Tier 3 - 512 EU (HV)
-gtnh.line5.desc=终于有些能源去干点大事了.这一层将帮助你踏入星辰大海的征途,收集更多稀有的资源,建造更先进的机器.
+gtnh.line5.name=第3阶-高压(HV)
+gtnh.line5.desc=终于有些能源去干点大事了.在这一阶段你将踏上前往星辰大海的征途,收集更多稀有的资源,建造更先进的机器.
 
 # QuestLine.6 - Tier 4 - EV
-gtnh.line6.name=第4阶-超高压(2048 EV)
-// +++ //gtnh.line6.name=Tier 4 - EV
-// ↑↑↑ //gtnh.line6.name=Tier 4 - 2048 EU (EV)
+gtnh.line6.name=第4阶-超高压(EV)
 gtnh.line6.desc=欢迎来到EV! 你成功登陆了月球,处理并获得了钛. 现在你可以获得更高阶的能源了. 在这个阶段,你将解锁核反应堆,以及应用能源(AE2).
 
 # QuestLine.7 - Tier 5 - IV
-gtnh.line7.name=第5阶-强导压(8192 IV)
-// +++ //gtnh.line7.name=Tier 5 - IV
-// ↑↑↑ //gtnh.line7.name=Tier 5 - 8192 EU (IV)
+gtnh.line7.name=第5阶-强导压(IV)
 gtnh.line7.desc=这个阶段有两件大事:铂系处理和装配线. 这两个都是非常困难的任务,但也是必要的. 可能很多人会在此阶段放弃.祝你好运!
 
 # QuestLine.8 - Tier 6 - LuV
-gtnh.line8.name=第6阶-剧差压(32768 LuV)
-// +++ //gtnh.line8.name=Tier 6 - LuV
-// ↑↑↑ //gtnh.line8.name=Tier 6 - 32768 EU (LuV)
+gtnh.line8.name=第6阶-剧差压(LuV)
 gtnh.line8.desc=你已经走了这么远了,应该昂首挺胸地继续向前,因为你已经开始进入游戏的中期.虽然离毕业仍有一段很长的路要走,但你现在算是一个GTNH专家了,别的大部分mod你都已经精通.恭喜你,为你自己而骄傲吧.%n%n准备制造几条电路装配线,然后直面终极能源聚变反应堆吧,你会用到它们的.
 
 # QuestLine.9 - How to Generate Power
@@ -13216,9 +13070,7 @@ gtnh.line14.desc=史蒂夫矿车和红石计划自动化,基础的自动化农�
 
 # QuestLine.15 - Working with Oil
 gtnh.line15.name=石油工业
-gtnh.line15.desc=没有描述.
-// +++ //gtnh.line15.desc=A questline about oil refining, oil byproducts, and oil based power generation.
-// ↑↑↑ //gtnh.line15.desc=No Description
+gtnh.line15.desc=一条关于石油精炼、石油副产以及基于石油发电的任务线.
 
 # QuestLine.16 - Coins, Coins, Coins
 gtnh.line16.name=硬币、硬币、硬币
@@ -13241,9 +13093,7 @@ gtnh.line20.name=人来疯(蜂)
 gtnh.line20.desc=一套在游戏中不分阶段的任务,蜜蜂的基础探索和指南.是一个非常有用来推进的工具.
 
 # QuestLine.21 - Bio for the Masses
-gtnh.line21.name=花的力量
-// +++ //gtnh.line21.name=Bio for the Masses
-// ↑↑↑ //gtnh.line21.name=Flower Power
+gtnh.line21.name=大众生物学
 gtnh.line21.desc=使用植物和树木发电的相关任务线.
 
 # QuestLine.22 - Novice Thaumaturgy
@@ -13279,9 +13129,7 @@ gtnh.line29.name=终极目标
 gtnh.line29.desc=终极目标的集合,祝你好运,也感谢你一直以来的支持.
 
 # QuestLine.30 - Tier 7 - ZPM
-gtnh.line30.name=第7阶-零点压(131072 ZPM)
-// +++ //gtnh.line30.name=Tier 7 - ZPM
-// ↑↑↑ //gtnh.line30.name=Tier 7 - 131072 EU (ZPM)
+gtnh.line30.name=第7阶-零点压(ZPM)
 gtnh.line30.desc=恭喜,你已经完成了铂系处理、装配线、电路装配线§o和§r聚变反应堆,并提升到了零点压. 你已经进入了游戏后期,但仍有许多东西可以玩. 祝你好运!
 
 # QuestLine.31 - Advanced Automation
@@ -13289,8 +13137,8 @@ gtnh.line31.name=先进自动化
 gtnh.line31.desc=SFM和OC将帮助你实现装配线自动化! 还有些设备单纯靠AE自动化太过复杂,比如聚变或血魔法祭坛. 你可以通过OC实现很多非常实用的功能,多尝试尝试吧.
 
 # QuestLine.32 - Flower Power
-// +++ //gtnh.line32.name=Flower Power
-// +++ //gtnh.line32.desc=A treatise on magical herbology and Botania
+gtnh.line32.name=花的力量
+gtnh.line32.desc=有关魔法植物学和植物魔法的专题任务线.
 
 # QuestLine.34 - Space Race
 gtnh.line34.name=太空竞赛
@@ -13317,13 +13165,9 @@ gtnh.line44.name=提示、技巧
 gtnh.line44.desc=我们收集所有智慧的结晶.无数格雷员工先驱的鲜血才换来这些弥足珍贵的知识.
 
 # QuestLine.45 - Tier 8 - UV
-gtnh.line45.name=第8阶-极限压(524288 UV)
-// +++ //gtnh.line45.name=Tier 8 - UV
-// ↑↑↑ //gtnh.line45.name=Tier 8 - 524288 EU (UV)
+gtnh.line45.name=第8阶-极限压(UV)
 gtnh.line45.desc=极限压! 这是原版GT的最高电圧,但这里是GTNH,让我们冲破苍穹,超越极限! 你已经到达了绝大多数玩家无法到达的阶段. 欢迎来到游戏末期!
 
 # QuestLine.46 - Tier 9 - UHV
-gtnh.line46.name=第9阶-极高压(2097152 UHV)
-// +++ //gtnh.line46.name=Tier 9 - UHV
-// ↑↑↑ //gtnh.line46.name=Tier 9 - 2097152 EU (UHV)
+gtnh.line46.name=第9阶-极高压(UHV)
 gtnh.line46.desc=嗯...嗨? 你真的不应该在这里,知道不? 你知道的,我们还是得写这一阶段,对吧?
