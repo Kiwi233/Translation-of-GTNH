@@ -1454,7 +1454,7 @@ gtnh.quest362.desc=一只非同寻常的蜜蜂.如果你以为镅只能通过聚
 
 # Quest.363 - Gassy Bees
 gtnh.quest363.name=气体蜂
-gtnh.quest363.desc=有一大群的产气蜜蜂.让我们先来培育其中一种吧.%n%n§3这是许多与气体相关的蜜蜂的起点.查查NEI吧,也许你能找到些目标.
+gtnh.quest363.desc=有一大群的产气蜜蜂.让我们先来培育其中一种吧.%n%n§3这是许多与气体相关蜜蜂的起点.查查NEI吧,也许你能找到些目标.
 
 # Quest.364 - Naga
 gtnh.quest364.name=娜迦蜂
@@ -2624,7 +2624,7 @@ gtnh.quest654.desc=将进阶电力喷气背包及纳米护甲组合,会得到进
 
 # Quest.655 - Gravi Suit
 gtnh.quest655.name=重力胸甲
-gtnh.quest655.desc=重力胸甲是最终极的结合了量子胸甲和.穿着全套的量子装备有隐藏的效果,需要你自己去发掘.%n%n或者找找Wiki上怎么说(其他靠谱的教程也行).
+gtnh.quest655.desc=重力胸甲由量子护甲、LuV变压器、终极蓝博顿电池背包、超导线缆、冷却核心、重力引擎、终极晶体电脑、致密铿铀板、蓝博顿能量球簇、力场发生器(IV)、电动马达(ZPM)、铿铀螺丝、熔融焊锡、熔融三钛组合而成.穿着全套的量子装备有隐藏的效果,需要你自己去发掘.%n%n或者找找Wiki上怎么说(其他靠谱的教程也行).
 
 # Quest.656 - §1§2§lIron Shields
 gtnh.quest656.name=§1§2§l铁盾
@@ -12883,128 +12883,133 @@ gtnh.quest3219.name=§6§l升级永恒线圈
 gtnh.quest3219.desc=目前最终极的升级,提供13501K的基础炉温.让你的DTPF大放异彩吧!
 
 # Quest.3220 - The roots of magic
-// +++ //gtnh.quest3220.name=The roots of magic
-// +++ //gtnh.quest3220.desc=If you're familiar with Botania, you will notice that the overworld is noticeably void of magical flowers and mushrooms. Such pretty expressions of magic sadly require you to have leveled up on your magical skills. For now you will have to make do with what the world has to offer.%n%nLook in deep caves in the Twilight Forest at low Y-levels for glimmering mushrooms. These are your starting ingredient and can be used instead of flower petals. Beware, unlike flowers you can't grow more just yet, so be careful what you use them for.
+gtnh.quest3220.name=魔法的根基
+gtnh.quest3220.desc=如果你熟悉植物魔法,会注意到主世界明显没有神秘花和微光蘑菇.很遗憾,如此漂亮的魔力展现方式需要你提升自己的魔法水平.现在你得利用这个新世界所提供的东西.%n%n暮色森林的深层洞穴中,在Y轴较低的地方,可以找到微光蘑菇.这些是你的起始材料,可以用来代替花瓣.注意,与花不同,你现在还不能种植它们,所以要小心使用.
 
 # Quest.3221 - Flower grafting
-// +++ //gtnh.quest3221.name=Flower grafting
-// +++ //gtnh.quest3221.desc=The first item you want to make is the Petal Apothecary. A mushroom is needed to anoint it and give it its restorative properties.%n%nTo operate it, fill it with a bucket of water to keep the plants hydrated. After that you can add the ingredients by dropping them on top.%n%nEach craft requires some magical ingredients, but also one or more regular flowers from the world that can function as a stable base. Once you've added all the ingredients, finish the craft by adding a seed. Any vanilla seed will do.
+gtnh.quest3221.name=花卉嫁接
+gtnh.quest3221.desc=你要做的第一个东西是花药台.将微光蘑菇的组分涂在炼药锅上,就能给予它自我恢复的能力.%n%n操作时,先用一桶水填满它,以保持植物的水分.要加入合成材料,只需要将它们丢到花药台上面.%n%n所有花药台的合成都需要些魔法成分;还需要从世界中取得的一种或多种普通花,作为配方稳定的基础.把所有合成材料都加进去后,再加一粒种子就可以完成合成.所有原版种子都行.
 
 # Quest.3222 - Pure Daisy
-// +++ //gtnh.quest3222.name=Pure Daisy
-// +++ //gtnh.quest3222.desc=The first magical flower you are able to make is the Pure Daisy. This flower can slowly enchant nearby stone and logs into basic Botania ingredients.%n%nAfter placing the flower down, you can use put down stone and wood in the 8 tiles around it, and after a certain time they will be converted.
+gtnh.quest3222.name=白雏菊
+gtnh.quest3222.desc=你能做出的第一种魔力花卉就是白雏菊.这种花可以缓慢地为附近的石头和原木注入魔力,将其转变为植物魔法的原材料.%n%n放下一朵白雏菊,然后在其周围紧邻的8格放上石头和原木,过一段时间它们就会转化为活石和活木.
 
 # Quest.3223 - Your first mana pool
-// +++ //gtnh.quest3223.name=Your first mana pool
-// +++ //gtnh.quest3223.desc=Now that you have livingrock, create your first mana pool. Chop some pieces into slabs with a saw to make the bottom, then stick them together with plates for the sides.%n%nYou lack the knowledge to make it effective, so sadly it won't be able to craft a lot as a result.
+gtnh.quest3223.name=你的第一座魔力池
+gtnh.quest3223.desc=既然有活石了,就开始制造第一座魔力池吧.用锯子将活石切成台阶制作底部,用活石板将它们粘在一起制成四边.%n%n你缺乏使其变得有效的知识,所以很遗憾,你没法合成很多.
 
 # Quest.3224 - Upgrading your mana pool
-// +++ //gtnh.quest3224.name=Upgrading your mana pool
-// +++ //gtnh.quest3224.desc=Now that you have discovered the power of the magically enchanted crucible, you can use that technology to make a better mana pool.
+gtnh.quest3224.name=升级魔力池
+gtnh.quest3224.desc=既然你已经发现了被施以魔力的坩埚的力量,就可以用这项技术造一座更好的魔力池了.
 
 # Quest.3225 - Pollination buddies
-// +++ //gtnh.quest3225.name=Pollination buddies
-// +++ //gtnh.quest3225.desc=Some flowers are everywhere, and some are limited to specific biomes. If you don't want to walk long distances from home, you can call in some help.%n%nBees with the flower trait will slowly generate new flowers in its working are, including plenty that have been brought in from distant pastures.
+gtnh.quest3225.name=授粉好伙伴
+gtnh.quest3225.desc=有些花到处都有,有些则仅限于特定的生物群落.如果你不想离家走太远,可以找些帮手.%n%n具有采蜜对象特性的蜜蜂会在它的工作范围内慢慢产生新的花卉,包括大量从遥远的牧场带来的.
 
 # Quest.3226 - Mana diamonds
-// +++ //gtnh.quest3226.name=Mana diamonds
-// +++ //gtnh.quest3226.desc=Mana diamonds are magically enhanced diamonds, and they require more or less energy depending on the quality of the gem you're trying to enchant.%n%nA completely full diluted pool is barely able to make a mana diamond out of an exquisite diamond. Once you upgrade the pool you can use regular diamonds - be it at a higher mana cost.
+gtnh.quest3226.name=魔力钻石
+gtnh.quest3226.desc=魔力钻石是注入了魔力的钻石,制作它们需要的魔力取决于钻石的质量.%n%n一座全满的稀释魔力池勉强能把一颗精致的钻石转变成魔力钻石.只要你升级了魔力池,就可以用普通钻石了,不过魔力消耗会多些.
 
 # Quest.3227 - A glimpse into a watery future
+gtnh.quest3227.name=窥见水的未来
 // +++ //gtnh.quest3227.name=A glimpse into a watery future
-// +++ //gtnh.quest3227.desc=The next step is to make some catalysts. The Alchemical catalyst can use mana to change one item or block into a related item or block.%n%nPut it under a filled mana pool, then try it out by making some prismarine.%n%nThe recipe will need to be researched in the Thaumonomicon.
+gtnh.quest3227.desc=下一步就是做催化器了.炼金催化器可以使用魔力,将物品或方块转变成相关的另一种物品或方块.%n%n把它放在充满的魔力池下面,做些海晶石试试.
 
 # Quest.3228 - Botanic infusion
-// +++ //gtnh.quest3228.name=Botanic infusion
-// +++ //gtnh.quest3228.desc=The infusion altar will allow you to make runes, which in turn gives you access to progressively more advanced flowers.%n%nTo operate the altar, drop the ingredients on top, whack it with a wand of the forest, and when it's done drop a livingrock block on top to complete the craft. You will additionally need a mana source, such as a mana spreader pointing at it.
+gtnh.quest3228.name=植物魔法注魔
+gtnh.quest3228.desc=你可以用符文祭坛制作符文,符文可以让你获得更高级的花卉.要使用祭坛,把材料放在上面，用森林魔杖右键祭坛,满足条件后,在祭坛上丢一颗活石以完成制作.你还需要一个魔力源,比如一个指向祭坛的魔力发射器.
 
 # Quest.3229 - Terrasteel
-// +++ //gtnh.quest3229.name=Terrasteel
-// +++ //gtnh.quest3229.desc=To get some advanced tools and equipment you will need some terrasteel. This is done using a dedicated machine.
+gtnh.quest3229.name=泰拉钢
+gtnh.quest3229.desc=要制造高级工具和装备,你需要泰拉钢.制作泰拉钢需要专门的装置.
 
 # Quest.3230 - Alfheim
-// +++ //gtnh.quest3230.name=Alfheim
-// +++ //gtnh.quest3230.desc=Legends speak of a portal to a different realm filled with green energy.
+gtnh.quest3230.name=亚尔夫海姆(Alfheim,精灵之国)
+gtnh.quest3230.desc=传说中有一个传送门,通向充满绿色能量的异世界.
 
 # Quest.3231 - Round one... FIGHT!
-// +++ //gtnh.quest3231.name=Round one... FIGHT!
-// +++ //gtnh.quest3231.desc=Put the 4 pylons down and shift right click the terrasteel ingot on the beacon to summon the Gaia Guardian.
+gtnh.quest3231.name=第一回合...开打!
+gtnh.quest3231.desc=在正确的位置放置4个盖亚水晶,手持泰拉钢锭,shift+右击激活的信标,召唤盖亚守护者.
 
 # Quest.3232 - Stonks
-// +++ //gtnh.quest3232.name=Stonks
-// +++ //gtnh.quest3232.desc=So the rumours about the elves were true. Well, *were* true. They're still mostly true. and what isn't true used to be true.%n%nTurns out they have since been talking to a person going by the name of Olafe, which has since sparked a industrial revolution in the Elven lands. That sadly means that they now insist on receiving the latest fashion in machinery to fuel their ever-expanding factories, in exchange for the elven materials that are now rapidly going out of fashion.%n%nSomeone needs to have a word with this guy...
+gtnh.quest3232.name=Stonks
+gtnh.quest3232.desc=所以关于精灵的传言曾经是真的.好吧,*曾经是*真的.它们中大部分仍然是真的.现在是假的那些,曾经也是真的.%n%n原来,他们那之后一直在和一个叫Olafe的人交谈,这在精灵族的土地上引发了一次工业革命.这很不幸地意味着,他们现在坚持引进最新款的机械,以驱动不断扩大的工厂,从而换掉正迅速过时的精灵材料.%n%n有人需要和这家伙谈谈...%n%n译者注:Stonks是Stocks(股票)的故意错写,通常用在各种梗图中,表示由某件事钻漏洞而大量获利.%n§a使用例:§r%n村民:用书柜换两个绿宝石;%n还是村民:用一个绿宝石换三本书;%n我:STONKS.
 
 # Quest.3233 - You are worthy
+gtnh.quest3233.name=珍惜你自己
 // +++ //gtnh.quest3233.name=You are worthy
-// +++ //gtnh.quest3233.desc=Go no further if you value your sanity.
+gtnh.quest3233.desc=如果你还在意自己的理智,就别再往前走了.
+
 
 # Quest.3234 - DTPF
-// +++ //gtnh.quest3234.name=DTPF
-// +++ //gtnh.quest3234.desc=Congratulations, you have reached the Dimensionally Transcendent Plasma Forge, one of the most lategame multiblocks in the pack. This monster will make a MEBF look like a toaster by comparison to the raw smelting power available here.%n%nThis multiblock has numerous powerful recipes at its disposal, including the ability to cook 4,096 neutronium in parallel for a reduced EU cost and the conversion of infinity catalyst directly into infinity at a 1:1 ratio. This comes at a great cost and will likely be a harsh test on your infrastructure.
+gtnh.quest3234.name=超维度等离子锻炉(DTPF)
+gtnh.quest3234.desc=恭喜!你已经能制造超维度等离子锻炉了,这是整合包中最终极的多方块结构之一.这只巨兽与巨型工业高炉相比,后者那原始的冶炼能力看起来就像个烤面包机.%n%n这台多方块机器有许多强大的配方,包括能在更低的能量消耗下以4096并行烧制中子,以及将无尽催化剂1:1转化成无尽.但这同时也要付出巨大的成本,而且很可能是对你基础设施的严峻考验.
 
 # Quest.3235 - Power in the Ether
-// +++ //gtnh.quest3235.name=Power in the Ether
-// +++ //gtnh.quest3235.desc=These new hatches allow you to wirelessly send, store and receive energy from any location in any dimension. They can be placed in any existing multi block structure and will function as normal energy/dynamo hatches. A dynamo hatch will consume EU and store it in a global network linked to your user. The wireless network can store a total of 2^(2^31) EU, far exceeding even a max tier LSC.%n%nYou can share a wireless network with others by adding them to your network with /gt global_energy_join user1 user2. This will make user1 use user2's energy when interacting with the global network. You can leave a network at any time by doing /gt global_energy_join your_name your_name. %n%nYou cannot connect wires to these blocks. These are also designed to be highly lag efficient, meaning EU is added at large intervals to prevent needless calculations from occurring. This will also save you some TPS lag from vast wire networks.%n%n§3If your calculator is giving up, 2^(2^31) is a number with 646,456,994 digits.
+gtnh.quest3235.name=以太之力
+gtnh.quest3235.desc=这些全新的仓室让你能从任何维度的任何位置无线发送、存储、接收能量.它们可以放置在任何现有的多方块结构中,和正常的能源仓/动力仓作用相同.无线动力仓会消耗EU,并将其存储在一个与玩家绑定的全局无线网络中.这个无线网络可以存储2^(2^31)EU,远远超过了甚至是最高等级的激光仓.%n%n只要用/gt global_energy_join 玩家1 玩家2指令,就可以将其他玩家加入你的无线网络中,共享一个网络.这会使玩家1在与全局网络交互时使用玩家2的能量.%n%n你不能将导线/线缆接到无线能源仓/动力仓上.这也是为了也极大降低游戏延迟做的设计,这意味着为了防止不必要的计算发生,EU交互的时间间隔较大.这也可以从庞大的导线网络中节省下一些TPS延迟.%n%n§32^(2^31)是一个有646,456,994位的数字--如果你的计算器爆了的话.
 
 # Quest.3236 - Nano Circuits
-// +++ //gtnh.quest3236.name=Nano Circuits
-// +++ //gtnh.quest3236.desc=Circuits required for UIV.
+gtnh.quest3236.name=纳米电路
+gtnh.quest3236.desc=这是UIV电路板.
 
 # Quest.3237 - Nearly there...
-// +++ //gtnh.quest3237.name=Nearly there...
-// +++ //gtnh.quest3237.desc=So close.
+gtnh.quest3237.name=快到了...
+gtnh.quest3237.desc=很近了.
 
 # Quest.3238 - Space Bees
-// +++ //gtnh.quest3238.name=Space Bees
-// +++ //gtnh.quest3238.desc=Breed an industrious with a heroic bee to obtain a space bee. You need the temperature to be icy for that.%n%nJust one small step for you, but a giant leap for beekind.%n%n§3This is the starting point for many space related bees. Maybe check out NEI to see what you can aim for.
+gtnh.quest3238.name=太空蜂
+gtnh.quest3238.desc=将敬业蜂和英雄蜂杂交培育可以得到太空蜂.并且这需要严寒气温.%n%n这是你个人的一小步,却是蜂类的一大步.%n%n§3这是许多与太空相关蜜蜂的起点.查查NEI吧,也许你能找到些目标.
 
 # Quest.3239 - Tesseract
-// +++ //gtnh.quest3239.name=Tesseract
-// +++ //gtnh.quest3239.desc=Engineering beyond your comprehension. Destroying this strange higher dimensional object in a macerator is very easy though.
+gtnh.quest3239.name=超立方体
+gtnh.quest3239.desc=其构造是你无法理解的.不过,这个高维度的物件还是很容易用粉碎机打碎的.
 
 # Quest.3240 - SpaceTime
-// +++ //gtnh.quest3240.name=SpaceTime
-// +++ //gtnh.quest3240.desc=Reality itself bends to your will.
+gtnh.quest3240.name=时空
+gtnh.quest3240.desc=现实本身也屈从于你的意志.
 
 # Quest.3241 - Round two... FIGHT!
-// +++ //gtnh.quest3241.name=Round two... FIGHT!
-// +++ //gtnh.quest3241.desc=Now craft a Gaia Sprit ingot with your new Gaia Sprit from killing the Gaia guardian.%n%nPut the 4 pylons down and shift right click the Gaia Sprit ingot on the beacon to summon a harder version of Gaia Guardian.
+gtnh.quest3241.name=第二回合...开打!
+gtnh.quest3241.desc=现在用你击杀盖亚守护者得到的盖亚之魂合成一个盖亚魂锭.%n%n在正确的位置放置4个盖亚水晶,手持盖亚魂锭,shift+右击激活的信标,召唤增强版的盖亚守护者.
 
 # Quest.3242 - UMV Circuits
-// +++ //gtnh.quest3242.name=UMV Circuits
-// +++ //gtnh.quest3242.desc=Circuits required for UMV tier.
+gtnh.quest3242.name=UMV电路板
+gtnh.quest3242.desc=这是UMV电路板.
 
 # Quest.3243 - Finally, you are here.
-// +++ //gtnh.quest3243.name=Finally, you are here.
-// +++ //gtnh.quest3243.desc=Well done, you have reached the highest craftable parts in the game.
+gtnh.quest3243.name=终于,你在这了.
+gtnh.quest3243.desc=干得好.你已经能制作游戏中最高级别的部件了.
 
 # Quest.3244 - UXV Circuits
-// +++ //gtnh.quest3244.name=UXV Circuits
-// +++ //gtnh.quest3244.desc=Circuits required for UXV.
+gtnh.quest3244.name=UXV电路板
+gtnh.quest3244.desc=这是UXV电路板.
 
 # Quest.3245 - Naquadah Fuel
-// +++ //gtnh.quest3245.name=Naquadah Fuel
-// +++ //gtnh.quest3245.desc=Endgame power source.
+gtnh.quest3245.name=硅岩燃料
+gtnh.quest3245.desc=终极能源.
 
 # Quest.3246 - Runes
-// +++ //gtnh.quest3246.name=Runes
-// +++ //gtnh.quest3246.desc=Craft some runes, because why not?
+gtnh.quest3246.name=符文
+gtnh.quest3246.desc=制造些符文吧,因为--为什么不呢?
 
 # Quest.3247 - Tool: Never complete
-// +++ //gtnh.quest3247.name=Tool: Never complete
-// +++ //gtnh.quest3247.desc=This quest should never be complete which is useful to hide templates and other things.
+gtnh.quest3247.name=工具:不要完成
+gtnh.quest3247.desc=这个任务永远不应该完成,它用来隐藏模板和其他必要隐藏的任务.
 
 # Quest.3248 - Dragonblood
-// +++ //gtnh.quest3248.name=Dragonblood
-// +++ //gtnh.quest3248.desc=For your first batch of Hypogen you will need some Dragonblood. Maybe you already have some lying arond somewhere from killing the dragon a long time ago. You have 2 other options though. Bees and the DE Fusion Crafter.%n%nFor the bee path you have to go very deep into the breeding tree, but maybe you have already done that? Check the Bee Breeding tab either way.%n%nIn the DE Fusion Crafter you have 2 recipes. The better one uses an Infinity Egg from Witchery. Without any Witchery you can also just a normal dragon egg for the weaker recipe.%n%nOnce you have a bit of Hypogen you can then use that as a starting point to make more in your DTPF without any Dragonblood. I don't know why it works that way, complain to Colen.%n%nHowever, you will still need more Dragonblood eventually for UMV superconductors.%n%n%n§3There is actually another way to get Dragonblood which is similar to the DE Fusion Crafter recipes but in the mixer instead. Its even slower and less resource efficient. In particular, the dragon egg does not survive the process. So only use that if you are absolutely trying to avoid magic and bees.%n%nJust a reminder: a fluid task just needs you to have the fluid in some container in your inventory. (cell, universal cell, large cell, volumetric cell, etc.)
+gtnh.quest3248.name=龙血
+// +++ // DE Fusion Crafter需要翻译.
+gtnh.quest3248.desc=你需要些龙血制造第一批海珀珍.也许你已经有了些龙血,是很久以前击杀末影龙掉落的,正躺在某个地方.不过还有两个其他选择:蜜蜂和DE Fusion Crafter.%n%n对于蜜蜂路线,你需要深入研究蜜蜂培育线,但说不定你已经完成了?不论如何,看看"蜜蜂育种"任务栏吧.%n%n在DE Fusion Crafter中有两个配方.较好的一个要用到巫术mod的无限之蛋.如果你没有巫术进度的话,就只能用普通龙蛋,使用较弱的配方了.%n%n只要你有了些海珀珍,就能以此开始在DTPF中制造更多,而不需要龙血了.我不知道为何这么设计,要抱怨就找Colen吧.不过,你最终还是需要更多的龙血,以制造UMV超导.%n%n%n§3实际上还有另一种方法获得龙血,这与DE Fusion Crafter的配方相似,不过是用搅拌机.它的速度更慢,资源利用率更低.尤其要注意的是,这个配方会消耗龙蛋.所以只有在你需要完全避开魔法和蜜蜂线的时候,才会使用这个配方.%n%n流体任务目标只要求你物品栏内某个容器中有相应的流体.(单元、通用流体单元、大型单元、容量瓶,等等.)
 
 # Quest.3249 - Wait, PBI wasn't the last plastic?
-// +++ //gtnh.quest3249.name=Wait, PBI wasn't the last plastic?
-// +++ //gtnh.quest3249.desc=Let's make a brand new plastic! The trees that you found on Barnada C have very interesting properties. Still, you can't just use the extracted radox substance raw. Some serious refining steps are in order!%n%n§6You'll need it for a ton of stuff like UIV and UMV superconductors, UEV+ hatches, or parts of the Dyson Swarm.§r%n%nCompared to the previous plastics, most of the steps required here are not chemical reactions. They are also very slow, so you might want to use a mega multiblock to help with that. This production line also underlines the necessity of large-scale plasma production. You will only need more going forward.%n%n§3The Heavy Radox you get as a byproduct can be used for MkV Naquadah Fuel.
+gtnh.quest3249.name=等等,PBI(聚苯并咪唑)不是最后一种塑料?
+gtnh.quest3249.desc=来做一种全新的塑料吧!你在巴纳德C上发现的树木有些非常有趣的特性.但是,你不能只使用提取得到的粗制拉多X.必须经过严格分步的精炼流程!%n%n§6你需要用它制造大量东西,如UIV和UMV超导、UEV+仓室,以及戴森球部件.§r%n%n和之前的塑料不同,这里需要的大多数步骤都不是化学反应.这些步骤的速度也很慢,所以可能需要一个巨型多方块机器帮助解决问题.这条产线也强调了大规模生产等离子的必要性.而且你今后只会需要更多.%n%n§3副产物重拉多X可以用于硅岩基流体燃料-MkV.
 
 # Quest.3250 - AE2 Fluid Crafting
-// +++ //gtnh.quest3250.name=AE2 Fluid Crafting
-// +++ //gtnh.quest3250.desc=Well well well, what do we have here? Flasks are redundant now? NO WAY! %nAnyway, while you can listen to those who swear flasks are *the shit* and *the only way* you can automate fluid crafting and Assline, you can use this powerful addon backported by GlodBlock. All praise our king!%n%nNow, what do you need to get that juicy stuff working?%nEvery Me-System needs a Fluid Discretizer. It allows for on demand crafting. While you can use AE2FC without Fluid Discretizer for moving fluids, you need a Discretizer for autocrafting.%n%nThen you also need a fluid terminal or a fluid processing terminal for assembly line. %n%nWhen creating patterns you will notice your fluids being placed as if they were items. %nYour finished patterns will look blue-ish. Placing those in a Dual Interface will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.%nYou can switch the dual interface on the top right if you want it to keep fluids in stock. %n%nIf you use a blue pattern (fluid pattern) in a normal interface, AE2 will send the fluid as a fluid packet. This is just a representation of the fluid as an item. A fluid decoder can turn it back into a fluid and saves it in the fluid grid.%nWe use this feature for Assline. %n%nYou can use an ingredient buffer (large or normal) so your items and fluids sent by a pattern can get stored internally in one block. The normal buffer can hold 9 items and 4 fluids whereas the large one can hold 27 items and 7 fluids.%nYou can use it to automate multiblocks with e.g item and fluid conduits. %n%nIf you want to automate single blocks its as easy as eating chocolate cake while on your diet:%nMake the pattern, make an interface, boom- done!%nIt will automatically insert the fluid in the fluid inventory of a single block machine. %n%nAutomating Assembly line is easy. It follows the typical flask setup but replaces tanks with fluid decoders and a fluid storage bus to insert the fluids. Also we are sending fluids first, then items by using the priority button (made by Runakai and Rukern) in the fluid processing terminal. Make sure to give the decoders their own sub-mes. If you need more detailled information, visit the wiki:%n%nhttps://gtnh.miraheze.org/wiki/AE2FC%n%nYou can use ExtraCells and AE2FC in combination. However, AE2FC cells are recommended. There is no Fluid Monitor or Storage Bus from AE2FC so use ExtraCells for those. %n
+gtnh.quest3250.name=AE2流体合成(AE2FC)
+// +++ // "Allow fluids to be placed first"需要统一译名.
+gtnh.quest3250.desc=好好好,这儿有什么?不再需要容量瓶了?没门!%n不论如何,你可以听某些人咒骂说"容量瓶是*狗屎*,但却是*唯一的*可以自动化流体合成和装配线的方式",但对于你来说,现在可以用由GlodBlock从高版本移植的这个强大的AE2附属mod.赞美我们的神!%n%n现在,需要什么才能让这个美妙的玩意运作呢?%n每个ME系统都需要一个ME流体离散器,它支持按需合成.虽然没有流体离散器,你也可以使用AE2FC转运流体;但它是自动合成必需的.%n%n然后你还需要一个ME流体样板终端或是ME增广流体样板终端,后者用于装配线.%n%n书写样板时,你会注意到流体放置的样式就如同物品一样.%n完成书写的样板看着是蓝色的.将其放置在ME二合一接口中,能使AE2"同时"发送流体和物品.注意,"同时"是说"两者都会",而在先后顺序上,AE2会先发送流体,再发送物品.%n如果想将流体储存在二合一接口中,你可以点击GUI右上角以切换设置界面.%n%n如果你在普通接口界面中使用蓝色样板(流体样板),AE2会以流体包的形式发送流体.这只是用物品的形式来代表流体.ME流体封包解码器可以将其变回流体,并储存在流体槽中.%n这个功能可用于装配线.%n%n你可以使用一个原材料缓存仓(大型或是普通的),这样你由样板发送的物品和流体就都能存储在一个方块内部了.普通的原材料缓存仓可以存储9组物品和4种流体,大型的则是27组物品和7种流体.%n通过物品或是流体导管之类的手段,就可以用它自动化多方块机器.%n%n如果你想自动化单方块机器,那就如同节食期间吃巧克力蛋糕一样简单:%n书写样板,制造一个二合一接口,当当当当--完成!%n它会自动把流体塞到单方块机器的流体格子里.%n%n自动化装配线也很简单.它和特定的容量瓶设置是一样的,只不过用流体封包解码器替换了流体储罐,并使用流体存储总线输入流体.同样地,先发送流体,再发送物品--只要使用了增广流体样板终端中的"Allow fluids to be placed first"按钮(由Runakai和Rukern制作)就行.请确保给流体封包解码器提供单独的子网络.如果你需要更详细的信息,请访问Wiki:%n%nhttps://gtnh.miraheze.org/wiki/AE2FC%n%n 你可以结合使用更多存储单元2(ExtraCells2)mod和AE2FC.不过,推荐使用AE2FC的流体存储原件.AE2FC没有ME流体存储监控器和ME流体存储总线,所以如有需要就用ExtraCells2的吧.
 
 ##################################Line##################################
 
