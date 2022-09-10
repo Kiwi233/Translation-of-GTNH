@@ -1,30 +1,30 @@
-// +++ //tile.personalSpacePortal.name=Personal Dimension Portal
-// +++ //tile.personalSpacePortalLegacy.name=Legacy Personal Dimension Portal (UW Migration)
+tile.personalSpacePortal.name=私人维度传送门
+tile.personalSpacePortalLegacy.name=继承私人维度传送门(UtilityWorlds迁移)
 
-// +++ //chat.overworldPersonalDimension=Personal dimensions can only be created from the overworld
-// +++ //chat.personalWorld.created=Personal dimension successfully created!
-// +++ //chat.personalWorld.updated=Personal dimension successfully updated!
-// +++ //chat.personalWorld.relinked=Portal successfully relinked in dimension %d
-// +++ //chat.personalWorld.relinked.error=Portal was not relinked, it would cause losing access to the dimension.
-// +++ //chat.personalWorld.proximity=Too close to another portal.
+chat.overworldPersonalDimension=私人维度只能在主世界创建
+/chat.personalWorld.created=成功创建私人维度!
+chat.personalWorld.updated=成功更新私人维度!
+chat.personalWorld.relinked=传送门成功连接维度 %d
+chat.personalWorld.relinked.error=传送门未连接,可能导致无法访问维度.
+chat.personalWorld.proximity=离其他传送门过近.
 
-// +++ //gui.personalWorld.voidWorld=Void world
-// +++ //gui.personalWorld.biome=Biome name
-// +++ //gui.personalWorld.presets=Presets
-// +++ //gui.personalWorld.layers=Layers
+gui.personalWorld.voidWorld=虚空世界
+gui.personalWorld.biome=生物群系名称
+gui.personalWorld.presets=预设
+gui.personalWorld.layers=层
 
-// +++ //gui.personalWorld.skyColor=Sky color
-// +++ //gui.personalWorld.skyColor.red=Red: 
-// +++ //gui.personalWorld.skyColor.green=Green: 
-// +++ //gui.personalWorld.skyColor.blue=Blue: 
-// +++ //gui.personalWorld.starBrightness=Star brightness
+gui.personalWorld.skyColor=天空颜色
+gui.personalWorld.skyColor.red=红: 
+gui.personalWorld.skyColor.green=绿: 
+gui.personalWorld.skyColor.blue=蓝: 
+gui.personalWorld.starBrightness=星空亮度
 
-// +++ //gui.personalWorld.vegetation=Foliage
-// +++ //gui.personalWorld.trees=Trees
-// +++ //gui.personalWorld.weather=Weather
+gui.personalWorld.vegetation=植被
+gui.personalWorld.trees=树木
+gui.personalWorld.weather=天气
 
-// +++ //commands.pspace.usage=/pspace (give-portal player DIM [X] [Y] [Z])|(tpx player DIM [X Y Z])|(ls)|(where player)|(allow-worldgen-change DIM)
-// +++ //commands.pspace.badDimension=The specified dimension doesn't exist
-// +++ //commands.pspace.where=Player %s is in dimension %d
-// +++ //commands.pspace.tpx=Player %s was teleported to %d: %d, %d, %d
-// +++ //commands.pspace.allow-worldgen-change=Player %s unlocked worldgen settings for dimension %d
+commands.pspace.usage=/pspace (give-portal <玩家> <维度> [X] [Y] [Z])|(tpx <玩家> <维度> [X Y Z])|(ls)|(where <玩家>)|(allow-worldgen-change <维度>)
+commands.pspace.badDimension=指定维度不存在
+commands.pspace.where=玩家 %s 位于维度 %d
+commands.pspace.tpx=将玩家 %s 传送到 %d: %d, %d, %d
+commands.pspace.allow-worldgen-change=玩家 %s 已解锁维度 %d 的世界生成设置
