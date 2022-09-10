@@ -669,10 +669,8 @@ mods.thaumcraft.Research.setRound("SolarHelmetofRevealing", true);
 game.setLocalization("tc.research_name.SolarHelmetofRevealing", "\u592a\u9633\u80fd\u63ed\u793a\u62a4\u76ee\u955c");
 game.setLocalization("tc.research_text.SolarHelmetofRevealing", "\u9633\u5149\u592a\u523a\u773c\u4e86");
 mods.thaumcraft.Research.addPage("SolarHelmetofRevealing", "tc.research_page.SolarHelmetofRevealing");
-// --- //game.setLocalization("tc.research_page.SolarHelmetofRevealing", "\u4f60\u73b0\u5728\u6709\u4e86\u4e00\u9876\u50cf\u4f60\u7684\u91cf\u5b50\u63ed\u793a\u62a4\u76ee\u955c\u4e00\u6837\u5de5\u4f5c\u7684\u5934\u76d4,\u4e5f\u80fd\u7ed9\u4f60\u80cc\u5305\u9ed1\u7a7f\u7740\u7684\u88c5\u5907\u5145\u7535!
-// --- //\u5728\u767d\u5929\u4ee5128EU/t\u529f\u7387\u53d1\u7535,\u591c\u665a\u4e0d\u53d1\u7535.");
-// +++ //game.setLocalization("tc.research_page.SolarHelmetofRevealing", "You now have a helmet that acts exactly like your quantum goggles of revealing, but can also recharge your chest armor! It generates 2048 EU/t during the day, and 128 EU/t at night.");
-// ↑↑↑ //game.setLocalization("tc.research_page.SolarHelmetofRevealing", "You now have a helmet that acts exactly like your quantum goggles of revealing, but can also recharge your chest armor! It generates 128 EU/t during the day, but nothing at night.");
+game.setLocalization("tc.research_page.SolarHelmetofRevealing", "\u4f60\u73b0\u5728\u6709\u4e86\u4e00\u9876\u50cf\u4f60\u7684\u91cf\u5b50\u63ed\u793a\u62a4\u76ee\u955c\u4e00\u6837\u5de5\u4f5c\u7684\u5934\u76d4,\u4e5f\u80fd\u7ed9\u4f60\u80cc\u5305\u9ed1\u7a7f\u7740\u7684\u88c5\u5907\u5145\u7535!
+\u5728\u767d\u5929\u4ee52048EU/t\u529f\u7387\u53d1\u7535,\u591c\u665a\u4e0d\u53d1\u7535.");
 mods.thaumcraft.Infusion.addRecipe("SolarHelmetofRevealing", <EMT:QuantumGogglesRevealing:32767>,
 [<EMT:EMTSolars:1>, <gregtech:gt.blockmachines:1624>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.metaitem.01:32694>, <dreamcraft:item.MysteriousCrystal>, <IC2:itemBatLamaCrystal:32767>, <dreamcraft:item.MysteriousCrystal>, <gregtech:gt.metaitem.01:32694>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.blockmachines:1624>], 
 "tutamen 64, potentia 48, sensus 32, praecantatio 24, auram 16, electrum 16, lucrum 8, aer 16, lux 32", <EMT:SolarHelmetRevealing:27>, 12);
