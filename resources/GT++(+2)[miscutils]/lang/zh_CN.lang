@@ -1943,7 +1943,7 @@ tile.blockHellFire.name=地狱之火
 tile.blockProjectBench.name=工程台
 tile.blockTradeBench.name=贸易台
 tile.blockModularity.name=模块化工作台
-tile.blockBlackGate.name=凋零笼子
+tile.blockBlackGate.name=凋灵笼子
 tile.blockTankXpConverter.name=经验转换器
 
 //Everglades Blocks
@@ -2548,7 +2548,7 @@ item.item.ToolBox.name=工人的工具箱
 //Cells
 item.Bromine.name=溴单元
 item.Krypton.name=氪单元
-item.cryotheum.name=凛冰单元
+item.cryotheum.name=极寒之凛冰单元
 item.pyrotheum.name=烈焰之炽焱单元
 item.GeneticMutagen.name=诱变剂单元
 
@@ -2684,14 +2684,14 @@ item.particle.ion.Oganesson.name=鿫离子
 
 
 item.particle.base.Graviton.name=引力子
-item.particle.base.Up.name=u夸克
-item.particle.base.Down.name=b夸克
-item.particle.base.Charm.name=c夸克
-item.particle.base.Strange.name=s夸克
-item.particle.base.Top.name=t夸克
-item.particle.base.Bottom.name=b夸克
-item.particle.base.Electron.name=e子
-item.particle.base.Electron Neutrino.name=e子中微子
+item.particle.base.Up.name=上(u)夸克
+item.particle.base.Down.name=下(d)夸克
+item.particle.base.Charm.name=粲(c)夸克
+item.particle.base.Strange.name=奇(s)夸克
+item.particle.base.Top.name=顶(t)夸克
+item.particle.base.Bottom.name=底(b)夸克
+item.particle.base.Electron.name=电子
+item.particle.base.Electron Neutrino.name=电子中微子
 item.particle.base.Muon.name=μ子
 item.particle.base.Muon Neutrino.name=μ子中微子
 item.particle.base.Tau.name=τ子
@@ -2703,8 +2703,8 @@ item.particle.base.W Boson.name=W玻色子
 item.particle.base.Higgs Boson.name=希格斯玻色子
 item.particle.base.Proton.name=质子
 item.particle.base.Neutron.name=中子
-item.particle.base.Lambda.name=λ
-item.particle.base.Omega.name=Ω
+item.particle.base.Lambda.name=λ粒子
+item.particle.base.Omega.name=Ω粒子
 item.particle.base.Pion.name=介子
 item.particle.base.ETA Meson.name=η介子
 item.particle.base.Unknown.name=未知粒子
@@ -2726,7 +2726,7 @@ item.GTPP.BattPack.09.name=充电工具包[MAX]
 
 
 //Added 13/3/19
-item.gtpp.debug.scanner.name=GT++排错扫描器
+item.gtpp.debug.scanner.name=GT++Debug扫描器
 item.RawWaste.name=动物粪便单元
 item.ManureSlurry.name=粪浆单元
 item.FertileManureSlurry.name=肥沃的粪浆单元
