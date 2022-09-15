@@ -1564,13 +1564,13 @@ game.setLocalization("tc.research_category.NEWHORIZONS", "GTNH");
 
 // --- Wither Ring
 mods.thaumcraft.Research.addResearch("WITHERRING", "ARTIFICE", "alienis 15, praecantatio 12, superbia 9, spiritus 6, infernus 3", 3, 2, 4, <dreamcraft:item.WitherProtectionRing>);
-game.setLocalization("tc.research_name.WITHERRING", "\u51cb\u7075\u9632\u62a4\u6307\u73af");
+game.setLocalization("tc.research_name.WITHERRING", "\u51cb\u96f6\u9632\u62a4\u6307\u73af");
 game.setLocalization("tc.research_text.WITHERRING", "[NH]\u51cb\u7075...?\u5b83\u53ea\u662f\u4e2a\u4e0b\u754c\u4e4b\u661f\u800c\u5df2");
 mods.thaumcraft.Research.addPrereq("WITHERRING", "RUNICARMOR", false);
 mods.thaumcraft.Research.addSibling("WITHERRING", "RUNICARMOR");
 mods.thaumcraft.Research.setConcealed("WITHERRING", true);
 mods.thaumcraft.Research.addPage("WITHERRING", "NewHorizons.research_page.WITHERRING");
-game.setLocalization("NewHorizons.research_page.WITHERRING", "\u51cb\u7075\u9632\u62a4\u6307\u73af\u662f\u4e00\u79cd\u975e\u5e38\u7279\u6b8a\u7684\u6307\u73af.
+game.setLocalization("NewHorizons.research_page.WITHERRING", "\u51cb\u96f6\u9632\u62a4\u6307\u73af\u662f\u4e00\u79cd\u975e\u5e38\u7279\u6b8a\u7684\u6307\u73af.
 \u6234\u4e0a\u8fd9\u4e2a\u6307\u73af,\u4f60\u5c31\u80fd\u6446\u8131\u8ba8\u538c\u7684\u51cb\u96f6\u72b6\u6001,\u8f7b\u677e\u6109\u5feb\u5730\u6536\u83b7\u4e0b\u754c\u4e4b\u661f\u5566!
 \u795d\u4f60\u597d\u8fd0!!!");
 mods.thaumcraft.Infusion.addRecipe("WITHERRING", <Thaumcraft:ItemBaubleBlanks:1>,
