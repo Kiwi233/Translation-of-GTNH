@@ -7057,8 +7057,8 @@ gtnh.quest1763.name=安装硬盘
 gtnh.quest1763.desc=好吧,你有了台电脑,它一开机就会说“Hello World!”,你觉得好极了,仿佛自己能够统治世界.%n%n现在我们来设置硬盘.再次用编辑器打开".shrc",按Enter换到下一行,然后键入'cd ../',这会把你正在查看的目录转到根目录.%n%n再次换行并键入'mount HDD C:'--何乐而不为呢,这可是经典(Classic)设置;这会把文件驱动器挂载到你所在的文件夹中.继续换行并键入'cd C:/',保存并重新启动计算机.%n%n现在,开机时就会显示漂亮的"C:/"!尝试键入'mkdir programs',这样你就有了一个专门放置程序的目录,以便组织整理.%n'cd programs'可以进入程序目录,'cd ../'可以回到上级目录;还有别的操作,比如说,你在C:中有一个名为apples的文件夹,但是你就在apples里,键入'cd ../apples'你还是会在apples里.".."基本只是代表上级目录,而且可以堆叠;适用于复制和移动文件,非常有用.%n%n现在我们要做些有用的东西,带上你的适配器和线缆,去看看下一个任务.
 
 # Quest.1764 - Basic Power Display
-gtnh.quest1764.name=基本电源显示
-gtnh.quest1764.desc=在这一部分,我们将学习如何使用适配器,将它放在旁边-比如你的工业高炉(EBF)电池缓冲区并用线缆将它连接到计算机.%n现在让我们在计算机上键入'lua'以打开LUA环境,我们可以测试事物而不用担心保存和尝试我们的程序.%n%n在'component.list()'中输入这将显示一个包含组件中所有.list的表.我们正在寻找的是gt_batterybuffer.%n如果附近有太多东西可能无法显示,搜索整个组件列表的方式对于初学者来说太先进了.%n%n现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法.%n我们在这个例子中将使用的是'getBatteryCharge'方法.因此输入\ n'a.getBatteryCharge(1)'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge.%n%n因此,如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print(a.getBatteryCharge(i))end 目前你看看EU所有电池的价值.现在我们可以做些什么呢？%n%n尝试制作一个名为'batteryCharge = 0'的变量,现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge(i)end'%n%n现在打印( batteryCharge)将显示总电量.这是一个使用它的程序示例.%n%n在你的磁带机中放置并键入“install”,然后按照提示将其安装到C中.然后编辑它,测试它,确定它是如何工作的.%n%n我想这就足够了;恭喜!实验和学习,不要忘记尽可能多地检查谷歌! 这个任务线将来会再次更新;但我认为现在这是一个很好的结局.%n%n%n%n原文:For this part we will learn how to use our adapter,place it next to,let's say your EBFs battery buffer and connect it to the computer with cables.%nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.%n%nType in 'component.list()' this will display a table of all of .list from component. What we're looking for is gt_batterybuffer.%nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.%n%nSo now assign a variable to it; for example 'a = component.gt_batterybuffer'; now we can call 'a' to see what methods the batteryBuffer has.%nWhat we'll be using in this example is the 'getBatteryCharge' method. So type  'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.%n%nSo if we're using a 2x2 battery buffer; we can type something like,'for i=1,4 do print(a.getBatteryCharge(i)) end'%nPoof you now see what all the batteries EU values. Now what can we do with this?%n%nTry making a variable called 'batteryCharge = 0',now do 'for i=1,4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'%n%nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.%n%nPlace in your tape drive and type 'install',and follow the promps to install it into C. Then edit it,test it,figure how it works.%n%nI suppose that's enough for now; congrats! Experiment and learn,and don't forget to check google as much as possible!  %nThis questline will be updated again in the future; but I figure this is a good ending point for now.
+gtnh.quest1764.name=基础能量显示
+gtnh.quest1764.desc=在这一部分,我们将学习如何使用适配器.将它放在你工业高炉(EBF)连着的电池箱旁边,并用线缆将它连接到计算机.%n现在让我们在计算机上键入'lua'以打开LUA环境,在LUA环境中可以直接进行测试,不需要担心反复保存调试程序的麻烦.%n%n键入'component.list()',会显示一个包含组件中所有.list的表.我们正在寻找的是gt_batterybuffer.%n如果附近有太多东西,可能无法显示完全,而搜索整个组件列表的方式对于初学者来说太高级了.%n%n现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法.%n我们在这个例子中将使用的是'getBatteryCharge'方法.因此输入'a.getBatteryCharge(1)',就会从组件gt_batterybuffer存储空间的第一格调用方法getBatteryCharge.%n%n因此,如果我们使用的是2x2电池箱;就可以键入 'for i=1, 4 do print(a.getBatteryCharge(i)) end'%n现在你就能看到所有电池的EU值了.那我们可以做些什么呢？%n%n试着定义变量'batteryCharge = 0',然后执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge(i) end'%n%n现在'print( batteryCharge)'就会显示总电量.%n%n这儿有一个使用它的程序示例.把它放入磁盘驱动器,然后键入'install',然后按照提示将其安装到C:中.然后编辑,测试,确定它是如何工作的.%n%n我想这就足够了;恭喜!多多实验学习,不要忘记尽可能多地查查谷歌(或是别的搜索引擎)! 这个任务线将来会再次更新;但我想目前为止这是一个很好的结束点.
 
 # Quest.1765 - Online Shopping - Tier 1
 gtnh.quest1765.name=在线购物-第一阶
@@ -7066,7 +7066,7 @@ gtnh.quest1765.desc=嘿,用比特币!
 
 # Quest.1766 - Purchase Network Card
 gtnh.quest1766.name=购买网卡
-gtnh.quest1766.desc=我会卖给你六比特币的网卡.
+gtnh.quest1766.desc=我会卖给你一个6比特币的网卡.
 
 # Quest.1767 - Purchase Tier 1 Wireless Network Card
 gtnh.quest1767.name=购买第一阶无线网卡
@@ -7090,7 +7090,7 @@ gtnh.quest1771.desc=我会卖给你2比特币的16根线缆.
 
 # Quest.1772 - Purchase Tier 1 Screen
 gtnh.quest1772.name=购买第一阶显示屏
-gtnh.quest1772.desc=我会卖给你3比特币的一阶显示屏.
+gtnh.quest1772.desc=我会卖给你一个3比特币的一阶显示屏.
 
 # Quest.1773 - Purchase Tier 1 Hard Drive
 gtnh.quest1773.name=购买第一阶硬盘
