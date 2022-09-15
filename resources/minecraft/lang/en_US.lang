@@ -798,7 +798,7 @@ gtnh.quest198.desc=They're the same as uranium but produce half as much heat. Gi
 
 # Quest.199 - §a§lQuit Exhaling Dusts
 gtnh.quest199.name=§a§lQuit Exhaling Dusts
-gtnh.quest199.desc=The QED is used to make only a few things, so I'll just list them here:%n%nMolecular Transformer: Transform stuff using energy.%nMagnum Torch: Prevent mob spawns.%nEnder Quarry, and the Ender-Markers that go with it: Quarry up the landscape, so you can get planet blocks, dirt, etc, unlike miners.%nEnder-Thermic Pump: For nether lava pumping with less lag.%nTransfer Node Energy/Hyper-Energy: Transfers RF, so. useless.
+gtnh.quest199.desc=The QED is used to make only a few things, so I'll just list them here:%n%nMagnum Torch: Prevent mob spawns.%nEnder Quarry, and the Ender-Markers that go with it: Quarry up the landscape, so you can get planet blocks, dirt, etc, unlike miners.%nEnder-Thermic Pump: For nether lava pumping with less lag.%nTransfer Node Energy/Hyper-Energy: Transfers RF, so. useless.
 
 # Quest.200 - §a§lAdvanced Mob Protection
 gtnh.quest200.name=§a§lAdvanced Mob Protection
@@ -824,9 +824,9 @@ gtnh.quest204.desc=What use has an automated rocket, if you can't load and unloa
 gtnh.quest205.name=Cargo Rocket: For the Fun
 gtnh.quest205.desc=No need to fly to distant planets on your own, just to grab ores.%n%n§3Usefulness level: Doubtful.
 
-# Quest.206 - §c§l[OUTDATED]§r Turning A Into B With C
-gtnh.quest206.name=§c§l[OUTDATED]§r Turning A Into B With C
-gtnh.quest206.desc=Molecular transforming at its finest! The most important recipe here is sunnarium.%n%nThe useful recipes are:%nGlowstone -> Sunnarium Piece%nRedstone -> Ruby (for Chrome)%nCarbon -> Graphene%nNether Quartz -> Certus Quartz (if you need more for AE2)%nCheese -> Cheese Curd (for no-rocket runs to get the cheese ore for space plant)%nGold -> Platinum (if you want to void power, but still have it do something useful)%n%n§3C=EU, BTW.
+# Quest.206 - Venting the Heat
+gtnh.quest206.name=Venting the Heat
+gtnh.quest206.desc=A low tech method to cool down the hot coolant is to use vent covers. Just place the cover on any GregTech block which can contain IC2 coolant and place water in front. The easiest might be just a tank or pipe. This will help until you have access to a Large Heat Exchanger or a Vacuum Freezer.%n%nAn advanced or overclocked reactor vent is much faster than a basic heat vent but you can't make those yet. Those covers also work with a air in front, but the basic heat vent needs a water block in front. Obviously, all vent covers are faster with water in front than with just air.
 
 # Quest.207 - §a§lTurret Base Tier 4
 gtnh.quest207.name=§a§lTurret Base Tier 4
@@ -1496,53 +1496,53 @@ gtnh.quest372.desc=A bit of a misnamed bee. What it really gives you is Ender Go
 gtnh.quest373.name=§6§lAn Industrial Mobfarm
 gtnh.quest373.desc=§6§lExtreme Extermination Chamber§r is your new and probably the §lbest§r spawner/grinder, with this you are not only able to get drops without any §lTPS§r issues but also with style and §lextreme§r efficiency.%n%nOf course that depends on the quality of your sword, damage and looting are the only stats that matter (weapon is optional since structure requires spikes and if you want to use it you need to add §cULV§r input bus to the structure).%n%nIf normal drops aren't your thing then you can build blood magic ritual "Well of Suffering" on top of the multiblock (you still get items but at a very slow rate).%nAlso generates liquid xp (always 120L) and can spawn infernal mobs if possible (uses x8 power with every infernal spawn so you need to take into account that energy usage will spike once in a while so be prepared for that!).%n%n§lNotes:§r%nIn case of any problems with multiblock animation just use soldering iron on the machine to disable it.
 
-# Quest.374 - §c§l[OUTDATED]§r I'm on my own now
-gtnh.quest374.name=§c§l[OUTDATED]§r I'm on my own now
-gtnh.quest374.desc=I need to continue my research. I still think that this primordial pearl is the key to control the dust, but I'm not sure how. Maybe the pearl is just too strong? I should try to use something that's similar, but less powerful. It reacts to vis, so maybe.. I should try to make a wand focus with that pearl. That way, I could channel vis into the dust without actually combining both.
+# Quest.374 - That is not storage!
+gtnh.quest374.name=That is not storage!
+gtnh.quest374.desc=Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.
 
-# Quest.375 - §c§l[OUTDATED]§r An interesting material
-gtnh.quest375.name=§c§l[OUTDATED]§r An interesting material
-gtnh.quest375.desc=This metal has quite interesting properties. It seems that it has absorbed some of the energy that exists in the End. While ender pearls are quite fragile, this metal is a lot more durable. However, the absorbed energy is not enough to teleport things around. But you might find a solution for this.
+# Quest.375 - Power, So Much Power!
+gtnh.quest375.name=Power, So Much Power!
+gtnh.quest375.desc=If only I could harness it... Well, hello there my friend. I need your help with a project of mine. I want to create an immense power source, but I have a few problems that I need to solve first. Will you help me? You'll be well rewarded.%n%n§3The quests to get items will trigger the next part once you hold the item in question.
 
-# Quest.376 - §c§l[OUTDATED]§r Gross, what is that...
-gtnh.quest376.name=§c§l[OUTDATED]§r Gross, what is that...
-gtnh.quest376.desc=It's purple, and it smells like rotten eggs. But while staring at this unpleasant fluid, you had an idea. You can't reach the dust directly, but can you actually teleport something in and out the field? Might be worth a try.
+# Quest.376 - I'm Hungry
+gtnh.quest376.name=I'm Hungry
+gtnh.quest376.desc=What... I work a lot! So get me some food please.
 
-# Quest.377 - §c§l[OUTDATED]§r An appropriate focus
-gtnh.quest377.name=§c§l[OUTDATED]§r An appropriate focus
-gtnh.quest377.desc=You've tried a lot, and nothing was quite enough to activate the dust. Until now. You finally found a focus that is able to transmit enough power to cause a heavy reaction with the dust, but not enough to cause problems.
+# Quest.377 - A Casing
+gtnh.quest377.name=A Casing
+gtnh.quest377.desc=I need something for the outer shell. Again, a crystal-based material would be best, because I like it shiny. I tested all crystals I know of and none of them met the requirements. I heard you have access to outer space? Can you try to find a suitable material while you're out there?
 
-# Quest.378 - §c§l[OUTDATED]§r Activated draconium dust
-gtnh.quest378.name=§c§l[OUTDATED]§r Activated draconium dust
-gtnh.quest378.desc=At least for a short period of time. The wand focus is powerful enough to activate the dust, but it will convert back to regular dust as soon as I stop feeding it with vis. If I only could contain it, surround it with a forcefield...
+# Quest.378 - It Needs a Power Plug...
+gtnh.quest378.name=It Needs a Power Plug...
+gtnh.quest378.desc=Given the fact that I will be able to craft this device, it needs some kind of "plug" to get the power out. I need something to conduct immense amounts of power. I thought about superconductors, but they don't fit with the crystal casing material I have in mind. I need 2 different crystals, one for positive and one for negative charge.
 
-# Quest.379 - §c§l[OUTDATED]§r The strongest forcefield
-gtnh.quest379.name=§c§l[OUTDATED]§r The strongest forcefield
-gtnh.quest379.desc=In order to create a forcefield, I need to build myself a containment device. I will use only the best emitters I can afford. I will take no risks here.
+# Quest.379 - I need a stabilizer
+gtnh.quest379.name=I need a stabilizer
+gtnh.quest379.desc=Opening the wormhole is one thing, but I need to stabilize it, so it doesn't harm anything. I guess I need something made of crystal. Why? Because I like it fancy. Find me a crystal-based, transparent material with immense power, would you?
 
-# Quest.380 - §c§l[OUTDATED]§r Not what I expected...
-gtnh.quest380.name=§c§l[OUTDATED]§r Not what I expected...
-gtnh.quest380.desc=The outcome was... interesting. It did not explode, instead, the activated draconium dust generated a counter-field to mine! Unfortunately, the emitters could not stand the reverse energies, and melted. I was able to shut it off quick enough to save the machine casing (At least what's left from it...) And a couple of field generators.
+# Quest.380 - A Problem that Matters
+gtnh.quest380.name=A Problem that Matters
+gtnh.quest380.desc=I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a massive star, a black hole. But I can't really "kill" a sun for this. I need to compress matter somehow... But... How? I think I may need a specialized machine for this, one that does not use explosions, as that won't get dense enough.
 
-# Quest.381 - §c§l[OUTDATED]§r Forcefield, second try
-gtnh.quest381.name=§c§l[OUTDATED]§r Forcefield, second try
-gtnh.quest381.desc=I came to the following conclusion: Draconium dust seems to react nicely with all kinds of magic energy, and seems to repel technology. So I need to find a way to create a forcefield with magic alone. There must be a way. This should be pretty similar to controlling dangerous nodes...
+# Quest.381 - Fancy!
+gtnh.quest381.name=Fancy!
+gtnh.quest381.desc=Yes. Yes! That's it! Bring me more of this stuff! I probably need a lot of it...
 
-# Quest.382 - §c§l[OUTDATED]§r A magic force field
-gtnh.quest382.name=§c§l[OUTDATED]§r A magic force field
-gtnh.quest382.desc=While node stabilizers are too weak, you found a way to generate a strong containment field, generated by magic itself. You tried to use warded glass, but even the "frozen in spacetime" material could not resist the power of activated draconium dust. You decided to build another device, this time with your newest invention.%n%nThe vortex attenuator is powerful enough to negate even hungry nodes, and it also will be able to contain activated draconium dust.%n%nJust to be sure, I will add some amplifiers to it.
+# Quest.382 - Red and Blue
+gtnh.quest382.name=Red and Blue
+gtnh.quest382.desc=Really? A red and blue crystal? How awesome is that! I think I will need 8 of each color, just to be sure.
 
-# Quest.383 - §c§l[OUTDATED]§r What the...?
-gtnh.quest383.name=§c§l[OUTDATED]§r What the...?
-gtnh.quest383.desc=The device works! It is able to fully contain and separate the draconium dust from everything around it! Unfortunately... It also prevents the vis from passing the barrier, which results in regular draconium dust... In a forcefield...
+# Quest.383 - Shiny!
+gtnh.quest383.name=Shiny!
+gtnh.quest383.desc=What in the world is this? This is amazing! I need more of these! They will be an amazing containment material for the wormhole!
 
-# Quest.384 - §c§l[OUTDATED]§r Looking for alternatives
-gtnh.quest384.name=§c§l[OUTDATED]§r Looking for alternatives
-gtnh.quest384.desc=It is frustrating. Either you are able to contain the dust but can't activate it, or, you activate it and it causes serious damage. Maybe you need to find answers somewhere else.%n%nDraconic... Like... Dragon?
+# Quest.384 - Now that Matters!
+gtnh.quest384.name=Now that Matters!
+gtnh.quest384.desc=Of course! The matter condenser! How come I didn't think of that?
 
-# Quest.385 - §c§l[OUTDATED]§r Draconic... Like... Dragon?
-gtnh.quest385.name=§c§l[OUTDATED]§r Draconic... Like... Dragon?
-gtnh.quest385.desc=Maybe you where looking for the right things in the wrong place. As this dust obviously comes from dragons, the best thing to do now is to find answers in the dimension of dragons: The End.
+# Quest.385 - A Few More Things...
+gtnh.quest385.name=A Few More Things...
+gtnh.quest385.desc=Ok, I think I have everything I need to assemble the device. Can you assist me with some additional materials? I need to update some of my machines, as these exotic components you got me damaged some of them already. Don't worry, I have a list here.%n%nSome of my circuits burned to a crisp while I was trying to measure the conductivity of these soul and life shards. I need better ones.%n%nGood lord, these mysterious crystals have eaten away my diamond grinding head! How could that happen? Can you get me a better one?%n%nDo you see that pile of Rhodium and Palladium over there? No? Neither do I. Because the machine was VAPORIZED! Good that you gave me 2 singularities, the first one... Well... Just get me a better casing, would you?%n%nIt seems, that the stabilizers need... stabilizing... But I'm out of field generators. Can you help me with this?
 
 # Quest.386 - §c§l[OUTDATED]§r Weird creatures
 gtnh.quest386.name=§c§l[OUTDATED]§r Weird creatures
@@ -1808,20 +1808,20 @@ gtnh.quest450.desc=Since you can't make a vanilla bow before LV and Tinkers weap
 gtnh.quest451.name=Trigger LoC
 gtnh.quest451.desc=Triggered by having a "Lamp of Cinders" in your inventory.
 
-# Quest.452 - §c§l[OUTDATED]§r Trigger Singularity
-gtnh.quest452.name=§c§l[OUTDATED]§r Trigger Singularity
+# Quest.452 - Trigger Singularity
+gtnh.quest452.name=Trigger Singularity
 gtnh.quest452.desc=Triggered by making a singularity.
 
-# Quest.453 - §c§l[OUTDATED]§r Trigger Shard of Creation
-gtnh.quest453.name=§c§l[OUTDATED]§r Trigger Shard of Creation
+# Quest.453 - Trigger Shard of Creation
+gtnh.quest453.name=Trigger Shard of Creation
 gtnh.quest453.desc=Triggered by making a "Shard of Creation".
 
-# Quest.454 - §c§l[OUTDATED]§r Trigger Life and Soul Shard
-gtnh.quest454.name=§c§l[OUTDATED]§r Trigger Life and Soul Shard
+# Quest.454 - Trigger Life and Soul Shard
+gtnh.quest454.name=Trigger Life and Soul Shard
 gtnh.quest454.desc=Triggered by making a "Life Shard" and a "Soul Shard".
 
-# Quest.455 - §c§l[OUTDATED]§r Trigger Unknown Crystal
-gtnh.quest455.name=§c§l[OUTDATED]§r Trigger Unknown Crystal
+# Quest.455 - Trigger Unknown Crystal
+gtnh.quest455.name=Trigger Unknown Crystal
 gtnh.quest455.desc=Triggered by finding a "Mysterious Crystal".
 
 # Quest.456 - Trigger Life
@@ -2134,7 +2134,7 @@ gtnh.quest532.desc=The Combustion Generator produces EU from several fluids. Som
 
 # Quest.533 - §4§5§lHydrogen, Methane or Some Farts... (Natural gas) 
 gtnh.quest533.name=§4§5§lHydrogen, Methane or Some Farts... (Natural gas) 
-gtnh.quest533.desc=Some centrifugal processes leave gases behind like Hydrogen or Methane. Centrifuge some Brown and Yellow Limonite to get Hydrogen or dump your unused food in a Centrifuge to get Methane gas. Wood will even give 60 mb per log, and many other crops will also generate Methane this way.%n%nThe main powergen lines that use these generators are Oil and Benzene, mostly Benzene, but neither of those are really LV-tier. You can still use Charcoal to generate Carbon Dioxide and get power that way, if you don't want to deal with Steam.%n%n§3If you're dealing with fully renewable powergen, this is the type of generator you'll use the most.
+gtnh.quest533.desc=Some centrifugal processes leave gases behind like Hydrogen or Methane. Centrifuge some Brown and Yellow Limonite to get Hydrogen or dump your unused food in a Centrifuge to get Methane gas. Wood will even give 60 mb per log, and many other crops will also generate Methane this way.%n%nThe main powergen line that uses this generator is Benzene, but that needs MV tier.%n%n§3If you're dealing with fully renewable powergen, this is the type of generator you'll use the most.
 
 # Quest.534 - §4§3§lPollution What....?
 gtnh.quest534.name=§4§3§lPollution What....?
@@ -2250,7 +2250,7 @@ gtnh.quest561.desc=Cresosote oil into steam! After you make your first steel you
 
 # Quest.562 - §6§lHigh-Pressure Boiler Tank
 gtnh.quest562.name=§6§lHigh-Pressure Boiler Tank
-gtnh.quest562.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!%n%nExtract steam by attaching a pipe to the boiler tank.%n%n§3PS: The HP one isn't always better, check the internet for details.
+gtnh.quest562.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!%n%nExtract steam by attaching a pipe to the boiler tank.
 
 # Quest.563 - Time to Kill (Wither Skeleton)
 gtnh.quest563.name=Time to Kill (Wither Skeleton)
@@ -2646,7 +2646,7 @@ gtnh.quest660.desc=Your iron shield is old and worn out. With a shield made from
 
 # Quest.661 - §5§lBow, Arrows and Quiver
 gtnh.quest661.name=§5§lBow, Arrows and Quiver
-gtnh.quest661.desc=Wow, your first handmade §oehm§r machine made bow. You find out that you can put the bow in the mine and blade battlegears slots. Now it's time to make a quiver and maybe some arrows. %n%nTo place arrows in the quiver, put the quiver and the stack of arrows in a crafting grid. Make sure the Gameplay key Special is deconflicted. By default it is Z. When you have the bow selected, use Z to swap arrow slots in the quiver.%n%nWhile it seems like these might be worthless, these arrows do have special uses. You really want to share a cookies with friends, don't you?%n%nLet's go hunt a bit.
+gtnh.quest661.desc=Wow, your first handmade §oehm§r machine made bow. You find out that you can put the bow in the mine and blade battlegears slots. Now it's time to make a quiver and maybe some arrows. %n%nTo place arrows in the quiver, put the quiver and the stack of arrows in a crafting grid. Make sure the Gameplay key Special is deconflicted. By default it is Z. When you have the bow selected, use Z to swap arrow slots in the quiver.%n%nWhile it seems like these might be worthless, these arrows do have special uses. You really want to share a cookie with friends, don't you?%n%nLet's go hunt a bit.
 
 # Quest.662 - §5§lBasic Arc Furnace
 gtnh.quest662.name=§5§lBasic Arc Furnace
@@ -2910,7 +2910,7 @@ gtnh.quest726.desc=A much more efficient way to make insulated cables is by maki
 
 # Quest.727 - §1§2§lBetter Than Barrels
 gtnh.quest727.name=§1§2§lBetter Than Barrels
-gtnh.quest727.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot).%n%nJust watch out, they do come with some downsides. You won't be able to make them point up or down, and you can only acces the contents from the front (automation can use any side). 
+gtnh.quest727.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot).%n%nJust watch out, they do come with some downsides. You won't be able to make them point up or down, and you can only access the contents from the front (automation can use any side). 
 
 # Quest.728 - §2§lCompact Drawers
 gtnh.quest728.name=§2§lCompact Drawers
@@ -2974,7 +2974,7 @@ gtnh.quest742.desc=By making a hammer you are now able to mine a shaft of 3x3 bl
 
 # Quest.743 - §3§lCutting a Tree log by log is so Old School
 gtnh.quest743.name=§3§lCutting a Tree log by log is so Old School
-gtnh.quest743.desc=By making a lumber axe you are now able to cut down the entire tree in one hit. You can use iron, steel, or alumite poured from the Smeltery, it doesn't need to be steel. Higher tier metals require the MV extruder. Don't forget your backpack when you are cutting a sacred oak tree down.%n%n§6The quest should accept the tool whatever materials you used.%n%n§3Protip: Make one out of netherrack, the lower the durability, the less XP needed to level up. Use the modifier slots to add reinforced. Once you've got it leveled up enough, change the parts out for better (and faster) ones. You can't use auto-smelt, so don't bother with that.
+gtnh.quest743.desc=By making a lumber axe you are now able to cut down the entire tree in one hit. You can use iron, steel, or alumite poured from the Smeltery, it doesn't need to be steel. Higher tier metals require the MV extruder. Don't forget your backpack when you are cutting a sacred oak tree down.%n%n§6The quest should accept the tool whatever materials you used.%n%n§3Protip: Make one out of netherrack, the lower the mining speed, the less XP needed to level up. Use the modifier slots to add reinforced. Once you've got it leveled up enough, change the parts out for better (and faster) ones. You can't use auto-smelt, so don't bother with that.
 
 # Quest.744 - §3§lMining Dirt Block by Block is so Old School
 gtnh.quest744.name=§3§lMining Dirt Block by Block is so Old School
@@ -2998,7 +2998,7 @@ gtnh.quest748.desc=Good circuit boards require wooden pulp and refined glue to m
 
 # Quest.749 - §6§lAre You Prepared For HV?
 gtnh.quest749.name=§6§lAre You Prepared For HV?
-gtnh.quest749.desc=Stainless steel will be the tier material for HV. There are two ways to process it. Mixing it by hand makes 8 stainless steel dust, while a mixer produces 9.%n%nManganese can be acquired as ore byproducts from spessartine, pyrolusite and tantalite ore. You can also pull them apart to get even more. Alternatively you can take apart Red Garnet dusts. If you get desperate, you can buy some ore from the Coins tab.%n%nChrome can be centrifuged out of ruby dust. You can get ruby dust from redstone if the ruby in redstone veins isn't enough.
+gtnh.quest749.desc=Stainless steel will be the tier material for HV. Use a MV mixer to produce the dust.%n%nManganese can be acquired as ore byproducts from spessartine, pyrolusite and tantalite ore. You can also pull them apart to get even more. Alternatively you can take apart Red Garnet dusts. If you get desperate, you can buy some ore from the Coins tab.%n%nChrome can be centrifuged out of ruby dust. You can get ruby dust from redstone if the ruby in redstone veins isn't enough.
 
 # Quest.750 - §6§lMolten Plastic
 gtnh.quest750.name=§6§lMolten Plastic
@@ -3346,7 +3346,7 @@ gtnh.quest835.desc=Every basic circuit needs two resistors to work.%n%nThere are
 
 # Quest.836 - §5§lGallium Arsenide Crystal
 gtnh.quest836.name=§5§lGallium Arsenide Crystal
-gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a 25% chance of a tiny pile. It's not great, but it's easier to collect the ore. Make sure to go onto discord to complain about how you electrolyzed a stack to only get 3 tiny piles along with everyone else.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest. You can use your EBF for that. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nWith your EBF you can combine these two dusts to make a Gallium Arsenide Crystal.
+gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a small chance of a gallium dust. Better put in a lot or you might get unlucky.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest. You can use your EBF for that. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nWith your EBF you can combine these two dusts to make a Gallium Arsenide Crystal.
 
 # Quest.837 - §6§lILC and RAM
 gtnh.quest837.name=§6§lILC and RAM
@@ -3778,7 +3778,7 @@ gtnh.quest943.desc=High tier chemical recipes like ammonia need an HV chemical r
 
 # Quest.944 - §6§lSuper Tank I
 gtnh.quest944.name=§6§lSuper Tank I
-gtnh.quest944.desc=This tanks works the same as the smaller GT tanks, but holds way more. Specifically, 4,000,000L. Only make this for things you need tons of, LV circuits are expensive after all.%n%nNow you can store the same amount of fluids a steel 5x5 Railcraft tank contains in a single block.
+gtnh.quest944.desc=This tanks works the same as the smaller GT tanks, but holds way more. Specifically, 4,000,000L. Only make this for things you need tons of, LV circuits are expensive after all.%n%nNow you can store the same amount of fluids a steel 5x5 Railcraft tank contains in a single block.%n%n§3%nA lot of nice functionality has been added to Super and Quantum tanks. You can now pick them up with a wrench without voiding the fluids! You will get heavy debuffs though, so better prepare some milk. If you actually want to void the fluids you can crouch while using the wrench.%n%nThey now also have optional automatic fluid output, fluid locking, overflow void mode, or full void mode. And all that with a nice and simple GUI. Quite the IMPACTful change I would say. 
 
 # Quest.945 - §2§lChad - A Better Way to Make Paper
 gtnh.quest945.name=§2§lChad - A Better Way to Make Paper
@@ -3962,7 +3962,7 @@ gtnh.quest989.desc=Vibrant alloy is a high tier EnderIO alloy made out of ender 
 
 # Quest.990 - §9§lEnergetic Alloy
 gtnh.quest990.name=§9§lEnergetic Alloy
-gtnh.quest990.desc=Energetic alloy is a new alloy from EnderIO made out of gold, conductive iron and black steel dust. Double-layer capacitors need it, as does the HV energy hatch.
+gtnh.quest990.desc=Energetic alloy is a new alloy from EnderIO made out of gold, conductive iron and black steel dust. Double-layer capacitors need it, as does the HV energy hatch.%n%n§3The direct mixer recipe has 7 ingredients, so you need an EV mixer or a multiblock to use it. You have to use the other one for now.
 
 # Quest.991 - Dark Steel Armor Basic Upgrades
 gtnh.quest991.name=Dark Steel Armor Basic Upgrades
@@ -4406,7 +4406,7 @@ gtnh.quest1100.desc=Finally, with your new wand with 50 stored vis you're able t
 
 # Quest.1101 - Division Sigil
 gtnh.quest1101.name=Division Sigil
-gtnh.quest1101.desc=Find a sigil in a chest? Get one from the Wither? You've heard about a ritual to activate it.%n%nYou need an enchantment table, 8 redstone dust, a weapon, and an animal you want to sacrifice. Catching and holding it with a Golden Lasso would be the easiest way. Check in LV for the Golden Lasso quest if you haven't completed it yet.%n%nPlace your enchantment table on a grass field and surround it with redstone dust. At midnight, place the animal on or near the table and kill it. You can check with the sigil if it's time yet by right-clicking it on the enchantment table. Of course you also need to have your sigil on you.%n%nBeware! Your actions will have consequences.%n%n§3PS: The normal, explody, recipe doesn't work. Use the nugget one instead.
+gtnh.quest1101.desc=Find a sigil in a chest? Get one from the Wither? You've heard about a ritual to activate it.%n%nYou need an enchantment table, 8 redstone dust, a weapon, and an animal you want to sacrifice. Catching and holding it with a Golden Lasso would be the easiest way. Check in LV for the Golden Lasso quest if you haven't completed it yet.%n%nPlace your enchantment table on a grass field and surround it with redstone dust. At midnight, place the animal on or near the table and kill it. You can check with the sigil if it's time yet by right-clicking it on the enchantment table. Of course you also need to have your sigil on you.%n%nBeware! Your actions will have consequences.
 
 # Quest.1102 - Beacon
 gtnh.quest1102.name=Beacon
@@ -5214,7 +5214,7 @@ gtnh.quest1302.desc=The ME Interface is the only component which can be used as 
 
 # Quest.1303 - Interfacing with Inventories
 gtnh.quest1303.name=Interfacing with Inventories
-gtnh.quest1303.desc=The ME storage bus, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks.%n%nThe storage via the ME storage bus is bi-directional, it can both insert, or extract items from the inventory block it is attached to as long as the ME storage bus has its required channel.%n%nThe UI allows you to control which items are selected as storable items, this selection has no effect on what items can be extracted once they are in the storage.%n%nThe storage bus will function with nearly any inventory block, including ME Interfaces, Minefactory Reloaded DSUs, Factorization barrels, JABBA Barrels, and Better Storage crates. They can also be used to route items passively into Buildcraft pipes.%n%nIf you place a storage bus on an ME Interface the storage bus will be able to interact with the full conents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items.
+gtnh.quest1303.desc=The ME storage bus, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks.%n%nThe storage via the ME storage bus is bi-directional, it can both insert, or extract items from the inventory block it is attached to as long as the ME storage bus has its required channel.%n%nThe UI allows you to control which items are selected as storable items, this selection has no effect on what items can be extracted once they are in the storage.%n%nThe storage bus will function with nearly any inventory block, including ME Interfaces, Minefactory Reloaded DSUs, Factorization barrels, JABBA Barrels, and Better Storage crates. They can also be used to route items passively into Buildcraft pipes.%n%nIf you place a storage bus on an ME Interface the storage bus will be able to interact with the full contents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items.
 
 # Quest.1304 - Interfacing with Tanks
 gtnh.quest1304.name=Interfacing with Tanks
@@ -5262,7 +5262,7 @@ gtnh.quest1314.desc=Smallest storage component, used to make 1k ME storage cells
 
 # Quest.1315 - 1k Crafting Storage
 gtnh.quest1315.name=1k Crafting Storage
-gtnh.quest1315.desc=Component of the crafting CPU which provides 1024 bytes of storage for crafting. The Crafting Storage blocks are the only necessary part. Each crafting CPU multiblock allows for a separate crafting job (this is different from from sub-tasks of the same job). The more items in the recipe and sub-recipes, the more crafting storage you'll need. Having one big and a couple small might be a good idea, but remember it will try to use the best one available first when you order a craft. They are also used when a crafting card requests a craft, so you'll need several separate ones if you intend to use those a lot. A crafting CPU multiblock uses only one channel, regardless of it's size. It must be square to form.
+gtnh.quest1315.desc=Component of the crafting CPU which provides 1024 bytes of storage for crafting. The Crafting Storage blocks are the only necessary part. Each crafting CPU multiblock allows for a separate crafting job (this is different from sub-tasks of the same job). The more items in the recipe and sub-recipes, the more crafting storage you'll need. Having one big and a couple small might be a good idea, but remember it will try to use the best one available first when you order a craft. They are also used when a crafting card requests a craft, so you'll need several separate ones if you intend to use those a lot. A crafting CPU multiblock uses only one channel, regardless of it's size. It must be square to form.
 
 # Quest.1316 - 4k Item Storage Cell
 gtnh.quest1316.name=4k Item Storage Cell
@@ -5486,7 +5486,7 @@ gtnh.quest1370.desc=The arcane lamp creates additional light sources which acts 
 
 # Quest.1371 - LOX and Bagels
 gtnh.quest1371.name=LOX and Bagels
-gtnh.quest1371.desc=§cNOTE: You cannot directly refill your tanks in a crafting grid anymore!§r%n%nThe LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freeezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the oxygen compressor to transfer oxygen, or use a oxygen collector.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.%n%nSo much Greggy!
+gtnh.quest1371.desc=§cNOTE: You cannot directly refill your tanks in a crafting grid anymore!§r%n%nThe LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the oxygen compressor to transfer oxygen, or use a oxygen collector.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.%n%nSo much Greggy!
 
 # Quest.1372 - Wand Focus Fire
 gtnh.quest1372.name=Wand Focus Fire
@@ -5618,7 +5618,7 @@ gtnh.quest1403.desc=Using Steam as your single power source in HV is pretty diff
 
 # Quest.1404 - §6§lMV Superconductors (128 EU/t)
 gtnh.quest1404.name=§6§lMV Superconductors (128 EU/t)
-gtnh.quest1404.desc=How about lossless 128 EU Wires? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage going forward has a superconductor wire with 0 and a base wire with only a very small loss.%n%nMix Cadmium, Magnesium and Oxygen in an MV mixer. Next, the base dust needs an EBF with Kanthal Coils to be smelted. A vacuum freezer is also required to cool it down. Make some MV Superconductor Base Wires and use an Assembler to combine these wires with Helium, Stainless Steel pipes and HV pumps to get your 128 eu/t superconductor wires.%n%n§3Whether these are worth it to save a little power or not is up to you of course. Also note that although they're wires, you aren't hurt by coming into contact with them.
+gtnh.quest1404.desc=How about lossless 128 EU Wires? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage going forward has a superconductor wire with zero loss.%n%nMix Cadmium, Magnesium and Oxygen in an MV mixer. Next, the base dust needs an EBF with Kanthal Coils to be smelted. A vacuum freezer is also required to cool it down. Make some MV Superconductor Base Wires and use an Assembler to combine these wires with Helium, Stainless Steel pipes and HV pumps to get your 128 eu/t superconductor wires.%n%n§3Whether these are worth it to save a little power or not is up to you of course. Also note that although they're wires, you aren't hurt by coming into contact with them.
 
 # Quest.1405 - §9§lHV Superconductors (512 EU/t)
 gtnh.quest1405.name=§9§lHV Superconductors (512 EU/t)
@@ -5968,8 +5968,8 @@ gtnh.quest1490.desc=Some machines need emitters and sensors, like the analyzer o
 gtnh.quest1491.name=§b§lHSS-G
 gtnh.quest1491.desc=After you can make Tungstensteel and craft an IV assembler, upgrade your Electric Blast Furnace with new Coils out of HSS-G Ingots. This ingot becomes very important in LuV tier.
 
-# Quest.1492 - Plunger 2.0 The Hand Pump Replacement
-gtnh.quest1492.name=Plunger 2.0 The Hand Pump Replacement
+# Quest.1492 - §c§l[OUTDATED]§r Plunger 2.0 The Hand Pump Replacement
+gtnh.quest1492.name=§c§l[OUTDATED]§r Plunger 2.0 The Hand Pump Replacement
 gtnh.quest1492.desc=What? Lost your hand pump already? Well here's a replacement. Well sure, it costs a few coins too, don't be such a fumble fingers next time! What do you think I am, a hardware store?
 
 # Quest.1493 - §c§lTier 6 (LuV)
@@ -6196,8 +6196,8 @@ gtnh.quest1547.desc=With the MV forming press you can make aluminum iron plates 
 gtnh.quest1548.name=Input chest for Ghetto ME System
 gtnh.quest1548.desc=To be able to put items into the Ghetto ME system you need just a few additional pipes.%nThe Extraction pipe should be connected to the chest you want to take items from.%nInside the Extraction pipe you need to put the Item Extraction chip, and configure it to blacklist if you want it to take all items from the chest.%n%nThe Routed Junction pipe is needed so the items inside the pipes know which direction to take, without this they will just fly around inside the pipes without knowing where to go.%nYou might also need some additional item transport pipes depending on your setup.
 
-# Quest.1549 - §5§lPlunger 2.0 The Hand Pump
-gtnh.quest1549.name=§5§lPlunger 2.0 The Hand Pump
+# Quest.1549 - §c§l[OUTDATED]§r  Plunger 2.0 The Hand Pump
+gtnh.quest1549.name=§c§l[OUTDATED]§r  Plunger 2.0 The Hand Pump
 gtnh.quest1549.desc=The new hand pump can remove fluids out of your machine input slots. The old plunger removes the fluid - only the hand pump can store it and drain it to a tank.%n%nUse your items in an LV assembler to craft your pump token, and then again to make the hand pump.%n%nWhen you tier up your assembler, you can make better hand pumps, up to EV.%n%n§3This recipe requires Aluminium, which requires the EBF to make. But you can also find it in chests if you search around.
 
 # Quest.1550 - More Seed Types
@@ -6966,7 +6966,7 @@ gtnh.quest1740.desc=Your old and trusty combustion engines don't quite cut it an
 
 # Quest.1741 - §3§lNice Nether Trees
 gtnh.quest1741.name=§3§lNice Nether Trees
-gtnh.quest1741.desc=There are a few very useful Nether trees out there which gives resources like Redstone, Gunpowder, Bonemeal or Fertilizer.%n%nGo and get a few trees like Bloodwood, Fusewood, Darkwood or Ghostwood out of the Nether.%n%nThese trees can be planted like normal trees, except for Bloodwood.  That has to planted on a ceiling and will grow down instead of up.
+gtnh.quest1741.desc=There are a few very useful Nether trees out there which gives resources like Redstone, Gunpowder, Bonemeal or Fertilizer.%n%nGo and get a few trees like Bloodwood, Fusewood, Darkwood or Ghostwood out of the Nether.%n%nThese trees can be planted like normal trees, except for Bloodwood. That has to planted on a ceiling and will grow down instead of up.
 
 # Quest.1742 - §6§lHelium 3 and Saltwater on Moon
 gtnh.quest1742.name=§6§lHelium 3 and Saltwater on Moon
@@ -10442,7 +10442,7 @@ gtnh.quest2609.desc=If you want some of this highly mysterious material, you'll 
 
 # Quest.2610 - Tier 7 (ZPM)
 gtnh.quest2610.name=Tier 7 (ZPM)
-gtnh.quest2610.desc=The ZPM tier. Speaking of ZPM, did you know the name is based on the Zero Point Module from the show Stargate SG-1, which continues the story of the movie? It's a great show, go watch it! You can also get one for completing the first half of the Legendary Quests tab.
+gtnh.quest2610.desc=The ZPM tier. Speaking of ZPM, did you know the name is based on the Zero Point Module from the show Stargate SG-1, which continues the story of the movie? It's a great show, go watch it! Maybe you have already found a depleted ZPM in the world generation. If you find some help, maybe you can even create a completely new one.
 
 # Quest.2611 - You Cant Get Enough of This Pt 1 in ZPM
 gtnh.quest2611.name=You Cant Get Enough of This Pt 1 in ZPM
@@ -10870,7 +10870,7 @@ gtnh.quest2716.desc=Weak compared to both weapons of it's tier, and the weapons 
 
 # Quest.2717 - Xenoxene Xenoxsis
 gtnh.quest2717.name=Xenoxene Xenoxsis
-gtnh.quest2717.desc=To make the next tier plastic, Radox, or the next tier of SMDs, you will need Xenoxene.%n%nGetting the the Xenoxene Xenoxsis culture is a bit tricky. The recipe is similar to the General Purpose one, so you can't figure it out from NEI. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nYou should be able to figure out yourself how to make Xenoxene once you have the culture.
+gtnh.quest2717.desc=To make the next tier plastic, Radox, or the next tier of SMDs, you will need Xenoxene.%n%nGetting the the Xenoxene Xenoxsis culture is a bit tricky. The recipe is similar to the General Purpose one. Remember that all recipes in this chain are low probablility recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxis culture. It's about a 4% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nYou should be able to figure out yourself how to make Xenoxene once you have the culture.%n%n%n§3After many years, the transformation recipe now even has NEI support!
 
 # Quest.2718 - Does Anyone Even Still Use These?
 gtnh.quest2718.name=Does Anyone Even Still Use These?
@@ -11426,7 +11426,7 @@ gtnh.quest2855.desc=What if... you could send essentia from a different location
 
 # Quest.2856 - §6§lAdvanced MB Construction
 gtnh.quest2856.name=§6§lAdvanced MB Construction
-gtnh.quest2856.desc=The ability to rotate MBs and view a structure hologram has been sto-§oborrowed§r from §9Tec§1Tech§r, giving you greater freedom to build the way you want! §5(until we nerf wallsharing at least)§r%n%nUnlike TT, you can use a normal wrench for this, just aim at the front center of a controller (or one of the other sides if you want to. You just need to aim for the part of the grid with the mark) and right click or shift-right-click. The first rotates it clockwise, the latter flips it. Note that this §cwon't work on TecTech MBs§r. You need the scrench for that. If you want to change the facing of the controller itself, do that the normal way.%n%nUse a Multiblock Structure Hologram Projector or MSHP to visualize the strucure, pay attention to the bottom left for structure details.%n%n§3If you don't get it, try placing a controller, wrenching it, and using the MSHP on it.§r%n%nWhile it's now possible to build a sideways EBF, or even build one into the floor, not everything can be rotated. Exceptions include: GT add-on mods like KekzTech that haven't been updated, non-GT-based MBs (obviously), Charcoal Pile Igniters, BBFs, DTs, Miners, Bacterial Vats, DEHPs, Void Miners, the MVF can, but the MBF and MDT cannot.%n%n§3PS: We did get permission, that was just a little joke.
+gtnh.quest2856.desc=The ability to rotate MBs and view a structure hologram has been sto-§oborrowed§r from §9Tec§1Tech§r, giving you greater freedom to build the way you want! §5(until we nerf wallsharing at least)§r%n%nUnlike TT, you can use a normal wrench for this, just aim at the front center of a controller (or one of the other sides if you want to. You just need to aim for the part of the grid with the mark) and right click or shift-right-click. The first rotates it clockwise, the latter flips it. If you want to change the facing of the controller itself, do that the normal way.%n%nUse a Multiblock Structure Hologram Projector or MSHP to visualize the structure, pay attention to the bottom left for structure details. For multiblocks that accept multiple types of tiered components or have a variable size, the number of MSHPs you hold in your hand will decide which tier is shown in the hologram.%n%n§3If you don't get it, try placing a controller, wrenching it, and using the MSHP on it.§r%n%nWhile it's now possible to build a sideways EBF, or even build one into the floor, not everything can be rotated. Exceptions include: LSC, Charcoal Pile Igniter, BBF, DT, Miners, Industial Washing Plant, Algae Farm, Bacterial Vat, DEHP, the MVF can, but the MBF and MDT cannot.%n%n§3PS: We did get permission, that was just a little joke.
 
 # Quest.2857 - Magic Mirror Glass?
 gtnh.quest2857.name=Magic Mirror Glass?
@@ -11510,7 +11510,7 @@ gtnh.quest2876.desc=It looks like you've found a secret room hidden...not so dee
 
 # Quest.2877 - Applied Greg?
 gtnh.quest2877.name=Applied Greg?
-gtnh.quest2877.desc=The Output Bus (ME) is a combination of technology and...other technology. Don't give me that look, it is, ok? With this, you can now directly output the results of your GT MBs into the ME network. This has §osignificantly§r less lag, so please start using them as soon as possible on servers.%n%nYou just pop off your output bus + ME import bus or ME interface combination, and replace both with the new bus and connect a fluix cable directly to it. It uses 1 channel, same as the other options.
+gtnh.quest2877.desc=ME Buses are combination of technology and...other technology. Don't give me that look, it is, ok? With these, you can now directly I/O items between GregTech multiblock and ME network. They have §osignificantly§r less lag, so please start using them as soon as possible on servers.%n%nYou just pop off your GT bus + ME bus or ME interface combination, and replace both with the new bus and connect a ME cable directly to it. It uses 1 channel, same as the other options.
 
 # Quest.2878 - §b§lPalladium
 gtnh.quest2878.name=§b§lPalladium
@@ -11846,7 +11846,7 @@ gtnh.quest2960.desc=It will unlock MkIV and MkV fuel.
 
 # Quest.2961 - Naquadah Based Fuel MkI
 gtnh.quest2961.name=Naquadah Based Fuel MkI
-gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Doesn't looks very good.
+gtnh.quest2961.desc=220,000 EU/t lasting 1s per mB. Doesn't looks very good.
 
 # Quest.2962 - Naquadah Based Fuel MkII
 gtnh.quest2962.name=Naquadah Based Fuel MkII
@@ -11942,7 +11942,7 @@ gtnh.quest2984.desc=As rich as Oil is, it's hardly useful for anything in this s
 
 # Quest.2985 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared... But They Are
 gtnh.quest2985.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared... But They Are
-gtnh.quest2985.desc=Building a smeltery from ground up can be really tedious and time consuming. How about go borrow one from the locals? They will surely be happy to share it with an unfirendly adventurer that just dismantlled their bricked railway station.%n%nThe villager are too dumb that they spent all their seared bricks without adding a few key components like faucets or drains. You still need to craft some smeltry bricks yourselves... %n%nTotally not useful tip: if you hold off building this long enough, you will be able to break down seared brick blocks into seared brick items with a forge hammer or extractor.%n%n§3Unfortunately, going down this path means we will not give you quest rewards, since you are already getting this important multiblock for free. Check the checkbox to signify your consent.
+gtnh.quest2985.desc=Building a smeltery from ground up can be really tedious and time consuming. How about go borrow one from the locals? They will surely be happy to share it with an unfriendly adventurer that just dismantlled their bricked railway station.%n%nThe villager are too dumb that they spent all their seared bricks without adding a few key components like faucets or drains. You still need to craft some smeltry bricks yourselves... %n%nTotally not useful tip: if you hold off building this long enough, you will be able to break down seared brick blocks into seared brick items with a forge hammer or extractor.%n%n§3Unfortunately, going down this path means we will not give you quest rewards, since you are already getting this important multiblock for free. Check the checkbox to signify your consent.
 
 # Quest.2986 - Here's Some Oil
 gtnh.quest2986.name=Here's Some Oil
@@ -12120,9 +12120,9 @@ gtnh.quest3028.desc=If there is someone who found themselves invested in the Lar
 gtnh.quest3029.name=Universal Fuel Power
 gtnh.quest3029.desc=This is the most powerful combustion engine that has ever been built. In fact, it's not only that, but also a Gas Turbine and a Rocket Fuel Generator!%n%nThe Universal Chemical Fuel Engine burns fuel with some additives, as did its predecessors, but it runs at a lower efficiency. The 150% value is a mathematical limit, you cannot reach it without supplying infinite fuel, but this engine compensates by running as fast as fuel is input into it, without the maximum EU/t limitation the others had. The only two things you have to make sure of are that you supply enough Combustion Promoter to keep efficiency up (I'll let you figure the best ratio on your own, but 1:4 promoter:fuel is decent), and that the dynamo can support the EU/t that the generator is outputting.%n%n§9§9§b§4You will need an Assembly Line to craft the dynamo needed to complete this quest. You better burn enough HOG to make it worth!§r 
 
-# Quest.3030 - §6§lHigh Temperature Gas-cooled Reactor
-gtnh.quest3030.name=§6§lHigh Temperature Gas-cooled Reactor
-gtnh.quest3030.desc=§6§lHTGR§r§6 is a ZPM tiered reactor meant to be used as a breeder reactor to make Lutetium and gasses used in void miners.%n%n§rEficiency is calculated based on how full the reactor is, overall it works EXPONENTIALLY better when full.%nThe formula for efficiency is (fuel/72000)^2 (%)%nIt has minimal amount of fuel needed to start operation (10%).%nNeeds 1A LuV and 4000L/s of coolant (times fuel multiplier) to operate.%nFor more info check descriptions of items.%nCheck structure with hologram projector.%n%nInformation about Fuels:%n%n90% of fuel casing parts are recyclable%n%n§2Thorium fuel is turned into Lutetium with 1:1 ratio (but 90% efficiency) also multiplies coolant needed by 1x%n§aUranium fuel is turned into Krypton also multiplies coolant needed by 1.5x%n§cPlutionium fuel is turned into Xenon also multiplies coolant needed by 2x%n%n§Y§9You can find all items by typing htgr in nei.
+# Quest.3030 - §6§lExpert MB-Construction
+gtnh.quest3030.name=§6§lExpert MB-Construction
+gtnh.quest3030.desc=Right click the controller while sneaking will invoke an action called §osurvival autoplace§r. This will attempt to build the multiblock with items from your inventory, provided the area this multi occupies is clear of obstacles. Again, like hologram spawning, multiblocks that accept multiple types of tiered components or has variable length, the number of MSHPs you hold in hand will decide which tier of blocks will be placed. It will place correct amount of hatches for you, but will usually orient the hatches towards you, not perpendicular to the surface. It will just place casings for you if you don't have any hatches in inventory, unless this spot require the use of a hatch (e.g. the top center spot of EBF).%n%nSurvival autoplace can also take from your alternative inventories, or items that contain/link to an inventory. Currently, this includes: %n- adventure backpacks, either worn or as an item in inventory%n- AE2 portable cells%n- ME network linked by any kind of AE2 wireless terminal that support item access. support view cell filtering, consume power, require security access and within wireless range%n- Forestry backpacks%n- ender chest inventory, if you have the Ender Backpack from Backpacks mod. Note: ordinary backpacks from the Backpacks mod are NOT supported at the moment.
 
 # Quest.3031 - §6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared!!!
 gtnh.quest3031.name=§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lYou Are Not Prepared!!!
@@ -12186,7 +12186,7 @@ gtnh.quest3045.desc=This process is a little involved so I'll guide you through 
 
 # Quest.3046 - §b§lSifting the Goodness Out
 gtnh.quest3046.name=§b§lSifting the Goodness Out
-gtnh.quest3046.desc=Yes, you're seeing right. A fluid sifting recipe! A lot of the materials here won't be good sources in any way, but they're literally better than nothing.%n%nMonazite Sulfate isn't a actual compound btw, just a term for a collection of rare earth sulfates and other things.%n%nI'll only ask for the primary output as who wants to worry about chances?
+gtnh.quest3046.desc=Yes, you're seeing right. A fluid sifting recipe! A lot of the materials here won't be good sources in any way, but they're literally better than nothing.%n%nMonazite Sulfate isn't an actual compound btw, just a term for a collection of rare earth sulfates and other things.%n%nI'll only ask for the primary output as who wants to worry about chances?
 
 # Quest.3047 - §b§lHafnium Line
 gtnh.quest3047.name=§b§lHafnium Line
@@ -12306,7 +12306,7 @@ gtnh.quest3075.desc=Why use plates when you can make your armor pieces out of mo
 
 # Quest.3076 - §b§lGlowing Matter
 gtnh.quest3076.name=§b§lGlowing Matter
-gtnh.quest3076.desc=Another way to get Sunnarium. Just throw stacks of Glowing Coral and tiny litre of UU-Matter in Autoclave and wish you luck.%n%nYou can also make full use of Coral to make some resources infinite, such as Glowstone, Gold, Redstone, Mercury, etc.%n%n§3Nine in One multi can greatly decrease power consumption, but is also rather expensive to make.
+gtnh.quest3076.desc=Another way to get Sunnarium! Just throw stacks of Glowing Coral and a tiny bit of UU-Matter in an autoclave and hope for the best.%n%nYou can either use an IC2 crop farm, or have any type of Glowstone farm and combine it with a GT++ Algae Farm.%n%nA farm for Glowing Coral or Glowstone should also help you mass produce other resources like Gold, Redstone, Mercury, etc.%n%n%n§3The Large Processing Factory can speed things up, but is also rather expensive to make.
 
 # Quest.3077 - §c§lMolecular Transformer, finally!
 gtnh.quest3077.name=§c§lMolecular Transformer, finally!
@@ -12574,7 +12574,7 @@ gtnh.quest3142.desc=§WWelcome to my ted talk, today we talk about the §6§lExt
 
 # Quest.3143 - Quantum Chestplate
 gtnh.quest3143.name=Quantum Chestplate
-gtnh.quest3143.desc=Thought you can make Quantum Chestplate as well? Yes technically you can, but you may not want to, since you can't fly with it, and GraviChestPlate is ZPM-tier.%n%nAlternatively you can make magic infused chestplate, but in any case I suggest not to make Quantum Chestplate until you are ready.
+gtnh.quest3143.desc=You can make a Quantum Chestplate as well. You can fly with it, but the hover mode is not great and it is a lot slower than the Advanced NanoChestPlate because it doesn't have a boost mode. What you really want is the GraviChestPlate but that is ZPM-tier. Alternatively you can make a magic infused chestplate.
 
 # Quest.3144 - Too much Indium?
 gtnh.quest3144.name=Too much Indium?
@@ -12730,7 +12730,7 @@ gtnh.quest3181.desc=If you've done IC2 nukes, you must have seen this coming. Th
 
 # Quest.3182 - High Temperature Super Breeder
 gtnh.quest3182.name=High Temperature Super Breeder
-gtnh.quest3182.desc=Have you heard of pebble reactors? There's a quest for the other one, the Thorium High Temperature Reactor, on the powergen side of this branch, but this is a diferent multiblock. %n%nIt's called the High Temperature Gas Reactor (HTGR), and it uses pebbles to make power. However, it doesn't make a lot of power, and doesn't even match the EU/t of the other version, despite being much more expensive. The multiblock structure is basically the same, a huge reactor around 12x12x12 blocks in size, with 500+ casings made with Europium. What it doesn't make in power, it compensates in breeding, however.%n%nFor the unaware, this is extremely expensive. Pebble reactors work by stuffing the reactor absolutely full of pebbles, and then the reaction will keep going for, essentially, forever. In this case, you will have a fully automated source of almost endless Lutetium, Plutonium and other things that will be explained in the following quests, alongside the production of fuel and the processing of outputs. What this means is that this is an extremely expensive multiblock, but it's placed a tier in which this expense is actually reasonable, if there is a need for immense, endless breeding of many outputs.%n%nIf you're on the fence about building this, check the next quests to learn more about the fuel and outputs.
+gtnh.quest3182.desc=Have you heard of pebble reactors? There's a quest for the other one, the Thorium High Temperature Reactor, on the powergen side of this branch, but this is a diferent multiblock. %n%nIt's called the High Temperature Gas-cooled Reactor (HTGR), and it uses fuel pebbles and consumes power. However, it doesn't realy make a lot of power, and doesn't even match the EU/t of the other version, despite being much more expensive. The multiblock structure is basically the same, a huge reactor around 12x12x12 blocks in size, with 500+ casings made with Europium. What it doesn't make in power, it compensates in breeding, however.%n%nFor the unaware, this is expensive. Pebble reactors work by stuffing the reactor absolutely full of pebbles, and then the reaction will keep going for, essentially, forever. In this case, you will have a fully automated source of almost endless Lutetium, Plutonium and other things that will be explained in the following quests, alongside the production of fuel and the processing of outputs. What this means is that this is an expensive multiblock, but it's placed a tier in which this expense is actually reasonable, if there is a need for immense, endless breeding of many outputs.%n%nIf you're on the fence about building this, check the next quests to learn more about the fuel and outputs.%n%nNotes:%n%nHTGR has an internal buffer for fuel and only one input bus is required (any will do), as well as only one output bus (reactor automatically compresses every 64 burned pellets into one ball, so you need 6 slots or more to avoid problems with voiding at full capacity).%n%nReactor requires only 72k out of 720k pebbles to operate, but running at minimum capacity means that you will not get any bonuses, such as lower recipe time and higher amount of pebbles processed per cycle.%n%nThis multi consumes 1A LuV when operating, no matter how many pebbles are inside, but it also generates Hot Coolant as it runs. If you use it to generate power, you will gain more EU than is consumed by the reactor. %n%nIn this reactor, the throughtput increases with the amount of pebbles put into it.%n%nBy typing HTGR in NEI, you can see all the items that are related to this multiblock.
 
 # Quest.3183 - Exciting Liquid Nuking
 gtnh.quest3183.name=Exciting Liquid Nuking
@@ -12742,7 +12742,7 @@ gtnh.quest3184.desc=Here we are, at the end of fission.%n%nAt this time, you hav
 
 # Quest.3185 - Pebble Reactor Fuels and Outputs
 gtnh.quest3185.name=Pebble Reactor Fuels and Outputs
-gtnh.quest3185.desc=Thorium, Uranium and Plutonium. There you go, quest done, onwards. I do find it kind of funny how it always goes back to these. Why is it that when there are problems, it's always you three?%n%nMaking the pebbles for any of these elements is a multi-step process. It's recommended to use TRISO pebbles regardless of the element, since they perform much better. To get them, you need to throw in huge amount of the main radioactive fuel alongside some materials used to make the outer shell, namely Carbon, Silicon, and Graphite Dust.%n%nFor a full reactor, you will need thousands of stacks of each of these, much more than quest tasks could ask for. Anyways, the depleted pebbles can be centrifuge to recover most of the materials use to reach the final pebbles (Silicon, Graphite, Carbon), alongside a smaller chance at getting the main nuclear material for each kind of pebble. On top of that, you will get the breeding outputs: Lutetium from Thorium, Krypton from Uranium, Xenon from Plutonium.
+gtnh.quest3185.desc=Thorium, Uranium and Plutonium. There you go, quest done, onwards. I do find it kind of funny how it always goes back to these. Why is it that when there are problems, it's always you three?%n%nMaking the pebbles for any of these elements is a multi-step process. To get them, you need to throw in huge amount of the main radioactive fuel alongside some materials used to make the outer shell, namely Carbon, Silicon, and Graphite Dust.%n%nFor a full reactor, you will need thousands of stacks of each of these, much more than quest tasks could ask for. Anyways, the depleted pebbles can be centrifuge to recover most of the materials used to reach the final pebbles (Silicon, Graphite, Carbon), alongside a smaller chance at getting the main nuclear material for each kind of pebble. On top of that, you will get the breeding outputs: Lutetium from Thorium, Krypton from Uranium, Xenon from Plutonium.
 
 # Quest.3186 - Tin Plasma From T2
 gtnh.quest3186.name=Tin Plasma From T2
@@ -12966,7 +12966,7 @@ gtnh.quest3240.desc=Reality itself bends to your will.
 
 # Quest.3241 - Round two... FIGHT!
 gtnh.quest3241.name=Round two... FIGHT!
-gtnh.quest3241.desc=Now craft a Gaia Sprit ingot with your new Gaia Sprit from killing the Gaia guardian.%n%nPut the 4 pylons down and shift right click the Gaia Sprit ingot on the beacon to summon a harder version of Gaia Guardian.
+gtnh.quest3241.desc=Now craft a Gaia Spirit ingot with your new Gaia Spirit from killing the Gaia guardian.%n%nPut the 4 pylons down and shift right click the Gaia Spirit ingot on the beacon to summon a harder version of Gaia Guardian.
 
 # Quest.3242 - UMV Circuits
 gtnh.quest3242.name=UMV Circuits
@@ -12994,7 +12994,7 @@ gtnh.quest3247.desc=This quest should never be complete which is useful to hide 
 
 # Quest.3248 - Dragonblood
 gtnh.quest3248.name=Dragonblood
-gtnh.quest3248.desc=For your first batch of Hypogen you will need some Dragonblood. Maybe you already have some lying arond somewhere from killing the dragon a long time ago. You have 2 other options though. Bees and the DE Fusion Crafter.%n%nFor the bee path you have to go very deep into the breeding tree, but maybe you have already done that? Check the Bee Breeding tab either way.%n%nIn the DE Fusion Crafter you have 2 recipes. The better one uses an Infinity Egg from Witchery. Without any Witchery you can also just a normal dragon egg for the weaker recipe.%n%nOnce you have a bit of Hypogen you can then use that as a starting point to make more in your DTPF without any Dragonblood. I don't know why it works that way, complain to Colen.%n%nHowever, you will still need more Dragonblood eventually for UMV superconductors.%n%n%n§3There is actually another way to get Dragonblood which is similar to the DE Fusion Crafter recipes but in the mixer instead. Its even slower and less resource efficient. In particular, the dragon egg does not survive the process. So only use that if you are absolutely trying to avoid magic and bees.%n%nJust a reminder: a fluid task just needs you to have the fluid in some container in your inventory. (cell, universal cell, large cell, volumetric cell, etc.)
+gtnh.quest3248.desc=For your first batch of Hypogen you will need some Dragonblood. Maybe you already have some lying around somewhere from killing the dragon a long time ago. You have 2 other options though. Bees and the DE Fusion Crafter.%n%nFor the bee path you have to go very deep into the breeding tree, but maybe you have already done that? Check the Bee Breeding tab either way.%n%nIn the DE Fusion Crafter you have 2 recipes. The better one uses an Infinity Egg from Witchery. Without any Witchery you can also just a normal dragon egg for the weaker recipe.%n%nOnce you have a bit of Hypogen you can then use that as a starting point to make more in your DTPF without any Dragonblood. I don't know why it works that way, complain to Colen.%n%nHowever, you will still need more Dragonblood eventually for UMV superconductors.%n%n%n§3There is actually another way to get Dragonblood which is similar to the DE Fusion Crafter recipes but in the mixer instead. Its even slower and less resource efficient. In particular, the dragon egg does not survive the process. So only use that if you are absolutely trying to avoid magic and bees.%n%nJust a reminder: a fluid task just needs you to have the fluid in some container in your inventory. (cell, universal cell, large cell, volumetric cell, etc.)
 
 # Quest.3249 - Wait, PBI wasn't the last plastic?
 gtnh.quest3249.name=Wait, PBI wasn't the last plastic?
@@ -13002,7 +13002,11 @@ gtnh.quest3249.desc=Let's make a brand new plastic! The trees that you found on 
 
 # Quest.3250 - AE2 Fluid Crafting
 gtnh.quest3250.name=AE2 Fluid Crafting
-gtnh.quest3250.desc=Well well well, what do we have here? Flasks are redundant now? NO WAY! %nAnyway, while you can listen to those who swear flasks are *the shit* and *the only way* you can automate fluid crafting and Assline, you can use this powerful addon backported by GlodBlock. All praise our king!%n%nNow, what do you need to get that juicy stuff working?%nEvery Me-System needs a Fluid Discretizer. It allows for on demand crafting. While you can use AE2FC without Fluid Discretizer for moving fluids, you need a Discretizer for autocrafting.%n%nThen you also need a fluid terminal or a fluid processing terminal for assembly line. %n%nWhen creating patterns you will notice your fluids being placed as if they were items. %nYour finished patterns will look blue-ish. Placing those in a Dual Interface will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.%nYou can switch the dual interface on the top right if you want it to keep fluids in stock. %n%nIf you use a blue pattern (fluid pattern) in a normal interface, AE2 will send the fluid as a fluid packet. This is just a representation of the fluid as an item. A fluid decoder can turn it back into a fluid and saves it in the fluid grid.%nWe use this feature for Assline. %n%nYou can use an ingredient buffer (large or normal) so your items and fluids sent by a pattern can get stored internally in one block. The normal buffer can hold 9 items and 4 fluids whereas the large one can hold 27 items and 7 fluids.%nYou can use it to automate multiblocks with e.g item and fluid conduits. %n%nIf you want to automate single blocks its as easy as eating chocolate cake while on your diet:%nMake the pattern, make an interface, boom- done!%nIt will automatically insert the fluid in the fluid inventory of a single block machine. %n%nAutomating Assembly line is easy. It follows the typical flask setup but replaces tanks with fluid decoders and a fluid storage bus to insert the fluids. Also we are sending fluids first, then items by using the priority button (made by Runakai and Rukern) in the fluid processing terminal. Make sure to give the decoders their own sub-mes. If you need more detailled information, visit the wiki:%n%nhttps://gtnh.miraheze.org/wiki/AE2FC%n%nYou can use ExtraCells and AE2FC in combination. However, AE2FC cells are recommended. There is no Fluid Monitor or Storage Bus from AE2FC so use ExtraCells for those. %n
+gtnh.quest3250.desc=Well well well, what do we have here? Flasks are redundant now? NO WAY! %nAnyway, while you can listen to those who swear flasks are *the shit* and *the only way* you can automate fluid crafting and Assline, you can use this powerful addon backported by GlodBlock. All praise our king!%n%nNow, what do you need to get that juicy stuff working?%nEvery ME System needs a Fluid Discretizer. It allows for on demand crafting. While you can use AE2FC without Fluid Discretizer for moving fluids, you need a Discretizer for autocrafting.%n%nThen you also need a fluid terminal or a fluid processing terminal for assembly line. %n%nWhen creating patterns you will notice your fluids being placed as if they were items. %nYour finished patterns will look blue-ish. Placing those in a Dual Interface will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.%nYou can switch the dual interface on the top right if you want it to keep fluids in stock. %n%nIf you use a blue pattern (fluid pattern) in a normal interface, AE2 will send the fluid as a fluid packet. This is just a representation of the fluid as an item. A fluid decoder can turn it back into a fluid and saves it in the fluid grid.%nWe use this feature for Assline. %n%nYou can use an ingredient buffer (large or normal) so your items and fluids sent by a pattern can get stored internally in one block. The normal buffer can hold 9 items and 4 fluids whereas the large one can hold 27 items and 7 fluids.%nYou can use it to automate multiblocks with e.g item and fluid conduits. %n%nIf you want to automate single blocks its as easy as eating chocolate cake while on your diet:%nMake the pattern, make an interface, boom- done!%nIt will automatically insert the fluid in the fluid inventory of a single block machine. %n%nAutomating Assembly line is easy. It follows the typical flask setup but replaces tanks with fluid decoders and a fluid storage bus to insert the fluids. Also we are sending fluids first, then items by using the priority button (made by Runakai and Rukern) in the fluid processing terminal. Make sure to give the decoders their own sub-mes. If you need more detailled information, visit the wiki:%n%nhttps://gtnh.miraheze.org/wiki/AE2FC%n%nYou can use ExtraCells and AE2FC in combination. However, AE2FC cells are recommended. There is no Fluid Monitor or Storage Bus from AE2FC so use ExtraCells for those. %n
+
+# Quest.3251 - The Final Goal
+gtnh.quest3251.name=The Final Goal
+gtnh.quest3251.desc=Thanks to your help I have managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe, to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for making my dream come true!
 
 ##################################Line##################################
 
