@@ -1007,7 +1007,7 @@ mods.thaumcraft.Research.setRound("LightningSummoner", true);
 game.setLocalization("tc.research_name.LightningSummoner", "\u96f7\u7535\u788e\u7247");
 game.setLocalization("tc.research_text.LightningSummoner", "\u4ece\u6b7b\u654c\u90a3\u91cc\u83b7\u5f97");
 mods.thaumcraft.Research.addPage("LightningSummoner", "tc.research_page.LightningSummoner");
-game.setLocalization("tc.research_page.LightningSummoner", "\u8fd9\u4e2a\u7269\u54c1\u662f\u4f60\u7684\u6b7b\u654c:\u9ad8\u538b\u82e6\u529b\u6015\u6240\u6389\u843d\u7684.
+game.setLocalization("tc.research_page.LightningSummoner", "\u8fd9\u4e2a\u7269\u54c1\u662f\u4f60\u7684\u6b7b\u654c:\u9ad8\u538b\u722c\u884c\u8005\u6240\u6389\u843d\u7684.
 \u4f60\u89c9\u5f97\u5b83\u4ee5\u540e\u4f1a\u6d3e\u4e0a\u7528\u573a.<BR><BR>\u5982\u679c\u4f60\u7684\u8fd0\u6c14\u4e0d\u662f\u592a\u597d,\u6211\u8fd9\u91cc\u6709\u79cd\u7528\u9b54\u6cd5\u6765\u5408\u6210\u96f7\u7535\u788e\u7247\u7684\u65b9\u6cd5.");
 mods.thaumcraft.Infusion.addRecipe("LightningSummoner", <Thaumcraft:FocusShock>,
 [<Thaumcraft:ItemResource:1>, <minecraft:skull:4>, <minecraft:tnt>, <Thaumcraft:ItemResource>, <minecraft:skull:4>, <minecraft:tnt>, <Thaumcraft:ItemResource:1>, <minecraft:skull:4>, <minecraft:tnt>], 
