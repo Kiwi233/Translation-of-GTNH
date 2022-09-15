@@ -798,9 +798,7 @@ gtnh.quest198.desc=它们与铀类似不过发热仅为其一半.目前还没有
 
 # Quest.199 - §a§lQuit Exhaling Dusts
 gtnh.quest199.name=§a§lQED(Quit Exhaling Dusts)
-// --- //gtnh.quest199.desc=QED可以制造的东西十分有限,我直接在此列举:%n%n卓越火炬: 防止怪物生成.%n末影采石场,及其配套的末影路标: 用于标记末影采石场的工作范围. 不同于采矿场,末影采石场会挖掘范围内的所有方块,是获取各种星球石头/泥土的最佳方式.%n末影岩浆泵: 用于在下界抽岩浆,延迟比较小.%n传输节点(能量)/(高能): 传输RF,所以...没啥用.
-// +++ //gtnh.quest199.desc=The QED is used to make only a few things, so I'll just list them here:%n%nMagnum Torch: Prevent mob spawns.%nEnder Quarry, and the Ender-Markers that go with it: Quarry up the landscape, so you can get planet blocks, dirt, etc, unlike miners.%nEnder-Thermic Pump: For nether lava pumping with less lag.%nTransfer Node Energy/Hyper-Energy: Transfers RF, so. useless.
-// ↑↑↑ //gtnh.quest199.desc=The QED is used to make only a few things, so I'll just list them here:%n%nMolecular Transformer: Transform stuff using energy.%nMagnum Torch: Prevent mob spawns.%nEnder Quarry, and the Ender-Markers that go with it: Quarry up the landscape, so you can get planet blocks, dirt, etc, unlike miners.%nEnder-Thermic Pump: For nether lava pumping with less lag.%nTransfer Node Energy/Hyper-Energy: Transfers RF, so. useless.
+gtnh.quest199.desc=QED可以制造的东西十分有限,我直接在此列举:%n%n卓越火炬: 防止怪物生成.%n末影采石场,及其配套的末影路标: 用于标记末影采石场的工作范围. 不同于采矿场,末影采石场会挖掘范围内的所有方块,是获取各种星球石头/泥土的最佳方式.%n末影岩浆泵: 用于在下界抽岩浆,延迟比较小.%n传输节点(能量)/(高能): 传输RF,所以...没啥用.
 
 # Quest.200 - §a§lAdvanced Mob Protection
 gtnh.quest200.name=§a§l高级怪物防护
@@ -827,12 +825,8 @@ gtnh.quest205.name=货运火箭:纯粹是为了好玩
 gtnh.quest205.desc=不需要仅仅为了运输矿物,而亲自飞到遥远的行星去.%n%n§3实用性:有待商榷.
 
 # Quest.206 - Venting the Heat
-// --- //gtnh.quest206.name=§c§l[过期]§r用C把A变成B
 // +++ //gtnh.quest206.name=Venting the Heat
-// ↑↑↑ //gtnh.quest206.name=§c§l[OUTDATED]§r Turning A Into B With C
-// --- //gtnh.quest206.desc=用能量改变分子!这个机器最重要的作用就是制作"小块阳光化合物".%n%n比较有用的配方如下:%n萤石 -> 阳光化合物%n红石 -> 红宝石(出铬)%n碳粉 -> 石墨粉%n下界石英 -> 赛特斯石英(要是你的AE系统还缺的话)%n奶酪 -> 奶酪凝乳(不上天挑战,获取奶酪矿石来种植太空作物)%n金 -> 铂(如果你的能量多得没地方用,又不想浪费的话)%n%n§3顺便一提,C=EU.
 // +++ //gtnh.quest206.desc=A low tech method to cool down the hot coolant is to use vent covers. Just place the cover on any GregTech block which can contain IC2 coolant and place water in front. The easiest might be just a tank or pipe. This will help until you have access to a Large Heat Exchanger or a Vacuum Freezer.%n%nAn advanced or overclocked reactor vent is much faster than a basic heat vent but you can't make those yet. Those covers also work with a air in front, but the basic heat vent needs a water block in front. Obviously, all vent covers are faster with water in front than with just air.
-// ↑↑↑ //gtnh.quest206.desc=Molecular transforming at its finest! The most important recipe here is sunnarium.%n%nThe useful recipes are:%nGlowstone -> Sunnarium Piece%nRedstone -> Ruby (for Chrome)%nCarbon -> Graphene%nNether Quartz -> Certus Quartz (if you need more for AE2)%nCheese -> Cheese Curd (for no-rocket runs to get the cheese ore for space plant)%nGold -> Platinum (if you want to void power, but still have it do something useful)%n%n§3C=EU, BTW.
 
 # Quest.207 - §a§lTurret Base Tier 4
 gtnh.quest207.name=§a§l4级炮塔基座
@@ -1503,100 +1497,52 @@ gtnh.quest373.name=§6§l工业化怪物农场
 gtnh.quest373.desc=§6§l工业屠宰场§r是全新的,并且可能是§l最好的§r刷怪笼+怪物磨床.有了它,你不仅可以在不影响§lTPS§r的情况下获取掉落物,而且§l极其§r高效,颇具风度.%n%n当然了,这也取决于你的剑,伤害和掠夺是仅有的两种有效属性(武器是可选的,因为多方块结构本身就包含了锥刺.如果你要使用武器,需要放上一个§cULV§r输入总线).%n%n如果你想要的并非普通掉落物,可以在多方块结构的顶部建造一个血魔法仪式"苦难之井"(你还是会得到怪物的掉落物,不过速度很慢).%n机器也会生成液态经验(固定为120L),并且在可能的情况下会生成精英怪(生成时会消耗8倍的功率,所以有时电力消耗会突然飙升,做好准备!)%n%n§l注意:§r%n如果机器的动画导致了什么问题,只需用电烙铁右键主机关闭.%n%n译者注:经过测试,机器的功率不足时(EV或者IV电压下)一定不会生成精英怪.%n%n译者再注:和平难度下无法生成敌对生物.
 
 # Quest.374 - That is not storage!
-// --- //gtnh.quest374.name=§c§l[过期]现在要靠我自己了
 // +++ //gtnh.quest374.name=That is not storage!
-// ↑↑↑ //gtnh.quest374.name=§c§l[OUTDATED]§r I'm on my own now
-// --- //gtnh.quest374.desc=为了完成技术员同志生前的愿望,我还需要继续他的研究. 我仍然认为这个元始珍珠是控制龙尘的关键,但是我不知道要怎样做.也许是元始珍珠的力量太强大了？ 我应该尝试使用一些类似但是力量稍微弱东西. 我应该可以使用元始珍珠作为法杖的核心,在外部引导"VIS"和龙尘相结合.
 // +++ //gtnh.quest374.desc=Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.
-// ↑↑↑ //gtnh.quest374.desc=I need to continue my research. I still think that this primordial pearl is the key to control the dust, but I'm not sure how. Maybe the pearl is just too strong? I should try to use something that's similar, but less powerful. It reacts to vis, so maybe.. I should try to make a wand focus with that pearl. That way, I could channel vis into the dust without actually combining both.
 
 # Quest.375 - Power, So Much Power!
-// --- //gtnh.quest375.name=§c§l[过期]§r有趣的材料
-// +++ //gtnh.quest375.name=Power, So Much Power!
-// ↑↑↑ //gtnh.quest375.name=§c§l[OUTDATED]§r An interesting material
-// --- //gtnh.quest375.desc=这种金属有着非常有趣的特性,它吸收了一些只存在于末地的能量. 末影珍珠非常的脆弱,但是这种金属明显更加的耐用. 不过,这种金属吸收的末影能量并不足以传送周围的物体.但是你认为一定会找到办法解决这个问题的.
-// +++ //gtnh.quest375.desc=If only I could harness it... Well, hello there my friend. I need your help with a project of mine. I want to create an immense power source, but I have a few problems that I need to solve first. Will you help me? You'll be well rewarded.%n%n§3The quests to get items will trigger the next part once you hold the item in question.
-// ↑↑↑ //gtnh.quest375.desc=This metal has quite interesting properties. It seems that it has absorbed some of the energy that exists in the End. While ender pearls are quite fragile, this metal is a lot more durable. However, the absorbed energy is not enough to teleport things around. But you might find a solution for this.
+gtnh.quest375.name=能量,很多的能量!
+gtnh.quest375.desc=嗨!你好.我手头有一个项目需要帮助. 我想创造一个巨大的能量源,但是有一些问题需要先解决. 当然,帮助我会得到不错的奖励的!%n%n§3当你手持有问题的物品时,获取下一个物品的任务将会触发.
 
 # Quest.376 - I'm Hungry
-// --- //gtnh.quest376.name=§c§l[过期]§r呕...这是什么玩意？
-// +++ //gtnh.quest376.name=I'm Hungry
-// ↑↑↑ //gtnh.quest376.name=§c§l[OUTDATED]§r Gross, what is that...
-// --- //gtnh.quest376.desc=这是一种紫色的有着臭鸡蛋味道的液体.但是当你盯着这种让你感觉很恶心的液体时,突然脑中有了一个主意. 当龙尘在力场中你不能直接控制它,但是是否能够传送什么东西进入力场内部呢？ 这值得一试!
-// +++ //gtnh.quest376.desc=What... I work a lot! So get me some food please.
-// ↑↑↑ //gtnh.quest376.desc=It's purple, and it smells like rotten eggs. But while staring at this unpleasant fluid, you had an idea. You can't reach the dust directly, but can you actually teleport something in and out the field? Might be worth a try.
+gtnh.quest376.name=我饿了
+gtnh.quest376.desc=我的工作很多!请拿点吃的给我.
 
 # Quest.377 - A Casing
-// --- //gtnh.quest377.name=§c§l[过期]§r合适的核心
-// +++ //gtnh.quest377.name=A Casing
-// ↑↑↑ //gtnh.quest377.name=§c§l[OUTDATED]§r An appropriate focus
-// --- //gtnh.quest377.desc=你已经尝试过很多的方法了,但是这些方法全部都没有足够的能量来激活龙尘. 直到现在,你终于找到了一种法杖核心——传送的能量可以激活龙尘,但不至于引发灾难性的后果.
-// +++ //gtnh.quest377.desc=I need something for the outer shell. Again, a crystal-based material would be best, because I like it shiny. I tested all crystals I know of and none of them met the requirements. I heard you have access to outer space? Can you try to find a suitable material while you're out there?
-// ↑↑↑ //gtnh.quest377.desc=You've tried a lot, and nothing was quite enough to activate the dust. Until now. You finally found a focus that is able to transmit enough power to cause a heavy reaction with the dust, but not enough to cause problems.
+gtnh.quest377.name=外壳
+gtnh.quest377.desc=我需要一些制造外壳的材料. 再说一次,晶体材料将是最好的选择,因为我喜欢它们的光泽. 我测试了我知道的所有晶体材料,但是没有一种晶体可以满足我的要求. 听说你最近有空？你在外边冒险的时候能不能帮我找一找合适的材料？
 
 # Quest.378 - It Needs a Power Plug...
-// --- //gtnh.quest378.name=§c§l[过期]§r激活的龙尘
-// +++ //gtnh.quest378.name=It Needs a Power Plug...
-// ↑↑↑ //gtnh.quest378.name=§c§l[OUTDATED]§r Activated draconium dust
-// --- //gtnh.quest378.desc=活化核心可以在短时间内引导足够大的力量来活化龙尘. 但是只要我停止提供"VIS",活化龙尘就会变回普通的龙尘. 如果我能用一种力场来控制这个过程...  译者注：这个任务奖励是之后的任务物品,没有其他获取方式,千万别丢了。
-// +++ //gtnh.quest378.desc=Given the fact that I will be able to craft this device, it needs some kind of "plug" to get the power out. I need something to conduct immense amounts of power. I thought about superconductors, but they don't fit with the crystal casing material I have in mind. I need 2 different crystals, one for positive and one for negative charge.
-// ↑↑↑ //gtnh.quest378.desc=At least for a short period of time. The wand focus is powerful enough to activate the dust, but it will convert back to regular dust as soon as I stop feeding it with vis. If I only could contain it, surround it with a forcefield...
+gtnh.quest378.name=我需要一个能量"插头"
+gtnh.quest378.desc=我正在制造的这台设备需要某种插头来做能量的出口. 我需要某种能够引导巨大能量的材料. 我曾经考虑过超导体.但是这种材料不能安装在我最想要的水晶外壳上面. 所以我还是需要2种晶体,一种晶体作为能源输出装置的正极,另外要一种作为负极.
 
 # Quest.379 - I need a stabilizer
-// --- //gtnh.quest379.name=§c§l[过期]§r最强的力场
-// +++ //gtnh.quest379.name=I need a stabilizer
-// ↑↑↑ //gtnh.quest379.name=§c§l[OUTDATED]§r The strongest forcefield
-// --- //gtnh.quest379.desc=为了创造一个力场,我需要自己动手建立一套控制装置. 我会使用我能买的起的最好的发射器. 我不会在这方面冒险的!
-// +++ //gtnh.quest379.desc=Opening the wormhole is one thing, but I need to stabilize it, so it doesn't harm anything. I guess I need something made of crystal. Why? Because I like it fancy. Find me a crystal-based, transparent material with immense power, would you?
-// ↑↑↑ //gtnh.quest379.desc=In order to create a forcefield, I need to build myself a containment device. I will use only the best emitters I can afford. I will take no risks here.
+gtnh.quest379.name=我需要一个稳定器
+gtnh.quest379.desc=如何打开虫洞是一个问题,而如何稳定虫洞是另外一个问题.我需要保证打开的虫洞不能威胁到我们的安全. 我想我需要某些晶体.为什么？因为我喜欢晶体.给我找一个有用巨大力量并且由透明材质构成的水晶好吗？
 
 # Quest.380 - A Problem that Matters
-// --- //gtnh.quest380.name=§c§l[过期]§r大失所望
-// +++ //gtnh.quest380.name=A Problem that Matters
-// ↑↑↑ //gtnh.quest380.name=§c§l[OUTDATED]§r Not what I expected...
-// --- //gtnh.quest380.desc=结果...挺有趣. 装置没有爆炸,相反活化龙尘生成了一种反向力场! 不幸的是,发射器不能接收反向能量,融化掉了. 多亏我及时关闭了装置,以节省各种昂贵的材料(至少还剩下了几个)...还有几个发电机.
-// +++ //gtnh.quest380.desc=I need to open a wormhole. But for that, I need an immense gravitational field. One like those created upon the death of a massive star, a black hole. But I can't really "kill" a sun for this. I need to compress matter somehow... But... How? I think I may need a specialized machine for this, one that does not use explosions, as that won't get dense enough.
-// ↑↑↑ //gtnh.quest380.desc=The outcome was... interesting. It did not explode, instead, the activated draconium dust generated a counter-field to mine! Unfortunately, the emitters could not stand the reverse energies, and melted. I was able to shut it off quick enough to save the machine casing (At least what's left from it...) And a couple of field generators.
+gtnh.quest380.name=一个重要的问题
+gtnh.quest380.desc=我需要打开一个虫洞.但是为此我需要一个巨大的引力场. 就像恒星爆炸,黑洞那样强大的引力场. 但是我不可能去"杀死"太阳.我需要某种方法来压缩物质. 但是,怎么做? 我想我可能需要专门的机器,不需要聚爆的,因为它的密度不够高.
 
 # Quest.381 - Fancy!
-// --- //gtnh.quest381.name=§c§l[过期]§r力场!第二次尝试
-// +++ //gtnh.quest381.name=Fancy!
-// ↑↑↑ //gtnh.quest381.name=§c§l[OUTDATED]§r Forcefield, second try
-// --- //gtnh.quest381.desc=我得出了一个结论:龙尘似乎与所有种类的魔法能量很好的融合,但是相当排斥科学技术. 所以我需要找到一个方法来创建一个魔法力场. 一定会有办法的! 这应该与控制危险的节点非常相似...
-// +++ //gtnh.quest381.desc=Yes. Yes! That's it! Bring me more of this stuff! I probably need a lot of it...
-// ↑↑↑ //gtnh.quest381.desc=I came to the following conclusion: Draconium dust seems to react nicely with all kinds of magic energy, and seems to repel technology. So I need to find a way to create a forcefield with magic alone. There must be a way. This should be pretty similar to controlling dangerous nodes...
+gtnh.quest381.name=真贵!
+gtnh.quest381.desc=是的,是的!就是它! 多给我准备一些!我可能会需要很多这种材料...
 
 # Quest.382 - Red and Blue
-// --- //gtnh.quest382.name=§c§l[过期]§r魔法力场
-// +++ //gtnh.quest382.name=Red and Blue
-// ↑↑↑ //gtnh.quest382.name=§c§l[OUTDATED]§r A magic force field
-// --- //gtnh.quest382.desc=节点稳定器太弱了,你找到了一种通过魔法自身生成一个强大的控制力场的方法. 但是材料成为了最大的难题——就算用"冻结时空"的材料也不能抵抗激活龙尘的力量. 因此你决定用你最新的发明制作一个新的装置.旋涡弱化装置会产生一种甚至能压制强大的饕餮节点的力场,也许我可以用它来控制激活的龙尘. 还需要几个放大器来确保产生的力场足够强大.
-// +++ //gtnh.quest382.desc=Really? A red and blue crystal? How awesome is that! I think I will need 8 of each color, just to be sure.
-// ↑↑↑ //gtnh.quest382.desc=While node stabilizers are too weak, you found a way to generate a strong containment field, generated by magic itself. You tried to use warded glass, but even the "frozen in spacetime" material could not resist the power of activated draconium dust. You decided to build another device, this time with your newest invention.%n%nThe vortex attenuator is powerful enough to negate even hungry nodes, and it also will be able to contain activated draconium dust.%n%nJust to be sure, I will add some amplifiers to it.
+gtnh.quest382.name=红色和蓝色
+/gtnh.quest382.desc=真的？红色和蓝色的水晶？这真令人惊叹! 以防万一,我想我每一种都需要8个.
 
 # Quest.383 - Shiny!
-// --- //gtnh.quest383.name=§c§l[过期]§r什么...?
-// +++ //gtnh.quest383.name=Shiny!
-// ↑↑↑ //gtnh.quest383.name=§c§l[OUTDATED]§r What the...?
-// --- //gtnh.quest383.desc=这个装置确实工作!它产生的力场可以充分将龙尘和周围的物质分离开来. 但是不幸的是...这个力场还能防止魔力进入到力场内部. 也就是说在力场内部龙尘完全无法激活.
-// +++ //gtnh.quest383.desc=What in the world is this? This is amazing! I need more of these! They will be an amazing containment material for the wormhole!
-// ↑↑↑ //gtnh.quest383.desc=The device works! It is able to fully contain and separate the draconium dust from everything around it! Unfortunately... It also prevents the vis from passing the barrier, which results in regular draconium dust... In a forcefield...
+gtnh.quest383.name=闪闪发光
+gtnh.quest383.desc=这到底是个什么？这太神奇了!我需要你提供更多的这个东西! 这种神奇的材料可以稳定虫洞.
 
 # Quest.384 - Now that Matters!
-// --- //gtnh.quest384.name=§c§l[过期]§r寻找代替品
-// +++ //gtnh.quest384.name=Now that Matters!
-// ↑↑↑ //gtnh.quest384.name=§c§l[OUTDATED]§r Looking for alternatives
-// --- //gtnh.quest384.desc=这太令人沮丧了.要么你能控制龙尘,但是不能激活它.要么就是能激活龙尘但是却无法控制它. 也许换个地方能够找到答案. 比如说...有龙的地方？
-// +++ //gtnh.quest384.desc=Of course! The matter condenser! How come I didn't think of that?
-// ↑↑↑ //gtnh.quest384.desc=It is frustrating. Either you are able to contain the dust but can't activate it, or, you activate it and it causes serious damage. Maybe you need to find answers somewhere else.%n%nDraconic... Like... Dragon?
+gtnh.quest384.name=现在的问题!
+gtnh.quest384.desc=哦!物质聚合机!我怎么就没想到呢？
 
 # Quest.385 - A Few More Things...
-// --- //gtnh.quest385.name=§c§l[过期]§r龙...或者类似的生物
-// +++ //gtnh.quest385.name=A Few More Things...
-// ↑↑↑ //gtnh.quest385.name=§c§l[OUTDATED]§r Draconic... Like... Dragon?
-// --- //gtnh.quest385.desc=也许你在错误的地方想要寻找正确的答案. 这些尘埃明显是和龙有关的,那么现在最好要做的就是去有龙存在的维度寻找答案——末地.
-// +++ //gtnh.quest385.desc=Ok, I think I have everything I need to assemble the device. Can you assist me with some additional materials? I need to update some of my machines, as these exotic components you got me damaged some of them already. Don't worry, I have a list here.%n%nSome of my circuits burned to a crisp while I was trying to measure the conductivity of these soul and life shards. I need better ones.%n%nGood lord, these mysterious crystals have eaten away my diamond grinding head! How could that happen? Can you get me a better one?%n%nDo you see that pile of Rhodium and Palladium over there? No? Neither do I. Because the machine was VAPORIZED! Good that you gave me 2 singularities, the first one... Well... Just get me a better casing, would you?%n%nIt seems, that the stabilizers need... stabilizing... But I'm out of field generators. Can you help me with this?
-// ↑↑↑ //gtnh.quest385.desc=Maybe you where looking for the right things in the wrong place. As this dust obviously comes from dragons, the best thing to do now is to find answers in the dimension of dragons: The End.
+gtnh.quest385.name=还有点事儿...
+gtnh.quest385.desc=好吧,我这里有全套的组装设备.但是你能帮我准备一些额外的配件吗？ 我需要升级我的部分机器.在研究他们时我的部分机器损坏了.来吧我给你列个清单.%n%n在我测试这些生命和灵魂碎片的导电率时我的部分电路被烧毁了,我需要一些更好的电路替换它们.%n%n还有这些天杀的神秘碎片,我的钻石磨头对它们无能为力,帮我买个更好的来.%n%n还有你看到旁边那堆铑和钯了吗？什么,没看到？好吧那可能是因为机器已经气化了!你给了我2个奇点,其中第一个...哎...算了,给我弄一个更好的机器外壳吧.%n%n最后我没有稳定器所需要的力场发生器,再给我弄2个过来.
 
 # Quest.386 - §c§l[OUTDATED]§r Weird creatures
 gtnh.quest386.name=§c§l[过期]§r怪兽!
@@ -1863,27 +1809,19 @@ gtnh.quest451.name=触发灰烬烧灯
 gtnh.quest451.desc=触发你背包里的"灰烬烧灯".
 
 # Quest.452 - Trigger Singularity
-// --- //gtnh.quest452.name=§c§l[过期]§r触发奇点
-// +++ //gtnh.quest452.name=Trigger Singularity
-// ↑↑↑ //gtnh.quest452.name=§c§l[OUTDATED]§r Trigger Singularity
+gtnh.quest452.name=触发奇点
 gtnh.quest452.desc=制作一个奇点并触发吧.
 
 # Quest.453 - Trigger Shard of Creation
-// --- //gtnh.quest453.name=§c§l[过期]§r触发创世碎片
-// +++ //gtnh.quest453.name=Trigger Shard of Creation
-// ↑↑↑ //gtnh.quest453.name=§c§l[OUTDATED]§r Trigger Shard of Creation
+gtnh.quest453.name=触发创世碎片
 gtnh.quest453.desc=制作一个创世碎片并触发吧.
 
 # Quest.454 - Trigger Life and Soul Shard
-// --- //gtnh.quest454.name=§c§l[过期]§r触发生命碎片和灵魂碎片
-// +++ //gtnh.quest454.name=Trigger Life and Soul Shard
-// ↑↑↑ //gtnh.quest454.name=§c§l[OUTDATED]§r Trigger Life and Soul Shard
+gtnh.quest454.name=触发生命碎片和灵魂碎片
 gtnh.quest454.desc=制作一个生命碎片和一个灵魂碎片并触发吧.
 
 # Quest.455 - Trigger Unknown Crystal
-// --- //gtnh.quest455.name=§c§l[过期]§r触发未知水晶
-// +++ //gtnh.quest455.name=Trigger Unknown Crystal
-// ↑↑↑ //gtnh.quest455.name=§c§l[OUTDATED]§r Trigger Unknown Crystal
+gtnh.quest455.name=触发未知水晶
 gtnh.quest455.desc=寻找"神秘水晶"并触发吧.
 
 # Quest.456 - Trigger Life
@@ -2196,9 +2134,7 @@ gtnh.quest532.desc=内燃发电机可以燃烧几种流体产生EU.其中某些�
 
 # Quest.533 - §4§5§lHydrogen, Methane or Some Farts... (Natural gas) 
 gtnh.quest533.name=§4§5§l氢气、甲烷或者一些屁(天然气)
-// --- //gtnh.quest533.desc=在日常生产中你可能会剩下一些氢气或者甲烷. 比如说在离心机中离心棕褐铁或者黄褐铁可以得到氢气,把你吃剩下的食物扔进离心机可以获得甲烷.离心橡胶树原木可以获得60mB的甲烷,还有许多其他作物也可以用这种方式产出甲烷.%n%n使用这些发电机的主要发电产线是苯,但那需要MV级机器.%n%n§3如果你正在计划着搭建可再生能源线,相信我,这将是你最常用的发电机类型.§r
-// +++ //gtnh.quest533.desc=Some centrifugal processes leave gases behind like Hydrogen or Methane. Centrifuge some Brown and Yellow Limonite to get Hydrogen or dump your unused food in a Centrifuge to get Methane gas. Wood will even give 60 mb per log, and many other crops will also generate Methane this way.%n%nThe main powergen line that uses this generator is Benzene, but that needs MV tier.%n%n§3If you're dealing with fully renewable powergen, this is the type of generator you'll use the most.
-// ↑↑↑ //gtnh.quest533.desc=Some centrifugal processes leave gases behind like Hydrogen or Methane. Centrifuge some Brown and Yellow Limonite to get Hydrogen or dump your unused food in a Centrifuge to get Methane gas. Wood will even give 60 mb per log, and many other crops will also generate Methane this way.%n%nThe main powergen lines that use these generators are Oil and Benzene, mostly Benzene, but neither of those are really LV-tier. You can still use Charcoal to generate Carbon Dioxide and get power that way, if you don't want to deal with Steam.%n%n§3If you're dealing with fully renewable powergen, this is the type of generator you'll use the most.
+gtnh.quest533.desc=在日常生产中你可能会剩下一些氢气或者甲烷. 比如说在离心机中离心棕褐铁或者黄褐铁可以得到氢气,把你吃剩下的食物扔进离心机可以获得甲烷.离心橡胶树原木可以获得60mB的甲烷,还有许多其他作物也可以用这种方式产出甲烷.%n%n使用这些发电机的主要发电产线是苯,但那需要MV级机器.%n%n§3如果你正在计划着搭建可再生能源线,相信我,这将是你最常用的发电机类型.
 
 # Quest.534 - §4§3§lPollution What....?
 gtnh.quest534.name=§4§3§l什么？污染!
@@ -2314,9 +2250,7 @@ gtnh.quest561.desc=可以烧杂酚油来生产蒸汽了! 在有了钢之后,你�
 
 # Quest.562 - §6§lHigh-Pressure Boiler Tank
 gtnh.quest562.name=§6§l高压锅炉
-// --- //gtnh.quest562.desc=当你有了钢之后你就可以制作高压锅炉方块了. 高压锅炉比低压锅炉的温度更高,产生蒸汽的速度更快.同时存储的蒸汽量也是低压锅炉的4倍. 高压锅炉需要更长时间预热,所以确保你可以喂饱它!%n%n将管道连接到锅炉以输出蒸汽.%n%n§3PS：高压并不总是更优解,请到Wiki查询详情.%n%nWIKI 蒸汽机：§9gtnh.huijiwiki.com/p/875§r
-// +++ //gtnh.quest562.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!%n%nExtract steam by attaching a pipe to the boiler tank.
-// ↑↑↑ //gtnh.quest562.desc=After you make steel you are able to craft a high pressure boiler tank. The upgraded version increases the temperature and produces more steam than the low pressure version. It will take longer to warm up, so make sure to keep it well fed!%n%nExtract steam by attaching a pipe to the boiler tank.%n%n§3PS: The HP one isn't always better, check the internet for details.
+gtnh.quest562.desc=当你有了钢之后你就可以制作高压锅炉方块了. 高压锅炉比低压锅炉的温度更高,产生蒸汽的速度更快.同时存储的蒸汽量也是低压锅炉的4倍. 高压锅炉需要更长时间预热,所以确保你可以喂饱它!%n%n将管道连接到锅炉以输出蒸汽.%n%nWIKI 蒸汽机：§9gtnh.huijiwiki.com/p/875§r
 
 # Quest.563 - Time to Kill (Wither Skeleton)
 gtnh.quest563.name=杀戮时刻(凋灵骷髅)
@@ -2712,9 +2646,7 @@ gtnh.quest660.desc=你的铁盾已经破旧不堪了.用钻石大板制成新的
 
 # Quest.661 - §5§lBow, Arrows and Quiver
 gtnh.quest661.name=§5§l弓,箭,与箭袋
-// --- //gtnh.quest661.desc=哇,你的第一把手制...§o咳咳§r...机器制弓.你发现可以将弓放在武器格子.现在是时候做些箭和一个箭袋了.%n%n想要将箭放入箭袋里,你需要把箭袋和一组箭放入合成栏.确保控制中的"Special"按键没有冲突.默认为Z.  当你选中弓时,按下Z来交换箭袋里的箭.%n%n虽然看起来这些可能毫无价值,但这些箭确实有特殊用途.  你真想跟你的朋友分享一个曲奇饼干,对吧?%n%n开始狩猎吧.
-// +++ //gtnh.quest661.desc=Wow, your first handmade §oehm§r machine made bow. You find out that you can put the bow in the mine and blade battlegears slots. Now it's time to make a quiver and maybe some arrows. %n%nTo place arrows in the quiver, put the quiver and the stack of arrows in a crafting grid. Make sure the Gameplay key Special is deconflicted. By default it is Z. When you have the bow selected, use Z to swap arrow slots in the quiver.%n%nWhile it seems like these might be worthless, these arrows do have special uses. You really want to share a cookie with friends, don't you?%n%nLet's go hunt a bit.
-// ↑↑↑ //gtnh.quest661.desc=Wow, your first handmade §oehm§r machine made bow. You find out that you can put the bow in the mine and blade battlegears slots. Now it's time to make a quiver and maybe some arrows. %n%nTo place arrows in the quiver, put the quiver and the stack of arrows in a crafting grid. Make sure the Gameplay key Special is deconflicted. By default it is Z. When you have the bow selected, use Z to swap arrow slots in the quiver.%n%nWhile it seems like these might be worthless, these arrows do have special uses. You really want to share a cookies with friends, don't you?%n%nLet's go hunt a bit.
+gtnh.quest661.desc=哇,你的第一把手制...§o咳咳§r...机器制弓.你发现可以将弓放在武器格子.现在是时候做些箭和一个箭袋了.%n%n想要将箭放入箭袋里,你需要把箭袋和一组箭放入合成栏.确保控制中的"Special"按键没有冲突.默认为Z.  当你选中弓时,按下Z来交换箭袋里的箭.%n%n虽然看起来这些可能毫无价值,但这些箭确实有特殊用途. 你真想跟你的朋友分享一块曲奇饼干,对吧?%n%n开始狩猎吧.
 
 # Quest.662 - §5§lBasic Arc Furnace
 gtnh.quest662.name=§5§l基础电弧炉
@@ -2978,9 +2910,7 @@ gtnh.quest726.desc=制作绝缘线缆的一个更高效率的方法,是在化学
 
 # Quest.727 - §1§2§lBetter Than Barrels
 gtnh.quest727.name=§1§2§l比储物桶更好
-// --- //gtnh.quest727.desc=储物桶只能储存一种物品.抽屉则最多能存四种,每一种各16组.%n%n不过,它们确实有一些缺点.你无法让它们面朝上或者下,并且你只能从它们面向的方向与其交互(自动化可以使用任意面).
-// +++ //gtnh.quest727.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot).%n%nJust watch out, they do come with some downsides. You won't be able to make them point up or down, and you can only access the contents from the front (automation can use any side). 
-// ↑↑↑ //gtnh.quest727.desc=While barrels offer a slot for a single item, drawers can have up to 4 slots each (holding 16 stacks per slot).%n%nJust watch out, they do come with some downsides. You won't be able to make them point up or down, and you can only acces the contents from the front (automation can use any side). 
+gtnh.quest727.desc=储物桶只能储存一种物品.抽屉则最多能存四种,每一种各16组.%n%n不过,它们确实有一些缺点.你无法让它们面朝上或者下,并且你只能从它们面向的方向与其交互(自动化可以使用任意面). 
 
 # Quest.728 - §2§lCompact Drawers
 gtnh.quest728.name=§2§l小型抽屉
@@ -3070,9 +3000,7 @@ gtnh.quest748.desc=优质的电子电路板需要先用木浆与精制胶水制�
 
 # Quest.749 - §6§lAre You Prepared For HV?
 gtnh.quest749.name=§6§l你准备好迈向HV了吗？
-// --- //gtnh.quest749.desc=不锈钢会是HV阶段的主要原材料.你需要一台MV搅拌机来制作不锈钢粉.%n%n锰:锰铝榴石、软锰矿和钽铁矿的处理副产物;直接电解还可以获取更多.另一种来源是从石榴石矿砂或是铁铝榴石中获得石榴石粉.如果你实在找不到的话,可以在硬币任务栏买点矿石.%n%n铬:可以从红宝石粉中离心出来.如果红石矿脉伴生的红宝石不够多的话,可以离心红石作为补充.
-// +++ //gtnh.quest749.desc=Stainless steel will be the tier material for HV. Use a MV mixer to produce the dust.%n%nManganese can be acquired as ore byproducts from spessartine, pyrolusite and tantalite ore. You can also pull them apart to get even more. Alternatively you can take apart Red Garnet dusts. If you get desperate, you can buy some ore from the Coins tab.%n%nChrome can be centrifuged out of ruby dust. You can get ruby dust from redstone if the ruby in redstone veins isn't enough.
-// ↑↑↑ //gtnh.quest749.desc=Stainless steel will be the tier material for HV. There are two ways to process it. Mixing it by hand makes 8 stainless steel dust, while a mixer produces 9.%n%nManganese can be acquired as ore byproducts from spessartine, pyrolusite and tantalite ore. You can also pull them apart to get even more. Alternatively you can take apart Red Garnet dusts. If you get desperate, you can buy some ore from the Coins tab.%n%nChrome can be centrifuged out of ruby dust. You can get ruby dust from redstone if the ruby in redstone veins isn't enough.
+gtnh.quest749.desc=不锈钢会是HV阶段的主要原材料.你需要一台MV搅拌机来制作不锈钢粉.%n%n锰:锰铝榴石、软锰矿和钽铁矿的处理副产物;直接电解还可以获取更多.另一种来源是从石榴石矿砂或是铁铝榴石中获得石榴石粉.如果你实在找不到的话,可以在硬币任务栏买点矿石.%n%n铬:可以从红宝石粉中离心出来.如果红石矿脉伴生的红宝石不够多的话,可以离心红石作为补充.
 
 # Quest.750 - §6§lMolten Plastic
 gtnh.quest750.name=§6§l熔融塑料
@@ -3420,9 +3348,7 @@ gtnh.quest835.desc=每个电路板都需要两个电阻.%n%n稍后你还可以�
 
 # Quest.836 - §5§lGallium Arsenide Crystal
 gtnh.quest836.name=§5§l砷化镓晶体
-// --- //gtnh.quest836.desc=二极管需要砷化镓,你可能想知道在游戏早期要如何获得砷化镓.%n%n在当前阶段,闪锌和锌是镓的主要来源.你可以用热力离心机从锌矿石中获取镓.%n%n你可以在Y轴5-20的硫矿脉中找到闪锌矿石,也可以在主世界或者下界Y轴80-210这个范围内找到贫瘠的锌矿石,从而得到粉碎的锌矿石.不过显然你不会在主世界寻找这种贫瘠矿的. 你最好带着匠魂的稿子,并且在稿子上面附魔一个时运从而增加产量(可能这是寻找方解石途中获得的青金石的最好用途).或者如果你不在意速度问题的话,可以使用采矿机.%n%n-电解闪锌矿有9.17％的几率可以出产镓粉,最好塞一堆到电解机里--要是运气不好,你可能一个镓粉都拿不到.%n-粉碎的锌矿石可以洗矿-热离或锻造锤-离心.但粉碎矿作为掉落物不算太常见,而含杂矿出不了镓.%n%n你还可以培育锌蜜蜂,它有小概率生产出镓蜂窝.%n%n你可以在下界Y轴15-85的范围内你能找到贫瘠的雄黄矿石.离心雄黄粉可获得砷.%n%n砷的另一来源是匠魂在下界生成的钴矿石或暮色森林中的辉钴,你可以用工业高炉来处理它们.你还需要把你的工具的采掘等级升级到至少阿迪特等级,或是制作一个铁木镐子才能开采钴矿石(其实LV采矿机也可以).%n%n另外一个获取镓和砷的方法是用经验桶合成.(实在找不到的话)%n%n将这两种粉在工业高炉中煅烧结合,即可制得砷化镓晶体.
-// +++ //gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a small chance of a gallium dust. Better put in a lot or you might get unlucky.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest. You can use your EBF for that. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nWith your EBF you can combine these two dusts to make a Gallium Arsenide Crystal.
-// ↑↑↑ //gtnh.quest836.desc=The diode requires gallium arsenide, and you may be wondering how to get gallium or arsenic this early in the game.%n%nSphalerite and zinc are the primary sources of gallium at this tier.%n%nYou can find sphalerite in sulfur veins at Y 5-20, and the small zinc ores in the Overworld or the in the Nether at Y 80-210. You won't find much on the Overworld because of obvious reasons. To get additional zinc crushed ore drops, use a Tinker's Construct tool with the Luck (Fortune) enchant on it, probably the best use for all that lapis you got while looking for calcite. Or use a miner, if you don't mind how slow it is.%n%n- Sphalerite can be electrolyzed for a 25% chance of a tiny pile. It's not great, but it's easier to collect the ore. Make sure to go onto discord to complain about how you electrolyzed a stack to only get 3 tiny piles along with everyone else.%n- Zinc crushed ore can be washed and then thermal centrifuged or forge hammered and then centrifuged. But you don't always get the crushed ore as a drop, the impure dust doesn't give gallium.%n%nYou can get arsenic from realgar small ores in the Nether at Y 15-85. Centrifuge the dusts in a centrifuge.%n%nOther sources are Tinker's Construct cobalt ore in the nether and cobaltite ore in the Twilight Forest. You can use your EBF for that. You also need to level up your pickaxe to ardite or make an Ironwood Pickaxe or LV Miner to harvest cobalt ore.%n%nAnother way to get gallium and arsenic is with XP buckets in a crafting grid if you're really desperate.%n%nWith your EBF you can combine these two dusts to make a Gallium Arsenide Crystal.
+gtnh.quest836.desc=二极管需要砷化镓,你可能想知道在游戏早期要如何获得砷化镓.%n%n在当前阶段,闪锌和锌是镓的主要来源.你可以用热力离心机从锌矿石中获取镓.%n%n你可以在Y轴5-20的硫矿脉中找到闪锌矿石,也可以在主世界或者下界Y轴80-210这个范围内找到贫瘠的锌矿石,从而得到粉碎的锌矿石.不过显然你不会在主世界寻找这种贫瘠矿的. 你最好带着匠魂的稿子,并且在稿子上面附魔一个时运从而增加产量(可能这是寻找方解石途中获得的青金石的最好用途).或者如果你不在意速度问题的话,可以使用采矿机.%n%n-电解闪锌矿有9.17％的几率可以出产镓粉,最好塞一堆到电解机里--要是运气不好,你可能一个镓粉都拿不到.%n-粉碎的锌矿石可以洗矿-热离或锻造锤-离心.但粉碎矿作为掉落物不算太常见,而含杂矿出不了镓.%n%n你还可以培育锌蜜蜂,它有小概率生产出镓蜂窝.%n%n你可以在下界Y轴15-85的范围内你能找到贫瘠的雄黄矿石.离心雄黄粉可获得砷.%n%n砷的另一来源是匠魂在下界生成的钴矿石或暮色森林中的辉钴,你可以用工业高炉来处理它们.你还需要把你的工具的采掘等级升级到至少阿迪特等级,或是制作一个铁木镐子才能开采钴矿石(其实LV采矿机也可以).%n%n另外一个获取镓和砷的方法是用经验桶合成.(实在找不到的话)%n%n将这两种粉在工业高炉中煅烧结合,即可制得砷化镓晶体.
 
 # Quest.837 - §6§lILC and RAM
 gtnh.quest837.name=§6§l集成逻辑电路和RAM芯片
@@ -3854,7 +3780,7 @@ gtnh.quest943.desc=更高级别的化学反应需要更高级别的电压,比如
 
 # Quest.944 - §6§lSuper Tank I
 gtnh.quest944.name=§6§l超级缸 I
-// --- //gtnh.quest944.desc=超级缸的工作方式与之前小一点的GT储罐一致,只是装得更多. 准确来说是4000,000L.  在现阶段,建议只给需要大量储存的流体配备超级缸. 要制作超级缸I你需要线制造一个密封机械方块I,这个东西需要钢板和大型聚乙烯管道.制造超级缸I的其他材料还包括4块电路板、2块铝板、1块脉冲铁板和1个MV级电动泵.这个造价当前来说还是很贵的.%n%n现在你可以在一个超级缸里存储5x5x5体积的RC钢质蓄水器存储的液体了.
+// --- //gtnh.quest944.desc=超级缸的工作方式与之前小一点的GT储罐一致,只是装得更多. 准确来说是4000,000L.  在现阶段,建议只给需要大量储存的流体配备超级缸. 要制作超级缸I你需要先制造一个密封机械方块I,这个东西需要钢板和大型聚乙烯管道.制造超级缸I的其他材料还包括4块电路板、2块铝板、1块脉冲铁板和1个MV级电动泵.这个造价当前来说还是很贵的.%n%n现在你可以在一个超级缸里存储5x5x5体积的RC钢质蓄水器存储的液体了.
 // +++ //gtnh.quest944.desc=This tanks works the same as the smaller GT tanks, but holds way more. Specifically, 4,000,000L. Only make this for things you need tons of, LV circuits are expensive after all.%n%nNow you can store the same amount of fluids a steel 5x5 Railcraft tank contains in a single block.%n%n§3%nA lot of nice functionality has been added to Super and Quantum tanks. You can now pick them up with a wrench without voiding the fluids! You will get heavy debuffs though, so better prepare some milk. If you actually want to void the fluids you can crouch while using the wrench.%n%nThey now also have optional automatic fluid output, fluid locking, overflow void mode, or full void mode. And all that with a nice and simple GUI. Quite the IMPACTful change I would say. 
 // ↑↑↑ //gtnh.quest944.desc=This tanks works the same as the smaller GT tanks, but holds way more. Specifically, 4,000,000L. Only make this for things you need tons of, LV circuits are expensive after all.%n%nNow you can store the same amount of fluids a steel 5x5 Railcraft tank contains in a single block.
 
@@ -5296,9 +5222,7 @@ gtnh.quest1302.desc=ME接口是唯一既可以用作面板也可以用作方块�
 
 # Quest.1303 - Interfacing with Inventories
 gtnh.quest1303.name=ME存储总线
-// --- //gtnh.quest1303.desc=将ME存储总线贴在其他的容器上,你就可以通过ME网络来管理这个容器.通过ME存储总线的存储控制是双向的,只要ME存储总线正在正常工作,那么它就既可以输入也可以输出.ME存储总线将几乎可以调用任何MOD的存储模块,包括MFR的异次元存储器,FZ的桶,JABBA的桶和更好存储里面的货仓(Better-Storage-crates).也可以用在BC的管道中.%n%n你可以通过存储总线的UI来控制容器可以存储哪些物品,这项设置并不会影响容器内已有物品的取出.%n%n如果你把ME存储总线贴到一个ME接口上,那么这个存储总线就可以与ME接口所在网络中的全部内容进行交互.除非这个ME接口标记了自身存储的物品--这样存储总线只能访问ME接口内部的物品.
-// +++ //gtnh.quest1303.desc=The ME storage bus, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks.%n%nThe storage via the ME storage bus is bi-directional, it can both insert, or extract items from the inventory block it is attached to as long as the ME storage bus has its required channel.%n%nThe UI allows you to control which items are selected as storable items, this selection has no effect on what items can be extracted once they are in the storage.%n%nThe storage bus will function with nearly any inventory block, including ME Interfaces, Minefactory Reloaded DSUs, Factorization barrels, JABBA Barrels, and Better Storage crates. They can also be used to route items passively into Buildcraft pipes.%n%nIf you place a storage bus on an ME Interface the storage bus will be able to interact with the full contents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items.
-// ↑↑↑ //gtnh.quest1303.desc=The ME storage bus, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks.%n%nThe storage via the ME storage bus is bi-directional, it can both insert, or extract items from the inventory block it is attached to as long as the ME storage bus has its required channel.%n%nThe UI allows you to control which items are selected as storable items, this selection has no effect on what items can be extracted once they are in the storage.%n%nThe storage bus will function with nearly any inventory block, including ME Interfaces, Minefactory Reloaded DSUs, Factorization barrels, JABBA Barrels, and Better Storage crates. They can also be used to route items passively into Buildcraft pipes.%n%nIf you place a storage bus on an ME Interface the storage bus will be able to interact with the full conents of the target network, unless that interface is configured to store items inside itself, in which case it will see those stored items.
+gtnh.quest1303.desc=将ME存储总线贴在其他的容器上,你就可以通过ME网络来管理这个容器.通过ME存储总线的存储控制是双向的,只要ME存储总线正在正常工作,那么它就既可以输入也可以输出.ME存储总线将几乎可以调用任何MOD的存储模块,包括MFR的异次元存储器,FZ的桶,JABBA的桶和更好存储里面的货仓(Better-Storage-crates).也可以用在BC的管道中.%n%n你可以通过存储总线的UI来控制容器可以存储哪些物品,这项设置并不会影响容器内已有物品的取出.%n%n如果你把ME存储总线贴到一个ME接口上,那么这个存储总线就可以与ME接口所在网络中的全部内容进行交互.除非这个ME接口标记了自身存储的物品--这样存储总线只能访问ME接口内部的物品.
 
 # Quest.1304 - Interfacing with Tanks
 gtnh.quest1304.name=ME流体存储总线
@@ -5346,9 +5270,7 @@ gtnh.quest1314.desc=最小的存储组件,用来制作1K的存储元件,或者�
 
 # Quest.1315 - 1k Crafting Storage
 gtnh.quest1315.name=1K合成存储器
-// --- //gtnh.quest1315.desc=合成处理单元的组成部分,可以提供1024字节的存储空间.%n%n合成存储器是合成处理单元中唯一不可缺少的组件.每一个合成处理单元都可以完成独立的合成工作(而不是同一个合成工作的子任务).合成工作包含的所有配方所需的物品越多,你就需要越多的合成存储器.使用一个大容量合成存储器配上一堆小容量的可能是个不错的主意,但要记得当你下单合成时,系统会尝试优先使用最大的那个合成存储器.合成卡请求合成也会用到合成处理单元.所以如果要大量使用合成卡的话,你需要数个独立的合成处理单元.一个合成处理单元多方块结构不论有多大,都只要一个频道.合成处理单元只有为长方体时才能成型.
-// +++ //gtnh.quest1315.desc=Component of the crafting CPU which provides 1024 bytes of storage for crafting. The Crafting Storage blocks are the only necessary part. Each crafting CPU multiblock allows for a separate crafting job (this is different from sub-tasks of the same job). The more items in the recipe and sub-recipes, the more crafting storage you'll need. Having one big and a couple small might be a good idea, but remember it will try to use the best one available first when you order a craft. They are also used when a crafting card requests a craft, so you'll need several separate ones if you intend to use those a lot. A crafting CPU multiblock uses only one channel, regardless of it's size. It must be square to form.
-// ↑↑↑ //gtnh.quest1315.desc=Component of the crafting CPU which provides 1024 bytes of storage for crafting. The Crafting Storage blocks are the only necessary part. Each crafting CPU multiblock allows for a separate crafting job (this is different from from sub-tasks of the same job). The more items in the recipe and sub-recipes, the more crafting storage you'll need. Having one big and a couple small might be a good idea, but remember it will try to use the best one available first when you order a craft. They are also used when a crafting card requests a craft, so you'll need several separate ones if you intend to use those a lot. A crafting CPU multiblock uses only one channel, regardless of it's size. It must be square to form.
+gtnh.quest1315.desc=合成处理单元的组成部分,可以提供1024字节的存储空间.%n%n合成存储器是合成处理单元中唯一不可缺少的组件.每一个合成处理单元都可以完成独立的合成工作(而不是同一个合成工作的子任务).合成工作包含的所有配方所需的物品越多,你就需要越多的合成存储器.使用一个大容量合成存储器配上一堆小容量的可能是个不错的主意,但要记得当你下单合成时,系统会尝试优先使用最大的那个合成存储器.合成卡请求合成也会用到合成处理单元.所以如果要大量使用合成卡的话,你需要数个独立的合成处理单元.一个合成处理单元多方块结构不论有多大,都只要一个频道.合成处理单元只有为长方体时才能成型.
 
 # Quest.1316 - 4k Item Storage Cell
 gtnh.quest1316.name=4K-ME存储单元
@@ -5572,9 +5494,7 @@ gtnh.quest1370.desc=奥术灯创造了额外的光源,其作用类似于火把,�
 
 # Quest.1371 - LOX and Bagels
 gtnh.quest1371.name=液氧与面包
-// --- //gtnh.quest1371.desc=§c注意:你无法在合成栏直接填充氧气罐了!§r%n%n液态氧气罐是补充氧气罐的替代方案.%n%n将氧单元放入真空冷冻机中,即可得到1个液氧单元.将液氧转移到容器里,然后再转移到液态氧气罐中.%n%n要重新填充氧气罐,只需将罐和液态氧气罐放入氧气压缩机中即可传输氧气,也可以用氧气收集器.%n%n每个液氧单元可以装满4个重型氧气罐,6个中型氧气罐或12个轻型氧气罐.%n%n这太格雷了!
-// +++ //gtnh.quest1371.desc=§cNOTE: You cannot directly refill your tanks in a crafting grid anymore!§r%n%nThe LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the oxygen compressor to transfer oxygen, or use a oxygen collector.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.%n%nSo much Greggy!
-// ↑↑↑ //gtnh.quest1371.desc=§cNOTE: You cannot directly refill your tanks in a crafting grid anymore!§r%n%nThe LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freeezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the oxygen compressor to transfer oxygen, or use a oxygen collector.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.%n%nSo much Greggy!
+gtnh.quest1371.desc=§c注意:你无法在合成栏直接填充氧气罐了!§r%n%n液态氧气罐是补充氧气罐的替代方案.%n%n将氧单元放入真空冷冻机中,即可得到1个液氧单元.将液氧转移到容器里,然后再转移到液态氧气罐中.%n%n要重新填充氧气罐,只需将罐和液态氧气罐放入氧气压缩机中即可传输氧气,也可以用氧气收集器.%n%n每个液氧单元可以装满4个重型氧气罐,6个中型氧气罐或12个轻型氧气罐.%n%n这太格雷了!
 
 # Quest.1372 - Wand Focus Fire
 gtnh.quest1372.name=法杖核心:火焰
@@ -5706,9 +5626,7 @@ gtnh.quest1403.desc=在HV阶段,使用蒸汽作为你的唯一能源是非常困
 
 # Quest.1404 - §6§lMV Superconductors (128 EU/t)
 gtnh.quest1404.name=§6§lMV超导(128 EU/t)
-// --- //gtnh.quest1404.desc=无损的MV超导导线怎么样？Pentacadmiummagnesiumhexaoxide(MV超导)是一种超导材料,可以毫无损失地传递能量. 现在,每个电压都有线损为0的超导导线.%n%n在搅拌机中搅拌镉,镁和氧. 制得的粗胚粉需要用带有坎塔尔合金线圈的工业高炉(EBF)烧制. 再用真空冷冻机来冷却它. 制作一些MV超导粗胚导线并使用组装机将这些导线与氦、不锈钢流体管道和MV泵组合在一起,以获得128EU/t的超导导线.%n%n§3当然,是否需要为了节省这么一点能量,就通过这么复杂的工序制造超导导线,完全取决于你自己. 另外请注意,虽然这些超导导线是"导线",但碰到它们不会触电受伤.%n%n译者注:如果你试图在互联网上搜索GTNH的超导材料,可能会找到一个叫做"Superconductors"的网站,给出了很多种高温超导材料,这正是GTNH前期超导的灵感来源.但是最好别相信那上面的"研究成果",因为这是个民科网站.
-// +++ //gtnh.quest1404.desc=How about lossless 128 EU Wires? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage going forward has a superconductor wire with zero loss.%n%nMix Cadmium, Magnesium and Oxygen in an MV mixer. Next, the base dust needs an EBF with Kanthal Coils to be smelted. A vacuum freezer is also required to cool it down. Make some MV Superconductor Base Wires and use an Assembler to combine these wires with Helium, Stainless Steel pipes and HV pumps to get your 128 eu/t superconductor wires.%n%n§3Whether these are worth it to save a little power or not is up to you of course. Also note that although they're wires, you aren't hurt by coming into contact with them.
-// ↑↑↑ //gtnh.quest1404.desc=How about lossless 128 EU Wires? Pentacadmiummagnesiumhexaoxide is a superconductor wire and will transfer your energy without any loss. Every Voltage going forward has a superconductor wire with 0 and a base wire with only a very small loss.%n%nMix Cadmium, Magnesium and Oxygen in an MV mixer. Next, the base dust needs an EBF with Kanthal Coils to be smelted. A vacuum freezer is also required to cool it down. Make some MV Superconductor Base Wires and use an Assembler to combine these wires with Helium, Stainless Steel pipes and HV pumps to get your 128 eu/t superconductor wires.%n%n§3Whether these are worth it to save a little power or not is up to you of course. Also note that although they're wires, you aren't hurt by coming into contact with them.
+gtnh.quest1404.desc=无损的MV超导导线怎么样？Pentacadmiummagnesiumhexaoxide(MV超导)是一种超导材料,可以毫无损失地传递能量. 现在,每个电压都有线损为0的超导导线.%n%n在搅拌机中搅拌镉,镁和氧. 制得的粗胚粉需要用带有坎塔尔合金线圈的工业高炉(EBF)烧制. 再用真空冷冻机来冷却它. 制作一些MV超导粗胚导线并使用组装机将这些导线与氦、不锈钢流体管道和MV泵组合在一起,以获得128EU/t的超导导线.%n%n§3当然,是否需要为了节省这么一点能量,就通过这么复杂的工序制造超导导线,完全取决于你自己. 另外请注意,虽然这些超导导线是"导线",但碰到它们不会触电受伤.%n%n译者注:如果你试图在互联网上搜索GTNH的超导材料,可能会找到一个叫做"Superconductors"的网站,给出了很多种高温超导材料,这正是GTNH前期超导的灵感来源.但是最好别相信那上面的"研究成果",因为这是个民科网站.
 
 # Quest.1405 - §9§lHV Superconductors (512 EU/t)
 gtnh.quest1405.name=§9§lHV超导(512 EU/t)
@@ -6059,9 +5977,7 @@ gtnh.quest1491.name=§b§lHSS-G
 gtnh.quest1491.desc=在用钨钢升级了工业高炉的线圈,并制造了IV组装机后,你可以用高速钢(HSS-G)锭为你的高炉换上新的线圈了.这种锭在LuV阶段很重要.%n%n§4HSS-G是由钨钢、铬、钼和钒混合而成的.
 
 # Quest.1492 - §c§l[OUTDATED]§r Plunger 2.0 The Hand Pump Replacement
-// --- //gtnh.quest1492.name=搋子2.0替代手泵
-// +++ //gtnh.quest1492.name=§c§l[OUTDATED]§r Plunger 2.0 The Hand Pump Replacement
-// ↑↑↑ //gtnh.quest1492.name=Plunger 2.0 The Hand Pump Replacement
+gtnh.quest1492.name=§c§l[过期]§r搋子2.0替代手泵
 gtnh.quest1492.desc=什么？你把手泵搞丢了？好吧,这里还有一个. 它也要花几块硬币,下次不要再这么丢三落四! 你觉得我这是什么地方,五金店？
 
 # Quest.1493 - §c§lTier 6 (LuV)
@@ -6289,9 +6205,7 @@ gtnh.quest1548.name=集中式存储系统的输入箱
 gtnh.quest1548.desc=为了能够将物品放入集中式存储系统,你需要一点点额外的管道. 接口管道(放置物品提取芯片)应连接到你想要抽取物品的箱子,如果你想要从箱子拿走所有物品,请将它配置为黑名单模式(*blacklisted). %n%n需要交错管道,以便管道内的物品知道要采取的方向,如果不这样,他们只会在管道内飞来飞去而不知道去哪里. %n你可能还需要一些额外的物品运输管道,具体取决于你的设置.
 
 # Quest.1549 - §c§l[OUTDATED]§r  Plunger 2.0 The Hand Pump
-// --- //gtnh.quest1549.name=§5§l搋子2.0-手泵
-// +++ //gtnh.quest1549.name=§c§l[OUTDATED]§r  Plunger 2.0 The Hand Pump
-// ↑↑↑ //gtnh.quest1549.name=§5§lPlunger 2.0 The Hand Pump
+gtnh.quest1549.name=§c§l[过期]§r搋子2.0-手泵
 gtnh.quest1549.desc=新的手泵可以清除机器输入槽中的流体. 旧的搋子只能移除流体,而手泵可以存储它,并可以在GT储罐中倒出流体.%n%n在LV组装机中合成一个手泵硬币,然后再用它制作一个手泵.%n%n升级组装机之后,你可以制作更好的手泵,最高能达到EV.%n%n§3此合成需要铝,而铝需要工业高炉来制造. 不过你也能通过宝箱直接获得少量铝锭...
 
 # Quest.1550 - More Seed Types
@@ -7060,9 +6974,7 @@ gtnh.quest1740.desc=你老式但可靠的内燃发电机渐渐力不从心,更�
 
 # Quest.1741 - §3§lNice Nether Trees
 gtnh.quest1741.name=§3§l下界之树真棒
-// --- //gtnh.quest1741.desc=有一些非常有用的下界之树,它们提供了像红石,火药,骨粉或肥料等资源. 去下界找到这样的树吧,如血树,熔融树,黑暗树或幽魂树.这些树可以像普通的树木一样种植,除了血树.血树必须种在天花板上,然后它会向下生长而不是向上生长...
-// +++ //gtnh.quest1741.desc=There are a few very useful Nether trees out there which gives resources like Redstone, Gunpowder, Bonemeal or Fertilizer.%n%nGo and get a few trees like Bloodwood, Fusewood, Darkwood or Ghostwood out of the Nether.%n%nThese trees can be planted like normal trees, except for Bloodwood. That has to planted on a ceiling and will grow down instead of up.
-// ↑↑↑ //gtnh.quest1741.desc=There are a few very useful Nether trees out there which gives resources like Redstone, Gunpowder, Bonemeal or Fertilizer.%n%nGo and get a few trees like Bloodwood, Fusewood, Darkwood or Ghostwood out of the Nether.%n%nThese trees can be planted like normal trees, except for Bloodwood.  That has to planted on a ceiling and will grow down instead of up.
+gtnh.quest1741.desc=有一些非常有用的下界之树,它们提供了像红石,火药,骨粉或肥料等资源. 去下界找到这样的树吧,如血树,熔融树,黑暗树或幽魂树.这些树可以像普通的树木一样种植,除了血树.血树必须种在天花板上,然后它会向下生长而不是向上生长...
 
 # Quest.1742 - §6§lHelium 3 and Saltwater on Moon
 gtnh.quest1742.name=§6§l氦3和月球上的盐水
@@ -10538,9 +10450,7 @@ gtnh.quest2609.desc=如果想要一些这种高度神秘的材料,你需要前�
 
 # Quest.2610 - Tier 7 (ZPM)
 gtnh.quest2610.name=第7阶段(ZPM)
-// --- //gtnh.quest2610.desc=ZPM阶段. 都叫它ZPM,你知道这个名字是来自美剧《星际之门-SG1》的零点模块(Zero-Point-Module)吗,延续这个故事,试试看吧! 完成传奇任务前一半的奖励之一就是一块充满的零点模块.
-// +++ //gtnh.quest2610.desc=The ZPM tier. Speaking of ZPM, did you know the name is based on the Zero Point Module from the show Stargate SG-1, which continues the story of the movie? It's a great show, go watch it! Maybe you have already found a depleted ZPM in the world generation. If you find some help, maybe you can even create a completely new one.
-// ↑↑↑ //gtnh.quest2610.desc=The ZPM tier. Speaking of ZPM, did you know the name is based on the Zero Point Module from the show Stargate SG-1, which continues the story of the movie? It's a great show, go watch it! You can also get one for completing the first half of the Legendary Quests tab.
+gtnh.quest2610.desc=ZPM阶段. 都叫它ZPM,你知道这个名字是来自美剧《星际之门-SG1》的零点模块(Zero-Point-Module)吗,延续这个故事,试试看吧! 也许你已经在世界中找到一个电量几乎耗尽的零点模块了.如果你能找到些帮助,或许甚至能创造一个全新的.
 
 # Quest.2611 - You Cant Get Enough of This Pt 1 in ZPM
 gtnh.quest2611.name=ZPM阶段永远不够Pt 1
@@ -11950,9 +11860,7 @@ gtnh.quest2960.desc=2阶线圈可以解锁MkIV、MkV燃料.
 
 # Quest.2961 - Naquadah Based Fuel MkI
 gtnh.quest2961.name=硅岩基流体燃料-MkI
-// --- //gtnh.quest2961.desc=每mB出产220,000-EU/t,持续1秒.看起来不太行.
-// +++ //gtnh.quest2961.desc=220,000 EU/t lasting 1s per mB. Doesn't looks very good.
-// ↑↑↑ //gtnh.quest2961.desc=220 000 EU/t lasting 1s per mB. Doesn't looks very good.
+gtnh.quest2961.desc=每mB出产220,000-EU/t,持续1秒.看起来不太行.
 
 # Quest.2962 - Naquadah Based Fuel MkII
 gtnh.quest2962.name=硅岩基流体燃料-MkII
@@ -12690,9 +12598,7 @@ gtnh.quest3142.desc=§W欢迎来到我的TED演讲,今天我们来谈谈§6§l�
 
 # Quest.3143 - Quantum Chestplate
 gtnh.quest3143.name=量子胸甲
-// --- //gtnh.quest3143.desc=你也能造出量子胸甲.它能飞,但它的悬停模式不是很理想,比进阶纳米重力胸甲慢很多,因为没有加速模式.你真正想要的是重力胸甲,但那要等到ZPM阶段才能造.%n%n你还可以制作注魔胸甲.
-// +++ //gtnh.quest3143.desc=You can make a Quantum Chestplate as well. You can fly with it, but the hover mode is not great and it is a lot slower than the Advanced NanoChestPlate because it doesn't have a boost mode. What you really want is the GraviChestPlate but that is ZPM-tier. Alternatively you can make a magic infused chestplate.
-// ↑↑↑ //gtnh.quest3143.desc=Thought you can make Quantum Chestplate as well? Yes technically you can, but you may not want to, since you can't fly with it, and GraviChestPlate is ZPM-tier.%n%nAlternatively you can make magic infused chestplate, but in any case I suggest not to make Quantum Chestplate until you are ready.
+gtnh.quest3143.desc=你也能造出量子胸甲.它能飞,但它的悬停模式不是很理想,比进阶纳米重力胸甲慢很多,因为没有加速模式.你真正想要的是重力胸甲,但那要等到ZPM阶段才能造.%n%n你还可以制作注魔胸甲.
 
 # Quest.3144 - Too much Indium?
 gtnh.quest3144.name=铟太多了?
@@ -13088,9 +12994,7 @@ gtnh.quest3240.desc=现实屈服于你的意志.
 
 # Quest.3241 - Round two... FIGHT!
 gtnh.quest3241.name=第二回合...开打!
-// --- //gtnh.quest3241.desc=现在用你击杀盖亚守护者得到的盖亚之魂合成一个盖亚魂锭.%n%n在正确的位置放置4个盖亚水晶,手持盖亚魂锭,shift+右击激活的信标,召唤增强版的盖亚守护者.
-// +++ //gtnh.quest3241.desc=Now craft a Gaia Spirit ingot with your new Gaia Spirit from killing the Gaia guardian.%n%nPut the 4 pylons down and shift right click the Gaia Spirit ingot on the beacon to summon a harder version of Gaia Guardian.
-// ↑↑↑ //gtnh.quest3241.desc=Now craft a Gaia Sprit ingot with your new Gaia Sprit from killing the Gaia guardian.%n%nPut the 4 pylons down and shift right click the Gaia Sprit ingot on the beacon to summon a harder version of Gaia Guardian.
+gtnh.quest3241.desc=现在用你击杀盖亚守护者得到的盖亚之魂合成一个盖亚魂锭.%n%n在正确的位置放置4个盖亚水晶,手持盖亚魂锭,shift+右击激活的信标,召唤增强版的盖亚守护者.
 
 # Quest.3242 - UMV Circuits
 gtnh.quest3242.name=UMV电路板
@@ -13133,8 +13037,8 @@ gtnh.quest3250.name=AE2流体合成(AE2FC)
 // ↑↑↑ //gtnh.quest3250.desc=Well well well, what do we have here? Flasks are redundant now? NO WAY! %nAnyway, while you can listen to those who swear flasks are *the shit* and *the only way* you can automate fluid crafting and Assline, you can use this powerful addon backported by GlodBlock. All praise our king!%n%nNow, what do you need to get that juicy stuff working?%nEvery Me-System needs a Fluid Discretizer. It allows for on demand crafting. While you can use AE2FC without Fluid Discretizer for moving fluids, you need a Discretizer for autocrafting.%n%nThen you also need a fluid terminal or a fluid processing terminal for assembly line. %n%nWhen creating patterns you will notice your fluids being placed as if they were items. %nYour finished patterns will look blue-ish. Placing those in a Dual Interface will allow AE2 to push the fluids and items both. Note. Fluids are being sent first, then items.%nYou can switch the dual interface on the top right if you want it to keep fluids in stock. %n%nIf you use a blue pattern (fluid pattern) in a normal interface, AE2 will send the fluid as a fluid packet. This is just a representation of the fluid as an item. A fluid decoder can turn it back into a fluid and saves it in the fluid grid.%nWe use this feature for Assline. %n%nYou can use an ingredient buffer (large or normal) so your items and fluids sent by a pattern can get stored internally in one block. The normal buffer can hold 9 items and 4 fluids whereas the large one can hold 27 items and 7 fluids.%nYou can use it to automate multiblocks with e.g item and fluid conduits. %n%nIf you want to automate single blocks its as easy as eating chocolate cake while on your diet:%nMake the pattern, make an interface, boom- done!%nIt will automatically insert the fluid in the fluid inventory of a single block machine. %n%nAutomating Assembly line is easy. It follows the typical flask setup but replaces tanks with fluid decoders and a fluid storage bus to insert the fluids. Also we are sending fluids first, then items by using the priority button (made by Runakai and Rukern) in the fluid processing terminal. Make sure to give the decoders their own sub-mes. If you need more detailled information, visit the wiki:%n%nhttps://gtnh.miraheze.org/wiki/AE2FC%n%nYou can use ExtraCells and AE2FC in combination. However, AE2FC cells are recommended. There is no Fluid Monitor or Storage Bus from AE2FC so use ExtraCells for those. %n
 
 # Quest.3251 - The Final Goal
-// +++ //gtnh.quest3251.name=The Final Goal
-// +++ //gtnh.quest3251.desc=Thanks to your help I have managed to create the ultimate energy source: An encased wormhole that drains energy from a synthesized pocket universe, to the point when it reaches heat death. I have no use for it, so you may have it. Thank you for making my dream come true!
+gtnh.quest3251.name=最终的目标
+gtnh.quest3251.desc=在你的帮助下,我终于创造了一个终极的能量来源:一个被磁场包裹的迷你虫洞.它将从人工宇宙中吸取能量,直到它生命的终点-热寂. 你已经帮助我完成了我的梦想.这个虫洞对我没什么实际用处,所以现在它是你的了. 最后再次感谢你,我的朋友!
 
 ##################################Line##################################
 
