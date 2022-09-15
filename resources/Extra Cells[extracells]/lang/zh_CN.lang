@@ -1,13 +1,15 @@
-//**********//
-//EXTRACELLS//
-//**********//
+############
+#EXTRACELLS#
+############
 
-//Items
+#Items
 extracells.item.storage.physical.256k.name=256K-ME存储元件
 extracells.item.storage.physical.1024k.name=1024K-ME存储元件
 extracells.item.storage.physical.4096k.name=4096K-ME存储元件
 extracells.item.storage.physical.16384k.name=16384K-ME存储元件
 extracells.item.storage.physical.container.name=ME方块容器
+extracells.item.storage.physical.advanced.singularity.name=ME数字奇点
+extracells.item.storage.physical.advanced.quantum.name=ME量子存储元件
 extracells.item.storage.fluid.1k.name=1K-ME流体存储元件
 extracells.item.storage.fluid.4k.name=4K-ME流体存储元件
 extracells.item.storage.fluid.16k.name=16K-ME流体存储元件
@@ -51,14 +53,14 @@ extracells.item.terminal.universal.wireless.name=无线ME通用终端
 extracells.item.fluid.pattern=ME流体模板[WIP]
 extracells.item.oc.upgrade.name=ME升级
 
-//Creative Tab
+#Creative Tab
 itemGroup.Extra_Cells=更多存储单元2
 
-//Item Groups
+#Item Groups
 extracells.fluid.IO=ME流体输出/输入总线
 extracells.fluid.plane=ME流体成型/破坏面板
 
-//Parts
+#Parts
 extracells.part.fluid.export.name=ME流体输出总线
 extracells.part.fluid.import.name=ME流体输入总线
 extracells.part.fluid.storage.name=ME流体存储总线
@@ -79,7 +81,7 @@ extracells.part.gas.levelemitter.name=ME气体发信器
 extracells.part.gas.conversion.monitor.name=ME气体交互监控器
 extracells.part.gas.monitor.name=ME气体存储监控器
 
-//Blocks
+#Blocks
 extracells.block.certustank=赛特斯石英水槽
 extracells.block.walrus.name=海象
 extracells.block.fluidcrafter.name=ME流体装配室
@@ -92,7 +94,7 @@ tile.extracells.block.craftingstorage.16384k.name=16384k合成存储器
 tile.extracells.block.vibrantchamberfluid.name=流体谐振仓
 tile.extracells.block.hardmedrive.name=防爆ME驱动器[WIP]
 
-//Tooltips and Chat-Messages
+#Tooltips and Chat-Messages
 extracells.tooltip.amount=总量
 extracells.tooltip.fluid=流体
 extracells.tooltip.storage.physical.types=%s/%s个物品类型已使用.
@@ -124,5 +126,6 @@ extracells.tooltip.essentia=源质
 extracells.tooltip.installed=已安装:
 extracells.tooltip.crafting=正在合成
 
-//Buttons
+#Buttons
 extracells.gui.craft=合成
+extracells.gui.fluid.storage=流体存储总线

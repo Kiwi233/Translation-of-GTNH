@@ -24,8 +24,15 @@ item.structurelib.constructableTrigger.name=多方块机器全息投影仪
 item.structurelib.constructableTrigger.desc.0=触发可构造界面
 item.structurelib.constructableTrigger.desc.1=显示多方块结构全息投影,
 item.structurelib.constructableTrigger.desc.2=请对多方块控制器使用.
-item.structurelib.constructableTrigger.desc.3=(在创造模式下潜行右键可直接构造)
+item.structurelib.constructableTrigger.desc.3=(潜行右键控制器方块可直接构造)
 item.structurelib.constructableTrigger.desc.4=堆叠数量影响等级/模式/类型
+item.structurelib.constructableTrigger.too_fast=请等待 %d t，再进行下一次自动构造...
+
+structurelib.autoplace.built_stat=已放置 %s 个方块
+structurelib.autoplace.complete=§a此多方块机器已构造完成!
+structurelib.autoplace.error.not_enabled=§c此多方块机器不支持生存模式自动构造!
+structurelib.autoplace.error.no_simple_block=§c建议放置 §r%s§c ,但未在物品栏中找到
+structurelib.autoplace.error.no_item_stack=§c建议使用 §r%s§c 放置方块,但未在物品栏中找到
 
 structurelib.blockhint.desc.0=帮助构建多方块机器
 structurelib.blockhint.0.name=提示方块：1号
