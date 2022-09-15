@@ -55,11 +55,11 @@ item.MiscUtils.material.dustCryotheum.name=凛冰之尘
 item.MiscUtils.material.rodBlizz.name=暴雪棒
 item.MiscUtils.material.dustBlizz.name=暴雪粉
 
-//============= 'miscutils' is Case Sensitive Here, unsure why
+//------------- 'miscutils' is Case Sensitive Here, unsure why
 tile.miscutils.fluid.pyrotheum.name=烈焰之炽焱
 tile.miscutils.fluid.cryotheum.name=极寒之凛冰
 tile.miscutils.fluid.ender.name=谐振熔融末影珍珠
-//==============
+//--------------
 
 //Forestry Stuff
 item.frameAccelerated.name=加速框架
@@ -97,8 +97,9 @@ item.itemPLACEHOLDER_Circuit.name=夸克操纵者 (UV)
 item.itemPlateEnrichedSoularium.name=富集阳光合金板
 item.itemHeliumBlob.name=神秘氢气物质
 item.itemAlkalusDisk.name=Alkalus圆盘
-item.itemHotIngotRaisinBread.name=一份热葡萄干面包
-item.itemIngotRaisinBread.name=一份葡萄干面包
+# The following 2 keys have been deprecated and overwritten
+# item.itemHotIngotRaisinBread.name=一份热葡萄干面包
+# item.itemIngotRaisinBread.name=§5ImQ009的§f葡萄干面包
 
 //Misc Blocks
 tile.blockCompressedObsidian.0.name=压缩黑曜石(9)
@@ -1942,7 +1943,7 @@ tile.blockHellFire.name=地狱之火
 tile.blockProjectBench.name=工程台
 tile.blockTradeBench.name=贸易台
 tile.blockModularity.name=模块化工作台
-tile.blockBlackGate.name=凋零笼子
+tile.blockBlackGate.name=凋灵笼子
 tile.blockTankXpConverter.name=经验转换器
 
 //Everglades Blocks
@@ -1959,9 +1960,10 @@ tile.Block of Plutonium-239.name=钚-239块
 tile.Fluorite Ore [Old].name=氟石矿[不可用的]
 tile.blockMiningPipeFake.name=强化钢筋挖掘管道
 tile.blockMiningHeadFake.name=基岩钻头
-item.itemCellLiFBeF2ThF4UF4.name=熔盐单元[铀钍复合氟化物]
-item.itemCellLiFBeF2ZrF4UF4.name=熔盐单元[铀锆复合氟化物]
-item.itemCellLiFBeF2ZrF4U235.name=熔盐单元[铀235复合氟化物]
+# The following 3 keys have been deprecated and overwritten
+# item.itemCellLiFBeF2ThF4UF4.name=Cell of Molten Salt [LiFBeF2ThF4UF4]
+# item.itemCellLiFBeF2ZrF4UF4.name=Cell of Molten Salt [LiFBeF2ZrF4UF4]
+# item.itemCellLiFBeF2ZrF4U235.name=Cell of Molten Salt [LiFBeF2ZrF4U235]
 item.itemPlateMeatRaw.name=生肉板
 tile.Block of MeatRaw.name=生肉块
 
@@ -2546,7 +2548,7 @@ item.item.ToolBox.name=工人的工具箱
 //Cells
 item.Bromine.name=溴单元
 item.Krypton.name=氪单元
-item.cryotheum.name=凛冰单元
+item.cryotheum.name=极寒之凛冰单元
 item.pyrotheum.name=烈焰之炽焱单元
 item.GeneticMutagen.name=诱变剂单元
 
@@ -2682,14 +2684,14 @@ item.particle.ion.Oganesson.name=鿫离子
 
 
 item.particle.base.Graviton.name=引力子
-item.particle.base.Up.name=u夸克
-item.particle.base.Down.name=b夸克
-item.particle.base.Charm.name=c夸克
-item.particle.base.Strange.name=s夸克
-item.particle.base.Top.name=t夸克
-item.particle.base.Bottom.name=b夸克
-item.particle.base.Electron.name=e子
-item.particle.base.Electron Neutrino.name=e子中微子
+item.particle.base.Up.name=上(u)夸克
+item.particle.base.Down.name=下(d)夸克
+item.particle.base.Charm.name=粲(c)夸克
+item.particle.base.Strange.name=奇(s)夸克
+item.particle.base.Top.name=顶(t)夸克
+item.particle.base.Bottom.name=底(b)夸克
+item.particle.base.Electron.name=电子
+item.particle.base.Electron Neutrino.name=电子中微子
 item.particle.base.Muon.name=μ子
 item.particle.base.Muon Neutrino.name=μ子中微子
 item.particle.base.Tau.name=τ子
@@ -2701,8 +2703,8 @@ item.particle.base.W Boson.name=W玻色子
 item.particle.base.Higgs Boson.name=希格斯玻色子
 item.particle.base.Proton.name=质子
 item.particle.base.Neutron.name=中子
-item.particle.base.Lambda.name=λ
-item.particle.base.Omega.name=Ω
+item.particle.base.Lambda.name=λ粒子
+item.particle.base.Omega.name=Ω粒子
 item.particle.base.Pion.name=介子
 item.particle.base.ETA Meson.name=η介子
 item.particle.base.Unknown.name=未知粒子
@@ -2724,7 +2726,7 @@ item.GTPP.BattPack.09.name=充电工具包[MAX]
 
 
 //Added 13/3/19
-item.gtpp.debug.scanner.name=GT++排错扫描器
+item.gtpp.debug.scanner.name=GT++Debug扫描器
 item.RawWaste.name=动物粪便单元
 item.ManureSlurry.name=粪浆单元
 item.FertileManureSlurry.name=肥沃的粪浆单元
@@ -3109,13 +3111,14 @@ item.BasicGenericChemItem.5.name=棕色金属催化剂
 item.MudRedSlurry.name=红色泥浆单元
 item.liquid_toluene.name=甲苯单元
 
-item.BasicAlgaeItem.0.name=可培植藻类(I)
-item.BasicAlgaeItem.1.name=可培植藻类(II)
-item.BasicAlgaeItem.2.name=可培植藻类(III)
-item.BasicAlgaeItem.3.name=可培植藻类(IV)
-item.BasicAlgaeItem.4.name=可培植藻类(V)
-item.BasicAlgaeItem.5.name=可培植藻类(VI)
-item.BasicAlgaeItem.6.name=可培植藻类(VII)
+# The following 7 keys have been deprecated and overwritten
+# item.BasicAlgaeItem.0.name=Algae Spore (I)
+# item.BasicAlgaeItem.1.name=Algae Spore (II)
+# item.BasicAlgaeItem.2.name=Algae Spore (III)
+# item.BasicAlgaeItem.3.name=Algae Spore (IV)
+# item.BasicAlgaeItem.4.name=Algae Spore (V)
+# item.BasicAlgaeItem.5.name=Algae Spore (VI)
+# item.BasicAlgaeItem.6.name=Algae Spore (VII)
 
 //Added 17/01/20
 item.BasicGenericChemItem.6.name=粉色金属催化剂
@@ -3387,3 +3390,6 @@ item.miscutils:magicfeather.name=魔法羽毛
 
 //Added 10/02/22
 item.BasicGenericChemItem.14.name=固体酸催化剂
+
+//Added 30/05/22
+item.BasicGenericChemItem.15.name=无尽突变催化剂

@@ -582,7 +582,7 @@ game.setLocalization("tc.research_page.TRANSCENDENTORB.1", "\u4f60\u5df2\u7ecf\u
 game.setLocalization("tc.research_page.TRANSCENDENTORB.2", "\u795d\u8d3a\u4f60,\u5c60\u9b54\u8005,6\u9636\u6c14\u8840\u5b9d\u73e0\u5c31\u662f\u6700\u597d\u7684\u56de\u62a5,\u5b83\u65e0\u9700\u4efb\u4f55\u7b26\u6587\u5347\u7ea7\u5373\u53ef\u5bb9\u7eb330,000,000LP.\u6240\u6709LP\u6765\u6e90\u90fd\u5904\u4e8e\u4f60\u7684\u638c\u63a7\u4e4b\u4e2d,\u800c\u5370\u8bb0\u7684\u4e9b\u5fae\u6d88\u8017\u5df2\u7ecf\u53ef\u4ee5\u5ffd\u7565\u4e0d\u8ba1.<BR><BR>\u6574\u4e2a\u4e16\u754c\u5c3d\u5728\u638c\u4e2d,\u53ea\u987b\u7d27\u63e1\u6210\u62f3.\u5b83\u4e0d\u4f1a\u7834\u788e,\u5b83\u53ea\u4f1a\u6210\u957f,\u53d8\u5f97\u66f4\u5f3a,\u5b83\u53ea\u5c5e\u4e8e\u4f60.\u672a\u6765\u4e0d\u5b9a,\u4f46\u6210\u529f\u53ef\u671f.<BR><BR>\u5982\u679c\u4e4b\u524d\u8fd8\u56e0\u4e3a\u6ca1\u6709\u8db3\u591f\u7684\u80fd\u91cf\u5236\u9020\u67d0\u4e9b\u5f3a\u5927\u7684\u8840\u9b54\u6cd5\u539f\u6599,\u90a3\u4e48\u73b0\u5728\u4e00\u5207\u90fd\u4e0d\u6210\u4e3a\u969c\u788d,\u53ea\u662f\u65f6\u95f4\u95ee\u9898.");
 mods.thaumcraft.Arcane.addShaped("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>, "aer 150, aqua 150, ignis 150, terra 150, perditio 150, ordo 150", [
 [null, <AWWayofTime:blockCrystal>, null],
-[<BloodArsenal:sigil_of_lightning:1>, <dreamcraft:item.RawOrbTier6>, <BloodArsenal:sigil_of_lightning:1>],
+[<BloodArsenal:sigil_of_lightning>, <dreamcraft:item.RawOrbTier6>, <BloodArsenal:sigil_of_lightning>],
 [null, <AWWayofTime:blockCrystal>, null]]);
 mods.thaumcraft.Research.addArcanePage("TRANSCENDENTORB", <dreamcraft:item.TranscendentOrb>);
 mods.thaumcraft.Warp.addToResearch("TRANSCENDENTORB", 6);

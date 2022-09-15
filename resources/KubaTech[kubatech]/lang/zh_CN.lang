@@ -1,0 +1,25 @@
+#This file is a translation file for KubaTech
+
+#NEI
+mobhandler.normal_drops=常规掉落
+mobhandler.rare_drops=稀有掉落
+mobhandler.additional_drops=额外掉落
+mobhandler.infernal_drops=精英掉落
+mobhandler.infernal_cannot=无法生成精英怪
+mobhandler.infernal_can=可以生成精英怪
+mobhandler.infernal_always=总是生成精英怪
+mobhandler.mod=Mod: 
+mobhandler.max_health=最大生命值：
+mobhandler.chance=几率：
+mobhandler.average_reminder=§7§o请注意，这些是掉落的平均期望值.
+
+#Commands
+commandhandler.invalid=§c无效使用 ! 该指令的正确使用是 /%s
+commandhandler.cant_find=§c找不到指令选项 %s
+commandhandler.generic_help=§c你还可以用 "/kubatech help" 获取可能的指令
+commandhandler.usage=<选项>
+command.help.possible_commands=可能的指令：
+command.help.usage=- 显示所有可能的指令
+command.config.invalid_option=§c无效选项 ! 可能的选项：reload
+command.config.success=§a配置(Config)重新加载成功 !
+command.config.usage=<选项>

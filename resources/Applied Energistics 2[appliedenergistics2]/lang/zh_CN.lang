@@ -217,6 +217,7 @@ gui.appliedenergistics2.Automatic=自动分配
 gui.appliedenergistics2.Start=开始
 gui.appliedenergistics2.Missing=缺失
 gui.appliedenergistics2.Bytes=可存储
+gui.appliedenergistics2.Set=设置
 gui.appliedenergistics2.Simulation=合成模拟
 gui.appliedenergistics2.CoProcessors=并行处理单元
 gui.appliedenergistics2.CraftingCPU=合成CPU
@@ -238,12 +239,25 @@ gui.appliedenergistics2.Partitioned=分区
 gui.appliedenergistics2.PartitionedOre=矿典过滤卡
 gui.appliedenergistics2.Precise=精确匹配
 gui.appliedenergistics2.Fuzzy=模糊匹配
+gui.appliedenergistics2.Filter=过滤
 gui.appliedenergistics2.SmallFontCraft=合成
 gui.appliedenergistics2.LargeFontCraft=+
 gui.appliedenergistics2.Renamer=自定义名称: (回车保存设置)
 gui.appliedenergistics2.OreFilterLabel=矿典过滤卡
 gui.appliedenergistics2.HoldShiftForTooltip=按住Shift以查看拓展tooltip
 gui.appliedenergistics2.Nothing=无
+
+# GUI Colors - ARGB
+gui.color.appliedenergistics2.SearchboxFocused=6E000000
+gui.color.appliedenergistics2.SearchboxUnfocused=00000000
+gui.color.appliedenergistics2.SearchboxFocused=6E000000
+gui.color.appliedenergistics2.SearchboxUnfocused=00000000
+gui.color.appliedenergistics2.ItemSlotOverlayUnpowered=66111111
+gui.color.appliedenergistics2.ItemSlotOverlayInvalid=66ff6666
+gui.color.appliedenergistics2.CraftConfirmMissingItem=1AFF0000
+gui.color.appliedenergistics2.CraftingCPUActive=5A45A021
+gui.color.appliedenergistics2.CraftingCPUScheduled=5AFFF7AA
+gui.color.appliedenergistics2.InterfaceTerminalMatch=2A00FF00
 
 # GUI Tooltips
 gui.tooltips.appliedenergistics2.Stash=存储物品
@@ -348,7 +362,9 @@ gui.tooltips.appliedenergistics2.SchedulingModeDefault=输出第一个物品直�
 gui.tooltips.appliedenergistics2.SchedulingModeRoundRobin=循环输出模式.
 gui.tooltips.appliedenergistics2.SchedulingModeRandom=随机输出模式.
 
+
 gui.tooltips.appliedenergistics2.ItemsStored=存储物品: %s
+gui.tooltips.appliedenergistics2.ItemCount=物品总数: %s
 gui.tooltips.appliedenergistics2.ItemsRequestable=可请求: %s
 gui.tooltips.appliedenergistics2.P2PFrequency=频率: %s
 gui.tooltips.appliedenergistics2.OreFilterHint=使用矿典名
@@ -369,7 +385,7 @@ gui.tooltips.appliedenergistics2.ToggleShowFullInterfacesOnDesc=显示所有接�
 gui.tooltips.appliedenergistics2.ToggleShowFullInterfacesOffDesc=仅显示有空缺的接口
 gui.tooltips.appliedenergistics2.ToggleShowOnlyInvalidInterface=切换显示无效样板接口
 gui.tooltips.appliedenergistics2.ToggleShowOnlyInvalidInterfaceOnDesc=显示所有接口
-gui.tooltips.appliedenergistics2.ToggleShowOnlyInvalidInterfaceOffDesc=进现实有无效样板的接口
+gui.tooltips.appliedenergistics2.ToggleShowOnlyInvalidInterfaceOffDesc=仅显示有无效样板的接口
 gui.tooltips.appliedenergistics2.HighlightInterface=高亮接口
 gui.tooltips.appliedenergistics2.SearchFieldInputs=样板输入物品
 gui.tooltips.appliedenergistics2.SearchFieldOutputs=样板输出物品

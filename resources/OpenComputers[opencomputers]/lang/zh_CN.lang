@@ -49,7 +49,8 @@ item.oc.ALU.name=算逻运算单元(ALU)
 item.oc.Analyzer.name=分析器
 item.oc.APU0.name=加速运算单元(APU)(T2)
 item.oc.APU1.name=加速运算单元(APU)(T3)
-item.oc.APU2.name=加速运算单元(APU)(T3)
+# Deprecated and overwritten
+# item.oc.APU2.name=Accelerated Processing Unit (APU) (Creative)
 item.oc.ArrowKeys.name=方向键
 item.oc.ButtonGroup.name=按钮组
 item.oc.CardBase.name=基板
@@ -75,7 +76,8 @@ item.oc.DiskDriveMountable.name=磁盘
 item.oc.Drone.name=无人机
 item.oc.DroneCase0.name=基础机器人外壳
 item.oc.DroneCase1.name=高级机器人外壳
-item.oc.DroneCase3.name=超级机器人外壳
+# Deprecated and overwritten
+# item.oc.DroneCase3.name=Drone Case (Creative)
 item.oc.eeprom.name=EEPROM(电可擦除可编程只读存储器)
 item.oc.FloppyDisk.name=软盘
 item.oc.GraphicsCard0.name=基础显卡
@@ -103,7 +105,8 @@ item.oc.Microchip1.name=高级微芯片
 item.oc.Microchip2.name=超级微芯片
 item.oc.MicrocontrollerCase0.name=基础微控制器外壳
 item.oc.MicrocontrollerCase1.name=高级微控制器外壳
-item.oc.MicrocontrollerCase3.name=超级微控制器外壳
+# Deprecated and overwritten
+# item.oc.MicrocontrollerCase3.name=Microcontroller Case (Creative)
 item.oc.Nanomachines.name=纳米机器
 item.oc.NetworkCard.name=网卡
 item.oc.NumPad.name=数字键盘
@@ -115,11 +118,13 @@ item.oc.RedstoneCard1.name=高级红石卡
 item.oc.Server0.name=基础服务器
 item.oc.Server1.name=高级服务器
 item.oc.Server2.name=超级服务器
-item.oc.Server3.name=特级服务器
+# Deprecated and overwritten
+# item.oc.Server3.name=Server (Creative)
 item.oc.Tablet.name=平板电脑
 item.oc.TabletCase0.name=平板电脑保护套T1
 item.oc.TabletCase1.name=平板电脑保护套T2
-item.oc.TabletCase3.name=平板电脑保护套T3
+# Deprecated and overwritten
+# item.oc.TabletCase3.name=Tablet Case (Creative)
 item.oc.Terminal.name=远程终端
 item.oc.TerminalServer.name=终端服务器
 item.oc.TexturePicker.name=材质选择器
@@ -159,9 +164,15 @@ item.oc.WirelessNetworkCard0.name=无线网卡
 item.oc.WirelessNetworkCard1.name=无线网卡
 item.oc.WorldSensorCard.name=世界感应卡
 item.oc.wrench.name=螺丝刀扳手
+item.oc.APU2.name=加速运算单元(APU)(T3)
+item.oc.DroneCase3.name=超级机器人外壳
+item.oc.MicrocontrollerCase3.name=超级微控制器外壳
+item.oc.Server3.name=特级服务器
+item.oc.TabletCase3.name=平板电脑保护套T3
 item.oc.UpgradeBeekeeper.name=养蜂员升级
 item.oc.UpgradeRITEG.name=放射性同位素温差发电机升级
 item.oc.UpgradeConfigurator.name=配置器升级
+item.oc.TpsCard.name=TPS卡
 
 # Entities
 entity.oc.Drone.name=无人机

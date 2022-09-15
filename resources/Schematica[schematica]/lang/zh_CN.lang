@@ -13,6 +13,8 @@ schematica.gui.movehere=移动到此处
 schematica.gui.flip=对称
 schematica.gui.rotate=旋转
 schematica.gui.save=保存
+schematica.gui.name=名称
+schematica.gui.savecoordinates=保存坐标
 schematica.gui.moveschematic=移动Schematic文件
 schematica.gui.layers=层
 schematica.gui.operations=操作
@@ -106,6 +108,10 @@ schematica.config.schematicDirectory=Schematic目录
 schematica.config.schematicDirectory.tooltip=Schematic目录.
 schematica.config.extraAirBlocks=额外空气方块
 schematica.config.extraAirBlocks.tooltip=要视为空气的Schematic渲染额外方块.
+
+# chat
+Schematica.chat.saveCoordinatesSuccess=保存坐标成功
+Schematica.chat.saveCoordinatesFail=保存坐标失败
 
 # gui - config - server
 schematica.config.printerEnabled=启用投影

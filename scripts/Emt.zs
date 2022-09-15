@@ -670,7 +670,7 @@ game.setLocalization("tc.research_name.SolarHelmetofRevealing", "\u592a\u9633\u8
 game.setLocalization("tc.research_text.SolarHelmetofRevealing", "\u9633\u5149\u592a\u523a\u773c\u4e86");
 mods.thaumcraft.Research.addPage("SolarHelmetofRevealing", "tc.research_page.SolarHelmetofRevealing");
 game.setLocalization("tc.research_page.SolarHelmetofRevealing", "\u4f60\u73b0\u5728\u6709\u4e86\u4e00\u9876\u50cf\u4f60\u7684\u91cf\u5b50\u63ed\u793a\u62a4\u76ee\u955c\u4e00\u6837\u5de5\u4f5c\u7684\u5934\u76d4,\u4e5f\u80fd\u7ed9\u4f60\u80cc\u5305\u9ed1\u7a7f\u7740\u7684\u88c5\u5907\u5145\u7535!
-\u5728\u767d\u5929\u4ee5128EU/t\u529f\u7387\u53d1\u7535,\u591c\u665a\u4e0d\u53d1\u7535.");
+\u5728\u767d\u5929\u4ee52048EU/t\u529f\u7387\u53d1\u7535,\u591c\u665a\u4e0d\u53d1\u7535.");
 mods.thaumcraft.Infusion.addRecipe("SolarHelmetofRevealing", <EMT:QuantumGogglesRevealing:32767>,
 [<EMT:EMTSolars:1>, <gregtech:gt.blockmachines:1624>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.metaitem.01:32694>, <dreamcraft:item.MysteriousCrystal>, <IC2:itemBatLamaCrystal:32767>, <dreamcraft:item.MysteriousCrystal>, <gregtech:gt.metaitem.01:32694>, <gregtech:gt.metaitem.01:17324>, <gregtech:gt.blockmachines:1624>], 
 "tutamen 64, potentia 48, sensus 32, praecantatio 24, auram 16, electrum 16, lucrum 8, aer 16, lux 32", <EMT:SolarHelmetRevealing:27>, 12);
@@ -1007,7 +1007,7 @@ mods.thaumcraft.Research.setRound("LightningSummoner", true);
 game.setLocalization("tc.research_name.LightningSummoner", "\u96f7\u7535\u788e\u7247");
 game.setLocalization("tc.research_text.LightningSummoner", "\u4ece\u6b7b\u654c\u90a3\u91cc\u83b7\u5f97");
 mods.thaumcraft.Research.addPage("LightningSummoner", "tc.research_page.LightningSummoner");
-game.setLocalization("tc.research_page.LightningSummoner", "\u8fd9\u4e2a\u7269\u54c1\u662f\u4f60\u7684\u6b7b\u654c:\u9ad8\u538b\u82e6\u529b\u6015\u6240\u6389\u843d\u7684.
+game.setLocalization("tc.research_page.LightningSummoner", "\u8fd9\u4e2a\u7269\u54c1\u662f\u4f60\u7684\u6b7b\u654c:\u9ad8\u538b\u722c\u884c\u8005\u6240\u6389\u843d\u7684.
 \u4f60\u89c9\u5f97\u5b83\u4ee5\u540e\u4f1a\u6d3e\u4e0a\u7528\u573a.<BR><BR>\u5982\u679c\u4f60\u7684\u8fd0\u6c14\u4e0d\u662f\u592a\u597d,\u6211\u8fd9\u91cc\u6709\u79cd\u7528\u9b54\u6cd5\u6765\u5408\u6210\u96f7\u7535\u788e\u7247\u7684\u65b9\u6cd5.");
 mods.thaumcraft.Infusion.addRecipe("LightningSummoner", <Thaumcraft:FocusShock>,
 [<Thaumcraft:ItemResource:1>, <minecraft:skull:4>, <minecraft:tnt>, <Thaumcraft:ItemResource>, <minecraft:skull:4>, <minecraft:tnt>, <Thaumcraft:ItemResource:1>, <minecraft:skull:4>, <minecraft:tnt>], 

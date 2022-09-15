@@ -310,7 +310,7 @@ te.text.ENCHDISARM.1=你做出了一个有小几率从生物手中打落武器�
 --Binding Enchantment
 te.name.ENCHBINDING=附魔: 束缚
 te.tag.ENCHBINDING=还想跑?
-te.text.ENCHBINDING.1=你做出了一个能封锁生物行动的附魔.<BR><BR>该附魔能用于剑.附魔1级的剑击打生物会暂时减缓它们的行动.用附魔2级的剑攻击末影人将会组织它们的瞬间移动.击打爬行者则会暂时使它们无法爆炸.
+te.text.ENCHBINDING.1=你做出了一个能封锁生物行动的附魔.<BR><BR>该附魔能用于剑.附魔1级的剑击打生物会暂时减缓它们的行动.用附魔2级的剑攻击末影人将会阻止它们的瞬间移动.击打爬行者则会暂时使它们无法爆炸.
 
 --Night Vision Enchantment
 te.name.ENCHNIGHTVISION=附魔: 夜视
@@ -358,7 +358,7 @@ te.name.NECROINFUSION=亡灵注魔
 te.tag.NECROINFUSION=Kali ma! Kali maaa!
 te.text.NECROINFUSION.1=利用自然界的神秘能量固然好,不过你还想要更多.活体生物的能量是你长久以来的所求之物.终于,这一天到来了.<BR><BR>通过给奥术基座注入邪恶能量,装饰上亡灵生物的头颅,围绕着基座摆放五芒星形的蜡烛,你做出了一个能让你融合拥有邪恶能量的物品的祭坛.法杖右击就能启动祭坛.拿物品右击祭坛放入物品,shift并右击祭坛移除物品.
 te.text.NECROINFUSION.2=要注魔一个物品,只需用法杖点击一下.每次注魔都需要一定量的亡灵能量,或称NE(Necromantic Energy),可通过向祭坛献祭含有NE的物品来提供.为此,在祭坛上方点火然后投入物品.NE提供足够时,注魔就完成了.
-te.text.NECROINFUSION.3=下面展示了一个亡灵注魔祭坛的安装示例.<IMG>thaumicexploration:textures/tabs/altarSetup.png:0:0:255:255:0.5</IMG> 放在祭坛的头颅可以来自僵尸,骷髅射手,或是凋零骷髅.
+te.text.NECROINFUSION.3=下面展示了一个亡灵注魔祭坛的安装示例.<IMG>thaumicexploration:textures/tabs/altarSetup.png:0:0:255:255:0.5</IMG> 放在祭坛的头颅可以来自僵尸,骷髅射手,或是凋灵骷髅.
 
 --Taint Basics
 te.name.TAINTBASICS=腐化
