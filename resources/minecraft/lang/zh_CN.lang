@@ -7058,7 +7058,7 @@ gtnh.quest1763.desc=好吧,你有了台电脑,它一开机就会说“Hello Worl
 
 # Quest.1764 - Basic Power Display
 gtnh.quest1764.name=基本电源显示
-gtnh.quest1764.desc=对于这一部分,我们将学习如何使用我们的适配器,将它放在旁边-比如你的工业高炉(EBF)电池缓冲区并用线缆将它连接到计算机.%n现在让我们在计算机上键入lua以打开LUA环境我们可以测试事物而不用担心保存和尝试我们的程序.%n%n在'component.list()'中输入这将显示一个包含组件中所有.list的表.我们正在寻找的是gt_batterybuffer.%n如果附近有太多东西可能无法显示,搜索整个组件列表的方式对于初学者来说太先进了.%n%n现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法.%n我们在这个例子中将使用的是'getBatteryCharge'方法.因此输入\ n'a.getBatteryCharge(1)'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge.%n%n因此,如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print(a.getBatteryCharge(i))end 目前你看看EU所有电池的价值.现在我们可以做些什么呢？%n%n尝试制作一个名为'batteryCharge = 0'的变量,现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge(i)end'%n%n现在打印( batteryCharge)将显示总电量.这是一个使用它的程序示例.%n%n在你的磁带机中放置并键入“install”,然后按照提示将其安装到C中.然后编辑它,测试它,确定它是如何工作的.%n%n我想这就足够了;恭喜!实验和学习,不要忘记尽可能多地检查谷歌! 这个任务线将来会再次更新;但我认为现在这是一个很好的结局.%n%n%n%n原文:For this part we will learn how to use our adapter,place it next to,let's say your EBFs battery buffer and connect it to the computer with cables.%nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.%n%nType in 'component.list()' this will display a table of all of .list from component. What we're looking for is gt_batterybuffer.%nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.%n%nSo now assign a variable to it; for example 'a = component.gt_batterybuffer'; now we can call 'a' to see what methods the batteryBuffer has.%nWhat we'll be using in this example is the 'getBatteryCharge' method. So type  'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.%n%nSo if we're using a 2x2 battery buffer; we can type something like,'for i=1,4 do print(a.getBatteryCharge(i)) end'%nPoof you now see what all the batteries EU values. Now what can we do with this?%n%nTry making a variable called 'batteryCharge = 0',now do 'for i=1,4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'%n%nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.%n%nPlace in your tape drive and type 'install',and follow the promps to install it into C. Then edit it,test it,figure how it works.%n%nI suppose that's enough for now; congrats! Experiment and learn,and don't forget to check google as much as possible!  %nThis questline will be updated again in the future; but I figure this is a good ending point for now.
+gtnh.quest1764.desc=在这一部分,我们将学习如何使用适配器,将它放在旁边-比如你的工业高炉(EBF)电池缓冲区并用线缆将它连接到计算机.%n现在让我们在计算机上键入'lua'以打开LUA环境,我们可以测试事物而不用担心保存和尝试我们的程序.%n%n在'component.list()'中输入这将显示一个包含组件中所有.list的表.我们正在寻找的是gt_batterybuffer.%n如果附近有太多东西可能无法显示,搜索整个组件列表的方式对于初学者来说太先进了.%n%n现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法.%n我们在这个例子中将使用的是'getBatteryCharge'方法.因此输入\ n'a.getBatteryCharge(1)'这将从组件中gt_batterybuffer的第一个库存槽调用方法getBatteryCharge.%n%n因此,如果我们使用的是2x2电池缓冲区;我们可以输入类似的东西 - 'for i = 1,4 do print(a.getBatteryCharge(i))end 目前你看看EU所有电池的价值.现在我们可以做些什么呢？%n%n尝试制作一个名为'batteryCharge = 0'的变量,现在执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge(i)end'%n%n现在打印( batteryCharge)将显示总电量.这是一个使用它的程序示例.%n%n在你的磁带机中放置并键入“install”,然后按照提示将其安装到C中.然后编辑它,测试它,确定它是如何工作的.%n%n我想这就足够了;恭喜!实验和学习,不要忘记尽可能多地检查谷歌! 这个任务线将来会再次更新;但我认为现在这是一个很好的结局.%n%n%n%n原文:For this part we will learn how to use our adapter,place it next to,let's say your EBFs battery buffer and connect it to the computer with cables.%nNow lets type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.%n%nType in 'component.list()' this will display a table of all of .list from component. What we're looking for is gt_batterybuffer.%nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.%n%nSo now assign a variable to it; for example 'a = component.gt_batterybuffer'; now we can call 'a' to see what methods the batteryBuffer has.%nWhat we'll be using in this example is the 'getBatteryCharge' method. So type  'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.%n%nSo if we're using a 2x2 battery buffer; we can type something like,'for i=1,4 do print(a.getBatteryCharge(i)) end'%nPoof you now see what all the batteries EU values. Now what can we do with this?%n%nTry making a variable called 'batteryCharge = 0',now do 'for i=1,4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'%n%nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.%n%nPlace in your tape drive and type 'install',and follow the promps to install it into C. Then edit it,test it,figure how it works.%n%nI suppose that's enough for now; congrats! Experiment and learn,and don't forget to check google as much as possible!  %nThis questline will be updated again in the future; but I figure this is a good ending point for now.
 
 # Quest.1765 - Online Shopping - Tier 1
 gtnh.quest1765.name=在线购物-第一阶
@@ -12894,7 +12894,7 @@ gtnh.quest3222.desc=你能做出的第一种魔力花卉就是白雏菊.这种�
 
 # Quest.3223 - Your first mana pool
 gtnh.quest3223.name=你的第一座魔力池
-gtnh.quest3223.desc=既然有活石了,就开始制造第一座魔力池吧.用锯子将活石切成台阶制作底部,用活石板将它们粘在一起制成四边.%n%n你缺乏使其变得有效的知识,所以很遗憾,你没法合成很多.
+gtnh.quest3223.desc=既然有活石了,就开始制造第一座魔力池吧.用锯子将活石切成台阶制作底部,把活石板粘在一起制成四边.%n%n你缺乏使其变得有效的知识,所以很遗憾,你没法用它一次合成很多东西.
 
 # Quest.3224 - Upgrading your mana pool
 gtnh.quest3224.name=升级魔力池
@@ -12902,20 +12902,20 @@ gtnh.quest3224.desc=既然你已经发现了被施以魔力的坩埚的力量,�
 
 # Quest.3225 - Pollination buddies
 gtnh.quest3225.name=授粉好伙伴
-gtnh.quest3225.desc=有些花到处都有,有些则仅限于特定的生物群落.如果你不想离家走太远,可以找些帮手.%n%n具有采蜜对象特性的蜜蜂会在它的工作范围内慢慢产生新的花卉,包括大量从遥远的牧场带来的.
+gtnh.quest3225.desc=有些花到处都有,有些则仅限于特定的生物群系.如果你不想离家走太远,可以找些帮手.%n%n具有采蜜对象特性的蜜蜂会在它的工作范围内慢慢产生新的花卉,包括大量从遥远牧场带来的品种.
 
 # Quest.3226 - Mana diamonds
 gtnh.quest3226.name=魔力钻石
-gtnh.quest3226.desc=魔力钻石是注入了魔力的钻石,制作它们需要的魔力取决于钻石的质量.%n%n一座全满的稀释魔力池勉强能把一颗精致的钻石转变成魔力钻石.只要你升级了魔力池,就可以用普通钻石了,不过魔力消耗会多些.
+gtnh.quest3226.desc=魔力钻石是注入了魔力的钻石,制作它们需要的魔力取决于钻石的质量.%n%n一座全满的稀释魔力池勉强能把一颗精致的钻石转变成魔力钻石.等到你升级一次魔力池之后,就可以用普通钻石了,不过魔力消耗会多些.
 
 # Quest.3227 - A glimpse into a watery future
 gtnh.quest3227.name=窥见水的未来
 // +++ //gtnh.quest3227.name=A glimpse into a watery future
-gtnh.quest3227.desc=下一步就是做催化器了.炼金催化器可以使用魔力,将物品或方块转变成相关的另一种物品或方块.%n%n把它放在充满的魔力池下面,做些海晶石试试.
+gtnh.quest3227.desc=下一步就是做催化器了.炼金催化器可以使用魔力,将物品或方块转变成相关的另一种物品或方块.%n%n把它放在充满的魔力池下面,做些海晶石试试.%n%n合成表需要魔导手册研究解锁.
 
 # Quest.3228 - Botanic infusion
 gtnh.quest3228.name=植物魔法注魔
-gtnh.quest3228.desc=你可以用符文祭坛制作符文,符文可以让你获得更高级的花卉.要使用祭坛,把材料放在上面，用森林魔杖右键祭坛,满足条件后,在祭坛上丢一颗活石以完成制作.你还需要一个魔力源,比如一个指向祭坛的魔力发射器.
+gtnh.quest3228.desc=你可以用符文祭坛制作符文,符文可以让你能够制作更高级的花卉.使用方法:把材料放在上面,用森林魔杖右键祭坛,满足条件后,在祭坛上丢一颗活石以完成制作.你还需要一个魔力源,比如一个指向祭坛的魔力发射器.
 
 # Quest.3229 - Terrasteel
 gtnh.quest3229.name=泰拉钢
@@ -12945,7 +12945,7 @@ gtnh.quest3234.desc=恭喜!你已经能制造超维度等离子锻炉了,这是�
 
 # Quest.3235 - Power in the Ether
 gtnh.quest3235.name=以太之力
-gtnh.quest3235.desc=这些全新的仓室让你能从任何维度的任何位置无线发送、存储、接收能量.它们可以放置在任何现有的多方块结构中,和正常的能源仓/动力仓作用相同.无线动力仓会消耗EU,并将其存储在一个与玩家绑定的全局无线网络中.这个无线网络可以存储2^(2^31)EU,远远超过了甚至是最高等级的激光仓.%n%n只要用/gt global_energy_join 玩家1 玩家2指令,就可以将其他玩家加入你的无线网络中,共享一个网络.这会使玩家1在与全局网络交互时使用玩家2的能量.%n%n你不能将导线/线缆接到无线能源仓/动力仓上.这也是为了也极大降低游戏延迟做的设计,这意味着为了防止不必要的计算发生,EU交互的时间间隔较大.这也可以从庞大的导线网络中节省下一些TPS延迟.%n%n§32^(2^31)是一个有646,456,994位的数字--如果你的计算器爆了的话.
+gtnh.quest3235.desc=这些全新的仓室让你能从任何维度的任何位置无线发送、存储、接收能量.它们可以放置在任何现有的多方块结构中,和正常的能源仓/动力仓作用相同.无线动力仓会消耗EU,并将其存储在一个与玩家绑定的全局无线网络中.这个无线网络可以存储2^(2^31)EU,远远超过了甚至是最高等级的激光仓.%n%n只要用/gt global_energy_join 玩家1 玩家2指令,就可以将其他玩家加入你的无线网络中,共享一个网络.这会使玩家1在与全局网络交互时使用玩家2的能量.%n%n你不能将导线/线缆接到无线能源仓/动力仓上.它们是为了尽量降低游戏延迟而设计的,这意味着为了防止不必要的计算发生,EU交互的时间间隔较大.这样你就无需搭建庞大的导线网络,从而节省下一些TPS延迟.%n%n§32^(2^31)是一个有646,456,994位的数字--如果你的计算器爆了的话.
 
 # Quest.3236 - Nano Circuits
 gtnh.quest3236.name=纳米电路
@@ -12965,7 +12965,7 @@ gtnh.quest3239.desc=其构造是你无法理解的.不过,这个高维度的物�
 
 # Quest.3240 - SpaceTime
 gtnh.quest3240.name=时空
-gtnh.quest3240.desc=现实本身也屈从于你的意志.
+gtnh.quest3240.desc=现实屈服于你的意志.
 
 # Quest.3241 - Round two... FIGHT!
 gtnh.quest3241.name=第二回合...开打!
@@ -12977,7 +12977,7 @@ gtnh.quest3242.desc=这是UMV电路板.
 
 # Quest.3243 - Finally, you are here.
 gtnh.quest3243.name=终于,你在这了.
-gtnh.quest3243.desc=干得好.你已经能制作游戏中最高级别的部件了.
+gtnh.quest3243.desc=干得好.你已经触碰到游戏中可合成的最高级部件了.
 
 # Quest.3244 - UXV Circuits
 gtnh.quest3244.name=UXV电路板
