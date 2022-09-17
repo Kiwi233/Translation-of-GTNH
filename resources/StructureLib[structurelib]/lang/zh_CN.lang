@@ -31,8 +31,8 @@ item.structurelib.constructableTrigger.too_fast=请等待 %d t，再进行下一
 structurelib.autoplace.built_stat=已放置 %s 个方块
 structurelib.autoplace.complete=§a此多方块机器已构造完成!
 structurelib.autoplace.error.not_enabled=§c此多方块机器不支持生存模式自动构造!
-structurelib.autoplace.error.no_simple_block=§c建议放置 §r%s§c ,但未在物品栏中找到
-structurelib.autoplace.error.no_item_stack=§c建议使用 §r%s§c 放置方块,但未在物品栏中找到
+structurelib.autoplace.error.no_simple_block=§c建议放置 §r%s§c ,但未在库存中找到
+structurelib.autoplace.error.no_item_stack=§c建议使用 §r%s§c 放置方块,但未在库存中找到
 
 structurelib.blockhint.desc.0=帮助构建多方块机器
 structurelib.blockhint.0.name=提示方块：1号

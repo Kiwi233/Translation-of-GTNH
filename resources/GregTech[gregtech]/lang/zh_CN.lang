@@ -9,9 +9,9 @@ itemGroup.GregTech.Main=主体
 itemGroup.GregTech.Materials=材料
 itemGroup.GregTech.Ores=矿石
 
-GT5U.autoplace.error.no_hatch=§c建议放置仓室 §4%s§c ,但未在物品栏中找到
-GT5U.autoplace.error.no_mte.id=§c建议放置meta-ID为 §4%s§c 的方块,但未在物品栏中找到
-GT5U.autoplace.error.no_mte.class_name=§c建议放置class名为 §4%d§c 的方块,但未在物品栏中找到
+GT5U.autoplace.error.no_hatch=§c建议放置仓室 §4%s§c ,但未在库存中找到
+GT5U.autoplace.error.no_mte.id=§c建议放置meta-ID为 §4%s§c 的方块,但未在库存中找到
+GT5U.autoplace.error.no_mte.class_name=§c建议放置class名为 §4%d§c 的方块,但未在库存中找到
 
 # Multiblock Tooltip Builder Keywords
 # Context can be found in the class gregtech.api.util.GT_Multiblock_Tooltip_Builder
