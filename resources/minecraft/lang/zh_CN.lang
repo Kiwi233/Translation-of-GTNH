@@ -8078,7 +8078,7 @@ gtnh.quest2018.desc=既然你已经到达EV阶段了,你就需要更先进的切
 
 # Quest.2019 - The Basics of SFM
 gtnh.quest2019.name=SFM基础
-gtnh.quest2019.desc=变量-声明vs标准 声明会创建一个包含合格方块的变量.这使工作流更新很方便.比如,你可以有个包含两个箱子的变量.你在每个循环中都用到这个变量,稍后你添加了一个箱子.只需更新变量,每个循环就可以正常使用这个变量了.  标准变量可以插入到工作流的中间(它有输入/输出),因此可以在运行中进行修改.  请注意,对于每个循环,都需要一个空变量.这在循环中列为"元素".  全局vs本地 全局将保留对工作流中完成的变量的更改,反之,本地保留对该工作流部分本地执行的任何操作.%n%n译者注:这一段我懵了,请参阅原文.%n%nVariables - Declaration vs Standard  Declaration is simply creating a variable with eligible blocks in it. This allows easy updating of workflows. For instance you could have a variable that contains 2 chests. You use it in a nifty for each loop and later add another chest. Simply update the variable and the for each loop will start using it.  Standard variables are able to be inserted into the middle of a workflow (it has input/output) and thus can be modified on the run.  Please note that for each loops will require a empty variable to work with. This is listed as "Element" in the loop.  Global vs Local  Global will keep changes to a variable that are done in the workflow,whereas local keeps anything done local to that part of the workflow.
+gtnh.quest2019.desc=变量-声明vs标准%n声明会创建一个包含可用方块的变量.这使工作流更新很方便.比如,你可以有个包含两个箱子的变量.你在一个漂亮的for-each循环中用到了它,之后你又添加了一个箱子.只需更新变量,for-each循环就可以用上这个箱子了.%n%n标准变量可以插入到工作流的中间(它有输入/输出),因此可以在运行中进行修改.%n%n请注意,for-each循环需要一个空变量.这在循环中列为"元素".%n%n全局vs本地%n全局将保留在工作流中对一个变量做的更改,反之,本地保留在工作流中对这一部分所做的所有更改.
 
 # Quest.2020 - A Magical Box
 gtnh.quest2020.name=神奇的盒子
