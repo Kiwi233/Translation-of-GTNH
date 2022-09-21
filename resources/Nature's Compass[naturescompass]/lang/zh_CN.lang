@@ -13,10 +13,17 @@ string.naturescompass.sortBy=排序方式
 string.naturescompass.teleport=传送
 
 # STRINGS - CLIMATES
-string.naturescompass.cold=寒冷
-string.naturescompass.medium=适中
 string.naturescompass.ocean=海洋
+// +++ //string.naturescompass.hellish=Hellish
+// +++ //string.naturescompass.hot=Hot
 string.naturescompass.warm=温暖
+// +++ //string.naturescompass.normal=Normal
+string.naturescompass.cold=寒冷
+// +++ //string.naturescompass.icy=Icy
+
+# STRINGS - HUMIDITY
+// +++ //string.naturescompass.damp=Damp
+// +++ //string.naturescompass.arid=Arid
 
 # STRINGS - RANGE
 string.naturescompass.none=无
@@ -40,11 +47,12 @@ string.naturescompass.status=状态
 string.naturescompass.baseHeight=基础高度
 string.naturescompass.climate=气候
 string.naturescompass.heightVariation=高度编码
-string.naturescompass.highHumidity=最大湿度
 string.naturescompass.name=名字
 string.naturescompass.precipitation=降水类型
 string.naturescompass.rainfall=降水量
+// +++ //string.naturescompass.humidity=Humidity
 string.naturescompass.temperature=温度
+// +++ //string.naturescompass.tags=Tags
 
 # STRINGS - PRECIPITATION
 string.naturescompass.snow=雪

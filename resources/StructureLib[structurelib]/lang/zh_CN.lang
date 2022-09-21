@@ -26,13 +26,24 @@ item.structurelib.constructableTrigger.desc.1=显示多方块结构全息投影,
 item.structurelib.constructableTrigger.desc.2=请对多方块控制器使用.
 item.structurelib.constructableTrigger.desc.3=(潜行右键控制器方块可直接构造)
 item.structurelib.constructableTrigger.desc.4=堆叠数量影响等级/模式/类型
-item.structurelib.constructableTrigger.too_fast=请等待 %d t，再进行下一次自动构造...
+// +++ //item.structurelib.constructableTrigger.desc.5=Hold §l[LSHIFT]§r to display channel data
+// +++ //item.structurelib.constructableTrigger.desc.lshift.0=Contain %d sub channel.
+// --- //item.structurelib.constructableTrigger.too_fast=请等待 %d t，再进行下一次自动构造...
+// +++ //item.structurelib.constructableTrigger.too_fast=Please wait %d milliseconds before another autoplace...
+// ↑↑↑ //item.structurelib.constructableTrigger.too_fast=Please wait %d ticks before another autoplace...
+// +++ //item.structurelib.constructableTrigger.gui.key=Key:
+// +++ //item.structurelib.constructableTrigger.gui.value=Value:
+// +++ //item.structurelib.constructableTrigger.gui.add=Add
+// +++ //item.structurelib.constructableTrigger.gui.set=Set
+// +++ //item.structurelib.constructableTrigger.gui.unset=Unset
+// +++ //item.structurelib.constructableTrigger.gui.wipe=§4Wipe
 
 structurelib.autoplace.built_stat=已放置 %s 个方块
 structurelib.autoplace.complete=§a此多方块机器已构造完成!
 structurelib.autoplace.error.not_enabled=§c此多方块机器不支持生存模式自动构造!
 structurelib.autoplace.error.no_simple_block=§c建议放置 §r%s§c ,但未在库存中找到
 structurelib.autoplace.error.no_item_stack=§c建议使用 §r%s§c 放置方块,但未在库存中找到
+// +++ //structurelib.autoplace.warning.no_explicit_channel=§6This structure depends on nonexistent sub channel §r%s§6. Using master channel instead.
 
 structurelib.blockhint.desc.0=帮助构建多方块机器
 structurelib.blockhint.0.name=提示方块：1号

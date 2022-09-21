@@ -1,4 +1,3 @@
-#Translated by Darkyoooooo
 item.backpack.name=小背包
 item.backpack.medium.name=中背包
 item.backpack.big.name=大背包
@@ -73,7 +72,9 @@ tooltip.clearCraftMatrix=清除合成栏
 tooltip.saveRecipe=保存配方
 tooltip.clickASlot=在右侧点击一个格子
 tooltip.slots_used=个格子装满了物品
-tooltip.tier=等级:
+// --- //tooltip.tier=等级:
+// +++ //tooltip.tier=Tier:
+// ↑↑↑ //tooltip.tier=Tier
 tooltip.more_information=按下Shift键查看更多信息
 tooltip.intelligent=智能的
 itemGroup.tab.backpacks=更多背包

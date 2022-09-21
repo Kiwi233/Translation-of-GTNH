@@ -12,6 +12,8 @@ mobhandler.mod=Mod:
 mobhandler.max_health=最大生命值：
 mobhandler.chance=几率：
 mobhandler.average_reminder=§7§o请注意，这些是掉落的平均期望值.
+// +++ //mobhandler.lootable=Looting is applied
+// +++ //mobhandler.player_only=§7Does not drop in EEC
 
 #Commands
 commandhandler.invalid=§c无效使用 ! 该指令的正确使用是 /%s
@@ -23,3 +25,78 @@ command.help.usage=- 显示所有可能的指令
 command.config.invalid_option=§c无效选项 ! 可能的选项：reload
 command.config.success=§a配置(Config)重新加载成功 !
 command.config.usage=<选项>
+
+#Items
+// +++ //kubaitem.fromcollection=This item is from
+// +++ //kubaitem.notyours=It looks like that item is not yours
+
+#Tea
+// +++ //kubaitem.tea.black_tea.name=Black Tea
+// +++ //kubaitem.tea.earl_gray_tea.name=Earl Gray Tea
+// +++ //kubaitem.tea.green_tea.name=Green Tea
+// +++ //kubaitem.tea.lemon_tea.name=Lemon Tea
+// +++ //kubaitem.tea.milk_tea.name=Milk Tea
+// +++ //kubaitem.tea.oolong_tea.name=Oolong Tea
+// +++ //kubaitem.tea.peppermint_tea.name=Peppermint Tea
+// +++ //kubaitem.tea.pu-erh_tea.name=Pu-erh Tea
+// +++ //kubaitem.tea.white_tea.name=White Tea
+// +++ //kubaitem.tea.yellow_tea.name=Yellow Tea
+// +++ //kubaitem.teaingredient.black_tea_leaf.name=Black Tea Leaf
+// +++ //kubaitem.teaingredient.green_tea_leaf.name=Green Tea Leaf
+// +++ //kubaitem.teaingredient.oolong_tea_leaf.name=Oolong Tea Leaf
+// +++ //kubaitem.teaingredient.pu-erh_tea_leaf.name=Pu-erh Tea Leaf
+// +++ //kubaitem.teaingredient.white_tea_leaf.name=White Tea Leaf
+// +++ //kubaitem.teaingredient.yellow_tea_leaf.name=Yellow Tea Leaf
+// +++ //kubaitem.teaingredient.tea_leaf_dehydrated.name=Dehydrated Tea Leaf
+// +++ //kubaitem.teaingredient.steamed_tea_leaf.name=Steamed Tea Leaf
+// +++ //kubaitem.teaingredient.rolled_tea_leaf.name=Rolled Tea Leaf
+// +++ //kubaitem.teaingredient.oxidized_tea_leaf.name=Oxidized Tea Leaf
+// +++ //kubaitem.teaingredient.fermented_tea_leaf.name=Fermented Tea Leaf
+// +++ //kubaitem.teaingredient.bruised_tea_leaf.name=Bruised Tea Leaf
+// +++ //kubaitem.teaingredient.partially_oxidized_tea_leaf.name=Partially Oxidized Tea Leaf
+
+#Legendary Tea collection
+// +++ //kubaitem.teacollection=Turbo Legendary Secret Tea Collection
+// +++ //kubaitem.teacollection.mmm=Mmmm Tea
+// +++ //kubaitem.teacollection.black_tea.name=§6§lKuba's Black Tea
+// +++ //kubaitem.teacollection.butterfly_tea.name=§1§lKuba's Butterfly Pea Tea
+// +++ //kubaitem.teacollection.earl_gray_tea.name=§6§lKuba's Earl Gray Tea
+// +++ //kubaitem.teacollection.green_tea.name=§2§lKuba's Green Tea
+// +++ //kubaitem.teacollection.lemon_tea.name=§e§lKuba's Lemon Tea
+// +++ //kubaitem.teacollection.milk_tea.name=§f§lKuba's Milk Tea
+// +++ //kubaitem.teacollection.oolong_tea.name=§e§lKuba's Oolong Tea
+// +++ //kubaitem.teacollection.peppermint_tea.name=§a§lKuba's Peppermint Tea
+// +++ //kubaitem.teacollection.pu-erh_tea.name=§4§lKuba's Pu-erh Tea
+// +++ //kubaitem.teacollection.red_tea.name=§c§lKuba's Hibiscus Tea
+// +++ //kubaitem.teacollection.white_tea.name=§e§lKuba's White Tea
+// +++ //kubaitem.teacollection.yellow_tea.name=§6§lKuba's Yellow Tea
+// +++ //kubaitem.teacollection.ultimate_tea.name=§6§lKuba's %s §6§lTea
+
+#Achievements
+// +++ //achievement.teacollection.black_tea=§6§lKuba's Black Tea
+// +++ //achievement.teacollection.butterfly_tea=§1§lKuba's Butterfly Pea Tea
+// +++ //achievement.teacollection.earl_gray_tea=§6§lKuba's Earl Gray Tea
+// +++ //achievement.teacollection.green_tea=§2§lKuba's Green Tea
+// +++ //achievement.teacollection.lemon_tea=§e§lKuba's Lemon Tea
+// +++ //achievement.teacollection.milk_tea=§f§lKuba's Milk Tea
+// +++ //achievement.teacollection.oolong_tea=§e§lKuba's Oolong Tea
+// +++ //achievement.teacollection.peppermint_tea=§a§lKuba's Peppermint Tea
+// +++ //achievement.teacollection.pu-erh_tea=§4§lKuba's Pu-erh Tea
+// +++ //achievement.teacollection.red_tea=§c§lKuba's Hibiscus Tea
+// +++ //achievement.teacollection.white_tea=§e§lKuba's White Tea
+// +++ //achievement.teacollection.yellow_tea=§6§lKuba's Yellow Tea
+// +++ //achievement.teacollection.ultimate_tea=§4§l§k??????
+
+// +++ //achievement.teacollection.black_tea.desc=§6The most common and popular type of Tea
+// +++ //achievement.teacollection.butterfly_tea.desc=§1Not even Tea
+// +++ //achievement.teacollection.earl_gray_tea.desc=§6For the true Brits
+// +++ //achievement.teacollection.green_tea.desc=§2Based
+// +++ //achievement.teacollection.lemon_tea.desc=§eBlack Tea with lemon, what did You expect ?
+// +++ //achievement.teacollection.milk_tea.desc=§fBlack Tea with milk, my favourite
+// +++ //achievement.teacollection.oolong_tea.desc=§e對於真正的鑑賞家
+// +++ //achievement.teacollection.peppermint_tea.desc=§aGood for stomach ache
+// +++ //achievement.teacollection.pu-erh_tea.desc=§4Good for digestion, also tastes like dirt
+// +++ //achievement.teacollection.red_tea.desc=§cWhy would anyone drink this ?
+// +++ //achievement.teacollection.white_tea.desc=§eThe healthiest one
+// +++ //achievement.teacollection.yellow_tea.desc=§6Green Tea with more grassy flavour
+// +++ //achievement.teacollection.ultimate_tea.desc=§4§lOne Tea to drink them all

@@ -4,8 +4,12 @@ language.code=zh_CN
 
 # Miscellaneous strings
 # -- Updater strings. Please try to keep these to one line if possible.
-thaumicinsurgence.versioning.newVersion=有新版本神秘革命可用: %s
-thaumicinsurgence.versioning.critical=神秘革命已准备好关键更新: %s - 请更新!
+// --- //thaumicinsurgence.versioning.newVersion=有新版本神秘革命可用: %s
+// +++ //thaumicinsurgence.versioning.newVersion=A new version of Magic Bees is available: %s
+// ↑↑↑ //thaumicinsurgence.versioning.newVersion=A new version of Thaumic Insurgence is available: %s
+// --- //thaumicinsurgence.versioning.critical=神秘革命已准备好关键更新: %s - 请更新!
+// +++ //thaumicinsurgence.versioning.critical=Magic Bees has a critical update ready: %s - Please update!
+// ↑↑↑ //thaumicinsurgence.versioning.critical=Thaumic Insurgence has a critical update ready: %s - Please update!
 thaumicinsurgence.versioning.clickDownload=点击打开下载页面. 悬停获取更新信息.
 thaumicinsurgence.config.category.general=常规
 thaumicinsurgence.config.category.general.tooltip=常规mod配置
@@ -15,14 +19,12 @@ thaumicinsurgence.config.category.modules=模组
 thaumicinsurgence.config.category.modules.tooltip=启用或禁用整合的选项
 tc.research_category.THAUMICINSURGENCE=神秘革命
 
-tc.research_name.InfusionInterceptor=注魔截流者
-tc.research_text.InfusionInterceptor=让Azanor的"平衡"见鬼去吧!--自2022起
-InfusionInterceptor.1=你痛恨缓慢的注魔吗?你受够了世界加速器产生的延迟吗?同志们,让我们革Azanor的命吧!!!只需要付出一点点[2000扭曲],我可以为你破解注魔矩阵,并使其支持AE注魔供应器!!!(将注魔截流者置于中央的奥术基座下方,并将源质供应源置于截流者下方.)
+// +++ //tc.research_name.TI_InfusionIntercepter=Infusion Intercepter
+// +++ //tc.research_text.TI_InfusionIntercepter=Fucking Azanor's "balance" since 2022!
+// +++ //InfusionIntercepter.1=Do you hate how slow infusion is? Are you sick and tired of the lag associated with WAing it? WELL DO I HAVE THE SOLUTION FOR YOU!!! FOR ONE LOW LOW PAYMENT OF [2000 warp] I CAN JAILBREAK YOUR INFUSION MATRIX FOR YOU AND ALLOW IT TO ACCEPT THE ESSENTIA PROVIDER!!!
 
 
 #Tiles
-tile.infusionIntercepter.name=注魔截流者
-tile.thaumiumJar.name=神秘源质罐子
-tile.thaumiumVoidJar.name=神秘虚空罐子
-tile.ichorJar.name=灵宝源质罐子
-tile.ichorVoidJar.name=灵宝虚空罐子
+// --- //tile.infusionIntercepter.name=注魔截流者
+// +++ //tile.infusionIntercepter.name=Infusion Intercepter
+// ↑↑↑ //tile.infusionIntercepter.name=Infusion Interceptor
