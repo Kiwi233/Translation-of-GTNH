@@ -15,7 +15,7 @@ item.miscutils_itemDebugShapeSpawner.name=[调试用]塑形
 
 //Fluids
 tile.fluidSludge.name=不流动的废水
-tile.fluidSludge.0.name=Stagnant Waste Water
+tile.fluidSludge.0.name=不流动的废水
 
 //Death Messages
 death.attack.plasmabolt=%s 死于滚烫的等离子体.
@@ -25,7 +25,7 @@ death.attack.gtpp.grinder=%s 被艾萨研磨机磨成了渣渣.
 //Alternative Materials
 item.itemPlateBatteryAlloy.name=电池合金板
 item.itemIngotBatteryAlloy.name=电池合金锭
-item.itemStickyRubber.name=Gumlet of Sticky Rubber
+item.itemStickyRubber.name=粘性橡胶团
 
 //Unused Fuel rods
 item.itemFuelRod_Empty.name=空燃料棒
@@ -42,9 +42,9 @@ tile.blockToolBuilder.name=格雷工具组装台
 
 //Tools
 item.itemBufferCore.name=能量核心
-item.itemStaballoyPickaxe.name=Tunnel Digger
-item.itemStaballoyAxe.name=Tree Feller
-item.itemSandstoneHammer.name=Cobblestone Breaker
+item.itemStaballoyPickaxe.name=隧道挖掘者
+item.itemStaballoyAxe.name=树林砍伐者
+item.itemSandstoneHammer.name=圆石粉碎者
 
 //Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=烈焰之炽焱桶
@@ -93,10 +93,10 @@ item.itemUltimetShaft.name=哈氏合金轴
 
 
 //Misc Items
-item.itemPLACEHOLDER_Circuit.name=Quark Manipulator (UV)
+item.itemPLACEHOLDER_Circuit.name=夸克操纵者 (UV)
 item.itemPlateEnrichedSoularium.name=富集阳光合金板
-item.itemHeliumBlob.name=Mysterious Hydrogen Substance
-item.itemAlkalusDisk.name=Alkalus Disk
+item.itemHeliumBlob.name=神秘氢气物质
+item.itemAlkalusDisk.name=Alkalus圆盘
 # The following 2 keys have been deprecated and overwritten
 # item.itemHotIngotRaisinBread.name=Hot Loaf of Raisin Bread
 # item.itemIngotRaisinBread.name=§5ImQ009's §fRaisin Bread
@@ -2001,7 +2001,7 @@ item.dustImpureTrinium.name=含杂三元金属粉
 item.dustPureTrinium.name=洗净的三元金属粉
 
 //Added 1/7/18
-entity.WiseVillager.name=Wise Villager
+entity.WiseVillager.name=聪明的村民
 tile.blockMobSpawnerEx.0.name=刷怪笼
 tile.blockMobSpawnerEx.1.name=刷怪笼
 tile.blockMobSpawnerEx.2.name=刷怪笼
@@ -2088,9 +2088,9 @@ item.crushedCentrifugedKoboldite.name=离心粉碎妖金矿石
 item.crushedPurifiedKoboldite.name=纯净粉碎妖金矿石
 item.dustImpureKoboldite.name=含杂妖金粉
 item.dustPureKoboldite.name=纯净妖金粉
-item.itemDustKoboldite.name=Koboldite Dust
-item.itemDustTinyKoboldite.name=Tiny Pile of Koboldite Dust
-item.itemDustSmallKoboldite.name=Small Pile of Koboldite Dust
+item.itemDustKoboldite.name=妖金粉
+item.itemDustTinyKoboldite.name=小撮妖金粉
+item.itemDustSmallKoboldite.name=小堆妖金粉
 
 tile.OrePerroudite.name=溴硫银汞矿石
 item.crushedPerroudite.name=粉碎溴硫银汞矿石
