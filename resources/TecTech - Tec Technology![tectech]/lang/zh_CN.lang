@@ -111,8 +111,7 @@ gt.blockmachines.hull.tier.10.name=UEV机器外壳
 gt.blockmachines.hull.tier.11.name=UIV机器外壳
 gt.blockmachines.hull.tier.12.name=UMV机器外壳
 gt.blockmachines.hull.tier.13.name=UXV机器外壳
-gt.blockmachines.hull.tier.14.name=OPV机器外壳
-gt.blockmachines.hull.tier.15.name=MAX机器外壳
+gt.blockmachines.hull.tier.14.name=MAX机器外壳
 
 #Transformers
 gt.blockmachines.wetransformer.tier.00.name=ULV高能变压器
@@ -142,9 +141,7 @@ gt.blockmachines.wetransformer.tier.11.desc=UMV -> UIV (用软锤右击以反转
 gt.blockmachines.wetransformer.tier.12.name=UMV高能变压器
 gt.blockmachines.wetransformer.tier.12.desc=UXV -> UMV (用软锤右击以反转)
 gt.blockmachines.wetransformer.tier.13.name=UXV高能变压器
-gt.blockmachines.wetransformer.tier.13.desc=OPV -> UXV (用软锤右击以反转)
-gt.blockmachines.wetransformer.tier.14.name=OpV高能变压器
-gt.blockmachines.wetransformer.tier.14.desc=MAX -> OPV (用软锤右击以反转)
+gt.blockmachines.wetransformer.tier.13.desc=MAX -> UXV (用软锤右击以反转)
 
 gt.blockmachines.tt.transformer.tier.09.name=UHV变压器
 gt.blockmachines.tt.transformer.tier.09.desc=UEV -> UHV (用软锤右击以反转)
@@ -155,9 +152,7 @@ gt.blockmachines.tt.transformer.tier.11.desc=UMV -> UIV (用软锤右击以反�
 gt.blockmachines.tt.transformer.tier.12.name=UMV变压器
 gt.blockmachines.tt.transformer.tier.12.desc=UXV -> UMV (用软锤右击以反转)
 gt.blockmachines.tt.transformer.tier.13.name=UXV变压器
-gt.blockmachines.tt.transformer.tier.13.desc=OPV -> UXV (用软锤右击以反转)
-gt.blockmachines.tt.transformer.tier.14.name=OpV变压器
-gt.blockmachines.tt.transformer.tier.14.desc=MAX -> OPV (用软锤右击以反转)
+gt.blockmachines.tt.transformer.tier.13.desc=MAX -> UXV (用软锤右击以反转)
 
 gt.blockmachines.transformer.ha.tier.09.name=UHV高电流变压器
 gt.blockmachines.transformer.ha.tier.09.desc=UEV -> UHV (用软锤右击以反转
@@ -168,9 +163,7 @@ gt.blockmachines.transformer.ha.tier.11.desc=UMV -> UIV (用软锤右击以反�
 gt.blockmachines.transformer.ha.tier.12.name=UMV高电流变压器
 gt.blockmachines.transformer.ha.tier.12.desc=UXV -> UMV (用软锤右击以反转)
 gt.blockmachines.transformer.ha.tier.13.name=UXV高电流变压器
-gt.blockmachines.transformer.ha.tier.13.desc=OPV -> UXV (用软锤右击以反转)
-gt.blockmachines.transformer.ha.tier.14.name=OpV高电流变压器
-gt.blockmachines.transformer.ha.tier.14.desc=MAX -> OPV (用软锤右击以反转)
+gt.blockmachines.transformer.ha.tier.13.desc=MAX -> UXV (用软锤右击以反转)
 
 #Hatches
 tt.base.emhatch.desc.0=最大元物质组数：
@@ -450,8 +443,7 @@ gt.blockcasingsNH.10.name=UEV机械方块
 gt.blockcasingsNH.11.name=UIV机械方块
 gt.blockcasingsNH.12.name=UMV机械方块
 gt.blockcasingsNH.13.name=UXV机械方块
-gt.blockcasingsNH.14.name=OPV机械方块
-gt.blockcasingsNH.15.name=MAX机械方块
+gt.blockcasingsNH.14.name=MAX机械方块
 
 gt.blockhintTT.desc.0=构造时的帮助
 gt.blockhintTT.0.name=提示方块：1号
@@ -571,7 +563,6 @@ gt.blockmachines.multimachine.tm.teslaCoil.hint.0=1 - 基础仓室, 电容仓或
 gt.blockmachines.multimachine.tm.teslaCoil.hint.1=2 - 钛框架
 gt.blockmachines.multimachine.tm.teslaCoil.desc.0=特斯拉电塔的控制器方块
 gt.blockmachines.multimachine.tm.teslaCoil.desc.1=用于向特斯拉线圈帽和特斯拉收发器传输电力
-gt.blockmachines.multimachine.tm.teslaCoil.desc.2=可能会影响生存几率
 gt.blockmachines.multimachine.tm.teslaCoil.desc.2=可加入氦/氮/氡等离子体增大范围
 gt.blockmachines.multimachine.tm.teslaCoil.desc.3=传输电压取决于使用的特斯拉电容等级
 gt.blockmachines.multimachine.tm.teslaCoil.desc.4=需要至少与特斯拉电容相同等级的初级特斯拉绕组
@@ -654,7 +645,6 @@ gt.blockmachines.multimachine.em.essentiatoem.hint.0=1 - 基础仓室或超能�
 gt.blockmachines.multimachine.em.essentiatoem.hint.1=2 - 元物质输出仓
 gt.blockmachines.multimachine.em.essentiatoem.hint.2=3 - 元物质溢流仓或分子机械方块
 gt.blockmachines.multimachine.em.essentiatoem.hint.3=通用 - 某种源质的储存方块
-gt.blockmachines.multimachine.em.essentiatoem.desc.0=方便地将常规物品转换为量子形态
 gt.blockmachines.multimachine.em.essentiatoem.desc.0=源质量子化仪的控制器方块
 gt.blockmachines.multimachine.em.essentiatoem.desc.1=将源质转化为它们的元素形态
 

@@ -18,6 +18,7 @@ betterquesting.title.party_invite=邀请玩家
 betterquesting.title.select_theme=选择主题
 betterquesting.title.importers=导入数据
 betterquesting.title.submit_station=提交站
+betterquesting.title.completion=完成度: %d/%d
 
 betterquesting.btn.rewards=任务奖励
 betterquesting.btn.tasks=任务目标
@@ -227,3 +228,7 @@ jdoc.betterquesting.quest.properties.desc=定义任务外观和功能的属性
 
 jdoc.betterquesting.quest.properties.betterquesting.name=更好的任务(BetterQuesting)
 jdoc.betterquesting.quest.properties.betterquesting.desc=属性
+
+betterquesting.notification.enabled=任务提示: 开启
+betterquesting.notification.disabled=任务提示: 关闭
+betterquesting.notification.tooltip=切换任务提示

@@ -15,14 +15,11 @@ thaumicinsurgence.config.category.modules=模组
 thaumicinsurgence.config.category.modules.tooltip=启用或禁用整合的选项
 tc.research_category.THAUMICINSURGENCE=神秘革命
 
-tc.research_name.InfusionInterceptor=注魔截流者
-tc.research_text.InfusionInterceptor=让Azanor的"平衡"见鬼去吧!--自2022起
-InfusionInterceptor.1=你痛恨缓慢的注魔吗?你受够了世界加速器产生的延迟吗?同志们,让我们革Azanor的命吧!!!只需要付出一点点[2000扭曲],我可以为你破解注魔矩阵,并使其支持AE注魔供应器!!!(将注魔截流者置于中央的奥术基座下方,并将源质供应源置于截流者下方.)
+tc.research_name.TI_InfusionIntercepter=注魔截流者
+tc.research_text.TI_InfusionIntercepter=让Azanor的"平衡"见鬼去吧!--自2022起
+InfusionIntercepter.1=你痛恨缓慢的注魔吗?你受够了世界加速器产生的延迟吗?同志们,让我们革Azanor的命吧!!!只需要付出一点点[2000扭曲],我可以为你破解注魔矩阵,并使其支持AE注魔供应器!!!(将注魔截流者置于中央的奥术基座下方,截流者会从底面抽取源质.)
 
 
 #Tiles
 tile.infusionIntercepter.name=注魔截流者
-tile.thaumiumJar.name=神秘源质罐子
-tile.thaumiumVoidJar.name=神秘虚空罐子
-tile.ichorJar.name=灵宝源质罐子
-tile.ichorVoidJar.name=灵宝虚空罐子
+item.armor.ItemRedCrown.name=红冠

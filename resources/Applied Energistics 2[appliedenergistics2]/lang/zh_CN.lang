@@ -48,6 +48,8 @@ tile.appliedenergistics2.BlockCraftingStorage4k.name=4k合成存储器
 tile.appliedenergistics2.BlockCraftingStorage16k.name=16k合成存储器
 tile.appliedenergistics2.BlockCraftingStorage64k.name=64k合成存储器
 tile.appliedenergistics2.BlockCraftingAccelerator.name=并行处理单元
+tile.appliedenergistics2.BlockCraftingAccelerator4x.name=4核并行处理单元
+tile.appliedenergistics2.BlockCraftingAccelerator16x.name=16核并行处理单元
 tile.appliedenergistics2.BlockCraftingUnit.name=合成单元
 tile.appliedenergistics2.BlockMolecularAssembler.name=分子装配室
 
@@ -256,7 +258,7 @@ gui.color.appliedenergistics2.ItemSlotOverlayUnpowered=66111111
 gui.color.appliedenergistics2.ItemSlotOverlayInvalid=66ff6666
 gui.color.appliedenergistics2.CraftConfirmMissingItem=1AFF0000
 gui.color.appliedenergistics2.CraftingCPUActive=5A45A021
-gui.color.appliedenergistics2.CraftingCPUScheduled=5AFFF7AA
+gui.color.appliedenergistics2.CraftingCPUScheduled=FF787878
 gui.color.appliedenergistics2.InterfaceTerminalMatch=2A00FF00
 
 # GUI Tooltips
@@ -361,7 +363,6 @@ gui.tooltips.appliedenergistics2.SchedulingMode=调度模式
 gui.tooltips.appliedenergistics2.SchedulingModeDefault=输出第一个物品直到系统中没有该物品,再输出下一个.
 gui.tooltips.appliedenergistics2.SchedulingModeRoundRobin=循环输出模式.
 gui.tooltips.appliedenergistics2.SchedulingModeRandom=随机输出模式.
-
 
 gui.tooltips.appliedenergistics2.ItemsStored=存储物品: %s
 gui.tooltips.appliedenergistics2.ItemCount=物品总数: %s
