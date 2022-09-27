@@ -38,7 +38,7 @@ gtnh.quest8.desc=看看你闪亮的燧石镐!是时候开采圆石了.耶!(也�
 
 # Quest.9 - §1§lFire, Fire, Grandpa!
 gtnh.quest9.name=§1§l着火了,着火了,爷爷,着火了!
-gtnh.quest9.desc=该烧一些木料了不是吗？虽然你不能用这玩意儿烧木炭,但你肯定很快(tm)就能找到它的用法.
+gtnh.quest9.desc=该烧一些木料了不是吗？虽然你不能用这玩意儿烧木炭,但你肯定很快(tm)就能找到它的用法.%n%n译者注:"很快(tm)"或"很快™",原文为"soon(tm)"/"soon™".用于指某件事应该很快就会到来,但迟迟不来,所以在单词后面加上商标,表明已经说过很多次"soon"了.
 
 # Quest.10 - §1§lRest in Pieces
 gtnh.quest10.name=§1§l息止安所(这不清真)
@@ -553,11 +553,11 @@ gtnh.quest137.name=§6§l变得漂亮
 gtnh.quest137.desc=虽然导管本身已经很棒了,但如果你想的话,也可以隐藏它们. 有两种类型的导管框架,基础的和硬化的. 基础的简单易用,而硬化的能够抵御爆炸和工具的挖掘. 你得用以太扳手才能拆除它.%n%n你得先在喷涂机中对框架进行喷涂-在漆刷处放置你想要的外观方块,再在左侧放上框架. 当然,喷涂机需要供能.
 
 # Quest.138 - §5§6§lCome to the Dark Side...
-gtnh.quest138.name=§5§6§l来到黑暗面...
-gtnh.quest138.desc=....我们有饼干.
+gtnh.quest138.name=§5§6§l来到黑暗面...(Come to the Dark Side...)
+gtnh.quest138.desc=....我们有饼干.(...we have cookies.)
 
 # Quest.139 - Luke, I'm Your Father
-gtnh.quest139.name=卢克,我是你亲爹!
+gtnh.quest139.name=卢克,我是你亲爹!(Luke, I'm Your Father)
 gtnh.quest139.desc=有了玄钢,你现在可以制作一套新的护甲了.它在开始的时候非常基础,但它以后可以升级以解锁强大的功能.
 
 # Quest.140 - §6§lDark Steel Tools
@@ -1366,7 +1366,7 @@ gtnh.quest340.desc=通过向一块石头注入炙热的魔法能量,你可以创
 
 # Quest.341 - Flying OINKment
 gtnh.quest341.name=飞行的OINKment
-gtnh.quest341.desc=你试过,它不会飞.令人遗憾的是,它也没有发出任何猪的呼噜声(OINK)声音. 但它可能会有一些用处...
+gtnh.quest341.desc=你试过,它不会飞.令人遗憾的是,它也没有发出任何猪的呼噜声(OINK)声音. 但它可能会有一些用处...%n%n译者注:Oinkment是家长向孩子描述药膏(ointment)时使用的一种昵称,"oink"指猪叫声.
 
 # Quest.342 - Nimbus 1999
 gtnh.quest342.name=Nimbus 1999
@@ -2198,9 +2198,7 @@ gtnh.quest548.desc=将你的石油提炼成含硫轻燃油吧,这种燃料燃烧
 
 # Quest.549 - §5§lLight Fuel
 gtnh.quest549.name=§5§l轻燃油
-// --- //gtnh.quest549.desc=在化学反应釜中通过氢气将硫化轻燃油转化成不含硫的轻燃油,这是一种燃烧值很高的燃料. 1单位的轻燃油(1000mB)理论燃烧值有305KEU.%n%n而剩下的硫化氢可以通过加水反应得到稀硫酸,稀硫酸在蒸馏得到硫酸.这可是很重要的化工原料,你可以使用硫酸来制备TNT或者灌装到电池内制作一次性电池,还有许许多多用途,硫酸永远不嫌多!%n%n在MV阶段,你可以通过搅拌重燃油和轻燃油来制作柴油.
-// +++ //gtnh.quest549.desc=By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce light fuel with the very high burn value of 305,000 EU per cell.%n%nThe remaining hydrogen sulfide can be used to produce sulfuric acid for, well, tons of stuff. You can never have enough of it!%n%nYou can crack it in a chemical reactor and then distill it to get ethylene for polyethylene.
-// ↑↑↑ //gtnh.quest549.desc=By adding hydrogen to sulfuric light fuel in a chemical reactor you can produce light fuel with the very high burn value of 305,000 EU per cell.%n%nThe remaining hydrogen sulfide can be used to produce sulfuric acid for, well, tons of stuff. You can never have enough of it!
+gtnh.quest549.desc=在化学反应釜中通过氢气将硫化轻燃油转化成不含硫的轻燃油,这是一种燃烧值很高的燃料. 1单位的轻燃油(1000mB)理论燃烧值有305KEU.%n%n而剩下的硫化氢可以通过加水反应得到稀硫酸,稀硫酸在蒸馏得到硫酸.这可是很重要的化工原料,你可以使用硫酸来制备TNT或者灌装到电池内制作一次性电池,还有许许多多用途,硫酸永远不嫌多!%n%n在MV阶段,你可以通过搅拌重燃油和轻燃油来制作柴油.%n%n你可以在化学反应釜中用蒸汽将其裂化,然后蒸馏以获取乙烯,进一步加工得到聚乙烯.
 
 # Quest.550 - §5§lH for Hydrogen... the Rest of the Alphabet is Too Complicated...
 gtnh.quest550.name=§5§lH代表氢...字母表的其余部分太复杂了!
@@ -2568,9 +2566,7 @@ gtnh.quest640.desc=离心炼油气可以得到液化石油气,其燃烧值为320
 
 # Quest.641 - §5§lNaphtha
 gtnh.quest641.name=§5§l石脑油
-// --- //gtnh.quest641.desc=你可以将含硫石脑油处理成石脑油.石脑油在燃气发电机中有320,000EU的燃烧值.%n%n石脑油可以加工成乙烯,并最终制成聚乙烯(至少比其他三种多),也可以加工成聚己内酰胺--一种除了做线没有其他用的材料,而你的棉花农场可以出产成吨的线.%n%n你需要将石脑油在化学反应釜(之后可以用石油裂化机)中裂化,然后再次蒸馏获得乙烯.
-// +++ //gtnh.quest641.desc=You can process sulfuric naphtha to fluid naphtha which has a burn value of 320,000 EU in the gas turbine.%n%nNaphtha can be used to get ethylene for polyethylene though using light fuel is more oil efficient. You can also make polycaprolactam - a totally useless material only for making string, which you probably have tons of from your cotton farm.
-// ↑↑↑ //gtnh.quest641.desc=You can process sulfuric naphtha to fluid naphtha which has a burn value of 320,000 EU in the gas turbine.%n%nNaphtha can be used to get ethylene for polyethylene (more than the other 3 at least) and also to make polycaprolactam - a totally useless material only for making string, which you probably have tons of from your cotton farm.%n%nYou'll need to crack it in a chemical reactor and then distill it again for ethylene.
+gtnh.quest641.desc=你可以将含硫石脑油处理成石脑油.石脑油在燃气发电机中有320,000EU的燃烧值.%n%n石脑油可以加工成乙烯,并最终制成聚乙烯,不过现阶段使用轻燃油更划算些.它也可以加工成聚己内酰胺--一种除了做线没有其他用的材料,而你的棉花农场可以出产成吨的线.%n%n
 
 # Quest.642 - §5§lSulfuric Gas
 gtnh.quest642.name=§5§l含硫炼油气
@@ -2669,7 +2665,7 @@ gtnh.quest665.name=厨具
 gtnh.quest665.desc=为了烹调健康的食物,你需要先制做一些工具.炖锅,罐,撖面杖,研钵,搅拌钵,软锤,平底锅,刀.
 
 # Quest.666 - Row, Row, Row Your Boat
-gtnh.quest666.name=划呀划呀划着你的船
+gtnh.quest666.name=划,划,划小船(Row, Row, Row Your Boat)
 gtnh.quest666.desc=你住在水边却没有船？兄弟,振作起来.%n%n你需要木板、台阶跟刀来制作一艘. (这个任务编号666,小心点,有什么事要发生了.)%n%n译者注:在西方666象征着魔鬼. %n%n§3不过这里可是任务书,忘了那些有的没的象征意义吧. 标准的世界生成不包含海洋地形,所以船的实用性受到了极大的限制. 虽然有许多河流,但马可能更实用--如果不在服务器里的话.
 
 # Quest.667 - Trainspotting
@@ -2886,7 +2882,7 @@ gtnh.quest719.desc=你的作物架上已经种好了新的植物.对着作物架
 
 # Quest.720 - Weeds II
 gtnh.quest720.name=杂草II
-gtnh.quest720.desc=杂草,杂草,更多的杂草.当你进行作物杂交育种时,获得了大量的杂草.%n%n需要换一些沼气单元来发电？或者换一些可以给田地照明的萤石?
+gtnh.quest720.desc=杂草,杂草,更多的杂草.当你进行作物杂交育种时,获得了大量的杂草.%n%n需要换一些沼气单元来发电？或者换一些可以给田地照明的萤石？
 
 # Quest.721 - Unknown Seeds No More
 gtnh.quest721.name=种子不再未知
@@ -6186,9 +6182,7 @@ gtnh.quest1544.desc=为了生产生物柴油,你需要生产一些种子油或�
 
 # Quest.1545 - §6§lTime to Drill For Ore!
 gtnh.quest1545.name=§6§l钻矿时间!
-// --- //gtnh.quest1545.desc=自动采矿机很不错,但你想要MOOOOOOOOOOOOOOORE(更更更更多)的矿石. 这个多方块机器将有助于此,但你需要先使用地震勘探者或高级探矿仪搜索矿石. 它还会直接打碎你的矿石,并给你一些粉碎的矿石.%n%n更高的电压等级将使其更快地钻探. 你需要按电源等级对应地升级能源仓. 还需要输入仓和输出总线-MV以上自选.%n%n稍后你还可以升级采矿场,使其有效半径超过48格(最高能达到144格).如果你不想采到太远的矿,可通过螺丝刀调整采矿范围.  采矿场控制器每升一级都会对贫瘠矿多提供1增产.到了三阶采矿场,你可能就需要压缩箱子阵列才能放下你所有的财富了.%n%n多方块采矿场已升级为自带加载版本.运行时可自动加载被开采区块,但它们无法加载自己. 它们会在本区块按普通模式一路§o向下§r开采到底,然后再开始开采范围内§o上方§r的其他区块.%n%n你需要在控制器方块或输入总线中放入采矿管道并在流体输入仓中放入钻井液.  并且需要制造大量的钻井液.64是刚刚入门的极少量! 准备造个几千桶再说! -可以现场制造,或是通过长距离流体管道泵送.%n%n这些采矿场和发电机都是GT机器,所以别忘了防雨(防陨石!).然后在旅行地图上标记好位置,这样你就再也不会忘记自己把采矿场放哪了!%n%n§4提示:%n§4如果你的采矿场需要钻探超过64格深处的矿物,你可以添加一个输入总线,放入一些采矿管道即可.%n%n译者注:当采矿管道碰到基岩后,若开采范围内没有可开采矿石,采矿场将自动回收采矿管道,超出64部分将在输出总线输出.
-// +++ //gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. You will also need an energy hatch, an input hatch, and an output bus - at least MV but you can choose.%n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. If you don't want to mine that far away, adjust the range with a screwdriver. Each tier of the controller also gives 1 bonus fortune for small ores starting at 4. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nThe multiblock miners have been upgraded so that they will chunkload the area they dig in. They will NOT chunkload themselves however. They will dig §odown§r in the chunk they're in like normal, and then dig §oup§r one chunk at a time in other chunks within its range.%n%nYou need mining pipes in the controller and drilling fluid in the fluid hatch. You can also feed mining pipes into an input bus.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets - perhaps onsite, or pumped in via Long Distance Fluid Pipes.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain (and meteors!) on any side. And set a waypoint with JourneyMap so you don't forget where you placed it!
-// ↑↑↑ //gtnh.quest1545.desc=Auto Miners are nice but you're going to reach a point where you will want MOOOOOOOOOOOOORE ores. This multiblock will help with that.  It will also pre-macerate your ores and give you a little bonus crushed ores as well.%n%nHigher tiers of power will drill faster. You need to upgrade the energy hatch corresponding to the power tier. You will also need an energy hatch, an input hatch, and an output bus - at least MV but you can choose.%n%nLater you can upgrade the ore drilling plant so it extracts from more than a 48 block radius. If you don't want to mine that far away, adjust the range with a screwdriver. Each tier of the controller also gives 1 bonus fortune for small ores starting at 4. At tier 3 you'll want to spread the wealth to multiple compressed chests!%n%nThe multiblock miners have been upgraded so that they will chunkoad the area they dig in. They will NOT chunkload themselves however. They will dig §odown§r in the chunk they're in like normal, and then dig §oup§r one chunk at a time in other chunks within its range.%n%nYou need mining pipes in the controller and drilling fluid in the fluid hatch. You can also feed mining pipes into an input bus.%n%nYou'll need to make lots of Drilling Fluid. 64 is a tiny amount to get started with! Plan to make thousands of buckets - perhaps onsite, or pumped in via Long Distance Fluid Pipes.%n%nThese are GT machines, so remember to protect them (and their power sources!) from rain (and meteors!) on any side. And set a waypoint with JourneyMap so you don't forget where you placed it!
+gtnh.quest1545.desc=自动采矿机很不错,但你想要MOOOOOOOOOOOOOOORE(更更更更多)的矿石. 这个多方块机器将有助于此,但你需要先使用地震勘探者或高级探矿仪搜索矿石. 它还会直接打碎你的矿石,并给你一些粉碎的矿石.%n%n更高的电压等级将使其更快地钻探. 你需要按电源等级对应地升级能源仓. 还需要输入仓和输出总线-MV以上自选.%n%n稍后你还可以升级采矿场,使其有效半径超过48格(最高能达到144格).如果你不想采到太远的矿,可通过螺丝刀调整采矿范围.  采矿场控制器每升一级都会对贫瘠矿多提供1增产.到了三阶采矿场,你可能就需要压缩箱子阵列才能放下你所有的财富了.%n%n多方块采矿场已升级为自带加载版本.运行时可自动加载被开采区块,但它们无法加载自己. 它们会在本区块按普通模式一路§o向下§r开采到底,然后再开始开采范围内§o上方§r的其他区块.%n%n你需要在控制器方块或输入总线中放入采矿管道并在流体输入仓中放入钻井液.  并且需要制造大量的钻井液.64是刚刚入门的极少量! 准备造个几千桶再说! -可以现场制造,或是通过长距离流体管道泵送.%n%n这些采矿场和发电机都是GT机器,所以别忘了防雨(防陨石!).然后在旅行地图上标记好位置,这样你就再也不会忘记自己把采矿场放哪了!%n%n§4提示:%n§4如果你的采矿场需要钻探超过64格深处的矿物,你可以添加一个输入总线,放入一些采矿管道即可.%n%n译者注:当采矿管道碰到基岩后,若开采范围内没有可开采矿石,采矿场将自动回收采矿管道,超出64部分将在输出总线输出.
 
 # Quest.1546 - §2§lRare Ores
 gtnh.quest1546.name=§2§l稀有矿石
@@ -7284,7 +7278,7 @@ gtnh.quest1818.desc=每种源质准备一台源质发电机看起来不太实用
 
 # Quest.1819 - §6§lSilicon Dioxide
 gtnh.quest1819.name=§6§l二氧化硅
-gtnh.quest1819.desc=为自己准备一些二氧化硅吧! 将其配合碳粉在工业高炉中熔炼,是获取生硅锭的最佳方式.生硅锭有多种用途,不贵最重要的用途就是将其再次打粉,获得生硅粉. 你还可以借助铝或镁,对二氧化硅进行化学处理,将其转化为生硅粉.%n%n离心玻璃粉或是电解沙子都可以轻易获得二氧化硅.%n%n如果你手上只有生硅粉,又急需二氧化硅,可以使用电弧炉或高压釜.
+gtnh.quest1819.desc=为自己准备一些二氧化硅吧! 将其配合碳粉在工业高炉中熔炼,是获取生硅锭的最佳方式.生硅锭有多种用途,不过最重要的用途就是将其再次打粉,获得生硅粉. 你还可以借助铝或镁,对二氧化硅进行化学处理,将其转化为生硅粉.%n%n离心玻璃粉或是电解沙子都可以轻易获得二氧化硅.%n%n如果你手上只有生硅粉,又急需二氧化硅,可以使用电弧炉或高压釜.
 
 # Quest.1820 - §6§lLapotronic Energy Storage Unit
 gtnh.quest1820.name=§6§l兰波顿能量存储矩阵
@@ -7484,9 +7478,7 @@ gtnh.quest1868.desc=MV能源仓需要超低功率IC.去制造一些吧.
 
 # Quest.1869 - §6§lThe Church of Benzene's Holy Altar
 gtnh.quest1869.name=§6§l大苯环神教圣堂
-// --- //gtnh.quest1869.desc=MV燃气轮机是苯的完美搭档,现在你能真正制造它了.请到"大众生物学"任务栏查看详情,学习如何自动化制造大量的苯,或者直接查看NEI也行.从树木中获取苯是可再生的,也是一种发电的强力手段,而且如果你使用新解锁的多方块机器对产线不断升级的话,它能支持你数个阶段的发展.%n%n适时放弃蒸汽是个明智的决定,因为随着用电需求的不断提升,你需要巨大的管道来输送蒸汽,而且现阶段的蒸汽轮机效率较低. 相反,制造热解炉或高级焦炉,让木炭生产更加迅速,再从中提炼出苯,通入燃气轮机发电,太妙了,我大苯环神教!
-// +++ //gtnh.quest1869.desc=The MV Gas Turbine pairs excellently with Benzene, now that you can actually make it. Look at the "Bio for the Masses" tab for more details on how to go about it, or just check NEI. Benzene is renewable from trees, and it's a powerful source of EU that can keep you going for several tiers as long as you upgrade it with the new multiblocks you unlock over time.%n%nIt's a good idea to switch off Steam, since you need big pipes to carry that around and the fuel efficiency on Steam Turbines is lower. Instead, make a Pyrolyse Oven or an Advanced Coke Oven to make Charcoal faster, extract Benzene from it and run it through a few of these Gas Turbines.
-// ↑↑↑ //gtnh.quest1869.desc=The MV Gas Turbine pairs excellently with Benzene, now that you can actually make it. Look at the "Flower Power" tab for more details on how to go about it, or just check NEI. Benzene is renewable from trees, and it's a powerful source of EU that can keep you going for several tiers as long as you upgrade it with the new multiblocks you unlock over time.%n%nIt's a good idea to switch off Steam, since you need big pipes to carry that around and the fuel efficiency on Steam Turbines is lower. Instead, make a Pyrolyse Oven or an Advanced Coke Oven to make Charcoal faster, extract Benzene from it and run it through a few of these Gas Turbines.
+gtnh.quest1869.desc=MV燃气轮机是苯的完美搭档,现在你能真正制造它了.请到"大众生物学"任务栏查看详情,学习如何自动化制造大量的苯,或者直接查看NEI也行.从树木中获取苯是可再生的,也是一种发电的强力手段,而且如果你使用新解锁的多方块机器对产线不断升级的话,它能支持你数个阶段的发展.%n%n适时放弃蒸汽是个明智的决定,因为随着用电需求的不断提升,你需要巨大的管道来输送蒸汽,而且现阶段的蒸汽轮机效率较低. 相反,制造热解炉或高级焦炉,让木炭生产更加迅速,再从中提炼出苯,通入燃气轮机发电,太妙了,我大苯环神教!
 
 # Quest.1870 - §6§lDiesel Power
 gtnh.quest1870.name=§6§l柴油的力量
@@ -7626,7 +7618,7 @@ gtnh.quest1903.desc=HV能源仓是一台高速工业高炉的关键,还能解锁
 
 # Quest.1904 - §6§lHelium is Not Just for Balloons
 gtnh.quest1904.name=§6§l氦气可不仅仅能用来充气球
-gtnh.quest1904.desc=高阶超导导线和能源仓需要用到氦.  压缩空气然后将其冷冻液化,然后离心再离心,用这种方法生产9个氦单元需要用1802个压缩空气单元. 更明智的做法是从末地石或者月球上的独居石中获取氦.%n%n译者注:电解暮色冰雪女王的宫殿的极光块与极光柱可1:1得获取氦,你需要解决的就是开采问题,建议初期使用更替核心,后期直接用末影采石场. 至于冰雪女王...她不会介意的.
+gtnh.quest1904.desc=高阶超导导线和能源仓需要用到氦.  压缩空气然后将其冷冻液化,然后离心再离心,用这种方法生产9个氦单元需要用1802个压缩空气单元. 更明智的做法是从末地石或者月球上的独居石中获取氦.%n%n译者注:电解暮色冰雪女王的宫殿的极光块与极光柱可1:1得获取氦,你需要解决的就是开采问题,建议初期使用更替核心,后期直接用末影采石场. 至于冰雪女王...她不会介意的.%n%n译者再注:现在可以蒸馏裂化炼油气获取大量的氦.
 
 # Quest.1905 - §6§lLarge Heat Exchanger - Fermat's Last
 gtnh.quest1905.name=§6§l大型热交换机-"费马大定理"
@@ -7634,7 +7626,7 @@ gtnh.quest1905.desc=大型热交换机是一种产能多方块机器,可以接�
 
 # Quest.1906 - §9§lRecycle for the Environment
 gtnh.quest1906.name=§9§l为了环境循环利用
-gtnh.quest1906.desc=如果你有堆积如山的原木、树苗、地狱岩或别的垃圾,将它们回收然后获得废料吧.§3(废料的产出没有100％的几率)§r.废料可用于生产UU物质增幅液(UU-A),可以使生产UU物质的耗时缩短为1/4,从而节省大量能量.%n%n某些物品,例如圆石、石头、小堆或者小撮粉这类太容易获取的物品不会产生废料.但是只要你能扔进去的任何粉末或垃圾都能让你获得废料.%n%n译者注:贴在回收机上的传送带可以帮助你分辨哪些物品无法产生废料——不会产生废料的物品不会被自动输入机器.
+gtnh.quest1906.desc=如果你有堆积如山的原木、树苗、地狱岩或别的垃圾,将它们回收然后获得废料吧.§3(废料的产出几率并非100％)§r.废料可用于生产UU物质增幅液(UU-A),可以使生产UU物质的耗时缩短为1/4,从而节省大量能量.%n%n某些物品,例如圆石、石头、小堆或者小撮粉这类太容易获取的物品不会产生废料.但是只要你能扔进去的任何粉末或垃圾都能让你获得废料.%n%n译者注:贴在回收机上的传送带可以帮助你分辨哪些物品无法产生废料——不会产生废料的物品不会被自动输入机器.
 
 # Quest.1907 - §6§lOne in a Million
 gtnh.quest1907.name=§6§l百万归一
@@ -7642,7 +7634,7 @@ gtnh.quest1907.desc=还是四百万归一?想要存储无穷无尽的圆石?石�
 
 # Quest.1908 - §3§lLucifer's Little Helper
 gtnh.quest1908.name=§3§l路西法(堕落天使)的小帮手
-gtnh.quest1908.desc=有了一台合金炉和一些地狱岩粉之后,你就可以制作下界熔炉了,这是一种极富效率的烘烤机器.对某些需要短时间烧制大量物品的人来说很有用.  唯一的缺点就是,电炉可以用于之后工业高炉的合成,但下界熔炉却不行.但话说回来,地狱岩粉反正不要钱,你有什么损失呢?再说了,你还可以用它烤成吨的面包呢!
+gtnh.quest1908.desc=有了一台合金炉和一些地狱岩粉之后,你就可以制作下界熔炉了,这是一种极富效率的烘烤机器.对某些需要短时间烧制大量物品的人来说很有用.%n%n唯一的缺点就是,电炉可以用于之后工业高炉的合成,但下界熔炉却不行.但话说回来,地狱岩粉反正不要钱,你有什么损失呢?再说了,你还可以用它烤成吨的面包呢!
 
 # Quest.1909 - §9§lHow Much is Too Much Cobblestone?
 gtnh.quest1909.name=§9§l太多的圆石是多少?
@@ -7653,8 +7645,8 @@ gtnh.quest1910.name=§6§l更好的工具
 gtnh.quest1910.desc=现在你有了一台MV压模机,你可以制作下一阶的匠魂工具了-钒钢锤头和大马士革钢手柄.
 
 # Quest.1911 - §6§lCraftsman Used to Mean Quality
-gtnh.quest1911.name=§6§l工匠们常把质量挂在嘴边
-gtnh.quest1911.desc=现在你有了一台工业高炉,你可以制作钒钢GT工具了.钒钢工具有192k的耐久,将伴随你很长时间.
+gtnh.quest1911.name=§6§lCraftsman曾是品质的代名词
+gtnh.quest1911.desc=现在你有了一台工业高炉,可以制作钒钢GT工具了.钒钢工具有192k的耐久,将伴随你很长时间.%n%n译者注:CRAFTSMAN是美国知名的工具品牌,长期内一直以品质著称,但近些年评价有所下滑.
 
 # Quest.1912 - 3 Plus 4, Carry the 2...
 gtnh.quest1912.name=三加四,再带上二...
@@ -7662,7 +7654,7 @@ gtnh.quest1912.desc=在注魔的时候,要是能知道准确稳定度就好了. 
 
 # Quest.1913 - §6§lGut-Enough For You? Bet You Thought Newspapers Were Dead!
 gtnh.quest1913.name=§6§l你受够了?我打赌你觉得报纸早就死了!
-gtnh.quest1913.desc=排版台和拓印机使你能复制附魔书.这个过程有点复杂,所以你最好查查Bibliocraft这个mod的wiki.复制附魔书需要大量的经验,所以是时候去刷刷经验了...%n%n复制时运III附魔书需要40+等级的经验.请注意,wiki提到过,只支持原版墨囊.%n%n§3你还需要一些神秘锭.你可以去魔法森林里的奖励箱中碰碰运气,或是尝试培育魔法金属莓(Magic-Metal-Berry)这种杂交作物.
+gtnh.quest1913.desc=排版台和拓印机使你能复制附魔书.这个过程有点复杂,所以你最好查查Bibliocraft这个mod的wiki.复制附魔书需要大量的经验,所以是时候去刷刷经验了...%n%n复制时运III附魔书需要40+等级的经验.请注意,wiki提到过,只支持原版墨囊.%n%n§3你还需要一些神秘锭.你可以研究神秘时代,也可以在奖励箱中碰碰运气,或是尝试培育魔法金属莓(Magic-Metal-Berry)这种杂交作物.
 
 # Quest.1914 - §6§lDo You Feel Unlucky?
 gtnh.quest1914.name=§6§l你觉得你是非酋?
@@ -7670,7 +7662,7 @@ gtnh.quest1914.desc=好吧,再也不会了!给我一些绿宝石和一本空白�
 
 # Quest.1915 - §3§lMud, Can Also be Used For Facials
 gtnh.quest1915.name=§3§l泥巴,也能用来美容
-gtnh.quest1915.desc=你可能已经在湿地(沼泽)找到了成吨的泥巴球,认为它们仅仅是烦恼.别浪费了!使用你新做的提取机,你可以得到隐藏在泥巴中的粘土!
+gtnh.quest1915.desc=你可能已经在湿地(沼泽)找到了成吨的泥巴球,认为它们只会让你在水中移动更麻烦,或者你只是用它们来做护甲.别浪费了!使用你新做的提取机,可以得到隐藏在泥巴中的粘土!
 
 # Quest.1916 - §6§lWhere's That Handyman When You Need Him?
 gtnh.quest1916.name=§6§l当你需要时,那个勤杂工在哪?
@@ -7686,15 +7678,15 @@ gtnh.quest1918.desc=那是不可能的!如果你真的想摆脱那些实在太�
 
 # Quest.1919 - §3§lToo Much Junk??
 gtnh.quest1919.name=§3§l垃圾太多??
-gtnh.quest1919.desc=那是不可能的!但如果你真的想摆脱那些多余的物品,制作一个垃圾桶吧.如果你想做个花哨装置的话,你可以用一个带拉杆的漏斗,这样就可以确保你丢进去的是真正的垃圾.§l我才不会告诉你§r我不小心把工具丢进去过呢,从来没有!
+gtnh.quest1919.desc=那是不可能的!但如果你真的想摆脱那些多余的物品,制作一个垃圾桶吧.如果你想做个花哨装置的话,可以用一个漏斗,带上拉杆,这样就可以确保你丢进去的是真正的垃圾.§l我才不会告诉你§r我不小心把工具丢进去过呢,从来没有!
 
 # Quest.1920 - You Can't Tell Them Apart Either?
 gtnh.quest1920.name=啥啥分不清楚?
-gtnh.quest1920.desc=许多植物看起来都差不多.总有一天你可以用机器将它们区分开了,但是现在你需要制作一个简易的植物透镜,至少能分辨它们的物种.%n%n使用透镜后,你可以知道以下信息:%n种类%n作物等级%n是否可以生长(某些作物有特殊要求)%n是否可以收获%n生长状态,到下一阶段的进度
+gtnh.quest1920.desc=许多植物看起来都差不多.总有一天你可以用机器区分它们,还能得知更多详细信息.但是现在你需要制作一个简易的植物透镜,至少能分辨它们的物种.%n%n使用透镜后,你可以知道以下信息:%n种类%n作物等级%n是否可以生长(某些作物有特殊要求)%n是否可以收获%n生长状态,到下一阶段的进度
 
 # Quest.1921 - §9§lSeparating Molecules
 gtnh.quest1921.name=§9§l分子分离器
-gtnh.quest1921.desc=你知道吗,曾经你可以从岩浆中获得钨酸盐、银、钽和铜... 然而现在,由于削弱(Nerf),那个时代已经过去了. Nerf(让游戏更难)是GTNH的生活方式. 甚至炼狱之壶(白嫖岩浆的方法之一),以前的合成表是无需线圈的...%n%n也不算太糟糕,你仍然可以从岩浆中白嫖不少东西,只是没那么好了而已: 二氧化硅、苦土、生石灰、金粒、蓝宝石粉还有钽铁.%n%n熔岩岩浆(将普通岩浆通过大型热交换机获得): 铜、锡、银、磷酸钙、白钨和铝土.%n%n所以这里有一个HV离心机的任务,对普通岩浆足够好了,但对于熔融岩浆还不够好. 想要获得钨酸盐的话,可以试试离心末地石粉或者末影粘浆.%n%n译者注: 由于熔岩岩浆和末影粘浆mod本身就有流体,所以NEI中直接对该流体查看用途是搜不出来的,可以通过对相应单元查看用途,可以看到GT版本的这两种流体.
+gtnh.quest1921.desc=你知道吗,曾经你可以从岩浆中获得钨酸锂、银、钽和铜... 然而现在,由于削弱(Nerf),那个时代已经过去了. Nerf(让游戏更难)是GTNH的生活方式. 甚至炼狱之壶(白嫖岩浆的方法之一),以前的合成表是无需线圈的...%n%n也不算太糟糕,你仍然可以从岩浆中白嫖不少东西,只是没那么好了而已: 二氧化硅、苦土、生石灰、金粒、蓝宝石粉还有钽铁.%n%n熔岩岩浆(将普通岩浆通过大型热交换机获得): 铜、锡、银、磷酸钙、白钨和铝土.%n%n所以这里有一个HV离心机的任务,对普通岩浆足够好了,但对于熔融岩浆还不够好. 想要获得钨酸锂的话,可以试试离心末地石粉或者末影粘浆.%n%n译者注: 由于熔岩岩浆和末影粘浆mod本身就有流体,所以NEI中直接对该流体查看用途是搜不出来的,可以通过对相应单元查看用途,可以看到GT版本的这两种流体.
 
 # Quest.1922 - §9§lTransformers, Roll Out!
 gtnh.quest1922.name=§9§l变形金刚,出击!(变压器)
@@ -7710,35 +7702,35 @@ gtnh.quest1924.desc=为真正的用电狂人准备,可将16A降压变为64A的�
 
 # Quest.1925 - §a§lWhat's in the Box?
 gtnh.quest1925.name=§a§l这盒子里有什么?
-gtnh.quest1925.desc=厌倦了揣着一兜镭等待大约7小时衰变?有了这个铅封盒,你就能将镭和别的材料放进去,它们会自己衰变,同时你就能干点别的了.%n%n§3你可能无法通过shift+单机快速存入或取出物品,但管道仍可工作.使用一个过滤器即可自动化整个过程.%n%n如果还觉得慢,那就搞个阵列吧.
+gtnh.quest1925.desc=厌倦了揣着一兜镭等待大约7小时衰变?有了这个铅封盒,你就能将镭和别的材料放进去,它们会自己衰变,同时你就能干点别的了.%n%n§3你可能无法通过shift+单击快速存入或取出物品,但管道仍可工作.使用一个过滤器即可自动化整个过程.
 
 # Quest.1926 - §2§lA Quicker Way to Get Around
 gtnh.quest1926.name=§2§l一种更快捷的出行方式
-gtnh.quest1926.desc=你准备好长途旅行了吗?带上新的午餐盒、鞍、栓绳还有一匹马,我们就可以开始一次旅行了.请勿涉入深水,马不喜欢穿过深水.如果在深水区落马了,你可以尝试重复骑上并每次移动一小段距离,对于小河来说,这样比洇渡更快.当两岸距离不远时,你也可以直接纵马跳过.%n%n如果你是单机玩家或是在本地服务器进行游戏,马是一种非常不错的出行方式.但在非本地服务器的话,如果你的网络不够给力或是服务器的TPS堪忧,骑马可能会出问题...而基本所有官方服务器都有这样的问题...%n%n当你下马要调查某物时,别忘了把马拴在栅栏上.
+gtnh.quest1926.desc=你准备好长途旅行了吗?带上新的午餐盒、鞍、栓绳还有一匹马,我们就可以开始一次旅行了.请勿涉入深水,马不喜欢穿过深水.如果在深水区落马了,你可以尝试重复骑上并每次移动一小段距离,对于小河来说,这样比泅渡更快.当两岸距离不远时,你也可以直接纵马跳过.%n%n如果你是单机玩家或是在本地服务器进行游戏,马是一种非常不错的出行方式.但在非本地服务器的话,如果你的网络不够给力或是服务器的TPS堪忧,骑马可能会出问题...而基本所有官方服务器都有这样的问题...%n%n当你下马要调查某物时,别忘了把马拴在栅栏上.
 
 # Quest.1927 - Coal...From Withereed?
 gtnh.quest1927.name=煤...来自凋灵甘蔗?
-gtnh.quest1927.desc=凋灵甘蔗(Withereed)是煤的一种来源,更重要的是,它可作为更高级作物的父本/母本.  你需要将煤块置于其下方可使凋灵甘蔗完全成熟.
+gtnh.quest1927.desc=凋灵甘蔗(Withereed)是煤的一种来源,更重要的是,它可作为更高级作物的父本/母本.  你需要将煤块置于下方才能使其完全成熟.
 
 # Quest.1928 - Son of Odin One-Eye
 gtnh.quest1928.name=独眼奥丁之子
-gtnh.quest1928.desc=雷神之草(God-of-Thunder-plant)可将你从下界获得的钍矿石增产4倍. 它还可以用来培育核能草(Reactoria).
+gtnh.quest1928.desc=雷神之草(God-of-Thunder-plant)可将你从下界获得的钍矿石增产到4倍. 它还可以用来培育核能草(Reactoria).
 
 # Quest.1929 - Just Cover Your Privates When You Walk By
 gtnh.quest1929.name=经过时把你的隐私藏好
-gtnh.quest1929.desc=核能草会掉落核能叶子,可将晶质铀矿石增产4倍.
+gtnh.quest1929.desc=核能草会掉落核能叶子,可将晶质铀矿石增产到4倍.
 
 # Quest.1930 - Ironwood is Better Than Normal Wood
 gtnh.quest1930.name=铁木比普通木材好
-gtnh.quest1930.desc=获得钢叶藤(steeleafranks)的必要步骤?或许不是.但是铁木是一种优秀的木材,可以制作一柄无比耐用的擀面杖,或是合适的镰刀.  爬行者之草(Creeperweed)有较高几率杂交出活根(liveroot).  译者注:你一定不能错过铁木做的软锤,怕是能用一辈子.
+gtnh.quest1930.desc=获得钢叶藤(steeleafranks)的必要步骤?或许不是.但是铁木是一种优秀的木材,可以制作一柄无比耐用的擀面杖,或是合适的镰刀.%n%n爬行者之草(Creeperweed)有较高几率杂交出活根(liveroot).%n%n译者注:你一定不能错过铁木做的软锤,怕是能用一辈子.
 
 # Quest.1931 - Vegan Leather?
 gtnh.quest1931.name=素食皮革?
-gtnh.quest1931.desc=如果你想要留着你的牛和马给你产奶和...胶水...你可以用皮革藤(Corium)来获得皮革.
+gtnh.quest1931.desc=如果你想要留着你的牛和马来产奶和...胶水...你可以用皮革藤(Corium)来获得皮革.
 
 # Quest.1932 - Gunpowder? More Like Dirtpowder!
 gtnh.quest1932.name=火药?更像土灰!
-gtnh.quest1932.desc=爬行者之草(Creeperweed)可为你提供火药,不需要担心爆炸.  它还很多特性(用于杂交),使其是优秀的父本或母本.%n%n皮革藤(Corium)可以比较容易地杂交出爬行者之草.
+gtnh.quest1932.desc=爬行者之草(Creeperweed)可为你提供火药,不需要担心爆炸.  它还很多特性(用于杂交),是优秀的父本或母本.%n%n皮革藤(Corium)可以比较容易地杂交出爬行者之草.
 
 # Quest.1933 - Milk of the Earth-Mother
 gtnh.quest1933.name=大地母亲的乳汁
@@ -7750,7 +7742,7 @@ gtnh.quest1934.desc=花一些农民币,我会卖给你一些棉花和线.恰好�
 
 # Quest.1935 - A Better Chisel
 gtnh.quest1935.name=更好的凿子
-gtnh.quest1935.desc=如果你想装饰你的基地,你就需要一把更好的凿子.  黑曜石凿子比起铁凿子来说一个顶俩.钻石凿子能打十个,但需要LV切割机才能制作.%n%n普通:256%n黑曜石:512%n钻石:2560%n下界之星:32767%n%n显然,越硬的材质越耐用.
+gtnh.quest1935.desc=如果你想装饰你的基地,你就需要一把更好的凿子.  黑曜石凿子比起铁凿子来说一个顶俩.钻石凿子能打十个,但需要LV切割机才能制作.%n%n普通:256%n黑曜石:512%n钻石:2560%n基岩:32767%n%n显然,越硬的材质越耐用.
 
 # Quest.1936 - The Right Tool for the Job
 gtnh.quest1936.name=合适的工具
@@ -7762,7 +7754,7 @@ gtnh.quest1937.desc=匠魂提供了几种有用的方块.将锡和沙砾放入�
 
 # Quest.1938 - Some Handy Uses
 gtnh.quest1938.name=一些方便的用法
-gtnh.quest1938.desc=匠魂凿子没有太多用处,但这里有几个有趣的用法.使用NEI查看其它装饰用途.你还可以做些半砖,使怪物无法在其上生成.  褐岩块铺的路稍微比粗质褐岩块铺的快一点.
+gtnh.quest1938.desc=匠魂凿子没有太多用处,但这里有几个有趣的用法.使用NEI查看其它装饰用途.你还可以做些半砖,使怪物无法在其上生成.%n%n在褐岩块铺的路上行走会比在粗质褐岩块铺的稍微快一点.
 
 # Quest.1939 - Chisel All the Things
 gtnh.quest1939.name=雕凿万物
@@ -7778,10 +7770,10 @@ gtnh.quest1941.desc=凿子对付楼梯时有点弱.要是有更多种类的楼�
 
 # Quest.1942 - Basic Blocks
 gtnh.quest1942.name=基础方块
-gtnh.quest1942.desc= 凿子提供种类繁多的方块.在NEI中搜索"chisel"可以找到一页又一页的结果.这里有个小例子.
+gtnh.quest1942.desc=凿子提供种类繁多的方块.在NEI中搜索"chisel"可以找到一页又一页的结果.这里有个小例子.
 
 # Quest.1943 - Fun Party Blocks
-gtnh.quest1943.name=有趣的方块聚会
+gtnh.quest1943.name=有趣的聚会方块
 gtnh.quest1943.desc=这里还有一些真正时髦的方块.
 
 # Quest.1944 - Concrete and GT Stones
@@ -7809,8 +7801,8 @@ gtnh.quest1949.name=你最好把你的防化服穿上
 gtnh.quest1949.desc=食人魔树(Troll-plant)!  它会做什么?  吃了你!%n%n译者注:其实就是产钚241而已...
 
 # Quest.1950 - Who the Hell is Bob?
-gtnh.quest1950.name=Bob是谁?
-gtnh.quest1950.desc=想要些绿宝石用来买东西或是做些别的?这里有个来源.  译者注:Bobsyeruncleranks,这个作物就叫这,恕我才疏学浅,实在不知道怎么翻...Bob's-Yer-Uncle是happy-Mondys乐队的一首歌,也是一个芝加哥乐队...
+gtnh.quest1950.name=Bob到底是谁?
+gtnh.quest1950.desc=想要些绿宝石用来买东西或是做些别的?这里有个来源.%n%n译者注:Bobsyeruncleranks,这个作物就叫这,恕我才疏学浅,实在不知道怎么翻...Bob's-Yer-Uncle是happy-Mondys乐队的一首歌,也是一个芝加哥乐队.%n%n译者再注:这个词的最初来源是英国熟语"Bob's your uncle",意为"就在这儿了"或者"这就完成了".
 
 # Quest.1951 - And I Dub Thee Sir Knight
 gtnh.quest1951.name=我授予你骑士称号
@@ -7818,15 +7810,15 @@ gtnh.quest1951.desc=想要有取之不尽的骑士金属?这种作物可不太�
 
 # Quest.1952 - Botany
 gtnh.quest1952.name=植物学
-gtnh.quest1952.desc=植物学这个mod为方块和玻璃提供了更多颜色,以及简单的瓷砖图案,或者用瓷砖作坊做出更复杂的图案.  现在,你需要做个铁质泥铲.%n%n这个mod会产生大量的蝴蝶,所以务必把你的花园放在地下或者玻璃房子里.蝴蝶会在你的领地周围扩散开来,感染树叶并产生更多的蝴蝶,造成延迟...
+gtnh.quest1952.desc=植物学(Botany)这个mod为方块和玻璃提供了更多颜色,以及简单的瓷砖图案,或者用瓷砖作坊做出更复杂的图案.  现在,你需要做个铁质泥铲.%n%n这个mod会产生大量的蝴蝶,所以务必把你的花园放在地下或者玻璃房子里.蝴蝶会在你的领地周围扩散开来,感染树叶并产生更多的蝴蝶,造成延迟...
 
 # Quest.1953 - Finding Flowers
 gtnh.quest1953.name=寻花
-gtnh.quest1953.desc=想要开始植物学这个mod,你需要找一些花.然后用你的泥铲把泥土变成普通花土.然后将你找到的花种在这些普通花土上,这样它们会变成植物学这个mod的花.  如果你已经达到了MV阶段,查看"人来疯"任务栏以获知基因工程(注意与基因工业区分)方面的信息.
+gtnh.quest1953.desc=想要开始植物学这个mod,你需要找一些花.然后用你的泥铲把泥土变成普通花土.然后将你找到的花种在这些普通花土上,这样它们会变成植物学这个mod的花.  如果你已经达到了MV阶段,查看"人来疯(蜂)"任务栏以获知基因工程(注意与基因工业区分)方面的信息.
 
 # Quest.1954 - Analyser
 gtnh.quest1954.name=分析仪
-gtnh.quest1954.desc=基因工程的分析仪和林业的分析仪功能上没啥区别,显示蜜蜂、树、蝴蝶和花的基因组.它还能用于揭示DNA序列上的基因.  与林业分析仪不同,这台分析仪需要能量(RF或EU)和DNA染料,染色染色体并直接测定基因组.分析仪单次运行需要15秒.  任务书内关于这几个任务的资料来自Binnie的wiki：https://binnie.mods.wiki/wiki/Tutorial/Genetics
+gtnh.quest1954.desc=基因工程的分析仪和林业的分析仪功能上没啥区别,显示蜜蜂、树、蝴蝶和花的基因组.它还能用于揭示DNA序列上的基因.  与林业分析仪不同,这台分析仪需要能量(RF或EU)和DNA染料,染色染色体并直接测定基因组.分析仪单次运行需要15秒.%n%n任务书内关于这几个任务的资料来自Binnie的wiki：https://binnie.mods.wiki/wiki/Tutorial/Genetics
 
 # Quest.1955 - Powder Power
 gtnh.quest1955.name=粉末的力量(Powder Power)
@@ -7837,12 +7829,12 @@ gtnh.quest1956.name=除草种花
 gtnh.quest1956.desc=没人喜欢杂草.除草剂可以为你的花土除草.%n%n骨粉可促进花卉发芽,使其更快成熟.
 
 # Quest.1957 - Like Having a County Extension Office in Your Hand
-gtnh.quest1957.name=就上手里拿着个县扩展办公室
-gtnh.quest1957.desc=土壤检测计将告诉你花土的状态-干燥性、肥沃度等.你可以对花土使用各种粉末来调整其属性,满足花的需求.
+gtnh.quest1957.name=就像手里拿着个县扩展办公室
+gtnh.quest1957.desc=土壤检测计将告诉你花土的状态-干燥性、肥沃度等.你可以对花土使用各种粉末来调整其属性,满足花的需求.%n%n译者注:县扩展办公室(County-Extension-Offices)是美国国家农药信息中心(NPIC)在各县设置的一种机构,办公室可以提供有关园艺、农业和害虫防治问题的相关咨询.
 
 # Quest.1958 - 80 New Colors to Play With
 gtnh.quest1958.name=又多了80种新颜色给你玩
-gtnh.quest1958.desc=当你种植原版花,在其成熟后.用剪刀收割获得幼苗-可以重新种植繁殖.破坏花就会获得一朵成熟的花.用工作台处理这花,你就能获得染料.%n%n想要杂交,你需要将花与空花土相邻种植.留神杂草.最后一个小幼苗就会开始生长.%n%n记住,做这些事情时要在地下或是封闭空间,否则你的TPS会后悔的.
+gtnh.quest1958.desc=当你种植原版花,在其成熟后.用剪刀收割获得幼苗-可以重新种植繁殖.破坏花就会获得一朵成熟的花.用工作台处理这花,你就能获得染料.%n%n想要杂交,你需要将花与空花土相邻种植.留神杂草.最后一个小幼苗就会开始生长.%n%n记住,做这些事情时要在地下或是封闭空间,否则TPS会让你后悔的.
 
 # Quest.1959 - Glass of Many Colors
 gtnh.quest1959.name=五颜六色的玻璃
@@ -7850,7 +7842,7 @@ gtnh.quest1959.desc=种类丰富的染料带来了颜色丰富的玻璃.只有�
 
 # Quest.1960 - Ceramics
 gtnh.quest1960.name=陶瓷
-gtnh.quest1960.desc=用一些粘土和染料,你可以制作染色粘土.将染色粘土烧制,你就能获得基础的陶瓷块.要是你想要造出一片区域拥有均匀过度的颜色的话,这些方块很有用.
+gtnh.quest1960.desc=用一些粘土和染料,你可以制作染色粘土.将染色粘土烧制,你就能获得基础的陶瓷块.如果你想要造出一片拥有均匀过度颜色的区域,这些方块会很有用.
 
 # Quest.1961 - Mortar and Tiles
 gtnh.quest1961.name=研钵和瓷砖
@@ -7873,8 +7865,8 @@ gtnh.quest1965.name=玻璃作坊
 gtnh.quest1965.desc=想要定制玻璃的形状和配置?玻璃作坊可以提供一些独一无二的图案然后把它们印在你的窗户上.你需要做些玻璃配件,来把玻璃聚在一起.
 
 # Quest.1966 - Mo' Hammers Mo' Problems
-gtnh.quest1966.name=Mo'锤子Mo'麻烦
-gtnh.quest1966.desc=没错,是时候看看别的锤子了. 木工大师锤使你能够旋转许多方块.%n%n潜行使用可以垂直旋转方块.%n%n为什么低阶的锤子叫大师锤?谁知道??
+gtnh.quest1966.name=锤子越多,麻烦越多
+gtnh.quest1966.desc=没错,是时候看看别的锤子了. 木工大师锤使你能够旋转许多方块.%n%n潜行使用可以垂直旋转方块.%n%n为什么低阶的锤子叫大师锤?谁知道??%n%n译者注:标题原文是"Mo' Hammers Mo' Problems",来源于美国说唱歌手The Notorious B.I.G.的歌曲名"Mo' Money,Mo' Problems",亦是一句俚语,意为"金钱越多麻烦越多".
 
 # Quest.1967 - Panels to Cover Your...Everything
 gtnh.quest1967.name=覆盖万物
@@ -7894,7 +7886,7 @@ gtnh.quest1970.desc=forge小方块(Forge-Microblocks)mod对制作定制部件非
 
 # Quest.1971 - Fancy Lanterns
 gtnh.quest1971.name=精致灯笼
-gtnh.quest1971.desc=展示架(Bibliocraft)mod提供各种精致灯笼. 还能用杨梅或者蜂蜡制作蜡烛.
+gtnh.quest1971.desc=收藏馆(BiblioCraft)mod提供各种精致灯笼. 还能用蜡杨梅或者蜂蜡制作蜡烛.
 
 # Quest.1972 - Glowstone
 gtnh.quest1972.name=萤石
@@ -7938,7 +7930,7 @@ gtnh.quest1981.desc=EIO的电灯和无线电灯可以照亮最多10格,而普通
 
 # Quest.1982 - What's Behind Door #3?
 gtnh.quest1982.name=门后有什么#3?
-gtnh.quest1982.desc=更多门(MalisisDoors)mod可以让你见识各种奇思妙想的定制门.%n%n用玩家探测覆盖板开门比起用按钮或压力板开门好多了...不过对原料不太熟.%n%n或许你可以找到这台方块混合器的用法,它太奇怪了并且无法正确工作.我正打算把它扔了呢.%n%n还有一些可合成的更多门mod的物品,查看NEI吧.
+gtnh.quest1982.desc=更多门(MalisisDoors)mod可以让你见识各种奇思妙想的定制门.%n%n用玩家探测覆盖板开门比起用按钮或压力板开门好多了...不过造价有点...倒霉.%n%n或许你可以找到这台方块混合器的用法,它太奇怪了并且无法正确工作.我正打算把它扔了呢.%n%n还有一些可合成的更多门mod的物品,查看NEI吧.
 
 # Quest.1983 - Build it Bigger
 gtnh.quest1983.name=造个大家伙
@@ -7954,7 +7946,7 @@ gtnh.quest1985.desc=电梯非常适合在你的基地用于快速垂直运输.�
 
 # Quest.1986 - More Like Ouch-i-tect
 gtnh.quest1986.name=更像 Ouch-i-tect
-gtnh.quest1986.desc=建筑师锯台可以将大部分整立方体方块加工成各种令人惊叹的形状.%n%n用木工锤右键可将方块旋转90度.用木工锤Shift+右键可更改底面的方向.%n%n凿子有许多方式来改变方块的结构. 某些块自动与相邻方块形成连接.可以通过手持凿子右键你想改变的面附近,来禁用或重新启用自动连接.%n%n某些方块可以塞入第二材料.用凿子右键方块的中心,可以取出第二材料.%n%n你还可以用凿子右键原版玻璃、玻璃板、萤石或冰块来无损采集它们.
+gtnh.quest1986.desc=建筑师锯台可以将大部分整立方体方块加工成各种令人惊叹的形状.%n%n用木工锤右键可将方块旋转90度.用木工锤Shift+右键可更改底面的方向.%n%n凿子有许多方式来改变方块的结构. 某些块自动与相邻方块形成连接.可以通过手持凿子右键你想改变的面附近,来禁用或重新启用自动连接.%n%n某些方块可以塞入第二材料.用凿子右键方块的中心,可以取出第二材料.%n%n你还可以用凿子右键原版玻璃、玻璃板、萤石或冰块来无损采集它们.%n%n译者注:原文Ouch-i-tect是Architect(建筑)的谐音.
 
 # Quest.1987 - §3§lUpgrading Drawers
 gtnh.quest1987.name=§3§l升级抽屉
@@ -7962,11 +7954,11 @@ gtnh.quest1987.desc=抽屉升级不同于桶升级.首先你需要制作升级�
 
 # Quest.1988 - §3§lYour Mom Says to Upgrade Your Drawers
 gtnh.quest1988.name=§3§l你妈妈说你得升级抽屉了
-gtnh.quest1988.desc=抽屉有许多升级等级.制作一些铁、金等级的抽屉升级,我将会给你一些特殊用途的抽屉升级,让我们在你的基地实验实验这些特殊升级吧.查看NEI获知黑曜石、绿宝石、钻石等更多抽屉升级.%n%n§4想要移除升级,空手Shift+右键抽屉打开升级GUI.
+gtnh.quest1988.desc=抽屉有许多升级等级.制作一些铁、金等级的抽屉升级,我将会给你一些特殊用途的抽屉升级,在你的基地实验实验这些特殊升级吧.查看NEI获知黑曜石、绿宝石、钻石等更多抽屉升级.%n%n§4想要移除升级,空手Shift+右键抽屉打开升级GUI.
 
 # Quest.1989 - Machine Inventory Manager
 gtnh.quest1989.name=工厂管理器
-gtnh.quest1989.desc=工厂管理器是史蒂大...我是说史蒂夫工厂管理(SFM)的核心方块. SFM是一种高阶自动化系统.AE2可以一次处理最多9格的自动合成或加工,甚至可以嵌套.而SFM可以处理更复杂的合成,比如说装配线合成表.%n%n工厂线缆可将工厂管理器连接到物品或流体容器.%n%n在某个智者写出智者手册以前,你最好的选择就是实验,在Discord上寻求帮助,或是搜索Google.这个界面类似于大多数基于图形用户界面的自动化系统,比如LabView.%n%n设计糟糕的SFM系统会导致TPS下降.确保你的输出空置,千万不要填满.%n%n工厂线缆是SFM的基础线缆.它们使工厂管理器能与各种容器交互,并充当管理器与其他设备之间的连接者.%n%nmehdi2344认为我在章节标题上开了个糟糕的玩笑,但他是个笨蛋,就这样.%n%n感谢这些任务的书写者Nori-Silverrage!%n%n§3另外,在创造模式测试时,可以使用'创造物品供应器'. Energistics-Connector被禁用,原因是它无法正确工作.
+gtnh.quest1989.desc=工厂管理器是史塔西...我是说史蒂夫工厂管理(SFM)的核心方块. SFM是一种高阶自动化系统.AE2可以一次处理最多9格的自动合成或加工,甚至可以嵌套.而SFM可以处理更复杂的合成,比如说装配线合成表.%n%n工厂线缆可将工厂管理器连接到物品或流体容器.%n%n在某个智者写出智者手册以前,你最好的选择就是实验,在Discord上寻求帮助,或是搜索Google.这个界面类似于大多数基于图形用户界面的自动化系统,比如LabView.%n%n设计糟糕的SFM系统会导致TPS下降.确保你的输出空置,千万不要填满.%n%n工厂线缆是SFM的基础线缆.它们使工厂管理器能与各种容器交互,并充当管理器与其他设备之间的连接者.%n%nmehdi2344认为我开头写的玩笑很糟糕,但他是个笨蛋,就这样.%n%n感谢这些任务的书写者Nori-Silverrage!%n%n§3另外,在创造模式测试时,可以使用'创造物品供应器'. Energistics-Connector被禁用,原因是它无法正确工作.
 
 # Quest.1990 - Moving the Manager 
 gtnh.quest1990.name=移动工厂管理器
@@ -7974,7 +7966,7 @@ gtnh.quest1990.desc=曾经完成了一个很棒的程序,然后意识到你的�
 
 # Quest.1991 - Naming Names
 gtnh.quest1991.name=命名
-gtnh.quest1991.desc=工厂贴标器使你能够给予任意能与工厂管理器连接的东西一个独一无二的名字-这将有助于你写程序时辨认它们.%n%n在文本框中设置标签或者搜索已存储的标签-点击任意已存储标签以选中它,双击以编辑它.关闭GUI时,无论文本框中有什么都将被设置为标签.%n%n手持贴标器左键以贴上标签,右键以打开GUI.贴上一个空白标签将会移除任意已存在的标签.%n%n§3或许有bug或许没有.多人游戏重新登录会造成标签丢失,不过在单人游戏中没有这样的问题.玩得开心!
+gtnh.quest1991.desc=工厂贴标器使你能够给予任意能与工厂管理器连接的东西一个独一无二的名字-有助于你写程序时辨认它们.%n%n在文本框中设置标签或者搜索已存储的标签-点击任意已存储标签以选中它,双击以编辑它.关闭GUI时,无论文本框中有什么都将被设置为标签.%n%n手持贴标器左键以贴上标签,右键以打开GUI.贴上一个空白标签将会移除任意已存在的标签.%n%n§3或许有bug或许没有.多人游戏重新登录会造成标签丢失,不过在单人游戏中没有这样的问题.玩得开心!
 
 # Quest.1992 - Wand Enhancements
 gtnh.quest1992.name=法杖强化
@@ -7998,7 +7990,7 @@ gtnh.quest1996.desc=每一点vis都很重要,所以为你自己制作神秘使�
 
 # Quest.1997 - Boots Are Made For Walking
 gtnh.quest1997.name=靴子是用来走路的
-gtnh.quest1997.desc=也用来游泳...在你环游世界时,这些旅行者之靴将使你快出残影.想要制作它们,你得先研究研究注魔.%n%n§3还有电子版本,拥有更高的魔力减免,请查阅'电子魔法工具'章节.
+gtnh.quest1997.desc=也用来游泳...在环游世界时,这些旅行者之靴会让你快出残影.想要制作它们,你得先研究研究注魔.%n%n§3还有电子版本,拥有更高的魔力减免,请查阅'电子魔法工具'章节.
 
 # Quest.1998 - I Can See Everything
 gtnh.quest1998.name=我可以看到一切
@@ -8034,15 +8026,15 @@ gtnh.quest2005.desc=只有悬崖和万丈深渊,稍不注意就会粉身碎骨.T
 
 # Quest.2006 - The Beginning of the End Game
 gtnh.quest2006.name=毕业之路的开端
-gtnh.quest2006.desc=欢迎来到TecTech!这里有你毕业所需的真正的巅峰科技.但是,学习TecTech常常让人摸不着头脑,所以仔细听.%n%n首先你需要制造所需机器的多种机械方块:超能机械方块,电子计算机机械方块,高级计算机方块和计算机散热器.你需要大量这些机械方块方块才能继续前进.%n%n我们列举出来的只是举个例子,实际需要的将会更多. 更多.%n%n使用光缆将机器连接起来. 确保它们已被涂色,同时光缆连接到的方块也要被涂色.%n%n*投影仪将会显示完整机器的全息图像,左下角的聊天栏会显示可变方块的注释. 如果堆叠更多投影仪的话,你就可以看到较大版本的全息图(比如量子计算机).
+gtnh.quest2006.desc=欢迎来到TecTech!这里有你毕业所需的真正的巅峰科技.但是,学习TecTech常常让人摸不着头脑,所以仔细听.%n%n首先你需要制造所需机器的多种机械方块:超能机械方块,电子计算机机械方块,高级计算机方块和计算机散热器.你需要大量这些机械方块才能继续前进.%n%n我们列举出来的只是举个例子,实际需要的只会更多、更多、更多.%n%n使用光缆将机器连接起来. 确保它们已被涂色,同时光缆连接到的方块也要被涂色.%n%n*投影仪将会显示完整机器的全息图像,左下角的聊天栏会显示可变方块的注释. 如果堆叠更多投影仪的话,你就可以看到较大版本的全息图(比如量子计算机).%n%n§4译者注:§lTecTech多方块机器的控制器GUI界面的闪电或是电源图标亮起时,不要破坏任何结构方块,否则会引发爆炸!运行过程中更不能破坏结构方块!§r
 
 # Quest.2007 - Quantum Computer
 gtnh.quest2007.name=量子计算机
-gtnh.quest2007.desc=这是一台复杂得不可思议的机器,它会为你的研究站提供"算力(Computation)".%n%n首先你需要备齐一些东西:量子计算机主方块、未定元解析器、一些电路板和容纳它们的电脑机箱、以及一个大能源仓(一开始可以用4A-UV能源仓),需要这么大的能源仓是因为每个添加的电脑机箱(关于机箱会在下面详细解释)会不断提升正常运行所需的能源输入(1A-UV).%n%n这台多方块机器本身也会消耗大量的能量.另一个要点是,只在研究站中有需要扫描的配方时才打开量子计算机,这样可以避免过多的能量损失.记得先打开量子计算机再打开研究站.%n%n想要构建这台科学怪兽,你需要在至少高于地面1格处放下量子计算机主方块,然后对着主方块使用全息投影仪,这将为你提供大量信息和各种类似幽灵的方块-显示相应的机械方块或仓室需要放在何处. 注意靠近散热机械方块的没有点的幽灵方块表示此处必须留空.后期你会需要一台更大的量子计算机.使用一组全息投影仪即可看到建造提示.如果在某些极端情况下,一台最大尺寸,拥有24个机箱的量子计算机都不够用了,你还可以连接多台量子计算机构成阵列. 不过现在,让我们先造一台基础款.%n%n§4未定元解析器%n一个比较让人摸不着头脑的小游戏.你的目标是平衡焦点周围的光块.有时候,运行一段时间后,这种薛定谔状态会再次出现问题,需要再次解谜方可继续运行.这种情况是随机的,令人非常沮丧,尤其是在研究站和量子计算机之间进行操作时,所以在量子计算机运行过程中,不时查看未定元解析器十分重要. 如果谜题看起来太难,拆除未定元解析器和控制器方块并重新放置,这样就能刷新出新的谜题了.%n§4计算机箱(Computer-Racks):§r%n此多方块结构中产生算力的主要部件.想要正确使用机箱,你需要放入一些电路板和散热片;高级散热片效果最佳.重点就是是你要使用散热片来防止热量达到灾难性的程度.机箱会在热量达到约9000(也可以写作90％,而10000热量即为100％)后熔毁或爆炸,但大多数电路板的阈值要低得多(即达到此阈值后,电路板熔毁,热量停止上升).对于我们在这里的例子,终极晶体电脑,任何超过54％的热量都会导致其熔毁(为了机箱安全)! 不同电路板的最大热量不同,即便是同等级的不同电路板也是如此.你可以通过扫描单独机箱,获知其内电路板的热量参数. 在散热完毕之前,你无法移动电路板和散热片. 在控制器的GUI中也可以看到热量.而为了精确地监控计算机热量,你需要参数仪,这将在稍后讲解. 最重要的是：千万不要在散热完毕之前拆卸机箱. 否则,BOOM! %n%n§4算力(Computation):§r%n算力每秒生成一次,而算力的大小取决于机箱中的电路板等级和数量.然而,在生成多少算力之间存在差异,即使使用相同的等级的电路板也是如此.例如,大型量子电脑(量子系列电路板中的LuV等级)与湿件处理器(湿件系列电路板中的LuV等级)相比,湿件处理器可以提供更多的算力,虽然它们等级相同.%n如果你想获知一种电路板能提供的精确算力,你可以放下一个电脑机箱,放进去一个电路板然后扫描它.总算力也可以在控制器的GUI中看到.%n%n扫描结果会包含以下信息.%n%n§4基础算力(Base-computation):§r%n没啥好说的...%n§4超频后算力(After-overclocking):§r%n数字一般和上面一样,除非你特意使其超频%n§4蓄热(Heat-Accumulated):§r%n这个数字取决于电路板和散热片,注意这个参数,它非常重要.%n%n你也可以在GTNH的wiki上找到关于电路板最大热量和算力生成的概述.%n%n通过参数仪,你可以手动超频或过压,不过不是太必要,感兴趣的话可以试试.%n%n为研究站提供算力:%n在量子计算机的可变位置安装主光学接口,并在研究站上安装副光学接口. 使用光缆将它们连接起来,并把三者涂上相同颜色.%n%n示例：%n现在,你已经了解了操作计算机箱的基础概念和安全条例(在启动量子计算机前扫描机箱!),但你的量子计算机最理想的配置是什么?要知道,每秒128的最低算力已经可以满足相当部分的研究站配方了.我们建议使用两个4格机箱,均放入1个高级散热片和3个终极晶体电脑(ZPM),一共可以提供每秒156算力.与一些更复杂的配置相比,这是一个性价比相当高的配置.不过这也仅仅是一种小配置,之后你应该会考虑优化(或扩大)本配置!%n%n既然你已经了解了一部分理论知识,是时候构建你自己的量子计算机了!这需要消耗巨量的资源.%n%n译者注:主方块的闪电标志按下后千万不要拆机器,否则就会炸!当然运行过程中更不能拆.%n%n WIKI 量子计算机：§9gtnh.huijiwiki.com/p/506§r
+gtnh.quest2007.desc=这是一台复杂得不可思议的机器,它会为你的研究站提供"算力(Computation)".%n%n首先你需要备齐一些东西:量子计算机主方块、未定元解析器、一些电路板和容纳它们的电脑机箱、以及一个大能源仓(一开始可以用4A-UV能源仓).需要这么大的能源仓是因为量子计算机本身需要1A-UV,而每个机箱都会再增加1A-UV的能源需求.另一个要点是,只在研究站中有需要扫描的配方时才打开量子计算机,这样可以避免过多的能量损失.记得先打开量子计算机再打开研究站.%n%n想要构建这台科学怪兽,你需要在至少高于地面1格处放下量子计算机主方块,然后对着主方块使用全息投影仪,这将为你提供大量信息和各种类似幽灵的方块-显示相应的机械方块或仓室需要放在何处. 注意靠近散热机械方块的没有点的幽灵方块表示此处必须留空.后期你会需要一台更大的量子计算机.使用一组全息投影仪即可看到建造提示.如果在某些极端情况下,一台最大尺寸,拥有24个机箱的量子计算机都不够用了,你还可以连接多台量子计算机构成阵列. 不过现在,让我们先造一台基础款.%n%n§4未定元解析器:%n一个比较让人摸不着头脑的小游戏.你的目标是平衡焦点周围的光块.有时候,运行一段时间后,这种薛定谔状态会再次出现问题,需要再次解谜方可继续运行.这种情况是随机的,令人非常沮丧,尤其是在研究站和量子计算机之间进行操作时,所以在量子计算机运行过程中,不时查看未定元解析器十分重要. 如果谜题看起来太难,拆除未定元解析器和控制器方块并重新放置,这样就能刷新谜题了.%n§4计算机箱(Computer-Racks):§r%n此多方块结构中产生算力的主要部件.想要正确使用机箱,你需要放入一些电路板和散热片;高级散热片效果最佳.重点就是,你要使用散热片来防止热量达到灾难性的程度.机箱会在热量达到约9000(也可以写作90％,而10000热量即为100％)后熔毁或爆炸,但大多数电路板的阈值要低得多(即达到此阈值后,电路板熔毁,热量停止上升).对于我们在这里的例子,终极晶体电脑,任何超过54％的热量都会导致其熔毁(为了机箱安全)! 不同电路板的最大热量不同,即便是同等级的不同电路板也是如此.你可以通过扫描单独机箱,获知其内电路板的热量参数. 在散热完毕之前,你无法移动电路板和散热片. 在控制器的GUI中也可以看到热量.而为了精确地监控计算机热量,你需要参数仪,这将在稍后讲解. 最重要的是：千万不要在散热完毕之前拆卸机箱. 否则,BOOM! %n%n§4算力(Computation):§r%n算力每秒生成一次,而算力的大小取决于机箱中的电路板等级和数量.然而,在生成多少算力之间存在差异,即使使用相同的等级的电路板也是如此.例如,大型量子电脑(量子系列电路板中的LuV等级)与湿件处理器(湿件系列电路板中的LuV等级)相比,湿件处理器可以提供更多的算力,虽然它们等级相同.%n如果你想获知一种电路板能提供的精确算力,你可以放下一个电脑机箱,放进去一个电路板然后扫描它.总算力也可以在控制器的GUI中看到.%n%n扫描结果会包含以下信息.%n%n§4基础算力(Base-computation):§r%n没啥好说的...%n§4超频后算力(After-overclocking):§r%n数字一般和上面一样,除非你特意使其超频%n§4蓄热(Heat-Accumulated):§r%n这个数字取决于电路板和散热片,注意这个参数,它非常重要.%n%n你也可以在GTNH的wiki上找到关于电路板最大热量和算力生成的概述.%n%n通过参数仪,你可以手动超频或过压,不过不是太必要,感兴趣的话可以试试.%n%n为研究站提供算力:%n在量子计算机的可变位置安装主光学接口,并在研究站上安装副光学接口. 使用光缆将它们连接起来,并把三者涂上相同颜色.%n%n示例：%n现在,你已经了解了操作计算机箱的基础概念和安全条例(在启动量子计算机前扫描机箱!),但你的量子计算机最理想的配置是什么?要知道,每秒128的最低算力已经可以满足相当部分的研究站配方了.我们建议使用两个4格机箱,均放入1个高级散热片和3个终极晶体电脑(ZPM),一共可以提供每秒156算力.与一些更复杂的配置相比,这是一个性价比相当高的配置.不过这也仅仅是一种最低需求的配置,之后你应该会考虑优化(或扩大)本配置!%n%n既然你已经了解了一部分理论知识,是时候构建你自己的量子计算机了!这需要消耗巨量的资源.%n%n译者注:运行过程中不要拆掉任何方块,否则就会爆炸!%n%n WIKI 量子计算机：§9gtnh.huijiwiki.com/p/506§r
 
 # Quest.2008 - Research Station
 gtnh.quest2008.name=研究站
-gtnh.quest2008.desc=既然你已经开始构建你珍贵的量子计算机了,再加上研究站怎么样?同样的步骤,让全息投影仪告诉你如何构建这台多方块机器(主方块下方至少要有3格空间,这样你才能看到完整的结构显示).结构快要完成时,在背部放下一个能源仓、一个副光学接口和一个维护仓.%n%n结构彻底完成后,只要量子计算机开着,你就可以随时扫描(当然需要正确连接).你需要将被扫描物品放进物品固定容器中,然后将一个闪存放入主方块右下角的槽位中.当运算全部结束后,装有被扫描物品所有数据的闪存就会出现在主方块里.%n%n还听不明白?很好,这就是探究精神!  如果你想获得精确的测量结果,一定要在单机测试这些危险的东西.%n%n不要忘了为你的光纤涂色,否则它将不会连接!  译者注:主方块的闪电标志按下后千万不要拆机器,否则就会炸!当然运行过程中更不能拆.%n%n§3请注意,有些研究需要非常夸张的电流.§r%n%n WIKI 研究站：§9gtnh.huijiwiki.com/p/527§r
+gtnh.quest2008.desc=既然你已经开始构建你珍贵的量子计算机了,再加上研究站怎么样?同样的步骤,让全息投影仪告诉你如何构建这台多方块机器(主方块下方至少要有3格空间,这样你才能看到完整的结构显示).结构快要完成时,在背部放下一个能源仓、一个副光学接口和一个维护仓.%n%n结构彻底完成后,只要量子计算机开着,你就可以随时扫描(当然需要正确连接).你需要将被扫描物品放进物品固定容器中,然后将一个闪存放入主方块右下角的槽位中.当运算全部结束后,装有被扫描物品所有数据的闪存就会出现在主方块里.%n%n还听不明白?很好,这就是探究精神!  如果你想获得精确的测量结果,一定要在单机测试这些危险的东西.%n%n不要忘了为你的光纤涂色,否则它将不会连接!%n%n译者注:运行过程中不要拆掉任何方块,否则就会爆炸!%n%n§3请注意,有些研究需要非常夸张的电流.§r%n%n WIKI 研究站：§9gtnh.huijiwiki.com/p/527§r
 
 # Quest.2009 - Sign Updater
 gtnh.quest2009.name=告示牌更新器
@@ -8050,7 +8042,7 @@ gtnh.quest2009.desc=告示牌更新器使你的工厂管理器可以更新外部
 
 # Quest.2010 - Item Valve
 gtnh.quest2010.name=物品阀门
-gtnh.quest2010.desc=物品阀门使你的工厂管理器可以在3x3x3的立方体范围内吸入掉落物.你还可以用它将物品沿着它的方向扔到世界里.
+gtnh.quest2010.desc=物品阀门使你的工厂管理器可以吸入3x3x3立方体范围内的掉落物.你还可以用它将物品沿其面朝方向扔到世界里.
 
 # Quest.2011 - Rapid Item Valve
 gtnh.quest2011.name=快速物品阀门
@@ -8082,7 +8074,7 @@ gtnh.quest2017.desc=方块更新检测器使你的工厂管理器可以检测到
 
 # Quest.2018 - §9§a§lCutting Up Stuff at EV
 gtnh.quest2018.name=§9§a§lEV切割机
-gtnh.quest2018.desc=既然你已经到达EV阶段了,你就需要更先进的切割机.最好做一个.
+gtnh.quest2018.desc=既然已经到达EV阶段了,你就需要更先进的切割机.最好做一个.
 
 # Quest.2019 - The Basics of SFM
 gtnh.quest2019.name=SFM基础
@@ -8094,15 +8086,15 @@ gtnh.quest2020.desc=末影箱子非常神奇.无论你制造了多少末影箱�
 
 # Quest.2021 - A Magical Tank
 gtnh.quest2021.name=神奇的储罐
-gtnh.quest2021.desc=这个储罐似乎总是连接到同一个空间,无论你制造了多少末影储罐.  我可以在一个维度将流体通入储罐,然后再完全不同的另一个维度抽取这些流体!%n%n我发现了一个方法,可以对储罐顶部染色来为每个储罐指定一个频道.  使用钻石使储罐成为私有的,连接使用者的私人网络,且不会同其他玩家的储罐分享流体.%n%nShift+右键可以移除钻石,让储罐重新回到公共网络中.%n%n前部的刻度盘控制储罐的输入/输出. 当蓝色在上时,储罐接收流体.当橙色在上时,储罐输出流体. %n%n§3如果大量使用末影储罐造成了FPS下降,试试在config里关闭底部特效(the fancy render at the bottom).
+gtnh.quest2021.desc=这个储罐似乎总是连接到同一个空间,无论你制造了多少末影储罐.  我可以在一个维度将流体通入储罐,然后再完全不同的另一个维度抽取这些流体!%n%n我发现了一个方法,可以对储罐顶部染色来为每个储罐指定一个频道.  使用钻石使储罐成为私有的,连接使用者的私人网络,且不会同其他玩家的储罐分享流体.%n%nShift+右键可以移除钻石,让储罐重新回到公共网络中.%n%n前部的刻度盘控制储罐的输入/输出. 当蓝色在上时,储罐接收流体.当橙色在上时,储罐输出流体. %n%n§3如果大量使用末影储罐造成了FPS下降,试试在config\EnderStorage.cfg里关闭底部特效(将disableFXTank设置为true).
 
 # Quest.2022 - That Chest is Too Big to Carry Around
 gtnh.quest2022.name=箱子太重了,难以携带
-gtnh.quest2022.desc=不想带着末影箱子然后不停的放下然后破坏拾取,何不试试方便好用的末影袋子呢?你必须将它与你想要链接的箱子同步.若要将其与新的箱子同步,手持袋子Shift+右键新的箱子.
+gtnh.quest2022.desc=不想带着末影箱子然后不停地放下、破坏、拾取,何不试试方便好用的末影袋子呢?你必须将它与你想要链接的箱子同步.若要将其与新的箱子同步,手持袋子Shift+右键新的箱子.
 
 # Quest.2023 - §b§a§lMore Power Needed, Sir!
 gtnh.quest2023.name=§b§a§l需要更多的电力,先生!
-gtnh.quest2023.desc=工业高炉和大型化学反应釜的配方需要越来越多的电力.  你需要合成EV能源仓来为它们供电,保持它们的持续运行.
+gtnh.quest2023.desc=工业高炉和大型化学反应釜的配方需要越来越多的电力.  你需要合成EV能源仓供电,以保持它们持续运行.
 
 # Quest.2024 - §c§lAssline Quest Updates
 gtnh.quest2024.name=§c§l装配线配方更新
@@ -8114,7 +8106,7 @@ gtnh.quest2025.desc=想要成为GT++专家,你需要合成相应机器的手册.
 
 # Quest.2026 - §3§lA Better Way to Find Items
 gtnh.quest2026.name=§3§l更好的寻找物品方式
-gtnh.quest2026.desc=NEI具有内置搜索功能,用于查找存储在附近库存中的物品. 仓库目录(Stockroom-Catalog)可以显示你库存中的物品列表.%n%n手持仓库目录Shift+右键一个新库存(箱子、书架、桶以及任何有物品栏的东西),来将这个库存加入仓库目录中进行追踪.%n%n再次Shift+右键相同的方块来从目录中移除此库存.%n%n在仓库目录中的方块会有小小的粒子效果,让你知道它正在被追踪.%n%n手持仓库目录右键可以打开它的GUI并看到列表.  你可以对列表进行排序,包括升序和降序、数量(计数)或字母顺序.%n%n你还可以看到有某件特定物品的所有库存列表,并可以很方便地将那些库存中的某一个加入仓库目录.%n%n仓库目录还可以用排版台和拓印机复印.%n%n点击仓库目录的标题可随意改动,自定义它的标签.%n%n点击每个列表右侧的小箱子图标可以打开库存列表视图.%n%n如果你想的话,可以制作一个路标盘,用来指向你要找的箱子.由于我们已经有了旅行地图和NEI,所以这玩意不是必需品.
+gtnh.quest2026.desc=NEI具有内置搜索功能,用于查找存储在附近库存中的物品. 仓库目录(Stockroom-Catalog)可以显示你库存中的物品列表.%n%n手持仓库目录Shift+右键一个新库存(箱子、书架、桶以及任何有物品栏的东西),来将这个库存加入仓库目录中进行追踪.%n%n再次Shift+右键相同的方块来从目录中移除此库存.%n%n在仓库目录中的方块会有小小的粒子效果,让你知道它正在被追踪.%n%n手持仓库目录右键可以打开它的GUI并看到列表.  你可以对列表进行排序,包括升序和降序、数量(计数)或字母顺序.%n%n你还可以看到有某件特定物品的所有库存列表,并可以很方便地将其中某个库存加入另一个仓库目录,以便查找物品.%n%n仓库目录还可以用排版台和拓印机复印.%n%n点击仓库目录的标题可以随意改动,可以用于自定义标记仓库目录.%n%n点击每个列表右侧的小箱子图标可以打开库存列表视图.%n%n如果你想的话,可以制作一个路标盘,用来指向你要找的箱子.由于我们已经有了旅行地图和NEI,所以这玩意不是必需品.%n%n译者注:仓库目录不能正确显示很多GT物品的名字,所以...虽然它是个好东西,但在GTNH里可能用处不大...
 
 # Quest.2027 - §6§lThermal Boiler - Lava you long time
 gtnh.quest2027.name=§6§l地热锅炉-爱(Lava-Love)你一万年
@@ -8126,15 +8118,15 @@ gtnh.quest2028.desc=用多方块采矿场获得的数以千计的矿石可以交
 
 # Quest.2029 - Bask in the currents
 gtnh.quest2029.name=沐浴在电流中
-gtnh.quest2029.desc=成百上千玻璃的优秀来源?我不知道,想些有趣的事给我留下深刻印象!%n%n工业电弧炉的"有效"电压比能源仓要低一阶.举个例子,使用MV能源仓,机器可处理LV电弧炉的配方.%n%n这台机器还可以处理等离子电弧炉的配方.%n%n§3这台多方块机器可以在LuV阶段制造. 原料之一是钍-232,一方面用途不多,另一方面制造起来还特别麻烦.%n%n译者注: 钍-232算啥,看看套娃能量核心! 不过做出来之后还是很香的.
+gtnh.quest2029.desc=成百上千玻璃的最佳来源...要这些做什么呢?我不知道,还是想点有趣的用途,给我开开眼吧!%n%n工业电弧炉的"有效"电压比能源仓要低一阶.举个例子,使用MV能源仓,机器可处理LV电弧炉的配方.%n%n这台机器还可以处理等离子电弧炉的配方.%n%n§3这台多方块机器可以在LuV阶段制造. 原料之一是钍-232,一方面用途不多,另一方面制造起来还特别麻烦.%n%n译者注: 钍-232算啥,看看套娃能量核心! 不过做出来之后还是很香的.
 
 # Quest.2030 - Bate Bate Chocolate
 gtnh.quest2030.name=搅拌/搅拌/巧克力(爱探险的多拉)
-gtnh.quest2030.desc=Abuela,你能教我们巧克力之歌吗?%n十分乐意!%n你会跟我们一起唱巧克力之歌吗?%n太棒了,跟着Abuela一起唱!%n%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n%n搅拌好吃的巧克力,巧克力%n搅拌好吃的巧克力,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n%n可惜涉及单元的搅拌配方仍然没有改变.%n%n§3这台多方块机器可以在IV阶段制造.
+gtnh.quest2030.desc=Abuela,你能教我们巧克力之歌吗?%n乐意之至!%n你会跟我们一起唱巧克力之歌吗?%n太棒了,跟着Abuela一起唱!%n%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n%n搅拌好吃的巧克力,巧克力%n搅拌好吃的巧克力,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n%n现在不再需要单元了,好耶!%n%n§3这台多方块机器可以在IV阶段制造.
 
 # Quest.2031 - Play doh for big girls and boys
 gtnh.quest2031.name=大男孩大女孩的大玩具
-gtnh.quest2031.desc=我不想长大,我想跟大压模机玩.%n要是你没看过NEI的主方块tooltip的话:你可以在工业压模机上放置多个输入总线,每个总线可放入不同的模头,进入相应总线的材料会根据总线内的模头被加工成相应成品.%n%n§3这台多方块机器可以在IV阶段制造.
+gtnh.quest2031.desc=我不想长大,我想跟大压模机玩.%n以防你没在NEI看过主方块的tooltip,提醒一下:你可以在工业压模机上放置多个输入总线,每个总线可放入不同的模头,进入相应总线的材料会被加工成模头对应的成品.%n%n§3这台多方块机器可以在IV阶段制造.
 
 # Quest.2032 - Best thing since sliced bread
 gtnh.quest2032.name=最好的切面包机
@@ -8198,9 +8190,7 @@ gtnh.quest2046.desc=既然你有了铅,你就可以把你的青铜流体管道�
 
 # Quest.2047 - §5§lCircuit Programming
 gtnh.quest2047.name=§5§l电路编程
-// --- //gtnh.quest2047.desc=有的机器有超多配方.为了避免冲突,一些配方加入了编程电路.%n%n想要使用编程电路,有很多方法:%n%n1)现在所有的单方块GT机器GUI右下角都有一个图标,代表了"虚拟电路板".shift+左击,或是使用滚轮可以选择你需要的电路编号.但是多方块机器没有虚拟电路板.(译者注:现在输入总线也有虚拟电路板了.)%n%n你也可以将LV电路板放入合成栏,得到编程电路.然后可用以下几种方式编程:%n%n2)用NEI找到正确的编程电路的合成表并使用;%n%n3)当物品栏中有螺丝刀(电动的也可以)时,可以手持编程电路右击打开再编程界面.%n%n4)使用Bartworks的电路编程器.它只有MV级别的.但它不消耗耐久,只需要充电使用.%n%n5)使用GT++的电路编程器.它不便携,也只有MV级别的(译者注:不需要电).但是可以用它进行自动化.
-// +++ //gtnh.quest2047.desc=Some machines have a very, very large number of recipes. To avoid conflicts many recipes have programmed circuits to ensure you get the right one. These programmed circuits are not consumed.%n%nIn this modpack, all singleblock GT machines now come with an icon on the bottom right in the GUI that represent a ghost circuit. Click it or scroll to choose the number you need. If you do that you don't have to insert a physical circuit. This is going to be your main option for all single block machines. This option is now also available for input busses of multiblocks which you will get to in later tiers.%n%nThere are a few places throughout the modpack where you still need the physical circuits. You can turn an LV circuit into a programmed circuit in the crafting grid and then program it in various ways:%n%n1) Find the correct crafting recipe with a screwdriver in NEI and use that.%n%n2) Rightclick while holding the programmed circuit to open an easy menu. You still need to at least have the screwdriver in your inventory though or it won't work. Eventually you can also make an electric screwdriver.%n%n3) Use the BartWorks Circuit Programmer. It is only available in MV. But it does not use any durability and runs on EU.%n%n4) Use the GT++ Circuit Programmer block. It isn't portable and only available in MV. But it allows for automation.%n%n%n§3As you can now use the ghost circuits for almost everything, the tasks here are now optional and you can just click the checkmark once you understand how programmed circuits work.
-// ↑↑↑ //gtnh.quest2047.desc=Some machines have many, many recipes. To avoid conflicts recipes include programmed circuits to choose the right one.%n%nYou have multiple options on how to do so:%n%n1) Every GregTech singleblock machine now comes with a icon on the bottom right that represent a ghost circuit. Click it or scroll to choose the number you need. You don't have to insert a physical circuit in this case! However this is not possible for any multiblock machines.%n%nAlternatively you can turn an LV circuit into a programmed circuit in the crafting grid and then program it in various ways:%n%n2) Find the correct crafting recipe with a screwdriver in NEI and use that.%n%n3) Rightclick while holding the programmed circuit to open an easy menu. You still need to at least have the screwdriver in your inventory though or it won't work. Eventually you can also make an electric screwdriver.%n%n4) Use the BartWorks Circuit Programmer. It is only available in MV. But it does not use any durability and runs on EU.%n%n5) Use the GT++ Circuit Programmer block. It isn't portable and only available in MV. But it allows for automation.
+gtnh.quest2047.desc=有的机器有超多配方.为了避免冲突,很多配方都加入了编程电路.编程电路在加工中不会被消耗.%n%n现在,在这个整合包中,所有的单方块GT机器GUI右下角都有一个图标,代表了"虚拟电路板".shift+左击,或是使用滚轮可以选择你需要的电路编号.这样你就不需要放入实际的编程电路了.多方块机器的输入总线现在也支持虚拟电路板.%n%n不过有些情况下你也需要用到实际物品形式的编程电路.可以将LV电路板放入合成栏,得到编程电路.然后可用以下几种方式编程:%n%n1)用NEI找到正确的编程电路的合成表并使用;%n%n2)当物品栏中有螺丝刀(电动的也可以)时,可以手持编程电路右击打开再编程界面.%n%n3)使用Bartworks的电路编程器.它只有MV级别的.但它不消耗耐久,只需要充电使用.%n%n4)使用GT++的电路编程器.它不便携,也只有MV级别的(译者注:不需要电).但是可以用它进行自动化.%n%n%n§3现在你能用虚拟电路板解决几乎一切问题,所以这儿的任务目标都是可选的,只要你理解了编程电路的运作方式,就可以直接勾选复选框完成任务.
 
 # Quest.2048 - Moss
 gtnh.quest2048.name=苔藓
@@ -8528,9 +8518,7 @@ gtnh.quest2128.desc=山丘樱是培育的重要一环.用银橙和苹果橡木/�
 
 # Quest.2129 - Mundane Larch
 gtnh.quest2129.name=落叶松
-// --- //gtnh.quest2129.desc=你可以用红果云杉和银桦树/苹果橡木杂交培育出落叶松.这是获得红杉的必经之路.%n%n注意: 对于所有的林木杂交任务,需要的树苗必须为纯种,并且被扫描过.
-// +++ //gtnh.quest2129.desc=You can breed a Mundane Larch by combining Red Spruce and Silver Birch or Apple Oak. You also need to do these to get Sequoias.%n%nNote: For all tree breeding quests, the required tree must be a pure species, not a hybrid, and must be scanned.
-// ↑↑↑ //gtnh.quest2129.desc=You can breed a Mundane Larch by combining Red Spruce and Silver Birch or Apple Oak. You calso need to do these to get the Sequoias.%n%nNote: For all tree breeding quests, the required tree must be a pure species, not a hybrid, and must be scanned.
+gtnh.quest2129.desc=你可以用红果云杉和银桦树/苹果橡木杂交培育出落叶松.这是获得红杉的必经之路.%n%n注意: 对于所有的林木杂交任务,需要的树苗必须为纯种,并且被扫描过.
 
 # Quest.2130 - Bull Pine
 gtnh.quest2130.name=西黄松
@@ -11458,9 +11446,7 @@ gtnh.quest2860.desc=想要将RF能量传输1格以上,你需要一些能量管�
 
 # Quest.2861 - §5§lPrison Gangs are Obsolete
 gtnh.quest2861.name=§5§l刷石机过气了
-// --- //gtnh.quest2861.desc=想要大量的圆石、石头或者黑曜石? 那么这台机器很适合你!%n%n圆石: 机器两侧放上水和岩浆.%n石头: 机器侧面放上水,顶部放上岩浆.%n黑曜石: 随便水和岩浆怎么放,机器内需要供给红石.%n%n当然,还要给它供能. 如果不想在圆石上浪费电力,你也可以用ExU的传输节点.
-// +++ //gtnh.quest2861.desc=Want lots of cobble, stone, or obsidian? This is the machine for you!%n%nCobble: Water and lava on 2 of the sides.%nStone: Water on a side, lava on top.%nObsidian: Either of the above, and redstone in the machine.%n%nYou of course need to power it. If you don't want to spend power on cobble, do it the ExU way with the WIU.%n%n§3You need to toggle the ghost circuit to circuit 1 to get obsidian.%n
-// ↑↑↑ //gtnh.quest2861.desc=Want lots of cobble, stone, or obsidian? This is the machine for you!%n%nCobble: Water and lava on 2 of the sides.%nStone: Water on a side, lava on top.%nObsidian: Either of the above, and redstone in the machine%n%nYou of course need to power it. If you don't want to spend power on cobble, do it the ExU way with the WIU.
+gtnh.quest2861.desc=想要大量的圆石、石头或者黑曜石? 那么这台机器很适合你!%n%n圆石: 机器两侧放上水和岩浆.%n石头: 机器侧面放上水,顶部放上岩浆.%n黑曜石: 随便水和岩浆怎么放,机器内需要供给红石,并且需要将虚拟电路板调成1号.%n%n当然,还要给它供能. 如果不想在圆石上浪费电力,你也可以用ExU的传输节点.
 
 # Quest.2862 - Coast Sequoia
 gtnh.quest2862.name=海岸红杉
@@ -12744,9 +12730,7 @@ gtnh.quest3181.desc=如果你玩过IC2核弹,一定能预见这个任务.之前�
 
 # Quest.3182 - High Temperature Super Breeder
 gtnh.quest3182.name=高温超级增殖反应堆
-// --- //gtnh.quest3182.desc=你听说过球床反应堆吗?在发电侧分支有另一个任务,钍高温反应堆,但这是不同的多方块机器.%n%n它叫作高温气冷反应堆(HTGR),需要使用燃料丸,并且消耗电力.然而,它也无法真正大量发电,尽管造价高昂,甚至无法与另一版本(钍高温反应堆)所输出的EU/t相比.多方块机器的结构基本相同,这是一座巨大的反应堆,尺寸约为12x12x12,需要500+铕制机械方块.而发电效率低下的交换,就是其增殖效率极高.%n%n对不知情者来说,这台机器非常昂贵.球床反应堆的工作原理是,填满燃料丸,然后反应堆就会持续运行,基本上可以说是永久运行.这样,你就能拥有全自动的,几乎无穷无尽的镥、钚以及其他东西(将在之后的任务中解释,以及如何生产燃料、如何处理输出). 换句话说,虽然这台多方块机器确实造价高昂,但如果你需要巨量的、无休止的增殖输出,其实这个成本还是合理的.%n%n如果你还在犹豫是否要建造它,请先查看下一个任务,了解关于燃料和输出的更多信息后再做决定吧.%n%n注意事项:%n%n高温气冷反应堆有内部燃料缓存,并且只需要1个任意种类的输入总线和1个输出总线(反应堆会自动将每64个枯竭燃料丸压缩成1个球,所以为了避免输出总线满了之后吞物品,你需要6格以上空间的输出总线)%n%n反应堆运行只需要720k燃料丸中的72k个,但以最小需求量运行意味着你无法获得任何增益,例如更短的配方时间,每轮运行更多的燃料丸处理量.%n%n无论内部有多少燃料丸,这台多方块机器运行时总会消耗1A-LuV,但也会在运行时产生热冷却液.如果你将其用于发电,就可以获取比反应堆运行所需更多的电力.%n%n放入的燃料丸越多,反应堆的吞吐量越大.%n%n在NEI中输入"HTGR",就可以看到所有与这台多方块机器相关的物品.
-// +++ //gtnh.quest3182.desc=Have you heard of pebble reactors? There's a quest for the other one, the Thorium High Temperature Reactor, on the powergen side of this branch, but this is a diferent multiblock. %n%nIt's called the High Temperature Gas-cooled Reactor (HTGR), and it uses fuel pebbles and consumes power. However, it doesn't really make a lot of power, and doesn't even match the EU/t of the other version, despite being much more expensive. The multiblock structure is basically the same, a huge reactor around 12x12x12 blocks in size, with 500+ casings made with Europium. What it doesn't make in power, it compensates in breeding, however.%n%nFor the unaware, this is expensive. Pebble reactors work by stuffing the reactor absolutely full of pebbles, and then the reaction will keep going for, essentially, forever. In this case, you will have a fully automated source of almost endless Lutetium, Plutonium and other things that will be explained in the following quests, alongside the production of fuel and the processing of outputs. What this means is that this is an expensive multiblock, but it's placed a tier in which this expense is actually reasonable, if there is a need for immense, endless breeding of many outputs.%n%nIf you're on the fence about building this, check the next quests to learn more about the fuel and outputs.%n%nNotes:%n%nHTGR has an internal buffer for fuel and only one input bus is required (any will do), as well as only one output bus (reactor automatically compresses every 64 burned pellets into one ball, so you need 6 slots or more to avoid problems with voiding at full capacity).%n%nReactor requires only 72k out of 720k pebbles to operate, but running at minimum capacity means that you will not get any bonuses, such as lower recipe time and higher amount of pebbles processed per cycle.%n%nThis multi consumes 1A LuV when operating, no matter how many pebbles are inside, but it also generates Hot Coolant as it runs. If you use it to generate power, you will gain more EU than is consumed by the reactor. %n%nIn this reactor, the throughput increases with the amount of pebbles put into it.%n%nBy typing HTGR in NEI, you can see all the items that are related to this multiblock.
-// ↑↑↑ //gtnh.quest3182.desc=Have you heard of pebble reactors? There's a quest for the other one, the Thorium High Temperature Reactor, on the powergen side of this branch, but this is a diferent multiblock. %n%nIt's called the High Temperature Gas-cooled Reactor (HTGR), and it uses fuel pebbles and consumes power. However, it doesn't realy make a lot of power, and doesn't even match the EU/t of the other version, despite being much more expensive. The multiblock structure is basically the same, a huge reactor around 12x12x12 blocks in size, with 500+ casings made with Europium. What it doesn't make in power, it compensates in breeding, however.%n%nFor the unaware, this is expensive. Pebble reactors work by stuffing the reactor absolutely full of pebbles, and then the reaction will keep going for, essentially, forever. In this case, you will have a fully automated source of almost endless Lutetium, Plutonium and other things that will be explained in the following quests, alongside the production of fuel and the processing of outputs. What this means is that this is an expensive multiblock, but it's placed a tier in which this expense is actually reasonable, if there is a need for immense, endless breeding of many outputs.%n%nIf you're on the fence about building this, check the next quests to learn more about the fuel and outputs.%n%nNotes:%n%nHTGR has an internal buffer for fuel and only one input bus is required (any will do), as well as only one output bus (reactor automatically compresses every 64 burned pellets into one ball, so you need 6 slots or more to avoid problems with voiding at full capacity).%n%nReactor requires only 72k out of 720k pebbles to operate, but running at minimum capacity means that you will not get any bonuses, such as lower recipe time and higher amount of pebbles processed per cycle.%n%nThis multi consumes 1A LuV when operating, no matter how many pebbles are inside, but it also generates Hot Coolant as it runs. If you use it to generate power, you will gain more EU than is consumed by the reactor. %n%nIn this reactor, the throughtput increases with the amount of pebbles put into it.%n%nBy typing HTGR in NEI, you can see all the items that are related to this multiblock.
+gtnh.quest3182.desc=你听说过球床反应堆吗?在发电侧分支有另一个任务,钍高温反应堆,但这是不同的多方块机器.%n%n它叫作高温气冷反应堆(HTGR),需要使用燃料丸,并且消耗电力.然而,它也无法真正大量发电,尽管造价高昂,甚至无法与另一版本(钍高温反应堆)所输出的EU/t相比.多方块机器的结构基本相同,这是一座巨大的反应堆,尺寸约为12x12x12,需要500+铕制机械方块.而发电效率低下的交换,就是其增殖效率极高.%n%n对不知情者来说,这台机器非常昂贵.球床反应堆的工作原理是,填满燃料丸,然后反应堆就会持续运行,基本上可以说是永久运行.这样,你就能拥有全自动的,几乎无穷无尽的镥、钚以及其他东西(将在之后的任务中解释,以及如何生产燃料、如何处理输出). 换句话说,虽然这台多方块机器确实造价高昂,但如果你需要巨量的、无休止的增殖输出,其实这个成本还是合理的.%n%n如果你还在犹豫是否要建造它,请先查看下一个任务,了解关于燃料和输出的更多信息后再做决定吧.%n%n注意事项:%n%n高温气冷反应堆有内部燃料缓存,并且只需要1个任意种类的输入总线和1个输出总线(反应堆会自动将每64个枯竭燃料丸压缩成1个球,所以为了避免输出总线满了之后吞物品,你需要6格以上空间的输出总线)%n%n反应堆运行只需要720k燃料丸中的72k个,但以最小需求量运行意味着你无法获得任何增益,例如更短的配方时间,每轮运行更多的燃料丸处理量.%n%n无论内部有多少燃料丸,这台多方块机器运行时总会消耗1A-LuV,但也会在运行时产生热冷却液.如果你将其用于发电,就可以获取比反应堆运行所需更多的电力.%n%n放入的燃料丸越多,反应堆的吞吐量越大.%n%n在NEI中输入"HTGR",就可以看到所有与这台多方块机器相关的物品.
 
 # Quest.3183 - Exciting Liquid Nuking
 gtnh.quest3183.name=激发流体核弹
