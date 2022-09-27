@@ -182,9 +182,7 @@ gtnh.quest44.desc=欢迎,到目前为止做得很好!在本阶段你将拥有你
 
 # Quest.45 - §6§lMultiblock Tanks... Railcraft Tanks
 gtnh.quest45.name=§6§l多方块储罐...RC蓄水器
-// --- //gtnh.quest45.desc=576桶的容量,这应该够你储存你截至目前为止所获得的杂酚油了吧! 如果不够的话,你可以让这个蓄水器更大!最小的蓄水器大小是3x4x3,而最大的则是9x8x9(x,y,z)(x和z必须是相同的奇数).%n%n提示:如果你把阀门放在蓄水器底部的话,只需要连接一根流体管道就可以自动输出蓄水器里面的液体.输出速率为1000L/t,是GT电动泵(HV)的两倍.你可以使用BC的颜料刷和GT的喷漆罐来给蓄水器上色.%n%n译者注:还可以使用末影流体导管/电动泵等方式通过阀门主动抽取蓄水器内部的流体,抽取速率无上限.
-// +++ //gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. The output rate is 1000 L/t so twice as fast as a GT HV Pump Cover. You can color the tank with Buildcraft paintbrushes and the GT spray can.
-// ↑↑↑ //gtnh.quest45.desc=576 buckets of fluid, that should be enough to store all the creosote you have accumulated thus far. If that isn't enough you can make this tank bigger. The smallest tanks are 3x4x3 while the biggest are 9x8x9.%n%nHint: Fluid will auto-output (without any pumps) if you place a valve on the bottom side of the tank. The output rate is 1000 L/t so twice as fast as a GT HV Pump Cover. You can color the tank with Buildcraft paintbrushes and the GT spray can.%n%nUse only Buckets to move fluids because cells get destroyed.
+gtnh.quest45.desc=576桶的容量,这应该够你储存你截至目前为止所获得的杂酚油了吧! 如果不够的话,你可以让这个蓄水器更大!最小的蓄水器大小是3x4x3,而最大的则是9x8x9(x,y,z)(x和z必须是相同的奇数).%n%n提示:如果你把阀门放在蓄水器底部的话,只需要连接一根流体管道就可以自动输出蓄水器里面的液体.输出速率为1000L/t,是GT电动泵(HV)的两倍.你可以使用BC的颜料刷和GT的喷漆罐来给蓄水器上色.%n%n译者注:还可以使用末影流体导管/电动泵等方式通过阀门主动抽取蓄水器内部的流体,抽取速率无上限.
 
 # Quest.46 - §3§lMore Advanced Alloys
 gtnh.quest46.name=§3§l更多高级合金
@@ -252,9 +250,7 @@ gtnh.quest61.desc=有了更耐用的钢外壳,你可以用岩浆来制造些蒸�
 
 # Quest.62 - §3§lThe Power of the Sun
 gtnh.quest62.name=§3§l太阳之力
-// --- //gtnh.quest62.desc=太阳肯定有很多能量,那何不利用它来产生些蒸汽？ 从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽. §4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能. 译者注:只要把锅炉拆掉重新放置就能重置钙化(￣▽￣)~*  它会迅速升温,所以一定要准备好水.
-// +++ //gtnh.quest62.desc=The sun has quite a bit of power, so why not use it to produce steam? %n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. Later on you can consider using distilled water to avoid calcification.
-// ↑↑↑ //gtnh.quest62.desc=The sun has quite a bit of power, so why not use it to produce steam? %n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. It will heat up fast, so make sure you are ready with water.
+gtnh.quest62.desc=太阳肯定有很多能量,那何不利用它来产生些蒸汽？ 从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽. §4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能. 译者注:只要把锅炉拆掉重新放置就能重置钙化(￣▽￣)~* %n它会迅速升温,所以一定要准备好水.%n%n等到电力时代,你就能使用蒸馏水防止钙化.
 
 # Quest.63 - §3§lUsing Steam to Cook Things
 gtnh.quest63.name=§3§l用蒸汽烹饪
@@ -346,9 +342,7 @@ gtnh.quest84.desc=使用全新的合金炉,你可以把两种材料结合起来.
 
 # Quest.85 - §6§lSmelt All the Things Stack-Wise...
 gtnh.quest85.name=§6§l熔化万物...
-// --- //gtnh.quest85.desc=...有了这项伟大的发明!用电力可以一次熔炼最多两组物品!不能再快了!当然,更好的线圈可以降低耗电.
-// +++ //gtnh.quest85.desc=...with this great invention! Upgrade power and coils to smelt absolutely ridiculous amounts of items.
-// ↑↑↑ //gtnh.quest85.desc=...with this great invention! Uses power to smelt up to 2 stacks of items at once! Can't go any faster! Unless you use better coils, of course.
+gtnh.quest85.desc=...有了这项伟大的发明!只要升级供电和线圈,就可以熔炼不可胜数的物品.
 
 # Quest.86 - §6§lTungstensteel Coil Upgrade
 gtnh.quest86.name=§6§l升级钨钢线圈
@@ -1567,20 +1561,12 @@ gtnh.quest389.name=§c§l[过期]§r龙之进化
 gtnh.quest389.desc=我找到了一种将科技和魔法结合起来的方法.发出巨大能量的闪亮的蓝色徽章.我决定把它称为龙芯.自己做一个!
 
 # Quest.390 - Indium
-// --- //gtnh.quest390.name=§c§l[过期]§r灵宝
-// +++ //gtnh.quest390.name=Indium
-// ↑↑↑ //gtnh.quest390.name=§c§l[OUTDATED]§r Ichorium
-// --- //gtnh.quest390.desc=这种新金属相当昂贵,但它拥有普通材料难以企及的弹性与韧性.%n我想我终于可以组装终极框架了.
-// +++ //gtnh.quest390.desc=This bee is pretty overpowered. Use it while you can, I see a nerf in its future.
-// ↑↑↑ //gtnh.quest390.desc=This new metal is quite expensive, and has an awesome hardness and is very resillient, to a point where mundane materials could never get.%nI think I can finally assemble the final frame.
+gtnh.quest390.name=铟蜂
+gtnh.quest390.desc=这种蜜蜂强得离谱.能用就赶紧用吧,我已经能预见它以后会被削弱(nerf)了.
 
 # Quest.391 - Osmium
-// --- //gtnh.quest391.name=§c§l[过期]§r自动进化
-// +++ //gtnh.quest391.name=Osmium
-// ↑↑↑ //gtnh.quest391.name=§c§l[OUTDATED]§r Automated evolution
-// --- //gtnh.quest391.desc=这台机器运转得很好,但是手动填充催化剂是很乏味的.但是你有一个想法,你可以使用一些基本的组件来完全自动化这个过程.你可以使用机械臂和传送带来自动化输入和输出. 显然,你需要给机器供电.太阳能电池板就行了.  为了使催化剂自动化,需要一些东西.一个傀儡将收集基本材料,而第二个将猎杀爬行者和恶魂以获得更有价值的成分.你找到了一种方法来重新使用奇点,所以你只需要得到一些沙子.幸运的是,在催化剂上工作的傀儡也能得到玻璃.它只是需要一点额外的动力.  显然你的傀儡需要光.另外,如果有信号灯显示过程和状态,那就太好了不是么？
-// +++ //gtnh.quest391.desc=Quite the interesting bee. Maybe integrate it into your osmium processing?
-// ↑↑↑ //gtnh.quest391.desc=The machine is working pretty well, but it's tedious to fill in the reagents manually. But you have an idea, you could use a few basic components to fully automate the process.%n%nYou can use robot arms and conveyor modules to automate the input and output.%n%nObviously, you need to power the machines. A solar panel will do just fine.%n%nIn order to automate the catalyst, you need a few things. One golem will gather basic materials, while the second one will hunt creepers and ghasts for the more valuable ingredients.%n%nYou found a way to re-use the singularity, so you only need to get some sand. Luckily, the golem that works on the catalyst will be able to get glass too. He just needs a little additional motivation.%n%nYour golems need light, obviously. Also, it would be nice if there are some signal lamps that indicate the status of the process. Would it not?
+gtnh.quest391.name=锇蜂
+gtnh.quest391.desc=这种蜜蜂相当有意思.说不定可以把它整合进你的锇处理线？
 
 # Quest.392 - §c§l[OUTDATED]§r Activated teleport gem
 gtnh.quest392.name=§c§l[过期]§r激活传送宝石
@@ -1916,17 +1902,15 @@ gtnh.quest474.desc=去找铁、铜和锡矿.当然,怎么可能就让你使用�
 
 # Quest.475 - §6§lHSS-G Coil Upgrade
 gtnh.quest475.name=§6§l升级高速钢-G线圈
-gtnh.quest475.desc=要处理更高级的材料(比如高速钢-E、高速钢-S、硅岩),你需要超过4500K的温度.将你的工业高炉温度提高到5400K.
+gtnh.quest475.desc=要处理更高级的材料(比如高速钢-E、高速钢-S、硅岩),你需要超过4500K的温度.将你的工业高炉温度提高到5401K.
 
 # Quest.476 - §6§lNaquadah Coil Upgrade
 gtnh.quest476.name=§6§l升级硅岩线圈
-gtnh.quest476.desc=要处理更高级的材料,(比如硅岩合金),你需要超过6300K的温度.将你的工业高炉温度提高到7200K
+gtnh.quest476.desc=要处理更高级的材料,(比如硅岩合金),你需要超过6300K的温度.将你的工业高炉温度提高到7201K.
 
 # Quest.477 - §6§lNaquadah Alloy Coil Upgrade
 gtnh.quest477.name=§6§l升级硅岩合金线圈
-// --- //gtnh.quest477.desc=现在这种线圈是可选的了.如果你无需此任务奖励,那就跳过这个任务吧.
-// +++ //gtnh.quest477.desc=This one is optional now. But still very useful and recommended.
-// ↑↑↑ //gtnh.quest477.desc=This one is optional now. If you don't need the reward, you can just skip this.
+gtnh.quest477.desc=现在这种线圈是可选的了.但它很有用,仍然推荐制造.
 
 # Quest.478 - §3§lFlint and Steel
 gtnh.quest478.name=§3§l打火石
@@ -6098,9 +6082,7 @@ gtnh.quest1519.desc=用大型钢流体单元替代怎么样？每个都可以容
 
 # Quest.1520 - §6§lLarge Aluminium Fluid Cells
 gtnh.quest1520.name=§6§l大型铝流体单元
-// --- //gtnh.quest1520.desc=512桶还无法满足你？ 大型铝流体单元每个可容纳32桶流体,最大堆叠64. 一格能装32*64桶液体？ 那可是半个超级缸I!%n%n如果你想装水,至少需要满足单元容量的流体或能容纳单元容量的空间,才能装满单元或倒空它,对于仓室这一点同样适用.
-// +++ //gtnh.quest1520.desc=512 buckets in a stack not cutting it? Aluminium cells can hold 32 buckets per cell, and stack to 64. 2,048 buckets in a single stack? That's half a supertank!
-// ↑↑↑ //gtnh.quest1520.desc=512 buckets in a stack not cutting it? Aluminium cells can hold 32 buckets per cell, and stack to 64. 2,048 buckets in a single stack? That's half a supertank!%n%nIf you're trying to get water, unfortunately the larger cells don't really work well with the RC Water Tanks, try moving the water to one of the GregTech or GT++ tanks such as the ultra low voltage fluid tank or super tank first. You need to at least match the capacity of the cell with the tank for them to be able to fill/empty them, the same for hatches.
+gtnh.quest1520.desc=512桶还无法满足你？ 大型铝流体单元每个可容纳32桶流体,最大堆叠64. 一格能装32*64桶液体？ 那可是半个超级缸I!
 
 # Quest.1521 - §9§lSeparating Gems From the Dust
 gtnh.quest1521.name=§9§l将宝石与粉末分开
@@ -7268,9 +7250,7 @@ gtnh.quest1811.desc=4000桶还不够?想存够烧一辈子的柴油?试试超级
 
 # Quest.1812 - §9§lTeflon Don
 gtnh.quest1812.name=§9§l聚四氟乙烯
-// --- //gtnh.quest1812.desc=你只需几步即可制造出聚四氟乙烯.%n%n第一步是制作氢氟酸.如果你还没能登上月球,最好的氟来源是开采方解石或沙石(1/640的几率得到氟石矿石)还有离心石粉或黑色花岗岩粉获得的黑云母粉可电解出氟.你还能从盐矿脉中的锂云母中获得少量氟.  将所得的氟与氢反应,你就会获得氢氟酸.%n%n如果你已经到访过月球,可以直接处理氟碳镧铈矿.%n%n WIKI 氟产线：§9gtnh.huijiwiki.com/p/808§r
-// +++ //gtnh.quest1812.desc=To make PTFE, aka Teflon, you only need a few steps.  %n%nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine might be cryolite. Other options are mining calcite or sandstone for a chance at fluorite ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.%n%nIf you have reached the moon, you can also process Bastnasite ore.
-// ↑↑↑ //gtnh.quest1812.desc=To make PTFE, aka Teflon, you only need a few steps.  %n%nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine are mining calcite or sandstone for a chance at fluorite ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.%n%nIf you have reached the moon, process Bastnasite ore.
+gtnh.quest1812.desc=你只需几步即可制造出聚四氟乙烯.%n%n第一步是制作氢氟酸.如果你还没能登上月球,最好的氟来源可能是电解冰晶石.其他的选项有开采方解石或沙石(1/640的几率得到氟石矿石);离心石粉或黑色花岗岩粉获得的黑云母粉也可电解出氟.你还能从锂云母(来自盐矿脉)或云母中获得少量氟.  将所得的氟与氢反应,你就会获得氢氟酸.%n%n如果你已经到访过月球,也可以直接处理氟碳镧铈矿.%n%n WIKI 氟产线：§9gtnh.huijiwiki.com/p/808§r
 
 # Quest.1813 - §9§lChloroform
 gtnh.quest1813.name=§9§l氯仿
@@ -7290,7 +7270,7 @@ gtnh.quest1816.desc=为了方解石找了一年的青金石矿脉?我来卖给�
 
 # Quest.1817 - §6§lElectrum Flux Coil Upgrade
 gtnh.quest1817.name=§6§l升级通流琥珀金线圈
-gtnh.quest1817.desc=处理更先进的材料(宇宙中子态素、三钛和觉醒龙锭),你需要超过9000K的炉温.将你的工业高炉基础炉温提高到9900K.
+gtnh.quest1817.desc=处理更先进的材料(宇宙中子态素、三钛和觉醒龙锭),你需要超过9000K的炉温.将你的工业高炉基础炉温提高到9901K.
 
 # Quest.1818 - §6§lLarge Essentia Generator
 gtnh.quest1818.name=§6§l大型源质发电机
@@ -7598,9 +7578,7 @@ gtnh.quest1893.desc=涡轮需要精确控制流量,否则容易造成§4爆炸§
 
 # Quest.1894 - §6§lGas Turbine
 gtnh.quest1894.name=§6§l大型燃气涡轮
-// --- //gtnh.quest1894.desc=大型燃气涡轮相比于单方块燃气轮机,拥有更高的燃料效率,还可以通过升级消声仓来降低污染.%n%n你还需要消声仓、维护仓、输入仓和动力仓才能构建一台完整的多方块机器.别忘了流体校准器,用以控制多方块的输入流速!由于大型燃气涡轮每t需要的最佳流量远低于大型蒸汽涡轮所需的蒸汽流量,所以不需要太高级的流体校准器(目前LV就够了).%n%n每种涡轮材料都有特定的涡轮效率(效率越高,相同量的燃料获得的EU越多),而且只有燃料的通入速度与最佳流量匹配时,多方块才能达到此涡轮效率.%n%n再次重复,当你为涡轮提供超过最佳流速的燃料时(称之为超载状态),涡轮的输出电压提高,但燃料效率降低,同时最高输出电压取决于涡轮转子类型及其超载效率等级.对于燃气涡轮,超载效率等级1：最高超载150％,输出功率112％;超载效率等级2：最高超载300％,输出功率180％;超载效率等级3：最高超载450％,输出功率252％.越接近超载极限,损失的燃料效率越多.%n%n至于其他选择,详见Discord频道中的大型涡轮计算器以及数据表格.
-// +++ //gtnh.quest1894.desc=A Large Gas Turbine is more fuel-efficient than singleblock turbines, and can have lower pollution output with upgraded mufflers.%n%nYou will also need a Muffler and Dynamo Hatch to complete the multiblock. Don't forget to use a Fluid Regulator, to control the flow rate into the multi! It can usually be an LV Fluid Regulator, since the optimal flow is much lower here than in Steam Turbines.%n%nEach turbine material has a specific fuel efficiency (the higher, the more EU you get from the same amount of fuel), and the multi only reaches this efficiency if the fuel flow into it matches the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 150% of optimal flow to produce 112% of the EU/t, tier 2 reaches the max at 300% of optimal flow to produce 180% of the EU/t and tier 3 reaches the max at 450% of optimal flow to produce 252% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nFor the best turbine materials, see the spreadsheet and Large Turbine Calculator.%n%n§4Going forward, the LGT will be capped at 8192 EU/t. You will need to use the advanced large gas turbine beyond that which can only take high value fuels.%n%n%n%n
-// ↑↑↑ //gtnh.quest1894.desc=A Large Gas Turbine is more fuel-efficient than singleblock turbines, and can have lower pollution output with upgraded mufflers.%n%nYou will also need a Muffler and Dynamo Hatch to complete the multiblock. Don't forget to use a Fluid Regulator, to control the flow rate into the multi! It can usually be an LV Fluid Regulator, since the optimal flow is much lower here than in Steam Turbines.%n%nEach turbine material has a specific fuel efficiency (the higher, the more EU you get from the same amount of fuel), and the multi only reaches this efficiency if the fuel flow into it matches the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 150% of optimal flow to produce 112% of the EU/t, tier 2 reaches the max at 300% of optimal flow to produce 180% of the EU/t and tier 3 reaches the max at 450% of optimal flow to produce 252% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nThe best turbine materials For additional choices, see the spreadsheet and Large Turbine Calculator.
+gtnh.quest1894.desc=大型燃气涡轮相比于单方块燃气轮机,拥有更高的燃料效率,还可以通过升级消声仓来降低污染.%n%n你还需要消声仓、维护仓、输入仓和动力仓才能构建一台完整的多方块机器.别忘了流体校准器,用以控制多方块的输入流速!由于大型燃气涡轮每t需要的最佳流量远低于大型蒸汽涡轮所需的蒸汽流量,所以不需要太高级的流体校准器(目前LV就够了).%n%n每种涡轮材料都有特定的涡轮效率(效率越高,相同量的燃料获得的EU越多),而且只有燃料的通入速度与最佳流量匹配时,多方块才能达到此涡轮效率.%n%n再次重复,当你为涡轮提供超过最佳流速的燃料时(称之为超载状态),涡轮的输出电压提高,但燃料效率降低,同时最高输出电压取决于涡轮转子类型及其超载效率等级.对于燃气涡轮,超载效率等级1：最高超载150％,输出功率112％;超载效率等级2：最高超载300％,输出功率180％;超载效率等级3：最高超载450％,输出功率252％.越接近超载极限,损失的燃料效率越多.%n%n要得知最佳涡轮材料的信息,请看Discord频道中的大型涡轮计算器以及数据表格.%n%n§4以后版本中,大型燃气涡轮的输出功率将被限制在8192EU/t.要得到更高的输出,需要使用进阶燃气涡轮,它只能接受100kEU以上热值的燃料.%n%n译者注:也可以看看固体氧化物燃料电池MK-II(输出1A-LuV以上)或者特大燃气涡轮(输出无限制).%n%n%n%n
 
 # Quest.1895 - Manganese Ore
 gtnh.quest1895.name=锰矿石
@@ -7616,9 +7594,7 @@ gtnh.quest1897.desc=它们同样意义不大,我只想把材料还给你... 与�
 
 # Quest.1898 - §5§l§6§lMV Advanced Steam Boiler
 gtnh.quest1898.name=§5§l§6§l进阶锅炉[MV]
-// --- //gtnh.quest1898.desc=GT++的进阶锅炉[MV],相对LV版本,可以更高效地产生蒸汽.除非启动时就蒸汽不足,否则它不会耗尽燃料,所以它非常高效.%n%n译者注:除此之外,当温度高于一定程度时就会自动停止消耗燃料.
-// +++ //gtnh.quest1898.desc=The MV GT++ Steam Boiler is the next machine you can make to produce steam efficiently. It regulates its fuel more efficiently if it ends up being full.
-// ↑↑↑ //gtnh.quest1898.desc=The MV GT++ Steam Boiler is the next machine you can make to produce steam efficiently. Aside from producing one MV amp of Steam, it regulates its fuel more efficiently if it ends up being full.
+gtnh.quest1898.desc=GT++的进阶锅炉[MV],相对LV版本,可以更高效地产生蒸汽.除非启动时就蒸汽不足,否则它不会耗尽燃料,所以它非常高效.%n%n译者注:除此之外,当温度高于一定程度时就会自动停止消耗燃料.
 
 # Quest.1899 - §a§lDouble the Fun
 gtnh.quest1899.name=§a§l二联燃料棒,双倍的快乐(double the fun(fuel))
@@ -7630,9 +7606,7 @@ gtnh.quest1900.desc=燃料棒结束一个周期后会变为枯竭的燃料棒.�
 
 # Quest.1901 - §5§l§6§l§9§lHV Advanced Steam Boiler
 gtnh.quest1901.name=§5§l§6§l§9§l进阶锅炉[HV]
-// --- //gtnh.quest1901.desc=GT++的进阶锅炉[HV]可以比MV版本更高效地产生蒸汽.除非启动时就蒸汽不足,否则它不会耗尽燃料,所以它非常高效.%n%n译者注:除此之外,当温度高于一定程度时就会自动停止消耗燃料.
-// +++ //gtnh.quest1901.desc=The HV GT++ Steam Boiler is the next machine you can make to produce steam efficiently. It regulates its fuel more efficiently if it ends up being full.
-// ↑↑↑ //gtnh.quest1901.desc=The HV GT++ Steam Boiler is the next machine you can make to produce steam efficiently. Aside from producing one HV amp of Steam, it regulates its fuel more efficiently if it ends up being full.
+gtnh.quest1901.desc=GT++的进阶锅炉[HV]可以比MV版本更高效地产生蒸汽.除非启动时就蒸汽不足,否则它不会耗尽燃料,所以它非常高效.%n%n译者注:除此之外,当温度高于一定程度时就会自动停止消耗燃料.
 
 # Quest.1902 - §a§lNo Boom Tomorrow
 gtnh.quest1902.name=§a§l愿再无爆炸
@@ -9584,9 +9558,7 @@ gtnh.quest2388.desc=由于mod冲突,你无法正常获得苦艾.所以你可以�
 
 # Quest.2389 - §3§lHP Solar Boilers
 gtnh.quest2389.name=§3§l高压太阳能锅炉
-// --- //gtnh.quest2389.desc=当有了一些蒸汽机器后,你可以制造一些高压太阳能锅炉.它们的每秒蒸汽输出更高,其他方面与普通太阳能锅炉相同.%n%n从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽.%n%n§4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能.高压太阳能锅炉升温§l非常§r§c§4迅速,所以一定要准备好水.%n%n§3为此你需要收集一些银(暮色森林)或是贫瘠矿.
-// +++ //gtnh.quest2389.desc=Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. Later on you can consider using distilled water to avoid calcification.%n%n§3You'll need silver from the Twilight Forest (LV+) or from small ores for this.
-// ↑↑↑ //gtnh.quest2389.desc=Once you have some steam machines, you can make HP solar boilers. They have more steam output per second. Otherwise they are the same as normal solar boilers.%n%nFill it with water on the bottom side to produce steam. Unlike the other boilers, this only outputs steam on the output port side.%n%n§4Hint: The solar boiler calcifies and becomes less efficient over time. The HP solar boiler will heat up §lvery §r§c§4fast, so make sure you are ready with water.%n%n§3You'll need silver from the Twilight Forest (LV+) or from small ores for this.
+gtnh.quest2389.desc=当有了一些蒸汽机器后,你可以制造一些高压太阳能锅炉.它们的每秒蒸汽输出更高,其他方面与普通太阳能锅炉相同.%n%n从它的底部通入水,与其他锅炉不同,这个锅炉只在输出口输出蒸汽.%n%n§4提示:请记住太阳能锅炉会钙化,并随着时间推移降低效能.高压太阳能锅炉升温§l非常§r§c§4迅速,所以一定要准备好水.%n%n等到电力时代,你就可以用蒸馏水防止钙化了.%n%n§3为此你需要收集一些银(暮色森林)或是贫瘠矿.
 
 # Quest.2390 - §a§lJust Enough Tungstensteel For Your Rocket
 gtnh.quest2390.name=§a§l积少成钨钢
@@ -10862,9 +10834,7 @@ gtnh.quest2707.desc=每枚火箭都需要一个鼻锥. 7阶火箭需要一个4�
 
 # Quest.2708 - Pluto Dungeon
 gtnh.quest2708.name=冥王星地牢
-// --- //gtnh.quest2708.desc=经过无数小时的寻找,你终于发现了冥王星地牢. 冥王星Boss将掉落宝箱钥匙,宝箱中有8阶火箭的设计图.%n%n这将解锁太阳系外的许多星球,比如巴纳德星系.
-// +++ //gtnh.quest2708.desc=Go get the final schematic, for the tier 8 rocket. You can also find the draconic core schematic here!%n%nThis will open a lot of planets outside of our solar system such as Barnarda.
-// ↑↑↑ //gtnh.quest2708.desc=Go get the final schematic, for the tier 8 rocket.%n%nThis will open a lot of planets outside of our solar system such as Barnarda.
+gtnh.quest2708.desc=经过无数小时的寻找,你终于发现了冥王星地牢. 冥王星Boss将掉落宝箱钥匙,宝箱中有8阶火箭的设计图或龙芯图纸.%n%n这将解锁太阳系外的许多星球,比如巴纳德星系.
 
 # Quest.2709 - Booster Tier 4
 gtnh.quest2709.name=4阶助推器
@@ -11456,9 +11426,7 @@ gtnh.quest2855.desc=这些镜子可以帮助你从不同的位置将源质传输
 
 # Quest.2856 - §6§lAdvanced MB Construction
 gtnh.quest2856.name=§6§l多方块机器结构-进阶
-// --- //gtnh.quest2856.desc=旋转多方块机器、显示其全息图的功能是从§9Tec§1Tech§r§o借(嫖)来的§r,这赋予了你更大的建造自由度! §5(至少等我们nerf了多方块共用墙壁/仓室)§r%n%n你可以用普通扳手做到这一点,只需要瞄准控制器正面中心(或是其他的某一面.你只需要瞄准网格的相应部分),然后右键或Shift+右键.前者会将其顺时针旋转,而后者会把它翻转.至于正常旋转控制器的朝向,还是以前的操作方式.%n%n使用多方块机器全息投影仪(MSHP),以可视化多方块机器结构,请注意左下角聊天栏显示的结构细节.对于支持多种等级机械方块或者可变体积的多方块结构,你手中拿着的投影仪数量决定了全息投影显示的等级.%n%n§3如果这么讲太抽象了,你可以试着放置一个控制器,用扳手转转,然后对它使用全息投影仪.§r%n%n现在工业高炉已经支持旋转-你可以搭一个躺着的高炉,甚至把高炉埋到地板里,但不是所有机器都支持旋转. 不支持的包括:非GT系多方块机器(显然);兰波顿超级电容库、木炭堆、砖高炉、蒸馏塔、采矿场、虚空采矿场、细菌培养缸、深地热泵.巨型真空冷冻机支持旋转,但巨型工业高炉和巨型蒸馏塔不行.%n%n§3PS：我们确实得到了授权,那只是个小玩笑.
-// +++ //gtnh.quest2856.desc=The ability to rotate MBs and view a structure hologram has been sto-§oborrowed§r from §9Tec§1Tech§r, giving you greater freedom to build the way you want! §5(until we nerf wallsharing at least)§r%n%nUnlike TT, you can use a normal wrench for this, just aim at the front center of a controller (or one of the other sides if you want to. You just need to aim for the part of the grid with the mark) and right click or shift-right-click. The first rotates it clockwise, the latter flips it. If you want to change the facing of the controller itself, do that the normal way.%n%nUse a Multiblock Structure Hologram Projector or MSHP to visualize the structure, pay attention to the bottom left for structure details. For multiblocks that accept multiple types of tiered components or have a variable size, the number of MSHPs you hold in your hand will decide which tier is shown in the hologram.%n%n§3If you don't get it, try placing a controller, wrenching it, and using the MSHP on it.§r%n%nWhile it's now possible to build a sideways EBF, or even build one into the floor, not everything can be rotated. Exceptions include: LSC, Charcoal Pile Igniter, BBF, DT, Miners, Industial Washing Plant, Algae Farm, Bacterial Vat, DEHP, the MVF can, but the MBF cannot.%n%n§3PS: We did get permission, that was just a little joke.
-// ↑↑↑ //gtnh.quest2856.desc=The ability to rotate MBs and view a structure hologram has been sto-§oborrowed§r from §9Tec§1Tech§r, giving you greater freedom to build the way you want! §5(until we nerf wallsharing at least)§r%n%nUnlike TT, you can use a normal wrench for this, just aim at the front center of a controller (or one of the other sides if you want to. You just need to aim for the part of the grid with the mark) and right click or shift-right-click. The first rotates it clockwise, the latter flips it. If you want to change the facing of the controller itself, do that the normal way.%n%nUse a Multiblock Structure Hologram Projector or MSHP to visualize the structure, pay attention to the bottom left for structure details. For multiblocks that accept multiple types of tiered components or have a variable size, the number of MSHPs you hold in your hand will decide which tier is shown in the hologram.%n%n§3If you don't get it, try placing a controller, wrenching it, and using the MSHP on it.§r%n%nWhile it's now possible to build a sideways EBF, or even build one into the floor, not everything can be rotated. Exceptions include: LSC, Charcoal Pile Igniter, BBF, DT, Miners, Industial Washing Plant, Algae Farm, Bacterial Vat, DEHP, the MVF can, but the MBF and MDT cannot.%n%n§3PS: We did get permission, that was just a little joke.
+gtnh.quest2856.desc=旋转多方块机器、显示其全息图的功能是从§9Tec§1Tech§r§o借(嫖)来的§r,这赋予了你更大的建造自由度! §5(至少等我们nerf了多方块共用墙壁/仓室)§r%n%n你可以用普通扳手做到这一点,只需要瞄准控制器正面中心(或是其他的某一面.你只需要瞄准网格的相应部分),然后右键或Shift+右键.前者会将其顺时针旋转,而后者会把它翻转.至于正常旋转控制器的朝向,还是以前的操作方式.%n%n使用多方块机器全息投影仪(MSHP),以可视化多方块机器结构,请注意左下角聊天栏显示的结构细节.对于支持多种等级机械方块或者可变体积的多方块结构,你手中拿着的投影仪数量决定了全息投影显示的等级.%n%n§3如果这么讲太抽象了,你可以试着放置一个控制器,用扳手转转,然后对它使用全息投影仪.§r%n%n现在工业高炉已经支持旋转-你可以搭一个躺着的高炉,甚至把高炉埋到地板里,但不是所有机器都支持旋转. 不支持的包括:非GT系多方块机器(显然);兰波顿超级电容库、木炭堆、砖高炉、蒸馏塔、采矿场、虚空采矿场、细菌培养缸、深地热泵.巨型真空冷冻机支持旋转,但巨型工业高炉不行.%n%n§3PS：我们确实得到了授权,那只是个小玩笑.
 
 # Quest.2857 - Magic Mirror Glass?
 gtnh.quest2857.name=魔镜的玻璃?
@@ -11602,9 +11570,7 @@ gtnh.quest2891.desc=厌倦了跟着矿石或者其他方块跑来跑去? 使用�
 
 # Quest.2892 - §6§lHSS-S Coil Upgrade
 gtnh.quest2892.name=§6§l升级高速钢-S线圈
-// --- //gtnh.quest2892.desc=为了处理更高级的材料,比如LuV超导粗胚,要求超过5400K的炉温?而且不管怎样,多点无损超频总归没错! 是时候将工业高炉的基础炉温提升为6300K了.
-// +++ //gtnh.quest2892.desc=Technically this coil tier can be skipped. But you need LuV to get the next one, so you should really get these coils for now.%n%n%nTo process more advanced materials like LuV Superconductor Base you need more than 5400K. Time to upgrade your EBF to 6300k.
-// ↑↑↑ //gtnh.quest2892.desc=To process more advanced materials like LuV Superconductor Base you need more than 5400K. Time to upgrade your EBF to 6300k.
+gtnh.quest2892.desc=理论上这一级线圈是可以跳过的.但下一级(硅岩线圈)需要达到LuV才能制造,所以你还是应当做些高速钢-S线圈.%n%n%n为了处理更高级的材料,比如LuV超导粗胚,要求超过5400K的炉温?而且不管怎样,多点无损超频总归没错! 是时候将工业高炉的基础炉温提升为6301K了.
 
 # Quest.2893 - §6§lTrinium Coil Upgrade
 gtnh.quest2893.name=§6§l升级三元金属线圈
