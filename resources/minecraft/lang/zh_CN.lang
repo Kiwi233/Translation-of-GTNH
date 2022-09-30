@@ -8450,14 +8450,14 @@ gtnh.quest2111.desc=如果你是欧皇,能在旅途中遇到史莱姆王,那么�
 
 # Quest.2112 - Sometimes Life is Scary and Dark - Bring a Backpack
 gtnh.quest2112.name=有时生活是可怕而黑暗的-带上一个背包
-gtnh.quest2112.desc=既然你到达了MV阶段,那么你就可以制作探险者背包了.这个非常有用的背包可以做很多事情.它可以存储2个工具-可以快速切换;有内置储罐以存储液体-使用背包软管访问它们;一个内置工作台;以及存储功能.%n%n当在你背上时,它可以通过快捷键访问,默认是B.检查你的选项-控制.%n%n当放在地上时,它可以通过右键访问,卧室可以布置并使用(不就是个床么...).%n%n它们也可以通过升级来添加特殊能力.想获知比这里介绍的更多的特殊能力,请查看探险背包(Adventure-Backpacks)mod的wiki主页.%n%n§3探险背包和直升机背包共用同一个槽位,所以你只能择一装备,或是替换它们.
+gtnh.quest2112.desc=既然你到达了MV阶段,那么就可以制作探险者背包了.这个非常有用的背包可以做很多事情.它可以存储2个工具-可以快速切换;有内置储罐以存储液体-使用背包软管访问它们;一个内置工作台;以及存储功能.%n%n当在你背上时,可以用快捷键打开,默认是B.检查你的"选项"-"控制".%n%n当放在地上时,可以右键打开,还能布置并使用睡袋.%n%n它们也可以通过升级来添加特殊能力.想获知比这里介绍的更多的特殊能力,请查看探险背包(Adventure-Backpacks)mod的wiki主页.%n%n§3探险背包和直升机背包共用同一个槽位,所以你只能择一装备,或是交替使用.
 
 # Quest.2113 - See Like a ... Bat?
-gtnh.quest2113.name=看起来像是一只...蝙蝠?
+gtnh.quest2113.name=像蝙蝠一样..."看"?
 gtnh.quest2113.desc=夜视是一个很棒的背包能力.
 
 # Quest.2114 - Swim Like a .... Squid?
-gtnh.quest2114.name=游起来像一只...鱿鱼?
+gtnh.quest2114.name=像鱿鱼一样..."游"?
 gtnh.quest2114.desc=如果你想深潜或者进行水下探险,这种背包就是为你准备的.
 
 # Quest.2115 - Walk Through Fire
@@ -8466,7 +8466,7 @@ gtnh.quest2115.desc=僵尸猪人背包会提供火焰保护,这让下界变成�
 
 # Quest.2116 - Creeper Repellant
 gtnh.quest2116.name=驱逐爬行者
-gtnh.quest2116.desc=豹猫背包会使爬行者远离你.针对那些水栖爬行者,这是很棒的保护!不要离它们太近,否则对的它们排斥将会被压制,而它们就会爆炸!
+gtnh.quest2116.desc=豹猫背包会使爬行者远离你.针对那些水栖爬行者,这是很棒的保护!不要离它们太近,否则斥力小于引力,它们就会爆炸!
 
 # Quest.2117 - Milk Without the Cow?
 gtnh.quest2117.name=不用牛获得牛奶?
@@ -8474,15 +8474,15 @@ gtnh.quest2117.desc=在存储栏里放小麦就可以让牛背包产生牛奶.�
 
 # Quest.2118 - Here There be Dragons
 gtnh.quest2118.name=化身巨龙
-gtnh.quest2118.desc=龙背包给予你火焰保护、力量、水下呼吸、夜视和生命回复效果.%n%n§3它的功能的确很强大,但它也会消耗一个龙蛋,所以请确定这是你必须的,或者你有把握再做个龙蛋.
+gtnh.quest2118.desc=龙背包给予你火焰保护、力量、夜视和生命回复效果.%n%n§3它的功能的确很强大,但它也会消耗一个龙蛋,所以请确定这是你必须的,或者你有把握再做个龙蛋.
 
 # Quest.2119 - Smart cables
 gtnh.quest2119.name=智能线缆
-gtnh.quest2119.desc=智能线缆比玻璃线缆或包层线缆更好,因为可以直接看到多少频道正在被使用.
+gtnh.quest2119.desc=智能线缆比玻璃线缆或包层线缆更好,因为可以直接看到在用频道数.
 
 # Quest.2120 - Dense cables
 gtnh.quest2120.name=致密线缆
-gtnh.quest2120.desc=致密线缆会成为你的网络的主干.它们可以传输32个频道并显示在用频道数.总线和平面状接口无法直接连接它们.  译者注:终端也不行.
+gtnh.quest2120.desc=致密线缆会成为你网络的主干.它们可以传输32个频道并显示在用频道数.平面状总线/接口无法直接连接它们.  译者注:终端也不行.
 
 # Quest.2121 - Better Grafter Through Technology
 gtnh.quest2121.name=科技带来更好的剪枝器
@@ -8490,7 +8490,7 @@ gtnh.quest2121.desc=GT的剪枝器比林业的好多了.根据你所用的材料
 
 # Quest.2122 - Speak For the Trees
 gtnh.quest2122.name=为树代言
-gtnh.quest2122.desc=你需要找一堆原版树来开始你的培育计划.你可以使用林木分析仪直接将它们转化为林业树苗-但是你需要一个木工机和一个来自MV的铝才能制作它. 或者,你可以种上一堆原版树,然后用装有不错授粉属性蜜蜂的蜂箱把这些树围起来. 眼镜会帮助你分辨被授粉的树叶,然后用你的剪枝器收获那些树叶.  想要完成这个任务需要扫描过的树苗,但你可以在等待GT扫描仪或林木扫描仪制作完成的这段时间里先开始你的培育.
+gtnh.quest2122.desc=你需要找一堆原版树来开始你的培育计划.你可以使用林木分析仪直接将它们转化为林业树苗-但是你需要一个木工机和来自MV的铝才能制作它. 或者,你可以种上一堆原版树,然后用装有不错授粉属性蜜蜂的蜂箱把这些树围起来. 眼镜会帮助你分辨被授粉的树叶,然后用你的剪枝器收获那些树叶.%n%n想要完成这个任务需要扫描过的树苗,但你可以在能做GT扫描仪或林木扫描仪之前先开始培育.
 
 # Quest.2123 - Trigger:CtH (unlock)
 gtnh.quest2123.name=触发:树木培育任务线(解锁)
@@ -8546,27 +8546,27 @@ gtnh.quest2135.desc=高槿树有最高的多汁属性.  它将极大地提高发
 
 # Quest.2136 - Energy Acceptor
 gtnh.quest2136.name=能源接收器
-gtnh.quest2136.desc=能量接收器是向你的AE网络注入能量的另一个设备.一般情况下,你都会直接给ME控制器供能,因为如果只用能量接收器供能,而在最初的8个部分中没有检测到能量接收器的话,网络就不会成型.  你可以构建一个只有能源接收器的"哑的"网络,但想要有真正的功能,你还是需要ME控制器.
+gtnh.quest2136.desc=能量接收器是向AE网络注入能量的一种可选设备.你可以构建一个只有能源接收器的"哑的"网络,但想要有真正的功能,你还是需要ME控制器.%n%n§3如果要构建子网络,直接用石英纤维传输能量就行了.%n%n译者注:能量接收器可以单独用于构建子网络,但只能提供8个频道.
 
 # Quest.2137 - ME Controller
 gtnh.quest2137.name=ME控制器
-gtnh.quest2137.desc=你的AE网络的核心.向它注入能量就可以给你的整个网络供能.
+gtnh.quest2137.desc=AE网络的核心.向它注入能量就可以给你的整个网络供能.
 
 # Quest.2138 - Making Sense of Spaghetti
 gtnh.quest2138.name=理清楚你家那堆意大利面吧
 gtnh.quest2138.desc=没人喜欢一团糟的基地.你可以制作一个喷漆罐然后填充化学染料-由硫酸制备而来,用喷漆罐给你的地毯、线缆、导线和机器上色,让它们井井有条. 不过现在,有几个免费赠品.
 
 # Quest.2139 - Oink!
-gtnh.quest2139.name=Oink(猪叫)!
+gtnh.quest2139.name=哼哼!(Oink!)
 gtnh.quest2139.desc=虽然猪背包本身没啥用,但它可以转化成非常有用的工具,通过一些正确的...刺激...
 
 # Quest.2140 - §3§lA Fool Fit for a King
 gtnh.quest2140.name=§3§l一个适合做国王的傻瓜
-gtnh.quest2140.desc=只有最疯狂的傻瓜才会用钻石制作工具! 也许这个疯子大智若愚?%n%n§3PS： 你还可以把它们§o用作燃料§r,§3这太疯狂了!
+gtnh.quest2140.desc=只有最疯狂的傻瓜才会用钻石制作工具! 也许这个疯子大智若愚?%n%n§3PS：你还可以把它们§o用作燃料§r,§3这太疯狂了!
 
 # Quest.2141 - §6§lWelcome to the Church of Benzene
 gtnh.quest2141.name=§6§l欢迎来到大苯环神教
-gtnh.quest2141.desc=要是你到了MV还在使用蒸汽,你可能想知道如何继续生存下去,并走得更远.一种选择是改用轻燃料,这在LV就讲过了.  另一种选择就是用苯.苯是由木焦油制成的.有两条路可以走,都从种树收获原木开始.%n%n一条路是使用焦炉或工业焦炉制造木炭,而木炭的液体提取物就是木焦油(使用LV液体提取机以达到最优EU效率). 然后蒸馏木焦油制取苯. 这种方法产生较少污染,不过获得的苯也会比较少.%n%n第二条路就是使用多方块热解炉(加入氮气速度更快),直接生产木炭和木焦油.液体提取木炭以获得额外的木焦油. 接下来的步骤同上. 此方法会在热解炉这步产生污染,但每个原木可获得更多的苯.%n%n多余的木焦油也可以制成甲苯-爆炸物的一个关键成分,你以后会需要它的(尤其在制造火箭的时候).%n%n译者注:制取甲苯才是木焦油最重要的用处...%n%n如果选择产出木炭副产,那么你可以获得大量有用的副产物,但这需要4座蒸馏塔.
+gtnh.quest2141.desc=要是你到了MV还在使用蒸汽,你可能想知道如何继续生存下去,并走得更远.一种选择是改用轻燃料,这在LV就讲过了.  另一种选择就是用苯.苯是由木焦油制成的.有两条路可以走,都从种树收获原木开始.%n%n一条路是使用焦炉或高级焦炉制造木炭,流体提取得到木焦油(使用LV流体提取机以达到最优EU效率). 然后蒸馏木焦油制取苯. 这种方法产生较少污染,不过获得的苯也会比较少.%n%n第二条路就是使用多方块热解炉(加入氮气速度更快),直接生产木炭和木焦油.流体提取木炭以获得额外的木焦油. 接下来的步骤同上. 此方法会在热解炉这步产生污染,但每个原木可获得更多的苯.%n%n多余的木焦油也可以制成甲苯-爆炸物的一个关键成分,你以后会需要它的(尤其在制造火箭的时候).%n%n如果选择产出木炭副产,那么你可以获得大量有用的副产物,但这需要4座蒸馏塔.
 
 # Quest.2142 - §5§lAutomated Crafting
 gtnh.quest2142.name=§5§l自动化合成
@@ -8574,19 +8574,19 @@ gtnh.quest2142.desc=BC的自动合成台是一种简易的自动化系统.  你�
 
 # Quest.2143 - §5§lChoices, Choices
 gtnh.quest2143.name=§5§l选择,选择
-gtnh.quest2143.desc=想要有个燃料选择图?好吧,我们没有这玩意,但我们可以提供建议.  你可以用蒸汽一直用到IV,但高于MV之后,这会很痛苦.%n%n在LV阶段,你就可以开始炼油,制取轻燃油(内燃发电机)或炼油气(燃气轮机),这两种燃料也可以一直用到EV.%n%n如果你坚持绿色能源的话,到了MV阶段后你可以从蒸汽转向苯(气体)-一种从原木中获取的可再生燃料.另一种可再生燃料是用鱼油或种子油制成的生物柴油(内燃发电机).种子油可由潘马斯的花生、IC2作物油菜或林业树木果实坚果制取.%n%n在MV阶段你还可以将自己的轻燃油加入重燃油升级为柴油.  当你到达HV阶段后,柴油或生物柴油可升级为高十六烷值柴油.  而到EV阶段,你可以制造高辛烷值汽油,但工序很复杂,且与高十六烷值柴油走的路线不同,所以你需要重新规划你的整个石油处理系统.(不太建议)%n%nEV阶段有介绍过的大型燃气轮机、大型蒸汽涡轮、大型高压蒸汽涡轮和大型内燃引擎,它们比之前的版本更具效率.前三者需要配合涡轮.%n%n你还可以使用核反应堆或风力、水力动能.%n%n对于低功率系统,或是有志于实现太阳能自动化的玩家,在MV阶段可以开始制作太阳能覆盖板.%n%n译者注:高阶太阳能的成本越来越高,不建议作为主要能源.
+gtnh.quest2143.desc=想要有个燃料选择图?好吧,我们没有这玩意,但可以提供建议.  你可以用蒸汽一直用到IV,但过了MV之后会很痛苦.%n%n在LV阶段,你就可以开始炼油,制取轻燃油(内燃发电机)或炼油气(燃气轮机),这两种燃料也可以一直用到EV.%n%n如果你坚持绿色能源的话,到了MV阶段后你可以从蒸汽转向苯(燃气轮机)-一种从原木中获取的可再生燃料.另一种可再生燃料是用鱼油或种子油制成的生物柴油(内燃发电机).种子油可由潘马斯的花生、IC2作物油菜或林业树木果实坚果制取.%n%n在MV阶段你还可以在轻燃油中加入重燃油,升级为柴油.  当你到达HV阶段后,柴油或生物柴油可升级为高十六烷值柴油.  而到EV阶段,你可以制造高辛烷值汽油,但工序很复杂,且与高十六烷值柴油走的路线不同,所以你需要重新规划整个石油处理系统.%n%nEV阶段会解锁大型燃气轮机、大型蒸汽涡轮、大型高压蒸汽涡轮和大型内燃引擎,它们比之前的版本更具效率.前三者需要配合涡轮.%n%n你还可以使用核反应堆或风力、水力动能.%n%n对于低功率系统,或是有志于实现太阳能自动化的玩家,在MV阶段可以开始制作太阳能覆盖板.%n%n译者注:高阶太阳能的成本越来越高,不建议作为主要能源.
 
 # Quest.2144 - §6§lDon't Put a Finger in That Socket
 gtnh.quest2144.name=§6§l别把手指插进插座里
-gtnh.quest2144.desc=如果你想让多A电流通过你的超净间墙壁,使用线缆二极管吧.  当从主电源线分支到通常不会使用那么多A电流的支线时,也可以使用线缆二级管,来很方便地限制电流,但是你要防止在填充机器缓存时着火.
+gtnh.quest2144.desc=如果你想让多A电流通过超净间墙壁,使用线缆二极管吧.  当从主电源线分支到通常不会使用那么多A电流的支线时,也可以使用线缆二级管,来很方便地限制电流,除此之外也可防止电流过大着火.
 
 # Quest.2145 - §1§lE_TOO_MANY_KEYS
 gtnh.quest2145.name=§1§l错误:太多按键需要绑定
-gtnh.quest2145.desc=错误:键盘只有104个按键,但有太多快捷键需要绑定了.你需要重新定义你的键位,这样你才能更有效地使用快捷键.%n%n以下是你应该解决冲突的快捷键列表. 要是弄乱了config文件里的按键绑定,可能会造成崩溃. 如果真的崩溃了,你需要确认options.txt文件已被修复.可以直接删除此文件,再重新启动整合包. 你可以将大量不常用按键绑定到ESC上,这样它们就不会被激活.但这样小概率会造成一些特殊按键会激活某个动作(计算器、音量键,等等.).%n%nAdventure Backpacks%nB - Inventory%nV - Toggle%n%nBackpacks%nG - Open Backpack (Shift+G以穿上/脱下背包并设置过滤)%n%nBattlegear%nR - Draw Weapons%nZ - Special (cycle arrows on M&B quiver)%n%nDark Steel Armor%nApostrophe - Night Vision%n%nGameplay%nNONE - Drop Item (谁想把背包扔进岩浆里?)%n%nIC2%nC - Side Invetory Key%n%nJourneyMap%nHome - Make Waypoint%nJ - Open Map%n= - Zoom In (小地图上同样可用)%n- - Zoom Out (同上)%n%nMiscellaneous%nH - Activate Hover Harness%nF - Change Wand Focus%n%nTC Node Tracker%nI - Node List (节点必须被扫描;戴着护目镜可以激活指针功能)%nX - Zoom key (方便查看远处山上的矿石)%n%nTinker's Construct%nDelete - Traveller's Belt Swap Hotbar
+gtnh.quest2145.desc=错误:键盘只有104个按键,但有太多快捷键需要绑定了.你需要重新定义你的键位,这样你才能更有效地使用快捷键.%n%n以下是你应该解决冲突的快捷键列表. 要是弄乱了config文件里的按键绑定,可能会造成崩溃. 如果真的崩溃了,你需要确认options.txt文件已被修复.可以直接删除此文件,再重新启动整合包. 你可以将大量不常用按键绑定到ESC(即清除绑定)上,这样它们就不会被激活.但这样小概率会造成一些特殊按键会激活某个动作(计算器、音量键,等等.).%n%n译者注:另一个选择就是把用不到的按键都绑定到同一个键上,这样不容易引起上述问题.%n%nAdventure Backpacks%nB - Inventory%nV - Toggle%n%nBackpacks%nG - Open Backpack (Shift+G以穿上/脱下背包并设置过滤)%n%nBattlegear%nR - Draw Weapons%nZ - Special (cycle arrows on M&B quiver)%n%nDark Steel Armor%nApostrophe - Night Vision%n%nGameplay%nNONE - Drop Item (谁想把背包扔进岩浆里?)%n%nIC2%nC - Side Invetory Key%n%nJourneyMap%nHome - Make Waypoint%nJ - Open Map%n= - Zoom In (小地图上同样可用)%n- - Zoom Out (同上)%n%nMiscellaneous%nH - Activate Hover Harness%nF - Change Wand Focus%n%nTC Node Tracker%nI - Node List (节点必须被扫描;戴着护目镜可以激活指针功能)%nX - Zoom key (方便查看远处山上的矿石)%n%nTinker's Construct%nDelete - Traveller's Belt Swap Hotbar
 
 # Quest.2146 - BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS
-gtnh.quest2146.name=BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS(brains)脑子
-gtnh.quest2146.desc=自动化魔法非常巧妙,只有"聪明的"法师才需要研究它.制作一些水晶之脑并扫描它们,以解锁下一阶段.你会用到僵尸之脑,通常从凶险节点刷出的危险的红眼巨人僵尸身上收集而来.
+gtnh.quest2146.name=脑脑脑脑脑脑脑脑脑脑脑脑脑子
+gtnh.quest2146.desc=自动化魔法非常巧妙,只有"聪明的"法师才需要研究它.制作一些水晶之脑并扫描它们,以解锁下一阶段.你会用到僵尸之脑,通常从凶险节点刷出的危险的红眼巨人僵尸身上收集而来.%n%n译者注:原标题为"BRRRRAAAAAAAIIIIIIINNNNNNNSSSSS".
 
 # Quest.2147 - Gimme gimme gimme
 gtnh.quest2147.name=给我,给我,给我
@@ -8598,11 +8598,11 @@ gtnh.quest2148.desc=IV等级的电池需要大量的资源.  首先,你需要激
 
 # Quest.2149 - §a§lLapotronic Energy Orb
 gtnh.quest2149.name=§a§l兰波顿能量球
-gtnh.quest2149.desc=兰波顿能量球是IV等级的电池.它可以存储100M-EU.%n%n§3提示: 在IV之前,可以用它们造几台处理阵列.非常有用.
+gtnh.quest2149.desc=兰波顿能量球是IV等级的电池.它可以存储100M-EU.%n%n§3提示: 到了IV,可以用它们造几台处理阵列.非常有用.
 
 # Quest.2150 - §a§lOne BILLION EU
 gtnh.quest2150.name=§a§l10亿EU
-gtnh.quest2150.desc=如果你想要一个固定的电池,制作AFSU吧,它可以储存10亿EU还能为物品充电.你可以使用扳手拆卸它,但这样你会失去存储EU的20％.记得是用右键而不是用左键.左键会导致你损失所有存储的EU.%n%n作为替代方案,如果你能做得起的话,试试GT++的能量缓冲器吧.它们更贵而且无法为物品充电,但存储量更多,且不会损失EU,而且输出可设置为1-16A.查看GT++任务栏以获知更多细节.%n%n§3它们可以接收无限大的电流,所以或许你需要配合二极管或其他什么(如果你不想影响到主线供电的话).
+gtnh.quest2150.desc=如果你想要一个固定的电池,制作AFSU吧,它可以储存10亿EU还能为物品充电.你可以使用扳手拆卸它,但这样你会失去存储EU的20％.记得是用右键而不是用左键.左键会导致你损失所有存储的EU.%n%n作为替代方案,如果你能做得起的话,试试GT++的能量缓冲器吧.它们更贵而且无法为物品充电,但存储量更多,且不会损失EU,而且输出可设置为1-16A.查看GT++任务栏以获知更多细节.%n%n§3它们可以接收无限大的电流,所以或许你需要配合二极管或其他什么(如果你不想影响到主线供电的话).%n%n译者注:你可以用手推车搬运AFSU,不会损失任何存储的EU.
 
 # Quest.2151 - You Can't Spell Lignite Without Ignite
 gtnh.quest2151.name=没有火字旁就写不出褐煤(You Can't Spell Lignite Without Ignite)
