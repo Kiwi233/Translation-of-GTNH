@@ -60,7 +60,7 @@ languagefile {
     S:"Book.Power Storage & You [Version 0.64].Page00"=关于能源存储你现在有三种选择:<BR> <BR>电池箱；<BR>能量缓冲器；<BR>能源站<BR><BR>译者注：这是局限于GT和GTPP的选择,另外还有兰波顿超级电容库
     S:"Book.Power Storage & You [Version 0.64].Page01"=电池箱<BR> <BR>相当便携.随便在什么地方都可以放置,插入电池后即可正常使用.<BR>内部存储的每个电池可提供1A的输出电流,最高为16A.
     S:"Book.Power Storage & You [Version 0.64].Page02"=能量缓冲器<BR> <BR>比较适合在基地中使用.放置并充能后,只能在内部能量全部释放后拆卸.<BR>能量缓冲器在输出面可以输出4A电流,而在输入面可以接受16A电流.
-    S:"Book.Power Storage & You [Version 0.64].Page03"=能源站<BR> <BR>用于在游戏中后期存储巨量电能.<BR>每t消耗所有能源仓/动力仓平均电压的2%作为运行损耗.
+    S:"Book.Power Storage & You [Version 0.64].Page03"=能源站<BR> <BR>用于在游戏中后期存储巨量电能.<BR>每t消耗所有能源仓/动力仓平均电压的5%作为运行损耗.
     S:"Book.Power Storage & You [Version 0.64].Page04"=可通过螺丝刀切换,允许从控制器的背面输入/输出能量.<BR>高度可选,在4-16格之间均可.插入的钒氧化还原能量单元决定了能源站的最高能级.<BR>
     S:"Book.Power Storage & You [Version 0.64].Page05"=钒氧化还原单元不能放在顶层或底层,只能在内部占用3xhx3空间.<BR>不同等级的能量单元不能混用!
     S:"Book.Power Storage & You [Version 0.64].Page06"=最低仓室等级不能低于HV,就是为了防止有人用ULV或者LV的仓室来拉低平均值以降低耗电.<BR>目前的GUI在搭建完成之前不会显示任何信息,这是一个已知bug.<BR>
@@ -92,13 +92,13 @@ languagefile {
     S:"Book.Thermal Boiler Manual.Page00"=本书将解释如何建造并运行你的地热锅炉.对于本手册本身或其内容所造成的任何损害,我们概不负责.
     S:"Book.Thermal Boiler Manual.Page01"=首先,地热锅炉想要正常工作需要做好以下准备: 锅炉主方块、20x热抑制机械方块、2x输入仓、2x输出仓、1x维护仓以及一堆工具.
     S:"Book.Thermal Boiler Manual.Page02"=建造时,首先在地上放置3x3的一层热抑制机械方块(中心为仓室),然后将锅炉主方块放置在第二层的侧面中心处.
-    S:"Book.Thermal Boiler Manual.Page03"=现在将剩余的3个仓室放置在剩余的3个侧面的中心处.在第二层剩下的四个角放置热抑制机械方块.立方体中间只应留一个孔.
+    S:"Book.Thermal Boiler Manual.Page03"=现在将剩余的3个仓室放置在剩余的3个侧面的中心处.在第二层剩下的四个角放置热抑制机械方块.立方体中间只应空出一格.
     S:"Book.Thermal Boiler Manual.Page04"=最后,在顶层放置3x3的热抑制机械方块,同样在中心处放置最后一个仓室.
     S:"Book.Thermal Boiler Manual.Page05"=现在访问锅炉主方块时,它应该不再告诉你结构不完整了(最下面一行).现在带上一堆工具(锻造锤、软锤、螺丝刀、扳手电烙铁和撬棍)去维护仓吧.
     S:"Book.Thermal Boiler Manual.Page06"=在维护仓GUI界面中,依次手持这六种工具右键.注意,你需要在背包内携带锡或者铅才能使用电烙铁.
     S:"Book.Thermal Boiler Manual.Page07"=维护完成后,主方块应该会告诉你需要用软锤右键它,来启动或重启此多方块机器.软锤可以启动或关闭机器.而机器在遇到一些严重故障时也会自己停止运行.
-    S:"Book.Thermal Boiler Manual.Page08"=如果需要用岩浆来供给此设备的话,你还需要添加一个岩浆过滤器来从其中提取其他资源.过滤器损坏后,锅炉不会像涡轮机一样爆炸.而要是你用的是熔盐的话,就用不着过滤器了.
-    S:"Book.Thermal Boiler Manual.Page09"=处理岩浆时你会得到黑曜石,但如果用了过滤器的话,你获得的将是黑曜石锭而不是黑曜石块.使用熔盐时,你可以重新获得那些盐.
+    S:"Book.Thermal Boiler Manual.Page08"=如果需要用岩浆来供给此设备的话,你还需要添加一个岩浆过滤器来从其中提取其他资源.过滤器损坏后,锅炉不会像涡轮机一样爆炸.而要是你用的是太阳能盐的话,就用不着过滤器了.
+    S:"Book.Thermal Boiler Manual.Page09"=处理岩浆时你会得到黑曜石,但如果用了过滤器的话,你获得的将是黑曜石锭而不是黑曜石块.使用太阳能盐时,你可以重新获得(冷却的)盐.
     S:"Book.Thermal Boiler Manual.Page10"=现在来讲讲维护吧.连续运行几个小时后,你的锅炉可能会出些小问题,这些小问题不会打断它的运行,只会降低其效率.显示的每个维护问题会降低机器10%的效率.
     S:"Book.Thermal Boiler Manual.Page11"=在维护仓GUI中使用与问题相应的工具即可修复维护问题.如果所有六个可能的维护问题都发生了,无论如何机器都会自动关闭,不会爆炸,只是停机.
     S:"Book.Thermal Boiler Manual.Page12"=地热锅炉在100%效率时,每t消耗大约5-6升水,产生800升蒸汽.每秒消耗1666升岩浆.
@@ -2149,7 +2149,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00141_Index_02=工作范围: 2x2区块
     S:TileEntity_DESCRIPTION_00141_Index_03=使用螺丝刀调整工作范围
     S:TileEntity_DESCRIPTION_00141_Index_04=使用编程电路可以在油田接近枯竭时提前停止采油
-    S:TileEntity_DESCRIPTION_00141_Index_05=当编程电路的#配置高于输出值时,正常运行的机器将会停止.
+    S:TileEntity_DESCRIPTION_00141_Index_05=当编程电路的总#配置高于输出值时,正常运行的机器将会停止.
     S:TileEntity_DESCRIPTION_00141_Index_06=-----------------------------------------
     S:TileEntity_DESCRIPTION_00141_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00141_Index_08=由 §aGregtech§7 添加
@@ -2168,7 +2168,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00142_Index_02=工作范围: 4x4区块
     S:TileEntity_DESCRIPTION_00142_Index_03=使用螺丝刀调整工作范围
     S:TileEntity_DESCRIPTION_00142_Index_04=使用编程电路可以在油田接近枯竭时提前停止采油
-    S:TileEntity_DESCRIPTION_00142_Index_05=当编程电路的#配置高于输出值时,正常运行的机器将会停止.
+    S:TileEntity_DESCRIPTION_00142_Index_05=当编程电路的总#配置高于输出值时,正常运行的机器将会停止.
     S:TileEntity_DESCRIPTION_00142_Index_06=-----------------------------------------
     S:TileEntity_DESCRIPTION_00142_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00142_Index_08=由 §aGregtech§7 添加
@@ -2249,7 +2249,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00149_Index_02=工作范围: 8x8区块
     S:TileEntity_DESCRIPTION_00149_Index_03=使用螺丝刀调整工作范围
     S:TileEntity_DESCRIPTION_00149_Index_04=使用编程电路可以在油田接近枯竭时提前停止采油
-    S:TileEntity_DESCRIPTION_00149_Index_05=当编程电路的#配置高于输出值时,正常运行的机器将会停止.
+    S:TileEntity_DESCRIPTION_00149_Index_05=当编程电路的总#配置高于输出值时,正常运行的机器将会停止.
     S:TileEntity_DESCRIPTION_00149_Index_06=-----------------------------------------
     S:TileEntity_DESCRIPTION_00149_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00149_Index_08=由 §aGregtech§7 添加
@@ -2923,7 +2923,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00790_Index_01=工业离心机的控制器方块
     S:TileEntity_DESCRIPTION_00790_Index_02=比同电压下的单方块机器快125%！
     S:TileEntity_DESCRIPTION_00790_Index_03=用螺丝刀禁用动画
-    S:TileEntity_DESCRIPTION_00790_Index_04=只需要使用配方要求电压的90%
+    S:TileEntity_DESCRIPTION_00790_Index_04=只需要使用配方要求功率的90%
     S:TileEntity_DESCRIPTION_00790_Index_05=每提升一个电压等级，每次运行可以多处理6个物品
     S:TileEntity_DESCRIPTION_00790_Index_06=每秒产生§5300§7点污染
     S:TileEntity_DESCRIPTION_00790_Index_07=-----------------------------------------
@@ -2995,8 +2995,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_00795_Index_03=添加者: §2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_00796_Index_00=机器类型：§e电解机§r
     S:TileEntity_DESCRIPTION_00796_Index_01=工业电解机的控制器方块
-    S:TileEntity_DESCRIPTION_00796_Index_02=比同电压下的单方块机器快180%！
-    S:TileEntity_DESCRIPTION_00796_Index_03=只需要使用配方要求电压的90%
+    S:TileEntity_DESCRIPTION_00796_Index_02=比相同电压的单方块机器快180%！
+    S:TileEntity_DESCRIPTION_00796_Index_03=只需要使用配方要求功率的90%
     S:TileEntity_DESCRIPTION_00796_Index_04=每提升一个电压等级，每次运行可以多处理2个物品
     S:TileEntity_DESCRIPTION_00796_Index_05=每秒产生§5300§7点污染
     S:TileEntity_DESCRIPTION_00796_Index_06=-----------------------------------------
@@ -3034,7 +3034,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00798_Index_00=机器类型：§e线缆轧机§r
     S:TileEntity_DESCRIPTION_00798_Index_01=工业线缆轧机的控制器方块
     S:TileEntity_DESCRIPTION_00798_Index_02=比相同电压的单方块机器快200%
-    S:TileEntity_DESCRIPTION_00798_Index_03=只需要使用配方要求电压的75%
+    S:TileEntity_DESCRIPTION_00798_Index_03=只需要使用配方要求功率的75%
     S:TileEntity_DESCRIPTION_00798_Index_04=每提升一个电压等级，每次运行可以多处理4个物品
     S:TileEntity_DESCRIPTION_00798_Index_05=每秒产生§5100§7点污染
     S:TileEntity_DESCRIPTION_00798_Index_06=-----------------------------------------
@@ -3127,8 +3127,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_00812_Secondary_Index_01=结构：
     S:TileEntity_DESCRIPTION_00812_Secondary_Index_02=   控制器：  正面底中
     S:TileEntity_DESCRIPTION_00812_Secondary_Index_03=   内部：    3x(H-2)x3, 钒氧化还原能量单元
-    S:TileEntity_DESCRIPTION_00812_Secondary_Index_04=   使用子信道§6capacitor§r§7选择§6钒氧化还原能量单元等级
-    S:TileEntity_DESCRIPTION_00812_Secondary_Index_05=   使用子信道§6height§r§7选择§6结构高度
+    S:TileEntity_DESCRIPTION_00812_Secondary_Index_04=   使用子信道§6capacitor§r§7定义§6钒氧化还原能量单元等级
+    S:TileEntity_DESCRIPTION_00812_Secondary_Index_05=   使用子信道§6height§r§7定义§6结构高度
     S:TileEntity_DESCRIPTION_00813_Index_00=宿醉是你的身体对脱水的反应方式.
     S:TileEntity_DESCRIPTION_00813_Index_01=添加者: §2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_00814_Index_00=宿醉是你的身体对脱水的反应方式.
@@ -3283,7 +3283,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00840_Index_00=机器类型：§e筛选机§r
     S:TileEntity_DESCRIPTION_00840_Index_01=工业筛选机的控制器方块
     S:TileEntity_DESCRIPTION_00840_Index_02=比相同电压的单方块机器快400%
-    S:TileEntity_DESCRIPTION_00840_Index_03=只需要使用配方要求电压的75%
+    S:TileEntity_DESCRIPTION_00840_Index_03=只需要使用配方要求功率的75%
     S:TileEntity_DESCRIPTION_00840_Index_04=每提升一个电压等级，每次运行可以多处理4个物品
     S:TileEntity_DESCRIPTION_00840_Index_05=每秒产生§540§7点污染
     S:TileEntity_DESCRIPTION_00840_Index_06=-----------------------------------------
@@ -3303,8 +3303,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_00840_Secondary_Index_11=   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_00849_Index_00=机器类型：§e热力离心机§r
     S:TileEntity_DESCRIPTION_00849_Index_01=工业热力精炼厂的控制器方块
-    S:TileEntity_DESCRIPTION_00849_Index_02=比同电压下的单方块机器快150%！
-    S:TileEntity_DESCRIPTION_00849_Index_03=只需要使用配方要求电压的80%
+    S:TileEntity_DESCRIPTION_00849_Index_02=比相同电压的单方块机器快150%！
+    S:TileEntity_DESCRIPTION_00849_Index_03=只需要使用配方要求功率的80%
     S:TileEntity_DESCRIPTION_00849_Index_04=每提升一个电压等级，每次运行可以多处理8个配方
     S:TileEntity_DESCRIPTION_00849_Index_05=每秒产生§51000§7点污染
     S:TileEntity_DESCRIPTION_00849_Index_06=-----------------------------------------
@@ -3372,7 +3372,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00860_Index_00=机器类型：§e九合一§r
     S:TileEntity_DESCRIPTION_00860_Index_01=大型加工厂的控制器方块
     S:TileEntity_DESCRIPTION_00860_Index_02=比相同电压的单方块机器快250%
-    S:TileEntity_DESCRIPTION_00860_Index_03=只需要使用配方要求电压的80%
+    S:TileEntity_DESCRIPTION_00860_Index_03=只需要使用配方要求功率的80%
     S:TileEntity_DESCRIPTION_00860_Index_04=每提升一个电压等级，每次运行可以多处理2个物品
     S:TileEntity_DESCRIPTION_00860_Index_05=机器类型：[A]-§e压缩机、车床、两极磁化机§r
     S:TileEntity_DESCRIPTION_00860_Index_06=机器类型：[B]-§e发酵槽、流体提取机、提取机§r
@@ -3530,7 +3530,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00875_Index_00=机器等级: §e锅炉§r
     S:TileEntity_DESCRIPTION_00875_Index_01=地热锅炉的控制器方块
     S:TileEntity_DESCRIPTION_00875_Index_02=将水和热转化为蒸汽
-    S:TileEntity_DESCRIPTION_00875_Index_03=参阅用户手册获取更多信息
+    S:TileEntity_DESCRIPTION_00875_Index_03=参阅手册获取更多信息
     S:TileEntity_DESCRIPTION_00875_Index_04=每秒产生§5700§7点污染
     S:TileEntity_DESCRIPTION_00875_Index_05=-----------------------------------------
     S:TileEntity_DESCRIPTION_00875_Index_06=按住 §l[LSHIFT]§r§7 以显示结构指导
@@ -3763,7 +3763,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00942_Index_04=如果插入到控制器中，它将在所有总线上共享
     S:TileEntity_DESCRIPTION_00942_Index_05=1x1, 2x2, 3x3 以及其他的设计图只能置于控制器GUI的插槽中
     S:TileEntity_DESCRIPTION_00942_Index_06=比相同电压的单方块机器快500%
-    S:TileEntity_DESCRIPTION_00942_Index_07=只需要使用配方要求电压的75%
+    S:TileEntity_DESCRIPTION_00942_Index_07=只需要使用配方要求功率的75%
     S:TileEntity_DESCRIPTION_00942_Index_08=每提升一个电压等级，每次运行可以多处理16个物品
     S:TileEntity_DESCRIPTION_00942_Index_09=每秒产生§540§7点污染
     S:TileEntity_DESCRIPTION_00942_Index_10=-----------------------------------------
@@ -3929,7 +3929,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00992_Index_00=机器类型：§e切割机/切片机§r
     S:TileEntity_DESCRIPTION_00992_Index_01=工业切割机的控制器方块
     S:TileEntity_DESCRIPTION_00992_Index_02=比相同电压的单方块机器快200%
-    S:TileEntity_DESCRIPTION_00992_Index_03=只需要使用配方要求电压的75%
+    S:TileEntity_DESCRIPTION_00992_Index_03=只需要使用配方要求功率的75%
     S:TileEntity_DESCRIPTION_00992_Index_04=每提升一个电压等级，每次运行可以多处理4个物品
     S:TileEntity_DESCRIPTION_00992_Index_05=每秒产生§5160§7点污染
     S:TileEntity_DESCRIPTION_00992_Index_06=-----------------------------------------
@@ -4587,7 +4587,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_01157_Index_02=工作范围: 1x1区块
     S:TileEntity_DESCRIPTION_01157_Index_03=使用螺丝刀调整工作范围
     S:TileEntity_DESCRIPTION_01157_Index_04=使用编程电路可以在油田接近枯竭时提前停止采油
-    S:TileEntity_DESCRIPTION_01157_Index_05=当编程电路的#配置高于输出值时,正常运行的机器将会停止.
+    S:TileEntity_DESCRIPTION_01157_Index_05=当编程电路的总#配置高于输出值时,正常运行的机器将会停止.
     S:TileEntity_DESCRIPTION_01157_Index_06=-----------------------------------------
     S:TileEntity_DESCRIPTION_01157_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_01157_Index_08=由 §aGregtech§7 添加
@@ -13252,7 +13252,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_31069_Index_01=工业级自动凿子
     S:TileEntity_DESCRIPTION_31069_Index_02=将样板物放入控制器GUI中
     S:TileEntity_DESCRIPTION_31069_Index_03=样板物留空时，出产NEI凿子页第一个产物
-    S:TileEntity_DESCRIPTION_31069_Index_04=速度：+200% | EU消耗：75% | 并行：等级*16
+    S:TileEntity_DESCRIPTION_31069_Index_04=速度：+200% | EU消耗：75% | 并行：16*电压等级
     S:TileEntity_DESCRIPTION_31069_Index_05=每秒产生§550§7点污染
     S:TileEntity_DESCRIPTION_31069_Index_06=-----------------------------------------
     S:TileEntity_DESCRIPTION_31069_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
@@ -13396,8 +13396,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_31075_Secondary_Index_08=   消声仓：  任意机械方块
     S:TileEntity_DESCRIPTION_31077_Index_00=机器类型：§e流体加热器§r
     S:TileEntity_DESCRIPTION_31077_Index_01=工业流体加热器的控制器方块
-    S:TileEntity_DESCRIPTION_31077_Index_02=比同电压下的单方块机器快120%
-    S:TileEntity_DESCRIPTION_31077_Index_03=只需要使用配方要求电压的90%
+    S:TileEntity_DESCRIPTION_31077_Index_02=比相同电压的单方块机器快120%
+    S:TileEntity_DESCRIPTION_31077_Index_03=只需要使用配方要求功率的90%
     S:TileEntity_DESCRIPTION_31077_Index_04=每提升一个电压等级，每次运行可以多处理8个配方
     S:TileEntity_DESCRIPTION_31077_Index_05=每秒产生§51000§7点污染
     S:TileEntity_DESCRIPTION_31077_Index_06=-----------------------------------------
@@ -13763,7 +13763,7 @@ languagefile {
 // ↑↑↑ //    S:TileEntity_DESCRIPTION_32018_Index_07=UHV Machine Casing will unlock all voltage.
     S:TileEntity_DESCRIPTION_32018_Index_08=在普通模式下，精密电子单元机械方块不限制合成表
     S:TileEntity_DESCRIPTION_32018_Index_09=不过使用更高级的精密电子单元机械方块可提供更多并行.
-    S:TileEntity_DESCRIPTION_32018_Index_10=比普通模式快100%
+    S:TileEntity_DESCRIPTION_32018_Index_10=在普通模式下，比单方块组装机快100%
     S:TileEntity_DESCRIPTION_32018_Index_11=MK-I = 32x, MK-II = 64x, MK-III = 128x
     S:TileEntity_DESCRIPTION_32018_Index_12=每秒产生§5780§7点污染
     S:TileEntity_DESCRIPTION_32018_Index_13=结构太复杂了！
