@@ -408,7 +408,7 @@ Automagy.research_text.GOLEMWORKBENCH=需要装配么?
 Automagy.research_page.GOLEMWORKBENCH.1=傀儡工作台让你能摆出合成配方,加上一些魔法的协助,即便是傀儡也能照着合成.<BR>对你蠢萌的傀儡来说还有许多配方太过复杂.除非合成是2x2的或者所有的原料都是一样的,不然你就需要§l高级傀儡§r了.<BR>首先在9个格子中设定好合成配方,底部的格子中提供所需的材料.然后对着工作台放置一个装有§l空置§r傀儡运转核心的傀儡,命令傀儡从中容器取出合成产物(右击傀儡设置).用傀儡使铃铛告诉傀儡应在何处放置新的物品.
 Automagy.research_page.GOLEMWORKBENCH.2=<BR>注意在这里只有原版合成台可合成的才有效.即便是你最高级的傀儡也无法了解奥术合成使用魔力的原理.但你觉得这样也足够了.<BR>若要让傀儡专心工作提升效率,你可以在附近放置一个装有§8Fabrico§0要素源质的罐子.这将会起到很大帮助,尤其是傀儡在很长时间内持续合成物品,它们可能会有些'瞌睡'的情况下.真够懒的.
 Automagy.research_page.GOLEMWORKBENCH.UPGRADEORDER=     §n秩序升级解锁特性§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>当合成中产生了残留物品并且无法当做合成原料(比如合成蛋糕中的空桶),通常物品就会被合成傀儡扔到一边.如果傀儡安装了这项升级,它就会将残留的物品放入工作台(如果空间允许的话)
-Automagy.research_page.GOLEMWORKBENCH.UPGRADEENTROPY=    §n混沌升级解锁特性§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>如果相连的傀儡安装了混沌升级,那就意味着它会忽略物品的损伤,NBT数据以及检测矿物词典来判断它所合成的东西.(这取决于傀儡是否能移动物品.)<BR>只会影响到合成产物,而不会影响到合成使用的原料.或许进一步的研究能解决这个问题.
+Automagy.research_page.GOLEMWORKBENCH.UPGRADEENTROPY=    §n混沌升级解锁特性§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>如果相连的傀儡安装了混沌升级,那就意味着它会忽略物品的损伤,NBT数据以及检测矿物辞典来判断它所合成的东西.(这取决于傀儡是否能移动物品.)<BR>只会影响到合成产物,而不会影响到合成使用的原料.或许进一步的研究能解决这个问题.
 Automagy.research_page.GOLEMWORKBENCH.ADVANCEDGOLEM=§l      §n高级傀儡§r<BR>如你所愿,高级傀儡能进行更复杂的合成.它们能使用3x3的配方以及不止一种原料.
 Automagy.research_page.GOLEMWORKBENCH.GOLEMFETTER=§l        §n傀儡镣铐§r<BR>如果傀儡镣铐直接放在工作台下面,那么,当它被激活时,傀儡将不会在工作台上合成任何物品.它们不一定完全停止(只要它们别自己踩上去),但是,这意味着它们可以继续从工作台中清空指定物品.<BR>当管理多个傀儡或傀儡拒绝始终站在一个位置时，这可能是有用的.
 
