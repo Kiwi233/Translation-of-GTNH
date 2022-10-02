@@ -1,22 +1,29 @@
 # Nature's Compass - Language File
-# UNITED STATES - ENGLISH
+# CHINA - SIMPLIFIED CHINESE
 
 # ITEMS
 item.naturescompass.NaturesCompass.name=生物群系指南针
 
 # STRINGS - BUTTONS
 string.naturescompass.back=返回
-string.naturescompass.info=信息
+string.naturescompass.info=详情
 string.naturescompass.search=搜索
 string.naturescompass.selectBiome=选择生物群系
 string.naturescompass.sortBy=排序方式
 string.naturescompass.teleport=传送
 
 # STRINGS - CLIMATES
-string.naturescompass.cold=寒冷
-string.naturescompass.medium=适中
 string.naturescompass.ocean=海洋
+string.naturescompass.hellish=地狱
+string.naturescompass.hot=炎热
 string.naturescompass.warm=温暖
+string.naturescompass.normal=正常
+string.naturescompass.cold=寒冷
+string.naturescompass.icy=酷寒
+
+# STRINGS - HUMIDITY
+string.naturescompass.damp=湿润
+string.naturescompass.arid=干燥
 
 # STRINGS - RANGE
 string.naturescompass.none=无
@@ -30,7 +37,7 @@ string.naturescompass.veryHigh=很高
 string.naturescompass.biome=生物群系
 string.naturescompass.coordinates=坐标
 string.naturescompass.distance=距离
-string.naturescompass.found=发现
+string.naturescompass.found=已发现
 string.naturescompass.notFound=未发现
 string.naturescompass.radius=范围(半径)
 string.naturescompass.searching=搜索中
@@ -39,12 +46,13 @@ string.naturescompass.status=状态
 # STRINGS - INFO
 string.naturescompass.baseHeight=基础高度
 string.naturescompass.climate=气候
-string.naturescompass.heightVariation=高度编码
-string.naturescompass.highHumidity=最大湿度
+string.naturescompass.heightVariation=高度偏差
 string.naturescompass.name=名字
 string.naturescompass.precipitation=降水类型
 string.naturescompass.rainfall=降水量
+string.naturescompass.humidity=湿度
 string.naturescompass.temperature=温度
+string.naturescompass.tags=标签
 
 # STRINGS - PRECIPITATION
 string.naturescompass.snow=雪

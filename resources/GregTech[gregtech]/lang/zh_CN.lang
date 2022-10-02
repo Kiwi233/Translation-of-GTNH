@@ -9,9 +9,9 @@ itemGroup.GregTech.Main=主体
 itemGroup.GregTech.Materials=材料
 itemGroup.GregTech.Ores=矿石
 
-GT5U.autoplace.error.no_hatch=§c建议放置仓室 §4%s§c ,但未在物品栏中找到
-GT5U.autoplace.error.no_mte.id=§c建议放置meta-ID为 §4%s§c 的方块,但未在物品栏中找到
-GT5U.autoplace.error.no_mte.class_name=§c建议放置class名为 §4%d§c 的方块,但未在物品栏中找到
+GT5U.autoplace.error.no_hatch=§c建议放置仓室 §4%s§c ,但未在库存中找到
+GT5U.autoplace.error.no_mte.id=§c建议放置meta-ID为 §4%s§c 的方块,但未在库存中找到
+GT5U.autoplace.error.no_mte.class_name=§c建议放置class名为 §4%d§c 的方块,但未在库存中找到
 
 # Multiblock Tooltip Builder Keywords
 # Context can be found in the class gregtech.api.util.GT_Multiblock_Tooltip_Builder
@@ -36,6 +36,8 @@ GT5U.MBTT.Display=以显示结构指导
 GT5U.MBTT.StructureHint=多种可选方块或任意等级方块
 GT5U.MBTT.Mod=添加模组：
 GT5U.MBTT.Air=必须留空
+
+GT5U.MBTT.subchannel=子信道 §6%s§r 将被用于 %s
 
 GT5U.cracker.io_side=输入/输出仓必须处在对侧！
 
@@ -67,6 +69,22 @@ GT5U.fusion.req=需要EU
 GT5U.fusion.plasma=等离子体输出
 
 GT5U.EBF.heat=热容
+GT5U.coil.None=无
+GT5U.coil.ULV=无
+GT5U.coil.LV=白铜
+GT5U.coil.MV=坎塔尔合金
+GT5U.coil.HV=镍铬合金
+GT5U.coil.EV=钨钢
+GT5U.coil.IV=高速钢-G
+GT5U.coil.LuV=高速钢-S
+GT5U.coil.ZPM=硅岩
+GT5U.coil.UV=硅岩合金
+GT5U.coil.UHV=三元金属
+GT5U.coil.UEV=通流琥珀金
+GT5U.coil.UIV=觉醒龙锭
+GT5U.coil.UMV=无尽
+GT5U.coil.UXV=海珀珍
+GT5U.coil.MAX=永恒
 
 GT5U.MS.multismelting=同时熔炼
 
@@ -84,8 +102,20 @@ GT5U.machines.separatebus=输入总线已独立
 GT5U.machines.pumpareaset=工作区域设置为
 GT5U.machines.oilfluidpump=石油/流体钻机
 GT5U.machines.minermulti=采矿场
-GT5U.machines.voidoveflow.enabled=启用溢出销毁
-GT5U.machines.voidoveflow.disabled=禁用溢出销毁
+GT5U.machines.digitalchest.voidoverflow.enabled=溢出销毁：§a启用§r
+GT5U.machines.digitalchest.voidoverflow.disabled=溢出销毁：§a禁用§r
+GT5U.machines.digitaltank.tooltip=存储 %sL 流体
+GT5U.machines.digitaltank.tooltip1=拆卸后可保留其中流体
+GT5U.machines.digitaltank.tooltip2=潜行拆卸可销毁内部流体
+GT5U.machines.digitaltank.autooutput.tooltip=流体自动输出
+GT5U.machines.digitaltank.lockfluid.tooltip=流体锁定模式
+GT5U.machines.digitaltank.lockfluid.tooltip.1=§7锁定本容器，只接受一种流体
+GT5U.machines.digitaltank.lockfluid.tooltip.2=§7将锁定为进入容器的第一种流体
+GT5U.machines.digitaltank.voidoverflow.tooltip=溢出销毁模式
+GT5U.machines.digitaltank.voidoverflow.tooltip.1=§7当容器满溢时，销毁收到的所有流体
+GT5U.machines.digitaltank.voidfull.tooltip=完全销毁模式
+GT5U.machines.digitaltank.voidfull.tooltip.1=§7销毁所有进入容器的流体
+GT5U.machines.digitaltank.inputfromoutput.tooltip=从输出面输入流体
 GT5U.machines.select_circuit=选择机器模式
 GT5U.machines.select_circuit.tooltip=虚拟电路板槽
 GT5U.machines.select_circuit.tooltip.1=§7左键/右键/滚轮以切换编程电路
@@ -160,6 +190,15 @@ GT5U.machines.industrialapiary.infoextended.tooltip.5=寿命：%6$d %%
 GT5U.machines.industrialapiary.infoextended.tooltip.6=范围：%7$d x %8$d x %9$d
 GT5U.machines.industrialapiary.upgradeslot.tooltip=升级槽
 GT5U.machines.industrialapiary.upgradeslot.tooltip.1=§7同时兼容基因工业(gendustry)升级
+GT5U.machines.advdebugstructurewriter.tooltip=扫描周围的方块
+GT5U.machines.advdebugstructurewriter.tooltip.1=打印多方块非-方块实体结构验证码
+GT5U.machines.advdebugstructurewriter.tooltip.2=ABC轴与机器正面对齐
+GT5U.machines.advdebugstructurewriter.printed=已打印到控制台的结构
+GT5U.machines.advdebugstructurewriter.gui.origin=原点
+GT5U.machines.advdebugstructurewriter.gui.size=结构尺寸
+GT5U.machines.advdebugstructurewriter.gui.print.tooltip=打印结构
+GT5U.machines.advdebugstructurewriter.gui.highlight.tooltip=显示边框
+GT5U.machines.advdebugstructurewriter.gui.transpose.tooltip=转置
 
 GT5U.recipe_filter.representation_slot.tooltip=手持机器右键以设置过滤
 
@@ -174,14 +213,14 @@ GT5U.item.programmed_circuit.no_screwdriver.0=想要再空手编程电路板,嗯
 GT5U.item.programmed_circuit.no_screwdriver.1=你的拇指不是螺丝刀.拿个真的过来.
 GT5U.item.programmed_circuit.no_screwdriver.2=Chuck Norris可以盯着电路板,然后电路板就自己再编程了. 但你不行.
 
-GT5U.hatch.disableFilter.true=关闭输入过滤
-GT5U.hatch.disableFilter.false=开启输入过滤
-GT5U.hatch.disableMultiStack.true=关闭多组输入
-GT5U.hatch.disableMultiStack.false=开启多组输入
-GT5U.hatch.disableSort.true=关闭整理模式
-GT5U.hatch.disableSort.false=开启整理模式
-GT5U.hatch.disableLimited.true=关闭限制模式
-GT5U.hatch.disableLimited.false=开启限制模式
+GT5U.hatch.disableFilter.true=输入过滤：§c关闭§r
+GT5U.hatch.disableFilter.false=输入过滤：§a开启§r
+GT5U.hatch.disableMultiStack.true=多组输入：§c关闭§r
+GT5U.hatch.disableMultiStack.false=多组输入：§c开启§r
+GT5U.hatch.disableSort.true=整理模式：§c关闭§r
+GT5U.hatch.disableSort.false=整理模式：§c开启§r
+GT5U.hatch.disableLimited.true=限制模式：§c关闭§r
+GT5U.hatch.disableLimited.false=限制模式：§c开启§r
 GT5U.hatch.infiniteCache.true=ME输出总线将无限缓存物品，直到连接上ME网络
 GT5U.hatch.infiniteCache.false=ME输出总线离线超过2秒后将停止接收物品
 

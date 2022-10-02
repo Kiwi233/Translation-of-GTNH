@@ -11,6 +11,7 @@ nei.bookmark.toggle.tip=显示/隐藏书签页
 nei.bookmark.viewmode.toggle.tip=切换书签栏浏览模式
 
 nei.itempanel.quantity.default=一组
+nei.itempanel.loading=物品列表加载中...
 
 nei.enchant=附魔
 nei.enchant.level=等级
@@ -69,7 +70,8 @@ nei.chat.rain.on=开启雨雪
 nei.chat.rain.off=关闭雨雪
 nei.chat.time=白天 %d. %d:00
 nei.chat.give.noitem=没有此物品
-nei.chat.recipe.error=加载合成表过程中出现错误.请查看log文件获取详细信息.
+nei.chat.recipe.error=加载合成表过程中出现错误.请查看日志了解详情.
+nei.chat.render.error=渲染物品过程中出现错误.请查看日志了解详情.
 
 nei.options=NEI选项
 nei.options.back=后退
@@ -104,6 +106,8 @@ nei.options.keys.gui.hide_bookmarks=显示/隐藏书签页
 nei.options.keys.gui.overlay=提取合成表至合成栏/工作台
 nei.options.keys.gui.overlay_hide=隐藏覆盖合成表
 nei.options.keys.gui.overlay_use=使用覆盖合成表
+nei.options.keys.gui.getprevioussearch=上一个搜索
+nei.options.keys.gui.getnextsearch=下一个搜索
 nei.options.keys.world=世界
 nei.options.keys.world.chunkoverlay=区块(chunks)边界显示
 nei.options.keys.world.moboverlay=刷怪区域显示
@@ -142,6 +146,9 @@ nei.options.inventory.saveCurrentRecipeInBookmarksEnabled.false=禁用
 nei.options.inventory.useNBTInBookmarks=在书签中启用NBT
 nei.options.inventory.useNBTInBookmarks.true=是
 nei.options.inventory.useNBTInBookmarks.false=否
+nei.options.inventory.bookmarksAnimationEnabled=REI风格书签动画
+nei.options.inventory.bookmarksAnimationEnabled.true=是
+nei.options.inventory.bookmarksAnimationEnabled.false=否
 nei.options.inventory.showRecipeMarker=在书签栏显示合成产物标记
 nei.options.inventory.showRecipeMarker.true=是
 nei.options.inventory.showRecipeMarker.false=否

@@ -935,7 +935,8 @@ mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "PRIMPEARL", false);
 mods.thaumcraft.Research.setConcealed("CAP_shadowmetal", true);
 game.setLocalization("tc.research_name.CAP_shadowmetal", "\u6697\u5f71\u6756\u7aef");
 game.setLocalization("tc.research_text.CAP_shadowmetal", "\u6709\u591a\u5403\u529b?");
-mods.thaumcraft.Research.addPage("CAP_shadowmetal", "\u6839\u636e\u4f60\u5728\u865a\u7a7a\u6756\u7aef\u4e0a\u7684\u63a2\u7d22\u5fc3\u5f97,\u8fdb\u4e00\u6b65\u63d0\u5347\u8fd9\u79cd\u6756\u7aef\u4f1a\u600e\u4e48\u6837?
+mods.thaumcraft.Research.addPage("CAP_shadowmetal", "tc.research_page.CAP_shadowmetal");
+game.setLocalization("tc.research_page.CAP_shadowmetal", "\u6839\u636e\u4f60\u5728\u865a\u7a7a\u6756\u7aef\u4e0a\u7684\u63a2\u7d22\u5fc3\u5f97,\u8fdb\u4e00\u6b65\u63d0\u5347\u8fd9\u79cd\u6756\u7aef\u4f1a\u600e\u4e48\u6837?
 \u4f60\u5c1d\u8bd5\u5c06\u66f4\u591a\u7684\u865a\u7a7a\u952d,\u4e00\u4e9b\u6697\u5f71\u952d\u548c\u4e00\u9897\u5143\u59cb\u73cd\u73e0\u6ce8\u5165\u865a\u7a7a\u6756\u7aef,\u4e8b\u5b9e\u8bc1\u660e\u4f60\u7684\u60f3\u6cd5\u975e\u5e38\u6210\u529f.
 \u6697\u5f71\u6756\u7aef\u4f3c\u4e4e\u80fd\u5341\u5206\u6709\u6548\u5730\u8282\u7701\u9b54\u529b,\u5bf9\u6240\u6709\u9b54\u529b\u90fd\u670930%\u7684\u51cf\u514d.");
 mods.thaumcraft.Infusion.addRecipe("CAP_shadowmetal", <Thaumcraft:ItemEldritchObject:3>,

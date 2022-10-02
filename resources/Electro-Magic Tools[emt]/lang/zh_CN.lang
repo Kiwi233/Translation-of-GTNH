@@ -43,6 +43,7 @@ tooltip.EMT.output.double.nether=处于下界时发电量
 tooltip.EMT.output.double.lava=每秒供给0.01vis火之要素时发电量
 tooltip.EMT.output.double.half.height=位置越高发电量越高(y=5时1倍，y=220时3倍)
 tooltip.EMT.output.double.half.low=位置越低发电量越高(y=220时1倍，y=5时3倍)
+tooltip.EMT.draconicSchematic=可在冥王星地牢找到相关图纸
 
 #=============Entity Names=============
 entity.EMT.laser.name=镭射器
@@ -184,12 +185,12 @@ EMT_GTBLOCK_CASEING.2.name=铱锇魔法框架
 EMT_GTBLOCK_CASEING.3.name=铟钨魔法框架
 EMT_GTBLOCK_CASEING.4.name=源质扩散单元半成品
 EMT_GTBLOCK_CASEING.5.name=魔法机械方块半成品
-EMT_GTBLOCK_CASEING.7.name=硅岩合金聚变机械方块
-EMT_GTBLOCK_CASEING.8.name=血腥灵宝聚变机械方块
-EMT_GTBLOCK_CASEING.9.name=龙聚变机械方块
-EMT_GTBLOCK_CASEING.10.name=双足飞龙聚变机械方块
-EMT_GTBLOCK_CASEING.11.name=觉醒龙聚变机械方块
-EMT_GTBLOCK_CASEING.12.name=混沌聚变机械方块
+EMT_GTBLOCK_CASEING.7.name=硅岩合金聚合机械方块
+EMT_GTBLOCK_CASEING.8.name=血腥灵宝聚合机械方块
+EMT_GTBLOCK_CASEING.9.name=龙锭聚合机械方块
+EMT_GTBLOCK_CASEING.10.name=双足飞龙聚合机械方块
+EMT_GTBLOCK_CASEING.11.name=觉醒龙聚合机械方块
+EMT_GTBLOCK_CASEING.12.name=混沌聚合机械方块
 
 #=============Thaumonomicon Texts=============
 emt.rsname.Electric Magic Tools=电力魔法工具

@@ -26,13 +26,22 @@ item.structurelib.constructableTrigger.desc.1=显示多方块结构全息投影,
 item.structurelib.constructableTrigger.desc.2=请对多方块控制器使用.
 item.structurelib.constructableTrigger.desc.3=(潜行右键控制器方块可直接构造)
 item.structurelib.constructableTrigger.desc.4=堆叠数量影响等级/模式/类型
-item.structurelib.constructableTrigger.too_fast=请等待 %d t，再进行下一次自动构造...
+item.structurelib.constructableTrigger.desc.5=按住 §l[LSHIFT]§r 以显示信道数据
+item.structurelib.constructableTrigger.desc.lshift.0=包含%d个子信道.
+item.structurelib.constructableTrigger.too_fast=请等待 %d 毫秒，再进行下一次自动构造...
+item.structurelib.constructableTrigger.gui.key=信道名:
+item.structurelib.constructableTrigger.gui.value=值:
+item.structurelib.constructableTrigger.gui.add=添加
+item.structurelib.constructableTrigger.gui.set=替换
+item.structurelib.constructableTrigger.gui.unset=删除
+item.structurelib.constructableTrigger.gui.wipe=§4全部清空
 
 structurelib.autoplace.built_stat=已放置 %s 个方块
 structurelib.autoplace.complete=§a此多方块机器已构造完成!
 structurelib.autoplace.error.not_enabled=§c此多方块机器不支持生存模式自动构造!
-structurelib.autoplace.error.no_simple_block=§c建议放置 §r%s§c ,但未在物品栏中找到
-structurelib.autoplace.error.no_item_stack=§c建议使用 §r%s§c 放置方块,但未在物品栏中找到
+structurelib.autoplace.error.no_simple_block=§c建议放置 §r%s§c ,但未在库存中找到
+structurelib.autoplace.error.no_item_stack=§c建议使用 §r%s§c 放置方块,但未在库存中找到
+structurelib.autoplace.warning.no_explicit_channel=§6本结构依赖于不存在的子信道 §r%s§6. 已使用主信道替代.
 
 structurelib.blockhint.desc.0=帮助构建多方块机器
 structurelib.blockhint.0.name=提示方块：1号

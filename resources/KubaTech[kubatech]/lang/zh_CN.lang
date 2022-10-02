@@ -12,6 +12,8 @@ mobhandler.mod=Mod:
 mobhandler.max_health=最大生命值：
 mobhandler.chance=几率：
 mobhandler.average_reminder=§7§o请注意，这些是掉落的平均期望值.
+mobhandler.lootable=掠夺附魔已生效
+mobhandler.player_only=§7不在工业屠宰场内掉落
 
 #Commands
 commandhandler.invalid=§c无效使用 ! 该指令的正确使用是 /%s
@@ -23,3 +25,78 @@ command.help.usage=- 显示所有可能的指令
 command.config.invalid_option=§c无效选项 ! 可能的选项：reload
 command.config.success=§a配置(Config)重新加载成功 !
 command.config.usage=<选项>
+
+#Items
+kubaitem.fromcollection=此物品来自
+kubaitem.notyours=那东西好像不是你的
+
+#Tea
+kubaitem.tea.black_tea.name=红茶
+kubaitem.tea.earl_gray_tea.name=格雷伯爵茶
+kubaitem.tea.green_tea.name=绿茶
+kubaitem.tea.lemon_tea.name=柠檬茶
+kubaitem.tea.milk_tea.name=奶茶
+kubaitem.tea.oolong_tea.name=乌龙茶
+kubaitem.tea.peppermint_tea.name=薄荷茶
+kubaitem.tea.pu-erh_tea.name=普洱茶
+kubaitem.tea.white_tea.name=白茶
+kubaitem.tea.yellow_tea.name=黄茶
+kubaitem.teaingredient.black_tea_leaf.name=红茶叶
+kubaitem.teaingredient.green_tea_leaf.name=绿茶叶
+kubaitem.teaingredient.oolong_tea_leaf.name=乌龙茶叶
+kubaitem.teaingredient.pu-erh_tea_leaf.name=普洱茶叶
+kubaitem.teaingredient.white_tea_leaf.name=白茶叶
+kubaitem.teaingredient.yellow_tea_leaf.name=黄茶叶
+kubaitem.teaingredient.tea_leaf_dehydrated.name=脱水茶叶
+kubaitem.teaingredient.steamed_tea_leaf.name=蒸制茶叶
+kubaitem.teaingredient.rolled_tea_leaf.name=揉制茶叶
+kubaitem.teaingredient.oxidized_tea_leaf.name=氧化茶叶
+kubaitem.teaingredient.fermented_tea_leaf.name=发酵茶叶
+kubaitem.teaingredient.bruised_tea_leaf.name=揉伤茶叶
+kubaitem.teaingredient.partially_oxidized_tea_leaf.name=部分氧化茶叶
+
+#Legendary Tea collection
+kubaitem.teacollection=传奇秘制茶系列
+kubaitem.teacollection.mmm=Mmmm茶
+kubaitem.teacollection.black_tea.name=§6§lKuba红茶
+kubaitem.teacollection.butterfly_tea.name=§1§lKuba蝶豆花茶
+kubaitem.teacollection.earl_gray_tea.name=§6§lKuba格雷伯爵茶
+kubaitem.teacollection.green_tea.name=§2§lKuba绿茶
+kubaitem.teacollection.lemon_tea.name=§e§lKuba柠檬茶
+kubaitem.teacollection.milk_tea.name=§f§lKuba奶茶
+kubaitem.teacollection.oolong_tea.name=§e§lKuba乌龙茶
+kubaitem.teacollection.peppermint_tea.name=§a§lKuba薄荷茶
+kubaitem.teacollection.pu-erh_tea.name=§4§lKuba普洱茶
+kubaitem.teacollection.red_tea.name=§c§lKuba洛神花茶
+kubaitem.teacollection.white_tea.name=§e§lKuba白茶
+kubaitem.teacollection.yellow_tea.name=§6§lKuba黄茶
+kubaitem.teacollection.ultimate_tea.name=§6§lKuba%s §6§l茶
+
+#Achievements
+achievement.teacollection.black_tea=§6§lKuba红茶
+achievement.teacollection.butterfly_tea=§1§lKuba蝶豆花茶
+achievement.teacollection.earl_gray_tea=§6§lKuba格雷伯爵茶
+achievement.teacollection.green_tea=§2§lKuba绿茶
+achievement.teacollection.lemon_tea=§e§lKuba柠檬茶
+achievement.teacollection.milk_tea=§f§lKuba奶茶
+achievement.teacollection.oolong_tea=§e§lKuba乌龙茶
+achievement.teacollection.peppermint_tea=§a§lKuba薄荷茶
+achievement.teacollection.pu-erh_tea=§4§lKuba普洱茶
+achievement.teacollection.red_tea=§c§lKuba洛神花茶
+achievement.teacollection.white_tea=§e§lKuba白茶
+achievement.teacollection.yellow_tea=§6§lKuba黄茶
+achievement.teacollection.ultimate_tea=§4§l§k??????
+
+achievement.teacollection.black_tea.desc=§6最常见也最受欢迎的茶
+achievement.teacollection.butterfly_tea.desc=§1甚至不是茶
+achievement.teacollection.earl_gray_tea.desc=§6为真正的英国人准备
+achievement.teacollection.green_tea.desc=§2万茶之源
+achievement.teacollection.lemon_tea.desc=§e带柠檬的红茶，你在期待什么？
+achievement.teacollection.milk_tea.desc=§f奶与红茶的结合，我的最爱
+achievement.teacollection.oolong_tea.desc=§e對於真正的鑑賞家
+achievement.teacollection.peppermint_tea.desc=§a可以养胃
+achievement.teacollection.pu-erh_tea.desc=§4助消化，味道也像泥土
+achievement.teacollection.red_tea.desc=§c为什么会有人喝这个？
+achievement.teacollection.white_tea.desc=§e最健康的一款
+achievement.teacollection.yellow_tea.desc=§6青草味更浓的绿茶
+achievement.teacollection.ultimate_tea.desc=§4§l一茶饮尽

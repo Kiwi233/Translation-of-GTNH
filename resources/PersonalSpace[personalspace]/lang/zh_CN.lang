@@ -1,8 +1,9 @@
+tile.air.name=空气
 tile.personalSpacePortal.name=私人维度传送门
 tile.personalSpacePortalLegacy.name=继承私人维度传送门(UtilityWorlds迁移)
 
 chat.overworldPersonalDimension=私人维度只能在主世界创建
-/chat.personalWorld.created=成功创建私人维度!
+chat.personalWorld.created=成功创建私人维度!
 chat.personalWorld.updated=成功更新私人维度!
 chat.personalWorld.relinked=传送门成功连接维度 %d
 chat.personalWorld.relinked.error=传送门未连接,可能导致无法访问维度.
@@ -22,6 +23,13 @@ gui.personalWorld.starBrightness=星空亮度
 gui.personalWorld.vegetation=植被
 gui.personalWorld.trees=树木
 gui.personalWorld.weather=天气
+gui.personalWorld.clouds=云
+
+gui.personalWorld.invalidSyntax=无效语法
+gui.personalWorld.notAllowed=服务器配置不允许
+
+gui.personalWorld.skyType.VANILLA=原版天空
+gui.personalWorld.skyType.BARNADA_C=巴纳德C天空
 
 commands.pspace.usage=/pspace (give-portal <玩家> <维度> [X] [Y] [Z])|(tpx <玩家> <维度> [X Y Z])|(ls)|(where <玩家>)|(allow-worldgen-change <维度>)
 commands.pspace.badDimension=指定维度不存在
