@@ -1706,15 +1706,11 @@ gtnh.quest425.desc=仪式的必需品. 制作仪式推测杖,你就能更方便�
 
 # Quest.426 - Sacrificial Runes
 gtnh.quest426.name=牺牲/献祭符文
-// --- //gtnh.quest426.desc=戳你自己的手指产生的血液可能适用于简单的石板和符文,但为高级东西获得足够的血液是乏味的. 使用牺牲/献祭符文,你可以增加从你自己或怪物身上获得的血液.%n%n每个符文加法叠加百分之10的收益.
-// +++ //gtnh.quest426.desc=Poking your finger might work for simple slates and runes, but getting enough blood for advanced stuff is tedious. With sacrificial runes you are able to increase the blood gain from mobs or yourself.%n%nThese increase the blood gain by 12% additively for each rune.
-// ↑↑↑ //gtnh.quest426.desc=Poking your finger might work for simple slates and runes, but getting enough blood for advanced stuff is tedious. With sacrificial runes you are able to increase the blood gain from mobs or yourself.%n%nThese increase the blood gain by 10% additively for each rune.
+gtnh.quest426.desc=戳你自己的手指产生的血液可能适用于简单的石板和符文,但为高级东西获得足够的血液是乏味的. 使用牺牲/献祭符文,你可以增加从你自己或怪物身上获得的血液.%n%n每个符文加法叠加12％的收益.
 
 # Quest.427 - Tier 3 Runes
 gtnh.quest427.name=3阶符文
-// --- //gtnh.quest427.desc=第一种符文,每个乘法叠加百分之20的祭坛输入/出缓存; 第二种符文,每个可以增加2000L祭坛容量.这种符文也可以增加输入/出缓存,表现为祭坛容量的百分之10.
-// +++ //gtnh.quest427.desc=The first rune increases the I/O from the altar's buffer by a multiplicative 50% rate, and the second increases your altar's capacity by 3500L. This also increases the size of the I/O buffer, which is always 10% of the altar.
-// ↑↑↑ //gtnh.quest427.desc=The first rune increases the I/O from the altar's buffer by a multiplicative 20% rate, and the second increases your altar's capacity by 2000L. This also increases the size of the I/O buffer, which is always 10% of the altar.
+gtnh.quest427.desc=第一种符文,每个乘法叠加50％的祭坛输入/出缓存; 第二种符文,每个可以增加3500L祭坛容量.这种符文也可以增加输入/出缓存,表现为祭坛容量的10％.
 
 # Quest.428 - Rituals Made Easy
 gtnh.quest428.name=仪式让生活更美好
@@ -1738,7 +1734,7 @@ gtnh.quest432.desc=钻石和绿宝石的存储能力有限. 有了这把剑,你�
 
 # Quest.433 - Rituals
 gtnh.quest433.name=仪式
-gtnh.quest433.desc=是时候进行些仪式了. 你可能首先构造最基础的绑定仪式.%n%n在这些纷繁复杂、多种多样的仪式中,某些是有用的,某些是辣鸡.%n%n这里列举了一些你可能会关心的仪式:%n下界夜曲(Serenade of the Nether): 要是你不喜欢炼狱之壶的话,这是个不错的替代品;%n炼金之谣(Ballad of Alchemy): 自动炼金;%n苦难之井(Well of Suffering): 自动化血液收集系统;坠星标位(Mark of the Falling Tower):根据投入物品不同,召唤4种陨星(译者注: 溅射范围非常大,建议离自己家越远越好);%n恶魔入侵(Convocation of the Damned): 6阶祭坛、以及各种终极物品所需.
+gtnh.quest433.desc=是时候进行些仪式了. 你可能首先构造最基础的绑定仪式.%n%n在这些纷繁复杂、多种多样的仪式中,某些是有用的,某些是辣鸡.%n%n这里列举了一些你可能会关心的仪式:%n下界夜曲(Serenade of the Nether): 要是你不喜欢炼狱之壶的话,这是个不错的替代品;%n炼金之谣(Ballad of Alchemy): 自动炼金;%n苦难之井(Well of Suffering): 自动化血液收集系统;%n陨星仪式(Mark of the Falling Tower):根据投入物品不同,召唤38种陨星(译者注：溅射范围非常大,建议离自己家越远越好);%n恶魔入侵(Convocation of the Damned): 6阶祭坛、以及各种终极物品所需.
 
 # Quest.434 - Bound Tools: Pickaxe
 gtnh.quest434.name=约束工具:镐
@@ -1858,9 +1854,7 @@ gtnh.quest462.desc=双足飞龙是少见的以两条腿走路的龙.肯定更加
 
 # Quest.463 - Runes Tier 2
 gtnh.quest463.name=2阶符文
-// --- //gtnh.quest463.desc=速度符文是唯一的2阶符文. 顾名思义,每个速度符文可加法叠加20％的血之祭坛处理速度.%n%n但是,这种符文会使实际制作物品更加困难,所以在使用此符文前,请确认自己能否制作这种物品.
-// +++ //gtnh.quest463.desc=The speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 25% increase to the processing speed of the blood altar.%n%nHOWEVER, this makes it much more difficult to actually craft anything, so don't use them unless you're sure you can craft the item.
-// ↑↑↑ //gtnh.quest463.desc=The speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 20% increase to the processing speed of the blood altar.%n%nHOWEVER, this makes it much more difficult to actually craft anything, so don't use them unless you're sure you can craft the item.
+gtnh.quest463.desc=速度符文是唯一的2阶符文. 顾名思义,每个速度符文可加法叠加25％的血之祭坛处理速度.%n%n但是,这种符文会使实际制作物品更加困难,所以在使用此符文前,请确认自己能否制作这种物品.
 
 # Quest.464 - Draconic Core
 gtnh.quest464.name=龙芯
@@ -2848,9 +2842,7 @@ gtnh.quest709.desc=强化过的元素粉笔,可以用来书写一些比你习惯
 
 # Quest.710 - Tier 4 Runes
 gtnh.quest710.name=4阶符文
-// --- //gtnh.quest710.desc=每个超容符文可以乘法叠加10％血之祭坛的容量.当增容符文超过14个之后,使用超容符文将更有效率.%n%n每个宝珠符文可以增加4％的灵魂网络容量,你将在之后用到它的.
-// +++ //gtnh.quest710.desc=Runes of Superior Capacity increase the Altar's size by 14% multiplicatively.%n%nRunes of the Orb increase the soul network size by 4% each. You'll need them later on.
-// ↑↑↑ //gtnh.quest710.desc=Runes of Superior Capacity increase the Altar's size by 10% multiplicatively. If you have more than 14 of the lesser versions, it's more efficient to use these.%n%nRunes of the Orb increase the soul network size by 2% each. You'll need them later on.
+gtnh.quest710.desc=每个超容符文可以乘法叠加14％血之祭坛的容量.%n%n每个宝珠符文可以增加4％的灵魂网络容量,你将在之后用到它的.
 
 # Quest.711 - Tier 5 Runes
 gtnh.quest711.name=5阶符文
@@ -7710,9 +7702,7 @@ gtnh.quest1924.desc=为真正的用电狂人准备,可将16A降压变为64A的�
 
 # Quest.1925 - §a§lWhat's in the Box?
 gtnh.quest1925.name=§a§l这盒子里有什么?
-// --- //gtnh.quest1925.desc=厌倦了揣着一兜镭等待大约7小时衰变?有了这个铅封盒,你就能将镭和别的材料放进去,它们会自己衰变,同时你就能干点别的了.%n%n§3你可能无法通过shift+单击快速存入或取出物品,但管道仍可工作.使用一个过滤器即可自动化整个过程.
-// +++ //gtnh.quest1925.desc=Tired of waiting around for hours with radium in your inventory, waiting for it to decay? With a lead-lined box you can safely leave your radium in it and it'll decay while you do real work.%n%n§3You may not be able to shift click items in and out, but pipes still work. You can not use a WA.
-// ↑↑↑ //gtnh.quest1925.desc=Tired of waiting around for hours with radium in your inventory, waiting for it to decay? With a lead-lined box you can safely leave your radium in it and it'll decay while you do real work.%n%n§3You may not be able to shift click items in and out, but pipes still work. You can also WA the box if you hate waiting.
+gtnh.quest1925.desc=厌倦了揣着一兜镭等待大约7小时衰变?有了这个铅封盒,你就能将镭和别的材料放进去,它们会自己衰变,同时你就能干点别的了.%n%n§3你可能无法通过shift+单击快速存入或取出物品,但管道仍可工作.使用一个过滤器即可自动化整个过程.(不能用世界加速器)
 
 # Quest.1926 - §2§lA Quicker Way to Get Around
 gtnh.quest1926.name=§2§l一种更快捷的出行方式
@@ -7724,9 +7714,7 @@ gtnh.quest1927.desc=凋灵甘蔗(Withereed)是煤的一种来源,更重要的是
 
 # Quest.1928 - Son of Odin One-Eye
 gtnh.quest1928.name=独眼奥丁之子
-// --- //gtnh.quest1928.desc=雷神之草(God-of-Thunder-plant)可将你从下界获得的钍矿石增产到4倍. 它还可以用来培育核能草(Reactoria).
-// +++ //gtnh.quest1928.desc=The God of Thunder crop lets you increase your Thorium ore from the Nether to 4x. It also will give you Uranium you can use for Reactoria crops.
-// ↑↑↑ //gtnh.quest1928.desc=The God of Thunder crop lets you increase your Thorium ore from the Nether by 4x. It also will give you Uranium you can use for Reactoria crops.
+gtnh.quest1928.desc=雷神之草(God-of-Thunder-plant)可将你从下界获得的钍矿石增产到4倍. 它还可以用来培育核能草(Reactoria).
 
 # Quest.1929 - Just Cover Your Privates When You Walk By
 gtnh.quest1929.name=经过时把你的隐私藏好
@@ -7754,9 +7742,7 @@ gtnh.quest1934.desc=花一些农民币,我会卖给你一些棉花和线.恰好�
 
 # Quest.1935 - A Better Chisel
 gtnh.quest1935.name=更好的凿子
-// --- //gtnh.quest1935.desc=如果你想装饰你的基地,你就需要一把更好的凿子.  黑曜石凿子比起铁凿子来说一个顶俩.钻石凿子能打十个,但需要LV切割机才能制作.%n%n普通:256%n黑曜石:512%n钻石:2560%n基岩:32767%n%n显然,越硬的材质越耐用.
-// +++ //gtnh.quest1935.desc=If you want to decorate your base, you're going to need a better chisel.%n%nNormal: 256%nObsidian: 512%nDiamond: 2560%nBedrockium: 32767%n%nThey obviously get harder to make the longer they last.
-// ↑↑↑ //gtnh.quest1935.desc=If you want to decorate your base, you're going to need a better chisel.%n%nNormal: 256%nObsidian: 512%nDiamond: 2560%nNether Star: 32767%n%nThey obviously get harder to make the longer they last.
+gtnh.quest1935.desc=如果你想装饰你的基地,你就需要一把更好的凿子.  黑曜石凿子比起铁凿子来说一个顶俩.钻石凿子能打十个,但需要LV切割机才能制作.%n%n普通:256%n黑曜石:512%n钻石:2560%n基岩:32767%n%n显然,越硬的材质越耐用.
 
 # Quest.1936 - The Right Tool for the Job
 gtnh.quest1936.name=合适的工具
@@ -8136,9 +8122,7 @@ gtnh.quest2029.desc=成百上千玻璃的最佳来源...要这些做什么呢?�
 
 # Quest.2030 - Bate Bate Chocolate
 gtnh.quest2030.name=搅拌/搅拌/巧克力
-// --- //gtnh.quest2030.desc=奶奶,你能教我们巧克力之歌吗?%n乐意之至!%n你会跟我们一起唱巧克力之歌吗?%n太棒了,跟着奶奶一起唱!%n%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n%n搅拌好吃的巧克力,巧克力%n搅拌好吃的巧克力,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n%n现在不再需要单元了,好耶!%n%n§3这台多方块机器可以在IV阶段制造.%n%n译者注:《搅拌,搅拌,巧克力》(Bate-Bate-Chocolate)是墨西哥传统儿歌.任务书原文歌词部分均为西班牙文.
-// +++ //gtnh.quest2030.desc=Abuela, will you teach us the chocolate song?%nCon mucho gusto%nWill you sing the chocolate song with us?%nGreat, sing along with Abuela!%n%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%n%nMix your chocolate, chocolate%nMix your chocolate, chocolate%nBate bate chocolate%nBate bate chocolate%n%n§3This multi is IV.
-// ↑↑↑ //gtnh.quest2030.desc=Abuela, will you teach us the chocolate song?%nCon mucho gusto%nWill you sing the chocolate song with us?%nGreat, sing along with Abuela!%n%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%nBate bate chocolate%n%nMix your chocolate, chocolate%nMix your chocolate, chocolate%nBate bate chocolate%nBate bate chocolate%n%nRecipes that use cells still need them sadly.%n%n§3This multi is IV.
+gtnh.quest2030.desc=奶奶,你能教我们巧克力之歌吗?%n乐意之至!%n你会跟我们一起唱巧克力之歌吗?%n太棒了,跟着奶奶一起唱!%n%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n%n搅拌好吃的巧克力,巧克力%n搅拌好吃的巧克力,巧克力%n搅拌,搅拌,巧克力%n搅拌,搅拌,巧克力%n%n现在不再需要单元了,好耶!%n%n§3这台多方块机器可以在IV阶段制造.%n%n译者注:《搅拌,搅拌,巧克力》(Bate-Bate-Chocolate)是墨西哥传统儿歌.任务书原文歌词部分均为西班牙文.
 
 # Quest.2031 - Play doh for big girls and boys
 gtnh.quest2031.name=大男孩大女孩的大玩具
@@ -8150,9 +8134,7 @@ gtnh.quest2032.desc=当你有了一台装满了小刀的机器,你看啥都像�
 
 # Quest.2033 - A 9 in 1 machine, what a steal!
 gtnh.quest2033.name=九合一,这是作弊!
-// --- //gtnh.quest2033.desc=这台机器有3个模式,能够实现9种不太常用的机器功能.%n%n通过对控制器使用螺丝刀切换这3种模式.每个模式可以支持3种不同机器功能,通过输入总线中的电路板区分.如果你看过NEI中控制器的tooltip,你就会知道每种模式支持的机器类型.使用电路板20,21,22区分同种模式下的不同机器类型.这也意味着你可以使用多个输入总线,每个总线根据需要选择电路板,将这台机器的全部潜力开发出来.你还可以将配方中不消耗的物品放入不同输入总线中实现不同配方.%n%n译者注:非常适合激光蚀刻机.另外,如果使用多输入总线的话,一定要保证每个总线中都有电路板,否则机器不会运行...%n%n§3这台多方块机器可以在IV阶段制造,但需要钍-232还有一堆不便宜的电路板.
-// +++ //gtnh.quest2033.desc=This machine has 3 modes, capable of emulating 9 of the less common machines.%n%nThe 3 general modes are cycled by using a screwdriver on the controller. Each of the modes can support 3 different machines selected by putting a circuit into the same input bus as the items you want to process. If you have a look at the description of the controller in NEI, you will see a list of the supported machines for each mode. These are in order and can be used with circuit numbers 20, 21 and 22. This also means that you can use multiple input busses with different circuits to use the full potential of the machine. You can also use more busses to use different non-consumable items in the recipes. You can only fluid solidify one shape per machine though.%n%n§3This multi is IV, but uses Thorium 232, and a bunch of valuable circuits.
-// ↑↑↑ //gtnh.quest2033.desc=This machine has 3 modes, capable of emulating 9 of the less common machines.%n%nThe 3 general modes are cycled by using a screwdriver on the controller. Each of the modes can support 2 or 3 different machine selected by putting a circuit into the same input bus as the items you want to process. If you have a look at the description of the controller in NEI, you will see a list of the supported machines for each mode. These are in order and can be used with circuit numbers 20, 21 and 22. This also means that you can use multiple input busses with different circuits to use the full potential of the machine. You can also use more busses to use different non-consumable items in the recipes. You can only fluid solidify one shape per machine though.%n%n§3This multi is IV, but uses Thorium 232, and a bunch of valuable circuits.
+gtnh.quest2033.desc=这台机器有3个模式,能够实现9种不太常用的机器功能.%n%n通过对控制器使用螺丝刀切换这3种模式.每种模式可以支持3种不同机器的功能,通过输入总线中的电路板区分.如果你看过NEI中控制器的tooltip,你就会知道每种模式支持的机器类型.使用电路板20,21,22区分同种模式下的不同机器类型.这也意味着你可以使用多个输入总线,每个总线根据需要选择电路板,将这台机器的全部潜力开发出来.你还可以将配方中不消耗的物品放入不同输入总线中实现不同配方.%n%n译者注:非常适合激光蚀刻机.另外,如果使用多输入总线的话,一定要保证每个总线中都有电路板,否则机器不会运行...%n%n§3这台多方块机器可以在IV阶段制造,但需要钍-232还有一堆不便宜的电路板.
 
 # Quest.2034 - ZzzZZZzzzZtt
 gtnh.quest2034.name=嗞...嗞...嗞...
@@ -8160,9 +8142,7 @@ gtnh.quest2034.desc=需要大量的氧和氢,或是只是想要电解材料获�
 
 # Quest.2035 - Frozen Stiff
 gtnh.quest2035.name=冻僵了...
-// --- //gtnh.quest2035.desc=我好冷啊...想要正常使用这台机器,你需要给它持续供应极寒之凛冰.%n%n§3这台多方块机器可以在LuV阶段制造.
-// +++ //gtnh.quest2035.desc=I'm so cold... You'll need a constant supply of Cryotheum to use it.%n%n§3This multi is LuV.
-// ↑↑↑ //gtnh.quest2035.desc=I'm so cold... You'll need a constant supply of Crysotheum to use it. You can also do recipes without cells now.%n%n§3This multi is LuV.
+gtnh.quest2035.desc=我好冷啊...想要正常使用这台机器,你需要给它持续供应极寒之凛冰.%n%n§3这台多方块机器可以在LuV阶段制造.
 
 # Quest.2036 - Forge of the Gods
 gtnh.quest2036.name=上帝的锻造台
@@ -8238,9 +8218,7 @@ gtnh.quest2053.desc=为了生物柴油,很长一段时间里,你都用鱼笼捕�
 
 # Quest.2054 - Putting all those workers out of jobs
 gtnh.quest2054.name=把所有工人赶出工作岗位
-// --- //gtnh.quest2054.desc=大规模自动装配机可以为你组装大量的物品. 它将组装机、拆解机和自动合成机的功能集成到了一起.%n%n§3这台多方块机器可以在ZPM阶段制造,在此之前,打消跳科技的念头吧.%n%n译者注:只有组装机模式能用,后两种都是坏的...
-// +++ //gtnh.quest2054.desc=The large scale auto-assembler will put things together for you, in volume. It is designed to be an Assembler, Disassembler, and Autocrafter all in one. However, at the moment only the assembler is usable. This multi is available in ZPM. %n%n§3While it unlocks much later, has much fewer parallels, and has no TT energy hatch support in contrast to the Precise Assembler, it has one upside: If you use two energy hatches you can craft items of the next tier.
-// ↑↑↑ //gtnh.quest2054.desc=The large scale auto-assembler will put things together for you, in volume. It is an Assembler, Disassembler, and Autocrafter all in one.%n%n§3This multi is ZPM, so you can't tierskip stuff until then.
+gtnh.quest2054.desc=大规模自动装配机可以为你组装大量的物品. 它的设计初衷是将组装机、拆解机和自动合成机的功能集成到一起.但是,目前只有组装机模式可用%n%n§3这台多方块机器可以在ZPM阶段制造.%n%n§3虽说相比精密组装机,它有许多缺点,比方说解锁时间晚、并行不高、不支持TecTech能源仓;不过有一点是它的优势:它支持双能源仓升压,合成下一阶段的物品.
 
 # Quest.2055 - Better Fermenter Outputs
 gtnh.quest2055.name=更好的发酵产出
@@ -8496,9 +8474,7 @@ gtnh.quest2117.desc=在存储栏里放小麦就可以让牛背包产生牛奶.�
 
 # Quest.2118 - Here There be Dragons
 gtnh.quest2118.name=化身巨龙
-// --- //gtnh.quest2118.desc=龙背包给予你火焰保护、力量、夜视和生命回复效果.%n%n§3它的功能的确很强大,但它也会消耗一个龙蛋,所以请确定你真的需要它,或者你有把握再做个龙蛋.
-// +++ //gtnh.quest2118.desc=The Dragon backpack gives you Fire Resistance, Strength, Night Vision and Regeneration.%n%n§3It may be really good, but also uses up a dragon egg, so be sure you want it, or can craft another.
-// ↑↑↑ //gtnh.quest2118.desc=The Dragon backpack gives you Fire Resistance, Strength, Water Breathing, Night Vision and Regeneration.%n%n§3It may be really good, but also uses up a dragon egg, so be sure you want it, or can craft another.
+gtnh.quest2118.desc=龙背包给予你火焰保护、力量、夜视和生命回复效果.%n%n§3它的功能的确很强大,但它也会消耗一个龙蛋,所以请确定你真的需要它,或者你有把握再做个龙蛋.
 
 # Quest.2119 - Smart cables
 gtnh.quest2119.name=智能线缆
@@ -8946,7 +8922,7 @@ gtnh.quest2229.desc=精神蜂是第一种可以为你生产灵魂蜂窝的蜜蜂
 
 # Quest.2230 - Soul
 gtnh.quest2230.name=魂魄蜂
-gtnh.quest2230.desc=魂魄蜂有最高的灵魂蜂窝生产率,百分之二十.由感知蜂和精神蜂杂交培育而来.
+gtnh.quest2230.desc=魂魄蜂有最高的灵魂蜂窝生产率(20％).由感知蜂和精神蜂杂交培育而来.
 
 # Quest.2231 - Chaotic
 gtnh.quest2231.name=朴实蜂
@@ -9066,7 +9042,7 @@ gtnh.quest2259.desc=厌倦了扭曲招来的成千上万的蝙蝠在你耳边尖
 
 # Quest.2260 - Better boots with a little pizzazz
 gtnh.quest2260.name=更炫酷的靴子
-gtnh.quest2260.desc=电子旅行者之靴有百分之二的魔力减免,以及普通旅行者之靴的所有优点.
+gtnh.quest2260.desc=电子旅行者之靴有2％的魔力减免,以及普通旅行者之靴的所有优点.
 
 # Quest.2261 - Walk all over you
 gtnh.quest2261.name=为所欲为
@@ -9722,7 +9698,7 @@ gtnh.quest2423.desc=接下来,我们需要将一些小动物填入做好的陷�
 
 # Quest.2424 - Finally Binding a Familiar
 gtnh.quest2424.name=最后,绑定爱宠
-gtnh.quest2424.desc=现在你有了蟾蜍和猫头鹰,除此之外你还可以选择猫作为你的爱宠. 为啥我们不直接绑定猫,还费了半天搞出蟾蜍和猫头鹰呢? 其实,无论如何你都会用到这两种生物的,而且谁不喜欢能有多种选择呢? 想要进行绑定仪式(圆环法阵第6页),你需要蒸馏出一些恶魔之血. 现在就做,顺便把剩下所需的物品都准备好.%n%n准备完毕后,再确认一下祭坛有足够的能量,你就能开始绑定仪式了. 你要知道不同爱宠能为你提供不同的增益. 查看官方wiki获取详细信息.%n%n译者注:%n猫爱宠增益:%n提升诅咒仪式威力,移除诅咒更轻松. 使玩家能进行腐化娃娃之咒仪式、能酿造诅咒跳跃之酿.%n%n猫头鹰爱宠增益:%n提升魔法扫帚的操控性. 使玩家能酿造鹰击之酿%n%n蟾蜍爱宠增益:%n酿造装瓶时有百分之五几率多获得一瓶药水(可与其他提升几率效果叠加),稍微扩大巫术药水有效范围(对亡灵药水或其他爱宠专属药水无效). 使玩家能酿造青蛙舌头之酿.%n%n爱宠具有50点生命和5点护甲,而爱宠与主人之间有灵魂锁链,因此在主人附近的爱宠能分担10％主人的伤害,如果距离过远的话只能分担1％的伤害(反之亦然,爱宠受到的伤害也会部分转移到主人身上,所以最好把它留在安全的地方). 另外需要注意的是,如果爱宠死亡,主人也会死亡(大概). 你可以通过圆环法阵第52页的爱宠召唤仪式重新召唤死亡或者遣散状态的爱宠. 如果你在极限模式下,不想因为爱宠而承受死亡的风险,可以在潜行状态下右键坐着的爱宠,即可将爱宠遣散. 译者注:遣散状态下的爱宠不会为玩家提供增益.%n%n现在去谋杀一些你的新朋友吧,撕下小毛头鹰之翼,剁下青蛙趾. 记得用仪祭匕首哦. 下一步需要先知之石.
+gtnh.quest2424.desc=现在你有了蟾蜍和猫头鹰,除此之外你还可以选择猫作为你的爱宠. 为啥我们不直接绑定猫,还费了半天搞出蟾蜍和猫头鹰呢? 其实,无论如何你都会用到这两种生物的,而且谁不喜欢能有多种选择呢? 想要进行绑定仪式(圆环法阵第6页),你需要蒸馏出一些恶魔之血. 现在就做,顺便把剩下所需的物品都准备好.%n%n准备完毕后,再确认一下祭坛有足够的能量,你就能开始绑定仪式了. 你要知道不同爱宠能为你提供不同的增益. 查看官方wiki获取详细信息.%n%n译者注:%n猫爱宠增益:%n提升诅咒仪式威力,移除诅咒更轻松. 使玩家能进行腐化娃娃之咒仪式、能酿造诅咒跳跃之酿.%n%n猫头鹰爱宠增益:%n提升魔法扫帚的操控性. 使玩家能酿造鹰击之酿%n%n蟾蜍爱宠增益:%n酿造装瓶时有5％几率多获得一瓶药水(可与其他提升几率效果叠加),稍微扩大巫术药水有效范围(对亡灵药水或其他爱宠专属药水无效). 使玩家能酿造青蛙舌头之酿.%n%n爱宠具有50点生命和5点护甲,而爱宠与主人之间有灵魂锁链,因此在主人附近的爱宠能分担10％主人的伤害,如果距离过远的话只能分担1％的伤害(反之亦然,爱宠受到的伤害也会部分转移到主人身上,所以最好把它留在安全的地方). 另外需要注意的是,如果爱宠死亡,主人也会死亡(大概). 你可以通过圆环法阵第52页的爱宠召唤仪式重新召唤死亡或者遣散状态的爱宠. 如果你在极限模式下,不想因为爱宠而承受死亡的风险,可以在潜行状态下右键坐着的爱宠,即可将爱宠遣散. 译者注:遣散状态下的爱宠不会为玩家提供增益.%n%n现在去谋杀一些你的新朋友吧,撕下小毛头鹰之翼,剁下青蛙趾. 记得用仪祭匕首哦. 下一步需要先知之石.
 
 # Quest.2425 - Greenhouses on Mountains, Hell on Earth
 gtnh.quest2425.name=山巅的温室,地上的炼狱
@@ -11114,9 +11090,7 @@ gtnh.quest2771.desc=如果想要多方块农场支持IC2作物,你就需要这�
 
 # Quest.2772 - BEGONE, LAG! Also, Bats
 gtnh.quest2772.name=滚开,延迟!还有,蝙蝠
-// --- //gtnh.quest2772.desc=在此,延迟=蝴蝶,因为连区块加载范围之外都会被它们堆满.而且它们会将常规树木转换为更多的林业树木,每次转换一块叶子,非常烦人.这会导致更多的蝴蝶生成.幸好我们的默认设置不会让它们同时显示太多,但它们还是很烦人.%n%n最佳解决方式就是把它们屠杀一空.还有蝙蝠!愚蠢的神秘扭曲!害虫杀手(显然还没做好)可以消灭它们.%n%n注意:氢氰酸还没有合成.甲醛需要用到化工厂.但好像甲醛没啥用.范围显然是5x5区块而不是5x5格.约30秒运行一次?%n%n§3PS：如果使用过程中遇到了问题(而这里还没有提到),去找Alkalus的麻烦吧.
-// +++ //gtnh.quest2772.desc=Lag = Butterflies in this case, since they like to pile up just outside of chunk loading range. Also, they're annoying since they convert regular trees into more forestry ones, one leaf block at a time. Which causes more of the buggers to spawn. Fortunately, the settings we use prevent too many from being present at once, but still, they're annoying.%n%nThe solution to this is to kill them. Also, the bats. Stupid Thaumcraft warp. Use the (potentially unfinished) Pest Killer to do so.%n%nNotes: Hydrogen Cyanide has a recipe now. Both it and Formaldehyde require a Chemical Plant. It doesn't appear to use any of the Formaldehyde up though. The range is apparently 5x5 chunks, not blocks. It also only runs once every 30s or so?%n%n§3PS: If you experience problems using it (more than already mentioned), raise a ticket on github.
-// ↑↑↑ //gtnh.quest2772.desc=Lag = Butterflies in this case, since they like to pile up just outside of chunk loading range. Also, they're annoying since they convert regular trees into more forestry ones, one leaf block at a time. Which causes more of the buggers to spawn. Fortunately, the settings we use prevent too many from being present at once, but still, they're annoying.%n%nThe solution to this is to kill them. Also, the bats. Stupid Thaumcraft warp. Use the (clearly unfinished) Pest Killer to do so.%n%nNotes: Hydrogen Cyanide has no recipe. Formaldehyde requires the Chemical Plant of all things. It doesn't appear to use any of the Formaldehyde up though. The range is apparently 5x5 chunks, not blocks. It also only runs once every 30s or so?%n%n§3PS: If you experience problems using it (more than already mentioned), complain to Alkalus.
+gtnh.quest2772.desc=在此,延迟=蝴蝶,因为连区块加载范围之外都会被它们堆满.而且它们会将常规树木转换为更多的林业树木,每次转换一块叶子,非常烦人.这会导致更多的蝴蝶生成.幸好我们的默认设置不会让它们同时显示太多,但它们还是很烦人.%n%n最佳解决方式就是把它们屠杀一空.还有蝙蝠!愚蠢的神秘扭曲!害虫杀手(可能还没做好)可以消灭它们.%n%n注意:氢氰酸现在有合成了.它和甲醛都需要用到化工厂.但好像甲醛没啥用.范围显然是5x5区块而不是5x5格.约30秒运行一次?%n%n§3PS：如果使用过程中遇到了问题(而这里还没有提到),请到github上发issue吧.
 
 # Quest.2773 - Purge...Some of Your Warp?
 gtnh.quest2773.name=清除...你的部分扭曲?
