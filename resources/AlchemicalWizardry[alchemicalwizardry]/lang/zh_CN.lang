@@ -369,8 +369,6 @@ commands.bind.remove.success=解绑成功
 commands.orb.usage=/bloodmagic orb [set|get] player [等级]
 commands.orb.help=用来设定或获取指定玩家的最高等级气血宝珠.
 
-commands.bind.usage=/bind <玩家>
-commands.bind.success=物品成功绑定!
 commands.bind.failed.noPlayer=没有指定玩家
 commands.bind.failed.alreadyBound=物品已经被绑定; 使用 /unbind 来解除绑定
 commands.bind.failed.notBindable=物品无法被绑定
