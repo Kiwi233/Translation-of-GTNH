@@ -361,9 +361,9 @@ commands.network.fill.success=成功填充 %s 的LP网络.
 commands.network.cap.help=将指定玩家的LP网络填充到其持有的最高级气血宝珠可以存储的最大值。
 commands.network.cap.success=成功锁定了 %s 的LP网络.
 
-commands.bind.usage=/bloodmagic bind [true|false] [玩家]
+commands.bind.usage=/bloodmagic bind [true|false] [player]
 commands.bind.help=尝试将手持物品绑定(解绑)
-commands.bind.success=绑定成功
+commands.bind.success=Binding successful
 commands.bind.remove.success=解绑成功
 
 commands.orb.usage=/bloodmagic orb [set|get] player [等级]
