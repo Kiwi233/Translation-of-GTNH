@@ -3238,9 +3238,9 @@ languagefile {
     S:TileEntity_DESCRIPTION_00835_Secondary_Index_10=   消声仓：  基座机械方块
     S:TileEntity_DESCRIPTION_00835_Secondary_Index_11=   维护仓：  基座机械方块
     S:TileEntity_DESCRIPTION_00835_Secondary_Index_12=   能源仓：  基座机械方块
-    S:TileEntity_DESCRIPTION_00835_Secondary_Index_13=   Muffler's Tier must be IV+
-    S:TileEntity_DESCRIPTION_00835_Secondary_Index_14=     4x输入仓、2x输出仓、1x输出总线
-    S:TileEntity_DESCRIPTION_00835_Secondary_Index_15=     1x消声仓、1x维护仓、1x能源仓
+    S:TileEntity_DESCRIPTION_00835_Secondary_Index_13=       消声仓必须为IV+
+    S:TileEntity_DESCRIPTION_00835_Secondary_Index_14=       4x输入仓、2x输出仓、1x输出总线
+    S:TileEntity_DESCRIPTION_00835_Secondary_Index_15=       1x消声仓、1x维护仓、1x能源仓
     S:TileEntity_DESCRIPTION_00836_Index_00=机器类型：§e树场§r
     S:TileEntity_DESCRIPTION_00836_Index_01=将EU转化为原木
     S:TileEntity_DESCRIPTION_00836_Index_02=EU消耗：100% | 并行：1
@@ -4684,7 +4684,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_01170_Secondary_Index_04=   第二层 - 玻璃，装配线方块，玻璃(其中玻璃可为硼玻璃/守卫者玻璃/防爆玻璃)
     S:TileEntity_DESCRIPTION_01170_Secondary_Index_05=   第三层 - 格栅机械方块，装配线外壳，格栅机械方块
     S:TileEntity_DESCRIPTION_01170_Secondary_Index_06=   第四层 - 空，脱氧钢机械方块，空
-    S:TileEntity_DESCRIPTION_01170_Secondary_Index_07=
+    S:TileEntity_DESCRIPTION_01170_Secondary_Index_07=          -
     S:TileEntity_DESCRIPTION_01170_Secondary_Index_08=   可选   - 紧邻控制器方块的1x格栅机械方块可用1x数据访问仓替换
     S:TileEntity_DESCRIPTION_01170_Secondary_Index_09=          - 至多16片重复结构，可处理配方格数与片数相等
     S:TileEntity_DESCRIPTION_01170_Secondary_Index_10=   控制器：  第一片的第三层任意格栅机械方块
@@ -9749,7 +9749,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12735_Index_06=请参考§9Structure§1Lib§7全息投影，构建主体结构
     S:TileEntity_DESCRIPTION_12735_Index_07=-----------------------------------------
     S:TileEntity_DESCRIPTION_12735_Index_08=按住 §l[LSHIFT]§r§7 以显示结构指导
-    S:TileEntity_DESCRIPTION_12735_Index_09=Added by: §aAdded by bartimaeusnek via §2BartWorks§7§7
+    S:TileEntity_DESCRIPTION_12735_Index_09=添加者：bartimaeusnek,模组：§2BartWorks§7
     S:TileEntity_DESCRIPTION_12735_Secondary_Index_00=大小(宽x高x长): (2-7)x3x3, 长度可变
     S:TileEntity_DESCRIPTION_12735_Secondary_Index_01=结构：
     S:TileEntity_DESCRIPTION_12735_Secondary_Index_02=   从下到上，从左到右
@@ -13241,7 +13241,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_32022_Index_05=能源仓数*容量时，聚变将无法进行
     S:TileEntity_DESCRIPTION_32022_Index_06=请确保整个多方块结构位于
     S:TileEntity_DESCRIPTION_32022_Index_07=聚变环中心所在3x3区块内.
-    S:TileEntity_DESCRIPTION_32022_Index_08=Performs 4/4 overclock.
+    S:TileEntity_DESCRIPTION_32022_Index_08=执行4/4超频.
     S:TileEntity_DESCRIPTION_32022_Index_09=启动能量 < 160,000,000 EU: 256x并行
     S:TileEntity_DESCRIPTION_32022_Index_10=启动能量 < 320,000,000 EU: 192x并行
     S:TileEntity_DESCRIPTION_32022_Index_11=启动能量 < 640,000,000 EU: 128x并行
