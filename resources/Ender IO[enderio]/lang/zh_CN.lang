@@ -719,13 +719,19 @@ tile.blockTelePad.tooltip.detailed.line3=必须摆成 3x1x3 多方块结构.
 enderio.gui.telepad.teleport=传送!
 
 item.itemTravelStaff.name=旅行权杖
-item.itemTravelStaff.tooltip.detailed.line1=手持旅行锚与末影接口时
-item.itemTravelStaff.tooltip.detailed.line2=可以透视锚点,并通过
-item.itemTravelStaff.tooltip.detailed.line3=<右击>直接传送
-item.itemTravelStaff.tooltip.detailed.line4=<shift><右击>
+item.itemTravelStaff.tooltip.detailed.line1=手持旅行权杖时,可以透视
+item.itemTravelStaff.tooltip.detailed.line2=旅行锚与末影接口方块,
+item.itemTravelStaff.tooltip.detailed.line3=并通过<右击>直接传送
+item.itemTravelStaff.tooltip.detailed.line4=<Shift><右击>
 item.itemTravelStaff.tooltip.detailed.line5=可短距离传送玩家
 enderio.itemTravelStaff.notEnoughPower=能量不足
 
+item.itemInfiniteTravelStaff.name=创造旅行权杖
+item.itemInfiniteTravelStaff.tooltip.detailed.line1=手持旅行权杖时,可以透视
+item.itemInfiniteTravelStaff.tooltip.detailed.line2=旅行锚与末影接口方块,
+item.itemInfiniteTravelStaff.tooltip.detailed.line3=并通过<右击>直接传送
+item.itemInfiniteTravelStaff.tooltip.detailed.line4=<Shift><右击>
+item.itemInfiniteTravelStaff.tooltip.detailed.line5=可短距离传送玩家
 item.itemCoordSelector.name=坐标记录仪
 item.itemCoordSelector.tooltip.detailed.line1=记录一个方块的坐标.
 item.itemCoordSelector.tooltip.detailed.line2=右键方块选取
