@@ -714,7 +714,7 @@ enderio.blockTravelPlatform.outOfRange=目标太远
 
 tile.blockTelePad.name=传送台
 tile.blockTelePad.tooltip.detailed.line1=使用能量传送生物
-tile.blockTelePad.tooltip.detailed.line2=到指定世界的特定位置.
+tile.blockTelePad.tooltip.detailed.line2=到指定维度的特定位置.
 tile.blockTelePad.tooltip.detailed.line3=必须摆成 3x1x3 多方块结构.
 enderio.gui.telepad.teleport=传送!
 
@@ -735,8 +735,8 @@ item.itemCoordSelector.tooltip.detailed.line5=选取特定方块.
 item.itemCoordSelector.tooltip.detailed.line6=可以在远处选取.
 enderio.itemCoordSelector.chat.newCoords=新坐标: %s
 enderio.itemCoordSelector.chat.setCoords=设置坐标: %s
-enderio.itemCoordSelector.chat.newDimension=新世界: %s%s
-enderio.itemCoordSelector.chat.setDimension=设置世界: %s%s
+enderio.itemCoordSelector.chat.newDimension=新维度: %s%s
+enderio.itemCoordSelector.chat.setDimension=设置维度: %s%s
 
 #Painter
 tile.blockPainter.name=喷涂机
