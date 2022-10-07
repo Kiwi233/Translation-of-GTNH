@@ -1352,7 +1352,7 @@ languagefile {
     S:Material.painite=硅硼钙铝石
     S:Material.palladium=钯
     S:Material.palladiumenrichedammonia=富钯氨
-    S:Material.palladiummetallicpowder=钯金属粉
+    S:Material.palladiummetallicpowder=钯金属
     S:Material.palladiumsalt=钯盐
     S:Material.paper=纸
     S:Material.peanutwood=花生木
@@ -1382,7 +1382,7 @@ languagefile {
     S:Material.platinum=铂
     S:Material.platinumconcentrate=浓缩铂
     S:Material.platinumgroupsludge=铂系矿泥
-    S:Material.platinummetallicpowder=铂金属粉
+    S:Material.platinummetallicpowder=铂金属
     S:Material.platinumresidue=铂渣
     S:Material.platinumsalt=铂盐
     S:Material.plutonium=钚-239
@@ -1487,15 +1487,15 @@ languagefile {
     S:Material.rhodiumsulfate=硫酸铑
     S:Material.rhodiumsulfatesolution=硫酸铑溶液
     S:Material.rhyolite=流纹岩
-    S:Material.roastedantimony=煅烧锑
-    S:Material.roastedarsenic=煅烧砷
-    S:Material.roastedcobalt=煅烧钴
-    S:Material.roastedcopper=煅烧铜
-    S:Material.roastediron=煅烧铁
-    S:Material.roastedlead=煅烧铅
-    S:Material.roastednickel=煅烧镍
-    S:Material.roastedrareearthoxides=煅烧稀土氧化物
-    S:Material.roastedzinc=煅烧锌
+    S:Material.roastedantimony=焙烧锑
+    S:Material.roastedarsenic=焙烧砷
+    S:Material.roastedcobalt=焙烧钴
+    S:Material.roastedcopper=焙烧铜
+    S:Material.roastediron=焙烧铁
+    S:Material.roastedlead=焙烧铅
+    S:Material.roastednickel=焙烧镍
+    S:Material.roastedrareearthoxides=焙烧稀土氧化物
+    S:Material.roastedzinc=焙烧锌
     S:Material.rocksalt=岩盐
     S:Material.roquesite=硫铟铜
     S:Material.rosegold=玫瑰金
@@ -4734,7 +4734,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_01172_Secondary_Index_02=   控制器：  顶层中央
     S:TileEntity_DESCRIPTION_01172_Secondary_Index_03=   20x塑料混凝土方块(至少！)
     S:TileEntity_DESCRIPTION_01172_Secondary_Index_04=   5.0%的塑料混凝土方块可以用防爆玻璃替换
-    S:TileEntity_DESCRIPTION_01172_Secondary_Index_05=   还有其他材料可以替换塑料混凝土方块.请查看congif以获知详情
+    S:TileEntity_DESCRIPTION_01172_Secondary_Index_05=   还有其他材料可以替换塑料混凝土方块.请查看config以获知详情
     S:TileEntity_DESCRIPTION_01172_Secondary_Index_06=   顶层除控制器与边缘以外为过滤器机械方块
     S:TileEntity_DESCRIPTION_01172_Secondary_Index_07=   能源仓：  任意机械方块(只接受一个)
     S:TileEntity_DESCRIPTION_01172_Secondary_Index_08=   维护仓：  任意机械方块
@@ -4743,7 +4743,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_01172_Secondary_Index_11=   能量交互支持线缆二级管
     S:TileEntity_DESCRIPTION_01172_Secondary_Index_12=   线缆二极管也计入10个机器外壳数量限制中
     S:TileEntity_DESCRIPTION_01173_Index_00=放置，使用炸药激活
-    S:TileEntity_DESCRIPTION_01173_Index_01=2个火药桶，4个硝化甘油单元，16个TNT或8个ITNT
+    S:TileEntity_DESCRIPTION_01173_Index_01=2个火药桶，4个硝化甘油单元，16个TNT或8个工业TNT
     S:TileEntity_DESCRIPTION_01173_Index_02=用闪存,扫描闪存,打印闪存,将内容打印到书上
     S:TileEntity_DESCRIPTION_01173_Index_03=矿物勘探区为勘探者下方176x176大小的方块
     S:TileEntity_DESCRIPTION_01173_Index_04=石油勘探区为3x3油田，每块油田为8x8区块
@@ -6256,17 +6256,17 @@ languagefile {
     S:TileEntity_DESCRIPTION_02100_Index_00=已弃用，不要使用！无序合成以获取高级版本
     S:TileEntity_DESCRIPTION_02101_Index_00=放已弃用，不要使用！无序合成以获取高级版本
     S:TileEntity_DESCRIPTION_02102_Index_00=放置，使用炸药激活
-    S:TileEntity_DESCRIPTION_02102_Index_01=2个火药桶，4个硝化甘油单元，16个TNT或8个ITNT
+    S:TileEntity_DESCRIPTION_02102_Index_01=2个火药桶，4个硝化甘油单元，16个TNT或8个工业TNT
     S:TileEntity_DESCRIPTION_02102_Index_02=用闪存,扫描闪存,打印闪存,将内容打印到书上
     S:TileEntity_DESCRIPTION_02102_Index_03=矿物勘探区为勘探者下方80x80大小的方块
     S:TileEntity_DESCRIPTION_02102_Index_04=石油勘探区为3x3油田，每块油田为8x8区块
     S:TileEntity_DESCRIPTION_02103_Index_00=放置，使用炸药激活
-    S:TileEntity_DESCRIPTION_02103_Index_01=2个火药桶，4个硝化甘油单元，16个TNT或8个ITNT
+    S:TileEntity_DESCRIPTION_02103_Index_01=2个火药桶，4个硝化甘油单元，16个TNT或8个工业TNT
     S:TileEntity_DESCRIPTION_02103_Index_02=用闪存,扫描闪存,打印闪存,将内容打印到书上
     S:TileEntity_DESCRIPTION_02103_Index_03=矿物勘探区为勘探者下方112x112大小的方块
     S:TileEntity_DESCRIPTION_02103_Index_04=石油勘探区为3x3油田，每块油田为8x8区块
     S:TileEntity_DESCRIPTION_02104_Index_00=放置，使用炸药激活
-    S:TileEntity_DESCRIPTION_02104_Index_01=2个火药桶，4个硝化甘油单元，16个TNT或8个ITNT
+    S:TileEntity_DESCRIPTION_02104_Index_01=2个火药桶，4个硝化甘油单元，16个TNT或8个工业TNT
     S:TileEntity_DESCRIPTION_02104_Index_02=用闪存,扫描闪存,打印闪存,将内容打印到书上
     S:TileEntity_DESCRIPTION_02104_Index_03=矿物勘探区为勘探者下方144x144大小的方块
     S:TileEntity_DESCRIPTION_02104_Index_04=石油勘探区为3x3油田，每块油田为8x8区块
@@ -10335,7 +10335,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_14001_Index_01=§o等等，这不是真空吸尘器大军?
     S:TileEntity_DESCRIPTION_14001_Index_02=戴森球指挥中心的控制器方块
     S:TileEntity_DESCRIPTION_14001_Index_03=在输入总线中放入戴森球模块，将其发射至相邻的恒星.
-    S:TileEntity_DESCRIPTION_14001_Index_04=每个戴森球模块输出为f*262,144EU/t，f为基于所在世界的系数.
+    S:TileEntity_DESCRIPTION_14001_Index_04=每个戴森球模块输出为f*262,144EU/t，f为基于所在维度的系数.
     S:TileEntity_DESCRIPTION_14001_Index_05=每秒m个戴森球模块中有n个会被损耗
     S:TileEntity_DESCRIPTION_14001_Index_06= n=X*0.00005*m^1.001，X为0~2之间的正态分布随机数，均值为1.
     S:TileEntity_DESCRIPTION_14001_Index_07=每秒消耗1,000L极寒之凛冰
@@ -13736,7 +13736,7 @@ languagefile {
     S:bw.werkstoff.00045.tooltip=
     S:bw.werkstoff.00046.name=精炼铂盐
     S:bw.werkstoff.00046.tooltip=
-    S:bw.werkstoff.00047.name=铂金属粉
+    S:bw.werkstoff.00047.name=铂金属
     S:bw.werkstoff.00047.tooltip=??PtPdIrOsRhRu??
     S:bw.werkstoff.00048.name=王水
     S:bw.werkstoff.00048.tooltip=H₂SO₄HNO₃
@@ -13748,7 +13748,7 @@ languagefile {
     S:bw.werkstoff.00051.tooltip=PtCl
     S:bw.werkstoff.00052.name=富钯氨
     S:bw.werkstoff.00052.tooltip=?Pd
-    S:bw.werkstoff.00053.name=钯金属粉
+    S:bw.werkstoff.00053.name=钯金属
     S:bw.werkstoff.00053.tooltip=??Pd??
     S:bw.werkstoff.00054.name=再沉淀钯
     S:bw.werkstoff.00054.tooltip=Pd₂NH₄
@@ -14015,7 +14015,7 @@ languagefile {
     S:bw.werkstoff.11107.name=氟碳镧铈稀土氧化物
     S:bw.werkstoff.11108.name=酸浸氟碳镧铈稀土氧化物
     S:bw.werkstoff.11109.name=脉石
-    S:bw.werkstoff.11110.name=煅烧稀土氧化物
+    S:bw.werkstoff.11110.name=焙烧稀土氧化物
     S:bw.werkstoff.11111.name=湿稀土氧化物
     S:bw.werkstoff.11112.name=氧化铈稀土氧化物
     S:bw.werkstoff.11113.name=氟碳镧铈罕土氧化物
