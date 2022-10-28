@@ -13009,32 +13009,32 @@ gtnh.quest3251.name=最终的目标
 gtnh.quest3251.desc=在你的帮助下,我终于创造了一个终极的能量来源:一个被磁场包裹的迷你虫洞.它将从人工宇宙中吸取能量,直到它生命的终点-热寂. 你已经帮助我完成了我的梦想.这个虫洞对我没什么实际用处,所以现在它是你的了. 最后再次感谢你,我的朋友!
 
 # Quest.3252 - What are all these flowers even for?
-// +++ //gtnh.quest3252.name=What are all these flowers even for?
-// +++ //gtnh.quest3252.desc=If you've never used Botania before, you may be wondering about the purpose of all this effort. This isn't a simple question to answer, but one thing you can do that's quite useful right now is making yourself some manasteel.%n%nAmong its many uses, manasteel has one of the best, if not simply §othe§o §rbest, durabilities of materials available at LV, so it's perfect for all of your crafting tools.%n%nIf you have a particular dislike of Tinker's Construct, manasteel is a great material to make a Gregtech pickaxe out of too.
+gtnh.quest3252.name=这些花都有什么用?
+gtnh.quest3252.desc=如果你以前从未接触过植物魔法(Botania),可能会困惑于付出这些努力到底有什么意义.这并不是个容易回答的问题,但你至少现在就能做一件相当有用的事--制作魔力钢.%n%n魔力钢在LV材料中如果不是耐久度§o最§o§r高的,也一定是耐久度最高的之一,所以这是你制作工具的绝佳选择--而这也仅仅是其用途之一.%n%n如果你特别讨厌匠魂的话,魔力钢也是制作GT镐子的极好材料.
 
 # Quest.3253 - Moron's Manual for Mana Manufacture And Manipulation
-// +++ //gtnh.quest3253.name=Moron's Manual for Mana Manufacture And Manipulation
-// +++ //gtnh.quest3253.desc=To use the power of magical flowers, you must understand how to generate and manipulate mana. This ethereal blue-ish substance is produced by generating flowers, when their requirements are met. Mana is not easily quantified, so you will have to do a lot of estimating if you want to use it efficiently.%n%nOnce you have chosen which flower you want to use to generate mana, you must plant it near a mana spreader. When the flower's conditions are fulfilled, it will begin to produce mana, and store it in the internal buffer of the nearest mana spreader. The mana spreader itself will automatically emit any mana it contains, provided it is aimed at a valid destination (such as a mana pool). You'll need a lot of these devices, so craft a pair for now.%n%nMana spreaders will aim towards you when you place them down. To change their direction, use a wand of the forest: while holding the wand, shift+right click on the mana spreader, and then shift+right click on the block you want it to aim at. This method of binding also works for other things, such as binding a flower to a specific mana spreader.
+gtnh.quest3253.name=Moron的魔力生产和操纵指南
+gtnh.quest3253.desc=要使用魔法花卉的力量,你必须先了解如何生产和操纵魔力.只要满足产能花的生产需求,它们就会产生出这种空灵的蓝色物质.魔力不易量化,所以如果你想有效地使用它,就不得不做大量的估算.%n%n一旦你选定了一种产能花,就必须在魔力发射器边上种植它.当满足该花朵的产能条件时,它会开始生产魔力,并将其存储在最靠近的魔力发射器的内部缓存中.魔力发射器会自动发射存储的任何魔力,只要其发射方向上有合适的接收方块(例如魔力池).你会需要很多这些设备的,所以现在就合成一对吧.%n%n放置魔力发射器时,它会面朝你所在的方向.使用森林法杖可以改变其朝向:手持法杖Shift+右键魔力发射器,然后Shift+右键你想让其朝向的方块即可.这种绑定的方法对于其他物件也有效,例如将产能花绑定至指定的魔力发射器.
 
 # Quest.3254 - Solar Power: Floral Edition
-// +++ //gtnh.quest3254.name=Solar Power: Floral Edition
-// +++ //gtnh.quest3254.desc=The daybloom is an extremely simple generating flower. All you have to do is place it down, and it'll produce mana for free during the day. The downside of this arrangement is that dayblooms die after only an hour. Make one, and I'll give you another.
+gtnh.quest3254.name=太阳能:花卉版本
+gtnh.quest3254.desc=太阳花(daybloom)是一种极其简单的产能花.你只需要放置它,它就会在白天免费产出魔力.这种产能方式的缺点是,太阳花仅仅过一小时就会自然枯萎.制造一朵,我会再送你一朵.
 
 # Quest.3255 - Hydrobotanic Energy
-// +++ //gtnh.quest3255.name=Hydrobotanic Energy
-// +++ //gtnh.quest3255.desc=Mana is blue. Water is also blue. There's a correlation there, and the hydroangea turns that correlation into causation. Place a water source block nearby, and the hydroangea will consume it to produce mana - until it dies after an hour.%n%nThis one can be a bit tricky to automate given the lack of naturally-regenerating source blocks.
+gtnh.quest3255.name=水植物魔法能量
+gtnh.quest3255.desc=魔力是蓝色的,水也是蓝色的.其中有种关联,而水绣球(hydroangea)将这种关联化作因果关系.在边上放一格水源,水绣球会吸收水源,生产魔力 - 直到一小时之后自然枯萎.%n%n这种花有些难以自动化,因为这里没有天然的无限水.
 
 # Quest.3256 - Dark Energy
-// +++ //gtnh.quest3256.name=Dark Energy
-// +++ //gtnh.quest3256.desc=Perhaps not the kind of "dark energy" you're familiar with, the nightshade produces mana at night. Like other passive generating flowers, it dies after an hour.
+gtnh.quest3256.name=暗能量
+gtnh.quest3256.desc=大概不是你熟悉的那种"暗能量".夜颠茄(nightshade)在夜晚产生魔力.和其他被动产能花一样,它过一小时就会自然枯萎.
 
 # Quest.3257 - Is this a combustion generator?
-// +++ //gtnh.quest3257.name=Is this a combustion generator?
-// +++ //gtnh.quest3257.desc=The endoflame burns combustible materials in order to produce mana. It can efficiently consume fuels with a burn time of up to 64000 per item (equivalent to four blocks of coal); any burn time beyond this will be wasted. Endoflames don't die like passive flowers do, and are simple to use, so it's a good idea to make several of them.
+gtnh.quest3257.name=这是内燃发电机吗?
+gtnh.quest3257.desc=火红莲(endoflame)消耗可燃材料生产魔力.它可以高效消耗燃烧时间不超过64000(单个物品)的燃料(相当于4个煤炭块);任何超出此值的燃烧时间都会浪费掉.火红莲不同于被动产能花,它不会枯萎,并且简单易用,因此做几朵是个好主意.
 
 # Quest.3258 - A Botanist's Best Friend
-// +++ //gtnh.quest3258.name=A Botanist's Best Friend
-// +++ //gtnh.quest3258.desc=Functional flowers are a large part of Botania. Most of them have nuances to how they operate, and these are generally best explained in the Lexica Botania: a codex of all Botania knowledge. This questline will explain the basics, but be sure to keep a copy of the Lexica Botania on hand so you can easily reference the details.%n%nBesides being a repository of useful information, the Lexica Botania has another function: if, while holding it, you look at any Botania block in the world, you can shift+right click on that block to open up the relevant page.%n%nSomething else you'll want for functional flowers is a handful of redstone roots. Flowers which have a redstone root in their recipe have the ability to toggle whether they are active by applying a redstone signal. Make a few before you move on.
+gtnh.quest3258.name=植物魔法学家最好的朋友
+gtnh.quest3258.desc=功能花是植物魔法的重要部分.它们大多数在工作方式上都有细微差别,这些差别往往都可以在《植物魔法辞典》--一本植物学知识完全手册--中找到解释.这条任务线会给出最基础的解释,但一定要记住手持一本《植物魔法辞典》,这样你就能轻松找到详细的参考.%n%n《植物魔法辞典》不仅是一个有用的信息库,也有另一个功能:手持它看向世界中的任意植物魔法方块,用Shift+右键就可以打开书中相关的页面.%n%n对于功能花,你还会需要些红石根.需要用红石根制造的功能花都有用红石信号控制激活的功能.在继续前进之前,先做一些吧.
 
 # Quest.3259 - Anti-Magnetism
 // +++ //gtnh.quest3259.name=Anti-Magnetism
