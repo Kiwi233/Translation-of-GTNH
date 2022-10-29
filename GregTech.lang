@@ -10331,16 +10331,16 @@ languagefile {
     S:TileEntity_DESCRIPTION_13367_Secondary_Index_06=   输入仓：  提示方块：2/3号
     S:TileEntity_DESCRIPTION_13367_Secondary_Index_07=   输出仓：  提示方块：3/2号
     S:TileEntity_DESCRIPTION_13367_Secondary_Index_08=   输入仓：  蒸汽/氢气，提示方块：4号
-    S:TileEntity_DESCRIPTION_14001_Index_00=机器类型：§e戴森球§r
+    S:TileEntity_DESCRIPTION_14001_Index_00=机器类型：§e戴森云§r
     S:TileEntity_DESCRIPTION_14001_Index_01=§o等等，这不是真空吸尘器大军?
-    S:TileEntity_DESCRIPTION_14001_Index_02=戴森球指挥中心的控制器方块
-    S:TileEntity_DESCRIPTION_14001_Index_03=在输入总线中放入戴森球模块，将其发射至相邻的恒星.
-    S:TileEntity_DESCRIPTION_14001_Index_04=每个戴森球模块输出为f*262,144EU/t，f为基于所在维度的系数.
-    S:TileEntity_DESCRIPTION_14001_Index_05=每秒m个戴森球模块中有n个会被损耗
+    S:TileEntity_DESCRIPTION_14001_Index_02=戴森云指挥中心的控制器方块
+    S:TileEntity_DESCRIPTION_14001_Index_03=在输入总线中放入戴森云模块，将其发射至相邻的恒星.
+    S:TileEntity_DESCRIPTION_14001_Index_04=每个戴森云模块输出为f*262,144EU/t，f为基于所在维度的系数.
+    S:TileEntity_DESCRIPTION_14001_Index_05=每秒m个戴森云模块中有n个会被损耗
     S:TileEntity_DESCRIPTION_14001_Index_06= n=X*0.00005*m^1.001，X为0~2之间的正态分布随机数，均值为1.
     S:TileEntity_DESCRIPTION_14001_Index_07=每秒消耗1,000L极寒之凛冰
     S:TileEntity_DESCRIPTION_14001_Index_08=每tick要求提供C点算力，公式如下:
-    S:TileEntity_DESCRIPTION_14001_Index_09= C=0.1*m^1.075-128，m为戴森球模块数.
+    S:TileEntity_DESCRIPTION_14001_Index_09= C=0.1*m^1.075-128，m为戴森云模块数.
     S:TileEntity_DESCRIPTION_14001_Index_10=-----------------------------------------
     S:TileEntity_DESCRIPTION_14001_Index_11=手持搋子右键将尽可能多的模块提取至物品栏中.
     S:TileEntity_DESCRIPTION_14001_Index_12=手持搋子Shift+右键将剩余的丢到地上.
@@ -17196,7 +17196,7 @@ languagefile {
     S:gt.blockmachines.diode8auxv.name=线缆二极管 8A UXV
     S:gt.blockmachines.diode8azpm.name=线缆二极管 8A ZPM
     S:gt.blockmachines.dissolution_tank.name=溶解罐
-    S:gt.blockmachines.dysonswarm.name=戴森球地面单元
+    S:gt.blockmachines.dysonswarm.name=戴森云地面单元
     S:gt.blockmachines.eig.name=极限工业温室
     S:gt.blockmachines.electricboiler.1.tier.single.name=进阶锅炉[LV]
     S:gt.blockmachines.electricboiler.2.tier.single.name=进阶锅炉[MV]
