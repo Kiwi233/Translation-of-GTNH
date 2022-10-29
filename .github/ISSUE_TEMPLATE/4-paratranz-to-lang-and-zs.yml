@@ -1,0 +1,13 @@
+---
+name: 使用 ParaTranz 数据 生成 汉化 lang 文件和 zs 文件
+description: 使用 ParaTranz 数据 生成 汉化 lang 文件和 zs 文件 并 创建提交到 特定分支 的 PR (仅内部使用)
+
+labels: [ '自动化:paratranz→lang+zs' ]
+
+body:
+  - type: input
+    id: branch
+    attributes:
+      label: PR 提交分支
+    validations:
+      required: true

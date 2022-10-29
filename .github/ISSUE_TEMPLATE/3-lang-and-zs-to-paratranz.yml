@@ -1,0 +1,13 @@
+---
+name: 解析 整合包 中 lang 文件和 zs 文件 到 ParaTranz
+description: 将特定 url 整合包 中 lang 文件和 zs 文件解析到 ParaTranz (仅内部使用)
+
+labels: [ '自动化:lang+zs→paratranz' ]
+
+body:
+  - type: input
+    id: modpack-url
+    attributes:
+      label: 整合包 url
+    validations:
+      required: true
