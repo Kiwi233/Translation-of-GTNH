@@ -1,0 +1,13 @@
+---
+name: 解析 GregTech.lang 文件 到 ParaTranz
+description: 将特定 url 的 GregTech.lang 解析到 ParaTranz (仅内部使用)
+
+labels: [ '自动化:gt-lang→paratranz' ]
+
+body:
+  - type: input
+    id: gt-lang-url
+    attributes:
+      label: GregTech.lang url
+    validations:
+      required: true
