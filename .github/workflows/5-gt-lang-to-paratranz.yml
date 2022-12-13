@@ -1,0 +1,69 @@
+name: Gt Lang To Paratranz
+
+on:
+  issues:
+    types: [ opened ]
+
+env:
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+  PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
+
+jobs:
+  check-and-parse-issue:
+    if: contains(github.event.issue.labels.*.name, '自动化:gt-lang→paratranz')
+    name: Check And Parse Issue
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout MuXiu1997/GTNH-translation-compare
+        uses: actions/checkout@v3
+        with:
+          repository: MuXiu1997/GTNH-translation-compare
+          ref: rework
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+      - name: Run Script
+        id: check-and-parse-issue
+        env:
+          GITHUB_ISSUE: ${{ toJSON(github.event.issue) }}
+          VALID_LABEL: 自动化:gt-lang→paratranz
+          VALID_USER: ${{ github.repository_owner }}
+        run: |
+          poetry run python main.py parse-issue gt-lang-to-paratranz
+    outputs:
+      passed: ${{ steps.check-and-parse-issue.outputs.passed }}
+      gt-lang-url: ${{ steps.check-and-parse-issue.outputs.gt-lang-url }}
+
+  close-issue:
+    name: Close Issue
+    needs: check-and-parse-issue
+    if: ${{ needs.check-and-parse-issue.outputs.passed != 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close Issue
+        uses: peter-evans/close-issue@v2.0.0
+        with:
+          comment: |
+            此模板仅由内部人员使用，已自动关闭。
+
+  gt-lang-to-paratranz:
+    name: Gt Lang To Paratranz
+    needs: check-and-parse-issue
+    if: ${{ needs.check-and-parse-issue.outputs.passed == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout MuXiu1997/GTNH-translation-compare
+        uses: actions/checkout@v3
+        with:
+          repository: MuXiu1997/GTNH-translation-compare
+          ref: rework
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+      - name: Run Script
+        run: >-
+          poetry run python main.py action gt-lang-to-paratranz
+          --gt-lang-url='${{ needs.check-and-parse-issue.outputs.gt-lang-url }}'
+      - name: Close Issue
+        uses: peter-evans/close-issue@v2.0.0
+        with:
+          comment: |
+            已自动同步至 Paratranz。

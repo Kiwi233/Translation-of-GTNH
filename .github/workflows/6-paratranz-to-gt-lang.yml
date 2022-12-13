@@ -1,0 +1,82 @@
+name: Paratranz To Gt Lang
+
+on:
+  issues:
+    types: [ opened ]
+
+env:
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+  PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
+
+jobs:
+  check-and-parse-issue:
+    if: contains(github.event.issue.labels.*.name, '自动化:paratranz→gt-lang')
+    name: Check And Parse Issue
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout MuXiu1997/GTNH-translation-compare
+        uses: actions/checkout@v3
+        with:
+          repository: MuXiu1997/GTNH-translation-compare
+          ref: rework
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+      - name: Run Script
+        id: check-and-parse-issue
+        env:
+          GITHUB_ISSUE: ${{ toJSON(github.event.issue) }}
+          VALID_LABEL: 自动化:paratranz→gt-lang
+          VALID_USER: ${{ github.repository_owner }}
+        run: |
+          poetry run python main.py parse-issue paratranz-to-gt-lang
+    outputs:
+      passed: ${{ steps.check-and-parse-issue.outputs.passed }}
+      branch: ${{ steps.check-and-parse-issue.outputs.branch }}
+
+  close-issue:
+    name: Close Issue
+    needs: check-and-parse-issue
+    if: ${{ needs.check-and-parse-issue.outputs.passed != 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close Issue
+        uses: peter-evans/close-issue@v2.0.0
+        with:
+          comment: |
+            此模板仅由内部人员使用，已自动关闭。
+
+  paratranz-to-gt-lang:
+    name: Paratranz To Gt Lang
+    needs: check-and-parse-issue
+    if: ${{ needs.check-and-parse-issue.outputs.passed == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout MuXiu1997/GTNH-translation-compare
+        uses: actions/checkout@v3
+        with:
+          repository: MuXiu1997/GTNH-translation-compare
+          ref: rework
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+      - name: Checkout Work Repo
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ needs.check-and-parse-issue.outputs.branch }}
+          path: '.repo'
+      - name: Run Script
+        run: >-
+          poetry run python main.py action paratranz-to-gt-lang
+          --repo-path='.repo'
+          --issue='${{ github.event.issue.number }}'
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v4.0.0
+        with:
+          title: '[自动化] 更新 GT 语言文件'
+          labels: |
+            自动化:paratranz→gt-lang
+          body: |
+            - 由 #${{ github.event.issue.number }} 触发
+          base: ${{ needs.check-and-parse-issue.outputs.branch }}
+          branch: automation/compare/${{ github.event.issue.number }}
+          path: '.repo'
+          delete-branch: true
