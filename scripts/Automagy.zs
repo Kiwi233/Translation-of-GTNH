@@ -1,6 +1,11 @@
 // --- Created by DreamMasterXXL ---
 
 
+// --- I18N ---
+val I18N_Automagy_0 = "\u6ce8\u9b54\u91d1";
+val I18N_Automagy_1 = "\u005b\u0041\u004d\u005d\u5411\u9ec4\u91d1\u4e2d\u6ce8\u5165\u9b54\u6cd5\u7684\u529b\u91cf\u002e";
+val I18N_Automagy_2 = "\u4f60\u627e\u5230\u4e86\u4e00\u79cd\u002c\u5c06\u9ec4\u91d1\u4e0e\u795e\u79d8\u952d\u7ed3\u5408\u7684\u65b9\u6cd5\u002c\u521b\u9020\u4e86\u4e00\u79cd\u65b0\u7684\u91d1\u5c5e\u002d\u002d\u002d\u6ce8\u9b54\u91d1\u0021";
+
 // --- Importing Stuff ---
 
 
@@ -254,10 +259,10 @@ mods.thaumcraft.Arcane.addShaped("FOCUSCRAFTING", <Automagy:focusCrafting>, "ord
 
 // --- Infused Gold
 mods.thaumcraft.Research.addResearch("InfusedGoldGTNH", "AUTOMAGY", "lucrum 12, praecantatio 9, aer 6, metallum 3", -5 as int, -2 as int, 3, <gregtech:gt.metaitem.01:11323>);
-game.setLocalization("tc.research_name.InfusedGoldGTNH", "\u6ce8\u9b54\u91d1");
-game.setLocalization("tc.research_text.InfusedGoldGTNH", "[AM]\u5411\u9ec4\u91d1\u4e2d\u6ce8\u5165\u9b54\u6cd5\u7684\u529b\u91cf.");
+game.setLocalization("tc.research_name.InfusedGoldGTNH", I18N_Automagy_0);
+game.setLocalization("tc.research_text.InfusedGoldGTNH", I18N_Automagy_1);
 mods.thaumcraft.Research.addPage("InfusedGoldGTNH", "tc.research_page.InfusedGoldGTNH.1");
-game.setLocalization("tc.research_page.InfusedGoldGTNH.1","\u4f60\u627e\u5230\u4e86\u4e00\u79cd,\u5c06\u9ec4\u91d1\u4e0e\u795e\u79d8\u952d\u7ed3\u5408\u7684\u65b9\u6cd5,\u521b\u9020\u4e86\u4e00\u79cd\u65b0\u7684\u91d1\u5c5e\u002d\u002d\u002d\u6ce8\u9b54\u91d1!");
+game.setLocalization("tc.research_page.InfusedGoldGTNH.1",I18N_Automagy_2);
 mods.thaumcraft.Research.addPrereq("InfusedGoldGTNH", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("InfusedGoldGTNH", "THAUMIUM", false);
 mods.thaumcraft.Infusion.addRecipe("InfusedGoldGTNH", <minecraft:gold_ingot>,

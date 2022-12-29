@@ -1,6 +1,15 @@
 // ---Created by DreamMasterXXL ---
 
 
+// --- I18N ---
+val I18N_GraviSuite_0 = "\u8d85\u5bfc\u4f53\u7edd\u7f18\u5c42";
+val I18N_GraviSuite_1 = "\u8d85\u5bfc\u4f53";
+val I18N_GraviSuite_2 = "\u51b7\u5374\u6838\u5fc3";
+val I18N_GraviSuite_3 = "\u91cd\u529b\u5f15\u64ce";
+val I18N_GraviSuite_4 = "\u78c1\u63a7\u7ba1";
+val I18N_GraviSuite_5 = "\u91d1\u521a\u6775\u6838\u5fc3";
+val I18N_GraviSuite_6 = "\u63a8\u8fdb\u5f15\u64ce";
+
 
 // --- Remove Recipes ---
 
@@ -125,22 +134,22 @@ recipes.addShaped(<GraviSuite:advDDrill:27>, [
 
 
 // --- SuperConductorCover
-<GraviSuite:itemSimpleItem>.displayName = "\u8d85\u5bfc\u7ebf\u7f06\u5916\u5c42";
+<GraviSuite:itemSimpleItem>.displayName = I18N_GraviSuite_0;
 
 // --- SuperConductor
-<GraviSuite:itemSimpleItem:1>.displayName = "\u8d85\u5bfc\u7ebf\u7f06";
+<GraviSuite:itemSimpleItem:1>.displayName = I18N_GraviSuite_1;
 
 // --- Cooling Core
-<GraviSuite:itemSimpleItem:2>.displayName = "\u51b7\u5374\u6838\u5fc3";
+<GraviSuite:itemSimpleItem:2>.displayName = I18N_GraviSuite_2;
 
 // --- Gravitation Engine
-<GraviSuite:itemSimpleItem:3>.displayName = "\u91cd\u529b\u5f15\u64ce";
+<GraviSuite:itemSimpleItem:3>.displayName = I18N_GraviSuite_3;
 
 // --- Magnetron
-<GraviSuite:itemSimpleItem:4>.displayName = "\u78c1\u63a7\u7ba1";
+<GraviSuite:itemSimpleItem:4>.displayName = I18N_GraviSuite_4;
 
 // --- VajraCore
-<GraviSuite:itemSimpleItem:5>.displayName = "\u91d1\u521a\u6775\u6838\u5fc3";
+<GraviSuite:itemSimpleItem:5>.displayName = I18N_GraviSuite_5;
 
 // --- EngineBoost
-<GraviSuite:itemSimpleItem:6>.displayName = "\u52a0\u901f\u5f15\u64ce";
+<GraviSuite:itemSimpleItem:6>.displayName = I18N_GraviSuite_6;

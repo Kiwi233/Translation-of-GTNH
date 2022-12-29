@@ -1,6 +1,56 @@
 // --- Created By DreamMasterXXL --- 
 
 
+// --- I18N ---
+val I18N_Thaumic_Exploration_01_0 = "\u788e\u7247\u6307\u73af";
+val I18N_Thaumic_Exploration_01_1 = "\u8981\u7d20\u51cf\u514d";
+val I18N_Thaumic_Exploration_01_2 = "\u7f50\u5b50\u5c01\u8721";
+val I18N_Thaumic_Exploration_01_3 = "\u6e90\u8d28\u002c\u65e0\u5904\u4e0d\u5728\u7684\u6e90\u8d28";
+val I18N_Thaumic_Exploration_01_4 = "\u901a\u8fc7\u8c03\u6574\u6cb9\u8102\u5c01\u8721\u6d78\u6ce1\u7684\u8981\u7d20\u6df7\u5408\u6765\u63a2\u7a76\u6e90\u8d28\u7684\u795e\u79d8\u6027\u002c\u4f60\u53d1\u73b0\u4f60\u80fd\u7ed1\u5b9a\u8981\u7d20\u6e90\u8d28\u5bb9\u5668\u002c\u7279\u522b\u662f\u662f\u8981\u7d20\u7f50\u5b50\u002e\u5c31\u50cf\u4e4b\u524d\u7684\u5c01\u8721\u4e00\u6837\u002c\u7f50\u5b50\u5c01\u8721\u4e5f\u80fd\u67d3\u8272\u002c\u5e76\u4e14\u6709\u65e0\u9650\u5236\u7684\u7f51\u7edc\u6570\u91cf\u002e";
+val I18N_Thaumic_Exploration_01_5 = "\u7528\u7bb1\u5b50\u5c01\u8721\u53f3\u51fb\u7bb1\u5b50\u002c\u4f60\u80fd\u521b\u5efa\u4e00\u4e2a\u7f51\u7edc\u002e\u53f3\u51fb\u7ed1\u5b9a\u7bb1\u5b50\u4f1a\u5c06\u5c01\u8721\u4e0e\u8be5\u7f51\u7edc\u5173\u8054\u002e\u518d\u7528\u5df2\u5173\u8054\u7684\u5c01\u8721\u53f3\u51fb\u672a\u7ed1\u5b9a\u7684\u7bb1\u5b50\u4f1a\u5c06\u5b83\u4ed6\u52a0\u5165\u8fde\u63a5\u7f51\u7edc\u002e\u6ce8\u610f\u53ea\u6709\u7a7a\u7bb1\u5b50\u624d\u80fd\u88ab\u7ed1\u5b9a\u002e\u002e\u4f60\u65e0\u6cd5\u7ed1\u5b9a\u865a\u7a7a\u7f50\u5b50\u6216\u662f\u6807\u7b7e\u7f50\u5b50\u002e<BR><BR>\u5c01\u8721\u7f50\u5b50\u6709\u6bd4\u672a\u8d34\u6807\u7b7e\u7684\u7f50\u5b50\u5f3a\u002c\u6bd4\u6807\u7b7e\u7f50\u5b50\u5f31\u7684\u5438\u529b\u002e";
+val I18N_Thaumic_Exploration_01_6 = "\u6d6e\u7a7a\u8721\u70db";
+val I18N_Thaumic_Exploration_01_7 = "\u7fbd\u52a0\u8fea\u59c6\u0020\u52d2\u7ef4\u5965\u8428";
+val I18N_Thaumic_Exploration_01_8 = "\u4f60\u603b\u89c9\u5f97\u6cb9\u70db\u8fd8\u5c11\u4e9b\u4ec0\u4e48\u002e\u002e\u002e\u5229\u7528\u9b54\u6cd5\u5b66\u6821\u7684\u6240\u5b66\u77e5\u8bc6\u002c\u7ed9\u98ce\u4e4b\u788e\u7247\u6765\u4e0a\u4e00\u70b9\u9b54\u6cd5\u002c\u8ba9\u5b83\u4eec\u770b\u7740\u66f4\u8212\u670d\u4e9b\u002e\u6d6e\u7a7a\u8721\u70db\u80fd\u76f4\u63a5\u653e\u7f6e\u5728\u534a\u7a7a\u4e2d\u002c\u65e0\u9700\u652f\u6491\u002e\u8fd9\u4e9b\u8721\u70db\u4e0a\u4e0b\u7f13\u6162\u6d6e\u52a8\u002c\u8ba9\u7a7a\u95f4\u53d8\u5f97\u66f4\u4e3a\u795e\u79d8\u002e<BR><BR>\u4e0d\u5e78\u7684\u662f\u002c\u8fd9\u4e9b\u8721\u70db\u5bf9\u6ce8\u9b54\u4f3c\u4e4e\u6beb\u65e0\u4f5c\u7528\u002e\u4f60\u786e\u4fe1\u5728\u4e0d\u8fdc\u7684\u5c06\u6765\u53ef\u4ee5\u89e3\u51b3\u8fd9\u4e2a\u95ee\u9898\u002e";
+val I18N_Thaumic_Exploration_01_9 = "\u795e\u79d8\u590d\u5236\u5668";
+val I18N_Thaumic_Exploration_01_10 = "\u7b49\u4ef7\u4ea4\u6362";
+val I18N_Thaumic_Exploration_01_11 = "\u6cef\u706d\u4e4b\u7f50";
+val I18N_Thaumic_Exploration_01_12 = "\u6e90\u8d28\u9500\u6bc1";
+val I18N_Thaumic_Exploration_01_13 = "\u6d41\u661f\u4e4b\u9774";
+val I18N_Thaumic_Exploration_01_14 = "\u6765\u5427\u002c\u7830\u0021";
+val I18N_Thaumic_Exploration_01_15 = "\u5f57\u661f\u4e4b\u9774";
+val I18N_Thaumic_Exploration_01_16 = "\u51b0\u51bb\u5427\u0021";
+val I18N_Thaumic_Exploration_01_17 = "\u7075\u9b42\u706b\u76c6";
+val I18N_Thaumic_Exploration_01_18 = "\u626d\u66f2\u53ef\u4e0d\u662f\u95f9\u7740\u73a9\u7684\u003f";
+val I18N_Thaumic_Exploration_01_19 = "\u65e0\u5c3d\u4e4b\u58f6";
+val I18N_Thaumic_Exploration_01_20 = "\u65e0\u5c3d\u4e4b\u58f6";
+val I18N_Thaumic_Exploration_01_21 = "\u4f60\u5728\u7814\u7a76\u4e2d\u8bfb\u5230\u4e86\u8bb8\u591a\u5173\u4e8e\u0027\u65e0\u5c3d\u4e4b\u58f6\u0027\u7684\u4e1c\u897f\u002c\u4e00\u4e2a\u7531\u4f1f\u5927\u7684\u795e\u79d8\u4f7f\u0041\u007a\u0061\u006e\u006f\u0072\u521b\u4f5c\u7684\u795e\u79d8\u88c5\u7f6e\u002c\u53ef\u4f5c\u4e3a\u4e00\u4e2a\u65e0\u9650\u6c34\u6e90\u800c\u5de5\u4f5c\u002e<BR>\u4f60\u7ec8\u4e8e\u505a\u51fa\u4e86\u4e00\u4e2a\u80fd\u90a3\u6837\u5de5\u4f5c\u5e76\u6709\u5176\u4ed6\u529f\u80fd\u7684\u88c5\u7f6e\u002e<BR><BR>\u4f60\u7684\u65e0\u5c3d\u4e4b\u58f6\u4e0d\u4ec5\u53ef\u4ee5\u88c5\u6ee1\u65e0\u9650\u6876\u6c34\u002c\u5b83\u4e5f\u80fd\u4ece\u9876\u90e8\u7528\u7ba1\u9053\u5bfc\u51fa\u6c34\u5230\u5916\u90e8\u5bb9\u5668\u002e<BR>\u4f60\u7684\u58f6\u4e5f\u80fd\u4e3b\u52a8\u586b\u6ee1\u9644\u8fd1\u7684\u5769\u57da\u002c\u7ed9\u7740\u706b\u7684\u73a9\u5bb6\u706d\u706b\u002e<BR>\u82e5\u662f\u4f60\u9009\u62e9\u6d89\u730e\u690d\u7269\u9b54\u6cd5\u7684\u8bdd\u002c\u8fd9\u4e2a\u58f6\u4e5f\u80fd\u4e3b\u52a8\u586b\u6ee1\u9644\u8fd1\u7684\u82b1\u836f\u53f0\u002e";
+val I18N_Thaumic_Exploration_01_22 = "\u70bc\u72f1\u4e4b\u58f6";
+val I18N_Thaumic_Exploration_01_23 = "\u4e3a\u4ec0\u4e48\u6211\u8981\u7528\u706b\u505a\u003f\u003f";
+val I18N_Thaumic_Exploration_01_24 = "\u5bc4\u751f\u6756\u7aef";
+val I18N_Thaumic_Exploration_01_25 = "\u7075\u6027\u6756\u7aef";
+val I18N_Thaumic_Exploration_01_26 = "\u673a\u68b0\u5e08\u7684\u6cd5\u6756\u7aef";
+val I18N_Thaumic_Exploration_01_27 = "\u673a\u68b0\u6756\u7aef";
+val I18N_Thaumic_Exploration_01_28 = "\u5965\u6cd5\u52a0\u62a4\u8170\u5e26";
+val I18N_Thaumic_Exploration_01_29 = "\u51fb\u9000\u65e0\u6548";
+val I18N_Thaumic_Exploration_01_30 = "\u8150\u8089\u70bc\u5236";
+val I18N_Thaumic_Exploration_01_31 = "\u4f7f\u4e8b\u60c5\u53d8\u5f97\u66f4\u597d";
+val I18N_Thaumic_Exploration_01_32 = "\u50f5\u8111\u51c0\u5316";
+val I18N_Thaumic_Exploration_01_33 = "\u6d17\u8111";
+val I18N_Thaumic_Exploration_01_34 = "\u8865\u7ed9\u4e4b\u7b26";
+val I18N_Thaumic_Exploration_01_35 = "\u586b\u9971\u809a\u5b50";
+val I18N_Thaumic_Exploration_01_36 = "\u4f60\u5e38\u5e38\u53d1\u73b0\u4f60\u5728\u957f\u65f6\u95f4\u7684\u7814\u7a76\u5de5\u4f5c\u4e2d\u9700\u8981\u505c\u4e0b\u6765\u5403\u70b9\u4e1c\u897f\u002c\u7ec8\u4e8e\u4f60\u627e\u5230\u4e86\u65b9\u6cd5\u6ee1\u8db3\u5bf9\u98df\u7269\u7684\u9700\u6c42\u002e<BR><BR>\u901a\u8fc7\u7ed9\u5143\u59cb\u9b54\u529b\u6ce8\u5165\u9965\u997f\u0028\u0046\u0061\u006d\u0065\u0073\u0029\u6e90\u8d28\u002c\u4f60\u505a\u51fa\u4e86\u4e00\u4e2a\u80fd\u4ece\u5de5\u5177\u680f\u7684\u5404\u79cd\u98df\u7269\u4e2d\u5438\u53d6\u8425\u517b\u6210\u5206\u5e76\u50a8\u5b58\u7684\u7269\u54c1\u002e\u0020\u4e4b\u540e\u5b83\u4f1a\u81ea\u52a8\u8865\u5145\u4f60\u7684\u9971\u98df\u5ea6\u002e<BR><BR>\u5b83\u53ea\u5bf9\u666e\u901a\u7684\u98df\u7269\u6709\u6548\u002c\u6240\u4ee5\u50cf\u8150\u8089\u548c\u91d1\u82f9\u679c\u8fd9\u6837\u5e26\u6709\u0062\u0075\u0066\u0066\u7684\u98df\u7269\u4ecd\u9700\u8981\u6b63\u5e38\u98df\u7528\u002e";
+val I18N_Thaumic_Exploration_01_37 = "\u7ea4\u7ec6\u7684\u6355\u68a6\u7f51";
+val I18N_Thaumic_Exploration_01_38 = "\u88ab\u8fc7\u6ee4\u7684\u60f3\u6cd5";
+val I18N_Thaumic_Exploration_01_39 = "\u7075\u9b42\u5769\u57da";
+val I18N_Thaumic_Exploration_01_40 = "\u6ce8\u610f\u003a\u8fdc\u79bb\u513f\u7ae5\u002e";
+val I18N_Thaumic_Exploration_01_41 = "\u5143\u5316\u6756\u67c4";
+val I18N_Thaumic_Exploration_01_42 = "\u4e00\u4e2a\u53d8\u4e3a\u53e6\u4e00\u4e2a";
+val I18N_Thaumic_Exploration_01_43 = "\u5143\u5316\u6756\u82af";
+val I18N_Thaumic_Exploration_01_44 = "\u7425\u73c0\u6756\u67c4";
+val I18N_Thaumic_Exploration_01_45 = "\u518d\u751f\u7684\u9b54\u529b\u50a8\u5b58";
+val I18N_Thaumic_Exploration_01_46 = "\u7425\u73c0\u6756\u82af";
+val I18N_Thaumic_Exploration_01_47 = "\u4ea1\u7075\u6756\u82af";
+val I18N_Thaumic_Exploration_01_48 = "\u4ea1\u7075\u4e4b\u529b";
 
 // --- Removing Recipes ---
 
@@ -101,8 +151,8 @@ mods.thaumcraft.Research.removeResearch("DISCOUNTRINGS");
 mods.thaumcraft.Research.addResearch("DiacountringsGTNH", "TX", "vitreus 12, praecantatio 9, lucrum 6, alienis 3", 1, 3, 2, <ThaumicExploration:discountRing:2>);
 mods.thaumcraft.Research.addPrereq("DiacountringsGTNH", "TXBASICARTIFACE", false);
 mods.thaumcraft.Research.setConcealed("DiacountringsGTNH", true);
-game.setLocalization("tc.research_name.DiacountringsGTNH", "\u788e\u7247\u6307\u73af");
-game.setLocalization("tc.research_text.DiacountringsGTNH", "\u9b54\u529b\u51cf\u514d");
+game.setLocalization("tc.research_name.DiacountringsGTNH", I18N_Thaumic_Exploration_01_0);
+game.setLocalization("tc.research_text.DiacountringsGTNH", I18N_Thaumic_Exploration_01_1);
 mods.thaumcraft.Research.addPage("DiacountringsGTNH", "te.text.DISCOUNTRINGS.1");
 mods.thaumcraft.Arcane.addShaped("DiacountringsGTNH", <ThaumicExploration:discountRing>, "aer 25", [
 [<ore:screwInfusedAir>, <Thaumcraft:blockCrystal>, <ore:screwInfusedAir>],
@@ -148,16 +198,12 @@ mods.thaumcraft.Research.addResearch("JarsealGTNH", "TX", "vinculum 18, alienis 
 mods.thaumcraft.Research.addPrereq("JarsealGTNH", "TALLOW", false);
 mods.thaumcraft.Research.addPrereq("JarsealGTNH", "JARLABEL", false);
 mods.thaumcraft.Research.setConcealed("JarsealGTNH", true);
-game.setLocalization("tc.research_name.JarsealGTNH", "\u7f50\u5b50\u5c01\u8721");
-game.setLocalization("tc.research_text.JarsealGTNH", "\u6e90\u8d28,\u65e0\u5904\u4e0d\u5728\u7684\u6e90\u8d28");
+game.setLocalization("tc.research_name.JarsealGTNH", I18N_Thaumic_Exploration_01_2);
+game.setLocalization("tc.research_text.JarsealGTNH", I18N_Thaumic_Exploration_01_3);
 mods.thaumcraft.Research.addPage("JarsealGTNH", "tc.research_page.JarsealGTNH.1");
-game.setLocalization("tc.research_page.JarsealGTNH.1", "\u901a\u8fc7\u8c03\u6574\u6cb9\u8102\u5c01\u8721\u6d78\u6ce1\u7684\u8981\u7d20\u6df7\u5408\u6765\u63a2\u7a76\u6e90\u8d28\u7684\u795e\u79d8\u6027,\u4f60\u80fd\u7ed1\u5b9a\u8981\u7d20\u6e90\u8d28\u5bb9\u5668,\u5c24\u5176\u662f\u8981\u7d20\u7f50\u5b50.
-\u5c31\u50cf\u4e4b\u524d\u7684\u5c01\u8721\u4e00\u6837,\u7f50\u5b50\u5c01\u8721\u4e5f\u80fd\u67d3\u8272\u5e76\u4e14\u6709\u65e0\u9650\u5236\u7684\u7f51\u7edc\u6570\u91cf.");
+game.setLocalization("tc.research_page.JarsealGTNH.1", I18N_Thaumic_Exploration_01_4);
 mods.thaumcraft.Research.addPage("JarsealGTNH", "tc.research_page.JarsealGTNH.2");
-game.setLocalization("tc.research_page.JarsealGTNH.2","\u7528\u7f50\u5b50\u8702\u8721\u53f3\u51fb\u7f50\u5b50,\u4f60\u80fd\u521b\u5efa\u4e00\u4e2a\u7f51\u7edc. \u53f3\u51fb\u7ed1\u5b9a\u7f50\u5b50\u4f1a\u5c06\u5c01\u8721\u4e0e\u8be5\u7f51\u7edc\u5173\u8054.
-\u518d\u7528\u5df2\u5173\u8054\u7684\u5c01\u8721\u53f3\u51fb\u672a\u7ed1\u5b9a\u7684\u7f50\u5b50\u4f1a\u5c06\u5b83\u52a0\u5165\u7f51\u7edc.\u6ce8\u610f\u53ea\u6709\u7a7a\u7f50\u5b50\u624d\u80fd\u88ab\u7ed1\u5b9a.
-\u4f60\u4e0d\u80fd\u7ed1\u5b9a\u865a\u7a7a\u7f50\u5b50\u6216\u6709\u6807\u7b7e\u7684\u7f50\u5b50.
-\u7ed1\u5b9a\u8fc7\u7684\u7f50\u5b50\u7684\u4f18\u5148\u7ea7\u9ad8\u4e8e\u65e0\u6807\u7b7e\u7f50\u5b50,\u4f46\u4f4e\u4e8e\u6709\u6807\u7b7e\u7684\u7f50\u5b50.");
+game.setLocalization("tc.research_page.JarsealGTNH.2",I18N_Thaumic_Exploration_01_5);
 mods.thaumcraft.Arcane.addShaped("JarsealGTNH", <ThaumicExploration:blankSeal:15>, "aer 5, aqua 5, ignis 5, terra 5", [
 [<ore:dyeWhite>, <Thaumcraft:ItemResource:4>, <ore:dyeWhite>],
 [<Thaumcraft:ItemResource:4>, <ore:plateStone>, <Thaumcraft:ItemResource:4>],
@@ -292,13 +338,10 @@ mods.thaumcraft.Research.removeResearch("FLOATCANDLE");
 mods.thaumcraft.Research.addResearch("FloatingcandleGTNH", "TX", "aer 12, pannus 9, praecantatio 6, volatus 3", -7 as int, -9 as int, 2, <ThaumicExploration:floatCandle>);
 mods.thaumcraft.Research.addPrereq("FloatingcandleGTNH", "TXTALLOW", false);
 mods.thaumcraft.Research.setConcealed("FloatingcandleGTNH", true);
-game.setLocalization("tc.research_name.FloatingcandleGTNH", "\u6d6e\u7a7a\u8721\u70db");
-game.setLocalization("tc.research_text.FloatingcandleGTNH", "Wingardium Leviosa(\u6d6e\u7a7a\u5492)");
+game.setLocalization("tc.research_name.FloatingcandleGTNH", I18N_Thaumic_Exploration_01_6);
+game.setLocalization("tc.research_text.FloatingcandleGTNH", I18N_Thaumic_Exploration_01_7);
 mods.thaumcraft.Research.addPage("FloatingcandleGTNH", "tc.research_page.FloatingcandleGTNH");
-game.setLocalization("tc.research_page.FloatingcandleGTNH", "\u4f60\u603b\u89c9\u5f97\u4f18\u8d28\u8721\u70db\u8fd8\u7f3a\u70b9\u4ec0\u4e48...
-\u5229\u7528\u5728\u9b54\u6cd5\u5b66\u6821\u6240\u5b66\u65bd\u4e0a\u4e00\u70b9\u9b54\u6cd5\u914d\u5408\u98ce\u4e4b\u788e\u7247\u8ba9\u5b83\u4eec\u770b\u7740\u66f4\u8212\u670d\u4e9b.
-\u6d6e\u7a7a\u8721\u70db\u80fd\u76f4\u63a5\u653e\u7f6e\u5728\u534a\u7a7a\u4e2d\u65e0\u9700\u652f\u6491,\u8fd9\u4e9b\u8721\u70db\u4e0a\u4e0b\u7f13\u6162\u6d6e\u52a8,\u7ed9\u7a7a\u95f4\u5185\u6dfb\u4e0a\u9b54\u6cd5\u7684\u6c1b\u56f4.
-\u4e0d\u5e78\u7684\u662f,\u8fd9\u4e9b\u8721\u70db\u5bf9\u6ce8\u9b54\u4f3c\u4e4e\u6beb\u65e0\u4f5c\u7528.\u4f60\u786e\u4fe1\u5728\u4e0d\u8fdc\u7684\u5c06\u6765\u80fd\u89e3\u51b3\u8fd9\u4e2a\u95ee\u9898.");
+game.setLocalization("tc.research_page.FloatingcandleGTNH", I18N_Thaumic_Exploration_01_8);
 mods.thaumcraft.Arcane.addShaped("FloatingcandleGTNH", <ThaumicExploration:floatCandle> * 3, "aer 15", [
 [<Thaumcraft:blockCandle>, <Thaumcraft:blockCandle>, <Thaumcraft:blockCandle>],
 [<ore:plateInfusedAir>, <ore:plateInfusedAir>, <ore:plateInfusedAir>],
@@ -404,8 +447,8 @@ mods.thaumcraft.Research.addPrereq("ReplicatorGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.addPrereq("ReplicatorGTNH", "TXDISTILESSENTIA", false);
 mods.thaumcraft.Research.addPrereq("ReplicatorGTNH", "THAUMIUM", false);
 mods.thaumcraft.Research.setConcealed("ReplicatorGTNH", true);
-game.setLocalization("tc.research_name.ReplicatorGTNH", "\u795e\u79d8\u590d\u5236\u5668");
-game.setLocalization("tc.research_text.ReplicatorGTNH", "\u7b49\u4ef7\u4ea4\u6362");
+game.setLocalization("tc.research_name.ReplicatorGTNH", I18N_Thaumic_Exploration_01_9);
+game.setLocalization("tc.research_text.ReplicatorGTNH", I18N_Thaumic_Exploration_01_10);
 mods.thaumcraft.Research.addPage("ReplicatorGTNH", "te.text.REPLICATOR.1");
 mods.thaumcraft.Research.addPage("ReplicatorGTNH", "te.text.REPLICATOR.2");
 mods.thaumcraft.Infusion.addRecipe("ReplicatorGTNH", <Thaumcraft:blockStoneDevice:2>,
@@ -423,8 +466,8 @@ mods.thaumcraft.Research.addPrereq("TrashjarGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.addPrereq("TrashjarGTNH", "WARDEDARCANA", false);
 mods.thaumcraft.Research.addPrereq("TrashjarGTNH", "HUNGRYCHEST", false);
 mods.thaumcraft.Research.setConcealed("TrashjarGTNH", true);
-game.setLocalization("tc.research_name.TrashjarGTNH", "\u6cef\u706d\u4e4b\u7f50");
-game.setLocalization("tc.research_text.TrashjarGTNH", "\u6e90\u8d28\u9500\u6bc1");
+game.setLocalization("tc.research_name.TrashjarGTNH", I18N_Thaumic_Exploration_01_11);
+game.setLocalization("tc.research_text.TrashjarGTNH", I18N_Thaumic_Exploration_01_12);
 mods.thaumcraft.Research.addPage("TrashjarGTNH", "te.text.TRASHJAR.1");
 mods.thaumcraft.Research.addPage("TrashjarGTNH", "te.text.TRASHJAR.2");
 mods.thaumcraft.Infusion.addRecipe("TrashjarGTNH", <Thaumcraft:blockJar:3>,
@@ -441,8 +484,8 @@ mods.thaumcraft.Research.addPrereq("MeteorbootsGTNH", "TXBOOTSTRAVELLER", false)
 mods.thaumcraft.Research.addPrereq("MeteorbootsGTNH", "FOCUSFIRE", false);
 mods.thaumcraft.Research.addPrereq("MeteorbootsGTNH", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("MeteorbootsGTNH", true);
-game.setLocalization("tc.research_name.MeteorbootsGTNH", "\u6d41\u661f\u4e4b\u9774");
-game.setLocalization("tc.research_text.MeteorbootsGTNH", "\u6765\u5427,\u7830!");
+game.setLocalization("tc.research_name.MeteorbootsGTNH", I18N_Thaumic_Exploration_01_13);
+game.setLocalization("tc.research_text.MeteorbootsGTNH", I18N_Thaumic_Exploration_01_14);
 mods.thaumcraft.Research.addPage("MeteorbootsGTNH", "te.text.METEORBOOTS.1");
 mods.thaumcraft.Infusion.addRecipe("MeteorbootsGTNH", <Thaumcraft:BootsTraveller:*>,
 [<Thaumcraft:FocusFire>, <gregtech:gt.metaitem.01:17347>, <Thaumcraft:blockCrystal:1>, <gregtech:gt.metaitem.01:17347>, <gregtech:gt.metaitem.01:17347>, <gregtech:gt.metaitem.01:17347>, <Thaumcraft:blockCrystal:1>, <gregtech:gt.metaitem.01:17347>], 
@@ -457,8 +500,8 @@ mods.thaumcraft.Research.addPrereq("CometsbootsGTNH", "TXBOOTSTRAVELLER", false)
 mods.thaumcraft.Research.addPrereq("CometsbootsGTNH", "FOCUSFROST", false);
 mods.thaumcraft.Research.addPrereq("CometsbootsGTNH", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("CometsbootsGTNH", true);
-game.setLocalization("tc.research_name.CometsbootsGTNH", "\u5f57\u661f\u4e4b\u9774");
-game.setLocalization("tc.research_text.CometsbootsGTNH", "\u51b0\u51bb\u5427!");
+game.setLocalization("tc.research_name.CometsbootsGTNH", I18N_Thaumic_Exploration_01_15);
+game.setLocalization("tc.research_text.CometsbootsGTNH", I18N_Thaumic_Exploration_01_16);
 mods.thaumcraft.Research.addPage("CometsbootsGTNH", "te.text.COMETBOOTS.1");
 mods.thaumcraft.Infusion.addRecipe("CometsbootsGTNH", <Thaumcraft:BootsTraveller:*>,
 [<Thaumcraft:FocusFrost>, <BiomesOPlenty:hardIce>, <Thaumcraft:blockCrystal:2>, <BiomesOPlenty:hardIce>, <BiomesOPlenty:hardIce>, <BiomesOPlenty:hardIce>, <Thaumcraft:blockCrystal:2>, <BiomesOPlenty:hardIce>], 
@@ -475,8 +518,8 @@ mods.thaumcraft.Research.addPrereq("SoulbraizerGTNH", "VOIDMETAL", false);
 mods.thaumcraft.Research.addPrereq("SoulbraizerGTNH", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("SoulbraizerGTNH", "SANESOAP", false);
 mods.thaumcraft.Research.setConcealed("SoulbraizerGTNH", true);
-game.setLocalization("tc.research_name.SoulbraizerGTNH", "\u7075\u9b42\u706b\u76c6");
-game.setLocalization("tc.research_text.SoulbraizerGTNH", "\u626d\u66f2\u53ef\u4e0d\u662f\u95f9\u7740\u73a9\u7684?");
+game.setLocalization("tc.research_name.SoulbraizerGTNH", I18N_Thaumic_Exploration_01_17);
+game.setLocalization("tc.research_text.SoulbraizerGTNH", I18N_Thaumic_Exploration_01_18);
 mods.thaumcraft.Research.addPage("SoulbraizerGTNH", "te.text.SOULBRAZIER.1");
 mods.thaumcraft.Infusion.addRecipe("SoulbraizerGTNH", <minecraft:nether_star>,
 [<Thaumcraft:ItemZombieBrain>, <Thaumcraft:ItemSanitySoap>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11970>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11970>, <Thaumcraft:blockCosmeticSolid:7>, <gregtech:gt.metaitem.01:11970>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:ItemSanitySoap>], 
@@ -490,14 +533,10 @@ mods.thaumcraft.Research.addResearch("UrnGTNH", "TX", "aqua 15, praecantatio 12,
 mods.thaumcraft.Research.addPrereq("UrnGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.addPrereq("UrnGTNH", "ARCANEEAR", false);
 mods.thaumcraft.Research.setConcealed("UrnGTNH", true);
-game.setLocalization("tc.research_name.UrnGTNH", "\u65e0\u5c3d\u4e4b\u58f6");
-game.setLocalization("tc.research_text.UrnGTNH", "\u4f3c\u66fe\u76f8\u8bc6... ");
+game.setLocalization("tc.research_name.UrnGTNH", I18N_Thaumic_Exploration_01_19);
+game.setLocalization("tc.research_text.UrnGTNH", I18N_Thaumic_Exploration_01_20);
 mods.thaumcraft.Research.addPage("UrnGTNH", "tc.research_page.UrnGTNH");
-game.setLocalization("tc.research_page.UrnGTNH", "\u4f60\u5728\u7814\u7a76\u4e2d\u8bfb\u5230\u4e86\u8bb8\u591a\u5173\u4e8e'\u65e0\u5c3d\u4e4b\u58f6'\u7684\u4e1c\u897f,\u4e00\u4e2a\u7531\u4f1f\u5927\u7684\u795e\u79d8\u4f7fAzanor\u521b\u4f5c\u7684\u795e\u79d8\u88c5\u7f6e,\u53ef\u4f5c\u4e3a\u4e00\u4e2a\u65e0\u9650\u6c34\u6e90\u800c\u5de5\u4f5c.
-\u4f60\u7ec8\u4e8e\u505a\u51fa\u4e86\u4e00\u4e2a\u80fd\u90a3\u6837\u5de5\u4f5c\u5e76\u6709\u5176\u4ed6\u529f\u80fd\u7684\u88c5\u7f6e.
-\u4f60\u7684\u65e0\u5c3d\u4e4b\u58f6\u4e0d\u4ec5\u53ef\u4ee5\u88c5\u6ee1\u65e0\u9650\u6876\u6c34,\u5b83\u4e5f\u80fd\u4ece\u9876\u90e8\u7528\u7ba1\u9053\u5bfc\u51fa\u6c34\u5230\u5916\u90e8\u5bb9\u5668.
-\u4f60\u7684\u58f6\u4e5f\u80fd\u4e3b\u52a8\u586b\u6ee1\u9644\u8fd1\u7684\u5769\u57da,\u7ed9\u7740\u706b\u7684\u73a9\u5bb6\u706d\u706b.
-\u82e5\u662f\u4f60\u9009\u62e9\u6d89\u730e\u690d\u7269\u9b54\u6cd5\u7684\u8bdd,\u8fd9\u4e2a\u58f6\u4e5f\u80fd\u4e3b\u52a8\u586b\u6ee1\u9644\u8fd1\u7684\u82b1\u836f\u53f0.");
+game.setLocalization("tc.research_page.UrnGTNH", I18N_Thaumic_Exploration_01_21);
 mods.thaumcraft.Infusion.addRecipe("UrnGTNH", <minecraft:flower_pot>,
 [<minecraft:water_bucket>, <minecraft:netherbrick>, <minecraft:water_bucket>, <gregtech:gt.metaitem.01:17028>, <minecraft:water_bucket>, <minecraft:netherbrick>, <minecraft:water_bucket>, <minecraft:brick>, <minecraft:water_bucket>, <gregtech:gt.metaitem.01:17028>, <minecraft:water_bucket>, <minecraft:brick>], 
 "aqua 64, praecantatio 48, vacuos 32, alienis 32, lucrum 16", <ThaumicExploration:everfullUrn>, 9);
@@ -509,8 +548,8 @@ mods.thaumcraft.Research.removeResearch("BURN");
 mods.thaumcraft.Research.addResearch("BurnGTNH", "TX", "ignis 15, praecantatio 12, vacuos 9, alienis 6, lucrum 3", 4, -11 as int, 4, <ThaumicExploration:everburnUrn>);
 mods.thaumcraft.Research.addPrereq("BurnGTNH", "UrnGTNH", false);
 mods.thaumcraft.Research.setConcealed("BurnGTNH", true);
-game.setLocalization("tc.research_name.BurnGTNH", "\u70bc\u72f1\u4e4b\u58f6");
-game.setLocalization("tc.research_text.BurnGTNH", "\u4e3a\u4ec0\u4e48\u6211\u80fd\u7406\u89e3\u706b??");
+game.setLocalization("tc.research_name.BurnGTNH", I18N_Thaumic_Exploration_01_22);
+game.setLocalization("tc.research_text.BurnGTNH", I18N_Thaumic_Exploration_01_23);
 mods.thaumcraft.Research.addPage("BurnGTNH", "te.text.BURN.1");
 mods.thaumcraft.Infusion.addRecipe("BurnGTNH", <minecraft:flower_pot>,
 [<minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <gregtech:gt.blockcasings5:3>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.blockcasings5:3>, <minecraft:lava_bucket>, <minecraft:netherbrick>, <minecraft:lava_bucket>, <minecraft:brick>, <minecraft:lava_bucket>, <gregtech:gt.blockcasings5:3>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.blockcasings5:3>, <minecraft:lava_bucket>, <minecraft:brick>], 
@@ -524,8 +563,8 @@ mods.thaumcraft.Research.addResearch("CAP_SOJOURNER", "TX", "auram 15, permutati
 mods.thaumcraft.Research.addPrereq("CAP_SOJOURNER", "TXCAP_thaumium", false);
 mods.thaumcraft.Research.addPrereq("CAP_SOJOURNER", "WANDPED", false);
 mods.thaumcraft.Research.setConcealed("CAP_SOJOURNER", true);
-game.setLocalization("tc.research_name.CAP_SOJOURNER", "\u7d22\u6770\u7eb3\u6756\u7aef");
-game.setLocalization("tc.research_text.CAP_SOJOURNER", "\u7075\u6027\u7684\u6cd5\u6756\u6756\u7aef");
+game.setLocalization("tc.research_name.CAP_SOJOURNER", I18N_Thaumic_Exploration_01_24);
+game.setLocalization("tc.research_text.CAP_SOJOURNER", I18N_Thaumic_Exploration_01_25);
 mods.thaumcraft.Research.addPage("CAP_SOJOURNER", "te.text.CAP_SOJOURNER.1");
 mods.thaumcraft.Arcane.addShaped("CAP_SOJOURNER", <ThaumicExploration:sojournerCapUncharged>, "aer 35, perditio 35, ordo 35, aqua 35", [
 [<ore:screwDiamond>, <ore:plateLapis>, <ore:screwDiamond>],
@@ -544,8 +583,8 @@ mods.thaumcraft.Research.addResearch("CAP_MECHANIST", "TX", "auram 15, machina 1
 mods.thaumcraft.Research.addPrereq("CAP_MECHANIST", "TXCAP_thaumium", false);
 mods.thaumcraft.Research.addPrereq("CAP_MECHANIST", "NODETAPPER2", false);
 mods.thaumcraft.Research.setConcealed("CAP_MECHANIST", true);
-game.setLocalization("tc.research_name.CAP_MECHANIST", "\u673a\u68b0\u6756\u7aef");
-game.setLocalization("tc.research_text.CAP_MECHANIST", "\u673a\u68b0\u5e08\u7684\u6cd5\u6756\u6756\u7aef");
+game.setLocalization("tc.research_name.CAP_MECHANIST", I18N_Thaumic_Exploration_01_26);
+game.setLocalization("tc.research_text.CAP_MECHANIST", I18N_Thaumic_Exploration_01_27);
 mods.thaumcraft.Research.addPage("CAP_MECHANIST", "te.text.CAP_MECHANIST.1");
 mods.thaumcraft.Arcane.addShaped("CAP_MECHANIST", <ThaumicExploration:mechanistCapUncharged>, "aer 35, perditio 35, ordo 35, aqua 35", [
 [<ore:screwDiamond>, <ore:plateRedstone>, <ore:screwDiamond>],
@@ -564,8 +603,8 @@ mods.thaumcraft.Research.addResearch("StabilizerbeltGTNH", "TX", "ordo 18, terra
 mods.thaumcraft.Research.addPrereq("StabilizerbeltGTNH", "TXHOVERHARNESS", false);
 mods.thaumcraft.Research.addPrereq("StabilizerbeltGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.setConcealed("StabilizerbeltGTNH", true);
-game.setLocalization("tc.research_name.StabilizerbeltGTNH", "\u5965\u6cd5\u52a0\u62a4\u8170\u5e26");
-game.setLocalization("tc.research_text.StabilizerbeltGTNH", "\u5929\u56fd\u7684\u51fb\u9000");
+game.setLocalization("tc.research_name.StabilizerbeltGTNH", I18N_Thaumic_Exploration_01_28);
+game.setLocalization("tc.research_text.StabilizerbeltGTNH", I18N_Thaumic_Exploration_01_29);
 mods.thaumcraft.Research.addPage("StabilizerbeltGTNH", "te.text.STABILIZERBELT.1");
 mods.thaumcraft.Infusion.addRecipe("StabilizerbeltGTNH", <Thaumcraft:ItemBaubleBlanks:2>,
 [<gregtech:gt.metaitem.01:32640>, <gregtech:gt.metaitem.02:23330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.02:23330>, <gregtech:gt.metaitem.01:24500>, <gregtech:gt.metaitem.02:23330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.02:23330>], 
@@ -593,8 +632,8 @@ mods.thaumcraft.Research.removeResearch("FLESHCURE");
 mods.thaumcraft.Research.addResearch("FleshcureGTNH", "TX", "pannus 15, tutamen 12, corpus 9, permutatio 6, alienis 3", -4 as int, -10 as int, 2, <minecraft:rotten_flesh>);
 mods.thaumcraft.Research.addPrereq("FleshcureGTNH", "TXTALLOW", false);
 mods.thaumcraft.Research.setConcealed("FleshcureGTNH", true);
-game.setLocalization("tc.research_name.FleshcureGTNH", "\u8150\u8089\u63d0\u70bc");
-game.setLocalization("tc.research_text.FleshcureGTNH", "\u4f7f\u4e8b\u60c5\u53d8\u5f97\u66f4\u597d");
+game.setLocalization("tc.research_name.FleshcureGTNH", I18N_Thaumic_Exploration_01_30);
+game.setLocalization("tc.research_text.FleshcureGTNH", I18N_Thaumic_Exploration_01_31);
 mods.thaumcraft.Research.addPage("FleshcureGTNH", "te.text.FLESHCURE.1");
 mods.thaumcraft.Crucible.addRecipe("FleshcureGTNH", <minecraft:leather>, <minecraft:rotten_flesh>, "corpus 4, pannus 4, permutatio 4");
 mods.thaumcraft.Research.addCruciblePage("FleshcureGTNH", <minecraft:leather>);
@@ -607,8 +646,8 @@ mods.thaumcraft.Research.addPrereq("BraincureGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.addPrereq("BraincureGTNH", "JARBRAIN", false);
 mods.thaumcraft.Research.addPrereq("BraincureGTNH", "FleshcureGTNH", false);
 mods.thaumcraft.Research.setConcealed("BraincureGTNH", true);
-game.setLocalization("tc.research_name.BraincureGTNH", "\u50f5\u8111\u51c0\u5316");
-game.setLocalization("tc.research_text.BraincureGTNH", "\u4e0d\u8981\u653e\u5f03\u6cbb\u7597");
+game.setLocalization("tc.research_name.BraincureGTNH", I18N_Thaumic_Exploration_01_32);
+game.setLocalization("tc.research_text.BraincureGTNH", I18N_Thaumic_Exploration_01_33);
 mods.thaumcraft.Research.addPage("BraincureGTNH", "te.text.BRAINCURE.1");
 mods.thaumcraft.Infusion.addRecipe("BraincureGTNH", <Thaumcraft:ItemZombieBrain>,
 [<minecraft:water_bucket>, <Thaumcraft:ItemResource:14>, <minecraft:potion:8264>, <Thaumcraft:ItemResource:14>, <minecraft:golden_apple>, <Thaumcraft:ItemResource:14>], 
@@ -622,12 +661,10 @@ mods.thaumcraft.Research.addResearch("TalismanfoodtGTNH", "TX", "fames 18, pannu
 mods.thaumcraft.Research.addPrereq("TalismanfoodtGTNH", "FleshcureGTNH", false);
 mods.thaumcraft.Research.addPrereq("TalismanfoodtGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.setConcealed("TalismanfoodtGTNH", true);
-game.setLocalization("tc.research_name.TalismanfoodtGTNH", "\u8865\u7ed9\u4e4b\u7b26");
-game.setLocalization("tc.research_text.TalismanfoodtGTNH", "\u586b\u9971\u809a\u5b50");
+game.setLocalization("tc.research_name.TalismanfoodtGTNH", I18N_Thaumic_Exploration_01_34);
+game.setLocalization("tc.research_text.TalismanfoodtGTNH", I18N_Thaumic_Exploration_01_35);
 mods.thaumcraft.Research.addPage("TalismanfoodtGTNH", "tc.research_page.TalismanfoodtGTNH");
-game.setLocalization("tc.research_page.TalismanfoodtGTNH", "\u4f60\u5e38\u5e38\u53d1\u73b0\u4f60\u5728\u957f\u65f6\u95f4\u7684\u7814\u7a76\u5de5\u4f5c\u4e2d\u9700\u8981\u505c\u4e0b\u6765\u5403\u70b9\u4e1c\u897f,\u7ec8\u4e8e\u4f60\u627e\u5230\u4e86\u65b9\u6cd5\u6ee1\u8db3\u5bf9\u98df\u7269\u7684\u9700\u6c42.
-\u901a\u8fc7\u7ed9\u4e00\u9897\u94bb\u77f3\u6ce8\u5165\u9965\u997f(Fames)\u6e90\u8d28,\u4f60\u505a\u51fa\u4e86\u4e00\u4e2a\u80fd\u4ece\u5de5\u5177\u680f\u7684\u5404\u79cd\u98df\u7269\u4e2d\u5438\u53d6\u8425\u517b\u6210\u5206\u5e76\u50a8\u5b58\u7684\u7269\u54c1. \u4e4b\u540e\u5b83\u4f1a\u81ea\u52a8\u8865\u5145\u4f60\u7684\u9971\u98df\u5ea6.
-\u5b83\u53ea\u5bf9\u666e\u901a\u7684\u98df\u7269\u6709\u6548,\u6240\u4ee5\u50cf\u8150\u8089\u548c\u91d1\u82f9\u679c\u8fd9\u6837\u5e26\u6709buff\u7684\u98df\u7269\u4ecd\u9700\u8981\u6b63\u5e38\u98df\u7528.");
+game.setLocalization("tc.research_page.TalismanfoodtGTNH", I18N_Thaumic_Exploration_01_36);
 mods.thaumcraft.Infusion.addRecipe("TalismanfoodtGTNH", <Thaumcraft:ItemResource:15>,
 [<gregtech:gt.metaitem.02:30502>, <harvestcraft:heartybreakfastItem>, <harvestcraft:rainbowcurryItem>, <harvestcraft:supremepizzaItem>, <harvestcraft:sausageinbreadItem>, <harvestcraft:beefwellingtonItem>, <harvestcraft:epicbaconItem>, <harvestcraft:meatfeastpizzaItem>, <harvestcraft:delightedmealItem>], 
 "fames 64, pannus 48, messis 24, sano 24, permutatio 32, ordo 16", <ThaumicExploration:talismanFood>, 6);
@@ -643,8 +680,8 @@ mods.thaumcraft.Research.removeResearch("DREAMCATCHER");
 mods.thaumcraft.Research.addResearch("DreamcatcherGTNH", "TX", "vitium 15, cognitio 12, instrumentum 9, metallum 6, praecantatio 3", -7 as int, 2, 3, <ThaumicExploration:charmNoTaint>);
 mods.thaumcraft.Research.addPrereq("DreamcatcherGTNH", "TAINTBASICS", false);
 mods.thaumcraft.Research.setConcealed("DreamcatcherGTNH", true);
-game.setLocalization("tc.research_name.DreamcatcherGTNH", "\u7ea4\u7ec6\u7684\u6355\u68a6\u7f51");
-game.setLocalization("tc.research_text.DreamcatcherGTNH", "\u90a3\u4e9b\u4e0d\u597d\u7684\u60f3\u6cd5");
+game.setLocalization("tc.research_name.DreamcatcherGTNH", I18N_Thaumic_Exploration_01_37);
+game.setLocalization("tc.research_text.DreamcatcherGTNH", I18N_Thaumic_Exploration_01_38);
 mods.thaumcraft.Research.addPage("DreamcatcherGTNH", "te.text.DREAMCATCHER.1");
 mods.thaumcraft.Arcane.addShaped("DreamcatcherGTNH", <ThaumicExploration:charmNoTaint>, "ordo 25, perditio 25, terra 25", [
 [<Thaumcraft:WandRod>, <Thaumcraft:ItemResource:12>, <Thaumcraft:WandRod>],
@@ -660,8 +697,8 @@ mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "TXDISTILESSENTIA", false);
 mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "BraincureGTNH", true);
 mods.thaumcraft.Research.addPrereq("CrucsoulGTNH", "TXINFUSION", false);
 mods.thaumcraft.Research.setConcealed("CrucsoulGTNH", true);
-game.setLocalization("tc.research_name.CrucsoulGTNH", "\u7075\u9b42\u5769\u57da");
-game.setLocalization("tc.research_text.CrucsoulGTNH", "\u6ce8\u610f:\u8fdc\u79bb\u513f\u7ae5.");
+game.setLocalization("tc.research_name.CrucsoulGTNH", I18N_Thaumic_Exploration_01_39);
+game.setLocalization("tc.research_text.CrucsoulGTNH", I18N_Thaumic_Exploration_01_40);
 mods.thaumcraft.Research.addPage("CrucsoulGTNH", "te.text.CRUCSOULS.1");
 mods.thaumcraft.Research.addPage("CrucsoulGTNH", "te.text.CRUCSOULS.2");
 mods.thaumcraft.Infusion.addRecipe("CrucsoulGTNH", <Thaumcraft:blockStoneDevice>,
@@ -684,8 +721,8 @@ mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "TXROD_greatwood", false
 mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "TXBASICARTIFACE", false);
 mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "TXINFUSION", true);
 mods.thaumcraft.Research.setConcealed("ROD_TRANSMUTATION", true);
-game.setLocalization("tc.research_name.ROD_TRANSMUTATION", "\u5143\u5316\u6756\u67c4");
-game.setLocalization("tc.research_text.ROD_TRANSMUTATION", "\u4e00\u4e2a\u53d8\u4e3a\u53e6\u4e00\u4e2a");
+game.setLocalization("tc.research_name.ROD_TRANSMUTATION", I18N_Thaumic_Exploration_01_41);
+game.setLocalization("tc.research_text.ROD_TRANSMUTATION", I18N_Thaumic_Exploration_01_42);
 mods.thaumcraft.Research.addPage("ROD_TRANSMUTATION", "te.text.ROD_TRANSMUTATION.1");
 mods.thaumcraft.Infusion.addRecipe("ROD_TRANSMUTATION", <Thaumcraft:WandRod>,
 [<Thaumcraft:ItemResource:14>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:blockCrystal:3>, <Thaumcraft:blockCrystal:4>, <Thaumcraft:blockCrystal:5>, <Thaumcraft:blockCrystal:6>], 
@@ -700,8 +737,8 @@ mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION_staff", "TXROD_greatwood_s
 mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION_staff", "ROD_TRANSMUTATION", false);
 mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION_staff", "TXBASICARTIFACE", false);
 mods.thaumcraft.Research.setConcealed("ROD_TRANSMUTATION_staff", true);
-game.setLocalization("tc.research_name.ROD_TRANSMUTATION_staff", "\u5143\u5316\u6756\u82af");
-game.setLocalization("tc.research_text.ROD_TRANSMUTATION_staff", "\u4e00\u4e2a\u53d8\u4e3a\u53e6\u4e00\u4e2a");
+game.setLocalization("tc.research_name.ROD_TRANSMUTATION_staff", I18N_Thaumic_Exploration_01_43);
+game.setLocalization("tc.research_text.ROD_TRANSMUTATION_staff", I18N_Thaumic_Exploration_01_42);
 mods.thaumcraft.Research.addPage("ROD_TRANSMUTATION_staff", "te.text.ROD_TRANSMUTATION_staff.1");
 mods.thaumcraft.Arcane.addShaped("ROD_TRANSMUTATION_staff", <ThaumicExploration:transmutationStaffCore>, "ordo 85, perditio 85, terra 85, aqua 85, ignis 85, aer 85", [
 [<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
@@ -715,8 +752,8 @@ mods.thaumcraft.Research.removeResearch("ROD_AMBER");
 mods.thaumcraft.Research.addResearch("ROD_AMBER", "TX", "auram 15, instrumentum 12, praecantatio 9, vinculum 6, vitreus 3", -5 as int, -1 as int, 4, <ThaumicExploration:amberCore>);
 mods.thaumcraft.Research.addPrereq("ROD_AMBER", "TXROD_greatwood", false);
 mods.thaumcraft.Research.setConcealed("ROD_AMBER", true);
-game.setLocalization("tc.research_name.ROD_AMBER", "\u7425\u73c0\u6756\u67c4");
-game.setLocalization("tc.research_text.ROD_AMBER", "\u518d\u751f\u7684\u9b54\u529b\u50a8\u5b58");
+game.setLocalization("tc.research_name.ROD_AMBER", I18N_Thaumic_Exploration_01_44);
+game.setLocalization("tc.research_text.ROD_AMBER", I18N_Thaumic_Exploration_01_45);
 mods.thaumcraft.Research.addPage("ROD_AMBER", "te.text.ROD_AMBER.1");
 mods.thaumcraft.Infusion.addRecipe("ROD_AMBER", <gregtech:gt.metaitem.01:23514>,
 [<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:6>], 
@@ -730,8 +767,8 @@ mods.thaumcraft.Research.addResearch("ROD_AMBER_staff", "TX", "vinculum 18, inst
 mods.thaumcraft.Research.addPrereq("ROD_AMBER_staff", "TXROD_greatwood_staff", false);
 mods.thaumcraft.Research.addPrereq("ROD_AMBER_staff", "TXBASICARTIFACE", true);
 mods.thaumcraft.Research.setConcealed("ROD_AMBER_staff", true);
-game.setLocalization("tc.research_name.ROD_AMBER_staff", "\u7425\u73c0\u6756\u82af");
-game.setLocalization("tc.research_text.ROD_AMBER_staff", "\u518d\u751f\u7684\u9b54\u529b\u50a8\u5b58");
+game.setLocalization("tc.research_name.ROD_AMBER_staff", I18N_Thaumic_Exploration_01_46);
+game.setLocalization("tc.research_text.ROD_AMBER_staff", I18N_Thaumic_Exploration_01_45);
 mods.thaumcraft.Research.addPage("ROD_AMBER_staff", "te.text.ROD_AMBER_staff.1");
 mods.thaumcraft.Arcane.addShaped("ROD_AMBER_staff", <ThaumicExploration:amberStaffCore>, "ordo 85, perditio 85, terra 85, aqua 85, ignis 85, aer 85", [
 [<Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:1>, <Thaumcraft:ItemResource:15>],
@@ -746,8 +783,8 @@ mods.thaumcraft.Research.addResearch("ROD_NECROMANCER_staff", "TX", "mortuus 21,
 mods.thaumcraft.Research.addPrereq("ROD_NECROMANCER_staff", "TXROD_greatwood_staff", false);
 mods.thaumcraft.Research.addPrereq("ROD_NECROMANCER_staff", "BraincureGTNH", true);
 mods.thaumcraft.Research.setConcealed("ROD_NECROMANCER_staff", true);
-game.setLocalization("tc.research_name.ROD_NECROMANCER_staff", "\u4ea1\u7075\u6756\u82af");
-game.setLocalization("tc.research_text.ROD_NECROMANCER_staff", "\u4ea1\u7075\u7684\u529b\u91cf");
+game.setLocalization("tc.research_name.ROD_NECROMANCER_staff", I18N_Thaumic_Exploration_01_47);
+game.setLocalization("tc.research_text.ROD_NECROMANCER_staff", I18N_Thaumic_Exploration_01_48);
 mods.thaumcraft.Research.addPage("ROD_NECROMANCER_staff", "te.text.ROD_NECROMANCER_staff.1");
 mods.thaumcraft.Infusion.addRecipe("ROD_NECROMANCER_staff", <Thaumcraft:WandRod:57>,
 [<minecraft:skull:1>, <ThaumicExploration:pureZombieBrain>, <minecraft:rotten_flesh>, <minecraft:bone>, <minecraft:nether_star>, <ThaumicExploration:pureZombieBrain>, <minecraft:rotten_flesh>, <minecraft:bone>], 

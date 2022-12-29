@@ -9,6 +9,8 @@ import mods.gregtech.Assembler;
 import mods.nei.NEI;
 
 
+// --- I18N ---
+val I18N_Adv_Solar_Panel_0 = "\u5149\u8f89\u5f3a\u5316\u94f1\u94c1\u5408\u91d1\u677f";
 
 
 // --- Remove Recipes --- 
@@ -145,4 +147,4 @@ Assembler.addRecipe(<AdvancedSolarPanel:asp_crafting_items:4>, <AdvancedSolarPan
 
 
 // --- Irradiant Reinforced Iridium Plate
-NEI.overrideName(<AdvancedSolarPanel:asp_crafting_items:8>, "\u5149\u8f89\u5f3a\u5316\u94f1\u94c1\u5408\u91d1\u677f");
+NEI.overrideName(<AdvancedSolarPanel:asp_crafting_items:8>, I18N_Adv_Solar_Panel_0);

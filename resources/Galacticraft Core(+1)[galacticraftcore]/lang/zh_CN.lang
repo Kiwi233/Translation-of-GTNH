@@ -557,13 +557,13 @@ gui.spaceRace.unnamed=未命名的队伍
 gui.spaceRace.comingSoon=即将来临
 
 gui.message.moon.daynightcycle.0.name=29.5个地球日
-gui.message.moon.daynightcycle.1.name= 
+gui.message.moon.daynightcycle.1.name=
 gui.message.moon.surfacegravity.0.name=0.1654g
 gui.message.moon.surfacegravity.1.name=(地球的18%)
 gui.message.moon.surfacecomposition.0.name=玄武岩与
 gui.message.moon.surfacecomposition.1.name=奶酪的痕迹
 gui.message.moon.atmosphere.0.name=无
-gui.message.moon.atmosphere.1.name= 
+gui.message.moon.atmosphere.1.name=
 gui.message.moon.meansurfacetemp.0.name=(光亮面) 253C 
 gui.message.moon.meansurfacetemp.1.name=(黑暗面) -153C 
 
@@ -576,7 +576,7 @@ gui.message.overworld.surfacecomposition.1.name=砂砾
 gui.message.overworld.atmosphere.0.name=氮气与氧气
 gui.message.overworld.atmosphere.1.name=适合生物生存
 gui.message.overworld.meansurfacetemp.0.name=14C 
-gui.message.overworld.meansurfacetemp.1.name= 
+gui.message.overworld.meansurfacetemp.1.name=
 
 itemDesc.powerdraw.name=能量需求: %s /s
 itemDesc.shift.name=按住%s查看详情
@@ -632,9 +632,7 @@ container.oxygensealer.name=气密装置
 container.parachest.name=伞降箱
 container.refinery.name=精炼器
 container.treasurechest.name=珍品箱
-// --- //container.lander.name=太空登陆舱
-// +++ //container.lander.name=Space Lander
-// ↑↑↑ //container.lander.name=Lander
+container.lander.name=太空登陆舱
 container.spaceship.name=1阶火箭
 container.solarbasic.name=基础太阳能板
 container.solaradvanced.name=高级太阳能板

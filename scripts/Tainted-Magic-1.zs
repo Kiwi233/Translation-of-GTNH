@@ -1,6 +1,83 @@
 // --- Created by DreamMasterXXL ---
 
 
+// --- I18N ---
+val I18N_Tainted_Magic_1_0 = "\u6697\u5f71\u91d1\u5c5e";
+val I18N_Tainted_Magic_1_1 = "\u543e\u5df2\u770b\u89c1\u771f\u76f8";
+val I18N_Tainted_Magic_1_2 = "\u4e0d\u5e73\u8861\u788e\u7247";
+val I18N_Tainted_Magic_1_3 = "\u4f60\u80fd\u5e26\u6765\u002e\u002e\u002e\u0020\u5e73\u8861\u003f";
+val I18N_Tainted_Magic_1_4 = "\u9b54\u6cd5\u7ea4\u6bdb\u83c7";
+val I18N_Tainted_Magic_1_5 = "Is butter a carb?";
+val I18N_Tainted_Magic_1_6 = "\u626d\u66f2\u4e4b\u6728";
+val I18N_Tainted_Magic_1_7 = "\u5b83\u4f1a\u53cd\u51fb";
+val I18N_Tainted_Magic_1_8 = "\u6697\u5f71\u63ed\u793a\u4e4b\u62a4\u76ee\u955c";
+val I18N_Tainted_Magic_1_9 = "The telltale heart";
+val I18N_Tainted_Magic_1_10 = "\u6cd5\u6756\u6838\u5fc3\u003a\u9b54\u529b\u788e\u7247";
+val I18N_Tainted_Magic_1_11 = "\u77ed\u6682\u7684\u566a\u97f3";
+val I18N_Tainted_Magic_1_12 = "\u6cd5\u6756\u6838\u5fc3\u003a\u6cd5\u5e08\u4e4b\u9524";
+val I18N_Tainted_Magic_1_13 = "Yes, just hit them with your staff";
+val I18N_Tainted_Magic_1_14 = "\u6697\u5f71\u5e03\u5339";
+val I18N_Tainted_Magic_1_15 = "I wear black 'cause I'm emo";
+val I18N_Tainted_Magic_1_16 = "\u521b\u4e16\u788e\u7247";
+val I18N_Tainted_Magic_1_17 = "I am not a madman";
+val I18N_Tainted_Magic_1_18 = "Wand Focus: Dark Matter";
+val I18N_Tainted_Magic_1_19 = "And in the darkness bind them";
+val I18N_Tainted_Magic_1_20 = "\u7ed3\u6676\u8840\u6db2";
+val I18N_Tainted_Magic_1_21 = "Drip, drip, drop...";
+val I18N_Tainted_Magic_1_22 = "\u8840\u8165\u5de5\u827a";
+val I18N_Tainted_Magic_1_23 = "\u89e6\u987b\u602a\u5728\u8fd9\u91cc";
+val I18N_Tainted_Magic_1_24 = "After studying Crystal Blood for quite some time, you realized that the Crimson Cult's Robes posses very similar properties.<BR>By staining Shadow-Imbued Cloth with Crystal Blood, you were able to perfectly replicate the material that the Crimson Cult uses for their attire.<BR>Using Crimson-stained Cloth (see right) you were able to make all of the robe pieces. Their recipes are inscribed on the following pages.";
+val I18N_Tainted_Magic_1_25 = "\u8840\u8165\u4eff\u5236";
+val I18N_Tainted_Magic_1_26 = "Dance to the song of ringing steel";
+val I18N_Tainted_Magic_1_27 = "Advanced Crimson Forgery";
+val I18N_Tainted_Magic_1_28 = "And now, the final curtain!";
+val I18N_Tainted_Magic_1_29 = "Voidsent Blood";
+val I18N_Tainted_Magic_1_30 = "Lady Amandine's favourite";
+val I18N_Tainted_Magic_1_31 = "\u8840\u8165\u4e4b\u5203";
+val I18N_Tainted_Magic_1_32 = "This shall be mercy";
+val I18N_Tainted_Magic_1_33 = "Voidmetal Goggles of Revealing";
+val I18N_Tainted_Magic_1_34 = "Who needs 20/20 vision anyway?";
+val I18N_Tainted_Magic_1_35 = "Wand Focus: Tainted Storm";
+val I18N_Tainted_Magic_1_36 = "Sickness must be purged!";
+val I18N_Tainted_Magic_1_37 = "Wand Focus: Tainted Shockwave";
+val I18N_Tainted_Magic_1_38 = "Almighty push";
+val I18N_Tainted_Magic_1_39 = "Thaumic Disassembler";
+val I18N_Tainted_Magic_1_40 = "Wait a minute...";
+val I18N_Tainted_Magic_1_41 = "Boots of the Voidwalker";
+val I18N_Tainted_Magic_1_42 = "Otherworldly footwear";
+val I18N_Tainted_Magic_1_43 = "Voidwalker's Sash of Runic Shielding";
+val I18N_Tainted_Magic_1_44 = "Gotta go fast";
+val I18N_Tainted_Magic_1_45 = "Void Fortress Armor";
+val I18N_Tainted_Magic_1_46 = "Nothing is getting out";
+val I18N_Tainted_Magic_1_47 = "Shadow Fortress Armor";
+val I18N_Tainted_Magic_1_48 = "If you wear robes, you are weak";
+val I18N_Tainted_Magic_1_49 = "Thaumium Fortress Blade";
+val I18N_Tainted_Magic_1_50 = "Nothing will survive";
+val I18N_Tainted_Magic_1_51 = "Voidmetal Fortress Blade";
+val I18N_Tainted_Magic_1_52 = "Void samurai";
+val I18N_Tainted_Magic_1_53 = "Shadowmetal Fortress Blade";
+val I18N_Tainted_Magic_1_54 = "Chakra blades";
+val I18N_Tainted_Magic_1_55 = "Warpwood Wand Rod";
+val I18N_Tainted_Magic_1_56 = "The wand chooses the wizard...";
+val I18N_Tainted_Magic_1_57 = "Warpwood Staff Core";
+val I18N_Tainted_Magic_1_58 = "It's not quite clear why...";
+val I18N_Tainted_Magic_1_59 = "Wand Focus: Time";
+val I18N_Tainted_Magic_1_60 = "Mou ikkai";
+val I18N_Tainted_Magic_1_61 = "Wand Focus: Meteorology";
+val I18N_Tainted_Magic_1_62 = "There's a 30% chance that it's already raining.";
+val I18N_Tainted_Magic_1_63 = "Edge of the Primordials";
+val I18N_Tainted_Magic_1_64 = "\u795e\u5a01";
+val I18N_Tainted_Magic_1_65 = "Cloth Caps";
+val I18N_Tainted_Magic_1_66 = "Remember to wrap it";
+val I18N_Tainted_Magic_1_67 = "Shadow-Imbued Cloth Caps";
+val I18N_Tainted_Magic_1_68 = "On Wednesdays we wear black";
+val I18N_Tainted_Magic_1_69 = "You've created a new type of wand cap using the exact same design as the Cloth Caps, except using Shadow-Imbued Cloth. The idea was definitely a success, though you needed to use a Charged Thaumium Wand Cap to bind it all together.<BR>The Shadow Cloth Caps are exactly the same as the Cloth Caps, but slightly more efficient. They will grant a 15% Vis Discount.";
+val I18N_Tainted_Magic_1_70 = "Crimson-Stained Cloth Caps";
+val I18N_Tainted_Magic_1_71 = "I love them red";
+val I18N_Tainted_Magic_1_72 = "Your research down the rabbit-hole of such Crimson Seamstry and the darkness of Shadow-Imbued Cloth Caps led to a concentrated piece of an immense condensed magical conductor.<BR>It seems that the Crystal Blood from which the cloth was stained helps the caps channel vis at a far more efficient rate. The Crimson Cloth Caps unusually provide a 20% vis discount.";
+val I18N_Tainted_Magic_1_73 = "Shadowmetal Wand Caps";
+val I18N_Tainted_Magic_1_74 = "What a drag";
+val I18N_Tainted_Magic_1_75 = "With the discovery of Void Metal Wand Caps you wondered if you could improve their performance even further. You tested this theory by infusing the caps with some Shadowmetal, as well as the primal aspects of a primordial pearl. It proved very successful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 30% for all primal aspects.";
 
 
 
@@ -177,8 +254,8 @@ mods.thaumcraft.Research.removeResearch("SHADOWMETAL");
 mods.thaumcraft.Research.addResearch("ShadowmetalGTNH", "TM", "metallum 12, praecantatio 9, tenebrae 6, potentia 3", 0, 1, 2, <TaintedMagic:BlockShadowOre>);
 mods.thaumcraft.Research.addPrereq("ShadowmetalGTNH", "TAINTEDMAGIC", false);
 mods.thaumcraft.Research.setConcealed("ShadowmetalGTNH", true);
-game.setLocalization("tc.research_name.ShadowmetalGTNH", "\u6697\u5f71\u91d1\u5c5e");
-game.setLocalization("tc.research_text.ShadowmetalGTNH", "\u6211\u770b\u5230\u4e86\u771f\u76f8");
+game.setLocalization("tc.research_name.ShadowmetalGTNH", I18N_Tainted_Magic_1_0);
+game.setLocalization("tc.research_text.ShadowmetalGTNH", I18N_Tainted_Magic_1_1);
 mods.thaumcraft.Research.addPage("ShadowmetalGTNH", "tm.text.SHADOWMETAL.1");
 mods.thaumcraft.Crucible.addRecipe("ShadowmetalGTNH", <TaintedMagic:BlockShadowOre>, <minecraft:stone>, "tenebrae 6, praecantatio 8, metallum 8, vacuos 4");
 mods.thaumcraft.Research.addCruciblePage("ShadowmetalGTNH", <TaintedMagic:BlockShadowOre>);
@@ -225,8 +302,8 @@ mods.thaumcraft.Research.removeResearch("EVILSHARDS");
 mods.thaumcraft.Research.addResearch("EvilshardsGTNH", "TM", "infernus 15, vitreus 12, praecantatio 9, tenebrae 6, alienis 3", 4, 0, 3, <TaintedMagic:ItemMaterial:4>);
 mods.thaumcraft.Research.addPrereq("EvilshardsGTNH", "TAINTEDMAGIC", false);
 mods.thaumcraft.Research.setConcealed("EvilshardsGTNH", true);
-game.setLocalization("tc.research_name.EvilshardsGTNH", "\u4e0d\u5e73\u8861\u788e\u7247");
-game.setLocalization("tc.research_text.EvilshardsGTNH", "\u4f60\u80fd... \u5e73\u8861?");
+game.setLocalization("tc.research_name.EvilshardsGTNH", I18N_Tainted_Magic_1_2);
+game.setLocalization("tc.research_text.EvilshardsGTNH", I18N_Tainted_Magic_1_3);
 mods.thaumcraft.Research.addPage("EvilshardsGTNH", "tm.text.EVILSHARDS.1");
 mods.thaumcraft.Crucible.addRecipe("EvilshardsGTNH", <TaintedMagic:ItemMaterial:3>, <Thaumcraft:ItemShard:6>, "alienis 8, praecantatio 8, permutatio 8");
 mods.thaumcraft.Research.addCruciblePage("EvilshardsGTNH", <TaintedMagic:ItemMaterial:3>);
@@ -240,9 +317,8 @@ mods.thaumcraft.Research.removeResearch("MAGICFUNGUAR");
 mods.thaumcraft.Research.addResearch("MagicFunguarGTNH", "TM", "gula 15, fames 12, lucrum 9, praecantatio 6, herba 3", 3, -2 as int, 3, <TaintedMagic:ItemMagicFunguar>);
 mods.thaumcraft.Research.addPrereq("MagicFunguarGTNH", "TAINTEDMAGIC", false);
 mods.thaumcraft.Research.setConcealed("MagicFunguarGTNH", true);
-game.setLocalization("tc.research_name.MagicFunguarGTNH", "\u9b54\u6cd5\u7ea4\u6bdb\u83c7");
-game.setLocalization("tc.research_text.MagicFunguarGTNH", "\u9ec4\u6cb9\u662f\u78b3\u6c34\u5316\u5408\u7269
-\u4e48?");
+game.setLocalization("tc.research_name.MagicFunguarGTNH", I18N_Tainted_Magic_1_4);
+game.setLocalization("tc.research_text.MagicFunguarGTNH", I18N_Tainted_Magic_1_5);
 mods.thaumcraft.Research.addPage("MagicFunguarGTNH", "tm.text.MAGICFUNGUAR.1");
 mods.thaumcraft.Arcane.addShaped("MagicFunguarGTNH", <TaintedMagic:ItemMagicFunguar> * 4, "aqua 10, terra 10, ordo 10, ignis 10, aer 10, perditio 10", [
 [<minecraft:brown_mushroom>, <Thaumcraft:ItemShard:*>, <minecraft:red_mushroom>],
@@ -258,8 +334,8 @@ mods.thaumcraft.Research.addResearch("WarpTreeGTNH", "TM", "alienis 18, tenebrae
 mods.thaumcraft.Research.addPrereq("WarpTreeGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.addPrereq("WarpTreeGTNH", "EvilshardsGTNH", false);
 mods.thaumcraft.Research.setConcealed("WarpTreeGTNH", true);
-game.setLocalization("tc.research_name.WarpTreeGTNH", "\u626d\u66f2\u4e4b\u6811");
-game.setLocalization("tc.research_text.WarpTreeGTNH", "\u5b83\u4f1a\u53cd\u51fb!");
+game.setLocalization("tc.research_name.WarpTreeGTNH", I18N_Tainted_Magic_1_6);
+game.setLocalization("tc.research_text.WarpTreeGTNH", I18N_Tainted_Magic_1_7);
 mods.thaumcraft.Research.addPage("WarpTreeGTNH", "tm.text.WARPTREE.1");
 mods.thaumcraft.Infusion.addRecipe("WarpTreeGTNH", <Thaumcraft:blockCustomPlant>,
 [<Thaumcraft:ItemZombieBrain>, <TaintedMagic:ItemMaterial:3>, <Thaumcraft:ItemZombieBrain>, <TaintedMagic:ItemMaterial:3>, <Thaumcraft:ItemZombieBrain>, <TaintedMagic:ItemMaterial:3>, <Thaumcraft:ItemZombieBrain>, <TaintedMagic:ItemMaterial:3>], 
@@ -276,8 +352,8 @@ mods.thaumcraft.Research.addPrereq("WarpedGogglesGTNH", "ShadowmetalGTNH", false
 mods.thaumcraft.Research.addPrereq("WarpedGogglesGTNH", "EvilshardsGTNH", true);
 mods.thaumcraft.Research.addPrereq("WarpedGogglesGTNH", "GOGGLES", false);
 mods.thaumcraft.Research.setConcealed("WarpedGogglesGTNH", true);
-game.setLocalization("tc.research_name.WarpedGogglesGTNH", "\u6697\u5f71\u63ed\u793a\u4e4b\u62a4\u76ee\u955c");
-game.setLocalization("tc.research_text.WarpedGogglesGTNH", "\u662f\u7684,\u543e\u4e3b");
+game.setLocalization("tc.research_name.WarpedGogglesGTNH", I18N_Tainted_Magic_1_8);
+game.setLocalization("tc.research_text.WarpedGogglesGTNH", I18N_Tainted_Magic_1_9);
 mods.thaumcraft.Research.addPage("WarpedGogglesGTNH", "tm.text.WARPEDGOGGLES.1");
 mods.thaumcraft.Infusion.addRecipe("WarpedGogglesGTNH", <Thaumcraft:ItemGoggles>,
 [<TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:28368>, <gregtech:gt.metaitem.01:24544>, <gregtech:gt.metaitem.01:27368>, <gregtech:gt.metaitem.01:26368>, <gregtech:gt.metaitem.01:27368>, <gregtech:gt.metaitem.01:24544>, <gregtech:gt.metaitem.01:28368>, <gregtech:gt.metaitem.01:17368>], 
@@ -292,8 +368,8 @@ mods.thaumcraft.Research.addResearch("FocusShardGTNH", "TM", "motus 18, vitreus 
 mods.thaumcraft.Research.addPrereq("FocusShardGTNH", "EvilshardsGTNH", false);
 mods.thaumcraft.Research.addPrereq("FocusShardGTNH", "FOCUSFIRE", false);
 mods.thaumcraft.Research.setConcealed("FocusShardGTNH", true);
-game.setLocalization("tc.research_name.FocusShardGTNH", "\u6cd5\u6756\u6838\u5fc3:\u9b54\u529b\u788e\u7247");
-game.setLocalization("tc.research_text.FocusShardGTNH", "\u77ed\u6682\u7684\u566a\u97f3");
+game.setLocalization("tc.research_name.FocusShardGTNH", I18N_Tainted_Magic_1_10);
+game.setLocalization("tc.research_text.FocusShardGTNH", I18N_Tainted_Magic_1_11);
 mods.thaumcraft.Research.addPage("FocusShardGTNH", "tm.text.FOCUSSHARD.1");
 mods.thaumcraft.Arcane.addShaped("FocusShardGTNH", <TaintedMagic:ItemFocusVisShard>, "ordo 50, aer 50, perditio 50", [
 [<TaintedMagic:ItemMaterial:3>, <Thaumcraft:blockCrystal:6>, <TaintedMagic:ItemMaterial:3>],
@@ -310,8 +386,8 @@ mods.thaumcraft.Research.addPrereq("MaceFocusGTNH", "TAINTEDMAGIC", true);
 mods.thaumcraft.Research.addPrereq("MaceFocusGTNH", "ShadowmetalGTNH", false);
 mods.thaumcraft.Research.addPrereq("MaceFocusGTNH", "FOCUSFIRE", false);
 mods.thaumcraft.Research.setConcealed("MaceFocusGTNH", true);
-game.setLocalization("tc.research_name.MaceFocusGTNH", "\u6cd5\u6756\u6838\u5fc3:\u6cd5\u5e08\u4e4b\u9524");
-game.setLocalization("tc.research_text.MaceFocusGTNH", "\u6708\u591c\u9ed1\u55b5");
+game.setLocalization("tc.research_name.MaceFocusGTNH", I18N_Tainted_Magic_1_12);
+game.setLocalization("tc.research_text.MaceFocusGTNH", I18N_Tainted_Magic_1_13);
 mods.thaumcraft.Research.addPage("MaceFocusGTNH", "tm.text.MACEFOCUS.1");
 mods.thaumcraft.Infusion.addRecipe("MaceFocusGTNH", <TaintedMagic:ItemShadowmetalSword>,
 [<gregtech:gt.blockmetal8:15>, <gregtech:gt.metaitem.01:27368>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.01:17522>, <gregtech:gt.metaitem.01:23368>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.01:23368>, <gregtech:gt.metaitem.01:17522>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.01:27368>], 
@@ -326,8 +402,8 @@ mods.thaumcraft.Research.addResearch("ShadowClothGTNH", "TM", "pannus 15, tenebr
 mods.thaumcraft.Research.addPrereq("ShadowClothGTNH", "ShadowmetalGTNH", false);
 mods.thaumcraft.Research.addPrereq("ShadowClothGTNH", "ENCHFABRIC", false);
 mods.thaumcraft.Research.setConcealed("ShadowClothGTNH", true);
-game.setLocalization("tc.research_name.ShadowClothGTNH", "\u6697\u5f71\u5e03\u5339");
-game.setLocalization("tc.research_text.ShadowClothGTNH", "\u5b83\u67d4\u8f6f\u5f97\u4ee4\u4eba\u4e0d\u5b89...");
+game.setLocalization("tc.research_name.ShadowClothGTNH", I18N_Tainted_Magic_1_14);
+game.setLocalization("tc.research_text.ShadowClothGTNH", I18N_Tainted_Magic_1_15);
 mods.thaumcraft.Research.addPage("ShadowClothGTNH", "tm.text.SHADOWCLOTH.1");
 mods.thaumcraft.Arcane.addShaped("ShadowClothGTNH", <TaintedMagic:ItemMaterial:1>, "aer 15, ignis 15, terra 15, aqua 15, ordo 15, perditio 15", [
 [<Thaumcraft:ItemResource:7>, <gregtech:gt.metaitem.02:19368>, <Thaumcraft:ItemResource:7>],
@@ -343,8 +419,8 @@ mods.thaumcraft.Research.addResearch("CreationShardGTNH", "TM", "aer 21, aqua 21
 mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "TMELDRITCHMAJOR", false);
 mods.thaumcraft.Research.addPrereq("CreationShardGTNH", "PRIMPEARL", false);
 mods.thaumcraft.Research.setConcealed("CreationShardGTNH", true);
-game.setLocalization("tc.research_name.CreationShardGTNH", "\u521b\u4e16\u788e\u7247");
-game.setLocalization("tc.research_text.CreationShardGTNH", "\u529b\u91cf\u4f7f\u4eba\u5815\u843d");
+game.setLocalization("tc.research_name.CreationShardGTNH", I18N_Tainted_Magic_1_16);
+game.setLocalization("tc.research_text.CreationShardGTNH", I18N_Tainted_Magic_1_17);
 mods.thaumcraft.Research.addPage("CreationShardGTNH", "tm.text.CREATIONSHARD.1");
 mods.thaumcraft.Crucible.addRecipe("CreationShardGTNH", <dreamcraft:item.VoidEssence> * 2, <Thaumcraft:ItemResource:16>, "alienis 16, vacuos 16, tenebrae 16");
 mods.thaumcraft.Research.addCruciblePage("CreationShardGTNH", <dreamcraft:item.VoidEssence>);
@@ -363,8 +439,8 @@ mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "EvilshardsGTNH", true);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "CreationShardGTNH", false);
 mods.thaumcraft.Research.addPrereq("EldritchFocusGTNH", "FOCUSPORTABLEHOLE", false);
 mods.thaumcraft.Research.setConcealed("EldritchFocusGTNH", true);
-game.setLocalization("tc.research_name.EldritchFocusGTNH", "\u6cd5\u6756\u6838\u5fc3:\u90aa\u672f");
-game.setLocalization("tc.research_text.EldritchFocusGTNH", "\u90aa\u5f02\u5947\u672f");
+game.setLocalization("tc.research_name.EldritchFocusGTNH", I18N_Tainted_Magic_1_18);
+game.setLocalization("tc.research_text.EldritchFocusGTNH", I18N_Tainted_Magic_1_19);
 mods.thaumcraft.Research.addPage("EldritchFocusGTNH", "tm.text.ELDRITCHFOCUS.1");
 mods.thaumcraft.Infusion.addRecipe("EldritchFocusGTNH", <TaintedMagic:ItemMaterial:5>,
 [<Thaumcraft:FocusPortableHole>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemResource:15>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemResource:15>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:ItemResource:15>, <gregtech:gt.metaitem.01:17970>], 
@@ -383,8 +459,8 @@ mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "ENCHFABRIC", false);
 mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "ESSENTIACRYSTAL", false);
 mods.thaumcraft.Research.addPrereq("CrystalDaggerGTNH", "VOIDMETAL", false);
 mods.thaumcraft.Research.setConcealed("CrystalDaggerGTNH", true);
-game.setLocalization("tc.research_name.CrystalDaggerGTNH", "\u7ed3\u6676\u8840\u6ef4");
-game.setLocalization("tc.research_text.CrystalDaggerGTNH", "\u6ef4...\u6ef4...\u6ef4...");
+game.setLocalization("tc.research_name.CrystalDaggerGTNH", I18N_Tainted_Magic_1_20);
+game.setLocalization("tc.research_text.CrystalDaggerGTNH", I18N_Tainted_Magic_1_21);
 mods.thaumcraft.Research.addPage("CrystalDaggerGTNH", "tm.text.CRYSTALDAGGER.1");
 mods.thaumcraft.Arcane.addShaped("CrystalDaggerGTNH",  <TaintedMagic:ItemCrystalDagger>, "terra 100, ignis 100, perditio 100, ordo 50, aer 50", [
 [<ore:screwThaumium>, <ore:craftingToolWrench>, <TGregworks:tGregToolPartKnifeBlade:1622>.withTag({material: "Shadow"})], 
@@ -402,12 +478,10 @@ mods.thaumcraft.Research.addPrereq("CrimsonRobesGTNH", "CrystalDaggerGTNH", fals
 mods.thaumcraft.Research.addPrereq("CrimsonRobesGTNH", "ShadowClothGTNH", true);
 mods.thaumcraft.Research.addPrereq("CrimsonRobesGTNH", "VOIDMETAL", false);
 mods.thaumcraft.Research.setConcealed("CrimsonRobesGTNH", true);
-game.setLocalization("tc.research_name.CrimsonRobesGTNH", "\u8840\u8165\u5de5\u827a");
-game.setLocalization("tc.research_text.CrimsonRobesGTNH", "\u89e6\u987b\u602a\u5728\u8fd9\u91cc");
+game.setLocalization("tc.research_name.CrimsonRobesGTNH", I18N_Tainted_Magic_1_22);
+game.setLocalization("tc.research_text.CrimsonRobesGTNH", I18N_Tainted_Magic_1_23);
 mods.thaumcraft.Research.addPage("CrimsonRobesGTNH", "tc.research_page.CrimsonRobesGTNH");
-game.setLocalization("tc.research_page.CrimsonRobesGTNH", "\u5728\u5bf9\u7ed3\u6676\u8840\u6ef4\u8fdb\u884c\u4e86\u5f88\u957f\u4e00\u6bb5\u65f6\u95f4\u7684\u7814\u7a76\u540e,\u4f60\u610f\u8bc6\u5230\u5176\u4e0e\u8840\u8165\u90aa\u5f92\u957f\u888d\u5177\u6709\u76f8\u4f3c\u7684\u7279\u6027.
-\u4f7f\u7528\u9b54\u529b\u5e03\u5339\u548c\u4e00\u70b9\u8840\u6ef4,\u4f60\u5c31\u53ef\u4ee5\u5236\u9020\u51fa\u4e00\u79cd\u540d\u4e3a\u8840\u8165\u5e03\u5339\u7684\u7269\u8d28.
-<LINE>\u4f7f\u7528\u8840\u8165\u5e03\u5339(\u8be6\u89c1\u53f3\u56fe)\u4f5c\u4e3a\u539f\u6750\u6599,\u4f60\u53ef\u4ee5\u5236\u4f5c\u5168\u5957\u957f\u888d,\u5b83\u4eec\u7684\u5408\u6210\u8868\u5728\u540e\u9762\u51e0\u9875.");
+game.setLocalization("tc.research_page.CrimsonRobesGTNH", I18N_Tainted_Magic_1_24);
 mods.thaumcraft.Arcane.addShaped("CrimsonRobesGTNH", <TaintedMagic:ItemMaterial:2>, "terra 25, ignis 25, perditio 25, aqua 25, ordo 25, aer 25", [
 [<ore:foilVoid>, <TaintedMagic:ItemMaterial:7>, <ore:foilVoid>], 
 [<TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:1>, <TaintedMagic:ItemMaterial:7>], 
@@ -457,8 +531,8 @@ mods.thaumcraft.Research.addResearch("KnightRobesGTNH", "TM", "pannus 21, permut
 mods.thaumcraft.Research.addPrereq("KnightRobesGTNH", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.addPrereq("KnightRobesGTNH", "CrimsonRobesGTNH", false);
 mods.thaumcraft.Research.setConcealed("KnightRobesGTNH", true);
-game.setLocalization("tc.research_name.KnightRobesGTNH", "\u8840\u8165\u4eff\u5236");
-game.setLocalization("tc.research_text.KnightRobesGTNH", "\u8840\u8a93\u9a91\u58eb");
+game.setLocalization("tc.research_name.KnightRobesGTNH", I18N_Tainted_Magic_1_25);
+game.setLocalization("tc.research_text.KnightRobesGTNH", I18N_Tainted_Magic_1_26);
 mods.thaumcraft.Research.addPage("KnightRobesGTNH", "tm.text.KNIGHTROBES.1");
 mods.thaumcraft.Infusion.addRecipe("KnightRobesGTNH", <gregtech:gt.metaitem.01:20330>,
 [<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:7>, <gregtech:gt.metaitem.01:27346>, <gregtech:gt.metaitem.01:29344>, <gregtech:gt.metaitem.01:29362>, <gregtech:gt.metaitem.01:29333>, <gregtech:gt.metaitem.01:27346>, <TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:7>, <gregtech:gt.metaitem.01:27346>, <gregtech:gt.metaitem.01:29344>, <gregtech:gt.metaitem.01:29362>, <gregtech:gt.metaitem.01:29333>, <gregtech:gt.metaitem.01:27346>, <TaintedMagic:ItemMaterial:7>], 
@@ -493,8 +567,8 @@ mods.thaumcraft.Research.removeResearch("PRAETORARMOR");
 mods.thaumcraft.Research.addResearch("PraetorarmorGTNH", "TM", "pannus 24, permutatio 21, tutamen 18, alienis 15, tenebrae 12, praecantatio 9, metallum 6, potentia 3", -6 as int, -4 as int, 4, <Thaumcraft:ItemHelmetCultistLeaderPlate>);
 mods.thaumcraft.Research.addPrereq("PraetorarmorGTNH", "KnightRobesGTNH", false);
 mods.thaumcraft.Research.setConcealed("PraetorarmorGTNH", true);
-game.setLocalization("tc.research_name.PraetorarmorGTNH", "\u8840\u8165\u4e3b\u6559\u5957\u88c5");
-game.setLocalization("tc.research_text.PraetorarmorGTNH", "\u5e26\u6211\u53bb\u89c1\u4f60\u7684\u9886\u8896!");
+game.setLocalization("tc.research_name.PraetorarmorGTNH", I18N_Tainted_Magic_1_27);
+game.setLocalization("tc.research_text.PraetorarmorGTNH", I18N_Tainted_Magic_1_28);
 mods.thaumcraft.Research.addPage("PraetorarmorGTNH", "tm.text.PRAETORARMOR.1");
 mods.thaumcraft.Infusion.addRecipe("PraetorarmorGTNH", <Thaumcraft:ItemHelmetCultistPlate>,
 [<gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:28368>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <gregtech:gt.metaitem.01:28368>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:28368>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <gregtech:gt.metaitem.01:28368>], 
@@ -520,8 +594,8 @@ mods.thaumcraft.Research.removeResearch("VOIDSENTBLOOD");
 mods.thaumcraft.Research.addResearch("VoidsentGTNH", "TM", "tenebrae 21, tutamen 18, vacuos 15, tenebrae 12, auram 9, praecantatio 6, alienis 3", -7 as int, -5 as int, 4, <TaintedMagic:ItemVoidsentBlood>);
 mods.thaumcraft.Research.addPrereq("VoidsentGTNH", "PraetorarmorGTNH", false);
 mods.thaumcraft.Research.setConcealed("VoidsentGTNH", true);
-game.setLocalization("tc.research_name.VoidsentGTNH", "\u74f6\u88c5\u865a\u7a7a\u8840\u6db2");
-game.setLocalization("tc.research_text.VoidsentGTNH", "Amandine\u5973\u58eb\u7684\u6700\u7231");
+game.setLocalization("tc.research_name.VoidsentGTNH", I18N_Tainted_Magic_1_29);
+game.setLocalization("tc.research_text.VoidsentGTNH", I18N_Tainted_Magic_1_30);
 mods.thaumcraft.Research.addPage("VoidsentGTNH", "tm.text.VOIDSENTBLOOD.1");
 mods.thaumcraft.Crucible.addRecipe("VoidsentGTNH", <TaintedMagic:ItemVoidsentBlood>, <TaintedMagic:ItemMaterial:7>, "auram 12, tenebrae 12, tutamen 12, vacuos 16, alienis 16");
 mods.thaumcraft.Research.addCruciblePage("VoidsentGTNH", <TaintedMagic:ItemVoidsentBlood>);
@@ -533,8 +607,8 @@ mods.thaumcraft.Research.removeResearch("CRIMSONBLADE");
 mods.thaumcraft.Research.addResearch("CrimsonBladeGTNH", "TM", "perditio 18, telum 15, vacuos 12, tenebrae 9, metallum 6, potentia 3", -7 as int, -3 as int, 4, <Thaumcraft:ItemSwordCrimson>);
 mods.thaumcraft.Research.addPrereq("CrimsonBladeGTNH", "PraetorarmorGTNH", false);
 mods.thaumcraft.Research.setConcealed("CrimsonBladeGTNH", true);
-game.setLocalization("tc.research_name.CrimsonBladeGTNH", "\u8840\u8165\u4e4b\u5203");
-game.setLocalization("tc.research_text.CrimsonBladeGTNH", "\u6740\u622e\u5373\u662f\u4ec1\u6148");
+game.setLocalization("tc.research_name.CrimsonBladeGTNH", I18N_Tainted_Magic_1_31);
+game.setLocalization("tc.research_text.CrimsonBladeGTNH", I18N_Tainted_Magic_1_32);
 mods.thaumcraft.Research.addPage("CrimsonBladeGTNH", "tm.text.CRIMSONBLADE.1");
 mods.thaumcraft.Infusion.addRecipe("CrimsonBladeGTNH", <Thaumcraft:ItemSwordVoid>,
 [<TaintedMagic:ItemCrystalDagger>, <TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:7>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:7>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:7>], 
@@ -549,8 +623,8 @@ mods.thaumcraft.Research.addResearch("VoidgogglesGTNH", "TM", "sensus 21, vacuos
 mods.thaumcraft.Research.addPrereq("VoidgogglesGTNH", "WarpedGogglesGTNH", false);
 mods.thaumcraft.Research.addPrereq("VoidgogglesGTNH", "VOIDMETAL", false);
 mods.thaumcraft.Research.setConcealed("VoidgogglesGTNH", true);
-game.setLocalization("tc.research_name.VoidgogglesGTNH", "\u865a\u7a7a\u6697\u5f71\u63ed\u793a\u4e4b\u62a4\u76ee\u955c");
-game.setLocalization("tc.research_text.VoidgogglesGTNH", "\u8c01\u8fd8\u9700\u898120/20\u7684\u89c6\u89c9?");
+game.setLocalization("tc.research_name.VoidgogglesGTNH", I18N_Tainted_Magic_1_33);
+game.setLocalization("tc.research_text.VoidgogglesGTNH", I18N_Tainted_Magic_1_34);
 mods.thaumcraft.Research.addPage("VoidgogglesGTNH", "tm.text.VOIDGOGGLES.1");
 mods.thaumcraft.Infusion.addRecipe("VoidgogglesGTNH", <TaintedMagic:ItemWarpedGoggles>,
 [<TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:28970>, <gregtech:gt.metaitem.01:24506>, <gregtech:gt.metaitem.01:27970>, <gregtech:gt.metaitem.01:26970>, <gregtech:gt.metaitem.01:27970>, <gregtech:gt.metaitem.01:24506>, <gregtech:gt.metaitem.01:28970>, <gregtech:gt.metaitem.01:17970>], 
@@ -566,8 +640,8 @@ mods.thaumcraft.Research.addPrereq("TaintFocusGTNH", "EvilshardsGTNH", false);
 mods.thaumcraft.Research.addPrereq("TaintFocusGTNH", "BOTTLETAINT", false);
 mods.thaumcraft.Research.addPrereq("TaintFocusGTNH", "TAINTSHOVEL", false);
 mods.thaumcraft.Research.setConcealed("TaintFocusGTNH", true);
-game.setLocalization("tc.research_name.TaintFocusGTNH", "\u6cd5\u6756\u6838\u5fc3:\u8150\u5316\u98ce\u66b4");
-game.setLocalization("tc.research_text.TaintFocusGTNH", "\u8b66\u544a:\u53ef\u80fd\u5bfc\u81f4\u7c98\u6db2\u6b8b\u7559!");
+game.setLocalization("tc.research_name.TaintFocusGTNH", I18N_Tainted_Magic_1_35);
+game.setLocalization("tc.research_text.TaintFocusGTNH", I18N_Tainted_Magic_1_36);
 mods.thaumcraft.Research.addPage("TaintFocusGTNH", "tm.text.TAINTFOCUS.1");
 mods.thaumcraft.Infusion.addRecipe("TaintFocusGTNH", <Thaumcraft:FocusPech>,
 [<Thaumcraft:ItemResource:11>, <TaintedMagic:ItemMaterial:4>, <ForbiddenMagic:NetherShard:2>, <Thaumcraft:ItemBottleTaint>, <Thaumcraft:ItemResource:12>, <TaintedMagic:ItemMaterial:4>, <Thaumcraft:ItemResource:11>, <TaintedMagic:ItemMaterial:4>, <Thaumcraft:ItemResource:12>, <Thaumcraft:ItemBottleTaint>, <ForbiddenMagic:NetherShard:2>, <TaintedMagic:ItemMaterial:4>, <Thaumcraft:ItemResource:11>], 
@@ -584,8 +658,8 @@ mods.thaumcraft.Research.addPrereq("FocusTaintedBlastGTNH", "FOCUSFIRE", false);
 mods.thaumcraft.Research.addPrereq("FocusTaintedBlastGTNH", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.addPrereq("FocusTaintedBlastGTNH", "FOCUSSHOCK", false);
 mods.thaumcraft.Research.setConcealed("FocusTaintedBlastGTNH", true);
-game.setLocalization("tc.research_name.FocusTaintedBlastGTNH", "\u6cd5\u6756\u6838\u5fc3:\u8150\u5316\u6fc0\u6ce2");
-game.setLocalization("tc.research_text.FocusTaintedBlastGTNH", "\u56db\u65b9\u8fdc\u79bb");
+game.setLocalization("tc.research_name.FocusTaintedBlastGTNH", I18N_Tainted_Magic_1_37);
+game.setLocalization("tc.research_text.FocusTaintedBlastGTNH", I18N_Tainted_Magic_1_38);
 mods.thaumcraft.Research.addPage("FocusTaintedBlastGTNH", "tm.text.FOCUSTAINTEDBLAST.1");
 mods.thaumcraft.Infusion.addRecipe("FocusTaintedBlastGTNH", <TaintedMagic:ItemFocusTaint>,
 [<IC2:blockITNT>, <Thaumcraft:ItemBottleTaint>, <Thaumcraft:ItemResource:11>, <IC2:blockITNT>, <Thaumcraft:ItemResource:15>, <Thaumcraft:ItemBottleTaint>, <IC2:blockITNT>, <Thaumcraft:ItemBottleTaint>, <Thaumcraft:ItemResource:15>, <IC2:blockITNT>, <Thaumcraft:ItemResource:11>, <Thaumcraft:ItemBottleTaint>], 
@@ -600,8 +674,8 @@ mods.thaumcraft.Research.addResearch("ThaumicdisassemblerGTNH", "TM", "telum 18,
 mods.thaumcraft.Research.addPrereq("ThaumicdisassemblerGTNH", "TMELDRITCHMAJOR", false);
 mods.thaumcraft.Research.addPrereq("ThaumicdisassemblerGTNH", "VOIDMETAL", false);
 mods.thaumcraft.Research.setConcealed("ThaumicdisassemblerGTNH", true);
-game.setLocalization("tc.research_name.ThaumicdisassemblerGTNH", "\u5965\u672f\u5206\u89e3\u673a");
-game.setLocalization("tc.research_text.ThaumicdisassemblerGTNH", "\u7a0d\u7b49\u7247\u523b...");
+game.setLocalization("tc.research_name.ThaumicdisassemblerGTNH", I18N_Tainted_Magic_1_39);
+game.setLocalization("tc.research_text.ThaumicdisassemblerGTNH", I18N_Tainted_Magic_1_40);
 mods.thaumcraft.Research.addPage("ThaumicdisassemblerGTNH", "tm.text.THAUMICDISASSEMBLER.1");
 mods.thaumcraft.Arcane.addShaped("ThaumicdisassemblerGTNH", <TaintedMagic:ItemMaterial:6>, "ordo 75, perditio 75, terra 50", [
 [<ore:plateVoid>, <ore:plateThaumium>, <ore:plateVoid>], 
@@ -626,8 +700,8 @@ mods.thaumcraft.Research.addPrereq("VoidWalkerBootsGTNH", "BOOTSTRAVELLER", fals
 mods.thaumcraft.Research.addPrereq("VoidWalkerBootsGTNH", "TAINTEDMAGIC", true);
 mods.thaumcraft.Research.addPrereq("VoidWalkerBootsGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.setConcealed("VoidWalkerBootsGTNH", true);
-game.setLocalization("tc.research_name.VoidWalkerBootsGTNH", "\u865a\u7a7a\u65c5\u884c\u8005\u4e4b\u9774");
-game.setLocalization("tc.research_text.VoidWalkerBootsGTNH", "\u5f98\u5f8a\u4e4b\u5f71");
+game.setLocalization("tc.research_name.VoidWalkerBootsGTNH", I18N_Tainted_Magic_1_41);
+game.setLocalization("tc.research_text.VoidWalkerBootsGTNH", I18N_Tainted_Magic_1_42);
 mods.thaumcraft.Research.addPage("VoidWalkerBootsGTNH", "tm.text.VOIDWALKERBOOTS.1");
 mods.thaumcraft.Infusion.addRecipe("VoidWalkerBootsGTNH", <Thaumcraft:BootsTraveller>,
 [<Thaumcraft:ItemEldritchObject>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:18473>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:ItemEldritchObject>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:18473>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>], 
@@ -645,8 +719,8 @@ mods.thaumcraft.Research.addPrereq("VoidSashGTNH", "TAINTEDMAGIC", true);
 mods.thaumcraft.Research.addPrereq("VoidSashGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.addPrereq("VoidSashGTNH", "VOIDMETAL", false);
 mods.thaumcraft.Research.setConcealed("VoidSashGTNH", true);
-game.setLocalization("tc.research_name.VoidSashGTNH", "\u865a\u7a7a\u65c5\u884c\u8005\u7b26\u6587\u62a4\u76fe\u8170\u5e26");
-game.setLocalization("tc.research_text.VoidSashGTNH", "\u6df1\u5165\u865a\u7a7a...");
+game.setLocalization("tc.research_name.VoidSashGTNH", I18N_Tainted_Magic_1_43);
+game.setLocalization("tc.research_text.VoidSashGTNH", I18N_Tainted_Magic_1_44);
 mods.thaumcraft.Research.addPage("VoidSashGTNH", "tm.text.VOIDSASH.1");
 mods.thaumcraft.Infusion.addRecipe("VoidSashGTNH", <Thaumcraft:ItemEldritchObject:3>,
 [<Thaumcraft:ItemGirdleRunic>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.02:30508>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17368>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17970>], 
@@ -663,8 +737,8 @@ mods.thaumcraft.Research.addPrereq("VoidFortressGTNH", "VOIDMETAL", false);
 mods.thaumcraft.Research.addPrereq("VoidFortressGTNH", "ARMORFORTRESS", false);
 mods.thaumcraft.Research.addPrereq("VoidFortressGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.setConcealed("VoidFortressGTNH", true);
-game.setLocalization("tc.research_name.VoidFortressGTNH", "\u865a\u7a7a\u8981\u585e\u5957\u88c5");
-game.setLocalization("tc.research_text.VoidFortressGTNH", "\u4e00\u5207\u5c3d\u5728\u638c\u63a7\u4e4b\u4e2d");
+game.setLocalization("tc.research_name.VoidFortressGTNH", I18N_Tainted_Magic_1_45);
+game.setLocalization("tc.research_text.VoidFortressGTNH", I18N_Tainted_Magic_1_46);
 mods.thaumcraft.Research.addPage("VoidFortressGTNH", "tm.text.VOIDFORTRESS.1");
 mods.thaumcraft.Infusion.addRecipe("VoidFortressGTNH", <Thaumcraft:ItemHelmetVoid>,
 [<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:19473>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>], 
@@ -691,8 +765,8 @@ mods.thaumcraft.Research.addResearch("ShadowFortressArmorGTNH", "TM", "tutamen 2
 mods.thaumcraft.Research.addPrereq("ShadowFortressArmorGTNH", "VoidFortressGTNH", false);
 mods.thaumcraft.Research.addPrereq("ShadowFortressArmorGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.setConcealed("ShadowFortressArmorGTNH", true);
-game.setLocalization("tc.research_name.ShadowFortressArmorGTNH", "\u6697\u5f71\u8981\u585e\u5957\u88c5");
-game.setLocalization("tc.research_text.ShadowFortressArmorGTNH", "\u65e0\u9650\u6708\u8bfb");
+game.setLocalization("tc.research_name.ShadowFortressArmorGTNH", I18N_Tainted_Magic_1_47);
+game.setLocalization("tc.research_text.ShadowFortressArmorGTNH", I18N_Tainted_Magic_1_48);
 mods.thaumcraft.Research.addPage("ShadowFortressArmorGTNH", "tm.text.SHADOWFORTRESSARMOR.1");
 mods.thaumcraft.Infusion.addRecipe("ShadowFortressArmorGTNH", <TaintedMagic:ItemVoidFortressHelmet>,
 [<gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17323>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.blockmetal8:15>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.metaitem.01:22599>, <TaintedMagic:ItemMaterial:1>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.blockmetal8:15>, <gregtech:gt.metaitem.01:17323>], 
@@ -719,8 +793,8 @@ mods.thaumcraft.Research.addResearch("ThaumiumKatanaGTNH", "TM", "metallum 18, t
 mods.thaumcraft.Research.addPrereq("ThaumiumKatanaGTNH", "ARMORFORTRESS", false);
 mods.thaumcraft.Research.addPrereq("ThaumiumKatanaGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.setConcealed("ThaumiumKatanaGTNH", true);
-game.setLocalization("tc.research_name.ThaumiumKatanaGTNH", "\u795e\u79d8\u8981\u585e\u4e4b\u5203");
-game.setLocalization("tc.research_text.ThaumiumKatanaGTNH", "\u6ca1\u6709\u4ec0\u4e48\u80fd\u5b58\u6d3b\u4e0b\u6765");
+game.setLocalization("tc.research_name.ThaumiumKatanaGTNH", I18N_Tainted_Magic_1_49);
+game.setLocalization("tc.research_text.ThaumiumKatanaGTNH", I18N_Tainted_Magic_1_50);
 mods.thaumcraft.Research.addPage("ThaumiumKatanaGTNH", "tm.text.THAUMIUMKATANA.1");
 mods.thaumcraft.Infusion.addRecipe("ThaumiumKatanaGTNH", <Thaumcraft:ItemSwordThaumium>,
 [<gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.02:29501>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:17330>, <gregtech:gt.metaitem.01:17086>, <gregtech:gt.metaitem.02:29501>, <gregtech:gt.metaitem.01:17305>, <gregtech:gt.metaitem.01:17330>], 
@@ -735,8 +809,8 @@ mods.thaumcraft.Research.addResearch("VoidMetalKatanaGTNH", "TM", "metallum 21, 
 mods.thaumcraft.Research.addPrereq("VoidMetalKatanaGTNH", "ThaumiumKatanaGTNH", false);
 mods.thaumcraft.Research.addPrereq("VoidMetalKatanaGTNH", "VOIDMETAL", true);
 mods.thaumcraft.Research.setConcealed("VoidMetalKatanaGTNH", true);
-game.setLocalization("tc.research_name.VoidMetalKatanaGTNH", "\u865a\u7a7a\u8981\u585e\u4e4b\u5203");
-game.setLocalization("tc.research_text.VoidMetalKatanaGTNH", "\u865a\u7a7a\u6b66\u58eb");
+game.setLocalization("tc.research_name.VoidMetalKatanaGTNH", I18N_Tainted_Magic_1_51);
+game.setLocalization("tc.research_text.VoidMetalKatanaGTNH", I18N_Tainted_Magic_1_52);
 mods.thaumcraft.Research.addPage("VoidMetalKatanaGTNH", "tm.text.VOIDMETALKATANA.1");
 mods.thaumcraft.Infusion.addRecipe("VoidMetalKatanaGTNH", <Thaumcraft:ItemSwordVoid>,
 [<gregtech:gt.metaitem.01:17386>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17386>, <gregtech:gt.metaitem.01:17970>, <gregtech:gt.metaitem.01:17351>, <gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.metaitem.01:17970>], 
@@ -751,8 +825,8 @@ mods.thaumcraft.Research.addResearch("ShadowMetalKatanaGTNH", "TM", "tenebrae 24
 mods.thaumcraft.Research.addPrereq("ShadowMetalKatanaGTNH", "VoidMetalKatanaGTNH", false);
 mods.thaumcraft.Research.addPrereq("ShadowMetalKatanaGTNH", "ShadowmetalGTNH", true);
 mods.thaumcraft.Research.setConcealed("ShadowMetalKatanaGTNH", true);
-game.setLocalization("tc.research_name.ShadowMetalKatanaGTNH", "\u6697\u5f71\u8981\u585e\u4e4b\u5203");
-game.setLocalization("tc.research_text.ShadowMetalKatanaGTNH", "\u8f6e\u56de\u4e4b\u5203");
+game.setLocalization("tc.research_name.ShadowMetalKatanaGTNH", I18N_Tainted_Magic_1_53);
+game.setLocalization("tc.research_text.ShadowMetalKatanaGTNH", I18N_Tainted_Magic_1_54);
 mods.thaumcraft.Research.addPage("ShadowMetalKatanaGTNH", "tm.text.SHADOWMETALKATANA.1");
 mods.thaumcraft.Infusion.addRecipe("ShadowMetalKatanaGTNH", <TaintedMagic:ItemShadowmetalSword>,
 [<gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17323>, <gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17368>, <gregtech:gt.metaitem.01:17323>, <gregtech:gt.metaitem.02:30501>, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:17368>], 
@@ -793,8 +867,8 @@ mods.thaumcraft.Research.addPrereq("ROD_warpwood", "VOIDMETAL", false);
 mods.thaumcraft.Research.addPrereq("ROD_warpwood", "PRIMPEARL", false);
 mods.thaumcraft.Research.addPrereq("ROD_warpwood", "ROD_primal_staff", false);
 mods.thaumcraft.Research.setConcealed("ROD_warpwood", true);
-game.setLocalization("tc.research_name.ROD_warpwood", "\u626d\u66f2\u4e4b\u6728\u6756\u67c4");
-game.setLocalization("tc.research_text.ROD_warpwood", "\u8fd9\u6cd5\u6756\u9009\u62e9\u4e86\u90aa\u672f...");
+game.setLocalization("tc.research_name.ROD_warpwood", I18N_Tainted_Magic_1_55);
+game.setLocalization("tc.research_text.ROD_warpwood", I18N_Tainted_Magic_1_56);
 mods.thaumcraft.Research.addPage("ROD_warpwood", "tm.text.ROD_warpwood.1");
 mods.thaumcraft.Infusion.addRecipe("ROD_warpwood", <Thaumcraft:ItemEldritchObject:3>,
 [<TaintedMagic:BlockWarpwoodLog>, <gregtech:gt.metaitem.01:28081>, <gregtech:gt.metaitem.01:19368>, <gregtech:gt.metaitem.01:18970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:18970>, <gregtech:gt.metaitem.01:19368>, <gregtech:gt.metaitem.01:28081>, <Thaumcraft:ItemZombieBrain>, <gregtech:gt.metaitem.01:28081>, <gregtech:gt.metaitem.01:19368>, <gregtech:gt.metaitem.01:18970>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:18970>, <gregtech:gt.metaitem.01:19368>, <gregtech:gt.metaitem.01:28081>], 
@@ -809,8 +883,8 @@ mods.thaumcraft.Research.removeResearch("ROD_warpwood_staff");
 mods.thaumcraft.Research.addResearch("ROD_warpwood_staff", "TM", "arbor 18, tenebrae 15, alienis 12, praecantatio 9, potentia 6, instrumentum 3", 9, -2 as int, 4, <TaintedMagic:ItemWandRod:1>);
 mods.thaumcraft.Research.addPrereq("ROD_warpwood_staff", "ROD_warpwood", false);
 mods.thaumcraft.Research.setConcealed("ROD_warpwood_staff", true);
-game.setLocalization("tc.research_name.ROD_warpwood_staff", "\u626d\u66f2\u4e4b\u6728\u6756\u82af");
-game.setLocalization("tc.research_text.ROD_warpwood_staff", "\u4e0d\u662f\u5f88\u61c2a.a\u8fd9\u662f\u4e3a\u4ec0\u4e48...");
+game.setLocalization("tc.research_name.ROD_warpwood_staff", I18N_Tainted_Magic_1_57);
+game.setLocalization("tc.research_text.ROD_warpwood_staff", I18N_Tainted_Magic_1_58);
 mods.thaumcraft.Research.addPage("ROD_warpwood_staff", "tm.text.ROD_warpwood_staff.1");
 mods.thaumcraft.Arcane.addShaped("ROD_warpwood_staff", <TaintedMagic:ItemWandRod:1>, "aqua 150, terra 150, ignis 150, aer 150, ordo 150, perditio 150", [
 [<ore:screwShadow>, <TaintedMagic:ItemMaterial:4>, <Thaumcraft:ItemEldritchObject:3>], 
@@ -827,8 +901,8 @@ mods.thaumcraft.Research.addPrereq("FocusTimeGTNH", "CreationShardGTNH", false);
 mods.thaumcraft.Research.addPrereq("FocusTimeGTNH", "FOCUSPORTABLEHOLE", false);
 mods.thaumcraft.Research.addPrereq("FocusTimeGTNH", "FOCUSFIRE", false);
 mods.thaumcraft.Research.setConcealed("FocusTimeGTNH", true);
-game.setLocalization("tc.research_name.FocusTimeGTNH", "\u6cd5\u6756\u6838\u5fc3:\u65f6\u95f4");
-game.setLocalization("tc.research_text.FocusTimeGTNH", "\u767d\u663c\u81f3,\u543e\u5e94\u884c...");
+game.setLocalization("tc.research_name.FocusTimeGTNH", I18N_Tainted_Magic_1_59);
+game.setLocalization("tc.research_text.FocusTimeGTNH", I18N_Tainted_Magic_1_60);
 mods.thaumcraft.Research.addPage("FocusTimeGTNH", "tm.text.FOCUSTIME.1");
 mods.thaumcraft.Infusion.addRecipe("FocusTimeGTNH", <TaintedMagic:ItemMaterial:5>,
 [<Thaumcraft:FocusPortableHole>, <Thaumcraft:blockCrystal>, <dreamcraft:item.VoidEssence>, <minecraft:clock>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal>, <Thaumcraft:blockCrystal:6>, <Thaumcraft:blockCrystal>, <dreamcraft:item.VoidEssence>, <minecraft:clock>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal>], 
@@ -844,8 +918,8 @@ mods.thaumcraft.Research.addPrereq("FocusWeatherGTNH", "CreationShardGTNH", fals
 mods.thaumcraft.Research.addPrereq("FocusWeatherGTNH", "FOCUSSHOCK", false);
 mods.thaumcraft.Research.addPrereq("FocusWeatherGTNH", "FOCUSFROST", false);
 mods.thaumcraft.Research.setConcealed("FocusWeatherGTNH", true);
-game.setLocalization("tc.research_name.FocusWeatherGTNH", "\u6cd5\u6756\u6838\u5fc3:\u5929\u6c14");
-game.setLocalization("tc.research_text.FocusWeatherGTNH", "\u670930%\u51e0\u7387\u4e0b\u96e8.");
+game.setLocalization("tc.research_name.FocusWeatherGTNH", I18N_Tainted_Magic_1_61);
+game.setLocalization("tc.research_text.FocusWeatherGTNH", I18N_Tainted_Magic_1_62);
 mods.thaumcraft.Research.addPage("FocusWeatherGTNH", "tm.text.FOCUSWEATHER.1");
 mods.thaumcraft.Infusion.addRecipe("FocusWeatherGTNH", <TaintedMagic:ItemMaterial:5>,
 [<Thaumcraft:FocusShock>, <Thaumcraft:blockCrystal:2>, <dreamcraft:item.VoidEssence>, <Thaumcraft:ItemResource:14>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:2>, <Thaumcraft:FocusFrost>, <Thaumcraft:blockCrystal:2>, <dreamcraft:item.VoidEssence>, <Thaumcraft:ItemResource:14>, <dreamcraft:item.VoidEssence>, <Thaumcraft:blockCrystal:2>], 
@@ -863,8 +937,8 @@ mods.thaumcraft.Research.addPrereq("PrimalBladeGTNH", "CrystalDaggerGTNH", true)
 mods.thaumcraft.Research.addPrereq("PrimalBladeGTNH", "VOIDMETAL", false);
 mods.thaumcraft.Research.addPrereq("PrimalBladeGTNH", "PRIMALCRUSHER", false);
 mods.thaumcraft.Research.setConcealed("PrimalBladeGTNH", true);
-game.setLocalization("tc.research_name.PrimalBladeGTNH", "\u5143\u59cb\u4e4b\u5203");
-game.setLocalization("tc.research_text.PrimalBladeGTNH", "\u795e\u5a01");
+game.setLocalization("tc.research_name.PrimalBladeGTNH", I18N_Tainted_Magic_1_63);
+game.setLocalization("tc.research_text.PrimalBladeGTNH", I18N_Tainted_Magic_1_64);
 mods.thaumcraft.Research.addPage("PrimalBladeGTNH", "tm.text.PRIMALBLADE.1");
 mods.thaumcraft.Infusion.addRecipe("PrimalBladeGTNH", <Thaumcraft:ItemSwordVoid>,
 [<Thaumcraft:ItemPrimalCrusher>, <Thaumcraft:blockCrystal:5>, <gregtech:gt.metaitem.01:17368>, <Thaumcraft:blockCrystal:1>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:blockCrystal:3>, <gregtech:gt.metaitem.01:17368>, <dreamcraft:item.VoidEssence>, <TaintedMagic:ItemCrystalDagger>, <dreamcraft:item.VoidEssence>, <gregtech:gt.metaitem.01:17368>, <Thaumcraft:blockCrystal:2>, <gregtech:gt.metaitem.01:17970>, <Thaumcraft:blockCrystal>, <gregtech:gt.metaitem.01:17368>], 
@@ -879,8 +953,8 @@ mods.thaumcraft.Research.addResearch("CAP_cloth", "TM", "praecantatio 12, pannus
 mods.thaumcraft.Research.addPrereq("CAP_cloth", "CAP_gold", false);
 mods.thaumcraft.Research.addPrereq("CAP_cloth", "ENCHFABRIC", false);
 mods.thaumcraft.Research.setConcealed("CAP_cloth", true);
-game.setLocalization("tc.research_name.CAP_cloth", "\u9b54\u529b\u5e03\u5339\u6756\u7aef");
-game.setLocalization("tc.research_text.CAP_cloth", "\u8bb0\u5f97\u8981\u8ba9\u5b83\u626d\u66f2\u54df");
+game.setLocalization("tc.research_name.CAP_cloth", I18N_Tainted_Magic_1_65);
+game.setLocalization("tc.research_text.CAP_cloth", I18N_Tainted_Magic_1_66);
 mods.thaumcraft.Research.addPage("CAP_cloth", "tm.text.CAP_cloth.1");
 mods.thaumcraft.Arcane.addShaped("CAP_cloth", <TaintedMagic:ItemWandCap:1>, "terra 25, ignis 25, ordo 25, perditio 25", [
 [<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>], 
@@ -896,10 +970,10 @@ mods.thaumcraft.Research.addResearch("CAP_shadowcloth", "TM", "praecantatio 18, 
 mods.thaumcraft.Research.addPrereq("CAP_shadowcloth", "CAP_thaumium", false);
 mods.thaumcraft.Research.addPrereq("CAP_shadowcloth", "ShadowClothGTNH", false);
 mods.thaumcraft.Research.setConcealed("CAP_shadowcloth", true);
-game.setLocalization("tc.research_name.CAP_shadowcloth", "\u6697\u5f71\u5e03\u5339\u6756\u7aef");
-game.setLocalization("tc.research_text.CAP_shadowcloth", "\u661f\u671f\u4e09\u6211\u4eec\u5e94\u8be5\u7a7f\u9ed1\u8863\u670d");
+game.setLocalization("tc.research_name.CAP_shadowcloth", I18N_Tainted_Magic_1_67);
+game.setLocalization("tc.research_text.CAP_shadowcloth", I18N_Tainted_Magic_1_68);
 mods.thaumcraft.Research.addPage("CAP_shadowcloth", "tc.research_page.CAP_shadowcloth");
-game.setLocalization("tc.research_page.CAP_shadowcloth", "\u4f60\u4f7f\u7528\u4e0e\u9b54\u529b\u5e03\u5339\u6756\u7aef\u5b8c\u5168\u76f8\u540c\u7684\u8bbe\u8ba1,\u5236\u9020\u4e86\u4e00\u79cd\u65b0\u7684\u6cd5\u6756\u6756\u7aef,\u4e0d\u8fc7\u4f60\u5c06\u6750\u6599\u6362\u6210\u4e86\u6697\u5f71\u5e03\u5339.\u8fd9\u770b\u8d77\u6765\u975e\u5e38\u6210\u529f,\u552f\u4e00\u7684\u7f3a\u9677\u662f\u4f60\u9700\u8981\u4f7f\u7528\u5145\u80fd\u795e\u79d8\u6756\u7aef,\u624d\u80fd\u5c06\u5b83\u4eec\u56fa\u5b9a\u5230\u4e00\u8d77.<BR>\u6697\u5f71\u5e03\u5339\u6756\u7aef\u4e0e\u9b54\u529b\u5e03\u5339\u6756\u7aef\u51e0\u4e4e\u5b8c\u5168\u76f8\u540c,\u4e0d\u8fc7\u6548\u7387\u66f4\u9ad8.\u5b83\u53ef\u4ee5\u7ed9\u4e8815%\u7684\u9b54\u529b\u51cf\u514d.");
+game.setLocalization("tc.research_page.CAP_shadowcloth", I18N_Tainted_Magic_1_69);
 mods.thaumcraft.Arcane.addShaped("CAP_shadowcloth", <TaintedMagic:ItemWandCap:3>, "terra 50, ignis 50, ordo 50, perditio 50", [
 [<TaintedMagic:ItemMaterial:1>, <ore:foilVibrantAlloy>, <TaintedMagic:ItemMaterial:1>], 
 [<ore:foilVibrantAlloy>, <Thaumcraft:WandCap:2>, <ore:foilVibrantAlloy>],
@@ -914,10 +988,10 @@ mods.thaumcraft.Research.addResearch("CAP_crimsoncloth", "TM", "tenebrae 18, pra
 mods.thaumcraft.Research.addPrereq("CAP_crimsoncloth", "CAP_cloth", true);
 mods.thaumcraft.Research.addPrereq("CAP_crimsoncloth", "CrimsonRobesGTNH", false);
 mods.thaumcraft.Research.setConcealed("CAP_crimsoncloth", true);
-game.setLocalization("tc.research_name.CAP_crimsoncloth", "\u8840\u8165\u5e03\u5339\u6756\u7aef");
-game.setLocalization("tc.research_text.CAP_crimsoncloth", "\u6211\u559c\u6b22\u8fd9\u7ea2\u8272");
+game.setLocalization("tc.research_name.CAP_crimsoncloth", I18N_Tainted_Magic_1_70);
+game.setLocalization("tc.research_text.CAP_crimsoncloth", I18N_Tainted_Magic_1_71);
 mods.thaumcraft.Research.addPage("CAP_crimsoncloth", "tc.research_page.CAP_crimsoncloth");
-game.setLocalization("tc.research_page.CAP_crimsoncloth", "\u4f60\u6df1\u9677\u8840\u8165\u88c1\u526a\u4ee5\u53ca\u6697\u5f71\u5e03\u5339\u6756\u7aef\u7684\u76f8\u5173\u7814\u7a76\u4e2d\u4e0d\u53ef\u81ea\u62d4,\u6700\u7ec8\u521b\u9020\u51fa\u4e86\u5b83\u4eec\u7684\u7ed3\u5408\u4f53,\u4e00\u79cd\u62e5\u6709\u6781\u5f3a\u9b54\u529b\u4f20\u5bfc\u6027\u7684\u65b0\u6756\u7aef.<BR>\u5e03\u5339\u4e0a\u6d78\u67d3\u7684\u7ed3\u6676\u8840\u6db2,\u4f3c\u4e4e\u53ef\u4ee5\u5e2e\u52a9\u6756\u7aef\u66f4\u9ad8\u6548\u5730\u6c9f\u901a\u9b54\u529b.\u8840\u8165\u5e03\u5339\u6756\u7aef\u5c06\u7ed9\u4e8820%\u7684\u9b54\u529b\u51cf\u514d.");
+game.setLocalization("tc.research_page.CAP_crimsoncloth", I18N_Tainted_Magic_1_72);
 mods.thaumcraft.Arcane.addShaped("CAP_crimsoncloth", <TaintedMagic:ItemWandCap:2>, "aer 100, ignis 100, aqua 100, terra 100, ordo 100, perditio 100", [
 [<TaintedMagic:ItemMaterial:2>, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:2>], 
 [<TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemWandCap:3>, <TaintedMagic:ItemMaterial:8>],
@@ -933,12 +1007,10 @@ mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "CAP_shadowcloth", false);
 mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "CAP_void", false);
 mods.thaumcraft.Research.addPrereq("CAP_shadowmetal", "PRIMPEARL", false);
 mods.thaumcraft.Research.setConcealed("CAP_shadowmetal", true);
-game.setLocalization("tc.research_name.CAP_shadowmetal", "\u6697\u5f71\u6756\u7aef");
-game.setLocalization("tc.research_text.CAP_shadowmetal", "\u6709\u591a\u5403\u529b?");
+game.setLocalization("tc.research_name.CAP_shadowmetal", I18N_Tainted_Magic_1_73);
+game.setLocalization("tc.research_text.CAP_shadowmetal", I18N_Tainted_Magic_1_74);
 mods.thaumcraft.Research.addPage("CAP_shadowmetal", "tc.research_page.CAP_shadowmetal");
-game.setLocalization("tc.research_page.CAP_shadowmetal", "\u6839\u636e\u4f60\u5728\u865a\u7a7a\u6756\u7aef\u4e0a\u7684\u63a2\u7d22\u5fc3\u5f97,\u8fdb\u4e00\u6b65\u63d0\u5347\u8fd9\u79cd\u6756\u7aef\u4f1a\u600e\u4e48\u6837?
-\u4f60\u5c1d\u8bd5\u5c06\u66f4\u591a\u7684\u865a\u7a7a\u952d,\u4e00\u4e9b\u6697\u5f71\u952d\u548c\u4e00\u9897\u5143\u59cb\u73cd\u73e0\u6ce8\u5165\u865a\u7a7a\u6756\u7aef,\u4e8b\u5b9e\u8bc1\u660e\u4f60\u7684\u60f3\u6cd5\u975e\u5e38\u6210\u529f.
-\u6697\u5f71\u6756\u7aef\u4f3c\u4e4e\u80fd\u5341\u5206\u6709\u6548\u5730\u8282\u7701\u9b54\u529b,\u5bf9\u6240\u6709\u9b54\u529b\u90fd\u670930%\u7684\u51cf\u514d.");
+game.setLocalization("tc.research_page.CAP_shadowmetal", I18N_Tainted_Magic_1_75);
 mods.thaumcraft.Infusion.addRecipe("CAP_shadowmetal", <Thaumcraft:ItemEldritchObject:3>,
 [<Thaumcraft:WandCap:7>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:20368>, <gregtech:gt.metaitem.01:22970>, <gregtech:gt.metaitem.01:20368>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.02:30508>, <TaintedMagic:ItemMaterial:3>, <gregtech:gt.metaitem.01:20368>, <gregtech:gt.metaitem.01:22970>, <gregtech:gt.metaitem.01:20368>, <TaintedMagic:ItemMaterial:3>], 
 "alienis 96, praecantatio 96, tenebrae 84, metallum 72, vacuos 64, cognitio 68, lucrum 32, fames 32", <TaintedMagic:ItemWandCap>, 12);

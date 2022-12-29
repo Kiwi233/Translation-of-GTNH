@@ -10,6 +10,73 @@ import mods.gregtech.Mixer;
 import mods.gregtech.CuttingSaw;
 
 
+// --- I18N ---
+val I18N_Witchery_0 = "\u5deb\u672f";
+val I18N_Witchery_1 = "\u53d7\u9b54\u4e4b\u818f";
+val I18N_Witchery_2 = "\u005b\u0057\u0049\u005d\u9b54\u6cd5\u818f\u836f";
+val I18N_Witchery_3 = "\u7528\u53d7\u9b54\u4e4b\u818f\u6d82\u62b9\u5728\u666e\u901a\u70bc\u836f\u9505\u4e0a\u002c\u53ef\u5c06\u5176\u8f6c\u53d8\u4e3a\u5deb\u5e08\u70bc\u836f\u9505\u002c\u7136\u540e\u5c31\u80fd\u70bc\u5236\u6709\u8da3\u7684\u836f\u6c34\u4e0e\u7269\u54c1\u4e86\u002e<BR>\u53ea\u9700\u5c06\u70bc\u836f\u9505\u653e\u7f6e\u4e8e\u4e16\u754c\u4e0a\u002c\u7136\u540e\u624b\u6301\u53d7\u9b54\u4e4b\u818f\u5bf9\u7740\u70bc\u836f\u9505\u53f3\u952e\u002c\u5373\u53ef\u5c06\u70bc\u836f\u9505\u53d8\u4e3a\u5deb\u5e08\u70bc\u836f\u9505\u002e<BR>\u5c06\u4e0d\u540c\u7684\u5deb\u672f\u79cd\u5b50\u4e0e\u6c34\u5728\u6405\u62cc\u673a\u5185\u6df7\u5408\u5373\u53ef\u5f97\u5230\u53d7\u9b54\u4e4b\u818f\u002e";
+val I18N_Witchery_4 = "\u5deb\u5e08\u70e4\u7089";
+val I18N_Witchery_5 = "\u005b\u0057\u0049\u005d\u7cd6\u679c\u5c4b\u0028\u683c\u6797\u7ae5\u8bdd\u0029";
+val I18N_Witchery_6 = "\u5728\u7cd6\u679c\u5c4b\u4e2d\u81ed\u540d\u662d\u8457\u7684\u5deb\u5e08\u70e4\u7089\u5bf9\u4e8e\u5973\u5deb\u6216\u662f\u672f\u58eb\u6765\u8bf4\u662f\u4e00\u4e2a\u975e\u5e38\u5b9e\u7528\u7684\u8bbe\u5907\u002e<BR>\u867d\u7136\u4e0d\u80fd\u51b6\u70bc\u91d1\u5c5e\u002c\u4f46\u5deb\u5e08\u70e4\u7089\u7279\u522b\u64c5\u957f\u70f9\u996a\u98df\u7269\u548c\u5236\u4f5c\u6728\u70ad\u002e<BR>\u5b83\u7684\u70f9\u996a\u901f\u5ea6\u6bd4\u7194\u7089\u5feb\u0031\u0030\u0025\u5de6\u53f3\u002c\u5b83\u7684\u7b2c\u4e8c\u4e2a\u4e5f\u8bb8\u662f\u66f4\u91cd\u8981\u7684\u7279\u5f81\u662f\u5b83\u80fd\u591f\u6355\u83b7\u70f9\u996a\u8fc7\u7a0b\u4e2d\u4ea7\u751f\u7684\u526f\u4ea7\u54c1\u002e<BR>\u53f3\u952e\u70e4\u7089\u4ee5\u663e\u793a\u4ea4\u4e92\u754c\u9762\u002c\u4f60\u5c06\u5728\u71c3\u6599\u680f\u53f3\u4fa7\u770b\u5230\u4e00\u4e2a\u989d\u5916\u7684\u680f\u4f4d\u002e";
+val I18N_Witchery_7 = "\u8fd9\u4e2a\u989d\u5916\u680f\u4f4d\u5c31\u662f\u7528\u6765\u653e\u7f6e\u7c98\u571f\u7f50\u7684\u002e<BR>\u5982\u679c\u6709\u7c98\u571f\u7f50\u002c\u90a3\u4e48\u5728\u70f9\u996a\u8fc7\u7a0b\u4e2d\u5c06\u6709\u51e0\u7387\u4ea7\u751f\u70f9\u996a\u7269\u7684\u526f\u4ea7\u54c1\u002c\u5e76\u88c5\u8fdb\u7c98\u571f\u7f50\u4e2d\u002e<BR>\u82e5\u662f\u6ca1\u6709\u7c98\u571f\u7f50\u002c\u90a3\u4e48\u5c31\u4e0d\u4f1a\u4ea7\u751f\u526f\u4ea7\u7269\u002e";
+val I18N_Witchery_8 = "\u8c03\u8c10\u4e4b\u77f3";
+val I18N_Witchery_9 = "\u005b\u0057\u0049\u005d\u534f\u8c03\u7684\u77f3\u5934";
+val I18N_Witchery_10 = "\u8c10\u8c03\u4e4b\u77f3\u002c\u662f\u4e00\u9897\u5728\u70bd\u70ed\u4ecb\u8d28\u4e2d\u6ce8\u5165\u4e86\u81ea\u7136\u9b54\u6cd5\u7684\u94bb\u77f3\u002e<BR>\u8c03\u8c10\u4e4b\u77f3\u53ef\u7528\u4e8e\u5c06\u975e\u9b54\u6cd5\u7684\u8bbe\u5907\u8fde\u63a5\u5230\u9b54\u6cd5\u6d41\u4e2d\u002c\u5b83\u4e5f\u662f\u84b8\u998f\u5854\u3001\u6c34\u58f6\u3001\u796d\u575b\u548c\u5a03\u5a03\u53f0\u5b50\u7684\u4e3b\u8981\u6750\u6599\u4e4b\u4e00\u002e<BR>\u5f53\u9644\u8fd1\u6ca1\u6709\u53ef\u7528\u7684\u796d\u575b\u65f6\u002c\u8c03\u8c10\u4e4b\u77f3\u53ef\u5145\u5f53\u5706\u73af\u9b54\u6cd5\u4eea\u5f0f\u7684\u4fbf\u643a\u5f0f\u80fd\u6e90\u002c\u8fd9\u4e5f\u662f\u5176\u53e6\u4e00\u4e2a\u4e3b\u8981\u7528\u9014\u002e\u0020\u60f3\u8981\u5982\u6b64\u4f7f\u7528\u7684\u524d\u63d0\u662f\u002c\u8c03\u8c10\u4e4b\u77f3\u5df2\u7ecf\u901a\u8fc7\u5145\u80fd\u4eea\u5f0f\u5145\u80fd\u002e";
+val I18N_Witchery_11 = "\u7403\u72b6\u77f3\u82f1";
+val I18N_Witchery_12 = "\u005b\u0057\u0049\u005d\u53ec\u5524\u5973\u5deb";
+val I18N_Witchery_13 = "\u7403\u72b6\u77f3\u82f1\u662f\u5236\u4f5c\u6c34\u6676\u7403\u7684\u4eea\u5f0f\u4e2d\u7684\u7ec4\u4ef6\u002e";
+val I18N_Witchery_14 = "\u679d\u72b6\u5927\u70db\u53f0";
+val I18N_Witchery_15 = "\u005b\u0057\u0049\u005d\u5b83\u53d8\u4eae\u4e86";
+val I18N_Witchery_16 = "\u679d\u72b6\u5927\u70db\u53f0\u662f\u796d\u575b\u7684\u5347\u7ea7\u7269\u54c1\u002c\u53ef\u63d0\u9ad8\u796d\u575b\u7684\u6062\u590d\u901f\u5ea6\uff0c\u5723\u9910\u676f\u53ef\u4ee5\u63d0\u5347\u81f3\u57fa\u7840\u6062\u590d\u901f\u5ea6\u7684\u0032\u500d\u002e<BR>\u679d\u72b6\u5927\u70db\u53f0\u662f\u706b\u628a\u7684\u5347\u7ea7\u7248\u002c\u5728\u540c\u4e00\u796d\u575b\u4e0a\u002c\u706b\u628a\u6216\u70db\u53f0\u53ea\u80fd\u540c\u65f6\u751f\u6548\u4e00\u4e2a\u002e";
+val I18N_Witchery_17 = "\u5deb\u672f\u6c34\u58f6";
+val I18N_Witchery_18 = "\u005b\u0057\u0049\u005d\u5973\u5deb\u4e5f\u75af\u72c2\u0028\u7535\u5f71\u0029";
+val I18N_Witchery_19 = "\u6ca1\u4ec0\u4e48\u6bd4\u6c34\u58f6\u0028\u6216\u662f\u70bc\u836f\u9505\u0029\u66f4\u80fd\u4ee3\u8868\u5deb\u672f\u7684\u5f62\u8c61\u4e86\u002c\u6c34\u58f6\u662f\u7528\u4e8e\u5deb\u672f\u917f\u9020\u4ee5\u53ca\u540e\u671f\u6ce8\u9b54\u7684\u002e<BR>\u6c34\u58f6\u5fc5\u987b\u88ab\u6b63\u786e\u653e\u7f6e\u624d\u80fd\u4f7f\u7528\u002e<BR>\u9996\u5148\u002c\u6c34\u58f6\u7684\u5e95\u90e8\u5fc5\u987b\u6709\u706b\u0028\u5730\u72f1\u5ca9\u662f\u6700\u597d\u7684\u9009\u62e9\u002c\u4f46\u4f60\u60f3\u7528\u6728\u5934\u4e5f\u4e0d\u662f\u4e0d\u884c\u0029\u002e\u0020\u7136\u540e\u002c\u6c34\u58f6\u5fc5\u987b\u4f7f\u7528\u6c34\u6876\u88c5\u6ee1\u002e\u0020\u7b2c\u4e09\u6b65\u002c\u5fc5\u987b\u5c06\u7528\u4e8e\u917f\u9020\u6216\u6ce8\u9b54\u7684\u914d\u6599\u6254\u8fdb\u6c34\u58f6\u4e2d\u0028\u6db2\u4f53\u989c\u8272\u4f1a\u6839\u636e\u914d\u65b9\u53d8\u8272\u0029\u002e\u0020\u6700\u540e\u002c\u5fc5\u987b\u624b\u6301\u73bb\u7483\u74f6\u53f3\u51fb\u6c34\u58f6\u4ee5\u53d6\u51fa\u6210\u54c1\u002e";
+val I18N_Witchery_20 = "\u5728\u914d\u65b9\u51c6\u5907\u8fc7\u7a0b\u4e2d\u4fdd\u6301\u706b\u52bf\u4e0d\u65ad\u662f\u5f88\u91cd\u8981\u7684\u002c\u5426\u5219\u5c31\u4f1a\u6bc1\u4e86\u917f\u9020\u002e<BR>\u6c34\u58f6\u51fa\u73b0\u6f29\u6da1\u662f\u4e00\u4e2a\u597d\u73b0\u8c61\u002c\u9ed1\u70df\u0028\u548c\u68d5\u8272\u6db2\u4f53\u0029\u8868\u660e\u917f\u9020\u5df2\u7ecf\u6bc1\u4e86\u002e<BR>\u917f\u9020\u6bc1\u4e86\u4e4b\u540e\u002c\u5fc5\u987b\u4f7f\u7528\u73bb\u7483\u74f6\u6e05\u7a7a\u6c34\u58f6\u002c\u6216\u662f\u7528\u66f4\u591a\u7684\u6c34\u586b\u6ee1\u6c34\u58f6\u5e76\u91cd\u590d\u6574\u4e2a\u8fc7\u7a0b\u002e<BR>\u917f\u9020\u5b8c\u6210\u540e\u002c\u6db2\u4f53\u5c06\u4f1a\u5448\u73b0\u6210\u54c1\u7684\u989c\u8272\u5e76\u4f34\u7740\u6c14\u6ce1\u7206\u88c2\u0028\u9664\u4e86\u767d\u8272\u6f29\u6da1\u0029\u002e<BR>\u67d0\u4e9b\u914d\u65b9\u5728\u88c5\u74f6\u524d\u53ef\u80fd\u9700\u8981\u6765\u81ea\u9644\u8fd1\u796d\u575b\u7684\u9b54\u6cd5\u80fd\u91cf\u002c\u800c\u82e5\u662f\u80fd\u91cf\u4e0d\u8db3\u4e5f\u4f1a\u6bc1\u4e86\u917f\u9020\u002e<BR>\u6c34\u58f6\u4e2d\u51fa\u73b0\u9ed1\u8272\u6f29\u6da1\u5c31\u8bf4\u660e\u80fd\u91cf\u4e0d\u8db3\u002e";
+val I18N_Witchery_21 = "\u6c34\u58f6\u5fc5\u987b\u7f6e\u4e8e\u796d\u575b\u0031\u0034\u0028\u81f3\u0031\u0036\u0029\u683c\u4e4b\u5185\u4ee5\u83b7\u5f97\u80fd\u91cf\u002e<BR>\u0028\u6c34\u58f6\u53ea\u53ef\u4ece\u5355\u4e00\u796d\u575b\u83b7\u5f97\u80fd\u91cf\u0029";
+val I18N_Witchery_22 = "\u5deb\u672f\u8f6c\u8f6e";
+val I18N_Witchery_23 = "\u005b\u0057\u0049\u005d\u4e00\u5708\u53c8\u4e00\u5708\u002e\u002e\u002e";
+val I18N_Witchery_24 = "\u8f6c\u8f6e\u662f\u4e00\u79cd\u5c06\u6750\u6599\u7eba\u6210\u7ebf\u7684\u8bbe\u5907\u002e\u5b83\u662f\u9b54\u6cd5\u8bbe\u5907\u002c\u53ef\u4ece\u9644\u8fd1\u7684\u796d\u575b\u4e2d\u83b7\u53d6\u80fd\u91cf\u002e<BR>\u4f7f\u7528\u8f6c\u8f6e\u65f6\u002c\u5c06\u539f\u6750\u6599\u653e\u5165\u5de6\u4fa7\u680f\u4f4d\u4e2d\u002c\u5e76\u5c06\u6dfb\u52a0\u914d\u6599\u653e\u5165\u5e95\u90e8\u680f\u4f4d\u4e2d\u002c\u82e5\u662f\u6709\u8db3\u591f\u80fd\u91cf\u002c\u7eba\u7ec7\u8fc7\u7a0b\u5c31\u4f1a\u81ea\u52a8\u5f00\u59cb\u002e<BR>\u8f6c\u8f6e\u53ef\u7528\u4e8e\u5236\u4f5c\u9ec4\u91d1\u7ebf\u56e2\u3001\u5e7b\u60f3\u7ebf\u56e2\u548c\u6298\u78e8\u7ebf\u56e2\u002e";
+val I18N_Witchery_25 = "\u7ea2\u5b9d\u77f3\u821e\u978b";
+val I18N_Witchery_26 = "\u005b\u0057\u0049\u005d\u6b22\u8fce\u56de\u5bb6";
+val I18N_Witchery_27 = "Ruby Slippers are worn in the foot slot and have the same durability and protection as leather boots. They can be enchanted like leather boots too. They cannot be dyed.<BR>Once every 30 minutes, if a player is infused, if the player chants *There's no place like home* into the chat or uses the command: *chant there's no place like home<BR> They will be teleported back to their spawn point in the same dimension, this ability costs 40% of the players total infused power (or 60% if the teleport is cross-dimensional).";
+val I18N_Witchery_28 = "Alternatively, once every 60 seconds the player may drop a Bound Waystone near to themselves and use the above chant to teleport to the location of the waystone (the waystone will be consumed!).<BR> This ability saves the need to draw a circle to use the Rite of Transposition. This ability costs 20% of the players total infused power (or 40% if the teleport is cross-dimensional).<BR>Ruby Slippers will turn invisible when the player is invisible. This is only a visual change, mobs will still react as if normal shoes were worn. Other players however will not be able to see the slippers!";
+val I18N_Witchery_29 = "\u84b8\u998f\u5854";
+val I18N_Witchery_30 = "\u005b\u0057\u0049\u005d\u5495\u565c\u002e\u002e\u002e\u5495\u565c\u565c\u002e\u002e\u002e";
+val I18N_Witchery_31 = "A distillery used by a witch is a construct used for distilling magical ingredients. It is unlike a normal distillery, because it heats itself using energy obtained from a nearby altar, the distillery must be within about 14 (to 16) blocks of an altar to draw power from it, a small icon is shown in the interface if no power is available. One or two ingredients are distilled together and will result in up to four distillates; or resulting materials. A supply of clay jars is also needed to capture the some or all of the distillates. A distillery is crafted using a fair bit of Thaumium, a Cauldron, finely crafted pipes, clay jars, and an Attuned Stone.";
+val I18N_Witchery_32 = "\u4eea\u5f0f\u7c89\u7b14";
+val I18N_Witchery_33 = "[WI] Drawing Signs";
+val I18N_Witchery_34 = "Ritual chalk is used to draw each of the white ritual glyphs that make up a ritual circle. It is also used as an ingredient in crafting the other types of chalk. To draw a ritual glyph, use the chalk on the ground. Ritual glyphs of various types will be drawn, although they all have the same function. If you use the chalk on an existing ritual glyph, a new one will be drawn in its place. <BR>Ritual chalk is crafted from Gypsum, Wood Ash and Tear of the Goddess.";
+val I18N_Witchery_35 = "Ritual glyphs should be arranged in the roughly circular patterns as illustrated in the book Witchcraft: Circle Magic. With a heart glyph drawn with Golden Chalk in the center.";
+val I18N_Witchery_36 = "Circle Talisman";
+val I18N_Witchery_37 = "[WI] Oh Shiny Talisman";
+val I18N_Witchery_38 = "A circle talisman allows a pattern of glyphs drawn onto the ground to be bound instead to the talisman (the glyphs will disappear) and later be redrawn at a new location when then talisman is used. This makes it very easy for the witch or wizard to prepare time consuming circles in advance for rapid deployment later. <BR> To bind a circle talisman perform the Rite of Binding described in Witchcraft: Circle Magic with any pattern of circles.";
+val I18N_Witchery_39 = "To deploy a bound talisman, right-click on the ground in a place with enough space to contain the pattern. You will hear a fail sound if there are obstructions and the circles cannot be placed.";
+val I18N_Witchery_40 = "Witchery Altar";
+val I18N_Witchery_41 = "[WI] Our Father";
+val I18N_Witchery_42 = "An altar is a focal point to concentrate the magic present in the surrounding area into single usable source of power. Since witchcraft is a method to harness the power of nature, placing an altar in a location with little or no living things will yield very little magic to work with. There is a reason why most witches huts are found deep in dark forests or swamps!<BR>An altar is created by placing six altar blocks in a 2x3 pattern; you will know it is correct when a red cloth appears over the top of the altar.";
+val I18N_Witchery_43 = "Activating the altar by right-clicking on it will bring up a screen showing how much power the altar has collected, how much it can collect and its current recharge rate. It is important to check that there is sufficient available power to perform a given rite or use a distillery or kettle recipe.<BR>The maximum amount of power available is determined by how many natural items are in the vicinity of the altar, dirt, grass, trees, plants, etc. all contribute; stone and sand do not. The important thing is to have a diverse mix of different plants, trees and crops (plants from other mods are supported to an extent as well).";
+val I18N_Witchery_44 = "Chalice";
+val I18N_Witchery_45 = "[WI] Cheers";
+val I18N_Witchery_46 = "The chalice is an upgrade for an altar that improves the maximum amount of power an altar can hold. The chalice will increase the maximum power by 1x the base power rate.<BR>The chalice upgrades to the Filled Chalice. Only one chalice upgrade will have an effect on an altar.";
+val I18N_Witchery_47 = "Arthana";
+val I18N_Witchery_48 = "[WI] Ritualistic Knife";
+val I18N_Witchery_49 = "An Arthana is a ritualistic knife use by witches and warlocks to both collect special ingredients and to perform some rites. It has the same general properties as a golden sword (damage, enchantability, etc.), although it has the durability of an iron sword. It is repaired with a Gold Ingot.<BR>The main purpose of the dagger is to collect specialist ingredients used in witchcraft, and to this end it will dramatically improve the chance of a mob dropping such ingredients (e.g. Wool of Bat, Tongue of Dog, etc.). It also gives a small chance of undead dropping Spectral Dust.";
+val I18N_Witchery_50 = "When only using vanilla Minecraft with Witchery (and no other mods), an Arthana dagger is the only way to get a skull to drop when a skeleton is killed, the drop chance is about 5% (the skull is a key upgrade for an altar). The dagger even gives a very small probability for other head drops (from mobs and players). All drop chances are increased with the Looting enchantment.<BR>An Arthana does not change the drop chance for Wither Skeleton Skulls, that will require the Looting enchantment as usual.<BR>Some Circle Magic rites use an Arthana as a foci, the Arthana is not consumed in the proces.";
+val I18N_Witchery_51 = "Warm Blood";
+val I18N_Witchery_52 = "[WI] Mhhh warm Blood";
+val I18N_Witchery_53 = "The Bottle of Warm Blood is an item that can be drunk by a player. If the player is a vampire, they will restore 2 droplets of blood to the blood pool. If the player is not a vampire they will get a hunger debuff. This item allows a players to quickly get blood, or it can be used as a ingredient for the Demonic Contract.";
+val I18N_Witchery_54 = "Fume Funnel";
+val I18N_Witchery_55 = "[WI] Upgrades Yea";
+val I18N_Witchery_56 = "A fume funnel is an upgrade for the Witches Oven that increases that increases the speed (over a normal furnace) by an additional 10%, and increases the chances of a by-product being produced by a further 25%.The Fume Funnel must be positioned next to the left or right of the witches oven with the same facing. Up to two funnels can be attached to one oven. It is possible to place a funnel between two ovens for it to benefit both. A third fume funnel can also be placed on top of an oven to make it look better and also to increase its speed by a further 10%.";
+val I18N_Witchery_57 = "Fume Filter";
+val I18N_Witchery_58 = "[WI] More By-products";
+val I18N_Witchery_59 = "A Fume Filter is used to upgrade a Fume Funnel to a Filtered Fume Funnel in order to increase the by-product chance of a Witches Oven.";
+val I18N_Witchery_60 = "Filtered Fume Funnel";
+val I18N_Witchery_61 = "[WI] Upgrades again? Yea!";
+val I18N_Witchery_62 = "A Filtered Fume Funnel is an upgrade to the Fume Funnel that increases the chance of a by-product being produced by a connected witches Oven by a further 5% above the normal Fume Funnel (for a total of +10% cook speed and +30% by-product chance). As with a Fume Funnel, an oven can only accept two Fume Funnels (whether they are upgraded or not).";
+val I18N_Witchery_63 = "Waystone";
+val I18N_Witchery_64 = "[WI] Teleport";
+val I18N_Witchery_65 = "A waystone is an etched piece of flint that is an important foci for circle magic involving transposition. A waystone can be bound to a specific location using the Rite of Binding described in the book, Witchcraft: Circle Magic.<BR>A bound waystone can also be made by dropping up to eight into a hollow 3x3 circle of Otherwhere runes and waiting.";
 
 
 // --- Remove Recipes ---
@@ -132,7 +199,7 @@ recipes.remove(<witchery:snowpressureplate>);
 
 // --- Witchery Tab
 mods.thaumcraft.Research.addTab("WITCHERY", "dreamcraft", "textures/thaumcraft/icon/icon_Witchery.png", "dreamcraft", "textures/thaumcraft/tab/tab_Witchery.png");
-game.setLocalization("tc.research_category.WITCHERY", "\u5deb\u672f");
+game.setLocalization("tc.research_category.WITCHERY", I18N_Witchery_0);
 
 // --- Warmwood
 recipes.addShaped(<witchery:seedswormwood>, [
@@ -279,26 +346,19 @@ Mixer.addRecipe(<witchery:ingredient:153>, null, [<witchery:seedsbelladonna>, <w
 
 // --- Anointing Paste
 mods.thaumcraft.Research.addResearch("ANOINTINGPASTE", "WITCHERY", "fabrico 12, aqua 9, praecantatio 6", 0, -4 as int, 2, <witchery:ingredient:153>);
-game.setLocalization("tc.research_name.ANOINTINGPASTE", "\u53d7\u9b54\u4e4b\u818f");
-game.setLocalization("tc.research_text.ANOINTINGPASTE", "[WI]\u9b54\u6cd5\u818f\u836f");
+game.setLocalization("tc.research_name.ANOINTINGPASTE", I18N_Witchery_1);
+game.setLocalization("tc.research_text.ANOINTINGPASTE", I18N_Witchery_2);
 mods.thaumcraft.Research.addPage("ANOINTINGPASTE", "Witchery.research_page.ANOINTINGPASTE.1");
-game.setLocalization("Witchery.research_page.ANOINTINGPASTE.1", "\u7528\u53d7\u9b54\u4e4b\u818f\u6d82\u62b9\u5728\u666e\u901a\u70bc\u836f\u9505\u4e0a,\u53ef\u5c06\u5176\u8f6c\u53d8\u4e3a\u5deb\u5e08\u70bc\u836f\u9505,\u7136\u540e\u5c31\u80fd\u70bc\u5236\u6709\u8da3\u7684\u836f\u6c34\u4e0e\u7269\u54c1\u4e86.
-\u53ea\u9700\u5c06\u70bc\u836f\u9505\u653e\u7f6e\u4e8e\u4e16\u754c\u4e0a,\u7136\u540e\u624b\u6301\u53d7\u9b54\u4e4b\u818f\u5bf9\u7740\u70bc\u836f\u9505\u53f3\u952e,\u5373\u53ef\u5c06\u70bc\u836f\u9505\u53d8\u4e3a\u5deb\u5e08\u70bc\u836f\u9505.
-\u5c06\u4e0d\u540c\u7684\u5deb\u672f\u79cd\u5b50\u4e0e\u6c34\u5728\u6405\u62cc\u673a\u5185\u6df7\u5408\u5373\u53ef\u5f97\u5230\u53d7\u9b54\u4e4b\u818f.");
+game.setLocalization("Witchery.research_page.ANOINTINGPASTE.1", I18N_Witchery_3);
 
 // --- Oven
 mods.thaumcraft.Research.addResearch("OVEN", "WITCHERY", "metallum 15, fabrico 12, instrumentum 9, machina 6", -2 as int, 2, 4, <witchery:witchesovenidle>);
-game.setLocalization("tc.research_name.OVEN", "\u5deb\u5e08\u70e4\u7089");
-game.setLocalization("tc.research_text.OVEN", "[WI]\u7cd6\u679c\u5c4b(\u683c\u6797\u7ae5\u8bdd)");
+game.setLocalization("tc.research_name.OVEN", I18N_Witchery_4);
+game.setLocalization("tc.research_text.OVEN", I18N_Witchery_5);
 mods.thaumcraft.Research.addPage("OVEN", "Witchery.research_page.OVEN.1");
-game.setLocalization("Witchery.research_page.OVEN.1", "\u5728\u7cd6\u679c\u5c4b\u4e2d\u81ed\u540d\u662d\u8457\u7684\u5deb\u5e08\u70e4\u7089\u5bf9\u4e8e\u5973\u5deb\u6216\u662f\u672f\u58eb\u6765\u8bf4\u662f\u4e00\u4e2a\u975e\u5e38\u5b9e\u7528\u7684\u8bbe\u5907.
-\u867d\u7136\u4e0d\u80fd\u51b6\u70bc\u91d1\u5c5e,\u4f46\u5deb\u5e08\u70e4\u7089\u7279\u522b\u64c5\u957f\u70f9\u996a\u98df\u7269\u548c\u5236\u4f5c\u6728\u70ad.
-\u5b83\u7684\u70f9\u996a\u901f\u5ea6\u6bd4\u7194\u7089\u5feb10%\u5de6\u53f3,\u5b83\u7684\u7b2c\u4e8c\u4e2a\u4e5f\u8bb8\u662f\u66f4\u91cd\u8981\u7684\u7279\u5f81\u662f\u5b83\u80fd\u591f\u6355\u83b7\u70f9\u996a\u8fc7\u7a0b\u4e2d\u4ea7\u751f\u7684\u526f\u4ea7\u54c1.
-\u53f3\u952e\u70e4\u7089\u4ee5\u663e\u793a\u4ea4\u4e92\u754c\u9762,\u4f60\u5c06\u5728\u71c3\u6599\u680f\u53f3\u4fa7\u770b\u5230\u4e00\u4e2a\u989d\u5916\u7684\u680f\u4f4d.");
+game.setLocalization("Witchery.research_page.OVEN.1", I18N_Witchery_6);
 mods.thaumcraft.Research.addPage("OVEN", "Witchery.research_page.OVEN.2");
-game.setLocalization("Witchery.research_page.OVEN.2", "\u8fd9\u4e2a\u989d\u5916\u680f\u4f4d\u5c31\u662f\u7528\u6765\u653e\u7f6e\u7c98\u571f\u7f50\u7684.
-\u5982\u679c\u6709\u7c98\u571f\u7f50,\u90a3\u4e48\u5728\u70f9\u996a\u8fc7\u7a0b\u4e2d\u5c06\u6709\u51e0\u7387\u4ea7\u751f\u70f9\u996a\u7269\u7684\u526f\u4ea7\u54c1,\u5e76\u88c5\u8fdb\u7c98\u571f\u7f50\u4e2d.
-\u82e5\u662f\u6ca1\u6709\u7c98\u571f\u7f50,\u90a3\u4e48\u5c31\u4e0d\u4f1a\u4ea7\u751f\u526f\u4ea7\u7269.");
+game.setLocalization("Witchery.research_page.OVEN.2", I18N_Witchery_7);
 mods.thaumcraft.Arcane.addShaped("OVEN", <witchery:witchesovenidle>, "aer 20, ignis 20, terra 20", [
 [<ore:plateSteel>, <ore:plateThaumium>, <ore:plateSteel>],
 [<dreamcraft:item.SteelBars>, <Thaumcraft:blockMetalDevice>, <dreamcraft:item.SteelBars>],
@@ -308,13 +368,11 @@ mods.thaumcraft.Warp.addToResearch("OVEN", 1);
 
 // --- Attuned Stone
 mods.thaumcraft.Research.addResearch("ATTUNEDSTONE", "WITCHERY", "instrumentum 15, vitreus 12, ordo 9, praecantatio 6", 2, 0, 4, <witchery:ingredient:10>);
-game.setLocalization("tc.research_name.ATTUNEDSTONE", "\u8c03\u8c10\u4e4b\u77f3");
-game.setLocalization("tc.research_text.ATTUNEDSTONE", "[WI]\u534f\u8c03\u7684\u77f3\u5934");
+game.setLocalization("tc.research_name.ATTUNEDSTONE", I18N_Witchery_8);
+game.setLocalization("tc.research_text.ATTUNEDSTONE", I18N_Witchery_9);
 mods.thaumcraft.Research.addPrereq("ATTUNEDSTONE", "OVEN", false);
 mods.thaumcraft.Research.addPage("ATTUNEDSTONE", "Witchery.research_page.ATTUNEDSTONE");
-game.setLocalization("Witchery.research_page.ATTUNEDSTONE", "\u8c10\u8c03\u4e4b\u77f3,\u662f\u4e00\u9897\u5728\u70bd\u70ed\u4ecb\u8d28\u4e2d\u6ce8\u5165\u4e86\u81ea\u7136\u9b54\u6cd5\u7684\u94bb\u77f3.
-\u8c03\u8c10\u4e4b\u77f3\u53ef\u7528\u4e8e\u5c06\u975e\u9b54\u6cd5\u7684\u8bbe\u5907\u8fde\u63a5\u5230\u9b54\u6cd5\u6d41\u4e2d,\u5b83\u4e5f\u662f\u84b8\u998f\u5854\u3001\u6c34\u58f6\u3001\u796d\u575b\u548c\u5a03\u5a03\u53f0\u5b50\u7684\u4e3b\u8981\u6750\u6599\u4e4b\u4e00.
-\u5f53\u9644\u8fd1\u6ca1\u6709\u53ef\u7528\u7684\u796d\u575b\u65f6,\u8c03\u8c10\u4e4b\u77f3\u53ef\u5145\u5f53\u5706\u73af\u9b54\u6cd5\u4eea\u5f0f\u7684\u4fbf\u643a\u5f0f\u80fd\u6e90,\u8fd9\u4e5f\u662f\u5176\u53e6\u4e00\u4e2a\u4e3b\u8981\u7528\u9014. \u60f3\u8981\u5982\u6b64\u4f7f\u7528\u7684\u524d\u63d0\u662f,\u8c03\u8c10\u4e4b\u77f3\u5df2\u7ecf\u901a\u8fc7\u5145\u80fd\u4eea\u5f0f\u5145\u80fd.");
+game.setLocalization("Witchery.research_page.ATTUNEDSTONE", I18N_Witchery_10);
 mods.thaumcraft.Arcane.addShaped("ATTUNEDSTONE", <witchery:ingredient:10>, "aer 30, ignis 30, terra 30, ordo 30", [
 [null, <witchery:ingredient:34>, null],
 [null, <minecraft:diamond>, null],
@@ -323,11 +381,11 @@ mods.thaumcraft.Research.addArcanePage("ATTUNEDSTONE", <witchery:ingredient:10>)
 
 // --- Quartz Sphere
 mods.thaumcraft.Research.addResearch("QUARTZSPHERE", "WITCHERY", "vitreus 15, instrumentum 12, auram 9, ordo 6, praecantatio 3", 2, -2 as int, 4, <witchery:ingredient:92>);
-game.setLocalization("tc.research_name.QUARTZSPHERE", "\u7403\u72b6\u77f3\u82f1");
-game.setLocalization("tc.research_text.QUARTZSPHERE", "[WI]\u53ec\u5524\u5973\u5deb");
+game.setLocalization("tc.research_name.QUARTZSPHERE", I18N_Witchery_11);
+game.setLocalization("tc.research_text.QUARTZSPHERE", I18N_Witchery_12);
 mods.thaumcraft.Research.addPrereq("QUARTZSPHERE", "ATTUNEDSTONE", false);
 mods.thaumcraft.Research.addPage("QUARTZSPHERE", "Witchery.research_page.QUARTZSPHERE");
-game.setLocalization("Witchery.research_page.QUARTZSPHERE", "\u7403\u72b6\u77f3\u82f1\u662f\u5236\u4f5c\u6c34\u6676\u7403%28\u4eea\u5f0f%29\u7684\u4e3b\u8981\u6750\u6599.");
+game.setLocalization("Witchery.research_page.QUARTZSPHERE", I18N_Witchery_13);
 mods.thaumcraft.Arcane.addShaped("QUARTZSPHERE", <witchery:ingredient:92>, "aer 25, ignis 25, terra 25, ordo 25", [
 [<ore:plateNetherQuartz>, <ore:plateQuartzite>, <ore:plateNetherQuartz>],
 [<ore:plateCertusQuartz>, <ore:lensGlass>, <ore:plateCertusQuartz>],
@@ -336,15 +394,14 @@ mods.thaumcraft.Research.addArcanePage("QUARTZSPHERE", <witchery:ingredient:92>)
 
 // --- Candelabra
 mods.thaumcraft.Research.addResearch("CANDELABRA", "WITCHERY", "praecantatio 15, lux 12, ordo 9, ignis 6", 0, -2 as int, 4, <witchery:ingredient>);
-game.setLocalization("tc.research_name.CANDELABRA", "\u679d\u72b6\u5927\u70db\u53f0");
-game.setLocalization("tc.research_text.CANDELABRA", "[WI]\u5b83\u53d8\u4eae\u4e86");
+game.setLocalization("tc.research_name.CANDELABRA", I18N_Witchery_14);
+game.setLocalization("tc.research_text.CANDELABRA", I18N_Witchery_15);
 mods.thaumcraft.Research.addPrereq("CANDELABRA", "ALTAR", false);
 mods.thaumcraft.Research.addPrereq("CANDELABRA", "TALLOW", false);
 mods.thaumcraft.Research.addPrereq("CANDELABRA", "ATTUNEDSTONE", false);
 mods.thaumcraft.Research.setConcealed("CANDELABRA", true);
 mods.thaumcraft.Research.addPage("CANDELABRA", "Witchery.research_page.CANDELABRA");
-game.setLocalization("Witchery.research_page.CANDELABRA", "\u679d\u72b6\u5927\u70db\u53f0\u662f\u796d\u575b\u7684\u5347\u7ea7\u7269\u54c1,\u53ef\u63d0\u9ad8\u796d\u575b\u7684\u6062\u590d\u901f\u5ea6%28\u63d0\u5347\u57fa\u7840\u6062\u590d\u901f\u5ea6\u76842\u500d%29.
-\u679d\u72b6\u5927\u70db\u53f0\u662f\u706b\u628a\u7684\u5347\u7ea7\u7248,\u5728\u540c\u4e00\u796d\u575b\u4e0a,\u706b\u628a\u6216\u70db\u53f0\u53ea\u80fd\u540c\u65f6\u751f\u6548\u4e00\u4e2a.");
+game.setLocalization("Witchery.research_page.CANDELABRA", I18N_Witchery_16);
 mods.thaumcraft.Arcane.addShaped("CANDELABRA", <witchery:ingredient> , "terra 5, ignis 10, ordo 5", [
 [<Thaumcraft:blockCandle>, <Thaumcraft:blockCandle>, <Thaumcraft:blockCandle>],
 [<ore:stickIron>, <witchery:ingredient:10>, <ore:stickIron>],
@@ -353,24 +410,16 @@ mods.thaumcraft.Research.addArcanePage("CANDELABRA", <witchery:ingredient>);
 
 // --- Kettle
 mods.thaumcraft.Research.addResearch("KETTLE", "WITCHERY", "metallum 15, fabrico 12, instrumentum 9, ignis 6", 4, 0, 4, <witchery:kettle>);
-game.setLocalization("tc.research_name.KETTLE", "\u6c34\u58f6");
-game.setLocalization("tc.research_text.KETTLE", "[WI]\u5973\u5deb\u4e5f\u75af\u72c2(\u7535\u5f71)");
+game.setLocalization("tc.research_name.KETTLE", I18N_Witchery_17);
+game.setLocalization("tc.research_text.KETTLE", I18N_Witchery_18);
 mods.thaumcraft.Research.addPrereq("KETTLE", "ATTUNEDSTONE", false);
 mods.thaumcraft.Research.setConcealed("KETTLE", true);
 mods.thaumcraft.Research.addPage("KETTLE", "Witchery.research_page.KETTLE.1");
-game.setLocalization("Witchery.research_page.KETTLE.1", "\u6ca1\u4ec0\u4e48\u6bd4\u6c34\u58f6(\u6216\u662f\u70bc\u836f\u9505)\u66f4\u80fd\u4ee3\u8868\u5deb\u672f\u7684\u5f62\u8c61\u4e86,\u6c34\u58f6\u662f\u7528\u4e8e\u5deb\u672f\u917f\u9020\u4ee5\u53ca\u540e\u671f\u6ce8\u9b54\u7684.
-\u6c34\u58f6\u5fc5\u987b\u88ab\u6b63\u786e\u653e\u7f6e\u624d\u80fd\u4f7f\u7528.
-\u9996\u5148,\u6c34\u58f6\u7684\u5e95\u90e8\u5fc5\u987b\u6709\u706b(\u5730\u72f1\u5ca9\u662f\u6700\u597d\u7684\u9009\u62e9,\u4f46\u4f60\u60f3\u7528\u6728\u5934\u4e5f\u4e0d\u662f\u4e0d\u884c). \u7136\u540e,\u6c34\u58f6\u5fc5\u987b\u4f7f\u7528\u6c34\u6876\u88c5\u6ee1. \u7b2c\u4e09\u6b65,\u5fc5\u987b\u5c06\u7528\u4e8e\u917f\u9020\u6216\u6ce8\u9b54\u7684\u914d\u6599\u6254\u8fdb\u6c34\u58f6\u4e2d(\u6db2\u4f53\u989c\u8272\u4f1a\u6839\u636e\u914d\u65b9\u53d8\u8272). \u6700\u540e,\u5fc5\u987b\u624b\u6301\u73bb\u7483\u74f6\u53f3\u51fb\u6c34\u58f6\u4ee5\u53d6\u51fa\u6210\u54c1.");
+game.setLocalization("Witchery.research_page.KETTLE.1", I18N_Witchery_19);
 mods.thaumcraft.Research.addPage("KETTLE", "Witchery.research_page.KETTLE.2");
-game.setLocalization("Witchery.research_page.KETTLE.2", "\u5728\u914d\u65b9\u51c6\u5907\u8fc7\u7a0b\u4e2d\u4fdd\u6301\u706b\u52bf\u4e0d\u65ad\u662f\u5f88\u91cd\u8981\u7684,\u5426\u5219\u5c31\u4f1a\u6bc1\u4e86\u917f\u9020.
-\u6c34\u58f6\u51fa\u73b0\u6f29\u6da1\u662f\u4e00\u4e2a\u597d\u73b0\u8c61,\u9ed1\u70df(\u548c\u68d5\u8272\u6db2\u4f53)\u8868\u660e\u917f\u9020\u5df2\u7ecf\u6bc1\u4e86.
-\u917f\u9020\u6bc1\u4e86\u4e4b\u540e,\u5fc5\u987b\u4f7f\u7528\u73bb\u7483\u74f6\u6e05\u7a7a\u6c34\u58f6,\u6216\u662f\u7528\u66f4\u591a\u7684\u6c34\u586b\u6ee1\u6c34\u58f6\u5e76\u91cd\u590d\u6574\u4e2a\u8fc7\u7a0b.
-\u917f\u9020\u5b8c\u6210\u540e,\u6db2\u4f53\u5c06\u4f1a\u5448\u73b0\u6210\u54c1\u7684\u989c\u8272\u5e76\u4f34\u7740\u6c14\u6ce1\u7206\u88c2(\u9664\u4e86\u767d\u8272\u6f29\u6da1).
-\u67d0\u4e9b\u914d\u65b9\u5728\u88c5\u74f6\u524d\u53ef\u80fd\u9700\u8981\u6765\u81ea\u9644\u8fd1\u796d\u575b\u7684\u9b54\u6cd5\u80fd\u91cf,\u800c\u82e5\u662f\u80fd\u91cf\u4e0d\u8db3\u4e5f\u4f1a\u6bc1\u4e86\u917f\u9020.
-\u6c34\u58f6\u4e2d\u51fa\u73b0\u9ed1\u8272\u6f29\u6da1\u5c31\u8bf4\u660e\u80fd\u91cf\u4e0d\u8db3.");
+game.setLocalization("Witchery.research_page.KETTLE.2", I18N_Witchery_20);
 mods.thaumcraft.Research.addPage("KETTLE", "Witchery.research_page.KETTLE.3");
-game.setLocalization("Witchery.research_page.KETTLE.3", "\u6c34\u58f6\u5fc5\u987b\u7f6e\u4e8e\u796d\u575b14(\u81f316)\u683c\u4e4b\u5185\u4ee5\u83b7\u5f97\u80fd\u91cf.
-(\u6c34\u58f6\u53ea\u53ef\u4ece\u5355\u4e00\u796d\u575b\u83b7\u5f97\u80fd\u91cf)");
+game.setLocalization("Witchery.research_page.KETTLE.3", I18N_Witchery_21);
 mods.thaumcraft.Arcane.addShaped("KETTLE", <witchery:kettle>, "aer 40, ignis 40, aqua 40, perditio 40", [
 [<ore:craftingToolScrewdriver>, <dreamcraft:item.SteelBars>, <ore:craftingToolHardHammer>],
 [<ore:plateSteel>, <witchery:ingredient:10>, <ore:plateSteel>],
@@ -380,14 +429,12 @@ mods.thaumcraft.Warp.addToResearch("KETTLE", 2);
 
 // --- Spinning Wheel
 mods.thaumcraft.Research.addResearch("SPINNINGWHEELW", "WITCHERY", "arbor 18, motus 15, fabrico 12, instrumentum 9, aer 6, praecantatio 3", 6, 0, 4, <witchery:spinningwheel>);
-game.setLocalization("tc.research_name.SPINNINGWHEELW", "\u8f6c\u8f6e");
-game.setLocalization("tc.research_text.SPINNINGWHEELW", "[WI]\u4e00\u5708\u53c8\u4e00\u5708...");
+game.setLocalization("tc.research_name.SPINNINGWHEELW", I18N_Witchery_22);
+game.setLocalization("tc.research_text.SPINNINGWHEELW", I18N_Witchery_23);
 mods.thaumcraft.Research.addPrereq("SPINNINGWHEELW", "KETTLE", false);
 mods.thaumcraft.Research.setConcealed("SPINNINGWHEELW", true);
 mods.thaumcraft.Research.addPage("SPINNINGWHEELW", "Witchery.research_page.SPINNINGWHEELW");
-game.setLocalization("Witchery.research_page.SPINNINGWHEELW", "\u8f6c\u8f6e\u662f\u4e00\u79cd\u5c06\u6750\u6599\u7eba\u6210\u7ebf\u7684\u8bbe\u5907.\u5b83\u662f\u9b54\u6cd5\u8bbe\u5907,\u53ef\u4ece\u9644\u8fd1\u7684\u796d\u575b\u4e2d\u83b7\u53d6\u80fd\u91cf.
-\u4f7f\u7528\u8f6c\u8f6e\u65f6,\u5c06\u539f\u6750\u6599\u653e\u5165\u5de6\u4fa7\u680f\u4f4d\u4e2d,\u5e76\u5c06\u6dfb\u52a0\u914d\u6599\u653e\u5165\u5e95\u90e8\u680f\u4f4d\u4e2d,\u82e5\u662f\u6709\u8db3\u591f\u80fd\u91cf,\u7eba\u7ec7\u8fc7\u7a0b\u5c31\u4f1a\u81ea\u52a8\u5f00\u59cb.
-\u8f6c\u8f6e\u53ef\u7528\u4e8e\u5236\u4f5c\u9ec4\u91d1\u7ebf\u56e2\u3001\u5e7b\u60f3\u7ebf\u56e2\u548c\u6298\u78e8\u7ebf\u56e2.");
+game.setLocalization("Witchery.research_page.SPINNINGWHEELW", I18N_Witchery_24);
 mods.thaumcraft.Arcane.addShaped("SPINNINGWHEELW", <witchery:spinningwheel>, "aer 60, ignis 60, ordo 60, perditio 60", [
 [<ore:stickStainlessSteel>, <witchery:ingredient:10>, <ore:screwStainlessSteel>],
 [<minecraft:item_frame>, <minecraft:item_frame>, <minecraft:item_frame>],
@@ -396,15 +443,15 @@ mods.thaumcraft.Research.addArcanePage("SPINNINGWHEELW", <witchery:spinningwheel
 
 // --- Ruby Slippers
 mods.thaumcraft.Research.addResearch("RUBYSLIPPERS", "WITCHERY", "auram 21, aer 18, fames 15, lucrum 12, vitreus 9, potentia 6, praecantatio 3", 6, -2 as int, 4, <witchery:rubyslippers>);
-game.setLocalization("tc.research_name.RUBYSLIPPERS", "\u7ea2\u5b9d\u77f3\u821e\u978b");
-game.setLocalization("tc.research_text.RUBYSLIPPERS", "[WI]\u6b22\u8fce\u56de\u5bb6");
+game.setLocalization("tc.research_name.RUBYSLIPPERS", I18N_Witchery_25);
+game.setLocalization("tc.research_text.RUBYSLIPPERS", I18N_Witchery_26);
 mods.thaumcraft.Research.addPrereq("RUBYSLIPPERS", "BLOODALTAR", false);
 mods.thaumcraft.Research.addPrereq("RUBYSLIPPERS", "SPINNINGWHEELW", false);
 mods.thaumcraft.Research.setConcealed("RUBYSLIPPERS", true);
 mods.thaumcraft.Research.addPage("RUBYSLIPPERS", "Witchery.research_page.RUBYSLIPPERS.1");
-game.setLocalization("Witchery.research_page.RUBYSLIPPERS.1", "\u7ea2\u5b9d\u77f3\u821e\u978b\u9700\u8981\u88c5\u5907\u5728\u9774\u5b50\u680f,\u540c\u65f6\u5b83\u7684\u8010\u4e45\u4e0e\u62a4\u7532\u503c\u548c\u76ae\u9769\u9774\u5b50\u4e00\u6837.\u800c\u4e14\u5b83\u7684\u9644\u9b54\u4e5f\u548c\u76ae\u9769\u9774\u5b50\u4e00\u81f4.\u4f46\u65e0\u6cd5\u67d3\u8272.<BR>\u5f53\u73a9\u5bb6\u81ea\u6211\u6ce8\u9b54\u540e,\u5728\u804a\u5929\u680f\u8f93\u5165*There's no place like home*,\u6216\u662f\u8f93\u5165\u6307\u4ee4*chant there's no place like home<BR>\u5c06\u6d88\u8017\u0034\u0030\u0025\u7684\u6ce8\u9b54\u80fd\u91cf,\u5c06\u73a9\u5bb6\u4f20\u9001\u56de\u540c\u4e00\u4e16\u754c\u7684\u51fa\u751f\u70b9(\u5982\u679c\u4f20\u9001\u8de8\u8d8a\u4e86\u4e16\u754c,\u6d88\u8017\u53d8\u4e3a\u0036\u0030\u0025)(\u51b7\u5374\u65f6\u95f4\u0033\u0030\u5206\u949f).");
+game.setLocalization("Witchery.research_page.RUBYSLIPPERS.1", I18N_Witchery_27);
 mods.thaumcraft.Research.addPage("RUBYSLIPPERS", "Witchery.research_page.RUBYSLIPPERS.2");
-game.setLocalization("Witchery.research_page.RUBYSLIPPERS.2", "\u53c8\u6216\u8005,\u73a9\u5bb6\u53ef\u4ee5\u5728\u811a\u8fb9\u6254\u4e0b\u4e00\u5757\u7ed1\u5b9a\u7684\u5bfb\u8def\u77f3,\u5e76\u4f7f\u7528\u4e0a\u9762\u7684chant\u5c06\u81ea\u5df1\u4f20\u9001\u5230\u5bfb\u8def\u77f3\u7ed1\u5b9a\u7684\u5730\u70b9(\u5bfb\u8def\u77f3\u4f1a\u88ab\u6d88\u8017!)(\u0036\u0030\u79d2\u51b7\u5374).<BR>\u6b64\u80fd\u529b\u514d\u53bb\u4e86\u7ed8\u5236\u4f20\u9001\u4eea\u5f0f\u5706\u73af\u6cd5\u9635\u4e4b\u52b3.\u53d1\u52a8\u6b64\u80fd\u529b\u4f1a\u6d88\u8017\u73a9\u5bb6\u0032\u0030\u0025\u7684\u6ce8\u9b54\u80fd\u91cf(\u8de8\u4e16\u754c\u4f20\u9001\u6d88\u8017\u5c06\u53d8\u4e3a\u0034\u0030\u0025).<BR>\u73a9\u5bb6\u9690\u8eab\u65f6\u7ea2\u5b9d\u77f3\u821e\u978b\u4e5f\u4f1a\u9690\u533f\u4e0d\u89c1.\u4e0d\u8fc7\u8fd9\u4ec5\u4ec5\u662f\u89c6\u89c9\u4e0a\u7684\u9690\u8eab,\u602a\u7269\u4ecd\u7136\u4f1a\u505a\u51fa\u53cd\u5e94.\u4e0d\u8fc7\u5176\u4ed6\u73a9\u5bb6\u5c31\u770b\u4e0d\u5230\u4f60\u4e86!");
+game.setLocalization("Witchery.research_page.RUBYSLIPPERS.2", I18N_Witchery_28);
 mods.thaumcraft.Infusion.addRecipe("RUBYSLIPPERS", <witchery:seepingshoes>, 
 [<witchery:ingredient:80>, <dreamcraft:item.ManyullynCrystal>, <witchery:ingredient:34>, <BloodArsenal:blood_burned_string>, <dreamcraft:item.ManyullynCrystal>, <witchery:ingredient:80>, <dreamcraft:item.ManyullynCrystal>, <BloodArsenal:blood_burned_string>, <witchery:ingredient:34>, <dreamcraft:item.ManyullynCrystal>], 
 "auram 64, aer 64, lucrum 32, potentia 16, praecantatio 16, fames 32", <witchery:rubyslippers>, 5);
@@ -413,16 +460,12 @@ mods.thaumcraft.Warp.addToResearch("RUBYSLIPPERS", 5);
 
 // --- Distillery
 mods.thaumcraft.Research.addResearch("DISTILLERY", "WITCHERY", "metallum 18, motus 15, fabrico 12, instrumentum 9, aqua 6, praecantatio 3", 8, 0, 4, <witchery:distilleryidle>);
-game.setLocalization("tc.research_name.DISTILLERY", "\u84b8\u998f\u5854");
-game.setLocalization("tc.research_text.DISTILLERY", "[WI]\u5495\u565c...\u5495\u565c\u565c...");
+game.setLocalization("tc.research_name.DISTILLERY", I18N_Witchery_29);
+game.setLocalization("tc.research_text.DISTILLERY", I18N_Witchery_30);
 mods.thaumcraft.Research.addPrereq("DISTILLERY", "SPINNINGWHEELW", false);
 mods.thaumcraft.Research.setConcealed("DISTILLERY", true);
 mods.thaumcraft.Research.addPage("DISTILLERY", "Witchery.research_page.DISTILLERY");
-game.setLocalization("Witchery.research_page.DISTILLERY", "\u5deb\u5e08\u7684\u84b8\u998f\u5854\u7528\u4e8e\u84b8\u998f\u9b54\u6cd5\u914d\u6599.
-\u5b83\u4e0d\u50cf\u666e\u901a\u7684\u84b8\u998f\u5854,\u56e0\u4e3a\u5b83\u4f7f\u7528\u9644\u8fd1\u796d\u575b\u7684\u80fd\u91cf\u4ee5\u52a0\u70ed\u81ea\u5df1,\u6240\u4ee5\u5b83\u5fc5\u987b\u7f6e\u4e8e\u796d\u575b14(\u81f316)\u683c\u4e4b\u5185\u4ee5\u83b7\u5f97\u80fd\u91cf. \u5f53\u6ca1\u6709\u80fd\u91cf\u53ef\u7528\u65f6,\u4e00\u4e2a\u5c0f\u56fe\u6807\u4f1a\u663e\u793a\u5728\u4ea4\u4e92\u754c\u9762.
-\u914d\u65991\u4e0e\u914d\u65992\u662f\u540c\u65f6\u84b8\u998f\u7684,\u5e76\u4f1a\u4ea7\u751f\u6700\u9ad8\u56db\u79cd\u4ea7\u7269(\u6216\u4ea7\u751f\u6750\u6599).
-\u4f60\u540c\u6837\u9700\u8981\u7c98\u571f\u7f50\u6765\u88c5\u67d0\u4e9b\u6216\u6240\u6709\u7684\u84b8\u998f\u4ea7\u7269.
-\u84b8\u998f\u5854\u9700\u8981\u4e00\u70b9\u70b9\u795e\u79d8\u952d\u3001\u5deb\u5e08\u70bc\u836f\u9505\u3001\u7cbe\u5fc3\u5236\u4f5c\u7684\u7ba1\u9053\u3001\u7c98\u571f\u7f50\u548c\u8c03\u8c10\u4e4b\u77f3\u8fdb\u884c\u5408\u6210\u800c\u6765.");
+game.setLocalization("Witchery.research_page.DISTILLERY", I18N_Witchery_31);
 mods.thaumcraft.Arcane.addShaped("DISTILLERY", <witchery:distilleryidle>, "aer 80, ignis 80, ordo 80, perditio 80, aqua 80", [
 [<witchery:ingredient:27>, <witchery:ingredient:10>, <witchery:ingredient:27>],
 [<ore:pipeSmallStainlessSteel>, <witchery:cauldron>, <ore:pipeSmallStainlessSteel>],
@@ -432,16 +475,14 @@ mods.thaumcraft.Warp.addToResearch("DISTILLERY", 3);
 
 // --- Ritual Chalk
 mods.thaumcraft.Research.addResearch("RITUALCHALK", "WITCHERY", "sensus 18, motus 15, auram 12, potentia 9, iter 6, praecantatio 3", 8, -2 as int, 4, <witchery:chalkritual>);
-game.setLocalization("tc.research_name.RITUALCHALK", "\u4eea\u5f0f\u7c89\u7b14");
-game.setLocalization("tc.research_text.RITUALCHALK", "[WI]\u7ed8\u5236\u7b26\u6587");
+game.setLocalization("tc.research_name.RITUALCHALK", I18N_Witchery_32);
+game.setLocalization("tc.research_text.RITUALCHALK", I18N_Witchery_33);
 mods.thaumcraft.Research.addPrereq("RITUALCHALK", "DISTILLERY", false);
 mods.thaumcraft.Research.setConcealed("RITUALCHALK", true);
 mods.thaumcraft.Research.addPage("RITUALCHALK", "Witchery.research_page.RITUALCHALK.1");
-game.setLocalization("Witchery.research_page.RITUALCHALK.1", "\u4eea\u5f0f\u7c89\u7b14\u7528\u4e8e\u7ed8\u5236\u767d\u8272\u4eea\u5f0f\u7b26\u6587,\u6784\u6210\u5706\u73af\u6cd5\u9635\u7684\u5706\u73af.\u5b83\u4e5f\u53ef\u4f5c\u4e3a\u6750\u6599,\u5236\u4f5c\u5176\u4ed6\u7c7b\u578b\u7684\u7c89\u7b14.
-\u60f3\u8981\u7ed8\u5236\u4eea\u5f0f\u7b26\u6587,\u53ea\u9700\u5bf9\u5730\u9762\u4f7f\u7528\u7c89\u7b14\u5373\u53ef.\u4eea\u5f0f\u7b26\u6587\u6709\u5404\u79cd\u56fe\u6848,\u4f46\u529f\u80fd\u90fd\u662f\u4e00\u6837\u7684.\u5982\u679c\u4f60\u5bf9\u7740\u5df2\u5b58\u5728\u7b26\u6587\u7684\u5730\u4e0a\u4f7f\u7528\u7c89\u7b14,\u4e00\u4e2a\u65b0\u7684\u7b26\u6587\u5c06\u4f1a\u4ee3\u66ff\u539f\u6709\u7b26\u6587.
-\u4eea\u5f0f\u7c89\u7b14\u662f\u7531\u77f3\u818f\u3001\u6728\u7070\u548c\u5973\u795e\u4e4b\u6cea\u5236\u6210\u7684.");
+game.setLocalization("Witchery.research_page.RITUALCHALK.1", I18N_Witchery_34);
 mods.thaumcraft.Research.addPage("RITUALCHALK", "Witchery.research_page.RITUALCHALK.2");
-game.setLocalization("Witchery.research_page.RITUALCHALK.2", "\u4eea\u5f0f\u7b26\u6587\u5e94\u6309\u7167\u300a\u5deb\u672f\uff1a\u5706\u73af\u6cd5\u9635\u300b\u4e00\u4e66\u4e2d\u6240\u793a\u7684\u5927\u81f4\u5706\u5f62\u56fe\u6848\u6392\u5217. \u5706\u73af\u7684\u6b63\u4e2d\u9700\u7528\u91d1\u8272\u7c89\u7b14\u7ed8\u5236\u6838\u5fc3\u7b26\u6587.");
+game.setLocalization("Witchery.research_page.RITUALCHALK.2", I18N_Witchery_35);
 mods.thaumcraft.Arcane.addShaped("RITUALCHALK", <witchery:chalkritual> * 2, "aer 50, terra 50, ordo 25, ignis 25", [
 [<witchery:ingredient:18>, <witchery:ingredient:37>, <witchery:ingredient:18>],
 [<witchery:ingredient:18>, <witchery:ingredient:17>, <witchery:ingredient:18>],
@@ -450,15 +491,14 @@ mods.thaumcraft.Research.addArcanePage("RITUALCHALK", <witchery:chalkritual>);
 
 // --- Circle Talisman
 mods.thaumcraft.Research.addResearch("CIRCLETALISMAN", "WITCHERY", "lucrum 18, motus 15, auram 12, potentia 9, aer 6, praecantatio 3", 10, -2 as int, 4, <witchery:circletalisman>);
-game.setLocalization("tc.research_name.CIRCLETALISMAN", "\u73af\u5f62\u62a4\u8eab\u7b26");
-game.setLocalization("tc.research_text.CIRCLETALISMAN", "[WI] Oh!\u95ea\u4eae\u7684\u62a4\u8eab\u7b26");
+game.setLocalization("tc.research_name.CIRCLETALISMAN", I18N_Witchery_36);
+game.setLocalization("tc.research_text.CIRCLETALISMAN", I18N_Witchery_37);
 mods.thaumcraft.Research.addPrereq("CIRCLETALISMAN", "RITUALCHALK", false);
 mods.thaumcraft.Research.setConcealed("CIRCLETALISMAN", true);
 mods.thaumcraft.Research.addPage("CIRCLETALISMAN", "Witchery.research_page.CIRCLETALISMAN.1");
-game.setLocalization("Witchery.research_page.CIRCLETALISMAN.1", "\u73af\u5f62\u62a4\u8eab\u7b26\u53ef\u5c06\u7ed8\u5236\u5728\u5730\u9762\u4e0a\u7684\u4eea\u5f0f\u7b26\u6587\u7ed1\u5b9a\u5230\u62a4\u8eab\u7b26\u5185%28\u5730\u9762\u7684\u7b26\u6587\u5c06\u6d88\u5931%29,\u5728\u53e6\u4e00\u4f4d\u7f6e\u4f7f\u7528\u5df2\u7ed1\u5b9a\u7684\u62a4\u8eab\u7b26,\u8fd9\u4e9b\u7b26\u6587\u5c06\u4f1a\u5728\u65b0\u4f4d\u7f6e\u91cd\u65b0\u7ed8\u5236\u51fa\u6765.\u8fd9\u4f7f\u5f97\u5deb\u5e08\u4eec\u53ef\u4ee5\u5c06\u90a3\u4e9b\u8017\u65f6\u7684\u5706\u73af\u6cd5\u9635\u63d0\u524d\u51c6\u5907\u597d,\u8981\u7528\u7684\u65f6\u5019\u5373\u53ef\u5feb\u901f\u90e8\u7f72.
-\u60f3\u8981\u7ed1\u5b9a\u73af\u5f62\u62a4\u8eab\u7b26,\u8bf7\u4f7f\u7528\u300a\u5deb\u672f\uff1a\u5706\u73af\u6cd5\u9635\u300b\u4e00\u4e66\u4e2d\u7684\u7ed1\u5b9a\u4eea\u5f0f.");
+game.setLocalization("Witchery.research_page.CIRCLETALISMAN.1", I18N_Witchery_38);
 mods.thaumcraft.Research.addPage("CIRCLETALISMAN", "Witchery.research_page.CIRCLETALISMAN.2");
-game.setLocalization("Witchery.research_page.CIRCLETALISMAN.2", "\u60f3\u8981\u90e8\u7f72\u5df2\u7ed1\u5b9a\u7684\u62a4\u8eab\u7b26,\u8bf7\u786e\u4fdd\u5730\u9762\u4e0a\u6709\u8db3\u591f\u7684\u7a7a\u95f4\u5bb9\u7eb3\u4eea\u5f0f\u7b26\u6587,\u7136\u540e\u5bf9\u7740\u4e2d\u5fc3\u53f3\u952e\u4f7f\u7528\u62a4\u8eab\u7b26\u5373\u53ef.\u5f53\u5b58\u5728\u969c\u788d\u7269\u5bfc\u81f4\u65e0\u6cd5\u90e8\u7f72\u5706\u73af\u6cd5\u9635\u65f6,\u4f60\u5c06\u542c\u5230\u6545\u969c\u7684\u97f3\u6548.");
+game.setLocalization("Witchery.research_page.CIRCLETALISMAN.2", I18N_Witchery_39);
 mods.thaumcraft.Arcane.addShaped("CIRCLETALISMAN", <witchery:circletalisman>, "ordo 50, terra 50, ignis 50", [
 [<ore:screwGold>, <ore:stickGold>, <ore:screwGold>],
 [<ore:stickGold>, <ore:gemExquisiteDiamond>, <ore:stickGold>],
@@ -468,21 +508,15 @@ mods.thaumcraft.Warp.addToResearch("CIRCLETALISMAN", 1);
 
 // --- Altar
 mods.thaumcraft.Research.addResearch("ALTAR", "WITCHERY", "praecantatio 15, fabrico 12, arbor 9, terra 6", -2 as int, 0, 4, <witchery:altar>);
-game.setLocalization("tc.research_name.ALTAR", "\u796d\u575b");
-game.setLocalization("tc.research_text.ALTAR", "[WI]\u5deb\u672f\u4e4b\u7236");
+game.setLocalization("tc.research_name.ALTAR", I18N_Witchery_40);
+game.setLocalization("tc.research_text.ALTAR", I18N_Witchery_41);
 mods.thaumcraft.Research.addPrereq("ALTAR", "OVEN", false);
 mods.thaumcraft.Research.addPrereq("ALTAR", "ARCANESTONE", false);
 mods.thaumcraft.Research.setConcealed("ALTAR", true);
 mods.thaumcraft.Research.addPage("ALTAR", "Witchery.research_page.ALTAR.1");
-game.setLocalization("Witchery.research_page.ALTAR.1", "\u796d\u575b\u662f\u4e00\u4e2a\u80fd\u91cf\u7126\u70b9,\u53ef\u5c06\u5468\u56f4\u533a\u57df\u7684\u9b54\u6cd5\u80fd\u91cf\u96c6\u4e2d\u5230\u8fd9\u4e2a\u53ef\u7528\u7684\u80fd\u91cf\u6e90\u4e2d.
-\u7531\u4e8e\u5deb\u672f\u662f\u4e00\u79cd\u5229\u7528\u81ea\u7136\u529b\u91cf\u7684\u65b9\u6cd5,\u56e0\u6b64\u5c06\u796d\u575b\u653e\u7f6e\u5728\u751f\u7269\u5f88\u5c11\u6216\u6ca1\u6709\u751f\u7269\u7684\u5730\u65b9\u5c06\u4f1a\u4ea7\u751f\u5f88\u5c11\u7684\u9b54\u529b.
-\u8fd9\u5c31\u53ef\u4ee5\u89e3\u91ca\u4e3a\u4ec0\u4e48\u5927\u591a\u6570\u5973\u5deb\u5c0f\u5c4b\u90fd\u662f\u5728\u6df1\u9ed1\u8272\u7684\u68ee\u6797\u6216\u6cbc\u6cfd\u6df1\u5904\u53d1\u73b0\u7684\u4e86!
-\u5c066\u4e2a\u796d\u575b\u65b9\u5757\u6446\u653e\u62102x3\u7684\u957f\u65b9\u4f53,\u4f60\u5c31\u80fd\u5efa\u8d77\u4f60\u7684\u796d\u575b. \u5f53\u4e00\u5757\u7ea2\u5e03\u51fa\u73b0\u5728\u796d\u575b\u7684\u9876\u90e8\u65f6,\u90a3\u5c31\u610f\u5473\u7740\u4f60\u7684\u6446\u653e\u662f\u6b63\u786e\u7684.");
+game.setLocalization("Witchery.research_page.ALTAR.1", I18N_Witchery_42);
 mods.thaumcraft.Research.addPage("ALTAR", "Witchery.research_page.ALTAR.2");
-game.setLocalization("Witchery.research_page.ALTAR.2", "\u53f3\u952e\u53ef\u6fc0\u6d3b\u796d\u575b\u7684GUI,\u5b83\u4f1a\u544a\u8bc9\u4f60\u796d\u575b\u4e2d\u6536\u96c6\u5230\u4e86\u591a\u5c11\u80fd\u91cf\u3001\u80fd\u91cf\u4e0a\u9650\u4ee5\u53ca\u5145\u80fd\u901f\u7387.
-\u68c0\u67e5\u796d\u575b\u4e2d\u662f\u5426\u6709\u8db3\u591f\u7684\u80fd\u91cf\u662f\u5341\u5206\u91cd\u8981\u7684,\u8fd9\u5173\u7cfb\u5230\u4eea\u5f0f\u662f\u5426\u6210\u529f,\u6216\u662f\u84b8\u998f\u5854\u6216\u6c34\u58f6\u80fd\u5426\u542f\u52a8
-\u80fd\u91cf\u4e0a\u9650\u53d6\u51b3\u4e8e\u796d\u575b\u9644\u8fd1\u6709\u591a\u5c11\u81ea\u7136\u7269\u54c1,\u6ce5\u571f\u3001\u8349\u3001\u6811\u6728\u3001\u690d\u7269\u7b49\u90fd\u6709\u8d21\u732e;\u77f3\u5934\u548c\u6c99\u5b50\u5374\u6ca1\u6709.
-\u91cd\u8981\u7684\u662f\u62e5\u6709\u4e0d\u540c\u690d\u7269\u3001\u6811\u6728\u548c\u519c\u4f5c\u7269\u7684\u591a\u6837\u5316\u7ec4\u5408(\u53ef\u4e00\u5b9a\u7a0b\u5ea6\u652f\u6301\u5176\u4ed6mod\u7684\u690d\u7269).");
+game.setLocalization("Witchery.research_page.ALTAR.2", I18N_Witchery_43);
 mods.thaumcraft.Arcane.addShaped("ALTAR", <witchery:altar> * 2, "terra 20, ignis 20, ordo 20", [
 [<witchery:ingredient:32>, <Thaumcraft:blockCosmeticSolid:6>, <witchery:ingredient:31>],
 [<Thaumcraft:blockCosmeticSolid:7>, <witchery:witchlog>, <Thaumcraft:blockCosmeticSolid:7>],
@@ -492,16 +526,13 @@ mods.thaumcraft.Warp.addToResearch("ALTAR", 2);
 
 // --- Chalice
 mods.thaumcraft.Research.addResearch("CHALICE", "WITCHERY", "praecantatio 15, lucrum 12, metallum 9, terra 6", 0, 0, 4, <witchery:ingredient:1>);
-game.setLocalization("tc.research_name.CHALICE", "\u5723\u9910\u676f");
-game.setLocalization("tc.research_text.CHALICE", "[WI](\u309c-\u309c)\u3064\u30ed\u5e72\u676f~");
+game.setLocalization("tc.research_name.CHALICE", I18N_Witchery_44);
+game.setLocalization("tc.research_text.CHALICE", I18N_Witchery_45);
 mods.thaumcraft.Research.addPrereq("CHALICE", "ALTAR", false);
 mods.thaumcraft.Research.addPrereq("CHALICE", "ATTUNEDSTONE", false);
 mods.thaumcraft.Research.setConcealed("CHALICE", true);
 mods.thaumcraft.Research.addPage("CHALICE", "Witchery.research_page.CHALICE");
-game.setLocalization("Witchery.research_page.CHALICE", "\u5723\u9910\u676f\u662f\u796d\u575b\u5347\u7ea7\u7528\u54c1,\u53ef\u63d0\u5347\u796d\u575b\u80fd\u91cf\u4e0a\u9650.
-\u5723\u9910\u676f\u53ef\u589e\u52a0\u4e00\u500d\u7684\u796d\u575b\u80fd\u91cf\u4e0a\u9650(\u539f\u6709\u6570\u503c).
-\u5723\u9910\u676f(\u586b\u6ee1\u7684)\u53ef\u589e\u52a0\u4e8c\u500d\u7684\u796d\u575b\u80fd\u91cf\u4e0a\u9650(\u539f\u6709\u6570\u503c).
-\u4e24\u79cd\u5723\u9910\u676f\u65e0\u6cd5\u5bf9\u540c\u4e00\u796d\u575b\u540c\u65f6\u751f\u6548.");
+game.setLocalization("Witchery.research_page.CHALICE", I18N_Witchery_46);
 mods.thaumcraft.Arcane.addShaped("CHALICE", <witchery:ingredient:1> , "aqua 15, terra 10, ordo 5", [
 [<ore:foilGold>, <witchery:ingredient:10>, <ore:foilGold>],
 [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],
@@ -510,20 +541,14 @@ mods.thaumcraft.Research.addArcanePage("CHALICE", <witchery:ingredient:1>);
 
 // --- Arthana
 mods.thaumcraft.Research.addResearch("ARTHANA", "WITCHERY", "praecantatio 15, lucrum 12, instrumentum 9, mortuus 6", -4 as int, -2 as int, 4, <witchery:arthana>);
-game.setLocalization("tc.research_name.ARTHANA", "\u4eea\u796d\u5315\u9996");
-game.setLocalization("tc.research_text.ARTHANA", "[WI]\u7528\u4e8e\u4eea\u796d\u7684\u5315\u9996");
+game.setLocalization("tc.research_name.ARTHANA", I18N_Witchery_47);
+game.setLocalization("tc.research_text.ARTHANA", I18N_Witchery_48);
 mods.thaumcraft.Research.addPrereq("ARTHANA", "ALTAR", false);
 mods.thaumcraft.Research.setConcealed("ARTHANA", true);
 mods.thaumcraft.Research.addPage("ARTHANA", "Witchery.research_page.ARTHANA.1");
-game.setLocalization("Witchery.research_page.ARTHANA.1", "\u4eea\u796d\u5315\u9996\u662f\u5deb\u5e08\u548c\u672f\u58eb\u7528\u4e8e\u4eea\u796d\u7684\u5315\u9996(\u7b80\u76f4\u5e9f\u8bdd),\u4ee5\u6536\u96c6\u7279\u6b8a\u7684\u914d\u6599\u5e76\u8868\u73b0\u51fa\u4eea\u5f0f\u611f.
-\u5b83\u5177\u6709\u4e0e\u91d1\u5251\u76f8\u540c\u7684\u4e00\u822c\u5c5e\u6027(\u4f24\u5bb3\uff0c\u9644\u9b54\u7b49),\u4f46\u5b83\u5177\u6709\u76f8\u5f53\u4e8e\u94c1\u5251\u7684\u8010\u4e45. \u5b83\u53ef\u7528\u91d1\u952d\u4fee\u590d.
-\u6b64\u5315\u9996\u6700\u4e3b\u8981\u7684\u4f5c\u7528\u5c31\u662f\u6536\u96c6\u5deb\u672f\u4e2d\u4f7f\u7528\u7684\u7279\u6b8a\u914d\u6599,\u4e3a\u6b64\u5b83\u5c06\u5927\u5927\u63d0\u9ad8\u602a\u7269\u6389\u843d\u8fd9\u4e9b\u6210\u5206\u7684\u673a\u4f1a(\u6bd4\u5982\u8759\u8760\u6bdb\u3001\u72d7\u4e4b\u820c\u7b49).
-\u7528\u4eea\u796d\u5315\u9996\u6740\u6b7b\u4e0d\u6b7b\u751f\u7269\u65f6\u6709\u5c0f\u51e0\u7387\u6389\u843d\u5e7d\u7075\u7c89\u672b.");
+game.setLocalization("Witchery.research_page.ARTHANA.1", I18N_Witchery_49);
 mods.thaumcraft.Research.addPage("ARTHANA", "Witchery.research_page.ARTHANA.2");
-game.setLocalization("Witchery.research_page.ARTHANA.2", "\u5982\u679c\u53ea\u73a9\u539f\u7248\u52a0\u5deb\u672f(\u6ca1\u6709\u522b\u7684mod),\u4eea\u796d\u5315\u9996\u5c31\u662f\u83b7\u53d6\u9ab7\u9ac5\u5934\u9885\u7684\u552f\u4e00\u65b9\u5f0f,\u6389\u843d\u51e0\u7387\u5927\u7ea65%(\u5934\u9885\u662f\u5347\u7ea7\u796d\u575b\u7684\u5173\u952e).
-\u4eea\u796d\u5315\u9996\u8fd8\u6709\u6781\u5c0f\u51e0\u7387\u83b7\u5f97\u522b\u7684\u5934\u9885(\u602a\u7269\u6216\u8005\u73a9\u5bb6). \u62a2\u593a\u9644\u9b54\u53ef\u63d0\u5347\u6240\u6709\u6389\u843d\u51e0\u7387.
-\u4f46\u4eea\u796d\u5315\u9996\u65e0\u6cd5\u63d0\u5347\u51cb\u7075\u9ab7\u9ac5\u5934\u7684\u6389\u843d\u51e0\u7387,\u60f3\u63d0\u5347\u53ea\u80fd\u9760\u62a2\u593a\u9644\u9b54.
-\u67d0\u4e9b\u5706\u73af\u6cd5\u9635\u9700\u8981\u4eea\u796d\u5315\u9996\u4f5c\u4e3a\u6838\u5fc3,\u4eea\u5f0f\u8fc7\u7a0b\u4e0d\u4f1a\u6d88\u8017\u6b64\u5315\u9996.");
+game.setLocalization("Witchery.research_page.ARTHANA.2", I18N_Witchery_50);
 mods.thaumcraft.Arcane.addShaped("ARTHANA", <witchery:arthana> , "terra 20, perditio 15, ordo 10", [
 [<TConstruct:handGuard:16>, <ore:craftingToolScrewdriver>, <TConstruct:knifeBlade:202>],
 [<ore:screwThaumium>, <ore:gemEmerald>, <ore:craftingToolHardHammer>],
@@ -533,28 +558,24 @@ mods.thaumcraft.Warp.addToResearch("ARTHANA", 2);
 
 // --- Warm Blood
 mods.thaumcraft.Research.addResearch("WARMBLOOD", "WITCHERY", "fames 15, lucrum 12, aqua 9, exanimis 6", -2 as int, -2 as int, 4, <witchery:ingredient:163>);
-game.setLocalization("tc.research_name.WARMBLOOD", "\u6e29\u6696\u7684\u8840\u6db2");
-game.setLocalization("tc.research_text.WARMBLOOD", "[WI]\u55ef...\u6e29\u6696\u7684\u8840\u6db2");
+game.setLocalization("tc.research_name.WARMBLOOD", I18N_Witchery_51);
+game.setLocalization("tc.research_text.WARMBLOOD", I18N_Witchery_52);
 mods.thaumcraft.Research.addPrereq("WARMBLOOD", "ALTAR", false);
 mods.thaumcraft.Research.setConcealed("WARMBLOOD", true);
 mods.thaumcraft.Research.addPage("WARMBLOOD", "Witchery.research_page.WARMBLOOD");
-game.setLocalization("Witchery.research_page.WARMBLOOD", "\u8fd9\u74f6\u6e29\u6696\u7684\u8840\u6db2\u662f\u73a9\u5bb6\u53ef\u996e\u7528\u7684\u7269\u54c1.\u5982\u679c\u73a9\u5bb6\u662f\u5438\u8840\u9b3c\u8840\u7edf,\u996e\u7528\u540e\u53ef\u5728\u8840\u6db2\u5b58\u50a8\u6761\u4e2d\u5b58\u50a8\u4e24\u6ef4\u8840.\u5982\u679c\u73a9\u5bb6\u4e0d\u662f\u5438\u8840\u9b3c\u8840\u7edf,\u4ed6\u5c06\u83b7\u5f97\u9965\u997fdebuff.
-\u8fd9\u4e2a\u7269\u54c1\u4f7f\u73a9\u5bb6\u53ef\u4ee5\u5feb\u901f\u83b7\u5f97\u8840\u6db2,\u4e5f\u53ef\u7528\u4f5c\u5408\u6210\u6076\u9b54\u5951\u7ea6\u7684\u6750\u6599.");
+game.setLocalization("Witchery.research_page.WARMBLOOD", I18N_Witchery_53);
 mods.thaumcraft.Crucible.addRecipe("WARMBLOOD", <witchery:ingredient:163>, <TConstruct:jerky:7>, "exanimis 4, fames 4, lucrum 4");
 mods.thaumcraft.Research.addCruciblePage("WARMBLOOD", <witchery:ingredient:163>);
 mods.thaumcraft.Warp.addToResearch("WARMBLOOD", 3);
 
 // --- Fume Funnel
 mods.thaumcraft.Research.addResearch("FUMEFUNNEL", "WITCHERY", "metallum 15, ignis 12, lux 9, sensus 6", 0, 2, 4, <witchery:fumefunnel>);
-game.setLocalization("tc.research_name.FUMEFUNNEL", "\u718f\u6c14\u6f0f\u6597");
-game.setLocalization("tc.research_text.FUMEFUNNEL", "[WI]\u5347\u7ea7,\u6b27\u8036");
+game.setLocalization("tc.research_name.FUMEFUNNEL", I18N_Witchery_54);
+game.setLocalization("tc.research_text.FUMEFUNNEL", I18N_Witchery_55);
 mods.thaumcraft.Research.addPrereq("FUMEFUNNEL", "OVEN", false);
 mods.thaumcraft.Research.setConcealed("FUMEFUNNEL", true);
 mods.thaumcraft.Research.addPage("FUMEFUNNEL", "Witchery.research_page.FUMEFUNNEL");
-game.setLocalization("Witchery.research_page.FUMEFUNNEL", "\u718f\u6c14\u6f0f\u6597\u662f\u5deb\u5e08\u70e4\u7089\u7684\u5347\u7ea7\u7528\u54c1,\u53ef\u63d0\u534710%\u901f\u5ea6,\u5e76\u4f7f\u526f\u4ea7\u7269\u7684\u4ea7\u751f\u673a\u7387\u589e\u52a025%.
-\u718f\u6c14\u6f0f\u6597\u5fc5\u987b\u4f4d\u4e8e\u5deb\u5e08\u70e4\u7089\u7684\u4e24\u4fa7(\u5448\u4e00\u6761\u7ebf\u5e76\u9762\u5411\u76f8\u540c\u65b9\u5411). \u4e00\u4e2a\u5deb\u5e08\u70e4\u7089\u6700\u591a\u8fde\u63a5\u4e24\u4e2a\u718f\u6c14\u6f0f\u6597.
-\u4e0d\u8fc7\u7f6e\u4e8e\u4e24\u4e2a\u5deb\u5e08\u70e4\u7089\u4e4b\u95f4\u7684\u6f0f\u6597\u53ef\u4ee5\u5bf9\u4e24\u4e2a\u70e4\u7089\u540c\u65f6\u751f\u6548. 
-\u7b2c\u4e09\u4e2a\u6f0f\u6597\u4e5f\u53ef\u7f6e\u4e8e\u70e4\u7089\u7684\u9876\u90e8,\u8d77\u5230\u88c5\u9970\u5e76\u52a0\u901f\u7684\u4f5c\u7528.");
+game.setLocalization("Witchery.research_page.FUMEFUNNEL", I18N_Witchery_56);
 mods.thaumcraft.Arcane.addShaped("FUMEFUNNEL", <witchery:fumefunnel>, "aer 30, ignis 30, terra 30", [
 [<ore:plateThaumium>, <dreamcraft:item.SteelBars>, <ore:plateThaumium>],
 [<ore:plateGlowstone>, <ore:bucketLava>, <ore:plateGlowstone>],
@@ -564,15 +585,14 @@ mods.thaumcraft.Warp.addToResearch("FUMEFUNNEL", 1);
 
 // --- Fume Filter
 mods.thaumcraft.Research.addResearch("FUMEFILTER", "WITCHERY", "metallum 9, vitreus 9, lucrum 6, praecantatio 3", 2, 2, 4, <witchery:ingredient:73>);
-game.setLocalization("tc.research_name.FUMEFILTER", "\u718f\u6c14\u8fc7\u6ee4\u5668");
-game.setLocalization("tc.research_text.FUMEFILTER", "[WI]\u66f4\u591a\u526f\u4ea7\u7269");
+game.setLocalization("tc.research_name.FUMEFILTER", I18N_Witchery_57);
+game.setLocalization("tc.research_text.FUMEFILTER", I18N_Witchery_58);
 mods.thaumcraft.Research.addPrereq("FUMEFILTER", "DISTILESSENTIA", false);
 mods.thaumcraft.Research.addPrereq("FUMEFILTER", "FUMEFUNNEL", false);
 mods.thaumcraft.Research.addPrereq("FUMEFILTER", "ATTUNEDSTONE", false);
 mods.thaumcraft.Research.setConcealed("FUMEFILTER", true);
 mods.thaumcraft.Research.addPage("FUMEFILTER", "Witchery.research_page.FUMEFILTER");
-game.setLocalization("Witchery.research_page.FUMEFILTER", "\u718f\u6c14\u8fc7\u6ee4\u5668\u7528\u4e8e\u5c06\u718f\u6c14\u6f0f\u6597\u5347\u7ea7\u4e3a\u8fc7\u6ee4\u5f3a\u5316\u578b\u718f\u6c14\u6f0f\u6597.
-\u4ee5\u63d0\u5347\u5deb\u5e08\u70e4\u7089\u51fa\u73b0\u526f\u4ea7\u7269\u7684\u51e0\u7387.");
+game.setLocalization("Witchery.research_page.FUMEFILTER", I18N_Witchery_59);
 mods.thaumcraft.Arcane.addShaped("FUMEFILTER", <witchery:ingredient:73>, "aer 16, ordo 16, terra 16", [
 [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
 [<ore:plateThaumium>, <witchery:ingredient:10>, <ore:plateThaumium>],
@@ -581,13 +601,12 @@ mods.thaumcraft.Research.addArcanePage("FUMEFILTER", <witchery:ingredient:73>);
 
 // --- Fitered Fume Funnel
 mods.thaumcraft.Research.addResearch("FILTEREDFUMEFUNNEL", "WITCHERY", "metallum 15, vitreus 12, lux 9, praecantatio 6", 2, 4, 4, <witchery:filteredfumefunnel>);
-game.setLocalization("tc.research_name.FILTEREDFUMEFUNNEL", "\u8fc7\u6ee4\u5f3a\u5316\u578b\u718f\u6c14\u6f0f\u6597");
-game.setLocalization("tc.research_text.FILTEREDFUMEFUNNEL", "[WI]\u518d\u6b21\u5347\u7ea7?\u6b27\u8036\u8036!");
+game.setLocalization("tc.research_name.FILTEREDFUMEFUNNEL", I18N_Witchery_60);
+game.setLocalization("tc.research_text.FILTEREDFUMEFUNNEL", I18N_Witchery_61);
 mods.thaumcraft.Research.addPrereq("FILTEREDFUMEFUNNEL", "FUMEFILTER", false);
 mods.thaumcraft.Research.setConcealed("FILTEREDFUMEFUNNEL", true);
 mods.thaumcraft.Research.addPage("FILTEREDFUMEFUNNEL", "Witchery.research_page.FILTEREDFUMEFUNNEL");
-game.setLocalization("Witchery.research_page.FILTEREDFUMEFUNNEL", "\u8fc7\u6ee4\u5f3a\u5316\u578b\u718f\u6c14\u6f0f\u6597\u662f\u718f\u6c14\u6f0f\u6597\u7684\u5347\u7ea7\u7248,\u63d0\u5347\u4e86\u5deb\u5e08\u70e4\u7089\u51fa\u73b0\u526f\u4ea7\u7269\u7684\u51e0\u7387(\u6bd4\u666e\u901a\u718f\u6c14\u6f0f\u6597\u518d\u591a5%)(\u5373+10%\u901f\u5ea6+30%\u526f\u4ea7\u7269\u51e0\u7387).
-\u5355\u4e2a\u5deb\u5e08\u70e4\u7089\u6700\u591a\u8fde\u63a5\u4e24\u4e2a\u718f\u6c14\u6f0f\u6597,\u65e0\u8bba\u662f\u5426\u5347\u7ea7.");
+game.setLocalization("Witchery.research_page.FILTEREDFUMEFUNNEL", I18N_Witchery_62);
 mods.thaumcraft.Infusion.addRecipe("FILTEREDFUMEFUNNEL", <witchery:fumefunnel>, 
 [<dreamcraft:item.SteelBars>, <Thaumcraft:ItemResource:8>, <dreamcraft:item.SteelBars>, <witchery:ingredient:73>, <dreamcraft:item.SteelBars>, <Thaumcraft:ItemResource:8>], 
 "metallum 32, vitreus 8, praecantatio 24, lux 16", <witchery:filteredfumefunnel>, 3);
@@ -596,13 +615,12 @@ mods.thaumcraft.Warp.addToResearch("FILTEREDFUMEFUNNEL", 2);
 
 // --- Waystone
 mods.thaumcraft.Research.addResearch("WAYSTONE", "WITCHERY", "motus 15, iter 12, tenebrae 9, praecantatio 6", 8, -4 as int, 4, <witchery:ingredient:12>);
-game.setLocalization("tc.research_name.WAYSTONE", "\u5bfb\u8def\u77f3");
-game.setLocalization("tc.research_text.WAYSTONE", "[WI]\u4f20\u9001");
+game.setLocalization("tc.research_name.WAYSTONE", I18N_Witchery_63);
+game.setLocalization("tc.research_text.WAYSTONE", I18N_Witchery_64);
 mods.thaumcraft.Research.addPrereq("WAYSTONE", "RITUALCHALK", false);
 mods.thaumcraft.Research.setConcealed("WAYSTONE", true);
 mods.thaumcraft.Research.addPage("WAYSTONE", "Witchery.research_page.WAYSTONE");
-game.setLocalization("Witchery.research_page.WAYSTONE", "\u5bfb\u8def\u77f3\u662f\u4e00\u5757\u96d5\u523b\u8fc7\u7684\u71e7\u77f3,\u5b83\u662f\u5706\u73af\u6cd5\u9635\u7684\u4e00\u79cd\u91cd\u8981\u6838\u5fc3\u7269\u54c1,\u4e3b\u8981\u7528\u4e8e\u4f20\u9001\u6cd5\u9635.\u53ef\u4f7f\u7528\u300a\u5deb\u672f\uff1a\u5706\u73af\u6cd5\u9635\u300b\u4e00\u4e66\u4e2d\u7684\u7ed1\u5b9a\u4eea\u5f0f,\u5c06\u5bfb\u8def\u77f3\u7ed1\u5b9a\u5230\u7279\u5b9a\u5730\u70b9.
-\u5c068\u4e2a\u4ed6\u5904\u7b26\u6587\u7ed8\u5236\u6210\u4e00\u4e2a3x3\u7684\u7a7a\u5fc3\u5706,\u7136\u540e\u5c06\u4e00\u5757\u5bfb\u8def\u77f3\u4e22\u8fdb\u5706\u73af\u4e2d\u5fc3\u5e76\u7b49\u5f85\u4e00\u6bb5\u65f6\u95f4,\u4e5f\u53ef\u4ee5\u5236\u4f5c\u51fa\u7ed1\u5b9a\u5230\u8be5\u5904\u7684\u7ed1\u5b9a\u7684\u5bfb\u8def\u77f3.");
+game.setLocalization("Witchery.research_page.WAYSTONE", I18N_Witchery_65);
 mods.thaumcraft.Infusion.addRecipe("WAYSTONE", <minecraft:flint>, 
 [<witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkotherwhere>, <witchery:ingredient:7>, <witchery:chalkritual>, <witchery:ingredient:7>, <witchery:chalkotherwhere>, <witchery:ingredient:7>], 
 "motus 48, iter 64, praecantatio 24, tenebrae 32, aer 64", <witchery:ingredient:12>, 5);
