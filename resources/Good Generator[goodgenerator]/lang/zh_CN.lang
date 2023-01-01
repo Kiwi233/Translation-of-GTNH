@@ -41,6 +41,21 @@ compactFusionCoil.4.name=压缩聚变线圈方块MK-II
 essentiaFilterCasing.0.name=源质过滤机械方块
 essentiaOutputHatch.0.name=源质输出仓
 essentiaOutputHatch_ME.0.name=源质输出仓(ME)
+componentAssemblyLineCasing.0.name=部件装配线外壳（LV）
+componentAssemblyLineCasing.1.name=部件装配线外壳（MV）
+componentAssemblyLineCasing.2.name=部件装配线外壳（HV）
+componentAssemblyLineCasing.3.name=部件装配线外壳（EV）
+componentAssemblyLineCasing.4.name=部件装配线外壳（IV）
+componentAssemblyLineCasing.5.name=Component Assembly Line Casing (LuV)
+componentAssemblyLineCasing.6.name=Component Assembly Line Casing (ZPM)
+componentAssemblyLineCasing.7.name=Component Assembly Line Casing (UV)
+componentAssemblyLineCasing.8.name=Component Assembly Line Casing (UHV)
+componentAssemblyLineCasing.9.name=Component Assembly Line Casing (UEV)
+componentAssemblyLineCasing.10.name=Component Assembly Line Casing (UIV)
+componentAssemblyLineCasing.11.name=Component Assembly Line Casing (UMV)
+componentAssemblyLineCasing.12.name=Component Assembly Line Casing (UXV)
+componentAssemblyLineCasing.13.name=Component Assembly Line Casing (MAX)
+
 
 #Items
 item.radiationProtectionPlate.name=防辐射板
@@ -121,6 +136,22 @@ item.huiCircuit.1.name=高算力工作站 MK-II
 item.huiCircuit.2.name=高算力工作站 MK-III
 item.huiCircuit.3.name=高算力工作站 MK-IV
 item.huiCircuit.4.name=高算力工作站 MK-V
+item.nuclearStar.name=Nuclear Star
+item.circuitWrap.0.name=Wrap of ULV Circuits
+item.circuitWrap.1.name=Wrap of LV Circuits
+item.circuitWrap.2.name=Wrap of MV Circuits
+item.circuitWrap.3.name=Wrap of HV Circuits
+item.circuitWrap.4.name=Wrap of EV Circuits
+item.circuitWrap.5.name=Wrap of IV Circuits
+item.circuitWrap.6.name=Wrap of LuV Circuits
+item.circuitWrap.7.name=Wrap of ZPM Circuits
+item.circuitWrap.8.name=Wrap of UV Circuits
+item.circuitWrap.9.name=Wrap of UHV Circuits
+item.circuitWrap.10.name=Wrap of UEV Circuits
+item.circuitWrap.11.name=Wrap of UIV Circuits
+item.circuitWrap.12.name=Wrap of UMV Circuits
+item.circuitWrap.13.name=Wrap of UXV Circuits
+item.circuitWrap.14.name=Wrap of MAX Circuits
 
 #Crops
 crops.saltroot=盐根
@@ -255,6 +286,7 @@ scanner.info.YOTTank.2=当前已用：
 scanner.info.XHE.0=输出蒸汽量：
 scanner.info.XHE.1=超临界阈值：
 scanner.info.UX.0=并行运行：
+scanner.info.CASS.tier=Casing Tier:
 
 #GUI Info
 gui.NeutronSensor.0=输入中子动能值.
@@ -414,6 +446,8 @@ yothatch.chat.0=存储优先级设为 %s.
 yothatch.chat.1=设置为 %s 模式
 yottank.chat.0=清空锁定过滤器
 yottank.chat.1=锁定为 %s
+yottank.chat.voidExcessEnabled=Void Excess Enabled
+yottank.chat.voidExcessDisabled=Void Excess Disabled
 preciseassembler.chat.0=精密模式
 preciseassembler.chat.1=普通模式
 essentiaoutputhatch.chat.0=已清空.

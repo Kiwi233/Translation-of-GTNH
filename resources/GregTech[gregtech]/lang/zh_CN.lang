@@ -74,7 +74,7 @@ GT5U.coil.ULV=无
 GT5U.coil.LV=白铜
 GT5U.coil.MV=坎塔尔合金
 GT5U.coil.HV=镍铬合金
-GT5U.coil.EV=钨钢
+GT5U.coil.EV=钛铂钒
 GT5U.coil.IV=高速钢-G
 GT5U.coil.LuV=高速钢-S
 GT5U.coil.ZPM=硅岩
@@ -91,6 +91,8 @@ GT5U.MS.multismelting=同时熔炼
 GT5U.machines.tier=等级
 GT5U.machines.workarea=工作区域
 GT5U.machines.workareaset=工作区域设置为
+GT5U.machines.autoretract.enabled=Auto retract enabled
+GT5U.machines.autoretract.disabled=Auto retract disabled
 GT5U.machines.radius=半径
 GT5U.machines.blocks=方块
 GT5U.machines.chunks=区块
@@ -104,6 +106,8 @@ GT5U.machines.oilfluidpump=石油/流体钻机
 GT5U.machines.minermulti=采矿场
 GT5U.machines.digitalchest.voidoverflow.enabled=溢出销毁：§a启用§r
 GT5U.machines.digitalchest.voidoverflow.disabled=溢出销毁：§a禁用§r
+GT5U.machines.digitalchest.inputfilter.enabled=Input Filter §aOn§r
+GT5U.machines.digitalchest.inputfilter.disabled=Input Filter §cOff§r
 GT5U.machines.digitaltank.tooltip=存储 %sL 流体
 GT5U.machines.digitaltank.tooltip1=拆卸后可保留其中流体
 GT5U.machines.digitaltank.tooltip2=潜行拆卸可销毁内部流体
@@ -164,8 +168,6 @@ GT5U.machines.stalled_vent.tooltip=§4故障：无法排出蒸汽!
 GT5U.machines.stalled_vent.tooltip.1=§7请手持扳手右键机器
 GT5U.machines.stalled_vent.tooltip.2=§7以旋转其蒸汽输出口
 GT5U.machines.stalled_vent.tooltip.3=§7指向没有遮挡的方向.
-GT5U.machines.stalled_vent.tooltip.extended=§7处理进度丢失了，
-GT5U.machines.stalled_vent.tooltip.extended.1=§7但处理产物还在.
 GT5U.machines.oreprocessor=§e运行模式：%s §c时间：%s 秒
 GT5U.machines.oreprocessor.void=§e销毁石粉：%s
 GT5U.machines.industrialapiary.cancel.tooltip=§c取消处理
@@ -188,8 +190,8 @@ GT5U.machines.industrialapiary.infoextended.tooltip.3=生产速度：%4$d %%
 GT5U.machines.industrialapiary.infoextended.tooltip.4=授粉几率：%5$d %%
 GT5U.machines.industrialapiary.infoextended.tooltip.5=寿命：%6$d %%
 GT5U.machines.industrialapiary.infoextended.tooltip.6=范围：%7$d x %8$d x %9$d
+GT5U.machines.industrialapiary.infoextended.tooltip.7=Territory: %8$d x %9$d x %10$d
 GT5U.machines.industrialapiary.upgradeslot.tooltip=升级槽
-GT5U.machines.industrialapiary.upgradeslot.tooltip.1=§7同时兼容基因工业(gendustry)升级
 GT5U.machines.advdebugstructurewriter.tooltip=扫描周围的方块
 GT5U.machines.advdebugstructurewriter.tooltip.1=打印多方块非-方块实体结构验证码
 GT5U.machines.advdebugstructurewriter.tooltip.2=ABC轴与机器正面对齐
@@ -199,8 +201,12 @@ GT5U.machines.advdebugstructurewriter.gui.size=结构尺寸
 GT5U.machines.advdebugstructurewriter.gui.print.tooltip=打印结构
 GT5U.machines.advdebugstructurewriter.gui.highlight.tooltip=显示边框
 GT5U.machines.advdebugstructurewriter.gui.transpose.tooltip=转置
+GT5U.machines.nei_transfer.steam.tooltip=%s steam recipes
+GT5U.machines.nei_transfer.voltage.tooltip=Recipes available in %s
 
 GT5U.recipe_filter.representation_slot.tooltip=手持机器右键以设置过滤
+GT5U.type_filter.representation_slot.tooltip.0=left click to forward
+GT5U.type_filter.representation_slot.tooltip.1=right click to back
 
 GT5U.gui.select.current=当前：
 
@@ -223,6 +229,8 @@ GT5U.hatch.disableLimited.true=限制模式：§c关闭§r
 GT5U.hatch.disableLimited.false=限制模式：§c开启§r
 GT5U.hatch.infiniteCache.true=ME输出总线将无限缓存物品，直到连接上ME网络
 GT5U.hatch.infiniteCache.false=ME输出总线离线超过2秒后将停止接收物品
+GT5U.hatch.infiniteCacheFluid.true=ME输出仓将无限缓存物品，直到连接上ME网络
+GT5U.hatch.infiniteCacheFluid.false=ME输出仓离线超过2秒后将停止接收物品
 
 GT5U.multiblock.pollution=污染减少到
 GT5U.multiblock.energy=存储能量
@@ -231,6 +239,8 @@ GT5U.multiblock.efficiency=效率
 GT5U.multiblock.problems=问题
 GT5U.multiblock.mei=最大输入
 GT5U.multiblock.usage=大概功率
+GT5U.multiblock.parallelism=最大并行
+GT5U.multiblock.curparallelism=当前并行
 
 GT5U.config.colormodulation=颜色调制器
 GT5U.config.colormodulation.cable_insulation=线缆绝缘材料
@@ -256,6 +266,8 @@ GT5U.config.interface.TooltipShiftVerbosity=Tooltip冗余(按下Shift)
 GT5U.config.interface.TooltipShiftVerbosity.tooltip=按下Shift时,GT机器GUI的tooltip的详细程度?\n0: 无tooltips\n1: 只有一行tooltip\n2: 普通tooltip\n3+: 扩展tooltip[默认]
 GT5U.config.interface.CircuitsOrder=虚拟电路板顺序(见详情)
 GT5U.config.interface.CircuitsOrder.tooltip=虚拟电路板槽中选取电路板的顺序.\n请填写电路板的唯一标识符(Unique Identifier).\n例如: gregtech:gt.integrated_circuit
+GT5U.config.interface.TitleTabStyle=Title Tab Style (See details)
+GT5U.config.interface.TitleTabStyle.tooltip=Which style to use for title tab on machine GUI?\n0: text tab split-dark [DEFAULT]\n1: text tab unified\n2: item icon tab
 GT5U.config.preference=客户端偏好
 GT5U.config.preference.mInputBusInitialFilter=输入总线的初始输入过滤状态
 GT5U.config.preference.mInputBusInitialFilter.tooltip=放置输入总线时,是否启用输入过滤\n不影响其他人放置的输入总线\n不影响已存在的输入总线
@@ -279,13 +291,22 @@ GT5U.config.nei.OriginalVoltage=超频时显示原始电压
 GT5U.config.waila=Waila
 GT5U.config.waila.WailaTransformerVoltageTier=显示变压器的电压等级
 
-// Cover tabs
+# Cover tabs
 GT5U.interface.coverTabs.down=底
 GT5U.interface.coverTabs.up=顶
 GT5U.interface.coverTabs.north=北
 GT5U.interface.coverTabs.south=南
 GT5U.interface.coverTabs.west=西
 GT5U.interface.coverTabs.east=东
+
+# Waila
+GT5U.waila.cover=Cover (%s): %s
+GT5U.waila.cover.current_facing=Current Facing
+GT5U.waila.energy.stored=Stored: §a%s§r EU / §e%s§r EU
+GT5U.waila.energy.avg_in=Average Input: §a%s§r EU
+GT5U.waila.energy.avg_out=Average Output: §c%s§r EU
+GT5U.waila.energy.use=Probably uses: §e%s§r EU
+GT5U.waila.energy.produce=Probably generates: §a%s§r EU
 
 achievement.flintpick=第一把工具
 achievement.flintpick.desc=制造一把燧石镐
@@ -762,6 +783,9 @@ achievement.gt.blockmachines.wireless.transmitter.tier.13.desc=捡起此物品�
 achievement.gt.blockmachines.wireless.transmitter.tier.14=MAX无线动力仓
 achievement.gt.blockmachines.wireless.transmitter.tier.14.desc=捡起此物品以在NEI内解锁该合成表
 
+achievement.gt.blockmachines.multimachine.oreprocessor=Integrated Ore Factory
+achievement.gt.blockmachines.multimachine.oreprocessor.desc=Processing all those ores.
+
 achievement.gt.blockmachines.multimachine.em.infuser=能量注入仪
 achievement.gt.blockmachines.multimachine.em.infuser.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.blockmachines.hatch.holder.tier.09=物品固定容器
@@ -1021,7 +1045,7 @@ fluid.Ammonium Dinitramide=二硝酰胺铵
 fluid.LMP-103S=LMP-103S
 fluid.Nitromethane=硝基甲烷
 fluid.O-Xylene=1,2-二甲苯
-//GT_MetaGenerated_Item_98 cells
+# GT_MetaGenerated_Item_98 cells
 fluid.UnknownNutrientAgar=未知营养琼脂
 fluid.SeaweedBroth=海藻基质
 fluid.EnzymesSollution=酶溶液
@@ -1029,7 +1053,7 @@ fluid.escherichiakolifluid=大肠杆菌液体
 fluid.Penicillin=青霉素
 fluid.FluorecentdDNA=荧光DNA
 fluid.Polymerase=聚合酶
-//No cell, most from bart bio
+# No cell, most from bart bio
 fluid.Monomethylhydrazine=一甲基肼
 fluid.binnibacteriafluid=双杆菌液体
 fluid.barnadafisarboriatorisfluid=巴纳德乔木培养液
@@ -1038,12 +1062,12 @@ fluid.sludge=菌泥
 fluid.Formaldehyde=甲醛
 fluid.tcetieisfucusserratusfluid=鲸鱼座T星藻类培养液
 fluid.MeatExtract=肉汁
-//No recipe
+# No recipe
 fluid.CompressedOxygen=压缩氧气
 fluid.CompressedNitrogen=压缩氮气
 fluid.redplasma=红等离子体
 fluid.tile.fluidBlockSludge=污泥
-//No Textrue
+# No Texture
 fluid.guano=鸟粪
 fluid.poo=便便
 fluid.sewerage=下水

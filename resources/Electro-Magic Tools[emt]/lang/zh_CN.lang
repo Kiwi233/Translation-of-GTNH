@@ -18,6 +18,7 @@ emt.PressShift=<按下Shift>
 emt.Generating=发电：
 emt.Fuel=燃料
 emt.OutputMax=最大输出：
+emt.remaining_second=剩余秒数：
 
 #=============Tooltips=============
 #This comes after a player name. The 's is depicting ownership.
@@ -220,11 +221,11 @@ emt.text.Electric Goggles=你已发现了一种用纯电子设备观测灵气的
 
 emt.rsname.Nanosuit Goggles of Revealing=纳米揭示护目镜
 emt.tag.Nanosuit Goggles of Revealing=高级眼部防护
-emt.text.Nanosuit Goggles of Revealing=你已发现了一种无需移动太多就能将你珍贵的魔力感应器和纳米头盔结合的方法.通过给纳米头盔注魔,你将能用它看见灵气节点.在这个魔法过程中,夜视用的控制芯片被用于代替吸收多余魔法能量的电容和魔力感应微芯片.以防你不小心关闭了夜视.
+emt.text.Nanosuit Goggles of Revealing=你已发现了一种无需移动太多就能将你之前的魔力感应器融入纳米头盔的方法.通过给纳米头盔注魔,你将能用它看见灵气节点.在这个魔法过程中,夜视用的控制芯片被用于代替吸收多余魔法能量的电容和魔力感应微芯片.以防你不小心关闭了夜视.
 
 emt.rsname.Quantum Goggles of Revealing=量子揭示护目镜
 emt.tag.Quantum Goggles of Revealing=更高级的双重保护
-emt.text.Quantum Goggles of Revealing=这期间出现了许多的尝试和错误,但你已找到了一种方法来将魔力感应器加入量子头盔里.通过给量子头盔注魔,你将能用它看见灵气节点.在设计的过程中,你加入了几个包含夜视和自动补充饱食度的控制芯片和感应器.你发现使用激光采矿枪时它能安全地确认准星并控制爆炸的冲击.玩的愉快.有了它再也不用夜视药水和补充食物了.
+emt.text.Quantum Goggles of Revealing=这期间出现了许多的尝试和错误,但你已找到了一种方法来将魔力感应器加入量子头盔里.通过给量子头盔注魔,你将能用它看见灵气节点.在设计的过程中,你需要将几个包含夜视和自动补充饱食度的控制芯片替换成魔力感知电路和电容,用于吸收过量的魔法能量.你发现使用激光采矿枪时它能安全地确认准星并控制爆炸的冲击.玩的愉快.有了它再也不用夜视药水和补充食物了.
 
 emt.rsname.Iron Omnitool=铁制钻锯
 emt.tag.Iron Omnitool=为农夫准备的便利工具
@@ -244,7 +245,7 @@ emt.text.Explosion Focus=你已发现了一种通过将蝙蝠换为更具爆炸�
 
 emt.rsname.Kris-tmas Focus=法杖核心:圣诞
 emt.tag.Kris-tmas Focus=吼!吼!吼!
-emt.text.Kris-tmas Focus=圣诞快乐!<BR><BR>你已发现了一条用于寒霜核心的笔记.你可以召唤你的雪人朋友们来对你庆祝节日的邻居们砸雪球,圣诞节的魔法!
+emt.text.Kris-tmas Focus=圣诞快乐!<BR><BR>你已发现了寒霜核心的全新用法.你可以随意召唤你的雪人朋友们,向庆祝节日的邻居们砸雪球,圣诞节的魔法!
 
 emt.rsname.Shield Focus=法杖核心:护盾
 emt.tag.Shield Focus=结界张开
@@ -268,11 +269,11 @@ emt.text.Auram Generator=尽管比你最初的想法用了更多的努力,你已
 
 emt.rsname.Arbor Generator=木之源质发电机
 emt.tag.Arbor Generator=让发电回到基础
-emt.text.Arbor Generator=总有许多多余的树木要素源质在你的身边.不需要更多了!通过修改最初的能量要素源质发电机,你已经发现了使用树木要素源质发电的方法.
+emt.text.Arbor Generator=总有许多多余的树木要素源质在你的身边.不再是这样了!通过修改最初的能量要素源质发电机,你已经发现了使用树木要素源质发电的方法.
 
 emt.rsname.Aer Generator=风之源质发电机
 emt.tag.Aer Generator=压缩周围的风
-emt.text.Aer Generator=你研究了蕴藏在风中的巨大能量,并试着修改最初的能量源质发电机,使其具有压缩风源质的能力,并提供300EU的电力.
+emt.text.Aer Generator=你已经发现了蕴藏在风中的巨大能量,并试着修改最初的能量源质发电机,使其具有压缩风源质的能力,并提供300EU的电力.
 
 emt.rsname.Chainsaw of the Stream=奔雷电锯
 emt.tag.Chainsaw of the Stream=你只需要一个劲的砍树
@@ -304,7 +305,7 @@ emt.text.Lightning Summoner=这个物品是你的死敌:高压爬行者所掉落
 
 emt.rsname.Supercharged Mjolnir=高压雷神之锤
 emt.tag.Supercharged Mjolnir=将它据为己有
-emt.text.Supercharged Mjolnir=在对于所有的地牢进行探索之后,你已经找到了一种方法来制服"托尔的力量",使得他的锤子变为你的所有物.此外,你可以你的锤子召唤守卫雪傀儡来保护你.然而这把锤子失去了在你所指之处召唤闪电的力量,并且使用时会在你的周围召唤一圈闪电.
+emt.text.Supercharged Mjolnir=在对各个世界和维度中的地牢进行探索之后,你已经成功地找到了一种方法来压制托尔(雷神)的力量,使得他的锤子变为你的所有物.此外,你可以用你的锤子召唤守卫(类似雪傀儡的奇怪生物)来保护你.然而,这把锤子失去了在你所指之处召唤闪电的力量,并且使用时会在你的周围召唤一圈闪电.
 
 emt.rsname.Industrial Wand Charging Station=工业法杖充能站
 emt.tag.Industrial Wand Charging Station=用工业的方式为你的法杖充能
@@ -316,7 +317,7 @@ emt.text.Compressed Solars=你找到了一种将9普通太阳能压缩为1个魔
 
 emt.rsname.Solar Helmet of Revealing=太阳能揭示护目镜
 emt.tag.Solar Helmet of Revealing=阳光太刺眼了
-emt.text.Solar Helmet of Revealing=你现在有了一顶像你的量子揭示护目镜一样工作的头盔,也能给你背包黑穿着的装备充电!在白天以128EU/t功率发电,夜晚不发电.
+emt.text.Solar Helmet of Revealing=你现在有了一顶可以像你的量子揭示护目镜一样工作的头盔,也能给你的胸甲充电!在白天可以产生65536 EU的电,在夜晚则是4096 EU.
 
 emt.rsname.Diamond Chainsaw=钻石链锯
 emt.tag.Diamond Chainsaw=更硬,更好,更快,更强

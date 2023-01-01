@@ -1,0 +1,43 @@
+modularui.test=测试文本\n第二行
+modularui.tooltip.shift=§b按住Shift
+modularui.increment.tooltip=§7点击将数字增加§6%d§7\n按住shift[§6%d§7]，ctrl[§6%d§7]或者shift+ctrl[§6%d§7]
+modularui.decrement.tooltip=§7点击将数字减少§6%d§7\n按住shift[§6%d§7]，ctrl[§6%d§7]或者shift+ctrl[§6%d§7]
+modularui.amount=§9数量：%,d
+modularui.fluid.empty=空
+modularui.fluid.amount=§9数量：%,d/%,d L
+modularui.fluid.phantom.amount=§9数量：%,d L
+modularui.fluid.phantom.control=§7向上滚动鼠标滚轮增加数量，向下减少。\nShift[§6x10§7],Ctrl[§ex100§7],Shift+Ctrl[§ax1000§7]\n右键增加数量，左键减少.\nShift + 左键清空。
+modularui.item.phantom.control=§7向上滚动鼠标滚轮增加数量，向下减少。\n§7Shift[§6x8§7],Ctrl[§ex64§7],Shift+Ctrl[§ax512§7]\n§7右键增加数量，左键减少.\n§7Shift + 左键清空。
+modularui.phantom.single.clear=§8左键移除
+
+modularui.fluid.click_to_fill=§bLeft §7Click with a Fluid Container to §bfill §7the tank (Shift-click for a full stack).
+modularui.fluid.click_combined=§cRight §7or §bLeft §7Click with a Fluid Container to §cempty §7or §bfill §7the tank (Shift-click for a full stack).
+modularui.fluid.click_to_empty=§cRight §7Click with a Fluid Container to §cempty §7the tank (Shift-click for a full stack).
+
+modularui.config.animations=动画
+modularui.config.rendering=渲染
+modularui.config.keyboard=键盘
+modularui.config.debug=调试
+
+modularui.config.animations.openCloseDurationMs=动画持续时间
+modularui.config.animations.openCloseDurationMs.tooltip=打开/关闭的动画需要消耗多少毫秒
+modularui.config.animations.openCloseFade=启用GUI淡入/淡出
+modularui.config.animations.openCloseFade.tooltip=是否在GUI打开/关闭时绘制淡入/淡出动画
+modularui.config.animations.openCloseScale=启用GUI放大/缩小
+modularui.config.animations.openCloseScale.tooltip=是否在GUI打开/关闭时绘制放大/缩小动画
+modularui.config.animations.openCloseTranslateFromBottom=启用GUI滑动
+modularui.config.animations.openCloseTranslateFromBottom.tooltip=是否在GUI打开/关闭时绘制从底部滑入/滑出动画
+modularui.config.animations.openCloseRotateFast=启用GUI旋转
+modularui.config.animations.openCloseRotateFast.tooltip=是否在GUI打开/关闭时绘制GUI快速旋转动画
+modularui.config.rendering.smoothProgressbar=启用平滑进度条
+modularui.config.rendering.smoothProgressbar.tooltip=平滑地绘制进度条
+modularui.config.rendering.textCursor=光标风格
+modularui.config.rendering.textCursor.tooltip=选择：下划线，竖直
+modularui.config.keyboard.escRestoreLastText=Restore last text with esc key
+modularui.config.keyboard.escRestoreLastText.tooltip=Whether to restore last text if esc key is pressed in the text field
+modularui.config.keyboard.closeWindowsAtOnce=Close windows at once
+modularui.config.keyboard.closeWindowsAtOnce.tooltip=是否立即关闭所有打开的窗口
+modularui.config.debug.debug=启用调试
+modularui.config.debug.debug.tooltip=启用显示调试信息
+modularui.config.debug.forceEnableDebugBlock=启用调试方块
+modularui.config.debug.forceEnableDebugBlock.tooltip=即使不是开发环境也添加调试方块

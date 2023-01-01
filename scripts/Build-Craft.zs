@@ -11,6 +11,22 @@ import mods.nei.NEI;
 import mods.gregtech.PrecisionLaser;
 
 
+// --- i18N ---
+val I18N_Build_Craft_0 = "\u6728\u6846\u67b6\u80fd\u91cf\u7ba1\u9053";
+val I18N_Build_Craft_1 = "\u5706\u77f3\u6846\u67b6\u7ba1\u9053";
+val I18N_Build_Craft_2 = "\u5706\u77f3\u6846\u67b6\u80fd\u91cf\u7ba1\u9053";
+val I18N_Build_Craft_3 = "\u77f3\u5934\u6846\u67b6\u7ba1\u9053";
+val I18N_Build_Craft_4 = "\u77f3\u5934\u6846\u67b6\u80fd\u91cf\u7ba1\u9053";
+val I18N_Build_Craft_5 = "\u6c99\u77f3\u6846\u67b6\u7ba1\u9053";
+val I18N_Build_Craft_6 = "\u6c99\u77f3\u6846\u67b6\u80fd\u91cf\u7ba1\u9053";
+val I18N_Build_Craft_7 = "\u94c1\u6846\u67b6\u7ba1\u9053";
+val I18N_Build_Craft_8 = "\u94c1\u6846\u67b6\u80fd\u91cf\u7ba1\u9053";
+val I18N_Build_Craft_9 = "\u77f3\u82f1\u6846\u67b6\u7ba1\u9053";
+val I18N_Build_Craft_10 = "\u77f3\u82f1\u6846\u67b6\u80fd\u91cf\u7ba1\u9053";
+val I18N_Build_Craft_11 = "\u91d1\u6846\u67b6\u80fd\u91cf\u7ba1\u9053";
+val I18N_Build_Craft_12 = "\u94bb\u77f3\u6846\u67b6\u80fd\u91cf\u7ba1\u9053";
+val I18N_Build_Craft_13 = "\u7eff\u5b9d\u77f3\u6846\u67b6\u80fd\u91cf\u7ba1\u9053";
+val I18N_Build_Craft_14 = "\u706b\u77f3\u6676\u4f53";
 
 // --- Variables ---
 
@@ -720,46 +736,46 @@ PrecisionLaser.addRecipe(<BuildCraft|Silicon:redstoneCrystal>, <gregtech:gt.meta
 
 
 // --- Wood-Covered Kinesis Pipe
-NEI.overrideName(PipeWoodKinesis, "\u6728\u8d28\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeWoodKinesis, I18N_Build_Craft_0);
 
 // --- Cobblestone-Covered Pipe
-NEI.overrideName(PipeCobble, "\u5706\u77f3\u7ba1\u9053");
+NEI.overrideName(PipeCobble, I18N_Build_Craft_1);
 
 // --- Cobblestone-Covered Kinesis Pipe
-NEI.overrideName(PipeCobbleKinesis, "\u5706\u77f3\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeCobbleKinesis, I18N_Build_Craft_2);
 
 // --- Stone-Covered Pipe
-NEI.overrideName(PipeStone, "\u77f3\u5934\u7ba1\u9053");
+NEI.overrideName(PipeStone, I18N_Build_Craft_3);
 
 // --- Stone-Covered Kinesis Pipe
-NEI.overrideName(PipeStoneKinesis, "\u77f3\u5934\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeStoneKinesis, I18N_Build_Craft_4);
 
 // --- Sandstone-Covered Pipe
-NEI.overrideName(PipeSandstone, "\u6c99\u77f3\u7ba1\u9053");
+NEI.overrideName(PipeSandstone, I18N_Build_Craft_5);
 
 // --- Sandstone-Covered Kinesis Pipe
-NEI.overrideName(PipeSandstoneKinesis, "\u6c99\u77f3\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeSandstoneKinesis, I18N_Build_Craft_6);
 
 // --- Iron-Covered Pipe
-NEI.overrideName(PipeIron, "\u94c1\u8d28\u7ba1\u9053");
+NEI.overrideName(PipeIron, I18N_Build_Craft_7);
 
 // --- Iron-Covered Kinesis Pipe
-NEI.overrideName(PipeIronKinesis, "\u94c1\u8d28\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeIronKinesis, I18N_Build_Craft_8);
 
 // --- Quartz-Covered Pipe
-NEI.overrideName(PipeQuartz, "\u77f3\u82f1\u7ba1\u9053");
+NEI.overrideName(PipeQuartz, I18N_Build_Craft_9);
 
 // --- Quartz-Covered Kinesis Pipe
-NEI.overrideName(PipeQuartzKinesis, "\u77f3\u82f1\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeQuartzKinesis, I18N_Build_Craft_10);
 
 // --- Gold-Covered Kinesis Pipe
-NEI.overrideName(PipeGoldKinesis, "\u91d1\u8d28\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeGoldKinesis, I18N_Build_Craft_11);
 
 // --- Diamond-Covered Kinesis Pipe
-NEI.overrideName(PipeDiamondKinesis, "\u94bb\u77f3\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeDiamondKinesis, I18N_Build_Craft_12);
 
 // --- Emerald-Covered Kinesis Pipe
-NEI.overrideName(PipeEmeraldKinesis, "\u7eff\u5b9d\u77f3\u80fd\u91cf\u7ba1\u9053");
+NEI.overrideName(PipeEmeraldKinesis, I18N_Build_Craft_13);
 
 // --- Redstone Crystal
-NEI.overrideName(<BuildCraft|Silicon:redstoneCrystal>, "\u706b\u77f3\u6676\u4f53");
+NEI.overrideName(<BuildCraft|Silicon:redstoneCrystal>, I18N_Build_Craft_14);

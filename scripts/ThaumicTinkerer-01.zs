@@ -13,6 +13,28 @@ import mods.gregtech.CuttingSaw;
 import mods.gregtech.PrecisionLaser;
 
 
+// --- I18N ---
+val I18N_ThaumicTinkerer_01_0 = "\u77e5\u8bc6\u5171\u4eab\u4e4b\u4e66";
+val I18N_ThaumicTinkerer_01_1 = "\u005b\u0054\u0054\u005d\u91d1\u9c7c\u65e5\u8bb0";
+val I18N_ThaumicTinkerer_01_2 = "\u70df\u9ed1\u77f3\u82f1";
+val I18N_ThaumicTinkerer_01_3 = "\u005b\u0054\u0054\u005d\u6697\u5f71\u4e4b\u65e5";
+val I18N_ThaumicTinkerer_01_4 = "\u5143\u7d20\u4e4b\u7130\u003a\u79bb\u706b";
+val I18N_ThaumicTinkerer_01_5 = "\u005b\u0054\u0054\u005d\u5f80\u706b\u91cc\u6ce8\u5165\u002e\u002e\u002e\u66f4\u591a\u7684\u706b\u0021";
+val I18N_ThaumicTinkerer_01_6 = "\u5143\u7d20\u4e4b\u7130\u003a\u574e\u6c34";
+val I18N_ThaumicTinkerer_01_7 = "\u005b\u0054\u0054\u005d\u706b\u4e0a\u6d47\u6c34\u002c\u8be5\u7184\u4e86\u5427";
+val I18N_ThaumicTinkerer_01_8 = "\u5143\u7d20\u4e4b\u7130\u003a\u5764\u5730";
+val I18N_ThaumicTinkerer_01_9 = "\u005b\u0054\u0054\u005d\u505a\u5929\u5e95\u4e0b\u7528\u6ce5\u571f\u80fd\u505a\u7684\u73a9\u610f\u513f\u8be5\u90fd\u591f\u7528\u4e86";
+val I18N_ThaumicTinkerer_01_10 = "\u5143\u7d20\u4e4b\u7130\u003a\u79e9\u5e8f";
+val I18N_ThaumicTinkerer_01_11 = "\u005b\u0054\u0054\u005d\u4ece\u77ff\u7269\u51b6\u70bc\u51fa\u66f4\u591a\u91d1\u5c5e\u952d";
+val I18N_ThaumicTinkerer_01_12 = "\u4ece\u77ff\u7269\u51b6\u70bc\u51fa\u66f4\u591a\u91d1\u5c5e\u952d";
+val I18N_ThaumicTinkerer_01_13 = "\u005b\u0054\u0054\u005d\u59d1\u5984\u4fe1\u4e4b\u4e5f\u662f\u86ee\u6709\u7528\u7684\u6280\u80fd";
+val I18N_ThaumicTinkerer_01_14 = "\u5143\u7d20\u706b\u7130\u003a\u6df7\u6c8c";
+val I18N_ThaumicTinkerer_01_15 = "\u005b\u0054\u0054\u005d\u5927\u626b\u8361\u65f6\u95f4\u5230";
+val I18N_ThaumicTinkerer_01_16 = "\u8574\u9b54\u4f5c\u7269";
+val I18N_ThaumicTinkerer_01_17 = "\u005b\u0054\u0054\u005d\u8c01\u63d0\u8d77\u7684\u871c\u8702\u003f\u6ca1\u4eba\u8bf4\u8fc7\u871c\u8702\u002e";
+val I18N_ThaumicTinkerer_01_18 = "\u522b\u7684\u5408\u6210\u8868\u6ca1\u6709\u663e\u793a\u002c\u4f46\u4f60\u53ef\u4ee5\u5411\u79cd\u5b50\u6ce8\u5165\u6240\u6709\u7684\u57fa\u7840\u9b54\u6676\u002e<BR>\u6bd4\u5982\u5411\u79cd\u5b50\u6ce8\u5165\u706b\u4e4b\u6676\u7c07\u4ee5\u53ca\u0031\u0036\u706b\u4e4b\u8981\u7d20\u002c\u6bd4\u5982\u5411\u79cd\u5b50\u6ce8\u5165\u6c34\u4e4b\u6676\u7c07\u4ee5\u53ca\u0031\u0036\u6c34\u4e4b\u8981\u7d20\u002e\u002e\u002e";
+val I18N_ThaumicTinkerer_01_19 = "\u8574\u9b54\u836f\u6c34";
+val I18N_ThaumicTinkerer_01_20 = "\u005b\u0054\u0054\u005d\u79cd\u51fa\u4f60\u7684\u836f\u6c34";
 
 // --- Variables ---
 
@@ -173,8 +195,8 @@ mods.thaumcraft.Arcane.removeRecipe(<ThaumicTinkerer:revealingHelm>);
 mods.thaumcraft.Research.orphanResearch("SHARE_TOME");
 mods.thaumcraft.Research.removeResearch("SHARE_TOME");
 mods.thaumcraft.Research.addResearch("SHARETOME", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 0, -1 as int, 3, <ThaumicTinkerer:shareBook>);
-game.setLocalization("tc.research_name.SHARETOME", "\u77e5\u8bc6\u5171\u4eab\u4e4b\u4e66");
-game.setLocalization("tc.research_text.SHARETOME", "[TT]\u91d1\u9c7c\u7684\u65e5\u8bb0");
+game.setLocalization("tc.research_name.SHARETOME", I18N_ThaumicTinkerer_01_0);
+game.setLocalization("tc.research_text.SHARETOME", I18N_ThaumicTinkerer_01_1);
 mods.thaumcraft.Research.addPrereq("SHARETOME", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("SHARETOME", false);
 mods.thaumcraft.Research.addPage("SHARETOME", "ttresearch.page.SHARE_TOME.0");
@@ -190,8 +212,8 @@ mods.thaumcraft.Research.removeResearch("DARK_QUARTZ");
 mods.thaumcraft.Research.addResearch("DARKQUARTZ", "TT_CATEGORY", "null", -2 as int, 2, 1, <ThaumicTinkerer:darkQuartzItem>);
 mods.thaumcraft.Research.setRound("DARKQUARTZ", true);
 mods.thaumcraft.Research.setAutoUnlock("DARKQUARTZ", true);
-game.setLocalization("tc.research_name.DARKQUARTZ", "\u70df\u9ed1\u77f3\u82f1");
-game.setLocalization("tc.research_text.DARKQUARTZ", "[TT]\u6697\u5f71\u4e4b\u65e5");
+game.setLocalization("tc.research_name.DARKQUARTZ", I18N_ThaumicTinkerer_01_2);
+game.setLocalization("tc.research_text.DARKQUARTZ", I18N_ThaumicTinkerer_01_3);
 mods.thaumcraft.Research.addPage("DARKQUARTZ", "ttresearch.page.DARK_QUARTZ.0");
 mods.thaumcraft.Arcane.addShaped("DARKQUARTZ", <ThaumicTinkerer:darkQuartzItem>, "perditio 8", [
 [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>],
@@ -280,8 +302,8 @@ mods.thaumcraft.Research.addPrereq("FIREIGNIS", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREIGNIS", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREIGNIS", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREIGNIS", true);
-game.setLocalization("tc.research_name.FIREIGNIS", "\u5143\u7d20\u4e4b\u7130:\u79bb\u706b");
-game.setLocalization("tc.research_text.FIREIGNIS", "[TT]\u5f80\u706b\u91cc\u6ce8\u5165...\u66f4\u591a\u7684\u706b!");
+game.setLocalization("tc.research_name.FIREIGNIS", I18N_ThaumicTinkerer_01_4);
+game.setLocalization("tc.research_text.FIREIGNIS", I18N_ThaumicTinkerer_01_5);
 mods.thaumcraft.Research.addPage("FIREIGNIS", "ttresearch.page.FIRE_IGNIS.0");
 mods.thaumcraft.Infusion.addRecipe("FIREIGNIS", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "ignis"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:1>, <minecraft:redstone>, <Thaumcraft:blockCrystal:1>],
@@ -297,8 +319,8 @@ mods.thaumcraft.Research.addPrereq("FIREAQUA", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREAQUA", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREAQUA", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREAQUA", true);
-game.setLocalization("tc.research_name.FIREAQUA", "\u5143\u7d20\u4e4b\u7130:\u574e\u6c34");
-game.setLocalization("tc.research_text.FIREAQUA", "[TT]\u706b\u4e0a\u6d47\u6c34,\u8be5\u7184\u4e86\u5427");
+game.setLocalization("tc.research_name.FIREAQUA", I18N_ThaumicTinkerer_01_6);
+game.setLocalization("tc.research_text.FIREAQUA", I18N_ThaumicTinkerer_01_7);
 mods.thaumcraft.Research.addPage("FIREAQUA", "ttresearch.page.FIRE_AQUA.0");
 mods.thaumcraft.Infusion.addRecipe("FIREAQUA", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "aqua"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:2>, <minecraft:redstone>, <Thaumcraft:blockCrystal:2>],
@@ -314,8 +336,8 @@ mods.thaumcraft.Research.addPrereq("FIRETERRA", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIRETERRA", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIRETERRA", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIRETERRA", true);
-game.setLocalization("tc.research_name.FIRETERRA", "\u5143\u7d20\u4e4b\u7130:\u5764\u5730");
-game.setLocalization("tc.research_text.FIRETERRA", "[TT]\u505a\u5929\u5e95\u4e0b\u7528\u6ce5\u571f\u80fd\u505a\u7684\u6240\u6709\u73a9\u610f\u513f\u90fd\u8be5\u591f\u7528\u4e86");
+game.setLocalization("tc.research_name.FIRETERRA", I18N_ThaumicTinkerer_01_8);
+game.setLocalization("tc.research_text.FIRETERRA", I18N_ThaumicTinkerer_01_9);
 mods.thaumcraft.Research.addPage("FIRETERRA", "ttresearch.page.FIRE_TERRA.0");
 mods.thaumcraft.Infusion.addRecipe("FIRETERRA", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "terra"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:3>, <minecraft:redstone>, <Thaumcraft:blockCrystal:3>],
@@ -331,8 +353,8 @@ mods.thaumcraft.Research.addPrereq("FIREORDO", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREORDO", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREORDO", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREORDO", true);
-game.setLocalization("tc.research_name.FIREORDO", "\u5143\u7d20\u4e4b\u7130:\u79e9\u5e8f");
-game.setLocalization("tc.research_text.FIREORDO", "[TT]\u4ece\u77ff\u7269\u51b6\u70bc\u51fa\u66f4\u591a\u91d1\u5c5e\u952d");
+game.setLocalization("tc.research_name.FIREORDO", I18N_ThaumicTinkerer_01_10);
+game.setLocalization("tc.research_text.FIREORDO", I18N_ThaumicTinkerer_01_11);
 mods.thaumcraft.Research.addPage("FIREORDO", "ttresearch.page.FIRE_ORDO.0");
 mods.thaumcraft.Infusion.addRecipe("FIREORDO", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "ordo"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:4>, <minecraft:redstone>, <Thaumcraft:blockCrystal:4>],
@@ -348,8 +370,8 @@ mods.thaumcraft.Research.addPrereq("FIREAER", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREAER", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREAER", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREAER", true);
-game.setLocalization("tc.research_name.FIREAER", "\u5143\u7d20\u4e4b\u7130:\u5dfd\u98ce");
-game.setLocalization("tc.research_text.FIREAER", "[TT]\u59d1\u5984\u4fe1\u4e4b\u4e5f\u662f\u86ee\u6709\u7528\u7684\u6280\u80fd");
+game.setLocalization("tc.research_name.FIREAER", I18N_ThaumicTinkerer_01_12);
+game.setLocalization("tc.research_text.FIREAER", I18N_ThaumicTinkerer_01_13);
 mods.thaumcraft.Research.addPage("FIREAER", "ttresearch.page.FIRE_AER.0");
 mods.thaumcraft.Infusion.addRecipe("FIREAER", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "aer"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal>, <minecraft:redstone>, <Thaumcraft:blockCrystal>],
@@ -365,8 +387,8 @@ mods.thaumcraft.Research.addPrereq("FIREPERDITIO", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("FIREPERDITIO", "BRIGHT_NITOR", false);
 mods.thaumcraft.Research.addPrereq("FIREPERDITIO", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.setConcealed("FIREPERDITIO", true);
-game.setLocalization("tc.research_name.FIREPERDITIO", "\u5143\u7d20\u706b\u7130:\u6df7\u6c8c");
-game.setLocalization("tc.research_text.FIREPERDITIO", "[TT]\u5927\u626b\u8361\u65f6\u95f4\u5230");
+game.setLocalization("tc.research_name.FIREPERDITIO", I18N_ThaumicTinkerer_01_14);
+game.setLocalization("tc.research_text.FIREPERDITIO", I18N_ThaumicTinkerer_01_15);
 mods.thaumcraft.Research.addPage("FIREPERDITIO", "ttresearch.page.FIRE_PERDITIO.0");
 mods.thaumcraft.Infusion.addRecipe("FIREPERDITIO", <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "perditio"}]}),
 [<minecraft:glowstone_dust>, <Thaumcraft:blockCrystal:5>, <minecraft:redstone>, <Thaumcraft:blockCrystal:5>],
@@ -386,8 +408,8 @@ mods.thaumcraft.Research.addPrereq("INFUSEDSEED", "FIREAER", false);
 mods.thaumcraft.Research.addPrereq("INFUSEDSEED", "FIREORDO", false);
 mods.thaumcraft.Research.addPrereq("INFUSEDSEED", "FIREPERDITIO", false);
 mods.thaumcraft.Research.setConcealed("INFUSEDSEED", true);
-game.setLocalization("tc.research_name.INFUSEDSEED", "\u8574\u9b54\u4f5c\u7269");
-game.setLocalization("tc.research_text.INFUSEDSEED", "[TT]\u8c01\u63d0\u8d77\u7684\u871c\u8702?\u6ca1\u4eba\u8bf4\u8fc7\u871c\u8702.");
+game.setLocalization("tc.research_name.INFUSEDSEED", I18N_ThaumicTinkerer_01_16);
+game.setLocalization("tc.research_text.INFUSEDSEED", I18N_ThaumicTinkerer_01_17);
 mods.thaumcraft.Research.addPage("INFUSEDSEED", "ttresearch.page.INFUSED_POTIONS.0");
 mods.thaumcraft.Research.addPage("INFUSEDSEED", "ttresearch.page.INFUSED_POTIONS.1");
 mods.thaumcraft.Research.addPage("INFUSEDSEED", "ttresearch.page.INFUSED_POTIONS.2");
@@ -418,7 +440,7 @@ mods.thaumcraft.Infusion.addRecipe("INFUSEDSEED", <minecraft:wheat_seeds>,
 "messis 32, meto 32, perditio 16", <ThaumicTinkerer:infusedSeeds>.withTag({mainAspect: {Aspects: [{amount: 1, key: "perditio"}]}, aspectTendencies: {Aspects: []}}), 4);
 // -
 mods.thaumcraft.Research.addPage("INFUSEDSEED", "tt.research.page.INFUSEDSEED.3");
-game.setLocalization("tt.research.page.INFUSEDSEED.3", "\u522b\u7684\u5408\u6210\u8868\u6ca1\u6709\u663e\u793a,\u4f46\u4f60\u53ef\u4ee5\u5411\u79cd\u5b50\u6ce8\u5165\u6240\u6709\u7684\u57fa\u7840\u9b54\u6676.<BR><BR>\u6bd4\u5982\u5411\u79cd\u5b50\u6ce8\u5165\u706b\u4e4b\u6676\u7c07\u4ee5\u53ca16\u706b\u4e4b\u8981\u7d20,\u6bd4\u5982\u5411\u79cd\u5b50\u6ce8\u5165\u6c34\u4e4b\u6676\u7c07\u4ee5\u53ca16\u6c34\u4e4b\u8981\u7d20...");
+game.setLocalization("tt.research.page.INFUSEDSEED.3", I18N_ThaumicTinkerer_01_18);
 mods.thaumcraft.Warp.addToResearch("INFUSEDSEED", 2);
 
 // --- Potion of Air
@@ -426,8 +448,8 @@ mods.thaumcraft.Research.addResearch("INFUSEDPOTIONS", "TT_CATEGORY", "auram 15,
 mods.thaumcraft.Research.addPrereq("INFUSEDPOTIONS", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("INFUSEDPOTIONS", "INFUSEDSEED", false);
 mods.thaumcraft.Research.setConcealed("INFUSEDPOTIONS", true);
-game.setLocalization("tc.research_name.INFUSEDPOTIONS", "\u8574\u9b54\u836f\u6c34");
-game.setLocalization("tc.research_text.INFUSEDPOTIONS", "[TT]\u79cd\u51fa\u4f60\u7684\u836f\u6c34");
+game.setLocalization("tc.research_name.INFUSEDPOTIONS", I18N_ThaumicTinkerer_01_19);
+game.setLocalization("tc.research_text.INFUSEDPOTIONS", I18N_ThaumicTinkerer_01_20);
 mods.thaumcraft.Research.addPage("INFUSEDPOTIONS", "ttresearch.page.INFUSED_POTIONS.4");
 mods.thaumcraft.Research.addPage("INFUSEDPOTIONS", "ttresearch.page.INFUSED_POTIONS.5");
 mods.thaumcraft.Crucible.addRecipe("INFUSEDPOTIONS", <ThaumicTinkerer:infusedPotion>, <ThaumicTinkerer:infusedGrain>, "auram 16, aer 16, praecantatio 8");

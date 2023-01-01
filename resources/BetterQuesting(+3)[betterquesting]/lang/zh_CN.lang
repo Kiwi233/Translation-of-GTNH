@@ -1,0 +1,238 @@
+betterquesting.title.quest_lines=任务章节
+betterquesting.title.edit_line1=编辑章节
+betterquesting.title.edit_line2=编辑章节
+betterquesting.title.edit_quest=编辑任务
+betterquesting.title.edit_tasks=编辑任务目标
+betterquesting.title.edit_rewards=编辑任务奖励
+betterquesting.title.edit_text=文本编辑器
+betterquesting.title.pre_requisites=编辑前置任务
+betterquesting.title.json_object=对象
+betterquesting.title.json_array=列表
+betterquesting.title.json_add=新类型
+betterquesting.title.select_item=选择物品
+betterquesting.title.select_fluid=选择流体
+betterquesting.title.select_entity=选择实体
+betterquesting.title.party_none=组队
+betterquesting.title.party=队伍管理 - %s
+betterquesting.title.party_invite=邀请玩家
+betterquesting.title.select_theme=选择主题
+betterquesting.title.importers=导入数据
+betterquesting.title.submit_station=提交站
+betterquesting.title.completion=完成度: %d/%d
+
+betterquesting.btn.rewards=任务奖励
+betterquesting.btn.tasks=任务目标
+betterquesting.btn.advanced=全局设置
+betterquesting.btn.is_main=主要任务
+betterquesting.btn.requirements=前置任务
+betterquesting.btn.edit=编辑
+betterquesting.btn.new=新建
+betterquesting.btn.import=输入
+betterquesting.btn.logic=Logic
+betterquesting.btn.show=图标显示
+betterquesting.btn.claim=领取
+betterquesting.btn.detect_submit=检测/交付
+betterquesting.btn.add_remove_quests=新建/删除 任务
+betterquesting.btn.designer=编辑任务网
+betterquesting.btn.item=物品
+betterquesting.btn.list=列表
+betterquesting.btn.fluid=流体
+betterquesting.btn.entity=实体
+betterquesting.btn.text=文本
+betterquesting.btn.number=数字
+betterquesting.btn.object=对象
+betterquesting.btn.raw_nbt=原NBT
+betterquesting.btn.party_new=创建队伍
+betterquesting.btn.party_leave=离开
+betterquesting.btn.party_invite=邀请
+betterquesting.btn.party_kick=踢出
+betterquesting.btn.party_join=加入
+betterquesting.btn.party_share_lives=分享生命
+betterquesting.btn.party_share_loot=单独奖励
+betterquesting.btn.icon=图标
+betterquesting.btn.claim_all=领取所有奖励
+betterquesting.btn.zoom_fit=缩放至适应屏幕
+betterquesting.btn.lock_tray=锁定弹出栏
+betterquesting.btn.view_mode=浏览模式
+betterquesting.btn.always_draw_implicit=始终显示隐藏前置任务
+betterquesting.btn.prereq_visbility.normal=默认
+betterquesting.btn.prereq_visbility.implicit=Hidden unless hovering over or holding shift
+betterquesting.btn.prereq_visbility.hidden=Hidden regardless of user input
+betterquesting.btn.share_quest=分享到聊天窗口
+
+betterquesting.home.exit=退出
+betterquesting.home.quests=任务
+betterquesting.home.party=组队
+betterquesting.home.theme=主题
+
+betterquesting.gui.name=名称
+betterquesting.gui.description=简介
+betterquesting.gui.quest_line=章节列表
+betterquesting.gui.database=任务数据
+betterquesting.gui.selection=选择
+betterquesting.gui.search=查找
+betterquesting.gui.folder=文件夹
+betterquesting.gui.party_invites=邀请列表
+betterquesting.gui.party_members=成员列表
+betterquesting.gui.remaining_lives=剩余生命: %s
+betterquesting.gui.full_lives=生命已满
+betterquesting.gui.closing_warning=你确定要关闭任务编辑菜单？
+betterquesting.gui.closing_confirm=本次修改的数据可能会丢失！
+betterquesting.gui.claim_all_warning=你确定要领取所有奖励吗？
+betterquesting.gui.claim_all_confirm=如果你的物品栏已满，可能会有很多物品掉到地上!
+betterquesting.gui.key=键位名称
+betterquesting.gui.no_key=No Key
+betterquesting.gui.duplicate_key=Duplicate Key
+betterquesting.gui.yes_always=总是
+
+betterquesting.tooltip.tasks_complete=%s/%s 已达成
+betterquesting.tooltip.complete=已达成
+betterquesting.tooltip.incomplete=未达成
+betterquesting.tooltip.rewards_pending=未领取奖励
+betterquesting.tooltip.repeatable=可重复
+betterquesting.tooltip.requires=前置任务:
+betterquesting.tooltip.shift_advanced=Hold SHIFT for advanced info
+betterquesting.tooltip.reset_time=重置冷却: %s
+betterquesting.tooltip.main_quest=主要任务: %s
+betterquesting.tooltip.global_quest=Global Quest: %s
+betterquesting.tooltip.global_share=Global Share: %s
+betterquesting.tooltip.task_logic=Task Logic: %s
+betterquesting.tooltip.quest_logic=Quest Logic: %s
+betterquesting.tooltip.simultaneous=Simultaneous Tasks: %s
+betterquesting.tooltip.auto_claim=Auto Claim: %s
+betterquesting.tooltip.repeat=Cooldown: %s
+betterquesting.tooltip.repeat_with_edit_mode=Edit mode enabled, repeatable quests won't reset
+betterquesting.tooltip.update_quests=Update Available!%n§7A new quest line version is available.%nClick to install and migrate progress.
+betterquesting.tooltip.cycle.true=Click to disable
+betterquesting.tooltip.cycle.false=Click to enable
+
+betterquesting.notice.complete=Quest Complete
+betterquesting.notice.update=Quest Updated
+betterquesting.notice.unlock=Quest Unlocked
+
+betterquesting.msg.heart_disabled=Hardcore lives are not enabled. Use "/bq_admin hardcore" to toggle it
+betterquesting.msg.share_quest=§b[Quest: #%d - %s§b]
+betterquesting.msg.share_quest_invalid=§cCannot view Quest %s
+betterquesting.msg.share_quest_hover_text_success=§aClick to View Quest
+betterquesting.msg.share_quest_hover_text_failure=§cQuest is Currently Inaccessible
+
+key.betterquesting.quests=Open Quests
+key.betterquesting.party=Party Manager
+key.betterquesting.themes=Change Theme
+
+itemGroup.betterquesting=Better Questing
+
+fluid.betterquesting.placeholder=Placeholder
+
+item.betterquesting.placeholder.name=Item Placeholder
+item.betterquesting.extra_life.full.name=Extra Life
+item.betterquesting.extra_life.half.name=Half Heart
+item.betterquesting.extra_life.quarter.name=Quarter Heart
+item.betterquesting.guide.name=Better Questing Starter Guide
+
+tile.betterquesting.submit_station.name=Object Submission Station (OSS)
+tile.betterquesting.observation_station.name=Object Observation Station (OOS)
+
+betterquesting.btn.help1=Navigation
+betterquesting.btn.help2=OSS Block
+betterquesting.btn.help3=Making Quests
+betterquesting.btn.help4=Commands
+betterquesting.btn.help5=Importing
+betterquesting.btn.help6=Themes
+betterquesting.btn.help7=Localization
+betterquesting.btn.help8=Resources
+
+betterquesting.help.page1=§l§nGeneral Navigation%n§r%nBetter Questing's main questing GUIs do not rely on an item or block that could be easily lost but instead through a single keybinding which can be found and changed through the controls menu.%n%nIn the Quest Lines screen you can select any of your active lines from the list and drag around the box to navigate to the quest of your choosing to begin completing tasks.%n%nQuesting parties can be created or edited via the Party Management screens. Here you can also toggle options for sharing hardcore lives or quest rewards.%n%nIf you'd like to change the look of your questing UIs you can choose from the currently installed themes in the Theme selection screen.
+betterquesting.help.page2=§l§nSubmission Station%n§r%nAlthough many of the questing tasks can be submitted directly through your inventory (including liquids) sometimes you need a more automated solution. This is where the Object Submission Station (OSS) comes in handy. Tasks supporting the OSS can be selected through the built in interface to enable its use. Once setup, liquids and items can be either piped in or dropped into the interface's input slot however it will not void items or liquids if no task is selected or if it has already been completed making it relatively safe from accidental item/fluid deletion. Multiple OSS are also capable of taking on separate sub-tasks under the same quest simultaneously!
+betterquesting.help.page3=§l§nMaking Quests%n§r%nTo begin making quests and quest lines you will first have to enable edit mode by running the edit command (See commands for more info). You will then be able to add or remove quest lines however you do not require one to begin making quests. This is especially handy if you'd like to make secret quests that unlock other quests or quest lines.%n%nThere are several menus you will need to become familiar with while editing. These will be a little overwhelming at first compared to most other mods but over time it will get easier. Some advanced editing screens will edit raw questing data so you'd want to be very careful what you change as it could have adverse side effects however this should never result in corruption or a crash. If either occurs than you should immediately report it to a developer.
+betterquesting.help.page4=§l§nCommands%n§r%nThere are only a handful of commands you need to know when working with Better Questing. They are separated into user commands that anyone can run and admin commands which are restricted to server operators.%n%n§o/bq_user refresh%n§r%nManually resyncs the local questing database with the server in case of potential desync issues.%n%n§o/bq_user help%n§r%nGives the player a copy of this guide%n%n§o/bq_admin edit%n§r%nToggles quest editing mode on and off. When enabled, operators will be able to access the editing menus for quests and quest lines. Remember to disable this before publishing packs or quests.%n%n§o/bq_admin hardcore%n§r%nToggles on and off the use of hardcore lives. When all lives have been depleted, players will be banned from the server or have their world deleted as per standard vanilla hardcore.%n%n§o/bq_admin reset [all|<quest_id>] [username|uuid]%n§r%nErases quest completion data for the given user. Handy to use before publishing packs.%n%n§o/bq_admin default [save|load]%n§r%nSaves/loads the current quest database to/from the global default directory. Setting defaults means any newly created worlds will start with that particular set of quests. Saving will also preserve completion data, hardcore state and edit mode so be sure to use the various other command as necessary before running this one.%n%n§o/bq_admin complete <quest_id> [username|uuid]%n§r%nForce completes a quest for the given user%n%n§o/bq_admin delete [all|<quest_id>]%n§r%nDeletes given quest(s) and progression data however it does not delete new world defaults.%n%n§o/bq_admin lives [add|set|max|default] <value> [username]%n§r%nThese commands change the amount of lives players have or the starting and max values.
+betterquesting.help.page5=§l§nImporting%n§r%nSome expansion packs may include importers for other questing mods or allow pack makers to download online quest lines. To access these importers you can click on the 'Import' button in the main quest line editor. By default Better Questing does not have any importers so if you require a specific importer you'll need to either find an expansion with one or make it yourself.
+betterquesting.help.page6=§l§nThemes%n§r%nIf you're someone who prefers a certain color pallet in their UIs or are just a pack maker wanting to give it that more authentic look and feel then themes are your best friend. Themes can change the look of the questing UIs to suit whatever your needs may be whether it be futuristic, magical or just classic Minecraft. They can be installed either through resource packs, resource directory or via expansions packs.
+betterquesting.help.page7=§l§nLocalization%n§r%nBetter Questing supports full localization of quest names and descriptions so that if you wanted to release your pack to users of all nationalities now you now can! In order to begin localizing your quests you'll need to use unique keys such as "§omypack.quest1.name§r" instead of plain text. You can then create a resource pack containing only .lang files for all the language specific translations. These files can alternatively be stored in Better Questing's resource directory for better bundling in packs
+betterquesting.help.page8=§l§nResources%n§r%nIf you want to customise the home screen, bundle themes or add localization files then you can do so through: %n%n"§o/config/betterquesting/resources/<pack_name>/§r"%n%nAny folders here can be treated as unlisted resource packs containing everything required to personalize your pack.
+
+betterquesting.design.tree=Tree Design
+
+betterquesting.toolbox.tab.main=Main
+
+betterquesting.toolbox.tool.open.name=Open
+betterquesting.toolbox.tool.open.desc=Opens a quest for futher editing
+betterquesting.toolbox.tool.grab.name=Grab
+betterquesting.toolbox.tool.grab.desc=Picks up and moves quests elsewhere in the quest line
+betterquesting.toolbox.tool.link.name=Link
+betterquesting.toolbox.tool.link.desc=Sets a quest as prerequisites for others. If a link is already present then it is removed
+betterquesting.toolbox.tool.snap.name=Grid Snap
+betterquesting.toolbox.tool.snap.desc=Changes the grid snap resolution for various other tools
+betterquesting.toolbox.tool.copy.name=Copy
+betterquesting.toolbox.tool.copy.desc=Copies the given quest including prerequisites, tasks and rewards but not progression data
+betterquesting.toolbox.tool.new.name=New Quest
+betterquesting.toolbox.tool.new.desc=Creates a new empty quest
+betterquesting.toolbox.tool.delete.name=Delete Quest
+betterquesting.toolbox.tool.delete.desc=Deletes the given quest from the quest line and database
+betterquesting.toolbox.tool.remove.name=Remove Quest
+betterquesting.toolbox.tool.remove.desc=Removes the given quest only from the quest line. The quest will still be accessible through the database
+betterquesting.toolbox.tool.complete.name=Manual Complete
+betterquesting.toolbox.tool.complete.desc=Forcibly completes the selected quest
+betterquesting.toolbox.tool.reset.name=Reset Quest
+betterquesting.toolbox.tool.reset.desc=Resets completion status and all task progress
+betterquesting.toolbox.tool.icon.name=Select Icon
+betterquesting.toolbox.tool.icon.desc=Changes the quest's icon
+betterquesting.toolbox.tool.scale.name=Scale Icon
+betterquesting.toolbox.tool.scale.desc=Scales the quest icons up or down
+betterquesting.toolbox.tool.raw.name=Edit Raw
+betterquesting.toolbox.tool.raw.desc=Opens up the raw quest line JSON for editing. Includes additional hidden settings such as changing the background
+betterquesting.toolbox.tool.frame.name=Edit Icon Frame
+betterquesting.toolbox.tool.frame.desc=Changes the quest icons frame style
+
+betterquesting.cmd.check_all=All quests completed by %s:
+betterquesting.cmd.check_all.line=%d %s
+betterquesting.cmd.check.true=%s has completed %s
+betterquesting.cmd.check.false=%s has not completed %s
+betterquesting.cmd.complete=Completed quest %s for %s
+betterquesting.cmd.default.save=Quest database saved as default
+betterquesting.cmd.default.save2=Quest database saved to %s
+betterquesting.cmd.default.load=Reloaded default quest database
+betterquesting.cmd.default.load2=Loaded quest database from %s
+betterquesting.cmd.default.set=Set %s as the default quest database
+betterquesting.cmd.default.none=Quest database not found
+betterquesting.cmd.delete.single=Deleted quest %s
+betterquesting.cmd.delete.all=Deleted all quests
+betterquesting.cmd.edit=Edit mode %s
+betterquesting.cmd.view=View mode button %s
+betterquesting.cmd.hardcore=Hardcore mode %s
+betterquesting.cmd.purge_hidden=Deleted %s hidden quest(s)
+
+betterquesting.cmd.lives.add_player=Added %s lives to %s (Total: %s)
+betterquesting.cmd.lives.add_all=Added %s lives to all players
+betterquesting.cmd.lives.remove_player=Removed %s lives from %s (Total: %s)
+betterquesting.cmd.lives.remove_all=Removed %s lives from all players
+betterquesting.cmd.lives.set_player=Set %s's lives to %s
+betterquesting.cmd.lives.set_all=Set all player's lives to %s
+betterquesting.cmd.lives.max=Set max lives to %s
+betterquesting.cmd.lives.default=Set default lives to %s
+
+betterquesting.cmd.reset.player_single=Reset quest '%s' for %s
+betterquesting.cmd.reset.player_all=Reset all quests for %s
+betterquesting.cmd.reset.all_single=Reset quest '%s' for everyone
+betterquesting.cmd.reset.all_all=Reset all quests for everyone
+betterquesting.cmd.refresh=Refreshing local database...
+
+betterquesting.cmd.cleanup_questline.confirm=This is a dangerous operation. Please confirm you have made a backup before doing this. Type this command again to actually start cleanup.
+betterquesting.cmd.cleanup_questline.completed=Removed %d entries
+
+json.betterquesting.quest.name=Quest Data
+jdoc.betterquesting.quest.rewards.name=Rewards
+jdoc.betterquesting.quest.rewards.desc=List of configurable rewards types
+jdoc.betterquesting.quest.tasks.name=Tasks
+jdoc.betterquesting.quest.tasks.desc=List of configurable task types
+jdoc.betterquesting.quest.preRequisites.name=Pre-Requisites
+jdoc.betterquesting.quest.preRequisites.desc=List of parent quest IDs used to unlock this quest
+jdoc.betterquesting.quest.properties.name=Properties
+jdoc.betterquesting.quest.properties.desc=Properties defining the quest's appearance and functionality
+
+jdoc.betterquesting.quest.properties.betterquesting.name=BetterQuesting
+jdoc.betterquesting.quest.properties.betterquesting.desc=BetterQuesting properties
+
+betterquesting.notification.enabled=Quest Notifications: On
+betterquesting.notification.disabled=Quest Notifications: Off
+betterquesting.notification.tooltip=Toggle Quest Notifications

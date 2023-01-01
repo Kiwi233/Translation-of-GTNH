@@ -1,5 +1,6 @@
 item.fluid_drop.name=%s液滴
 item.fluid_encoded_pattern.name=编码样板
+item.part_fluid_terminal.name=ME流体终端
 item.part_fluid_pattern_terminal.name=ME流体样板终端
 item.part_fluid_pattern_terminal_ex.name=ME增广流体样板终端
 item.part_fluid_interface.name=ME二合一接口
@@ -28,7 +29,17 @@ tile.fluid_interface.name=ME二合一接口
 tile.ingredient_buffer.name=原材料缓存仓
 tile.large_ingredient_buffer.name=大型原材料缓存仓
 tile.oc_pattern_editor.name=OC样板编辑器
+tile.level_maintainer.name=ME Level Maintainer
+tile.fluid_buffer.name=ME Fluid Buffer
 
+ae2fc.waila.speed=Speed
+ae2fc.waila.enable=Enable
+ae2fc.waila.disable=Disable
+
+ae2fc.tooltip.request_size=Amount to Maintain
+ae2fc.tooltip.batch_size=Crafting Batch Size
+ae2fc.tooltip.cell_contents=包含流体: 
+ae2fc.tooltip.fluid_terminal=uh So we don't need EC2 anymore?
 ae2fc.tooltip.invalid_fluid=流体无效！
 ae2fc.tooltip.encode_pattern=编写样板
 ae2fc.tooltip.fluid_packet=使用ME流体封包解码器\n来将其转换回流体形式。
@@ -44,6 +55,9 @@ ae2fc.tooltip.not_prio=优先发送流体
 ae2fc.tooltip.not_prio.hint=启用
 ae2fc.tooltip.prio=优先发送流体
 ae2fc.tooltip.prio.hint=禁用
+ae2fc.tooltip.submit=Submit
+ae2fc.tooltip.enable=Enabled
+ae2fc.tooltip.disable=Disabled
 
 ae2fc.gui.part_fluid_pattern_terminal=ME流体样板终端
 ae2fc.gui.part_fluid_pattern_terminal_ex=ME增广流体样板终端
@@ -52,6 +66,7 @@ ae2fc.gui.fluid_packet_decoder=ME流体封包解码器
 ae2fc.gui.ingredient_buffer=原材料缓存仓
 ae2fc.gui.large_ingredient_buffer=大型原材料缓存仓
 ae2fc.gui.fluid_interface=ME二合一接口
+ae2fc.gui.level_maintainer=ME Level Maintainer
 ae2fc.gui.fluid_interface.0=下
 ae2fc.gui.fluid_interface.1=上
 ae2fc.gui.fluid_interface.2=北
@@ -62,4 +77,8 @@ ae2fc.gui.oc_pattern_editor=OC样板编辑器
 ae2fc.gui.button.set=设置
 ae2fc.gui.part_fluid_import=ME流体输入总线
 ae2fc.gui.part_fluid_export=ME流体输出总线
+ae2fc.gui.part_fluid_terminal=Fluid Terminal
+
+error.unknown=Unknown
+
 itemGroup.ae2fc=AE2流体合成套件

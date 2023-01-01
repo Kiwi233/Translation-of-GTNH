@@ -9,13 +9,17 @@ import mods.gregtech.Assembler;
 import mods.gregtech.FormingPress;
 
 
+// --- I18N ---
+val I18N_ZZ_Client_Only_0 = "\u5730\u72f1\u76ae\u6811\u76d2\u5b50";
+
+
 val BlankCast = <TConstruct:blankPattern:1>;
 val WireCutter = <ore:craftingToolWireCutter>;
 val File = <ore:craftingToolFile>;
 
 // --- Display Names ---
 
-<BiblioWoodsBoP:BiblioWoodcase:4>.displayName = "\u5730\u72f1\u76ae\u6811\u76d2\u5b50";
+<BiblioWoodsBoP:BiblioWoodcase:4>.displayName = I18N_ZZ_Client_Only_0;
 
 
 
