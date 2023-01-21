@@ -12,10 +12,11 @@ mobhandler.mod=Mod:
 mobhandler.max_health=最大生命值：
 mobhandler.boss=BOSS
 mobhandler.cannot_use_vial=无法收入灵魂瓶
-mobhandler.chance=几率：
+mobhandler.chance=几率：%.2f%%
 mobhandler.average_reminder=§7§o请注意，这些是掉落的平均期望值.
 mobhandler.lootable=掠夺附魔已生效
-mobhandler.player_only=§7不在工业屠宰场内掉落
+mobhandler.player_only=§7仅限非伪玩家击杀时掉落
+mobhandler.eec_chance=§5在工业屠宰场内掉落的几率: %.2f%%
 
 #Commands
 commandhandler.invalid=§c无效使用 ! 该指令的正确使用是 /%s
@@ -27,6 +28,17 @@ command.help.usage=- 显示所有可能的指令
 command.config.invalid_option=§c无效选项 ! 可能的选项：reload
 command.config.success=§a配置(Config)重新加载成功 !
 command.config.usage=<选项>
+
+command.tea.invalid_option=§c非法操作 !
+command.tea.player_not_found=§c未找到玩家 !
+command.tea.success_get=玩家 %s 有%d杯茶
+command.tea.success_set=玩家 %s 现在有%d杯茶
+command.tea.success_add=玩家 %s 现在有%d杯茶
+command.tea.usage=<用户名> get/set/add (<数量>)
+
+
+#Blocks
+kubablock.tea_acceptor.name=§4§l茶接收器
 
 #Items
 kubaitem.fromcollection=此物品来自
@@ -74,6 +86,8 @@ kubaitem.teacollection.white_tea.name=§e§lKuba白茶
 kubaitem.teacollection.yellow_tea.name=§6§lKuba黄茶
 kubaitem.teacollection.ultimate_tea.name=§6§lKuba%s §6§l茶
 
+kubaitem.tea_acceptor_research_note.name=茶接收器研究笔记
+
 #Achievements
 achievement.teacollection.black_tea=§6§lKuba红茶
 achievement.teacollection.butterfly_tea=§1§lKuba蝶豆花茶
@@ -102,3 +116,8 @@ achievement.teacollection.red_tea.desc=§c为什么会有人喝这个？
 achievement.teacollection.white_tea.desc=§e最健康的一款
 achievement.teacollection.yellow_tea.desc=§6青草味更浓的绿茶
 achievement.teacollection.ultimate_tea.desc=§4§l一茶饮尽
+
+#Thaumcraft
+tc.research_name.KT_UltimateTea=%s §6§l茶
+tc.research_text.KT_UltimateTea=§4§l纯粹的能源
+KT.research.ultimatetea=你找到一种方法,将这些茶转化为纯粹的能源并获得%s§6§l茶

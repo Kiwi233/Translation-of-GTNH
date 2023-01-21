@@ -1,1 +1,15 @@
 generator.RWG=真实世界生成-Alpha
+rwg.buginfo.line1=与GTNH 2.2.0.0一起发布的RWG版本中的一个bug导致世界的生成与以前的版本不同。
+rwg.buginfo.line2=这个bug后来被修复了，将世界生成恢复到2.2.0.0之前的风格。
+rwg.buginfo.line3=不幸的是，无法自动检测世界被创建时使用的是什么版本。
+rwg.buginfo.line4=为了让两个版本的玩家都能继续在他们的世界里游戏，而不制造新的丑陋的区块边界，
+rwg.buginfo.line5=该版本的RWG两种世界生成风格都支持，但要求你在升级世界时选择使用哪一种。
+rwg.buginfo.perlin=除了2.2.0.0之外所有版本使用的RWG版本
+rwg.buginfo.opensimplex=2.2.0.0使用的RWG版本
+
+rwg.noise.current_type=当前噪声类型为 %s
+rwg.noise.unchanged=噪声类型未改变。
+rwg.noise.was_set_to.unknown=噪声类型被设定为未知，将使用默认的Perlin噪声。
+rwg.noise.was_set_to.generic=噪声类型被设定为%s
+rwg.noise.instant_new_chunks=所有新区块将立即以选定的算法生成。
+rwg.noise.needs_restart=必须重新加载世界（服务器重启或单人重新登录）才能使变化生效。

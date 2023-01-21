@@ -111,6 +111,7 @@ gui.appliedenergistics2.LightTunnel=光
 gui.appliedenergistics2.OCTunnel=OC
 gui.appliedenergistics2.PressureTunnel=气压
 gui.appliedenergistics2.GTTunnel=GT EU
+gui.appliedenergistics2.IFACETunnel=ME接口
 
 gui.appliedenergistics2.security.extract.name=取出
 gui.appliedenergistics2.security.inject.name=存入
@@ -186,7 +187,8 @@ gui.appliedenergistics2.Crafts=合成
 gui.appliedenergistics2.And=与
 gui.appliedenergistics2.Creates=制作
 gui.appliedenergistics2.With=使用
-gui.appliedenergistics2.Substitute=启用替换:
+gui.appliedenergistics2.Substitute=使用替换:
+gui.appliedenergistics2.BeSubstitute=可作为替换:
 gui.appliedenergistics2.Yes=是
 gui.appliedenergistics2.No=否
 gui.appliedenergistics2.InWorldCrafting=AE2在世界中的合成
@@ -265,8 +267,11 @@ gui.color.appliedenergistics2.InterfaceTerminalMatch=2A00FF00
 gui.tooltips.appliedenergistics2.Stash=存储物品
 gui.tooltips.appliedenergistics2.StashDesc=将合成槽的物品返回网络
 gui.tooltips.appliedenergistics2.Substitutions=矿物辞典替换
-gui.tooltips.appliedenergistics2.SubstitutionsDescEnabled=启用输入组件替换功能.
-gui.tooltips.appliedenergistics2.SubstitutionsDescDisabled=禁用输入组件替换功能.
+gui.tooltips.appliedenergistics2.SubstitutionsDescEnabled=启用输入物品替换功能.
+gui.tooltips.appliedenergistics2.SubstitutionsDescDisabled=禁用输入物品替换功能.
+gui.tooltips.appliedenergistics2.BeSubstitutions=用作替换
+gui.tooltips.appliedenergistics2.BeSubstitutionsDescEnabled=可用作其他配方输入物品的替代
+gui.tooltips.appliedenergistics2.BeSubstitutionsDescDisabled=不可用作其他配方输入物品的替代.如果某种原材料所有替换品样板均禁用了此项,合成模拟会将其视为可用作替换品.
 
 gui.tooltips.appliedenergistics2.PatternSlotConfigTitle=切换终端模式
 gui.tooltips.appliedenergistics2.PatternSlotConfigInfo=在(16 -> 4)和(4 -> 16)之间切换样板模式
@@ -398,6 +403,11 @@ gui.tooltips.appliedenergistics2.InsertionModePreferEmpty=优先向空槽输出
 gui.tooltips.appliedenergistics2.InsertionModePreferEmptyDesc=类似默认模式,但优先向空槽输出
 gui.tooltips.appliedenergistics2.InsertionModeOnlyEmpty=只向空槽输出
 gui.tooltips.appliedenergistics2.InsertionModeOnlyEmptyDesc=从前到后,不堆叠
+
+gui.tooltips.appliedenergistics2.SidelessModeSided=侧面模式
+gui.tooltips.appliedenergistics2.SidelessModeSidedDesc=每种流体只能从一个特定面接入
+gui.tooltips.appliedenergistics2.SidelessModeSideless=禁用侧面模式
+gui.tooltips.appliedenergistics2.SidelessModeSidelessDesc=所有流体可以从任意侧面接入
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
@@ -539,7 +549,7 @@ item.appliedenergistics2.ItemPart.CableSmart.name=ME智能线缆
 item.appliedenergistics2.ItemPart.CableDense.name=ME致密智能线缆
 item.appliedenergistics2.ItemPart.CableDenseCovered.name=ME致密包层线缆
 item.appliedenergistics2.ItemPart.CableUltraDenseCovered.name=ME超密包层线缆
-item.appliedenergistics2.ItemPart.CableUltraDenseSmart.name=ME超密致密线缆
+item.appliedenergistics2.ItemPart.CableUltraDenseSmart.name=ME超密智能线缆
 item.appliedenergistics2.ItemPart.StorageMonitor.name=ME存储监控器
 item.appliedenergistics2.ItemPart.ConversionMonitor.name=ME交换监控器
 item.appliedenergistics2.ItemPart.SemiDarkMonitor.name=照明面板
