@@ -1,0 +1,16 @@
+ggfab.info.advassline.0=进阶装配线帮助
+ggfab.info.advassline.1=这是由 §6GigaGram§rFab 添加的进阶装配线.
+ggfab.info.advassline.2=本装配线支持流水线式操作物品,也就是说,它会像真正的流水线一样,一个一个消耗物品而非一次性全部消耗.这样它就可以对任意数量的物品输入配方提供并行.
+ggfab.info.advassline.3=你可以认为一条进阶装配线是由数个装配片组成的,每个装配片都可以独立于其它片处理每一步.
+ggfab.info.advassline.4=当输入总线内物品与任意闪存吻合时,装配线将开始工作.第一片将会消耗输入总线#1内的物品.经过(配方时间/输入物品种类数)时间后,第一片的工作完成,第二片开始工作.与此同时,第一片将会在输入总线#1内寻找材料.如果材料足够,则第一片将再次工作.
+ggfab.info.advassline.5=当所有工作完成时,终端片(第n片,n为配方要求输入物品种类数)将会在输出总线处输出产品,非终端片在工作完成后,将自动尝试让下一片工作,如果下一片的输入总线中没有足够的材料,完成工作的片将会保持§4堵塞§r状态,并使装配线进入"挂起"状态.处于"挂起"状态的装配线,其控制器的正面指示灯将会变为橙色.
+ggfab.info.advassline.6=启用的片数乘以原配方所需EU/t即机器所消耗的EU/t.§4堵塞§r片不会消耗能量,最低等级能源仓的输入电压,决定了配方等级和常规超频上限
+ggfab.info.advassline.7=安装激光仓,可在常规超频基础上,再进行§2激光超频§r,但会消耗比常规有损超频更多的能量.每§2激光超频§r一次,都会增加%s的能量损耗.
+ggfab.info.advassline.8=一次§2激光超频§r使配方时间减少到50%%,使用%s%%的能量.两次§2激光超频§r使配方时间减少到25%%,使用%s%%(%s * %s)的能量.无法超频到1tick以下.机器会首先尝试并行,然后尝试常规有损超频,最后尝试§2激光超频§r.
+ggfab.waila.advassline.slice=片#%s: %s s / %s s
+ggfab.waila.advassline.slice.small=片#%s: %s t / %s t
+ggfab.waila.advassline.slice.idle=片#%s: 待机
+ggfab.waila.advassline.slice.stuck=片#%s: §4堵塞
+ggfab.info.advassline.slice=片详情
+
+ggfab.info.biome=生物群系：

@@ -10,6 +10,8 @@ import mods.ic2.Compressor;
 import mods.gregtech.Pulverizer;
 
 
+// --- I18N ---
+val I18N_Thaumcraft_03_Alchemy_0 = "\u6728\u70ad\u7c89\u548c\u8910\u7164\u7c89\u4e5f\u53ef\u7528\u4e8e\u5408\u6210\u002c\u53ea\u662f\u004d\u0054\u53ea\u80fd\u663e\u793a\u4e00\u79cd\u5408\u6210\u8868\u002e";
 
 // --- Variables ---
 
@@ -165,7 +167,7 @@ mods.thaumcraft.Research.setAspects("ALUMENTUM", "ignis 3, praecantatio 3, perdi
 mods.thaumcraft.Research.setComplexity("ALUMENTUM", 1);
 // -
 mods.thaumcraft.Research.addPage("ALUMENTUM", "tc.research_page.ALUMENTUM.2");
-game.setLocalization("tc.research_page.ALUMENTUM.2", "\u6728\u70ad\u7c89\u548c\u8910\u7164\u7c89\u4e5f\u53ef\u7528\u4e8e\u5408\u6210\u002c\u53ea\u662f\u004d\u0054\u53ea\u80fd\u663e\u793a\u4e00\u79cd\u5408\u6210\u8868\u002e");
+game.setLocalization("tc.research_page.ALUMENTUM.2", I18N_Thaumcraft_03_Alchemy_0);
 
 // --- Alchemical Duplication
 mods.thaumcraft.Research.setAspects("ALCHEMICALDUPLICATION", "fabrico 9, praecantatio 6, lucrum 9, permutatio 3");

@@ -110,17 +110,18 @@ item.kekztech_crafting_item.14.name=钇锆陶瓷板
 item.kekztech_crafting_item.15.name=钆铈陶瓷板
 
 # -------- TFFT: Structure Blocks
-tile.kekztech_tfftcasingblock_block.name=T.F.F.T机械方块
-tile.kekztech_tfftstoragefieldblock1_block.name=T.F.F.T存储库方块(T1)
-tile.kekztech_tfftstoragefieldblock1_block.0.desc=这不是流体储罐
-tile.kekztech_tfftstoragefieldblock2_block.name=T.F.F.T存储库方块(T2)
-tile.kekztech_tfftstoragefieldblock3_block.name=T.F.F.T存储库方块(T3)
-tile.kekztech_tfftstoragefieldblock4_block.name=T.F.F.T存储库方块(T4)
-tile.kekztech_tfftstoragefieldblock5_block.name=T.F.F.T存储库方块(T5)
-tile.kekztech_tfftmultihatch_block.0.name=[已弃用]T.F.F.T输入/输出仓(Tier I)
-tile.kekztech_tfftmultihatch_block.1.name=[已弃用]T.F.F.T输入/输出仓(Tier II)
-tile.kekztech_tfftmultihatch_block.2.name=[已弃用]T.F.F.T输入/输出仓(Tier III)
-tile.kekztech_tfftmultihatch_block.0.desc=放入合成栏以升级
+tile.kekztech_tfftstoragefield_block.0.name=T.F.F.T机械方块
+tile.kekztech_tfftstoragefield_block.1.name=T.F.F.T 存储库方块 (T1)
+tile.kekztech_tfftstoragefield_block.2.name=T.F.F.T 存储库方块 (T2)
+tile.kekztech_tfftstoragefield_block.3.name=T.F.F.T 存储库方块 (T3)
+tile.kekztech_tfftstoragefield_block.4.name=T.F.F.T 存储库方块 (T4)
+tile.kekztech_tfftstoragefield_block.5.name=T.F.F.T 存储库方块 (T5)
+tile.kekztech_tfftstoragefield_block.6.name=T.F.F.T 存储库方块 (T6)
+tile.kekztech_tfftstoragefield_block.7.name=T.F.F.T 存储库方块 (T7)
+tile.kekztech_tfftstoragefield_block.8.name=T.F.F.T 存储库方块 (T8)
+tile.kekztech_tfftstoragefield_block.9.name=T.F.F.T 存储库方块 (T9)
+tile.kekztech_tfftstoragefield_block.10.name=T.F.F.T 存储库方块 (T10)
+tile.kekztech_tfftstoragefield_block.desc=这不是流体储罐
 
 # -------- Item Proxy: Structure Blocks
 tile.kekztech_itemproxycable_block.name=物流网络线缆

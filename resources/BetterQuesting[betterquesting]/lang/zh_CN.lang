@@ -91,10 +91,10 @@ betterquesting.tooltip.incomplete=未达成
 betterquesting.tooltip.rewards_pending=未领取奖励
 betterquesting.tooltip.repeatable=可重复
 betterquesting.tooltip.requires=前置任务:
-betterquesting.tooltip.shift_advanced=按住shift显示信息
+betterquesting.tooltip.shift_advanced=按住shift显示进阶信息
 betterquesting.tooltip.reset_time=重置冷却: %s
 betterquesting.tooltip.main_quest=主要任务: %s
-betterquesting.tooltip.global_quest=全球任务: %s
+betterquesting.tooltip.global_quest=全局任务: %s
 betterquesting.tooltip.global_share=全球共享: %s
 betterquesting.tooltip.task_logic=解锁类型: %s
 betterquesting.tooltip.quest_logic=任务逻辑: %s
@@ -110,13 +110,13 @@ betterquesting.notice.complete=任务完成
 betterquesting.notice.update=任务更新
 betterquesting.notice.unlock=任务解锁
 
-betterquesting.msg.heart_disabled=极限模式未启用，使用 "/bq_admin hardcore" 来启用它。
+betterquesting.msg.heart_disabled=极限模式未启用.使用 "/bq_admin hardcore" 来启用它
 
 key.betterquesting.quests=打开任务书
 key.betterquesting.party=队长
 key.betterquesting.themes=改变主题
 
-itemGroup.betterquesting=冒险任务定制
+itemGroup.betterquesting=更好的任务
 
 fluid.betterquesting.placeholder=占位符
 
@@ -166,7 +166,7 @@ betterquesting.toolbox.tool.new.desc=新建一个新的任务
 betterquesting.toolbox.tool.delete.name=完全删除
 betterquesting.toolbox.tool.delete.desc=完全删除一个任务
 betterquesting.toolbox.tool.remove.name=图标删除
-betterquesting.toolbox.tool.remove.desc=仅删除这个任务在任务网状图中，不会从数据文件中删除
+betterquesting.toolbox.tool.remove.desc=仅在任务网状图中删除这个任务，不会从数据文件中删除
 betterquesting.toolbox.tool.complete.name=直接完成
 betterquesting.toolbox.tool.complete.desc=直接完成一个任务
 betterquesting.toolbox.tool.reset.name=重置任务

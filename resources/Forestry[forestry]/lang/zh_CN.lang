@@ -172,6 +172,7 @@ for.gui.inactive=隐性
 for.gui.life=生命
 for.gui.lifespan=寿命
 for.gui.normal=一般
+for.gui.jubilance=愉悦度:%s
 
 for.gui.escritoire.probe=检测样本
 for.gui.escritoire.instructions=将基因样本放在中央以开始。在左侧格子中放入更多样本，检测它们以寻求帮助。 
@@ -355,7 +356,7 @@ for.hints.beebreeding.desc=不同种群的雄蜂和公主蜂交配可能产生�
 for.hints.beebreeding.tag=饲养你的蜜蜂！
 for.hints.beeflowers.desc=蜜蜂所在，鲜花飘香，有的罕见，有的寻常。
 for.hints.beeflowers.tag=蜜蜂需要鲜花
-for.hints.beejubilance.desc=蜜蜂只有在愉快的气氛下才能辛勤工作，确保他们生活在适宜的温度下。
+for.hints.beejubilance.desc=蜜蜂只有在愉快的气氛下才能辛勤工作，确保通过蜜蜂扫描来了解如何能让它们保持愉悦。
 for.hints.beejubilance.tag=取悦蜜蜂！
 for.hints.cooldownloss.desc=机器进入强制冷却会导致缓存的能量流失和损耗掉。
 for.hints.cooldownloss.tag=强制冷却能量会损耗
@@ -758,6 +759,14 @@ neiintegration.chance.lessThan1=<1%
 neiintegration.handler.forestry.shaped=林业有序
 neiintegration.handler.forestry.shapeless=林业无序
 neiintegration.handler.forestry.fabricator.worth=可熔出：
+
+################
+# JUBILANCE
+################
+
+for.jubilance.climate=需要更适宜的气候
+for.jubilance.hermit=周围有生物时不会产出
+for.jubilance.resource=需要%s作为基石
 
 ################
 # ERRORS
