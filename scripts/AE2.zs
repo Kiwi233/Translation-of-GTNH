@@ -16,6 +16,9 @@ import mods.gregtech.Wiremill;
 import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
 
+// --- I18N ---
+val I18N_AE2_0 = "\u004d\u0045\u5b58\u50a8\u5916\u58f3";
+
 // --- Variables ---
 
 
@@ -1540,4 +1543,4 @@ Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.me
 
 // --- Renaming Stuff ---
 
-NEI.overrideName(UStorageHousing, "\u004d\u0045\u5b58\u50a8\u5916\u58f3");
+NEI.overrideName(UStorageHousing, I18N_AE2_0);

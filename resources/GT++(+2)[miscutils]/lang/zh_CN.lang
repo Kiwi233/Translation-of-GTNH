@@ -46,6 +46,10 @@ item.itemStaballoyPickaxe.name=隧道挖掘者
 item.itemStaballoyAxe.name=树林砍伐者
 item.itemSandstoneHammer.name=圆石粉碎者
 
+# Tooltips
+GTPP.machines.chisel_slot.tooltip=在此处放置雕刻目标方块
+GTPP.machines.chisel_slot.tooltip.1=$7放入已雕刻方块以指定输出
+
 //Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=烈焰之炽焱桶
 item.MiscUtils.bucket.bucketCryotheum.name=极寒之凛冰桶
@@ -97,9 +101,6 @@ item.itemPLACEHOLDER_Circuit.name=夸克操纵者(UV)
 item.itemPlateEnrichedSoularium.name=富集阳光合金板
 item.itemHeliumBlob.name=神秘氢气物质
 item.itemAlkalusDisk.name=Alkalus圆盘
-# The following 2 keys have been deprecated and overwritten
-# item.itemHotIngotRaisinBread.name=Hot Loaf of Raisin Bread
-# item.itemIngotRaisinBread.name=§5ImQ009's §fRaisin Bread
 
 //Misc Blocks
 tile.blockCompressedObsidian.0.name=压缩黑曜石(9)
@@ -135,13 +136,10 @@ item.Ammonium.name=铵单元
 item.AmmoniumTetrafluoroberyllate.name=氟铍酸铵单元
 
 //Resources
-item.itemStickyRubber.name=粘性橡胶团
 item.itemCoalCoke.name=焦煤
 item.itemHydrogenBlob.name=神秘氢气团
-item.itemHeliumBlob.name=神秘氢气物质
 
 //Normal Items
-item.itemAlkalusDisk.name=Alkalus圆盘
 item.itemSimpleFiremaker.name=基础起火器
 item.itemFiber.name=植物纤维
 item.itemRope.name=绳索
@@ -1735,9 +1733,6 @@ item.rfEUBattery.name=通用充电电池
 item.personalCloakingDevice.name=§9§9个人隐形装置§7
 item.personalHealingDevice.name=§9§9个人纳米治疗加速器§r
 item.SlowBuildingRing.name=§e§e缓建指环§7
-item.itemStaballoyPickaxe.name=隧道挖掘者
-item.itemStaballoyAxe.name=树林砍伐者
-item.itemSandstoneHammer.name=圆石粉碎者
 item.itemBufferCore1.name=能量核心 [ULV]
 item.itemBufferCore2.name=能量核心 [LV]
 item.itemBufferCore3.name=能量核心 [MV]
@@ -1748,7 +1743,6 @@ item.itemBufferCore7.name=能量核心 [LuV]
 item.itemBufferCore8.name=能量核心 [ZPM]
 item.itemBufferCore9.name=能量核心 [UV]
 item.itemBufferCore10.name=能量核心 [MAX]
-item.itemPLACEHOLDER_Circuit.name=夸克操纵者(UV)
 item.itembookgt.name=§o§o热力锅炉手册
 
 // Everglade Items
@@ -1946,7 +1940,6 @@ tile.blockBlackGate.name=凋灵笼子
 tile.blockTankXpConverter.name=经验转换器
 
 //Everglades Blocks
-tile.fluidSludge.0.name=不流动的废水
 tile.blockDarkWorldPortal.name=未来的掠影
 tile.blockDarkWorldGround.name=不稳定的土壤
 tile.blockDarkWorldGround2.name=污染的土壤
@@ -1959,10 +1952,6 @@ tile.Block of Plutonium-239.name=钚-239块
 tile.Fluorite Ore [Old].name=氟石矿[不可用的]
 tile.blockMiningPipeFake.name=强化钢筋挖掘管道
 tile.blockMiningHeadFake.name=基岩钻头
-# The following 3 keys have been deprecated and overwritten
-# item.itemCellLiFBeF2ThF4UF4.name=Cell of Molten Salt [LiFBeF2ThF4UF4]
-# item.itemCellLiFBeF2ZrF4UF4.name=Cell of Molten Salt [LiFBeF2ZrF4UF4]
-# item.itemCellLiFBeF2ZrF4U235.name=Cell of Molten Salt [LiFBeF2ZrF4U235]
 item.itemPlateMeatRaw.name=生肉板
 tile.Block of MeatRaw.name=生肉块
 
@@ -2027,7 +2016,6 @@ description.villager.profession.miscutils.aboriginal=澳大利亚土著
 item.itemHatTinFoil.name=锡薄帽
 
 //Added 13/9/18
-entity.WiseVillager.name=聪明的村民
 entity.Aboriginal.name=澳大利亚土著
 entity.miscutils.constructStaballoy.name=贫铀合金结构
 entity.miscutils.sickBlaze.name=被感染的狂热者
@@ -2102,25 +2090,25 @@ item.itemDustPerroudite.name=溴硫银汞粉
 item.itemDustTinyPerroudite.name=小撮溴硫银汞粉
 item.itemDustSmallPerroudite.name=小堆溴硫银汞粉
 
-tile.OreDemicheleite.name=重闪石矿石
-item.crushedDemicheleite.name=粉碎重闪石矿石
-item.crushedCentrifugedDemicheleite.name=离心粉碎重闪石矿石
-item.crushedPurifiedDemicheleite.name=纯净粉碎重闪石矿石
-item.dustImpureDemicheleite.name=含杂重闪石粉
-item.dustPureDemicheleite.name=纯净重闪石粉
-item.itemDustDemicheleite.name=重闪石粉
-item.itemDustTinyDemicheleite.name=小撮重闪石粉
-item.itemDustSmallDemicheleite.name=小堆重闪石粉
+tile.OreDemicheleite.name=溴硫铋矿石
+item.crushedDemicheleite.name=粉碎溴硫铋矿石
+item.crushedCentrifugedDemicheleite.name=离心粉碎溴硫铋矿石
+item.crushedPurifiedDemicheleite.name=纯净粉碎溴硫铋矿石
+item.dustImpureDemicheleite.name=含杂溴硫铋矿粉
+item.dustPureDemicheleite.name=纯净溴硫铋矿粉
+item.itemDustDemicheleite.name=溴硫铋矿粉
+item.itemDustTinyDemicheleite.name=小撮溴硫铋矿粉
+item.itemDustSmallDemicheleite.name=小堆溴硫铋矿粉
 
-tile.OreAlburnite.name=铝尖晶石矿石
-item.crushedAlburnite.name=粉碎铝尖晶石矿石
-item.crushedCentrifugedAlburnite.name=离心粉碎铝尖晶石矿石
-item.crushedPurifiedAlburnite.name=纯净粉碎铝尖晶石矿石
-item.dustImpureAlburnite.name=含杂铝尖晶石粉
-item.dustPureAlburnite.name=纯净铝尖晶石粉
-item.itemDustAlburnite.name=铝尖晶石粉
-item.itemDustTinyAlburnite.name=小撮铝尖晶石粉
-item.itemDustSmallAlburnite.name=小堆铝尖晶石粉
+tile.OreAlburnite.name=硫碲金锗矿石
+item.crushedAlburnite.name=粉碎硫碲金锗矿石
+item.crushedCentrifugedAlburnite.name=离心粉碎硫碲金锗矿石
+item.crushedPurifiedAlburnite.name=纯净粉碎硫碲金锗矿石
+item.dustImpureAlburnite.name=含杂硫碲金锗矿粉
+item.dustPureAlburnite.name=纯净硫碲金锗矿粉
+item.itemDustAlburnite.name=硫碲金锗矿粉
+item.itemDustTinyAlburnite.name=小撮硫碲金锗矿粉
+item.itemDustSmallAlburnite.name=小堆硫碲金锗矿粉
 
 tile.OreLautarite.name=碘钙石矿石
 item.crushedLautarite.name=粉碎碘钙石矿石
@@ -2162,15 +2150,15 @@ item.itemDustLafossaite.name=铊盐粉
 item.itemDustTinyLafossaite.name=小撮铊盐粉
 item.itemDustSmallLafossaite.name=小堆铊盐粉
 
-tile.OreKashinite.name=硫铑钛铜矿石
-item.crushedKashinite.name=粉碎硫铑钛铜矿石
-item.crushedCentrifugedKashinite.name=离心粉碎硫铑钛铜矿石
-item.crushedPurifiedKashinite.name=纯净粉碎硫铑钛铜矿石
-item.dustImpureKashinite.name=含杂硫铑钛铜粉
-item.dustPureKashinite.name=纯净硫铑钛铜粉
-item.itemDustKashinite.name=硫铑钛铜粉
-item.itemDustTinyKashinite.name=小撮硫铑钛铜粉
-item.itemDustSmallKashinite.name=小堆硫铑钛铜粉
+tile.OreKashinite.name=硫铑铱矿矿石
+item.crushedKashinite.name=粉碎硫铑铱矿矿石
+item.crushedCentrifugedKashinite.name=离心粉碎硫铑铱矿矿石
+item.crushedPurifiedKashinite.name=纯净粉碎硫铑铱矿矿石
+item.dustImpureKashinite.name=含杂硫铑铱矿粉
+item.dustPureKashinite.name=纯净硫铑铱矿粉
+item.itemDustKashinite.name=硫铑铱矿粉
+item.itemDustTinyKashinite.name=小撮硫铑铱矿粉
+item.itemDustSmallKashinite.name=小堆硫铑铱矿粉
 
 tile.OreRadioactiveMineralMix.name=奇异矿石
 item.crushedRadioactiveMineralMix.name=粉碎奇异矿石
@@ -2182,13 +2170,13 @@ item.itemDustRadioactiveMineralMix.name=奇异粉
 item.itemDustTinyRadioactiveMineralMix.name=小撮奇异粉
 item.itemDustSmallRadioactiveMineralMix.name=小堆奇异粉
 
-tile.OreDemicheleiteBr.name=重闪石(Br)矿石
-item.crushedDemicheleiteBr.name=粉碎重闪石(Br)矿石
-item.crushedCentrifugedDemicheleiteBr.name=离心粉碎重闪石(Br)矿石
-item.crushedPurifiedDemicheleiteBr.name=纯净粉碎重闪石(Br)矿石
-item.dustImpureDemicheleiteBr.name=含杂重闪石(Br)粉
-item.dustPureDemicheleiteBr.name=纯净重闪石(Br)粉
-item.itemDustDemicheleiteBr.name=重闪石(Br)粉
+tile.OreDemicheleiteBr.name=溴硫铋矿(Br)矿石
+item.crushedDemicheleiteBr.name=粉碎溴硫铋矿(Br)矿石
+item.crushedCentrifugedDemicheleiteBr.name=离心粉碎溴硫铋矿(Br)矿石
+item.crushedPurifiedDemicheleiteBr.name=纯净粉碎溴硫铋矿(Br)矿石
+item.dustImpureDemicheleiteBr.name=含杂溴硫铋矿(Br)粉
+item.dustPureDemicheleiteBr.name=纯净溴硫铋矿(Br)粉
+item.itemDustDemicheleiteBr.name=溴硫铋矿(Br)粉
 
 
 //Materials
@@ -2480,9 +2468,6 @@ tile.Lafium Compound Frame Box.name=路菲恩化合物框架
 
 item.itemIngotKoboldite.name=妖金锭
 item.itemHotIngotKoboldite.name=热妖金锭
-item.itemDustKoboldite.name=妖金粉
-item.itemDustTinyKoboldite.name=小撮妖金粉
-item.itemDustSmallKoboldite.name=小堆妖金粉
 item.itemNuggetKoboldite.name=妖金粒
 item.itemPlateKoboldite.name=妖金板
 item.itemPlateDoubleKoboldite.name=双重妖金板
@@ -2535,8 +2520,8 @@ tile.Abyssal Alloy Frame Box.name=深渊合金框架
 
 
 //Radioactive
-item.dustTechnetium99M.name=锝99M粉
-item.dustTechnetium99.name=锝99粉
+item.dustTechnetium99M.name=锝-99M粉
+item.dustTechnetium99.name=锝-99粉
 item.dustMolybdenum99.name=钼99粉
 
 //Bags
@@ -2729,8 +2714,8 @@ item.gtpp.debug.scanner.name=GT++Debug扫描器
 item.RawWaste.name=动物粪便单元
 item.ManureSlurry.name=粪浆单元
 item.FertileManureSlurry.name=肥沃的粪浆单元
-item.itemDustTinyDemicheleiteBr.name=小撮重闪石(Br)
-item.itemDustSmallDemicheleiteBr.name=小堆重闪石(Br)
+item.itemDustTinyDemicheleiteBr.name=小撮溴硫铋矿(Br)
+item.itemDustSmallDemicheleiteBr.name=小堆溴硫铋矿(Br)
 tile.blockPooCollector.name=农业下水道
 tile.Block of Lithium 7.name=锂7块
 
@@ -2740,7 +2725,7 @@ item.aniline.name=苯胺单元
 item.cadaverine.name=尸胺单元
 item.polyurethane.name=聚氨酯单元
 item.putrescine.name=腐胺单元
-item.cyclohexane.name=环己胺单元
+item.cyclohexane.name=环己烷单元
 item.cyclohexanone.name=环己酮单元
 item.nitrobenzene.name=硝基苯单元
 item.ender.name=液体末影单元
@@ -3248,7 +3233,7 @@ interaction.voidexcess.enabled=禁用溢出停机
 interaction.voidexcess.disabled=启用溢出停机
 
 interaction.separateBusses.enabled=独立输入总线
-interaction.separateBusses.disabled=联合输入总线
+interaction.separateBusses.disabled=非独立输入总线
 
 //Added 29/11/21
 
@@ -3392,3 +3377,20 @@ item.BasicGenericChemItem.14.name=固体酸催化剂
 
 //Added 30/05/22
 item.BasicGenericChemItem.15.name=无尽突变催化剂
+
+//Added 23/10/22
+miscutils.machines.QFTFluidMode=量子操纵者流体输出模式
+
+//Added 16/11/22
+item.BasicGenericChemItem.16.name=铂系金属催化剂
+item.BasicGenericChemItem.17.name=塑料聚合物催化剂
+item.BasicGenericChemItem.18.name=橡胶聚合物催化剂
+item.BasicGenericChemItem.19.name=粘合促进催化剂
+item.BasicGenericChemItem.20.name=钛钨铟催化剂
+item.BasicGenericChemItem.21.name=放射催化剂
+item.BasicGenericChemItem.22.name=稀土金属催化剂
+item.BasicGenericChemItem.23.name=普通硅岩催化剂
+item.BasicGenericChemItem.24.name=高级硅岩催化剂
+item.BasicGenericChemItem.25.name=原生智能催化剂
+item.BasicGenericChemItem.26.name=终极增塑催化剂
+item.BasicGenericChemItem.27.name=生物智能催化剂

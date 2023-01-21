@@ -245,6 +245,8 @@ galaxy.milkyWay=银河系
 # OTHER
 newversion.failed.name=星系mod新版本检查失败!15秒后重试
 newversion.success.name=发现星系mod远程版本:
+tooltip.rocket_fuel_tier=可用作最高 %s 阶的火箭燃料
+tooltip.rocket_fuel_tier_max=可用作所有阶段的火箭燃料
 
 # KEYBINDINGS
 keybind.map.name=[GC]星系地图
@@ -352,7 +354,7 @@ gui.status.notGenerating.name=未产生
 gui.status.hullHeat.name=船体热量
 gui.status.compressing.name=正在压缩
 gui.status.collecting.name=正在收集
-gui.status.tankEmpty.name=氧气筒已空
+gui.status.tankEmpty.name=氧气罐已空
 gui.status.sunVisible.name=可看见太阳
 gui.status.on.name=开启
 gui.status.off.name=关闭
@@ -557,13 +559,13 @@ gui.spaceRace.unnamed=未命名的队伍
 gui.spaceRace.comingSoon=即将来临
 
 gui.message.moon.daynightcycle.0.name=29.5个地球日
-gui.message.moon.daynightcycle.1.name= 
+gui.message.moon.daynightcycle.1.name=
 gui.message.moon.surfacegravity.0.name=0.1654g
 gui.message.moon.surfacegravity.1.name=(地球的18%)
 gui.message.moon.surfacecomposition.0.name=玄武岩与
 gui.message.moon.surfacecomposition.1.name=奶酪的痕迹
 gui.message.moon.atmosphere.0.name=无
-gui.message.moon.atmosphere.1.name= 
+gui.message.moon.atmosphere.1.name=
 gui.message.moon.meansurfacetemp.0.name=(光亮面) 253C 
 gui.message.moon.meansurfacetemp.1.name=(黑暗面) -153C 
 
@@ -576,7 +578,7 @@ gui.message.overworld.surfacecomposition.1.name=砂砾
 gui.message.overworld.atmosphere.0.name=氮气与氧气
 gui.message.overworld.atmosphere.1.name=适合生物生存
 gui.message.overworld.meansurfacetemp.0.name=14C 
-gui.message.overworld.meansurfacetemp.1.name= 
+gui.message.overworld.meansurfacetemp.1.name=
 
 itemDesc.powerdraw.name=能量需求: %s /s
 itemDesc.shift.name=按住%s查看详情
@@ -632,9 +634,7 @@ container.oxygensealer.name=气密装置
 container.parachest.name=伞降箱
 container.refinery.name=精炼器
 container.treasurechest.name=珍品箱
-// --- //container.lander.name=太空登陆舱
-// +++ //container.lander.name=Space Lander
-// ↑↑↑ //container.lander.name=Lander
+container.lander.name=太空登陆舱
 container.spaceship.name=1阶火箭
 container.solarbasic.name=基础太阳能板
 container.solaradvanced.name=高级太阳能板
@@ -728,6 +728,7 @@ gc.configgui.keyOverrideFuelLevel=Set key: Rocket Fuel GUI(设置键位:火箭�
 gc.configgui.keyOverrideToggleAdvGoggles=Set key: Advanced Goggles(设置键位:高级护目镜)
 gc.configgui.meteorSpawnMod=Meteor Spawn Modifier(流星生成调节)
 gc.configgui.meteorBlockDamage=Meteor Block Damage Enabled(流星伤害开启)
+gc.configgui.handfill=Enable Oxygen Tank Hand fill(允许用手填充氧气罐)
 gc.configgui.disableUpdateCheck=Disable Update Check(禁用更新检查)
 gc.configgui.alwaysDisplayOxygenHUD=Always show Oxygen HUD(总是显示氧气HUD)
 

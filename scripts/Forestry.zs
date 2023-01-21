@@ -16,6 +16,20 @@ import mods.ic2.SemiFluidGenerator;
 import mods.nei.NEI;
 
 
+// --- I18N ---
+val I18N_Forestry_0 = "\u6807\u5b9a\u6846\u67b6";
+val I18N_Forestry_1 = "\u005b\u0046\u0052\u005d\u6bd4\u6d78\u6e0d\u6846\u67b6\u597d";
+val I18N_Forestry_2 = "\u6807\u5b9a\u6846\u67b6\u662f\u7528\u4e8e\u8702\u7bb1\u0028\u7ec4\u0029\u7684\u7269\u54c1\u002e\u6bcf\u4e2a\u6846\u67b6\u53ef\u65f6\u871c\u8702\u4ea7\u91cf\u7ffb\u500d\u002e\u5728\u6797\u4e1a\u7684\u4e09\u79cd\u6846\u67b6\u0028\u672a\u5904\u7406\u3001\u6d78\u6e0d\u548c\u6807\u5b9a\u0029\u4e2d\u002c\u6807\u5b9a\u6846\u67b6\u6709\u6700\u957f\u7684\u8010\u4e45\u002e<BR>\u6807\u5b9a\u6846\u67b6\u901a\u5e38\u53ea\u80fd\u901a\u8fc7\u4e0e\u6751\u6c11\u4ea4\u6613\u83b7\u5f97\u002e\u0028\u0036\u4e2a\u6846\u67b6\u9700\u0031\u7eff\u5b9d\u77f3\u0029<BR>\u73b0\u5728\u4f60\u627e\u5230\u4e00\u79cd\u9b54\u6cd5\u65b9\u5f0f\u002c\u53ef\u5c06\u4e0d\u540c\u871c\u8702\u4ea7\u7269\u6ce8\u5165\u6d78\u6e0d\u6846\u67b6\u4e2d\u4ee5\u83b7\u5f97\u6807\u5b9a\u6846\u67b6\u002e<BR>\u5728\u8702\u7bb1\u7ec4\u7ed3\u6784\u4e2d\u002c\u53ef\u4ee5\u52a0\u5165\u8702\u7bb1\u7ec4\u6846\u67b6\u680f\u0028\u6216\u6846\u67b6\u680f\u0029\u6765\u5b89\u88c5\u6b64\u6846\u67b6\u002e";
+val I18N_Forestry_3 = "\u6807\u5b9a\u526a\u679d\u5668";
+val I18N_Forestry_4 = "\u005b\u0046\u0052\u005d\u6bd4\u9752\u94dc\u526a\u679d\u5668\u597d";
+val I18N_Forestry_5 = "\u6807\u5b9a\u526a\u679d\u5668\u6bd4\u9752\u94dc\u526a\u679d\u5668\u597d\u5f97\u591a\u002c\u53ef\u4ece\u6751\u6c11\u4ea4\u6613\u4e2d\u83b7\u5f97\u002e<BR>\u4e0e\u9752\u94dc\u526a\u679d\u5668\u548c\u5965\u6cd5\u526a\u679d\u5668\u7c7b\u4f3c\u002c\u8fd9\u79cd\u6807\u5b9a\u526a\u679d\u5668\u7684\u6811\u82d7\u6389\u843d\u7387\u4e3a\u0031\u0030\u0030\u0025\u0028\u5bf9\u6797\u4e1a\u6811\u6728\u0029\u002e<BR>\u4f46\u5b83\u5bf9\u666e\u901a\u6811\u6728\u65e0\u6548\u002c\u5e76\u4e14\u5728\u5b8c\u5168\u635f\u574f\u4e4b\u524d\u7684\u6700\u540e\u4e00\u4e0b\u4e0d\u4f1a\u6389\u843d\u6811\u82d7\u002e<BR>\u73b0\u5728\u4f60\u627e\u5230\u4e00\u79cd\u9b54\u6cd5\u65b9\u5f0f\u002c\u5c06\u6811\u82d7\u548c\u82b1\u7c89\u6ce8\u5165\u9752\u94dc\u526a\u679d\u5668\u4ee5\u83b7\u5f97\u6807\u5b9a\u526a\u679d\u5668\u002e";
+val I18N_Forestry_6 = "\u8702\u7bb1\u7ec4\u514b\u9686\u76d2";
+val I18N_Forestry_7 = "\u8702\u7bb1\u7ec4\u98ce\u6247";
+val I18N_Forestry_8 = "\u8702\u7bb1\u7ec4\u52a0\u70ed\u5668";
+val I18N_Forestry_9 = "\u8702\u7bb1\u7ec4\u4fdd\u6e7f\u5668";
+val I18N_Forestry_10 = "\u8702\u7bb1\u7ec4\u7a33\u5b9a\u5668";
+val I18N_Forestry_11 = "\u8702\u7bb1\u7ec4\u6ee4\u7f51";
+
 // --- Remove Recipes ---
 
 
@@ -539,7 +553,7 @@ recipes.addShaped(<Forestry:factory:7>, [
 [<ore:gearGtSmallAluminium>, <gregtech:gt.metaitem.01:32681>, <ore:gearGtSmallAluminium>]]);
 
 // --- Thermionic Fabricator
-mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 1000, [
+mods.forestry.Carpenter.addRecipe(60, <liquid:molten.redstone> * 1152, [
 <gregtech:gt.metaitem.01:27305>, <BuildCraft|Factory:tankBlock>, <gregtech:gt.metaitem.01:27305>, 
 <IC2:itemRecipePart>, <Forestry:sturdyMachine>, <IC2:itemRecipePart>, 
 <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32600>, <gregtech:gt.metaitem.01:27305>], 
@@ -1351,16 +1365,12 @@ null, <Forestry:frameImpregnated>);
 
 // --- Proven Frame
 mods.thaumcraft.Research.addResearch("PROVENFRAME", "MAGICBEES", "praecantatio 15, fabrico 12, cognitio 9, potentia 6", 7, 0, 4, <Forestry:frameProven>);
-game.setLocalization("tc.research_name.PROVENFRAME", "\u6807\u5b9a\u6846\u67b6");
-game.setLocalization("tc.research_text.PROVENFRAME", "[FR]\u6bd4\u6d78\u6e0d\u6846\u67b6\u597d");
+game.setLocalization("tc.research_name.PROVENFRAME", I18N_Forestry_0);
+game.setLocalization("tc.research_text.PROVENFRAME", I18N_Forestry_1);
 mods.thaumcraft.Research.addPrereq("PROVENFRAME", "MB_EssenceArmor", false);
 mods.thaumcraft.Research.setConcealed("PROVENFRAME", true);
 mods.thaumcraft.Research.addPage("PROVENFRAME", "Forestry.research_page.PROVENFRAME");
-game.setLocalization("Forestry.research_page.PROVENFRAME", "\u6807\u5b9a\u6846\u67b6\u662f\u7528\u4e8e\u8702\u7bb1\u0028\u7ec4\u0029\u7684\u7269\u54c1\u002e\u6bcf\u4e2a\u6846\u67b6\u53ef\u65f6\u871c\u8702\u4ea7\u91cf\u7ffb\u500d\u002e
-\u5728\u6797\u4e1a\u7684\u4e09\u79cd\u6846\u67b6\u0028\u672a\u5904\u7406\u3001\u6d78\u6e0d\u548c\u6807\u5b9a\u0029\u4e2d\u002c\u6807\u5b9a\u6846\u67b6\u6709\u6700\u957f\u7684\u8010\u4e45\u002e
-\u6807\u5b9a\u6846\u67b6\u901a\u5e38\u53ea\u80fd\u901a\u8fc7\u4e0e\u6751\u6c11\u4ea4\u6613\u83b7\u5f97\u002e\u0028\u0036\u4e2a\u6846\u67b6\u9700\u0031\u7eff\u5b9d\u77f3\u0029
-\u73b0\u5728\u4f60\u627e\u5230\u4e00\u79cd\u9b54\u6cd5\u65b9\u5f0f\u002c\u53ef\u5c06\u4e0d\u540c\u871c\u8702\u4ea7\u7269\u6ce8\u5165\u6d78\u6e0d\u6846\u67b6\u4e2d\u4ee5\u83b7\u5f97\u6807\u5b9a\u6846\u67b6\u002e
-\u5728\u8702\u7bb1\u7ec4\u7ed3\u6784\u4e2d\u002c\u53ef\u4ee5\u52a0\u5165\u8702\u7bb1\u7ec4\u6846\u67b6\u680f(\u6216\u6846\u67b6\u680f)\u6765\u4f7f\u7528\u6b64\u6846\u67b6\u002e");
+game.setLocalization("Forestry.research_page.PROVENFRAME", I18N_Forestry_2);
 mods.thaumcraft.Arcane.addShaped("PROVENFRAME", <Forestry:frameProven>, "ordo 15, terra 15, aer 15, perditio 15, ignis 15, aqua 15", [
 [<gregtech:gt.metaitem.01:27305>, <Forestry:honeydew>, <gregtech:gt.metaitem.01:27305>],
 [<Forestry:propolis>, <Forestry:frameImpregnated>, <Forestry:propolis:3>],
@@ -1369,15 +1379,12 @@ mods.thaumcraft.Research.addArcanePage("PROVENFRAME", <Forestry:frameProven>);
 
 // --- Proven Grafter
 mods.thaumcraft.Research.addResearch("PROVENGRAFTER", "MAGICBEES", "instrumentum 15, permutatio 12, metallum 9, arbor 6", -5 as int, -3 as int, 4, <Forestry:grafterProven>);
-game.setLocalization("tc.research_name.PROVENGRAFTER", "\u6807\u5b9a\u526a\u679d\u5668");
-game.setLocalization("tc.research_text.PROVENGRAFTER", "[FR]\u6bd4\u9752\u94dc\u505a\u7684\u597d");
+game.setLocalization("tc.research_name.PROVENGRAFTER", I18N_Forestry_3);
+game.setLocalization("tc.research_text.PROVENGRAFTER", I18N_Forestry_4);
 mods.thaumcraft.Research.addPrereq("PROVENGRAFTER", "MB_Scoop", false);
 mods.thaumcraft.Research.setConcealed("PROVENGRAFTER", true);
 mods.thaumcraft.Research.addPage("PROVENGRAFTER", "Forestry.research_page.PROVENGRAFTER");
-game.setLocalization("Forestry.research_page.PROVENGRAFTER", "\u6807\u5b9a\u526a\u679d\u5668\u6bd4\u9752\u94dc\u526a\u679d\u5668\u597d\u5f97\u591a\u002c\u53ef\u4ece\u6751\u6c11\u4ea4\u6613\u4e2d\u83b7\u5f97\u002e
-\u4e0e\u9752\u94dc\u526a\u679d\u5668\u548c\u5965\u6cd5\u526a\u679d\u5668\u7c7b\u4f3c\u002c\u8fd9\u79cd\u6807\u5b9a\u526a\u679d\u5668\u7684\u6811\u82d7\u6389\u843d\u7387\u4e3a\u0031\u0030\u0030\u0025\u0028\u5bf9\u6797\u4e1a\u6811\u6728\u0029\u002e
-\u4f46\u5b83\u5bf9\u666e\u901a\u6811\u6728\u65e0\u6548\u002c\u5e76\u4e14\u5728\u5b8c\u5168\u635f\u574f\u4e4b\u524d\u7684\u6700\u540e\u4e00\u4e0b\u4e0d\u4f1a\u6389\u843d\u6811\u82d7\u002e
-\u73b0\u5728\u4f60\u627e\u5230\u4e00\u79cd\u9b54\u6cd5\u65b9\u5f0f\u002c\u5c06\u6811\u82d7\u548c\u82b1\u7c89\u6ce8\u5165\u9752\u94dc\u526a\u679d\u5668\u4ee5\u83b7\u5f97\u6807\u5b9a\u526a\u679d\u5668\u002e");
+game.setLocalization("Forestry.research_page.PROVENGRAFTER", I18N_Forestry_5);
 mods.thaumcraft.Infusion.addRecipe("PROVENGRAFTER", <Forestry:grafter>, 
 [<minecraft:sapling:1>, <minecraft:sapling:2>, <Forestry:pollen>, <minecraft:sapling:3>, <minecraft:sapling:4>, <minecraft:sapling:5>, <Forestry:pollen:1>, <minecraft:sapling>], 
 "instrumentum 25, permutatio 25, metallum 20, arbor 10", <Forestry:grafterProven>, 3);
@@ -2796,19 +2803,19 @@ oreDict.listAllsugar.add(<Forestry:honeyDrop>);
 
 
 // --- Swarmer
-NEI.overrideName(<Forestry:alveary:2>, "\u8702\u7bb1\u7ec4\u514b\u9686\u76d2");
+NEI.overrideName(<Forestry:alveary:2>, I18N_Forestry_6);
 
 // --- Swarmer
-NEI.overrideName(<Forestry:alveary:3>, "\u8702\u7bb1\u7ec4\u98ce\u6247");
+NEI.overrideName(<Forestry:alveary:3>, I18N_Forestry_7);
 
 // --- Swarmer
-NEI.overrideName(<Forestry:alveary:4>, "\u8702\u7bb1\u7ec4\u52a0\u70ed\u5668");
+NEI.overrideName(<Forestry:alveary:4>, I18N_Forestry_8);
 
 // --- Swarmer
-NEI.overrideName(<Forestry:alveary:5>, "\u8702\u7bb1\u7ec4\u4fdd\u6e7f\u5668");
+NEI.overrideName(<Forestry:alveary:5>, I18N_Forestry_9);
 
 // --- Swarmer
-NEI.overrideName(<Forestry:alveary:6>, "\u8702\u7bb1\u7ec4\u7a33\u5b9a\u5668");
+NEI.overrideName(<Forestry:alveary:6>, I18N_Forestry_10);
 
 // --- Swarmer
-NEI.overrideName(<Forestry:alveary:7>, "\u8702\u7bb1\u7ec4\u6ee4\u7f51");
+NEI.overrideName(<Forestry:alveary:7>, I18N_Forestry_11);
