@@ -13,6 +13,7 @@ paths_to_be_packed = [
 
 to_be_renamed = {
     'README.md': '看我.md',
+    'resources': 'config/txloader/forceload',
 }
 
 to_be_excluded_in_normal = [
