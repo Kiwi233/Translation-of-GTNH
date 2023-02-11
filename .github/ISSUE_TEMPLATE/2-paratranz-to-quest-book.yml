@@ -11,3 +11,10 @@ body:
       label: PR 提交分支
     validations:
       required: true
+  - type: input
+    id: commit-sha
+    attributes:
+      label: 任务书 json 文件 commit SHA
+      value: 'master'
+    validations:
+      required: false
