@@ -58,6 +58,8 @@ BW_GlasBlocks.11.name=染色硼玻璃方块(棕)
 BW_GlasBlocks.12.name=钍钇玻璃方块
 BW_GlasBlocks.13.name=中子强化硼玻璃方块
 BW_GlasBlocks.14.name=宇宙中子强化硼玻璃方块
+BW_GlasBlocks.15.name=无尽强化硼玻璃方块
+BW_GlasBlocks2.0.name=超时空强化硼玻璃方块
 
 tooltip.glas.0.name=玻璃等级:
 tooltip.LESU.0.name=最大容量!
@@ -131,6 +133,7 @@ tooltip.tile.radhatch.6.name=t
 tooltip.tile.radhatch.7.name=s
 tooltip.tile.radhatch.8.name=m
 tooltip.tile.radhatch.9.name=h
+tooltip.tile.radhatch.10.name=剩余时间: %s s / %s s
 tooltip.tile.acidgen.0.name=酸性发电机
 tooltip.tile.acidgen.1.name=用化学势能产生电力.
 nei.biovat.0.name=需要玻璃等级:
@@ -147,6 +150,7 @@ tile.biovat.name=细菌培养缸
 tile.radiohatch.name=放射仓
 tile.bw.windmill.name=风车
 tile.manutrafo.name=可调变压器
+tile.BioFluidBlock.name=生物流质方块
 
 item.TRISOPellet.name=TRISO燃料丸
 item.TRISOPelletBall.name=TRISO燃料球
@@ -171,4 +175,7 @@ BW.infoData.BioVat.production=产量
 BW.NEI.display.radhatch.0=辐射剂量: %s Sv
 BW.NEI.display.radhatch.1=质量: %s kg
 BW.NEI.display.radhatch.2=时间: %s s
+
+misc.BatchModeTextOn=开启批量处理
+misc.BatchModeTextOff=关闭批量处理
 #Liquids
