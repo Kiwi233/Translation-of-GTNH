@@ -168,9 +168,9 @@ gt.blockmachines.transformer.ha.tier.13.desc=MAX -> UXV (用软锤右击以反�
 #Hatches
 tt.base.emhatch.desc.0=最大元物质组数：
 tt.base.emhatch.desc.1=最大容量：
-tt.base.emhatch.desc.2=在这个仓室不处于多方块结构
-tt.base.emhatch.desc.3=中时，在后侧、上侧或下侧放
-tt.base.emhatch.desc.4=置溢流仓以提供过载保护。
+tt.base.emhatch.desc.2=在这个仓室不处于多方块结构中时，
+tt.base.emhatch.desc.3=在后侧、上侧或下侧放置溢流仓，
+tt.base.emhatch.desc.4=以提供过载保护。
 tt.base.emhatch.desc.5=使用量子隧道时，传输距离
 tt.base.emhatch.desc.6=可以沿直线拓展至最多15格
 tt.base.emhatch.desc.7=启用前必须涂色
@@ -730,13 +730,13 @@ gt.blockmachines.multimachine.em.blackholegenerator.desc.1=使用一颗黑洞产
 
 #Pipes
 gt.blockmachines.pipe.elementalmatter.name=量子隧道
-gt.blockmachines.pipe.elementalmatter.desc.0=量子隧道设备.
+gt.blockmachines.pipe.elementalmatter.desc.0=量子隧道设备
 gt.blockmachines.pipe.elementalmatter.desc.1=不是传送门!!!
 gt.blockmachines.pipe.elementalmatter.desc.2=启用前必须涂色
 gt.blockmachines.pipe.elementalmatter.desc.3=请勿交叉、分流或转弯
 
 gt.blockmachines.pipe.energystream.name=激光真空管
-gt.blockmachines.pipe.energystream.desc.0=激光隧道设备.
+gt.blockmachines.pipe.energystream.desc.0=激光隧道设备
 gt.blockmachines.pipe.energystream.desc.1=要有光!!!
 gt.blockmachines.pipe.energystream.desc.2=启用前必须涂色
 gt.blockmachines.pipe.energystream.desc.3=请勿分流或转弯
@@ -749,7 +749,7 @@ gt.blockmachines.pipe.datastream.desc.3=请勿交叉或分流
 
 #Single blocks
 gt.blockmachines.machine.tt.ownerdetector.name=所有者检测机
-gt.blockmachines.machine.tt.ownerdetector.desc.0=使用螺丝刀以变更模式
+gt.blockmachines.machine.tt.ownerdetector.desc.0=使用螺丝刀切换模式
 gt.blockmachines.machine.tt.ownerdetector.desc.1=寻找他的PaPa
 gt.blockmachines.machine.tt.ownerdetector.desc.2=高兴时发出信号
 
@@ -853,7 +853,7 @@ tt.keyphrase.Hint_Details=提示细节
 #debug boom
 tt.keyword.BOOM=BOOM!
 tt.keyword.Destination=目标
-tt.keyword.Weight=质量
+tt.keyword.Weight=权重
 tt.keyword.Source=来源
 tt.keyword.Progress=过程
 tt.keyword.Computation=算力

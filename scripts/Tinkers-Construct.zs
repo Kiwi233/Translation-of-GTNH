@@ -10,6 +10,9 @@ import mods.gregtech.Extruder;
 import mods.nei.NEI;
 
 
+// --- I18N ---
+val I18N_Tinkers_Construct_0 = "\u53ef\u79cd\u690d\u4e8e\u7a7a\u7684\u0049\u0043\u0032\u4f5c\u7269\u67b6\u002e";
+
 // --- Variables ---
 
 var IronOreberry = <TConstruct:oreBerries:0>;
@@ -79,12 +82,12 @@ val Paintbrush = <ExtraUtilities:paintbrush>;
 
 
 // --- Tooltips ---
-IronOreberry.addTooltip("\u53ef\u79cd\u690d\u4e8e\u7a7a\u7684\u0049\u0043\u4f5c\u7269\u67b6.");
-TinOreberry.addTooltip("\u53ef\u79cd\u690d\u4e8e\u7a7a\u7684\u0049\u0043\u4f5c\u7269\u67b6.");
-CopperOreberry.addTooltip("\u53ef\u79cd\u690d\u4e8e\u7a7a\u7684\u0049\u0043\u4f5c\u7269\u67b6.");
-GoldOreberry.addTooltip("\u53ef\u79cd\u690d\u4e8e\u7a7a\u7684\u0049\u0043\u4f5c\u7269\u67b6.");
-AluminiumOreberry.addTooltip("\u53ef\u79cd\u690d\u4e8e\u7a7a\u7684\u0049\u0043\u4f5c\u7269\u67b6.");
-EssenceOreberry.addTooltip("\u53ef\u79cd\u690d\u4e8e\u7a7a\u7684\u0049\u0043\u4f5c\u7269\u67b6.");
+IronOreberry.addTooltip(I18N_Tinkers_Construct_0);
+TinOreberry.addTooltip(I18N_Tinkers_Construct_0);
+CopperOreberry.addTooltip(I18N_Tinkers_Construct_0);
+GoldOreberry.addTooltip(I18N_Tinkers_Construct_0);
+AluminiumOreberry.addTooltip(I18N_Tinkers_Construct_0);
+EssenceOreberry.addTooltip(I18N_Tinkers_Construct_0);
 
 // --- Blocks ---
 

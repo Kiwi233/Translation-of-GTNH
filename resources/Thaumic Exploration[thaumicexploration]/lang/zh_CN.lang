@@ -191,27 +191,27 @@ te.text.TENTACLERING.1=你找到了一种方法利用从研究腐化之地所得
 
 --Discount Rings
 te.name.DISCOUNTRINGS=碎片指环
-te.tag.DISCOUNTRINGS=要素减免
+te.tag.DISCOUNTRINGS=魔力减免
 te.text.DISCOUNTRINGS.1=你发现一种方法减免法杖合成所需的要素.只需将你在地下找到的神秘碎片雕琢为指环的形式,再给它们施予魔力.<BR><BR>可以制作六种初始要素对应的指环.如果你一次性装备两个指环.那么它们的减免效果就会叠加.
 
 --Thaumostatic Stabilizer
 te.name.STABILIZERBELT=奥法加护腰带
-te.tag.STABILIZERBELT=天国的击退
+te.tag.STABILIZERBELT=击退无效
 te.text.STABILIZERBELT.1=利用类似奥法缰绳中发现的技术,你做出了一条能无视击退的特殊腰带.每当受伤害时,你将停在原地而不是被击退.这个装备不管是在战斗,夜间旅行还是穿戴缰绳飞行时都很实用.
 
 --Floating Candles
 te.name.FLOATCANDLE=浮空蜡烛
-te.tag.FLOATCANDLE=Wingardium Leviosa(浮空咒)
-te.text.FLOATCANDLE.1=你总觉得油烛还少些什么...利用在魔法学校所学施上一点魔法配合风之碎片让它们看着更舒服些.浮空蜡烛能直接放置在半空中无需支撑,这些蜡烛上下缓慢浮动,给空间内添上魔法的氛围.<BR><BR>不幸的是,这些蜡烛对注魔似乎毫无作用.你确信在不远的将来能解决这个问题.
+te.tag.FLOATCANDLE=羽加迪姆 勒维奥萨
+te.text.FLOATCANDLE.1=你总觉得油脂蜡烛还缺点什么...<BR>利用在魔法学校所学,配合风之碎片,施上一点魔法,让它们看着更舒服些.<BR>浮空蜡烛能直接放置在半空中,无需支撑.这些蜡烛缓慢上下浮动,让空间变得更为神秘.<BR><BR>不幸的是,这些蜡烛对注魔似乎毫无作用.你确信在不远的将来可以解决这个问题.
 
 --Flesh Curing
 te.name.FLESHCURE=腐肉炼制
-te.tag.FLESHCURE=使事情变得更好
-te.text.FLESHCURE.1=给腐肉注入特定的要素源质,你发现这能使你移除腐肉中几乎所有的腐烂和毒害作用,使它变得更有用.<BR><BR>尽管这不是十分实用的，你相信它也能做出些绝妙的东西.
+te.tag.FLESHCURE=变废为宝
+te.text.FLESHCURE.1=给腐肉注入特定的要素源质,你发现这能使你移除腐肉中几乎所有的腐烂和毒害作用,使它变得更有用.<BR><BR>尽管这不是十分实用的,你相信它也能做出些绝妙的东西.
 
 --Brain Curing
 te.name.BRAINCURE=僵脑净化
-te.tag.BRAINCURE=不要放弃治疗
+te.tag.BRAINCURE=洗脑
 te.text.BRAINCURE.1=你意识到通过类似净化僵尸村民的过程,你可以将大脑僵尸化的过程逆转.这些净化的大脑有着高于僵尸之脑的智慧,所以你希望它们能在以后的创造中大显身手.<BR><BR>注意任何种类和时长的虚弱药水都可用.
 TO BE IMPLEMENTED: The brains also serve as a bait for zombified creatures, when dropped or placed on an arcane pedestal.
 
@@ -229,7 +229,7 @@ te.text.CHESTSEAL.1=将普通的油脂制成的封蜡浸泡在各种源质的混
 --Jar Sealing
 te.name.JARSEAL=罐子封蜡
 te.tag.JARSEAL=源质,无处不在的源质
-te.text.JARSEAL.1=通过调整油脂封蜡浸泡的要素混合来探究源质的神秘性,使你能绑定要素源质容器,尤其是,要素罐子.就像之前的封蜡一样,罐子封蜡也能染色并且有无限制的网络数量.<BR><BR>如何创建网络参见箱子封蜡绑定相关页面.注意只有空的罐子才能绑定.你无法绑定虚空罐子或是标签罐子.<BR><BR>封蜡罐子有比未贴标签的罐子强,标签罐子弱的吸力.
+te.text.JARSEAL.1=通过调整油脂封蜡浸泡的要素混合来探究源质的神秘性,使你能绑定要素源质容器,尤其是,要素罐子.就像之前的封蜡一样,罐子封蜡也能染色并且有无限制的网络数量.<BR><BR>如何创建网络参见箱子封蜡绑定相关页面.注意只有空的罐子才能绑定.你无法绑定虚空罐子或是标签罐子.<BR><BR>封蜡罐子有比未贴标签的罐子强,比标签罐子弱的吸力.
 
 --Everfull Urn
 te.name.URN=无尽之壶
@@ -242,7 +242,7 @@ te.text.URN.1B=你在研究中读到了许多关于'无尽之壶'的东西,一�
 
 --Everburn Urn
 te.name.BURN=炼狱之壶
-te.tag.BURN=为什么我能理解火??
+te.tag.BURN=为什么我要用火做??
 te.text.BURN.1=在研究无尽之壶之后,你找到一种生成岩浆的方法.<BR><BR>你发现它和水有所不同,岩浆需要能源,所以你将其称之为炼狱之罐,它需要Centivis去驱动它.你的炼狱之壶不仅能够用桶来装岩浆,它也能够从顶部输出到外部的储罐.
 
 --Crucible of Souls
@@ -274,7 +274,7 @@ te.text.ROD_TRANSMUTATION_staff.1=由元始魔力和各种元素碎片做成的�
 
 --Necromancer's Staff Core
 te.name.ROD_NECROMANCER_staff=亡灵杖芯
-te.tag.ROD_NECROMANCER_staff=亡灵的力量
+te.tag.ROD_NECROMANCER_staff=亡灵之力
 te.text.ROD_NECROMANCER_staff.1=通过向白骨杖芯注入亡灵的遗留之物你做出了一个骇人的杖芯.<BR><BR>这个杖芯对嗜血的法师来说是绝佳的选择.它拥有200vis的储存上限,并且4倍获得杀怪掉落的要素.此外,这个杖芯是个近身战斗的能手.击打怪物会施加凋零的力量.不幸的是,这也带来了缺点.用于注入的黑魔法是的它对其他途径的魔力接收能力更弱,只相当于普通法杖从节点或是其他途径接收量的75%.
 
 --Bread Wand Core
@@ -283,8 +283,8 @@ te.tag.ROD_BREAD=法式魔力储存
 te.text.ROD_BREAD.1=Bonjour(法语你好)!昨天,你给我买了太多的法式长棍.无法就这样放着这些面包浪费,所以你想方设法将面包做成了杖柄.Bon Appetit(法语祝好胃口)!
 
 --Sojourner's Wand Cap
-te.name.CAP_SOJOURNER=索杰纳杖端
-te.tag.CAP_SOJOURNER=灵性的法杖杖端
+te.name.CAP_SOJOURNER=寄生杖端
+te.tag.CAP_SOJOURNER=灵性杖端
 te.text.CAP_SOJOURNER.1=即便有了法杖充能基座,充能仍然是个烦心事.需要经过安装充能基座和在附近放置节点的过程.你做出了个特别的杖端,被拿在手上时它会像法杖充能基座那样被动从周围的节点中抽取魔力.<BR><BR>这个杖端在传输魔力上能力介于金杖端和神秘杖端之间.
 
 --Mechanist's Wand Cap
@@ -294,13 +294,13 @@ te.text.CAP_MECHANIST.1=广泛研究了节点,你意识到你已经到了除改�
 
 --Wispy Dreamcatcher
 te.name.DREAMCATCHER=纤细的捕梦网
-te.tag.DREAMCATCHER=那些不好的想法
+te.tag.DREAMCATCHER=被过滤的想法
 te.text.DREAMCATCHER.1=他们说捕梦网(Asabikeshiinh,又称梦罟,源自北美印第安苏族的护身符，印第安小孩做恶梦时，父母会在床头挂上捕梦网)是为了驱走梦魇,不让他们到梦里.尽管腐化咒波污染并不是你精神上的构成,你认为或许可以用改造的捕梦网来应付这些咒波对肉体的不良影响.<BR><BR>当你把这个捕梦网放在工具栏时,有很大的几率会避免来自咒波或是腐化生物的伤害.尽管它并不能消除所有的伤害,它一定能让你在腐化之地的时候更安全些.
 
 --Talisman of Nourishment
 te.name.TALISMANFOOD=补给之符
 te.tag.TALISMANFOOD=填饱肚子
-te.text.TALISMANFOOD.1=你常常发现你在长时间的研究工作中需要停下来吃点东西,终于你找到了方法满足对食物的需求.<BR><BR>通过给一颗钻石注入饥饿(Fames)的源质,你做出了一个能从工具栏的各种食物中吸取营养成分并储存的物品.之后它会自动补充你的饱食度.<BR><BR>它只对普通的食物有效,所以像腐肉和金苹果这样带有buff的食物仍需要正常食用.
+te.text.TALISMANFOOD.1=你常常发现你在长时间的研究工作中需要停下来吃点东西,终于你找到了方法满足对食物的需求.<BR><BR>通过给元始魔力注入饥饿(Fames)源质,你做出了一个能从工具栏的各种食物中吸取营养成分并储存的物品.之后它会自动补充你的饱食度.<BR><BR>它只对普通的食物有效,所以像腐肉和金苹果这样带有buff的食物仍需要正常食用.
 
 --Disarming Enchantment
 te.name.ENCHDISARM=附魔: 缴械
@@ -319,7 +319,7 @@ te.text.ENCHNIGHTVISION.1=你做出了一个能让你在黑暗中看见的附魔
 
 --Boots of the Meteor
 te.name.METEORBOOTS=流星之靴
-te.tag.METEORBOOTS=来吧,砰!
+te.tag.METEORBOOTS=来吧,嗖~
 te.text.METEORBOOTS.1=你的旅行者之靴着实不错,但有时你渴望着更优越的机动性能.给它灌入火与能量的原力,你做出了一双有着无与伦比的机动力的靴子.<BR><BR>如果在蹲下时起跳,它会将以流星的力量将穿戴者朝着所视方向推进.而在半空中按下shift键则会将玩家以不可置信的速度推向地面,对着陆点附近的一切目标造成伤害.
 
 --Boots of the Comet
@@ -339,7 +339,7 @@ te.text.ENHANCEDRUNICARMOR.1=你对符文护甲升级的大量研究让你对只
 te.text.ENHANCEDRUNICARMOR.2=注意增强符文护甲的制作会移除现有的升级.<BR><BR>如果你想要覆盖增强护甲的一个升级,你可以手持它右击交换升级的位置.排在前面的升级就是会被覆盖的那一个.<BR><BR>[Recipes pending...leave feedback]
 
 --Transmutative Wand Core
-te.name.ROD_TRANSMUTATION=元化杖芯
+te.name.ROD_TRANSMUTATION=元化杖柄
 te.tag.ROD_TRANSMUTATION=一个变为另一个
 te.text.ROD_TRANSMUTATION.1=研究元始魔力的性质时,你发现你能偶发地将一种要素魔力转化为另一种.你觉得这个性质用在大多数地方不太可靠,但如果给元始魔力注入某种材料,它就能作为一个有着独特属性的杖柄而使用.<BR><BR>当法杖中有一种要素魔力值即将超过90%,它就会转化为其他种类的要素魔力,尽管比率低一些.<BR><BR>它还有比普通宏伟杖高的魔力储存容量,每种要素魔力75vis.
 

@@ -3,14 +3,14 @@
 ## Component Items For Crafting
 item.adventurebackpack:backpackComponent.name=背包组件
 item.adventurebackpack:sleepingBag.name=睡袋
-item.adventurebackpack:backpackTank.name=储水箱
+item.adventurebackpack:backpackTank.name=背包储罐
 item.adventurebackpack:macheteHandle.name=弯刀手柄
 item.adventurebackpack:hoseHead.name=软管喷嘴
 item.adventurebackpack:copterEngine.name=双缸柴油机
 item.adventurebackpack:copterBlades.name=直升机桨叶
 item.adventurebackpack:hydroBlades.name=水力发电桨叶
 item.adventurebackpack:inflatableBoat.name=充气艇
-item.adventurebackpack:inflatableBoatMotorized.name=充气艇(机动的)
+item.adventurebackpack:inflatableBoatMotorized.name=充气艇(机动化)
 
 ## Entity 
 entity.adventurebackpack.inflatableBoat.name=充气艇
@@ -21,14 +21,14 @@ item.adventurebackpack:melonJuiceBottle.name=西瓜汁
 item.adventurebackpack:machete.name=弯刀
 
 item.adventurebackpack:backpackHose.name=背包软管
-item.adventurebackpack:hose_leftTank_suck.name=软管:左侧储水箱 / 吸取模式
-item.adventurebackpack:hose_leftTank_spill.name=软管:左侧储水箱 / 喷洒模式
-item.adventurebackpack:hose_leftTank_drink.name=软管:左侧储水箱 / 饮水模式
+item.adventurebackpack:hose_leftTank_suck.name=软管：左侧储罐 / 吸取模式
+item.adventurebackpack:hose_leftTank_spill.name=软管：左侧储罐 / 喷洒模式
+item.adventurebackpack:hose_leftTank_drink.name=软管：左侧储罐 / 饮用模式
 
-item.adventurebackpack:hose_rightTank_suck.name=右侧储水箱 / 吸取模式
-item.adventurebackpack:hose_rightTank_spill.name=右侧储水箱 / 喷洒模式
-item.adventurebackpack:hose_rightTank_drink.name=右侧储水箱 / 饮水模式
-item.adventurebackpack:hoseUseless.name=软管:无法使用 / 没有储水箱
+item.adventurebackpack:hose_rightTank_suck.name=软管：右侧侧储罐 / 吸取模式
+item.adventurebackpack:hose_rightTank_spill.name=软管：右侧储罐 / 喷洒模式
+item.adventurebackpack:hose_rightTank_drink.name=软管：右侧储罐 / 饮用模式
+item.adventurebackpack:hoseUseless.name=软管：无法使用 / 没有背包
 
 ## Wearables
 item.adventurebackpack:adventureBackpack.name=探险背包
@@ -47,7 +47,7 @@ blockCampFire.name=篝火
 blockSleepingBag.name=睡袋
 
 ## CreativeTab
-itemGroup.adventurebackpack=高级背包
+itemGroup.adventurebackpack=探险背包
 
 ## Keybindings
 keys.adventureBackpack.category=探险背包
@@ -64,37 +64,37 @@ adventurebackpack:messages.already.equipped.backpack=你已经装备了探险背
 adventurebackpack:messages.already.equipped.copterpack=你已经装备了直升机背包.
 adventurebackpack:messages.already.equipped.jetpack=你已经装备了煤喷气背包.
 adventurebackpack:messages.already.impossibru=你没有装备任何背包.
-adventurebackpack:messages.backpack.cant.bag=不能打开睡袋！检查周围区域.
+adventurebackpack:messages.backpack.cant.bag=无法打开睡袋！请检查周围区域.
 adventurebackpack:messages.cant.sleep.here=来自东方的神秘力量禁止你在这里入睡.
-adventurebackpack:messages.copterpack.hover=直升机背包: 悬停模式.
-adventurebackpack:messages.copterpack.normal=直升机背包: 正常模式.
-adventurebackpack:messages.copterpack.outoffuel=直升机背包: 燃料耗尽.
-adventurebackpack:messages.copterpack.cantwater=直升机背包: 不能在水中工作.
-adventurebackpack:messages.copterpack.off=直升机背包: 关闭.
-adventurebackpack:messages.jetpack.on=煤喷气背包: 开启.
-adventurebackpack:messages.jetpack.off=煤喷气背包: 关闭.
-adventurebackpack:messages.nightvision.on=夜视: 开启.
-adventurebackpack:messages.nightvision.off=夜视: 关闭.
-adventurebackpack:messages.cycling.on=工具循环: 开启.
-adventurebackpack:messages.cycling.off=工具循环: 关闭.
-adventurebackpack:messages.crossbow.outofammo=发条弩: 弹药耗尽.
+adventurebackpack:messages.copterpack.hover=直升机背包：悬停模式
+adventurebackpack:messages.copterpack.normal=直升机背包：常规模式
+adventurebackpack:messages.copterpack.outoffuel=直升机背包：燃料耗尽
+adventurebackpack:messages.copterpack.cantwater=直升机背包：不能在水中工作
+adventurebackpack:messages.copterpack.off=直升机背包：关闭
+adventurebackpack:messages.jetpack.on=煤喷气背包：开启
+adventurebackpack:messages.jetpack.off=煤喷气背包：关闭
+adventurebackpack:messages.nightvision.on=夜视：开启
+adventurebackpack:messages.nightvision.off=夜视：关闭
+adventurebackpack:messages.cycling.on=工具循环：开启
+adventurebackpack:messages.cycling.off=工具循环：关闭
+adventurebackpack:messages.crossbow.outofammo=发条弩：弹药耗尽
 
 ## Tooltips
 adventurebackpack:tooltips.on=开启
 adventurebackpack:tooltips.off=关闭
 adventurebackpack:tooltips.empty=空
-adventurebackpack:tooltips.meters=meters
+adventurebackpack:tooltips.meters=米
 adventurebackpack:tooltips.error=错误
 adventurebackpack:tooltips.steam=蒸汽
 adventurebackpack:tooltips.press=按
 adventurebackpack:tooltips.hold.shift=按住Shift
 adventurebackpack:tooltips.hold.ctrl=按住Ctrl
-adventurebackpack:tooltips.mouse.wheel=车轮
+adventurebackpack:tooltips.mouse.wheel=滚轮
 adventurebackpack:tooltips.max.altitude=最大海拔
 
 adventurebackpack:tooltips.backpack.slots.used=已用栏位
-adventurebackpack:tooltips.backpack.tank.left=左侧储水箱
-adventurebackpack:tooltips.backpack.tank.right=右侧储水箱
+adventurebackpack:tooltips.backpack.tank.left=左侧储罐
+adventurebackpack:tooltips.backpack.tank.right=右侧储罐
 adventurebackpack:tooltips.backpack.cycling=工具循环
 adventurebackpack:tooltips.backpack.cycling.key1=穿着时
 adventurebackpack:tooltips.backpack.cycling.key2=背包, 可循环
@@ -116,10 +116,10 @@ adventurebackpack:tooltips.copter.key.hover1=飞行期间
 adventurebackpack:tooltips.copter.key.hover2=切换悬停模式
 
 adventurebackpack:tooltips.hose.key.header=当手持软管时:
-adventurebackpack:tooltips.hose.key.tank=更换储水箱
+adventurebackpack:tooltips.hose.key.tank=更换储罐
 adventurebackpack:tooltips.hose.key.mode=切换模式
 adventurebackpack:tooltips.hose.dump1=将软管放入可穿戴背包的输出栏中
-adventurebackpack:tooltips.hose.dump2=清空对应储水箱
+adventurebackpack:tooltips.hose.dump2=清空对应储罐
 adventurebackpack:tooltips.hose.dump.warn=警告! 液体将被倾倒并丢失. 覆水难收.
 
 ## Skins

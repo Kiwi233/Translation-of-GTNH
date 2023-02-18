@@ -5,6 +5,11 @@
 // --- Importing Stuff ---
 
 
+// --- I18N ---
+val I18N_Warp_Theory_0 = "\u6c61\u79fd\u6cea\u6c34";
+val I18N_Warp_Theory_1 = "\u9b54\u6cd5\u836f\u5242";
+val I18N_Warp_Theory_2 = "\u7eaf\u51c0\u6cea\u6c34";
+val I18N_Warp_Theory_3 = "\u9b54\u6cd5\u836f\u5242";
 
 
 // --- Variables ---
@@ -66,8 +71,8 @@ mods.thaumcraft.Warp.addToResearch("warptheory.something", 3);
 mods.thaumcraft.Research.orphanResearch("warptheory.cleanserminor");
 mods.thaumcraft.Research.removeResearch("warptheory.cleanserminor");
 mods.thaumcraft.Research.addResearch("PURETEARMINOR", "WT_Category", "alienis 6, praecantatio 6, permutatio 4, sano 3, terra 2", -1 as int, -2 as int, 2, <WarpTheory:item.warptheory.cleanserminor>);
-game.setLocalization("tc.research_name.PURETEARMINOR", "\u6c61\u79fd\u6cea\u6c34");
-game.setLocalization("tc.research_text.PURETEARMINOR", "\u9b54\u6cd5\u836f\u5242");
+game.setLocalization("tc.research_name.PURETEARMINOR", I18N_Warp_Theory_0);
+game.setLocalization("tc.research_text.PURETEARMINOR", I18N_Warp_Theory_1);
 mods.thaumcraft.Research.addPrereq("PURETEARMINOR", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.addPrereq("PURETEARMINOR", "warptheory.paper", false);
 mods.thaumcraft.Research.addPage("PURETEARMINOR", "research.warptheory.warpcleanserminor");
@@ -81,8 +86,8 @@ mods.thaumcraft.Research.addInfusionPage("PURETEARMINOR", <WarpTheory:item.warpt
 mods.thaumcraft.Research.orphanResearch("warptheory.cleanser");
 mods.thaumcraft.Research.removeResearch("warptheory.cleanser");
 mods.thaumcraft.Research.addResearch("PURETEAR", "WT_Category", "alienis 12, praecantatio 12, permutatio 9, sano 6, terra 3", -4 as int, -1 as int, 3, <WarpTheory:item.warptheory.cleanser>);
-game.setLocalization("tc.research_name.PURETEAR", "\u7eaf\u51c0\u6cea\u6c34");
-game.setLocalization("tc.research_text.PURETEAR", "\u9b54\u6cd5\u836f\u5242");
+game.setLocalization("tc.research_name.PURETEAR", I18N_Warp_Theory_2);
+game.setLocalization("tc.research_text.PURETEAR", I18N_Warp_Theory_3);
 mods.thaumcraft.Research.addPrereq("PURETEAR", "ELDRITCHMAJOR", false);
 mods.thaumcraft.Research.addPrereq("PURETEAR", "warptheory.paper", false);
 mods.thaumcraft.Research.addPrereq("PURETEAR", "ICHORIUM", false);

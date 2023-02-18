@@ -9,6 +9,12 @@
 import mods.ic2.Compressor;
 
 
+// --- I18N ---
+val I18N_ThaumicTinkerer_02_Kami_0 = "\u6b21\u5143\u88c2\u7247";
+val I18N_ThaumicTinkerer_02_Kami_1 = "\u005b\u0054\u0054\u005d\u81ea\u65b0\u4e16\u754c\u7684\u73cd\u5947";
+val I18N_ThaumicTinkerer_02_Kami_2 = "\u7c7b\u4f3c\u4e3b\u4e16\u754c\u002c\u4e0b\u754c\u548c\u672b\u5730\u540c\u6837\u4e5f\u6709\u72ec\u7279\u7684\u6c34\u6676\u788e\u7247\u002c\u6709\u65f6\u5019\u5b83\u4eec\u4f1a\u6781\u5c11\u89c1\u5730\u51fa\u73b0\u5728\u539f\u4f4f\u6c11\u0028\u4e0b\u754c\u7684\u50f5\u5c38\u732a\u4eba\u6216\u8005\u672b\u5730\u7684\u672b\u5f71\u4eba\u0029\u624b\u4e2d\u002e\u8bd1\u8005\u6ce8\u003a\u539f\u4f4f\u6c11\u4e0d\u5305\u542b\u5176\u4ed6\u006d\u006f\u0064\u6dfb\u52a0\u7684\u002e<BR>\u4f60\u53d1\u73b0\u53ef\u4ee5\u901a\u8fc7\u6ce8\u9b54\u6765\u83b7\u5f97\u8fd9\u79cd\u788e\u7247\u002e\u0028\u975e\u914b\u798f\u97f3\u0029<BR><BR>\u003c\u0049\u004d\u0047\u003e\u0074\u0074\u0069\u006e\u006b\u0065\u0072\u0065\u0072\u003a\u0074\u0065\u0078\u0074\u0075\u0072\u0065\u0073\u002f\u0069\u0074\u0065\u006d\u0073\u002f\u006e\u0065\u0074\u0068\u0065\u0072\u0053\u0068\u0061\u0072\u0064\u002e\u0070\u006e\u0067\u003a\u0030\u003a\u0030\u003a\u0032\u0035\u0035\u003a\u0032\u0035\u0035\u003a\u0030\u002e\u0030\u0036\u0032\u0035\u003c\u002f\u0049\u004d\u0047\u003e\u003c\u0049\u004d\u0047\u003e\u0074\u0074\u0069\u006e\u006b\u0065\u0072\u0065\u0072\u003a\u0074\u0065\u0078\u0074\u0075\u0072\u0065\u0073\u002f\u0069\u0074\u0065\u006d\u0073\u002f\u0065\u006e\u0064\u0065\u0072\u0053\u0068\u0061\u0072\u0064\u002e\u0070\u006e\u0067\u003a\u0030\u003a\u0030\u003a\u0032\u0035\u0035\u003a\u0032\u0035\u0035\u003a\u0030\u002e\u0030\u0036\u0032\u0035\u003c\u002f\u0049\u004d\u0047\u003e";
+val I18N_ThaumicTinkerer_02_Kami_3 = "\u7075\u5b9d\u6756\u7aef";
+val I18N_ThaumicTinkerer_02_Kami_4 = "\u005b\u0054\u0054\u005d\u7c7b\u4f3c\u0053\u0074\u0065\u0061\u006d\u5e73\u53f0\u6298\u6263";
 
 
 // --- Variables ---
@@ -129,14 +135,12 @@ mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:placementMirror>);
 // --- Nether Shards
 mods.thaumcraft.Research.removeResearch("DIMENSION_SHARDS");
 mods.thaumcraft.Research.addResearch("DIMENSIONSHARDS", "TT_CATEGORY", "infernus 15, luxuria 15, superbia 15, gula 12, invidia 9, desidia 6, ira 3", 7, 8, 3, <ThaumicTinkerer:kamiResource:7>);
-game.setLocalization("tc.research_name.DIMENSIONSHARDS", "\u6b21\u5143\u88c2\u7247");
-game.setLocalization("tc.research_text.DIMENSIONSHARDS", "[TT]\u81ea\u65b0\u4e16\u754c\u7684\u73cd\u5947");
+game.setLocalization("tc.research_name.DIMENSIONSHARDS", I18N_ThaumicTinkerer_02_Kami_0);
+game.setLocalization("tc.research_text.DIMENSIONSHARDS", I18N_ThaumicTinkerer_02_Kami_1);
 mods.thaumcraft.Research.addPrereq("DIMENSIONSHARDS", "INFUSION", false);
 mods.thaumcraft.Research.setConcealed("DIMENSIONSHARDS", false);
 mods.thaumcraft.Research.addPage("DIMENSIONSHARDS", "tt.research.page.DIMENSIONSHARDS");
-game.setLocalization("tt.research.page.DIMENSIONSHARDS", "\u7c7b\u4f3c\u4e3b\u4e16\u754c\u002c\u4e0b\u754c\u548c\u672b\u5730\u540c\u6837\u4e5f\u6709\u72ec\u7279\u7684\u6c34\u6676\u788e\u7247\u002e
-\u6709\u65f6\u5019\u5b83\u4eec\u4f1a\u6781\u5c11\u89c1\u5730\u51fa\u73b0\u5728\u539f\u4f4f\u6c11\u0028\u4e0b\u754c\u7684\u50f5\u5c38\u732a\u4eba\u6216\u8005\u672b\u5730\u7684\u672b\u5f71\u4eba\u0029\u624b\u4e2d\u002e
-\u4f60\u53d1\u73b0\u53ef\u4ee5\u901a\u8fc7\u6ce8\u9b54\u6765\u83b7\u5f97\u8fd9\u79cd\u788e\u7247\u002e\u0028\u975e\u914b\u798f\u97f3\u0029<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>");
+game.setLocalization("tt.research.page.DIMENSIONSHARDS", I18N_ThaumicTinkerer_02_Kami_2);
 mods.thaumcraft.Infusion.addRecipe("DIMENSIONSHARDS", <minecraft:blaze_rod>,
 [<ForbiddenMagic:NetherShard>, <ForbiddenMagic:NetherShard:1>, <ForbiddenMagic:NetherShard:2>, <ForbiddenMagic:NetherShard:3>, <ForbiddenMagic:NetherShard:4>, <ForbiddenMagic:NetherShard:5>, <ForbiddenMagic:NetherShard:6>, <ForbiddenMagic:GluttonyShard>, <Thaumcraft:ItemShard>, <Thaumcraft:ItemShard:1>, <Thaumcraft:ItemShard:2>, <Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:5>, <Thaumcraft:ItemShard:6>],
 "infernus 8, praecantatio 8, vitreus 8, vitium 8, luxuria 8, superbia 8, gula 8, invidia 8, desidia 8, ira 8, alienis 8", <ThaumicTinkerer:kamiResource:6>, 8);
@@ -192,8 +196,8 @@ furnace.addRecipe(<gregtech:gt.metaitem.01:9978> * 9, <gregtech:gt.metaitem.01:1
 mods.thaumcraft.Research.orphanResearch("CAP_ICHOR");
 mods.thaumcraft.Research.removeResearch("CAP_ICHOR");
 mods.thaumcraft.Research.addResearch("CAP_ICHOR", "TT_CATEGORY", "cognitio 15, praecantatio 12, permutatio 9, instrumentum 6, terra 3", 11, 11, 4, <ThaumicTinkerer:kamiResource:4>);
-game.setLocalization("tc.research_name.CAP_ICHOR", "\u7075\u5b9d\u6756\u7aef");
-game.setLocalization("tc.research_text.CAP_ICHOR", "[TT]\u7c7b\u4f3c\u0053\u0074\u0065\u0061\u006d\u5e73\u53f0\u6298\u6263");
+game.setLocalization("tc.research_name.CAP_ICHOR", I18N_ThaumicTinkerer_02_Kami_3);
+game.setLocalization("tc.research_text.CAP_ICHOR", I18N_ThaumicTinkerer_02_Kami_4);
 mods.thaumcraft.Research.addPrereq("CAP_ICHOR", "ICHORIUM", false);
 mods.thaumcraft.Research.setConcealed("CAP_ICHOR", true);
 mods.thaumcraft.Research.addPage("CAP_ICHOR", "ttresearch.page.CAP_ICHOR.0");
