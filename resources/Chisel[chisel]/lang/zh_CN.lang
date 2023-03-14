@@ -6,11 +6,13 @@ stat.blockChiseled=錾制方块
 #Entity localizations
 entity.chisel.snowman.name=雪傀儡
 
+item.chisel.nomobspawnsonthisblock.desc=生物不会在这个方块上生成
+
 #Item localizations
 item.chisel.chisel_iron.name=凿子
 
 item.chisel.chisel.desc.gui=右键打开界面
-item.chisel.chisel.desc.lc1=左键方块进行雕刻
+item.chisel.chisel.desc.lc1=左键方块以直接在世界中进行雕刻
 item.chisel.chisel.desc.lc2=存放于凿子中的方块可定为雕刻目标
 item.chisel.chisel.desc.modes=拥有多种雕刻模式.
 

@@ -109,8 +109,7 @@ GT5U.machines.digitalchest.voidoverflow.disabled=溢出销毁：§a关闭§r
 GT5U.machines.digitalchest.inputfilter.enabled=输入过滤：§a开启§r
 GT5U.machines.digitalchest.inputfilter.disabled=输入过滤：§c关闭§r
 GT5U.machines.digitaltank.tooltip=可以存储%s升流体
-GT5U.machines.digitaltank.tooltip1=拆卸后可保留其中流体
-GT5U.machines.digitaltank.tooltip2=潜行拆卸可销毁内部流体
+GT5U.machines.digitaltank.tooltip1=拆卸后保留其中流体
 GT5U.machines.digitaltank.autooutput.tooltip=流体自动输出
 GT5U.machines.digitaltank.lockfluid.tooltip=流体锁定模式
 GT5U.machines.digitaltank.lockfluid.tooltip.1=§7锁定本容器，只接受一种流体
@@ -219,6 +218,11 @@ GT5U.item.programmed_circuit.no_screwdriver.0=想要再空手编程电路板,嗯
 GT5U.item.programmed_circuit.no_screwdriver.1=你的拇指不是螺丝刀.拿个真的过来.
 GT5U.item.programmed_circuit.no_screwdriver.2=Chuck Norris可以盯着电路板,然后电路板就自己再编程了. 但你不行.
 
+GT5U.item.cable.max_voltage=最大电压
+GT5U.item.cable.max_amperage=最大电流
+GT5U.item.cable.loss=线损/米/安
+GT5U.item.cable.eu_volt=伏
+
 GT5U.hatch.disableFilter.true=输入过滤：§c关闭§r
 GT5U.hatch.disableFilter.false=输入过滤：§a开启§r
 GT5U.hatch.disableMultiStack.true=多组输入：§c关闭§r
@@ -299,14 +303,24 @@ GT5U.interface.coverTabs.south=南
 GT5U.interface.coverTabs.west=西
 GT5U.interface.coverTabs.east=东
 
+# NEI
+nei.options.tools.dump.gt5u=GT5u
+nei.options.tools.dump.gt5u.metatileentity=元方块实体
+nei.options.tools.dump.gt5u.metatileentitys=MetaTileEntities
+nei.options.tools.dump.gt5u.material=Material
+nei.options.tools.dump.gt5u.materials=材料
+nei.options.tools.dump.gt5u.warn_env=You're outside of the pack. Some IDs present in the full pack might be missing in this dump.
+nei.options.tools.dump.gt5u.mode.0=可用
+nei.options.tools.dump.gt5u.mode.1=已使用
+
 # Waila
 GT5U.waila.cover=覆盖板 (%s)：%s
 GT5U.waila.cover.current_facing=当前朝向
 GT5U.waila.energy.stored=能量存储：§a%s§r EU / §e%s§r EU
-GT5U.waila.energy.avg_in=平均输入：§a%s§r EU
-GT5U.waila.energy.avg_out=平均输出：§c%s§r EU
-GT5U.waila.energy.use=可能耗电：§e%s§r EU
-GT5U.waila.energy.produce=可能发电：§a%s§r EU
+GT5U.waila.energy.avg_in=平均输入：§a%s§r EU/t (%s)
+GT5U.waila.energy.avg_out=平均输出：§c%s§r EU/t (%s)
+GT5U.waila.energy.use=可能耗电：§e%s§r EU/t (%s)
+GT5U.waila.energy.produce=可能发电：§a%s§r EU/t (%s)
 
 achievement.flintpick=第一把工具
 achievement.flintpick.desc=制造一把燧石镐
@@ -501,7 +515,7 @@ achievement.replication.desc=制造一台复制机
 achievement.tungstensteel=钨钢
 achievement.tungstensteel.desc=冷却一块热钨钢锭
 achievement.upgrade3=升级你的线圈(Lv.3)
-achievement.upgrade3.desc=制造一个钨钢线圈方块
+achievement.upgrade3.desc=制造一个钛铂钒线圈方块
 achievement.hssg=HSS-G
 achievement.hssg.desc=冷却一块热高速钢-G锭
 achievement.upgrade4=升级你的线圈(Lv.4)
@@ -783,6 +797,8 @@ achievement.gt.blockmachines.wireless.transmitter.tier.13.desc=捡起此物品�
 achievement.gt.blockmachines.wireless.transmitter.tier.14=MAX无线动力仓
 achievement.gt.blockmachines.wireless.transmitter.tier.14.desc=捡起此物品以在NEI内解锁该合成表
 
+achievement.gt.blockmachines.multimachine.oildrilinfinite=无尽油气流体钻机
+achievement.gt.blockmachines.multimachine.oildrilinfinite.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.blockmachines.multimachine.oreprocessor=集成矿石处理厂
 achievement.gt.blockmachines.multimachine.oreprocessor.desc=正在处理所有矿石.
 
@@ -802,6 +818,8 @@ achievement.gt.metaitem.01.32605=终极电池
 achievement.gt.metaitem.01.32605.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.metaitem.01.32609=真·终极电池
 achievement.gt.metaitem.01.32609.desc=捡起此物品以在NEI内解锁该合成表
+achievement.gt.metaitem.01.32594=极·终极电池
+achievement.gt.metaitem.01.32594.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.metaitem.01.32736=能量模块
 achievement.gt.metaitem.01.32736.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.metaitem.01.32737=能量簇

@@ -32,7 +32,7 @@ thaumicenergistics.item.essentia.cell.1k.name=1k-ME源质存储元件
 thaumicenergistics.item.essentia.cell.4k.name=4k-ME源质存储元件
 thaumicenergistics.item.essentia.cell.16k.name=16k-ME源质存储元件
 thaumicenergistics.item.essentia.cell.64k.name=64k-ME源质存储元件
-thaumicenergistics.item.essentia.cell.creative.name=创造源质存储元件
+thaumicenergistics.item.essentia.cell.creative.name=魔导源质存储元件
 thaumicenergistics.item.storage.casing.name=ME源质存储外壳
 thaumicenergistics.item.storage.component.1k.name=1k-ME源质存储组件
 thaumicenergistics.item.storage.component.4k.name=4k-ME源质存储组件
@@ -147,7 +147,7 @@ thaumicenergistics.research_page.TETHAUMGBOX.1=既然傀儡能代替你右击操
 # Research Certus Quartz Duplication
 tc.research_name.thaumicenergistics.TECERTUSDUPE=赛特斯石英复制
 tc.research_text.thaumicenergistics.TECERTUSDUPE=吃我炼金术
-thaumicenergistics.research_page.TECERTUSDUPE.1=你现在能用炼金术复制§l赛特苏石英§r和§l下界石英§r了.
+thaumicenergistics.research_page.TECERTUSDUPE.1=你现在能用炼金术复制§l赛特斯石英§r和§l下界石英§r了.
 
 # Research Knowledge Inscriber + Core
 tc.research_name.thaumicenergistics.TEKNOWLEDGEINSCRIBER=知识记录仪
@@ -172,7 +172,7 @@ tc.research_name.thaumicenergistics.TEESSVIBCMBR=源质谐振仓
 tc.research_text.thaumicenergistics.TEESSVIBCMBR=源质驱动网络
 thaumicenergistics.research_page.TEESSVIBCMBR.1=直到现在你的网络所需的能量还是要依赖§l谐振仓§r燃烧物品.是时候改变这一切了!<BR>你造出了一台可以释放源质中的能量的设备,它可以为谐振仓提供能量.现在只需要蒸馏出§lIgnis§r或§lPotentia§r源质,你就可以仅靠烧物品来驱动你的网络了.<BR>不过要注意一点,它也有和普通谐振仓一样的限制:若网络中有足够能源,它就会降低输出以避免浪费,但只要还有源质它就会一直反应下去.
 thaumicenergistics.research_page.TEESSVIBCMBR.2=§l§n操作§r<BR>将诸如煤炭之类的物品分解,以得到Ignis或Potentia源质,这些源质可以为你带来更多的能量.你最初的估计是,将煤炭分解成源质再使用源质谐振仓供能,相比于直接烧煤,可以带来约350%的效率提升.Potentia源质似乎比Ignis源质更具有开发潜力.<BR>§l源质谐振仓§r在没有源质时,可根据实际情况智能调整对源质的需求,将需求量稳定在一个正常的水平上.当存有源质时,它只会请求更多其存有的源质.
-thaumicenergistics.research_page.TEESSVIBCMBR.3=打开GUI后,其GUI会显示当前存储的源质种类,源质数量,正在处理的源质,剩余时间以及当前产能等级.<LINE>§l§n备注§r<BR>The §l源质谐振仓§r可置于§l源质终端§r中以快速填装源质.<BR>§l源质输出总线§r,§l源质储存总线§r和源质管道都可以为§l源质谐振仓§r源源不断提供源质.
+thaumicenergistics.research_page.TEESSVIBCMBR.3=打开GUI后,其GUI会显示当前存储的源质种类,源质数量,正在处理的源质,剩余时间以及当前产能等级.<LINE>§l§n备注§r<BR>§l源质谐振仓§r可置于§l源质终端§r中以快速填装源质.<BR>§l源质输出总线§r,§l源质储存总线§r和源质管道都可以为§l源质谐振仓§r源源不断提供源质.
 
 # Research Distillation Pattern Encoder
 tc.research_name.thaumicenergistics.TEDISTILLATIONPATTERNENCODER=蒸馏编码台

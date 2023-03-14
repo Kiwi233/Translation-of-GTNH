@@ -11,6 +11,7 @@ import mods.nei.NEI;
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Tinkers_Construct_0 = "\u53ef\u79cd\u690d\u4e8e\u7a7a\u7684\u0049\u0043\u0032\u4f5c\u7269\u67b6\u002e";
 
 // --- Variables ---

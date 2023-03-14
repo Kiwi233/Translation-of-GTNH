@@ -14,6 +14,7 @@ import mods.gregtech.Pulverizer;
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Ender_IO_0 = "\u51b7\u5374\u65f6\u95f4\u003a\u0032\u79d2";
 
 

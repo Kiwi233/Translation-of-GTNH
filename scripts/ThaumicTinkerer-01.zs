@@ -14,6 +14,7 @@ import mods.gregtech.PrecisionLaser;
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_ThaumicTinkerer_01_0 = "\u77e5\u8bc6\u5171\u4eab\u4e4b\u4e66";
 val I18N_ThaumicTinkerer_01_1 = "\u005b\u0054\u0054\u005d\u91d1\u9c7c\u7684\u65e5\u8bb0";
 val I18N_ThaumicTinkerer_01_2 = "\u70df\u9ed1\u77f3\u82f1";

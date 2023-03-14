@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Renaming_0 = "\u79c1\u4eba\u672b\u5f71\u7bb1\u5b50";
 val I18N_Renaming_1 = "\u4e13\u5c5e\u4e8e\u4e2a\u4eba";
 val I18N_Renaming_2 = "\u65e0\u5c3d\u5f15\u64ce";

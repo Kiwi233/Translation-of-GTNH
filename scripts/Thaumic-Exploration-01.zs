@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Thaumic_Exploration_01_0 = "\u788e\u7247\u6307\u73af";
 val I18N_Thaumic_Exploration_01_1 = "\u9b54\u529b\u51cf\u514d";
 val I18N_Thaumic_Exploration_01_2 = "\u7f50\u5b50\u5c01\u8721";

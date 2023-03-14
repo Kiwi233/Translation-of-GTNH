@@ -18,6 +18,7 @@ import mods.thaumcraft.Warp;
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Extra_Utilities_0 = "\u50cf\u9e1f\u513f\u4e00\u6837\u81ea\u7531\u002e\u002e\u002e\u0028\u7406\u8bba\u0029";
 val I18N_Extra_Utilities_1 = "\u005b\u0045\u0078\u0055\u005d\u5347\u7a7a\u4e4b\u9014\u0020\u002d\u0020\u0049";
 val I18N_Extra_Utilities_2 = "\u5236\u5f97\u4e86\u6216\u662f\u62a2\u5230\u4e86\u4f60\u7684\u7b2c\u4e00\u4e2a\u76f4\u5347\u673a\u80cc\u5305\u002c\u8fd8\u662f\u66f4\u5e38\u7528\u7684\u55b7\u6c14\u80cc\u5305\u003f\u5f88\u5f00\u5fc3\u5427\u003f<BR>\u6b63\u5728\u4e3a\u55b7\u6c14\u80cc\u5305\u9700\u8981\u67d0\u79cd\u71c3\u6599\u6216\u80fd\u91cf\u624d\u80fd\u5de5\u4f5c\u800c\u5934\u75bc\u003f<BR>\u4e3a\u4e86\u83b7\u5f97\u4e0d\u53d7\u9650\u5236\u7684\u98de\u884c\u80fd\u529b\u002c\u4e00\u4f4d\u795e\u79d8\u4f7f\u4f1a\u4ed8\u51fa\u4ec0\u4e48\u003f<BR>\u6bd4\u5982\u4e00\u4e9b\u00a7\u006f\u626d\u66f2\u00a7\u0072\u003f\u6682\u65f6\u8fd8\u6ca1\u6709\u002c\u53ef\u80fd\u7a0d\u540e\u003f<BR>\u4f46\u73b0\u5728\u002c\u4f60\u8be5\u600e\u4e48\u505a\u624d\u80fd\u5b9e\u73b0\u00a7\u006f\u50cf\u9e1f\u513f\u4e00\u6837\u81ea\u7531\u00a7\u0072\u003f\u4f60\u5e94\u8be5\u8fd8\u8bb0\u5f97\u4f0a\u5361\u6d1b\u65af\u548c\u4ed6\u7684\u906d\u9047\u5427\u003f<BR>\u8bd1\u8005\u6ce8\u003a\u5e0c\u814a\u795e\u8bdd\u4f0a\u5361\u6d1b\u65af\u002c\u4f7f\u7528\u8721\u548c\u7fbd\u6bdb\u5236\u9020\u7684\u7fbd\u7ffc\u9003\u79bb\u514b\u91cc\u7279\u5c9b\u65f6\u002c\u4ed6\u56e0\u98de\u5f97\u592a\u9ad8\u53cc\u7ffc\u4e0a\u7684\u8721\u906d\u592a\u9633\u878d\u5316\u800c\u8dcc\u843d\u6c34\u4e2d\u4e27\u751f\u002e";
@@ -1063,13 +1064,13 @@ recipes.addShaped(<ExtraUtilities:spike_base_diamond> * 2, [
 recipes.addShaped(<ExtraUtilities:builderswand>, [
 [null, null, <ore:ingotUnstable>],
 [null, <ore:ingotUnstable>, null],
-[<RandomThings:ingredient:1>, null, null]]);
+[<ore:stickObsidian>, null, null]]);
 
 // --- Super Builder Wand
 recipes.addShaped(<ExtraUtilities:creativebuilderswand>, [
 [null, <ore:ingotUnstable>, <ore:ingotUnstable>],
 [null, <ore:ingotUnstable>, <ore:ingotUnstable>],
-[<RandomThings:ingredient:1>, null, null]]);
+[<ore:stickObsidian>, null, null]]);
 
 // --- Precision Shears
 recipes.addShaped(<ExtraUtilities:shears>, [
@@ -1374,37 +1375,37 @@ Infusion.addRecipe("EXURINGS_CRAFTING", ARInvisableWings, [SalisMundus, RoseGold
 
 // --- Research I: Flavor Text
 Research.addResearch("EXURINGS", "ARTIFICE", "praecantatio 10, volatus 10, tempestas 100, nebrisum 10, motus 10, terminus 10", 1, -5 as int, 16, TravelWingsImage);
-game.setLocalization("en_US", "tc.research_name.EXURINGS", I18N_Extra_Utilities_0);
-game.setLocalization("en_US", "tc.research_text.EXURINGS", I18N_Extra_Utilities_1);
+game.setLocalization(_I18N_Lang, "tc.research_name.EXURINGS", I18N_Extra_Utilities_0);
+game.setLocalization(_I18N_Lang, "tc.research_text.EXURINGS", I18N_Extra_Utilities_1);
 Research.setRound("EXURINGS", true);
 Research.setConcealed("EXURINGS", true);
 Research.addPrereq("EXURINGS", "INFUSION", true);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.1");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.1", I18N_Extra_Utilities_2);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS.1", I18N_Extra_Utilities_2);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.2");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.2", I18N_Extra_Utilities_3);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS.2", I18N_Extra_Utilities_3);
 
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.3");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.3", I18N_Extra_Utilities_4);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS.3", I18N_Extra_Utilities_4);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.4");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.4", I18N_Extra_Utilities_5);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS.4", I18N_Extra_Utilities_5);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.5");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.5", I18N_Extra_Utilities_6);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS.5", I18N_Extra_Utilities_6);
 Research.addPage("EXURINGS", "tc.research_page.EXURINGS.6");
-game.setLocalization("en_US", "tc.research_page.EXURINGS.6", I18N_Extra_Utilities_7);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS.6", I18N_Extra_Utilities_7);
 
 // --- Research II: Angel Rings (crafting)
 Research.addResearch("EXURINGS_CRAFTING", "ARTIFICE", "praecantatio 10, volatus 10, tempestas 10, nebrisum 10, motus 10, terminus 10", -1 as int, -5 as int, 16, ARInvisableWings);
-game.setLocalization("en_US", "tc.research_name.EXURINGS_CRAFTING", I18N_Extra_Utilities_8);
-game.setLocalization("en_US", "tc.research_text.EXURINGS_CRAFTING", I18N_Extra_Utilities_9);
+game.setLocalization(_I18N_Lang, "tc.research_name.EXURINGS_CRAFTING", I18N_Extra_Utilities_8);
+game.setLocalization(_I18N_Lang, "tc.research_text.EXURINGS_CRAFTING", I18N_Extra_Utilities_9);
 Research.addPrereq("EXURINGS_CRAFTING", "EXURINGS", false);
 Research.setConcealed("EXURINGS_CRAFTING", true);
 Warp.addToResearch("EXURINGS_CRAFTING", 16);
 Research.addPage("EXURINGS_CRAFTING", "tc.research_page.EXURINGS_CRAFTING.1");
-game.setLocalization("en_US", "tc.research_page.EXURINGS_CRAFTING.1", I18N_Extra_Utilities_10);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS_CRAFTING.1", I18N_Extra_Utilities_10);
 Research.addInfusionPage("EXURINGS_CRAFTING", ARInvisableWings);
 Research.addPage("EXURINGS_CRAFTING", "tc.research_page.EXURINGS_CRAFTING.2");
-game.setLocalization("en_US", "tc.research_page.EXURINGS_CRAFTING.2", I18N_Extra_Utilities_11);
+game.setLocalization(_I18N_Lang, "tc.research_page.EXURINGS_CRAFTING.2", I18N_Extra_Utilities_11);
 Research.addInfusionPage("EXURINGS_CRAFTING", ARFeatheryWings);
 Research.addInfusionPage("EXURINGS_CRAFTING", ARFairyWings);
 Research.addInfusionPage("EXURINGS_CRAFTING", ARDragonWings);

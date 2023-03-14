@@ -516,6 +516,8 @@ item.PlutoGlowstoneDust.name=冥王星萤石粉
 
 potion.radiation=恒星辐射
 
+tooltip.spacesuit=提供宇航服功能
+
 gui.schematic4.desc=4阶火箭
 gui.schematic5.desc=5阶火箭
 gui.schematic6.desc=6阶火箭
@@ -653,6 +655,10 @@ gt.blockmachines.multimachine.gs.elevator.lore1=上升到太空
 gt.blockmachines.multimachine.gs.elevator.lore2=你最喜欢太空的哪一点？我喜欢每一点.
 gt.blockmachines.multimachine.gs.elevator.lore3=让所有虚空采矿场都失业
 gt.blockmachines.multimachine.gs.elevator.gui.numOfModules=已安装的模块
+gt.blockmachines.multimachine.gs.elevator.gui.ready=准备运行.
+gt.blockmachines.multimachine.gs.elevator.gui.noRecipe=未启动任何操作.
+gt.blockmachines.multimachine.gs.elevator.gui.recipe=营业的.
+gt.blockmachines.multimachine.gs.elevator.gui.config=配置:
 achievement.gt.blockmachines.spaceelevator=太空电梯
 achievement.gt.blockmachines.spaceelevator.desc=星际运输的又一个里程碑
 
@@ -674,6 +680,11 @@ gt.blockmachines.multimachine.project.gs.miner.desc0=将太空采矿功能添加
 gt.blockmachines.multimachine.project.gs.miner.cfgi.0=距离
 gt.blockmachines.multimachine.project.gs.miner.cfgi.1=最大并行
 gt.blockmachines.multimachine.project.gs.miner.cfgi.2=过载
+gt.blockmachines.multimachine.project.gs.miner.cfgi.4=模式
+gt.blockmachines.multimachine.project.gs.miner.cfgi.4.1=静态
+gt.blockmachines.multimachine.project.gs.miner.cfgi.4.2=周期
+gt.blockmachines.multimachine.project.gs.miner.cfgi.5=范围
+gt.blockmachines.multimachine.project.gs.miner.cfgi.6=步
 gt.blockmachines.multimachine.project.gs.cfgo.0=已存储能量
 gt.blockmachines.multimachine.project.gs.miner.t1.desc1=前有伟大宝藏,超乎你的想象!
 gt.blockmachines.multimachine.project.gs.miner.t2.desc1=这是不是侵害了无人机的权利?
@@ -701,16 +712,21 @@ gs.nei.spacemining.computation=算力：
 gs.nei.spacemining.weight=权重：
 
 gt.blockmachines.multimachine.project.gs.pump.t1.name=太空钻机模块MK-I
+gt.blockmachines.multimachine.project.gs.pump.t2.name=太空钻机模块MK-II
 gt.blockmachines.multimachine.project.gs.pump.desc0=将太空钻机功能添加到太空电梯
 gt.blockmachines.multimachine.project.gs.pump.t1.desc1=吸干气态行星从未如此简单
-gt.blockmachines.multimachine.project.gs.pump.desc3=火箭控制电脑等级与设定的气体类型决定了输出的流体
-gt.blockmachines.multimachine.project.gs.pump.cfgi.0=气体类型
-gt.blockmachines.multimachine.project.gs.pump.cfgi.1=最大并行
+gt.blockmachines.multimachine.project.gs.pump.t2.desc1=真的很糟糕
+gt.blockmachines.multimachine.project.gs.pump.desc3=设定的行星和气体类型决定了输出的流体
+gt.blockmachines.multimachine.project.gs.pump.t2.desc4=一次处理多达4种不同的配方
+gt.blockmachines.multimachine.project.gs.pump.cfgi.0=行星类型
+gt.blockmachines.multimachine.project.gs.pump.cfgi.1=气体类型
+gt.blockmachines.multimachine.project.gs.pump.cfgi.2=并行
 achievement.gt.blockmachines.projectmodulepumpt1=太空电梯钻机模块MK-I
 achievement.gt.blockmachines.projectmodulepumpt1.desc=让我们从气态行星里抽点东西出来
+achievement.gt.blockmachines.projectmodulepumpt2.desc=S U C K
 gs.nei.elevatorpump.name=太空钻机模块
-gs.nei.elevatorpump.computer=电脑
-gs.nei.elevatorpump.gastype=类型
+gs.nei.elevatorpump.planettype=行星
+gs.nei.elevatorpump.gastype=气体
 gs.nei.elevatorpump.amount=总量
 gs.nei.elevatorpump.see_all=查看全部
 
@@ -782,7 +798,12 @@ gs.elevator.structure.AnyBaseCasingWith1Dot=任意太空电梯基座机械方块
 gs.elevator.structure.AnyBaseCasingWith2Dot=任意太空电梯基座机械方块(提示方块：2号)
 gs.elevator.structure.AnyBaseCasingWith3Dot=任意太空电梯基座机械方块(提示方块：3号)
 gs.elevator.structure.TooComplex=结构太复杂了！
+gs.structure.contributors=参与者
+gs.structure.programming=程序设计
+gs.structure.design=设计图案
+gs.structure.specialThanks=特别感谢
 gs.structure.author=添加者：
+gs.structure.moreContributors=检查所有参与者的控制器面板
 gs.structure.and=和
 
 gs.elevator.project.desc=工程

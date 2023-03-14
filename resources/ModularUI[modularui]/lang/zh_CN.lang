@@ -1,22 +1,30 @@
 modularui.test=测试文本\n第二行
-modularui.tooltip.shift=§b按住Shift
+modularui.tooltip.shift=§b按住Shift获取更多信息
 modularui.increment.tooltip=§7点击将数字增加§6%d§7\n按住shift[§6%d§7]，ctrl[§6%d§7]或者shift+ctrl[§6%d§7]
 modularui.decrement.tooltip=§7点击将数字减少§6%d§7\n按住shift[§6%d§7]，ctrl[§6%d§7]或者shift+ctrl[§6%d§7]
 modularui.amount=§9数量：%,d
 modularui.fluid.empty=空
 modularui.fluid.amount=§9数量：%,d/%,d L
+modularui.fluid.capacity=§9容量: %,d L
 modularui.fluid.phantom.amount=§9数量：%,d L
 modularui.fluid.phantom.control=§7向上滚动鼠标滚轮增加数量，向下减少。\nShift[§6x10§7],Ctrl[§ex100§7],Shift+Ctrl[§ax1000§7]\n右键增加数量，左键减少.\nShift + 左键清空。
 modularui.item.phantom.control=§7向上滚动鼠标滚轮增加数量，向下减少。\n§7Shift[§6x8§7],Ctrl[§ex64§7],Shift+Ctrl[§ax512§7]\n§7右键增加数量，左键减少.\n§7Shift + 左键清空。
+modularui.fluid.registry=§7注册信息: %s
+modularui.fluid.temperature=§c温度: %,d K
+modularui.fluid.state=§a状态: %s
+modularui.fluid.gas=气体
+modularui.fluid.liquid=液体
 modularui.phantom.single.clear=§8左键移除
+modularui.dropdown.select=选择...
 
-modularui.fluid.click_to_fill=手持流体容器§b左键§7以§b填充§7超级缸(Shift+点击来操作一整组).
-modularui.fluid.click_combined=手持流体容器§c右键§7或者§b左键§7以§c清空§7或者§b填充§7超级缸(Shift+点击来操作一整组).
-modularui.fluid.click_to_empty=手持流体容器§c右键§7以§c清空§7或者超级缸(Shift+点击来操作一整组).
+modularui.fluid.click_to_fill=手持流体容器§b左键§7以§b填充§7超级缸\n每次点击§b右键§7处理1个物品.
+modularui.fluid.click_combined=手持流体容器§b左键§7以§b填充§7或§c清空§7超级缸\n每次点击§b右键§7处理1个物品.
+modularui.fluid.click_to_empty=手持流体容器§c左键§7以§c清空§7超级缸\n每次点击§b右键§7处理1个物品.
 
 modularui.config.animations=动画
 modularui.config.rendering=渲染
 modularui.config.keyboard=键盘
+modularui.config.json=Json
 modularui.config.debug=调试
 
 modularui.config.animations.openCloseDurationMs=动画持续时间
@@ -37,6 +45,8 @@ modularui.config.keyboard.escRestoreLastText=使用Esc键以恢复上次输入�
 modularui.config.keyboard.escRestoreLastText.tooltip=当按下Esc键时是否恢复上次输入的文本
 modularui.config.keyboard.closeWindowsAtOnce=立即关闭窗口
 modularui.config.keyboard.closeWindowsAtOnce.tooltip=是否立即关闭所有打开的窗口
+modularui.config.json.useJson=使用 Json
+modularui.config.json.useJson.tooltip=是否启用 Json. 启用它会延长加载时间.
 modularui.config.debug.debug=启用调试
 modularui.config.debug.debug.tooltip=启用显示调试信息
 modularui.config.debug.forceEnableDebugBlock=启用调试方块

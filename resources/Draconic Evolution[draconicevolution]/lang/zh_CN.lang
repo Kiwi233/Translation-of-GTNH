@@ -10,6 +10,7 @@ tile.draconicevolution:particleGenerator.name=粒子发生器
 tile.draconicevolution:playerDetector.name=玩家探测器
 tile.draconicevolution:playerDetectorAdvanced.name=高级玩家探测器
 tile.draconicevolution:energyInfuser.name=能量注入器
+tile.draconicevolution:earth.name=地
 tile.draconicevolution:customSpawner.name=稳定刷怪笼
 tile.draconicevolution:longRangeDislocator1.name=创造错位宝石
 tile.draconicevolution:longRangeDislocator0.name=长距离错位宝石
@@ -427,13 +428,13 @@ key.toggleFlight=切换创造飞行模式
 key.toggleMagnet=开关物品错位器
 
 //Damage ----------------------------------------------------------------------------------------------------------------------------------------
-death.attack.chaos=被混沌守卫撕裂
-death.attack.damage.de.fusionExplode=被爆发的高能量融合物蒸发
-death.attack.chaosBurst=被暗能量毁灭
+death.attack.chaos=%1$s被混沌守卫撕裂
+death.attack.damage.de.fusionExplode=%1$s被爆发的高能量融合物蒸发
+death.attack.chaosBurst=%1$s被暗能量毁灭
 
-death.attack.de.GuardianFireball=被混沌守卫燃烧炸死
-death.attack.de.GuardianEnergyBall=像一只小虫子一样被混沌守卫击溃
-death.attack.de.GuardianChaosBall=被混沌守卫的暗能量覆灭
+death.attack.de.GuardianFireball=%1$s被混沌守卫燃烧炸死
+death.attack.de.GuardianEnergyBall=%1$s像一只小虫子一样被混沌守卫击溃
+death.attack.de.GuardianChaosBall=%1$s被混沌守卫的暗能量覆灭
 
 death.attack.chaosImplosion=被拉进一个能量漩涡，被永远的遗忘
 death.attack.chrystalMoved=太顽皮而被龙息惩罚
