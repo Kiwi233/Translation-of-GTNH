@@ -20,6 +20,7 @@ import mods.gregtech.Slicer;
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Minecraft_0 = "\u81f4\u5bc6\u9668\u94c1\u677f";
 val I18N_Minecraft_1 = "\u81f4\u5bc6\u94dc\u677f";
 val I18N_Minecraft_2 = "\u81f4\u5bc6\u9521\u677f";

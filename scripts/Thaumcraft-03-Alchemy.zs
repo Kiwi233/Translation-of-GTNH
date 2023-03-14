@@ -11,6 +11,7 @@ import mods.gregtech.Pulverizer;
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Thaumcraft_03_Alchemy_0 = "\u6728\u70ad\u7c89\u548c\u8910\u7164\u7c89\u4e5f\u53ef\u7528\u4e8e\u5408\u6210\u002c\u53ea\u662f\u004d\u0054\u53ea\u80fd\u663e\u793a\u4e00\u79cd\u5408\u6210\u8868\u002e";
 
 // --- Variables ---

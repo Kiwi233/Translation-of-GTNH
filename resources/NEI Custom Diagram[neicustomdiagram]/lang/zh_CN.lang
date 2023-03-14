@@ -18,6 +18,8 @@ neicustomdiagram.util.gregtech5.outputchance=几率：%.2f%%
 neicustomdiagram.util.gregtech5.recipecleanroom=合成表要求超净间
 neicustomdiagram.util.gregtech5.recipelowgravity=合成表要求低重力
 
+neicustomdiagram.generators.debug.nbtviewer.groupname=NBT 浏览器
+
 neicustomdiagram.generators.debug.ruler.groupname=Debug规则
 neicustomdiagram.generators.debug.ruler.slotlabel=格 (%02d, %02d)
 
@@ -129,6 +131,7 @@ neicustomdiagram.generators.gregtech5.materialparts.gemsslot=宝石
 neicustomdiagram.generators.gregtech5.materialparts.gemslot=宝石
 neicustomdiagram.generators.gregtech5.materialparts.lensslot=透镜
 neicustomdiagram.generators.gregtech5.materialparts.dustsslot=粉
+neicustomdiagram.generators.gregtech5.materialparts.nanitesslot=纳米蜂群
 neicustomdiagram.generators.gregtech5.materialparts.ingotsslot=锭
 neicustomdiagram.generators.gregtech5.materialparts.hotingotslot=热锭
 neicustomdiagram.generators.gregtech5.materialparts.multiingotsslot=多重锭
@@ -207,6 +210,7 @@ neicustomdiagram.generators.gregtech5.recipedebugger.unnecessarycircuitrecipesbu
 neicustomdiagram.generators.gregtech5.recipedebugger.collidingrecipesbutton=输入冲突的合成表
 neicustomdiagram.generators.gregtech5.recipedebugger.voidingrecipesbutton=销毁输入的合成表
 neicustomdiagram.generators.gregtech5.recipedebugger.unequalcellrecipesbutton=输出不等单元的合成表
+neicustomdiagram.generators.gregtech5.recipedebugger.smallvariantrecipesbutton=包含小撮/小堆粉或粒的合成表
 neicustomdiagram.generators.gregtech5.recipedebugger.orewashingplantlabel=洗矿机合成表
 neicustomdiagram.generators.gregtech5.recipedebugger.thermalcentrifugelabel=热力离心机合成表
 neicustomdiagram.generators.gregtech5.recipedebugger.compressorlabel=压缩机合成表

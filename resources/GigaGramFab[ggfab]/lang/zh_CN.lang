@@ -11,6 +11,11 @@ ggfab.waila.advassline.slice=片#%s: %s s / %s s
 ggfab.waila.advassline.slice.small=片#%s: %s t / %s t
 ggfab.waila.advassline.slice.idle=片#%s: 待机
 ggfab.waila.advassline.slice.stuck=片#%s: §4堵塞
-ggfab.info.advassline.slice=片详情
+
+ggfab.info.linked_input_bus.no_channel=尚未指定频道!
 
 ggfab.info.biome=生物群系：
+
+ggfab.tooltip.linked_input_bus.change_freq_warn=当这是此频道上的最后一个频道时，更改频道将溢出所有剩余项目!
+ggfab.tooltip.linked_input_bus.private=私人频道不与他人共享.
+ggfab.tooltip.linked_input_bus.private.1=当这是此频道上的最后一个频道时，更改频道将溢出所有剩余项目!

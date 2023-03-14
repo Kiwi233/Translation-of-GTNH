@@ -17,6 +17,7 @@ import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_AE2_0 = "\u004d\u0045\u5b58\u50a8\u5916\u58f3";
 
 // --- Variables ---

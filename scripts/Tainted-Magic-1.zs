@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Tainted_Magic_1_0 = "\u6697\u5f71\u91d1\u5c5e";
 val I18N_Tainted_Magic_1_1 = "\u543e\u5df2\u7aa5\u89c1\u771f\u76f8";
 val I18N_Tainted_Magic_1_2 = "\u4e0d\u5e73\u8861\u788e\u7247";

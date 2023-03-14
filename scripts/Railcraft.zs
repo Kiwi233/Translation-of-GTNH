@@ -20,6 +20,7 @@ import mods.gregtech.Wiremill;
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Railcraft_0 = "\u5170\u6ce2\u987f\u88c5\u8f7d\u5347\u7ea7\u63d2\u4ef6";
 val I18N_Railcraft_1 = "\u94c5\u677f";
 

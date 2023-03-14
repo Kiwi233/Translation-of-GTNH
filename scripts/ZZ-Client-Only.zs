@@ -10,6 +10,7 @@ import mods.gregtech.FormingPress;
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_ZZ_Client_Only_0 = "\u5730\u72f1\u76ae\u6811\u76d2\u5b50";
 
 
