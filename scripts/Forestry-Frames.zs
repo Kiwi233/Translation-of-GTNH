@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Forestry_Frames_0 = "\u003c\u6309\u4f4f\u0020\u0053\u0068\u0069\u0066\u0074\u003e";
 val I18N_Forestry_Frames_1 = "\u8010\u4e45\u003a";
 val I18N_Forestry_Frames_2 = "\u6d3b\u52a8\u8303\u56f4\u003a";

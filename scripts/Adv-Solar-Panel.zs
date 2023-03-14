@@ -10,6 +10,7 @@ import mods.nei.NEI;
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Adv_Solar_Panel_0 = "\u5149\u8f89\u5f3a\u5316\u94f1\u94c1\u5408\u91d1\u677f";
 
 
@@ -96,7 +97,7 @@ recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:5> * 4, [
 // --- Quantum Core
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:13>, [
 [<AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateNetherStar>, <AdvancedSolarPanel:asp_crafting_items:4>],
-[<ore:plateNetherStar>, <dreamcraft:item.NanoCircuit>, <ore:plateNetherStar>],
+[<ore:plateNetherStar>, <ore:circuitOptical>, <ore:plateNetherStar>],
 [<AdvancedSolarPanel:asp_crafting_items:4>, <ore:plateNetherStar>, <AdvancedSolarPanel:asp_crafting_items:4>]]);
 
 // --- Advanced Solar Panel

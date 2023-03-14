@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_GraviSuite_0 = "\u8d85\u5bfc\u7ebf\u7f06\u7edd\u7f18\u5c42";
 val I18N_GraviSuite_1 = "\u8d85\u5bfc\u7ebf\u7f06";
 val I18N_GraviSuite_2 = "\u51b7\u5374\u6838\u5fc3";
@@ -50,7 +51,7 @@ recipes.remove(<GraviSuite:graviTool>);
 recipes.remove(<GraviSuite:ultimateLappack>);
 
 // --- Epic Lappack
-recipes.remove(<GraviSuite:epicLappack:*>);
+recipes.remove(<gravisuiteneo:epicLappack:*>);
 
 
 // --- Add Recipes ---
@@ -110,7 +111,7 @@ recipes.addShaped(<GraviSuite:ultimateLappack:27>, [
 [<ore:circuitMaster>, <ore:wireGt16NiobiumTitanium>, <ore:circuitMaster>]]);
 
 // --- Epic Lappack
-recipes.addShaped(<GraviSuite:epicLappack:27>, [
+recipes.addShaped(<gravisuiteneo:epicLappack:27>, [
 [<dreamcraft:item.IridiumAlloyItemCasing>, <gregtech:gt.metaitem.01:32599>, <dreamcraft:item.IridiumAlloyItemCasing>],
 [<gregtech:gt.metaitem.01:32599>, <GraviSuite:ultimateLappack:*>, <gregtech:gt.metaitem.01:32599>],
 [<ore:circuitUltimate>, <ore:wireGt16SuperconductorZPM>, <ore:circuitUltimate>]]);

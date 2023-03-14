@@ -29,6 +29,7 @@ import mods.nei.NEI;
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Gregtech_0 = "\u5de5\u4f5c\u533a\u57df\u534a\u5f84\u4e3a\u0031\u0036\u683c\u002c\u5373\u603b\u5171\u0034\u533a\u5757";
 val I18N_Gregtech_1 = "\u5de5\u4f5c\u533a\u57df\u534a\u5f84\u4e3a\u0033\u0032\u683c\u002c\u5373\u603b\u5171\u0031\u0036\u533a\u5757";
 val I18N_Gregtech_2 = "\u5de5\u4f5c\u533a\u57df\u534a\u5f84\u4e3a\u0034\u0038\u683c\u002c\u5373\u603b\u5171\u0033\u0036\u533a\u5757";
@@ -381,7 +382,7 @@ recipes.remove(<gregtech:gt.blockmachines:1145>);
 
 // --- Teleporter
 recipes.addShaped(<gregtech:gt.blockmachines:1145>,[
-[<dreamcraft:item.NanoCircuit>,<SGCraft:ic2PowerUnit>,<dreamcraft:item.NanoCircuit>],
+[<ore:circuitOptical>,<SGCraft:ic2PowerUnit>,<ore:circuitOptical>],
 [<SGCraft:ic2Capacitor>,<SGCraft:stargateBase>,<SGCraft:ic2Capacitor>],
 [<SGCraft:ic2Capacitor>,<SGCraft:ocInterface>,<SGCraft:ic2Capacitor>]]);
 

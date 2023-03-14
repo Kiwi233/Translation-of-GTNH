@@ -2,6 +2,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Blood_Magic_Thaumcraft_0 = "\u8840\u9b54\u6cd5";
 val I18N_Blood_Magic_Thaumcraft_1 = "\u8840\u4e4b\u796d\u575b";
 val I18N_Blood_Magic_Thaumcraft_2 = "\u005b\u0042\u004d\u005d\u9ad8\u6602\u7684\u4ee3\u4ef7";
@@ -40,6 +41,8 @@ val I18N_Blood_Magic_Thaumcraft_34 = "\u8840\u4e4b\u796d\u575b\u7684\u5bb9\u91cf
 val I18N_Blood_Magic_Thaumcraft_35 = "\u7b2c\u4e00\u6b21\u5347\u7ea7\u65e0\u975e\u662f\u5728\u796d\u575b\u4e0b\u65b9\u4e00\u5c42\u6269\u5c55\u0033\u0078\u0033\u65b9\u5757\u002e\u4f60\u53ef\u4ee5\u4f7f\u7528\u7b80\u5355\u7684\u5360\u4f4d\u65b9\u5757\u002c\u5373\u6240\u8c13\u7684\u6c14\u8840\u7b26\u6587\u002c\u4e0d\u8fc7\u4f60\u5df2\u7ecf\u901a\u8fc7\u53cd\u590d\u7684\u5b9e\u9a8c\u53d1\u73b0\u002c\u53ef\u4ee5\u901a\u8fc7\u6ce8\u9b54\u002c\u5c06\u6b63\u786e\u7684\u7269\u54c1\u4e0e\u5492\u7b26\u5173\u6ce8\u5176\u4e2d\u002c\u5bf9\u5176\u8fdb\u884c\u6539\u8fdb\u5347\u7ea7\u002e<BR><BR>\u5728\u8bb8\u591a\u5c1d\u8bd5\u4e0e\u5b9e\u9a8c\u4e2d\u002c\u7b2c\u4e00\u4e2a\u6210\u529f\u7684\u662f\u901f\u5ea6\u7b26\u6587\u002c\u5b83\u53ef\u4ee5\u5c06\u796d\u575b\u7684\u5904\u7406\u901f\u5ea6\u63d0\u9ad8\u0032\u0035\u0025\u002c\u4e14\u53ef\u4e0e\u796d\u575b\u4e2d\u7684\u4efb\u610f\u5176\u4ed6\u7b26\u6587\u4e92\u6362\u4f7f\u7528\u002e\u796d\u575b\u7b49\u7ea7\u8d8a\u9ad8\u002c\u6240\u5bb9\u7eb3\u7684\u7b26\u6587\u5c31\u8d8a\u591a\u002e";
 val I18N_Blood_Magic_Thaumcraft_36 = "\u4e0d\u5b8c\u5584\u7684\u4eea\u5f0f\u77f3";
 val I18N_Blood_Magic_Thaumcraft_37 = "\u005b\u0042\u004d\u005d\u57fa\u7840\u4f46\u002e\u002e\u002e\u54e6\u8c41";
+val I18N_Blood_Magic_Thaumcraft_37_a = "\u4e0d\u5b8c\u5584\u7684\u4eea\u5f0f\u77f3\u662f\u7528\u4e8e\u5efa\u8bbe\u4eea\u5f0f\u7684\u6765\u81ea\u8840\u9b54\u6cd5\u7684\u65b9\u5757\u002e\u4e0d\u5b8c\u5584\u7684\u4eea\u5f0f\u77f3\u7528\u4e8e\u5f31\u5316\u4eea\u5f0f\u002c\u5982\u6c34\u4e4b\u4eea\u5f0f\u002e<BR>\u5f31\u5316\u4eea\u5f0f\u7b80\u5355\u4f46\u6709\u7528\u002e\u6240\u6709\u5f31\u5316\u4eea\u5f0f\u90fd\u662f\u901a\u8fc7\u5728\u4e0d\u5b8c\u7f8e\u7684\u4eea\u5f0f\u77f3\u4e0a\u653e\u7f6e\u7279\u5b9a\u7684\u65b9\u5757\u6765\u521b\u5efa\u7684\u002c\u968f\u540e\u53f3\u952e\u4eea\u5f0f\u77f3\u6fc0\u6d3b\u4eea\u5f0f\u002e\u6bcf\u4e2a\u4eea\u5f0f\u82b1\u8d39\u0035\u0030\u0030\u0030\u751f\u547d\u672c\u8d28\u0028\u004c\u0050\u0029\u002e";
+val I18N_Blood_Magic_Thaumcraft_37_b = "\u0031\u002e\u6c34\u6e90\u65b9\u5757\u521b\u9020\u4e00\u573a\u96f7\u96e8\u002e<BR>\u0032\u002e\u7164\u70ad\u5757\u53ec\u5524\u4e00\u53ea\u5f3a\u5927\u7684\u50f5\u5c38\u002e<BR>\u0033\u002e\u9752\u91d1\u77f3\u5757\u5c06\u65f6\u95f4\u8c03\u6574\u81f3\u665a\u4e0a\u002e<BR>\u0034\u002e\u57fa\u5ca9\u5c06\u7ed9\u4e88\u0031\u5206\u949f\u6297\u6027\u0049\u0049\u6548\u679c\u002e";
 val I18N_Blood_Magic_Thaumcraft_38 = "\u4eea\u5f0f\u77f3";
 val I18N_Blood_Magic_Thaumcraft_39 = "\u005b\u0042\u004d\u005d\u4eea\u5f0f\u0021";
 val I18N_Blood_Magic_Thaumcraft_40 = "\u4eea\u5f0f\u77f3\u662f\u7531\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u65b9\u5757\u002c\u53ef\u7528\u4e8e\u521b\u5efa\u5404\u79cd\u4eea\u5f0f\u002c\u6bd4\u5982\u7ed1\u5b9a\u4eea\u5f0f\u002e\u005c\u006e\u4eea\u5f0f\u77f3\u53ef\u7531\u4eea\u5f0f\u63a8\u6d4b\u6756\u81ea\u52a8\u653e\u7f6e\u5e76\u7ed8\u5236\u002c\u4e5f\u53ef\u4ee5\u624b\u52a8\u653e\u7f6e\u5e76\u6d82\u4e0a\u5404\u79cd\u5143\u7d20\u58a8\u6c34\u002c\u4f8b\u5982\u5143\u7d20\u94ed\u6587\u003a\u6c14\u002e<BR>\u4eea\u5f0f\u77f3\u4e5f\u53ef\u88ab\u7528\u4e8e\u5408\u6210\u4e3b\u4eea\u5f0f\u77f3\u002e";
@@ -155,6 +158,7 @@ val I18N_Blood_Magic_Thaumcraft_149 = "\u005b\u0042\u004d\u005d\u514d\u8d39\u768
 val I18N_Blood_Magic_Thaumcraft_150 = "\u968f\u7740\u4f60\u7684\u796d\u575b\u7ed3\u6784\u6e10\u8d8b\u7a33\u5b9a\u002c\u4f60\u4e5f\u9010\u6e10\u6d1e\u6089\u5176\u5185\u90e8\u8fd0\u884c\u002e\u4f60\u5c06\u65e9\u671f\u7814\u53d1\u7684\u5360\u535c\u5370\u8bb0\u901a\u8fc7\u6ce8\u9b54\u8fdb\u884c\u4e86\u4e00\u756a\u5347\u7ea7\u002c\u002c\u5236\u6210\u4e86\u89c1\u89e3\u5370\u8bb0\u002e<BR><BR>\u624b\u6301\u6b64\u5370\u8bb0\u5bf9\u8840\u4e4b\u796d\u575b\u4f7f\u7528\u002c\u5373\u53ef\u663e\u793a\u7269\u54c1\u5904\u7406\u8fdb\u5ea6\u3001\u004c\u0050\u6d88\u8017\u7387\u3001\u5f53\u524d\u004c\u0050\u002c\u4ee5\u53ca\u8f93\u5165\u002f\u8f93\u51fa\u69fd\u72b6\u6001\u002c\u4f7f\u7528\u6b64\u5370\u8bb0\u4e0d\u6d88\u8017\u004c\u0050\u002e\u6709\u4e86\u8fd9\u4e2a\u5370\u8bb0\u002c\u4f60\u53ef\u4ee5\u66f4\u597d\u5730\u8bc4\u4f30\u796d\u575b\u6027\u80fd\u002c\u5e76\u5b9e\u65f6\u8ffd\u8e2a\u5176\u5347\u7ea7\u53d8\u5316\u002e";
 val I18N_Blood_Magic_Thaumcraft_151 = "\u4eea\u5f0f\u63a8\u6d4b\u6756";
 val I18N_Blood_Magic_Thaumcraft_152 = "\u005b\u0042\u004d\u005d\u65b0\u7684\u4eea\u5f0f";
+val I18N_Blood_Magic_Thaumcraft_152_a = "\u4eea\u5f0f\u63a8\u6d4b\u6756\u662f\u8840\u9b54\u6cd5\u6dfb\u52a0\u7684\u7269\u54c1\u002e<BR>\u5b83\u662f\u4e00\u79cd\u5e2e\u52a9\u5efa\u8bbe\u4eea\u5f0f\u7684\u5de5\u5177\u002e\u0053\u0068\u0069\u0066\u0074\u002b\u53f3\u51fb\u5c06\u4f1a\u5faa\u73af\u53ef\u7528\u7684\u4eea\u5f0f\u002e\u0074\u006f\u006f\u006c\u0074\u0069\u0070\u4f1a\u663e\u793a\u5efa\u9020\u9009\u4e2d\u4eea\u5f0f\u6240\u9700\u7684\u4eea\u5f0f\u77f3\u6570\u91cf\u548c\u7c7b\u578b\u002e\u4f7f\u7528\u5b83\u53f3\u51fb\u4e3b\u4eea\u5f0f\u77f3\u4f1a\u81ea\u52a8\u653e\u7f6e\u4eea\u5f0f\u6240\u9700\u7684\u4eea\u5f0f\u77f3\u5e76\u4e3a\u5176\u67d3\u4e0a\u76f8\u5e94\u7b26\u6587\u002e\u653e\u7f6e\u4eea\u5f0f\u77f3\u9700\u8981\u751f\u547d\u672c\u8d28\u002c\u73a9\u5bb6\u80cc\u5305\u5185\u7684\u4eea\u5f0f\u77f3\u002e\u653e\u7f6e\u65f6\u5c06\u4f1a\u4f7f\u4eea\u5f0f\u63a8\u6d4b\u6756\u6563\u53d1\u7eff\u8272\u7c92\u5b50\u7279\u6548\u002e\u642d\u5efa\u65f6\u4e0d\u4f1a\u66ff\u6362\u5df2\u7ecf\u5b58\u5728\u7684\u65b9\u5757\u002e";
 val I18N_Blood_Magic_Thaumcraft_153 = "\u5982\u679c\u4eea\u5f0f\u63a8\u6d4b\u6756\u653e\u7f6e\u4eea\u5f0f\u77f3\u5931\u8d25\u002c\u5b83\u4e0d\u4f1a\u53d1\u51fa\u4efb\u4f55\u7c92\u5b50\u6548\u679c\u002e\u6cd5\u5e08\u9700\u8981\u6e05\u9664\u969c\u788d\u7269\u624d\u80fd\u7ee7\u7eed\u653e\u7f6e\u002e\u96ea\u3001\u9ad8\u8349\u548c\u706b\u628a\u662f\u5e38\u89c1\u7684\u3001\u4f46\u5f88\u5bb9\u6613\u88ab\u5ffd\u89c6\u7684\u969c\u788d\u7269\u002e\u6709\u4e09\u4e2a\u7b49\u7ea7\u7684\u63a8\u6d4b\u6756\u002c\u4e00\u9636\u63a8\u6d4b\u6756\u53ef\u653e\u7f6e\u5404\u79cd\u5143\u7d20\u4eea\u5f0f\u77f3\u002c\u4e8c\u9636\u53ef\u653e\u7f6e\u5e7d\u6697\u4eea\u5f0f\u77f3\u002c\u4e09\u9636\u53ef\u653e\u7f6e\u7834\u6653\u4eea\u5f0f\u77f3\u002e\u0074\u006f\u006f\u006c\u0074\u0069\u0070\u4f1a\u663e\u793a\u63a8\u6d4b\u6756\u7684\u7b49\u7ea7\u002e\u82e5\u662f\u8bd5\u56fe\u4f7f\u7528\u4e00\u9636\u63a8\u6d4b\u6756\u653e\u7f6e\u9700\u8981\u5e7d\u6697\u4eea\u5f0f\u77f3\u7684\u4eea\u5f0f\u002c\u90a3\u4e48\u63a8\u6d4b\u6756\u4f1a\u663e\u793a\u5b8c\u6210\u653e\u7f6e\u002c\u4f46\u5b9e\u9645\u4e0a\u6ca1\u6709\u002e";
 val I18N_Blood_Magic_Thaumcraft_154 = "\u5b9d\u73e0\u7b26\u6587";
 val I18N_Blood_Magic_Thaumcraft_155 = "\u005b\u0042\u004d\u005d\u66f4\u591a\u7b26\u6587";
@@ -432,13 +436,9 @@ game.setLocalization("tc.research_text.IMPERFECTRITUALSTONE", I18N_Blood_Magic_T
 mods.thaumcraft.Research.addPrereq("IMPERFECTRITUALSTONE", "BLOODALTAR", false);
 mods.thaumcraft.Research.setConcealed("IMPERFECTRITUALSTONE", false);
 mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "tc.research_page.IMPERFECTRITUALSTONE.1");
-game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.1", "Imperfect Ritual Stone is a block from Blood Magic used in the construction of Rituals. The Imperfect Ritual Stone is used in weaker rituals, such as the Water Ritual. 
-A weak ritual is simple but can be useful. Each is created by placing a specific block on top of an Imperfect Ritual Stone, then activated by Right-clicking the Stone. Each cost 5,000 Life Essence.");
+game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.1", I18N_Blood_Magic_Thaumcraft_37_a);
 mods.thaumcraft.Research.addPage("IMPERFECTRITUALSTONE", "tc.research_page.IMPERFECTRITUALSTONE.2");
-game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.2", "1. Water source block creates a thunderstorm.
-2. Block of coal summons a strong zombie.
-3. Lapis lazuli block makes it night time.
-4. Bedrock above grants Resistance II for 1 minute.");
+game.setLocalization("tc.research_page.IMPERFECTRITUALSTONE.2", I18N_Blood_Magic_Thaumcraft_37_b);
 mods.thaumcraft.Arcane.addShaped("IMPERFECTRITUALSTONE", <AWWayofTime:imperfectRitualStone>, "aer 15, ignis 15, aqua 15, terra 15, ordo 15, perditio 15", [
 [<minecraft:obsidian>, <AWWayofTime:blankSlate>, <minecraft:obsidian>],
 [<AWWayofTime:blankSlate>, <BloodArsenal:blood_stone>, <AWWayofTime:blankSlate>],
@@ -1011,8 +1011,7 @@ mods.thaumcraft.Research.addPrereq("RITUALDIVINER", "INFUSION", false);
 mods.thaumcraft.Research.addPrereq("RITUALDIVINER", "MASTERRITUALSTONE", false);
 mods.thaumcraft.Research.setConcealed("RITUALDIVINER", true);
 mods.thaumcraft.Research.addPage("RITUALDIVINER", "tc.research_page.RITUALDIVINER.1");
-game.setLocalization("tc.research_page.RITUALDIVINER.1", "The Ritual Diviner is an item added by the Blood Magic mod.
-A tool to help with the construction of Rituals. Shift+Right-clicking it will cycle through the available rituals. The tooltip will display the number and type of Ritual Stones required to build the selected ritual. Right-clicking on a Master Ritual Stone with it will place and ink the ritual stones needed for the ritual. Placing a stone will use Life Essence, a ritual stone from the user's inventory and will cause the diviner to animate and emit green particles. The ritual diviner will not replace existing blocks.");
+game.setLocalization("tc.research_page.RITUALDIVINER.1", I18N_Blood_Magic_Thaumcraft_152_a);
 mods.thaumcraft.Infusion.addRecipe("RITUALDIVINER", <AWWayofTime:seerSigil>, 
 [<witchery:chalkritual>, <AWWayofTime:waterScribeTool>, <gregtech:gt.metaitem.02:29500>, <AWWayofTime:fireScribeTool>, <gregtech:gt.metaitem.02:29501>, <AWWayofTime:earthScribeTool>, <gregtech:gt.metaitem.02:29500>, <AWWayofTime:airScribeTool>, <gregtech:gt.metaitem.02:29501>], 
 "aer 32, ignis 32, terra 32, aqua 32, perditio 16, ordo 16", <AWWayofTime:itemRitualDiviner>, 3);

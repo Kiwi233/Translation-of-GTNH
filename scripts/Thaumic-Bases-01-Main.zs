@@ -12,6 +12,7 @@ import mods.gregtech.CuttingSaw;
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Thaumic_Bases_01_Main_0 = "No activation here!";
 val I18N_Thaumic_Bases_01_Main_1 = "\u795e\u79d8\u4f7f\u603b\u662f\u5728\u5c3d\u53ef\u80fd\u7b80\u5355\u7684\u65b9\u6cd5\u5185\u5bfb\u627e\u6700\u4f18\u89e3\u002e<BR>\u4f60\u521a\u521a\u53d1\u73b0\u7684\u79d8\u6676\u91d1\u5c5e\u5728\u529f\u80fd\u6027\u4e0a\u4e0e\u795e\u79d8\u91d1\u5c5e\u7c7b\u4f3c\u002c\u90a3\u4e48\u4f55\u4e0d\u8bd5\u8bd5\u7528\u5b83\u5236\u4f5c\u4e00\u4e2a\u6cd5\u6756\u6756\u7aef\u5462\u003f\u597d\u5427\u002c\u7531\u4e8e\u5176\u4e2d\u542b\u6709\u5927\u91cf\u7684\u6c34\u6676\u8981\u7d20\u002c\u6240\u4ee5\u79d8\u6676\u91d1\u5c5e\u4e0d\u50cf\u795e\u79d8\u952d\u90a3\u6837\u5177\u6709\u826f\u597d\u7684\u5ef6\u5c55\u6027\u002e\u4e0d\u8fc7\u8fd9\u4e2a\u7279\u6027\u53ef\u4ee5\u7528\u6765\u5f3a\u5316\u73b0\u6709\u7684\u795e\u79d8\u6756\u7aef\u002e\u6ce8\u9b54\u53ef\u4ee5\u5c06\u79d8\u6676\u91d1\u5c5e\u5206\u89e3\u6210\u5c0f\u5757\u002c\u5e76\u4f7f\u5176\u76f4\u63a5\u5728\u795e\u79d8\u6756\u7aef\u4e0a\u91cd\u65b0\u7ed3\u6676\u002e\u4e3a\u4e86\u786e\u4fdd\u6756\u7aef\u4e0e\u79d8\u6676\u80fd\u591f\u7d27\u5bc6\u7ed3\u5408\u002e\u002e\u002e\u76f4\u5230\u6c38\u8fdc\u002c\u4f60\u8fd8\u9700\u8981\u4e00\u4e9b\u6c34\u94f6\u4ee5\u53ca\u4e00\u70b9\u4e16\u754c\u76d0\u002c\u7528\u4ee5\u51cf\u5c11\u79d8\u6676\u91d1\u5c5e\u7684\u7ed3\u6676\u65f6\u95f4\u002e";
 val I18N_Thaumic_Bases_01_Main_2 = "\u8fd9\u5bf9\u65b0\u6756\u7aef\u4f3c\u4e4e\u6bd4\u795e\u79d8\u6756\u7aef\u66f4\u4e3a\u4f18\u79c0\u002c\u4f46\u4f60\u611f\u89c9\u5b83\u4eec\u7684\u80fd\u529b\u4e0d\u6b62\u4e8e\u6b64\u2026\u6216\u8bb8\u8fd8\u6709\u4f60\u672a\u77e5\u7684\u529b\u91cf\u6c89\u7761\u5176\u4e2d\u003f";
@@ -593,10 +594,10 @@ Research.refreshResearchRecipe("TB.NodeFoci.Taint");
 
 // --- Taint Flask
 Research.addResearch("TB.TaintFlask", "THAUMICBASES", "vitium 10, alienis 15, perditio 8, permutatio 12", 1, -1 as int, 8, <thaumicbases:concentratedTaint>);
-game.setLocalization("en_US", "tc.research_name.TB.TaintFlask", I18N_Thaumic_Bases_01_Main_3);
-game.setLocalization("en_US", "tc.research_text.TB.TaintFlask", I18N_Thaumic_Bases_01_Main_4);
+game.setLocalization(_I18N_Lang, "tc.research_name.TB.TaintFlask", I18N_Thaumic_Bases_01_Main_3);
+game.setLocalization(_I18N_Lang, "tc.research_text.TB.TaintFlask", I18N_Thaumic_Bases_01_Main_4);
 mods.thaumcraft.Research.addPage("TB.TaintFlask", "tb.rec.TB.TaintFlask.page.NH.0");
-game.setLocalization("en_US", "tb.rec.TB.TaintFlask.page.NH.0", I18N_Thaumic_Bases_01_Main_5);
+game.setLocalization(_I18N_Lang, "tb.rec.TB.TaintFlask.page.NH.0", I18N_Thaumic_Bases_01_Main_5);
 mods.thaumcraft.Research.addInfusionPage("TB.TaintFlask", <thaumicbases:concentratedTaint>);
 mods.thaumcraft.Research.addPrereq("TB.TaintFlask", "TB.INFUSION", false);
 mods.thaumcraft.Research.addPrereq("TB.TaintFlask", "BOTTLETAINT", true);

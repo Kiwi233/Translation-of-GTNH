@@ -4,6 +4,7 @@ itemGroup.EM=TecTech元物质
 
 #Blocks
 tile.quantumStuff.name=量子物质
+tile.Eye of Harmony Renderer.name=鸿蒙之眼渲染器
 
 tile.quantumGlass.name=量子玻璃
 tile.quantumGlass.desc.0=致密但透明
@@ -727,6 +728,66 @@ gt.blockmachines.multimachine.em.blackholegenerator.hint.0=1 - 基础仓室或�
 gt.blockmachines.multimachine.em.blackholegenerator.hint.1=2 - 元物质输入/出仓或分子机械方块
 gt.blockmachines.multimachine.em.blackholegenerator.desc.0=黑洞发生器的控制器方块
 gt.blockmachines.multimachine.em.blackholegenerator.desc.1=使用一颗黑洞产生能量
+
+# Eye of Harmony
+achievement.gt.blockmachines.multimachine.em.eye_of_harmony=鸿蒙之眼控制器
+achievement.gt.blockcasingsBA0.12=无尽时空能量边界方块
+achievement.gt.blockcasingsBA0.11=强化空间结构方块
+achievement.gt.blockcasingsBA0.10=强化时间结构方块
+
+achievement.gt.spacetime_compression_field_generator.0=粗制压缩时空场发生器
+achievement.gt.spacetime_compression_field_generator.1=原始压缩时空场发生器
+achievement.gt.spacetime_compression_field_generator.2=稳定压缩时空场发生器
+achievement.gt.spacetime_compression_field_generator.3=先进压缩时空场发生器
+achievement.gt.spacetime_compression_field_generator.4=卓越压缩时空场发生器
+achievement.gt.spacetime_compression_field_generator.5=异星压缩时空场发生器
+achievement.gt.spacetime_compression_field_generator.6=完美压缩时空场发生器
+achievement.gt.spacetime_compression_field_generator.7=太初压缩时空场发生器
+achievement.gt.spacetime_compression_field_generator.8=鸿蒙压缩时空场发生器
+
+achievement.gt.time_acceleration_field_generator.0=粗制时间膨胀场发生器
+achievement.gt.time_acceleration_field_generator.1=原始时间膨胀场发生器
+achievement.gt.time_acceleration_field_generator.2=稳定时间膨胀场发生器
+achievement.gt.time_acceleration_field_generator.3=先进时间膨胀场发生器
+achievement.gt.time_acceleration_field_generator.4=卓越时间膨胀场发生器
+achievement.gt.time_acceleration_field_generator.5=异星时间膨胀场发生器
+achievement.gt.time_acceleration_field_generator.6=完美时间膨胀场发生器
+achievement.gt.time_acceleration_field_generator.7=太初时间膨胀场发生器
+achievement.gt.time_acceleration_field_generator.8=鸿蒙时间膨胀场发生器
+
+achievement.gt.stabilisation_field_generator.0=粗制稳定力场发生器
+achievement.gt.stabilisation_field_generator.1=原始稳定力场发生器
+achievement.gt.stabilisation_field_generator.2=稳定稳定力场发生器
+achievement.gt.stabilisation_field_generator.3=先进稳定力场发生器
+achievement.gt.stabilisation_field_generator.4=卓越稳定力场发生器
+achievement.gt.stabilisation_field_generator.5=异星稳定力场发生器
+achievement.gt.stabilisation_field_generator.6=完美稳定力场发生器
+achievement.gt.stabilisation_field_generator.7=太初稳定力场发生器
+achievement.gt.stabilisation_field_generator.8=鸿蒙稳定力场发生器
+
+# Optical Circuits
+achievement.gt.metaitem.03.32155=光学处理器集群
+achievement.gt.metaitem.03.32156=光学处理器超级电脑
+achievement.gt.metaitem.03.32157=光学处理器主机
+
+# Parts
+achievement.gt.metaitem.01.32017=电动马达(UIV)
+achievement.gt.metaitem.01.32021=电动活塞(UIV)
+achievement.gt.metaitem.01.32025=电动泵(UIV)
+achievement.gt.metaitem.01.32029=传送带(UIV)
+achievement.gt.metaitem.01.32033=机械臂(UIV)
+achievement.gt.metaitem.01.32037=发射器(UIV)
+achievement.gt.metaitem.01.32041=传感器(UIV)
+achievement.gt.metaitem.01.32045=力场发生器(UIV)
+
+achievement.gt.metaitem.01.32018=电动马达(UMV)
+achievement.gt.metaitem.01.32022=电动活塞(UMV)
+achievement.gt.metaitem.01.32026=电动泵(UMV)
+achievement.gt.metaitem.01.32030=传送带(UMV)
+achievement.gt.metaitem.01.32034=机械臂(UMV)
+achievement.gt.metaitem.01.32038=发射器(UMV)
+achievement.gt.metaitem.01.32042=传感器(UMV)
+achievement.gt.metaitem.01.32046=力场发生器(UMV)
 
 #Pipes
 gt.blockmachines.pipe.elementalmatter.name=量子隧道

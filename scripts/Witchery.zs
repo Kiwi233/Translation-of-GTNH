@@ -11,6 +11,7 @@ import mods.gregtech.CuttingSaw;
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Witchery_0 = "\u5deb\u672f";
 val I18N_Witchery_1 = "\u53d7\u9b54\u4e4b\u818f";
 val I18N_Witchery_2 = "\u005b\u0057\u0049\u005d\u9b54\u6cd5\u818f\u836f";

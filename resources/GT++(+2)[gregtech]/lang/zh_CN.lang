@@ -18,8 +18,9 @@ GTPP.multiblock.usage=NEI功率
 GTPP.multiblock.generation=可能生成
 GTPP.multiblock.specialvalue=特殊值
 GTPP.multiblock.duration=NEI时间
-
-
+GTPP.multiblock.multimachine.metal=模式: 金属. 可充当压缩机(电路板20), 车床(电路板21) 或磁化机(电路板22).
+GTPP.multiblock.multimachine.fluid=模式: 流体. 可充当发酵槽(电路板20), 流体提取机(电路板21) 或提取机(电路板22).
+GTPP.multiblock.multimachine.misc=模式: 杂项. 可充当激光蚀刻机(电路板20), 高压釜(电路板21) 或流体固化器(电路板22).
 
 GTPP.CC.machinetier=控制核心等级
 GTPP.CC.discount=EU损耗
@@ -221,3 +222,6 @@ achievement.gt.blockmachines.gtpp.multimachine.flotationcell=工业浮选机
 achievement.gt.blockmachines.gtpp.multimachine.flotationcell.desc=[AL]捡起此物品以在NEI内解锁该合成表
 achievement.gt.blockmachines.gtpp.multimachine.isamill=艾萨研磨机
 achievement.gt.blockmachines.gtpp.multimachine.isamill.desc=[AL]捡起此物品以在NEI内解锁该合成表
+
+//2023-1-13
+achievement.gt.blockmachines.industrialalloysmelter.controller.tier.mega=工业合金炉

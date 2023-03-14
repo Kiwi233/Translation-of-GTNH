@@ -726,12 +726,12 @@ item.itemTravelStaff.tooltip.detailed.line4=<Shift><右击>
 item.itemTravelStaff.tooltip.detailed.line5=可短距离传送玩家
 enderio.itemTravelStaff.notEnoughPower=能量不足
 
-item.itemInfiniteTravelStaff.name=创造旅行权杖
-item.itemInfiniteTravelStaff.tooltip.detailed.line1=手持旅行权杖时,可以透视
-item.itemInfiniteTravelStaff.tooltip.detailed.line2=旅行锚与末影接口方块,
-item.itemInfiniteTravelStaff.tooltip.detailed.line3=并通过<右击>直接传送
-item.itemInfiniteTravelStaff.tooltip.detailed.line4=<Shift><右击>
-item.itemInfiniteTravelStaff.tooltip.detailed.line5=可短距离传送玩家
+item.itemTeleportStaff.name=传送权杖
+item.itemTeleportStaff.tooltip.detailed.line1=右击传送至看到的方块
+item.itemTeleportStaff.tooltip.detailed.line2=Shift右击传送至旅行锚
+item.itemTeleportStaff.tooltip.detailed.line3=右击附近的方块以尝试传送
+item.itemTeleportStaff.tooltip.detailed.line4=到另一侧
+
 item.itemCoordSelector.name=坐标记录仪
 item.itemCoordSelector.tooltip.detailed.line1=记录一个方块的坐标.
 item.itemCoordSelector.tooltip.detailed.line2=右键方块选取
@@ -1375,7 +1375,7 @@ enderio.config.spawner.tooltip=我已经想不出什么有趣的提示文本了.
 
 #Keybinds/Waila/NEI/Tooltips
 enderio.category.darksteelarmor=玄铁护甲
-enderio.category.tools=工具
+enderio.category.tools=末影接口 - 工具
 enderio.keybind.glidertoggle=滑翔开关
 enderio.keybind.gogglesofrevealing=揭示护目镜
 enderio.keybind.nightvision=夜视

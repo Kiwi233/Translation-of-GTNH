@@ -6,6 +6,7 @@
 
 
 // --- I18N ---
+val _I18N_Lang = "zh_CN";
 val I18N_Warp_Theory_0 = "\u6c61\u79fd\u6cea\u6c34";
 val I18N_Warp_Theory_1 = "\u9b54\u6cd5\u836f\u5242";
 val I18N_Warp_Theory_2 = "\u7eaf\u51c0\u6cea\u6c34";
@@ -77,8 +78,8 @@ mods.thaumcraft.Research.addPrereq("PURETEARMINOR", "ELDRITCHMINOR", false);
 mods.thaumcraft.Research.addPrereq("PURETEARMINOR", "warptheory.paper", false);
 mods.thaumcraft.Research.addPage("PURETEARMINOR", "research.warptheory.warpcleanserminor");
 mods.thaumcraft.Infusion.addRecipe("PURETEARMINOR", <BiomesOPlenty:hardIce>,
-[<thaumicbases:resource:5>, <gregtech:gt.metaitem.02:32553>, <thaumicbases:quicksilverBlock>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:magicales>, <witchery:ingredient:36>, 
-<thaumicbases:resource:5>, <gregtech:gt.metaitem.02:32553>, <thaumicbases:quicksilverBlock>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "lifeessence", Amount: 1000}}), <AWWayofTime:magicales>, <witchery:ingredient:36>],
+[<thaumicbases:resource:5>, <gregtech:gt.metaitem.02:32553>, <thaumicbases:quicksilverBlock>, <gregtech:gt.metaitem.01:30694>, <AWWayofTime:magicales>, <witchery:ingredient:36>, 
+<thaumicbases:resource:5>, <gregtech:gt.metaitem.02:32553>, <thaumicbases:quicksilverBlock>, <gregtech:gt.metaitem.01:30694>, <AWWayofTime:magicales>, <witchery:ingredient:36>],
 "auram 64, desidia 16, fames 16, gelum 16, permutatio 32, praecantatio 32, venenum 32", <WarpTheory:item.warptheory.cleanserminor>, 10);
 mods.thaumcraft.Research.addInfusionPage("PURETEARMINOR", <WarpTheory:item.warptheory.cleanserminor>);
 
