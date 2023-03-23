@@ -13,6 +13,7 @@ message.advChainsaw.mode.shear=剪刀
 message.advChainsaw.mode.treecapitator=快速砍树
 message.advDDrill.mode.areYouSerious=你确定?
 message.advDDrill.mode.worldShatterer=世界粉碎者
+message.advDDrill.noEnergy=警告!警告!没有足够的能源去完成这项活动!
 message.xp.youhavecollected=总计工具经验
 message.xp.toolLevel=工具等级
 message.xp.nextLevelUp=下一级
@@ -23,6 +24,7 @@ message.vajra.clickRightForSilk=精确模式下右击采集方块
 message.plasmaLauncher.noEnergy=能量不足
 message.plasmaLauncher.recharging=等离子场正在充能, 请稍后... 
 message.plasmaLauncher.noPlasmaCellFound=没有发现任何充满的等离子体单元
+message.plasmaLauncher.depleted=等离子体单元未装填或已耗尽
 message.plasmaCell.contains=包含: %1$s (%2$,dmB)
 message.plasmaCell.nothing=包含: 无
 message.plasmaCell.efficiency=效率: %1$f%%
@@ -39,6 +41,12 @@ message.graviChestPlate.MedkitNoNanoBots=未找到可用的纳米机器人,注�
 message.graviChestPlate.MedkitInjected=纳米机器人已注射
 message.relocator.text.defaultPointSet=默认传送点设置为
 message.relocator.text.teleportingnow=传送中...
+message.relocator.text.dim=维度
+message.relocator.text.invalid=旧传送点已失效.删除后重新添加
+
+fluid.null=Error.1
+fluid.name.null=Error.2
+fluid.name.empty=未知流体
 
 block.RelocatorPortal.name.name=重新定位入口
 

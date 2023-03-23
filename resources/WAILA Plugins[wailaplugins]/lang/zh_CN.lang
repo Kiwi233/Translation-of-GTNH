@@ -102,6 +102,12 @@ wp.hud.msg.energyStored=能量存储: %s
 wp.hud.msg.charge=已充能: %s
 wp.hud.msg.needMeter=手持电表
 
+wp.hud.msg.currentRate=当前速率：%d (%d L/s)
+wp.hud.msg.biomeHumidityRate=生物群系湿度系数: %d
+wp.hud.msg.rainingRate=降雨率: %d
+wp.hud.msg.snowingRate=降雪率: %d
+wp.hud.msg.cantSeeTheSkyRate=遮挡天空系数: %d
+
 wp.config.Railcraft.charge=显示充能
 wp.config.Railcraft.energy=显示RF能量
 wp.config.Railcraft.engines=显示引擎信息
