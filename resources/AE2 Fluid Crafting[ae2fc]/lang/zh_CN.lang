@@ -11,15 +11,15 @@ item.part_fluid_level_emitter.name=ME流体发信器
 item.part_fluid_storage_monitor.name=ME流体存储监控器
 item.part_fluid_conversion_monitor.name=ME流体交互监控器
 item.portable_fluid_cell.name=便携流体元件
-item.wireless_fluid_terminal.name=无线ME流体终端
-item.wireless_fluid_pattern_terminal.name=无线ME流体样板终端
-item.wireless_interface_terminal.name=无线ME接口终端
-item.wireless_ultra_terminal.WIRELESS_CRAFTING_TERMINAL.name=通用无线终端 - 合成
-item.wireless_ultra_terminal.WIRELESS_FLUID_PATTERN_TERMINAL.name=通用无线终端 - 样板
-item.wireless_ultra_terminal.WIRELESS_FLUID_TERMINAL.name=通用无线终端 - 流体
-item.wireless_ultra_terminal.WIRELESS_ESSENTIA_TERMINAL.name=通用无线终端 - 源质
-item.wireless_ultra_terminal.WIRELESS_INTERFACE_TERMINAL.name=通用无线终端 - 接口
-item.wireless_ultra_terminal.WIRELESS_FLUID_PATTERN_TERMINAL_EX.name=通用无线终端 - 增广样板
+item.wireless_fluid_terminal.name=ME无线流体终端
+item.wireless_fluid_pattern_terminal.name=ME无线流体样板终端
+item.wireless_interface_terminal.name=ME无线接口终端
+item.wireless_ultra_terminal.WIRELESS_CRAFTING_TERMINAL.name=无线通用终端 - 合成
+item.wireless_ultra_terminal.WIRELESS_FLUID_PATTERN_TERMINAL.name=无线通用终端 - 样板
+item.wireless_ultra_terminal.WIRELESS_FLUID_TERMINAL.name=无线通用终端 - 流体
+item.wireless_ultra_terminal.WIRELESS_ESSENTIA_TERMINAL.name=无线通用终端 - 源质
+item.wireless_ultra_terminal.WIRELESS_INTERFACE_TERMINAL.name=无线通用终端 - 接口
+item.wireless_ultra_terminal.WIRELESS_FLUID_PATTERN_TERMINAL_EX.name=无线通用终端 - 增广样板
 item.fluid_packet.name=流体封包
 item.creative_fluid_storage.name=创造ME流体存储元件
 item.fluid_storage.1.name=%s1k%s-ME流体存储元件
@@ -100,6 +100,8 @@ ae2fc.tooltip.ultra_terminal.WIRELESS_ESSENTIA_TERMINAL=模式: 源质终端
 ae2fc.tooltip.ultra_terminal.WIRELESS_INTERFACE_TERMINAL=模式: 接口终端
 ae2fc.tooltip.ultra_terminal.WIRELESS_FLUID_PATTERN_TERMINAL_EX=模式: 增广样板终端
 ae2fc.tooltip.ultra_terminal=潜行时右击以切换模式
+ae2fc.tooltip.ultra_terminal.tips=ToolTips:
+ae2fc.tooltip.ultra_terminal.tips.desc=1.你可以将它放入饰品栏并使用快捷键打开.\n2.接口模式下，按住§3Shift§7切换接口重命名按钮.\n3.在合成计划界面中.\n按住§3Shift§7点击取消按钮，可以自动将缺少的物品添加到NEI书签.
 
 ae2fc.tooltip.cell_contents=包含流体: 
 ae2fc.tooltip.cell_empty=元件是空的
@@ -131,6 +133,10 @@ ae2fc.tooltip.submit=提交
 ae2fc.tooltip.enable=已启用
 ae2fc.tooltip.disable=已禁用
 ae2fc.tooltip.edit=编辑
+ae2fc.tooltip.fill_pattern=自动填充空白样板
+ae2fc.tooltip.not_fill_pattern=自动填充空白样板
+ae2fc.tooltip.fill_pattern.hint=启用
+ae2fc.tooltip.not_fill_pattern.hint=禁用
 
 ae2fc.gui.part_fluid_pattern_terminal=ME流体样板终端
 ae2fc.gui.part_fluid_pattern_terminal_ex=ME增广流体样板终端
@@ -156,5 +162,7 @@ ae2fc.gui.part_fluid_storage_bus=ME流体存储总线
 ae2fc.gui.fluid_auto_filler=ME流体自动装填器
 
 error.unknown=未知
+
+key.OpenTerminal=打开ME无线通用终端
 
 itemGroup.ae2fc=AE2流体合成套件
