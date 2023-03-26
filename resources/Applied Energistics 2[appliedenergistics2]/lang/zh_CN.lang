@@ -169,7 +169,7 @@ gui.appliedenergistics2.LevelEmitter=ME标准发信器
 gui.appliedenergistics2.Of=/
 gui.appliedenergistics2.Patterns=样板
 gui.appliedenergistics2.SpatialIOPort=空间IO端口
-gui.appliedenergistics2.StoredEnergy=已存储能源
+gui.appliedenergistics2.StoredEnergy=已存储能量
 gui.appliedenergistics2.StoredItems=已存储物品
 gui.appliedenergistics2.Terminal=终端
 gui.appliedenergistics2.InterfaceTerminal=接口终端
@@ -371,6 +371,11 @@ gui.tooltips.appliedenergistics2.EmitWhenCrafting=在物品合成时发射红石
 gui.tooltips.appliedenergistics2.ReportInaccessibleItems=报告不可交互的物品
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsYes=是: 显示无法取出的物品.
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=否: 只显示可以取出的物品.
+
+gui.tooltips.appliedenergistics2.TypeFilter=过滤类型
+gui.tooltips.appliedenergistics2.TypeFilterShowAll=显示所有
+gui.tooltips.appliedenergistics2.TypeFilterShowItemsOnly=只显示物品
+gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=只显示流体液滴(FC)
 
 gui.tooltips.appliedenergistics2.BlockPlacement=方块放置方式
 gui.tooltips.appliedenergistics2.BlockPlacementYes=方块将被放置.
