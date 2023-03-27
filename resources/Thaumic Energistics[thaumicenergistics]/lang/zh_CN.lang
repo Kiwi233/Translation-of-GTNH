@@ -46,6 +46,7 @@ thaumicenergistics.item.knowledge.core.name=知识核心
 thaumicenergistics.item.focus.aewrench.name=法杖核心: AE扳手
 thaumicenergistics.item.focus.aewrench.disabled.name=法杖核心: AE扳手 - 扳手模式已禁用
 thaumicenergistics.item.golem.wifi.backpack.name=无线傀儡背包
+thaumicenergistics.item.cell.microscope.name=元件显微镜
 
 #Tooltips
 thaumicenergistics.tooltip.itemstack.details=按住§eCTRL§f查看详细信息.
@@ -191,3 +192,8 @@ thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.CORELIQUID=§n移液核心 
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.COREALCHEMY=§n炼金核心 解锁§r<IMG>thaumicenergistics:textures/gui/states.png:64:0:16:16:1.0</IMG>装备有§l炼金核心§r的傀儡可自动从网络中自动存入或抽取源质.单次传输源质之最大数取决于傀儡管理每次充能的效率.<BR>当傀儡被放置于源质来源上时,例如放置于炼金熔炉上时,它会自动将源质存入网络.<BR>若是要求傀儡填装源质容器,例如罐子,那么它会从网络中提取源质.
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.UPGRADEORDER=§n秩序升级 解锁§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>装备有秩序升级的傀儡会更高效地管理背包能量,这为其带来了单次充能后工作量的提升.
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.ADVANCEDGOLEM=§n高级傀儡§r<IMG>thaumcraft:textures/items/brain.png:0:0:255:255:0.0625</IMG>高级傀儡每次充能后的工作量是原来的两倍.
+
+# Research Cell Microscope
+tc.research_name.thaumicenergistics.TECELLMICROSCOPE=元件显微学
+tc.research_text.thaumicenergistics.TECELLMICROSCOPE=风夸克与地夸克
+thaumicenergistics.research_page.TECELLMICROSCOPE.1=经过仔细的研究与实验,你发明了一种显微扫描设备,可以生成存储元件中所包含能量的详细图像. 这个过程十分复杂,在此过程中元件需要处于地面上.<LINE>元件中包含的所有物品都将被扫描,就像使用§l魔导透镜§r扫描一样.
