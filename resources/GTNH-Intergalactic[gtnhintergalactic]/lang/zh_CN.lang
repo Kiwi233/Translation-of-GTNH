@@ -1,0 +1,274 @@
+# English (US)
+
+
+# NOTE: 
+# Providing additional lore translations doesn't require any code changes, they are detected automatically. If you have
+# fewer variations in your lang file than the default lang file (en_US, this file), provide blank translations to avoid
+# the game falling back to the default translations. Adding more variations than provided by default is possible.
+
+
+# Creative Tabs
+itemGroup.GTNH-Intergalactic=GTNH-银河
+
+# Achievements
+achievement.gt.blockmachines.spaceelevator=太空电梯
+achievement.gt.blockmachines.spaceelevator.desc=星际运输的又一个里程碑
+achievement.gt.blockmachines.projectmoduleassemblert1=太空组装模块MK-I
+achievement.gt.blockmachines.projectmoduleassemblert1.desc=在太空中组装?你这是亵渎!
+achievement.gt.blockmachines.projectmoduleassemblert2=太空组装模块MK-II
+achievement.gt.blockmachines.projectmoduleassemblert2.desc=是它在组装太空？还是太空在组装它？
+achievement.gt.blockmachines.projectmoduleassemblert3=太空组装模块MK-III
+achievement.gt.blockmachines.projectmoduleassemblert3.desc=它刚刚组装了一个星球?
+achievement.gt.blockmachines.projectmoduleminert1=太空采矿模块MK-I
+achievement.gt.blockmachines.projectmoduleminert1.desc=一个资源收集的新时代开始了
+achievement.gt.blockmachines.projectmoduleminert2=太空采矿模块MK-II
+achievement.gt.blockmachines.projectmoduleminert2.desc=部署无人机!
+achievement.gt.blockmachines.projectmoduleminert3=太空采矿模块MK-III
+achievement.gt.blockmachines.projectmoduleminert3.desc=希望这些无人机不要哗变
+achievement.gt.blockmachines.projectmodulepumpt1=太空钻机模块MK-I
+achievement.gt.blockmachines.projectmodulepumpt1.desc=让我们从气态行星里抽点东西出来
+achievement.gt.blockmachines.projectmodulepumpt2=太空钻机模块MK-II
+achievement.gt.blockmachines.projectmodulepumpt2.desc=S U C C
+achievement.gt.blockmachines.projectmoduleresearch=太空研究模块
+achievement.gt.blockmachines.projectmoduleresearch.desc=超越无限
+achievement.gt.blockmachines.projectmodulemanager=太空项目管理器
+achievement.gt.blockmachines.projectmodulemanager.desc=建立你的帝国
+achievement.gt.blockcasings.ig.cable=太空电梯线缆
+achievement.gt.blockcasings.ig.cable.desc=应该足够牢固，不至于断裂
+achievement.gt.blockcasingsSE.0=太空电梯基座机械方块
+achievement.gt.blockcasingsSE.0.desc=这些可不便宜
+achievement.gt.blockcasingsSE.1=太空电梯支持结构方块
+achievement.gt.blockcasingsSE.1.desc=让你的太空电梯更牢固
+achievement.gt.blockcasingsSE.2=太空电梯内部结构方块
+achievement.gt.blockcasingsSE.2.desc=看上去不错
+achievement.gt.blockcasingsSEMotor.1=太空电梯加速轨道MK-I
+achievement.gt.blockcasingsSEMotor.1.desc=*上升到了新的境界*
+achievement.gt.blockcasingsSEMotor.2=太空电梯加速轨道MK-II
+achievement.gt.blockcasingsSEMotor.2.desc=50G的重力加速度!
+achievement.gt.blockcasingsSEMotor.3=太空电梯加速轨道MK-III
+achievement.gt.blockcasingsSEMotor.3.desc=几分钟内地月往返
+achievement.gt.blockcasingsSEMotor.4=太空电梯加速轨道MK-IV
+achievement.gt.blockcasingsSEMotor.4.desc=100G的重力加速度!
+achievement.gt.blockcasingsSEMotor.5=太空电梯加速轨道MK-V
+achievement.gt.blockcasingsSEMotor.5.desc=快得就像传送!
+achievement.item.MiningDroneEV=采矿无人机MK-IV
+achievement.item.MiningDroneEV.desc=繁忙的工人
+achievement.item.MiningDroneIV=采矿无人机MK-V
+achievement.item.MiningDroneIV.desc=更繁忙的工人
+achievement.item.MiningDroneLuV=采矿无人机MK-VI
+achievement.item.MiningDroneLuV.desc=汲汲忙忙的工人
+achievement.item.MiningDroneZPM=采矿无人机MK-VII
+achievement.item.MiningDroneZPM.desc=新领域的征服者
+achievement.item.MiningDroneUV=采矿无人机MK-VIII
+achievement.item.MiningDroneUV.desc=小行星带吞噬者
+achievement.item.MiningDroneUHV=采矿无人机MK-IX
+achievement.item.MiningDroneUHV.desc=行星吞噬者
+achievement.item.MiningDroneUEV=采矿无人机MK-X
+achievement.item.MiningDroneUEV.desc=恒星系统吞噬者
+
+# Items
+item.nanotubeSpool.name=纳米管线轴
+item.MiningDroneLV.name=采矿无人机MK-VI
+item.MiningDroneMV.name=采矿无人机MK-VII
+item.MiningDroneHV.name=采矿无人机MK-III
+item.MiningDroneEV.name=采矿无人机MK-IV
+item.MiningDroneIV.name=采矿无人机MK-V
+item.MiningDroneLuV.name=采矿无人机MK-VI
+item.MiningDroneZPM.name=采矿无人机MK-VII
+item.MiningDroneUV.name=采矿无人机MK-VIII
+item.MiningDroneUHV.name=采矿无人机MK-IX
+item.MiningDroneUEV.name=采矿无人机MK-X
+
+# Blocks
+gt.blockcasings.ig.0.name=太空电梯基座机械方块
+gt.blockcasings.ig.0.desc0=强度足以支持太空电梯
+gt.blockcasings.ig.0.desc1=向月球出发!
+gt.blockcasings.ig.1.name=太空电梯支持结构方块
+gt.blockcasings.ig.1.desc0=防止太空电梯坍塌
+gt.blockcasings.ig.1.desc1=我希望这些东西有足够的强度
+gt.blockcasings.ig.2.name=太空电梯内部结构方块
+gt.blockcasings.ig.2.desc0=强化太空电梯的结构
+gt.blockcasings.ig.2.desc1=外观看上去也不错!
+gt.blockcasings.ig.cable.name=太空电梯线缆
+gt.blockcasings.ig.cable.desc0=连接配重与基座
+gt.blockcasings.ig.cable.desc1=希望这东西不会断
+gt.blockcasings.ig.motor.t1.name=太空电梯加速轨道MK-I
+gt.blockcasings.ig.motor.t2.name=太空电梯加速轨道MK-II
+gt.blockcasings.ig.motor.t3.name=太空电梯加速轨道MK-III
+gt.blockcasings.ig.motor.t4.name=太空电梯加速轨道MK-IV
+gt.blockcasings.ig.motor.t5.name=太空电梯加速轨道MK-V
+gt.blockcasings.ig.motor.desc0=解锁更多模块槽位与更高模块等级
+gt.blockcasings.ig.motor.t1.desc1=保持上升!
+gt.blockcasings.ig.motor.t2.desc1=加速上升!
+gt.blockcasings.ig.motor.t3.desc1=Woooooo
+gt.blockcasings.ig.motor.t4.desc1=我 即 速 度
+gt.blockcasings.ig.motor.t5.desc1=哦耶！
+
+# GUI
+ig.text.project=项目
+ig.text.upgrades=升级
+ig.text.start=开始
+ig.text.started=开工建设
+ig.text.projectrequirements=未满足项目要求.请选择正确的位置
+ig.text.upgraderequirements=未满足升级要求.缺少前置升级或项目
+ig.text.noproject=请选择项目
+ig.text.finishedproject=项目已完成,请选择一项升级.
+ig.text.nolocation=请选择位置
+ig.button.travel=启程
+ig.button.projects=项目
+
+# Planetary Gas Siphon
+gt.blockmachines.multimachine.ig.siphon.name=行星气体钻机
+gt.blockmachines.multimachine.ig.siphon.type=泵
+gt.blockmachines.multimachine.ig.siphon.desc1=建造于绕行气态行星的空间站上
+gt.blockmachines.multimachine.ig.siphon.desc2=使用编程电路设置抽取的深度(1-4)
+gt.blockmachines.multimachine.ig.siphon.desc3=需提供64x深度的采矿管道
+gt.blockmachines.multimachine.ig.siphon.desc4=功率：d*4^(t+2)，t为空间站等级，d为深度
+gt.blockmachines.multimachine.ig.siphon.desc5=可加载所在区块(电烙铁切换)
+gt.blockmachines.multimachine.ig.siphon.lore0=将太空采矿提升到另一个层次!
+gt.blockmachines.multimachine.ig.siphon.lore1=尽情吮吸吧！
+gt.blockmachines.multimachine.ig.siphon.lore2=用EU交换流体
+
+# Space Elevator
+gt.blockmachines.multimachine.ig.elevator.name=太空电梯
+gt.blockmachines.multimachine.ig.elevator.desc0=太空电梯的控制器方块
+gt.blockmachines.multimachine.ig.elevator.desc2=最多能装备12个太空电梯模块
+gt.blockmachines.multimachine.ig.elevator.desc3=加速轨道等级限制了模块等级与可安装的模块数量
+gt.blockmachines.multimachine.ig.elevator.desc4=每个模块有各自独立的输入输出空间，统一供电
+gt.blockmachines.multimachine.ig.elevator.desc5=由本控制器接收能量供应并将能量分发
+gt.blockmachines.multimachine.ig.elevator.desc6=MK-III及以上加速轨道可以扩展此结构支持24个模块
+gt.blockmachines.multimachine.ig.elevator.lore0=上升到太空
+gt.blockmachines.multimachine.ig.elevator.lore1=你最喜欢太空的哪一点？我喜欢每一点.
+gt.blockmachines.multimachine.ig.elevator.lore2=让所有虚空采矿场都失业
+gt.blockmachines.multimachine.ig.elevator.gui.numOfModules=已安装的模块
+gt.blockmachines.multimachine.ig.elevator.gui.ready=准备运行.
+gt.blockmachines.multimachine.ig.elevator.gui.noRecipe=未运行.
+gt.blockmachines.multimachine.ig.elevator.gui.recipe=运行中.
+gt.blockmachines.multimachine.ig.elevator.gui.config=配置：
+
+# Module Base
+gt.blockmachines.module.name=太空电梯模块
+gt.blockmachines.multimachine.project.ig.desc2=直接从太空电梯接收能量，不使用能源仓
+gt.blockmachines.multimachine.project.ig.motorT1=需要MK-I或更高等级的加速轨道
+gt.blockmachines.multimachine.project.ig.motorT2=需要MK-II或更高等级的加速轨道
+gt.blockmachines.multimachine.project.ig.motorT3=需要MK-III或更高等级的加速轨道
+gt.blockmachines.multimachine.project.ig.motorT4=需要MK-IV或更高等级的加速轨道
+gt.blockmachines.multimachine.project.ig.motorT5=需要MK-V或更高等级的加速轨道
+
+# Module Assembler
+gt.blockmachines.multimachine.project.ig.assembler.t1.name=太空组装模块MK-I
+gt.blockmachines.multimachine.project.ig.assembler.t2.name=太空组装模块MK-II
+gt.blockmachines.multimachine.project.ig.assembler.t3.name=太空组装模块MK-III
+gt.blockmachines.multimachine.project.ig.assembler.desc0=将太空组装功能添加到太空电梯
+gt.blockmachines.multimachine.project.ig.assembler.t1.desc1=为什么我又要在太空里组装东西啊？
+gt.blockmachines.multimachine.project.ig.assembler.t2.desc1=这真的有必要吗？
+gt.blockmachines.multimachine.project.ig.assembler.t3.desc1=我想我们永远也不会知道.
+gt.blockmachines.multimachine.project.ig.assembler.t1.desc2=最大并行：4
+gt.blockmachines.multimachine.project.ig.assembler.t2.desc2=最大并行：16
+gt.blockmachines.multimachine.project.ig.assembler.t3.desc2=最大并行：64
+gt.blockmachines.multimachine.project.ig.assembler.cfgi.0=最大并行
+
+# Module Miner
+gt.blockmachines.multimachine.project.ig.miner.t1.name=太空采矿模块MK-I
+gt.blockmachines.multimachine.project.ig.miner.t2.name=太空采矿模块MK-II
+gt.blockmachines.multimachine.project.ig.miner.t3.name=太空采矿模块MK-III
+gt.blockmachines.multimachine.project.ig.miner.desc0=将太空采矿功能添加到太空电梯
+gt.blockmachines.multimachine.project.ig.miner.cfgi.0=距离
+gt.blockmachines.multimachine.project.ig.miner.cfgi.1=最大并行
+gt.blockmachines.multimachine.project.ig.miner.cfgi.2=过载
+gt.blockmachines.multimachine.project.ig.miner.cfgi.4=模式
+gt.blockmachines.multimachine.project.ig.miner.cfgi.4.1=静态
+gt.blockmachines.multimachine.project.ig.miner.cfgi.4.2=周期
+gt.blockmachines.multimachine.project.ig.miner.cfgi.5=范围
+gt.blockmachines.multimachine.project.ig.miner.cfgi.6=步
+gt.blockmachines.multimachine.project.ig.cfgo.0=已存储能量
+gt.blockmachines.multimachine.project.ig.miner.t1.desc1=前有伟大宝藏,超乎你的想象!
+gt.blockmachines.multimachine.project.ig.miner.t2.desc1=这是不是侵害了无人机的权利?
+gt.blockmachines.multimachine.project.ig.miner.t3.desc1=这绝对侵害了无人机的权利.
+gt.blockmachines.multimachine.project.ig.miner.desc3=运行需要等离子体(1000L氦/500L铋/300L氡).
+gt.blockmachines.multimachine.project.ig.miner.desc4=使用更高级的等离子体可获得增产.
+gt.blockmachines.multimachine.project.ig.miner.t1.desc5=最大并行：2
+gt.blockmachines.multimachine.project.ig.miner.t2.desc5=最大并行：4
+gt.blockmachines.multimachine.project.ig.miner.t3.desc5=最大并行：8
+
+# Module Pump
+gt.blockmachines.multimachine.project.ig.pump.t1.name=太空钻机模块MK-I
+gt.blockmachines.multimachine.project.ig.pump.t2.name=太空钻机模块MK-II
+gt.blockmachines.multimachine.project.ig.pump.desc0=将太空钻机功能添加到太空电梯
+gt.blockmachines.multimachine.project.ig.pump.t1.desc1=吸干气态行星从未如此简单
+gt.blockmachines.multimachine.project.ig.pump.t2.desc1=疯狂吮吸
+gt.blockmachines.multimachine.project.ig.pump.desc3=设定的行星和气体类型决定了输出的流体
+gt.blockmachines.multimachine.project.ig.pump.t2.desc4=一次处理多达4种不同的配方
+gt.blockmachines.multimachine.project.ig.pump.cfgi.0=行星类型
+gt.blockmachines.multimachine.project.ig.pump.cfgi.1=气体类型
+gt.blockmachines.multimachine.project.ig.pump.cfgi.2=并行
+
+# Module Manager
+gt.blockmachines.multimachine.project.ig.manager.t1.name=太空项目管理器
+gt.blockmachines.multimachine.project.ig.manager.desc0=用于管理太空项目的模块
+gt.blockmachines.multimachine.project.ig.manager.desc1=伟大的起点
+
+# Module Research
+gt.blockmachines.multimachine.project.ig.research.t1.name=太空研究模块
+gt.blockmachines.multimachine.project.ig.research.desc0=用于研究恒星天体的模块
+gt.blockmachines.multimachine.project.ig.research.desc1=请勿直视太阳
+
+# NEI
+ig.nei.spacemining.name=太空采矿
+ig.nei.spaceassembler.name=太空组装
+ig.nei.spaceresearch.name=太空研究
+ig.nei.spaceassembler.project=需要 %s
+ig.nei.spaceassembler.projectAt=位于 %s
+ig.nei.spaceassembler.projectAnyLocation=任何位置
+ig.nei.spacemining.specialValue.0=要求 MK-
+ig.nei.spacemining.specialValue.1=模块
+ig.nei.spacemining.distance=距离：
+ig.nei.spacemining.size=大小：
+ig.nei.spacemining.computationPrefix=最小算力：
+ig.nei.spacemining.computationSuffix=/秒
+ig.nei.spacemining.weight=权重：
+ig.nei.elevatorpump.name=太空钻机
+ig.nei.elevatorpump.planettype=行星
+ig.nei.elevatorpump.gastype=气体
+ig.nei.elevatorpump.amount=总量
+ig.nei.elevatorpump.see_all=查看全部
+ig.nei.spaceproject.name=太空项目
+ig.nei.spaceproject.stages=阶段：
+ig.nei.siphon.name=行星气体钻机
+ig.nei.siphon.planet=行星
+ig.nei.siphon.depth=深度
+
+# Structure and Tooltip
+ig.siphon.structure.ControllerPos=正面底中
+ig.siphon.structure.AnyAdvMachineFrame=任意基座机械方块
+ig.siphon.structure.PillarMiddle=1x4x1的立柱(基座中央)
+ig.siphon.structure.Sides=1x3x1立柱的每个侧面与上方
+ig.siphon.structure.Base=3x1x3的基座
+ig.siphon.structure.AdvMachineFrame=改良的机械框架
+ig.siphon.structure.FrameTungstensteel=钨钢框架
+ig.siphon.structure.ReboltedRhodiumPalladiumCasing=强化镀铑钯机械方块
+ig.elevator.structure.ProjectModule=项目模块
+ig.elevator.structure.FrameNeutronium=中子框架
+ig.elevator.structure.Parametrizer=参数仪
+ig.elevator.structure.OpticalConnector=光学接口
+ig.elevator.structure.AnyBaseCasingWith1Dot=任意太空电梯基座机械方块(提示方块：1号)
+ig.elevator.structure.AnyBaseCasingWith2Dot=任意太空电梯基座机械方块(提示方块：2号)
+ig.elevator.structure.AnyBaseCasingWith3Dot=任意太空电梯基座机械方块(提示方块：3号)
+ig.elevator.structure.TooComplex=结构太复杂了！
+ig.structure.contributors=贡献者
+ig.structure.programming=规划
+ig.structure.design=设计
+ig.structure.specialThanks=特别感谢
+ig.structure.author=添加者：
+ig.structure.moreContributors=检查所有模块的控制器GUI
+ig.structure.and=和
+
+# Space Projects
+ig.spaceproject.asteroidoutpost=小行星前哨站
+ig.spaceproject.asteroidoutpost.description=小行星前哨站是无人机的补给站和命令中心
+ig.spaceproject.planetscan=行星扫描
+ig.spaceproject.planetscan.description=通过行星轨道上的探测器扫描行星并收集数据.
+ig.sp.upgrade.improvedcomputation=算力提升升级
+ig.sp.upgrade.improvedcomputation.description=本项升级允许小行星前哨站上的量子计算机能够以更高的频率工作,并能更好地耐受宇宙射线的影响
+ig.sp.upgrade.reinforcedstructure=结构强化升级
+ig.sp.upgrade.reinforcedstructure.description=本项升级强化了结构,使其能够承受任何快速移动的小行星撞击,并保护无人机免受意外事故的影响

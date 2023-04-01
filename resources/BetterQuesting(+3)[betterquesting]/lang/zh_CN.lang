@@ -59,6 +59,7 @@ betterquesting.btn.prereq_visbility.normal=默认
 betterquesting.btn.prereq_visbility.implicit=除悬停或按住Shift时，其余隐藏
 betterquesting.btn.prereq_visbility.hidden=始终隐藏
 betterquesting.btn.share_quest=分享到聊天窗口
+betterquesting.btn.copy_quest=复制任务ID
 
 betterquesting.home.exit=退出
 betterquesting.home.quests=任务
@@ -111,10 +112,13 @@ betterquesting.notice.update=任务更新
 betterquesting.notice.unlock=任务解锁
 
 betterquesting.msg.heart_disabled=极限模式未启用，使用 "/bq_admin hardcore" 来启用它
-betterquesting.msg.share_quest=§b[任务: #%d - %s§b]
+betterquesting.msg.share_quest=§b[任务: #%s - %s§b]
 betterquesting.msg.share_quest_invalid=§c无法查看任务 %s
 betterquesting.msg.share_quest_hover_text_success=§a点击查看任务
 betterquesting.msg.share_quest_hover_text_failure=§c任务目前不可用
+
+betterquesting.msg.copy_quest_copied=§e已复制到剪贴板：
+betterquesting.msg.copy_quest_failed=§c无法复制到剪贴板
 
 key.betterquesting.quests=打开任务书
 key.betterquesting.party=队长
@@ -185,7 +189,7 @@ betterquesting.toolbox.tool.frame.name=编辑任务图标框
 betterquesting.toolbox.tool.frame.desc=更改任务图标框样式
 
 betterquesting.cmd.check_all=由 %s 完成的所有任务:
-betterquesting.cmd.check_all.line=%d %s
+betterquesting.cmd.check_all.line=%s %s
 betterquesting.cmd.check.true=%s 已完成 %s
 betterquesting.cmd.check.false=%s 未完成 %s
 betterquesting.cmd.complete=完成任务 %s 给 %s
@@ -201,6 +205,7 @@ betterquesting.cmd.edit=编辑模式 %s
 betterquesting.cmd.view=浏览模式 %s
 betterquesting.cmd.hardcore=极限模式 %s
 betterquesting.cmd.purge_hidden=删除 %s 隐藏任务
+betterquesting.cmd.error=§c出现了错误!请检查你的日志.
 
 betterquesting.cmd.lives.add_player=增加 %s 点生命 给 %s (总生命: %s)
 betterquesting.cmd.lives.add_all=增加 %s 点生命给所有玩家
