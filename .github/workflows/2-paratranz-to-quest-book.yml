@@ -32,7 +32,6 @@ jobs:
     outputs:
       passed: ${{ steps.check-and-parse-issue.outputs.passed }}
       branch: ${{ steps.check-and-parse-issue.outputs.branch }}
-      commit-sha: ${{ steps.check-and-parse-issue.outputs.commit-sha }}
 
   close-issue:
     name: Close Issue
@@ -69,7 +68,6 @@ jobs:
           poetry run python main.py action paratranz-to-quest-book
           --repo-path='.repo'
           --issue='${{ github.event.issue.number }}'
-          --commit-sha='${{ needs.check-and-parse-issue.outputs.commit-sha }}'
       - name: Create PR
         uses: peter-evans/create-pull-request@v4.0.0
         with:
