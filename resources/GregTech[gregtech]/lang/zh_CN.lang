@@ -168,8 +168,16 @@ GT5U.machines.stalled_vent.tooltip=§4故障：无法排出蒸汽!
 GT5U.machines.stalled_vent.tooltip.1=§7请手持扳手右键机器
 GT5U.machines.stalled_vent.tooltip.2=§7以旋转其蒸汽输出口
 GT5U.machines.stalled_vent.tooltip.3=§7指向没有遮挡的方向.
-GT5U.machines.oreprocessor=§e运行模式：%s §c时间：%s 秒
+GT5U.machines.oreprocessor1=§e运行模式：
+GT5U.machines.oreprocessor2=§c时间：%s 秒
 GT5U.machines.oreprocessor.void=§e销毁石粉：%s
+GT5U.machines.oreprocessor.Macerate=粉碎
+GT5U.machines.oreprocessor.Centrifuge=离心
+GT5U.machines.oreprocessor.Sifter=筛选
+GT5U.machines.oreprocessor.Chemical_Bathing=化学浸洗
+GT5U.machines.oreprocessor.Ore_Washer=洗矿
+GT5U.machines.oreprocessor.Thermal_Centrifuge=热力离心
+GT5U.machines.oreprocessor.WRONG_MODE=出现了错误
 GT5U.machines.industrialapiary.cancel.tooltip=§c取消处理
 GT5U.machines.industrialapiary.cancel.tooltip.1=§7会同时关闭机器(软锤)
 GT5U.machines.industrialapiary.cancel.tooltip.2=§7§o无法停止公主蜂繁殖
@@ -215,6 +223,7 @@ GT5U.gui.button.input_separation=输入隔离
 GT5U.gui.button.batch_mode=批量处理模式
 GT5U.gui.button.lock_recipe=锁定配方
 GT5U.gui.button.down_tier=无损降频
+GT5U.gui.button.tier=等级：
 
 GT5U.item.programmed_circuit.select.header=再编程电路
 
@@ -804,8 +813,8 @@ achievement.gt.blockmachines.wireless.transmitter.tier.13.desc=捡起此物品�
 achievement.gt.blockmachines.wireless.transmitter.tier.14=MAX无线动力仓
 achievement.gt.blockmachines.wireless.transmitter.tier.14.desc=捡起此物品以在NEI内解锁该合成表
 
-achievement.gt.blockmachines.multimachine.oildrilinfinite=无尽油气流体钻机
-achievement.gt.blockmachines.multimachine.oildrilinfinite.desc=捡起此物品以在NEI内解锁该合成表
+achievement.gt.blockmachines.multimachine.oildrillinfinite=无尽油气流体钻机
+achievement.gt.blockmachines.multimachine.oildrillinfinite.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.blockmachines.multimachine.oreprocessor=集成矿石处理厂
 achievement.gt.blockmachines.multimachine.oreprocessor.desc=正在处理所有矿石.
 
@@ -827,6 +836,10 @@ achievement.gt.metaitem.01.32609=真·终极电池
 achievement.gt.metaitem.01.32609.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.metaitem.01.32594=极·终极电池
 achievement.gt.metaitem.01.32594.desc=捡起此物品以在NEI内解锁该合成表
+achievement.gt.metaitem.01.32145=狂·终极电池
+achievement.gt.metaitem.01.32145.desc=捡起此物品以在NEI内解锁该合成表
+achievement.gt.metaitem.01.32146=太·终极电池
+achievement.gt.metaitem.01.32146.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.metaitem.01.32736=能量模块
 achievement.gt.metaitem.01.32736.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.metaitem.01.32737=能量簇
