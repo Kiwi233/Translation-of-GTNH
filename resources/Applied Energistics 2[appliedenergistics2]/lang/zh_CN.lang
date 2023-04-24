@@ -205,15 +205,15 @@ gui.appliedenergistics2.inWorldFluix=将1个充能赛特斯石英水晶,1个下�
 gui.appliedenergistics2.inWorldPurificationCertus=用赛特斯石英粉和沙子制作赛特斯石英种子,并扔进水里；使用晶体催生器可以让这个过程变得更快.
 gui.appliedenergistics2.inWorldPurificationNether=用下界石英粉和沙子制作下界石英种子,并扔进水里；使用晶体催生器可以让这个过程变得更快.
 gui.appliedenergistics2.inWorldPurificationFluix=用福鲁伊克斯粉和沙子制作福鲁伊克斯种子,并扔进水里；使用晶体催生器可以让这个过程变得更快.
-gui.appliedenergistics2.inWorldSingularity=将1个奇点和一个末影珍珠粉仍在地上,并用爆炸性物品引爆.
+gui.appliedenergistics2.inWorldSingularity=将1个奇点和一个末影珍珠粉扔在地上,并在范围内引爆爆炸物.
 gui.appliedenergistics2.ChargedQuartz=将未充能赛特斯石英插入充能器充能后,可以得到充能赛特斯石英.
-gui.appliedenergistics2.ChargedQuartzFind=充能赛特斯石英也可以在世界中以普通赛特斯石英一半的几率找到,它的外观类似普通赛特斯石英,除了它会冒出闪电.
+gui.appliedenergistics2.ChargedQuartzFind=在世界中也可以找到充能赛特斯石英(普通赛特斯石英的一半几率),其外观类似普通赛特斯石英,不过它会冒出闪电.
 gui.appliedenergistics2.NoSecondOutput=无副产物.
 gui.appliedenergistics2.OfSecondOutput=获得副产物概率%1$d%%.
 gui.appliedenergistics2.MultipleOutputs=第一副产概率%1$d%%,第二副产概率%2$d%%.
 gui.appliedenergistics2.SelectAmount=选择数量
 gui.appliedenergistics2.CopyMode=复制模式
-gui.appliedenergistics2.CopyModeDesc=控制当取出存储元件时,是否清空配置格.
+gui.appliedenergistics2.CopyModeDesc=当取出存储元件时,是否清空配置格.
 gui.appliedenergistics2.Next=下一页
 gui.appliedenergistics2.Lumen=光通
 gui.appliedenergistics2.Empty=空
@@ -277,7 +277,7 @@ gui.color.appliedenergistics2.InterfaceTerminalMatch=2A00FF00
 
 # GUI Tooltips
 gui.tooltips.appliedenergistics2.Stash=存储物品
-gui.tooltips.appliedenergistics2.StashDesc=将合成槽的物品返回网络
+gui.tooltips.appliedenergistics2.StashDesc=将合成槽的物品返还网络
 gui.tooltips.appliedenergistics2.Substitutions=矿物辞典替换
 gui.tooltips.appliedenergistics2.SubstitutionsDescEnabled=启用输入物品替换功能.
 gui.tooltips.appliedenergistics2.SubstitutionsDescDisabled=禁用输入物品替换功能.
@@ -291,10 +291,10 @@ gui.tooltips.appliedenergistics2.Encode=编码样板
 gui.tooltips.appliedenergistics2.EncodeDescription=将输入的样板写入当前编码样板或可用的空样板;按住Shift使样板直接进入物品栏;按住Ctrl+Shift以编码整组样板.
 
 gui.tooltips.appliedenergistics2.FuzzyMode=模糊对比
-gui.tooltips.appliedenergistics2.FZPercent_25=25%时分离损耗
-gui.tooltips.appliedenergistics2.FZPercent_50=50%时分离损耗
-gui.tooltips.appliedenergistics2.FZPercent_75=75%时分离损耗
-gui.tooltips.appliedenergistics2.FZPercent_99=99%时分离损耗
+gui.tooltips.appliedenergistics2.FZPercent_25=以25%耐久为阈值划分
+gui.tooltips.appliedenergistics2.FZPercent_50=以50%耐久为阈值划分
+gui.tooltips.appliedenergistics2.FZPercent_75=以75%耐久为阈值划分
+gui.tooltips.appliedenergistics2.FZPercent_99=以99%耐久为阈值划分
 
 gui.tooltips.appliedenergistics2.SortOrder=排序
 gui.tooltips.appliedenergistics2.SortBy=排序按
@@ -316,7 +316,7 @@ gui.tooltips.appliedenergistics2.IOMode=输入/输出模式
 gui.tooltips.appliedenergistics2.CondenserOutput=ME聚合器-输出
 gui.tooltips.appliedenergistics2.PartitionStorage=分区存储
 gui.tooltips.appliedenergistics2.Clear=清除
-gui.tooltips.appliedenergistics2.TrashController=通过按下shift或空格点击删除.
+gui.tooltips.appliedenergistics2.TrashController=按下Shift/空格+左键以删除.
 
 gui.tooltips.appliedenergistics2.InterfaceBlockingMode=阻挡模式
 gui.tooltips.appliedenergistics2.InterfaceCraftingMode=合成模式
@@ -331,8 +331,8 @@ gui.tooltips.appliedenergistics2.AlwaysActive=总是激活
 gui.tooltips.appliedenergistics2.ActiveWithoutSignal=无信号时激活
 gui.tooltips.appliedenergistics2.ActiveWithSignal=有信号时激活
 gui.tooltips.appliedenergistics2.ActiveOnPulse=有脉冲信号时激活
-gui.tooltips.appliedenergistics2.EmitLevelsBelow=当容量标准小于设定限制时发出信号.
-gui.tooltips.appliedenergistics2.EmitLevelAbove=当容量标准大于等于设定限制时发出信号.
+gui.tooltips.appliedenergistics2.EmitLevelsBelow=当储量小于设定限制时发出信号.
+gui.tooltips.appliedenergistics2.EmitLevelAbove=当储量大于等于设定限制时发出信号.
 
 gui.tooltips.appliedenergistics2.SearchMode_Auto=自动搜索
 gui.tooltips.appliedenergistics2.SearchMode_Standard=标准搜索
@@ -344,7 +344,7 @@ gui.tooltips.appliedenergistics2.PartitionStorageHint=基于当前已存储物�
 gui.tooltips.appliedenergistics2.ClearSettings=清除配置
 gui.tooltips.appliedenergistics2.Craftable=可合成
 gui.tooltips.appliedenergistics2.MoveWhenEmpty=当元件为空时移动至输出口.
-gui.tooltips.appliedenergistics2.MoveWhenWorkIsDone=当工序完成移动至输出口.
+gui.tooltips.appliedenergistics2.MoveWhenWorkIsDone=传输完成后移动至输出口.
 gui.tooltips.appliedenergistics2.MoveWhenFull=当元件装满时移动至输出口.
 gui.tooltips.appliedenergistics2.Disabled=禁用
 gui.tooltips.appliedenergistics2.Enable=启用
@@ -365,7 +365,7 @@ gui.tooltips.appliedenergistics2.TerminalStyle_Small=短
 
 gui.tooltips.appliedenergistics2.DoesntDespawn=该物品不会消失.
 gui.tooltips.appliedenergistics2.EmitterMode=合成发信模式
-gui.tooltips.appliedenergistics2.CraftViaRedstone=发射红石信号来合成物品.
+gui.tooltips.appliedenergistics2.CraftViaRedstone=发射红石信号,合成物品.
 gui.tooltips.appliedenergistics2.EmitWhenCrafting=在物品合成时发射红石信号.
 
 gui.tooltips.appliedenergistics2.ReportInaccessibleItems=报告不可交互的物品
