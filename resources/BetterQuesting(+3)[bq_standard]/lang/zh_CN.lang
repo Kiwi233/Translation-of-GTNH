@@ -56,6 +56,10 @@ bq_standard.gui.questcompletion=任务完成
 
 bq_standard.importer.dummy.name=虚拟导入
 bq_standard.importer.dummy.desc=仅抛出 UnsupportedOperationException .
+bq_standard.importer.hqm_bag.name=HQM奖励袋导入
+bq_standard.importer.hqm_bag.desc=导入以json格式导出的HQM奖励袋.
+bq_standard.importer.hqm_quest.name=HQM任务导入
+bq_standard.importer.hqm_quest.desc=导入以json格式导出的HQM任务. 由于HQM任务在导出后被索引的奇怪特性, 可能会在具有重复名称或条件解锁的任务之间发生错误.
 
 item.bq_standard.loot_chest.name=奖励箱
 
