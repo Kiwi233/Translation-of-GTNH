@@ -127,9 +127,10 @@ gt.blockmachines.multimachine.ig.siphon.desc2=使用编程电路设置抽取的�
 gt.blockmachines.multimachine.ig.siphon.desc3=需提供64x深度的采矿管道
 gt.blockmachines.multimachine.ig.siphon.desc4=功率：d*4^(t+2)，t为空间站等级，d为深度
 gt.blockmachines.multimachine.ig.siphon.desc5=可加载所在区块(电烙铁切换)
-gt.blockmachines.multimachine.ig.siphon.lore0=将太空采矿提升到另一个层次!
-gt.blockmachines.multimachine.ig.siphon.lore1=尽情吮吸吧！
-gt.blockmachines.multimachine.ig.siphon.lore2=用EU交换流体
+gt.blockmachines.multimachine.ig.siphon.lore0=333:将太空采矿提升到另一个层次!
+gt.blockmachines.multimachine.ig.siphon.lore1=333:尽情吮吸吧！
+gt.blockmachines.multimachine.ig.siphon.lore2=333:用EU交换流体
+gt.blockmachines.multimachine.ig.siphon.lore3=根据定义，这个名字是错误的...
 
 # Space Elevator
 gt.blockmachines.multimachine.ig.elevator.name=太空电梯
@@ -139,9 +140,12 @@ gt.blockmachines.multimachine.ig.elevator.desc3=加速轨道等级限制了模�
 gt.blockmachines.multimachine.ig.elevator.desc4=每个模块有各自独立的输入输出空间，统一供电
 gt.blockmachines.multimachine.ig.elevator.desc5=由本控制器接收能量供应并将能量分发
 gt.blockmachines.multimachine.ig.elevator.desc6=MK-III及以上加速轨道可以扩展此结构支持24个模块
-gt.blockmachines.multimachine.ig.elevator.lore0=上升到太空
-gt.blockmachines.multimachine.ig.elevator.lore1=你最喜欢太空的哪一点？我喜欢每一点.
-gt.blockmachines.multimachine.ig.elevator.lore2=让所有虚空采矿场都失业
+gt.blockmachines.multimachine.ig.elevator.lore0=10:上升到太空
+gt.blockmachines.multimachine.ig.elevator.lore1=10:你最喜欢太空的哪一点？我喜欢每一点.
+gt.blockmachines.multimachine.ig.elevator.lore2=10:让所有虚空采矿场都失业
+gt.blockmachines.multimachine.ig.elevator.lore3=康斯坦丁·爱德华多维奇·齐奥尔科夫斯基(俄罗斯航天之父)的设想
+gt.blockmachines.multimachine.ig.elevator.lore4=你读过《天堂之泉》吗？
+gt.blockmachines.multimachine.ig.elevator.lore5=你读过《世界之间的网络》吗？
 gt.blockmachines.multimachine.ig.elevator.gui.numOfModules=已安装的模块
 gt.blockmachines.multimachine.ig.elevator.gui.ready=准备运行.
 gt.blockmachines.multimachine.ig.elevator.gui.noRecipe=未运行.
@@ -192,6 +196,7 @@ gt.blockmachines.multimachine.project.ig.miner.desc4=使用更高级的等离子
 gt.blockmachines.multimachine.project.ig.miner.t1.desc5=最大并行：2
 gt.blockmachines.multimachine.project.ig.miner.t2.desc5=最大并行：4
 gt.blockmachines.multimachine.project.ig.miner.t3.desc5=最大并行：8
+gt.blockmachines.multimachine.project.ig.miner.desc6=请将矿石放入输入总线，以设置白名单/黑名单
 
 # Module Pump
 gt.blockmachines.multimachine.project.ig.pump.t1.name=太空钻机模块MK-I
