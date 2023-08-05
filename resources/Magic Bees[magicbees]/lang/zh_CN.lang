@@ -32,6 +32,7 @@ item.moonDial.name=翡翠色月相盘
 
 item.voidScoop.name=虚空捕蜂网
 item.voidGrafter.name=虚空剪枝器
+item.beeRing.name=蜜蜂收集者戒指
 
 #Tiles
 tile.effectJar.name=蜜蜂收集者的罐子
@@ -144,6 +145,9 @@ item.frameMetabolic.name=代谢框架
 item.frameNecrotic.name=坏死框架
 item.frameTemporal.name=瞬息框架
 item.frameOblivion.name=湮灭框架
+item.bloodFrame.name=血腥亚瑟王
+item.frenziedFrame.name=狂热框架
+item.bloodSoakedFrame.name=浸血框架
 
 #Capsules
 capsule.magic=%s魔力胶囊
@@ -225,6 +229,16 @@ research.node.pure=纯净
 research.node.dark=黑暗
 research.node.chaotic=混乱
 research.block.crystals=晶簇
+
+
+#Blood Magic Compat
+tc.research_name.MB_BloodFrame=血腥亚瑟王
+tc.research_text.MB_BloodFrame=欢迎你,尊贵的客人.致我们的王朝诞生地!
+tc.research_name.MB_FrenziedFrame=狂热框架
+tc.research_text.MB_FrenziedFrame=愿混沌吞噬世界!愿混沌吞噬世界!
+frenziedFrame.1=你不知道它是如何降临到你身上的…疯狂,不是吗?<BR>你记得自己曾对别人发誓,你听到脑海中有某种声音,几乎是无声的…尖叫?你依稀记得它可怕的呼唤,尖叫着要你用混沌的净化之火焚烧世界.<BR>你把它握在了手中,你清楚地记得混沌能量在你身体里燃烧的感觉,在它的火焰中烧灼着你的心灵.<BR><BR>但是…你肯定没有,毕竟那太疯狂了…
+bloodFrame.1=当你拿着这个框架时,你感到灵魂在颤抖.你感到…惊恐.<BR>你不太确定自己在血脉贲张的狂热中创造了什么,但你只能在极度恐惧中看着你的蜜蜂在你眼前慢慢崩溃,转眼间又被怪异的仿制品取代.<BR>你几乎可以发誓,你能看到它...在跳动?好像它还活着?<BR>但是…肯定不是,毕竟那太疯狂了…
+
 
 #Species
 magicbees.speciesMystical=神秘
@@ -353,8 +367,6 @@ magicbees.speciesCobalt=辉钴
 magicbees.speciesCobalt.description=这种金属不稳定的特性似乎丝毫没有影响这些蜜蜂.|Apinomicon
 magicbees.speciesManyullyn=玛玉灵
 magicbees.speciesManyullyn.description="咚!嘟滴嘟~咚!"
-magicbees.speciesOsmium=蓝锇
-magicbees.speciesOsmium.description=据古书记载有时会与传说中的铱金蜂混淆, 除了不那么粘稠的材质和粉红的色泽.|Apinomicon
 magicbees.speciesSilicon=硅晶
 magicbees.speciesSilicon.description="不要和硅胶蜂弄混了,也就是著名的Boo Bees!"|Myrathi,穿短裤的人
 magicbees.speciesCertus=定型

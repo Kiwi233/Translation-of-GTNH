@@ -56,9 +56,11 @@ item.em.frontRotate.desc.1=可以旋转多方块控制器,
 item.em.frontRotate.desc.2=从而使整个结构可以旋转.
 
 item.em.parametrizerMemoryCard.name=数据化储存卡
+item.em.parametrizerMemoryCard.name.paste=参数存储卡(粘贴模式)
+item.em.parametrizerMemoryCard.name.copy=参数存储卡(复制模式)
 item.em.parametrizerMemoryCard.desc.0=存储参数
-item.em.parametrizerMemoryCard.desc.1=在参数仪/控制器上使用以对其进行配置
-item.em.parametrizerMemoryCard.desc.2=在参数仪上使用以存储参数
+item.em.parametrizerMemoryCard.desc.1=在多方块结构的控制器上使用以对其进行配置
+item.em.parametrizerMemoryCard.desc.2=在多方块结构的控制器上使用以存储参数
 item.em.parametrizerMemoryCard.desc.3=潜行右键以锁定/解锁
 
 item.tm.teslaCoilCapacitor.0.name=LV特斯拉电容
@@ -881,6 +883,8 @@ gt.blockmachines.pipe.datastream.desc.0=高级数据传输设备
 gt.blockmachines.pipe.datastream.desc.1=请勿直视激光!
 gt.blockmachines.pipe.datastream.desc.2=启用前必须涂色
 gt.blockmachines.pipe.datastream.desc.3=请勿交叉或分流
+
+gt.blockmachines.pipe.desc.4=防爆
 
 #Single blocks
 gt.blockmachines.machine.tt.ownerdetector.name=所有者检测机
