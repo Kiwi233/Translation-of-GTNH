@@ -156,7 +156,7 @@ item.boatGreatwood.name=宏伟之木船
 item.boatThaumium.name=神秘船
 item.conduit.name=异界传导物质
 item.keystoneBlank.name=空白异界要石
-item.keystoneTH.name=平面异界要石
+item.keystoneTH.name=异界要石
 item.crystalWand.name=惰性水晶杖芯
 item.voidPutty.name=虚空油灰
 item.meatTH.name=无法辨认的肉
@@ -185,8 +185,8 @@ tile.ThaumicHorizons_transductionAmplifier.name=传导增幅器
 tile.ThaumicHorizons_recombinator.name=因果重组器
 tile.ThaumicHorizons_vortexStabilizer.name=漩涡弱化设备
 tile.ThaumicHorizons_light.name=光球
-tile.ThaumicHorizons_vortex.0.name=平面漩涡
-tile.ThaumicHorizons_vortex.1.name=平面漩涡(创造)
+tile.ThaumicHorizons_vortex.0.name=异界漩涡
+tile.ThaumicHorizons_vortex.1.name=异界漩涡(创造)
 tile.ThaumicHorizons_void.name=异界边境
 tile.ThaumicHorizons_slot.name=要石容器
 tile.ThaumicHorizons_cloud.0.name=云
@@ -225,7 +225,7 @@ tile.ThaumicHorizons_crystal.14.name=红色水晶
 tile.ThaumicHorizons_crystal.15.name=黑色水晶
 tile.ThaumicHorizons_deepcrystal.name=深度水晶
 tile.ThaumicHorizons_leviathan.name=原始化石
-tile.ThaumicHorizons_gateway.name=平面之门
+tile.ThaumicHorizons_gateway.name=异界之门
 
 ###RESEARCH###
 
@@ -494,7 +494,7 @@ transductionAmplifier2=强行提升节点容量自然也有它的风险.单个�
 tc.research_name.vortexStabilizer=漩涡弱化
 tc.research_text.vortexStabilizer=置节点于饮食中
 vortexStabilizer1=饕餮节点中所蕴藏的大量Vis已经诱惑无数神秘学学徒过早走向坟墓.这种尴尬的结局不会适合一名和你一样有声望的神秘使,所以你开发出了一种临时无效化节点引力方法.<BR>用红石信号激活后,漩涡弱化器将投射出一股蔚蓝的光束,它将压制神秘场中的一切流动.任何被光束打中的饕餮节点都将停止吸收附近的物质直到光束被移除.<BR>似乎这种光束还有可能破坏其他的现象...
-tc.research_name.planarKeystone=异界要石
+tc.research_name.planarKeystone=异界之门
 tc.research_text.planarKeystone=想想传送门
 planarKeystone1=从简单的黑曜石环到威风八面的邪术方尖碑,迄今为止你见过的所有其他维度的传送门都是永久结构.这种进行时空旅行的方法有它的好处,但传送门本身可能开销巨大,并且关于它们建筑的秘密大都遗失在了历史的长河中.<BR>你已经开发出了另一种基于被称为"要石"的特殊法杖核心进行次元旅行的方案.这些强力设备可用来在固体表面创建临时的单向次元裂缝,从而实现世界与世界间的快速转换.
 planarKeystone2=新制的要石在生效前必须经过压印.只需要手持要石并右击;它就将与你当前所在的世界永久绑定,不可逆转.<BR>不幸的是,此法并非适用于所有维度 - 尤其是外域,它似乎被什么东西守护着,这层守护阻止了一切进出迷宫的旅行.<BR>神秘学也提供了一种传统的传送门的设计.只需用奥术石材和青金石块构造一个垂直的环,用你的法杖激活青金石,并安装一块异界要石,将会开启一个永久传送门.要移除要石,只需要右击.

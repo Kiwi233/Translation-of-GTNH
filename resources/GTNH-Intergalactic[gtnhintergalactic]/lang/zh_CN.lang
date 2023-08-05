@@ -64,7 +64,17 @@ achievement.item.MiningDroneUV.desc=小行星带吞噬者
 achievement.item.MiningDroneUHV=采矿无人机MK-IX
 achievement.item.MiningDroneUHV.desc=行星吞噬者
 achievement.item.MiningDroneUEV=采矿无人机MK-X
-achievement.item.MiningDroneUEV.desc=恒星系统吞噬者
+achievement.item.MiningDroneUEV.desc=恒星系吞噬者
+achievement.item.MiningDroneUIV=采矿无人机MK-XI
+achievement.item.MiningDroneUIV.desc=星座吞噬者
+achievement.item.MiningDroneUMV=采矿无人机MK-XII
+achievement.item.MiningDroneUMV.desc=星团吞噬者
+achievement.item.MiningDroneUXV=采矿无人机MK-XIII
+achievement.item.MiningDroneUXV.desc=已知宇宙吞噬者
+achievement.item.MiningDroneMAX=采矿无人机MK-XIV
+achievement.item.MiningDroneMAX.desc=过去未来一切存在吞噬者
+
+
 
 # Items
 item.nanotubeSpool.name=纳米管线轴
@@ -78,6 +88,10 @@ item.MiningDroneZPM.name=采矿无人机MK-VII
 item.MiningDroneUV.name=采矿无人机MK-VIII
 item.MiningDroneUHV.name=采矿无人机MK-IX
 item.MiningDroneUEV.name=采矿无人机MK-X
+item.MiningDroneUIV.name=采矿无人机MK-XI
+item.MiningDroneUMV.name=采矿无人机MK-XII
+item.MiningDroneUXV.name=采矿无人机MK-XIII
+item.MiningDroneMAX.name=采矿无人机MK-XIV
 
 # Blocks
 gt.blockcasings.ig.0.name=太空电梯基座机械方块
@@ -140,6 +154,7 @@ gt.blockmachines.multimachine.ig.elevator.desc3=加速轨道等级限制了模�
 gt.blockmachines.multimachine.ig.elevator.desc4=每个模块有各自独立的输入输出空间，统一供电
 gt.blockmachines.multimachine.ig.elevator.desc5=由本控制器接收能量供应并将能量分发
 gt.blockmachines.multimachine.ig.elevator.desc6=MK-III及以上加速轨道可以扩展此结构支持24个模块
+gt.blockmachines.multimachine.ig.elevator.desc7=关闭控制器即可暂停所有模块
 gt.blockmachines.multimachine.ig.elevator.lore0=10:上升到太空
 gt.blockmachines.multimachine.ig.elevator.lore1=10:你最喜欢太空的哪一点？我喜欢每一点.
 gt.blockmachines.multimachine.ig.elevator.lore2=10:让所有虚空采矿场都失业
@@ -205,10 +220,12 @@ gt.blockmachines.multimachine.project.ig.pump.desc0=将太空钻机功能添加�
 gt.blockmachines.multimachine.project.ig.pump.t1.desc1=吸干气态行星从未如此简单
 gt.blockmachines.multimachine.project.ig.pump.t2.desc1=疯狂吮吸
 gt.blockmachines.multimachine.project.ig.pump.desc3=设定的行星和气体类型决定了输出的流体
-gt.blockmachines.multimachine.project.ig.pump.t2.desc4=一次处理多达4种不同的配方
+gt.blockmachines.multimachine.project.ig.pump.desc4=锁定输出仓即可防止溢出销毁
+gt.blockmachines.multimachine.project.ig.pump.t2.desc5=一次处理多达4种不同的配方
 gt.blockmachines.multimachine.project.ig.pump.cfgi.0=行星类型
 gt.blockmachines.multimachine.project.ig.pump.cfgi.1=气体类型
 gt.blockmachines.multimachine.project.ig.pump.cfgi.2=并行
+gt.blockmachines.multimachine.project.ig.pump.cfgi.3=批量处理规模
 
 # Module Manager
 gt.blockmachines.multimachine.project.ig.manager.t1.name=太空项目管理器
@@ -255,6 +272,7 @@ ig.siphon.structure.AdvMachineFrame=改良的机械框架
 ig.siphon.structure.FrameTungstensteel=钨钢框架
 ig.siphon.structure.ReboltedRhodiumPalladiumCasing=强化镀铑钯机械方块
 ig.elevator.structure.ProjectModule=项目模块
+ig.elevator.structure.Motor=太空电梯加速轨道
 ig.elevator.structure.FrameNeutronium=中子框架
 ig.elevator.structure.Parametrizer=参数仪
 ig.elevator.structure.OpticalConnector=光学接口

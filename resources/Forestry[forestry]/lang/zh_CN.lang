@@ -568,6 +568,13 @@ item.for.frameImpregnated.name=浸渍框架
 item.for.frameProven.name=标定框架
 item.for.frameUntreated.name=未处理框架
 
+for.frame.tooltip.durability=耐久：
+for.frame.tooltip.territory=范围：
+for.frame.tooltip.mutationRate=突变率：
+for.frame.tooltip.lifespan=寿命：
+for.frame.tooltip.production=产物：
+for.frame.tooltip.geneticDecay=基因衰变：
+
 item.for.fruits.cherry.name=樱桃
 item.for.fruits.chestnut.name=栗树
 item.for.fruits.dates.name=枣椰
@@ -723,7 +730,7 @@ tile.for.mail.0.name=信箱
 tile.for.mail.1.name=贸易站
 tile.for.mail.2.name=集邮箱
 
-tile.for.resources.0.name=磷矿石
+tile.for.resources.0.name=磷灰石矿石
 tile.for.resources.1.name=铜矿石
 tile.for.resources.2.name=锡矿石
 
@@ -939,7 +946,7 @@ for.bees.grammar.drone.type=雄蜂
 for.bees.grammar.drone=%SPECIES%TYPE
 for.bees.grammar.larvae.type=幼体
 for.bees.grammar.larvae=%SPECIES%TYPE
-for.bees.grammar.princess.type=未知公主蜂
+for.bees.grammar.princess.type=公主蜂
 for.bees.grammar.princess=%SPECIES%TYPE
 for.bees.grammar.queen.type=蜂后
 for.bees.grammar.queen=%SPECIES%TYPE
@@ -1570,8 +1577,8 @@ for.config.world.generate.retrogen.normal.comment=在模组未加入钱已载入
 for.config.world.generate.retrogen.forced=强制资源重生成
 for.config.world.generate.retrogen.forced.comment=强制在所有区块生成林业模组中的资源，即使这些地方已经生成过林业资源。
 
-for.config.world.generate.ore.apatite=生成高度
-for.config.world.generate.ore.apatite.comment=生成矿物的海拔高度。
+for.config.world.generate.ore.apatite=生成磷灰石
+for.config.world.generate.ore.apatite.comment=在世界中生成磷灰石。
 for.config.world.generate.ore.copper=生成铜矿
 for.config.world.generate.ore.copper.comment=在世界中生成铜矿。
 for.config.world.generate.ore.tin=生成锡矿

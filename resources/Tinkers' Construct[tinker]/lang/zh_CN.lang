@@ -576,6 +576,7 @@ tile.fluid.molten.mithril.name=熔融蕴魔金属
 tile.fluid.molten.enderium.name=熔融末影
 tile.fluid.ender.name=熔融末影珍珠
 tile.liquid.slime.name=液态史莱姆
+tile.molten.quartz.name=熔融下界石英
 
 LiquidMetal.Iron.name=熔融铁
 LiquidMetal.Gold.name=熔融金
@@ -1028,8 +1029,14 @@ armor.travelvest.ability=能力: 快速游动
 armor.travelwings.ability=能力: 跳跃加强
 armor.travelboots.ability=能力: 步子变高
 
-item.TConstruct.slimesling.name=史莱姆
+item.TConstruct.slimesling.name=史莱姆弹弓
 item.TConstruct.slime_boots.name=史莱姆靴子
+gadgets.slimesling.tooltip1=瞄准身后的方块发射后可以被抛向空中
+gadgets.slimesling.tooltip2=向月球发射!
+gadgets.slimesling.tooltip3=必须在地上使用
+gadgets.slime_boots.tooltip1=弹起!
+gadgets.slime_boots.tooltip2=按住
+gadgets.slime_boots.tooltip3=以停止弹跳.
 
 tool.reinforced=耐久
 tool.unbreakable=不毁
@@ -1081,6 +1088,7 @@ modifier.toolstation.ThaumicVision=神秘视觉
 modifier.toolstation.WaterWalk=水上行走
 
 modifier.tooltip.Main=工具强化槽:
+modifier.tooltip.Creative=§5§k创§d§k造
 modifier.tooltip.Auto-Smelt=自动冶炼
 modifier.tooltip.BaneofArthropods=节肢杀手
 modifier.tooltip.Beheading=斩首
