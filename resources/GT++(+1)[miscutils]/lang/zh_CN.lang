@@ -1728,7 +1728,7 @@ item.CoalGas.name=煤气单元
 item.Ethylbenzene.name=乙苯单元
 item.Anthracene.name=蒽单元
 item.Toluene.name=甲苯单元
-item.CoalTar.name=煤焦油单元
+item.CoalTar.name=煤焦单元
 item.CoalTarOil.name=煤焦油单元
 item.SulfuricCoalTarOil.name=硫酸煤焦油单元
 item.Naphthalene.name=萘单元
@@ -1758,7 +1758,7 @@ item.itemDustSmallRedstoneAlloy.name=小堆红石合金粉
 item.itemDustTinyRedstoneAlloy.name=小撮红石合金粉
 item.itemDustElectricalSteel.name=磁钢粉
 item.itemDustSmallElectricalSteel.name=小堆磁钢粉
-item.itemDustTinyElectricalSteel.name=小堆磁钢粉
+item.itemDustTinyElectricalSteel.name=小撮磁钢粉
 item.itemDustPulsatingIron.name=脉冲铁粉
 item.itemDustSmallPulsatingIron.name=小堆脉冲铁粉
 item.itemDustTinyPulsatingIron.name=小撮脉冲铁粉
@@ -2021,7 +2021,6 @@ tile.blockDarkWorldPortalFrame.name=遏制框架
 
 //Added 1/4/18
 tile.Block of Plutonium-239.name=钚-239块
-tile.Fluorite Ore [Old].name=氟石矿[不可用的]
 tile.blockMiningPipeFake.name=强化钢筋挖掘管道
 tile.blockMiningHeadFake.name=基岩钻头
 item.itemPlateMeatRaw.name=生肉板
@@ -2104,7 +2103,7 @@ item.Monomethylhydrazine.name=甲基肼单元
 item.Hydrazine.name=肼单元
 item.NitrogenTetroxide.name=四氧化二氮单元
 item.NitrousOxide.name=一氧化二氮单元
-item.AmmoniumNitrateSlurry.name=硝酸铵浆液单元
+item.AmmoniumNitrateSlurry.name=硝酸铵浆单元
 item.Kerosene.name=煤油单元
 item.LiquidOxygen.name=液化氧单元[LOX]
 
@@ -2689,7 +2688,7 @@ item.particle.ion.Holmium.name=钬离子
 item.particle.ion.Erbium.name=铒离子
 item.particle.ion.Thulium.name=铥离子
 item.particle.ion.Ytterbium.name=镱离子
-item.particle.ion.Lutetium.name=镏离子
+item.particle.ion.Lutetium.name=镥离子
 item.particle.ion.Hafnium.name=铪离子
 item.particle.ion.Tantalum.name=钽离子
 item.particle.ion.Tungsten.name=钨离子
@@ -3167,15 +3166,6 @@ item.BasicGenericChemItem.5.name=棕色金属催化剂
 item.MudRedSlurry.name=红色泥浆单元
 item.liquid_toluene.name=甲苯单元
 
-# The following 7 keys have been deprecated and overwritten
-# item.BasicAlgaeItem.0.name=Algae Spore (I)
-# item.BasicAlgaeItem.1.name=Algae Spore (II)
-# item.BasicAlgaeItem.2.name=Algae Spore (III)
-# item.BasicAlgaeItem.3.name=Algae Spore (IV)
-# item.BasicAlgaeItem.4.name=Algae Spore (V)
-# item.BasicAlgaeItem.5.name=Algae Spore (VI)
-# item.BasicAlgaeItem.6.name=Algae Spore (VII)
-
 //Added 17/01/20
 item.BasicGenericChemItem.6.name=粉色金属催化剂
 
@@ -3466,6 +3456,7 @@ item.BasicGenericChemItem.24.name=高级硅岩催化剂
 item.BasicGenericChemItem.25.name=原生智能催化剂
 item.BasicGenericChemItem.26.name=终极增塑催化剂
 item.BasicGenericChemItem.27.name=生物智能催化剂
+item.BasicGenericChemItem.28.name=时间谐波催化剂
 
 item.ItemCustomSpawnEgg.name=生成%s
 item.itemSimpleFiremaker.message.0=你点燃了火坑.
