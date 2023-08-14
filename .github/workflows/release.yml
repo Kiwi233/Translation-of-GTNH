@@ -23,14 +23,10 @@ jobs:
         run: mkdir -p assets
       - name: Pack
         run: python repo/.github/scripts/pack.py
-      - name: Zip complete
+      - name: Zip
         uses: edgarrc/action-7z@v1
         with:
-          args: 7z a -t7z -mx=9 ./assets/${{ github.ref_name }}_complete.7z ./temp/complete/*
-      - name: Zip normal
-        uses: edgarrc/action-7z@v1
-        with:
-          args: 7z a -t7z -mx=9 ./assets/${{ github.ref_name }}_normal.7z ./temp/normal/*
+          args: 7z a -t7z -mx=9 ./assets/${{ github.ref_name }}.7z ./temp/*
       - name: Add NotEnoughCharacters
         uses: wei/wget@v1
         with:
@@ -40,10 +36,7 @@ jobs:
         with:
           name: ${{ github.ref_name }} 版本汉化
           body: |
-            normal为不包含魔改汉化版
-            complete为完整版
             请阅读主页ReadMe以获知详细用法
           files: |
-            ./assets/${{ github.ref_name }}_complete.7z
-            ./assets/${{ github.ref_name }}_normal.7z
+            ./assets/${{ github.ref_name }}.7z
             ./assets/NotEnoughCharacters-1.7.10-1.4.3.jar
