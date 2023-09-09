@@ -29,6 +29,8 @@ achievement.gt.blockmachines.projectmodulepumpt1=太空钻机模块MK-I
 achievement.gt.blockmachines.projectmodulepumpt1.desc=让我们从气态行星里抽点东西出来
 achievement.gt.blockmachines.projectmodulepumpt2=太空钻机模块MK-II
 achievement.gt.blockmachines.projectmodulepumpt2.desc=S U C C
+achievement.gt.blockmachines.projectmodulepumpt3=太空钻机模块MK-III
+achievement.gt.blockmachines.projectmodulepumpt3.desc=疯狂S U C C
 achievement.gt.blockmachines.projectmoduleresearch=太空研究模块
 achievement.gt.blockmachines.projectmoduleresearch.desc=超越无限
 achievement.gt.blockmachines.projectmodulemanager=太空项目管理器
@@ -120,6 +122,11 @@ gt.blockcasings.ig.motor.t5.desc1=哦耶！
 gt.blockcasings.ig.motor.desc2=为太空电梯解锁%s个模块槽位
 
 # GUI
+GT5U.gui.text.no_space_station=§7不在空间站
+GT5U.gui.text.invalid_depth=§7无效深度
+GT5U.gui.text.missing_project=§7缺少§b%s于§b%s
+GT5U.gui.text.no_plasma=§7缺少等离子体
+GT5U.gui.text.no_project_selected=§7没有正在运行的项目
 ig.text.project=项目
 ig.text.upgrades=升级
 ig.text.start=开始
@@ -216,9 +223,11 @@ gt.blockmachines.multimachine.project.ig.miner.desc6=请将矿石放入输入总
 # Module Pump
 gt.blockmachines.multimachine.project.ig.pump.t1.name=太空钻机模块MK-I
 gt.blockmachines.multimachine.project.ig.pump.t2.name=太空钻机模块MK-II
+gt.blockmachines.multimachine.project.ig.pump.t3.name=太空钻机模块MK-III
 gt.blockmachines.multimachine.project.ig.pump.desc0=将太空钻机功能添加到太空电梯
 gt.blockmachines.multimachine.project.ig.pump.t1.desc1=吸干气态行星从未如此简单
 gt.blockmachines.multimachine.project.ig.pump.t2.desc1=疯狂吮吸
+gt.blockmachines.multimachine.project.ig.pump.t3.desc1=S U C C
 gt.blockmachines.multimachine.project.ig.pump.desc3=设定的行星和气体类型决定了输出的流体
 gt.blockmachines.multimachine.project.ig.pump.desc4=锁定输出仓即可防止溢出销毁
 gt.blockmachines.multimachine.project.ig.pump.t2.desc5=一次处理多达4种不同的配方

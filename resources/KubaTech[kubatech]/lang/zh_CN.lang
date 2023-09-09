@@ -1,40 +1,26 @@
 #This file is a translation file for KubaTech
 
 #NEI
-mobhandler.normal_drops=常规掉落
-mobhandler.rare_drops=稀有掉落
-mobhandler.additional_drops=额外掉落
-mobhandler.infernal_drops=精英掉落
-mobhandler.infernal_cannot=无法生成精英怪
-mobhandler.infernal_can=可以生成精英怪
-mobhandler.infernal_always=总是生成精英怪
-mobhandler.mod=Mod: 
-mobhandler.max_health=最大生命值：
-mobhandler.boss=BOSS
-mobhandler.cannot_use_vial=无法收入灵魂瓶
-mobhandler.chance=几率：%.2f%%
-mobhandler.average_reminder=§7§o请注意，这些是掉落的平均期望值.
-mobhandler.lootable=抢夺附魔有效
-mobhandler.player_only=§7仅限非伪玩家击杀时掉落
-mobhandler.eec_chance=§5在工业屠宰场内掉落的几率: %.2f%%
+kubatech.mobhandler.eec_chance=§5在工业屠宰场内掉落的几率: %.2f%%
+kubatech.mobhandler.eec_disabled=§5不会在工业屠宰场内掉落
 
 #Commands
-commandhandler.invalid=§c无效使用 ! 该指令的正确使用是 /%s
-commandhandler.cant_find=§c找不到指令选项 %s
-commandhandler.generic_help=§c你还可以用 "/kubatech help" 获取可能的指令
-commandhandler.usage=<选项>
-command.help.possible_commands=可能的指令：
-command.help.usage=- 显示所有可能的指令
-command.config.invalid_option=§c无效选项 ! 可能的选项：reload
-command.config.success=§a配置(Config)重新加载成功 !
-command.config.usage=<选项>
+kubatech.commandhandler.invalid=§c无效使用！该指令的可能使用为 /%s
+kubatech.commandhandler.cant_find=§c找不到指令选项 %s
+kubatech.commandhandler.generic_help=§c你也可以使用 "/kubatech help" 以查看可选指令
+kubatech.commandhandler.usage=<选项>
+kubatech.command.help.possible_commands=可选指令：
+kubatech.command.help.usage= - 显示所有可选指令
+kubatech.command.config.invalid_option=§c无效选项！可能的选项：reload
+kubatech.command.config.success=§a成功重载配置文件
+kubatech.command.config.usage=<选项>
 
-command.tea.invalid_option=§c非法操作 !
-command.tea.player_not_found=§c未找到玩家 !
-command.tea.success_get=玩家 %s 有%d杯茶
-command.tea.success_set=玩家 %s 现在有%d杯茶
-command.tea.success_add=玩家 %s 现在有%d杯茶
-command.tea.usage=<用户名> get/set/add (<数量>)
+kubatech.command.tea.invalid_option=§c无效使用！
+kubatech.command.tea.player_not_found=§c未找到玩家！
+kubatech.command.tea.success_get=玩家 %s 有%d杯茶
+kubatech.command.tea.success_set=玩家 %s 现在有%d杯茶
+kubatech.command.tea.success_add=玩家 %s 现在有%d杯茶
+kubatech.command.tea.usage=<玩家> get/set/add (<数量>)
 
 
 #Blocks

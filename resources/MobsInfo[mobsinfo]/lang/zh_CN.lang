@@ -1,0 +1,73 @@
+#This file is a translation file for Mobs Info
+
+#NEI
+mobsinfo.mobhandler.normal_drops=常规掉落
+mobsinfo.mobhandler.rare_drops=稀有掉落
+mobsinfo.mobhandler.additional_drops=额外掉落
+mobsinfo.mobhandler.infernal_drops=精英掉落
+mobsinfo.mobhandler.infernal_cannot=无法生成精英怪
+mobsinfo.mobhandler.infernal_can=可以生成精英怪
+mobsinfo.mobhandler.infernal_always=总是生成精英怪
+mobsinfo.mobhandler.mod=Mod：
+mobsinfo.mobhandler.max_health=最大生命值：
+mobsinfo.mobhandler.boss=BOSS
+mobsinfo.mobhandler.cannot_use_vial=无法装入灵魂瓶
+mobsinfo.mobhandler.chance=几率：%.2f%%
+mobsinfo.mobhandler.average_reminder=§7§o注意，这些是平均期望掉落
+mobsinfo.mobhandler.lootable=抢夺附魔有效
+mobsinfo.mobhandler.player_only=§7仅限非伪玩家击杀时掉落
+mobsinfo.mobhandler.peaceful_allowed=支持和平模式
+
+mobsinfo.mobhandlerinfernal.title=精英怪 - 掉落表
+mobsinfo.mobhandlerinfernal.format=格式：
+mobsinfo.mobhandlerinfernal.format_1=掉落物名 - x% (y%)
+mobsinfo.mobhandlerinfernal.format_2=x - 获得几率
+mobsinfo.mobhandlerinfernal.format_3=y - 获得几率-当怪物被
+mobsinfo.mobhandlerinfernal.format_4=总是生成精英怪
+mobsinfo.mobhandlerinfernal.elite=稀有掉落 - %.2f%% (%.2f%%)
+mobsinfo.mobhandlerinfernal.ultra=精英掉落 - %.3f%% (%.2f%%)
+mobsinfo.mobhandlerinfernal.inferno=恶魔掉落 - %.3f%% (%.3f%%)
+mobsinfo.mobhandlerinfernal.tooltip_chance=综合期望几率：%.4f%%
+mobsinfo.mobhandlerinfernal.tooltip_chance_always=总是精英怪时，综合期望几率：%.4f%%
+
+#Extras (compatibility)
+mobsinfo.extras.minecraft_slime=仅在史莱姆最小时掉落
+mobsinfo.extras.minecraft_magma_cube=仅在岩浆怪不是最小是掉落
+mobsinfo.extras.chance=几率：%.2f%%
+mobsinfo.extras.base_chance=基础几率：%.2f%%
+mobsinfo.extras.variable_chance=可变几率
+mobsinfo.extras.drops_only_using=仅在被%s击杀时掉落
+mobsinfo.extras.drops_only_in_dimension=仅在%s维度掉落
+mobsinfo.extras.drops_only_with_weakness=仅在怪物带有虚弱药水效果时掉落
+mobsinfo.extras.drops_only_with_weakness_2=仅在怪物带有虚弱II及以上药水效果时掉落
+mobsinfo.extras.drops_only_with_enchant=仅在%s附魔生效时掉落
+mobsinfo.extras.each_level_of_gives=%s每级增加%s
+mobsinfo.extras.or_biome=或在%s生物群系增加%.2f%%
+mobsinfo.extras.or_using=或使用%s击杀增加%.2f%%
+
+mobsinfo.extras.avaritia_skull_sword=仅在使用啄颅剑击杀且未掉落头颅时掉落
+mobsinfo.extras.draconic_evolution_mob_soul=基于收割者附魔等级 - 与武器增加 |
+mobsinfo.extras.draconic_evolution_mob_soul_1= 等 级  | 无 | I  | II | III | IV | V
+mobsinfo.extras.draconic_evolution_mob_soul_2=任意/无 | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%%
+mobsinfo.extras.draconic_evolution_mob_soul_3=双足飞龙剑/弓 | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%%
+mobsinfo.extras.draconic_evolution_mob_soul_4=龙之剑/弓 | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%%
+mobsinfo.extras.draconic_evolution_mob_soul_5=龙之权杖  | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%%
+mobsinfo.extras.emt_creeper=仅在爬行者被充能时掉落
+mobsinfo.extras.forbidden_magic_non_player=仅在被非玩家实体击杀时掉落
+mobsinfo.extras.open_blocks_small_chance=几率：小
+mobsinfo.extras.tinkers_construct_beheading=武器的每级斩首提供额外%.2f%%
+mobsinfo.extras.tinkers_construct_beheading_1=当使用劈刀时，提供额外%.2f%%
+mobsinfo.extras.witchery_vampire_book=仅在玩家拥有吸血鬼之书时掉落
+mobsinfo.extras.witchery_warewolf=仅在被狼人击杀时掉落
+
+
+#Commands
+mobsinfo.commandhandler.invalid=§c无效使用！该指令的正确使用为 /%s
+mobsinfo.commandhandler.cant_find=§c找不到指令选项 %s
+mobsinfo.commandhandler.generic_help=§c你还可以使用 "/mobsinfo help" 获取可能的指令
+mobsinfo.commandhandler.usage=<选项>
+mobsinfo.command.help.possible_commands=可能的指令：
+mobsinfo.command.help.usage=- 显示所有可能的指令
+mobsinfo.command.config.invalid_option=§c无效选项！可能的选项：reload
+mobsinfo.command.config.success=§a配置重载成功！
+mobsinfo.command.config.usage=<选项>

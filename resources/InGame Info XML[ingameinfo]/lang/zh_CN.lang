@@ -57,6 +57,7 @@ ingameinfoxml.tag.category.bloodmagic.name=血魔法
 ingameinfoxml.tag.category.simplyjetpacks.name=简易喷气背包
 ingameinfoxml.tag.category.terrafirmacraft.name=群峦传说
 ingameinfoxml.tag.category.thaumcraft.name=神秘时代
+ingameinfoxml.tag.category.gregtech.name=GregTech
 
 # gui - tag list - formatting tags
 ingameinfoxml.tag.black.desc=黑色(§0例子§r).
@@ -289,6 +290,10 @@ ingameinfoxml.tag.tcwarpperm.desc=玩家的永久扭曲.
 ingameinfoxml.tag.tcwarpsticky.desc=玩家的一般扭曲(附着性).
 ingameinfoxml.tag.tcwarptemp.desc=玩家的暂时性扭曲.
 ingameinfoxml.tag.tcwarptotal.desc=玩家的总扭曲.
+
+# gui - tag list - integration - gregtech
+ingameinfoxml.tag.gtnewore.desc=§etrue§r 以启用矿脉等距生成, §efalse§r 使用旧版生成逻辑（坐标轴对称）.
+
 
 # keys
 ingameinfoxml.key.category=InGame Info XML
