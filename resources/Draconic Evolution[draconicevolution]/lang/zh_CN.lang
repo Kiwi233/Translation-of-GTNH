@@ -382,6 +382,7 @@ achievement.draconicevolution.manual=智慧已经满了!
 achievement.draconicevolution.manual.desc=创造龙之研究信息板
 
 //InfoHelper ----------------------------------------------------------------------------------------------------------------------------------------
+info.de.tier.txt=等级
 info.de.charge.txt=充能
 info.de.hold.txt=按住
 info.de.shift.txt=Shift
@@ -525,6 +526,50 @@ gui.de.mass.name=核心质量
 gui.de.genRate.name=产生效率
 gui.de.fieldInputRate.name=场输入率
 gui.de.fuelConversion.name=燃料转化率
+
+gui.de.particleGenerator.random.name=随机：
+gui.de.particleGenerator.red.name=红：
+gui.de.particleGenerator.green.name=绿：
+gui.de.particleGenerator.blue.name=蓝：
+gui.de.particleGenerator.motionX.name=移动 X：
+gui.de.particleGenerator.motionY.name=移动 Y：
+gui.de.particleGenerator.motionZ.name=移动 Z：
+gui.de.particleGenerator.scale.name=放缩：
+gui.de.particleGenerator.life.name=生命（T）：
+gui.de.particleGenerator.spawnX.name=生成 X：
+gui.de.particleGenerator.spawnY.name=生成 Y：
+gui.de.particleGenerator.spawnZ.name=生成 Z：
+gui.de.particleGenerator.delay.name=延迟：
+gui.de.particleGenerator.fade.name=淡出：
+gui.de.particleGenerator.gravity.name=重力：
+gui.de.particleGenerator.pitch.name=俯仰：
+gui.de.particleGenerator.yaw.name=偏航：
+gui.de.particleGenerator.rotation.name=旋转：
+gui.de.particleGenerator.length.name=长度：
+
+gui.de.particleGenerator.main.title=粒子发生器
+gui.de.particleGenerator.beam.title=光束发生器
+gui.de.particleGenerator.info.title=信息
+
+gui.de.particleGenerator.hold.name=按住：
+gui.de.particleGenerator.info.name=i
+gui.de.particleGenerator.back.name=后退
+gui.de.particleGenerator.page.name=页码：%d
+gui.de.particleGenerator.blockCollision.name=方块碰撞: %s
+gui.de.particleGenerator.particleSelected.name=选择的粒子：%d
+gui.de.particleGenerator.enabled.name=启用：%s
+gui.de.particleGenerator.renderCore.name=渲染核心：%s
+gui.de.particleGenerator.saveSettings.name=记录数值
+
+gui.de.particleGenerator.info.1=  粒子发生器是可以让你自由创建粒子特效的装饰性设备。\n  这个设备用起来非常简单，你只要修改界面上的一些字段(变量)就能改变生成的粒子的样式和行为。\n  这个方块仍在开发中，新的特性和粒子可能会在未来的版本中加入。\n  下面的列表包含了所有的字段以及它们的用途。
+gui.de.particleGenerator.info.2=  首先需要关注的是大多数字段后都跟着一个随机值，可以给字段加上一个从0到最大(或者最小)的随机值。\n  -开头的三个字段(红，绿，蓝)控制粒子的颜色。大多数人应该都熟悉这套颜色系统，如果不熟悉的话就百度一下。注意：每个颜色的最大值不能超过255，因此颜色字段限制了随机值。例如如果颜色值被设置为255，而随机值被设置为20，那么实际值永远还是255。
+gui.de.particleGenerator.info.3=  - 接下来的三个字段(移动X，Y，Z）控制粒子的方向和移动速度。\n  -“生存时间”字段设定粒子消失前能存在多久(单位tick)。\n  -“放缩”字段设定粒子的大小。\n  -接下来的三个字段(生成 X，Y，Z)控制粒子的生成位置(相对于粒子发生器的位置)。
+gui.de.particleGenerator.info.4=  -“延迟”字段设定每个粒子生成的延迟时间(单位tick)，例如1=20/s，20=1/s，100=1/5s。\n  -“淡出”字段设定粒子消失时的淡出时间(单位tick)。注意：这会加到粒子的生存时间上。\n  -“重力”字段设定粒子如何被重力影响。\n  -“方块碰撞”决定粒子是否会与方块碰撞。\n  -“选择的粒子”可以在不同的可选的粒子间切换。 
+gui.de.particleGenerator.info.5.title=红石控制\n\n
+gui.de.particleGenerator.info.5=  默认情况下需要红石信号来让发生器工作。\n 然而如果你空手按住shift右击发生器，会让它进入反转模式。\n 发生器的8个角上的小方块表示了当前的红石模式。
+gui.de.particleGenerator.info.6.title=计算机控制\n\n
+gui.de.particleGenerator.info.6=  发生器可以被计算机控制。\n  它提供了一些相对直白的API：\n\n  setGeneratorProperty(property, value)\n  getGeneratorState()\n  resetGeneratorState()
+gui.de.particleGenerator.info.7=  发生器的整体状态可以通过getGeneratorState获得，使用setGeneratorProperty可以一次修改一个属性。属性名字是字符串，而且几乎都与英文版 GUI 上的标签相同。
 
 gui.de.insert.txt=插入
 gui.de.extract.txt=提取

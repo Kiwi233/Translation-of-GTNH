@@ -1,6 +1,22 @@
 
 //Shit I stole from GTNH~
 
+GT5U.gui.text.no_water=§7缺少 水
+GT5U.gui.text.no_lava=§7缺少 岩浆
+GT5U.gui.text.no_air=§7缺少 空气
+GT5U.gui.text.no_co2=§7缺少 二氧化碳
+GT5U.gui.text.no_li2bef4=§7缺少 Li2BeF4
+GT5U.gui.text.no_saw=§7缺少 锯
+GT5U.gui.text.no_sapling=§7缺少 树苗
+GT5U.gui.text.no_oxygen=§7缺少 氧
+GT5U.gui.text.fuel_blacklisted=§7燃料已被禁用
+GT5U.gui.text.no_catalyst=§7未找到可用催化剂
+GT5U.gui.text.no_milling_ball=§7未找到磨球
+GT5U.gui.text.growing_trees=§a树木生长中
+GT5U.gui.text.managing_power=§a能源分配中
+GT5U.gui.text.warm_up=§a预热中
+GT5U.gui.text.machine_locked_to_different_recipe=§7机器已锁定到另一配方
+
 GTPP.EBF.heat=热容
 
 GTPP.machines.tier=等级
@@ -230,3 +246,31 @@ achievement.gt.blockmachines.industrialalloysmelter.controller.tier.mega=工业�
 tooltip.flotationCell.lockedTo=锁定为：
 tooltip.large_macerator.tier=等级：§6%s
 tooltip.large_distill_tower.upgraded=§6已升级
+
+//2023-7-12
+achievement.gtplusplus.blockcasings.5.3=元素约束机械方块
+achievement.gtplusplus.blockcasings.5.3.desc=[AL]捡起此物品以在NEI内解锁该合成表
+achievement.gtplusplus.blockcasings.5.7=中子脉冲控制方块
+achievement.gtplusplus.blockcasings.5.7.desc=[AL]捡起此物品以在NEI内解锁该合成表
+achievement.gtplusplus.blockcasings.5.8=寰宇强化脉冲控制方块
+achievement.gtplusplus.blockcasings.5.8.desc=[AL]捡起此物品以在NEI内解锁该合成表
+achievement.gtplusplus.blockcasings.5.9=无尽强化脉冲控制方块
+achievement.gtplusplus.blockcasings.5.9.desc=[AL]捡起此物品以在NEI内解锁该合成表
+achievement.gtplusplus.blockcasings.5.10=时空连续体撕裂方块
+achievement.gtplusplus.blockcasings.5.10.desc=[AL]捡起此物品以在NEI内解锁该合成表
+achievement.gtplusplus.blockcasings.5.11=中子屏蔽核心方块
+achievement.gtplusplus.blockcasings.5.11.desc=[AL]捡起此物品以在NEI内解锁该合成表
+achievement.gtplusplus.blockcasings.5.12=寰宇强化屏蔽核心方块
+achievement.gtplusplus.blockcasings.5.12.desc=[AL]捡起此物品以在NEI内解锁该合成表
+achievement.gtplusplus.blockcasings.5.13=无尽强化屏蔽核心方块
+achievement.gtplusplus.blockcasings.5.13.desc=[AL]捡起此物品以在NEI内解锁该合成表
+achievement.gtplusplus.blockcasings.5.14=时空扭曲核心方块
+achievement.gtplusplus.blockcasings.5.14.desc=[AL]捡起此物品以在NEI内解锁该合成表
+achievement.gt.blockmachines.sparge.controller.single=气涤塔
+achievement.gt.blockmachines.sparge.controller.single.desc=[AL]捡起此物品以在NEI内解锁该合成表
+achievement.gt.blockmachines.industrialsalloyamelter.controller.tier.mega=巨型合金冶炼炉
+achievement.gt.blockmachines.industrialsalloyamelter.controller.tier.mega.desc=[AL]捡起此物品以在NEI内解锁该合成表
+achievement.gt.blockmachines.moleculartransformer.controller.tier.single=分子重组仪
+achievement.gt.blockmachines.moleculartransformer.controller.tier.single.desc=[AL]捡起此物品以在NEI内解锁该合成表
+achievement.gt.blockmachines.gtpp.multimachine.replicator=大型元素复制机
+achievement.gt.blockmachines.gtpp.multimachine.replicator.desc=[AL]捡起此物品以在NEI内解锁该合成表
