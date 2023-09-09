@@ -7,6 +7,10 @@ BW_ItemBlocks.0.name=刻蚀青金石单元
 BW_ItemBlocks.1.name=镀层青金石单元
 GT_LESU_CASING.0.name=LESU机械方块
 
+GT5U.gui.text.no_imprint=未压印
+GT5U.gui.text.wrong_sievert_exactly=§7辐射剂量错误.所需精确剂量为: %s §7Sv
+GT5U.gui.text.wrong_sievert_min=§7辐射剂量错误.所需最小剂量为: %s §7Sv
+
 itemGroup.bartworks=BartWorks跨时代
 BW_Machinery_Casings.0.name=镍锌铁氧体块
 BW_Machinery_Casings.1.name=变压器线圈块
@@ -126,7 +130,7 @@ tooltip.tile.biolab.0.name=生物实验室,一个多用途的生物工程站
 tooltip.tile.radhatch.0.name=多方块的放射性物品输入仓
 tooltip.tile.radhatch.1.name=使用螺丝刀设置抑制等级
 tooltip.tile.radhatch.2.name=材料:
-tooltip.tile.radhatch.3.name=西弗(Sv):
+tooltip.tile.radhatch.3.name=辐射剂量:
 tooltip.tile.radhatch.4.name=数量:
 tooltip.tile.radhatch.5.name=衰变单位质量(1kg)所需时间(t/s/m/h):
 tooltip.tile.radhatch.6.name=t

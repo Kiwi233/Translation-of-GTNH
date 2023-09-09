@@ -1528,14 +1528,6 @@ item.itemDustTinyUN18Fertiliser.name=小撮流体肥料un-18粉
 item.itemDustUN32Fertiliser.name=流体肥料UN-32粉
 item.itemDustSmallUN32Fertiliser.name=小堆流体肥料UN-32粉
 item.itemDustTinyUN32Fertiliser.name=小撮流体肥料UN-32粉
-item.itemNuggetPlutonium239.name=钚-239粒
-item.itemCellPlutonium239.name=钚-239单元
-item.itemIngotPlutonium239.name=钚-239锭
-item.itemPlatePlutonium239.name=钚-239板
-item.itemPlateDoublePlutonium239.name=双重钚-239板
-item.itemDustPlutonium239.name=钚-239粉
-item.itemDustSmallPlutonium239.name=小堆钚-239粉
-item.itemDustTinyPlutonium239.name=小撮钚-239粉
 item.itemCustomMetaCover.miscutils.GtMachineCasings=%s机器覆盖板
 item.itemGregtechPump.tooltip.0=不能排空其他标准流体容器方块
 item.itemGregtechPump.tooltip.1=不能通过右键排空容器,在GUI内使用储罐排空.
@@ -2020,7 +2012,6 @@ tile.blockDarkWorldPortalFrame.name=遏制框架
 
 
 //Added 1/4/18
-tile.Block of Plutonium-239.name=钚-239块
 tile.blockMiningPipeFake.name=强化钢筋挖掘管道
 tile.blockMiningHeadFake.name=基岩钻头
 item.itemPlateMeatRaw.name=生肉板
@@ -3463,3 +3454,7 @@ item.itemSimpleFiremaker.message.0=你点燃了火坑.
 item.itemSimpleFiremaker.message.1=你不知何故设法让自己着火了......
 item.itemSimpleFiremaker.message.2=你燃起了火焰！
 item.itemSimpleFiremaker.message.3=你的尝试毫无效果.
+
+//Added 17/07/23
+item.BasicGenericChemItem.29.name=净水催化剂
+item.BasicGenericChemItem.30.name=超净水催化剂
