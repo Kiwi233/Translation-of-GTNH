@@ -98,6 +98,8 @@ gt.recipe.assembler=组装机
 gt.recipe.assembler.description=复仇者们，集结！
 gt.recipe.autoclave=高压釜
 gt.recipe.autoclave.description=让你的粉末结晶
+gt.recipe.brewery=酿造室
+gt.recipe.brewery.description=酿造你的饮品
 gt.recipe.metalbender=卷板机
 gt.recipe.metalbender.description=嘘,他是坏的!我们要本德! ! !
 gt.recipe.canner=装罐机
@@ -308,10 +310,33 @@ GT5U.machines.advdebugstructurewriter.gui.highlight.tooltip=显示边框
 GT5U.machines.advdebugstructurewriter.gui.transpose.tooltip=转置
 GT5U.machines.nei_transfer.steam.tooltip=%s蒸汽阶段配方
 GT5U.machines.nei_transfer.voltage.tooltip=配方在%s阶段可用
+GT5U.machines.emit_energy.tooltip=向输出侧输送能量
+GT5U.machines.emit_energy.tooltip.1=§7电压：%1$s
+GT5U.machines.emit_energy.tooltip.2=§7电流：§e%2$d
+GT5U.machines.emit_redstone_if_full.tooltip=如果所有格子都有物品，发出红石信号
+GT5U.machines.emit_redstone_if_full.tooltip.1=§7剩余格数：§9%1$s
+GT5U.machines.emit_redstone_if_full.tooltip.2=§7发出信号：§c%2$d
+GT5U.machines.emit_redstone_gradually.tooltip=随着被使用格子数量增加，逐渐增强红石信号
+GT5U.machines.emit_redstone_gradually.tooltip.1=§7剩余格数：§9%1$d
+GT5U.machines.emit_redstone_gradually.tooltip.2=§7发出信号：§c%2$d
+GT5U.machines.invert_redstone.tooltip=反转红石信号
+GT5U.machines.buffer_stocking_mode.tooltip=启用储备模式
+GT5U.machines.buffer_stocking_mode.tooltip.extended=§7并非单次传输此数量的物品，而是在目标容器保持此数量的物品.
+GT5U.machines.buffer_stocking_mode.tooltip.extended.1=§7这个模式对服务器不太友好.
+GT5U.machines.sorting_mode.tooltip=整理堆叠
+GT5U.machines.one_stack_limit.tooltip=限制输入
+GT5U.machines.one_stack_limit.tooltip.extended=§7每种物品最多输入一组
+GT5U.machines.invert_filter.tooltip=反转过滤名单
+GT5U.machines.allow_nbt.tooltip=允许含有NBT的物品
+GT5U.machines.allow_nbt.tooltip.extended=§7默认情况下,所有带NBT的物品都会被阻止.
+GT5U.machines.ignore_nbt.tooltip=忽略物品NBT
+GT5U.machines.ignore_nbt.tooltip.extended=§7默认情况下,物品的NBT必须匹配.
 
-GT5U.recipe_filter.representation_slot.tooltip=手持机器右键以设置过滤
-GT5U.type_filter.representation_slot.tooltip.0=左击切换下一个
-GT5U.type_filter.representation_slot.tooltip.1=右击回到上一个
+GT5U.recipe_filter.empty_representation_slot.tooltip=§7用一个机器点击以设置过滤名单
+GT5U.recipe_filter.representation_slot.tooltip=§7点击清空
+GT5U.type_filter.representation_slot.tooltip=§7左击循环切换下一个
+GT5U.type_filter.representation_slot.tooltip.1=§7右击回到上一个
+GT5U.type_filter.representation_slot.tooltip.2=§7用一个物品点击以设置过滤名单
 
 GT5U.gui.select.current=当前：
 GT5U.gui.button.power_switch=电源
@@ -352,6 +377,7 @@ GT5U.gui.text.insufficient_power=§7配方需要更高的功率。此配方需�
 GT5U.gui.text.insufficient_heat=§7配方需要更高的启动温度。此配方需要：%s K (%s§7)
 GT5U.gui.text.insufficient_machine_tier=§7配方需要更高等级的结构方块。此配方需要：%s
 GT5U.gui.text.insufficient_startup_power=§7配方需要更高的启动能量。此配方需要：%s
+GT5U.gui.text.internal_error=§4配方已找到,但是出现了内部错误
 
 GT5U.item.programmed_circuit.select.header=再编程电路
 
@@ -441,6 +467,7 @@ GT5U.config.nei.RecipeOwnerStackTrace.tooltip=[需要重启]
 GT5U.config.nei.OriginalVoltage=超频时显示原始电压
 GT5U.config.waila=Waila
 GT5U.config.waila.WailaTransformerVoltageTier=显示变压器的电压等级
+GT5U.config.waila.WailaAverageNS=在waila中显示多方块消耗的平均ns数
 
 # Cover tabs
 GT5U.interface.coverTabs.down=底
