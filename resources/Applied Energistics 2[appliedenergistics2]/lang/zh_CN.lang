@@ -269,6 +269,7 @@ gui.appliedenergistics2.HoldShiftForTooltip=按住Shift以查看拓展tooltip
 gui.appliedenergistics2.HoldShiftClick_HIGHLIGHT_INTERFACE=按住Shift以高亮接口
 gui.appliedenergistics2.Nothing=无
 gui.appliedenergistics2.VoidCellTooltip=销毁存储的§4所有物品§7 
+gui.appliedenergistics2.Deprecated=已弃用,会在后续版本移除!
 
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
@@ -405,7 +406,7 @@ gui.tooltips.appliedenergistics2.SaveSearchString=保存搜索字符串
 gui.tooltips.appliedenergistics2.SaveSearchStringYes=是
 gui.tooltips.appliedenergistics2.SaveSearchStringNo=否
 gui.tooltips.appliedenergistics2.DoublePattern=双倍样板
-gui.tooltips.appliedenergistics2.DoublePatternHint=样板输入/输出物品堆叠同时x2
+gui.tooltips.appliedenergistics2.DoublePatternHint=样板输入/输出物品堆叠同时x2(若可行), 按住Shift时为x8.
 gui.tooltips.appliedenergistics2.CraftingStatus=合成状态
 gui.tooltips.appliedenergistics2.CraftingStatusDesc=打开合成状态窗口
 gui.tooltips.appliedenergistics2.ToggleMolecularAssemblers=仅显示合成接口
@@ -434,10 +435,10 @@ gui.tooltips.appliedenergistics2.SidelessModeSidedDesc=每种流体只能从一�
 gui.tooltips.appliedenergistics2.SidelessModeSideless=禁用侧面模式
 gui.tooltips.appliedenergistics2.SidelessModeSidelessDesc=所有流体可以从任意面接入
 
-gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefault=默认阻挡模式
-gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefaultDesc=阻挡模式下的接口遵循正常的阻挡规则(忽略电路板等)
-gui.tooltips.appliedenergistics2.AdvancedBlockingModeAll=扩大模式
-gui.tooltips.appliedenergistics2.AdvancedBlockingModeAllDesc=阻挡模式下的接口将阻挡此ME网络中的所有物品.
+gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefault=默认模式
+gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefaultDesc=高级阻挡卡将接口阻挡模式的判定范围扩大至整个网络, 仅当此卡被安装在接受物品的接口上, 并且对应接口开启阻挡模式时才能生效. \n默认模式下, 此接口将在本网络有任意非催化剂物品 (默认只有GT集成电路) 时阻止对应接口输出.
+gui.tooltips.appliedenergistics2.AdvancedBlockingModeAll=严格模式
+gui.tooltips.appliedenergistics2.AdvancedBlockingModeAllDesc=高级阻挡卡将接口阻挡模式的判定范围扩大至整个网络, 仅当此卡被安装在接受物品的接口上, 并且对应接口开启阻挡模式时才能生效. \n严格模式下, 此接口将在本网络有任意物品时阻止对应接口输出.
 
 gui.tooltips.appliedenergistics2.CraftingModeStandard=标准合成模式
 gui.tooltips.appliedenergistics2.CraftingModeStandardDesc=在ME系统内所有原料齐全时,方可开始合成.

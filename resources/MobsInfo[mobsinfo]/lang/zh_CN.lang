@@ -17,6 +17,9 @@ mobsinfo.mobhandler.average_reminder=§7§o注意，这些是平均期望掉落
 mobsinfo.mobhandler.lootable=抢夺附魔有效
 mobsinfo.mobhandler.player_only=§7仅限非伪玩家击杀时掉落
 mobsinfo.mobhandler.peaceful_allowed=支持和平模式
+mobsinfo.mobhandler.locked_1=为了解锁更多信息,
+mobsinfo.mobhandler.locked_2=你必须击杀该怪物!
+mobsinfo.mobhandler.unlocked=§6你已经解锁了新的怪物信息!
 
 mobsinfo.mobhandlerinfernal.title=精英怪 - 掉落表
 mobsinfo.mobhandlerinfernal.format=格式：
@@ -59,6 +62,8 @@ mobsinfo.extras.tinkers_construct_beheading=武器的每级斩首提供额外%.2
 mobsinfo.extras.tinkers_construct_beheading_1=当使用劈刀时，提供额外%.2f%%
 mobsinfo.extras.witchery_vampire_book=仅在玩家拥有吸血鬼之书时掉落
 mobsinfo.extras.witchery_warewolf=仅在被狼人击杀时掉落
+mobsinfo.extras.bloodmagic_demon_shards=仅在通过恶魔传送站生成或使用献祭刀击杀时掉落
+mobsinfo.extras.bloodmagic_demon_placer=仅在不通过恶魔传送站生成或不使用献祭刀击杀时掉落
 
 
 #Commands
@@ -71,3 +76,8 @@ mobsinfo.command.help.usage=- 显示所有可能的指令
 mobsinfo.command.config.invalid_option=§c无效选项！可能的选项：reload
 mobsinfo.command.config.success=§a配置重载成功！
 mobsinfo.command.config.usage=<选项>
+mobsinfo.command.hidden.usage=<玩家> <unlock/lock/reset/unlockall> [怪物名]
+mobsinfo.command.hidden.invalid_mob=§c无效怪物名!
+mobsinfo.command.hidden.lock_error=§c玩家尚未解锁该怪物或者怪物名无效!
+mobsinfo.command.hidden.success=§a成功!
+mobsinfo.command.hidden.invalid=§c无效选项! 正确的用法为：%s
