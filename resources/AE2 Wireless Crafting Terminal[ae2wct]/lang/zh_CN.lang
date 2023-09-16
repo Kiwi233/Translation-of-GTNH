@@ -1,14 +1,10 @@
-//**************************//
-//WIRELESS CRAFTING TEMRINAL//
-//**************************//
-
-//Items
+#Items
 item.wirelessCraftingTerminal.name=无线合成终端
 item.infinityBoosterCard.name=量子无限增幅器
 item.magnetCard.name=磁场增幅卡
 itemGroup.ae2wct=§9AE2无线合成终端
 
-//Tooltips
+#Tooltips
 gui.tooltips.ae2wct.PressShift=按住Shift查看详情
 gui.tooltips.ae2wct.OnlyWorks=只有在无线合成终端中才能使用
 gui.tooltips.ae2wct.TitleDesc=描述
@@ -41,10 +37,10 @@ gui.tooltips.ae2wct.OrPress=或按下
 gui.tooltips.ae2wct.Press=按下
 gui.tooltips.ae2wct.ToSwitchMode=切换磁卡模式
 
-//Labels
+#Labels
 gui.labels.ae2wct.WirelessTermLabel=无线终端
 
-//Config Descriptions
+#Config Descriptions
 config.ae2wct.MaxPowerDesc=无线终端可容纳的最大能量(AE)
 config.ae2wct.InfinityBoosterCfgDesc=启用量子无限增幅器升级
 config.ae2wct.EasyModeDesc=启用简单模式(简化合成+量子无限增幅器)
@@ -56,7 +52,7 @@ config.ae2wct.NewVersionAvailable=有新版本WCT可用!
 config.ae2wct.ClickString=["点击此处转到下载页面 [",{"text":"Download","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click this to download the latest version","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
 config.ae2wct.SaveSearchString=不同终端之间保留搜索栏内容
 
-//Achievements
+#Achievements
 achievement.wctAchievement=基于WiFi的数字化合成
 achievement.wctAchievement.desc=合成无线合成终端
 achievement.boosterAchievement=超维度网络
@@ -64,14 +60,14 @@ achievement.boosterAchievement.desc=获得量子无限增幅器
 achievement.magnetAchievement=万象天引
 achievement.magnetAchievement.desc=合成磁场增幅卡
 
-//Chat Messages
+#Chat Messages
 chatmessages.ae2wct.NoNetworkPower=网络中没有能量!
 chatmessages.ae2wct.MagnetMode1=磁场增幅卡停用
 chatmessages.ae2wct.MagnetMode2=磁场增幅卡激活-不进入AE网络的物品将被收到身上
 chatmessages.ae2wct.MagnetMode3=磁场增幅卡激活-不进入AE网络的物品将被留在地上
 chatmessages.ae2wct.InitializeMagnet=在绑定之前你必须先右键点击手中的磁场增幅卡!
 
-//Keybindings
+#Keybindings
 key.OpenTerminal=打开无线合成终端
 key.OpenMagnetFilter=打开磁场增幅卡过滤名单GUI
 key.SwitchMagnetMode=激活/停用磁场增幅卡

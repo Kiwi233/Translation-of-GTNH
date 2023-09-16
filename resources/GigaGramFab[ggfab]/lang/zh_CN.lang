@@ -13,7 +13,9 @@ ggfab.waila.advassline.slice.idle=片#%s: 待机
 ggfab.waila.advassline.slice.stuck=片#%s: §4堵塞
 
 ggfab.info.linked_input_bus.not_owned=§6该设置是从其他所有者处复制而来!
+ggfab.info.linked_input_bus.no_data=§6找不到配置数据!
 ggfab.info.linked_input_bus.invalid_data=§6配置数据存在但已失效!
+ggfab.info.linked_input_bus.invalid_circuit=§6配置数据存在但包含对这个总线无效的电路板!
 ggfab.info.linked_input_bus.data_pasted=§2已粘贴频道 ("%s§2") 与编程电路设置!
 ggfab.info.linked_input_bus.data_copied=§2已复制频道 ("%s§2") 与编程电路设置!
 ggfab.info.linked_input_bus.no_channel=§6尚未指定频道!
