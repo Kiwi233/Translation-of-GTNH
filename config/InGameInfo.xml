@@ -705,11 +705,11 @@
 
                 <str/>
             </op>
-            <str> {gold}{temperature}{white}°F {gold}</str>
+            <str> {gold}{localtemperature}{white}°F {gold}</str>
             <round>
                 <div>
                     <sub>
-                        <var>temperature</var>
+                        <var>localtemperature</var>
                         <num>32</num>
                     </sub>
                     <num>1.8</num>
@@ -721,7 +721,7 @@
                 <add>
                     <div>
                         <sub>
-                            <var>temperature</var>
+                            <var>localtemperature</var>
                             <num>32</num>
                         </sub>
                         <num>1.8</num>
@@ -1579,7 +1579,64 @@
         </line>
         <line>
             <if>
-                <and>
+                <equal>
+                <var>gtnewore</var>
+                    <str>true</str>
+                </equal>
+                <if>
+                    <and>
+                        <or>
+                            <equal>
+                                <modi>
+                                    <var>chunkx</var>
+                                    <num>3</num>
+                                </modi>
+                                <num>-2</num>
+                            </equal>
+                            <equal>
+                                <modi>
+                                    <var>chunkx</var>
+                                    <num>3</num>
+                                </modi>
+                                <num>1</num>
+                            </equal>
+                        </or>
+                        <or>
+                            <equal>
+                                <modi>
+                                    <var>chunkz</var>
+                                    <num>3</num>
+                                </modi>
+                                <num>-2</num>
+                            </equal>
+                            <equal>
+                                <modi>
+                                    <var>chunkz</var>
+                                    <num>3</num>
+                                </modi>
+                                <num>1</num>
+                            </equal>
+                        </or>
+                    </and>
+                    <concat>
+                        <icon>
+                            <str>textures/items/diamond_pickaxe.png</str>
+                            <num>0</num>
+                            <num>0</num>
+                            <num>16</num>
+                            <num>16</num>
+                        </icon>
+                        <str>  此处为 {darkgreen}{underline}矿脉{white} 的中心区块.</str>
+                    </concat>
+                </if>
+            </if>
+            <if>
+                <equal>
+                    <var>gtnewore</var>
+                    <str>false</str>
+                </equal>
+                <if>
+                    <and>
                     <or>
                         <equal>
                             <modi>
@@ -1613,16 +1670,17 @@
                         </equal>
                     </or>
                 </and>
-                <concat>
-                    <icon>
-                        <str>textures/items/diamond_pickaxe.png</str>
-                        <num>0</num>
-                        <num>0</num>
-                        <num>16</num>
-                        <num>16</num>
-                    </icon>
-                    <str>  此处为 {darkgreen}{underline}矿脉{white} 的中心区块.</str>
-                </concat>
+                    <concat>
+                        <icon>
+                            <str>textures/items/diamond_pickaxe.png</str>
+                            <num>0</num>
+                            <num>0</num>
+                            <num>16</num>
+                            <num>16</num>
+                        </icon>
+                        <str>  此处为 {darkgreen}{underline}矿脉{white} 的中心区块.</str>
+                    </concat>
+                </if>
             </if>
         </line>
         <line>
@@ -1904,4 +1962,3 @@
         </line>
     </lines>
 </config>
-
