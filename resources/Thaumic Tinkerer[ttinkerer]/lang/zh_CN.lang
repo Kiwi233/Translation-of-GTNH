@@ -208,7 +208,7 @@ item.Wand.ICHORCLOTH.rod=灵布包层银树杖柄
 
 # RESEARCH
 ttresearch.prefix=[TT]
-ttresearch.prefix.kami=[TT神道]  
+ttresearch.prefix.kami=[TT神道] 
 tc.research_category.TT_ENCHANTING=[TT]附魔
 tc.research_category.TT_CATEGORY=神秘工匠
 
@@ -217,7 +217,7 @@ ttresearch.name.PERIPHERALS=电脑外设
 ttresearch.lore.PERIPHERALS=当科学遇见魔法
 ttresearch.page.PERIPHERALS.0=神秘工匠让其添加的某些方块以及神秘时代添加的一些方块可以作为电脑外设(ComputerCraft的外设)使用.<BR><BR>为方便起见,使用这些外设的文档放置在网上以供查询.按下回车可以访问对应的页面.
 # Note: For people who localize the mod. If you have custom documentation, feel free to include in your PR a
-# link to it and the short URL (see above) you want for it on my website and I'll add it. 
+# link to it and the short URL (see above) you want for it on my website and I'll add it.
 ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Peripheral-Documentation
 ttcomputer.dissipator=耗散中
 # -- ASPECT ANALYZER
@@ -250,7 +250,7 @@ ttresearch.page.GOLEM_CONNECTOR.1=为了让连接器绑定傀儡,你需要制造
 ttresearch.page.GOLEM_CONNECTOR.2=如拿着其他方块右击连接器,则会将它伪装成所持方块的样子.空手再次右击就能移除伪装.
 ttresearch.page.GOLEM_CONNECTOR.3=<BR><BR>以方便故,该方块所涉及之电脑模组操作函数皆列诸外置网页.按下回车即可带你进入相关页面.<BR><BR>不幸的是,某些操作系统下超链接功能可能失效.若是,则请在浏览器中键入"vazkii.us/tt/docs.php"来进行访问相关页面.
 # Note: For people who localize the mod. If you have custom documentation, feel free to include in your PR a
-# link to it and the short URL (see above) you want for it on my website and I'll add it. 
+# link to it and the short URL (see above) you want for it on my website and I'll add it.
 ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Peripheral-Documentation
 
 # -- GASEOUS ILLUMINAE
@@ -607,8 +607,8 @@ ttresearch.lore.FIRE_TERRA=做天底下用泥土能做的玩意儿该都够用�
 ttresearch.page.FIRE_TERRA.0=这种火焰能够将大范围内的方块化为泥土-这种有史以来最没用的玩意儿.是的,我是认真的,就是这种有史以来最没用的玩意儿.
 
 ttresearch.name.FIRE_ORDO=元素之焰:秩序
-ttresearch.lore.FIRE_ORDO=从矿物冶炼出更多金属锭
-ttresearch.page.FIRE_ORDO.0=这种火焰在成堆的矿物上燃烧时,会帮你将这些矿物冶炼为有用的金属块.尽管多数矿物会在这种不稳定的火焰中燃烧殆尽,但最终你还是能获得三倍于正常冶炼产量的金属.
+ttresearch.lore.FIRE_ORDO=秩序之焰
+ttresearch.page.FIRE_ORDO.0=秩序之焰已被重做，目前无效果.
 
 ttresearch.name.FIRE_PERDITIO=元素火焰:混沌
 ttresearch.lore.FIRE_PERDITIO=大扫荡时间到
