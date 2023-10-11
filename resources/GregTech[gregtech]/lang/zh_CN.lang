@@ -9,6 +9,8 @@ itemGroup.GregTech.Main=主体
 itemGroup.GregTech.Materials=材料
 itemGroup.GregTech.Ores=矿石
 
+item.gt.advancedsensorcard.name=高级传感器卡片[GT]
+
 GT5U.autoplace.error.no_hatch=§c建议放置仓室 §4%s§c ,但未在库存中找到
 GT5U.autoplace.error.no_mte.id=§c建议放置meta-ID为 §4%s§c 的方块,但未在库存中找到
 GT5U.autoplace.error.no_mte.class_name=§c建议放置class名为 §4%d§c 的方块,但未在库存中找到
@@ -192,6 +194,7 @@ gt.recipe.wiremill.description=更有效地生产导线
 GT5U.machines.tier=等级
 GT5U.machines.workarea=工作区域
 GT5U.machines.workareaset=工作区域设置为
+GT5U.machines.workarea_fail=无法在运行中调整工作区域
 GT5U.machines.autoretract.enabled=启用自动回收
 GT5U.machines.autoretract.disabled=禁用自动回收
 GT5U.machines.radius=半径
@@ -309,7 +312,7 @@ GT5U.machines.advdebugstructurewriter.gui.print.tooltip=打印结构
 GT5U.machines.advdebugstructurewriter.gui.highlight.tooltip=显示边框
 GT5U.machines.advdebugstructurewriter.gui.transpose.tooltip=转置
 GT5U.machines.nei_transfer.steam.tooltip=%s蒸汽阶段配方
-GT5U.machines.nei_transfer.voltage.tooltip=配方在%s阶段可用
+GT5U.machines.nei_transfer.voltage.tooltip=查询在%s阶段可用的配方
 GT5U.machines.emit_energy.tooltip=向输出侧输送能量
 GT5U.machines.emit_energy.tooltip.1=§7电压：%1$s
 GT5U.machines.emit_energy.tooltip.2=§7电流：§e%2$d
@@ -351,6 +354,15 @@ GT5U.gui.button.lock_recipe=锁定配方
 GT5U.gui.button.down_tier=无损降频
 GT5U.gui.button.tier=等级：
 GT5U.gui.button.forbidden=§4该机器无法切换模式
+GT5U.gui.button.forbidden_while_running=§4无法在运行中切换模式
+GT5U.gui.button.chunk_loading_on=§7区块加载：§a开启
+GT5U.gui.button.chunk_loading_off=§7区块加载：§4关闭
+GT5U.gui.button.ore_drill_radius_1=§7当前半径：§a%s
+GT5U.gui.button.ore_drill_radius_2=§7左键增大半径，右键减小半径
+GT5U.gui.button.ore_drill_cobblestone_on=§7替换为圆石：§a开启
+GT5U.gui.button.ore_drill_cobblestone_off=§7替换为圆石：§4关闭
+GT5U.gui.button.drill_retract_pipes=§7中止钻探并回收采矿管道
+GT5U.gui.button.drill_retract_pipes_active=§4无法中断中止过程
 GT5U.gui.text.success=§a合成运行中
 GT5U.gui.text.generating=§a发电中
 GT5U.gui.text.no_recipe=§7未找到可用合成表
@@ -369,8 +381,23 @@ GT5U.gui.text.machine_mismatch=§7机器与锁定合成表不匹配
 GT5U.gui.text.high_gravity=§7需要低重力环境
 GT5U.gui.text.no_mining_pipe=§7缺少采矿管道
 GT5U.gui.text.drilling=§a钻探中
+GT5U.gui.text.deploying_pipe=§a正在部署采矿管道
 GT5U.gui.text.extracting_pipe=§a管道部署中
 GT5U.gui.text.retracting_pipe=§a管道回收中
+GT5U.gui.text.no_drilling_fluid=§7无钻井液
+GT5U.gui.text.drill_exhausted=§d钻机已耗尽所有资源
+GT5U.gui.text.drill_generic_finished=§7采矿管道已回收
+GT5U.gui.text.drill_retract_pipes_finished=§7运行已中止
+GT5U.gui.text.backfiller_no_concrete=§7无混凝土
+GT5U.gui.text.backfiller_finished=§a工作完毕
+GT5U.gui.text.backfiller_working=§a混凝土浇筑中
+GT5U.gui.text.backfiller_current_area=§7正在回填Y轴：§a%s
+GT5U.gui.text.pump_fluid_type=流体：§a%s
+GT5U.gui.text.pump_rate.1=泵速：%s§r
+GT5U.gui.text.pump_rate.2= L/t
+GT5U.gui.text.pump_recovery.1=消耗 §b%s§r L
+GT5U.gui.text.pump_recovery.2=(每次运行)
+GT5U.gui.text.not_enough_energy=§7能量不足
 GT5U.gui.text.power_overflow=§7超压
 GT5U.gui.text.duration_overflow=§7运行超时
 GT5U.gui.text.insufficient_power=§7配方需要更高的功率。此配方需要：%s EU/t (%s§7)
@@ -378,6 +405,11 @@ GT5U.gui.text.insufficient_heat=§7配方需要更高的启动温度。此配方
 GT5U.gui.text.insufficient_machine_tier=§7配方需要更高等级的结构方块。此配方需要：%s
 GT5U.gui.text.insufficient_startup_power=§7配方需要更高的启动能量。此配方需要：%s
 GT5U.gui.text.internal_error=§4配方已找到,但是出现了内部错误
+GT5U.gui.text.drill_ores_left_chunk=当前区块剩余矿石：§a%s
+GT5U.gui.text.drill_ores_left_layer=Y轴 %s 剩余矿石：§a%s
+GT5U.gui.text.drill_chunks_left=钻探区块：§a%s / %s
+GT5U.gui.text.drill_offline_reason=钻机关闭：%s
+GT5U.gui.text.drill_offline_generic=钻机关闭
 
 GT5U.item.programmed_circuit.select.header=再编程电路
 
@@ -406,6 +438,8 @@ GT5U.hatch.infiniteCache.true=ME输出总线将无限缓存物品，直到连接
 GT5U.hatch.infiniteCache.false=ME输出总线离线超过2秒后将停止接收物品
 GT5U.hatch.infiniteCacheFluid.true=ME输出仓将无限缓存流体，直到连接上ME网络
 GT5U.hatch.infiniteCacheFluid.false=ME输出仓离线超过2秒后将停止接收流体
+GT5U.hatch.additionalConnection.true=ME网络可与任意面连接
+GT5U.hatch.additionalConnection.false=ME网络仅与正面连接
 
 GT5U.multiblock.pollution=污染减少到
 GT5U.multiblock.energy=存储能量
@@ -1193,6 +1227,7 @@ gregtech.speedUnproductive=不生产
 gregtech.speedAccelerated=加速
 gregtech.lifeBlink=瞬灭
 gregtech.lifeEon=永生
+gregtech.effectTreetwister=树苗嬗变
 
 entity.gregtech.GT_Entity_Arrow.name=GT箭头
 
@@ -1324,3 +1359,21 @@ gt.solar.system.phobos=火卫一
 gt.specialvalue.stages=阶段:
 
 gt.multiBlock.controller.cokeOven=焦炉
+
+gt.locker.waila_armor_slot_none=槽位 %s：§7无
+gt.locker.waila_armor_slot_generic=槽位 %s：§e%s
+gt.locker.waila_armor_slot_charged=槽位 %s：§e%s§r (%s%s%%§r)
+
+gt.db.metrics_cover.coords=§a%s§r，§a%s§r，§a%s§r
+
+gt.item.adv_sensor_card.dimension=维度：§a%s
+gt.item.adv_sensor_card.coords=坐标：%s
+gt.item.adv_sensor_card.tooltip.recipe_hint=安装数据发射器覆盖板获得，无标准合成表
+gt.item.adv_sensor_card.tooltip.fried.1=§o§d这玩意看起来完全炸了...
+gt.item.adv_sensor_card.tooltip.fried.2=§c已损毁，由于相应覆盖板已被拆除
+gt.item.adv_sensor_card.tooltip.fried.3=§c或是由于相应机器被摧毁
+gt.item.adv_sensor_card.tooltip.machine=机器：§b%s
+gt.item.adv_sensor_card.tooltip.frequency=频率：§b%s
+gt.item.adv_sensor_card.error.deconstructed.1=-错误- 机器已被拆解
+gt.item.adv_sensor_card.error.deconstructed.2=重新放置机器即可再次生效
+gt.item.adv_sensor_card.error.no_data=找不到数据
