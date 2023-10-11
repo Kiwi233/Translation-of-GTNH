@@ -1540,7 +1540,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8g.desc=有些原料如不锈钢,需要
 
 # Quest: Ruby Electrolyzing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9Q.name=§6§f§6§l电解红宝石
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9Q.desc=电解红宝石可以获取铬和一点点铝.要是你感觉红宝石不太够,可以离心红石.%n%n铝和氧的另一个优秀来源是红色花岗岩粉.你可以从"捕鱼,农业,烹饪"任务栏中的IC2作物红石芯草(red-stonelillies)中获得这些.%n%n别被假的红宝石骗了...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9Q.desc=电解红宝石可以获取铬和一点点铝.要是你感觉红宝石不太够,可以离心红石.%n%n铝和氧的另一个优秀来源是红色花岗岩粉.你可以从"捕鱼,农业,烹饪"任务栏中的IC2作物红石芯草(red-stonelillies)中获得这些.
 
 # Quest: Molten Polyethylene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9w.name=§6§l熔融聚乙烯
@@ -1748,7 +1748,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxg.desc=在制造微波炉、扫描仪�
 
 # Quest: Portable Prospecting Tool
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyg.name=§5§6§l便携探矿仪
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyg.desc=随着技术的发展,你找到了一种寻找矿石的方式.这个工具只能寻找区块内的矿石.如果你很聪明,可以用它来定位矿石.%n%n很不幸,现有技术还无法使其可修复或可充电,所以每次它损坏后你都得做个新的.电压等级越高效果越好,用材越好耐久越高.%n%n它不像地震勘探者一样需要制作成书,感谢Visual-Prospecting,你可以在地图上看到扫描结果.%n%n很难选择制作MV探矿仪的好材料.这里给你提供几个建议: 对应阶段,材料,探测范围,和它们的平均可探测矿脉数量:%n%nLV-钒钢-3x3-50%nMV-钒钢-3x3-213%nHV-脉冲合金-5x5-299%nEV-暗影金属-7x7-1080%nIV-奥利哈钢-7x7-2649%n%n每成功扫描一个区块消耗100耐久.若是失败则会消耗25耐久.对MV探矿仪,扫描一大片地方的平均消耗约为55耐久每区块.如你所见,随着科技等级的提升,探矿仪越来越好用,所以当你觉得需要一个的时候,不要犹豫直接搓准没错.%n%n祝你好运!%n%n§3*顺便一提,没有一个好的探矿仪是一件可怕的事.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyg.desc=随着技术的发展,你找到了一种寻找矿石的方式.%n%n很不幸,现有技术还无法使其可修复或可充电,所以每次它损坏后你都得做个新的.电压等级越高效果越好,用材越好耐久越高.%n%n它不像地震勘探者一样需要制作成书,感谢Visual-Prospecting,你可以在地图上看到扫描结果.%n%n很难选择制作MV探矿仪的好材料.这里给你提供几个建议: 对应阶段,材料,探测范围,和它们的平均可探测矿脉数量:%n%nLV-钒钢-3x3-50%nMV-钒钢-3x3-213%nHV-脉冲合金-5x5-299%nEV-暗影金属-7x7-1080%nIV-奥利哈钢-7x7-2649%n%n如你所见,随着科技等级的提升,探矿仪越来越好用,所以当你觉得需要一个的时候,不要犹豫直接搓准没错,用的材料越高越好.%n%n祝你好运!%n%n§3
 
 # Quest: Trichlorosilane - continued
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1A.name=§6§l三氯硅烷 续
@@ -2703,7 +2703,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.desc=这个阶段有两件大事
 
 # Quest: Thorium 232?
 betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.name=钍-232?
-betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.desc=所以你正在查看钍 232，并想知道如何制造它? %n%n你可以用很长的配方以可怕的几率将其离心, 但有更好的方法来获得它. %n%n更好的方法是通过三个不同的处理路径进行合成, 第三条路径在未来使用中子活化器获得聚变后的阶段解锁. ％n％n第一条路径需要你可能还不熟悉的化工厂, 但它很快会变得必要以制造用于三级或更高级别的火箭的火箭燃料. %n%n此路径是最快的, 只需两个步骤即可获得钍-232. %n%n第二条路径是六步处理链, 需要化学反应釜, 离心机和电力高炉. %n%n无论哪种方式, 我都会建议使用AE2FC, 因为它支持按需进行流体合成, 这将有助于两个处理链. %n%n§2为了你的理智, 我会推荐化工厂.%n
+betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.desc=所以你正在查看钍 232，并想知道如何制造它? %n%n你可以用很长的配方以可怕的几率将其离心, 但有更好的方法来获得它. %n%n更好的方法是通过三个不同的处理路径进行合成, 第三条路径在未来使用中子活化器获得聚变后的阶段解锁. ％n％n第一条路径需要你可能还不熟悉的化工厂, 但它很快会变得必要以制造用于三级或更高级别的火箭的火箭燃料.此路径是最快的, 只需两个步骤即可获得钍-232,但需要硼砂,而硼砂只能(目前)通过开采盐矿脉得到的副产物或通过蜜蜂获得(如果你已经有了,可能是更好的选择)%n%n第二条路径是六步处理链, 需要化学反应釜, 离心机和电力高炉.尽管处理过程更长,但它提供了更好的转化率(75%%,而不是化工厂的25%%),相比于硼砂,它需要硝酸(如果考虑到回收，4000L硝酸/粉)和100L氟/粉.%n%n无论哪种方式, 我都会建议使用AE2FC, 因为它支持按需进行流体合成, 这将有助于两个处理链. %n
 
 # Quest: Tier 5 (IV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.name=§1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§l第5阶段(IV)
@@ -2839,7 +2839,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpg.desc=硝酸钾和三氧化铬在HV�
 
 # Quest: Potassium Nitrate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpw.name=§b§l硝酸钾
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpw.desc=硝酸钾由钾和硝酸制成.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpw.desc=硝酸钾由钾和硝酸制成.%n如果你有硝石,你也可以用它制成硝酸钾.%n%n%n硝酸钾只能被合成，然而硝石有多种不同的来源%n选择你想要的产线，只需一个硝酸钾粉即可完成此任务.
 
 # Quest: Chromium Trioxide
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqA.name=§b§l三氧化铬
@@ -3151,7 +3151,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCA.desc=是的,你没看错：一条带
 
 # Quest: Not Quite Ferromagnetic...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCQ.name=§b§l铁磁性不太强...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCQ.desc=...但是足够电磁离析机将其分离.%n%n现在,你获得了氧化铕和一些更稀有的稀土(III),我们称之为罕土.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCQ.desc=...但是足够电磁离析机将其分离.%n%n现在,你获得了氧化铕(III)和一些更稀有的稀土,我们称之为罕土.
 
 # Quest: EuO
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMCg.name=§b§l氧化铕(EuO)
@@ -3179,7 +3179,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMDw.desc=你必然还会挖到不少钐�
 
 # Quest: Finally, Samarium!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.name=§b§l最后,钐!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.desc=(以及钆)%n%n简单吧?别担心,还有氟碳镧铈处理线等着你呢,应该能满足你对复杂产线的渴望吧!%n%n衫可用于满足你从LuV到UHV不断增长的磁化钐棒需求,而钆则在遥远的游戏后期用于制造强大的压缩聚变反应堆.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.desc=(以及钆)%n%n简单吧?别担心,还有氟碳镧铈处理线等着你呢,应该能满足你对复杂产线的渴望吧!%n%n钐可用于满足你从LuV到UHV不断增长的磁化钐棒需求,而钆则在遥远的游戏后期用于制造强大的压缩聚变反应堆.
 
 # Quest: Supersized Buses
 betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=超大型总线
@@ -3187,7 +3187,7 @@ betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=输入和输出总线不够用?
 
 # Quest: The sane option
 betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.name=明智的选择
-betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.desc=所以你选择了明智的两步加工方案?%n%n很好的选择.%n%n开始时,你需要创建一个钛级化工厂,§n至少HV级机器外壳.§r  可以是 HV 级外壳,因为两个 HV 级能量仓可以将多方块机器超频到 EV 级.%n%n完成后,放入硼砂粉,硼砂粉可以很容易地从加工盐的过程中获得硼酸。然后在第二步中向你的钍粉中加入一些蒸馏水.%n%n然后,你就能轻松地获得钍 232 粉.
+betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.desc=所以你选择了明智的两步加工方案?%n%n很好的选择.%n%n开始时,你需要创建一个钛级化工厂,§n至少HV级机器外壳.§r  可以是 HV 级外壳,因为两个 HV 级能量仓可以将多方块机器超频到 EV 级.%n%n完成后,放入硼砂粉.然后在第二步中向你的钍粉中加入一些蒸馏水.%n%n然后,你就能轻松地获得钍 232 粉.
 
 # Quest: Intradimensional Input buses
 betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.name=一个维度，一套输入总线
@@ -5964,6 +5964,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=以宇宙自身的伟力熔炼.
 betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.name=进阶装配线
 betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=这是§6GigaGram§rFab添加的进阶装配线.%n%n这个装配线支持流水线式操作,也就是说,它会像真正的流水线一样,一个一个消耗物品而非一次性全部消耗.这样它就可以对任意数量的物品输入配方提供并行.你可以认为一条进阶装配线是由数个装配片组成的,每个装配片都可以独立于其它片处理每一步.当输入总线内物品与任意闪存吻合时,装配线将开始工作.第一片将会消耗输入总线#1内的物品.经过(配方时间/输入物品种类数)时间后,第一片的工作完成,第二片开始工作.与此同时,第一片将会在输入总线#1内寻找材料.如果材料足够,则第一片将再次工作.%n%n当所有工作完成时,终端片(第n片,n为配方要求输入物品种类数)将会在输出总线处输出产品,非终端片在工作完成后,将自动尝试让下一片工作,如果下一片的输入总线中没有足够的材料,完成工作的片将会保持§4堵塞§r状态,并使装配线进入"挂起"状态.处于"挂起"状态的装配线,其控制器的正面指示灯将会变为橙色.%n%n启用的片数乘以原配方所需EU/t即机器所消耗的EU/t.§4堵塞§r片不会消耗能量,最低等级能源仓的输入电压,决定了配方等级和常规超频上限.安装激光仓,可在常规超频基础上,再进行§2激光超频§r,但会消耗比常规有损超频更多的能量.每§2激光超频§r一次,都会增加0.3倍的能量损耗,一次§2激光超频§r使配方时间减少到50%%,使用430%%的能量.两次§2激光超频§r使配方时间减少到25%%,使用1978%%的能量.无法超频到1tick以下.机器会首先尝试并行,然后尝试常规有损超频,最后尝试§2激光超频§r.
 
+# Quest: Don't Lose That Multiblock Miner!
+betterquesting.quest.b_Ll4zvSRfCMgmqiBa4Xkw.name=别把采矿场弄丢了!
+betterquesting.quest.b_Ll4zvSRfCMgmqiBa4Xkw.desc=作为一名日理万机的工程师,你很容易就会弄丢采矿场,对吧?你要不厌其烦地记住一些琐碎的事情,比如"我最后一次部署采矿场到底是在银河系的哪个犄角旮旯."也可以做些无聊的事,比如"写下采矿场的位置坐标"或是"在自己的矿物处理区挂个写有采矿场坐标的牌子",不过现在有更好的方法了.%n%n数据发射器覆盖板.将此覆盖板贴上采矿场(或任意GT机器)时,将生成一张匹配该机器的高级传感器卡片(GT). 将此卡片插入NuclearCraft的工业信息屏,即可收到对应机器发回的运行信息,也包括当前坐标.另外,它也会返回其上一代普通传感器卡片(GT)所返回的信息.不过与上一代不同的是,数据发射器覆盖板§n可以在任意范围内跨维度工作,也无需范围升级.§r另外,由于拆卸机器时覆盖板仍然会保留在机器上,所以匹配的传感器卡片§n即便多方块机器多次搬迁,仍然可以继续工作,且无需重新校准.§r 这使其非常适合用于采矿场和油气流体钻机,这类需要部署在野外且经常搬迁的机器.%n%n但是,一如既往,这里隐藏着一个陷阱.如果将数据发射器覆盖板从主机上拆下,§n对应的传感器卡片将被摧毁.§r 也许你不该在敏感的电子设备周围使用撬棍...
+
 
 ## Quest Line: GT++ 
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEQ.name=GT++ 
@@ -6119,7 +6123,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.desc=巨型多方块机器和GT++的
 
 # Quest: Chemical Pseudo-Altercations
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.name=化学终结者
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.desc=尝试学习并了解世间一切事务的运行方式是聪颖的标志,然而,要达到真正的明智,还要了解如何跳过不重要的事情.作为科学与奥秘的掌控者,物质的理化属性已经不再是限制你前行的障碍.量子操纵者能帮你跳过一切不必要的”技术细节”.%n%n这个多方块结构的目标就是将GTNH中最受欢迎和最重要的加工线,特别是化工线,统统扔掉.由于配方中的套娃,你需要早期层级的材料来制作较高层级物品的替代物,因此有许多早期加工线在整个游戏过程中保持不变.更糟糕的是,为了满足不断增长的需求,你需要一遍又一遍的铺设这些产线.为了降低延迟,该多方块结构将在一个步骤中完成这些产线的工作,而不再需要其他额外的处理步骤.%n%n量子操纵者(Quantum Force Transformer, QFT),UEV阶段解锁,在你拥有了生物处理器主机,一个永恒奇点,和一点其他材料后就可以制造.占地15*15,由许多种机械方块组成,其中的两种可以被升级来提高多方块结构的等级.尽管它在UEV时可用,但升级机械方块需要大量十分昂贵的材料,以使你能够跳过更多种生产线.比如,一级量子操纵者就可以为你跳过铂系处理线,而跳过凯芙拉产线则需要四级量子操纵者.%n%n量子操纵者的每个配方都代表一条你曾经痛苦着建设过的产线,或某条产线的大部分.例如,忘掉那些大化反吧,你可以通过输入碳,氧,氢等塑料在分子水平的元素成分,就得到大量的塑料产品.所有配方都有3个或更多输出产物,每个输出都有同等概率出现,即每个产物产出的概率是100除以配方输出产物的数量.想要增加某种产物产出的概率?有一些附加机制可供你使用.%n%n简而言之,量子操纵者通过使用大量的能量,操纵量子场来稳定分解简单的分子并将它们组装成更复杂的分子,而无需额外添加或再进行其他受限过程.唯一你需要为量子操纵者准备的非原料的输入材料是一些特殊的催化剂,它们是芯片工业的巅峰之作.能指引原子到达你需要的位置,来形成你所需要的产品.正由于这种特性,它们本身也永远不会损坏.%n%n这种直接过程将长处理链简化为一个步骤,能将世界上所有的化工教材扔进下水道.这种极致转化有两个后果:其一,这个过程所需要的能量极其巨大.其二,在量子领域,一切都不是确定的,因此产出结果也是不确定的,除非我们再进一步.将再多的能量,再好的材料扔进机器也不能改变这第二点,那下一步是什么?接下来的两个任务将告诉你答案.%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.desc=尝试学习并了解世间一切事务的运行方式是聪颖的标志,然而,要达到真正的明智,还要了解如何跳过不重要的事情.作为科学与奥秘的掌控者,物质的理化属性已经不再是限制你前行的障碍.量子操纵者能帮你跳过一切不必要的”技术细节”.%n%n这个多方块结构的目标就是将GTNH中最受欢迎和最重要的加工线,特别是化工线,统统扔掉.由于配方中的套娃,你需要早期层级的材料来制作较高层级物品的替代物,因此有许多早期加工线在整个游戏过程中保持不变.更糟糕的是,为了满足不断增长的需求,你需要一遍又一遍的铺设这些产线.为了降低延迟,该多方块结构将在一个步骤中完成这些产线的工作,而不再需要其他额外的处理步骤.%n%n量子操纵者(Quantum-Force-Transformer,QFT),UEV阶段解锁,在你拥有了光学处理器主机,一个永恒奇点,和一点其他材料后就可以制造.占地15*15,由许多种机械方块组成,其中的两种可以被升级来提高多方块结构的等级.尽管它在UEV时可用,但升级机械方块需要大量十分昂贵的材料,以使你能够跳过更多种生产线.比如,一级量子操纵者就可以为你跳过铂系处理线,而跳过凯芙拉产线则需要四级量子操纵者.%n%n量子操纵者的每个配方都代表一条你曾经痛苦着建设过的产线,或某条产线的大部分.例如,忘掉那些大化反吧,你可以通过输入碳,氧,氢等塑料在分子水平的元素成分,就得到大量的塑料产品.所有配方都有3个或更多输出产物,每个输出都有同等概率出现,即每个产物产出的概率是100除以配方输出产物的数量.想要增加某种产物产出的概率?有一些附加机制可供你使用.%n%n简而言之,量子操纵者通过使用大量的能量,操纵量子场来稳定分解简单的分子并将它们组装成更复杂的分子,而无需额外添加或再进行其他受限过程.唯一你需要为量子操纵者准备的非原料的输入材料是一些特殊的催化剂,它们是芯片工业的巅峰之作.能指引原子到达你需要的位置,来形成你所需要的产品.正由于这种特性,它们本身也永远不会损坏.%n%n这种直接过程将长处理链简化为一个步骤,能将世界上所有的化工教材扔进下水道.这种极致转化有两个后果:其一,这个过程所需要的能量极其巨大.其二,在量子领域,一切都不是确定的,因此产出结果也是不确定的,除非我们再进一步.将再多的能量,再好的材料扔进机器也不能改变这第二点,那下一步是什么?接下来的两个任务将告诉你答案.%n
 
 # Quest: Focusing Science and Mystery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2A.name=聚焦的科学与奥秘
@@ -7969,7 +7973,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.desc=T1/T2火箭可以选择用RP-1�
 
 # Quest: Coal Tar Distilling
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.name=煤焦蒸馏
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.desc=想要蒸馏煤焦,你需要先准备一下. 将木炭、褐煤、煤或者焦煤,通过工业焦炉或热解炉进行处理.%n%n因为你需要多种产物,所以使用蒸馏塔吧. 除了石脑油以外,其他所有东西都可用于制造火箭燃料.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.desc=有两种方法能制成邻苯二甲酸.一种将在此任务介绍,另一种在IV章节.然而,我们不仅需要煤焦生产邻苯二甲酸,我们还需要它来生产蒽!%n%n想要蒸馏煤焦,你需要先准备一下. 将木炭、褐煤、煤或者焦煤,通过工业焦炉或热解炉进行处理.%n%n因为你需要多种产物,所以使用蒸馏塔吧. 除了石脑油以外,其他所有东西都可用于制造火箭燃料.
 
 # Quest: Dense Hydrazine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfg.name=密集肼
@@ -7983,10 +7987,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfw.desc=制造CN3H7O3(紫色)火箭燃�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgA.name=CN3H7O3(紫色)火箭燃料
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgA.desc=想要制造T5火箭需要的CN3H7O3,你需要将一甲基肼和硝酸在化工厂内结合. 别忘了把你的化工厂升级为钨钢.
 
-# Quest: Phthalic Acid Conversion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgQ.name=邻苯二甲酸转化
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgQ.desc=如果你手上有一堆邻苯二甲酸(或者你觉得它制备简单),你可以将GT邻苯二甲酸通过蒸馏室转化为GT++版本.
-
 # Quest: 2-Ethylanthrahydroquinone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgg.name=2-乙基蒽氢醌
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgg.desc=想要制备这种听起来很厉害的化学物质,你需要将名字类似的2-乙基蒽醌和氢配合橙色催化剂在化工厂内结合.%n%n§3你需要钯来制造催化剂.
@@ -7997,7 +7997,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgw.desc=还有人想知道为什么这�
 
 # Quest: How Do You Even Pronounce This?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhA.name=你怎么念?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhA.desc=想要制造邻苯二甲酸酐粉,你需要脱水机,以及GT++邻苯二甲酸.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhA.desc=想要制造邻苯二甲酸酐粉,你需要脱水机.
 
 # Quest: Phthalic Acid, The Cool Kids' Way
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhQ.name=邻苯二甲酸,酷孩子的方式
@@ -9197,7 +9197,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=输入/输出总线(ME)是一�
 
 # Quest: AE2 Fluid Crafting
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.name=AE2流体合成(AE2FC)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.desc=好好好,这儿有什么?不再需要容量瓶了?没门!%n不论如何,在听着某些人咒骂"容量瓶是*狗屎*,但却是*唯一的*可以自动化流体合成和装配线的方式"时,你已经可以用上这个为了GTNH而从高版本移植的、强大的AE2附属mod啦.%n%n现在,需要什么才能让这个美妙的玩意运作呢?%n每个ME系统都需要一个ME流体离散器,它支持按需合成.虽然没有流体离散器,你也可以使用AE2FC转运流体;但它是自动合成必需的.%n%n然后你还需要一个ME流体样板终端或是ME增广流体样板终端,后者用于装配线.%n%n书写样板时,你会注意到流体放置的样式就如同物品一样.%n完成书写的样板看着是蓝色的.将其放置在ME二合一接口中,能使AE2"同时"发送流体和物品.注意,"同时"是说"两者都会",而在先后顺序上,AE2会先发送流体,再发送物品.%n如果想将流体储存在二合一接口中,你可以点击GUI右上角以切换设置界面.%n%n如果你在普通接口界面中使用蓝色样板(流体样板),AE2会以流体包的形式发送流体.这只是用物品的形式来代表流体.ME流体封包解码器可以将其变回流体,并储存在流体槽中.%n%n你可以使用一个原材料缓存仓(大型或是普通的),这样你由样板发送的物品和流体就都能存储在一个方块内部了.普通的原材料缓存仓可以存储9组物品和4种流体,大型的则是27组物品和7种流体.%n通过物品或是流体导管之类的手段,就可以用它自动化多方块机器.%n%n如果你想自动化单方块机器,那就如同节食期间吃巧克力蛋糕一样简单:%n书写样板,制造一个二合一接口,当当当当--完成!%n它会自动把流体塞到单方块机器的流体格子里.%n%n自动化装配线也不太难.它和旧的容量瓶设置是一样的,只不过用流体封包解码器替换了流体储罐,并使用流体存储总线输入流体.同样,你可以先发送流体,再发送物品--只要使用增广流体样板终端中的"优先发送流体"按钮就行.请确保给流体封包解码器提供单独的子网络.如果你需要更详细的信息,请访问Wiki:%n%nhttps://gtnh.miraheze.org/wiki/AE2FC%n%n§3更多存储单元2(ExtraCells2)mod现在已经被移除了.任何旧的元件和单元都已经尽可能地被转换为AE2和AE2FC的元件和单元了.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.desc=流体合成已经直接集成到了你的ME网络.这怎么可能!%n%n多亏了AE2FC,一个为了GTNH而从高版本移植的、强大的AE2附属mod.%n%n现在,需要什么才能让这个美妙的玩意运作呢?%n每个ME系统都需要一个ME流体离散器,它支持按需合成.虽然没有流体离散器,你也可以使用AE2FC转运流体;但它是自动合成必需的.%n%n然后你还需要一个ME流体样板终端或是ME增广流体样板终端,后者用于装配线.%n%n书写样板时,你会注意到流体放置的样式就如同物品一样.%n完成书写的样板看着是蓝色的.将其放置在ME二合一接口中,能使AE2"同时"发送流体和物品.注意,"同时"是说"两者都会",而在先后顺序上,AE2会先发送流体,再发送物品.%n如果想将流体储存在二合一接口中,你可以点击GUI右上角以切换设置界面.%n%n如果你在普通接口界面中使用蓝色样板(流体样板),AE2会以流体包的形式发送流体.这只是用物品的形式来代表流体.ME流体封包解码器可以将其变回流体,并储存在流体槽中.%n%n你可以使用一个原材料缓存仓(大型或是普通的),这样你由样板发送的物品和流体就都能存储在一个方块内部了.普通的原材料缓存仓可以存储9组物品和4种流体,大型的则是27组物品和7种流体.你可以使用它同物品和流体导管实现自动化,但不一定要这样做.%n%n如果你想自动化单方块机器,那就如同节食期间吃巧克力蛋糕一样简单:%n书写样板,制造一个二合一接口,当当当当--完成!它会自动把流体塞到单方块机器的流体格子里.%n%n即使是像装配线这样更困难的事情,在这些工具的帮助下自动化也变得容易多了%n%n如果你需要更详细的信息,请访问Wiki:%n%n§1§n[url]https://gtnh.miraheze.org/wiki/AE2FC[/url]§r%n%n§3更多存储单元2(ExtraCells2)mod现在已经被移除了.任何旧的元件和单元都已经尽可能地被转换为AE2和AE2FC的元件和单元了.
 
 # Quest: 16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.name=16384k-ME流体存储元件
@@ -9519,6 +9519,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0A.desc=你还要这个做什么?
 # Quest: IAADDS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1A.name=巨型工业蜂箱
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1A.desc=又叫做巨型蜂箱.%n%n它有三种主要模式(使用螺丝刀切换)和两种运行模式(用shift+螺丝刀改变):%n%n输入模式:不消耗能量.将蜂后放进输入总线,以将它们放入内部缓冲区.%n%n输出模式:不消耗能量.会让你的蜜蜂回到输出总线.%n%n运行模式-普通:处理时间为5秒.每个蜂后都将使机器消耗1A-LuV.所有蜜蜂都受到64倍加速和8个产量升级以及一个基因稳定升级的影响.最妙的是,巨型蜂箱将为其中的每个蜜蜂都提供完美环境.%n%n你还可以通过为机器提供蜂王浆来增加产量.每粒蜂王浆将为每只蜜蜂提供5％的奖励,最高可为200％,仅在每次运行开始时消耗并仅应用于该次运行.当然,正常的蜜蜂属性仍然有效,不过巨蜂箱可以为任意蜜蜂提供完美的环境.%n%n运行模式-蜂群:在这种模式下你只能放入1个蜂后.巨型蜂箱将以每次运行消耗100蜂王浆的代价慢慢生产出卑贱种公主蜂.基本处理时间为1分钟并需要1A-IV,但该过程可以超频.%n%n§3是的,你需要成千上万的皇后,而不是公主,所以加油让它生!
+
+# Quest: Pollen Collection Kit
+betterquesting.quest.FLhv4l1HSSmaLiwukzMVSg.name=花粉收集装备
+betterquesting.quest.FLhv4l1HSSmaLiwukzMVSg.desc=获取花粉的简单方法就是右击树叶.然而花粉收集装备是一次性使用的,所以可以多制作一些.
 
 
 ## Quest Line: Be(e) Breeding
@@ -10329,7 +10333,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAFg.desc=魔法的奥秘皆藏于此
 
 # Quest: Tube Madness
 betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.name=我为管道狂
-betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.desc=你把各种源质从炼金炉弄到到源质罐子的时候,不想让它们黏成一团?%n%n那你就来对地方了.使用源质缓存器和法杖,你不需要反复敲掉重放就能让管道里的源质乖乖装满罐子.%n%n一个简单的用法就是,把源质缓存器贴到你的奥数蒸馏器上组成一条缓存器链,用普通源质管道连出来,然后直接进入源质罐子.为了让源质在缓存器里正确流动,用法杖shift右键将缓存器的输出口调成红色.这个红圈会把此方向对源质的吸力调整到最小%n%n源质会从缓存器中被吸入普通管道然后进入源质罐子.根据你需要放置的源质罐子数量延长缓存器链条.%n§4%n注意：这个系统仍然会在某一个罐子装满之后堵住!%n%n§r如果你需要更多信息,可以查看由xlstadal制作的教程'A Thaumaturge Guide to Laying Pipe',它提供了更多关于神秘时代4管道系统的进阶知识.%n%n§1§n[url]https://docs.google.com/document/d/1fMvJ5HbeOdy4UgBMe47cggis02idxWoMDgK81SgowEo[/url]§r
+betterquesting.quest.xoH_knd-RV-22QEfLUtuDA.desc=你把各种源质从炼金炉弄到到源质罐子的时候,不想让它们黏成一团?%n%n那你就来对地方了.使用源质缓存器和法杖,你不需要反复敲掉重放就能让管道里的源质乖乖装满罐子.%n%n一个简单的用法就是,把源质缓存器贴到你的奥术蒸馏器上组成一条缓存器链,用普通源质管道连出来,然后直接进入源质罐子.为了让源质在缓存器里正确流动,用法杖shift右键将缓存器的输出口调成红色.这个红圈会把此方向对源质的吸力调整到最小%n%n源质会从缓存器中被吸入普通管道然后进入源质罐子.根据你需要放置的源质罐子数量延长缓存器链条.%n§4%n注意：这个系统仍然会在某一个罐子装满之后堵住!%n%n§r如果你需要更多信息,可以查看由xlstadal制作的教程'A Thaumaturge Guide to Laying Pipe',它提供了更多关于神秘时代4管道系统的进阶知识.%n%n§1§n[url]https://docs.google.com/document/d/1fMvJ5HbeOdy4UgBMe47cggis02idxWoMDgK81SgowEo[/url]§r
 
 # Quest: Witchy (Wo)man
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA4A.name=男巫女巫
@@ -10525,7 +10529,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg.desc=铁木比橡胶更加耐用,是
 
 # Quest: Steeleaf
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw.name=钢叶
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw.desc=如果你在暮色森林的迷宫里找到了钢叶那么你真的很幸运. 钢叶是制作软锤的最佳材料,而且用钢叶制作的盔甲还可以拥有一些神奇的效果.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw.desc=如果你在暮色森林的迷宫里找到了钢叶那么你真的很幸运. 钢叶是目前制作软锤的最佳材料,而且用钢叶制作的盔甲还可以拥有一些神奇的效果.
 
 # Quest: Thaumium Cooking
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmQ.name=神秘烹饪
@@ -11706,7 +11710,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJdQ.desc=想要获得擒拿草(Grassper)
 
 # Quest: PETA Approved*
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJdg.name=PETA(善待动物组织)许可*
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJdg.desc=想要制作生物陷阱,首先,你得在一格水的上方放置一个蜘蛛网,然后在蜘蛛网周围四个基本方位放置赤杨树树苗. 接着让一只僵尸走进蜘蛛网再手持变异枝条右键蜘蛛网.%n这将会使树苗变成所需的生物陷阱. 重复两遍.%n%n§3*可能未获得PETA许可
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJdg.desc=想要制作生物陷阱,首先,你得在一格水的上方放置一个蜘蛛网,然后在蜘蛛网周围四个基本方位放置赤杨树树苗. 接着让一只僵尸走进蜘蛛网再手持变异枝条右键蜘蛛网.%n这将会使树苗变成所需的生物陷阱. 重复两遍.%n%n§3*可能未获得PETA(善待动物组织)许可
 
 # Quest: Mad Science is the Best Science
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJdw.name=疯狂科学是最好的科学(Mad Science is the Best Science)
@@ -13433,7 +13437,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.desc=欢迎来到最后一册"智者
 
 # Quest: Double the Fun
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaw.name=§a§l二联燃料棒,双倍的快乐(double the fun(fuel))
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaw.desc=需要更多能量?何不将燃料棒结合起来?二联燃料棒可以产生更多能量(并不一定是双倍,这因燃料棒类型而异)以及更多热量(同样非双倍),却只占用一个格子.你需要更复杂的设计来处理它们,但你已经准备好了,对吧?%n%n所以何不更进一步,双倍双倍后变为四倍(4x)?四联燃料棒会产生更多更多的能量和热量,其他工作原理基本相同(在大多数情况下).%n%n§3另外明智的做法是1->4而不是1->2->4.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaw.desc=需要更多能量?何不将燃料棒结合起来?二联燃料棒可以产生更多能量(并不一定是双倍,这因燃料棒类型而异)以及更多热量(同样非双倍),却只占用一个格子.你需要更复杂的设计来处理它们,但你已经准备好了,对吧?%n%n所以何不更进一步,双倍双倍后变为四倍(4x)?四联燃料棒会产生更多更多的能量和热量,其他工作原理基本相同(在大多数情况下).
 
 # Quest: Unfortunately, There's No Depleted Uranium Bullets
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHbA.name=§a§l很抱歉,没有贫铀弹

@@ -5,10 +5,10 @@ itemGroup.MiscUtilCombatTab=[GT++] 战斗
 itemGroup.MiscUtilToolsTab=[GT++] 工具
 itemGroup.MiscUtilMachineTab=[GT++] 机器
 itemGroup.MiscUtilOtherTab=[GT++] 物品 II
-itemGroup.MiscUtilBOP=[GT++]超多生物群系附属
+itemGroup.MiscUtilBOP=[GT++] 超多生物群系附属
 
 //Debug
-item.AAA_Broken.name=[不存在的物品]请在Github上反馈这个合成
+item.AAA_Broken.name=[错误] 请在Github上反馈这个合成
 item.itemBedLocator_Base.name=床定位器[NBT测试]
 item.itemBaseItemWithCharge.name=基础可充电物品
 item.miscutils_itemDebugShapeSpawner.name=[调试用]塑形
@@ -1724,7 +1724,6 @@ item.CoalTar.name=煤焦单元
 item.CoalTarOil.name=煤焦油单元
 item.SulfuricCoalTarOil.name=硫酸煤焦油单元
 item.Naphthalene.name=萘单元
-item.PhthalicAcid.name=邻苯二甲酸单元
 item.itemDustPhthalicAnhydride.name=邻苯二甲酸酐粉
 item.itemDustSmallPhthalicAnhydride.name=小堆邻苯二甲酸酐粉
 item.itemDustTinyPhthalicAnhydride.name=小撮邻苯二甲酸酐粉
@@ -3462,3 +3461,6 @@ item.BasicGenericChemItem.30.name=超净水催化剂
 //Added 18/07/23
 item.BasicGenericChemItem.31.name=粒子加速催化剂
 item.BasicGenericChemItem.32.name=同步加速催化剂
+
+//Added 19/09/23
+item.BasicGenericChemItem.33.name=海藻基质催化剂
