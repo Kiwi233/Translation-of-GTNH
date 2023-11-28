@@ -1,0 +1,16 @@
+name: Purge Skipped Workflows
+
+on:
+  pull_request:
+    types: [ opened ]
+  workflow_dispatch:
+
+jobs:
+  purge-skipped-workflows:
+    name: Purge Skipped Workflows
+    runs-on: ubuntu-latest
+    steps:
+      - uses: otto-de/purge-deprecated-workflow-runs@v2
+        with:
+          remove-obsolete: false
+          remove-skipped: true
