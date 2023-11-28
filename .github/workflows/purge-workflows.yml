@@ -5,8 +5,7 @@ on:
     types: [ opened ]
   workflow_dispatch:
 
-permissions:
-  actions: write
+permissions: write-all
 
 jobs:
   purge-skipped-workflows:
