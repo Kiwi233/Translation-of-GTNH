@@ -5,6 +5,9 @@ on:
     types: [ opened ]
   workflow_dispatch:
 
+permissions:
+  actions: write
+
 jobs:
   purge-skipped-workflows:
     name: Purge Skipped Workflows
