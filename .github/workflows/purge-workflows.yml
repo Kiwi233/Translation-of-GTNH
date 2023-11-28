@@ -5,7 +5,8 @@ on:
     types: [ opened ]
   workflow_dispatch:
 
-permissions: write-all
+permissions:
+  actions: write
 
 jobs:
   purge-skipped-workflows:
@@ -13,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Purge Skipped/Canceled Workflows
+        continue-on-error: true
         uses: dmvict/clean-workflow-runs@v1.2.1
         with:
           run_conclusions: |
