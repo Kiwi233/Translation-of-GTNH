@@ -436,9 +436,9 @@ gui.tooltips.appliedenergistics2.SidelessModeSideless=禁用侧面模式
 gui.tooltips.appliedenergistics2.SidelessModeSidelessDesc=所有流体可以从任意面接入
 
 gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefault=默认模式
-gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefaultDesc=高级阻挡卡将接口阻挡模式的判定范围扩大至整个网络, 仅当此卡被安装在接受物品的接口上, 并且对应接口开启阻挡模式时才能生效. \n默认模式下, 此接口将在本网络有任意非催化剂物品 (默认只有GT集成电路) 时阻止对应接口输出.
+gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefaultDesc=高级阻挡卡将接口阻挡模式的判定范围扩大至整个网络, 仅当此卡被\n安装在接受物品的接口上, 并且对应接口开启阻挡模式时才能生效. \n默认模式下, 此接口将在本网络有任意非催化剂物品 (默认只有GT集\n成电路) 时阻止对应接口输出.
 gui.tooltips.appliedenergistics2.AdvancedBlockingModeAll=严格模式
-gui.tooltips.appliedenergistics2.AdvancedBlockingModeAllDesc=高级阻挡卡将接口阻挡模式的判定范围扩大至整个网络, 仅当此卡被安装在接受物品的接口上, 并且对应接口开启阻挡模式时才能生效. \n严格模式下, 此接口将在本网络有任意物品时阻止对应接口输出.
+gui.tooltips.appliedenergistics2.AdvancedBlockingModeAllDesc=高级阻挡卡将接口阻挡模式的判定范围扩大至整个网络, 仅当此卡被\n安装在接受物品的接口上, 并且对应接口开启阻挡模式时才能生效. \n严格模式下, 此接口将在本网络有任意物品时阻止对应接口输出.
 
 gui.tooltips.appliedenergistics2.CraftingModeStandard=标准合成模式
 gui.tooltips.appliedenergistics2.CraftingModeStandardDesc=在ME系统内所有原料齐全时,方可开始合成.
