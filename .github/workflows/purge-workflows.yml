@@ -1,0 +1,34 @@
+name: Purge Workflows
+
+on:
+  pull_request:
+    types: [ opened ]
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  purge-skipped-workflows:
+    name: Purge Skipped Workflows
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge Skipped/Canceled Workflows
+        continue-on-error: true
+        uses: dmvict/clean-workflow-runs@v1.2.1
+        with:
+          run_conclusions: |
+            cancelled
+            skipped
+          save_period: 0
+          save_min_runs_number: 0
+      - name: Get Current Workflow ID
+        run: |
+          echo "CURRENT_WORKFLOW_ID=$(echo ${{ github.workflow_ref }} | sed 's/.*\/\(.*\)@.*/\1/')" >> $GITHUB_ENV
+      - name: Purge Self
+        continue-on-error: true
+        uses: dmvict/clean-workflow-runs@v1.2.1
+        with:
+          workflow_id: ${{ env.CURRENT_WORKFLOW_ID }}
+          save_period: 0
+          save_min_runs_number: 0
