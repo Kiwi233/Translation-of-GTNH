@@ -155,11 +155,20 @@ botaniamisc.altarRefill1=返回最后一个合成
 botaniamisc.santaweaveInfo=魔源套,因&c季&f节&c物&f转&c星&f移
 botaniamisc.enterToView=^ 按下回车键以查看 ^
 botaniamisc.keyCategory=植物魔法
-botaniamisc.toggleLoki=激活洛基之戒
-botaniamisc.toggleLokiBreaking=激活洛基之戒-粉碎
+
+#LOKI
+botaniamisc.toggleLoki=洛基之戒模式选择
+botaniamisc.ringOfLokiClear=清除洛基之戒选区
 botaniamisc.lokiOn=激活
 botaniamisc.lokiOff=禁用
 botaniamisc.breaking=粉碎
+botaniamisc.lokiClear=成功清除全部选区
+botaniamisc.lokiDescription=建筑之杖，但 §c§oC§6§oo§e§oo§a§ol§9§oe§5§or
+botaniamisc.lokiDescription2=可以一次放置/交互/破坏多个方块！
+botaniamisc.lokiToggleDescription=模式选择键切换洛基之戒的
+botaniamisc.lokiBreakingDescription=Shift键+模式选择键切换破坏功能的
+botaniamisc.lokiCurrent=当前状态
+botaniamisc.lokiState=洛基之戒
 
 # NEI INTEGRATION
 botania.nei.brewery=植物酿造
@@ -1621,6 +1630,7 @@ item.botania:cosmetic31.name=任务人标志
 item.botania:manaString.name=蕴魔丝线
 item.botania:swapRing.name=修正指环
 item.botania:flowerBag.name=采花袋
+item.botania:shroomBag.name=采菇袋
 item.botania:phantomInk.name=幻影墨水
 item.botania:poolMinecart.name=魔力池矿车
 item.botania:pinkinator.name=粉色手炮
@@ -2111,6 +2121,12 @@ botania.tagline.flowerBag=帮你存储花瓣的可靠小袋
 botania.page.flowerBag0=众所周知,&4物品栏&0的空间是有 限的,这样一来带着各种颜色 的花就变成了一个难题.幸运的 是,&1采花袋&0考虑到了这些问题 .每种颜色的&1神秘花&0最多能储 存1组,除此之外,它还会主动 将持有者捡起的花装入其中.
 botania.page.flowerBag2=手上拿着的物品不会被自动 放入袋子中.<br>其次,用采花袋shift右击&1箱子&0 或其他容器会将储存的花装 入其中. 
 botania.page.flowerBag1=Pull a copter out of it (任意颜色均可)
+
+# -- MUSHROOM POUCH
+botania.entry.shroomBag=采菇袋
+botania.tagline.shroomBag=帮你存储蘑菇的可靠小袋
+botania.page.shroomBag0=和&1采花袋&0一样,采菇袋会 将持有者捡起的那一堆&1微光 蘑菇&0放入其中.<br>手上拿着的物品不会被自动 放入袋子中.<br>其次,用采菇袋右键点击&1箱子&0 或其他容器会将储存的 微光蘑菇装入其中.
+botania.page.shroomBag1=任意颜色均可
 
 # -- WRAP
 botania.entry.wrap=扭曲

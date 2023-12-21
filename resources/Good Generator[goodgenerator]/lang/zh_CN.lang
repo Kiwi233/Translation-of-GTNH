@@ -57,7 +57,6 @@ componentAssemblyLineCasing.11.name=部件装配线外壳(UMV)
 componentAssemblyLineCasing.12.name=部件装配线外壳(UXV)
 componentAssemblyLineCasing.13.name=部件装配线外壳(MAX)
 
-
 #Items
 item.radiationProtectionPlate.name=防辐射板
 item.wrappedUraniumIngot.name=封装铀锭
@@ -170,6 +169,7 @@ fuelrodheat.tooltip.1=发热量是铀的%s倍
 fuelrodheat.tooltip.2=具有MOX特性
 depletedfuelrod.tooltip.0=枯竭
 YOTTankCell.tooltip.0=容量：
+YOTTankCell.tooltip.1=用于YOT储罐的流体单元
 hatchTier.tooltip.0=仓室等级：
 huiCircuit.tooltip.0=§b93015-T浮点运算/秒§r
 huiCircuit.tooltip.1=§e76M处理单元§r
@@ -311,15 +311,17 @@ gui.YOTTank.button.locking=锁定流体
 gui.LargeFusion.0=能量容量：
 gui.LargeFusion.1=储存能量：
 
+# RecipeMaps
+gg.recipe.naquadah_reactor=大型硅岩反应堆
+gg.recipe.naquadah_fuel_refine_factory=硅岩燃料精炼厂
+gg.recipe.neutron_activator=中子活化器
+gg.recipe.extreme_heat_exchanger=超级热交换机
+gg.recipe.precise_assembler=精密组装机
+gg.recipe.componentassemblyline=部件装配线
+
 #NEI Info
-tile.recipe.naquadah_reactor=大型硅岩反应堆
-tile.naquadah_fuel_refine_factory=硅岩燃料精炼厂
-tile.neutron_activator=中子活化器
-tile.extreme_heat_exchanger=超级热交换机
-tile.precise_assembler=精密组装机
-value.naquadah_reactor=基础输出电压：
-value.naquadah_fuel_refine_factory.0=要求等级
-value.naquadah_fuel_refine_factory.1=线圈
+value.naquadah_reactor=基础输出电压: %s EU/t
+value.naquadah_fuel_refine_factory=需要 %s 级线圈
 value.neutron_activator.0=最低中子动能：
 value.neutron_activator.1=最高中子动能：
 value.neutron_activator.2= MeV
@@ -327,8 +329,8 @@ value.extreme_heat_exchanger.0=最大热流体输入：
 value.extreme_heat_exchanger.1=最大蒸馏水输入(常规):
 value.extreme_heat_exchanger.2=最大蒸馏水输入(过热):
 value.extreme_heat_exchanger.4=阈值：
-value.precise_assembler.0=要求 MK-
-value.precise_assembler.1= 机械方块
+value.precise_assembler=需要MK-%s机械方块
+value.component_assembly_line=外壳等级: %s
 
 #TecTech Structure Info
 FuelRefineFactory.hint.0=8x力场约束玻璃

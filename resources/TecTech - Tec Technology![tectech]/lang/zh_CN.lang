@@ -55,7 +55,7 @@ item.em.frontRotate.desc.0=触发正面旋转界面
 item.em.frontRotate.desc.1=可以旋转多方块控制器,
 item.em.frontRotate.desc.2=从而使整个结构可以旋转.
 
-item.em.parametrizerMemoryCard.name=数据化储存卡
+item.em.parametrizerMemoryCard.name=参数存储卡
 item.em.parametrizerMemoryCard.name.paste=参数存储卡(粘贴模式)
 item.em.parametrizerMemoryCard.name.copy=参数存储卡(复制模式)
 item.em.parametrizerMemoryCard.desc.0=存储参数
@@ -100,6 +100,12 @@ item.tm.powerpassupgradecover.name=导能升级覆盖板
 item.tm.powerpassupgradecover.desc.0=为TecTech多方块机器添加导能功能
 item.tm.powerpassupgradecover.desc.1=罐中的有源变压器??
 item.tm.powerpassupgradecover.desc.2=将它们像圣诞彩灯一样串起来!
+
+item.tm.itemAstralArrayFabricator.name=星阵
+item.tm.itemAstralArrayFabricator.desc0=平行维度？！
+item.tm.itemAstralArrayFabricator.desc1=此设备能够增强鸿蒙之眼的空间压缩度，
+item.tm.itemAstralArrayFabricator.desc2=触及更遥远的空间。
+item.tm.itemAstralArrayFabricator.desc3=允许配方执行并行。
 
 #Death Messages
 death.attack.microwaving=%1$s被辐射脱水。
@@ -973,12 +979,26 @@ GT5U.gui.text.no_data=§7无法输出数据
 GT5U.gui.text.no_planet_block=§7缺少维度标记方块
 GT5U.gui.text.no_helium=§7氦不足
 GT5U.gui.text.no_hydrogen=§7氢不足
+GT5U.gui.text.no_stellar_plasma=§7恒星等离子体不足
 GT5U.gui.text.invalid_hysteresis=§7无效迟滞设置
 GT5U.gui.text.invalid_transfer_radius=§7传输半径设置
 GT5U.gui.text.invalid_voltage_setting=§7无效电压设置
 GT5U.gui.text.invalid_current_setting=§7无效电流设置
 GT5U.gui.text.invalid_time_setting=§7无效扫描时间设置
 GT5U.gui.text.invalid_overdrive_setting=§7无效过载设置
+GT5U.gui.text.insufficient_power_no_val=§7能量不足
+
+# RecipeMaps
+gt.recipe.eyeofharmony=鸿蒙之眼
+gt.recipe.researchStation=研究站
+
+# NEI
+tt.nei.eoh.total_items=总计物品：%s
+tt.nei.eoh.solid_mass=所占比例：%s%%
+tt.nei.eoh.item_count=物品数量：%s
+tt.nei.research.max_eu=最多消耗：%s EU
+tt.nei.research.computation=算力：%s
+tt.nei.research.min_computation=最小算力输入：%s /s
 
 #Keywords and phrases
 #Example: ID:3
