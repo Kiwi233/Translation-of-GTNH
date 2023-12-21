@@ -64,6 +64,62 @@ GTPP.core.GT_Tooltip=添加者：§2Alkalus §7- §c[GT++]
 GTPP.core.GT_Tooltip_Builder=§2Alkalus §7- §c[GT++]
 GTPP.core.GT_Tooltip_Radioactive=§7警告: §a放射性物品! §6 未装备防护服之前避免接触.
 
+# RecipeMaps
+gtpp.recipe.cokeoven=焦炉
+gtpp.recipe.matterfab2=质量发生器
+gtpp.recipe.rocketenginefuel=火箭引擎燃料
+gtpp.recipe.quantumforcesmelter=量子操纵者
+gtpp.recipe.chemicaldehydrator=脱水机
+gtpp.recipe.vacfurnace=真空干燥炉
+gtpp.recipe.alloyblastsmelter=合金冶炼炉
+gtpp.recipe.lftr=液态氟钍反应堆
+gtpp.recipe.nuclearsaltprocessingplant=反应堆熔盐加工厂
+gtpp.recipe.oremill=研磨
+gtpp.recipe.fissionfuel=反应堆燃料加工厂
+gtpp.recipe.coldtrap=冷阱
+gtpp.recipe.reactorprocessingunit=反应堆处理单元
+gtpp.recipe.simplewasher=简易洗矿池
+gtpp.recipe.moleculartransformer=分子重组仪
+gtpp.recipe.fluidchemicaleactor=化工厂
+gtpp.recipe.RTGgenerators=放射性同位素温差发电机
+gtpp.recipe.thermalgeneratorfuel=火力发电机燃料
+gtpp.recipe.solartower=太阳能塔
+gtpp.recipe.cyclotron=COMET - 紧凑式回旋加速器
+gtpp.recipe.fishpond=珠海-渔场
+gtpp.recipe.cryogenicfreezer=凛冰冷冻机
+gtpp.recipe.multicentrifuge=工业离心机
+gtpp.recipe.multielectro=工业电解机
+gtpp.recipe.multimixer=工业搅拌机
+gtpp.recipe.multidehydrator=工业脱水机
+gtpp.recipe.semifluidgeneratorfuels=半流质发电机燃料
+gtpp.recipe.flotationcell=工业浮选机
+gtpp.recipe.treefarm=原木拟生场
+
+# Recipe categories
+gtpp.recipe.category.abs_non_alloy_recipes=合金冶炼炉非合金配方
+
+# NEI
+gtpp.nei.lftr.power=功率：%s EU/t 每个动力仓
+gtpp.nei.lftr.dynamo=发电：%s EU
+gtpp.nei.lftr.total=总计：%s EU
+gtpp.nei.milling.not_consumed=加工时不一定消耗
+gtpp.nei.chemplant.tier.1=青铜
+gtpp.nei.chemplant.tier.2=钢
+gtpp.nei.chemplant.tier.3=铝
+gtpp.nei.chemplant.tier.4=不锈钢
+gtpp.nei.chemplant.tier.5=钛
+gtpp.nei.chemplant.tier.6=钨钢
+gtpp.nei.chemplant.tier.7=劳伦姆合金
+gtpp.nei.chemplant.tier.8=博特姆合金
+gtpp.nei.rtg.days=燃烧时间：%s Minecraft Days
+gtpp.nei.solar_tower.1=太阳能加热环增益等级
+gtpp.nei.solar_tower.2=T = 2 ^ (环数 - 1)
+gtpp.nei.solar_tower.3=输入数量 = 1000 x T
+gtpp.nei.tgs.1=树苗不消耗
+gtpp.nei.tgs.2=如果提供%s
+gtpp.nei.tgs.3=则输出树苗
+gtpp.nei.tgs.sapling=如果提供%s则输出树苗
+
 //Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=烈焰之炽焱桶
 item.MiscUtils.bucket.bucketCryotheum.name=极寒之凛冰桶
@@ -185,12 +241,6 @@ item.itemGemShards.tooltip=钻石碎片
 item.itemHalfCompleteCasings.name=半成品机械方块
 item.itemSulfuricPotion.name=喷溅型 硫酸药水
 item.itemHydrofluoricPotion.name=喷溅型 氢氟酸药水
-item.itemIngotRaisinBread.name=一份葡萄干面包
-item.itemHotIngotRaisinBread.name=一份热葡萄干面包
-item.itemFoodRaisinToast.name=一份葡萄干烤面包
-item.itemHotFoodRaisinToast.name=一份热葡萄干烤面包
-item.itemFoodCurriedSausages.name=一份咖喱香肠
-item.itemHotFoodCurriedSausages.name=一份热咖喱香肠
 item.itemBaseItemHotFood.tooltip.0=§7警告: §c很烫!§7 避免直接接触..
 item.itemBaseItemHotFood.tooltip.1=这个食物还需要%d秒才凉.
 item.itemBoilerChassis.name=高级锅炉外壳 [%d级]
@@ -3079,16 +3129,6 @@ item.dustPureRareEarthIII.name=洁净稀土(III)粉
 item.itemDustRareEarthIII.name=稀土(III)粉
 item.itemDustTinyRareEarthIII.name=小撮稀土(III)粉
 item.itemDustSmallRareEarthIII.name=小堆稀土(III)粉
-
-
-
-//Added 13/10/19
-tile.blockRoundRobinator.0.name=自动输出机 I
-tile.blockRoundRobinator.1.name=自动输出机 II
-tile.blockRoundRobinator.2.name=自动输出机 III
-tile.blockRoundRobinator.3.name=自动输出机 IV
-tile.blockRoundRobinator.4.name=自动输出机 V
-
 
 //Added 16/10/19
 item.BioRecipeSelector.name=编程生物电路

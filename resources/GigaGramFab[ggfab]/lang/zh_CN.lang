@@ -1,3 +1,5 @@
+ggfab.recipe.toolcast=工具铸造
+
 ggfab.info.advassline.0=进阶装配线帮助
 ggfab.info.advassline.1=这是由 §6GigaGram§rFab 添加的进阶装配线.
 ggfab.info.advassline.2=本装配线支持流水线式操作物品,也就是说,它会像真正的流水线一样,一个一个消耗物品而非一次性全部消耗.这样它就可以对任意数量的物品输入配方提供并行.
@@ -14,6 +16,15 @@ ggfab.waila.advassline.slice.stuck=片#%s：§4堵塞
 ggfab.gui.advassline.slice.idle=片#%s：待机
 ggfab.gui.advassline.slice.stuck=片#%s：§4堵塞
 ggfab.gui.advassline.slice.unknown=片#%s：?
+ggfab.gui.advassline.shutdown=§4上次异常关机原因：
+ggfab.gui.advassline.shutdown_clear=§6Clear
+ggfab.gui.advassline.shutdown.input_busses=§4输入总线数量过少，无法支持当前配方
+ggfab.gui.advassline.shutdown.recipe_null=§4配方为 null （报告给作者）
+ggfab.gui.advassline.shutdown.fluid_null=§4流体获取失败（检查你的ME流体存储）
+ggfab.gui.advassline.shutdown.structure=§4不兼容的结构变化
+ggfab.gui.advassline.shutdown.energy=§4功率不足
+ggfab.gui.advassline.shutdown.load.energy=§4载入了无效的电力信息
+ggfab.gui.advassline.shutdown.load.recipe=§4不兼容的配方切换
 
 ggfab.info.linked_input_bus.not_owned=§6该设置是从其他所有者处复制而来!
 ggfab.info.linked_input_bus.no_data=§6找不到配置数据!

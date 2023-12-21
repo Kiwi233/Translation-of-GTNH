@@ -51,6 +51,7 @@ tile.appliedenergistics2.BlockCraftingStorage256k.name=256k合成存储器
 tile.appliedenergistics2.BlockCraftingStorage1024k.name=1024k合成存储器
 tile.appliedenergistics2.BlockCraftingStorage4096k.name=4096k合成存储器
 tile.appliedenergistics2.BlockCraftingStorage16384k.name=16384k合成存储器
+tile.appliedenergistics2.BlockCraftingStorageSingularity.name=奇点合成存储器
 tile.appliedenergistics2.BlockCraftingAccelerator.name=并行处理单元
 tile.appliedenergistics2.BlockCraftingAccelerator4x.name=4核并行处理单元
 tile.appliedenergistics2.BlockCraftingAccelerator16x.name=16核并行处理单元
@@ -151,6 +152,7 @@ gui.appliedenergistics2.StorageBus=存储总线
 gui.appliedenergistics2.EnergyDrain=被动流失
 gui.appliedenergistics2.Installed=已安装
 gui.appliedenergistics2.NetworkTool=网络工具
+gui.appliedenergistics2.AdvancedNetworkTool=高级网络工具
 gui.appliedenergistics2.PowerUsageRate=耗能
 gui.appliedenergistics2.PowerInputRate=产能
 gui.appliedenergistics2.PortableCell=便携元件
@@ -202,6 +204,7 @@ gui.appliedenergistics2.Substitute=使用替换:
 gui.appliedenergistics2.BeSubstitute=可作为替换:
 gui.appliedenergistics2.Yes=是
 gui.appliedenergistics2.No=否
+gui.appliedenergistics2.EncodedBy=由 %s 编码
 gui.appliedenergistics2.InWorldCrafting=AE2在世界中的合成
 gui.appliedenergistics2.inWorldFluix=将1个充能赛特斯石英水晶,1个下界石英和1个红石,相继扔进同一格水里,并等待一会儿.
 gui.appliedenergistics2.inWorldPurificationCertus=用赛特斯石英粉和沙子制作赛特斯石英种子,并扔进水里；使用晶体催生器可以让这个过程变得更快.
@@ -229,6 +232,7 @@ gui.appliedenergistics2.CraftingStatus=合成状态
 gui.appliedenergistics2.RemainingOperations=空闲CPU
 gui.appliedenergistics2.FromStorage=可用数量
 gui.appliedenergistics2.ToCraft=合成数量
+gui.appliedenergistics2.ToCraftRequests=轮数
 gui.appliedenergistics2.CraftingPlan=合成计划
 gui.appliedenergistics2.Automatic=自动分配
 gui.appliedenergistics2.Start=开始
@@ -265,11 +269,25 @@ gui.appliedenergistics2.SmallFontCraft=合成
 gui.appliedenergistics2.LargeFontCraft=+
 gui.appliedenergistics2.Renamer=自定义名称: (回车保存设置)
 gui.appliedenergistics2.OreFilterLabel=矿典过滤卡
+gui.appliedenergistics2.Sticky=粘性
 gui.appliedenergistics2.HoldShiftForTooltip=按住Shift以查看拓展tooltip
 gui.appliedenergistics2.HoldShiftClick_HIGHLIGHT_INTERFACE=按住Shift以高亮接口
 gui.appliedenergistics2.Nothing=无
 gui.appliedenergistics2.VoidCellTooltip=销毁存储的§4所有物品§7 
 gui.appliedenergistics2.Deprecated=已弃用,会在后续版本移除!
+
+gui.appliedenergistics2.NetworkBytesDetails=网络存储信息
+gui.appliedenergistics2.Items=物品
+gui.appliedenergistics2.Fluids=流体
+gui.appliedenergistics2.Essentias=源质
+gui.appliedenergistics2.NetworkItemCellCount=网络物品元件数量
+gui.appliedenergistics2.NetworkFluidCellCount=网络流体元件数量
+gui.appliedenergistics2.NetworkEssentiaCellCount=网络源质元件数量
+gui.appliedenergistics2.Green=Green
+gui.appliedenergistics2.Orange=Orange
+gui.appliedenergistics2.Red=Red
+gui.appliedenergistics2.TypesInfo=种类
+gui.appliedenergistics2.BytesInfo=字节
 
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
@@ -445,6 +463,13 @@ gui.tooltips.appliedenergistics2.CraftingModeStandardDesc=在ME系统内所有�
 gui.tooltips.appliedenergistics2.CraftingModeIgnoreMissing=忽略缺失合成模式
 gui.tooltips.appliedenergistics2.CraftingModeIgnoreMissingDesc=在ME系统内原料存在缺失的情况下,也可开始合成.
 
+gui.tooltips.appliedenergistics2.ExtraOptions=额外选项
+
+gui.tooltips.appliedenergistics2.SwitchBytesInfo=存储信息
+gui.tooltips.appliedenergistics2.SwitchBytesInfo_Item=物品
+gui.tooltips.appliedenergistics2.SwitchBytesInfo_Fluid=流体
+gui.tooltips.appliedenergistics2.SwitchBytesInfo_Essentia=源质
+
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
 gui.appliedenergistics2.units.ic2=EU
@@ -529,6 +554,7 @@ item.appliedenergistics2.ItemMaterial.CardSuperSpeed.name=超级加速卡
 item.appliedenergistics2.ItemMaterial.CardOreFilter.name=矿典过滤卡
 item.appliedenergistics2.ItemMaterial.CardPatternRefiller.name=空白样板重填卡
 item.appliedenergistics2.ItemMaterial.CardAdvancedBlocking.name=高级阻挡卡
+item.appliedenergistics2.ItemMaterial.CardSticky.name=粘性卡
 
 item.appliedenergistics2.ItemMaterial.Cell2SpatialPart.name=2³-空间组件
 item.appliedenergistics2.ItemMaterial.Cell16SpatialPart.name=16³-空间组件
@@ -647,6 +673,7 @@ item.appliedenergistics2.ToolNetherQuartzWrench.name=下界石英扳手
 item.appliedenergistics2.ItemPaintBall.name=染色球
 item.appliedenergistics2.ToolPortableCell.name=便携元件
 item.appliedenergistics2.ToolNetworkTool.name=网络工具
+item.appliedenergistics2.ToolAdvancedNetworkTool.name=高级网络工具
 item.appliedenergistics2.ToolChargedStaff.name=充能手杖
 item.appliedenergistics2.ToolEntropyManipulator.name=熵变机械臂
 item.appliedenergistics2.ToolMassCannon.name=物质炮

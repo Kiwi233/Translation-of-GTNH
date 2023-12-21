@@ -100,8 +100,8 @@ gt.recipe.assembler=组装机
 gt.recipe.assembler.description=复仇者们，集结！
 gt.recipe.autoclave=高压釜
 gt.recipe.autoclave.description=让你的粉末结晶
-gt.recipe.brewery=酿造室
-gt.recipe.brewery.description=酿造你的饮品
+gt.recipe.brewer=酿造室
+gt.recipe.brewer.description=酿造你的饮品
 gt.recipe.metalbender=卷板机
 gt.recipe.metalbender.description=嘘,他是坏的!我们要本德! ! !
 gt.recipe.canner=装罐机
@@ -190,6 +190,47 @@ gt.recipe.unpackager=解包器
 gt.recipe.unpackager.description=从箱子里取出物品
 gt.recipe.wiremill=线材轧机
 gt.recipe.wiremill.description=更有效地生产导线
+
+# RecipeMaps that are not listed on MachineType enum
+gt.recipe.fakeAssemblylineProcess=装配线加工
+gt.recipe.fusionreactor=核聚变反应堆
+gt.recipe.blastfurnace=工业高炉
+gt.recipe.plasmaforge=超维度等离子锻炉
+gt.recipe.transcendentplasmamixerrecipes=超维度等离子搅拌机
+gt.recipe.fakespaceprojects=太空项目
+gt.recipe.primitiveblastfurnace=原始高炉
+gt.recipe.implosioncompressor=聚爆压缩机
+gt.recipe.vacuumfreezer=真空冷冻机
+gt.recipe.largechemicalreactor=大型化学反应釜
+gt.recipe.distillationtower=蒸馏塔
+gt.recipe.craker=石油裂化机
+gt.recipe.pyro=热解炉
+gt.recipe.dieselgeneratorfuel=内燃发电机燃料
+gt.recipe.extremedieselgeneratorfuel=极限内燃引擎燃料
+gt.recipe.gasturbinefuel=燃气轮机燃料
+gt.recipe.thermalgeneratorfuel=火力发电机燃料
+gt.recipe.semifluidboilerfuels=半流质锅炉燃料
+gt.recipe.plasmageneratorfuels=等离子发电机燃料
+gt.recipe.magicfuels=魔法能源转换器燃料
+gt.recipe.smallnaquadahreactor=硅岩反应堆 MkI
+gt.recipe.largenaquadahreactor=硅岩反应堆 MkII
+gt.recipe.fluidnaquadahreactor=硅岩反应堆 MkIII
+gt.recipe.hugenaquadahreactor=硅岩反应堆 MkIV
+gt.recipe.extrahugenaquadahreactor=硅岩反应堆 MkV
+gt.recipe.fluidfuelnaquadahreactor=大型硅岩反应堆
+gt.recipe.largeboilerfakefuels=大型锅炉
+gt.recipe.nanoforge=纳米锻炉
+gt.recipe.pcbfactory=PCB工厂
+gt.recipe.ic2nuke=IC2核反应堆
+
+# Recipe categories
+gt.recipe.category.arc_furnace_recycling=电弧炉回收
+gt.recipe.category.plasma_arc_furnace_recycling=等离子电弧炉回收
+gt.recipe.category.macerator_recycling=粉碎机回收
+gt.recipe.category.fluid_extractor_recycling=流体提取机回收
+gt.recipe.category.alloy_smelter_recycling=合金炉回收
+gt.recipe.category.alloy_smelter_molding=合金炉熔铸
+gt.recipe.category.forge_hammer_recycling=锻造锤回收
 
 GT5U.machines.tier=等级
 GT5U.machines.workarea=工作区域
@@ -334,6 +375,19 @@ GT5U.machines.allow_nbt.tooltip=允许含有NBT的物品
 GT5U.machines.allow_nbt.tooltip.extended=§7默认情况下,所有带NBT的物品都会被阻止.
 GT5U.machines.ignore_nbt.tooltip=忽略物品NBT
 GT5U.machines.ignore_nbt.tooltip.extended=§7默认情况下,物品的NBT必须匹配.
+GT5U.machines.stocking_bus.cannot_set_slot=§8自动拉取模式启用时无法进行手动设置
+GT5U.machines.stocking_bus.auto_pull.tooltip.1=点击切换自动从ME网络拉取物品
+GT5U.machines.stocking_bus.auto_pull.tooltip.2=右键点击以配置物品拉取的最小堆叠数.
+GT5U.machines.stocking_bus.min_stack_size=最小堆叠数
+GT5U.machines.stocking_bus.auto_pull_toggle.enabled=物品自动拉取已启用
+GT5U.machines.stocking_bus.auto_pull_toggle.disabled=物品自动拉取未启用
+GT5U.machines.stocking_hatch.auto_pull.tooltip.1=点击切换自动从ME网络拉取流体
+GT5U.machines.stocking_hatch.auto_pull.tooltip.2=右键点击以配置流体拉取的最小数量.
+GT5U.machines.stocking_hatch.min_amount=最小数量
+GT5U.machines.stocking_hatch.auto_pull_toggle.enabled=流体自动拉取已启用
+GT5U.machines.stocking_hatch.auto_pull_toggle.disabled=流体自动拉取未启用
+GT5U.machines.stocking_bus.saved=已将配置保存至闪存
+GT5U.machines.stocking_bus.loaded=已载入闪存中的配置
 
 GT5U.recipe_filter.empty_representation_slot.tooltip=§7用一个机器点击以设置过滤名单
 GT5U.recipe_filter.representation_slot.tooltip=§7点击清空
@@ -410,6 +464,8 @@ GT5U.gui.text.drill_ores_left_layer=Y轴 %s 剩余矿石：§a%s
 GT5U.gui.text.drill_chunks_left=钻探区块：§a%s / %s
 GT5U.gui.text.drill_offline_reason=钻机关闭：%s
 GT5U.gui.text.drill_offline_generic=钻机关闭
+GT5U.gui.text.stocking_bus_fail_extraction=§4无法从存储输入总线获得预期数量的物品. 多个存储总线读取同一个容器可能导致此问题.
+GT5U.gui.text.stocking_hatch_fail_extraction=§4无法从存储输入仓获得预期数量的流体. 多个流体存储总线读取同一个容器可能导致此问题.
 
 GT5U.item.programmed_circuit.select.header=再编程电路
 
@@ -450,6 +506,13 @@ GT5U.multiblock.mei=最大输入
 GT5U.multiblock.usage=大概功率
 GT5U.multiblock.parallelism=最大并行
 GT5U.multiblock.curparallelism=当前并行
+
+# NEI recipe handlers
+GT5U.nei.heat_capacity=热容：%s K (%s)
+GT5U.nei.tier=等级：%s
+GT5U.nei.start_eu=启动能量：%s EU (MK %s)
+GT5U.nei.stages=阶段：
+GT5U.nei.fuel=燃料热值：%s EU
 
 GT5U.config.colormodulation=颜色调制器
 GT5U.config.colormodulation.cable_insulation=线缆绝缘材料
@@ -499,6 +562,7 @@ GT5U.config.nei.RecipeOwner=显示合成表所属模组
 GT5U.config.nei.RecipeOwnerStackTrace=[debug]显示合成表添加的堆栈追踪(stack traces)
 GT5U.config.nei.RecipeOwnerStackTrace.tooltip=[需要重启]
 GT5U.config.nei.OriginalVoltage=超频时显示原始电压
+GT5U.config.nei.recipe_categories=合成表类别
 GT5U.config.waila=Waila
 GT5U.config.waila.WailaTransformerVoltageTier=显示变压器的电压等级
 GT5U.config.waila.WailaAverageNS=在waila中显示多方块消耗的平均ns数
@@ -511,7 +575,10 @@ GT5U.interface.coverTabs.south=南
 GT5U.interface.coverTabs.west=西
 GT5U.interface.coverTabs.east=东
 
-# NEI
+GT5U.steam_variant.bronze=青铜
+GT5U.steam_variant.steel=钢
+
+# NEI options
 nei.options.tools.dump.gt5u=GT5u
 nei.options.tools.dump.gt5u.metatileentity=元方块实体
 nei.options.tools.dump.gt5u.metatileentitys=MetaTileEntities
@@ -539,6 +606,10 @@ GT5U.waila.energy.use=可能耗电：§e%s§r EU/t (%s)
 GT5U.waila.energy.use_with_amperage=可能使用：§e%s§r EU/t (%sA %s)
 GT5U.waila.energy.produce=可能发电：§a%s§r EU/t (%s)
 GT5U.waila.energy.produce_with_amperage=可能发电：§a%s§r EU/t (%sA %s)
+GT5U.waila.stocking_bus.auto_pull.enabled=自动拉取模式：启用
+GT5U.waila.stocking_bus.auto_pull.disabled=自动拉取模式：关闭
+GT5U.waila.stocking_bus.min_stack_size=最小堆叠数量：%s
+GT5U.waila.stocking_hatch.min_amount=最小数量：%s
 
 achievement.flintpick=第一把工具
 achievement.flintpick.desc=制造一把燧石镐
@@ -1356,7 +1427,6 @@ gt.solar.system.nereid=海卫二
 gt.solar.system.mercury=水星
 gt.solar.system.titan=土卫六
 gt.solar.system.phobos=火卫一
-gt.specialvalue.stages=阶段:
 
 gt.multiBlock.controller.cokeOven=焦炉
 
@@ -1377,3 +1447,16 @@ gt.item.adv_sensor_card.tooltip.frequency=频率：§b%s
 gt.item.adv_sensor_card.error.deconstructed.1=-错误- 机器已被拆解
 gt.item.adv_sensor_card.error.deconstructed.2=重新放置机器即可再次生效
 gt.item.adv_sensor_card.error.no_data=找不到数据
+
+gt.cover.info.format.tick_rate=§b%s§r %s
+gt.cover.info.chat.tick_rate=覆盖板运行tick间隔设置为 %s
+gt.cover.info.chat.tick_rate_not_allowed=此类型覆盖板无法使用气锤调整运行tick间隔
+gt.cover.info.button.tick_rate.1=当前运行tick间隔：%s%s
+gt.cover.info.button.tick_rate.2=左键点击增加，右键点击降低
+gt.cover.info.button.tick_rate.3=按住Ctrl点击一次调整更大幅度
+gt.cover.info.button.bounds_notification.minimum=§7 (最小)§r
+gt.cover.info.button.bounds_notification.maximum=§7 (最大)§r
+gt.time.tick.singular=t
+gt.time.tick.plural=t
+gt.time.second.singular=秒
+gt.time.second.plural=秒

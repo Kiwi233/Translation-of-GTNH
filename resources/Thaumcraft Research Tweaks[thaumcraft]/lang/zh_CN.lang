@@ -10,6 +10,11 @@ tc.research_page.RESEARCH.8=§l   §n(3)基础研究§r<IMG>thaumcraft:textures/
 tc.research_page.RESEARCH.9=若你能看到其名称(而非只是些怪异的符文),那你就可以点击它们,消耗掉一些物品栏中的纸张和墨水,获得一份研究笔记.现在将这份研究笔记放入研究台的§l2§r号格子即可开始研究.<BR>§l4§r号区域会显示出一张纸卷,上面排满了外缘绘有要素图标的六边形格子.若你看到的是问号图标,说明你尚不了解这种要素,需要先进行学习.<LINE>
 tc.research_page.RESEARCH.10=要完成你的研究,只需链接并激活全部要素.为此,你需要将要素写入六边形格子中,并使其要么与能融合成它的要素相连,要么与其能与其他要素融合成的要素相连.至于怎么将要素写入六边形,你可以像之前一样左键拖拽要素,到六边形上方,松开左键放下;也可以通过右键保持拖拽放下要素.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:80:.65</IMG>放置要素会消耗一个研究点.若出现了错误,可以点击要素以移除它,但这不会让你取回付出的研究点.
 
+# Hint button on the table
+researchtable.usagehint.header=使用指南
+researchtable.usagehint.description=拖动要素并松开鼠标, 或拖动要素并右键点击格子以绘制和连接要素
+researchtable.usagehint.research_expertise=在融合要素时按住Ctrl以一次合成10点要素(需要研究精通)
+
 # In case notes get corrupted
 tc.research.notes.corrupted.line.1=笔记损坏了!
 tc.research.notes.corrupted.line.2=试着从头开始吧.

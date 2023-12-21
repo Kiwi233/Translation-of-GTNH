@@ -17,9 +17,15 @@ mobsinfo.mobhandler.average_reminder=§7§o注意，这些是平均期望掉落
 mobsinfo.mobhandler.lootable=抢夺附魔有效
 mobsinfo.mobhandler.player_only=§7仅限非伪玩家击杀时掉落
 mobsinfo.mobhandler.peaceful_allowed=支持和平模式
-mobsinfo.mobhandler.locked_1=为了解锁更多信息,
-mobsinfo.mobhandler.locked_2=你必须击杀该怪物!
+mobsinfo.mobhandler.locked=为了解锁更多信息,
+mobsinfo.mobhandler.locked_1=你必须杀死怪物!
 mobsinfo.mobhandler.unlocked=§6你已经解锁了新的怪物信息!
+mobsinfo.mobhandler.extended_info=请注意掉落概率基于
+mobsinfo.mobhandler.extended_info_1=所有情况的平均值
+mobsinfo.mobhandler.extended_info_2=因而100%概率并不代表始终掉落
+mobsinfo.mobhandler.extended_info_3=例如，这可能意味着
+mobsinfo.mobhandler.extended_info_4=有相同的概率掉落0，1或2个此物品
+mobsinfo.mobhandler.extended_info_5=因为平均每次掉落为1个（100%）。
 
 mobsinfo.mobhandlerinfernal.title=精英怪 - 掉落表
 mobsinfo.mobhandlerinfernal.format=格式：
@@ -64,6 +70,9 @@ mobsinfo.extras.witchery_vampire_book=仅在玩家拥有吸血鬼之书时掉落
 mobsinfo.extras.witchery_warewolf=仅在被狼人击杀时掉落
 mobsinfo.extras.bloodmagic_demon_shards=仅在通过恶魔传送站生成或使用献祭刀击杀时掉落
 mobsinfo.extras.bloodmagic_demon_placer=仅在不通过恶魔传送站生成或不使用献祭刀击杀时掉落
+mobsinfo.extras.etfuturum_powered_creeper=仅当被闪电苦力怕杀死时掉落
+mobsinfo.extras.etfuturum_wither_rose=仅当被凋灵杀死时掉落或放置*
+mobsinfo.extras.etfuturum_wither_rose_1=*若可能，放置于该生物所处的地面上
 
 
 #Commands
