@@ -2709,6 +2709,14 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.desc=这个阶段有两件大事
 betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.name=钍-232?
 betterquesting.quest.nNTmwkdsQgyE6QAfmIwcvg.desc=所以你正在查看钍 232，并想知道如何制造它? %n%n你可以用很长的配方以可怕的几率将其离心, 但有更好的方法来获得它. %n%n更好的方法是通过三个不同的处理路径进行合成, 第三条路径在未来使用中子活化器获得聚变后的阶段解锁. ％n％n第一条路径需要你可能还不熟悉的化工厂, 但它很快会变得必要以制造用于三级或更高级别的火箭的火箭燃料.此路径是最快的, 只需两个步骤即可获得钍-232,但需要硼砂,而硼砂只能(目前)通过开采盐矿脉得到的副产物或通过蜜蜂获得(如果你已经有了,可能是更好的选择)%n%n第二条路径是六步处理链, 需要化学反应釜, 离心机和电力高炉.尽管处理过程更长,但它提供了更好的转化率(75%%,而不是化工厂的25%%),相比于硼砂,它需要硝酸(如果考虑到回收，4000L硝酸/粉)和100L氟/粉.%n%n无论哪种方式, 我都会建议使用AE2FC, 因为它支持按需进行流体合成, 这将有助于两个处理链. %n
 
+# Quest: Getting Samarium in LuV
+betterquesting.quest.tu5Lk_jKQR-qgTYD1o3sLg.name=§b§l在LuV阶段获取钐
+betterquesting.quest.tu5Lk_jKQR-qgTYD1o3sLg.desc=如果你搞定了ZPM能源（或者LuV能源仓双仓升压），这个方法应该会更好。%n%n熔融氯化钐，再用镧在蒸馏塔中还原氯化钐。然后电解回收氯化镧。
+
+# Quest: More Samarium !
+betterquesting.quest.u_-8t2IvRnydvmUx_qdYuA.name=§b§l更多钐 !
+betterquesting.quest.u_-8t2IvRnydvmUx_qdYuA.desc=如果你搞到了稳定的钐矿来源，精处理这些钐矿资源应该是获取钐的最好方式。%n%n第一步先准备钐精粉或粉碎钐矿石（现在你应该还得不到钐矿石），用在煮解池里硝酸煮溶这些矿资源，得到钐稀土浊溶液。钍和磷则以固体渣粉的形式保留下来。%n%n然后转移到溶解罐中继续用硝酸浸泡，将不溶的粉末仔细过滤出来，主要是铈。%n%n然后加水调节pH值。
+
 # Quest: Tier 5 (IV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.name=§1§b§l§1§2§3§4§5§4§6§7§8§9§a§b§c§d§e§c§b§l第5阶段(IV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.desc=在IV阶段,你需要钨钢制造机器. 你应该造访火星和它的卫星:火卫一和火卫二.%n%n记得将你的工业高炉线圈升级为钛铂钒线圈.%n%n到目前为止你应该已经精通了格雷科技,前提是如果你还没有清理过格雷机器在你家里留下的大坑...%n%n好多GT++多方块结构在这个阶段都已经陆续解锁.记得先准备一台合金冶炼炉,并检查GT++任务页.
@@ -3185,6 +3193,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMDw.desc=你必然还会挖到不少钐�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.name=§b§l最后,钐!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.desc=(以及钆)%n%n简单吧?别担心,还有氟碳镧铈处理线等着你呢,应该能满足你对复杂产线的渴望吧!%n%n钐可用于满足你从LuV到UHV不断增长的磁化钐棒需求,而钆则在遥远的游戏后期用于制造强大的压缩聚变反应堆.
 
+# Quest: Getting Samarium in IV
+betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.name=§b§l在IV阶段获取钐
+betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.desc=将氯化钐粉与氯化钠粉混合在一起，交给电解机处理，就可以分离出钐了。%n%n钠和氯都可以完整回收。%n%n这里仍然有一些无法分离的东西，可能以后会有用吧。
+
 # Quest: Supersized Buses
 betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=超大型总线
 betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=输入和输出总线不够用?%n%n将总线升级到超级总线,享受更多槽位.
@@ -3196,6 +3208,10 @@ betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.desc=所以你选择了明智的两�
 # Quest: Intradimensional Input buses
 betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.name=一个维度，一套输入总线
 betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.desc=这个特殊的输入总线十分的珍贵，在一个维度内，所有同一个频道的共享输入总线共同交互同一个内容物空间。%n%n多方块机器籍此可以共享同一套物品输入系统。%n%n手持闪存左键共享输入总线可以复制其配置，右键粘贴。%n
+
+# Quest: Concentrated Samarium
+betterquesting.quest.ZXyJX8zNTQW6swu0OsE03Q.name=§b§l浓缩钐
+betterquesting.quest.ZXyJX8zNTQW6swu0OsE03Q.desc=用草酸将钐离子沉淀下来。然后用氢氯酸洗涤草酸钐，得到氯化钐（不纯）。这氯化钐粉便是提取钐的基础材料了。%n%n从材料里分离钐这儿有两种方法，一种适用当前IV阶段，一种稍后在LuV阶段解锁。
 
 # Quest: Wait are you sure?
 betterquesting.quest.fvz-5lJaRAqfsM1hcAYOng.name=等下你确定?
@@ -3656,6 +3672,22 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.desc=在你的帮助下,我终于创
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAALQ.name=第8阶-极限压(UV)
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAALQ.desc=极限压! 这是原版GT的最高电圧,但这里是GTNH,让我们冲破苍穹,超越极限! 你已经到达了绝大多数玩家无法到达的阶段. 欢迎来到游戏末期!
 
+# Quest: Nano Resin - Particle Extractors
+betterquesting.quest.gKMT2pblSg69VL5tAtlfxA.name=纳米树脂 - 粒子收集者
+betterquesting.quest.gKMT2pblSg69VL5tAtlfxA.desc=将纳米蜂群分布在P-507中然后在激光蚀刻机的高能激光环境中为其标记目标粒子信息，我们就得到了萃取用基元，称之为 "纳米树脂"。%n%n这些纳米蜂群会自动收集溶液中的目标粒子并将其储存在树脂当中。值得注意的是实际生产速度将会受纳米蜂群数量的限制，所以如果你想用这种方法大规模生产镧系资源，你需要准备更多的纳米树脂。%n%n这里是所有的十五种萃取用纳米树脂。
+
+# Quest: Use Nano Tech to produce Lanthanides
+betterquesting.quest.rdpQZW1YQ92vgnjgHVW8Jg.name=纳米科技加持镧系生产
+betterquesting.quest.rdpQZW1YQ92vgnjgHVW8Jg.desc=解锁碳纳米蜂群之后，我们就可以用它来大量提取需要的镧系资源。%n%n当然你最好做好心理准备，在得到纳米锻炉之前，这很贵的！
+
+# Quest: Synthetic Crystal
+betterquesting.quest.w4JcJ33CSWGlsKrmyHxnXA.name=人造晶体
+betterquesting.quest.w4JcJ33CSWGlsKrmyHxnXA.desc=用镥铝石榴石制作晶体SoC要比用晶体芯片直接刻蚀快太多太多了！何况还可以直接蚀刻成先进晶体芯片原料。%n%n记得留一些镥铝石榴石宝石用于晶体生长的生产。
+
+# Quest: Advanced Crystal SoC Production
+betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.name=晶体SoC的进阶生产方法
+betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.desc=我们可以通过在激光蚀刻机中再蚀刻一遍晶体芯片来获得晶体SoC。随着电路板需求日益增长，这种方法也显得力不从心了。有没有什么更先进的方法能够批量生产晶体SoC？%n%n这里有一种新材料：掺铈镥铝石榴石 (Ce:LuAG)%n镥铝石榴石在制作晶体SoC方面有着更好的性能表现。(实际上LuAG是一种激光材料) 如果你需要更快的生产晶体SoC的速度，用镥铝石榴石应该是一个不错的主意。%n%n第一步将镥、铝、氧和一点铈搅拌混合得到"混合物"，然后将混合物和熔融镥一并放入高压釜中，得到第一颗镥铝石榴石宝石。如果你已经获得了气奥你也可以直接用气奥。然后用镥铝石榴石宝石和镥铝氧混合物在高压釜中继续生产得到精致的镥铝石榴石。%n%n搞定第一颗宝石后，你当然可以继续用高压釜进行晶体生长生产。不过，用真空炉生产精致镥铝石榴石应该是一个更好的选择。当然，取决于你的喜好。%n%n镥啊，镥，需要一大堆的镥。你怎么获取这一大堆镥呢？钍裂变或许有点过时了。看看 §6Bee§r养的？或者镧系纳米萃取科技？
+
 # Quest: Upgrading the Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.name=聚变反应堆MK3-升级
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.desc=MK2型反应堆虽然很好,但是既然可以将反应堆的功率继续提升,那我们为什么不继续升级？%n%nMK3型反应堆将会使所有配方的功率增加一倍,同时处理时间减半.%n%n你需要将所有的输入/输出仓都升级到不低于UV级,同时将聚变机械方块升级到聚变机械方块MK-II. MK3型反应堆可以完成几乎所有的聚变配方(启动电量小于640M-EU). 每个能源仓可输入32768EU/t的持续电流用于聚变反应堆工作,而UV能源仓本身能够接收高达2A的电流和低于524288EU/t的持续供电而不会爆炸.
@@ -3799,6 +3831,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0g.desc=凯夫拉可以用于部分高�
 # Quest: Space Elevator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.name=太空电梯
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0w.desc=太空电梯是一个模块化结构.它可以安装不同的太空电梯模块,以承担如挖矿/抽取流体/组装等不同的任务.%n%n开始时,你的太空电梯将拥有6个模块插槽.通过升级结构中的加速轨道方块,加速轨道Mk-III将使你的太空电梯支持12个模块插槽,加速轨道Mk-V将扩展太空电梯至24个模块插槽.加速轨道方块的等级也将影响能使用的太空电梯模块的最高等级.模块之间不共享I/O,即每个模块的界面中只能看到自己的I/O插槽.为了启动太空电梯,你只需要为其中央结构供能,能量将自动分配给所有已插入的模块.%n%n插入模块并为其提供正确的I/O后,可以使用参数对其进行进一步配置.%n%n你可以在NEI查看哪些流体可以通过太空钻机模块抽取.它在工作时将消耗1A-UHV.气体类型和行星类型是你需要调节的参数.%n%n在NEI中还可以查看太空采矿模块可以获得的所有矿石.部署无人机,安装目标矿物所需要的钻头和连杆,并提供算力支持以及氦、铋或氡等离子体.提供更高等级的等离子体会加速配方和并增加从配方中获得的额外堆叠数量.通过调整参数,你可以设置并行数量,过载和距离.当无人机钻头配置与你设置的参数同时满足多个配方时,模块将进行考虑权重的随机选择,你可以在NEI中查看配方权重.%n%n太空电梯还可以让你前往其他星球,但这是单程票,千万注意!%n%n采矿模块还有循环模式.在静态模式下,它将保持你设定好的距离.而在循环模式下,它将在每次配方检查后更改其距离(你可以配置允许的距离范围和每次改变的步长).%n%n§3可以通过控制器访问传送功能.
+
+# Quest: Extract what you want
+betterquesting.quest.LzCq9t0cT4-_TizIr_Iq_A.name=提取你想要的
+betterquesting.quest.LzCq9t0cT4-_TizIr_Iq_A.desc=直接在煮解池中将镧系矿石氯化溶解得到对应矿石的浓缩液。然后用对应的萃取用纳米树脂提取溶液中的主要材料，剩下的（氯化稀土浓缩液）中有用的镧系元素仍然非常富集。%n%n你可以用任何种类的萃取纳米树脂来提取余下溶液中有用的部分。用什么纳米树脂，就能得到什么镧系材料。每桶氯化稀土浓缩液可以进行三次这种萃取。第一次浓缩液处理成富集液，然后富集液处理成稀释液，最后得到废液。%n%n在萃取过后，纳米树脂会变成 "满溢的" 状态。将这些"满溢的"纳米树脂放入电解机，纳米蜂群会在电场的影响下将树脂中存储的"粒子"转移出来。然后你可以得到纳米树脂并将他们投入到下一轮工作当中，一遍又一遍循环往复，且没有休息时间。%n%n是的，稀土，不再稀有。赞美纳米科技！
 
 
 ## Quest Line: Tier 9 - UHV
@@ -8623,6 +8659,10 @@ betterquesting.quest.dSSmDusvSVSKi41Tnw51dA.desc=每个系统都需要能源.物
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIw.name=应用能源
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIw.desc=AE2的重点是如何建立一个紧凑、方便、可无限扩展的,被我们称之为ME网络的超级存储系统. 它同样能实现各种自动化,如果你的目标是毕业的话,AE是必不可少的.
 
+# Quest: 16384k Essentia Storage Cell
+betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.name=16384k-ME源质存储元件
+betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.desc="它们"可以存储 33,554,432 点源质。%n%n以及60个种类。
+
 # Quest: ...with Fluid Support!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.name=§6§l...已加入流体支持!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.desc=现已加入流体支持!
@@ -8631,13 +8671,33 @@ betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.desc=现已加入流体支持!
 betterquesting.quest.muXTNgpiRE6RZI_x7GW62w.name=魔导源质存储元件
 betterquesting.quest.muXTNgpiRE6RZI_x7GW62w.desc=捏好这个§5魔导源质存储元件§r, 你的魔法黑卡. 缺源质? 只要有了这玩意, 你就会像进了药剂店的巫师一样沉迷于此! 试试抽干这无尽之泉吧 — 您真别说, 这简直就是想在一美元店里花光比尔盖茨的全部财产!
 
+# Quest: 256k Essentia Storage Cell
+betterquesting.quest.s2TL3i06Tb2WvPvdt1utyg.name=256k-ME源质存储元件
+betterquesting.quest.s2TL3i06Tb2WvPvdt1utyg.desc="它们"可以存储 524,288 点源质。%n%n以及24个种类。
+
+# Quest: 1024k Essentia Storage Cell
+betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.name=1024k-ME源质存储元件
+betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.desc="它们"可以存储 2,097,152 点源质。%n%n以及36个种类。
+
 # Quest: Fluid Quantum Storage
 betterquesting.quest.ylmHogskS-Kdhs9gFrCYmA.name=量子流体存储
 betterquesting.quest.ylmHogskS-Kdhs9gFrCYmA.desc=你在抽干海洋？
 
+# Quest: Essentia Quantum Storage
+betterquesting.quest.y9mYyyz4Qg6iGOYILdKA1A.name=量子源质存储
+betterquesting.quest.y9mYyyz4Qg6iGOYILdKA1A.desc=看起来你是真想在源质里游泳。
+
+# Quest: Need More Information?
+betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.name=需要更多信息？
+betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.desc=为你准备了一个全新的工具，我的老伙计。%n%n这个小玩意有着比它普通版本更大的卡槽位置，还能显示更详细的网络存储相关信息。%n%n在GUI内点击左侧存储组件图标可以在"物品""流体"和"源质"之间切换展示相关信息。%n%n§4NOTE:%n|  unit  |      range   |%n|    B   |    0~2^10   |%n|   KB   | 2^10~2^20 |%n|   MB   | 2^20~2^30 |%n|   GB   | 2^30~2^40 |%n|   TB   | 2^40~2^50 |%n|   PB   | 2^50~2^60 |%n|   EB   | 2^60~2^70 |%n|   ZB   | 2^70~2^80 |%n|   YB   | 2^80~2^90 |%n|   BB   | over 2^90  |§r
+
 # Quest: 16384k Fluid Component
 betterquesting.quest.5PUj-2T3QZOIq4a33qGXlA.name=16384K-ME流体存储组件
 betterquesting.quest.5PUj-2T3QZOIq4a33qGXlA.desc=最后一个(到目前为止)
+
+# Quest: 1024k Essentia Component
+betterquesting.quest.-IWmYEgKSGi0M7rtP59zaw.name=1024k-ME源质存储元件
+betterquesting.quest.-IWmYEgKSGi0M7rtP59zaw.desc=与1k容量的其它存储元件一样.
 
 # Quest: Ultimate Parallelization...
 betterquesting.quest._bEWg1FHSmKu9MNhlbDlwA.name=§6§l终极并行...
@@ -9235,13 +9295,33 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=输入/输出总线(ME)是一�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.name=AE2流体合成(AE2FC)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.desc=流体合成已经直接集成到了你的ME网络.这怎么可能!%n%n多亏了AE2FC,一个为了GTNH而从高版本移植的、强大的AE2附属mod.%n%n现在,需要什么才能让这个美妙的玩意运作呢?%n每个ME系统都需要一个ME流体离散器,它支持按需合成.虽然没有流体离散器,你也可以使用AE2FC转运流体;但它是自动合成必需的.%n%n然后你还需要一个ME流体样板终端或是ME增广流体样板终端,后者用于装配线.%n%n书写样板时,你会注意到流体放置的样式就如同物品一样.%n完成书写的样板看着是蓝色的.将其放置在ME二合一接口中,能使AE2"同时"发送流体和物品.注意,"同时"是说"两者都会",而在先后顺序上,AE2会先发送流体,再发送物品.%n如果想将流体储存在二合一接口中,你可以点击GUI右上角以切换设置界面.%n%n如果你在普通接口界面中使用蓝色样板(流体样板),AE2会以流体包的形式发送流体.这只是用物品的形式来代表流体.ME流体封包解码器可以将其变回流体,并储存在流体槽中.%n%n你可以使用一个原材料缓存仓(大型或是普通的),这样你由样板发送的物品和流体就都能存储在一个方块内部了.普通的原材料缓存仓可以存储9组物品和4种流体,大型的则是27组物品和7种流体.你可以使用它同物品和流体导管实现自动化,但不一定要这样做.%n%n如果你想自动化单方块机器,那就如同节食期间吃巧克力蛋糕一样简单:%n书写样板,制造一个二合一接口,当当当当--完成!它会自动把流体塞到单方块机器的流体格子里.%n%n即使是像装配线这样更困难的事情,在这些工具的帮助下自动化也变得容易多了%n%n如果你需要更详细的信息,请访问Wiki:%n%n§9§n[url]https://wiki.gtnewhorizons.com/wiki/AE2FC[/url]§r%n%n§3更多存储单元2(ExtraCells2)mod现在已经被移除了.任何旧的元件和单元都已经尽可能地被转换为AE2和AE2FC的元件和单元了.
 
+# Quest: 4096k Essentia Storage Cell
+betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k-ME源质存储元件
+betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.desc="它们"可以存储 8,388,608 点源质。%n%n以及48个种类。
+
+# Quest: 16384k Essentia Component
+betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.name=16384k-ME源质存储组件
+betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.desc=与1k容量的其它存储元件一样.
+
 # Quest: 16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.name=16384k-ME流体存储元件
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.desc=它能存储超过32GL的流体.
 
+# Quest: And Another Digital Singularity
+betterquesting.quest.O0tN--UDTlCbt5ufLodVqA.name=以及又一个数字奇点
+betterquesting.quest.O0tN--UDTlCbt5ufLodVqA.desc=啊？你真需要这个吗？
+
 # Quest: Another Digital Singularity
 betterquesting.quest.QF-_KNlHSnObOPmrJptkwQ.name=又一个数字奇点
 betterquesting.quest.QF-_KNlHSnObOPmrJptkwQ.desc=可能这时候你已经把他们榨干了%n%n§3...你有听说过YOT储罐吗？
+
+# Quest: 4096k Essentia Component
+betterquesting.quest.QHyLarPvSnCb30EbaBQdaw.name=4096k-ME源质存储组件
+betterquesting.quest.QHyLarPvSnCb30EbaBQdaw.desc=与1k容量的其它存储元件一样.
+
+# Quest: 256k Essentia Component
+betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.name=256k-ME源质存储组件
+betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.desc=与1k容量的其它存储元件一样.
 
 
 ## Quest Line: How to Be(e)
