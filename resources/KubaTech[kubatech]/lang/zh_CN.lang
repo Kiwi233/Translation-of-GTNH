@@ -1,6 +1,10 @@
 #This file is a translation file for KubaTech
 
+#RecipeMaps
+kubatech.defusioncrafter=龙研聚合装置
+
 #NEI
+kubatech.defusioncrafter.tier=外壳等级: %s
 kubatech.mobhandler.eec_chance=§5在工业屠宰场内掉落的几率: %.2f%%
 kubatech.mobhandler.eec_disabled=§5不会在工业屠宰场内掉落
 
@@ -22,14 +26,31 @@ kubatech.command.tea.success_set=玩家 %s 现在有%d杯茶
 kubatech.command.tea.success_add=玩家 %s 现在有%d杯茶
 kubatech.command.tea.usage=<玩家> get/set/add (<数量>)
 
+#GUI
+GT5U.gui.text.EEC_nospawner=未放入电动刷怪笼！
+GT5U.gui.text.EEC_invalidspawner=无效的刷怪笼！
+GT5U.gui.text.EEC_peaceful=此生物无法在和平模式生成！
+GT5U.gui.text.MegaApiary_slotoverflow=内部蜜蜂数量过多！
+GT5U.gui.text.MegaApiary_noflowers=没有花！
+GT5U.gui.text.EIG_slotoverflow=内部作物数量过多！
+GT5U.gui.text.EIG_missingwater=没有水!
+GT5U.gui.text.EIG_ic2glass=玻璃等级不足!
 
 #Blocks
 kubablock.tea_acceptor.name=§4§l茶接收器
 kubablock.tea_storage.name=§4§l茶叶存储扩展器
 
+#DEFC Casings
+defc.casing.tip=龙研聚合装置外壳 T %d
+
 #Items
 kubaitem.fromcollection=此物品来自
 kubaitem.notyours=那东西好像不是你的
+kubaitem.defc_schematic_t1.name=龙之核心图纸
+kubaitem.defc_schematic_t1.tip=可以在冥王星地牢找到这个图纸
+kubaitem.defc_schematic_t2.name=双足飞龙核心图纸
+kubaitem.defc_schematic_t3.name=觉醒核心图纸
+kubaitem.defc_schematic_t4.name=混沌核心图纸
 
 #Tea
 kubaitem.tea.black_tea.name=红茶

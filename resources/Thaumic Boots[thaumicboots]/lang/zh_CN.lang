@@ -1,0 +1,101 @@
+language.name=中文
+language.region=CN
+language.code=zh_CN
+
+# Miscellaneous strings
+# -- Updater strings. Please try to keep these to one line if possible.
+thaumicinsurgence.versioning.newVersion=有新版本神秘革命可用: %s
+thaumicinsurgence.versioning.critical=魔法蜜蜂有一个关键更新：%s - 请更新！
+thaumicinsurgence.versioning.clickDownload=点击打开下载页面. 悬停获取更新信息.
+thaumicinsurgence.config.category.general=常规
+thaumicinsurgence.config.category.general.tooltip=模组常规设置
+thaumicinsurgence.config.category.debug=Debug
+thaumicinsurgence.config.category.debug.tooltip=是否启用调试和(或)信息消息
+thaumicinsurgence.config.category.modules=模块
+thaumicinsurgence.config.category.modules.tooltip=是否启用集成
+tc.research_category.THAUMICINSURGENCE=神秘革命
+
+
+item.ItemPactRing.name=誓约之戒
+
+unintelligbleLaughter=我曾经什么也不是,只是个发电子邮件的家伙,现在我是[[燒起來了!哦!停下來!幫我!燒起來了!]]家伙!                                                [[對這個驚人的轉變感到驚訝?你也可以]]只要與[[無法理解的笑聲]]有一個[[交流]]
+
+tc.research_name.TI_DeliciousKromer=[[時髦的]]小[[蠕蟲]]
+tc.research_text.TI_DeliciousKromer=在这[一次购买]后,你将会[后悔]一辈子!
+
+#Tools
+item.ItemArcaniumInterfacer.name=奥法棱镜
+
+#Items
+item.ItemElectricMeteor.name=电子流星之靴
+item.ItemNanoMeteor.name=纳米流星之靴
+item.ItemQuantumMeteor.name=量子流星之靴
+
+item.ItemElectricComet.name=电子彗星之靴
+item.ItemNanoComet.name=纳米彗星之靴
+item.ItemQuantumComet.name=量子彗星之靴
+
+item.ItemElectricVoid.name=电子虚空旅行者之靴
+item.ItemNanoVoid.name=纳米虚空旅行者之靴
+item.ItemQuantumVoid.name=量子虚空旅行者之靴
+
+item.ItemVoidComet.name=邪术彗星之靴
+item.ItemVoidMeteor.name=流星之虚空旅行者之靴
+
+item.ItemMeteoricComet.name=流星之彗星之靴
+item.ItemCometMeteor.name=冰流星之靴
+
+item.ItemPurpleVoidwalkerBoots.name=紫霾之靴
+
+item.ItemSeasonBoots.name=四季之靴
+item.ItemChristmasBoots.name=圣诞精灵之靴
+
+#Research things
+tc.research_category.THAUMICBOOTS=神秘之靴
+tc.research_name.TB_Core_Research=神秘鞋匠
+tc.research_text.TB_Core_Research=神秘使的奥术组合学入门
+tc.research_name.TB_Tainted_Core=虚空之术法
+tc.research_text.TB_Tainted_Core=人类心灵中的虚空之神秘
+tc.research_name.TB_Explorations_Core=天体之术法
+tc.research_text.TB_Explorations_Core=神秘使的星系入门
+tc.research_name.TB_EMT_Core=人造之术法
+tc.research_text.TB_EMT_Core=电力魔法工具的神秘学应用
+tc.research_name.TB_Explorations_Compat=结合天体之术法
+tc.research_text.TB_Explorations_Compat=天体相互作用的进阶理论
+
+tc.research_name.TB_EMT_Tainted_Compat=人造与虚空之术法
+tc.research_text.TB_EMT_Tainted_Compat=电力魔法于虚空术法中之应用
+tc.research_name.TB_Explorations_Tainted_Compat=邪术天体
+tc.research_text.TB_Explorations_Tainted_Compat=发现虚空中之天体
+tc.research_name.TB_Explorations_EMT_Compat=人造与天体之术法
+tc.research_text.TB_Explorations_EMT_Compat=电力魔法于天体之术法中之应用
+tc.research_name.TB_Seasonal_Boots=季节之术法
+tc.research_text.TB_Seasonal_Boots=圣诞之灵与其余诸术法现象
+tc.research_name.TB_Seasonal_Stabilized=稳定的季节之术法
+tc.research_text.TB_Seasonal_Stabilized=季节之术法的稳定化
+
+#Actual Researches
+Core.1=你在研究中发现了一些...独特的东西.于此,你发现你能在某种程度上将不同的术法能量加以结合而产生一些...<BR><BR>独特的产物.<BR><BR>一种新形式的能量,甚至比它的组成部分单纯相加还要更加强大.<BR><BR>你好奇它能否应用于其他的地方.
+ExplorationsCore.1=遍览群星,碾入深空,星体们回应了你的赤诚:"彗星"与"流星"之技艺.<BR><BR>这竟是有关靴子的原初魔法,群星也了解有关足具的秘法吗?<BR><BR>似乎,还有更多的回声没有被揭秘...
+TaintedCore.1=虚空相关研究和心灵相关研究交织出了奇异的新特性,以前从未见过.<BR><BR>这前所未有的速度,甚至是在飞行时,虚空的能浪助你畅游云霄,甚至大幅提升了你对自然vis的引导能力.<BR><BR>远不止此,还远不止此...
+EMTCore.1=最近,你众多发现中......有意思的:一种看似平凡的能量,些许像闪电.<BR><BR>然而更深入的研究表明,它并不像想象的那样平凡!<BR><BR>相反,这种新的 "电" 似乎与自然中的vis能量本质上非常相似,但,又有点,不太一样,这是人造的.
+EMTCore.2=在这个过程中,你发现你能够创造出一双靴子奔跑在"电能"之上而非其原始奥能,充能过载的能力更是叹为观止,你还能进一步改进靴子的设计.<BR><BR>思索一下这种新能源还能应用于哪些领域......
+ExplorationsTainted.1=有关虚空的研究,你得到了独特的见解:虚空本身就是天体.<BR><BR>这个发现确实奇特.你开始好奇,其中是否蕴含与平凡位面类似的魔法能量,果然你发现了神奇的东西!与通俗的天体相似,虚空同样蕴含着原初魔法的特性;有一点不同:无法直接利用.<BR><BR>然而,通过合并虚空能量和宇宙能量,你又制作出两套靴子.保持怀疑,可能性是否可能会比你的想象力更丰富?
+ExplorationsCompat.1=在你对群星的研究之中,你发现了两种不同形式的天体能量,彗星之力和流星之力.然而,自从你发现了那种神秘粘合剂,你便想知道有没有办法将这两者能量结合起来...<BR><BR>嘿,还真行!从结果上来看,这两种不同的能量实际上惊人地相似.<BR><BR>这个结果或许还能推进得更深...
+EMTTainted.1=当你继续研究电力时,你注意到了一些有趣的事情,就像那些普通的魔法能量一样,电力也能和其他能量结合到一起.然而,有一条限制:它并不是直接与其他能量混合,而是将天然能量转化为人造形式.<BR><BR>在你将这一发现应用于虚空能量时,你发现它不仅可以靠电力来运行,而且同样地,它们既可以通过电力过载也可以通过虚空能量强化.<BR><BR>一个相当有趣的新发现...
+ExplorationsEMT.1=当你继续研究电力时,你注意到了一些有趣的事情,就像那些普通的魔法能量一样,电力也能和其他能量结合到一起.然而,有一条限制:它并不是直接与其他能量混合,而是将天然能量转化为人造形式.<BR><BR>在你将这一发现应用于天体能量时,你发现它不仅可以靠电力来运行,而且还可以进行过载来强化它们的自然能力.<BR><BR>一个相当有趣的新发现...
+SeasonalCore.1=当你研究术法现象时,你发现了一些奇怪的东西:在太阳历的某些部分,术法能量会出现爆发.<BR><BR>已经发现这些爆发会导致各种转变,例如把箱子变成礼物盒,以及在爆发结束后变回去.有趣的是,你成功地捕获了这种混沌的能量.<BR><BR>不过你还是好奇有没有办法将这些能量稳定下来...
+SeasonalStabilized.1=随着你关于季节性术法现象的研究深入,你发现了一些有趣的东西:实际上有可能将这些能量调谐到一种特定的现象,从而导致一种被高度放大了的季节效应...但有一个缺点:当相应的季节结束后,效应会减弱到难以置信的地步.<BR><BR>你注意到的第一个这类效应是一种随着时间而显著提升持续冲刺速度,并且和彗星的术法类似地将水冻结的效应.<BR><BR>不过,我发誓我听到了雪橇铃铛在响...
+SeasonalStabilized.2=你认为你应该十二月再到这儿来...
+
+#Aspects
+tc.aspect.caelum=宙空
+tc.aspect.tabernus=靴子,穿越
+
+itemGroup.Thaumic Boots=神秘之靴
+
+keybinding.speedtoggle=调整速度增幅
+keybinding.jumptoggle=调整跳跃增幅
+
+thaumicboots.jumpEffect=跳跃提升:
+thaumicboots.speedEffect=速度提升:
