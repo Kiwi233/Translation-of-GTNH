@@ -28,14 +28,17 @@ jobs:
         with:
           path: repo
 
-      - name: Get Current Datetime
+      - name: Setup Datetime Related Envs
         shell: python
         run: |
           import os
           from datetime import datetime, timezone, timedelta
+          local_date = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+          local_time = datetime.now(timezone(timedelta(hours=8))).strftime("%H:%M:%S")
           with open(os.environ['GITHUB_ENV'], 'a') as f:
-              print(f'NB_LOCAL_DATE={datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")}', file=f)
-              print(f'NB_LOCAL_TIME={datetime.now(timezone(timedelta(hours=8))).strftime("%H:%M:%S")}', file=f)
+              print(f'NB_LOCAL_DATE={local_date}', file=f)
+              print(f'NB_LOCAL_TIME={local_time}', file=f)
+              print(f'NB_TAG=0-nightly-build/{local_date}', file=f)
 
       - name: ParaTranz To Quest Book
         run: >-
@@ -72,13 +75,13 @@ jobs:
           git checkout --orphan temp
           git reset HEAD -- .
           git commit --allow-empty -m "Nightly Build ${{ env.NB_LOCAL_DATE }} ${{ env.NB_LOCAL_TIME }}"
-          git tag nightly-build/${{ env.NB_LOCAL_DATE }}
-          git push --delete origin nightly-build/${{ env.NB_LOCAL_DATE }} || true
-          git push origin nightly-build/${{ env.NB_LOCAL_DATE }}
+          git tag ${{ env.NB_TAG }}
+          git push --delete origin ${{ env.NB_TAG }} || true
+          git push origin ${{ env.NB_TAG }}
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: nightly-build/${{ env.NB_LOCAL_DATE }}
+          tag_name: ${{ env.NB_TAG }}
           name: 每日构建 - ${{ env.NB_LOCAL_DATE }}
           body: |
             请阅读主页ReadMe以获知详细用法
