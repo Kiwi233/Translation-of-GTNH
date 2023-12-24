@@ -1,0 +1,88 @@
+name: Nightly Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 中国时间每天凌晨 2 点
+    - cron: '0 18 * * *'
+
+env:
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+  PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
+  GIT_AUTHOR: MuXiu1997 <muxiu1997@gmail.com>
+
+jobs:
+  nightly-build:
+    name: Nightly Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout MuXiu1997/GTNH-translation-compare
+        uses: actions/checkout@v3
+        with:
+          repository: MuXiu1997/GTNH-translation-compare
+          ref: main
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          path: repo
+
+      - name: Get Current Datetime
+        shell: python
+        run: |
+          import os
+          from datetime import datetime, timezone, timedelta
+          with open(os.environ['GITHUB_ENV'], 'a') as f:
+              print(f'NB_LOCAL_DATE={datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")}', file=f)
+              print(f'NB_LOCAL_TIME={datetime.now(timezone(timedelta(hours=8))).strftime("%H:%M:%S")}', file=f)
+
+      - name: ParaTranz To Quest Book
+        run: >-
+          poetry run python main.py action paratranz-to-quest-book
+          --repo-path='repo'
+      - name: ParaTranz To Lang And zs
+        run: >-
+          poetry run python main.py action paratranz-to-lang-and-zs
+          --repo-path='repo'
+      - name: ParaTranz To GT Lang
+        run: >-
+          poetry run python main.py action paratranz-to-gt-lang
+          --repo-path='repo'
+
+      - name: Ensure Temp Dir
+        run: mkdir -p temp
+      - name: Ensure Assets Dir
+        run: mkdir -p assets
+
+      - name: Pack
+        run: |
+          python repo/.github/scripts/pack.py
+          rm temp/GregTech_US.lang
+
+      - name: Zip
+        uses: edgarrc/action-7z@v1
+        with:
+          args: 7z a -t7z -mx=9 ./repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z ./temp/*
+      - name: Push tag
+        working-directory: repo
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git checkout --orphan temp
+          git reset HEAD -- .
+          git commit --allow-empty -m "Nightly Build ${{ env.NB_LOCAL_DATE }} ${{ env.NB_LOCAL_TIME }}"
+          git tag nightly-build/${{ env.NB_LOCAL_DATE }}
+          git push --delete origin nightly-build/${{ env.NB_LOCAL_DATE }} || true
+          git push origin nightly-build/${{ env.NB_LOCAL_DATE }}
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: nightly-build/${{ env.NB_LOCAL_DATE }}
+          name: 每日构建 - ${{ env.NB_LOCAL_DATE }}
+          body: |
+            请阅读主页ReadMe以获知详细用法
+            
+            自动构建于 ${{ env.NB_LOCAL_DATE }} ${{ env.NB_LOCAL_TIME }}
+          files: |
+            ./repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z
