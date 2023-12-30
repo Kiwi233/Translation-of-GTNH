@@ -10,6 +10,7 @@ env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
   GIT_AUTHOR: MuXiu1997 <muxiu1997@gmail.com>
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   nightly-build:
@@ -89,3 +90,40 @@ jobs:
             自动构建于 ${{ env.NB_LOCAL_DATE }} ${{ env.NB_LOCAL_TIME }}
           files: |
             ./repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z
+
+  cleanup-outdated-nightly-builds:
+    name: Cleanup Outdated Nightly Builds
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Datetime Related Envs
+        shell: python
+        run: |
+          import os
+          from datetime import datetime, timezone, timedelta
+          local_date = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+          local_time = datetime.now(timezone(timedelta(hours=8))).strftime("%H:%M:%S")
+          with open(os.environ['GITHUB_ENV'], 'a') as f:
+              print(f'NB_LOCAL_DATE={local_date}', file=f)
+              print(f'NB_LOCAL_TIME={local_time}', file=f)
+              print(f'NB_TAG=0-nightly-build/{local_date}', file=f)
+
+      - name: Cleanup Outdated Nightly Builds
+        uses: MuXiu1997/run-zx@v0.2.1
+        with:
+          # language=javascript
+          script: |
+            import * as core from '@actions/core'
+            
+            const listReleases = await $`gh release list`
+            const tags = listReleases.stdout.trim().split('\n')
+                .map(r => r.split('\t')[2])
+                .filter(t => t.startsWith('0-nightly-build'))
+                .filter(t => t !== '${{ env.NB_TAG }}')
+            const tagsToDelete = [...new Set(tags)].sort().slice(0, -2)
+            
+            core.info(`Tags to delete: [${tagsToDelete.join(', ')}]`)
+            
+            for (const tag of tagsToDelete) {
+                await $`gh release delete ${tag} --yes`
+            }
+              
