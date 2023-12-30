@@ -114,7 +114,8 @@ jobs:
           script: |
             import * as core from '@actions/core'
             
-            const listReleases = await $`gh release list`
+            const repo = '${{ github.repository }}'
+            const listReleases = await $`gh release list -repo ${repo}`
             const tags = listReleases.stdout.trim().split('\n')
                 .map(r => r.split('\t')[2])
                 .filter(t => t.startsWith('0-nightly-build'))
@@ -124,6 +125,6 @@ jobs:
             core.info(`Tags to delete: [${tagsToDelete.join(', ')}]`)
             
             for (const tag of tagsToDelete) {
-                await $`gh release delete ${tag} --yes`
+                await $`gh release delete ${tag} -repo ${repo} --yes`
             }
               
