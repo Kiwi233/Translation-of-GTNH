@@ -48,7 +48,7 @@ PS：有时任务书无法正确汉化，可以尝试重载任务书，方法有
 
 `JackMeds` 汉化标题画面
 
-`YPXxiaoK` GTNH介绍文本汉化
+`YPXxiao` GTNH介绍文本汉化
 
 `Wired` 语言文件提取脚本
 
