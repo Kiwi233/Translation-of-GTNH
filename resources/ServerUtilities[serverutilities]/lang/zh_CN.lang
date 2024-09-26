@@ -1,0 +1,638 @@
+# Misc
+gamerules=游戏模式
+serverutilities.lang.timer.shutdown=服务器在%s内关闭
+serverutilities.lang.killed_entities=已杀死 %d 个类型为“%s”的实体
+serverutilities.lang.kickme=你踢出了自己
+serverutilities.lang.upload_crash=上传崩溃报告
+serverutilities.lang.uploaded_crash=上传崩溃报告! %s
+serverutilities.lang.nickname_changed=昵称变更为 %s
+serverutilities.lang.nickname_reset=昵称修改为“%s”
+serverutilities.lang.unmuted=%s 已被解除静音
+serverutilities.lang.muted=%s 已被静音
+serverutilities.lang.fly_on=为 %s 开启飞行
+serverutilities.lang.fly_off=为 %s 关闭飞行
+serverutilities.lang.god_on=为 %s 开启上帝模式
+serverutilities.lang.god_off=为 %s 关闭上帝模式
+serverutilities.lang.heal=%s 已被治愈
+serverutilities.lang.permissions_dumped=%s 权限已成功转储到位于：%s 。
+serverutilities.disabled.config=在配置中被禁用
+serverutilities.disabled.server=在服务端被禁用
+serverutilities.vp.button=显示Server Utilities区块声明叠加
+
+serverutilities.stat.dph=每小时死亡数
+serverutilities.stat.last_seen=最后在线
+
+wip=仍在开发中！
+deprecated=该方法已被弃用，请使用 %s
+example=示例：
+click_here=[点击此处]
+feature_disabled=这个功能被禁用！
+feature_disabled_server=这个功能在服务器被禁用！
+error=错误：%s
+owner=组长：%s
+delete_item=你想要删除“%s”么？
+server_forced=服务器覆写了“%s”
+commands=命令
+my_permissions=我的权限
+all_permissions=所有权限
+key.categories.serverutilities=Server Utilities
+stand_still=请在传送前原地等待 %d 秒。
+stand_still_failed=因为你移动了！传送被取消。
+teleporting=传送中……
+cooldown=冷却
+cant_use_now=现在无法使用！
+cant_use_now_cooldown=现在无法使用，冷却时间：%s
+action_bar=操作栏
+nothing_changed=无改变！
+player_must_be_online=玩家必须在线！
+
+serverutilities.lang.reload_server_button=重载服务端
+serverutilities.lang.reload_server=服务端重载耗时 %s
+serverutilities.lang.reload_client=您可以按 %s 以重载客户端
+serverutilities.lang.reload_failed=这些 ID 重载失败：
+
+serverutilities.lang.config_command.invalid_key=无法找到配置参数：“%s”！
+serverutilities.lang.config_command.set=“%s”已被设为 %s
+
+serverutilities.lang.add_fake_player.invalid_uuid=无效的 UUID！
+serverutilities.lang.add_fake_player.player_exists=玩家已经存在！
+serverutilities.lang.add_fake_player.added=假玩家 %s 被添加！
+
+serverutilities.select_fluid.gui=选择流体
+serverutilities.select_fluid.none=无
+serverutilities.select_item.list_mode=列出模式：%s
+serverutilities.select_item.list_mode.all=所有物品
+serverutilities.select_item.list_mode.inv=物品栏
+serverutilities.select_item.count=设置大小
+serverutilities.select_item.meta=设置Metadata
+serverutilities.select_item.nbt=编辑NBT
+serverutilities.select_item.caps=编辑功能
+serverutilities.select_item.display_name=设置显示名称
+serverutilities.select_team.gui=选择组
+
+serverutilities.world.dimension.overworld=主世界
+serverutilities.world.dimension.end=末地
+serverutilities.world.dimension.nether=下界
+
+# Config
+serverutilities=Server Utilities
+serverutilities.auto_shutdown=自动关服
+serverutilities.auto_shutdown.enabled_singleplayer=在单人游戏中启用
+serverutilities.auto_shutdown.times=关服时间
+
+serverutilities.afk=AFK
+serverutilities.afk_kicked=你将会在以下时间后被踢出：%s
+serverutilities.afk.enabled_singleplayer=在单人游戏中启用
+serverutilities.afk.notification_timer=通知计时器
+serverutilities.afk.log_afk=记录AFK
+
+serverutilities.server_info=服务器信息
+serverutilities.server_info.difficulty=难度
+serverutilities.server_info.admin_quick_access=管理员快速登录
+
+serverutilities.chat=聊天
+serverutilities.chat.add_nickname_tilde=为昵称添加波浪号
+serverutilities.chat.format=%s
+
+serverutilities.commands=命令
+
+serverutilities.login=登录
+serverutilities.login.enable_motd=允许服务器欢迎语
+serverutilities.login.enable_starting_items=启用初始物品
+serverutilities.login.enable_global_badges=启用全局徽章
+serverutilities.login.enable_event_badges=启用事件徽章
+serverutilities.login.motd=服务器欢迎语
+serverutilities.login.starting_items=初始物品
+
+serverutilities.world=世界
+serverutilities.world.blocked_claiming_dimensions=禁止声明区块的维度
+serverutilities.world.chunk_claiming=区块声明
+serverutilities.world.chunk_loading=区块加载
+serverutilities.world.safe_spawn=出生点保护
+serverutilities.world.spawn_area_in_sp=单人模式出生点区域
+serverutilities.world.spawn_radius=出生点范围
+serverutilities.world.spawn_dimension=出生点维度
+serverutilities.world.unload_erroring_chunks=卸载错误区块
+serverutilities.world.rtp_min_distance=最小 /rtp 距离
+serverutilities.world.rtp_max_distance=最大 /rtp 距离
+serverutilities.world.forced_spawn_dimension_time=强制出生点维度时间
+serverutilities.world.forced_spawn_dimension_weather=强制出生点维度天气
+serverutilities.world.disable_player_suffocation_damage=禁用玩家受到窒息伤害
+serverutilities.world.show_playtime=在左上角显示游玩时间
+
+serverutilities.world.logging=记录中
+serverutilities.world.logging.include_creative_players=包括创造模式玩家
+serverutilities.world.logging.include_fake_players=包括假玩家
+serverutilities.world.logging.block_placed=方块已放置
+serverutilities.world.logging.block_broken=方块被破坏
+serverutilities.world.logging.item_clicked_in_air=物品对着空气点击
+
+serverutilities.ranks=权限组
+serverutilities.ranks.enabled=启用
+serverutilities.ranks.override_chat=覆盖聊天
+serverutilities.ranks.override_commands=覆盖命令
+serverutilities.ranks.crash_client_side_permissions=崩溃客户端权限
+serverutilities.ranks.load_from_config_folder=从配置文件夹加载
+serverutilities.ranks.print_command_errors=输出命令错误
+
+serverutilities.ranks.tags.default_player_rank=默认玩家权限组
+serverutilities.ranks.tags.default_op_rank=默认管理员权限组
+
+serverutilities.debugging.log_chunkloading=记录区块加载
+
+serverutilities.general.clientless_mode=无客户端模式
+serverutilities.general.replace_reload_command=替换 /reload 命令
+serverutilities.general.merge_offline_mode_players=合并离线模式玩家数据
+
+serverutilities.teams=组
+serverutilities.teams.autocreate_sp=单人游戏自动创建组
+serverutilities.teams.autocreate_mp=多人游戏自动创建组
+
+serverutilities.debugging=调试
+serverutilities.debugging.special_commands=特殊命令
+serverutilities.debugging.print_more_info=输出更多信息
+serverutilities.debugging.print_more_errors=输出更多错误
+serverutilities.debugging.log_network=记录网络 IO
+serverutilities.debugging.log_teleport=记录传送信息
+serverutilities.debugging.log_config_editing=记录配置修改
+serverutilities.debugging.dev_sidebar_buttons=仅开发模式的侧边栏按钮
+serverutilities.debugging.gui_widget_bounds=GUI 小按钮边界
+serverutilities.debugging.log_events=记录事件
+
+# Client Config
+serverutilities_client=客户端配置
+serverutilities_client.render_badges=显示徽章
+serverutilities_client.journeymap_overlay=启用旅行地图集成功能
+serverutilities_client.scan_items_whitelist=/scan_items Whitelist
+serverutilities_client.scan_items_blacklist=/scan_items Blacklist
+serverutilities_client.show_shutdown_timer=显示关机定时器
+serverutilities_client.shutdown_timer_start=关机定时器启动
+serverutilities_client.button_daytime=设置时间为白天
+serverutilities_client.button_nighttime=设置时间为黑夜
+serverutilities_client.item_ore_names=显示物品矿物词典名称
+serverutilities_client.item_ore_names.item_tooltip=矿物词典名称：
+serverutilities_client.item_nbt=显示物品 NBT
+serverutilities_client.sidebar_buttons=侧边栏位置
+serverutilities_client.sidebar_buttons_above_potion=在药水标签上层绘制按钮
+serverutilities_client.sidebar_placement=侧边栏放置
+serverutilities_client.notification_location=通知位置
+serverutilities_client.show_dotted_lines=在加载的区块上显示虚线
+
+# Rank Config
+permission.serverutilities.badge=徽章
+permission.serverutilities.badge.tooltip=徽章（胸前的图标）。必须为 URL
+permission.serverutilities.homes.max=最大家数量
+permission.serverutilities.claims.max_chunks=最多可声明区块
+permission.serverutilities.claims.max_chunks.tooltip=玩家最多可声明区块的数量\n0 - 禁用
+permission.serverutilities.claims.blocked_dimensions=禁止声明区块的维度
+permission.serverutilities.claims.blocked_dimensions.tooltip=不允许声明区块维度
+permission.serverutilities.chunkloader.max_chunks=最多可加载区块
+permission.serverutilities.chunkloader.max_chunks.tooltip=玩家最多可加载区块的数量\n0 - 禁用
+permission.serverutilities.chunkloader.offline_timer=区块加载器离线计时器
+permission.serverutilities.chunkloader.offline_timer.tooltip=玩家离线后其区块依然加载的最大小时数\n0 - 禁用，其离线后直接卸载\n-1 - 区块永远加载
+permission.serverutilities.homes.cooldown=/home Cooldown Timer
+permission.serverutilities.warps.cooldown=/warp Cooldown Timer
+permission.serverutilities.tpa.cooldown=/tpa Cooldown Timer
+permission.serverutilities.spawn.cooldown=/spawn Cooldown Timer
+permission.serverutilities.back.cooldown=/back Cooldown Timer
+permission.serverutilities.rtp.cooldown=/rtp Cooldown Timer
+permission.serverutilities.homes.warmup=/home Warmup Timer
+permission.serverutilities.warps.warmup=/warp Warmup Timer
+permission.serverutilities.tpa.warmup=/tpa Warmup Timer
+permission.serverutilities.spawn.warmup=/spawn Warmup Timer
+permission.serverutilities.back.warmup=/back Warmup Timer
+permission.serverutilities.afk.timer=AFK 计时器
+permission.serverutilities.afk.timer.is_afk=%s 现在处于 AFK 状态
+permission.serverutilities.afk.timer.isnt_afk=%s 离开了 AFK 状态
+permission.serverutilities.chat.prefix.left.color=聊天前缀颜色
+permission.serverutilities.chat.prefix.base.color=聊天前缀颜色
+permission.serverutilities.chat.prefix.right.color=聊天前缀颜色
+permission.serverutilities.chat.name.color=聊天名称颜色
+permission.serverutilities.chat.suffix.left.color=聊天后缀颜色 [左]
+permission.serverutilities.chat.suffix.base.color=聊天后缀颜色 [基础]
+permission.serverutilities.chat.suffix.right.color=聊天后缀颜色 [右]
+permission.serverutilities.chat.text.color=聊天文本颜色
+permission.serverutilities.chat.prefix.left.text=聊天前缀文本
+permission.serverutilities.chat.prefix.base.text=聊天前缀文本
+permission.serverutilities.chat.prefix.right.text=聊天前缀文本
+permission.serverutilities.chat.suffix.left.text=聊天后缀文本 [左]
+permission.serverutilities.chat.suffix.base.text=聊天后缀文本 [基础]
+permission.serverutilities.chat.suffix.right.text=聊天后缀文本 [右]
+permission.default_op_rank=默认管理员权限组
+permission.default_player_rank=默认玩家权限组
+permission.parent=将继承其权限的权限组
+permission.power=已弃用，请参见优先级。
+permission.priority=如果一位玩家有多个权限组，则决定哪个权限组的权限优先。值越高 = 优先级越高
+
+# Player Settings
+player_config=我的服务器设置
+player_config.serverutilities.hide_team_notification=登录时隐藏组内通知
+player_config.serverutilities.chat_links=聊天链接
+player_config.serverutilities.disable_global_badge=禁用全局徽章
+player_config.serverutilities.render_badge=显示我的徽章
+player_config.serverutilities.enable_pvp=启用 PVP
+player_config.serverutilities.nickname=昵称
+player_config.serverutilities.afk=AFK 通知位置
+
+# Team Settings
+team_config.serverutilities.display=显示
+team_config.serverutilities.display.color=颜色
+team_config.serverutilities.display.fake_player_status=假玩家级别
+team_config.serverutilities.display.fake_player_status.tooltip=确定假玩家将在何种成员级别下操作（采矿机、水泵、收割机等）
+team_config.serverutilities.display.title=标题
+team_config.serverutilities.display.title.tooltip=当你进入已声明区块时显示
+team_config.serverutilities.display.desc=描述
+team_config.serverutilities.display.desc.tooltip=显示在标题下
+team_config.serverutilities.free_to_join=自由加入
+team_config.serverutilities.free_to_join.tooltip=任何人无需邀请即可加入
+team_config.serverutilities.blocks_edit=编辑方块所需的级别
+team_config.serverutilities.blocks_interact=交互方块所需的级别
+team_config.serverutilities.attack_entities=攻击实体所需的级别
+team_config.serverutilities.use_items=使用物品所需的级别
+team_config.serverutilities.explosions=在已声明区块中启用爆炸
+team_config.serverutilities.fake_players=允许假玩家与方块进行交互
+
+# Sidebar Buttons
+sidebar_button=侧边栏按钮
+sidebar_button.serverutilities.my_team=我的组
+sidebar_button.serverutilities.my_team.tooltip=打开组管理的GUI
+sidebar_button.serverutilities.settings=客户端设定
+sidebar_button.serverutilities.settings.tooltip=编辑客户端设定
+sidebar_button.serverutilities.notifications=通知
+sidebar_button.serverutilities.admin_panel=管理面板
+sidebar_button.serverutilities.chats=聊天
+sidebar_button.serverutilities.chats.general=通用聊天
+sidebar_button.serverutilities.chats.admin=管理员聊天
+sidebar_button.serverutilities.chats.team=组员聊天
+sidebar_button.serverutilities.leaderboards=排行榜
+sidebar_button.serverutilities.toggle.gamemode=切换游戏模式
+sidebar_button.serverutilities.toggle.gamemode.tooltip=在生存模式和创造模式间切换
+sidebar_button.serverutilities.toggle.rain=切换天气
+sidebar_button.serverutilities.toggle.rain.tooltip=在晴天和雨天间切换
+sidebar_button.serverutilities.toggle.day=设置为白天
+sidebar_button.serverutilities.toggle.day.tooltip=设置为白天
+sidebar_button.serverutilities.toggle.night=设置为黑夜
+sidebar_button.serverutilities.toggle.night.tooltip=设置为黑夜
+sidebar_button.serverutilities.heal=治疗
+sidebar_button.serverutilities.heal.tooltip=治疗玩家至满血，并消除玩家的着火效果
+sidebar_button.serverutilities.server_info=服务器信息
+sidebar_button.serverutilities.claimed_chunks=声明区块
+sidebar_button.serverutilities.trash_can=垃圾桶
+sidebar_button.serverutilities.trash_can.tooltip=打开一个垃圾桶。里面的物品会在关闭界面后消失，但它还在打开时物品会保留。
+sidebar_button.serverutilities.mail=邮件
+serverutilities.sidebar_button.reset=重置侧边栏
+serverutilities.sidebar_button.reset.tooltip=重置侧边栏位置
+
+admin_panel.serverutilities.file_browser=文件浏览器
+admin_panel.serverutilities.crash_reports=查看崩溃报告
+admin_panel.serverutilities.config=编辑配置
+admin_panel.serverutilities.ranks=编辑权限组
+admin_panel.serverutilities.ranks.player_ranks=玩家权限组
+admin_panel.serverutilities.ranks.select_rank=选择权限组
+admin_panel.serverutilities.ranks.edit.id=ID
+admin_panel.serverutilities.ranks.edit.parent=父组
+admin_panel.serverutilities.ranks.edit.chat_formatting=聊天格式
+admin_panel.serverutilities.ranks.edit.permissions=权限
+admin_panel.serverutilities.claimed_chunks=查看所有已声明区块
+admin_panel.serverutilities.loaded_chunks=查看所有已加载区块
+admin_panel.serverutilities.whitelist=编辑白名单
+admin_panel.serverutilities.ops=编辑服务器管理员
+admin_panel.serverutilities.edit_world=编辑世界
+
+# Keys
+key.serverutilities.nbt=编辑NBT
+key.serverutilities.trash=垃圾桶
+
+# Commands
+commands.shutdown.usage=/shutdown
+commands.inv.usage=/inv
+commands.inv.view.usage=/inv view <player>
+commands.inv.save.usage=/inv save <player> <id>
+commands.inv.load.usage=/inv load <player> <id>
+commands.inv.list.usage=/inv list
+commands.warp.usage=/warp <warp>
+commands.setwarp.usage=/setwarp <warp> <player>|{<x> <y> <z> [dim]}
+commands.delwarp.usage=/delwarp <warp>
+commands.home.usage=/home [list|list_all|home] [player]
+commands.sethome.usage=/sethome [home]
+commands.delhome.usage=/delhome [home]
+commands.server_info.usage=/server_info
+commands.loaded_chunks_list.usage=/loaded_chunks_list
+commands.tpl.usage=/tpl (<x> <y> <z>) | ([who] <player>)
+commands.trash_can.usage=/trash_can
+commands.back.usage=/back
+commands.spawn.usage=/spawn
+commands.chunks.usage=/chunks
+commands.chunks.claim.usage=/chunks claim
+commands.chunks.unclaim.usage=/chunks unclaim
+commands.chunks.load.usage=/chunks load
+commands.chunks.unload.usage=/chunks unload [player]
+commands.chunks.unclaim_all.usage=/chunks unclaim_all [dimension] [player]
+commands.chunks.unload_all.usage=/chunks unload_all [dimension] [player]
+commands.chunks.unclaim_everything.usage=/chunks unclaim_everything [dimension]
+commands.chunks.unload_everything.usage=/chunks unload_everything [dimension]
+commands.chunks.info.usage=/chunks info
+commands.chunks.info.text=区块 %d:%d 在 %s: %s 中
+commands.chunks.info.not_claimed=未声明
+commands.chunks.claim_as.usage=/chunks claim_as <server team> [radius in chunks]
+commands.chunks.claim_as.not_server_team=组 %s 不是服务器组！使用 /team create_server_team <name>
+commands.kickme.usage=/kickme
+commands.ranks.none=无
+commands.ranks.usage=/ranks
+commands.ranks.not_found=权限组 “%s” 未找到！
+commands.ranks.create.usage=/ranks create <id> [parent]
+commands.ranks.create.id_invalid=无效的组ID：“%s”。组ID只能包含数字和小写字母！
+commands.ranks.create.id_exists=权限组 “%s” 已存在！
+commands.ranks.create.added=已添加%s组！
+commands.ranks.info.usage=/ranks info <rank|player>
+commands.ranks.add.usage=/ranks add <rank|player> <rank>
+commands.ranks.add.text=添加组 %s 作为组 %s 的父组
+commands.ranks.remove.usage=/ranks remove <rank|player> [rank]
+commands.ranks.remove.text=移除组 %s 作为组 %s 的父组
+commands.ranks.get_permission.usage=/ranks get_permission <rank|player> <permission>
+commands.ranks.get_permission.text=%s 为 %s 的权限 %s
+commands.ranks.set_permission.usage=/ranks set_permission <rank> <permission> <true|false|value|none>
+commands.ranks.set_permission.set=%s 对于 %s 的权限设为 %s
+commands.ranks.delete.usage=/ranks delete <rank>
+commands.ranks.delete.deleted=已移除 %s 组
+commands.upload_crash_report.usage=/upload_crash_report <file>
+commands.heal.usage=/heal [player]
+commands.killall.usage=/killall [type] [dimension]
+commands.nbtedit.usage=/nbtedit
+commands.nbtedit.too_large=NBT 大小过大！
+commands.nbtedit.block.usage=/nbtedit block <x> <y> <z>
+commands.nbtedit.entity.usage=/nbtedit entity <id>
+commands.nbtedit.player.usage=/nbtedit player <player>
+commands.nbtedit.item.usage=/nbtedit item
+commands.nbtedit.tile_not_found=%s 不是有效的方块。
+commands.tpa.usage=/tpa <player>
+commands.tpaccept.usage=/tpaccept <player>
+commands.tpdeny.usage=/tpdeny <player>
+commands.nick.usage=/nick <name...>
+commands.nickfor.usage=/nickfor <player> <name...>
+commands.fly.usage=/fly
+commands.cycle_block_state.usage=/cycle_block_state
+commands.leaderboards.usage=/leaderboards [id]
+commands.mute.usage=/mute <player>
+commands.mute.muted=你已经被禁言！
+commands.unmute.usage=/unmute <player>
+commands.rec.usage=/rec
+commands.rec.recording=%s 正在记录中！
+commands.rec.not_recording=%s 已不在记录！
+commands.ping.integrated_server=内置服务器
+commands.ping.unknown=未知
+commands.ping.ping=Ping %s
+commands.backup.usage=/backup
+commands.backup.start.usage=/backup start <file name>
+commands.backup.stop.usage=/backup stop
+commands.backup.getsize.usage=/backup getsize
+commands.reload.usage=/reload [*|domain:*|domain:id]
+commands.my_settings.usage=/my_settings <config id> [value]
+commands.team.usage=/team
+commands.team.settings.usage=/team settings <config id> [value]
+commands.team.create.usage=/team create <id> [color]
+commands.team.leave.usage=/team leave
+commands.team.transfer_ownership.usage=/team transfer_ownership <player>
+commands.team.kick.usage=/team kick <player>
+commands.team.join.usage=/team join <team>
+commands.team.status.usage=/team status <player> [set_status]
+commands.team.status.set=%s的状态设置为%s
+commands.team.status.cant_set=状态不能被设置！
+commands.team.msg.usage=/team msg <message...>
+commands.team.delete.usage=/team delete <team>
+commands.team.request_invite.usage=/team request_invite <team>
+commands.team.create_server_team.usage=/team create_server_team <id>
+commands.team.info.usage=/team info <team>
+commands.team.info.id=ID: %s
+commands.team.info.uid=UID: %s
+commands.team.info.owner=组长：%s
+commands.team.info.members=成员：%s
+commands.team.get.usage=/team get <player>
+commands.team.list.usage=/team list
+commands.team.list.teams=列出所有组 (%d)：
+commands.add_fake_player.usage=/add_fake_player <uuid> <name>
+commands.god.usage=/god <player>
+commands.rtp.usage=/rtp
+commands.dump_chunkloaders.usage=/dump_chunkloaders
+commands.dump_permissions.usage=/dump_permissions
+
+# Chunks
+serverutilities.lang.chunks.cant_modify_chunk=无法修改此区块！
+serverutilities.lang.chunks.unclaimed_all=取消声明所有区块
+serverutilities.lang.chunks.chunk_claimed=区块已声明
+serverutilities.lang.chunks.chunk_unclaimed=区块已取消声明
+serverutilities.lang.chunks.chunk_loaded=区块已加载
+serverutilities.lang.chunks.chunk_unloaded=区块已卸载
+serverutilities.lang.chunks.unloaded_all=卸载所有区块
+
+serverutilities.lang.chunks.unclaim_all=取消所有声明区块
+serverutilities.lang.chunks.unclaim_all_dim=取消所有在 %s 的声明区块
+serverutilities.lang.chunks.unclaim_all_q=取消所有声明的区块？
+serverutilities.lang.chunks.unclaim_all_dim_q=取消声明 %s 中的所有区块？
+serverutilities.lang.chunks.claims_invalid_dim=不能在此维度中声明区块
+serverutilities.lang.chunks.claimed_count=声明的区块：%d / %s
+serverutilities.lang.chunks.loaded_count=加载的区块：%d / %s
+serverutilities.lang.chunks.claimed_area=已声明区域
+serverutilities.lang.chunks.wilderness=野外
+
+# Chunk Types
+serverutilities.lang.chunks.upgrade.loaded=已加载区块
+serverutilities.lang.chunks.upgrade.no_explosions=爆炸被禁用
+serverutilities.lang.chunks.upgrade.no_pvp=盟友 PVP 被禁用
+
+# Warps
+serverutilities.lang.warps.set=传送点“%s”已设置！
+serverutilities.lang.warps.del=传送点“%s”已删除！
+serverutilities.lang.warps.not_set=未知的传送点：“%s”！
+serverutilities.lang.warps.cooldown=使用传送点传送还需 %s！
+serverutilities.lang.warps.tp=传送至 “%s”！
+serverutilities.lang.warps.no_dp=你只能使用一次 /back！
+serverutilities.lang.warps.no_pos_found=没有位置使用 /back！
+
+# Homes
+serverutilities.lang.homes.set=家“%s”已设置！
+serverutilities.lang.homes.del=家“%s”已删除！
+serverutilities.lang.homes.not_set=未知的家：“%s”！
+serverutilities.lang.homes.cooldown=使用 home 传送还需 %s！
+serverutilities.lang.homes.cross_dim=你不能传送至其它维度！
+serverutilities.lang.homes.limit=家数量已达到上限！
+serverutilities.lang.homes.spectator=请先退出旁观模式！
+
+# TPA
+serverutilities.lang.tpa.from_to=%s -> %s
+serverutilities.lang.tpa.request_received=%s 想要传送到你这，%s 来接受。
+serverutilities.lang.tpa.request_sent=请求已经发送！
+serverutilities.lang.tpa.no_request=%s 目前没有传送请求！
+serverutilities.lang.tpa.cant_request=无法发送传送请求！
+serverutilities.lang.tpa.request_expired=传送请求过期！
+serverutilities.lang.tpa.request_accepted=传送请求已经接收！
+
+# RTP
+serverutilities.lang.rtp.fail=找不到有效的传送地点！
+
+# Client Commands
+commands.client_config.usage=/client_config
+commands.shrug.usage=/shrug [text...]
+commands.scan_items.usage=/scan_items
+commands.print_item.usage=/print_item
+
+# Forge
+commands.tree_base.invalid_cmd=无效子命令 “%s”！
+commands.tree_base.invalid_cmd.list_subcommands=无效子命令 “%s”！可用子命令：%s
+commands.tree_base.available_subcommands=可用子命令：%s
+
+# Backup
+cmd.timer_backup=距下一次备份：%s
+cmd.backup_start=服务器备份开始！
+cmd.backup_stop=服务器备份停止！
+cmd.backup_end_1=服务器备份在 %s 完成！
+cmd.backup_end_2=服务器备份在 %s 完成！(%s)
+cmd.backup_fail=世界保存失败！(%s)
+cmd.backup_manual_launch=%s 启动了手动备份！
+cmd.backup_already_running=正在备份中！
+cmd.backup_not_running=备份未在运行！
+cmd.backup_size=当前世界大小：%s，备份文件夹总大小：%s
+
+# Gui
+## Buttons
+gui.accept=接受
+gui.add=添加
+gui.added=已添加
+gui.remove=移除
+gui.removed=已移除
+gui.close=关闭
+gui.open=打开
+gui.saved=已保存
+gui.loaded=已加载
+gui.info=信息
+gui.collapse_all=全部折叠
+gui.expand_all=全部展开
+gui.download=下载
+gui.downloaded=已下载
+gui.update=更新
+gui.updated=已更新
+gui.active=激活
+gui.inactive=停用
+gui.settings=设置
+gui.rename=重命名
+gui.search_box=搜索中……
+gui.move=移动
+gui.copy=复制
+gui.paste=粘贴
+gui.cut=剪切
+
+## Labels
+gui.other=其他
+gui.server_forced=服务器强制加载：%s
+gui.online=在线
+gui.offline=离线
+gui.whitelist=白名单
+gui.blacklist=黑名单
+gui.color=颜色
+gui.downloading=下载中……
+gui.infinite=无限
+
+## Sides
+facing.north=北
+facing.south=南
+facing.west=西
+facing.east=东
+
+relative_facing.bottom=底
+relative_facing.top=顶
+relative_facing.back=后
+relative_facing.front=前
+relative_facing.left=左
+relative_facing.right=右
+
+# Teams
+serverutilities.lang.team.no_team=无组
+serverutilities.lang.team.created=组“%s”已创建
+serverutilities.lang.team.id_already_exists=ID 已经注册！
+serverutilities.lang.team.id_invalid=ID 只能够包含小写的 a-z、_ 和 | 字符！
+serverutilities.lang.team.deleted=组“%s”已删除
+serverutilities.lang.team.member_left=%s 离开了你的组！
+serverutilities.lang.team.member_joined=%s 加入了你的组！
+serverutilities.lang.team.transferred_ownership=新的组长是 %s
+serverutilities.lang.team.invited=已邀请 %s 到“%s”组
+serverutilities.lang.team.invited_you=你被邀请加入“%s”，邀请者是 %s。点击这里加入！
+serverutilities.lang.team.cancel_invite=取消邀请
+serverutilities.lang.team.error.not_found=组“%s”没有找到！
+serverutilities.lang.team.error.no_team=你必须在一个组里面才能这样做！
+serverutilities.lang.team.error.must_leave=你必须离开你的组才能那样做！
+serverutilities.lang.team.error.not_owner=你不是这个组的组长！
+serverutilities.lang.team.error.not_member=%s 不是这个组的组员！
+serverutilities.lang.team.error.already_member=%s 已是这个组的组员！
+serverutilities.lang.team.error.must_transfer_ownership=你必须转让所有权！
+serverutilities.lang.team.error.already_invited=%s 已被邀请！
+serverutilities.lang.team.error.failed_to_join=不能加入这个组！
+serverutilities.lang.team.permission.set=权限“%s”对于 %s 设置为 %s
+serverutilities.lang.team.permission.owner=不能改变组长的权限！
+serverutilities.lang.team.notification=你还没有加入或创建组！%s 来打开组队GUI，%s 来隐藏此信息。
+serverutilities.lang.team.notification.hide=隐藏此信息
+serverutilities.lang.team.chat_message=[组 %s] %s
+
+team_action.serverutilities.select_team=选择想要加入的组
+team_action.serverutilities.create_team=创建一个新的组
+team_action.serverutilities.members=组员
+team_action.serverutilities.allies=盟友
+team_action.serverutilities.moderators=管理者
+team_action.serverutilities.enemies=敌人
+team_action.serverutilities.change_team=加入其他组
+team_action.serverutilities.leave=离开组
+team_action.serverutilities.leave.confirmation=警告！如果这样做，您可能会丢失任务进度和其他东西！
+team_action.serverutilities.transfer_ownership=转让所有权
+
+serverutilities.lang.team.gui.join_team=点击加入“%s”
+serverutilities.lang.team.gui.request_invite=点击请求加入“%s”
+serverutilities.lang.team.gui.members.invite=点击邀请至你的组
+serverutilities.lang.team.gui.members.requesting_invite=有玩家正在请求加入组
+serverutilities.lang.team.gui.members.deny_request=右击拒绝请求
+serverutilities.lang.team.gui.members.cancel_invite=右击取消邀请
+serverutilities.lang.team.gui.members.kick=右击踢出玩家
+
+serverutilities.lang.team_status.enemy=敌对
+serverutilities.lang.team_status.none=无
+serverutilities.lang.team_status.requesting_invite=请求加入
+serverutilities.lang.team_status.invited=邀请
+serverutilities.lang.team_status.ally=结盟
+serverutilities.lang.team_status.member=组员
+serverutilities.lang.team_status.mod=管理者
+serverutilities.lang.team_status.owner=组长
+
+# Privacy Level
+privacy=隐私
+privacy.public=公共的
+privacy.private=私有的
+privacy.team=组
+
+# Redstone Mode
+redstone_mode=红石模式
+redstone_mode.disabled=禁用
+redstone_mode.active_high=强充能信号
+redstone_mode.active_low=弱充能信号
+redstone_mode.pulse=脉冲信号
+
+# IO Mode
+io_mode=IO 模式
+io_mode.io=IO
+io_mode.in=仅输入
+io_mode.out=仅输出
+io_mode.none=禁用
+
+# Click Actions
+click_action.cmd=命令
+click_action.show_cmd=显示命令
+click_action.url=打开 URL
+click_action.file=打开文件
+click_action.gui=打开 GUI
+
+# Aurora
+aurora=Server Utilities Aurora
+aurora.port=端口
+
+# JourneyMap
+serverutilities.jm.own_team=你的组
+serverutilities.jm.claim=双击一个空区块以声明。
+serverutilities.jm.load_hint=双击一个已声明的区块以加载/卸载
+serverutilities.jm.unclaim_hint=按 %s 以取消声明

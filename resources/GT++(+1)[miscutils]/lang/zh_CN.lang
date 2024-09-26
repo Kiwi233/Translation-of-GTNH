@@ -82,7 +82,7 @@ gtpp.recipe.simplewasher=简易洗矿池
 gtpp.recipe.moleculartransformer=分子重组仪
 gtpp.recipe.fluidchemicaleactor=化工厂
 gtpp.recipe.RTGgenerators=放射性同位素温差发电机
-gtpp.recipe.thermalgeneratorfuel=火力发电机燃料
+gtpp.recipe.thermalgeneratorfuel=地热锅炉
 gtpp.recipe.solartower=太阳能塔
 gtpp.recipe.cyclotron=COMET - 紧凑式回旋加速器
 gtpp.recipe.fishpond=珠海-渔场
@@ -119,6 +119,21 @@ gtpp.nei.tgs.1=树苗不消耗
 gtpp.nei.tgs.2=如果提供%s
 gtpp.nei.tgs.3=则输出树苗
 gtpp.nei.tgs.sapling=如果提供%s则输出树苗
+
+gtpp.nei.tgs.tooltip.sapling=放入控制器插槽
+gtpp.nei.tgs.tooltip.saw=放入输入总线以收获原木
+gtpp.nei.tgs.tooltip.needsSaw=需要锯子才能收割
+gtpp.nei.tgs.tooltip.cutter=放入输入总线以收获树苗
+gtpp.nei.tgs.tooltip.needsCutter=需要剪枝器才能收割
+gtpp.nei.tgs.tooltip.shears=放入输入总线以收获树叶
+gtpp.nei.tgs.tooltip.needsShears=需要剪刀才能收割
+gtpp.nei.tgs.tooltip.knife=放入输入总线以收获果实
+gtpp.nei.tgs.tooltip.needsKnife=需要小刀才能收割
+gtpp.nei.tgs.tooltip.multiplier=输出倍数:
+gtpp.nei.tgs.info-1=进一步促进产出
+gtpp.nei.tgs.info-2=按机器电压等级
+gtpp.nei.tgs.info-3=和工具类型
+
 
 //Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=烈焰之炽焱桶
@@ -168,7 +183,7 @@ item.itemUltimetShaft.name=哈氏合金轴
 
 //Misc Items
 item.itemPLACEHOLDER_Circuit.name=夸克操纵者(UV)
-item.itemPlateEnrichedSoularium.name=富集阳光合金板
+item.itemPlateEnrichedSoularium.name=富集魂金板
 item.itemHeliumBlob.name=神秘氢气物质
 item.itemAlkalusDisk.name=Alkalus圆盘
 
@@ -193,7 +208,7 @@ tile.blockNet.name=网
 MU-metaitem.01.0.name=MU-metaitem.01.0.name
 
 //Cells
-item.SulfurDioxide.name=优质二氧化硫单元
+item.SulfurDioxide.name=高纯二氧化硫单元
 item.mobessence.name=怪物精华液单元
 item.Fertiliser.name=流体肥料单元
 item.UN32Fertiliser.name=流体肥料UN-32单元
@@ -336,7 +351,7 @@ item.itemCellAmmonium.name=铵单元
 item.itemCellAmmoniumBifluoride.name=氟化氢铵单元
 item.itemCellBerylliumHydroxide.name=氢氧化铍单元
 item.itemCellAmmoniumTetrafluoroberyllate.name=氟铍酸铵单元
-item.itemCellNeptuniumHexafluoride.name=六氟化铀单元
+item.itemCellNeptuniumHexafluoride.name=六氟化镎单元
 item.itemCellTechnetiumHexafluoride.name=六氟化锝单元
 item.itemCellSeleniumHexafluoride.name=六氟化硒单元
 item.itemCellEnergyCrystal.name=能量水晶单元
@@ -612,13 +627,13 @@ item.itemDustSmallFermium.name=小堆镄粉
 item.itemNuggetFermium.name=镄粒
 item.itemPlateFermium.name=镄板
 item.itemPlateDoubleFermium.name=双重镄板
-item.itemIngotLithium7.name=锂 7锭
-item.itemDustLithium7.name=锂 7粉
-item.itemDustTinyLithium7.name=小撮锂 7粉
-item.itemDustSmallLithium7.name=小堆锂 7粉
-item.itemNuggetLithium7.name=锂 7粒
-item.itemPlateLithium7.name=锂 7板
-item.itemPlateDoubleLithium7.name=双重锂 7板
+item.itemIngotLithium7.name=锂-7锭
+item.itemDustLithium7.name=锂-7粉
+item.itemDustTinyLithium7.name=小撮锂-7粉
+item.itemDustSmallLithium7.name=小堆锂-7粉
+item.itemNuggetLithium7.name=锂-7粒
+item.itemPlateLithium7.name=锂-7板
+item.itemPlateDoubleLithium7.name=双重锂-7板
 item.itemIngotThorium232.name=钍-232锭
 item.itemDustThorium232.name=钍-232粉
 item.itemDustTinyThorium232.name=小撮钍-232粉
@@ -1565,7 +1580,7 @@ item.itemDustSmallLi2BeF4.name=小堆Li2BeF4燃料复合物粉
 item.itemDustTinyLi2BeF4.name=小撮Li2BeF4燃料复合物粉
 item.Li2BeF4.name=Li2BeF4单元
 item.itemCircuitLFTR.name=§a§a控制电路
-item.itemZirconiumPellet.name=锆颗粒[氯化锆]
+item.itemZirconiumPellet.name=锆燃料丸[ZrCl₄]
 item.itemDustZrCl4.name=氯化锆粉
 item.itemDustSmallZrCl4.name=小堆氯化锆粉
 item.itemDustTinyZrCl4.name=小撮氯化锆粉
@@ -1756,7 +1771,7 @@ item.itemPlateDoubleEuropium.name=双重铕板
 item.itemSmallGearWroughtIron.name=小型锻铁齿轮
 
 //Misc
-item.itemFoilUranium235.name=铀235箔
+item.itemFoilUranium235.name=铀-235箔
 
 item.itemBoilerChassis_0.name=高级锅炉外壳[1级]
 item.itemDehydratorCoilWire_0.name=缠绕导线 [EV]
@@ -1788,7 +1803,7 @@ item.itemPotionChilly.name=冰凉药水
 item.itemKeyBig4000DC's.name=4000DC的大钥匙
 item.itemGemDull.name=沉闷宝石
 item.itemMushroomForest.name=森林蘑菇
-item.itemPlateVanadium.name=钒钢板
+item.itemPlateVanadium.name=钒板
 item.thekeytothecity.name=通往城市的钥匙
 item.modularbauble.name=模块化饰品
 item.itemDustSoularium.name=魂金粉
@@ -1815,7 +1830,7 @@ item.itemDustTinyConductiveIron.name=小撮导电铁粉
 item.itemPlateSoularium.name=魂金板
 item.itemPlateRedstoneAlloy.name=红石合金板
 item.itemPlateElectricalSteel.name=磁钢板
-item.itemPlatePhasedIron.name=脉冲铁板
+item.itemPlatePhasedIron.name=相移铁板
 item.itemPlateEnergeticAlloy.name=充能合金板
 item.itemPlateVibrantAlloy.name=脉冲合金板
 item.itemPlateConductiveIron.name=导电铁板
@@ -2098,7 +2113,7 @@ item.crushedTrinium.name=粉碎三元金属矿石
 item.crushedCentrifugedTrinium.name=离心三元金属矿石
 item.crushedPurifiedTrinium.name=洗净的三元金属矿石
 item.dustImpureTrinium.name=含杂三元金属粉
-item.dustPureTrinium.name=洗净的三元金属粉
+item.dustPureTrinium.name=纯净三元金属粉
 
 //Added 1/7/18
 entity.WiseVillager.name=聪明的村民
@@ -2153,7 +2168,7 @@ item.LiquidOxygen.name=液化氧单元[LOX]
 
 tile.OreIrarsite.name=硫砷铱矿石
 item.crushedIrarsite.name=粉碎硫砷铱矿石
-item.crushedCentrifugedIrarsite.name=离心粉碎硫砷铱矿石
+item.crushedCentrifugedIrarsite.name=离心硫砷铱矿石
 item.crushedPurifiedIrarsite.name=洗净的硫砷铱矿石
 item.dustImpureIrarsite.name=含杂硫砷铱粉
 item.dustPureIrarsite.name=纯净硫砷铱粉
@@ -2163,7 +2178,7 @@ item.itemDustSmallIrarsite.name=小堆硫砷铱粉
 
 tile.OreMiessiite.name=硅灰石矿石
 item.crushedMiessiite.name=粉碎硅灰石矿石
-item.crushedCentrifugedMiessiite.name=离心粉碎硅灰石矿石
+item.crushedCentrifugedMiessiite.name=离心硅灰石矿石
 item.crushedPurifiedMiessiite.name=洗净的硅灰石矿石
 item.dustImpureMiessiite.name=含杂硅灰石粉
 item.dustPureMiessiite.name=纯净硅灰石粉
@@ -2173,7 +2188,7 @@ item.itemDustSmallMiessiite.name=小堆硅灰石粉
 
 tile.OreComancheite.name=溴汞石矿石
 item.crushedComancheite.name=粉碎溴汞石矿石
-item.crushedCentrifugedComancheite.name=离心粉碎溴汞石矿石
+item.crushedCentrifugedComancheite.name=离心溴汞石矿石
 item.crushedPurifiedComancheite.name=洗净的溴汞石矿石
 item.dustImpureComancheite.name=含杂溴汞石矿石
 item.dustPureComancheite.name=纯净溴汞石粉
@@ -2183,7 +2198,7 @@ item.itemDustSmallComancheite.name=小堆溴汞石粉
 
 tile.OreKoboldite.name=妖金矿石
 item.crushedKoboldite.name=粉碎妖金矿石
-item.crushedCentrifugedKoboldite.name=离心粉碎妖金矿石
+item.crushedCentrifugedKoboldite.name=离心妖金矿石
 item.crushedPurifiedKoboldite.name=洗净的妖金矿石
 item.dustImpureKoboldite.name=含杂妖金粉
 item.dustPureKoboldite.name=纯净妖金粉
@@ -2203,7 +2218,7 @@ item.itemDustSmallPerroudite.name=小堆溴硫银汞粉
 
 tile.OreDemicheleite.name=溴硫铋矿石
 item.crushedDemicheleite.name=粉碎溴硫铋矿石
-item.crushedCentrifugedDemicheleite.name=离心粉碎溴硫铋矿石
+item.crushedCentrifugedDemicheleite.name=离心溴硫铋矿石
 item.crushedPurifiedDemicheleite.name=洗净的溴硫铋矿石
 item.dustImpureDemicheleite.name=含杂溴硫铋矿粉
 item.dustPureDemicheleite.name=纯净溴硫铋矿粉
@@ -2213,7 +2228,7 @@ item.itemDustSmallDemicheleite.name=小堆溴硫铋矿粉
 
 tile.OreAlburnite.name=硫碲金锗矿石
 item.crushedAlburnite.name=粉碎硫碲金锗矿石
-item.crushedCentrifugedAlburnite.name=离心粉碎硫碲金锗矿石
+item.crushedCentrifugedAlburnite.name=离心硫碲金锗矿石
 item.crushedPurifiedAlburnite.name=洗净的硫碲金锗矿石
 item.dustImpureAlburnite.name=含杂硫碲金锗矿粉
 item.dustPureAlburnite.name=纯净硫碲金锗矿粉
@@ -2223,7 +2238,7 @@ item.itemDustSmallAlburnite.name=小堆硫碲金锗矿粉
 
 tile.OreLautarite.name=碘钙石矿石
 item.crushedLautarite.name=粉碎碘钙石矿石
-item.crushedCentrifugedLautarite.name=离心粉碎碘钙石矿石
+item.crushedCentrifugedLautarite.name=离心碘钙石矿石
 item.crushedPurifiedLautarite.name=洗净的碘钙石矿石
 item.dustImpureLautarite.name=含杂碘钙石粉
 item.dustPureLautarite.name=纯净碘钙石粉
@@ -2233,7 +2248,7 @@ item.itemDustSmallLautarite.name=小堆碘钙石粉
 
 tile.OreBariteRd.name=重晶石(Rd)矿石
 item.crushedBariteRd.name=粉碎重晶石(Rd)矿石
-item.crushedCentrifugedBariteRd.name=离心粉碎 重晶石(Rd)矿石
+item.crushedCentrifugedBariteRd.name=离心 重晶石(Rd)矿石
 item.crushedPurifiedBariteRd.name=洗净的重晶石(Rd)矿石
 item.dustImpureBariteRd.name=含杂 重晶石(Rd)粉
 item.dustPureBariteRd.name=纯净 重晶石(Rd)粉
@@ -2243,7 +2258,7 @@ item.itemDustSmallBariteRd.name=小堆重晶石(Rd)粉
 
 tile.OreHoneaite.name=碲化金铊矿石
 item.crushedHoneaite.name=粉碎碲化金铊矿石
-item.crushedCentrifugedHoneaite.name=离心粉碎碲化金铊矿石
+item.crushedCentrifugedHoneaite.name=离心碲化金铊矿石
 item.crushedPurifiedHoneaite.name=洗净的碲化金铊矿石
 item.dustImpureHoneaite.name=含杂碲化金铊粉
 item.dustPureHoneaite.name=纯净碲化金铊粉
@@ -2253,7 +2268,7 @@ item.itemDustSmallHoneaite.name=小堆碲化金铊粉
 
 tile.OreLafossaite.name=铊盐矿石
 item.crushedLafossaite.name=粉碎铊盐矿石
-item.crushedCentrifugedLafossaite.name=离心粉碎铊盐矿石
+item.crushedCentrifugedLafossaite.name=离心铊盐矿石
 item.crushedPurifiedLafossaite.name=洗净的铊盐矿石
 item.dustImpureLafossaite.name=含杂铊盐粉
 item.dustPureLafossaite.name=纯净铊盐粉
@@ -2263,7 +2278,7 @@ item.itemDustSmallLafossaite.name=小堆铊盐粉
 
 tile.OreKashinite.name=硫铑铱矿矿石
 item.crushedKashinite.name=粉碎硫铑铱矿矿石
-item.crushedCentrifugedKashinite.name=离心粉碎硫铑铱矿矿石
+item.crushedCentrifugedKashinite.name=离心硫铑铱矿矿石
 item.crushedPurifiedKashinite.name=洗净的硫铑铱矿矿石
 item.dustImpureKashinite.name=含杂硫铑铱矿粉
 item.dustPureKashinite.name=纯净硫铑铱矿粉
@@ -2273,7 +2288,7 @@ item.itemDustSmallKashinite.name=小堆硫铑铱矿粉
 
 tile.OreRadioactiveMineralMix.name=奇异矿石
 item.crushedRadioactiveMineralMix.name=粉碎奇异矿石
-item.crushedCentrifugedRadioactiveMineralMix.name=离心粉碎奇异矿石
+item.crushedCentrifugedRadioactiveMineralMix.name=离心奇异矿石
 item.crushedPurifiedRadioactiveMineralMix.name=洗净的奇异矿石
 item.dustImpureRadioactiveMineralMix.name=含杂奇异粉
 item.dustPureRadioactiveMineralMix.name=纯净奇异粉
@@ -2281,13 +2296,13 @@ item.itemDustRadioactiveMineralMix.name=奇异粉
 item.itemDustTinyRadioactiveMineralMix.name=小撮奇异粉
 item.itemDustSmallRadioactiveMineralMix.name=小堆奇异粉
 
-tile.OreDemicheleiteBr.name=溴硫铋矿(Br)矿石
-item.crushedDemicheleiteBr.name=粉碎溴硫铋矿(Br)矿石
-item.crushedCentrifugedDemicheleiteBr.name=离心粉碎溴硫铋矿(Br)矿石
-item.crushedPurifiedDemicheleiteBr.name=洗净的溴硫铋矿(Br)矿石
-item.dustImpureDemicheleiteBr.name=含杂溴硫铋矿(Br)粉
-item.dustPureDemicheleiteBr.name=纯净溴硫铋矿(Br)粉
-item.itemDustDemicheleiteBr.name=溴硫铋矿(Br)粉
+tile.OreDemicheleiteBr.name=溴硫铋(Br)矿石
+item.crushedDemicheleiteBr.name=粉碎溴硫铋(Br)矿石
+item.crushedCentrifugedDemicheleiteBr.name=离心溴硫铋(Br)矿石
+item.crushedPurifiedDemicheleiteBr.name=洗净的溴硫铋(Br)矿石
+item.dustImpureDemicheleiteBr.name=含杂溴硫铋(Br)粉
+item.dustPureDemicheleiteBr.name=纯净溴硫铋(Br)粉
+item.itemDustDemicheleiteBr.name=溴硫铋(Br)粉
 
 
 //Materials
@@ -2633,7 +2648,7 @@ tile.Abyssal Alloy Frame Box.name=深渊合金框架
 //Radioactive
 item.dustTechnetium99M.name=锝-99M粉
 item.dustTechnetium99.name=锝-99粉
-item.dustMolybdenum99.name=钼99粉
+item.dustMolybdenum99.name=钼-99粉
 
 //Bags
 item.item.MysticBag.name=神秘袋
@@ -2825,10 +2840,10 @@ item.gtpp.debug.scanner.name=GT++Debug扫描器
 item.RawWaste.name=动物粪便单元
 item.ManureSlurry.name=粪浆单元
 item.FertileManureSlurry.name=肥沃的粪浆单元
-item.itemDustTinyDemicheleiteBr.name=小撮溴硫铋矿(Br)
-item.itemDustSmallDemicheleiteBr.name=小堆溴硫铋矿(Br)
+item.itemDustTinyDemicheleiteBr.name=小撮溴硫铋(Br)
+item.itemDustSmallDemicheleiteBr.name=小堆溴硫铋(Br)
 tile.blockPooCollector.name=农业下水道
-tile.Block of Lithium 7.name=锂7块
+tile.Block of Lithium 7.name=锂-7块
 
 //Added 14/3/19
 item.blood.name=血单元
@@ -2979,17 +2994,17 @@ tile.White Metal Frame Box.name=白物质框架
 //Added 29/04/2019
 tile.OreRunite.name=虚恩矿
 item.crushedRunite.name=粉碎的虚恩矿
-item.crushedCentrifugedRunite.name=离心的粉碎虚恩矿
-item.crushedPurifiedRunite.name=洗净的的粉碎虚恩矿
+item.crushedCentrifugedRunite.name=离心的虚恩矿
+item.crushedPurifiedRunite.name=洗净的虚恩矿
 item.dustImpureRunite.name=含杂虚恩粉
-item.dustPureRunite.name=洗净虚恩粉
+item.dustPureRunite.name=纯净虚恩粉
 
 tile.OreAncientGranite.name=古花岗岩矿
 item.crushedAncientGranite.name=粉碎的古花岗岩矿
-item.crushedCentrifugedAncientGranite.name=离心的粉碎古花岗岩矿
-item.crushedPurifiedAncientGranite.name=洗净的粉碎古花岗岩矿
+item.crushedCentrifugedAncientGranite.name=离心的古花岗岩矿
+item.crushedPurifiedAncientGranite.name=洗净的古花岗岩矿
 item.dustImpureAncientGranite.name=含杂古花岗岩粉
-item.dustPureAncientGranite.name=洗净古花岗岩粉
+item.dustPureAncientGranite.name=纯净古花岗岩粉
 
 item.itemIngotRhugnor.name=鲁格诺锭
 item.itemDustRhugnor.name=鲁格诺粉
@@ -3032,13 +3047,13 @@ item.itemFineWireGrisium.name=细灰钛合金导线
 item.itemFineWireBabbitAlloy.name=细巴氏合金导线
 item.itemFineWireKoboldite.name=细妖金导线
 item.itemFineWireHG1223.name=细HG-1223导线
-item.itemFineWireQuantum.name=细量子导线
+item.itemFineWireQuantum.name=细量子合金导线
 
 item.itemHeavyPlatePotin.name=重型粗青铜板
 item.itemHeavyPlateWatertightSteel.name=重型防水钢板
 item.itemHeavyPlateBronze.name=重型青铜板
 item.itemHeavyPlateOsmiridium.name=重型铱锇合金板
-item.itemHeavyPlateQuantum.name=重型量子板
+item.itemHeavyPlateQuantum.name=重型量子合金板
 item.itemHeavyPlateBlackSteel.name=重型黑钢板
 item.itemHeavyPlateStainlessSteel.name=重型不锈钢板
 item.itemHeavyPlateEglinSteel.name=重型埃格林钢板
@@ -3193,7 +3208,7 @@ item.BasicGenericChemItem.2.name=蓝色金属催化剂
 item.BasicGenericChemItem.3.name=橙色金属催化剂
 item.BasicGenericChemItem.4.name=紫色金属催化剂
 item.BasicGenericChemItem.5.name=棕色金属催化剂
-item.MudRedSlurry.name=红色泥浆单元
+item.MudRedSlurry.name=赤泥浆单元
 item.liquid_toluene.name=甲苯单元
 
 //Added 17/01/20
@@ -3338,9 +3353,9 @@ item.BasicNuclearChemItem.5.name=纤维素纤维
 item.BasicNuclearChemItem.6.name=金褐纤维素纤维
 item.BasicNuclearChemItem.7.name=红色纤维素纤维
 
-item.itemCellLiFBeF2ZrF4U235.name=熔盐单元[铀235复合氟化物]
-item.itemCellLiFBeF2ZrF4UF4.name=熔盐单元[铀锆复合氟化物]
-item.itemCellLiFBeF2ThF4UF4.name=熔盐单元[铀钍复合氟化物]
+item.itemCellLiFBeF2ZrF4U235.name=液态氟钍反应堆燃料1单元
+item.itemCellLiFBeF2ZrF4UF4.name=液态氟钍反应堆燃料2单元
+item.itemCellLiFBeF2ThF4UF4.name=液态氟钍反应堆燃料3单元
 item.Li2BeF2UF4.name=枯竭熔盐单元[Li2BeF2UF4]
 
 //Added 6/12/21
@@ -3361,8 +3376,8 @@ item.itemCellThorium.name=钍单元
 item.itemCellTellurium.name=碲单元
 item.itemCellThorium232.name=钍-232单元
 item.itemCellLithiumTetrafluoroberyllate.name=四氟铍酸锂单元
-item.itemCellBurntReactorFuelI.name=枯竭熔盐单元[铀235复合氟化物]
-item.itemCellBurntReactorFuelII.name=枯竭熔盐单元[铀锆复合氟化物]
+item.itemCellBurntReactorFuelI.name=枯竭液态氟钍反应堆燃料1单元
+item.itemCellBurntReactorFuelII.name=枯竭液态氟钍反应堆燃料2单元
 item.itemDustTinyIndium.name=小撮铟粉
 item.itemDustSmallIndium.name=小堆铟粉
 item.itemDustIndium.name=铟粉

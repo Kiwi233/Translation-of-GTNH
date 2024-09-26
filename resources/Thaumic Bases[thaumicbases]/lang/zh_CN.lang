@@ -4,7 +4,7 @@ tc.research_category.THAUMICBASES=神秘基础学
 enchantment.elderKnowledge=睿智
 enchantment.eldritchBane=异域杀手
 enchantment.magicTouch=魔法之触
-enchantment.Tainted=污染
+enchantment.tainted=腐化
 enchantment.vaporising=蒸发
 tb.rec.enchantments.magictouched=附魔了魔法之触的武器杀死生物时会掉落更多的要素球.
 tb.rec.enchantments.vaporising=附魔了蒸发的武器杀死生物时,有几率掉落对应的晶化源质.
@@ -83,9 +83,9 @@ tile.tb.voidblock.name=虚空金属块
 tile.thaumicAnvil.intact.name=神秘铁砧
 tile.thaumicAnvil.slightlyDamaged.name=轻微损坏的神秘铁砧
 tile.thaumicAnvil.veryDamaged.name=严重损坏的神秘铁砧
-tile.voidAnvil.intact.name=虚空铁砧
-tile.voidAnvil.slightlyDamaged.name=轻微损坏的虚空铁砧
-tile.voidAnvil.veryDamaged.name=严重损坏的虚空铁砧
+tile.voidAnvil.intact.name=虚空金属砧
+tile.voidAnvil.slightlyDamaged.name=轻微损坏的虚空金属砧
+tile.voidAnvil.veryDamaged.name=严重损坏的虚空金属砧
 
 tile.peacefullTreeSapling.name=和平树苗
 tile.netherTreeSapling.name=地狱树苗
@@ -282,6 +282,7 @@ tb.rec.lazullia.page.0=有时候神秘使会需要一点青金石来进行魔法
 tc.research_name.TB.RainbowCacti=彩虹仙人掌
 tc.research_text.TB.RainbowCacti=抓住彩虹,品尝彩虹!
 tb.rec.rainCacti.page.0=魔法不总是严格而且富有逻辑性的,毕竟它是魔法.生命也遵循同样的法则——它也有很多种形态,有时候令人震惊,有时候十分滑稽.你创造出了一种植物,如图'滑稽'这个词的意思一样.它就像普通仙人掌那样生长,也就是必须种植在沙地上,它会生长到3格高.然而如果被破坏时只剩最后一格的时候,它会掉落一个彩虹仙人掌,否则会掉落一些染料.彩虹仙人掌并不能掉落一些特殊的染料比如骨粉和青金石.它掉落绿色染料比其他种类的染料概率要高得多.
+tb.rec.rainCacti.page.0.gt=魔法并不总是严格和合乎逻辑的 -  毕竟,它可是魔法. 生活也是如此 -  它可以有各种形式,有时令人震惊,有时令人发笑.你成功地创造了一种植物,这几乎就是 "有趣" 一词的定义.这种植物的功能与普通的仙人掌无异 - 它必须放在沙子上,最多可生长 3 格.不过,一旦被打破,只有当仙人掌只剩下最后一格时,它才会掉落自己.否则,它会掉落各种染料.
 
 tc.research_name.TB.Metalleat=金属草
 tc.research_text.TB.Metalleat=铁有利于你的健康
@@ -416,7 +417,7 @@ tb.rec.overchanter.page.0=神秘使通常会向普通物品注入魔法力量来
 tb.rec.overchanter.page.1=这个设备会提升物品上的第一个附魔.这个顺序和物品中附魔描述的顺序相同.之前的强化后的附魔将会被忽略——这个设备还没有制作出锋利VII那样强力的能力.它并没有考虑这个附魔本身的特性,因此例如精准采集II这样的附魔是会出现的,虽然这并没有什么卵用.如果想给物品注入魔力只需要把它放进超吟附魔台中唯一的栏位然后用法杖点击附魔台2次.然后附魔台会从附近吸收总共32点的Praecantatio源质.这个附魔台也需要有一个玩家在附近,由于这个附魔过程中会从玩家身上抽取30级经验!
 tb.rec.overchanter.page.2=超吟附魔台可以在任何时候停止它的工作,但是吸收的经验与源质就会被浪费掉了.附魔台会在8格范围内吸收Praecantatio源质,范围之内的源质之镜也能很好的工作.附魔台会忽略等级没有达到30级的玩家,因此即便是多人的等级和超过30附魔台也不会工作.任何物品只要具有附魔就可以使用超吟附魔台,但是没有附魔的物品放上去并不会产生什么卵用.
 
-tc.research_name.TB.EntityDec=实体粉碎机
+tc.research_name.TB.EntityDec=实体解构器
 tc.research_text.TB.EntityDec=活生生的知识
 tb.rec.eDec.page.0=有时候神秘使会需要更多的知识来继续他的研究.当然,它可以探索这个世界或者使用解构工作台,但是还有其他方法吗?你已经成功创造了一个设备,它能够缓慢杀死它上面的生物,然后把得到的知识直接送入你的脑子中.成为它的'拥有者'也十分简单,只需要将他放入世界中然后点击它.然而知识传输是有距离限制的,如果距离太远,这些传送功率过大的知识有可能会损害你的心理健康.
 
@@ -481,10 +482,10 @@ tb.rec.enchantments.vaporise=附魔了蒸发的武器杀死生物时,有几率�
 tb.rec.enchantments.taint=附魔了污染的武器命中后会造成额外的污染伤害.它还会使目标获得污染debuff.但这种武器对已被污染的生物不太有效.
 
 #1.1 researches
-tc.research_name.TB.EntityDecAdv=高级解构工作台
-tc.research_text.TB.EntityDecAdv=更好的分解!
-tb.rec.eDeca.page.0=你已经成功改进了你的解构工作台.你发现基础的解构工作台太不稳定而且充满混沌.它有时候甚至会把知识也分解了,并且会带来扭曲.你找到了一个方法来解决这个问题.你发现当你手持晶簇块并右击解构工作台时,解构工作台会被晶簇块所稳定下来.所有原始要素的晶簇块都可以用来稳定它.
-tb.rec.eDeca.page.1=每一个晶簇块都会增加设备10格的知识传输距离.它们同时可以降低污染知识的概率,并且可以提升解构工作台的效率.如果所有种类的晶簇块都被安装上了,那么解构工作台会达到最佳的稳定状态,知识传输距离会变成无限并且将知识被污染的概率降低到0.同时解构工作台的工作速度会提升到难以置信的迅速,还能像分解物品那样分解生物.物品并不总是会产生知识,但是使用高级解构工作台会有更高的概率得到它们.然而高级解构工作台也只会得到原始要素.
+tc.research_name.TB.EntityDecAdv=实体解构器升级
+tc.research_text.TB.EntityDecAdv=更好地分解!
+tb.rec.eDeca.page.0=你成功改进了自己的实体解构器.你发现基础的实体解构器太不稳定而且充满混沌.它有时候甚至会把知识也分解了,并且会带来扭曲.你找到了一个方法来解决这个问题.似乎只需要将晶簇块插入设备框架中即可-提升其稳定性并加强魔法共振.所有基础要素的晶簇块都可以用来稳定它.
+tb.rec.eDeca.page.1=每一个晶簇块都会增加设备10格的知识传输距离.它们同时可以降低污染知识的概率,并且可以提升解构器的效率.如果所有种类的晶簇块都被安装上了,那么解构器会达到最佳的稳定状态,知识传输距离会变成无限并且将知识被污染的概率降低到0.同时解构器的工作速度会提升到难以置信的迅速,还能像分解物品那样分解生物.物品并不总是会产生知识,但是使用升级的实体解构器会有更高的概率得到它们.不过也只会得到基础要素.
 
 
 
@@ -496,10 +497,10 @@ tc.research_name.TB.ThaumicAnvil=神秘铁砧
 tc.research_text.TB.ThaumicAnvil=为什么他们从没想过?
 tb.rec.thaumicAnvil.page.0=你已经烦透了那些铁砧,它们仅仅在敲击几下之后就碎了并且像黑洞一样吸收你的经验!因此你使用了神秘金属的知识制作了一个更好的神秘铁砧,它的耐久性大大改善了并且能够保持完整的功能!<BR>神秘铁砧当然不是一个普通的铁砧,它能够比普通铁砧吸收更多的生命力量,能把铁砧能够进行加工的等级上限提升到60.你在它上面进行物品修复时,并不会受到消耗惩罚,每一次修复的消耗都像第一次修复那样!
 
-tc.research_name.TB.VoidAnvil=虚空铁砧
+tc.research_name.TB.VoidAnvil=虚空金属砧
 tc.research_text.TB.VoidAnvil=修复乘以修复
-tb.rec.voidAnvil.page.0=尽管神秘铁砧已经十分优秀了,但是它也会损坏.可能不会损坏的非常快,但是它终究还是会坏的.然而当你解锁了虚空金属之后得到了一个想法,为什么不用它们来制作一个铁砧呢?这个结果是...十分有趣的.<BR>首先,你所制作的这个铁砧保持了虚空金属的基本特性——自我修复,因此铁砧会自动的修复自己的损伤.但是虚空铁砧也具有不同的特性,不论你在它上面进行何种工作,不论是修复,改名或者使用附魔书,它都只吸取7级的经验.
-tb.rec.voidAnvil.page.1=虚空铁砧像神秘铁砧一样也不会有多次修复惩罚.<BR>当你修复你的工具时,你发现了一些虚空金属流入了你的工具裂缝之中,但是那并没有什么可担心的,不是吗?
+tb.rec.voidAnvil.page.0=尽管神秘铁砧已经十分优秀了,但是它也会损坏.可能不会损坏的非常快,但是它终究还是会坏的.然而当你解锁了虚空金属之后得到了一个想法,为什么不用它们来制作一个铁砧呢?这个结果是...十分有趣的.<BR>首先,你所制作的这个铁砧保持了虚空金属的基本特性——自我修复,因此铁砧会自动的修复自己的损伤.但是虚空金属砧也具有不同的特性,不论你在它上面进行何种工作,不论是修复,改名或者使用附魔书,它都只吸取7级的经验.
+tb.rec.voidAnvil.page.1=虚空金属砧像神秘铁砧一样也不会有多次修复惩罚.<BR>当你修复你的工具时,你发现了一些虚空金属流入了你的工具裂缝之中,但是那并没有什么可担心的,不是吗?
 
 tc.research_name.TB.EnderSapling=末影树
 tc.research_text.TB.EnderSapling=末地的记忆

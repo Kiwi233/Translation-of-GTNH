@@ -49,6 +49,7 @@ item.ItemPurpleVoidwalkerBoots.name=紫霾之靴
 
 item.ItemSeasonBoots.name=四季之靴
 item.ItemChristmasBoots.name=圣诞精灵之靴
+item.ItemSlowBoots.name=懒惰之靴
 
 #Research things
 tc.research_category.THAUMICBOOTS=神秘之靴
@@ -74,6 +75,9 @@ tc.research_text.TB_Seasonal_Boots=圣诞之灵与其余诸术法现象
 tc.research_name.TB_Seasonal_Stabilized=稳定的季节之术法
 tc.research_text.TB_Seasonal_Stabilized=季节之术法的稳定化
 
+tc.research_name.TB_Unique_Boots=独特之术法
+tc.research_text.TB_Unique_Boots=对于不可复制术法的研究
+
 #Actual Researches
 Core.1=你在研究中发现了一些...独特的东西.于此,你发现你能在某种程度上将不同的术法能量加以结合而产生一些...<BR><BR>独特的产物.<BR><BR>一种新形式的能量,甚至比它的组成部分单纯相加还要更加强大.<BR><BR>你好奇它能否应用于其他的地方.
 ExplorationsCore.1=遍览群星,碾入深空,星体们回应了你的赤诚:"彗星"与"流星"之技艺.<BR><BR>这竟是有关靴子的原初魔法,群星也了解有关足具的秘法吗?<BR><BR>似乎,还有更多的回声没有被揭秘...
@@ -87,6 +91,7 @@ ExplorationsEMT.1=当你继续研究电力时,你注意到了一些有趣的事�
 SeasonalCore.1=当你研究术法现象时,你发现了一些奇怪的东西:在太阳历的某些部分,术法能量会出现爆发.<BR><BR>已经发现这些爆发会导致各种转变,例如把箱子变成礼物盒,以及在爆发结束后变回去.有趣的是,你成功地捕获了这种混沌的能量.<BR><BR>不过你还是好奇有没有办法将这些能量稳定下来...
 SeasonalStabilized.1=随着你关于季节性术法现象的研究深入,你发现了一些有趣的东西:实际上有可能将这些能量调谐到一种特定的现象,从而导致一种被高度放大了的季节效应...但有一个缺点:当相应的季节结束后,效应会减弱到难以置信的地步.<BR><BR>你注意到的第一个这类效应是一种随着时间而显著提升持续冲刺速度,并且和彗星的术法类似地将水冻结的效应.<BR><BR>不过,我发誓我听到了雪橇铃铛在响...
 SeasonalStabilized.2=你认为你应该十二月再到这儿来...
+UniqueCore.1=当你研究术法现象时,你遇到了一些奇特的东西:有些术法只能在特定的场景中被重新施展.你偶然发现的第一个例子是一个看似简单的迟缓诅咒.<BR><BR>然而,尽管你能够复制出那双靴子,你却始终无法理解其中的术法能量是如何运作的,也无法直接再现它.<BR><BR>你开始思索,是否会在类似的情况下再次遇到这样的能量...
 
 #Aspects
 tc.aspect.caelum=宙空
@@ -96,6 +101,11 @@ itemGroup.Thaumic Boots=神秘之靴
 
 keybinding.speedtoggle=调整速度增幅
 keybinding.jumptoggle=调整跳跃增幅
+keybinding.omnitoggle=调整跳跃增幅
 
 thaumicboots.jumpEffect=跳跃提升:
 thaumicboots.speedEffect=速度提升:
+thaumicboots.omniEffect=全能模式:
+
+thaumicboots.omniStatetrue=已激活
+thaumicboots.omniStatefalse=停用

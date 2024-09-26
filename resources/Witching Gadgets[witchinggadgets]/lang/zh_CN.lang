@@ -90,15 +90,15 @@ item.WG_Kama.spectral.name=幽灵短袍
 item.WG_Kama.wolf.name=野狼短袍
 
 #unused
-item.WG_EliteArmorHelm.ANGELIC_0.name=Ophanic Helm
-item.WG_EliteArmorChest.ANGELIC_1.name=Seraph's Cuirass
-item.WG_EliteArmorLegs.ANGELIC_2.name=Cherub Greaves
-item.WG_EliteArmorBoots.ANGELIC_3.name=Sabatons of the Valkyrie
+item.WG_EliteArmorHelm.ANGELIC_0.name=座天使头盔
+item.WG_EliteArmorChest.ANGELIC_1.name=炽天使胸铠
+item.WG_EliteArmorLegs.ANGELIC_2.name=智天使护胫
+item.WG_EliteArmorBoots.ANGELIC_3.name=女武神的安息日
 
-item.WG_EliteArmorHelm.DEMONIC_0.name=Helm of Leviathan
-item.WG_EliteArmorChest.DEMONIC_1.name=Asrael's Cuirass
-item.WG_EliteArmorLegs.DEMONIC_2.name=Lycan's Greaves
-item.WG_EliteArmorBoots.DEMONIC_3.name=Claws of the Behemoth
+item.WG_EliteArmorHelm.DEMONIC_0.name=利维坦的头盔
+item.WG_EliteArmorChest.DEMONIC_1.name=阿撒泻勒的胸铠
+item.WG_EliteArmorLegs.DEMONIC_2.name=狼人的护胫
+item.WG_EliteArmorBoots.DEMONIC_3.name=贝希摩斯的爪子
 
 item.WG_InfusedGem.name=蕴魔宝石
 item.WG_InfusedGem.innert.name=惰性宝石
@@ -469,17 +469,17 @@ witchinggadgets_research_page.GEMCUTTING.6=              §l椭圆琢型§r<LINE
 witchinggadgets_research_page.GEMCUTTING.7=§e§lAer:§r§0风之力会推动你前行,每次使用消耗1充能.<BR>§2§lTerra:§r§0在一个方块上使用时,它会检测相连的方块来搜寻矿物,每次使用消耗1充能.<BR>§c§lIgnis:§r§0在所指方块上燃起一团火焰,每次使用消耗1充能.<BR>§3§lAqua:§r§0在所指方块上生成水方块.每次使用消耗2充能.<BR>§7§lOrdo:§r§0为你指出最近的节点所在的方位.每次使用消耗2充能.<BR>§8§lPerditio:§r§0对魔镜使用时,会将你传送到相连的另一个魔镜,每次使用消耗16充能.(需要shift右击)
 witchinggadgets_research_page.GEMCUTTING.7.noMirrors=§e§lAer:§r§0风之力会推动你前行,每次使用消耗1充能.<BR>§2§lTerra:§r§0在一个方块上使用时,它会检测相连的方块来搜寻矿物,每次使用消耗1充能.<BR>§c§lIgnis:§r§0在所指方块上燃起一团火焰,每次使用消耗1充能.<BR>§3§lAqua:§r§0在所指方块上生成水方块.每次使用消耗2充能.<BR>§7§lOrdo:§r§0为你指出最近的节点所在的方位.每次使用消耗2充能.<BR>§8§lPerditio:§r§0释放一阵能量波,推开周围的敌人并致盲.每次使用消耗2充能.
 #
-witchinggadgets_research_name.GEMCUT_TABLE=Table Cut
-witchinggadgets_research_text.GEMCUT_TABLE=[WG] Bling
+witchinggadgets_research_name.GEMCUT_TABLE=桌形琢型
+witchinggadgets_research_text.GEMCUT_TABLE=[WG]辉煌
 witchinggadgets_research_page.GEMCUT_TABLE.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:80:0:80:80:1</IMG>The table cut is
-witchinggadgets_research_name.GEMCUT_STEP=Step Cut
-witchinggadgets_research_text.GEMCUT_STEP=[WG] Shwing
+witchinggadgets_research_name.GEMCUT_STEP=阶梯琢型
+witchinggadgets_research_text.GEMCUT_STEP=[WG]寒芒
 witchinggadgets_research_page.GEMCUT_STEP.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:160:0:80:80:1</IMG>The table cut is
-witchinggadgets_research_name.GEMCUT_ROSE=Rose Cut
-witchinggadgets_research_text.GEMCUT_ROSE=[WG] Sparkle
+witchinggadgets_research_name.GEMCUT_ROSE=玫瑰琢型
+witchinggadgets_research_text.GEMCUT_ROSE=[WG]闪耀
 witchinggadgets_research_page.GEMCUT_ROSE.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:0:80:80:80:1</IMG>The table cut is
-witchinggadgets_research_name.GEMCUT_OVAL=Oval Cut
-witchinggadgets_research_text.GEMCUT_OVAL=[WG] Gleam
+witchinggadgets_research_name.GEMCUT_OVAL=椭圆琢型
+witchinggadgets_research_text.GEMCUT_OVAL=[WG]微光
 witchinggadgets_research_page.GEMCUT_OVAL.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:80:80:80:80:1</IMG>The oval cut is the perfection in gemcutting. It is used in the creation of baubles but can also be affixed to most armorpieces and tools, giving them socketed effects. See the following pages for a list.
 
 
@@ -608,61 +608,61 @@ witchinggadgets_research_text.ARCANEAUTOCRAFTER=[WG]奥术自动合成!
 witchinggadgets_research_page.ARCANEAUTOCRAFTER.1=那些发现了永生秘密的法师拥有无尽的时间(你可以通过那些长长的白胡子认出他们).但像你这样平凡的神秘使们又如何呢?为了尽可能的节省时间,为何不让其他人代替你进行枯燥无味的合成工作呢?当然,没人敢将法杖这样危险的东西交付给傀儡,但这个有着半意识的木桌却可以胜任.
 witchinggadgets_research_page.ARCANEAUTOCRAFTER.2=只需要设定好想要的配方(普通配方或奥术合成),提供原料,必要的话还要一根充能的法杖,然后就可以让它为你工作了.要注意的是,合成的研究知识需求受限于放置方块的那个玩家.
 #
-witchinggadgets_research_name.VORPALBLADE=Vorpal Blade
-witchinggadgets_research_text.VORPALBLADE=SNICKER-SNACK!
-witchinggadgets_research_page.VORPALBLADE.1=§oOne, two! One, two! and through and through<BR>The vorpal blade went snicker-snack!<BR>He left it dead, and with its head<BR>He went galumphing back§r<LINE>A sword of legend. So powerful that it will cleanly cut through any material known to men and is likely to fatally strike and behead most any foe.
+witchinggadgets_research_name.VORPALBLADE=斩首刀
+witchinggadgets_research_text.VORPALBLADE=咔擦咔擦!
+witchinggadgets_research_page.VORPALBLADE.1=§o一下两下一刺又刺<BR>咔擦咔擦剑身颤抖!<BR>他屹立龙尸上手提其头<BR>他的归途上凯歌高奏.§r<LINE>传说中的剑.十分强大,可以干脆的切穿任何人类已知的材料,对大多数敌人可以造成致命伤害并砍下它们的头.
 #
-witchinggadgets_research_name.WALLMIRROR=Mirror on the Wall
-witchinggadgets_research_text.WALLMIRROR=[WG] The most magical of all!
-witchinggadgets_research_page.WALLMIRROR.1=Further delving into the magic of the mirrors has lead you to the discovery of a safe haven within the void between worlds.<BR>While this location is brimming with magic, otherwise it appears to be void of anything. It has no visible layer of flooring, yet somehow you can stand there.<BR>This space seems to be an excellent way of traveling. Since it is vast and empty as well, it should be easy to store any of your belongings in this void-between-worlds
-witchinggadgets_research_page.WALLMIRROR.2=§lAccess:§r<BR>Place the mirror wherever you like. When you'd like to open the portal, simply right-click it. The dimension accessed through it is the same from any mirror, but portals out of it are only created where it is entered. This means that you can only leave where another Mirror has been placed in the Overworld.<BR><BR>§lNavigation:§r<BR>An invisible floor will spawn in a 5x5 below you wherever you walk. These blocks can be replaced with normal blocks by right-clicking them, allowing you to build there. Jump to ascend, the floor will follow you. Holding the sneak key will make you descend.
+witchinggadgets_research_name.WALLMIRROR=墙上的魔镜
+witchinggadgets_research_text.WALLMIRROR=[WG]最魔的法!
+witchinggadgets_research_page.WALLMIRROR.1=深入研究镜子的魔法让你发现了处于世界间虚空中的避风港.<BR>虽然这里充满了魔力,但除此之外什么都没有.尽管你能站立,这里却没有可见的地面.<BR>这是个绝妙的旅行空间.这片存在于世界和世界间的虚空广袤又空旷,在这里存储你的物品也很方便.
+witchinggadgets_research_page.WALLMIRROR.2=§l进入:§r<BR>把镜子放在合适的地方.右键它打开传送门.从任何镜子进入的都是同一片空间,但是生成的出去的传送门只会通向来时的镜子.也就是说只有有一块镜子放置在主世界时才能出去.<BR><BR>§l指引:§r<BR>当你走动时,脚下的5x5会出现隐形的地板.这些地板可以用普通方块右键来替换,由此可以放置方块.跳跃上升时地板也会生成在脚下.按住下蹲可以下降.
 #
 
 
 # ELITE RUNIC ARMOR
-witchinggadgets_research_name.ELITERUNICARMOR=Elite Runic Armor
-witchinggadgets_research_text.ELITERUNICARMOR=[WG] Overshield!
-witchinggadgets_research_page.ELITERUNICARMOR.1=While runic armor is an excellent form of protection, you have come to realize that you can also apply these runes to actual armor. With that you are not only granted normal armor, the bigger surface also allows more runes, increasing the pool of runes this armor provides. A wise mage would use the newly aquired set of scribing tools, because this procedure drains a hundred units of ink and a standard pen would break from this.
+witchinggadgets_research_name.ELITERUNICARMOR=精英符文护甲
+witchinggadgets_research_text.ELITERUNICARMOR=[WG]防护过当!
+witchinggadgets_research_page.ELITERUNICARMOR.1=虽然符文护甲可以提供优秀的防护,但你还发现你能把这些符文附加到其他的盔甲之上.这样你不仅能得到普通的护甲,他们更大的表面可以附加更多的符文,从而增加盔甲可以提供的符文护盾容量.聪明的魔法师会使用全新装填的笔与墨,因为这个过程会消耗一百单位的墨水,一般的笔会因此损坏.
 #
 # ELITE ARMOR SETS
-witchinggadgets_research_name.DEMONIC_HELM=Helm of Leviathan
-witchinggadgets_research_text.DEMONIC_HELM=[WG] A beast rising from the sea, with ten horns and seven heads
-witchinggadgets_research_page.DEMONIC_HELM.1=The depths that are home to the beast shall be easily traversed when you wear this helm. You shall find air to breath even down there and be able to see even through the densest darkness.
+witchinggadgets_research_name.DEMONIC_HELM=利维坦的头盔
+witchinggadgets_research_text.DEMONIC_HELM=[WG]一个兽从海中上来,有十角七头
+witchinggadgets_research_page.DEMONIC_HELM.1=穿戴此头盔时,你能轻松穿越怪物居住的深渊.你能在那里呼吸,能看穿最浓稠的黑暗.
 #
-witchinggadgets_research_name.DEMONIC_CHEST=Asrael's Cuirass
-witchinggadgets_research_text.DEMONIC_CHEST=[WG] And behold, a pale horse! And its rider's name was Death.
-witchinggadgets_research_page.DEMONIC_CHEST.1=And his victims fell before his feet. While one is wearing this cuirass, they are not only granted the power of flight, but health leeching abilities as well. Upon killing any living creature, the wearer of this infernal armor absorbs part of their very life-force This allows the aforementioned wearer to add twenty percent of the killed creatures health to its own, appearing as absorption hitpoints. These extra units of health last only ten minutes. Only creatures with 10 hearts or more are valid prey for this spell. If that wasn't enough, the wearer is granted twenty seconds of heightened saturation upon killing any creature
+witchinggadgets_research_name.DEMONIC_CHEST=阿撒泻勒的胸铠
+witchinggadgets_research_text.DEMONIC_CHEST=[WG]我就观看,见有一匹灰色马.骑在马上的,名字叫作死.
+witchinggadgets_research_page.DEMONIC_CHEST.1=他杀的人倒在他的脚下.穿上这个胸铠的人会获得飞行效果和吸血.穿着这件地狱盔甲时,击杀任何生物都将吸取它们的生命力,穿戴者会吸收20%所击杀生物的生命值,转换为自己的伤害吸收值.这些临时的心只会持续10分钟.只有击杀10颗心以上生命值的生物才会触发这个效果.如果不足10颗心,击杀只会获得20秒的饱和效果.
 #
-witchinggadgets_research_name.DEMONIC_LEGS=Lycan's Greaves
-witchinggadgets_research_text.DEMONIC_LEGS=[WG] These paws were made for pouncing!
-witchinggadgets_research_page.DEMONIC_LEGS.1=Werewolves are ferocious beasts. Even more so when provoked. These greaves, imbued with the aspects that represent them, grant you their immense speed. Should you be attacked, they send you into a blood rage, drastically increasing your damage. While sprinting, hold the assigned key (default: Ctrl) to gain a haste buff.
+witchinggadgets_research_name.DEMONIC_LEGS=狼人的护胫
+witchinggadgets_research_text.DEMONIC_LEGS=[WG]这些利爪生来就是为了猛扑!
+witchinggadgets_research_page.DEMONIC_LEGS.1=狼人是凶猛的野兽,被激怒时更是如此.这些护胫充满了狼人的野性,赋予你巨大的速度.如果你受到攻击,它们会让你怒火中烧,大大增加你的伤害.冲刺时,按住指定的键(默认:Ctrl)以获得加速效果.
 #
-witchinggadgets_research_name.DEMONIC_BOOTS=Claws of the Behemoth
-witchinggadgets_research_text.DEMONIC_BOOTS=[WG] And where he tread, he laid waste upon the land
-witchinggadgets_research_page.DEMONIC_BOOTS.1=These clawed feet will allow you to run at higher speed, and wont take damage on falling. It's claws also allow you to scale walls. Crouching before you jump will allow you to jump higher, but this might result in damage to the blocks below you.
+witchinggadgets_research_name.DEMONIC_BOOTS=贝希摩斯的爪子
+witchinggadgets_research_text.DEMONIC_BOOTS=[WG] 所到之处,寸草不生
+witchinggadgets_research_page.DEMONIC_BOOTS.1=这些爪型靴子让你跑得更快,同时免疫跌落伤害.它们的爪子还能让你爬墙.先下蹲再跳可以跳得更高,但有可能损坏脚下的方块.
 #
 #
-witchinggadgets_research_name.ANGELIC_HELM=Ophanic Helm
-witchinggadgets_research_text.ANGELIC_HELM=[WG] Lights will guide you home
-witchinggadgets_research_page.ANGELIC_HELM.1=Even in the deepest dark, a light will shine for you. Whereever you go, a shimmer of magical light acompanies you. It vanishes shortly after you depart and only appears in dark areas.
+witchinggadgets_research_name.ANGELIC_HELM=座天使头盔
+witchinggadgets_research_text.ANGELIC_HELM=[WG]光芒指引回家的路
+witchinggadgets_research_page.ANGELIC_HELM.1=就算在最深邃的黑暗中,一束光芒仍然为你闪耀.无论走到哪里,一个微弱的魔法光亮会伴你左右.它只会在黑暗的区域出现,一旦移动会很快消失.
 #
-witchinggadgets_research_name.ANGELIC_CHEST=Seraph's Cuirass
-witchinggadgets_research_text.ANGELIC_CHEST=[WG] Blinded by the light!
-witchinggadgets_research_page.ANGELIC_CHEST.1=While wearing this cuirass, the Thaumaturge is strengthened by the powers of light. They are granted the ability to fly and get strengthened by the light. The brighter the light you're standing in, the higher your chance to regenerate some health. Finally, this cuirass contains otherworldly pockets allowing you to store items in it. Open them with the keybinding for using cloaks (default: 'G').
+witchinggadgets_research_name.ANGELIC_CHEST=炽天使胸铠
+witchinggadgets_research_text.ANGELIC_CHEST=[WG]圣光致盲!
+witchinggadgets_research_page.ANGELIC_CHEST.1=穿上这件胸甲,神秘使被光的力量所强化.他们被赋予了飞翔的能力,并获得更多力量.所站在的位置越亮,有更高的机会再生一些生命值.最后,这个胸甲包含一个异世界的口袋,可以让你在里面存放物品.用绑定的斗篷快捷键打开它们(默认：'G').
 #
-witchinggadgets_research_name.ANGELIC_LEGS=Cherub Greaves
-witchinggadgets_research_text.ANGELIC_LEGS=[WG] Green...kneecap?
-witchinggadgets_research_page.ANGELIC_LEGS.1=When you sneak over the fields on which the independant Thaumaturge grows his supplies, dirt will be tilled and farmland will be hydrated. Also, should you ever be in a tight spot, try crouching and jumping. You will be propelled high into the air and all creatures around you will be paralyzed for a short moment.
+witchinggadgets_research_name.ANGELIC_LEGS=智天使护胫
+witchinggadgets_research_text.ANGELIC_LEGS=[WG]绿...膝盖骨?
+witchinggadgets_research_page.ANGELIC_LEGS.1=当你在某位神秘使自力更生的田地周围潜行时,泥土将被耕种,耕地将被湿润.此外,如果不巧遇到危机,试着蹲下然后跳跃.你会跳到高空中,周围的生物会被暂时瘫痪.
 #
-witchinggadgets_research_name.ANGELIC_BOOTS=Sabatons of the Valkyrie
-witchinggadgets_research_text.ANGELIC_BOOTS=[WG] Feathered steps
-witchinggadgets_research_page.ANGELIC_BOOTS.1=By the magic of these boots you move at higher speed, and wont take damage on falling.<BR>Furthermore, you are granted the power of walking upon the surface of any liquid. This includes water and lava. Should you crouch you will sink.
+witchinggadgets_research_name.ANGELIC_BOOTS=女武神的安息日
+witchinggadgets_research_text.ANGELIC_BOOTS=[WG]羽毛般轻灵的脚步
+witchinggadgets_research_page.ANGELIC_BOOTS.1=这双靴子的魔法让你跑得更快,同时免疫跌落伤害.<BR>此外,你获得了能在任何液体表面行走的能力.包括水和岩浆.按住下蹲会下沉.
 #
 witchinggadgets_research_name.THAUMICAPPLICATOR=
 witchinggadgets_research_text.THAUMICAPPLICATOR=[WG] 
 witchinggadgets_research_page.THAUMICAPPLICATOR.1=
 #
 
-tc.research_page.PRIMORDRIALPEARL.1=You have started to understand how primodial pearls work and found a way to replicate them for future use. By hammering the primodial pearl into 3 pieces, you found that its losing energy really quickly. Perhaps, there is a way to reform each pieces them into a pearl.
-tc.research_name.PRIMORDRIALPEARL=Primordial Pearl
-tc.research_text.PRIMORDRIALPEARL=[GT:NH] You found a magical Way of duplication;
+tc.research_page.PRIMORDRIALPEARL.1=你开始理解如何使用元始珍珠,还发现了一种复制的方法以便日后使用.将元始珍珠锤成3枚碎片,你发现它们正在快速流失能量.应该有办法把这些碎片重新变回元始珍珠.
+tc.research_name.PRIMORDRIALPEARL=元始珍珠
+tc.research_text.PRIMORDRIALPEARL=[GT:NH]你发现一种神秘的复制方法;

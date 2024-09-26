@@ -36,7 +36,7 @@ for.chat.command.forestry.plugins.info.format=格式： /%s <plugin-name>
 
 for.chat.help=输入‘%s’查看帮助。
 for.chat.plugins.error=拓展%s并无可查看信息。
-for.chat.version=林业%1$s适用于Minecraft%2$s(最新版本：%3$s)。
+for.chat.version=林业%1$s适用于Minecraft%2$s。
 
 for.circuit.dampener.1=阻尼
 for.circuit.dampener.1.description.1=最大输出减少到10RF/t
@@ -745,14 +745,14 @@ tile.for.soil.1.name=沼泽泥
 tile.for.soil.2.name=泥炭
 
 tile.for.stained.0.name=白色玻璃
-tile.for.stained.1.name=桔色玻璃
-tile.for.stained.2.name=品红色玻璃
-tile.for.stained.3.name=淡蓝色玻璃
+tile.for.stained.1.name=橙色玻璃
+tile.for.stained.2.name=品红玻璃
+tile.for.stained.3.name=淡蓝玻璃
 tile.for.stained.4.name=黄色玻璃
-tile.for.stained.5.name=柠檬色玻璃
+tile.for.stained.5.name=黄绿玻璃
 tile.for.stained.6.name=粉色玻璃
 tile.for.stained.7.name=灰色玻璃
-tile.for.stained.8.name=淡灰色玻璃
+tile.for.stained.8.name=淡灰玻璃
 tile.for.stained.9.name=青色玻璃
 tile.for.stained.10.name=紫色玻璃
 tile.for.stained.11.name=蓝色玻璃
@@ -1684,6 +1684,8 @@ for.config.butterfly.entities.maximum=最大蝴蝶数量
 for.config.butterfly.entities.maximum.comment=当达到阈值时新出现的蝴蝶只能以物品形式存在而不能飞行。
 for.config.butterfly.entities.pollination=蝴蝶授粉
 for.config.butterfly.entities.pollination.comment=允许蝴蝶为树木授粉。
+for.config.butterfly.entities.disable.leaf.spawns=禁止蝴蝶在树叶处生成
+for.config.butterfly.entities.disable.leaf.spawns.comment=禁止从林业树叶中随机自主生成蝴蝶.
 
 for.config.backpacks.item.stacks.format=在此添加%s的背包对物品的支持，格式为'modid:name:meta'，也可以使用忽略附加值的通配格式'modid:name'。
 for.config.backpacks.ore.dict.format=在此添加%s的背包对矿物字典的支持，格式为'oreDictName'。

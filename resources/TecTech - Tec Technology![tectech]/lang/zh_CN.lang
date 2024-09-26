@@ -10,6 +10,10 @@ tile.quantumGlass.name=量子玻璃
 tile.quantumGlass.desc.0=致密但透明
 tile.quantumGlass.desc.1=玻璃&优雅(Glassy & Classy)
 
+tile.spatiallyTranscendentGravitationalLens.name=超空间引力透镜块
+tile.godforgeGlass.desc.0=字面意义上的引力透镜
+tile.godforgeGlass.desc.1=引力透镜 9000！
+
 tile.reactorSim.name=反应堆模拟器
 tile.reactorSim.desc.0=裂变反应不确定度解析器9001
 tile.reactorSim.desc.1=爆炸，但没有那么多...
@@ -222,8 +226,10 @@ gt.blockmachines.hatch.energymulti64.tier.12.name=64安UMV能源仓
 gt.blockmachines.hatch.energymulti04.tier.13.name=4安UXV能源仓
 gt.blockmachines.hatch.energymulti16.tier.13.name=16安UXV能源仓
 gt.blockmachines.hatch.energymulti64.tier.13.name=64安UXV能源仓
-gt.blockmachines.hatch.energymulti.desc.0=为多方块机器以高电流输入能源
+gt.blockmachines.hatch.energymulti.desc.0=为多方块机器提供高电流能源
 gt.blockmachines.hatch.energymulti.desc.1=输入电流
+gt.blockmachines.hatch.energymulti.desc.2=从能量网络接收最多%d安电流
+gt.blockmachines.hatch.energymulti.desc.3=为多方块机器提供最多%d安电流
 
 achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.04=4安EV无线能源仓
 achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.04=16安EV无线能源仓
@@ -864,6 +870,138 @@ achievement.gt.stabilisation_field_generator.6=完美稳定力场发生器
 achievement.gt.stabilisation_field_generator.7=太初稳定力场发生器
 achievement.gt.stabilisation_field_generator.8=鸿蒙稳定力场发生器
 
+# Forge of the Gods / Godforge
+fog.upgrade.confirm=结构
+
+fog.upgrade.tt.0=升级开始
+fog.upgrade.tt.1=升级11
+fog.upgrade.tt.2=升级21
+fog.upgrade.tt.3=升级22
+fog.upgrade.tt.4=升级31
+fog.upgrade.tt.5=升级32
+fog.upgrade.tt.6=升级33
+fog.upgrade.tt.7=升级41
+fog.upgrade.tt.8=升级51
+fog.upgrade.tt.9=升级52
+fog.upgrade.tt.10=升级53
+fog.upgrade.tt.11=升级61
+fog.upgrade.tt.12=升级71
+fog.upgrade.tt.13=升级72
+fog.upgrade.tt.14=升级73
+fog.upgrade.tt.15=升级74
+fog.upgrade.tt.16=升级80
+fog.upgrade.tt.17=升级81
+fog.upgrade.tt.18=升级82
+fog.upgrade.tt.19=升级83
+fog.upgrade.tt.20=升级91
+fog.upgrade.tt.21=升级92
+fog.upgrade.tt.22=升级93
+fog.upgrade.tt.23=升级101
+fog.upgrade.tt.24=升级111
+fog.upgrade.tt.25=升级121
+fog.upgrade.tt.26=升级131
+fog.upgrade.tt.27=升级141
+fog.upgrade.tt.28=升级151
+fog.upgrade.tt.29=升级161
+fog.upgrade.tt.30=升级结束
+
+fog.upgrade.lore.0=*在此插入知识* 升级开始
+fog.upgrade.lore.1=*在此插入知识* 升级11
+fog.upgrade.lore.2=*在此插入知识* 升级21
+fog.upgrade.lore.3=*在此插入知识* 升级22
+fog.upgrade.lore.4=*在此插入知识* 升级31
+fog.upgrade.lore.5=*在此插入知识* 升级32
+fog.upgrade.lore.6=*在此插入知识* 升级33
+fog.upgrade.lore.7=*在此插入知识* 升级41
+fog.upgrade.lore.8=*在此插入知识* 升级51
+fog.upgrade.lore.9=*在此插入知识* 升级52
+fog.upgrade.lore.10=*在此插入知识* 升级53
+fog.upgrade.lore.11=*在此插入知识* 升级61
+fog.upgrade.lore.12=*在此插入知识* 升级71
+fog.upgrade.lore.13=*在此插入知识* 升级72
+fog.upgrade.lore.14=*在此插入知识* 升级73
+fog.upgrade.lore.15=*在此插入知识* 升级74
+fog.upgrade.lore.16=*在此插入知识* 升级80
+fog.upgrade.lore.17=*在此插入知识* 升级81
+fog.upgrade.lore.18=*在此插入知识* 升级82
+fog.upgrade.lore.19=*在此插入知识* 升级83
+fog.upgrade.lore.20=*在此插入知识* 升级91
+fog.upgrade.lore.21=*在此插入知识* 升级92
+fog.upgrade.lore.22=*在此插入知识* 升级93
+fog.upgrade.lore.23=*在此插入知识* 升级101
+fog.upgrade.lore.24=*在此插入知识* 升级111
+fog.upgrade.lore.25=*在此插入知识* 升级121
+fog.upgrade.lore.26=*在此插入知识* 升级131
+fog.upgrade.lore.27=*在此插入知识* 升级141
+fog.upgrade.lore.28=*在此插入知识* 升级151
+fog.upgrade.lore.29=*在此插入知识* 升级161
+fog.upgrade.lore.30=*在此插入知识* 升级结束
+
+fog.upgrade.text.0=解锁一个配方时间减少升级，倍率取决于当前的多方块运行时的热量。具体加成通过以下公式计算：倍率 = 1 / (热量^0.01)
+fog.upgrade.text.1=*在此插入文本* 升级11
+fog.upgrade.text.2=*在此插入文本* 升级21
+fog.upgrade.text.3=*在此插入文本* 升级22
+fog.upgrade.text.4=*在此插入文本* 升级31
+fog.upgrade.text.5=*在此插入文本* 升级32
+fog.upgrade.text.6=*在此插入文本* 升级33
+fog.upgrade.text.7=*在此插入文本* 升级41
+fog.upgrade.text.8=*在此插入文本* 升级51
+fog.upgrade.text.9=*在此插入文本* 升级52
+fog.upgrade.text.10=*在此插入文本* 升级53
+fog.upgrade.text.11=*在此插入文本* 升级61
+fog.upgrade.text.12=*在此插入文本* 升级71
+fog.upgrade.text.13=*在此插入文本* 升级72
+fog.upgrade.text.14=*在此插入文本* 升级73
+fog.upgrade.text.15=*在此插入文本* 升级74
+fog.upgrade.text.16=*在此插入文本* 升级80
+fog.upgrade.text.17=*在此插入文本* 升级81
+fog.upgrade.text.18=*在此插入文本* 升级82
+fog.upgrade.text.19=*在此插入文本* 升级83
+fog.upgrade.text.20=*在此插入文本* 升级91
+fog.upgrade.text.21=*在此插入文本* 升级92
+fog.upgrade.text.22=*在此插入文本* 升级93
+fog.upgrade.text.23=*在此插入文本* 升级101
+fog.upgrade.text.24=*在此插入文本* 升级111
+fog.upgrade.text.25=*在此插入文本* 升级121
+fog.upgrade.text.26=*在此插入文本* 升级131
+fog.upgrade.text.27=*在此插入文本* 升级141
+fog.upgrade.text.28=*在此插入文本* 升级151
+fog.upgrade.text.29=*在此插入文本* 升级161
+fog.upgrade.text.30=*在此插入文本* 升级结束
+
+fog.debug.resetbutton.text=重置
+fog.debug.resetbutton.tooltip=重置所有升级至0
+
+fog.button.fuelconfig.tooltip=燃料配置菜单
+fog.button.furnacemode.tooltip=切换熔炉模式
+fog.button.magmattermode.tooltip.01=切换磁物质模式
+fog.button.magmattermode.tooltip.02=磁物质模式锁定，缺少升级
+
+
+achievement.gt.blockmachines.multimachine.em.forge_of_gods=众神的锻炉
+achievement.gt.godforgecasing.0=奇点强化的恒星屏蔽机械方块
+achievement.gt.godforgecasing.1=天体物质引导机械方块
+achievement.gt.godforgecasing.2=无界引力隔绝结构方块
+achievement.gt.godforgecasing.3=超时空强化磁约束机械方块
+achievement.gt.godforgecasing.4=恒星能量抽取机械方块
+achievement.gt.godforgecasing.5=远程引力子流动调节器
+achievement.gt.godforgecasing.6=中介引力子流动调节器
+achievement.gt.godforgecasing.7=中央引力子流动调节器
+
+gt.blockmachines.multimachine.FOG.parallel=并行
+gt.blockmachines.multimachine.FOG.batch=批处理大小
+gt.blockmachines.multimachine.FOG.fuelconsumption=恒星燃料消耗系数
+gt.blockmachines.multimachine.FOG.fuelinfo.0=恒星燃料消耗系数是计算每秒恒星燃料消耗的主要决定因素。 每种燃料有不同的调整倍率，如下所示：
+gt.blockmachines.multimachine.FOG.fuelinfo.1=超维度残留: 系数*300*1.15^系数
+gt.blockmachines.multimachine.FOG.fuelinfo.2=浓缩原始恒星等离子体混合物: 系数*2*1.08^系数
+gt.blockmachines.multimachine.FOG.fuelinfo.3=磁流体约束恒星物质: 系数/25
+gt.blockmachines.multimachine.FOG.fuelinfo.4=多方块升级可能会影响这些公式，具体变化会列在相应升级的描述中。
+gt.blockmachines.multimachine.FOG.fueltype=点击以选择燃料类型
+gt.blockmachines.multimachine.FOG.fuelusage=燃料使用
+gt.blockmachines.multimachine.FOG.plasmamultistep=多步骤等离子体
+gt.blockmachines.multimachine.FOG.plasmarecipetier=聚变等级
+gt.blockmachines.multimachine.FOG.storedfuel=现存燃料数量:
+
 # Optical Circuits
 achievement.gt.metaitem.03.32155=光学处理器集群
 achievement.gt.metaitem.03.32156=光学处理器超级电脑
@@ -963,6 +1101,8 @@ gt.blockmachines.debug.tt.writer.name=Debug结构打印机
 gt.blockmachines.debug.tt.writer.desc.0=扫描周围的方块
 gt.blockmachines.debug.tt.writer.desc.1=打印多方块非实体的结构样式编码
 gt.blockmachines.debug.tt.writer.desc.2=ABC轴沿机器正面确定
+gt.blockmachines.debug.tt.certain.desc.0=确定！
+gt.blockmachines.debug.tt.certain.desc.1=薛定谔的猫逃出了盒子
 
 GT5U.gui.text.computing=§a运算中
 GT5U.gui.text.providing_data=§a提供数据中
@@ -987,6 +1127,8 @@ GT5U.gui.text.invalid_current_setting=§7无效电流设置
 GT5U.gui.text.invalid_time_setting=§7无效扫描时间设置
 GT5U.gui.text.invalid_overdrive_setting=§7无效过载设置
 GT5U.gui.text.insufficient_power_no_val=§7能量不足
+GT5U.gui.text.missing_upgrades=§7无效升级
+GT5U.gui.text.waiting_for_inputs=§7等待输入
 
 # RecipeMaps
 gt.recipe.eyeofharmony=鸿蒙之眼

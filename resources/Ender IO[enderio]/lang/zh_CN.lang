@@ -93,6 +93,11 @@ item.itemExistingItemFilter.tooltip.detailed.line5=物品添入快照
 enderio.item.itemExistingItemFilter.filterUpdated=新物品已添入快照
 enderio.item.itemExistingItemFilter.filterNotUpdated=快照已包含容器中的所有物品
 
+item.itemLimitedItemFilter.name=限制物品过滤器
+item.itemLimitedItemFilter.tooltip.basic.line1=物品导管升级
+item.itemLimitedItemFilter.tooltip.detailed.line1=保持容器中的物品数量等于
+item.itemLimitedItemFilter.tooltip.detailed.line2=过滤物品的标记数量
+
 item.itemModItemFilter.name=模组物品过滤器
 item.itemModItemFilter.tooltip.basic.line1=给物品导管使用的升级
 item.itemModItemFilter.tooltip.detailed.line1=只筛选一个或几个
@@ -106,7 +111,7 @@ item.itemPowerItemFilter.tooltip.detailed.line2=过滤可充能的物品
 item.itemExtractSpeedUpgrade.name=物品导管速度升级
 item.itemExtractSpeedUpgrade.tooltip.basic.line1=给物品导管使用的升级
 item.itemExtractSpeedUpgrade.tooltip.detailed.line1=每次提取
-item.itemExtractSpeedUpgrade.tooltip.detailed.line2=速度增加4组
+item.itemExtractSpeedUpgrade.tooltip.detailed.line2=速度增加4
 item.itemExtractSpeedUpgrade.tooltip.detailed.line3=最大升级数为15
 
 item.itemExtractSpeedDowngrade.name=物品导管速度降级
@@ -726,6 +731,7 @@ item.itemTravelStaff.tooltip.detailed.line3=并通过<右击>直接传送
 item.itemTravelStaff.tooltip.detailed.line4=<Shift><右击>
 item.itemTravelStaff.tooltip.detailed.line5=可短距离传送玩家
 enderio.itemTravelStaff.notEnoughPower=能量不足
+enderio.travelStaffKeybind.isDisabled=旅行权杖传送已禁用
 
 item.itemTeleportStaff.name=传送权杖
 item.itemTeleportStaff.tooltip.detailed.line1=右击传送至看到的方块
@@ -1386,6 +1392,7 @@ enderio.keybind.jump=跳跃
 enderio.keybind.stepassist=步行辅助
 enderio.keybind.yetawrenchmode=以太扳手模式
 enderio.keybind.magnet=电磁铁
+enderio.keybind.staffoftravelingtp=旅行权杖传送
 enderio.nei.alloysmelter=合金炉
 enderio.nei.enchanter=附魔器
 enderio.nei.sagmill=SAG磨粉机

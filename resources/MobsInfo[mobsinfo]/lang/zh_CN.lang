@@ -26,6 +26,9 @@ mobsinfo.mobhandler.extended_info_2=因而100%概率并不代表始终掉落
 mobsinfo.mobhandler.extended_info_3=例如，这可能意味着
 mobsinfo.mobhandler.extended_info_4=有相同的概率掉落0，1或2个此物品
 mobsinfo.mobhandler.extended_info_5=因为平均每次掉落为1个（100%）。
+mobsinfo.mobhandler.spawns_everywhere=在所有地方均会生成
+mobsinfo.mobhandler.spawns_in=在 %d 生成
+mobsinfo.mobhandler.spawns_not_in=除了 %d 处均会生成
 
 mobsinfo.mobhandlerinfernal.title=精英怪 - 掉落表
 mobsinfo.mobhandlerinfernal.format=格式：
@@ -53,6 +56,9 @@ mobsinfo.extras.drops_only_with_enchant=仅在%s附魔生效时掉落
 mobsinfo.extras.each_level_of_gives=%s每级增加%s
 mobsinfo.extras.or_biome=或在%2$s生物群系增加%1$.2f%%
 mobsinfo.extras.or_using=或使用%2$s击杀增加%1$.2f%%
+mobsinfo.extras.halloween_only=仅在万圣节才会掉落
+mobsinfo.extras.yuletide_only=仅在圣诞节期间才会掉落
+mobsinfo.extras.yuletide_day_only=仅在圣诞节当天才会掉落
 
 mobsinfo.extras.avaritia_skull_sword=仅在使用啄颅剑击杀且未掉落头颅时掉落
 mobsinfo.extras.draconic_evolution_mob_soul=基于收割者附魔等级 - 与武器增加 |
@@ -73,7 +79,12 @@ mobsinfo.extras.bloodmagic_demon_placer=仅在不通过恶魔传送站生成或�
 mobsinfo.extras.etfuturum_powered_creeper=仅当被闪电苦力怕杀死时掉落
 mobsinfo.extras.etfuturum_wither_rose=仅当被凋灵杀死时掉落或放置*
 mobsinfo.extras.etfuturum_wither_rose_1=*若可能，放置于该生物所处的地面上
+mobsinfo.extras.lycanites_mobs_or_on_yuletide_day=或者在圣诞节当天的掉率为%.2f%%
 
+#Spawn info
+mobsinfo.spawninfo.biome=生物群系：
+mobsinfo.spawninfo.structure=结构：
+mobsinfo.spawninfo.event=事件：
 
 #Commands
 mobsinfo.commandhandler.invalid=§c无效使用！该指令的正确使用为 /%s
