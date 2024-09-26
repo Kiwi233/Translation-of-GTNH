@@ -61,6 +61,7 @@ tile.appliedenergistics2.BlockCraftingAccelerator1024x.name=1024核并行处理�
 tile.appliedenergistics2.BlockCraftingAccelerator4096x.name=4096核并行处理单元
 tile.appliedenergistics2.BlockCraftingUnit.name=合成单元
 tile.appliedenergistics2.BlockMolecularAssembler.name=分子装配室
+tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=样板优化矩阵
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=錾制赛特斯石英楼梯
@@ -106,6 +107,9 @@ chat.appliedenergistics2.InterfaceInOtherDim=接口位于 %d 维度，无法高�
 chat.appliedenergistics2.InterfaceHighlighted=接口已高亮，坐标：%d, %d, %d
 chat.appliedenergistics2.CraftingItemsWentMissing=无法启动合成，缺少材料：%d * %s
 chat.appliedenergistics2.FBOUnsupported=不支持OpenGL FBOs,无法导出图片
+chat.appliedenergistics2.PriorityInvalidTarget=目标没有优先级
+chat.appliedenergistics2.PriorityReadout=当前优先级是%d
+chat.appliedenergistics2.PriorityConfigured=更新优先级到%d
 # Creative Tabs
 itemGroup.appliedenergistics2=应用能源2
 itemGroup.appliedenergistics2.facades=应用能源2-伪装板
@@ -178,6 +182,17 @@ gui.appliedenergistics2.StoredStacks=已存储(组)
 gui.appliedenergistics2.Terminal=终端
 gui.appliedenergistics2.InterfaceTerminal=接口终端
 gui.appliedenergistics2.InterfaceTerminalHint=在接口终端显示或隐藏.
+gui.appliedenergistics2.PatternOptimization=允许样板优化
+gui.appliedenergistics2.PatternOptimizationHint=允许样板优化矩阵优化本接口中的样板
+gui.appliedenergistics2.PatternOptimizer=样板优化矩阵
+gui.appliedenergistics2.StepsPerCraft=每次合成步骤上限
+gui.appliedenergistics2.PatternsAffected=受影响的样板
+gui.appliedenergistics2.Multiplied=乘以
+gui.appliedenergistics2.MultipliedBy=乘以
+gui.appliedenergistics2.CurrentPatternOutput=当前样板输出
+gui.appliedenergistics2.NewPatternOutput=新的样板输出
+gui.appliedenergistics2.Optimize=优化
+
 gui.appliedenergistics2.FormationPlane=成型面板
 gui.appliedenergistics2.VibrationChamber=谐振仓
 gui.appliedenergistics2.NetworkDetails=网络信息
@@ -231,6 +246,7 @@ gui.appliedenergistics2.Scheduled=计划合成
 gui.appliedenergistics2.CraftingStatus=合成状态
 gui.appliedenergistics2.RemainingOperations=空闲CPU
 gui.appliedenergistics2.FromStorage=可用数量
+gui.appliedenergistics2.FromStoragePercent=使用
 gui.appliedenergistics2.ToCraft=合成数量
 gui.appliedenergistics2.ToCraftRequests=轮数
 gui.appliedenergistics2.CraftingPlan=合成计划
@@ -269,7 +285,15 @@ gui.appliedenergistics2.SmallFontCraft=合成
 gui.appliedenergistics2.LargeFontCraft=+
 gui.appliedenergistics2.Renamer=自定义名称: (回车保存设置)
 gui.appliedenergistics2.OreFilterLabel=矿典过滤卡
+gui.appliedenergistics2.PriorityCard=优先卡
+gui.appliedenergistics2.PriorityCardTooltip=满足你对优先级的所有需求!
+gui.appliedenergistics2.PriorityCardTooltipModeEdit=模式:编辑优先
+gui.appliedenergistics2.PriorityCardTooltipModeView=模式:打印优先
+gui.appliedenergistics2.PriorityCardTooltipModeSet=模式:应用优先
+gui.appliedenergistics2.PriorityCardTooltipModeInc=模式:应用和递增优先
+gui.appliedenergistics2.PriorityCardTooltipModeDec=模式:应用和递减优先
 gui.appliedenergistics2.Sticky=粘性
+gui.appliedenergistics2.Contains=包含物品
 gui.appliedenergistics2.HoldShiftForTooltip=按住Shift以查看拓展tooltip
 gui.appliedenergistics2.HoldShiftClick_HIGHLIGHT_INTERFACE=按住Shift以高亮接口
 gui.appliedenergistics2.Nothing=无
@@ -384,6 +408,7 @@ gui.tooltips.appliedenergistics2.LevelType_Energy=能源(ae)
 gui.tooltips.appliedenergistics2.LevelType_Item=物品
 gui.tooltips.appliedenergistics2.InventoryTweaks=InventoryTweak(R键整理)
 gui.tooltips.appliedenergistics2.Mod=Mod
+gui.tooltips.appliedenergistics2.UsedPercent=占比
 gui.tooltips.appliedenergistics2.TerminalStyle=终端风格
 gui.tooltips.appliedenergistics2.TerminalStyle_Full=全屏
 gui.tooltips.appliedenergistics2.TerminalStyle_Tall=长
@@ -424,7 +449,9 @@ gui.tooltips.appliedenergistics2.SaveSearchString=保存搜索字符串
 gui.tooltips.appliedenergistics2.SaveSearchStringYes=是
 gui.tooltips.appliedenergistics2.SaveSearchStringNo=否
 gui.tooltips.appliedenergistics2.DoublePattern=双倍样板
-gui.tooltips.appliedenergistics2.DoublePatternHint=样板输入/输出物品堆叠同时x2(若可行), 按住Shift时为x8.
+gui.tooltips.appliedenergistics2.DoublePatternHint=样板输入/输出物品堆叠同时x2(若可行), 按住Shift时为x8. 右键替换为除以. 使用鼠标中键来自定义倍率.
+gui.tooltips.appliedenergistics2.DoublePatterns=双倍样板
+gui.tooltips.appliedenergistics2.DoublePatternsHint=样板输入/输出物品堆叠同时x2(若可行), 按住Shift时为x8. 右键替换为除以.
 gui.tooltips.appliedenergistics2.CraftingStatus=合成状态
 gui.tooltips.appliedenergistics2.CraftingStatusDesc=打开合成状态窗口
 gui.tooltips.appliedenergistics2.ToggleMolecularAssemblers=仅显示合成接口
@@ -440,6 +467,8 @@ gui.tooltips.appliedenergistics2.HighlightInterface=高亮接口
 gui.tooltips.appliedenergistics2.SearchFieldInputs=样板输入物品
 gui.tooltips.appliedenergistics2.SearchFieldOutputs=样板输出物品
 gui.tooltips.appliedenergistics2.SearchFieldNames=接口名
+gui.tooltips.appliedenergistics2.OptimizePatterns=优化样板
+gui.tooltips.appliedenergistics2.OptimizePatternsNoReq=§c这个设置目前不可使用,因为你的ME网络中没有样板优化矩阵!
 
 gui.tooltips.appliedenergistics2.InsertionModeDefault=默认输出模式
 gui.tooltips.appliedenergistics2.InsertionModeDefaultDesc=从前到后,倾向于堆叠
@@ -458,6 +487,13 @@ gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefaultDesc=高级阻挡卡
 gui.tooltips.appliedenergistics2.AdvancedBlockingModeAll=严格模式
 gui.tooltips.appliedenergistics2.AdvancedBlockingModeAllDesc=高级阻挡卡将接口阻挡模式的判定范围扩大至整个网络, 仅当此卡被\n安装在接受物品的接口上, 并且对应接口开启阻挡模式时才能生效. \n严格模式下, 此接口将在本网络有任意物品时阻止对应接口输出.
 
+gui.tooltips.appliedenergistics2.LockCraftingMode=锁定合成
+gui.tooltips.appliedenergistics2.LockCraftingModeNone=从不
+gui.tooltips.appliedenergistics2.LockCraftingUntilRedstonePulse=直到接收到红石脉冲
+gui.tooltips.appliedenergistics2.LockCraftingUntilResultReturned=直到返回合成产物
+gui.tooltips.appliedenergistics2.LockCraftingWhileRedstoneHigh=使用红石信号
+gui.tooltips.appliedenergistics2.LockCraftingWhileRedstoneLow=不使用红石信号
+
 gui.tooltips.appliedenergistics2.CraftingModeStandard=标准合成模式
 gui.tooltips.appliedenergistics2.CraftingModeStandardDesc=在ME系统内所有原料齐全时,方可开始合成.
 gui.tooltips.appliedenergistics2.CraftingModeIgnoreMissing=忽略缺失合成模式
@@ -469,6 +505,17 @@ gui.tooltips.appliedenergistics2.SwitchBytesInfo=存储信息
 gui.tooltips.appliedenergistics2.SwitchBytesInfo_Item=物品
 gui.tooltips.appliedenergistics2.SwitchBytesInfo_Fluid=流体
 gui.tooltips.appliedenergistics2.SwitchBytesInfo_Essentia=源质
+
+gui.tooltips.appliedenergistics2.PriorityCardMode=优先卡模式
+gui.tooltips.appliedenergistics2.PriorityCardMode_Edit=编辑目标的优先级.
+gui.tooltips.appliedenergistics2.PriorityCardMode_View=打印目标的优先级.
+gui.tooltips.appliedenergistics2.PriorityCardMode_Set=对目标进行优先级排序.
+gui.tooltips.appliedenergistics2.PriorityCardMode_Inc=对目标应用优先级,并将优先级增加1.
+gui.tooltips.appliedenergistics2.PriorityCardMode_Dec=对目标应用优先级,并将优先级减少1.
+
+gui.tooltips.appliedenergistics2.MultiplyPattern=乘
+gui.tooltips.appliedenergistics2.DividePattern=除
+gui.tooltips.appliedenergistics2.MultiplyOrDividePatternHint=如果是正数,就是乘以这个数. 如果是负数,则除以该数. 如果它不能被整除,则不会起作用.
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
@@ -511,6 +558,10 @@ waila.appliedenergistics2.P2PInputOneOutput=已链接(输入)
 waila.appliedenergistics2.P2PInputManyOutputs=已链接(输入) - %d 输出
 waila.appliedenergistics2.P2POutput=已链接(输出)
 waila.appliedenergistics2.Booting=网络正在启动
+waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=因没有红石信号而被锁定
+waila.appliedenergistics2.CraftingLockedByRedstoneSignal=因红石信号而被锁定
+waila.appliedenergistics2.CraftingLockedUntilPulse=等待红石脉冲以解锁
+waila.appliedenergistics2.CraftingLockedUntilResult=等待合成产物以解锁
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=1k-ME存储元件
@@ -554,6 +605,7 @@ item.appliedenergistics2.ItemMaterial.CardSuperSpeed.name=超级加速卡
 item.appliedenergistics2.ItemMaterial.CardOreFilter.name=矿典过滤卡
 item.appliedenergistics2.ItemMaterial.CardPatternRefiller.name=空白样板重填卡
 item.appliedenergistics2.ItemMaterial.CardAdvancedBlocking.name=高级阻挡卡
+item.appliedenergistics2.ItemMaterial.CardLockCrafting.name=锁定卡
 item.appliedenergistics2.ItemMaterial.CardSticky.name=粘性卡
 
 item.appliedenergistics2.ItemMaterial.Cell2SpatialPart.name=2³-空间组件
@@ -678,6 +730,7 @@ item.appliedenergistics2.ToolChargedStaff.name=充能手杖
 item.appliedenergistics2.ToolEntropyManipulator.name=熵变机械臂
 item.appliedenergistics2.ToolMassCannon.name=物质炮
 item.appliedenergistics2.ToolMemoryCard.name=内存卡
+item.appliedenergistics2.ToolPriorityCard.name=优先卡
 item.appliedenergistics2.ToolColorApplicator.name=染色器
 item.appliedenergistics2.ToolWirelessTerminal.name=无线终端
 item.appliedenergistics2.ToolBiometricCard.name=身份卡

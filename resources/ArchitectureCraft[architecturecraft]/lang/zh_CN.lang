@@ -1,7 +1,157 @@
+# Items
 tile.architecturecraft:sawbench.name=建筑师锯台
 tile.architecturecraft:shape.name=构件
+tile.architecturecraft:shapeSE.name=构件（发光）
 item.architecturecraft:largePulley.name=大轮
 item.architecturecraft:sawblade.name=圆锯片
 item.architecturecraft:chisel.name=建筑师凿
 item.architecturecraft:hammer.name=建筑师锤
 item.architecturecraft:cladding.name=覆盖板
+
+# Container
+gui.architecturecraft.Sawbench=锯台
+gui.architecturecraft.Makes=制造
+
+# Gui Colors
+gui.architecturecraft.FontColor=404040
+gui.architecturecraft.SelectedBgColor=66CCFF
+
+# Pages
+gui.architecturecraft.Roofing=屋顶
+gui.architecturecraft.Rounded=圆形
+gui.architecturecraft.Classical=古典
+gui.architecturecraft.Window=窗户
+gui.architecturecraft.Arches=拱门
+gui.architecturecraft.Railings=栏杆
+gui.architecturecraft.Other=其他
+gui.architecturecraft.Glow=发光
+
+# Shapes
+gui.architecturecraft.RoofTile=屋顶瓦片
+gui.architecturecraft.RoofOuterCorner=屋顶外角
+gui.architecturecraft.RoofInnerCorner=屋顶内角
+gui.architecturecraft.RoofRidge=屋脊
+gui.architecturecraft.RoofSmartRidge=坡屋脊
+gui.architecturecraft.RoofValley=屋谷
+gui.architecturecraft.RoofSmartValley=坡屋谷
+
+gui.architecturecraft.RoofOverhang=垂悬屋顶
+gui.architecturecraft.RoofOverhangOuterCorner=垂悬屋顶外角
+gui.architecturecraft.RoofOverhangInnerCorner=垂悬屋顶内角
+
+gui.architecturecraft.Cylinder=圆柱
+gui.architecturecraft.CylinderHalf=半圆柱
+gui.architecturecraft.CylinderQuarter=四分之一圆柱
+gui.architecturecraft.CylinderLargeQuarter=外圆角
+gui.architecturecraft.AnticylinderLargeQuarter=内圆角
+gui.architecturecraft.Pillar=圆梁
+gui.architecturecraft.Post=圆柱
+gui.architecturecraft.Pole=圆杆
+
+gui.architecturecraft.BevelledOuterCorner=外斜角
+gui.architecturecraft.BevelledInnerCorner=内斜角
+
+gui.architecturecraft.PillarBase=圆梁基座
+gui.architecturecraft.DoricCapital=多立克式柱头
+gui.architecturecraft.IonicCapital=爱奥尼克式柱头
+gui.architecturecraft.CorinthianCapital=科林斯式柱头
+gui.architecturecraft.DoricTriglyph=陶立克柱式
+gui.architecturecraft.DoricTriglyphCorner=三角
+gui.architecturecraft.DoricMetope=墙面
+gui.architecturecraft.Architrave=拱顶
+gui.architecturecraft.ArchitraveCorner=拱形装饰角
+
+gui.architecturecraft.WindowFrame=窗框
+gui.architecturecraft.WindowCorner=窗角
+gui.architecturecraft.WindowMullion=窗棂
+
+gui.architecturecraft.SphereFull=球体
+gui.architecturecraft.SphereHalf=半球
+gui.architecturecraft.SphereQuarter=四分之一球
+gui.architecturecraft.SphereEighth=八分之一球
+gui.architecturecraft.SphereEighthLarge=圆形外角盖
+gui.architecturecraft.SphereEighthLargeRev=圆形内角盖
+
+gui.architecturecraft.RoofOverhangGableLH=左侧山墙挑檐
+gui.architecturecraft.RoofOverhangGableRH=右侧山墙挑檐
+gui.architecturecraft.RoofOverhangGableEndLH=左侧山墙挑檐末端
+gui.architecturecraft.RoofOverhangGableEndRH=右侧山墙挑檐末端
+gui.architecturecraft.RoofOverhangRidge=屋脊挑檐
+gui.architecturecraft.RoofOverhangValley=屋谷挑檐
+
+gui.architecturecraft.CorniceLH=左侧檐口
+gui.architecturecraft.CorniceRH=右侧檐口
+gui.architecturecraft.CorniceEndLH=左侧檐口末端
+gui.architecturecraft.CorniceEndRH=右侧檐口末端
+gui.architecturecraft.CorniceRidge=屋脊檐口
+gui.architecturecraft.CorniceValley=屋谷檐口
+gui.architecturecraft.CorniceBottom=底部檐口
+
+gui.architecturecraft.CladdingSheet=覆层
+
+gui.architecturecraft.ArchD1=拱顶直径 1
+gui.architecturecraft.ArchD2=拱顶直径 2
+gui.architecturecraft.ArchD3A=拱顶直径 3 部件 A
+gui.architecturecraft.ArchD3B=拱顶直径 3 部件 B
+gui.architecturecraft.ArchD3C=拱顶直径 3 部件 C
+gui.architecturecraft.ArchD4A=拱顶直径 4 部件 A
+gui.architecturecraft.ArchD4B=拱顶直径 4 部件 B
+gui.architecturecraft.ArchD4C=拱顶直径 4 部件 C
+
+gui.architecturecraft.BanisterPlainBottom=简约扶手底部过渡段
+gui.architecturecraft.BanisterPlain=简约扶手
+gui.architecturecraft.BanisterPlainTop=简约栏杆顶部过渡段
+
+gui.architecturecraft.BalustradeFancy=精美栏杆
+gui.architecturecraft.BalustradeFancyCorner=精美栏杆拐角
+gui.architecturecraft.BalustradeFancyWithNewel=带柱头的精美栏杆
+gui.architecturecraft.BalustradeFancyNewel=精美柱头
+
+gui.architecturecraft.BalustradePlain=简约栏杆
+gui.architecturecraft.BalustradePlainOuterCorner=简约外角栏杆
+gui.architecturecraft.BalustradePlainWithNewel=带柱头的简约栏杆
+
+gui.architecturecraft.BanisterPlainEnd=简约扶手末端
+
+gui.architecturecraft.BanisterFancyNewelTall=高耸精美柱头
+
+gui.architecturecraft.BalustradePlainInnerCorner=简约内角栏杆
+gui.architecturecraft.BalustradePlainEnd=简约栏杆末端
+
+gui.architecturecraft.BanisterFancyBottom=精美扶手底部过渡段
+gui.architecturecraft.BanisterFancy=精美扶手
+gui.architecturecraft.BanisterFancyTop=精美扶手顶部过渡段
+gui.architecturecraft.BanisterFancyEnd=精美扶手末端
+
+gui.architecturecraft.BanisterPlainInnerCorner=简约扶手内角
+
+gui.architecturecraft.Slab=台阶
+gui.architecturecraft.Stairs=楼梯
+gui.architecturecraft.StairsOuterCorner=楼梯外角
+gui.architecturecraft.StairsInnerCorner=楼梯内角
+
+gui.architecturecraft.SlopeTileA1=斜坡 A 起点
+gui.architecturecraft.SlopeTileA2=斜坡 A 终点
+gui.architecturecraft.SlopeTileB1=斜坡 B 起点
+gui.architecturecraft.SlopeTileB2=斜坡 B 中部
+gui.architecturecraft.SlopeTileB3=斜坡 B 终点
+gui.architecturecraft.SlopeTileC1=斜坡 C 1
+gui.architecturecraft.SlopeTileC2=斜坡 C 2
+gui.architecturecraft.SlopeTileC3=斜坡 C 3
+gui.architecturecraft.SlopeTileC4=斜坡 C 4
+gui.architecturecraft.AngledRoofRidge=斜角屋脊
+
+gui.architecturecraft.SquareSE=方形（发光）
+gui.architecturecraft.SlabSE=台阶（发光）
+gui.architecturecraft.RoofTileSE=屋顶瓦片（发光）
+gui.architecturecraft.SlopeTileA1SE=斜坡 A 起点（发光）
+gui.architecturecraft.SlopeTileA2SE=斜坡 A 终点（发光）
+gui.architecturecraft.SlopeTileB1SE=斜坡 B 起点（发光）
+gui.architecturecraft.SlopeTileB2SE=斜坡 B 中部（发光）
+gui.architecturecraft.SlopeTileB3SE=斜坡 B 终点（发光）
+gui.architecturecraft.SlopeTileC1SE=斜坡 C 1（发光）
+gui.architecturecraft.SlopeTileC2SE=斜坡 C 2（发光）
+gui.architecturecraft.SlopeTileC3SE=斜坡 C 3（发光）
+gui.architecturecraft.SlopeTileC4SE=斜坡 C 4（发光）
+
+gui.architecturecraft.DoubleRoofTile=双层屋瓦
