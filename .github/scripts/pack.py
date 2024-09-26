@@ -13,6 +13,7 @@ paths_to_be_packed = [
 to_be_renamed = {
     'README.md': '看我.md',
     'resources': 'config/txloader/forceload',
+    'GregTech.lang': "GregTech_zh_CN.lang",
 }
 
 base_repo_path = 'repo'

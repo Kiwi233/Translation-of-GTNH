@@ -283,7 +283,7 @@ item.railcraft.tool.surveyor.tip=用于连接信号方块
 item.railcraft.tool.whistle.tuner.name=鸣笛调谐器
 
 
-item.railcraft.upgrade.lapotron=兰波顿装载升级插件
+item.railcraft.upgrade.lapotron.name=兰波顿装载升级插件
 
 item.synthetic=合成物
 
@@ -295,9 +295,9 @@ railcraft.color.gray=灰色
 railcraft.color.green=绿色
 railcraft.color.light.blue=淡蓝色
 railcraft.color.light.gray=淡灰色
-railcraft.color.lime=柠檬色
+railcraft.color.lime=黄绿色
 railcraft.color.magenta=品红色
-railcraft.color.orange=桔色
+railcraft.color.orange=橙色
 railcraft.color.pink=粉色
 railcraft.color.purple=紫色
 railcraft.color.red=红色
@@ -518,7 +518,7 @@ railcraft.gui.routing.table.manual.page2=指令关键字:\n   AND - 两个操作
 railcraft.gui.routing.table.manual.page3=条件关键字:\n   Dest=<字符串>\n      如果机车目的地\n      字符串以这条字符串开头,\n      则条件为真.\n      "Dest=null" 将匹配那些没有\n      目的地的矿车.\n   Owner=<用户名>\n      机车属于对应名称玩家\n      则为真.
 railcraft.gui.routing.table.manual.page4=条件关键字:\n   Name=<实体名>\n      当与矿车在铁砧中命名的\n      名称相同则为真.\n      "Name=null"将匹配没有自定义名称\n      的矿车.\n   Type=<modid:物品名称>\n      当与矿车物品名称相同\n      则为真.
 railcraft.gui.routing.table.manual.page5=条件关键字:\n   Riding=<乘客名>\n      当列车被此玩家乘坐\n      则为真.\n   Ridden=<true/false>\n      当列车被玩家乘坐\n      则为真.
-railcraft.gui.routing.table.manual.page6=条件关键字:\n   Color=<车身色>,<底盘色>\n      如果机车的车身颜色与底盘颜色匹配\n      则为真.\n      可以使用"Any"作为通配符.\n      颜色(请键入英文): Black(黑色), Red(红色), Green(绿色), Brown(棕色), Blue(蓝色),\n      Purple(紫色), Cyan(青色), LightGray(淡灰色), Gray(灰色), Pink(粉色), Lime(柠檬色),\n      Yellow(黄色), LightBlue(淡蓝色), Magenta(品红色), Orange(橙色), White(白色)\n   NeedsRefuel=<true/false>\n      判断机车是否缺燃料或水.\n      匹配则触发它.
+railcraft.gui.routing.table.manual.page6=条件关键字:\n   Color=<车身色>,<底盘色>\n      如果机车的车身颜色与底盘颜色匹配\n      则为真.\n      可以使用"Any"作为通配符.\n      颜色(请键入英文): Black(黑色), Red(红色), Green(绿色), Brown(棕色), Blue(蓝色),\n      Purple(紫色), Cyan(青色), LightGray(淡灰色), Gray(灰色), Pink(粉色), Lime(黄绿色),\n      Yellow(黄色), LightBlue(淡蓝色), Magenta(品红色), Orange(橙色), White(白色)\n   NeedsRefuel=<true/false>\n      判断机车是否缺燃料或水.\n      匹配则触发它.
 railcraft.gui.routing.table.manual.page7=条件关键字:\n   Redstone=<true/false>\n      路由方块被红石充能\n      则为真.
 railcraft.gui.routing.table.manual.page8=脚本范例:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
 railcraft.gui.routing.table.manual.page9=结果:\n   上一页的示例会匹配\n   一个以"TheFarLands/Milliways"为目的地 \n   of 或车身色为黑,底盘色为红,\n   亦或是以\n   "SecretHideout/OceanEntrance",\n   为目的地且拥有者不是RichardG的火车头.

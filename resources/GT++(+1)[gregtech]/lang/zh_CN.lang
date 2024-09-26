@@ -17,6 +17,8 @@ GT5U.gui.text.managing_power=§a能源分配中
 GT5U.gui.text.no_scrap=§a输入质量过低
 GT5U.gui.text.warm_up=§a预热中
 GT5U.gui.text.machine_locked_to_different_recipe=§7机器已锁定到另一配方
+GT5U.gui.text.no_output_for_sapling=§7树苗没有可输出产品
+GT5U.gui.text.no_tools=§7缺少可用的工具
 
 GTPP.EBF.heat=热容
 
@@ -35,9 +37,12 @@ GTPP.multiblock.usage=NEI功率
 GTPP.multiblock.generation=可能生成
 GTPP.multiblock.specialvalue=特殊值
 GTPP.multiblock.duration=NEI时间
-GTPP.multiblock.multimachine.metal=模式: 金属. 可充当压缩机(电路板20), 车床(电路板21) 或磁化机(电路板22).
+GTPP.multiblock.multimachine.metal=模式:金属. 可充当压缩机(20号电路板),车床(21号电路板)或磁化机(22号电路板).
 GTPP.multiblock.multimachine.fluid=模式: 流体. 可充当发酵槽(电路板20), 流体提取机(电路板21) 或提取机(电路板22).
 GTPP.multiblock.multimachine.misc=模式: 杂项. 可充当激光蚀刻机(电路板20), 高压釜(电路板21) 或流体固化器(电路板22).
+
+
+GTPP.waila.steam.use=可能消耗: §e%s§r L/t 蒸汽
 
 GTPP.CC.machinetier=控制核心等级
 GTPP.CC.discount=EU损耗
@@ -220,11 +225,11 @@ achievement.casing.multiuse=我要做很多这些
 achievement.casing.multiuse.desc=不要开始计数.
 achievement.casing.containment=这个是干什么的？
 achievement.casing.containment.desc=我应该试着找出答案.
-achievement.decay.neptunium238=镎238
+achievement.decay.neptunium238=镎-238
 achievement.decay.neptunium238.desc=回旋加速器产物
-achievement.decay.radium226=镭226
+achievement.decay.radium226=镭-226
 achievement.decay.radium226.desc=回旋加速器产物
-achievement.decay.molybdenum99=钼99
+achievement.decay.molybdenum99=钼-99
 achievement.decay.molybdenum99.desc=回旋加速器产物
 achievement.decay.technetium99m=锝99M
 achievement.decay.technetium99m.desc=回旋加速器产物

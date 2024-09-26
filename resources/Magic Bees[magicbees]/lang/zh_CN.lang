@@ -23,14 +23,14 @@ misc.magnetInactive=%s-未激活
 
 #Items
 item.magicbees:jellyBabies.name=胶糖娃娃
-item.manasteelScoop.name=魔钢捕蜂网
-item.thaumiumScoop.name=奥法捕蜂网
+item.manasteelScoop.name=魔钢捕虫网
+item.thaumiumScoop.name=奥法捕虫网
 item.manasteelGrafter.name=魔钢剪枝器
 item.thaumiumGrafter.name=奥法剪枝器
 item.magicbees:mysteriousMagnet.name=神秘磁铁
 item.moonDial.name=翡翠色月相盘
 
-item.voidScoop.name=虚空捕蜂网
+item.voidScoop.name=虚空捕虫网
 item.voidGrafter.name=虚空剪枝器
 item.beeRing.name=蜜蜂收集者戒指
 
@@ -38,6 +38,7 @@ item.beeRing.name=蜜蜂收集者戒指
 tile.effectJar.name=蜜蜂收集者的罐子
 tile.magicApiary.name=魔法蜂箱
 tile.visAuraProvider.name=灵气蜂箱加速器
+tile.apimancersDrainer.name=Apimancer的沥水器
 tile.manaAuraProvider.name=魔力蜂箱加速器
 tile.hive.curious.name=好奇蜂巢
 tile.hive.unusual.name=非凡蜂巢
@@ -371,7 +372,7 @@ magicbees.speciesSilicon=硅晶
 magicbees.speciesSilicon.description="不要和硅胶蜂弄混了,也就是著名的Boo Bees!"|Myrathi,穿短裤的人
 magicbees.speciesCertus=定型
 magicbees.speciesCertus.description=又是另一种石英,通体泛蓝,仍不失其价值.|Apinomicon
-magicbees.speciesFluix=末元
+magicbees.speciesFluix=福鲁伊克斯
 magicbees.speciesFluix.description=集红石,下界石英和赛特斯石英于一体,福鲁伊克斯水晶本身相当罕见,且不稳定,极易与TNT反应.|Apinomicon
 
 magicbees.speciesDiamond=钻石
@@ -403,6 +404,8 @@ magicbees.speciesTCOrder=奇术
 magicbees.speciesTCOrder.description=它们有着臻于完美无瑕的蜂巢,其每个部分都是整体图案的镜像.|Apinomicon
 magicbees.speciesTCChaos=朴实
 magicbees.speciesTCChaos.description=它们的社会结构每天都在变化,这给它们带来了极强的灵活性和适应性, 但也使得它们变得难以捉摸.|Apinomicon
+magicbees.speciesTCEssentia=源质
+magicbees.speciesTCEssentia.description="既然可以用蜜蜂,为什么还要用源质冷凝器呢?"|Quantumly,冷凝器享受者
 magicbees.speciesTCVis=魔力
 magicbees.speciesTCVis.description="它们能感知到魔力的存在，却还不能影响到魔力."|Azanor的研究笔记
 magicbees.speciesTCRejuvenating=复兴
@@ -472,7 +475,7 @@ magicbees.speciesTEPlatinum=亮铂
 magicbees.speciesTEPlatinum.description=珍贵,韧性,还有难以置信的闪亮.|Apinomicon
 magicbees.speciesTENickel=灰镍
 magicbees.speciesTENickel.description="每一次听说这种蜜蜂的时候,如果我有五(一)分(块)钱(镍)...我本应换到一个蜂巢的!"|Marquis Muskrat
-magicbees.speciesTEInvar=因瓦
+magicbees.speciesTEInvar=殷钢
 magicbees.speciesTEInvar.description="热胀(力)冷(膨)缩(胀)系数偏低.另外,一语双关哦!"|Marquis Muskrat
 magicbees.speciesTEBronze=修补
 magicbees.speciesTEBronze.description="我非常喜欢这些蜜蜂,我一会得把它们好好保存起来."|Marquis Muskrat
@@ -642,13 +645,13 @@ tc.research_name.MB_FrameMagic=魔法框架
 tc.research_text.MB_FrameMagic=[MB] 将魔法融入养蜂
 tc.research_page.MB_FrameMagic.1=这魔法框架是你平时所使用的普通的未处理框架的升级版.制作工艺依旧十分简单,但是它却有着三倍于普通未处理框架的使用时长.而且,不像其它那些拒绝魔力注入的框架,魔法框架所有的可附魔特性使其可以与一些特殊源质一起使用,并作用于蜂箱上.
 
-tc.research_name.MB_Scoop=奥法捕蜂网
+tc.research_name.MB_Scoop=奥法捕虫网
 tc.research_text.MB_Scoop=[MB] 轻拿轻放.
-tc.research_page.MB_Scoop.1=普通的捕蜂网很不耐用,而且易碎.作为神秘养蜂学的权威,你完全可以做得更好.以神秘锭打造手柄,再以一定量秩序要素织网,你的新捕蜂网从此拥有了三倍耐久!<BR> 另外,这个设备中的神秘锭成分使它可以接受修复附魔.
+tc.research_page.MB_Scoop.1=普通的捕虫网很不耐用,而且易碎.作为神秘养蜂学的权威,你完全可以做得更好.以神秘锭打造手柄,再以一定量秩序要素织网,你的新捕虫网从此拥有了三倍耐久!<BR> 另外,这个设备中的神秘锭成分使它可以接受修复附魔.
 
 tc.research_name.MB_Grafter=奥法剪枝器
 tc.research_text.MB_Grafter=[MB] 每次都会有树苗哦.
-tc.research_page.MB_Grafter.1=简易的剪枝工具不仅无用还很脆弱,虽然定型剪枝工具确实好用,但绿宝石的稀有程度让它的获取相当令人恼火.那么解决方案是什么? 自己动手做!<BR> 由神秘锭打造的奥法剪枝工具,和神秘锭打造的奥法捕蜂网一样,更坚固,还可附魔,绝对是基础林业员工具的不二选择.但还是有一条使用警告,尽管它可以被附以修复附魔,它不寻常的性质决定了它依旧不是一个耐用的工具.
+tc.research_page.MB_Grafter.1=简易的剪枝工具不仅无用还很脆弱,虽然定型剪枝工具确实好用,但绿宝石的稀有程度让它的获取相当令人恼火.那么解决方案是什么? 自己动手做!<BR> 由神秘锭打造的奥法剪枝工具,和神秘锭打造的奥法捕虫网一样,更坚固,还可附魔,绝对是基础林业员工具的不二选择.但还是有一条使用警告,尽管它可以被附以修复附魔,它不寻常的性质决定了它依旧不是一个耐用的工具.
 
 tc.research_name.MB_EssenceLife=虚假之命源质
 tc.research_text.MB_EssenceLife=[MB] 冠以他名的玫瑰...
@@ -656,7 +659,7 @@ tc.research_page.MB_EssenceLife.1=由魔力所创造,这种源质在暴露在蜜
 
 tc.research_name.MB_EssenceDeath=暗影之墓源质
 tc.research_text.MB_EssenceDeath=[MB] 离地六英尺不足.
-tc.reseacrh_page.MB_EssenceDeath.1=暗影之墓源质引导着无数游荡于这个世界的..."自然"生物,走向死亡:僵尸, 骷髅, 诸如此类.暴露于这种能量下的蜜蜂会越来越迟缓, 寿命也会随之缩短.一部分神秘养蜂家认为使用浸有此种源质的框架是一种十分残忍的行为,然而, 也有其他观点认为这是常规养蜂中不可避免的一部分, 有时还可以让那些蜜蜂们在它们有限的生命周期里紧张工作起来.<BR> 神秘养蜂学安全指南章程中建议使用念力或者特别长的钳子来拿取此框架.
+tc.research_page.MB_EssenceDeath.1=暗影之墓源质引导着许多在世界中徘徊的“自然”生物的死亡：僵尸、骷髅，诸如此类的生物。将蜜蜂暴露于这种能量下，会使它们变得缓慢和迟钝，并缩短它们的寿命。一些养蜂人认为使用这些源质注入的框架是残忍的，然而，其他人则认为这是正常养蜂的自然部分，他们着眼于在他们的有生之年创造出完美的蜜蜂品种。<BR>安全养蜂协会建议使用心灵感应或非常长的钳子来处理它们。
 
 tc.research_name.MB_EssenceArmor=恒久不灭源质
 tc.research_text.MB_EssenceArmor=[MB] 你胶水上的橡胶
@@ -682,9 +685,13 @@ tc.research_name.MB_VisAuraProvider=灵气蜂箱加速器
 tc.research_text.MB_VisAuraProvider=[MB] Vis(灵气)?Bis如何?
 tc.research_page.MB_VisAuraProvider.1=向罕见花粉中注以灵气,并与黄金结合,便可制造出一种不寻常的晶体,若给这种晶体提供一些节点里的Vis,它就可以创造出一个充能灵气场,籍此调节魔法蜂箱周围的环境,并自然地把蜜蜂吸引过来.
 
-tc.research_name.MB_ScoopVoid=虚空捕蜂网
+tc.research_name.MB_ApimancersDrainer=Apimancer的沥水器
+tc.research_text.MB_ApimancersDrainer=你的皇后能用多久?
+tc.research_page.MB_ApimancersDrainer.1=养蜂人的沥水器是养蜂领域的创新装置,旨在从蜜蜂的生命力中提取源质. 它被放置在养蜂场的下方,与上方的养蜂场建立直接连接.<BR>要确定它所产生的源质类型,需要用所需的源质对沥水器进行调谐.<BR>一旦调谐好,沥水器就会将蜂后的生命能量转化为所选的源质...
+
+tc.research_name.MB_ScoopVoid=虚空捕虫网
 tc.research_text.MB_ScoopVoid=黑暗之网
-tc.research_page.MB_ScoopVoid.1=虚空金属是种奇怪的东西,现在该看看它可以为Apimancy带来什么了.虚空金属的自我再生特性也渗入了这种捕蜂网,真令人不安啊.<BR>希望它不会对蜜蜂造成太大影响...
+tc.research_page.MB_ScoopVoid.1=虚空金属是种奇怪的东西,现在该看看它可以为Apimancy带来什么了.虚空金属的自我再生特性也渗入了这种捕虫网,真令人不安啊.<BR>希望它不会对蜜蜂造成太大影响...
 
 tc.research_name.MB_GrafterVoid=虚空剪枝器
 tc.research_text.MB_GrafterVoid=扭曲的杨柳
@@ -697,8 +704,8 @@ tc.research_page.MB_GrafterVoid.1=毫无疑问,神秘锭是一种极好的材料
 magicbees.botania.lexicon.subtitle=[魔法蜜蜂]
 
 magicbees.botania.lexicon.manasteelTools.title=自然学家的魔钢工具
-magicbees.botania.lexicon.manasteelTools.0=魔钢独特的属性注定了它是 自然学家的工具的上好材料。 &1魔钢捕蜂网&0可用来高效采集 蜂巢，而耐用的&1魔钢剪枝器&0则 是普通的青铜剪枝器的上好 替代品。当然啦，两种工具都 可以用魔力来修复。要达到 最佳效果，请务必用活木合成。
-magicbees.botania.lexicon.manasteelScoop=&1魔钢捕蜂网&0
+magicbees.botania.lexicon.manasteelTools.0=魔钢独特的属性注定了它是 自然学家的工具的上好材料。 &1魔钢捕虫网&0可用来高效采集 蜂巢，而耐用的&1魔钢剪枝器&0则 是普通的青铜剪枝器的上好 替代品。当然啦，两种工具都 可以用魔力来修复。要达到 最佳效果，请务必用活木合成。
+magicbees.botania.lexicon.manasteelScoop=&1魔钢捕虫网&0
 magicbees.botania.lexicon.manasteelGrafter=&1魔钢剪枝器&0
 
 magicbees.botania.lexicon.beeAlfheim.title=艾尔芙海姆的魔法蜜蜂

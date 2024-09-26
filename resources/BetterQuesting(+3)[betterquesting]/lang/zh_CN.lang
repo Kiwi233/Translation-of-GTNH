@@ -19,6 +19,9 @@ betterquesting.title.select_theme=选择主题
 betterquesting.title.importers=导入数据
 betterquesting.title.submit_station=提交站
 betterquesting.title.completion=完成度: %d/%d
+betterquesting.title.choose_image.src=选择图片添加
+betterquesting.title.choose_image.dst=选择目标
+betterquesting.title.choose_image_swing=请在打开的文件选择器中选择图片
 
 betterquesting.btn.rewards=任务奖励
 betterquesting.btn.tasks=任务目标
@@ -85,6 +88,9 @@ betterquesting.gui.key=键位名称
 betterquesting.gui.no_key=无键位
 betterquesting.gui.duplicate_key=键位冲突
 betterquesting.gui.yes_always=总是
+betterquesting.gui.sp_only=在专用服务器上游玩时,此功能不起作用
+betterquesting.gui.not_correct_dir=目标位置必须在 %s 下,且不能是它的直接子位置
+betterquesting.gui.overwrite_file=目标文件已存在.确认覆盖?
 
 betterquesting.tooltip.tasks_complete=%s/%s 已达成
 betterquesting.tooltip.complete=已达成
@@ -106,6 +112,7 @@ betterquesting.tooltip.repeat_with_edit_mode=编辑模式已启用，可重复�
 betterquesting.tooltip.update_quests=更新可用!%n§7新任务线版本可用.%n单击此处可安装并迁移进度.
 betterquesting.tooltip.cycle.true=点击禁用
 betterquesting.tooltip.cycle.false=点击启用
+betterquesting.tooltip.image_file_type=图片
 
 betterquesting.notice.complete=任务完成
 betterquesting.notice.update=任务更新
@@ -219,9 +226,9 @@ betterquesting.cmd.lives.max=设置最大生命为 %s
 betterquesting.cmd.lives.default=设置默认生命为 %s
 
 betterquesting.cmd.reset.player_single=重置任务 '%s' 对 %s
-betterquesting.cmd.reset.player_all=重置所有任务对 %s
-betterquesting.cmd.reset.all_single=重置所有任务对 %s
-betterquesting.cmd.reset.all_all=重置所有任务对所有玩家
+betterquesting.cmd.reset.player_all=为%s重置所有任务
+betterquesting.cmd.reset.all_single=为所有玩家重置任务'%s'
+betterquesting.cmd.reset.all_all=为所有玩家重置所有任务
 betterquesting.cmd.refresh=刷新本地数据...
 
 betterquesting.cmd.cleanup_questline.confirm=这是一个危险的操作.在此之前请确认备份.再次输入此指令以开始清理.

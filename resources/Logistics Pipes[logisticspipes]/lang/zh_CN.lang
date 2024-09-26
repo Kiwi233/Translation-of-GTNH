@@ -123,15 +123,15 @@ item.PipeItemsSystemEntranceLogistics=物流系统入口管道
 item.PipeItemsSystemEntranceLogistics.tip1=类型：路线规划
 item.PipeItemsSystemEntranceLogistics.tip2= - 将流经此管的物品发往与此管配对的目的管道
 item.PipeItemsSystemEntranceLogistics.tip3= - 入口和目的管道必须拥有配对的频率卡
-item.PipeItemsSystemEntranceLogistics.tip4= 
-item.PipeItemsSystemEntranceLogistics.tip5= 
+item.PipeItemsSystemEntranceLogistics.tip4=- 入口和目标管道
+item.PipeItemsSystemEntranceLogistics.tip5= 必须共享频率卡的编码
 
 item.PipeItemsSystemDestinationLogistics=物流系统目标管道
 item.PipeItemsSystemDestinationLogistics.tip1=类型：特殊目标
 item.PipeItemsSystemDestinationLogistics.tip2= - 接收由物流系统入口管道发送的物品
 item.PipeItemsSystemDestinationLogistics.tip3= - 入口和目的管道必须拥有配对的频率卡
-item.PipeItemsSystemDestinationLogistics.tip4= 
-item.PipeItemsSystemDestinationLogistics.tip5= 
+item.PipeItemsSystemDestinationLogistics.tip4=- 入口和目标管道
+item.PipeItemsSystemDestinationLogistics.tip5= 必须共享频率卡的编码
 
 item.PipeItemsFirewall=物流防火墙管道
 item.PipeItemsFirewall.tip1=类型：请求过滤器
