@@ -172,3 +172,19 @@ structurelib.config.client.hologram.maxCoexisting=最大共存全息图数
 structurelib.config.client.hologram.maxCoexisting.tooltip=可以同时存在的全息图数量. 一般一次右键生成的所有提示都视为一个全息图. 当存在多个全息图且超过此数量后，尝试生成新全息图时会删除旧全息图.
 structurelib.config.client.hologram.removeColliding=移除冲突全息图
 structurelib.config.client.hologram.removeColliding.tooltip=已存在的全息图与新全息图冲突时，会删除旧全息图.
+
+structurelib.config.registries=排序注册表
+structurelib.config.registries.tooltip=排序注册表是StructureLib内部跟踪某些功能的方式。每个单独的元素可以根据用户的命令进行重新排序、禁用或启用。必要时，变更将同步到服务器。\n这个图形界面也可以通过在游戏中使用多方块机器全息投影仪对着空气Shift+右键点击来访问。
+structurelib.config.registries.stackextractors=物品提取器
+structurelib.config.registries.stackextractors.tooltip=控制生存模式自动放置时启用的存储空间（从物品栏中的物品中打开）
+structurelib.config.registries.inventoryproviders=存储空间提供者
+structurelib.config.registries.inventoryproviders.tooltip=控制生存模式自动放置时启用的存储空间（直接打开）
+
+structurelib.configgui.enabled=启用项
+structurelib.configgui.disabled=禁用项
+structurelib.configgui.drag.tooltip=拖动该按钮改变该项位置
+
+structurelib.sortedregistry.inventoryproviders.5000-main-inventory=玩家主物品栏
+structurelib.sortedregistry.inventoryproviders.5000-main-inventory.tooltip=你的主物品栏中的36个槽位。护甲槽除外。
+structurelib.sortedregistry.inventoryproviders.7000-ender-inventory=末影箱子物品栏
+structurelib.sortedregistry.inventoryproviders.7000-ender-inventory.tooltip=连接到你的原版末影箱。需要身上至少有一个“末影背包”之类的物品才能工作。

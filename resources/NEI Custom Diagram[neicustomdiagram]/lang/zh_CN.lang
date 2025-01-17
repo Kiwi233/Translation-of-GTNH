@@ -138,6 +138,7 @@ neicustomdiagram.generators.gregtech5.materialparts.multiingotsslot=多重锭
 neicustomdiagram.generators.gregtech5.materialparts.platesslot=板
 neicustomdiagram.generators.gregtech5.materialparts.multiplatesslot=多重板
 neicustomdiagram.generators.gregtech5.materialparts.alloyplateslot=合金板
+neicustomdiagram.generators.gregtech5.materialparts.superdenseplateslot=超致密板
 neicustomdiagram.generators.gregtech5.materialparts.rodsslot=杆
 neicustomdiagram.generators.gregtech5.materialparts.boltsslot=螺栓
 neicustomdiagram.generators.gregtech5.materialparts.ringslot=环
@@ -179,6 +180,7 @@ neicustomdiagram.generators.gregtech5.oreprefixes.prefixlabel=矿辞前缀：%s
 
 neicustomdiagram.generators.gregtech5.oreprocessing.groupname=GT矿物处理
 neicustomdiagram.generators.gregtech5.oreprocessing.oreslot=已处理矿物
+neicustomdiagram.generators.gregtech5.oreprocessing.raworeslot=已处理粗矿
 neicustomdiagram.generators.gregtech5.oreprocessing.maceratorlabel=粉碎机
 neicustomdiagram.generators.gregtech5.oreprocessing.maceratorslot=粉碎机输出
 neicustomdiagram.generators.gregtech5.oreprocessing.orewashingplantlabel=洗矿机
@@ -227,7 +229,7 @@ neicustomdiagram.generators.gregtech5.recipedebugger.precisionlaserengraverlabel
 neicustomdiagram.generators.gregtech5.recipedebugger.mixerlabel=搅拌机合成表
 neicustomdiagram.generators.gregtech5.recipedebugger.autoclavelabel=高压釜合成表
 neicustomdiagram.generators.gregtech5.recipedebugger.electromagneticseparatorlabel=电磁离析机合成表
-neicustomdiagram.generators.gregtech5.recipedebugger.polarizerlabel=两级磁化机合成表
+neicustomdiagram.generators.gregtech5.recipedebugger.polarizerlabel=两极磁化机合成表
 neicustomdiagram.generators.gregtech5.recipedebugger.maceratorlabel=粉碎机合成表
 neicustomdiagram.generators.gregtech5.recipedebugger.chemicalbathlabel=化学浸洗机合成表
 neicustomdiagram.generators.gregtech5.recipedebugger.fluidcannerlabel=流体灌装机合成表
