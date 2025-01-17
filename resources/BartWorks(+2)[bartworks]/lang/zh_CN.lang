@@ -14,7 +14,7 @@ GT5U.gui.text.wrong_sievert_min=§7辐射剂量错误.所需最小剂量为: %s 
 
 itemGroup.bartworks=BartWorks跨时代
 BW_Machinery_Casings.0.name=镍锌铁氧体块
-BW_Machinery_Casings.1.name=变压器线圈块
+BW_Machinery_Casings.1.name=变压器绕组方块
 item.BW_PaperRotor.name=原始纸转子(风车专用)
 item.BW_LeatherRotor.name=原始皮革转子(风车专用)
 item.BW_WoolRotor.name=原始羊毛转子(风车专用)
@@ -120,7 +120,7 @@ tooltip.tile.lesu.0.name=LESU的控制器方块;大小(宽x高x长): 任意
 tooltip.tile.lesu.1.name=每个LESU机械方块存储:
 tooltip.tile.lesu.2.name=输出EU: LESU机械方块数量;输入EU: 输出EU的下一电压等级;输入/输出电流可通过GUI中的4个编程电路调整;输出端有一个点.
 tooltip.tile.lesu.3.name=只允许一个控制器,不允许共享方块!
-tooltip.tile.manualtravo.0.name=可调变压器的控制器方块;目前有四种不同的运作模式：;模式1: 编程电路0: 直接升压;模式2: 编程电路1: 直接降压;模式3: 编程电路2: 抽头升压;模式4: 编程电路3: 抽头降压;直接模式(长x高x宽): 3xHx3;底层至少包含一个能源仓;所需变压的每个电压等级都需要一层变压器绕组方块;变压器线圈块中心需为镍锌铁氧体块;顶部至少包含一个动力仓;维护仓可置于任意位置;抽头模式目前无法使用.
+tooltip.tile.manualtravo.0.name=可调变压器的控制器方块;目前有四种不同的运作模式：;模式1: 编程电路0: 直接升压;模式2: 编程电路1: 直接降压;模式3: 编程电路2: 抽头升压;模式4: 编程电路3: 抽头降压;直接模式(长x高x宽): 3xHx3;底层至少包含一个能源仓;所需变压的每个电压等级都需要一层变压器绕组方块;变压器绕组方块的中心需为镍锌铁氧体块;顶部至少包含一个动力仓;维护仓可置于任意位置;抽头模式目前无法使用.
 tooltip.tile.tiereddsc.0.name=电压:
 tooltip.tile.tiereddsc.1.name=输入电流:
 tooltip.tile.tiereddsc.2.name=输出电流:

@@ -126,6 +126,7 @@ GT5U.gui.text.no_space_station=§7不在空间站
 GT5U.gui.text.invalid_depth=§7无效深度
 GT5U.gui.text.missing_project=§7缺少§b%s于§b%s
 GT5U.gui.text.no_plasma=§7缺少等离子体
+GT5U.gui.text.invalid_overdrive=§7无效过载设置
 GT5U.gui.text.no_project_selected=§7没有正在运行的项目
 ig.text.project=项目
 ig.text.upgrades=升级
@@ -191,9 +192,9 @@ gt.blockmachines.multimachine.project.ig.assembler.desc0=将太空组装功能�
 gt.blockmachines.multimachine.project.ig.assembler.t1.desc1=为什么我又要在太空里组装东西啊？
 gt.blockmachines.multimachine.project.ig.assembler.t2.desc1=这真的有必要吗？
 gt.blockmachines.multimachine.project.ig.assembler.t3.desc1=我想我们永远也不会知道.
-gt.blockmachines.multimachine.project.ig.assembler.t1.desc2=最大并行：4
-gt.blockmachines.multimachine.project.ig.assembler.t2.desc2=最大并行：16
-gt.blockmachines.multimachine.project.ig.assembler.t3.desc2=最大并行：64
+gt.blockmachines.multimachine.project.ig.assembler.t1.desc2=运行电压：UHV，最大并行：4
+gt.blockmachines.multimachine.project.ig.assembler.t2.desc2=运行电压：UIV，最大并行：16
+gt.blockmachines.multimachine.project.ig.assembler.t3.desc2=运行电压：UXV，最大并行：64
 gt.blockmachines.multimachine.project.ig.assembler.cfgi.0=最大并行
 
 # Module Miner
@@ -215,9 +216,9 @@ gt.blockmachines.multimachine.project.ig.miner.t2.desc1=这是不是侵害了无
 gt.blockmachines.multimachine.project.ig.miner.t3.desc1=这绝对侵害了无人机的权利.
 gt.blockmachines.multimachine.project.ig.miner.desc3=运行需要等离子体(1000L氦/500L铋/300L氡).
 gt.blockmachines.multimachine.project.ig.miner.desc4=使用更高级的等离子体可获得增产.
-gt.blockmachines.multimachine.project.ig.miner.t1.desc5=最大并行：2
-gt.blockmachines.multimachine.project.ig.miner.t2.desc5=最大并行：4
-gt.blockmachines.multimachine.project.ig.miner.t3.desc5=最大并行：8
+gt.blockmachines.multimachine.project.ig.miner.t1.desc5=运行电压：UV，最大并行：2
+gt.blockmachines.multimachine.project.ig.miner.t2.desc5=运行电压：UHV，最大并行：4
+gt.blockmachines.multimachine.project.ig.miner.t3.desc5=运行电压：UEV，最大并行：8
 gt.blockmachines.multimachine.project.ig.miner.desc6=请将矿石放入输入总线，以设置白名单/黑名单
 
 # Module Pump
@@ -230,7 +231,10 @@ gt.blockmachines.multimachine.project.ig.pump.t2.desc1=疯狂吮吸
 gt.blockmachines.multimachine.project.ig.pump.t3.desc1=S U C C
 gt.blockmachines.multimachine.project.ig.pump.desc3=设定的行星和气体类型决定了输出的流体
 gt.blockmachines.multimachine.project.ig.pump.desc4=锁定输出仓即可防止溢出销毁
-gt.blockmachines.multimachine.project.ig.pump.t2.desc5=一次处理多达4种不同的配方
+gt.blockmachines.multimachine.project.ig.pump.t1.desc5=运行电压：UHV，最大并行：4
+gt.blockmachines.multimachine.project.ig.pump.t2.desc5=运行电压：UEV，每个配方的最大并行：4
+gt.blockmachines.multimachine.project.ig.pump.t3.desc5=运行电压：UXV，每个配方的最大并行：64
+gt.blockmachines.multimachine.project.ig.pump.t2.desc6=一次处理多达4种不同的配方
 gt.blockmachines.multimachine.project.ig.pump.cfgi.0=行星类型
 gt.blockmachines.multimachine.project.ig.pump.cfgi.1=气体类型
 gt.blockmachines.multimachine.project.ig.pump.cfgi.2=并行

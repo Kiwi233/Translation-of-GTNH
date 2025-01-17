@@ -1,0 +1,110 @@
+item.kekztech_error_item.name=KekzTech错误硬币
+
+# -------- Multiblock Tooltip Builder Keywords
+# -------- Context can be found in the class util.MultiBlockTooltipBuilder
+mbdesc.beginStructureBlock.Dimensions=外型尺寸
+mbdesc.beginStructureBlock.Structure=结构
+mbdesc.addController.Controller=控制器
+mbdesc.addCasing.atleast=(至少)
+mbdesc.addEnergyHatch.EnergyHatch=能源仓
+mbdesc.addDynamoHatch.DynamoHatch=动力仓
+mbdesc.addMaintenanceHatch.MaintenanceHatch=维护仓
+mbdesc.addIOHatches.IOHatches=输入/出仓(TFFT)
+mbdesc.addInputBus.InputBus=输入总线
+mbdesc.addInputHatch.InputHatch=输入仓
+mbdesc.addOutputBus.OutputBus=输出总线
+mbdesc.addOutputHatch.OutputHatch=输出仓
+mbdesc.signAndFinalize.Hold=按住
+mbdesc.signAndFinalize.todisplay=以显示结构指导
+mbdesc.signAndFinalize.createdby=添加者: 
+
+# -------- Fuel Cell: Structure Blocks
+tile.kekztech_gdcceramicelectrolyteunit_block.name=钆铈陶瓷电解质单元
+tile.kekztech_yszceramicelectrolyteunit_block.name=钇锆陶瓷电解质单元
+
+# -------- Fuel Cell: Crafting Components
+item.kekztech_crafting_item.9.name=钇锆陶瓷粉
+item.kekztech_crafting_item.10.name=钆铈陶瓷粉
+item.kekztech_crafting_item.11.name=氧化钇粉
+item.kekztech_crafting_item.12.name=氧化锆粉
+item.kekztech_crafting_item.13.name=氧化铈粉
+item.kekztech_crafting_item.14.name=钇锆陶瓷板
+item.kekztech_crafting_item.15.name=钆铈陶瓷板
+
+# -------- TFFT: Structure Blocks
+tile.kekztech_tfftstoragefield_block.0.name=T.F.F.T机械方块
+tile.kekztech_tfftstoragefield_block.1.name=T.F.F.T 存储库方块 (T1)
+tile.kekztech_tfftstoragefield_block.2.name=T.F.F.T 存储库方块 (T2)
+tile.kekztech_tfftstoragefield_block.3.name=T.F.F.T 存储库方块 (T3)
+tile.kekztech_tfftstoragefield_block.4.name=T.F.F.T 存储库方块 (T4)
+tile.kekztech_tfftstoragefield_block.5.name=T.F.F.T 存储库方块 (T5)
+tile.kekztech_tfftstoragefield_block.6.name=T.F.F.T 存储库方块 (T6)
+tile.kekztech_tfftstoragefield_block.7.name=T.F.F.T 存储库方块 (T7)
+tile.kekztech_tfftstoragefield_block.8.name=T.F.F.T 存储库方块 (T8)
+tile.kekztech_tfftstoragefield_block.9.name=T.F.F.T 存储库方块 (T9)
+tile.kekztech_tfftstoragefield_block.10.name=T.F.F.T 存储库方块 (T10)
+tile.kekztech_tfftstoragefield_block.desc=这不是流体储罐
+tile.kekztech_tfftstoragefield_block.hint.1=提示方块：1号：T.F.F.T机械方块
+tile.kekztech_tfftstoragefield_block.hint.2=提示方块：2号：T.F.F.T机械方块、维护仓、T.F.F.T多重输入/输出仓、输入/输出仓、能源仓
+tile.kekztech_tfftstoragefield_block.hint.3=提示方块：3号：EV+玻璃、T.F.F.T多重输入/输出仓、输入/输出仓
+tile.kekztech_tfftstoragefield_block.hint.4=提示方块：4号：EV+玻璃
+
+# -------- Lapotronic Super Capacitor: Structure Blocks
+tile.kekztech_lapotronicenergyunit_block.0.name=兰波顿超级电容机械方块
+tile.kekztech_lapotronicenergyunit_block.1.name=兰波顿电容(IV)
+tile.kekztech_lapotronicenergyunit_block.2.name=兰波顿电容(LuV)
+tile.kekztech_lapotronicenergyunit_block.3.name=兰波顿电容(ZPM)
+tile.kekztech_lapotronicenergyunit_block.4.name=兰波顿电容(UV)
+tile.kekztech_lapotronicenergyunit_block.5.name=终极电容(UHV)
+tile.kekztech_lapotronicenergyunit_block.6.name=空电容(-)
+tile.kekztech_lapotronicenergyunit_block.7.name=兰波顿电容(EV)
+tile.kekztech_lapotronicenergyunit_block.8.name=极·终极电容(UEV)
+tile.kekztech_lapotronicenergyunit_block.9.name=狂·终极电容(UIV)
+tile.kekztech_lapotronicenergyunit_block.10.name=太·终极电容(UMV)
+tile.kekztech_lapotronicenergyunit_block.desc=兰波顿超级电容库的组成部分
+
+# -------- Thaumium Reinforced Jar: Block
+tile.kekztech_thaumiumreinforcedjar_block.0.name=神秘源质罐子
+tile.kekztech_thaumiumreinforcedjar_block.3.name=神秘虚空罐子
+
+# -------- Thaumium Reinforced Jar: Research
+# This is the name of the research
+tc.research_name.THAUMIUMREINFORCEDJAR=神秘源质罐子
+# This is the subtext for the research note
+tc.research_text.THAUMIUMREINFORCEDJAR=略好的罐子
+# Lore text for the research pages
+kekztech.research_page.THAUMIUMREINFORCEDJAR.0=你曾听你的神秘使伙伴谈起过数字化源质存储的便利.<BR><BR>为高阶注魔存储足够的源质,你现在面临着同样的问题.但是这些源质罐子实在太讨人喜欢了,你甚至没有考虑用某种更紧凑的技术结构来代替它们.<BR><BR>随着研究的深入,你发现有了一层厚厚的神秘锭内衬,罐子的容量可以变为原来的4倍.要是有充足的时间,你相信还有更好的解决方式.
+kekztech.research_page.THAUMIUMREINFORCEDJAR.1=在如此狭小的空间中压缩这么多的源质会导致一些不稳定性.所以捡起这种加强罐子可能是个糟糕的主意...<BR><BR>可以想象,如果有某种材料比钻石,或比目前为止你所见过的任何其他神秘金属更坚硬的话,以此制成的源质罐子一定能给你惊喜.
+
+# -------- Ichor Jar: Block
+tile.kekztech_ichorjar_block.0.name=灵液源质罐子
+tile.kekztech_ichorjar_block.3.name=灵液虚空罐子
+
+# -------- Ichor Jar: Research
+tc.research_name.ICHORJAR=灵液源质罐子
+tc.research_text.ICHORJAR=非常好的罐子
+kekztech.research_page.ICHORJAR.0=就是这个!<BR><BR>将一点灵液注魔进源质罐子,你获得了可以与数字化源质存储相匹敌,同时还不用牺牲美感的新罐子.<BR><BR>灵液源质罐子可以装下惊人的4096点源质,非常适合你刚解锁的这些基于灵液的注魔.<BR><BR>你绝对不会想打扰这些罐子的.不过幸运的是,灵液源质罐子拥有足够的柔韧性,不太容易被误操作摧毁.
+
+# -------- Cosmetic Blocks
+tile.kekztech_largehextile_block.name=大六角瓷砖
+
+# -------- Achievements
+achievement.tile.kekztech_lapotronicenergyunit_block.2.desc=捡起此物品以在NEI内解锁该合成表
+achievement.tile.kekztech_lapotronicenergyunit_block.2=兰波顿电容(LuV)
+achievement.tile.kekztech_lapotronicenergyunit_block.3.desc=捡起此物品以在NEI内解锁该合成表
+achievement.tile.kekztech_lapotronicenergyunit_block.3=兰波顿电容(ZPM)
+achievement.tile.kekztech_lapotronicenergyunit_block.4.desc=捡起此物品以在NEI内解锁该合成表
+achievement.tile.kekztech_lapotronicenergyunit_block.4=兰波顿电容(UV)
+achievement.tile.kekztech_lapotronicenergyunit_block.5.desc=捡起此物品以在NEI内解锁该合成表
+achievement.tile.kekztech_lapotronicenergyunit_block.5=终极电容(UHV)
+achievement.tile.kekztech_lapotronicenergyunit_block.8.desc=超神！
+achievement.tile.kekztech_lapotronicenergyunit_block.8=极·终极电容(UEV)
+achievement.tile.kekztech_lapotronicenergyunit_block.9.desc=狂乱·如影随形！
+achievement.tile.kekztech_lapotronicenergyunit_block.9=狂·终极电容(UIV)
+achievement.tile.kekztech_lapotronicenergyunit_block.10.desc=我们能走多远？
+achievement.tile.kekztech_lapotronicenergyunit_block.10=太·终极电容(UMV)
+
+
+# -------- GUI
+gui.kekztech_lapotronicenergyunit.wireless=无线模式
+gui.kekztech_lapotronicenergyunit.wireless_rebalance=重新平衡无线电网(只能使用一次)

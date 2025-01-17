@@ -221,7 +221,7 @@ item.SC2:internal_storage.name=内置存储箱
 item.SC2:extracting_chests.name=提取箱子中
 item.SC2:torch_placer.name=火把放置器
 item.SC2:basic_drill.name=基础钻头
-item.SC2:galgadorian_drill.name=混合晶化金属钻头
+item.SC2:galgadorian_drill.name=混合晶钻头
 item.SC2:railer.name=铺轨器
 item.SC2:large_railer.name=大型铺轨器
 item.SC2:bridge_builder.name=架桥器
@@ -289,11 +289,11 @@ item.SC2:open_tank.name=开放式水箱
 item.SC2:egg_basket=鸡蛋篮
 item.SC2:drill_intelligence.name=钻头智能
 item.SC2:lawn_mower.name=割草器
-item.SC2:galgadorian_farmer.name=混合晶化金属种植器
+item.SC2:galgadorian_farmer.name=混合晶种植器
 item.SC2:crafter.name=合成器
 item.SC2:milker.name=混合器
-item.SC2:galgadorian_hull.name=混合晶化金属车壳
-item.SC2:galgadorian_wood_cutter.name=混合晶化金属伐木器
+item.SC2:galgadorian_hull.name=混合晶车壳
+item.SC2:galgadorian_wood_cutter.name=混合晶伐木器
 item.SC2:ore_extractor.name=矿物提取器
 item.SC2:enchanter.name=附魔器
 item.SC2:advanced_smelter.name=高级熔炉
@@ -309,6 +309,7 @@ item.SC2:cake_server.name=蛋糕服务器
 item.SC2:creative_incinerator.name=创造模式焚化炉
 item.SC2:creative_supplies.name=创造模式供应
 item.SC2:color_randomizer.name=颜色定制组件
+item.SC2:crop_exotic.name=作物：异域
 
 # Components
 item.SC2:unknowncomponent.name=未知SC2组件
@@ -357,9 +358,9 @@ item.SC2:fuse.name=引信
 item.SC2:solar_panel.name=太阳能板
 item.SC2:eye_of_galgador.name=混合晶化眼
 item.SC2:lump_of_galgador.name=混合晶化团
-item.SC2:galgadorian_metal.name=混合晶化锭
+item.SC2:galgadorian_metal.name=混合晶锭
 item.SC2:large_lump_of_galgador.name=大型混合晶化块
-item.SC2:enhanced_galgadorian_metal.name=强化混合晶化金属锭
+item.SC2:enhanced_galgadorian_metal.name=强化混合晶锭
 item.SC2:stolen_present.name=被盗礼物
 item.SC2:green_wrapping_paper.name=绿色包装纸
 item.SC2:red_wrapping_paper.name=红色包装纸
@@ -391,8 +392,8 @@ item.SC2:birch_twig.name=白桦树枝
 item.SC2:jungle_log.name=丛林木原木
 item.SC2:jungle_twig.name=丛林木树枝
 item.SC2:hardened_saw_blade.name=硬化锯片
-item.SC2:galgadorian_saw_blade.name=混合晶化金属锯片
-item.SC2:galgadorian_wheels.name=混合晶化金属车轮
+item.SC2:galgadorian_saw_blade.name=混合晶锯片
+item.SC2:galgadorian_wheels.name=混合晶车轮
 item.SC2:iron_blade.name=铁制刀片
 item.SC2:blade_arm.name=刀片武器
 
@@ -412,8 +413,8 @@ tile.SC2:BlockLiquidManager.name=流体管理器
 
 # Storage
 item.SC2:BlockStorage0.name=强化金属块
-item.SC2:BlockStorage1.name=混合晶化金属块
-item.SC2:BlockStorage2.name=强化混合晶化金属块
+item.SC2:BlockStorage1.name=混合晶块
+item.SC2:BlockStorage2.name=强化混合晶块
 
 # Upgrades
 item.SC2:batteries.name=升级：电池

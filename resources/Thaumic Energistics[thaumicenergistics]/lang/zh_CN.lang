@@ -8,6 +8,7 @@ thaumicenergistics.fluid.gaseous=超临界流体
 #Blocks
 thaumicenergistics.block.essentia.provider.name=源质供应器
 thaumicenergistics.block.infusion.provider.name=注魔供应器
+thaumicenergistics.block.advanced.infusion.provider.name=高级注魔供应器
 thaumicenergistics.block.gear.box.name=铁齿轮箱
 thaumicenergistics.block.golem.gear.box.name=神秘齿轮箱
 thaumicenergistics.block.essentia.cell.workbench.name=源质元件工作台
@@ -78,6 +79,10 @@ thaumicenergistics.tooltip.button.swap.armor.title=交换护甲
 thaumicenergistics.tooltip.arcane.assembler.hasVis=已存储Vis
 thaumicenergistics.tooltip.button.reset.aspect=重置各方面
 thaumicenergistics.tooltip.button.reset.aspect.description=将左侧表格重置为原始状态
+thaumicenergistics.tooltip.advanced.infusion.provider.working.on=工作模式
+thaumicenergistics.tooltip.advanced.infusion.provider.normal=普通供应器
+thaumicenergistics.tooltip.advanced.infusion.provider.advanced=高级供应器
+thaumicenergistics.tooltip.advanced.infusion.provider.bindto=绑定到%s %s %s矩阵
 
 
 #GUI
@@ -139,6 +144,11 @@ thaumicenergistics.research_page.TEESSPROV.1=尽管输入和输出总线适用�
 tc.research_name.thaumicenergistics.TEINFPROV=注魔供应器
 tc.research_text.thaumicenergistics.TEINFPROV=注魔更易.
 thaumicenergistics.research_page.TEINFPROV.1=通过研究源质注魔的过程,你发现了能用于注魔的源质瞬间数字化与数字瞬间源质化的方法.<BR>将注魔供应器邻近神秘装置放置,装置就能直接从网络中抽取源质,就像是要素罐子一样.对注魔祭坛来说这十分实用.
+
+# Research Advanced Infusion Provider
+tc.research_name.thaumicenergistics.TEADVINFPROV=高级注魔供应器
+tc.research_text.thaumicenergistics.TEADVINFPROV=最简单的灌注。
+thaumicenergistics.research_page.TEADVINFPROV.1=当你不断的优化自己的网络合成自动化时,你无数次的被注魔时需要的要素源质的制作给难住了.<BR>现在,你有了全新的想法,不如把计算源质合成的任务交给ME网络来做?<BR>于是你试着使用自己的魔法技巧,将截流者与原有的供应器进行结合,经过你的不懈努力得到了这个进阶注魔供应器,它会在自身为中心25*25*11的空间内搜索所有的注魔矩阵并自动绑定,且当他发现源质缺失时会自动进行下单,你需要做的只有把他放在多个矩阵的中间,就是这么简单.<BR>右键可以让他重新搜索区域内的矩阵并重新绑定.
 
 # Research Vis Interface
 tc.research_name.thaumicenergistics.TEVISINT=要素中继接口
