@@ -61,6 +61,8 @@ betterquesting.btn.always_draw_implicit=始终显示隐藏前置任务
 betterquesting.btn.prereq_visbility.normal=默认
 betterquesting.btn.prereq_visbility.implicit=除悬停或按住Shift时，其余隐藏
 betterquesting.btn.prereq_visbility.hidden=始终隐藏
+betterquesting.btn.bookmark_quest=添加书签
+betterquesting.btn.unbookmark_quest=取消书签
 betterquesting.btn.share_quest=分享到聊天窗口
 betterquesting.btn.copy_quest=复制任务ID
 
@@ -75,6 +77,7 @@ betterquesting.gui.quest_line=章节列表
 betterquesting.gui.database=任务数据
 betterquesting.gui.selection=选择
 betterquesting.gui.search=查找
+betterquesting.gui.bookmarks=书签列表
 betterquesting.gui.folder=文件夹
 betterquesting.gui.party_invites=邀请列表
 betterquesting.gui.party_members=成员列表
@@ -91,6 +94,7 @@ betterquesting.gui.yes_always=总是
 betterquesting.gui.sp_only=在专用服务器上游玩时,此功能不起作用
 betterquesting.gui.not_correct_dir=目标位置必须在 %s 下,且不能是它的直接子位置
 betterquesting.gui.overwrite_file=目标文件已存在.确认覆盖?
+betterquesting.gui.logic.or=或
 
 betterquesting.tooltip.tasks_complete=%s/%s 已达成
 betterquesting.tooltip.complete=已达成

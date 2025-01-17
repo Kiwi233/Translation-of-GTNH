@@ -141,7 +141,7 @@ item.PipeItemsFirewall.tip3=   同时只允许特定物品通过
 item.PipeItemsFluidSupplier=物流流体容器补给管道
 item.PipeItemsFluidSupplier.tip1=用桶或其他流体容器里的流体来填充与管道连接的储液器
 item.PipeFluidSupplierMk2=物流流体补给管道
-item.PipeFluidSupplierMk2.tip1=从物流流体供应管道中请求流体
+item.PipeFluidSupplierMk2.tip1=从网络中请求配置的流体并输入至连接的流体储罐
 item.LogisticsFluidConnectorPipe=物流流体连接管道
 item.PipeFluidBasic=物流流体基础管道
 item.PipeFluidInsertion=物流流体插入管道
@@ -150,6 +150,11 @@ item.PipeFluidRequestLogistics=物流流体请求管道
 item.PipeFluidExtractor=物流流体抽取管道
 item.PipeFluidSatellite=物流流体卫星管道
 item.PipeBlockRequestTable=物流请求桌
+
+item.logisticspipes.tip.active_destination=%cYELLOW Active%cGRAY 路径的有效目标
+item.logisticspipes.tip.passive_destination=%cYELLOW Passive%cGRAY 路径的有效目标
+item.logisticspipes.tip.active_source=%cYELLOW Active%cGRAY 路径的有效来源
+item.logisticspipes.tip.passive_source=%cYELLOW Passive%cGRAY 路径的有效来源
 
 # Modules
 
@@ -358,17 +363,17 @@ gui.firewall.Powerflow=能量
 
 gui.fluidbasic.Empty=空
 
-gui.fluidsuppliermk2.Inventory=物品栏
 gui.fluidsuppliermk2.Fluid=流体
-gui.fluidsuppliermk2.Partial=部分
-gui.fluidsuppliermk2.minMode=最小模式
-gui.fluidsuppliermk2.Yes=是
-gui.fluidsuppliermk2.No=否
+gui.fluidsuppliermk2.partial=部分
+gui.fluidsuppliermk2.partial.tip=允许从网络中部分填充所需的空间
+gui.fluidsuppliermk2.partial.no=否
+gui.fluidsuppliermk2.partial.no.tip=§e否§7：只有当网络中有足够的资源完全填充所需空间时，流体才会被抽取
+gui.fluidsuppliermk2.partial.yes=是
+gui.fluidsuppliermk2.partial.yes.tip=§e是§7：即使网络中没有足够的资源完全填充所需空间，流体也会被抽取。
+gui.fluidsuppliermk2.refill_if_depleted=重新填充的损耗阈值
+gui.fluidsuppliermk2.refill_if_depleted.tip=仅在空间至少被消耗§e%s§r mB时允许请求流体。
+gui.fluidsuppliermk2.refill_if_depleted.tip.zero=§7设置为§e0§7以关闭该功能
 gui.fluidsuppliermk2.TargetInv=要补给的流体
-gui.fluidsuppliermk2.NONE=None
-gui.fluidsuppliermk2.ONEBUCKET=1桶
-gui.fluidsuppliermk2.TWOBUCKET=2桶
-gui.fluidsuppliermk2.FIVEBUCKET=5桶
 
 gui.fluidsupplier.TargetInv=要补给的流体
 gui.fluidsupplier.Inventory=物品栏
@@ -455,6 +460,7 @@ gui.networkstatistics.gettasks=已获得任务
 gui.networkstatistics.add.alreadytracked=该物品已经开始追踪
 
 gui.settings.pipenewrenderer=使用新渲染
+gui.settings.pipevborenderer=使用VBO渲染器（实验性）
 gui.settings.pipefallbackrenderer=使用备用渲染
 gui.settings.piperenderdistance=新渲染最大渲染距离
 gui.settings.pipecontentrenderdistance=管道内容物最大渲染距离

@@ -4,6 +4,7 @@ tile.ae2stuff.Inscriber.name=高级压印器
 tile.ae2stuff.Wireless.name=无线接入器 
 
 item.ae2stuff.WirelessKit.name=无线设置工具
+item.ae2stuff.AdvWirelessKit.name=高级无线设置工具
 item.ae2stuff.Visualiser.name=网络可视化工具
 
 ae2stuff.error.not_connected=未连接网络
@@ -27,6 +28,19 @@ ae2stuff.gui.recipes=合成表
 ae2stuff.wireless.tool.empty=点击无线接入器以绑定
 ae2stuff.wireless.tool.bound1=已绑定到 %s,%s,%s
 ae2stuff.wireless.tool.bound2=点击其他无线接入器以连接
+ae2stuff.wireless.advtool.queueing=§a队列模式
+ae2stuff.wireless.advtool.binding=§a绑定模式
+ae2stuff.wireless.advtool.queueing.activated=队列模式已激活
+ae2stuff.wireless.advtool.binding.activated=绑定模式已激活
+ae2stuff.wireless.advtool.queued=位于 %s，%s，%s 的接入器已加入队列
+ae2stuff.wireless.advtool.queueing.empty=点击无线接入器以加入绑定队列
+ae2stuff.wireless.advtool.binding.empty=切换至队列模式以添加接入器至队列
+ae2stuff.wireless.advtool.queueing.notempty=在队列中的当前无线接入器：
+ae2stuff.wireless.advtool.binding.notempty=队列中的当前待绑定无线接入器：
+ae2stuff.wireless.advtool.connector.next=在队列中的下一个接入器：%s，%s，%s
+ae2stuff.wireless.advtool.extra=§o潜行右击以在队列模式和绑定模式间切换
+ae2stuff.wireless.advtool.noconnectors=队列中没有接入器。切换工具至队列模式并添加一些
+ae2stuff.wireless.advtool.pop=%s，%s，%s 已从队列中移除
 ae2stuff.wireless.tool.connected=已连接到 %s,%s,%s
 ae2stuff.wireless.tool.failed=连接失败
 ae2stuff.wireless.tool.dimension=两个接入器必须在相同维度

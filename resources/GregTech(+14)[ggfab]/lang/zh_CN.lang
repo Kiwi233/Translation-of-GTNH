@@ -1,0 +1,32 @@
+ggfab.recipe.toolcast=工具铸造
+
+ggfab.waila.advassline.slice=片#%s：%s s / %s s
+ggfab.waila.advassline.slice.small=片#%s：%s t / %s t
+ggfab.waila.advassline.slice.idle=片#%s：待机
+ggfab.waila.advassline.slice.stuck=片#%s：§4堵塞
+ggfab.gui.advassline.slice.idle=片#%s：待机
+ggfab.gui.advassline.slice.stuck=片#%s：§4堵塞
+ggfab.gui.advassline.slice.unknown=片#%s：?
+ggfab.gui.advassline.shutdown=§4上次异常关机原因：
+ggfab.gui.advassline.shutdown_clear=§6清除
+ggfab.gui.advassline.shutdown.input_busses=§4输入总线数量过少，无法支持当前配方
+ggfab.gui.advassline.shutdown.recipe_null=§4配方为 null （报告给作者）
+ggfab.gui.advassline.shutdown.fluid_null=§4流体获取失败（检查你的ME流体存储）
+ggfab.gui.advassline.shutdown.structure=§4不兼容的结构变化
+ggfab.gui.advassline.shutdown.energy=§4功率不足
+ggfab.gui.advassline.shutdown.load.energy=§4载入了无效的电力信息
+ggfab.gui.advassline.shutdown.load.recipe=§4不兼容的配方切换
+
+ggfab.info.linked_input_bus.not_owned=§6该设置是从其他所有者处复制而来!
+ggfab.info.linked_input_bus.no_data=§6找不到配置数据!
+ggfab.info.linked_input_bus.invalid_data=§6配置数据存在但已失效!
+ggfab.info.linked_input_bus.invalid_circuit=§6配置数据存在但包含对这个总线无效的电路板!
+ggfab.info.linked_input_bus.data_pasted=§2已粘贴频道 ("%s§2") 与编程电路设置!
+ggfab.info.linked_input_bus.data_copied=§2已复制频道 ("%s§2") 与编程电路设置!
+ggfab.info.linked_input_bus.no_channel=§6尚未指定频道!
+
+ggfab.info.biome=生物群系：
+
+ggfab.tooltip.linked_input_bus.change_freq_warn=若将频道上最后一个总线修改至其他频道，则该频道所有剩余物品将会溢出!
+ggfab.tooltip.linked_input_bus.private=私人频道不与他人共享.
+ggfab.tooltip.linked_input_bus.private.1=若将频道上最后一个总线修改至其他频道，则该频道所有剩余物品将会溢出!
