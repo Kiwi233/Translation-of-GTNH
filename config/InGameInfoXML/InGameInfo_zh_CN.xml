@@ -166,7 +166,29 @@
                     <str>$6虚空漫步者世界 $e(魔像密经)</str>
                     <str>$6废土世界 $e(GT++)</str>
                     <str>$6澳大利亚 $e(GT++)</str>
-                    <str/>
+                    <if>
+                        <and>
+                            <not>
+                                <and>
+                                    <greater>
+                                        <var>dimensionid</var>
+                                        <num>2</num>
+                                    </greater>
+                                    <less>
+                                        <var>dimensionid</var>
+                                        <num>25</num>
+                                    </less>
+                                </and>
+                            </not>
+                            <not>
+                                <greater>
+                                    <var>dimensionid</var>
+                                    <num>178</num>
+                                </greater>
+                            </not>
+                        </and>
+                        <str>{gold}{dimension}</str>
+                    </if>
                 </op>
                 <if>
                     <and>
@@ -209,16 +231,45 @@
                         <var>dimensionid</var>
                         <num>178</num>
                     </greater>
-                    <str>$6花园/虚空世界 $e({dimensionid})</str>
+                    <str>$6花园/虚空世界</str>
                 </if>
-            <str> {white}已加载区块数： {gold}{loadedchunks} </str>
+            <str> $e({dimensionid}) {white}已加载区块数： {gold}{loadedchunks} </str>
+        </line>
+        <line>
+            <icon>
+                <str>witchery:mooncharm</str>
+            </icon>
+            <str> 月相      ： </str>
+            <op>
+                <str>eq</str>
+                <modi>
+                    <var>day</var>
+                    <num>8</num>
+                </modi>
+                <num>0</num>
+                <num>1</num>
+                <num>2</num>
+                <num>3</num>
+                <num>4</num>
+                <num>5</num>
+                <num>6</num>
+                <num>7</num>
+                <str>{gold}满月 (月球白日)</str>
+                <str>{yellow}亏凸月 {gold}(月球白日)</str>
+                <str>{gray}下弦月 {gold}(月球白日)</str>
+                <str>{darkgray}残月 {gold}(月球白日)</str>
+                <str>{black}新月 {black}(月球黑夜)</str>
+                <str>{darkgray}娥眉月 {black}(月球黑夜)</str>
+                <str>{gray}上弦月 {black}(月球黑夜)</str>
+                <str>{yellow}盈凸月 {black}(月球黑夜)</str>
+            </op>
         </line>
         <line>
             <icon>
                 <str>minecraft:skull</str>
                 <num>4</num>
             </icon>
-            <str> 实体      ： {gold}{entitiesrendered}{white} 已显现 / {gold}{entitiestotal}{white} 已加载  </str>
+            <str> 实体      ： {gold}{entitiesrendered}{white} 已渲染 / {gold}{entitiestotal}{white} 已加载  </str>
         </line>
         <line>
             <icon>
@@ -709,7 +760,7 @@
 
                 <str>鲸鱼座T星E</str>
 
-                <str/>
+                <str> {darkaqua}{biome} {gold}</str>
             </op>
             <str> {gold}{localtemperature}{white}°F {gold}</str>
             <round>
@@ -744,7 +795,7 @@
                 <str>minecraft:compass</str>
                 <num>0</num>
             </icon>
-            <str> 区块坐标： X:{gold} {chunkx} {white}Z:{gold} {chunkz}{white} Off:  {gold}{chunkoffsetx} {white}:{gold} {chunkoffsetz} {white}</str>
+            <str> 区块坐标： X:{gold} {chunkx} {white}Z:{gold} {chunkz}{white} 偏移:  {gold}{chunkoffsetx} {white}:{gold} {chunkoffsetz} {white}</str>
             <str> Y: {gold}{yfeeti}{white} 面向 {gold}</str>
             <op>
                 <str>eq</str>
@@ -768,8 +819,8 @@
             </op>
             <str>$f</str>
             <if>
-                <var>slimechunk</var>
-                <str> {gold}史莱姆区块{white}</str>
+                <var>slimes</var>
+                <str> {darkgreen}史莱姆区块{white}</str>
             </if>
         </line>
         <line>
@@ -784,7 +835,7 @@
                 <str>{red}</str>
             </max>
             <var>light</var>
-            <str>{white} (立足处光照等级： </str>
+            <str>{white} (脚下: </str>
             <max>
                 <var>lightfeet</var>
                 <num>7.5</num>
@@ -1633,22 +1684,760 @@
             </concat>
             <str>$f</str>
         </line>
-
         <line>
-            <str>{black}</str>
         </line>
         <line>
             <if>
-                <var>snowing</var>
-                <str>  正在 {darkgreen}{underline}下雪{reset}</str>
+                <not>
+                <equal>
+                    <var>nextrain</var>
+                    <str>?</str>
+                </equal>
+                </not>
+                <if>
+                    <or>
+                        <equal>
+                            <var>raining</var>
+                            <str>true</str>
+                        </equal>
+                        <equal>
+                            <var>snowing</var>
+                            <str>true</str>
+                        </equal>
+                    </or>
+                    <if>
+                        <or>
+                            <greater>
+                                <var>localtemperature</var>
+                                <num>15</num>
+                            </greater>
+                            <equal>
+                                <var>localtemperature</var>
+                                <num>15</num>
+                            </equal>
+                        </or>
+                        <if>
+                            <equal>
+                                <var>thundering</var>
+                                <str>false</str>
+                            </equal>
+                            <concat>
+                                <icon>
+                                    <str>thaumcraft:textures/aspects/aqua.png</str>
+                                </icon>
+                                <str> 正在 {darkaqua}下雨{reset} - 预计还剩 {darkgreen}{nextrain}{reset}</str>
+                            </concat>
+                        </if>
+                        <if>
+                            <equal>
+                                <var>thundering</var>
+                                <str>true</str>
+                            </equal>
+                            <concat>
+                                <icon>
+                                    <str>thaumcraft:textures/aspects/aqua.png</str>
+                                </icon>
+                                <str> 正在 {darkaqua}下雨{reset} 并且 {gold}打雷{reset} - 预计还剩 {darkgreen}{nextrain}{reset} </str>
+                                <icon>
+                                    <str>thaumcraft:textures/aspects/tempestas.png</str>
+                                </icon>
+                            </concat>
+                        </if>
+                    </if>
+                </if>
             </if>
             <if>
-                <var>raining</var>
-                <str>  正在 {darkgreen}{underline}下雨{reset}</str>
+                <equal>
+                    <var>nextrain</var>
+                    <str>?</str>
+                </equal>
+                <if>
+                    <or>
+                        <equal>
+                            <var>raining</var>
+                            <str>true</str>
+                        </equal>
+                        <equal>
+                            <var>snowing</var>
+                            <str>true</str>
+                        </equal>
+                    </or>
+                    <if>
+                        <or>
+                            <greater>
+                                <var>localtemperature</var>
+                                <num>15</num>
+                            </greater>
+                            <equal>
+                                <var>localtemperature</var>
+                                <num>15</num>
+                            </equal>
+                        </or>
+                        <if>
+                            <equal>
+                                <var>thundering</var>
+                                <str>false</str>
+                            </equal>
+                            <concat>
+                                <icon>
+                                    <str>thaumcraft:textures/aspects/aqua.png</str>
+                                </icon>
+                                <str> 正在 {darkaqua}下雨{reset} - 未见变天迹象</str>
+                            </concat>
+                        </if>
+                        <if>
+                            <equal>
+                                <var>thundering</var>
+                                <str>true</str>
+                            </equal>
+                            <concat>
+                                <icon>
+                                    <str>thaumcraft:textures/aspects/aqua.png</str>
+                                </icon>
+                                <str> 正在 {darkaqua}下雨{reset} 并且 {gold}打雷{reset} - 未见变天迹象</str>
+                                <icon>
+                                    <str>thaumcraft:textures/aspects/tempestas.png</str>
+                                </icon>
+                            </concat>
+                        </if>
+                    </if>
+                </if>
             </if>
             <if>
-                <var>thundering</var>
-                <str> 并且是 {darkgreen}{u}暴风雨{reset}.</str>
+                <not>
+                <equal>
+                    <var>nextrain</var>
+                    <str>?</str>
+                </equal>
+                </not>
+                <if>
+                    <or>
+                        <equal>
+                            <var>raining</var>
+                            <str>true</str>
+                        </equal>
+                        <equal>
+                            <var>snowing</var>
+                            <str>true</str>
+                        </equal>
+                    </or>
+                    <if>
+                        <less>
+                            <var>localtemperature</var>
+                            <num>15</num>
+                        </less>
+                        <if>
+                            <equal>
+                                <var>thundering</var>
+                                <str>false</str>
+                            </equal>
+                            <concat>
+                                <icon>
+                                    <str>thaumcraft:textures/aspects/gelum.png</str>
+                                </icon>
+                                <str> 正在 {darkaqua}下雪{reset} - 预计还剩 {darkgreen}{nextrain}{reset}</str>
+                            </concat>
+                        </if>
+                        <if>
+                            <equal>
+                                <var>thundering</var>
+                                <str>true</str>
+                            </equal>
+                            <concat>
+                                <icon>
+                                    <str>thaumcraft:textures/aspects/gelum.png</str>
+                                </icon>
+                                <str> 正在 {darkaqua}下雪{reset} 并且 {gold}打雷{reset} - 预计还剩 {darkgreen}{nextrain}{reset} </str>
+                                <icon>
+                                    <str>thaumcraft:textures/aspects/tempestas.png</str>
+                                </icon>
+                            </concat>
+                        </if>
+                    </if>
+                </if>
+            </if>
+            <if>
+                <equal>
+                    <var>nextrain</var>
+                    <str>?</str>
+                </equal>
+                <if>
+                    <or>
+                        <equal>
+                            <var>raining</var>
+                            <str>true</str>
+                        </equal>
+                        <equal>
+                            <var>snowing</var>
+                            <str>true</str>
+                        </equal>
+                    </or>
+                    <if>
+                        <less>
+                            <var>localtemperature</var>
+                            <num>15</num>
+                        </less>
+                        <if>
+                            <equal>
+                                <var>thundering</var>
+                                <str>false</str>
+                            </equal>
+                            <concat>
+                                <icon>
+                                    <str>thaumcraft:textures/aspects/gelum.png</str>
+                                </icon>
+                                <str> 正在 {darkaqua}下雪{reset} - 未见变天迹象</str>
+                            </concat>
+                        </if>
+                        <if>
+                            <equal>
+                                <var>thundering</var>
+                                <str>true</str>
+                            </equal>
+                            <concat>
+                                <icon>
+                                    <str>thaumcraft:textures/aspects/gelum.png</str>
+                                </icon>
+                                <str> 正在 {darkaqua}下雪{reset} 并且 {gold}打雷{reset} - 未见变天迹象</str>
+                                <icon>
+                                    <str>thaumcraft:textures/aspects/tempestas.png</str>
+                                </icon>
+                            </concat>
+                        </if>
+                    </if>
+                </if>
+            </if>
+            <if>
+                <or>
+                    <equal>
+                        <var>biome</var>
+                        <str>Storage Cell</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Hot Ocean</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Desert Oil Field</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Sky</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Hot Forest</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Pocket Plane</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Hot Desert</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Hot River</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Hot Plains</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Desert</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Desert M</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Savanna</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Savanna M</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Savanna Plateau</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Savanna Plateau M</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Mesa</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Mesa (Bryce)</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Mesa Plateau</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Mesa Plateau F</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Mesa Plateau F M</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Mesa Plateau F M</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Space</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Venus</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>moon</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>marsFlat</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>asteroids</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Io</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>IoAsh</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Titan</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Pluto</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Pluto2</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Pluto3</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>Pluto4</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>BarnardaCFlowers</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>BarnardaCHills</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>BarnardaCLowPlains</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>BarnardaCOceans</str>
+                    </equal>
+                    <equal>
+                        <var>biome</var>
+                        <str>BarnardaCShores</str>
+                    </equal>
+                </or>
+                <concat>
+                    <icon>
+                        <str>thaumcraft:textures/aspects/aer.png</str>
+                    </icon>
+                    <str> 这个 {darkgreen}生物群落{reset} 没有 {aqua}降水{reset}</str>
+                </concat>
+            </if>
+            <if>
+                <not>
+                <equal>
+                    <var>nextrain</var>
+                    <str>?</str>
+                </equal>
+                </not>
+                <if>
+                    <and>
+                        <equal>
+                            <var>raining</var>
+                            <str>false</str>
+                        </equal>
+                        <equal>
+                            <var>snowing</var>
+                            <str>false</str>
+                        </equal>
+                        <equal>
+                            <var>thundering</var>
+                            <str>false</str>
+                        </equal>
+                        <not>
+                            <or>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Storage Cell</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Ocean</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Desert Oil Field</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Sky</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Forest</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pocket Plane</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Desert</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot River</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Plains</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Desert</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Desert M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna Plateau</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna Plateau M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa (Bryce)</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau F</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau F M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau F M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Space</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Venus</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>moon</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>marsFlat</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>asteroids</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Io</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>IoAsh</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Titan</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto2</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto3</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto4</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCFlowers</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCHills</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCLowPlains</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCOceans</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCShores</str>
+                                </equal>
+                            </or>
+                        </not>
+                    </and>
+                    <concat>
+                        <icon>
+                            <str>thaumcraft:textures/aspects/tempestas.png</str>
+                        </icon>
+                        <str> 天气晴朗 - 预计 {darkgreen}{nextrain}{reset} 后 {aqua}变天{reset}</str>
+                    </concat>
+                </if>
+            </if>
+            <if>
+                <equal>
+                    <var>nextrain</var>
+                    <str>?</str>
+                </equal>
+                <if>
+                    <and>
+                        <equal>
+                            <var>raining</var>
+                            <str>false</str>
+                        </equal>
+                        <equal>
+                            <var>snowing</var>
+                            <str>false</str>
+                        </equal>
+                        <equal>
+                            <var>thundering</var>
+                            <str>false</str>
+                        </equal>
+                        <not>
+                            <or>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Storage Cell</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Ocean</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Desert Oil Field</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Sky</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Forest</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pocket Plane</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Desert</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot River</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Plains</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Desert</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Desert M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna Plateau</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna Plateau M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa (Bryce)</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau F</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau F M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau F M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Space</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Venus</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>moon</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>marsFlat</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>asteroids</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Io</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>IoAsh</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Titan</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto2</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto3</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto4</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCFlowers</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCHills</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCLowPlains</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCOceans</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCShores</str>
+                                </equal>
+                            </or>
+                        </not>
+                    </and>
+                    <concat>
+                        <icon>
+                            <str>thaumcraft:textures/aspects/tempestas.png</str>
+                        </icon>
+                        <str> 天气晴朗 - 没有 {aqua}降水{reset} 的迹象</str>
+                    </concat>
+                </if>
             </if>
         </line>
         <line>
