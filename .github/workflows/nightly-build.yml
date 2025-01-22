@@ -41,7 +41,7 @@ jobs:
 
       - name: Run Packaging Script
         run: |
-          python repo/.github/scripts/pack.py
+          python .github/scripts/pack.py
           rm temp/GregTech_US.lang
 
       - name: Zip Output
