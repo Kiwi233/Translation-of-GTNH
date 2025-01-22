@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 1
           token: ${{ secrets.GH_TOKEN }}
 
-- name: Verify pack.py Exists
+      - name: Verify pack.py Exists
         run: ls -lah .github/scripts/
 
       - name: Setup Datetime Related Envs
