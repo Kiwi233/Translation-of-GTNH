@@ -5,10 +5,6 @@ on:
   schedule:
     - cron: '0 18 * * *'  # 中国时间凌晨 2 点
 
-env:
-  GIT_AUTHOR: Ruikoto <30781137+Ruikoto@users.noreply.github.com>
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 jobs:
   nightly-build:
     name: Nightly Build
@@ -17,11 +13,9 @@ jobs:
       - name: Checkout Forked Repo
         uses: actions/checkout@v3
         with:
-          repository: GTNH-UCN/Translation-of-GTNH
-          ref: main
-          fetch-depth: 1
-          token: ${{ secrets.GH_TOKEN }}
-
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+          
       - name: Verify pack.py Exists
         run: ls -lah .github/scripts/
 
