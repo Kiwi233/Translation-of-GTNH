@@ -3,8 +3,7 @@ name: Nightly Build
 on:
   workflow_dispatch:
   schedule:
-    # 中国时间每天凌晨 2 点
-    - cron: '0 18 * * *'
+    - cron: '0 18 * * *'  # 中国时间凌晨 2 点
 
 env:
   GIT_AUTHOR: Ruikoto <30781137+Ruikoto@users.noreply.github.com>
@@ -15,12 +14,16 @@ jobs:
     name: Nightly Build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Upstream Repo
+      - name: Checkout Forked Repo
         uses: actions/checkout@v3
         with:
-          repository: MuXiu1997/GTNH-translation-compare
+          repository: GTNH-UCN/Translation-of-GTNH
           ref: main
+          path: repo
           token: ${{ secrets.GH_TOKEN }}
+
+      - name: Verify pack.py Exists
+        run: ls -lah .github/scripts/
 
       - name: Setup Datetime Related Envs
         shell: python
@@ -35,22 +38,19 @@ jobs:
               print(f'NB_TAG=0-nightly-build/{local_date}', file=f)
 
       - name: Ensure Temp & Assets Directories
+        working-directory: repo
         run: |
           mkdir -p temp
           mkdir -p assets
 
-      - name: Verify pack.py Exists
-        run: ls -lah .github/scripts/
-
       - name: Run Packaging Script
-        run: |
-          python .github/scripts/pack.py
-          rm temp/GregTech_US.lang
+        run: python .github/scripts/pack.py
 
       - name: Zip Output
+        working-directory: repo
         uses: edgarrc/action-7z@v1
         with:
-          args: 7z a -t7z -mx=9 ./repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z ./temp/*
+          args: 7z a -t7z -mx=9 ./assets/nightly-${{ env.NB_LOCAL_DATE }}.7z ./temp/*
 
       - name: Push tag
         working-directory: repo
@@ -75,27 +75,3 @@ jobs:
             自动构建于 ${{ env.NB_LOCAL_DATE }} ${{ env.NB_LOCAL_TIME }}
           files: |
             ./repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z
-
-  cleanup-outdated-nightly-builds:
-    name: Cleanup Outdated Nightly Builds
-    runs-on: ubuntu-latest
-    steps:
-      - name: Cleanup Old Releases
-        uses: MuXiu1997/run-zx@v0.2.1
-        with:
-          script: |
-            import * as core from '@actions/core'
-            
-            const repo = '${{ github.repository }}'
-            const listReleases = await $`gh release list --repo ${repo}`
-            const tags = listReleases.stdout.trim().split('\n')
-                .map(r => r.split('\t')[2])
-                .filter(t => t.startsWith('0-nightly-build'))
-                .filter(t => t !== '${{ env.NB_TAG }}')
-            const tagsToDelete = [...new Set(tags)].sort().slice(0, -2)
-            
-            core.info(`Tags to delete: [${tagsToDelete.join(', ')}]`)
-            
-            for (const tag of tagsToDelete) {
-                await $`gh release delete ${tag} --repo ${repo} --yes`
-            }
