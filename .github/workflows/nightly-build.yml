@@ -19,11 +19,11 @@ jobs:
         with:
           repository: GTNH-UCN/Translation-of-GTNH
           ref: main
-          path: repo
+          fetch-depth: 1
           token: ${{ secrets.GH_TOKEN }}
 
-      - name: Verify pack.py Exists
-        run: ls -lah repo/.github/scripts/
+- name: Verify pack.py Exists
+        run: ls -lah .github/scripts/
 
       - name: Setup Datetime Related Envs
         shell: python
@@ -39,20 +39,18 @@ jobs:
 
       - name: Ensure Temp & Assets Directories
         run: |
-          mkdir -p repo/temp
-          mkdir -p repo/assets
+          mkdir -p temp
+          mkdir -p assets
 
       - name: Run Packaging Script
-        working-directory: repo
         run: python .github/scripts/pack.py
 
       - name: Zip Output
         uses: edgarrc/action-7z@v1
         with:
-          args: 7z a -t7z -mx=9 repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z repo/temp/*
+          args: 7z a -t7z -mx=9 ./assets/nightly-${{ env.NB_LOCAL_DATE }}.7z ./temp/*
 
       - name: Push tag
-        working-directory: repo
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
@@ -73,4 +71,4 @@ jobs:
             
             自动构建于 ${{ env.NB_LOCAL_DATE }} ${{ env.NB_LOCAL_TIME }}
           files: |
-            repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z
+            ./assets/nightly-${{ env.NB_LOCAL_DATE }}.7z
