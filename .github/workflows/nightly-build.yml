@@ -20,7 +20,7 @@ jobs:
           repository: GTNH-UCN/Translation-of-GTNH
           ref: main
           path: repo
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Verify pack.py Exists
         run: ls -lah repo/.github/scripts/
@@ -33,9 +33,9 @@ jobs:
           local_date = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
           local_time = datetime.now(timezone(timedelta(hours=8))).strftime("%H:%M:%S")
           with open(os.environ['GITHUB_ENV'], 'a') as f:
-              print(f'NB_LOCAL_DATE=${local_date}', file=f)
-              print(f'NB_LOCAL_TIME=${local_time}', file=f)
-              print(f'NB_TAG=0-nightly-build/${local_date}', file=f)
+              print(f'NB_LOCAL_DATE={local_date}', file=f)
+              print(f'NB_LOCAL_TIME={local_time}', file=f)
+              print(f'NB_TAG=0-nightly-build/{local_date}', file=f)
 
       - name: Ensure Temp & Assets Directories
         run: |
@@ -43,16 +43,17 @@ jobs:
           mkdir -p repo/assets
 
       - name: Run Packaging Script
-        run: python repo/.github/scripts/pack.py
+        working-directory: repo
+        run: python .github/scripts/pack.py
 
       - name: Zip Output
         uses: edgarrc/action-7z@v1
         with:
-          args: 7z a -t7z -mx=9 ./repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z ./repo/temp/*
+          args: 7z a -t7z -mx=9 repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z repo/temp/*
 
       - name: Push tag
+        working-directory: repo
         run: |
-          cd repo
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git checkout --orphan temp
@@ -72,4 +73,4 @@ jobs:
             
             自动构建于 ${{ env.NB_LOCAL_DATE }} ${{ env.NB_LOCAL_TIME }}
           files: |
-            ./repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z
+            repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z
