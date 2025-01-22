@@ -20,7 +20,7 @@ jobs:
           repository: GTNH-UCN/Translation-of-GTNH
           ref: main
           path: repo
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Verify pack.py Exists
         run: ls -lah repo/.github/scripts/
