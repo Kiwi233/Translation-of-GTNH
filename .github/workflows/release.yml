@@ -30,7 +30,7 @@ jobs:
       - name: Add NotEnoughCharacters
         uses: wei/wget@v1
         with:
-          args: -O assets/NotEnoughCharacters-1.7.10-1.4.3.jar https://github.com/Kiwi233/Translation-of-GTNH/raw/NotEnoughCharacters/NotEnoughCharacters-1.7.10-1.4.3.jar
+          args: -O assets/NotEnoughCharacters-1.6.1.jar https://github.com/Kiwi233/Translation-of-GTNH/raw/NotEnoughCharacters/NotEnoughCharacters-1.6.1.jar
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
@@ -39,4 +39,4 @@ jobs:
             请阅读主页ReadMe以获知详细用法
           files: |
             ./assets/${{ github.ref_name }}.7z
-            ./assets/NotEnoughCharacters-1.7.10-1.4.3.jar
+            ./assets/NotEnoughCharacters-1.6.1.jar
