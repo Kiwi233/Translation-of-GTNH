@@ -1,6 +1,5 @@
 #Tips for the loading screen
-#
-#Thanks to 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, Lewissaber, Nvidiot, Regian24, richardhendricks, yukieiji and others for tip suggestions
+#Thanks to 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, LewisSaber, Nvidiot, Regian24, richardhendricks, yukieiji and others for tip suggestions
 #
 #Maximal characters for a tip: 77 (more can go out of the screen)
 #The line below, including the "#" are 77 chars
@@ -8,10 +7,9 @@
 #
 发现汉化问题请到 https://github.com/Kiwi233/Translation-of-GTNH/issues 反馈
 原版无限水默认禁用
-遇到了问题?加入我们的Discord服务器吧: discord.com/invite/EXshrPV
 远离0lafe
 别在午夜后喂食你的机器!
-请确保你安装了备份mod
+别担心，ServerUtilities负责备份
 拆卸管道时要求合适的工具材料等级
 如果机器着火了, 它就会爆炸
 向干烧的锅炉内加水会发出一声巨响!
@@ -23,7 +21,7 @@
 双持栏用于携带武器非常方便
 不戴手套搬运岩浆会很痛!
 注意食物的多样性, 多次食用同种食物, 回复饱食度将逐渐降低
-战利品袋提供了不少有用的奖励
+LootGames提供了不少有用的奖励
 使用太多传送器(重力装甲)会降低TPS
 鼠标上的快捷键很方便
 别让机器的任何相邻面淋雨!
@@ -51,11 +49,12 @@
 注意污染!
 发现bug? 请在GitHub反馈
 匠魂的冶炼炉无法获得双倍矿物
-查阅wiki/mcmod是好习惯: gtnh.miraheze.org
+查阅wiki/mcmod是好习惯: gtnh.huijiwiki.com
+英文wiki：gtnh.miraheze.org
 混沌魔晶和钒钢制成的镐或锤非常非常快
 寻找矿脉的中心区块
 削弱来袭!
-矿莓可以种植在作物架上
+矿莓可以种植在作物架上，但是要注意亮度等级
 IC2作物可以根据生物群系获得额外的环境数据加成
 杂草会蔓延到空的作物架上并破坏其他作物
 使用机器外壳或矢量变换接口来简化机器访问
@@ -63,10 +62,9 @@ IC2作物可以根据生物群系获得额外的环境数据加成
 使用木炭堆制成的易碎的木炭块, 可以通过时运附魔进行增产
 留意机器的电压以及线缆内的电流!
 扭曲可不好玩, 你的基地刷出凋灵了没?
-目前共有16个电压等级: 从ULV(8V)到MAX(2147483647V)
+目前共有16个电压等级: 从LV(32V)到MAX(2147483647V)
 每提升一个电压等级, 意味着电压需求变为原来的4倍
-前十个电压等级已经完善
-对准GT方块放置线缆/管道/等等, 可自动连接
+对准GT方块右键放置线缆/管道/等等, 可自动连接
 请阅读任务书, 其中介绍了许多机制与技巧
 你可以在NEI添加书签(默认按键为"a")
 这里是NEI, 不是JEI. 好好运用它吧.
@@ -77,7 +75,7 @@ Noooooooooooooooo! (超净间爆炸后) - moronwmachinegun
 如果不是太贵的话 - tsutaaja
 笨蛋！当你的背包中有贵重物品时不要升级它，不要问我是怎么知道的! - DreamMasterXXL
 有一清单的事儿需要做 - Chaotick
-这个mod很F*ck复杂 - LogicFalls
+这个mod很TM复杂 - LogicFalls
 鲜血、汗水和升级 - Codewarrior0
 别再搞这种烦人的sh*t线了  - Chewy
 资源永远不够 - moronwmachinegun
@@ -94,7 +92,7 @@ GTNH你永远不会失败, 而我永远爱你 - Elusive Ent
 如果你是非酋, 那就把战利品袋打上时运III再开吧!
 与普通暮色不同, GTNH的暮色传送门需要特殊开启媒介.
 将鼠标悬停在NEI中的某个物品上, 并按下T键即可查看它在世界中的位置.
-电路组装机生产的电路板更加廉价!(IV以后除外)
+电路组装机生产的电路板更加廉价!
 超净间中生产的电路板更加廉价!
 GT=Grind(折磨)和Tedium(枯燥)
 晚上别出门! 怪物的血量可以达到300HP!
@@ -103,11 +101,11 @@ GT=Grind(折磨)和Tedium(枯燥)
 请保持消声仓向外
 如果消声仓不指向天空的话, 你的工业高炉就不会工作!
 吃太多同种食物会让你厌恶它!
-发射火箭之前记得检查上方航路是否有云!
+#发射火箭之前记得检查上方航路是否有云!
 将你的原版知识全部忘掉!
 借助航空胶带的力量, 我可以将你的维护问题全部解决!
 打开暮色传送门时会被雷击
-遇到怪物, 走为上计, 不要跟它死磕
+#遇到怪物, 走为上计, 不要跟它死磕
 有时候最好的战略是 "战略转移!"
 可在机器的电池槽内放置电池为其供电
 你可以将喷气背包放入LV机器的电池槽内充电
@@ -127,17 +125,17 @@ GT=Grind(折磨)和Tedium(枯燥)
 如果你制造了一个庞大的Project Red(红石计划)系统, 那么请务必再造个抽屉墙!
 你一生中制造了多少电路板?
 Journeymap(旅行地图): 请按[J]
-非Vazkii(多个mod的作者)
+不是Vazkii制作的整合包(多个mod的作者)
 根号(-1)爱你哦!
-(MultiMC > Curse) && (Technic > Curse): true
-你所要做的就是遵循该死的任务线!
+((MultiMC | Prism) > Curse) && (Technic > Curse) == true
+你所做的一切，就是为了跟着那该死的任务线，CJ!
 单击任务书中的物品即可在NEI中显示其合成表
 GT天下第一! 我们有...微加工!
 线缆是 | || || |_ y
 多吃不同种类的食物可以提升血量上限!
 你可以输入/ingame configs指令来更改左上角的提示信息外观
 在下界寻找硫
-游戏机制数据表: bit.ly/gtnh-datasheets
+游戏机制数据表: www.gtnewhorizons.com/spreadsheet
 如果你觉得枯燥乏味, 那一定是你的打开方式不对
 你会不会在烘焙食物时盯着烤炉呢?
 等待时总有些其他事可以做
@@ -148,15 +146,18 @@ F3 + S 即可重载声音
 玩线缆时, 请勿将机器放在快捷栏中
 连接HV线缆时. 不小心放下了MV刻蚀机... - Lewissaber
 1阶火箭飞行中按下了shift键... - Regian
-Visit r/feedthememes!
+访问r/feedthememes!
 我要火箭！我要登月！ - St4o
 Shift + 右键GT覆盖板可打开其GUI
 在找蕴魔石? 试试在寻矿魔杖中放块琥珀矿石吧
 使用撬棍移除机器上的覆盖板
 想要按比例分流物品? 请使用物品分配器.并用螺丝刀进行配置
-Houston在此.
-Bot在此.
-Alphanova是个抄袭者!
-Jackowski更像perogi amirite
-UwU
 保持比DreamMasterXXL高一个电压等级!
+你可以把红石放入机器的电池槽内来供电
+UwU
+从HV到MV, yes - Threefold
+小猫爸爸对员工没有权力 - boubou_19
+尝试下载更多RAM
+尝试下载更多WAM
+物品错位器比你想象的要快!
+请勿食用光缆
