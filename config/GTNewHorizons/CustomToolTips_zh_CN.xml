@@ -443,116 +443,116 @@
 	<ToolTip ItemName="bartworks:bw.blockores.01:10023" ToolTip="§3请查看冲压机床中的板配方" NBT=""/>
 
 //Bee housings
-	<ToolTip ItemName="Forestry:apiculture" ToolTip="Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (additive, starts at -0.9 for the apiary),\nt is 1 for the apiary, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half base" NBT=""/>
-	<ToolTip ItemName="Forestry:apiculture:2" ToolTip="Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (always -0.75 for the bee house),\nt is 1 for the bee house, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half\nBees cannot mutate in the bee house" NBT=""/>
-	<ToolTip ItemName="Forestry:alveary" ToolTip="Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (additive, starts at 0 for the alveary),\nt is 1 for the alveary, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half" NBT=""/>
-	<ToolTip ItemName="MagicBees:magicApiary" ToolTip="Effective production chance as a percent is\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\nwhere b is the base production chance as a percent,\np is the production modifier (additive, starts at -0.1 for the magic apiary),\nt is 1 for the magic apiary, and\ns is the speed value for the bee\nOutputs are generated at the end of every bee tick (27.5 seconds)\nPrimary outputs are rolled once with base chance, once with half\nWhen boosted, base p becomes 0.8, Mutation: 2x, Lifespan: 0.5x" NBT=""/>
-	<ToolTip ItemName="MagicBees:manaAuraProvider" ToolTip="Must be within 6 blocks of magic apiary" NBT=""/>
-	<ToolTip ItemName="MagicBees:visAuraProvider" ToolTip="Must be within 6 blocks of magic apiary" NBT=""/>
+	<ToolTip ItemName="Forestry:apiculture" ToolTip="有效产出概率(百分比)为\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\n其中b为基础产出概率(百分比),\np为产出修正(在蜂箱中以-0.9为基础值加算),\nt在蜂箱中为1,\ns为蜜蜂的工作速度\n产物在每个蜜蜂刻(27.5秒)结束时输出\n基础产物以产出概率进行一次判定,再以一半的概率进行一次判定" NBT=""/>
+	<ToolTip ItemName="Forestry:apiculture:2" ToolTip="有效产出概率(百分比)为\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\n其中b为基础产出概率(百分比),\np为产出修正(在简易蜂房中始终为-0.75),\nt在简易蜂房中为1,\ns为蜜蜂的工作速度\n产物在每个蜜蜂刻(27.5秒)结束时输出\n基础产物以产出概率进行一次判定,再以一半的概率进行一次判定\n蜜蜂在简易蜂房中不会发生变异" NBT=""/>
+	<ToolTip ItemName="Forestry:alveary" ToolTip="有效产出概率(百分比)为\n2.8 * b^0.52 * (p + t)^0.52 * s^0.37\n其中b为基础产出概率(百分比),\np为产出修正(在蜂箱组中以0为基础值加算),\nt在蜂箱组中为1,\ns为蜜蜂的工作速度\n产物在每个蜜蜂刻(27.5秒)结束时输出\n基础产物以产出概率进行一次判定,再以一半的概率进行一次判定" NBT=""/>
+	<ToolTip ItemName="MagicBees:magicApiary" ToolTip="其中b为基础产出概率(百分比),\np为产出修正(在魔法蜂箱中以-0.1为基础值加算),\nt在魔法蜂箱中为1,\ns为蜜蜂的工作速度\n产物在每个蜜蜂刻(27.5秒)结束时输出\n基础产物以产出概率进行一次判定,再以一半的概率进行一次判定\n当启用增幅时,p变为0.8, 突变率: 2x, 寿命: 0.5x" NBT=""/>
+	<ToolTip ItemName="MagicBees:manaAuraProvider" ToolTip="必须放置在魔法蜂箱的6格以内" NBT=""/>
+	<ToolTip ItemName="MagicBees:visAuraProvider" ToolTip="必须放置在魔法蜂箱的6格以内" NBT=""/>
 
 //Bee Gene Samples
 //Note to future editors: in XML the way to "escape" double quotes is to put them in single-quoted strings.  It's also possible to use the entity escape sequence &quot; or
 //unicode escape sequence \u0022.  \" is right out.  Be very warned that entity escape sequences are even parsed in (at least these nonstandard) comments, so misspelling an
 //XML entity name will result in the CustomToolTips module failing to load
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 1.2 (1.07x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedFast"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 1.4 (1.13x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedFaster"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 1.7 (1.22x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedFastest"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 1.0 (1.0x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedNormal"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 0.8 (0.92x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedSlow"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 0.6 (0.83x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedSlower"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 0.3 (0.64x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedSlowest"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Speed: 2.0 (1.29x production overall)" NBT='{species: "rootBees", chromosome: 1, allele: "magicbees.speedBlinding"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 45 (31:10.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanElongated"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 50 (34:22.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanLong"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 60 (41:15.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanLonger"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 70 (48:07.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanLongest"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 40 (27:30.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanNormal"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 30 (20:37.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShort"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 35 (24:17.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShortened"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 20 (13:45.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShorter"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 10 (6:52.5 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShortest"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Base Bee Ticks: 600 (6:52:30.0 after beekeeping mode)" NBT='{species: "rootBees", chromosome: 2, allele: "gregtech.lifeEon"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Flower Search / Effect: 9x6x9\nFlower Spread / Pollination: 27x18x27" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryAverage"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Flower Search / Effect: 11x8x11\nFlower Spread / Pollination: 33x24x33" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryLarge"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Flower Search / Effect: 13x12x13\nFlower Spread / Pollination: 39x36x39" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryLarger"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Flower Search / Effect: 15x13x15\nFlower Spread / Pollination: 45x39x45" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryLargest"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Turns dirt blocks into sand" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.acid"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="速度: 1.2 (1.07x总产出)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedFast"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="速度: 1.4 (1.13x总产出)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedFaster"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="速度: 1.7 (1.22x总产出)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedFastest"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="速度: 1.0 (1.0x总产出)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedNormal"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="速度: 0.8 (0.92x总产出)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedSlow"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="速度: 0.6 (0.83x总产出)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedSlower"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="速度: 0.3 (0.64x总产出)" NBT='{species: "rootBees", chromosome: 1, allele: "forestry.speedSlowest"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="速度: 2.0 (1.29x总产出)" NBT='{species: "rootBees", chromosome: 1, allele: "magicbees.speedBlinding"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="基础寿命: 45蜜蜂刻 (计算养蜂模式后为 31:10.0)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanElongated"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="基础寿命: 50蜜蜂刻 (计算养蜂模式后为 34:22.5)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanLong"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="基础寿命: 60蜜蜂刻 (计算养蜂模式后为 41:15.0)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanLonger"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="基础寿命: 70蜜蜂刻 (计算养蜂模式后为 48:07.5)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanLongest"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="基础寿命: 40蜜蜂刻 (计算养蜂模式后为 27:30.0)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanNormal"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="基础寿命: 30蜜蜂刻 (计算养蜂模式后为 20:37.5)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShort"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="基础寿命: 35蜜蜂刻 (计算养蜂模式后为 24:17.5)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShortened"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="基础寿命: 20蜜蜂刻 (计算养蜂模式后为 13:45.0)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShorter"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="基础寿命: 10蜜蜂刻 (计算养蜂模式后为 6:52.5)" NBT='{species: "rootBees", chromosome: 2, allele: "forestry.lifespanShortest"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="基础寿命: 600蜜蜂刻 (计算养蜂模式后为 6:52:30.0)" NBT='{species: "rootBees", chromosome: 2, allele: "gregtech.lifeEon"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="寻找花朵/特效: 9x6x9\n种花/授粉: 27x18x27" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryAverage"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="寻找花朵/特效: 11x8x11\n种花/授粉: 33x24x33" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryLarge"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="寻找花朵/特效: 13x12x13\n种花/授粉: 39x36x39" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryLarger"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="寻找花朵/特效: 15x13x15\n种花/授粉: 45x39x45" NBT='{species: "rootBees", chromosome: 12, allele: "forestry.territoryLargest"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="将泥土方块转变为沙子" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.acid"}'/>
     // note: this is supposed to spawn fireworks on certain devs' birthdays, but it accidentally copies the effect of fireworks instead
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns fireworks (color dependent on bee color)" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.birthday"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players blindness" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.blindness"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip='Bonemeals forestry/extratrees tree "fruits"' NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.bonemeal_fruit"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Bonemeals vanilla mushrooms" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.bonemeal_mushroom"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Bonemeals saplings" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.bonemeal_sapling"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns randomthings ectoplasms" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.ectoplasm"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns fireworks (color dependent on bee color)" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.fireworks"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players jump boost" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.gravity"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Sets players' saturation and hunger to zero" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.hunger"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns semi-real lightning strikes\n(damage entities and light fires\nbut don't activate lightning generators)" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.lightning"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns falling fire charges" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.meteor"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Adds 5 RF at a time to RF receivers" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.power"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Deals damage very quickly" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.radioactive"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players slowness" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.slow"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns creepers in low light.\nNot to be confused with Creeper, a separate effect" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.spawn_creeper"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns skeletons in low light" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.spawn_skeleton"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns zombies and angry zombies in low light" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.spawn_zombie"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Randomly teleport mobs/players a short distance" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.teleport"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Adds 100mb of water to a nearby tank at random, very slow intervals" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.water"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="产生烟火(颜色取决于蜜蜂颜色)" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.birthday"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为玩家施加致盲效果" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.blindness"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip='催熟forestry/extratrees的树木"果实"' NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.bonemeal_fruit"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="催熟原版蘑菇" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.bonemeal_mushroom"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="催熟树苗" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.bonemeal_sapling"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成randomthings的灵气" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.ectoplasm"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="产生烟火(颜色取决于蜜蜂颜色)" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.fireworks"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为玩家施加跳跃提升效果" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.gravity"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="将玩家的饥饿值和饱食度设为0" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.hunger"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="产生仿真闪电\n(伤害生物并产生火焰\n但不会触发避雷针)" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.lightning"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="产生坠落的火焰弹" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.meteor"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="每次为能接受RF的方块添加5RF" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.power"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="快速造成伤害" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.radioactive"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为玩家施加缓慢效果" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.slow"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="在低亮度下生成爬行者.\n不要和爬行者(另一个特殊效果)弄混" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.spawn_creeper"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="在低亮度下生成骷髅" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.spawn_skeleton"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="在低亮度下生成僵尸和红眼僵尸" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.spawn_zombie"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="将玩家和生物随机短距离传送" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.teleport"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="以很慢的随机间隔向周围的储罐中添加100mb水" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.water"}'/>
     // note: unclear if this is supposed to actually deal damage, but it doesn't
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Applies wither fx, but no damage" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.wither"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Deals damage (slowest damaging trait)" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectAggressive"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players regeneration" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectBeatific"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Causes fake creeper explosions centered on players.\nThese don't damage blocks but do deal a lot of damage\nthat bypasses normal armor.\nNot to be confused with Creepers, a separate effect" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectCreeper"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players nausea" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectDrunkard"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players xp" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectExploration"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Add random ticks to plants in range\n(does not work on IC2 crops)" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectFertile"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="施加凋零效果, 但不造成伤害" NBT='{species: "rootBees", chromosome: 13, allele: "extrabees.effect.wither"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="造成伤害(最慢的伤害速度)" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectAggressive"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为玩家施加生命回复效果" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectBeatific"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="以玩家为中心产生虚假的爬行者爆炸.\n不会破坏方块, 但会造成很高的伤害\n这种伤害会穿透一般的盔甲.\n不要和生成爬行者(另一种特殊效果)搞混" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectCreeper"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为玩家施加反胃效果" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectDrunkard"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为玩家增加经验值" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectExploration"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="对范围内的植物施加随机刻\n(对IC2作物无效)" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectFertile"}'/>
     // note: probably a bug: fireworks should be easter colored, whatever that means (pink, yellow, and green?)
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns fireworks rockets with no shape, color, or trail set" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectFestiveEaster"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Turns water into ice" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectGlacial"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Attacks monsters" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectHeroic"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Sets players on fire" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectIgnition"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players poison" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectMiasmic"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Deals large amounts of damage" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectMisanthropic"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts grass and sky-exposed dirt to mycelium,\nforce grows vanilla mushrooms (directly invokes big mushroom gen,\nskips bonemeal), and converts cows to mooshrooms" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectMycophilic"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectNone"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does damage (slower than unstable) and breaks blocks\nanywhere in the queen's territory except the central block,\nnor vanilla forestry bee housing blocks.  Notably will break\nextrabees/magicbees bee housing blocks" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectRadioactive"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns skeletons, blazes, or zombies if their drops are present" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectReanimation"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Adds an AI task to mobs to avoid players" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectRepulsion"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns creepers, endermen, spiders, cave spiders, ghasts,\nor ender dragons if their drops are present" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectResurrection"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Creates cosmetic snow fx" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectSnowing"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts saplings to BarnardaC saplings under certain conditions:\n1) the sapling must be suitably magical\n(a Tree of Transformation Sapling from a dungeon atop a twilight oak should do)\n2) the dimension must also be magically active\n(try in the Spectre, Bedrock, Last Millenium, or Pocket Plane)" NBT='{species: "rootBees", chromosome: 13, allele: "gregtech.effectTreetwister"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns Ars Magica Wisps or\nHecates if Ars Magica is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectAMWisp"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns blazes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectAblaze"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns bats and firebats" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectBatty"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns cows" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectBovine"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns angry zombies" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectBrainy"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns wolves" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCanine"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns ocelots" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCatty"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns chickens" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectChicken"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts stone -> cobblestone -> moss stone,\nstone bricks -> cracked stone bricks -> mossy stone bricks,\ngravel -> sand, and\ncobblestone walls -> mossy cobblestone walls" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCrumbling"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Cures players of potion effects" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCurative"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players haste\nSadly it will not dig a hole for you" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectDigSpeed"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts stone -> livingrock and logs -> livingwood" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectDreaming"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns ghasts" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectGhastly"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns horses" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectHorse"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players invisibility" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectInvisibility"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns mana creepers/mana vortices if Ars Magica is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectManaDrain"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players swiftness" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectMoveSpeed"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Adds random aspects to nodes, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeEmpower"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Removes special types besides pure from nodes,\nand makes normal nodes pure, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodePurifying"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Removes special types besides hungry from nodes,\nand makes normal nodes hungry, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeRavening"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Upgrades nodes fading -> pale -> normal -> bright, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeRepair"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Removes special types besides tainted from nodes,\nand makes normal nodes tainted, including jarred nodes" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeTainting"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns pigs" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectPorcine"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns sheep" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectSheep"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players slowness\nSorry, it won't speed up any machines or itself" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectSlowSpeed"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns spiders (no cave spiders)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectSpidery"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns Basalzes if Thermal Foundation is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTEBasalz"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns Blitzes if Thermal Foundation is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTEBlitz"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Does nothing in GTNH (spawns Blizzes if Thermal Foundation is installed)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTEBlizzy"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Converts sand -> sandstone in deserts or\nstone/cobblestone -> abyssal/quarried stone in\nplaces it would naturally spawn\nNote: the ore drilling plant will also replace relevant ores with these when\nreplacing with cobblestone is enabled" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTransmuting"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Recharges non-energized nodes with aspects below full" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectVisRecharge"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Spawns thaumcraft wisps with a uniformly chosen random essentia type from 1-47 inclusive\n(Seems broken, try a powered spawner)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectWispy"}'/>
-    <ToolTip ItemName="gendustry:GeneSample" ToolTip="Gives players wither" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectWithering"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="产生没有形状、颜色和尾迹配置的烟花火箭" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectFestiveEaster"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="将水转化为冰" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectGlacial"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="攻击怪物" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectHeroic"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="点燃玩家" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectIgnition"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为玩家施加中毒效果" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectMiasmic"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="造成大量伤害" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectMisanthropic"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="将草方块和露天泥土转化为菌丝,\n强制原版蘑菇长大(直接触发巨型蘑菇生成,\n跳过催熟过程),并将牛转化为哞菇" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectMycophilic"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="没有特殊效果" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectNone"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="造成伤害(比放射性略慢)并破坏\n活动范围内的任何方块,除了中心方块,\n以及林业原版的蜂箱类方块.\n需要注意它会破坏extrabees/magicbees的蜂箱类方块" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectRadioactive"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="周围有相应掉落物时, 生成僵尸、骷髅和爬行者" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectReanimation"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="使周围的生物获得远离玩家的AI任务" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectRepulsion"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="周围有相应掉落物时,\n生成爬行者、末影人、蜘蛛、洞穴蜘蛛、恶魂和末影龙" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectResurrection"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成装饰性的雪" NBT='{species: "rootBees", chromosome: 13, allele: "forestry.effectSnowing"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="在特定条件下将树苗转化为巴纳德C树苗:\n1) 树苗必须在魔法上合适\n(自暮色橡树顶端地牢取得的转化树树苗应当足够)\n2) 所处维度应当在魔法上活跃\n(尝试灵魂维度、基岩矿界、深渊世界或者口袋异次元)" NBT='{species: "rootBees", chromosome: 13, allele: "gregtech.effectTreetwister"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="在GTNH中不起作用 (若安装了Ars Magica,\n会生成其中的Wisp和Hecate)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectAMWisp"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成烈焰人" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectAblaze"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成蝙蝠和九狱焱蝠" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectBatty"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成牛" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectBovine"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成红眼僵尸" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectBrainy"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成狼" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCanine"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成豹猫" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCatty"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成鸡" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectChicken"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="按以下规则转化方块: 石头 -> 圆石 -> 苔石,\n石砖 -> 裂石砖 -> 苔石砖,\n沙砾 -> 沙子,\n圆石墙 -> 苔石墙" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCrumbling"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="治愈玩家的中毒效果" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectCurative"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为玩家施加急迫效果\n可惜它不会直接帮你挖洞" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectDigSpeed"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="转化石头 -> 活石和原木 -> 活木" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectDreaming"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成恶魂" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectGhastly"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成马" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectHorse"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为玩家施加隐身效果" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectInvisibility"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="在GTNH中不起作用 (若安装了Ars Magica, 会生成mana creepers/mana vortices)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectManaDrain"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为玩家施加速度效果" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectMoveSpeed"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="向节点添加随机要素, 包括缸中节点" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeEmpower"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="移除纯净以外的节点特殊类型,\n并将普通节点变为纯净节点, 包括缸中节点" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodePurifying"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="移除饕餮以外的节点特殊类型,\n并将普通节点变为饕餮节点, 包括缸中节点" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeRavening"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="将节点升级: 凋零 -> 苍白 -> 普通 -> 明亮, 包括缸中节点" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeRepair"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="移除污染以外的节点特殊类型,\n并将普通节点变为污染节点, 包括缸中节点" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectNodeTainting"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成猪" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectPorcine"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成羊" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectSheep"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为玩家施加缓慢效果\n抱歉, 它并不会加速机器或者它自己" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectSlowSpeed"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成蜘蛛(不含洞穴蜘蛛)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectSpidery"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="在GTNH中不起作用 (若安装了Thermal Foundation, 会生成岩石人)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTEBasalz"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="在GTNH中不起作用 (若安装了Thermal Foundation, 会生成狂风人)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTEBlitz"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="在GTNH中不起作用 (若安装了Thermal Foundation, 会生成暴雪人)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTEBlizzy"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="当处于沙漠中时转化沙子 -> 沙石, 或\n在这些方块会自然生成的\n地方转化石头/圆石 -> 深渊方块/采掘砖块.\n提示: 采矿场启用圆石回填功能时, \n也会用这些方块替换相关的矿物" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectTransmuting"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为要素未充满的非充能节点填充要素" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectVisRecharge"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="生成神秘时代的精灵, 其要素自1-47中等概率随机选取\n(似乎坏了, 请尝试电动刷怪笼)" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectWispy"}'/>
+    <ToolTip ItemName="gendustry:GeneSample" ToolTip="为玩家施加凋零效果" NBT='{species: "rootBees", chromosome: 13, allele: "magicbees.effectWithering"}'/>
     // Preconfigured storage buses
     <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="预置存储优先级：1" NBT='{priority: 1}'/>
     <ToolTip ItemName="appliedenergistics2:item.ItemMultiPart:220" ToolTip="预置存储优先级：2" NBT='{priority: 2}'/>
