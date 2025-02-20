@@ -22,8 +22,7 @@ base_temp_path = 'temp'
 
 def copy_item(src_path, dest_path):
     if path.isdir(src_path):
-        if not path.exists(dest_path):
-            shutil.copytree(src_path, dest_path)
+        shutil.copytree(src_path, dest_path, dirs_exist_ok=True)
     else:
         shutil.copy(src_path, dest_path)
 
