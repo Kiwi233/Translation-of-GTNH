@@ -82,7 +82,7 @@ thaumicenergistics.tooltip.button.reset.aspect.description=将左侧表格重置
 thaumicenergistics.tooltip.advanced.infusion.provider.working.on=工作模式
 thaumicenergistics.tooltip.advanced.infusion.provider.normal=普通供应器
 thaumicenergistics.tooltip.advanced.infusion.provider.advanced=高级供应器
-thaumicenergistics.tooltip.advanced.infusion.provider.bindto=绑定到%s %s %s矩阵
+thaumicenergistics.tooltip.advanced.infusion.provider.totalbind=共绑定%d个矩阵
 
 
 #GUI
@@ -148,7 +148,7 @@ thaumicenergistics.research_page.TEINFPROV.1=通过研究源质注魔的过程,�
 # Research Advanced Infusion Provider
 tc.research_name.thaumicenergistics.TEADVINFPROV=高级注魔供应器
 tc.research_text.thaumicenergistics.TEADVINFPROV=最简单的灌注。
-thaumicenergistics.research_page.TEADVINFPROV.1=当你不断的优化自己的网络合成自动化时,你无数次的被注魔时需要的要素源质的制作给难住了.<BR>现在,你有了全新的想法,不如把计算源质合成的任务交给ME网络来做?<BR>于是你试着使用自己的魔法技巧,将截流者与原有的供应器进行结合,经过你的不懈努力得到了这个进阶注魔供应器,它会在自身为中心25*25*11的空间内搜索所有的注魔矩阵并自动绑定,且当他发现源质缺失时会自动进行下单,你需要做的只有把他放在多个矩阵的中间,就是这么简单.<BR>右键可以让他重新搜索区域内的矩阵并重新绑定.
+thaumicenergistics.research_page.TEADVINFPROV.1=当你不断的优化自己的网络合成自动化时,你无数次的被注魔时需要的要素源质的制作给难住了.<BR>现在,你有了全新的想法,不如把计算源质合成的任务交给ME网络来做?<BR>于是你试着使用自己的魔法技巧,将截流者与原有的供应器进行结合,经过你的不懈努力得到了这个进阶注魔供应器,它会绑定以自身为中心25*25*11的空间内所有的注魔矩阵,且当他发现源质缺失时会自动进行下单,你需要做的只有把他放在多个矩阵的中间,就是这么简单.<BR>右键可以让他重新搜索区域内的矩阵并重新绑定.
 
 # Research Vis Interface
 tc.research_name.thaumicenergistics.TEVISINT=要素中继接口

@@ -508,17 +508,17 @@ gt.blockmachines.hatch.certain.tier.10.name=未定元解析器 X
 gt.blockmachines.hatch.certain.desc.0=你真的很确定吗？
 gt.blockmachines.hatch.certain.desc.1=盒子里的薛定谔方程
 
-gt.blockmachines.hatch.datain.tier.07.name=副光学接口
+gt.blockmachines.hatch.datain.tier.07.name=光学接收接口
 gt.blockmachines.hatch.datain.desc.0=多方块机器的数据输入
 gt.blockmachines.hatch.datain.desc.1=高速光纤接口
 gt.blockmachines.hatch.datain.desc.2=启用前必须涂色
 
-gt.blockmachines.hatch.dataout.tier.07.name=主光学接口
+gt.blockmachines.hatch.dataout.tier.07.name=光学发送接口
 gt.blockmachines.hatch.dataout.desc.0=多方块机器的数据输出
 gt.blockmachines.hatch.dataout.desc.1=高速光纤接口
 gt.blockmachines.hatch.dataout.desc.2=启用前必须涂色
 
-gt.blockmachines.hatch.datainass.tier.07.name=装配线数据库接口
+gt.blockmachines.hatch.datainass.tier.07.name=装配线接收接口
 gt.blockmachines.hatch.datainass.desc.0=多方块机器的数据输入
 gt.blockmachines.hatch.datainass.desc.1=高速光纤接口
 gt.blockmachines.hatch.datainass.desc.2=启用前必须涂色
@@ -526,7 +526,7 @@ gt.blockmachines.hatch.datainass.desc.2=启用前必须涂色
 gt.blockmachines.hatch.datainasswireless.desc.0=多方块机器的无线数据输入
 gt.blockmachines.hatch.datainasswireless.desc.1=高速网络连接
 
-gt.blockmachines.hatch.dataoutass.tier.07.name=数据库主接口
+gt.blockmachines.hatch.dataoutass.tier.07.name=数据库发送接口
 gt.blockmachines.hatch.dataoutass.desc.0=多方块机器的数据输出
 gt.blockmachines.hatch.dataoutass.desc.1=高速光纤接口
 gt.blockmachines.hatch.dataoutass.desc.2=启用前必须涂色
@@ -644,8 +644,8 @@ gt.blockcasingsBA0.8.desc.1=谁不想要32k的环氧树脂?
 
 #Multiblocks
 gt.blockmachines.multimachine.em.transformer.name=有源变压器
+gt.blockmachines.multimachine.em.transformer.machinetype=有源变压器(AT)
 gt.blockmachines.multimachine.em.transformer.hint=1 - 能源仓、动力仓或超能机械方块
-gt.blockmachines.multimachine.em.transformer.desc.0=有源变压器的控制器方块
 gt.blockmachines.multimachine.em.transformer.desc.1=任意电压间的相互转换!
 gt.blockmachines.multimachine.em.transformer.desc.2=只有0.004%的能量损失, HAYO!
 gt.blockmachines.multimachine.em.transformer.desc.3=运行时被破坏会发生爆炸
@@ -694,13 +694,13 @@ gt.blockmachines.multimachine.tm.teslaCoil.cfgo.8=扫描时间显示
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.9=最大输出显示
 
 gt.blockmachines.multimachine.em.switch.name=QoS网络交换机
-gt.blockmachines.multimachine.em.switch.hint=1 - 基础仓室、光学接口或电子计算机机械方块
+gt.blockmachines.multimachine.em.switch.hint.0=1 - 各数据输入/输出仓或进阶电子计算机械方块
+gt.blockmachines.multimachine.em.switch.hint.1=2 - 各数据输出仓或电子计算机机械方块
 gt.blockmachines.multimachine.em.switch.desc.0=QoS网络交换机的控制器方块
-gt.blockmachines.multimachine.em.switch.desc.1=用于路由和分发算力
-gt.blockmachines.multimachine.em.switch.desc.2=需要通过参数仪进行配置
-
+gt.blockmachines.multimachine.em.switch.desc.1=路由和分发算力
 
 gt.blockmachines.multimachine.em.computer.name=量子计算机
+gt.blockmachines.multimachine.em.computer.machinetype=量子计算机(QC)
 gt.blockmachines.multimachine.em.computer.hint.0=1 - 基础仓室、光学接口或电子计算机机械方块
 gt.blockmachines.multimachine.em.computer.hint.1=2 - 计算机箱或进阶电子计算机械方块
 gt.blockmachines.multimachine.em.computer.desc=你需要它来处理上面的这串数字
@@ -714,7 +714,7 @@ gt.blockmachines.multimachine.em.computer.desc.2=使用螺丝刀切换无线模�
 
 gt.blockmachines.multimachine.em.databank.name=数据库
 gt.blockmachines.multimachine.em.databank.hint.0=1 - 基础仓室或超能机械方块
-gt.blockmachines.multimachine.em.databank.hint.1=2 - 数据访问仓、数据库主接口或电子计算机械方块
+gt.blockmachines.multimachine.em.databank.hint.1=2 - 数据访问仓、数据库发送接口或电子计算机械方块
 gt.blockmachines.multimachine.em.databank.desc.0=数据库的控制器方块
 gt.blockmachines.multimachine.em.databank.desc.1=为装配线提供更多闪存
 gt.blockmachines.multimachine.em.databank.desc.2=还可使多条装配线访问同一闪存
@@ -767,7 +767,6 @@ gt.blockmachines.multimachine.em.scanner.desc.0=元物质扫描仪的控制器�
 gt.blockmachines.multimachine.em.research.type=研究站,扫描仪
 gt.blockmachines.multimachine.em.research.hint.0=1 - 基础仓室、光学接口或电子计算机械方块
 gt.blockmachines.multimachine.em.research.hint.1=2 - 物品固定容器
-gt.blockmachines.multimachine.em.research.desc.0=研究站的控制器方块
 gt.blockmachines.multimachine.em.research.desc.1=用于扫描物品, 生成装配线配方闪存
 gt.blockmachines.multimachine.em.research.desc.2=需要为其提供算力
 gt.blockmachines.multimachine.em.research.desc.3=在完成闪存写入之前不会消耗物品
@@ -851,7 +850,8 @@ gt.blockcasingsBA0.11.desc.1=至少能在一次宇宙大爆炸中幸存，也许
 achievement.gt.blockcasingsBA0.10=强化时间结构方块
 gt.blockcasingsBA0.10.desc.0=抵抗时间膨胀差造成的时间剪切.
 gt.blockcasingsBA0.10.desc.1=这个方块可以持久不衰.
-
+eoh.rightclick.wirecutter.1=在机器工作时不能取回星阵!
+eoh.rightclick.wirecutter.2=检测到 %s 个星阵
 
 # Antimatter
 gt.blockmachines.antimatterForge.name=半稳定反物质稳定序列器
@@ -888,10 +888,10 @@ achievement.gt.stabilisation_field_generator.7=太初稳定力场发生器
 achievement.gt.stabilisation_field_generator.8=鸿蒙稳定力场发生器
 
 # Forge of the Gods / Godforge
-fog.upgrade.confirm=结构
+fog.upgrade.confirm=构筑
 fog.upgrade.respec=重新分配
 
-fog.upgrade.tt.0=升级开始
+fog.upgrade.tt.0=诸神之锻炉
 fog.upgrade.tt.1=改进的引力对流线圈
 fog.upgrade.tt.2=时空拓扑膨胀调节器
 fog.upgrade.tt.3=恒星燃料扩展理论
@@ -920,74 +920,76 @@ fog.upgrade.tt.25=悖论实现理论
 fog.upgrade.tt.26=大规模复制理论
 fog.upgrade.tt.27=超限恒星存在理论
 fog.upgrade.tt.28=无尽流动理论
-fog.upgrade.tt.29=轻松现实
+fog.upgrade.tt.29=极易实有理论
 fog.upgrade.tt.30=猎户座旋臂创世纪理论
+fog.upgrade.tt.secret=隐秘升级
 
-fog.upgrade.tt.short.0=START
-fog.upgrade.tt.short.1=IGCC
-fog.upgrade.tt.short.2=STEM
-fog.upgrade.tt.short.3=CFCE
-fog.upgrade.tt.short.4=GISS
-fog.upgrade.tt.short.5=FDIM
-fog.upgrade.tt.short.6=SA
-fog.upgrade.tt.short.7=GPCI
-fog.upgrade.tt.short.8=REC
-fog.upgrade.tt.short.9=GEM
-fog.upgrade.tt.short.10=CTCDD
-fog.upgrade.tt.short.11=QGPIU
-fog.upgrade.tt.short.12=SEFCP
-fog.upgrade.tt.short.13=TCT
-fog.upgrade.tt.short.14=GGEBE
-fog.upgrade.tt.short.15=TPTP
-fog.upgrade.tt.short.16=DoP
-fog.upgrade.tt.short.17=CNTI
-fog.upgrade.tt.short.18=EPEC
-fog.upgrade.tt.short.19=IMKG
-fog.upgrade.tt.short.20=NDPE
-fog.upgrade.tt.short.21=PoS
-fog.upgrade.tt.short.22=DoR
-fog.upgrade.tt.short.23=NGMS
-fog.upgrade.tt.short.24=SEDS
-fog.upgrade.tt.short.25=PA
-fog.upgrade.tt.short.26=CD
-fog.upgrade.tt.short.27=TSE
-fog.upgrade.tt.short.28=TBF
-fog.upgrade.tt.short.29=EE
-fog.upgrade.tt.short.30=END
+fog.upgrade.tt.short.0=由此开始
+fog.upgrade.tt.short.1=引力涡旋
+fog.upgrade.tt.short.2=时空膨胀
+fog.upgrade.tt.short.3=恒星燃料
+fog.upgrade.tt.short.4=引子超导
+fog.upgrade.tt.short.5=流力集成
+fog.upgrade.tt.short.6=光速放大
+fog.upgrade.tt.short.7=引离约束
+fog.upgrade.tt.short.8=光速电容
+fog.upgrade.tt.short.9=引子纠缠
+fog.upgrade.tt.short.10=时空闭合
+fog.upgrade.tt.short.11=强子隔离
+fog.upgrade.tt.short.12=奇点压缩
+fog.upgrade.tt.short.13=超限构造
+fog.upgrade.tt.short.14=引力束流
+fog.upgrade.tt.short.15=时浆转换
+fog.upgrade.tt.short.16=多重效应
+fog.upgrade.tt.short.17=中微隧穿
+fog.upgrade.tt.short.18=脉冲星舱
+fog.upgrade.tt.short.19=球状闪电
+fog.upgrade.tt.short.20=简并压爆
+fog.upgrade.tt.short.21=奇点宇称
+fog.upgrade.tt.short.22=罕态失衡
+fog.upgrade.tt.short.23=零重力场
+fog.upgrade.tt.short.24=衰变稳定
+fog.upgrade.tt.short.25=悖论具现
+fog.upgrade.tt.short.26=规模锻造
+fog.upgrade.tt.short.27=超限恒星
+fog.upgrade.tt.short.28=无尽流动
+fog.upgrade.tt.short.29=轻松现实
+fog.upgrade.tt.short.30=新的起点
+fog.upgrade.tt.short.secret=隐秘升级
 
-fog.upgrade.lore.0=诸神之锻炉是围绕一颗稳定的中子星建造的宏伟巨构-- 它的先进程度超乎想象,其全部功能尚未被完全理解. 不过,通过持续使用,人们逐步升级并扩展神锻的能力范围, 揭示出一种隐藏在宇宙最极端区域的力量:引力子. 这种深奥的力量只能在常规物质与中子星表面简并中子质壳物质的交界处找到. 在那里,引力子极为常见,并辐射着交界处混合的物质, 产生极不稳定的引力子碎片. 这些碎片目前可用于神锻的内部升级. 虽然这些碎片还不能在神锻的极端条件之外存在,但随着不断的研究和利用, 最终有可能在神锻之外分离和提取这些碎片 ----只是,这一切是为了什么呢？
+fog.upgrade.lore.0=诸神之锻炉是围绕一颗稳定的中子星建造的宏伟巨构-- 它的先进程度超乎想象,其全部功能尚未被完全理解. 不过,通过持续使用,人们逐步升级并扩展神锻的能力范围, 揭示出一种隐藏在宇宙最极端区域的力量:引力子碎片. 这种深奥的材料只能在常规物质与中子星简并中子质壳物质的交界处找到. 在那里,引力子更为常见,并辐射着交界处混合的物质, 产生极不稳定的引力子碎片. 这些碎片目前仅可用于神锻的内部升级. 虽然除了神锻之外再也没有能满足引力子碎片的极端环境,但随着不断的研究和利用, 最终可能有机会将其分离并提取到外部 ——但这又是为了什么呢？
 fog.upgrade.lore.1=这是诸神之锻炉的首次重大升级. 利用引力子碎片的引力扭曲效应, 随着热量的增加处理速度得以大幅提升. 这是引力子碎片的第一个应用, 更多用途将通过锻炉的持续使用逐步被发掘.
 fog.upgrade.lore.2=引力子碎片可以扭曲神锻中燃料的表面积, 从而提高效率. 这使得每单位燃料能够处理更多的材料. 随着神锻日益增长的使用需求, 引力子碎片将在进一步提高效率方面发挥关键作用.
-fog.upgrade.lore.3=通过使用引力子碎片, 神锻燃料室内的空间得以扩展, 允许燃烧更多的燃料,达到更高的温度. 别忘了预留些燃料, 以维持中心中子星的生命力.
+fog.upgrade.lore.3=通过使用引力子碎片, 神锻燃料室内的空间得以扩展, 允许燃烧更多的燃料,从而达到更高的温度. 别忘了预留些燃料, 以维持中心中子星的生命力.
 fog.upgrade.lore.4=引力子碎片能影响的不只物质,还有能量: 在足够高浓度的恒星燃料作用下, 仅通过引力作用, 神锻炉内激发了超导性. 这些引力子碎片还能有哪些其他的特性呢?
-fog.upgrade.lore.5=随着神锻更多投入使用, 收集到关于引力碎片的更多数据. 研究发现,它们能稳定神锻的输出, 从而使得在熔融物质仍靠近恒星核心时, 能够直接提取.
+fog.upgrade.lore.5=随着神锻的不断使用, 你收集到了关于引力子碎片的更多数据. 研究发现,它们能稳定神锻的输出, 允许你直接提取尚且还接近中子星中心的熔融材料.
 fog.upgrade.lore.6=随着恒星燃料消耗的持续增加, 恒星的体积和能量不断增长, 一次可以处理的物质总量也随之增加. 引力子碎片有助于在神锻核心附近操控更多的物质.
-fog.upgrade.lore.7=随着对引力子碎片理解的不断深入, 我们改进了控制它们的方式,让它们可以更好的操控物质. 引力子碎片提供了一种替代电磁约束等离子体的方法, 通过时空操控代替电磁场, 从而使神锻能够直接将后的物质直接以等离子体的形式输出.
+fog.upgrade.lore.7=随着对引力子碎片理解的不断深入, 你改进了控制它们的方式,让它们可以更好的操控物质. 引力子碎片提供了一种替代电磁约束等离子体的方法, 通过时空操控代替电磁场, 从而使神锻能够直接将物质以等离子体的形式输出.
 fog.upgrade.lore.8=将引力子碎片添加到神锻的内部能量存储中, 可以在更小的空间内存储更多的能量. 通过将能量密度提高到相对论级别, 结合不断增加的电势,使得神锻可以更高效地运行.
-fog.upgrade.lore.9=仅仅将更多的引力子碎片添加到燃料舱中, 就能持续增强神锻消耗更多恒星燃料的能力. 即使是投入到锻炉其他部分的引力子碎片也能为彼此带来好处---- 它们似乎展现出类似量子纠缠的特性.
+fog.upgrade.lore.9=仅仅是将更多的引力子碎片添加到燃料舱中, 就能持续增强神锻消耗更多恒星燃料的能力. 甚至投入到锻炉完全不同的部分的引力子碎片也能带来这种增益---- 这种碎片似乎展现出类量子纠缠的特性.
 fog.upgrade.lore.10=在神锻的材料处理区域增加引力子碎片的浓度, 会极大地扭曲时空,从而操控因果上来自未来和过去的物质. 这使材料在实际上的输入能力和处理能力翻倍.
 fog.upgrade.lore.11=使用大量引力子碎片会创造出极端的空间区域, 在这些区域中,异星物质可以比通常情况下更稳定地存在. 不幸的是,这个区域极端到几乎与神锻的其他部分在空间上完全断开, 无法利用现有的结构升级和它的其余功能.
 fog.upgrade.lore.12=暴露在引力子诱发的微型黑洞中,可以进一步压缩恒星燃料, 增强其通过更高能量的融合反应, 为神锻核心的恒星提供能量的能力. 这种反应比自然恒星中通常可能发生的要更为强大. 因此,产生的热量增加了, 锻炉的处理效率提升了.
 fog.upgrade.lore.13=随着燃料室中引力子碎片浓度的增加, 有限的空间内开始展现出无限分形般的特性, 这使得处理能力进一步提高. 不过,这需要增加相应的恒星燃料, 以确保能量能够深入到燃料室内部的物质.
 fog.upgrade.lore.14=利用引力子碎片独特的能量操控特性, 电能可以在神锻中更高效地使用. 通过引力而非物质或电磁力引导电子, 能够减少能量损耗,从而实现更高的处理速度.
-fog.upgrade.lore.15=类似于量子操纵者(QFT), 引力子碎片的量子力学特性使得神锻能够通过直接操控物质本身的亚原子粒子, 一次事件中完成一系列复杂的核聚变过程.
-fog.upgrade.lore.16=这是另一种引力子碎片类-量子纠缠效应的表现, 基础的能量锻炉模块现在也具备了融化核心模块所做出的改进. 这使得神锻在处理效率,以及对珍贵的引力子碎片的分配这二者上都得到了提升.
+fog.upgrade.lore.15=类似于量子操纵者(QFT), 引力子碎片的量子力学特性使得神锻能够通过直接操控材料本身的亚原子粒子, 在一次事件中完成一系列复杂的核聚变过程.
+fog.upgrade.lore.16=这是另一种引力子碎片的类量子纠缠效应表现,基础的能量锻炉模块现在也具备了融化核心模块所做出的改进.这使得神锻在处理效率,以及对珍贵的引力子碎片的分配这二者上都得到了提升.
 fog.upgrade.lore.17=对于异星材料的典型熔炼技术, 即使在极端温度下也变得极为低效. 而引力子碎片促进了前所未有数量的临界能量中微子隧穿, 从而大幅改善热量传递到目标材料的效率, 这成为了将电能转化为热能以熔炼材料的最有效方法之一.
 fog.upgrade.lore.18=引力子碎片不仅能操控加工材料, 还能操控神锻中心的恒星. 通过以相对论性速度旋转恒星, 所产生的脉冲星爆发在单位时间内传递的能量, 比暴露在静态中子星环境会提供更多的能量. 这使得更多物质能够更快地被处理.
 fog.upgrade.lore.19=持续改进利用引力子碎片的能量存储密度, 既提高了神锻的效率,还改善了处理过程中热能的利用. 当能量达到奇点阈值时,对处理效率产生了多重影响: 引力效应可用于直接操控物质; 而激发的微型球状闪电(micro-kugelblitzes),悖论般地使能量更易于在神锻中使用.
 fog.upgrade.lore.20=通常情况下,无限增加热量在处理材料时会带来极大的收益递减, 但引力子碎片提供了除标准电加热之外的其他加热选项. 通过利用引力子碎片,将目标材料包裹在极度简并的物质中,可以将其压缩到极限,从而使其温度超越神锻中通常无法达到的水平.
-fog.upgrade.lore.21=利用引力子碎片的类-量子纠缠特性, 可以利用锻炉中各区域之间日益极端的时空差异, 提高熔融模块的处理能力. 随着空间扭曲加剧, 更多的物质可以被移动到靠近恒星的地方, 从而提高生产能力.
+fog.upgrade.lore.21=利用引力子碎片的类量子纠缠特性, 可以利用锻炉中各区域之间日益极端的时空差异, 提高融化核心的处理能力. 随着空间扭曲加剧, 更多的物质可以被移动到靠近恒星的地方, 从而提高生产能力.
 fog.upgrade.lore.22=带着关于引力子碎片的众多发现回到神锻的第一次升级, 使其运行速度比之前快得多. 在已知物理定律之外工作时, 有时重新审视最基本的假设是很重要的, 因为最简单的事实可能是最强大的.
 fog.upgrade.lore.23=通过引力子碎片减轻了在引力强得几乎吞噬一切的中子星周围维持如此大型结构的压力. 在神锻上安装了一层引力中和材料,以保护更传统的机械装置, 而且结构越大,效率提升越明显.
 fog.upgrade.lore.24=对引力子碎片引力约束效应的理解提升, 使神锻能够处理和操控最奇特的等离子体, 包括通常仅能存在纳秒级的合成超重元素. 它还能通过少量的引力子稳定原子核, 从而延长这些物质的外部使用时间.
-fog.upgrade.lore.25=进一步利用引力子碎片类-量子纠缠的特性, 使得其他模块升级的效果也能应用于奇异模块. 然而,由于该模块内部时空的极端性质以及所处理的材料, 这些益处会按照平方反比定律递减.
-fog.upgrade.lore.26=随着更多环状结构被放置得更靠近神锻中心的恒星, 引力压力急剧增加. 引力子碎片能够缓解这些压力, 同时还能在两个环状结构及其模块的升级之间建立局部的时空桥梁.
+fog.upgrade.lore.25=通过进一步利用引力子碎片的类量子纠缠特性, 其他模块升级的效果也能应用于异化器模块. 然而,由于该模块内部时空的极端性质以及所处理的材料, 这些益处会按照平方反比定律递减.
+fog.upgrade.lore.26=随着更多环状结构被放置得更靠近神锻中心的中子星, 结构上的引力压力急剧增加. 引力子碎片能够缓解这些压力, 同时还能在两个环状结构及其模块的升级之间建立局部的时空桥梁.
 fog.upgrade.lore.27=通过大量使用引力子碎片,神锻的能力取得了巨大突破---- 能够无限制地供应恒星所需的恒星燃料. 尽管这会遇到收益递减的问题, 但这样一来即便在不断进行物料处理导致能量消耗极度加速的情况下, 恒星仍能稳定存在.
 fog.upgrade.lore.28=在电气系统中使用引力子碎片来制造局部微型能量虫洞, 使得电能传输效率极高, 以至于神锻可以近乎无限地利用电力. 更多的电力意味着更快的处理速度,更迅速的物料移动, 以及更好地利用与引力子碎片相关的升级.
 fog.upgrade.lore.29=神锻最后的外部结构升级, 需要对引力子碎片, 及其在极端环境中的应用, 有着最前沿的研究. 有了这个升级, 诸神之锻炉的最后4个模块插槽就可以建造了, 它可以使你的生产攀升到从未有过的技术高度.
 fog.upgrade.lore.30=随着对诸神之锻炉的完全掌握, 一个跨越宇宙的全新计划逐渐成型. 在这个阶段,量化和提取引力子碎片应用于神锻之外的强大新技术领域已变为可能; 不在元素周期表上的,最奇特的等离子体也可以生产; 最重要的是,逐渐理解磁物质的巨大威力---- 这是一种完全由磁单极子构成的物质形式,其密度和稳定性是传统玻色物质的数十亿倍. 随着诸如此类的发展, 你意识到神锻的完全体也并不是最终目标, 这仅仅是超越宇宙的垫脚石.
 
-fog.upgrade.text.0=解锁诸神之锻炉的初始状态, 拥有8个可用模块位置,1个环. 并且解锁太阳耀斑锻炉模块.
+fog.upgrade.text.0=解锁诸神之锻炉的初始状态, 拥有8个可用模块位置,1个环. 并且解锁太阳耀斑锻炉模块. 2,000,000,000EU/t加工电压, 15,000热量增益上限。
 fog.upgrade.text.1=解锁一个根据实际炉温减少配方时间的乘数. 此加成通过以下公式计算: 乘数=1/(实际炉温^0.01)
 fog.upgrade.text.2=通过将实际燃料消耗速率乘以0.8来提高燃料效率.
 fog.upgrade.text.3=将最大燃料消耗速率乘以1.2
@@ -1007,17 +1009,17 @@ fog.upgrade.text.16=使“太阳烈焰能量锻炉”获得“太阳射流融化
 fog.upgrade.text.17=将高炉(EBF)炉温增益上限提高到30,000K.
 fog.upgrade.text.18=解锁一个根据当前热量改变最大并行的乘数. 此增益通过以下公式计算得出: 乘数=1+温度/15000
 fog.upgrade.text.19=将高炉(EBF)炉温带来的电力减免增益从5%提升至8% (译注:变为每900K减少8%的需求功率, 相当于减少能耗,但会影响并行算法), 并根据内部电池的填充水平添加能量减免. 此增益通过以下公式计算得出: 减免=(当前填充水平/最大容量-0.5)^2*(-0.6)+0.15, 对于除等离子体制造器以外的模块乘以2/3
-fog.upgrade.text.20=当温度超过30,000K时, 将提供高炉(EBF)炉温增益, 由以下公式确定: 实际炉温=30000+(当前炉温-30000)^0.8
+fog.upgrade.text.20=当温度超过30,000K时, 将提供高炉(EBF)炉温增益, 由以下公式确定: 能量锻炉炉温=30000+(当前炉温-30000)^0.85, 熔化核心炉温=30000+(当前炉温-30000)^0.8
 fog.upgrade.text.21=解锁一个根据升级总数改变最大并行的乘数. 此增益通过以下公式计算得出: 乘数=1+升级数量/5
 fog.upgrade.text.22=根据当前最大并行改进减少配方时间的乘数 (改进的引力对流线圈,IGCC升级). 再改进后公式: 乘数=(1/温度^0.01)/(并行^0.02)
-fog.upgrade.text.23=将每个已激活的环将最大处理电压乘4 , 在其他增益之后叠加计算.
+fog.upgrade.text.23=每个已激活的环将最大处理电压乘4 , 在其他增益之后计算.
 fog.upgrade.text.24=允许太阳热能等离子制造机处理T5的等离子体.
 fog.upgrade.text.25=使“太阳聚变异化器”能够受到其他升级效果的影响, 但这些效果会先进行平方根运算. 超频加成通过以下公式调整: 超频系数=2+(基础超频系数-2)²
 fog.upgrade.text.26=允许建造第二环, 并增加4个可用模块位置.
-fog.upgrade.text.27=解除最大燃料消耗上限. 但用于加成计算的燃料消耗量根据以下公式进行调整: 实际燃料消耗=基础最大燃料消耗+(基础燃料消耗-基础最大燃料消耗)^0.75, 其中基础最大燃料消耗指未升级时的最大燃料消耗.
+fog.upgrade.text.27=解除最大燃料消耗上限. 但用于加成计算的燃料消耗量根据以下公式进行调整: 实际燃料消耗=基础最大燃料消耗+(基础燃料消耗-基础最大燃料消耗)^0.4, 其中基础最大燃料消耗指未升级时的最大燃料消耗.
 fog.upgrade.text.28=解除最大处理电压上限. 可在每个模块的图形界面中设置电压.
 fog.upgrade.text.29=允许建造第三环, 并增加4个可用模块位置.
-fog.upgrade.text.30=在“太阳聚变异化器”中解锁磁物质生产; 在“太阳热能等离子制造机”中解锁异星等离子体的生成; 以及允许神锻弹出引力子碎片.
+fog.upgrade.text.30=在“太阳聚变异化器”中解锁磁物质生产; 在“太阳热能等离子制造机”中解锁异星等离子体的生成; 以及允许神锻弹出和插入引力子碎片.
 
 fog.debug.resetbutton.text=重置
 fog.debug.resetbutton.tooltip=重置所有升级至0
@@ -1025,9 +1027,12 @@ fog.debug.unlockall.text=解锁所有的升级
 fog.debug.gravitonshardsetter.tooltip=设置可用的引力子碎片数量
 
 fog.button.fuelconfig.tooltip=燃料配置菜单
-fog.button.furnacemode.tooltip=切换熔炉模式
-fog.button.magmattermode.tooltip.01=切换磁物质模式
-fog.button.magmattermode.tooltip.02=磁物质模式锁定，缺少升级
+fog.button.upgradetree.tooltip=跨越宇宙之路
+fog.button.furnacemode.tooltip.01=高炉模式
+fog.button.furnacemode.tooltip.02=熔炉模式
+fog.button.magmattermode.tooltip.01=夸克胶子等离子体模式
+fog.button.magmattermode.tooltip.02=磁物质模式
+fog.button.magmattermode.tooltip.03=磁物质模式已锁定, 缺少升级
 fog.button.battery.tooltip.01=切换电池充能
 fog.button.battery.tooltip.02=右键以打开配置菜单(如果已经解锁的话)
 fog.button.voltageconfig.tooltip.01=打开电压配置
@@ -1040,16 +1045,25 @@ fog.button.materialrequirements.tooltip.clickhere=点击打开材料输入窗口
 fog.button.ejection.tooltip=切换引力子碎片喷射
 fog.button.formatting.tooltip=切换数字显示格式
 fog.button.exoticinputs.tooltip=点击以显示预期的输入
+fog.button.possibleexoticinputs.tooltip=单击以显示所有可能的输入
 fog.button.reciperefresh.tooltip=点击以重置配方
 fog.button.refreshtimer.tooltip=重置将就绪于
 fog.button.seconds=秒
-fog.button.thanks.tooltip=打开贡献者清单
+fog.button.thanks.tooltip=贡献者清单
+fog.button.color.tooltip=外观美化菜单
+fog.button.statistics.tooltip=统计概述
+fog.text.tooltip.heat=用于检查配方是否可以运行的炉温
+fog.text.tooltip.effectiveheat=用于计算加成的炉温
+fog.text.tooltip.parallel=最大并行
+fog.text.tooltip.speedbonus=配方基础时间乘数, 越小越好
+fog.text.tooltip.energydiscount=基础能量消耗乘数, 越小越好
+fog.text.tooltip.ocdivisor=每次OC减少的时间除数(对无损超频不生效)
 
 
 achievement.gt.blockmachines.multimachine.em.forge_of_gods=诸神之锻炉
 achievement.gt.godforgecasing.0=奇点强化恒星屏蔽机械方块
 achievement.gt.godforgecasing.1=天体物质引导机械方块
-achievement.gt.godforgecasing.2=无界引力隔绝结构方块
+achievement.gt.godforgecasing.2=无界引力隔绝机械方块
 achievement.gt.godforgecasing.3=超时空强化磁约束机械方块
 achievement.gt.godforgecasing.4=恒星能量抽取机械方块
 achievement.gt.godforgecasing.5=远程引力子流动调节器
@@ -1086,7 +1100,9 @@ gt.blockmachines.multimachine.FOG.milestoneinfo=查看里程碑进度
 gt.blockmachines.multimachine.FOG.inversionactive=反转已激活
 gt.blockmachines.multimachine.FOG.inversion=反转
 gt.blockmachines.multimachine.FOG.expectedinputs=预期的输入
-gt.blockmachines.multimachine.FOG.inversioninfotext=一旦神锻的所有里程碑都达到第 7 级，就会激活反转。这将取消所有里程碑的最高级别，并允许无限扩展。每个里程碑目标的增长从指数级增长变为线性增长，但是授予的引力子碎片数量会不断增加。每个后续里程碑所需的进度与每个里程碑第 7 层所需的进度相同。但 “构成 ”里程碑是个例外，因为它每一层都会增加 1，并有自己的进度计算公式。每种模块类型都有一个数值，从太阳耀斑锻炉的 1 到 磁物质模式下的太阳聚变异化器 的 5，然后将每种模块的数量减去1再乘以其数值。这些数值相加后除以 5，这就是基础 7 级之上的最后一级里程碑。
+gt.blockmachines.multimachine.FOG.possibleinputsqgp=夸克胶子等离子体可能的输入原料
+gt.blockmachines.multimachine.FOG.possibleinputsmagmatter=磁物质可能的输入原料
+gt.blockmachines.multimachine.FOG.inversioninfotext=一旦神锻的所有里程碑都达到第7级，就会激活反转。这将取消所有里程碑的最高级别，并允许无限扩展。每个里程碑目标的增长从指数级增长变为线性增长，但是授予的引力子碎片数量会不断增加。每个后续里程碑所需的进度与每个里程碑第7级所需的进度相同。但“构成”里程碑是个例外，因为它每一层都会增加1，并有自己的进度计算公式。每种模块类型都有一个数值，从太阳耀斑锻炉的1到磁物质模式下的太阳聚变异化器的5，然后将每种模块的数量减去1再乘以其数值。这些数值相加后除以5，这就是基础7级之上的最后一级里程碑。
 gt.blockmachines.multimachine.FOG.powermilestone=充能
 gt.blockmachines.multimachine.FOG.recipemilestone=转换
 gt.blockmachines.multimachine.FOG.fuelmilestone=催化
@@ -1096,25 +1112,25 @@ gt.blockmachines.multimachine.FOG.recipes=已处理配方
 gt.blockmachines.multimachine.FOG.fuelconsumed=已消耗燃料单位数
 gt.blockmachines.multimachine.FOG.extensions=拓展模块已建造
 gt.blockmachines.multimachine.FOG.shardgain=已获取引力子碎片数量
-gt.blockmachines.multimachine.FOG.consumeUpgradeMats=点击以消耗升级材料,供应§4精确§r的物品堆叠数量
+gt.blockmachines.multimachine.FOG.consumeUpgradeMats=点此确认消耗升级材料
 gt.blockmachines.multimachine.FOG.clickhere=感到困惑?点击这里来获取更多信息
 gt.blockmachines.multimachine.FOG.introduction=§N引言
-gt.blockmachines.multimachine.FOG.introductioninfotext=诸神之锻炉系统非常复杂,其中有很多内容会让人感到困惑.此菜单旨在解释正在发生的一切以及神锻的所有功能/机制.
+gt.blockmachines.multimachine.FOG.introductioninfotext=诸神之锻炉系统中有很多内容, 这些内容一开始可能会让人感到非常困惑.此菜单旨在解释正在发生的一切,以及神锻的所有功能和机制.
 gt.blockmachines.multimachine.FOG.tableofcontents=§N目录
 gt.blockmachines.multimachine.FOG.fuel=燃料
 gt.blockmachines.multimachine.FOG.modules=模块
 gt.blockmachines.multimachine.FOG.upgrades=升级
 gt.blockmachines.multimachine.FOG.milestones=里程碑
 gt.blockmachines.multimachine.FOG.fuelinfotext=即使神锻的结构已经完成搭建并成功形成多方块结构, 直接开启神锻仍不能以使其正常运行. 神锻需要注入一定量的§B恒星燃料§6才能真正启动. 所需的恒星燃料量取决于当前的§B燃料消耗系数§6, 该系数可以在燃料配置菜单中调整. 默认情况下,最大系数为5, 不过后续可以通过升级提高. 消耗1个恒星燃料单位的计算公式为: 消耗=系数*25*1.2^系数. 恒星燃料通过输入总线提供,燃料会被内部储存并定期消耗. 当储存的恒星燃料达到启动所需的量时,神锻将正式启动(允许模块连接), 并开始将消耗的恒星燃料转化为储存燃料. 从这时起,它需要持续输入一种液体燃料作为动力来源(燃料类型可在燃料配置菜单中选择). 如果输入仓中没有足够的所选燃料,存储燃料将逐渐减少, 当储存量降为0时,神锻将重新进入"关闭"状态, 此时模块会断开连接,且必须再次注入恒星燃料才能重新启动. 此外, 可以通过启用§B电池充电6来增加储存燃料容量. 然而,这会使燃料消耗量翻倍,其中一半将存储于神锻的内部电池中.
-gt.blockmachines.multimachine.FOG.moduleinfotext=神锻中可使用4种模块,分别是§B太阳烈焰能量神锻§6,§B太阳射流融化核心§6,§B太阳热能等离子制造机§6和§B太阳聚变异化器§6. 这些模块是独立的多方快结构,必须在神锻的指定位置搭建. 搭建完成后,模块必须与神锻连接,连接会在满足模块要求时自动完成. 如果需要,你也可以使用按钮手动刷新模块状态,而无需等待结构自动更新. 每个模块都有其独特的功能和要求,而且即使是对于同一个后续神锻的升级增益条目,它们受到增益的影响也各不相同. 第一个解锁的模块是§B太阳烈焰能量神锻§6，简单来说,它比巨型工业高炉更强大,并且还具备熔炉模式,可以将其转变为一个功能强大的多用熔炉. 此模块默认解锁,基础并行为1024. 第二个解锁的模块是§B太阳射流融化核心§6,它也能处理熔炉配方,但输出物以熔融形式排出,而非热/普通锭. 如果输出物没有熔融形式,则会以普通形式输出. 此模块必须通过升级解锁才能使用,基础并行为512. 第三个模块是§B太阳热能等离子制造机§6,它具有独特的配方,可以直接将材料转换为等离子体. 配方按融合等级和步骤要求分组,只有在解锁相应升级后才能处理相应的配方. 与常规的核聚变不同,这些配方会生成输入材料的等离子体. 此模块基础并行为384. 第四个也是最后一个模块是§B太阳聚变异化器§6，它能够生成夸克胶子等离子体,解锁之后的后续升级还能使其生成磁物质.这个模块在处理这两种材料时都有独特的自动化挑战. 因为它们必须分别锁定为处理其中一种材料,因此建议准备两个.此模块基础并行为64. 两种模式的自动化挑战的通用规则如下: 模块在配方周期开始时输出随机材料,并等待正确的输入到达后才开始实际处理输出材料. 如果生成夸克胶子等离子体,模块会输出多达7种不同的液体或小撮粉,数量在1到64之间,且必须返回相应等离子体及其数量才能使配方生效. 对于每升液体,必须返回一桶等离子体.对于每堆小撮粉,必须返回相当于一个锭的等离子体,配方才能正常工作. 这些小撮粉总是以9的倍数被排出. 如果磁物质模式处于激活状态,自动化挑战将会改变. 现在模块会输出1至50升[富快子时间流体], 51至100升[扩大化空间流体]以及一撮高阶材料的小撮粉. 挑战在于不仅要归[还富快子时间流体]和[扩大化空间流体], 还要输入与[扩大化空间流体]和[富快子时间流体]数量之差相等的该高阶材料,相当于一个锭的等量等离子体(以锭的形式). 一旦所有这些都以正确的数量归还,配方就会开始处理并输出磁物质.
+gt.blockmachines.multimachine.FOG.moduleinfotext=神锻可以使用4种模块,分别是§B太阳烈焰能量锻炉§6,§B太阳射流融化核心§6,§B太阳热能等离子制造机§6和§B太阳聚变异化器§6. 这些模块是独立的多方块结构,必须在神锻的指定位置搭建. 搭建完成后,模块必须与神锻连接,连接会在满足模块要求时自动完成. 如果需要,你也可以使用按钮手动刷新模块状态,而无需等待结构自动更新. 每个模块都有其独特的功能和要求,受某些升级的影响也不尽相同. 第一个解锁的模块是§B太阳烈焰能量锻炉§6,简单来说,它是个比巨型工业高炉更强大的高炉,并且还具备熔炉模式,你可以将其切换为一个超级强大的工业熔炉. 此模块默认解锁,基础并行为1024. 第二个解锁的模块是§B太阳射流融化核心§6,它也能处理高炉配方,但输出物以熔融形式排出,而非热/普通锭. 如果输出物没有熔融形式,则会以普通形式输出. 此模块必须通过升级解锁才能使用,基础并行为512. 第三个模块是§B太阳热能等离子制造机§6,它具有独特的配方,可以直接将材料转换为等离子体. 配方按聚变等级和步骤要求分组,只有在解锁相应升级后才能处理相应的配方. 与常规的核聚变不同,这些配方会生成输入材料的等离子体. 此模块基础并行为384. 第四个也是最后一个模块是§B太阳聚变异化器§6，它能够生产夸克胶子等离子体,解锁之后的后续升级还能使其生产磁物质.这个模块在处理这两种材料时都有独特的自动化挑战. 因为它们必须分别锁定为处理其中一种材料,因此建议准备两个. 两种模式的自动化挑战的通用规则如下: 模块在配方周期开始时输出材料,并等待正确的输入到达后才开始实际处理输出材料. 如果生产夸克胶子等离子体,模块会输出至多7种不同的流体或小撮粉,数量在1到64之间,且必须返还相应等离子体及其数量才能使配方生效. 对于每升液体,必须返回一桶等离子体.对于每个小撮粉,必须返回相当于一个锭的等离子体,配方才能正常工作. 小撮粉总以9的倍数输出. 如果磁物质模式激活,自动化挑战会改变. 现在模块会输出1-50L富快子时间流体, 51-100L扩大化空间流体以及一个高阶材料的小撮粉. 挑战在于不仅要返还富快子时间流体和扩大化空间流体, 还要输入数量与扩大化空间流体和富快子时间流体之差相等的该高阶材料的等离子体(以锭计). 一旦所有这些物品都以正确的数量返还,配方就会开始处理并输出磁物质.此模块基础并行为64.
 gt.blockmachines.multimachine.FOG.upgradeinfotext=升级是神锻的核心所在,它们将解锁了神锻的大部分功能和处理能力. 升级界面可以通过神锻主界面上的按钮访问,每个升级节点都可以点击以获取其效果和解锁要求的更多信息. 通常,每个升级只有在前一个升级解锁且有足够的可用引力子碎片时才能解锁.但第一个升级是个例外,因为它没有前置条件. 有些升级还可能有额外的材料成本,如果有额外材料需求,会在解锁按钮旁边注明. 如果一个升级有多个相连的前一个升级,那么有两种情况, 要么该升级需要所有相连的前一个升级都解锁(红色连接表示),要么至少有一个前一个升级解锁(蓝色连接表示). 升级可以通过再次点击解锁按钮来退回已使用的引力子碎片并重置升级,前提是所有相连的后续升级都未激活或激活. 解锁了太阳聚变异化器之后的那一系列升级是特殊的,因为它们被设计为§B任选路径§6. 顾名思义,一开始只能选择三条路径中的一条,其余的路径会被锁定. 每条路径都有专门的增益效果,主要针对特定模块,因此对其他模块类型的影响会减弱(除非特别说明). 可解锁的路径数量取决于神锻拥有的环数量,而环的数量又受后续升级的限制.
-gt.blockmachines.multimachine.FOG.milestoneinfotext=里程碑对于升级神锻至关重要,因为它们是引力子碎片的主要来源,而引力子碎片是解锁升级所需的货币. 简而言之,里程碑就是达到特定条件后能够获得引力子碎片的“关卡”. 里程碑共有四种类型,分别是§B充能§6、§B转换§6、§B催化§6和§B构成§6,每种类型都对应神锻的一项属性. 每个里程碑有7个等级,等级越高,达成难度越大,但获得的重力子碎片也越多. 第一个等级可获得1个重力子碎片.第二级获得2个,以此类推. §B充能§6里程碑根据所有模块的总能量消耗来计算,第一个等级在消耗1e15EU时解锁,后续等级按9倍递增. §B转换§6里程碑根据所有模块处理的总配方数量来计算(不包括太阳烈焰能量锻炉的熔炉模式),第一个等级在处理1000万份配方时解锁,后续等级按6倍递增. §B催化§6里程碑基于神锻的燃料消耗,以恒星燃料单位计算(在燃料菜单中通过系数配置的燃料消耗量). 达到第一个等级需要消耗10000个燃料单位,后续等级按3倍递增. 最后但同样重要的是,§B构成§6这个里程碑的工作方式略有不同,它是根据神锻的结构来计算的. 每种独特的模块类型(在夸克胶子和磁物质模式下的太阳聚变异化器模块算作2种类型)以及每增加一个环都会获得里程碑等级. 您的研究表明,如果所有里程碑都达到最终等级,可能会发生一些奇怪的事情…… 别忘了回来查看哦！
+gt.blockmachines.multimachine.FOG.milestoneinfotext=里程碑对于升级神锻至关重要,因为它们是引力子碎片的主要来源,而引力子碎片是解锁升级所需的货币. 简而言之,里程碑就是达到特定条件后能够获得引力子碎片的“关卡”. 里程碑共有四种类型,分别是§B充能§6、§B转换§6、§B催化§6和§B构成§6,每种类型都对应神锻的一项属性. 每个里程碑有7个等级,等级越高,达成难度越大,但获得的引力子碎片也越多. 第一个等级可获得1个引力子碎片.第二级获得2个,以此类推. §B充能§6里程碑根据所有模块的总能量消耗来计算,第一个等级在消耗1e15EU时解锁,后续等级按9倍递增. §B转换§6里程碑根据所有模块处理的总配方数量来计算(不包括太阳烈焰能量锻炉的熔炉模式),第一个等级在处理1000万份配方时解锁,后续等级按4倍递增. §B催化§6里程碑基于神锻的燃料消耗,以恒星燃料单位计算(在燃料菜单中通过系数配置的燃料消耗量). 达到第一个等级需要消耗10000个燃料单位,后续等级按3倍递增. 最后但同样重要的是,§B构成§6这个里程碑的工作方式略有不同,它是根据神锻的结构来计算的. 每种独特的模块类型(在夸克胶子和磁物质模式下的太阳聚变异化器模块算作2种类型)以及每增加一个环都会获得里程碑等级. 您的研究表明,如果所有里程碑都达到最终等级,可能会发生一些奇怪的事情…… 别忘了回来查看哦！
 gt.blockmachines.multimachine.FOG.contributors=贡献者
 gt.blockmachines.multimachine.FOG.lead=项目主管
 gt.blockmachines.multimachine.FOG.cloud=GDCloud
 gt.blockmachines.multimachine.FOG.programming=编程
 gt.blockmachines.multimachine.FOG.teg=TheEpicGamer
-gt.blockmachines.multimachine.FOG.serenybiss=§dSereni§5byss
+gt.blockmachines.multimachine.FOG.serenibyss=§dSereni§5byss
 gt.blockmachines.multimachine.FOG.textures=材质 & 结构
 gt.blockmachines.multimachine.FOG.ant=Ant
 gt.blockmachines.multimachine.FOG.lore=顾问
@@ -1124,9 +1140,64 @@ gt.blockmachines.multimachine.FOG.bucket=BucketBrigade
 gt.blockmachines.multimachine.FOG.playtesting=测试
 gt.blockmachines.multimachine.FOG.misi=Misi
 gt.blockmachines.multimachine.FOG.thanks=非常感谢这些了不起的人帮助实现这一目标! -Cloud
+gt.blockmachines.multimachine.FOG.modulestats=模块状态
+gt.blockmachines.multimachine.FOG.powerforge=能量锻炉
+gt.blockmachines.multimachine.FOG.meltingcore=融化核心
+gt.blockmachines.multimachine.FOG.plasmafab=等离子制造机
+gt.blockmachines.multimachine.FOG.exoticizer=聚变异化器
+gt.blockmachines.multimachine.FOG.heat=炉温
+gt.blockmachines.multimachine.FOG.effectiveheat=有效炉温
+gt.blockmachines.multimachine.FOG.speedbonus=速度增益
+gt.blockmachines.multimachine.FOG.energydiscount=能耗减免
+gt.blockmachines.multimachine.FOG.ocdivisor=OC除数
+gt.blockmachines.multimachine.FOG.clickstat=点击以查看详情
 
 gt.blockmachines.multimachine.FOG.hint.0=1 - 基础仓室, 或超时空强化磁约束机械方块
 gt.blockmachines.multimachine.FOG.hint.1=2 - 模块控制器,或奇点强化恒星屏蔽机械方块
+
+# Godforge Star Cosmetics
+fog.cosmetics.header=中子星美化
+fog.cosmetics.color=颜色
+fog.cosmetics.color.red=红(R)
+fog.cosmetics.color.green=绿(G)
+fog.cosmetics.color.blue=蓝(B)
+fog.cosmetics.color.gamma=伽马校正(Gamma)
+fog.cosmetics.selectcolor.tooltip.1=左键选择这个星色
+fog.cosmetics.selectcolor.tooltip.2=Shift-左键编辑这个星色(必须是自定义色)
+fog.cosmetics.starcolor=自定义星色
+fog.cosmetics.customstarcolor=自定义...
+fog.cosmetics.misc=杂项
+fog.cosmetics.spin=旋转
+fog.cosmetics.size=大小
+fog.cosmetics.cyclespeed=两层颜色的旋转速度
+fog.cosmetics.onlyintegers=接受整数
+fog.cosmetics.onlydecimals=接受小数
+fog.cosmetics.starcolorname=星色名称:
+fog.cosmetics.starcolorname.tooltip.1=为星色设置名称(最多15字符)
+fog.cosmetics.starcolorname.tooltip.2=必须唯一!这会附加一个数字
+fog.cosmetics.colorlist.tooltip.1=左键选择这个星色
+fog.cosmetics.colorlist.tooltip.2=右键从列表中移除该星色
+fog.cosmetics.applycolor=应用
+fog.cosmetics.applycolor.tooltip=为所选星色应用颜色
+fog.cosmetics.addcolor=添加
+fog.cosmetics.addcolor.tooltip=添加至星色列表中
+fog.cosmetics.resetcolor=重置
+fog.cosmetics.resetcolor.tooltip=重置当前颜色
+fog.cosmetics.savecolors=保存
+fog.cosmetics.savecolors.tooltip=保存该星色
+fog.cosmetics.deletecolors=删除
+fog.cosmetics.deletecolors.tooltip=删除该星色
+fog.cosmetics.importcolors=导入
+fog.cosmetics.importcolors.tooltip=从剪贴板导入星色
+fog.cosmetics.exportcolors=导出
+fog.cosmetics.exportcolors.tooltip=保存星色到剪贴板中
+fog.cosmetics.importer.import=导入星色
+fog.cosmetics.importer.error=非法星色
+fog.cosmetics.importer.valid=合法星色
+fog.cosmetics.importer.apply=应用
+fog.cosmetics.importer.apply.tooltip=应用导入的星色到颜色编辑器中
+fog.cosmetics.importer.reset=重置
+fog.cosmetics.importer.reset.tooltip=重置导入的星色
 
 # Optical Circuits
 achievement.gt.metaitem.03.32155=光学处理器集群
@@ -1271,6 +1342,7 @@ gt.recipe.researchStation=研究站
 gt.recipe.fog_plasma=太阳热能等离子制造机
 gt.recipe.fog_exotic=太阳聚变异化器
 gt.recipe.fog_molten=太阳射流融化核心
+gt.recipe.upgrade_costs=神锻升级
 
 
 # NEI
@@ -1286,8 +1358,6 @@ tt.nei.research.min_computation=最小算力输入：%s /s
 tt.keyword.ID=ID
 #Example: 32EU at 1A
 tt.keyword.at= 
-# Structure is too complex
-tt.keyword.Structure.StructureTooComplex=结构太复杂了！
 # Any X
 tt.keyword.Structure.AnyComputerCasing=任意电子计算机械方块
 tt.keyword.Structure.AnyHighPowerCasing=任意超能机械方块
@@ -1297,6 +1367,7 @@ tt.keyword.Structure.AnyHighPowerCasingFront=任意正面超能机械方块
 tt.keyword.Structure.AnyTeslaBaseCasingOuter=任意外侧特斯拉基座机械方块
 tt.keyword.Structure.AnyComputerCasingFirstOrLastSlice=任意最前或最后一片电子计算机械方块
 tt.keyword.Structure.AnyComputerCasingBackMain=任意主体背面电子计算机械方块
+tt.keyword.Structure.AnyAdvComputerCasing=任意进阶电子计算机械方块
 tt.keyword.Structure.AnyAdvComputerCasingExceptOuter=除外侧的任意进阶电子计算机械方块
 tt.keyword.Structure.AnyMolecularCasing=任意分子机械方块
 tt.keyword.Structure.AnyMolecularCasing2D=任意分子机械方块(提示方块：2号)
@@ -1323,6 +1394,8 @@ tt.keyword.Structure.ElementalOverflow=元物质溢流仓
 tt.keyword.Structure.ElementalInput=元物质输入仓
 tt.keyword.Structure.EssentiaStorage=源质存储装置
 tt.keyword.Structure.DataConnector=光学接口
+tt.keyword.Structure.DataInput=数据输入仓
+tt.keyword.Structure.DataOutput=数据输出仓
 tt.keyword.Structure.SuperconductingCoilBlock=超导线圈方块
 tt.keyword.Structure.StainlessSteelCasing=不锈钢机械方块
 tt.wirelessInputData.config.text=设置从无线网络中拉取多少算力
@@ -1360,8 +1433,8 @@ tt.keyphrase.Contained_mass=存储物质
 tt.keyphrase.Mass_Disposal_speed=清理速度
 tt.keyphrase.Muffler_BOOM=溢流BOOM!
 tt.keyphrase.Energy_Hatches=能源仓
-tt.keyphrase.Probably_uses=NEI功率
-tt.keyphrase.Probably_makes=可能制作
+tt.keyphrase.Probably_uses=当前已用
+tt.keyphrase.Probably_makes=当前发电
 tt.keyphrase.Tier_Rating=等级
 tt.keyphrase.Amp_Rating=电流
 tt.keyphrase.Computation_Available=可用算力
@@ -1778,3 +1851,4 @@ tt.chat.debug.generator=激光模式：%s
 GT5U.gui.config.general.debug=调试
 GT5U.gui.config.general.features=功能
 GT5U.gui.config.general.teslatweaks=Tesla 调整优化
+GT5U.gui.config.general.visual=视觉

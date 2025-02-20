@@ -193,14 +193,20 @@ binniecore.gui.breedingmessage.species=已发现品种
 binniecore.gui.breedingmessage.branch=已发现分支
 binniecore.gui.breedingmessage.epithet=已获得称号
 
-binniecore.item.genesis.name=Genesis
+binniecore.item.genesis.name=起源
 binniecore.item.fluidContainer.missed=丢失液体
 
+item.containerCapsule.name=胶囊
 binniecore.item.container.capsule=胶囊
+item.containerRefractory.name=胶囊
 binniecore.item.container.refractory=耐火胶囊
+item.containerCan.name=罐
 binniecore.item.container.can=罐
+item.containerBucket.name=桶
 binniecore.item.container.bucket=桶
+item.containerGlass.name=瓶
 binniecore.item.container.glass=瓶
+item.containerCylinder.name=圆柱
 binniecore.item.container.cylinder=玻璃罐
 
 binniecore.item.container.capsule.acid=酸液胶囊
@@ -291,6 +297,7 @@ binniecore.machine.storage.filterBlocks=包括方块
 < %1$s is the name of the pattern >
 binniecore.gui.designer.pattern=%1$s样板
 
+item.fieldKit.name=实地考察工具包
 binniecore.gui.fieldKit=实地考察工具包
 binniecore.gui.fieldKit.info=用于在野外分析蜜蜂、树、花和蝴蝶的工具包。记得带上纸来记笔记。
 
@@ -456,3 +463,6 @@ binniecore.gui.side.west=西
 binniecore.gui.side.south=南
 binniecore.gui.side.insertSide=输入面：%s
 binniecore.gui.side.extractSide=输出面：%s
+
+item.genesis.name=起源
+tile.storage.name=组合箱

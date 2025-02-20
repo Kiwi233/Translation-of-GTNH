@@ -9,6 +9,7 @@ tc.aspect.desidia=怠惰,懒散,拖延
 tc.aspect.luxuria=欲望,欲念,无度
 #
 # Items
+item.NetherShard.name=碎片
 item.NetherShard.wrath.name=暴怒碎片
 item.NetherShard.envy.name=妒忌碎片
 item.NetherShard.gluttony.name=饕餮碎片
@@ -26,9 +27,10 @@ item.MorphPickaxe.name=避役镐
 item.MorphSword.name=避役剑
 item.MorphShovel.name=避役铲
 item.MorphAxe.name=避役斧
+item.FMResource.name=资源
 item.FMResource.0.name=绿宝石碎片
 item.FMResource.1.name=暗影墨水
-item.FMResource.2.name=魔钢粒
+item.FMResource.2.name=魔力钢粒
 item.FMResource.3.name=腐血碎片
 item.FMResource.4.name=元素钢粒
 item.MobCrystalEmpty.name=空白留影水晶
@@ -67,6 +69,7 @@ item.Wand.vinteum.cap=温特姆杖端
 item.Wand.manasteel.cap=魔钢缠绕杖端
 item.Wand.elementium.cap=元素钢亲吻杖端
 item.Wand.terrasteel.cap=泰拉钢杖端
+item.WandCores.name=法杖核心
 item.WandCores.tainted.name=腐化杖柄
 item.WandCores.infernal.name=炼狱杖柄
 item.WandCores.soul.name=异域杖柄
@@ -81,6 +84,7 @@ item.WandCores.witchwood_staff.name=巫魂木杖芯
 item.WandCores.dreamwood.name=梦之木杖柄
 item.WandCores.dreamwood_inert.name=休眠梦之木杖柄
 item.WandCores.dreamwood_staff.name=梦之木杖芯
+item.WandCaps.name=杖端
 item.WandCaps.alchemical.name=炼金杖端
 item.WandCaps.vinteum.name=温特姆杖端
 item.WandCaps.soul.name=末影杖端
@@ -191,11 +195,11 @@ forbidden.research_page.ROD_tainted.1=腐化的大地对那些知道如何开发
 #
 forbidden.research_name.TAINTTREE=腐化之树
 forbidden.research_text.TAINTTREE=咒流之根所蕴育的邪恶果实
-forbidden.research_page.TAINTTREE.1=那些令人作呕的,极度扭曲的魔法实验残余可以承载一些奇怪的生命.大多数植物是无法在腐化之地生存的,但是你却找到了一种可以种在那里的植物.将树苗浸泡于腐化之中,你创造出了一种能在腐化之地生长的树.<BR><BR>它的木头可以被加工成对腐化纤维有抗性的木板,这样你就可以建造出一间能抵御污染扩散的房子.<BR><BR>这种树似乎还能结出果实,但是吃掉那些果实并不是一个好主意...
+forbidden.research_page.TAINTTREE.1=那些令人作呕的,极度扭曲的魔法实验残余可以承载一些奇怪的生命.大多数植物是无法在腐化之地生存的,但是你却找到了一种可以种在那里的植物.将树苗浸泡于腐化之中,你创造出了一种能在腐化之地生长的树.<BR><BR>它的木头可以被加工成对腐化纤维有抗性的木板,这样你就可以建造出一间能抵御腐化扩散的房子.<BR><BR>这种树似乎还能结出果实,但是吃掉那些果实并不是一个好主意...
 #
 forbidden.research_name.TAINTSTONE=腐化石头
 forbidden.research_text.TAINTSTONE=石头上摇滚的污染
-forbidden.research_page.TAINTSTONE.1=腐化之地并不是一个适合久留的安全地带.腐化草丛像饿疯了一样扩散,将它们的触手延伸到几乎所有物体的表面,并最终包围,使得你无法在上面行走.然而这草丛并不会对腐化的生物或材料造成危害.<BR><BR>将普通石头与污染相混合,你创造出了一种结构坚硬并且能抵抗腐化草丛扩散的魔法材料.腐化石头可用于在腐化之地铺设一条安全通行的道路.<BR><BR>然而这并不意味着在腐化之地定居是个好主意...
+forbidden.research_page.TAINTSTONE.1=腐化之地并不是一个适合久留的安全地带.腐化草丛像饿疯了一样扩散,将它们的触手延伸到几乎所有物体的表面,并最终包围,使得你无法在上面行走.然而这草丛并不会对腐化的生物或材料造成危害.<BR><BR>将普通石头与腐化相混合,你创造出了一种结构坚硬并且能抵抗腐化草丛扩散的魔法材料.腐化石头可用于在腐化之地铺设一条安全通行的道路.<BR><BR>然而这并不意味着在腐化之地定居是个好主意...
 #
 forbidden.research_name.ROD_infernal=炼狱杖柄
 forbidden.research_text.ROD_infernal=恶魔式存储魔力
@@ -249,7 +253,7 @@ forbidden.research_page.CAP_soul.1=你已经制造出一种杖端,能够安全�
 #
 forbidden.research_name.CAP_manasteel=魔钢杖端
 forbidden.research_text.CAP_manasteel=魔力之秘
-forbidden.research_page.CAP_manasteel.1=魔钢在操纵AM魔力的特性方面得天独厚.用它来制作的杖端只有90%的魔力效率.安装在活木杖柄上后,它能够让AM魔力转换成vis的效率更高.<BR><BR>为了用于制作法杖,惰性魔钢杖端需要在血池中激活.
+forbidden.research_page.CAP_manasteel.1=魔力钢在操纵AM魔力的特性方面得天独厚.用它来制作的杖端只有90%的魔力效率.安装在活木杖柄上后,它能够让AM魔力转换成vis的效率更高.<BR><BR>为了用于制作法杖,惰性魔钢杖端需要在血池中激活.
 #
 forbidden.research_name.CAP_elementium=元素钢杖端
 forbidden.research_text.CAP_elementium=生态友好型杖端
@@ -316,7 +320,7 @@ forbidden.research_page.VOIDTOUCHED.1=虚空锭受损后自动回流的特性令
 #
 forbidden.research_name.TAINTBASICS=腐化的大地
 forbidden.research_text.TAINTBASICS=深紫色
-forbidden.research_page.TAINTBASICS.1=有时候,神秘学会变得糟糕可怖.奇迹变成了扭曲的灾难以及大片丑陋的景观.腐化的大地是被魔法设备排出的扭曲魔力咒波污染了的地方.当地的花花草草会发生扭曲的变异,动物也会从普通的野兽转变成敌对的怪物.污染极端严重的腐化区域还会感染那些践踏它脉动的须根的家伙.
+forbidden.research_page.TAINTBASICS.1=有时候,神秘学会变得糟糕可怖.奇迹变成了扭曲的灾难以及大片丑陋的景观.腐化的大地是被魔法设备排出的扭曲魔力咒波污染了的地方.当地的花花草草会发生扭曲的变异,动物也会从普通的野兽转变成敌对的怪物.腐化极端严重的腐化区域还会感染那些践踏它脉动的须根的家伙.
 forbidden.research_page.TAINTBASICS.2=腐化大地天然分布于世界的某些角落.但有时也会因为粗枝大叶的神秘使让咒波粘浆淤塞了过长时间而人为形成.它们很容易通过那些深紫色的须根和亮紫色的藤梗辨识.如若放置不管,腐化大地一般会将它的触手向外蔓延,感染周围越来越多的土地.树木或其他天然植渐渐会被覆盖上一层纤维状的物质,而泥土会变成稠密发紫的腐化泥土,变得结构松垮,随时可能坍塌或融化成咒波粘浆.
 #
 forbidden.research_name.SCHOOLS=魔法学园

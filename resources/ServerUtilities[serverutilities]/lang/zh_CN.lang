@@ -468,6 +468,7 @@ serverutilities.lang.warps.cooldown=使用传送点传送还需 %s！
 serverutilities.lang.warps.tp=传送至 “%s”！
 serverutilities.lang.warps.no_dp=你只能使用一次 /back！
 serverutilities.lang.warps.no_pos_found=没有位置使用 /back！
+serverutilities.lang.warps.cross_dim=你不能传送至其它维度！
 
 # Homes
 serverutilities.lang.homes.set=家“%s”已设置！
@@ -512,6 +513,12 @@ cmd.backup_manual_launch=%s 启动了手动备份！
 cmd.backup_already_running=正在备份中！
 cmd.backup_not_running=备份未在运行！
 cmd.backup_size=当前世界大小：%s，备份文件夹总大小：%s
+serverutilities.gui.backup.title=恢复备份（%s）
+serverutilities.gui.backup.button=备份
+serverutilities.gui.backup.restore=恢复
+serverutilities.gui.backup.error=恢复备份时发生错误！
+serverutilities.gui.backup.delete_confirm=确认§c§l删除§r此备份？
+serverutilities.gui.backup.restore_confirm=确认§a§l恢复§r此备份?
 
 # Gui
 ## Buttons

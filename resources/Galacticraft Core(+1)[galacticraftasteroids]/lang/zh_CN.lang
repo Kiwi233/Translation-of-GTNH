@@ -1,6 +1,7 @@
 # Galacticraft Asteroids Language File = UNITED STATES ENGLISH
 
 # GENERAL ITEMS
+item.itemTier3Rocket.name=3阶火箭
 item.itemTier3Rocket.t3Rocket.name=3阶火箭
 item.itemAstroMiner.name=太空采矿机
 item.heavyNoseCone.name=重型前锥体
@@ -10,6 +11,7 @@ item.shardTitanium.name=钛碎片
 item.shardIron.name=铁碎片
 item.rocketFinsT2.name=重型火箭鳍
 item.engineT2.name=重型火箭引擎
+item.itemBasicAsteroids.name=资源
 item.reinforcedPlateT3.name=重型装甲板
 item.grapple.name=吊钩
 item.atmosphericValve.name=气闸
@@ -26,6 +28,7 @@ item.titanium_shovel.name=钛铲
 item.titanium_sword.name=钛剑
 
 # ARMOR
+item.thermalPadding.name=隔热充能头盔
 item.thermalHelm.name=隔热充能头盔
 item.thermalChestplate.name=隔热充能胸甲
 item.thermalLeggings.name=隔热充能护腿
@@ -39,9 +42,11 @@ item.titanium_boots.name=钛靴
 item.methaneCanisterPartial.name=甲烷气体罐
 item.methaneCanister.name=甲烷气体罐(满)
 item.canister.gas.name=甲烷
+item.canisterPartialLOX.name=罐装液态氧
 item.canister.LOX.partial.name=罐装液态氧
 item.canister.LOX.full.name=罐装液态氧(满)
 item.canister.LOX.name=氧
+item.canisterPartialLN2.name=灌装液态氮
 item.canister.liquidNitrogen.partial.name=灌装液态氮
 item.canister.liquidNitrogen.full.name=灌装液态氮(满)
 item.canister.liquidNitrogen.name=氮
@@ -66,6 +71,7 @@ fluid.liquidargon=液态氩
 fluid.fuel=燃油
 
 # BLOCKS
+tile.asteroidsBlock.0.name=行星岩/矿石
 tile.asteroidsBlock.asteroid0.name=行星岩
 tile.asteroidsBlock.asteroid1.name=行星岩
 tile.asteroidsBlock.asteroid2.name=行星岩
@@ -74,12 +80,14 @@ tile.asteroidsBlock.oreIlmenite.name=钛铁矿石
 tile.asteroidsBlock.oreAluminum.name=铝矿石
 tile.beamReflector.name=能量射束反射器
 tile.beamReceiver.name=能量射束接收器
+tile.telepadFake.name=短距离传送台
 tile.telepadShort.name=短距离传送台
 tile.walkway.name=通道
 tile.walkwayWire.name=通道
 tile.walkwayOxygenPipe.name=通道
 tile.treasureT3.name=3阶宝箱
 tile.denseIce.name=坚冰
+tile.minerBaseFull.name=太空采矿机基地
 tile.minerBase.name=太空采矿机基地方块
 
 # GUI
@@ -143,7 +151,7 @@ entity.EntryPodAsteroids.name=入口平台
 entity.AstroMiner.name=太空采矿机
 
 # CONTAINERS
-container.shortRangeTelepad.name=短程传送平台
+container.shortRangeTelepad.name=短距离传送台
 container.entryPod.name=入口平台
 
 # CONFIG GUI
