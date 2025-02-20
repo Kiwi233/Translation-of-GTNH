@@ -19,7 +19,7 @@ tile.crystalBlockair.name=风之魔晶块
 tile.crystalBlockorder.name=秩序魔晶块
 tile.crystalBlockentropy.name=混沌魔晶块
 tile.crystalBlockmixed.name=复相魔晶块
-tile.crystalBlocktainted.name=污染魔晶块
+tile.crystalBlocktainted.name=腐化魔晶块
 tile.salisMundusBlock.name=世界盐块
 tile.pyrofluid.name=魔力熔岩
 tile.thauminiteBlock.name=秘晶块
@@ -76,7 +76,7 @@ tile.tb.crystalslab.earth.name=地之魔晶台阶
 tile.tb.crystalslab.order.name=秩序魔晶台阶
 tile.tb.crystalslab.entropy.name=混沌魔晶台阶
 tile.tb.crystalslab.mixed.name=复相魔晶台阶
-tile.tb.crystalslab.tainted.name=污染魔晶台阶
+tile.tb.crystalslab.tainted.name=腐化魔晶台阶
 
 tile.thaumicRelocator.name=扩展奥术悬浮台
 tile.tb.voidblock.name=虚空金属块
@@ -135,7 +135,7 @@ item.knoseFragment.air.name=风之知识
 item.knoseFragment.order.name=秩序知识
 item.knoseFragment.entropy.name=混沌知识
 item.knoseFragment.mixed.name=复合知识
-item.knoseFragment.tainted.name=污染知识
+item.knoseFragment.tainted.name=腐化知识
 item.sweedSeeds.name=芦苇种子
 item.lazulliaSeeds.name=青金种子
 item.redlonSeeds.name=红石瓜种子
@@ -151,7 +151,7 @@ item.tobacco.tobacco_hunger.name=饱和烟草堆
 item.tobacco.tobacco_knowledge.name=睿智烟草堆
 item.tobacco.tobacco_mining.name=矿工烟草堆
 item.tobacco.tobacco_sanity.name=休闲烟草堆
-item.tobacco.tobacco_tainted.name=污染烟草堆
+item.tobacco.tobacco_tainted.name=腐化烟草堆
 item.tobacco.tobacco_wispy.name=精灵烟草堆
 item.tobaccoSeeds.name=烟草种子
 item.mortar.name=杵与臼
@@ -235,7 +235,7 @@ tb.rec.backProc.page.0=非常遗憾的是很多物品一旦分解之后是不能
 
 tc.research_name.TB.CrystalBlocks=晶簇块
 tc.research_text.TB.CrystalBlocks=从第二版而来!
-tb.rec.cBlocks.page.0=在研究了Ordo要素与方块在坩埚中作用的原理之后,你认为可以开始一个更大的项目.你已经发现在坩埚中把晶簇与一些Ordo要素和晶簇自身的要素混合起来,再加入一些Fabrico要素,晶簇将会塌陷成为固态!虽然现在尚未发现这种固体形态有什么卵用,但它保留了它来源晶簇的特性.你也发现如果在晶簇塌陷过程中加入一些Vitium要素会产生污染晶簇块.尽管这些固体的使用方法尚未发现...但是所有的方块都可以用于增加注魔祭坛的稳定性.
+tb.rec.cBlocks.page.0=在研究了Ordo要素与方块在坩埚中作用的原理之后,你认为可以开始一个更大的项目.你已经发现在坩埚中把晶簇与一些Ordo要素和晶簇自身的要素混合起来,再加入一些Fabrico要素,晶簇将会塌陷成为固态!虽然现在尚未发现这种固体形态有什么卵用,但它保留了它来源晶簇的特性.你也发现如果在晶簇塌陷过程中加入一些Vitium要素会产生腐化晶簇块.尽管这些固体的使用方法尚未发现...但是所有的方块都可以用于增加注魔祭坛的稳定性.
 
 tc.research_name.TB.SMB=世界盐块
 tc.research_text.TB.SMB=让我们勇敢!
@@ -259,7 +259,7 @@ tb.rec.thaumRod.page.0=很长一段时间里,神秘使根本没想过使用神�
 
 tc.research_name.ROD_tbvoid=虚空杖芯
 tc.research_text.ROD_tbvoid=一条危险的道路
-tb.rec.voidRod.page.0=在疯狂的深渊的旅行之后,你发现了一个方法来制作一种十分奇怪的金属.你有了另一个奇怪的想法——为什么不制作一把用这种金属制成的法杖呢?你可能需要使用一些额外的东西,例如使用污染晶簇块来防止它的咒波污染.最终你得到了一柄充满脉动与力量的魔杖.它可能是你再次进入黑暗前能得到的最强的力量.而且,它似乎能缓慢从它自身中收集魔力——你想知道是什么组件带来了这种特性.
+tb.rec.voidRod.page.0=在疯狂的深渊的旅行之后,你发现了一个方法来制作一种十分奇怪的金属.你有了另一个奇怪的想法——为什么不制作一把用这种金属制成的法杖呢?你可能需要使用一些额外的东西,例如使用腐化晶簇块来防止它的咒波污染.最终你得到了一柄充满脉动与力量的魔杖.它可能是你再次进入黑暗前能得到的最强的力量.而且,它似乎能缓慢从它自身中收集魔力——你想知道是什么组件带来了这种特性.
 
 tc.research_name.TB.Plax=纤化麦
 tc.research_text.TB.Plax=魔法丝线
@@ -343,7 +343,7 @@ tc.research_name.TB.Tobacco.Wisdom=睿智烟草
 tc.research_text.TB.Tobacco.Wisdom=智慧隐藏在灰烬之中
 tb.rec.witobacco.page.0=你已经超越了那些休闲性质的烟草了.给你的烟草注入一些知识肯定是个很好的主意!你创造出了一种烟草,它可以在你吸食的时候给你提供无比精明的头脑.尽管这个效果只会持续几秒钟,但是这已经足够让你有一两个惊人的发现了.但是你很害怕你也会看到一些不可名状的恐怖,甚至会腐蚀你的精神...不过,风险越大利益越大,不是么?
 
-tc.research_name.TB.Tobacco.Tainted=污染烟草
+tc.research_name.TB.Tobacco.Tainted=腐化烟草
 tc.research_text.TB.Tobacco.Tainted=精神污染
 tb.rec.ttobacco.page.0=你甚至并不是十分确定为何你会发现它.但是.现在你可以给你的烟草注入一些诅咒,永久改变它.这将导致每一个吸食它的人的精神都会被诅咒所腐蚀,然后所有来自黑暗的恐惧会充斥他们的脑海.但是这又什么用呢?诅咒的碎片也会在吸食者的烟斗上留下一个小小的印记.你对于这诅咒如何影响其他事物,比如银树,很感兴趣...虽然你感觉到这不会有什么好事情发生.
 
@@ -427,7 +427,7 @@ tb.rec.goldenOak.page.0=不仅仅是芦苇和花能够被魔力加工成新的�
 
 tc.research_name.TB.NodeMan=节点调节器
 tc.research_text.TB.NodeMan=完全掌控!
-tb.rec.nodeMan.page.0=你已经找到一种使用稳定器的方法来支持节点.你也找到一种方法撕碎一个节点,打开一个通向其他地方的狭小裂缝.这些就是能对节点做的全部了吗?这看起来很不公平,它们的种类太多了——污染,饕餮,纯净,它们也成为明亮节点或者凋零...所有神秘使都在这里放弃了.你可以调整节点的链接,让它稳定下来.你能够撕碎一个节点,让它充能.那么为什么不把这些能力结合起来改变哪怕一点点节点与灵气世界的链接?为什么不研究这个呢?那里有什么让所有神秘使都敬而远之的东西?或者其他神秘使仅仅是忽视了这一点?或者他们认为已经做的够好了?
+tb.rec.nodeMan.page.0=你已经找到一种使用稳定器的方法来支持节点.你也找到一种方法撕碎一个节点,打开一个通向其他地方的狭小裂缝.这些就是能对节点做的全部了吗?这看起来很不公平,它们的种类太多了——腐化,饕餮,纯净,它们也成为明亮节点或者凋零...所有神秘使都在这里放弃了.你可以调整节点的链接,让它稳定下来.你能够撕碎一个节点,让它充能.那么为什么不把这些能力结合起来改变哪怕一点点节点与灵气世界的链接?为什么不研究这个呢?那里有什么让所有神秘使都敬而远之的东西?或者其他神秘使仅仅是忽视了这一点?或者他们认为已经做的够好了?
 tb.rec.nodeMan.page.1=好吧,已经很久没有什么事情发生了.没有事情可以让你停下来.没有人能够杀死你,没有事物能够腐蚀你的精神!你已经天下无敌了!你不明白为何其他神秘使不走上这条道路.你已经发现一种方法来制作一个能把节点稳定器稳定节点的能力与节点充能器撕碎节点的能力结合起来的设备.但是这并不是看起来那么简单,你也需要持续不断的魔力和一些镜子,由于这个过程中会产生一定量的咒波,因此咒波洗涤器是必要的.为了使设备稳定,它也需要一些世界盐.然后,你终于得到了这样一个能够调节节点性质的设备!
 tb.rec.nodeMan.page.2=但是它并没有看起来那么简单.你的设备由于对节点充能时功率太大而不能对通常的节点使用.由于魔力只能从上方往下流动,因此这个设备只能从顶部调整节点,因此同时使用节点调节器与节点充能器是不可行的.甚至它根本就不能对节点做任何调整,这与你的期望南辕北辙.但是它确实有调节的能力,只是节点的灵气链接不是这么简单就可以调整的——因此你需要一个核心,并且你知道如何制作一个.你使用普通的法杖核心尝试,但是不幸的是那只会得到一堆愤怒的小精灵.然而这个核心必须用于使用设备的能量来调节节点. 
 tb.rec.nodeMan.page.3=这个设备自身十分稳定,它不需要任何能量就可以工作.使用设备自身能量的核心只能有一个而且必须镶嵌在设备顶端.当持有核心时只需要简单右键就能将核心安装上.用空手右击则可以取下核心.使用另一个核心右击则会将手中与设备上的核心交换.令人惊讶的是它竟然会记录核心工作的进度!节点调节器会根据进行的操作消耗长短不同的时间!
@@ -462,7 +462,7 @@ tb.rec.foci.hunger.page.0=饕餮核心将会让节点调节器缓慢的将一个
 
 tc.research_name.TB.NodeFoci.Purity=节点调节核心:纯净
 tc.research_text.TB.NodeFoci.Purity=节点净化
-tb.rec.foci.pure.page.0=纯净核心将会让节点调节器缓慢的将一个污染节点变为普通节点然后进一步转化为纯净节点.它只会对普通或污染节点产生效果,对普通节点,这个过程会花费3分钟;而对污染节点,则需花费33分钟.需要注意的是,调制出的节点不一定会含有一般纯净节点的特有要素,但也会缓慢将周围的生物群系变为魔法森林.
+tb.rec.foci.pure.page.0=纯净核心将会让节点调节器缓慢的将一个腐化节点变为普通节点然后进一步转化为纯净节点.它只会对普通或腐化节点产生效果,对普通节点,这个过程会花费3分钟;而对腐化节点,则需花费33分钟.需要注意的是,调制出的节点不一定会含有一般纯净节点的特有要素,但也会缓慢将周围的生物群系变为魔法森林.
 
 tc.research_name.TB.NodeFoci.Stability=节点调节核心:稳定
 tc.research_text.TB.NodeFoci.Stability=拯救濒临消失的节点
@@ -470,7 +470,7 @@ tb.rec.foci.stability.page.0=稳定核心将会让节点调节器缓慢恢复一
 
 tc.research_name.TB.NodeFoci.Taint=节点调节核心:污染
 tc.research_text.TB.NodeFoci.Taint=为什么让事情变得更糟了?
-tb.rec.foci.taint.page.0=污染核心将会让节点调节器缓慢的将一个节点变为污染节点.它只会对普通节点产生效果,而且这个过程会花费6分钟.需要注意的是,节点会缓慢吸收污染节点中需要的要素,而且也会缓慢将周围的生物群系变为诅咒之地.
+tb.rec.foci.taint.page.0=腐化核心将会让节点调节器缓慢的将一个节点变为腐化节点.它只会对普通节点产生效果,而且这个过程会花费6分钟.需要注意的是,节点会缓慢吸收腐化节点中需要的要素,而且也会缓慢将周围的生物群系变为诅咒之地.
 
 tc.research_name.TB.Enchantments=新的附魔!
 tc.research_text.TB.Enchantments=魔法重生!
@@ -479,7 +479,7 @@ tb.rec.enchantments.ewisdom=附魔了睿智的武器杀死生物时,有几率为
 tb.rec.enchantments.ebane=附魔了异域杀手的武器会对末影人和邪术生物造成更多伤害.
 tb.rec.enchantments.magictouch=附魔了魔法之触的武器杀死生物时会掉落更多的要素球.
 tb.rec.enchantments.vaporise=附魔了蒸发的武器杀死生物时,有几率掉落对应的晶化源质.
-tb.rec.enchantments.taint=附魔了污染的武器命中后会造成额外的污染伤害.它还会使目标获得污染debuff.但这种武器对已被污染的生物不太有效.
+tb.rec.enchantments.taint=附魔了腐化的武器命中后会造成额外的污染伤害.它还会使目标获得腐化debuff.但这种武器对已被腐化的生物不太有效.
 
 #1.1 researches
 tc.research_name.TB.EntityDecAdv=实体解构器升级
@@ -526,7 +526,7 @@ tc.research_name.TB.MagicTouch=附魔:魔法之触
 tc.research_text.TB.MagicTouch=用魔法触碰
 tc.research_name.TB.Vaporising=附魔:蒸发
 tc.research_text.TB.Vaporising=便携式晶化器
-tc.research_name.TB.Tainted=附魔:污染
+tc.research_name.TB.Tainted=附魔:腐化
 tc.research_text.TB.Tainted=毁灭大地!
 
 #Messages
@@ -591,7 +591,7 @@ revolverUpgrade.BANE_OF_ATROPODS.name=节肢杀手
 revolverUpgrade.BANE_OF_ELDRITCH.name=异域杀手
 revolverUpgrade.PIERCING.name=穿刺
 revolverUpgrade.DUELING.name=决斗
-revolverUpgrade.TAINTED.name=污染
+revolverUpgrade.TAINTED.name=腐化
 revolverUpgrade.PRIMAL.name=始源
 revolverUpgrade.SPEED.name=速度
 revolverUpgrade.EFFICIENCY.name=效率
@@ -643,7 +643,7 @@ tb.rec.revolver.hev.page.0=有时候神秘使会发现他的左轮枪消耗完�
 
 tc.research_name.TB.Revolver.Knowledge=左轮枪升级:睿智
 tc.research_text.TB.Revolver.Knowledge=吸收它们的脑...智慧.
-tb.rec.revolver.kno.page.0=你找到了一种方法将子弹与你的思想绑在一起.结果十分有趣...每一个被杀死的生物可能会让你灵感一现或者仅仅给你一个知识点.并且这不会让你的思想受到扭曲.<BR>最高等级:§6§l5§r§0<BR>不兼容附魔:§n始源§r,§0§n污染§r
+tb.rec.revolver.kno.page.0=你找到了一种方法将子弹与你的思想绑在一起.结果十分有趣...每一个被杀死的生物可能会让你灵感一现或者仅仅给你一个知识点.并且这不会让你的思想受到扭曲.<BR>最高等级:§6§l5§r§0<BR>不兼容附魔:§n始源§r,§0§n腐化§r
 
 tc.research_name.TB.Revolver.Piercing=左轮枪升级:穿刺
 tc.research_text.TB.Revolver.Piercing=.65口径!
@@ -655,7 +655,7 @@ tb.rec.revolver.pow.page.0=你已经发现了一种方法来改善你的左轮�
 
 tc.research_name.TB.Revolver.Primal=左轮枪升级:始源
 tc.research_text.TB.Revolver.Primal=什么是超越光速...
-tb.rec.revolver.primal.page.0=始源能量脉冲...如果将它与左轮枪融合起来会怎样呢?这个结果...十分有趣.你的左轮枪似乎从"射击"模式变成了"击中-扫描"模式.也就是说子弹会§o立即§r§0到达目标面前.子弹甚至得到了穿墙的能力,并且变得更加危险.但是每次射击需要的源质量也大大上升了,现在每次射击需要2点源质!<BR>最高等级:§6§l1§r§0<BR>不兼容附魔:§n睿智§r,§0§n污染§r
+tb.rec.revolver.primal.page.0=始源能量脉冲...如果将它与左轮枪融合起来会怎样呢?这个结果...十分有趣.你的左轮枪似乎从"射击"模式变成了"击中-扫描"模式.也就是说子弹会§o立即§r§0到达目标面前.子弹甚至得到了穿墙的能力,并且变得更加危险.但是每次射击需要的源质量也大大上升了,现在每次射击需要2点源质!<BR>最高等级:§6§l1§r§0<BR>不兼容附魔:§n睿智§r,§0§n腐化§r
 
 tc.research_name.TB.Revolver.Silver=左轮枪升级:银弹
 tc.research_text.TB.Revolver.Silver=只是一个狼人杀手.
@@ -665,9 +665,9 @@ tc.research_name.TB.Revolver.Speed=左轮枪升级:速度
 tc.research_text.TB.Revolver.Speed=它的射速为每分钟1000发!
 tb.rec.revolver.spe.page.0=你已经找到一种方法来增加子弹的飞行速度.这个升级每等级会提升一定量的子弹飞行速度.一定量是多少?怎么说明呢?你肯定没有一种可以测量子弹飞行速度的设备!<BR>最高等级:§6§l5§r§0<BR>不兼容附魔:§n效率§r,§0§n精准§r
 
-tc.research_name.TB.Revolver.Tainted=左轮枪升级:污染
+tc.research_name.TB.Revolver.Tainted=左轮枪升级:腐化
 tc.research_text.TB.Revolver.Tainted=它还活着!
-tb.rec.revolver.tai.page.0=将污染注入你的武器似乎不是一个好主意,但是你也尝试了.不论如何,这就是结果:这个升级会增加对所有除了污染生物的伤害,对污染生物的伤害会下降!子弹有一定概率会对击中的对象造成咒波毒性伤害!<BR>最高等级:§6§l3§r§0<BR>不兼容附魔:§n始源§r,§0§n睿智§r
+tb.rec.revolver.tai.page.0=将腐化注入你的武器似乎不是一个好主意,但是你也尝试了.不论如何,这就是结果:这个升级会增加对所有除了腐化生物的伤害,对腐化生物的伤害会下降!子弹有一定概率会对击中的对象造成咒波毒性伤害!<BR>最高等级:§6§l3§r§0<BR>不兼容附魔:§n始源§r,§0§n睿智§r
 
 tc.research_name.TB.Revolver.Void=左轮枪升级:虚空
 tc.research_text.TB.Revolver.Void=融合的子弹

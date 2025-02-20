@@ -1,6 +1,8 @@
 ##################################################
 ## Machines
 
+tile.machine.name=机器
+
 extratrees.machine.kitchen.bar=酒吧
 extratrees.machine.kitchen.bottleRack=瓶架
 
@@ -159,6 +161,7 @@ extratrees.block.tooltip.twoMaterials=%s - %s
 extratrees.block.door.name=%1$s木门
 
 < %1$s is name of wood used for door, %2$s is type of door >
+tile.door.name=木门
 extratrees.block.door.name.adv=%1$s%2$s木门
 extratrees.block.door.type.standard=
 extratrees.block.door.type.solid=坚固
@@ -166,19 +169,24 @@ extratrees.block.door.type.double=分离
 extratrees.block.door.type.full=完整
 
 < %1$s is name of the wood>
+tile.planks.name=木板
 extratrees.block.plank.name=%1$s木板
 extratrees.block.log.name=%1$s原木
+tile.slabs.name=木台阶
 extratrees.block.woodslab.name=%1$s台阶
+tile.stairs.name=楼梯
 extratrees.block.woodstairs.name=%1$s楼梯
 extratrees.block.woodfence.name=%1$s栅栏
 extratrees.block.woodgate.name=%1$s栅栏门
 
 < %1$s is the adjective for the fence type, %2$s is the name of the wood >
+tile.multifence.name=栅栏
 extratrees.block.multifence.name=%2$s %1$s 门
 < %3$s is the name of the second wood >
 extratrees.block.multifence.name2=%2$s %1$s & $3$s 门
 
 < %1$s is name of the design >
+tile.carpentry.name=木镶板/砖
 extratrees.block.woodentile.name=%1$s木砖
 extratrees.block.woodenpanel.name=%1$s镶板
 extratrees.block.stainedglass.name=%1$s染色玻璃
@@ -312,14 +320,18 @@ extratrees.genetics.unknown=<未知>
 extratrees.genetics.discoveredBy=由 %s 发现
 extratrees.genetics.complexity=复杂度：%d
 
-extratrees.item.carpentryHammer=木工大师锤
-extratrees.item.masterCarpentryHammer=木工锤
+item.hammer.name=木工锤
+extratrees.item.carpentryHammer=木工锤
+item.durableHammer.name=木工大师锤
+extratrees.item.masterCarpentryHammer=木工大师锤
+item.misc.name=资源
 extratrees.item.sawdust=锯末
 extratrees.item.bark=树皮
 extratrees.item.provenGear=标定齿轮
 extratrees.item.woodWax=光泽剂
 extratrees.item.glassFitting=玻璃配件
 
+item.food.name=水果
 for.extratrees.item.food.apple=苹果
 for.extratrees.item.food.crabapple=海棠果
 for.extratrees.item.food.orange=橙子
@@ -383,10 +395,12 @@ for.extratrees.item.food.mango=芒果
 for.extratrees.item.food.starfruit=杨桃
 for.extratrees.item.food.candlenut=石栗
 
+item.database.name=林业员数据库
 extratrees.item.database=林业员数据库
 extratrees.item.masterDatabase=林业员大师数据库
 extratrees.item.database.tooltip=内含关于 Sir. Sengir 的一切
 
+item.databaseMoth.name=鳞翅目昆虫学家数据库
 extratrees.item.mothDatabase=鳞翅目昆虫学家数据库
 extratrees.item.mothMasterDatabase=鳞翅目昆虫学大师数据库
 extratrees.item.mothDatabase.tooltip=Binnie 为所有鳞翅目昆虫学家留下的宝藏

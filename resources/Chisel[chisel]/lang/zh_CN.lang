@@ -27,6 +27,7 @@ item.cloudBottle.name=瓶装云朵
 item.cloudBottle.desc=右键丢出.可生成一大片云.
 item.smashingRock.name=碎石块
 item.smashingRock.desc=右键丢出.可使圆石变成砂砾;砂砾变为沙子.
+item.upgrade.name=升级
 item.upgrade_speed.name=速度升级组件
 item.upgrade_automation.name=自动化升级组件
 item.upgrade_stack.name=堆叠升级组件
@@ -138,7 +139,7 @@ tile.beacon.blue.desc=蓝色定向信标
 tile.beacon.brown.desc=棕色定向信标
 tile.beacon.cyan.desc=青色定向信标
 tile.beacon.green.desc=绿色定向信标
-tile.beacon.lightblue.desc=淡蓝定向信标
+tile.beacon.lightBlue.desc=淡蓝定向信标
 tile.beacon.silver.desc=淡灰定向信标
 tile.beacon.lime.desc=黄绿定向信标
 tile.beacon.magenta.desc=品红定向信标
@@ -254,13 +255,13 @@ tile.tallow.0.desc=光滑油脂方块
 tile.tallow.1.desc=赋魂油脂方块
 
 #Blood Rune
-tile.chisel.bloodRune.name=血符文石
-tile.bloodRune.0.desc=齐纹血符文石
-tile.bloodRune.1.desc=血符文砖块
-tile.bloodRune.2.desc=刻纹血符文石
-tile.bloodRune.3.desc=放射状刻纹血符文石
-tile.bloodRune.4.desc=古典式镶板血符文石
-tile.bloodRune.5.desc=方砖血符文石
+tile.chisel.bloodRune.name=气血符文石
+tile.bloodRune.0.desc=齐纹气血符文石
+tile.bloodRune.1.desc=气血符文砖块
+tile.bloodRune.2.desc=刻纹气血符文石
+tile.bloodRune.3.desc=放射状刻纹气血符文石
+tile.bloodRune.4.desc=古典式镶板气血符文石
+tile.bloodRune.5.desc=方砖气血符文石
 
 #Futura
 tile.chisel.futura.name=未来科技方块
@@ -949,6 +950,9 @@ tile.dirt.9.desc=水平花纹泥土
 tile.dirt.10.desc=垂直花纹泥土
 tile.dirt.11.desc=层状泥土
 tile.dirt.12.desc=碎裂泥土
+tile.dirt.13.desc=杂乱泥土
+tile.dirt.14.desc=瓦状泥土
+tile.dirt.15.desc=大块泥瓦
 
 #Ice
 tile.chisel.ice.name=冰
@@ -1891,3 +1895,6 @@ tile.froglight.6.desc=灰钛
 tile.froglight.7.desc=合成玉
 tile.froglight.8.desc=染血
 tile.froglight.9.desc=灵液
+
+tile.chisel.amber.name=琥珀块
+tile.chisel.bloodBrick.name=血石砖

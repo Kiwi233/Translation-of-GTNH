@@ -14,10 +14,12 @@ item.gt.advancedsensorcard.name=高级传感器卡片[GT]
 GT5U.autoplace.error.no_hatch=§c建议放置仓室 §4%s§c ,但未在库存中找到
 GT5U.autoplace.error.no_mte.id=§c建议放置meta-ID为 §4%s§c 的方块,但未在库存中找到
 GT5U.autoplace.error.no_mte.class_name=§c建议放置class名为 §4%d§c 的方块,但未在库存中找到
+GT5U.providesfullhazmatprotection=防化效果与单件防化服一致
 
 # Multiblock Tooltip Builder Keywords
-# Context can be found in the class gregtech.api.util.GT_Multiblock_Tooltip_Builder
+# Context can be found in the class gregtech.api.util.MultiblockTooltipBuilder
 GT5U.MBTT.MachineType=机器类型
+GT5U.MBTT.Parallels=一次至多处理%d个配方
 GT5U.MBTT.Dimensions=大小
 GT5U.MBTT.Hollow=(中空)
 GT5U.MBTT.Structure=结构
@@ -32,6 +34,7 @@ GT5U.MBTT.InputBus=输入总线
 GT5U.MBTT.InputHatch=输入仓
 GT5U.MBTT.OutputBus=输出总线
 GT5U.MBTT.OutputHatch=输出仓
+GT5U.MBTT.TecTechHatch=支持TecTech多A能源仓与激光仓!
 GT5U.MBTT.Causes=产生
 GT5U.MBTT.PPS=点/秒污染
 GT5U.MBTT.Hold=按住
@@ -39,6 +42,9 @@ GT5U.MBTT.Display=以显示结构指导
 GT5U.MBTT.StructureHint=多种可选方块或任意等级方块
 GT5U.MBTT.Mod=添加模组
 GT5U.MBTT.Air=必须留空
+GT5U.MBTT.Structure.Complex=结构太复杂了！
+GT5U.MBTT.Structure.SeeStructure1=请在主方块上使用
+GT5U.MBTT.Structure.SeeStructure2=全息投影，构建主体结构！
 
 GT5U.MBTT.subchannel=子信道 §6%s§r 将被用于 %s
 
@@ -98,6 +104,8 @@ GT5U.coil.UXV=海珀珍
 GT5U.coil.MAX=永恒
 
 GT5U.MS.multismelting=同时熔炼
+
+gt.casing.tiertooltip=外壳等级: %s
 
 # Machine types
 gt.recipe.alloysmelter=合金炉
@@ -159,7 +167,7 @@ gt.recipe.lathe=车床
 gt.recipe.lathe.description=更有效地生产杆
 gt.recipe.macerator=粉碎机
 gt.recipe.macerator.description=粉碎你的矿物
-gt.recipe.macerator_pulverizer=粉碎机/粉碎者
+gt.recipe.macerator_pulverizer=研磨机/粉碎机
 gt.recipe.macerator_pulverizer.description=粉碎你的矿物
 gt.recipe.uuamplifier=UU增幅液生产器
 gt.recipe.uuamplifier.description=提取UU增幅液体
@@ -359,6 +367,8 @@ GT5U.MULTI_MACHINE_CHANGE=当前运行模式：%s
 GT5U.MULTI_MACHINE_CONFIG.SAVE=保存多方块仓室配置
 GT5U.MULTI_MACHINE_CONFIG.LOAD=加载多方块仓室配置
 GT5U.MULTI_MACHINE_CONFIG.LOAD.FAIL=加载多方块仓室配置失败!
+GT5U.DEHP.mode.0=直出蒸汽
+GT5U.DEHP.mode.1=加热冷却液
 GT5U.machines.oreprocessor1=§e运行模式：
 GT5U.machines.oreprocessor2=§c时间：%s 秒
 GT5U.machines.oreprocessor.void=§e销毁石粉：%s
@@ -511,6 +521,7 @@ GT5U.gui.text.crash=§4崩溃导致机器关机
 GT5U.gui.text.no_fuel=§7未找到可用燃料
 GT5U.gui.text.no_turbine=§7未找到可用涡轮
 GT5U.gui.text.no_lubricant=§7未找到润滑油
+GT5U.gui.text.cycle_idle=§6等待周期开始
 GT5U.gui.text.fuel_quality_too_high=§7燃料质量太高,必须增压
 GT5U.gui.text.no_data_sticks=§7未找到闪存
 GT5U.gui.text.bio_upgrade_missing=§7启动合成需要生物仓升级
@@ -523,6 +534,7 @@ GT5U.gui.text.machine_mismatch=§7机器与锁定合成表不匹配
 GT5U.gui.text.high_gravity=§7需要低重力环境
 GT5U.gui.text.no_mining_pipe=§7缺少采矿管道
 GT5U.gui.text.drilling=§a钻探中
+GT5U.gui.text.circulating_fluid=§a循流液
 GT5U.gui.text.deploying_pipe=§a正在部署采矿管道
 GT5U.gui.text.extracting_pipe=§a管道部署中
 GT5U.gui.text.retracting_pipe=§a管道回收中
@@ -532,11 +544,10 @@ GT5U.gui.text.drill_generic_finished=§7采矿管道已回收
 GT5U.gui.text.drill_retract_pipes_finished=§7运行已中止
 GT5U.gui.text.backfiller_no_concrete=§7无混凝土
 GT5U.gui.text.no_black_hole=§7需要一个已激活的黑洞
-GT5U.gui.text.unstable_black_hole=§7黑洞是不稳定的
 GT5U.gui.text.backfiller_finished=§a工作完毕
 GT5U.gui.text.backfiller_working=§a混凝土浇筑中
 GT5U.gui.text.backfiller_current_area=§7正在回填Y轴：§a%s
-GT5U.gui.text.overheated=§7热等静压(HIP)装置过热!
+GT5U.gui.text.overheated=§7热等静压装置过热!
 GT5U.gui.text.pump_fluid_type=流体：§a%s
 GT5U.gui.text.pump_rate.1=泵速：%s§r
 GT5U.gui.text.pump_rate.2= L/t
@@ -604,6 +615,7 @@ GT5U.gui.config.machine_stats.machines=机器
 GT5U.gui.config.machine_stats.microwave_energy_transmitter=微波能量发射机
 GT5U.gui.config.machine_stats.mass_fabricator=质量发生器
 GT5U.gui.config.machine_stats.teleporter=传送机
+GT5U.gui.config.machine_stats.cleanroom=超净间
 GT5U.gui.config.worldgen=世界生成
 GT5U.gui.config.worldgen.end_asteroids=末地小行星
 GT5U.gui.config.worldgen.general=通用
@@ -624,13 +636,20 @@ GT5U.item.tank.locked_to=内容物已锁定为%s
 gt.behaviour.paintspray.infinite.gui.header=选择一种颜色
 gt.behaviour.paintspray.infinite.gui.lock_error=§e喷漆罐已被§锁定§e！§b潜行并鼠标中键单击以解锁。
 gt.behaviour.paintspray.infinite.gui.solvent=有机溶剂
+gt.behaviour.paintspray.infinite.gui.shake_toggle=允许/禁止颜色切换
 
 gt.behaviour.paintspray.infinite.tooltip.infinite=无限使用
 gt.behaviour.paintspray.infinite.tooltip.more_info=按住SHIFT查看详情
+gt.behaviour.paintspray.infinite.tooltip.locked=已锁定
+gt.behaviour.paintspray.infinite.tooltip.preventing_shake=左键点击已禁用
+
 gt.behaviour.paintspray.infinite.tooltip.switch=左键单击：切换颜色(潜行以反转切换方向)
 gt.behaviour.paintspray.infinite.tooltip.pick=中键单击方块：复制颜色至喷漆罐
 gt.behaviour.paintspray.infinite.tooltip.lock=潜行时中键单击：锁定或解锁喷漆罐
 gt.behaviour.paintspray.infinite.tooltip.gui=中键：打开颜色选择界面
+gt.behaviour.paintspray.infinite.tooltip.prevent_shake=%s-鼠标中键: 允许/阻止左键点击
+gt.behaviour.paintspray.infinite.tooltip.ctrl_pc=Ctrl
+gt.behaviour.paintspray.infinite.tooltip.ctrl_mac=Command
 
 GT5U.hatch.disableFilter.true=输入过滤：§c关闭§r
 GT5U.hatch.disableFilter.false=输入过滤：§a开启§r
@@ -657,7 +676,7 @@ GT5U.multiblock.efficiency=效率
 GT5U.multiblock.problems=问题
 GT5U.multiblock.mei=最大输入
 GT5U.multiblock.maxtier=最高级别
-GT5U.multiblock.usage=大概功率
+GT5U.multiblock.usage=当前功率
 GT5U.multiblock.parallelism=最大并行
 GT5U.multiblock.curparallelism=当前并行
 GT5U.multiblock.euModifier=EU调节器
@@ -763,10 +782,10 @@ GT5U.waila.cover.current_facing=当前朝向
 GT5U.waila.energy.stored=能量存储：§a%s§r EU / §e%s§r EU
 GT5U.waila.energy.avg_in_with_amperage=平均输入：§a%s§r EU/t (%sA %s)
 GT5U.waila.energy.avg_out_with_amperage=平均输出：§c%s§r EU/t (%sA %s)
-GT5U.waila.energy.use=可能耗电：§e%s§r EU/t (%s)
-GT5U.waila.energy.use_with_amperage=可能使用：§e%s§r EU/t (%sA %s)
-GT5U.waila.energy.produce=可能发电：§a%s§r EU/t (%s)
-GT5U.waila.energy.produce_with_amperage=可能发电：§a%s§r EU/t (%sA %s)
+GT5U.waila.energy.use=当前耗电：§e%s§r EU/t (%s)
+GT5U.waila.energy.use_with_amperage=当前耗电：§e%s§r EU/t (%sA %s)
+GT5U.waila.energy.produce=当前发电：§a%s§r EU/t (%s)
+GT5U.waila.energy.produce_with_amperage=当前发电：§a%s§r EU/t (%sA %s)
 GT5U.waila.stocking_bus.auto_pull.enabled=自动拉取模式：启用
 GT5U.waila.stocking_bus.auto_pull.disabled=自动拉取模式：关闭
 GT5U.waila.stocking_bus.min_stack_size=最小堆叠数量：%s
@@ -775,6 +794,9 @@ GT5U.waila.drone_downlink.noConnection=未连接
 GT5U.waila.drone_downlink.connection=连接到无人机控制中心
 GT5U.waila.drone_downlink.connectionCount=连接数量：
 GT5U.waila.drone_downlink.droneLevel=无人机等级：
+GT5U.waila.producing=生产中:
+GT5U.waila.producing.andmore=并且还有 %d 项...
+
 
 achievement.flintpick=第一把工具
 achievement.flintpick.desc=制造一把燧石镐
@@ -879,7 +901,7 @@ achievement.whereistheocean.desc=制造一个量子缸
 achievement.luck=真幸运
 achievement.luck.desc=在一个丛林神庙找到一个零点模块
 achievement.steel=钢铁
-achievement.steel.desc=在青铜高炉里制作钢铁
+achievement.steel.desc=在砖高炉里生产钢铁
 achievement.highpressure=高压
 achievement.highpressure.desc=制造一台高压锅炉
 achievement.extremepressure=超高压力
@@ -1145,7 +1167,7 @@ achievement.gt.metaitem.03.32120.desc=捡起此物品以在NEI内解锁该合成
 
 achievement.item.NanoCircuit=纳米电路
 achievement.item.NanoCircuit.desc=捡起此物品以在NEI内解锁该合成表
-achievement.item.PikoCircuit=Piko电路
+achievement.item.PikoCircuit=皮米电路
 achievement.item.PikoCircuit.desc=捡起此物品以在NEI内解锁该合成表
 achievement.item.QuantumCircuit=量子电路
 achievement.item.QuantumCircuit.desc=捡起此物品以在NEI内解锁该合成表
@@ -1457,9 +1479,9 @@ for.bees.species.nethershard=下界碎片
 for.bees.species.endshard=末影碎片
 for.bees.species.dragonblood=龙血
 
-for.description.machinist=机械女王,诞生于狂暴机械与炽烈火焰的交织之中.依赖于她所创造的基本组件,养蜂人帝国才得以建立和扩展.||Diddy & Noila
+for.description.machinist=机械女王,诞生于狂暴机械与炽烈火焰的交织之中.依赖于她所创造的基本组件,养蜂人帝国才得以建立和扩展.||Aditya & Noila
 
-for.bees.authority.machinist=Diddy & Noila
+for.bees.authority.machinist=Aditya & Noila
 
 for.mutation.condition.biomeid=需要生物群系
 for.mutation.condition.dim=需要维度(世界)
@@ -1692,8 +1714,8 @@ GTPP.multiblock.progress=进度
 GTPP.multiblock.efficiency=效率
 GTPP.multiblock.problems=维护问题
 GTPP.multiblock.mei=最大能量输入
-GTPP.multiblock.usage=NEI功率
-GTPP.multiblock.generation=可能生成
+GTPP.multiblock.usage=当前功率
+GTPP.multiblock.generation=当前发电
 GTPP.multiblock.specialvalue=特殊值
 GTPP.multiblock.duration=NEI时间
 GTPP.multiblock.multimachine.metal=模式:金属. 可充当压缩机(20号电路板),车床(21号电路板)或磁化机(22号电路板).
@@ -1701,7 +1723,7 @@ GTPP.multiblock.multimachine.fluid=模式: 流体. 可充当发酵槽(电路板2
 GTPP.multiblock.multimachine.misc=模式: 杂项. 可充当激光蚀刻机(电路板20), 高压釜(电路板21) 或流体固化器(电路板22).
 
 
-GTPP.waila.steam.use=可能消耗: §e%s§r L/t 蒸汽
+GTPP.waila.steam.use=当前消耗: §e%s§r L/t 蒸汽
 
 GTPP.CC.machinetier=控制核心等级
 GTPP.CC.discount=EU损耗
@@ -1745,7 +1767,7 @@ GTPP.container.decaychest.name=可衰变
 
 # NEI INFORMATION
 GTPP.nei.info=信息
-GTPP.nei.eutick=Eu/t
+GTPP.nei.eutick=EU/t
 GTPP.nei.timetaken=耗时
 GTPP.nei.output=输出
 GTPP.nei.input=输入

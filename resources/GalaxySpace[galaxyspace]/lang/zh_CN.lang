@@ -174,6 +174,7 @@ achievement.item.dysonSwarmModule.desc=捡起此物品以在NEI内解锁该合�
 
 menu.update=更新 [星空MOD]!
 
+tile.MercuryBlocks.name=水星岩石
 tile.MercuryGrunt.name=水星地表岩石
 tile.MercurySubGrunt.name=水星地底岩石
 tile.MercuryCore.name=水星石头
@@ -181,12 +182,14 @@ tile.MercuryLeadOre.name=水星铅矿石
 tile.MercuryIronOre.name=水星铁矿石
 tile.MercuryNickelOre.name=水星镍矿石
 
+tile.VenusBlocks.name=金星岩石
 tile.VenusGrunt.name=金星地表岩石
 tile.VenusSubGrunt.name=金星地底岩石
 tile.VenusSulfurOre.name=金星硫矿石
 tile.VenusDiamondOre.name=金星钻石矿石
 
 tile.LeadOre.name=铅矿石
+tile.MetalsBlocks.name=装饰金属块
 tile.DecoLead.name=装饰铅块
 tile.DecoAdamantite.name=装饰精金块
 tile.DecoCobaltum.name=装饰钴块
@@ -199,6 +202,7 @@ tile.DecoWolframium.name=装饰钨块
 tile.DecoCopper.name=装饰铜块
 
 tile.FutureGlass_None.name=未来玻璃
+tile.FutureGlasses.name=染色未来玻璃
 tile.FutureGlass_Black.name=黑色未来玻璃
 tile.FutureGlass_Red.name=红色未来玻璃
 tile.FutureGlass_Green.name=绿色未来玻璃
@@ -216,6 +220,7 @@ tile.FutureGlass_Magneta.name=品红色未来玻璃
 tile.FutureGlass_Orange.name=橙色未来玻璃
 tile.FutureGlass_White.name=白色未来玻璃
 
+tile.CeresBlocks.name=谷神星岩石
 tile.CeresGrunt.name=谷神星地表岩石
 tile.CeresSubGrunt.name=谷神星地底岩石
 tile.CeresGlowStone.name=谷神星萤石
@@ -225,31 +230,37 @@ tile.CeresWeb.name=谷神星网
 tile.CeresDungFloor.name=谷神星地牢地面
 tile.CeresDungTop.name=谷神星地牢天花板
 
-tile.PlutoGrunt.name=冥王星地表岩石
-tile.PlutoGrunt2.name=冥王星石头
-tile.PlutoGrunt3.name=冥王星石头
-tile.PlutoGrunt4.name=冥王星石头
-tile.PlutoSubGrunt.name=冥王星地底岩石
+tile.PlutoBlocks.name=冥王星岩石
+tile.PlutoGrunt.name=冥王星地表冰
+tile.PlutoGrunt2.name=冥王星地表冰
+tile.PlutoGrunt3.name=冥王星地表冰
+tile.PlutoGrunt4.name=冥王星地表冰
+tile.PlutoSubGrunt.name=冥王星地底冰
 tile.PlutoStone.name=冥王星石头
 tile.PlutoBricks.name=冥王星地牢砖
 tile.PlutoGlowStone.name=冥王星萤石
 
+tile.HaumeaBlocks.name=妊神星岩石
 tile.HaumeaGrunt.name=妊神星地表岩石
 
+tile.MakemakeBlocks.name=鸟神星岩石
 tile.MakemakeGrunt.name=鸟神星地表岩石
 tile.MakemakeSubGrunt.name=鸟神星地底岩石
 
+tile.PhobosRock.name=火卫一岩石
 tile.PhobosGrunt.name=火卫一地表岩石
 tile.PhobosSubGrunt.name=火卫一地表岩石
 tile.PhobosStone.name=火卫一石头
 tile.PhobosDeshOre.name=火卫一戴斯矿石
 tile.PhobosCobaltumOre.name=火卫一钴矿石
 
+tile.DeimosBlocks.name=火卫二岩石
 tile.DeimosGrunt.name=火卫二地表岩石
 tile.DeimosSubGrunt.name=火卫二地底岩石
 tile.DeimosOriharukonOre.name=火卫二奥利哈钢矿石
 tile.DeimosTinOre.name=火卫二锡矿石
 
+tile.IOBlocks.name=木卫一岩石
 tile.IOGrunt.name=木卫一地表岩石
 tile.IOStone.name=木卫一石头
 tile.IOAsh.name=木卫一灰烬
@@ -263,19 +274,23 @@ tile.IOSulfurOre.name=木卫一硫矿石
 tile.IODungTop.name=木卫一地牢天花板
 tile.IODungFloor.name=木卫一地牢地板
 
+tile.EuropaBlocks.name=木卫二岩石
 tile.EuropaGrunt.name=木卫二表面方块
 tile.EuropaIce.name=木卫二冰
 tile.EuropaGeyzer.name=木卫二间歇泉
 tile.EuropaUnderwaterGeyser.name=木卫二水下喷泉
 
+tile.GanymedeBlocks.name=木卫三岩石
 tile.GanymedeGrunt.name=木卫三地表岩石
 tile.GanymedeSubGrunt.name=木卫三地底岩石
 tile.GanymedeMagnesiumOre.name=木卫三镁矿石
 tile.GanymedeTitanuimOre.name=木卫三钛铁矿石
 
+tile.CallistoBlocks.name=木卫四岩石
 tile.CallistoGrunt.name=木卫四地表岩石
 tile.CallistoSubGrunt.name=木卫四地底岩石
 
+tile.EnceladusBlocks.name=土卫二岩石
 tile.EnceladusSnow.name=土卫二雪
 tile.EnceladusGrunt.name=土卫二地底岩石
 tile.EnceladusBricks.name=土卫二地牢砖
@@ -289,17 +304,20 @@ tile.T6Chest.name=5阶宝箱
 tile.T7Chest.name=6阶宝箱
 tile.T8Chest.name=7阶宝箱
 
+tile.TitanBlocks.name=土卫六岩石
 tile.TitanGrunt.name=土卫六地表岩石
 tile.TitanSubGrunt.name=土卫六地底岩石
 tile.TitanStone.name=土卫六石头
 tile.Methane.name=土卫六液态甲烷
 tile.NuclearFuel.name=生物燃料
 
+tile.MirandaBlocks.name=天卫五岩石
 tile.MirandaGrunt.name=天卫五地表岩石
 tile.MirandaSubGrunt.name=天卫五地底岩石
 tile.MirandaStone.name=天卫五石头
 tile.MirandaIronOre.name=天卫五铁矿石
 
+tile.OberonBlocks.name=天卫四岩石
 tile.OberonGrunt.name=天卫四地表岩石
 tile.OberonSubGrunt.name=天卫四地底岩石
 tile.OberonStone.name=天卫四石头
@@ -313,6 +331,7 @@ tile.ProteusGlowStone.name=海卫八萤石
 tile.ProteusWolframiumOre.name=海卫八钨矿石
 tile.ProteusPlatinumOre.name=海卫八铂矿石
 
+tile.TritonBlocks.name=海卫一岩石
 tile.TritonGrunt.name=海卫一地表岩石
 tile.TritonSubGrunt.name=海卫一地底岩石
 tile.TritonStone.name=海卫一石头
@@ -323,10 +342,13 @@ tile.ACentauriBbSubGrunt.name=半人马Bb地底岩石
 
 tile.Barnarda2Grass.name=巴纳德C草方块
 tile.Barnarda2Dirt.name=巴纳德C泥土
+tile.Barnarda2Reed.name=巴纳德C蒲公英
+tile.Barnarda2Dandelions.name=巴纳德C蒲公英
 tile.Barnarda2Dandelions.Dandelion1.name=巴纳德C蒲公英
 tile.Barnarda2Dandelions.Dandelion2.name=巴纳德C蒲公英
 tile.Barnarda2Dandelion3.name=巴纳德C蒲公英
 tile.Barnarda2Log.name=巴纳德C树木
+tile.Barnarda2Planks.name=巴纳德C树木木板
 tile.Barnarda2PlanksOak.name=巴纳德C树木木板
 tile.Sapling_1.name=巴纳德C树苗
 tile.Leaves_1.name=巴纳德C树叶
@@ -344,9 +366,11 @@ tile.Barnarda2Reed.Reed2.name=巴纳德C饱满的蒲公英
 tile.VegaBGrunt.name=织女一B地表岩石
 tile.VegaBSubGrunt.name=织女一B地底岩石
 
+tile.TCetiEBlocks.name=鲸鱼座T星E
 tile.TCetiEGrunt.name=鲸鱼座T星E地表岩石
 tile.TCetiESubGrunt.name=鲸鱼座T星E地底岩石
 tile.TCetiEStone.name=鲸鱼座T星E岩石
+tile.TCetiEBlockDandelions.name=鲸鱼座T星E藻类
 tile.TCetiEBlockDandelions.TCetiEDandelion1.name=鲸鱼座T星E藻类
 tile.TCetiEBlockDandelions.TCetiEDandelion2.name=鲸鱼座T星E藻类
 tile.TCetiEBlockDandelions.TCetiEDandelion3.name=鲸鱼座T星E藻类
@@ -376,8 +400,10 @@ tile.SolarWindPanel.desc=它将太阳风转换成能量。在行星的大气层�
 tile.ConverterSurface.name=草方块制造机
 tile.ConverterSurface.desc=制造草方块。改造星球时一种实用的机器。
 tile.MachineFrame.name=改良的机械框架
+tile.StorageModuleT3.0.name=改良的储能簇
 tile.StorageModuleT3_4.name=改良的储能簇
 tile.StorageModule.desc=能量簇的改良版本，能储存巨大的能量。
+tile.OxygenStorageModuleT2.0.name=改良的储氧模块
 tile.OxygenStorageModuleT2_4.name=改良的储氧模块
 tile.OxygenStorageModule.desc=改良版本的储氧模块。
 tile.SolarPanel.name=混合太阳能板
@@ -402,10 +428,15 @@ item.Tier6Key.name=5阶宝箱钥匙
 item.Tier7Key.name=6阶宝箱钥匙
 item.Tier8Key.name=7阶宝箱钥匙
 
+item.Tier4Rocket.name=4阶火箭
 item.Tier4Rocket.t4Rocket.name=4阶火箭
+item.Tier5Rocket.name=5阶火箭
 item.Tier5Rocket.t5Rocket.name=5阶火箭
+item.Tier6Rocket.name=6阶火箭
 item.Tier6Rocket.t6Rocket.name=6阶火箭 
+item.Tier7Rocket.name=7阶火箭
 item.Tier7Rocket.t7Rocket.name=7阶火箭
+item.Tier8Rocket.name=8阶火箭
 item.Tier8Rocket.t8Rocket.name=8阶火箭
 
 item.HeavyDutyPlate4.name=重型板
@@ -438,6 +469,7 @@ item.spacesuit_helmetglasses.name=宇航服传感器眼镜
 item.spacesuit_jetplate.name=宇航服喷气背包
 item.spacesuit_gravityboots.name=宇航服重力靴子
 
+item.Ingots.name=金属锭
 item.LeadIngot.name=铅锭
 item.DuraluminIngot.name=杜拉铝锭
 item.NickelIngot.name=镍锭
@@ -449,6 +481,7 @@ item.AdamantiteIngot.name=精金锭
 item.MithrilIngot.name=秘银锭
 item.OriharukonIngot.name=奥利哈钢锭
 
+item.CompressedPlates.name=致密金属板
 item.CompressedLead.name=致密铅板
 item.CompressedDuralumin.name=致密杜拉铝板
 item.CompressedNickel.name=致密镍板
@@ -472,10 +505,12 @@ item.ModuleLander.name=1阶登陆舱
 item.ModuleLander2.name=2阶登陆舱
 item.ModuleLander3.name=3阶登陆舱
 item.ThermalClothT2.name=热力布匹
+item.ThermalPaddingT2.name=热力套装(T2)部件
 item.thermalHelmT2.name=热力充能头盔
 item.thermalChestplateT2.name=热力充能胸甲
 item.thermalLeggingsT2.name=热力充能护腿
 item.thermalBootsT2.name=热力充能靴
+item.RocketParts.name=火箭组件
 item.RocketConeT2.name=2阶耐久鼻锥
 item.RocketEngineT2.name=2阶耐久火箭引擎
 item.RocketBoosterT2.name=2阶耐久助推器
@@ -493,6 +528,7 @@ item.TaHfNanoparticles.name=碳化钽铪纳米颗粒
 item.NtNanoparticles.name=中子纳米颗粒
 item.nanotubeSpool.name=纳米管卷轴
 
+item.RocketControlComputer.name=火箭控制电脑
 item.computerTier1.name=1阶火箭控制电脑
 item.computerTier2.name=2阶火箭控制电脑
 item.computerTier3.name=3阶火箭控制电脑
@@ -506,13 +542,17 @@ item.computerBuggy.name=月球车控制电脑
 item.computerMiner.name=太空采矿机控制电脑
 item.RobotArm.name=多用途机械臂
 
+item.ItemBioFuelCanister.name=生物燃料罐
 item.biofuelCanister.name=生物燃料罐
 
+item.GlowstoneDusts.name=萤石粉
 item.CeresGlowstoneDust.name=谷神星萤石粉
 item.IoGlowstoneDust.name=木卫一萤石粉
 item.EnceladusGlowstoneDust.name=土卫二萤石粉
 item.ProteusGlowstoneDust.name=海卫八萤石粉
 item.PlutoGlowstoneDust.name=冥王星萤石粉
+
+item.Icon.name=图标
 
 potion.radiation=恒星辐射
 

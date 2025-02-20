@@ -1,9 +1,13 @@
 botany.tab.botany=Binnie|花卉
 
+tile.stained.name=染色玻璃
 botany.pigmentedGlass=染色玻璃
+tile.ceramic.name=陶瓷块
 botany.ceramicBlock=陶瓷块
+tile.ceramicBrick.name=瓷砖
 botany.ceramicTile=瓷砖
 botany.ceramicBricks=陶瓷砖块
+tile.ceramicPattern.name=陶瓷块
 botany.strippedCeramicBricks=条纹陶瓷砖块
 botany.largeCeramicBricks=大型瓷砖
 botany.splitCeramicTile=匀称瓷砖
@@ -130,14 +134,21 @@ botany.moisture.dry=干燥
 botany.moisture.normal=普通
 botany.moisture.damp=潮湿
 
+tile.plant.name=植物
 botany.plant.weeds=杂草
 botany.plant.longWeeds=长的杂草
 botany.plant.veryLongWeeds=非常长的杂草
 botany.plant.deadFlower=死花
 botany.plant.decayingFlower=凋谢的花
 
+tile.soil.name=土壤
+tile.soilNoWeed.name=土壤
 botany.soil.soil=普通花土
+tile.loam.name=肥沃花土
+tile.loamNoWeed.name=肥沃花土
 botany.soil.loam=肥沃花土
+tile.flowerbed.name=花床
+tile.flowerbedNoWeed.name=花床
 botany.soil.flowerbed=花床
 botany.soil.weedkiller=除草剂
 
@@ -158,15 +169,20 @@ botany.item.tooltip.fertility=肥沃度: %dx
 botany.item.tooltip.flowerColor1=花茎：%1$s、%2$s
 botany.item.tooltip.flowerColor2=花茎：%1$s、%2$s和%3$s
 
+item.soilMeter.name=土壤检测计
 botany.item.soilMeter.name=土壤检测计
+item.pigment.name=颜料
 botany.item.pigment.name=颜料
 botany.item.clay.name=粘土
 botany.item.botany.name=%1$s %2$s
+item.pollen.name=花粉
 botany.item.pollen.tag.name=花粉
 botany.item.germling.tag.name=幼苗
 botany.item.flowerCorrupted.name=腐烂的花
+item.database.name=园丁数据库
 botany.item.database.0.name=园丁数据库
 botany.item.database.1.name=园艺大师数据库
+item.misc.name=粉
 botany.item.powderAsh.name=灰烬粉
 botany.item.powderPulp.name=木浆粉
 botany.item.powderMulch.name=覆盖物粉
@@ -182,6 +198,7 @@ item.trowelIron.name=铁质泥铲
 item.trowelGold.name=金质泥铲
 item.trowelDiamond.name=钻石泥铲
 
+item.itemFlower.name=花
 botany.flower.name=花
 botany.flower.dandelion=蒲公英
 botany.flower.poppy=虞美人
@@ -365,6 +382,7 @@ for.binnie.circuit.garden.damp.acid=花土(潮湿，酸性)
 for.binnie.circuit.garden.damp.neutral=花土(潮湿，中性)
 for.binnie.circuit.garden.damp.alkaline=花土(潮湿，碱性)
 
+item.insulatedTube.name=恒温管
 botany.tube.name=恒温管
 botany.tube.copper=铜
 botany.tube.tin=锡
@@ -456,3 +474,5 @@ botany.gui.database.tab.breeder=杂交路线
 
 botany.gui.database.tab.colour.resultant=导向混色
 botany.gui.database.tab.colour.further=次代混色
+
+item.seed.name=种子
