@@ -19,6 +19,7 @@ item.enderio.itemEnderface.name=末影面板
 
 #Conduits
 enderio.blockConduitBundle=导管接口
+tile.blockConduitFacade.name=导管框架
 enderio.blockConduitFacade=导管框架
 item.enderio.itemConduitFacade.name=导管框架
 item.enderio.itemConduitFacade.hardened.name=硬化导管框架
@@ -29,10 +30,12 @@ item.enderio.itemConduitFacade.tooltip.detailed.line3=当手里拿着一个扳�
 item.enderio.itemConduitFacade.tooltip.detailed.line4=导管框架隐藏
 item.enderio.itemConduitFacade.hardened.tooltip=硬化: 抵抗破坏以及爆炸
 
+item.itemPowerConduit.name=能量导管
 enderio.itemPowerConduit.name=能量导管
 enderio.itemPowerConduitEnhanced.name=强化能量导管
 enderio.itemPowerConduitEnder.name=末影能量导管
 
+item.itemPowerConduitEndergy.name=能量导管
 enderio.itemPowerConduitEndergyCrude.name=复合粘土能量导管
 enderio.itemPowerConduitEndergyIron.name=铁制能量导管
 enderio.itemPowerConduitEndergyAluminum.name=铝制能量导管
@@ -46,10 +49,12 @@ enderio.itemPowerConduitEndergyCrystallinePinkSlime.name=晶化粉红史莱姆�
 enderio.itemPowerConduitEndergyMelodic.name=旋律合金能量导管
 enderio.itemPowerConduitEndergyStellar.name=恒星合金能量导管
 
+item.itemRedstoneConduit.name=红石导管
 enderio.itemRedstoneConduit.name=红石导管
 enderio.itemRedstoneConduitSwitch.name=导管开关
 enderio.itemRedstoneConduitInsulated.name=绝缘红石导管
 
+item.itemLiquidConduit.name=流体导管
 enderio.itemLiquidConduit.name=流体导管
 enderio.itemLiquidConduitAdvanced.name=高压流体导管
 enderio.itemLiquidConduitEnder.name=末影流体导管
@@ -71,10 +76,13 @@ enderio.itemLiquidConduitEnder.tooltip.detailed.line1=流体即时远距离传�
 enderio.itemLiquidConduitEnder.tooltip.detailed.line2=允许多种流体
 enderio.itemLiquidConduitEnder.tooltip.detailed.line3=同时被传送
 
+item.itemItemConduit.name=物品导管
 enderio.itemItemConduit.name=物品导管
 
+item.itemBasicFilterUpgrade.name=物品过滤
 enderio.filterUpgradeBasic.name=基础物品过滤器
 enderio.filterUpgradeAdvanced.name=高级物品过滤器
+item.itemBigFilterUpgrade.name=大型物品过滤器
 enderio.filterUpgradeBig.name=大型物品过滤器
 enderio.filterUpgradeBigAdvanced.name=高级大型物品过滤器
 enderio.itemConduitFilterUpgrade=物品导管升级
@@ -119,6 +127,7 @@ item.itemExtractSpeedDowngrade.tooltip.basic.line1=给物品导管使用的降�
 item.itemExtractSpeedDowngrade.tooltip.detailed.line1=将每次提取的速度
 item.itemExtractSpeedDowngrade.tooltip.detailed.line2=减至1
 
+item.itemFunctionUpgrade.name=远程接入升级
 item.itemInventoryPanelUpgrade.name=远程接入升级
 item.itemInventoryPanelUpgrade.tooltip.basic.line1=存储控制面板远程接入升级
 item.itemInventoryPanelUpgrade.tooltip.detailed.line1=给物品导管使用的功能升级
@@ -134,11 +143,13 @@ enderio.itemGasConduit.tooltip.maxExtract=最大提取:
 enderio.itemGasConduit.tooltip.maxIo=最大IO:
 enderio.itemGasConduit.tooltip.detailed.line1=传送和通用机械兼容的气体
 
+item.itemMEConduit.name=ME导管
 enderio.itemMEConduit.name=ME导管
 enderio.itemMEConduitDense.name=致密ME导管
 enderio.itemMEConduitDenseUltra.name=超密ME导管
 enderio.itemMEConduit.channelsUsed=第{0,number}频道, 共{1,number}频道
 
+item.itemOCConduit.name=网络导管(OC)
 enderio.itemOCConduit.name=网络导管(OC)
 
 #Entity
@@ -146,6 +157,7 @@ entity.witherSkeleton.name=凋灵骷髅
 
 #Materials
 enderio.itemMaterial.name=材料
+item.itemMaterial.name=材料
 enderio.silicon.name=硅
 enderio.conduitBinder.name=导管粘合剂
 enderio.binderComposite.name=粘合胚料
@@ -222,6 +234,7 @@ enderio.gas.gasTick=气体每t
 
 #Materials
 enderio.itemMachinePart.name=机器零件
+item.itemMachinePart.name=机械零件
 enderio.machineChassi.name=机器框架
 enderio.basicGear.name=基础齿轮
 enderio.soulMachineChassi.name=灵魂机器框架
@@ -232,6 +245,7 @@ enderio.enderCrystal.name=末影晶体
 enderio.attractorCrystal.name=诱引晶体
 enderio.weatherCrystal.name=天气晶体
 
+item.itemGrindingBall.name=磨球
 enderio.darkGrindingBall.name=玄钢磨球
 enderio.electricalGrindingBall.name=磁钢磨球
 enderio.energeticGrindingBall.name=充能合金磨球
@@ -265,6 +279,7 @@ enderio.itemPowderIngot=粉和粒
 
 #Alloys
 enderio.itemAlloy.name=合金锭
+item.itemAlloy.name=合金
 enderio.electricalSteel.name=磁钢锭
 enderio.energeticAlloy.name=充能合金锭
 enderio.phasedGold.name=脉冲合金锭
@@ -277,6 +292,7 @@ enderio.soularium.name=魂金锭
 enderio.endSteel.name=末影钢锭
 enderio.endSteelNugget.name=末影钢粒
 
+item.itemAlloyEndergy.name=合金
 enderio.crudeSteel.name=复合粘土
 enderio.crystallineAlloy.name=晶化合金
 enderio.melodicAlloy.name=旋律合金
@@ -285,6 +301,7 @@ enderio.crystallinePinkSlime.name=晶化粉红史莱姆
 enderio.energeticSilver.name=充能银
 enderio.vividAlloy.name=生动合金
 
+item.itemGrindingBallEndergy.name=磨球
 enderio.crudeSteelGrindingBall.name=复合粘土磨球
 enderio.crystallineAlloyGrindingBall.name=晶化合金磨球
 enderio.melodicAlloyGrindingBall.name=旋律合金磨球
@@ -323,6 +340,7 @@ tile.enderio.darkSteel.name=玄钢块
 tile.enderio.soularium.name=魂金块
 tile.enderio.endSteel.name=末影钢块
 
+tile.blockIngotStorageEndergy.name=合金块
 tile.enderio.crudeSteel.name=复合粘土块
 tile.enderio.crystallineAlloy.name=晶化合金块
 tile.enderio.melodicAlloy.name=旋律合金块
@@ -332,6 +350,7 @@ tile.enderio.energeticSilver.name=充能银块
 tile.enderio.vividAlloy.name=生动合金块
 
 #Powder / Ingot
+item.itemPowderIngot.name=粉
 enderio.powderCoal.name=煤粉
 enderio.powderIron.name=铁粉
 enderio.powderGold.name=金粉
@@ -343,6 +362,7 @@ enderio.ingotEnderiumBase.name=末影锭粗胚
 
 #Capacitors
 enderio.itemBasicCapacitor.name=电容
+item.itemBasicCapacitor.name=电容
 enderio.basicCapacitor.name=基础电容
 enderio.activatedCapacitor.name=双层电容
 enderio.enderCapacitor.name=八位电容
@@ -391,6 +411,7 @@ enderio.maxSolorProduction=最大输出
 enderio.tooltip.efficiency=效率
 enderio.tooltip.sunlightBlocked=天空被挡住了!
 
+tile.blockElectricLight.name=电灯
 item.itemElectricLight.name=电灯
 item.itemElectricLight.tooltip.detailed.line1=当提供能量与红石信
 item.itemElectricLight.tooltip.detailed.line2=号时能照亮大片区域
@@ -407,6 +428,8 @@ item.itemLight.tooltip.detailed.line2=能提供照明
 item.itemLightInverted.name=灯(反相)
 item.itemLightInverted.tooltip.detailed.line1=能提供照明
 item.itemLightInverted.tooltip.detailed.line2=有红石信号时熄灭
+
+tile.blockLightNode.name=明亮节点
 
 item.itemWirelessLight.name=无线灯
 item.itemWirelessLight.tooltip.detailed.line1=提供能量和红石信号
@@ -425,6 +448,7 @@ tile.blockCapacitorBank.tooltip.detailed.line1=多方块能量存储.
 tile.blockCapacitorBank.tooltip.detailed.line2=可以给使用RF能量的物品充能.
 tile.blockCapacitorBank.tooltipPrefix=包含
 
+tile.blockCapBank.name=电容库
 tile.blockCapBank.creative.name=创造模式电容库
 tile.blockCapBank.simple.name=基础电容库
 tile.blockCapBank.activated.name=电容库
@@ -541,7 +565,7 @@ tile.blockFarmStation.name=种植站
 tile.blockFarmStation.tooltip.detailed.line1=种植与收割作物
 tile.blockFarmStation.tooltip.detailed.line2=需要能量与
 tile.blockFarmStation.tooltip.detailed.line3=合适的工具 (锄, 斧)
-tile.blockFarmStation.tooltip.detailed.line4=工具上的掠夺 / 时运
+tile.blockFarmStation.tooltip.detailed.line4=工具上的抢夺 / 时运
 tile.blockFarmStation.tooltip.detailed.line5=效果在收割时仍然有效
 tile.blockFarmStation.tooltip.detailed.line6=使用电容器升级可
 tile.blockFarmStation.tooltip.detailed.line7=增加范围与能量消耗
@@ -622,6 +646,7 @@ tile.blockWeatherObelisk.tooltip.detailed.line1=改变当前天气
 tile.blockWeatherObelisk.tooltip.detailed.line2=需要大量能量
 tile.blockWeatherObelisk.tooltip.detailed.line3=和催化物品
 
+tile.blockBuffer.name=缓冲
 tile.blockBuffer.item.name=物品缓存器
 tile.blockBuffer.power.name=能量缓存器
 tile.blockBuffer.omni.name=多功能缓存器
@@ -696,6 +721,7 @@ tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line2=可在喷涂机�
 tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line3=当使用纯净玻璃喷涂时,
 tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line4=无声玄钢压力板能隐形
 
+tile.blockDarkSteelAnvil.name=玄钢砧
 tile.blockDarkSteelAnvil.intact.name=玄钢砧
 tile.blockDarkSteelAnvil.slightlyDamaged.name=轻微破损的玄钢砧
 tile.blockDarkSteelAnvil.veryDamaged.name=严重破损的玄钢砧
@@ -759,6 +785,7 @@ tile.blockPaintedFenceGate.name=喷涂门
 tile.blockPaintedWall.name=喷涂墙
 tile.blockPaintedStair.name=喷涂楼梯
 tile.blockPaintedSlab.name=喷涂台阶
+tile.blockPaintedSlabDouble.name=喷涂台阶
 tile.blockPaintedDoubleSlab.name=喷涂台阶
 tile.blockPaintedGlowstone.name=喷涂萤石
 tile.blockPaintedCarpet.name=喷涂地毯
@@ -810,6 +837,7 @@ item.itemXpTransfer.tooltip.detailed.line2=流体箱获取经验
 item.itemXpTransfer.tooltip.detailed.line3=Shift右击将经验
 item.itemXpTransfer.tooltip.detailed.line4=灌入其中
 
+item.itemFrankenSkull.name=僵尸电极
 skullZombieElectrode.name=僵尸电极
 skullZombieController.name=Z-逻辑控制器
 skullZombieFrankenstien.name=人造僵尸

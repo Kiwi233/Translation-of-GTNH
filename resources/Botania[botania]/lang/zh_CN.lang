@@ -725,7 +725,7 @@ tile.botania:alchemyCatalyst.name=炼金催化器
 tile.botania:openCrate0.name=花格箱
 tile.botania:openCrate1.name=机巧箱
 tile.botania:forestEye.name=远古之眼
-tile.botania:storage0.name=魔钢块
+tile.botania:storage0.name=魔力钢块
 tile.botania:storage1.name=泰拉钢块
 tile.botania:storage2.name=源质钢块
 tile.botania:storage3.name=魔力钻石块
@@ -1240,7 +1240,7 @@ tile.botania:flower.manastar.reference=繁星下许愿
 # - GENERATING
 tile.botania:flower.daybloom.name=太阳花
 tile.botania:flower.daybloom.reference=刺眼的光
-tile.botania:flower.daybloomDecor.name=小太阳花
+tile.botania:flower.daybloomDecor.name=装饰太阳花
 tile.botania:flower.daybloomDecor.reference=刺眼的光
 tile.botania:flower.daybloomPrime.name=始祖太阳花
 tile.botania:flower.daybloomPrime.reference=你不应该拥有这个
@@ -1248,7 +1248,7 @@ tile.botania:flower.endoflame.name=火红莲
 tile.botania:flower.endoflame.reference=延迟发射
 tile.botania:flower.hydroangeas.name=水绣球
 tile.botania:flower.hydroangeas.reference=友好的甲壳类动物
-tile.botania:flower.hydroangeasDecor.name=水绣球
+tile.botania:flower.hydroangeasDecor.name=装饰水绣球
 tile.botania:flower.hydroangeasDecor.reference=友好的甲壳类动物
 tile.botania:flower.thermalily.name=炽玫瑰
 tile.botania:flower.thermalily.reference=如此鲜红的玫瑰
@@ -1256,7 +1256,7 @@ tile.botania:flower.nightshade.name=夜颠茄
 tile.botania:flower.nightshade.reference=可怕的样子
 tile.botania:flower.nightshadePrime.name=始祖夜颠茄
 tile.botania:flower.nightshadePrime.reference=你不应该拥有这个
-tile.botania:flower.nightshadeDecor.name=夜颠茄
+tile.botania:flower.nightshadeDecor.name=装饰夜颠茄
 tile.botania:flower.nightshadeDecor.reference=可怕的样子
 tile.botania:flower.arcanerose.name=阿卡纳蔷薇
 tile.botania:flower.arcanerose.reference=角落里的经验球
@@ -1383,7 +1383,7 @@ item.botania:dye14.name=红色花粉
 item.botania:dye15.name=黑色花粉
 item.botania:pestleAndMortar.name=杵和臼
 item.botania:twigWand.name=森林法杖
-item.botania:manasteel.name=魔钢锭
+item.botania:manasteel.name=魔力钢锭
 item.botania:manaPearl.name=魔力珍珠
 item.botania:manaDiamond.name=魔力钻石
 item.botania:lensNormal.name=魔力透镜
@@ -1652,7 +1652,7 @@ item.botania:recordGaia2.name=破损的唱片
 item.botania:temperanceStone.name=节制之石
 item.botania:incenseStick.name=熏香
 item.botania:terraAxe.name=泰拉断裂者
-item.botania:manasteelNugget.name=魔钢粒
+item.botania:manasteelNugget.name=魔力钢粒
 item.botania:terrasteelNugget.name=泰拉钢粒
 item.botania:elementiumNugget.name=源质钢粒
 item.botania:root.name=活根
@@ -2166,7 +2166,7 @@ botania.page.pool10=制作&1稀释魔力池&0.
 botania.page.pool14=&1稀释魔力池&0可以作为一个有 用的缓存,特别是那些不太消 耗的&4魔力&0的功能花或系统,因 为普通的魔力池容量实在是 太大了.令人高兴不已的是, 在普通魔力池中&4魔力&0消耗的 度数并不是那么准确,因为容 量太大,它们在显示消耗魔力 区别时不是那么明显
 botania.page.pool2=将一些材料投入普通的&1魔力&0 &1池&0会使它们被注入&4魔力&0,将其 变为更富能量的形式.<br>比如&1铁锭&0和&1神秘花瓣&0.<br>该方块的&4魔力&0同&1魔力发射器&0 .&1红石比较器&0也能根据其中的 魔力量输出信号.
 botania.page.pool8=为了美观,也可以投入任意颜 色的&1花粉&0来给池子染色,全部 的十六种颜色都是可用的.
-botania.page.pool3=制作&1魔钢&0
+botania.page.pool3=制作&1魔力钢&0
 botania.page.pool4=制作&1魔力珍珠&0
 botania.page.pool5=制作&1魔力钻石&0
 botania.page.pool6=制作&1魔力花瓣&0
@@ -2929,9 +2929,9 @@ botania.page.terraformRod2=注意被它移除的方块是不可 修复的.地形
 botania.page.terraformRod3=这就是审判
 
 # -- MANASTEEL EQUIPMENT
-botania.entry.manaGear=魔钢装备
+botania.entry.manaGear=魔力钢装备
 botania.tagline.manaGear=用魔力自我维护的铁制工具
-botania.page.manaGear0=&1魔钢&0,和其他金属一样,能做 成类似的工具和护甲.<br>这种金属制作的工具和护甲 会保有&1铁&0的性能,但附魔能力 和耐久度优越.当&1魔钢&0制品受 损时,如果物品栏中有可用的 &4魔力&0(比如&1魔力石板&0),就会优 先消耗魔力.
+botania.page.manaGear0=&1魔力钢&0,和其他金属一样,能做 成类似的工具和护甲.<br>这种金属制作的工具和护甲 会保有&1铁&0的性能,但附魔能力 和耐久度优越.当&1魔力钢&0制品受 损时,如果物品栏中有可用的 &4魔力&0(比如&1魔力石板&0),就会优 先消耗魔力.
 botania.page.manaGear10=部分工具在右击时有特殊功 能.&1镐子&0会将背包中的火把放 置下来,&1斧子&0则会以同样的方 式种下树苗,&1铲子&0会像锄头一 样耕地.<br>要注意的是不同于铁剪刀,魔 力材料制作的&1剪刀&0会触发绊 线.
 botania.page.manaGear1=&1魔钢镐&0
 botania.page.manaGear2=&1魔钢铲&0
@@ -2954,7 +2954,7 @@ botania.page.grassHorn3=改造为破坏&1雪&0
 # -- TERRASTEEL ARMOR
 botania.entry.terrasteelArmor=泰拉钢护甲
 botania.tagline.terrasteelArmor=钻石级的魔钢装
-botania.page.terrasteelArmor0=由&1泰拉钢&0制成的护甲,与&1魔钢&0 制成的相似,会消耗物品栏中 的&4魔力&0抵消磨损.<br>然而这套护甲,有着&1钻石&0级别 的性能而不是&1铁&0的,并且穿戴 时会增加穿着者的生命值.
+botania.page.terrasteelArmor0=由&1泰拉钢&0制成的护甲,与&1魔力钢&0 制成的相似,会消耗物品栏中 的&4魔力&0抵消磨损.<br>然而这套护甲,有着&1钻石&0级别 的性能而不是&1铁&0的,并且穿戴 时会增加穿着者的生命值.
 botania.page.terrasteelArmor1=&1泰拉钢头盔&0
 botania.page.terrasteelArmor2=&1泰拉钢胸甲&0
 botania.page.terrasteelArmor3=&1泰拉钢护腿&0
@@ -2963,7 +2963,7 @@ botania.page.terrasteelArmor4=&1泰拉钢靴子&0
 # -- TERRA BLADE
 botania.entry.terraSword=泰拉之刃
 botania.tagline.terraSword=发射激光的剑
-botania.page.terraSword0=&1泰拉之刃&0由&1泰拉钢&0制作而成, 是一把注入了自然之力的剑. 不仅有着相当于&1钻石剑&0的强 度,还会像&1魔钢工具&0一样使用 物品栏的&4魔力&0,但在挥舞时, 有一定几率发出一道相当于 近身伤害的光线.
+botania.page.terraSword0=&1泰拉之刃&0由&1泰拉钢&0制作而成, 是一把注入了自然之力的剑. 不仅有着相当于&1钻石剑&0的强 度,还会像&1魔力钢工具&0一样使用 物品栏的&4魔力&0,但在挥舞时, 有一定几率发出一道相当于 近身伤害的光线.
 botania.page.terraSword1=不会破碎的英雄之剑
 
 # -- TERRA SHATTERER
@@ -2973,7 +2973,7 @@ botania.page.terraPick0=&1泰拉粉碎者&0是个可以积攒大 量魔力的工
 botania.page.terraPick1=工具里储存的&4魔力&0量决定了 它的&4阶位&0.阶位如下:&4D&0,&4C&0,&4B&0, &4A&0,&4S&0,&4SS&0.&4D&0就是默认的阶位.<br>阶位升级所需的&4魔力&0量会随 着阶位而增加.例如从&4D&0升至 &4C&0,只需要在&1魔力池&0待个几秒.
 botania.page.terraPick2=从&4C&0升至&4B&0,需要一个满的&1魔力&0 &1池&0,每级是上一级的十倍消耗 ,最终到达&4SS&0.<br>工具的阶位不会改变它的速 度,但会增强&4激活能力&0.<br>可以通过右击开启工具的能 力.
 botania.page.terraPick3=当工具激活时,它能破坏区域 内的方块.阶位&4C&0还是一小块 ,到了&4B&0就成了一个区域, 随着 阶位升高区域也会增大.注意 阶位&4D&0的工具不能激活.<br>激活时会消耗工具储存的&4魔&0 &4力&0,哪怕不是用于挖掘.
-botania.page.terraPick4=最后,工具每次破坏方块时都 会受到磨损,所以最好物品栏 有与阶位相应的&4魔力&0储存,工 具的功能又像&1魔钢工具&0,因为 它使用&4魔力&0抵消磨损,制作原 料是&1泰拉钢&0.<br>它也不会像普通掉落物品那 样消失.
+botania.page.terraPick4=最后,工具每次破坏方块时都 会受到磨损,所以最好物品栏 有与阶位相应的&4魔力&0储存,工 具的功能又像&1魔力钢工具&0,因为 它使用&4魔力&0抵消磨损,制作原 料是&1泰拉钢&0.<br>它也不会像普通掉落物品那 样消失.
 botania.page.terraPick5=WE'RE MINING IN THE DATABASE WOW WOW(ログ ホライズン)
 
 # -- ROD OF THE SEAS
@@ -2984,7 +2984,7 @@ botania.page.waterRod1=保持地球的洁净,它不是天王 星
 
 # -- ELEMENTIUM EQUIPMENT
 botania.entry.elfGear=源质钢装备
-botania.tagline.elfGear=有着特殊效果的魔钢级装备
+botania.tagline.elfGear=有着特殊效果的魔力钢级装备
 botania.page.elfGear0=就像其他金属那样,&1源质钢&0能 用于制作工具和护甲.<br>这些装备有不错的耐磨性,约 为钻石的一半,也有抽取&4魔力&0 以防磨损的能力.
 botania.page.elfGear1=每一种工具都有着它们自己 独特的能力.护甲会让穿戴者 在被攻击时有几率刷出一只 &1小精灵&0追逐攻击者,造成一定 伤害.<br>装备的&1源质钢护甲&0越多,这个 几率越高.
 botania.page.elfGear2=首先,&1源质钢镐&0会破坏一切&1圆&0 &1石&0,&1泥土&0,&1地狱岩&0和其他常见 材料,只留下矿物和有用的资 源.<br>将&1源质钢镐&0与&1泰拉粉碎者&0在 合成栏中结合会给予后者这 种能力.这个过程不能撤销.
@@ -3087,8 +3087,8 @@ botania.page.gravityRod2=为什么是亚麻?
 # -- TIMELESS IVY
 botania.entry.regenIvy=永恒常春藤
 botania.tagline.regenIvy=附着在物品上,消耗魔力修复耐久的常春藤
-botania.page.regenIvy0=尽管&1魔钢&0和&1源质钢&0能用&4魔力&0 保护自身,其他的工具和护甲 却没有这种能力.<br>可以给几乎所有物品附上一 些&1永恒常春藤&0,使它们能用&4魔&0 &4力&0修复.
-botania.page.regenIvy1=使用的话,只需将常春藤和目 标工具,以及3个在铁砧上修 理该工具的材料(比如&1钻石镐 &0用的就是&1钻石&0)<br>由于没有直接连接到材料,这样消耗的&4魔力&0比起&1魔钢&0的会多很多.
+botania.page.regenIvy0=尽管&1魔力钢&0和&1源质钢&0能用&4魔力&0 保护自身,其他的工具和护甲 却没有这种能力.<br>可以给几乎所有物品附上一 些&1永恒常春藤&0,使它们能用&4魔&0 &4力&0修复.
+botania.page.regenIvy1=使用的话,只需将常春藤和目 标工具,以及3个在铁砧上修 理该工具的材料(比如&1钻石镐 &0用的就是&1钻石&0)<br>由于没有直接连接到材料,这样消耗的&4魔力&0比起&1魔力钢&0的会多很多.
 botania.page.regenIvy2=带上你的炼狱扁斧
 
 # -- ROD OF THE ARCANE BARRAGE
@@ -3157,7 +3157,7 @@ botania.page.overgrowthSeed1=但是还有一个问题.没有创造 这种东西�
 # -- LIVINGWOOD BOW
 botania.entry.livingwoodBow=活木弓
 botania.tagline.livingwoodBow=用魔力自我修复的强大之弓
-botania.page.livingwoodBow0=活木弓,顾名思义,是用&1活木&0和 &1蕴魔丝线0制作的.因其材料的 特殊,比普通&1弓&0更耐用,它也可 以用&4魔力&0修复,类似&1魔钢工具&0.
+botania.page.livingwoodBow0=活木弓,顾名思义,是用&1活木&0和 &1蕴魔丝线0制作的.因其材料的 特殊,比普通&1弓&0更耐用,它也可 以用&4魔力&0修复,类似&1魔力钢工具&0.
 botania.page.livingwoodBow1=它能把飞机打下来么?
 
 # -- CRYSTAL BOW
@@ -3202,7 +3202,7 @@ botania.page.exchangeRod3=私自公平贸易
 botania.entry.manaweave=魔源法袍
 botania.tagline.manaweave=法袍能够生成魔力并提高法 杖的效果
 botania.page.manaweave0=&1魔源法袍&0是一种包含&4魔力&0的 有着元始能量的服装.<br>这身装备可用&1魔源布匹&0制作 ,它们在性能和强度上并不 算优秀,但这种长袍有着强 大的套装效果来弥补这种缺 陷,有着很高的&4魔力&0减免, 并使得魔力脉冲枪更强大
-botania.page.manaweave1=穿齐一套&1魔源法袍&0能显著提 升法杖的效率,增加其作用 范围/强度.或仅仅是消耗, 对于那些傻瓜设备.<br>&1魔源法袍&0能够使用背包的&4魔 力&自我修复,正如&1魔钢装备&0, 但因为它们有着更高的魔力 亲和力,消耗的魔力也更小
+botania.page.manaweave1=穿齐一套&1魔源法袍&0能显著提 升法杖的效率,增加其作用 范围/强度.或仅仅是消耗, 对于那些傻瓜设备.<br>&1魔源法袍&0能够使用背包的&4魔 力&自我修复,正如&1魔力钢装备&0, 但因为它们有着更高的魔力 亲和力,消耗的魔力也更小
 botania.page.manaweave2=利用蕴魔丝线
 botania.page.manaweave3=制作斗篷
 botania.page.manaweave4=制作长袍
@@ -3254,7 +3254,7 @@ botania.page.enderHand1a=就像是4G版的末影箱
 botania.entry.enderDagger=灵魂匕首
 botania.tagline.enderDagger=如黄油搬击杀末影人的匕首
 botania.page.enderDagger0=那些&4末影人&0.他们是继&4爬行者&0 之后第二恼人的.我诅咒,想 出它的人一定是和&onotch&r喝多 了.<br>然而,给一般的匕首注入它们 的能量,就能做出&1灵魂匕首&0, 一把能像切黄油般对付&1末影&0 &1人&0的匕首.
-botania.page.enderDagger1=由于注魔的关系这把匕首只 能承受很少的击杀量,并且所 用的能量阻止了&1魔钢&0获取&4魔&0 &4力&0预防磨损,它就和普通的工 具一样了.一切都是为了那个 怪物.
+botania.page.enderDagger1=由于注魔的关系这把匕首只 能承受很少的击杀量,并且所 用的能量阻止了&1魔力钢&0获取&4魔&0 &4力&0预防磨损,它就和普通的工 具一样了.一切都是为了那个 怪物.
 botania.page.enderDagger2=灵魂的冲击
 
 # -- LIFE IMBUER
@@ -3459,7 +3459,7 @@ botania.page.tinyPlanet2=像是冥王星
 # -- BAND OF MANA
 botania.entry.manaRing=魔力之戒
 botania.tagline.manaRing=手指上的魔力石板
-botania.page.manaRing0=将&1魔力石板&0和一些&1魔钢&0组合 能做出一个穿戴方便的&4戒指&0, 就像魔力石板那样的功能,也 能当做&4饰品&0装备.<br>用些&1泰拉钢&0就可以升级,可储 存4倍的&4魔力&0.
+botania.page.manaRing0=将&1魔力石板&0和一些&1魔力钢&0组合 能做出一个穿戴方便的&4戒指&0, 就像魔力石板那样的功能,也 能当做&4饰品&0装备.<br>用些&1泰拉钢&0就可以升级,可储 存4倍的&4魔力&0.
 botania.page.manaRing1=制作戒指
 botania.page.manaRing2=升级戒指
 

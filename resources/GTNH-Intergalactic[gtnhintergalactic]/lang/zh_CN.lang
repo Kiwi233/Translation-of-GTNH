@@ -156,7 +156,6 @@ gt.blockmachines.multimachine.ig.siphon.lore3=根据定义，这个名字是错�
 
 # Space Elevator
 gt.blockmachines.multimachine.ig.elevator.name=太空电梯
-gt.blockmachines.multimachine.ig.elevator.desc0=太空电梯的控制器方块
 gt.blockmachines.multimachine.ig.elevator.desc2=最多能装备12个太空电梯模块
 gt.blockmachines.multimachine.ig.elevator.desc3=加速轨道等级限制了模块等级与可安装的模块数量
 gt.blockmachines.multimachine.ig.elevator.desc4=每个模块有各自独立的输入输出空间，统一供电
@@ -216,6 +215,7 @@ gt.blockmachines.multimachine.project.ig.miner.t2.desc1=这是不是侵害了无
 gt.blockmachines.multimachine.project.ig.miner.t3.desc1=这绝对侵害了无人机的权利.
 gt.blockmachines.multimachine.project.ig.miner.desc3=运行需要等离子体(1000L氦/500L铋/300L氡).
 gt.blockmachines.multimachine.project.ig.miner.desc4=使用更高级的等离子体可获得增产.
+gt.blockmachines.multimachine.project.ig.miner.desc5=需要为其提供算力
 gt.blockmachines.multimachine.project.ig.miner.t1.desc5=运行电压：UV，最大并行：2
 gt.blockmachines.multimachine.project.ig.miner.t2.desc5=运行电压：UHV，最大并行：4
 gt.blockmachines.multimachine.project.ig.miner.t3.desc5=运行电压：UEV，最大并行：8
@@ -291,13 +291,11 @@ ig.elevator.structure.OpticalConnector=光学接口
 ig.elevator.structure.AnyBaseCasingWith1Dot=任意太空电梯基座机械方块(提示方块：1号)
 ig.elevator.structure.AnyBaseCasingWith2Dot=任意太空电梯基座机械方块(提示方块：2号)
 ig.elevator.structure.AnyBaseCasingWith3Dot=任意太空电梯基座机械方块(提示方块：3号)
-ig.elevator.structure.TooComplex=结构太复杂了！
 ig.structure.contributors=贡献者
 ig.structure.programming=规划
 ig.structure.design=设计
 ig.structure.specialThanks=特别感谢
 ig.structure.author=添加者：
-ig.structure.moreContributors=检查所有模块的控制器GUI
 ig.structure.and=和
 
 # Space Projects

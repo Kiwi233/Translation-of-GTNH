@@ -1,6 +1,7 @@
 ##################################################
 ## Items
 
+item.honeyComb.name=蜂窝
 extrabees.item.comb.barren=贫瘠蜂窝
 extrabees.item.comb.rotten=腐肉蜂窝
 extrabees.item.comb.bone=骨头蜂窝
@@ -74,6 +75,7 @@ extrabees.item.comb.yellorium=黄铀蜂窝
 extrabees.item.comb.cyanite=蓝晶蜂窝
 extrabees.item.comb.blutonium=蓝钚蜂窝
 
+item.honeyDrop.name=蜂蜜滴
 extrabees.item.honeydrop.energy=能量液滴
 extrabees.item.honeydrop.acid=酸液液滴
 extrabees.item.honeydrop.poison=剧毒液滴
@@ -104,12 +106,14 @@ extrabees.item.honeydrop.limegreen=染色蜜汁（黄绿）
 extrabees.item.honeydrop.magenta=染色蜜汁（品红）
 extrabees.item.honeydrop.lightgray=染色蜜汁（淡灰）
 
+item.propolis.name=蜂胶
 extrabees.item.propolis.water=含水蜂胶
 extrabees.item.propolis.oil=石油蜂胶
 extrabees.item.propolis.fuel=燃油蜂胶
 extrabees.item.propolis.creosote=木榴油蜂胶
 extrabees.item.propolis.peat=泥炭蜂胶
 
+item.hiveFrame.name=蜂箱框架
 extrabees.item.frame.cocoa=巧克力框架
 extrabees.item.frame.cage=约束框架
 extrabees.item.frame.soul=灵魂框架
@@ -127,10 +131,12 @@ extrabees.item.template.corrupted=脏的模版
 extrabees.item.template.name=%s 模版
 extrabees.item.template.empty=空白模版
 
+item.dictionary.name=养蜂员数据库
 extrabees.item.database=养蜂员数据库
 extrabees.item.masterDatabase=养蜂大师数据库
 extrabees.item.database.tooltip=风光尽在盒中
 
+item.misc.name=资源
 extrabees.item.scentedGear=飘香齿轮
 extrabees.item.diamondShard=钻石碎片
 extrabees.item.emeraldShard=绿宝石碎片
@@ -167,6 +173,7 @@ extrabees.block.geneticMachine.name=基因机器方块
 extrabees.block.advGeneticMachine.name=高级基因机器方块
 extrabees.block.ectoplasm.name=胶质网
 
+tile.hive.name=蜂巢
 extrabees.block.hive.0=水生蜂巢
 extrabees.block.hive.1=岩石蜂巢
 extrabees.block.hive.2=下界蜂巢
@@ -194,6 +201,7 @@ extrabees.machine.alveay.lighting.info=蜂箱组日光灯欺骗了蜜蜂，让�
 extrabees.machine.alveay.unlighting=蜂箱组遮光器
 extrabees.machine.alveay.unlighting.info=蜂箱组遮光器可以欺骗那些蜜蜂，让他们觉得白天也是夜晚。
 
+tile.alveary.name=基因突变器
 extrabees.machine.alveay.mutator=基因突变器
 extrabees.machine.alveay.mutator.info=基因突变器使用诱变剂来诱导基因突变。
 extrabees.machine.alveay.mutator.tooltip=诱变剂
@@ -462,7 +470,7 @@ extrabees.effect.spawnzombie.name=生成僵尸
 extrabees.effect.spawnskeleton.name=生成骷髅
 extrabees.effect.spawncreeper.name=生成爬行者
 extrabees.effect.lightning.name=雷击
-extrabees.effect.radioactive.name=辐射
+extrabees.effect.radioactive.name=放射性
 extrabees.effect.meteor.name=流星
 extrabees.effect.hunger.name=饥饿
 extrabees.effect.food.name=养料

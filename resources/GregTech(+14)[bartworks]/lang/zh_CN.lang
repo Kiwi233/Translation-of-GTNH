@@ -13,7 +13,7 @@ GT5U.gui.text.wrong_sievert_exactly=§7辐射剂量错误.所需精确剂量为:
 GT5U.gui.text.wrong_sievert_min=§7辐射剂量错误.所需最小剂量为: %s §7Sv
 GT5U.gui.config.general.mixins=Mixins
 GT5U.gui.config.general.crossmodinteractions=模组兼容
-GT5U.gui.config.general.multiblocks=多方快
+GT5U.gui.config.general.multiblocks=多方块
 GT5U.gui.config.general.tooltip=提示框
 GT5U.gui.config.general.singleblocks=单方块
 GT5U.gui.config.general.pollution=污染
@@ -145,14 +145,12 @@ tooltip.tile.waterpump.0.name=在有燃料时产出
 tooltip.tile.waterpump.1.name=L/s水. 每秒产生%d点污染
 tooltip.tile.waterpump.2.name=必须放在地上.
 
-tooltip.tile.mbf.0.name=巨型工业高炉的控制器方块;大小(宽x高x长)：15x20x15(中空);控制器方块在第三层正面中央;内层13x18x13加热线圈(中空);外层15x18x15硼玻璃方块;玻璃等级限制了能源仓等级;1+输入仓/总线(任意机械方块);1+输出仓/总线(任意机械方块);1+能源仓(任意机械方块);1x维护仓(任意机械方块)(注:所有底层仓室必须置于边缘);13x1x13消声仓(顶层中央);顶层剩余方块为隔热机械方块;1+输出仓以回收CO2/CO/SO2(可选，任意顶层机械方块);回收比例取决于消声仓等级;底层为隔热机械方块;自配方的最小炉温起，每高出900K会减少5%的能耗，以乘法叠加;自配方的最小炉温起，每高出1800K将允许一次无损超频;无损超频将减少加工时间至25%并提升功率至400%;每秒造成最大
 tooltip.tile.mbf.1.name=污染
 tooltip.tile.windmill.0.name=由动能驱动的原始研磨机;大小(宽x高x长): 7x12x7;=第1层: 7x7砖块,角落空置,控制器方块在正面中央;第2-5层: 5x5硬化粘土,角落空置,可包含一扇门,;中空,墙上必须至少有一个发射器;第6层: 5x5木板.角落填充,中空.;第7层: 7x7木板.角落空置,中空.;第8层: 7x7木板.角落空置,中空,;正面中央必须是原始动力轴箱;第9层: 7x7木板.角落空置,中空.;第10层: 5x5木板.角落填充,中空.;第11层: 3x3木板.角落填充,中空.;第12层: 1x1木板;需要在轴箱中放入风车转子方可运行;在控制器方块中输入物品;输出物品将出现在发射器中;在多风的地区运行比较快(类似IC2风机)
 tooltip.tile.lesu.0.name=LESU的控制器方块;大小(宽x高x长): 任意
 tooltip.tile.lesu.1.name=每个LESU机械方块存储:
 tooltip.tile.lesu.2.name=输出EU: LESU机械方块数量;输入EU: 输出EU的下一电压等级;输入/输出电流可通过GUI中的4个编程电路调整;输出端有一个点.
 tooltip.tile.lesu.3.name=只允许一个控制器,不允许共享方块!
-tooltip.tile.manualtravo.0.name=可调变压器的控制器方块;目前有四种不同的运作模式：;模式1: 编程电路0: 直接升压;模式2: 编程电路1: 直接降压;模式3: 编程电路2: 抽头升压;模式4: 编程电路3: 抽头降压;直接模式(长x高x宽): 3xHx3;底层至少包含一个能源仓;所需变压的每个电压等级都需要一层变压器绕组方块;变压器线圈块中心需为镍锌铁氧体块;顶部至少包含一个动力仓;维护仓可置于任意位置;抽头模式目前无法使用.
 tooltip.tile.tiereddsc.0.name=电压:
 tooltip.tile.tiereddsc.1.name=输入电流:
 tooltip.tile.tiereddsc.2.name=输出电流:

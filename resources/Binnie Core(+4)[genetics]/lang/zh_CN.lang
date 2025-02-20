@@ -9,22 +9,29 @@ genetics.item.fieldKit.tooltip.noPaper=没有纸
 genetics.item.fieldKit.tooltip.sheetsOfPaper=%d 张纸
 genetics.item.fieldKit.tooltip.sheetOfPaper=%d 张纸
 
+item.misc.name=资源
 genetics.item.casingIron.name=硬化部件
 genetics.item.dnaDye.name=DNA 染料
 genetics.item.dyeFluor.name=荧光染料
 genetics.item.enzyme.name=酶
 genetics.item.growthMedium.name=培养基
 genetics.item.sequencerEmpty.name=空白序列
+item.serum.name=空血清瓶
 genetics.item.serumEmpty.name=空血清瓶
+item.serumArray.name=空血清阵列
 genetics.item.genomeEmpty.name=空血清阵列
 genetics.item.cylinderEmpty.name=玻璃罐
 genetics.item.integratedCircuit.name=集成电路板
 genetics.item.integratedCPU.name=集成 CPU
 genetics.item.casingCircuit.name=集成部件
+item.analyst.name=品种分析仪
 genetics.item.analyst.name=品种分析仪
+item.database.name=基因数据库
 genetics.item.database.0.name=基因数据库
 genetics.item.database.1.name=基因学大师数据库
+item.registry.name=图鉴
 genetics.item.registry.0.name=图鉴
+item.masterRegistry.name=图鉴
 genetics.item.registry.1.name=全图鉴
 genetics.item.serum.name=%s 血清
 genetics.item.serumArray.name=%s 血清阵列
@@ -42,6 +49,7 @@ genetics.gene.charge.one=可使用 1 次
 genetics.gene.charge.many=可使用 %d 次
 genetics.gene.more=还有 %d 种基因，按下 Shift 显示全部。
 
+item.sequence.name=DNA 序列
 genetics.sequence.corrupted=损坏的 DNA 序列
 genetics.sequence.descriptor=%s DNA 序列
 genetics.sequence.unknown=<未知>
@@ -49,6 +57,7 @@ genetics.sequence.unsequenced=未测序
 genetics.sequence.fully=已测序
 genetics.sequence.partially=测序 %d%%
 
+tile.machine.name=基因分离器
 genetics.machine.machine.isolator=基因分离器
 genetics.machine.machine.isolator.info=基因分离器将会从蜜蜂、树苗或者其它的独立个体中随机提取基因片段，并复制到空白序列中。此过程需要乙醇作为溶剂，还需要酶来切断DNA。未测序的序列可以在基因同化器中扩增，并在测序仪中进行测序。此过程有小概率摧毁该个体。
 genetics.machine.isolator.error.noIndividual=没有个体样本
@@ -102,6 +111,7 @@ genetics.machine.genepool.error.noRoom=原生 DNA 已满
 genetics.machine.genepool.error.noEthanol=乙醇不足
 genetics.machine.genepool.error.insufficientEnzyme=酶不足
 
+tile.labMachine.name=实验台
 genetics.machine.labMachine.labMachine=实验台
 
 genetics.machine.labMachine.analyser=分析仪
@@ -128,6 +138,7 @@ genetics.machine.acclimatiser.error.noIndividual=没有可供调整适应性的�
 genetics.machine.acclimatiser.error.noAcclimatizingItems=没有适应性调整物品
 genetics.machine.acclimatiser.error.invalidAcclimatizingItems=该个体不能使用给定物品进行气候改造
 
+tile.advMachine.name=基因拼接器
 genetics.machine.advMachine.splicer=基因拼接器
 genetics.machine.advMachine.splicer.info=基因拼接器是一台可将基因直接植入个体之中的强大机器。虽然工作迅速，但耗能巨大。
 genetics.machine.splicer.error.noIndividual=没有可供基因拼接的个体
