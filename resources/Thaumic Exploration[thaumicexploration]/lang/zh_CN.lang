@@ -2,8 +2,8 @@
 item.thaumicexploration:tentacleRing.name=腐化指环
 item.thaumicexploration:stabilizerBelt.name=奥法加护腰带
 item.thaumicexploration:pureZombieBrain.name=净化僵尸之脑
-item.thaumicexploration:transmutationCore.name=元化杖柄
-item.thaumicexploration:transmutationStaffCore.name=元化杖芯
+item.thaumicexploration:transmutationCore.name=转化杖柄
+item.thaumicexploration:transmutationStaffCore.name=转化杖芯
 item.thaumicexploration:amberCore.name=琥珀杖柄
 item.thaumicexploration:amberStaffCore.name=琥珀杖芯
 item.thaumicexploration:breadCore.name=面包杖柄
@@ -79,7 +79,7 @@ enchantment.disarm=缴械
 ----Wand Names----
 item.Wand.AMBER.rod=琥珀杖
 item.Wand.BREAD.rod=面包杖
-item.Wand.TRANSMUTATION.rod=元化杖
+item.Wand.TRANSMUTATION.rod=转化杖
 item.Wand.NECROMANCER.rod=亡灵杖
 item.Wand.SOJOURNER.cap=寄生端
 item.Wand.MECHANIST.cap=机械端
@@ -268,9 +268,9 @@ te.tag.ROD_AMBER_staff=再生的魔力储存
 te.text.ROD_AMBER_staff.1=由琥珀制成的杖芯,可储存各种要素25vis.<BR>同琥珀杖柄一样它也会缓慢恢复魔力储存.
 
 --Transmutation Staff Core
-te.name.ROD_TRANSMUTATION_staff=元化杖芯
+te.name.ROD_TRANSMUTATION_staff=转化杖芯
 te.tag.ROD_TRANSMUTATION_staff=一个变为另一个
-te.text.ROD_TRANSMUTATION_staff.1=由元始魔力和各种元素碎片做成的杖芯,可储存各种要素175vis.<BR>就像元化杖柄那样它会将某一超出容量90%的要素转化为其他要素.
+te.text.ROD_TRANSMUTATION_staff.1=由元始魔力和各种元素碎片做成的杖芯,可储存各种要素175vis.<BR>就像转化杖柄那样它会将某一超出容量90%的要素转化为其他要素.
 
 --Necromancer's Staff Core
 te.name.ROD_NECROMANCER_staff=亡灵杖芯
@@ -339,7 +339,7 @@ te.text.ENHANCEDRUNICARMOR.1=你对符文护甲升级的大量研究让你对只
 te.text.ENHANCEDRUNICARMOR.2=注意增强符文护甲的制作会移除现有的升级.<BR><BR>如果你想要覆盖增强护甲的一个升级,你可以手持它右击交换升级的位置.排在前面的升级就是会被覆盖的那一个.<BR><BR>[Recipes pending...leave feedback]
 
 --Transmutative Wand Core
-te.name.ROD_TRANSMUTATION=元化杖柄
+te.name.ROD_TRANSMUTATION=转化杖柄
 te.tag.ROD_TRANSMUTATION=一个变为另一个
 te.text.ROD_TRANSMUTATION.1=研究元始魔力的性质时,你发现你能偶发地将一种要素魔力转化为另一种.你觉得这个性质用在大多数地方不太可靠,但如果给元始魔力注入某种材料,它就能作为一个有着独特属性的杖柄而使用.<BR><BR>当法杖中有一种要素魔力值即将超过90%,它就会转化为其他种类的要素魔力,尽管比率低一些.<BR><BR>它还有比普通宏伟杖高的魔力储存容量,每种要素魔力75vis.
 
