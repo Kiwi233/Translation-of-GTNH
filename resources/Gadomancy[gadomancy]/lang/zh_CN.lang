@@ -25,7 +25,7 @@ gadomancy.research_page.GOLEMRUNICSHIELD.1=经过进一步对守护魔法的测�
 
 tc.research_name.GADOMANCY.STICKYJAR=粘性罐子
 tc.research_text.GADOMANCY.STICKYJAR=把它们粘起来!
-gadomancy.research_page.STICKYJAR.1=要素罐子之于神秘使,有如黄油之于面包一样重要,但如果还要考虑大量潜在的源质管道,情况就又不一样了.你决定给罐子底部加一些黏合剂来缓解管道布线压力.底部涂过黏合剂的罐子被放下时会粘在表面上,即使是方块的侧面,甚至是底面.破坏罐子并不会影响这种粘性,这样粘性罐子就可以回收使用了.另外,很多其它类型的源质罐子也可以加这种黏合剂.
+gadomancy.research_page.STICKYJAR.1=源质罐子之于神秘使,有如黄油之于面包一样重要,但如果还要考虑大量潜在的源质管道,情况就又不一样了.你决定给罐子底部加一些黏合剂来缓解管道布线压力.底部涂过黏合剂的罐子被放下时会粘在表面上,即使是方块的侧面,甚至是底面.破坏罐子并不会影响这种粘性,这样粘性罐子就可以回收使用了.另外,很多其它类型的源质罐子也可以加这种黏合剂.
 
 tc.research_name.GADOMANCY.ARCANEDROPPER=奥术投掷器
 tc.research_text.GADOMANCY.ARCANEDROPPER=淫秽之物终被捕获
@@ -53,7 +53,7 @@ tc.research_name.GADOMANCY.ETHEREAL_FAMILIAR=天域使魔
 tc.research_text.GADOMANCY.ETHEREAL_FAMILIAR=奥法追随者
 gadomancy.research_page.ETHEREAL_FAMILIAR.1=那些飞舞的鬼火已经吸引你好久了.一般来说这样的永恒魔力都应该是被动存在的,但这些小精灵受到攻击时却会以惊人的速度和效率发起反击.不仅如此,甚至仅仅是快速接近小精灵都会惹怒她们.<LINE>这种行为却给了你不一样的启发.通过开发小精灵的这种天性,你也许可以将其奴役为一个随身的护卫.不幸的是,野生的小精灵行踪诡异,极难捕捉.
 gadomancy.research_page.ETHEREAL_FAMILIAR.3=向天域之华注以大量魔力以及少量魔力物质,你成功得到了人造天域精灵.天域"使魔"将会自动跟随主人的气场,并以类似浮游炮台的方式向靠近其主人的敌对生物发起攻击.很明显,人造的小精灵相比于天然的小精灵来说还是很虚弱,并且移动速度也不快,但你确信有办法可以增强她.
-gadomancy.research_page.ETHEREAL_FAMILIAR.4=使魔的攻击不会消耗任何的魔力,除非你对其进行升级.同时你应该注意使魔并不是足够强大到能够超越任何力量或是速度的界限,除非你为了这种垃圾而将魔力雕刻在她们身上.
+gadomancy.research_page.ETHEREAL_FAMILIAR.4=使魔的攻击不会消耗任何的Vis,除非你对其进行升级.同时你应该注意使魔并不是足够强大到能够超越任何力量或是速度的界限,除非你为了这种垃圾而将魔力雕刻在她们身上.
 
 tc.research_name.GADOMANCY.AI_SHUTDOWN=无
 tc.research_text.GADOMANCY.AI_SHUTDOWN=无
@@ -61,59 +61,59 @@ gadomancy.research_page.AI_SHUTDOWN.1=无
 
 tc.research_name.GADOMANCY.FAMILIAR_SHOCK=使魔升级:天雷冲击
 tc.research_text.GADOMANCY.FAMILIAR_SHOCK=这真是个可怕的经历
-gadomancy.research_page.FAMILIAR_SHOCK.1=对于该项的注魔将会在攻击时产生一个强大的电弧, 从而造成更多伤害以及产生击退效果.<LINE>每次的攻击平均消耗0.03的风魔力及0.02的混沌魔力.
+gadomancy.research_page.FAMILIAR_SHOCK.1=对于该项的注魔将会在攻击时产生一个强大的电弧, 从而造成更多伤害以及产生击退效果.<LINE>每次的攻击平均消耗0.03单位的风Vis及0.02单位的混沌Vis.
 
 tc.research_name.GADOMANCY.FAMILIAR_FIRE=使魔升级:闪耀灼烧
 tc.research_text.GADOMANCY.FAMILIAR_FIRE=令光芒释放
-gadomancy.research_page.FAMILIAR_FIRE.1=当你对其进行闪耀灼烧注魔之后 使魔的力量将被用来提高自身的热量而不是造成伤害, 点燃它们的敌人并且将他们置入火焰地狱,这一力量还能让被攻击者在阳光下陷入虚弱状态.<LINE>平均每次会消耗0.04vis的火焰魔力与0.02vis的秩序魔力
+gadomancy.research_page.FAMILIAR_FIRE.1=当你对其进行闪耀灼烧注魔之后 使魔的力量将被用来提高自身的热量而不是造成伤害, 点燃它们的敌人并且将他们置入火焰地狱,这一力量还能让被攻击者在阳光下陷入虚弱状态.<LINE>平均每次会消耗0.04单位的火焰Vis与0.02单位的秩序Vis
 
 tc.research_name.GADOMANCY.FAMILIAR_POISON=使魔升级:蚀骨剧毒
 tc.research_text.GADOMANCY.FAMILIAR_POISON=白骨化灰——死灵术士卢德维
-gadomancy.research_page.FAMILIAR_POISON.1=一个经受此项升级的使魔会将大量的毒液注入被攻击者体内而不是直接伤害他,这将造成严重的中毒.经历此升级的使魔似乎能够发现对方是否可以中毒,结果就是它们只会去攻击那些未中毒的目标.<LINE>这个特性在每次攻击时将消耗0.03vis的水之魔力与0.04的混沌魔力.
+gadomancy.research_page.FAMILIAR_POISON.1=一个经受此项升级的使魔会将大量的毒液注入被攻击者体内而不是直接伤害他,这将造成严重的中毒.经历此升级的使魔似乎能够发现对方是否可以中毒,结果就是它们只会去攻击那些未中毒的目标.<LINE>这个特性在每次攻击时将消耗0.03单位的水Vis与0.04单位的混沌Vis.
 
 tc.research_name.GADOMANCY.FAMILIAR_WEAKNESS=使魔升级:衰微
 tc.research_text.GADOMANCY.FAMILIAR_WEAKNESS=如今你的力量在何方?
-gadomancy.research_page.FAMILIAR_WEAKNESS.1=该项升级移除了使魔的伤害性,从而使他们获得令敌人疲于奔命的力量.敌人将会变得脆弱,昏昏欲睡,并且难以控制手中的武器.<LINE>此项特性每次使用会消耗0.03vis的地之魔力与0.03vis的混沌魔力.
+gadomancy.research_page.FAMILIAR_WEAKNESS.1=该项升级移除了使魔的伤害性,从而使他们获得令敌人疲于奔命的力量.敌人将会变得脆弱,昏昏欲睡,并且难以控制手中的武器.<LINE>此项特性每次使用会消耗0.03单位的地Vis与0.03单位的混沌Vis.
 
 tc.research_name.GADOMANCY.FAMILIAR_DAMAGE=使魔升级:弧光强化
 tc.research_text.GADOMANCY.FAMILIAR_DAMAGE=那些童子军在说什么?
-gadomancy.research_page.FAMILIAR_DAMAGE.1=通过浓缩这些使魔的魔力,使魔的攻击得以翻倍<LINE>每次攻击将会消耗0.03vis的火之魔力.
+gadomancy.research_page.FAMILIAR_DAMAGE.1=通过浓缩这些使魔的Vis,使魔的攻击得以翻倍<LINE>每次攻击将会消耗0.03单位的火Vis.
 
 tc.research_name.GADOMANCY.FAMILIAR_RANGE=使魔升级:范围提升
 tc.research_text.GADOMANCY.FAMILIAR_RANGE=下一步进攻
-gadomancy.research_page.FAMILIAR_RANGE.1=辅以外部的改造,精灵的敏感度得到了提升,她的攻击范围也随之有少许提升.<LINE>每次攻击将消耗0.02vis的风之魔力与0.01vis的秩序魔力.
+gadomancy.research_page.FAMILIAR_RANGE.1=辅以外部的改造,精灵的敏感度得到了提升,她的攻击范围也随之有少许提升.<LINE>每次攻击将消耗0.02单位的风Vis与0.01单位的秩序Vis.
 
 tc.research_name.GADOMANCY.FAMILIAR_SPEED=使魔升级:超速攻击
 tc.research_text.GADOMANCY.FAMILIAR_SPEED=某科学的超电磁炮
-gadomancy.research_page.FAMILIAR_SPEED.1=想要一次性处理掉大量的敌人是十分困难的.通过这个注魔增强的使魔将会提高攻击速度与攻击伤害来撕碎多个敌人.<LINE>每次攻击将会消耗0.02vis的秩序魔力与0.01vis的火焰魔力.
+gadomancy.research_page.FAMILIAR_SPEED.1=想要一次性处理掉大量的敌人是十分困难的.通过这个注魔增强的使魔将会提高攻击速度与攻击伤害来撕碎多个敌人.<LINE>每次攻击将会消耗0.02单位的秩序Vis与0.01单位的火焰Vis.
 
 tc.research_name.GADOMANCY.KNOWLEDGE_BOOK=知识之书
 tc.research_text.GADOMANCY.KNOWLEDGE_BOOK=知识又是力量
 gadomancy.research_page.KNOWLEDGE_BOOK.1=研究并发现秘术的本质,这种枯燥无味的对于知识的探求足够让那些新人秘术使结束他们渺小的一生.这个问题解决起来应该是相对简单的. 如果有一本书帮助你自动写东西应该会有所帮助吧?…………好吧,并没有.<BR>想要制作一本能够自动研究知识的书是相对简单的,在那种情况下它就是一本书(显然). 而使这些知识成为有用的与可被理解的研究就完全是另一回事了.
-gadomancy.research_page.KNOWLEDGE_BOOK.3=为了能让这本书做任何事情,他必须能够自动打开,关闭,并且翻到自己所在的页面. 在制作好知识之书后, 它应当被放置在一个奥术基座之上,荣耀它的名,研究开始之时它便沦为知识的奴隶.<BR>一旦它被放置在基座之上, 这本书将会获得魔导手册般的能力.将一页研究笔记投向书本上方,那妖异的光芒一边吸收周围的思维要素一边进行研究 .无聊的等待游戏就此开始.
-gadomancy.research_page.KNOWLEDGE_BOOK.4=你发现任何一种记录在案的要素帮助都会加快法术台的研究进程,尽管这种方式并没有什么意义.<BR> 知识之书比起其他书还有一个特点,它能够像魔导手册一样使用,从此你的背包里少了一本厚重的典籍.
+gadomancy.research_page.KNOWLEDGE_BOOK.3=为了能让这本书做任何事情,他必须能够自动打开,关闭,并且翻到自己所在的页面. 在制作好知识之书后, 它应当被放置在一个奥术基座之上,荣耀它的名,研究开始之时它便沦为知识的奴隶.<BR>一旦它被放置在基座之上, 这本书将会获得魔导手册般的能力.将一页研究笔记投向书本上方,那妖异的光芒一边吸收周围的思维源质一边进行研究 .无聊的等待游戏就此开始.
+gadomancy.research_page.KNOWLEDGE_BOOK.4=你发现任何一种记录在案的源质帮助都会加快法术台的研究进程,尽管这种方式并没有什么意义.<BR> 知识之书比起其他书还有一个特点,它能够像魔导手册一样使用,从此你的背包里少了一本厚重的典籍.
 
 tc.research_name.GADOMANCY.ESSENTIA_COMPRESSOR=源质冷凝器
 tc.research_text.GADOMANCY.ESSENTIA_COMPRESSOR=不再烦躁的源质贮存
-gadomancy.research_page.ESSENTIA_COMPRESSOR.1= 当你在实验虚空类材料时,虚空种子与液体源质间发生了一个奇怪的反应.当一粒虚空种子与附近的源质罐子太近地相处一段时间后,它奇异的能量驱使罐子中的要素变得更加致密——简单来说,罐子内的空间在不损耗源质的前提下莫名地变大了.进行了进一步的测试之后,你发现虚空种子自身并没有足够的力量去造就这种奇异的现象,但是随着提高这枚异界虚空之物的能量,或许源质能被压缩至一个极度致密的状态.
+gadomancy.research_page.ESSENTIA_COMPRESSOR.1= 当你在实验虚空类材料时,虚空种子与液体源质间发生了一个奇怪的反应.当一粒虚空种子与附近的源质罐子太近地相处一段时间后,它奇异的能量驱使罐子中的源质变得更加致密——简单来说,罐子内的空间在不损耗源质的前提下莫名地变大了.进行了进一步的测试之后,你发现虚空种子自身并没有足够的力量去造就这种奇异的现象,但是随着提高这枚异界虚空之物的能量,或许源质能被压缩至一个极度致密的状态.
 gadomancy.research_page.ESSENTIA_COMPRESSOR.2=经由大量的虚空材料,继而大规模地把力量注入到虚空种子中以创造无数细小的空间折越,并且冻结其内部的异常运作,就可以将虚空种子的力量释放几千倍.尽管这个崭新的"暗影元素"看上去十分稳定,但是它所造成的影响绝不是一个普通的罐子所能完成的.自然,它也有不幸的副作用,空间中所有的光线都将被它吞噬,只要从包裹中掏出它亦或是它不小心掉在了地上……
 gadomancy.research_page.ESSENTIA_COMPRESSOR.4=通过把暗影元素装配在稳定的魔灵法柱之上,该设备便能贮存大量的源质.为了完成这一多方块结构,需要将三块共同放在它们彼此之上,并且摇动你的魔杖.源质冷凝器可以在其内部存储任何类型的源质,但是就像只能储存200多点源质的源质库一样,这台设备确实也受到一些限制.
 gadomancy.research_page.ESSENTIA_COMPRESSOR.6=难以置信的能量盘旋在该储存器的核心,所以管道无法与其安全相连,其中储存的源质也并不会直接被供应至设备之中.傀儡必须与第一个源质冷凝器绑定才能开始转移.然而,源质冷凝器将会平均地将内中源质分摊给每个罐子,源质库或是源质之镜,它们在该网络中最多存在五个,但是它们所能接受到的源质总是会比冷凝器中现存源质少.虽然物理层面上只能借助傀儡来对其中的源质进行操作,但是在用于注魔时,它们也能通过源质之镜传输.
 gadomancy.research_page.ESSENTIA_COMPRESSOR.8=源质冷凝器,就像是你先前接触过的诸多源质设备一样,一旦大量的液体源质出现问题,对于你的身体……任何对于该结构的更改(如果该结构中仍含有源质的话)将会导致一次魔力喷涌,咒波将会留下它来过的痕迹.与那些更加温和的情况不同,在它冷凝源质之时,它将会立即释放足以毁灭土地的污染.
-gadomancy.research_page.ESSENTIA_COMPRESSOR.9=如果暗影元素被放置在荒古基座附近的冷凝器中,冷凝器器内部的核心将会被消耗并让其内部 的容量升至一个合适的位置,通过此方法最高可以让其容纳每种要素3000点.<LINE>你注意到身处设备附近时,暗影元素中的虚空之力能将你缓慢拉向它,它可以变得更加巨大吗?你不这么认为……希望如此……
+gadomancy.research_page.ESSENTIA_COMPRESSOR.9=如果暗影元素被放置在荒古基座附近的冷凝器中,冷凝器器内部的核心将会被消耗并让其内部 的容量升至一个合适的位置,通过此方法最高可以让其容纳每种源质3000点.<LINE>你注意到身处设备附近时,暗影元素中的虚空之力能将你缓慢拉向它,它可以变得更加巨大吗?你不这么认为……希望如此……
 
 tc.research_name.GADOMANCY.NODE_MANIPULATOR=节点操纵
 tc.research_text.GADOMANCY.NODE_MANIPULATOR=和轮盘赌差不多
-gadomancy.research_page.NODE_MANIPULATOR.1=灵气节点自一开始就一直吸引着你的注意力.它们到底从何而来?为什么会有这么多变种?片刻后,你发现你问出了一个终极问题:有无可能,改变一个节点的运作方式?游历五湖四海,潜入邪术迷宫,在旅途中你找到不少能改变灵气运作方式的材料.小心处理这些材料,并利用这些东西,对你手头唯一能从节点中提取纯净魔力的设备进行增强,最终你终于解开了你的问题,而答案是:一台极端危险的机械.
+gadomancy.research_page.NODE_MANIPULATOR.1=灵气节点自一开始就一直吸引着你的注意力.它们到底从何而来?为什么会有这么多变种?片刻后,你发现你问出了一个终极问题:有无可能,改变一个节点的运作方式?游历五湖四海,潜入邪术迷宫,在旅途中你找到不少能改变灵气运作方式的材料.小心处理这些材料,并利用这些东西,对你手头唯一能从节点中提取纯净Vis的设备进行增强,最终你终于解开了你的问题,而答案是:一台极端危险的机械.
 gadomancy.research_page.NODE_MANIPULATOR.3=节点操纵仪,是台和法杖充能基座工作方式完全相反的机械:从法杖中抽取vis,使得节点变得些许不稳定化.<LINE>操纵仪的基座本身稳定性并不好,不能够独立完成节点操纵的任务.通过追加特制核心来持有用于提取vis的法杖(或手杖),以及一系列用于导流vis的魔法柱,最终这个机械终于可以开动了.只需在基座上放置法杖(或手杖),然后操纵仪就会自动开始运转.
-gadomancy.research_page.NODE_MANIPULATOR.6=节点操纵仪需要至少六种元始要素的vis70点方可开始工作,但若给予超过70点的vis,效果似乎会更加明显.<BR>除了你对节点行为的研究,你对节点操纵仪究竟会造出什么样的怪物还是一无所知.现在,只有亲自上阵这一条路了...
+gadomancy.research_page.NODE_MANIPULATOR.6=节点操纵仪需要至少六种元始Vis各70单位方可开始工作,但若给予超过70单位的vis,效果似乎会更加明显.<BR>除了你对节点行为的研究,你对节点操纵仪究竟会造出什么样的怪物还是一无所知.现在,只有亲自上阵这一条路了...
 
 tc.research_name.GADOMANCY.E_PORTAL_CREATOR=虚空漫步者之门
 tc.research_text.GADOMANCY.E_PORTAL_CREATOR=步入虚空...
 gadomancy.research_page.E_PORTAL_CREATOR.1="与怪物战斗的人,应当小心自己不要成为怪物.当你远远凝视深渊时,深渊也在凝视你."<BR>-弗雷德里希.尼采,《善恶的彼岸》,1886<LINE>一开始只有一个奇迹:元始珍珠的发现.珍珠的光芒,揭示了世界和创世的秘密,但片刻后你感到一个珍珠还不够.珍珠的光芒确实很温暖,但却断断续续,似是暗淡无光,犹若一粒火星.
 gadomancy.research_page.E_PORTAL_CREATOR.3=古老而黑暗的低声细语开始在你的思虑中弥漫开来.这声音比以前的要更大,也更坚定,这声音在揭示一条道路,一条不是用来走的道路,黑暗无边,却通向力量之上的最强之力,隐没于纯粹虚空之边际.你认为你知道这声音究竟在说什么,因为,你作为你的存在,已经触及了这力量的一角.现在你只需要知道,如何找到这不可见不可及的道路了.
-gadomancy.research_page.E_PORTAL_CREATOR.4=毫无意外的是,这道路的问题的解,就在那邪术方尖碑里.这古代机械包括了一个节点,而这节点却有足够的灵气,以维持一个小型的传送门的开启.通过修改复合要素换能器的工作方式,以模仿方尖碑的工作方式,你可以做到和方尖碑一样的vis重定向.<BR>这个新的核心和普通的随机核心不同,因为它需要放置在节点操纵仪上才能工作.
-gadomancy.research_page.E_PORTAL_CREATOR.6=要搭建门的框架,仍需要一个普通的节点操纵仪结构,但外部还需要四个重定向核心,而且此前随机核心的位置要换上重定向核心.虚空漫步者之门需要六种元始要素各150点方可完成建造.<BR>建造完成后,还需在门四周放置四个邪术之眼,并需要在中心基座放置一柄含六种元始要素各120点的法杖或手杖.<BR>一旦门吸收了足够多的要素,最上方的节点将会变为传送门.
+gadomancy.research_page.E_PORTAL_CREATOR.4=毫无意外的是,这道路的问题的解,就在那邪术方尖碑里.这古代机械包括了一个节点,而这节点却有足够的灵气,以维持一个小型的传送门的开启.通过修改复合源质换能器的工作方式,以模仿方尖碑的工作方式,你可以做到和方尖碑一样的vis重定向.<BR>这个新的核心和普通的随机核心不同,因为它需要放置在节点操纵仪上才能工作.
+gadomancy.research_page.E_PORTAL_CREATOR.6=要搭建门的框架,仍需要一个普通的节点操纵仪结构,但外部还需要四个重定向核心,而且此前随机核心的位置要换上重定向核心.虚空漫步者之门需要六种元始源质各150单位方可完成建造.<BR>建造完成后,还需在门四周放置四个邪术之眼,并需要在中心基座放置一柄含六种元始源质各120单位的法杖或手杖.<BR>一旦门吸收了足够多的源质,最上方的节点将会变为传送门.
 gadomancy.research_page.E_PORTAL_CREATOR.8=第一眼望去,你认为它和邪术传送门很像,但靠近了看,你能感受到它强大的力量,而且很不稳定.你已经看到了结局:这个门绝不可能在一个实体通过后生还,所以你不可能再从这个门回来.步入虚空漫步者之门后,你感受到了一种奇怪的预感和启示,同时你感觉有几百双上古时代的眼睛在注视着你缓缓走向深渊...
 
 tc.research_name.GADOMANCY.BLOCK_PROTECTOR=虚弱力场发射器
@@ -129,7 +129,7 @@ gadomancy.research_page.E_DECO_BLOCKS.1=其中一些石头具有独特的性质,
 
 tc.research_name.GADOMANCY.GROWING=生长中的节点
 tc.research_text.GADOMANCY.GROWING=喂饱我西摩
-gadomancy.research_page.GROWING.1=这节点...与众不同.<BR>你只是希望充能节点是我们唯一可靠的vis来源,但这灵气节点看上去也十分稳定.对一个灵气节点充能会直接从其源头抽取Vis到这个世界中,然后破坏它的要素直至元始要素.<BR>但是...这节点的行为确实和别的不一样.它看上去似乎在找什么...它看上去...在躁动.这种奇怪行为使得你开始担忧起来.
+gadomancy.research_page.GROWING.1=这节点...与众不同.<BR>你只是希望充能节点是我们唯一可靠的vis来源,但这灵气节点看上去也十分稳定.对一个灵气节点充能会直接从其源头抽取Vis到这个世界中,然后破坏它的源质直至元始源质.<BR>但是...这节点的行为确实和别的不一样.它看上去似乎在找什么...它看上去...在躁动.这种奇怪行为使得你开始担忧起来.
 gadomancy.research_page.GROWING.2=它究竟在找什么?就我有限的学识来说,这很像是饕餮节点,但是就是有什么事情令节点十分不安.
 
 tc.research_name.GADOMANCY.GROWING_AGGRESSION=侵略行为
@@ -138,8 +138,8 @@ gadomancy.research_page.GROWING_AGGRESSION.1=忽然,也不知从何而来,节点
 
 tc.research_name.GADOMANCY.GROWING_GROWTH=生长行为
 tc.research_text.GADOMANCY.GROWING_GROWTH=捉摸不定
-gadomancy.research_page.GROWING_GROWTH.1=节点开始展现出类似饕餮节点的行为,换句话说,它开始生长了.<BR>但,和普通饕餮节点的不同似乎在于,它似乎只会吸引含有纯净要素的物体,例如小精灵和天域之华.<LINE>随着研究深入,你发现这些纯净的要素似乎会和节点融为一体.要素球和小精灵被吸收得最多,因为它们也最纯净.
-gadomancy.research_page.GROWING_GROWTH.2=以源质形式存在的物质化或固体化vis,比如魔豆,天域之华或者晶化源质也可以被吸收,但是你觉得你给节点扔这些东西时应当小心谨慎...<BR>不过这个节点仍然比饕餮节点好得多.和身为哥哥的饕餮节点相比,这节点似乎会保留所有的复合要素,而不是将其分解为元始要素.似乎有什么东西在对抗元始要素...
+gadomancy.research_page.GROWING_GROWTH.1=节点开始展现出类似饕餮节点的行为,换句话说,它开始生长了.<BR>但,和普通饕餮节点的不同似乎在于,它似乎只会吸引含有纯净源质的物体,例如小精灵和天域之华.<LINE>随着研究深入,你发现这些纯净的源质似乎会和节点融为一体.要素球和小精灵被吸收得最多,因为它们也最纯净.
+gadomancy.research_page.GROWING_GROWTH.2=以源质形式存在的物质化或固体化vis,比如魔豆,天域之华或者晶化源质也可以被吸收,但是你觉得你给节点扔这些东西时应当小心谨慎...<BR>不过这个节点仍然比饕餮节点好得多.和身为哥哥的饕餮节点相比,这节点似乎会保留所有的复合源质,而不是将其分解为元始源质.似乎有什么东西在对抗元始源质...
 
 tc.research_name.GADOMANCY.GROWING_ATTACK=破坏行为
 tc.research_text.GADOMANCY.GROWING_ATTACK=停止欺凌!
@@ -147,22 +147,22 @@ gadomancy.research_page.GROWING_ATTACK.1=似乎生长中的节点不会欺负其
 
 tc.research_name.GADOMANCY.GROWING_GROWTHCLUE=生长的秘密
 tc.research_text.GADOMANCY.GROWING_GROWTHCLUE=解释清楚的生长
-gadomancy.research_page.GROWING_GROWTHCLUE.1=最终你终于弄清楚了节点生长背后掩藏的秘密和它潜在的危险!<LINE>以多种要素喂养的节点会变得稳定.若是只以一种要素喂养节点,节点最终会停止生长,变得不稳定,因为它已经过于饱和.<BR>它确实只能吸收纯净的要素.天域之华,晶化源质和魔豆只是弱物质化的vis而已,节点和它们的反应并不明显...
+gadomancy.research_page.GROWING_GROWTHCLUE.1=最终你终于弄清楚了节点生长背后掩藏的秘密和它潜在的危险!<LINE>以多种源质喂养的节点会变得稳定.若是只以一种源质喂养节点,节点最终会停止生长,变得不稳定,因为它已经过于饱和.<BR>它确实只能吸收纯净的源质.天域之华,晶化源质和魔豆只是弱物质化的vis而已,节点和它们的反应并不明显...
 gadomancy.research_page.GROWING_GROWTHCLUE.2=节点除了会吞噬天域之华外,它似乎还很喜欢小精灵和要素球.似乎最好的选择是拿节点来喂节点...然而这开销也太高了.<LINE>同时也伴随着巨大风险.节点越是饱和,其攻击也越频繁,伤害也越大.你现在开始思考,当节点完全饱和的时候会发生什么...
 
 tc.research_name.GADOMANCY.AURA_CORE=魔灵核心
 tc.research_text.GADOMANCY.AURA_CORE=你周围的物质!
 gadomancy.research_page.AURA_CORE.1=那元始魔力所拥有的奇怪性质已困扰你多时了.它奇异的性质在你的脑海中时刻挥之不去.那魔力的性质与众不同:它不停地迸出元始能量的火花,不停地改变着颜色,这一切都使得其难以利用.在将它封印在晶化的神秘金属中后,它那近乎暴怒的脾气被遏制了,同时也变成了相当有用的东西:魔灵核心.
-gadomancy.research_page.AURA_CORE.3=和一开始的元始魔力不同,合成魔灵核心时,大部分元始能量都被去掉了.这使得魔灵核心对于周围环境的灵气异常敏感.将一个魔灵核心丢在不同的魔晶附近并以法杖激活魔晶,即可将核心封装在一层水晶之中,使得核心只亲和于一种元始要素.一共有六种互不相同的核心可以制作.<BR> 想要知道各种魔灵核心的作用,你需要制造魔灵核心并扫描它.
+gadomancy.research_page.AURA_CORE.3=和一开始的元始魔力不同,合成魔灵核心时,大部分元始能量都被去掉了.这使得魔灵核心对于周围环境的灵气异常敏感.将一个魔灵核心丢在不同的魔晶附近并以法杖激活魔晶,即可将核心封装在一层水晶之中,使得核心只亲和于一种元始源质.一共有六种互不相同的核心可以制作.<BR> 想要知道各种魔灵核心的作用,你需要制造魔灵核心并扫描它.
 
 tc.research_name.GADOMANCY.CLEAN_AURA_CORE=核心清理
 tc.research_text.GADOMANCY.CLEAN_AURA_CORE=犯错
-gadomancy.research_page.CLEAN_AURA_CORE.1=将魔灵核心变回原来的样子已经证明是极为简单的过程.将要素核心丢入特制的源质浴池中即可让过多的元始能量结晶自动脱落,全程不会损伤魔灵核心.
+gadomancy.research_page.CLEAN_AURA_CORE.1=将魔灵核心变回原来的样子已经证明是极为简单的过程.将源质核心丢入特制的源质浴池中即可让过多的元始能量结晶自动脱落,全程不会损伤魔灵核心.
 
 tc.research_name.GADOMANCY.AURA_PYLON=魔灵法柱
 tc.research_text.GADOMANCY.AURA_PYLON=扩散源质
 gadomancy.research_page.AURA_PYLON.1=魔灵法柱是个可以发挥火系魔灵核心特性的设备.这个设备可以让源质变得不稳定并蒸发到周围的灵气中.这个过程有点缓慢,而且源质也需要时间来达到最大浓度.当浓度足够时,这灵气就能影响周围的环境了.
-gadomancy.research_page.AURA_PYLON.4=在你完成了魔灵尖柱的组合之后,在其之下供奉(即丢弃)一块晶化源质.魔灵法柱将会吸收该晶化源质并调节出相应的灵气光团.一旦法柱顶部的光团颜色改变,那么就能将相应颜色的要素输入到法柱的底部.若要移除晶化源质,只需要接近魔灵尖柱,那块碎片会自动流进你的手中.<BR>至于从何得知不同源质的不同效果,你觉得你只能靠自己亲自动手实验了.
+gadomancy.research_page.AURA_PYLON.4=在你完成了魔灵尖柱的组合之后,在其之下供奉(即丢弃)一块晶化源质.魔灵法柱将会吸收该晶化源质并调节出相应的灵气光团.一旦法柱顶部的光团颜色改变,那么就能将相应颜色的源质输入到法柱的底部.若要移除晶化源质,只需要接近魔灵尖柱,那块碎片会自动流进你的手中.<BR>至于从何得知不同源质的不同效果,你觉得你只能靠自己亲自动手实验了.
 
 tc.research_name.GADOMANCY.AURA_EFFECTS=魔灵之影响
 tc.research_text.GADOMANCY.AURA_EFFECTS=那些扩散的源质究竟有何效果
@@ -176,7 +176,7 @@ gadomancy.research_page.ARCANE_PACKAGER.4=一个包裹最多能装九组物品,�
 
 tc.research_name.GADOMANCY.REVEALER=神秘视觉
 tc.research_text.GADOMANCY.REVEALER=看着那已经看到的东西
-gadomancy.research_page.REVEALER.1=在进一步研究揭示护目镜后,你最终创造出了一种新附魔,可以为任何头盔赋予与揭示护目镜相同的效果.<BR>佩戴有此附魔的头盔的玩家可直接看到灵气节点以及要素罐子中的源质数量.但这个附魔并不能带来vis减免.
+gadomancy.research_page.REVEALER.1=在进一步研究揭示护目镜后,你最终创造出了一种新附魔,可以为任何头盔赋予与揭示护目镜相同的效果.<BR>佩戴有此附魔的头盔的玩家可直接看到灵气节点以及源质罐子中的源质数量.但这个附魔并不能带来vis减免.
 
 tc.research_name.GADOMANCY.ARMORDISGUISE=护甲伪装术
 tc.research_text.GADOMANCY.ARMORDISGUISE=让我们来玩玩吧!
@@ -244,7 +244,7 @@ gadomancy.aura.effect.auram_0=释放vis
 gadomancy.aura.effect.auram_1=到大气中
 gadomancy.aura.effect.bestia=召唤野兽
 gadomancy.aura.effect.cognitio_0=授予更多有关
-gadomancy.aura.effect.cognitio_1=元始要素之知识
+gadomancy.aura.effect.cognitio_1=元始源质之知识
 gadomancy.aura.effect.exanimis=支援不死族
 gadomancy.aura.effect.fabrico=增强傀儡
 gadomancy.aura.effect.gelum_0=冷却周围
@@ -329,6 +329,6 @@ potion.luck=幸运提升
 potion.buffGolem=傀儡增益
 potion.achromatic=大惊失色
 potion.eldritch=邪术
-potion.visdiscount=魔力亲和
+potion.visdiscount=Vis亲和
 
 gadomancy.enchantment.revealer=神秘视觉

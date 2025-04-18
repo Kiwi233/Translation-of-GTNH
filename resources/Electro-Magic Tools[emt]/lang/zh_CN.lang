@@ -28,7 +28,7 @@ tooltip.EMT.hammer.broken.thor=它曾经是属于托尔的雷神之锤
 tooltip.EMT.hammer.broken.danger=现在它充满着危险的能量
 tooltip.EMT.hammer.broken.plsNoRightClick=千万不要使用
 tooltip.EMT.hammer.broken.plsRightClick=右键使用
-tooltip.EMT.visDiscount=魔力减免
+tooltip.EMT.visDiscount=Vis减免
 tooltip.EMT.specialEffect=特殊效果
 tooltip.EMT.normalConditions=普通状态
 tooltip.EMT.euPerTick=EU/t
@@ -41,7 +41,7 @@ tooltip.EMT.underwater=水下发电量
 tooltip.EMT.output.double=输出2倍电量
 tooltip.EMT.output.triple=输出3倍电量
 tooltip.EMT.output.double.nether=处于下界时发电量
-tooltip.EMT.output.double.lava=每秒供给0.01vis火之要素时发电量
+tooltip.EMT.output.double.lava=每秒供给0.01点火之源质时发电量
 tooltip.EMT.output.double.half.height=位置越高发电量越高(y=5时1倍，y=220时3倍)
 tooltip.EMT.output.double.half.low=位置越低发电量越高(y=220时1倍，y=5时3倍)
 
@@ -211,15 +211,15 @@ emt.text.Thaumium Chainsaw=你发现了一个将神秘力量融入钻石电锯�
 
 emt.rsname.Electric Goggles=电子揭示护目镜
 emt.tag.Electric Goggles=两侧的顶尖技术
-emt.text.Electric Goggles=你已发现了一种用纯电子设备观测灵气的方法,这意味着你不必再消耗神秘的能量.你现在可以制作出一副能被充电的揭示护目镜,你能像之前那样用它观测节点.为了给电路提供空间并保护敏感的魔力感知电路你需要一个钻石头盔,这也提供了额外的护甲保护.
+emt.text.Electric Goggles=你已发现了一种用纯电子设备观测灵气的方法,这意味着你不必再消耗神秘的能量.你现在可以制作出一副能被充电的揭示护目镜,你能像之前那样用它观测节点.为了给电路提供空间并保护敏感的vis感知电路你需要一个钻石头盔,这也提供了额外的护甲保护.
 
 emt.rsname.Nanosuit Goggles of Revealing=纳米揭示护目镜
 emt.tag.Nanosuit Goggles of Revealing=高级眼部防护
-emt.text.Nanosuit Goggles of Revealing=你已发现了一种无需移动太多就能将你之前的魔力感应器融入纳米头盔的方法.通过给纳米头盔注魔,你将能用它看见灵气节点.在这个魔法过程中,夜视用的控制芯片被用于代替吸收多余魔法能量的电容和魔力感应微芯片.以防你不小心关闭了夜视.
+emt.text.Nanosuit Goggles of Revealing=你已发现了一种无需移动太多就能将你之前的Vis感应器融入纳米头盔的方法.通过给纳米头盔注魔,你将能用它看见灵气节点.在这个魔法过程中,夜视用的控制芯片被用于代替吸收多余魔法能量的电容和vis感应微芯片.以防你不小心关闭了夜视.
 
 emt.rsname.Quantum Goggles of Revealing=量子揭示护目镜
 emt.tag.Quantum Goggles of Revealing=更高级的双重保护
-emt.text.Quantum Goggles of Revealing=这期间出现了许多的尝试和错误,但你已找到了一种方法来将魔力感应器加入量子头盔里.通过给量子头盔注魔,你将能用它看见灵气节点.在设计的过程中,你需要将几个包含夜视和自动补充饱食度的控制芯片替换成魔力感知电路和电容,用于吸收过量的魔法能量.你发现使用激光采矿枪时它能安全地确认准星并控制爆炸的冲击.玩的愉快.有了它再也不用夜视药水和补充食物了.
+emt.text.Quantum Goggles of Revealing=这期间出现了许多的尝试和错误,但你已找到了一种方法来将Vis感应器加入量子头盔里.通过给量子头盔注魔,你将能用它看见灵气节点.在设计的过程中,你需要将几个包含夜视和自动补充饱食度的控制芯片替换成Vis感知电路和电容,用于吸收过量的魔法能量.你发现使用激光采矿枪时它能安全地确认准星并控制爆炸的冲击.玩的愉快.有了它再也不用夜视药水和补充食物了.
 
 emt.rsname.Iron Omnitool=铁制钻锯
 emt.tag.Iron Omnitool=为农夫准备的便利工具
@@ -235,7 +235,7 @@ emt.text.Thaumium Omnitool=在创作了钻石钻锯和铁钻锯之后,下一步�
 
 emt.rsname.Explosion Focus=法杖核心:爆炸
 emt.tag.Explosion Focus=请在开阔处使用
-emt.text.Explosion Focus=你已发现了一种通过将蝙蝠换为更具爆炸性的采矿激光来修改九狱核心的方法.这个核心工作时类似激光采矿枪但是它使用魔力而不是电力.这个核心很不稳定所以记着小心点.
+emt.text.Explosion Focus=你已发现了一种通过将蝙蝠换为更具爆炸性的采矿激光来修改九狱核心的方法.这个核心工作时类似激光采矿枪但是它使用Vis而不是电力.这个核心很不稳定所以记着小心点.
 
 emt.rsname.Kris-tmas Focus=法杖核心:圣诞
 emt.tag.Kris-tmas Focus=吼!吼!吼!
@@ -250,24 +250,24 @@ emt.tag.Wand Focus: Maintenance=有了魔法谁还需要工具箱？
 emt.text.Wand Focus: Maintenance=在深入研究了设备的机械特性之后,你终于做到了,发现了一种可以在修理中使用vis的方法.<BR>在纯粹的进步面前,几座爆炸的超净间算什么?现在你可以摆脱那些卑鄙的世俗工具了...
 
 emt.rsname.Potentia Generator=能量源质发电机
-emt.tag.Potentia Generator=利用要素源质来发电
-emt.text.Potentia Generator=在许多的学习与研究后,你终于发现了如何从多余的要素源质中提取电力.<BR><BR>只需要在机器边8格范围内放置一个装有能量要素源质的罐子它就会吸收要素源质产生电力.<BR><BR>尽管能量是产生电力最合理的的选择,但你相信经过一些探索在未来你能从其他不同的要素源质中获得电力.
+emt.tag.Potentia Generator=利用源质来发电
+emt.text.Potentia Generator=在许多的学习与研究后,你终于发现了如何从多余的源质中提取电力.<BR><BR>只需要在机器边8格范围内放置一个装有能量源质的罐子它就会吸收源质产生电力.<BR><BR>尽管能量是产生电力最合理的的选择,但你相信经过一些探索在未来你能从其他不同的源质中获得电力.
 
 emt.rsname.Lucrum Generator=贪婪源质发电机
 emt.tag.Lucrum Generator=贪婪也是能量...?
-emt.text.Lucrum Generator=你的贪婪驱使你不断前进,所以你找到了将贪婪要素源质转化为电力的方法.<BR><BR>通过向能量源质发电机中注入大量的金、交换要素和贪婪要素,你成功地建造了一个强大的发电机.<BR><BR>但如你所料,注魔并不稳定，若是没有准备完全那将很容易失败.
+emt.text.Lucrum Generator=你的贪婪驱使你不断前进,所以你找到了将贪婪源质转化为电力的方法.<BR><BR>通过向能量源质发电机中注入大量的金、交换源质和贪婪源质,你成功地建造了一个强大的发电机.<BR><BR>但如你所料,注魔并不稳定，若是没有准备完全那将很容易失败.
 
 emt.rsname.Ignis Generator=火之源质发电机
 emt.tag.Ignis Generator=如果你不能掌控那热量...
-emt.text.Ignis Generator=就如你所想的,通过一点调整,你已经找到了代替火要素源质产生能量的方法.在机器内部,它会消耗火要素来加热水.通过这种热量产生的蒸汽驱动涡轮机运作,就像一个典型的发电机.
+emt.text.Ignis Generator=就如你所想的,通过一点调整,你已经找到了代替火源质产生能量的方法.在机器内部,它会消耗火来加热水.通过这种热量产生的蒸汽驱动涡轮机运作,就像一个典型的发电机.
 
 emt.rsname.Auram Generator=灵气源质发电机
 emt.tag.Auram Generator=利用空气中的魔力
-emt.text.Auram Generator=尽管比你最初的想法用了更多的努力,你已经发现了一种用灵气要素源质产生电力的方法.这需要一个完全的机器改造,依靠灵气脉动的魔法能量来带动发电机工作.
+emt.text.Auram Generator=尽管比你最初的想法用了更多的努力,你已经发现了一种用灵气源质产生电力的方法.这需要一个完全的机器改造,依靠灵气脉动的魔法能量来带动发电机工作.
 
 emt.rsname.Arbor Generator=木之源质发电机
 emt.tag.Arbor Generator=让发电回到基础
-emt.text.Arbor Generator=总有许多多余的树木要素源质在你的身边.不再是这样了!通过修改最初的能量要素源质发电机,你已经发现了使用树木要素源质发电的方法.
+emt.text.Arbor Generator=总有许多多余的树木源质在你的身边.不再是这样了!通过修改最初的能量源质发电机,你已经发现了使用树木源质发电的方法.
 
 emt.rsname.Aer Generator=风之源质发电机
 emt.tag.Aer Generator=压缩周围的风
@@ -307,7 +307,7 @@ emt.text.Supercharged Mjolnir=在对各个世界和维度中的地牢进行探�
 
 emt.rsname.Industrial Wand Charging Station=工业法杖充能站
 emt.tag.Industrial Wand Charging Station=用工业的方式为你的法杖充能
-emt.text.Industrial Wand Charging Station=你已试着将法杖充能基座和强大的UU物质结合起来.结果得到了一个能再生法杖魔力的机器,回复每种要素魔力1vis将会消耗50000EU.
+emt.text.Industrial Wand Charging Station=你已试着将法杖充能基座和强大的UU物质结合起来.结果得到了一个能再生法杖Vis的机器,回复每种vis1点将会消耗50000EU.
 
 emt.rsname.Compressed Solars=压缩太阳能发电机
 emt.tag.Compressed Solars=增加发电效率!
@@ -375,7 +375,7 @@ emt.text.Earth Infused Solar Panels=你已决定向地心更进一步.这些太�
 
 emt.rsname.UU-Matter Infusion=UU物质注魔
 emt.tag.UU-Matter Infusion=蕴含魔力的百变液体...
-emt.text.UU-Matter Infusion=你总是觉得UU物质拥有的力量十分奇特,甚至...看起来像魔法般神奇,特别是大量种类的正确排列能合成物质.然后现在,你已发现了通过注魔合成塑造uu液体的方法.你能使用许多种合成,并且他们大都消耗4~32单位每种基础要素源质.
+emt.text.UU-Matter Infusion=你总是觉得UU物质拥有的力量十分奇特,甚至...看起来像魔法般神奇,特别是大量种类的正确排列能合成物质.然后现在,你已发现了通过注魔合成塑造uu液体的方法.你能使用许多种合成,并且他们大都消耗4~32单位每种基础源质.
 
 emt.rsname.Portable Node=便携式节点
 emt.tag.Portable Node=处处实用
@@ -386,7 +386,7 @@ emt.tag.Electric Hoe of Growth=惊人的自然力量
 emt.text.Electric Hoe of Growth=你试着升级你的句芒锄.现在它对土地和植物就像之前的句芒锄一样工作.<BR><BR>然而,对你来说这个工具里的魔力过于强力难以全部转为使用一般电力的性能,在它用坏前你还会有几次使用的次数,它是可充电的.
 
 emt.rsname.Wand Focus: Charging=法杖核心:充电
-emt.tag.Wand Focus: Charging=从魔力到电力
+emt.tag.Wand Focus: Charging=从电力到魔力
 emt.text.Wand Focus: Charging=你意识到你总是随身带着一支法杖和你的电子设备.但有时,你用光了电子工具里的电.因此你做出了这个核心.它很简单也很实用,将法杖的魔力转化为一般的电力来给物品充电.
 
 emt.rsname.Wand Focus: Wand Charging=法杖核心:化魔

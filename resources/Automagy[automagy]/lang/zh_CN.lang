@@ -65,7 +65,7 @@ tile.blockRedcrystalDense.name=钝化红晶
 tile.blockRedcrystalRes.name=共鸣红晶
 tile.blockRedcrystalMerc.name=镜像红晶
 tile.blockRemoteComparator.name=远程比较器
-tile.blockVisReader.name=要素读取器
+tile.blockVisReader.name=Vis读取器
 tile.blockHourglass.name=沙漏
 tile.blockHourglassMagic.name=魔法沙漏
 tile.blockGreedyChest.name=贪婪箱子
@@ -156,7 +156,7 @@ tc.research_category.AUTOMAGY=自动化魔法
 
 Automagy.research_name.SLIVERS=魔力裂片
 Automagy.research_text.SLIVERS=碎片的碎片
-Automagy.research_page.SLIVERS.1=你发现了一种,可以将各种魔力碎片碎成更小部分的方法.当使用整个碎片(如果可以称其为完整的话)对于手头的任务来说是不必要的,甚至是浪费的时候,这就很有用了.<BR>不幸的是,将它们重组为碎片实为难事.因此制造一个碎片会比粉碎它消耗更多的要素.
+Automagy.research_page.SLIVERS.1=你发现了一种,可以将各种魔力碎片碎成更小部分的方法.当使用整个碎片(如果可以称其为完整的话)对于手头的任务来说是不必要的,甚至是浪费的时候,这就很有用了.<BR>不幸的是,将它们重组为碎片实为难事.因此制造一个碎片会比粉碎它消耗更多的Vis.
 
 Automagy.research_name.SLIVERS_TRAVEL=旅行者铺路石
 Automagy.research_text.SLIVERS_TRAVEL=行以致远
@@ -200,7 +200,7 @@ Automagy.research_page.REDCRYSTAL_DENSE.1=钝化红晶的特殊构造使得弱�
 
 Automagy.research_name.REDCRYSTAL_RES=共鸣红晶
 Automagy.research_text.REDCRYSTAL_RES=无需连接
-Automagy.research_page.REDCRYSTAL_RES.1=在你制作各种红晶的初始阶段,你试验了各种元始要素.风要素显露出了独特而有趣的振荡能量,但因其强度太弱不能投入实际运用.进一步研究后,你现在能将那种能量聚集在特定方向上,使其能被远距离接收.<BR>共鸣红晶通过空气和类似的物体来直线传输红石信号,直到其被另一个共鸣红晶接收到.因此两个红晶必须面对面放置(若一个附着在方块底部,
+Automagy.research_page.REDCRYSTAL_RES.1=在你制作各种红晶的初始阶段,你试验了各种元始源质.风源质显露出了独特而有趣的振荡能量,但因其强度太弱不能投入实际运用.进一步研究后,你现在能将那种能量聚集在特定方向上,使其能被远距离接收.<BR>共鸣红晶通过空气和类似的物体来直线传输红石信号,直到其被另一个共鸣红晶接收到.因此两个红晶必须面对面放置(若一个附着在方块底部,
 Automagy.research_page.REDCRYSTAL_RES.2=另一个就必须附着在方块顶端并且位于其下方).<BR>信号最多可以跨越15格传输.强度在这过程中没有衰减,就好像两个水晶相邻放置的一样.
 
 Automagy.research_name.REDCRYSTAL_MIRRORBOUND=镜像红晶
@@ -218,7 +218,7 @@ Automagy.research_page.GREEDYCHEST.ENCHANTEDPAPER=§l      §n附魔纸§r<BR>�
 
 Automagy.research_name.ENCHANTEDPAPER=附魔纸
 Automagy.research_text.ENCHANTEDPAPER=规章条文
-Automagy.research_page.ENCHANTEDPAPER.1=有时手写的指令并不能完全表达你想的东西...尤其是在你需要魔法时.<BR>通过向普通的纸中注入魔力并印上金色的符文,你就能做出让你的设备按你所想而执行工作的附魔纸.<BR>最平常的用途就是用来制作白名单和黑名单,它们用于指示奥术设备如贪婪箱子所能"看见"的物品.
+Automagy.research_page.ENCHANTEDPAPER.1=有时手写的指令并不能完全表达你想的东西...尤其是在你需要魔法时.<BR>通过向普通的纸中注入Vis并印上金色的符文,你就能做出让你的设备按你所想而执行工作的附魔纸.<BR>最平常的用途就是用来制作白名单和黑名单,它们用于指示奥术设备如贪婪箱子所能"看见"的物品.
 Automagy.research_page.ENCHANTEDPAPER.2=你能在保持已写入配置不变的条件下将白名单变为黑名单(或者反过来).<BR>你也能从一张名单中将过滤配置复制到另一张名单上(种类不限),只需将它们俩放入奥术工作台即可.配置信息就会拷入另一张名单(当然这个过程不会消耗第一张名单).
 Automagy.research_page.ENCHANTEDPAPER.3=§l        §n附魔§r<BR>附魔纸也能装订成书.用这些书所制成的书架能提供四倍于原版书架的附魔加成(对附魔台而言),因此只需4个这样的书架就可以在附魔台进行30级的附魔了.
 
@@ -242,7 +242,7 @@ Automagy.research_name.AVARICIOUS=贪婪之物
 Automagy.research_text.AVARICIOUS=为了乐趣和利益
 Automagy.research_page.AVARICIOUS.1=在试验了贪婪珍珠之后,你记录两条重要的观测结果.第一,珍珠有着吸引附近的物品并将它们送回投掷它的人或机器.第二,当被用于允许的范围之外时,它是不稳定的.它转移的物品越多,就越可能伤害到它的使用者或者碎裂.<BR>进行了一些研究后,你发现了方法强化这个珍珠.另一方面,你知道即便是这些碎片也有使用的潜力,所以你想出了种更有效获取它们的方法.
 Automagy.research_page.AVARICIOUS.2=贪婪珍珠碎片一个有趣的性质就是当你带着它时,末影人似乎更易出现在你的附近.或许它们是在潜意识里被碎片散发到空中的末影魔力所吸引了.
-Automagy.research_page.AVARICIOUS.3=§l       §n吝物珍珠§r<BR>吝物珍珠在拾取散落的物品上比贪婪珍珠更胜一筹.它不仅不会因使用次数过多而碎裂或伤害使用者,而且能使物品像飞向你一样移动.<BR>你需要清楚它的一些缺点.首先,每次投掷最多移动10组物品,但这个限制比起末影珍珠和其他材料的节省来说还是值得的.<BR>其次,手动使用时珍珠会消耗少量§8Ordo§0要素.需要随身带着能提供要素的东西-但你总是带着根法杖不是么?
+Automagy.research_page.AVARICIOUS.3=§l       §n吝物珍珠§r<BR>吝物珍珠在拾取散落的物品上比贪婪珍珠更胜一筹.它不仅不会因使用次数过多而碎裂或伤害使用者,而且能使物品像飞向你一样移动.<BR>你需要清楚它的一些缺点.首先,每次投掷最多移动10组物品,但这个限制比起末影珍珠和其他材料的节省来说还是值得的.<BR>其次,手动使用时珍珠会消耗少量§8Ordo§0Vis.需要随身带着能提供Vis的东西-但你总是带着根法杖不是么?
 
 Automagy.research_name.EAGERCHEST=易物箱子
 Automagy.research_text.EAGERCHEST=一个急着被装满的箱子
@@ -256,7 +256,7 @@ Automagy.research_page.TENACIOUSCHEST.2=但这种行为的真正目的却是:让
 
 Automagy.research_name.ENDERDISJUNCTION=影裂指环
 Automagy.research_text.ENDERDISJUNCTION=绽裂吧,千本影
-Automagy.research_page.ENDERDISJUNCTION.1=你对于贪婪珍珠和末影人恐吓之间联系的研究终于有了回报.你制作了一个指环,戴在手上时,它就会钩住末影生物制造的隐形的瞬移路径.附近发生的每次瞬移(不管是瞬移来还是瞬移走)都会被这些钩子强行撕扯,重伤瞬移的末影生物.<BR>它的能力需要有§8Perditio§0要素的供应源(如法杖).每当有生物因它受到伤害时就会抽取少量的魔力.
+Automagy.research_page.ENDERDISJUNCTION.1=你对于贪婪珍珠和末影人恐吓之间联系的研究终于有了回报.你制作了一个指环,戴在手上时,它就会钩住末影生物制造的隐形的瞬移路径.附近发生的每次瞬移(不管是瞬移来还是瞬移走)都会被这些钩子强行撕扯,重伤瞬移的末影生物.<BR>它的能力需要有§8Perditio§0Vis的供应源(如法杖).每当有生物因它受到伤害时就会抽取少量的Vis.
 Automagy.research_page.ENDERDISJUNCTION.RUNICAUGMENTATION=§l      §n符文护盾§r<BR>你对于§l符文护盾升级§r的研究应该能用在这个指环上,你若能承担得起注魔成本就能让它能提供符文护盾.
 
 Automagy.research_name.NITORLIGHT=闪耀琥珀方块
@@ -268,15 +268,15 @@ Automagy.research_text.REMOTECOMPARATOR=嘿,我在看着箱子呢
 Automagy.research_page.REMOTECOMPARATOR.1=信号能反映出箱子内物品的多少然而红石比较器的放置经常会妨碍到其他事情.考虑到这个,你发明了远程比较器.它以一个容器的储存状态为基础输出信号,就像红石比较器那样,但它不一定要贴着容器放置.它也能作用于一些普通比较器无法检测的容器,包括许多神秘学相关的.<BR>当然,还有必要需要告诉它应检测哪一个设备.幸运的是,你发现的晶体魔法能起到帮助.
 Automagy.research_page.REMOTECOMPARATOR.2=§l      §n水晶之眼§r<BR>一个水晶之眼能用于让特定的神秘设备监测其他坐标的对象.用眼睛右击需要监测的方块就能指定位置.之后,只需将设定好的眼睛放入设备提供的槽中即可.<BR>在指定坐标系中监测设备的距离有一个限制.该限制默认是20格但部分设备可能还有其他要求.
 
-Automagy.research_name.VISREADER=要素读取器
+Automagy.research_name.VISREADER=Vis读取器
 Automagy.research_text.VISREADER=看着坩埚?我有特别的技巧..
-Automagy.research_page.VISREADER.1=测量容器内的空区是个简单活儿,但涉及到要素的种类和数量就是另一回事了.如何解决?就需要要素读取器了.<BR>从要素罐子到坩埚再到灵气节点,它会根据测定对象的要素组成来输出红石信号.它甚至能读取法杖的要素,前提是法杖放在了合适的设备上.<BR>它有两种工作方式.最简单的就是直接放在要读取的对象的下方.另一种就是将一个远程比较器放在读取器上方,再将它的水晶之眼连接到目标位置.
-Automagy.research_page.VISREADER.2=比较器就会终止其原本的功能,成为向读取器传递要素信息的媒介.<BR>用你的法杖右击要素读取器就能打开设置界面.<BR>§l§n设置§r<BR>要素读取器输出的信号强度由它的设置和检测的要素决定.信号强度的标准类似比较器的容器检测:容器已满时强度15,空时强度0,其余的在之间变化.你可以放入§l罐子标签§r来过滤要素类型.<BR>§l反转模式:§r 空时输出满强度信号
-Automagy.research_page.VISREADER.3=而满时不输出信号,其余的状态则与默认的相反.<BR>§l总计模式:§r 所有要素的计数总量与容量相比.<BR>§l任意(高)模式:§r 计数量最大的要素量与容量相比.若是§l节点§r,详见下一页.<BR>§l任意(低)模式:§r 计数量最小的要素量与容量相比.若是§l节点§r,详见下一页.<BR>§l容量:§r 计为满信号强度的那个值.如果设为§l自动§r,要素读取器就会根据所检测的对象自动
+Automagy.research_page.VISREADER.1=测量容器内的空区是个简单活儿,但涉及到Vis的种类和数量就是另一回事了.如何解决?就需要Vis读取器了.<BR>从源质罐子到坩埚再到灵气节点,它会根据测定对象的Vis组成来输出红石信号.它甚至能读取法杖的Vis,前提是法杖放在了合适的设备上.<BR>它有两种工作方式.最简单的就是直接放在要读取的对象的下方.另一种就是将一个远程比较器放在读取器上方,再将它的水晶之眼连接到目标位置.
+Automagy.research_page.VISREADER.2=比较器就会终止其原本的功能,成为向读取器传递Vis信息的媒介.<BR>用你的法杖右击Vis读取器就能打开设置界面.<BR>§l§n设置§r<BR>Vis读取器输出的信号强度由它的设置和检测的源质决定.信号强度的标准类似比较器的容器检测:容器已满时强度15,空时强度0,其余的在之间变化.你可以放入§l罐子标签§r来过滤源质类型.<BR>§l反转模式:§r 空时输出满强度信号
+Automagy.research_page.VISREADER.3=而满时不输出信号,其余的状态则与默认的相反.<BR>§l总计模式:§r 所有要素的计数总量与容量相比.<BR>§l任意(高)模式:§r 计数量最大的要素量与容量相比.若是§l节点§r,详见下一页.<BR>§l任意(低)模式:§r 计数量最小的要素量与容量相比.若是§l节点§r,详见下一页.<BR>§l容量:§r 计为满信号强度的那个值.如果设为§l自动§r,Vis读取器就会根据所检测的对象自动
 Automagy.research_page.VISREADER.4=选择容量(若可行的话).<BR>§l节点:§r 读取对象为节点时,容量设为§l自动§r,模式选择为§l任意§r时,容量就会由特定要素的最大检测值而不是所有要素的来决定.用于对比的要素就是相对于自身容量最少或最多的那种,而不是某刻要素量最多或最少的.(因此如果模式为§l任意(高)§r,某种要素占满50%,为10单位要素中的5单位,那么就会比40单位要素中10单位即25%占满的那种更优先,即使后者有更多的要素量.)
-Automagy.research_page.VISREADER.5=§l           §n节点§r<BR>当读取的目标是节点时,容量为§l自动§r,以及§l任意§r选定模式,之后的容量则为某个指定要素检测的最大值,而不是所有要素的最大值之和.而指定的要素则为相对自身容量最满或最少的那一种,而不是当前含量最高或最低的那一种.<BR>(因此如果模式为§l任意(高)§r,某种要素含量5vis,占50%,最大容量10vis,就会优先于另一种含量10vis,占25%,容量40vis的,尽管后者的要素含量更高.)
-Automagy.research_page.VISREADER.INFUSION=§l          §n注魔§r<BR>你发现要素读取器不仅能测量对象中要素的存量,还能在某个设备运行时算出其缺乏的要素量.至少,这个应该能用在注魔祭坛中.<BR>它可以根据注魔是否进行以及进行的状态来输出红石信号.
-Automagy.research_page.VISREADER.ESSENTIALOCUS=§l       §n源质聚核§r<BR>有了源质聚核的帮助,要素读取器就能对许多罐子的要素总量立刻做出反应.也可以将要素读取器放在结构中的水下或使用远程比较器连接到聚核方块本身来检测.<BR>要素读取器对聚合的检测类似于灵气节点.它根据罐子容量计算当前所含要素或标签指定要素的最大值.
+Automagy.research_page.VISREADER.5=§l           §n节点§r<BR>当读取的目标是节点时,容量为§l自动§r,以及§l任意§r选定模式,之后的容量则为某个指定要素检测的最大值,而不是所有要素的最大值之和.而指定的要素则为相对自身容量最满或最少的那一种,而不是当前含量最高或最低的那一种.<BR>(因此如果模式为§l任意(高)§r,某种要素含量5点,占50%,最大容量10点,就会优先于另一种含量10点,占25%,容量40点的,尽管后者的要素含量更高.)
+Automagy.research_page.VISREADER.INFUSION=§l          §n注魔§r<BR>你发现Vis读取器不仅能测量对象中源质的存量,还能在某个设备运行时算出其缺乏的源质量.至少,这个应该能用在注魔祭坛中.<BR>它可以根据注魔是否进行以及进行的状态来输出红石信号.
+Automagy.research_page.VISREADER.ESSENTIALOCUS=§l       §n源质聚核§r<BR>有了源质聚核的帮助,源质读取器就能对许多罐子的源质总量立刻做出反应.也可以将源质读取器放在结构中的水下或使用远程比较器连接到聚核方块本身来检测.<BR>源质读取器对聚合的检测类似于灵气节点.它根据罐子容量计算当前所含源质或标签指定源质的最大值.
 
 Automagy.research_name.TALLYBLOCK=计数盒
 Automagy.research_text.TALLYBLOCK=总共就这么多了
@@ -303,7 +303,7 @@ Automagy.research_page.AUTOHANDMIRROR.2=(超出的部分则会取走).<BR>饕餮
 
 Automagy.research_name.CRYSTALBRAIN=水晶之脑
 Automagy.research_text.CRYSTALBRAIN=智慧的结晶
-Automagy.research_page.CRYSTALBRAIN.1=晶体魔法在红石和蜘蛛眼的运用大获成功,你决定挑战个难点的:大脑.你发现这种复杂而脆弱的晶体构造需要魔法加固才能稳定下来.初始要素源质的效果似乎不错,根据所用的要素共能做出六种不同的水晶之脑.<BR>对于这些记忆储存体,你的脑海中已经浮现出了诸多潜在的应用.但具体仍需深入的研究.
+Automagy.research_page.CRYSTALBRAIN.1=晶体魔法在红石和蜘蛛眼的运用大获成功,你决定挑战个难点的:大脑.你发现这种复杂而脆弱的晶体构造需要魔法加固才能稳定下来.初始源质源质的效果似乎不错,根据所用的源质共能做出六种不同的水晶之脑.<BR>对于这些记忆储存体,你的脑海中已经浮现出了诸多潜在的应用.但具体仍需深入的研究.
 #Automagy.research_page.CRYSTALBRAIN.WIP=§o[WIP]§r Other types of crystalline brain exist but you've decided against creating any until they're actually useful. (Don't waste resources trying, either. It won't work.)
 
 Automagy.research_name.OVERSEER=奥术观察者
@@ -324,29 +324,29 @@ Automagy.research_page.GOLEMLINKER.2=比如部分傀儡会像是没有被连接�
 
 Automagy.research_name.ENTITYSIGNAL=生物感应器
 Automagy.research_text.ENTITYSIGNAL=一只羊,两只羊,三只羊.
-Automagy.research_page.ENTITYSIGNAL.1=如果能数清楚一片区域内的生物和实体数想必会很有用,用§2Terra§0要素强化过的水晶之脑便能做到这一点-它兼有对生命§r魔力与建筑方块物质的亲和力-使它更能胜任这一工作.<BR>当它所能感应范围内存在指定实体时,它就能输出红石信号.数量越多,信号越强(最强为15).你也可以将它设定为只计算成年动物,或幼年动物.<BR>设备所检验的区域由周围的方块所决定.如果一侧有空气或草,
+Automagy.research_page.ENTITYSIGNAL.1=如果能数清楚一片区域内的生物和实体数想必会很有用,用§2Terra§0源质强化过的水晶之脑便能做到这一点-它兼有对生命§r魔力与建筑方块物质的亲和力-使它更能胜任这一工作.<BR>当它所能感应范围内存在指定实体时,它就能输出红石信号.数量越多,信号越强(最强为15).你也可以将它设定为只计算成年动物,或幼年动物.<BR>设备所检验的区域由周围的方块所决定.如果一侧有空气或草,
 Automagy.research_page.ENTITYSIGNAL.2=那么该方向的检测范围就会增大一些.而如果所有的方向都是开阔的,设备就会处在检测区域的中心.如果仅有顶,北,东是开阔的,设备就会处在检测区域底部的西南角上.(默认的区域大小是11x11x11的范围.)<LINE>§l        §n兽灵之眼§r<BR>你想要指定实体的种类,便利用现有的水晶之眼做了些改进,使其能记忆一种生物,它的灵魂,或是形态特征.手持它右击生物就能记忆,之后将兽灵之眼放入设备即可.
 Automagy.research_page.ENTITYSIGNAL.3=<BR>它也能做成用于观察人类(玩家)的眼睛,无论是指定的个人或是任意的人都可以.记忆的方法和前面所讲的相同.如果要记忆自身,手持它按住shift右键几秒钟即可.
 # I see you!
 
 Automagy.research_name.THAUMOSTATICREFUELER=奥法尖塔
 Automagy.research_text.THAUMOSTATICREFUELER=飞行补给站
-Automagy.research_page.THAUMOSTATICREFUELER.1=作为一名在各地间忙于飞行的神秘使,漫长的路途也需要给奥法缰绳提供充足的补给,这太麻烦了.现在,你有了更好的方法.<BR>通过结合你在神秘学领域与产能节点的知识,你可以将其运用到通过隔空传输Potentia要素源质上.在源质源头与目标对象之间建立并维持连接会让你疲惫不堪,但注入了风要素的水晶之脑更能胜任这项工作.<BR>用其搭建的§l奥法尖塔§r在建造时也需要满足一些条件才能生效.
+Automagy.research_page.THAUMOSTATICREFUELER.1=作为一名在各地间忙于飞行的神秘使,漫长的路途也需要给奥法缰绳提供充足的补给,这太麻烦了.现在,你有了更好的方法.<BR>通过结合你在神秘学领域与产能节点的知识,你可以将其运用到通过隔空传输Potentia源质上.在源质源头与目标对象之间建立并维持连接会让你疲惫不堪,但注入了风源质的水晶之脑更能胜任这项工作.<BR>用其搭建的§l奥法尖塔§r在建造时也需要满足一些条件才能生效.
 Automagy.research_page.THAUMOSTATICREFUELER.2=<BR>首先需要制作2个§l奥法能量柱§r方块和1个§l奥法控制器§r.还需要1个錾制石英块和1个神秘块.<BR>然后,各个部件必须正确放置.錾制石英块在底部,神秘块在顶部,能量柱和控制器在两者之间随意顺序摆放(无间隔).神秘块上方必须有空间使其能直视天空.所有的部分都摆放完毕后,用你的法杖右击控制器.
-Automagy.research_page.THAUMOSTATICREFUELER.3=尖塔可以作用在很大一片区域内.只要尖塔有足够的源质并且有§6Aer§0魔力的驱动,范围内任何装备着且装有罐子的奥法缰绳都会有稳定供应的Potentia要素源质.用源质管道连接到§l控制器§r来提供Potentia要素源质.<LINE>有效范围可通过向控制器稳定供应Aer要素源质来扩大.补充Potentia源质的速率则可以通过给其输入Volatus源质来提升.结构中的添加能量柱可以同时增大范围与速率.(最多6个能量柱,多余的不会有增益效果.)
-Automagy.research_page.THAUMOSTATICREFUELER.4=用法杖右击控制器的一侧即可改变该侧可接收的要素源质类型.
+Automagy.research_page.THAUMOSTATICREFUELER.3=尖塔可以作用在很大一片区域内.只要尖塔有足够的源质并且有§6Aer§0魔力的驱动,范围内任何装备着且装有罐子的奥法缰绳都会有稳定供应的Potentia源质.用源质管道连接到§l控制器§r来提供Potentia源质.<LINE>有效范围可通过向控制器稳定供应Aer源质来扩大.补充Potentia源质的速率则可以通过给其输入Volatus源质来提升.结构中的添加能量柱可以同时增大范围与速率.(最多6个能量柱,多余的不会有增益效果.)
+Automagy.research_page.THAUMOSTATICREFUELER.4=用法杖右击控制器的一侧即可改变该侧可接收的源质类型.
 
 
 Automagy.research_name.ESSENTIALOCUS=源质聚核
 Automagy.research_text.ESSENTIALOCUS=潮起潮落
-Automagy.research_page.ESSENTIALOCUS.1=你计划着制作一个统一检测要素制造与分配的系统.而它的核心-或者叫神经中枢-就是源质聚核.<BR>这个系统有很大的潜力但它的起点却比较简单.聚核会检测要素罐子的内容物然后根据综合情况转化为红石信号.尽管如此,作为要素读取器来使用的话它可以方便地反映出所有罐子的源质总量,而不是单个.<BR>首先需要制作出聚核的关键组件,它需要放置在水之魔晶的上方,而水之魔晶要放在一个青金石块的上方.
-Automagy.research_page.ESSENTIALOCUS.2=青金石块周围要有水环绕着,水池则要用银树木板圈起.<BR>源质聚核必须最后放置.<BR>建成聚核后,用水晶之眼来指定要素罐子.一个水晶之眼可以指向多个罐子:任何与初始位置相邻的以及用类似方式相连接的罐子均会被检测.用设定好的眼睛右击聚核来使用.空手右击则会移除已有的水晶之眼.<BR>通常来说,最多可以检测12个罐子,使用一个水晶之眼.
-Automagy.research_page.ESSENTIALOCUS.3=在多方块结构里,若银树木板上放置了水之魔晶则会增加上限.每个增加8个罐子以及1个水晶之眼的上限.每个魔晶也会增加一组罐子离聚核最远的有效距离.<BR>注意尽管要素读取器不能直接放置在源质聚核方块的下方,放置在多方块结构中的水方块的下方也是有效的,你也可以使用远程比较器来读取要素信息.
-Automagy.research_page.ESSENTIALOCUS.ESSENTIARESERVOIR=§l     §n要素库§r<BR>你发现源质聚核能像对罐子那样获取一个要素库的总量.甚至不需多加校正.你觉得这一天一定会来的.有志者事竟成!
+Automagy.research_page.ESSENTIALOCUS.1=你计划着制作一个统一检测源质制造与分配的系统.而它的核心-或者叫神经中枢-就是源质聚核.<BR>这个系统有很大的潜力但它的起点却比较简单.聚核会检测源质罐子的内容物然后根据综合情况转化为红石信号.尽管如此,作为源质读取器来使用的话它可以方便地反映出所有罐子的源质总量,而不是单个.<BR>首先需要制作出聚核的关键组件,它需要放置在水之魔晶的上方,而水之魔晶要放在一个青金石块的上方.
+Automagy.research_page.ESSENTIALOCUS.2=青金石块周围要有水环绕着,水池则要用银树木板圈起.<BR>源质聚核必须最后放置.<BR>建成聚核后,用水晶之眼来指定源质罐子.一个水晶之眼可以指向多个罐子:任何与初始位置相邻的以及用类似方式相连接的罐子均会被检测.用设定好的眼睛右击聚核来使用.空手右击则会移除已有的水晶之眼.<BR>通常来说,最多可以检测12个罐子,使用一个水晶之眼.
+Automagy.research_page.ESSENTIALOCUS.3=在多方块结构里,若银树木板上放置了水之魔晶则会增加上限.每个增加8个罐子以及1个水晶之眼的上限.每个魔晶也会增加一组罐子离聚核最远的有效距离.<BR>注意尽管源质读取器不能直接放置在源质聚核方块的下方,放置在多方块结构中的水方块的下方也是有效的,你也可以使用远程比较器来读取源质信息.
+Automagy.research_page.ESSENTIALOCUS.ESSENTIARESERVOIR=§l     §n源质库§r<BR>你发现源质聚核能像对罐子那样获取一个源质库的总量.甚至不需多加校正.你觉得这一天一定会来的.有志者事竟成!
 
 Automagy.research_name.ESSENTIALOCUSAGGREGATOR=源质聚合器
 Automagy.research_text.ESSENTIALOCUSAGGREGATOR=配送的流水线
-Automagy.research_page.ESSENTIALOCUSAGGREGATOR.1=完成了源质聚核后,你开始将目光转向一排排的罐子,是时候让你的源质储存库变为分配中心了.<BR>下方装有源质聚合器的聚核会成为邻近§l源质魔镜§r的源质供应端(当然也包括其他设备如符文祭坛).聚核抽取的源质来自它所监管的有效容器(如要素罐子).<BR>这样一来你就能在一个地方统计源质,安置魔镜,以及进行注魔.
+Automagy.research_page.ESSENTIALOCUSAGGREGATOR.1=完成了源质聚核后,你开始将目光转向一排排的罐子,是时候让你的源质储存库变为分配中心了.<BR>下方装有源质聚合器的聚核会成为邻近§l源质魔镜§r的源质供应端(当然也包括其他设备如符文祭坛).聚核抽取的源质来自它所监管的有效容器(如源质罐子).<BR>这样一来你就能在一个地方统计源质,安置魔镜,以及进行注魔.
 Automagy.research_page.ESSENTIALOCUSAGGREGATOR.2=你相信未来还能用它做到更多.
 # Special delivery
 
@@ -354,7 +354,7 @@ Automagy.research_name.INVENTARIUM=库存管理
 Automagy.research_text.INVENTARIUM=为了这些储藏物
 Automagy.research_page.INVENTARIUM.1=你所有的物品越多,要管理它们就越难.当对象是一群不同的箱子甚至更多时,计数盒也会捉襟见肘.你所需的是一个集中式的储存管理系统.应对这个需求就有了Inventarium(库存的拉丁语,下译为库存).<BR>为了建成这个结构,库存核心必须放在一个秩序魔晶的上方,秩序魔晶要放在一个琥珀方块或琥珀砖块的上方.还要按照后几页所示的图摆好书架.<BR>核心必须最后放置.
 Automagy.research_page.INVENTARIUM.2=库存本身不包含任何物品但它可以去许多容器相关联.对于任何直接指向库存核心或八个书架之一(或用远程比较器连接核心)的计数盒,都会根据所有关联容器的内容物输出红石信号.<LINE>若要将容器绑定至库存,你需要至少一个§l容器记录桌§r.这个蕴含魔力的设备将会记录它附近特定对象的内容物,并将信息完全输送给库存.它只会检测一种指定的容器.
-Automagy.research_page.INVENTARIUM.3=而在它面前最早发现的容器就会限定该种类.有效范围是以记录桌为中心7x7x7的区域.<BR>注意每个记录桌都需要稳定供应§8Ordo§0要素魔力,你可以用魔力中继器来实现持续供给.<LINE>每个库存核心最多支持的记录桌数量起初都是1.以核心为中心7x7x7区域内放置的每个秩序魔晶都可以增加1个上限.这也会增加记录桌距离核心最远的有效距离.<BR>
+Automagy.research_page.INVENTARIUM.3=而在它面前最早发现的容器就会限定该种类.有效范围是以记录桌为中心7x7x7的区域.<BR>注意每个记录桌都需要稳定供应§8Ordo§0源质,你可以用Vis中继器来实现持续供给.<LINE>每个库存核心最多支持的记录桌数量起初都是1.以核心为中心7x7x7区域内放置的每个秩序魔晶都可以增加1个上限.这也会增加记录桌距离核心最远的有效距离.<BR>
 Automagy.research_page.INVENTARIUM.4=区域内每个书架使库存所能检测的最大容量增加81格.(相当于每个书架3个标准的箱子.)以下情况容器不会被部分检测:如果它的总容量大于有效的容量,整个容器为非检测对象.<BR>要将一个记录桌连接到库存核心,只需用法杖右击记录桌.核心必须在10格以内(每个秩序魔晶额外增加8格).
 Automagy.research_page.INVENTARIUM.5=如果记录桌位于做个核心的范围内,它就会连接到最近的那一个.若要让它连接至另一个,你就要先用法杖右击来标记那个核心.<BR>用法杖右击核心也会提醒你库存当前的使用量,最大库存容量以及记录桌数.
 
@@ -373,15 +373,15 @@ Automagy.research_page.INVENTARIUM_DELIVERY.1=为了有效管理你的储存,你
 Automagy.research_page.INVENTARIUM_DELIVERY.2=可以使用多个卸货点,每个对应一个或多个§l填充§r核心的傀儡,卸货点就是傀儡的绑定点.卸货点可以选在任何一处,但如果是一个容器的话,它§l必须能快速排空§r物品否则就可能造成堵塞.综合考虑来说,物品格栅配合魔镜要优于一个箱子 - 或许也会有人选择将物品直接送往提交订单的地方.<BR>每个被记录桌读取的容器都应该有至少一个填充傀儡连接(通过傀儡使铃铛),这些傀儡也不能连接到其他容器不然就有可能发生预料之外的情况.最好将容器内的物品整理以便在指定物品类型的情况下快速配送少走弯路.
 Automagy.research_page.INVENTARIUM_DELIVERY.3=<BR>接下来,在附近放置一个§l傀儡指示器§r然后将填充傀儡连接到它,使用§l傀儡连接铃铛§r即可.每个傀儡指示器最多能处理6个傀儡.这些傀儡必须绑定到同一个卸货点,指示器只能控制休息点(当它们未搬运物品时所在的地点)距离5格以内的傀儡.<BR>就和记录桌一样,指示器必须连接到库存核心(用法杖右击)并且距离可以通过核心附近的秩序魔晶来提升.允许的指示器数量取决于安装的
 Automagy.research_page.INVENTARIUM_DELIVERY.4=§l记忆方块§r数,因此你需要安装至少1个.<BR>要让记忆方块安装成功,它必须放置在核心下方2格起7x2x7的范围内,并且必须紧邻琥珀方块或琥珀砖块(比如核心下方的那个).用法杖右击核心就会显示当前使用的以及最大的记忆槽数量.<LINE>
-Automagy.research_page.INVENTARIUM_DELIVERY.5=最后所需的就是§l申请台§r了.和记录桌一样,它会显示整个储存系统的内容物.这也就是你提交订单的地方.<BR>左击列表中的物品来增加征订的数量,右击减少.按住shift来移动整组,或ctrl来一次性移动10单位物品.使用左侧的一栏或按住alt/option来请求多于储存量的数目.<BR>申请台的需求类似于傀儡指示器:一个专用的记忆方块,连接至核心,并且可以通过秩序魔晶提升连接距离.此外它还需要供应§8Ordo§0要素魔力(通过魔力中继器).
+Automagy.research_page.INVENTARIUM_DELIVERY.5=最后所需的就是§l申请台§r了.和记录桌一样,它会显示整个储存系统的内容物.这也就是你提交订单的地方.<BR>左击列表中的物品来增加征订的数量,右击减少.按住shift来移动整组,或ctrl来一次性移动10单位物品.使用左侧的一栏或按住alt/option来请求多于储存量的数目.<BR>申请台的需求类似于傀儡指示器:一个专用的记忆方块,连接至核心,并且可以通过秩序魔晶提升连接距离.此外它还需要供应§8Ordo§0源质(通过Vis中继器 ).
 Automagy.research_page.INVENTARIUM_DELIVERY.6=将一个§l计数盒§r指向申请台就会使盒子根据当前征求的物品输出红石信号.<BR>最后提醒:傀儡并不能完美地适应订单的变动,因此如果你在傀儡已经取多了的情况下减少征求量,它们只会将多出的扔在地上.最好再想办法将这些物品放回原位.
 Automagy.research_page.INVENTARIUM_DELIVERY.MIRRORINPUT=§l       §n聚合魔镜§r<BR>通过GUI中的"魔镜"按钮与水晶之眼,聚合魔镜可以取代标准魔镜用于物品输入.
 
 Automagy.research_name.NETHERMIND=下界之核
 Automagy.research_text.NETHERMIND=始于灰烬
-Automagy.research_page.NETHERMIND.1=在近期的实验中,你发现火要素强化的水晶之脑似乎会持续吸取能量(并且快速烧蚀自身).这股能量让你追溯到了下界.如果你能找到什么与下界之火密切联系又能与它共存的东西,或许就能做出一个"下界之核",利用源质来构建岩浆和下界方块.<BR>§l灰烬之心§r或许能胜任.进一步的研究显示,它与烈焰人这类地狱怪物甚至与它们的生成有着联系.
+Automagy.research_page.NETHERMIND.1=在近期的实验中,你发现火源质强化的水晶之脑似乎会持续吸取能量(并且快速烧蚀自身).这股能量让你追溯到了下界.如果你能找到什么与下界之火密切联系又能与它共存的东西,或许就能做出一个"下界之核",利用源质来构建岩浆和下界方块.<BR>§l灰烬之心§r或许能胜任.进一步的研究显示,它与烈焰人这类地狱怪物甚至与它们的生成有着联系.
 Automagy.research_page.NETHERMIND.2=<BR>显然你需要用某种方法来驱动并控制下界之核.最终你做出了§l符文黑曜石§r.除了用于包围下界之核,这些符文还要按照指定的方式搭建好(见下一页).<BR>不同的符文有不同的功能.图中所示的任意基础符文都可以被特殊符文所替换.某种符文数量越多,其效果就越强.如果只是用基础的符文,该设备的运行将会十分缓慢,并且只会生成地狱岩和零星的岩浆.
-Automagy.research_page.NETHERMIND.3=当符文全都安装完毕后,用你的法杖轻触下界之核就能启动它了.你也能再次右击来关闭它,但每次启动都会消耗法杖中的魔力.<BR>运行时,下界之核必须用§cIgnis§0要素魔力供应.它也需要附近有源质罐子以抽取源质.所需的源质类型及数量取决于工作中的符文.基础的符文只会消耗Ignis和Terra.<BR>生成的下界方块会出现在结构下方两格9x9x9的区域内.
+Automagy.research_page.NETHERMIND.3=当符文全都安装完毕后,用你的法杖轻触下界之核就能启动它了.你也能再次右击来关闭它,但每次启动都会消耗法杖中的vis.<BR>运行时,下界之核必须用§cIgnis§0源质供应.它也需要附近有源质罐子以抽取源质.所需的源质类型及数量取决于工作中的符文.基础的符文只会消耗Ignis和Terra.<BR>生成的下界方块会出现在结构下方两格9x9x9的区域内.
 Automagy.research_page.NETHERMIND.4=§l    §n符文黑曜石(岩石)§r<BR>使用该符文来增加地狱岩生成的概率.如果指定方块类的符文至少安装了4个,那么就只会生成指定的方块.使用的符文越多,方块生成的概率就越大.(因此某种类型如果使用了4个,那么生成概率就是100%%.)<BR>使用它的另一个好处在于生成地狱岩消耗的源质会比基础符文更少.(放置额外的岩石符文不会进一步减少消耗.)<BR>每次生成消耗:%s.
 Automagy.research_page.NETHERMIND.5=§l    §n符文黑曜石(炽海)§r<BR>使用该符文增加岩浆生成的几率.至少安装4个就可以保证只会生成岩浆.<BR>每次生成消耗: %s.
 
@@ -405,7 +405,7 @@ Automagy.research_page.NETHERRUNE_CELERITY.DIMENSIONLURE=§l      §n异界之�
 Automagy.research_name.GOLEMWORKBENCH=傀儡工作台
 Automagy.research_text.GOLEMWORKBENCH=需要装配么?
 Automagy.research_page.GOLEMWORKBENCH.1=傀儡工作台让你能摆出合成配方,加上一些魔法的协助,即便是傀儡也能照着合成.<BR>对你蠢萌的傀儡来说还有许多配方太过复杂.除非合成是2x2的或者所有的原料都是一样的,不然你就需要§l高级傀儡§r了.<BR>首先在9个格子中设定好合成配方,底部的格子中提供所需的材料.然后对着工作台放置一个装有§l空置§r傀儡运转核心的傀儡,命令傀儡从中容器取出合成产物(右击傀儡设置).用傀儡使铃铛告诉傀儡应在何处放置新的物品.
-Automagy.research_page.GOLEMWORKBENCH.2=<BR>注意在这里只有原版合成台可合成的才有效.即便是你最高级的傀儡也无法了解奥术合成使用魔力的原理.但你觉得这样也足够了.<BR>若要让傀儡专心工作提升效率,你可以在附近放置一个装有§8Fabrico§0要素源质的罐子.这将会起到很大帮助,尤其是傀儡在很长时间内持续合成物品,它们可能会有些'瞌睡'的情况下.真够懒的.
+Automagy.research_page.GOLEMWORKBENCH.2=<BR>注意在这里只有原版合成台可合成的才有效.即便是你最高级的傀儡也无法了解奥术合成使用魔力的原理.但你觉得这样也足够了.<BR>若要让傀儡专心工作提升效率,你可以在附近放置一个装有§8Fabrico§0源质的罐子.这将会起到很大帮助,尤其是傀儡在很长时间内持续合成物品,它们可能会有些'瞌睡'的情况下.真够懒的.
 Automagy.research_page.GOLEMWORKBENCH.UPGRADEORDER=     §n秩序升级解锁特性§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>当合成中产生了残留物品并且无法当做合成原料(比如合成蛋糕中的空桶),通常物品就会被合成傀儡扔到一边.如果傀儡安装了这项升级,它就会将残留的物品放入工作台(如果空间允许的话)
 Automagy.research_page.GOLEMWORKBENCH.UPGRADEENTROPY=    §n混沌升级解锁特性§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>如果相连的傀儡安装了混沌升级,那就意味着它会忽略物品的损伤,NBT数据以及检测矿物辞典来判断它所合成的东西.(这取决于傀儡是否能移动物品.)<BR>只会影响到合成产物,而不会影响到合成使用的原料.或许进一步的研究能解决这个问题.
 Automagy.research_page.GOLEMWORKBENCH.ADVANCEDGOLEM=§l      §n高级傀儡§r<BR>如你所愿,高级傀儡能进行更复杂的合成.它们能使用3x3的配方以及不止一种原料.
@@ -431,7 +431,7 @@ Automagy.research_page.MOBLURE.4=将强度使用得巧妙的话,也能让生物�
 
 Automagy.research_name.DIMENSIONLURE=异界之饵
 Automagy.research_text.DIMENSIONLURE=来自远方的呼唤
-Automagy.research_page.DIMENSIONLURE.1=下界之核与塞壬之饵的共性是你发现两者可以共同运行.经过对塞壬之饵和下界反应堆结构的调整,你就能让其生成生物而不是方块.<BR>The §l异界之饵§r会探入下界那些无人所知的角落寻找目标,开启跨越空间的裂痕并吸引那里的生物们.为了实现这个过程,下界之核与异界之饵都需要消耗相当量的源质.下界之核所需的§cIgnis§0要素魔力(centi-vis)也会增加.<BR>需求的源质类型取决于目标生物,
+Automagy.research_page.DIMENSIONLURE.1=下界之核与塞壬之饵的共性是你发现两者可以共同运行.经过对塞壬之饵和下界反应堆结构的调整,你就能让其生成生物而不是方块.<BR>The §l异界之饵§r会探入下界那些无人所知的角落寻找目标,开启跨越空间的裂痕并吸引那里的生物们.为了实现这个过程,下界之核与异界之饵都需要消耗相当量的源质.下界之核所需的§cIgnis§Centivis也会增加.<BR>需求的源质类型取决于目标生物,
 Automagy.research_page.DIMENSIONLURE.2=倘若不指定目标,就只会随机吸引生物而来.(简单来说就是所用的诱饵必须为生物量身定做)<BR>生物类型通过在下界之核结构中放入基础符文黑曜石以及对应生物的特殊符文黑曜石来确定.可使用多种类型的生物指定符文,但需要§l至少四个§r该种类型的符文.你不能将生物指定符文与方块指定符文装在同一个结构内.<BR>异界之饵方块必须放在下界之核下方6~8格,中间不能有固体方块阻隔.周围还需要放置一圈基础的符文黑曜石,
 Automagy.research_page.DIMENSIONLURE.3=如前一页所示的那样.生成的生物会出项在该平台与下界之核的结构之间.<BR>搭建完毕后,先用法杖右击饵石,之后再右击下界之核就会开始吸引生物出现.<LINE>不幸的是,该过程不是那么稳定.有几率产生各种负面效果,甚至会影响到召唤的生物.为了解决这个问题,你可以在圆的四个角上放置§l黑曜石图腾§r柱.柱子越高,越稳定.
 Automagy.research_page.DIMENSIONLURE.4=(每个柱子做多四格高.)为了起到最好的效果,四根柱子要高度相同.<BR>在柱顶或下界之核结构的四臂下方放上§l闪耀之光§r也能提升稳定性.<IMG>automagy:textures/gui/dimensional-lure.png:0:0:255:235:.5</IMG>
@@ -466,13 +466,13 @@ Automagy.research_page.NETHERRUNE_WISP.2=§l下界之核§r - 每次生成消耗
 
 Automagy.research_name.FOCUSCRAFTING=法杖核心:合成
 Automagy.research_text.FOCUSCRAFTING=把它们放到一起
-Automagy.research_page.FOCUSCRAFTING.1=不管你离家多远,合成的需求总是没完没了.油的合成还需要你到处都带着合成台,现在你找到了更简便的解决方法.<BR>这个法杖核心能用于制造奥术工作台所能合成的一切物品(不管是普通合成还是奥术合成).安装核心的法杖将会提供合成所需的要素魔力.<BR>你只要装好核心再用法杖右击即可开始合成.如果装着核心的法杖在工具栏里,你也可以按'%s'键来打开合成.
-Automagy.research_page.FOCUSCRAFTING.2=当你打开合成栏的时候会消耗少量要素魔力,每次合成奥术物品的时候也会消耗一些.(普通合成的物品不需要额外的魔力.)
+Automagy.research_page.FOCUSCRAFTING.1=不管你离家多远,合成的需求总是没完没了.油的合成还需要你到处都带着合成台,现在你找到了更简便的解决方法.<BR>这个法杖核心能用于制造奥术工作台所能合成的一切物品(不管是普通合成还是奥术合成).安装核心的法杖将会提供合成所需的源质.<BR>你只要装好核心再用法杖右击即可开始合成.如果装着核心的法杖在工具栏里,你也可以按'%s'键来打开合成.
+Automagy.research_page.FOCUSCRAFTING.2=当你打开合成栏的时候会消耗少量vis,每次合成奥术物品的时候也会消耗一些.(普通合成的物品不需要额外的vis.)
 Automagy.research_page.FOCUSCRAFTING.STAFF=§l        §n魔杖§r<BR>尽管这个核心也能装在魔力手杖上面,但这类工具显然不适合奥术合成的精密工作.但它仍能进行普通的合成.
 
 Automagy.research_name.FOCUSCRAFTING_UPGRADE=核心升级
 Automagy.research_text.FOCUSCRAFTING_UPGRADE=如此方便
-Automagy.research_page.FOCUSCRAFTING_UPGRADE.1=有了核心镶饰台,现在你能拓展合成核心的能力了.<BR>§l无偿:§r 这项升级使得核心的基本运行不消耗魔力.(打开合成栏以及合成物品时都不会消耗额外的魔力.)<BR>§l储存:§r 在使用这种升级的核心合成之后,合成栏内留下的任何物品都会被储存在与核心相连的异次元中.<BR>§l置换:§r 有此项升级的核心在使用者需要时会自动装上法杖.无论核心是在背包还是手袋中都可以生效.
+Automagy.research_page.FOCUSCRAFTING_UPGRADE.1=有了核心镶饰台,现在你能拓展合成核心的能力了.<BR>§l无偿:§r 这项升级使得核心的基本运行不消耗Vis.(打开合成栏以及合成物品时都不会消耗额外的魔力.)<BR>§l储存:§r 在使用这种升级的核心合成之后,合成栏内留下的任何物品都会被储存在与核心相连的异次元中.<BR>§l置换:§r 有此项升级的核心在使用者需要时会自动装上法杖.无论核心是在背包还是手袋中都可以生效.
 Automagy.research_page.FOCUSCRAFTING_UPGRADE.2=(只要按下核心所对应的键位就可以自动安装.)
 
 Automagy.research_name.VISHROOMSOUP=毒菇汤
@@ -483,7 +483,7 @@ Automagy.research_page.VISHROOMSOUP.3=<BR>没错.浸泡在汤里.喝着有毒的
 
 Automagy.research_name.ALCHEMYBOILER=炼金锅炉
 Automagy.research_text.ALCHEMYBOILER=冒泡...
-Automagy.research_page.ALCHEMYBOILER.1=在要素蒸馏方面的成功让你决心进一步拓展分解物质的方式.§l炼金锅炉§r的工作原理和炼金炉类似,但它所分解不是物品而是流体.<BR>使用桶或自动化设施(比如傀儡)来输入或抽取流体.<BR>加速炼金炉工作的方法也能用于炼金锅炉(如风箱).<BR>注意锅炉被破坏时其中的流体也会损失.
+Automagy.research_page.ALCHEMYBOILER.1=在源质蒸馏方面的成功让你决心进一步拓展分解物质的方式.§l炼金锅炉§r的工作原理和炼金炉类似,但它所分解不是物品而是流体.<BR>使用桶或自动化设施(比如傀儡)来输入或抽取流体.<BR>加速炼金炉工作的方法也能用于炼金锅炉(如风箱).<BR>注意锅炉被破坏时其中的流体也会损失.
 
 Automagy.research_name.ENCHANT_FISHING=垂钓附魔
 Automagy.research_text.ENCHANT_FISHING=充满了鱼腥味
@@ -498,13 +498,13 @@ Automagy.research_name.XPSTONE=灵魂之石
 Automagy.research_text.XPSTONE=我想起来了
 Automagy.research_page.XPSTONE.1=缸中之脑的经验储存容量是有限的.尽管遗忘之石能将这些记忆提取出来,但没法在不损失旧有经验的前提下为新的经验腾出空间.为了解决这一问题,你创造了一种新的石头.<BR>当一块§l灵魂之石§r放置在缸中之脑下端的遗忘之石旁边时,会从脑中抽取经验,存入灵魂之石自身中.<BR>如果石头中储存的经验超过了缸中之脑的量,那么
 Automagy.research_page.XPSTONE.2=遗忘之石就会改变运行的方向,转而从灵魂之石中向缸中之脑输送经验,除非后者被装满.<BR>这个组合就能满足你对于增加缸中之脑储存容量的需求了,但这里的灵魂之石并没有解决便携性的问题.如果直接破坏就会损失一部分储存的经验,掉落剩下的.幸运的是,还有解决的方法.<BR>灵魂之石在某种意义上来说算是多孔的疏松结构.记忆能缓慢渗入石头中,石头起到了类似于滤网的作用,这些经验会随着流动而凝聚起来.<BR>最终,这种精华液将浓缩到足以装入其他的容器.
-Automagy.research_page.XPSTONE.3=在石头的下方放置一个未标签的§l要素罐子§r(一两格以内-再往下的话流体就会失效了),之后"附魔精华液"就会滴入其中.这个罐子可以安全地转移到别处,或用§l安瓿§r装取其中的精华液以饮用.<BR>要注意的是,除非有固体方块的阻隔,即便没有罐子流体也会缓慢地从灵魂之石中滴落.不得不说这样做实在是浪费.<BR>倘若下方直接放置了一个物品格栅,那么它在打开时能让浓缩液流出.你也可以用活塞(举例)来控制附魔精华液是否能从石头流出.
+Automagy.research_page.XPSTONE.3=在石头的下方放置一个未标签的§l源质罐子§r(一两格以内-再往下的话流体就会失效了),之后"附魔精华液"就会滴入其中.这个罐子可以安全地转移到别处,或用§l安瓿§r装取其中的精华液以饮用.<BR>要注意的是,除非有固体方块的阻隔,即便没有罐子流体也会缓慢地从灵魂之石中滴落.不得不说这样做实在是浪费.<BR>倘若下方直接放置了一个物品格栅,那么它在打开时能让浓缩液流出.你也可以用活塞(举例)来控制附魔精华液是否能从石头流出.
 Automagy.research_page.XPSTONE.4=比较器能检测灵魂之石的经验储量.如果比较器读取的是遗忘之石,那么它就会检测整个结构的容量,而不仅仅是缸中之脑的.(如果你只想要检测缸中之脑的储量,直接用比较器读取即可.)<BR>§l玻璃瓶§r也能用于从罐中取出精华液,但它无法保持流体的稳定性和密度,这就意味着它们不仅装取更少的量,在饮用时也不太安全.其次,安瓿能将流体重新倒回罐中而玻璃瓶则不能,因为流体本身已经发生了变化.
 
 Automagy.research_name.ADVNODEJAR=高级缸中节点
 Automagy.research_text.ADVNODEJAR=仔细想想，两者貌似越来越违和
 Automagy.research_page.ADVNODEJAR.1=最终你找到了将节点无损装罐的方法.利用你在守护魔法研究上的突破,你就能稳定化装罐的过程中,使压力最小化以保证节点不受损伤.<BR>围绕节点搭建的结构保持不变,只是所用的普通玻璃和木台阶被替换成了守卫者玻璃和银树原木.接着,对§l原木§r使用§l守护核心§r.<BR>最后,再用没有安装核心的法杖(或类似的工具)右击守护原木之一.
-Automagy.research_page.ADVNODEJAR.2=如果你的要素魔力充足,那么节点就会立即被装罐,真是安全又可靠.
+Automagy.research_page.ADVNODEJAR.2=如果你的vis充足,那么节点就会立即被装罐,真是安全又可靠.
 
 Automagy.research_name.MIRRORINPUT=聚合魔镜
 Automagy.research_text.MIRRORINPUT=跨维细流
@@ -533,7 +533,7 @@ Automagy.chat.essentiaLocus.itemLinkedSelf=你无法将聚核连至其本身.
 Automagy.chat.unseenScribe.outOfRange=连接失败.有效范围内无库存核心.
 Automagy.chat.unseenScribe.noConnectionsLeft=连接失败.全部连接占用中.
 Automagy.chat.unseenScribe.alreadyLinked=容器记录桌已连接至库存核心(%s,%s,%s)
-Automagy.chat.thaumostaticSpire.setSuction=该侧设为输入%s要素源质.
+Automagy.chat.thaumostaticSpire.setSuction=该侧设为输入%s源质.
 Automagy.chat.nethermind.yTooLow=下界之核不能在这么低的高度被激活.
 Automagy.chat.nethermind.invalidMix=下界之核启动失败.你不能将方块指定符文与生物指定符文混合使用.
 Automagy.chat.nethermind.missingLure=下界之核启动失败.生物指定符文需要一个激活的异界之饵.
@@ -584,7 +584,7 @@ Automagy.gui.visReader.mode.0=禁用
 Automagy.gui.visReader.mode.1=总计
 Automagy.gui.visReader.mode.2=任意(高)
 Automagy.gui.visReader.mode.3=任意(低)
-Automagy.gui.visReader.mode.4=要素读取
+Automagy.gui.visReader.mode.4=源质读取
 Automagy.gui.visReader.capacity.col=容量
 Automagy.gui.visReader.capacity.auto=自动
 Automagy.gui.visReader.dir.col=输出
@@ -694,7 +694,7 @@ Automagy.gui.scribeMirror.outranged=超出范围
 Automagy.gui.scribeMirror.noMirror=未找到魔镜
 Automagy.gui.scribeMirror.unlinked=未连接魔镜
 
-Automagy.gui.focusCrafting.visLow=魔力不足
+Automagy.gui.focusCrafting.visLow=Vis不足
 Automagy.gui.focusCrafting.staff.1=手杖:只能合成
 Automagy.gui.focusCrafting.staff.2=普通物品
 
@@ -703,7 +703,7 @@ Automagy.gui.boiler.cannotProcess=该种流体无法\n被分解为源质
 
 # Focus upgrades
 Automagy.focus.upgrade.gratis.name=无偿
-Automagy.focus.upgrade.gratis.text=该升级使核心的基础操作不消耗魔力.(打开合成栏以及合成物品都不会消耗额外的魔力.)
+Automagy.focus.upgrade.gratis.text=该升级使核心的基础操作不消耗Vis.(打开合成栏以及合成物品都不会消耗额外的Vis.)
 Automagy.focus.upgrade.storage.name=储存
 Automagy.focus.upgrade.storage.text=使用该升级的核心合成后,留在合成栏内的一切物品都会被储存在与核心相连的异次元之中.
 Automagy.focus.upgrade.transposing.name=置换

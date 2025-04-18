@@ -412,11 +412,13 @@ tile.SC2:BlockDistributor.name=外部分配器
 tile.SC2:BlockLiquidManager.name=流体管理器
 
 # Storage
+tile.SC2:BlockMetalStorage.name=资源方块
 item.SC2:BlockStorage0.name=强化金属块
 item.SC2:BlockStorage1.name=混合晶块
 item.SC2:BlockStorage2.name=强化混合晶块
 
 # Upgrades
+tile.SC2:upgrade.name=升级
 item.SC2:batteries.name=升级：电池
 item.SC2:power_crystal.name=升级：能量水晶
 item.SC2:module_knowledge.name=升级：模块知识
@@ -439,6 +441,7 @@ item.SC2:solar_panel_upgrade.name=升级：太阳能板
 item.SC2:thermal_engine_upgrade.name=升级：热能引擎
 
 # Detector Units
+tile.SC2:BlockDetector.name=探测器
 item.SC2:BlockDetector0.name=探测管理器
 item.SC2:BlockDetector1.name=探测装置
 item.SC2:BlockDetector2.name=探测站

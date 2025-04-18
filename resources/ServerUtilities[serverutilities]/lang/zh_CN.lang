@@ -45,7 +45,7 @@ my_permissions=我的权限
 all_permissions=所有权限
 key.categories.serverutilities=Server Utilities
 stand_still=请在传送前原地等待 %d 秒。
-stand_still_failed=因为你移动了！传送被取消。
+stand_still_failed=因为你移动了！取消传送。
 teleporting=传送中……
 cooldown=冷却
 cant_use_now=现在无法使用！
@@ -193,6 +193,32 @@ serverutilities_client.sidebar_placement=侧边栏放置
 serverutilities_client.notification_location=通知位置
 serverutilities_client.show_dotted_lines=在加载的区块上显示虚线
 
+# Notification Config
+serverutilities.notifications.config=通知配置
+serverutilities.notifications.last_received=最新通知
+serverutilities.notifications.chunk_modified=区块设置已变更
+serverutilities.notifications.chunk_modified.desc=当区块被声明/加载时通知
+serverutilities.notifications.chunk_changed=区块状态更新
+serverutilities.notifications.chunk_changed.desc=当进入已被声明的区块时通知
+serverutilities.notifications.cant_modify_chunk=无法修改此区块
+serverutilities.notifications.cant_modify_chunk.desc=当无法修改区块状态时通知
+serverutilities.notifications.teleport=传送中
+serverutilities.notifications.teleport.desc=当使用/home或/warp传送时通知
+serverutilities.notifications.teleport_warmup=传送即将开始...
+serverutilities.notifications.teleport_warmup.desc=传送前倒计时
+serverutilities.notifications.backup=备份中
+serverutilities.notifications.backup.desc=当备份开始/完成时通知
+serverutilities.notifications.config_changed=配置已修改
+serverutilities.notifications.config_changed.desc=通过指令更改配置文件时通知
+serverutilities.notifications.restart_timer=服务器即将重启...
+serverutilities.notifications.restart_timer.desc=服务器重启倒计时
+serverutilities.notifications.cleanup=清理实体中...
+serverutilities.notifications.cleanup.desc=当实体清理即将开始/结束时通知
+serverutilities.notifications.player_afk=玩家已进入AFK状态
+serverutilities.notifications.player_afk.desc=当玩家进入AFK状态时通知
+
+
+
 # Rank Config
 permission.serverutilities.badge=徽章
 permission.serverutilities.badge.tooltip=徽章（胸前的图标）。必须为 URL
@@ -312,13 +338,13 @@ serverutilities.admin_panel.loaded_chunks=查看所有已加载区块
 serverutilities.admin_panel.whitelist=编辑白名单
 serverutilities.admin_panel.ops=编辑管理员
 serverutilities.admin_panel.edit_world=编辑世界
-serverutilities.admin_panel.ranks.player_ranks=玩家排行榜
-serverutilities.admin_panel.ranks.select_rank=选择排行榜
-serverutilities.admin_panel.edit_rank=编辑排行榜
+serverutilities.admin_panel.ranks.player_ranks=玩家权限组
+serverutilities.admin_panel.ranks.select_rank=选择权限组
+serverutilities.admin_panel.edit_rank=编辑权限组
 serverutilities.admin_panel.ranks.add_perm=添加权限
 serverutilities.admin_panel.ranks.add_command=添加命令权限
-serverutilities.admin_panel.ranks.cant_remove=默认排行榜无法被移除！
-serverutilities.admin_panel.ranks.delete_confirm=这将会永久删除排行榜：%s。是否确定？
+serverutilities.admin_panel.ranks.cant_remove=默认权限组无法被移除！
+serverutilities.admin_panel.ranks.delete_confirm=这将会永久删除权限组：%s。是否确定？
 
 # Keys
 key.serverutilities.nbt=编辑NBT
@@ -418,6 +444,10 @@ commands.team.join.usage=/team join <team>
 commands.team.status.usage=/team status <player> [set_status]
 commands.team.status.set=%s的状态设置为%s
 commands.team.status.cant_set=状态不能被设置！
+commands.team.status_for.usage=/team status_for <team> <player> [set_status]
+commands.team.status.invalid=无法找到状态 %s! 可用的状态: %s
+commands.team.status.success=团队%2$s中%1$s的状态设置为%3$s
+commands.team.status.failed=未能把团队%2$s中%1$s的状态设置为%3$s
 commands.team.msg.usage=/team msg <message...>
 commands.team.delete.usage=/team delete <team>
 commands.team.request_invite.usage=/team request_invite <team>
@@ -469,6 +499,8 @@ serverutilities.lang.warps.tp=传送至 “%s”！
 serverutilities.lang.warps.no_dp=你只能使用一次 /back！
 serverutilities.lang.warps.no_pos_found=没有位置使用 /back！
 serverutilities.lang.warps.cross_dim=你不能传送至其它维度！
+serverutilities.lang.warps.warmup=请在传送前原地等待 %d 秒 [%d] 。
+serverutilities.lang.warps.cancelled=因为你移动了！取消传送。
 
 # Homes
 serverutilities.lang.homes.set=家“%s”已设置！

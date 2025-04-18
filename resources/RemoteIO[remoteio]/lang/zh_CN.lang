@@ -60,6 +60,7 @@ chat.target.loop=你不能将两个远程接口链接在一起
 # Item
 item.blank_plate.name=空白芯片
 item.chip.location.name=定位芯片
+item.chip.transfer.name=物品转输芯片
 item.chip.transfer.item.name=物品转输芯片
 item.chip.transfer.fluid.name=流体转输芯片
 item.chip.transfer.essentia.name=源质转输芯片
@@ -68,6 +69,7 @@ item.chip.transfer.energy_mj.name=MJ能量转输芯片
 item.chip.transfer.energy_rf.name=RF能量转输芯片
 item.chip.transfer.network_ae.name=AE网络转输芯片
 item.chip.transfer.redstone.name=红石转输芯片
+item.chip.upgrade.name=远程升级
 item.chip.upgrade.remote_camo.name=远程伪装升级
 item.chip.upgrade.remote_access.name=远程访问升级
 item.chip.upgrade.simple_camo.name=简易伪装升级
@@ -81,6 +83,7 @@ item.linker.name=端口连接器
 # Block
 tile.remote_interface.name=远程接口
 tile.remote_inventory.name=远程背包接口
+tile.machine.name=机器
 tile.machine.reservoir.name=蓄水箱
 tile.machine.heater.name=岩浆加热器
 tile.intelligentWorkbench.name=智能工作台

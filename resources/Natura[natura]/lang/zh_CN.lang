@@ -10,6 +10,7 @@ item.wartBag.name=地狱疣袋
 item.cottonBag.name=棉花种子袋
 item.boneBag.name=骨粉袋
 
+item.barleyFood.name=资源
 item.barley.seed.name=大麦种子
 item.barley.plant.name=大麦
 item.barley.flour.name=大麦面粉
@@ -25,56 +26,70 @@ item.powder.sulfur.name=硫磺
 item.waterdrop.name=仙人掌汁
 item.saguaro.fruit.name=仙人掌果
 
+item.berry.name=浆果
 item.berry.rasp.name=覆盆子
 item.berry.blue.name=蓝莓
 item.berry.black.name=黑莓
 item.berry.geo.name=桑葚
+item.berryMedley.name=什锦莓
 item.berry.medley.name=什锦莓
+item.berry.nether.name=下界浆果
 item.berry.blight.name=枯萎莓
 item.berry.dusk.name=黄昏莓
 item.berry.sky.name=天莓
 item.berry.sting.name=刺莓
 
+tile.berrybush.name=Berry Bush
 block.rasp.berryBush.name=覆盆子灌木
 block.blue.berryBush.name=蓝莓灌木
 block.black.berryBush.name=黑莓灌木
 block.geo.berryBush.name=桑葚灌木
 
+tile.berrybush.name=下界浆果灌木
 block.bush.berry.blight.name=枯萎莓灌木
 block.bush.berry.dusk.name=黄昏莓灌木
 block.bush.berry.sky.name=天莓灌木
 block.bush.berry.sting.name=刺莓灌木
 
+tile.RareTree.name=原木
 block.log.maple.name=枫树原木
 block.log.silverbell.name=银铃树原木
 block.log.purpleheart.name=紫檀树原木
 block.log.tiger.name=核桃树原木
 block.log.willow.name=柳树原木
 
+tile.Darktree.name=原木
 block.log.darkwood.name=黑暗树原木
 block.log.fusewood.name=熔融树原木
 
+item.natura.emptybowl.name=碗
+item.natura.stewbowl.name=炖汤
 item.bowl.mushroom.name=蘑菇茎
-item.bowl.glowshroom.name=荧光蘑菇茎
+item.bowl.glowshroom.name=荧光蘑菇炖
 
+tile.Darkleaves.name=树叶
 block.leaves.darkwood.name=黑暗树树叶
 block.leaves.darkwood.flowering.name=黑暗树树叶
 block.leaves.darkwood.fruit.name=黑暗树树叶
 block.leaves.fusewood.name=熔融树树叶
 
+item.Natura.netherfood.name=富钾苹果
 item.food.nether.potashapple.name=富钾苹果
 
+tile.RareLeaves.name=树叶
 block.leaves.maple.name=枫树树叶
 block.leaves.silverbell.name=银铃树树叶
 block.leaves.purpleheart.name=紫檀树树叶
 block.leaves.tiger.name=核桃树树叶
 block.leaves.willow.name=柳树树叶
 
+tile.cloud.name=云
 block.normal.cloud.name=云
 block.dark.cloud.name=黑云
 block.ash.cloud.name=灰云
 block.sulfur.cloud.name=硫云
 
+item.redwoodDoorItem.name=门
 redwoodNDoor.name=红木门
 eucalyptusNDoor.name=桉树木门
 hopseedNDoor.name=车桑子树木门
@@ -83,10 +98,12 @@ ghostNDoor.name=幽魂树木门
 bloodNDoor.name=血树木门
 redwoodBarkNDoor.name=红木树皮门
 
+tile.natura.redwood.name=红木
 block.bark.redwood.name=红木树皮
 block.heart.redwood.name=红木
 block.root.redwood.name=红木树根
 
+tile.natura.planks.name=木板
 block.eucalyptus.NPlanks.name=桉树木板
 block.sakura.NPlanks.name=樱花树木板
 block.ghost.NPlanks.name=幽魂树木板
@@ -101,6 +118,8 @@ block.willow.NPlanks.name=柳树木板
 block.darkwood.NPlanks.name=黑暗树木板
 block.fusewood.NPlanks.name=熔融树木板
 
+tile.natura.sapling.name=树苗
+tile.RareSapling.name=树苗
 block.sapling.eucalyptus.name=桉树树苗
 block.sapling.sakura.name=樱花树树苗
 block.sapling.ghost.name=幽魂树树苗
@@ -115,6 +134,8 @@ block.sapling.maple.name=枫树树苗
 block.sapling.purpleheart.name=紫檀树树苗
 block.sapling.silverbell.name=银铃树树苗
 
+tile.plankSlab1.name=台阶
+tile.plankSlab2.name=台阶
 block.wood.eucalyptus.slab.name=桉树台阶
 block.wood.sakura.slab.name=樱花树台阶
 block.wood.ghost.slab.name=幽魂树台阶
@@ -230,13 +251,17 @@ tile.furnace.netherrack.name=下界熔炉
 tile.nether.obelisk.name=方尖碑
 tile.nether.hopper.name=漏斗
 
+tile.nether.glass.name=下界玻璃
 tile.glass.soul.name=灵魂玻璃
 tile.glass.heat.name=灼热玻璃
 
+tile.Glowshroom.name=荧光菇
 block.glowshroom.green.name=绿色荧光菇
 block.glowshroom.purple.name=紫色荧光菇
 block.glowshroom.blue.name=蓝色荧光菇
 
+tile.natura.leaves.name=树叶
+tile.natura.leavesnocolor.name=树叶
 block.eucalyptus.NLeaves.name=桉树树叶
 block.leaves.sakura.name=樱花树树叶
 block.leaves.ghost.name=幽魂树树叶
@@ -244,6 +269,7 @@ block.bush.NLeaves.name=车桑子树树叶
 block.redwood.NLeaves.name=红木树树叶
 block.leaves.blood.name=血树树叶
 
+tile.natura.treeblock.name=原木
 block.eucalyptus.log.name=桉树原木
 block.sakura.log.name=樱花树原木
 block.ghost.log.name=幽魂树原木
@@ -254,12 +280,15 @@ bloodBoat.name=血树船
 whiteBoat.name=白色船
 eucalyptusBoat.name=桉树船
 
+item.impmeat.name=恶魔皮
 item.impmeat.raw.name=生恶魔皮
 item.impmeat.cooked.name=鞣质恶魔皮
 
+tile.GrassBlock.name=草地
 block.soil.grass.name=修饰草地
 block.soil.bluegrass.name=蓝色草地
 block.soil.autumngrass.name=秋光草地
+tile.GrassSlab.name=草地台阶
 block.soil.grass.slab.name=修饰草地台阶
 block.soil.bluegrass.slab.name=蓝色草地台阶
 block.soil.autumngrass.slab.name=秋光草地台阶
