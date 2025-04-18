@@ -160,7 +160,7 @@ wg.gui.noFeathersToMigrate=你没有回到巢穴需要的物品
 wg.desc.noGlide=无法滑翔
 
 wg.gui.visSize=Vis容量
-wg.gui.shiftForAspectList=§7按住§aShift§7查看要素列表§r
+wg.gui.shiftForAspectList=§7按住§aShift§7查看源质列表§r
 wg.gui.activeGem=主宝石
 wg.gui.passiveGem=副宝石
 wg.chat.gem.shatter=你的蕴魔宝石碎掉了!
@@ -172,7 +172,7 @@ wg.desc.gemcut.OVAL=椭圆琢型
 wg.desc.gemaffinity=自然亲和:
 wg.desc.gemaversion=自然疏离:
 
-wg.desc.ctrlForAspectList=§7按住§aCtrl§7查看要素列表§r
+wg.desc.ctrlForAspectList=§7按住§aCtrl§7查看源质列表§r
 wg.desc.scanCompleted=已扫描
 
 wg.desc.gearSlot.tg.0=装备在§a斗篷§7栏
@@ -192,7 +192,7 @@ wg.desc.primal=初始校准
 wg.desc.infusionStabilizer=可用作注魔祭坛的稳定物
 
 wg.gui.search=Search
-wg.chat.nodeContents.primal=该节点所含的元始要素: §eAer: %1$s§f, §2Terra: %2$s§f, §cIgnis: %3$s§f, §3Aqua: %4$s§f, §7Ordo: %5$s§f, §8Perditio: %6$s
+wg.chat.nodeContents.primal=该节点所含的元始源质: §eAer: %1$s§f, §2Terra: %2$s§f, §cIgnis: %3$s§f, §3Aqua: %4$s§f, §7Ordo: %5$s§f, §8Perditio: %6$s
 wg.chat.infusionWarning.pedestalHeight=位于%1$s, %2$s, %3$s的注魔基座不能高于注魔祭坛
 wg.chat.infusionWarning.pedestalPos=位于%1$s, %2$s, %3$s的基座与矩阵的水平距离不能超过8格
 wg.chat.infusionWarning.noPartnerItem=位于%1$s, %2$s, %3$s的基座缺少物品来维持对称
@@ -252,7 +252,7 @@ witchinggadgets_research_page.AGEINGSTONE.1=每一个年轻的神秘使都想要
 #
 witchinggadgets_research_name.SPINNINGWHEEL=纺织工艺
 witchinggadgets_research_text.SPINNINGWHEEL=[WG]别戳到自己
-witchinggadgets_research_page.SPINNINGWHEEL.1=有不少巫师会忽视纺织的重要性,但那也只是因为他们低估了它的实力.魔法制品中不乏纺织产物,比如每个神秘使的法袍.一些巫师将会证明在法袍上印刻符文与纺织有着极为相似之处,两者都需要谨慎对待所用的原料,不管是纯生的要素还是纤细的丝线.
+witchinggadgets_research_page.SPINNINGWHEEL.1=有不少巫师会忽视纺织的重要性,但那也只是因为他们低估了它的实力.魔法制品中不乏纺织产物,比如每个神秘使的法袍.一些巫师将会证明在法袍上印刻符文与纺织有着极为相似之处,两者都需要谨慎对待所用的原料,不管是纯生的源质还是纤细的丝线.
 witchinggadgets_research_page.SPINNINGWHEEL.2=对每个初入纺织的实践者而言,都要先做出自己的§l纺车§r.你可以用它来纺出各种纱线,普通的,精致的或是赋予魔法的.然后再将它们织成布匹,做成各种装备或魔法制品-
 witchinggadgets_research_page.SPINNINGWHEEL.r1=<IMG>witchinggadgets:textures/gui/research/spinningRecipes1.png:0:0:255:255:0.5</IMG>§l纱线§r
 witchinggadgets_research_page.SPINNINGWHEEL.r2=<IMG>witchinggadgets:textures/gui/research/spinningRecipes2.png:0:0:255:255:0.5</IMG>§l金丝线§r
@@ -261,7 +261,7 @@ witchinggadgets_research_page.SPINNINGWHEEL.r3=<IMG>witchinggadgets:textures/gui
 
 witchinggadgets_research_name.CALCULATOR=奥术计算器
 witchinggadgets_research_text.CALCULATOR=[WG] 3-4 = 扭曲?
-witchinggadgets_research_page.CALCULATOR.1=作为一名杰出的神秘使,那些邪术知识可谓唾手可得,你也算是研究混沌的专家了....或许也是因为你缺乏数学方面的知识.但是既然有魔法能为你解决,又有谁会去自找麻烦地研究科学呢?<BR>奥术计算器能帮你解决诸多常见的计算问题.对一个有复合要素的节点使用,它就会计算其所含有的元始要素值.用在注魔矩阵上则可以获取稳定性,稳定物位置,当前注魔风险以及源质额外消耗的相关信息..
+witchinggadgets_research_page.CALCULATOR.1=作为一名杰出的神秘使,那些邪术知识可谓唾手可得,你也算是研究混沌的专家了....或许也是因为你缺乏数学方面的知识.但是既然有魔法能为你解决,又有谁会去自找麻烦地研究科学呢?<BR>奥术计算器能帮你解决诸多常见的计算问题.对一个有复合源质的节点使用,它就会计算其所含有的元始源质值.用在注魔矩阵上则可以获取稳定性,稳定物位置,当前注魔风险以及源质额外消耗的相关信息..
 witchinggadgets_research_page.CALCULATOR.2=§o已知最高的注魔风险来自*咳*神秘工匠*咳*,不稳定性高达15.将你的祭坛稳定性控制在那之上将会显得毫无意义.
 #
 witchinggadgets_research_name.LABYRINTHSTRING=引路线卷
@@ -270,7 +270,7 @@ witchinggadgets_research_page.LABYRINTHSTRING.1=迷宫一直以来都被用于�
 #
 witchinggadgets_research_name.LABELLIB=要素标记库
 witchinggadgets_research_text.LABELLIB=[WG]目录创造的简单!
-witchinggadgets_research_page.LABELLIB.1=当你管理各种源质时,你发现贴标签实在是麻烦至极,你需要一次次地用安瓿装源质再给标签标记,为此你做出了源质标记库.它会记录你所发现的每一个要素,并将其标记在标签上.你只需要放入一个标签,然后选择一个要素,标签就会被标记为对应的要素.
+witchinggadgets_research_page.LABELLIB.1=当你管理各种源质时,你发现贴标签实在是麻烦至极,你需要一次次地用安瓿装源质再给标签标记,为此你做出了源质标记库.它会记录你所发现的每一个源质,并将其标记在标签上.你只需要放入一个标签,然后选择一种源质,标签就会被标记为对应的源质.
 
 
 
@@ -292,7 +292,7 @@ witchinggadgets_research_page.HUNGERBAG.1=将奇术口袋的便携性和饕餮�
 #
 witchinggadgets_research_name.VOIDBAG=虚空口袋
 witchinggadgets_research_text.VOIDBAG=[WG]超级黑洞
-witchinggadgets_research_page.VOIDBAG.1=你难道不讨厌那些没用的圆石么?如果它们直接消失该有多好?现在你有办法了!给一个魔法布匹所做的口袋注入虚空的能量后,它就能破坏进入其中的一切物品的物理形态然后释放出它们所含的魔法能量.<BR>使用方法:打开它然后设定你所想的物品.接着,当你捡起那种物品时(只对拾取有效,以其他方式进入物品栏的物品不受影响),它们就会被销毁并随机产生元始要素魔力,给你的法杖充能.
+witchinggadgets_research_page.VOIDBAG.1=你难道不讨厌那些没用的圆石么?如果它们直接消失该有多好?现在你有办法了!给一个魔法布匹所做的口袋注入虚空的能量后,它就能破坏进入其中的一切物品的物理形态然后释放出它们所含的魔法能量.<BR>使用方法:打开它然后设定你所想的物品.接着,当你捡起那种物品时(只对拾取有效,以其他方式进入物品栏的物品不受影响),它们就会被销毁并随机产生元始Vis,给你的法杖充能.
 #
 
 
@@ -330,7 +330,7 @@ witchinggadgets_research_page.CLOAK_RAVEN.1=在穿过暮色森林的旅行中,�
 #
 witchinggadgets_research_name.CLOAK_SPECTRAL=幽灵斗篷
 witchinggadgets_research_text.CLOAK_SPECTRAL=[WG]现在你看到我了...
-witchinggadgets_research_page.CLOAK_SPECTRAL.1=对于大多数普通人来说,幽灵生物位面是个谜,幸运的是,你不是这大多数人.在为斗篷灌注邪术与幽灵能量后,它将使你能够"转移"自己到那个位面.在那个位面中行走,相对于那些正常位面的普通生物,你将是隐形的.敌人不会看到或瞄准你,除非他们是邪术生物,豁免者或戴着揭示护目镜.<BR>这种能力是以无法与物质世界互动为代价的.你不能攻击,使用物品,破坏或激活方块.此外,它会每隔5秒从你的库存中消耗1风vis.
+witchinggadgets_research_page.CLOAK_SPECTRAL.1=对于大多数普通人来说,幽灵生物位面是个谜,幸运的是,你不是这大多数人.在为斗篷灌注邪术与幽灵能量后,它将使你能够"转移"自己到那个位面.在那个位面中行走,相对于那些正常位面的普通生物,你将是隐形的.敌人不会看到或瞄准你,除非他们是邪术生物,豁免者或戴着揭示护目镜.<BR>这种能力是以无法与物质世界互动为代价的.你不能攻击,使用物品,破坏或激活方块.此外,它会每隔5秒从你的库存中消耗1点风vis.
 witchinggadgets_research_page.CLOAK_SPECTRAL.2=§o免责声明: 仍然可以看到你的生物包括:邪术守卫,邪术典狱官,邪术魔像,血腥主教,以及boss怪比如凋灵或末影龙.由于即使是最狡猾的神秘使也不知道的原因,蜘蛛和史莱姆似乎能够以不同的方式探测到你.任何使用相同斗篷的人也能看见你.§r
 #
 witchinggadgets_research_name.CLOAK_WOLF=野狼斗篷
@@ -400,7 +400,7 @@ witchinggadgets_research_page.INFERNALBLASTFURNACE.3=§o魔导手册中对于建
 #MIRRORPUMP
 witchinggadgets_research_name.MIRRORPUMP=源质泵
 witchinggadgets_research_text.MIRRORPUMP=[WG]吸干它!
-witchinggadgets_research_page.MIRRORPUMP.1=源质魔镜能让注魔祭坛远距离抽取源质,但大部分其他的设备却没法使用这些源质.为了省去铺设管道的麻烦,你发明了源质泵.当它接入管道系统时,它会识别系统中当前的吸力并从邻近的镜子抽取要素源质.
+witchinggadgets_research_page.MIRRORPUMP.1=源质魔镜能让注魔祭坛远距离抽取源质,但大部分其他的设备却没法使用这些源质.为了省去铺设管道的麻烦,你发明了源质泵.当它接入管道系统时,它会识别系统中当前的吸力并从邻近的镜子抽取源质.
 
 witchinggadgets_research_name.ROSEVINE=玫瑰藤
 witchinggadgets_research_text.ROSEVINE=[WG]尖刺!
@@ -459,13 +459,13 @@ witchinggadgets_research_name.GEMCUTTING=宝石雕琢
 witchinggadgets_research_text.GEMCUTTING=[WG]一切都晶莹剔透!
 witchinggadgets_research_page.GEMCUTTING.1=在各种通过物理形式赋予魔法的方法中,宝石雕琢算是较为古老的了.如果将魔法注入宝石中,那么它的使用就不再受限于持有者了.谁都能使用雕琢过的宝石中所存的力量.即便是不精于神秘学的人,也能通过这些宝石获取力量.<BR>宝石的功能取决于它们的琢型和注入的魔法源质.
 
-witchinggadgets_research_page.GEMCUTTING.2=你可以用新造的切割台来制作这些宝石,并向其中注入源质.<BR>在左侧放入一颗有效的宝石,另外三个槽放入天域之华或要素安瓿.它们所含的要素必须是同种类型的,要素类型也会决定蕴魔宝石最终的强度.通过箭头可以选择雕刻的琢型,然后就可以在右侧取出制作完成的宝石.宝石一旦被加工出来,就无法重新加工了.
-witchinggadgets_research_page.GEMCUTTING.3=§l自然亲和§r<BR>一些石头与生俱来就对特定的要素有自然亲和,这会增强它们的效果.如果亲和属性与注入的要素匹配,宝石就会被附魔"闪耀",附魔等级取决于制作时所用的源质量.<BR>§l自然疏离§r<BR>类似的,一些宝石对特定要素也会有自然疏离,如果向宝石注入了这些要素就会使其变得脆弱,削弱它们的效果,并且会让可反复使用的宝石的损坏几率增大.<BR>按住shift就可以查看宝石的自然亲和与自然疏离属性.
+witchinggadgets_research_page.GEMCUTTING.2=你可以用新造的切割台来制作这些宝石,并向其中注入源质.<BR>在左侧放入一颗有效的宝石,另外三个槽放入天域之华或源质安瓿.它们所含的源质必须是同种类型的,源质类型也会决定蕴魔宝石最终的强度.通过箭头可以选择雕刻的琢型,然后就可以在右侧取出制作完成的宝石.宝石一旦被加工出来,就无法重新加工了.
+witchinggadgets_research_page.GEMCUTTING.3=§l自然亲和§r<BR>一些石头与生俱来就对特定的源质有自然亲和,这会增强它们的效果.如果亲和属性与注入的源质匹配,宝石就会被附魔"闪耀",附魔等级取决于制作时所用的源质量.<BR>§l自然疏离§r<BR>类似的,一些宝石对特定源质也会有自然疏离,如果向宝石注入了这些源质就会使其变得脆弱,削弱它们的效果,并且会让可反复使用的宝石的损坏几率增大.<BR>按住shift就可以查看宝石的自然亲和与自然疏离属性.
 
-witchinggadgets_research_page.GEMCUTTING.4=            §l结晶体琢型§r<LINE>结晶体琢型是蕴魔宝石最基础的琢型.尽管它能储存魔法能量,但你只能通过粉碎宝石来释放.使用过后的宝石会变为一摊宝石粉末.各种要素的效果如下:<BR>§e§lAer:§r§0让你短暂获得大幅的跳跃力提升.<BR>§2§lTerra:§r§0赋予你对击退效果的抗性.<BR>§c§lIgnis:§r§0用临时的光源照亮你周围的区域.
+witchinggadgets_research_page.GEMCUTTING.4=            §l结晶体琢型§r<LINE>结晶体琢型是蕴魔宝石最基础的琢型.尽管它能储存魔法能量,但你只能通过粉碎宝石来释放.使用过后的宝石会变为一摊宝石粉末.各种源质的效果如下:<BR>§e§lAer:§r§0让你短暂获得大幅的跳跃力提升.<BR>§2§lTerra:§r§0赋予你对击退效果的抗性.<BR>§c§lIgnis:§r§0用临时的光源照亮你周围的区域.
 witchinggadgets_research_page.GEMCUTTING.5=§3§lAqua:§r§0释放出一阵极寒的能量,使附近的水结冰,岩浆凝固.<BR>§f§lOrdo:§r§0让你回复一些生命值.<BR>§8§lPerditio:§r§0增加一些临时扭曲值.
 
-witchinggadgets_research_page.GEMCUTTING.6=              §l椭圆琢型§r<LINE>椭圆琢型是蕴魔宝石的高级琢型.增多雕琢的翻光面后,它就能储存更多的能量.并且会以更集中的脉冲来释放能量.它们的效果与结晶体琢型的截然不同,此外这种琢型的宝石能通过相应的要素魔力充能.<BR>由于其结构的复杂性,将没有自然亲和的原石用于雕琢会使成品十分脆弱,同时制作闪耀宝石所需的源质也会增多.
+witchinggadgets_research_page.GEMCUTTING.6=              §l椭圆琢型§r<LINE>椭圆琢型是蕴魔宝石的高级琢型.增多雕琢的翻光面后,它就能储存更多的能量.并且会以更集中的脉冲来释放能量.它们的效果与结晶体琢型的截然不同,此外这种琢型的宝石能通过相应的源质魔力充能.<BR>由于其结构的复杂性,将没有自然亲和的原石用于雕琢会使成品十分脆弱,同时制作闪耀宝石所需的源质也会增多.
 witchinggadgets_research_page.GEMCUTTING.7=§e§lAer:§r§0风之力会推动你前行,每次使用消耗1充能.<BR>§2§lTerra:§r§0在一个方块上使用时,它会检测相连的方块来搜寻矿物,每次使用消耗1充能.<BR>§c§lIgnis:§r§0在所指方块上燃起一团火焰,每次使用消耗1充能.<BR>§3§lAqua:§r§0在所指方块上生成水方块.每次使用消耗2充能.<BR>§7§lOrdo:§r§0为你指出最近的节点所在的方位.每次使用消耗2充能.<BR>§8§lPerditio:§r§0对魔镜使用时,会将你传送到相连的另一个魔镜,每次使用消耗16充能.(需要shift右击)
 witchinggadgets_research_page.GEMCUTTING.7.noMirrors=§e§lAer:§r§0风之力会推动你前行,每次使用消耗1充能.<BR>§2§lTerra:§r§0在一个方块上使用时,它会检测相连的方块来搜寻矿物,每次使用消耗1充能.<BR>§c§lIgnis:§r§0在所指方块上燃起一团火焰,每次使用消耗1充能.<BR>§3§lAqua:§r§0在所指方块上生成水方块.每次使用消耗2充能.<BR>§7§lOrdo:§r§0为你指出最近的节点所在的方位.每次使用消耗2充能.<BR>§8§lPerditio:§r§0释放一阵能量波,推开周围的敌人并致盲.每次使用消耗2充能.
 #
@@ -493,7 +493,7 @@ witchinggadgets_research_page.WGELDRITCHBASE.1=你的研究表明虚空金属是
 #PRIMORDIALGLOVE
 witchinggadgets_research_name.PRIMORDIALGLOVE=元始手套
 witchinggadgets_research_text.PRIMORDIALGLOVE=[WG]各自独立
-witchinggadgets_research_page.PRIMORDIALGLOVE.1=元始珍珠的研究让你开始进一步破解先前所遇到的邪术文字.其中包括了一套装备的设计,它们似乎能通过宝石引导虚空之力.可惜的是,只有手套部分的文本勉强可以辨别出.<BR>该手套内置一个§5节点换能器§0,它一旦抓取到节点,就再也不会将其释放出来,新的节点会替代现有的.<BR>在上面的5个接口安装蕴魔宝石后,你就能引导出宝石的力量了.宝石的充能速度取决于手套中节点的要素含量.
+witchinggadgets_research_page.PRIMORDIALGLOVE.1=元始珍珠的研究让你开始进一步破解先前所遇到的邪术文字.其中包括了一套装备的设计,它们似乎能通过宝石引导虚空之力.可惜的是,只有手套部分的文本勉强可以辨别出.<BR>该手套内置一个§5节点换能器§0,它一旦抓取到节点,就再也不会将其释放出来,新的节点会替代现有的.<BR>在上面的5个接口安装蕴魔宝石后,你就能引导出宝石的力量了.宝石的充能速度取决于手套中节点的源质含量.
 witchinggadgets_research_page.PRIMORDIALGLOVE.2=接口会稳定其中的宝石,因此一旦安装,宝石就不会粉碎而是再充能<BR>若要选择激活的宝石,只需使用切换法杖核心的键位即可.潜行时按切换键可以打开它的界面,在这里就可以添加或取出宝石.<BR>制作过程不会消耗珍珠.
 
 #PRIMORDIALGEARSET
@@ -549,7 +549,7 @@ witchinggadgets_research_page.EMPOWERPEARL.1=元始珍珠昔日的力量已然�
 #TERRAFORMER
 witchinggadgets_research_name.TERRAFORMER=奥术群系转化器
 witchinggadgets_research_text.TERRAFORMER=[WG]随我心意,速速转变!
-witchinggadgets_research_page.TERRAFORMER.1=当普通的园艺不再足够,当你想要将那苦闷的雨变为美丽的雪,当你那该死的蜜蜂们不愿在当前的气候下工作:是时候用上奥术群系转化器了.<BR>在它的顶端放上核心,就会设定需求的要素.这个装置会消耗指定的要素源质以及§2Terra§0要素魔力.每消耗4单位源质和4点魔力,它就会改变周围16格以内某一处的生物群系.
+witchinggadgets_research_page.TERRAFORMER.1=当普通的园艺不再足够,当你想要将那苦闷的雨变为美丽的雪,当你那该死的蜜蜂们不愿在当前的气候下工作:是时候用上奥术群系转化器了.<BR>在它的顶端放上核心,就会设定需求的源质.这个装置会消耗指定的源质以及§2Terra§0vis.每消耗4单位源质和4点vis,它就会改变周围16格以内某一处的生物群系.
 
 witchinggadgets_research_name.TERRAFORMFOCUS_PLAINS=群系核心:平原
 witchinggadgets_research_text.TERRAFORMFOCUS_PLAINS=[WG]一望无垠
@@ -601,7 +601,7 @@ witchinggadgets_research_page.RUNICCLOAK.1=尽管符文护甲的保护很重要,
 #
 witchinggadgets_research_name.LOOM=织机
 witchinggadgets_research_text.LOOM=[WG]编织魔力
-witchinggadgets_research_page.LOOM.1=为了进一步处理纺出的纱线,巫师就需要制作一台魔法织机来纺得魔法布匹.这个装置不仅能纺织丝线,还能给其注入各种§l要素§r,赋予其魔法特性.为此你需要在附近放置装有源质的§l要素罐子§r.<BR>设定好配方后,只要用法杖轻触织机就能开始纺织了.
+witchinggadgets_research_page.LOOM.1=为了进一步处理纺出的纱线,巫师就需要制作一台魔法织机来纺得魔法布匹.这个装置不仅能纺织丝线,还能给其注入各种§l源质§r,赋予其魔法特性.为此你需要在附近放置装有源质的§l源质罐子§r.<BR>设定好配方后,只要用法杖轻触织机就能开始纺织了.
 #
 witchinggadgets_research_name.ARCANEAUTOCRAFTER=奥术合成器
 witchinggadgets_research_text.ARCANEAUTOCRAFTER=[WG]奥术自动合成!

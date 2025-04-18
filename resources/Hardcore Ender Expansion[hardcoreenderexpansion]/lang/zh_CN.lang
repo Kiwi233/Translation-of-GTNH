@@ -2,12 +2,15 @@
 tile.baconStone.name=培根石
 tile.obsidianEnd.name=黑曜石
 tile.obsidianStairs.name=黑曜石楼梯
+tile.obsidianSpecial.name=Obsidian
 tile.obsidianSpecial.smooth.name=平滑黑曜石
 tile.obsidianSpecial.chiseled.name=錾制黑曜石
 tile.obsidianSpecial.pillar.name=黑曜石柱
+tile.obsidianSpecial.name=发光黑曜石
 tile.obsidianSpecialGlowing.smooth.name=平滑发光黑曜石
 tile.obsidianSpecialGlowing.chiseled.name=錾制发光黑曜石
 tile.obsidianSpecialGlowing.pillar.name=发光黑曜石柱
+tile.essenceAltar.name=精华祭坛
 tile.essenceAltar.basic.name=基础精华祭坛
 tile.essenceAltar.dragon.name=龙之精华祭坛
 tile.essenceAltar.dragon.bacon.name=培根精华祭坛
@@ -30,6 +33,7 @@ tile.instabilityOrbOre.name=震荡球矿石
 tile.enderGoo.name=末影粘浆
 tile.endiumBlock.name=终末块
 tile.endiumBlock.bacon.name=培根块
+tile.endStoneTerrain.name=末地石
 tile.endStoneTerrain.infested.name=腐化末地石
 tile.endStoneTerrain.burned.name=灼烧末地石
 tile.endStoneTerrain.enchanted.name=附魔末地石
@@ -47,6 +51,7 @@ tile.crossedDecoration.violetMoss.moderate.name=中型紫苔
 tile.crossedDecoration.violetMoss.short.name=矮紫苔
 tile.crossedDecoration.flameweed.name=灼火之草
 tile.crossedDecoration.shadowOrchid.name=影兰
+item.endermanHead.name=末影人头
 tile.endermanHead.name=末影人的头
 tile.endermanHead.bacon.name=培根人的头
 tile.sphalerite.name=闪锌矿
@@ -57,6 +62,7 @@ tile.ravagedBrickGlow.name=发光毁灭砖块
 tile.ravagedBrickSlab.name=毁灭半砖
 tile.ravagedBrickStairs.name=毁灭砖楼梯
 tile.ravagedBrickFence.name=毁灭砖围栏
+tile.dungeonPuzzle.name=地牢谜题
 tile.dungeonPuzzle.wall.name=地牢谜题(墙壁)
 tile.dungeonPuzzle.rock.name=地牢谜题(岩石)
 tile.dungeonPuzzle.ceiling.name=地牢谜题(顶棚)
@@ -83,6 +89,9 @@ tile.brewingStand.name=强化酿造台
 tile.templeEndPortal.name=末地传送门
 tile.laserBeam.name=激光束
 
+tile.crossedDecoration.name=十字交叉装饰
+
+item.essence.name=精华
 item.essence.dragon.name=龙之精华
 item.essence.dragon.bacon.name=培根精华
 item.essence.fiery.name=炎之精华
@@ -153,6 +162,7 @@ item.sacredWand.core.dexterity=机敏法杖核心
 item.sacredWand.core.force=力量法杖核心
 item.sacredWand.core.repulsion=斥力法杖核心
 
+item.rune.name=符文
 item.rune.any.name=符文(任意)
 item.rune.power.name=力量符文
 item.rune.agility.name=敏捷符文
@@ -161,6 +171,7 @@ item.rune.defense.name=防御符文
 item.rune.magic.name=魔法符文
 item.rune.void.name=虚空符文
 
+item.charm.name=护符
 item.charm.basicpower.name=力量护符
 item.charm.basicpower.tooltip=+$0 伤害
 item.charm.basicagility.name=敏捷护符
@@ -209,6 +220,7 @@ item.charm.lastresort.name=终极审判护符
 item.charm.lastresort.tooltip=将 $0 个方块传送远离最终打击区域，冷却时间 $1 秒
 item.charm.cannotstack=此护符效果无法与其他同类型护符重叠
 
+item.curse.name=诅咒
 item.curse.eternal=永恒诅咒
 item.curse.teleportation.name=传送诅咒
 item.curse.confusion.name=混乱诅咒
@@ -221,6 +233,8 @@ item.curse.decay.name=衰变诅咒
 item.curse.vampire.name=吸血鬼诅咒
 item.curse.rebound.name=荆棘诅咒
 item.curse.loss.name=湮灭诅咒
+
+item.itemNumber.name=数值
 
 entity.dragon.name=末影龙
 entity.dragon.bacon.name=末影培根

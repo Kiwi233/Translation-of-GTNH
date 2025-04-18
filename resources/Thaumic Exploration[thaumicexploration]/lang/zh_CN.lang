@@ -35,7 +35,7 @@ thaumicexploration.bread2=你饿了么?
 thaumicexploration.bread3=你好，先生
 thaumicexploration.bread4=请吃了我(French)
 
-
+item.thaumicexploration:discountRing.name=戒指
 item.thaumicexploration:discountRing:0.name=风之指环
 item.thaumicexploration:discountRing:1.name=地之指环
 item.thaumicexploration:discountRing:2.name=火之指环
@@ -103,6 +103,7 @@ item.thaumicexploration:blankSeal:Red.name=红色空封蜡
 item.thaumicexploration:blankSeal:Dark.name=黑色空封蜡
 
 ----Chest Seals----
+item.thaumicexploration:chestSeal.name=箱子封蜡
 item.thaumicexploration:chestSeal:Pale.name=白色箱子封蜡
 item.thaumicexploration:chestSeal:Orange.name=橙色箱子封蜡
 item.thaumicexploration:chestSeal:Magenta.name=品红色箱子封蜡
@@ -121,6 +122,7 @@ item.thaumicexploration:chestSeal:Red.name=红色箱子封蜡
 item.thaumicexploration:chestSeal:Dark.name=黑色箱子封蜡
 
 ----Jar Seals----
+item.thaumicexploration:jarSeal.name=罐子封蜡
 item.thaumicexploration:jarSeal:Pale.name=白色罐子封蜡
 item.thaumicexploration:jarSeal:Orange.name=橙色罐子封蜡
 item.thaumicexploration:jarSeal:Magenta.name=品红色罐子封蜡
@@ -148,6 +150,7 @@ tile.thaumicexploration:trashJar.name=泯灭之罐
 tile.thaumicexploration:soulBrazier.name=灵魂火盆
 tile.boundJar.name=绑定罐子
 tile.boundChest.name=绑定箱子
+tile.thaumicexploration:floatCandle.name=浮烛
 tile.thaumicexploration:floatCandle.0.name=白色浮烛
 tile.thaumicexploration:floatCandle.1.name=橙色浮烛
 tile.thaumicexploration:floatCandle.2.name=品红色浮烛
@@ -175,13 +178,13 @@ tc.research_category.TX=秘术学
 --Oblivion Jar
 te.name.TRASHJAR=泯灭之罐
 te.tag.TRASHJAR=源质销毁
-te.text.TRASHJAR.1=尽管虚空罐子在大量消除某种源质时很有用,多数情况下你的注魔室总是溢满了多种源质.与其浪费时间给每种准备一个虚空罐子,你觉得还有更简单的解决方法.显然这个方法就是使用泯灭之罐.<BR><BR>虽然比起作为原料的虚空罐子和守卫着玻璃要昂贵些，但一个管道系统中仅需一个泯灭之罐就可以处理所有过剩的要素源质.它会像盛满的虚空罐子一样消除所有进入其中的源质.
-te.text.TRASHJAR.2=泯灭之罐的吸力在所有罐子中是最弱的,这意味着它只会接受那些无处可去的要素源质.傀儡也能与它交互,前提是他们找不到其它能放入他们所带源质的罐子.
+te.text.TRASHJAR.1=尽管虚空罐子在大量消除某种源质时很有用,多数情况下你的注魔室总是溢满了多种源质.与其浪费时间给每种准备一个虚空罐子,你觉得还有更简单的解决方法.显然这个方法就是使用泯灭之罐.<BR><BR>虽然比起作为原料的虚空罐子和守卫着玻璃要昂贵些，但一个管道系统中仅需一个泯灭之罐就可以处理所有过剩的源质.它会像盛满的虚空罐子一样消除所有进入其中的源质.
+te.text.TRASHJAR.2=泯灭之罐的吸力在所有罐子中是最弱的,这意味着它只会接受那些无处可去的源质.傀儡也能与它交互,前提是他们找不到其它能放入他们所带源质的罐子.
 
 --Soul Brazier
 te.name.SOULBRAZIER=灵魂火盆
 te.tag.SOULBRAZIER=扭曲可不是闹着玩的?
-te.text.SOULBRAZIER.1=扭曲是一个危险邪恶的力量.虽然保留在神智里它是糟糕的,但让其散发到世界里将会更加糟糕,这就是我们为什么要保持原有的扭曲.它需要节点提供vis和死亡要素,但它可以保持玩家原有的扭曲,且不会对环境造成太大的伤害
+te.text.SOULBRAZIER.1=扭曲是一个危险邪恶的力量.虽然保留在神智里它是糟糕的,但让其散发到世界里将会更加糟糕,这就是我们为什么要保持原有的扭曲.它需要节点提供vis和死亡源质,但它可以保持玩家原有的扭曲,且不会对环境造成太大的伤害
 
 
 --Taintacle Ring
@@ -191,8 +194,8 @@ te.text.TENTACLERING.1=你找到了一种方法利用从研究腐化之地所得
 
 --Discount Rings
 te.name.DISCOUNTRINGS=碎片指环
-te.tag.DISCOUNTRINGS=魔力减免
-te.text.DISCOUNTRINGS.1=你发现一种方法减免法杖合成所需的要素.只需将你在地下找到的神秘碎片雕琢为指环的形式,再给它们施予魔力.<BR><BR>可以制作六种初始要素对应的指环.如果你一次性装备两个指环.那么它们的减免效果就会叠加.
+te.tag.DISCOUNTRINGS=Vis减免
+te.text.DISCOUNTRINGS.1=你发现一种方法减免法杖合成所需的源质.只需将你在地下找到的神秘碎片雕琢为指环的形式,再给它们施予魔力.<BR><BR>可以制作六种初始源质对应的指环.如果你一次性装备两个指环.那么它们的减免效果就会叠加.
 
 --Thaumostatic Stabilizer
 te.name.STABILIZERBELT=奥法加护腰带
@@ -207,7 +210,7 @@ te.text.FLOATCANDLE.1=你总觉得油脂蜡烛还缺点什么...<BR>利用在魔
 --Flesh Curing
 te.name.FLESHCURE=腐肉炼制
 te.tag.FLESHCURE=变废为宝
-te.text.FLESHCURE.1=给腐肉注入特定的要素源质,你发现这能使你移除腐肉中几乎所有的腐烂和毒害作用,使它变得更有用.<BR><BR>尽管这不是十分实用的,你相信它也能做出些绝妙的东西.
+te.text.FLESHCURE.1=给腐肉注入特定的源质,你发现这能使你移除腐肉中几乎所有的腐烂和毒害作用,使它变得更有用.<BR><BR>尽管这不是十分实用的,你相信它也能做出些绝妙的东西.
 
 --Brain Curing
 te.name.BRAINCURE=僵脑净化
@@ -229,7 +232,7 @@ te.text.CHESTSEAL.1=将普通的油脂制成的封蜡浸泡在各种源质的混
 --Jar Sealing
 te.name.JARSEAL=罐子封蜡
 te.tag.JARSEAL=源质,无处不在的源质
-te.text.JARSEAL.1=通过调整油脂封蜡浸泡的要素混合来探究源质的神秘性,使你能绑定要素源质容器,尤其是,要素罐子.就像之前的封蜡一样,罐子封蜡也能染色并且有无限制的网络数量.<BR><BR>如何创建网络参见箱子封蜡绑定相关页面.注意只有空的罐子才能绑定.你无法绑定虚空罐子或是标签罐子.<BR><BR>封蜡罐子有比未贴标签的罐子强,比标签罐子弱的吸力.
+te.text.JARSEAL.1=通过调整油脂封蜡浸泡的源质混合来探究源质的神秘性,使你能绑定源质容器,尤其是,源质罐子.就像之前的封蜡一样,罐子封蜡也能染色并且有无限制的网络数量.<BR><BR>如何创建网络参见箱子封蜡绑定相关页面.注意只有空的罐子才能绑定.你无法绑定虚空罐子或是标签罐子.<BR><BR>封蜡罐子有比未贴标签的罐子强,比标签罐子弱的吸力.
 
 --Everfull Urn
 te.name.URN=无尽之壶
@@ -243,54 +246,54 @@ te.text.URN.1B=你在研究中读到了许多关于'无尽之壶'的东西,一�
 --Everburn Urn
 te.name.BURN=炼狱之壶
 te.tag.BURN=为什么我要用火做??
-te.text.BURN.1=在研究无尽之壶之后,你找到一种生成岩浆的方法.<BR><BR>你发现它和水有所不同,岩浆需要能源,所以你将其称之为炼狱之罐,它需要Centivis去驱动它.你的炼狱之壶不仅能够用桶来装岩浆,它也能够从顶部输出到外部的储罐.
+te.text.BURN.1=在研究无尽之壶之后,你找到一种生成岩浆的方法.<BR><BR>你发现它和水有所不同,岩浆需要能源,所以你将其称之为炼狱之罐,它需要Centivis驱动.你的炼狱之壶不仅能够用桶来装岩浆,它也能够从顶部输出到外部的储罐.
 
 --Crucible of Souls
 te.name.CRUCSOULS=灵魂坩埚
 te.tag.CRUCSOULS=注意:远离儿童.
-te.text.CRUCSOULS.1=你已发现了一种方法利用从未开发过的源质来源-活的生物.给炼金炉注入多种神秘药剂和精确数量的源质,就做出了一个灵魂坩埚,一个会搜寻附近的生物并缓慢抽取它们生命力的装置,最后一击时抽取出要素源质.这个过程的代价就是消除了生物正常的掉落物.产生的源质能用管道在除了顶部以外的面导出.
-te.text.CRUCSOULS.2=灵魂坩埚十分不稳定,且有很大的概率将一些源质转为咒波或是分解为低级要素源质.你得在出现问题前做些处理咒波的准备.<BR><BR>你给它装上了基础的保护措施使得这个装置不会攻击人类,但请让你的宠物远离.神秘的傀儡也应不.
+te.text.CRUCSOULS.1=你已发现了一种方法利用从未开发过的源质来源-活的生物.给炼金炉注入多种神秘药剂和精确数量的源质,就做出了一个灵魂坩埚,一个会搜寻附近的生物并缓慢抽取它们生命力的装置,最后一击时抽取出源质.这个过程的代价就是消除了生物正常的掉落物.产生的源质能用管道在除了顶部以外的面导出.
+te.text.CRUCSOULS.2=灵魂坩埚十分不稳定,且有很大的概率将一些源质转为咒波或是分解为低级源质.你得在出现问题前做些处理咒波的准备.<BR><BR>你给它装上了基础的保护措施使得这个装置不会攻击人类,但请让你的宠物远离.神秘的傀儡也应不.
 
 --Replicator
 te.name.REPLICATOR=神秘复制器
 te.tag.REPLICATOR=等价交换
-te.text.REPLICATOR.1=你能用炼金炉把方块分解为要素源质,现在你找到了一种方法反其道而行.你做出了一个用源质就能复制简单建筑方块的装置.<BR><BR>手持方块右击神秘复制器,就能设定模板.再用法杖右击启动复制器.带上揭示之护目镜就能看到复制器需要哪些源质,就像注魔那样由附近的罐子提供要素源质.
-te.text.REPLICATOR.2=这些要素源质就会将模板设定的方块塑造出来.再次启动复制前需要取下造出的方块.右击会取下复制器上的任何方块,再次右击将会重置模板.<BR><BR>这个过程也能自动进行,用红石信号开启复制和漏斗导出方块.
+te.text.REPLICATOR.1=你能用炼金炉把方块分解为源质,现在你找到了一种方法反其道而行.你做出了一个用源质就能复制简单建筑方块的装置.<BR><BR>手持方块右击神秘复制器,就能设定模板.再用法杖右击启动复制器.带上揭示之护目镜就能看到复制器需要哪些源质,就像注魔那样由附近的罐子提供源质.
+te.text.REPLICATOR.2=这些源质就会将模板设定的方块塑造出来.再次启动复制前需要取下造出的方块.右击会取下复制器上的任何方块,再次右击将会重置模板.<BR><BR>这个过程也能自动进行,用红石信号开启复制和漏斗导出方块.
 
 --Amber Wand Core
 te.name.ROD_AMBER=琥珀杖柄
-te.tag.ROD_AMBER=再生的魔力储存
-te.text.ROD_AMBER.1=最终你发现了琥珀实用的一面,用在制作杖柄上.琥珀的魔力储存容量很少,尽管每种只能储存10vis,但它有其它的长处.<BR><BR>琥珀杖柄在空的时候似乎能储存闪现的魔力.通过这一点,你做出了一个可以在魔力未满时快速补充所有魔力的杖柄.尽管你做出的其它一些杖柄也有回复魔力的能力,琥珀杖柄以两倍速回复每种要素1vis而不是单独限定某一种.
+te.tag.ROD_AMBER=再生的Vis储存
+te.text.ROD_AMBER.1=最终你发现了琥珀实用的一面,用在制作杖柄上.琥珀的Vis储存容量很少,尽管每种只能储存10单位,但它有其它的长处.<BR><BR>琥珀杖柄在空的时候似乎能储存闪现的Vis.通过这一点,你做出了一个可以在Vis未满时快速补充所有Vis的杖柄.尽管你做出的其它一些杖柄也有回复Vis的能力,琥珀杖柄以两倍速回复每种vis1点而不是单独限定某一种.
 
 --Amber Staff Core
 te.name.ROD_AMBER_staff=琥珀杖芯
-te.tag.ROD_AMBER_staff=再生的魔力储存
-te.text.ROD_AMBER_staff.1=由琥珀制成的杖芯,可储存各种要素25vis.<BR>同琥珀杖柄一样它也会缓慢恢复魔力储存.
+te.tag.ROD_AMBER_staff=再生的Vis储存
+te.text.ROD_AMBER_staff.1=由琥珀制成的杖芯,可储存各种vis25点.<BR>同琥珀杖柄一样它也会缓慢恢复Vis储存.
 
 --Transmutation Staff Core
 te.name.ROD_TRANSMUTATION_staff=转化杖芯
 te.tag.ROD_TRANSMUTATION_staff=一个变为另一个
-te.text.ROD_TRANSMUTATION_staff.1=由元始魔力和各种元素碎片做成的杖芯,可储存各种要素175vis.<BR>就像转化杖柄那样它会将某一超出容量90%的要素转化为其他要素.
+te.text.ROD_TRANSMUTATION_staff.1=由元始魔力和各种元素碎片做成的杖芯,可储存各种vis175点.<BR>就像转化杖柄那样它会将某一超出容量90%的vis转化为其他vis.
 
 --Necromancer's Staff Core
 te.name.ROD_NECROMANCER_staff=亡灵杖芯
 te.tag.ROD_NECROMANCER_staff=亡灵之力
-te.text.ROD_NECROMANCER_staff.1=通过向白骨杖芯注入亡灵的遗留之物你做出了一个骇人的杖芯.<BR><BR>这个杖芯对嗜血的法师来说是绝佳的选择.它拥有200vis的储存上限,并且4倍获得杀怪掉落的要素.此外,这个杖芯是个近身战斗的能手.击打怪物会施加凋零的力量.不幸的是,这也带来了缺点.用于注入的黑魔法是的它对其他途径的魔力接收能力更弱,只相当于普通法杖从节点或是其他途径接收量的75%.
+te.text.ROD_NECROMANCER_staff.1=通过向白骨杖芯注入亡灵的遗留之物你做出了一个骇人的杖芯.<BR><BR>这个杖芯对嗜血的法师来说是绝佳的选择.它拥有200点vis的储存上限,并且4倍获得杀怪掉落的源质.此外,这个杖芯是个近身战斗的能手.击打怪物会施加凋零的力量.不幸的是,这也带来了缺点.用于注入的黑魔法是的它对其他途径的魔力接收能力更弱,只相当于普通法杖从节点或是其他途径接收量的75%.
 
 --Bread Wand Core
 te.name.ROD_BREAD=面包杖柄
-te.tag.ROD_BREAD=法式魔力储存
+te.tag.ROD_BREAD=法式Vis储存
 te.text.ROD_BREAD.1=Bonjour(法语你好)!昨天,你给我买了太多的法式长棍.无法就这样放着这些面包浪费,所以你想方设法将面包做成了杖柄.Bon Appetit(法语祝好胃口)!
 
 --Sojourner's Wand Cap
 te.name.CAP_SOJOURNER=寄生杖端
 te.tag.CAP_SOJOURNER=灵性杖端
-te.text.CAP_SOJOURNER.1=即便有了法杖充能基座,充能仍然是个烦心事.需要经过安装充能基座和在附近放置节点的过程.你做出了个特别的杖端,被拿在手上时它会像法杖充能基座那样被动从周围的节点中抽取魔力.<BR><BR>这个杖端在传输魔力上能力介于金杖端和神秘杖端之间.
+te.text.CAP_SOJOURNER.1=即便有了法杖充能基座,充能仍然是个烦心事.需要经过安装充能基座和在附近放置节点的过程.你做出了个特别的杖端,被拿在手上时它会像法杖充能基座那样被动从周围的节点中抽取Vis.<BR><BR>这个杖端在传输Vis上能力介于金杖端和神秘杖端之间.
 
 --Mechanist's Wand Cap
 te.name.CAP_MECHANIST=机械杖端
 te.tag.CAP_MECHANIST=机械师的法杖端
-te.text.CAP_MECHANIST.1=广泛研究了节点,你意识到你已经到了除改良法杖本身提升传输速度外别无他法的地步.做出了一个能比普通杖端更快从节点解构并吸收魔力的杖端,结合了机械与魔法.<BR><BR>这个杖端在传输魔力上能力介于金杖端和神秘杖端之间.
+te.text.CAP_MECHANIST.1=广泛研究了节点,你意识到你已经到了除改良法杖本身提升传输速度外别无他法的地步.做出了一个能比普通杖端更快从节点解构并吸收Vis的杖端,结合了机械与魔法.<BR><BR>这个杖端在传输Vis上能力介于金杖端和神秘杖端之间.
 
 --Wispy Dreamcatcher
 te.name.DREAMCATCHER=纤细的捕梦网
@@ -335,17 +338,17 @@ te.text.RUNICBOOTS.1=想办法将旅行者之靴与符文护甲融合很简单,�
 --Enhanced Runic Armor
 te.name.ENHANCEDRUNICARMOR=增强符文护甲
 te.tag.ENHANCEDRUNICARMOR=如此...巨大的...力量!
-te.text.ENHANCEDRUNICARMOR.1=你对符文护甲升级的大量研究让你对只能有一个升级而失望.你也怀念神秘发泡所有的魔力减免.你没有泄气,制作出了一个弥补了这些不足的增强符文护甲.<BR><BR>该护甲的每一部分都可以拥有两个而不是一个升级,为了提供更好的防护.像你的法袍那样这套护甲也有被动的魔力减免.只有一个问题-制作成本.
+te.text.ENHANCEDRUNICARMOR.1=你对符文护甲升级的大量研究让你对只能有一个升级而失望.你也怀念神秘发泡所有的Vis减免.你没有泄气,制作出了一个弥补了这些不足的增强符文护甲.<BR><BR>该护甲的每一部分都可以拥有两个而不是一个升级,为了提供更好的防护.像你的法袍那样这套护甲也有被动的Vis减免.只有一个问题-制作成本.
 te.text.ENHANCEDRUNICARMOR.2=注意增强符文护甲的制作会移除现有的升级.<BR><BR>如果你想要覆盖增强护甲的一个升级,你可以手持它右击交换升级的位置.排在前面的升级就是会被覆盖的那一个.<BR><BR>[Recipes pending...leave feedback]
 
 --Transmutative Wand Core
 te.name.ROD_TRANSMUTATION=转化杖柄
 te.tag.ROD_TRANSMUTATION=一个变为另一个
-te.text.ROD_TRANSMUTATION.1=研究元始魔力的性质时,你发现你能偶发地将一种要素魔力转化为另一种.你觉得这个性质用在大多数地方不太可靠,但如果给元始魔力注入某种材料,它就能作为一个有着独特属性的杖柄而使用.<BR><BR>当法杖中有一种要素魔力值即将超过90%,它就会转化为其他种类的要素魔力,尽管比率低一些.<BR><BR>它还有比普通宏伟杖高的魔力储存容量,每种要素魔力75vis.
+te.text.ROD_TRANSMUTATION.1=研究元始魔力的性质时,你发现你能偶发地将一种vis转化为另一种.你觉得这个性质用在大多数地方不太可靠,但如果给元始魔力注入某种材料,它就能作为一个有着独特属性的杖柄而使用.<BR><BR>当法杖中有一种vis点数即将超过90%,它就会转化为其他种类的vis,尽管比率低一些.<BR><BR>它还有比普通宏伟杖高的Vis储存容量,每种vis75点.
 
 --Necro Wand
 te.name.ROD_NECROMANCER=亡灵杖柄
-te.tag.ROD_NECROMANCER=邪恶的魔力储存
+te.tag.ROD_NECROMANCER=邪恶的Vis储存
 te.text.ROD_NECROMANCER.1=对你而言到处找节点补充法杖魔力是个麻烦事.为了解决这一问题,你制作了这一有效利用死亡能量的杖柄.<BR><BR>它能两倍吸收怪物死后遗留的魔力,快速充能法杖.不幸的是,用于注入的黑暗能量与其它形式的魔力适用性不佳.抽取节点以及其他方式获得的魔力会有四分之一的损失.又因为该杖柄有相当于银树杖的储存容量,使得二选一成为了艰难的选项.
 
 --Necromantic Energy
