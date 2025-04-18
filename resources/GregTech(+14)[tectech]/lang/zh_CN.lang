@@ -1058,9 +1058,17 @@ fog.text.tooltip.parallel=最大并行
 fog.text.tooltip.speedbonus=配方基础时间乘数, 越小越好
 fog.text.tooltip.energydiscount=基础能量消耗乘数, 越小越好
 fog.text.tooltip.ocdivisor=每次OC减少的时间除数(对无损超频不生效)
-
+fog.text.tooltip.processingvoltage=配方基础处理电压
+fog.text.tooltip.factorpreview=输入计算的燃料系数
+fog.text.tooltip.applysimulationchanges=计算新值
+fog.text.tooltip.voltageadjustment=由于考虑溢出, 实际处理电压为:
+fog.text.tooltip.voltageadjustment.1=电压 = Min(所选电压, 2^63 / 最大并行)
 
 achievement.gt.blockmachines.multimachine.em.forge_of_gods=诸神之锻炉
+achievement.gt.blockmachines.multimachine.em.smelting_module=太阳烈焰能量锻炉
+achievement.gt.blockmachines.multimachine.em.molten_module=太阳射流融化核心
+achievement.gt.blockmachines.multimachine.em.plasma_module=太阳热能等离子制造机
+achievement.gt.blockmachines.multimachine.em.exotic_module=太阳聚变异化器
 achievement.gt.godforgecasing.0=奇点强化恒星屏蔽机械方块
 achievement.gt.godforgecasing.1=天体物质引导机械方块
 achievement.gt.godforgecasing.2=无界引力隔绝机械方块
@@ -1069,6 +1077,20 @@ achievement.gt.godforgecasing.4=恒星能量抽取机械方块
 achievement.gt.godforgecasing.5=远程引力子流动调节器
 achievement.gt.godforgecasing.6=中介引力子流动调节器
 achievement.gt.godforgecasing.7=中央引力子流动调节器
+
+achievement.gt.blockmachines.multimachine.em.forge_of_gods.desc=嗡——————————嘭！！！
+achievement.gt.blockmachines.multimachine.em.smelting_module.desc=至尊熔炉, 驭众熔炉.
+achievement.gt.blockmachines.multimachine.em.molten_module.desc=希望你有好的流体固化器!
+achievement.gt.blockmachines.multimachine.em.plasma_module.desc=聚变? 不, 谢谢.
+achievement.gt.blockmachines.multimachine.em.exotic_module.desc=自从2024以来创建静态！
+achievement.gt.godforgecasing.0.desc=诸神之锻炉的结构方块
+achievement.gt.godforgecasing.1.desc=诸神之锻炉的结构方块
+achievement.gt.godforgecasing.2.desc=诸神之锻炉的结构方块
+achievement.gt.godforgecasing.3.desc=诸神之锻炉的结构方块
+achievement.gt.godforgecasing.4.desc=诸神之锻炉的结构方块
+achievement.gt.godforgecasing.5.desc=诸神之锻炉的结构方块
+achievement.gt.godforgecasing.6.desc=诸神之锻炉的结构方块
+achievement.gt.godforgecasing.7.desc=诸神之锻炉的结构方块
 
 gt.blockmachines.multimachine.FOG.parallel=并行
 gt.blockmachines.multimachine.FOG.batch=批处理大小
@@ -1102,7 +1124,7 @@ gt.blockmachines.multimachine.FOG.inversion=反转
 gt.blockmachines.multimachine.FOG.expectedinputs=预期的输入
 gt.blockmachines.multimachine.FOG.possibleinputsqgp=夸克胶子等离子体可能的输入原料
 gt.blockmachines.multimachine.FOG.possibleinputsmagmatter=磁物质可能的输入原料
-gt.blockmachines.multimachine.FOG.inversioninfotext=一旦神锻的所有里程碑都达到第7级，就会激活反转。这将取消所有里程碑的最高级别，并允许无限扩展。每个里程碑目标的增长从指数级增长变为线性增长，但是授予的引力子碎片数量会不断增加。每个后续里程碑所需的进度与每个里程碑第7级所需的进度相同。但“构成”里程碑是个例外，因为它每一层都会增加1，并有自己的进度计算公式。每种模块类型都有一个数值，从太阳耀斑锻炉的1到磁物质模式下的太阳聚变异化器的5，然后将每种模块的数量减去1再乘以其数值。这些数值相加后除以5，这就是基础7级之上的最后一级里程碑。
+gt.blockmachines.multimachine.FOG.inversioninfotext=一旦神锻的所有里程碑都达到第7级，就会激活反转。反转会取消所有里程碑的等级上限，并允许等级继续提升。每个里程碑目标的增长速度从指数变为线性，但获得的引力子碎片数量会继续增加。每个后续里程碑所需的进度与该里程碑第7级所需的进度相同。但“构成”里程碑仍然是个例外，因为它仍然是每增加1点进度升一级，并有自己的进度计算公式。每种模块类型都被赋予一个数值，从太阳烈焰能量锻炉的1到磁物质模式的太阳聚变异化器的5。将每种模块的数量减去1再乘以其对应的数值。求和后除以5，就是前7级之外的最终里程碑等级。
 gt.blockmachines.multimachine.FOG.powermilestone=充能
 gt.blockmachines.multimachine.FOG.recipemilestone=转换
 gt.blockmachines.multimachine.FOG.fuelmilestone=催化
@@ -1115,16 +1137,16 @@ gt.blockmachines.multimachine.FOG.shardgain=已获取引力子碎片数量
 gt.blockmachines.multimachine.FOG.consumeUpgradeMats=点此确认消耗升级材料
 gt.blockmachines.multimachine.FOG.clickhere=感到困惑?点击这里来获取更多信息
 gt.blockmachines.multimachine.FOG.introduction=§N引言
-gt.blockmachines.multimachine.FOG.introductioninfotext=诸神之锻炉系统中有很多内容, 这些内容一开始可能会让人感到非常困惑.此菜单旨在解释正在发生的一切,以及神锻的所有功能和机制.
+gt.blockmachines.multimachine.FOG.introductioninfotext=诸神之锻炉系统中有很多内容,这些内容一开始可能会让人感到非常困惑.此菜单旨在解释正在发生的一切,以及神锻的所有功能和机制.
 gt.blockmachines.multimachine.FOG.tableofcontents=§N目录
 gt.blockmachines.multimachine.FOG.fuel=燃料
 gt.blockmachines.multimachine.FOG.modules=模块
 gt.blockmachines.multimachine.FOG.upgrades=升级
 gt.blockmachines.multimachine.FOG.milestones=里程碑
-gt.blockmachines.multimachine.FOG.fuelinfotext=即使神锻的结构已经完成搭建并成功形成多方块结构, 直接开启神锻仍不能以使其正常运行. 神锻需要注入一定量的§B恒星燃料§6才能真正启动. 所需的恒星燃料量取决于当前的§B燃料消耗系数§6, 该系数可以在燃料配置菜单中调整. 默认情况下,最大系数为5, 不过后续可以通过升级提高. 消耗1个恒星燃料单位的计算公式为: 消耗=系数*25*1.2^系数. 恒星燃料通过输入总线提供,燃料会被内部储存并定期消耗. 当储存的恒星燃料达到启动所需的量时,神锻将正式启动(允许模块连接), 并开始将消耗的恒星燃料转化为储存燃料. 从这时起,它需要持续输入一种液体燃料作为动力来源(燃料类型可在燃料配置菜单中选择). 如果输入仓中没有足够的所选燃料,存储燃料将逐渐减少, 当储存量降为0时,神锻将重新进入"关闭"状态, 此时模块会断开连接,且必须再次注入恒星燃料才能重新启动. 此外, 可以通过启用§B电池充电6来增加储存燃料容量. 然而,这会使燃料消耗量翻倍,其中一半将存储于神锻的内部电池中.
-gt.blockmachines.multimachine.FOG.moduleinfotext=神锻可以使用4种模块,分别是§B太阳烈焰能量锻炉§6,§B太阳射流融化核心§6,§B太阳热能等离子制造机§6和§B太阳聚变异化器§6. 这些模块是独立的多方块结构,必须在神锻的指定位置搭建. 搭建完成后,模块必须与神锻连接,连接会在满足模块要求时自动完成. 如果需要,你也可以使用按钮手动刷新模块状态,而无需等待结构自动更新. 每个模块都有其独特的功能和要求,受某些升级的影响也不尽相同. 第一个解锁的模块是§B太阳烈焰能量锻炉§6,简单来说,它是个比巨型工业高炉更强大的高炉,并且还具备熔炉模式,你可以将其切换为一个超级强大的工业熔炉. 此模块默认解锁,基础并行为1024. 第二个解锁的模块是§B太阳射流融化核心§6,它也能处理高炉配方,但输出物以熔融形式排出,而非热/普通锭. 如果输出物没有熔融形式,则会以普通形式输出. 此模块必须通过升级解锁才能使用,基础并行为512. 第三个模块是§B太阳热能等离子制造机§6,它具有独特的配方,可以直接将材料转换为等离子体. 配方按聚变等级和步骤要求分组,只有在解锁相应升级后才能处理相应的配方. 与常规的核聚变不同,这些配方会生成输入材料的等离子体. 此模块基础并行为384. 第四个也是最后一个模块是§B太阳聚变异化器§6，它能够生产夸克胶子等离子体,解锁之后的后续升级还能使其生产磁物质.这个模块在处理这两种材料时都有独特的自动化挑战. 因为它们必须分别锁定为处理其中一种材料,因此建议准备两个. 两种模式的自动化挑战的通用规则如下: 模块在配方周期开始时输出材料,并等待正确的输入到达后才开始实际处理输出材料. 如果生产夸克胶子等离子体,模块会输出至多7种不同的流体或小撮粉,数量在1到64之间,且必须返还相应等离子体及其数量才能使配方生效. 对于每升液体,必须返回一桶等离子体.对于每个小撮粉,必须返回相当于一个锭的等离子体,配方才能正常工作. 小撮粉总以9的倍数输出. 如果磁物质模式激活,自动化挑战会改变. 现在模块会输出1-50L富快子时间流体, 51-100L扩大化空间流体以及一个高阶材料的小撮粉. 挑战在于不仅要返还富快子时间流体和扩大化空间流体, 还要输入数量与扩大化空间流体和富快子时间流体之差相等的该高阶材料的等离子体(以锭计). 一旦所有这些物品都以正确的数量返还,配方就会开始处理并输出磁物质.此模块基础并行为64.
-gt.blockmachines.multimachine.FOG.upgradeinfotext=升级是神锻的核心所在,它们将解锁了神锻的大部分功能和处理能力. 升级界面可以通过神锻主界面上的按钮访问,每个升级节点都可以点击以获取其效果和解锁要求的更多信息. 通常,每个升级只有在前一个升级解锁且有足够的可用引力子碎片时才能解锁.但第一个升级是个例外,因为它没有前置条件. 有些升级还可能有额外的材料成本,如果有额外材料需求,会在解锁按钮旁边注明. 如果一个升级有多个相连的前一个升级,那么有两种情况, 要么该升级需要所有相连的前一个升级都解锁(红色连接表示),要么至少有一个前一个升级解锁(蓝色连接表示). 升级可以通过再次点击解锁按钮来退回已使用的引力子碎片并重置升级,前提是所有相连的后续升级都未激活或激活. 解锁了太阳聚变异化器之后的那一系列升级是特殊的,因为它们被设计为§B任选路径§6. 顾名思义,一开始只能选择三条路径中的一条,其余的路径会被锁定. 每条路径都有专门的增益效果,主要针对特定模块,因此对其他模块类型的影响会减弱(除非特别说明). 可解锁的路径数量取决于神锻拥有的环数量,而环的数量又受后续升级的限制.
-gt.blockmachines.multimachine.FOG.milestoneinfotext=里程碑对于升级神锻至关重要,因为它们是引力子碎片的主要来源,而引力子碎片是解锁升级所需的货币. 简而言之,里程碑就是达到特定条件后能够获得引力子碎片的“关卡”. 里程碑共有四种类型,分别是§B充能§6、§B转换§6、§B催化§6和§B构成§6,每种类型都对应神锻的一项属性. 每个里程碑有7个等级,等级越高,达成难度越大,但获得的引力子碎片也越多. 第一个等级可获得1个引力子碎片.第二级获得2个,以此类推. §B充能§6里程碑根据所有模块的总能量消耗来计算,第一个等级在消耗1e15EU时解锁,后续等级按9倍递增. §B转换§6里程碑根据所有模块处理的总配方数量来计算(不包括太阳烈焰能量锻炉的熔炉模式),第一个等级在处理1000万份配方时解锁,后续等级按4倍递增. §B催化§6里程碑基于神锻的燃料消耗,以恒星燃料单位计算(在燃料菜单中通过系数配置的燃料消耗量). 达到第一个等级需要消耗10000个燃料单位,后续等级按3倍递增. 最后但同样重要的是,§B构成§6这个里程碑的工作方式略有不同,它是根据神锻的结构来计算的. 每种独特的模块类型(在夸克胶子和磁物质模式下的太阳聚变异化器模块算作2种类型)以及每增加一个环都会获得里程碑等级. 您的研究表明,如果所有里程碑都达到最终等级,可能会发生一些奇怪的事情…… 别忘了回来查看哦！
+gt.blockmachines.multimachine.FOG.fuelinfotext=即使神锻的结构已经完成搭建并成功形成多方块结构,直接开启神锻仍不能以使其正常运行.神锻需要注入一定量的恒星燃料才能真正启动.所需的恒星燃料量取决于当前的燃料消耗系数,该系数可以在燃料配置菜单中调整.默认情况下,最大系数为5,不过后续可以通过升级提高.消耗1个恒星燃料单位的计算公式为：消耗=系数*25*1.2^系数.恒星燃料通过输入总线提供,燃料会被内部储存并定期消耗.当储存的恒星燃料达到启动所需的量时,神锻将正式启动(允许模块连接),并开始将消耗的恒星燃料转化为储存燃料.从这时起,它需要持续输入一种液体燃料作为动力来源(燃料类型可在燃料配置菜单中选择).如果输入仓中没有足够的所选燃料,存储燃料将逐渐减少,当储存量降为0时,神锻将重新进入"关闭"状态,此时模块会断开连接,且必须再次注入恒星燃料才能重新启动.此外, 可以通过启用电池充电来增加储存燃料容量.然而,这会使燃料消耗量翻倍,其中一半将存储于神锻的内部电池中.
+gt.blockmachines.multimachine.FOG.moduleinfotext=神锻可以使用4种模块,分别是太阳烈焰能量锻炉,太阳射流融化核心,太阳热能等离子制造机和太阳聚变异化器.这些模块是独立的多方块结构,必须在神锻的指定位置搭建.搭建完成后,模块必须与神锻连接,连接会在满足模块要求时自动完成.如果需要,你也可以使用按钮手动刷新模块状态,而无需等待结构自动更新.每个模块都有其独特的功能和要求,受某些升级的影响也不尽相同.第一个解锁的模块是太阳烈焰能量锻炉,简单来说,它是个比巨型工业高炉更强大的高炉,并且还具备熔炉模式,你可以将其切换为一个超级强大的工业熔炉.此模块默认解锁,基础并行为1024.第二个解锁的模块是§B太阳射流融化核心§6,它也能处理高炉配方,但输出物以熔融形式排出,而非热/普通锭.如果输出物没有熔融形式,则会以普通形式输出.此模块必须通过升级解锁才能使用,基础并行为512.第三个模块是§B太阳热能等离子制造机§6,它具有独特的配方,可以直接将材料转换为等离子体.配方按聚变等级和步骤要求分组,只有在解锁相应升级后才能处理相应的配方.与常规的核聚变不同,这些配方会生成输入材料的等离子体.此模块基础并行为384.第四个也是最后一个模块是太阳聚变异化器,它能够生产夸克胶子等离子体,解锁之后的后续升级还能使其生产磁物质.这个模块在处理这两种材料时都有独特的自动化挑战.因为它们必须分别锁定为处理其中一种材料,因此建议准备两个.两种模式的自动化挑战的通用规则如下: 模块在配方周期开始时输出一些材料,并等待正确的输入到达后才开始实际执行配方.如果生产夸克胶子等离子体,模块会输出至多7种不同的流体或小撮粉,数量在1到64之间,且必须返还相应种类和数量的等离子体才能使配方得以执行. 对于每升液体,必须返回一桶等离子体.对于每个小撮粉,必须返回相当于一个锭的等离子体,配方才能正常工作. 小撮粉总以9的倍数输出.如果磁物质模式激活,自动化挑战会改变.现在模块会输出1-50L富快子时间流体,51-100L扩大化空间流体以及一个高阶材料的小撮粉.挑战在于不仅要返还富快子时间流体和扩大化空间流体,还要输入数量与扩大化空间流体和富快子时间流体之差相等的该高阶材料的等离子体(以锭计).一旦所有这些物品都以正确的数量返还,配方就会开始处理并输出磁物质.此模块基础并行为64.
+gt.blockmachines.multimachine.FOG.upgradeinfotext=升级是神锻的核心所在,它们将解锁了神锻的大部分功能和处理能力.升级界面可以通过神锻主界面上的按钮访问,每个升级节点都可以点击以获取其效果和解锁要求的更多信息.通常,每个升级只有在前一个升级解锁且有足够的可用引力子碎片时才能解锁.但第一个升级是个例外,因为它没有前置条件.有些升级还可能有额外的材料成本,如果有额外材料需求,会在解锁按钮旁边注明. 如果一个升级有多个相连的前一个升级,那么有两种情况, 要么该升级需要所有相连的前一个升级都解锁(红色连接表示),要么至少有一个前一个升级解锁(蓝色连接表示). 升级可以通过再次点击解锁按钮来退回已使用的引力子碎片并重置升级,前提是所有相连的后续升级都未激活或未解锁.解锁了太阳聚变异化器之后的那一系列升级是特殊的,因为它们被设计为§B任选路径§6. 顾名思义,一开始只能选择三条路径中的一条,其余的路径会被锁定. 每条路径都有专门的增益效果,主要针对特定模块,因此对其他模块类型的影响会减弱(除非特别说明).可解锁的路径数量取决于神锻拥有的环数量,而环的数量又受后续升级的限制.
+gt.blockmachines.multimachine.FOG.milestoneinfotext=里程碑对于升级神锻至关重要,因为它们是引力子碎片的主要来源,而引力子碎片是解锁升级所需的货币. 简而言之,里程碑就是达到特定条件后能够获得引力子碎片的“关卡”.里程碑共有四种类型,分别是充能、转换、催化和构成,每种类型都对应神锻的一项属性.每个里程碑有7个等级,等级越高,达成难度越大,但获得的引力子碎片也越多.第一个等级可获得1个引力子碎片.第二级获得2个,以此类推.充能里程碑根据所有模块的总能量消耗来计算,第一个等级在消耗1e15EU时解锁,后续等级按9倍递增.转换里程碑根据所有模块处理的总配方数量来计算(不包括太阳烈焰能量锻炉的熔炉模式),第一个等级在处理1000万份配方时解锁,后续等级按4倍递增.催化里程碑基于神锻的燃料消耗,以恒星燃料单位计算(在燃料菜单中通过系数配置的燃料消耗量).达到第一个等级需要消耗10000个燃料单位,后续等级按3倍递增.最后但同样重要的是,构成这个里程碑的工作方式略有不同,它是根据神锻的结构来计算的.每种独特的模块类型(在夸克胶子和磁物质模式下的太阳聚变异化器模块算作2种类型)以及每增加一个环都会获得里程碑等级.您的研究表明,如果所有里程碑都达到最终等级,可能会发生一些奇怪的事情……别忘了回来查看哦！
 gt.blockmachines.multimachine.FOG.contributors=贡献者
 gt.blockmachines.multimachine.FOG.lead=项目主管
 gt.blockmachines.multimachine.FOG.cloud=GDCloud
@@ -1150,6 +1172,8 @@ gt.blockmachines.multimachine.FOG.effectiveheat=有效炉温
 gt.blockmachines.multimachine.FOG.speedbonus=速度增益
 gt.blockmachines.multimachine.FOG.energydiscount=能耗减免
 gt.blockmachines.multimachine.FOG.ocdivisor=OC除数
+gt.blockmachines.multimachine.FOG.processingvoltage=处理电压
+gt.blockmachines.multimachine.FOG.factorpreview=预览燃料系数:
 gt.blockmachines.multimachine.FOG.clickstat=点击以查看详情
 
 gt.blockmachines.multimachine.FOG.hint.0=1 - 基础仓室, 或超时空强化磁约束机械方块
@@ -1200,9 +1224,9 @@ fog.cosmetics.importer.reset=重置
 fog.cosmetics.importer.reset.tooltip=重置导入的星色
 
 # Optical Circuits
-achievement.gt.metaitem.03.32155=光学处理器集群
-achievement.gt.metaitem.03.32156=光学处理器超级电脑
-achievement.gt.metaitem.03.32157=光学处理器主机
+achievement.gt.metaitem.03.32155=光学集群
+achievement.gt.metaitem.03.32156=光学超级计算机
+achievement.gt.metaitem.03.32157=光学主机
 
 # Parts
 achievement.gt.metaitem.01.32017=电动马达(UIV)
@@ -1332,7 +1356,7 @@ GT5U.gui.text.invalid_overdrive_setting=§7无效过载设置
 GT5U.gui.text.insufficient_power_no_val=§7能量不足
 GT5U.gui.text.missing_upgrades=§7无效升级
 GT5U.gui.text.waiting_for_inputs=§7等待输入
-GT5U.gui.text.computation_loss=§4因算力不足关机
+GT5U.gui.text.computation_loss=§4由于算力不足关机.
 GT5U.gui.text.researching_item=§f正在研究: §b%s
 GT5U.gui.text.research_progress=§f算力: %d/%d (%s%%)
 

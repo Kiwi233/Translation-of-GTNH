@@ -190,8 +190,8 @@ forbidden.research_text.TAINTPICK=黑曜石粉碎机
 forbidden.research_page.TAINTPICK.1=向神秘镐中注入腐化的力量,你制造出一柄能凿开坚固材料的工具.<BR><BR>畸变镐能用腐化的力量侵染材料以削弱它们.材料越坚固,镐子挖走它们的效率最高.不幸的是,腐化的力量对那些较为柔软的材料影响微乎其微,换言之用它来挖软和的东西还不如徒手快.
 #
 forbidden.research_name.ROD_tainted=腐化杖柄
-forbidden.research_text.ROD_tainted=扭曲地存储魔力
-forbidden.research_page.ROD_tainted.1=腐化的大地对那些知道如何开发它们的神秘使来说是既了不起又糟透了的地方.<BR><BR>腐化法杖核心能够存储每种魔力50 vis,且身处腐化区域时还能自动将每种要素回复到10%的水平.这种法杖被攥在手里时,还能从穿透静脉的咒波污染中汲取能量,在每次承受咒波污染伤害时随机回复魔力.
+forbidden.research_text.ROD_tainted=扭曲Vis容器
+forbidden.research_page.ROD_tainted.1=腐化的大地对那些知道如何开发它们的神秘使来说是既了不起又糟透了的地方.<BR><BR>腐化法杖核心能够存储每种vis50点,且身处腐化区域时还能自动将每种vis回复到10%的水平.这种法杖被攥在手里时,还能从穿透静脉的咒波污染中汲取能量,在每次承受咒波污染伤害时随机回复魔力.
 #
 forbidden.research_name.TAINTTREE=腐化之树
 forbidden.research_text.TAINTTREE=咒流之根所蕴育的邪恶果实
@@ -202,8 +202,8 @@ forbidden.research_text.TAINTSTONE=石头上摇滚的污染
 forbidden.research_page.TAINTSTONE.1=腐化之地并不是一个适合久留的安全地带.腐化草丛像饿疯了一样扩散,将它们的触手延伸到几乎所有物体的表面,并最终包围,使得你无法在上面行走.然而这草丛并不会对腐化的生物或材料造成危害.<BR><BR>将普通石头与腐化相混合,你创造出了一种结构坚硬并且能抵抗腐化草丛扩散的魔法材料.腐化石头可用于在腐化之地铺设一条安全通行的道路.<BR><BR>然而这并不意味着在腐化之地定居是个好主意...
 #
 forbidden.research_name.ROD_infernal=炼狱杖柄
-forbidden.research_text.ROD_infernal=恶魔式存储魔力
-forbidden.research_page.ROD_infernal.1=像您这般伟大而强力的神秘使,值得拥有一柄与身份相衬且炫酷强力的法杖.那些嬉皮的银树法杖根本无法胜任.您需要的法杖,必须要能够作为彰显权威的节杖.<BR><BR>你研究出一种注入下界之力制造法杖的方法.炼狱法杖核心能够容纳150 vis的魔力,并且能够自动回复Ignis要素到20%的水平.当身处下界,其他要素魔力也能自动回复到10%的水平.
+forbidden.research_text.ROD_infernal=恶魔Vis容器
+forbidden.research_page.ROD_infernal.1=像您这般伟大而强力的神秘使,值得拥有一柄与身份相衬且炫酷强力的法杖.那些嬉皮的银树法杖根本无法胜任.您需要的法杖,必须要能够作为彰显权威的节杖.<BR><BR>你研究出一种注入下界之力制造法杖的方法.炼狱法杖核心能够容纳150点vis,并且能够自动回复Ignis源质到20%的水平.当身处下界,其他vis也能自动回复到10%的水平.
 forbidden.research_page.ROD_infernal.2=这柄法杖还附加一些针对下界危险的防护法术.只要它留在物品栏内,就不仅能自动帮你扑灭身上的火焰,还能帮助你豁免凋灵效果.手持这柄法杖时,能够完全免疫所有灼烧伤害.
 #
 forbidden.research_name.ROD_profane=渎神杖柄
@@ -211,28 +211,28 @@ forbidden.research_text.ROD_profane=在虚线上签名(照单全收)
 forbidden.research_page.ROD_profane.1=众所周知,怪异的村民会售卖这些雕刻着亵渎神灵符号的木制魔杖.渎神魔杖自身的vis存储相当平庸,但它们似乎能够很快地从一个看不见的来源重新充能.<BR><BR>魔杖上的符文又是会变换和流血,而魔杖自身偶尔会细语恶魔的契约并唆使卑鄙的行为.<BR><BR>不建议长时间使用它.
 #
 forbidden.research_name.ROD_soul=异域杖柄
-forbidden.research_text.ROD_soul=堕落式存储魔力
-forbidden.research_page.ROD_soul.1=你研究出一种从玩家信标中抽取能量转换为魔力的技术.只要相绑定的玩家信标同你处于同一位面,那么异域法杖核心就能缓慢能恢复所有的魔力,她最大能容纳每种要素魔力100 vis.<BR><BR>然而,引导如此巨大的能量流贯穿灵魂会付出一些代价.每一点的魔力都深深腐蚀了你的灵魂.因此最好不要过分依赖它的自动充能效果了……
+forbidden.research_text.ROD_soul=堕落Vis容器
+forbidden.research_page.ROD_soul.1=你研究出一种从玩家信标中抽取能量转换为魔力的技术.只要相绑定的玩家信标同你处于同一位面,那么异域法杖核心就能缓慢能恢复所有的魔力,她最大能容纳每种vis100点.<BR><BR>然而,引导如此巨大的能量流贯穿灵魂会付出一些代价.每一点的魔力都深深腐蚀了你的灵魂.因此最好不要过分依赖它的自动充能效果了……
 #
 forbidden.research_name.ROD_blood=血腥杖柄
-forbidden.research_text.ROD_blood=炼金学储存魔力
-forbidden.research_page.ROD_blood.1=在神秘学和炼金术之间你构筑出一座桥梁.血腥法杖能够容纳100 vis的魔力,并且可以消耗生命点来补充自己.<BR><BR>这柄法杖会和第一个拿起它来的人绑定.如果没有足够的生命点作为燃料,这柄法杖还会试图抽取拿着它的人的生命力,但这种转换的效率并不高.若手持法杖的人血量下降到三颗心一下,并非多余生命可供抽取,法杖将会停止为自己充能.
+forbidden.research_text.ROD_blood=炼金学Vis容器
+forbidden.research_page.ROD_blood.1=在神秘学和炼金术之间你构筑出一座桥梁.血腥法杖能够容纳100单位的Vis,并且可以消耗生命点来补充自己.<BR><BR>这柄法杖会和第一个拿起它来的人绑定.如果没有足够的生命点作为燃料,这柄法杖还会试图抽取拿着它的人的生命力,但这种转换的效率并不高.若手持法杖的人血量下降到三颗心一下,并非多余生命可供抽取,法杖将会停止为自己充能.
 forbidden.research_page.ROD_blood.2=单独的注魔过程不足以完成一柄血腥法杖.注魔制作的惰性血腥法杖需要在血腥祭坛内注入生命精华才能激活.
 #
 forbidden.research_name.ROD_blood_staff=血腥杖芯
 forbidden.research_text.ROD_blood_staff=血法师之杖
-forbidden.research_page.ROD_blood_staff.1=血腥法杖有用,但充能太慢了.是时候做一柄适合用于持久战斗的魔法工具了.<BR><BR>不像多数手杖,血腥手杖只能容纳50 vis的魔力,而非其法杖形式的100 vis容量.它真正的亮点在于能够快速回复魔力.只要将血腥手杖放置在快捷栏内，它就能以4倍于血腥法杖的速度从其主人的生命点系统中抽取能量充能.不像法杖,如若没有足够的生命点它将会而且也愿意杀死持有它的家伙.
+forbidden.research_page.ROD_blood_staff.1=血腥法杖有用,但充能太慢了.是时候做一柄适合用于持久战斗的魔法工具了.<BR><BR>不像多数手杖,血腥手杖只能容纳50单位的Vis,而非其法杖形式的100 单位容量.它真正的亮点在于能够快速回复魔力.只要将血腥手杖放置在快捷栏内，它就能以4倍于血腥法杖的速度从其主人的生命点系统中抽取能量充能.不像法杖,如若没有足够的生命点它将会而且也愿意杀死持有它的家伙.
 #
 forbidden.research_name.ROD_witchwood=巫魂木杖柄
 forbidden.research_text.ROD_witchwood=魔力转换
-forbidden.research_page.ROD_witchwood.1=使用巫魂木制作出这柄法杖后,你研究出一种能够将AM魔力转换成TC魔力的方法.巫魂木杖柄能容纳100 vis魔力且能以140 mana换取1 vis的效率回复魔力.<BR><BR>进一步的研究会帮助你找到降低转换损耗之策.
+forbidden.research_page.ROD_witchwood.1=使用巫魂木制作出这柄法杖后,你研究出一种能够将AM魔力转换成TC魔力的方法.巫魂木杖柄能容纳100 单位Vis且能以140 mana换取1 vis的效率回复魔力.<BR><BR>进一步的研究会帮助你找到降低转换损耗之策.
 #
 forbidden.research_name.ROD_witchwood_staff=巫魂木杖芯
 forbidden.research_text.ROD_witchwood_staff=巫师之杖
-forbidden.research_page.ROD_witchwood_staff.1=巫魂木法杖要吞噬掉太多的AM魔力,充能又慢得远远不适合用于持久战斗.是时候做点能稍微高效点儿地引导奥术能量的玩意儿了.不像多数手杖,巫魂木手杖只能容纳50 vis的魔力.它真正的优势在于快速的充能效率—达到巫魂木法杖的2倍.不仅如此,相比巫魂木法杖,若没有合适的杖端,巫魂木手杖还能节约可观的AM魔力,只需要100点就能换取1 vis的TC魔力.
+forbidden.research_page.ROD_witchwood_staff.1=巫魂木法杖要吞噬掉太多的AM魔力,充能又慢得远远不适合用于持久战斗.是时候做点能稍微高效点儿地引导奥术能量的玩意儿了.不像多数手杖,巫魂木手杖只能容纳50 单位Vis.它真正的优势在于快速的充能效率—达到巫魂木法杖的2倍.不仅如此,相比巫魂木法杖,若没有合适的杖端,巫魂木手杖还能节约可观的AM魔力,只需要100点就能换取1 单位的TC魔力.
 #
 forbidden.research_name.ROD_livingwood=活木杖柄
-forbidden.research_text.ROD_livingwood=植物存储魔力
+forbidden.research_text.ROD_livingwood=植物Vis容器
 forbidden.research_page.ROD_livingwood.1=活木在操纵AM魔力的性能上得天独厚.当其与合适的药剂相融合,甚至可以将AM魔力转换为TC魔力.<BR><BR>活木法杖能从物品栏存储的物品中抽取AM魔力为自己充能.<BR><BR>不幸的是,注魔的过程会使活木陷入休眠,注魔后杖端需要在血池中进行充能才能重新激活.
 #
 forbidden.research_name.ROD_dreamwood_staff=梦之木杖柄
@@ -241,7 +241,7 @@ forbidden.research_page.ROD_dreamwood_staff.1=活木是一种有用的材料,但
 #
 forbidden.research_name.CAP_alchemical=炼金纹饰杖端
 forbidden.research_text.CAP_alchemical=当神秘学不够血腥时
-forbidden.research_page.CAP_alchemical.1=将神秘学与炼金巫术相结合,你开发出一种新型杖端.炼金纹饰杖端在引导Aqua要素时非常高效,与平常相比仅仅需要80%的魔力消耗量.但对其余类型的要素,效率只有90%.<BR><BR>若安装在血腥杖柄上,炼金纹饰杖端将提高生命点转换成魔力的效率,每vis只需900生命点.这种杖端还能让所有的血腥法杖发出的攻击附带虚弱效果.
+forbidden.research_page.CAP_alchemical.1=将神秘学与炼金巫术相结合,你开发出一种新型杖端.炼金纹饰杖端在引导Aqua源质时非常高效,与平常相比仅仅需要80%的源质消耗量.但对其余类型的源质,效率只有90%.<BR><BR>若安装在血腥杖柄上,炼金纹饰杖端将提高生命点转换成魔力的效率,每vis只需900生命点.这种杖端还能让所有的血腥法杖发出的攻击附带虚弱效果.
 #
 forbidden.research_name.CAP_vinteum=温特姆杖端
 forbidden.research_text.CAP_vinteum=魔法杖端
@@ -249,7 +249,7 @@ forbidden.research_page.CAP_vinteum.1=将神秘杖端与温特姆相融,你制�
 #
 forbidden.research_name.CAP_soul=末影杖端
 forbidden.research_text.CAP_soul=灵魂防护
-forbidden.research_page.CAP_soul.1=你已经制造出一种杖端,能够安全引导末地毁灭性的能量.末影杖端引导Perditio要素时只有80%的效率,但对其他要素有90%的效率.<BR><BR>安装在异域杖柄上的话,末影杖端能够削减引导从末地引导来的能量对灵魂的腐蚀.
+forbidden.research_page.CAP_soul.1=你已经制造出一种杖端,能够安全引导末地毁灭性的能量.末影杖端引导Perditio源质时只有80%的效率,但对其他源质有90%的效率.<BR><BR>安装在异域杖柄上的话,末影杖端能够削减引导从末地引导来的能量对灵魂的腐蚀.
 #
 forbidden.research_name.CAP_manasteel=魔钢杖端
 forbidden.research_text.CAP_manasteel=魔力之秘
@@ -269,12 +269,12 @@ forbidden.research_page.TRANSEMERALD.1=你研究出一种将绿宝石碎片浸�
 #
 forbidden.research_name.BLACKFLOWER=暗影玫瑰
 forbidden.research_text.BLACKFLOWER=救救乌贼!
-forbidden.research_page.BLACKFLOWER.1=没有比一个湿漉漉的神秘使还要更令人悲戚的画面了.尽管你掌控着伟大而神奇的魔力,但每次需要补充墨水的时候,你仍然不得不跳进最近的湖里去猎杀乌贼.<BR><BR>你杀乌贼真的杀得腻歪透了.向玫瑰注入tenebrae和victus要素,你创造出一种茎叶如杂草，花瓣可以磨浆成墨汁的花.
+forbidden.research_page.BLACKFLOWER.1=没有比一个湿漉漉的神秘使还要更令人悲戚的画面了.尽管你掌控着伟大而神奇的魔力,但每次需要补充墨水的时候,你仍然不得不跳进最近的湖里去猎杀乌贼.<BR><BR>你杀乌贼真的杀得腻歪透了.向玫瑰注入tenebrae和victus源质,你创造出一种茎叶如杂草，花瓣可以磨浆成墨汁的花.
 #
 forbidden.research_name.WRATHCAGE=暴怒之笼
 forbidden.research_text.WRATHCAGE=战无止境
 forbidden.research_page.WRATHCAGE.1=有时候,小打小杀就是不够.诚然,杀掉一只孤零零的怪物相当令人身通体便,但想象一下屠戮掉一大波可憎小蠢蛋的画面吧.<BR><BR>为了实现这一目标,你研究出一种方法,能够重新制造出古代废墟中的怪物.不像天然的刷怪笼,暴怒之笼由红石信号控制,因而无需感应是否有人类出现,而且这种笼子可以比刷怪笼这种古代设备运行得更快速.
-forbidden.research_page.WRATHCAGE.2=然而,你无法复制天然刷怪笼无限刷怪的特性.每诞下一只生物都会让暴怒笼子消耗一点点用管道导入其内的源质.依据对应生物的不同,暴怒之笼需要不同类型的源质.抑或你可以导入Ira源质来作为燃料.也可以使用Desidia来实现另外一些功能.<BR><BR>拿着妖魔之叉右键暴怒之笼,能够循环切换其使用的燃料类型,切换它抽取哪一种要素源质.
+forbidden.research_page.WRATHCAGE.2=然而,你无法复制天然刷怪笼无限刷怪的特性.每诞下一只生物都会让暴怒笼子消耗一点点用管道导入其内的源质.依据对应生物的不同,暴怒之笼需要不同类型的源质.抑或你可以导入Ira源质来作为燃料.也可以使用Desidia来实现另外一些功能.<BR><BR>拿着妖魔之叉右键暴怒之笼,能够循环切换其使用的燃料类型,切换它抽取哪一种源质.
 forbidden.research_page.WRATHCAGE.3=要使暴怒之笼与某种指定生物绑定,可以使用留影水晶右击笼子.携带空白留影水晶用妖魔之叉杀死生物能够将生物的信息烙印到水晶之中.
 #
 forbidden.research_name.FORK=妖魔之叉
@@ -362,7 +362,7 @@ forbidden.research_page.RIDINGCROP.1=马鞭,顾名思义,是一种让坐骑跑�
 #
 forbidden.research_name.HELLFIRE=地狱火领主
 forbidden.research_text.HELLFIRE=从此势不可挡
-forbidden.research_page.HELLFIRE.1=身陷下界是最糟糕的体验.当你克服了你所需要克服的重重困难,终于就要能回到家园的时候,一些愚蠢的幽魂却打算耀武扬威地对你轰炸一通，以至于传送门都被关掉了.当然,若随身携带着打火石再重新修好也并不费事,但谁会一直随身带这些玩意儿?<BR><BR>你研究出一种利用法杖魔力点燃某些材料的方法.手持卸掉核心的法杖右击地狱岩或者黑曜石的上方,会从法杖中消耗掉一些Ignis要素并点燃一团火焰.
+forbidden.research_page.HELLFIRE.1=身陷下界是最糟糕的体验.当你克服了你所需要克服的重重困难,终于就要能回到家园的时候,一些愚蠢的幽魂却打算耀武扬威地对你轰炸一通，以至于传送门都被关掉了.当然,若随身携带着打火石再重新修好也并不费事,但谁会一直随身带这些玩意儿?<BR><BR>你研究出一种利用法杖魔力点燃某些材料的方法.手持卸掉核心的法杖右击地狱岩或者黑曜石的上方,会从法杖中消耗掉一些Ignis源质并点燃一团火焰.
 #
 forbidden.research_name.EUCLIDAISY=天域菊
 forbidden.research_text.EUCLIDAISY=俺の嫁,以月亮的名义,能量超⑨千!我反正信了!

@@ -1,18 +1,22 @@
-sharewhereiam.command.SAVE_WAYPOINT_USAGE=用法：/savewaypoint <路径点代码> [neet to open editor? default: true]
-sharewhereiam.command.SAVE_WAYPOINT_SUCCESS=路径点已保存
-sharewhereiam.command.SAVE_WAYPOINT_EXISTS=路径点已存在，无法保存
-sharewhereiam.command.SHARE_WHERE_I_AM_USAGE=用法：/sharewhereiam
-sharewhereiam.command.TOGGLE_TEMP_BEACON_USAGE=用法：/toggletempbeacon [路径点代码]
-sharewhereiam.commanderror.ERROR_INVALID_WAYPOINT_CODE=无效的导航点代码
-sharewhereiam.chat.SHARE_WAYPOINT_MSG=分享了一个路径点：
-sharewhereiam.chat.SHARE_WAYPOINT_SAVE=保存
-sharewhereiam.chat.SHARE_WAYPOINT_SAVE_DESC=将此路径点保存到你的旅行地图中
-sharewhereiam.chat.SHARE_WAYPOINT_EDIT=编辑
-sharewhereiam.chat.SHARE_WAYPOINT_EDIT_DESC=在编辑器中打开此路径点
-sharewhereiam.chat.SHARE_WAYPOINT_TOGGLE=启用/禁用
-sharewhereiam.chat.SHARE_WAYPOINT_TOGGLE_DESC=启用/禁用临时光柱
-sharewhereiam.chat.SHARE_WAYPOINT_VP=这是一个VisualProspecting路径点，你还需要以VP允许的方式将此路径点添加到VP中
-sharewhereiam.keybinding.KEYBINDING_SHARE_NAME=分享
-sharewhereiam.keybinding.KEYBINDING_SHARE_CATEGORY=Share Where I am
-sharewhereiam.text.TEXT_DEFAULT_WAYPOINT_NAME=当前位置
-sharewhereiam.text.TEXT_JM_WAYPOINT_BUTTON=分享
+sharewhereiam.command.savewaypoint.usage=用法: /savewaypoint <导航点代码> [需要打开编辑器吗? 默认: true]
+sharewhereiam.command.savewaypoint.save.success=导航点已保存
+sharewhereiam.command.savewaypoint.save.exists=导航点已存在, 无法保存
+sharewhereiam.command.sharewhereiam.usage=用法: /sharewhereiam
+sharewhereiam.command.toggletempbeacon.usage=用法: /toggletempbeacon [导航点代码]
+
+sharewhereiam.commanderror.invalidcode=无效导航点代码
+
+sharewhereiam.chat.share=分享了导航点:
+sharewhereiam.chat.save=保存
+sharewhereiam.chat.save.desc=保存此导航点至你的JourneyMap
+sharewhereiam.chat.edit=编辑
+sharewhereiam.chat.edit.desc=在编辑器中打开此导航点
+sharewhereiam.chat.toggle=启用/禁用
+sharewhereiam.chat.toggle.desc=启用/禁用为临时信标
+sharewhereiam.chat.additionalInformation.VP=这是VisualProspecting导航点, 你仍然需要以以VP允许的方式将导航点添加至VP中
+
+sharewhereiam.keybinding.share.name=分享
+sharewhereiam.keybinding.share.category=Share Where I am
+
+sharewhereiam.text.default_waypoint_name=当前位置
+sharewhereiam.text.jm.waypoint.share=分享

@@ -40,6 +40,7 @@ tile.magicApiary.name=魔法蜂箱
 tile.visAuraProvider.name=灵气蜂箱加速器
 tile.apimancersDrainer.name=Apimancer的沥水器
 tile.manaAuraProvider.name=魔力蜂箱加速器
+tile.hive.name=蜂巢
 tile.hive.curious.name=好奇蜂巢
 tile.hive.unusual.name=非凡蜂巢
 tile.hive.deep.name=深度蜂巢
@@ -49,6 +50,7 @@ tile.hive.oblivion.name=湮没蜂巢
 tile.enchantedEarth.name=魔法泥土
 
 #Combs
+item.comb.name=蜂窝
 comb.mundane=平凡蜂窝
 comb.molten=熔融蜂窝
 comb.occult=神秘蜂窝
@@ -78,11 +80,13 @@ comb.TElux=流明蜂窝
 comb.TEendearing=可爱蜂窝
 
 #Waxes
+item.wax.name=蜂蜡
 wax.magic=魔力蜜蜡
 wax.soul=灵魂蜜蜡
 wax.amnesic=遗忘蜜蜡
 
 #Drops
+item.drop.name=蜂蜜滴
 drop.enchanting=蕴魔液滴
 drop.intellect=智慧液滴
 drop.destabilized=不稳定液滴
@@ -91,10 +95,12 @@ drop.lux=流明液滴
 drop.endearing=可爱液滴
 
 #Pollens
+item.pollen.name=花粉
 pollen.unusual=罕见花粉
 pollen.phased=相位花粉
 
 #Nuggets
+item.beeNugget.name=粒
 nugget.iron=铁粒
 nugget.steel=钢粒
 nugget.copper=铜粒
@@ -106,6 +112,7 @@ nugget.emerald=绿宝石碎片
 nugget.apatite=磷灰石碎片
 
 #Propolises
+item.propolis.name=蜂胶
 propolis.dull=秩序蜂胶
 propolis.air=和风蜂胶
 propolis.fire=炽热蜂胶
@@ -115,6 +122,7 @@ propolis.magic=混沌蜂胶
 propolis.unstable=不稳定蜂胶
 
 #Misc resources
+item.miscResources.name=资源
 resource.fragment=卷章碎片
 resource.lump=芬芳块
 resource.fertilizer=浓缩复合物
@@ -151,7 +159,9 @@ item.frenziedFrame.name=狂热框架
 item.bloodSoakedFrame.name=浸血框架
 
 #Capsules
+item.capsule.magic.name=魔力胶囊
 capsule.magic=%s魔力胶囊
+item.capsule.void.name=虚空胶囊
 capsule.void=%s虚空胶囊
 
 #Liquids
@@ -203,6 +213,8 @@ moon.new=新月
 #moon.alt.new=
 
 #Backpack
+item.backpack.thaumaturgeT1.name=神秘使背包
+item.backpack.thaumaturgeT2.name=神秘使背包
 backpack.thaumaturge=神秘使背包
 
 #Itemgroups
@@ -378,7 +390,7 @@ magicbees.speciesFluix.description=集红石,下界石英和赛特斯石英于�
 magicbees.speciesDiamond=钻石
 magicbees.speciesDiamond.description=闪光的结晶,硬比龙牙.钻石恒久远,一颗永流传.|Apinomicon
 magicbees.speciesEmerald=宝石
-magicbees.speciesEmerald.description=据说它们曾造访伟大巫师统治之地，并将巫师之城的要素劫掠一空.|Apinomicon
+magicbees.speciesEmerald.description=据说它们曾造访伟大巫师统治之地，并将巫师之城的源质劫掠一空.|Apinomicon
 magicbees.speciesApatite=磷化
 magicbees.speciesApatite.description=这些东西真心是日夜牢骚不断.我关紧窗户躲进地下室，但蜜蜂尖锐的嗡嗡声却无处不在地透墙而过，乱我心绪.|养蜂员入门指南
 
@@ -647,7 +659,7 @@ tc.research_page.MB_FrameMagic.1=这魔法框架是你平时所使用的普通�
 
 tc.research_name.MB_Scoop=奥法捕虫网
 tc.research_text.MB_Scoop=[MB] 轻拿轻放.
-tc.research_page.MB_Scoop.1=普通的捕虫网很不耐用,而且易碎.作为神秘养蜂学的权威,你完全可以做得更好.以神秘锭打造手柄,再以一定量秩序要素织网,你的新捕虫网从此拥有了三倍耐久!<BR> 另外,这个设备中的神秘锭成分使它可以接受修复附魔.
+tc.research_page.MB_Scoop.1=普通的捕虫网很不耐用,而且易碎.作为神秘养蜂学的权威,你完全可以做得更好.以神秘锭打造手柄,再以一定量秩序源质织网,你的新捕虫网从此拥有了三倍耐久!<BR> 另外,这个设备中的神秘锭成分使它可以接受修复附魔.
 
 tc.research_name.MB_Grafter=奥法剪枝器
 tc.research_text.MB_Grafter=[MB] 每次都会有树苗哦.
@@ -682,7 +694,7 @@ tc.research_text.MB_EssenceOblivion=[MB] 封装恶毒于一侧
 tc.research_page.MB_EssenceOblivion.1=杂交蜜蜂可能会非常令人恼火,尤其是在遇到那些长寿的品种的时候.在少许机智和少许自命不凡的帮助下,你发现了应用奇异维度的方式:这种方式将会逐渐削弱你的蜜蜂的生命力.然而,片刻之间削去大量生命也是可能的.也许不会对它们造成太大伤害.<BR> 然而,讽刺的是,为此你需要获得第二个甚至更多的§5龙蛋§0.或许有一种蜜蜂可以帮你突破这个局限.
 
 tc.research_name.MB_VisAuraProvider=灵气蜂箱加速器
-tc.research_text.MB_VisAuraProvider=[MB] Vis(灵气)?Bis如何?
+tc.research_text.MB_VisAuraProvider=[MB] Vis?Bis如何?
 tc.research_page.MB_VisAuraProvider.1=向罕见花粉中注以灵气,并与黄金结合,便可制造出一种不寻常的晶体,若给这种晶体提供一些节点里的Vis,它就可以创造出一个充能灵气场,籍此调节魔法蜂箱周围的环境,并自然地把蜜蜂吸引过来.
 
 tc.research_name.MB_ApimancersDrainer=Apimancer的沥水器

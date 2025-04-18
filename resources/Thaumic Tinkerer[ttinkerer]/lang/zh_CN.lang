@@ -97,9 +97,9 @@ item.revealingHelm.name=揭示之头盔
 item.infusedInkwell.name=注魔笔与墨(NYI)
 item.focusDeflect.name=法杖核心:扭曲
 item.shareBook.name=知识共享之书
-item.mobAspect.name=灵魂要素
-item.mobAspect.condensed.name=稠密灵魂要素
-item.mobAspect.infused.name=注魔灵魂要素
+item.mobAspect.name=灵魂源质
+item.mobAspect.condensed.name=稠密灵魂源质
+item.mobAspect.infused.name=注魔灵魂源质
 item.infusedSeeds.name=蕴魔种子
 item.infusedPotion.Aer.name=风元药水
 item.infusedPotion.Ignis.name=火元药水
@@ -172,7 +172,7 @@ tile.enchanter.name=渗透附魔台
 tile.funnel.name=源质漏斗
 tile.dislocator.name=矢量转位仪
 tile.repairer.name=奥法修复台
-tile.aspectAnalyzer.name=要素分析仪
+tile.aspectAnalyzer.name=源质分析仪
 tile.platform.name=仙域平台
 tile.spawner.name=死灵祭坛
 tile.bedrockPortal.name=基岩传送门
@@ -221,9 +221,9 @@ ttresearch.page.PERIPHERALS.0=神秘工匠让其添加的某些方块以及神�
 ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Peripheral-Documentation
 ttcomputer.dissipator=耗散中
 # -- ASPECT ANALYZER
-ttresearch.name.ASPECT_ANALYZER=要素分析仪
+ttresearch.name.ASPECT_ANALYZER=源质分析仪
 ttresearch.lore.ASPECT_ANALYZER=电脑扫描
-ttresearch.page.ASPECT_ANALYZER.0=你制造出一台可以使用电脑来扫描出物品蕴含何种要素的设备.<BR><BR>这台设备类似一个包含物品栏的普通容器,但任何放入其内的物品都可以使用电脑扫描.访问电脑外设文档条目以获取更多信息.
+ttresearch.page.ASPECT_ANALYZER.0=你制造出一台可以使用电脑来扫描出物品蕴含何种源质的设备.<BR><BR>这台设备类似一个包含物品栏的普通容器,但任何放入其内的物品都可以使用电脑扫描.访问电脑外设文档条目以获取更多信息.
 
 # -- SMOKEY QUARTZ
 ttresearch.name.DARK_QUARTZ=烟黑石英
@@ -245,7 +245,7 @@ ttresearch.page.INTERFACE.2=也可以手持另一个方块右击将其伪装成�
 # -- GOLEM CONNECTOR
 ttresearch.name.GOLEM_CONNECTOR=傀儡连接器
 ttresearch.lore.GOLEM_CONNECTOR=老实说,无关傀儡心灵控制!
-ttresearch.page.GOLEM_CONNECTOR.0=运动,工具,以及一点点秩序要素能够做些什么呢?经过你的一番研究,你发现你能够利用它们让傀儡变得更加驯服一点!你研究出一种方块,当连接电脑以后,它将能够读出附近傀儡的意识,并“说服”傀儡们按照电脑的命令行事.
+ttresearch.page.GOLEM_CONNECTOR.0=运动,工具,以及一点点秩序源质能够做些什么呢?经过你的一番研究,你发现你能够利用它们让傀儡变得更加驯服一点!你研究出一种方块,当连接电脑以后,它将能够读出附近傀儡的意识,并“说服”傀儡们按照电脑的命令行事.
 ttresearch.page.GOLEM_CONNECTOR.1=为了让连接器绑定傀儡,你需要制造一种特殊的工具.你称其为矢量变换绑定器.<BR><BR>手持该工具右击连接器,跟着按住shift右击目标傀儡,两者就会相互绑定,能够进行接下来的操作.傀儡受到控制的范围相当远,足有三十格!
 ttresearch.page.GOLEM_CONNECTOR.2=如拿着其他方块右击连接器,则会将它伪装成所持方块的样子.空手再次右击就能移除伪装.
 ttresearch.page.GOLEM_CONNECTOR.3=<BR><BR>以方便故,该方块所涉及之电脑模组操作函数皆列诸外置网页.按下回车即可带你进入相关页面.<BR><BR>不幸的是,某些操作系统下超链接功能可能失效.若是,则请在浏览器中键入"vazkii.us/tt/docs.php"来进行访问相关页面.
@@ -256,12 +256,12 @@ ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Pe
 # -- GASEOUS ILLUMINAE
 ttresearch.name.GASEOUS_LIGHT=光明安瓿
 ttresearch.lore.GASEOUS_LIGHT=视线外的光明
-ttresearch.page.GASEOUS_LIGHT.0=对纷繁难懂的光的研究让你能够通过向安瓿里灌注光明要素来制作一种看不见的光源.<BR><BR>手持安瓿右击能将其内的发光气体释放出来,它会迅速弥漫,照亮四周.
+ttresearch.page.GASEOUS_LIGHT.0=对纷繁难懂的光的研究让你能够通过向安瓿里灌注光明源质来制作一种看不见的光源.<BR><BR>手持安瓿右击能将其内的发光气体释放出来,它会迅速弥漫,照亮四周.
 
 # -- GASEOUS TENEBRAE
 ttresearch.name.GASEOUS_SHADOW=暗影安瓿
 ttresearch.lore.GASEOUS_SHADOW=不可见的世界
-ttresearch.page.GASEOUS_SHADOW.0=对纷繁难懂的影的研究让你能够通过向安瓿里灌注黑暗要素来制作一种能够被释放的暗影.<BR><BR>手持安瓿右击能将其内的暗影气体释放出来,它会迅速弥漫,让四周陷入黑暗.
+ttresearch.page.GASEOUS_SHADOW.0=对纷繁难懂的影的研究让你能够通过向安瓿里灌注黑暗源质来制作一种能够被释放的暗影.<BR><BR>手持安瓿右击能将其内的暗影气体释放出来,它会迅速弥漫,让四周陷入黑暗.
 
 # -- FUME DISSIPATOR
 ttresearch.name.GAS_REMOVER=烟雾驱散器
@@ -287,7 +287,7 @@ ttresearch.page.FOCUS_FLIGHT.0=研究风雷剑过程中积累的丰富知识让�
 ttresearch.name.FOCUS_DISLOCATION=法杖核心：转移
 ttresearch.lore.FOCUS_DISLOCATION=在头脑中构筑堡垒因此它从不会崩塌.
 ttresearch.page.FOCUS_DISLOCATION.0=基于等价交换核心.你制作了这种新型的法杖核心.相比前者,新的法杖核心不但能够存储被施法对象的信息,还能存储被施法对象本身,并允许你将其放置到任意地方.<BR><BR>想要转移一个方块,需要先手持法杖右击它.然后再右击其他某处.这个法杖核心允许你转移近乎任意方块,包括箱子和刷怪笼.
-ttresearch.page.FOCUS_DISLOCATION.1=只在拾起方块时才会消耗魔力.放置时并无消耗.<BR><BR>由于转移需要消耗一定的能量,类似箱子和熔炉这样带有方块附加值的方块的消耗将是平常的5倍.刷怪笼的消耗则高达20倍.
+ttresearch.page.FOCUS_DISLOCATION.1=只在拾起方块时才会消耗Vis.放置时并无消耗.<BR><BR>由于转移需要消耗一定的能量,类似箱子和熔炉这样带有方块附加值的方块的消耗将是平常的5倍.刷怪笼的消耗则高达20倍.
 
 # -- TALISMAN OF REMEDIUM
 ttresearch.name.CLEANSING_TALISMAN=防身护身符
@@ -297,7 +297,7 @@ ttresearch.page.CLEANSING_TALISMAN.0=在研究生命以及肉体时,你发现可
 # -- HYPERENERGETIC NITOR
 ttresearch.name.BRIGHT_NITOR=超能闪耀之光
 ttresearch.lore.BRIGHT_NITOR=昏暗的天色,给我亮起来吧！
-ttresearch.page.BRIGHT_NITOR.0=你试图创造一种新型的蕴含Potentia要素以及Lux要素的闪耀之光,即使被玩家拿在手里也能通过活化永恒之焰来照亮四周.<BR><BR>被它释放出来的光亮将会照亮持有者身后邻近之处,由于其热量,在下界时看似留下一道长长的尾迹.
+ttresearch.page.BRIGHT_NITOR.0=你试图创造一种新型的蕴含Potentia源质以及Lux源质的闪耀之光,即使被玩家拿在手里也能通过活化永恒之焰来照亮四周.<BR><BR>被它释放出来的光亮将会照亮持有者身后邻近之处,由于其热量,在下界时看似留下一道长长的尾迹.
 
 # -- WAND FOCUS: TELEKINESIS
 ttresearch.name.FOCUS_TELEKINESIS=法杖核心：念力
@@ -315,7 +315,7 @@ ttresearch.name.ENCHANTER=渗透附魔台
 ttresearch.lore.ENCHANTER=幸运大挑选
 ttresearch.page.ENCHANTER.0=你开始厌倦辛勤付出却换来一个糟糕的附魔.于是你制造了一种新型的附魔台,允许你挑选在工具上附魔确定的属性.<BR><BR>这种新型装置工作时需要法杖,每一种附魔类型都需求法杖提供特定的灵气组合.附魔的成本与附魔等级以指数方式上涨.<BR><BR>这个附魔台同样遵循一般附魔法则,比如,精准采集与时运不得同时附魔同一物品.
 ttresearch.page.ENCHANTER.1=当你选择了需要的附魔类型,点击界面上红色按钮便可以开始附魔.在附魔过程中,你不能取走被附魔的物品,也不能改变你之前选择的附魔类型.<BR><BR>附魔台会从法杖中汲取魔力,知道附魔完成.为了让附魔台的魔法仪式能够顺利完成,需要在附近立起6个4个方块的柱子,这些柱子需要和附魔台在同一水平线上.<BR><BR>[continued]
-ttresearch.page.ENCHANTER.2=这些柱子用2~12个黑曜石图腾方块堆垒而成,上方放置着闪耀之光.附魔台将会从这些柱子中汲取咒波能量,从法杖中汲取魔力,集合这两种力量最终完成附魔.
+ttresearch.page.ENCHANTER.2=这些柱子用2~12个黑曜石图腾方块堆垒而成,上方放置着闪耀之光.附魔台将会从这些柱子中汲取咒波能量,从法杖中汲取Vis,集合这两种力量最终完成附魔.
 
 # -- TALISMAN OF WITHHOLD
 ttresearch.name.XP_TALISMAN=汇魔护身符
@@ -325,7 +325,7 @@ ttresearch.page.XP_TALISMAN.0=僵尸之脑利用得当便能用于储存经验.�
 # -- ESSENTIA FUNNEL
 ttresearch.name.FUNNEL=源质漏斗
 ttresearch.lore.FUNNEL=纵已转移
-ttresearch.page.FUNNEL.0=你对用安瓿来倒腾罐子里的要素烦透了,因此你最终制造出一种新设备,能够将罐子里的要素转移到其他罐子中.<BR><BR>将此方块置于漏斗上方,用含有要素的罐子右击,如果漏斗对接的是一个空罐子或者装有相同要素的未满罐子,那么你手持罐子中的要素会向其转移.
+ttresearch.page.FUNNEL.0=你对用安瓿来倒腾罐子里的源质烦透了,因此你最终制造出一种新设备,能够将罐子里的源质转移到其他罐子中.<BR><BR>将此方块置于漏斗上方,用含有源质的罐子右击,如果漏斗对接的是一个空罐子或者装有相同源质的未满罐子,那么你手持罐子中的源质会向其转移.
 
 # -- ENCHANTMENT: ASCENT BOOST
 ttresearch.name.TTENCH_ASCENT_BOOST=附魔:腾迅
@@ -407,7 +407,7 @@ ttresearch.page.FOCUS_SMELT.0=向采掘法杖核心灌注烈焰的力量能得�
 # -- WAND FOCUS: MENDING
 ttresearch.name.FOCUS_HEAL=法杖核心:愈合
 ttresearch.lore.FOCUS_HEAL=绷带,空洞和感觉
-ttresearch.page.FOCUS_HEAL.0=你知道岩精携有一种能够诱发瘟病的核心.你研究出一种方法来利用它获取好处.<BR><BR>装有这种法杖核心的法杖在挥舞时会抽取法杖中魔力缓慢治疗施法者的伤口.
+ttresearch.page.FOCUS_HEAL.0=你知道岩精携有一种能够诱发瘟病的核心.你研究出一种方法来利用它获取好处.<BR><BR>装有这种法杖核心的法杖在挥舞时会抽取法杖中Vis缓慢治疗施法者的伤口.
 
 # -- WAND FOCUS: ENDER RIFT
 ttresearch.name.FOCUS_ENDER_CHEST=法杖核心: 末影裂痕
@@ -424,13 +424,13 @@ ttresearch.page.BLOOD_SWORD.1=你也发现了这把剑能收割怪物的灵魂�
 # -- Mob Summoning
 ttresearch.name.SUMMON=怪物召唤
 ttresearch.lore.SUMMON=近乎死灵法师
-ttresearch.page.SUMMON.0=如今你已能够利用咒灵之剑捕获的灵魂召唤出怪物.在死灵祭坛附近放置三个基座.于基座上放置三个灵魂要素.不同类型的灵魂要素对应不同类型的怪物.每种怪物的构成都不相同.
-ttresearch.page.SUMMON.1=通过制造注魔灵魂要素,无需消耗灵魂要素就能召唤出怪物.但使用注魔灵魂要素进行召唤,仪式会比平时更加缓慢.
+ttresearch.page.SUMMON.0=如今你已能够利用咒灵之剑捕获的灵魂召唤出怪物.在死灵祭坛附近放置三个基座.于基座上放置三个灵魂源质.不同类型的灵魂源质对应不同类型的怪物.每种怪物的构成都不相同.
+ttresearch.page.SUMMON.1=通过制造注魔灵魂源质,无需消耗灵魂源质就能召唤出怪物.但使用注魔灵魂源质进行召唤,仪式会比平时更加缓慢.
 
 # -- TRANSVECTOR DISLOCATOR
 ttresearch.name.DISLOCATOR=矢量转位仪
 ttresearch.lore.DISLOCATOR=无需血魔法
-ttresearch.page.DISLOCATOR.0=通过研究Motion要素,你设法制造出一台能够交换方块空间位置的设备.<BR><BR>这台设备用起来类似矢量变换接口,必须使用矢量变换接口绑定器将它绑定到另一个位置,你可以通过法杖设置它的朝向,当接收到红石信号后它会将朝向的方块与绑定位置的方块交换位置.它也能够传输这些位置上的实体(生物,船,矿车等).<BR><BR>可以像伪装矢量变换接口那样伪装它.但它有更远的工作范围:高达16格.
+ttresearch.page.DISLOCATOR.0=通过研究Motion源质,你设法制造出一台能够交换方块空间位置的设备.<BR><BR>这台设备用起来类似矢量变换接口,必须使用矢量变换接口绑定器将它绑定到另一个位置,你可以通过法杖设置它的朝向,当接收到红石信号后它会将朝向的方块与绑定位置的方块交换位置.它也能够传输这些位置上的实体(生物,船,矿车等).<BR><BR>可以像伪装矢量变换接口那样伪装它.但它有更远的工作范围:高达16格.
 
 # -- HELMET OF REVEALING
 ttresearch.name.REVEALING_HELM=揭示之头盔
@@ -440,12 +440,12 @@ ttresearch.page.REVEALING_HELM.0=事实表明,揭示之护目镜没办法防御�
 # -- THAUMIC REHABILITATOR
 ttresearch.name.REPAIRER=奥法修复台
 ttresearch.lore.REPAIRER=比用棍子穿过马铃薯的伤害还小
-ttresearch.page.REPAIRER.0=你制造出一台能够修复破损工具的新设备.拿着破损工具右击设备,该设备就会通过与之相连的要素源质管道汇集源质来修复物品.<BR><BR>修复物品需要消耗Instrumentum要素.<BR><BR>戴着护目镜或者揭示之头盔能够看见完全修复该物品还需要多少要素源质.
+ttresearch.page.REPAIRER.0=你制造出一台能够修复破损工具的新设备.拿着破损工具右击设备,该设备就会通过与之相连的源质管道汇集源质来修复物品.<BR><BR>修复物品需要消耗Instrumentum源质.<BR><BR>戴着护目镜或者揭示之头盔能够看见完全修复该物品还需要多少源质.
 
 # -- WAND FOCUS: DISTORTION
 ttresearch.name.FOCUS_DEFLECT=法杖核心:扭曲
 ttresearch.lore.FOCUS_DEFLECT=我不是天使
-ttresearch.page.FOCUS_DEFLECT.0=你制造出一种法杖核心,能够防护你免遭来袭的火球伤害.<BR><BR>这种核心在使用时会持续抽取其插入的法杖内的魔力,以在施法者附近召唤出一道防护的幕墙,使得穿过它们的寻常炮弹变得毫无伤害.<BR><BR>此处寻常炮弹包括箭矢,雪球以及药水.但似乎这种防护并不足以抵御一些更强力的攻击,比如火球或者凋灵头颅.
+ttresearch.page.FOCUS_DEFLECT.0=你制造出一种法杖核心,能够防护你免遭来袭的火球伤害.<BR><BR>这种核心在使用时会持续抽取其插入的法杖内的Vis,以在施法者附近召唤出一道防护的幕墙,使得穿过它们的寻常炮弹变得毫无伤害.<BR><BR>此处寻常炮弹包括箭矢,雪球以及药水.但似乎这种防护并不足以抵御一些更强力的攻击,比如火球或者凋灵头颅.
 
 # -- LEVITATOR LOCOMOTIVE
 ttresearch.name.LEVITATOR_LOCOMOTIVE=悬浮平台
@@ -482,12 +482,12 @@ ttresearch.page.ICHORIUM.0=对灵液更加深入的研究揭示其具有与凡�
 # -- ICHORCLOTH STRAPPED SILVERWOOD WAND CORE
 ttresearch.name.ROD_ICHORCLOTH=灵布包层银树杖柄
 ttresearch.lore.ROD_ICHORCLOTH=塞满嘴
-ttresearch.page.ROD_ICHORCLOTH.0=干得漂亮.用灵布对银树杖芯注魔,你设法制造出了一支终极杖柄.<BR><BR>这支杖柄对各种魔力的容量都高达1000点.用于加工各种昂贵的奥术材料都绰绰有余,毫无压力.现在摆在你面前的问题反而是,上哪弄那么多魔力充满它呢? 
+ttresearch.page.ROD_ICHORCLOTH.0=干得漂亮.用灵布对银树杖芯注魔,你设法制造出了一支终极杖柄.<BR><BR>这支杖柄对各种Vis的容量都高达1000点.用于加工各种昂贵的奥术材料都绰绰有余,毫无压力.现在摆在你面前的问题反而是,上哪弄那么多Vis充满它呢? 
 
 # -- ICHORIUM WAND CAPS
 ttresearch.name.CAP_ICHOR=灵宝杖端
 ttresearch.lore.CAP_ICHOR=类似Steam平台折扣
-ttresearch.page.CAP_ICHOR.0=你将灵宝锭投入了它的第一项应用,用于设计一支能够减免各种魔力消耗20%的杖端.现在你能拿这玩意儿做出一堆能够储存更多魔力的法杖了.
+ttresearch.page.CAP_ICHOR.0=你将灵宝锭投入了它的第一项应用,用于设计一支能够减免各种Vis消耗20%的杖端.现在你能拿这玩意儿做出一堆能够储存更多v的法杖了.
 
 # -- ICHORCLOTH ARMOR
 ttresearch.name.ICHORCLOTH_ARMOR=灵布法袍
@@ -571,7 +571,7 @@ ttresearch.page.FOCUS_SHADOWBEAM.0=你制造出一种法杖核心,能够发出�
 # -- WAND FOCUS: EXPERIENCE DRAIN
 ttresearch.name.FOCUS_XP_DRAIN=法杖核心:经验抽取
 ttresearch.lore.FOCUS_XP_DRAIN=环保魔力
-ttresearch.page.FOCUS_XP_DRAIN.0=自从制造出蕴含着疯狂数量的魔力的法杖,你就打定主意想要研究出魔力的替代资源.<BR><BR>最终,你制造出一种能够抽取经验池,将其快速地转换成魔力的法杖核心,可惜效率并不是非常高.
+ttresearch.page.FOCUS_XP_DRAIN.0=自从制造出蕴含着疯狂数量的Vis的法杖,你就打定主意想要研究出Vis的替代资源.<BR><BR>最终,你制造出一种能够抽取经验池,将其快速地转换成Vis的法杖核心,可惜效率并不是非常高.
 
 # -- PROTOCLAY
 ttresearch.name.PROTOCLAY=息壤
@@ -587,7 +587,7 @@ ttresearch.page.WARP_GATE.1=为方便仙域之门定位,需要用仙域珍珠进
 # -- WAND FOCUS: RECALL
 ttresearch.name.FOCUS_RECALL=法杖核心:仙域召唤
 ttresearch.lore.FOCUS_RECALL=炉石居处即家园
-ttresearch.page.FOCUS_RECALL.0=使用仙域之门传送固然很好,但你决心更进一步,制作一种用于传送的核心,让你无论身处何地都能进行传送.<BR><BR>如事先将绑定好后的仙域珍珠放入施法者的快捷栏内,经过短暂的吟唱后,就能够将施法者传送到绑定位置,犹如踏入仙域之门一般.当然,传送是以消耗魔力为代价的.
+ttresearch.page.FOCUS_RECALL.0=使用仙域之门传送固然很好,但你决心更进一步,制作一种用于传送的核心,让你无论身处何地都能进行传送.<BR><BR>如事先将绑定好后的仙域珍珠放入施法者的快捷栏内,经过短暂的吟唱后,就能够将施法者传送到绑定位置,犹如踏入仙域之门一般.当然,传送是以消耗Vis为代价的.
 
 # -- FIRE
 ttresearch.name.FIRE_IGNIS=元素之焰:离火
@@ -616,10 +616,10 @@ ttresearch.page.FIRE_PERDITIO.0=某种宛如解药的火焰.你可以释放这�
 
 ttresearch.name.INFUSED_POTIONS=蕴魔作物
 ttresearch.lore.INFUSED_POTIONS=谁提起的蜜蜂?没人说过蜜蜂.
-ttresearch.page.INFUSED_POTIONS.0=将魔力碎片注入平凡的作物你便能够创造出全新形式的作物.这些种子生长出的作物能够收获许多种类的物品.每种要素都对应诸多不同类型的物品.
-ttresearch.page.INFUSED_POTIONS.1=你只能直接做出元始要素种子,但其他类型的种子可以通过培育得到.当收获成熟作物时,作物含有的魔法物质会残存于土壤中.在残存大量魔法物质的土壤中种植作物,残存要素与新种植作物所含要素会融合,因而生成新类型的蕴魔种子.
-ttresearch.page.INFUSED_POTIONS.2=培育作物因不同的要素倾向将会受特定效果影响.Terra要素可以增加土壤中魔法物质的残留量.Ignis要素有助于融合要素的形成.Ordo要素增加产量.Perditio要素增加种子掉落量.Aer要素使得作物受其他要素的影响效果更显著.同一株作物受要素影响所产生的倾向不超过50点.
-ttresearch.page.INFUSED_POTIONS.3=有两种方法能够赋予作物元始要素倾向.首先,作物会偶然地受相邻特定要素作物的影响而产生倾向,然而以这种方式同一株植物最多只能增加同种要素倾向5点.
+ttresearch.page.INFUSED_POTIONS.0=将魔力碎片注入平凡的作物你便能够创造出全新形式的作物.这些种子生长出的作物能够收获许多种类的物品.每种源质都对应诸多不同类型的物品.
+ttresearch.page.INFUSED_POTIONS.1=你只能直接做出元始源质种子,但其他类型的种子可以通过培育得到.当收获成熟作物时,作物含有的魔法物质会残存于土壤中.在残存大量魔法物质的土壤中种植作物,残存源质与新种植作物所含源质会融合,因而生成新类型的蕴魔种子.
+ttresearch.page.INFUSED_POTIONS.2=培育作物因不同的源质倾向将会受特定效果影响.Terra源质可以增加土壤中魔法物质的残留量.Ignis源质有助于融合源质的形成.Ordo源质增加产量.Perditio源质增加种子掉落量.Aer源质使得作物受其他源质的影响效果更显著.同一株作物受源质影响所产生的倾向不超过50点.
+ttresearch.page.INFUSED_POTIONS.3=有两种方法能够赋予作物元始源质倾向.首先,作物会偶然地受相邻特定源质作物的影响而产生倾向,然而以这种方式同一株植物最多只能增加同种源质倾向5点.
 ttresearch.page.INFUSED_POTIONS.4=另外,作物还会直接抽走临近作物的要素倾向,被抽走要素倾向的作物必须拥有相等或更多的要素倾向点.
 ttresearch.page.INFUSED_POTIONS.5=有些作物会产出特殊的谷物,可用于酿造药水.<BR>地元药水会在攻击你的怪物与你之间召唤出障碍物.<BR>火元药水会让你的敌人陷入灼烧火球的包围.<BR>风元药水会让你的敌人一冲飞天.<BR>水元药水则会凝固邻近的岩浆.
 

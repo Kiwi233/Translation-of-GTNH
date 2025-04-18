@@ -24,8 +24,8 @@ thaumicenergistics.aeparts.essentia.levelemitter.name=源质发信器
 thaumicenergistics.aeparts.essentia.StorageBus.name=源质储存总线
 thaumicenergistics.aeparts.essentia.terminal.name=源质终端
 thaumicenergistics.aeparts.arcane.crafting.terminal.name=奥术合成终端
-thaumicenergistics.aeparts.vis.interface.name=要素中继接口
-thaumicenergistics.aeparts.vis.interface_creative.name=创造模式要素中继接口
+thaumicenergistics.aeparts.vis.interface.name=Vis中继接口
+thaumicenergistics.aeparts.vis.interface_creative.name=创造模式Vis中继接口
 thaumicenergistics.aeparts.essentia.storage.monitor.name=源质储存监控器
 thaumicenergistics.aeparts.essentia.conversion.monitor.name=源质交换监控器
 
@@ -89,8 +89,8 @@ thaumicenergistics.tooltip.advanced.infusion.provider.totalbind=共绑定%d个�
 thaumicenergistics.gui.arcane.crafting.terminal.title=奥术终端
 thaumicenergistics.gui.essentia.cell.title=源质元件
 thaumicenergistics.gui.selected.amount=数量
-thaumicenergistics.gui.selected.aspect=要素
-thaumicenergistics.gui.digivis.source.name=数位魔力源
+thaumicenergistics.gui.selected.aspect=源质
+thaumicenergistics.gui.digivis.source.name=数位Vis源
 thaumicenergistics.gui.essentia.cell.workbench.title=源质元件工作台
 thaumicenergistics.gui.arcane.assembler.title=奥术装配室
 thaumicenergistics.gui.vibration.chamber.stored=存储：%d %s
@@ -102,38 +102,38 @@ tc.research_category.thaumicenergistics=神秘能源
 # Research basics
 tc.research_name.thaumicenergistics.TERESEARCH=神秘能源
 tc.research_text.thaumicenergistics.TERESEARCH=数字化时代也是可以用些魔法的
-thaumicenergistics.research_page.TERESEARCH.1=同时作为科学家和奥术学者,你设想有方法能将科技与魔法稳定有效地结合起来.<BR>你需要先细致研究物质与能量相互转换的法则.似乎神秘学中有要素可以做到,科技中也有方法做到同样的事.<BR>这可能需要大量的研究,但你确信这样投入时间是值得的.
+thaumicenergistics.research_page.TERESEARCH.1=同时作为科学家和奥术学者,你设想有方法能将科技与魔法稳定有效地结合起来.<BR>你需要先细致研究物质与能量相互转换的法则.似乎神秘学中有源质可以做到,科技中也有方法做到同样的事.<BR>这可能需要大量的研究,但你确信这样投入时间是值得的.
 
 # Research conversion cores
 tc.research_name.thaumicenergistics.TECORES=源质数位化
 tc.research_text.thaumicenergistics.TECORES=几位大小的源质液体
-thaumicenergistics.research_page.TECORES.1=完成要素蒸馏的研究后你突然想到可以数字化储存要素源质.<BR>测试了§l成型核心§r和§l破坏核心§r后你意识到仅需小改动就能做到在源质与数位格式之间转化.<BR>由于某些源质天生具有腐蚀性,就需要在电路表面覆上一层水银来预防侵蚀.
+thaumicenergistics.research_page.TECORES.1=完成源质蒸馏的研究后你突然想到可以数字化储存源质.<BR>测试了§l成型核心§r和§l破坏核心§r后你意识到仅需小改动就能做到在源质与数位格式之间转化.<BR>由于某些源质天生具有腐蚀性,就需要在电路表面覆上一层水银来预防侵蚀.
 thaumicenergistics.research_page.TECORES.2=§l扩散核心§r<BR>源质液体相对较高的波动性和所含的能量使得需先将其扩散稀释再数字化.这时候就需要某种缓冲器来容纳这些扩散的源质.<LINE>§l聚集核心§r<BR>压缩并将分散的源质重塑凝为原先的液态很可能也需要这样一个缓冲器.
 
 # Research storage
 tc.research_name.thaumicenergistics.TESTORAGE=数位化源质存储
 tc.research_text.thaumicenergistics.TESTORAGE=这货真的能储存源质?
 thaumicenergistics.research_page.TESTORAGE.1=检查了现有的数字化存储媒介后你总结出确实可以储存这些数字化的源质.<BR>§l赛特斯石英§r通过注入浓缩的物质,就会获得存储源质的能力,在数字化的格式下也是十分有效的.<BR>你总结了注入的物质越浓缩储存空间就越大的结论.但这不会大于石英本身所能承受的储存大小.
-thaumicenergistics.research_page.TESTORAGE.2=§l组件§r<BR>存储组件以数位格式存储源质.单独是无法操作的,它们需要元件外壳才能与数字网络进行交互.<LINE>§l元件外壳§r<BR>为存储组件提供了接口以及保护.<BR>§l源质元件工作台§r<BR>这个元件工作台可以让你指定何种要素源质可以存储于这个元件之中.
+thaumicenergistics.research_page.TESTORAGE.2=§l组件§r<BR>存储组件以数位格式存储源质.单独是无法操作的,它们需要元件外壳才能与数字网络进行交互.<LINE>§l元件外壳§r<BR>为存储组件提供了接口以及保护.<BR>§l源质元件工作台§r<BR>这个元件工作台可以让你指定何种源质可以存储于这个元件之中.
 
 # Research IO
 tc.research_name.thaumicenergistics.TEIO=数位化源质运输
 tc.research_text.thaumicenergistics.TEIO=即时运输源质.
-thaumicenergistics.research_page.TEIO.1=现在你已经知道了如何数字化源质,是时候投入实际使用了.<LINE>§l输入&输出§r<BR>通过组合恰当的核心,源质管道与要素罐子你就能输入或输出网络内的源质储存.源质过滤管道的使用让你能设置可输送的要素源质类型.
+thaumicenergistics.research_page.TEIO.1=现在你已经知道了如何数字化源质,是时候投入实际使用了.<LINE>§l输入&输出§r<BR>通过组合恰当的核心,源质管道与源质罐子你就能输入或输出网络内的源质储存.源质过滤管道的使用让你能设置可输送的源质类型.
 thaumicenergistics.research_page.TEIO.2=§l储存总线§r<BR>将输入和输出总线并入一个设备中,让你像使用网络储存一样使用外部的源质容器.<BR>和储存一样,总线还可以使用虚空罐子或者物质聚合器来清除多余的源质.若使用虚空罐子,你需要在GUI中设定允许使用虚空罐子.在这里强烈建议为存储总线设定低优先级.
 
 # Research Arcane crafting terminal
 tc.research_name.thaumicenergistics.TEARCANETERM=奥术合成终端
 tc.research_text.thaumicenergistics.TEARCANETERM=利用魔法§o与科技§r来合成
-thaumicenergistics.research_page.TEARCANETERM.1=你已发现将初始要素注入§l终端§r和§l奥术工作台§r,就能赋予终端合成奥术物品的能力.<BR>终端仍保有其访问ME网络中物品的能力,保证了快速高效的合成,还提供了储存并交换护甲的能力,在你需要快速减免Vis消耗时你会用到的.
+thaumicenergistics.research_page.TEARCANETERM.1=你已发现将初始源质注入§l终端§r和§l奥术工作台§r,就能赋予终端合成奥术物品的能力.<BR>终端仍保有其访问ME网络中物品的能力,保证了快速高效的合成,还提供了储存并交换护甲的能力,在你需要快速减免Vis消耗时你会用到的.
 
 # Research Essentia terminal
 tc.research_name.thaumicenergistics.TEESSTERM=源质终端
 tc.research_text.thaumicenergistics.TEESSTERM=已知你有多少源质.
 thaumicenergistics.research_page.TEESSTERM.1=§l源质终端§r让你能看到网络中储存了多少源质,并提供了用源质容器向终端输入源质或从中抽取源质的方法.§l源质发信器§r会持续监测网络中的源质等级,并在条件符合时发出红石信号.
-thaumicenergistics.research_page.TEESSTERM.2=§l源质储存监控器§r和§l源质交换监控器§r则能让你看到此刻有多少某源质存储于网络之中.转换监视器还能让你向网络中输入或从中抽取源质.<BR>使用扳手右键将会锁定/解锁监视器.<BR>手持标签,装有源质的罐子或者安瓿右击解锁状态下的监视器将会设定当前显示的要素种类,空手右键则会清空.<BR>右击锁定的交换监视器可以填充要素罐子或安瓿,潜行并右击则会清空罐子或安瓿并将源质导入网络.<BR>潜行并右键双击将会清空你物品栏里所有的源质,并导入进网络.
+thaumicenergistics.research_page.TEESSTERM.2=§l源质储存监控器§r和§l源质交换监控器§r则能让你看到此刻有多少某源质存储于网络之中.转换监视器还能让你向网络中输入或从中抽取源质.<BR>使用扳手右键将会锁定/解锁监视器.<BR>手持标签,装有源质的罐子或者安瓿右击解锁状态下的监视器将会设定当前显示的源质种类,空手右键则会清空.<BR>右击锁定的交换监视器可以填充源质罐子或安瓿,潜行并右击则会清空罐子或安瓿并将源质导入网络.<BR>潜行并右键双击将会清空你物品栏里所有的源质,并导入进网络.
 thaumicenergistics.research_page.TEESSTERM.3=§l源质发信器§r可在网络中源质低于或高于指定水平时发出红石信号.
-thaumicenergistics.research_page.TEESSTERM.4=§l源质储存监控器§r和§l源质交换监控器§r可以让你知道在某一刻时网络内有多少指定要素源质.源质交换监控器还可以让你将源质输入网络,或是从网络中提取源质.<BR>使用扳手右击即可锁定/解锁监控器.<BR>手持罐子标签或者填满的罐子或填满的安瓿右击未锁定的监控器可设定显示的要素种类,空手右击则可清空.<BR>右击锁定的监控器可填满罐子或安瓿,按住Shift右击则可清空它们.<BR>按住Shift时右键双击可清空你物品栏中的所有源质.
+thaumicenergistics.research_page.TEESSTERM.4=§l源质储存监控器§r和§l源质交换监控器§r可以让你知道在某一刻时网络内有多少指定源质.源质交换监控器还可以让你将源质输入网络,或是从网络中提取源质.<BR>使用扳手右击即可锁定/解锁监控器.<BR>手持罐子标签或者填满的罐子或填满的安瓿右击未锁定的监控器可设定显示的源质种类,空手右击则可清空.<BR>右击锁定的监控器可填满罐子或安瓿,按住Shift右击则可清空它们.<BR>按住Shift时右键双击可清空你物品栏中的所有源质.
 
 # Research Essentia Provider
 tc.research_name.thaumicenergistics.TEESSPROV=源质供应器
@@ -143,19 +143,19 @@ thaumicenergistics.research_page.TEESSPROV.1=尽管输入和输出总线适用�
 # Research Infusion Provider
 tc.research_name.thaumicenergistics.TEINFPROV=注魔供应器
 tc.research_text.thaumicenergistics.TEINFPROV=注魔更易.
-thaumicenergistics.research_page.TEINFPROV.1=通过研究源质注魔的过程,你发现了能用于注魔的源质瞬间数字化与数字瞬间源质化的方法.<BR>将注魔供应器邻近神秘装置放置,装置就能直接从网络中抽取源质,就像是要素罐子一样.对注魔祭坛来说这十分实用.
+thaumicenergistics.research_page.TEINFPROV.1=通过研究源质注魔的过程,你发现了能用于注魔的源质瞬间数字化与数字瞬间源质化的方法.<BR>将注魔供应器邻近神秘装置放置,装置就能直接从网络中抽取源质,就像是源质罐子一样.对注魔祭坛来说这十分实用.
 
 # Research Advanced Infusion Provider
 tc.research_name.thaumicenergistics.TEADVINFPROV=高级注魔供应器
 tc.research_text.thaumicenergistics.TEADVINFPROV=最简单的灌注。
-thaumicenergistics.research_page.TEADVINFPROV.1=当你不断的优化自己的网络合成自动化时,你无数次的被注魔时需要的要素源质的制作给难住了.<BR>现在,你有了全新的想法,不如把计算源质合成的任务交给ME网络来做?<BR>于是你试着使用自己的魔法技巧,将截流者与原有的供应器进行结合,经过你的不懈努力得到了这个进阶注魔供应器,它会绑定以自身为中心25*25*11的空间内所有的注魔矩阵,且当他发现源质缺失时会自动进行下单,你需要做的只有把他放在多个矩阵的中间,就是这么简单.<BR>右键可以让他重新搜索区域内的矩阵并重新绑定.
+thaumicenergistics.research_page.TEADVINFPROV.1=当你不断的优化自己的网络合成自动化时,你无数次的被注魔时需要的源质的制作给难住了.<BR>现在,你有了全新的想法,不如把计算源质合成的任务交给ME网络来做?<BR>于是你试着使用自己的魔法技巧,将截流者与原有的供应器进行结合,经过你的不懈努力得到了这个进阶注魔供应器,它会绑定以自身为中心25*25*11的空间内所有的注魔矩阵,且当他发现源质缺失时会自动进行下单,你需要做的只有把他放在多个矩阵的中间,就是这么简单.<BR>右键可以让他重新搜索区域内的矩阵并重新绑定.
 
 # Research Vis Interface
-tc.research_name.thaumicenergistics.TEVISINT=要素中继接口
-tc.research_text.thaumicenergistics.TEVISINT=数位化使用要素魔力
-thaumicenergistics.research_page.TEVISINT.1=发现要素能量网之后,你开始研究将其与数字网络连接的方法.<BR>在细致观察要素魔力在§l要素中继§r网络中的流动后,你确信自己也能做出一个有着相似功能的数字化设备.利用数字网络的点对点能力你就可以导入,传导要素魔力,并为数字设备所用,但要储存要素魔力你还需要进行更深入的研究.
-thaumicenergistics.research_page.TEVISINT.2=要使用§l要素中继接口§r,只需将其接入数字网络并在其上放置一个要素中继器.中继器的底端必须附在接口上.<BR>若要将其他设备连接到接口则需§l内存卡§r.<BR>用内存卡shift右击接口,之后右击一个设备来建立连接.
-thaumicenergistics.research_page.TEVISINT.3=§l连接§r<LINE>§l要素中继接口§r.构建一个VisP2P通道.<BR>§l奥术合成终端§r.在A.C.T(奥术合成终端)中给法杖充能.<BR>§l奥术装配室§r.存储Vis,并用于合成.
+tc.research_name.thaumicenergistics.TEVISINT=Vis中继接口
+tc.research_text.thaumicenergistics.TEVISINT=数位化使用源质魔力
+thaumicenergistics.research_page.TEVISINT.1=发现源质能量网之后,你开始研究将其与数字网络连接的方法.<BR>在细致观察要源质在§l源质中继§r网络中的流动后,你确信自己也能做出一个有着相似功能的数字化设备.利用数字网络的点对点能力你就可以导入,传导源质,并为数字设备所用,但要储存源质你还需要进行更深入的研究.
+thaumicenergistics.research_page.TEVISINT.2=要使用§lVis中继接口§r,只需将其接入数字网络并在其上放置一个Vis中继器.中继器的底端必须附在接口上.<BR>若要将其他设备连接到接口则需§l内存卡§r.<BR>用内存卡shift右击接口,之后右击一个设备来建立连接.
+thaumicenergistics.research_page.TEVISINT.3=§l连接§r<LINE>§lVis中继接口§r.构建一个VisP2P通道.<BR>§l奥术合成终端§r.在A.C.T(奥术合成终端)中给法杖充能.<BR>§l奥术装配室§r.存储Vis,并用于合成.
 
 # Research Iron Gear Box
 tc.research_name.thaumicenergistics.TEIRONGEARBOX=铁齿轮箱
@@ -182,9 +182,9 @@ thaumicenergistics.research_page.TEKNOWLEDGEINSCRIBER.2=使用知识记录仪<BR
 # Research Arcane Assembler
 tc.research_name.thaumicenergistics.TEARCANEASSEMBLER=奥术装配室
 tc.research_text.thaumicenergistics.TEARCANEASSEMBLER=装配魔力分子
-thaumicenergistics.research_page.TEARCANEASSEMBLER.1=调试§l分子装配室§r时你就想着能不能将它改装,使其能制造奥术物品.总结下来,给它嵌入相应的碎片就能让它将魔力注入物品中.它也需要中等储量的魔力,§l银树权杖§r似乎是最好的选择.<BR>注意: 需要一个完全充能的权杖,并且权杖最终不会返还.
-thaumicenergistics.research_page.TEARCANEASSEMBLER.2=§l模板存储§r<BR>装配室本身不会储存合成配方.或许你还要进一步研究才能做出储存模板的东西.<BR>§l魔力补充§r<BR>补充装配室的魔力需要用到§l要素中继接口§r.<BR>§l加速卡§r<BR>每张都会减少20%的合成时间并增加50%的消耗.
-thaumicenergistics.research_page.TEARCANEASSEMBLER.3=§l魔力减免§r<BR>装配室会根据工艺权杖获取一个基础的魔力减免.同时可以提供魔力减免的防具还能进一步提升减免的效果.每种要素的减免可通过悬停在GUI的要素来查看.<BR>注意装配室对扭曲装备的效果不免疫.每点扭曲值都会抽取额外15%的能量来维持稳定,该效果只会在合成时生效.
+thaumicenergistics.research_page.TEARCANEASSEMBLER.1=调试§l分子装配室§r时你就想着能不能将它改装,使其能制造奥术物品.总结下来,给它嵌入相应的碎片就能让它将魔力注入物品中.它也需要中等储量的Vis,§l银树权杖§r似乎是最好的选择.<BR>注意: 需要一个完全充能的权杖,并且权杖最终不会返还.
+thaumicenergistics.research_page.TEARCANEASSEMBLER.2=§l模板存储§r<BR>装配室本身不会储存合成配方.或许你还要进一步研究才能做出储存模板的东西.<BR>§lVis补充§r<BR>补充装配室的Vis需要用到§lVis中继接口§r.<BR>§l加速卡§r<BR>每张都会减少20%的合成时间并增加50%的消耗.
+thaumicenergistics.research_page.TEARCANEASSEMBLER.3=§lVis减免§r<BR>装配室会根据工艺权杖获取一个基础的Vis减免.同时可以提供Vis减免的防具还能进一步提升减免的效果.每种Vis的减免可通过悬停在GUI的Vis来查看.<BR>注意装配室对扭曲装备的效果不免疫.每点扭曲值都会抽取额外15%的能量来维持稳定,该效果只会在合成时生效.
 
 # Research Wrench Focus
 tc.research_name.thaumicenergistics.TEFOCUSWRENCH=法杖核心: AE扳手
@@ -201,7 +201,7 @@ thaumicenergistics.research_page.TEESSVIBCMBR.3=打开GUI后,其GUI会显示当�
 # Research Distillation Pattern Encoder
 tc.research_name.thaumicenergistics.TEDISTILLATIONPATTERNENCODER=蒸馏编码台
 tc.research_text.thaumicenergistics.TEDISTILLATIONPATTERNENCODER=买买买
-thaumicenergistics.research_page.TEDISTILLATIONPATTERNENCODER.1=将AE自动合成的原理进行推广后,你找到了将源质蒸馏过程写入§l编码样板§r的方法.<BR>将物品放入魔导透镜的格子中后会揭示其要素组成.选中你想要的要素后,其数据就可以写入样板中了.
+thaumicenergistics.research_page.TEDISTILLATIONPATTERNENCODER.1=将AE自动合成的原理进行推广后,你找到了将源质蒸馏过程写入§l编码样板§r的方法.<BR>将物品放入魔导透镜的格子中后会揭示其源质组成.选中你想要的源质后,其数据就可以写入样板中了.
 
 # Research Golem Wifi Backpack
 tc.research_name.thaumicenergistics.TEGOLEMWIFIBACKPACK=无线傀儡背包
