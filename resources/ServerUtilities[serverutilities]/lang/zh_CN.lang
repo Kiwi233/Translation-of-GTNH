@@ -134,6 +134,8 @@ serverutilities.world.forced_spawn_dimension_time=强制出生点维度时间
 serverutilities.world.forced_spawn_dimension_weather=强制出生点维度天气
 serverutilities.world.disable_player_suffocation_damage=禁用玩家受到窒息伤害
 serverutilities.world.show_playtime=在左上角显示游玩时间
+serverutilities.world.players_sleeping=§f%s§6 睡下了。 %s/%s (%s%%)
+serverutiltiies.world.skip_night=§6起床了，阳光明媚……大家早上好！
 
 serverutilities.world.logging=记录中
 serverutilities.world.logging.include_creative_players=包括创造模式玩家
@@ -280,6 +282,22 @@ player_config.serverutilities.nickname=昵称
 player_config.serverutilities.afk=AFK 通知位置
 player_config.serverutilities.show_team_prefix=在聊天中展示队伍前缀
 player_config.serverutilities.show_team_prefix.info=§r向你的聊天消息加入[%s]作为前缀
+
+player_config.vanish=隐身设置
+player_config.vanish.interaction=交互
+player_config.vanish.chat=聊天
+player_config.vanish.damageother=伤害其他实体
+player_config.vanish.collision=碰撞箱
+player_config.vanish.sendconnectionmsg=发送进出消息
+player_config.vanish.containerreadonly=仅读取容器
+player_config.vanish.itemdropping=掉落物
+player_config.vanish.interaction.tooltip=切换在隐身状态下方块放置/破坏及实体交互相关功能
+player_config.vanish.chat.tooltip=切换在隐身状态下的聊天功能
+player_config.vanish.collision.tooltip=切换在隐身状态下与实体的碰撞的功能
+player_config.vanish.damageother.tooltip=切换在隐身状态下伤害其他实体的功能
+player_config.vanish.sendconnectionmsg.tooltip=切换隐身/出现时发送虚假出/进服务器消息的功能
+player_config.vanish.containerreadonly.tooltip=仅读取容器：不对其他玩家显示容器已打开
+player_config.vanish.itemdropping.tooltip=切换隐身状态下的掉落物
 
 # Team Settings
 team_config.serverutilities.display=显示
@@ -465,6 +483,34 @@ commands.god.usage=/god <player>
 commands.rtp.usage=/rtp
 commands.dump_chunkloaders.usage=/dump_chunkloaders
 commands.dump_permissions.usage=/dump_permissions
+commands.vanish.usage=/vanish
+commands.vanish.toggle.usage=/vanish toggle <on|off>
+commands.vanish.fakequit.usage=/vanish fakequit - 发送一个假的登出消息
+commands.vanish.fakejoin.usage=/vanish fakejoin - 发送一个假的登入消息
+commands.vanish.interact.usage=/vanish interact
+commands.vanish.chat.usage=/vanish chat
+commands.vanish.chat.desc=切换在隐身状态下的聊天功能
+commands.vanish.collision.usage=/vanish collision
+commands.vanish.damage_other.usage=/vanish damage_other
+commands.vanish.send_connection_msg.usage=/vanish send_connection_msg
+commands.vanish.container_read_only.usage=/vanish container_read_only
+commands.vanish.item_dropping.usage=/vanish item_dropping
+commands.vanish.check.usage=/vanish check
+commands.vanish.check.true=你当前已经隐身！
+commands.vanish.check.false=你当前§s没§r隐身！
+commands.vanish.off=你不再隐藏！
+commands.vanish.on=噗！你藏起来了！
+commands.vanish.interact=隐身时交互
+commands.vanish.chat=隐身时聊天
+commands.vanish.collision=隐身时碰撞箱
+commands.vanish.damage_other=隐身时伤害其他实体
+commands.vanish.send_connection_msg=隐身时发送进出消息
+commands.vanish.container_read_only=容器仅读取
+commands.vanish.item_dropping=隐身时掉落物
+commands.pregen.start.usage_server=/pregen start <x> <y> <半径>
+commands.pregen.start.usage_client=/pregen start <x> <y> <半径> 或 /pregen <半径>
+commands.pregen.stop.usage=/pregen stop
+commands.pregen.progress.usage=/pregen progress
 
 # Chunks
 serverutilities.lang.chunks.cant_modify_chunk=无法修改此区块！
@@ -507,7 +553,6 @@ serverutilities.lang.homes.set=家“%s”已设置！
 serverutilities.lang.homes.del=家“%s”已删除！
 serverutilities.lang.homes.not_set=未知的家：“%s”！
 serverutilities.lang.homes.cooldown=使用 home 传送还需 %s！
-serverutilities.lang.homes.cross_dim=你不能传送至其它维度！
 serverutilities.lang.homes.limit=家数量已达到上限！
 serverutilities.lang.homes.spectator=请先退出旁观模式！
 
@@ -548,9 +593,19 @@ cmd.backup_size=当前世界大小：%s，备份文件夹总大小：%s
 serverutilities.gui.backup.title=恢复备份（%s）
 serverutilities.gui.backup.button=备份
 serverutilities.gui.backup.restore=恢复
+serverutilities.gui.backup.restore_global=还原（使用全局数据）
 serverutilities.gui.backup.error=恢复备份时发生错误！
 serverutilities.gui.backup.delete_confirm=确认§c§l删除§r此备份？
 serverutilities.gui.backup.restore_confirm=确认§a§l恢复§r此备份?
+serverutilities.gui.backup.restore_global_confirm=您确定要对此备份进行（全局）还原吗？
+serverutilities.gui.backup.restore_confirm_desc=这也将恢复全局世界相关数据。之前的数据将移动到“.minecraft/backups_before_restore”中
+serverutilities.gui.backup.restore_global_confirm_desc=这也将恢复全局世界相关的数据，并将覆盖全局设置包含在备份中。之前的数据将移动到“.minecraft/backups_before_restore”中。
+
+# Pause When Empty
+cmd.pause_when_empty_updated=服务器属性‘pause-when-empty-seconds’(无玩家上线多少秒后暂停)设置为%d
+cmd.pause_when_empty_oneshot=‘pause-when-empty-seconds’(无玩家上线多少秒后暂停)暂时设置为%d，直到下次恢复。设置为-1表示禁用单次执行
+commands.pause_when_empty.set.usage=/pause_when_empty set <秒> (0为禁止)
+commands.pause_when_empty.oneshot.usage=/pause_when_empty oneshot <秒> (旧值将在下次恢复时应用; 0表示禁用暂停; -1表示禁用单次执行)
 
 # Gui
 ## Buttons
