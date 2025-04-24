@@ -836,6 +836,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALXw.desc=什么？你的桶又满了？ 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYA.name=§3§l桶升级 T5
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYA.desc=什么？你的桶又满了？ 不要紧,继续升级!
 
+# Quest: Handpicking Crops is So Old School
+betterquesting.quest.T_5nD6d8QQ29KrInOSI_Og.name=手工采摘农作物太过时了
+betterquesting.quest.T_5nD6d8QQ29KrInOSI_Og.desc=通过制作镰刀,你现在可以清除3x3块的植被,并收获5x5块的庄稼! 收割能力适用于大多数非魔法作物,包括IC2作物! 记住,这把镰刀可以收割IC2作物,即使它们还没有完全成熟. 无论你使用什么材料制作这把工具,任务都会接受.
+
 # Quest: The one book to rule them all
 betterquesting.quest.XuZpnhWZRou46kensglZ6g.name=§3§l一本书统领众书
 betterquesting.quest.XuZpnhWZRou46kensglZ6g.desc=这本书可储存来自其他模组的多种文献书籍.刚制作出来时,它是空的,但你可以通过在合成栏中将它与所需书籍合成来添加内容.%n%n手持并右击将打开一个界面,显示所有你添加的书籍;点击书籍将把它转换为所选书籍.在潜行时左击即可还原.%n%n要取回存储的书籍,先将其转化为所需的书籍,然后在潜行时将其丢出 - 这样就会丢出所选的书籍,并将其留在你的物品栏中.%n%n[warn]一些警告:%n%n巫术的生态之书(扩展版)与此物不兼容.%n%n别把它丢到植物魔法的传送门里去,精灵们可能会偷走它,然后只归还它们自己的植物魔法辞典.[/warn]
@@ -1219,7 +1223,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.desc=在你制造了一台切割机�
 
 # Quest: Firestone Ore/Dust
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§lFirestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and some other stuff. Unforunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and some other stuff. Unfortunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
 
 # Quest: Ardite and Cobalt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.name=§5§l阿迪特和钴
@@ -2261,7 +2265,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGgA.desc=现在我们在聚二甲基硅�
 
 # Quest: Simple SoC - System on a Chip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGsQ.name=§9§l简单的SoC-芯片级系统
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGsQ.desc=SoC是芯片级系统(System on a Chip)的简称,它可以降低电路板的造价. 在这里,用简单的SoC可以替换真空管,ULV电路板更便宜了.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGsQ.desc=SoC是芯片级系统(Systems on a Chip)的简称,它可以简化电路板的制造. 在这里,用简单的SoC可以替换真空管,ULV电路板更便宜了.
 
 # Quest: Cheaper Simple Circuit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGsg.name=§8§9§l便宜的简单电路
@@ -3649,7 +3653,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKeg.desc=TecTech多方块机器的一般
 
 # Quest: Configuring TecTech Multiblocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKew.name=配置TecTech多方块机器
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKew.desc=许多TecTech的多方块机器可以通过调整内部数字--参数--来进行配置.你不再需要单独的方块执行此项操作,如今可以在GUI中直接调整参数.%n%n如果多方块GUI的"参数"部分中有点亮的部分(请查看之前的TecTech多方块任务),那么你就能配置此多方块,否则参数窗口没有任何作用.%n%n在这里我们用量子计算机作为示例,这可能也是你首先想要进行配置的.%n%n首先我们要了解参数命名,比如ID:0:1:I.第一个数字代表参数方块.对于量子计算机,只有方块0可用.每个这样的方块最多可以有4个可用的参数,2输入以及2输出.末尾的字母指定参数是输入(I)还是输出(O),而中间的数字区分了方块中同种参数的先后,在第一,就是0,在第二,未使用的,就是1.%n%n上面一行中的字母I表示输入(Input),要么由参数窗口配置,要么是默认值.%n%n下面一行的字母O表示输出(Output),这是机器给你的信息.(比如热量或算力)%n%n最后,参数存储卡可以让你能够轻松地将一台机器的配置复制到另一台机器上.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKew.desc=许多TecTech的多方块机器可以通过调整内部数字--参数--来进行配置.你可以在GUI中直接调整参数.%n%n如果多方块GUI的"参数"部分中有点亮的部分(请查看之前的TecTech多方块任务),那么你就能配置此多方块,否则参数窗口没有任何作用.%n%n在这里我们用量子计算机作为示例,这可能也是你首先想要进行配置的.%n%n首先我们要了解参数命名,比如ID:0:1:I.第一个数字代表参数方块.对于量子计算机,只有方块0可用.每个这样的方块最多可以有4个可用的参数,2输入以及2输出.末尾的字母指定参数是输入(I)还是输出(O),而中间的数字区分了方块中同种参数的先后,在第一,就是0,在第二,未使用的,就是1.%n%n上面一行中的字母I表示输入(Input),要么由参数窗口配置,要么是默认值.%n%n下面一行的字母O表示输出(Output),这是机器给你的信息.(比如热量或算力)%n%n最后,参数存储卡可以让你能够轻松地将一台机器的配置复制到另一台机器上.
 
 # Quest: Lasers Solve Everything
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.name=激光解决一切
@@ -6385,7 +6389,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2A.desc=这一机制是可选的,而且
 
 # Quest: Catalyzing Miracles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2Q.name=催化奇迹
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2Q.desc=量子操纵者使用化工厂也使用的那种催化剂.然而,就像拥有觉醒龙锭或更高等级线圈的化工厂一样,它不会在配方完成时消耗催化剂的耐久,更像是现实化学反应中的催化剂,它们在反应结束后会被重新生成为最初的物质.这使得这里使用的催化剂的制作成本更高,就像与高等级线圈配合来制作突变活性焊料的无限突变催化剂一样.%n%n鉴于没有耐久损失,似乎只需要制作一次催化剂.然而,两个原因使得你需要制作不止一份催化剂：首先,每个量子操纵者配方使用不同的催化剂;其次,量子操纵者通过计算输入总线中所含催化剂的数量来确定并行(最高为64并行,即为催化剂的最大堆叠).这套系统使你只制造一份催化剂就可以解锁配方的使用,但最好多制作一些.而且多份催化剂只会改变配方的运行速度,前提是你要提供足够的EU.%n%n每个能够使你跳过某个生产线的催化剂都需要该产线解锁的材料来制作.也就是说,必须使用原始加工线才能跳过它们.量子操纵者的每个配方都是如此.%n%n为了提高处理的总体速度,你的一种选择是添加更多催化剂来增加量子操纵者的并行.另一种更复杂的方法是通过向系统添加更多能量来增加成功输出的概率,但以一种特殊的方式:不是直接使用EU,而是生成大量的等离子体来提高量子处理过程.%n%n不同的等离子体有不同的功能.你也可以通过升级结构中的方块来增强量子操纵者.这些升级依赖于更高级和更强大的材料,主要来自于超维度等离子锻炉.然而,仅靠那些材料是不够的,因为这些常规来源的物质无法维持量子稳定性.幸运的是,量子操纵者本身就可以生产你所需要的这些奇异材料.你在尝试跳过一些生产线时发现了它们.因此,量子操纵者允许你更简单的生产现有材料,在这个过程中,它产出了一些全新的材料,供你升级结构本身.%n%n你总共发现了三种新物质,机器也就有了四个层级.第一级是初始层级,之后的每个层级都需要这些新物质来建造.在现实生活中,这些物质只是理论上的理想材料.它们的特性都neta自其对应的跳过的产线.%n%n你升级量子操纵者所需要的第一种奇异物品是超稳态自修复粘合剂.要制作这种材料,请使用粘合促进催化剂执行胶水/焊料配方.此外,制作其他催化剂来证明您在量子领域之旅中已经准备就绪.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2Q.desc=量子操纵者使用化工厂也使用的那种催化剂.然而,就像拥有觉醒龙锭或更高等级线圈的化工厂一样,它不会在配方完成时消耗催化剂的耐久,更像是现实化学反应中的催化剂,它们在反应结束后会被重新生成为最初的物质.这使得这里使用的催化剂的制作成本更高,就像与高等级线圈配合来制作突变活性焊料的无限突变催化剂一样.%n%n鉴于没有耐久损失,似乎只需要制作一次催化剂.然而,两个原因使得你需要制作不止一份催化剂：首先,每个量子操纵者配方使用不同的催化剂;其次,量子操纵者通过计算输入总线中所含催化剂的数量来确定并行(没有上限).这套系统使你只制造一份催化剂就可以解锁配方的使用,但最好多制作一些.而且多份催化剂只会改变配方的运行速度,前提是你要提供足够的EU.%n%n每个能够使你跳过某个生产线的催化剂都需要该产线解锁的材料来制作.也就是说,必须使用原始加工线才能跳过它们.量子操纵者的每个配方都是如此.%n%n为了提高处理的总体速度,你的一种选择是添加更多催化剂来增加量子操纵者的并行.另一种更复杂的方法是通过向系统添加更多能量来增加成功输出的概率,但以一种特殊的方式:不是直接使用EU,而是生成大量的等离子体来提高量子处理过程.%n%n不同的等离子体有不同的功能.你也可以通过升级结构中的方块来增强量子操纵者.这些升级依赖于更高级和更强大的材料,主要来自于超维度等离子锻炉.然而,仅靠那些材料是不够的,因为这些常规来源的物质无法维持量子稳定性.幸运的是,量子操纵者本身就可以生产你所需要的这些奇异材料.你在尝试跳过一些生产线时发现了它们.因此,量子操纵者允许你更简单的生产现有材料,在这个过程中,它产出了一些全新的材料,供你升级结构本身.%n%n你总共发现了三种新物质,机器也就有了四个层级.第一级是初始层级,之后的每个层级都需要这些新物质来建造.在现实生活中,这些物质只是理论上的理想材料.它们的特性都neta自其对应的跳过的产线.%n%n你升级量子操纵者所需要的第一种奇异物品是超稳态自修复粘合剂.要制作这种材料,请使用粘合促进催化剂执行胶水/焊料配方.此外,制作其他催化剂来证明您在量子领域之旅中已经准备就绪.
 
 # Quest: Tier 2 Transforming
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2g.name=等级2:转化
@@ -12044,7 +12048,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMtQ.desc=要使用魔法花卉的力量,
 
 # Quest: Solar Power: Floral Edition
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMtg.name=太阳能:花卉版本
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMtg.desc=太阳花(daybloom)是一种极其简单的产能花.你只需要放置它,它就会在白天免费产出魔力.这种产能方式的缺点是,太阳花仅仅过一小时就会自然枯萎.制造一朵,我会再送你一朵.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMtg.desc=太阳花(daybloom)是一种极其简单的产能花.你只需要放置它,它就会在白天免费产出魔力.这种产能方式的缺点是,太阳花仅仅过一小时就会自然枯萎.%n%n你可以在草原类生物群系中找到太阳花%n%n制造一朵,我会再送你一朵.
 
 # Quest: Hydrobotanic Energy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMtw.name=水植物魔法能量
