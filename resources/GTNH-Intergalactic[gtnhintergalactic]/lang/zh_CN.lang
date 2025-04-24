@@ -79,7 +79,9 @@ achievement.item.MiningDroneMAX.desc=过去未来一切存在吞噬者
 
 
 # Items
+item.SpaceElevatorParts.name=太空电梯组件
 item.nanotubeSpool.name=纳米管线轴
+item.MiningDrone.name=采矿无人机
 item.MiningDroneLV.name=采矿无人机MK-I
 item.MiningDroneMV.name=采矿无人机MK-II
 item.MiningDroneHV.name=采矿无人机MK-III
@@ -96,6 +98,7 @@ item.MiningDroneUXV.name=采矿无人机MK-XIII
 item.MiningDroneMAX.name=采矿无人机MK-XIV
 
 # Blocks
+gt.blockcasingsSE.name=太空电梯部件
 gt.blockcasings.ig.0.name=太空电梯基座机械方块
 gt.blockcasings.ig.0.desc0=强度足以支持太空电梯
 gt.blockcasings.ig.0.desc1=向月球出发!
@@ -105,9 +108,11 @@ gt.blockcasings.ig.1.desc1=我希望这些东西有足够的强度
 gt.blockcasings.ig.2.name=太空电梯内部结构方块
 gt.blockcasings.ig.2.desc0=强化太空电梯的结构
 gt.blockcasings.ig.2.desc1=外观看上去也不错!
+tile.SpaceElevatorCable.name=太空电梯线缆
 gt.blockcasings.ig.cable.name=太空电梯线缆
 gt.blockcasings.ig.cable.desc0=连接配重与基座
 gt.blockcasings.ig.cable.desc1=希望这东西不会断
+gt.blockcasingsSEMotor.name=太空电梯加速轨道
 gt.blockcasings.ig.motor.t1.name=太空电梯加速轨道MK-I
 gt.blockcasings.ig.motor.t2.name=太空电梯加速轨道MK-II
 gt.blockcasings.ig.motor.t3.name=太空电梯加速轨道MK-III
@@ -124,6 +129,7 @@ gt.blockcasings.ig.motor.desc2=为太空电梯解锁%s个模块槽位
 # GUI
 GT5U.gui.text.no_space_station=§7不在空间站
 GT5U.gui.text.invalid_depth=§7无效深度
+GT5U.gui.text.siphoning=§a正在从星球提取
 GT5U.gui.text.missing_project=§7缺少§b%s于§b%s
 GT5U.gui.text.no_plasma=§7缺少等离子体
 GT5U.gui.text.invalid_overdrive=§7无效过载设置
@@ -213,8 +219,8 @@ gt.blockmachines.multimachine.project.ig.cfgo.0=已存储能量
 gt.blockmachines.multimachine.project.ig.miner.t1.desc1=前有伟大宝藏,超乎你的想象!
 gt.blockmachines.multimachine.project.ig.miner.t2.desc1=这是不是侵害了无人机的权利?
 gt.blockmachines.multimachine.project.ig.miner.t3.desc1=这绝对侵害了无人机的权利.
-gt.blockmachines.multimachine.project.ig.miner.desc3=运行需要等离子体(1000L氦/500L铋/300L氡).
-gt.blockmachines.multimachine.project.ig.miner.desc4=使用更高级的等离子体可获得增产.
+gt.blockmachines.multimachine.project.ig.miner.desc3=运行需要等离子体 (825L 氦 / 550L 铋 / 375L 氡 / 250L 锝 / 150L钚-241)
+gt.blockmachines.multimachine.project.ig.miner.desc4=使用更高级的等离子体可增加开采更大小行星的机会,并且改善采矿操作时间.
 gt.blockmachines.multimachine.project.ig.miner.desc5=需要为其提供算力
 gt.blockmachines.multimachine.project.ig.miner.t1.desc5=运行电压：UV，最大并行：2
 gt.blockmachines.multimachine.project.ig.miner.t2.desc5=运行电压：UHV，最大并行：4
