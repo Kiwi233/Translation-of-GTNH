@@ -15,7 +15,7 @@
 
 注意2：2.3.1及以后版本，任务书结构再次大改，config中的相应json文件不再影响汉化，无需再执行删除操作
 
-注意3：2.7.2版本需要删除自带的汉化文件，否则可能会有过时汉化残留。具体做法为删除.minecraft/config/txloader中的forceload文件夹中____gtnhoverridenames和betterloadingscreen以外的所有文件夹
+注意3：2.7.2和2.7.3版本需要删除自带的汉化文件，否则可能会有过时汉化残留。具体做法为删除.minecraft/config/txloader中的forceload文件夹中____gtnhoverridenames和betterloadingscreen以外的所有文件夹
 
 PS：有时任务书无法正确汉化，可以尝试重载任务书，方法有两种：
 
