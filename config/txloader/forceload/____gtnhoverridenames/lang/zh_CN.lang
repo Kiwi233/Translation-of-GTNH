@@ -8,6 +8,7 @@ item.itemEngineBoost.name=推进引擎
 item.appliedenergistics2.ItemMaterial.EmptyStorageCell.name=ME存储外壳
 tile.appliedenergistics2.BlockCreativeEnergyCell.name=中子能源元件
 item.appliedenergistics2.ItemPart.PartCreativeEnergy.name=中子能源锚
+tile.appliedenergistics2.BlockCreativeEnergyController.name=ME中子注入控制器
 tile.for.alveary.2.name=蜂箱组克隆盒
 tile.for.alveary.3.name=蜂箱组风扇
 tile.for.alveary.4.name=蜂箱组加热器
@@ -53,10 +54,7 @@ HellBarkCase.name=地狱皮树展示盒
 tile.enderChest.name=私人末影箱子
 itemIrradiantReinforcedPlate.name=光辉强化铱铁合金板
 
-# Only For Chinese
-item.fieryIngot.name=炽热的钢锭
-entity.Railcraft.cart.tank.name=储罐车
-item.railcraft.cart.tank.name=储罐车
+
 
 # Localization Fixes for Block/Item Stats:
 
@@ -297,7 +295,7 @@ ic2.blockElectric.name=能量存储
 ic2.blockFenceIron.name=铁格栅
 ic2.blockFoam.name=建筑泡沫
 ic2.blockGenerator.name=发电机
-ic2.blockHarz.name=粘性树脂
+ic2.blockHarz.name=黏性树脂
 ic2.blockHeatGenerator.name=热能发电机
 ic2.blockIronScaffold.name=铁脚手架
 ic2.blockITNT.name=工业TNT
@@ -396,7 +394,7 @@ ic2.itemDust.name=粉
 ic2.itemDust2.name=粉
 ic2.itemDustSmall.name=小搓粉
 ic2.itemDynamite.name=炸药
-ic2.itemDynamiteSticky.name=粘性炸药
+ic2.itemDynamiteSticky.name=黏性炸药
 ic2.itemFertilizer.name=肥料
 ic2.itemFluidCell.name=通用流体单元
 ic2.itemFoamSprayer.name=建筑泡沫喷枪
@@ -404,7 +402,7 @@ ic2.itemFreq.name=遥控器
 ic2.itemFuelPlantBall.name=植物球
 ic2.itemFuelRod.name=燃料棒(空)
 ic2.itemGrinPowder.name=蛤蛤粉
-ic2.itemHarz.name=粘性树脂
+ic2.itemHarz.name=黏性树脂
 ic2.itemHops.name=啤酒花
 ic2.itemIngot.name=锭
 ic2.itemIronBlockCuttingBlade.name=切割锯片(铁)
@@ -655,5 +653,16 @@ tile.ztylBlock.name=Ztyl
 tile.zythBlock.name=Zyth
 tile.glaxx.name=染色玻璃
 
-wailaharvestability.toolclass.wrench=扳手
-wailaharvestability.toolclass.cutter=剪线钳
+# Alumite -> Obzinite renaming in GTNH
+block.brick.alumite.name=锌曜钢砖块
+block.fancybrick.alumite.name=精致锌曜钢砖块
+item.tconstruct.Materials.AlumiteIngot.name=锌曜钢锭
+item.tconstruct.Materials.AlumiteNugget.name=锌曜钢粒
+StorageMetals.Alumite.name=锌曜钢块
+item.tconstruct.bucket.Alumite.name=桶装熔融锌曜钢
+tile.fluid.molten.alumite.name=熔融锌曜钢
+LiquidMetal.Alumite.name=熔融锌曜钢
+fluid.alumite.molten=熔融锌曜钢
+material.alumite=锌曜钢
+item.universalSingularities.tinkersConstruct.alumite.name=锌曜钢奇点
+item.iguana.tcon.clayBucket.Alumite.name=黏土桶(熔融锌曜钢)
