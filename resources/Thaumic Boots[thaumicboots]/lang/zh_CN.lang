@@ -85,7 +85,7 @@ TaintedCore.1=虚空相关研究和心灵相关研究交织出了奇异的新特
 EMTCore.1=最近,你众多发现中......有意思的:一种看似平凡的能量,些许像闪电.<BR><BR>然而更深入的研究表明,它并不像想象的那样平凡!<BR><BR>相反,这种新的 "电" 似乎与自然中的vis能量本质上非常相似,但,又有点,不太一样,这是人造的.
 EMTCore.2=在这个过程中,你发现你能够创造出一双靴子奔跑在"电能"之上而非其原始奥能,充能过载的能力更是叹为观止,你还能进一步改进靴子的设计.<BR><BR>思索一下这种新能源还能应用于哪些领域......
 ExplorationsTainted.1=有关虚空的研究,你得到了独特的见解:虚空本身就是天体.<BR><BR>这个发现确实奇特.你开始好奇,其中是否蕴含与平凡位面类似的魔法能量,果然你发现了神奇的东西!与通俗的天体相似,虚空同样蕴含着原初魔法的特性;有一点不同:无法直接利用.<BR><BR>然而,通过合并虚空能量和宇宙能量,你又制作出两套靴子.保持怀疑,可能性是否可能会比你的想象力更丰富?
-ExplorationsCompat.1=在你对群星的研究之中,你发现了两种不同形式的天体能量,彗星之力和流星之力.然而,自从你发现了那种神秘粘合剂,你便想知道有没有办法将这两者能量结合起来...<BR><BR>嘿,还真行!从结果上来看,这两种不同的能量实际上惊人地相似.<BR><BR>这个结果或许还能推进得更深...
+ExplorationsCompat.1=在你对群星的研究之中,你发现了两种不同形式的天体能量,彗星之力和流星之力.然而,自从你发现了那种神秘黏合剂,你便想知道有没有办法将这两者能量结合起来...<BR><BR>嘿,还真行!从结果上来看,这两种不同的能量实际上惊人地相似.<BR><BR>这个结果或许还能推进得更深...
 EMTTainted.1=当你继续研究电力时,你注意到了一些有趣的事情,就像那些普通的魔法能量一样,电力也能和其他能量结合到一起.然而,有一条限制:它并不是直接与其他能量混合,而是将天然能量转化为人造形式.<BR><BR>在你将这一发现应用于虚空能量时,你发现它不仅可以靠电力来运行,而且同样地,它们既可以通过电力过载也可以通过虚空能量强化.<BR><BR>一个相当有趣的新发现...
 ExplorationsEMT.1=当你继续研究电力时,你注意到了一些有趣的事情,就像那些普通的魔法能量一样,电力也能和其他能量结合到一起.然而,有一条限制:它并不是直接与其他能量混合,而是将天然能量转化为人造形式.<BR><BR>在你将这一发现应用于天体能量时,你发现它不仅可以靠电力来运行,而且还可以进行过载来强化它们的自然能力.<BR><BR>一个相当有趣的新发现...
 SeasonalCore.1=当你研究术法现象时,你发现了一些奇怪的东西:在太阳历的某些部分,术法能量会出现爆发.<BR><BR>已经发现这些爆发会导致各种转变,例如把箱子变成礼物盒,以及在爆发结束后变回去.有趣的是,你成功地捕获了这种混沌的能量.<BR><BR>不过你还是好奇有没有办法将这些能量稳定下来...
@@ -103,12 +103,13 @@ keybinding.speedtoggle=调整速度增幅
 keybinding.jumptoggle=调整跳跃增幅
 keybinding.omnitoggle=调整全向移动
 keybinding.inertiatoggle=切换取消飞行惯性
+keybinding.incrementmodifier=调整增量修改器
 
 thaumicboots.jumpEffect=跳跃提升:
 thaumicboots.speedEffect=速度提升:
-thaumicboots.omniEffect=全能模式:
-thaumicboots.inertiaCancelingEffect=惰甲取消中：
-thaumicboots.inertiaCancelingConfigDisabledMessage=惰甲取消功能在配置中被禁用
+thaumicboots.omniEffect=全向移动模式:
+thaumicboots.inertiaCancelingEffect=取消飞行惯性：
+thaumicboots.inertiaCancelingConfigDisabledMessage=取消飞行惯性功能在配置中被禁用
 
 thaumicboots.activeStatetrue=已激活
 thaumicboots.activeStatefalse=已停用

@@ -101,6 +101,7 @@ item.mobAspect.name=灵魂源质
 item.mobAspect.condensed.name=稠密灵魂源质
 item.mobAspect.infused.name=注魔灵魂源质
 item.infusedSeeds.name=蕴魔种子
+item.infusedPotion.name=药水
 item.infusedPotion.Aer.name=风元药水
 item.infusedPotion.Ignis.name=火元药水
 item.infusedPotion.Terra.name=地元药水
@@ -152,7 +153,12 @@ tile.travelSlab.name=旅行者台阶
 tile.travelSlabFull.name=旅行者铺路石
 tile.travelStairs.name=旅行者楼梯
 tile.wardSlab.name=守卫者台阶
+tile.wardSlabFull.name=守卫者铺路石台阶
 tile.infusedFarmland.name=蕴魔耕地
+tile.gaseousLight.name=光明气
+tile.gaseousShadow.name=暗影气
+tile.infusedGrainBlock.name=蕴魔谷物
+tile.nitorGas.name=闪耀之光气体
 
 # Fire
 tile.fireWater.name=坎水之焰
@@ -518,7 +524,7 @@ ttresearch.page.ICHORCLOTH_BOOTS_GEM.0=你研究出一种方法,能够改造灵�
 # -- FELINE AMULET
 ttresearch.name.CAT_AMULET=猫神护身符
 ttresearch.lore.CAT_AMULET=别在茶餐厅和猫打架
-ttresearch.page.CAT_AMULET.0=没费多久功夫,你就想出法子让那些你憎恶的爬行者再也无法近身.<BR><BR>最终,利用爬行者畏惧猫的知识,你设计出了一枚能让爬行者避之如虎的护身符.不仅如此,这些可怜的家伙吓得发愣,都聚集不起火力自爆了.赞耶!装备在项链栏才有效.
+ttresearch.page.CAT_AMULET.0=没费多久功夫,你就想出法子让那些你憎恶的苦力怕再也无法近身.<BR><BR>最终,利用苦力怕畏惧猫的知识,你设计出了一枚能让苦力怕避之如虎的护身符.不仅如此,这些可怜的家伙吓得发愣,都聚集不起火力自爆了.赞耶!装备在项链栏才有效.
 
 # -- ICHORIUM TOOLS
 ttresearch.name.ICHOR_TOOLS=灵宝工具

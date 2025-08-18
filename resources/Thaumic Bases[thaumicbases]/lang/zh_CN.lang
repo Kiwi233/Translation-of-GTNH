@@ -12,6 +12,7 @@ tb.rec.enchantments.vaporising=附魔了蒸发的武器杀死生物时,有几率
 #blocks
 tile.quicksilverBlock.name=水银块
 tile.quicksilverBrick.name=水银砖块
+tile.crystalBlock.name=水晶块
 tile.crystalBlockfire.name=火之魔晶块
 tile.crystalBlockwater.name=水之魔晶块
 tile.crystalBlockearth.name=地之魔晶块
@@ -41,6 +42,7 @@ tile.glieonia.name=荧光花
 tile.briar.name=治愈草
 tile.tobacco.name=烟草
 tile.voidPlant.name=虚空植物
+tile.spike.name=钉
 tile.spikeiron.name=铁钉
 tile.spikethaumic.name=神秘钉
 tile.spikevoid.name=虚空钉
@@ -60,6 +62,7 @@ tile.TBoldLapis.name=远古青金石块
 tile.TBoldBricks.name=远古砖块
 tile.nodeManipulator.name=节点调节器
 
+tile.tb.slab..name=台阶
 tile.tb.slab.tile.TBoldLapis.name=远古青金石台阶
 tile.tb.slab.tile.TBoldIron.name=远古铁台阶
 tile.tb.slab.tile.TBoldGold.name=远古金台阶
@@ -69,6 +72,7 @@ tile.tb.slab.tile.TBoldBricks.name=远古石砖台阶
 tile.tb.slab.tile.TBoldCobblestoneMossy.name=远古苔石台阶
 tile.tb.slab.tile.eldritchArk.name=远古镶金黑曜石台阶
 
+tile.tb.crystalslab..name=魔晶台阶
 tile.tb.crystalslab.air.name=风之魔晶台阶
 tile.tb.crystalslab.water.name=水之魔晶台阶
 tile.tb.crystalslab.fire.name=火之魔晶台阶
@@ -80,9 +84,11 @@ tile.tb.crystalslab.tainted.name=腐化魔晶台阶
 
 tile.thaumicRelocator.name=扩展奥术悬浮台
 tile.tb.voidblock.name=虚空金属块
+tile.thaumicAnvil.name=神秘铁砧
 tile.thaumicAnvil.intact.name=神秘铁砧
 tile.thaumicAnvil.slightlyDamaged.name=轻微损坏的神秘铁砧
 tile.thaumicAnvil.veryDamaged.name=严重损坏的神秘铁砧
+tile.voidAnvil.name=虚空金属砧
 tile.voidAnvil.intact.name=虚空金属砧
 tile.voidAnvil.slightlyDamaged.name=轻微损坏的虚空金属砧
 tile.voidAnvil.veryDamaged.name=严重损坏的虚空金属砧
@@ -99,6 +105,7 @@ tile.enderTreeLeaves.name=末影树叶
 tile.enderPlanks.name=末影树木板
 
 #items
+item.resource.name=资源
 item.resourcenuggetthauminite.name=秘晶粒
 item.resourcethauminite.thauminite_ingot.name=秘晶锭
 item.resourcethaumium_wand_core.name=神秘杖芯
@@ -128,6 +135,7 @@ item.plaxSeeds.name=纤化种子
 item.metalleatSeeds.name=金属种子
 item.lucriteSeeds.name=炼金种子
 item.knoseSeed.name=神秘玫瑰芽
+item.knoseFragment..name=知识
 item.knoseFragment.fire.name=火之知识
 item.knoseFragment.aqua.name=水之知识
 item.knoseFragment.terra.name=地之知识
@@ -144,6 +152,7 @@ item.rosehipSyrup.name=玫瑰果浆
 
 item.greatwoodPipe.name=宏伟之木烟斗
 item.silverwoodPipe.name=银树烟斗
+item.tobacco.name=烟草堆
 item.tobacco.tobacco_pile.name=烟草堆
 item.tobacco.tobacco_eldritch.name=邪术烟草堆
 item.tobacco.tobacco_fighting.name=愤怒烟草堆
@@ -168,6 +177,7 @@ item.fluxFoci.name=法杖核心:咒波净化
 item.drainFoci.name=法杖核心:蒸发
 item.experienceFoci.name=法杖核心:经验
 
+item.nodeFoci..name=§e节点调节核心
 item.nodeFoci.speed.name=§e节点调节核心:速度
 item.nodeFoci.brightness.name=§e节点调节核心:明亮
 item.nodeFoci.destruction.name=§e节点调节核心:湮灭
@@ -207,7 +217,7 @@ tb.rec.simDup.page.0=你已经成功地掌握了炼金术复制的艺术!你的�
 
 tc.research_name.TB.OreDestruction=矿石分解
 tc.research_text.TB.OreDestruction=混沌过程
-tb.rec.oreDestr.page.0=掌握了混沌过程的知识之后,你发现了一个方法来处理矿石,然而这些矿石必须使用精准采集得到.这个过程需要更多的源质但是仅仅是混沌是不够的,如果不加入Praecantatio源质强化魔力碎片的话,碎片也会被粉碎.对应的矿石的原始源质也是必要的,否则碎片会在坩埚中被瞬间溶解.这是你可以达到的最好的混沌过程研究……仅仅在这个阶段……
+tb.rec.oreDestr.page.0=掌握了混沌过程的知识之后,你发现了一个方法来处理矿石,然而这些矿石必须使用精准采集得到.这个过程需要更多的要素但是仅仅是混沌是不够的,如果不加入Praecantatio源质强化魔力碎片的话,碎片也会被粉碎.对应的矿石的原始源质也是必要的,否则碎片会在坩埚中被瞬间溶解.这是你可以达到的最好的混沌过程研究……仅仅在这个阶段…… 
 
 tc.research_name.TB.Amber=琥珀制造
 tc.research_text.TB.Amber=被时间捕获!
@@ -223,7 +233,7 @@ tb.rec.cinnabar.page.0=每次你把银树原木分解为木板时总会产生疑
 
 tc.research_name.TB.SM=世界盐复制
 tc.research_text.TB.SM=这合理吗?
-tb.rec.sm.page.0=最近的研究让你得到了一个非常有趣的想法——世界盐是由具有所有原始源质的平衡碎片得到的.好吧,如果你给一个坩埚和所有的原始源质,能让世界盐在坩埚中呆一段时间吗?然而这样是不够的——世界盐太脆弱,在坩埚中会瞬间溶解,但是如果在坩埚中加入魔力源质,世界盐将会被强化到可以吸收额外的原始源质,之后你就会得到2堆世界盐了!
+tb.rec.sm.page.0=最近的研究让你得到了一个非常有趣的想法——世界盐是由具有所有原始要素的平衡碎片得到的.好吧,如果你给一个坩埚和所有的原始要素,能让世界盐在坩埚中呆一段时间吗?然而这样是不够的——世界盐太脆弱,在坩埚中会瞬间溶解,但是如果在坩埚中加入魔力源质,世界盐将会被强化到可以吸收额外的原始要素,之后你就会得到2堆世界盐了!
 
 tc.research_name.TB.AlchemyRestoration=炼金复原
 tc.research_text.TB.AlchemyRestoration=一次简单的提纯
@@ -231,7 +241,7 @@ tb.rec.alcRest.page.0=你发现了一种方法使某些物品更有条理.通过
 
 tc.research_name.TB.Backprocessing=炼金回溯
 tc.research_text.TB.Backprocessing=反向工程
-tb.rec.backProc.page.0=非常遗憾的是很多物品一旦分解之后是不能通过正常手段还原了……等一下,你是一个神秘使!你可以克服这个难题,甚至可以创造额外的资源!你已经解开了这个难题的秘密,之后你可以将一些物品变回原来的状态.把糖和仙人掌绿变回它们原始的状态很简单,然而,不寻常的材料则需要更多的努力.例如,您可以将一个烈焰粉变回烈焰棒的状态,但是这不仅仅需要Ordo,Ignis和Praecantatio源质来回溯烈焰粉,你还需要一些Potentia源质使它恢复活力,加入一些Permutatio源质来恢复它的性质,最后需要Fabrico源质将他们粘合在一起!
+tb.rec.backProc.page.0=非常遗憾的是很多物品一旦分解之后是不能通过正常手段还原了……等一下,你是一个神秘使!你可以克服这个难题,甚至可以创造额外的资源!你已经解开了这个难题的秘密,之后你可以将一些物品变回原来的状态.把糖和仙人掌绿变回它们原始的状态很简单,然而,不寻常的材料则需要更多的努力.例如,您可以将一个烈焰粉变回烈焰棒的状态,但是这不仅仅需要Ordo,Ignis和Praecantatio源质来回溯烈焰粉,你还需要一些Potentia源质使它恢复活力,加入一些Permutatio源质来恢复它的性质,最后需要Fabrico源质将他们黏合在一起!
 
 tc.research_name.TB.CrystalBlocks=晶簇块
 tc.research_text.TB.CrystalBlocks=从第二版而来!
@@ -243,7 +253,7 @@ tb.rec.smb.page.0=在学会如何复制世界盐之后,下一步就是如何把�
 
 tc.research_name.TB.Thauminite=秘晶锭
 tc.research_text.TB.Thauminite=更好的冶金
-tb.rec.thauminite.page.0=神秘使总是寻找一种更好的金属替代品.你现在一直在应用神秘锭……或许是时候进行进一步研究了.神秘锭可以使用更多的原始源质和Vitreus源质进一步加工.然而这种方法效率太低而且会造成一些神秘锭的损失——你也并不能找到解决这个问题的方法.但是这仍然让你找到了一种比神秘锭更好的金属锭.它几乎与钻石一般坚硬而且比神秘锭具有更好的魔法亲和力.它也更具魔力,能用于许多神秘锭无法应用的地方...
+tb.rec.thauminite.page.0=神秘使总是寻找一种更好的金属替代品.你现在一直在应用神秘锭……或许是时候进行进一步研究了.神秘锭可以使用更多的要素和Vitreus要素进一步加工.然而这种方法效率太低而且会造成一些神秘锭的损失——你也并不能找到解决这个问题的方法.但是这仍然让你找到了一种比神秘锭更好的金属锭.它几乎与钻石一般坚硬而且比神秘锭具有更好的魔法亲和力.它也更具魔力,能用于许多神秘锭无法应用的地方...
 
 tc.research_name.CAP_thauminite=秘晶杖端
 tc.research_text.CAP_thauminite=这里不需要注魔!
@@ -311,7 +321,7 @@ tb.rec.flaxium.page.0=这种植物十分有趣.你并没有创造出这种植物
 
 tc.research_name.TB.Glieonia=荧光花
 tc.research_text.TB.Glieonia=如何拼写这个名字?
-tb.rec.glieonia.page.0=神秘学中最炫的是什么?飞行!好吧,那么第二炫呢?法杖核心?WOW,那么第三炫...挖掘核心?真的吗?我们在讨论闪耀之光好吗?!不论如何,闪耀之光是如此令人惊讶,它能放出闪耀的光芒,制作神奇的物品!但是,有一点...它需要萤石来制作...一个睿智的神秘使能够精妙的解决这个问题!你已经成功培育出一种植物,它在收获时会掉落2份萤石粉.有趣的是这种花并不发出任何光芒,即便是成长完全之后...为什么会这样?
+tb.rec.glieonia.page.0=神秘学中最炫的是什么?飞行!好吧,那么第二炫呢?法杖核心?WOW,那么第三炫...挖掘核心?真的吗?我们在讨论闪耀之光好吗?!不论如何,闪耀之光是如此令人惊讶,它能放出闪耀的光芒,制作神奇的物品!但是,有一点...它需要荧石来制作...一个睿智的神秘使能够精妙的解决这个问题!你已经成功培育出一种植物,它在收获时会掉落2份荧石粉.有趣的是这种花并不发出任何光芒,即便是成长完全之后...为什么会这样?
 
 tc.research_name.TB.Briar=治愈草
 tc.research_text.TB.Briar=一位自然的药剂师
@@ -349,7 +359,7 @@ tb.rec.ttobacco.page.0=你甚至并不是十分确定为何你会发现它.但�
 
 tc.research_name.TB.Tobacco.Saturating=饱食烟草
 tc.research_text.TB.Tobacco.Saturating=抽烟=吃饭
-tb.rec.stobacco.page.0=你找到了一个方法来让你不感觉饿了.吸食注入了一些种子和一些原始源质的烟草会让你的大脑认为你的身体已经吃饱了.你可能会觉得不吃食物是一件挺危险的事,但是在紧急关头它可能会帮助你撑得更久一些.但是这也会给你的身体带来负面影响,所以你也要小心地使用它.
+tb.rec.stobacco.page.0=你找到了一个方法来让你不感觉饿了.吸食注入了一些种子和一些原始要素的烟草会让你的大脑认为你的身体已经吃饱了.你可能会觉得不吃食物是一件挺危险的事,但是在紧急关头它可能会帮助你撑得更久一些.但是这也会给你的身体带来负面影响,所以你也要小心地使用它.
 
 tc.research_name.TB.Tobacco.Sanity=心净烟草
 tc.research_text.TB.Tobacco.Sanity=这就是医生想要的
@@ -422,8 +432,9 @@ tc.research_text.TB.EntityDec=活生生的知识
 tb.rec.eDec.page.0=有时候神秘使会需要更多的知识来继续他的研究.当然,它可以探索这个世界或者使用解构工作台,但是还有其他方法吗?你已经成功创造了一个设备,它能够缓慢杀死它上面的生物,然后把得到的知识直接送入你的脑子中.成为它的'拥有者'也十分简单,只需要将他放入世界中然后点击它.然而知识传输是有距离限制的,如果距离太远,这些传送功率过大的知识有可能会损害你的心理健康.
 
 tc.research_name.TB.GoldenOak=神秘树木学
-tc.research_text.TB.GoldenOak=咬树皮的知识
-tb.rec.goldenOak.page.0=不仅仅是芦苇和花能够被魔力加工成新的东西!树木也具有这种潜能!然而它们自身已经足够强壮,因此它们会抵抗简单的魔力注入.但是注魔应该可以完成这个工作!你已经成功创造出了这种黄金橡树.这种树能够像普通橡树一样生长,它也会掉落苹果,但是这些苹果会变成金色!然而,它并不能得到带有魔法的金苹果.由于在注魔中使用了Greed源质,因此它想成为唯一一个吸收阳光和雨水的生物,这导致了它掉落树苗的概率大大下降了.由于某种魔法反常现象,(读作:这是GTNH特有的事)用剪刀破坏树叶只会掉落苹果.
+tc.research_text.TB.GoldenOak=啃食树皮的知识
+tb.rec.goldenOak.page.0=除了芦苇和花朵之外.还有许多植物也能被赋予魔力从而产生新的奇迹.树木蕴含着巨大的潜力,但其兼任的本质使他们对普通的魔力注入具有抗性.不过,注魔的力量足以突破这个限制!为了验证这个猜想,你创造了一颗黄金橡树,这种树能够像普通橡树一样生长,但若是结出苹果,但是这些苹果会金光闪闪!遗憾的是,附魔金苹果过于沉重,它的树枝承受不了.
+tb.rec.goldenOak.page.1=这棵树被贪婪源质所浸染,自私地紧抓着生命不放.它掉落的树苗比普通树木少,将阳光和水分都据为己有.由于魔法异常(注:这是GTNH独有的特性),它的树叶在被剪刀采集时不会正常掉落.使用带有精准采集附魔的工具可以正常收集树叶,但你会失去收获金苹果的机会.
 
 tc.research_name.TB.NodeMan=节点调节器
 tc.research_text.TB.NodeMan=完全掌控!
@@ -504,18 +515,15 @@ tb.rec.voidAnvil.page.1=虚空金属砧像神秘铁砧一样也不会有多次�
 
 tc.research_name.TB.EnderSapling=末影树
 tc.research_text.TB.EnderSapling=末地的记忆
-tb.rec.enderTree.page.0=你成功的将末地的知识与神秘自然中的树知识结合在一起.这棵注入了末地能量的树会把它脚下的普通方块变为末地之物——末地石.它也有几率把黑曜石从末地中带来,不过这个概率比较低.奇怪的是树下的世界看起来十分薄,以至于偶尔会有来自于末地的生物来到现实世界.然而那些大型的生物例如末影龙是不可能通过这样狭小的世界门.末影树的原木可以用来制作一种具有极高爆炸抵抗的木板.
+tb.rec.enderTree.page.0=你成功的将末地的知识与神秘自然中的树知识结合在一起.这棵注入了末地能量的树会把它脚下的普通方块变为末地之物——末地石与黑曜石.末影人你会被吸引至其树冠下聚集,或许是把它当作逃离默地的理想通道了.其他末地生物也可能会出现,但不用担心——末影龙不会来的.用它的原木做的木板非常稳定,拥有极高的爆炸抗性.
 
 tc.research_name.TB.NetherSapling=地狱树
 tc.research_text.TB.NetherSapling=烈焰升起!
-tb.rec.netherTree.page.0=你成功的将地狱门的知识与神秘树结合在了一起.结果你得到了一种新的树木,它能在它脚下打开一个微小的地狱门.这个传送门十分微小,以至于肉眼是无法看见的,但是地狱的烈焰已经足矣穿过它来到现实世界.因此,地狱树脚下的普通方块会被感染成为地狱的形态.来自地狱的生物也会偶尔穿过这个世界门.地狱树也具有地狱岩的特性,它不会被火焰所烧毁也不会将火焰扩散,但是地狱树上的火焰不会熄灭.
+tb.rec.netherTree.page.0=你成功的将地狱门的知识与神秘树结合在了一起.结果你得到了一种新的树木,它能在它脚下打开一个微小的地狱门——这些裂隙足以将周围的方块腐化为对应的下界变种.偶尔还会有些下届生物从这些隐蔽的传送门中溜出.该树木的原木和树叶具有地狱岩特性:既不会被烧毁也不会引燃周围,且一旦被点燃,火焰将永不熄灭.
 
 tc.research_name.TB.PeacefulSapling=和平树
 tc.research_text.TB.PeacefulSapling=更多生命
-tb.rec.peacefulTree.page.0=你发现所有的动物都会被光明所吸引.您也注意到它们可以从不同的地方冒出来.你研究了这个现象,然后成功创造了一种树,它能吸引所有种类的动物朝它走来.基于它生长的生物群系,不同的动物会随机出现在它的树叶之下.你需要将它们的数量控制一下,因为它们会远远不断的出现!
-
-#Research from TC4
-#no longer needed
+tb.rec.peacefulTree.page.0=你发现所有的动物都会被光明所吸引,就像凭空变出来的一样.通过细致研究,你培育出一棵能为被动的生物在树叶下聚集创造了理想的条件的树.所吸引的动物种类将与当地的生物群落相匹配.请注意:若不控制数量,它们会源源不断地涌现!
 
 #Enchantment researches
 tc.research_name.TB.ElderKnowledge=附魔:睿智
@@ -568,6 +576,7 @@ tile.tb.brazier.name=奥术火盆
 
 #Items
 item.tb.revolver.name=奥术左轮枪
+item.tb.bracelet.name=手镯
 item.tb.bracelet.iron=铁手镯
 item.tb.bracelet.gold=金手镯
 item.tb.bracelet.greatwood=宏伟之木手镯

@@ -1,6 +1,7 @@
 # -- Blocks --
 tile.WG_WallMirror.name=墙上的魔镜
 tile.WG_VoidWalkway.name=虚空走道
+tile.WG_StoneDevice.name=石制设备
 tile.WG_StoneDevice.etherealWall.name=虚无砖块
 tile.WG_StoneDevice.magicTileLock.name=奇异之锁
 tile.WG_StoneDevice.obsidianPlate.name=黑曜石板
@@ -11,6 +12,7 @@ tile.WG_StoneDevice.sarcophagus.name=石棺
 tile.WG_StoneDevice.timeStone.name=生长之石
 tile.WG_StoneDevice.blastFurnace.name=炼狱高炉
 
+tile.WG_WoodenDevice.name=木制设备
 tile.WG_WoodenDevice.spinningWheel.name=纺车
 tile.WG_WoodenDevice.loom.name=织机
 tile.WG_WoodenDevice.snowGen.name=神秘造雪机
@@ -21,6 +23,7 @@ tile.WG_WoodenDevice.cuttingTable.name=切割台
 tile.WG_WoodenDevice.saunaStove.name=神秘桑拿炉
 tile.WG_WoodenDevice.labelLibrary.name=要素标记库
 
+tile.WG_MetalDevice.name=金属设备
 tile.WG_MetalDevice.essentiaPump.name=源质泵
 tile.WG_MetalDevice.voidmetalBlock.name=虚空金属块
 tile.WG_MetalDevice.terraformer.name=奥术群系转化器
@@ -41,6 +44,7 @@ tile.WG_CustomAir.name=微光
 
 #
 # -- Items --
+item.WG_Material.name=原料
 item.WG_Material.threadSimple.name=纱线
 item.WG_Material.threadGold.name=金丝线
 item.WG_Material.threadThaumium.name=神秘丝线
@@ -63,12 +67,14 @@ item.WG_Material.gemstoneDust.name=宝石粉
 
 item.WG_Cluster.name=%1$s矿簇
 
+item.WG_Bag.name=口袋
 item.WG_Bag.normal.name=奇术口袋
 item.WG_Bag.void.name=虚空口袋
 item.WG_Bag.ender.name=末影口袋
 item.WG_Bag.hungry.name=饕餮口袋
 
 item.WG_ThaumiumShears.name=神秘剪刀
+item.WG_MagicFood.name=神秘食物
 item.WG_MagicFood.sweetwart.name=糖渍地狱疣
 item.WG_MagicFood.nethercake.name=地狱蛋糕
 item.WG_MagicFood.brainjerky.name=僵脑肉干
@@ -77,17 +83,21 @@ item.WG_AdvancedRobeLegs.name=秘法护腿
 
 item.WG_AdvancedScribingTools.name=发光笔与墨
 
+item.WG_Cloak.name=斗篷
 item.WG_Cloak.standard.name=斗篷
 item.WG_Cloak.storage.name=奇术斗篷
 item.WG_Cloak.raven.name=乌鸦斗篷
 item.WG_Cloak.spectral.name=幽灵斗篷
 item.WG_Cloak.wolf.name=野狼斗篷
 
+item.WG_Kama.name=短袍
 item.WG_Kama.standard.name=卡玛短袍
 item.WG_Kama.storage.name=奇术短袍
 item.WG_Kama.raven.name=乌鸦短袍
 item.WG_Kama.spectral.name=幽灵短袍
 item.WG_Kama.wolf.name=野狼短袍
+
+item.WG_Baubles.name=饰品
 
 #unused
 item.WG_EliteArmorHelm.ANGELIC_0.name=座天使头盔
@@ -116,8 +126,10 @@ item.WG_PrimordialBoots.name=元始靴子
 item.WG_Baubles.ring_primordial.name=元始指环
 item.WG_Baubles.ring_lifeProtection.name=生命保护指环
 
-item.WG_Baubles.shouldersDoublejump.name=炽天使肩铠
-item.WG_Baubles.shouldersKnockback.name=磐石肩铠
+item.WG_Baubles.charmEmpty.name=空的皮革护符
+item.WG_Baubles.vambraceEmpty.name=皮革护腕
+item.WG_Baubles.charmDoublejump.name=炽天使护符
+item.WG_Baubles.charmKnockback.name=磐石护符
 item.WG_Baubles.vambraceStrength.name=狂战士护腕
 item.WG_Baubles.vambraceHaste.name=迅捷护腕
 item.WG_Baubles.titleCrimsonCult.name=称号:血腥教徒
@@ -148,6 +160,8 @@ enchantment.wg.soulbound=灵魂绑定
 enchantment.wg.soultether=灵魂绑定
 #
 # -- Random bits of text --
+wg.config.activateKey=用于激活某些穿戴物品的快捷键。
+
 wg.chat.notyourbag=§7这个口袋属于§r %1$s! §7你不能打开它.§r
 wg.chat.bagunlocked=§7口袋已解锁,其他人可以打开.§r
 wg.chat.baglocked=§7口袋已锁定,除你以外没人能打开.§r
@@ -157,7 +171,10 @@ wg.gui.buttonSetNest=设置新巢穴
 wg.gui.buttonMigrate=回到巢穴
 wg.gui.noFeathersToMigrate=你没有回到巢穴需要的物品
 
-wg.desc.noGlide=无法滑翔
+wg.desc.noGlide=滑翔禁用
+wg.desc.glide=滑翔启用
+wg.desc.enableCloak=§7按下 §a%s1§7 来启用或禁用.
+wg.desc.cycleArmor=§7按住 §a%s1§7 然后按下 §a%s2§7 来循环此物品.
 
 wg.gui.visSize=Vis容量
 wg.gui.shiftForAspectList=§7按住§aShift§7查看源质列表§r
@@ -175,13 +192,13 @@ wg.desc.gemaversion=自然疏离:
 wg.desc.ctrlForAspectList=§7按住§aCtrl§7查看源质列表§r
 wg.desc.scanCompleted=已扫描
 
-wg.desc.gearSlot.tg.0=装备在§a斗篷§7栏
-wg.desc.gearSlot.tg.1=装备在§a肩甲§7栏
-wg.desc.gearSlot.tg.2=装备在§a臂甲§7栏
-wg.desc.gearSlot.tg.3=装备在§a头衔§7栏
-wg.desc.gearSlot.bauble.RING=装备在§a戒指§7栏
-wg.desc.gearSlot.bauble.BELT=装备在§a腰带§7栏
-wg.desc.gearSlot.bauble.AMULET=装备在§a项链§7栏
+wg.desc.gearSlot.bauble.Cloak=可装备于§a斗篷§7格
+wg.desc.gearSlot.bauble.Charm=可装备于§a护符§7格
+wg.desc.gearSlot.bauble.Gloves=可装备于§a手套§7格
+wg.desc.gearSlot.bauble.Title=可装备于§a头衔§7格
+wg.desc.gearSlot.bauble.Ring=可装备于§a指环§7格
+wg.desc.gearSlot.bauble.Belt=可装备于§a腰带§7格
+wg.desc.gearSlot.bauble.Amulet=可装备于§a护身符§7格
 
 wg.desc.filteredItems=接受物品:
 
@@ -192,7 +209,7 @@ wg.desc.primal=初始校准
 wg.desc.infusionStabilizer=可用作注魔祭坛的稳定物
 
 wg.gui.search=Search
-wg.chat.nodeContents.primal=该节点所含的元始源质: §eAer: %1$s§f, §2Terra: %2$s§f, §cIgnis: %3$s§f, §3Aqua: %4$s§f, §7Ordo: %5$s§f, §8Perditio: %6$s
+wg.chat.nodeContents.primal=该节点所含的元始要素: §eAer: %1$s§f, §2Terra: %2$s§f, §cIgnis: %3$s§f, §3Aqua: %4$s§f, §7Ordo: %5$s§f, §8Perditio: %6$s
 wg.chat.infusionWarning.pedestalHeight=位于%1$s, %2$s, %3$s的注魔基座不能高于注魔祭坛
 wg.chat.infusionWarning.pedestalPos=位于%1$s, %2$s, %3$s的基座与矩阵的水平距离不能超过8格
 wg.chat.infusionWarning.noPartnerItem=位于%1$s, %2$s, %3$s的基座缺少物品来维持对称
@@ -309,12 +326,16 @@ witchinggadgets_research_page.ADVANCEDROBES.r1=<IMG>witchinggadgets:textures/gui
 #-----------------------#
 witchinggadgets_research_name.WGBAUBLES=巫师装备
 witchinggadgets_research_text.WGBAUBLES=[WG]就像神奇的魔法
-witchinggadgets_research_page.WGBAUBLES.1=这几页看上去是从巫术装备商店取来的,实际上居然是魔法装备的制作图!§o所有的这些都可在Baubles或Traveller's Gear的装备栏中装备.TG默认的键位是'数字键7'.§r<BR>§l磐石肩铠:§r<BR>这些肩铠并没有设计得多么好看,保护作用也可以忽略不计.然而其中所蕴含的魔法能让你扎根于地面,从而不会被敌人的攻击所击退.§o赋予你60%的击退抗性.§r
-witchinggadgets_research_page.WGBAUBLES.2=§l狂战士护腕:§r<BR>这些覆盖着狼皮的护腕禁不住刀刃的攻击.但有了注入其中的魔力,就能让使用者如狼般的凶猛.另外,它们也是毛茸茸的.<BR>§o会让你的攻击伤害提升2点.§r
-witchinggadgets_research_page.WGBAUBLES.3=§l迅捷护腕:§r<BR>这些护腕由矮人中的神秘使所设计,能赋予你快速挖掘的能力.它们的效果随工作环境而变化,提升水下,空中以及对坚硬材料的挖掘速度.<BR>它们也会提升爬梯子的速度,以便你能快速从地下脱离.
-witchinggadgets_research_page.WGBAUBLES.4=§l炽天使肩铠:§r<BR>飞翔是许多人所向往的.让使用者飞行算是很高级的魔法了,但在空中继续跳跃还是力所能及的.<BR>这些肩铠会生成强力的魔法之翼,让你能在半空中进行第二次跳跃.
-witchinggadgets_research_page.WGBAUBLES.5=§l狙击指环:§r<BR>有些黑暗生物由于太过强大而最好不要和它们肉搏,因此和它们保持一定距离是一个明智的选择.使用狙击指环会使得这个任务更加容易.<BR>戴上这个指环的时候,你会提升拉开弓时候的移动速度.潜行时可以让你更容易瞄准一个目标.
-witchinggadgets_research_page.WGBAUBLES.6=§l贪婪指环:§r<BR>幸运万岁!但没人能一直保持好运气.你想出了一个办法来增加自己的运气,给戒指镶上一枚金币然后施以魔法.<BR>§o戴着这个指环时你的时运和抢夺等级就会提升2级.<BR>制作金币的附魔书所带的附魔种类不限.§r
+witchinggadgets_research_page.WGBAUBLES.0=这几页看上去是从巫术装备商店取来的,实际上居然是魔法装备的制作图!§o所有的这些都可在饰品栏中装备.§r <BR>§l 空的皮革护符:§r<BR>这个基础的护符随时可以被附魔.§r
+witchinggadgets_research_page.WGBAUBLES.1=§l皮革护腕:§r<BR>这些基础护腕已准备好接受进一步的改进.
+witchinggadgets_research_page.WGBAUBLES.2=§l磐石护符:§r<BR>这些肩铠并没有设计得多么好看,保护作用也可以忽略不计.然而其中所蕴含的魔法能让你扎根于地面,从而不会被敌人的攻击所击退，§o赋予你60%的击退抗性.§r
+witchinggadgets_research_page.WGBAUBLES.3=§l狂战士护腕:§r<BR>这些覆盖着狼皮的护腕禁不住刀刃的攻击.但有了注入其中的魔力,就能让使用者如狼般的凶猛.另外,它们也是毛茸茸的.<BR>§o会让你的攻击伤害提升2点.§r
+witchinggadgets_research_page.WGBAUBLES.4=§l迅捷护腕:§r<BR>这些护腕由矮人中的神秘使所设计,能赋予你快速挖掘的能力.它们的效果随工作环境而变化,提升水下,空中以及对坚硬材料的挖掘速度.<BR>它们也会提升爬梯子的速度,以便你能快速从地下脱离.
+witchinggadgets_research_page.WGBAUBLES.5=§l炽天使护符:§r<BR>飞行是许多人渴望拥有的能力,那是一种太过高级的魔法.不过你能在空中小跳一下.<BR>这个魔咒会召唤出一对强大的魔法翅膀,让你在空中进行第二次跳跃.
+witchinggadgets_research_page.WGBAUBLES.6=§l狙击指环:§r<BR>有些黑暗生物由于太过强大而最好不要和它们肉搏,因此和它们保持一定距离是一个明智的选择.使用狙击指环会使得这个任务更加容易.<BR>戴上这个指环的时候,你会提升拉开弓时候的移动速度.潜行时可以让你更容易瞄准一个目标.
+witchinggadgets_research_page.WGBAUBLES.7=§l贪婪指环:§r<BR>幸运万岁!但没人能一直保持好运气.你想出了一个办法来增加自己的运气,给戒指镶上一枚金币然后施以魔法.<BR>§o戴着这个指环时你的时运和抢夺等级就会提升2级.<BR>制作金币的附魔书所带的附魔种类不限.§r
+witchinggadgets_research_page.WGBAUBLES.8=§l 幸运金币:§r<BR>一枚被施加了魔法的幸运金币,随时可以使用.§r
+
 #
 witchinggadgets_research_name.CLOAK=斗篷
 witchinggadgets_research_text.CLOAK=[WG]飕飕!
@@ -420,7 +441,7 @@ witchinggadgets_research_page.SAUNASTOVE.2=如果你安装了EnviroMine,桑拿�
 #CRYSTALCAPSULE
 witchinggadgets_research_name.CRYSTALCAPSULE=水晶容器
 witchinggadgets_research_text.CRYSTALCAPSULE=[WG]威尼斯而来的爱
-witchinggadgets_research_page.CRYSTALCAPSULE.1=谁都能用桶!...然而,这并没有什么用.一些流体不能与平凡的桶共存,但即便是最热或最粘的物质都无法拒绝水晶容器.<BR>这些水晶体并非雕刻而成,而是由源质塑造而来,这也使得它们如水晶般剔透无瑕,并且不受其他物质的影响.<BR>§o使用起来和桶一样,但它对所有的流体方块都有效.§r
+witchinggadgets_research_page.CRYSTALCAPSULE.1=谁都能用桶!...然而,这并没有什么用.一些流体不能与平凡的桶共存,但即便是最热或最黏的物质都无法拒绝水晶容器.<BR>这些水晶体并非雕刻而成,而是由源质塑造而来,这也使得它们如水晶般剔透无瑕,并且不受其他物质的影响.<BR>§o使用起来和桶一样,但它对所有的流体方块都有效.§r
 
 
 
@@ -526,7 +547,7 @@ witchinggadgets_research_page.PRIMORDIALGREATAXE.1=元始巨斧可以轻而易�
 
 witchinggadgets_research_name.PRIMORDIALARMOR=元始护甲
 witchinggadgets_research_text.PRIMORDIALARMOR=[WG]双足坦克
-witchinggadgets_research_page.PRIMORDIALARMOR.1=元始护甲能为你提供绝佳的保护.它不仅能抵御许多伤害,还能接受符文附魔,让你能进一步强化它.它们的特殊效果取决于其元始亲和,这些效果也能在激活能力的菜单中开关.§o(默认键位:R)§r<BR>和要塞盔甲一样,它也能装上揭示之护目镜和其他的面具.
+witchinggadgets_research_page.PRIMORDIALARMOR.1=元始护甲能为你提供绝佳的保护.它不仅能抵御许多伤害,还能接受符文附魔,让你能进一步强化它.它们的特殊效果取决于其元始亲和,这些效果也能来回切换.§o(默认键位:Shift+右击)§r<BR>和要塞盔甲一样,它也能装上揭示之护目镜和其他的面具.
 witchinggadgets_research_page.PRIMORDIALARMOR.2=§l§n     元始亲和:     §r<BR>§nAer:§r射向你的任何抛射物都会被风所捕获然后推回射击者.<BR>§nTerra:§r增强护甲对穿透伤害的保护力.<BR>§nIgnis:§r极大地减少来自火焰和爆炸的伤害,必要时还能熄灭你身上的火.<BR>§nAqua:§r<BR>能治愈(腐)毒,失明,凋零和恶心这类轻微的不适症状.对扭曲效果无效.<BR>§nOrdo:§r所有基于扭曲的状态效果的程度和持续时间都会被减少.<BR>§nPerditio:§r对使用者的大部分攻击都会让攻击者陷入失明和缓慢的效果.
 #witchinggadgets_research_name.PRIMORDIALHELMET=Primordial Helm
 #witchinggadgets_research_text.PRIMORDIALHELMET=[WG] 
@@ -580,7 +601,7 @@ witchinggadgets_research_text.TERRAFORMFOCUS_RIVER=[WG]如生命一般的河流
 witchinggadgets_research_page.TERRAFORMFOCUS_RIVER.1=钓鱼是每个神秘使最喜欢的事情.这就是为什么他们通常喜欢住在河边.<BR>...<BR>给这个核心供应§bAqua§0源质.
 witchinggadgets_research_name.TERRAFORMFOCUS_OCEAN=群系核心:海洋
 witchinggadgets_research_text.TERRAFORMFOCUS_OCEAN=[WG]漂流
-witchinggadgets_research_page.TERRAFORMFOCUS_OCEAN.1=你为什么想要在你的房子里看到比河流更多的水呢? 海上的空阔是如此浪漫? 将你的河流核心升级至海洋等级然后享受水之爬行者们的热情招待吧.<BR>...<BR>只需供给此群系核心§bAqua§0源质你就能和你的爬行者新朋友愉快地玩耍了,顺便欣赏下这浪漫的景色吧.
+witchinggadgets_research_page.TERRAFORMFOCUS_OCEAN.1=你为什么想要在你的房子里看到比河流更多的水呢? 海上的空阔是如此浪漫? 将你的河流核心升级至海洋等级然后享受水之苦力怕们的热情招待吧.<BR>...<BR>只需供给此群系核心§bAqua§0源质你就能和你的苦力怕新朋友愉快地玩耍了,顺便欣赏下这浪漫的景色吧.
 witchinggadgets_research_name.TERRAFORMFOCUS_MAGIC=群系核心:魔法森林
 witchinggadgets_research_text.TERRAFORMFOCUS_MAGIC=[WG]这是某种魔力
 witchinggadgets_research_page.TERRAFORMFOCUS_MAGIC.1=这个世界充斥着魔法,但你从未见过集中的魔法之地,所以是时候创造一个完全的魔法群系了.<BR>...<BR>给这个核心供应§cSano§0源质,感受周围充盈的魔力吧.

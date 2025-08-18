@@ -19,7 +19,7 @@ fluid.bacterialsludge=菌泥
 
 # TOOLS
 item.deshPick.name=戴斯镐
-item.deshPickSlime.name=粘性戴斯镐
+item.deshPickSlime.name=黏性戴斯镐
 item.deshAxe.name=戴斯斧
 item.deshHoe.name=戴斯锄
 item.deshSpade.name=戴斯铲
@@ -57,7 +57,7 @@ tile.marsMachine.5.name=甲烷合成器
 tile.marsMachine.6.name=水电解器
 tile.hydrogenPipe.name=氢气管道
 tile.sludge.name=菌泥
-tile.creeperEgg.name=爬行者蛋
+tile.creeperEgg.name=苦力怕蛋
 tile.cavernVines.name=岩穴藤蔓
 
 # DECOBLOCKS
@@ -70,7 +70,7 @@ tile.slabGCHalf.marsBricksSlab.name=火星地牢砖台阶
 
 # GUI
 gui.choosePlanet.desc.mars=宜居#无氧气#重力:38%
-item.deshPickSlime.description.name=可用于回收爬行者怪蛋
+item.deshPickSlime.description.name=可用于回收苦力怕怪蛋
 gui.message.noEnergy.name=电力不足
 gui.message.noWater.name=水量不足
 gui.message.noBonemeal.name=骨粉不足
@@ -152,7 +152,7 @@ tile.slimelingEgg.description=黏滑怪蛋,一旦被玩家空手打碎,就会立
 tile.cryoChamber.description=冬眠舱使玩家能在白天睡觉,回复少量生命,但有冷却时间.
 tile.launchController.description=发射控制器用于设置发射动作,包括发射条件和终点,连接发射平台以自动发射.
 tile.terraformer.description=地形改造机用于给偏远的行星增添一些绿色,在提供正确的材料时生成如草,树和水.
-tile.creeperEgg.description=爬行者蛋会在火星地牢生成,爆炸后有惊喜.
+tile.creeperEgg.description=苦力怕蛋会在火星地牢生成,爆炸后有惊喜.
 tile.gasLiquefier.description=液化气,来自大气或容器.液化甲烷是不错的火箭燃料!
 tile.methaneSynthesizer.description=提供氢与碳就能制造出甲烷,进一步加工需要在气体液化机进行.
 tile.electrolyzer.description=将水转换成氢气(用于甲烷合成器)与氧气.
@@ -177,7 +177,7 @@ schematic.cargoRocket.name=自动货运火箭
 
 # ENTITIES
 entity.GalacticraftMars.CargoRocket.name=货运火箭
-entity.GalacticraftMars.CreeperBoss.name=进化爬行者之王
+entity.GalacticraftMars.CreeperBoss.name=进化苦力怕之王
 entity.GalacticraftMars.LandingBalloons.name=着陆气球
 entity.GalacticraftMars.Slimeling.name=黏滑怪
 entity.GalacticraftMars.Sludgeling.name=菌泥虫
