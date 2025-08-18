@@ -218,7 +218,7 @@ ingameinfoxml.tag.directionhud.desc=一个小型的材质化的方向HUD(显示�
 # gui - tag list - player potion
 ingameinfoxml.tag.potioneffect.desc=第x个药水效果名称.
 ingameinfoxml.tag.potionduration.desc=第x个药水效果的持续时间(单位为秒).
-ingameinfoxml.tag.potiondurationticks.desc=药水效果的持续时间(单位为游戏刻).
+ingameinfoxml.tag.potiondurationticks.desc=药水效果的持续时间(单位为tick).
 ingameinfoxml.tag.potionicon.desc=第x个药水效果的图标.
 ingameinfoxml.tag.potionlargeicon.desc=第x个药水效果的大图标.
 
@@ -297,7 +297,7 @@ ingameinfoxml.tag.gtnewore.desc=§etrue§r 以启用矿脉等距生成, §efalse
 
 # keys
 ingameinfoxml.key.category=InGame Info XML
-ingameinfoxml.key.toggle=切换覆盖
+ingameinfoxml.key.toggle=切换信息层
 
 # commands
 commands.ingameinfoxml.usage=/igi <reload|load|save|enable|disable|taglist|config> [文件名]

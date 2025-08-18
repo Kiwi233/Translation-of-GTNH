@@ -5,3 +5,9 @@ tile.amazingtrophies.trophy.unknownUsername.name.desc=颁发给 §c未知玩家
 tile.amazingtrophies.trophy.unknownUsername.time.desc=于 §6%1$tF %1$tT
 
 amazingtrophies.uuid.invalid=§c无效的 UUID！
+
+commands.trophy.usage=/trophy award <纪念雕像ID> [玩家] [额外描述] 或 /trophy list
+commands.trophy.award.success=成功将纪念雕像%1$s给予了%2$s
+commands.trophy.award.wrongTrophyID=纪念雕像%1$s不存在
+commands.trophy.list=已注册纪念雕像: %1$s
+commands.trophy.list.empty=无已注册的纪念雕像

@@ -50,6 +50,7 @@ tile.draconicevolution:energyCrystal2.name=能量收发器
 tile.draconicevolution:energyCrystal3.name=高级能量收发器
 tile.draconicevolution:energyCrystal4.name=无线能量收发器
 tile.draconicevolution:energyCrystal5.name=高级无线收发器
+tile.draconicevolution:dislocatorInhibitor.name=错位宝石抑制器
 
 
 //Item Information ----------------------------------------------------------------------------------------------------------------------------------------
@@ -291,10 +292,19 @@ info.de.manual.contributorsButton.txt=贡献者
 info.de.manual.contributorsButtonInfo.txt=那些对龙之研究有贡献的人
 info.de.shiftRightClickToActivate.txt=Shift + 右键来激活
 info.de.blockRange.txt=方块范围
+info.de.status.txt=状态
+info.de.statusActive.txt=激活
+info.de.statusInactive.txt=停用
+info.de.selfPickup.txt=拾取自己的掉落物
+info.de.selfPickupAlways.txt=总是
+info.de.selfPickupDelay.txt=延迟
+info.de.selfPickupNever.txt=从不
 
 info.de.manual.nav1.txt=导航提示
 info.de.manual.nav2.txt=按退格键(Backspace)回到上一页
 info.de.manual.nav3.txt=按住Shift快速浏览
+
+info.de.dislocatorInhibitor.txt=磁力屏蔽器
 
 //Energy Net
 info.de.modeIn.txt=模式：输入
@@ -307,6 +317,8 @@ info.de.wirelessConnections.txt=无线连接
 info.infusedObsidian.txt=这个方块可以抵抗凋灵
 
 enchantment.draconicevolution.reaperEnchant=收割者
+
+nei.recipe.reactor.category=反应堆
 
 //Achievements ----------------------------------------------------------------------------------------------------------------------------------------
 draconicevolution.achievementPage.name=龙之研究
@@ -442,6 +454,7 @@ key.toolConfig=工具和装甲配置 GUI
 key.toolProfileChange=更改工具配置
 key.toggleFlight=切换创造飞行模式
 key.toggleMagnet=开关物品错位器
+key.toggleMagnetSelfPickup=切换磁铁拾取功能
 
 //Damage ----------------------------------------------------------------------------------------------------------------------------------------
 death.attack.chaos=%1$s被混沌守卫撕裂
@@ -501,6 +514,12 @@ button.de.EffectiveOnSprint.name=有效的冲刺
 button.de.GogglesOfRevealing.name=神奇的感觉
 button.de.ApiaristArmor.name=养蜂员护甲
 button.de.NaturalistArmor.name=自然科学家视角
+button.de.HazmatElectrical.name=电气危险防护
+button.de.HazmatBiological.name=生物危害防护
+button.de.HazmatFrost.name=霜冻危害防护
+button.de.HazmatGas.name=气体危害防护
+button.de.HazmatHeat.name=高温危害防护
+button.de.HazmatRadiological.name=辐射危害防护
 button.de.BowArrowSpeedModifier.name=弓箭速率调整器
 button.de.BowAutoFire.name=自动开火
 button.de.BowArrowDamage.name=基本伤害
@@ -508,6 +527,8 @@ button.de.BowExplosionPower.name=爆炸性的力量
 button.de.BowShockWavePower.name=激波力量
 button.de.BowEnergyBolt.name=龙火之矢
 button.de.BowZoomModifier.name=放大
+button.de.Enabled.name=启用
+button.de.MagnetSneak.name=潜行时禁用
 
 button.de.reactorCharge.txt=反应堆充能
 button.de.reactorStart.txt=激活
@@ -650,6 +671,16 @@ gui.de.ShieldRecovery.txt=护甲回复
 gui.de.MoveSpeed.txt=移动速度
 gui.de.JumpBoost.txt=跳跃提升
 
+gui.de.dislocatorInhibitor.range.txt=范围：
+gui.de.dislocatorInhibitor.tooltip.range.increase.txt=增加范围
+gui.de.dislocatorInhibitor.tooltip.range.decrease.txt=减少范围
+gui.de.dislocatorInhibitor.tooltip.activity.always.txt=总是激活
+gui.de.dislocatorInhibitor.tooltip.activity.with.txt=红石信号激活
+gui.de.dislocatorInhibitor.tooltip.activity.without.txt=无红石信号时激活
+gui.de.dislocatorInhibitor.tooltip.activity.never.txt=总是停用
+gui.de.dislocatorInhibitor.tooltip.activity.cycle.txt=点击循环切换激活控制
+gui.de.dislocatorInhibitor.tooltip.whitelist.txt=过滤器内的物品不会被磁铁吸走
+gui.de.dislocatorInhibitor.tooltip.blacklist.txt=只有过滤器里的物品才会被磁铁吸走
 
 //Potions ----------------------------------------------------------------------------------------------------------------------------------------
 potion.de.effect.txt=效果

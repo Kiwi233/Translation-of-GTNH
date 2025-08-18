@@ -18,10 +18,11 @@ thaumicenergistics.block.essentia.vibration.chamber.name=源质谐振仓
 thaumicenergistics.block.distillation.encoder.name=蒸馏编码台
 
 #Cable parts
-thaumicenergistics.aeparts.essentia.ImportBus.name=源质输入总线
-thaumicenergistics.aeparts.essentia.ExportBus.name=源质输出总线
+thaumicenergistics.item.aeparts.name=源质总线/终端/接口/监视器
+thaumicenergistics.aeparts.essentia.ImportBus.name=ME源质输入总线
+thaumicenergistics.aeparts.essentia.ExportBus.name=ME源质输出总线
 thaumicenergistics.aeparts.essentia.levelemitter.name=源质发信器
-thaumicenergistics.aeparts.essentia.StorageBus.name=源质储存总线
+thaumicenergistics.aeparts.essentia.StorageBus.name=ME源质存储总线
 thaumicenergistics.aeparts.essentia.terminal.name=源质终端
 thaumicenergistics.aeparts.arcane.crafting.terminal.name=奥术合成终端
 thaumicenergistics.aeparts.vis.interface.name=Vis中继接口
@@ -30,26 +31,30 @@ thaumicenergistics.aeparts.essentia.storage.monitor.name=源质储存监控器
 thaumicenergistics.aeparts.essentia.conversion.monitor.name=源质交换监控器
 
 #Items
-thaumicenergistics.item.essentia.cell.1k.name=1k-ME源质存储元件
-thaumicenergistics.item.essentia.cell.4k.name=4k-ME源质存储元件
-thaumicenergistics.item.essentia.cell.16k.name=16k-ME源质存储元件
-thaumicenergistics.item.essentia.cell.64k.name=64k-ME源质存储元件
-thaumicenergistics.item.essentia.cell.256k.name=256k-ME源质存储元件
-thaumicenergistics.item.essentia.cell.1024k.name=1024k-ME源质存储元件
-thaumicenergistics.item.essentia.cell.4096k.name=4096k-ME源质存储元件
-thaumicenergistics.item.essentia.cell.16384k.name=16384k-ME源质存储元件
+item.itemCraftingAspect.name=源质
+thaumicenergistics.item.essentia.cell.name=ME源质存储元件
+thaumicenergistics.item.essentia.cell.1k.name=§61k§r-ME源质存储元件
+thaumicenergistics.item.essentia.cell.4k.name=§e4k§r-ME源质存储元件
+thaumicenergistics.item.essentia.cell.16k.name=§a16k§r-ME源质存储元件
+thaumicenergistics.item.essentia.cell.64k.name=§b64k§r-ME源质存储元件
+thaumicenergistics.item.essentia.cell.256k.name=§9256k§r-ME源质存储元件
+thaumicenergistics.item.essentia.cell.1024k.name=§d1024k§r-ME源质存储元件
+thaumicenergistics.item.essentia.cell.4096k.name=§c4096k§r-ME源质存储元件
+thaumicenergistics.item.essentia.cell.16384k.name=§516384k§r-ME源质存储元件
 thaumicenergistics.item.essentia.cell.quantum.name=ME源质量子存储元件
 thaumicenergistics.item.essentia.cell.singularity.name=ME源质数字奇点元件
 thaumicenergistics.item.essentia.cell.creative.name=魔导源质存储元件
 thaumicenergistics.item.storage.casing.name=ME源质存储外壳
-thaumicenergistics.item.storage.component.1k.name=1k-ME源质存储组件
-thaumicenergistics.item.storage.component.4k.name=4k-ME源质存储组件
-thaumicenergistics.item.storage.component.16k.name=16k-ME源质存储组件
-thaumicenergistics.item.storage.component.64k.name=64k-ME源质存储组件
-thaumicenergistics.item.storage.component.256k.name=256k-ME源质存储组件
-thaumicenergistics.item.storage.component.1024k.name=1024k-ME源质存储组件
-thaumicenergistics.item.storage.component.4096k.name=4096k-ME源质存储组件
-thaumicenergistics.item.storage.component.16384k.name=16384k-ME源质存储组件
+thaumicenergistics.item.storage.component.name=ME源质存储组件
+thaumicenergistics.item.storage.component.1k.name=§61k§r-ME源质存储组件
+thaumicenergistics.item.storage.component.4k.name=§e4k§r-ME源质存储组件
+thaumicenergistics.item.storage.component.16k.name=§a16k§r-ME源质存储组件
+thaumicenergistics.item.storage.component.64k.name=§b64k§r-ME源质存储组件
+thaumicenergistics.item.storage.component.256k.name=§9256k§r-ME源质存储组件
+thaumicenergistics.item.storage.component.1024k.name=§d1024k§r-ME源质存储组件
+thaumicenergistics.item.storage.component.4096k.name=§c4096k§r-ME源质存储组件
+thaumicenergistics.item.storage.component.16384k.name=§516384k§r-ME源质存储组件
+thaumicenergistics.item.material.name=材料
 thaumicenergistics.item.material.diffusion.core.name=扩散核心
 thaumicenergistics.item.material.coalescence.core.name=聚集核心
 thaumicenergistics.item.material.iron.gear.name=铁齿轮
@@ -63,8 +68,8 @@ thaumicenergistics.item.cell.microscope.name=元件显微镜
 #Tooltips
 thaumicenergistics.tooltip.itemstack.details=按住§eCTRL§f查看详细信息.
 thaumicenergistics.tooltip.essentia.cell.contains=包含
-thaumicenergistics.tooltip.essentia.cell.bytes=%s / %s 字节已使用.
-thaumicenergistics.tooltip.essentia.cell.types=%s / %s 源质类型储存.
+thaumicenergistics.tooltip.essentia.cell.bytes=字节已使用.
+thaumicenergistics.tooltip.essentia.cell.types=源质类型储存.
 thaumicenergistics.tooltip.button.void=允许清空
 thaumicenergistics.tooltip.button.void.disabled=不清空源质
 thaumicenergistics.tooltip.button.void.allowed=罐子溢满时清空源质
@@ -120,7 +125,7 @@ thaumicenergistics.research_page.TESTORAGE.2=§l组件§r<BR>存储组件以数�
 tc.research_name.thaumicenergistics.TEIO=数位化源质运输
 tc.research_text.thaumicenergistics.TEIO=即时运输源质.
 thaumicenergistics.research_page.TEIO.1=现在你已经知道了如何数字化源质,是时候投入实际使用了.<LINE>§l输入&输出§r<BR>通过组合恰当的核心,源质管道与源质罐子你就能输入或输出网络内的源质储存.源质过滤管道的使用让你能设置可输送的源质类型.
-thaumicenergistics.research_page.TEIO.2=§l储存总线§r<BR>将输入和输出总线并入一个设备中,让你像使用网络储存一样使用外部的源质容器.<BR>和储存一样,总线还可以使用虚空罐子或者物质聚合器来清除多余的源质.若使用虚空罐子,你需要在GUI中设定允许使用虚空罐子.在这里强烈建议为存储总线设定低优先级.
+thaumicenergistics.research_page.TEIO.2=§l存储总线§r<BR>将输入和输出总线并入一个设备中,让你可以将外部的源质容器读取到网络中.<BR>除了存储之外,总线还可以使用虚空罐子或者物质聚合器来清除多余的源质.若使用虚空罐子,你需要在GUI中设定允许使用虚空罐子.在这里强烈建议为存储总线设定低优先级.
 
 # Research Arcane crafting terminal
 tc.research_name.thaumicenergistics.TEARCANETERM=奥术合成终端
@@ -196,7 +201,7 @@ tc.research_name.thaumicenergistics.TEESSVIBCMBR=源质谐振仓
 tc.research_text.thaumicenergistics.TEESSVIBCMBR=源质驱动网络
 thaumicenergistics.research_page.TEESSVIBCMBR.1=直到现在你的网络所需的能量还是要依赖§l谐振仓§r燃烧物品.是时候改变这一切了!<BR>你造出了一台可以释放源质中的能量的设备,它可以为谐振仓提供能量.现在只需要蒸馏出§lIgnis§r或§lPotentia§r源质,你就可以仅靠烧物品来驱动你的网络了.<BR>不过要注意一点,它也有和普通谐振仓一样的限制:若网络中有足够能源,它就会降低输出以避免浪费,但只要还有源质它就会一直反应下去.
 thaumicenergistics.research_page.TEESSVIBCMBR.2=§l§n操作§r<BR>将诸如煤炭之类的物品分解,以得到Ignis或Potentia源质,这些源质可以为你带来更多的能量.你最初的估计是,将煤炭分解成源质再使用源质谐振仓供能,相比于直接烧煤,可以带来约350%的效率提升.Potentia源质似乎比Ignis源质更具有开发潜力.<BR>§l源质谐振仓§r在没有源质时,可根据实际情况智能调整对源质的需求,将需求量稳定在一个正常的水平上.当存有源质时,它只会请求更多其存有的源质.
-thaumicenergistics.research_page.TEESSVIBCMBR.3=打开GUI后,其GUI会显示当前存储的源质种类,源质数量,正在处理的源质,剩余时间以及当前产能等级.<LINE>§l§n备注§r<BR>§l源质谐振仓§r可置于§l源质终端§r中以快速填装源质.<BR>§l源质输出总线§r,§l源质储存总线§r和源质管道都可以为§l源质谐振仓§r源源不断提供源质.
+thaumicenergistics.research_page.TEESSVIBCMBR.3=打开GUI后,其GUI会显示当前存储的源质种类,源质数量,正在处理的源质,剩余时间以及当前产能等级.<LINE>§l§n备注§r<BR>§l源质谐振仓§r可置于§l源质终端§r中以快速填装源质.<BR>§l源质输出总线§r,§l源质存储总线§r和源质管道都可以为§l源质谐振仓§r源源不断提供源质.
 
 # Research Distillation Pattern Encoder
 tc.research_name.thaumicenergistics.TEDISTILLATIONPATTERNENCODER=蒸馏编码台

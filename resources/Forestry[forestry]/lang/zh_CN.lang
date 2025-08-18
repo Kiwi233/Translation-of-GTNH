@@ -171,6 +171,7 @@ for.gui.imprinter.name=染色体变换仪
 for.gui.inactive=隐性性状
 for.gui.life=生命
 for.gui.lifespan=寿命
+for.gui.none=无
 for.gui.normal=一般
 for.gui.jubilance=愉悦度:%s
 
@@ -438,7 +439,7 @@ item.cratedCarrots.name=装箱的胡萝卜
 item.cratedCharcoal.name=装箱的木炭
 item.cratedCherry.name=装箱的樱桃
 item.cratedChestnut.name=装箱的栗子
-item.cratedClay.name=装箱的粘土
+item.cratedClay.name=装箱的黏土
 item.cratedCoal.name=装箱的煤
 item.cratedCobblestone.name=装箱的圆石
 item.cratedCocoaComb.name=装箱的可可蜂窝
@@ -451,7 +452,7 @@ item.cratedDirt.name=装箱的泥土
 item.cratedDrippingCombs.name=装箱的滴水蜂窝
 item.cratedFertilizer.name=装箱的肥料
 item.cratedFrozenCombs.name=装箱的冻结蜂窝
-item.cratedGlowstone.name=装箱的谷神星萤石粉
+item.cratedGlowstone.name=装箱的谷神星荧石粉
 item.cratedGravel.name=装箱的砂砾
 item.cratedHoneycombs.name=装箱的蜜蜂蜂窝-
 item.cratedHoneydew.name=装箱的蜂蜜汁
@@ -519,7 +520,7 @@ item.cratedRedSand.name=装箱的红沙
 item.cratedRedstone.name=装箱的红石
 item.cratedReeds.name=装箱的甘蔗
 item.cratedRefractoryWax.name=装箱的耐火蜂蜡
-item.cratedResin.name=装箱的粘性树脂
+item.cratedResin.name=装箱的黏性树脂
 item.cratedRoyalJelly.name=装箱的蜂王浆
 item.cratedRubber.name=装箱的橡胶
 item.cratedSand.name=装箱的沙子
@@ -754,6 +755,7 @@ item.for.naturalistHelmet.name=眼镜
 item.for.oakStick.name=浸渍木棍
 item.for.peat.name=泥炭
 item.for.phosphor.name=荧光粉
+item.for.phosphoricIodineCapsule.name=碘化磷胶囊
 item.for.pipette.name=移液管
 
 item.for.pollenFertile.name=肥沃的花粉
@@ -765,7 +767,7 @@ item.for.propolis.name=蜂胶
 item.for.propolis.normal.name=蜂胶
 item.for.propolis.pulsating.name=脉动蜂胶
 item.for.propolis.silky.name=丝滑蜂胶
-item.for.propolis.sticky.name=粘性蜂胶
+item.for.propolis.sticky.name=黏性蜂胶
 
 item.for.refractoryEthanol.name=耐火乙醇胶囊
 item.for.refractoryBiomass.name=耐火生物质胶囊
@@ -1298,7 +1300,7 @@ tile.for.candle.lit.name=蜡烛(发光)
 tile.for.candle.stump.name=蜡烛(熄灭)
 
 tile.for.stump.name=蜡烛残根
-tile.for.stump.0.name=蜡烛
+tile.for.stump.0.name=蜡烛残根
 
 ####################
 # MULTIBLOCK
@@ -1586,7 +1588,7 @@ tile.for.mushroom.1.name=蘑菇
 ####################
 
 item.for.serumGE.name=血清
-item.for.caterpillarGE.name=毛虫
+item.for.caterpillarGE.name=幼虫
 item.for.butterflyGE.name=蝴蝶
 entity.Forestry.butterflyGE.name=蝴蝶
 
@@ -1638,7 +1640,7 @@ for.butterflies.species.saturniidae.atlas=乌柏巨蚕蛾
 for.gui.flutterlyzer=蝴蝶分析仪
 for.gui.flutterlyzer.help=提供蜂蜜滴或蜂蜜汁来安抚这些躁动的蝴蝶。
 for.gui.loot.butterfly=蝴蝶可能的产物
-for.gui.loot.caterpillar=毛虫可能的产物
+for.gui.loot.caterpillar=幼虫可能的产物
 
 for.lepidopterology.effect.none=无
 
@@ -1977,7 +1979,7 @@ nei.subsets.Forestry.Bees.Queens=蜂后
 nei.subsets.Forestry.Blocks=方块
 nei.subsets.Forestry.Butterflies=蝴蝶
 nei.subsets.Forestry.Butterflies.Butterflies=蝴蝶
-nei.subsets.Forestry.Butterflies.Caterpillars=毛虫
+nei.subsets.Forestry.Butterflies.Caterpillars=幼虫
 nei.subsets.Forestry.Butterflies.Serums=血清
 nei.subsets.Forestry.Items=物品
 nei.subsets.Forestry.Trees=树木

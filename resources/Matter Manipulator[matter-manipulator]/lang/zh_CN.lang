@@ -1,0 +1,178 @@
+
+tile.air.name=空气
+
+item.itemMatterManipulator0.name=原型物质操纵者
+item.itemMatterManipulator1.name=物质操纵者 MKI
+item.itemMatterManipulator2.name=物质操纵者 MKII
+item.itemMatterManipulator3.name=物质操纵者 MKIII
+
+item.metaitem.0.name=物质操纵者 Plan
+item.metaitem.1.name=原型物质操纵者能量核心
+item.metaitem.2.name=原型物质操纵者‘处理器’核心
+item.metaitem.3.name=原型物质操纵者传送核心
+item.metaitem.4.name=原型物质操纵者框架
+item.metaitem.5.name=原型物质操纵者透镜组件
+item.metaitem.6.name=物质操纵者能量核心 MKI
+item.metaitem.7.name=物质操纵者处理器核心 MKI
+item.metaitem.8.name=物质操纵者传送核心 MKI
+item.metaitem.9.name=物质操纵者框架 MKI
+item.metaitem.10.name=物质操纵者透镜组件 MKI
+item.metaitem.11.name=物质操纵者能量核心 MKII
+item.metaitem.12.name=物质操纵者处理器核心 MKII
+item.metaitem.13.name=物质操纵者传送核心 MKII
+item.metaitem.14.name=物质操纵者框架 MKII
+item.metaitem.15.name=物质操纵者透镜组件 MKII
+item.metaitem.16.name=物质操纵者能量核心 MKIII
+item.metaitem.17.name=物质操纵者处理器核心 MKIII
+item.metaitem.18.name=物质操纵者传送核心 MKIII
+item.metaitem.19.name=物质操纵者框架 MKIII
+item.metaitem.20.name=物质操纵者透镜组件 MKIII
+item.metaitem.21.name=物质操纵者ME下行链路
+item.metaitem.22.name=物质操纵者量子下行链路
+item.metaitem.23.name=空白的操纵者升级
+item.metaitem.24.name=操纵者能量通道升级
+item.metaitem.24.desc=允许物质操纵者 MKIII 从量子上行链路上的激光靶仓或多A能源仓汲取能量
+item.metaitem.25.name=操纵者挖掘升级
+item.metaitem.25.desc=允许原型物质操纵者移除方块
+item.metaitem.26.name=操纵者传送辅助升级
+item.metaitem.26.desc=双倍操纵者放置速率
+item.metaitem.27.name=操纵者自适应线束升级
+item.metaitem.27.desc=操纵者的能量消耗减少 50%
+
+mm.upgrade.hint=与以下任意一个操纵者合成以安装此升级
+
+mm.tooltip.voltage=%s / %s EU - 电压：%s
+mm.tooltip.installed_upgrades=已安装升级：
+
+mm.structure.hatch-info=任何 %s 机械方块
+mm.structure.hatch-dots=（点 %s）
+
+# GUI
+mm.gui.set_mode=设置模式
+mm.gui.set_remove_mode=设置移除模式
+mm.gui.remove_none=不移除
+mm.gui.remove_replaceable=移除可更换
+mm.gui.remove_all=移除所有
+mm.gui.geometry=几何
+mm.gui.moving=移动
+mm.gui.copying=复制中
+mm.gui.exchanging=交换中
+mm.gui.cables=线缆
+mm.gui.select_blocks=选择方块
+mm.gui.set_corners=设置角
+mm.gui.set_edges=设置边
+mm.gui.set_faces=设置面
+mm.gui.set_volumes=设置体积
+mm.gui.set_all=设置所有
+mm.gui.clear_all=清除所有
+mm.gui.set_shape=设置形状
+mm.gui.line=线
+mm.gui.cube=立方
+mm.gui.sphere=球体
+mm.gui.cylinder=圆柱
+mm.gui.move_coords=移动坐标
+mm.gui.move_coord_a=移动坐标A
+mm.gui.move_all=移动所有
+mm.gui.move_coord_b=移动坐标B
+mm.gui.move_here=移动到这里
+mm.gui.mark_copy=标记复制
+mm.gui.edit_stack=编辑堆叠
+mm.gui.reset=重置
+mm.gui.mark=标记
+mm.gui.planning=规划中
+mm.gui.cancel_auto_plans=取消自动计划
+mm.gui.plan_all_auto=计划（全部，自动）
+mm.gui.plan_all_manual=计划（全部，手动）
+mm.gui.clear_manual_plans=清楚手动计划
+mm.gui.plan_missing_manual=计划（缺失，手动）
+mm.gui.plan_missing_auto=计划（缺失，自动）
+mm.gui.edit_transform=编辑变换
+mm.gui.mark_cut=标记剪切
+mm.gui.mark_paste=标记粘贴
+mm.gui.edit_replace_whitelist=编辑替换白名单
+mm.gui.clear=清除
+mm.gui.add_block=添加方块
+mm.gui.set_block=设置方块
+mm.gui.set_block_to_replace_with=设置要替换的方块
+mm.gui.set_cable=设置线缆
+
+# InfoMessage
+
+mm.info.error.out_of_eu=物质操纵者EU耗尽。
+mm.info.error.could_not_place=无法放置剩余的%s个方块。
+mm.info.finished_placing=放置方块完成。
+mm.info.warning.could_not_find=找不到物品，将暂时跳过%d个方块：
+mm.info.placed_remaining=放置了%s个方块（剩余%s个）
+mm.info.warning=方块%d，%d，%d%s出现警告：%s
+mm.info.error=方块%d，%d，%d%s出现错误：%s
+mm.info.error.could_not_move_block=无法移动方块 X=%d，Y=%d，Z=%d：%s
+mm.info.error.could_not_move_protected_block=无法移动受保护的方块 X=%d，Y=%d，Z=%d：%s
+mm.info.error.could_not_move_invulnerable_block=无法移动无敌状态的初始方块X=%d，Y=%d，Z=%d：%s
+mm.info.error.could_not_move_blocked_block=目标位置被阻挡，初始方块X=%d，Y=%d，Z=%d：%s
+mm.info.process_move=移动了%s个方块（剩余%s个）
+mm.info.finished_move=完成移动方块。
+mm.info.warning.protected_area=你试图在受保护区域破坏/放置方块！
+mm.info.warning.not_find_container_for_fluid=无法为流体找到容器（它已被清空）：
+mm.info.error.could_not_push_items_to_uplink=无法将物品推送至上行链路：
+mm.info.error.could_not_push_fluids_to_uplink=无法将流体推送至上联链路：
+mm.info.error.could_not_request_items_from_uplink=无法从上行链路请求物品：
+mm.info.added=已将%s添加至%s
+mm.info.set=将%s设置为：%s
+mm.info.set_block_to_replace_with=将方块替换为：%s
+mm.info.added_block_to_exchange_whitelist=已添加方块至交换白名单：%s
+mm.info.set_exchange_whitelist_to_only_contain=设置交换白名单仅包含：%s
+mm.info.set_cable=设置线缆为：%s
+mm.info.error.cannot_mark_copy=无法标记数组：复制区域无效
+mm.info.error.cannot_mark_paste=无法标记数组：粘贴坐标无效
+mm.info.new_virtual_me_pattern=已将名为“%s”的新虚拟ME样板推送至上行链路。
+mm.info.error.craft_failed=计划%s的制作失败。
+mm.info.craft_finished=“%s”已完成。
+mm.info.cleared_all_plans_and_pending_jobs=已清除所有计划并取消待处理的制作任务。
+mm.info.cleared_your_manual_plans=已清除您的手动计划。
+mm.info.cleared_your_plans_and_craft=清除了你的自动计划并取消了它们的制作任务。
+mm.info.submitted_job=已提交计划'%s'的作业。
+mm.info.error.must_have_copy_region=必须有标记的复制区域。
+mm.info.error.must_have_paste_region=必须有标记的粘贴区域以检测缺失物品。
+mm.info.required_items=所需物品：
+mm.info.not_need_creating_pattern=无需创建样板，因为所有必需的项目都已存在。
+mm.info.error.not_connected=操纵者未连接到上行链路：无法创建虚拟样板
+mm.info.error.must_look_at_block=你必须看向一个方块才能使用此命令。
+mm.info.error.property_not_found=找不到属性。
+mm.info.properties=属性：
+mm.info.none=无
+mm.info.error.error_setting_property=设置属性时出错：
+
+# Transform
+mm.transform.info=翻转：%s\n向上：%s\n向前：%s
+mm.transform.button.rotate_x-=旋转 X-
+mm.transform.button.rotate_x+=旋转 X+
+mm.transform.button.rotate_y-=旋转 Y-
+mm.transform.button.rotate_y+=旋转 Y+
+mm.transform.button.rotate_z-=旋转 Z-
+mm.transform.button.rotate_z+=旋转 Z+
+mm.transform.button.flip_x=翻转 X
+mm.transform.button.flip_y=翻转 Y
+mm.transform.button.flip_z=翻转 Z
+mm.transform.button.reset=重置
+mm.transform.header.copy=复制
+mm.transform.header.copy_a=复制 (A)
+mm.transform.header.copy_b=复制（B）
+mm.transform.header.paste=粘贴
+mm.transform.header.stacking=叠加中
+
+# Keybindings
+key.mm=物质操纵者
+key.mm-ctrl=Ctrl
+key.mm-cut=标记剪切
+key.mm-copy=标记复制
+key.mm-paste=标记粘贴
+key.mm-reset=重置坐标
+
+# Config
+interaction=交互
+rendering=渲染
+debug=Debug
+building=建筑
+
+# NEI
+mm.recipe.upgrades=操纵者升级

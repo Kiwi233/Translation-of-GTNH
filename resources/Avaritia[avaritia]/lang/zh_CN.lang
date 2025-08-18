@@ -23,7 +23,7 @@ item.singularity_lead.name=铅奇点
 item.singularity_silver.name=银奇点
 item.singularity_nickel.name=镍奇点
 item.singularity_enderium.name=末影锭奇点
-item.singularity_clay.name=粘土奇点
+item.singularity_clay.name=黏土奇点
 item.infinity_pickaxe.name=世界崩解之镐
 item.infinity_sword.name=寰宇支配之剑
 item.infinity_shovel.name=星球吞噬之铲
@@ -69,7 +69,9 @@ tile.alfheim_deadrock3.name=裂死岩砖
 tile.alfheim_deadrock4.name=錾制死岩砖
 #
 # Tooltips
-tooltip.armok.desc=手持时可存储无限的原始生命本质。
+tooltip.armok.desc=当手持或置于祭坛中时
+tooltip.armok.desc2=始终存储有等同上限的原始生命本质。
+tooltip.armok.capacity=容量: %,d LP
 tooltip.crystal_matrix_ingot.desc=这甚至不是最终形态。
 tooltip.neutron_pile.desc=尽量不要去想它。
 tooltip.neutron_nugget.desc=大约3560万吨吧。
