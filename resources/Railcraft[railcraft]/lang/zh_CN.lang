@@ -212,10 +212,12 @@ item.railcraft.nugget.lead.name=铅粒
 item.railcraft.nugget.steel.name=钢粒
 item.railcraft.nugget.tin.name=锡粒
 
-item.railcraft.part.bleached.clay.name=漂白粘土
+item.railcraft.part.bleached.clay.name=漂白黏土
+item.railcraft.part.circuit.name=电路板
 item.railcraft.part.circuit.controller.name=控制器电路
 item.railcraft.part.circuit.receiver.name=接收器电路
 item.railcraft.part.circuit.signal.name=信号电路
+item.railcraft.part.gear.name=齿轮
 item.railcraft.part.gear.bushing.name=锡齿轮轴套
 item.railcraft.part.gear.gold.plate.name=金板齿轮
 item.railcraft.part.gear.iron.name=铁齿轮
@@ -225,16 +227,19 @@ item.railcraft.part.plate.iron.name=铁板
 item.railcraft.part.plate.lead.name=铅板
 item.railcraft.part.plate.steel.name=钢板
 item.railcraft.part.plate.tin.name=锡板
+item.railcraft.part.rail.name=轨道
 item.railcraft.part.rail.advanced.name=高级导轨
 item.railcraft.part.rail.electric.name=电力导轨
 item.railcraft.part.rail.reinforced.name=强化导轨
 item.railcraft.part.rail.speed.name=高速导轨
 item.railcraft.part.rail.standard.name=标准导轨
 item.railcraft.part.rail.wood.name=木质导轨
+item.railcraft.part.railbed.name=轨座
 item.railcraft.part.railbed.stone.name=石质轨座
 item.railcraft.part.railbed.wood.name=木质轨座
 item.railcraft.part.rebar.name=钢筋
 item.railcraft.part.signal.lamp.name=信号灯
+item.railcraft.part.tie.name=枕
 item.railcraft.part.tie.stone.name=枕石
 item.railcraft.part.tie.wood.name=枕木
 item.railcraft.part.turbine.blade.name=涡轮机轮叶
@@ -516,7 +521,7 @@ railcraft.gui.routing.logic.regex.unsupported=未支持正则表达式
 railcraft.gui.routing.logic.unrecognized.keyword=未识别关键字
 railcraft.gui.routing.slot.label=路由表
 railcraft.gui.routing.table.editor=由@s最后编辑
-railcraft.gui.routing.table.manual.numPages=10
+railcraft.gui.routing.table.manual.numPages=11
 railcraft.gui.routing.table.manual.page1=放入路由探测器或转辙器中的列车时刻表定义了一组对过往机车进行匹配的规则.这些使用简单逻辑指令定义的脚本能够允许你任你所需创建出简单或复杂的控制规则.这种指令属于前缀符号脚本,指令需要放在操作数之后,每行限使用一个关键字.若没有写明指令,则默认使用OR指令.在工作台放置两个或更多列车时刻表可以复制其内容.
 railcraft.gui.routing.table.manual.page2=指令关键字:\n   AND - 两个操作数,必须都为真..\n   OR - 两个操作数,一个必须为真.\n   NOT - 反转下一条指令.
 railcraft.gui.routing.table.manual.page3=条件关键字:\n   Dest=<字符串>\n      如果机车目的地\n      字符串以这条字符串开头,\n      则条件为真.\n      "Dest=null" 将匹配那些没有\n      目的地的矿车.\n   Owner=<用户名>\n      机车属于对应名称玩家\n      则为真.
@@ -631,10 +636,12 @@ tile.detectorRail.name=感应轨道
 tile.goldenRail.name=推进轨道
 tile.rail.name=轨道
 
+tile.railcraft.anvil.name=钢砧
 tile.railcraft.anvil.intact.name=钢砧
 tile.railcraft.anvil.slightlyDamaged.name=裂纹钢砧
 tile.railcraft.anvil.veryDamaged.name=碎裂钢砧
 
+tile.railcraft.brick.abyssal.name=深渊方块
 tile.railcraft.brick.abyssal.block.name=深渊方块
 tile.railcraft.brick.abyssal.brick.name=深渊砖
 tile.railcraft.brick.abyssal.cobble.name=深渊圆石
@@ -642,6 +649,7 @@ tile.railcraft.brick.abyssal.etched.name=蚀刻深渊方块
 tile.railcraft.brick.abyssal.fitted.name=匀称深渊方块
 tile.railcraft.brick.abyssal.ornate.name=雕琢深渊方块
 
+tile.railcraft.brick.bleachedbone.name=白骨方块
 tile.railcraft.brick.bleachedbone.block.name=白骨方块
 tile.railcraft.brick.bleachedbone.brick.name=白骨砖
 tile.railcraft.brick.bleachedbone.cobble.name=白骨圆石
@@ -649,6 +657,7 @@ tile.railcraft.brick.bleachedbone.etched.name=蚀刻白骨方块
 tile.railcraft.brick.bleachedbone.fitted.name=匀称白骨方块
 tile.railcraft.brick.bleachedbone.ornate.name=雕琢白骨方块
 
+tile.railcraft.brick.bloodstained.name=污血方块
 tile.railcraft.brick.bloodstained.block.name=污血方块
 tile.railcraft.brick.bloodstained.brick.name=污血砖
 tile.railcraft.brick.bloodstained.cobble.name=污血圆石
@@ -656,6 +665,7 @@ tile.railcraft.brick.bloodstained.etched.name=蚀刻污血方块
 tile.railcraft.brick.bloodstained.fitted.name=匀称污血方块
 tile.railcraft.brick.bloodstained.ornate.name=雕琢污血方块
 
+tile.railcraft.brick.frostbound.name=霜冻方块
 tile.railcraft.brick.frostbound.block.name=霜冻方块
 tile.railcraft.brick.frostbound.brick.name=霜冻砖
 tile.railcraft.brick.frostbound.cobble.name=霜冻圆石
@@ -663,6 +673,7 @@ tile.railcraft.brick.frostbound.etched.name=蚀刻霜冻方块
 tile.railcraft.brick.frostbound.fitted.name=匀称霜冻方块
 tile.railcraft.brick.frostbound.ornate.name=雕琢霜冻方块
 
+tile.railcraft.brick.infernal.name=地狱方块
 tile.railcraft.brick.infernal.block.name=地狱方块
 tile.railcraft.brick.infernal.brick.name=地狱砖
 tile.railcraft.brick.infernal.cobble.name=地狱圆石
@@ -670,12 +681,14 @@ tile.railcraft.brick.infernal.etched.name=蚀刻地狱方块
 tile.railcraft.brick.infernal.fitted.name=匀称地狱方块
 tile.railcraft.brick.infernal.ornate.name=雕琢地狱方块
 
+tile.railcraft.brick.nether.name=下界方块
 tile.railcraft.brick.nether.block.name=下界方块
 tile.railcraft.brick.nether.cobble.name=下界圆石
 tile.railcraft.brick.nether.etched.name=蚀刻下界方块
 tile.railcraft.brick.nether.fitted.name=匀称下界方块
 tile.railcraft.brick.nether.ornate.name=雕琢下界方块
 
+tile.railcraft.brick.quarried.name=采掘方块
 tile.railcraft.brick.quarried.block.name=采掘方块
 tile.railcraft.brick.quarried.brick.name=采掘砖
 tile.railcraft.brick.quarried.cobble.name=采掘圆石
@@ -683,6 +696,7 @@ tile.railcraft.brick.quarried.etched.name=蚀刻采掘方块
 tile.railcraft.brick.quarried.fitted.name=匀称采掘方块
 tile.railcraft.brick.quarried.ornate.name=雕琢采掘方块
 
+tile.railcraft.brick.sandy.name=沙岩方块
 tile.railcraft.brick.sandy.block.name=沙岩方块
 tile.railcraft.brick.sandy.brick.name=沙岩砖
 tile.railcraft.brick.sandy.cobble.name=沙岩圆石
@@ -690,6 +704,7 @@ tile.railcraft.brick.sandy.etched.name=蚀刻沙岩方块
 tile.railcraft.brick.sandy.fitted.name=匀称沙岩方块
 tile.railcraft.brick.sandy.ornate.name=雕琢沙岩方块
 
+tile.railcraft.cube.name=方块
 tile.railcraft.cube.brick.infernal.name=地狱砖块(废弃)
 tile.railcraft.cube.brick.sandy.name=沙岩砖块(废弃)
 tile.railcraft.cube.coke.name=焦煤块
@@ -705,6 +720,7 @@ tile.railcraft.cube.stone.abyssal.name=深渊砖块
 tile.railcraft.cube.stone.quarried.name=采掘砖块
 tile.railcraft.cube.tin.name=锡块
 
+tile.railcraft.detector.name=探测器
 tile.railcraft.detector.advanced.name=传感器-高级
 tile.railcraft.detector.age.name=传感器-年龄
 tile.railcraft.detector.animal.name=传感器-动物
@@ -734,6 +750,7 @@ tile.railcraft.frame.tip=用于将轨道放置在分路线缆上
 
 tile.railcraft.glass.name=强化玻璃
 
+tile.railcraft.machine.alpha.name=机器
 tile.railcraft.machine.alpha.anchor.admin.name=管理员锚
 tile.railcraft.machine.alpha.anchor.passive.name=被动锚
 tile.railcraft.machine.alpha.anchor.personal.name=个人锚
@@ -757,6 +774,7 @@ tile.railcraft.machine.alpha.trade.station.name=贸易站
 tile.railcraft.machine.alpha.turbine.name=蒸汽涡轮机壳
 tile.railcraft.machine.alpha.turbine.tip=多方块结构:3x2x2\n用蒸汽发电\n从底部输出水\n需要一个涡轮机转子
 
+tile.railcraft.machine.beta.name=机器
 tile.railcraft.machine.beta.anchor.sentinel.name=拱卫之锚
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=液态燃料燃烧室
 tile.railcraft.machine.beta.boiler.firebox.liquid.tip=多方块结构:尺寸可变\n底座规格可选:1x1, 2x2, 3x3          
@@ -789,27 +807,30 @@ tile.railcraft.machine.beta.tank.steel.valve.tip=多方块结构:尺寸可变,�
 tile.railcraft.machine.beta.tank.steel.wall.name=钢质蓄水器壁板
 tile.railcraft.machine.beta.tank.steel.wall.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
 
+tile.railcraft.machine.delta.name=电力分路线缆
 tile.railcraft.machine.delta.wire.name=电力分路线缆
 tile.railcraft.machine.delta.wire.tip=跨距连接电轨\n配合线缆支撑框架可放置于轨道下方
 
+tile.railcraft.machine.epsilon.name=机器
 tile.railcraft.machine.epsilon.admin.steam.producer.name=管理员蒸汽供给单元
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=提供无限的蒸汽
 tile.railcraft.machine.epsilon.electric.feeder.admin.name=管理员电力供给单元
 tile.railcraft.machine.epsilon.electric.feeder.admin.tip=提供无限的RC电力
 tile.railcraft.machine.epsilon.electric.feeder.name=电力供给单元 
-tile.railcraft.machine.epsilon.electric.feeder.tip=将IC电力转化为RC电力
+tile.railcraft.machine.epsilon.electric.feeder.tip=将IC2和GT电力转化为RC电力
 tile.railcraft.machine.epsilon.engraving.bench.name=雕刻桌
 tile.railcraft.machine.epsilon.flux.transformer.name=能量流转换机
 tile.railcraft.machine.epsilon.flux.transformer.tip=多方块结构: 2x2x2\n 将RF能量转换为RC电力\n 80%的效率
 tile.railcraft.machine.epsilon.force.track.emitter.name=轨道发射机
 tile.railcraft.machine.epsilon.force.track.emitter.tip=发射以RC电力为能量供应的镭射轨道
 
+tile.railcraft.machine.gamma.name=机器
 tile.railcraft.machine.gamma.dispenser.cart.name=矿车分车站
 tile.railcraft.machine.gamma.dispenser.cart.tip=向轨道分配矿车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出矿车 -
 tile.railcraft.machine.gamma.dispenser.train.name=列车分车站
 tile.railcraft.machine.gamma.dispenser.train.tip=向轨道分配列车\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 通入红石信号来放出列车 -
 tile.railcraft.machine.gamma.loader.energy.name=能量装载机
-tile.railcraft.machine.gamma.loader.energy.tip=为IC2能量运输矿车装载电力\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限Ic2电力
+tile.railcraft.machine.gamma.loader.energy.tip=为IC2能量运输矿车装载电力\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限Ic2和GT电力
 tile.railcraft.machine.gamma.loader.rf.name=RF能量装载机
 tile.railcraft.machine.gamma.loader.rf.tip=向RF储能车充能\n§o§9- 用撬棍敲击以切换方向 -\n§o§c- 仅限RF能量
 tile.railcraft.machine.gamma.loader.item.advanced.name=高级物品装载机
@@ -835,6 +856,7 @@ railcraft.gui.tank.titanium=钛质蓄水器
 railcraft.gui.tank.tungstensteel=钨钢蓄水器
 railcraft.gui.tank.palladium=钯质蓄水器
 
+tile.railcraft.machine.zeta.name=蓄水器
 tile.railcraft.machine.zeta.tank.aluminium.gauge.name=铝质蓄水器量计
 tile.railcraft.machine.zeta.tank.aluminium.gauge.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
 tile.railcraft.machine.zeta.tank.aluminium.valve.name=铝质蓄水器阀门
@@ -870,6 +892,7 @@ railcraft.gui.tank.iridium=铱质蓄水器
 railcraft.gui.tank.osmium=锇质蓄水器
 railcraft.gui.tank.neutronium=中子蓄水器
 
+tile.railcraft.machine.eta.name=蓄水器
 tile.railcraft.machine.eta.tank.iridium.gauge.name=铱质蓄水器量计
 tile.railcraft.machine.eta.tank.iridium.gauge.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
 tile.railcraft.machine.eta.tank.iridium.valve.name=铱质蓄水器阀门
@@ -889,6 +912,7 @@ tile.railcraft.machine.eta.tank.neutronium.valve.tip=多方块结构:尺寸可�
 tile.railcraft.machine.eta.tank.neutronium.wall.name=中子蓄水器壁板
 tile.railcraft.machine.eta.tank.neutronium.wall.tip=多方块结构:尺寸可变,中空\n高度可选: 4, 5, 6, 7, 8\n长宽可选: 3, 5, 7, 9
 
+tile.railcraft.ore.name=矿石
 tile.railcraft.ore.dark.diamond.name=暗黑钻石矿石
 tile.railcraft.ore.dark.emerald.name=暗黑绿宝石矿石
 tile.railcraft.ore.dark.lapis.name=暗黑青金石矿石
@@ -903,6 +927,7 @@ tile.railcraft.ore.saltpeter.name=硝石
 tile.railcraft.ore.sulfur.name=硫磺
 
 tile.railcraft.post.emblem.name=徽章桩
+tile.railcraft.post.metal.name=金属桩
 tile.railcraft.post.metal.black.name=黑色金属桩
 tile.railcraft.post.metal.blue.name=蓝色金属桩
 tile.railcraft.post.metal.brown.name=棕色金属桩
@@ -916,6 +941,7 @@ tile.railcraft.post.metal.magenta.name=品红色金属桩
 tile.railcraft.post.metal.unpainted.name=金属桩
 tile.railcraft.post.metal.orange.name=橙色金属桩
 tile.railcraft.post.metal.pink.name=粉色金属桩
+tile.railcraft.post.metal.platform.name=金属平台
 tile.railcraft.post.metal.platform.black.name=黑色金属平台
 tile.railcraft.post.metal.platform.blue.name=蓝色金属平台
 tile.railcraft.post.metal.platform.brown.name=棕色金属平台
@@ -939,11 +965,13 @@ tile.railcraft.post.metal.white.name=白色金属桩
 tile.railcraft.post.metal.yellow.name=黄色金属桩
 tile.railcraft.post.stone.name=石桩
 tile.railcraft.post.stone.platform.name=石头平台
+tile.railcraft.post.name=木桩
 tile.railcraft.post.wood.name=木桩
 tile.railcraft.post.wood.platform.name=木头平台
 
 tile.railcraft.residual.heat.name=残余热量
 
+tile.railcraft.signal.name=信号
 tile.railcraft.signal.block.signal.dual.name=双头信号盒
 tile.railcraft.signal.block.signal.dual.tip=检测信号盒中的机车\n显示连接的控制盒的信号域\n§o§9无线联动:\n§o§9- 1x信号盒\n§o§9- 1x控制盒\n§o§9- 1x接收盒\n§o§c相关工具:\n§o§c- 信号调谐器\n§o§c- 信号域监测仪
 tile.railcraft.signal.block.signal.name=信号盒
@@ -973,6 +1001,7 @@ tile.railcraft.signal.switch.motor.tip=控制相邻的转换轨道\n§o§9无线
 tile.railcraft.signal.switch.routing.name=路由转辙马达
 tile.railcraft.signal.switch.routing.tip=控制相邻的转换轨道\n§o§9脚本逻辑操作\n§o§c相关工具:\n§o§c- 路由表
 
+tile.railcraft.slab.name=台阶
 tile.railcraft.slab.abyssal.block.name=深渊台阶
 tile.railcraft.slab.abyssal.brick.name=深渊砖台阶
 tile.railcraft.slab.abyssal.cobble.name=深渊圆石台阶
@@ -1018,6 +1047,7 @@ tile.railcraft.slab.snow.name=雪台阶
 tile.railcraft.slab.steel.name=钢台阶
 tile.railcraft.slab.tin.name=锡台阶
 
+tile.railcraft.stair.name=楼梯
 tile.railcraft.stair.abyssal.block.name=深渊楼梯
 tile.railcraft.stair.abyssal.brick.name=深渊砖楼梯
 tile.railcraft.stair.abyssal.cobble.name=深渊圆石楼梯
@@ -1063,6 +1093,7 @@ tile.railcraft.stair.snow.name=雪楼梯
 tile.railcraft.stair.steel.name=钢楼梯
 tile.railcraft.stair.tin.name=锡楼梯
 
+tile.railcraft.lantern.metal.name=灯笼
 tile.railcraft.lantern.metal.copper.name=铜灯笼
 tile.railcraft.lantern.metal.gold.name=金灯笼
 tile.railcraft.lantern.metal.iron.name=铁灯笼
@@ -1070,6 +1101,7 @@ tile.railcraft.lantern.metal.lead.name=铅灯笼
 tile.railcraft.lantern.metal.steel.name=钢灯笼
 tile.railcraft.lantern.metal.tin.name=锡灯笼
 
+tile.railcraft.lantern.stone.name=石灯笼
 tile.railcraft.lantern.stone.abyssal.name=深渊灯笼
 tile.railcraft.lantern.stone.bleachedbone.name=白骨灯笼
 tile.railcraft.lantern.stone.bloodstained.name=污血灯笼
@@ -1081,6 +1113,7 @@ tile.railcraft.lantern.stone.sandstone.name=沙石灯笼
 tile.railcraft.lantern.stone.sandy.name=沙岩灯笼
 tile.railcraft.lantern.stone.stone.name=石灯笼
 
+tile.railcraft.track.name=轨道
 tile.railcraft.track.boarding.name=寄宿轨道
 tile.railcraft.track.boarding.tip=已被封锁轨道取代
 tile.railcraft.track.boarding.train.name=列车寄宿轨道
@@ -1178,6 +1211,8 @@ tile.railcraft.track.wye.tip=§o§c- 需要转辙马达/开关来进行转辙 -
 tile.railcraft.track.autolococoupler.name=自动火车头耦合器
 tile.railcraft.track.autolococoupler.tip=设置经过的火车头\n链接到碰撞的\n第一辆机车然后自动\n切换至调度速度.\n§o§c- 使用红石信号激活 -
 
+tile.railcraft.wall.alpha.name=墙壁
+tile.railcraft.wall.beta.name=墙壁
 tile.railcraft.wall.abyssal.brick.name=深渊砖墙
 tile.railcraft.wall.bleachedbone.brick.name=白骨砖墙
 tile.railcraft.wall.bloodstained.brick.name=污血砖墙

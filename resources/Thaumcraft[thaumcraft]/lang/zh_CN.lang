@@ -66,7 +66,7 @@ entity.Thaumcraft.TaintedChicken.name=腐化鸡
 entity.Thaumcraft.TaintedPig.name=腐化猪
 entity.Thaumcraft.TaintedSheep.name=腐化羊
 entity.Thaumcraft.TaintedCow.name=腐化牛
-entity.Thaumcraft.TaintedCreeper.name=腐化爬行者
+entity.Thaumcraft.TaintedCreeper.name=腐化苦力怕
 entity.Thaumcraft.Pech.name=岩精强盗
 entity.Thaumcraft.Pech.1.name=岩精法师
 entity.Thaumcraft.Pech.2.name=岩精猎手
@@ -249,7 +249,7 @@ tile.blockTaintFibres.1.name=腐化草地
 tile.blockTaintFibres.2.name=腐化植物
 tile.blockTaintFibres.3.name=孢子梗
 tile.blockTaintFibres.4.name=成熟孢子梗
-tile.blockFluxGoo.name=咒波粘浆
+tile.blockFluxGoo.name=咒波黏浆
 tile.blockFluxGas.name=咒波瓦斯
 tile.blockFluidPure.name=净化之水
 tile.blockFluidDeath.name=死亡之水  
@@ -381,7 +381,7 @@ item.ItemResource.7.name=魔力布匹
 item.ItemResource.8.name=魔力滤管
 item.ItemResource.9.name=知识碎片
 item.ItemResource.10.name=镜面玻璃
-item.ItemResource.11.name=腐化粘浆
+item.ItemResource.11.name=腐化黏浆
 item.ItemResource.12.name=腐化触手
 item.ItemResource.13.name=罐子标签
 item.ItemResource.14.name=世界盐
@@ -477,7 +477,7 @@ item.ItemGolemCore.100.name=空白
 item.ItemGolemPlacer.0.name=稻草傀儡
 item.ItemGolemPlacer.1.name=木头傀儡
 item.ItemGolemPlacer.2.name=油脂傀儡
-item.ItemGolemPlacer.3.name=粘土傀儡
+item.ItemGolemPlacer.3.name=黏土傀儡
 item.ItemGolemPlacer.4.name=血肉傀儡
 item.ItemGolemPlacer.5.name=石头傀儡
 item.ItemGolemPlacer.6.name=铁卫傀儡
@@ -581,7 +581,7 @@ item.ItemCompassStone.name=凶险磁石
 item.ItemPrimalCrusher.name=元始杵
 #
 # Fluids
-fluid.fluxGoo=咒波粘浆
+fluid.fluxGoo=咒波黏浆
 fluid.fluxGas=咒波瓦斯
 fluid.fluidPure=净化之水
 fluid.fluidDeath=死亡之水
@@ -625,7 +625,7 @@ focus.upgrade.alchemistsfrost.name=炼金之霜
 focus.upgrade.alchemistsfrost.text=这种升级能够提高法杖核心的元素之霜的威力.法杖核心作用或伤害的生物会被冻僵并显著减速.
 focus.upgrade.nightshade.name=夜影
 focus.upgrade.nightshade.text=通常来说岩精之诅咒一次只能触发一种负面效果,安装这种升级后它就能一次造成所有种类的负面效果了.
-focus.upgrade.silktouch.name=丝绸之触
+focus.upgrade.silktouch.name=精准采集
 focus.upgrade.silktouch.text=类似精准采集附魔,这种升级能够让你直接拾取采掘前的原材料而非一般的掉落物.
 focus.upgrade.seeker.name=追踪
 focus.upgrade.seeker.text=这种升级赋予元始核心发射的魔力球自动追踪最接近的生物目标的能力而不是像平常那样漫无目标的游荡.这多少让它们更加可控了,虽然除了爆炸外它们依然不会有任何别的效果.
@@ -781,7 +781,7 @@ tc.aspect.victus=生命
 tc.aspect.mortuus=死亡
 tc.aspect.volatus=飞行
 tc.aspect.tenebrae=黑暗
-tc.aspect.limus=史莱姆,粘液
+tc.aspect.limus=史莱姆,黏液
 tc.aspect.herba=植物
 tc.aspect.arbor=树木,木材
 tc.aspect.spiritus=灵魂
@@ -830,7 +830,7 @@ tc.aspect.help.victus=生命之源
 tc.aspect.help.mortuus=死亡的天性
 tc.aspect.help.volatus=飞行
 tc.aspect.help.tenebrae=黑暗
-tc.aspect.help.limus=粘稠的东西
+tc.aspect.help.limus=黏稠的东西
 tc.aspect.help.herba=植物
 tc.aspect.help.arbor=树木
 tc.aspect.help.spiritus=精神
@@ -907,19 +907,19 @@ tc.research_page.KNOWFRAG.1=旅途漫漫,你偶然会发现一些古代遗迹及
 tc.research_name.ASPECTS=魔力源质
 tc.research_text.ASPECTS=万物构造之源
 tc.research_page.ASPECTS.1=一切造物(道具,对象及生物)均系于被名为§5“源质”§0的魔力元素.源质描绘了物品的构成及其对魔力元素的偏向.普通的岩石可能蕴含Terra(即拉丁文的大地)源质,而更复杂的事物,比如树木,甚或生物则可能蕴含多种数量不等的源质.目前已经有50余种源质被发现.<LINE>有两类截然不同的源质: §5元始源质§0以及§5复合源质§0.
-tc.research_page.ASPECTS.2=§l元始源质§r是六种最基本的源质类型:§6Aer§0(风之源质),§2Terra§0(地之源质),§cIgnis§0(火之源质),§3Aqua§0(水之源质),§fOrdo§0(秩序源质),§8Perditio§0(混沌源质).<BR>它们是构成其它源质的基础.<BR>§l复合源质§r由两种其它源质复合而成.相对简单的复合源质由两种元始源质复合而成,但也存在一些经过多次复合,非常复杂的复合源质.<BR>举简单的例子来说,比如§2Terra§0(地之源质)与§3Aqua§0(水之源质)复合可以得到Victus(生命源质).
+tc.research_page.ASPECTS.2=§l元始要素§r是六种最基本的要素类型:§6Aer§0(风之要素),§2Terra§0(地之要素),§cIgnis§0(火之要素),§3Aqua§0(水之要素),§fOrdo§0(秩序要素),§8Perditio§0(混沌要素).<BR>它们是构成其它要素的基础.<BR>§l复合要素§r由两种其它要素复合而成.相对简单的复合要素由两种元始要素复合而成,但也存在一些经过多次复合,非常复杂的复合要素.<BR>举简单的例子来说,比如§2Terra§0(地之要素)与§3Aqua§0(水之要素)复合可以得到Victus(生命要素).
 tc.research_page.ASPECTS.3=若想要查看一个物品所具备的源质,需要在选中物品时按下潜行键(默认shift),这样你就能看见其蕴含源质的种类和数量.但是你需要先对该物品进行初步的研究,否则其蕴含的源质会显示未知.<LINE>源质在一定程度上分离于其对象,并且作为纯粹的本质物,源质非常具有价值：无论是用作合成的工具还是用于魔法研究.<BR>魔力通常存储于法杖中,但它也可能以液相存储,此时我们通常称其为§5源质§0,为方便起见,本手册中有时也统一简称其为源质.
 #
 tc.research_name.NODES=灵气和节点
 tc.research_text.NODES=魔法无所不在
-tc.research_page.NODES.1=§5灵气§0是笼罩世界的魔法能量.其源头未明.有些人相信灵气是活物积累的生命能量,而有些人则倾向于认为它仅仅不过是一种从某些地方渗出的能量.后一种观点似乎更具可能：因为人们经常发现灵气环绕于一种汇聚着魔法能量的§5“灵气节点”§0周围.<BR>每一个“灵气节点”都容纳了一定数量蕴含一种或数种源质的魔力能量.多数节点蕴含的是一些§5元始源质§0,但某些稀有节点会蕴含§5复合源质§0.
+tc.research_page.NODES.1=§5灵气§0是笼罩世界的魔法能量.其源头未明.有些人相信灵气是活物积累的生命能量,而有些人则倾向于认为它仅仅不过是一种从某些地方渗出的能量.后一种观点似乎更具可能：因为人们经常发现灵气环绕于一种汇聚着魔法能量的§5“灵气节点”§0周围.<BR>每一个“灵气节点”都容纳了一定数量蕴含一种或数种源质的魔力能量.多数节点蕴含的是一些§5元始§5灵气§0是笼罩世界的魔法能量.其源头未明.有些人相信灵气是活物积累的生命能量,而有些人则倾向于认为它仅仅不过是一种从某些地方渗出的能量.后一种观点似乎更具可能：因为人们经常发现灵气环绕于一种汇聚着魔法能量的§5“灵气节点”§0周围.<BR>每一个“灵气节点”都容纳了一定数量蕴含一种或数种要素的魔力能量.多数节点蕴含的是一些§5元始要素§0,但某些稀有节点会蕴含§5复合要素§0.§0,但某些稀有节点会蕴含§5复合源质§0.
 tc.research_page.NODES.2=神秘使能按其所需对灵气节点中的源质加以利用,而最简单的途径便是使用法杖.<BR>被神秘使开发利用后的灵气也被称为魔导力vis,或简称魔力.<LINE>肉眼难以发现灵气节点,但节点发出的微弱光线会暴露它存在的位置.使用§5魔导透镜§0则能够清晰地看见节点,让它更加容易被找到.<BR>§4重要信息:§0在抽取节点时务必谨慎小心.当彻底抽干节点中某一类源质时会有小几率使得该源质彻底消失从而损害到节点的完整性.
 tc.research_page.NODES.3=<BR>如果其蕴含的Vis都消失了那么节点本身也可能会消失.<LINE>好在节点中的Vis会缓慢地自行恢复,如果妥善管理,足以供应明智的神秘使所需.
 #
 tc.research_name.ORE=矿石
 tc.research_text.ORE=深度发掘
 tc.research_page.ORE.1=§l       §n蕴魔石§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>有时,当一个灵气场内的魔力能量过高,魔力会渗入岩石并形成结晶状的蕴魔矿物.这种魔力晶矿能够被采掘.
-tc.research_page.ORE.2=这些晶矿按蕴含源质分为多种类型,在神秘学中应用广泛.<BR>计有六种蕴魔石,分别对应不同的元始源质.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>魔力晶矿能够被聚合成晶簇,晶簇除了能够为家居增添一些典雅气质外别无他用,而破坏晶簇能够取回魔力水晶.
+tc.research_page.ORE.2=这些晶矿按蕴含要素分为多种类型,在神秘学中应用广泛.<BR>计有六种蕴魔石,分别对应不同的元始要素.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>魔力晶矿能够被聚合成晶簇,晶簇除了能够为家居增添一些典雅气质外别无他用,而破坏晶簇能够取回魔力水晶.
 tc.research_page.ORE.3=§l       §n朱砂§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>这种泛红的矿石分布于地底深处,能够冶炼成水银.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.ORE.4=§l       §n琥珀§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>这种矿石分布于地表附近,采掘时会掉落琥珀块.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
@@ -1154,7 +1154,7 @@ tc.research_page.CRUCIBLE.1=只需对着放置在地上的普通炼药锅使用�
 tc.research_page.CRUCIBLE.2=你可以向坩埚内丢入催化剂这种特殊物品.催化剂将作为核心聚合源质,且转换成全新的物品后,会从坩埚中弹出.<BR>多余的源质会留存在坩埚中以备后用,但长期让源质残留在坩埚中无疑不是好主意.<BR>使用坩埚制作物品还会消耗坩埚中少量的水,因此你最终会需要重新添水.<BR>坩埚中的源质会持续降解.复合源质会降解成组成它的源质之一,而元始源质会蒸发消失.
 tc.research_page.CRUCIBLE.3=这不仅仅会造成资源的浪费,蒸发和降解的源质还会造成诸多奇怪的副作用.<BR>你可以对着坩埚使用法杖清空坩埚中的源质制作物品,但这会让坩埚中的源质全部流失到大气中…因此你并不希望经常这样做.
 tc.research_page.CRUCIBLE.4=下面是一些所有人皆可使用的炼金配方.<LINE>§n平衡碎片<BR><BR>向普通的Vis碎片灌注其余五种它不具有的元始源质的Vis碎片,最终得到的就是这种六大元始源质相互平衡的,能够与元始能量完美共鸣的水晶碎片.<BR> 在熔炉中冶炼平衡碎片能够得到世界盐(参见后文).
-tc.research_page.CRUCIBLE.5=§n世界盐§r<BR><BR>世界盐,或其广为人知的名称神秘使之盐,是加热衡之碎片使其分解得到的细粉.<BR>正如凡俗世界的盐一样,神秘使之盐也能够给所有那些普通的魔法配方或仪轨增添美妙的滋味(这是个隐喻).它是一种强力的粘合剂,能够让彼此间最暌离的魔力源质聚合在一起.
+tc.research_page.CRUCIBLE.5=§n世界盐§r<BR><BR>世界盐,或其广为人知的名称神秘使之盐,是加热衡之碎片使其分解得到的细粉.<BR>正如凡俗世界的盐一样,神秘使之盐也能够给所有那些普通的魔法配方或仪轨增添美妙的滋味(这是个隐喻).它是一种强力的黏合剂,能够让彼此间最暌离的魔力源质聚合在一起.
 #
 tc.research_name.ENCHFABRIC=魔力布匹
 tc.research_text.ENCHFABRIC=丝般柔滑
@@ -1265,11 +1265,11 @@ tc.research_page.GOLEMWOOD.1=这种傀儡由宏伟之木的原木雕刻而成.�
 #
 tc.research_name.GOLEMTALLOW=油脂傀儡
 tc.research_text.GOLEMTALLOW=远离明火
-tc.research_page.GOLEMTALLOW.1=这种更高级的傀儡略胜过粘土傀儡,能够进行两次升级.<BR>§l§n油脂傀儡属性§r<BR>§l耐久:§r 一般<BR>§l力量:§r 低<BR>§l回复:§r 一般<BR>§l运载量:§r 8<BR>§l速度:§r 一般<BR>§l升级:§r 2
+tc.research_page.GOLEMTALLOW.1=这种更高级的傀儡略胜过黏土傀儡,能够进行两次升级.<BR>§l§n油脂傀儡属性§r<BR>§l耐久:§r 一般<BR>§l力量:§r 低<BR>§l回复:§r 一般<BR>§l运载量:§r 8<BR>§l速度:§r 一般<BR>§l升级:§r 2
 #
-tc.research_name.GOLEMCLAY=粘土傀儡
+tc.research_name.GOLEMCLAY=黏土傀儡
 tc.research_text.GOLEMCLAY=坚韧耐用
-tc.research_page.GOLEMCLAY.1=耐火的粘土被证明是一种卓越的傀儡制作材料.它不仅防火而且赋予傀儡远胜要求的机动能力.<BR>§l§n粘土傀儡属性§r<BR>§l耐久:§r 一般<BR>§l力量:§r 一般<BR>§l回复:§r 缓慢<BR>§l运载量:§r 8<BR>§l速度:§r 一般<BR>§l升级:§r 1
+tc.research_page.GOLEMCLAY.1=耐火的黏土被证明是一种卓越的傀儡制作材料.它不仅防火而且赋予傀儡远胜要求的机动能力.<BR>§l§n黏土傀儡属性§r<BR>§l耐久:§r 一般<BR>§l力量:§r 一般<BR>§l回复:§r 缓慢<BR>§l运载量:§r 8<BR>§l速度:§r 一般<BR>§l升级:§r 1
 #
 tc.research_name.GOLEMFLESH=血肉傀儡
 tc.research_text.GOLEMFLESH=它是活的
@@ -1322,7 +1322,7 @@ tc.research_page.CORELUMBER.1=类似收获傀儡,伐木傀儡也不需要与容�
 #
 tc.research_name.COREGUARD=傀儡核心:守卫
 tc.research_text.COREGUARD=守卫主人的财富
-tc.research_page.COREGUARD.1=安装这种核心的傀儡就像守卫一样会攻击范围内的任何敌对生物.<BR>你认为再经过一些小的调修你就能够让这种傀儡能够对攻击目标更具选择性,但现在它会攻击除了爬行者外的一切敌对生物.
+tc.research_page.COREGUARD.1=安装这种核心的傀儡就像守卫一样会攻击范围内的任何敌对生物.<BR>你认为再经过一些小的调修你就能够让这种傀儡能够对攻击目标更具选择性,但现在它会攻击除了苦力怕外的一切敌对生物.
 tc.research_page.COREGUARD.2=     §n秩序升级解锁特性§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>安装这种升级的守卫傀儡能够设定特定的攻击目标.这种傀儡不仅仅只能攻击敌对生物,还能在更大类型范围的生物里更灵活地设定目标.
 #
 tc.research_name.COREBUTCHER=傀儡核心:屠宰
@@ -1409,8 +1409,8 @@ tc.research_page.TINYHAMMER.1=这柄武器能够提升傀儡在近战时造成�
 #
 tc.research_name.DISTILESSENTIA=源质蒸馏
 tc.research_text.DISTILESSENTIA=收获源质
-tc.research_page.DISTILESSENTIA.1=你意识到未来会需求使用庞大种类的数种源质 - 而非存在法杖内的寥寥几种元始源质.<BR>利用基本炼金原理你已了解了如何分解物品将其转化为基本的=源质.<BR>首先你需要一台§l炼金炉§r.炼金炉类似普通熔炉那样燃烧燃料获得热量,但并不用于冶炼矿物,而是用以分解物品得到源质粘浆.
-tc.research_page.DISTILESSENTIA.2=接下来你需要利用§l奥术蒸馏器§r分离源质粘浆.<BR>你需要将奥术蒸馏器放置在炼金炉顶部.源质粘浆会慢慢被抽取到蒸馏器中,分馏成独立的源质.<BR>如果使用源动之焰作为炼金炉的燃料,那么分馏过程将更迅速.<BR>一个单独的炼金炉上方可以叠放5个奥术蒸馏器.<BR>可以使用源质安瓿取出炼金炉中的源质.
+tc.research_page.DISTILESSENTIA.1=你意识到未来会需求使用庞大种类的数种源质 - 而非存在法杖内的寥寥几种元始源质.<BR>利用基本炼金原理你已了解了如何分解物品将其转化为基本的=源质.<BR>首先你需要一台§l炼金炉§r.炼金炉类似普通熔炉那样燃烧燃料获得热量,但并不用于冶炼矿物,而是用以分解物品得到源质黏浆.
+tc.research_page.DISTILESSENTIA.2=接下来你需要利用§l奥术蒸馏器§r分离源质黏浆.<BR>你需要将奥术蒸馏器放置在炼金炉顶部.源质黏浆会慢慢被抽取到蒸馏器中,分馏成独立的源质.<BR>如果使用源动之焰作为炼金炉的燃料,那么分馏过程将更迅速.<BR>一个单独的炼金炉上方可以叠放5个奥术蒸馏器.<BR>可以使用源质安瓿取出炼金炉中的源质.
 #
 tc.research_name.JARLABEL=源质罐子和标签
 tc.research_text.JARLABEL=存储和整理源质
@@ -1592,7 +1592,7 @@ tc.research_page.THAUMATORIUM.3=一般来说一个炼金塔只能同时激活一
 #
 tc.research_name.RUNICARMOR=符文护盾
 tc.research_text.RUNICARMOR=护盾开启!
-tc.research_page.RUNICARMOR.1=对防护法术的研究最终使你发明出符文护盾.它并非传统意义上的护甲装备,而是一种佩戴在日常衣物上的符咒,纹章或类似防护物品.<BR>这种物品会制造出一个防范绝大多数伤害的魔力屏障.护盾会拥有一个伤害量承受池来先一步减免损伤,以保护佩戴者免受各种伤害.当伤害量承受池耗尽佩戴者才会开始像平常一样承受伤害.<BR>伤害量承受池随着时间推移会自己回复,但即使是耗尽状态也至少会为佩戴者提供基本上相当于皮革装备的防护.
+tc.research_page.RUNICARMOR.1=对防护法术的研究最终使你发明出符文护盾.它并非传统意义上的护甲装备,而是一种佩戴在日常衣物上的护符,纹章或类似防护物品.<BR>这种物品会制造出一个防范绝大多数伤害的魔力屏障.护盾会拥有一个伤害量承受池来先一步减免损伤,以保护佩戴者免受各种伤害.当伤害量承受池耗尽佩戴者才会开始像平常一样承受伤害.<BR>伤害量承受池随着时间推移会自己回复,但即使是耗尽状态也至少会为佩戴者提供基本上相当于皮革装备的防护.
 tc.research_page.RUNICARMOR.2=<BR>这种自动回复需要护盾从穿戴者携带的法杖中抽取§2Terra§0和§eAer§0源质.<BR>但符文护盾并不会防护溺水,饥饿或者其他类似环境危害造成的伤害.由于其天然特性符文护盾也无法使用寻常方法附魔,但你确定有些方法能够提供其效能 - 只是尚待发现.
 #
 tc.research_name.RUNICAUGMENTATION=增广符文护盾
@@ -1767,8 +1767,8 @@ tc.research_page.PRIMNODE.1=你草创了一种值得深究的新理论.为何不
 #
 tc.research_name.ADVALCHEMYFURNACE=荒古炼金炉
 tc.research_text.ADVALCHEMYFURNACE=源质提炼简化
-tc.research_page.ADVALCHEMYFURNACE.1=普通的炼金炉运行相当缓慢且需要燃料才能驱动.虽说对你来说这些都不是什么难以克服的大麻烦,但是无法忽略的事实是你面临着无法生产大量源质的瓶颈限制.遗憾的是由于源质自身的不稳定性,在一个位置汇聚大量的源质粘浆依然十分危险.<BR>发现元始珍珠后你找到了这个问题的解决之道 - 荒古炼金炉.<BR>使用由虚空金属加固后的炼金构材搭建,
-tc.research_page.ADVALCHEMYFURNACE.2=并用元始珍珠诡异的能量进行辐照,荒古炼金炉将能够以更快的速率一次性处理更多的源质粘浆.在处理过程中并不会消耗掉珍珠.<BR>不再使用燃料,热量由ignis源质提供,分解过程也不再只依赖于提高热量,而是凭借perditio源质的效果直接破坏材料.最后由aqua源质保证整个过程运行平顺良好,防止粘浆沉淀成问题.<BR>这台机器需要适当的热量来启动并且即使没有进行生产也需要持续提供ignis源质.而perditio源质和aqua源质仅仅在进行源质提炼时才会消耗.
+tc.research_page.ADVALCHEMYFURNACE.1=普通的炼金炉运行相当缓慢且需要燃料才能驱动.虽说对你来说这些都不是什么难以克服的大麻烦,但是无法忽略的事实是你面临着无法生产大量源质的瓶颈限制.遗憾的是由于源质自身的不稳定性,在一个位置汇聚大量的源质黏浆依然十分危险.<BR>发现元始珍珠后你找到了这个问题的解决之道 - 荒古炼金炉.<BR>使用由虚空金属加固后的炼金构材搭建,
+tc.research_page.ADVALCHEMYFURNACE.2=并用元始珍珠诡异的能量进行辐照,荒古炼金炉将能够以更快的速率一次性处理更多的源质黏浆.在处理过程中并不会消耗掉珍珠.<BR>不再使用燃料,热量由ignis源质提供,分解过程也不再只依赖于提高热量,而是凭借perditio源质的效果直接破坏材料.最后由aqua源质保证整个过程运行平顺良好,防止黏浆沉淀成问题.<BR>这台机器需要适当的热量来启动并且即使没有进行生产也需要持续提供ignis源质.而perditio源质和aqua源质仅仅在进行源质提炼时才会消耗.
 #
 tc.research_name.FLUXSCRUB=咒波洗涤器
 tc.research_text.FLUXSCRUB=混乱神秘使的福利

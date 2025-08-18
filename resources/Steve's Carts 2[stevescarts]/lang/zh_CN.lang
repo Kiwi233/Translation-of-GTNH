@@ -75,6 +75,7 @@ gui.SC2:cartAreaSaplings=树苗
 gui.SC2:cartAreaFirework=烟花
 gui.SC2:cartAreaBuckets=桶（给挤奶工用的）
 gui.SC2:cartAreaCakes=蛋糕
+gui.SC2:cartAreaCropsticks=作物架
 
 
 
@@ -172,7 +173,7 @@ gui.SC2:stateAnimal=有动物乘客上车
 gui.SC2:stateTameable=有可驯服的乘客上车
 gui.SC2:stateBreedable=有可繁殖的乘客上车
 gui.SC2:stateHostile=有敌对乘客上车
-gui.SC2:stateCreeper=有爬行者乘客上车
+gui.SC2:stateCreeper=有苦力怕乘客上车
 gui.SC2:stateSkeleton=有骷髅乘客上车
 gui.SC2:stateSpider=有蜘蛛乘客上车
 gui.SC2:stateZombie=有僵尸乘客上车
@@ -310,6 +311,12 @@ item.SC2:creative_incinerator.name=创造模式焚化炉
 item.SC2:creative_supplies.name=创造模式供应
 item.SC2:color_randomizer.name=颜色定制组件
 item.SC2:crop_exotic.name=作物：异域
+item.SC2:train_connector.name=列车连接器
+item.SC2:electric_engine_lv.name=电动引擎 LV
+item.SC2:electric_engine_mv.name=电动引擎 MV
+item.SC2:electric_engine_hv.name=电动引擎 HV
+item.SC2:crop_ic2.name=作物：IC2
+
 
 # Components
 item.SC2:unknowncomponent.name=未知SC2组件
@@ -598,6 +605,8 @@ modules.addons.SC2:recipeChangeLimit10=Shift点击改变10。
 modules.addons.SC2:recipeChangeLimit64=Ctrl点击改变64。
 modules.addons.SC2:shieldToggle=[%1->激活|取消激活]护盾
 modules.addons.SC2:buttonRandomize=随机颜色
+modules.addons.SC2:toggleHarvestmode=切换收割模式
+modules.addons.SC2:harvestmode=收割模式：[%1->尽快|最佳]
 
 # Engines
 modules.engines.SC2:creativePowerLevel=能量等级：[%1]
@@ -611,6 +620,9 @@ modules.engines.SC2:thermalEngineTitle=热能引擎
 modules.engines.SC2:thermalPowered=已供能
 modules.engines.SC2:outOfWater=缺水
 modules.engines.SC2:outOfLava=缺熔岩
+modules.engines.SC2:electricEngineTitle=电动引擎
+modules.engines.SC2:chargeLevel=充能：[%1]
+modules.engines.SC2:outOfCharge=电量耗尽
 # need beta 3 for these ones to show up (remove this note)
 modules.engines.SC2:engineDisabledMessage=禁用
 modules.engines.SC2:enginePriorityMessage=[%1->高|中|低] 优先级
@@ -693,11 +705,11 @@ arcade.SC2:instructionShoot=发射
 arcade.SC2:instructionLeft=向左移动
 arcade.SC2:instructionRight=向右移动
 arcade.SC2:instructionRestart=重新开始
-arcade.SC2:creeperSweeper=爬行者清扫器
+arcade.SC2:creeperSweeper=苦力怕清扫器
 arcade.SC2:creeperMapName1=小型
 arcade.SC2:creeperMapName2=中型
 arcade.SC2:creeperMapName3=大型
-arcade.SC2:creepersLeft=剩余爬行者：[%1]
+arcade.SC2:creepersLeft=剩余苦力怕：[%1]
 arcade.SC2:creeperTime=花费时间：[%1]s
 arcade.SC2:instructionChangeMap=改变地图尺寸
 arcade.SC2:creeperCurrentMap=当前 [%1]

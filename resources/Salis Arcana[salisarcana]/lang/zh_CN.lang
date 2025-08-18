@@ -1,0 +1,170 @@
+salisarcana:command.category_header=类别：%s
+salisarcana:command.desc=描述：
+salisarcana:command.usage=用途：
+salisarcana:command.args=参数：
+
+salisarcana:command.error.tabcomplete=使用缩进键补全时发生了错误。请在Salis Arcana GitHub仓库中新建一个issue，并附上服务器日志。
+salisarcana:command.error.execute=执行该命令时发生了错误。如果该错误再次出现，请在Salis Arcana GitHub仓库中新建一个issue，并附上服务器日志。
+
+salisarcana:command.create-node.desc=在指定坐标创建一个随机节点。
+salisarcana:command.create-node.usage=§7/salisarcana-create-node §7<x> §7<y> §7<z> §7[-t §7<类型>] §7[-m §7<特性>] §7[--silverwood] §7[--eerie] §7[--small] §7[-a §7<要素1> §7<数量1>[ §7-a §7<要素2> §7<数量2>[ §7...]]]§r
+salisarcana:command.create-node.args.coord=§7§o<x> <y> <z>§r §c必需§r，节点将被创建的位置
+salisarcana:command.create-node.args.type=§7§o[-t <类型>]§r 节点的类型
+salisarcana:command.create-node.args.modifier=§7§o[-m <特性>]§r 节点的特性
+salisarcana:command.create-node.args.silverwood=§7§o[--silverwood]§r 生成一个纯净的小型节点，与在银树中生成的类似；与§7--eerie§r和§7--small§r选项互斥
+salisarcana:command.create-node.args.eerie=§7§o[--eerie]§r 生成一个黑暗节点，与在黑曜石图腾中生成的类似；与§7--silverwood§r选项互斥
+salisarcana:command.create-node.args.small=§7§o[--small]§r 节点将拥有较低的要素容量；与§7--silverwood§r和§7-a§r选项互斥
+salisarcana:command.create-node.args.aspect=§7§o[-a <要素> <数量>]§r 覆盖节点的要素设定；可传入多组该参数以指定多种要素；与§7--small§r选项互斥
+
+salisarcana:command.create-node.failure=无法在%d %d %d处创建节点。
+
+salisarcana:command.forget-research.desc=使玩家遗忘研究项目。
+salisarcana:command.forget-research.usage=§7/salisarcana-forget-research §7<--all §7§l或§r §7--research-key §7<研究项目键>[ §7--research-key §7<研究项目键2> §7...]> §7[--player §7<玩家名>] §7[--scalpel]§r
+salisarcana:command.forget-research.args.all=§7<--all>§r 从该玩家的已知研究中移除所有项目；未指定§7research-key§r选项时必需，与§7research-key§r和§7scalpel§r选项互斥
+salisarcana:command.forget-research.args.research=§7<--research-key>§r 指定要移除的研究项目ID；可传入多组该参数；未指定§7all§r选项时必需，与§7all§r选项互斥
+salisarcana:command.forget-research.args.player=§7[--player <玩家名>]§r 指定研究列表将被变更的玩家；未指定该选项时，默认为执行该命令的玩家
+salisarcana:command.forget-research.args.scalpel=§7[--scalpel]§r 指定该选项时，被指定的研究的同级或下级研究不会被移除；这可能会产生预料外的效应；与§7all§r选项互斥
+salisarcana:command.forget-research.args.retain-warp=§7[--retain-warp]§r 指定该选项时，与研究项目相应的永久扭曲和黏性扭曲会被保留
+
+salisarcana:command.forget-research.remove=§9成功：§r已移除%d个研究项目和相应的扭曲，包括%d点永久扭曲和%d点黏性扭曲。
+salisarcana:command.forget-research.retain=§9成功：§r已移除%d个研究项目（相应的%d点永久扭曲和%d点黏性扭曲§l未§r移除）。
+
+salisarcana:command.forget-scanned.desc=重置玩家扫描过的物品列表，使这些物品可被再次扫描。
+salisarcana:command.forget-scanned.usage=§7/salisarcana-forget-scanned §7[--player §7<玩家名>] §7[--objects] §7[--entities] §7[--nodes] §7[--all] §7[--aspects <...>]§r
+salisarcana:command.forget-scanned.args.player=§7[--player <玩家名>]§r 指定已扫描物品列表将被变更的玩家；未指定该选项时，默认为执行该命令的玩家
+salisarcana:command.forget-scanned.args.objects=§7[--objects]§r 重置已扫描的物品和方块
+salisarcana:command.forget-scanned.args.entities=§7[--entities]§r 重置已扫描的实体，包括生物
+salisarcana:command.forget-scanned.args.nodes=§7[--nodes]§r 重置已扫描的节点
+salisarcana:command.forget-scanned.args.hand=§7[--hand]§r 重置当前手持的物品；与§7--all§r选项互斥
+salisarcana:command.forget-scanned.args.inventory=§7[--inventory]§r 重置物品栏中的所有物品；与§7--all§r选项互斥
+salisarcana:command.forget-scanned.args.looking=§7[--looking]§r 重置你当前看向的方块；与§7--all§r选项互斥
+salisarcana:command.forget-scanned.args.container=§7[--container]§r 重置你当前看向的容器（如箱子）中的所有物品；与§7--all§r选项互斥
+salisarcana:command.forget-scanned.args.all=§7[--all]§r 等同于§7objects§r、§7entities§r、§7nodes§r选项之和
+
+salisarcana:command.forget-scanned.success=§9成功：§r%d个实体已从%s的扫描列表中移除。
+salisarcana:command.forget-scanned.failure=§c失败：§r%s的扫描列表中没有可以移除的项目。
+
+salisarcana:command.forget-aspect.desc=使玩家遗忘要素或重置对其的了解。
+salisarcana:command.forget-aspect.usage=§7/salisarcana-forget-aspect §7[--player §7<玩家名>] §7[--reset] §7[--forget] §7[--aspect <...>] §7[--all] §r
+salisarcana:command.forget-aspect.args.player=§7[--player §7<玩家名>]§r 指定要素列表将被变更的玩家；未指定该选项时，默认为执行该命令的玩家
+salisarcana:command.forget-aspect.args.reset=§7[--reset]§r 将玩家对要素的研究点数重置为1；与§7forget§r选项互斥
+salisarcana:command.forget-aspect.args.forget=§7[--forget]§r 遗忘该要素，使其变为未发现状态；与§7reset§r选项互斥
+salisarcana:command.forget-aspect.args.aspect=§7[--aspect §7<要素[ §7要素[ §7...]]]§r 重置或遗忘一个或多个要素。与§7all§r选项互斥
+salisarcana:command.forget-aspect.args.all=§7[--all]§r 重置或遗忘所有要素。与§7aspect§r选项互斥
+
+salisarcana:command.forget-aspect.success=§9成功：§r %s的要素列表中有%d个要素被变更
+salisarcana:command.forget-aspect.failure=§c失败：§r %s的要素列表没有变化
+salisarcana:command.forget-aspect.no-action=§c失败：§r 没有动作被指定，你需要从§7--reset§r和§7--forget§r中指定一个
+
+salisarcana:command.help.desc=获得关于Salis Arcana命令的帮助信息
+salisarcana:command.help.usage=§7/salisarcana-help §7[命令]§r
+salisarcana:command.help.args.cmd=§7§o[命令]§r Salis Arcana命令的名称或别称
+
+salisarcana:command.help.available=可用命令：
+salisarcana:command.help.nocommands=您没有权限使用已启用的Salis Mundis命令
+
+salisarrcana:command.infusion-symmetry.desc=获得附近8格内或特定左边的符文矩阵的对称性
+salisarrcana:command.infusion-symmetry.usage=§7/salisarcana-infusion-symmetry §7[<x> §7<y> §7<z>]§r
+salisarrcana:command.infusion-symmetry.args.coord=§7[<x> §7<y> §7<z>]§r 想要检查对称性的符文矩阵所在坐标
+salisarrcana:command.infusion-symmetry.not_found_coords=指定坐标没有找到符文矩阵
+salisarrcana:command.infusion-symmetry.not_found_nearby=附近没有找到符文矩阵
+salisarrcana:command.infusion-symmetry.found=§9这个符文矩阵可以稳定注魔不稳定度不超过§r%d§9的配方
+salisarrcana:command.infusion-symmetry.accessError=执行该命令时遇到错误，请向模组作者反馈该错误
+
+salisarcana:command.list-research.desc=按照魔导手册中的分组列出已注册的神秘时代4研究
+salisarcana:command.list-research.usage=§7/salisarcana-list-research §7[--player §7<玩家名>] §7[--search §7<搜索词>]§r
+salisarcana:command.list-research.args.player=§7[--player §7<玩家名>]§r 将结果限定在该玩家获得的研究中
+salisarcana:command.list-research.args.search=§7[--search §7<搜索词>§r 将结果限定在名称或id中含有搜索词的研究中。如果搜索词中含有空格，需要以英文双引号括起（例如"wand craft"）
+salisarcana:command.list-research.no_results=未找到符合条件的研究
+
+salisarcana:command.prereqs.desc=列出特定研究的前置研究，或者制造特定物品的所需的研究
+salisarcana:command.prereqs.usage=§7/salisarcana-prereqs §7[--research §7<研究标识符> §7[--completed]] §7[--item §7<物品id> §7[物品损伤值]]
+salisarcana:command.prereqs.args.research=§7[--research]§r 要查找的任务的唯一标识符。与§7item§r选项互斥
+salisarcana:command.prereqs.args.all=§7[--completed]§r 包含你已经获得的前置研究，仅在使用§7research§r选项时可用
+salisarcana:command.prereqs.args.item=§7[--item <物品id> [物品损伤值]]§r 你想查找的物品的ID及可选的损伤值。与§7research§r选项互斥
+
+salisarcana:command.prereqs.already_known=你已经完成了%s研究
+
+salisarcana:command.prereqs.header=解锁需要的前置
+
+salisarcana:command.prereqs.triggers=需要扫描：
+salisarcana:command.prereqs.triggers_or=或
+salisarcana:command.prereqs.triggers_aspects=包含一个或多个以下要素的物品
+salisarcana:command.prereqs.triggers_entities=下列实体之一
+salisarcana:command.prereqs.triggers_items=下列物品之一
+
+salisarcana:command.prereqs.parents=前置研究：
+salisarcana:command.prereqs.parents_none=无
+
+salisarcana:command.prereqs.header_item=制作%s所需的研究：
+salisarcana:command.prereqs.item_not_found=没有找到制作%s所需的研究
+
+salisarcana:command.update-node.desc=修改指定坐标的节点的属性
+salisarcana:command.update-node.usage=§7/salisarcana-update-node §7<x> §7<y> §7<z>§r §7[-t §7<节点类型>] §7[-m §7<节点特性>] §7[--set §7<要素1> §7<数量1>[ §7--set §7<要素2> §7<数量2> §7[...]]] §7[--rem §7<要素3>[ §7--rem §7<要素4>]]§r
+salisarcana:command.update-node.args.coord=§7§o<x> <y> <z>§r §c必需§r，需要修改的节点所在的坐标
+salisarcana:command.update-node.args.type=§7§o[-t <节点类型>]§r 更改节点类型
+salisarcana:command.update-node.args.modifier=§7§o[-m <节点特性>]§r 更改节点特性
+salisarcana:command.update-node.args.set=§7§o[--set <要素> <数量>]§r 设定节点特定要素的数量。可以传入多组该参数以指定多种要素
+salisarcana:command.update-node.args.rem=§7§o[--rem <要素> <数量>]§r 从节点中移除一定数量的一种要素。可传入多组该参数以指定多种要素
+salisarcana:command.update-node.not_found=在%d %d %d处未找到节点
+
+salisarcana:command.upgrade-focus.desc=给你自己或其他玩家手持的法杖核心添加升级。不能超过5次升级的限制
+salisarcana:command.upgrade-focus.usage=§7/salisarcana-upgrade-focus §7<核心升级[ §7核心升级[ §7...]]> §7[--player §7<玩家名>]
+salisarcana:command.upgrade-focus.args.upgrades=§7<核心升级>§r 必需。是包含要应用的一到五个升级id的列表。升级id遵循以下形式§7<数字id>-<升级名称>§r。可以通过tab键补全来查看可用的升级id
+salisarcana:command.upgrade-focus.args.player=§7[--player]§r 如果指定了特定玩家，该命令会给该玩家而不是你自己手中的核心应用升级
+salisarcana:command.upgrade-focus.noItem=目标玩家没有手持法杖核心
+salisarcana:command.upgrade-focus.noUpgrades=没有指定核心升级
+salisarcana:command.upgrade-focus.tooManyUpgrades=%d个核心升级因为升级数量上限未能成功添加
+salisarcana:command.upgrade-focus.success=核心升级全部应用成功
+
+salisarcana:commands.export-research.success=§9成功：§r为%2$s导出了%1$s研究
+salisarcana:commands.export-research.usage=/salisarcana-export-research --research <研究标识符> [--overwrite]
+salisarcana:commands.export-research.failed=§c失败：§r导出%s研究时失败，该研究似乎存在不支持的属性
+
+salisarcana:error.invalid_aspect=“%s”不是一个已知的要素
+salisarcana:error.invalid_focus_upgrade=%s不是一个已知的核心升级
+salisarcana:error.invalid_node_modifier=%s不是一个已知的节点特性
+salisarcana:error.invalid_node_type=%s不是一个已知的节点类型
+salisarcana:error.unexpected_value=意外的输入：“%s”
+salisarcana:error.unknown_value=未知的值：“%s”
+salisarcana:error.unknown_research=%s不是一个已知的研究标识符
+
+salisarcana:update_available=Salis Arcana有新版本可用（%s）
+salisarcana:update_link=§9点击这里打开下载页面§r
+
+salisarcana:tcinventoryscan_notice=§e注意：§rThaumic Inventory Scanning模组已经被Salis Arcana模组§c停用§r，为避免冲突，你应该删除该模组。你可以在salisarcana/enhancements.cfg中打开Salis Arcana提供的扫描功能
+
+tc.research_name.CAP_iron=铁杖端
+tc.research_name.ROD_wood=木杖柄
+
+salisarcana:tcinventoryscan.scanning=扫描中
+salisarcana:tcinventoryscan.thaumometerTooltip=背包(箱子)扫描可用
+salisarcana:tcinventoryscan.thaumometerTooltipMore=将魔导透镜悬停在\n物品之上以扫描它.
+
+tc.research_name.salisarcana:REPLACEWANDCAPS=杖端替换
+tc.research_text.salisarcana:REPLACEWANDCAPS=改进你的法杖
+tc.research_page.salisarcana:REPLACEWANDCAPS.0=通过正确的方法,你可以替换法杖的杖端.法杖原有的杖端会被摧毁,但杖柄会保留下来.<BR>替换杖端所需的vis与直接制作法杖消耗的vis相等.例如,将金杖端宏伟之木法杖升级为神秘杖端宏伟之木法杖的消耗与直接制作神秘杖端宏伟之木法杖的消耗相等.
+
+tc.research_name.salisarcana:REPLACEWANDCORE=杖柄替换
+tc.research_text.salisarcana:REPLACEWANDCORE=改进你的法杖
+tc.research_page.salisarcana:REPLACEWANDCORE.0=通过正确的方法,你可以替换法杖的杖柄.法杖原来的杖柄会被摧毁,但杖端会保留下来.<BR>替换杖柄所需的vis与直接制作法杖消耗的vis相等.例如,将金杖端宏伟之木法杖升级为金杖端银树法杖的消耗与直接制作金杖端银树法杖的消耗相等.
+
+tc.research_name.salisarcana:CHESTSCAN=容器扫描
+tc.research_text.salisarcana:CHESTSCAN=看得更仔细些
+tc.research_page.salisarcana:CHESTSCAN.0=多亏了你在解构物品方面的研究,你现在学会了使用魔导透镜魔法般地"解构"一个方块来看到他的内部.你可以扫描任何可以容纳物品的方块,比如箱子或者漏斗,以自动地扫描其容纳的所有物品.
+
+item.Wand.staffter.obj=手权杖
+
+focus.upgrade.salisarcana:disenchant.name=核心祛魔
+focus.upgrade.salisarcana:disenchant.text=移除核心的最后一个升级并返还一定经验
+focus.upgrade.salisarcana:disenchant.text.generic=移除核心的最后一个升级并返还%d%%的经验
+focus.upgrade.salisarcana:disenchant.text.specific=移除核心的§5%s§r升级并返还§a%d经验§r
+
+tc.research_name.salisarcana:FOCUS_DISENCHANTING=核心祛魔
+tc.research_text.salisarcana:FOCUS_DISENCHANTING=后悔你的选择
+tc.research_page.salisarcana:FOCUS_DISENCHANTING.0=在试验核心镶饰台的过程中,你注意到你很多非常实用的核心被他们的升级毁了.<BR>让你高兴的是,一些额外的实验表明,核心上的附魔并没有看上去那么持久.<BR>通过在核心镶饰台中给升级过的核心注入§8混沌§0CV,你可以移除核心的最后一个升级,并返还升级所花费经验的至多%d%%
+tc.research_page.salisarcana:FOCUS_DISENCHANTING.1=(由于等级越高升级所需的经验越多,在经验等级高于最低等级要求时升级会消耗额外的经验)
+
+salisarcana:error_missing_research.infusion=你缺失启动该注魔的研究!在制造该物品前,你必须先完成%2$s中的"%1$s"研究!
+salisarcana:error_missing_research.crucible=你缺失在坩埚中合成该配方的研究!在制造该物品前,你必须先完成%2$s中的"%1$s"研究!
+salisarcana:error_missing_research.gui=缺失前置研究

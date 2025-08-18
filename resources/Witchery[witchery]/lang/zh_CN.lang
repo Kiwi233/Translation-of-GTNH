@@ -26,8 +26,8 @@ item.witchery:ingredient.mandrakeRoot.name=曼德拉草根
 item.witchery:ingredient.demonHeart.name=恶魔之心
 item.witchery:ingredient.batWool.name=蝙蝠之毛
 item.witchery:ingredient.dogTongue.name=狗之舌
-item.witchery:ingredient.clayJarSoft.name=软粘土罐
-item.witchery:ingredient.clayJar.name=粘土罐
+item.witchery:ingredient.clayJarSoft.name=软黏土罐
+item.witchery:ingredient.clayJar.name=黏土罐
 item.witchery:ingredient.foulFume.name=邪恶熏气
 item.witchery:ingredient.diamondVapour.name=钻石熏气
 item.witchery:ingredient.oilOfVitriol.name=浓硫酸
@@ -191,10 +191,10 @@ witchery.book.mushroomred=红蘑菇
 witchery.book.mushroombrown=棕蘑菇
 witchery.book.altarpower=祭坛之力
 witchery.book.oven1={o{l巫术{r{r{o: 收集熏气{r||使用巫师烤炉烹煮物品会有一定几率能够收集到熏气.||这种烤箱并不能冶炼矿物,但相比普通熔炉它在烹煮食物时速度稍快.
-witchery.book.oven2=将 {8粘土罐{0放入烤箱来收集烹煮过程中产生的熏气:||食物 {6邪恶熏气{0|木头 {6邪恶熏气{0||烹煮{2树苗{0能够得到{8木灰{0且可能释放出树木的气态精华物质.
+witchery.book.oven2=将 {8黏土罐{0放入烤箱来收集烹煮过程中产生的熏气:||食物 {6邪恶熏气{0|木头 {6邪恶熏气{0||烹煮{2树苗{0能够得到{8木灰{0且可能释放出树木的气态精华物质.
 witchery.book.oven3={n树苗熏气{r||橡木 {8角魔之息{0|白桦 {8女神之息{0|云杉 {8重生之息{0|山梨 {8魔力之息{0|山楂 {8纯净之息{0|赤杨 {8厄运之息{0
-witchery.book.distillery1={o{l巫术{r{r{o: 蒸馏{r||{81.{0 确保蒸馏塔毗邻祭坛放置以获得能量.|{82.{0 将所需数量的粘土罐与待蒸馏材料一起丢入蒸馏塔中.|{83.{0 等待蒸馏完成.
-witchery.book.distillery.jars=粘土罐
+witchery.book.distillery1={o{l巫术{r{r{o: 蒸馏{r||{81.{0 确保蒸馏塔毗邻祭坛放置以获得能量.|{82.{0 将所需数量的黏土罐与待蒸馏材料一起丢入蒸馏塔中.|{83.{0 等待蒸馏完成.
+witchery.book.distillery.jars=黏土罐
 witchery.book.distillery.items={n可蒸馏下列物品{r
 witchery.book.distillery.results={n蒸馏产物{r
 witchery.book.brews1={o{l巫术{r{r{o: 酿造&注魔{r||{81.{0 将药材丢入装满水加热的壶中.如果必要的话用祭坛提供能量.{82.{0 将酿造产物装入空玻璃瓶中.|{83.{0 使用注魔仪式灌入魔力;但你须记得,{0死亡几乎总会如期而至{0.
@@ -259,12 +259,12 @@ tile.witchery:voidbramble.name=虚空荆棘
 witchery.rite.naturespower=自然力量仪式{r||对贫瘠的区域施放自然之力.
 
 item.witchery:witchrobe.name=巫师袍
-item.witchery:witchrobe.tip=城市里眼光敏锐的巫师所穿戴的服饰.||{5爬行者会无视穿戴者.{0||{9 35%几率额外获得一瓶药水 (除了死灵类药水){0
+item.witchery:witchrobe.tip=城市里眼光敏锐的巫师所穿戴的服饰.||{5苦力怕会无视穿戴者.{0||{9 35%几率额外获得一瓶药水 (除了死灵类药水){0
 
 item.witchery:necromancerrobe.name=死灵法师袍
 item.witchery:necromancerrobe.tip=死灵归降.||{5不死族会基本无视穿戴者.{0||{9 35%几率额外获得一瓶死灵类药水{0
 
-item.witchery:ingredient.creeperHeart.name=爬行者之心
+item.witchery:ingredient.creeperHeart.name=苦力怕之心
 tile.witchery:glintweed.name=闪烁草
 item.witchery:ingredient.brewLove.name=爱之酿药水
 
@@ -312,7 +312,7 @@ witchery.book.herbology.belladonna=颠茄以能产出致命的剧毒出名.它�
 witchery.book.herbology.snowbell=冰冷若雪的怪异植物,生长时能够冻结空气里的水汽.它可以种植在耕地上,分若干阶段生长.高草阶段能产出种子.
 witchery.book.herbology.artichoke=具有奇怪效果的水生植物,胃囊鼓起来又瘪下去.它可以种植在静止水源上,分若干阶段生长.高草阶段能产出种子.
 witchery.book.herbology.glintweed=散发出非人间的光芒照亮周围.能够生长在任何地方,但只会向草地,泥土和沙子上蔓延.使用转生粉来使得其他植物变异成为它.
-witchery.book.herbology.spanishmoss=一种爬行者模样的苔藓,最适宜种在树上,能结出最好的娃娃.使用剪刀来收获以免损伤株体.使用转生粉来使得其他植物变异成为它.
+witchery.book.herbology.spanishmoss=一种苦力怕模样的苔藓,最适宜种在树上,能结出最好的娃娃.使用剪刀来收获以免损伤株体.使用转生粉来使得其他植物变异成为它.
 witchery.book.herbology.embermoss=拥有独特防护的植物,被入侵时会爆裂开来变成一团火焰.能够生长在任何地方,但只会向草地,泥土和沙子上蔓延.使用转生粉来使得其他植物变异成为它.
 witchery.book.herbology.voidbramble=这种奇怪的树莓能够阻挡生物前进,一旦他们靠近就将其传送离开.创建并且使用一些没有仪式的魔法能够有效接近它.
 witchery.book.herbology.rowan=山梨树,或者也可用说成是一种相比其他树种对魔力格外亲和的突变白蜡树.使用转生粉来使得其他植物变异成为它.
@@ -365,7 +365,7 @@ witchery.rite.curseinsanity1=精神错乱之咒{r||诅咒巫媒对象陷入怪�
 witchery.rite.removeinsanity1=祛除疯狂仪式{r||试图平复巫媒对象的疯狂,但情况也可能会更糟.
 tile.witcheryStatusGoddess.curemisfortune=女神祛除你的厄运连连.
 tile.witcheryStatusGoddess.cureinsanity=女神平复你的精神错乱.
-entity.witchery.illusionCreeper.name=爬行者
+entity.witchery.illusionCreeper.name=苦力怕
 entity.witchery.illusionSpider.name=蜘蛛
 entity.witchery.illusionZombie.name=僵尸
 
@@ -447,7 +447,7 @@ witchery.book.herbology.bloodrose=在女巫花园里务必留神,玫瑰茎叶上
 entity.witchery.covenwitch.name=聚会女巫
 item.witchery:ingredient.seerStone.name=先知之石
 witchery.rite.infusionseerstone=注魔仪式{r||向石头注魔以参加女巫聚会的交流.夜晚才能施展.
-witchery.rite.climatechange=季节变迁仪式{r||使用群落核心和萤石来选择生态群落.需要至少4名聚会女巫.
+witchery.rite.climatechange=季节变迁仪式{r||使用群落核心和荧石来选择生态群落.需要至少4名聚会女巫.
 witchery.rite.iceshell=寒冰蔓延仪式{r||制造一个冰球.需要至少2名聚会女巫.
 witchery.rite.curseoverheating=过热之咒{r||诅咒巫媒对象过热.
 witchery.rite.cureoverheating=诅咒祛除仪式{r||驱散巫媒对象的过热效果.事情亦有可能更糟.
@@ -552,7 +552,7 @@ witchery.item.seerstone.nightmare=行走梦魇之咒 (%d)
 witchery.rite.cursenightmare=行走梦魇之咒{r||诅咒目标生物.
 witchery.rite.curenightmare=诅咒祛除仪式{r||清除巫媒对象的梦魇.事情可能变得更糟.
 
-witchery.book.biomes1={o{l生态之书{r{r||理解世界上那些生态群落的第一步是改变它们.下面数页能发现完成{o季节变迁仪式{r所需要的核心物品以及萤石粉的消耗量.
+witchery.book.biomes1={o{l生态之书{r{r||理解世界上那些生态群落的第一步是改变它们.下面数页能发现完成{o季节变迁仪式{r所需要的核心物品以及荧石粉的消耗量.
 witchery.book.biomes.foci=核心
 witchery.book.biomes.forest.name=森林
 witchery.book.biomes.forest.item=橡树树苗
@@ -563,7 +563,7 @@ witchery.book.biomes.mountain.item=黑曜石
 witchery.book.biomes.hills.name=丘陵
 witchery.book.biomes.hills.item=石头
 witchery.book.biomes.swamp.name=沼泽
-witchery.book.biomes.swamp.item=粘性球
+witchery.book.biomes.swamp.item=黏性球
 witchery.book.biomes.water.name=水域
 witchery.book.biomes.water.item=水桶
 witchery.book.biomes.desert.name=沙漠
@@ -1171,7 +1171,7 @@ witchery:cauldronbook.toc/crafting2=[next=crafting3][h1 道具制作: 配方]> [
 witchery:cauldronbook.crafting3=[h1 道具制作: 配方]> [url=pittraps 落穴陷阱][br]> [url=compass 玩家指南针]
 witchery:cauldronbook.boiledmeat=[h1 道具制作: 熟肉]生猪排,生牛排,生鸡排和 生猪排?可以被扔到沸腾的 锅里煮熟.[br][br][template=tcraft stack|0=porkchop 1=cooked_porkchop]
 witchery:cauldronbook.mutandis=[h1 道具制作: 转生粉]对普通植物使用转生粉来 变成其他植物,可能变出来 未知的植物.[br][br][template=tcraft stack|0=witchery:ingredient|22,witchery:ingredient|31,egg 1=witchery:ingredient|14|6]
-witchery:cauldronbook.mutandisextremis=[h1 道具制作: 超级转生粉]对植物使用来突变它们. 草方块可以变成菌丝. 水下的泥土可以变成粘土块.[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|14 1=witchery:ingredient|15]
+witchery:cauldronbook.mutandisextremis=[h1 道具制作: 超级转生粉]对植物使用来突变它们. 草方块可以变成菌丝. 水下的泥土可以变成黏土块.[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|14 1=witchery:ingredient|15]
 witchery:cauldronbook.mutatingsprig=[h1 道具制作: 变异枝条]配合仪式对植物和动物使用 来制造突变.[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|82,witchery:ingredient|15 1=witchery:mutator]
 witchery:cauldronbook.dropofluck=[h1 道具制作: 幸运滴液]溢满的幸运,很稀有而且 难以制作.[br][br][template=tcraft stack|0=witchery:ingredient|22,nether_wart,witchery:ingredient|37,witchery:ingredient|38,witchery:ingredient|15 1=witchery:ingredient|39]
 witchery:cauldronbook.otherwherechalk=[h1 道具制作: 他处粉笔]用来绘制带有传送性质的法阵[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|37,ender_pearl,witchery:chalkritual 1=witchery:chalkotherwhere]

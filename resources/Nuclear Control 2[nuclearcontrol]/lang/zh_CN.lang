@@ -45,6 +45,18 @@ tile.blockInfoPanel.name=工业信息屏
 tile.blockInfoPanelExtender.name=工业信息屏扩展
 tile.blockAdvancedInfoPanel.name=高级工业信息屏
 tile.blockAdvancedInfoPanelExtender.name=高级工业信息屏扩展
+tile.blockAdvancedInfoPanel.RotateRight=向右旋转
+tile.blockAdvancedInfoPanel.RotateLeft=向左旋转
+tile.blockAdvancedInfoPanel.Colors=更改颜色
+tile.blockAdvancedInfoPanel.Labels=标签
+tile.blockAdvancedInfoPanel.Power=普通/反转 红石 开启/关闭
+tile.blockAdvancedInfoPanel.Slope=更改坡度设置
+tile.blockAdvancedInfoPanel.Settings=设置
+tile.blockAdvancedInfoPanel.Transparency=切换透明度
+tile.blockAdvancedInfoPanel.LineConfig=开启线路配置
+tile.blockAdvancedInfoPanel.Save=保存
+tile.blockAdvancedInfoPanel.Reset=重置
+tile.blockAdvancedInfoPanel.Cancel=取消
 tile.nclight0.name=白色灯
 tile.nclight1.name=白色灯
 tile.nclight2.name=橙色灯
@@ -144,14 +156,25 @@ nc.msg.notValid=该卡片不兼容
 nc.msg.notValid2=远程显示器
 nc.msg.notValid3=请重新打开显示器再试
 
+
+# Advanced Info Panel Settings messages
+# Settings labels for Vanilla Machine Card (Furnace/Brewing Stand)
+msg.nc.Vanilla.setting.activityStatus=激活状态（酿造中/燃烧中）
+msg.nc.Vanilla.setting.activeTime=激活时间（酿造/燃烧）
+msg.nc.Vanilla.setting.slot1Contents=槽位1内容（药水/输入）
+msg.nc.Vanilla.setting.slot2Contents=槽位2内容（药水/燃料）
+msg.nc.Vanilla.setting.slot3Contents=槽位3内容（药水/输出）
+
+
 #Vanilla Intergration Messages
 msg.nc.Vanilla.Display=%s / %s 格已用
 msg.nc.Vanilla.Name=方块名称
 msg.nc.Vanilla.StorageLVL=存储等级
-msg.nc.Vanilla.brewstand=当前酿造时间: %s
+msg.nc.Vanilla.brewstand=酿造时间: %s
 msg.nc.Vanilla.potionType1=第1药水类型: %s
 msg.nc.Vanilla.potionType2=第2药水类型: %s
 msg.nc.Vanilla.potionType3=第3药水类型: %s
+msg.nc.Vanilla.Time=激活时间
 msg.nc.Vanilla.brewing=酿造中
 msg.nc.Vanilla.notBrewing=未酿造
 msg.nc.Vanilla.dispBrewUse=显示输出类型#%s
@@ -161,6 +184,7 @@ msg.nc.Vanilla.cooking=烹饪中: %sx - %s
 msg.nc.Vanilla.fuel=燃料: %sx - %s
 msg.nc.Vanilla.output=输出: %sx - %s
 msg.nc.Vanilla.burnTime=燃烧时间: %s
+
 
 #Big Reactor Messages
 msg.nc.InfoPanelRF.Temp=核心温度：%s°C
@@ -176,7 +200,7 @@ msg.nc.InfoPanelRF.OutputTank=输出槽: %s x%smB
 #5x5 Reactor Messages
 msg.nc.InfoPanel55.Output=输出：%s Hu/s
 msg.nc.InfoPanel55.Temp=核心温度：%s%%
-msg.nc.InfoPanel55.tarkin=储罐输入：%s / 10000 mB
+msg.nc.InfoPanel55.tankin=储罐输入：%s / 10000 mB
 msg.nc.InfoPanel55.tankout=储罐输出：%s / 10000 mB
 msg.nc.InfoPanel55.Out=输出(Hu/s)
 msg.nc.InfoPanel55.BufferIn=冷却液缓冲储罐

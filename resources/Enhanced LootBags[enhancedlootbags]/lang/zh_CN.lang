@@ -2,11 +2,13 @@ enhancedlootbags.string.lootbag_templatename=战利品袋(%s)
 enhancedlootbags.string.default=默认
 enhancedlootbags.string.try_again=无效. 请再试一次!
 enhancedlootbags.string.sorry_damaged=这个战利品袋看起来损坏了, 抱歉
+enhancedlootbags.string.not_fortuned=§5来些“时运”应该是个好主意…
+enhancedlootbags.string.no_fortune_needed=你觉得手气不错!
+enhancedlootbags.string.fortuned=§6低档战利品已减少：%d%%
 itemGroup.ELBTab=增强战利品袋
 
 enhancedlootbags.nei.category=战利品袋
-enhancedlootbags.nei.recipe.contains_trash=包含垃圾: %s
-enhancedlootbags.nei.recipe.is_trash=这是一个垃圾奖励袋
+enhancedlootbags.nei.recipe.also_has_loot_from=还包括下述袋中的战利品：
 enhancedlootbags.nei.recipe.drop_id=掉落ID：%s
 enhancedlootbags.nei.recipe.drop_group=掉落组：%s
 enhancedlootbags.nei.recipe.amount_exact=数量：%s
@@ -16,5 +18,5 @@ enhancedlootbags.nei.recipe.limit_reached=(达到上限)
 enhancedlootbags.nei.recipe.weight=权重: %s
 enhancedlootbags.nei.recipe.weight_accumulated=累积权重：%s
 enhancedlootbags.nei.recipe.chance=掉落 %% (F0/1/2/3)：%s | %s | %s | %s
-enhancedlootbags.nei.recipe.true=是
-enhancedlootbags.nei.recipe.false=否
+
+enhancedlootbags.dreamcraft.enchantment_tip=§3可与一本时运III附魔书和一个组件合成来附魔！
