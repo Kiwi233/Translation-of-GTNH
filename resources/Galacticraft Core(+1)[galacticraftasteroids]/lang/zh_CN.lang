@@ -13,7 +13,7 @@ item.rocketFinsT2.name=重型火箭鳍
 item.engineT2.name=重型火箭引擎
 item.itemBasicAsteroids.name=资源
 item.reinforcedPlateT3.name=重型装甲板
-item.grapple.name=吊钩
+item.grapple.name=攀缘钩爪
 item.atmosphericValve.name=气闸
 item.thermalCloth.name=隔热布匹
 item.beamCore.name=粒子束核心
@@ -109,7 +109,7 @@ gui.message.sendingActive.name=激活发送
 gui.message.range.name=范围: %dm
 gui.message.notEnoughEnergy.name=能量不足
 gui.message.targetNoEnergy.name=目标没有足够的能量
-gui.message.grapple.fail=如果我想将抓升钩抛出,我的物品栏中需要有足够的线!
+gui.message.grapple.fail=我需要有足够的线来抛出攀缘钩爪！
 gui.message.astroMiner.fail=该基地已经绑定过太空采矿机
 gui.message.astroMiner1.fail=停泊区已经被占用: 
 gui.message.astroMiner1A.fail=太空采矿机的行进路线被阻挡:
@@ -145,7 +145,7 @@ schematic.astroMiner.name=太空采矿机
 
 # ENTITIES
 entity.GalacticraftMars.SmallAsteroidGC.name=小行星
-entity.GalacticraftMars.GrappleHookGC.name=Grapple Hook
+entity.GalacticraftMars.GrappleHookGC.name=攀缘钩爪
 entity.GalacticraftMars.Tier3RocketGC.name=3阶火箭
 entity.GalacticraftMars.EntryPodAsteroids.name=登陆舱
 entity.GalacticraftMars.AstroMiner.name=太空采矿机
