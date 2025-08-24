@@ -168,3 +168,19 @@ tc.research_page.salisarcana:FOCUS_DISENCHANTING.1=(由于等级越高升级所�
 salisarcana:error_missing_research.infusion=你缺失启动该注魔的研究!在制造该物品前,你必须先完成%2$s中的"%1$s"研究!
 salisarcana:error_missing_research.crucible=你缺失在坩埚中合成该配方的研究!在制造该物品前,你必须先完成%2$s中的"%1$s"研究!
 salisarcana:error_missing_research.gui=缺失前置研究
+
+salisarcana:duplicate_research.extra_page=§l[Salis Arcana]§r<BR>此外,当鼠标悬停在魔导手册中任何已完成的研究上时,将显示一个新按钮.<BR>按住Shift键点击该按钮,将消耗纸张,书写工具中的墨水以及部分研究要素,生成一份该研究完成的研究报告.
+salisarcana:duplicate_research.text="%s"副本
+salisarcana:duplicate_research.prompt=按住Shift键点击购买此项研究的副本
+salisarcana:duplicate_research.success=研究笔记副本已添加到库存
+
+tile.blockPortalNothing.name=传送门：无
+
+slot.focus_pouch=§a法杖核心手袋§7
+
+salisarcana:misc.golem.reject_player=你不是我的主人！
+salisarcana:misc.warded.destroy_ender_pearl=附近一个被施加了保护的物品摧毁了末影珍珠。
+salisarcana:misc.arcane_pressure_plate.everyone=现在它所有情况都会触发。
+salisarcana:misc.arcane_pressure_plate.not_you=现在它会触发除你之外的所有目标。
+salisarcana:misc.arcane_pressure_plate.only_you=现在只会对你触发。
+salisarcana:misc.mirror.already_linked=该镜子已经链接到了一个有效的目的地。
