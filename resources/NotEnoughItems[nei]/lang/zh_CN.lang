@@ -63,6 +63,7 @@ nei.itempanel.open_crafting=制作此物品的配方
 nei.itempanel.open_usage=使用此物品的配方
 nei.itempanel.copy_name=复制物品名称
 nei.itempanel.copy_oredict=复制物品矿物词典
+nei.itempanel.chat_link_item=将物品链接分享到聊天框
 
 nei.enchant=附魔
 nei.enchant.level=等级
@@ -134,6 +135,8 @@ nei.chat.chunkoverlay.0=区块显示：关
 nei.chat.chunkoverlay.1=区块显示：仅区块角
 nei.chat.chunkoverlay.2=区块显示：区块
 nei.chat.chunkoverlay.3=区块显示：GT矿脉
+nei.chat.item_link.text=<%s> §6点击以添加书签：%s
+nei.chat.bookmark_added.text=已添加书签！
 
 nei.options=NEI选项
 nei.options.back=后退
@@ -174,6 +177,7 @@ nei.options.keys.gui.next_tooltip=下一条Tooltip
 nei.options.keys.gui.copy_name=复制物品名称
 nei.options.keys.gui.craft_items=制作物品
 nei.options.keys.gui.copy_oredict=复制物品矿物词典
+nei.options.keys.gui.chat_link_item=将物品链接分享到聊天框
 nei.options.keys.gui.itemzoom_toggle=切换物品展示
 nei.options.keys.gui.itemzoom_hold=按住以显示物品展示
 nei.options.keys.gui.itemzoom_zoom_in=缩小物品展示
