@@ -19,17 +19,43 @@
                 <str/>
             </op>
             <var>fps</var>
+            
+            <if>
+                <equal>
+                    <var>ping</var>
+                    <str>-1</str>
+                </equal>
+                <str> </str>
+                <concat>
+                    <str>$f Ping: {green}</str>
+                    <op>
+                        <str>gt</str>
+                        <var>ping</var>
+                        <num>460</num>
+                        <num>320</num>
+                        <num>200</num>
+                        <num>80</num>
+                        <str>{darkred}</str>
+                        <str>{red}</str>
+                        <str>{gold}</str>
+                        <str>{yellow}</str>
+                        <str/>
+                    </op>
+                    <var>ping</var>
+                </concat>
+            </if>
+
             <icon>
                 <str>minecraft:daylight_detector</str>
             </icon>
-            <str>              $f现实时间： $r</str>
+            <str>          $f现实时间:  $r</str>
             <str>$6{rltime24} $r</str>
         </line>
         <line>
             <icon>
                 <str>minecraft:clock</str>
             </icon>
-            <str> MC日期  ： 第{darkaqua} </str>
+            <str> MC日期:  第{darkaqua} </str>
             <add>
                 <round>
                     <div>
@@ -46,12 +72,12 @@
                 </round>
                 <num>1</num>
             </add>
-            <str> {white}年； 第{darkaqua} </str>
+            <str> {white}年; 第{darkaqua} </str>
             <modi>
                 <var>day</var>
                 <num>365</num>
             </modi>
-            <str> {white}天； 时间：{gold}{mctime12} </str>
+            <str> {white}天; 时间: {gold}{mctime12} </str>
             <if>
                 <var>daytime</var>
                 <str>{yellow}(白天)</str>
@@ -62,7 +88,7 @@
             <icon>
                 <str>HardcoreEnderExpansion:temple_end_portal</str>
             </icon>
-            <str> 世界      ：{gold} </str>
+            <str> 世界: {gold} </str>
                 <op>
                     <str>eq</str>
                     <var>dimensionid</var>
@@ -233,13 +259,13 @@
                     </greater>
                     <str>$6花园/虚空世界</str>
                 </if>
-            <str> $e({dimensionid}) {white}已加载区块数： {gold}{loadedchunks} </str>
+            <str> $e({dimensionid}) {white}已加载区块数:  {gold}{loadedchunks} </str>
         </line>
         <line>
             <icon>
                 <str>witchery:mooncharm</str>
             </icon>
-            <str> 月相      ： </str>
+            <str> 月相:  </str>
             <op>
                 <str>eq</str>
                 <modi>
@@ -269,14 +295,14 @@
                 <str>minecraft:skull</str>
                 <num>4</num>
             </icon>
-            <str> 实体      ： {gold}{entitiesrendered}{white} 已渲染 / {gold}{entitiestotal}{white} 已加载  </str>
+            <str> 实体:  {gold}{entitiesrendered}{white} 已渲染 / {gold}{entitiestotal}{white} 已加载  </str>
         </line>
         <line>
             <icon>
                 <str>minecraft:sapling</str>
                 <num>4</num>
             </icon>
-            <str> 生物群系： {darkaqua}</str>
+            <str> 生物群系:  {darkaqua}</str>
             <op>
                 <str>eq</str>
                 <var>biomeid</var>
@@ -795,7 +821,7 @@
                 <str>minecraft:compass</str>
                 <num>0</num>
             </icon>
-            <str> 区块坐标： X:{gold} {chunkx} {white}Z:{gold} {chunkz}{white} 偏移:  {gold}{chunkoffsetx} {white}:{gold} {chunkoffsetz} {white}</str>
+            <str> 区块坐标:  X:{gold} {chunkx} {white}Z:{gold} {chunkz}{white} 偏移:  {gold}{chunkoffsetx} {white}:{gold} {chunkoffsetz} {white}</str>
             <str> Y: {gold}{yfeeti}{white} 面向 {gold}</str>
             <op>
                 <str>eq</str>
@@ -817,17 +843,12 @@
                 <str>西方</str>
                 <str>西北</str>
             </op>
-            <str>$f</str>
-            <if>
-                <var>slimes</var>
-                <str> {darkgreen}史莱姆区块{white}</str>
-            </if>
         </line>
         <line>
             <icon>
                 <str>minecraft:torch</str>
             </icon>
-            <str> 光照等级： </str>
+            <str> 光照等级: </str>
             <max>
                 <var>light</var>
                 <num>7.5</num>
@@ -835,7 +856,23 @@
                 <str>{red}</str>
             </max>
             <var>light</var>
-            <str>{white} (脚下: </str>
+            <str>{white} §b(天空: §r</str>
+            <max>
+                <var>lightsun</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>lightsun</var>
+            <str>{white} §a方块:§r </str>
+            <max>
+                <var>lightnosun</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>lightnosun</var>
+            <str>{white}§a){white} 脚下: </str>
             <max>
                 <var>lightfeet</var>
                 <num>7.5</num>
@@ -843,25 +880,42 @@
                 <str>{red}</str>
             </max>
             <var>lightfeet</var>
-            <str>{white})</str>
+            <str>{white} §b(§r</str>
+            <max>
+                <var>lightsunfeet</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>lightsunfeet</var>
+            <str>{white} :§r </str>
+            <max>
+                <var>lightnosunfeet</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>lightnosunfeet</var>
+	        <str>{white}§a)</str>
         </line>
         <line>
             <icon>
                 <str>Thaumcraft:ItemResource</str>
                 <num>4</num>
             </icon>
-			<str> 神秘时代：</str>
-            <str> 永久扭曲：$4{tcwarpperm}$f   </str>
-            <str> 一般扭曲：$4{tcwarpsticky}$f   </str>
-            <str> 临时扭曲：$4{tcwarptemp}$f </str>
+            <str> 神秘时代: </str>
+            <str>扭曲: $4{tcwarptotal}$f </str>
+            <str>(永久: $4{tcwarpperm}$f </str>
+            <str>一般: $4{tcwarpsticky}$f </str>
+            <str>临时: $4{tcwarptemp}$f)</str>
         </line>
         <line>
             <icon>
                 <str>BloodArsenal:heart</str>
                 <num>4</num>
             </icon>
-            <str> 血魔法   ：</str>
-            <str> $6宝珠等级：$4</str>
+            <str> 血魔法: </str>
+            <str> $6宝珠等级: $4</str>
             <operation>
                 <str>GT</str>
                 <var>bmmaxlp</var>
@@ -882,7 +936,7 @@
             </operation>
             <str>$f </str>
 
-            <str>$6- 最大LP：$4</str>            
+            <str>$6- 最大LP: $4</str>            
             <if>
                 <greater>
                     <round>
@@ -1283,7 +1337,7 @@
             </concat>
             <str>$f </str>
 
-            <str> 当前LP：$4</str>
+            <str> 当前LP: $4</str>
             <if>
                 <greater>
                     <round>
@@ -2447,7 +2501,21 @@
         <line>
             <if>
                 <equal>
-                <var>gtnewore</var>
+                    <var>slime</var>
+                    <str>true</str>
+                </equal>
+                <concat>
+                    <icon>
+                            <str>textures/items/slimeball.png</str>
+                    </icon>
+                    <str> 这是一个 {darkgreen}史莱姆区块{white}</str>
+                </concat>
+            </if>
+        </line>
+        <line>
+            <if>
+                <equal>
+                    <var>gtnewore</var>
                     <str>true</str>
                 </equal>
                 <if>
@@ -2488,12 +2556,8 @@
                     <concat>
                         <icon>
                             <str>textures/items/diamond_pickaxe.png</str>
-                            <num>0</num>
-                            <num>0</num>
-                            <num>16</num>
-                            <num>16</num>
                         </icon>
-                        <str>  此处为 {darkgreen}{underline}矿脉{white} 的中心区块.</str>
+                        <str> 你位于{darkgreen}{underline}矿脉{white}的 {darkgreen}{underline}中心区块{white}</str>
                     </concat>
                 </if>
             </if>
@@ -2540,12 +2604,8 @@
                     <concat>
                         <icon>
                             <str>textures/items/diamond_pickaxe.png</str>
-                            <num>0</num>
-                            <num>0</num>
-                            <num>16</num>
-                            <num>16</num>
                         </icon>
-                        <str>  此处为 {darkgreen}{underline}矿脉{white} 的中心区块.</str>
+                        <str> 你位于{darkgreen}{underline}矿脉{white}的 中心区块</str>
                     </concat>
                 </if>
             </if>
@@ -2563,44 +2623,10 @@
                     </equal>
                 </and>
                 <concat>
-                    <if>
-                        <and>
-                            <or>
-                                <equal>
-                                    <modi>
-                                        <var>chunkx</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>-1</num>
-                                </equal>
-                                <equal>
-                                    <modi>
-                                        <var>chunkx</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>1</num>
-                                </equal>
-                            </or>
-                            <or>
-                                <equal>
-                                    <modi>
-                                        <var>chunkz</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>-1</num>
-                                </equal>
-                                <equal>
-                                    <modi>
-                                        <var>chunkz</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>1</num>
-                                </equal>
-                            </or>
-                        </and>
-                        <str>      </str>
-                    </if>
-                    <str>  你正在区块 {darkred}中心{white} .</str>
+                        <icon>
+                                <str>tinker:textures/items/parts/netherrack_toughbind.png</str>
+                        </icon>
+                <str> 你位于区块的 {darkred}{underline}中心{white}</str>
                 </concat>
             </if>
         </line>
@@ -2609,7 +2635,7 @@
         </line>
         <line>
             <if>
-                <str>  最近玩家：</str>
+                <str>  最近玩家: </str>
             </if>
         </line>
         <line>
