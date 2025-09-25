@@ -61,10 +61,10 @@ botanichorizons.BH_LAPUTA.body_0=有些时候你得张扬一点.你找到了注�
 botanichorizons.BH_LAPUTA.body_1=随着所需浮空区域的增大,浮空所需的能量也有多,而迅速释放这些能量要求更好的材料.投资回报率都没有这么好看的图样...
 botanichorizons.BH_VIRUS.body=你不小心闯入了肉食植物这一奇怪的边缘学科,而且还创造出了某些疯狂的东西.至少动物实验条例似乎并不能在道德上约束你.
 
-tile.botanichorizons.automatedAlfPortal.name=人造精灵门核心
+tile.botanichorizons.automatedAlfPortal.name=人造精灵门
 tile.botanichorizons.automatedAlfPortal.hud.empty=人造精灵门核心（需要魔力）
-tile.botanichorizons.automatedAlfPortal.hud.idle=人造精灵门核心（未运行）
-tile.botanichorizons.automatedAlfPortal.hud.active=人造精灵门核心（运行中）
+tile.botanichorizons.automatedAlfPortal.hud.idle=人造精灵门（未运行）
+tile.botanichorizons.automatedAlfPortal.hud.active=人造精灵门（运行中）
 tile.botanichorizons.automatedCraftingPool.name=魔力喷泉
 tile.botanichorizons.automatedCraftingPool.hud.empty=魔力喷泉（需要魔力）
 tile.botanichorizons.automatedCraftingPool.hud.idle=魔力喷泉（未成形）
@@ -83,15 +83,16 @@ botanichorizons.lexicon.entry.multiblockInfo=新多方块结构
 botanichorizons.lexicon.tagline.multiblockInfo=植物学家格雷戈里
 botanichorizons.lexicon.text.multiblockInfo.1=你是否曾觉得&4植物魔法&0的合成 系统过于缓慢或难以自动化？ 这些全新的大型版本不仅速度 更快，还自带物品栏无需将物 品扔在地上，同时支持&1魔力发 射器&0和&1火花&0。将机械装置与这 些有机魔法造物结合的代价是， 它们需要消耗比平常更多的&4魔 力&0才能保持顺畅运转。
 
-botanichorizons.lexicon.entry.automatedAlfPortal=人造精灵门核心
+botanichorizons.lexicon.entry.automatedAlfPortal=人造精灵门
 botanichorizons.lexicon.tagline.automatedAlfPortal=发送它!
 botanichorizons.lexicon.preview.automatedAlfPortal=构建设备
-botanichorizons.lexicon.text.automatedAlfPortal.1=&1人造精灵传送门&0运用了先进的工程技术和神奇的精灵材料，比&1精灵传送门&0更能强化与&4精灵门核心&0的连接。虽然这种连接仍然过于脆弱，无法让生物通过，但已足够强大，能让&4精灵&0一次性传回多达一组物品！以这种方式强化连接，不仅维持开启需要消耗更多&4魔力&0，交换物品时也会消耗更多魔力。
+botanichorizons.lexicon.text.automatedAlfPortal.1=&1人造精灵传送门&00运用先进的工程技术与神奇的精灵材料，比您最初建造的&1精灵传送门&0更能强化与&4精灵门核心&0的连接。虽然这种连接仍不足以让生物通过，但可同时传送多件物品。这项功能是双向的——&4爱尔文·加尔得&0每次也能回传多达一整组的物品！
+botanichorizons.lexicon.text.automatedAlfPortal.2=然而，这种额外速度是有代价的。 以这种方式强化链接需要消耗 更多&4魔力&0来维持开启状态，并且 交换物品还会产生额外的&4魔力 &0消耗。&4魔力&0和物品将直接提供给 控制器。
 
 botanichorizons.lexicon.entry.automatedManaPool=魔力喷泉
 botanichorizons.lexicon.tagline.automatedManaPool=将物品浸入稳定的魔力流中
-botanichorizons.lexicon.text.automatedManaPool.1=自动化一个&1魔力池&0涉及投掷和收集物品。一些&1机械臂&0似乎能派上用场！你可以在一个大型中央池周围放置最多四个&1喷泉&0，它们一次能制作多达一组的物品。在给&1喷泉&0的控制方块提供少量&4魔力&0后，使用&1森林法杖&0来构建整个结构。
-botanichorizons.lexicon.text.automatedManaPool.2=每个&1喷泉&0都是专用的，只能执行一种特定类型的配方。当提供&4魔力&0时，&1魔力喷泉&0会执行不需要&1催化剂&0的配方，而&1炼金喷泉&0和&1炼造喷泉&0则会执行需要各自对应&1催化剂&0的配方。你尚未找到能够像&1魔力石板&0那样进行物品充能/放电的&1喷泉&0设计。
+botanichorizons.lexicon.text.automatedManaPool.1=自动化一个&1魔力池&0涉及投掷和 收集物品。一些&1机械臂&0似乎能派 上用场！你可以在一个大型中央 池周围放置最多四个&1喷泉&0，它们 一次能制作多达一组的物品。在 给&1喷泉&0的控制方块提供少量&4魔 力&0后，使用&1森林法杖&0来构建整个 结构。请确保中央的大池子没有任何 障碍物！
+botanichorizons.lexicon.text.automatedManaPool.2=每个&1喷泉&0都是专用的，只能执行 一种特定类型的配方。当提供&4魔 力&0时，&1魔力喷泉&0会执行不需要&1催 化剂&0的配方，而&1炼金喷泉&0和&1炼造 喷泉&0则会执行需要各自对应&1催 化剂&0的配方。你尚未找到能够像 &1魔力石板&0那样进行物品充能/放 电的&1喷泉&0设计。
 botanichorizons.lexicon.tagline.automatedCraftingPool=喷！
 botanichorizons.lexicon.crafting.automatedCraftingPool=制作喷泉
 botanichorizons.lexicon.preview.automatedCraftingPool=构建设备
@@ -101,3 +102,9 @@ botanichorizons.lexicon.preview.automatedConjurationPool=构建设备
 botanichorizons.lexicon.tagline.automatedAlchemyPool=大型化学反应釜
 botanichorizons.lexicon.crafting.automatedAlchemyPool=制作喷泉
 botanichorizons.lexicon.preview.automatedAlchemyPool=构建设备
+
+botanichorizons.tooltip.parallels=每秒处理最多 %d 份配方
+botanichorizons.tooltip.multiblock.1=尺寸：§6%d§7×§6%d§7×§6%d§7（§6宽§7×§6高§7×§6长§7）
+botanichorizons.tooltip.multiblock.2=这是一个高级多方块结构。
+botanichorizons.tooltip.multiblock.3=请参考§e植物学词典§7获取建造说明。
+botanichorizons.author.combuster=添加者：§4(Com)§6Buster§7

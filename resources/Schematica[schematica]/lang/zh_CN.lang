@@ -57,7 +57,7 @@ schematica.config.showDebugInfo.tooltip=在debug界面(F3)显示额外信息.
 schematica.config.alphaEnabled=启用Alpha
 schematica.config.alphaEnabled.tooltip=启用透明材质.
 schematica.config.alpha=Alpha
-schematica.config.alpha.tooltip=渲染Schematic时的Alpha值(1.0 = 不透明, 0.5 = 半透明, 0.0 = 透明).
+schematica.config.alpha.tooltip=渲染Schematic时的Alpha值（1.0 = 不透明，0.5 = 半透明，0.0 = 透明）。
 schematica.config.highlight=高亮方块
 schematica.config.highlight.tooltip=高亮显示已放置的无效方块和要放置的方块.
 schematica.config.highlightAir=高亮空气
@@ -136,7 +136,7 @@ schematica.command.save.started=开始将 %d 区块保存至 %s.
 schematica.command.save.saveSucceeded=成功保存 %s.
 schematica.command.save.saveFailed=保存schematic %s 时遇到问题.
 schematica.command.save.quotaExceeded=你已经超出了服务器配额. 请使用/schematicaList 和/schematicaRemove 指令移除一些旧schematics.
-schematica.command.save.playerSchematicDirUnavailable=服务器遇到一个问题, 你的schematic未能保存. 请联系服务器管理员.
+schematica.command.save.playerSchematicDirUnavailable=服务器遇到一个问题，你的schematic未能保存。请联系服务器管理员。
 
 # commands - list
 schematica.command.list.usage=/schematicaList [page]

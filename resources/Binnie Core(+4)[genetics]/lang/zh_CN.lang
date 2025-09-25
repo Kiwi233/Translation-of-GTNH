@@ -59,7 +59,7 @@ genetics.sequence.partially=测序 %d%%
 
 tile.machine.name=基因分离器
 genetics.machine.machine.isolator=基因分离器
-genetics.machine.machine.isolator.info=基因分离器将会从蜜蜂、树苗或者其它的独立个体中随机提取基因片段，并复制到空白序列中。此过程需要乙醇作为溶剂，还需要酶来切断DNA。未测序的序列可以在基因同化器中扩增，并在测序仪中进行测序。此过程有小概率摧毁该个体。
+genetics.machine.machine.isolator.info=基因分离器将会从蜜蜂、树苗或者其它的独立个体中随机提取基因片段，并复制到空白序列中。此过程需要乙醇作为溶剂，还需要酶来切断DNA。未测序的序列可以在PCR仪中放大，并在测序仪中进行测序。此过程有小概率摧毁该个体。
 genetics.machine.isolator.error.noIndividual=没有个体样本
 genetics.machine.isolator.error.noRoom=没有空间
 genetics.machine.isolator.error.noVials=没有空白序列
@@ -77,8 +77,8 @@ genetics.machine.sequencer.error.noDye=染料不足
 genetics.machine.sequencer.gui.sequensedBy=该基因将由 %s 完成序列化
 genetics.machine.sequencer.gui.willNotSave=无用序列，将直接丢弃
 
-genetics.machine.machine.polymeriser=PCR 仪
-genetics.machine.machine.polymeriser.info=PCR 仪将会以原生 DNA 为原料，通过聚合菌提供的 DNA 聚合酶来重新填充血清。该过程可用金粒加速。
+genetics.machine.machine.polymeriser=PCR仪
+genetics.machine.machine.polymeriser.info=PCR仪将会以原生 DNA 为原料，通过聚合菌提供的 DNA 聚合酶来重新填充血清。该过程可用金粒加速。
 genetics.machine.polymeriser.error.noItem=没有需要复制的物品
 genetics.machine.polymeriser.error.itemFilled=物品已填充
 genetics.machine.polymeriser.error.noLiquid=细菌不足

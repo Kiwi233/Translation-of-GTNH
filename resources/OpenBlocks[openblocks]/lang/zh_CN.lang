@@ -1,4 +1,4 @@
-achievement.openblocks.droppedBrick=Shaggy的口头禅:Zoinks!
+achievement.openblocks.droppedBrick=Shaggy的口头禅：Zoinks！
 achievement.openblocks.droppedBrick.desc=抱歉,但事已至此...
 stat.openblocks.bricksDropped=砖块已掉落
 achievement.openblocks.stackOverflow=栈溢出
@@ -44,23 +44,23 @@ openblocks.gui.item_outputs=输出物品
 openblocks.gui.max_level=最高附魔等级: %d
 openblocks.gui.save_folder=打开存档文件夹
 
-openblocks.gui.welcome.title=欢迎!
-openblocks.gui.welcome.content=开放式方块是一个全新的开源模组,它将大量创意引入Minecraft世界,包括但不限于滑翔翼,电梯,蓄水槽,墓碑,雕像等!
+openblocks.gui.welcome.title=欢迎！
+openblocks.gui.welcome.content=开放式方块是一款全新的开源模组，为《我的世界》引入了诸多创新元素，包括滑翔翼、电梯、储罐、墓碑、颜料、起重机、液态经验、制图机器人、战利品等等！
 
 openblocks.gui.credits.title=致谢表
-openblocks.gui.credits.content=§LBoq, Mikee 和 NeverCast§R\n  - 开放式方块的主要开发者\n§LSinZ 和 Yoshi2§R\n  - 开放式方块团队的元老成员.\n§LVexatos 和 crafteverywhere§R\n  - 日常翻译人员.\n§LDirewolf20 和 ForgeCraft 的成员§R\n  - 感谢帮助寻找Bug和测试稳定性.\n\n以及所有那些过去两年来对模组代码有所贡献的人们,和那些制作模组解说,实况视频和最初起就一直支持我们的朋友!
+openblocks.gui.credits.content=§LBoq、Mikee和NeverCast§R\n  - 开放式方块的主要开发者\n§LSinZ和Yoshi2§R\n  - OpenMods团队的元老成员\n§LVexatos和crafteverywhere§R\n  - 定期翻译模组\n§LDirewolf20和ForgeCraft的成员§R\n  - 帮助寻找Bug和测试稳定性\n\n以及过去两年间所有对模组代码有所贡献、制作模组解说、实况视频和最初起就一直支持我们的朋友们！
 
 openblocks.gui.config.title=便捷的配置文件
-openblocks.gui.config.content=开放式模组允许玩家通过在对话框中键入指令来修改客户端(§L/om_config_c§R)或服务端(§L/om_config_s§R)的配置文件,某些修改甚至都不需要重启游戏!\n\n例如:\n§L/om_config_s set OpenBlocks dropblock elevatorDrainsXP false§R\n§L/om_config_s save§R\n\n使用 §L/help om_config_s§R 或 §L/help om_config_c§R 可查看帮助
+openblocks.gui.config.content=开放式模组允许玩家通过在对话框中键入指令来修改客户端（§L/om_config_c§R，需要管理员权限）或服务端（§L/om_config_s§R）的配置文件。某些修改甚至都不需要重启游戏！\n\n示例：\n§L/om_config_s set OpenBlocks dropblock elevatorDrainsXP false§R\n§L/om_config_s save§R\n\n使用“§L/help om_config_s§R”或“§L/help om_config_c§R”可查看完整的指令列表。
 
 openblocks.gui.restore_inv.title=物品栏备份
 openblocks.gui.restore_inv.content=要恢复玩家的物品栏状态,你需要相应的备份(会在玩家死亡,墓碑生成或是运行 §L/ob_inventory store§R 命令时创建).\n\n这些备份位于服务器存档文件夹里,名为  §Linventory-*.dat§R,用 §L/ob_inventory restore <player> <id>§R 命令即可恢复.\n\n§Lid§R 既可以用文件的全名,也可以只是 §L*§R 的部分,输入时支持TAB自动补全.
 
 openblocks.gui.bkey.title=臭名昭著的 'B' 键
-openblocks.gui.bkey.content='B' 键是一个特殊的快捷键.\n\n启用配置文件中'tomfoolery'分类下的'weAreSeriousPeople'选项后,你会获得独有的消化系统,这项配置对客户端和服务端都有效.\n\n试着吃一些美味黏土,接着按'B'键消化!
+openblocks.gui.bkey.content=“B”键是一个特殊的快捷键。\n\n启用客户端和服务端配置文件中“tomfoolery”分类下的“weAreSeriousPeople”选项后，你会获得独有的消化系统。\n\n试着吃一些美味黏土，接着按“B”键消化！
 
 openblocks.gui.unstable.title=附魔: 震荡不定
-openblocks.gui.unstable.content=我们收到一份未经证实的报告,当越过某个方块或受到攻击时,你身上携带的火药将会变得极其不稳定.\n\n对此可能造成的任何损失我们恕不负责!
+openblocks.gui.unstable.content=我们收到一份未经证实的报告，当越过某个方块或受到攻击时，你身上携带的火药将会变得极其不稳定。\n\n对此可能造成的任何损失我们恕不负责！
 
 openblocks.gui.flimflam.title=附魔: 尔虞我诈
 openblocks.gui.flimflam.content=科学家尚未研究出这个附魔的用途.
@@ -90,10 +90,10 @@ openblocks.misc.change_mode=改变至%s模式
 openblocks.misc.change_size=改变规模至 %s x %s x %s
 openblocks.misc.change_box_size=Changing size to (%d,%d,%d):(%d,%d,%d)
 openblocks.misc.total_blocks=搭建共需要: %d 个方块
-openblocks.misc.get_witched=为之沉迷!
+openblocks.misc.get_witched=为之沉迷！
 openblocks.misc.page=%d / %d 页
 openblocks.misc.oh_no_ceiling=你睡意全无,头顶空空荡荡,房子徒有四壁,令你坐立难安...
-openblocks.misc.oh_no_ground=你居然还想要睡在那上面!?
+openblocks.misc.oh_no_ground=你竟然想在那里睡觉吗？！
 openblocks.misc.sleeping_bag_broken=由于初始化错误,该物品无法生效
 openblocks.misc.inverted=反相
 
@@ -152,7 +152,7 @@ openblocks.misc.radio.malformed_data=数据异常
 openblocks.misc.radio.not_ready=音频流尚未准备好,请稍后重试
 openblocks.misc.radio.cant_connect=无法连接
 openblocks.misc.radio.unknown_error=未知错误
-openblocks.misc.radio.muted=已静音!
+openblocks.misc.radio.muted=已静音！
 
 openblocks.misc.side.east=东面
 openblocks.misc.side.west=西面
@@ -165,7 +165,7 @@ openblocks.misc.command.invalid=无效的命令
 openblocks.misc.command.no_flim_flam=无效的尔虞我诈名称
 openblocks.misc.command.flim_flam_source=玩家 %s 已被 %s 成功欺骗
 openblocks.misc.command.flim_flam_target=某个有权限的人不太喜欢你.
-openblocks.misc.command.flim_flam_failed=欺骗失败!
+openblocks.misc.command.flim_flam_failed=欺骗失败！
 openblocks.misc.command.luck_added=与玩家 %s 交换运气值,当前运气值为: %d
 openblocks.misc.command.luck_current=玩家 %s 的运气值: %d
 
@@ -190,7 +190,7 @@ tile.openblocks.guide.name=建筑指导仪
 tile.openblocks.guide.description=提供红石信号,建筑指导仪便会投影出方块轮廓.你可以通过Shift+右键它来改变形状,或者右键它的不同面来增大或减小轮廓.\n创造模式下将黑曜石放在建筑指导仪上,再拿着任何方块右键它,则会自动完成搭建.
 
 tile.openblocks.builder_guide.name=强化建筑指导仪
-tile.openblocks.builder_guide.description=这个强化建筑指导仪不单单能够投影出方块轮廓, 还能够允许你直接放置方块. 用任意方块右击中间的建筑指导仪即可!\n在创造模式情况下, 指导仪顶部放黑曜石, 用任意方块右击能够瞬间搭建出对应的结构.
+tile.openblocks.builder_guide.description=这个强化建筑指导仪不单单能够投影出方块轮廓，还能够允许你直接放置方块。用任意方块右击中间的建筑指导仪即可！\n在创造模式情况下，指导仪顶部放黑曜石，用任意方块右击能够瞬间搭建出对应的结构。
 
 tile.openblocks.ladder.name=梯子活板门
 tile.openblocks.ladder.description=爬梯子遇上活板门时必须跳出去是件麻烦事,但梯子活板门解决了这个问题.梯子活板门可以在打开时起到梯子的作用,让玩家顺着活板门爬上去.
@@ -212,7 +212,7 @@ item.openblocks.spongeonastick.name=海绵棒
 item.openblocks.spongeonastick.description=类似海绵,海绵棒可用于清理一片范围内的液体.但它比海绵更方便,也很容易坏掉.
 
 item.openblocks.epic_eraser.name=史诗橡皮擦
-item.openblocks.epic_eraser.description=每个物品都有它的历史记录...\n\n你讨厌这个么?\n有了这东西, 你能够把你那些收集的史诗级战利品的痕迹清除的干干净净, 这样在黑市上售卖不会留下一点证据.
+item.openblocks.epic_eraser.description=每个物品都有自己的历史记录……\n\n你讨厌这个么？\n有了这东西，你能够把你那些收集的史诗级战利品的痕迹清除的干干净净，这样在黑市上售卖不会留下一点证据。
 
 tile.openblocks.cannon.name=投掷加农炮
 tile.openblocks.cannon.description=当投掷加农炮接收到红石信号时,投掷加农炮会向指定目标投掷出相邻容器内的物品.你可以使用'指针'工具来给加农炮定位投掷的目标.
@@ -224,7 +224,7 @@ tile.openblocks.sprinkler.name=洒水器
 tile.openblocks.sprinkler.description=洒水器可以催生4x4格范围内的作物.只需要将它放置在装有水的容器上方即可开始洒水.你可以放入骨粉来加快它对作物的催生速度.\n洒水器也可以作为水源供给方块使用.
 
 tile.openblocks.paintmixer.name=调色器
-tile.openblocks.paintmixer.description=调色器可以调出任何你想要的颜色.\n在调色器最上方的格子中放入牛奶桶或任意颜料桶,在下方的四格中分别放入青色,品红色,黄色和黑色染料,然后点击按钮调色吧!
+tile.openblocks.paintmixer.description=调色器可以调出任何你想要的颜色。\n在调色器最上方的格子中放入牛奶桶或任意颜料桶，在下方的四格中分别放入青色、品红色、黄色和黑色染料，然后点击按钮调色吧！
 
 tile.openblocks.canvas.name=画布
 tile.openblocks.canvas.description=画布是一种纯白色的方块,适合用作绘画.翻阅调色器的相关介绍来了解如何制作绘画所需的颜料桶.
@@ -343,7 +343,7 @@ item.openblocks.crane_control.name=起重机控制器
 item.openblocks.crane_control.description=这个高科技的无线遥控工具,能用来控制起重机背包.\n右键升起,Shift+右键降低,左键拾取/释放.\n当有光在闪烁时,表示物体正受到磁力影响.
 
 item.openblocks.wrench.name=大金属棒
-item.openblocks.wrench.description=这是用于对具有八面体对称性对象进行转换的, 非常复杂的工具.\n\n\n或者只是个粗大且笨重的金属棒, 能够用来旋转一些方块.\n\n好吧, 这就是个扳手. 我只是想搞些原创的东西, ok?
+item.openblocks.wrench.description=这是用于对具有八面体对称性对象进行转换的，非常复杂的工具。\n\n\n或者只是个粗大且笨重的金属棒，能够用来旋转一些方块。\n\n好吧，这就是个扳手。我只是想搞些原创的东西，OK？
 
 item.openblocks.stencil.name=模板
 item.openblocks.imaginary.name=魔法蜡笔/铅笔

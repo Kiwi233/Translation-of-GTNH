@@ -18,12 +18,12 @@ tile.fluidSludge.name=不流动的废水
 tile.fluidSludge.0.name=不流动的废水
 
 # Death Messages
-death.attack.plasmabolt=%s 死于滚烫的等离子体.
-death.attack.plasmabolt.player=%1$s 被 %2$s 使用等离子体击杀.
-death.attack.gtpp.grinder=%s 被艾萨研磨机磨成了渣渣.
+death.attack.plasmabolt=%s死于滚烫的等离子体
+death.attack.plasmabolt.player=%1$s被%2$s使用等离子体击杀
+death.attack.gtpp.grinder=%s被艾萨研磨机磨灭了
 
 # Batch mode chat message
-misc.BatchModeTextOn=开启批量处理 (会销毁溢出物品, 推荐使用ME输出总线)
+misc.BatchModeTextOn=开启批量处理（会销毁溢出物品，推荐使用ME输出总线）
 misc.BatchModeTextOff=关闭批量处理
 
 # Alternative Materials
@@ -216,9 +216,9 @@ tile.blockCompressedObsidian.7.name=二重压缩荧石
 tile.blockCompressedObsidian.8.name=三重压缩荧石
 tile.blockCompressedObsidian.9.name=四重压缩荧石
 tile.blockCompressedObsidian.10.name=五重压缩荧石
-tile.blockCompressedObsidian.11.name=压缩下界岩
-tile.blockCompressedObsidian.12.name=二重压缩下界岩
-tile.blockCompressedObsidian.13.name=三重压缩下界岩
+tile.blockCompressedObsidian.11.name=压缩地狱岩
+tile.blockCompressedObsidian.12.name=二重压缩地狱岩
+tile.blockCompressedObsidian.13.name=三重压缩地狱岩
 tile.blockNet.name=网
 gtplusplus.blockcasings.2.name=机械方块
 gtplusplus.blockcasings.3.name=机械方块
@@ -1685,7 +1685,7 @@ item.itemCustomMetaCover.miscutils.GtMachineCasings=%s机器覆盖板
 item.itemCustomMetaCover.miscutils.GtMachineCasings.name=机器覆盖板
 item.itemGregtechPump.tooltip.0=不能排空其他标准流体容器方块
 item.itemGregtechPump.tooltip.1=不能通过右键排空容器,在GUI内使用储罐排空.
-item.itemGregtechPump.tooltip.2=从技术上讲, 这只是另一种花哨的流体单元
+item.itemGregtechPump.tooltip.2=从技术上讲，这只是另一种花哨的流体单元
 item.itemGregtechPump.tooltip.3=不含流体
 item.itemBaseEuItem.tooltip.0=§e电动的
 item.itemBaseEuItem.tooltip.1=包含 %s EU  等级：%d
@@ -3919,7 +3919,7 @@ item.itemGearPraseodymium.name=镨齿轮
 item.itemCellPraseodymium.name=镨单元
 item.milledMonazite.name=研磨独居石
 item.FrothMonaziteflotation.name=独居石浮选泡沫单元
-item.milledNetherrack.name=研磨下界岩
+item.milledNetherrack.name=研磨地狱岩
 
 # Added 18/12/21
 item.BasicGenericChemItem.13.name=甲醛催化剂
@@ -3998,7 +3998,7 @@ gtpp.tooltip.ingot.very_hot=§7警告: §c很烫! §7避免直接接触..
 gtpp.tooltip.tickable.decay_seconds=%d§7秒后衰变
 gtpp.tooltip.ion_particles.state_not_set=一个带有§e未知§7电荷态的%s离子
 gtpp.tooltip.ion_particles.charge_positive=一个带有§a正§7电荷态的%s离子，电荷数为%d
-gtpp.tooltip.ion_particles.charge_negative=一个%s离子带有§c负§7电荷状态，电荷数为%d
+gtpp.tooltip.ion_particles.charge_negative=一个带有§c负§7电荷态的%s离子，电荷数为%d
 gtpp.tooltip.base_particles.type=类型：%s
 gtpp.tooltip.base_particles.type.quark=夸克
 gtpp.tooltip.base_particles.type.lepton=轻子

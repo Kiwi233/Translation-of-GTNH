@@ -97,7 +97,7 @@ gt.tileentity.eup_in=电压输入：§a%d（%s§a）§7
 gt.tileentity.eup_out=电压输出：§a%d（%s§a）§7
 gt.tileentity.eup_amount=电流强度：§e%d§7
 gt.tileentity.eup_store=容量：§9%d§7 EU
-gt.tileentity.has_muffler=装有静音升级
+gt.tileentity.has_muffler=已静音
 gt.tileentity.has_steam_upgrade=装有蒸汽升级
 gt.tileentity.colored=颜色（%s%s§7）
 
@@ -162,7 +162,7 @@ gt.item.desc.no_fluid=不含流体
 gt.item.desc.fluid_info=%s升 / %s升
 gt.item.desc.miss_coord=缺少坐标！
 gt.item.desc.device_at=设备位于:
-gt.item.desc.state=状态: %s
+gt.item.desc.state=状态：%s
 gt.item.desc.breeder_tip=在炽热的反应堆中洗个中子澡吧
 gt.item.desc.progress=进度：%s/%s
 gt.item.desc.haz_rad=辐射危险
@@ -245,8 +245,8 @@ gt.interact.desc.need_maint_rotor_lo=转子需要维护时输出信号(低灵敏
 gt.interact.desc.need_maint_rotor_hi=转子需要维护时输出信号(高灵敏度模式)
 gt.interact.desc.issue=1个维护问题
 gt.interact.desc.issues=%s个维护问题
-gt.interact.desc.issue_rotor_low=转子耐久<20%%
-gt.interact.desc.issue_rotor_dead=转子耐久≈0%%
+gt.interact.desc.issue_rotor_low=转子耐久<20%
+gt.interact.desc.issue_rotor_dead=转子耐久≈0%
 
 # GT++ items
 item.GTPP.air_intake_hatch.name=进气仓
@@ -621,7 +621,7 @@ GTPP.tooltip.circuit_table.2=默认是自动选择插入的槽位
 # Decayables Chest
 GTPP.tooltip.decayables_chest.0=可收纳放射性物质的箱子
 GTPP.tooltip.decayables_chest.1=可衰变物品会在内部发生衰变
-GTPP.tooltip.decayables_chest.2=右键放置
+GTPP.tooltip.decayables_chest.2=右键放置至世界中
 
 # Butterfly Killer
 GTPP.tooltip.butterfly_killer.0=杀死林业蝴蝶、蝙蝠和其他害虫
@@ -633,7 +633,7 @@ GTPP.tooltip.volumetric_flask_setter.0=轻松配置容量瓶
 GTPP.tooltip.volumetric_flask_setter.1=用螺丝刀更改默认输入设置
 
 # Tin Foil Hat
-GTPP.tooltip.tin_foil_hat=来自DoomSquirter的对防护宇宙射线防护！\n偏执症会导致穿戴者无法吸取经验\n玩家的移速也会降低（为了安全！）\n也许还有更多奇怪的能力
+GTPP.tooltip.tin_foil_hat=来自DoomSquirter的宇宙射线防护帽！\n偏执症会导致穿戴者无法吸取经验\n玩家的移速也会降低（为了安全！）\n也许还有更多奇怪的能力
 
 GTPP.tooltip.bad_tooltip_id=无效的tooltip ID - %d
 
@@ -745,7 +745,7 @@ GT5U.providesgashazmatprotection=提供气体防护。
 # Multiblock Tooltip Builder Keywords
 # Context can be found in the class gregtech.api.util.MultiblockTooltipBuilder
 GT5U.MBTT.MachineType=机器类型
-GT5U.MBTT.Parallels=一次至多处理%d个配方
+GT5U.MBTT.StaticParallels=同时处理最多%s份配方
 GT5U.MBTT.Dimensions=大小
 GT5U.MBTT.Hollow=(中空)
 GT5U.MBTT.Structure=结构
@@ -773,27 +773,54 @@ GT5U.MBTT.Uncertainty=不确定度仓
 GT5U.MBTT.InputData=数据接收接口
 GT5U.MBTT.OutputData=数据发送接口
 GT5U.MBTT.Causes=产生
-GT5U.MBTT.PPS=点/秒污染
+GT5U.MBTT.Produces=生产
+GT5U.MBTT.PPS=每秒产生%s点污染
 GT5U.MBTT.Hold=按住
 GT5U.MBTT.Display=以显示结构指导
 GT5U.MBTT.StructureHint=多种可选方块或任意等级方块
 GT5U.MBTT.Mod=添加模组
 GT5U.MBTT.Air=必须留空
+GT5U.MBTT.ParallelBase=每个 %2$s 等级处理 %1$s 物品
+GT5U.MBTT.ParallelBase_Singular=每个 %2$s 等级处理 %1$s 物品
+GT5U.MBTT.SpeedBase=比相同电压的单方块机器快%s
+GT5U.MBTT.SpeedTiered=每个%2$s等级会使本机器比相同电压的单方块机器快%1$s
+GT5U.MBTT.EuDiscountBase=使用配方要求功率的%s
+GT5U.MBTT.EuDiscountTiered=每个%2$s等级使能量消耗减少%1$s
+GT5U.MBTT.Parallel_Multiplicative=每个%2$s等级增加%1$s并行数
+
+GT5U.MBTT.Parallel.Base=并行数：%s
+GT5U.MBTT.Parallel.Additional=每个%2$s等级增加%1$s并行数
+GT5U.MBTT.Parallel.Singular=并行数：%s
+GT5U.MBTT.Speed.Base=速度：%s
+GT5U.MBTT.Speed.Additional=每个%2$s等级增加%1$s速度
+GT5U.MBTT.EuDiscount.Base=能量消耗：%s
+GT5U.MBTT.EuDiscount.Additional=每个%2$s等级使能量消耗%1$s
+GT5U.MBTT.SteamDiscount.Base=蒸汽消耗：%s
+GT5U.MBTT.Tiers.Voltage=需求电压：
+GT5U.MBTT.Tiers.Machine=机器
+GT5U.MBTT.Tiers.Coil=加热线圈
+GT5U.MBTT.Tiers.MachineCasing=机械方块
+GT5U.MBTT.Tiers.MetalMachineCasing=金属机械方块
+GT5U.MBTT.Tiers.ItemPipe=物品管道方块
+GT5U.MBTT.Tiers.FluidPipe=管道方块
+GT5U.MBTT.Tiers.Solenoid=螺线管
+GT5U.MBTT.Steam.Speed=比相同压力等级的单方块蒸汽机器快%s
+GT5U.MBTT.Steam.Eff=只需要使用配方要求蒸汽速率的%s
 GT5U.MBTT.Structure.Complex=结构太复杂了！
 GT5U.MBTT.Structure.SeeStructure1=请在主方块上使用
 GT5U.MBTT.Structure.SeeStructure2=全息投影，构建主体结构！
 GT5U.MBTT.Structure.MinGlassForLaser=等级的玻璃为§9Tec§1Tech§7激光仓所需
 GT5U.MBTT.Structure.GlassEnergyLimit=玻璃等级限制了能源仓等级
 GT5U.MBTT.Structure.GlassEnergyLimitTier=等级的玻璃可解锁所有能源仓等级
-GT5U.MBTT.Structure.NoTierSkips=这台机器只能运行其能源仓平均等级的配方。
+GT5U.MBTT.Structure.NoTierSkips=这台机器只能运行其能源仓平均等级的配方
 GT5U.MBTT.Structure.MaxTierSkips=这台机器能运行其能源仓平均等级以上%d个等级的配方。
-GT5U.MBTT.Structure.UnlimitedTierSkips=只要有足够的能量，这台机器能运行任何等级的配方。
+GT5U.MBTT.Structure.UnlimitedTierSkips=只要有足够的能量，这台机器能运行任何等级的配方
 GT5U.MBTT.HatchInfo=任何%s
 GT5U.MBTT.HatchDots=（点：%s）
 GT5U.MBTT.BoroGlassAny=硼玻璃（任意种类，混合）
 GT5U.MBTT.BoroGlassTiered=硼玻璃（任意种类）
 GT5U.MBTT.ConfigMenu=配置菜单
-GT5U.MBTT.PerfectOC=机器超频时不会损失效率。
+GT5U.MBTT.PerfectOC=机器超频时不会损失效率
 GT5U.MBTT.PCB.Tier=PCB工厂等级
 GT5U.MBTT.PCB.Bio=生物仓
 GT5U.MBTT.PCB.RotBio=生物仓旋转
@@ -824,7 +851,7 @@ GT5U.MBTT.AlchemyCasingAny=炼金反应抵抗/惰性/免疫机械方块
 GT5U.MBTT.AlchemicalConstructAny=炼金构材
 GT5U.MBTT.SuperChest=超级/量子箱
 
-GT5U.MBTT.subchannel=子信道 §6%s§r 将被用于 %s
+GT5U.MBTT.subchannel=使用子信道§6%s§r§7设定§6%s
 
 GT5U.cracker.io_side=输入/输出仓必须处在对侧！
 
@@ -981,6 +1008,8 @@ gt.recipe.replicator=复制机
 gt.recipe.replicator.description=生产单质
 gt.recipe.rockbreaker=碎石机
 gt.recipe.rockbreaker.description=在相邻位置放置岩浆与水，或在周围放置岩浆并在下方放置灵魂沙
+gt.recipe.rockbreaker.fakeitem.side=免费！在侧面放置岩浆
+gt.recipe.rockbreaker.fakeitem.top=免费！在顶部放置岩浆
 gt.recipe.scanner=扫描仪
 gt.recipe.scanner.description=扫描作物等物品
 gt.recipe.sifter=筛选机
@@ -1068,6 +1097,9 @@ GT5U.machines.separatebus=输入总线已独立
 GT5U.machines.pumpareaset=工作区域设置为
 GT5U.machines.oilfluidpump=石油/流体钻机
 GT5U.machines.minermulti=采矿场
+GT5U.machines.muffled=静音
+GT5U.machines.muffled.on=静音：§a已启用§r
+GT5U.machines.muffled.off=静音：§c已禁用§r
 GT5U.machines.digitalchest.voidoverflow.enabled=溢出销毁：§a开启§r
 GT5U.machines.digitalchest.voidoverflow.disabled=溢出销毁：§a关闭§r
 GT5U.machines.digitalchest.inputfilter.enabled=输入过滤：§a开启§r
@@ -1164,7 +1196,6 @@ GT5U.MULTI_MACHINE_CONFIG.LOAD=加载多方块仓室配置
 GT5U.MULTI_MACHINE_CONFIG.LOAD.FAIL=加载多方块仓室配置失败!
 GT5U.DEHP.mode.0=直出蒸汽
 GT5U.DEHP.mode.1=加热冷却液
-GT5U.machines.oreprocessor1=§e运行模式：
 GT5U.machines.oreprocessor2=§c时间：%s 秒
 GT5U.machines.oreprocessor.void=§e销毁石粉：%s
 GT5U.machines.oreprocessor.Macerate=粉碎
@@ -1173,6 +1204,8 @@ GT5U.machines.oreprocessor.Sifter=筛选
 GT5U.machines.oreprocessor.Chemical_Bathing=化学浸洗
 GT5U.machines.oreprocessor.Ore_Washer=洗矿
 GT5U.machines.oreprocessor.Thermal_Centrifuge=热力离心机
+GT5U.machines.oreprocessor.Forge_Hammer=锻造锤
+GT5U.machines.oreprocessor.Simple_Washer=简易洗矿池
 GT5U.machines.oreprocessor.WRONG_MODE=出现了错误
 GT5U.machines.industrialapiary.cancel.tooltip=§c取消处理
 GT5U.machines.industrialapiary.cancel.tooltip.1=§7会同时关闭机器(软锤)
@@ -1275,10 +1308,13 @@ GT5U.machines.nano_forge.t4_info_tooltip=点击查看T4信息
 GT5U.machines.nano_forge.t4_info_header=纳米锻炉 T4
 GT5U.machines.nano_forge.t4_info_text.1=将纳米锻炉升级至T4级，只需在控制器中置入永恒纳米蜂群，即可彻底改变结构形态，同时解锁可扩展的速度加成与并行模式，实现大规模纳米蜂群生产。
 GT5U.machines.nano_forge.t4_info_text.2=纳米锻炉可通过注入熔融磁物质来提升其最大并行度。在配方周期开始时，所有供应的磁物质将被消耗，并按以下公式转化为并行度：
-GT5U.machines.nano_forge.t4_info_text.3=最大并行数 = 最大值((磁物质数量 / (144 / 2^(4 - 配方等级))), 1)
-GT5U.machines.nano_forge.t4_info_text.4=要将这些并行实际应用到配方中，需要将一份输出纳米蜂群的副本放入输入总线中，并且会被消耗掉。
+GT5U.machines.nano_forge.t4_info_text.3=最大并行数 = 最大值((磁物质数量 / (288 / 2^(4 - 配方等级))), 1)
+GT5U.machines.nano_forge.t4_info_text.4=要将这些并行实际应用到配方中，需要将一份输出纳米蜂群的副本放入输入总线中，并且会被消耗掉。如果同时存在多种纳米蜂群，并行不会生效。
 GT5U.machines.nano_forge.t4_info_text.5=配方时间倍率也会根据最大并行数通过以下公式获得：
 GT5U.machines.nano_forge.t4_info_text.6=配方时间倍率 = 0.9999^(最大并行数)
+GT5U.machines.nano_forge.t4_info_text.7=此外，1级和2级的纳米蜂群支持无损超频；3级纳米蜂群的无损超频要求并行数大于1。4级纳米蜂群不支持无损超频。
+GT5U.machines.antimatter_forge.enableRender=启用反物质熔炉渲染
+GT5U.machines.antimatter_forge.disableRender=禁用反物质熔炉渲染
 
 GT5U.recipe_filter.empty_representation_slot.tooltip=§7用一个机器点击以设置过滤名单
 GT5U.recipe_filter.representation_slot.tooltip=§7点击清空
@@ -1667,7 +1703,7 @@ GTPacketInfiniteSpraycan.Action.TOGGLE_SHAKE_LOCK=无限喷漆罐：锁定颜色
 
 
 gt.behaviour.trowel.tooltip1=右键随机放置一个物品栏中的方块
-gt.behaviour.trowel.tooltip2=§o“别忘了带上毛巾！”§r -§ccQuerns§r
+gt.behaviour.trowel.tooltip2=§o“别忘了带上装饰铲！”§r -§cQuerns§r
 
 gt.behaviour.switch_mode.tooltip=按[%s]切换模式
 
@@ -1709,6 +1745,7 @@ GT5U.multiblock.fluidPipeTier=流体管道等级
 GT5U.multiblock.itemPipeTier=物品管道等级
 GT5U.multiblock.coilLevel=加热线圈等级
 GT5U.multiblock.preciseassemblercasing=电压受机械方块等级限制：%s
+GT5U.multiblock.runningMode=§e运行模式：
 
 # NEI recipe handlers
 GT5U.nei.heat_capacity=热容：%s K (%s)
@@ -1797,7 +1834,7 @@ GT5U.interface.coverTabs.north=北
 GT5U.interface.coverTabs.south=南
 GT5U.interface.coverTabs.west=西
 GT5U.interface.coverTabs.east=东
-GT5U.interface.coverTabs.cover_on=%s侧覆盖板：%s
+GT5U.interface.coverTabs.cover_on=%s覆盖板：%s
 GT5U.interface.coverTabs.emits_redstone=在%s侧发出强烈的红石信号
 
 GT5U.interface.coverTabs.redstone.bottom=底部
@@ -1858,7 +1895,7 @@ GT5U.waila.stocking_bus.auto_pull.disabled=自动拉取模式：关闭
 GT5U.waila.stocking_bus.min_stack_size=最小堆叠数量：%s
 GT5U.waila.stocking_hatch.min_amount=最小数量：%s
 GT5U.waila.drone_downlink.noConnection=未连接
-GT5U.waila.drone_downlink.connection=连接到无人机控制中心：x:%s y:%s z:%s
+GT5U.waila.drone_downlink.connection=已连接到无人机控制中心：x:%s y:%s z:%s
 GT5U.waila.drone_downlink.connectionCount=连接数量：%s
 GT5U.waila.drone_downlink.droneLevel=无人机等级：%s
 GT5U.waila.producing=生产中:
@@ -2565,7 +2602,7 @@ for.bees.species.nethershard=下界碎片
 for.bees.species.endshard=末影碎片
 for.bees.species.dragonblood=龙血
 
-for.description.machinist=机械女王,诞生于狂暴机械与炽烈火焰的交织之中.依赖于她所创造的基本组件,养蜂人帝国才得以建立和扩展.||Aditya & Noila
+for.description.machinist=机械女王，诞生于狂暴机械与炽烈火焰的交织之中。依赖于她所创造的基本组件，养蜂人帝国才得以建立和扩展。||Aditya & Noila
 
 for.bees.authority.machinist=Aditya & Noila
 
@@ -2774,7 +2811,7 @@ gt.wrench.mode.2=精准单拆模式
 # Tooltip for vajra
 gt.vajra.tooltip.flavor=你的友好的障碍即时破坏者
 gt.vajra.tooltip.charge=可在任何%s机器上充电
-gt.vajra.tooltip.silk_touch=按住Shift键右键点击空气可切换精准采集模式
+gt.vajra.tooltip.silk_touch=Shift+右键点击以切换精准采集模式
 
 # GT++
 
@@ -2826,8 +2863,8 @@ GTPP.multiblock.generation=当前发电
 GTPP.multiblock.specialvalue=特殊值
 GTPP.multiblock.duration=NEI时间
 GTPP.multiblock.multimachine.metal=模式:金属. 可充当压缩机(20号电路板),车床(21号电路板)或磁化机(22号电路板).
-GTPP.multiblock.multimachine.fluid=模式: 流体. 可充当发酵槽(电路板20), 流体提取机(电路板21) 或提取机(电路板22).
-GTPP.multiblock.multimachine.misc=模式: 杂项. 可充当激光蚀刻机(电路板20), 高压釜(电路板21) 或流体固化器(电路板22).
+GTPP.multiblock.multimachine.fluid=模式：流体。可充当发酵槽（电路板20），流体提取机（电路板21）或提取机（电路板22）。
+GTPP.multiblock.multimachine.misc=模式：杂项。可充当激光蚀刻机（电路板20），高压釜（电路板21）或流体固化器（电路板22）。
 
 
 GTPP.waila.steam.use=当前消耗: §e%s§r L/s 蒸汽
@@ -2926,11 +2963,11 @@ GTPP.tooltip.structure.data_orb_repository=数据球仓
 GTPP.tooltip.structure.many_bus_hatch=输入总线，输出总线，输入仓，输出仓，能源仓
 GTPP.tooltip.structure.rotor_assembly=转子仓
 
-GT5U.tooltip.pollution.produces=每秒产生%d污染
-GT5U.tooltip.pollution.produces.multiblock=一个完整的多方块结构每秒产生%d污染
+GT5U.tooltip.pollution.produces=每秒产生%d点污染
+GT5U.tooltip.pollution.produces.multiblock=一个完整的多方块结构每秒产生%d点污染
 GT5U.tooltip.pollution.produces.firebox=每秒每个燃烧室产生%d污染
-GT5U.tooltip.pollution.produces.rocket.ignited=点燃时每秒产生%d污染
-GT5U.tooltip.pollution.produces.rocket.flying=飞行时每秒产生%d污染
+GT5U.tooltip.pollution.produces.rocket.ignited=点火时每秒产生%d点污染
+GT5U.tooltip.pollution.produces.rocket.flying=飞行时每秒产生%d点污染
 
 # GT structure hints
 GT5U.tooltip.structure.data_access_hatch=数据访问仓
@@ -2955,11 +2992,11 @@ GT5U.tooltip.structure.lens_indicator=透镜指示器
 GT5U.tooltip.fluid.registry=注册：%s
 GT5U.tooltip.fluid.amount=数量：%s L
 GT5U.tooltip.fluid.temperature=温度：%s K
-GT5U.tooltip.fluid.stat=状态: %s
+GT5U.tooltip.fluid.stat=状态：%s
 GT5U.tooltip.fluid.stat.gas=气体
 GT5U.tooltip.fluid.stat.liquid=液体
 
-GT5U.tooltip.comb.ban_forestry=林业无法处理
+GT5U.tooltip.comb.ban_forestry=林业机器无法处理
 GT5U.tooltip.mega_apiary.only_producer=仅在巨型工业蜂箱中生产
 
 GT5U.tooltip.electric.tier=等级：%d
@@ -2976,7 +3013,7 @@ GT5U.tootlip.tool.turbine.plasma=等离子体
 GT5U.tooltip.tool.heat=热量：%d K
 
 GT5U.tooltip.volumetric_flask.empty=空
-GT5U.tooltip.volumetric_flask.set_volume=右键点击空气以设置音量（仅在空手时有效）
+GT5U.tooltip.volumetric_flask.set_volume=右键空气以设置容量（仅容器为空时可操作）
 
 GT5U.tooltip.purify.1=投入炼药锅以获得洗净的粉末
 GT5U.tooltip.purify.2=可用作富集硅岩燃料的替代品
@@ -3322,3 +3359,69 @@ achievement.gt.blockmachines.moleculartransformer.controller.tier.single=分子�
 achievement.gt.blockmachines.moleculartransformer.controller.tier.single.desc=[AL]捡起此物品以在NEI内解锁该合成表
 achievement.gt.blockmachines.gtpp.multimachine.replicator=大型元素复制机
 achievement.gt.blockmachines.gtpp.multimachine.replicator.desc=[AL]捡起此物品以在NEI内解锁该合成表
+
+# Fission Fuels
+item.gt.rodLithium.name=燃料棒（锂）
+item.gt.rodGlowstone.name=燃料棒（荧石）
+item.gt.rodThorium.name=燃料棒（钍）
+item.gt.rodThorium2.name=二联燃料棒（钍）
+item.gt.rodThorium4.name=四联燃料棒（钍）
+item.gt.rodUranium.name=燃料棒（铀）
+item.gt.rodUranium2.name=二联燃料棒（铀）
+item.gt.rodUranium4.name=四联燃料棒（铀）
+item.gt.rodMOX.name=燃料棒（MOX）
+item.gt.rodMOX2.name=二联燃料棒（MOX）
+item.gt.rodMOX4.name=四联燃料棒（MOX）
+item.gt.rodHighDensityUranium.name=燃料棒（浓缩铀）
+item.gt.rodHighDensityUranium2.name=二联燃料棒（浓缩铀）
+item.gt.rodHighDensityUranium4.name=四联燃料棒（浓缩铀）
+item.gt.rodHighDensityPlutonium.name=燃料棒（浓缩钚）
+item.gt.rodHighDensityPlutonium2.name=二联燃料棒（浓缩钚）
+item.gt.rodHighDensityPlutonium4.name=四联燃料棒（浓缩钚）
+item.gt.rodExcitedUranium.name=燃料棒（激发铀）
+item.gt.rodExcitedUranium2.name=二联燃料棒（激发铀）
+item.gt.rodExcitedUranium4.name=四联燃料棒（激发铀）
+item.gt.rodExcitedPlutonium.name=燃料棒（激发钚）
+item.gt.rodExcitedPlutonium2.name=二联燃料棒（激发钚）
+item.gt.rodExcitedPlutonium4.name=四联燃料棒（激发钚）
+item.gt.rodNaquadah.name=燃料棒（硅岩）
+item.gt.rodNaquadah2.name=二联燃料棒（硅岩）
+item.gt.rodNaquadah4.name=四联燃料棒（硅岩）
+item.gt.rodNaquadah32.name=“核心”
+item.gt.rodNaquadria.name=燃料棒（超能硅岩）
+item.gt.rodNaquadria2.name=二联燃料棒（超能硅岩）
+item.gt.rodNaquadria4.name=四联燃料棒（超能硅岩）
+
+item.gt.depletedRodLithium.name=燃料棒（氚）
+item.gt.depletedRodGlowstone.name=燃料棒（阳光化合物）
+item.gt.depletedRodThorium.name=燃料棒（枯竭钍） 
+item.gt.depletedRodThorium2.name=二联燃料棒（枯竭钍）
+item.gt.depletedRodThorium4.name=四联燃料棒（枯竭钍） 
+item.gt.depletedRodUranium.name=燃料棒（枯竭铀）
+item.gt.depletedRodUranium2.name=二联燃料棒（枯竭铀）
+item.gt.depletedRodUranium4.name=四联燃料棒（枯竭铀）
+item.gt.depletedRodMOX.name=燃料棒（枯竭MOX）
+item.gt.depletedRodMOX2.name=二联燃料棒（枯竭MOX）
+item.gt.depletedRodMOX4.name=四联燃料棒（枯竭MOX）
+item.gt.depletedRodHighDensityUranium.name=燃料棒（枯竭浓缩铀）
+item.gt.depletedRodHighDensityUranium2.name=二联燃料棒（枯竭浓缩铀）
+item.gt.depletedRodHighDensityUranium4.name=四联燃料棒（枯竭浓缩铀）
+item.gt.depletedRodHighDensityPlutonium.name=燃料棒（枯竭浓缩钚）
+item.gt.depletedRodHighDensityPlutonium2.name=二联燃料棒（枯竭浓缩钚）
+item.gt.depletedRodHighDensityPlutonium4.name=四联燃料棒（枯竭浓缩钚）
+item.gt.depletedRodExcitedUranium.name=燃料棒（枯竭激发铀）
+item.gt.depletedRodExcitedUranium2.name=二联燃料棒（枯竭激发铀）
+item.gt.depletedRodExcitedUranium4.name=四联燃料棒（枯竭激发铀）
+item.gt.depletedRodExcitedPlutonium.name=燃料棒（枯竭激发钚） 
+item.gt.depletedRodExcitedPlutonium2.name=二联燃料棒（枯竭激发钚）
+item.gt.depletedRodExcitedPlutonium4.name=四联燃料棒（枯竭激发钚） 
+item.gt.depletedRodNaquadah.name=燃料棒（枯竭硅岩）
+item.gt.depletedRodNaquadah2.name=二联燃料棒（枯竭硅岩）
+item.gt.depletedRodNaquadah4.name=四联燃料棒（枯竭硅岩）
+item.gt.depletedRodNaquadah32.name=“核心”（枯竭）
+item.gt.depletedRodNaquadria.name=燃料棒（枯竭超能硅岩）
+item.gt.depletedRodNaquadria2.name=二联燃料棒（枯竭超能硅岩）
+item.gt.depletedRodNaquadria4.name=四联燃料棒（枯竭超能硅岩）
+
+# Entities
+entity.gregtech.PowderBarrelPrimed.name=点燃的火药桶

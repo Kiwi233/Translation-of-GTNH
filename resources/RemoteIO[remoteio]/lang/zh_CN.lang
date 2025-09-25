@@ -25,8 +25,8 @@ documentation.item.upgrades=升级
 documentation.item.remoteAccessor=远程访问器
 documentation.item.linker=端口连接器
 
-documentation.block.remoteInterface.page.1=远程接口是本mod的核心方块. 简而言之,它允许使用者从很 远的地方远程访问一个方块, 就像那个方块近在眼前一样.
-documentation.block.remoteInventory.page.1=远程背包接口与远程接口很 相似,但不是远程访问方块, 而是远程访问玩家.大多数 的传输升级仍然有效,但可 能以你意想不到的方式工作
+documentation.block.remoteInterface.page.1=远程接口是本mod的核心方块。 简而言之，它允许使用者从很 远的地方远程访问一个方块， 就像那个方块近在眼前一样。
+documentation.block.remoteInventory.page.1=远程背包接口与远程接口很 相似，但不是远程访问方块， 而是远程访问玩家。大多数 的传输升级仍然有效，但可 能以你意想不到的方式工作。
 documentation.block.skylight.page.1=天窗是个纯粹的美观方块.当放 置时是暗而不透明的,但通入红 石信号后,它将变得透明并且所 有的相邻天窗都会变得透明.
 documentation.block.heater.page.1=岩浆加热器是个帮助自动化的 小机器.当岩浆与它的两个或更 多面相邻时,它将加热上方的熔 炉.但要比通常情况更慢一点.
 documentation.block.reservoir.page.1=与岩浆加热器类似蓄水箱也 是个小机器.它的功能很简 单,当它与两个或更多水源相 邻时,它将作为水源方块并向 机器和管道输出水.
@@ -35,7 +35,7 @@ documentation.item.pda.page.1=掌上电脑就是你用来看这的玩意.
 documentation.item.ioTool.page.1=接口工具就是本mod的扳手. 它可以打开多种机器的物品 栏并添加或移除升级,还能修 改伪装设置.
 documentation.item.wirelessTransmitter.page.1=此物品可以用来合成远程背 包接口,并且在创造模式中远 程分配背包.
 documentation.item.upgrades.page.1=升级简单来说就是用来解锁 你的远程背包接口和远程接 口功能的东西.如果没有升 级,那这俩方块没啥能干的. 每次升级都会有所不同,有 些是为了兼容性.
-documentation.item.remoteAccessor.page.1=远程访问器是个用来绑定世界 里的方块的物品.绑定之后, 当你右击世界上的任何其他方 块(非方块实体)时,就会像你 点击那个绑定方块时一样.
+documentation.item.remoteAccessor.page.1=远程访问器是个用来绑定世界 里的方块的物品。绑定之后， 当你右击世界上的任何其他方 块（非方块实体）时，就会像你 点击那个绑定方块时一样。
 documentation.item.linker.page.1=当前仅能用于合成远程访问器
 documentation.item.wirelessLocationChip.page.1=Shift+右击一个方块以保存这 个方块的位置信息.此位置信息 可以放入远程接口以告诉接口 它应该与哪个方块交互.
 
