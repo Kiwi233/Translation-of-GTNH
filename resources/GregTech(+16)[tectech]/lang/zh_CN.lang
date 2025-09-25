@@ -127,12 +127,12 @@ item.tm.itemAstralArrayFabricator.desc3=允许配方执行并行。
 item.tm.fakeItemQGP.name=假物品
 
 #Death Messages
-death.attack.microwaving=%1$s被辐射脱水。
-death.attack.microwaving.player=%1$s在与%2$s的战斗中被辐射脱水。
-death.attack.elementalPollution=%1$s在错误的空洞中被汽化。
-death.attack.elementalPollution.player=%1$s在与%2$s的战斗中被错误的空洞汽化。
-death.attack.subspace=%1$s受到了降维打击。
-death.attack.subspace.player=%1$s在与%2$s的战斗中受到了降维打击。
+death.attack.microwaving=%1$s被辐射脱水
+death.attack.microwaving.player=%1$s在与%2$s的战斗中被辐射脱水
+death.attack.elementalPollution=%1$s在错误的空洞中被汽化
+death.attack.elementalPollution.player=%1$s在与%2$s的战斗中被错误的空洞汽化
+death.attack.subspace=%1$s受到了降维打击
+death.attack.subspace.player=%1$s在与%2$s的战斗中受到了降维打击
 
 #Machine hulls
 gt.blockmachines.hull.tier.10.name=UEV机器外壳
@@ -634,7 +634,7 @@ gt.blockcasingsTT.14.desc.0=黑洞...
 gt.blockcasingsTT.14.desc.1=嗯...
 gt.blockcasingsTT.15.name=[调试方块]
 gt.blockcasingsTT.15.desc.0=懒人确定边的方式.
-gt.blockcasingsTT.15.desc.1=0, 1, 2, 3, 4, 5, 6?!
+gt.blockcasingsTT.15.desc.1=0、1、2、3、4、5、6？！
 gt.blockcasingsTT.default.desc.0=好家伙，你从哪儿搞来的这玩意儿！？
 gt.blockcasingsTT.default.desc.1=从外太空来的...我猜...
 
@@ -663,14 +663,14 @@ gt.blockmachines.multimachine.em.transformer.name=有源变压器
 gt.blockmachines.multimachine.em.transformer.machinetype=有源变压器(AT)
 gt.blockmachines.multimachine.em.transformer.hint=1 - 能源仓、动力仓或超能机械方块
 gt.blockmachines.multimachine.em.transformer.desc.1=任意电压间的相互转换!
-gt.blockmachines.multimachine.em.transformer.desc.2=只有0.004%的能量损失, HAYO!
+gt.blockmachines.multimachine.em.transformer.desc.2=只有0.004%的能量损失，HAYO！
 
 gt.blockmachines.multimachine.tm.microwave.name=微波发生仪
 gt.blockmachines.multimachine.tm.microwave.hint.0=1 - 基础仓室或洁净不锈钢机械方块
 gt.blockmachines.multimachine.tm.microwave.hint.1=也像个漏斗,所以给它个输出总线吧
 gt.blockmachines.multimachine.tm.microwave.desc.0=微波发生仪的控制器方块
 gt.blockmachines.multimachine.tm.microwave.desc.1=机器启动时开启一个计时器
-gt.blockmachines.multimachine.tm.microwave.desc.2=计时器运行时, 机器中的一切都会受到伤害
+gt.blockmachines.multimachine.tm.microwave.desc.2=计时器运行时，机器中的一切都会受到伤害
 gt.blockmachines.multimachine.tm.microwave.desc.3=机器也会自动收集内部掉落物
 gt.blockmachines.multimachine.tm.microwave.desc.4=可通过参数仪进行配置
 gt.blockmachines.multimachine.tm.microwave.desc.5=(别塞只凋灵进去)
@@ -680,7 +680,7 @@ gt.blockmachines.multimachine.tm.microwave.cfgo.0=时间
 gt.blockmachines.multimachine.tm.microwave.cfgo.1=剩余时间
 
 gt.blockmachines.multimachine.tm.teslaCoil.name=特斯拉电塔
-gt.blockmachines.multimachine.tm.teslaCoil.hint.0=1 - 基础仓室, 电容仓或特斯拉基座机械方块
+gt.blockmachines.multimachine.tm.teslaCoil.hint.0=1 - 基础仓室、电容仓或特斯拉基座机械方块
 gt.blockmachines.multimachine.tm.teslaCoil.hint.1=2 - 钛框架
 gt.blockmachines.multimachine.tm.teslaCoil.desc.0=特斯拉电塔的控制器方块
 gt.blockmachines.multimachine.tm.teslaCoil.desc.1=用于向特斯拉线圈帽和特斯拉收发器传输电力
@@ -708,12 +708,21 @@ gt.blockmachines.multimachine.tm.teslaCoil.cfgo.7=充能进度显示
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.8=扫描时间显示
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.9=最大输出显示
 
+gt.blockmachines.multimachine.em.switch.type=CNS算力网络交换机
+gt.blockmachines.multimachine.em.switch.name=QoS加权网络交换机
 gt.blockmachines.multimachine.em.switch.desc.0=根据权重将计算分配到传输接入器。
 gt.blockmachines.multimachine.em.switch.desc.1=传输接入器被分配了一个ID。
 gt.blockmachines.multimachine.em.switch.desc.2=使用便携式扫描仪扫描连接器以确定其ID。
 gt.blockmachines.multimachine.em.switch.desc.3=算力输出由TecTech参数配置。
 gt.blockmachines.multimachine.em.switch.desc.4=每组中的第一个参数控制这个仓的ID。
 gt.blockmachines.multimachine.em.switch.desc.5=每组中的第二个参数控制这个仓的权重。
+gt.blockmachines.multimachine.em.switch.adv.name=QoS静态网络交换机
+gt.blockmachines.multimachine.em.switch.adv.desc.0=加权网络交换机的可变长度版本。
+gt.blockmachines.multimachine.em.switch.adv.desc.1=每个激活的中间片消耗§b524,288§7 EU/t
+gt.blockmachines.multimachine.em.switch.adv.desc.2=算力输出由螺丝刀右击发送接口设置
+gt.blockmachines.multimachine.em.switch.adv.desc.3=要配置发送接口，它需要是对应结构的一部分
+gt.blockmachines.multimachine.em.switch.adv.desc.4=接口的算力输出直接由其设置控制
+gt.blockmachines.multimachine.em.switch.adv.desc.5=要进行加权的算力分配，使用§6%s§r。
 
 gt.blockmachines.multimachine.em.computer.name=量子计算机
 gt.blockmachines.multimachine.em.computer.machinetype=量子计算机(QC)
@@ -784,7 +793,7 @@ gt.blockmachines.multimachine.em.scanner.desc.0=元物质扫描仪的控制器�
 gt.blockmachines.multimachine.em.research.type=研究站,扫描仪
 gt.blockmachines.multimachine.em.research.hint.0=1 - 基础仓室、光学接口或电子计算机械方块
 gt.blockmachines.multimachine.em.research.hint.1=2 - 物品固定容器
-gt.blockmachines.multimachine.em.research.desc.1=用于扫描物品, 生成装配线配方闪存
+gt.blockmachines.multimachine.em.research.desc.1=用于扫描物品，生成装配线配方闪存
 gt.blockmachines.multimachine.em.research.desc.2=需要为其提供算力
 gt.blockmachines.multimachine.em.research.desc.3=在完成闪存写入之前不会消耗物品
 gt.blockmachines.multimachine.em.research.desc.4=使用螺丝刀切换模式.
@@ -802,8 +811,8 @@ gt.blockmachines.multimachine.em.collider.hint.3=4 - 元物质溢流仓或分子
 gt.blockmachines.multimachine.em.collider.hint.4=通用 - 另一个控制器面向相反的方向
 gt.blockmachines.multimachine.em.collider.desc.0=物质对撞机的控制器方块
 gt.blockmachines.multimachine.em.collider.desc.1=需要一台镜像机器方可正常工作
-gt.blockmachines.multimachine.em.collider.desc.2=一台设为 '聚变模式', 另一台设为 '对撞模式'
-gt.blockmachines.multimachine.em.collider.desc.3=将两种元物质聚变, 产生另一种元物质(以及能量)
+gt.blockmachines.multimachine.em.collider.desc.2=一台设为“聚变模式”，另一台设为“对撞模式”
+gt.blockmachines.multimachine.em.collider.desc.3=将两种元物质聚变，产生另一种元物质（以及能量）
 gt.blockmachines.multimachine.em.collider.mode.0=模式：聚变
 gt.blockmachines.multimachine.em.collider.mode.1=模式：对撞
 gt.blockmachines.multimachine.em.collider.mode.2=模式：未定义
@@ -1009,7 +1018,7 @@ fog.upgrade.lore.28=在电力系统中使用引力子碎片来制造局部微型
 fog.upgrade.lore.29=神锻最后的外部结构升级, 需要对引力子碎片, 及其在极端环境中的应用, 有着最前沿的研究. 有了这个升级, 诸神之锻炉的最后4个模块插槽就可以建造了, 它可以使你的生产攀升到从未有过的技术高度.
 fog.upgrade.lore.30=随着对诸神之锻炉的完全掌握, 一个跨越宇宙的全新计划逐渐成型. 在这个阶段,量化和提取引力子碎片应用于神锻之外的强大新技术领域已变为可能; 不在元素周期表上的,最奇特的等离子体也可以生产; 最重要的是,逐渐理解磁物质的巨大威力---- 这是一种完全由磁单极子构成的物质形式,其密度和稳定性是传统玻色物质的数十亿倍. 随着诸如此类的发展, 你意识到神锻的完全体也并不是最终目标, 这仅仅是超越宇宙的垫脚石.
 
-fog.upgrade.text.0=解锁诸神之锻炉的初始状态, 拥有8个可用模块位置,1个环. 并且解锁太阳耀斑锻炉模块. 2,000,000,000EU/t加工电压, 15,000热量增益上限。
+fog.upgrade.text.0=解锁诸神之锻炉的初始状态，拥有8个可用模块位置，1个环。并且解锁太阳耀斑锻炉模块。2,000,000,000EU/t加工电压，15,000热量增益上限。
 fog.upgrade.text.1=解锁一个根据实际炉温减少配方时间的乘数. 此加成通过以下公式计算: 乘数=1/(实际炉温^0.01)
 fog.upgrade.text.2=通过将实际燃料消耗速率乘以0.8来提高燃料效率.
 fog.upgrade.text.3=将最大燃料消耗速率乘以1.2
@@ -1017,28 +1026,28 @@ fog.upgrade.text.4=通过以下公式增加所有模块的基础处理电压: (�
 fog.upgrade.text.5=解锁“太阳射流融化核心”模块.
 fog.upgrade.text.6=解锁一个根据燃料消耗速率改变最大并行的乘数. 此加成通过以下公式计算: 乘数=1+(恒星燃料单位/s)/15
 fog.upgrade.text.7=解锁“太阳热能等离子制造机”模块以及基本元素到等离子体的处理 (最大为1步等离子体,T3聚变).
-fog.upgrade.text.8=解锁最大电池容量的配置窗口, 并将限制提高到整型的最大值(2147483647). 此外,解锁一个与电池容量成比例的能量减免 (上限为0.05,即5%). 能量减免计算如下: 能量减免=(1-1.05^(-0.05*最大电池容量))/20
-fog.upgrade.text.9=每进行一次升级, 最大燃料消耗速率增加1恒星燃料单位/s.
+fog.upgrade.text.8=解锁最大电池容量的配置窗口，并将限制提高到整型的最大值（2147483647）。此外，解锁一个与电池容量成比例的能量减免（上限为0.05，即5%）。能量减免计算如下：能量减免=(1-1.05^(-0.05*最大电池容量))/20
+fog.upgrade.text.9=每进行一次升级，最大燃料消耗速率增加1恒星燃料单位/s.
 fog.upgrade.text.10=最大并行添加一个x2的乘数.
-fog.upgrade.text.11=解锁“太阳聚变异化器”模块和夸克胶子等离子体生成. 此时, 该模块不受其他乘数或升级带来的加成影响.
-fog.upgrade.text.12=改进[燃料消耗->炉温]转换公式. 改进后的公式: 能量熔炉炉温=log1.12(恒星燃料单位/秒)*1000+12601, 融化核心炉温=log1.18(恒星燃料单位/秒)*1000+12601
+fog.upgrade.text.11=解锁“太阳聚变异化器”模块和夸克胶子等离子体生成。此时，该模块不受其他乘数或升级带来的加成影响。
+fog.upgrade.text.12=改进[燃料消耗->炉温]转换公式。改进后的公式：能量熔炉炉温=log1.12(恒星燃料单位/秒)*1000+12601，融化核心炉温=log1.18(恒星燃料单位/秒)*1000+12601
 fog.upgrade.text.13=将超光速放大器升级的公式改进为: 乘数=1+(恒星燃料单位/秒)/5
 fog.upgrade.text.14=将4/2超频(OC)改进为4/2.3超频(OC).
 fog.upgrade.text.15=允许“太阳热能等离子制造机”处理多步骤等离子体. 但等级(T)限制仍然存在.
 fog.upgrade.text.16=使“太阳烈焰能量锻炉”获得“太阳射流融化核心”升级路径的全部收益.
 fog.upgrade.text.17=将高炉(EBF)炉温增益上限提高到30,000K.
 fog.upgrade.text.18=解锁一个根据当前热量改变最大并行的乘数. 此增益通过以下公式计算得出: 乘数=1+温度/15000
-fog.upgrade.text.19=将高炉(EBF)炉温带来的电力减免增益从5%提升至8% (译注:变为每900K减少8%的需求功率, 相当于减少能耗,但会影响并行算法), 并根据内部电池的填充水平添加能量减免. 此增益通过以下公式计算得出: 减免=(当前填充水平/最大容量-0.5)^2*(-0.6)+0.15, 对于除等离子体制造器以外的模块乘以2/3
-fog.upgrade.text.20=当温度超过30,000K时, 将提供高炉(EBF)炉温增益, 由以下公式确定: 能量锻炉炉温=30000+(当前炉温-30000)^0.85, 熔化核心炉温=30000+(当前炉温-30000)^0.8
+fog.upgrade.text.19=将工业高炉炉温带来的电力减免增益从5%提升至8%（译注：变为每900K减少8%的需求功率，相当于减少能耗，但会影响并行算法），并根据内部电池的填充水平添加能量减免。此增益通过以下公式计算得出：减免=(当前填充水平/最大容量-0.5)^2*(-0.6)+0.15，对于除等离子体制造器以外的模块乘以2/3
+fog.upgrade.text.20=当温度超过30,000K时，将提供工业高炉炉温增益，由以下公式确定：能量锻炉炉温=30000+(当前炉温-30000)^0.85，熔化核心炉温=30000+(当前炉温-30000)^0.8
 fog.upgrade.text.21=解锁一个根据升级总数改变最大并行的乘数. 此增益通过以下公式计算得出: 乘数=1+升级数量/5
 fog.upgrade.text.22=根据当前最大并行改进减少配方时间的乘数 (改进的引力对流线圈,IGCC升级). 再改进后公式: 乘数=(1/温度^0.01)/(并行^0.02)
 fog.upgrade.text.23=每个已激活的环将最大处理电压乘4 , 在其他增益之后计算.
 fog.upgrade.text.24=允许太阳热能等离子制造机处理T5的等离子体.
-fog.upgrade.text.25=使“太阳聚变异化器”能够受到其他升级效果的影响, 但这些效果会先进行平方根运算. 超频加成通过以下公式调整: 超频系数=2+(基础超频系数-2)²
-fog.upgrade.text.26=允许建造第二环, 并增加4个可用模块位置.
-fog.upgrade.text.27=解除最大燃料消耗上限. 但用于加成计算的燃料消耗量根据以下公式进行调整: 实际燃料消耗=基础最大燃料消耗+(基础燃料消耗-基础最大燃料消耗)^0.4, 其中基础最大燃料消耗指未升级时的最大燃料消耗.
+fog.upgrade.text.25=使“太阳聚变异化器”能够受到其他升级效果的影响，但这些效果会先进行平方根运算。超频加成通过以下公式调整：超频系数=2+(基础超频系数-2)²
+fog.upgrade.text.26=允许建造第二环，并增加4个可用模块位置。
+fog.upgrade.text.27=解除最大燃料消耗上限，但用于加成计算的燃料消耗量根据以下公式进行调整：实际燃料消耗=基础最大燃料消耗+(基础燃料消耗-基础最大燃料消耗)^0.4，其中基础最大燃料消耗指未升级时的最大燃料消耗。
 fog.upgrade.text.28=解除最大处理电压上限. 可在每个模块的图形界面中设置电压.
-fog.upgrade.text.29=允许建造第三环, 并增加4个可用模块位置.
+fog.upgrade.text.29=允许建造第三环，并增加4个可用模块位置。
 fog.upgrade.text.30=在“太阳聚变异化器”中解锁磁物质生产; 在“太阳热能等离子制造机”中解锁异星等离子体的生成; 以及允许神锻弹出和插入引力子碎片.
 
 fog.debug.resetbutton.text=重置
@@ -1052,7 +1061,7 @@ fog.button.furnacemode.tooltip.01=高炉模式
 fog.button.furnacemode.tooltip.02=熔炉模式
 fog.button.magmattermode.tooltip.01=夸克胶子等离子体模式
 fog.button.magmattermode.tooltip.02=磁物质模式
-fog.button.magmattermode.tooltip.03=磁物质模式已锁定, 缺少升级
+fog.button.magmattermode.tooltip.03=磁物质模式已锁定，缺少升级
 fog.button.battery.tooltip.01=切换电池充能
 fog.button.battery.tooltip.02=右键以打开配置菜单(如果已经解锁的话)
 fog.button.voltageconfig.tooltip.01=打开电压配置
@@ -1075,8 +1084,8 @@ fog.button.statistics.tooltip=统计概述
 fog.text.tooltip.heat=用于检查配方是否可以运行的炉温
 fog.text.tooltip.effectiveheat=用于计算加成的炉温
 fog.text.tooltip.parallel=最大并行
-fog.text.tooltip.speedbonus=配方基础时间乘数, 越小越好
-fog.text.tooltip.energydiscount=基础能量消耗乘数, 越小越好
+fog.text.tooltip.speedbonus=配方基础时间乘数，越小越好
+fog.text.tooltip.energydiscount=基础能量消耗乘数，越小越好
 fog.text.tooltip.ocdivisor=每次OC减少的时间除数(对无损超频不生效)
 fog.text.tooltip.processingvoltage=配方基础处理电压
 fog.text.tooltip.factorpreview=输入计算的燃料系数
@@ -1099,9 +1108,9 @@ achievement.gt.godforgecasing.6=中介引力子流动调节器
 achievement.gt.godforgecasing.7=中央引力子流动调节器
 
 achievement.gt.blockmachines.multimachine.em.forge_of_gods.desc=嗡——————————嘭！！！
-achievement.gt.blockmachines.multimachine.em.smelting_module.desc=至尊熔炉, 驭众熔炉.
+achievement.gt.blockmachines.multimachine.em.smelting_module.desc=至尊熔炉，驭众熔炉。
 achievement.gt.blockmachines.multimachine.em.molten_module.desc=希望你有好的流体固化器!
-achievement.gt.blockmachines.multimachine.em.plasma_module.desc=聚变? 不, 谢谢.
+achievement.gt.blockmachines.multimachine.em.plasma_module.desc=聚变？不，谢谢。
 achievement.gt.blockmachines.multimachine.em.exotic_module.desc=自从2024以来创建静态！
 achievement.gt.godforgecasing.0.desc=诸神之锻炉的结构方块
 achievement.gt.godforgecasing.1.desc=诸神之锻炉的结构方块

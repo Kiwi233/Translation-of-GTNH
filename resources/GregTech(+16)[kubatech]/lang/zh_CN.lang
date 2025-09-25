@@ -37,6 +37,7 @@ GT5U.gui.text.EIG_seedOverflow=存储了太多种子!
 GT5U.gui.text.EIG_missingwater=没有水!
 GT5U.gui.text.EIG_ic2glass=玻璃等级不足!
 
+## General
 kubatech.gui.text.configuration=配置
 
 kubatech.gui.text.tea_ultimate.status=状态
@@ -53,15 +54,26 @@ kubatech.gui.text.tea_acceptor.not_owner=这不是你的方块
 kubatech.gui.text.tea_acceptor.in=输入: %s/t
 kubatech.gui.text.tea_acceptor.in.tooltip=过去5秒的平均输入
 
-kubatech.gui.text.eec.infernal_drop=允许生成精英怪
-kubatech.gui.text.eec.infernal_drop.always=不影响始终为精英怪的怪物！
-kubatech.gui.text.eec.void_all_damaged=销毁所有受损及附魔的物品
-kubatech.gui.text.eec.void_all_damaged.warning=不影响精英怪掉落物及一些特殊掉落物，比如史莱姆剑！
-kubatech.gui.tooltip.eec.ritual_mode=仪式模式
+kubatech.gui.text.eec.preserve_weapon_on=武器保护：开启
+kubatech.gui.text.eec.preserve_weapon_off=武器保护：关闭
+kubatech.gui.text.eec.preserve_weapon_warning=当前没有使用GUI武器。
+kubatech.gui.text.eec.cycle_weapons_on=武器循环：开启
+kubatech.gui.text.eec.cycle_weapons_off=武器循环：关闭
+kubatech.gui.text.eec.cycle_weapons.info=如果启用了§f武器保护§r功能，当物品栏中有空间时，会将几乎损坏的武器从GUI移至输出总线。
+kubatech.gui.text.eec.void_all_damaged_on=销毁耐久不满和附魔的物品：开启
+kubatech.gui.text.eec.void_all_damaged_off=销毁耐久不满和附魔的物品：关闭
+kubatech.gui.text.eec.void_all_damaged.warning=不影响精英怪掉落物及一些特殊掉落物，比如史莱姆剑！不会作用于GUI中的武器。
+kubatech.gui.text.eec.infernal_drop_on=允许精英怪生成：开启
+kubatech.gui.text.eec.infernal_drop_off=允许精英怪生成：关闭
+kubatech.gui.text.eec.infernal_drop_always=不会作用于始终为精英怪的怪物！
+kubatech.gui.text.eec.ritual_mode_on=苦难之井模式：启动
+kubatech.gui.text.eec.ritual_mode_off=苦难之井模式：关闭
+kubatech.gui.text.eec.ritual_mode_connected=已连接到仪式。
+kubatech.gui.text.eec.ritual_mode_error=无法连接到仪式！
 
 kubatech.gui.text.inventory=物品栏
 kubatech.gui.text.status=状态
-kubatech.gui.text.operating=运行中
+kubatech.gui.text.operating=运行
 kubatech.gui.text.input=输入
 kubatech.gui.text.output=输出
 kubatech.gui.text.eig.setup_mode=设置模式
@@ -78,6 +90,16 @@ kubatech.gui.tooltip.dynamic_inventory.identical_slots=有%d个相同的槽位
 kubatech.gui.tooltip.dynamic_inventory.empty_slot=空槽位
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_types=剩余种子类型：%d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=剩余种子容量：%d
+
+#Chat Messages
+kubatech.chat.forbidden_while_running=无法在运行时更改模式！
+
+kubatech.chat.eec.ritual_mode_enabled=苦难之井模式已启用
+kubatech.chat.eec.ritual_mode_disabled=苦难之井模式已关闭
+kubatech.chat.eec.ritual_mode_connected=已成功连接到仪式
+kubatech.chat.eec.ritual_mode_error=无法连接到仪式！
+kubatech.chat.eec.infernal_drops_enabled=允许精英怪生成
+kubatech.chat.eec.infernal_drops_disabled=将尝试阻止生成精英怪
 
 # info data
 ## general
@@ -96,13 +118,17 @@ kubatech.infodata.eec.in_ritual_mode.yes=处于仪式模式：§e是
 kubatech.infodata.eec.in_ritual_mode.no=处于仪式模式：§e否
 kubatech.infodata.eec.connected_to_ritual.yes=已连接到仪式：§a是
 kubatech.infodata.eec.connected_to_ritual.no=已连接到仪式：§c否
+kubatech.infodata.eec.cycle_weapons.yes=武器循环中：§e是
+kubatech.infodata.eec.cycle_weapons.no=武器循环中：§e否
+kubatech.infodata.eec.weapon_preservation.yes=武器保留中：§e是
+kubatech.infodata.eec.weapon_preservation.no=武器保留中：§e否
 kubatech.infodata.eec.inserted_weapon.yes=武器已插入: §eYes
 kubatech.infodata.eec.inserted_weapon.no=武器已插入: §eNo
 kubatech.infodata.eec.weapon.damage=武器攻击伤害：§e%f
 kubatech.infodata.eec.weapon.looting_level=武器掠夺等级：§e%d
 kubatech.infodata.eec.total_damage=总攻击伤害：§e%f
 
-## Exreme Industrial Greenhouse
+## Extreme Industrial Greenhouse
 kubatech.infodata.eig.running_mode.setup_mode.input=设置模式（输入）
 kubatech.infodata.eig.running_mode.setup_mode.output=设置模式（输出）
 kubatech.infodata.eig.uses.water=每次操作消耗 %d L 水
@@ -122,10 +148,11 @@ kubatech.infodata.mia.running_mode.operating.normal=工作模式（常规）
 kubatech.infodata.mia.running_mode.operating.swarmer=工作模式（蜂群）
 kubatech.infodata.mia.running_mode.bee_storage=蜜蜂储存（%s/%s）：
 
-
 #Waila
 kubatech.waila.eec.mob_type=生物类型：%s
 kubatech.waila.eec.no_mob=无
+kubatech.waila.eec.ritual_mode_connected=已连接至仪式
+kubatech.waila.eec.ritual_mode_error=未连接仪式！
 
 #Blocks
 kubablock.tea_acceptor.name=§4§l茶接收器
@@ -229,6 +256,6 @@ kubatech.tooltip.tea=茶
 kubatech.tooltip.tea_acceptor.0=接受茶叶物品并将其加入您的网络
 kubatech.tooltip.tea_acceptor.1=每tick最多可叠加10层
 kubatech.tooltip.tea_storage.0=将茶叶储存空间扩展%s
-kubatech.tooltip.tea_ingredient.0=这是茶叶成分
+kubatech.tooltip.tea_ingredient.0=这是茶的原料
 
 kubatech.tooltip.structure.flowers=花

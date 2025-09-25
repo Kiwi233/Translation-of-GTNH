@@ -1,7 +1,7 @@
 # English (US)
 
 
-# NOTE: 
+# NOTE:
 # Providing additional lore translations doesn't require any code changes, they are detected automatically. If you have
 # fewer variations in your lang file than the default lang file (en_US, this file), provide blank translations to avoid
 # the game falling back to the default translations. Adding more variations than provided by default is possible.
@@ -152,7 +152,7 @@ gt.blockcasings.ig.motor.t2.desc1=加速上升!
 gt.blockcasings.ig.motor.t3.desc1=Woooooo
 gt.blockcasings.ig.motor.t4.desc1=我 即 速 度
 gt.blockcasings.ig.motor.t5.desc1=哦耶！
-gt.blockcasings.ig.motor.desc2=为太空电梯解锁%s个模块槽位
+gt.blockcasings.ig.motor.desc2=为太空电梯解锁 §a%s§7 个模块槽位
 tile.DysonSwarmPart.name=戴森球组件
 tile.DysonSwarmReceiverCasing.name=戴森球控制能量接收基座机械方块
 tile.DysonSwarmReceiverDish.name=戴森球能量接收盘块
@@ -204,26 +204,27 @@ gt.blockmachines.multimachine.ig.siphon.lore3=根据定义，这个名字是错�
 gt.blockmachines.multimachine.ig.dyson.name=戴森球地面单元
 gt.blockmachines.multimachine.ig.dyson.type=戴森球
 gt.blockmachines.multimachine.ig.dyson.desc1=在输入总线中放入戴森球模块，将其发射至相邻的恒星.
-gt.blockmachines.multimachine.ig.dyson.desc2=每个模块输出%s*f EU/t，最高可达10000，其中f是与维度相关的因子。
-gt.blockmachines.multimachine.ig.dyson.desc3=每秒m个戴森球模块中有n个会被损耗
-gt.blockmachines.multimachine.ig.dyson.desc4=每小时，根据以下公式，m个模块中有n个被破坏：n = m * (2 * %s) / (exp(-%s* (m - 1))+exp(%s * cps))，其中cps代表每秒计算量。
-gt.blockmachines.multimachine.ig.dyson.desc5=需要 %s L/h 的 %s。
+gt.blockmachines.multimachine.ig.dyson.desc2=每个模块输出 §a%s*§9§lD§r §7EU/t，最高可达 §a10000。
+gt.blockmachines.multimachine.ig.dyson.desc3=每小时，模块中 §6§lI§r§a * (2 * %s) / (exp(-%s * (§6§lI§r§a - 1)) + exp(%s * §b§lC§r§a)) §7 个被摧毁。译者注：exp(x)=e^x
+gt.blockmachines.multimachine.ig.dyson.desc4=§b§lC§r§b算力/s§r，§6§lI§r§6初始模块数量，§9§lD§r§9维度相关因子§7（值查任务）
+gt.blockmachines.multimachine.ig.dyson.desc5=需要 §a%s L/h §7的 %s。
 gt.blockmachines.multimachine.ig.dyson.desc6=手持搋子右键，可以取出尽可能多的模块放入物品栏中
 gt.blockmachines.multimachine.ig.dyson.desc7=Shift+右键会将剩余模块扔在地上
 gt.blockmachines.multimachine.ig.dyson.lore0=等等，这不是一支吸尘器大军吗？
 gt.blockmachines.multimachine.ig.dyson.lore1=9号吗?不完全是。
-gt.blockmachines.multimachine.ig.dyson.lore2=不是游戏。
+gt.blockmachines.multimachine.ig.dyson.lore2=不是那个游戏。
 gt.blockmachines.multimachine.ig.dyson.lore3=基本上就是太阳能板。
 gt.blockmachines.multimachine.ig.dyson.lore4=一个自由之人所创。
 
 # Space Elevator
 gt.blockmachines.multimachine.ig.elevator.name=太空电梯
-gt.blockmachines.multimachine.ig.elevator.desc2=最多能装备12个太空电梯模块
+gt.blockmachines.multimachine.ig.elevator.desc2=最多能装备 §a12 §7个太空电梯模块
 gt.blockmachines.multimachine.ig.elevator.desc3=加速轨道等级限制了模块等级与可安装的模块数量
 gt.blockmachines.multimachine.ig.elevator.desc4=每个模块有各自独立的输入输出空间，统一供电
 gt.blockmachines.multimachine.ig.elevator.desc5=由本控制器接收能量供应并将能量分发
-gt.blockmachines.multimachine.ig.elevator.desc6=MK-III及以上加速轨道可以扩展此结构支持24个模块
-gt.blockmachines.multimachine.ig.elevator.desc7=关闭控制器即可暂停所有模块
+gt.blockmachines.multimachine.ig.elevator.desc6=从§dMotor MK-III §7开始，该结构可扩展以容纳§a24 §7个模块
+gt.blockmachines.multimachine.ig.elevator.desc7=最大模块数量对应加速轨道§aMK-I§7/§9MK-II§7/§dMK-III§7/§6MK-IV§7/§cMK-V§7分别为§a6§7/§912§7/§d15§7/§618§7/§c24§7 个
+gt.blockmachines.multimachine.ig.elevator.desc8=禁用此控制器也会暂停所有模块
 gt.blockmachines.multimachine.ig.elevator.lore0=10:上升到太空
 gt.blockmachines.multimachine.ig.elevator.lore1=10:你最喜欢太空的哪一点？我喜欢每一点.
 gt.blockmachines.multimachine.ig.elevator.lore2=10:让所有虚空采矿场都失业
@@ -239,11 +240,11 @@ gt.blockmachines.multimachine.ig.elevator.gui.config=配置：
 # Module Base
 gt.blockmachines.module.name=太空电梯模块
 gt.blockmachines.multimachine.project.ig.desc2=直接从太空电梯接收能量，不使用能源仓
-gt.blockmachines.multimachine.project.ig.motorT1=需要MK-I或更高等级的加速轨道
-gt.blockmachines.multimachine.project.ig.motorT2=需要MK-II或更高等级的加速轨道
-gt.blockmachines.multimachine.project.ig.motorT3=需要MK-III或更高等级的加速轨道
-gt.blockmachines.multimachine.project.ig.motorT4=需要MK-IV或更高等级的加速轨道
-gt.blockmachines.multimachine.project.ig.motorT5=需要MK-V或更高等级的加速轨道
+gt.blockmachines.multimachine.project.ig.motorT1=至少需要§a加速轨道MK-I§7才能工作
+gt.blockmachines.multimachine.project.ig.motorT2=至少需要§9加速轨道MK-II§7才能工作
+gt.blockmachines.multimachine.project.ig.motorT3=至少需要§d加速轨道MK-III§7才能工作
+gt.blockmachines.multimachine.project.ig.motorT4=至少需要§6加速轨道MK-IV§7才能工作
+gt.blockmachines.multimachine.project.ig.motorT5=至少需要§c加速轨道MK-V§7才能工作
 
 # Module Assembler
 gt.blockmachines.multimachine.project.ig.assembler.t1.name=太空组装模块MK-I
@@ -253,9 +254,9 @@ gt.blockmachines.multimachine.project.ig.assembler.desc0=将太空组装功能�
 gt.blockmachines.multimachine.project.ig.assembler.t1.desc1=为什么我又要在太空里组装东西啊？
 gt.blockmachines.multimachine.project.ig.assembler.t2.desc1=这真的有必要吗？
 gt.blockmachines.multimachine.project.ig.assembler.t3.desc1=我想我们永远也不会知道.
-gt.blockmachines.multimachine.project.ig.assembler.t1.desc2=运行电压：UHV，最大并行：4
-gt.blockmachines.multimachine.project.ig.assembler.t2.desc2=运行电压：UIV，最大并行：16
-gt.blockmachines.multimachine.project.ig.assembler.t3.desc2=运行电压：UXV，最大并行：64
+gt.blockmachines.multimachine.project.ig.assembler.t1.desc2=运行电压：UHV，最大并行：§a4§7
+gt.blockmachines.multimachine.project.ig.assembler.t2.desc2=运行电压：UIV，最大并行：§a16§7
+gt.blockmachines.multimachine.project.ig.assembler.t3.desc2=运行电压：UXV，最大并行：§a64§7
 gt.blockmachines.multimachine.project.ig.assembler.cfgi.0=最大并行
 
 # Module Miner
@@ -275,13 +276,14 @@ gt.blockmachines.multimachine.project.ig.cfgo.0=已存储能量
 gt.blockmachines.multimachine.project.ig.miner.t1.desc1=前有伟大宝藏,超乎你的想象!
 gt.blockmachines.multimachine.project.ig.miner.t2.desc1=这是不是侵害了无人机的权利?
 gt.blockmachines.multimachine.project.ig.miner.t3.desc1=这绝对侵害了无人机的权利.
-gt.blockmachines.multimachine.project.ig.miner.desc3=运行需要等离子体 (825L 氦 / 550L 铋 / 375L 氡 / 250L 锝 / 150L钚-241)
+gt.blockmachines.multimachine.project.ig.miner.desc3=运行需要等离子体 (§e825L 氦§7 / §3550L 铋§7 / §9375L 氡§7 / §f250L 锝§7 / §c150L钚-241§7)
 gt.blockmachines.multimachine.project.ig.miner.desc4=使用更高级的等离子体可增加开采更大小行星的机会,并且改善采矿操作时间.
 gt.blockmachines.multimachine.project.ig.miner.desc5=需要为其提供算力
-gt.blockmachines.multimachine.project.ig.miner.desc5.1=采矿无人机必须放置在常规输入总线中（既非共享输入总线也非存储输入总线）。
-gt.blockmachines.multimachine.project.ig.miner.t1.desc5=运行电压：UV，最大并行：2
-gt.blockmachines.multimachine.project.ig.miner.t2.desc5=运行电压：UHV，最大并行：4
-gt.blockmachines.multimachine.project.ig.miner.t3.desc5=运行电压：UEV，最大并行：8
+gt.blockmachines.multimachine.project.ig.miner.desc5.1=并行会消耗算力。
+gt.blockmachines.multimachine.project.ig.miner.desc5.2=采矿无人机必须放置在常规输入总线中（既不能是共享输入总线也不能是存储输入总线）。
+gt.blockmachines.multimachine.project.ig.miner.t1.desc5=运行电压：UV，最大并行：§a2§7
+gt.blockmachines.multimachine.project.ig.miner.t2.desc5=运行电压：UHV，最大并行：§a4§7
+gt.blockmachines.multimachine.project.ig.miner.t3.desc5=运行电压：UEV，最大并行：§a8§7
 gt.blockmachines.multimachine.project.ig.miner.desc6=请将矿石放入输入总线，以设置白名单/黑名单
 gt.blockmachines.multimachine.project.ig.miner.activedronetiers=现役无人机等级
 gt.blockmachines.multimachine.project.ig.miner.asteroidsummaries.0=当前距离与无人机的可能小行星
@@ -299,10 +301,10 @@ gt.blockmachines.multimachine.project.ig.pump.t2.desc1=疯狂吮吸
 gt.blockmachines.multimachine.project.ig.pump.t3.desc1=S U C C
 gt.blockmachines.multimachine.project.ig.pump.desc3=设定的行星和气体类型决定了输出的流体
 gt.blockmachines.multimachine.project.ig.pump.desc4=锁定输出仓即可防止溢出销毁
-gt.blockmachines.multimachine.project.ig.pump.t1.desc5=运行电压：UHV，最大并行：4
-gt.blockmachines.multimachine.project.ig.pump.t2.desc5=运行电压：UEV，每个配方的最大并行：4
-gt.blockmachines.multimachine.project.ig.pump.t3.desc5=运行电压：UXV，每个配方的最大并行：64
-gt.blockmachines.multimachine.project.ig.pump.t2.desc6=一次处理多达4种不同的配方
+gt.blockmachines.multimachine.project.ig.pump.t1.desc5=运行电压：UHV，最大并行：§a4§7
+gt.blockmachines.multimachine.project.ig.pump.t2.desc5=运行电压：UEV，每个配方的最大并行：§a4§7
+gt.blockmachines.multimachine.project.ig.pump.t3.desc5=运行电压：UXV，每个配方的最大并行：§a64§7
+gt.blockmachines.multimachine.project.ig.pump.t2.desc6=一次处理多达 §a4 §7种不同的配方
 gt.blockmachines.multimachine.project.ig.pump.cfgi.0=行星类型
 gt.blockmachines.multimachine.project.ig.pump.cfgi.1=气体类型
 gt.blockmachines.multimachine.project.ig.pump.cfgi.2=并行

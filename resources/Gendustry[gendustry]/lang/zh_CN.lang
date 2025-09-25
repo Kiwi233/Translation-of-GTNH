@@ -144,7 +144,7 @@ gendustry.label.shift=<按下SHIFT查看详情>
 
 gendustry.cover.label=盖板: %s
 
-gendustry.cover.error.message=如果检测到%s, 将发射红石信号
+gendustry.cover.error.message=检测到%s时发射红石信号
 gendustry.cover.error.hint=(空手右键以改变)
 gendustry.cover.error.any=任何可能的错误
 gendustry.cover.error.none=没有错误
@@ -205,7 +205,7 @@ gendustry.givesample.error.root=未知的品种: %s
 gendustry.givesample.error.allele=未知的基因: %s
 gendustry.givesample.error.chromosome=未知的染色体: %s
 gendustry.givesample.error.invalid=染色体对应了错误的基因
-gendustry.givesample.success=基因样本 (品种=%s, 染色体=%s, 基因=%s) 已给玩家 %s
+gendustry.givesample.success=基因样本（品种=%s，染色体=%s。基因=%s）已给予玩家%s
 
 # ==== MUTATION REQUIREMENTS ====
 gendustry.req.temperature=温度需求: %s

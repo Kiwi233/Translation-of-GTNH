@@ -218,7 +218,7 @@ msg.de.reactorRSMode.7.txt=比较器模式: 燃料转换[反转]
 
 //Tool Tips/other localizations ----------------------------------------------------------------------------------------------------------------------------------------
 info.teleporterInfUnset1.txt=未绑定
-info.teleporterInfUnset2.txt=单机右键以绑定当前
+info.teleporterInfUnset2.txt=Shift+右键以绑定当前
 info.teleporterInfUnset3.txt=x， y， z 坐标
 info.teleporterInfUnset4.txt=以及你所面对的方向
 info.teleporterInfUnset5.txt=和你当前的次元
@@ -261,7 +261,7 @@ info.de.sword.txt=你敌人的力量使这把剑变得更强了！
 
 info.de.safetyMatch.txt=生出一种不会把你的房子烧光的火
 
-info.draconiumChestInfo1.txt=空手按住Shift右键
+info.draconiumChestInfo1.txt=空手Shift+右键
 info.draconiumChestInfo2.txt=以访问颜色设置
 
 info.de.capacitorMode.txt=模式
@@ -465,10 +465,10 @@ death.attack.de.GuardianFireball=%1$s被混沌守卫燃烧炸死
 death.attack.de.GuardianEnergyBall=%1$s像一只小虫子一样被混沌守卫击溃
 death.attack.de.GuardianChaosBall=%1$s被混沌守卫的暗能量覆灭
 
-death.attack.chaosImplosion=被拉进一个能量漩涡，被永远的遗忘
-death.attack.chrystalMoved=太顽皮而被龙息惩罚
+death.attack.chaosImplosion=%1$s被拉进一个能量漩涡后泯灭了
+death.attack.chrystalMoved=%1$s太顽皮而被龙之研究惩罚了！
 
-death.attack.administrative.kill=%1$s 被不可阻止的力量打倒了
+death.attack.administrative.kill=%1$s被不可阻止的力量打倒了
 
 //Buttons ----------------------------------------------------------------------------------------------------------------------------------------
 button.de.chestAutoFeed0.txt=关闭.关闭自动补充燃料
