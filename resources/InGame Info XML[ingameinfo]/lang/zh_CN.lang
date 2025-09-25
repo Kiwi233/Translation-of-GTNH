@@ -93,21 +93,21 @@ ingameinfoxml.tag.resourcepack.desc=当前资源包.
 ingameinfoxml.tag.entitiesrendered.desc=已渲染实体数.
 ingameinfoxml.tag.entitiestotal.desc=已加载实体数.
 ingameinfoxml.tag.loadedchunks.desc=已加载区块数.
-ingameinfoxml.tag.server.desc=服务器域名 或者 IP与其端口号(在端口号不是25565时显示), 如果是本地游戏则显示为本地主机名.
-ingameinfoxml.tag.servername.desc=服务器域名, 如果是本地游戏则显示为本地主机名.
-ingameinfoxml.tag.serverip.desc=服务器IP, 如果是本地游戏则显示为127.0.0.1.
-ingameinfoxml.tag.serverport.desc=服务器端口号, 如果是本地游戏则显示为-1
-ingameinfoxml.tag.ping.desc=当前ping值, 如果没有数据则显示为-1.
-ingameinfoxml.tag.pingicon.desc=对应当前ping值的图标, 如果没有数据则不显示任何东西.
+ingameinfoxml.tag.server.desc=服务器域名 或者 IP与其端口号（在端口号不是25565时显示），如果是本地游戏则显示为localhost。
+ingameinfoxml.tag.servername.desc=服务器域名，如果是本地游戏则显示为localhost。
+ingameinfoxml.tag.serverip.desc=服务器IP，如果是本地游戏则显示为127.0.0.1。
+ingameinfoxml.tag.serverport.desc=服务器端口号，如果是本地游戏则显示为-1。
+ingameinfoxml.tag.ping.desc=当前ping值，如果没有数据则显示为-1。
+ingameinfoxml.tag.pingicon.desc=对应当前ping值的图标，如果没有数据则不显示任何东西。
 
 # gui - tag list - mouse over
-ingameinfoxml.tag.mouseovername.desc=光标下实体或方块的名称, 如果光标下什么都没有则不显示任何东西.
-ingameinfoxml.tag.mouseoveruniquename.desc=光标下实体或方块的 唯一标记名称, 如果光标下什么都没有则不显示任何东西.
-ingameinfoxml.tag.mouseoverid.desc=光标下实体或方块的ID, 如果光标下什么都没有则显示为0.
-ingameinfoxml.tag.mouseovermetadata.desc=光标下方块的metadata(元数据), 如果光标下什么都没有则显示为0.
-ingameinfoxml.tag.mouseoverpowerweak.desc=该方块红石信号的最小强度, 如果什么都没有则显示为-1.
-ingameinfoxml.tag.mouseoverpowerstrong.desc=该方块红石信号的最大强度, 如果什么都没有则显示为-1.
-ingameinfoxml.tag.mouseoverpowerinput.desc=该方块红石信号的输入强度, 如果什么都没有则显示为-1.
+ingameinfoxml.tag.mouseovername.desc=光标下实体或方块的名称，如果光标下什么都没有则不显示任何东西。
+ingameinfoxml.tag.mouseoveruniquename.desc=光标下实体或方块的唯一标记名称，如果光标下什么都没有则不显示任何东西。
+ingameinfoxml.tag.mouseoverid.desc=光标下实体或方块的ID，如果光标下什么都没有则显示为0。
+ingameinfoxml.tag.mouseovermetadata.desc=光标下方块的metadata（元数据），如果光标下什么都没有则显示为0。
+ingameinfoxml.tag.mouseoverpowerweak.desc=该方块红石信号的最小强度，如果什么都没有则显示为-1。
+ingameinfoxml.tag.mouseoverpowerstrong.desc=该方块红石信号的最大强度，如果什么都没有则显示为-1。
+ingameinfoxml.tag.mouseoverpowerinput.desc=该方块红石信号的输入强度，如果什么都没有则显示为-1。
 
 # gui - tag list - nearby player
 ingameinfoxml.tag.nearbyplayerdistance.desc=与附近第x个玩家间的距离.
@@ -179,16 +179,16 @@ ingameinfoxml.tag.xpthislevel.desc=玩家当前经验值.
 ingameinfoxml.tag.xpuntilnext.desc=玩家升级所需经验值.
 ingameinfoxml.tag.xpcap.desc=玩家到达当前等级总共所需经验值.
 ingameinfoxml.tag.username.desc=玩家名称.
-ingameinfoxml.tag.inwater.desc=如果玩家位于水下就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.wet.desc=如果玩家被水打湿就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.alive.desc=如果玩家存活就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.burning.desc=如果玩家着火就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.riding.desc=如果玩家正在骑乘就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.sneaking.desc=如果玩家正在潜行就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.sprinting.desc=如果玩家正在疾跑就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.invisible.desc=如果玩家处于隐身状态就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.eating.desc=如果玩家正在进食就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.invulnerable.desc=如果玩家处于无敌状态就返回§e真§r, 否则就返回§e假§r.
+ingameinfoxml.tag.inwater.desc=如果玩家位于水下，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.wet.desc=如果玩家被水打湿，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.alive.desc=如果玩家存活，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.burning.desc=如果玩家着火，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.riding.desc=如果玩家正在骑乘，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.sneaking.desc=如果玩家正在潜行，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.sprinting.desc=如果玩家正在疾跑，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.invisible.desc=如果玩家处于隐身状态，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.eating.desc=如果玩家正在进食，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.invulnerable.desc=如果玩家处于无敌状态，返回§etrue§r，否则返回§efalse§r。
 
 # gui - tag list - player position
 ingameinfoxml.tag.chunkx.desc=玩家X轴区块坐标.
@@ -210,9 +210,9 @@ ingameinfoxml.tag.speedz.desc=玩家移动速度z轴分量.
 ingameinfoxml.tag.speedxz.desc=玩家移动速度水平分量.
 ingameinfoxml.tag.direction.desc=以角度为单位(-180~180)的玩家朝向.
 ingameinfoxml.tag.roughdirection.desc=玩家当前大致朝向(南,西,北,东).
-ingameinfoxml.tag.finedirection.desc=玩家当前精确朝向(南,西南,西,西北, ...).
+ingameinfoxml.tag.finedirection.desc=玩家当前精确朝向（南/西南/西/西北/……）
 ingameinfoxml.tag.abrroughdirection.desc=玩家当前当前大致朝向简写(南,西,北,东).
-ingameinfoxml.tag.abrfinedirection.desc=玩家当前精确朝向简写(南,西南,西,西北, ...).
+ingameinfoxml.tag.abrfinedirection.desc=玩家当前精确朝向简写（南/西南/西/西北/……）
 ingameinfoxml.tag.directionhud.desc=一个小型的材质化的方向HUD(显示器).
 
 # gui - tag list - player potion
@@ -223,7 +223,7 @@ ingameinfoxml.tag.potionicon.desc=第x个药水效果的图标.
 ingameinfoxml.tag.potionlargeicon.desc=第x个药水效果的大图标.
 
 # gui - tag list - riding
-ingameinfoxml.tag.ridinghorse.desc=如果玩家正在骑马就返回§e真§r, 否则就返回§e假§r.
+ingameinfoxml.tag.ridinghorse.desc=如果玩家正在骑马，返回§etrue§r，否则返回§efalse§r。
 ingameinfoxml.tag.horsehealth.desc=马匹生命值.
 ingameinfoxml.tag.horsemaxhealth.desc=马匹最大生命值.
 ingameinfoxml.tag.horsespeed.desc=马匹速度.
@@ -249,13 +249,13 @@ ingameinfoxml.tag.dimension.desc=维度名称.
 ingameinfoxml.tag.dimensionid.desc=维度id.
 ingameinfoxml.tag.biome.desc=生物群系名称.
 ingameinfoxml.tag.biomeid.desc=生物群系id.
-ingameinfoxml.tag.daytime.desc=如果是白天就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.raining.desc=如果在下雨就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.thundering.desc=如果是雷暴天气就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.snowing.desc=如果在下雪就返回§e真§r, 否则就返回§e假§r.
+ingameinfoxml.tag.daytime.desc=如果是白天，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.raining.desc=如果在下雨，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.thundering.desc=如果是雷暴天气，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.snowing.desc=如果在下雪，返回§etrue§r，否则返回§efalse§r。
 ingameinfoxml.tag.nextrain.desc=下一场雨倒计时.
-ingameinfoxml.tag.slimes.desc=如果当前区块为史莱姆区块就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.hardcore.desc=如果该游戏世界为极限模式就返回§e真§r, 否则就返回§e假§r.
+ingameinfoxml.tag.slimes.desc=如果当前区块为史莱姆区块，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.hardcore.desc=如果该游戏世界为极限模式，返回§etrue§r，否则返回§efalse§r。
 ingameinfoxml.tag.temperature.desc=生物群系温度.
 ingameinfoxml.tag.localtemperature.desc=你当前位置的生物群系温度.
 ingameinfoxml.tag.humidity.desc=生物群系湿度.
@@ -268,8 +268,8 @@ ingameinfoxml.tag.bmmaxlp.desc=最大§4LP§r.
 ingameinfoxml.tag.sjenergy.desc=喷气背包能量值.
 ingameinfoxml.tag.sjmaxenergy.desc=喷气背包最大能量值.
 ingameinfoxml.tag.sjpercent.desc=喷气背包剩余能量值(以百分比为单位).
-ingameinfoxml.tag.sjenabled.desc=若果该喷气背包可用就返回§e真§r, 否则就返回§e假§r.
-ingameinfoxml.tag.sjhover.desc=如果该喷气背包处于悬停模式就返回§e真§r, 否则就返回§e假§r.
+ingameinfoxml.tag.sjenabled.desc=如果启用了喷气背包，返回§etrue§r，否则返回§efalse§r。
+ingameinfoxml.tag.sjhover.desc=如果喷气背包处于悬停模式，返回§etrue§r，否则返回§efalse§r。
 
 # gui - tag list - integration - terrafirmacraft
 ingameinfoxml.tag.tfcrainfall.desc=你当前位置的降水量.
@@ -292,7 +292,7 @@ ingameinfoxml.tag.tcwarptemp.desc=玩家的暂时性扭曲.
 ingameinfoxml.tag.tcwarptotal.desc=玩家的总扭曲.
 
 # gui - tag list - integration - gregtech
-ingameinfoxml.tag.gtnewore.desc=§etrue§r 以启用矿脉等距生成, §efalse§r 使用旧版生成逻辑（坐标轴对称）.
+ingameinfoxml.tag.gtnewore.desc=§etrue§r 以启用矿脉等距生成，§efalse§r 使用旧版生成逻辑（坐标轴对称）。
 
 
 # keys

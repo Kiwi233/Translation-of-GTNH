@@ -25,14 +25,14 @@ gameMode.Spectator=旁观模式
 # Commands
 commands.etfuturum.fill.usage=/fill <from> <to> <block>
 commands.etfuturum.fill.outOfWorld=不能将方块放置在世界之外
-commands.etfuturum.fill.success=成功地填充了%d个方块
+commands.etfuturum.fill.success=成功填充%d个方块
 
 sleep.players_sleeping=%s/%s名玩家已入睡
 sleep.skipping_night=今夜将在睡梦中度过
 
 # Containers/GUI
 container.enchant.lapis.one=花费：1颗青金石
-container.enchant.lapis.many=花费：%d个青金石
+container.enchant.lapis.many=花费：%d颗青金石
 container.enchant.level.required=等级要求
 container.enchant.level.one=+ 1级经验
 container.enchant.level.many=+ %d级经验
@@ -80,7 +80,7 @@ subtitle.fireworks.blast=烟花：爆裂
 subtitle.fireworks.blast_far=烟花：远处爆裂
 subtitle.fireworks.largeblast=大型烟花：爆裂
 subtitle.fireworks.largeblast_far=大型烟花：远处爆裂
-subtitle.fireworks.twinkle=烟火：闪烁
+subtitle.fireworks.twinkle=烟花：闪烁
 subtitle.fireworks.twinkle_far=烟花：远处闪烁
 
 subtitle.fire.fire=火：噼啪作响
@@ -94,7 +94,7 @@ subtitle.entity.player.attack.knockback=击退攻击
 subtitle.entity.player.hurt_on_fire=玩家：燃烧
 subtitle.entity.player.hurt_drown=玩家：溺水
 subtitle.entity.player.hurt_freeze=玩家：冻伤
-subtitle.entity.player.hurt_sweet_berry_bush=被甜浆果丛刺伤
+subtitle.entity.player.hurt_sweet_berry_bush=玩家：被甜浆果丛刺伤
 
 subtitle.entity.fishing_bobber.throw=浮漂：甩出
 subtitle.entity.fishing_bobber.retrieve=浮漂：收回
@@ -122,8 +122,8 @@ subtitle.entity.stray.death=流浪者：死亡
 subtitle.entity.shulker.ambient=潜影贝：窥视
 subtitle.entity.shulker.hurt=潜影贝：受伤
 subtitle.entity.shulker.hurt_closed=潜影贝：击中贝壳
-subtitle.entity.shulker.open=潜影盒：开启
-subtitle.entity.shulker.close=潜影盒：关闭
+subtitle.entity.shulker.open=潜影贝：打开
+subtitle.entity.shulker.close=潜影贝：闭合
 subtitle.entity.shulker.teleport=潜影贝：传送
 subtitle.entity.shulker.death=潜影贝：死亡
 subtitle.entity.zombie_villager.ambient=僵尸村民：低吼
@@ -150,11 +150,11 @@ subtitle.entity.fox.spit=狐狸：吐出
 subtitle.entity.boat.paddle_water=船：水中划动
 subtitle.entity.boat.paddle_land=船：陆上划动
 
-subtitle.random.fizz=嘶嘶作响
+subtitle.random.fizz=某物：嘶嘶作响
 subtitle.random.drink=啜饮
 subtitle.random.eat=进食
 subtitle.random.explode=爆炸
-subtitle.random.pop=拾取物品
+subtitle.random.pop=物品：被拾起
 subtitle.random.orb=获得经验
 subtitle.random.levelup=升级
 subtitle.random.bow=弓：发射
@@ -162,7 +162,7 @@ subtitle.random.bowhit=箭：击中
 subtitle.random.click=点击
 subtitle.random.chestopen=箱子：开启
 subtitle.random.chest.close=箱子：关闭
-subtitle.random.anvil_land=铁砧：着地
+subtitle.random.anvil_land=铁砧：着陆
 subtitle.random.burp=打嗝
 
 subtitle.dig.grass=泥土：放置或被破坏
@@ -180,8 +180,8 @@ subtitle.footsteps=脚步声
 subtitle.note.harp=音符盒：播放
 
 subtitle.liquid.water=水：流动
-subtitle.liquid.lava=岩浆：迸裂
-subtitle.liquid.lavapop=熔岩：嘶嘶声
+subtitle.liquid.lava=岩浆：流动
+subtitle.liquid.lavapop=岩浆：迸裂
 
 subtitle.item.bucket.empty=铁桶：倒空
 subtitle.item.bucket.fill=铁桶：装满
@@ -190,14 +190,14 @@ subtitle.item.bucket.fill_lava=铁桶：装满
 subtitle.item.bottle.empty=玻璃瓶：倒空
 subtitle.item.bottle.fill=玻璃瓶：装满
 subtitle.item.hoe.till=锄：犁地
-subtitle.item.elytra.flying=鞘翅：沙沙作响
-subtitle.item.armor.equip_generic=皮革护甲：摩擦
-subtitle.item.armor.equip_iron=铁质盔甲：铿锵
-subtitle.item.armor.equip_gold=黄金盔甲：叮当
+subtitle.item.elytra.flying=鞘翅：呼啸声
+subtitle.item.armor.equip_generic=皮革盔甲：摩擦
+subtitle.item.armor.equip_iron=铁盔甲：铿锵
+subtitle.item.armor.equip_gold=金盔甲：叮当
 subtitle.item.armor.equip_chain=锁链盔甲：碰擦
 subtitle.item.armor.equip_diamond=钻石盔甲：碰擦
 subtitle.item.armor.equip_netherite=下界合金盔甲：铿锵
-subtitle.item.armor.equip_elytra=鞘翅：摩擦
+subtitle.item.armor.equip_elytra=鞘翅：沙沙作响
 subtitle.item.bone_meal.use=骨粉：沙沙作响
 
 subtitle.records.13=正在播放：C418-13
@@ -213,7 +213,7 @@ subtitle.records.ward=正在播放：C418-ward
 subtitle.records.11=正在播放：C418-11
 subtitle.records.wait=正在播放：C418-wait
 
-subtitle.ambient.nether_wastes.mood=下界：地狱声响
+subtitle.ambient.nether_wastes.mood=地狱声响
 
 subtitle.block.destroyed=方块：放置或被破坏
 subtitle.block.placed=方块：放置或被破坏
@@ -1010,21 +1010,21 @@ util.totemBreak=§a§o你的不死图腾碎掉了…
 
 # Damage types
 
-death.attack.hotFloor=%1$s 发现了地板是熔岩做的
-death.attack.hotFloor.player=%1$s 因 %2$s而步入危险之地
+death.attack.hotFloor=%1$s发现了地板是熔岩做的
+death.attack.hotFloor.player=%1$s因%2$s而步入危险之地
 death.attack.sweetBerryBush=%1$s被甜浆果丛刺死了
-death.attack.sweetBerryBush.player=%1$s 在试图逃离 %2$s 时被甜浆果丛刺死了
+death.attack.sweetBerryBush.player=%1$s在试图逃离%2$s时被甜浆果丛刺死了
 death.attack.stalactite=%1$s被下落的钟乳石刺穿了
-death.attack.stalactite.player=%1$s 在与 %2$s 战斗时被坠落的钟乳石刺穿了
+death.attack.stalactite.player=%1$s在与%2$s战斗时被坠落的钟乳石刺穿了
 death.attack.stalagmite=%1$s被石笋刺穿了
-death.attack.stalagmite.player=%1$s 在与 %2$s 战斗时被石笋刺穿了
+death.attack.stalagmite.player=%1$s在与%2$s战斗时被石笋刺穿了
 death.attack.flyIntoWall=%1$s感受到了动能
-death.attack.flyIntoWall.player=%1$s 在试图逃离 %2$s 时感受到了动能
+death.attack.flyIntoWall.player=%1$s在试图逃离%2$s时感受到了动能
 death.attack.sting=%1$s被蛰死了
 death.attack.sting.item=%1$s被%2$s用%3$s蛰死了
 death.attack.sting.player=%1$s被%2$s蛰死了
-death.attack.stonecutter=%1$s 发现了为什么需要OSHA指南
-death.attack.stonecutter.player=%2$s 将 %1$s 推入了运转中的锯片
+death.attack.stonecutter=%1$s明白了为什么我们需要职业安全与健康规范
+death.attack.stonecutter.player=%2$s将%1$s推入了运转中的锯片
 
 # Banners
 item.banner.black.name=黑色旗帜

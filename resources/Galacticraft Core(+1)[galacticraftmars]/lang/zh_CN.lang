@@ -158,7 +158,7 @@ tile.methaneSynthesizer.description=提供氢与碳就能制造出甲烷,进一�
 tile.electrolyzer.description=将水转换成氢气(用于甲烷合成器)与氧气.
 tile.hydrogenPipe.description=氢气管道可将氢气从一个机器内部的储气罐传送至另外一个储气罐.
 
-gui.slimeling.chat.wrongPlayer=这不是我的黏滑怪!
+gui.slimeling.chat.wrongPlayer=这不是我的黏滑怪！
 gui.cryogenic.chat.cantUse=在%d秒前我不能再使用它了
 gui.slimeling.name=名字
 gui.slimeling.owner=拥有者
@@ -189,10 +189,10 @@ container.tileTerraformer.name=地形改造机
 container.marsLander.name=着陆气球
 
 # CONFIG GUI
-gc.configgui.dimensionIDMars=Mars Dimension ID(火星维度ID)
-gc.configgui.idSchematicRocketT2=Tier 2 Rocket Schematic ID(2阶火箭设计图ID)
-gc.configgui.idSchematicCargoRocket=Cargo Rocket Schematic ID(货运火箭设计图ID)
-gc.configgui.launchControllerChunkLoad=Launch Controller Chunkloading(发射台控制器加载区块)
-gc.configgui.launchControllerAllDims=Launch Controller All Dimensions(发射台控制器所有维度)
+gc.configgui.dimensionIDMars=火星维度ID
+gc.configgui.idSchematicRocketT2=2阶火箭设计图ID
+gc.configgui.idSchematicCargoRocket=货运火箭设计图ID
+gc.configgui.launchControllerChunkLoad=发射台控制器加载区块
+gc.configgui.launchControllerAllDims=发射台控制器所有维度
 
-gc.configgui.planets.title=Galacticraft Planets Config(星系行星配置文件)
+gc.configgui.planets.title=星系行星配置文件

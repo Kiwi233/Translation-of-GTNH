@@ -366,8 +366,8 @@ gui.sfm.OpenGroupQuick=打开命令组时，将最大化显示(除非你按住Sh
 gui.sfm.ShowCommandType=即使一个命令被重命名过，也显示其类型(即使你没有改动这个设定，按住Ctrl也是可以看到命令类型的)。
 gui.sfm.AutoSide=自动为输入、输出、条件控制选择一个面。默认会选择上面输出，其他面为输入。
 gui.sfm.AutoBlackList=将输入指令设定为默认使用空的黑名单(输出指令默认使用空的黑名单，不论这个选项是否被改动)。
-gui.sfm.Limitless=移除所有命令数量限制。没有选中这个选项时，最多设置511条命令, 1023个方块与工厂管理器连接，并且这些方块与管理器最远只能相差128格. [仅限创造模式]
-gui.sfm.EnlargeInterfaces=扩大GUI大小以适应整个窗口, 除非GUI已经适合整个窗口(为适应窗口，没有改动这个选项时，GUI总是比窗口小)。
+gui.sfm.Limitless=移除所有命令数量限制。没有选中这个选项时，最多设置511条命令、1023个方块与工厂管理器连接，并且这些方块与管理器最远只能相差128格。[仅限创造模式]
+gui.sfm.EnlargeInterfaces=扩大GUI大小以适应整个窗口，除非GUI已经适合整个窗口。（为适应窗口，无论该选项为何值，GUI总是比窗口小。）
 gui.sfm.AutoMoveFirst=为新的自动合成命令使用默认设置以实现优先移动。
 
 # ======================================
@@ -387,8 +387,8 @@ gui.sfm.DisableCreativeMode=禁止创造模式
 gui.sfm.Page=当前页数
 gui.sfm.Of=总页数
 gui.sfm.NoAccess=没有可用通道
-gui.sfm.EditorDescriptionShort=你可以定义这个方块可以与哪个玩家交互, 尽管其他玩家首先要授权你可以这么做。
-gui.sfm.UserDescriptionShort=你不能控制这个方块, 然而你可以阅读这个方块的设定.
+gui.sfm.EditorDescriptionShort=你可以定义这个方块可以与哪个玩家交互，尽管其他玩家首先要授权你可以这么做。
+gui.sfm.UserDescriptionShort=你不能控制这个方块，然而你可以阅读这个方块的设定。
 gui.sfm.EditorDescriptionLong=作为编辑者，你可以编辑这个方块可以与哪些玩家交互. 你只能选那些已经授权你这样做的玩家.
 gui.sfm.UserDescriptionLong=这个方块可以建立与玩家物品栏之间的通道，其他的物品栏也可以. 若要这个方块建立与你的物品栏之间的通道，你首先得授权它才可以. 编辑者有权决定这个方块是否能和你交互.
 gui.sfm.PermissionOwner=所有者

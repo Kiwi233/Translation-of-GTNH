@@ -120,30 +120,6 @@ item.neutronSource.name=中子源
 item.naquadahMass.name=硅岩团
 item.enrichedNaquadahMass.name=富集硅岩团
 item.naquadriaMass.name=超能硅岩团
-item.rodCompressedUraniumDepleted.name=枯竭燃料棒(浓缩铀)
-item.rodCompressedUraniumDepleted2.name=枯竭二联燃料棒(浓缩铀)
-item.rodCompressedUraniumDepleted4.name=枯竭四联燃料棒(浓缩铀)
-item.rodCompressedUranium.name=燃料棒(浓缩铀)
-item.rodCompressedUranium2.name=二联燃料棒(浓缩铀)
-item.rodCompressedUranium4.name=四联燃料棒(浓缩铀)
-item.rodCompressedPlutoniumDepleted.name=枯竭燃料棒(浓缩钚)
-item.rodCompressedPlutoniumDepleted2.name=枯竭二联燃料棒(浓缩钚)
-item.rodCompressedPlutoniumDepleted4.name=枯竭四联燃料棒(浓缩钚)
-item.rodCompressedPlutonium.name=燃料棒(浓缩钚)
-item.rodCompressedPlutonium2.name=二联燃料棒(浓缩钚)
-item.rodCompressedPlutonium4.name=四联燃料棒(浓缩钚)
-item.rodLiquidUraniumDepleted.name=枯竭燃料棒(激发铀)
-item.rodLiquidUraniumDepleted2.name=枯竭二联燃料棒(激发铀)
-item.rodLiquidUraniumDepleted4.name=枯竭四联燃料棒(激发铀)
-item.rodLiquidUranium.name=燃料棒(激发铀)
-item.rodLiquidUranium2.name=二联燃料棒(激发铀)
-item.rodLiquidUranium4.name=四联燃料棒(激发铀)
-item.rodLiquidPlutoniumDepleted.name=枯竭燃料棒(激发钚)
-item.rodLiquidPlutoniumDepleted2.name=枯竭二联燃料棒(激发钚)
-item.rodLiquidPlutoniumDepleted4.name=枯竭四联燃料棒(激发钚)
-item.rodLiquidPlutonium.name=燃料棒(激发钚)
-item.rodLiquidPlutonium2.name=二联燃料棒(激发钚)
-item.rodLiquidPlutonium4.name=四联燃料棒(激发钚)
 item.advancedFuelRod.name=高级燃料棒(空)
 item.fluidCore.name=流体存储核心
 item.fluidCore.0.name=流体存储核心T1
@@ -329,6 +305,7 @@ scanner.info.CASS.tier=外壳等级：
 scanner.info.CASS.tier.none=无！
 
 gg.scanner.info.antimatter_forge=反物质熔炉
+gg.scanner.info.antimatter_generator=反物质发电机
 gg.scanner.info.les.parallel=并行：
 gg.scanner.info.les.node_power=节点能量：
 gg.scanner.info.les.purification_efficiency=净化效率：
@@ -346,7 +323,7 @@ gg.scanner.info.fusion_reactor_mk=聚变反应堆 MK
 GT5U.gui.text.node_too_small=§7节点过小
 
 gui.NeutronSensor.0=输入中子动能值.
-gui.NeutronSensor.1=例如 >5000KeV, <=30MeV . . .
+gui.NeutronSensor.1=例如 >5000KeV，<=30MeV……
 gui.NeutronSensor.2=有效
 gui.NeutronSensor.3=无效
 gui.NeutronSensor.4=eV阈值

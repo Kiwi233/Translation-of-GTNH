@@ -17,7 +17,7 @@ botaniamisc.oredict=矿物辞典合成
 botaniamisc.statusUnknown=未知状态
 botaniamisc.color=%s 染色
 botaniamisc.manaUsage=魔力消耗
-botaniamisc.shiftToRead=Shift并右击了解更多
+botaniamisc.shiftToRead=Shift+右键以了解更多
 botaniamisc.clickToRecipe=Shift点击查看合成
 botaniamisc.clickToIndex=Shift点击查看目录
 botaniamisc.flareColor=%s 弹药
@@ -446,7 +446,7 @@ botania.versioning.disabled=抱歉,自动升级由于服务器主机的原因已
 
 # BAUBLE TOOLTIPS
 botania.baubletype.amulet=装备在&a项链&7栏
-botania.baubletype.ring=装备在&a戒指&7栏
+botania.baubletype.ring=可装备在&a戒指&7栏
 botania.baubletype.belt=装备在&a腰带&7栏
 botania.baubletooltip=按&b%key%&7键打开饰品菜单
 
@@ -457,7 +457,7 @@ item.dice.poem2=可能的结果中暗藏着规则,
 item.dice.poem3=数字将引领一切起舞.
 
 # DEATH MESSAGES
-death.attack.botania-relic=%s 因使用不属于他的遗物而被惩罚致死
+death.attack.botania-relic=%s因使用不属于他的遗物而被惩罚致死
 
 # ENTITY NAMES
 entity.Botania.botania:manaBurst.name=魔力脉冲
@@ -592,44 +592,44 @@ botania.challengelevel.lunatic=疯狂
 
 # CHALLENGE TEXT
 botania.challenge.flowerFarm=花卉农场
-botania.challenge.flowerFarm.desc=创建一个有着十六种颜色的 植物魔法花的自动化农场.如 果花朵分类分布奖励积分.
+botania.challenge.flowerFarm.desc=创建一个有着十六种颜色的 植物魔法花的自动化农场。 如果花朵存放得井井有条， 则额外加分.
 botania.challenge.recordFarm=唱片农场
-botania.challenge.recordFarm.desc=建造一套通过骷髅击杀爬行 者来生产唱片的系统.如果它 不需要玩家在附近奖励积分.
+botania.challenge.recordFarm.desc=建造一套通过骷髅击杀爬行 者来生产唱片的系统.如果它 不需要玩家在附近则额外加分.
 botania.challenge.reedFarm=甘蔗农场
-botania.challenge.reedFarm.desc=创建一个自动化甘蔗农场.如 果不使用活塞奖励积分.
+botania.challenge.reedFarm.desc=创建一个自动化甘蔗农场.如 果不使用活塞则额外加分.
 botania.challenge.cobbleGen=圆石制造机
 botania.challenge.cobbleGen.desc=创建一个自动化的圆石制造 机和采集器.如果它也能够生 成光滑石头而不需要熔炉奖 励积分.
 botania.challenge.pureDaisy=自动白雏菊
-botania.challenge.pureDaisy.desc=完全使白雏菊自动化.如果只 使用一朵白雏菊并且/或者木 头/石头也能够自动输入奖励 积分.
+botania.challenge.pureDaisy.desc=完全使白雏菊自动化. 如果只使用一个魔力发射器, 并且/或者木头/石头也能够自动输入, 则额外加分.
 botania.challenge.battery=魔力电池
-botania.challenge.battery.desc=创建一个魔力电池,任何地方 的魔力进入一个魔力池且通 过另一个魔力池传出的系统, 且有着大量的魔力池作为缓 冲器.如果能够改变输入和输 出端奖励积分.
+botania.challenge.battery.desc=创建一个魔力电池, 即魔力进入一个魔力池且通 过另一个魔力池传出的系统, 且有着大量的魔力池作为缓 冲器. 如果能够改变输入和输 出端则额外加分.
 
 botania.challenge.apothecaryRefill=药剂台注水器
 botania.challenge.apothecaryRefill.desc=建造一套当花瓣药剂台空的 时候自动注水的系统.如果这 套系统能够自动制造花朵奖 励积分.
 botania.challenge.treeFarm=树场
-botania.challenge.treeFarm.desc=创建一个自动化的,能够自我 维持的树场.如果能够种植多 种类型的树奖励积分.
+botania.challenge.treeFarm.desc=创建一个自动化的,能够自我 维持的树场.如果能够种植多 种类型的树则额外加分.
 botania.challenge.fullCropFarm=齐全的作物农场
-botania.challenge.fullCropFarm.desc=创建一个有着所有类型作物 (小麦,胡萝卜,马铃薯,西瓜,南瓜, 可可豆和地狱疣)并且能够全 效率运作的农场.如果输出物 品分类奖励积分. 
+botania.challenge.fullCropFarm.desc=创建一个有着所有类型作物 (小麦,胡萝卜,马铃薯,西瓜,南瓜, 可可豆和地狱疣)并且能够全 效率运作的农场.如果输出物 品分类存放则额外加分. 
 botania.challenge.animalFarm=动物农场
-botania.challenge.animalFarm.desc=创建一个有着所有能够饲养 的动物的自动化农场.如果不 需要手动喂养食物奖励积分.
+botania.challenge.animalFarm.desc=创建一个有着所有能够饲养 的动物的自动化农场.如果不 需要手动放置食物则额外加分.
 botania.challenge.boneMealFarm=骨粉农场
-botania.challenge.boneMealFarm.desc=创建一个使用骨粉快速催熟 作物的自动化农场.如果不使 用狂野之鼓奖励积分.
+botania.challenge.boneMealFarm.desc=创建一个使用骨粉快速催熟 作物的自动化农场.如果不使 用狂野之鼓则额外加分.
 botania.challenge.orechid=自动凝矿
-botania.challenge.orechid.desc=建造一套允许凝矿兰完全自 动化的系统.如果输出物品分 类奖励奖励积分.
+botania.challenge.orechid.desc=建造一套允许凝矿兰完全自 动化的系统.如果输出物品分 类存放则额外加分.
 
 botania.challenge.mobTower=刷怪塔
-botania.challenge.mobTower.desc=创建一个塔状的刷怪场.生物 最终必须被分类在特定的各 自的区域内.可以使用刷怪笼. 如果不需要玩家交互达到 100%效率奖励积分.
+botania.challenge.mobTower.desc=创建一个塔状的刷怪场.生物 最终必须被分类在特定的各 自的区域内.可以使用刷怪笼. 如果不需要玩家交互达到 100%效率则额外加分.
 botania.challenge.entropinnyumSetup=热爆装置
 botania.challenge.entropinnyumSetup.desc=建造一套自动合成TNT并且 安全喂食热爆花来生产魔力 的系统.如果TNT需求的沙 子和火药不需要手动放置奖 励积分.
 botania.challenge.spectrolusSetup=斑斓装置
-botania.challenge.spectrolusSetup.desc=建造一套自动喂食斑斓花来 生产魔力的系统.除了最初的 魔力外,任何物品不允许从系 统外部输入.如果它100% 效率运行,不需要为羊毛而等 待奖励积分. 
+botania.challenge.spectrolusSetup.desc=建造一套自动喂食斑斓花来 生产魔力的系统.除了最初的 魔力外,任何物品不允许从系 统外部输入.如果它100% 效率运行,没有浪费羊毛 则额外加分. 
 botania.challenge.potionBrewer=自动酿造
-botania.challenge.potionBrewer.desc=建造一套能够自动制作所有 种类的药水的系统.如果它能 保持总是有一组熏香点燃玩家 基地奖励积分.
+botania.challenge.potionBrewer.desc=建造一套能够自动制作所有 种类的药水的系统.若能在玩家 持续保持一组香炉点燃 则额外加分.
 
 botania.challenge.kekimurusSetup=贪食装置
-botania.challenge.kekimurusSetup.desc=完全自动化贪食花,该系统的 每部分都必须是自动化且能 够自我维持.如果仅用一个机 巧箱奖励积分.
+botania.challenge.kekimurusSetup.desc=完全自动化贪食花,该系统的 每部分都必须是自动化且能 够自我维持.如果仅用一个机 巧箱则额外加分.
 botania.challenge.autoQuarry=自动采矿
-botania.challenge.autoQuarry.desc=创建一个自动采掘地下的矿 石和石头的采矿场.它应该能 够挖掘大片的区域并且自动 输出资源和整理排序.如果它 能够在挖掘完一片区域后自 动转移奖励积分.
+botania.challenge.autoQuarry.desc=创建一个自动采掘地下的矿 石和石头的采矿场.它应该能 够挖掘大片的区域并且自动 输出资源和整理排序.如果它 能够在挖掘完一片区域后自 动换地方 则额外加分.
 botania.challenge.runeCrafter=符文合成
 botania.challenge.runeCrafter.desc=建造一套能够自动合成全部 符文并且维持其储量的系统. 系统的每个部分都必须自动 化且能自我维持,包括物品输 入.如果只用一个符文祭坛奖 励积分.你必须非常疯狂才能 尝试这个.
 
@@ -650,6 +650,7 @@ tile.botania:flower12.name=棕色神秘花
 tile.botania:flower13.name=绿色神秘花
 tile.botania:flower14.name=红色神秘花
 tile.botania:flower15.name=黑色神秘花
+tile.botania:flower_structurelib.name=任意植物魔法的花
 tile.botania:altar0.name=花药台
 tile.botania:altar1.name=森林花药台
 tile.botania:altar2.name=平原花药台
