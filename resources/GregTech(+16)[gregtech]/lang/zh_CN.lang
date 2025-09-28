@@ -418,7 +418,7 @@ gtpp.material.Lanthanum=镧
 gtpp.material.Laurenium=劳伦姆合金
 gtpp.material.Lautarite=碘钙石
 gtpp.material.Lead=铅
-gtpp.material.Lepersonnite=绿泥石
+gtpp.material.Lepersonnite=莱普生石
 gtpp.material.Li2CO3CaO2H2Compound=碳酸锂+氢氧化钙复合物
 gtpp.material.Lithium=锂
 gtpp.material.LithiumCarbonate=碳酸锂
@@ -727,7 +727,7 @@ GT5U.power_goggles_config.text_good=良好的文字颜色
 GT5U.power_goggles_config.text_good_tooltip=改变当EU为增加时，文本和功率图的颜色
 
 GT5U.maglevHarness.tooltip=在能量塔范围内时获得创造飞行
-GT5U.maglevHarness.pylons=§4 您必须建造更多的能量塔！
+GT5U.maglevHarness.pylons=§9您必须建造更多的能量塔！
 
 GT5U.autoplace.error.no_hatch=§c建议放置仓室 §4%s§c ,但未在库存中找到
 GT5U.autoplace.error.no_mte.id=§c建议放置meta-ID为 §4%s§c 的方块,但未在库存中找到
@@ -1656,6 +1656,39 @@ GT5U.gui.circuit.timer.description=红石脉冲
 GT5U.gui.circuit.timer.data_description.pulses=脉冲
 GT5U.gui.circuit.timer.data_description.time=时间
 
+GT5U.gui.text.second=%s 秒
+GT5U.gui.text.second.plural=%s 秒
+GT5U.gui.text.minute=%s 分钟
+GT5U.gui.text.minute.plural=%s 分钟
+GT5U.gui.text.hour=%s 小时
+GT5U.gui.text.hour.plural=%s 小时
+GT5U.gui.text.day=%s 天
+GT5U.gui.text.day.plural=%s 天
+
+GT5U.gui.text.show-powerfail-layer=显示电力故障
+GT5U.gui.chat.powerfail=位于%s的%s的%s在%s前发生了%s次电力故障
+GT5U.gui.chat.powerfail.plural=位于%s的%s的%s在%s前发生了%s次电力故障
+GT5U.gui.chat.powerfail.waypoint=%s (于 %s 前，%s 次)
+GT5U.gui.chat.powerfail.waypoint.plural=%s (于 %s 前，%s 次)
+
+GT5U.gui.chat.powerfail.waypoint.tooltip=机器: %s\n位置: %s\n故障次数: %s\n最后发生: %s\n摁下 %s 键清除
+
+GT5U.gui.chat.powerfail.hint=§7使用 /powerfails help 指令来获取更多信息.
+
+GT5U.gui.chat.powerfail.login=你有 %s 项未解决的电力故障.
+GT5U.gui.chat.powerfail.login.plural=你有 %s 项未解决的电力故障.
+
+GT5U.gui.chat.powerfail.cleared=已解决所有的电力故障.
+GT5U.gui.chat.powerfail.cleared-dim=已解决当前维度中所有的电力故障.
+
+GT5U.gui.chat.powerfail.list.none=未发生任何电力故障.
+GT5U.gui.chat.powerfail.list.uncleared-header=未解决的电力故障:
+GT5U.gui.chat.powerfail.list.entry=- %s
+GT5U.gui.chat.powerfail.list.truncated=另有%s 个电力故障未显示
+
+GT5U.gui.chat.powerfail.shown=已启用电力故障覆盖渲染.
+GT5U.gui.chat.powerfail.hidden=已禁用电力故障覆盖渲染.
+
 # Note to translators: this translation entry is supposed to be a number indicating how many taunts you define here
 # Game will randomly display one of them
 GT5U.item.programmed_circuit.no_screwdriver.count=3
@@ -2396,7 +2429,7 @@ achievement.gt.blockmachines.wireless.transmitter.tier.13.desc=捡起此物品�
 achievement.gt.blockmachines.wireless.transmitter.tier.14=MAX无线动力仓
 achievement.gt.blockmachines.wireless.transmitter.tier.14.desc=捡起此物品以在NEI内解锁该合成表
 
-achievement.gt.blockmachines.multimachine.oildrillinfinite=无尽油气流体钻机
+achievement.gt.blockmachines.multimachine.oildrillinfinite=无尽流体钻机
 achievement.gt.blockmachines.multimachine.oildrillinfinite.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.blockmachines.multimachine.oreprocessor=集成矿石处理厂
 achievement.gt.blockmachines.multimachine.oreprocessor.desc=正在处理所有矿石.

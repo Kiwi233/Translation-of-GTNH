@@ -6,17 +6,17 @@ tile.hardSand.name=硬化沙子
 tile.hardDirt.name=硬化泥土
 tile.hardIce.name=硬化冰块
 tile.driedDirt.name=干燥泥土
-tile.cragRock.name=碎岩
+tile.cragRock.name=崖壁岩石
 tile.mudBricks.name=泥砖块
 tile.biomeBlock.name=生态群系源质矿石
 tile.crystal.name=仙域水晶
 
 tile.rocks.limestone.name=石灰岩
-tile.rocks.limestonesmooth.name=光滑石灰岩
+tile.rocks.limestonesmooth.name=磨制石灰岩
 tile.rocks.siltstone.name=粉砂岩
-tile.rocks.siltstonesmooth.name=光滑粉砂岩
+tile.rocks.siltstonesmooth.name=磨制粉砂岩
 tile.rocks.shale.name=页岩
-tile.rocks.shalesmooth.name=光滑页岩
+tile.rocks.shalesmooth.name=磨制页岩
 
 tile.ash.name=灰烬块
 tile.flesh.name=肉块
@@ -27,7 +27,7 @@ tile.lilyBop.tinylily.name=小型睡莲
 
 tile.plants.deadgrass.name=枯萎草
 tile.plants.desertgrass.name=沙漠草
-tile.plants.desertsprouts.name=沙漠野菜
+tile.plants.desertsprouts.name=沙漠芽
 tile.plants.dunegrass.name=沙丘草
 tile.plants.spectralfern.name=幽灵蕨
 tile.plants.thorn.name=荆棘
@@ -45,7 +45,7 @@ tile.plants.wildcarrot.name=野萝卜
 tile.flowers.clover.name=苜蓿
 tile.flowers.swampflower.name=沼泽花
 tile.flowers.deadbloom.name=死亡花
-tile.flowers.glowflower.name=闪光花
+tile.flowers.glowflower.name=夜光花
 tile.flowers.hydrangea.name=蓝绣球花
 tile.flowers.cosmos.name=橙波斯菊
 tile.flowers.daffodil.name=粉水仙
@@ -168,8 +168,8 @@ tile.newBopFarmland.loamy.name=肥沃耕地
 tile.bopGrass.spectralmoss.name=幽灵苔藓
 tile.bopGrass.smolderinggrass.name=阴燃草
 
-tile.gemOre.amethystore.name=紫晶矿石
-tile.gemOre.amethystblock.name=紫晶块
+tile.gemOre.amethystore.name=末影紫水晶矿石
+tile.gemOre.amethystblock.name=紫水晶块
 tile.gemOre.rubyore.name=红宝石矿石
 tile.gemOre.rubyblock.name=红宝石块
 tile.gemOre.peridotore.name=橄榄石矿石
@@ -366,7 +366,7 @@ item.jarFilled.jarhoney.name=蜂蜜罐
 item.jarFilled.jarpoison.name=毒罐子
 item.jarFilled.jarpixie.name=妖精罐子
 
-item.gems.amethyst.name=紫水晶
+item.gems.amethyst.name=末影紫水晶
 item.gems.ruby.name=红宝石
 item.gems.peridot.name=橄榄石
 item.gems.topaz.name=黄玉
@@ -434,7 +434,7 @@ item.hell_bloodBucket.name=血水桶
 item.honeyBucket.name=蜂蜜桶
 
 tile.poison.name=毒液
-tile.hell_blood.name=血
+tile.hell_blood.name=血水
 tile.honey.name=蜂蜜
 
 fluid.poison=毒液
@@ -459,12 +459,12 @@ warning.bopStartup5=你也可以在服务器中启用这一世界类型。
 warning.bopStartup6=这个提示只会出现一次。
 
 potion.paralysis=麻痹
-potion.possession=中毒
+potion.possession=附身
 
 entity.BiomesOPlenty.Glob.name=泥史莱姆
 entity.BiomesOPlenty.JungleSpider.name=丛林蜘蛛
 entity.BiomesOPlenty.Phantom.name=魅影
-entity.BiomesOPlenty.Rosester.name=火鸡
+entity.BiomesOPlenty.Rosester.name=品红鸡
 entity.BiomesOPlenty.Wasp.name=胡峰
 entity.BiomesOPlenty.Bird.name=鸟
 entity.BiomesOPlenty.Pixie.name=妖精

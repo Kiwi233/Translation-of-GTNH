@@ -232,7 +232,7 @@ craftpresence.placeholders.lerpDouble.description=在指定值间进行线性插
 craftpresence.placeholders.lerpDouble.usage=lerpDouble(num, min, max)
 craftpresence.placeholders.lerpFloat.description=在指定值间进行线性插值
 craftpresence.placeholders.lerpFloat.usage=lerpFloat(num, min, max)
-craftpresence.placeholders.mcTranslate.description=Translates an Unlocalized String, based on the game translations retrieved for the current language
+craftpresence.placeholders.mcTranslate.description=翻译未本地化的字符串，根据当前语言中检索到的MC翻译
 craftpresence.placeholders.mcTranslate.usage=mcTranslate(input=String, args=Object...)
 craftpresence.placeholders.menu.icon.description=主界面的显示图标（如果可用）
 craftpresence.placeholders.menu.message.description=主界面的显示数据（如果可用）
@@ -302,7 +302,7 @@ craftpresence.placeholders.timeToString.usage=timeToString(date, toFormat, toTim
 craftpresence.placeholders.title=可用的占位符
 craftpresence.placeholders.toCamelCase.description=将字符串转换为有效且可接受的驼峰大小写格式
 craftpresence.placeholders.toCamelCase.usage=toCamelCase(input)
-craftpresence.placeholders.translate.description=Translates an Unlocalized String, based on the mod translations retrieved for the current language
+craftpresence.placeholders.translate.description=翻译未本地化的字符串，根据当前语言中检索到的模组翻译
 craftpresence.placeholders.translate.usage=translate(input=String, args=Object...)
 craftpresence.placeholders.world.difficulty.description=当前世界难度
 craftpresence.placeholders.world.name.description=当前世界名称
