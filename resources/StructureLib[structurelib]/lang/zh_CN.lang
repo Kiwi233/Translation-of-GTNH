@@ -35,14 +35,14 @@ item.structurelib.constructableTrigger.gui.key=信道名:
 item.structurelib.constructableTrigger.gui.value=值:
 item.structurelib.constructableTrigger.gui.add=添加
 item.structurelib.constructableTrigger.gui.set=替换
-item.structurelib.constructableTrigger.gui.unset=删除
-item.structurelib.constructableTrigger.gui.wipe=§4全部清空
+item.structurelib.constructableTrigger.gui.unset=移除
+item.structurelib.constructableTrigger.gui.wipe=§4清空
 item.structurelib.constructableTrigger.gui.channels.from=§rMod：§9§o%s
-item.structurelib.constructableTrigger.gui.info=许多多方块结构支持一定程度的变化，并通过子通道来指定使用的变化类型。 子通道由小写单词作为键，正整数作为值。大多数已知子通道可通过输入提示自动补全。您还可以从 NEI 拖拽物品来设置对应的子通道值。这些物品均带有§o指示子通道Y的值为X§r的提示文本。
+item.structurelib.constructableTrigger.gui.info=许多多方块结构支持一定程度的变化。可以使用子信道来指定变体。\n子信道的键由小写字符组成，值取正整数。最常使用的一些子信道可通过输入提示自动补全。\n你还可以从NEI中拖拽并放置物品来设置对应的子信道值。这些物品均有“§o对应子信道值X（子信道：Y）§r”的tooltip。
 
 channels.structurelib.show_errors=设置的话，将突出显示多方块结构中一定是错误的部分
 
-structurelib.tooltip.channelvalue=§7设置数值 §6%d§r§7 于子频道 §6%s§r§7 中以使用该方块
+structurelib.tooltip.channelvalue=§7对应子信道值§6%d§r§7（子信道：§6%s§r§7）
 structurelib.tooltip.indicator_dnd=拖到GUI中，为此通道选择此值
 
 structurelib.autoplace.built_stat=已放置 %s 个方块

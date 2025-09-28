@@ -137,6 +137,8 @@ nei.chat.chunkoverlay.0=区块显示：关
 nei.chat.chunkoverlay.1=区块显示：仅区块角
 nei.chat.chunkoverlay.2=区块显示：区块
 nei.chat.chunkoverlay.3=区块显示：GT矿脉
+nei.chat.moboverlay.0=刷怪区域显示：§c关
+nei.chat.moboverlay.1=刷怪区域显示：§2开
 nei.chat.item_link.text=<%s> §6点击以添加书签：%s
 nei.chat.bookmark_added.text=已添加书签！
 
@@ -146,6 +148,12 @@ nei.chat.recipeid.diff.start=开始处理配方差异！
 nei.chat.recipeid.diff.finish=配方差异处理完成！
 nei.chat.recipeid.dump.start=开始处理配方处理器！
 nei.chat.recipeid.dump.finish=配方处理器处理完毕！
+
+nei.chat.untranslator.dump.start=开始转储双语数据！
+nei.chat.untranslator.dump.finish=双语数据转储完毕！
+nei.chat.untranslator.dump.error=首先，等待加载物品！
+nei.chat.untranslator.clear=文件已被成功删除！
+nei.chat.untranslator.clear.error=无法删除文件！
 
 nei.options=NEI选项
 nei.options.back=后退
@@ -427,6 +435,9 @@ nei.options.inventory.itemzoom.showName=显示物品名称
 nei.options.inventory.itemzoom.showName.true=显示
 nei.options.inventory.itemzoom.showName.false=隐藏
 nei.options.inventory.itemzoom.nameColor=物品名称颜色
+nei.options.inventory.itemUntranslator=物品名双语显示
+nei.options.inventory.itemUntranslator.true=显示
+nei.options.inventory.itemUntranslator.false=隐藏
 
 nei.options.command=指令
 nei.options.command.creative=游戏模式

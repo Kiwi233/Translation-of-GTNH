@@ -631,6 +631,25 @@ achievement.alchemicalwizardry:demons.desc=杀死由恶魔入侵召唤的恶魔
 achievement.alchemicalwizardry:trancsendentOrb=强上加强
 achievement.alchemicalwizardry:trancsendentOrb.desc=捡起卓越气血宝珠
 
+#Buff
+bm.buff.drowning=溺水
+bm.buff.boost=身轻体健
+bm.buff.whirlwind=风盾
+bm.buff.inhibit=抑制
+bm.buff.flight=飞行
+bm.buff.reciprocation=反伤
+bm.buff.flame_cloak=烈焰斗篷
+bm.buff.ice_cloak=冰霜斗篷
+bm.buff.heavy_heart=速降
+bm.buff.fire_fuse=自爆引信
+bm.buff.planar_binding=末影封锁
+bm.buff.soul_fray=灵魂损伤
+bm.buff.soul_harden=灵魂稳固
+bm.buff.deafness=失聪
+bm.buff.feather_fall=缓降
+bm.buff.demon_cloak=恶魔斗篷
+bm.buff.amphibian=两栖视觉
+
 #G-API Downloading
 bm.versioning.getGAPI=["[BM] 您没有安装Guide-API! 安装它以解锁此书! [",{"text":"Download","color":"red","hoverEvent":{"action":"show_text","value":{"text":"Click this to auto-magically download the latest version","color":"red"}},"clickEvent":{"action":"run_command","value":"/bloodmagic-download-g-api"}},"]"]
 bm.versioning.startingDownload=[{"text":"开始下载 %s 请勿移除你的硬盘.", "color":"orange"}]
