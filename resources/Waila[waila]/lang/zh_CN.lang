@@ -29,15 +29,18 @@ enchant.title.maxlvl=最高等级
 enchant.title.weight=权重
 enchant.label.enchantability=附魔能力
 
-waila.keybind.wailaconfig=[Waila]配置屏幕
-waila.keybind.wailadisplay=[Waila]显示/隐藏
-waila.keybind.liquid=[Waila]显示流体
-waila.keybind.recipe=[Waila]显示合成
-waila.keybind.usage=[Waila]显示可参与合成
-waila.keybind.testing=[Waila]测试中
+waila.keybind.wailaconfig=[Waila] 配置屏幕
+waila.keybind.wailadisplay=[Waila] 显示/隐藏
+waila.keybind.showadvanced=[Waila] 展开Tooltip
+waila.keybind.liquid=[Waila] 显示流体
+waila.keybind.recipe=[Waila] 显示合成
+waila.keybind.usage=[Waila] 显示可参与合成
+waila.keybind.testing=[Waila] 测试中
 
 client.msg.norecipe=未发现合成表.
 client.msg.nousage=未发现可参与合成.
+
+hud.msg.holdkeymoreinfo=按住%s查看详情
 
 hud.msg.none=<无>
 hud.msg.empty=<空>
