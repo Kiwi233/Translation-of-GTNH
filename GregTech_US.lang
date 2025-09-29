@@ -11694,7 +11694,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_13536_Index_00=§eDEPRECATED! Will be removed in next major update.
     S:TileEntity_DESCRIPTION_13536_Index_01=§7Cheap Crafting Tool for you!
     S:TileEntity_DESCRIPTION_14001_Index_00=Machine Type: §eDyson Swarm§r
-    S:TileEntity_DESCRIPTION_14001_Index_01=§oNot the game.
+    S:TileEntity_DESCRIPTION_14001_Index_01=§oNumber 9? Not quite.
     S:TileEntity_DESCRIPTION_14001_Index_02=Put Dyson Swarm Modules in the Input Bus(es) to send them to the next star.
     S:TileEntity_DESCRIPTION_14001_Index_03=Outputs §a10,000,000*§9§lD§r §7EU/t per module up to §a10,000
     S:TileEntity_DESCRIPTION_14001_Index_04=Each hour, §6§lI§r§a * (2 * 0.066) / (exp(-0.00005 * (§6§lI§r§a - 1)) + exp(0.00003 * §b§lC§r§a)) §7of modules are destroyed.
@@ -11732,7 +11732,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_24=§fStructure is too complex!
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_25=§fTo see the structure, use a§9 Structure§1Lib §r§fHologram Projector on the Controller!
     S:TileEntity_DESCRIPTION_14002_Index_00=Machine Type: §ePump, PGS§r
-    S:TileEntity_DESCRIPTION_14002_Index_01=§oTaking Space-Mining to another Level!
+    S:TileEntity_DESCRIPTION_14002_Index_01=§oIt's time to SUCC!
     S:TileEntity_DESCRIPTION_14002_Index_02=Build on an Space Station orbiting a Gas Planet
     S:TileEntity_DESCRIPTION_14002_Index_03=Requires a Programmed Circuit set to the depth you want to pump from (1 - 4)
     S:TileEntity_DESCRIPTION_14002_Index_04=Requires 64x depth Mining Pipes
@@ -13129,8 +13129,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_08=§f   Multi-Amp Dynamo Hatch: §7Any Computer Casing (dots: 1)
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_09=§f   Laser Source Hatch: §7Any Computer Casing (dots: 1)
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_10=§f   Data Reception Connector: §7Any Advanced Computer Casing (dots: 2)
-    S:TileEntity_DESCRIPTION_15315_Secondary_Index_11=§f   Data Transmission Connector: §7Any Computer Casing (dots: 1)
-    S:TileEntity_DESCRIPTION_15315_Secondary_Index_12=§f   Data Transmission Connector: §7Any Advanced Computer Casing (dots: 2)
+    S:TileEntity_DESCRIPTION_15315_Secondary_Index_11=§f   Data Transmission Connector: §7Any Advanced Computer Casing (dots: 2)
+    S:TileEntity_DESCRIPTION_15315_Secondary_Index_12=§f   Data Transmission Connector: §7Any Computer Casing (dots: 1)
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_13=   Uses sub channel §6length§r§7 for §6middle slice count
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_14=   §7§m------------------------------
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_15=§fStructure is too complex!
@@ -13154,11 +13154,11 @@ languagefile {
     S:TileEntity_DESCRIPTION_15331_Secondary_Index_06=   §7§m------------------------------
     S:TileEntity_DESCRIPTION_15331_Secondary_Index_07=§fStructure is too complex!
     S:TileEntity_DESCRIPTION_15331_Secondary_Index_08=§fTo see the structure, use a§9 Structure§1Lib §r§fHologram Projector on the Controller!
-    S:TileEntity_DESCRIPTION_15350_Index_00=Machine Type: §eEnergy Infuser§r
-    S:TileEntity_DESCRIPTION_15350_Index_01=Controller block of the Energy Infuser
-    S:TileEntity_DESCRIPTION_15350_Index_02=Can be used to charge items (lossless)
-    S:TileEntity_DESCRIPTION_15350_Index_03=Can be fed with UU-Matter to repair items
-    S:TileEntity_DESCRIPTION_15350_Index_04=Stocking Bus is not supported
+    S:TileEntity_DESCRIPTION_15350_Index_00=Machine Type: §eRestorer§r
+    S:TileEntity_DESCRIPTION_15350_Index_01=Simultaneously recharges and repairs equipment
+    S:TileEntity_DESCRIPTION_15350_Index_02=Stocking input buses are not supported
+    S:TileEntity_DESCRIPTION_15350_Index_03=§6Recharging§7: No max speed or energy loss
+    S:TileEntity_DESCRIPTION_15350_Index_04=§6Repairing§7: Max 1k durability/t, consumes 1k EU + 1L UUM per point
     S:TileEntity_DESCRIPTION_15350_Index_05=§aSupports TecTech Multi-Amp and Laser Hatches!
     S:TileEntity_DESCRIPTION_15350_Index_06=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_15350_Index_07=Hold §l[LSHIFT]§r§7 to display structure guidelines

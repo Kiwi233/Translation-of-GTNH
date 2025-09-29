@@ -2,12 +2,11 @@
 #Thanks to 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, LewisSaber, Nvidiot, Regian24, richardhendricks, yukieiji, FijiAura and others for tip suggestions
 #
 #Maximal characters for a tip: 77 (more can go out of the screen)
-#The line below, including the "#" are 77 chars
-#Adventurer's backpack? Did you mean integrated crafting grid, bed and fluid
+#Use the line below as a reference
+############################################################################
 #
-发现汉化问题请到 https://github.com/Kiwi233/Translation-of-GTNH/issues 反馈
+发现汉化问题请到 https://paratranz.cn/projects/4964/issues 反馈
 原版无限水默认禁用
-远离0lafe
 别在午夜后喂食你的机器!
 别担心，ServerUtilities负责备份
 拆卸管道时要求合适的工具材料等级
@@ -26,7 +25,7 @@ LootGames提供了不少有用的奖励
 使用太多传送器(重力装甲)会降低TPS
 鼠标上的快捷键很方便
 别让机器的任何相邻面淋雨!
-多方块机器不要跨区块!
+多方块机器跨区块了？确保这些区块都被加载了！
 工业高炉会吞掉你的第一个铝粉
 手持扳手Shift+右键流体管道可以将那一面设置为仅输出
 用卷板机制造板更有效率
@@ -36,7 +35,7 @@ LootGames提供了不少有用的奖励
 村民会定期“掉落”绿宝石。
 林业工作台是必须的!
 试试午夜主题的任务书
-试试真实天空(realistic-sky)资源包
+试试真实天空(realistic-sky)资源包 (整合包自带)
 字面意思是燧石和钢铁
 想要不冲刺而走得更快，斜着走可以增速40%左右
 匠魂(Tinker)工具可以升级: 更多升级槽和采掘等级奖励!
@@ -63,7 +62,7 @@ IC2作物可以根据生物群系获得额外的环境数据加成
 杂草会蔓延到空的作物架上并破坏其他作物
 使用机器外壳或矢量变换接口来简化机器访问
 管道或机器排出的蒸汽非常烫!
-使用木炭堆制成的易碎的木炭块, 时运附魔不能增产
+时运在易碎的木炭块没用
 留意机器的电压以及线缆内的电流!
 扭曲可不好玩, 你的基地刷出凋灵了没?
 目前共有16个电压等级: 从LV(32V)到MAX(2147483647V)
@@ -103,14 +102,10 @@ GT=Grind(折磨)和Tedium(枯燥)
 晚上别出门! 怪物的血量可以达到300HP!
 蒸汽温度非常高! 它会烧毁木制流体管道
 不要随意砍伐橡胶树, 木龙头多好啊
-请保持消声仓向外
-如果消声仓不指向天空的话, 你的工业高炉就不会工作!
-吃太多同种食物会让你厌恶它!
-#发射火箭之前记得检查上方航路是否有云!
+吃太多同种食物会让你厌恶它
 将你的原版知识全部忘掉!
 借助航空胶带的力量, 我可以将你的维护问题全部解决!
 打开暮色传送门时会被雷击
-#遇到怪物, 走为上计, 不要跟它死磕
 有时候最好的战略是 "战略转移!"
 可在机器的电池槽内放置电池为其供电
 你可以将喷气背包放入LV机器的电池槽内充电
@@ -125,7 +120,6 @@ GT=Grind(折磨)和Tedium(枯燥)
 使用F9查看区块边界!
 林业需要种子油? 种点花生吧
 微加工就是爱, 微加工就是生命!
-0号提示! 你可以在config文件夹中找到加载界面的所有提示列表
 哈哈哈哈, 硬币任务去brrrrr了
 如果你制造了一个庞大的Project Red(红石计划)系统, 那么请务必再造个抽屉墙!
 你一生中制造了多少电路板?
