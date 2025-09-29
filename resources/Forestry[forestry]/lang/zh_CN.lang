@@ -8,22 +8,22 @@ death.engine.clockwork=%1$s被散落的弹簧片刺中了。
 for.beverage.effect.alcoholic=酗酒
 for.beverage.effect.antidote=解毒
 
-for.chat.accesslocked=%s是该机器的主人，并且他已关闭了访问权限。
+for.chat.accesslocked=该机器的主人是%s，且访问权限已被关闭。
 for.chat.cannotmemorizeagain=你已经记住了相关内容。
-for.chat.memorizednote=你记录了笔记并扔掉了皱巴巴的小纸片。
+for.chat.memorizednote=你记下了笔记的内容并扔掉了这张皱巴巴的小纸片。
 for.chat.memorizednote2=你对用%1$s和%2$s杂交出%3$s更有信心了！
 
-for.chat.command.aliases=可替代命令：%s
+for.chat.command.aliases=命令别名：%s
 for.chat.command.list=可用子命令：
-for.chat.command.permlevel=权限等级： %s
+for.chat.command.permlevel=权限等级：%s
 for.chat.command.noperms=你没有权限使用该命令。
 
-for.chat.command.forestry.help=林业模组可用的许多命令。
-for.chat.command.forestry.format=格式： /%s <sub-command>
+for.chat.command.forestry.help=林业模组的可用命令
+for.chat.command.forestry.format=格式： /%s <子命令>
 
 for.chat.command.forestry.version.desc=- %s ：版本信息
 for.chat.command.forestry.version.help=显示当前版本
-for.chat.command.forestry.version.format=格式： /%s
+for.chat.command.forestry.version.format=格式：/%s
 
 for.chat.command.forestry.plugins.desc=- %s ：林业组件列表
 for.chat.command.forestry.plugins.help=列出当前的林业组件。绿色为已激活的，红色为禁用的。
