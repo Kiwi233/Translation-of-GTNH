@@ -630,7 +630,7 @@ languagefile {
     S:Material.cobblestone=圆石
     S:Material.cocoa=可可
     S:Material.coffee=咖啡
-    S:Material.complexitycatalyst=复杂的催化剂
+    S:Material.complexitycatalyst=复杂度催化剂
     S:Material.concentratedenriched-naquadahsludge=浓缩富集硅岩矿泥
     S:Material.concrete=混凝土
     S:Material.conditionedbastnasitemud=调制氟碳镧铈泥浆
@@ -11694,7 +11694,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_13536_Index_00=§e已弃用！将在下个大版本移除
     S:TileEntity_DESCRIPTION_13536_Index_01=§7为你准备的廉价合成工具！
     S:TileEntity_DESCRIPTION_14001_Index_00=机器类型：§e戴森球§r
-    S:TileEntity_DESCRIPTION_14001_Index_01=§o不是那个游戏。
+    S:TileEntity_DESCRIPTION_14001_Index_01=§o9号吗？不完全是。
     S:TileEntity_DESCRIPTION_14001_Index_02=在输入总线中放入戴森球模块，以将其发射至相邻的恒星。
     S:TileEntity_DESCRIPTION_14001_Index_03=每个模块输出§a10,000,000*§9§lD§r§7EU/t，至多§a10000§9个
     S:TileEntity_DESCRIPTION_14001_Index_04=每小时，模块中 §6§lI§r§a * (2 * 0.066) / (exp(-0.00005 * (§6§lI§r§a - 1)) + exp(0.00003 * §b§lC§r§a)) §7 个被摧毁。译者注：exp(x)=e^x
@@ -11732,7 +11732,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_24=§f结构太复杂了!
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_25=§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪,以查看整体结构! 
     S:TileEntity_DESCRIPTION_14002_Index_00=机器类型：§e泵，PGS§r
-    S:TileEntity_DESCRIPTION_14002_Index_01=§o太空采矿，再进化！
+    S:TileEntity_DESCRIPTION_14002_Index_01=§o尽情吮吸吧！
     S:TileEntity_DESCRIPTION_14002_Index_02=建造于绕行气态行星的空间站上
     S:TileEntity_DESCRIPTION_14002_Index_03=使用编程电路设置抽取的深度(1-4)
     S:TileEntity_DESCRIPTION_14002_Index_04=需提供64x深度的采矿管道
@@ -13129,8 +13129,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_08=§f   多A动力仓：§7任意电子计算机械方块（提示方块：1号）
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_09=§f  激光源仓：§7任意电子计算机械方块（提示方块：1号）
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_10=§f   数据接收接口：§7任意进阶电子计算机械方块（提示方块：2号）
-    S:TileEntity_DESCRIPTION_15315_Secondary_Index_11=§f   数据发送接口：§7任意电子计算机械方块（提示方块：1号）
-    S:TileEntity_DESCRIPTION_15315_Secondary_Index_12=§f   数据发送接口：§7任意进阶电子计算机械方块（提示方块：2号）
+    S:TileEntity_DESCRIPTION_15315_Secondary_Index_11=§f   数据发送接口：§7任意进阶电子计算机械方块（提示方块：2号）
+    S:TileEntity_DESCRIPTION_15315_Secondary_Index_12=§f   数据发送接口：§7任意电子计算机械方块（提示方块：1号）
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_13=   使用子信道§6length§r§7设定§6中间片的数量
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_14=   §7§m------------------------------
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_15=§f结构太复杂了！
@@ -13154,11 +13154,11 @@ languagefile {
     S:TileEntity_DESCRIPTION_15331_Secondary_Index_06=   §7§m------------------------------
     S:TileEntity_DESCRIPTION_15331_Secondary_Index_07=§f结构太复杂了!
     S:TileEntity_DESCRIPTION_15331_Secondary_Index_08=§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪,以查看整体结构! 
-    S:TileEntity_DESCRIPTION_15350_Index_00=机器类型：§e能量注入仪§r
-    S:TileEntity_DESCRIPTION_15350_Index_01=能量注入仪的控制器方块
-    S:TileEntity_DESCRIPTION_15350_Index_02=可用于为物品充电(无损)
-    S:TileEntity_DESCRIPTION_15350_Index_03=提供UU物质可修复物品
-    S:TileEntity_DESCRIPTION_15350_Index_04=不支持存储输入总线
+    S:TileEntity_DESCRIPTION_15350_Index_00=机器类型：§e修复器§r
+    S:TileEntity_DESCRIPTION_15350_Index_01=充能并修复装备
+    S:TileEntity_DESCRIPTION_15350_Index_02=不支持存储输入总线
+    S:TileEntity_DESCRIPTION_15350_Index_03=§6充能时§7：无速度上限，无损耗
+    S:TileEntity_DESCRIPTION_15350_Index_04=§6修复时§7：最高1000耐久/刻，每点耐久消耗1000EU和1L UUM
     S:TileEntity_DESCRIPTION_15350_Index_05=§a支持TecTech多A能源仓与激光仓!
     S:TileEntity_DESCRIPTION_15350_Index_06=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_15350_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
@@ -17096,7 +17096,7 @@ languagefile {
     S:fluid.chlorobenzene=氯苯
     S:fluid.chloroform=氯仿
     S:fluid.chloromethane=氯甲烷
-    S:fluid.complexitycatalyst=复杂的催化剂
+    S:fluid.complexitycatalyst=复杂度催化剂
     S:"fluid.conditioned bastnasite mud"=调制氟碳镧铈泥浆
     S:fluid.crackedradox=裂化拉多X
     S:fluid.cryotheum=极寒之凛冰
@@ -44093,7 +44093,7 @@ languagefile {
     S:gt.ggfab.d1.32.tooltip=
     S:gt.ggfab.d1.33.name=铸件 (一次性剪线钳)
     S:gt.ggfab.d1.33.tooltip=
-    S:gt.ggfab.d1.34.name=逐渐（一次性锻造锤）
+    S:gt.ggfab.d1.34.name=铸件（一次性锻造锤）
     S:gt.ggfab.d1.34.tooltip=
     S:gt.ggfab.d1.35.name=铸件（一次性软锤）
     S:gt.ggfab.d1.35.tooltip=
