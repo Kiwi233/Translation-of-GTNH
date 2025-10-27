@@ -4366,7 +4366,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00994_Index_03=Added by: §2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_00995_Index_00=Machine Type: §eVacuum Furnace, Dehydrator§r
     S:TileEntity_DESCRIPTION_00995_Index_01=Factory Grade Vacuum Furnace
-    S:TileEntity_DESCRIPTION_00995_Index_02=§64§7 Parallels
+    S:TileEntity_DESCRIPTION_00995_Index_02=§64§7 Parallels per §fVoltage§7 Tier
     S:TileEntity_DESCRIPTION_00995_Index_03=§a220%§7 Speed
     S:TileEntity_DESCRIPTION_00995_Index_04=§b50%§7 EU Usage
     S:TileEntity_DESCRIPTION_00995_Index_05=Can toggle the operation temperature with a Screwdriver
@@ -4449,7 +4449,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00998_Index_03=Hatch tiers can't be higher than machine casing tier, UHV casing unlocks all tiers
     S:TileEntity_DESCRIPTION_00998_Index_04=§62§7 Parallels per §fPipe Casing§7 Tier
     S:TileEntity_DESCRIPTION_00998_Index_05=+20% chance of not damaging catalyst per §f§fPipe Casing§7§7 Tier
-    S:TileEntity_DESCRIPTION_00998_Index_06=Speed is §a50%§7 times §fHeating Coil§7 Tier
+    S:TileEntity_DESCRIPTION_00998_Index_06=§a+50%§7 Speed per §fHeating Coil§7 Tier
     S:TileEntity_DESCRIPTION_00998_Index_07=Any catalyst must be placed in the catalyst housing
     S:TileEntity_DESCRIPTION_00998_Index_08=Awakened Draconium coils combined with Tungstensteel pipe casing makes catalyst unbreakable
     S:TileEntity_DESCRIPTION_00998_Index_09=§7§m-----------------------------------------
@@ -4503,7 +4503,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_01001_Secondary_Index_01=§fStructure: 
     S:TileEntity_DESCRIPTION_01001_Secondary_Index_02=   §fController: §7Front center
     S:TileEntity_DESCRIPTION_01001_Secondary_Index_03=§6   16x§7 - §624x §r§7Solid Steel Machine Casing
-    S:TileEntity_DESCRIPTION_01001_Secondary_Index_04=   Casings can be replaced with Explosion Hazard Signs
+    S:TileEntity_DESCRIPTION_01001_Secondary_Index_04=   Casings can be replaced with Explosion Warning Signs
     S:TileEntity_DESCRIPTION_01001_Secondary_Index_05=§f   Energy Hatch: §7Any casing
     S:TileEntity_DESCRIPTION_01001_Secondary_Index_06=§f   Maintenance Hatch: §7Any casing
     S:TileEntity_DESCRIPTION_01001_Secondary_Index_07=§f   Muffler Hatch: §7Any casing
@@ -5049,7 +5049,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_01158_Secondary_Index_13=§fTo see the structure, use a§9 Structure§1Lib §r§fHologram Projector on the Controller!
     S:TileEntity_DESCRIPTION_01159_Index_00=Machine Type: §eCoke Oven§r
     S:TileEntity_DESCRIPTION_01159_Index_01=Industrial Charcoal producer
-    S:TileEntity_DESCRIPTION_01159_Index_02=Speed is §a50%§7 times §fHeating Coil§7 Tier
+    S:TileEntity_DESCRIPTION_01159_Index_02=§a+50%§7 Speed per §fHeating Coil§7 Tier
     S:TileEntity_DESCRIPTION_01159_Index_03=EU/t is not affected by Coil tier
     S:TileEntity_DESCRIPTION_01159_Index_04=§5300 §7Pollution per second
     S:TileEntity_DESCRIPTION_01159_Index_05=§7§m-----------------------------------------
@@ -7388,7 +7388,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_03006_Index_18=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_03006_Index_19=Hold §l[LSHIFT]§r§7 to display structure guidelines
     S:TileEntity_DESCRIPTION_03006_Index_20=Added by: §a§lOllie
-    S:TileEntity_DESCRIPTION_03006_Secondary_Index_00=§fDimensions: §615§7x§610§7x§67§7 (§6W§7x§6H§7x§6L§7) 
+    S:TileEntity_DESCRIPTION_03006_Secondary_Index_00=§fDimensions: §615§7x§68§7x§67§7 (§6W§7x§6H§7x§6L§7) 
     S:TileEntity_DESCRIPTION_03006_Secondary_Index_01=§fStructure: 
     S:TileEntity_DESCRIPTION_03006_Secondary_Index_02=   §fController: §7Front Center
     S:TileEntity_DESCRIPTION_03006_Secondary_Index_03=§6   95x §r§7Electric Compressor Casing (minimum)
@@ -7493,7 +7493,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_03010_Secondary_Index_12=   §7§m------------------------------
     S:TileEntity_DESCRIPTION_03010_Secondary_Index_13=§fStructure is too complex!
     S:TileEntity_DESCRIPTION_03010_Secondary_Index_14=§fTo see the structure, use a§9 Structure§1Lib §r§fHologram Projector on the Controller!
-    S:TileEntity_DESCRIPTION_03011_Index_00=Machine Type: §eBrewery, BBB§r
+    S:TileEntity_DESCRIPTION_03011_Index_00=Machine Type: §eBrewery§r
     S:TileEntity_DESCRIPTION_03011_Index_01=§64§7 Parallels per §fVoltage§7 Tier
     S:TileEntity_DESCRIPTION_03011_Index_02=§a150%§7 Speed
     S:TileEntity_DESCRIPTION_03011_Index_03=§8100%§7 EU Usage
@@ -11167,7 +11167,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12734_Secondary_Index_01=§fStructure: 
     S:TileEntity_DESCRIPTION_12734_Secondary_Index_02=   §fController: §7Front 3rd layer center
     S:TileEntity_DESCRIPTION_12734_Secondary_Index_03=§6   8x §r§7Solid Steel Machine Casing (minimum)
-    S:TileEntity_DESCRIPTION_12734_Secondary_Index_04=   Casings can be replaced with Explosion Hazard Signs
+    S:TileEntity_DESCRIPTION_12734_Secondary_Index_04=   Casings can be replaced with Explosion Warning Signs
     S:TileEntity_DESCRIPTION_12734_Secondary_Index_05=§f   Transformer-Winding Blocks: §7Outer layer 2,3,7,8
     S:TileEntity_DESCRIPTION_12734_Secondary_Index_06=§f   Nickel-Zinc-Ferrite Blocks: §7Inner layer 2,3,7,8
     S:TileEntity_DESCRIPTION_12734_Secondary_Index_07=§f   Containment Blocks: §7Layer 4,5,6
@@ -11263,7 +11263,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12739_Secondary_Index_06=   §636x§7 Rebolted Iridium Casing
     S:TileEntity_DESCRIPTION_12739_Secondary_Index_07=§f   Energy Hatch: §7UV+, Any base casing
     S:TileEntity_DESCRIPTION_12739_Secondary_Index_08=§f   Maintenance Hatch: §7Any base casing
-    S:TileEntity_DESCRIPTION_12739_Secondary_Index_09=§f   Input Bus: §7Ores, optional, any base casing
+    S:TileEntity_DESCRIPTION_12739_Secondary_Index_09=§f   Input Bus: §7Mining Pipes or Ores, optional, any base casing
     S:TileEntity_DESCRIPTION_12739_Secondary_Index_10=§f   Input Hatch: §7Optional noble gas, any base casing
     S:TileEntity_DESCRIPTION_12739_Secondary_Index_11=§f   Output Bus: §7Any base casing
     S:TileEntity_DESCRIPTION_12739_Secondary_Index_12=   §7§m------------------------------
@@ -11291,7 +11291,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12740_Secondary_Index_06=   §69x§7 Rebolted Naquadah Alloy Casing
     S:TileEntity_DESCRIPTION_12740_Secondary_Index_07=§f   Energy Hatch: §7ZPM+, Any base casing
     S:TileEntity_DESCRIPTION_12740_Secondary_Index_08=§f   Maintenance Hatch: §7Any base casing
-    S:TileEntity_DESCRIPTION_12740_Secondary_Index_09=§f   Input Bus: §7Ores, optional, any base casing
+    S:TileEntity_DESCRIPTION_12740_Secondary_Index_09=§f   Input Bus: §7Mining Pipes or Ores, optional, any base casing
     S:TileEntity_DESCRIPTION_12740_Secondary_Index_10=§f   Input Hatch: §7Optional noble gas, any base casing
     S:TileEntity_DESCRIPTION_12740_Secondary_Index_11=§f   Output Bus: §7Any base casing
     S:TileEntity_DESCRIPTION_12740_Secondary_Index_12=   §7§m------------------------------
@@ -11318,8 +11318,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_12741_Secondary_Index_05=   §66x§7 Rebolted Osmiridium Casing
     S:TileEntity_DESCRIPTION_12741_Secondary_Index_06=§f   Energy Hatch: §7LuV+, Any base casing
     S:TileEntity_DESCRIPTION_12741_Secondary_Index_07=§f   Maintenance Hatch: §7Any base casing
-    S:TileEntity_DESCRIPTION_12741_Secondary_Index_08=§f   Input Bus: §7(Optional) For mining pipes or ores, any base casing
-    S:TileEntity_DESCRIPTION_12741_Secondary_Index_09=§f   Input Hatch: §7(Optional) For noble gas, any base casing
+    S:TileEntity_DESCRIPTION_12741_Secondary_Index_08=§f   Input Bus: §7Mining Pipes or Ores, optional, any base casing
+    S:TileEntity_DESCRIPTION_12741_Secondary_Index_09=§f   Input Hatch: §7Optional noble gas, any base casing
     S:TileEntity_DESCRIPTION_12741_Secondary_Index_10=§f   Output Bus: §7Any base casing
     S:TileEntity_DESCRIPTION_12741_Secondary_Index_11=   §7§m------------------------------
     S:TileEntity_DESCRIPTION_12741_Secondary_Index_12=§fStructure is too complex!
@@ -11694,7 +11694,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_13536_Index_00=§eDEPRECATED! Will be removed in next major update.
     S:TileEntity_DESCRIPTION_13536_Index_01=§7Cheap Crafting Tool for you!
     S:TileEntity_DESCRIPTION_14001_Index_00=Machine Type: §eDyson Swarm§r
-    S:TileEntity_DESCRIPTION_14001_Index_01=§oNot the game.
+    S:TileEntity_DESCRIPTION_14001_Index_01=§oNumber 9? Not quite.
     S:TileEntity_DESCRIPTION_14001_Index_02=Put Dyson Swarm Modules in the Input Bus(es) to send them to the next star.
     S:TileEntity_DESCRIPTION_14001_Index_03=Outputs §a10,000,000*§9§lD§r §7EU/t per module up to §a10,000
     S:TileEntity_DESCRIPTION_14001_Index_04=Each hour, §6§lI§r§a * (2 * 0.066) / (exp(-0.00005 * (§6§lI§r§a - 1)) + exp(0.00003 * §b§lC§r§a)) §7of modules are destroyed.
@@ -13129,8 +13129,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_08=§f   Multi-Amp Dynamo Hatch: §7Any Computer Casing (dots: 1)
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_09=§f   Laser Source Hatch: §7Any Computer Casing (dots: 1)
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_10=§f   Data Reception Connector: §7Any Advanced Computer Casing (dots: 2)
-    S:TileEntity_DESCRIPTION_15315_Secondary_Index_11=§f   Data Transmission Connector: §7Any Computer Casing (dots: 1)
-    S:TileEntity_DESCRIPTION_15315_Secondary_Index_12=§f   Data Transmission Connector: §7Any Advanced Computer Casing (dots: 2)
+    S:TileEntity_DESCRIPTION_15315_Secondary_Index_11=§f   Data Transmission Connector: §7Any Advanced Computer Casing (dots: 2)
+    S:TileEntity_DESCRIPTION_15315_Secondary_Index_12=§f   Data Transmission Connector: §7Any Computer Casing (dots: 1)
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_13=   Uses sub channel §6length§r§7 for §6middle slice count
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_14=   §7§m------------------------------
     S:TileEntity_DESCRIPTION_15315_Secondary_Index_15=§fStructure is too complex!
@@ -14473,7 +14473,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_31021_Index_04=Distillery Mode (requires full height tower)
     S:TileEntity_DESCRIPTION_31021_Index_05=§68 * Voltage Tier§7 Parallels
     S:TileEntity_DESCRIPTION_31021_Index_06=§a200%§7 Speed
-    S:TileEntity_DESCRIPTION_31021_Index_07=§b15%§7 EU Usage
+    S:TileEntity_DESCRIPTION_31021_Index_07=§b85%§7 EU Usage
     S:TileEntity_DESCRIPTION_31021_Index_08=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_31021_Index_09=Distillation Tower Mode
     S:TileEntity_DESCRIPTION_31021_Index_10=§612§7 Parallels
@@ -14656,16 +14656,17 @@ languagefile {
     S:TileEntity_DESCRIPTION_31047_Index_03=Does not work with non-steam multiblocks
     S:TileEntity_DESCRIPTION_31047_Index_04=Added by: §2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_31050_Index_00=Machine Type: §eReplicator§r
-    S:TileEntity_DESCRIPTION_31050_Index_01=Produces raw elements from UU-Matter
+    S:TileEntity_DESCRIPTION_31050_Index_01=Produces Elemental Material from UU Matter
     S:TileEntity_DESCRIPTION_31050_Index_02=§68§7 Parallels per §fVoltage§7 Tier
     S:TileEntity_DESCRIPTION_31050_Index_03=§a200%§7 Speed
     S:TileEntity_DESCRIPTION_31050_Index_04=§8100%§7 EU Usage
-    S:TileEntity_DESCRIPTION_31050_Index_05=Maximum 1x Data Orb Repository
-    S:TileEntity_DESCRIPTION_31050_Index_06=The programmed circuit selects which Data Orb to use (1-16)
-    S:TileEntity_DESCRIPTION_31050_Index_07=§bMachine does not lose efficiency when overclocked
-    S:TileEntity_DESCRIPTION_31050_Index_08=§51000 §7Pollution per second
-    S:TileEntity_DESCRIPTION_31050_Index_09=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_31050_Index_10=Hold §l[LSHIFT]§r§7 to display structure guidelines
+    S:TileEntity_DESCRIPTION_31050_Index_05=Maximum 1x of each bus/hatch
+    S:TileEntity_DESCRIPTION_31050_Index_06=Requires circuit 1-16 in your Data Orb Repository
+    S:TileEntity_DESCRIPTION_31050_Index_07=depending on what Data Orb you want to prioritize
+    S:TileEntity_DESCRIPTION_31050_Index_08=§bMachine does not lose efficiency when overclocked
+    S:TileEntity_DESCRIPTION_31050_Index_09=§51000 §7Pollution per second
+    S:TileEntity_DESCRIPTION_31050_Index_10=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_31050_Index_11=Hold §l[LSHIFT]§r§7 to display structure guidelines
     S:TileEntity_DESCRIPTION_31050_Secondary_Index_00=§fDimensions: §69§7x§66§7x§69§7 (§6W§7x§6H§7x§6L§7) §c(Hollow)
     S:TileEntity_DESCRIPTION_31050_Secondary_Index_01=§fStructure: 
     S:TileEntity_DESCRIPTION_31050_Secondary_Index_02=   §fController: §7Top Center
@@ -14676,7 +14677,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_31050_Secondary_Index_07=§6   20x §r§7High Voltage Current Capacitor (minimum)
     S:TileEntity_DESCRIPTION_31050_Secondary_Index_08=§6   24x §r§7Resonance Chamber III (minimum)
     S:TileEntity_DESCRIPTION_31050_Secondary_Index_09=§6   16x §r§7Modulator III (minimum)
-    S:TileEntity_DESCRIPTION_31050_Secondary_Index_10=§f   Data Orb Repository: §7Any 1 dot hint (1x)
+    S:TileEntity_DESCRIPTION_31050_Secondary_Index_10=§f   Data Orb Repository: §71x
     S:TileEntity_DESCRIPTION_31050_Secondary_Index_11=§f   Input Hatch: §7Any 1 dot hint
     S:TileEntity_DESCRIPTION_31050_Secondary_Index_12=§f   Output Bus: §7Any 1 dot hint
     S:TileEntity_DESCRIPTION_31050_Secondary_Index_13=§f   Output Hatch: §7Any 1 dot hint
@@ -44850,6 +44851,8 @@ languagefile {
     S:gt.metaitem.01.12129.tooltip=Nt
     S:gt.metaitem.01.12131.name=Hot %material Ingot
     S:gt.metaitem.01.12131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.12132.name=Hot %material Ingot
+    S:gt.metaitem.01.12132.tooltip=NrAuMa*
     S:gt.metaitem.01.12134.name=Hot %material Ingot
     S:gt.metaitem.01.12134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.12141.name=Hot %material Ingot
