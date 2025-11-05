@@ -7,7 +7,7 @@ on:
 env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
-  GIT_AUTHOR: MuXiu1997 <muxiu1997@gmail.com>
+  GIT_AUTHOR: Kiwi233 <huaxia0611@qq.com>
 
 jobs:
   check-and-parse-issue:
@@ -15,10 +15,10 @@ jobs:
     name: Check And Parse Issue
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout MuXiu1997/GTNH-translation-compare
+      - name: Checkout Kiwi233/GTNH-translation-compare
         uses: actions/checkout@v3
         with:
-          repository: MuXiu1997/GTNH-translation-compare
+          repository: Kiwi233/GTNH-translation-compare
           ref: main
       - name: Ensure Dependencies
         uses: ./.github/actions/ensure-dependencies
@@ -52,10 +52,10 @@ jobs:
     if: ${{ needs.check-and-parse-issue.outputs.passed == 'true' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout MuXiu1997/GTNH-translation-compare
+      - name: Checkout Kiwi233/GTNH-translation-compare
         uses: actions/checkout@v3
         with:
-          repository: MuXiu1997/GTNH-translation-compare
+          repository: Kiwi233/GTNH-translation-compare
           ref: main
       - name: Ensure Dependencies
         uses: ./.github/actions/ensure-dependencies
