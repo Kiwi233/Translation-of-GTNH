@@ -32,7 +32,7 @@ item.FMResource.0.name=绿宝石碎片
 item.FMResource.1.name=暗影墨水
 item.FMResource.2.name=魔力钢粒
 item.FMResource.3.name=腐血碎片
-item.FMResource.4.name=元素钢粒
+item.FMResource.4.name=源质钢粒
 item.MobCrystalEmpty.name=空白留影水晶
 item.MobCrystal.name=%s 留影水晶
 item.DiabolistFork.name=妖魔之叉
@@ -67,7 +67,7 @@ item.Wand.orichalcum.cap=镶嵌山铜杖端
 item.Wand.alchemical.cap=炼金纹饰杖端
 item.Wand.vinteum.cap=温特姆杖端
 item.Wand.manasteel.cap=魔钢缠绕杖端
-item.Wand.elementium.cap=元素钢亲吻杖端
+item.Wand.elementium.cap=源质钢亲吻杖端
 item.Wand.terrasteel.cap=泰拉钢杖端
 item.WandCores.name=法杖核心
 item.WandCores.tainted.name=腐化杖柄
@@ -91,8 +91,8 @@ item.WandCaps.vinteum.name=温特姆杖端
 item.WandCaps.soul.name=末影杖端
 item.WandCaps.manasteel.name=魔钢杖端
 item.WandCaps.manasteel_inert.name=惰性魔钢杖端
-item.WandCaps.elementium.name=元素钢杖端
-item.WandCaps.elementium_inert.name=惰性元素钢杖端
+item.WandCaps.elementium.name=源质钢杖端
+item.WandCaps.elementium_inert.name=惰性源质钢杖端
 item.WandCaps.terrasteel.name=泰拉钢杖端
 item.BlinkFocus.name=法杖核心:闪烁
 #
@@ -183,7 +183,7 @@ forbidden.research_page.FOCUSBLINK.1=啊哈.<BR><BR>有一件事情比起床还�
 #
 forbidden.research_name.TAINTSHOVEL=净化铲
 forbidden.research_text.TAINTSHOVEL=犹如火热的刀子划过真正的黄油
-forbidden.research_page.TAINTSHOVEL.1=有时,清楚腐化区域的最简单途径无非直接挖走它们.<BR><BR>使用银树和秩序碎片强化神秘铲,你制造出这柄能够对抗腐化的工具.净化铲能够像挖开普通泥土那样捣稀泥一般地挖开腐化后的大地.<BR><BR>手持它右击,铲子就会消耗一些耐久,净化小范围内所有的咒波黏浆和瓦斯.你就不必再用圆石来一点点处理注魔的灾难了!
+forbidden.research_page.TAINTSHOVEL.1=有时,清理腐化区域的最简单途径无非直接挖走它们.<BR><BR>使用银树和秩序碎片强化神秘铲,你制造出这柄能够对抗腐化的工具.净化铲能够像挖开普通泥土那样捣稀泥一般地挖开腐化后的大地.<BR><BR>手持它右击,铲子就会消耗一些耐久,净化小范围内所有的咒波黏浆和瓦斯.你就不必再用圆石来一点点处理注魔的灾难了!
 forbidden.research_page.TAINTSHOVEL.2=用这柄铲子挖开腐化的大地有几率释放出的扭曲能量,会结晶成腐化碎片.不像其余的腐化材料,水晶的形态让这种碎片稳定到能够随身携带.
 #
 forbidden.research_name.TAINTPICK=畸变镐
@@ -234,7 +234,7 @@ forbidden.research_page.ROD_witchwood_staff.1=巫魂木法杖要吞噬掉太多�
 #
 forbidden.research_name.ROD_livingwood=活木杖柄
 forbidden.research_text.ROD_livingwood=植物Vis容器
-forbidden.research_page.ROD_livingwood.1=活木在操纵AM魔力的性能上得天独厚.当其与合适的药剂相融合,甚至可以将AM魔力转换为TC魔力.<BR><BR>活木法杖能从物品栏存储的物品中抽取AM魔力为自己充能.<BR><BR>不幸的是,注魔的过程会使活木陷入休眠,注魔后杖端需要在血池中进行充能才能重新激活.
+forbidden.research_page.ROD_livingwood.1=活木在操纵植魔魔力的性能上得天独厚.当其与合适的药剂相融合,甚至可以将植魔魔力转换为TC魔力.<BR><BR>活木法杖能从物品栏存储的物品中抽取植魔魔力为自己充能.<BR><BR>不幸的是,注魔的过程会使活木陷入休眠,注魔后杖端需要在魔力池中进行充能才能重新激活.
 #
 forbidden.research_name.ROD_dreamwood_staff=梦之木杖柄
 forbidden.research_text.ROD_dreamwood_staff=甜美之梦所缔造
@@ -254,11 +254,11 @@ forbidden.research_page.CAP_soul.1=你已经制造出一种杖端,能够安全�
 #
 forbidden.research_name.CAP_manasteel=魔钢杖端
 forbidden.research_text.CAP_manasteel=魔力之秘
-forbidden.research_page.CAP_manasteel.1=魔力钢在操纵AM魔力的特性方面得天独厚.用它来制作的杖端只有90%的魔力效率.安装在活木杖柄上后,它能够让AM魔力转换成vis的效率更高.<BR><BR>为了用于制作法杖,惰性魔钢杖端需要在血池中激活.
+forbidden.research_page.CAP_manasteel.1=魔力钢在操纵植魔魔力的特性方面得天独厚.用它来制作的杖端只有90%的魔力效率.安装在活木杖柄上后,它能够让植魔魔力转换成vis的效率更高.<BR><BR>为了用于制作法杖,惰性魔钢杖端需要在魔力池中激活.
 #
-forbidden.research_name.CAP_elementium=元素钢杖端
+forbidden.research_name.CAP_elementium=源质钢杖端
 forbidden.research_text.CAP_elementium=生态友好型杖端
-forbidden.research_page.CAP_elementium.1=精灵世界似乎是一个浸透着魔力的世界,然而元素钢也不例外.当使用正确的材料处理并用于合成为杖端后,元素钢杖端正如期望中的那样获得了引导Vis的能力.若是与使用Mana的杖芯或杖柄相结合,它们还可以降低Mana的转换比率.<BR><BR>元素钢的那一抹粉色就像是凝结在蛋糕上一样.
+forbidden.research_page.CAP_elementium.1=精灵世界似乎是一个浸透着魔力的世界,源质钢也不例外. 当使用正确的材料处理并用于合成为杖端后,源质钢杖端正如期望中的那样获得了引导Vis的能力.若是与使用Mana的杖芯或杖柄相结合,它们还可以降低Mana的转换比率.<BR><BR>源质钢的那一抹粉色更是锦上添花.
 #
 forbidden.research_name.CAP_terrasteel=泰拉钢杖端
 forbidden.research_text.CAP_terrasteel=完成!

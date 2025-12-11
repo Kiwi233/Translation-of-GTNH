@@ -1,4 +1,5 @@
 item.advanced_memory_card.name=高级内存卡
+item.advanced_memory_card.name.gui=高级内存卡
 item.advanced_memory_card.selected=频率：
 gui.advanced_memory_card.select=选择
 gui.advanced_memory_card.bind=绑定
@@ -39,6 +40,7 @@ gui.advanced_memory_card.gui_scale.large=当前大小：大
 gui.advanced_memory_card.gui_scale.dynamic=当前大小：自动
 gui.advanced_memory_card.p2p_status.bound=已绑定
 gui.advanced_memory_card.p2p_status.unbound=未绑定
+gui.advanced_memory_card.p2p_status.type=类型：%s-%s
 gui.advanced_memory_card.p2p_status.input=输入
 gui.advanced_memory_card.p2p_status.output=输出
 gui.advanced_memory_card.p2p_status.offline=离线
