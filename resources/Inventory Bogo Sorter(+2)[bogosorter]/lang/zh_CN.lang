@@ -1,10 +1,18 @@
 key.categories.bogosorter=Inventory Bogo Sorter
 key.sort_config=开启排序配置
-key.sort=整理物品栏
+key.sort_nogui=在GUI外时整理物品栏
+key.sort_gui=在GUI内时整理物品栏
 key.dropoff=卸货
 key.dropoff.tooltip1=卸货至附近库存
 key.dropoff.tooltip2=按住Ctrl键拖动以移动
 key.tooltip.keybind=按键绑定
+key.bogosorter.controls_button=快捷键设置
+key.bogosorter.move_all_same=移动所有相同物品
+key.bogosorter.move_all=移动所有物品
+key.bogosorter.move_single=移动单个物品
+key.bogosorter.move_single_empty=将单个物品移动到空槽位
+key.bogosorter.throw_all_same=丢弃所有相同物品
+key.bogosorter.throw_all=丢弃所有物品
 
 bogosort.gui.title=排序配置
 bogosort.gui.tab.general.name=通用
@@ -29,11 +37,11 @@ bogosort.gui.dropoff_enable=启用卸货
 bogosort.gui.dropoffbutton_enable=在物品栏中显示卸货按钮
 bogosort.gui.dropoff_render=显示卸货目标
 bogosort.gui.dropoff_chatmessage=显示卸货消息
-bogosort.gui.usageticker_enable=启用使用计数器
-bogosort.gui.usageticker_mainhand=启用主手使用计数器
-bogosort.gui.usageticker_offhand=启用副手使用计时器
-bogosort.gui.usageticker_armor=启用装甲使用计数器
-
+bogosort.gui.usageticker_enable=启用余量提醒
+bogosort.gui.usageticker_mainhand=启用主手余量提醒
+bogosort.gui.usageticker_offhand=启用副手余量提醒
+bogosort.gui.usageticker_armor=启用盔甲余量提醒
+bogosort.gui.usageticker_arrow=启用箭余量提醒
 
 
 bogosort.command.config_relaod.success=重新加载排序配置
@@ -104,16 +112,21 @@ bogosorter.config.dropoff.button.x=按钮X轴位置
 bogosorter.config.dropoff.button.y=按钮Y轴位置
 bogosorter.config.dropoff.button.visible=显示卸货按钮
 
-bogosorter.config.usage_ticker=使用计数器设置
-bogosorter.config.usage_ticker.enable=启用使用计数器
-bogosorter.config.usage_ticker.mainhand=显示主手使用
-bogosorter.config.usage_ticker.offhand=显示副手使用
-bogosorter.config.usage_ticker.armor=显示护甲使用
+bogosorter.config.usage_ticker=余量提醒设置
+bogosorter.config.usage_ticker.enable=启用余量提醒
+bogosorter.config.usage_ticker.mainhand=显示主手余量提醒
+bogosorter.config.usage_ticker.offhand=显示副手余量提醒
+bogosorter.config.usage_ticker.armor=显示盔甲余量提醒
+bogosorter.config.usage_ticker.arrow=弓箭设置
+bogosorter.config.usage_ticker.arrow.enable=启用箭余量提醒
+bogosorter.config.usage_ticker.arrow.arrowItems=箭列表
+bogosorter.config.usage_ticker.arrow.bowItems=弓列表
 
 bogosorter.config.sort.sound=排序按钮点击音效
 bogosorter.config.hotbarsort.enable=启用快捷栏排序
 bogosorter.config.hotbarswap.enable=启用快捷栏切换
-bogosorter.config.autorefill.enable=启用自动快捷栏重填
+bogosorter.config.autorefill.enable=启用快捷栏自动重填（客户端开关）
+bogosorter.config.autorefill.enable_server=启用快捷栏自动重填（服务器开关）
 bogosorter.config.autorefill.damage_threshold=自动重装耐久阈值
 bogosorter.config.preventSplit=阻止不可堆叠物品分堆
 bogosorter.config.button.color=排序按钮颜色
