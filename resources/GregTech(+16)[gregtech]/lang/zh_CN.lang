@@ -695,7 +695,7 @@ GT5U.power_goggles.link_fail=那不是兰波顿超级电容库...
 GT5U.power_goggles.unlink=护目镜已断开连接。
 GT5U.power_goggles.link_tooltip=已连接至位于%d,%d,%d的兰波顿超级电容库：%s。
 # Power Goggles config GUI
-GT5U.power_goggles_config.notation_scientific=科学技术法
+GT5U.power_goggles_config.notation_scientific=科学计数法
 GT5U.power_goggles_config.notation_engineering=工程记数法
 GT5U.power_goggles_config.notation_si=标准记数法
 GT5U.power_goggles_config.reading_both=同时
@@ -786,13 +786,14 @@ GT5U.MBTT.SpeedBase=比相同电压的单方块机器快%s
 GT5U.MBTT.SpeedTiered=每个%2$s等级会使本机器比相同电压的单方块机器快%1$s
 GT5U.MBTT.EuDiscountBase=使用配方要求功率的%s
 GT5U.MBTT.EuDiscountTiered=每个%2$s等级使能量消耗减少%1$s
-GT5U.MBTT.Parallel_Multiplicative=每个%2$s等级增加%1$s并行数
+GT5U.MBTT.Parallel_Multiplicative=每个%2$s等级增加%1$s并行
 
 GT5U.MBTT.Parallel.Base=并行数：%s
-GT5U.MBTT.Parallel.Additional=每个%2$s等级增加%1$s并行数
+GT5U.MBTT.Parallel.Additional=每个%2$s等级增加%1$s并行
 GT5U.MBTT.Parallel.Singular=并行数：%s
 GT5U.MBTT.Speed.Base=速度：%s
 GT5U.MBTT.Speed.Additional=每个%2$s等级增加%1$s速度
+GT5U.MBTT.Speed.Absolute=运行速度为%s乘以%s等级
 GT5U.MBTT.EuDiscount.Base=能量消耗：%s
 GT5U.MBTT.EuDiscount.Additional=每个%2$s等级使能量消耗%1$s
 GT5U.MBTT.SteamDiscount.Base=蒸汽消耗：%s
@@ -1077,7 +1078,7 @@ gt.recipe.category.alloy_smelter_recycling=合金炉回收
 gt.recipe.category.alloy_smelter_molding=合金炉熔铸
 gt.recipe.category.forge_hammer_recycling=锻造锤回收
 gt.recipe.category.tic_part_extruding=匠魂部件压模
-gt.recipe.category.tic_bolt_molding=匠魂弓弩(Bolt)压模
+gt.recipe.category.tic_bolt_molding=匠魂弩箭固化
 
 GT5U.machines.tier=等级
 GT5U.machines.workarea=工作区域
@@ -1491,6 +1492,7 @@ GT5U.gui.missing_casings_specific=%s过少：需要%s但只有%s
 GT5U.gui.missing_hatch=缺少%s
 GT5U.gui.too_many_hatches=%s过多（最多%s）
 GT5U.gui.text.power_panel=电源控制面板
+GT5U.gui.text.powerfail_events=电力故障事件
 GT5U.gui.text.too_uncertain=太不确定了。
 GT5U.gui.text.invalid_parameters=参数无效。
 GT5U.gui.text.enabled=§a启用§f
@@ -1588,7 +1590,7 @@ GT5U.gui.text.wormhole_generator.max_io=§7每个仓的最大输入输出：§b%
 GT5U.gui.text.wormhole_generator.max_io.large=§7每个仓的最大输入输出：§b%3.3e§7 EU/t§f
 
 GT5U.gui.text.status.active=激活
-GT5U.gui.text.status.online=离线
+GT5U.gui.text.status.online=在线
 GT5U.gui.text.status.disabled=关闭
 GT5U.gui.text.status.incomplete=结构不完整
 GT5U.gui.text.x=X：%s
@@ -1666,12 +1668,12 @@ GT5U.gui.text.day=%s 天
 GT5U.gui.text.day.plural=%s 天
 
 GT5U.gui.text.show-powerfail-layer=显示电力故障
-GT5U.gui.chat.powerfail=位于%s的%s的%s在%s前发生了%s次电力故障
-GT5U.gui.chat.powerfail.plural=位于%s的%s的%s在%s前发生了%s次电力故障
-GT5U.gui.chat.powerfail.waypoint=%s (于 %s 前，%s 次)
-GT5U.gui.chat.powerfail.waypoint.plural=%s (于 %s 前，%s 次)
+GT5U.gui.chat.powerfail=%s（位于%s %s）发生了%s次电力故障（上一次在%s前）
+GT5U.gui.chat.powerfail.plural=%s（位于%s %s）发生了%s次电力故障（上一次在%s前）
+GT5U.gui.chat.powerfail.waypoint=%s（%s次，上一次在%s前）
+GT5U.gui.chat.powerfail.waypoint.plural=%s（%s次，上一次在%s前）
 
-GT5U.gui.chat.powerfail.waypoint.tooltip=机器: %s\n位置: %s\n故障次数: %s\n最后发生: %s\n摁下 %s 键清除
+GT5U.gui.chat.powerfail.waypoint.tooltip=机器: %s\n位置: %s\n故障次数: %s\n最后发生于: %s\n摁下 %s 键清除
 
 GT5U.gui.chat.powerfail.hint=§7使用 /powerfails help 指令来获取更多信息.
 
@@ -1692,7 +1694,7 @@ GT5U.gui.chat.powerfail.hidden=已禁用电力故障覆盖渲染.
 # Note to translators: this translation entry is supposed to be a number indicating how many taunts you define here
 # Game will randomly display one of them
 GT5U.item.programmed_circuit.no_screwdriver.count=3
-GT5U.item.programmed_circuit.no_screwdriver.0=想要再空手编程电路板,嗯哼?
+GT5U.item.programmed_circuit.no_screwdriver.0=还在尝试赤手拨弄电路板吗？
 GT5U.item.programmed_circuit.no_screwdriver.1=你的拇指不是螺丝刀.拿个真的过来.
 GT5U.item.programmed_circuit.no_screwdriver.2=Chuck Norris可以盯着电路板,然后电路板就自己再编程了. 但你不行.
 GT5U.item.programmed_circuit.select.header=再编程电路
@@ -1798,7 +1800,7 @@ GT5U.nei.large_boiler.titanium_boiler=钛制锅炉：%.4f
 GT5U.nei.large_boiler.titanium_boiler.ban=钛制锅炉：禁止使用
 GT5U.nei.large_boiler.tungstensteel_boiler=钨钢锅炉：%.4f
 GT5U.nei.large_boiler.tungstensteel_boiler.ban=钨钢锅炉：禁止使用
-GT5U.nei.large_boiler.solid=并非所有固体燃料都列出来了。\n任何燃烧时间至少为%d/%d的可燃物品，\n将分别在大型青铜/钢制锅炉中燃烧。
+GT5U.nei.large_boiler.solid=此处并未列出所有固体燃料\n任何燃烧时间大于等于\n%d/%d的燃料都可在\n大型青铜/钢锅炉中燃烧
 GT5U.nei.nuclear.model.mox=MOX模型
 GT5U.nei.nuclear.model.uranium=铀模型
 GT5U.nei.nuclear.neutron_pulse=中子脉冲：%d
@@ -1868,14 +1870,14 @@ GT5U.interface.coverTabs.south=南
 GT5U.interface.coverTabs.west=西
 GT5U.interface.coverTabs.east=东
 GT5U.interface.coverTabs.cover_on=%s覆盖板：%s
-GT5U.interface.coverTabs.emits_redstone=在%s侧发出强烈的红石信号
+GT5U.interface.coverTabs.emits_redstone=在%s发出强红石信号
 
-GT5U.interface.coverTabs.redstone.bottom=底部
-GT5U.interface.coverTabs.redstone.top=顶部
-GT5U.interface.coverTabs.redstone.north=北
-GT5U.interface.coverTabs.redstone.south=南
-GT5U.interface.coverTabs.redstone.west=西
-GT5U.interface.coverTabs.redstone.east=东
+GT5U.interface.coverTabs.redstone.bottom=底面
+GT5U.interface.coverTabs.redstone.top=顶面
+GT5U.interface.coverTabs.redstone.north=北侧
+GT5U.interface.coverTabs.redstone.south=南侧
+GT5U.interface.coverTabs.redstone.west=西侧
+GT5U.interface.coverTabs.redstone.east=东侧
 GT5U.interface.coverTabs.redstone.unknown=<未知>
 
 # NEI Display
@@ -2023,7 +2025,7 @@ achievement.smallparts.desc=制造真空管
 achievement.gtbasiccircuit=基础电路
 achievement.gtbasiccircuit.desc=制造一个电路板
 achievement.bettercircuits=更好的电路
-achievement.bettercircuits.desc=得到优质
+achievement.bettercircuits.desc=得到优质电子电路
 achievement.stepforward=更进一步
 achievement.stepforward.desc=制造高级电路板
 achievement.gtmonosilicon=单晶硅
@@ -2521,12 +2523,12 @@ for.bees.species.sparkeling=凋灵
 for.bees.species.redstone=红石
 for.bees.species.certus=赛特斯
 for.bees.species.fluix=福鲁伊克斯
-for.bees.species.ruby=红宝石
+for.bees.species.ruby=红宝石矿
 for.bees.species.lapis=青金石
-for.bees.species.sapphire=蓝宝石
+for.bees.species.sapphire=蓝宝石矿
 for.bees.species.diamond=钻石
 for.bees.species.olivine=橄榄石
-for.bees.species.emerald=绿宝石
+for.bees.species.emerald=绿宝石矿
 for.bees.species.redgarnet=红石榴石
 for.bees.species.yellowgarnet=黄石榴石
 for.bees.species.firestone=火石
@@ -3035,8 +3037,8 @@ GT5U.tooltip.mega_apiary.only_producer=仅在巨型工业蜂箱中生产
 GT5U.tooltip.electric.tier=等级：%d
 GT5U.tooltip.electric.tier.s=等级：%s
 
-gt.coilheattooltip=基础炉温 =
-gt.coilunittooltip=开尔文
+gt.coilheattooltip=基础炉温 = 
+gt.coilunittooltip= K
 
 GT5U.tootlip.tool.turbine.steam=蒸汽缓存
 GT5U.tootlip.tool.turbine.loose=松

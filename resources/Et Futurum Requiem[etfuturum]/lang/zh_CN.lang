@@ -1,6 +1,6 @@
 # Creative Tab
-itemGroup.etfuturum.items=把未来带回现实｜物品
-itemGroup.etfuturum.blocks=把未来带回现实｜方块
+itemGroup.etfuturum.items=把未来带回现实|物品
+itemGroup.etfuturum.blocks=把未来带回现实|方块
 
 # Enchantments
 enchantment.frost_walker=冰霜行者
@@ -51,9 +51,9 @@ gui.warn.continue=继续……
 gui.warn.dismiss=不再显示此警告。
 gui.warn.notice=注意：
 gui.warn.configSplit1=由于 Et Futurum Requiem 的主配置变得非常长且难以浏览，所以配置被拆分成多个文件。你之所以收到此警告是因为在“configs/etfuturum.cfg”有个先前版本的配置文件。目前并不会自动转移你的配置，所以一定要查看新文件！
-gui.warn.configSplit2=当你完成上述操作后，你可以删除或重命名旧配置文件，或勾选下面的方框以停止显示此警告。
-gui.chat.update=%1$s 版本 %2$s 可用!
-gui.chat.update.download=请按此处下载 %s 的更新!
+gui.warn.configSplit2=完成后，您可以删除或重命名旧的配置文件，或者勾选下方的选项框以停止显示此警告。
+gui.chat.update=%1$s的%2$s版本已发布！
+gui.chat.update.download=点击此处下载%s的更新！
 
 # Subtitles
 subtitle.game.tnt.primed=TNT：嘶嘶作响
@@ -252,7 +252,7 @@ subtitle.block.composter.ready=堆肥桶：已满
 subtitle.block.composter.empty=堆肥桶：清空
 subtitle.block.enchantment_table.use=附魔台：使用
 subtitle.block.smithing_table.use=锻造台：使用
-subtitle.block.sweet_berry_bush.pick_berries=甜浆果：摘取
+subtitle.block.sweet_berry_bush.pick_berries=甜浆果丛：被摘取
 subtitle.block.sponge.absorb=海绵：吸水
 
 subtitle.mob.hurt=%s：受伤
@@ -330,7 +330,7 @@ entity.etfuturum.villager_zombie.name=僵尸村民
 entity.etfuturum.end_crystal.name=末地水晶
 entity.etfuturum.ender_dragon.name=末影龙
 entity.etfuturum.snow_golem.name=雪傀儡
-entity.etfuturum.brown_mooshroom.name=棕色蘑菇
+entity.etfuturum.brown_mooshroom.name=棕色哞菇
 entity.etfuturum.shulker.name=潜影贝
 entity.etfuturum.shulker_candy.name=潜影弹
 entity.etfuturum.chest_boat.name=运输船
@@ -416,8 +416,8 @@ item.etfuturum.tipped_arrow.effect.empty.name=不可合成的药箭
 item.etfuturum.tipped_arrow.potion.nightVision.name=夜视之箭
 item.etfuturum.tipped_arrow.potion.invisibility.name=隐身之箭
 item.etfuturum.tipped_arrow.potion.jump.name=跳跃之箭
-item.etfuturum.tipped_arrow.potion.fireResistance.name=防火之箭
-item.etfuturum.tipped_arrow.potion.moveSpeed.name=速度之箭
+item.etfuturum.tipped_arrow.potion.fireResistance.name=抗火之箭
+item.etfuturum.tipped_arrow.potion.moveSpeed.name=迅捷之箭
 item.etfuturum.tipped_arrow.potion.moveSlowdown.name=迟缓之箭
 item.etfuturum.tipped_arrow.potion.waterBreathing.name=水肺之箭
 item.etfuturum.tipped_arrow.potion.heal.name=治疗之箭
