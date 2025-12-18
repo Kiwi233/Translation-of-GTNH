@@ -5,32 +5,29 @@ on:
     tags:
       - '*'
 
+env:
+  REPO_PATH: .repo
+  ASSETS_PATH: .assets
+
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
         with:
-          path: repo
-      - uses: actions/setup-python@v3
+          path: ${{ env.REPO_PATH }}
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
         with:
-          python-version: '3.10'
-      - name: Ensure temp dir
-        run: mkdir -p temp
-      - name: Ensure assets dir
-        run: mkdir -p assets
-      - name: Pack
-        run: python repo/.github/scripts/pack.py
-      - name: Zip
-        uses: edgarrc/action-7z@v1
-        with:
-          args: 7z a -t7z -mx=9 ./assets/${{ github.ref_name }}.7z ./temp/*
-      - name: Add NotEnoughCharacters
-        uses: wei/wget@v1
-        with:
-          args: -O assets/NotEnoughCharacters-1.6.1.jar https://github.com/Kiwi233/Translation-of-GTNH/raw/NotEnoughCharacters/NotEnoughCharacters-1.6.1.jar
+          deno-version: "^2"
+          cache: true
+          cache-hash: "release"
+      - name: Build Release Assets
+        env:
+          REF_NAME: ${{ github.ref_name }}
+        run: deno run -A ${{ env.REPO_PATH }}/.github/scripts/release.ts
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
@@ -38,5 +35,5 @@ jobs:
           body: |
             请阅读主页ReadMe以获知详细用法
           files: |
-            ./assets/${{ github.ref_name }}.7z
-            ./assets/NotEnoughCharacters-1.6.1.jar
+            ${{ env.ASSETS_PATH }}/${{ github.ref_name }}.7z
+            ${{ env.ASSETS_PATH }}/NotEnoughCharacters-1.6.1.jar
