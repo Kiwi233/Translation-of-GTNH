@@ -1,5 +1,5 @@
 import { copy, ensureDir } from 'jsr:@std/fs@1.0.20'
-import { basename, dirname, join, resolve } from 'jsr:@std/path@1.1.3'
+import { dirname, join, resolve } from 'jsr:@std/path@1.1.3'
 import { join as posixJoin } from 'jsr:@std/path@1.1.3/posix'
 
 import _SevenZip, { type SevenZipModuleFactory } from 'npm:7z-wasm@1.2.0'
@@ -8,9 +8,26 @@ import download from 'npm:download@8.0.0'
 
 const SevenZip = _SevenZip as unknown as SevenZipModuleFactory
 
-const refName = Deno.env.get('REF_NAME')!
-const repoPath = Deno.env.get('REPO_PATH')!
-const assetsPath = Deno.env.get('ASSETS_PATH')!
+const archiveName = Deno.env.get('ARCHIVE_NAME') || (() => {
+  consola.error('ARCHIVE_NAME is not set')
+  Deno.exit(1)
+})()
+const repoPath = Deno.env.get('REPO_PATH') || (() => {
+  consola.error('REPO_PATH is not set')
+  Deno.exit(1)
+})()
+const assetsPath = Deno.env.get('ASSETS_PATH') || (() => {
+  consola.error('ASSETS_PATH is not set')
+  Deno.exit(1)
+})()
+const necUrl = Deno.env.get('NEC_URL') || (() => {
+  consola.error('NEC_URL is not set')
+  Deno.exit(1)
+})()
+const necName = Deno.env.get('NEC_NAME') || (() => {
+  consola.error('NEC_NAME is not set')
+  Deno.exit(1)
+})()
 
 // === 配置 ===
 const pathsToBePacked = [
@@ -49,8 +66,6 @@ for (const p of pathsToBePacked) {
 // === 创建 7z 压缩包 ===
 consola.start('正在创建 7z 压缩包...')
 
-const archiveName = `${refName}.7z`
-
 const sevenZip = await SevenZip()
 sevenZip.FS.mkdir('/src')
 sevenZip.FS.mkdir('/dest')
@@ -76,9 +91,7 @@ if (result !== 0) {
 
 // === 下载 NotEnoughCharacters ===
 consola.start('正在下载 NotEnoughCharacters...')
-const necUrl =
-  'https://raw.githubusercontent.com/Kiwi233/Translation-of-GTNH/NotEnoughCharacters/NotEnoughCharacters-1.6.1.jar'
-await download(necUrl, absoluteAssetsPath)
-consola.success(`下载完成: ${join(absoluteAssetsPath, basename(necUrl))}`)
+await download(necUrl, absoluteAssetsPath, { filename: necName })
+consola.success(`下载完成: ${join(absoluteAssetsPath, necName)}`)
 
 consola.success('构建完成!')
