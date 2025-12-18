@@ -21,12 +21,14 @@ jobs:
       - name: Setup Deno
         uses: denoland/setup-deno@v2
         with:
-          deno-version: "^2"
+          deno-version: '^2'
           cache: true
-          cache-hash: "release"
+          cache-hash: 'release'
       - name: Build Release Assets
         env:
-          REF_NAME: ${{ github.ref_name }}
+          ARCHIVE_NAME: ${{ github.ref_name }}.7z
+          NEC_URL: https://raw.githubusercontent.com/Kiwi233/Translation-of-GTNH/NotEnoughCharacters/NotEnoughCharacters-1.6.1.jar
+          NEC_NAME: NotEnoughCharacters-1.6.1.jar
         run: deno run -A ${{ env.REPO_PATH }}/.github/scripts/release.ts
       - name: Release
         uses: softprops/action-gh-release@v1
@@ -34,6 +36,4 @@ jobs:
           name: ${{ github.ref_name }} 版本汉化
           body: |
             请阅读主页ReadMe以获知详细用法
-          files: |
-            ${{ env.ASSETS_PATH }}/${{ github.ref_name }}.7z
-            ${{ env.ASSETS_PATH }}/NotEnoughCharacters-1.6.1.jar
+          files: ${{ env.ASSETS_PATH }}/*
