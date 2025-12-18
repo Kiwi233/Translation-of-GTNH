@@ -21,9 +21,9 @@ const tags = releases
   .filter((tag) => tag.startsWith('0-nightly-build'))
   .filter((tag) => tag !== currentTag)
 
-// 去重并排序，保留最新的 2 个，删除其余的
+// 去重并排序，保留最新的 7 个（一周 7 天），删除其余的
 const uniqueTags = [...new Set(tags)].sort()
-const tagsToDelete = uniqueTags.slice(0, -2)
+const tagsToDelete = uniqueTags.slice(0, -7)
 
 if (tagsToDelete.length === 0) {
   consola.info('没有需要清理的旧版本')
@@ -33,7 +33,7 @@ if (tagsToDelete.length === 0) {
   for (const tag of tagsToDelete) {
     consola.start(`正在删除 ${tag}...`)
     try {
-      await $`gh release delete ${tag} --repo ${repo} --yes`.quiet()
+      await $`gh release delete ${tag} --repo ${repo} --cleanup-tag --yes`.quiet()
       consola.success(`已删除: ${tag}`)
     } catch (error) {
       consola.warn(`删除 ${tag} 失败: ${error}`)
