@@ -8,6 +8,7 @@ import download from 'npm:download@8.0.0'
 
 const SevenZip = _SevenZip as unknown as SevenZipModuleFactory
 
+const isNightlyBuild = !!Deno.env.get('IS_NIGHTLY_BUILD')
 const archiveName = Deno.env.get('ARCHIVE_NAME') || (() => {
   consola.error('ARCHIVE_NAME is not set')
   Deno.exit(1)
@@ -21,10 +22,12 @@ const assetsPath = Deno.env.get('ASSETS_PATH') || (() => {
   Deno.exit(1)
 })()
 const necUrl = Deno.env.get('NEC_URL') || (() => {
+  if (isNightlyBuild) return
   consola.error('NEC_URL is not set')
   Deno.exit(1)
 })()
 const necName = Deno.env.get('NEC_NAME') || (() => {
+  if (isNightlyBuild) return
   consola.error('NEC_NAME is not set')
   Deno.exit(1)
 })()
@@ -34,7 +37,7 @@ const pathsToBePacked = [
   'config',
   'resources',
   'GregTech.lang',
-  'GregTech_US.lang',
+  ...(!isNightlyBuild ? ['GregTech_US.lang'] : []),
   'GTNH介绍.txt',
   'README.md',
 ]
@@ -89,9 +92,11 @@ if (result !== 0) {
   throw new Error(`7z 压缩失败，返回码: ${result}`)
 }
 
-// === 下载 NotEnoughCharacters ===
-consola.start('正在下载 NotEnoughCharacters...')
-await download(necUrl, absoluteAssetsPath, { filename: necName })
-consola.success(`下载完成: ${join(absoluteAssetsPath, necName)}`)
+// === 下载 NotEnoughCharacters（仅 release）===
+if (!isNightlyBuild && necUrl && necName) {
+  consola.start('正在下载 NotEnoughCharacters...')
+  await download(necUrl, absoluteAssetsPath, { filename: necName })
+  consola.success(`下载完成: ${join(absoluteAssetsPath, necName)}`)
+}
 
 consola.success('构建完成!')
