@@ -1,13 +1,13 @@
-import { $ } from 'npm:zx@8.3.2'
-import { consola } from 'npm:consola@3.4.2'
+import { $ } from 'zx@8.3.2'
+import { consola } from 'consola@3.4.2'
 
-const repo = Deno.env.get('GITHUB_REPOSITORY') || (() => {
+const repo = Bun.env.GITHUB_REPOSITORY || (() => {
   consola.error('GITHUB_REPOSITORY is not set')
-  Deno.exit(1)
+  process.exit(1)
 })()
-const currentTag = Deno.env.get('NB_TAG') || (() => {
+const currentTag = Bun.env.NB_TAG || (() => {
   consola.error('NB_TAG is not set')
-  Deno.exit(1)
+  process.exit(1)
 })()
 
 consola.start('正在获取 release 列表...')
