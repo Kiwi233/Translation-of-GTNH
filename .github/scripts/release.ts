@@ -1,35 +1,36 @@
-import { copy, ensureDir } from 'jsr:@std/fs@1.0.20'
-import { dirname, join, resolve } from 'jsr:@std/path@1.1.3'
-import { join as posixJoin } from 'jsr:@std/path@1.1.3/posix'
+import { mkdir, mkdtemp, cp } from 'node:fs/promises'
+import { dirname, join, resolve } from 'node:path'
+import { join as posixJoin } from 'node:path/posix'
+import { tmpdir } from 'node:os'
 
-import _SevenZip, { type SevenZipModuleFactory } from 'npm:7z-wasm@1.2.0'
-import { consola } from 'npm:consola@3.4.2'
-import download from 'npm:download@8.0.0'
+import _SevenZip, { type SevenZipModuleFactory } from '7z-wasm@1.2.0'
+import { consola } from 'consola@3.4.2'
+import download from 'download@8.0.0'
 
 const SevenZip = _SevenZip as unknown as SevenZipModuleFactory
 
-const isNightlyBuild = !!Deno.env.get('IS_NIGHTLY_BUILD')
-const archiveName = Deno.env.get('ARCHIVE_NAME') || (() => {
+const isNightlyBuild = !!Bun.env.IS_NIGHTLY_BUILD
+const archiveName = Bun.env.ARCHIVE_NAME || (() => {
   consola.error('ARCHIVE_NAME is not set')
-  Deno.exit(1)
+  process.exit(1)
 })()
-const repoPath = Deno.env.get('REPO_PATH') || (() => {
+const repoPath = Bun.env.REPO_PATH || (() => {
   consola.error('REPO_PATH is not set')
-  Deno.exit(1)
+  process.exit(1)
 })()
-const assetsPath = Deno.env.get('ASSETS_PATH') || (() => {
+const assetsPath = Bun.env.ASSETS_PATH || (() => {
   consola.error('ASSETS_PATH is not set')
-  Deno.exit(1)
+  process.exit(1)
 })()
-const necUrl = Deno.env.get('NEC_URL') || (() => {
+const necUrl = Bun.env.NEC_URL || (() => {
   if (isNightlyBuild) return
   consola.error('NEC_URL is not set')
-  Deno.exit(1)
+  process.exit(1)
 })()
-const necName = Deno.env.get('NEC_NAME') || (() => {
+const necName = Bun.env.NEC_NAME || (() => {
   if (isNightlyBuild) return
   consola.error('NEC_NAME is not set')
-  Deno.exit(1)
+  process.exit(1)
 })()
 
 // === 配置 ===
@@ -49,20 +50,20 @@ const toBeRenamed: Record<string, string> = {
 }
 
 const absoluteRepoPath = resolve(repoPath)
-const absoluteTempPath = await Deno.makeTempDir({ prefix: 'gtnh-release-' })
+const absoluteTempPath = await mkdtemp(join(tmpdir(), 'gtnh-release-'))
 const absoluteAssetsPath = resolve(assetsPath)
 
 // === 创建目录 ===
 consola.start('正在创建目录...')
-await ensureDir(absoluteAssetsPath)
+await mkdir(absoluteAssetsPath, { recursive: true })
 
 // === 打包文件 ===
 consola.start('正在打包文件...')
 for (const p of pathsToBePacked) {
   const srcPath = join(absoluteRepoPath, p)
   const destPath = join(absoluteTempPath, toBeRenamed[p] ?? p)
-  await ensureDir(dirname(destPath))
-  await copy(srcPath, destPath, { overwrite: true })
+  await mkdir(dirname(destPath), { recursive: true })
+  await cp(srcPath, destPath, { recursive: true, force: true })
   consola.info(`  复制: ${p} -> ${toBeRenamed[p] ?? p}`)
 }
 
@@ -70,8 +71,12 @@ for (const p of pathsToBePacked) {
 consola.start('正在创建 7z 压缩包...')
 
 const sevenZip = await SevenZip()
+// Note: 7z-wasm in Bun/Node environment uses the underlying FS differently
+// We might need to handle the virtual FS carefully.
+// Assuming the current logic with NODEFS still works as it's standard for Emscripten in Node.
 sevenZip.FS.mkdir('/src')
 sevenZip.FS.mkdir('/dest')
+// NODEFS is available in Emscripten when running in Node.js/Bun
 sevenZip.FS.mount(sevenZip.NODEFS, { root: absoluteTempPath }, '/src')
 sevenZip.FS.mount(
   sevenZip.NODEFS,

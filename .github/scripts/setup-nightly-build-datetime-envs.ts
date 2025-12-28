@@ -1,7 +1,7 @@
-import * as core from 'npm:@actions/core@1.11.1'
-import dayjs from 'npm:dayjs@1.11.13'
-import utc from 'npm:dayjs@1.11.13/plugin/utc.js'
-import timezone from 'npm:dayjs@1.11.13/plugin/timezone.js'
+import * as core from '@actions/core@1.11.1'
+import dayjs from 'dayjs@1.11.13'
+import utc from 'dayjs@1.11.13/plugin/utc.js'
+import timezone from 'dayjs@1.11.13/plugin/timezone.js'
 
 dayjs.extend(utc)
 dayjs.extend(timezone)

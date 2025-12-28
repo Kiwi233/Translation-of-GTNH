@@ -7,12 +7,18 @@ on:
     - cron: '0 18 * * *'
 
 env:
+  BUN_VERSION: 1.3.5
+  BUN_INSTALL_CACHE_DIR: .bun-install-cache.local
+
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
+
   GIT_AUTHOR: MuXiu1997 <muxiu1997@muxiu1997.com>
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   REPO_PATH: .repo
   ASSETS_PATH: .assets
+  PARATRANZ_CACHE_DIR: .paratranz-cache
 
 jobs:
   nightly-build:
@@ -30,15 +36,19 @@ jobs:
         uses: actions/checkout@v6
         with:
           path: ${{ env.REPO_PATH }}
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          deno-version: '^2'
-          cache: true
-          cache-hash: 'nightly-build'
+          bun-version: 1.3.5
+      - name: Setup Bun Global Module Cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.BUN_INSTALL_CACHE_DIR }}
+          key: bun-install-cache--${{ github.job }}
 
       - name: Setup Datetime Related Envs
-        run: deno run -A ${{ env.REPO_PATH }}/.github/scripts/setup-nightly-build-datetime-envs.ts
+        run: bun run ${{ env.REPO_PATH }}/.github/scripts/setup-nightly-build-datetime-envs.ts
 
       - name: ParaTranz To Quest Book
         run: >-
@@ -57,7 +67,7 @@ jobs:
         env:
           IS_NIGHTLY_BUILD: 'true'
           ARCHIVE_NAME: nightly-${{ env.NB_LOCAL_DATE }}.7z
-        run: deno run -A ${{ env.REPO_PATH }}/.github/scripts/release.ts
+        run: bun run ${{ env.REPO_PATH }}/.github/scripts/release.ts
 
       - name: Push tag
         working-directory: ${{ env.REPO_PATH }}
@@ -89,15 +99,19 @@ jobs:
         uses: actions/checkout@v6
         with:
           sparse-checkout: .github/scripts
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          deno-version: '^2'
-          cache: true
-          cache-hash: 'cleanup-nightly'
+          bun-version: 1.3.5
+      - name: Setup Bun Global Module Cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.BUN_INSTALL_CACHE_DIR }}
+          key: bun-install-cache--${{ github.job }}
 
       - name: Setup Datetime Related Envs
-        run: deno run -A .github/scripts/setup-nightly-build-datetime-envs.ts
+        run: bun run .github/scripts/setup-nightly-build-datetime-envs.ts
 
       - name: Cleanup Outdated Nightly Builds
-        run: deno run -A .github/scripts/cleanup-nightly-builds.ts
+        run: bun run .github/scripts/cleanup-nightly-builds.ts
