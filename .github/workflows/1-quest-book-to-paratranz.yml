@@ -5,9 +5,19 @@ on:
     types: [ opened ]
 
 env:
+  BUN_VERSION: 1.3.5
+  BUN_INSTALL_CACHE_DIR: .bun-install-cache.local.d
+
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
-  GIT_AUTHOR: MuXiu1997 <muxiu1997@gmail.com>
+
+  CO_AUTHORED_BY: |
+    Kiwi233 <huaxia0611@qq.com>
+    MuXiu1997 <muxiu1997@muxiu1997.com>
+  VALID_LABEL: 自动化:questbook→paratranz
+  VALID_USER: ${{ github.repository_owner }}
+
+  PARATRANZ_CACHE_DIR: .paratranz-cache.local.d
 
 jobs:
   check-and-parse-issue:
@@ -15,21 +25,29 @@ jobs:
     name: Check And Parse Issue
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout MuXiu1997/GTNH-translation-compare
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v6
         with:
-          repository: MuXiu1997/GTNH-translation-compare
-          ref: main
-      - name: Ensure Dependencies
-        uses: ./.github/actions/ensure-dependencies
+          sparse-checkout: .github/scripts
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - name: Setup Bun Global Module Cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.BUN_INSTALL_CACHE_DIR }}
+          key: bun-install-cache--${{ github.job }}
+
       - name: Run Script
         id: check-and-parse-issue
         env:
           GITHUB_ISSUE: ${{ toJSON(github.event.issue) }}
-          VALID_LABEL: 自动化:questbook→paratranz
-          VALID_USER: ${{ github.repository_owner }}
+          VALID_LABEL: ${{ env.VALID_LABEL }}
+          VALID_USER: ${{ env.VALID_USER }}
         run: |
-          poetry run python main.py parse-issue quest-book-to-paratranz
+          bun run -i .github/scripts/parse-issue.ts quest-book-to-paratranz
     outputs:
       passed: ${{ steps.check-and-parse-issue.outputs.passed }}
       commit-sha: ${{ steps.check-and-parse-issue.outputs.commit-sha }}
@@ -53,16 +71,37 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout MuXiu1997/GTNH-translation-compare
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           repository: MuXiu1997/GTNH-translation-compare
-          ref: main
-      - name: Ensure Dependencies
-        uses: ./.github/actions/ensure-dependencies
+          ref: next
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - name: Setup Bun Global Module Cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.BUN_INSTALL_CACHE_DIR }}
+          key: bun-install-cache--${{ github.job }}
+
+      - name: Cache ParaTranz Files
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.PARATRANZ_CACHE_DIR }}
+          key: paratranz-cache-${{ github.run_id }}
+          restore-keys: |
+            paratranz-cache-
+
+      - name: Install Dependencies
+        run: bun install --frozen-lockfile
+
       - name: Run Script
         run: >-
-          poetry run python main.py action quest-book-to-paratranz
+          bun run src/index.ts to-paratranz:quest-book
           --commit-sha='${{ needs.check-and-parse-issue.outputs.commit-sha }}'
+
       - name: Close Issue
         uses: peter-evans/close-issue@v2.0.0
         with:
