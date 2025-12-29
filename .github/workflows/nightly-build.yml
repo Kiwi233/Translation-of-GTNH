@@ -38,7 +38,7 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
         with:
-          bun-version: 1.3.5
+          bun-version: ${{ env.BUN_VERSION }}
       - name: Setup Bun Global Module Cache
         uses: actions/cache@v4
         with:
@@ -46,7 +46,7 @@ jobs:
           key: bun-install-cache--${{ github.job }}
 
       - name: Setup Datetime Related Envs
-        run: bun run ${{ env.REPO_PATH }}/.github/scripts/setup-nightly-build-datetime-envs.ts
+        run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/setup-nightly-build-datetime-envs.ts
 
       - name: Cache ParaTranz Files
         uses: actions/cache@v4
@@ -55,24 +55,28 @@ jobs:
           key: paratranz-cache-${{ github.run_id }}
           restore-keys: |
             paratranz-cache-
+
+      - name: Install Dependencies
+        run: bun install --frozen-lockfile
+
       - name: ParaTranz To Quest Book
         run: >-
-          bun run index.ts from-paratranz:quest-book
+          bun run src/index.ts from-paratranz:quest-book
           --repo-path='${{ env.REPO_PATH }}'
       - name: ParaTranz To Lang And zs
         run: >-
-          bun run index.ts from-paratranz:lang-zs
+          bun run src/index.ts from-paratranz:lang-zs
           --repo-path='${{ env.REPO_PATH }}'
       - name: ParaTranz To GT Lang
         run: >-
-          bun run index.ts from-paratranz:gt-lang
+          bun run src/index.ts from-paratranz:gt-lang
           --repo-path='${{ env.REPO_PATH }}'
 
       - name: Build Nightly Assets
         env:
           IS_NIGHTLY_BUILD: 'true'
           ARCHIVE_NAME: nightly-${{ env.NB_LOCAL_DATE }}.7z
-        run: bun run ${{ env.REPO_PATH }}/.github/scripts/release.ts
+        run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/release.ts
 
       - name: Push tag
         working-directory: ${{ env.REPO_PATH }}
@@ -108,7 +112,7 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
         with:
-          bun-version: 1.3.5
+          bun-version: ${{ env.BUN_VERSION }}
       - name: Setup Bun Global Module Cache
         uses: actions/cache@v4
         with:
@@ -116,7 +120,7 @@ jobs:
           key: bun-install-cache--${{ github.job }}
 
       - name: Setup Datetime Related Envs
-        run: bun run .github/scripts/setup-nightly-build-datetime-envs.ts
+        run: bun run -i .github/scripts/setup-nightly-build-datetime-envs.ts
 
       - name: Cleanup Outdated Nightly Builds
-        run: bun run .github/scripts/cleanup-nightly-builds.ts
+        run: bun run -i .github/scripts/cleanup-nightly-builds.ts
