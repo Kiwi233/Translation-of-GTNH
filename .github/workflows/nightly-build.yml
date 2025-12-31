@@ -10,7 +10,6 @@ env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
 
-  GIT_AUTHOR: MuXiu1997 <muxiu1997@muxiu1997.com>
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   REPO_PATH: .repo.local.d
@@ -33,7 +32,9 @@ jobs:
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
 
       - name: Setup Datetime Related Envs
-        run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/setup-nightly-build-datetime-envs.ts
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
+        with:
+          script: setup-nightly-build-datetime-envs.ts
 
       - name: ParaTranz To Quest Book
         run: >-
@@ -49,10 +50,12 @@ jobs:
           --repo-path='${{ env.REPO_PATH }}'
 
       - name: Build Nightly Assets
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
+        with:
+          script: release.ts
         env:
           IS_NIGHTLY_BUILD: 'true'
           ARCHIVE_NAME: nightly-${{ env.NB_LOCAL_DATE }}.7z
-        run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/release.ts
 
       - name: Push tag
         working-directory: ${{ env.REPO_PATH }}
@@ -80,16 +83,12 @@ jobs:
     name: Cleanup Outdated Nightly Builds
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-        with:
-          sparse-checkout: .github/scripts
-
-      - name: Setup Bun
-        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
-
       - name: Setup Datetime Related Envs
-        run: bun run -i .github/scripts/setup-nightly-build-datetime-envs.ts
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
+        with:
+          script: setup-nightly-build-datetime-envs.ts
 
       - name: Cleanup Outdated Nightly Builds
-        run: bun run -i .github/scripts/cleanup-nightly-builds.ts
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
+        with:
+          script: cleanup-nightly-builds.ts

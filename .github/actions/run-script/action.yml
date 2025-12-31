@@ -1,0 +1,52 @@
+name: 'Run Script'
+description: 'Execute a script with Bun and ensure Bun is installed'
+inputs:
+  script:
+    description: "The script filename to run (located in the action's scripts directory)"
+    required: true
+  args:
+    description: 'Arguments to pass to the script'
+    required: false
+    default: ''
+
+outputs:
+  passed:
+    description: 'Whether the script passed (mainly for parse-issue.ts)'
+    value: ${{ steps.run-script.outputs.passed }}
+  branch:
+    description: 'Extracted branch name (for parse-issue.ts)'
+    value: ${{ steps.run-script.outputs.branch }}
+  commit-sha:
+    description: 'Extracted commit SHA (for parse-issue.ts)'
+    value: ${{ steps.run-script.outputs.commit-sha }}
+  modpack-url:
+    description: 'Extracted modpack URL (for parse-issue.ts)'
+    value: ${{ steps.run-script.outputs.modpack-url }}
+  gt-lang-url:
+    description: 'Extracted GT lang URL (for parse-issue.ts)'
+    value: ${{ steps.run-script.outputs.gt-lang-url }}
+  error:
+    description: 'Error message if any'
+    value: ${{ steps.run-script.outputs.error }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Check if Bun is installed
+      id: check-bun
+      shell: bash
+      run: |
+        if command -v bun >/dev/null 2>&1; then
+          echo "exists=true" >> $GITHUB_OUTPUT
+        else
+          echo "exists=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Setup Bun
+      if: steps.check-bun.outputs.exists != 'true'
+      uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
+
+    - name: Run script
+      id: run-script
+      shell: bash
+      run: bun run -i ${{ github.action_path }}/scripts/${{ inputs.script }} ${{ inputs.args }}

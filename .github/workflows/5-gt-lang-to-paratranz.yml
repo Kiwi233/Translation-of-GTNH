@@ -17,22 +17,16 @@ jobs:
     name: Check And Parse Issue
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-        with:
-          sparse-checkout: .github/scripts
-
-      - name: Setup Bun
-        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
-
       - name: Run Script
         id: check-and-parse-issue
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
+        with:
+          script: parse-issue.ts
+          args: gt-lang-to-paratranz
         env:
           GITHUB_ISSUE: ${{ toJSON(github.event.issue) }}
           VALID_LABEL: ${{ env.VALID_LABEL }}
           VALID_USER: ${{ env.VALID_USER }}
-        run: |
-          bun run -i .github/scripts/parse-issue.ts gt-lang-to-paratranz
     outputs:
       passed: ${{ steps.check-and-parse-issue.outputs.passed }}
       gt-lang-url: ${{ steps.check-and-parse-issue.outputs.gt-lang-url }}
