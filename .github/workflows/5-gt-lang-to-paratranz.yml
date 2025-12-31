@@ -1,23 +1,15 @@
-name: Gt Lang To Paratranz
+name: 3. Gt Lang To Paratranz
 
 on:
   issues:
-    types: [ opened ]
+    types: [opened]
 
 env:
-  BUN_VERSION: 1.3.5
-  BUN_INSTALL_CACHE_DIR: .bun-install-cache.local.d
-
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
 
-  CO_AUTHORED_BY: |
-    Kiwi233 <huaxia0611@qq.com>
-    MuXiu1997 <muxiu1997@muxiu1997.com>
   VALID_LABEL: 自动化:gt-lang→paratranz
   VALID_USER: ${{ github.repository_owner }}
-
-  PARATRANZ_CACHE_DIR: .paratranz-cache.local.d
 
 jobs:
   check-and-parse-issue:
@@ -31,14 +23,7 @@ jobs:
           sparse-checkout: .github/scripts
 
       - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: ${{ env.BUN_VERSION }}
-      - name: Setup Bun Global Module Cache
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.BUN_INSTALL_CACHE_DIR }}
-          key: bun-install-cache--${{ github.job }}
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
 
       - name: Run Script
         id: check-and-parse-issue
@@ -70,32 +55,11 @@ jobs:
     if: ${{ needs.check-and-parse-issue.outputs.passed == 'true' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout MuXiu1997/GTNH-translation-compare
-        uses: actions/checkout@v6
-        with:
-          repository: MuXiu1997/GTNH-translation-compare
-          ref: next
+      - name: Setup Compare Repo
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
 
       - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: ${{ env.BUN_VERSION }}
-      - name: Setup Bun Global Module Cache
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.BUN_INSTALL_CACHE_DIR }}
-          key: bun-install-cache--${{ github.job }}
-
-      - name: Cache ParaTranz Files
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.PARATRANZ_CACHE_DIR }}
-          key: paratranz-cache-${{ github.run_id }}
-          restore-keys: |
-            paratranz-cache-
-
-      - name: Install Dependencies
-        run: bun install --frozen-lockfile
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
 
       - name: Run Script
         run: >-

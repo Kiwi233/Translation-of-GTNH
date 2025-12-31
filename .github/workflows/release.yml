@@ -28,6 +28,7 @@ jobs:
           NEC_URL: https://raw.githubusercontent.com/Kiwi233/Translation-of-GTNH/NotEnoughCharacters/NotEnoughCharacters-1.6.1.jar
           NEC_NAME: NotEnoughCharacters-1.6.1.jar
         run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/release.ts
+
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
