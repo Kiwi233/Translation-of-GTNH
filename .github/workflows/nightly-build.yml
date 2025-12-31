@@ -7,9 +7,6 @@ on:
     - cron: '0 18 * * *'
 
 env:
-  BUN_VERSION: 1.3.5
-  BUN_INSTALL_CACHE_DIR: .bun-install-cache.local.d
-
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
 
@@ -18,46 +15,25 @@ env:
 
   REPO_PATH: .repo.local.d
   ASSETS_PATH: .assets.local.d
-  PARATRANZ_CACHE_DIR: .paratranz-cache.local.d
 
 jobs:
   nightly-build:
     name: Nightly Build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout MuXiu1997/GTNH-translation-compare
-        uses: actions/checkout@v6
-        with:
-          repository: MuXiu1997/GTNH-translation-compare
-          ref: next
+      - name: Setup Compare Repo
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
+
       - name: Checkout
         uses: actions/checkout@v6
         with:
           path: ${{ env.REPO_PATH }}
 
       - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: ${{ env.BUN_VERSION }}
-      - name: Setup Bun Global Module Cache
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.BUN_INSTALL_CACHE_DIR }}
-          key: bun-install-cache--${{ github.job }}
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
 
       - name: Setup Datetime Related Envs
         run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/setup-nightly-build-datetime-envs.ts
-
-      - name: Cache ParaTranz Files
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.PARATRANZ_CACHE_DIR }}
-          key: paratranz-cache-${{ github.run_id }}
-          restore-keys: |
-            paratranz-cache-
-
-      - name: Install Dependencies
-        run: bun install --frozen-lockfile
 
       - name: ParaTranz To Quest Book
         run: >-
@@ -110,14 +86,7 @@ jobs:
           sparse-checkout: .github/scripts
 
       - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: ${{ env.BUN_VERSION }}
-      - name: Setup Bun Global Module Cache
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.BUN_INSTALL_CACHE_DIR }}
-          key: bun-install-cache--${{ github.job }}
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
 
       - name: Setup Datetime Related Envs
         run: bun run -i .github/scripts/setup-nightly-build-datetime-envs.ts
