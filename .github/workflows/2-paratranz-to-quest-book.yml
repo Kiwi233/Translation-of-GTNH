@@ -2,12 +2,20 @@ name: 2. Paratranz To Quest Book
 
 on:
   issues:
-    types: [ opened ]
+    types: [opened]
 
 env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
-  GIT_AUTHOR: MuXiu1997 <muxiu1997@gmail.com>
+
+  VALID_LABEL: 自动化:paratranz→questbook
+  VALID_USER: ${{ github.repository_owner }}
+
+  REPO_PATH: .repo.local.d
+
+  CO_AUTHORED_BY: |
+    Kiwi233 <huaxia0611@qq.com>
+    MuXiu1997 <muxiu1997@muxiu1997.com>
 
 jobs:
   check-and-parse-issue:
@@ -15,21 +23,22 @@ jobs:
     name: Check And Parse Issue
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout MuXiu1997/GTNH-translation-compare
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v6
         with:
-          repository: MuXiu1997/GTNH-translation-compare
-          ref: main
-      - name: Ensure Dependencies
-        uses: ./.github/actions/ensure-dependencies
+          sparse-checkout: .github/scripts
+
+      - name: Setup Bun
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
+
       - name: Run Script
         id: check-and-parse-issue
         env:
           GITHUB_ISSUE: ${{ toJSON(github.event.issue) }}
-          VALID_LABEL: 自动化:paratranz→questbook
-          VALID_USER: ${{ github.repository_owner }}
+          VALID_LABEL: ${{ env.VALID_LABEL }}
+          VALID_USER: ${{ env.VALID_USER }}
         run: |
-          poetry run python main.py parse-issue paratranz-to-quest-book
+          bun run -i .github/scripts/parse-issue.ts paratranz-to-quest-book
     outputs:
       passed: ${{ steps.check-and-parse-issue.outputs.passed }}
       branch: ${{ steps.check-and-parse-issue.outputs.branch }}
@@ -52,23 +61,26 @@ jobs:
     if: ${{ needs.check-and-parse-issue.outputs.passed == 'true' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout MuXiu1997/GTNH-translation-compare
-        uses: actions/checkout@v3
-        with:
-          repository: MuXiu1997/GTNH-translation-compare
-          ref: main
-      - name: Ensure Dependencies
-        uses: ./.github/actions/ensure-dependencies
+      - name: Setup Compare Repo
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
+
       - name: Checkout Work Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           ref: ${{ needs.check-and-parse-issue.outputs.branch }}
-          path: '.repo'
+          path: ${{ env.REPO_PATH }}
+          persist-credentials: false
+
+      - name: Setup Bun
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
+
       - name: Run Script
         run: >-
-          poetry run python main.py action paratranz-to-quest-book
-          --repo-path='.repo'
+          bun run src/index.ts from-paratranz:quest-book
+          --repo-path='${{ env.REPO_PATH }}'
           --issue='${{ github.event.issue.number }}'
+          --message='[自动化] 更新 任务书'
+
       - name: Create PR
         uses: peter-evans/create-pull-request@v4.0.0
         with:
@@ -79,5 +91,7 @@ jobs:
             - 由 #${{ github.event.issue.number }} 触发
           base: ${{ needs.check-and-parse-issue.outputs.branch }}
           branch: automation/compare/${{ github.event.issue.number }}
-          path: '.repo'
+          path: ${{ env.REPO_PATH }}
           delete-branch: true
+          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
