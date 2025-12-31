@@ -1,0 +1,54 @@
+name: 'Setup Compare Repo'
+description: 'Checkout GTNH-translation-compare and setup ParaTranz cache'
+inputs:
+  repository:
+    description: 'Repository to checkout'
+    required: false
+    default: 'MuXiu1997/GTNH-translation-compare'
+  ref:
+    description: 'Repository ref'
+    required: false
+    default: 'next'
+  path:
+    description: 'Path to checkout'
+    required: false
+    default: '.'
+  paratranz-cache-dir:
+    description: 'Directory for ParaTranz cache (empty for auto temp dir)'
+    required: false
+    default: ''
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Export Absolute Cache Path
+      shell: /usr/local/bin/node {0}
+      env:
+        INPUT_CACHE_DIR: ${{ inputs.paratranz-cache-dir }}
+      run: |
+        const path = require('path');
+        const fs = require('fs');
+        let cachePath = process.env.INPUT_CACHE_DIR;
+        if (!cachePath) {
+          cachePath = path.join(process.env.RUNNER_TEMP, 'paratranz-cache');
+        }
+        const absPath = path.resolve(cachePath);
+        if (!fs.existsSync(absPath)) {
+          fs.mkdirSync(absPath, { recursive: true });
+        }
+        fs.appendFileSync(process.env.GITHUB_ENV, `PARATRANZ_CACHE_DIR=${absPath}\n`);
+
+    - name: Checkout MuXiu1997/GTNH-translation-compare
+      uses: actions/checkout@v6
+      with:
+        repository: ${{ inputs.repository }}
+        ref: ${{ inputs.ref }}
+        path: ${{ inputs.path }}
+
+    - name: Cache ParaTranz Files
+      uses: actions/cache@v4
+      with:
+        path: ${{ env.PARATRANZ_CACHE_DIR }}
+        key: paratranz-cache-${{ github.run_id }}
+        restore-keys: |
+          paratranz-cache-
