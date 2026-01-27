@@ -1,9 +1,13 @@
-name: Release
+name: 0. Release
 
 on:
   push:
     tags:
       - '*'
+
+env:
+  REPO_PATH: .repo.local.d
+  ASSETS_PATH: .assets.local.d
 
 jobs:
   release:
@@ -11,32 +15,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
         with:
-          path: repo
-      - uses: actions/setup-python@v3
+          path: ${{ env.REPO_PATH }}
+
+      - name: Build Release Assets
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
         with:
-          python-version: '3.10'
-      - name: Ensure temp dir
-        run: mkdir -p temp
-      - name: Ensure assets dir
-        run: mkdir -p assets
-      - name: Pack
-        run: python repo/.github/scripts/pack.py
-      - name: Zip
-        uses: edgarrc/action-7z@v1
-        with:
-          args: 7z a -t7z -mx=9 ./assets/${{ github.ref_name }}.7z ./temp/*
-      - name: Add NotEnoughCharacters
-        uses: wei/wget@v1
-        with:
-          args: -O assets/NotEnoughCharacters-1.6.1.jar https://github.com/Kiwi233/Translation-of-GTNH/raw/NotEnoughCharacters/NotEnoughCharacters-1.6.1.jar
+          script: release.ts
+        env:
+          ARCHIVE_NAME: ${{ github.ref_name }}.7z
+          NEC_URL: https://raw.githubusercontent.com/Kiwi233/Translation-of-GTNH/NotEnoughCharacters/NotEnoughCharacters-1.6.1.jar
+          NEC_NAME: NotEnoughCharacters-1.6.1.jar
+
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           name: ${{ github.ref_name }} 版本汉化
           body: |
             请阅读主页ReadMe以获知详细用法
-          files: |
-            ./assets/${{ github.ref_name }}.7z
-            ./assets/NotEnoughCharacters-1.6.1.jar
+          files: ${{ env.ASSETS_PATH }}/*

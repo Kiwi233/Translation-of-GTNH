@@ -1,13 +1,15 @@
-name: Quest Book To Paratranz
+name: 1. Quest Book To Paratranz
 
 on:
   issues:
-    types: [ opened ]
+    types: [opened]
 
 env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
-  GIT_AUTHOR: MuXiu1997 <muxiu1997@gmail.com>
+
+  VALID_LABEL: 自动化:questbook→paratranz
+  VALID_USER: ${{ github.repository_owner }}
 
 jobs:
   check-and-parse-issue:
@@ -15,21 +17,16 @@ jobs:
     name: Check And Parse Issue
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout MuXiu1997/GTNH-translation-compare
-        uses: actions/checkout@v3
-        with:
-          repository: MuXiu1997/GTNH-translation-compare
-          ref: main
-      - name: Ensure Dependencies
-        uses: ./.github/actions/ensure-dependencies
       - name: Run Script
         id: check-and-parse-issue
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
+        with:
+          script: parse-issue.ts
+          args: quest-book-to-paratranz
         env:
           GITHUB_ISSUE: ${{ toJSON(github.event.issue) }}
-          VALID_LABEL: 自动化:questbook→paratranz
-          VALID_USER: ${{ github.repository_owner }}
-        run: |
-          poetry run python main.py parse-issue quest-book-to-paratranz
+          VALID_LABEL: ${{ env.VALID_LABEL }}
+          VALID_USER: ${{ env.VALID_USER }}
     outputs:
       passed: ${{ steps.check-and-parse-issue.outputs.passed }}
       commit-sha: ${{ steps.check-and-parse-issue.outputs.commit-sha }}
@@ -52,17 +49,17 @@ jobs:
     if: ${{ needs.check-and-parse-issue.outputs.passed == 'true' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout MuXiu1997/GTNH-translation-compare
-        uses: actions/checkout@v3
-        with:
-          repository: MuXiu1997/GTNH-translation-compare
-          ref: main
-      - name: Ensure Dependencies
-        uses: ./.github/actions/ensure-dependencies
+      - name: Setup Compare Repo
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
+
+      - name: Setup Bun
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
+
       - name: Run Script
         run: >-
-          poetry run python main.py action quest-book-to-paratranz
+          bun run src/index.ts to-paratranz:quest-book
           --commit-sha='${{ needs.check-and-parse-issue.outputs.commit-sha }}'
+
       - name: Close Issue
         uses: peter-evans/close-issue@v2.0.0
         with:

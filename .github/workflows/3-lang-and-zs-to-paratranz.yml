@@ -1,13 +1,17 @@
-name: Lang And Zs To Paratranz
+name: 3. Lang And Zs To Paratranz
 
 on:
   issues:
-    types: [ opened ]
+    types: [opened]
 
 env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
-  GIT_AUTHOR: Kiwi233 <huaxia0611@qq.com>
+
+  VALID_LABEL: 自动化:lang+zs→paratranz
+  VALID_USER: ${{ github.repository_owner }}
+
+  MODPACK_PATH: .modpack.local.d
 
 jobs:
   check-and-parse-issue:
@@ -15,21 +19,16 @@ jobs:
     name: Check And Parse Issue
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Kiwi233/GTNH-translation-compare
-        uses: actions/checkout@v3
-        with:
-          repository: Kiwi233/GTNH-translation-compare
-          ref: main
-      - name: Ensure Dependencies
-        uses: ./.github/actions/ensure-dependencies
       - name: Run Script
         id: check-and-parse-issue
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
+        with:
+          script: parse-issue.ts
+          args: lang-and-zs-to-paratranz
         env:
           GITHUB_ISSUE: ${{ toJSON(github.event.issue) }}
-          VALID_LABEL: 自动化:lang+zs→paratranz
-          VALID_USER: ${{ github.repository_owner }}
-        run: |
-          poetry run python main.py parse-issue lang-and-zs-to-paratranz
+          VALID_LABEL: ${{ env.VALID_LABEL }}
+          VALID_USER: ${{ env.VALID_USER }}
     outputs:
       passed: ${{ steps.check-and-parse-issue.outputs.passed }}
       modpack-url: ${{ steps.check-and-parse-issue.outputs.modpack-url }}
@@ -52,26 +51,23 @@ jobs:
     if: ${{ needs.check-and-parse-issue.outputs.passed == 'true' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Kiwi233/GTNH-translation-compare
-        uses: actions/checkout@v3
-        with:
-          repository: Kiwi233/GTNH-translation-compare
-          ref: main
-      - name: Ensure Dependencies
-        uses: ./.github/actions/ensure-dependencies
-      - name: Ensure .temp
-        run: mkdir -p .temp
+      - name: Setup Compare Repo
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
+
+      - name: Setup Bun
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
+
       - name: Ensure Modpack
-        id: ensure--modpack
-        uses: ./.github/actions/ensure-modpack
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/ensure-modpack@master
         with:
-          dir: .temp
           url: ${{ needs.check-and-parse-issue.outputs.modpack-url }}
-          name: modpack
+          root: ${{ env.MODPACK_PATH }}
+
       - name: Run Script
         run: >-
-          poetry run python main.py action lang-and-zs-to-paratranz
-          --modpack-path='.temp/modpack'
+          bun run src/index.ts to-paratranz:lang-zs
+          --modpack-path='${{ env.MODPACK_PATH }}'
+
       - name: Close Issue
         uses: peter-evans/close-issue@v2.0.0
         with:

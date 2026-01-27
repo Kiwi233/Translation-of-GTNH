@@ -1,0 +1,49 @@
+name: 'Ensure Modpack'
+description: 'Download, extract and cache a GTNH modpack'
+inputs:
+  url:
+    description: 'The URL of the modpack zip'
+    required: true
+  root:
+    description: 'The target directory for the modpack content'
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Check if Bun is installed
+      id: check-bun
+      shell: bash
+      run: |
+        if command -v bun >/dev/null 2>&1; then
+          echo "exists=true" >> $GITHUB_OUTPUT
+        else
+          echo "exists=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Setup Bun
+      if: steps.check-bun.outputs.exists != 'true'
+      uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
+
+    - name: Restore Modpack Cache
+      id: cache
+      uses: actions/cache/restore@v4
+      with:
+        path: ${{ inputs.root }}
+        key: modpack-${{ inputs.url }}
+
+    - name: Run ensure-modpack.ts
+      if: steps.cache.outputs.cache-hit != 'true'
+      shell: bash
+      env:
+        MODPACK_URL: ${{ inputs.url }}
+        MODPACK_ROOT: ${{ inputs.root }}
+      run: bun run ${{ github.action_path }}/ensure-modpack.ts
+
+    - name: Save Modpack Cache
+      if: always() && steps.cache.outputs.cache-hit != 'true' && hashFiles(inputs.root) != ''
+      uses: actions/cache/save@v4
+      with:
+        path: ${{ inputs.root }}
+        key: modpack-${{ inputs.url }}
+

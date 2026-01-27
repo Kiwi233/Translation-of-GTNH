@@ -1,4 +1,4 @@
-name: Nightly Build
+name: 0. Nightly Build
 
 on:
   workflow_dispatch:
@@ -9,67 +9,56 @@ on:
 env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
-  GIT_AUTHOR: MuXiu1997 <muxiu1997@gmail.com>
+
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  REPO_PATH: .repo.local.d
+  ASSETS_PATH: .assets.local.d
 
 jobs:
   nightly-build:
     name: Nightly Build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout MuXiu1997/GTNH-translation-compare
-        uses: actions/checkout@v3
-        with:
-          repository: MuXiu1997/GTNH-translation-compare
-          ref: main
-      - name: Ensure Dependencies
-        uses: ./.github/actions/ensure-dependencies
+      - name: Setup Compare Repo
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
+
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
-          path: repo
+          path: ${{ env.REPO_PATH }}
+
+      - name: Setup Bun
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
 
       - name: Setup Datetime Related Envs
-        shell: python
-        run: |
-          import os
-          from datetime import datetime, timezone, timedelta
-          local_date = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
-          local_time = datetime.now(timezone(timedelta(hours=8))).strftime("%H:%M:%S")
-          with open(os.environ['GITHUB_ENV'], 'a') as f:
-              print(f'NB_LOCAL_DATE={local_date}', file=f)
-              print(f'NB_LOCAL_TIME={local_time}', file=f)
-              print(f'NB_TAG=0-nightly-build/{local_date}', file=f)
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
+        with:
+          script: setup-nightly-build-datetime-envs.ts
 
       - name: ParaTranz To Quest Book
         run: >-
-          poetry run python main.py action paratranz-to-quest-book
-          --repo-path='repo'
+          bun run src/index.ts from-paratranz:quest-book
+          --repo-path='${{ env.REPO_PATH }}'
       - name: ParaTranz To Lang And zs
         run: >-
-          poetry run python main.py action paratranz-to-lang-and-zs
-          --repo-path='repo'
+          bun run src/index.ts from-paratranz:lang-zs
+          --repo-path='${{ env.REPO_PATH }}'
       - name: ParaTranz To GT Lang
         run: >-
-          poetry run python main.py action paratranz-to-gt-lang
-          --repo-path='repo'
+          bun run src/index.ts from-paratranz:gt-lang
+          --repo-path='${{ env.REPO_PATH }}'
 
-      - name: Ensure Temp Dir
-        run: mkdir -p temp
-      - name: Ensure Assets Dir
-        run: mkdir -p assets
-
-      - name: Pack
-        run: |
-          python repo/.github/scripts/pack.py
-          rm temp/GregTech_US.lang
-
-      - name: Zip
-        uses: edgarrc/action-7z@v1
+      - name: Build Nightly Assets
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
         with:
-          args: 7z a -t7z -mx=9 ./repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z ./temp/*
+          script: release.ts
+        env:
+          IS_NIGHTLY_BUILD: 'true'
+          ARCHIVE_NAME: nightly-${{ env.NB_LOCAL_DATE }}.7z
+
       - name: Push tag
-        working-directory: repo
+        working-directory: ${{ env.REPO_PATH }}
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
@@ -86,45 +75,20 @@ jobs:
           name: 每日构建 - ${{ env.NB_LOCAL_DATE }}
           body: |
             请阅读主页ReadMe以获知详细用法
-            
+
             自动构建于 ${{ env.NB_LOCAL_DATE }} ${{ env.NB_LOCAL_TIME }}
-          files: |
-            ./repo/assets/nightly-${{ env.NB_LOCAL_DATE }}.7z
+          files: ${{ env.ASSETS_PATH }}/*
 
   cleanup-outdated-nightly-builds:
     name: Cleanup Outdated Nightly Builds
     runs-on: ubuntu-latest
     steps:
       - name: Setup Datetime Related Envs
-        shell: python
-        run: |
-          import os
-          from datetime import datetime, timezone, timedelta
-          local_date = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
-          local_time = datetime.now(timezone(timedelta(hours=8))).strftime("%H:%M:%S")
-          with open(os.environ['GITHUB_ENV'], 'a') as f:
-              print(f'NB_LOCAL_DATE={local_date}', file=f)
-              print(f'NB_LOCAL_TIME={local_time}', file=f)
-              print(f'NB_TAG=0-nightly-build/{local_date}', file=f)
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
+        with:
+          script: setup-nightly-build-datetime-envs.ts
 
       - name: Cleanup Outdated Nightly Builds
-        uses: MuXiu1997/run-zx@v0.2.1
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
         with:
-          # language=javascript
-          script: |
-            import * as core from '@actions/core'
-            
-            const repo = '${{ github.repository }}'
-            const listReleases = await $`gh release list --repo ${repo}`
-            const tags = listReleases.stdout.trim().split('\n')
-                .map(r => r.split('\t')[2])
-                .filter(t => t.startsWith('0-nightly-build'))
-                .filter(t => t !== '${{ env.NB_TAG }}')
-            const tagsToDelete = [...new Set(tags)].sort().slice(0, -2)
-            
-            core.info(`Tags to delete: [${tagsToDelete.join(', ')}]`)
-            
-            for (const tag of tagsToDelete) {
-                await $`gh release delete ${tag} --repo ${repo} --yes`
-            }
-              
+          script: cleanup-nightly-builds.ts

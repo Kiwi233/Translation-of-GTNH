@@ -1,0 +1,81 @@
+name: 'Setup Bun'
+description: 'Setup Bun, handle caching, and optionally install dependencies'
+inputs:
+  bun-version:
+    description: 'Version of Bun to use'
+    required: false
+    default: '1.3.5'
+  cache-dir:
+    description: 'Directory for Bun install cache (empty for auto temp dir)'
+    required: false
+    default: ''
+  install:
+    description: 'Whether to run bun install if package.json exists'
+    required: false
+    default: 'true'
+  working-directory:
+    description: 'Working directory'
+    required: false
+    default: '.'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Export Absolute Paths
+      id: resolve
+      shell: /usr/local/bin/node {0}
+      env:
+        INPUT_CACHE_DIR: ${{ inputs.cache-dir }}
+        INPUT_WORKING_DIR: ${{ inputs.working-directory }}
+      run: |
+        const path = require('path');
+        const fs = require('fs');
+        let cachePath = process.env.INPUT_CACHE_DIR;
+        if (!cachePath) {
+          cachePath = path.join(process.env.RUNNER_TEMP, 'bun-install-cache');
+        }
+        const absCachePath = path.resolve(cachePath);
+        if (!fs.existsSync(absCachePath)) {
+          fs.mkdirSync(absCachePath, { recursive: true });
+        }
+        const absWorkingDir = path.resolve(process.env.INPUT_WORKING_DIR);
+        fs.appendFileSync(process.env.GITHUB_ENV, `BUN_INSTALL_CACHE_DIR=${absCachePath}\n`);
+        fs.appendFileSync(process.env.GITHUB_OUTPUT, `working-directory=${absWorkingDir}\n`);
+
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v2
+      with:
+        bun-version: ${{ inputs.bun-version }}
+
+    - name: Setup Bun Global Module Cache
+      uses: actions/cache@v4
+      with:
+        path: ${{ env.BUN_INSTALL_CACHE_DIR }}
+        key: bun-install-cache--${{ github.job }}--${{ runner.os }}--${{ hashFiles(format('{0}/bun.lockb', inputs.working-directory), format('{0}/package.json', inputs.working-directory)) }}
+        restore-keys: |
+          bun-install-cache--${{ github.job }}--${{ runner.os }}--
+
+    - name: Install Dependencies
+      if: ${{ inputs.install == 'true' }}
+      shell: /usr/local/bin/node {0}
+      env:
+        RESOLVED_WORKING_DIRECTORY: ${{ steps.resolve.outputs.working-directory }}
+      run: |
+        const path = require('path');
+        const fs = require('fs');
+        const { spawnSync } = require('child_process');
+        const workingDir = process.env.RESOLVED_WORKING_DIRECTORY;
+        const pkgJsonPath = path.join(workingDir, 'package.json');
+        if (fs.existsSync(pkgJsonPath)) {
+          console.log(`Found package.json in ${workingDir}, running bun install...`);
+          const result = spawnSync('bun', ['install', '--frozen-lockfile'], {
+            cwd: workingDir,
+            stdio: 'inherit',
+            shell: true
+          });
+          if (result.status !== 0) {
+            process.exit(result.status || 1);
+          }
+        } else {
+          console.log(`No package.json found in ${workingDir}, skipping bun install.`);
+        }
