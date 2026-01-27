@@ -392,6 +392,8 @@ gui.tooltips.appliedenergistics2.Encode=编码样板
 gui.tooltips.appliedenergistics2.EncodeDescription=将输入的样板写入当前编码样板或可用的空样板;按住Shift使样板直接进入物品栏;按住Ctrl+Shift以编码整组样板.
 
 gui.tooltips.appliedenergistics2.FuzzyMode=模糊对比
+gui.tooltips.appliedenergistics2.FZPercent_1=Split Damage at 1%
+gui.tooltips.appliedenergistics2.FZPercent_10=Split Damage at 10%
 gui.tooltips.appliedenergistics2.FZPercent_25=以25%耐久为阈值划分
 gui.tooltips.appliedenergistics2.FZPercent_50=以50%耐久为阈值划分
 gui.tooltips.appliedenergistics2.FZPercent_75=以75%耐久为阈值划分
@@ -650,6 +652,9 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=因没有红石�
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=因红石信号而被锁定
 waila.appliedenergistics2.CraftingLockedUntilPulse=等待红石脉冲以解锁
 waila.appliedenergistics2.CraftingLockedUntilResult=等待合成产物以解锁
+
+# Baubles Extended
+slot.Terminal=§aTerminal§7
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=§61k§r-ME存储元件
