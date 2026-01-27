@@ -32,3 +32,37 @@ bettermodlist.sort.a_to_z=A-Z
 bettermodlist.sort.z_to_a=Z-A
 bettermodlist.gui.modlistinfo1=哦天哪一切都不一样了!
 bettermodlist.gui.modlistinfo2=全新的设计来自于:
+
+hodgepodge.debug.advanced_tooltips.enabled=Advanced Item Tooltips: §aOn
+hodgepodge.debug.advanced_tooltips.disabled=Advanced Item Tooltips: §cOff
+hodgepodge.debug.hitboxes.enabled=Hitboxes: §aOn
+hodgepodge.debug.hitboxes.disabled=Hitboxes: §cOff
+hodgepodge.debug.pause_focus.enabled=Pause on lost focus: §aOn
+hodgepodge.debug.pause_focus.disabled=Pause on lost focus: §cOff
+hodgepodge.debug.reload_chunks.message=Reloaded all chunks.
+hodgepodge.debug.reload_pack.message=Reloaded resource packs in %s seconds.
+hodgepodge.debug.crash.count.0=F3 + C is held down. This will crash the game in 6 seconds unless released.
+hodgepodge.debug.crash.count.1=Crashing in 5...
+hodgepodge.debug.crash.count.2=Crashing in 4...
+hodgepodge.debug.crash.count.3=Crashing in 3...
+hodgepodge.debug.crash.count.4=Crashing in 2...
+hodgepodge.debug.crash.count.5=Crashing in 1...
+hodgepodge.debug.crash.count.6=Time is over, game will crash when release ANY key.
+hodgepodge.debug.crash.cancel=Crash canceled.
+hodgepodge.debug.copy_location.message=Copied location to clipboard.
+
+hodgepodge.debug.help.message=Key bindings:
+hodgepodge.debug.help.0=F3 = Open Debug Screen
+hodgepodge.debug.help.1=Shift + F3 = Open Debug Screen and show Profiler graph
+hodgepodge.debug.help.angelica=Alt + F3 = [Angelica] Open Debug Screen and show FPS/TPS graph
+hodgepodge.debug.help.2=F3 + A = Reload chunks
+hodgepodge.debug.help.3=F3 + B = Show hitboxes
+hodgepodge.debug.help.4=F3 + C = Copy location as /cofh tpx command, or hold for 6 seconds to crash the game
+hodgepodge.debug.help.5=F3 + D = [Hodgepodge] Clear chat
+hodgepodge.debug.help.6=F3 + H = Advanced tooltips
+hodgepodge.debug.help.7=F3 + P = Pause on lost focus
+hodgepodge.debug.help.8=F3 + Q = [Hodgepodge] Show this list
+hodgepodge.debug.help.9=F3 + S/T = Reload resource packs
+hodgepodge.debug.help.etfuturum=F3 + F4 = [Et-Futurum-Requiem] Open game mode switcher
+hodgepodge.debug.help.nei.1=%s = [NEI] Open Mob Spawning Overlay
+hodgepodge.debug.help.nei.2=%s = [NEI] Open Chunk Overlay
