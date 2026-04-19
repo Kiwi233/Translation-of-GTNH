@@ -1,5 +1,5 @@
 import { cp, mkdir, mkdtemp, rm } from 'node:fs/promises'
-import { dirname, join, resolve } from 'node:path'
+import { basename, dirname, join, resolve } from 'node:path'
 import { tmpdir } from 'node:os'
 import { existsSync } from 'node:fs'
 import { Glob } from 'bun'
@@ -9,6 +9,120 @@ import { consola } from 'consola@3.4.2'
 import download from 'download@8.0.0'
 
 const SevenZip = _SevenZip as unknown as SevenZipModuleFactory
+
+type GitHubArtifactInfo = {
+  owner: string
+  repo: string
+  artifactId: string
+}
+
+function parseGitHubArtifactUrl(rawUrl: string): GitHubArtifactInfo | null {
+  let parsed: URL
+  try {
+    parsed = new URL(rawUrl)
+  } catch {
+    return null
+  }
+
+  if (parsed.hostname !== 'github.com') {
+    return null
+  }
+
+  const segments = parsed.pathname.split('/').filter(Boolean)
+  if (segments.length < 6) {
+    return null
+  }
+
+  const [owner, repo] = segments
+  const artifactIndex = segments.lastIndexOf('artifacts')
+
+  if (!owner || !repo || artifactIndex === -1 || artifactIndex + 1 >= segments.length) {
+    return null
+  }
+
+  const artifactId = segments[artifactIndex + 1]
+  if (!/^\d+$/.test(artifactId)) {
+    return null
+  }
+
+  return { owner, repo, artifactId }
+}
+
+function getGitHubToken(): string | null {
+  const candidates = [
+    Bun.env.GITHUB_TOKEN,
+    Bun.env.GH_TOKEN,
+    Bun.env.GITHUB_PAT,
+  ]
+
+  for (const value of candidates) {
+    if (value && value.trim().length > 0) {
+      return value.trim()
+    }
+  }
+
+  return null
+}
+
+async function extractArchive(
+  sevenZip: Awaited<ReturnType<SevenZipModuleFactory>>,
+  archivePath: string,
+  outputDir: string,
+  mountTag: string,
+): Promise<void> {
+  const archiveDir = dirname(archivePath)
+  const archiveFile = basename(archivePath)
+  const inTag = `/${mountTag}_in`
+  const outTag = `/${mountTag}_out`
+
+  sevenZip.FS.mkdir(inTag)
+  sevenZip.FS.mkdir(outTag)
+  sevenZip.FS.mount(sevenZip.NODEFS, { root: archiveDir }, inTag)
+  sevenZip.FS.mount(sevenZip.NODEFS, { root: outputDir }, outTag)
+
+  const result = sevenZip.callMain([
+    'x',
+    join(inTag, archiveFile),
+    `-o${outTag}`,
+    '-y',
+  ]) as unknown as number
+
+  if (result !== 0) {
+    throw new Error(`解压失败，返回码: ${result}`)
+  }
+}
+
+async function resolveGitHubArtifactDownloadUrl(artifactInfo: GitHubArtifactInfo): Promise<string> {
+  const token = getGitHubToken()
+  if (!token) {
+    throw new Error('检测到 GitHub Actions artifact 链接，但未找到令牌。请设置环境变量 GITHUB_TOKEN 或 GH_TOKEN。')
+  }
+
+  consola.info(`检测到 GitHub artifact，正在获取下载地址: ${artifactInfo.owner}/${artifactInfo.repo}#${artifactInfo.artifactId}`)
+
+  // GitHub API returns a 302 redirect to a signed storage URL.
+  // We must NOT forward the Authorization header to the storage backend,
+  // otherwise Azure/S3 returns 401. So we resolve the redirect manually first.
+  const apiUrl = `https://api.github.com/repos/${artifactInfo.owner}/${artifactInfo.repo}/actions/artifacts/${artifactInfo.artifactId}/zip`
+  const redirectRes = await fetch(apiUrl, {
+    method: 'GET',
+    redirect: 'manual',
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Accept: 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28',
+      'User-Agent': 'ensure-modpack-script',
+    },
+  })
+
+  const location = redirectRes.headers.get('location')
+  if (!location) {
+    throw new Error(`GitHub API 未返回重定向地址，状态码: ${redirectRes.status}`)
+  }
+
+  consola.info('已获取签名下载地址，开始下载...')
+  return location
+}
 
 async function findModpackRoot(searchDir: string): Promise<string | null> {
   if (!existsSync(searchDir)) {
@@ -58,7 +172,15 @@ async function main() {
 
   try {
     consola.start(`正在下载模组包: ${url}`)
-    const downloadTask = download(url, downloadDir, { filename: archiveName })
+
+    const artifactInfo = parseGitHubArtifactUrl(url)
+    const downloadUrl = artifactInfo
+      ? await resolveGitHubArtifactDownloadUrl(artifactInfo)
+      : url
+
+    const downloadTask = download(downloadUrl, downloadDir, {
+      filename: archiveName,
+    })
 
     let lastPercentage = -1
     downloadTask.on('downloadProgress', (progress) => {
@@ -75,27 +197,38 @@ async function main() {
     consola.start('正在解压模组包...')
     const sevenZip = await SevenZip()
 
-    sevenZip.FS.mkdir('/archive_dir')
-    sevenZip.FS.mkdir('/output_dir')
-
-    sevenZip.FS.mount(sevenZip.NODEFS, { root: downloadDir }, '/archive_dir')
-    sevenZip.FS.mount(sevenZip.NODEFS, { root: extractDir }, '/output_dir')
-
-    const result = sevenZip.callMain([
-      'x',
-      join('/archive_dir', archiveName),
-      '-o/output_dir',
-      '-y',
-    ]) as unknown as number
-
-    if (result !== 0) {
-      consola.error(`解压失败，返回码: ${result}`)
-      process.exit(1)
-    }
-
+    await extractArchive(sevenZip, archivePath, extractDir, 'archive')
     consola.success(`解压完成到临时目录: ${extractDir}`)
 
-    const foundRoot = await findModpackRoot(extractDir)
+    let modpackSearchDir = extractDir
+
+    if (artifactInfo) {
+      // Artifact zip contains the actual modpack zip inside — need a second extraction
+      consola.start('正在查找 artifact 内层 zip 文件...')
+      const innerZipGlob = new Glob('**/*.zip')
+      let innerZipPath: string | null = null
+      for await (const file of innerZipGlob.scan({ cwd: extractDir, dot: true })) {
+        innerZipPath = join(extractDir, file)
+        break
+      }
+
+      if (!innerZipPath) {
+        consola.error('在 artifact 解压结果中未找到内层 zip 文件')
+        process.exit(1)
+      }
+
+      consola.success(`找到内层 zip: ${innerZipPath}`)
+      consola.start('正在解压内层 zip...')
+
+      const innerExtractDir = join(tempWorkspace, 'inner_extract')
+      await mkdir(innerExtractDir, { recursive: true })
+
+      await extractArchive(sevenZip, innerZipPath, innerExtractDir, 'inner_archive')
+      consola.success(`内层 zip 解压完成到: ${innerExtractDir}`)
+      modpackSearchDir = innerExtractDir
+    }
+
+    const foundRoot = await findModpackRoot(modpackSearchDir)
 
     if (foundRoot) {
       consola.success(`找到模组包根目录: ${foundRoot}`)
