@@ -22,6 +22,12 @@ outputs:
   modpack-url:
     description: 'Extracted modpack URL (for parse-issue.ts)'
     value: ${{ steps.run-script.outputs.modpack-url }}
+  modpack-run-url:
+    description: 'Extracted GitHub Actions run URL (for parse-issue.ts)'
+    value: ${{ steps.run-script.outputs.modpack-run-url }}
+  modpack-artifact-name:
+    description: 'Extracted artifact name pattern (for parse-issue.ts)'
+    value: ${{ steps.run-script.outputs.modpack-artifact-name }}
   gt-lang-url:
     description: 'Extracted GT lang URL (for parse-issue.ts)'
     value: ${{ steps.run-script.outputs.gt-lang-url }}

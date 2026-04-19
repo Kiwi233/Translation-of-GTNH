@@ -32,6 +32,8 @@ jobs:
     outputs:
       passed: ${{ steps.check-and-parse-issue.outputs.passed }}
       modpack-url: ${{ steps.check-and-parse-issue.outputs.modpack-url }}
+      modpack-run-url: ${{ steps.check-and-parse-issue.outputs.modpack-run-url }}
+      modpack-artifact-name: ${{ steps.check-and-parse-issue.outputs.modpack-artifact-name }}
 
   close-issue:
     name: Close Issue
@@ -61,6 +63,8 @@ jobs:
         uses: Kiwi233/Translation-of-GTNH/.github/actions/ensure-modpack@master
         with:
           url: ${{ needs.check-and-parse-issue.outputs.modpack-url }}
+          run-url: ${{ needs.check-and-parse-issue.outputs.modpack-run-url }}
+          artifact-name: ${{ needs.check-and-parse-issue.outputs.modpack-artifact-name }}
           root: ${{ env.MODPACK_PATH }}
 
       - name: Run Script
