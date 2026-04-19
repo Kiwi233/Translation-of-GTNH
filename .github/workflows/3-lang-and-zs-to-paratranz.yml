@@ -67,6 +67,8 @@ jobs:
         run: >-
           bun run src/index.ts to-paratranz:lang-zs
           --modpack-path='${{ env.MODPACK_PATH }}'
+          --extra-lang="config/amazingtrophies/lang/en_US.lang"
+          --extra-lang="config/txloader/**/en_US.lang"
 
       - name: Close Issue
         uses: peter-evans/close-issue@v2.0.0
