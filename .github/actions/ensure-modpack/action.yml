@@ -12,7 +12,7 @@ inputs:
   artifact-name:
     description: 'Artifact name pattern (glob) to download from the run (only used with run-url)'
     required: false
-    default: '*mmcprism-java8*'
+    default: '*mmcprism-new-java*'
   root:
     description: 'The target directory for the modpack content'
     required: true
