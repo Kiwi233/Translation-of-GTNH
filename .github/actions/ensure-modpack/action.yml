@@ -38,6 +38,7 @@ runs:
       env:
         MODPACK_URL: ${{ inputs.url }}
         MODPACK_ROOT: ${{ inputs.root }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: bun run ${{ github.action_path }}/ensure-modpack.ts
 
     - name: Save Modpack Cache
