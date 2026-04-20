@@ -69,7 +69,7 @@ export class GTLangNewlineRule implements NewlineRule {
 
 export class LangNewlineRule implements NewlineRule {
   match = (relpath: string): boolean => {
-    return relpath.endsWith('.lang')
+    return relpath.endsWith('.lang') && !relpath.endsWith('GregTech.lang')
   }
 
   toParatranz = (text: string): string => {
