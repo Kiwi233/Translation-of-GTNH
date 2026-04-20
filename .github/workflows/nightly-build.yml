@@ -31,6 +31,11 @@ jobs:
       - name: Setup Bun
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
 
+      - name: Patch Compare Scripts
+        run: |
+          cp ${{ env.REPO_PATH }}/.github/gtnh-compare-patches/rules.ts src/paratranz/converter/rules.ts
+          cp ${{ env.REPO_PATH }}/.github/gtnh-compare-patches/converter-index.ts src/paratranz/converter/index.ts
+
       - name: Setup Datetime Related Envs
         uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
         with:
