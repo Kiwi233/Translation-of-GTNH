@@ -58,6 +58,8 @@ jobs:
           --extra-lang='config/**/en_US.lang'
 
       # Step 2: Copy latest Chinese translations from PT 4964 → PT 18818
+      # 直接运行本仓库的脚本，而非通过外部 run-script action，
+      # 因为 sync-translations-to-project.ts 是本 fork 新增的脚本，不存在于上游 Kiwi233 的 run-script action 中。
       - name: Copy Translations From Main PT Project (4964 → 18818)
         run: bun run -i ${{ env.REPO_PATH }}/.github/actions/run-script/scripts/sync-translations-to-project.ts
         env:

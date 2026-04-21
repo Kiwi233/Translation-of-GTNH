@@ -42,6 +42,8 @@ jobs:
           cp ${{ env.REPO_PATH }}/.github/gtnh-compare-patches/converter-index.ts src/paratranz/converter/index.ts
 
       - name: Lang And Zs To Paratranz (from daily-history)
+        # resources/**/en_US.lang → 所有 Mod 的英文 lang 文件（由上游从 jar 中提取）
+        # config/**/en_US.lang    → 任务书等 config 目录下的英文 lang 文件
         run: >-
           bun run src/index.ts to-paratranz:lang-zs
           --modpack-path='${{ env.DAILY_HISTORY_PATH }}'

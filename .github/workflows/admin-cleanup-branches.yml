@@ -1,0 +1,74 @@
+name: Admin - Cleanup Old Branches
+
+# 一次性手动工作流：删除所有旧版本分支，仅保留 master 作为唯一主线。
+# 历史版本记录通过 Tags + Releases 保存，不需要 release/* 分支。
+#
+# 运行前请先确认：
+#   - 本 PR 已合并到 master
+#   - master 已是最新代码
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: '演习模式：只列出待删除分支，不实际删除'
+        required: false
+        default: 'true'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    name: Cleanup Old Branches
+    runs-on: ubuntu-latest
+    steps:
+      - name: List & Delete Old Branches
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+            const dryRun = ${{ inputs.dry-run }};
+
+            // 获取全部分支（分页）
+            let branches = [];
+            let page = 1;
+            while (true) {
+              const { data } = await github.rest.repos.listBranches({ owner, repo, per_page: 100, page });
+              branches.push(...data.map(b => b.name));
+              if (data.length < 100) break;
+              page++;
+            }
+
+            // 保留名单：永远不删除的分支
+            const KEEP = new Set(['master', 'main', 'NotEnoughCharacters']);
+
+            // 删除规则：release/*, skip/*, 2.x.x 数字版本分支, 旧 copilot/* 分支
+            const toDelete = branches.filter(name => {
+              if (KEEP.has(name)) return false;
+              if (/^release\//.test(name))  return true;
+              if (/^skip\//.test(name))     return true;
+              if (/^\d+\.\d+/.test(name))   return true;   // 纯版本号分支，如 2.7.0
+              return false;
+            });
+
+            core.info(`共找到 ${branches.length} 个分支，待删除 ${toDelete.length} 个：`);
+            for (const name of toDelete) {
+              core.info(`  ${dryRun ? '[DRY-RUN]' : '[DELETE]'} ${name}`);
+              if (!dryRun) {
+                try {
+                  await github.rest.git.deleteRef({ owner, repo, ref: `heads/${name}` });
+                } catch (e) {
+                  core.warning(`删除 ${name} 失败: ${e.message}`);
+                }
+              }
+            }
+
+            if (dryRun) {
+              core.info('演习完成。将 dry-run 设为 false 后重新运行以实际删除。');
+            } else {
+              core.info(`已删除 ${toDelete.length} 个旧版本分支。`);
+            }

@@ -2,7 +2,7 @@
 
 ## GT New Horizons 整合包汉化
 
-本仓库是 [Kiwi233/Translation-of-GTNH](https://github.com/Kiwi233/Translation-of-GTNH) 的 Fork，由 PinkYuDeer 维护。  
+本仓库是 [Kiwi233/Translation-of-GTNH](https://github.com/Kiwi233/Translation-of-GTNH) 的 Fork，由 PinkYuDeer 独立维护（不计划合并回上游）。  
 汉化数据托管于 [ParaTranz 项目 4964](https://paratranz.cn/projects/4964)，欢迎参与翻译。
 
 2026-1-27：2.8.4 版本汉化未审核版本完成。
@@ -30,6 +30,18 @@
 覆盖本地文件时，含魔改版本需覆盖 `scripts/` 目录。若你对整合包有自定义魔改，请慎重选择。
 
 语言文件部分在服务端和客户端均可生效；任务书和魔改部分须安装于服务端。
+
+---
+
+## 分支策略
+
+本仓库使用**单主线**策略：
+
+- **`master`**：唯一长期分支，始终保持最新汉化文件
+- **Tags / Releases**：版本历史通过 Tag 记录，每日构建自动生成 Release
+- 旧版本归档通过本仓库的 [Releases](../../releases) 页面按 Tag 查找；英文原文历史由上游 [GTNewHorizons/GTNH-Translations](https://github.com/GTNewHorizons/GTNH-Translations) 负责保存
+
+> 旧版本 `release/x.x.x` 分支已删除；如需查找历史版本，请在 [Releases](../../releases) 页面按 Tag 查找。
 
 ---
 

@@ -19,6 +19,8 @@ jobs:
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
 
       - name: Gt Lang To Paratranz (from GTNH-Translations daily-history)
+        # 注意：URL 固定指向 GTNewHorizons/GTNH-Translations 的 master 分支。
+        # 若上游改变主分支名称，需同步更新此 URL。
         run: >-
           bun run src/index.ts to-paratranz:gt-lang
           --gt-lang-url='https://raw.githubusercontent.com/GTNewHorizons/GTNH-Translations/master/daily-history/GregTech.lang'

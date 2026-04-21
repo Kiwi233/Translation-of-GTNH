@@ -45,7 +45,9 @@ jobs:
 
       - name: Clear Cache (forced refresh)
         if: ${{ inputs.force-refresh == 'true' }}
-        run: echo '{}' > ${{ env.REPO_PATH }}/.github/data/lang-newline-cache.json
+        run: |
+          mkdir -p ${{ env.REPO_PATH }}/.github/data
+          echo '{}' > ${{ env.REPO_PATH }}/.github/data/lang-newline-cache.json
 
       - name: Sniff Newline Formats
         run: bun run -i ${{ env.REPO_PATH }}/.github/actions/run-script/scripts/sniff-lang-newlines.ts
