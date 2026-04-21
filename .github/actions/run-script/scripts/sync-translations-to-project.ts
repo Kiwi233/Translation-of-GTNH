@@ -63,24 +63,29 @@ interface PtString {
   stage: number
 }
 
-interface PtPagedResponse<T> {
-  total: number
-  page: number
-  pageSize: number
-  results: T[]
+interface PtStringPage {
+  /** Total number of pages (as returned by the Paratranz API). */
+  pageCount: number
+  results: PtString[]
 }
 
-/** Fetch ALL strings for a file, handling pagination. */
+/** Fetch ALL strings for a file, handling pagination.
+ *
+ * The Paratranz `/strings` endpoint returns `{ pageCount, results }`.
+ * `pageCount` is the total number of pages, NOT the total number of strings.
+ * We use `page >= pageCount` as the termination condition, matching the
+ * upstream MuXiu1997/GTNH-translation-compare implementation.
+ */
 async function getAllStrings(projectId: string, fileId: number): Promise<PtString[]> {
   const PAGE_SIZE = 1000
   let page = 1
   const all: PtString[] = []
   while (true) {
-    const data = await apiGet<PtPagedResponse<PtString>>(
+    const data = await apiGet<PtStringPage>(
       `/projects/${projectId}/strings?file=${fileId}&page=${page}&pageSize=${PAGE_SIZE}`,
     )
     all.push(...(data.results ?? []))
-    if (all.length >= data.total)
+    if (page >= data.pageCount)
       break
     page++
   }
@@ -89,9 +94,9 @@ async function getAllStrings(projectId: string, fileId: number): Promise<PtStrin
 
 /** Fetch all files in a project.
  *
- * The Paratranz `/projects/{id}/files` endpoint returns a direct JSON array
- * (not a paginated `{total, results}` envelope like the strings endpoint).
- * We handle both formats defensively.
+ * The Paratranz `/projects/{id}/files` endpoint returns a direct JSON array,
+ * not a paginated envelope. We also handle the paginated `{results:[]}` shape
+ * defensively in case the API changes.
  */
 async function getAllFiles(projectId: string): Promise<PtFile[]> {
   const res = await fetch(`${API_BASE}/projects/${projectId}/files`, { headers })
@@ -101,7 +106,7 @@ async function getAllFiles(projectId: string): Promise<PtFile[]> {
   if (Array.isArray(data))
     return data as PtFile[]
   // Fallback: paginated envelope (future-proof)
-  return ((data as PtPagedResponse<PtFile>).results ?? []) as PtFile[]
+  return (((data as { results?: PtFile[] }).results) ?? [])
 }
 
 // ---------------------------------------------------------------------------
