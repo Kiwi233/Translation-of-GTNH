@@ -11,7 +11,7 @@ export interface NewlineRule {
   /** Conversion when importing to Paratranz (all newline forms -> \n) */
   toParatranz: (text: string) => string
   /** Conversion when exporting from Paratranz (\n -> original placeholder) */
-  fromParatranz: (text: string, originalValue?: string, relpath?: string) => string
+  fromParatranz: (text: string, originalValue?: string, relpath?: string, key?: string) => string
   /** Optional post-processing for the entire file content after assembly */
   postProcess?: (text: string, targetLang: Language) => string
 }
@@ -84,13 +84,13 @@ export class LangNewlineRule implements NewlineRule {
     return text.replaceAll('<BR>', '\n').replaceAll('<br>', '\n').replaceAll('\\n', '\n')
   }
 
-  fromParatranz = (text: string, originalValue?: string, relpath?: string): string => {
+  fromParatranz = (text: string, originalValue?: string, relpath?: string, key?: string): string => {
     if (!text.includes('\n'))
       return text
 
-    // 1. Check the sniffed-newline cache for this file path
-    if (relpath) {
-      const cached = NewlineRules.getCachedFormat(relpath)
+    // 1. Check the sniffed-newline cache for this specific entry (relpath + key)
+    if (relpath && key) {
+      const cached = NewlineRules.getCachedEntryFormat(relpath, key)
       if (cached === '<BR>') return text.replaceAll('\n', '<BR>')
       if (cached === '<br>') return text.replaceAll('\n', '<br>')
       if (cached === '\\n') return text.replaceAll('\n', '\\n')
@@ -109,8 +109,8 @@ export class LangNewlineRule implements NewlineRule {
 }
 
 export class NewlineRules {
-  /** Cache populated by the sniff-lang-newlines workflow: relpath → newline format */
-  private static cache: Map<string, string> = new Map()
+  /** Cache populated by the sniff-lang-newlines workflow: relpath → key → newline format */
+  private static cache: Map<string, Map<string, string>> = new Map()
 
   private static readonly all: NewlineRule[] = [
     new ScriptNewlineRule(),
@@ -121,20 +121,23 @@ export class NewlineRules {
 
   /**
    * Load the sniffed newline-format cache from a JSON file.
-   * Expected format: { "resources/SomeMod[id]/lang/zh_CN.lang": "<br>", ... }
+   * Expected format: { "resources/SomeMod[id]/lang/zh_CN.lang": { "key": "<BR>", ... }, ... }
    */
   static loadCache(cachePath: string): void {
     try {
       const data = JSON.parse(readFileSync(cachePath, 'utf8'))
-      this.cache = new Map(Object.entries(data))
+      this.cache = new Map(
+        Object.entries(data as Record<string, Record<string, string>>)
+          .map(([relpath, entries]) => [relpath, new Map(Object.entries(entries))]),
+      )
     }
     catch {
       // Cache file not present or unreadable – fall back to per-entry detection
     }
   }
 
-  static getCachedFormat(relpath: string): string | undefined {
-    return this.cache.get(relpath)
+  static getCachedEntryFormat(relpath: string, key: string): string | undefined {
+    return this.cache.get(relpath)?.get(key)
   }
 
   static find(relpath: string): NewlineRule | undefined {

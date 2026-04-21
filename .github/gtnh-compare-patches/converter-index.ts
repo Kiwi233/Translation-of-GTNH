@@ -59,7 +59,7 @@ export class Converter {
       if (translation) {
         if (newlineRule) {
           const originalValue = originalContent.slice(prop.start, prop.end).join('')
-          translation = newlineRule.fromParatranz(translation, originalValue, fileExtra.targetRelpath)
+          translation = newlineRule.fromParatranz(translation, originalValue, fileExtra.targetRelpath, key)
         }
         result.push(...translation)
       }

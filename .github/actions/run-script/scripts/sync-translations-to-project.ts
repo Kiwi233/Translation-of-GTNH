@@ -50,6 +50,15 @@ async function apiPut<T = unknown>(path: string, body: unknown): Promise<T> {
   return res.json() as Promise<T>
 }
 
+/**
+ * Normalize all newline-placeholder forms to the PT-native \n so that PT 18818
+ * only ever stores clean \n-delimited translations regardless of the format used
+ * in the source project.
+ */
+function normalizeNewlines(s: string): string {
+  return s.replaceAll('<BR>', '\n').replaceAll('<br>', '\n').replaceAll('\\n', '\n')
+}
+
 interface PtFile {
   id: number
   name: string
@@ -194,13 +203,15 @@ for (const sourceFile of sourceFiles) {
 
   // Only update strings that already exist in the target and whose translation/stage differs.
   // Strings absent from the target cannot be updated via PUT /strings (they need file upload).
+  // Normalize newline placeholders before comparing so that format-only differences between
+  // the two projects (e.g., <BR> vs \n) don't trigger spurious updates.
   const changed = sourceStrings.filter((s) => {
     if (!s.translation || s.stage < 1)
       return false
     const current = targetByKey.get(s.key)
     if (!current)
       return false
-    return current.translation !== s.translation || current.stage !== s.stage
+    return normalizeNewlines(current.translation) !== normalizeNewlines(s.translation) || current.stage !== s.stage
   })
 
   if (changed.length === 0) {
@@ -212,11 +223,12 @@ for (const sourceFile of sourceFiles) {
 
   // Batch update target strings using the target's numeric string ID.
   // Paratranz's PUT /projects/{id}/strings expects [{ id, translation, stage }].
+  // Write normalized (\n) translations so PT 18818 stores a consistent format.
   const BATCH = 500
   for (let i = 0; i < changed.length; i += BATCH) {
     const batch = changed.slice(i, i + BATCH).map(s => ({
       id: targetByKey.get(s.key)!.id,
-      translation: s.translation,
+      translation: normalizeNewlines(s.translation),
       stage: s.stage,
     }))
     try {
