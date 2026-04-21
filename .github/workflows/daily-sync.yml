@@ -1,19 +1,27 @@
-name: 3. Lang And Zs To Paratranz
+name: Daily Sync To PT (18818)
 
 on:
   workflow_dispatch:
+  schedule:
+    # 中国时间每天凌晨 1 点（UTC 17:00）
+    - cron: '0 17 * * *'
 
 env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
-  PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
+  # PT 18818 – daily auto-update project
+  PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_DAILY_PROJECT_ID }}
+  # PT 4964 – main manually-maintained project (translation source)
+  SOURCE_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
 
   REPO_PATH: .repo.local.d
   DAILY_HISTORY_PATH: .gtnh-translations.local.d/daily-history
 
 jobs:
-  lang-and-zs-to-paratranz:
-    name: Lang And Zs To Paratranz
+  daily-sync:
+    name: Daily Sync To PT
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Setup Compare Repo
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
@@ -41,11 +49,20 @@ jobs:
           cp ${{ env.REPO_PATH }}/.github/gtnh-compare-patches/rules.ts src/paratranz/converter/rules.ts
           cp ${{ env.REPO_PATH }}/.github/gtnh-compare-patches/converter-index.ts src/paratranz/converter/index.ts
 
-      - name: Lang And Zs To Paratranz (from daily-history)
-        # resources/**/en_US.lang → 所有 Mod 的英文 lang 文件（由上游从 jar 中提取）
-        # config/**/en_US.lang    → 任务书等 config 目录下的英文 lang 文件
+      # Step 1: Upload latest English originals from daily-history to PT 18818
+      - name: Lang And Zs To PT Daily (English Originals)
         run: >-
           bun run src/index.ts to-paratranz:lang-zs
           --modpack-path='${{ env.DAILY_HISTORY_PATH }}'
           --extra-lang='resources/**/en_US.lang'
           --extra-lang='config/**/en_US.lang'
+
+      # Step 2: Copy latest Chinese translations from PT 4964 → PT 18818
+      # 直接运行本仓库的脚本，而非通过外部 run-script action，
+      # 因为 sync-translations-to-project.ts 是本 fork 新增的脚本，不存在于上游 Kiwi233 的 run-script action 中。
+      - name: Copy Translations From Main PT Project (4964 → 18818)
+        run: bun run -i ${{ env.REPO_PATH }}/.github/actions/run-script/scripts/sync-translations-to-project.ts
+        env:
+          PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+          SOURCE_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
+          PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_DAILY_PROJECT_ID }}

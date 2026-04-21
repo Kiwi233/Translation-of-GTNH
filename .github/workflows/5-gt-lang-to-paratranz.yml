@@ -1,52 +1,15 @@
 name: 5. Gt Lang To Paratranz
 
 on:
-  issues:
-    types: [opened]
+  workflow_dispatch:
 
 env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
 
-  VALID_LABEL: 自动化:gt-lang→paratranz
-  VALID_USER: ${{ github.repository_owner }}
-
 jobs:
-  check-and-parse-issue:
-    if: contains(github.event.issue.labels.*.name, '自动化:gt-lang→paratranz')
-    name: Check And Parse Issue
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run Script
-        id: check-and-parse-issue
-        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
-        with:
-          script: parse-issue.ts
-          args: gt-lang-to-paratranz
-        env:
-          GITHUB_ISSUE: ${{ toJSON(github.event.issue) }}
-          VALID_LABEL: ${{ env.VALID_LABEL }}
-          VALID_USER: ${{ env.VALID_USER }}
-    outputs:
-      passed: ${{ steps.check-and-parse-issue.outputs.passed }}
-      gt-lang-url: ${{ steps.check-and-parse-issue.outputs.gt-lang-url }}
-
-  close-issue:
-    name: Close Issue
-    needs: check-and-parse-issue
-    if: ${{ needs.check-and-parse-issue.outputs.passed != 'true' }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Close Issue
-        uses: peter-evans/close-issue@v2.0.0
-        with:
-          comment: |
-            此模板仅由内部人员使用，已自动关闭。
-
   gt-lang-to-paratranz:
     name: Gt Lang To Paratranz
-    needs: check-and-parse-issue
-    if: ${{ needs.check-and-parse-issue.outputs.passed == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Setup Compare Repo
@@ -55,13 +18,9 @@ jobs:
       - name: Setup Bun
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
 
-      - name: Run Script
+      - name: Gt Lang To Paratranz (from GTNH-Translations daily-history)
+        # 注意：URL 固定指向 GTNewHorizons/GTNH-Translations 的 master 分支。
+        # 若上游改变主分支名称，需同步更新此 URL。
         run: >-
           bun run src/index.ts to-paratranz:gt-lang
-          --gt-lang-url='${{ needs.check-and-parse-issue.outputs.gt-lang-url }}'
-
-      - name: Close Issue
-        uses: peter-evans/close-issue@v2.0.0
-        with:
-          comment: |
-            已自动同步至 Paratranz。
+          --gt-lang-url='https://raw.githubusercontent.com/GTNewHorizons/GTNH-Translations/master/daily-history/GregTech.lang'

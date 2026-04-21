@@ -3,10 +3,17 @@ import type { Language } from '~/filetypes/language.ts'
 import type { ClientWrapper } from '~/paratranz/api/index.ts'
 import type { ConverterCache } from '~/paratranz/converter/cache.ts'
 import type { File, ParatranzFile, StringItem, TranslationFile } from '~/paratranz/types.ts'
+import { join } from 'node:path'
 import chalk from 'chalk'
 import { log } from '~/log'
 import { FileExtraSchema } from '~/paratranz/types.ts'
 import { NewlineRules } from './rules.ts'
+
+// Load the sniffed newline-format cache if REPO_PATH is set
+const _repoPath = process.env.REPO_PATH
+if (_repoPath) {
+  NewlineRules.loadCache(join(_repoPath, '.github/data/lang-newline-cache.json'))
+}
 
 export class Converter {
   constructor(
@@ -52,7 +59,7 @@ export class Converter {
       if (translation) {
         if (newlineRule) {
           const originalValue = originalContent.slice(prop.start, prop.end).join('')
-          translation = newlineRule.fromParatranz(translation, originalValue)
+          translation = newlineRule.fromParatranz(translation, originalValue, fileExtra.targetRelpath)
         }
         result.push(...translation)
       }

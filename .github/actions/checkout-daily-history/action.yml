@@ -1,0 +1,31 @@
+name: 'Checkout GTNH daily-history'
+description: 'Sparse-checkout GTNewHorizons/GTNH-Translations keeping only the daily-history/ tree'
+
+inputs:
+  path:
+    description: 'Target checkout directory (relative to workspace)'
+    required: false
+    default: '.gtnh-translations.local.d'
+
+outputs:
+  daily-history-path:
+    description: 'Path to the daily-history directory'
+    value: ${{ steps.out.outputs.daily-history-path }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Sparse-checkout GTNH-Translations
+      uses: actions/checkout@v4
+      with:
+        repository: GTNewHorizons/GTNH-Translations
+        ref: master
+        path: ${{ inputs.path }}
+        sparse-checkout: |
+          daily-history
+        sparse-checkout-cone-mode: true
+
+    - name: Export daily-history path
+      id: out
+      shell: bash
+      run: echo "daily-history-path=${{ inputs.path }}/daily-history" >> "$GITHUB_OUTPUT"

@@ -1,0 +1,70 @@
+name: Sniff Lang Newline Formats
+
+on:
+  workflow_dispatch:
+    inputs:
+      force-refresh:
+        description: '强制重新嗅探所有文件（清除现有缓存）'
+        required: false
+        default: 'false'
+        type: boolean
+  # 每月1日自动运行，检测新增文件
+  schedule:
+    - cron: '0 2 1 * *'
+
+env:
+  REPO_PATH: .repo.local.d
+  DAILY_HISTORY_PATH: .gtnh-translations.local.d/daily-history
+
+jobs:
+  sniff:
+    name: Sniff Lang Newline Formats
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          path: ${{ env.REPO_PATH }}
+
+      - name: Checkout GTNH-Translations (daily-history only)
+        uses: actions/checkout@v4
+        with:
+          repository: GTNewHorizons/GTNH-Translations
+          ref: master
+          path: .gtnh-translations.local.d
+          sparse-checkout: |
+            daily-history
+          sparse-checkout-cone-mode: true
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.3.5'
+
+      - name: Clear Cache (forced refresh)
+        if: ${{ inputs.force-refresh == 'true' }}
+        run: |
+          mkdir -p ${{ env.REPO_PATH }}/.github/data
+          echo '{}' > ${{ env.REPO_PATH }}/.github/data/lang-newline-cache.json
+
+      - name: Sniff Newline Formats
+        run: bun run -i ${{ env.REPO_PATH }}/.github/actions/run-script/scripts/sniff-lang-newlines.ts
+        env:
+          DAILY_HISTORY_PATH: ${{ env.DAILY_HISTORY_PATH }}
+          REPO_PATH: ${{ env.REPO_PATH }}
+
+      - name: Commit Cache File
+        shell: bash
+        working-directory: ${{ env.REPO_PATH }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/data/lang-newline-cache.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update lang newline format cache"
+            git push
+          fi
