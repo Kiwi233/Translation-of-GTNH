@@ -1,5 +1,6 @@
 import type { Language } from '~/filetypes/language.ts'
 import { dirname } from 'node:path'
+import { readFileSync } from 'node:fs'
 import * as settings from '~/settings.ts'
 
 import { toUnicode } from '~/utils/unicode.ts'
@@ -7,10 +8,10 @@ import { toUnicode } from '~/utils/unicode.ts'
 export interface NewlineRule {
   /** Match the file path */
   match: (relpath: string) => boolean
-  /** Conversion when importing to Paratranz (placeholder -> \n) */
+  /** Conversion when importing to Paratranz (all newline forms -> \n) */
   toParatranz: (text: string) => string
-  /** Conversion when exporting from Paratranz (\n -> placeholder) */
-  fromParatranz: (text: string, originalValue?: string) => string
+  /** Conversion when exporting from Paratranz (\n -> original placeholder) */
+  fromParatranz: (text: string, originalValue?: string, relpath?: string) => string
   /** Optional post-processing for the entire file content after assembly */
   postProcess?: (text: string, targetLang: Language) => string
 }
@@ -62,7 +63,10 @@ export class GTLangNewlineRule implements NewlineRule {
     return text.replaceAll('<BR>', '\n').replaceAll('<br>', '\n')
   }
 
-  fromParatranz = (text: string): string => {
+  fromParatranz = (text: string, originalValue?: string): string => {
+    // Preserve original case: if original uses lowercase <br>, keep lowercase
+    if (originalValue && originalValue.includes('<br>') && !originalValue.includes('<BR>'))
+      return text.replaceAll('\n', '<br>')
     return text.replaceAll('\n', '<BR>')
   }
 }
@@ -72,31 +76,66 @@ export class LangNewlineRule implements NewlineRule {
     return relpath.endsWith('.lang') && !relpath.endsWith('GregTech.lang')
   }
 
+  /**
+   * Convert all newline placeholder forms to actual \n so PT displays clean newlines.
+   * The original content is preserved in fileExtra.original for format detection on export.
+   */
   toParatranz = (text: string): string => {
-    return text
+    return text.replaceAll('<BR>', '\n').replaceAll('<br>', '\n').replaceAll('\\n', '\n')
   }
 
-  fromParatranz = (text: string, originalValue?: string): string => {
+  fromParatranz = (text: string, originalValue?: string, relpath?: string): string => {
     if (!text.includes('\n'))
       return text
-    if (originalValue) {
-      if (originalValue.includes('<BR>'))
-        return text.replaceAll('\n', '<BR>')
-      if (originalValue.includes('<br>'))
-        return text.replaceAll('\n', '<br>')
+
+    // 1. Check the sniffed-newline cache for this file path
+    if (relpath) {
+      const cached = NewlineRules.getCachedFormat(relpath)
+      if (cached === '<BR>') return text.replaceAll('\n', '<BR>')
+      if (cached === '<br>') return text.replaceAll('\n', '<br>')
+      if (cached === '\\n') return text.replaceAll('\n', '\\n')
     }
-    // Default: use literal \n escape sequence
+
+    // 2. Fall back to inspecting the stored original value
+    if (originalValue) {
+      if (originalValue.includes('<BR>')) return text.replaceAll('\n', '<BR>')
+      if (originalValue.includes('<br>')) return text.replaceAll('\n', '<br>')
+      if (originalValue.includes('\\n')) return text.replaceAll('\n', '\\n')
+    }
+
+    // 3. Default: use literal \n escape sequence
     return text.replaceAll('\n', '\\n')
   }
 }
 
 export class NewlineRules {
+  /** Cache populated by the sniff-lang-newlines workflow: relpath → newline format */
+  private static cache: Map<string, string> = new Map()
+
   private static readonly all: NewlineRule[] = [
     new ScriptNewlineRule(),
     new QuestNewlineRule(),
     new GTLangNewlineRule(),
     new LangNewlineRule(),
   ]
+
+  /**
+   * Load the sniffed newline-format cache from a JSON file.
+   * Expected format: { "resources/SomeMod[id]/lang/zh_CN.lang": "<br>", ... }
+   */
+  static loadCache(cachePath: string): void {
+    try {
+      const data = JSON.parse(readFileSync(cachePath, 'utf8'))
+      this.cache = new Map(Object.entries(data))
+    }
+    catch {
+      // Cache file not present or unreadable – fall back to per-entry detection
+    }
+  }
+
+  static getCachedFormat(relpath: string): string | undefined {
+    return this.cache.get(relpath)
+  }
 
   static find(relpath: string): NewlineRule | undefined {
     return this.all.find(rule => rule.match(relpath))

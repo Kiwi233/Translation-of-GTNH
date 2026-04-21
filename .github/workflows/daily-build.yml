@@ -1,9 +1,9 @@
-name: 0. Nightly Build
+name: 0. Daily Build
 
 on:
   workflow_dispatch:
   schedule:
-    # 中国时间每天凌晨 2 点
+    # 中国时间每天凌晨 2 点（UTC 18:00）
     - cron: '0 18 * * *'
 
 env:
@@ -16,15 +16,15 @@ env:
   ASSETS_PATH: .assets.local.d
 
 jobs:
-  nightly-build:
-    name: Nightly Build
+  daily-build:
+    name: Daily Build
     runs-on: ubuntu-latest
     steps:
       - name: Setup Compare Repo
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
 
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           path: ${{ env.REPO_PATH }}
 
@@ -41,6 +41,7 @@ jobs:
         with:
           script: setup-nightly-build-datetime-envs.ts
 
+      # Sync: pull latest translations from PT 4964 into local files
       - name: ParaTranz To Quest Book
         run: >-
           bun run src/index.ts from-paratranz:quest-book
@@ -54,13 +55,14 @@ jobs:
           bun run src/index.ts from-paratranz:gt-lang
           --repo-path='${{ env.REPO_PATH }}'
 
-      - name: Build Nightly Assets
+      # Build and release the daily archive
+      - name: Build Daily Assets
         uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
         with:
           script: release.ts
         env:
           IS_NIGHTLY_BUILD: 'true'
-          ARCHIVE_NAME: nightly-${{ env.NB_LOCAL_DATE }}.7z
+          ARCHIVE_NAME: daily-${{ env.NB_LOCAL_DATE }}.7z
 
       - name: Push tag
         working-directory: ${{ env.REPO_PATH }}
@@ -69,7 +71,7 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git checkout --orphan temp
           git reset HEAD -- .
-          git commit --allow-empty -m "Nightly Build ${{ env.NB_LOCAL_DATE }} ${{ env.NB_LOCAL_TIME }}"
+          git commit --allow-empty -m "Daily Build ${{ env.NB_LOCAL_DATE }} ${{ env.NB_LOCAL_TIME }}"
           git tag ${{ env.NB_TAG }}
           git push --delete origin ${{ env.NB_TAG }} || true
           git push origin ${{ env.NB_TAG }}
@@ -84,8 +86,8 @@ jobs:
             自动构建于 ${{ env.NB_LOCAL_DATE }} ${{ env.NB_LOCAL_TIME }}
           files: ${{ env.ASSETS_PATH }}/*
 
-  cleanup-outdated-nightly-builds:
-    name: Cleanup Outdated Nightly Builds
+  cleanup-outdated-daily-builds:
+    name: Cleanup Outdated Daily Builds
     runs-on: ubuntu-latest
     steps:
       - name: Setup Datetime Related Envs
@@ -93,7 +95,8 @@ jobs:
         with:
           script: setup-nightly-build-datetime-envs.ts
 
-      - name: Cleanup Outdated Nightly Builds
+      - name: Cleanup Outdated Daily Builds
         uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
         with:
           script: cleanup-nightly-builds.ts
+
