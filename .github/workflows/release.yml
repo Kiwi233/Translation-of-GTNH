@@ -1,9 +1,12 @@
 name: 0. Release
 
+# 手动发版：push 非每日构建的 tag 时触发。
+# 每日构建用 `0-nightly-build/**` 形式的 tag，由 daily.yml 自己创建 Release，
+# 因此这里显式排除，避免重复发布和对空 orphan commit 的二次打包。
 on:
   push:
-    tags:
-      - '*'
+    tags-ignore:
+      - '0-nightly-build/**'
 
 env:
   REPO_PATH: .repo.local.d

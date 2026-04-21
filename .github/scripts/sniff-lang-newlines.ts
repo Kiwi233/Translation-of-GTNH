@@ -1,16 +1,20 @@
 /**
  * sniff-lang-newlines.ts
  *
- * Scans en_US.lang files from GTNewHorizons/GTNH-Translations daily-history,
- * detects the newline-placeholder format used per-entry in each file's values
- * (<BR>, <br>, or \n), and writes the results to
- * .github/data/lang-newline-cache.json in the repo.
+ * Scans en_US.lang files from GTNewHorizons/GTNH-Translations daily-history and
+ * detects, for each entry that contains a newline placeholder, which form is
+ * used (`<BR>`, `<br>`, or `\n`). Writes results to
+ * `.github/data/lang-newline-cache.json` in the repo.
  *
- * Cache format: { "<zh_CN relpath>": { "<key>": "<format>", ... }, ... }
+ * Cache format: { "<zh_CN relpath>": { "<key>": "<BR>|<br>|\\n", ... }, ... }
+ *
+ * Rebuilds the cache from scratch on every run — no skip-if-cached logic,
+ * because an earlier bug left placeholder `{}` entries that were never
+ * re-detected.
  *
  * Environment variables:
- *   DAILY_HISTORY_PATH  – path to the daily-history directory (from checkout-daily-history action)
- *   REPO_PATH           – root of the Translation-of-GTNH repo checkout
+ *   DAILY_HISTORY_PATH – path to the daily-history directory
+ *   REPO_PATH          – root of the Translation-of-GTNH repo checkout
  */
 
 import { readFile, writeFile, readdir, stat } from 'node:fs/promises'
@@ -44,7 +48,7 @@ function detectEntryNewlineFormats(content: string): Map<string, '<BR>' | '<br>'
       result.set(key, '<BR>')
     else if (value.includes('<br>'))
       result.set(key, '<br>')
-    // Check for literal \n escape sequence (2 chars: backslash + n)
+    // Literal `\n` escape sequence (2 chars: backslash + n)
     else if (value.includes('\\n'))
       result.set(key, '\\n')
   }
@@ -68,17 +72,16 @@ async function walk(dir: string): Promise<string[]> {
   return results
 }
 
-const cache: Record<string, Record<string, string>> = existsSync(CACHE_PATH)
-  ? JSON.parse(await readFile(CACHE_PATH, 'utf8'))
-  : {}
+const cache: Record<string, Record<string, string>> = {}
 
-let updatedFiles = 0
-let updatedEntries = 0
+let detectedFiles = 0
+let detectedEntries = 0
 
 /**
- * Process en_US.lang files under a daily-history subdirectory.
- * Maps each file to a repo relpath prefix (en_US → zh_CN) and caches the
- * per-entry detected format.
+ * Process en_US.lang files under a daily-history subdirectory. Maps each file
+ * to a repo relpath prefix (en_US → zh_CN) and stores the per-entry detected
+ * format. Files with zero newline-placeholder entries are omitted from the
+ * cache entirely (no empty `{}` placeholders).
  */
 async function processDir(baseDir: string, repoPrefix: string): Promise<void> {
   const files = await walk(baseDir)
@@ -86,22 +89,16 @@ async function processDir(baseDir: string, repoPrefix: string): Promise<void> {
     if (!file.endsWith('en_US.lang'))
       continue
 
-    // Map en_US.lang → zh_CN.lang relpath for the cache key
     const relToBase = relative(baseDir, file)
     const zhRelpath = join(repoPrefix, relToBase.replace('en_US.lang', 'zh_CN.lang'))
       .split('\\').join('/')
-
-    // Skip if already cached as a per-entry object (unless force-refresh cleared it)
-    const existing = cache[zhRelpath]
-    if (existing !== undefined && typeof existing === 'object')
-      continue
 
     const content = await readFile(file, 'utf8')
     const entryFormats = detectEntryNewlineFormats(content)
     if (entryFormats.size > 0) {
       cache[zhRelpath] = Object.fromEntries(entryFormats)
-      updatedFiles++
-      updatedEntries += entryFormats.size
+      detectedFiles++
+      detectedEntries += entryFormats.size
       console.log(`  [${entryFormats.size} entries] ${zhRelpath}`)
     }
   }
@@ -116,4 +113,4 @@ await processDir(join(dailyHistoryPath, 'config'), 'config')
 
 await writeFile(CACHE_PATH, JSON.stringify(cache, Object.keys(cache).sort(), 2) + '\n', 'utf8')
 
-console.log(`Done. Updated ${updatedFiles} files / ${updatedEntries} entries. Cache written to ${CACHE_PATH}`)
+console.log(`Done. Detected ${detectedFiles} files / ${detectedEntries} entries. Cache written to ${CACHE_PATH}`)

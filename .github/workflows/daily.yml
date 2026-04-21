@@ -1,37 +1,50 @@
-name: 0. Daily Build
+name: 0. Daily Sync & Build
 
 on:
   workflow_dispatch:
   schedule:
-    # 中国时间每天凌晨 2 点（UTC 18:00）
-    - cron: '0 18 * * *'
+    # 中国时间每天凌晨 1 点（UTC 17:00）
+    - cron: '0 17 * * *'
 
 permissions:
   contents: write
 
 env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
-  PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
+  # PT 18818 — 每日自动同步项目（本 workflow 读写主站）
+  PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_DAILY_PROJECT_ID }}
 
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   REPO_PATH: .repo.local.d
   ASSETS_PATH: .assets.local.d
+  DAILY_HISTORY_PATH: .gtnh-translations.local.d/daily-history
 
 jobs:
-  daily-build:
-    name: Daily Build
+  daily:
+    name: Daily Sync & Build
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
+      # ========== Checkout & Setup ==========
       - name: Setup Compare Repo
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
 
-      - name: Checkout
+      - name: Checkout Repo
         uses: actions/checkout@v4
         with:
           path: ${{ env.REPO_PATH }}
+
+      - name: Checkout GTNH-Translations (daily-history only)
+        uses: actions/checkout@v4
+        with:
+          repository: GTNewHorizons/GTNH-Translations
+          ref: master
+          path: .gtnh-translations.local.d
+          sparse-checkout: |
+            daily-history
+          sparse-checkout-cone-mode: true
 
       - name: Setup Bun
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
@@ -41,26 +54,55 @@ jobs:
           cp ${{ env.REPO_PATH }}/.github/gtnh-compare-patches/rules.ts src/paratranz/converter/rules.ts
           cp ${{ env.REPO_PATH }}/.github/gtnh-compare-patches/converter-index.ts src/paratranz/converter/index.ts
 
-      - name: Setup Datetime Related Envs
+      - name: Setup Datetime Envs
         uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
         with:
           script: setup-nightly-build-datetime-envs.ts
 
-      # Sync: pull latest translations from PT 4964 into local files
-      - name: ParaTranz To Quest Book
+      # ========== Refresh Newline Cache ==========
+      # 每次构建前先重新嗅探英文原文的换行符格式，保证缓存最新；
+      # 不 commit（历史记录由月度 sniff-lang-newlines.yml 负责），只在 runner 内使用。
+      - name: Refresh Newline Cache
+        run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/sniff-lang-newlines.ts
+        env:
+          DAILY_HISTORY_PATH: ${{ env.DAILY_HISTORY_PATH }}
+          REPO_PATH: ${{ env.REPO_PATH }}
+
+      # ========== 上行：本地英文原文 + 主站译文 → PT 18818 ==========
+      - name: Upload English Lang+zs to PT Daily
+        run: >-
+          bun run src/index.ts to-paratranz:lang-zs
+          --modpack-path='${{ env.DAILY_HISTORY_PATH }}'
+          --extra-lang='resources/**/en_US.lang'
+          --extra-lang='config/**/en_US.lang'
+
+      - name: Upload English GregTech.lang to PT Daily
+        run: >-
+          bun run src/index.ts to-paratranz:gt-lang
+          --gt-lang-url='https://raw.githubusercontent.com/GTNewHorizons/GTNH-Translations/master/daily-history/GregTech.lang'
+
+      - name: Copy Translations From PT Main (4964 → 18818)
+        run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/sync-translations-to-project.ts
+        env:
+          SOURCE_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
+
+      # ========== 下行：PT 18818 → 本地，并按缓存还原换行符 ==========
+      - name: Pull Quest Book From PT Daily
         run: >-
           bun run src/index.ts from-paratranz:quest-book
           --repo-path='${{ env.REPO_PATH }}'
-      - name: ParaTranz To Lang And zs
+
+      - name: Pull Lang+zs From PT Daily
         run: >-
           bun run src/index.ts from-paratranz:lang-zs
           --repo-path='${{ env.REPO_PATH }}'
-      - name: ParaTranz To GT Lang
+
+      - name: Pull GT Lang From PT Daily
         run: >-
           bun run src/index.ts from-paratranz:gt-lang
           --repo-path='${{ env.REPO_PATH }}'
 
-      # Build and release the daily archive
+      # ========== 打包 & 发布 ==========
       - name: Build Daily Assets
         uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
         with:
@@ -69,7 +111,7 @@ jobs:
           IS_NIGHTLY_BUILD: 'true'
           ARCHIVE_NAME: daily-${{ env.NB_LOCAL_DATE }}.7z
 
-      - name: Push tag
+      - name: Push Tag
         working-directory: ${{ env.REPO_PATH }}
         run: |
           git config user.name github-actions[bot]
@@ -80,24 +122,26 @@ jobs:
           git tag ${{ env.NB_TAG }}
           git push --delete origin ${{ env.NB_TAG }} || true
           git push origin ${{ env.NB_TAG }}
-      - name: Release
+
+      - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ env.NB_TAG }}
           name: 每日构建 - ${{ env.NB_LOCAL_DATE }}
           body: |
-            请阅读主页ReadMe以获知详细用法
+            请阅读主页 README 以获知详细用法
 
             自动构建于 ${{ env.NB_LOCAL_DATE }} ${{ env.NB_LOCAL_TIME }}
           files: ${{ env.ASSETS_PATH }}/*
 
   cleanup-outdated-daily-builds:
     name: Cleanup Outdated Daily Builds
+    needs: daily
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Setup Datetime Related Envs
+      - name: Setup Datetime Envs
         uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
         with:
           script: setup-nightly-build-datetime-envs.ts
@@ -106,4 +150,3 @@ jobs:
         uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
         with:
           script: cleanup-nightly-builds.ts
-

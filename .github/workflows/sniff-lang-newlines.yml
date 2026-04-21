@@ -1,16 +1,16 @@
 name: Sniff Lang Newline Formats
 
+# 月度任务：重新嗅探英文原文的换行符格式，提交到仓库作为历史基线。
+# 每日构建也会在 runner 里即时嗅探一次（不 commit），因此即使本工作流延迟运行，
+# 每日包仍能拿到最新缓存。
 on:
   workflow_dispatch:
-    inputs:
-      force-refresh:
-        description: '强制重新嗅探所有文件（清除现有缓存）'
-        required: false
-        default: 'false'
-        type: boolean
-  # 每月1日自动运行，检测新增文件
   schedule:
+    # 每月 1 日 UTC 02:00（中国时间 10:00）
     - cron: '0 2 1 * *'
+
+permissions:
+  contents: write
 
 env:
   REPO_PATH: .repo.local.d
@@ -43,20 +43,13 @@ jobs:
         with:
           bun-version: '1.3.5'
 
-      - name: Clear Cache (forced refresh)
-        if: ${{ inputs.force-refresh == 'true' }}
-        run: |
-          mkdir -p ${{ env.REPO_PATH }}/.github/data
-          echo '{}' > ${{ env.REPO_PATH }}/.github/data/lang-newline-cache.json
-
       - name: Sniff Newline Formats
-        run: bun run -i ${{ env.REPO_PATH }}/.github/actions/run-script/scripts/sniff-lang-newlines.ts
+        run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/sniff-lang-newlines.ts
         env:
           DAILY_HISTORY_PATH: ${{ env.DAILY_HISTORY_PATH }}
           REPO_PATH: ${{ env.REPO_PATH }}
 
       - name: Commit Cache File
-        shell: bash
         working-directory: ${{ env.REPO_PATH }}
         run: |
           git config user.name "github-actions[bot]"

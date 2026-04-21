@@ -1,4 +1,4 @@
-# Translation-of-GTNH
+# Translation-of-GTNH-Daily
 
 ## GT New Horizons 整合包汉化（每日构建版）
 
@@ -20,61 +20,93 @@
 
 ## 分支策略
 
-本仓库使用**单主线**策略：
+本仓库使用 **单主线** 策略：
 
-- **`master`**：唯一长期分支，始终保持最新汉化文件
-- **Tags / Releases**：版本历史通过 Tag 记录，每日构建自动生成 Release
-- 历史由上游 [GTNewHorizons/GTNH-Translations](https://github.com/GTNewHorizons/GTNH-Translations) 和 [Kiwi233/Translation-of-GTNH](https://github.com/Kiwi233/Translation-of-GTNH) 保存
+- **`master`**：唯一长期分支，保存工作流、脚本与换行符缓存
+- **Tags / Releases**：每日构建自动生成 `0-nightly-build/YYYY-MM-DD` tag 和 Release
+- 汉化历史由上游 [GTNewHorizons/GTNH-Translations](https://github.com/GTNewHorizons/GTNH-Translations) 和 [Kiwi233/Translation-of-GTNH](https://github.com/Kiwi233/Translation-of-GTNH) 保存
 
 ---
 
 ## 自动化同步架构
 
-本仓库通过一套 GitHub Actions 自动化流程与 [ParaTranz](https://paratranz.cn) 保持同步。
+整条每日流水线合并为**单个** `daily.yml` workflow，按顺序执行同步、拉取和打包。
 
-### Workflows 流程图
+### 数据流
 
 ```
-GTNewHorizons/GTNH-Translations/daily-history/
-        │
-        ├──[每月1日] sniff-lang-newlines.yml
-        │      嗅探各 lang 文件的换行符格式 → 缓存到 `.github/data/lang-newline-cache.json`
-        │
-        └──[每日自动] daily-sync.yml
-               上传英文原文 → PT 18818（每日更新预览项目）
-
-
-https://paratranz.cn/projects/4964
-        │
-        └──[每日自动] daily-sync.yml
-               上传汉译变化 → PT 18818（来自 PT 4964）
-
-https://paratranz.cn/projects/18818
-        │
-        └──[每日自动] daily-build.yml
-               下载最新汉化 → （根据最新换行符格式）生成 Release
+                             ┌──── GTNewHorizons/GTNH-Translations ─────┐
+                             │           daily-history/                  │
+                             │   （英文原文，上游每日从整合包提取）      │
+                             └───────────────┬───────────────────────────┘
+                                             │
+                                             ▼ (daily.yml: 上行)
+                          ┌─── PT 项目 18818（每日同步，自动）────┐
+                          │     英文原文：上游 daily-history       │
+                          │     译    文：4964 当前译文（复制过来）│
+                          └──▲──────────────────────┬─────────────┘
+                             │复制译文              │
+                             │                      ▼ (daily.yml: 下行)
+        PT 项目 4964（人工校对）          本仓库 REPO（runner 临时）
+        │                                            │
+        │                                            │ release.ts 打包
+        │                                            ▼
+        └────（人工翻译）                    0-nightly-build/YYYY-MM-DD Release
 ```
 
-### Workflows 说明
+换行符处理：
+- **上行**：所有 `<BR>` / `<br>` / `\n` 一律归一为 `\n` 再写入 PT 18818（由 `rules.ts` + `sync-translations-to-project.ts` 完成）
+- **嗅探**：每次每日构建开始时，根据上游 `daily-history` 英文原文，逐词条记录原本使用哪种换行符（`<BR>` / `<br>` / `\n`），写入 `.github/data/lang-newline-cache.json`
+- **下行**：从 PT 18818 拉取译文后，按缓存里每个词条的原始形式把 `\n` 还原成 `<BR>` / `<br>` / `\n`，保证游戏内正确换行
 
-| Workflow | 触发方式 | 说明 |
+### Workflows
+
+| Workflow | 触发 | 作用 |
 |---|---|---|
-| `daily-build.yml` | 每日定时 / 手动 | 从 PT 4964 拉取最新译文并构建每日发布包 |
-| `daily-sync.yml` | 每日定时 / 手动 | 从 GTNH-Translations daily-history 上传英文原文到 PT 18818，并同步 4964 译文到 18818 |
-| `sniff-lang-newlines.yml` | 每月1日 / 手动 | 从 daily-history 嗅探各 lang 文件的换行符格式，缓存到 `.github/data/lang-newline-cache.json` |
-| `release.yml` | tag push | 创建版本 Release |
-| `purge-workflows.yml` | 每日定时 / 手动 | 清理过期 workflow run 记录 |
+| `daily.yml` | 每日 UTC 17:00 / 手动 | 嗅探换行符 → 上传英文原文 + GregTech.lang 到 PT 18818 → 从 4964 复制最新译文到 18818 → 从 18818 拉译文 → 打包 → 发布 `0-nightly-build/*` Release → 清理超过 7 天的旧包 |
+| `sniff-lang-newlines.yml` | 每月 1 日 / 手动 | 重新嗅探并 **commit** 换行符缓存，作为历史基线（每日流水线的嗅探只在 runner 内生效，不提交） |
+| `release.yml` | push 非 nightly 的 tag | 手动发版：包含 NotEnoughCharacters 字库 jar |
+| `purge-workflows.yml` | 每日 / 手动 | 清理过期的 cancelled/skipped workflow runs |
 
-### 英文原文来源：GTNH-Translations daily-history
+### 英文原文来源：GTNH-Translations/daily-history
 
-上游 [GTNewHorizons/GTNH-Translations](https://github.com/GTNewHorizons/GTNH-Translations) 每日自动从整合包中提取所有 Mod 的英文 lang 文件，保存在 `daily-history/` 目录：
+上游 [GTNewHorizons/GTNH-Translations](https://github.com/GTNewHorizons/GTNH-Translations) 每日从整合包中提取所有 Mod 的英文 lang 文件，保存在 `daily-history/`：
 
 ```
 daily-history/
-├── GregTech.lang                                        # GregTech 英文 lang
+├── GregTech.lang                                        # GregTech 英文 lang（单独同步）
 ├── config/txloader/load/betterquesting/lang/en_US.lang  # 任务书英文 lang
 └── resources/<ModName>[modid]/lang/en_US.lang           # 各 Mod 英文 lang
 ```
+
+### 仓库结构
+
+```
+.github/
+├── data/
+│   └── lang-newline-cache.json       # 换行符缓存：每词条原始形式
+├── gtnh-compare-patches/             # 覆盖 GTNH-translation-compare 的转换逻辑
+│   ├── converter-index.ts            # 加载缓存并把 fromParatranz 接上每词条 key
+│   └── rules.ts                      # 四类换行符规则（Script/Quest/GTLang/Lang）
+├── scripts/                          # 本 Fork 自加脚本
+│   ├── sniff-lang-newlines.ts        # 嗅探英文原文换行符 → 写缓存
+│   └── sync-translations-to-project.ts  # 复制 4964 → 18818 译文（归一化 \n）
+├── workflows/
+│   ├── daily.yml
+│   ├── sniff-lang-newlines.yml
+│   ├── release.yml
+│   └── purge-workflows.yml
+└── ISSUE_TEMPLATE/
+    └── 0-FOS.md                      # 反馈/建议模板
+```
+
+### 必需的 Secrets
+
+| Secret | 用途 |
+|---|---|
+| `PARATRANZ_TOKEN` | ParaTranz API token（需同时有 4964 和 18818 的读写权限） |
+| `PARATRANZ_PROJECT_ID` | 主翻译项目 ID（= `4964`，源） |
+| `PARATRANZ_DAILY_PROJECT_ID` | 每日项目 ID（= `18818`，目标） |
 
 ---
 
@@ -84,7 +116,7 @@ daily-history/
 
 `MuXiu1997` 版本更新自动化比对脚本、PT 推送脚本、自动化打包脚本、自动化每日构建脚本
 
-`PinkYuDeer` Fork 维护、daily-history 集成、workflow 重构
+`PinkYuDeer` Fork 维护、daily-history 集成、换行符缓存、workflow 重构
 
 `ChromicRedBrick` 任务书校对、汉化
 
@@ -106,7 +138,7 @@ daily-history/
 
 `wumingzhiren` igi 血魔法逗号分割
 
-所有在 PT 上参与汉化工作的[贡献者](https://paratranz.cn/projects/4964/members)
+所有在 PT 上参与汉化工作的 [贡献者](https://paratranz.cn/projects/4964/members)
 
 以及老版本翻译主要贡献者：`anti` 翻译 GregTech.lang、`Yesterday` 汉化任务书及构建框架、`TOCN`、`doctormdk` 早期版本任务书汉化
 
