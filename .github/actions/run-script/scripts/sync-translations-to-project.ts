@@ -1,9 +1,10 @@
 /**
  * sync-translations-to-project.ts
  *
- * Copies translated strings from a source Paratranz project to a target project.
- * Only copies strings that have been translated (stage >= 1) in the source project,
- * matching files by name across both projects.
+ * Incrementally copies translated strings from a source Paratranz project to a
+ * target project. Only strings that have been translated (stage >= 1) in the
+ * source project are considered, and among those only strings whose translation
+ * or stage differs from what is already in the target project are uploaded.
  *
  * Environment variables:
  *   PARATRANZ_TOKEN      – API token (must have access to both projects)
@@ -62,45 +63,106 @@ interface PtString {
   stage: number
 }
 
-interface PtPagedResponse<T> {
-  total: number
-  page: number
-  pageSize: number
-  results: T[]
+interface PtStringPage {
+  /** Total number of pages (as returned by the Paratranz API). */
+  pageCount: number
+  results: PtString[]
 }
 
-/** Fetch ALL strings for a file, handling pagination. */
+/** Fetch ALL strings for a file, handling pagination.
+ *
+ * The Paratranz `/strings` endpoint returns `{ pageCount, results }`.
+ * `pageCount` is the total number of pages, NOT the total number of strings.
+ * We use `page >= pageCount` as the termination condition, matching the
+ * upstream MuXiu1997/GTNH-translation-compare implementation.
+ */
 async function getAllStrings(projectId: string, fileId: number): Promise<PtString[]> {
   const PAGE_SIZE = 1000
   let page = 1
   const all: PtString[] = []
   while (true) {
-    const data = await apiGet<PtPagedResponse<PtString>>(
+    const data = await apiGet<PtStringPage>(
       `/projects/${projectId}/strings?file=${fileId}&page=${page}&pageSize=${PAGE_SIZE}`,
     )
-    all.push(...data.results)
-    if (all.length >= data.total)
+    all.push(...(data.results ?? []))
+    if (page >= data.pageCount)
       break
     page++
   }
   return all
 }
 
-/** Fetch all files in a project, handling pagination. */
+/** Fetch all files in a project.
+ *
+ * The Paratranz `/projects/{id}/files` endpoint returns a direct JSON array,
+ * not a paginated envelope. We also handle the paginated `{results:[]}` shape
+ * defensively in case the API changes.
+ */
 async function getAllFiles(projectId: string): Promise<PtFile[]> {
-  const PAGE_SIZE = 200
-  let page = 1
-  const all: PtFile[] = []
-  while (true) {
-    const data = await apiGet<PtPagedResponse<PtFile>>(
-      `/projects/${projectId}/files?page=${page}&pageSize=${PAGE_SIZE}`,
-    )
-    all.push(...data.results)
-    if (all.length >= data.total)
-      break
-    page++
+  const res = await fetch(`${API_BASE}/projects/${projectId}/files`, { headers })
+  if (!res.ok)
+    throw new Error(`GET /projects/${projectId}/files → ${res.status} ${res.statusText}`)
+  const data: unknown = await res.json()
+  if (Array.isArray(data))
+    return data as PtFile[]
+  // Fallback: paginated envelope (future-proof)
+  return (((data as { results?: PtFile[] }).results) ?? [])
+}
+
+// ---------------------------------------------------------------------------
+// Path-mapping helpers
+// ---------------------------------------------------------------------------
+
+/**
+ * In PT 18818 (target), files are uploaded from the modpack's en_US originals
+ * and therefore live under the `resources/` tree:
+ *   resources/<DisplayName>[<modid>]/lang/zh_CN.lang.json
+ *
+ * In PT 4964 (source / main Chinese project), most translations were uploaded
+ * from the txloader overlay directory and therefore live under:
+ *   config/txloader/load/<modid>/lang/zh_CN.lang.json
+ *
+ * The regex below extracts the modid from a resources-path target file name
+ * so we can build a secondary index for the txloader fallback lookup.
+ */
+const TARGET_RESOURCES_RE = /^resources\/[^\[]+\[([^\]]+)\]\/lang\//
+const SOURCE_TXLOADER_RE = /^config\/txloader\/(?:load|forceload)\/([^/]+)\/lang\//
+
+/**
+ * Build a secondary lookup map: modid → target file id.
+ * Used when the source file lives under a txloader path and the target file
+ * lives under a resources path with the same modid embedded in brackets.
+ */
+function buildTargetModIdMap(targetFileMap: Map<string, number>): Map<string, number> {
+  const m = new Map<string, number>()
+  for (const [name, id] of targetFileMap) {
+    const match = name.match(TARGET_RESOURCES_RE)
+    if (match)
+      m.set(match[1], id)
   }
-  return all
+  return m
+}
+
+/**
+ * Resolve the target file id for a given source file name.
+ * Tries an exact name match first; if that fails and the source file looks
+ * like a txloader path, extracts the modid and looks it up in the secondary
+ * resources-path index.
+ */
+function resolveTargetFileId(
+  sourceName: string,
+  targetFileMap: Map<string, number>,
+  targetModIdMap: Map<string, number>,
+): number | undefined {
+  const exact = targetFileMap.get(sourceName)
+  if (exact != null)
+    return exact
+
+  const txMatch = sourceName.match(SOURCE_TXLOADER_RE)
+  if (txMatch)
+    return targetModIdMap.get(txMatch[1])
+
+  return undefined
 }
 
 consola.start(`Copying translations from project ${SOURCE_ID} → ${TARGET_ID}`)
@@ -111,28 +173,44 @@ const [sourceFiles, targetFiles] = await Promise.all([
 ])
 
 const targetFileMap = new Map(targetFiles.map(f => [f.name, f.id]))
+const targetModIdMap = buildTargetModIdMap(targetFileMap)
 
 let totalCopied = 0
 
 for (const sourceFile of sourceFiles) {
-  const targetFileId = targetFileMap.get(sourceFile.name)
+  const targetFileId = resolveTargetFileId(sourceFile.name, targetFileMap, targetModIdMap)
   if (targetFileId == null) {
-    consola.debug(`  Skipping "${sourceFile.name}" – not found in target project`)
+    consola.debug(`  Skipping "${sourceFile.name}" – no matching file found in target project`)
     continue
   }
 
-  const sourceStrings = await getAllStrings(SOURCE_ID, sourceFile.id)
-  const translated = sourceStrings.filter(s => s.translation && s.stage >= 1)
+  const [sourceStrings, targetStrings] = await Promise.all([
+    getAllStrings(SOURCE_ID, sourceFile.id),
+    getAllStrings(TARGET_ID, targetFileId),
+  ])
 
-  if (translated.length === 0)
+  // Build a lookup of what the target project currently has for each key
+  const targetByKey = new Map(targetStrings.map(s => [s.key, s]))
+
+  // Only upload strings whose translation or stage differs from the target
+  const changed = sourceStrings.filter((s) => {
+    if (!s.translation || s.stage < 1)
+      return false
+    const current = targetByKey.get(s.key)
+    return !current || current.translation !== s.translation || current.stage !== s.stage
+  })
+
+  if (changed.length === 0) {
+    consola.debug(`  ${sourceFile.name}: no changes`)
     continue
+  }
 
-  consola.info(`  ${sourceFile.name}: copying ${translated.length} translations`)
+  consola.info(`  ${sourceFile.name}: uploading ${changed.length} changed translations`)
 
   // Batch update target strings
   const BATCH = 500
-  for (let i = 0; i < translated.length; i += BATCH) {
-    const batch = translated.slice(i, i + BATCH).map(s => ({
+  for (let i = 0; i < changed.length; i += BATCH) {
+    const batch = changed.slice(i, i + BATCH).map(s => ({
       key: s.key,
       translation: s.translation,
       stage: s.stage,
@@ -145,7 +223,7 @@ for (const sourceFile of sourceFiles) {
     }
   }
 
-  totalCopied += translated.length
+  totalCopied += changed.length
 }
 
 consola.success(`Done. Copied ${totalCopied} translated strings to project ${TARGET_ID}.`)
