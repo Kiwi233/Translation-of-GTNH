@@ -3,10 +3,6 @@ name: Sniff Lang Newline Formats
 on:
   workflow_dispatch:
     inputs:
-      modpack-url:
-        description: '模组包直链 URL（留空则自动获取最新 GTNH 版本）'
-        required: false
-        default: ''
       force-refresh:
         description: '强制重新嗅探所有文件（清除现有缓存）'
         required: false
@@ -17,8 +13,8 @@ on:
     - cron: '0 2 1 * *'
 
 env:
-  MODPACK_PATH: .modpack.local.d
   REPO_PATH: .repo.local.d
+  DAILY_HISTORY_PATH: .gtnh-translations.local.d/daily-history
 
 jobs:
   sniff:
@@ -32,63 +28,29 @@ jobs:
         with:
           path: ${{ env.REPO_PATH }}
 
-      - name: Resolve Modpack URL
-        id: resolve-url
-        shell: bash
-        env:
-          INPUT_URL: ${{ inputs.modpack-url }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if [ -n "$INPUT_URL" ]; then
-            echo "url=$INPUT_URL" >> "$GITHUB_OUTPUT"
-          else
-            echo "No URL provided – fetching latest GTNH release…"
-            RELEASE=$(gh api repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/latest)
-            # Find the first .zip asset (the modpack zip)
-            URL=$(echo "$RELEASE" | python3 -c "
-          import sys, json
-          r = json.load(sys.stdin)
-          assets = r.get('assets', [])
-          for a in assets:
-              name = a['name']
-              if name.endswith('.zip') and ('client' in name.lower() or 'modpack' in name.lower()):
-                  print(a['browser_download_url'])
-                  break
-          else:
-              for a in assets:
-                  if a['name'].endswith('.zip'):
-                      print(a['browser_download_url'])
-                      break
-          ")
-            if [ -z "$URL" ]; then
-              echo "::error::Could not find a modpack zip in the latest GTNH release"
-              exit 1
-            fi
-            echo "Resolved URL: $URL"
-            echo "url=$URL" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Ensure Modpack
-        uses: Kiwi233/Translation-of-GTNH/.github/actions/ensure-modpack@master
+      - name: Checkout GTNH-Translations (daily-history only)
+        uses: actions/checkout@v4
         with:
-          url: ${{ steps.resolve-url.outputs.url }}
-          root: ${{ env.MODPACK_PATH }}
+          repository: GTNewHorizons/GTNH-Translations
+          ref: master
+          path: .gtnh-translations.local.d
+          sparse-checkout: |
+            daily-history
+          sparse-checkout-cone-mode: true
 
       - name: Setup Bun
-        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
+        uses: oven-sh/setup-bun@v2
         with:
-          install: 'false'
+          bun-version: '1.3.5'
 
       - name: Clear Cache (forced refresh)
         if: ${{ inputs.force-refresh == 'true' }}
         run: echo '{}' > ${{ env.REPO_PATH }}/.github/data/lang-newline-cache.json
 
       - name: Sniff Newline Formats
-        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
-        with:
-          script: sniff-lang-newlines.ts
+        run: bun run -i ${{ env.REPO_PATH }}/.github/actions/run-script/scripts/sniff-lang-newlines.ts
         env:
-          MODPACK_PATH: ${{ env.MODPACK_PATH }}
+          DAILY_HISTORY_PATH: ${{ env.DAILY_HISTORY_PATH }}
           REPO_PATH: ${{ env.REPO_PATH }}
 
       - name: Commit Cache File

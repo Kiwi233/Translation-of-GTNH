@@ -2,11 +2,6 @@ name: Daily Sync To PT (18818)
 
 on:
   workflow_dispatch:
-    inputs:
-      modpack-url:
-        description: '模组包直链 URL（留空则自动获取最新 GTNH 版本）'
-        required: false
-        default: ''
   schedule:
     # 中国时间每天凌晨 1 点（UTC 17:00）
     - cron: '0 17 * * *'
@@ -18,8 +13,8 @@ env:
   # PT 4964 – main manually-maintained project (translation source)
   SOURCE_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
 
-  MODPACK_PATH: .modpack.local.d
   REPO_PATH: .repo.local.d
+  DAILY_HISTORY_PATH: .gtnh-translations.local.d/daily-history
 
 jobs:
   daily-sync:
@@ -28,41 +23,6 @@ jobs:
     permissions:
       contents: read
     steps:
-      - name: Resolve Modpack URL
-        id: resolve-url
-        shell: bash
-        env:
-          INPUT_URL: ${{ inputs.modpack-url }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if [ -n "$INPUT_URL" ]; then
-            echo "url=$INPUT_URL" >> "$GITHUB_OUTPUT"
-          else
-            echo "No URL provided – fetching latest GTNH release…"
-            RELEASE=$(gh api repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/latest)
-            URL=$(echo "$RELEASE" | python3 -c "
-          import sys, json
-          r = json.load(sys.stdin)
-          assets = r.get('assets', [])
-          for a in assets:
-              name = a['name']
-              if name.endswith('.zip') and ('client' in name.lower() or 'modpack' in name.lower()):
-                  print(a['browser_download_url'])
-                  break
-          else:
-              for a in assets:
-                  if a['name'].endswith('.zip'):
-                      print(a['browser_download_url'])
-                      break
-          ")
-            if [ -z "$URL" ]; then
-              echo "::error::Could not find a modpack zip in the latest GTNH release"
-              exit 1
-            fi
-            echo "Resolved URL: $URL"
-            echo "url=$URL" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Setup Compare Repo
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
 
@@ -71,11 +31,15 @@ jobs:
         with:
           path: ${{ env.REPO_PATH }}
 
-      - name: Ensure Modpack
-        uses: Kiwi233/Translation-of-GTNH/.github/actions/ensure-modpack@master
+      - name: Checkout GTNH-Translations (daily-history only)
+        uses: actions/checkout@v4
         with:
-          url: ${{ steps.resolve-url.outputs.url }}
-          root: ${{ env.MODPACK_PATH }}
+          repository: GTNewHorizons/GTNH-Translations
+          ref: master
+          path: .gtnh-translations.local.d
+          sparse-checkout: |
+            daily-history
+          sparse-checkout-cone-mode: true
 
       - name: Setup Bun
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
@@ -85,19 +49,17 @@ jobs:
           cp ${{ env.REPO_PATH }}/.github/gtnh-compare-patches/rules.ts src/paratranz/converter/rules.ts
           cp ${{ env.REPO_PATH }}/.github/gtnh-compare-patches/converter-index.ts src/paratranz/converter/index.ts
 
-      # Step 1: Upload latest English originals from modpack to PT 18818
+      # Step 1: Upload latest English originals from daily-history to PT 18818
       - name: Lang And Zs To PT Daily (English Originals)
         run: >-
           bun run src/index.ts to-paratranz:lang-zs
-          --modpack-path='${{ env.MODPACK_PATH }}'
-          --extra-lang="config/amazingtrophies/lang/en_US.lang"
-          --extra-lang="config/txloader/**/en_US.lang"
+          --modpack-path='${{ env.DAILY_HISTORY_PATH }}'
+          --extra-lang='resources/**/en_US.lang'
+          --extra-lang='config/**/en_US.lang'
 
       # Step 2: Copy latest Chinese translations from PT 4964 → PT 18818
       - name: Copy Translations From Main PT Project (4964 → 18818)
-        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
-        with:
-          script: sync-translations-to-project.ts
+        run: bun run -i ${{ env.REPO_PATH }}/.github/actions/run-script/scripts/sync-translations-to-project.ts
         env:
           PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
           SOURCE_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}

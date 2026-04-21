@@ -1,33 +1,28 @@
 /**
  * sniff-lang-newlines.ts
  *
- * Scans all en_US.lang files in a downloaded GTNH modpack, detects the
- * newline-placeholder format used in each file's values (<BR>, <br>, or \n),
+ * Scans en_US.lang files from GTNewHorizons/GTNH-Translations daily-history,
+ * detects the newline-placeholder format used in each file's values (<BR>, <br>, or \n),
  * and writes the results to .github/data/lang-newline-cache.json in the repo.
  *
  * Environment variables:
- *   MODPACK_PATH  – root of the extracted modpack directory
- *   REPO_PATH     – root of the Translation-of-GTNH repo checkout
+ *   DAILY_HISTORY_PATH  – path to the daily-history directory (from checkout-daily-history action)
+ *   REPO_PATH           – root of the Translation-of-GTNH repo checkout
  */
 
 import { readFile, writeFile, readdir, stat } from 'node:fs/promises'
 import { join, relative } from 'node:path'
 import { existsSync } from 'node:fs'
 
-const modpackPath = Bun.env.MODPACK_PATH
+const dailyHistoryPath = Bun.env.DAILY_HISTORY_PATH
 const repoPath = Bun.env.REPO_PATH
 
-if (!modpackPath || !repoPath) {
-  console.error('MODPACK_PATH and REPO_PATH must be set')
+if (!dailyHistoryPath || !repoPath) {
+  console.error('DAILY_HISTORY_PATH and REPO_PATH must be set')
   process.exit(1)
 }
 
 const CACHE_PATH = join(repoPath, '.github/data/lang-newline-cache.json')
-
-// Directories in the modpack that contain lang files destined for resources/
-const FORCELOAD_DIR = join(modpackPath, 'config/txloader/forceload')
-// Directories in the modpack that map to config/txloader/load/ in the repo
-const LOAD_DIR = join(modpackPath, 'config/txloader/load')
 
 /** Detect which newline placeholder a lang file uses in its values. */
 function detectNewlineFormat(content: string): '<BR>' | '<br>' | '\\n' | null {
@@ -70,27 +65,25 @@ const cache: Record<string, string> = existsSync(CACHE_PATH)
 
 let updated = 0
 
-/** Process lang files under a modpack directory, mapping to a repo prefix. */
+/**
+ * Process en_US.lang files under a daily-history subdirectory.
+ * Maps each file to a repo relpath prefix (en_US → zh_CN) and caches the detected format.
+ */
 async function processDir(baseDir: string, repoPrefix: string): Promise<void> {
   const files = await walk(baseDir)
   for (const file of files) {
     if (!file.endsWith('en_US.lang'))
       continue
 
-    // Map en_US.lang → zh_CN.lang relpath
+    // Map en_US.lang → zh_CN.lang relpath for the cache key
     const relToBase = relative(baseDir, file)
     const zhRelpath = join(repoPrefix, relToBase.replace('en_US.lang', 'zh_CN.lang'))
-      // Normalise to forward slashes
       .split('\\').join('/')
 
-    // Only update cache entries for files that already exist in the repo,
-    // or for new files (always sniff those).
+    // Skip if already cached (unless the file is new to the repo)
     const existsInRepo = existsSync(join(repoPath, zhRelpath))
-    if (existsInRepo && cache[zhRelpath] !== undefined) {
-      // Already cached – skip unless this is a forced re-run
-      // (The workflow can delete the cache to force a full refresh.)
+    if (existsInRepo && cache[zhRelpath] !== undefined)
       continue
-    }
 
     const content = await readFile(file, 'utf8')
     const fmt = detectNewlineFormat(content)
@@ -102,10 +95,12 @@ async function processDir(baseDir: string, repoPrefix: string): Promise<void> {
   }
 }
 
-console.log('Sniffing newline formats from modpack lang files…')
+console.log('Sniffing newline formats from daily-history lang files…')
 
-await processDir(FORCELOAD_DIR, 'resources')
-await processDir(LOAD_DIR, 'config/txloader/load')
+// Mod lang files: daily-history/resources/<ModName>[modid]/lang/en_US.lang
+await processDir(join(dailyHistoryPath, 'resources'), 'resources')
+// Config lang files: daily-history/config/**/en_US.lang (includes quest book)
+await processDir(join(dailyHistoryPath, 'config'), 'config')
 
 await writeFile(CACHE_PATH, JSON.stringify(cache, Object.keys(cache).sort(), 2) + '\n', 'utf8')
 

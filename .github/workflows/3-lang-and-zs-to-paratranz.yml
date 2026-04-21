@@ -1,81 +1,49 @@
 name: 3. Lang And Zs To Paratranz
 
 on:
-  issues:
-    types: [opened]
+  workflow_dispatch:
 
 env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
 
-  VALID_LABEL: 自动化:lang+zs→paratranz
-  VALID_USER: ${{ github.repository_owner }}
-
-  MODPACK_PATH: .modpack.local.d
+  REPO_PATH: .repo.local.d
+  DAILY_HISTORY_PATH: .gtnh-translations.local.d/daily-history
 
 jobs:
-  check-and-parse-issue:
-    if: contains(github.event.issue.labels.*.name, '自动化:lang+zs→paratranz')
-    name: Check And Parse Issue
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run Script
-        id: check-and-parse-issue
-        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
-        with:
-          script: parse-issue.ts
-          args: lang-and-zs-to-paratranz
-        env:
-          GITHUB_ISSUE: ${{ toJSON(github.event.issue) }}
-          VALID_LABEL: ${{ env.VALID_LABEL }}
-          VALID_USER: ${{ env.VALID_USER }}
-    outputs:
-      passed: ${{ steps.check-and-parse-issue.outputs.passed }}
-      modpack-url: ${{ steps.check-and-parse-issue.outputs.modpack-url }}
-      modpack-run-url: ${{ steps.check-and-parse-issue.outputs.modpack-run-url }}
-      modpack-artifact-name: ${{ steps.check-and-parse-issue.outputs.modpack-artifact-name }}
-
-  close-issue:
-    name: Close Issue
-    needs: check-and-parse-issue
-    if: ${{ needs.check-and-parse-issue.outputs.passed != 'true' }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Close Issue
-        uses: peter-evans/close-issue@v2.0.0
-        with:
-          comment: |
-            此模板仅由内部人员使用，已自动关闭。
-
   lang-and-zs-to-paratranz:
     name: Lang And Zs To Paratranz
-    needs: check-and-parse-issue
-    if: ${{ needs.check-and-parse-issue.outputs.passed == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Setup Compare Repo
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
 
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          path: ${{ env.REPO_PATH }}
+
+      - name: Checkout GTNH-Translations (daily-history only)
+        uses: actions/checkout@v4
+        with:
+          repository: GTNewHorizons/GTNH-Translations
+          ref: master
+          path: .gtnh-translations.local.d
+          sparse-checkout: |
+            daily-history
+          sparse-checkout-cone-mode: true
+
       - name: Setup Bun
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
 
-      - name: Ensure Modpack
-        uses: Kiwi233/Translation-of-GTNH/.github/actions/ensure-modpack@master
-        with:
-          url: ${{ needs.check-and-parse-issue.outputs.modpack-url }}
-          run-url: ${{ needs.check-and-parse-issue.outputs.modpack-run-url }}
-          artifact-name: ${{ needs.check-and-parse-issue.outputs.modpack-artifact-name }}
-          root: ${{ env.MODPACK_PATH }}
+      - name: Patch Compare Scripts
+        run: |
+          cp ${{ env.REPO_PATH }}/.github/gtnh-compare-patches/rules.ts src/paratranz/converter/rules.ts
+          cp ${{ env.REPO_PATH }}/.github/gtnh-compare-patches/converter-index.ts src/paratranz/converter/index.ts
 
-      - name: Run Script
+      - name: Lang And Zs To Paratranz (from daily-history)
         run: >-
           bun run src/index.ts to-paratranz:lang-zs
-          --modpack-path='${{ env.MODPACK_PATH }}'
-          --extra-lang="config/amazingtrophies/lang/en_US.lang"
-          --extra-lang="config/txloader/**/en_US.lang"
-
-      - name: Close Issue
-        uses: peter-evans/close-issue@v2.0.0
-        with:
-          comment: |
-            已自动同步至 Paratranz。
+          --modpack-path='${{ env.DAILY_HISTORY_PATH }}'
+          --extra-lang='resources/**/en_US.lang'
+          --extra-lang='config/**/en_US.lang'
