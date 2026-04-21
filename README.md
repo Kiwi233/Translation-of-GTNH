@@ -32,19 +32,27 @@
 
 本仓库通过一套 GitHub Actions 自动化流程与 [ParaTranz](https://paratranz.cn) 保持同步。
 
-### 数据流向
+### Workflows 流程图
 
 ```
-GTNewHorizons/GTNH-Translations (daily-history/)
-        │  每日自动提取所有 Mod 的 en_US.lang
-        │  以及任务书 en_US.lang、GregTech.lang
+GTNewHorizons/GTNH-Translations/daily-history/
         │
-        ├──[每日自动] daily-sync.yml
-        │      上传英文原文 → PT 18818（每日更新预览项目）
-        │      上传汉译变化 → PT 18818（来自 PT 4964）
+        ├──[每月1日] sniff-lang-newlines.yml
+        │      嗅探各 lang 文件的换行符格式 → 缓存到 `.github/data/lang-newline-cache.json`
+        │
+        └──[每日自动] daily-sync.yml
+               上传英文原文 → PT 18818（每日更新预览项目）
+
+
+https://paratranz.cn/projects/4964
+        │
+        └──[每日自动] daily-sync.yml
+               上传汉译变化 → PT 18818（来自 PT 4964）
+
+https://paratranz.cn/projects/18818
         │
         └──[每日自动] daily-build.yml
-               获取最新汉化生成 Release 压缩包
+               下载最新汉化 → （根据最新换行符格式）生成 Release
 ```
 
 ### Workflows 说明
