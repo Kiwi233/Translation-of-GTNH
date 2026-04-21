@@ -1,9 +1,10 @@
 /**
  * sync-translations-to-project.ts
  *
- * Copies translated strings from a source Paratranz project to a target project.
- * Only copies strings that have been translated (stage >= 1) in the source project,
- * matching files by name across both projects.
+ * Incrementally copies translated strings from a source Paratranz project to a
+ * target project. Only strings that have been translated (stage >= 1) in the
+ * source project are considered, and among those only strings whose translation
+ * or stage differs from what is already in the target project are uploaded.
  *
  * Environment variables:
  *   PARATRANZ_TOKEN      – API token (must have access to both projects)
@@ -121,18 +122,33 @@ for (const sourceFile of sourceFiles) {
     continue
   }
 
-  const sourceStrings = await getAllStrings(SOURCE_ID, sourceFile.id)
-  const translated = sourceStrings.filter(s => s.translation && s.stage >= 1)
+  const [sourceStrings, targetStrings] = await Promise.all([
+    getAllStrings(SOURCE_ID, sourceFile.id),
+    getAllStrings(TARGET_ID, targetFileId),
+  ])
 
-  if (translated.length === 0)
+  // Build a lookup of what the target project currently has for each key
+  const targetByKey = new Map(targetStrings.map(s => [s.key, s]))
+
+  // Only upload strings whose translation or stage differs from the target
+  const changed = sourceStrings.filter((s) => {
+    if (!s.translation || s.stage < 1)
+      return false
+    const current = targetByKey.get(s.key)
+    return !current || current.translation !== s.translation || current.stage !== s.stage
+  })
+
+  if (changed.length === 0) {
+    consola.debug(`  ${sourceFile.name}: no changes`)
     continue
+  }
 
-  consola.info(`  ${sourceFile.name}: copying ${translated.length} translations`)
+  consola.info(`  ${sourceFile.name}: uploading ${changed.length} changed translations`)
 
   // Batch update target strings
   const BATCH = 500
-  for (let i = 0; i < translated.length; i += BATCH) {
-    const batch = translated.slice(i, i + BATCH).map(s => ({
+  for (let i = 0; i < changed.length; i += BATCH) {
+    const batch = changed.slice(i, i + BATCH).map(s => ({
       key: s.key,
       translation: s.translation,
       stage: s.stage,
@@ -145,7 +161,7 @@ for (const sourceFile of sourceFiles) {
     }
   }
 
-  totalCopied += translated.length
+  totalCopied += changed.length
 }
 
 consola.success(`Done. Copied ${totalCopied} translated strings to project ${TARGET_ID}.`)
