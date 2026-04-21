@@ -79,7 +79,7 @@ async function getAllStrings(projectId: string, fileId: number): Promise<PtStrin
     const data = await apiGet<PtPagedResponse<PtString>>(
       `/projects/${projectId}/strings?file=${fileId}&page=${page}&pageSize=${PAGE_SIZE}`,
     )
-    all.push(...data.results)
+    all.push(...(data.results ?? []))
     if (all.length >= data.total)
       break
     page++
@@ -87,21 +87,77 @@ async function getAllStrings(projectId: string, fileId: number): Promise<PtStrin
   return all
 }
 
-/** Fetch all files in a project, handling pagination. */
+/** Fetch all files in a project.
+ *
+ * The Paratranz `/projects/{id}/files` endpoint returns a direct JSON array
+ * (not a paginated `{total, results}` envelope like the strings endpoint).
+ * We handle both formats defensively.
+ */
 async function getAllFiles(projectId: string): Promise<PtFile[]> {
-  const PAGE_SIZE = 200
-  let page = 1
-  const all: PtFile[] = []
-  while (true) {
-    const data = await apiGet<PtPagedResponse<PtFile>>(
-      `/projects/${projectId}/files?page=${page}&pageSize=${PAGE_SIZE}`,
-    )
-    all.push(...data.results)
-    if (all.length >= data.total)
-      break
-    page++
+  const res = await fetch(`${API_BASE}/projects/${projectId}/files`, { headers })
+  if (!res.ok)
+    throw new Error(`GET /projects/${projectId}/files → ${res.status} ${res.statusText}`)
+  const data: unknown = await res.json()
+  if (Array.isArray(data))
+    return data as PtFile[]
+  // Fallback: paginated envelope (future-proof)
+  return ((data as PtPagedResponse<PtFile>).results ?? []) as PtFile[]
+}
+
+// ---------------------------------------------------------------------------
+// Path-mapping helpers
+// ---------------------------------------------------------------------------
+
+/**
+ * In PT 18818 (target), files are uploaded from the modpack's en_US originals
+ * and therefore live under the `resources/` tree:
+ *   resources/<DisplayName>[<modid>]/lang/zh_CN.lang.json
+ *
+ * In PT 4964 (source / main Chinese project), most translations were uploaded
+ * from the txloader overlay directory and therefore live under:
+ *   config/txloader/load/<modid>/lang/zh_CN.lang.json
+ *
+ * The regex below extracts the modid from a resources-path target file name
+ * so we can build a secondary index for the txloader fallback lookup.
+ */
+const TARGET_RESOURCES_RE = /^resources\/[^\[]+\[([^\]]+)\]\/lang\//
+const SOURCE_TXLOADER_RE = /^config\/txloader\/(?:load|forceload)\/([^/]+)\/lang\//
+
+/**
+ * Build a secondary lookup map: modid → target file id.
+ * Used when the source file lives under a txloader path and the target file
+ * lives under a resources path with the same modid embedded in brackets.
+ */
+function buildTargetModIdMap(targetFileMap: Map<string, number>): Map<string, number> {
+  const m = new Map<string, number>()
+  for (const [name, id] of targetFileMap) {
+    const match = name.match(TARGET_RESOURCES_RE)
+    if (match)
+      m.set(match[1], id)
   }
-  return all
+  return m
+}
+
+/**
+ * Resolve the target file id for a given source file name.
+ * Tries an exact name match first; if that fails and the source file looks
+ * like a txloader path, extracts the modid and looks it up in the secondary
+ * resources-path index.
+ */
+function resolveTargetFileId(
+  sourceName: string,
+  targetFileMap: Map<string, number>,
+  targetModIdMap: Map<string, number>,
+): number | undefined {
+  const exact = targetFileMap.get(sourceName)
+  if (exact != null)
+    return exact
+
+  const txMatch = sourceName.match(SOURCE_TXLOADER_RE)
+  if (txMatch)
+    return targetModIdMap.get(txMatch[1])
+
+  return undefined
 }
 
 consola.start(`Copying translations from project ${SOURCE_ID} → ${TARGET_ID}`)
@@ -112,13 +168,14 @@ const [sourceFiles, targetFiles] = await Promise.all([
 ])
 
 const targetFileMap = new Map(targetFiles.map(f => [f.name, f.id]))
+const targetModIdMap = buildTargetModIdMap(targetFileMap)
 
 let totalCopied = 0
 
 for (const sourceFile of sourceFiles) {
-  const targetFileId = targetFileMap.get(sourceFile.name)
+  const targetFileId = resolveTargetFileId(sourceFile.name, targetFileMap, targetModIdMap)
   if (targetFileId == null) {
-    consola.debug(`  Skipping "${sourceFile.name}" – not found in target project`)
+    consola.debug(`  Skipping "${sourceFile.name}" – no matching file found in target project`)
     continue
   }
 
