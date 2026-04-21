@@ -24,6 +24,8 @@ jobs:
   sniff:
     name: Sniff Lang Newline Formats
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4

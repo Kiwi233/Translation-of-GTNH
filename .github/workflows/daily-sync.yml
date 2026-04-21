@@ -25,6 +25,8 @@ jobs:
   daily-sync:
     name: Daily Sync To PT
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Resolve Modpack URL
         id: resolve-url

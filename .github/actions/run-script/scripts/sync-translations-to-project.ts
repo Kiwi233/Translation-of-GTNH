@@ -137,7 +137,12 @@ for (const sourceFile of sourceFiles) {
       translation: s.translation,
       stage: s.stage,
     }))
-    await apiPut(`/projects/${TARGET_ID}/strings`, batch)
+    try {
+      await apiPut(`/projects/${TARGET_ID}/strings`, batch)
+    }
+    catch (err) {
+      consola.warn(`  Failed to update batch ${Math.floor(i / BATCH) + 1} for "${sourceFile.name}": ${err}`)
+    }
   }
 
   totalCopied += translated.length

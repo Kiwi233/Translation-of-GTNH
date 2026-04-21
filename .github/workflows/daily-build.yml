@@ -6,6 +6,9 @@ on:
     # 中国时间每天凌晨 2 点（UTC 18:00）
     - cron: '0 18 * * *'
 
+permissions:
+  contents: write
+
 env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
@@ -19,6 +22,8 @@ jobs:
   daily-build:
     name: Daily Build
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Setup Compare Repo
         uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
@@ -89,6 +94,8 @@ jobs:
   cleanup-outdated-daily-builds:
     name: Cleanup Outdated Daily Builds
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Setup Datetime Related Envs
         uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
