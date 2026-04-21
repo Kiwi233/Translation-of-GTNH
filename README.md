@@ -7,18 +7,12 @@
 - 📝 **主翻译项目（人工校对）**：[ParaTranz 项目 4964](https://paratranz.cn/projects/4964) — 由 Kiwi233 团队维护，欢迎参与校对翻译
 - 🔄 **每日汉化项目（自动同步）**：[ParaTranz 项目 18818](https://paratranz.cn/projects/18818) — 本仓库每日从上游拉取最新英文原文并同步最新译文
 
-2026-1-27：2.8.4 版本汉化未审核版本完成。
-
 ---
 
 ## 汉化使用方式
 
 1. 在 [Releases](../../releases) 找到对应版本
 2. 下载压缩包，覆盖解压到 MC 目录
-
-> **注意（2.0.6.2 及以后）**：`config` 文件夹内有带 `us` 后缀的 JSON 文件，请删除，否则任务书汉化失败。  
-> **注意（2.3.1 及以后）**：任务书结构大改，`config` 中的 JSON 文件不再影响汉化，无需删除。  
-> **注意（2.7.2 / 2.7.3）**：需删除 `.minecraft/config/txloader/forceload` 中除 `____gtnhoverridenames` 和 `betterloadingscreen` 以外的所有文件夹，否则可能残留过时汉化。
 
 任务书无法正确显示时，可输入 `/bq_admin default load` 或右键"默认加载方块"命令方块重载。
 
@@ -41,9 +35,7 @@
 
 - **`master`**：唯一长期分支，始终保持最新汉化文件
 - **Tags / Releases**：版本历史通过 Tag 记录，每日构建自动生成 Release
-- 旧版本归档通过本仓库的 [Releases](../../releases) 页面按 Tag 查找；英文原文历史由上游 [GTNewHorizons/GTNH-Translations](https://github.com/GTNewHorizons/GTNH-Translations) 负责保存
-
-> 旧版本 `release/x.x.x` 分支已删除；如需查找历史版本，请在 [Releases](../../releases) 页面按 Tag 查找。
+- 历史由上游 [GTNewHorizons/GTNH-Translations](https://github.com/GTNewHorizons/GTNH-Translations) 和 [Kiwi233/Translation-of-GTNH](https://github.com/Kiwi233/Translation-of-GTNH) 保存
 
 ---
 
@@ -60,25 +52,10 @@ GTNewHorizons/GTNH-Translations (daily-history/)
         │
         ├──[每日自动] daily-sync.yml
         │      上传英文原文 → PT 18818（每日更新预览项目）
-        │      复制汉译    → PT 18818（来自 PT 4964）
+        │      上传汉译变化 → PT 18818（来自 PT 4964）
         │
-        ├──[手动触发] 3-lang-and-zs-to-paratranz.yml
-        │      上传英文原文 → PT 4964（主翻译项目）
-        │
-        └──[手动触发] 5-gt-lang-to-paratranz.yml
-               上传 GregTech.lang 原文 → PT 4964
-
-GTNewHorizons/GT-New-Horizons-Modpack（特定 commit）
-        │
-        └──[issue 触发] 1-quest-book-to-paratranz.yml
-               上传指定 commit 的任务书原文 → PT 4964
-
-PT 4964（主翻译项目，人工校对）
-        │
-        ├──[issue 触发] 2-paratranz-to-quest-book.yml → PR 更新任务书 zh_CN.lang
-        ├──[issue 触发] 4-paratranz-to-lang-and-zs.yml → PR 更新 lang + zs 文件
-        ├──[issue 触发] 6-paratranz-to-gt-lang.yml → PR 更新 GregTech.lang
-        └──[每日自动] daily-build.yml → 生成 Release 压缩包
+        └──[每日自动] daily-build.yml
+               获取最新汉化生成 Release 压缩包
 ```
 
 ### Workflows 说明
@@ -88,12 +65,6 @@ PT 4964（主翻译项目，人工校对）
 | `daily-build.yml` | 每日定时 / 手动 | 从 PT 4964 拉取最新译文并构建每日发布包 |
 | `daily-sync.yml` | 每日定时 / 手动 | 从 GTNH-Translations daily-history 上传英文原文到 PT 18818，并同步 4964 译文到 18818 |
 | `sniff-lang-newlines.yml` | 每月1日 / 手动 | 从 daily-history 嗅探各 lang 文件的换行符格式，缓存到 `.github/data/lang-newline-cache.json` |
-| `1-quest-book-to-paratranz.yml` | issue 触发 | 上传指定 commit 的任务书原文到 PT 4964 |
-| `2-paratranz-to-quest-book.yml` | issue 触发 | 从 PT 4964 导出任务书汉化，PR 到指定分支 |
-| `3-lang-and-zs-to-paratranz.yml` | 手动触发 | 上传最新 lang/zs 英文原文（来自 daily-history）到 PT 4964 |
-| `4-paratranz-to-lang-and-zs.yml` | issue 触发 | 从 PT 4964 导出 lang+zs 汉化，PR 到指定分支 |
-| `5-gt-lang-to-paratranz.yml` | 手动触发 | 上传最新 GregTech.lang 原文（来自 daily-history）到 PT 4964 |
-| `6-paratranz-to-gt-lang.yml` | issue 触发 | 从 PT 4964 导出 GT 语言文件汉化，PR 到指定分支 |
 | `release.yml` | tag push | 创建版本 Release |
 | `purge-workflows.yml` | 每日定时 / 手动 | 清理过期 workflow run 记录 |
 
@@ -107,8 +78,6 @@ daily-history/
 ├── config/txloader/load/betterquesting/lang/en_US.lang  # 任务书英文 lang
 └── resources/<ModName>[modid]/lang/en_US.lang           # 各 Mod 英文 lang
 ```
-
-本仓库的 `daily-sync`、`sniff-lang-newlines`、`3-lang-and-zs-to-paratranz`、`5-gt-lang-to-paratranz` 均直接读取此目录，无需下载 GB 级别的整合包。
 
 ---
 
