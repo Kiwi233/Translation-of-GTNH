@@ -1,9 +1,11 @@
 # Translation-of-GTNH
 
-## GT New Horizons 整合包汉化
+## GT New Horizons 整合包汉化（每日构建版）
 
-本仓库是 [Kiwi233/Translation-of-GTNH](https://github.com/Kiwi233/Translation-of-GTNH) 的 Fork，由 PinkYuDeer 独立维护（不计划合并回上游）。  
-汉化数据托管于 [ParaTranz 项目 4964](https://paratranz.cn/projects/4964)，欢迎参与翻译。
+本仓库 Fork 自 [Kiwi233/Translation-of-GTNH](https://github.com/Kiwi233/Translation-of-GTNH)，提供基于 **每日自动同步** 的最新汉化版本。
+
+- 📝 **主翻译项目（人工校对）**：[ParaTranz 项目 4964](https://paratranz.cn/projects/4964) — 由 Kiwi233 团队维护，欢迎参与校对翻译
+- 🔄 **每日汉化项目（自动同步）**：[ParaTranz 项目 18818](https://paratranz.cn/projects/18818) — 本仓库每日从上游拉取最新英文原文并同步最新译文
 
 2026-1-27：2.8.4 版本汉化未审核版本完成。
 
