@@ -2,8 +2,11 @@
  * sniff-lang-newlines.ts
  *
  * Scans en_US.lang files from GTNewHorizons/GTNH-Translations daily-history,
- * detects the newline-placeholder format used in each file's values (<BR>, <br>, or \n),
- * and writes the results to .github/data/lang-newline-cache.json in the repo.
+ * detects the newline-placeholder format used per-entry in each file's values
+ * (<BR>, <br>, or \n), and writes the results to
+ * .github/data/lang-newline-cache.json in the repo.
+ *
+ * Cache format: { "<zh_CN relpath>": { "<key>": "<format>", ... }, ... }
  *
  * Environment variables:
  *   DAILY_HISTORY_PATH  – path to the daily-history directory (from checkout-daily-history action)
@@ -24,22 +27,28 @@ if (!dailyHistoryPath || !repoPath) {
 
 const CACHE_PATH = join(repoPath, '.github/data/lang-newline-cache.json')
 
-/** Detect which newline placeholder a lang file uses in its values. */
-function detectNewlineFormat(content: string): '<BR>' | '<br>' | '\\n' | null {
+/**
+ * Detect the newline-placeholder format for every entry in a lang file.
+ * Returns a Map of key → format for all entries that contain a placeholder.
+ */
+function detectEntryNewlineFormats(content: string): Map<string, '<BR>' | '<br>' | '\\n'> {
+  const result = new Map<string, '<BR>' | '<br>' | '\\n'>()
   for (const line of content.split('\n')) {
     const trimmed = line.trim()
     if (trimmed.startsWith('#') || !trimmed.includes('='))
       continue
-    const value = trimmed.slice(trimmed.indexOf('=') + 1)
+    const eqIdx = trimmed.indexOf('=')
+    const key = trimmed.slice(0, eqIdx).trim()
+    const value = trimmed.slice(eqIdx + 1)
     if (value.includes('<BR>'))
-      return '<BR>'
-    if (value.includes('<br>'))
-      return '<br>'
+      result.set(key, '<BR>')
+    else if (value.includes('<br>'))
+      result.set(key, '<br>')
     // Check for literal \n escape sequence (2 chars: backslash + n)
-    if (value.includes('\\n'))
-      return '\\n'
+    else if (value.includes('\\n'))
+      result.set(key, '\\n')
   }
-  return null
+  return result
 }
 
 /** Recursively walk a directory and return all file paths. */
@@ -59,15 +68,17 @@ async function walk(dir: string): Promise<string[]> {
   return results
 }
 
-const cache: Record<string, string> = existsSync(CACHE_PATH)
+const cache: Record<string, Record<string, string>> = existsSync(CACHE_PATH)
   ? JSON.parse(await readFile(CACHE_PATH, 'utf8'))
   : {}
 
-let updated = 0
+let updatedFiles = 0
+let updatedEntries = 0
 
 /**
  * Process en_US.lang files under a daily-history subdirectory.
- * Maps each file to a repo relpath prefix (en_US → zh_CN) and caches the detected format.
+ * Maps each file to a repo relpath prefix (en_US → zh_CN) and caches the
+ * per-entry detected format.
  */
 async function processDir(baseDir: string, repoPrefix: string): Promise<void> {
   const files = await walk(baseDir)
@@ -80,17 +91,18 @@ async function processDir(baseDir: string, repoPrefix: string): Promise<void> {
     const zhRelpath = join(repoPrefix, relToBase.replace('en_US.lang', 'zh_CN.lang'))
       .split('\\').join('/')
 
-    // Skip if already cached (unless the file is new to the repo)
-    const existsInRepo = existsSync(join(repoPath, zhRelpath))
-    if (existsInRepo && cache[zhRelpath] !== undefined)
+    // Skip if already cached as a per-entry object (unless force-refresh cleared it)
+    const existing = cache[zhRelpath]
+    if (existing !== undefined && typeof existing === 'object')
       continue
 
     const content = await readFile(file, 'utf8')
-    const fmt = detectNewlineFormat(content)
-    if (fmt !== null) {
-      cache[zhRelpath] = fmt
-      updated++
-      console.log(`  [${fmt}] ${zhRelpath}`)
+    const entryFormats = detectEntryNewlineFormats(content)
+    if (entryFormats.size > 0) {
+      cache[zhRelpath] = Object.fromEntries(entryFormats)
+      updatedFiles++
+      updatedEntries += entryFormats.size
+      console.log(`  [${entryFormats.size} entries] ${zhRelpath}`)
     }
   }
 }
@@ -104,4 +116,4 @@ await processDir(join(dailyHistoryPath, 'config'), 'config')
 
 await writeFile(CACHE_PATH, JSON.stringify(cache, Object.keys(cache).sort(), 2) + '\n', 'utf8')
 
-console.log(`Done. Updated ${updated} entries. Cache written to ${CACHE_PATH}`)
+console.log(`Done. Updated ${updatedFiles} files / ${updatedEntries} entries. Cache written to ${CACHE_PATH}`)
