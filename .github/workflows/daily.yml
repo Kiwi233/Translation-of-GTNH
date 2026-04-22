@@ -59,6 +59,15 @@ jobs:
         with:
           script: setup-nightly-build-datetime-envs.ts
 
+      # ========== 额外文件预处理（合并进 daily-history，让主流程一起处理） ==========
+      # amazingtrophies / custommainmenu 走原生 .lang；CustomToolTips / Betterloadingscreen tips
+      # 被合成为 .lang 再走 PT，后续 post-download 会重建回原始格式。
+      - name: Stage Extra Files for PT Upload
+        run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/extra-files/pre-upload.ts
+        env:
+          DAILY_HISTORY_PATH: ${{ env.DAILY_HISTORY_PATH }}
+          REPO_PATH: ${{ env.REPO_PATH }}
+
       # ========== Refresh Newline Cache ==========
       # 每次构建前先重新嗅探英文原文的换行符格式，完全 runner 内生成、不提交仓库。
       - name: Refresh Newline Cache
@@ -101,7 +110,14 @@ jobs:
           bun run src/index.ts from-paratranz:gt-lang
           --repo-path='${{ env.REPO_PATH }}'
 
-      # ========== 额外文件（不走 PT） ==========
+      # ========== 额外文件后处理（重建 XML/txt，不走 PT 的直接拉取） ==========
+      # 把从 PT 拉下来的合成 .lang 重建成 CustomToolTips_zh_CN.xml / tips/zh_CN.txt，
+      # 并清掉合成中间目录以免被打包进 7z。
+      - name: Rebuild Extra Files From PT Output
+        run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/extra-files/post-download.ts
+        env:
+          REPO_PATH: ${{ env.REPO_PATH }}
+
       # 把 daily-history 的英文 GregTech.lang 复制进仓库作为英文原文打包。
       - name: Copy English GregTech.lang to Repo
         run: cp '${{ env.DAILY_HISTORY_PATH }}/GregTech.lang' '${{ env.REPO_PATH }}/GregTech_en_US.lang'

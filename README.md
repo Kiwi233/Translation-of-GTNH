@@ -86,8 +86,13 @@ daily-history/
 │   ├── converter-index.ts            # 加载缓存并把 fromParatranz 接上每词条 key
 │   └── rules.ts                      # 四类换行符规则（Script/Quest/GTLang/Lang）
 ├── scripts/                          # 本 Fork 自加脚本
-│   ├── extra-files/                  # 不走 PT 的特殊文件处理
-│   │   └── fetch-ingameinfo.ts       # 直接从 Kiwi233 master 拉 InGameInfo_zh_CN.xml
+│   ├── extra-files/                  # 主流程未覆盖的文件类型
+│   │   ├── lib/
+│   │   │   ├── tips.ts               # tips.txt 解析/重建
+│   │   │   └── tooltips.ts           # CustomToolTips XML 解析/重建
+│   │   ├── fetch-ingameinfo.ts       # 直接从 Kiwi233 master 拉 InGameInfo_zh_CN.xml（不走 PT）
+│   │   ├── pre-upload.ts             # 把 4 类额外文件变成 en_US.lang 接入主流程上传
+│   │   └── post-download.ts          # 把合成的 zh_CN.lang 重建为 XML / txt
 │   ├── release.ts                    # 打包脚本（fork 自上游，多打包 GregTech_en_US.lang）
 │   ├── sniff-lang-newlines.ts        # 嗅探英文原文换行符 → 写 runner 缓存
 │   └── sync-translations-to-project.ts  # 复制 4964 → 18818 译文（归一化 \n）
