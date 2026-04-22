@@ -63,10 +63,7 @@ export class GTLangNewlineRule implements NewlineRule {
     return text.replaceAll('<BR>', '\n').replaceAll('<br>', '\n')
   }
 
-  fromParatranz = (text: string, originalValue?: string): string => {
-    // Preserve original case: if original uses lowercase <br>, keep lowercase
-    if (originalValue && originalValue.includes('<br>') && !originalValue.includes('<BR>'))
-      return text.replaceAll('\n', '<br>')
+  fromParatranz = (text: string): string => {
     return text.replaceAll('\n', '<BR>')
   }
 }
