@@ -60,8 +60,7 @@ jobs:
           script: setup-nightly-build-datetime-envs.ts
 
       # ========== Refresh Newline Cache ==========
-      # 每次构建前先重新嗅探英文原文的换行符格式，保证缓存最新；
-      # 不 commit（历史记录由月度 sniff-lang-newlines.yml 负责），只在 runner 内使用。
+      # 每次构建前先重新嗅探英文原文的换行符格式，完全 runner 内生成、不提交仓库。
       - name: Refresh Newline Cache
         run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/sniff-lang-newlines.ts
         env:
@@ -102,14 +101,25 @@ jobs:
           bun run src/index.ts from-paratranz:gt-lang
           --repo-path='${{ env.REPO_PATH }}'
 
+      # ========== 额外文件（不走 PT） ==========
+      # 把 daily-history 的英文 GregTech.lang 复制进仓库作为英文原文打包。
+      - name: Copy English GregTech.lang to Repo
+        run: cp '${{ env.DAILY_HISTORY_PATH }}/GregTech.lang' '${{ env.REPO_PATH }}/GregTech_en_US.lang'
+
+      # InGameInfoXML 不走 PT —— 直接从上游 Kiwi233 master 拉取已翻译的 XML。
+      - name: Fetch InGameInfo_zh_CN.xml (bypasses PT)
+        run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/extra-files/fetch-ingameinfo.ts
+        env:
+          REPO_PATH: ${{ env.REPO_PATH }}
+
       # ========== 打包 & 发布 ==========
       - name: Build Daily Assets
-        uses: Kiwi233/Translation-of-GTNH/.github/actions/run-script@master
-        with:
-          script: release.ts
+        run: bun run -i ${{ env.REPO_PATH }}/.github/scripts/release.ts
         env:
           IS_NIGHTLY_BUILD: 'true'
           ARCHIVE_NAME: daily-${{ env.NB_LOCAL_DATE }}.7z
+          REPO_PATH: ${{ env.REPO_PATH }}
+          ASSETS_PATH: ${{ env.ASSETS_PATH }}
 
       - name: Push Tag
         working-directory: ${{ env.REPO_PATH }}

@@ -56,15 +56,14 @@
 
 换行符处理：
 - **上行**：所有 `<BR>` / `<br>` / `\n` 一律归一为 `\n` 再写入 PT 18818（由 `rules.ts` + `sync-translations-to-project.ts` 完成）
-- **嗅探**：每次每日构建开始时，根据上游 `daily-history` 英文原文，逐词条记录原本使用哪种换行符（`<BR>` / `<br>` / `\n`），写入 `.github/data/lang-newline-cache.json`
+- **嗅探**：每次每日构建开始时，根据上游 `daily-history` 英文原文，逐词条记录原本使用哪种换行符（`<BR>` / `<br>` / `\n`），仅在 runner 内生成、不提交仓库
 - **下行**：从 PT 18818 拉取译文后，按缓存里每个词条的原始形式把 `\n` 还原成 `<BR>` / `<br>` / `\n`，保证游戏内正确换行
 
 ### Workflows
 
 | Workflow | 触发 | 作用 |
 |---|---|---|
-| `daily.yml` | 每日 UTC 17:00 / 手动 | 嗅探换行符 → 上传英文原文 + GregTech.lang 到 PT 18818 → 从 4964 复制最新译文到 18818 → 从 18818 拉译文 → 打包 → 发布 `0-nightly-build/*` Release → 清理超过 7 天的旧包 |
-| `sniff-lang-newlines.yml` | 每月 1 日 / 手动 | 重新嗅探并 **commit** 换行符缓存，作为历史基线（每日流水线的嗅探只在 runner 内生效，不提交） |
+| `daily.yml` | 每日 UTC 17:00 / 手动 | 嗅探换行符 → 上传英文原文 + GregTech.lang 到 PT 18818 → 从 4964 复制最新译文到 18818 → 从 18818 拉译文 → 拉取非 PT 额外文件 → 打包 → 发布 `0-nightly-build/*` Release → 清理超过 7 天的旧包 |
 | `release.yml` | push 非 nightly 的 tag | 手动发版：包含 NotEnoughCharacters 字库 jar |
 | `purge-workflows.yml` | 每日 / 手动 | 清理过期的 cancelled/skipped workflow runs |
 
@@ -83,17 +82,17 @@ daily-history/
 
 ```
 .github/
-├── data/
-│   └── lang-newline-cache.json       # 换行符缓存：每词条原始形式
 ├── gtnh-compare-patches/             # 覆盖 GTNH-translation-compare 的转换逻辑
 │   ├── converter-index.ts            # 加载缓存并把 fromParatranz 接上每词条 key
 │   └── rules.ts                      # 四类换行符规则（Script/Quest/GTLang/Lang）
 ├── scripts/                          # 本 Fork 自加脚本
-│   ├── sniff-lang-newlines.ts        # 嗅探英文原文换行符 → 写缓存
+│   ├── extra-files/                  # 不走 PT 的特殊文件处理
+│   │   └── fetch-ingameinfo.ts       # 直接从 Kiwi233 master 拉 InGameInfo_zh_CN.xml
+│   ├── release.ts                    # 打包脚本（fork 自上游，多打包 GregTech_en_US.lang）
+│   ├── sniff-lang-newlines.ts        # 嗅探英文原文换行符 → 写 runner 缓存
 │   └── sync-translations-to-project.ts  # 复制 4964 → 18818 译文（归一化 \n）
 ├── workflows/
 │   ├── daily.yml
-│   ├── sniff-lang-newlines.yml
 │   ├── release.yml
 │   └── purge-workflows.yml
 └── ISSUE_TEMPLATE/
