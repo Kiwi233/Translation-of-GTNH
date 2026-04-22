@@ -9,10 +9,29 @@ import { log } from '~/log'
 import { FileExtraSchema } from '~/paratranz/types.ts'
 import { NewlineRules } from './rules.ts'
 
-// Load the sniffed newline-format cache if REPO_PATH is set
+// Load the sniffed newline-format cache if REPO_PATH is set.
+// The cache is runner-ephemeral (regenerated each build by sniff-lang-newlines.ts);
+// the absence of the file is expected on fresh checkouts and handled by loadCache.
 const _repoPath = process.env.REPO_PATH
 if (_repoPath) {
   NewlineRules.loadCache(join(_repoPath, '.github/data/lang-newline-cache.json'))
+}
+
+/**
+ * Rewrite upstream modpack-style lang paths into the game's packaging layout.
+ *
+ *   resources/<DisplayName>[<modid>]/lang/...  →  config/txloader/forceload/<modid>/lang/...
+ *
+ * This matches what txloader actually loads at runtime (and what translators
+ * see when browsing an extracted modpack), so PT 18818 mirrors the real
+ * on-disk structure instead of the upstream daily-history convention.
+ */
+const RESOURCES_LANG_RE = /^resources\/[^/]*\[([^\]]+)\]\/lang\/(.+)$/
+function rewriteTargetRelpath(relpath: string): string {
+  const m = relpath.match(RESOURCES_LANG_RE)
+  if (!m)
+    return relpath
+  return `config/txloader/forceload/${m[1]}/lang/${m[2]}`
 }
 
 export class Converter {
@@ -83,7 +102,7 @@ export class Converter {
   }
 
   async toParatranzFile(file: Filetype): Promise<ParatranzFile> {
-    const targetRelpath = file.getTargetLanguageRelpath(this.targetLang)
+    const targetRelpath = rewriteTargetRelpath(file.getTargetLanguageRelpath(this.targetLang))
     const fileName = `${targetRelpath}.json`
 
     const stringItems: StringItem[] = Object.values(file.properties).map(p => ({

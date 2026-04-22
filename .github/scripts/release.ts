@@ -55,9 +55,13 @@ const necName = Bun.env.NEC_NAME || (() => {
 })()
 
 // === 配置 ===
+// `resources` is intentionally dropped from the upstream list. After the
+// converter-index.ts rewrite (resources/<DisplayName>[<modid>]/... →
+// config/txloader/forceload/<modid>/...), PT 18818 downloads land directly
+// under `config/txloader/forceload/`, so packing `resources` too would leak
+// legacy/duplicate paths into the 7z.
 const pathsToBePacked = [
   'config',
-  'resources',
   'GregTech.lang',
   'GregTech_en_US.lang',
   'GTNH介绍.txt',
@@ -66,7 +70,6 @@ const pathsToBePacked = [
 
 const toBeRenamed: Record<string, string> = {
   'README.md': '看我.md',
-  'resources': 'config/txloader/forceload',
   'GregTech.lang': 'GregTech_zh_CN.lang',
 }
 

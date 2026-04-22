@@ -59,6 +59,8 @@
 - **嗅探**：每次每日构建开始时，根据上游 `daily-history` 英文原文，逐词条记录原本使用哪种换行符（`<BR>` / `<br>` / `\n`），仅在 runner 内生成、不提交仓库
 - **下行**：从 PT 18818 拉取译文后，按缓存里每个词条的原始形式把 `\n` 还原成 `<BR>` / `<br>` / `\n`，保证游戏内正确换行
 
+PT 路径约定：`converter-index.ts` 在上传时把 `resources/<DisplayName>[<modid>]/lang/...` 重写为 `config/txloader/forceload/<modid>/lang/...`，让 PT 18818 的目录结构与游戏内 txloader 实际加载路径一致，也让译者浏览项目时直接看到熟悉的布局。
+
 ### Workflows
 
 | Workflow | 触发 | 作用 |

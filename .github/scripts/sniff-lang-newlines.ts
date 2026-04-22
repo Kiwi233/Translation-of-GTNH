@@ -83,6 +83,17 @@ let detectedEntries = 0
  * format. Files with zero newline-placeholder entries are omitted from the
  * cache entirely (no empty `{}` placeholders).
  */
+// Mirrors the rewrite in .github/gtnh-compare-patches/converter-index.ts so
+// cache keys match the path PT actually stores (and thus what
+// LangNewlineRule.fromParatranz looks up at download time).
+const RESOURCES_LANG_RE = /^resources\/[^/]*\[([^\]]+)\]\/lang\/(.+)$/
+function rewriteTargetRelpath(relpath: string): string {
+  const m = relpath.match(RESOURCES_LANG_RE)
+  if (!m)
+    return relpath
+  return `config/txloader/forceload/${m[1]}/lang/${m[2]}`
+}
+
 async function processDir(baseDir: string, repoPrefix: string): Promise<void> {
   const files = await walk(baseDir)
   for (const file of files) {
@@ -90,8 +101,9 @@ async function processDir(baseDir: string, repoPrefix: string): Promise<void> {
       continue
 
     const relToBase = relative(baseDir, file)
-    const zhRelpath = join(repoPrefix, relToBase.replace('en_US.lang', 'zh_CN.lang'))
+    const rawRelpath = join(repoPrefix, relToBase.replace('en_US.lang', 'zh_CN.lang'))
       .split('\\').join('/')
+    const zhRelpath = rewriteTargetRelpath(rawRelpath)
 
     const content = await readFile(file, 'utf8')
     const entryFormats = detectEntryNewlineFormats(content)

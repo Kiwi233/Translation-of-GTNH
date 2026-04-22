@@ -187,13 +187,17 @@ async function getAllFiles(projectId: string): Promise<PtFile[]> {
 // ---------------------------------------------------------------------------
 
 /**
- * In PT 18818 (target), files are uploaded from the modpack's en_US originals
- * and live under `resources/<DisplayName>[<modid>]/lang/zh_CN.lang.json`.
+ * PT 18818 (target) mirrors the game's packaging layout thanks to the
+ * `rewriteTargetRelpath` patch in converter-index.ts: modpack lang files
+ * live at `config/txloader/forceload/<modid>/lang/zh_CN.lang.json`.
  *
- * In PT 4964 (source), most translations were uploaded from the txloader
- * overlay and live under `config/txloader/load/<modid>/lang/zh_CN.lang.json`.
+ * PT 4964 (source) uses the txloader overlay convention:
+ * `config/txloader/load/<modid>/lang/zh_CN.lang.json`.
+ *
+ * We match on modid across the load/forceload split so translations flow
+ * between them without needing identical path strings.
  */
-const TARGET_RESOURCES_RE = /^resources\/[^\[]+\[([^\]]+)\]\/lang\//
+const TARGET_FORCELOAD_RE = /^config\/txloader\/forceload\/([^/]+)\/lang\//
 const SOURCE_TXLOADER_RE = /^config\/txloader\/(?:load|forceload)\/([^/]+)\/lang\//
 
 function resolveTargetFile(
@@ -274,7 +278,7 @@ const [sourceFiles, targetFiles] = await Promise.all([
 const targetByName = new Map(targetFiles.map(f => [f.name, f]))
 const targetByModId = new Map<string, PtFile>()
 for (const [name, f] of targetByName) {
-  const m = name.match(TARGET_RESOURCES_RE)
+  const m = name.match(TARGET_FORCELOAD_RE)
   if (m)
     targetByModId.set(m[1], f)
 }
