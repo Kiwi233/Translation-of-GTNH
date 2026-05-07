@@ -7,6 +7,14 @@ tc.aspect.invidia=妒忌,嫉妒,不安
 tc.aspect.superbia=傲慢,自大,轻蔑
 tc.aspect.desidia=怠惰,懒散,拖延
 tc.aspect.luxuria=欲望,欲念,无度
+
+tc.aspect.help.infernus=地狱之火
+tc.aspect.help.ira=失控的狂怒
+tc.aspect.help.gula=永不满足的饥饿
+tc.aspect.help.invidia=嫉妒之心
+tc.aspect.help.superbia=傲慢自负
+tc.aspect.help.desidia=闲置忽视
+tc.aspect.help.luxuria=诱人欲望
 #
 # Items
 item.NetherShard.name=碎片
@@ -139,7 +147,6 @@ forbidden.upgrade.pandemonium.text=这个升级将会把你被传送到的地方
 #
 # Tooltips
 tooltip.currentowner=当前持有者:
-tooltip.divineorb=存储原始的生命本质:
 tooltip.creativeonly=创造模式专用
 tooltip.collar.owner=持有者:
 #
@@ -163,7 +170,8 @@ forbidden.research_text.NETHERSHARDS=为了为所欲为.
 forbidden.research_page.NETHERSHARDS.1=诡异的能量流打着漩儿贯穿着下界.有时候,正如我们所知,当某些共鸣事件发生之际,这些能量流会凝结成一些水晶碎片.
 forbidden.research_page.NETHERSHARDS.2=这些水晶内充斥着世间诸罪,对那些更肆无忌惮的神秘使来说用途广泛.<BR>目前有7种记录在案的下界碎片,分别与不同的"死罪"相谐。<BR><BR><IMG>forbidden:textures/misc/research.png:0:0:111:16:1</IMG><BR>
 forbidden.research_page.NETHERSHARDS.2b=这些水晶内充斥着世间诸罪,对那些更加百无禁忌的神秘使来说用途广泛.<BR>目前有6种记录在案的下界碎片,分别与不同的"死罪"相谐。<BR><BR><IMG>forbidden:textures/misc/research.png:0:16:95:16:1</IMG><BR>
-forbidden.research_page.NETHERSHARDS.3=暴怒碎片凝结了各种暴力行径.逞凶滥武越肆无忌惮之地越可能出现暴怒碎片.<BR><BR>怠倦碎片会在人们妄想毫不付出,仅仅靠假手他人或投机倒把就能收集到资源的时候凝固成形.<BR><BR>妒忌碎片会被那些觊觎者从拥有它们的人手里夺走.<BR><BR>傲慢碎片会在那些真正强大的生物颜面扫地时具现.<BR><BR>随着时间的推移还将会冒出更多的共鸣事件!
+forbidden.research_page.NETHERSHARDS.3=暴怒碎片凝结了各种暴力行径.逞凶滥武越肆无忌惮之地越可能出现暴怒碎片.<BR><BR>怠倦碎片会在人们妄想毫不付出,仅仅靠假手他人或投机倒把就能收集到资源的时候凝固成形.<BR><BR>妒忌碎片会被那些觊觎者从拥有它们的人手里夺走.<BR><BR>傲慢碎片会在那些真正强大的生物颜面扫地时具现.<BR><BR>贪婪碎片在利用附魔牟利时出现.<BR><BR>色欲碎片从动物群的繁衍中诞生.
+forbidden.research_page.NETHERSHARDS.3b=愤怒碎片会在暴力行为周围结晶.使用的物理力量越过度,愤怒碎片出现的可能性就越大.<BR><BR>懒惰碎片会在利用替身和意外事件不劳而获地收集资源时凝结.<BR><BR>嫉妒碎片会被觊觎者从拥有者身上夺取.<BR><BR>骄傲碎片会在真正强大的生物被削弱时具象化.<BR><BR>暴食碎片会在有人大快朵颐时结晶.<BR><BR>贪婪碎片会在利用附魔牟利时出现.
 #
 forbidden.research_name.SKULLAXE=啄颅斧
 forbidden.research_text.SKULLAXE=砍掉他们的脑袋!
@@ -171,7 +179,7 @@ forbidden.research_page.SKULLAXE.1=某些怪物就是那么能让你热血沸腾
 #
 forbidden.research_name.RINGFOOD=滋养指环
 forbidden.research_text.RINGFOOD=奶酪泡芙可以预防坏血病,对吧?
-forbidden.research_page.RINGFOOD.1=人们一直在责备你.他们坚持认为你不可能终日以曲奇为食,或者说"营养不是那样补充的."好吧,但是你现在可以拿这个来回应那些反对者了.<BR><BR>当你手指上戴着滋养指环时,它就可以给你绝大多数的食物提供额外的饱食度加成.<BR><BR>(副作用可能包括反胃,头痛,痉挛,眩晕,糖尿病,以及对顺势疗法的突发兴趣.)
+forbidden.research_page.RINGFOOD.1=人们一直在责备你.他们坚持认为你不可能终日以曲奇为食,或者说"营养不是那样补充的."好吧,但是你现在可以拿这个来回应那些反对者了.<BR><BR>当你手指上戴着滋养指环时,它就可以给你绝大多数的食物提供额外的饱和度加成.<BR><BR>(副作用可能包括反胃,头痛,痉挛,眩晕,糖尿病,以及对顺势疗法的突发兴趣.)
 #
 forbidden.research_name.ARCANECAKE=奥法蛋糕
 forbidden.research_text.ARCANECAKE=让他们吃掉蛋糕.
@@ -192,7 +200,7 @@ forbidden.research_page.TAINTPICK.1=向神秘镐中注入腐化的力量,你制�
 #
 forbidden.research_name.ROD_tainted=腐化杖柄
 forbidden.research_text.ROD_tainted=扭曲Vis容器
-forbidden.research_page.ROD_tainted.1=腐化的大地对那些知道如何开发它们的神秘使来说是既了不起又糟透了的地方.<BR><BR>腐化法杖核心能够存储每种vis50点,且身处腐化区域时还能自动将每种vis回复到10%的水平.这种法杖被攥在手里时,还能从穿透静脉的咒波污染中汲取能量,在每次承受咒波污染伤害时随机回复魔力.
+forbidden.research_page.ROD_tainted.1=腐化的大地对那些知道如何开发它们的神秘使来说是既了不起又糟透了的地方.<BR><BR>腐化法杖核心能够存储每种vis%d点,且身处腐化区域时还能自动将每种vis回复到其容量的10%%的水平.这种法杖被攥在手里时,还能从穿透静脉的咒波污染中汲取能量,在每次承受咒波污染伤害时随机回复魔力.
 #
 forbidden.research_name.TAINTTREE=腐化之树
 forbidden.research_text.TAINTTREE=咒流之根所蕴育的邪恶果实
@@ -204,7 +212,7 @@ forbidden.research_page.TAINTSTONE.1=腐化之地并不是一个适合久留的�
 #
 forbidden.research_name.ROD_infernal=炼狱杖柄
 forbidden.research_text.ROD_infernal=恶魔Vis容器
-forbidden.research_page.ROD_infernal.1=像您这般伟大而强力的神秘使,值得拥有一柄与身份相衬且炫酷强力的法杖.那些嬉皮的银树法杖根本无法胜任.您需要的法杖,必须要能够作为彰显权威的节杖.<BR><BR>你研究出一种注入下界之力制造法杖的方法.炼狱法杖核心能够容纳150点vis,并且能够自动回复Ignis源质到20%的水平.当身处下界,其他vis也能自动回复到10%的水平.
+forbidden.research_page.ROD_infernal.1=像您这般伟大而强力的神秘使,值得拥有一柄与身份相衬且炫酷强力的法杖.那些嬉皮的银树法杖根本无法胜任.您需要的法杖,必须要能够作为彰显权威的节杖.<BR><BR>你研究出一种注入下界之力制造法杖的方法.炼狱法杖核心能够容纳%d点vis,并且能够自动回复Ignis源质到20%%的水平.当身处下界,其他vis也能自动回复到10%%的水平.
 forbidden.research_page.ROD_infernal.2=这柄法杖还附加一些针对下界危险的防护法术.只要它留在物品栏内,就不仅能自动帮你扑灭身上的火焰,还能帮助你豁免凋灵效果.手持这柄法杖时,能够完全免疫所有灼烧伤害.
 #
 forbidden.research_name.ROD_profane=渎神杖柄
@@ -217,36 +225,36 @@ forbidden.research_page.ROD_soul.1=你研究出一种从玩家信标中抽取能
 #
 forbidden.research_name.ROD_blood=血腥杖柄
 forbidden.research_text.ROD_blood=炼金学Vis容器
-forbidden.research_page.ROD_blood.1=在神秘学和炼金术之间你构筑出一座桥梁.血腥法杖能够容纳100单位的Vis,并且可以消耗生命点来补充自己.<BR><BR>这柄法杖会和第一个拿起它来的人绑定.如果没有足够的生命点作为燃料,这柄法杖还会试图抽取拿着它的人的生命力,但这种转换的效率并不高.若手持法杖的人血量下降到三颗心一下,并非多余生命可供抽取,法杖将会停止为自己充能.
-forbidden.research_page.ROD_blood.2=单独的注魔过程不足以完成一柄血腥法杖.注魔制作的惰性血腥法杖需要在血腥祭坛内注入生命精华才能激活.
+forbidden.research_page.ROD_blood.1=在神秘学和炼金术之间你构筑出一座桥梁.血腥法杖能够容纳%d单位的Vis,且每点vis将消耗1,000点生命精华进行缓慢充能.<BR><BR>这柄法杖会和第一个拿起它来的人绑定.只要魔杖未达容量上限且被携带,便会持续从持有者的生命精华网络中汲取能量进行充能.如果没有足够的生命点作为燃料,这柄法杖还会试图抽取拿着它的人的生命值,但这种转换的效率并不高.当既无生命精华可供汲取且持有者生命值低于三颗心时,法杖将会停止为自己充能.
+forbidden.research_page.ROD_blood.2=单独的注魔过程不足以完成一柄血腥法杖.注魔制作的惰性血腥法杖需要在血腥祭坛内注入生命精华以点燃它对鲜血的渴望.
 #
 forbidden.research_name.ROD_blood_staff=血腥杖芯
 forbidden.research_text.ROD_blood_staff=血法师之杖
-forbidden.research_page.ROD_blood_staff.1=血腥法杖有用,但充能太慢了.是时候做一柄适合用于持久战斗的魔法工具了.<BR><BR>不像多数手杖,血腥手杖只能容纳50单位的Vis,而非其法杖形式的100 单位容量.它真正的亮点在于能够快速回复魔力.只要将血腥手杖放置在快捷栏内，它就能以4倍于血腥法杖的速度从其主人的生命点系统中抽取能量充能.不像法杖,如若没有足够的生命点它将会而且也愿意杀死持有它的家伙.
+forbidden.research_page.ROD_blood_staff.1=血腥法杖有用,但充能太慢了.是时候做一柄适合用于持久战斗的魔法工具了.<BR><BR>不像多数手杖,血腥手杖只能容纳%d单位的Vis,而非其法杖形式的%d单位容量.它真正的亮点在于能够快速回复魔力.只要将血腥手杖放置在快捷栏内，它就能以4倍于血腥法杖的速度从其主人的生命点系统中抽取能量充能.不像法杖,如若没有足够的生命点它将会而且也愿意杀死持有它的家伙.
 #
 forbidden.research_name.ROD_witchwood=巫魂木杖柄
 forbidden.research_text.ROD_witchwood=魔力转换
-forbidden.research_page.ROD_witchwood.1=使用巫魂木制作出这柄法杖后,你研究出一种能够将AM魔力转换成TC魔力的方法.巫魂木杖柄能容纳100 单位Vis且能以140 mana换取1 vis的效率回复魔力.<BR><BR>进一步的研究会帮助你找到降低转换损耗之策.
+forbidden.research_page.ROD_witchwood.1=使用巫魂木制作出这柄法杖后,你研究出一种能够将AM魔力转换成TC魔力的方法.巫魂木杖柄能容纳%d单位Vis且能以140 mana换取1 vis的效率回复魔力.<BR><BR>进一步的研究会帮助你找到降低转换损耗之策.
 #
 forbidden.research_name.ROD_witchwood_staff=巫魂木杖芯
 forbidden.research_text.ROD_witchwood_staff=巫师之杖
-forbidden.research_page.ROD_witchwood_staff.1=巫魂木法杖要吞噬掉太多的AM魔力,充能又慢得远远不适合用于持久战斗.是时候做点能稍微高效点儿地引导奥术能量的玩意儿了.不像多数手杖,巫魂木手杖只能容纳50 单位Vis.它真正的优势在于快速的充能效率—达到巫魂木法杖的2倍.不仅如此,相比巫魂木法杖,若没有合适的杖端,巫魂木手杖还能节约可观的AM魔力,只需要100点就能换取1 单位的TC魔力.
+forbidden.research_page.ROD_witchwood_staff.1=巫魂木法杖要吞噬掉太多的AM魔力,充能又慢得远远不适合用于持久战斗.是时候做点能稍微高效点儿地引导奥术能量的玩意儿了.不像多数手杖,巫魂木手杖只能容纳%d单位Vis.它真正的优势在于快速的充能效率—达到巫魂木法杖的2倍.不仅如此,相比巫魂木法杖,若没有合适的杖端,巫魂木手杖还能节约可观的AM魔力,只需要100点就能换取1 单位的TC魔力.
 #
 forbidden.research_name.ROD_livingwood=活木杖柄
 forbidden.research_text.ROD_livingwood=植物Vis容器
-forbidden.research_page.ROD_livingwood.1=活木在操纵植魔魔力的性能上得天独厚.当其与合适的药剂相融合,甚至可以将植魔魔力转换为TC魔力.<BR><BR>活木法杖能从物品栏存储的物品中抽取植魔魔力为自己充能.<BR><BR>不幸的是,注魔的过程会使活木陷入休眠,注魔后杖端需要在魔力池中进行充能才能重新激活.
+forbidden.research_page.ROD_livingwood.1=活木拥有操纵魔力的非凡能力.当与合适的试剂结合时,它可以被制成能够储存%d点vis的魔杖核心,甚至能将魔力转化为vis.<BR><BR>活木魔杖会迅速从你物品栏中的存储物品或佩戴的饰品中汲取魔力,以进行自我充能.<BR><BR>遗憾的是,灌注过程会耗尽活木的生命力.一旦完成灌注,魔杖杖杆必须在魔力池中充能才能重新激活.
 #
 forbidden.research_name.ROD_dreamwood_staff=梦之木杖柄
 forbidden.research_text.ROD_dreamwood_staff=甜美之梦所缔造
-forbidden.research_page.ROD_dreamwood_staff.1=活木是一种有用的材料,但它似乎无法承受制造杖柄时所用的那种奥法魔力.但是精灵族的梦之木却可以胜任.<BR><BR>梦之木所打造的法杖,相比于等价的其它法杖来说明显能容纳更多Vis,在使用法杖核心时还能增强核心的效果.<BR><BR>和活木一样,要完全激活梦之木杖柄需要将其放入魔力池中进行注魔方可.
+forbidden.research_page.ROD_dreamwood_staff.1=活木是一种有用的材料,但它似乎无法承受制作法杖所需的奥术能量.然而,精灵们的梦木似乎能够胜任这项任务.<BR><BR>梦木魔杖可以容纳%d点魔力,而用梦木制成的法杖则可以容纳%d点魔力,并且在使用聚焦器时能够释放更强大的力量.<BR><BR>与活木一样,梦木魔杖必须在魔力池中进行灌注才能完全觉醒.
 #
 forbidden.research_name.CAP_alchemical=炼金纹饰杖端
 forbidden.research_text.CAP_alchemical=当神秘学不够血腥时
-forbidden.research_page.CAP_alchemical.1=将神秘学与炼金巫术相结合,你开发出一种新型杖端.炼金纹饰杖端在引导Aqua源质时非常高效,与平常相比仅仅需要80%的源质消耗量.但对其余类型的源质,效率只有90%.<BR><BR>若安装在血腥杖柄上,炼金纹饰杖端将提高生命点转换成魔力的效率,每vis只需900生命点.这种杖端还能让所有的血腥法杖发出的攻击附带虚弱效果.
+forbidden.research_page.CAP_alchemical.1=将神秘学与炼金巫术相结合,你开发出一种新型杖端.炼金纹饰杖端在引导Aqua要素源质时非常高效,与平常相比仅仅需要%d%%的魔力源质消耗量.但对其余类型的要素源质,效率只有%d%%.<BR><BR>若安装在血腥杖柄上,炼金纹饰杖端将降低魔杖消耗的生命点,每vis只需900生命点.这种杖端还能让所有的血腥法杖发出的攻击附带虚弱效果.
 #
 forbidden.research_name.CAP_vinteum=温特姆杖端
 forbidden.research_text.CAP_vinteum=魔法杖端
-forbidden.research_page.CAP_vinteum.1=将神秘杖端与温特姆相融,你制作出一种杖端,能够安装在巫魂木杖柄上,使得其只需要消耗80点AM魔力就能转换一点TC魔力.<BR><BR>看起来神秘杖端和温特姆相得益彰,还保留着90%的魔力使用效率.
+forbidden.research_page.CAP_vinteum.1=将魔导钯杖端与温特姆融合,可制成一种特殊杖端,搭配女巫木杖柄或女巫木法杖核心使用时,能降低约一半的魔力消耗.<BR><BR>魔导钯材质似乎能与温特姆完美融合,提供%d%%的vis转化率.
 #
 forbidden.research_name.CAP_soul=末影杖端
 forbidden.research_text.CAP_soul=灵魂防护
@@ -254,15 +262,15 @@ forbidden.research_page.CAP_soul.1=你已经制造出一种杖端,能够安全�
 #
 forbidden.research_name.CAP_manasteel=魔钢杖端
 forbidden.research_text.CAP_manasteel=魔力之秘
-forbidden.research_page.CAP_manasteel.1=魔力钢在操纵植魔魔力的特性方面得天独厚.用它来制作的杖端只有90%的魔力效率.安装在活木杖柄上后,它能够让植魔魔力转换成vis的效率更高.<BR><BR>为了用于制作法杖,惰性魔钢杖端需要在魔力池中激活.
+forbidden.research_page.CAP_manasteel.1=魔力钢在操纵植魔魔力的特性方面得天独厚.用它来制作的杖端只有%d%%的魔力效率.安装在活木杖柄上后,它能够让植魔魔力转换成vis的效率更高.<BR><BR>为了用于制作法杖,惰性魔钢杖端需要在魔力池中激活.
 #
 forbidden.research_name.CAP_elementium=源质钢杖端
 forbidden.research_text.CAP_elementium=生态友好型杖端
-forbidden.research_page.CAP_elementium.1=精灵世界似乎是一个浸透着魔力的世界,源质钢也不例外. 当使用正确的材料处理并用于合成为杖端后,源质钢杖端正如期望中的那样获得了引导Vis的能力.若是与使用Mana的杖芯或杖柄相结合,它们还可以降低Mana的转换比率.<BR><BR>源质钢的那一抹粉色更是锦上添花.
+forbidden.research_page.CAP_elementium.1=阿尔芙海姆似乎是一个充满魔法力量的世界,源质钢也不例外.当被制成杖端并用合适的材料处理后,源质钢杖端具有卓越的引导vis的能力,提供%d%%的vis消耗减免.当与使用魔力的魔杖或法杖结合时,它们还能提高魔力转换率.<BR><BR>源质钢那漂亮的粉红色只是锦上添花.
 #
 forbidden.research_name.CAP_terrasteel=泰拉钢杖端
 forbidden.research_text.CAP_terrasteel=完成!
-forbidden.research_page.CAP_terrasteel.1=小宝贝,这是个可怕的想法.你在想什么?<BR><BR>泰拉钢对mana的过度饱和赋予了它许多类似大地的性质,诸如:力量,耐久,致密,和...对能量的极端抵抗力.泰拉钢纯粹的抗魔性导致绝大部分的vis只会消散而不是从魔杖中凝聚.<BR><BR>显然,将世上的所有材料都做成杖端不是个好主意.
+forbidden.research_page.CAP_terrasteel.1=小宝贝,这是个可怕的想法.你在想什么?<BR><BR>泰拉钢对mana的过度饱和赋予了它许多类似大地的性质,诸如:力量,耐久,致密,和...对能量的极端抵抗力.泰拉钢完全无法导引vis,绝大部分的vis只会消散而不是从魔杖中凝聚,结果vis消耗变成了通常的%d%%.<BR><BR>显然,将世上的所有材料都做成杖端不是个好主意.
 #
 forbidden.research_name.TRANSEMERALD=嬗变术:绿宝石
 forbidden.research_text.TRANSEMERALD=将贵重物品转换为绿宝石
@@ -301,7 +309,7 @@ forbidden.research_page.GREEDY.1=你已经研究出一种武器附魔,能让你�
 #
 forbidden.research_name.CONSUMING=附魔:挥霍
 forbidden.research_text.CONSUMING=垃圾处理
-forbidden.research_page.CONSUMING.1=烦透了要手动清空口袋里无用的垃圾,你设计出一种附魔,能够让工具自动毁掉那些寻常的不需要的材料.被挥霍工具挖掉的所有圆石,泥土或下界岩都会被销毁,而非掉落到地上.
+forbidden.research_page.CONSUMING.1=烦透了要手动清空口袋里无用的垃圾,你设计出一种附魔,能够让工具自动毁掉那些寻常的不需要的材料.被挥霍工具挖掉的所有圆石,泥土或地狱岩都会被销毁,而非掉落到地上.
 #
 forbidden.research_name.WRATH=附魔:暴怒
 forbidden.research_text.WRATH=当一切都变得棘手如钉子,那你只需要一柄更沉的锤子

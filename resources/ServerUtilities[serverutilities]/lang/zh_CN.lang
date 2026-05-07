@@ -51,6 +51,7 @@ cooldown=冷却
 cant_use_now=现在无法使用！
 cant_use_now_cooldown=现在无法使用，冷却时间：%s
 action_bar=操作栏
+title=Title
 nothing_changed=无改变！
 player_must_be_online=玩家必须在线！
 
@@ -135,7 +136,10 @@ serverutilities.world.forced_spawn_dimension_weather=强制出生点维度天气
 serverutilities.world.disable_player_suffocation_damage=禁用玩家受到窒息伤害
 serverutilities.world.show_playtime=在左上角显示游玩时间
 serverutilities.world.players_sleeping=§f%s§6 睡下了。 %s/%s (%s%%)
-serverutiltiies.world.skip_night=§6起床了，阳光明媚……大家早上好！
+serverutilities.world.vampires_sleeping=§f%s§4 is resting in a coffin. %s/%s (%s%%)
+
+serverutilities.world.skip_night=§6醒醒，醒醒，该起床了……大家早上好！
+serverutilities.world.skip_day=§4The sun has set, and the shadows grow long... The night is ours!
 
 serverutilities.world.logging=记录中
 serverutilities.world.logging.include_creative_players=包括创造模式玩家
@@ -160,6 +164,9 @@ serverutilities.debugging.log_chunkloading=记录区块加载
 serverutilities.general.clientless_mode=无客户端模式
 serverutilities.general.replace_reload_command=替换 /reload 命令
 serverutilities.general.merge_offline_mode_players=合并离线模式玩家数据
+serverutilities.general.toggle_cheats=切换作弊模式
+serverutilities.general.enable_cheats=启用作弊
+serverutilities.general.disable_cheats=禁用作弊
 
 serverutilities.teams=组
 serverutilities.teams.autocreate_sp=单人游戏自动创建组
@@ -340,7 +347,7 @@ sidebar_button.serverutilities.toggle.day.tooltip=设置为白天
 sidebar_button.serverutilities.toggle.night=设置为黑夜
 sidebar_button.serverutilities.toggle.night.tooltip=设置为黑夜
 sidebar_button.serverutilities.heal=治疗
-sidebar_button.serverutilities.heal.tooltip=治疗玩家至满血，并消除玩家的着火效果
+sidebar_button.serverutilities.heal.tooltip=将玩家生命值和饱和度恢复至最大值，并消除玩家的着火效果
 sidebar_button.serverutilities.server_info=服务器信息
 sidebar_button.serverutilities.claimed_chunks=声明区块
 sidebar_button.serverutilities.trash_can=垃圾桶
@@ -483,6 +490,7 @@ commands.add_fake_player.usage=/add_fake_player <uuid> <name>
 commands.god.usage=/god <player>
 commands.rtp.usage=/rtp
 commands.dump_chunkloaders.usage=/dump_chunkloaders
+commands.dump_chunkloaders.unknown_dimension=Couldn't find dimension %d!
 commands.dump_permissions.usage=/dump_permissions
 commands.vanish.usage=/vanish
 commands.vanish.toggle.usage=/vanish toggle <on|off>
@@ -508,8 +516,8 @@ commands.vanish.damage_other=隐身时伤害其他实体
 commands.vanish.send_connection_msg=隐身时发送进出消息
 commands.vanish.container_read_only=容器仅读取
 commands.vanish.item_dropping=隐身时掉落物
-commands.pregen.start.usage_server=/pregen start <x> <y> <半径>
-commands.pregen.start.usage_client=/pregen start <x> <y> <半径> 或 /pregen <半径>
+commands.pregen.start.usage_server=/pregen start <x> <z> <半径>
+commands.pregen.start.usage_client=/pregen start <x> <z> <半径> 或 /pregen start <半径>
 commands.pregen.stop.usage=/pregen stop
 commands.pregen.progress.usage=/pregen progress
 

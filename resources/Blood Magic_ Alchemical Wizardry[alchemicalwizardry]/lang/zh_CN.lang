@@ -264,6 +264,9 @@ item.bloodMagicIncenseItem.Purpura.name=紫香粉末
 itemGroup.tabBloodMagic=血魔法
 
 #Extra Strings
+gui.blockWritingTable.title=炼金术台
+gui.demonChest.title=恶魔的箱子
+gui.bloodTeleposer.title=传送器
 bm.string.consume=使用
 bm.string.drain=消耗
 bm.string.tier=层数
@@ -274,9 +277,11 @@ text.recipe.altar=血之祭坛
 text.recipe.altar.tier=层数: %s
 text.recipe.altar.bloodRequired=容量: %s LP
 text.recipe.shapedOrb=合适宝珠合成
+text.recipe.alchemicCalcinator.reagent=%s AR
 nei.recipe.meteor.category=陨星仪式
 nei.recipe.meteor.cost=LP消耗
 nei.recipe.meteor.tooExpensive=灵魂网络中的LP不足
+nei.recipe.meteor.cost.gui=%s
 nei.recipe.meteor.radius=半径: %s
 nei.recipe.meteor.diameter=直径：%d（2r + 1）
 nei.recipe.meteor.chance=几率: %s%%
@@ -423,11 +428,7 @@ tooltip.alchemy.coords=坐标:
 tooltip.alchemy.damage=攻击伤害:
 tooltip.alchemy.dimension=绑定维度:
 tooltip.alchemy.direction=方向:
-tooltip.alchemy.forrecipe=了解配方
-tooltip.alchemy.press=对着物品按 
-tooltip.alchemy.recipe=材料:
 tooltip.alchemy.ritualid=仪式ID:
-tooltip.alchemy.shift=shift
 tooltip.alchemy.usedinalchemy=用于炼金术
 tooltip.alchemyflask.caution=警 告: 内部异常
 tooltip.alchemyflask.swigsleft=药水剩余:
@@ -503,7 +504,7 @@ tooltip.ritualdiviner.ritualtunedto=仪式朝向:
 tooltip.ritualdiviner.waterstones=水之仪式石:
 tooltip.ritualdiviner.dawnstones=破晓仪式石:
 tooltip.ritualdiviner.totalStones=仪式石总数:
-tooltip.dismatler.desc=你可以把这个颠倒过来?
+tooltip.dismantler.desc=你能把这个倒过来吗？
 tooltip.sacrificialdagger.desc1=手指感到一股轻微的排失似的发痒
 tooltip.sacrificialdagger.desc2=只是刺一下手指
 tooltip.sacrificialdagger.desc3=你就能获得力量...
@@ -628,8 +629,8 @@ achievement.alchemicalwizardry:energyBazooka=BOOM!!!
 achievement.alchemicalwizardry:energyBazooka.desc=制作强大的能量火箭筒!!
 achievement.alchemicalwizardry:demons=恶魔猎手
 achievement.alchemicalwizardry:demons.desc=杀死由恶魔入侵召唤的恶魔
-achievement.alchemicalwizardry:trancsendentOrb=强上加强
-achievement.alchemicalwizardry:trancsendentOrb.desc=捡起卓越气血宝珠
+achievement.alchemicalwizardry:transcendentOrb=无敌
+achievement.alchemicalwizardry:transcendentOrb.desc=拾取一个卓越气血宝珠
 
 #Buff
 bm.buff.drowning=溺水
@@ -683,3 +684,59 @@ structurelib.bloodmagic.altar.2=手持 1-6 个全息投影仪以确定等级
 structurelib.bloodmagic.altar.3=%s等级支柱接受任意方块
 structurelib.bloodmagic.altar.4=%s等级顶部接受任何方块
 structurelib.bloodmagic.altar.5=5等级信标可接受任何方块
+
+# GTNH NEI Information Pages
+# Blood Altar Progression
+nei.infopage.bloodAltar.1.a=血之祭坛是血魔法：炼金巫术的核心所在。\n\n要开启通往巨大力量的旅程，请将其放置在世界中，站在祭坛附近使用牺牲匕首，将1点生命值转化为原始生命本质。
+nei.infopage.bloodAltar.1.b=血之祭坛是血魔法：炼金巫术的核心所在。\n\n要开启通往巨大力量的旅程，请将其放置在世界中，站在祭坛附近使用牺牲宝珠，将1点生命值转化为原始生命本质。
+nei.infopage.bloodAltar.2=当血之祭坛储存了足够的生命精华后，你可以通过右键点击将物品放入其中。兼容的祭品会从祭坛中吸收生命本质并发生转化。使用空手可以取出物品。它们也可以通过漏斗和管道进行放入与取出操作。
+nei.infopage.bloodAltar.3=血之祭坛除了主要的合成池外，还拥有两个内部流体缓冲区：一个用于输入，一个用于输出。生命本质会在祭坛的主存储区与缓冲区之间缓慢渗透，这些缓冲区负责处理与任何类型流体管道或泵的所有交互。两个缓冲区的容量均为祭坛主池的十分之一。
+nei.infopage.bloodAltar.4=你的首次献祭应当用于制作一个虚弱气血宝珠。制作完成后，手持它右键点击即可将其与你的灵魂绑定。一旦绑定，便可将其放置于血之祭坛中，以生命本质的形式为你的灵魂网络注入LP。
+nei.infopage.bloodAltar.5=血之祭坛可以通过气血符文进行强化。在其基座下方构建一个3×3的环形结构即可提升至第二阶。每提升一阶都将解锁更强大的嬗变能力。
+nei.infopage.bloodAltar.6=将血之祭坛升级至第三阶需要在7×7的环形区域内（以祭坛为中心，每边放置5个符文）额外放置20个符文，该环形需位于前一环下方一格。在四角用任意材料搭建两格高的支柱，并在顶端覆盖荧石块。符文环之间的空隙可用任意装饰性方块填充，亦可保持空置。
+nei.infopage.bloodAltar.7=将血之祭坛升级至第四阶，需在原有环带下方一格处，以祭坛为中心布置一个11×11的环形结构，额外放置28枚符文（每侧7枚）。在四角用任意材料搭建四格高的支柱，并以大血石砖封顶。血石应放置于荧石上方一格处。
+nei.infopage.bloodAltar.8=将血之祭坛升级至5级，需要在祭坛周围以17×17的环形（以祭坛为中心，每边放置13个符文）额外放置52个符文，且该环形需位于上一圈符文的下方一格。在每个角落的符文上方一格各放置一个信标。祭坛的结构可容纳四个信标的最大底座尺寸。
+nei.infopage.bloodAltar.9=将血之祭坛升级至第6级需要在23×23的环形区域内（以祭坛为中心，每边放置19个符文）额外放置76个符文，该环形区域应位于前一层环形区域下方一格。在角落处用任意材料建造七格高的支柱，并在顶部放置碎片集晶。这些顶盖应比第4级所用的血石方块高一格。
+# Incense
+nei.infopage.incense.1=香炉能够增强自我献祭的效果。在血之祭坛附近放置香炉，每种香品对应一个，右键点击即可添加。当香品准备就绪时，火焰和彩色烟雾会逐渐消散。多个相同香品的香炉会燃烧得更快，充能速度也会加快。
+nei.infopage.incense.2.a=Burning incense lasts for about 10 sacrifices. Your Sacrificial Knife will start to glow as the incense burns. While active, using your knife drains all but the last 10% of your health at once, greatly increasing the LP gained. This leaves you with the Soul Fray effect for a short time, preventing further sacrifices.
+nei.infopage.incense.2.b=Burning incense lasts for about 10 sacrifices. Your Sacrificial Orb will start to glow as the incense burns. While active, using your orb drains all but the last 10% of your health at once, greatly increasing the LP gained. This leaves you with the Soul Fray effect for a short time, preventing further sacrifices.
+nei.infopage.incense.3=Incense increases the LP gained compared to normal sacrifices. Each tier requires the previous, and grants the following bonus when fully charged:\n\nWood Ash: 40%\nByrrus: 80%\nLivens: 150%\nViridis: 240%\nPurpura: 350%
+# Sacrifices
+nei.infopage.sacrifice.1=The Dagger of Sacrifice channels the life of others into the Blood Altar. Strike a creature with the dagger while it is near the altar, and it will be slain instantly, pouring its essence into the altar's pool.
+nei.infopage.sacrifice.2=Creatures yield Life Essence according to their vitality: animals give the least, monsters give more, and villagers offer the greatest. Bosses, babies, and other players resist this magic and cannot be sacrificed.
+nei.infopage.sacrifice.3=Mechanical hands are unable to wield the Dagger of Sacrifice with the finesse it requires. For automatic sacrifices, seek the Well of Suffering ritual.
+# Altar Runes
+nei.infopage.rune.augmentedCapacity=The Rune of Augmented Capacity increases the altar's maximum storage by 3500 LP per rune. This bonus applies after Superior Capacity's.\n\nIncreasing the altar's capacity also increases the size of its input and output buffers by a proportional amount.
+nei.infopage.rune.dislocation=The Rune of Dislocation accelerates the flow of essence between the altar and its buffers, increasing transfer by 50% per rune, stacking multiplicatively. The altar's veins strain, pushing blood faster through every channel.
+nei.infopage.rune.orb=The Rune of the Orb strengthens the link between altar and Soul Network. Each rune temporarily increases the inserted Blood Orb's maximum LP capacity by 4% per rune, stacking additively. Pushing the limits is required to achieve ultimate power.
+nei.infopage.rune.superiorCapacity=The Rune of Superior Capacity increases the altar's base storage by 14% per rune, stacking multiplicatively. With enough runes, the altar may hold oceans of Life Essence.
+nei.infopage.rune.acceleration=The Rune of Acceleration hastens interactions with the altar's fluid buffers. Normally, they cycle fluid once per second; each rune reduces this delay by 1 tick.\n\nThe effect caps after 19 runes, allowing for a ceaseless torrent of Life Essence.
+nei.infopage.rune.quickness=The Rune of Quickness shortens the five-second pause between transmutations by 20%, stacking multiplicatively.\n\nThe effect caps after 18 runes. Unfortunately, the Blood Altar is unable to break the laws of time...
+nei.infopage.rune.speed=The Rune of Speed increases the rate at which the altar infuses essence into offerings by 25% per rune, stacking additively. A little haste never hurt anybody.
+nei.infopage.rune.efficiency=The Rune of Efficiency is shrouded in mystery. It is inert, unobtainable, and its purpose is long forgotten.
+nei.infopage.rune.sacrifice=The Rune of Sacrifice increases LP gained from sacrifices by 12% per rune, stacking additively. With enough runes, every offering yields rivers of blood.
+nei.infopage.rune.selfSacrifice=The Rune of Self-Sacrifice empowers offerings of one's own blood, granting 12% more LP per rune, stacking additively. Through pain comes power.
+nei.infopage.rune.blank=Blood Runes serve as the foundation of every altar. Though plain at first, they may be replaced with specialized runes that amplify the altar's capabilities, such as the Rune of Sacrifice, which grants more essence when blood is spilled with a Dagger of Sacrifice or the Well of Suffering ritual.
+# Progression Items
+nei.infopage.bloodShards=Weak Blood Shards, which are required for the Bloodstone Bricks and Master Blood Orb used to progress your altar to Tier 4, are dropped by creatures slain while under the effect of Weakness III or higher. This effect is impossible through traditional means of potion brewing, but a Bound Blade or Potion Flask will be able to apply such an effect.
+nei.infopage.demonShards.1=Demon Blood Shards are required for the Archmage Blood Orb and Awakened Activation Crystal. To summon the beings that carry them, place a bound Master Blood Orb (or higher) upon an Arcane Plinth, and surround it with six Arcane Pedestals, each holding the same reagent.
+nei.infopage.demonShards.2=The pedestals must be placed in the outer ring of a 5×5 area, with the Arcane Plinth at the center. This forms a hexagonal pattern. After the ritual has been prepared, lightning will strike each pedestal in turn before the Elemental manifests. The reagent used determines the type of Elemental called forth.
+nei.infopage.demonShards.3=Elementals are flying, durable creatures with 100 HP that will attack on sight. They can attack from a distance and embody the powers of their element in battle. They need not be slain with a Bound Blade to yield Demon Blood Shards, though drops are not guaranteed. The Looting enchantment increases the chance.
+nei.infopage.convocationShards=The Soul and Life Shards required for the Crystal Clusters used to upgrade the altar to Tier 6 are dropped by Demon Grunts summoned by the Convocation of the Damned ritual. Only those who command demons may bring an altar to its ultimate perfection.
+# Blood Orb / Soul Network Explanation
+nei.infopage.bloodOrbs.1=Blood Orbs are the vessels of your Soul Network. When you create one in the Blood Altar, right-click with it in hand to bind it to yourself.
+nei.infopage.bloodOrbs.2=Once bound, place your Blood Orb into the altar. Any Life Essence you pour in, whether by self-sacrifice, dagger, or ritual, will be stored in your personal Soul Network as LP, ready for use by mystical items, powerful sigils, alchemic chemistry, and rituals.
+nei.infopage.bloodOrbs.3=Higher tiers of Blood Orbs unlock new recipes. Each orb also has its own maximum LP that it can insert into your Soul Network, which may temporarily be expanded by placing it in a Blood Altar augmented with Runes of the Orb.
+nei.infopage.bloodOrbs.4=Your Soul Network is invisible to the eye, but its presence can be felt. Many rituals, sigils, and magical devices will draw directly from your LP. If your network runs dry, the power will be taken from your own life instead. A Divination Sigil may be used to see your current LP.
+# Rituals
+nei.infopage.rituals.weak.1=Rituals are the next step on your path to power. Right-clicking the Imperfect Ritual Stone will call down lightning and create the following effects when placed beneath the correct block, at the cost of 5,000 LP.
+nei.infopage.rituals.weak.2=Water Source: Summon a thunderstorm\nBlock of Coal: Summon an empowered zombie\nLapis Lazuli Block: Shift the time to night\nBedrock: Grant Resistance II for 1 minute
+nei.infopage.rituals.1=While it has its uses, the Imperfect Ritual Stone is a curiosity of limited power, since it can only draw strength from the block directly above it. The Master Ritual Stone, by contrast, is capable of channeling energy from many surrounding Ritual Stones.
+nei.infopage.rituals.2=To build a ritual, place a Master Ritual Stone surrounded by Ritual Stones, and inscribe them with Elemental Inscription Tools. A Ritual Diviner may instead be used to automatically place the stones and inscribe them correctly.
+nei.infopage.rituals.3=Once the ritual is assembled, right-click the Master Ritual Stone with a bound Activation Crystal. If everything is in place and your Soul Network contains sufficient LP, the ritual will commence! Each ritual has a unique effect. Experimentation is encouraged to discover the full potential of the Master Ritual Stone.
+nei.infopage.reagents.1=Some rituals can be modified by providing reagents to the Master Ritual Stone. However, raw reagents are too impure to be used directly. They must first be refined in an Alchemic Calcinator into AR (Alchemy Reagent), a pure essence usable by the ritual.
+nei.infopage.reagents.2=To use an Alchemic Calcinator, right-click it with a bound Blood Orb, and then right-click it with the reagent item. Reagents may also be inserted via hoppers or pipes. The reagent will be consumed and converted into AR, which the Calcinator will store internally.
+nei.infopage.reagents.3=An Alchemic Router is required to transfer AR. Shift-right-click a block containing AR to attune the Router to that reagent. Then right-click the source block, followed by the destination block, to create a link. Shift-right-click in the air to remove the currently saved source.
+nei.infopage.reagents.4=An Alchemic Cleanser may be used to remove AR links by using it on the source block. An Alchemic Segmenter may be used to limit how many internal AR tanks a single reagent may occupy; it is attuned in the same way as the Router.
+nei.infopage.reagents.5=The range of AR links is limited to a few blocks. To extend the transfer distance, use Alchemic Relays. Crystal Belljars may be placed to store AR, and they will retain their contents when broken.

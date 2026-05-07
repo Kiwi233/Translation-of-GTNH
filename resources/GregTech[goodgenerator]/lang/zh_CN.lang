@@ -166,7 +166,7 @@ crops.saltroot=盐根
 #Tooltip
 inverter.tooltip.0=将直流电转化为交流电.
 naquadahMass.tooltip.0=远不够纯.
-enrichedNaquadahMass.tooltip.0=一种强烈的满足感.
+enrichedNaquadahMass.tooltip.0=世间极致的满足。
 naquadriaMass.tooltip.0=什么?
 fuelrod.tooltip.0=耐久：%s/%s
 fuelrodheat.tooltip.0=具有与铀相同的发热量
@@ -301,7 +301,7 @@ scanner.info.YOTTank.next=无. 将锁定为进入容器的下一种流体
 scanner.info.XHE.0=输出蒸汽量：
 scanner.info.XHE.1=超临界阈值：
 scanner.info.UX.0=并行运行：
-scanner.info.CASS.tier=外壳等级：
+scanner.info.CASS.tier=外壳等级：%s
 scanner.info.CASS.tier.none=无！
 
 gg.scanner.info.antimatter_forge=反物质熔炉
@@ -343,7 +343,7 @@ gui.AntimatterForge.2=主动电力消耗
 gui.AntimatterForge.3=反物质变化量
 gui.AntimatterGenerator.0=已生产的EU
 gui.AntimatterGenerator.1=效率
-batch_mode.cfgi.0=批处理大小
+batch_mode.cfgi.0=批处理规模
 gt.blockmachines.YottaFluidTank.cfgi.0=更新速度(每x个tick更新一次I/O)
 
 gg.gui.text.large_essentia_smeltery.requires=需要总计%s的§bAqua§f与§cIgnis§f才能运作。
@@ -494,6 +494,15 @@ yottank.chat.voidExcessDisabled=启用溢出停机
 preciseassembler.chat.0=精密模式
 preciseassembler.chat.1=常规模式
 essentiaoutputhatch.chat.0=已清空.
+gg.chat.antimatter_generator.wireless_mode.enable=无线网络模式已启用。
+gg.chat.antimatter_generator.wireless_mode.disable=无线网络模式已禁用。
+gg.chat.antimatter_generator.wireless_mode.enable.hint=无线功能仅适用于UMV超导体基座或更高级别设备。
+gg.chat.antimatter_output_hatch.front_face_input.enable=正面朝向输入已启用
+gg.chat.antimatter_output_hatch.front_face_input.disable=正面输入已禁用。
+gg.chat.ae_modes.no_access=无权限
+gg.chat.ae_modes.read=读
+gg.chat.ae_modes.write=写
+gg.chat.ae_modes.read_write=读写
 
 #Achievement
 achievement.gt.blockmachines.nag=大型硅岩反应堆
@@ -552,6 +561,6 @@ achievement.item.advancedRadiationProtectionPlate.desc=捡起此物品以在NEI�
 #Thaumcraft Research Context
 research.ESSENTIA_CELL.page.0=新手源质扩散单元的效率实在太低,你完全不能忍受. 所以你研发了一些新的源质扩散单元<BR><BR>新手源质扩散单元只提供1稳定点,学徒级的单元可以提供2稳定点,大师级的单元可以提供5稳定点,而宗师级的单元可以提供足足10稳定点!<BR><BR>随着稳定点越高,每点源质在发电机中产生的能量就越多.<BR><BR>同时也可以解锁更好的仓室.
 research.ESSENTIA_SMELTERY.page.0=荒古炼金炉已经不足以支撑你的源质生产了...<BR><BR>大型源质冶炼厂(LES)是荒古炼金炉的进阶版,消耗EU和Centivis,用以冶炼源质.
-research.ESSENTIA_SMELTERY.page.1=Ignis与Aqua是LES运行的基本条件,最低需求约为最高能源仓等级^2*1.15CV/每次工作,满足后机器才能运行.<BR><BR>Ordo影响污染、咒波瓦斯生成概率(冶炼源质时随机在消声仓仓口排出咒波瓦斯).<BR><BR>Perditio可以加速机器工作,最高200%(100CV/5t).
+research.ESSENTIA_SMELTERY.page.1=Ignis与Aqua是LES运行的基本条件,最低需求约为最高能源仓等级^2*1.15CV/每次工作,满足后机器才能运行.<BR><BR>Ordo影响污染、咒波瓦斯生成概率(冶炼源质时随机在消声仓仓口排出咒波瓦斯).<BR><BR>Perditio可以加速机器工作,最高200% (100cV/5t).
 research.ESSENTIA_SMELTERY.page.2=扩散单元等级及结构大小仅影响机器并行,最大并行为64x.<BR><BR>不含源质的物品会冶炼出1点perditio.
 research.ESSENTIA_OUTPUT_HATCH_ME.page.0=总有一天你会用到它...<BR><BR>请务必连接网络使用,它没有缓存！

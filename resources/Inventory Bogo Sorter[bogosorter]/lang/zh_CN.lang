@@ -46,6 +46,10 @@ bogosort.gui.usageticker_arrow=启用箭余量提醒
 
 bogosort.command.config_relaod.success=重新加载排序配置
 
+bogosort.message.dropoff.items_moved=%s items moved to %s containers of %s checked in total.
+bogosort.message.dropoff.quota_reached_times= (Quota reached %s times)
+bogosort.message.dropoff.throttled=Dropoff throttled
+
 bogosort.sortrules.item.mod.name=Mod名字
 bogosort.sortrules.item.id.name=注册表名称
 bogosort.sortrules.item.meta.name=Meta值
@@ -82,7 +86,7 @@ bogosort.sortrules.item.ore_prefix.description=按后缀（矿物前缀）来分
 bogosort.sortrules.item.burn_time.description=按燃料燃烧时间对物品进行排序
 bogosort.sortrules.item.block_type.description=按它们属于哪种方块来分类物品，例如完整方块，台阶，楼梯......
 bogosort.sortrules.item.hunger.description=按饥饿恢复值对物品进行排序
-bogosort.sortrules.item.saturation.description=按和度恢复值对物品进行排序
+bogosort.sortrules.item.saturation.description=按饱和度恢复值对物品进行排序
 bogosort.sortrules.item.emc.description=按EMC值对物品进行排序
 bogosort.sortrules.item.color.description=按颜色色调值对物品进行排序
 
@@ -102,6 +106,8 @@ bogosorter.config.dropoff=卸货设置
 bogosorter.config.dropoff.enable=启用卸货
 bogosorter.config.dropoff.scan_radius=卸货扫描半径（方块）
 bogosorter.config.dropoff.render=在容器上渲染高亮效果
+bogosorter.config.dropoff.render_style=渲染风格
+bogosorter.config.dropoff.render_fade_out=渲染淡出
 bogosorter.config.dropoff.chat_message=卸货时显示聊天消息
 bogosorter.config.dropoff.quota=卸货定额（毫秒）
 bogosorter.config.dropoff.throttle=卸货延时（毫秒）

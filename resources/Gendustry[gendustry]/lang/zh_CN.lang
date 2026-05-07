@@ -80,6 +80,17 @@ gendustry.upgrades.scrubber.name=花粉洗涤塔升级
 
 # ==== GUI AND TOOLTIPS ====
 
+gendustry.label.mutagen_producer.title=诱变剂制造机
+gendustry.label.mutatron.title=诱变机
+gendustry.label.mutatron_adv.title=高级诱变机
+gendustry.label.apiary.title=工业蜂箱
+gendustry.label.imprinter.title=基因压印机
+gendustry.label.sampler.title=基因采样机
+gendustry.label.extractor.title=基因提取机
+gendustry.label.liquifier.title=蛋白质液化机
+gendustry.label.replicator.title=基因复制机
+gendustry.label.transposer.title=基因转换机
+
 gendustry.label.template.crafting=基因样本可以被添加到模板中. 在工作台中就可以完成此操作. 多个样本可以一次添加到同一模板中.
 
 gendustry.label.charges=充能: %s
@@ -287,3 +298,104 @@ for.gendustry.errorstate.disabled.help=被配置文件禁用
 #this will be moved to bdlib at some point
 bdlib.label.empty=空
 
+# ==== TOOLTIPS ====
+
+item.gendustry.GeneSample.forestry.speedFast.tooltip=速度：1.2（1.07x整体产出）
+item.gendustry.GeneSample.forestry.speedFaster.tooltip=速度：1.4（1.13x整体产出）
+item.gendustry.GeneSample.forestry.speedFastest.tooltip=速度：1.7（1.22x整体产出）
+item.gendustry.GeneSample.forestry.speedNormal.tooltip=速度：1.0（1.0x整体产出）
+item.gendustry.GeneSample.forestry.speedSlow.tooltip=速度：0.8（0.92x整体产出）
+item.gendustry.GeneSample.forestry.speedSlower.tooltip=速度：0.6（0.83x整体产出）
+item.gendustry.GeneSample.forestry.speedSlowest.tooltip=速度：0.3（0.64x整体产出）
+item.gendustry.GeneSample.magicbees.speedBlinding.tooltip=速度：2.0（整体生产效率为1.29倍）
+
+item.gendustry.GeneSample.forestry.lifespanElongated.tooltip=基础蜜蜂刻：45（养蜂模式为 31:10.0）
+item.gendustry.GeneSample.forestry.lifespanLong.tooltip=基础蜜蜂刻：50（养蜂模式为 34:22.5）
+item.gendustry.GeneSample.forestry.lifespanLonger.tooltip=基础蜜蜂刻：60（养蜂模式为 41:15.0）
+item.gendustry.GeneSample.forestry.lifespanLongest.tooltip=基础蜜蜂刻：70（养蜂模式为 48:07.5）
+item.gendustry.GeneSample.forestry.lifespanNormal.tooltip=基础蜜蜂刻：40（养蜂模式为 27:30.0）
+item.gendustry.GeneSample.forestry.lifespanShort.tooltip=基础蜜蜂刻：30（养蜂模式为 20:37.5）
+item.gendustry.GeneSample.forestry.lifespanShortened.tooltip=基础蜜蜂刻：35（养蜂模式为 24:17.5）
+item.gendustry.GeneSample.forestry.lifespanShorter.tooltip=基础蜜蜂刻：20（养蜂模式为 13:45.0）
+item.gendustry.GeneSample.forestry.lifespanShortest.tooltip=基础蜜蜂刻：10（养蜂模式为 6:52.5）
+item.gendustry.GeneSample.gregtech.lifeEon.tooltip=基础蜜蜂刻：600（养蜂模式为 6:52:30.0）
+
+item.gendustry.GeneSample.forestry.territoryAverage.tooltip=花朵搜索 / 效果范围：9x6x9\n花朵传播 / 授粉范围：27x18x27
+item.gendustry.GeneSample.forestry.territoryLarge.tooltip=花朵搜索 / 效果范围：11x8x11\n花朵传播 / 授粉范围：33x24x33
+item.gendustry.GeneSample.forestry.territoryLarger.tooltip=花朵搜索 / 效果范围：13x12x13\n花朵传播 / 授粉范围：39x36x39
+item.gendustry.GeneSample.forestry.territoryLargest.tooltip=花朵搜索 / 效果范围：15x13x15\n花朵传播 / 授粉范围：45x39x45
+
+item.gendustry.GeneSample.extrabees.effect.acid.tooltip=将泥土块转化为沙子
+item.gendustry.GeneSample.extrabees.effect.birthday.tooltip=生成烟花（颜色取决于蜜蜂的颜色）
+item.gendustry.GeneSample.extrabees.effect.blindness.tooltip=给予玩家失明效果
+item.gendustry.GeneSample.extrabees.effect.bonemeal_fruit.tooltip=给林业/更多树的果树施肥
+item.gendustry.GeneSample.extrabees.effect.bonemeal_mushroom.tooltip=给原版蘑菇施肥
+item.gendustry.GeneSample.extrabees.effect.bonemeal_sapling.tooltip=给树苗施肥
+item.gendustry.GeneSample.extrabees.effect.ectoplasm.tooltip=生成随意作品的灵气
+item.gendustry.GeneSample.extrabees.effect.fireworks.tooltip=生成烟花（颜色取决于蜜蜂的颜色）
+item.gendustry.GeneSample.extrabees.effect.gravity.tooltip=给予玩家跳跃提升效果
+item.gendustry.GeneSample.extrabees.effect.hunger.tooltip=将玩家的饱和度和饥饿值设为零
+item.gendustry.GeneSample.extrabees.effect.lightning.tooltip=生成半真实的闪电打击\n（对实体造成伤害并点燃火焰\n但不会激活避雷针）
+item.gendustry.GeneSample.extrabees.effect.meteor.tooltip=生成下落的火焰弹
+item.gendustry.GeneSample.extrabees.effect.power.tooltip=每次向RF接收器添加5RF
+item.gendustry.GeneSample.extrabees.effect.radioactive.tooltip=非常迅速地造成伤害
+item.gendustry.GeneSample.extrabees.effect.slow.tooltip=给予玩家缓慢效果
+item.gendustry.GeneSample.extrabees.effect.spawn_creeper.tooltip=在光照不足时生成苦力怕。\n请勿与“假苦力怕”效果混淆，这是两种不同的效果。
+item.gendustry.GeneSample.extrabees.effect.spawn_skeleton.tooltip=在光照不足时生成骷髅
+item.gendustry.GeneSample.extrabees.effect.spawn_zombie.tooltip=在光照不足时生成僵尸和愤怒僵尸
+item.gendustry.GeneSample.extrabees.effect.teleport.tooltip=随机将生物/玩家传送一小段距离
+item.gendustry.GeneSample.extrabees.effect.water.tooltip=以非常缓慢的随机间隔，向附近的容器中添加100mb的水
+item.gendustry.GeneSample.extrabees.effect.wither.tooltip=施加凋零特效，但不造成伤害
+item.gendustry.GeneSample.forestry.effectAggressive.tooltip=造成伤害（最慢的伤害特性）
+item.gendustry.GeneSample.forestry.effectBeatific.tooltip=给予玩家生命恢复效果
+item.gendustry.GeneSample.forestry.effectCreeper.tooltip=在玩家周围制造虚假的苦力怕爆炸效果。\n这种爆炸不会破坏方块，但会造成大量伤害，\n且能绕过常规护甲的防护。\n请注意不要与独立的"苦力怕"效果混淆。
+item.gendustry.GeneSample.forestry.effectDrunkard.tooltip=给予玩家反胃效果
+item.gendustry.GeneSample.forestry.effectExploration.tooltip=给予玩家经验值
+item.gendustry.GeneSample.forestry.effectFertile.tooltip=为范围内的植物施加随机刻\n（对IC2作物无效）
+item.gendustry.GeneSample.forestry.effectFestiveEaster.tooltip=生成无形状、颜色或尾迹的烟花火箭
+item.gendustry.GeneSample.forestry.effectGlacial.tooltip=将水变成冰
+item.gendustry.GeneSample.forestry.effectHeroic.tooltip=攻击怪物
+item.gendustry.GeneSample.forestry.effectIgnition.tooltip=点燃玩家
+item.gendustry.GeneSample.forestry.effectMiasmic.tooltip=给予玩家中毒效果
+item.gendustry.GeneSample.forestry.effectMisanthropic.tooltip=造成大量伤害
+item.gendustry.GeneSample.forestry.effectMycophilic.tooltip=将草皮和暴露在天空下的泥土转化为菌丝体，强制生长原版蘑菇（直接调用大型蘑菇生成，跳过骨粉步骤），并将牛转化为哞菇。
+item.gendustry.GeneSample.forestry.effectNone.tooltip=什么都不做
+item.gendustry.GeneSample.forestry.effectRadioactive.tooltip=造成伤害（速度比不稳定型慢），并会破坏蜂后领地内除中心方块外的所有方块，但不会破坏原版林业的蜂箱类方块。特别需要注意的是，它会破坏额外蜜蜂/魔法蜜蜂的蜂箱类方块。
+item.gendustry.GeneSample.forestry.effectReanimation.tooltip=若其掉落物存在，则会生成骷髅、烈焰人或僵尸
+item.gendustry.GeneSample.forestry.effectRepulsion.tooltip=为生物添加躲避玩家的AI任务
+item.gendustry.GeneSample.forestry.effectResurrection.tooltip=生成爬行者、末影人、蜘蛛、洞穴蜘蛛、恶魂，或如果存在它们的掉落物，则生成末影龙。
+item.gendustry.GeneSample.forestry.effectSnowing.tooltip=生成装饰性雪景特效
+item.gendustry.GeneSample.gregtech.effectTreetwister.tooltip=在特定条件下将树苗转化为巴纳德C树苗：\n1) 树苗必须具有适当的魔法属性\n（暮色橡树顶端地牢中的变化树树苗可满足条件）\n2) 所在维度也需具备魔法活性\n（可尝试在灵魂维度、基岩维度、深渊世界维度或口袋异次元维度中进行转化）
+item.gendustry.GeneSample.magicbees.effectAMWisp.tooltip=在GTNH中无实际作用（若安装了魔法艺术模组，则会生成魔法艺术的精灵或赫卡特）
+item.gendustry.GeneSample.magicbees.effectAblaze.tooltip=生成烈焰人
+item.gendustry.GeneSample.magicbees.effectBatty.tooltip=生成蝙蝠和九狱焱蝠
+item.gendustry.GeneSample.magicbees.effectBovine.tooltip=生成牛
+item.gendustry.GeneSample.magicbees.effectBrainy.tooltip=生成愤怒的僵尸
+item.gendustry.GeneSample.magicbees.effectCanine.tooltip=生成狼
+item.gendustry.GeneSample.magicbees.effectCatty.tooltip=生成豹猫
+item.gendustry.GeneSample.magicbees.effectChicken.tooltip=生成鸡
+item.gendustry.GeneSample.magicbees.effectCrumbling.tooltip=将石头转化为圆石，再转化为苔石；\n将石砖转化为裂纹石砖，再转化为苔石砖；\n将沙砾转化为沙子；\n以及将圆石墙转化为苔圆石墙。
+item.gendustry.GeneSample.magicbees.effectCurative.tooltip=净化玩家的药水效果
+item.gendustry.GeneSample.magicbees.effectDigSpeed.tooltip=给予玩家急迫效果\n可惜它不会替你挖洞
+item.gendustry.GeneSample.magicbees.effectDreaming.tooltip=将石头转化为活石，原木转化为活木。
+item.gendustry.GeneSample.magicbees.effectGhastly.tooltip=生成恶魂
+item.gendustry.GeneSample.magicbees.effectHorse.tooltip=生成马
+item.gendustry.GeneSample.magicbees.effectInvisibility.tooltip=给予玩家隐身效果
+item.gendustry.GeneSample.magicbees.effectManaDrain.tooltip=在GTNH中无实际作用（若安装了魔法艺术模组，会生成魔力苦力怕/魔力漩涡）
+item.gendustry.GeneSample.magicbees.effectMoveSpeed.tooltip=给予玩家迅捷效果
+item.gendustry.GeneSample.magicbees.effectNodeEmpower.tooltip=为节点添加随机特性，包括缸中节点
+item.gendustry.GeneSample.magicbees.effectNodePurifying.tooltip=移除节点中除纯净类型外的特殊类型，\n并将标准节点（包括缸中节点）转化为纯净节点。
+item.gendustry.GeneSample.magicbees.effectNodeRavening.tooltip=移除节点中除饕餮外的特殊类型，并使标准节点（包括缸中节点）变成饕餮。
+item.gendustry.GeneSample.magicbees.effectNodeRepair.tooltip=升级节点：凋零 -> 苍白 -> 标准 -> 明亮，包括缸中节点
+item.gendustry.GeneSample.magicbees.effectNodeTainting.tooltip=移除节点中除腐化状态外的特殊类型，并使标准节点（包括缸中节点）成腐化。
+item.gendustry.GeneSample.magicbees.effectPorcine.tooltip=生成猪
+item.gendustry.GeneSample.magicbees.effectSheep.tooltip=生成羊
+item.gendustry.GeneSample.magicbees.effectSlowSpeed.tooltip=给予玩家缓慢效果\n抱歉，它不会使你进入子弹时间
+item.gendustry.GeneSample.magicbees.effectSpidery.tooltip=生成蜘蛛（不生成洞穴蜘蛛）
+item.gendustry.GeneSample.magicbees.effectTEBasalz.tooltip=在GTNH中无作用（若安装了热力膨胀则会生成岩石人）
+item.gendustry.GeneSample.magicbees.effectTEBlitz.tooltip=在GTNH中无作用（若安装了热力膨胀则会生成狂风人）
+item.gendustry.GeneSample.magicbees.effectTEBlizzy.tooltip=在GTNH中无作用（若安装了热力膨胀则会生成暴雪怪）
+item.gendustry.GeneSample.magicbees.effectTransmuting.tooltip=在沙漠中，将沙子转化为砂岩，或在自然生成区域将石头/圆石转化为深渊圆石/采掘砖块。\n注意：启用圆石替换功能时，采矿场也会将相关矿石替换为这些材料。
+item.gendustry.GeneSample.magicbees.effectVisRecharge.tooltip=为能量不足的节点补充未满的要素
+item.gendustry.GeneSample.magicbees.effectWispy.tooltip=生成神秘时代的小精灵，其源质类型为从1到47（包含两端）中均匀随机选取的一种\n（似乎已损坏，请尝试使用充能刷怪笼）
+item.gendustry.GeneSample.magicbees.effectWithering.tooltip=赋予玩家凋零

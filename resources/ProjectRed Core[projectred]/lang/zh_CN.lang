@@ -102,7 +102,14 @@ tile.projectred.expansion.machine2|11.name=自动工作台
 tile.projectred.expansion.machine2|12.name=钻石方块破坏机
 item.projectred.expansion.solar_panel.name=太阳能电池板
 enchantment.projectred.expansion.fuel_efficiency=燃油效率
-
+gui.projectred.expansion.machine1|0.title=感应炉
+gui.projectred.expansion.machine1|1.title=蓝石发电机
+gui.projectred.expansion.machine2|2.title=方块放置器
+gui.projectred.expansion.machine2|3.title=过滤物品输入机
+gui.projectred.expansion.machine2|5.title=电池箱
+gui.projectred.expansion.machine2|6.title=充电台
+gui.projectred.expansion.machine2|10.title=工程台
+gui.projectred.expansion.machine2|11.title=自动工作台
 
 
 
@@ -507,9 +514,19 @@ item.projectred.integration.gate|31.name=数据储存器
 item.projectred.integration.gate|32.name=分段显示门
 item.projectred.integration.gate|33.name=减速随机发生器
 item.projectred.integration.gate|34.name=IC门
-
-
-
+tile.projectred.integration.icblock.name=IC工作台/打印机
+tile.projectred.integration.icblock|0.name=IC工作台
+tile.projectred.integration.icblock|1.name=IC印刷机
+gui.projectred.integration.icblock|0.title=IC工作台
+gui.projectred.integration.icblock|0.detail=详情
+gui.projectred.integration.icblock|0.scale=缩放
+gui.projectred.integration.icblock|0.redraw=重绘
+gui.projectred.integration.icblock|1.title=IC印刷机
+gui.projectred.integration.timer_interval=计时器间隔：%ss
+gui.projectred.integration.maixmum=最大值：%s
+gui.projectred.integration.increment=增加：%s
+gui.projectred.integration.decrement=减少：%s
+gui.projectred.integration.state=状态：%s
 
 itemGroup.trans=红石计划:线缆
 
@@ -589,6 +606,3 @@ item.projectred.fabrication.icblueprint.name=IC蓝图
 item.projectred.fabrication.icchip.name=IC芯片
 item.projectred.fabrication.icchip|0.name=IC芯片
 item.projectred.fabrication.icchip|1.name=创造模式IC芯片
-tile.projectred.integration.icblock.name=IC工作台/打印机
-tile.projectred.integration.icblock|0.name=IC工作台
-tile.projectred.integration.icblock|1.name=IC印刷机

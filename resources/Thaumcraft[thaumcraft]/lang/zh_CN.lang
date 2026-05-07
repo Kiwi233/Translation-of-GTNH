@@ -719,7 +719,7 @@ tc.addwarpsticky=§5你身上开始出现扭曲!§0
 tc.removewarp=§5你身上的永久扭曲被祛除了!§0
 tc.removewarpsticky=§5你身上的扭曲被祛除了!§0
 tc.removewarptemp=§5你身上的临时扭曲被祛除了!§0
-tc.forbidden=§l§5禁忌知识(%n)§0
+tc.forbidden=§l§5禁忌知识（%n）§0
 tc.forbidden.level.1=近乎无害
 tc.forbidden.level.2=略有风险 
 tc.forbidden.level.3=稍有危险
@@ -1303,7 +1303,7 @@ tc.research_page.COREEMPTY.1=安装这种核心的傀儡能够从绑定容器中
 #
 tc.research_name.COREUSE=傀儡核心:使用
 tc.research_text.COREUSE=嗒嗒点击
-tc.research_page.COREUSE.1=正如空置核心,安装这种核心的傀儡也能够从绑定容器中取出物品,但当它们到达目标位置后会尝试使用该物品而非将其放下.<BR>他们将类似玩家左击/右击那样对对指定的位置/方块使用物品—你可以指定是何种物品.<BR>你可以打开傀儡的界面,如愿地指定傀儡只取走你指定的物品而忽略其他物品.
+tc.research_page.COREUSE.1=正如空置核心,安装这种核心的傀儡也能够从绑定容器中取出物品,但当它们到达目标位置后会尝试使用该物品而非将其放下.<BR>他们将类似玩家左击/右击那样对指定的位置/方块使用物品—你可以指定是何种物品.<BR>你可以打开傀儡的界面,如愿地指定傀儡只取走你指定的物品而忽略其他物品.
 tc.research_page.COREUSE.2=如果该傀儡并未与任何容器绑定,它会试图模仿玩家空手点击对应目标的效果.<LINE>你可以在潜行时设定它使用左击还是右击.<BR>你还可以设定它仅仅对空气方块点击而非对方块.
 tc.research_page.COREUSE.3=      §n风之升级解锁§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>该升级会提示傀儡执行点击的速率.
 #

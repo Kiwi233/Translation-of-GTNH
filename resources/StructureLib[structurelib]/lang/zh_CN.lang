@@ -51,6 +51,7 @@ structurelib.autoplace.error.not_enabled=§c此多方块机器不支持生存模
 structurelib.autoplace.error.no_simple_block=§c建议放置 §r%s§c ,但未在库存中找到
 structurelib.autoplace.error.no_item_stack=§c建议使用 §r%s§c 放置方块,但未在库存中找到
 structurelib.autoplace.warning.no_explicit_channel=§6本结构依赖于不存在的子信道 §r%s§6. 已使用主信道替代.
+structurelib.autoplace.missing_block=§c缺少方块：%s
 
 structurelib.blockhint.desc.0=帮助构建多方块机器
 structurelib.blockhint.0.name=提示方块：1号

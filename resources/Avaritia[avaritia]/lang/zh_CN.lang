@@ -43,9 +43,10 @@ item.avaritia_fracturedore.name=未知破碎矿石
 item.avaritia_fracturedore.prefix=破碎
 item.avaritia_mattercluster.name=物质团
 item.avaritia_mattercluster.full.name=临界物质团
+item.avaritia_mattercluster.veryfull.name=超临界物质团
 item.morvinabox.name=世界之塑(WIP)(未完成,右击将崩端)
-item.avaritia.comb.nerfed.name=削弱蜂巢
-item.avaritia.comb.cosmic.name=寰宇蜂巢
+item.avaritia.comb.nerfed.name=削弱蜂窝
+item.avaritia.comb.cosmic.name=寰宇蜂窝
 item.avaritia_beesource.infinity_drop.name=无尽蜜汁
 item.avaritia_beesource.dust.name=粉尘
 item.extremely_primordial_pearl.name=极元始珍珠
@@ -67,6 +68,7 @@ tile.alfheim_deadrock1.name=死岩砖
 tile.alfheim_deadrock2.name=苔死岩砖
 tile.alfheim_deadrock3.name=裂死岩砖
 tile.alfheim_deadrock4.name=錾制死岩砖
+tile.cluster_opener.name=物质团解压器
 #
 # Tooltips
 tooltip.armok.desc=当手持或置于祭坛中时
@@ -83,10 +85,14 @@ tooltip.starfuel.desc=宇宙之光挥洒四方
 tooltip.skullfire_sword.desc=斩骷髅首级，后烧至焦黑。
 tooltip.matter_cluster.desc=用于毁灭一切。
 tooltip.matter_cluster.desc2=按下SHIFT显示详细信息。
+tooltip.matter_cluster.desc3=使用物质团解压器来解压大型物质团。
 tooltip.matter_cluster.counter=物品
 tooltip.morvinabox.desc=即时住房。
 tooltip.morvinabox.subdesc=在加拿大，Morvy是成袋装的。
 tooltip.claybalance.desc=无 限 平 衡!!!!
+tooltip.matter-cluster-decompressor.line1=从物质团中提取物品。
+tooltip.matter-cluster-decompressor.line2=只能通过 GT 和 AE 才能从解压器中提取物品
+tooltip.matter-cluster-decompressor.line3=流体掉落物会自动转换为流体。
 #
 # Achievements
 achievement.avaritia:crystal_matrix=第一枚纹章
@@ -115,6 +121,7 @@ itemGroup.avaritia=无尽贪婪
 container.neutron_collector=中子态素收集器
 container.neutronium_compressor=中子态素压缩机
 tc.aspect.terminus=游戏之终结,启示录,天启,粉碎一切
+tc.aspect.help.terminus=大成之作
 crafting.extreme=有序终极合成
 crafting.extreme.shapeless=无序终极合成
 crafting.extreme_compression=中子态素压缩机

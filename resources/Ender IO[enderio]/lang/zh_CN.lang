@@ -237,7 +237,7 @@ item.itemMachinePart.name=机械零件
 enderio.machineChassi.name=机器框架
 enderio.basicGear.name=基础齿轮
 enderio.soulMachineChassi.name=灵魂机器框架
-enderio.endSteelMachineChassi.name=末影钢机器底盘
+enderio.endSteelMachineChassi.name=末影钢机器框架
 enderio.pulsatingCrystal.name=脉冲晶体
 enderio.vibrantCrystal.name=充能晶体
 enderio.enderCrystal.name=末影晶体
@@ -373,9 +373,14 @@ enderio.endergeticCapacitor.name=充能银电容
 enderio.endergisedCapacitor.name=生动合金电容
 enderio.totemicCapacitor.name=不死图腾电容
 
-enderio.machine.tooltip.upgrade=机器升级
-enderio.machine.tooltip.upgrade.tooltip.detailed.line1=增加机器能量存储与
-enderio.machine.tooltip.upgrade.tooltip.detailed.line2=速度/范围
+enderio.machine.tooltip.upgrade.name=机器升级
+enderio.machine.tooltip.upgrade=升级：
+enderio.machine.tooltip.upgrade.tier=等级:
+enderio.machine.tooltip.upgrade.energyreceived=最大能量接收：
+enderio.machine.tooltip.upgrade.energyextracted=最大能量提取：
+enderio.machine.tooltip.upgrade.farmstation=种植站半径：
+enderio.machine.tooltip.upgrade.energystorage=最大能量存储：
+enderio.machine.tooltip.upgrade.range=范围升级：
 enderio.machine.tooltip.clearConfig=这会清除所有存储的数据！
 
 #Machines
@@ -458,11 +463,11 @@ enderio.capbank.maxIO=最大输入/输出
 enderio.capbank.maxIn=最大输入
 enderio.capbank.maxOut=最大输出
 enderio.capbank.change=I/O
-enderio.capbank.iodisplay.stable=I/O
-enderio.capbank.iodisplay.gain=内
-enderio.capbank.iodisplay.loss=外
-enderio.capbank.iodisplay.input=输入
-enderio.capbank.iodisplay.output=输出
+enderio.capbank.iodisplay.stable=平衡
+enderio.capbank.iodisplay.gain=充电
+enderio.capbank.iodisplay.loss=放电
+enderio.capbank.iodisplay.input=充电
+enderio.capbank.iodisplay.output=放电
 
 tile.blockWirelessCharger.name=无线充能器
 tile.blockWirelessCharger.tooltip.detailed.line1=给附近玩家物品 
@@ -471,9 +476,9 @@ tile.blockWirelessCharger.tooltip.detailed.line2=栏中的物品充能
 tile.blockSagMill.name=SAG磨粉机
 tile.blockSagMill.tooltip.detailed.line1=研磨矿物与其它物品
 tile.blockSagMill.tooltip.detailed.line2=添加磨球可提高
-tile.blockSagMill.tooltip.detailed.line3=输出与效率
-tile.blockSagMill.tooltip.detailed.line4=用电容器升级可增
-tile.blockSagMill.tooltip.detailed.line5=加速度与能量存储
+tile.blockSagMill.tooltip.detailed.line3=产出与效率
+tile.blockSagMill.tooltip.detailed.line4=用电容升级可增加
+tile.blockSagMill.tooltip.detailed.line5=速度与能量存储
 tile.blockSagMill.tooltipPrefix=包含
 
 tile.blockHyperCube.name=空间传送器(弃用)

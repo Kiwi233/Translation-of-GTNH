@@ -68,6 +68,7 @@ thaumicenergistics.item.cell.microscope.name=元件显微镜
 #Tooltips
 thaumicenergistics.tooltip.itemstack.details=按住§eCTRL§f查看详细信息.
 thaumicenergistics.tooltip.essentia.cell.contains=包含
+thaumicenergistics.tooltip.essentia.cell.creative=无限供应所有源质类型。
 thaumicenergistics.tooltip.essentia.cell.bytes=字节已使用.
 thaumicenergistics.tooltip.essentia.cell.types=源质类型储存.
 thaumicenergistics.tooltip.button.void=允许清空
@@ -89,17 +90,18 @@ thaumicenergistics.tooltip.advanced.infusion.provider.normal=普通供应器
 thaumicenergistics.tooltip.advanced.infusion.provider.advanced=高级供应器
 thaumicenergistics.tooltip.advanced.infusion.provider.totalbind=共绑定%d个矩阵
 
-
 #GUI
-thaumicenergistics.gui.arcane.crafting.terminal.title=奥术终端
-thaumicenergistics.gui.essentia.cell.title=源质元件
+thaumicenergistics.gui.arcane.assembler.title=奥术装配室
+thaumicenergistics.gui.knowledge.inscriber.title=知识记录仪
+thaumicenergistics.gui.distillation.encoder.title=蒸馏编码台
+
 thaumicenergistics.gui.selected.amount=数量
 thaumicenergistics.gui.selected.aspect=源质
 thaumicenergistics.gui.digivis.source.name=数位Vis源
-thaumicenergistics.gui.essentia.cell.workbench.title=源质元件工作台
-thaumicenergistics.gui.arcane.assembler.title=奥术装配室
 thaumicenergistics.gui.vibration.chamber.stored=存储：%d %s
 thaumicenergistics.gui.vibration.chamber.processing=正在处理：%s
+
+thaumicenergistics.gui.essentia=源质
 
 #Research Tab
 tc.research_category.thaumicenergistics=神秘能源
@@ -119,7 +121,7 @@ thaumicenergistics.research_page.TECORES.2=§l扩散核心§r<BR>源质液体相
 tc.research_name.thaumicenergistics.TESTORAGE=数位化源质存储
 tc.research_text.thaumicenergistics.TESTORAGE=这货真的能储存源质?
 thaumicenergistics.research_page.TESTORAGE.1=检查了现有的数字化存储媒介后你总结出确实可以储存这些数字化的源质.<BR>§l赛特斯石英§r通过注入浓缩的物质,就会获得存储源质的能力,在数字化的格式下也是十分有效的.<BR>你总结了注入的物质越浓缩储存空间就越大的结论.但这不会大于石英本身所能承受的储存大小.
-thaumicenergistics.research_page.TESTORAGE.2=§l组件§r<BR>存储组件以数位格式存储源质.单独是无法操作的,它们需要元件外壳才能与数字网络进行交互.<LINE>§l元件外壳§r<BR>为存储组件提供了接口以及保护.<BR>§l源质元件工作台§r<BR>这个元件工作台可以让你指定何种源质可以存储于这个元件之中.
+thaumicenergistics.research_page.TESTORAGE.2=§l组件§r<BR>存储组件以数位格式存储源质.单独是无法操作的,它们需要元件外壳才能与数字网络进行交互.<LINE>§l元件外壳§r<BR>为存储组件提供了接口以及保护.
 
 # Research IO
 tc.research_name.thaumicenergistics.TEIO=数位化源质运输
@@ -132,14 +134,6 @@ tc.research_name.thaumicenergistics.TEARCANETERM=奥术合成终端
 tc.research_text.thaumicenergistics.TEARCANETERM=利用魔法§o与科技§r来合成
 thaumicenergistics.research_page.TEARCANETERM.1=你已发现将初始源质注入§l终端§r和§l奥术工作台§r,就能赋予终端合成奥术物品的能力.<BR>终端仍保有其访问ME网络中物品的能力,保证了快速高效的合成,还提供了储存并交换护甲的能力,在你需要快速减免Vis消耗时你会用到的.
 
-# Research Essentia terminal
-tc.research_name.thaumicenergistics.TEESSTERM=源质终端
-tc.research_text.thaumicenergistics.TEESSTERM=已知你有多少源质.
-thaumicenergistics.research_page.TEESSTERM.1=§l源质终端§r让你能看到网络中储存了多少源质,并提供了用源质容器向终端输入源质或从中抽取源质的方法.§l源质发信器§r会持续监测网络中的源质等级,并在条件符合时发出红石信号.
-thaumicenergistics.research_page.TEESSTERM.2=§l源质储存监控器§r和§l源质交换监控器§r则能让你看到此刻有多少某源质存储于网络之中.转换监视器还能让你向网络中输入或从中抽取源质.<BR>使用扳手右键将会锁定/解锁监视器.<BR>手持标签,装有源质的罐子或者安瓿右击解锁状态下的监视器将会设定当前显示的源质种类,空手右键则会清空.<BR>右击锁定的交换监视器可以填充源质罐子或安瓿,潜行并右击则会清空罐子或安瓿并将源质导入网络.<BR>潜行并右键双击将会清空你物品栏里所有的源质,并导入进网络.
-thaumicenergistics.research_page.TEESSTERM.3=§l源质发信器§r可在网络中源质低于或高于指定水平时发出红石信号.
-thaumicenergistics.research_page.TEESSTERM.4=§l源质储存监控器§r和§l源质交换监控器§r可以让你知道在某一刻时网络内有多少指定源质.源质交换监控器还可以让你将源质输入网络,或是从网络中提取源质.<BR>使用扳手右击即可锁定/解锁监控器.<BR>手持罐子标签或者填满的罐子或填满的安瓿右击未锁定的监控器可设定显示的源质种类,空手右击则可清空.<BR>右击锁定的监控器可填满罐子或安瓿,按住Shift右击则可清空它们.<BR>按住Shift时右键双击可清空你物品栏中的所有源质.
-
 # Research Essentia Provider
 tc.research_name.thaumicenergistics.TEESSPROV=源质供应器
 tc.research_text.thaumicenergistics.TEESSPROV=应汝所呼.
@@ -148,11 +142,12 @@ thaumicenergistics.research_page.TEESSPROV.1=尽管输入和输出总线适用�
 # Research Infusion Provider
 tc.research_name.thaumicenergistics.TEINFPROV=注魔供应器
 tc.research_text.thaumicenergistics.TEINFPROV=注魔更易.
-thaumicenergistics.research_page.TEINFPROV.1=通过研究源质注魔的过程,你发现了能用于注魔的源质瞬间数字化与数字瞬间源质化的方法.<BR>将注魔供应器邻近神秘装置放置,装置就能直接从网络中抽取源质,就像是源质罐子一样.对注魔祭坛来说这十分实用.
+thaumicenergistics.research_page.TEINFPROV.1=通过研究源质注魔的过程,你发现了能用于注魔的源质瞬间数字化与数字瞬间源质化的方法.<BR>将§l注魔供应器§r邻近神秘装置放置,装置就能直接从网络中抽取源质,就像是源质罐子一样.对注魔祭坛来说这十分实用.
+
 
 # Research Advanced Infusion Provider
 tc.research_name.thaumicenergistics.TEADVINFPROV=高级注魔供应器
-tc.research_text.thaumicenergistics.TEADVINFPROV=最简单的灌注。
+tc.research_text.thaumicenergistics.TEADVINFPROV=极简注魔
 thaumicenergistics.research_page.TEADVINFPROV.1=当你不断的优化自己的网络合成自动化时,你无数次的被注魔时需要的源质的制作给难住了.<BR>现在,你有了全新的想法,不如把计算源质合成的任务交给ME网络来做?<BR>于是你试着使用自己的魔法技巧,将截流者与原有的供应器进行结合,经过你的不懈努力得到了这个进阶注魔供应器,它会绑定以自身为中心25*25*11的空间内所有的注魔矩阵,且当他发现源质缺失时会自动进行下单,你需要做的只有把他放在多个矩阵的中间,就是这么简单.<BR>右键可以让他重新搜索区域内的矩阵并重新绑定.
 
 # Research Vis Interface

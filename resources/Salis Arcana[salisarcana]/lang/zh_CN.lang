@@ -195,7 +195,7 @@ salisarcana:unknown_wand.craft=§4放入合成栏以清除所有无效组件。
 salisarcana:error.preface=Salis Arcana错误：
 salisarcana:error.potion_id_limit=%s的ID被指定为%d，该值大于安全上限127。如果有其他模组提高了安全上限，请在Salis Arcana设置中将“_uncapped_potion_ids”设为“true”。
 salisarcana:error.potion_id_claimed=%s的ID不能被指定为%d，因为该ID已被另一个药水效果指定。
-salisaracan:error.potion_array_too_long=在安全范围内已无可分配的药水ID。如果有其他模组提高了安全上限，请在Salis Arcana设置中将“_uncapped_potion_ids”设为“true”。
+salisarcana:error.potion_array_too_long=在安全限制范围内已无法找到更多未分配的药水ID。如果该限制已通过其他模组提高，请在Salis Arcana功能配置中将 _uncapped_potion_ids 设置为 `true`。
 
 salisarcana:wand_part.show_details=§8按住§6CTRL§8以显示神秘时代法杖信息
 salisarcana:wand_part.cannot_preserve_node=§4无法保留节点！
@@ -204,6 +204,9 @@ salisarcana:wand_cap.vis_discount.aspect=%s§5魔力减免：%s
 salisarcana:wand_cap.price_mult=§3合成魔力消耗倍数：§e%sx
 salisarcana:wand_rod.vis_capacity=§5容量：§d%svis
 salisarcana:wand_rod.base_price=§3基础合成消耗：§d%s vis
+salisarcana:wand_rod.gtnh_wands_price=§3合成消耗：§d%s + (%d * 容量倍率) vis
+salisarcana:wand_rod.gtnh_scepter_mult=§3权杖倍率：§d%sx
+salisarcana:wand_rod.gtnh_staffter_mult=§3手权杖倍数：§d%sx
 salisarcana:wand_rod.runes=§2对于任何已装备核心§5+1 潜能
 
 salisarcana:wand_rod.special.obsidian=§5每10秒回复§21点Terra§d vis§5（上限为vis总量的§d10%§5）
@@ -228,7 +231,13 @@ salisarcana:wand_rod.special.AMBER_staff=§5每5秒为每种要素回复§d1点v
 salisarcana:wand_rod.special.BREAD=§6有知觉、说法语，还特别爱聊天！
 salisarcana:wand_rod.special.TRANSMUTATION=§5当任意要素的vis低于§d90%§5时，将立刻消耗其他要素的高于§d90%§5的vis为其补充
 salisarcana:wand_rod.special.TRANSMUTATION_staff=§5当任意要素的vis低于§d90%§5时，将立刻消耗其他要素的高于§d90%§5的vis为其补充
-salisarcana:wand_rod.special.NECROMANCER_staff=§5将从怪物身上掉落的要素球中收集到的vis翻四倍，但从其他所有来源获得的vis减少25%。
+salisarcana:wand_rod.special.NECROMANCER_staff.1=§5使从死亡生物掉落的要素球中收集到的vis数量翻四倍。
+salisarcana:wand_rod.special.NECROMANCER_staff.2=§5所有其他来源的vis减少25%.
+salisarcana:wand_rod.special.NECROMANCER_staff.3=§5使用法杖攻击时，对敌人施加§8凋零 I§5效果，持续5秒。
+salisarcana:wand_rod.special.NECROMANCER_staff.4=§5（仅限近战攻击与非投射类魔法攻击）
+salisarcana:wand_cap.special.SOJOURNER.1=§5持有时，每秒从任意灵气节点中汲取§d1点原始vis§5
+salisarcana:wand_cap.special.SOJOURNER.2=§5玩家周围8格范围内。（不会破坏方块）
+salisarcana:wand_cap.special.MECHANIST=§5从灵气节点汲取vis的速度提升一倍。
 
 salisarcana:wand_cap.special.manasteel=§5回复vis时§b植物魔法魔力消耗§5享有25%减免。
 salisarcana:wand_cap.special.elementium=§5回复vis时§b植物魔法魔力消耗§5享有25%减免。
@@ -262,3 +271,11 @@ salisarcana:wand_rod.special.witchwood.2=  §5每回复1点vis消耗§9140点魔
 salisarcana:wand_rod.special.witchwood_staff.1=§5每2秒为每种要素回复§d1点vis§5（上限为vis总量的§d100%§5）
 salisarcana:wand_rod.special.witchwood_staff.2=  §5每回复1点vis消耗§9100点魔法艺术2魔力§5
 salisarcana:wand_cap.special.vinteum=§5将巫木核心回复vis所消耗的§9魔法艺术魔力§5减少约一半。
+
+salisarcana:wand_rod.special.alfheimSpiritual_staff.1=§5每2秒为每种要素回复§d1点vis§5（上限为vis总量的§d100%§5）
+salisarcana:wand_rod.special.alfheimSpiritual_staff.2=  §5以消耗§b部分植物魔法魔力§5为代价。
+salisarcana:wand_rod.special.alfheimSpiritual_staff.3=§5若与精灵世界杖端搭配，可降低§b魔力消耗§5
+salisarcana:wand_rod.special.alfheimSpiritual_staff.4=§5通过你盔甲的§b魔力折扣§5来恢复魔力。
+
+salisarcana:wand_rod.special.tbthaumium=§5每2.5秒随机为§5一个未达上限的要素回复§d1点§5vis（上限为vis总量的§d10%§5）
+salisarcana:wand_rod.special.tbvoid=§5每2.5秒随机为§5一个未达上限的要素回复§d1点§5vis（上限为vis总量的§d10%§5）

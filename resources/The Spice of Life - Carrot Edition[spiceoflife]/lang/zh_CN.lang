@@ -1,7 +1,7 @@
 # Tooltip strings
 spiceoflife.tooltip.nutritional.value=营养价值:  
 spiceoflife.tooltip.eaten.recently=之前食用的%2$d次食物中,它占了%1$s
-spiceoflife.tooltip.eaten.recently.hunger=之前补充的%2$d点饥饿度中,它占了%1$s
+spiceoflife.tooltip.eaten.recently.hunger=之前补充的%2$d点饥饿值中,它占了%1$s
 spiceoflife.tooltip.eaten.recently.time=之前%2$d天内,它占了%1$s
 spiceoflife.tooltip.not.eaten.recently=最近未曾食用
 
@@ -13,7 +13,7 @@ spiceoflife.tooltip.food.until.enabled.1=食物恢复的饥饿值递减开始在
 spiceoflife.tooltip.food.until.enabled.2=食用任何食物超过 %d%s 之后
 spiceoflife.tooltip.times.singular=次
 spiceoflife.tooltip.times.plural=次
-spiceoflife.tooltip.hunger=饥饿度
+spiceoflife.tooltip.hunger=饥饿值
 spiceoflife.tooltip.food.group=食物组: 
 spiceoflife.tooltip.food.groups=食物组: 
 spiceoflife.tooltip.to.close.food.container=潜行时使用以关闭
@@ -38,7 +38,7 @@ spiceoflife.gui.x.day=%s 天
 spiceoflife.gui.x.days=%s 天
 spiceoflife.gui.expires.in.time=%s 后递减效应将消失
 spiceoflife.gui.expires.in.food=食用任何食物超过 %s%s 后递减效应将消失
-spiceoflife.gui.expires.in.hunger=食用任何超过%s饥饿度的食物后递减效应将消失
+spiceoflife.gui.expires.in.hunger=食用任何超过%s饥饿值的食物后递减效应将消失
 spiceoflife.gui.food.num=食物 #%d
 spiceoflife.gui.items.on.page=%d-%d 共计%d次食用
 spiceoflife.gui.food_history.title=关于我的食物

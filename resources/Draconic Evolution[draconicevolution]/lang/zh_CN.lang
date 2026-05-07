@@ -114,10 +114,10 @@ item.draconicevolution:reactorCraftingPart.rotorAssembly.name=反应堆稳定器
 item.draconicevolution:reactorCraftingPart.stabilizerRing.name=反应堆稳定器聚能环
 item.draconicevolution:chaoticCore.name=混沌核心
 item.draconicevolution:chaosShard.name=混沌碎片
-item.draconicevolution:chaosFragment.name=混沌片段
-item.draconicevolution:chaosFragment0.name=微小混沌片段
-item.draconicevolution:chaosFragment1.name=小混沌片段
-item.draconicevolution:chaosFragment2.name=大混沌片段
+item.draconicevolution:chaosFragment.name=混沌残片
+item.draconicevolution:chaosFragment0.name=微小混沌残片
+item.draconicevolution:chaosFragment1.name=小的混沌残片
+item.draconicevolution:chaosFragment2.name=大的混沌残片
 item.draconicevolution:nugget.name=龙粒
 item.draconicevolution:nugget.draconium.name=龙粒
 item.draconicevolution:nugget.awakened.name=觉醒龙粒
@@ -147,11 +147,11 @@ msg.teleporterUnSet.txt=§c你在传送之前必须首先设置目的地(Shift +
 msg.teleporterBound.txt=§a传送器绑定到:
 msg.teleporterLowHealth.txt= 你生命值低
 msg.teleporterSentMob.txt=实体已被送到 
-msg.teleporterEntityDimensional.txt=§c你不能把生物跨纬度传送!
+msg.teleporterEntityDimensional.txt=§c你不能跨维度传送生物！
 msg.teleporterAlreadySet.txt=§c[错误]传送石只能被绑定到一个位置! 
 msg.teleporterOutOfFuel.txt=§c燃料耗尽! ! !
 msg.teleporterOutOfPearls.txt=§c末影珍珠耗尽! ! !
-msg.teleporterPlayerT1.txt=你需要一个更强大的错位宝石
+msg.teleporterPlayerT1.txt=你需要一个更强大的传送符咒
 msg.teleporterPlayerConsent.txt=玩家必须用潜行(Shift)同意他们
 msg.spawnerInfo1.txt=生物类型
 msg.spawnerInfo2.txt=需要玩家
@@ -183,7 +183,7 @@ msg.draconiumChestEditL3.txt=单击龙箱的下半部分减淡颜色
 msg.draconiumChestEditL4.txt=使用纸右键龙箱复制颜色到其他龙箱
 msg.draconiumChestEdit2.txt=请使用一张纸
 msg.de.dragonDeath.txt=§5龙心被龙死亡所引起的爆炸暂时唤醒了
-msg.de.baseSafeAOW.txt=§9(§a安全的§a范围§a挖掘§a模式§a已开启§9)§操作§c取消§c因为§c检测§c到§c一个§实体
+msg.de.baseSafeAOW.txt=§9(§a安全的§a范围§a挖掘§a模式§a已开启§9)§c操作§c取消§c因为§c检测§c到§c了§c一个§c实体
 msg.de.guardianAttackBlocked.txt=你的攻击被混沌水晶所阻挡!
 msg.de.shieldDepleted.txt=警告！强大的打击！
 msg.de.shockWaveForEnergyBoltsOnly.txt=冲击波只能由龙火之矢发出
@@ -349,9 +349,9 @@ achievement.draconicevolution.wpick.desc=升级成双足飞龙精华
 achievement.draconicevolution.wshovel=专业挖掘机!
 achievement.draconicevolution.wshovel.desc=造一把龙之铲
 achievement.draconicevolution.wsword=更好的武器装备
-achievement.draconicevolution.wsword.desc=造一把飞龙剑
+achievement.draconicevolution.wsword.desc=造一把双足飞龙剑
 achievement.draconicevolution.wbow=狙击手已准备!
-achievement.draconicevolution.wbow.desc=造一把飞龙弓
+achievement.draconicevolution.wbow.desc=造一把双足飞龙弓
 achievement.draconicevolution.whelm=自由呼吸!
 achievement.draconicevolution.whelm.desc=造一个龙之头盔
 achievement.draconicevolution.wchest=高抗性
@@ -419,29 +419,29 @@ info.de.forUpgrades.txt=查看有关属性
 info.de.useUpgradeModifier.txt=用升级调整器加强那些属性！
 
 //Lore ----------------------------------------------------------------------------------------------------------------------------------------
-item.draconicevolution:wyvernPickaxe.lore=普通的镐子太菜了，使用龙力，你能增加开采面积和开采速度
-item.draconicevolution:wyvernShovel.lore=一次一个方块?不是龙力的风格!更快,面积更大,这只是一个开始!
-item.draconicevolution:wyvernSword.lore=龙力开始解开剑的潜力，剑的范围和攻击力提高了
-item.draconicevolution:wyvernBow.lore=向一个普通的弓里注入龙力，你会射的更快更强
+item.draconicevolution:wyvernPickaxe.lore=2普通的镐子太菜了\n通过使用龙力，你提升了开采面积和开采速度
+item.draconicevolution:wyvernShovel.lore=2一次一个方块？不是龙力的风格！\n更快、面积更大，这只是一个开始！
+item.draconicevolution:wyvernSword.lore=2龙力开始解放剑的潜力\n剑的范围和攻击力提高了
+item.draconicevolution:wyvernBow.lore=2向普通的弓里注入龙力\n使你能够射得更快、更强
 
-item.draconicevolution:wyvernHelm.lore=比钻石更强大，现在可以承受更大的打击
-item.draconicevolution:wyvernChest.lore=用龙力注入的钻石盔甲，大大增强了防御力
-item.draconicevolution:wyvernLeggs.lore=钻石护腿也注入了龙力，你现在感到更强更快
-item.draconicevolution:wyvernBoots.lore=你改善了靴子，它似乎让你更加敏捷
+item.draconicevolution:wyvernHelm.lore=2比钻石更强大\n现在你可以承受更强的打击了
+item.draconicevolution:wyvernChest.lore=2通过向盔甲里注入龙力\n你大大增强了它的防御力
+item.draconicevolution:wyvernLeggs.lore=2向钻石护腿中注入龙力后\n你感觉自己进一步变强变快了
+item.draconicevolution:wyvernBoots.lore=2你学会了改良靴子\n龙力似乎让你更加身手敏捷
 
-item.draconicevolution:draconicPickaxe.lore=细心的研究，让你可以挖更大的区域
-item.draconicevolution:draconicAxe.lore=在大量的试验和错误中，你现在可以一下子砍下一整棵树
-item.draconicevolution:draconicShovel.lore=更好的效率，你现在可以挖更大的区域
-item.draconicevolution:draconicHoe.lore=龙力甚至能改善农业，只需点一下整个农田就能耕好
-item.draconicevolution:draconicSword.lore=双足飞龙是不错,但龙力武器攻击力更加强大，能击杀更多的敌人
-item.draconicevolution:draconicBow.lore=完美的距离，更快的射击频率，爆炸性的箭头，堪比机枪，你还有什么想要的吗?
+item.draconicevolution:draconicPickaxe.lore=2细心的研究\n为你带来了挖掘更大区域的能力
+item.draconicevolution:draconicAxe.lore=2在大量的试错后\n你现在可以一次砍下一整棵树
+item.draconicevolution:draconicShovel.lore=2效率进一步提升\n你现在可以挖更大的区域了
+item.draconicevolution:draconicHoe.lore=2龙力甚至能改善农业\n只需一次点击就能耕好整个农田
+item.draconicevolution:draconicSword.lore=2双足飞龙是不错，但龙力武器\n攻击力更加强大，还能击中更多的敌人
+item.draconicevolution:draconicBow.lore=2顶级的距离，更快的射击频率\n还有爆炸性的箭头，夫复何求？
 
-item.draconicevolution:draconicHelm.lore=麻麻我再也不怕黑夜啦，你现在无论什么时候都看得见了
-item.draconicevolution:draconicChest.lore=龙心使得你更强大，拥有了飞行的能力
-item.draconicevolution:draconicLeggs.lore=更强的装备，龙力灵魂保护着你，使你跑得更快
-item.draconicevolution:draconicBoots.lore=更强，更快，更好，龙的心脏授予了你跳的更高的权力
+item.draconicevolution:draconicHelm.lore=3畏惧黑夜的日子一去不复返\n你现在无论什么时候都看得见了
+item.draconicevolution:draconicChest.lore=2龙心使你变得更加强大\n还拥有了飞行的能力
+item.draconicevolution:draconicLeggs.lore=2盔甲强度，更上一层楼\n龙的灵魂保护着你，使你跑得更快
+item.draconicevolution:draconicBoots.lore=2更强，更快，更好\n龙的心脏让你能够跳得更高
 
-item.draconicevolution:draconicDistructionStaff.lore=通过一条又长又艰苦的路后，你发现了真正的力量！一个工具就能做所有事：挖矿、战斗和死亡！
+item.draconicevolution:draconicDistructionStaff.lore=2在漫长而艰辛的旅程后，你发现了真正的力量！\n一把工具就能执行一切任务：挖矿、战斗和死亡！
 
 //Entity ----------------------------------------------------------------------------------------------------------------------------------------
 entity.DraconicEvolution.EnderDragon.name=上古末影龙
@@ -547,6 +547,36 @@ button.de.rotate.txt=旋转
 button.de.numeric.txt=数字:
 
 //Gui ----------------------------------------------------------------------------------------------------------------------------------------
+gui.de.numbers=%s
+
+gui.de.charges=Charges
+gui.de.rain.on=Turn rain on
+gui.de.rain.off=Turn rain off
+gui.de.rain.storm=Thunder Storm
+
+gui.de.weatherController.main.title=Weather Controller
+gui.de.playerDetector.main.title=Advanced Player Detector
+gui.de.grinder.main.title=Grinder
+gui.de.energyInfuser.main.title=Energy Infuser
+gui.de.generator.main.title=Generator
+gui.de.dissEnchanter.main.title=Disenchanter
+gui.de.draconiumChest.main.title=Draconic Chest
+gui.de.upgradeModifier.main.title=Upgrade Modifier
+gui.de.dislocatorInhibitor.main.title=Dislocator Inhibitor
+
+gui.de.playerDetector.whiteList=White List
+gui.de.playerDetector.blackList=Black List
+gui.de.playerDetector.camouflage=Camouflage
+gui.de.playerDetector.invertOutput=Invert Output
+gui.de.playerDetector.back=Back
+gui.de.playerDetector.pressEnter=Press Enter to save
+gui.de.playerDetector.range=Range
+gui.de.playerDetector.outputInvert=Output Inverted: %s
+
+gui.de.dissEnchanter.itemDamage1=Item
+gui.de.dissEnchanter.itemDamage2=Damage: %s
+gui.de.dissEnchanter.cost=Cost: %s
+
 gui.de.flowGate.name=流控制
 gui.de.flowGatePartialSignal.name=实际流量将在两个给定的值之间，取决于通入红石信号强度
 gui.de.flowGateCurrentFlow.name=流动

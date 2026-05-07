@@ -241,11 +241,7 @@ gt.blockmachines.hatch.energymulti64.tier.12.name=64安UMV能源仓
 gt.blockmachines.hatch.energymulti04.tier.13.name=4安UXV能源仓
 gt.blockmachines.hatch.energymulti16.tier.13.name=16安UXV能源仓
 gt.blockmachines.hatch.energymulti64.tier.13.name=64安UXV能源仓
-gt.blockmachines.hatch.energymulti.desc.0=为多方块机器提供高电流能源
-gt.blockmachines.hatch.energymulti.desc.1=输入电流
-gt.blockmachines.hatch.energymulti.desc.2=从能量网络接收最多%d安电流
-gt.blockmachines.hatch.energymulti.desc.3=为多方块机器提供最多%d安电流
-
+gt.blockmachines.hatch.energymulti.desc=为多方块机器提供能源的多重安培能量注入器\n可从能量网络接收最高 %d 安培电流\n为多方块结构提供最高 %d 安培电流
 achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.04=4安EV无线能源仓
 achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.04=16安EV无线能源仓
 achievement.gt.blockmachines.hatch.energywirelessmulti64.tier.04=64安EV无线能源仓
@@ -331,47 +327,26 @@ achievement.gt.blockmachines.hatch.energywirelesstunnel6.tier.13.desc=终于实�
 achievement.gt.blockmachines.hatch.energywirelesstunnel7.tier.13.desc=终于实现了高安无线能源！
 
 gt.blockmachines.hatch.energytunnel1.tier.05.name=IV 256A 激光靶仓
-gt.blockmachines.hatch.energytunnel2.tier.05.name=IV 1,024A 激光靶仓
-gt.blockmachines.hatch.energytunnel3.tier.05.name=IV 4,096A 激光靶仓
-gt.blockmachines.hatch.energytunnel4.tier.05.name=IV 16,384A 激光靶仓
-gt.blockmachines.hatch.energytunnel5.tier.05.name=IV 65,536A 激光靶仓
-gt.blockmachines.hatch.energytunnel6.tier.05.name=IV 262,144A 激光靶仓
-gt.blockmachines.hatch.energytunnel7.tier.05.name=IV 1,048,576A 激光靶仓
 gt.blockmachines.hatch.energytunnel1.tier.06.name=LuV 256A 激光靶仓
 gt.blockmachines.hatch.energytunnel2.tier.06.name=LuV 1,024A 激光靶仓
-gt.blockmachines.hatch.energytunnel3.tier.06.name=LuV 4,096A 激光靶仓
-gt.blockmachines.hatch.energytunnel4.tier.06.name=LuV 16,384A 激光靶仓
-gt.blockmachines.hatch.energytunnel5.tier.06.name=LuV 65,536A 激光靶仓
-gt.blockmachines.hatch.energytunnel6.tier.06.name=LuV 262,144A 激光靶仓
-gt.blockmachines.hatch.energytunnel7.tier.06.name=LuV 1,048,576A 激光靶仓
 gt.blockmachines.hatch.energytunnel1.tier.07.name=ZPM 256A 激光靶仓
 gt.blockmachines.hatch.energytunnel2.tier.07.name=ZPM 1,024A 激光靶仓
 gt.blockmachines.hatch.energytunnel3.tier.07.name=ZPM 4,096A 激光靶仓
-gt.blockmachines.hatch.energytunnel4.tier.07.name=ZPM 16,384A 激光靶仓
-gt.blockmachines.hatch.energytunnel5.tier.07.name=ZPM 65,536A 激光靶仓
-gt.blockmachines.hatch.energytunnel6.tier.07.name=ZPM 262,144A 激光靶仓
-gt.blockmachines.hatch.energytunnel7.tier.07.name=ZPM 1,048,576A 激光靶仓
 gt.blockmachines.hatch.energytunnel1.tier.08.name=UV 256A 激光靶仓
 gt.blockmachines.hatch.energytunnel2.tier.08.name=UV 1,024A 激光靶仓
 gt.blockmachines.hatch.energytunnel3.tier.08.name=UV 4,096A 激光靶仓
 gt.blockmachines.hatch.energytunnel4.tier.08.name=UV 16,384A 激光靶仓
-gt.blockmachines.hatch.energytunnel5.tier.08.name=UV 65,536A 激光靶仓
-gt.blockmachines.hatch.energytunnel6.tier.08.name=UV 262,144A 激光靶仓
-gt.blockmachines.hatch.energytunnel7.tier.08.name=UV 1,048,576A 激光靶仓
 gt.blockmachines.hatch.energytunnel1.tier.09.name=UHV 256A 激光靶仓
 gt.blockmachines.hatch.energytunnel2.tier.09.name=UHV 1,024A 激光靶仓
 gt.blockmachines.hatch.energytunnel3.tier.09.name=UHV 4,096A 激光靶仓
 gt.blockmachines.hatch.energytunnel4.tier.09.name=UHV 16,384A 激光靶仓
 gt.blockmachines.hatch.energytunnel5.tier.09.name=UHV 65,536A 激光靶仓
-gt.blockmachines.hatch.energytunnel6.tier.09.name=UHV 262,144A 激光靶仓
-gt.blockmachines.hatch.energytunnel7.tier.09.name=UHV 1,048,576A 激光靶仓
 gt.blockmachines.hatch.energytunnel1.tier.10.name=UEV 256A 激光靶仓
 gt.blockmachines.hatch.energytunnel2.tier.10.name=UEV 1,024A 激光靶仓
 gt.blockmachines.hatch.energytunnel3.tier.10.name=UEV 4,096A 激光靶仓
 gt.blockmachines.hatch.energytunnel4.tier.10.name=UEV 16,384A 激光靶仓
 gt.blockmachines.hatch.energytunnel5.tier.10.name=UEV 65,536A 激光靶仓
 gt.blockmachines.hatch.energytunnel6.tier.10.name=UEV 262,144A 激光靶仓
-gt.blockmachines.hatch.energytunnel7.tier.10.name=UEV 1,048,576A 激光靶仓
 gt.blockmachines.hatch.energytunnel1.tier.11.name=UIV 256A 激光靶仓
 gt.blockmachines.hatch.energytunnel2.tier.11.name=UIV 1,024A 激光靶仓
 gt.blockmachines.hatch.energytunnel3.tier.11.name=UIV 4,096A 激光靶仓
@@ -394,8 +369,7 @@ gt.blockmachines.hatch.energytunnel5.tier.13.name=UXV 65,536A 激光靶仓
 gt.blockmachines.hatch.energytunnel6.tier.13.name=UXV 262,144A 激光靶仓
 gt.blockmachines.hatch.energytunnel7.tier.13.name=UXV 1,048,576A 激光靶仓
 gt.blockmachines.hatch.energytunnel.tier.14.name=传奇激光靶仓
-gt.blockmachines.hatch.energytunnel.desc.0=多方块机器的能量输入端
-gt.blockmachines.hatch.energytunnel.desc.1=通量
+gt.blockmachines.hatch.energytunnel.desc=多方块机器的能量输入端
 
 gt.blockmachines.hatch.dynamomulti04.tier.05.name=4安IV动力仓
 gt.blockmachines.hatch.dynamomulti16.tier.05.name=16安IV动力仓
@@ -424,51 +398,29 @@ gt.blockmachines.hatch.dynamomulti64.tier.12.name=64安UMV动力仓
 gt.blockmachines.hatch.dynamomulti04.tier.13.name=4安UXV动力仓
 gt.blockmachines.hatch.dynamomulti16.tier.13.name=16安UXV动力仓
 gt.blockmachines.hatch.dynamomulti64.tier.13.name=64安UXV动力仓
-gt.blockmachines.hatch.dynamomulti.desc.0=从多方块机器以高电流输出能源
-gt.blockmachines.hatch.dynamomulti.desc.1=输出电流
+gt.blockmachines.hatch.dynamomulti.desc=从多方块机器以高电流输出能源
 
 gt.blockmachines.hatch.dynamotunnel1.tier.05.name=IV 256A 激光源仓
-gt.blockmachines.hatch.dynamotunnel2.tier.05.name=IV 1,024A 激光源仓
-gt.blockmachines.hatch.dynamotunnel3.tier.05.name=IV 4,096A 激光源仓
-gt.blockmachines.hatch.dynamotunnel4.tier.05.name=IV 16,384A 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.05.name=IV 65,536A 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.05.name=IV 262,144A 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.05.name=IV 1,048,576A 激光源仓
 gt.blockmachines.hatch.dynamotunnel1.tier.06.name=LuV 256A 激光源仓
 gt.blockmachines.hatch.dynamotunnel2.tier.06.name=LuV 1,024A 激光源仓
-gt.blockmachines.hatch.dynamotunnel3.tier.06.name=LuV 4,096A 激光源仓
-gt.blockmachines.hatch.dynamotunnel4.tier.06.name=LuV 16,384A 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.06.name=LuV 65,536A 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.06.name=LuV 262,144A 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.06.name=LuV 1,048,576A 激光源仓
 gt.blockmachines.hatch.dynamotunnel1.tier.07.name=ZPM 256A 激光源仓
 gt.blockmachines.hatch.dynamotunnel2.tier.07.name=ZPM 1,024A 激光源仓
 gt.blockmachines.hatch.dynamotunnel3.tier.07.name=ZPM 4,096A 激光源仓
-gt.blockmachines.hatch.dynamotunnel4.tier.07.name=ZPM 16,384A 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.07.name=ZPM 65,536A 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.07.name=ZPM 262,144A 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.07.name=ZPM 1,048,576A 激光源仓
 gt.blockmachines.hatch.dynamotunnel1.tier.08.name=UV 256A 激光源仓
 gt.blockmachines.hatch.dynamotunnel2.tier.08.name=UV 1,024A 激光源仓
 gt.blockmachines.hatch.dynamotunnel3.tier.08.name=UV 4,096A 激光源仓
 gt.blockmachines.hatch.dynamotunnel4.tier.08.name=UV 16,384A 激光源仓
-gt.blockmachines.hatch.dynamotunnel5.tier.08.name=UV 65,536A 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.08.name=UV 262,144A 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.08.name=UV 1,048,576A 激光源仓
 gt.blockmachines.hatch.dynamotunnel1.tier.09.name=UHV 256A 激光源仓
 gt.blockmachines.hatch.dynamotunnel2.tier.09.name=UHV 1,024A 激光源仓
 gt.blockmachines.hatch.dynamotunnel3.tier.09.name=UHV 4,096A 激光源仓
 gt.blockmachines.hatch.dynamotunnel4.tier.09.name=UHV 16,384A 激光源仓
 gt.blockmachines.hatch.dynamotunnel5.tier.09.name=UHV 65,536A 激光源仓
-gt.blockmachines.hatch.dynamotunnel6.tier.09.name=UHV 262,144A 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.09.name=UHV 1,048,576A 激光源仓
 gt.blockmachines.hatch.dynamotunnel1.tier.10.name=UEV 256A 激光源仓
 gt.blockmachines.hatch.dynamotunnel2.tier.10.name=UEV 1,024A 激光源仓
 gt.blockmachines.hatch.dynamotunnel3.tier.10.name=UEV 4,096A 激光源仓
 gt.blockmachines.hatch.dynamotunnel4.tier.10.name=UEV 16,384A 激光源仓
 gt.blockmachines.hatch.dynamotunnel5.tier.10.name=UEV 65,536A 激光源仓
 gt.blockmachines.hatch.dynamotunnel6.tier.10.name=UEV 262,144A 激光源仓
-gt.blockmachines.hatch.dynamotunnel7.tier.10.name=UEV 1,048,576A 激光源仓
 gt.blockmachines.hatch.dynamotunnel1.tier.11.name=UIV 256A 激光源仓
 gt.blockmachines.hatch.dynamotunnel2.tier.11.name=UIV 1,024A 激光源仓
 gt.blockmachines.hatch.dynamotunnel3.tier.11.name=UIV 4,096A 激光源仓
@@ -491,8 +443,7 @@ gt.blockmachines.hatch.dynamotunnel5.tier.13.name=UXV 65,536A 激光源仓
 gt.blockmachines.hatch.dynamotunnel6.tier.13.name=UXV 262,144A 激光源仓
 gt.blockmachines.hatch.dynamotunnel7.tier.13.name=UXV 1,048,576A 激光源仓
 gt.blockmachines.hatch.dynamotunnel.tier.14.name=传奇激光源仓
-gt.blockmachines.hatch.dynamotunnel.desc.0=多方块机器的能量输出端
-gt.blockmachines.hatch.dynamotunnel.desc.1=通量
+gt.blockmachines.hatch.dynamotunnel.desc=多方块机器的能量输出端
 gt.blockmachines.hatch.screwdrivertooltip=使用螺丝刀调整电流
 
 gt.blockmachines.emin.tier.08.name=UV元物质输入仓
@@ -545,9 +496,10 @@ gt.blockmachines.hatch.dataoutass.desc.2=启用前必须涂色
 gt.blockmachines.hatch.wirelessdataoutass.desc.0=多方块机器的无线数据输出
 gt.blockmachines.hatch.wirelessdataoutass.desc.1=高速网络连接
 
-gt.blockmachines.hatch.rack.tier.08.name=计算机箱
+gt.blockmachines.hatch.rack.tier.08.name=计算机机柜
 gt.blockmachines.hatch.rack.desc.0=4插槽机箱
 gt.blockmachines.hatch.rack.desc.1=容纳计算机组件
+gt.blockmachines.hatch.rack.heat=Heat: %s
 gt.blockmachines.hatch.holder.tier.09.name=物品固定容器
 gt.blockmachines.hatch.holder.desc.0=用于研究站
 gt.blockmachines.hatch.holder.desc.1=先进的固定机制!
@@ -587,16 +539,16 @@ gt.blockhintTT.15.name=提示方块：错误
 gt.blockhintTT.desc.5=错误，你希望做什么?
 
 gt.blockcasingsTT.name=机械方块
-gt.blockcasingsTT.0.name=超能机械方块
+gt.blockcasingsTT.0.name=高能机械方块
 gt.blockcasingsTT.0.desc.0=非常适合高能应用.
 gt.blockcasingsTT.0.desc.1=能量等级正在上升!
-gt.blockcasingsTT.1.name=电子计算机械方块
+gt.blockcasingsTT.1.name=电子计算机机械方块
 gt.blockcasingsTT.1.desc.0=又好又干净的外壳.
 gt.blockcasingsTT.1.desc.1=灰尘会破坏它!?
-gt.3blockcasingsTT.2.name=计算机散热风扇
+gt.blockcasingsTT.2.name=计算机散热风扇
 gt.blockcasingsTT.2.desc.0=带过滤器的散热风扇.
 gt.blockcasingsTT.2.desc.1=完美静音!
-gt.blockcasingsTT.3.name=进阶电子计算机械方块
+gt.blockcasingsTT.3.name=进阶电子计算机机械方块
 gt.blockcasingsTT.3.desc.0=包含高带宽总线
 gt.blockcasingsTT.3.desc.1=带宽数千量子比特.
 gt.blockcasingsTT.4.name=分子机械方块
@@ -620,7 +572,7 @@ gt.blockcasingsTT.9.desc.1=Wibbly wobbly timey wimey stuff.(欣赏原文吧，�
 gt.blockcasingsTT.10.name=传输机械方块
 gt.blockcasingsTT.10.desc.0=远程连接.
 gt.blockcasingsTT.10.desc.1=最好别用手碰它.
-gt.blockcasingsTT.11.name=维度联络机械方块
+gt.blockcasingsTT.11.name=维度桥发生器
 gt.blockcasingsTT.11.desc.0=多维运算.
 gt.blockcasingsTT.11.desc.1=宇宙或别的地方.
 gt.blockcasingsTT.12.name=终极分子机械方块
@@ -657,11 +609,14 @@ gt.blockcasingsBA0.7.desc.1=法拉第套装稍晚到来
 gt.blockcasingsBA0.8.name=特斯拉次级绕组
 gt.blockcasingsBA0.8.desc.0=从初级绕组获取能量
 gt.blockcasingsBA0.8.desc.1=谁不想要32k的环氧树脂?
+gt.blockcasingsBA0.10.name=强化时间结构方块
+gt.blockcasingsBA0.11.name=强化空间结构方块
+gt.blockcasingsBA0.12.name=无尽时空能量边界方块
 
 #Multiblocks
 gt.blockmachines.multimachine.em.transformer.name=有源变压器
 gt.blockmachines.multimachine.em.transformer.machinetype=有源变压器(AT)
-gt.blockmachines.multimachine.em.transformer.hint=1 - 能源仓、动力仓或超能机械方块
+gt.blockmachines.multimachine.em.transformer.hint=1 - 能源仓、动力仓或高能机械方块
 gt.blockmachines.multimachine.em.transformer.desc.1=任意电压间的相互转换!
 gt.blockmachines.multimachine.em.transformer.desc.2=只有0.004%的能量损失，HAYO！
 
@@ -687,15 +642,15 @@ gt.blockmachines.multimachine.tm.teslaCoil.desc.1=用于向特斯拉线圈帽和
 gt.blockmachines.multimachine.tm.teslaCoil.desc.2=可加入氦/氮/氡等离子体增大范围
 gt.blockmachines.multimachine.tm.teslaCoil.desc.3=传输电压取决于使用的特斯拉电容等级
 gt.blockmachines.multimachine.tm.teslaCoil.desc.4=需要至少与特斯拉电容相同等级的初级特斯拉绕组
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.0=迟滞低设置
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.1=迟滞高设置
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.2=特斯拉电塔传输半径设置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.0=迟滞低
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.1=迟滞高
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.2=传输半径
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.3=特斯拉收发器传输半径设置
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.4=加强特斯拉线圈帽传输半径设置
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.5=输出电压设置
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.6=输出电流设置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.5=输出电压
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.6=输出电流
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.7=最小扫描时间设置
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.8=过载设置
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.8=过载
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.9=闲置
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.0=特斯拉电塔传输半径显示
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.1=特斯拉收发器传输半径显示
@@ -707,11 +662,14 @@ gt.blockmachines.multimachine.tm.teslaCoil.cfgo.6=已存储能量显示
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.7=充能进度显示
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.8=扫描时间显示
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.9=最大输出显示
+gt.blockmachines.multimachine.tm.teslaCoil.outputVoltage=输出电压：
+gt.blockmachines.multimachine.tm.teslaCoil.chartButtonTooltip=打开随时间变化的电流图表
+gt.blockmachines.multimachine.tm.teslaCoil.heatMapButtonTooltip=打开热力图
 
 gt.blockmachines.multimachine.em.switch.type=CNS算力网络交换机
 gt.blockmachines.multimachine.em.switch.name=QoS加权网络交换机
 gt.blockmachines.multimachine.em.switch.desc.0=根据权重将计算分配到传输接入器。
-gt.blockmachines.multimachine.em.switch.desc.1=传输接入器被分配了一个ID。
+gt.blockmachines.multimachine.em.switch.desc.1=发送接口被分配了一个ID。
 gt.blockmachines.multimachine.em.switch.desc.2=使用便携式扫描仪扫描连接器以确定其ID。
 gt.blockmachines.multimachine.em.switch.desc.3=算力输出由TecTech参数配置。
 gt.blockmachines.multimachine.em.switch.desc.4=每组中的第一个参数控制这个仓的ID。
@@ -727,7 +685,7 @@ gt.blockmachines.multimachine.em.switch.adv.desc.5=要进行加权的算力分�
 gt.blockmachines.multimachine.em.computer.name=量子计算机
 gt.blockmachines.multimachine.em.computer.machinetype=量子计算机(QC)
 gt.blockmachines.multimachine.em.computer.hint.0=1 - 基础仓室、光学接口或电子计算机机械方块
-gt.blockmachines.multimachine.em.computer.hint.1=2 - 计算机箱或进阶电子计算机械方块
+gt.blockmachines.multimachine.em.computer.hint.1=2 - 计算机机柜或进阶电子计算机机械方块
 gt.blockmachines.multimachine.em.computer.desc=你需要它来处理上面的这串数字
 gt.blockmachines.multimachine.em.computer.cfgi.0=超频比
 gt.blockmachines.multimachine.em.computer.cfgi.1=过压比
@@ -739,36 +697,36 @@ gt.blockmachines.multimachine.em.computer.desc.2=使用螺丝刀切换无线模�
 
 gt.blockmachines.multimachine.em.databank.name=数据库
 gt.blockmachines.multimachine.em.databank.type=数据库，DB
-gt.blockmachines.multimachine.em.databank.hint.0=1 - 基础仓室或超能机械方块
-gt.blockmachines.multimachine.em.databank.hint.1=2 - 数据访问仓、数据库发送接口或电子计算机械方块
+gt.blockmachines.multimachine.em.databank.hint.0=1 - 基础仓室或高能机械方块
+gt.blockmachines.multimachine.em.databank.hint.1=2 - 数据访问仓、数据库发送接口或电子计算机机械方块
 gt.blockmachines.multimachine.em.databank.desc.0=数据库的控制器方块
 gt.blockmachines.multimachine.em.databank.desc.1=为装配线提供更多闪存
 gt.blockmachines.multimachine.em.databank.desc.2=还可使多条装配线访问同一闪存
 gt.blockmachines.multimachine.em.databank.desc.3=使用螺丝刀切换无线模式
 
 gt.blockmachines.multimachine.em.junction.name=物质流枢纽
-gt.blockmachines.multimachine.em.junction.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.junction.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.junction.hint.1=2 - 元物质输入/出仓或分子机械方块
 gt.blockmachines.multimachine.em.junction.desc.0=物质流枢纽的控制器方块
 gt.blockmachines.multimachine.em.junction.desc.1=用于路由和分配元物质
 gt.blockmachines.multimachine.em.junction.desc.2=需要通过参数仪进行配置
 
 gt.blockmachines.multimachine.em.mattertoem.name=物质量子化仪
-gt.blockmachines.multimachine.em.mattertoem.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.mattertoem.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.mattertoem.hint.1=2 - 元物质输出仓
 gt.blockmachines.multimachine.em.mattertoem.hint.2=3 - 元物质溢流仓或分子机械方块
 gt.blockmachines.multimachine.em.mattertoem.desc.0=物质量子化仪的控制器方块
 gt.blockmachines.multimachine.em.mattertoem.desc.1=将物品转化为它们的元素形态
 
 gt.blockmachines.multimachine.em.emtomatter.name=物质反量子化仪
-gt.blockmachines.multimachine.em.emtomatter.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.emtomatter.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.emtomatter.hint.1=2 - 元物质输入仓
 gt.blockmachines.multimachine.em.emtomatter.hint.2=3 - 元物质溢流仓或分子机械方块
 gt.blockmachines.multimachine.em.emtomatter.desc.0=物质反量子化仪的控制器方块
 gt.blockmachines.multimachine.em.emtomatter.desc.1=将元物质还原为常规物品形态
 
 gt.blockmachines.multimachine.em.emtoessentia.name=源质反量子化仪
-gt.blockmachines.multimachine.em.emtoessentia.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.emtoessentia.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.emtoessentia.hint.1=2 - 元物质输入仓
 gt.blockmachines.multimachine.em.emtoessentia.hint.2=3 - 元物质溢流仓或分子机械方块
 gt.blockmachines.multimachine.em.emtoessentia.hint.3=通用 - 某种源质的储存方块
@@ -776,7 +734,7 @@ gt.blockmachines.multimachine.em.emtoessentia.desc.0=源质反量子化仪的控
 gt.blockmachines.multimachine.em.emtoessentia.desc.1=将元物质还原为源质形态
 
 gt.blockmachines.multimachine.em.essentiatoem.name=源质量子化仪
-gt.blockmachines.multimachine.em.essentiatoem.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.essentiatoem.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.essentiatoem.hint.1=2 - 元物质输出仓
 gt.blockmachines.multimachine.em.essentiatoem.hint.2=3 - 元物质溢流仓或分子机械方块
 gt.blockmachines.multimachine.em.essentiatoem.hint.3=通用 - 某种源质的储存方块
@@ -784,27 +742,28 @@ gt.blockmachines.multimachine.em.essentiatoem.desc.0=源质量子化仪的控制
 gt.blockmachines.multimachine.em.essentiatoem.desc.1=将源质转化为它们的元素形态
 
 gt.blockmachines.multimachine.em.scanner.name=元物质扫描仪
-gt.blockmachines.multimachine.em.scanner.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.scanner.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.scanner.hint.1=2 - 元物质输入仓或分子机械方块
 gt.blockmachines.multimachine.em.scanner.hint.2=3 - 元物质输出仓或分子机械方块
 gt.blockmachines.multimachine.em.scanner.hint.3=4 - 元物质溢流仓或分子机械方块
 gt.blockmachines.multimachine.em.scanner.desc.0=元物质扫描仪的控制器方块
 
 gt.blockmachines.multimachine.em.research.type=研究站,扫描仪
-gt.blockmachines.multimachine.em.research.hint.0=1 - 基础仓室、光学接口或电子计算机械方块
+gt.blockmachines.multimachine.em.research.hint.0=1 - 基础仓室、光学接口或电子计算机机械方块
 gt.blockmachines.multimachine.em.research.hint.1=2 - 物品固定容器
+gt.blockmachines.multimachine.em.research.hint.2=3 - 输出总线、输入仓或进阶电子计算机机械方块
 gt.blockmachines.multimachine.em.research.desc.1=用于扫描物品，生成装配线配方闪存
 gt.blockmachines.multimachine.em.research.desc.2=需要为其提供算力
 gt.blockmachines.multimachine.em.research.desc.3=在完成闪存写入之前不会消耗物品
 gt.blockmachines.multimachine.em.research.desc.4=使用螺丝刀切换模式.
-gt.blockmachines.multimachine.em.research.desc.5=扫描模式所需计算遵循公式：
+gt.blockmachines.multimachine.em.research.desc.5=扫描模式所需算力遵循公式：
 gt.blockmachines.multimachine.em.research.desc.6=配方持续时间（tick）* (2 ^ (配方电压等级 - 1))
 gt.blockmachines.multimachine.em.research.mode.Assembly_line=模式：研究站
 gt.blockmachines.multimachine.em.research.mode.Scanner=模式：扫描仪
 gt.blockmachines.multimachine.em.research.computation=算力：%,d / %,d
 
 gt.blockmachines.multimachine.em.collider.name=物质对撞机
-gt.blockmachines.multimachine.em.collider.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.collider.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.collider.hint.1=2 - 元物质输入仓或分子机械方块
 gt.blockmachines.multimachine.em.collider.hint.2=3 - 元物质输出仓或分子机械方块
 gt.blockmachines.multimachine.em.collider.hint.3=4 - 元物质溢流仓或分子机械方块
@@ -820,7 +779,7 @@ gt.blockmachines.multimachine.em.collider.mode.3=从属于其他控制器
 gt.blockmachines.multimachine.em.collider.Structure.AdditionalCollider=需要与之镜像的另一台物质对撞机
 
 gt.blockmachines.multimachine.em.infuser.name=能量注入仪
-gt.blockmachines.multimachine.em.infuser.hint=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.infuser.hint=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.infuser.desc.0=能量注入仪的控制器方块
 gt.blockmachines.multimachine.em.infuser.desc.1=可用于为物品充电(无损)
 gt.blockmachines.multimachine.em.infuser.desc.2=提供UU物质可修复物品
@@ -831,27 +790,27 @@ gt.blockmachines.multimachine.em.infuser.Structure.MolecularCasing=第3层
 
 
 gt.blockmachines.multimachine.em.processing.name=量子加工机
-gt.blockmachines.multimachine.em.processing.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.processing.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.processing.hint.1=2 - 元物质输入/出仓或分子机械方块
 gt.blockmachines.multimachine.em.processing.desc.0=量子加工机的控制器方块
 
 gt.blockmachines.multimachine.em.crafter.name=物质组装机
-gt.blockmachines.multimachine.em.crafter.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.crafter.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.crafter.hint.1=2 - 元物质输入/出仓或分子机械方块
 gt.blockmachines.multimachine.em.crafter.desc.0=物质组装机的控制器方块
 
 gt.blockmachines.multimachine.em.stabilizer.name=元物质稳定器
-gt.blockmachines.multimachine.em.stabilizer.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.stabilizer.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.stabilizer.hint.1=2 - 元物质输入/出仓或分子机械方块
 gt.blockmachines.multimachine.em.stabilizer.desc.0=元物质稳定器的控制器方块
 
 gt.blockmachines.multimachine.em.wormhole.name=虫洞
-gt.blockmachines.multimachine.em.wormhole.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.wormhole.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.wormhole.hint.1=2 - 元物质输入/出仓或分子机械方块
 gt.blockmachines.multimachine.em.wormhole.desc.0=虫洞的控制器方块
 
 gt.blockmachines.multimachine.em.decay.name=衰变发电机
-gt.blockmachines.multimachine.em.decay.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.decay.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.decay.hint.1=2 - 元物质输入/出仓或分子机械方块
 gt.blockmachines.multimachine.em.decay.desc.0=衰变发电机的控制器方块
 gt.blockmachines.multimachine.em.decay.desc.1=通过元物质衰变产生能量
@@ -859,15 +818,18 @@ gt.blockmachines.multimachine.em.decay.desc.1=通过元物质衰变产生能量
 gt.blockmachines.multimachine.em.decay.conf=分流器
 
 gt.blockmachines.multimachine.em.annihilation.name=湮灭发电机
-gt.blockmachines.multimachine.em.annihilation.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.annihilation.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.annihilation.hint.1=2 - 元物质输入/出仓或分子机械方块
 gt.blockmachines.multimachine.em.annihilation.desc.0=湮灭发电机的控制器方块
 
 gt.blockmachines.multimachine.em.blackholegenerator.name=黑洞发生器
-gt.blockmachines.multimachine.em.blackholegenerator.hint.0=1 - 基础仓室或超能机械方块
+gt.blockmachines.multimachine.em.blackholegenerator.hint.0=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.blackholegenerator.hint.1=2 - 元物质输入/出仓或分子机械方块
 gt.blockmachines.multimachine.em.blackholegenerator.desc.0=黑洞发生器的控制器方块
 gt.blockmachines.multimachine.em.blackholegenerator.desc.1=使用一颗黑洞产生能量
+
+gt.blockmachines.pipe.energystream.block.name=激光真空管机械方块
+gt.blockmachines.pipe.datastream.block.name=光缆机械方块
 
 # Eye of Harmony
 achievement.gt.blockmachines.multimachine.em.eye_of_harmony=鸿蒙之眼控制器
@@ -923,7 +885,7 @@ fog.upgrade.respec=重新分配
 fog.upgrade.tt.0=诸神之锻炉
 fog.upgrade.tt.1=改进的引力对流线圈
 fog.upgrade.tt.2=时空拓扑膨胀调节器
-fog.upgrade.tt.3=恒星燃料扩展理论
+fog.upgrade.tt.3=宇宙燃料扩展理论
 fog.upgrade.tt.4=引力子诱导超导系统
 fog.upgrade.tt.5=流体动力学集成模块
 fog.upgrade.tt.6=超光速放大器
@@ -956,7 +918,7 @@ fog.upgrade.tt.secret=隐秘升级
 fog.upgrade.tt.short.0=由此开始
 fog.upgrade.tt.short.1=引力涡旋
 fog.upgrade.tt.short.2=时空膨胀
-fog.upgrade.tt.short.3=恒星燃料
+fog.upgrade.tt.short.3=宇宙燃料
 fog.upgrade.tt.short.4=引子超导
 fog.upgrade.tt.short.5=流力集成
 fog.upgrade.tt.short.6=光速放大
@@ -990,16 +952,16 @@ fog.upgrade.lore.0=诸神之锻炉是围绕一颗稳定的中子星建造的宏�
 fog.upgrade.lore.1=诸神之锻炉的首次重大升级. 得益于引力子碎片的引力扭曲效应, 处理速度随着热量的增加而大幅提升. 这是引力子碎片诸多用途中的第一个, 随着锻炉的持续使用, 更多用途将被逐步发掘.
 fog.upgrade.lore.2=引力子碎片可以扭曲神锻所用燃料的表面积, 从而提高效率, 使每单位燃料能够处理更多的材料. 随着神锻的使用需求日益增长, 引力子碎片将在进一步提高效率方面发挥关键作用.
 fog.upgrade.lore.3=通过使用引力子碎片, 神锻燃料室内的空间得以扩展, 允许燃烧更多的燃料,从而达到更高的温度. 别忘了预留些燃料, 以维持中心中子星的生命力.
-fog.upgrade.lore.4=引力子碎片能影响的不只物质,还有能量：在足够高浓度的恒星燃料作用下, 仅通过引力作用, 神锻内就激发了超导性. 这些引力子碎片还能有哪些其他的特性呢?
+fog.upgrade.lore.4=引力子碎片能影响的不只物质,还有能量：在足够高浓度的星辉燃料作用下, 仅通过引力作用, 神锻内就激发了超导性. 这些引力子碎片还能有哪些其他的特性呢?
 fog.upgrade.lore.5=随着神锻的不断使用, 你收集到了关于引力子碎片的更多数据. 研究发现,它们能稳定神锻的输出, 允许你直接提取尚且还接近中子星中心的熔融材料.
-fog.upgrade.lore.6=随着恒星燃料消耗的持续增加, 中子星的体积和能量不断增长, 一次可以处理的物质总量也随之增加. 引力子碎片有助于在神锻核心附近操控更多的物质.
+fog.upgrade.lore.6=随着星辉燃料消耗的持续增加, 中子星的体积和能量不断增长, 一次可以处理的物质总量也随之增加. 引力子碎片有助于在神锻核心附近操控更多的物质.
 fog.upgrade.lore.7=随着对引力子碎片理解的不断深入, 你改进了控制它们的方式,让它们可以更好的操控物质. 引力子碎片提供了一种替代电磁约束等离子体的方法, 通过时空操控代替电磁场, 从而使神锻能够直接将物质以等离子体的形式输出.
 fog.upgrade.lore.8=将引力子碎片添加到神锻的内部能量存储中, 可以在更小的空间内存储更多的能量. 通过将能量密度提高到相对论级别, 随着电势不断上升,神锻可以更高效地运行.
-fog.upgrade.lore.9=仅仅是将更多的引力子碎片添加到燃料舱中, 就能持续增强神锻消耗更多恒星燃料的能力. 甚至投入到锻炉完全不同的部分的引力子碎片也能带来这种增益---- 这种碎片似乎展现出类量子纠缠的特性.
+fog.upgrade.lore.9=仅仅是将更多的引力子碎片添加到燃料舱中, 就能持续增强神锻消耗更多星辉燃料的能力. 甚至投入到锻炉完全不同的部分的引力子碎片也能带来这种增益---- 这种碎片似乎展现出类量子纠缠的特性.
 fog.upgrade.lore.10=在神锻的材料处理区域增加引力子碎片的浓度, 会极大地扭曲时空,从而操控因果上来自未来和过去的物质. 这使材料在实际上的输入能力和处理能力翻倍.
 fog.upgrade.lore.11=使用大量引力子碎片会创造出极端的空间区域, 在这些区域中,异星物质可以比通常情况下更稳定地存在. 不幸的是,这个区域极端到几乎与神锻的其他部分在空间上完全断开, 无法利用现有的结构升级和它的其余功能.
-fog.upgrade.lore.12=将恒星燃料暴露在引力子诱发的微型黑洞中,可以使其进一步被压缩, 发生比天然恒星能量更高的聚变反应, 从而增强其为神锻核心的中子星提供能量的能力. 因此,产生的热量增加了, 锻炉的处理效率也提升了.
-fog.upgrade.lore.13=随着燃料室中引力子碎片浓度的增加, 有限的空间内开始展现出无限分形般的特性, 这使得处理能力进一步提高. 不过,这需要增加相应的恒星燃料, 以确保能量能够深入到燃料室内部的物质.
+fog.upgrade.lore.12=将星辉燃料暴露在引力子诱发的微型黑洞中,可以使其进一步被压缩, 发生比天然恒星能量更高的聚变反应, 从而增强其为神锻核心的中子星提供能量的能力. 因此,产生的热量增加了, 锻炉的处理效率也提升了.
+fog.upgrade.lore.13=随着燃料室中引力子碎片浓度的增加, 有限的空间内开始展现出无限分形般的特性, 这使得处理能力进一步提高. 不过,这需要增加相应的星辉燃料, 以确保能量能够深入到燃料室内部的物质.
 fog.upgrade.lore.14=利用引力子碎片独特的能量操控特性, 电能可以在神锻中更高效地使用. 通过引力而非物质或电磁力引导电子, 能够减少能量损耗,从而实现更高的处理速度.
 fog.upgrade.lore.15=类似于量子操纵者, 引力子碎片的量子力学特性使得神锻能够通过直接操控材料本身的亚原子粒子, 在一次事件中完成一系列复杂的核聚变过程.
 fog.upgrade.lore.16=这是另一种引力子碎片的类量子纠缠效应表现,基础的能量锻炉模块现在也具备了融化核心模块所做出的改进.这使得神锻在处理效率,以及对珍贵的引力子碎片的分配这二者上都得到了提升.
@@ -1013,31 +975,31 @@ fog.upgrade.lore.23=在中子星这样有致密引力的物体周围维持如此
 fog.upgrade.lore.24=对引力子碎片引力约束效应的理解提升, 使神锻能够处理和操控最奇特的等离子体, 包括通常仅能存在纳秒级的合成超锕系元素. 使用少量的引力子稳定原子核, 还能延长这些物质的寿命, 使其可在外界被使用.
 fog.upgrade.lore.25=通过进一步利用引力子碎片的类量子纠缠特性, 其他模块升级的效果也能应用于异化器模块. 然而,由于该模块内部时空的极端性质以及所处理的材料, 这些益处会按照平方反比定律递减.
 fog.upgrade.lore.26=随着更多环状结构被放置得更靠近神锻中心的中子星, 结构上的引力压力急剧增加. 引力子碎片能够缓解这些压力, 同时还能在两个环状结构及其模块的升级之间建立局部的时空桥梁.
-fog.upgrade.lore.27=通过大量使用引力子碎片,神锻的能力取得了巨大突破—— 能够无限制地供应中子星所需的恒星燃料. 尽管这会遇到收益递减的问题, 但这样一来即便在不断进行物料处理导致能量消耗极度加速的情况下, 中子星仍能稳定存在.
+fog.upgrade.lore.27=通过大量使用引力子碎片,神锻的能力取得了巨大突破—— 能够无限制地供应中子星所需的星辉燃料. 尽管这会遇到收益递减的问题, 但这样一来即便在不断进行物料处理导致能量消耗极度加速的情况下, 中子星仍能稳定存在.
 fog.upgrade.lore.28=在电力系统中使用引力子碎片来制造局部微型能量虫洞, 使得电能传输效率极高, 以至于神锻可以近乎无限地利用电力. 更多的电力意味着更快的处理速度,更迅速的物料移动, 以及更好地利用与引力子碎片相关的升级.
-fog.upgrade.lore.29=神锻最后的外部结构升级, 需要对引力子碎片, 及其在极端环境中的应用, 有着最前沿的研究. 有了这个升级, 诸神之锻炉的最后4个模块插槽就可以建造了, 它可以使你的生产攀升到从未有过的技术高度.
-fog.upgrade.lore.30=随着对诸神之锻炉的完全掌握, 一个跨越宇宙的全新计划逐渐成型. 在这个阶段,量化和提取引力子碎片应用于神锻之外的强大新技术领域已变为可能; 不在元素周期表上的,最奇特的等离子体也可以生产; 最重要的是,逐渐理解磁物质的巨大威力---- 这是一种完全由磁单极子构成的物质形式,其密度和稳定性是传统玻色物质的数十亿倍. 随着诸如此类的发展, 你意识到神锻的完全体也并不是最终目标, 这仅仅是超越宇宙的垫脚石.
+fog.upgrade.lore.29=等离子制造机与聚变异化器的极端空间进一步富集，不仅能生产出超越常规周期元素的奇异等离子体，还能促成全新亚原子粒子的生成，最终创造出磁物质——一种完全由磁单极子构成的物质形态，其密度与稳定性可达传统玻色子物质的数十亿倍。
+fog.upgrade.lore.30=随着第三道也是最后一道圆环的建成，诸神之锻炉的完全掌控已然达成，如今得以量化并提取引力子碎片，将其用于锻炉之外强大崭新的科技事业。随着诸如此类的发展，你意识到神锻的完全体也并不是最终目标，这仅仅是超越宇宙的垫脚石。
 
 fog.upgrade.text.0=解锁诸神之锻炉的初始状态，拥有8个可用模块位置，1个环。并且解锁太阳耀斑锻炉模块。2,000,000,000EU/t加工电压，15,000热量增益上限。
 fog.upgrade.text.1=解锁一个根据实际炉温减少配方时间的乘数. 此加成通过以下公式计算: 乘数=1/(实际炉温^0.01)
 fog.upgrade.text.2=通过将实际燃料消耗速率乘以0.8来提高燃料效率.
 fog.upgrade.text.3=将最大燃料消耗速率乘以1.2
-fog.upgrade.text.4=通过以下公式增加所有模块的基础处理电压: (恒星燃料单位/s)*10^8EU/t
+fog.upgrade.text.4=通过以下公式增加所有模块的基础处理电压: (星辉燃料单位/s)*10^8EU/t
 fog.upgrade.text.5=解锁“太阳射流融化核心”模块.
-fog.upgrade.text.6=解锁一个根据燃料消耗速率改变最大并行的乘数. 此加成通过以下公式计算: 乘数=1+(恒星燃料单位/s)/15
+fog.upgrade.text.6=解锁一个根据燃料消耗速率改变最大并行的乘数. 此加成通过以下公式计算: 乘数=1+(星辉燃料单位/s)/15
 fog.upgrade.text.7=解锁“太阳热能等离子制造机”模块以及基本元素到等离子体的处理 (最大为1步等离子体,T3聚变).
-fog.upgrade.text.8=解锁最大电池容量的配置窗口，并将限制提高到整型的最大值（2147483647）。此外，解锁一个与电池容量成比例的能量减免（上限为0.05，即5%）。能量减免计算如下：能量减免=(1-1.05^(-0.05*最大电池容量))/20
-fog.upgrade.text.9=每进行一次升级，最大燃料消耗速率增加1恒星燃料单位/s.
+fog.upgrade.text.8=解锁最大电池容量的配置窗口，并将限制提高到整型的最大值（2147483647）。此外，解锁一个与电池容量成比例的能量减免（上限为0.05，即5%%）。能量减免计算如下：能量减免=(1-1.05^(-0.05*最大电池容量))/20
+fog.upgrade.text.9=每进行一次升级，最大星辉燃料消耗速率增加1星辉燃料单位/s.
 fog.upgrade.text.10=最大并行添加一个x2的乘数.
 fog.upgrade.text.11=解锁“太阳聚变异化器”模块和夸克胶子等离子体生成。此时，该模块不受其他乘数或升级带来的加成影响。
-fog.upgrade.text.12=改进[燃料消耗->炉温]转换公式。改进后的公式：能量熔炉炉温=log1.12(恒星燃料单位/秒)*1000+12601，融化核心炉温=log1.18(恒星燃料单位/秒)*1000+12601
-fog.upgrade.text.13=将超光速放大器升级的公式改进为: 乘数=1+(恒星燃料单位/秒)/5
+fog.upgrade.text.12=改进[燃料消耗->炉温]转换公式。改进后的公式：能量熔炉炉温=log1.12(星辉燃料单位/秒)*1000+12601，融化核心炉温=log1.18(星辉燃料单位/秒)*1000+12601
+fog.upgrade.text.13=将超光速放大器升级的公式改进为: 乘数=1+(星辉燃料单位/秒)/5
 fog.upgrade.text.14=将4/2超频(OC)改进为4/2.3超频(OC).
 fog.upgrade.text.15=允许“太阳热能等离子制造机”处理多步骤等离子体. 但等级(T)限制仍然存在.
 fog.upgrade.text.16=使“太阳烈焰能量锻炉”获得“太阳射流融化核心”升级路径的全部收益.
 fog.upgrade.text.17=将高炉(EBF)炉温增益上限提高到30,000K.
 fog.upgrade.text.18=解锁一个根据当前热量改变最大并行的乘数. 此增益通过以下公式计算得出: 乘数=1+温度/15000
-fog.upgrade.text.19=将工业高炉炉温带来的电力减免增益从5%提升至8%（译注：变为每900K减少8%的需求功率，相当于减少能耗，但会影响并行算法），并根据内部电池的填充水平添加能量减免。此增益通过以下公式计算得出：减免=(当前填充水平/最大容量-0.5)^2*(-0.6)+0.15，对于除等离子体制造器以外的模块乘以2/3
+fog.upgrade.text.19=将工业高炉炉温带来的电力减免增益从5%%提升至8%%（译注：变为每900K减少8%的需求功率，相当于减少能耗，但会影响并行算法），并根据内部电池的填充水平添加能量减免。此增益通过以下公式计算得出：减免=(当前填充水平/最大容量-0.5)^2*(-0.6)+0.15，对于除等离子体制造器以外的模块乘以2/3
 fog.upgrade.text.20=当温度超过30,000K时，将提供工业高炉炉温增益，由以下公式确定：能量锻炉炉温=30000+(当前炉温-30000)^0.85，熔化核心炉温=30000+(当前炉温-30000)^0.8
 fog.upgrade.text.21=解锁一个根据升级总数改变最大并行的乘数. 此增益通过以下公式计算得出: 乘数=1+升级数量/5
 fog.upgrade.text.22=根据当前最大并行改进减少配方时间的乘数 (改进的引力对流线圈,"引力涡旋"升级). 再改进后公式: 乘数=(1/温度^0.01)/(并行^0.02)
@@ -1045,10 +1007,10 @@ fog.upgrade.text.23=每个已激活的环将最大处理电压乘4 , 在其他�
 fog.upgrade.text.24=允许太阳热能等离子制造机处理T5的等离子体.
 fog.upgrade.text.25=使“太阳聚变异化器”能够受到其他升级效果的影响，但这些效果会先进行平方根运算。超频加成通过以下公式调整：超频系数=2+(基础超频系数-2)²
 fog.upgrade.text.26=允许建造第二环，并增加4个可用模块位置。
-fog.upgrade.text.27=解除最大燃料消耗上限，但用于加成计算的燃料消耗量根据以下公式进行调整：实际燃料消耗=基础最大燃料消耗+(基础燃料消耗-基础最大燃料消耗)^0.4，其中基础最大燃料消耗指未升级时的最大燃料消耗。
+fog.upgrade.text.27=解除最大燃料消耗上限，但用于加成计算的燃料消耗量根据以下公式进行调整：实际燃料消耗=基础最大燃料消耗+(基础燃料消耗-基础最大燃料消耗)^0.4，其中基础最大燃料消耗指未升级时的最大燃料消耗。注意，由于技术限制，燃料消耗值不得超过2^31。
 fog.upgrade.text.28=解除最大处理电压上限. 可在每个模块的图形界面中设置电压.
-fog.upgrade.text.29=允许建造第三环，并增加4个可用模块位置。
-fog.upgrade.text.30=在“太阳聚变异化器”中解锁磁物质生产; 在“太阳热能等离子制造机”中解锁异星等离子体的生成; 以及允许神锻弹出和插入引力子碎片.
+fog.upgrade.text.29=解锁太阳聚变异化器中的磁物质生产，以及太阳热能等离子制造机中奇异等离子体的制造能力。
+fog.upgrade.text.30=允许建造第三环，增加4个模块插槽，并解锁引力碎片弹射与注入功能。
 
 fog.debug.resetbutton.text=重置
 fog.debug.resetbutton.tooltip=重置所有升级至0
@@ -1102,7 +1064,7 @@ achievement.gt.godforgecasing.0=奇点强化恒星屏蔽机械方块
 achievement.gt.godforgecasing.1=天体物质引导机械方块
 achievement.gt.godforgecasing.2=无界引力隔绝机械方块
 achievement.gt.godforgecasing.3=超时空强化磁约束机械方块
-achievement.gt.godforgecasing.4=恒星能量抽取机械方块
+achievement.gt.godforgecasing.4=恒星能量虹吸机械方块
 achievement.gt.godforgecasing.5=远程引力子流动调节器
 achievement.gt.godforgecasing.6=中介引力子流动调节器
 achievement.gt.godforgecasing.7=中央引力子流动调节器
@@ -1122,9 +1084,9 @@ achievement.gt.godforgecasing.6.desc=诸神之锻炉的结构方块
 achievement.gt.godforgecasing.7.desc=诸神之锻炉的结构方块
 
 gt.blockmachines.multimachine.FOG.parallel=并行
-gt.blockmachines.multimachine.FOG.batch=批处理大小
-gt.blockmachines.multimachine.FOG.fuelconsumption=恒星燃料消耗系数
-gt.blockmachines.multimachine.FOG.fuelinfo.0=恒星燃料消耗系数是计算每秒恒星燃料消耗的主要决定因素。 每种燃料有不同的调整倍率，如下所示：
+gt.blockmachines.multimachine.FOG.batch=批处理规模
+gt.blockmachines.multimachine.FOG.fuelconsumption=星辉燃料消耗系数
+gt.blockmachines.multimachine.FOG.fuelinfo.0=星辉燃料消耗系数是计算每秒星辉燃料消耗的主要决定因素。 每种星辉燃料有不同的调整倍率，如下所示：
 gt.blockmachines.multimachine.FOG.fuelinfo.1=超维度残留: 系数*300*1.15^系数
 gt.blockmachines.multimachine.FOG.fuelinfo.2=浓缩原始恒星等离子体混合物: 系数*2*1.08^系数
 gt.blockmachines.multimachine.FOG.fuelinfo.3=磁流体约束恒星物质: 系数/25
@@ -1132,8 +1094,8 @@ gt.blockmachines.multimachine.FOG.fuelinfo.4=多方块升级可能会影响这�
 gt.blockmachines.multimachine.FOG.fuelinfo.5=多方块升级可能会影响这些公式，具体变化会列在相应升级的描述中。
 gt.blockmachines.multimachine.FOG.fueltype=点击以选择燃料类型
 gt.blockmachines.multimachine.FOG.fuelusage=燃料使用
-gt.blockmachines.multimachine.FOG.plasmamultistep=多步骤等离子体
-gt.blockmachines.multimachine.FOG.plasmarecipetier=聚变等级
+gt.blockmachines.multimachine.FOG.plasmamultistep=多步骤等离子体：%s
+gt.blockmachines.multimachine.FOG.plasmarecipetier=聚变等级：%s
 gt.blockmachines.multimachine.FOG.storedfuel=现存燃料数量:
 gt.blockmachines.multimachine.FOG.storedstartupfuel=恒星燃料总量：
 gt.blockmachines.multimachine.FOG.batteryinfo=设置电池大小
@@ -1163,6 +1125,7 @@ gt.blockmachines.multimachine.FOG.recipes=已处理配方
 gt.blockmachines.multimachine.FOG.fuelconsumed=已消耗燃料单位数
 gt.blockmachines.multimachine.FOG.extensions=拓展模块已建造
 gt.blockmachines.multimachine.FOG.shardgain=已获取引力子碎片数量
+gt.blockmachines.multimachine.FOG.payUpgradeCosts=支付升级费用
 gt.blockmachines.multimachine.FOG.consumeUpgradeMats=点此确认消耗升级材料
 gt.blockmachines.multimachine.FOG.clickhere=感到困惑?点击这里来获取更多信息
 gt.blockmachines.multimachine.FOG.introduction=§N引言
@@ -1172,10 +1135,10 @@ gt.blockmachines.multimachine.FOG.fuel=燃料
 gt.blockmachines.multimachine.FOG.modules=模块
 gt.blockmachines.multimachine.FOG.upgrades=升级
 gt.blockmachines.multimachine.FOG.milestones=里程碑
-gt.blockmachines.multimachine.FOG.fuelinfotext=当神锻搭建完成并形成多方块结构后，仅简单地开启它并不足以使其正常运行。神锻需要消耗一定数量的恒星燃料（物品形态）才能真正启动。所需的恒星燃料量取决于当前的燃料消耗系数。该系数可在燃料配置菜单中调整。默认最大值为5，不过后续可通过升级提升。恒星燃料的消耗量计算公式为：系数*25*1.2^系数。恒星燃料可通过输入总线供给，它会存储在内部并周期性的消耗。当结构中存储的恒星燃料达到要求时，神锻将正式启动（允许模块连接），并将消耗的恒星燃料转化为存储的液态恒星燃料。此后，神锻必须通过其中一种液态燃料供能（燃料类型可在燃料配置菜单中选择）。如果输入仓中选定的燃料不足，存储的燃料量将逐渐减少；当降至零时，锻造炉会回到之前的"关闭"状态，模块断开连接，必须重新供给恒星燃料才能启动。此外，通过开启电池充电功能可以增加内部存储的液态恒星燃料量，但这会使燃料消耗量翻倍，其中一半将存储在内部电池中。
+gt.blockmachines.multimachine.FOG.fuelinfotext=当神锻搭建完成并形成多方块结构后，仅简单地开启它并不足以使其正常运行。神锻需要消耗一定数量的恒星燃料（物品形态）才能真正启动。所需的恒星燃料量取决于当前的燃料消耗系数。该系数可在燃料配置菜单中调整。默认最大值为5，不过后续可通过升级提升。恒星燃料的消耗量计算公式为：系数*25*1.2^系数。恒星燃料可通过输入总线供给，它会存储在内部并周期性的消耗。当结构中存储的恒星燃料达到要求时，神锻将正式启动（允许模块连接），并将消耗的恒星燃料转化为存储的星辉燃料。此后，神锻必须通过其中一种液态燃料供能（燃料类型可在燃料配置菜单中选择）。如果输入仓中选定的燃料不足，存储的燃料量将逐渐减少；当降至零时，锻造炉会回到之前的"关闭"状态，模块断开连接，必须重新供给恒星燃料才能启动。此外，通过开启电池充电功能可以增加内部存储的液态星辉燃料，但这会使燃料消耗量翻倍，其中一半将存储在内部电池中。
 gt.blockmachines.multimachine.FOG.moduleinfotext=神锻可搭载四种功能模块：太阳烈焰能量锻炉、太阳射流融化核心、太阳热能等离子制造机和太阳聚变异化器。这些模块是独立的多方块结构，需在神锻的指定位置嵌入主体。搭建完成后，模块将自动与主体连接（需满足各模块特定条件），亦可通过手动按钮立即刷新连接状态而无需等待检测周期。各模块均具备专属功能、运作要求，受升级的影响也不尽相同。首个默认解锁的模块是是§B太阳烈焰能量锻炉§6，本质上是比巨型高炉更强大的强化版高炉，并且还具备熔炉模式，你可以将其切换为一个超级强大的工业熔炉，基础并行为1024。第二个解锁的是§B太阳射流融化核心§6，它也能处理高炉配方，不过输出物不以（热）锭的形式而是以熔融形式排出（若无熔融形态则输出常规形态）。此模块必须通过升级解锁才能使用，基础并行为512。第三个模块是§B太阳热能等离子制造机§6，拥有独特配方体系，可将材料直接转化为等离子体。配方按聚变等级和步骤要求分组，未解锁对应升级前无法处理高阶配方。与常规的核聚变不同与常规聚变不同，其产物为输入材料的等离子体，此模块基础并行为384。最终，第四个模块是§B太阳聚变异化器§6，用于生产夸克胶子等离子体，及后期的磁单极物质（需解锁升级）。这个模块在处理这两种材料时都有独特的自动化挑战。因为它们锁定为其中一种处理模式，因此建议准备两个。两种模式的自动化挑战的通用规则如下： 模块在配方周期开始时输出一些材料，并等待正确的输入到达后才开始实际执行配方。如果生产夸克胶子等离子体，模块会输出至多7种不同的流体或小撮粉，数量在1到64之间，且必须返还相应种类和数量的等离子体才能使配方得以执行。 对于每升液体，必须返回一桶等离子体。对于每个小撮粉，必须返回相当于一个锭的等离子体，配方才能正常工作。小撮粉总以9的倍数输出。如果磁物质模式激活，自动化挑战会改变。现在模块会输出1-50L富快子时间流体，51-100L扩大化空间流体以及一个高阶材料的小撮粉。挑战在于不仅要返还富快子时间流体和扩大化空间流体，还要输入数量与扩大化空间流体和富快子时间流体之差相等的该高阶材料的等离子体(以锭计)。一旦所有这些物品都以正确的数量返还，配方就会开始处理并输出磁物质。此模块基础并行为64。
 gt.blockmachines.multimachine.FOG.upgradeinfotext=升级是§6神锻§r的核心与灵魂，它们将解锁该装置的大部分功能与处理能力。通过主界面的按钮可进入升级树界面，点击每个升级节点可查看其效果与解锁条件的详细信息。通常情况下，只有前置升级已解锁且拥有足够的§7引力子碎片§r时才能解锁后续升级。首个升级属于例外，因其不存在前置条件。部分升级还可能额外消耗材料，相关需求会在解锁按钮旁注明（若适用）。当某个升级存在多个前置连接时，将根据连接线颜色区分两种条件：§c红色§r表示需解锁§c所有§r连接的前置升级，§9蓝色§r则表示只需解锁§9任意一个§r前置升级。再次点击已解锁的升级按钮可进行撤销操作，但仅当该升级所连接的§c所有后续升级§r均未激活时方可生效。在解锁太阳聚变异化器之后的一系列升级具有特殊性，它们被称为§B分岔之路§6。顾名思义，首次只能从三条路径中选择其一，其余路径将被锁定。每条路径都提供针对特定模块的专项强化效果，对其他模块类型的影响会减弱（另有说明者除外）。可解锁的路径数量取决于§6神锻§r拥有的环数量，而该数量又受后续升级限制。
-gt.blockmachines.multimachine.FOG.milestoneinfotext=里程碑对于升级诸神之锻炉至关重要，因为它们是获取主要升级货币——引力子碎片的来源。顾名思义，里程碑就是达到特定阈值后奖励引力子碎片的临界点。里程碑共有四种类型，分别是充能、转换、催化和构成，分别对应神锻的不同属性。每个里程碑有7个等级，等级越高达成难度越大，但奖励的引力子碎片也越多。第一个等级可获得1个引力子碎片，第二级2个，第三级3个，以此类推。§B充能§6里程碑根据所有模块累计消耗的电力计算，第一级需要消耗1e15 EU电力，后续每级需求增长9倍。§B转换§6里程碑统计所有模块处理的配方总数（不包括太阳烈焰能量锻炉的熔炉模式），第一级需要处理1000万次配方，后续每级需求增长4倍。§B催化§6里程碑基于锻炉消耗的恒星燃料单位（燃料配置菜单中输入的数值），第一级需要消耗10,000单位燃料，后续每级需求增长3倍。最后，§B构造§6里程碑的运作机制较为特殊，它与锻炉的建筑结构相关。每种独特的模块类型（夸克胶子和磁物质模式下的太阳聚变异化器模块视为2种独特类型），以及每新增一个环形结构，都会获得里程碑等级。您的研究表明，当所有里程碑都达到最终等级时，可能会发生奇异现象...记得回来查看！
+gt.blockmachines.multimachine.FOG.milestoneinfotext=里程碑对于升级诸神之锻炉至关重要，因为它们是获取主要升级货币——引力子碎片的来源。顾名思义，里程碑就是达到特定阈值后奖励引力子碎片的临界点。里程碑共有四种类型，分别是充能、转换、催化和构成，分别对应神锻的不同属性。每个里程碑有7个等级，等级越高达成难度越大，但奖励的引力子碎片也越多。第一个等级可获得1个引力子碎片，第二级2个，第三级3个，以此类推。§B充能§6里程碑根据所有模块累计消耗的电力计算，第一级需要消耗1e15 EU电力，后续每级需求增长9倍。§B转换§6里程碑统计所有模块处理的配方总数（不包括太阳烈焰能量锻炉的熔炉模式），第一级需要处理1000万次配方，后续每级需求增长4倍。§B催化§6里程碑基于锻炉消耗的星辉燃料单位（燃料配置菜单中输入的数值），第一级需要消耗10,000单位燃料，后续每级需求增长3倍。最后，§B构造§6里程碑的运作机制较为特殊，它与锻炉的建筑结构相关。每种独特的模块类型（夸克胶子和磁物质模式下的太阳聚变异化器模块视为2种独特类型），以及每新增一个环形结构，都会获得里程碑等级。您的研究表明，当所有里程碑都达到最终等级时，可能会发生奇异现象...记得回来查看！
 gt.blockmachines.multimachine.FOG.contributors=贡献者
 gt.blockmachines.multimachine.FOG.lead=项目主管
 gt.blockmachines.multimachine.FOG.cloud=GDCloud
@@ -1214,7 +1177,15 @@ fog.cosmetics.color=颜色
 fog.cosmetics.color.red=红(R)
 fog.cosmetics.color.green=绿(G)
 fog.cosmetics.color.blue=蓝(B)
+fog.cosmetics.color.hue=H
+fog.cosmetics.color.saturation=S
+fog.cosmetics.color.value=V
 fog.cosmetics.color.gamma=伽马校正(Gamma)
+fog.cosmetics.color.rgb=RGB
+fog.cosmetics.color.rgb_colored=§cR§aG§9B
+fog.cosmetics.color.hsv=HSV
+fog.cosmetics.color.hsv_colored=§dH§6S§bV
+fog.cosmetics.color.hex=十六进制：
 fog.cosmetics.selectcolor.tooltip.1=左键选择这个星色
 fog.cosmetics.selectcolor.tooltip.2=Shift-左键编辑这个星色(必须是自定义色)
 fog.cosmetics.starcolor=自定义星色
@@ -1223,6 +1194,7 @@ fog.cosmetics.misc=杂项
 fog.cosmetics.spin=旋转
 fog.cosmetics.size=大小
 fog.cosmetics.animations=动画
+fog.cosmetics.animations.tooltip=切换后可能需要片刻才能刷新
 fog.cosmetics.cyclespeed=两层颜色的旋转速度
 fog.cosmetics.onlyintegers=接受整数
 fog.cosmetics.onlydecimals=接受小数
@@ -1244,7 +1216,9 @@ fog.cosmetics.deletecolors.tooltip=删除该星色
 fog.cosmetics.importcolors=导入
 fog.cosmetics.importcolors.tooltip=从剪贴板导入星色
 fog.cosmetics.exportcolors=导出
-fog.cosmetics.exportcolors.tooltip=保存星色到剪贴板中
+fog.cosmetics.exportcolors.tooltip=复制星色到剪贴板中
+fog.cosmetics.exportcolors.message=已复制导出的星色到剪贴板
+fog.cosmetics.exportcolors.failed=无法将导出的星色复制到剪贴板
 fog.cosmetics.importer.import=导入星色
 fog.cosmetics.importer.error=非法星色
 fog.cosmetics.importer.valid=合法星色
@@ -1352,10 +1326,6 @@ gt.blockmachines.debug.tt.genny.desc.0=凭空而生的能量
 gt.blockmachines.debug.tt.genny.desc.1=一个无限的能源生产/消耗设备
 gt.blockmachines.debug.tt.genny.desc.2=我只是想要一个...
 gt.blockmachines.debug.tt.genny.desc.3=使用螺丝刀将其切换为激光模式.
-gt.blockmachines.debug.tt.writer.name=Debug结构打印机
-gt.blockmachines.debug.tt.writer.desc.0=扫描周围的方块
-gt.blockmachines.debug.tt.writer.desc.1=打印多方块非实体的结构样式编码
-gt.blockmachines.debug.tt.writer.desc.2=ABC轴沿机器正面确定
 gt.blockmachines.debug.tt.certain.desc.0=确定！
 gt.blockmachines.debug.tt.certain.desc.1=薛定谔的猫逃出了盒子
 
@@ -1390,6 +1360,15 @@ GT5U.gui.text.waiting_for_inputs=§7等待输入
 GT5U.gui.text.computation_loss=§4由于算力不足关机.
 GT5U.gui.text.researching_item=§f正在研究: §b%s
 GT5U.gui.text.research_progress=§f算力: %d/%d (%s%%)
+GT5U.gui.text.at_eu_transferred=§8EU 已传输：
+GT5U.gui.text.at_past_5secs.header=§7过去5秒：
+GT5U.gui.text.at_past_30secs.header=§7过去30秒：
+GT5U.gui.text.at_past_min.header=§7过去一分钟：
+GT5U.gui.text.at_history.values=%s EU/t（%sA %s）
+GT5U.gui.text.total_line=总计：%s EU
+GT5U.gui.text.usage_line=使用：%s EU/t
+GT5U.gui.text.time_line=时间：%s 秒
+GT5U.gui.text.time_line_with_ticks=时间：%s秒（%d刻）
 
 # RecipeMaps
 gt.recipe.eyeofharmony=鸿蒙之眼
@@ -1398,6 +1377,7 @@ gt.recipe.fog_plasma=太阳热能等离子制造机
 gt.recipe.fog_exotic=太阳聚变异化器
 gt.recipe.fog_molten=太阳射流融化核心
 gt.recipe.upgrade_costs=神锻升级
+gt.recipe.condensate=Bose-Einstein Condensate
 
 
 # NEI
@@ -1414,16 +1394,17 @@ tt.keyword.ID=ID
 #Example: 32EU at 1A
 tt.keyword.at= 
 # Any X
-tt.keyword.Structure.AnyComputerCasing=任意电子计算机械方块
-tt.keyword.Structure.AnyHighPowerCasing=任意超能机械方块
-tt.keyword.Structure.AnyHighPowerCasing1D=任意超能机械方块(提示方块：1号)
-tt.keyword.Structure.AnyHighPowerCasing2D=任意超能机械方块(提示方块：2号)
-tt.keyword.Structure.AnyHighPowerCasingFront=任意正面超能机械方块
+tt.keyword.Structure.AnyComputerCasing=任意电子计算机机械方块
+tt.keyword.Structure.AnyHighPowerCasing=任意高能机械方块
+tt.keyword.Structure.AnyHighPowerCasing1D=任意高能机械方块(提示方块：1号)
+tt.keyword.Structure.AnyHighPowerCasing2D=任意高能机械方块(提示方块：2号)
+tt.keyword.Structure.AnyHighPowerCasingFront=任意正面高能机械方块
 tt.keyword.Structure.AnyTeslaBaseCasingOuter=任意外侧特斯拉基座机械方块
-tt.keyword.Structure.AnyComputerCasingFirstOrLastSlice=任意最前或最后一片电子计算机械方块
-tt.keyword.Structure.AnyComputerCasingBackMain=任意主体背面电子计算机械方块
-tt.keyword.Structure.AnyAdvComputerCasing=任意进阶电子计算机械方块
-tt.keyword.Structure.AnyAdvComputerCasingExceptOuter=除外侧的任意进阶电子计算机械方块
+tt.keyword.Structure.AnyComputerCasingFirstOrLastSlice=任意最前或最后一片电子计算机机械方块
+tt.keyword.Structure.AnyComputerCasingBackMain=任意主体背面电子计算机机械方块
+tt.keyword.Structure.AnyComputerCasingsHint1or3=提示方块1或3：电子计算机机械方块
+tt.keyword.Structure.AnyAdvComputerCasing=任意进阶电子计算机机械方块
+tt.keyword.Structure.AnyAdvComputerCasingExceptOuter=除外侧的任意进阶电子计算机机械方块
 tt.keyword.Structure.AnyMolecularCasing=任意分子机械方块
 tt.keyword.Structure.AnyMolecularCasing2D=任意分子机械方块(提示方块：2号)
 tt.keyword.Structure.AnyMolecularCasing3D=任意分子机械方块(提示方块：3号)
@@ -1469,9 +1450,9 @@ tt.keyword.Computation=算力
 tt.keyword.Problems=故障
 tt.keyword.Efficiency=效率
 #Button that allows to pass power to other machines
-tt.keyword.PowerPass=导能
+tt.keyword.PowerPass=导能：§9%s
 #Button that vents EM
-tt.keyword.SafeVoid=安全销毁
+tt.keyword.SafeVoid=安全销毁：§9%s
 tt.keyword.Parametrizer=参数仪
 tt.keyword.Value=值
 tt.keyword.Input=输入
@@ -1491,7 +1472,7 @@ tt.keyphrase.Energy_Hatches=能源仓
 tt.keyphrase.Probably_uses=当前已用
 tt.keyphrase.Probably_makes=当前发电
 tt.keyphrase.Tier_Rating=等级
-tt.keyphrase.Amp_Rating=电流
+tt.keyphrase.Amp_Rating=电流：§a%s A
 tt.keyphrase.Computation_Available=可用算力
 tt.keyphrase.Computation_Remaining=剩余算力
 tt.keyphrase.AL_Recipe_Providing=提供§6%s§7装配线合成表
@@ -1509,11 +1490,11 @@ tt.keyphrase.Running_interdimensional_scan=多维度扫描进行中
 tt.keyphrase.Running_local_dimension_scan=本维度扫描进行中
 tt.keyphrase.Overdrive_disengaged=过载未占用
 tt.keyphrase.Overdrive_engaged=过载已占用
-tt.keyphrase.Hysteresis_high_set_to=滞后高通设置为
-tt.keyphrase.Hysteresis_low_set_to=滞后低通设置为
-tt.keyphrase.Tesla_radius_set_to=特斯拉半径设置为
-tt.keyphrase.Sending_power=发送功率
-tt.keyphrase.Receiving_power=接收功率
+tt.keyphrase.Hysteresis_high_set_to=滞后高通设置为 %s%%
+tt.keyphrase.Hysteresis_low_set_to=滞后低通设置为 %s%%
+tt.keyphrase.Tesla_radius_set_to=特斯拉半径设置为%sm
+tt.keyphrase.Sending_power=正在发送能量！
+tt.keyphrase.Receiving_power=正在接收能量！
 tt.keyphrase.Stored_energy=已存储能量
 tt.keyphrase.Stored_EU=已存储EU
 tt.keyphrase.Average_IO=平均I/O
@@ -1522,6 +1503,14 @@ tt.keyphrase.Average_IO_max=电压I/O 最大
 tt.keyphrase.Amperage_IO_(max)=电流I/O(最大)
 tt.keyphrase.Side_capabilities=辅助功能
 tt.keyphrase.Ass_line_recipe=装配线合成表
+
+tt.cover.ender_fluid_link.fill=末影填充已启动！
+tt.cover.ender_fluid_link.suck=末影吸取已启动！
+
+tt.block.world_accelerator.set_speed=机器加速已更改为 x%s
+tt.block.world_accelerator.set_range=机器范围已更改为 %s 个方块
+tt.block.world_accelerator.set_range_fail=无法更改范围；机器处于方块实体模式！
+tt.block.world_accelerator.set_mode=已切换模式至：%s
 
 #OpenTurrets compatibility
 tile.turretHeadEM.name=元物质炮塔
@@ -1951,7 +1940,7 @@ tt.godforge.casings.7.Tooltip.0=控制引力子的流动以操纵重力
 tt.godforge.casings.7.Tooltip.1=重力中心
 tt.godforge.casings.8.Tooltip.0=在不损失任何热量的情况下传输和储存大量热量
 tt.godforge.casings.8.Tooltip.1=<<<热力<<<
-tt.godforge.casings.8.Tooltip.2=>>>波>>>
+tt.godforge.casings.8.Tooltip.2=>>>浪潮>>>
 tt.godforge.star_color.preset.default=默认
 tt.godforge.star_color.preset.rainbow=彩虹
 tt.godforge.star_color.preset.clouds_pick=Cloud的选则
@@ -1961,14 +1950,19 @@ tt.godforge.star_color.preset.mayas_pick=Maya的选则
 tt.eoh.stability.tooltip=§b§l提升时空力场的稳定性。
 tt.eoh.time_dilation.standard.tooltip=§b§l盒子里的时间膨胀。
 tt.eoh.time_dilation.error.tooltip=§c§l错误，请报告给GTNH团队
-tt.eoh.spacetime.standard.tooltip.0=支持内部时空容积高达%d公里³。
+tt.eoh.spacetime.standard.tooltip.0=支持内部时空容积高达%dkm³。
 tt.eoh.spacetime.standard.tooltip.1=§b§l能够运行最高%d级的配方
 
 # Info data
 
 tt.infodata.multi.energy_hatches=能源仓：%s EU / %s EU
 tt.infodata.multi.currently_generates=当前发电：%s EU/t，电流为 %s A
-tt.infodata.multi.computation=算力：%s/%s
+tt.infodata.multi.computation=算力：§a%s §r/ §e%s
+tt.infodata.multi.connection_health=量子计算机连接：%s
+tt.infodata.multi.connection_health.inactive=未激活
+tt.infodata.multi.connection_health.established=已建立
+tt.infodata.multi.connection_health.waiting=等待回应
+tt.infodata.multi.connection_health.decoherence=检测到相干性
 tt.infodata.multi.max_parallel=最大并行数：%s
 tt.infodata.multi.multiplier.recipe_time=配方时间倍率：%s
 tt.infodata.multi.multiplier.energy=能量倍率：%s
@@ -1976,6 +1970,10 @@ tt.infodata.multi.divisor.recipe_time.non_perfect_oc=非完美OC的配方时间�
 tt.infodata.multi.currently_using=当前使用：%s EU/t
 tt.infodata.multi.capacity.heat=最大温度：%s
 tt.infodata.multi.capacity.heat.effective=生效温度：%s
+
+## Waila
+
+tt.waila.multi.computation=§7Computation: §a%s
 
 ## Eye of Harmony
 tt.infodata.eoh.control_block_statistics=控制块统计
@@ -2015,6 +2013,42 @@ tt.infodata.tesla.current_output=当前输出：%s EU / %s EU
 tt.infodata.pipe.active=激活。
 tt.infodata.pipe.inactive=未激活。
 
+## Space Elevator
+tt.spaceelevator.storedEnergy=Stored Energy: %d
+# Space Miner
+tt.spaceminer.distance=Distance
+tt.spaceminer.parallel=Parallels
+tt.spaceminer.cycle=Cycle Distance
+tt.spaceminer.range=Cycle Range
+tt.spaceminer.step=Cycle Step
+tt.spaceminer.filterButtonTooltip=Open Filter
+tt.spaceminer.toggleFilter=Toggle Filter
+tt.spaceminer.clearFilter=Clear Filter
+tt.spaceminer.asteroidutilitypanelButtonTooltip=Open Space Miner Utility Panel
+tt.spaceminer.asteroidButtonTooltipInfo=Click me to get more info!
+tt.spaceminer.asteroidButtonFilter=Right click to add asteroid to filter
+tt.spaceminer.textFieldOre=Ore
+tt.spaceminer.textFieldDistance=Distance
+tt.spaceminer.textFieldTier=Tier
+tt.spaceminer.calculatorButtonTooltip=Open Space Miner Calculator
+tt.spaceminer.asteroidutilitypanel.miningDrones=Can be mined by:
+tt.spaceminer.asteroidutilitypanel.itemUsage=Uses 4 of each per parallel
+tt.spaceminer.asteroidutilitypanel.sizeForDrone=Asteroid size with this drone: %d-%d
+tt.spaceminer.asteroidutilitypanel.miningTime=Mining operation time with this drone: %ss
+tt.spaceminer.asteroidutilitypanel.distanceRange=Found at: %s%d-%d%s distance
+tt.spaceminer.asteroidutilitypanel.computation=Requires %s%d computation/s per parallel
+tt.spaceminer.asteroidutilitypanel.moduleTier=Requires at least tier %d Space Mining module
+tt.spaceminer.asteroidutilitypanel.drops=Drops:
+tt.spaceminer.asteroidutilitypanel.targetAsteroidButtonTooltip=Target this asteroid
+tt.spaceminer.calculator.missing.distance=Missing distance setting!
+tt.spaceminer.calculator.missing.moduleTier=Missing module tier!
+tt.spaceminer.calculator.missing.drone=Missing drone!
+tt.spaceminer.calculator.calculate=Calculate
+tt.spaceminer.calculator.asteroidChance= %s
+tt.spaceminer.filter.minableAsteroids=Currently minable asteroids for
+tt.spaceminer.filter.noValidInputs=No valid inputs!
+tt.spaceminer.filter.addOre=Click to add this ore to the filter
+
 # Gui
 tt.gui.tooltip.power_pass=导能
 tt.gui.tooltip.safe_void=安全销毁
@@ -2025,22 +2059,52 @@ tt.gui.tooltip.plasma_module.debug_window.multi_step=多步骤
 tt.gui.tooltip.plasma_module.debug_window.fusion_tier=聚变等级
 tt.gui.tooltip.plasma_module.debug_window.parallel=并行
 
-tt.gui.text.debug.eut=EU/T:
-tt.gui.text.debug.amp=A:
-tt.gui.text.debug.sum=总和：%s
-tt.gui.text.debug.tier=等级：%s
+tt.gui.text.debug.set_mode=Click to Set Machine to %s
+tt.gui.text.debug.status.inactive=Inactive
+tt.gui.text.debug.status.disabled=Disabled
+
+tt.gui.text.debug_power.status.produce=Producing
+tt.gui.text.debug_power.status.consume=Consuming
+tt.gui.text.debug_power.toggle_laser=Toggle Laser Mode
 
 tt.gui.text.debug_pollutor.pollution=污染
-
-tt.gui.text.debug_structure_writer.structure_size=结构尺寸
-tt.gui.text.debug_structure_writer.my_position=我的位置
-tt.gui.text.debug_structure_writer.changing_scan_size=（更改扫描尺寸）
-tt.gui.text.debug_structure_writer.moving_origin=(移动原点)
+tt.gui.text.debug_pollutor.status=Status: %s
+tt.gui.text.debug_pollutor.status.produce=Polluting
+tt.gui.text.debug_pollutor.status.consume=Cleaning
 
 tt.gui.text.hatch.uncertainty.status.ok=状态：正常
 tt.gui.text.hatch.uncertainty.status.ng=状态：未通过
+
+tt.gui.text.hatch.status=Machine Status: %s
+tt.gui.text.hatch.status.active=Active
+tt.gui.text.hatch.status.inactive=Inactive
 
 tt.gui.tooltip.full_led_desc.in.id=ID：%s:%s:§bI %s
 tt.gui.tooltip.full_led_desc.out.id=ID：%s:%s:§bO %s
 tt.gui.tooltip.full_led_desc.value=值：%s
 tt.gui.tooltip.full_led_desc.unused=闲置
+
+EOH_Controller_PlanetBlock=当前星球方块：%s
+EOH_Controller_AstralArrayAmount=已储存星阵：%s
+
+EOH.Recipe.Hydrogen.In=氢：%s L
+EOH.Recipe.Helium.In=氦：%s L
+EOH.Recipe.SpacetimeTier=时空层级：%s
+EOH.Recipe.EU.Out=EU 输出：%s EU
+EOH.Recipe.EU.In=EU 输入：%sEU
+EOH.Recipe.BaseRecipeChance=基础配方概率：%s%%
+EOH.Recipe.RecipeEnergyEfficiency=配方能源效率：%s%%
+EOH.Recipe.Warning=§4§l警告§r：未显示所有物品。
+
+gt.blockmachines.dynamo_hatch.wireless=§7可在全局网络中储存能量，上限为2^(2^31) EU。\n§7不与导线连接。此方块用于向网络输入EU。
+gt.blockmachines.energy_hatch.wireless=§7可在全局网络中存储能量，容量高达2^(2^31) EU。\n§7不与导线连接。此方块会从网络中提取EU。
+
+gt.godforgecasing.0.name=奇点强化恒星屏蔽机械方块
+gt.godforgecasing.1.name=天体物质引导机械方块
+gt.godforgecasing.2.name=无界引力隔绝机械方块
+gt.godforgecasing.3.name=超时空强化磁约束机械方块
+gt.godforgecasing.4.name=恒星能量虹吸机械方块
+gt.godforgecasing.5.name=远程引力子流动调节器
+gt.godforgecasing.6.name=中介引力子流动调节器
+gt.godforgecasing.7.name=中央引力子流动调节器
+gt.godforgecasing.8.name=简谐声子传输管道

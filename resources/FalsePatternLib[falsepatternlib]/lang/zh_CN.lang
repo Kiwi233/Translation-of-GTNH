@@ -1,0 +1,22 @@
+config.falsepatternlib.misc=Miscellaneous
+config.falsepatternlib.misc.tooltip=Settings that don't fit into other categories
+config.falsepatternlib.misc.inGameModOptionsFix=In-Game Mod Options Fix
+config.falsepatternlib.misc.inGameModOptionsFix.tooltip=Fixes the mod options menu in-game.
+
+config.falsepatternlib.toasts=Toast notifications
+config.falsepatternlib.toasts.tooltip=Common toast notification settings
+config.falsepatternlib.toasts.maxVisible=Max Toasts
+config.falsepatternlib.toasts.maxVisible.tooltip=The maximum amount of toasts to show on the screen.
+config.falsepatternlib.toasts.yOffset=Toast Y Offset
+config.falsepatternlib.toasts.yOffset.tooltip=The amount of empty space from the top of the screen in pixels.
+config.falsepatternlib.toasts.align=Toast Alignment
+config.falsepatternlib.toasts.align.tooltip=Which side of the screen should toasts show up on.
+
+config.falsepatternlib.config_engine=Configuration Engine
+config.falsepatternlib.config_engine.tooltip=Settings for the FPLib config system (also used by other mods)
+config.falsepatternlib.config_engine.configErrorLogging=Config error logging
+config.falsepatternlib.config_engine.configErrorLogging.tooltip=How the config error logging should be set up.\n[None] disables all built-in config validation error logging.
+config.falsepatternlib.config_engine.configSyncSuccessLogging=Config sync success logging
+config.falsepatternlib.config_engine.configSyncSuccessLogging.tooltip=How successful config synchronizations should be logged.
+config.falsepatternlib.config_engine.configSyncFailureLogging=Config sync failure logging
+config.falsepatternlib.config_engine.configSyncFailureLogging.tooltip=How failed config synchronizations should be logged.

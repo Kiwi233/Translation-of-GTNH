@@ -89,6 +89,7 @@ openblocks.misc.pointed_cannon=加农炮已瞄准 %s, %s, %s
 openblocks.misc.change_mode=改变至%s模式
 openblocks.misc.change_size=改变规模至 %s x %s x %s
 openblocks.misc.change_box_size=Changing size to (%d,%d,%d):(%d,%d,%d)
+openblocks.misc.change_area_size=正在调整尺寸至 (%d,%d):(%d,%d)
 openblocks.misc.total_blocks=搭建共需要: %d 个方块
 openblocks.misc.get_witched=为之沉迷！
 openblocks.misc.page=%d / %d 页
@@ -187,7 +188,7 @@ tile.openblocks.heal.name=治愈方块
 tile.openblocks.heal.description=只有在创造模式下才能得到治愈方块,它会为站在上方的玩家提供轻微的治疗效果.
 
 tile.openblocks.guide.name=建筑指导仪
-tile.openblocks.guide.description=提供红石信号,建筑指导仪便会投影出方块轮廓.你可以通过Shift+右键它来改变形状,或者右键它的不同面来增大或减小轮廓.\n创造模式下将黑曜石放在建筑指导仪上,再拿着任何方块右键它,则会自动完成搭建.
+tile.openblocks.guide.description=建筑指南使用幽灵方块投影形状以便于建造。通过红石信号激活投影，并使用空手点击各面上的按钮进行配置。顶面按钮用于循环切换或旋转形状。每个侧面都有一组方向按钮（上、下、左、右）：+/- 调整方向长度，而 ➤ 按钮则将其镜像到相反方向。\n使用染料点击建筑指南可以更改投影颜色。
 
 tile.openblocks.builder_guide.name=强化建筑指导仪
 tile.openblocks.builder_guide.description=这个强化建筑指导仪不单单能够投影出方块轮廓，还能够允许你直接放置方块。用任意方块右击中间的建筑指导仪即可！\n在创造模式情况下，指导仪顶部放黑曜石，用任意方块右击能够瞬间搭建出对应的结构。

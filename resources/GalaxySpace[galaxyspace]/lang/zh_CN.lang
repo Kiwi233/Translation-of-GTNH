@@ -435,7 +435,7 @@ item.spacesuit_gravityboots.name=宇航服重力靴子
 
 item.Ingots.name=金属锭
 item.LeadIngot.name=铅锭
-item.DuraluminIngot.name=杜拉铝锭
+item.DuraluminIngot.name=硬铝锭
 item.NickelIngot.name=镍锭
 item.CobaltumIngot.name=钴锭
 item.PlatinumIngot.name=铂锭
@@ -445,21 +445,21 @@ item.AdamantiteIngot.name=精金锭
 item.MithrilIngot.name=秘银锭
 item.OriharukonIngot.name=奥利哈钢锭
 
-item.CompressedPlates.name=压缩金属板
-item.CompressedLead.name=压缩铅板
-item.CompressedDuralumin.name=压缩杜拉铝板
-item.CompressedNickel.name=压缩镍板
-item.CompressedCobaltum.name=压缩钴板
-item.CompressedPlatinum.name=压缩铂板
-item.CompressedMagnesium.name=压缩镁板
-item.CompressedWolframium.name=压缩钨板
-item.CompressedAdamantite.name=压缩精金板
-item.CompressedMithril.name=压缩秘银板
-item.CompressedOriharukon.name=压缩奥利哈钢板
-item.CompressedCoal.name=压缩煤炭板
-item.CompressedDualBronze.name=航天双层青铜板
-item.CompressedDualAluminium.name=航天双层铝板
-item.CompressedSDHD120.name=压缩SDHC-120合金
+item.CompressedPlates.name=航天金属板
+item.CompressedLead.name=航天铅板
+item.CompressedDuralumin.name=航天硬铝板
+item.CompressedNickel.name=航天镍板
+item.CompressedCobaltum.name=航天钴板
+item.CompressedPlatinum.name=航天铂板
+item.CompressedMagnesium.name=航天镁板
+item.CompressedWolframium.name=航天钨板
+item.CompressedAdamantite.name=航天精金板
+item.CompressedMithril.name=航天秘银板
+item.CompressedOriharukon.name=航天奥利哈钢板
+item.CompressedCoal.name=航天煤炭板
+item.CompressedDualBronze.name=双层航天青铜板
+item.CompressedDualAluminium.name=双层航天铝板
+item.CompressedSDHD120.name=航天SDHC-120合金
 item.UnknowCrystal.name=神秘水晶碎片
 item.Sulfur.name=硫粉
 item.MethaneBucket.name=液态甲烷桶
@@ -514,6 +514,15 @@ item.Icon.name=图标
 potion.radiation=恒星辐射
 
 tooltip.spacesuit=提供宇航服功能
+
+# SCHEMATICS Gui
+schematic.rocketT2.name=2阶火箭
+schematic.rocketT3.name=3阶火箭
+schematic.rocketT4.name=4阶火箭
+schematic.rocketT5.name=5阶火箭
+schematic.rocketT6.name=6阶火箭 
+schematic.rocketT7.name=7阶火箭
+schematic.rocketT8.name=8阶火箭
 
 gui.schematic4.desc=4阶火箭
 gui.schematic5.desc=5阶火箭

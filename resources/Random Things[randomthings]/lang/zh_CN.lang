@@ -1,0 +1,173 @@
+tile.playerinterface.name=玩家接口
+tile.creativePlayerInterface.name=创造模式玩家接口
+tile.fluidDisplay.name=液体伪装方块
+tile.advancedFluidDisplay.name=高级液体伪装方块
+tile.fertilizedDirt.name=沃土
+tile.itemCollector.name=物品收集器
+tile.advancedItemCollector.name=高级物品收集器
+tile.onlineDetector.name=在线侦测器
+tile.moonSensor.name=月相传感器
+tile.notificationInterface.name=通知接口
+tile.wirelessLever.name=无线拉杆
+tile.lapisLamp.name=青金石灯
+tile.dyeingMachine.name=混色机器
+tile.imbuingStation.name=激素药水酿造台
+tile.spectreGlass.name=灵魂玻璃
+tile.energyDistributor.name=能量分配器
+tile.enderEnergyDistributor.name=末影能量分配器
+tile.bloodMoonSensor.name=血月传感器
+
+tile.spectreBlock.name=幽灵方块
+tile.spectreBlock.black.name=黑色幽灵方块
+tile.spectreBlock.red.name=红色幽灵方块
+tile.spectreBlock.green.name=绿色幽灵方块
+tile.spectreBlock.brown.name=棕色幽灵方块
+tile.spectreBlock.blue.name=蓝色幽灵方块
+tile.spectreBlock.purple.name=紫色幽灵方块
+tile.spectreBlock.cyan.name=青色幽灵方块
+tile.spectreBlock.silver.name=淡灰色幽灵方块
+tile.spectreBlock.gray.name=灰色幽灵方块
+tile.spectreBlock.pink.name=粉红色幽灵方块
+tile.spectreBlock.lime.name=黄绿色幽灵方块
+tile.spectreBlock.yellow.name=黄色幽灵方块
+tile.spectreBlock.lightBlue.name=淡蓝色幽灵方块
+tile.spectreBlock.magenta.name=品红色幽灵方块
+tile.spectreBlock.orange.name=橙色幽灵方块
+tile.spectreBlock.white.name=白色幽灵方块
+
+itemGroup.Random Things=随意作品
+item.filterBlock.name=方块过滤器
+item.filterItem.name=物品过滤器
+item.filterEntity.name=实体过滤器
+item.filterPosition.name=方位过滤器
+item.biomeSolution.name=解决方案
+item.biomeCapsule.name=生物群系胶囊
+item.biomePainter.name=生物群系画刷
+item.whitestoneUncharged.name=白石 <未充能>
+item.whitestoneCharged.name=白石 <充能>
+item.voidStone.name=虚空石
+item.dropFilter.name=掉落物过滤器
+item.dropFilterVoiding.name=虚空掉落物过滤器
+item.enderLetter.name=末影邮件
+item.spectreKey.name=灵魂之匙
+item.opSpectreKey.name=管理者灵魂之匙
+item.soundRecorder.name=录音机
+item.spectreSword.name=灵魂之剑
+item.spectreHelmet.name=灵魂头盔
+item.spectreChestplate.name=灵魂胸甲
+item.spectreLeggings.name=灵魂护腿
+item.spectreBoots.name=灵魂靴子
+item.spiritBinder.name=灵魂容器
+item.magneticForce.name=磁力仪
+item.gintoEmpty.name=银瓶 <空>
+item.gintoFilled.name=银瓶 <满>
+item.creativeSword.name=创造模式之剑
+item.creativeGrower.name=创造模式之锄
+item.creativeChestGenerator.name=箱子生成权杖
+item.playerCore.name=玩家核心
+item.obsidianStick.name=黑曜石手柄
+item.enderFragment.name=末影碎片
+item.ectoplasm.name=灵气
+item.spectreIron.name=灵魂之铁
+item.transformationCore.name=转换核心
+item.enderDiamond.name=末影钻石
+item.energizedWater.name=充能水
+item.bloodStone.name=血石
+item.error.name=无效物品
+
+item.imbue.poison.name=毒性激素药水
+item.imbue.experience.name=经验激素药水
+item.imbue.fire.name=火焰激素药水
+item.imbue.wither.name=凋零激素药水
+item.imbue.weakness.name=虚弱激素药水
+item.imbue.spectre.name=灵魂激素药水
+
+imbue.poison=毒性感染
+imbue.experience=经验感染
+imbue.fire=火焰感染
+imbue.wither=凋零感染
+imbue.weakness=虚弱感染
+imbue.spectre=灵魂感染
+
+entity.spirit.name=灵魂
+entity.bloodmoonCircle.name=血月之轮
+
+text.miscellaneous.press=按下%s查看详情
+text.miscellaneous.shift=Shift
+text.miscellaneous.block=方块
+text.miscellaneous.metadata=MetaData
+text.miscellaneous.oreDictionary=矿物辞典
+text.miscellaneous.listType=类型列表
+text.miscellaneous.entityid=实体ID
+text.miscellaneous.entityName=实体名称
+text.miscellaneous.connectedTo=连接到
+text.miscellaneous.invalidArguments=无效的数据
+text.miscellaneous.setBonus=设定奖励: 
+text.miscellaneous.opOnly=仅管理员
+text.miscellaneous.creativeOnly=仅创造模式
+text.miscellaneous.category=种类: %s
+text.miscellaneous.shiftCategory=Shift左击改变种类
+text.miscellaneous.save=保存
+text.miscellaneous.charges=充能状态: %d
+
+text.miscellaneous.whiteList=白名单
+text.miscellaneous.blackList=黑名单
+
+text.miscellaneous.yes=是
+text.miscellaneous.no=否
+
+text.onlineDetector.detectingNobody=未探测到任何玩家
+text.onlineDetector.detecting="探测到玩家%s"
+
+text.miscellaneous.ignoreOreDict=无视矿物辞典
+text.miscellaneous.useOreDict=使用矿物辞典
+
+text.miscellaneous.ignoreMetadata=无视MetaData
+text.miscellaneous.useMetadata=使用MetaData
+
+text.miscellaneous.noTarget=无目标锁定(Shift点击方块锁定)
+text.miscellaneous.target.x=目标-X: %d
+text.miscellaneous.target.y=目标-Y: %d
+text.miscellaneous.target.z=目标-Z: %d
+
+text.miscellaneous.position.x=坐标-X: %d
+text.miscellaneous.position.y=坐标-Y: %d
+text.miscellaneous.position.z=坐标-Z: %d
+text.miscellaneous.dimension=位于世界: %d
+
+text.spectre.soulSolid=灵魂实体
+
+text.dyed=混合成%s
+text.color.black=黑色
+text.color.red=红色
+text.color.green=绿色
+text.color.brown=棕色
+text.color.blue=蓝色
+text.color.purple=紫色
+text.color.cyan=青色
+text.color.silver=淡灰色
+text.color.gray=灰色
+text.color.pink=粉色
+text.color.lime=黄绿色
+text.color.yellow=黄色
+text.color.lightBlue=淡蓝色
+text.color.magenta=品红色
+text.color.orange=橙色
+text.color.white=白色
+
+text.error.nbt=无法读取NBT信息,末影邮件及磁力仪等物品将在游戏重启后消失
+
+text.magneticForce.notOnline=离线
+text.magneticForce.invalidUsername=无效的用户名
+text.magneticForce.noRights=没有权利
+text.magneticForce.notYourself=不能指向你自己
+
+text.enderLetter.noReceiver=尚未收件人
+text.enderLetter.receiver=收件人: %s
+text.enderLetter.sender=寄件人: %s
+text.enderLetter.invalidreceiver=你填写了一个无效的收件人
+text.enderLetter.empty=你不能寄出空的邮件
+
+text.bloodmoon.command=血月将在明晚出现
+text.bloodmoon.notify=血月升起...
+text.bloodmoon.nosleep=此刻你并不感到疲倦

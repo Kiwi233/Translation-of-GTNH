@@ -1,0 +1,53 @@
+gui.main_menu.button.credits=致谢
+gui.credits.title=致谢
+gui.credits.button.back=返回
+gui.credits.filter.hint=过滤
+gui.credits.button.filter.fuzzy=Fuzzy
+gui.credits.button.filter.exact=Exact
+gui.credits.button.filter.exact_tip_line=Uses Regular Expressions to exactly match the start of a desired name
+gui.credits.button.filter.fuzzy_tip_line=Uses "Fuzzy Matching" to find closest matches to desired name
+
+credits.category.team=核心团队
+credits.category.team.detail=核心团队负责格雷科技：新视野整合包的整体方向、维护与发布工作。\n他们的职责涵盖模组包的设计规划、协调统筹、基础设施搭建以及长远发展愿景的制定。
+
+credits.category.dev=开发者
+credits.category.dev.detail=开发者们设计并实现了构成格雷科技：新视野的模组、脚本、配置以及工具。\n工作涵盖范围从搭建全新游戏系统到改进构建流程，无所不包。
+
+credits.category.contrib=贡献者
+credits.category.contrib.detail=贡献者们提交的修复、内容或改进已融入整合包中。每一份贡献都至关重要。
+
+credits.category.support=支持者
+credits.category.support.detail=支持者们通过捐赠、服务器托管、社区管理及其他形式的协助，让这个项目得以持续运转。我们由衷感谢他们的慷慨付出与不懈奉献。
+
+credits.category.thanks=特别感谢
+credits.category.thanks.detail=特别感谢每一位报告漏洞、撰写文档、制作指南或以各种方式（无论大小）支持本项目的朋友。\n没有社区的支持，就不会有格雷科技：新视野。
+
+credits.category.loremipsum=占位符测试
+credits.category.loremipsum.detail=一二三，四五六，七八九，十百千。甲乙丙丁，子丑寅卯。金木水火土，东西南北中。上下左右，前后内外。大小多少，长短高低。方圆曲直，黑白红绿。喜怒哀乐，悲欢离合。柴米油盐，酱醋茶糖。琴棋书画，诗酒花茶。梅兰竹菊，春夏秋冬。风雨雷电，冰雪霜雾。江河湖海，山川草木。鸟兽虫鱼，人神鬼怪。\n仁义礼智，信孝悌忠。温良恭俭，让廉耻勇。夫天地者，万物之逆旅。光阴者，百代之过客。浮生若梦，为欢几何？\n古人秉烛夜游，良有以也。况阳春召我以烟景，大块假我以文章。会桃李之芳园，序天伦之乐事。群季俊秀，皆为惠连；吾人咏歌，独惭康乐。幽赏未已，高谈转清。开琼筵以坐花，飞羽觞而醉月。不有佳作，何伸雅怀？\n如诗不成，罚依金谷酒数。夫天地之道，损有余而补不足。人之道则不然，损不足以奉有余。孰能有余以奉天下？唯有道者。是以圣人为而不恃，功成而不处，其不欲见贤。天下莫柔弱于水，而攻坚强者莫之能胜，以其无以易之。\n弱之胜强，柔之胜刚，天下莫不知，莫能行。是以圣人云：受国之垢，是谓社稷主；受国不祥，是为天下王。正言若反。和大怨，必有馀怨，安可以为善？是以圣人执左契，而不责于人。\n有德司契，无德司彻。天道无亲，常与善人。
+
+credits.person.role.gtnhcreator=GTNH 创作者
+credits.person.role.dev=开发者
+credits.person.role.contributor=贡献者
+
+# Test category: id "Key Test" -> sanitized key_test
+credits.category.key_test=键测试（已翻译）
+credits.category.key_test.detail=此类别用于验证关键信息清理。\n类别ID"Key Test"对应翻译键credits.category.key_test。\n角色："Test-Role" -> testrole（已翻译），"Core.Mod" -> coremod（已翻译），"No.Trans Role" -> notrans_role（无对应条目，回退显示原始字符串）。
+
+credits.person.role.testrole=测试角色（已翻译）
+credits.person.role.coremod=核心模组（已翻译）
+# "No.Trans Role" -> notrans_role: intentionally no entry to exercise fallback
+
+# "No-Trans Cat" -> no_trans_cat: intentionally no entries to exercise full fallback
+
+# Test category: id "Indexed Detail" -> sanitized indexed_detail
+# Indexes are defined out of order here (0, 10, 2) to verify natural sort renders them 0, 2, 10.
+# \n within a paragraph = line break only (no empty-line gap between lines of the same paragraph).
+credits.category.indexed_detail.detail.0=段落零，第一行。\n段落零，第二行（换行，上方无空行）。
+credits.category.indexed_detail.detail.2=第二段（自然排序：渲染顺序在0之后，10之前）。
+credits.category.indexed_detail.detail.10=第十段（自然排序：尽管"10"在字典序上大于"2"，但最后渲染）。
+
+credits.category.newcat=§3New Category
+
+credits.category.notrans_cat=Now §lwith§r translation
+
+credits.category.mod_authors=Mod Authors

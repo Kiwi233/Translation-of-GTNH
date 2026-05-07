@@ -18,7 +18,7 @@ botaniamisc.statusUnknown=未知状态
 botaniamisc.color=%s 染色
 botaniamisc.manaUsage=魔力消耗
 botaniamisc.shiftToRead=Shift+右键以了解更多
-botaniamisc.clickToRecipe=Shift点击查看合成
+botaniamisc.clickToSeeRecipe=Shift 左键来查看配方
 botaniamisc.clickToIndex=Shift点击查看目录
 botaniamisc.flareColor=%s 弹药
 botaniamisc.outputtingPower=给物品输送能量
@@ -1717,6 +1717,9 @@ botania.potion.clear=赦免
 botania.gui.lexicon.header=植物魔法辞典 第%s版 - 目录
 botania.gui.lexicon.wip=(本条目的编纂工作仍在进行,其当前内容仍未完全定稿)
 
+botania.gui.flowerBag.title=采花袋
+botania.gui.shroomBag.title=采菇袋
+
 # MUSIC DISCS
 item.record.botania:gaia1.desc=Kain Vinosec - Endure Emptiness
 item.record.botania:gaia2.desc=Kain Vinosec - Fight For Quiescence
@@ -2669,7 +2672,7 @@ botania.page.lens1=基础透镜，没有特殊效果。
 botania.page.lens2=&4染色&0透镜!
 botania.page.lens3=&1彩虹透镜&0合成
 botania.page.lens4=透镜不仅仅是为了各种炫丽的色彩。你可以用各种材料升级以制作出能赋予&4魔力脉冲&0各种效果的新透镜。<br>注意如果你用的是普通的&1魔&0&1力发射器&0，在末端需要有一个能接受&4魔力&0的方块才能发射脉冲。对于一些透镜还是推荐使用&1红石魔力发射器&0。
-botania.page.lens5=有时，尽管，单独给魔力发射器一个&1魔力透镜&0还不够。用&1黏液&0&1球&0在合成台可以叠加复合透镜，复合为一个透镜是可行的，并能保留双方的特性。<br>所用的第一个透镜决定了外观（文本和颜色）。注意有些叠加是无效的，比如两个同类的透镜。
+botania.page.lens5=有时，尽管，单独给魔力发射器一个&1魔力透镜&0还不够。用&1黏液&0&1球&0在合成台可以叠加复合透镜，复合为一个透镜是可行的，并能合并双方的特性。<br>所用的第一个透镜决定了外观（文本和颜色）。注意有些叠加是无效的，比如两个同类的透镜。
 botania.page.lens6=&1速度透镜&0会大幅提升&4魔力脉&0&4冲&0的速度，这样不仅会加快光线流失&4魔力&0的速度，还会使每次脉冲魔力量更少。
 botania.page.lens7=速度透镜
 botania.page.lens8=&1强度透镜&0会使每束&4魔力脉冲&0携带&4魔力&0加倍，然而，光线变得更慢并且流失魔力时的速率提高。
@@ -2694,7 +2697,7 @@ botania.page.lens26=&1爆炸透镜&0给&4魔力脉冲&0注入熵热，使它在�
 botania.page.lens27=合成透镜
 botania.page.lens28=&1推力透镜&0赋予&4魔力脉冲&0能对任何附近的&4下落物品&0，&4经验球&0甚至是&4下落方块&0产生影响，使它们沿着脉冲的运动方向移动。
 botania.page.lens29=合成透镜
-botania.page.lens30=&1重力透镜&0给&4魔力脉冲&0附加上负荷，使得它所击中的任何方块，若下方没有其他方块就会落下，就像&1沙子&0和&1砂砾&0那样。
+botania.page.lens30=&1重力透镜&0给&4魔力脉冲&0附加上负荷，使得它所击中的任何方块，若下方没有其他方块就会落下，就像&1沙子&0和&1沙砾&0那样。
 botania.page.lens31=合成透镜
 botania.page.lens32=&1引燃透镜&0被注入了燃烧的火花，它会点燃所撞上的方块。也有着开关&1地狱门&0的能力。尽管它似乎不能点燃活体生物。
 botania.page.lens33=合成透镜
@@ -2746,7 +2749,7 @@ botania.page.dreamwoodSpreader3=终极发射器
 botania.entry.elvenLenses=精灵魔力透镜
 botania.tagline.elvenLenses=新能力!高级魔力透镜
 botania.page.elvenLenses0=是时候利用来自阿尔弗海姆的知识了，同时也有了一批新的&1魔力透镜&0供你体验<br>不像那些世间所拥有的平凡透镜，这些透镜有更广泛的功能...
-botania.page.elvenLenses1=首先是&1涂色透镜&0。&1涂色透镜&0需要染成十六种颜色之一才能工作。当它碰到了一个可染色的方块（&1羊毛，硬化黏土或是玻璃&0...）它会将任何方块染成与&4魔力脉冲&0本身相同的颜色。看起来对&4羊&0同样有效。
+botania.page.elvenLenses1=首先是&1涂色透镜&0。&1涂色透镜&0需要染成十六种颜色之一才能工作。当它碰到了一个可染色的方块（&1羊毛，陶瓦或是玻璃&0...）它会将任何方块染成与&4魔力脉冲&0本身相同的颜色。看起来对&4羊&0同样有效。
 botania.page.elvenLenses2=涂色透镜
 botania.page.elvenLenses3=&1传送透镜&0是个有趣的透镜。其发出的脉冲，在接触到&1力量传递器&0时将会传送到&1力量传递器&0绑定的方块处且不会出现魔力损耗。其次，当它与&1挖掘透镜&0组合成复合透镜（&1挖掘透镜&0必须是可见的），这会使得脉冲不会破坏&力量传递器&0或&1活塞&0，并且会将被破坏的方块传送至脉冲起点。
 botania.page.elvenLenses4=传送透镜
@@ -3027,8 +3030,8 @@ botania.page.thermalily1=&o0108款&r。
 # -- ROSA ARCANA
 botania.entry.arcanerose=阿卡纳蔷薇
 botania.tagline.arcanerose=经验当魔力使
-botania.page.arcanerose0=&4经验点&0是一种形式的魔力。&1阿卡纳蔷薇&0能吸收附近玩家的经验，并利用它产生&1魔力&0。
-botania.page.arcanerose1=&o该卡被召唤时，投掷硬币&r。
+botania.page.arcanerose0=&4经验点&0蕴含着独特的魔力。&1阿卡纳蔷薇&0能吸收附近玩家的经验，能够汲取这种魔力，吸收附近玩家的经验并将其转化为&4魔力&0。<br>它还能从世界中的经验球和附魔物品中生成魔力。
+botania.page.arcanerose1=&o该花被种植时，投掷一枚硬币&r。
 
 # -- MUNCHDEW
 botania.entry.munchdew=咀叶花
@@ -3053,7 +3056,7 @@ botania.page.kekimurus1=&oFlaxbeard之花就是它了&r。
 botania.entry.gourmaryllis=彼方兰
 botania.tagline.gourmaryllis=它能吃魔力曲奇吗?
 botania.page.gourmaryllis0=&1彼方兰&0是朵饥饿的花。它会吃掉它附近小范围内的一切食物，并转为&4魔力&0。<br>问题在于，它在一定时间内只能消化某种食物，消化完成时便会制造出&4魔力&0。它所发现的其他食物，也会被吃掉但不产生任何魔力。
-botania.page.gourmaryllis1=消化美味的时间取决于它的营养值，通俗来说，就是食物所含的饱食度。<br>因此，一个&1牛排&0需要4秒来消化，一个&1胡萝卜&0则需要2秒，一个&1面包&0就需要2。5秒，以此类推。
+botania.page.gourmaryllis1=这朵花消化美食的时间取决于其营养值，通俗来说，就是食物所含的饱食度。<br>因此，一个&1牛排&0需要4秒来消化，一个&1胡萝卜&0则需要2秒，一个&1面包&0就需要2。5秒，以此类推。
 botania.page.gourmaryllis2=&4魔力&0的产量也取决于这个值，食物越有营养它的效率就越高。举例来说，单个&1牛排&0能比两根&1胡萝卜&0产生更多的&1魔力&0，无论是总量还是每秒的。
 botania.page.gourmaryllis3=&o为我们的新房客准备的火锅&r。
 
@@ -3100,7 +3103,7 @@ botania.page.dandelifeon9=制作&1细胞方块&0
 botania.entry.pylon=魔法水晶
 botania.tagline.pylon=附魔强化者
 botania.page.pylon0=&1魔法水晶&0是一个能将能量从地下中抽出用于供给附魔过程的装置。<br>举例来说，将一个临近&1附魔台&0放置会起到和&1书架&0一样的作用，会大幅增加附魔等级，2个魔法水晶就足够达到&4Level30&0。
-botania.page.pylon1=&o你必须增建水晶塔!&r
+botania.page.pylon1=&o你需要建造更多的水晶塔!&r
 
 # -- MANA ENCHANTING
 botania.entry.manaEnchanting=魔力附魔
@@ -3144,7 +3147,7 @@ botania.page.manaAlchemy17=&1黏液球&0和&1仙人掌&0间转化
 botania.page.manaAlchemy18=制造&1末影珍珠&0
 botania.page.manaAlchemy19=&1荧石粉&0和&1红石&0间转化
 botania.page.manaAlchemy20=将&1圆石&0粉碎成&1沙子&0
-botania.page.manaAlchemy21=将&1硬化黏土&0变成&1红沙&0
+botania.page.manaAlchemy21=将&1陶瓦&0变成&1红沙&0
 botania.page.manaAlchemy22=粉碎&1黏土&0&1和砖块&0
 botania.page.manaAlchemy23=制作&1劣质土&0
 botania.page.manaAlchemy24=&1草类&0的转化
@@ -3261,7 +3264,7 @@ botania.page.manaConjuration5=炼造&1煤&0
 botania.page.manaConjuration6=炼造&1雪&0
 botania.page.manaConjuration7=炼造&1地狱岩&0
 botania.page.manaConjuration8=炼造&1灵魂沙&0
-botania.page.manaConjuration9=炼造&1砂砾&0
+botania.page.manaConjuration9=炼造&1沙砾&0
 botania.page.manaConjuration10=炼造&1树叶&0
 botania.page.manaConjuration11=炼造&1草&0
 
@@ -3439,7 +3442,7 @@ botania.page.elfGear0=就像其他金属那样，&1源质钢&0能用于制作工
 botania.page.elfGear1=每一种工具都有着它们自己独特的能力。护甲会让穿戴者在被攻击时有几率刷出一只&1小精灵&0追逐攻击者，造成一定伤害。<br>装备的&1源质钢护甲&0越多，这个几率越高。
 botania.page.elfGear2=首先，&1源质钢镐&0会破坏一切&1圆&0&1石&0，&1泥土&0，&1地狱岩&0和其他常见材料，只留下矿物和有用的资源。<br>将&1源质钢镐&0与&1泰拉粉碎者&0在合成栏中结合会给予后者这种能力。这个过程不能撤销。
 botania.page.elfGear3=我的包里倒出来都是圆石
-botania.page.elfGear4=&1源质钢铲&0，会让所挖的受重力影响的方块（&1砂砾&0，&1沙子&0，等等），挖掉它上方/下方同样材料的方块，挖矿时再也不会有砂砾掉下来了。
+botania.page.elfGear4=&1源质钢铲&0，会让所挖的受重力影响的方块（&1沙砾&0，&1沙子&0，等等），挖掉它上方/下方同样材料的方块，挖矿时再也不会有沙砾掉下来了。
 botania.page.elfGear5=把东西放在其他东西上
 botania.page.elfGear6=&1源质钢斧&0也能作为武器使用，如果用在最后一击攻击&4僵尸&0，&4骷髅射手&0，&4苦力怕&0甚至其他&4玩家&0，就有几率斩首，留下他们的头。
 botania.page.elfGear7=砍下他们的头
@@ -3688,7 +3691,7 @@ botania.page.enderEyeBlock1=MY BRAND
 botania.entry.pistonRelay=力量传递器
 botania.tagline.pistonRelay=除去活塞推动力
 botania.page.pistonRelay0=看样子给&1活塞&0注入&4魔力&0会产生有趣的副作用。<br>这个方块会撕裂空间构造，将任何活塞给它的推力传给绑定方块。
-botania.page.pistonRelay1=将它绑定到方块，用&1森林法杖&0右击它，再右击要绑定的方块。<br>此外，这个方块高度不稳定，并且有可能出现预料外的情况，务必小心，它也不能被黏性活塞推拉。
+botania.page.pistonRelay1=将它绑定到方块，用&1森林法杖&0右击它，再右击要绑定的方块。<br>此外，这个方块高度不稳定，并且有可能出现预料外的情况，使用时务必小心。它也不能被黏性活塞推拉，因此可用于构建类似"框架"的结构。
 botania.page.pistonRelay2=给&1活塞&0注入&4魔力&0。
 
 # -- HAND OF ENDER
@@ -4334,7 +4337,7 @@ botania.tagline.banners=好多新旗帜图案
 botania.page.banners0=因为未来&1旗帜&0的存在，&1植物魔法&0为其添加了&415&0种新图标，这些图标可与既有图案和图标混合搭配使用。<br>除了染料以外，下列这些物品也可以在工作台中为&1旗帜&0附加图标：&1所有铁质工具&0、&1火花升级&0、&1生鱼&0、&1活木枝和梦之木棍&0、&1植物魔法辞典&0、&1泰拉钢&0和&1小土豆&0。
 botania.page.banners1=各种旗帜展览
 
-# -- PREVNTING DECAY
+# -- PREVENTING DECAY
 botania.entry.preventingDecay=阻止凋零
 botania.tagline.preventingDecay=阻止被动产能花的枯萎
 botania.page.preventingDecay0=绝不

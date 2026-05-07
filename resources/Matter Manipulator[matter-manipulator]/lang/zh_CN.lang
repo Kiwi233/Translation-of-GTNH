@@ -79,13 +79,13 @@ mm.gui.mark_copy=标记复制选区
 mm.gui.edit_stack=编辑堆叠粘贴
 mm.gui.reset=重置
 mm.gui.mark=标记
-mm.gui.planning=规划
-mm.gui.cancel_auto_plans=取消自动规划
-mm.gui.plan_all_auto=规划（所有方块/自动摆放）
-mm.gui.plan_all_manual=规划（所有方块/手动摆放）
-mm.gui.clear_manual_plans=清除手动规划
-mm.gui.plan_missing_manual=规划（缺失方块/手动摆放）
-mm.gui.plan_missing_auto=规划（缺失方块/自动摆放）
+mm.gui.planning=下单...
+mm.gui.cancel_auto_plans=取消自动下单
+mm.gui.plan_all_auto=下单（所有方块/自动开始）
+mm.gui.plan_all_manual=下单（所有方块/手动开始）
+mm.gui.clear_manual_plans=清除手动下单
+mm.gui.plan_missing_manual=下单（仅缺失方块/手动开始）
+mm.gui.plan_missing_auto=下单（仅缺失方块/自动开始）
 mm.gui.edit_transform=编辑变换
 mm.gui.mark_cut=标记剪切选区
 mm.gui.mark_paste=标记粘贴选区
@@ -95,27 +95,38 @@ mm.gui.add_block=添加…
 mm.gui.set_block=设定为…
 mm.gui.set_block_to_replace_with=设定目标方块为…
 mm.gui.set_cable=设定线缆为…
+mm.gui.advanced_options=高级选项
+mm.gui.wireless_link_hub=连接到外部集线器：%s
+mm.gui.smart_copy=智能复制
+mm.gui.smart_copy.cribs_to_proxies=自动代理样板输入总成：%s
+mm.gui.smart_copy.interfaces_to_p2p=自动P2P接口：%s
+mm.gui.smart_copy.on=开
+mm.gui.smart_copy.off=关
 
-# InfoMessage
+# InfoMessage, only accept %s in this section
 
 mm.info.error.out_of_eu=物质操纵者EU耗尽。
 mm.info.error.could_not_place=无法放置剩余的%s个方块。
 mm.info.finished_placing=方块放置完毕。
 mm.info.warning.could_not_find=找不到物品，将暂时跳过%d个方块：
+mm.info.warning.of_item=  %s x %s
 mm.info.placed_remaining=放置了%s个方块（剩余%s个）
-mm.info.warning=方块%d，%d，%d%s出现警告：%s
-mm.info.error=方块%d，%d，%d%s出现错误：%s
-mm.info.error.could_not_move_block=无法移动位于X=%d，Y=%d，Z=%d的方块：%s
-mm.info.error.could_not_move_protected_block=无法移动位于X=%d，Y=%d，Z=%d的受保护方块：%s
-mm.info.error.could_not_move_invulnerable_block=无法移动位于X=%d，Y=%d，Z=%d的不可破坏方块：%s
-mm.info.error.could_not_move_blocked_block=位于X=%d，Y=%d，Z=%d的源方块%s的目标位置被阻挡
+mm.info.warning.only_message=（位于 %s, %s, %s 的方块）警告：%s
+mm.info.warning.with_block=（位于 %s, %s, %s (%s) 的方块）警告：%s
+mm.info.error.only_message=（位于 %s, %s, %s 的方块）错误：%s
+mm.info.error.with_block=（位于 %s, %s, %s (%s) 的方块）错误：%s
+mm.info.error.could_not_move_block.new=无法移动 X=%s, Y=%s, Z=%s 的方块：%s
+mm.info.error.could_not_move_protected_block.new=无法移动 X=%s, Y=%s, Z=%s 的受保护方块：%s
+mm.info.error.could_not_move_invulnerable_block.new=无法移动 X=%s, Y=%s, Z=%s 的不可破坏方块：%s
+mm.info.error.could_not_move_blocked_block.new=位于 X=%s, Y=%s, Z=%s 的方块的目的地被阻挡：%s
 mm.info.process_move=移动了%s个方块（剩余%s个）
 mm.info.finished_move=方块移动完毕。
 mm.info.warning.protected_area=你试图在受保护区域破坏/放置方块！
 mm.info.warning.not_find_container_for_fluid=无法为流体找到容器（它已被清空）：
+mm.info.warning.of_fluid=  %sL %s
 mm.info.error.could_not_push_items_to_uplink=无法将物品推送至上行链路：
-mm.info.error.could_not_push_fluids_to_uplink=无法将流体推送至上行链路：
-mm.info.error.could_not_request_items_from_uplink=无法从上行链路请求物品：
+mm.info.error.could_not_push_fluids_to_uplink=无法将流体推送至上行链路：%s
+mm.info.error.could_not_request_items_from_uplink=无法从上行链路请求物品：%s
 mm.info.added=已将%s添加至%s
 mm.info.set=将%s设置为：%s
 mm.info.set_block_to_replace_with=将方块替换为：%s
@@ -143,6 +154,63 @@ mm.info.intrinsic_properties=固有属性：
 mm.info.none=无
 mm.info.error.error_setting_property=设置属性时出错：%s
 mm.info.error.move_overlapping=剪切区域和粘贴区域重叠时不能进行移动。
+mm.info.warning.could_not_extract_item=无法提取物品：%s
+mm.info.warning.could_not_find_item=未找到 %s
+mm.info.warning.could_not_find_cladding=未能找到覆盖板：%s
+mm.info.warning.inventory_was_the_wrong_size=物品栏大小有误（预期为%s，实际为%s）
+mm.info.warning.could_not_extract_item_in_slot=无法提取槽位 %s 中的物品：%s
+mm.info.warning.invalid_item_for_slot=无效的槽位 %s 物品：%s
+mm.info.warning.could_not_gather_item_for_inventory=无法为库存收集物品：%s
+mm.info.warning.could_not_find_upgrade=未找到升级：%s x %s
+mm.info.error.invalid_location=部件（%s）的位置（%s）无效
+mm.info.error.could_not_set_direction_to=无法将方向设置为 '%s'
+mm.info.error.was_not_allowed_to_put_cover_on=不允许在 %s 侧放置覆盖板：%s
+mm.info.error.could_not_find_cover=未找到覆盖板：%s
+mm.info.error.could_not_apply_property=无法应用属性 %s：%s
+mm.info.error.qc_rack_is_too_hot=量子计算机机架过热，无法提取或插入物品。
+mm.info.error.cannot_extract_while_qc_on=量子计算机运行时，无法从/向量子计算机机架提取或插入物品。
+mm.info.error.too_many_upgrades=尝试安装过多升级：其余部分已作废（这是一个错误，请报告此问题）
+mm.info.error.could_not_place_blocks=由于崩溃，无法放置方块。请检查日志以获取更多信息。
+mm.info.missing=%s%s：%s%s%s（缺少%s%s%s）
+
+mm.direction.down=下
+mm.direction.east=东
+mm.direction.north=北
+mm.direction.south=南
+mm.direction.center=中央
+mm.direction.unknown=未知
+mm.direction.up=上
+mm.direction.west=西
+
+mm.enum.copyable.property.facing=朝向
+mm.enum.copyable.property.forward=前
+mm.enum.copyable.property.up=上
+mm.enum.copyable.property.left=左
+mm.enum.copyable.property.top=顶
+mm.enum.copyable.property.rotation=旋转
+mm.enum.copyable.property.mode=模式
+mm.enum.copyable.property.text=文本
+mm.enum.copyable.property.orientation=方向
+mm.enum.copyable.property.delay=延迟
+mm.enum.copyable.property.inverted=反转
+mm.enum.copyable.property.color=颜色
+mm.enum.copyable.property.rotation_state=旋转状态
+
+mm.enum.uplink_status.ok=Ok
+mm.enum.uplink_status.no_plasma=等离子体不足
+mm.enum.uplink_status.ae_offline=无法连接到ME系统
+mm.enum.uplink_status.no_hatch=缺少ME仓
+
+mm.enum.what.corners=顶角
+mm.enum.what.edges=棱
+mm.enum.what.faces=表面
+mm.enum.what.volumes=内部
+mm.enum.what.all=所有方块
+
+mm.chat.item.details.imprint=压印：%s
+mm.chat.item.details.imprint.none=无
+mm.chat.item.details.cache_capacity=缓存容量：%s
+mm.chat.item.details.hub=中心
 
 # Transform
 mm.transform.info=翻转：%s\n顶面朝向：%s\n正面朝向：%s
@@ -178,3 +246,60 @@ building=建筑
 
 # NEI
 mm.recipe.upgrades=操纵者升级
+
+# tooltip
+mm.tooltip.none=无
+mm.tooltip.hold_shift=按住SHIFT查看详情。
+mm.tooltip.me_conn.can_interact=存在ME连接（当前可交互）
+mm.tooltip.me_conn.cannot_interact=存在ME连接（当前不可交互）
+mm.tooltip.me_conn.no_conn=没有ME连接
+mm.tooltip.uplink_conn.can_interact=存在上行链路连接（当前可交互）
+mm.tooltip.uplink_conn.cannot_interact=存在上行链路连接（当前不可交互）
+mm.tooltip.uplink_conn.address=上行链路地址：%s
+mm.tooltip.uplink_conn.no_conn=没有上行链路连接
+mm.tooltip.pending_action=待处理操作：%s
+mm.tooltip.pending_action.moving_coords=移动坐标
+mm.tooltip.pending_action.geom_selecting_block=选择待放置方块
+mm.tooltip.pending_action.mark_copy_a=标记第一个复制角落
+mm.tooltip.pending_action.mark_copy_b=标记第二个复制角落
+mm.tooltip.pending_action.mark_cut_a=标记第一个剪切角落
+mm.tooltip.pending_action.mark_cut_b=标记第二个剪切角落
+mm.tooltip.pending_action.mark_paste=标记粘贴位置
+mm.tooltip.pending_action.exch_add_replace=选择方块添加到替换白名单中...
+mm.tooltip.pending_action.exch_set_replace=将替换白名单清空并设置为...
+mm.tooltip.pending_action.exch_set_target=设定用于替换的方块为...
+mm.tooltip.pending_action.pick_cable=收集电缆
+mm.tooltip.pending_action.mark_array=标记数组边界
+mm.tooltip.mode=模式：%s
+mm.tooltip.mode.geometry=几何模式
+mm.tooltip.mode.moving=移动模式
+mm.tooltip.mode.copying=复制模式
+mm.tooltip.mode.exchanging=替换模式
+mm.tooltip.mode.cables=线缆模式
+mm.tooltip.removing=移除：%s
+mm.tooltip.removing.all=所有方块
+mm.tooltip.removing.replaceable=可更换方块
+mm.tooltip.removing.none=无方块
+mm.tooltip.shape=形状：%s
+mm.tooltip.shape.line=直线
+mm.tooltip.shape.cube=长方体
+mm.tooltip.shape.sphere=球体
+mm.tooltip.shape.cylinder=圆柱
+mm.tooltip.coord_a=坐标A：%s
+mm.tooltip.coord_b=坐标B：%s
+mm.tooltip.corner_block=顶角方块：%s
+mm.tooltip.edge_block=棱方块：%s
+mm.tooltip.face_block=表面方块：%s
+mm.tooltip.volume_block=内部方块：%s
+mm.tooltip.copying.copy_a=复制坐标A：%s
+mm.tooltip.copying.copy_b=复制坐标B：%s
+mm.tooltip.copying.stack=堆叠数：%s
+mm.tooltip.copying.wireless_link=无线连接：%s
+mm.tooltip.copying.auto_proxy_cribs=自动代理样板输入总成：%s
+mm.tooltip.copying.auto_p2p_interfaces=自动P2P接口：%s
+mm.tooltip.paste=粘贴坐标：%s
+mm.tooltip.moving.cut_a=剪切坐标A：%s
+mm.tooltip.moving.cut_b=剪切坐标B：%s
+mm.tooltip.exchanging.removable=可移动方块：%s
+mm.tooltip.exchanging.replacing=将方块替换为：%s
+mm.tooltip.cable=线缆：%s

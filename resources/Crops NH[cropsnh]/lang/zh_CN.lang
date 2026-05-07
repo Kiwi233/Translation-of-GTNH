@@ -1,0 +1,879 @@
+# Creative Tabs
+itemGroup.cropsnh=Crops NH
+
+# Generic Items
+item.cropsnh:cropSticksItem.name=作物架
+item.cropsnh:plantLens.name=植物透镜
+item.cropsnh:spade.name=铲子
+item.cropsnh:reinforcedSpade.name=强化铲子
+item.cropsnh:plantCure.name=植物疗剂
+item.cropsnh:weedEX.name=除草剂
+item.cropsnh:fertilizer.name=肥料
+item.cropsnh:poisonPowder.name=含毒粉末
+item.cropsnh:hempHurd.name=切碎的汉麻秆芯
+item.cropsnh:sulfurDopedPlumbiliaResidue.name=掺硫铅叶残留物
+item.cropsnh:sulfurDopedGalvaniaResidue.name=掺硫锌叶混合物
+
+# Alcohol Bottles
+item.cropsnh:DKorn.bottled.name=瓶装的二次蒸馏科恩酒
+item.cropsnh:Korn.bottled.name=瓶装科恩酒
+item.cropsnh:FWheat.bottled.name=瓶装发酵小麦酒
+item.cropsnh:FReed.bottled.name=瓶装发酵甘蔗水
+item.cropsnh:SWhine.bottled.name=瓶装糖浆
+item.cropsnh:Mash.bottled.name=瓶装麦芽浆
+item.cropsnh:Wash.bottled.name=瓶装淡酒
+item.cropsnh:GHP.bottled.name=瓶装无商标高酒精度饮料（假酒）
+item.cropsnh:jagi.bottled.name=瓶装正牌野格牌利口酒!
+item.cropsnh:njagi.bottled.name=瓶装假冒野格牌利口酒
+
+# Stone Mug Coffees
+item.cropsnh:stoneMug.name=石杯
+item.cropsnh:coffeeCold.name=冰咖啡
+item.cropsnh:coffeeDark.name=深度烘焙咖啡
+item.cropsnh:coffee.name=咖啡
+
+# Crop Produce Items
+item.cropsnh:gaiaWart.name=盖亚疣
+item.cropsnh:goldfish.name=金鱼草
+item.cropsnh:berry.huckle.name=黑木果
+item.cropsnh:berry.sugarbeet.name=甜菜
+item.cropsnh:berry.maxTomato.name=大型番茄
+item.cropsnh:materialLeaf.bauxiaLeaf.name=铝土叶
+item.cropsnh:materialLeaf.canolaFlower.name=油菜花
+item.cropsnh:materialLeaf.copponFiber.name=铜纤维
+item.cropsnh:materialLeaf.galvaniaLeaf.name=镀锌叶
+item.cropsnh:materialLeaf.indigoBlossom.name=靛蓝花
+item.cropsnh:materialLeaf.iridineFlower.name=铱系叶
+item.cropsnh:materialLeaf.magicEssence.name=源质
+item.cropsnh:materialLeaf.micadiaFlower.name=云母花
+item.cropsnh:materialLeaf.milkWart.name=牛奶疣
+item.cropsnh:materialLeaf.nickelbackLeaf.name=镍叶
+item.cropsnh:materialLeaf.oilBerry.name=石油浆果
+item.cropsnh:materialLeaf.osmianthFlower.name=锇花
+item.cropsnh:materialLeaf.platinaLeaf.name=铂族叶
+item.cropsnh:materialLeaf.pyrolusiumLeaf.name=软锰叶
+item.cropsnh:materialLeaf.reactoriaLeaf.name=核能叶
+item.cropsnh:materialLeaf.reactoriaStem.name=核能茎
+item.cropsnh:materialLeaf.scheeliniumLeaf.name=白钨叶
+item.cropsnh:materialLeaf.spaceFlower.name=空间之花
+item.cropsnh:materialLeaf.stargatiumLeaf.name=星际之叶
+item.cropsnh:materialLeaf.thunderFlower.name=雷鸣花
+item.cropsnh:materialLeaf.tineTwig.name=锡芽
+item.cropsnh:materialLeaf.titaniaLeaf.name=钛叶
+item.cropsnh:materialLeaf.uuaBerry.name=UUA浆果
+item.cropsnh:materialLeaf.uumBerry.name=UUM浆果
+item.cropsnh:materialLeaf.saltyRoot.name=盐根
+item.cropsnh:materialLeaf.plumbiliaLeaf.name=铅叶
+item.cropsnh:materialLeaf.argentiaLeaf.name=银叶
+item.cropsnh:materialLeaf.ferrofernLeaf.name=铁齿叶
+item.cropsnh:materialLeaf.auroniaLeaf.name=金叶
+item.cropsnh:materialLeaf.bobsYerUncleBerry.name=鸿运浆果
+item.cropsnh:materialLeaf.starWart.name=星疣
+item.cropsnh:materialLeaf.hops.name=啤酒花
+item.cropsnh:materialLeaf.hempStem.name=汉麻茎
+item.cropsnh:materialLeaf.thiosulfineFlower.name=硫质花
+# Environmental Module Items
+item.cropsnh:environmentalModule.blank=空白的环境模块
+item.cropsnh:environmentalModule.template=环境模块 (%1$s)
+
+# Blocks
+tile.cropsnh:cropSticks.name=作物架
+cropsnh.casings1.0.name=砖砌农业外壳
+
+# Fluids
+fluid.cropsnh.enrichedFertilizer=富集肥料
+fluid.cropsnh.fertilizer=肥料
+fluid.cropsnh:DKorn=两次蒸馏的科恩酒
+fluid.cropsnh:Korn=科恩酒
+fluid.cropsnh:FWheat=发酵小麦酒
+fluid.cropsnh:FReed=发酵甘蔗水
+fluid.cropsnh:SWhine=糖浆
+fluid.cropsnh:Mash=麦芽浆
+fluid.cropsnh:Wash=淡酒
+fluid.cropsnh:GHP=无商标的高酒精度饮料（假酒）
+fluid.cropsnh:jagi=正牌野格牌利口酒!
+fluid.cropsnh:njagi=假冒野格牌利口酒
+
+# Damage
+death.attack.cropsnh:heartAttack=%1$s喝了太多咖啡
+death.attack.cropsnh:heartAttack.player=%1$s在与%2$s战斗时突发心脏病
+
+# Tooltips
+cropsnh_tooltip.isSick=§c患病了，不能生长！§r
+cropsnh_tooltip.unidentified=不明作物
+cropsnh_tooltip.seed=种子
+cropsnh_tooltip.stats=属性--生长速度: %1$s 产量: %2$s 抗性: %3$s
+cropsnh_tooltip.growth=生长速度
+cropsnh_tooltip.gain=产量
+cropsnh_tooltip.resistance=抗性
+cropsnh_tooltip.min_seed_bed_tier=最低苗床等级:%1$s
+cropsnh_tooltip.soil=土壤--含肥量: %1$s 含水量: %2$s 除草剂含量: %3$s
+cropsnh_tooltip.weeds=杂草--§c除了它！§r
+cropsnh_tooltip.failedReq=§c%1$s§r
+cropsnh_tooltip.plantLens=使用它来分析作物
+cropsnh_tooltip.handRake=使用它来给作物除草
+cropsnh_tooltip.spade=使用它来给作物除草，而且能在收获作物时获得作物种子
+cropsnh_tooltip.reinforcedSpade=使用它来给作物除草，而且能在收获时获得更多作物种子
+cropsnh_tooltip.empty=未种植
+cropsnh_tooltip.progress=生长进度: %1$s%%
+cropsnh_tooltip.none=无
+cropsnh_tooltip.NaNCertificate=已接受挑战！
+cropsnh_tooltip.mustUseSeedSynthesizerToReplicate=这个种子只能通过作物合成器复制
+cropsnh_tooltip.mustUseBreederMachine=只能通过作物培育机培育
+# TODO: remove "(Check usages in NEI)" after a major version of GTNH.
+cropsnh_tooltip.wrongSoil=这个作物需要另一种土壤  (在NEI中查找该种子的用途)
+
+# Structure Channel Descriptions
+cropsnh_tooltip.structure_channels.if_tier=控制工业农场的等级
+cropsnh_tooltip.structure_channels.if_upgrade=允许在工业农场上安装升级模块
+
+# Biome Tags
+cropsnh_tooltip.biomeTag.HOT=炎热
+cropsnh_tooltip.biomeTag.COLD=寒冷
+cropsnh_tooltip.biomeTag.SPARSE=稀疏
+cropsnh_tooltip.biomeTag.DENSE=茂密
+cropsnh_tooltip.biomeTag.WET=潮湿
+cropsnh_tooltip.biomeTag.DRY=干燥
+cropsnh_tooltip.biomeTag.SAVANNA=热带草原
+cropsnh_tooltip.biomeTag.CONIFEROUS=针叶
+cropsnh_tooltip.biomeTag.JUNGLE=丛林
+cropsnh_tooltip.biomeTag.SPOOKY=闹鬼的
+cropsnh_tooltip.biomeTag.DEAD=枯死的
+cropsnh_tooltip.biomeTag.LUSH=繁茂
+cropsnh_tooltip.biomeTag.NETHER=下界
+cropsnh_tooltip.biomeTag.END=末地
+cropsnh_tooltip.biomeTag.MUSHROOM=蘑菇
+cropsnh_tooltip.biomeTag.MAGICAL=魔境
+cropsnh_tooltip.biomeTag.OCEAN=海洋
+cropsnh_tooltip.biomeTag.RIVER=河流
+cropsnh_tooltip.biomeTag.MESA=恶地
+cropsnh_tooltip.biomeTag.FOREST=森林
+cropsnh_tooltip.biomeTag.PLAINS=平原
+cropsnh_tooltip.biomeTag.MOUNTAIN=山地
+cropsnh_tooltip.biomeTag.HILLS=丘陵
+cropsnh_tooltip.biomeTag.SWAMP=沼泽
+cropsnh_tooltip.biomeTag.SANDY=沙地
+cropsnh_tooltip.biomeTag.SNOWY=雪地
+cropsnh_tooltip.biomeTag.WASTELAND=废土
+cropsnh_tooltip.biomeTag.BEACH=沙滩
+
+
+
+# Crop Breeder
+cropsnh.recipes.cropBreeder=作物培育机
+cropsnh_tooltip.cropBreeder.0=可确定地培育作物
+cropsnh_tooltip.cropBreeder.1=每级§c等级§7需要消耗%1$s§a富集肥料§7
+cropsnh_tooltip.cropBreeder.2=每点§c属性§7需要消耗%1$s§a富集肥料§7
+cropsnh_tooltip.cropBreeder.3=输出的种子属性会是亲本的平均值
+cropsnh_tooltip.cropBreeder.4=成功率%1$s%%
+cropsnh_nei.cropBreeder.tooltip.fluidCost=消耗 = 输出等级 * %1$s + (生长速度 + 产量 + 抗性) * %2$s
+cropsnh_nei.cropBreeder.tooltip.outputStats=最终作物属性为亲本的平均值
+cropsnh_nei.cropBreeder.tooltip.successChance=成功率与机器等级有关
+cropsnh_tooltip.cropBreeder.name.1=基础作物培育机
+cropsnh_tooltip.cropBreeder.name.2=高级作物培育机
+cropsnh_tooltip.cropBreeder.name.3=高级作物培育机 II
+cropsnh_tooltip.cropBreeder.name.4=高级作物培育机 III
+cropsnh_tooltip.cropBreeder.name.5=高级作物培育机 IV
+cropsnh_tooltip.cropBreeder.name.6=精英作物培育机
+cropsnh_tooltip.cropBreeder.name.7=精英作物培育机 II
+cropsnh_tooltip.cropBreeder.name.8=终极作物培育机
+cropsnh_tooltip.cropBreeder.name.9=史诗作物培育机
+cropsnh_tooltip.cropBreeder.name.10=史诗作物培育机 II
+cropsnh_tooltip.cropBreeder.name.11=史诗作物培育机 III
+cropsnh_tooltip.cropBreeder.name.12=史诗作物培育机 IV
+
+# Crop Gene Extractor
+cropsnh.recipes.cropGeneExtractor=作物基因提取器
+cropsnh_tooltip.cropGeneExtractor.0=它可以提取作物的基因
+cropsnh_tooltip.cropGeneExtractor.1=使用编程电路来决定提取哪一个基因
+cropsnh_tooltip.cropGeneExtractor.2=1号提取物种基因，2号提取生长速度基因，3号提取产量基因，4号提取抗性基因
+cropsnh_nei.cropGeneExtractor.tooltip.scanSpecimen=已扫描物种数据
+cropsnh_nei.cropGeneExtractor.tooltip.scanGrowth=已扫描生长速度数据
+cropsnh_nei.cropGeneExtractor.tooltip.scanGain=已扫描产量数据
+cropsnh_nei.cropGeneExtractor.tooltip.scanResistance=已扫描抗性数据
+cropsnh_tooltip.cropGeneExtractor.name.4=作物基因提取器
+cropsnh_tooltip.cropGeneExtractor.name.5=高级作物基因提取器
+cropsnh_tooltip.cropGeneExtractor.name.6=精英作物基因提取器
+cropsnh_tooltip.cropGeneExtractor.name.7=精英作物基因提取器 II
+cropsnh_tooltip.cropGeneExtractor.name.8=终极作物基因提取器
+cropsnh_tooltip.cropGeneExtractor.name.9=史诗作物基因提取器
+cropsnh_tooltip.cropGeneExtractor.name.10=史诗作物基因提取器 II
+cropsnh_tooltip.cropGeneExtractor.name.11=史诗作物基因提取器 III
+cropsnh_tooltip.cropGeneExtractor.name.12=史诗作物基因提取器 IV
+
+# Crop Synthesizer
+cropsnh.recipes.cropSynthesizer=作物合成器
+cropsnh_tooltip.cropSynthesizer.0=它可以通过数据球的数据合成作物
+cropsnh_tooltip.cropSynthesizer.1=每级§c等级§7需要消耗%1$s§dUUM§7
+cropsnh_tooltip.cropSynthesizer.2=每点§c属性§7需要消耗%1$s§dUUM§7
+cropsnh_tooltip.cropSynthesizer.3=消耗%1$s电流
+cropsnh_nei.cropSynthesizer.tooltip.fluidCost=消耗 = 作物等级 * %1$s + (生长速度 + 产量 + 抗性) * %2$s
+cropsnh_nei.cropSynthesizer.tooltip.output=作物属性由数据球的数据决定
+cropsnh_tooltip.cropSynthesizer.name.4=作物合成器
+cropsnh_tooltip.cropSynthesizer.name.5=高级作物合成器
+cropsnh_tooltip.cropSynthesizer.name.6=精英作物合成器
+cropsnh_tooltip.cropSynthesizer.name.7=精英作物合成器 II
+cropsnh_tooltip.cropSynthesizer.name.8=终极作物合成器
+cropsnh_tooltip.cropSynthesizer.name.9=史诗作物合成器
+cropsnh_tooltip.cropSynthesizer.name.10=史诗作物合成器 II
+cropsnh_tooltip.cropSynthesizer.name.11=史诗作物合成器 III
+cropsnh_tooltip.cropSynthesizer.name.12=史诗作物合成器 IV
+
+# Seed Generator
+cropsnh.recipes.seedGenerator=种子生成器
+cropsnh_tooltip.seedGenerator.0=从现有种子生成更多种子
+cropsnh_tooltip.seedGenerator.1=每点§c属性§7需要消耗%1$s§a富集肥料§7
+cropsnh_tooltip.seedGenerator.2=并非所有作物可以通过这台机器复制
+cropsnh_nei.seedGenerator.tooltip.fluidCost=消耗 = %1$s * (生长速度 + 产量 + 抗性)
+cropsnh_tooltip.seedGenerator.name.1=基础种子生成器
+cropsnh_tooltip.seedGenerator.name.2=高级种子生成器
+cropsnh_tooltip.seedGenerator.name.3=高级种子生成器 II
+cropsnh_tooltip.seedGenerator.name.4=高级种子生成器 III
+cropsnh_tooltip.seedGenerator.name.5=高级种子生成器 IV
+cropsnh_tooltip.seedGenerator.name.6=精英种子生成器
+cropsnh_tooltip.seedGenerator.name.7=精英种子生成器 II
+cropsnh_tooltip.seedGenerator.name.8=终极种子复制机
+cropsnh_tooltip.seedGenerator.name.9=史诗种子复制机
+cropsnh_tooltip.seedGenerator.name.10=史诗种子复制机 II
+cropsnh_tooltip.seedGenerator.name.11=作物合成器 III
+cropsnh_tooltip.seedGenerator.name.12=作物合成器 IV
+
+# Crop Manager
+cropsnh.recipes.cropManager=作物管理器
+cropsnh_tooltip.cropManager.description=在一片较大的范围内自动收获和养护作物
+cropsnh_tooltip.cropManager.tooltip.0=灌溉，施肥和除草功能可以分别开关
+cropsnh_tooltip.cropManager.tooltip.1=每收获一次作物消耗%1$s EU
+cropsnh_tooltip.cropManager.tooltip.2=每养护一次操作消耗%1$sEU
+cropsnh_tooltip.cropManager.tooltip.3=可以收获%s格上下的作物
+cropsnh_tooltip.cropManager.tooltip.4=范围: %1$sx%2$sx%1$s 方块
+cropsnh_tooltip.cropManager.tooltip.5=有%1$s的概率额外产出
+cropsnh_tooltip.cropManager.tooltip.6=可装%1$s水
+cropsnh_tooltip.cropManager.tooltip.7=可装%1$s肥料
+cropsnh_tooltip.cropManager.tooltip.8=可装%1$s除草剂
+cropsnh_tooltip.cropManager.water.0=启用灌溉模块
+cropsnh_tooltip.cropManager.water.1=禁用灌溉模块
+cropsnh_tooltip.cropManager.weedEX.0=启用除草模块
+cropsnh_tooltip.cropManager.weedEX.1=禁用除草模块
+cropsnh_tooltip.cropManager.fertilizer.0=启用施肥模块
+cropsnh_tooltip.cropManager.fertilizer.1=禁用施肥模块
+cropsnh_tooltip.cropManager.harvest.0=启用自动收获
+cropsnh_tooltip.cropManager.harvest.1=禁用自动收获
+cropsnh_tooltip.cropManager.water=水: %1$s%3$s / %2$s%3$s
+cropsnh_tooltip.cropManager.weedEX=除草剂: %1$s%3$s / %2$s%3$s
+cropsnh_tooltip.cropManager.liquidFertilizer=液态肥料: %1$s%3$s /%2$s%3$s
+cropsnh_tooltip.cropManager.name.1=基础作物管理器
+cropsnh_tooltip.cropManager.name.2=高级作物管理器
+cropsnh_tooltip.cropManager.name.3=高级作物管理器 II
+cropsnh_tooltip.cropManager.name.4=高级作物管理器 III
+cropsnh_tooltip.cropManager.name.5=高级作物管理器 IV
+cropsnh_tooltip.cropManager.name.6=精英作物管理器
+cropsnh_tooltip.cropManager.name.7=精英作物管理器 II
+cropsnh_tooltip.cropManager.name.8=终极作物管理器
+cropsnh_tooltip.cropManager.name.9=史诗作物管理器
+cropsnh_tooltip.cropManager.name.10=史诗作物管理器 II
+cropsnh_tooltip.cropManager.name.11=史诗作物管理器 III
+cropsnh_tooltip.cropManager.name.12=史诗作物管理器 IV
+
+# Industrial Farm Controller
+cropsnh_tooltip.industrialFarm.name=工业农场
+cropsnh_tooltip.industrialFarm.machineType=工业作物耕种机, IF
+cropsnh_tooltip.industrialFarm.0=工业级种植作物
+# separator
+cropsnh_tooltip.industrialFarm.1=机器的§b长度§7取决于§f苗床§7的§c等级§7
+cropsnh_tooltip.industrialFarm.2=§f升级模块§7的§c等级§7必须和§f苗床§7的§c等级§7一致
+cropsnh_tooltip.industrialFarm.structure.hatch=任意机械方块 提示方块: 1号
+cropsnh_tooltip.industrialFarm.structure.seedBed=苗床
+cropsnh_tooltip.industrialFarm.structure.upgrades.name=升级模块 (任意等级)
+cropsnh_tooltip.industrialFarm.structure.upgrades.info=任意木框架
+
+# Industrial Farm block tooltips
+cropsnh_tooltip.upgradeTierMustMatchSeedBed=升级模块的§c等级§7必须和§f苗床§7一致
+cropsnh_tooltip.upgradeCountLimited=你最多只能使用§6%1$s§7个升级模块
+
+# Industrial Farm UI
+cropsnh_tooltip.industrialFarm.capacity=最大容量: %1$d
+cropsnh_tooltip.industrialFarm.seedSlot=种子槽
+cropsnh_tooltip.industrialFarm.seedWithBlockExtractionWarning=存在方块时，种子只能通过输出模式提取
+cropsnh_tooltip.industrialFarm.blockInsertion=方块只能通过输入模式输入
+cropsnh_tooltip.industrialFarm.blockExtraction=方块只能通过输出模式提取
+cropsnh_tooltip.industrialFarm.blockUnderSlot=用于放置土壤下方方块的槽位
+cropsnh_tooltip.industrialFarm.environmentalModule=环境模块槽
+cropsnh_tooltip.industrialFarm.environmentalModule.enabled=启用
+cropsnh_tooltip.industrialFarm.environmentalModule.disabled=禁用
+cropsnh_tooltip.industrialFarm.mode.input=输入
+cropsnh_tooltip.industrialFarm.mode.farm=农场
+cropsnh_tooltip.industrialFarm.mode.output=输出
+GT5U.gui.text.cropsnh.industrialFarm.blockUnderNotFound=由于缺少土壤下方的方块，无法插入新的种子
+GT5U.gui.text.cropsnh.industrialFarm.blockUnderMismatch.input=由于机器中存储的方块不兼容，无法插入新的种子
+GT5U.gui.text.cropsnh.industrialFarm.blockUnderMismatch.farm=当前的方块不符合作物生长的需求
+GT5U.gui.text.cropsnh.industrialFarm.seedBedTierTooLow=当前的苗床等级低于种子等级
+GT5U.gui.text.cropsnh.industrialFarm.seedsFull=已到达种子上限
+GT5U.gui.text.cropsnh.industrialFarm.seedOverflow=库存种子已超出上限
+GT5U.gui.text.cropsnh.industrialFarm.cannotGrow=这个种子不能在当前的环境中生长
+
+# Industrial Farm Scanner Tooltips
+cropsnh_tooltip.industrialFarm.scanner.0=等级: §e%1$s§r
+cropsnh_tooltip.industrialFarm.scanner.1=容量: §e%1$s§r
+cropsnh_tooltip.industrialFarm.scanner.2=收获增益: §e%1$s§r%%
+cropsnh_tooltip.industrialFarm.scanner.3=生长速度增益: §e%1$s§r%%
+cropsnh_tooltip.industrialFarm.scanner.4=耗水量: §e%1$s§r / §e%2$s§r t
+cropsnh_tooltip.industrialFarm.scanner.5=除草剂消耗量: §e%1$s§r / §e%2$s§r t
+cropsnh_tooltip.industrialFarm.scanner.6=营养评分: §e%1$s§r / §e%2$s§r
+
+# Seed Bed
+cropsnh_tooltip.seedBed.name=苗床 (%1$s)
+cropsnh_tooltip.seedBed.0=决定了工业农场的§c等级§7
+cropsnh_tooltip.seedBed.1=种子容量:%1$s
+cropsnh_tooltip.seedBed.2=每轮需要消耗%1$s水
+cropsnh_tooltip.seedBed.3=为作物增产%1$s
+cropsnh_tooltip.seedBed.3.adv=为作物增产%1$s(累计)
+cropsnh_tooltip.seedBed.4.single=农场中间必须正好%1$s格长
+cropsnh_tooltip.seedBed.4.plural=农场中间必须正好%1$s格长
+cropsnh.seedBed.2.name=苗床 (MV)
+cropsnh.seedBed.3.name=苗床 (HV)
+cropsnh.seedBed.4.name=苗床 (EV)
+cropsnh.seedBed.5.name=苗床 (IV)
+cropsnh.seedBed.6.name=苗床 (LuV)
+cropsnh.seedBed.7.name=苗床 (ZPM)
+cropsnh.seedBed.8.name=苗床 (UV)
+cropsnh.seedBed.9.name=苗床 (UHV)
+cropsnh.seedBed.10.name=苗床 (UEV)
+cropsnh.seedBed.11.name=苗床 (UIV)
+cropsnh.seedBed.12.name=苗床 (UMV)
+cropsnh.seedBed.13.name=苗床 (UXV)
+
+# OC Growth Accel Unit
+cropsnh_tooltip.overclockedGrowthAccelerationUnit.0=启用工业农场的§f超频§7功能
+cropsnh_tooltip.overclockedGrowthAccelerationUnit.1=每超频比在不影响配方时间下使产量§b翻倍§7
+cropsnh_tooltip.overclockedGrowthAccelerationUnit.2=同时安装了§f生长加速模块§7时不会工作
+cropsnh.overclockedGrowthAccelerationUnit.7.name=超频生长加速模块 (ZPM)
+cropsnh.overclockedGrowthAccelerationUnit.8.name=超频生长加速模块 (UV)
+cropsnh.overclockedGrowthAccelerationUnit.9.name=超频生长加速模块 (UHV)
+cropsnh.overclockedGrowthAccelerationUnit.10.name=超频生长加速模块 (UEV)
+cropsnh.overclockedGrowthAccelerationUnit.11.name=超频生长加速模块 (UIV)
+cropsnh.overclockedGrowthAccelerationUnit.12.name=超频生长加速模块 (UMV)
+cropsnh.overclockedGrowthAccelerationUnit.13.name=超频生长加速模块 (UXV)
+
+# Growth Accel Unit
+cropsnh_tooltip.growthAccelerationUnit.0=提升工业农场内的作物生长速度
+cropsnh_tooltip.growthAccelerationUnit.1=生长速度提升%1$s
+cropsnh_tooltip.growthAccelerationUnit.1.adv=每次升级提升生长速度%1$s(累计)
+cropsnh_tooltip.growthAccelerationUnit.2=增加能耗%1$s
+cropsnh_tooltip.growthAccelerationUnit.2.adv=每级增加能耗%1$s(累计)
+cropsnh_tooltip.growthAccelerationUnit.3=同时安装了§f超频生长加速模块§7时不会工作
+cropsnh.growthAccelerationUnit.2.name=生长加速模块 (MV)
+cropsnh.growthAccelerationUnit.3.name=生长加速模块 (HV)
+cropsnh.growthAccelerationUnit.4.name=生长加速模块 (EV)
+cropsnh.growthAccelerationUnit.5.name=生长加速模块 (IV)
+cropsnh.growthAccelerationUnit.6.name=生长加速模块 (LuV)
+cropsnh.growthAccelerationUnit.7.name=生长加速模块 (ZPM)
+cropsnh.growthAccelerationUnit.8.name=生长加速模块 (UV)
+cropsnh.growthAccelerationUnit.9.name=生长加速模块 (UHV)
+cropsnh.growthAccelerationUnit.10.name=生长加速模块 (UEV)
+cropsnh.growthAccelerationUnit.11.name=生长加速模块 (UIV)
+cropsnh.growthAccelerationUnit.12.name=生长加速模块 (UMV)
+cropsnh.growthAccelerationUnit.13.name=生长加速模块 (UXV)
+
+# Fertilizer Unit
+cropsnh_tooltip.fertilizerUnit.0=允许工业农场通过消耗§f肥料§7来增产
+cropsnh_tooltip.fertilizerUnit.1=每轮需要消耗%1$s肥料
+cropsnh_tooltip.fertilizerUnit.2=生长速度提升%1$s
+cropsnh_tooltip.fertilizerUnit.2.adv=每次升级提升生长速度%1$s(乘计)
+cropsnh_tooltip.fertilizerUnit.3=为作物增产%1$s
+cropsnh_tooltip.fertilizerUnit.3.adv=为作物增产%1$s(累计)
+cropsnh_tooltip.fertilizerUnit.4=增加能耗%1$s
+cropsnh_tooltip.fertilizerUnit.4.adv=增加能耗%1$s(累计)
+cropsnh.fertilizerUnit.2.name=施肥模块 (MV)
+cropsnh.fertilizerUnit.3.name=施肥模块 (HV)
+cropsnh.fertilizerUnit.4.name=施肥模块 (EV)
+cropsnh.fertilizerUnit.5.name=施肥模块 (IV)
+cropsnh.fertilizerUnit.6.name=施肥模块 (LuV)
+cropsnh.fertilizerUnit.7.name=施肥模块 (ZPM)
+cropsnh.fertilizerUnit.8.name=施肥模块 (UV)
+cropsnh.fertilizerUnit.9.name=施肥模块 (UHV)
+cropsnh.fertilizerUnit.10.name=施肥模块 (UEV)
+cropsnh.fertilizerUnit.11.name=施肥模块 (UIV)
+cropsnh.fertilizerUnit.12.name=施肥模块 (UMV)
+cropsnh.fertilizerUnit.13.name=施肥模块 (UXV)
+
+# Environmental Unit
+cropsnh_tooltip.environmentalEnhancementUnit.0=启用工业农场的§f环境模块§7
+cropsnh_tooltip.environmentalEnhancementUnit.1=模块需要插入农场的§f控制器§7
+cropsnh_tooltip.environmentalEnhancementUnit.2=增加能耗%1$s
+cropsnh_tooltip.environmentalEnhancementUnit.2.adv=增加能耗%1$s(累计)
+cropsnh.environmentalEnhancementUnit.2.name=环境优化模块 (MV)
+cropsnh.environmentalEnhancementUnit.3.name=环境优化模块 (HV)
+cropsnh.environmentalEnhancementUnit.4.name=环境优化模块 (EV)
+cropsnh.environmentalEnhancementUnit.5.name=环境优化模块 (IV)
+cropsnh.environmentalEnhancementUnit.6.name=环境优化模块 (LuV)
+cropsnh.environmentalEnhancementUnit.7.name=环境优化模块 (ZPM)
+cropsnh.environmentalEnhancementUnit.8.name=环境优化模块 (UV)
+cropsnh.environmentalEnhancementUnit.9.name=环境优化模块 (UHV)
+cropsnh.environmentalEnhancementUnit.10.name=环境优化模块 (UEV)
+cropsnh.environmentalEnhancementUnit.11.name=环境优化模块 (UIV)
+cropsnh.environmentalEnhancementUnit.12.name=环境优化模块 (UMV)
+cropsnh.environmentalEnhancementUnit.13.name=环境优化模块 (UXV)
+
+# Advanced Harvesting Unit
+cropsnh_tooltip.advancedHarvestingUnit.0=提升工业农场的产出
+cropsnh_tooltip.advancedHarvestingUnit.1=每级增加%1$s的产出
+cropsnh_tooltip.advancedHarvestingUnit.1.adv=每级增加%1$s的产出 (乘计)
+cropsnh_tooltip.advancedHarvestingUnit.2=每级增加能耗%1$s
+cropsnh_tooltip.advancedHarvestingUnit.2.adv=每级增加能耗%1$s(累计)
+cropsnh.advancedHarvestingUnit.2.name=进阶收获模块 (MV)
+cropsnh.advancedHarvestingUnit.3.name=进阶收获模块 (HV)
+cropsnh.advancedHarvestingUnit.4.name=进阶收获模块 (EV)
+cropsnh.advancedHarvestingUnit.5.name=进阶收获模块 (IV)
+cropsnh.advancedHarvestingUnit.6.name=进阶收获模块 (LuV)
+cropsnh.advancedHarvestingUnit.7.name=进阶收获模块 (ZPM)
+cropsnh.advancedHarvestingUnit.8.name=进阶收获模块 (UV)
+cropsnh.advancedHarvestingUnit.9.name=进阶收获模块 (UHV)
+cropsnh.advancedHarvestingUnit.10.name=进阶收获模块 (UEV)
+cropsnh.advancedHarvestingUnit.11.name=进阶收获模块 (UIV)
+cropsnh.advancedHarvestingUnit.12.name=进阶收获模块 (UMV)
+cropsnh.advancedHarvestingUnit.13.name=进阶收获模块 (UXV)
+
+# MTE tooltips
+
+# MTE Machine Type Flavour Text
+# multi tooltips
+cropsnh_tooltip.MBTT.multiAmpsWithUpgrade=使用超频生长加速模块升级时支持TecTech多A仓室！
+# Crop Produce Flavour Text
+cropsnh_tooltip.berry.huckle.1=嘟嘟哒，嘟嘟哒
+cropsnh_tooltip.berry.huckle.2=美味甜点！
+cropsnh_tooltip.berry.sugarbeet.1=甜菜，常见于法国，德国，俄罗斯和中国
+cropsnh_tooltip.berry.sugarbeet.2=工业制糖！
+cropsnh_tooltip.berry.maxTomato=一天一番茄，医生远离你
+cropsnh_tooltip.goldfish=Hozuki no Reitetsu! A truly hellish planimal?!
+cropsnh_tooltip.pyrolusiumLeaf.normal=也许有一天他们会搞明白的。
+cropsnh_tooltip.pyrolusiumLeaf.banana=这是怎么发生的？
+cropsnh_tooltip.pyrolusiumLeaf.canada=哇，他们做到了！
+cropsnh_tooltip.copponFiber=橙色，哇哦哦哦哦哦哦哦！！！
+cropsnh_tooltip.stargatiumLeaf=并不是由星门做成的。
+
+# Alcohol Tooltips
+cropsnh_tooltip.alcohol.0=臭死了。
+cropsnh_tooltip.alcohol.1=喝科恩酒？噫——喝这玩意儿头都要裂了！
+cropsnh_tooltip.alcohol.2=两次蒸馏的科恩酒？德式伏特加！
+cropsnh_tooltip.alcohol.3=太强了
+cropsnh_tooltip.alcohol.4=太甜
+cropsnh_tooltip.alcohol.5=此乃猎者荣光铭训：\n护生养息，泽被林野；\n节狩以道，恪守成规；\n万物有灵，敬天法地。
+cropsnh_tooltip.alcohol.6=他会给你长达一小时的药水效果！
+cropsnh_tooltip.alcohol.7=闻起来像假冒野格牌利口酒...
+
+# Material Leaf Tooltips
+cropsnh_tooltip.leaf.aluminium=获取铝的途径。
+cropsnh_tooltip.leaf.blueDye=获取蓝色染料的途径。
+cropsnh_tooltip.leaf.copper=获取铜的途径。
+cropsnh_tooltip.leaf.emerald=获取绿宝石的途径。
+cropsnh_tooltip.leaf.gold=获取金的途径。
+cropsnh_tooltip.leaf.iridium=获取铱的途径。
+cropsnh_tooltip.leaf.iron=获取铁的途径。
+cropsnh_tooltip.leaf.lead=获取铅的途径。
+cropsnh_tooltip.leaf.magic=纯粹魔法！
+cropsnh_tooltip.leaf.manganese=获取猛的途径。
+cropsnh_tooltip.leaf.mica=获取云母的途径。
+cropsnh_tooltip.leaf.milk=获取牛奶的途径。
+cropsnh_tooltip.leaf.naquadah=获取硅岩的途径。
+cropsnh_tooltip.leaf.netherstar=获取下界之星的途径。
+cropsnh_tooltip.leaf.nickel=获取镍的途径。
+cropsnh_tooltip.leaf.osmium=获取锇的途径。
+cropsnh_tooltip.leaf.platinum=获取铂的途径。
+cropsnh_tooltip.leaf.salt=获取盐的途径。
+cropsnh_tooltip.leaf.seedOil=获取种子油的途径。
+cropsnh_tooltip.leaf.silver=获取银的途径。
+cropsnh_tooltip.leaf.space=花中辐射！
+cropsnh_tooltip.leaf.string=获取线的途径。
+cropsnh_tooltip.leaf.sugar=获取糖的途径。
+cropsnh_tooltip.leaf.thorium=获取钍的途径。
+cropsnh_tooltip.leaf.tin=获取锡的途径。
+cropsnh_tooltip.leaf.titanium=获取钛的途径。
+cropsnh_tooltip.leaf.tungsten=获取钨的途径。
+cropsnh_tooltip.leaf.uranium=获取铀的途径。
+cropsnh_tooltip.leaf.zinc=获取锌的途径。
+cropsnh_tooltip.leaf.beer=啤酒的来源。
+cropsnh_tooltip.leaf.sulfur=获取硫的途径。
+# Merial Leaf Berries
+cropsnh_tooltip.leaf.oil=浆果态的石油
+cropsnh_tooltip.leaf.uua=浆果态的UUA
+cropsnh_tooltip.leaf.uum=浆果态的UUM
+
+
+# NEI Compat
+cropsnh_nei.any_seed=任意种子
+cropsnh_nei.scanned_seed=已扫描种子
+cropsnh_nei.deterministicBreeding.title=作物杂交
+cropsnh_nei.cropGroups.title=作物组别
+cropsnh_nei.crops.title=作物
+cropsnh_nei.crops.tier=等级: %d
+cropsnh_nei.crops.growthDuration=生长点数: %1$s
+cropsnh_nei.crops.dropMult=掉落系数: %1$0.2f
+cropsnh_nei.crops.likes=喜好: %1$s
+cropsnh_nei.breeding.title=作物杂交
+cropsnh_nei.mutationPool.title=作物突变池
+cropsnh_nei.mutationPool.poolName=突变池: %1$s
+nei.options.tools.dump.cropsnh=Crops NH
+nei.options.tools.dump.cropsnh.alternateSeed=替代种子
+nei.options.tools.dump.cropsnh.cropRegistry=作物
+nei.options.tools.dump.cropsnh.deterministicMutations=决定性突变
+nei.options.tools.dump.cropsnh.fertilizerFluids=流体肥料
+nei.options.tools.dump.cropsnh.fertilizerItems=肥料
+nei.options.tools.dump.cropsnh.hydrationFluids=水分
+nei.options.tools.dump.cropsnh.mutationPools=突变池
+nei.options.tools.dump.cropsnh.soilRegistry=土壤
+nei.options.tools.dump.cropsnh.weedEXFluids=除草剂
+
+
+# Generic Seeds
+cropsnh_genericSeeds.unknown=未知
+cropsnh_genericSeeds.invalid=无效
+cropsnh_genericSeeds.any=任意NH作物
+cropsnh_genericSeeds.format=%1$s种子
+
+# Crop Names
+cropsnh_crops.weed=杂草
+cropsnh_crops.migrated=旧版作物
+# BoP Crop Names
+cropsnh_crops.bamboo=竹笋
+cropsnh_crops.eyebulb=眼球花
+cropsnh_crops.floweringVine=开花藤蔓
+cropsnh_crops.glowflower=夜光花
+cropsnh_crops.glowingCoral=夜光珊瑚
+cropsnh_crops.glowshroom=荧光菇
+cropsnh_crops.ivy=常春藤
+# Bonsais Crop Names
+cropsnh_crops.bonsaiOak=盆栽橡树
+cropsnh_crops.bonsaiSpruce=盆栽云杉树
+cropsnh_crops.bonsaiBirch=盆栽桦树
+cropsnh_crops.bonsaiJungle=盆栽丛林树
+cropsnh_crops.bonsaiAcacia=盆栽金合欢树
+cropsnh_crops.bonsaiDarkOak=盆栽深色橡树
+cropsnh_crops.bonsaiRubber=盆栽橡胶树
+cropsnh_crops.bonsaiSlimy=盆栽史莱姆树
+# food crops names (BoP)
+cropsnh_crops.bopBerry=浆果
+cropsnh_crops.turnip=芜青
+cropsnh_crops.wildCarrot=野萝卜
+# food crops names (Natura)
+cropsnh_crops.barley=大麦
+cropsnh_crops.blackberry=黑莓
+cropsnh_crops.blueberry=蓝莓
+cropsnh_crops.maloberry=桑葚
+cropsnh_crops.raspberry=树莓
+cropsnh_crops.saguaroCactus=巨型仙人掌
+# Food Crops Names
+cropsnh_crops.chilly=辣椒
+cropsnh_crops.coffee=咖啡
+cropsnh_crops.cucumber=黄瓜
+cropsnh_crops.grape=葡萄
+cropsnh_crops.hops=啤酒花
+cropsnh_crops.huckleberry=黑木果
+cropsnh_crops.meatrose=肉玫瑰
+cropsnh_crops.lemon=柠檬
+cropsnh_crops.onion=洋葱
+cropsnh_crops.strawberry=草莓
+cropsnh_crops.sugarBeet=甜菜
+cropsnh_crops.tomato=番茄
+cropsnh_crops.tea=茶
+# Material Crop Names
+cropsnh_crops.argentia=银叶草
+cropsnh_crops.auronia=金叶草
+cropsnh_crops.bauxia=铝土草
+cropsnh_crops.bobsYerUncleRanks=鸿运浆果丛
+cropsnh_crops.canola=油菜
+cropsnh_crops.cassitine=锡粉草
+cropsnh_crops.coppon=铜线草
+cropsnh_crops.cotton=棉花
+cropsnh_crops.dayflower=雏菊
+cropsnh_crops.diareed=钻石甘蔗
+cropsnh_crops.evilOre=恶魔之矿
+cropsnh_crops.ferrofern=铁齿蕨
+cropsnh_crops.fertilia=肥料草
+cropsnh_crops.flax=亚麻
+cropsnh_crops.galvania=锌叶草
+cropsnh_crops.garnydinia=石榴石草
+cropsnh_crops.glowheat=荧石小麦
+cropsnh_crops.godOfThunder=天罚之雷
+cropsnh_crops.hemp=汉麻
+cropsnh_crops.indigo=靛蓝草
+cropsnh_crops.iridine=铱叶草
+cropsnh_crops.lazulia=青金石草
+cropsnh_crops.liveroot=活根
+cropsnh_crops.magicalNightshade=魔力夜颠茄
+cropsnh_crops.malaxia=铜粉草
+cropsnh_crops.micadia=云母草
+cropsnh_crops.milkWart=牛奶疣
+cropsnh_crops.necrobloom=死灵花
+cropsnh_crops.nickelback=镍叶草
+cropsnh_crops.nickelback.flavour=在风中发出悦耳的嗡鸣声
+cropsnh_crops.oilBerry=石油浆果丛
+cropsnh_crops.olivia=橄榄石草
+cropsnh_crops.osmianth=锇叶草
+cropsnh_crops.papyrus=纸莎草
+cropsnh_crops.platina=铂叶草
+cropsnh_crops.plumbilia=铅叶草
+cropsnh_crops.plumbshade=铅粉草
+cropsnh_crops.purpleTulip=紫色郁金香
+cropsnh_crops.pyrolusium=锰叶草
+cropsnh_crops.pyrolusium.flavour=它尽力了
+cropsnh_crops.reactoria=核能草
+cropsnh_crops.redstraw=红石草
+cropsnh_crops.rubyne=红宝石草
+cropsnh_crops.saltyRoot=盐根
+cropsnh_crops.saltyRoot.flavour=不可食用。
+cropsnh_crops.sapphirum=蓝宝石草
+cropsnh_crops.scheelinium=钨叶草
+cropsnh_crops.silviscus=银粉草
+cropsnh_crops.spaceFlower=空间之花
+cropsnh_crops.stargatium=星际之草
+cropsnh_crops.starWart=星疣
+cropsnh_crops.steeleafranks=钢叶草
+cropsnh_crops.stickyCane=黏性甘蔗
+cropsnh_crops.thiosulfine=硫质草
+cropsnh_crops.tine=锡芽草
+cropsnh_crops.titania=钛叶草
+cropsnh_crops.titania.flavour=作物之后。
+cropsnh_crops.transformium=化生浆果
+cropsnh_crops.trollplant=恶作剧藤
+cropsnh_crops.trollplant.flavour=Trololololol, lololol, lololol!
+cropsnh_crops.withereed=凋灵甘蔗
+# Mob Crop Names
+cropsnh_crops.blazereed=烈焰甘蔗
+cropsnh_crops.corium=皮革叶
+cropsnh_crops.corpseplant=尸骨草
+cropsnh_crops.creeperweed=苦力怕草
+cropsnh_crops.eggPlant=鸡蛋草
+cropsnh_crops.eggPlant.flavour=不要和茄子 (Eggplants) 搞混了。
+cropsnh_crops.enderbloom=末影花
+cropsnh_crops.goldfish=金鱼草
+cropsnh_crops.goldfish.flavour=尖叫。
+cropsnh_crops.inkbloom=染墨花
+cropsnh_crops.slimeplant=粘液草
+cropsnh_crops.spidernip=蜘蛛咬
+cropsnh_crops.tearstalks=泪之语
+cropsnh_crops.zomplant=僵尸草
+# Natura Nether Berry Crop Names
+cropsnh_crops.blightberry=枯萎莓
+cropsnh_crops.duskberry=黄昏莓
+cropsnh_crops.skyberry=天莓
+cropsnh_crops.stingberry=刺莓
+# Natura Nether Glowshroom Names
+cropsnh_crops.blueGlowshroom=蓝色荧光菇
+cropsnh_crops.greenGlowshroom=绿色荧光菇
+cropsnh_crops.purpleGlowshroom=紫色荧光菇
+# Natura Nether Crop Names
+cropsnh_crops.thornvine=荆棘藤
+# Ore Berries
+cropsnh_crops.aluminiumOreBerry=铝矿莓
+cropsnh_crops.arditeOreBerry=阿迪特矿莓
+cropsnh_crops.cobaltOreBerry=钴矿莓
+cropsnh_crops.copperOreBerry=铜矿莓
+cropsnh_crops.essenceOreBerry=精华莓
+cropsnh_crops.goldOreBerry=金矿莓
+cropsnh_crops.ironOreBerry=铁矿莓
+cropsnh_crops.knightmetalOreBerry=骑士金属矿莓
+cropsnh_crops.thauminiteOreBerry=秘晶锭矿莓
+cropsnh_crops.thaumiumOreBerry=神秘矿莓
+cropsnh_crops.tinOreBerry=锡矿莓
+cropsnh_crops.voidOreBerry=虚空金属矿莓
+# Stone Lily Crop Names (Botania)
+cropsnh_crops.andesiteLily=安山莲
+cropsnh_crops.dioriteLily=闪长莲
+cropsnh_crops.graniteLily=花岗莲
+# Stone Lily Crop Names (Et Futurum Requiem)
+cropsnh_crops.deepslateLily=深板莲
+cropsnh_crops.tuffLily=凝灰莲
+# Stone Lily Crop Names
+cropsnh_crops.stoneLily=石莲
+cropsnh_crops.sandLily=沙莲
+cropsnh_crops.clayLily=黏土莲
+cropsnh_crops.endStoneLily=末地石莲
+cropsnh_crops.netherStoneLily=地狱岩莲
+cropsnh_crops.soulSandLily=灵魂沙莲
+cropsnh_crops.blackGraniteLily=黑花岗莲
+cropsnh_crops.redGraniteLily=红花岗莲
+cropsnh_crops.basaltLily=玄武莲
+cropsnh_crops.marbleLily=大理莲
+# Thaumcraft Crops
+cropsnh_crops.primordialBerry=原始浆果
+cropsnh_crops.cinderpearl=火焰草
+cropsnh_crops.shimmerleaf=水银花
+cropsnh_crops.manaBean=魔豆
+# Twilight Forest Crops
+cropsnh_crops.torchberry=火炬浆果
+# Vanilla Crops
+cropsnh_crops.sugarCane=甘蔗
+cropsnh_crops.redMushroom=红蘑菇
+cropsnh_crops.brownMushroom=棕色蘑菇
+cropsnh_crops.vine=藤蔓
+cropsnh_crops.waterLily=睡莲
+
+# Lockout Breeding Requirements
+cropsnh_breedingReq.lockout.machineOnly=需要作物培育机
+cropsnh_breedingReq.lockout.worldOnly=必须使用作物架
+# Lockout Growth Requirements
+cropsnh_growthReq.lockout.machineOnly=只能在工业农场中收获
+cropsnh_growthReq.lockout.machineOnly.nei=只能在工业农场中收获
+cropsnh_growthReq.lockout.migrated=无效的土壤！破坏作物来获得种子！
+# Light Growth Requirements
+cropsnh_growthReq.minLight.format=需要亮度等级高于 %1$s
+cropsnh_growthReq.maxLight.format=需要亮度等级低于 %1$s
+# Vanilla Stone Lily Growth Requirements
+cropsnh_growthReq.blockUnder.stone=需要下方有石头才能生长
+cropsnh_growthReq.blockUnder.sand=需要下方有沙子或沙石才能生长
+cropsnh_growthReq.blockUnder.clay=需要下方有黏土或陶瓦才能生长
+cropsnh_growthReq.blockUnder.soulSand=需要下方有灵魂沙才能生长
+cropsnh_growthReq.blockUnder.netherrack=需要下方有地狱岩才能生长
+cropsnh_growthReq.blockUnder.endStone=需要下方有末地石才能生长
+# GT Stone Lily Growth Requirements
+cropsnh_growthReq.blockUnder.redGranite=需要下方有红花岗岩才能生长
+cropsnh_growthReq.blockUnder.blackGranite=需要下方有黑花岗岩才能生长
+cropsnh_growthReq.blockUnder.marble=需要下方有大理石才能生长
+cropsnh_growthReq.blockUnder.basalt=需要下方有玄武岩才能生长
+# Et EtFuturum Stone Lily Requirements
+cropsnh_growthReq.blockUnder.deepslate=需要下方有深板岩才能生长
+cropsnh_growthReq.blockUnder.tuff=需要下方有凝灰岩才能生长
+# Botania Stone Lily Growth Requirements
+cropsnh_growthReq.blockUnder.botaniaAndesite=需要下方有安山岩才能生长
+cropsnh_growthReq.blockUnder.botaniaDiorite=需要下方有闪长岩才能生长
+cropsnh_growthReq.blockUnder.botaniaGranite=需要下方有花岗岩才能生长
+# Vanilla Ore Growth Requirements
+cropsnh_growthReq.blockUnder.coal=需要下方有煤炭块才能生长
+cropsnh_growthReq.blockUnder.iron=需要下方有铁块才能生长
+cropsnh_growthReq.blockUnder.gold=需要下方有金块才能生长
+cropsnh_growthReq.blockUnder.diamond=需要下方有钻石块才能生长
+cropsnh_growthReq.blockUnder.emerald=需要下方有绿宝石块才能生长
+cropsnh_growthReq.blockUnder.redstone=需要下方有红石块才能生长
+cropsnh_growthReq.blockUnder.lapis=需要下方有青金石块才能生长
+# Modded Ore Growth Requirements
+cropsnh_growthReq.blockUnder.aluminium=需要下方有铝块才能生长
+cropsnh_growthReq.blockUnder.aluminiumBauxite=需要下方有铝块或铝土矿才能生长
+cropsnh_growthReq.blockUnder.copper=需要下方有铜块才能生长
+cropsnh_growthReq.blockUnder.iridium=需要下方有铱块才能生长
+cropsnh_growthReq.blockUnder.lead=需要下方有铅块或方铅矿才能生长
+cropsnh_growthReq.blockUnder.magnesium=需要下方有镁块才能生长
+cropsnh_growthReq.blockUnder.manganese=需要下方有锰块或软锰矿才能生长
+cropsnh_growthReq.blockUnder.mica=需要下方有云母块或白铜线圈才能生长
+cropsnh_growthReq.blockUnder.naquadah=需要下方有硅岩块才能生长
+cropsnh_growthReq.blockUnder.netherStar=需要下方有下界之星块才能生长
+cropsnh_growthReq.blockUnder.nickel=需要下方有镍块才能生长
+cropsnh_growthReq.blockUnder.osmium=需要下方有锇块才能生长
+cropsnh_growthReq.blockUnder.platinum=需要下方有铂块才能生长
+cropsnh_growthReq.blockUnder.silver=需要下方有银块才能生长
+cropsnh_growthReq.blockUnder.sulfur=需要下方有硫块或闪锌矿才能生长
+cropsnh_growthReq.blockUnder.thorium=需要下方有钍块或方钍矿才能生长
+cropsnh_growthReq.blockUnder.tin=需要下方有锡块才能生长
+cropsnh_growthReq.blockUnder.titanium=需要下方有钛块、钛铁矿或金红石才能生长
+cropsnh_growthReq.blockUnder.tungsten=需要下方有钨块、白钨矿或钨酸锂矿才能生长
+cropsnh_growthReq.blockUnder.uranium=需要下方有铀块、铀矿或沥青铀矿才能生长
+cropsnh_growthReq.blockUnder.zinc=需要下方有锌块或闪锌矿才能生长
+# Gem Ore Growth Requirement
+cropsnh_growthReq.blockUnder.garnetGem=需要下方有红石榴石块、黄石榴石块或石榴石矿砂才能生长
+cropsnh_growthReq.blockUnder.olivine=需要下方有橄榄石块才能生长
+cropsnh_growthReq.blockUnder.sapphire=需要下方有蓝宝石块才能生长
+cropsnh_growthReq.blockUnder.ruby=需要下方有红宝石块才能生长
+# Non-GT Ore Growth Requirements
+cropsnh_growthReq.blockUnder.knightmetal=需要下方有骑士金属块才能生长
+cropsnh_growthReq.blockUnder.cobalt=需要下方有钴块才能生长
+cropsnh_growthReq.blockUnder.ardite=需要下方有阿迪特块才能生长
+# Magic Ore Growth Requirements
+cropsnh_growthReq.blockUnder.void=需要下方有虚空块才能生长
+cropsnh_growthReq.blockUnder.thaumium=需要下方有神秘块才能生长
+cropsnh_growthReq.blockUnder.thauminite=需要下方有秘晶块才能生长
+cropsnh_growthReq.blockUnder.shadowmetal=需要下方有暗影金属块才能生长
+# Misc Block Growth Requirement
+cropsnh_growthReq.blockUnder.skull=需要下方有头颅才能生长
+cropsnh_growthReq.blockUnder.snow=需要下方有雪块才能生长
+cropsnh_growthReq.blockUnder.glowstone=需要下方有荧石才能生长
+cropsnh_growthReq.blockUnder.blaze=需要下方有烈焰块才能生长
+cropsnh_growthReq.blockUnder.quicksilver=需要下方有水银块才能生长
+
+# Thaum Block Growth Requirement
+cropsnh_growthReq.blockUnder.mixedCrystalCluster=需要下方有复相魔晶块才能生长
+
+
+# Galacticraft Blocks Growth Requirements
+cropsnh_growthReq.blockUnder.space=需要下方有太空来的方块才能生长
+
+# Mutation Pool Names
+cropsnh_mutationPool.reed=芦苇
+cropsnh_mutationPool.bonsai=盆栽
+cropsnh_mutationPool.leaves=树叶
+cropsnh_mutationPool.wheat=小麦
+cropsnh_mutationPool.dense=致密
+cropsnh_mutationPool.soulsand=灵魂沙
+cropsnh_mutationPool.stone=石头
+cropsnh_mutationPool.rotten=腐败
+cropsnh_mutationPool.alloy=合金
+cropsnh_mutationPool.climbable=攀援
+cropsnh_mutationPool.root=根须
+cropsnh_mutationPool.iron=铁
+cropsnh_mutationPool.crystal=水晶
+cropsnh_mutationPool.slime=史莱姆
+cropsnh_mutationPool.red=红色
+cropsnh_mutationPool.pointed=尖锐
+cropsnh_mutationPool.wood=木
+cropsnh_mutationPool.magic=魔法
+cropsnh_mutationPool.cow=牛
+cropsnh_mutationPool.tree=树
+cropsnh_mutationPool.berry=浆果
+cropsnh_mutationPool.yellow=黄色
+cropsnh_mutationPool.bad=淘气
+cropsnh_mutationPool.addictive=成瘾物
+cropsnh_mutationPool.oreBerry=矿莓
+cropsnh_mutationPool.saltpeter=硝石
+cropsnh_mutationPool.bean=豆
+cropsnh_mutationPool.white=白色
+cropsnh_mutationPool.green=绿色
+cropsnh_mutationPool.lead=铅
+cropsnh_mutationPool.rose=玫瑰
+cropsnh_mutationPool.brown=棕色
+cropsnh_mutationPool.chicken=鸡
+cropsnh_mutationPool.tendrilly=卷须
+cropsnh_mutationPool.milk=牛奶
+cropsnh_mutationPool.carrots=胡萝卜
+cropsnh_mutationPool.cotton=棉花
+cropsnh_mutationPool.gray=灰色
+cropsnh_mutationPool.orange=橙色
+cropsnh_mutationPool.danger=危险
+cropsnh_mutationPool.evil=邪恶
+cropsnh_mutationPool.poison=毒液
+cropsnh_mutationPool.metal=金属
+cropsnh_mutationPool.oil=石油
+cropsnh_mutationPool.alien=外星
+cropsnh_mutationPool.gold=金
+cropsnh_mutationPool.tin=锡
+cropsnh_mutationPool.shimmer=微光
+cropsnh_mutationPool.toxic=剧毒
+cropsnh_mutationPool.tulip=郁金香
+cropsnh_mutationPool.dark=黑暗
+cropsnh_mutationPool.sticky=黏性
+cropsnh_mutationPool.leafy=多叶
+cropsnh_mutationPool.purple=紫色
+cropsnh_mutationPool.shiny=闪亮
+cropsnh_mutationPool.bush=灌木
+cropsnh_mutationPool.stem=茎秆
+cropsnh_mutationPool.ingredient=原料
+cropsnh_mutationPool.food=食物
+cropsnh_mutationPool.silk=丝缕
+cropsnh_mutationPool.coal=煤
+cropsnh_mutationPool.blaze=烈焰人
+cropsnh_mutationPool.light=光明
+cropsnh_mutationPool.fire=火
+cropsnh_mutationPool.void=虚空
+cropsnh_mutationPool.ender=末影
+cropsnh_mutationPool.healing=疗愈
+cropsnh_mutationPool.blue=蓝色
+cropsnh_mutationPool.fish=鱼
+cropsnh_mutationPool.mushroom=蘑菇
+cropsnh_mutationPool.black=黑色
+cropsnh_mutationPool.bouncy=弹性
+cropsnh_mutationPool.zombie=僵尸
+cropsnh_mutationPool.flower=花
+cropsnh_mutationPool.water=水
+cropsnh_mutationPool.copper=铜
+cropsnh_mutationPool.cactus=仙人掌
+cropsnh_mutationPool.sulfur=硫
+cropsnh_mutationPool.undead=亡灵
+cropsnh_mutationPool.silver=银
+cropsnh_mutationPool.nether=下界

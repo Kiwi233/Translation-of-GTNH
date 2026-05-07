@@ -357,6 +357,7 @@ LogisticsPipes Pipe Block.name=LogisticsPipes管道方块
 lp.chat.slotnotfound=抱歉，无法找到目标格子。请重试。
 lp.chat.permissiondenied=请求被拒绝
 lp.chat.connectedtopipe=连接到管道
+lp.chat.satelliteid.set=卫星ID已设置为%d
 lp.misc.noenergy=没有能量
 lp.hud.config.chassie.enabled=启用底盘。
 lp.hud.config.chassie.disabled=禁用底盘。
@@ -373,16 +374,15 @@ lp.hud.config.satellite.disabled=禁用卫星。
 
 # GUI
 
+gui.logisticspipes.inventory.title=物品栏
 gui.itemsink.Yes=是
 gui.itemsink.No=否
-gui.itemsink.Inventory=物品栏
 gui.itemsink.Defaultroute=默认路径
 gui.itemsink.IgnoreData=忽略附加值
 gui.itemsink.IgnoreNBT=忽略NBT
 gui.itemsink.import=导入
 
 gui.crafting.Inputs=原料
-gui.crafting.Inventory=物品栏
 gui.crafting.Import=导入
 gui.crafting.Open=打开
 gui.crafting.Output=产物
@@ -422,7 +422,6 @@ gui.fluidsuppliermk2.refill_if_depleted.tip.zero=§7设置为§e0§7以关闭该
 gui.fluidsuppliermk2.TargetInv=要补给的流体
 
 gui.fluidsupplier.TargetInv=要补给的流体
-gui.fluidsupplier.Inventory=物品栏
 gui.fluidsupplier.Partialrequests=不完整请求
 gui.fluidsupplier.Yes=是
 gui.fluidsupplier.No=否
@@ -436,6 +435,41 @@ gui.invsyscon.Resistance=开销值
 
 gui.powerjunction.LogisticsPowerJunction=物流能量中枢
 gui.powerjunction.StoredEnergy=存储的能量
+gui.powerjunction.ConversionEnergyRF=10 RF = 5 LP
+gui.powerjunction.ConversionEnergyEU=1 EU = 2 LP
+gui.powerjunction.PowerLevel=%s LP
+gui.powerjunction.MaxStorage=/ %s LP
+
+gui.powerprovider.PowerLevel=%s
+gui.powerprovider.MaxStorage=%s
+
+gui.requesttable.RequestItems=请求物品
+gui.requesttable.Sort=排序：
+gui.requesttable.Popup=弹出
+
+gui.sortmode.id=ID
+gui.sortmode.size=大小
+gui.sortmode.name=名称
+
+gui.module.requestedItems=请求的物品
+gui.module.ModuleExtractor=提取方向
+gui.module.ModuleTerminus=已终止的物品
+gui.module.ModuleAdvancedExtractor=物品列表
+gui.module.ModuleProvider=要供应的物品(留空供应所有物品)
+gui.module.ModuleProvider.ExcessInventory=库存过剩：
+gui.module.ModuleElectricManager.ExcessInventory=电气物品
+gui.module.ModuleThaumicAspectSink=要素阅读器
+gui.module.ModuleThaumicAspectSink.sunk=沉沦要素
+gui.module.ModuleEnchantmentSink=请求附魔物品
+gui.module.ModuleCCBasedQuickSort=超时计时器
+gui.module.ModuleCCBasedQuickSort.ticks=%s ticks
+
+gui.hudglasses.ChassiePipe=HUD 底盘管道
+gui.hudglasses.CraftingPipe=HUD 合成管道
+gui.hudglasses.InvSysConPipe=HUD 物品栏系统控制管道
+gui.hudglasses.PowerJunction=HUD 电源接口
+gui.hudglasses.ProviderPipe=HUD 提供管道
+gui.hudglasses.SatellitePipe=HUD 卫星管道
 
 gui.powerprovider.LogisticsMJPowerProvider=物流MJ能量供应器
 gui.powerprovider.LogisticsEUPowerProvider=物流EU能量供应器
@@ -443,7 +477,6 @@ gui.powerprovider.LogisticsRFPowerProvider=物流RF能量供应器
 gui.powerprovider.StoredEnergy=存储的能量
 
 gui.providerpipe.TargetInv=要供应的物品(留空供应所有物品)
-gui.providerpipe.Inventory=物品栏
 gui.providerpipe.Mode=模式
 gui.providerpipe.Exclude=除外
 gui.providerpipe.Include=包括
@@ -469,7 +502,6 @@ gui.securitystation.excludeIDs=禁止访问的电脑ID
 gui.securitystation.pipeRemove=允许自动化设备移除管道
 gui.securitystation.Player=玩家
 gui.securitystation.SecurityCards=安全卡
-gui.securitystation.Inventory=物品栏
 gui.securitystation.popup.ccAccess.Remove=删除
 gui.securitystation.popup.ccAccess.Add=添加
 gui.securitystation.popup.player.Close=关闭
@@ -482,15 +514,12 @@ gui.securitystation.popup.player.RemovePipes=允许移除管道
 
 gui.supplierpipe.TargetInv=要补给的物品
 gui.supplierpipe.TargetInvPattern=每个槽中要补给的物品
-gui.supplierpipe.Inventory=物品栏
 gui.supplierpipe.RequestMode=请求模式
 
 gui.upgrademanager.Upgrades=此管道拥有的升级
-gui.upgrademanager.Inventory=物品栏
 gui.upgrademanager.SneakyUpgrades=选择连接升级
 
 gui.pipecontroller.upgrade=此管道拥有的升级
-gui.pipecontroller.inventory=物品栏
 gui.pipecontroller.sneakyUpgrades=选择连接升级
 gui.pipecontroller.security=安全设置
 gui.pipecontroller.Session=会话期
@@ -504,6 +533,7 @@ gui.networkstatistics.amount=追踪数量
 gui.networkstatistics.crafting=查看当前活跃的合成任务
 gui.networkstatistics.gettasks=已获得任务
 gui.networkstatistics.add.alreadytracked=该物品已经开始追踪
+gui.networkstatistics.ItemDisplay=第 %s 页 / 共 %s 页
 
 gui.settings.pipenewrenderer=使用新渲染
 gui.settings.pipevborenderer=使用VBO渲染器（实验性）

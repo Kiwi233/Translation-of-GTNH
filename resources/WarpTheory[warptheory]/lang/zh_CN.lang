@@ -15,6 +15,8 @@ chat.warptheory.deadlywarp=试纸燃烧起来.
 chat.warptheory.permanentwarp=阴魂不散的扭曲.
 chat.warptheory.normalwarp=一般的扭曲.
 chat.warptheory.tempwarp=浮于表面的扭曲.
+chat.warptheory.potionwarning.1=§c§l§nWARNING§r§c: drinking this potion will reset §lALL warp, research, scanned items, and discovered aspects§r§c!
+chat.warptheory.potionwarning.2=§cContinue drinking for §l10 seconds§r§c if you are absolutely certain you want to reset everything.
 
 # << Item names >>
 item.warptheory.cleanserminor.name=污秽泪水
@@ -22,6 +24,7 @@ item.warptheory.cleanser.name=纯净泪水
 item.warptheory.amulet.name=净化护身符
 item.warptheory.something.name=块状物
 item.warptheory.paper.name=奥术石蕊试纸
+item.warptheory.oblivionpotion.name=Potion of Blissful Oblivion
 
 # << entity names >>
 entity.WarpTheory.taintSheepSafe.name=腐化羊
@@ -37,6 +40,7 @@ tooltip.warptheory.amulet=祛除扭曲
 tooltip.warptheory.something=没准能吃...
 tooltip.warptheory.paper=对扭曲产生反应
 tooltip.warptheory.portableshower=洗掉你的污垢
+tooltip.warptheory.oblivionpotion=§c§l§nThe ultimate contingency plan§r
 
 # << portable shower >>
 tc.research_name.warptheory.portableshower=便携式沐浴器
@@ -51,7 +55,7 @@ research.warptheory.warpsomething=你无意之中发现如果把一些肉暴露�
 # << Impure tear >>
 tc.research_name.warptheory.cleanserminor=污秽泪水
 tc.research_text.warptheory.cleanserminor=魔法药剂
-research.warptheory.warpcleanserminor=你为了处理扭曲已经花了太多时间,是时候尝试找到一种摆脱它的方法了.你决定尝试将发现的几种清洁类物品混合起来.<BR>你成功了,但它的效果基于百分比,所以你无法完全摆脱扭曲.但至少可以避免那些最严重的的扭曲效果(人形自走凋灵刷怪笼,拆家冠军)(50扭曲时,生效几率为1%.150扭曲时,生效几率为100%)<BR>你怀疑如果有更好的材料,也许你能制作出更有效的版本.
+research.warptheory.warpcleanserminor=你为了处理扭曲已经花了太多时间,是时候尝试找到一种摆脱它的方法了.你决定尝试将发现的几种清洁类物品混合起来.<BR>你成功了,但它的效果基于百分比,所以你无法完全摆脱扭曲.但至少可以避免那些最严重的扭曲效果(人形自走凋灵刷怪笼,拆家冠军)(50扭曲时,生效几率为1%.150扭曲时,生效几率为100%)<BR>你怀疑如果有更好的材料,也许你能制作出更有效的版本.
 
 # << pure tear >>
 tc.research_name.warptheory.cleanser=纯净泪水
@@ -61,12 +65,18 @@ research.warptheory.warpcleanser=通过融合幽魂眼泪治愈的特性,世界�
 # << purification talisman >>
 tc.research_name.warptheory.amulet=净化护身符
 tc.research_text.warptheory.amulet=不仅仅是一个简单的幸运符
-research.warptheory.amulet=你已经找到一种处理纯净泪水的方式, 经过这种处理, 净化泪水的持续时间延长而且不会产生消化不良.<BR>通过简单地将两个相对的泪水合成护身符并使其具有某种魔力, 一种能够持续吸收负面魔法能量并释放到环境中的护身符就做好了.
+research.warptheory.amulet=你已经找到一种处理纯净泪水的方式, 经过这种处理, 净化泪水的持续时间延长而且不会产生消化不良.<BR>通过简单地将两个泪水合成护身符并使其具有某种魔力, 一种能够持续吸收负面魔法能量并释放到环境中的护身符就做好了.
 
 # << litmus paper >>
 tc.research_name.warptheory.paper=奥术石蕊试纸
 tc.research_text.warptheory.paper=近乎科学
 research.warptheory.paper=你已经决定, 你需要更精确的东西来衡量你体内负面魔法能量的积累, 而不是统计你周围发生了什么扭曲反应.<BR>通过将世界盐与水之源质注入纸张中, 你制造出一种能精确读取你自己究竟暴露在多高的危险之中的试纸.
+
+# << Oblivion Potion >>
+tc.research_name.warptheory.oblivionpotion=Potion of Blissful Oblivion
+tc.research_text.warptheory.oblivionpotion=Uncork in case of emergency
+research.warptheory.oblivionpotion.1=Knowledge may be power, but some say that ignorance is bliss. Should you find yourself at a true dead end, your mind burdened beyond recovery by warp, you have devised a final contingency: the Potion of Blissful Oblivion.<BR>Upon drinking this concoction, your warp is purged entirely. Yet such peace comes at a terrible cost: your knowledge of all research, every object scanned with the thaumometer, and every aspect you have discovered will be lost.
+research.warptheory.oblivionpotion.2=This loss is absolute and irreversible. You will be forced to begin your pursuit of knowledge from the very beginning. Though more refined methods of cleansing the mind may exist, this potion remains a desperate, but reliable, last resort.
 
 # << chat warp effects >>
 chat.warptheory.bats=扑响声回荡在空气中...

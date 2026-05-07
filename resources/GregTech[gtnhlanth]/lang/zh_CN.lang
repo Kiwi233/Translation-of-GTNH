@@ -8,13 +8,17 @@ gtnhlanth.tt.beaminfo=使用§b便携式扫描仪§7右键来获取多方块输�
 gtnhlanth.tt.blueprint=请参考§9Structure§2Lib§7全息投影，构建主体结构
 gtnhlanth.tt.pc=§6部分消耗：§7在工作中损耗耐久
 
-gtnhlanth.tt.hintdot=提示方块：%s号
+gtnhlanth.tt.hintNumber=编号为 %s 的提示方块
 
 GT5U.gui.text.gtnhlanth.nocoolant=机器内没有冷却液！
 GT5U.gui.text.gtnhlanth.inscoolant=机器内冷却液不足！
 GT5U.gui.text.gtnhlanth.noaccel=该类型粒子无法被加速!
 GT5U.gui.text.gtnhlanth.low_input_eut=输入EU/t太低了,无法产生光子!
 GT5U.gui.text.gtnhlanth.scerror=数学错误，配方损坏？
+GT5U.gui.text.gtnhlanth.inputinterrupt=输入束流不得中断或改变！
+GT5U.gui.text.gtnhlanth.wrongparticle=不正确的粒子!
+GT5U.gui.text.gtnhlanth.toolowenergy=能量不足！
+GT5U.gui.text.gtnhlanth.noparticle=粒子缺失（生成率为0）！
 
 # NEI
 value.disstank=比例: %s:1
@@ -144,28 +148,47 @@ beamline.particle=粒子
 beamline.energy=能量
 beamline.focus=聚焦
 beamline.amount=数量
-beamline.rate=速率
+beamline.rate=通量
 
 beamline.temperature=温度
 beamline.coolusage=冷却剂使用量
 
 beamline.out_pre=多方块束流输出
 
-beamline.particleinput=输入粒子信息：
-
 beamline.pipe.desc.0=粒子传输管道
 beamline.pipe.desc.1=请勿转弯
+
+gt.blockmachines.beamline_pipe.name=束流管
 
 tile.recipe.tc=高能束流聚焦对撞靶室
 tile.recipe.sc=高能粒子辐射激发源室
 
 item.particle.name=粒子
-particle.electron=电子
 particle.photon=光子
-particle.alpha=α粒子
-particle.neutron=中子
+particle.zboson=Z玻色子
+particle.wboson=W玻色子
+particle.higgs=希格斯玻色子
+particle.graviton=引力子
+particle.electron=电子
+particle.muon=μ子
+particle.tau=τ子
+particle.electron_neutrino=电子中微子
+particle.muon_neutrino=μ子中微子
+particle.tau_neutrino=τ子中微子
 particle.proton=质子
+particle.neutron=中子
+particle.lambda=λ粒子
+particle.omega=Ω粒子
+particle.eta=η介子
+particle.jpsi=J/ψ介子
+particle.upsilon=Y粒子
+particle.alpha=α粒子
 GT5U.gui.text.dissolution_ratio=§7流体输入比例错误
+
+beamcrafting.energy_A=最小能量 1
+beamcrafting.energy_B=最小能量 2
+beamcrafting.amount_A=数量 1
+beamcrafting.amount_B=数量 2
 
 tooltip.gtnhlanth.particle.rest_mass=静止质量：%f MeV
 tooltip.gtnhlanth.particle.charge=电荷：%s e

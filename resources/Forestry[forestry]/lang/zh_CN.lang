@@ -453,7 +453,7 @@ item.cratedDrippingCombs.name=装箱的滴水蜂窝
 item.cratedFertilizer.name=装箱的肥料
 item.cratedFrozenCombs.name=装箱的冻结蜂窝
 item.cratedGlowstone.name=装箱的谷神星荧石粉
-item.cratedGravel.name=装箱的砂砾
+item.cratedGravel.name=装箱的沙砾
 item.cratedHoneycombs.name=装箱的蜜蜂蜂窝-
 item.cratedHoneydew.name=装箱的蜂蜜汁
 item.cratedHumus.name=装箱的腐殖土
@@ -677,7 +677,7 @@ item.for.circuitboard.refined.name=大型电子板
 
 item.for.craftingMaterial.name=合成材料
 item.for.craftingMaterial.dissipationCharge.name=驱云电荷
-item.for.craftingMaterial.iceShard.name=碎冰
+item.for.craftingMaterial.iceShard.name=冰碎片
 item.for.craftingMaterial.pulsatingDust.name=脉动之尘
 item.for.craftingMaterial.pulsatingMesh.name=脉动网格
 item.for.craftingMaterial.scentedPaneling.name=飘香镶板
@@ -708,7 +708,7 @@ for.frame.tooltip.geneticDecay=基因衰变：
 
 item.for.fruits.name=水果
 item.for.fruits.cherry.name=樱桃
-item.for.fruits.chestnut.name=栗树
+item.for.fruits.chestnut.name=板栗
 item.for.fruits.dates.name=枣椰
 item.for.fruits.lemon.name=柠檬
 item.for.fruits.papaya.name=木瓜
@@ -1380,7 +1380,7 @@ for.family.prunes=梅果族
 
 for.fruits.apple=苹果
 for.fruits.cherry=樱桃
-for.fruits.chestnut=栗树
+for.fruits.chestnut=板栗
 for.fruits.cocoa=可可
 for.fruits.dates=枣椰
 for.fruits.lemon=柠檬
@@ -1738,6 +1738,7 @@ for.plugin.growthcraft.description=生长工艺(GrowthCraft)兼容组件。
 for.plugin.erebus.description=Erebus兼容组件。
 for.plugin.rotarycraft.description=旋转工艺(RotaryCraft)兼容组件
 for.plugin.minefactoryreloaded.description=我的工厂(MineFactoryReloaded)兼容组件
+for.plugin.etfuturum.description=EtFuturumRequiem兼容性插件
 
 ####################
 # CONFIG FILES
@@ -1781,6 +1782,7 @@ for.config.crafting.stamps.disabled.comment=禁止某种邮票的合成表。
 
 for.config.tweaks=调整
 
+for.config.tweaks.gui.showBackpackDurability=显示背包的耐久度条，指示其已装满的程度。
 for.config.tweaks.gui.mail.alert.enabled=邮箱提醒
 for.config.tweaks.gui.mail.alert.enabled.comment=启用新邮件提醒盒子
 for.config.tweaks.gui.mail.alert.xPosition=水平位置
@@ -1972,7 +1974,7 @@ for.config.gamemode.energy.engine.clockwork.comment=启用发条引擎。
 
 nei.subsets.Forestry=林业
 nei.subsets.Forestry.Bees=蜜蜂
-nei.subsets.Forestry.Bees.Combs=蜂巢
+nei.subsets.Forestry.Bees.Combs=蜂窝
 nei.subsets.Forestry.Bees.Drones=雄蜂
 nei.subsets.Forestry.Bees.Princesses=公主蜂
 nei.subsets.Forestry.Bees.Queens=蜂后

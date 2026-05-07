@@ -1,0 +1,66 @@
+esm.key.open_muffler_gui=打开消声器屏幕
+esm.inventory.btn=消声器
+
+esm.slider.btn.muffler.muffle=声音消声
+esm.slider.btn.muffler.unmuffle=取消声音消声
+esm.slider.btn.play.play_sound=播放/停止声音
+esm.slider.btn.volume=音量：%s
+
+esm.main_screen.btn.csl.recent=最近
+esm.main_screen.btn.csl.all=全部
+esm.main_screen.btn.csl.muffled=已消声
+esm.main_screen.btn.csl.tooltip=正在显示 %s 种声音
+esm.main_screen.btn.tms.stop=停止消声
+esm.main_screen.btn.tms.start=开始消声
+esm.main_screen.btn.delete.sounds=删除消声
+esm.main_screen.btn.delete.list=删除已消声列表
+esm.main_screen.btn.delete.anchor=删除锚点
+esm.main_screen.btn.accept=确认
+esm.main_screen.btn.next_sounds=下一个声音
+esm.main_screen.btn.previous_sounds=上一个声音
+esm.main_screen.btn.anchors.disabled=锚点已禁用！
+esm.main_screen.btn.anchors.set_message=先设置锚点
+esm.main_screen.btn.anchors.set=设置锚点
+esm.main_screen.btn.anchors.set_range=范围：1 - 32
+esm.main_screen.btn.anchors.set_title=更改锚点标题
+esm.main_screen.btn.anchors.edit=编辑锚点
+esm.main_screen_btn.clear_recent=清除最近播放的声音列表
+esm.main_screen_btn.search=搜索
+
+esm.main_screen.main_title=ESM - 主界面
+esm.main_screen.tip=提示：%s
+
+esm.main_screen.side_screen.radius=半径：%s
+esm.main_screen.side_screen.dimension=维度：%s
+esm.main_screen.side_screen.title=称号：
+esm.main_screen.side_screen.radius_edit=半径：
+
+esm.tip.disable=你可以在配置中禁用这些提示。
+esm.tip.change_volume=您可以通过拖动滑块来调整被阻挡声音的音量大小。
+esm.tip.inv_button=你可以按住CTRL键并用鼠标左键点击物品栏按钮，然后拖动它来移动位置。
+esm.tip.inv_button_disable=你可以在配置中禁用和启用物品栏界面上的消声按钮。
+esm.tip.play_sound=你可以按下对应的播放声音按钮即可播放任何声音。
+esm.tip.unmuffle=你可以点击“停止消声”按钮即可停止对所选声音的消声处理，再次点击该按钮可恢复消声功能。
+esm.tip.no_anchors=你可以在配置文件中禁用锚点。
+esm.tip.sound_blacklist=你可以在配置文件中将声音加入黑名单。
+esm.tip.left_buttons=你可以在配置中将消声和播放按钮的位置更改为左侧。
+esm.tip.dark_theme=你可以在配置中设置深色主题。
+esm.tip.use_anchors=锚点（顶部10个按钮）用于在选定区域内抑制声音。
+esm.tip.set_anchors=点击任意一个锚点按钮（带数字的按钮），然后点击右侧的标记状按钮来设置锚点位置。
+esm.tip.modify_anchors=设置好锚点后，你可以随时点击标记按钮来移动位置。
+esm.tip.modify_anchors_2=设置好位置后，你可以更改锚点的名称和范围。
+esm.tip.reset_recent_sounds=在“最近使用”音效界面按住Shift键并点击垃圾桶按钮，即可清空最近使用音效列表。
+
+esm.config.general.forbiddensounds=Forbidden Sounds
+esm.config.general.lawfulalllist=Lawful "ALL" List
+esm.config.general.defaultmutevolume=Default Mute Volume
+esm.config.general.leftbuttons=Left Side Buttons
+esm.config.general.showtip=Show Tips
+esm.config.general.usedarktheme=Use Dark Theme
+esm.config.general=General
+esm.config.inventory_button.disableinventorybutton=Disable Inventory Button
+esm.config.inventory_button.invbuttonx=Inventory Button X
+esm.config.inventory_button.invbuttony=Inventory Button Y
+esm.config.inventory_button=Inventory Button
+esm.config.anchors.disableanchors=Disable Anchors
+esm.config.anchors=Anchors

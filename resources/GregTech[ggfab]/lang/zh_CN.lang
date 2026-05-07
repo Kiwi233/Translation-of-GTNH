@@ -1,5 +1,3 @@
-ggfab.recipe.toolcast=工具铸造机
-
 ggfab.waila.advassline.slice=片#%s：%s s / %s s
 ggfab.waila.advassline.slice.small=片#%s：%s t / %s t
 ggfab.waila.advassline.slice.idle=片#%s：待机
@@ -9,7 +7,7 @@ ggfab.gui.advassline.slice.stuck=片#%s：§4堵塞
 ggfab.gui.advassline.slice.unknown=片#%s：?
 ggfab.gui.advassline.shutdown=§4上次异常关机原因：
 ggfab.gui.advassline.shutdown_clear=§6清除
-ggfab.gui.advassline.shutdown.input_busses=§4输入总线数量过少，无法支持当前配方
+ggfab.gui.advassline.shutdown.input_buses=§4输入总线数量不足，无法支持当前配方
 ggfab.gui.advassline.shutdown.recipe_null=§4配方为 null （报告给作者）
 ggfab.gui.advassline.shutdown.fluid_null=§4流体获取失败（检查你的ME流体存储）
 ggfab.gui.advassline.shutdown.structure=§4不兼容的结构变化

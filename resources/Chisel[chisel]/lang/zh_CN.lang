@@ -26,7 +26,7 @@ item.ballMoss.desc=右键丢出.若碰到圆石则使其变成苔石.
 item.cloudBottle.name=瓶装云朵
 item.cloudBottle.desc=右键丢出.可生成一大片云.
 item.smashingRock.name=碎石块
-item.smashingRock.desc=右键丢出.可使圆石变成砂砾;砂砾变为沙子.
+item.smashingRock.desc=右键丢出.可使圆石变成沙砾;沙砾变为沙子.
 item.upgrade.name=升级
 item.upgrade_speed.name=速度升级组件
 item.upgrade_automation.name=自动化升级组件
@@ -101,6 +101,12 @@ tile.diorite.3.desc=闪长岩砖块
 tile.diorite.4.desc=錾制闪长岩
 tile.diorite.5.desc=棱角闪长岩
 tile.diorite.6.desc=小方砖闪长岩
+tile.diorite.7.desc=Cobbled Diorite
+tile.diorite.8.desc=Mossy Diorite
+tile.diorite.9.desc=Modern Diorite
+tile.diorite.10.desc=Modern Polished Diorite
+tile.diorite.11.desc=Biotite-Rich Diorite
+tile.diorite.12.desc=Hornblende-Rich Diorite
 
 #Andesite
 tile.chisel.andesite.name=安山岩
@@ -111,6 +117,11 @@ tile.andesite.3.desc=安山岩砖块
 tile.andesite.4.desc=錾制安山岩
 tile.andesite.5.desc=棱角安山岩
 tile.andesite.6.desc=小方砖安山岩
+tile.andesite.7.desc=Cobbled Andesite
+tile.andesite.8.desc=Mossy Andesite
+tile.andesite.9.desc=Modern Andesite
+tile.andesite.10.desc=Modern Polished Andesite
+tile.andesite.11.desc=Weathered Andesite
 
 #Granite
 tile.chisel.granite.name=花岗岩
@@ -121,6 +132,11 @@ tile.granite.3.desc=花岗岩砖块
 tile.granite.4.desc=錾制花岗岩
 tile.granite.5.desc=棱角花岗岩
 tile.granite.6.desc=小方砖花岗岩
+tile.granite.7.desc=Cobbled Granite
+tile.granite.8.desc=Mossy Granite
+tile.granite.9.desc=Modern Granite
+tile.granite.10.desc=Modern Polished Granite
+tile.granite.11.desc=Granitic Mineral Sand
 
 #Auto Chisel
 tile.chisel.autoChisel.name=自动雕刻机
@@ -340,6 +356,516 @@ tile.grimstone.12.desc=抛光镶板阴森石
 tile.grimstone.13.desc=镶板阴森石
 tile.grimstone.14.desc=诡异阴森石
 
+#Hardened Clay (Terracotta)
+tile.chisel.hardened_clay.name=陶瓦
+tile.chisel.hardened_clay2.name=陶瓦
+tile.hardened_clay.0.desc=Braid Terracotta Bricks
+tile.hardened_clay.1.desc=Cracked Terracotta Bricks
+tile.hardened_clay.2.desc=Small Terracotta Brick Tiles
+tile.hardened_clay.3.desc=Small Terracotta Bricks
+tile.hardened_clay.4.desc=Aligned Terracotta Bricks
+tile.hardened_clay.5.desc=Detailed Terracotta Bricks
+tile.hardened_clay.6.desc=Wide Terracotta Bricks
+tile.hardened_clay.7.desc=Chaotic Small Terracotta Bricks
+tile.hardened_clay.8.desc=Small Disordered Terracotta Bricks
+tile.hardened_clay.9.desc=Ornate Terracotta
+tile.hardened_clay.10.desc=Cracked Terracotta
+tile.hardened_clay.11.desc=Sunken Terracotta Panel
+tile.hardened_clay.12.desc=Fancy Terracotta Bricks
+tile.hardened_clay.13.desc=Fancy Terracotta Tiles
+tile.hardened_clay.14.desc=Terracotta Layers
+tile.hardened_clay.15.desc=Terracotta Mosaic
+tile.hardened_clay.16.desc=Small Ornate Terracotta
+tile.hardened_clay.17.desc=Terracotta Large Tile
+tile.hardened_clay.18.desc=Terracotta Pillar
+tile.hardened_clay.19.desc=Prismatic Terracotta
+tile.hardened_clay.20.desc=Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay.21.desc=Terracotta Panel
+tile.hardened_clay.22.desc=Small Terracotta Blocks
+tile.hardened_clay.23.desc=Small Terracotta Tiles
+tile.hardened_clay.24.desc=Radial Carved Terracotta
+tile.hardened_clay.25.desc=Engraved Terracotta Block
+
+#Hardened Clay (Black Terracotta)
+tile.chisel.hardened_clay_black.name=Black Terracotta
+tile.chisel.hardened_clay_black2.name=Black Terracotta
+tile.hardened_clay_black.0.desc=Braid Black Terracotta Bricks
+tile.hardened_clay_black.1.desc=Cracked Black Terracotta Bricks
+tile.hardened_clay_black.2.desc=Small Black Terracotta Brick Tiles
+tile.hardened_clay_black.3.desc=Small Black Terracotta Bricks
+tile.hardened_clay_black.4.desc=Aligned Black Terracotta Bricks
+tile.hardened_clay_black.5.desc=Detailed Black Terracotta Bricks
+tile.hardened_clay_black.6.desc=Wide Black Terracotta Bricks
+tile.hardened_clay_black.7.desc=Chaotic Small Black Terracotta Bricks
+tile.hardened_clay_black.8.desc=Small Disordered Black Terracotta Bricks
+tile.hardened_clay_black.9.desc=Ornate Black Terracotta
+tile.hardened_clay_black.10.desc=Cracked Black Terracotta
+tile.hardened_clay_black.11.desc=Sunken Black Terracotta Panel
+tile.hardened_clay_black.12.desc=Fancy Black Terracotta Bricks
+tile.hardened_clay_black.13.desc=Fancy Black Terracotta Tiles
+tile.hardened_clay_black.14.desc=Black Terracotta Layers
+tile.hardened_clay_black.15.desc=Black Terracotta Mosaic
+tile.hardened_clay_black.16.desc=Small Ornate Black Terracotta
+tile.hardened_clay_black.17.desc=Black Terracotta Large Tile
+tile.hardened_clay_black.18.desc=Black Terracotta Pillar
+tile.hardened_clay_black.19.desc=Prismatic Black Terracotta
+tile.hardened_clay_black.20.desc=Black Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_black.21.desc=Black Terracotta Panel
+tile.hardened_clay_black.22.desc=Small Black Terracotta Blocks
+tile.hardened_clay_black.23.desc=Small Black Terracotta Tiles
+tile.hardened_clay_black.24.desc=Radial Carved Black Terracotta
+tile.hardened_clay_black.25.desc=Engraved Black Terracotta Block
+
+#Hardened Clay (Blue Terracotta)
+tile.chisel.hardened_clay_blue.name=Blue Terracotta
+tile.chisel.hardened_clay_blue2.name=Blue Terracotta
+tile.hardened_clay_blue.0.desc=Braid Blue Terracotta Bricks
+tile.hardened_clay_blue.1.desc=Cracked Blue Terracotta Bricks
+tile.hardened_clay_blue.2.desc=Small Blue Terracotta Brick Tiles
+tile.hardened_clay_blue.3.desc=Small Blue Terracotta Bricks
+tile.hardened_clay_blue.4.desc=Aligned Blue Terracotta Bricks
+tile.hardened_clay_blue.5.desc=Detailed Blue Terracotta Bricks
+tile.hardened_clay_blue.6.desc=Wide Blue Terracotta Bricks
+tile.hardened_clay_blue.7.desc=Chaotic Small Blue Terracotta Bricks
+tile.hardened_clay_blue.8.desc=Small Disordered Blue Terracotta Bricks
+tile.hardened_clay_blue.9.desc=Ornate Blue Terracotta
+tile.hardened_clay_blue.10.desc=Cracked Blue Terracotta
+tile.hardened_clay_blue.11.desc=Sunken Blue Terracotta Panel
+tile.hardened_clay_blue.12.desc=Fancy Blue Terracotta Bricks
+tile.hardened_clay_blue.13.desc=Fancy Blue Terracotta Tiles
+tile.hardened_clay_blue.14.desc=Blue Terracotta Layers
+tile.hardened_clay_blue.15.desc=Blue Terracotta Mosaic
+tile.hardened_clay_blue.16.desc=Small Ornate Blue Terracotta
+tile.hardened_clay_blue.17.desc=Blue Terracotta Large Tile
+tile.hardened_clay_blue.18.desc=Blue Terracotta Pillar
+tile.hardened_clay_blue.19.desc=Prismatic Blue Terracotta
+tile.hardened_clay_blue.20.desc=Blue Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_blue.21.desc=Blue Terracotta Panel
+tile.hardened_clay_blue.22.desc=Small Blue Terracotta Blocks
+tile.hardened_clay_blue.23.desc=Small Blue Terracotta Tiles
+tile.hardened_clay_blue.24.desc=Radial Carved Blue Terracotta
+tile.hardened_clay_blue.25.desc=Engraved Blue Terracotta Block
+
+#Hardened Clay (Brown Terracotta)
+tile.chisel.hardened_clay_brown.name=Brown Terracotta
+tile.chisel.hardened_clay_brown2.name=Brown Terracotta
+tile.hardened_clay_brown.0.desc=Braid Brown Terracotta Bricks
+tile.hardened_clay_brown.1.desc=Cracked Brown Terracotta Bricks
+tile.hardened_clay_brown.2.desc=Small Brown Terracotta Brick Tiles
+tile.hardened_clay_brown.3.desc=Small Brown Terracotta Bricks
+tile.hardened_clay_brown.4.desc=Aligned Brown Terracotta Bricks
+tile.hardened_clay_brown.5.desc=Detailed Brown Terracotta Bricks
+tile.hardened_clay_brown.6.desc=Wide Brown Terracotta Bricks
+tile.hardened_clay_brown.7.desc=Chaotic Small Brown Terracotta Bricks
+tile.hardened_clay_brown.8.desc=Small Disordered Brown Terracotta Bricks
+tile.hardened_clay_brown.9.desc=Ornate Brown Terracotta
+tile.hardened_clay_brown.10.desc=Cracked Brown Terracotta
+tile.hardened_clay_brown.11.desc=Sunken Brown Terracotta Panel
+tile.hardened_clay_brown.12.desc=Fancy Brown Terracotta Bricks
+tile.hardened_clay_brown.13.desc=Fancy Brown Terracotta Tiles
+tile.hardened_clay_brown.14.desc=Brown Terracotta Layers
+tile.hardened_clay_brown.15.desc=Brown Terracotta Mosaic
+tile.hardened_clay_brown.16.desc=Small Ornate Brown Terracotta
+tile.hardened_clay_brown.17.desc=Brown Terracotta Large Tile
+tile.hardened_clay_brown.18.desc=Brown Terracotta Pillar
+tile.hardened_clay_brown.19.desc=Prismatic Brown Terracotta
+tile.hardened_clay_brown.20.desc=Brown Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_brown.21.desc=Brown Terracotta Panel
+tile.hardened_clay_brown.22.desc=Small Brown Terracotta Blocks
+tile.hardened_clay_brown.23.desc=Small Brown Terracotta Tiles
+tile.hardened_clay_brown.24.desc=Radial Carved Brown Terracotta
+tile.hardened_clay_brown.25.desc=Engraved Brown Terracotta Block
+
+#Hardened Clay (Cyan Terracotta)
+tile.chisel.hardened_clay_cyan.name=Cyan Terracotta
+tile.chisel.hardened_clay_cyan2.name=Cyan Terracotta
+tile.hardened_clay_cyan.0.desc=Braid Cyan Terracotta Bricks
+tile.hardened_clay_cyan.1.desc=Cracked Cyan Terracotta Bricks
+tile.hardened_clay_cyan.2.desc=Small Cyan Terracotta Brick Tiles
+tile.hardened_clay_cyan.3.desc=Small Cyan Terracotta Bricks
+tile.hardened_clay_cyan.4.desc=Aligned Cyan Terracotta Bricks
+tile.hardened_clay_cyan.5.desc=Detailed Cyan Terracotta Bricks
+tile.hardened_clay_cyan.6.desc=Wide Cyan Terracotta Bricks
+tile.hardened_clay_cyan.7.desc=Chaotic Small Cyan Terracotta Bricks
+tile.hardened_clay_cyan.8.desc=Small Disordered Cyan Terracotta Bricks
+tile.hardened_clay_cyan.9.desc=Ornate Cyan Terracotta
+tile.hardened_clay_cyan.10.desc=Cracked Cyan Terracotta
+tile.hardened_clay_cyan.11.desc=Sunken Cyan Terracotta Panel
+tile.hardened_clay_cyan.12.desc=Fancy Cyan Terracotta Bricks
+tile.hardened_clay_cyan.13.desc=Fancy Cyan Terracotta Tiles
+tile.hardened_clay_cyan.14.desc=Cyan Terracotta Layers
+tile.hardened_clay_cyan.15.desc=Cyan Terracotta Mosaic
+tile.hardened_clay_cyan.16.desc=Small Ornate Cyan Terracotta
+tile.hardened_clay_cyan.17.desc=Cyan Terracotta Large Tile
+tile.hardened_clay_cyan.18.desc=Cyan Terracotta Pillar
+tile.hardened_clay_cyan.19.desc=Prismatic Cyan Terracotta
+tile.hardened_clay_cyan.20.desc=Cyan Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_cyan.21.desc=Cyan Terracotta Panel
+tile.hardened_clay_cyan.22.desc=Small Cyan Terracotta Blocks
+tile.hardened_clay_cyan.23.desc=Small Cyan Terracotta Tiles
+tile.hardened_clay_cyan.24.desc=Radial Carved Cyan Terracotta
+tile.hardened_clay_cyan.25.desc=Engraved Cyan Terracotta Block
+
+#Hardened Clay (Gray Terracotta)
+tile.chisel.hardened_clay_gray.name=Gray Terracotta
+tile.chisel.hardened_clay_gray2.name=Gray Terracotta
+tile.hardened_clay_gray.0.desc=Braid Gray Terracotta Bricks
+tile.hardened_clay_gray.1.desc=Cracked Gray Terracotta Bricks
+tile.hardened_clay_gray.2.desc=Small Gray Terracotta Brick Tiles
+tile.hardened_clay_gray.3.desc=Small Gray Terracotta Bricks
+tile.hardened_clay_gray.4.desc=Aligned Gray Terracotta Bricks
+tile.hardened_clay_gray.5.desc=Detailed Gray Terracotta Bricks
+tile.hardened_clay_gray.6.desc=Wide Gray Terracotta Bricks
+tile.hardened_clay_gray.7.desc=Chaotic Small Gray Terracotta Bricks
+tile.hardened_clay_gray.8.desc=Small Disordered Gray Terracotta Bricks
+tile.hardened_clay_gray.9.desc=Ornate Gray Terracotta
+tile.hardened_clay_gray.10.desc=Cracked Gray Terracotta
+tile.hardened_clay_gray.11.desc=Sunken Gray Terracotta Panel
+tile.hardened_clay_gray.12.desc=Fancy Gray Terracotta Bricks
+tile.hardened_clay_gray.13.desc=Fancy Gray Terracotta Tiles
+tile.hardened_clay_gray.14.desc=Gray Terracotta Layers
+tile.hardened_clay_gray.15.desc=Gray Terracotta Mosaic
+tile.hardened_clay_gray.16.desc=Small Ornate Gray Terracotta
+tile.hardened_clay_gray.17.desc=Gray Terracotta Large Tile
+tile.hardened_clay_gray.18.desc=Gray Terracotta Pillar
+tile.hardened_clay_gray.19.desc=Prismatic Gray Terracotta
+tile.hardened_clay_gray.20.desc=Gray Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_gray.21.desc=Gray Terracotta Panel
+tile.hardened_clay_gray.22.desc=Small Gray Terracotta Blocks
+tile.hardened_clay_gray.23.desc=Small Gray Terracotta Tiles
+tile.hardened_clay_gray.24.desc=Radial Carved Gray Terracotta
+tile.hardened_clay_gray.25.desc=Engraved Gray Terracotta Block
+
+#Hardened Clay (Green Terracotta)
+tile.chisel.hardened_clay_green.name=Green Terracotta
+tile.chisel.hardened_clay_green2.name=Green Terracotta
+tile.hardened_clay_green.0.desc=Braid Green Terracotta Bricks
+tile.hardened_clay_green.1.desc=Cracked Green Terracotta Bricks
+tile.hardened_clay_green.2.desc=Small Green Terracotta Brick Tiles
+tile.hardened_clay_green.3.desc=Small Green Terracotta Bricks
+tile.hardened_clay_green.4.desc=Aligned Green Terracotta Bricks
+tile.hardened_clay_green.5.desc=Detailed Green Terracotta Bricks
+tile.hardened_clay_green.6.desc=Wide Green Terracotta Bricks
+tile.hardened_clay_green.7.desc=Chaotic Small Green Terracotta Bricks
+tile.hardened_clay_green.8.desc=Small Disordered Green Terracotta Bricks
+tile.hardened_clay_green.9.desc=Ornate Green Terracotta
+tile.hardened_clay_green.10.desc=Cracked Green Terracotta
+tile.hardened_clay_green.11.desc=Sunken Green Terracotta Panel
+tile.hardened_clay_green.12.desc=Fancy Green Terracotta Bricks
+tile.hardened_clay_green.13.desc=Fancy Green Terracotta Tiles
+tile.hardened_clay_green.14.desc=Green Terracotta Layers
+tile.hardened_clay_green.15.desc=Green Terracotta Mosaic
+tile.hardened_clay_green.16.desc=Small Ornate Green Terracotta
+tile.hardened_clay_green.17.desc=Green Terracotta Large Tile
+tile.hardened_clay_green.18.desc=Green Terracotta Pillar
+tile.hardened_clay_green.19.desc=Prismatic Green Terracotta
+tile.hardened_clay_green.20.desc=Green Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_green.21.desc=Green Terracotta Panel
+tile.hardened_clay_green.22.desc=Small Green Terracotta Blocks
+tile.hardened_clay_green.23.desc=Small Green Terracotta Tiles
+tile.hardened_clay_green.24.desc=Radial Carved Green Terracotta
+tile.hardened_clay_green.25.desc=Engraved Green Terracotta Block
+
+#Hardened Clay (Light Blue Terracotta)
+tile.chisel.hardened_clay_lightblue.name=Light Blue Terracotta
+tile.chisel.hardened_clay_lightblue2.name=Light Blue Terracotta
+tile.hardened_clay_lightblue.0.desc=Braid Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.1.desc=Cracked Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.2.desc=Small Light Blue Terracotta Brick Tiles
+tile.hardened_clay_lightblue.3.desc=Small Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.4.desc=Aligned Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.5.desc=Detailed Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.6.desc=Wide Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.7.desc=Chaotic Small Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.8.desc=Small Disordered Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.9.desc=Ornate Light Blue Terracotta
+tile.hardened_clay_lightblue.10.desc=Cracked Light Blue Terracotta
+tile.hardened_clay_lightblue.11.desc=Sunken Light Blue Terracotta Panel
+tile.hardened_clay_lightblue.12.desc=Fancy Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.13.desc=Fancy Light Blue Terracotta Tiles
+tile.hardened_clay_lightblue.14.desc=Light Blue Terracotta Layers
+tile.hardened_clay_lightblue.15.desc=Light Blue Terracotta Mosaic
+tile.hardened_clay_lightblue.16.desc=Small Ornate Light Blue Terracotta
+tile.hardened_clay_lightblue.17.desc=Light Blue Terracotta Large Tile
+tile.hardened_clay_lightblue.18.desc=Light Blue Terracotta Pillar
+tile.hardened_clay_lightblue.19.desc=Prismatic Light Blue Terracotta
+tile.hardened_clay_lightblue.20.desc=Light Blue Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_lightblue.21.desc=Light Blue Terracotta Panel
+tile.hardened_clay_lightblue.22.desc=Small Light Blue Terracotta Blocks
+tile.hardened_clay_lightblue.23.desc=Small Light Blue Terracotta Tiles
+tile.hardened_clay_lightblue.24.desc=Radial Carved Light Blue Terracotta
+tile.hardened_clay_lightblue.25.desc=Engraved Light Blue Terracotta Block
+
+#Hardened Clay (Light Gray Terracotta)
+tile.chisel.hardened_clay_lightgray.name=Light Gray Terracotta
+tile.chisel.hardened_clay_lightgray2.name=Light Gray Terracotta
+tile.hardened_clay_lightgray.0.desc=Braid Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.1.desc=Cracked Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.2.desc=Small Light Gray Terracotta Brick Tiles
+tile.hardened_clay_lightgray.3.desc=Small Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.4.desc=Aligned Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.5.desc=Detailed Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.6.desc=Wide Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.7.desc=Chaotic Small Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.8.desc=Small Disordered Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.9.desc=Ornate Light Gray Terracotta
+tile.hardened_clay_lightgray.10.desc=Cracked Light Gray Terracotta
+tile.hardened_clay_lightgray.11.desc=Sunken Light Gray Terracotta Panel
+tile.hardened_clay_lightgray.12.desc=Fancy Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.13.desc=Fancy Light Gray Terracotta Tiles
+tile.hardened_clay_lightgray.14.desc=Light Gray Terracotta Layers
+tile.hardened_clay_lightgray.15.desc=Light Gray Terracotta Mosaic
+tile.hardened_clay_lightgray.16.desc=Small Ornate Light Gray Terracotta
+tile.hardened_clay_lightgray.17.desc=Light Gray Terracotta Large Tile
+tile.hardened_clay_lightgray.18.desc=Light Gray Terracotta Pillar
+tile.hardened_clay_lightgray.19.desc=Prismatic Light Gray Terracotta
+tile.hardened_clay_lightgray.20.desc=Light Gray Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_lightgray.21.desc=Light Gray Terracotta Panel
+tile.hardened_clay_lightgray.22.desc=Small Light Gray Terracotta Blocks
+tile.hardened_clay_lightgray.23.desc=Small Light Gray Terracotta Tiles
+tile.hardened_clay_lightgray.24.desc=Radial Carved Light Gray Terracotta
+tile.hardened_clay_lightgray.25.desc=Engraved Light Gray Terracotta Block
+
+#Hardened Clay (Lime Terracotta)
+tile.chisel.hardened_clay_lime.name=Lime Terracotta
+tile.chisel.hardened_clay_lime2.name=Lime Terracotta
+tile.hardened_clay_lime.0.desc=Braid Lime Terracotta Bricks
+tile.hardened_clay_lime.1.desc=Cracked Lime Terracotta Bricks
+tile.hardened_clay_lime.2.desc=Small Lime Terracotta Brick Tiles
+tile.hardened_clay_lime.3.desc=Small Lime Terracotta Bricks
+tile.hardened_clay_lime.4.desc=Aligned Lime Terracotta Bricks
+tile.hardened_clay_lime.5.desc=Detailed Lime Terracotta Bricks
+tile.hardened_clay_lime.6.desc=Wide Lime Terracotta Bricks
+tile.hardened_clay_lime.7.desc=Chaotic Small Lime Terracotta Bricks
+tile.hardened_clay_lime.8.desc=Small Disordered Lime Terracotta Bricks
+tile.hardened_clay_lime.9.desc=Ornate Lime Terracotta
+tile.hardened_clay_lime.10.desc=Cracked Lime Terracotta
+tile.hardened_clay_lime.11.desc=Sunken Lime Terracotta Panel
+tile.hardened_clay_lime.12.desc=Fancy Lime Terracotta Bricks
+tile.hardened_clay_lime.13.desc=Fancy Lime Terracotta Tiles
+tile.hardened_clay_lime.14.desc=Lime Terracotta Layers
+tile.hardened_clay_lime.15.desc=Lime Terracotta Mosaic
+tile.hardened_clay_lime.16.desc=Small Ornate Lime Terracotta
+tile.hardened_clay_lime.17.desc=Lime Terracotta Large Tile
+tile.hardened_clay_lime.18.desc=Lime Terracotta Pillar
+tile.hardened_clay_lime.19.desc=Prismatic Lime Terracotta
+tile.hardened_clay_lime.20.desc=Lime Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_lime.21.desc=Lime Terracotta Panel
+tile.hardened_clay_lime.22.desc=Small Lime Terracotta Blocks
+tile.hardened_clay_lime.23.desc=Small Lime Terracotta Tiles
+tile.hardened_clay_lime.24.desc=Radial Carved Lime Terracotta
+tile.hardened_clay_lime.25.desc=Engraved Lime Terracotta Block
+
+#Hardened Clay (Magenta Terracotta)
+tile.chisel.hardened_clay_magenta.name=Magenta Terracotta
+tile.chisel.hardened_clay_magenta2.name=Magenta Terracotta
+tile.hardened_clay_magenta.0.desc=Braid Magenta Terracotta Bricks
+tile.hardened_clay_magenta.1.desc=Cracked Magenta Terracotta Bricks
+tile.hardened_clay_magenta.2.desc=Small Magenta Terracotta Brick Tiles
+tile.hardened_clay_magenta.3.desc=Small Magenta Terracotta Bricks
+tile.hardened_clay_magenta.4.desc=Aligned Magenta Terracotta Bricks
+tile.hardened_clay_magenta.5.desc=Detailed Magenta Terracotta Bricks
+tile.hardened_clay_magenta.6.desc=Wide Magenta Terracotta Bricks
+tile.hardened_clay_magenta.7.desc=Chaotic Small Magenta Terracotta Bricks
+tile.hardened_clay_magenta.8.desc=Small Disordered Magenta Terracotta Bricks
+tile.hardened_clay_magenta.9.desc=Ornate Magenta Terracotta
+tile.hardened_clay_magenta.10.desc=Cracked Magenta Terracotta
+tile.hardened_clay_magenta.11.desc=Sunken Magenta Terracotta Panel
+tile.hardened_clay_magenta.12.desc=Fancy Magenta Terracotta Bricks
+tile.hardened_clay_magenta.13.desc=Fancy Magenta Terracotta Tiles
+tile.hardened_clay_magenta.14.desc=Magenta Terracotta Layers
+tile.hardened_clay_magenta.15.desc=Magenta Terracotta Mosaic
+tile.hardened_clay_magenta.16.desc=Small Ornate Magenta Terracotta
+tile.hardened_clay_magenta.17.desc=Magenta Terracotta Large Tile
+tile.hardened_clay_magenta.18.desc=Magenta Terracotta Pillar
+tile.hardened_clay_magenta.19.desc=Prismatic Magenta Terracotta
+tile.hardened_clay_magenta.20.desc=Magenta Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_magenta.21.desc=Magenta Terracotta Panel
+tile.hardened_clay_magenta.22.desc=Small Magenta Terracotta Blocks
+tile.hardened_clay_magenta.23.desc=Small Magenta Terracotta Tiles
+tile.hardened_clay_magenta.24.desc=Radial Carved Magenta Terracotta
+tile.hardened_clay_magenta.25.desc=Engraved Magenta Terracotta Block
+
+#Hardened Clay (Orange Terracotta)
+tile.chisel.hardened_clay_orange.name=Orange Terracotta
+tile.chisel.hardened_clay_orange2.name=Orange Terracotta
+tile.hardened_clay_orange.0.desc=Braid Orange Terracotta Bricks
+tile.hardened_clay_orange.1.desc=Cracked Orange Terracotta Bricks
+tile.hardened_clay_orange.2.desc=Small Orange Terracotta Brick Tiles
+tile.hardened_clay_orange.3.desc=Small Orange Terracotta Bricks
+tile.hardened_clay_orange.4.desc=Aligned Orange Terracotta Bricks
+tile.hardened_clay_orange.5.desc=Detailed Orange Terracotta Bricks
+tile.hardened_clay_orange.6.desc=Wide Orange Terracotta Bricks
+tile.hardened_clay_orange.7.desc=Chaotic Small Orange Terracotta Bricks
+tile.hardened_clay_orange.8.desc=Small Disordered Orange Terracotta Bricks
+tile.hardened_clay_orange.9.desc=Ornate Orange Terracotta
+tile.hardened_clay_orange.10.desc=Cracked Orange Terracotta
+tile.hardened_clay_orange.11.desc=Sunken Orange Terracotta Panel
+tile.hardened_clay_orange.12.desc=Fancy Orange Terracotta Bricks
+tile.hardened_clay_orange.13.desc=Fancy Orange Terracotta Tiles
+tile.hardened_clay_orange.14.desc=Orange Terracotta Layers
+tile.hardened_clay_orange.15.desc=Orange Terracotta Mosaic
+tile.hardened_clay_orange.16.desc=Small Ornate Orange Terracotta
+tile.hardened_clay_orange.17.desc=Orange Terracotta Large Tile
+tile.hardened_clay_orange.18.desc=Orange Terracotta Pillar
+tile.hardened_clay_orange.19.desc=Prismatic Orange Terracotta
+tile.hardened_clay_orange.20.desc=Orange Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_orange.21.desc=Orange Terracotta Panel
+tile.hardened_clay_orange.22.desc=Small Orange Terracotta Blocks
+tile.hardened_clay_orange.23.desc=Small Orange Terracotta Tiles
+tile.hardened_clay_orange.24.desc=Radial Carved Orange Terracotta
+tile.hardened_clay_orange.25.desc=Engraved Orange Terracotta Block
+
+#Hardened Clay (Pink Terracotta)
+tile.chisel.hardened_clay_pink.name=Pink Terracotta
+tile.chisel.hardened_clay_pink2.name=Pink Terracotta
+tile.hardened_clay_pink.0.desc=Braid Pink Terracotta Bricks
+tile.hardened_clay_pink.1.desc=Cracked Pink Terracotta Bricks
+tile.hardened_clay_pink.2.desc=Small Pink Terracotta Brick Tiles
+tile.hardened_clay_pink.3.desc=Small Pink Terracotta Bricks
+tile.hardened_clay_pink.4.desc=Aligned Pink Terracotta Bricks
+tile.hardened_clay_pink.5.desc=Detailed Pink Terracotta Bricks
+tile.hardened_clay_pink.6.desc=Wide Pink Terracotta Bricks
+tile.hardened_clay_pink.7.desc=Chaotic Small Pink Terracotta Bricks
+tile.hardened_clay_pink.8.desc=Small Disordered Pink Terracotta Bricks
+tile.hardened_clay_pink.9.desc=Ornate Pink Terracotta
+tile.hardened_clay_pink.10.desc=Cracked Pink Terracotta
+tile.hardened_clay_pink.11.desc=Sunken Pink Terracotta Panel
+tile.hardened_clay_pink.12.desc=Fancy Pink Terracotta Bricks
+tile.hardened_clay_pink.13.desc=Fancy Pink Terracotta Tiles
+tile.hardened_clay_pink.14.desc=Pink Terracotta Layers
+tile.hardened_clay_pink.15.desc=Pink Terracotta Mosaic
+tile.hardened_clay_pink.16.desc=Small Ornate Pink Terracotta
+tile.hardened_clay_pink.17.desc=Pink Terracotta Large Tile
+tile.hardened_clay_pink.18.desc=Pink Terracotta Pillar
+tile.hardened_clay_pink.19.desc=Prismatic Pink Terracotta
+tile.hardened_clay_pink.20.desc=Pink Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_pink.21.desc=Pink Terracotta Panel
+tile.hardened_clay_pink.22.desc=Small Pink Terracotta Blocks
+tile.hardened_clay_pink.23.desc=Small Pink Terracotta Tiles
+tile.hardened_clay_pink.24.desc=Radial Carved Pink Terracotta
+tile.hardened_clay_pink.25.desc=Engraved Pink Terracotta Block
+
+#Hardened Clay (Purple Terracotta)
+tile.chisel.hardened_clay_purple.name=Purple Terracotta
+tile.chisel.hardened_clay_purple2.name=Purple Terracotta
+tile.hardened_clay_purple.0.desc=Braid Purple Terracotta Bricks
+tile.hardened_clay_purple.1.desc=Cracked Purple Terracotta Bricks
+tile.hardened_clay_purple.2.desc=Small Purple Terracotta Brick Tiles
+tile.hardened_clay_purple.3.desc=Small Purple Terracotta Bricks
+tile.hardened_clay_purple.4.desc=Aligned Purple Terracotta Bricks
+tile.hardened_clay_purple.5.desc=Detailed Purple Terracotta Bricks
+tile.hardened_clay_purple.6.desc=Wide Purple Terracotta Bricks
+tile.hardened_clay_purple.7.desc=Chaotic Small Purple Terracotta Bricks
+tile.hardened_clay_purple.8.desc=Small Disordered Purple Terracotta Bricks
+tile.hardened_clay_purple.9.desc=Ornate Purple Terracotta
+tile.hardened_clay_purple.10.desc=Cracked Purple Terracotta
+tile.hardened_clay_purple.11.desc=Sunken Purple Terracotta Panel
+tile.hardened_clay_purple.12.desc=Fancy Purple Terracotta Bricks
+tile.hardened_clay_purple.13.desc=Fancy Purple Terracotta Tiles
+tile.hardened_clay_purple.14.desc=Purple Terracotta Layers
+tile.hardened_clay_purple.15.desc=Purple Terracotta Mosaic
+tile.hardened_clay_purple.16.desc=Small Ornate Purple Terracotta
+tile.hardened_clay_purple.17.desc=Purple Terracotta Large Tile
+tile.hardened_clay_purple.18.desc=Purple Terracotta Pillar
+tile.hardened_clay_purple.19.desc=Prismatic Purple Terracotta
+tile.hardened_clay_purple.20.desc=Purple Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_purple.21.desc=Purple Terracotta Panel
+tile.hardened_clay_purple.22.desc=Small Purple Terracotta Blocks
+tile.hardened_clay_purple.23.desc=Small Purple Terracotta Tiles
+tile.hardened_clay_purple.24.desc=Radial Carved Purple Terracotta
+tile.hardened_clay_purple.25.desc=Engraved Purple Terracotta Block
+
+#Hardened Clay (Red Terracotta)
+tile.chisel.hardened_clay_red.name=Red Terracotta
+tile.chisel.hardened_clay_red2.name=Red Terracotta
+tile.hardened_clay_red.0.desc=Braid Red Terracotta Bricks
+tile.hardened_clay_red.1.desc=Cracked Red Terracotta Bricks
+tile.hardened_clay_red.2.desc=Small Red Terracotta Brick Tiles
+tile.hardened_clay_red.3.desc=Small Red Terracotta Bricks
+tile.hardened_clay_red.4.desc=Aligned Red Terracotta Bricks
+tile.hardened_clay_red.5.desc=Detailed Red Terracotta Bricks
+tile.hardened_clay_red.6.desc=Wide Red Terracotta Bricks
+tile.hardened_clay_red.7.desc=Chaotic Small Red Terracotta Bricks
+tile.hardened_clay_red.8.desc=Small Disordered Red Terracotta Bricks
+tile.hardened_clay_red.9.desc=Ornate Red Terracotta
+tile.hardened_clay_red.10.desc=Cracked Red Terracotta
+tile.hardened_clay_red.11.desc=Sunken Red Terracotta Panel
+tile.hardened_clay_red.12.desc=Fancy Red Terracotta Bricks
+tile.hardened_clay_red.13.desc=Fancy Red Terracotta Tiles
+tile.hardened_clay_red.14.desc=Red Terracotta Layers
+tile.hardened_clay_red.15.desc=Red Terracotta Mosaic
+tile.hardened_clay_red.16.desc=Small Ornate Red Terracotta
+tile.hardened_clay_red.17.desc=Red Terracotta Large Tile
+tile.hardened_clay_red.18.desc=Red Terracotta Pillar
+tile.hardened_clay_red.19.desc=Prismatic Red Terracotta
+tile.hardened_clay_red.20.desc=Red Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_red.21.desc=Red Terracotta Panel
+tile.hardened_clay_red.22.desc=Small Red Terracotta Blocks
+tile.hardened_clay_red.23.desc=Small Red Terracotta Tiles
+tile.hardened_clay_red.24.desc=Radial Carved Red Terracotta
+tile.hardened_clay_red.25.desc=Engraved Red Terracotta Block
+
+#Hardened Clay (White Terracotta)
+tile.chisel.hardened_clay_white.name=White Terracotta
+tile.chisel.hardened_clay_white2.name=White Terracotta
+tile.hardened_clay_white.0.desc=Braid White Terracotta Bricks
+tile.hardened_clay_white.1.desc=Cracked White Terracotta Bricks
+tile.hardened_clay_white.2.desc=Small White Terracotta Brick Tiles
+tile.hardened_clay_white.3.desc=Small White Terracotta Bricks
+tile.hardened_clay_white.4.desc=Aligned White Terracotta Bricks
+tile.hardened_clay_white.5.desc=Detailed White Terracotta Bricks
+tile.hardened_clay_white.6.desc=Wide White Terracotta Bricks
+tile.hardened_clay_white.7.desc=Chaotic Small White Terracotta Bricks
+tile.hardened_clay_white.8.desc=Small Disordered White Terracotta Bricks
+tile.hardened_clay_white.9.desc=Ornate White Terracotta
+tile.hardened_clay_white.10.desc=Cracked White Terracotta
+tile.hardened_clay_white.11.desc=Sunken White Terracotta Panel
+tile.hardened_clay_white.12.desc=Fancy White Terracotta Bricks
+tile.hardened_clay_white.13.desc=Fancy White Terracotta Tiles
+tile.hardened_clay_white.14.desc=White Terracotta Layers
+tile.hardened_clay_white.15.desc=White Terracotta Mosaic
+tile.hardened_clay_white.16.desc=Small Ornate White Terracotta
+tile.hardened_clay_white.17.desc=White Terracotta Large Tile
+tile.hardened_clay_white.18.desc=White Terracotta Pillar
+tile.hardened_clay_white.19.desc=Prismatic White Terracotta
+tile.hardened_clay_white.20.desc=White Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_white.21.desc=White Terracotta Panel
+tile.hardened_clay_white.22.desc=Small White Terracotta Blocks
+tile.hardened_clay_white.23.desc=Small White Terracotta Tiles
+tile.hardened_clay_white.24.desc=Radial Carved White Terracotta
+tile.hardened_clay_white.25.desc=Engraved White Terracotta Block
+
+#Hardened Clay (Yellow Terracotta)
+tile.chisel.hardened_clay_yellow.name=Yellow Terracotta
+tile.chisel.hardened_clay_yellow2.name=Yellow Terracotta
+tile.hardened_clay_yellow.0.desc=Braid Yellow Terracotta Bricks
+tile.hardened_clay_yellow.1.desc=Cracked Yellow Terracotta Bricks
+tile.hardened_clay_yellow.2.desc=Small Yellow Terracotta Brick Tiles
+tile.hardened_clay_yellow.3.desc=Small Yellow Terracotta Bricks
+tile.hardened_clay_yellow.4.desc=Aligned Yellow Terracotta Bricks
+tile.hardened_clay_yellow.5.desc=Detailed Yellow Terracotta Bricks
+tile.hardened_clay_yellow.6.desc=Wide Yellow Terracotta Bricks
+tile.hardened_clay_yellow.7.desc=Chaotic Small Yellow Terracotta Bricks
+tile.hardened_clay_yellow.8.desc=Small Disordered Yellow Terracotta Bricks
+tile.hardened_clay_yellow.9.desc=Ornate Yellow Terracotta
+tile.hardened_clay_yellow.10.desc=Cracked Yellow Terracotta
+tile.hardened_clay_yellow.11.desc=Sunken Yellow Terracotta Panel
+tile.hardened_clay_yellow.12.desc=Fancy Yellow Terracotta Bricks
+tile.hardened_clay_yellow.13.desc=Fancy Yellow Terracotta Tiles
+tile.hardened_clay_yellow.14.desc=Yellow Terracotta Layers
+tile.hardened_clay_yellow.15.desc=Yellow Terracotta Mosaic
+tile.hardened_clay_yellow.16.desc=Small Ornate Yellow Terracotta
+tile.hardened_clay_yellow.17.desc=Yellow Terracotta Large Tile
+tile.hardened_clay_yellow.18.desc=Yellow Terracotta Pillar
+tile.hardened_clay_yellow.19.desc=Prismatic Yellow Terracotta
+tile.hardened_clay_yellow.20.desc=Yellow Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_yellow.21.desc=Yellow Terracotta Panel
+tile.hardened_clay_yellow.22.desc=Small Yellow Terracotta Blocks
+tile.hardened_clay_yellow.23.desc=Small Yellow Terracotta Tiles
+tile.hardened_clay_yellow.24.desc=Radial Carved Yellow Terracotta
+tile.hardened_clay_yellow.25.desc=Engraved Yellow Terracotta Block
+
 #Technical Block
 tile.chisel.technical.name=工艺方块
 tile.chisel.technical2.name=简易工艺方块
@@ -371,6 +897,12 @@ tile.technical4.4.desc=热力排气镶板
 tile.technical4.5.desc=简易镶板
 tile.technical4.6.desc=黄粱管梦
 tile.technical4.7.desc=磨损混凝土
+tile.technical4.8.desc=水泥砖
+tile.technical4.9.desc=Cinder Block (Polished)
+tile.technical4.10.desc=Cinder Brick
+tile.technical4.11.desc=Cardboard Box
+tile.technical4.12.desc=Folded Cardboard
+tile.technical4.13.desc=Cardboard Scrap
 tile.technical4.16.desc=磁带机? (复读机?)
 
 #End Stone
@@ -433,11 +965,24 @@ tile.chisel.present.desc=一个精致漂亮的礼物箱子
 
 #Brick
 tile.chisel.brickCustom.name=砖块
+tile.chisel.brickCustom2.name=Brick Block
 tile.brickCustom.1.desc=大块红砖
 tile.brickCustom.2.desc=无灰泥砖块
 tile.brickCustom.3.desc=杂色砖块
+tile.brickCustom.4.desc=Oops! All Mortar!
 tile.brickCustom.5.desc=古老砖块
 tile.brickCustom.6.desc=黄砖砖块
+tile.brickCustom.7.desc=Brick Tile
+tile.brickCustom.8.desc=Brick Panel
+tile.brickCustom.9.desc=Brown Bricks
+tile.brickCustom.10.desc=Modern Bricks
+tile.brickCustom.11.desc=White Bricks
+tile.brickCustom.12.desc=Black Bricks
+tile.brickCustom.13.desc=Sooty Bricks
+tile.brickCustom.14.desc=Mossy Bricks
+tile.brickCustom.15.desc=Neutral Bricks
+tile.brickCustom2.0.desc=Left-Bordered Bricks
+tile.brickCustom2.1.desc=Right-Bordered Bricks
 
 #Chisel 1
 
@@ -708,6 +1253,7 @@ tile.diamond.9.desc=方砖钻石块
 tile.diamond.10.desc=精雕方砖钻石块
 tile.diamond.11.desc=塞尔达钻石块
 tile.diamond.12.desc=华丽金框钻石块
+tile.diamond.13.desc=Modern Diamond Block
 
 #Snakestone
 tile.chisel.snakestoneSand.name=蛇纹沙石
@@ -734,6 +1280,7 @@ tile.glass.15.desc=现代式铁格栅
 
 tile.chisel.glass2.name=玻璃
 tile.glass2.0.desc=非对称式格栅铅框玻璃
+tile.glass2.1.desc=Modern Glass
 
 #Sandstone
 tile.chisel.sandstone.name=沙石
@@ -777,6 +1324,44 @@ tile.concrete.8.desc=局部风化的混凝土
 tile.concrete.9.desc=局部风化的混凝土块
 tile.concrete.10.desc=沥青
 
+#Concrete Slabs
+tile.chisel.concrete_slab.name=Concrete Slab
+tile.concreteSlab.0.desc=Concrete Slab
+tile.concreteSlab.1.desc=Concrete Block Slab
+tile.concreteSlab.2.desc=Concrete Double Slab
+tile.concreteSlab.3.desc=Small Concrete Block Slab
+tile.concreteSlab.4.desc=Weathered Concrete Slab
+tile.concreteSlab.5.desc=Weathered Concrete Block Slab
+tile.concreteSlab.6.desc=Weathered Concrete Double Slab
+tile.concreteSlab.7.desc=Small Weathered Block Slab
+tile.concreteSlab.8.desc=Partly Weathered Concrete Slab
+tile.concreteSlab.9.desc=Partly Weathered Concrete Block Slab
+tile.concreteSlab.10.desc=Asphalt
+
+#Concrete Stairs
+#The same name goes here 8 different times since stairs take up 8 block positions.
+#Sorry!  It was the only way! Maybe one day it will be fixed...
+tile.chisel.concrete_stairs.0.name=Concrete Stairs
+tile.chisel.concrete_stairs.1.name=Concrete Stairs
+tile.chisel.concrete_stairs.2.name=Concrete Stairs
+tile.chisel.concrete_stairs.3.name=Concrete Stairs
+tile.chisel.concrete_stairs.4.name=Concrete Stairs
+tile.chisel.concrete_stairs.5.name=Concrete Stairs
+tile.chisel.concrete_stairs.6.name=Concrete Stairs
+tile.chisel.concrete_stairs.7.name=Concrete Stairs
+
+tile.concreteStairs.0.desc=Concrete Stairs
+tile.concreteStairs.1.desc=Concrete Block Stairs
+tile.concreteStairs.2.desc=Concrete Double Slab Stairs
+tile.concreteStairs.3.desc=Small Concrete Block Stairs
+tile.concreteStairs.4.desc=Weathered Concrete Stairs
+tile.concreteStairs.5.desc=Weathered Concrete Block Stairs
+tile.concreteStairs.6.desc=Weathered Concrete Double Slab Stairs
+tile.concreteStairs.7.desc=Small Weathered Block Stairs
+tile.concreteStairs.8.desc=Partly Weathered Concrete Stairs
+tile.concreteStairs.9.desc=Partly Weathered Concrete Block Stairs
+tile.concreteStairs.10.desc=Asphalt Stairs
+
 # Road Line
 tile.chisel.road_line.name=道路标线
 tile.roadLine.0.desc=白色标线
@@ -787,6 +1372,7 @@ tile.roadLine.4.desc=危险标线
 
 #Iron Blocks
 tile.chisel.iron_block.name=铁块
+tile.iron.0.desc=Rusted Block
 tile.iron.1.desc=大块铁锭
 tile.iron.2.desc=小块铁锭
 tile.iron.3.desc=铁齿轮
@@ -819,6 +1405,7 @@ tile.gold.11.desc=星辰雕纹金块
 tile.gold.12.desc=嵌有金质半月装饰的紫黑曜石
 tile.gold.13.desc=嵌有金质半月装饰的黑曜石
 tile.gold.14.desc=普通金块
+tile.gold.15.desc=Modern Gold Block
 
 #Glowstone
 tile.chisel.glowstone.name=荧石
@@ -848,6 +1435,7 @@ tile.lapis.5.desc=青金石瓷砖
 tile.lapis.6.desc=镶板青金石块
 tile.lapis.7.desc=抛光青金石块
 tile.lapis.8.desc=华丽金框青金石块
+tile.lapis.9.desc=Modern Lapis
 
 #Emerald Blocks
 tile.chisel.emerald_block.name=绿宝石块
@@ -862,6 +1450,7 @@ tile.emerald.8.desc=铋纹绿宝石块
 tile.emerald.9.desc=方砖绿宝石块
 tile.emerald.10.desc=精雕方砖绿宝石块
 tile.emerald.11.desc=精雕绿宝石块
+tile.emerald.12.desc=Modern Emerald Block
 
 #Nether Brick
 tile.chisel.nether_brick.name=地狱砖
@@ -883,9 +1472,9 @@ tile.netherBrick.15.desc=小块红色地狱砖
 
 #Netherrack
 tile.chisel.netherrack.name=地狱岩
-tile.hellrock.1.desc=染血的下界砂砾
+tile.hellrock.1.desc=染血的下界沙砾
 tile.hellrock.2.desc=染血的地狱岩
-tile.hellrock.3.desc=染血的深色下界砂砾
+tile.hellrock.3.desc=染血的深色地狱岩
 tile.hellrock.4.desc=蓝色地狱岩
 tile.hellrock.5.desc=页状蓝色地狱岩
 tile.hellrock.6.desc=经典地狱岩
@@ -2187,6 +2776,198 @@ tile.froglight.6.desc=灰钛
 tile.froglight.7.desc=合成玉
 tile.froglight.8.desc=染血
 tile.froglight.9.desc=灵液
+
+#Lanterns
+tile.chisel.lantern.name=灯笼
+tile.lantern.0.desc=简易
+tile.lantern.1.desc=发光
+tile.lantern.2.desc=红石
+tile.lantern.3.desc=灵魂
+tile.lantern.4.desc=受诅
+tile.lantern.5.desc=末影（tic）
+
+#Sheetmetal
+tile.chisel.sheetmetal.name=板金属
+tile.sheetmetal.0.desc=墙面
+tile.sheetmetal.1.desc=侧板
+tile.sheetmetal.2.desc=镶板
+tile.sheetmetal.3.desc=金属板
+tile.sheetmetal.4.desc=胎面花纹
+tile.sheetmetal.5.desc=墙面（生锈）
+tile.sheetmetal.6.desc=侧板（生锈）
+tile.sheetmetal.7.desc=镶板（生锈）
+tile.sheetmetal.8.desc=金属板（生锈）
+tile.sheetmetal.9.desc=胎面花纹（生锈）
+
+#Moss
+tile.chisel.moss.name=苔藓
+tile.chisel.moss_carpet.name=Moss Carpet
+tile.moss.0.desc=繁茂
+tile.moss.1.desc=苍白
+tile.moss.2.desc=深暗
+tile.moss.3.desc=干燥
+tile.moss.4.desc=金黄
+tile.moss.5.desc=蕴魔
+tile.moss.6.desc=变异
+tile.moss.7.desc=焦灼
+tile.moss.8.desc=生动
+tile.moss.9.desc=泥炭土
+tile.moss.10.desc=粉红泥炭藓
+
+#Metals2
+tile.chisel.cobaltblock.name=钴块
+tile.chisel.invarblock.name=殷钢块
+tile.chisel.electrumblock.name=琥珀金块
+tile.chisel.nickelblock.name=镍块
+tile.chisel.platinumblock.name=铂块
+tile.chisel.wroughtironblock.name=锻铁块
+tile.chisel.stainlesssteelblock.name=不锈钢块
+tile.chisel.titaniumblock.name=钛块
+tile.chisel.tungstensteelblock.name=钨钢块
+tile.chisel.rppblock.name=镀铑钯块
+tile.chisel.iridiumblock.name=铱块
+tile.chisel.osmiumblock.name=锇块
+tile.numetalOre.0.desc=格雷科稽
+tile.numetalOre.1.desc=栓式方块
+tile.numetalOre.2.desc=警示条纹
+tile.numetalOre.3.desc=邮轮货箱
+tile.numetalOre.4.desc=机器
+tile.numetalOre.5.desc=脚手架
+tile.numetalOre.6.desc=热力膨胀
+
+
+tile.newmetalOre.0.desc=机器
+tile.newmetalOre.1.desc=Egregiously Modern
+tile.newetalOre.2.desc=栓式方块
+tile.newetalOre.3.desc=警示条纹
+tile.newetalOre.4.desc=邮轮货箱
+tile.newetalOre.5.desc=格雷科稽
+tile.newetalOre.6.desc=脚手架
+tile.newetalOre.7.desc=热力膨胀
+
+tile.chisel.coral.name=Coral
+tile.coral.0.desc=Brain Coral
+tile.coral.1.desc=Bubble Coral
+tile.coral.2.desc=Fire Coral
+tile.coral.3.desc=Horn Coral
+tile.coral.4.desc=Tube Coral
+tile.coral.5.desc=Dead Brain Coral
+tile.coral.6.desc=Dead Bubble Coral
+tile.coral.7.desc=Dead Fire Coral
+tile.coral.8.desc=Dead Horn Coral
+tile.coral.9.desc=Dead Tube Coral
+tile.coral.10.desc=Brain Coral Bricks
+tile.coral.11.desc=Bubble Coral Bricks
+tile.coral.12.desc=Fire Coral Bricks
+tile.coral.13.desc=Horn Coral Bricks
+tile.coral.14.desc=Tube Coral Bricks
+tile.coral.15.desc=Dead Coral Bricks
+
+tile.chisel.mud.name=Mud
+tile.mud.0.desc=Black Mud
+tile.mud.1.desc=Loamy Mud
+tile.mud.2.desc=Carbonate Mud (Marl)
+tile.mud.3.desc=Brown Mud
+tile.mud.4.desc=Packed Mud
+tile.mud.5.desc=Rooted Mud
+tile.mud.6.desc=Mud Bricks
+
+tile.chisel.albumblock.name=Musical Block
+tile.chisel.albumblock2.name=Musical Block
+tile.album.0.desc=That Green Gentleman
+tile.album.1.desc=Pretty Odd
+tile.album.2.desc=Laminated Denim
+tile.album.3.desc=Dogmatica
+tile.album.4.desc=And the Sky Opened Up
+tile.album.5.desc=Route Guano
+tile.album.6.desc=A Spell Over the West
+tile.album.7.desc=I Built With Someone In Fall Out Boy And All I Got Was This Stupid Block Made About Me
+tile.album.8.desc=Crumbling Castle
+tile.album.9.desc=Evil Star
+tile.album.10.desc=Gaia
+tile.album.11.desc=Spacesick
+tile.album.12.desc=Reactor
+tile.album.13.desc=Resignation
+tile.album.14.desc=Dead!
+tile.album.15.desc=Having Too Much Fun
+tile.album2.16.desc=The Cork Tree
+tile.album2.17.desc=Cooperstown
+tile.album2.18.desc=The Most Fun a Girl Can Have
+
+tile.chisel.brutalism.name=Brutalist Block
+tile.brutalism.0.desc=Plain Cement
+tile.brutalism.1.desc=Cement Bricks
+tile.brutalism.2.desc=Leafy Ecobrutalism
+tile.brutalism.3.desc=Flowering Ecobrutalism
+tile.brutalism.4.desc=Faux Window
+tile.brutalism.5.desc=Heavily Weathered Cement
+tile.brutalism.6.desc=Heavily Weathered Cement Bricks
+tile.brutalism.7.desc=Reinforced Cement
+tile.brutalism.8.desc=Rimmed Cement
+tile.brutalism.9.desc=Lightly Weathered Cement
+
+tile.chisel.porcelain.name=Porcelain Block
+tile.porcelain.0.desc=Plain Porcelain
+tile.porcelain.1.desc=Cracked Porcelain
+tile.porcelain.2.desc=Kintsugi
+tile.porcelain.3.desc=Blue Porcelain Tiles
+tile.porcelain.4.desc=Red Porcelain Tiles
+tile.porcelain.5.desc=Blue Porcelain Fish
+tile.porcelain.6.desc=Blue Porcelain Flower
+tile.porcelain.7.desc=Red Porcelain Dragon
+tile.porcelain.9.desc=Red Porcelain Pillar
+tile.porcelain.10.desc=Red And Blue Porcelain Tiles
+tile.porcelain.11.desc=Kintsugi Tiles
+tile.porcelain.12.desc=Polished Porcelain
+tile.porcelain.13.desc=Faux Ivory
+
+tile.chisel.alabaster.name=Alabaster Block
+tile.alabaster.0.desc=Calcite-Rich
+tile.alabaster.1.desc=Chartreuse
+tile.alabaster.2.desc=Lavender
+tile.alabaster.3.desc=Lilac
+tile.alabaster.4.desc=Mauve
+tile.alabaster.5.desc=French Grey
+tile.alabaster.6.desc=Peach
+tile.alabaster.7.desc=Periwinkle
+tile.alabaster.8.desc=Sage Green
+tile.alabaster.9.desc=Sky Blue
+tile.alabaster.10.desc=Cream
+
+tile.chisel.road.name=Road Block
+tile.chisel.road2.name=Road Block
+tile.road.0.desc=Asphalt
+tile.road.1.desc=Crosswalk
+tile.road.2.desc=Double White Lines
+tile.road.3.desc=Double Yellow Lines
+tile.road.4.desc=Dirt Road
+tile.road.5.desc=Diverging Lane Marking
+tile.road.6.desc=Dotted White Line
+tile.road.7.desc=Dotted Yellow Line
+tile.road.8.desc=Single Yellow Line - East
+tile.road.9.desc=Single Yellow Line - North
+tile.road.10.desc=Single Yellow Line - South
+tile.road.11.desc=Single Yellow Line - West
+tile.road.12.desc=Left Lane
+tile.road.13.desc=Right Lane
+tile.road.14.desc=Thick White Line
+tile.road.15.desc=White Outlined Road
+tile.road.16.desc=Passing Lane - East
+tile.road.17.desc=Passing Lane - North
+tile.road.18.desc=Passing Lane - South
+tile.road.19.desc=Passing Lane - West
+tile.road.20.desc=Double Yellow Lines With Reflectors
+tile.road.21.desc=Solid Yellow Line - East/West
+tile.road.22.desc=Solid Yellow Line - North/South
+tile.road.23.desc=Converging Lane Marking
+tile.road.24.desc=White Painted Asphalt
+tile.road.25.desc=Yellow Painted Asphalt
+tile.road.26.desc=Gravel Road
+tile.road.27.desc=Solid White Line - North/South
+tile.road.28.desc=Solid White Line - East/West
+tile.road.29.desc=Weathered Asphalt
+tile.road.30.desc=Weathering Asphalt
+tile.road.31.desc=Overgrown Dirt Road
 
 tile.chisel.amber.name=琥珀块
 tile.chisel.bloodBrick.name=血石砖

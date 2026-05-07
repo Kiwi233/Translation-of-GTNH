@@ -158,6 +158,12 @@ item.bloodFrame.name=血腥亚瑟王
 item.frenziedFrame.name=狂热框架
 item.bloodSoakedFrame.name=浸血框架
 
+#Tooltips
+tooltip.bloodBaseFrame.desc=摸起来感觉有点恶心
+tooltip.bloodFrame.desc=激怒蜜蜂
+tooltip.FrenziedFlame.desc=愿混沌吞噬世界
+tooltip.bloodFrame.cost=消耗%d LP每蜜蜂刻
+
 #Capsules
 item.capsule.magic.name=魔力胶囊
 capsule.magic=%s魔力胶囊
@@ -317,7 +323,7 @@ magicbees.speciesSmouldering.description=永恒之焰中潜伏的蜜蜂格外耀
 magicbees.speciesBigBad=大坏蛋
 magicbees.speciesBigBad.description=“谁会怕大坏蛋Chris？”|Pahimar的临终遗言
 magicbees.speciesTCBrainy=怒尸
-magicbees.speciesTCBrainy.description=蜂巢变得恶臭难闻，但这些家伙变得好聪明！|Apinomicon
+magicbees.speciesTCBrainy.description=蜂窝变得恶臭难闻，但这些家伙变得好聪明！|Apinomicon
 magicbees.speciesTCBatty=火蝠
 magicbees.speciesTCBatty.description=它们通过未知的方法吸引了许多火焰蝙蝠。|Apinomicon
 magicbees.speciesTCChicken=家禽
@@ -413,10 +419,10 @@ magicbees.speciesTCWater.description=“我曾试图养育它们，结果是竹�
 magicbees.speciesTCEarth=泥土
 magicbees.speciesTCEarth.description=“你绝对很想钻研这些蜜蜂，但是请注意，它们比你更会钻。”|喜剧学徒MysteriousAges
 magicbees.speciesTCOrder=奇术
-magicbees.speciesTCOrder.description=它们的蜂巢已近于完美，每一部分都反映着整体。|Apinomicon
+magicbees.speciesTCOrder.description=它们的蜂窝已近于完美，每一部分都反映着整体。|Apinomicon
 magicbees.speciesTCChaos=朴实
 magicbees.speciesTCChaos.description=它们的社会结构每天都在变化，这给它们带来了极强的灵活性和适应性，但也使得它们变得难以捉摸。|Apinomicon
-magicbees.speciesTCEssentia=凋零本质
+magicbees.speciesTCEssentia=始源
 magicbees.speciesTCEssentia.description=“既然可以用蜜蜂，为什么还要用源质冷凝器呢？”|冷凝器享受者Quantumly
 magicbees.speciesTCVis=魔力
 magicbees.speciesTCVis.description=“它们能感知到魔力的存在，却还不能影响到魔力。”|Azanor的研究笔记
@@ -450,7 +456,7 @@ magicbees.speciesAMAir.description=在风的加持下，比空气更轻盈。|Ap
 magicbees.speciesAMFire=焰火
 magicbees.speciesAMFire.description=它们能沸水熔金。|Apinomicon
 magicbees.speciesAMWater=水灵
-magicbees.speciesAMWater.description=浸透了液体后，它们的蜂巢潮湿又沉重。|Apinomicon
+magicbees.speciesAMWater.description=浸透了液体后，它们的蜂窝潮湿又沉重。|Apinomicon
 magicbees.speciesAMLightning=闪电
 magicbees.speciesAMLightning.description=瞬息千里，所到处即生野火。|Apinomicon
 magicbees.speciesAMPlant=延年
@@ -474,7 +480,7 @@ magicbees.speciesTEDante.description=在地狱杂居的蜜蜂产生了意想不�
 magicbees.speciesTEPyro=烈焰
 magicbees.speciesTEPyro.description=你这怪物。|每个人都对你这么说
 magicbees.speciesTEShocking=震击
-magicbees.speciesTEShocking.description=某种未知机制使得它们的蜂巢可以吸附静电。收集蜂窝时千万要小心。|Apinomicon
+magicbees.speciesTEShocking.description=某种未知机制使得它们的蜂窝可以吸附静电。收集蜂窝时千万要小心。|Apinomicon
 magicbees.speciesTEAmped=电击
 magicbees.speciesTEAmped.description=“它们相当激动，怎么说呢，是那种疯也似的激动。你得测一下它们身上的电流，这样你就明白它们多么激动了。”|Marquis Muskrat
 magicbees.speciesTEGrounded=接地
@@ -624,9 +630,9 @@ classification.abominable.description=出生于灼热地狱的最深处,这种�
 classification.Extrinsic=外来
 classification.Extrinsic.description=究竟这些蜜蜂是从蜜蜂科生物中进化而来的,还是由别的生物独立进化而来的,至今仍不得而知.|Apinomicon
 classification.metallic=金属
-classification.metallic.description=汇聚金属于蜂巢中的蜜蜂.|Apinomicon
+classification.metallic.description=汇聚金属于蜂窝中的蜜蜂.|Apinomicon
 classification.gem=宝石
-classification.gem.description=汇聚宝石于蜂巢中的蜜蜂.|Apinomicon
+classification.gem.description=汇聚宝石于蜂窝中的蜜蜂.|Apinomicon
 classification.transmuting=多变
 classification.transmuting.description=对于这个大家族的蜜蜂来说,真实,似乎是一个并不稳定的存在.|Apinomicon
 classification.thaumic=神秘
@@ -641,6 +647,7 @@ classification.botanical=花卉
 classification.botanical.description=作为那些平凡的蜜蜂的一支变种,她们似乎对于各种花有极强的亲和力.|Apinomicon
 
 tc.aspect.tempus=时间,须臾,永远
+tc.aspect.help.tempus=时间流逝
 tc.research_category.MAGICBEES=神秘养蜂学
 
 
@@ -697,7 +704,7 @@ tc.research_name.MB_VisAuraProvider=灵气蜂箱加速器
 tc.research_text.MB_VisAuraProvider=[MB] Vis?Bis如何?
 tc.research_page.MB_VisAuraProvider.1=向罕见花粉中注以灵气,并与黄金结合,便可制造出一种不寻常的晶体,若给这种晶体提供一些节点里的Vis,它就可以创造出一个充能灵气场,籍此调节魔法蜂箱周围的环境,并自然地把蜜蜂吸引过来.
 
-tc.research_name.MB_ApimancersDrainer=Apimancer的沥水器
+tc.research_name.MB_ApimancersDrainer=神秘养蜂人的沥水器
 tc.research_text.MB_ApimancersDrainer=你的皇后能用多久?
 tc.research_page.MB_ApimancersDrainer.1=养蜂人的沥水器是养蜂领域的创新装置,旨在从蜜蜂的生命力中提取源质. 它被放置在养蜂场的下方,与上方的养蜂场建立直接连接.<BR>要确定它所产生的源质类型,需要用所需的源质对沥水器进行调谐.<BR>一旦调谐好,沥水器就会将蜂后的生命能量转化为所选的源质...
 
@@ -716,7 +723,7 @@ tc.research_page.MB_GrafterVoid.1=毫无疑问,神秘锭是一种极好的材料
 magicbees.botania.lexicon.subtitle=[魔法蜜蜂]
 
 magicbees.botania.lexicon.manasteelTools.title=自然学家的魔力钢工具
-magicbees.botania.lexicon.manasteelTools.0=魔力钢独特的属性注定了它是 自然学家的工具的上好材料。 &1魔钢捕虫网&0可用来高效采集 蜂巢，而耐用的&1魔钢剪枝器&0则 是普通的青铜剪枝器的上好 替代品。当然啦，两种工具都 可以用魔力来修复。要达到 最佳效果，请务必用活木合成。
+magicbees.botania.lexicon.manasteelTools.0=魔力钢独特的属性注定了它是自然学家的工具的上好材料。 &1魔钢捕虫网&0可用来高效采集蜂窝，而耐用的&1魔钢剪枝器&0则是普通的青铜剪枝器的上好替代品。当然啦，两种工具都可以用魔力来修复。要达到最佳效果，请务必用活木合成。
 magicbees.botania.lexicon.manasteelScoop=&1魔钢捕虫网&0
 magicbees.botania.lexicon.manasteelGrafter=&1魔钢剪枝器&0
 

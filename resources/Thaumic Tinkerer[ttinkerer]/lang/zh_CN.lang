@@ -36,7 +36,7 @@ ttmisc.notAbsorbing=§c关闭吸引模式
 ttmisc.absorbing=§a开启吸引模式
 ttmisc.shareTome.write=研究已写入!
 ttmisc.shareTome.notOnline=拥有这项研究的玩家当前不在线.
-ttmisc.shareTomb.offlineshare=离线分享
+ttmisc.shareTome.offlineshare=离线分享
 ttmisc.shareTome.sync=已获得研究.
 ttmisc.shareTome.noAssign=未分配
 ttmisc.shareTome.playerName=绑定到%s的研究上.
@@ -351,11 +351,11 @@ ttresearch.page.TTENCH_AUTO_SMELT.0=你研究出一种凭空召唤火焰的附�
 # -- ENCHANTMENT: DISINTEGRATE
 ttresearch.name.TTENCH_DESINTEGRATE=附魔:解离
 ttresearch.lore.TTENCH_DESINTEGRATE=异界型时崎狂三
-ttresearch.page.TTENCH_DESINTEGRATE.0=你研究出一种能够快速采集柔软材料方块的附魔.<BR><BR>附魔后的工具能够非常轻易地采集泥土,石头,下界岩这种常见的不是非常硬的材料,然后,该工具会变得难以采集其他方块,且耐久双倍减少.
+ttresearch.page.TTENCH_DESINTEGRATE.0=你研究出一种能够快速采集柔软材料方块的附魔.<BR><BR>附魔后的工具能够非常轻易地采集泥土,石头,地狱岩这种常见的不是非常硬的材料,然后,该工具会变得难以采集其他方块,且耐久双倍减少.
 
 # -- ENCHANTMENT: QUICK DRAW
 ttresearch.name.TTENCH_QUICK_DRAW=附魔:即时战备
-ttresearch.lore.TTENCH_QUICK_DRAW=快速施法
+ttresearch.lore.TTENCH_QUICK_DRAW=愿好运永远眷顾你
 ttresearch.page.TTENCH_QUICK_DRAW.0=你研究出一种让你能够更快地拉弓射箭的附魔.<BR><BR>附魔后的弓能够比普通弓更快地发射箭矢.
 
 # -- ENCHANTMENT: VAMPIRISM
@@ -528,7 +528,7 @@ ttresearch.page.CAT_AMULET.0=没费多久功夫,你就想出法子让那些你�
 
 # -- ICHORIUM TOOLS
 ttresearch.name.ICHOR_TOOLS=灵宝工具
-ttresearch.lore.ICHOR_TOOLS=最顶级的耗子…工具
+ttresearch.lore.ICHOR_TOOLS=设计的巅峰
 ttresearch.page.ICHOR_TOOLS.0=你发现了如何利用灵宝制作工具.这些工具非常强大,比钻石做的还了不起,更了不起的是,还不用坏.<BR><BR>要制作这样了不起的工具,木棍当手柄就不太合适了,你决定换成银树杖芯来代替.
 
 # -- AWAKENED ICHORIUM PICKAXE
@@ -550,7 +550,7 @@ ttresearch.page.ICHOR_AXE_GEM.0=你唤醒了灵宝斧真正的力量.这柄斧�
 
 # -- AWAKENED ICHORIUM SWORD
 ttresearch.name.ICHOR_SWORD_GEM=觉醒灵宝剑
-ttresearch.lore.ICHOR_SWORD_GEM=以撒的妈刀
+ttresearch.lore.ICHOR_SWORD_GEM=来自一个更文明时代的优雅武器
 ttresearch.page.ICHOR_SWORD_GEM.0=你唤醒了灵宝剑真正的力量.这柄剑不仅将保留沉睡状态下具有的一应能力,还获得了模式切换功能,只需要按住shift右击即可.<BR><BR>在单杀模式(绿色)下它按正常方式进行攻击.<BR><BR>在区域模式(红色)下它将会伤害到被击中目标三格范围的所有生物.<BR><BR>在狩魂模式(蓝色)下它的威力将会略微减小,但每一击都能使得持剑者增加一颗魂心. <BR>[下页]
 ttresearch.page.ICHOR_SWORD_GEM.1=魂心相当于一次性的生命值.如角色拥有魂心,魂心条将会显示在饱腹度上方,状如金属.它们能够代替玩家承受伤害,而它们受到伤害后会随之消失.
 

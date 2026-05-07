@@ -13,9 +13,11 @@ crafters.PartBuilder=部件加工台
 crafters.PatternShaper=模具加工台
 crafters.CraftingStation=合成站
 inventory.PatternChest=模具箱
+inventory.PartChest=部件箱
 crafters.Smeltery=冶炼炉
 crafters.Frypan=煎锅
 inventory.knapsack=背包
+toolstation.partholder=部件箱
 
 nei.options.keys.gui.tinkers_belt=切换旅行者腰带
 
@@ -23,6 +25,7 @@ tile.ToolStation.name=工具组装台
 ToolStation.Crafter.name=工具组装台
 ToolStation.Parts.name=部件加工台
 ToolStation.PatternChest.name=模具箱
+ToolStation.PartChest.name=部件箱
 ToolStation.PatternShaper.name=模具加工台
 ToolStation.CastingTable.name=浇铸台
 tile.FurnaceSlab.name=半砖熔炉
@@ -59,13 +62,13 @@ block.oreberry.tin.name=锡矿莓丛
 block.oreberry.aluminum.name=铝矿莓丛
 block.oreberry.essence.name=精华莓丛
 
-tile.tconstruct.gravelore.name=砂砾矿石
-block.ore.gravel.iron.name=铁矿砂砾
-block.ore.gravel.gold.name=金矿砂砾
-block.ore.gravel.copper.name=铜矿砂砾
-block.ore.gravel.tin.name=锡矿砂砾
-block.ore.gravel.aluminum.name=铝矿砂砾
-block.ore.gravel.cobalt.name=钴矿砂砾
+tile.tconstruct.gravelore.name=沙砾矿石
+block.ore.gravel.iron.name=铁矿沙砾
+block.ore.gravel.gold.name=金矿沙砾
+block.ore.gravel.copper.name=铜矿沙砾
+block.ore.gravel.tin.name=锡矿沙砾
+block.ore.gravel.aluminum.name=铝矿沙砾
+block.ore.gravel.cobalt.name=钴矿沙砾
 
 tile.SpeedBlock.name=褐岩
 block.brownstone.rough.name=粗质褐岩
@@ -186,34 +189,6 @@ item.InfiTool.Cutlass.name=弯刀
 item.InfiTool.Shortbow.name=短弓
 item.InfiTool.Arrow.name=箭矢
 item.InfiTool.Mattock.name=鹤嘴锄
-
-infitool.pickaxe=镐
-infitool.shovel=铲
-infitool.hatchet=斧头
-infitool.broadsword=大剑
-infitool.longsword=长剑
-infitool.rapier=西洋剑
-infitool.fryingpan=煎锅
-infitool.battlesign=战斗牌子
-infitool.dagger=匕首
-infitool.chisel=凿子
-infitool.scythe=镰刀
-infitool.lumberaxe=伐木斧
-infitool.cleaver=劈刀
-infitool.excavator=开掘铲
-infitool.hammer=锤
-infitool.battleaxe=战斧
-infitool.cutlass=弯刀
-infitool.arrow=箭矢
-infitool.mattock=鹤嘴锄
-infitool.shortbow=短弓
-infitool.longbow=长弓
-infitool.crossbow=十字弓
-infitool.arrowammo=箭矢
-infitool.boltammo=弩箭
-infitool.shuriken=手里剑
-infitool.throwingknife=飞刀
-infitool.javelin=标枪
 
 item.tconstruct.PotionLauncher.name=药水发射器
 
@@ -536,8 +511,8 @@ item.tconstruct.Fletching.blueslime.name=蓝史莱姆箭羽
 item.tconstruct.Fletching.slimeleaf.name=史莱姆树叶箭羽
 
 item.tconstruct.manual.name=手册
-item.tconstruct.manual.beginner.name=匠魂宝典Ⅰ
-item.tconstruct.manual.toolstation.name=匠魂宝典Ⅱ
+item.tconstruct.manual.beginner.name=匠魂宝典 I
+item.tconstruct.manual.toolstation.name=匠魂宝典 II
 item.tconstruct.manual.smeltery.name=冶炼秘术
 item.tconstruct.manual.diary.name=匠人日记
 item.tconstruct.manual.weaponry.name=工匠武器
@@ -884,6 +859,7 @@ smeltery.brick.tooltip2=（也可用作装饰方块）
 smeltery.castingtable.tooltip=基础冶炼设备
 smeltery.castingfaucet.tooltip=让冶炼炉的内容物流出来
 smeltery.castingbasin.tooltip=为了更大量的冶炼
+craftingstation.dump_button.tooltip=Dump grid content to linked inventory
 #Dear translators, only translate these lines if the jokes are applicable in your language.
 grout.tooltip=我是水泥人！
 frypankill.tooltip=这个可怜的家伙*duang*的一下就便当了
@@ -946,18 +922,30 @@ gui.toolstation15=采掘等级：
 gui.toolstation16=使用速度：
 gui.toolstation17=强化
 gui.toolstation18=剩余强化次数：
-gui.toolstation19=损伤减少：
+gui.toolstation19=伤害减免：
 gui.toolstation20=保护：
 gui.toolstation21=备弹量：
 gui.toolstation22=损坏几率：
 gui.toolstation23=最大攻击：
 
-gui.mining1=石头
-gui.mining2=铁
-gui.mining3=红石
-gui.mining4=黑曜石
-gui.mining5=钴
-gui.mining6=玛玉灵
+gui.partcrafter.durability=耐久: %s
+gui.partcrafter.mininglevel=挖掘等级：%s
+gui.partcrafter.miningspeed=挖掘速度：%s
+gui.partcrafter.attack=攻击力：%s
+gui.partcrafter.handlemodifier=手柄修正系数：%s
+gui.partcrafter.drawspeed=蓄力速度：%s s
+gui.partcrafter.arrowspeed=箭矢速度：%s
+gui.partcrafter.arrow=箭矢
+gui.partcrafter.bolt=弩箭
+gui.partcrafter.weight=权重：%s
+gui.partcrafter.breakchance=损坏几率：%s %%
+
+gui.mining1=§7石头§r
+gui.mining2=§f铁§r
+gui.mining3=§4红石§r
+gui.mining4=§d黑曜石§r
+gui.mining5=§9钴§r
+gui.mining6=§5玛玉灵§r
 
 gui.toolstation.pickaxe.desc=镐子是标准的挖矿工具。它对石头以及矿物有效。\n\n需求部件：\n- 镐头\n- 绑定结\n- 手柄
 gui.toolstation.shovel.desc=铲子是标准的挖掘工具。它对泥土、沙子和雪有效。\n\n需求部件：\n- 铲头\n- 手柄
@@ -1049,6 +1037,7 @@ tool.boltammo=弩箭
 tool.shuriken=手里剑
 tool.throwingknife=飞刀
 tool.javelin=标枪
+tool.boneana=Bonæna
 
 # Customization of default tool names based on tool and material
 #tool.shovel.wood=Wooden Shovel

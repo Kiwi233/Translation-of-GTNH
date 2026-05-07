@@ -16,7 +16,7 @@ text.eldritchsapping=邪术削弱
 text.bloodlust=嗜血
 
 #=========FOCAL UPGRADES==============
-focus.upgrade.staff_tooltip.tip=权杖给予 x%.1f 伤害
+focus.upgrade.staff_tooltip.tip=手杖给予 x%.1f 伤害
 
 focus.upgrade.tainturgy.name=抗体
 focus.upgrade.tainturgy.text=这个升级能让你不再被泡泡感染上咒流.
@@ -30,8 +30,8 @@ focus.upgrade.sanity.text=这个升级能让你不再因邪术球而获得扭曲
 focus.upgrade.bloodlust.name=嗜血
 focus.upgrade.bloodlust.text=这个升级能让法杖核心如水晶匕首般获得嗜血的能力.
 
-focus.upgrade.persistant.name=持续
-focus.upgrade.persistant.text=当你的目标死亡后，魔力碎片将会追踪附近的同类目标
+focus.upgrade.persistent.name=持久
+focus.upgrade.persistent.text=当此聚焦目标死亡.消失或移出射程时.导弹将自动搜寻附近同类型的其他目标.
 
 #=========BLOCK NAMES==================
 
@@ -146,7 +146,7 @@ tc.research_category.TM=污秽魔法
 
 tm.name.TAINTEDMAGIC=黑暗魔法
 tm.tag.TAINTEDMAGIC=我有点害怕...
-tm.text.TAINTEDMAGIC.1=在你的探索世界旅途中,你偶然发现了另一位神秘使的笔记(详见右图).<BR>从你解读的部分可以知道,这些笔记讲述了一种黑暗的魔法力量.<BR>这些点子激起了你的兴趣,即使它们看起来十分危险.但是你又有何损失呢?只有软弱无能之辈才会害怕探索未知的领域!<BR>或许现在这些笔记依旧潦草不清,但是终有一日,你会破解其中的奥秘并掌握这种黑暗魔法...终有一日!
+tm.text.TAINTEDMAGIC.1=在你的探索世界旅途中,你偶然发现了另一位神秘使的魔导手册中一页被撕下,血迹斑斑的书页(详见右图).<BR>从你解读的部分可以知道,这些笔记讲述了一种黑暗的魔法力量.<BR>这些点子激起了你的兴趣,即使它们看起来十分危险.但是你又有何损失呢?只有软弱无能之辈才会害怕探索未知的领域!<BR>或许现在这些笔记依旧潦草不清,但是终有一日,你会破解其中的奥秘并掌握这种黑暗魔法...终有一日!
 tm.text.TAINTEDMAGIC.2=<IMG>taintedmagic:textures/misc/PageTAINTEDMAGIC.png:0:255:255:255:.5</IMG><BR><BR>喂喂喂,谁写的这些狗带玩意?
 
 #SHADOWMETAL
@@ -234,7 +234,7 @@ tm.text.WARPTREE.1=在研究腐化之地的奇特树木的时候,你已经意识
 
 tm.name.SHADOWCLOTH=暗影布匹
 tm.tag.SHADOWCLOTH=黑衣披身,忧郁缠心
-tm.text.SHADOWCLOTH.1=当你发现了暗影锭之后你用其做了几个实验.这是诸多研究成果之一.<BR>一种看似无用却富含魔力的暗色布匹.<BR>暗影布匹是一个简单的发明,除了它是在暗影锭暗影锭的基础上加强的之外,它就是一种布匹.<BR>§o你不知道它有什么用途.
+tm.text.SHADOWCLOTH.1=当你发现了暗影锭之后你用其做了几个实验.这是诸多研究成果之一.<BR>一种看似无用却富含魔力的暗色布匹.<BR>暗影布匹是一个简单的发明,除了它是在暗影锭暗影锭的基础上加强的之外,它就是一种布匹.<BR>你不知道它有什么用途.
 
 #VOIDWALKERBOOTS
 

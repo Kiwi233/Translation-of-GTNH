@@ -22,10 +22,6 @@ death.attack.plasmabolt=%s死于滚烫的等离子体
 death.attack.plasmabolt.player=%1$s被%2$s使用等离子体击杀
 death.attack.gtpp.grinder=%s被艾萨研磨机磨灭了
 
-# Batch mode chat message
-misc.BatchModeTextOn=开启批量处理（会销毁溢出物品，推荐使用ME输出总线）
-misc.BatchModeTextOff=关闭批量处理
-
 # Alternative Materials
 item.itemPlateBatteryAlloy.name=电池合金板
 item.itemIngotBatteryAlloy.name=电池合金锭
@@ -49,7 +45,6 @@ tile.blockCircuitProgrammer.name=电路编程器
 tile.blockDecayablesChest.name=铅封盒
 tile.blockVolumetricFlaskSetter.name=容量瓶配置器
 tile.blockSuperLight.name=闪耀之星
-tile.blockPestKiller.name=害虫杀手
 tile.blockSuperJukebox.name=Sir Mixalot[循环唱片机]
 tile.blockSuperJukebox.deprecated=§c§l已弃用§r§c，请换用电动唱片机
 
@@ -62,9 +57,9 @@ item.itemSandstoneHammer.name=圆石粉碎者
 # Tooltips
 GTPP.machines.chisel_slot.tooltip=在此处放置雕刻目标方块
 GTPP.machines.chisel_slot.tooltip.1=$7放入已雕刻方块以指定输出
-GTPP.core.GT_Tooltip=添加者：§2Alkalus §7- §c[GT++]
-GTPP.core.GT_Tooltip_Builder=§2Alkalus §7- §c[GT++]
-GTPP.core.GT_Tooltip_Radioactive=§7警告: §a放射性物品! §6 未装备防护服之前避免接触.
+GTPP.core.GT_Tooltip=添加者：%s §7- §c[GT++]
+GTPP.core.GT_Tooltip_Builder=%s §7- §c[GT++]
+GTPP.core.GT_Tooltip_Radioactive=§7警告: §a放射性物品! §6 未装备防护服之前避免接触.| 等级：%s
 
 # RecipeMaps
 gtpp.recipe.cokeoven=焦炉
@@ -97,6 +92,8 @@ gtpp.recipe.multidehydrator=工业脱水机
 gtpp.recipe.semifluidgeneratorfuels=半流质发电机燃料
 gtpp.recipe.flotationcell=工业浮选机
 gtpp.recipe.treefarm=原木拟生场
+gtpp.recipe.algae_pond=藻类池塘
+gtpp.recipe.multiblockrockbreaker=工业碎石机
 
 # Recipe categories
 gtpp.recipe.category.abs_non_alloy_recipes=合金冶炼炉非合金配方
@@ -122,6 +119,8 @@ gtpp.nei.tgs.1=树苗不消耗
 gtpp.nei.tgs.2=如果提供%s
 gtpp.nei.tgs.3=则输出树苗
 gtpp.nei.tgs.sapling=如果提供%s则输出树苗
+gtpp.nei.chemical_plant.not_consumed=加工时不一定消耗
+gtpp.nei.chemical_plant.higher_tier_casing=更高等级的管道外壳能让此物品使用更持久
 
 gtpp.nei.tgs.tooltip.sapling=放入控制器插槽
 gtpp.nei.tgs.tooltip.saw=放入输入总线以收获原木
@@ -137,6 +136,7 @@ gtpp.nei.tgs.info-1=进一步促进产出
 gtpp.nei.tgs.info-2=按机器电压等级
 gtpp.nei.tgs.info-3=和工具类型
 
+gtpp.nei.ap.tier=藻类池塘等级：%s
 
 # Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=烈焰之炽焱桶
@@ -234,34 +234,34 @@ miscutils.blockcasings.name=机械方块
 MU-metatool.01.name=手动泵
 
 # Fuel Blocks
-tile.blockCactusCharcoal.name=仙人掌炭
-tile.blockCactusCharcoal.0.name=仙人掌炭
-tile.blockCactusCharcoal.1.name=压缩仙人掌炭
-tile.blockCactusCharcoal.2.name=双重压缩仙人掌炭
-tile.blockCactusCharcoal.3.name=三重压缩仙人掌炭
-tile.blockCactusCharcoal.4.name=四重压缩仙人掌炭
-tile.blockCactusCharcoal.5.name=五重压缩仙人掌炭
-tile.blockCactusCoke.name=仙人掌焦炭
-tile.blockCactusCoke.0.name=仙人掌焦炭
-tile.blockCactusCoke.1.name=压缩仙人掌焦炭
-tile.blockCactusCoke.2.name=双重压缩仙人掌焦炭
-tile.blockCactusCoke.3.name=三重压缩仙人掌焦炭
-tile.blockCactusCoke.4.name=四重压缩仙人掌焦炭
-tile.blockCactusCoke.5.name=五重压缩仙人掌焦炭
-tile.blockSugarCharcoal.name=糖炭
-tile.blockSugarCharcoal.0.name=糖炭
-tile.blockSugarCharcoal.1.name=压缩糖炭
-tile.blockSugarCharcoal.2.name=双重压缩仙人糖炭
-tile.blockSugarCharcoal.3.name=三重压缩糖炭
-tile.blockSugarCharcoal.4.name=四重压缩糖炭
-tile.blockSugarCharcoal.5.name=五重压缩糖炭
-tile.blockSugarCoke.name=糖焦炭
-tile.blockSugarCoke.0.name=糖焦炭
-tile.blockSugarCoke.1.name=压缩糖焦炭
-tile.blockSugarCoke.2.name=双重压缩糖焦炭
-tile.blockSugarCoke.3.name=三重压缩糖焦炭
-tile.blockSugarCoke.4.name=四重压缩糖焦炭
-tile.blockSugarCoke.5.name=五重压缩糖焦炭
+tile.blockCactusCharcoal.name=仙人掌炭块
+tile.blockCactusCharcoal.0.name=仙人掌炭块
+tile.blockCactusCharcoal.1.name=压缩仙人掌炭块
+tile.blockCactusCharcoal.2.name=双重压缩仙人掌炭块
+tile.blockCactusCharcoal.3.name=三重压缩仙人掌炭块
+tile.blockCactusCharcoal.4.name=四重压缩仙人掌炭块
+tile.blockCactusCharcoal.5.name=五重压缩仙人掌炭块
+tile.blockCactusCoke.name=仙人掌焦炭块
+tile.blockCactusCoke.0.name=仙人掌焦炭块
+tile.blockCactusCoke.1.name=压缩仙人掌焦炭块
+tile.blockCactusCoke.2.name=双重压缩仙人掌焦炭块
+tile.blockCactusCoke.3.name=三重压缩仙人掌焦炭块
+tile.blockCactusCoke.4.name=四重压缩仙人掌焦炭块
+tile.blockCactusCoke.5.name=五重压缩仙人掌焦炭块
+tile.blockSugarCharcoal.name=糖炭块
+tile.blockSugarCharcoal.0.name=糖炭块
+tile.blockSugarCharcoal.1.name=压缩糖炭块
+tile.blockSugarCharcoal.2.name=双重压缩仙人糖炭块
+tile.blockSugarCharcoal.3.name=三重压缩糖炭块
+tile.blockSugarCharcoal.4.name=四重压缩糖炭块
+tile.blockSugarCharcoal.5.name=五重压缩糖炭块
+tile.blockSugarCoke.name=糖焦炭块
+tile.blockSugarCoke.0.name=糖焦炭块
+tile.blockSugarCoke.1.name=压缩糖焦炭块
+tile.blockSugarCoke.2.name=双重压缩糖焦炭块
+tile.blockSugarCoke.3.name=三重压缩糖焦炭块
+tile.blockSugarCoke.4.name=四重压缩糖焦炭块
+tile.blockSugarCoke.5.name=五重压缩糖焦炭块
 
 
 # GT++ Items
@@ -272,9 +272,6 @@ MU-metaitem.01.0.name=MU-metaitem.01.0.name
 # Cells
 item.SulfurDioxide.name=高纯二氧化硫单元
 item.mobessence.name=怪物精华液单元
-item.Fertiliser.name=流体肥料单元
-item.UN32Fertiliser.name=流体肥料UN-32单元
-item.UN18Fertiliser.name=流体肥料UN-18单元
 item.RaisinJuice.name=葡萄汁单元
 item.BerylliumHydroxide.name=氢氧化铍单元
 item.AmmoniumBifluoride.name=氟化氢铵单元
@@ -333,7 +330,7 @@ item.itemDragonJar.1.name=捕获龙之壶
 item.itemDragonJar.1.tooltip=包含一条%s.
 item.itemControlCore.name=控制核心[%s]
 item.itemControlCore.tooltip.0=允许多方块结构最高运行在%s等级.
-item.itemControlCore.tooltip.1=所需等级由所有能源​​输入的eu/t之和决定
+item.itemControlCore.tooltip.1=所需等级由所有能源输入的EU/t之和决定
 item.itemControlCore.tooltip.2=低等级可用于降频,这在某些情况下很有用。
 item.thekeytothecity.tooltip.0=你认为你正屹立于世界之巅.
 item.thekeytothecity.tooltip.1=将它像护身符一样戴在脖子上.
@@ -1675,12 +1672,6 @@ item.itemDustTinyZrCl4.name=小撮氯化锆粉
 item.itemDustCookedZrCl4.name=焙烧过的氯化锆粉
 item.itemDustSmallCookedZrCl4.name=小堆焙烧过的氯化锆粉
 item.itemDustTinyCookedZrCl4.name=小撮焙烧过的氯化锆粉
-item.itemDustUN18Fertiliser.name=流体肥料UN-18粉
-item.itemDustSmallUN18Fertiliser.name=小堆流体肥料UN-18粉
-item.itemDustTinyUN18Fertiliser.name=小撮流体肥料UN-18粉
-item.itemDustUN32Fertiliser.name=流体肥料UN-32粉
-item.itemDustSmallUN32Fertiliser.name=小堆流体肥料UN-32粉
-item.itemDustTinyUN32Fertiliser.name=小撮流体肥料UN-32粉
 item.itemCustomMetaCover.miscutils.GtMachineCasings=%s机器覆盖板
 item.itemCustomMetaCover.miscutils.GtMachineCasings.name=机器覆盖板
 item.itemGregtechPump.tooltip.0=不能排空其他标准流体容器方块
@@ -2280,7 +2271,6 @@ tile.blockFishTrap.name=捕鱼者
 tile.blockInfiniteFluidTank.name=无限流体储罐
 tile.blockMiningExplosives.name=矿用炸药
 tile.blockHellFire.name=地狱之火
-tile.blockProjectBench.name=工程台
 tile.blockTradeBench.name=贸易台
 tile.blockModularity.name=模块化工作台
 tile.blockBlackGate.name=凋灵笼子
@@ -2371,7 +2361,7 @@ item.Formaldehyde.name=甲醛单元
 item.RocketFuelMixA.name=H8N4C2O4火箭燃料单元
 item.RocketFuelMixB.name=RP-1火箭燃料单元
 item.RocketFuelMixC.name=CN3H7O3火箭燃料单元
-item.RocketFuelMixD.name=密集肼火箭燃料单元
+item.RocketFuelMixD.name=浓缩肼火箭燃料单元
 item.RP1Fuel.name=RP-1燃料单元
 item.Monomethylhydrazine.name=甲基肼单元
 item.Hydrazine.name=肼单元
@@ -3059,12 +3049,8 @@ item.GTPP.BattPack.09.name.name=充电工具包[UHV]
 
 # Added 13/3/19
 item.gtpp.debug.scanner.name=GT++Debug扫描器
-item.RawWaste.name=动物粪便单元
-item.ManureSlurry.name=粪浆单元
-item.FertileManureSlurry.name=肥沃的粪浆单元
 item.itemDustTinyDemicheleiteBr.name=小撮溴硫铋(Br)
 item.itemDustSmallDemicheleiteBr.name=小堆溴硫铋(Br)
-tile.blockPooCollector.name=农业下水道
 tile.Block of Lithium 7.name=锂-7块
 
 # Added 14/3/19
@@ -3082,8 +3068,6 @@ item.itemBombUnf.name=可投掷炸弹(未完成)
 item.itemBombCasing.name=炸弹框架
 item.gtpp.throwable.bomb.name=可投掷炸弹
 item.itemDetCable.name=炸弹保险丝
-tile.blockPooCollector.0.name=农业下水道
-tile.blockPooCollector.8.name=生物复合收集器
 item.itemIngotBakelite.name=电木锭
 item.itemDustBakelite.name=电木粉
 item.itemDustTinyBakelite.name=小撮电木粉
@@ -3212,11 +3196,11 @@ tile.Block of White Metal.name=白物质块
 tile.White Metal Frame Box.name=白物质框架
 
 # Added 29/04/2019
-tile.OreRunite.name=虚恩矿
-item.crushedRunite.name=粉碎的虚恩矿
-item.oreRawRunite.name=粗虚恩矿
-item.crushedCentrifugedRunite.name=离心的虚恩矿
-item.crushedPurifiedRunite.name=洗净的虚恩矿
+tile.OreRunite.name=虚恩矿石
+item.crushedRunite.name=粉碎的虚恩矿石
+item.oreRawRunite.name=粗虚恩矿石
+item.crushedCentrifugedRunite.name=离心的虚恩矿石
+item.crushedPurifiedRunite.name=洗净的虚恩矿石
 item.dustImpureRunite.name=含杂虚恩粉
 item.dustPureRunite.name=纯净虚恩粉
 
@@ -3313,7 +3297,6 @@ item.itemDustIndalloy140.name=铋铅合金140粉
 item.itemDustLFTRFuel1.name=液态氟钍反应堆燃料1粉
 item.itemDustLFTRFuel2.name=液态氟钍反应堆燃料2粉
 item.itemDustLFTRFuel3.name=液态氟钍反应堆燃料3粉
-item.itemDustManureByproducts.name=粪肥副产粉
 item.itemDustMixTumbaga.name=铜金混合物粉
 item.itemDustOrganicFertilizer.name=生物肥料粉
 item.itemDustPotassiumNitrate.name=硝酸钾粉
@@ -3328,13 +3311,11 @@ item.itemDustSmallAmmoniumNitrate.name=小堆硝酸铵粉
 item.itemDustSmallCopperIISulfate.name=小堆硫酸铜(II)粉
 item.itemDustSmallCopperIISulfatePentahydrate.name=小堆五水合硫酸铜(II)粉
 item.itemDustSmallCyanoaceticAcid.name=小堆氰乙酸粉
-item.itemDustSmallDirt.name=小堆干土粉
 item.itemDustSmallFormaldehydeCatalyst.name=小堆甲醛催化剂粉
 item.itemDustSmallIndalloy140.name=小堆铋铅合金140粉
 item.itemDustSmallLFTRFuel1.name=小堆液态氟钍反应堆燃料1粉
 item.itemDustSmallLFTRFuel2.name=小堆液态氟钍反应堆燃料2粉
 item.itemDustSmallLFTRFuel3.name=小堆液态氟钍反应堆燃料3粉
-item.itemDustSmallManureByproducts.name=小堆粪肥副产粉
 item.itemDustSmallMixTumbaga.name=小堆铜金混合物粉
 item.itemDustSmallOrganicFertilizer.name=小堆生物肥料粉
 item.itemDustSmallPotassiumNitrate.name=小堆硝酸钾粉
@@ -3355,7 +3336,6 @@ item.itemDustTinyIndalloy140.name=小撮铋铅合金140粉
 item.itemDustTinyLFTRFuel1.name=小撮液态氟钍反应堆燃料1粉
 item.itemDustTinyLFTRFuel2.name=小撮液态氟钍反应堆燃料2粉
 item.itemDustTinyLFTRFuel3.name=小撮液态氟钍反应堆燃料3粉
-item.itemDustTinyManureByproducts.name=小撮粪肥副产粉
 item.itemDustTinyMixTumbaga.name=小撮铜金混合物粉
 item.itemDustTinyOrganicFertilizer.name=小撮生物肥料粉
 item.itemDustTinyPotassiumNitrate.name=小撮硝酸钾粉
@@ -3525,9 +3505,6 @@ item.GTPP.bauble.fireprotection.0.name.name=超级披萨手套
 # Added 16/5/19
 item.itemCellSeleniumDioxide.name=二氧化硒单元
 item.itemCellSeleniousAcid.name=亚硒酸单元
-
-# Added 25/7/19
-container.pestkiller=害虫杀手
 
 # Added 15/8/19
 gtpp.nei.decayables=可衰变箱子(铅封盒)
@@ -3794,8 +3771,8 @@ item.itemBasicTurbine_2.name=基础钢涡轮
 interaction.voidexcess.enabled=禁用溢出停机
 interaction.voidexcess.disabled=启用溢出停机
 
-interaction.separateBusses.enabled=输入总线已独立
-interaction.separateBusses.disabled=输入总线未独立
+interaction.separateBuses.enabled=输入总线已分离
+interaction.separateBuses.disabled=输入总线未分离
 
 # Added 29/11/21
 
@@ -3965,20 +3942,15 @@ item.itemSimpleFiremaker.message.1=你不知何故设法让自己着火了......
 item.itemSimpleFiremaker.message.2=你燃起了火焰！
 item.itemSimpleFiremaker.message.3=你的尝试毫无效果.
 
-# Added 17/07/23
-item.BasicGenericChemItem.29.name=净水催化剂
-item.BasicGenericChemItem.30.name=超净水催化剂
-
-# Added 18/07/23
-item.BasicGenericChemItem.31.name=粒子加速催化剂
-item.BasicGenericChemItem.32.name=同步加速催化剂
-
 # Added 19/09/23
 item.BasicGenericChemItem.33.name=海藻基质催化剂
 
 # Added 13/03/25
 item.BasicGenericChemItem.34.name=地狱力量催化剂
 item.BasicGenericChemItem.35.name=晶体着色催化剂
+
+# Added 13/03/26
+item.BasicGenericChemItem.36.name=Chlorination Catalyst
 
 # config gui
 gtpp.gui.config.general=通用
@@ -4006,7 +3978,7 @@ gtpp.tooltip.base_particles.type.boson=玻色子
 gtpp.tooltip.base_particles.type.baryon=重子
 gtpp.tooltip.base_particles.type.meson=介子
 gtpp.tooltip.base_particles.type.unknown=未知
-gtpp.tooltip.integrated_circuit.configuration=配置 == %d
+gtpp.tooltip.integrated_circuit.configuration=配置 == %d\n右键点击以重新配置\n需要螺丝刀或电路编程工具
 gtpp.tooltip.scrubber_turbine.early_tier=用于净化空气，并且前期可用的涡轮。
 gtpp.tooltip.scrubber_turbine.uses_left=剩余 %d/%d 次使用机会。
 gtpp.tooltip.buffer_core.key_crafting_component=%s设备的关键合成组件
@@ -4022,7 +3994,7 @@ gtpp.tooltip.cover_item.connection.deny=允许连接：假
 gtpp.tooltip.cover_item.change_state=在应用前按Shift+右键切换状态
 gtpp.tooltip.dark_world_portal.frame.0=用这个可以进入腐化之地
 gtpp.tooltip.dark_world_portal.frame.1=以与下界传送门相同的形状组装。
-gtpp.tooltip.dark_world_portal.0=如果你懒得搭建传送门结构，那就放这个吧，懒鬼。
+gtpp.tooltip.dark_world_portal.0=如果你太懒不想搭建传送门结构，那就放这个吧，懒鬼。
 gtpp.tooltip.dark_world.ground=如果碰巧着火，会燃烧得很快。
 gtpp.tooltip.dark_world.polluted_dirt=也许你可以用这个做点什么？
 gtpp.tooltip.dark_world.polluted_dirt.1=这闻起来比豆屁还难闻…
@@ -4038,14 +4010,11 @@ gtpp.tooltip.tool.mining_speed=挖掘速度：
 
 gtpp.tooltip.wireless_charger.0=手持螺丝刀Shift+右键，以锁定供给所有者
 gtpp.tooltip.wireless_charger.1=使用螺丝刀切换模式。
-gtpp.tooltip.wireless_charger.2=§a长距离模式§7：可以为最远 %,d 米外的单个设备提供 1A 能量。
-gtpp.tooltip.wireless_charger.3=§a本地模式§7：可为 %,d 米范围内的每位玩家提供 2A 能量。
-gtpp.tooltip.wireless_charger.4=§a混合模式§7：可在 %,d 米范围内提供 1A 能量，并在 %,d 米内额外提供 1A。
+gtpp.tooltip.wireless_charger.2=§a长距离模式§7：可以为最远%s米内的每位玩家提供1A电力。
+gtpp.tooltip.wireless_charger.3=§a本地模式§7：可为%s米范围内的每位玩家提供2A电力。
+gtpp.tooltip.wireless_charger.4=§a混合模式§7：可在%s米范围内提供1A电力，并在%s米内额外提供1A。
 
 #gtpp info data
-gtpp.infodata.multi_block.total_time=建成后总时间：%s周，%s天，
-gtpp.infodata.multi_block.total_time.0=%s小时，%s分钟，%s秒。
-gtpp.infodata.multi_block.total_time.in_ticks=总时间（刻）：%s
 gtpp.infodata.tesseract_generator.name=超立方体发生器
 gtpp.infodata.tesseract_generator.frequency=频率：%d
 gtpp.infodata.tesseract_generator.status.active=激活
@@ -4075,7 +4044,16 @@ gtpp.infodata.solar_heater.testificate=村民
 gtpp.infodata.energy_buffer.eu_stored=%s EU 已存储
 gtpp.infodata.energy_buffer.eu_capacity=%s EU 总容量
 gtpp.infodata.tiered_chest.name=超级箱
-gtpp.infodata.tiered_tank.name=%s 流体储罐
+gtpp.tiered_tank.desc.capacity=可存储 %s 流体
+gtpp.tiered_tank.desc.portable=一个便携式储罐
+gtpp.tiered_tank.desc.fluid=流体：%s %s L
+gtpp.tiered_tank.tooltip.contains=含有流体：%s
+gtpp.tiered_tank.tooltip.amount=流体含量：%s L
+gtpp.infodata.tiered_tank.name=%s储罐
+gtpp.tiered_tank.infodata.amount=%s L
+gtpp.tiered_tank.infodata.capacity=%s L
+GT5U.infodata.digital_tank.stored_fluid=已储存流体
+GT5U.infodata.digital_tank.stored_fluid.empty=空
 
 # GUI
 gtpp.gui.text.time_since_built=建成后总时间
@@ -4098,7 +4076,6 @@ gtpp.gui.text.power_sub_station.power_loss=能量损耗：每tick %s EU
 gtpp.gui.text.power_sub_station.running_perfectly=运行正常
 gtpp.gui.text.power_sub_station.turn_on_with_mallet=用软锤开启
 gtpp.gui.atmospheric_reconditioner.tooltip.reduction=减少：%s/s
-gtpp.gui.crop_harvestor.tooltip.water=水：%sL/%sL
 
 gtpp.gui.multiblock.progress.text=进度：%s s / %s s
 gtpp.gui.multiblock.eu_t_p.text=%s EU/t/并行
@@ -4116,5 +4093,184 @@ gtpp.chat.wireless_charger.mode.mixed=混合
 gtpp.chat.wireless_charger.range=范围
 gtpp.chat.wireless_charger.lock=已锁定给所有者
 gtpp.chat.wireless_charger.unlock=已解锁
-gtpp.chat.wireless_charger.enter=你已进入充电范围。[%,d 米 - %s]
-gtpp.chat.wireless_charger.leave=你已经离开充能范围。[%,d 米 - %s]
+gtpp.chat.wireless_charger.enter=你已进入充电范围。[%s 米 - %s]
+gtpp.chat.wireless_charger.leave=您已离开充电范围。[%s 米 - %s]
+
+gtpp.book.modular_baubles.name=模块化饰品手册
+gtpp.book.modular_baubles.page00=概念：这个想法源于对灵活性的追求。\n第一步，制作一个模块化工作台，开始定制你的饰品。\n制作完成后，你就可以将本书中列出的升级组件组合起来，提升饰品的等级/100。
+gtpp.book.modular_baubles.page01=防御：\n可通过将金属板与饰品结合进行升级。\n | +1 | 铝\n | +2 | 不锈钢\n | +3 | 钨\n | +4 | 钨钢\n | +5 | 硅岩
+gtpp.book.nuclear_chemistry_ffpp.name=反应堆燃料加工厂手册
+gtpp.book.nuclear_chemistry_ffpp.page00=核裂变燃料处理厂\n尺寸：3x9x3 [长x高x宽]\n控制器：中心，底部\n4x 输入仓\n2x 输出仓\n1x 输出总线\n1x ZPM+消声仓\n1x 维护仓\n1x 能源仓
+gtpp.book.nuclear_chemistry_ffpp.page01=[1] 7x 哈斯特洛依合金-X 或 输入/输出  \n[2] 5x 耐热铬铁合金-DS 流体容器  \n[3] 4x 反应堆屏蔽机械方块  \n[4] 17x 哈斯特洛依合金-N密封外壳 \n多方块结构  \n惯例为 [长x高x宽]
+gtpp.book.nuclear_chemistry_ffpp.page02=第1/2层：\n[1][1][1]\n[1][1][1]\n[1][1][1]\n第3/5/6层：\n[ ][4][ ]\n[4][2][4]\n[ ][4][ ]
+gtpp.book.nuclear_chemistry_ffpp.page03=第4层  \n[ ][3][ ]  \n[3][2][3]  \n[ ][3][ ]  \n层 7/8/9  \n[ ][ ][ ]  \n[ ][3][ ]  \n[ ][ ][ ]
+gtpp.book.nuclear_chemistry_ffpp.page04=裂变燃料\n处理厂\n----------------------\n该结构用于生产运行液态氟钍反应堆[LFTR]所需的熔盐。
+gtpp.book.power_storage_v064.name=能源站手册[版本 0.64]
+gtpp.book.power_storage_v064.page00=所以，说到电力存储，你实际上有三个不同的选项：  \n电池缓冲、  \n能量缓冲、  \n能源站
+gtpp.book.power_storage_v064.page01=电池缓冲\n相当便携。允许你随手放置一个，并在任何需要的地方插入电池。\n每储存一节电池可输出1A电流，最大可达16A。
+gtpp.book.power_storage_v064.page02=能量缓冲  \n是基地中更优的存储选择。一旦放置，便无法在不损失所有已存储能量的情况下移动。  \n能量缓冲可从输出端输出4A电流，但输入端可接受16A电流。
+gtpp.book.power_storage_v064.page03=能源站\n用于在游戏后期存储巨大的能量。\n每 tick 消耗所有能量类型仓的平均电压的 2%。
+gtpp.book.power_storage_v064.page04=允许从控制器背面插入/移除能量，使用螺丝刀切换。\n可变高度结构，介于4-16Y之间。插入的氧化还原电池决定结构的最大能量等级。
+gtpp.book.power_storage_v064.page05=氧化还原电池不能放置在顶层或底层，内部只占用3xhx3空间。不同等级的电池不能混合在一起。
+gtpp.book.power_storage_v064.page06=所有仓必须至少为HV等级，设置此最低等级是为了防止人们滥用ULV/LV仓来降低平均/t。\n目前，在结构形成之前，GUI将不会显示任何内容，这是一个已知的bug。
+gtpp.book.power_storage_v064.page07=有效仓：\n能源仓，\n动力仓，\n充电总线，\n放电总线，\n动力缓冲器，\n多A动力仓。\n结构必须至少包含一个能源仓和一个动力仓。
+gtpp.book.thermal_boiler.name=地热锅炉手册
+gtpp.book.thermal_boiler.page00=本书将解释如何建造并运行你的地热锅炉.对于本手册本身或其内容所造成的任何损害,我们概不负责.
+gtpp.book.thermal_boiler.page01=首先,地热锅炉想要正常工作需要做好以下准备: 锅炉主方块、20x热抑制机械方块、2x输入仓、2x输出仓、1x维护仓以及一堆工具.
+gtpp.book.thermal_boiler.page02=建造时,首先在地上放置3x3的一层热抑制机械方块（中心为仓室）,然后将锅炉主方块放置在第二层的侧面中心处.
+gtpp.book.thermal_boiler.page03=现在将剩余的3个仓室放置在剩余的3个侧面的中心处.在第二层剩下的四个角放置热抑制机械方块.立方体中间只应空出一格.
+gtpp.book.thermal_boiler.page04=最后,在顶层放置3x3的热抑制机械方块,同样在中心处放置最后一个仓室.
+gtpp.book.thermal_boiler.page05=现在访问锅炉主方块时,它应该不再告诉你结构不完整了（最下面一行）.现在带上一堆工具（锻造锤、软锤、螺丝刀、扳手电烙铁和撬棍）去维护仓吧.
+gtpp.book.thermal_boiler.page06=在维护仓GUI界面中,依次手持这六种工具右键.注意,你需要在背包内携带锡或者铅才能使用电烙铁.
+gtpp.book.thermal_boiler.page07=维护完成后,主方块应该会告诉你需要用软锤右键它,来启动或重启此多方块机器.软锤可以启动或关闭机器.而机器在遇到一些严重故障时也会自己停止运行.
+gtpp.book.thermal_boiler.page08=如果需要用岩浆来供给此设备的话，你还需要添加一个岩浆滤网来从其中提取其他资源。滤网损坏后，锅炉不会像涡轮机一样爆炸。而要是你用的是太阳能盐的话，就用不着滤网了。
+gtpp.book.thermal_boiler.page09=处理岩浆时你会得到黑曜石,但如果用了过滤器的话,你获得的将是黑曜石锭而不是黑曜石块.使用太阳能盐时,你可以重新获得（冷却的）盐.
+gtpp.book.thermal_boiler.page10=现在来讲讲维护吧.连续运行几个小时后,你的锅炉可能会出些小问题,这些小问题不会打断它的运行,只会降低其效率.显示的每个维护问题会降低机器10%的效率.
+gtpp.book.thermal_boiler.page11=在维护仓GUI中使用与问题相应的工具即可修复维护问题.如果所有六个可能的维护问题都发生了,无论如何机器都会自动关闭,不会爆炸,只是停机.
+gtpp.book.thermal_boiler.page12=地热锅炉在100%效率时,每t消耗大约5-6升水,产生800升蒸汽.每秒消耗1666升岩浆.
+gtpp.book.thermal_boiler.page13=一台地热锅炉与33台小型锅炉相当,而且由于当锅炉没有足够的燃料时,其效率就会大大降低,所以你得考虑在地狱造个大泵抽岩浆了,或者造个不错的反应堆来提供熔盐.
+gtpp.book.thermal_boiler.page14=输入和输出仓室是可选的,你可以装好多个,也可以一个都不装.一台没有输入的机器无法处理任何配方,而一台没有输出的机器将销毁本该输出的物品或流体.
+gtpp.book.thermal_boiler.page15=在输出仓上使用螺丝刀可锁定输出流体种类,这个小技巧挺有用的.
+
+miscutils.blockcasings.0.name=离心机机械方块
+miscutils.blockcasings.1.name=焦炉机械方块
+miscutils.blockcasings.2.name=隔热焦炉机械方块
+miscutils.blockcasings.3.name=绝热焦炉机械方块
+miscutils.blockcasings.4.name=辊压机机械方块
+miscutils.blockcasings.5.name=电解机机械方块
+miscutils.blockcasings.6.name=线材轧机机械方块
+miscutils.blockcasings.7.name=粉碎机机械方块
+miscutils.blockcasings.8.name=质量发生线圈
+miscutils.blockcasings.9.name=质量发生机械方块
+miscutils.blockcasings.10.name=镀铁砖块
+miscutils.blockcasings.11.name=储罐拓展方块
+miscutils.blockcasings.12.name=哈斯特洛依合金-N反应堆机械方块
+miscutils.blockcasings.13.name=反应堆屏蔽机械方块
+miscutils.blockcasings.14.name=冶炼炉隔热线圈
+miscutils.blockcasings.15.name=冶炼炉机械方块
+
+gtplusplus.blockcasings.2.0.name=热处理机械方块
+gtplusplus.blockcasings.2.1.name=哈斯特洛依合金-N密封方块
+gtplusplus.blockcasings.2.2.name=哈斯特洛依合金-X结构方块
+gtplusplus.blockcasings.2.3.name=耐热铬铁合金-DS流体容器方块
+gtplusplus.blockcasings.2.4.name=洗矿厂机械方块
+gtplusplus.blockcasings.2.5.name=工业筛选机机械方块
+gtplusplus.blockcasings.2.6.name=大型筛选格栅
+gtplusplus.blockcasings.2.7.name=钒氧化还原能量单元(EV)
+gtplusplus.blockcasings.2.8.name=能源站外围机械方块
+gtplusplus.blockcasings.2.9.name=回旋加速器线圈
+gtplusplus.blockcasings.2.10.name=回旋加速器外围机械方块
+gtplusplus.blockcasings.2.11.name=热抑制机械方块
+gtplusplus.blockcasings.2.12.name=批量生产框架
+gtplusplus.blockcasings.2.13.name=切割机框架
+gtplusplus.blockcasings.2.15.name=无菌农场机械方块
+
+gtplusplus.blockcasings.3.0.name=水产机械方块
+gtplusplus.blockcasings.3.1.name=强化镍铬基合金机械方块
+gtplusplus.blockcasings.3.2.name=多功能机械方块
+gtplusplus.blockcasings.3.3.name=三元金属镀层机械方块
+gtplusplus.blockcasings.3.4.name=钒氧化还原能量单元(IV)
+gtplusplus.blockcasings.3.5.name=钒氧化还原能量单元(LuV)
+gtplusplus.blockcasings.3.6.name=钒氧化还原能量单元(ZPM)
+gtplusplus.blockcasings.3.7.name=钒氧化还原能量单元(UV)
+gtplusplus.blockcasings.3.8.name=钒氧化还原能量单元(UHV)
+gtplusplus.blockcasings.3.9.name=仓库机械方块
+gtplusplus.blockcasings.3.10.name=进阶凛冰机械方块
+gtplusplus.blockcasings.3.11.name=炽焱高炉机械方块
+gtplusplus.blockcasings.3.12.name=聚变机械方块MK III
+gtplusplus.blockcasings.3.13.name=进阶聚变线圈
+gtplusplus.blockcasings.3.14.name=未命名
+gtplusplus.blockcasings.3.15.name=抑制机械方块
+
+gtplusplus.blockcasings.4.3.name=电弧炉机械方块
+gtplusplus.blockcasings.4.4.name=量子操纵者线圈方块
+gtplusplus.blockcasings.4.10.name=真空机械方块
+gtplusplus.blockcasings.4.11.name=涡轮引擎机械方块
+
+gtplusplus.blockcasings.5.0.name=艾萨研磨机外围机械方块
+gtplusplus.blockcasings.5.1.name=艾萨研磨机管道方块
+gtplusplus.blockcasings.5.2.name=艾萨研磨机齿轮箱
+gtplusplus.blockcasings.5.3.name=元素约束外壳
+gtplusplus.blockcasings.5.4.name=气涤塔外围机械方块
+gtplusplus.blockcasings.5.5.name=加强打印机械方块
+gtplusplus.blockcasings.5.6.name=锻造机械方块
+gtplusplus.blockcasings.5.7.name=中子脉冲控制方块
+gtplusplus.blockcasings.5.8.name=寰宇强化脉冲控制方块
+gtplusplus.blockcasings.5.9.name=无尽强化脉冲控制方块
+gtplusplus.blockcasings.5.10.name=时空连续体撕裂方块
+gtplusplus.blockcasings.5.11.name=中子屏蔽核心方块
+gtplusplus.blockcasings.5.12.name=寰宇强化屏蔽核心方块
+gtplusplus.blockcasings.5.13.name=无尽强化屏蔽核心方块
+gtplusplus.blockcasings.5.14.name=时空扭曲核心方块
+gtplusplus.blockcasings.5.15.name=力场玻璃
+
+gtplusplus.blockcasings.6.0.name=聚变机械方块MK IV
+gtplusplus.blockcasings.6.1.name=进阶聚变线圈 II
+
+gtplusplus.blockcasings.pipesgears.0.name=埃格林钢齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.1.name=镍铬基合金-792齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.2.name=耐热铬铁合金-MA956齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.3.name=镍钛诺60齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.4.name=塞龙-100齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.5.name=皮卡优合金齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.6.name=泰坦精钢齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.7.name=深渊合金齿轮箱机械方块
+gtplusplus.blockcasings.pipesgears.8.name=巴氏合金管道方块
+gtplusplus.blockcasings.pipesgears.9.name=镍铬基合金-690管道方块
+gtplusplus.blockcasings.pipesgears.10.name=铬钴锰钛合金管道方块
+gtplusplus.blockcasings.pipesgears.11.name=镍钛诺60管道方块
+gtplusplus.blockcasings.pipesgears.12.name=路菲恩管道方块
+gtplusplus.blockcasings.pipesgears.13.name=西诺柏管道方块
+gtplusplus.blockcasings.pipesgears.14.name=泰坦精钢管道方块
+gtplusplus.blockcasings.pipesgears.15.name=深渊合金管道方块
+
+gtplusplus.blockspecialcasings.1.0.name=涡轮轴方块
+gtplusplus.blockspecialcasings.1.1.name=加强蒸汽涡轮机械方块
+gtplusplus.blockspecialcasings.1.2.name=加强高压蒸汽涡轮机械方块
+gtplusplus.blockspecialcasings.1.3.name=加强燃气涡轮机械方块
+gtplusplus.blockspecialcasings.1.4.name=加强等离子涡轮机械方块
+gtplusplus.blockspecialcasings.1.5.name=特斯拉抑制机械方块
+gtplusplus.blockspecialcasings.1.6.name=太阳能塔机械方块
+gtplusplus.blockspecialcasings.1.7.name=盐抑制机械方块
+gtplusplus.blockspecialcasings.1.8.name=热隔绝机械方块
+gtplusplus.blockspecialcasings.1.9.name=浮选机机械方块
+gtplusplus.blockspecialcasings.1.10.name=加强引擎机械方块
+gtplusplus.blockspecialcasings.1.11.name=分子抑制机械方块
+gtplusplus.blockspecialcasings.1.12.name=高压流电容方块
+gtplusplus.blockspecialcasings.1.13.name=粒子抑制机械方块
+gtplusplus.blockspecialcasings.1.14.name=强化热交换机械方块
+gtplusplus.blockspecialcasings.1.15.name=加强超临界蒸汽涡轮机械方块
+
+gtplusplus.blockspecialcasings.2.0.name=强化青铜机械方块
+gtplusplus.blockspecialcasings.2.1.name=强化铝机械方块
+gtplusplus.blockspecialcasings.2.2.name=强化劳伦姆合金机械方块
+gtplusplus.blockspecialcasings.2.3.name=强化博特姆合金机械方块
+
+gtplusplus.blockspecialcasings.3.0.name=谐振腔 I
+gtplusplus.blockspecialcasings.3.1.name=谐振腔 II
+gtplusplus.blockspecialcasings.3.2.name=谐振腔 III
+gtplusplus.blockspecialcasings.3.3.name=谐振腔 IV
+gtplusplus.blockspecialcasings.3.4.name=调制腔 I
+gtplusplus.blockspecialcasings.3.5.name=调制腔 II
+gtplusplus.blockspecialcasings.3.6.name=调制腔 III
+gtplusplus.blockspecialcasings.3.7.name=调制腔 IV
+
+gtplusplus.blocktieredcasings.1.0.name=基本外壳 I
+gtplusplus.blocktieredcasings.1.1.name=基本外壳 II
+gtplusplus.blocktieredcasings.1.2.name=基本外壳 III
+gtplusplus.blocktieredcasings.1.3.name=基本外壳 IV
+gtplusplus.blocktieredcasings.1.4.name=基本外壳 V
+gtpp.tooltip.frame.void=No more cheaty frames for GTNH players.
+gtpp.tooltip.frame.accelerated=Longevity for bees isn't very common, especially if they're working harder.
+gtpp.tooltip.frame.mutagenic=Evolution of the fittest, finest and fastest.
+gtpp.tooltip.frame.busy=Your bee will work harder and longer than you expected.
+gtpp.tooltip.frame.decaying=Who really needs stable genetics?
+gtpp.tooltip.frame.slowing=The journey is its own reward.
+gtpp.tooltip.frame.stabilizing=If you wish your bees to keep their form.
+gtpp.tooltip.frame.arborists=Who need Bees when you can have Trees?
+
+gtplusplus.blocktieredcasings.1.5.name=基本框架 I
+gtplusplus.blocktieredcasings.1.6.name=基本框架 II
+gtplusplus.blocktieredcasings.1.7.name=基本框架 III
+gtplusplus.blocktieredcasings.1.8.name=基本框架 IV
+gtplusplus.blocktieredcasings.1.9.name=基本框架 V

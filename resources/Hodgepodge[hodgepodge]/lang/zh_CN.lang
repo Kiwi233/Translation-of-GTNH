@@ -26,6 +26,7 @@ commands.time.usageWithGet=/time <set|add> <数值> 或 /time get
 
 hodgepodge.soundsmenu.refreshsounds=刷新音频
 hodgepodge.bed_respawn.msg=重生点设置
+hodgepodge.menu.mod_options=模组选项...
 
 bettermodlist.sort.normal=正常
 bettermodlist.sort.a_to_z=A-Z
@@ -33,36 +34,36 @@ bettermodlist.sort.z_to_a=Z-A
 bettermodlist.gui.modlistinfo1=哦天哪一切都不一样了!
 bettermodlist.gui.modlistinfo2=全新的设计来自于:
 
-hodgepodge.debug.advanced_tooltips.enabled=Advanced Item Tooltips: §aOn
-hodgepodge.debug.advanced_tooltips.disabled=Advanced Item Tooltips: §cOff
-hodgepodge.debug.hitboxes.enabled=Hitboxes: §aOn
-hodgepodge.debug.hitboxes.disabled=Hitboxes: §cOff
-hodgepodge.debug.pause_focus.enabled=Pause on lost focus: §aOn
-hodgepodge.debug.pause_focus.disabled=Pause on lost focus: §cOff
-hodgepodge.debug.reload_chunks.message=Reloaded all chunks.
-hodgepodge.debug.reload_pack.message=Reloaded resource packs in %s seconds.
-hodgepodge.debug.crash.count.0=F3 + C is held down. This will crash the game in 6 seconds unless released.
-hodgepodge.debug.crash.count.1=Crashing in 5...
-hodgepodge.debug.crash.count.2=Crashing in 4...
-hodgepodge.debug.crash.count.3=Crashing in 3...
-hodgepodge.debug.crash.count.4=Crashing in 2...
-hodgepodge.debug.crash.count.5=Crashing in 1...
-hodgepodge.debug.crash.count.6=Time is over, game will crash when release ANY key.
-hodgepodge.debug.crash.cancel=Crash canceled.
-hodgepodge.debug.copy_location.message=Copied location to clipboard.
+hodgepodge.debug.advanced_tooltips.enabled=高级物品提示：§a开启
+hodgepodge.debug.advanced_tooltips.disabled=高级物品提示：§c关闭
+hodgepodge.debug.hitboxes.enabled=碰撞箱：§a开启
+hodgepodge.debug.hitboxes.disabled=碰撞箱：§c关闭
+hodgepodge.debug.pause_focus.enabled=失去焦点时暂停：§a开启
+hodgepodge.debug.pause_focus.disabled=暂停时失去焦点：§c关闭
+hodgepodge.debug.reload_chunks.message=已重新加载所有区块。
+hodgepodge.debug.reload_pack.message=已在 %s 秒内重新加载资源包。
+hodgepodge.debug.crash.count.0=按住 F3 + C。游戏将在 6 秒后崩溃，松开取消。
+hodgepodge.debug.crash.count.1=崩溃倒计时 5...
+hodgepodge.debug.crash.count.2=崩溃倒计时 4...
+hodgepodge.debug.crash.count.3=崩溃倒计时 3...
+hodgepodge.debug.crash.count.4=崩溃倒计时 2...
+hodgepodge.debug.crash.count.5=崩溃倒计时 1...
+hodgepodge.debug.crash.count.6=时间到，游戏将在任意按键时崩溃。
+hodgepodge.debug.crash.cancel=崩溃已取消。
+hodgepodge.debug.copy_location.message=已复制坐标到剪贴板。
 
-hodgepodge.debug.help.message=Key bindings:
-hodgepodge.debug.help.0=F3 = Open Debug Screen
-hodgepodge.debug.help.1=Shift + F3 = Open Debug Screen and show Profiler graph
-hodgepodge.debug.help.angelica=Alt + F3 = [Angelica] Open Debug Screen and show FPS/TPS graph
-hodgepodge.debug.help.2=F3 + A = Reload chunks
-hodgepodge.debug.help.3=F3 + B = Show hitboxes
-hodgepodge.debug.help.4=F3 + C = Copy location as /cofh tpx command, or hold for 6 seconds to crash the game
-hodgepodge.debug.help.5=F3 + D = [Hodgepodge] Clear chat
-hodgepodge.debug.help.6=F3 + H = Advanced tooltips
-hodgepodge.debug.help.7=F3 + P = Pause on lost focus
-hodgepodge.debug.help.8=F3 + Q = [Hodgepodge] Show this list
-hodgepodge.debug.help.9=F3 + S/T = Reload resource packs
-hodgepodge.debug.help.etfuturum=F3 + F4 = [Et-Futurum-Requiem] Open game mode switcher
-hodgepodge.debug.help.nei.1=%s = [NEI] Open Mob Spawning Overlay
-hodgepodge.debug.help.nei.2=%s = [NEI] Open Chunk Overlay
+hodgepodge.debug.help.message=按键设置：
+hodgepodge.debug.help.0=F3 = 打开调试屏幕
+hodgepodge.debug.help.1=Shift + F3 = 打开调试屏幕并显示性能分析器图表
+hodgepodge.debug.help.angelica=Alt + F3 = [Angelica] 打开调试屏幕并显示FPS/TPS图表
+hodgepodge.debug.help.2=F3 + A = 重新加载区块
+hodgepodge.debug.help.3=F3 + B = 显示碰撞箱
+hodgepodge.debug.help.4=F3 + C = 复制当前位置为 /cofh tpx 命令，或按住 6 秒使游戏崩溃
+hodgepodge.debug.help.5=F3 + D = [Hodgepodge] 清空聊天记录
+hodgepodge.debug.help.6=F3 + H = 显示高级提示框
+hodgepodge.debug.help.7=F3 + P = 失去焦点时暂停
+hodgepodge.debug.help.8=F3 + Q = [Hodgepodge] 显示此列表
+hodgepodge.debug.help.9=F3 + S/T = 重新加载资源包
+hodgepodge.debug.help.etfuturum=F3 + F4 = [Et-Futurum-Requiem] 打开游戏模式切换器
+hodgepodge.debug.help.nei.1=%s = [NEI] 开启生物生成覆盖层
+hodgepodge.debug.help.nei.2=%s = [NEI] 打开区块覆盖层
