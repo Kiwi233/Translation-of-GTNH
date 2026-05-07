@@ -1,9 +1,7 @@
-import { join } from 'node:path'
-
-import { Glob, $ } from 'bun'
+import { $ } from 'bun'
 import { consola } from 'consola@3.4.2'
 
-import { createWorkspace, extractArchive, installModpackFrom } from './shared.ts'
+import { createWorkspace, installModpackFrom } from './shared.ts'
 
 interface RunRef {
   owner: string
@@ -29,14 +27,6 @@ function parseRunUrl(rawUrl: string): RunRef | null {
   if (actions !== 'actions' || runs !== 'runs' || !/^\d+$/.test(runId)) return null
 
   return { owner, repo, runId }
-}
-
-async function findInnerArchive(downloadDir: string): Promise<string | null> {
-  const glob = new Glob('**/*.{zip,7z}')
-  for await (const file of glob.scan({ cwd: downloadDir, dot: true })) {
-    return join(downloadDir, file)
-  }
-  return null
 }
 
 async function main() {
@@ -65,19 +55,7 @@ async function main() {
     await $`gh run download ${runRef.runId} --repo ${runRef.owner}/${runRef.repo} --pattern ${artifactName} --dir ${ws.download}`
     consola.success('Artifact 下载完成')
 
-    consola.start('正在查找内层 modpack 压缩包...')
-    const innerArchive = await findInnerArchive(ws.download)
-    if (!innerArchive) {
-      consola.error('在下载的 artifact 中未找到 modpack 压缩包 (zip/7z)')
-      process.exit(1)
-    }
-    consola.success(`找到内层压缩包: ${innerArchive}`)
-
-    consola.start('正在解压内层压缩包...')
-    await extractArchive(innerArchive, ws.extract)
-    consola.success(`解压完成到临时目录: ${ws.extract}`)
-
-    await installModpackFrom(ws.extract, targetRoot)
+    await installModpackFrom(ws.download, targetRoot)
   } finally {
     consola.info('正在清理临时目录...')
     await ws.cleanup()
