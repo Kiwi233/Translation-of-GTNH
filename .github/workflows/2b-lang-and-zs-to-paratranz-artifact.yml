@@ -1,0 +1,51 @@
+name: 2B. Lang And Zs To Paratranz (Artifact)
+
+on:
+  workflow_dispatch:
+    inputs:
+      run-url:
+        description: "GitHub Actions Run URL"
+        required: true
+        type: string
+      artifact-name:
+        description: "Artifact 名称（支持 glob）"
+        required: true
+        default: "*mmcprism-java17-25*"
+        type: string
+
+env:
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+  PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
+  MODPACK_PATH: .modpack.local.d
+
+jobs:
+  lang-and-zs-to-paratranz:
+    name: Lang And Zs To Paratranz
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Compare Repo
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-compare-repo@master
+
+      - name: Setup Bun
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/setup-bun@master
+
+      - name: Ensure Modpack
+        uses: Kiwi233/Translation-of-GTNH/.github/actions/ensure-modpack@master
+        with:
+          url: ""
+          run-url: ${{ github.event.inputs.run-url }}
+          artifact-name: ${{ github.event.inputs.artifact-name }}
+          root: ${{ env.MODPACK_PATH }}
+
+      - name: Run Script
+        run: >-
+          bun run src/index.ts to-paratranz:lang-zs
+          --modpack-path='${{ env.MODPACK_PATH }}'
+          --extra-lang="config/amazingtrophies/lang/en_US.lang"
+          --extra-lang="config/txloader/**/en_US.lang"
+
+      - name: Print success summary
+        run: |
+          echo "## 已自动同步整合包文件至Paratranz" >> $GITHUB_STEP_SUMMARY
+          echo "Run URL: ${{ github.event.inputs.run-url }}" >> $GITHUB_STEP_SUMMARY
+          echo "Artifact Name: ${{ github.event.inputs.artifact-name }}" >> $GITHUB_STEP_SUMMARY

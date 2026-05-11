@@ -1,12 +1,11 @@
-name: 1. Quest Book To Paratranz
+name: 3. Gt Lang To Paratranz
 
 on:
   workflow_dispatch:
     inputs:
-      commit-sha:
-        description: "任务书 lang 文件 commit SHA"
+      gt-lang-url:
+        description: "GregTech.lang url"
         required: true
-        default: "master"
         type: string
 
 env:
@@ -14,8 +13,8 @@ env:
   PARATRANZ_PROJECT_ID: ${{ secrets.PARATRANZ_PROJECT_ID }}
 
 jobs:
-  quest-book-to-paratranz:
-    name: Quest Book To Paratranz
+  gt-lang-to-paratranz:
+    name: Gt Lang To Paratranz
     runs-on: ubuntu-latest
     steps:
       - name: Setup Compare Repo
@@ -26,10 +25,10 @@ jobs:
 
       - name: Run Script
         run: >-
-          bun run src/index.ts to-paratranz:quest-book
-          --commit-sha='${{ github.event.inputs.commit-sha }}'
+          bun run src/index.ts to-paratranz:gt-lang
+          --gt-lang-url='${{ github.event.inputs.gt-lang-url }}'
 
       - name: Print success summary
         run: |
-          echo "## 已自动同步任务书至Paratranz" >> $GITHUB_STEP_SUMMARY
-          echo "Commit SHA: ${{ github.event.inputs.commit-sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "## 已自动同步GregTech.lang至Paratranz" >> $GITHUB_STEP_SUMMARY
+          echo "GregTech.lang URL: ${{ github.event.inputs.gt-lang-url }}" >> $GITHUB_STEP_SUMMARY
