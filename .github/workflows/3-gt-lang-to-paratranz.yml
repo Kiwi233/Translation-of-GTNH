@@ -6,6 +6,7 @@ on:
       gt-lang-url:
         description: "GregTech.lang url"
         required: true
+        default: "https://raw.githubusercontent.com/Kiwi233/Translation-of-GTNH/refs/heads/master/GregTech_US.lang"
         type: string
 
 env:
