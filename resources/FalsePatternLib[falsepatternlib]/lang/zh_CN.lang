@@ -1,0 +1,22 @@
+config.falsepatternlib.misc=杂项
+config.falsepatternlib.misc.tooltip=其他设置
+config.falsepatternlib.misc.inGameModOptionsFix=游戏内模组选项修复
+config.falsepatternlib.misc.inGameModOptionsFix.tooltip=修复游戏中的模组选项菜单。
+
+config.falsepatternlib.toasts=提示框通知
+config.falsepatternlib.toasts.tooltip=通用提示框通知设置
+config.falsepatternlib.toasts.maxVisible=提示框数量上限
+config.falsepatternlib.toasts.maxVisible.tooltip=屏幕上显示的最大提示框数量。
+config.falsepatternlib.toasts.yOffset=提示框Y轴偏移量
+config.falsepatternlib.toasts.yOffset.tooltip=提示框离屏幕顶部的空白像素数。
+config.falsepatternlib.toasts.align=提示框位置
+config.falsepatternlib.toasts.align.tooltip=提示框应该显示在屏幕的哪一侧。
+
+config.falsepatternlib.config_engine=配置引擎
+config.falsepatternlib.config_engine.tooltip=FPLib 配置系统的设置（也用于其他模组）
+config.falsepatternlib.config_engine.configErrorLogging=配置错误日志
+config.falsepatternlib.config_engine.configErrorLogging.tooltip=配置错误日志应如何设置。\n[None]禁用所有内置配置验证错误日志记录。
+config.falsepatternlib.config_engine.configSyncSuccessLogging=配置同步成功日志
+config.falsepatternlib.config_engine.configSyncSuccessLogging.tooltip=成功的配置同步应如何记录。
+config.falsepatternlib.config_engine.configSyncFailureLogging=配置同步失败日志
+config.falsepatternlib.config_engine.configSyncFailureLogging.tooltip=失败的配置同步应如何记录。

@@ -45,6 +45,12 @@ container.etfuturum.chest_boat=运输船
 
 item.record.pigstep.desc=Lena Raine - Pigstep
 item.record.otherside.desc=Lena Raine - otherside
+item.record.precipice.desc=Aaron Cherof - Precipice
+item.record.creator_music_box.desc=Lena Raine - Creator（音乐盒）
+item.record.creator.desc=Lena Raine - Creator
+item.record.tears.desc=Amos Roddy - Tears
+item.record.lava_chicken.desc=Hyper Potions - Lava Chicken
+item.record.5.desc=Samuel Åberg - 5
 
 gui.smithing.upgrade=升级装备
 gui.warn.continue=继续……
@@ -170,7 +176,7 @@ subtitle.dig.stone=岩石：放置或被破坏
 subtitle.dig.wood=木头：放置或被破坏
 subtitle.dig.cloth=方块：放置或被破坏
 subtitle.dig.glass=草：放置或被破坏
-subtitle.dig.gravel=砂砾：放置或被破坏
+subtitle.dig.gravel=沙砾：放置或被破坏
 subtitle.dig.sand=沙子：放置或被破坏
 
 subtitle.fall.small=某物：摔倒
@@ -324,7 +330,7 @@ subtitle.ambient.weather.thunder=电闪雷鸣
 
 # Entities
 entity.etfuturum.endermite.name=末影螨
-entity.etfuturum.armor_stand.name=盔甲架
+entity.etfuturum.wooden_armorstand.name=盔甲架
 entity.etfuturum.rabbit.name=兔子
 entity.etfuturum.villager_zombie.name=僵尸村民
 entity.etfuturum.end_crystal.name=末地水晶
@@ -335,6 +341,7 @@ entity.etfuturum.shulker.name=潜影贝
 entity.etfuturum.shulker_candy.name=潜影弹
 entity.etfuturum.chest_boat.name=运输船
 entity.etfuturum.new_boat.name=船
+entity.etfuturum.new_boat_seat.name=船
 
 entity.etfuturum.stray.name=流浪者
 entity.etfuturum.husk.name=尸壳
@@ -405,6 +412,8 @@ item.etfuturum.cherry_chest_boat.name=樱花木运输船
 item.etfuturum.bamboo_chest_raft.name=运输竹筏
 item.etfuturum.shulker_shell.name=潜影壳
 item.etfuturum.amethyst_shard.name=紫水晶碎片
+item.etfuturum.disc_fragment_5.name=唱片碎片
+item.etfuturum.disc_fragment_5.desc=音乐唱片 - 5
 item.etfuturum.honeycomb.name=蜜脾
 item.etfuturum.honey_bottle.name=蜂蜜瓶
 item.etfuturum.bamboo.name=竹子
@@ -902,6 +911,244 @@ tile.etfuturum.polished_blackstone_button.name=磨制黑石按钮
 tile.etfuturum.cherry_button.name=樱花木按钮
 tile.etfuturum.bamboo_button.name=竹按钮
 
+tile.etfuturum.bop_sacredoak_fence.name=神圣橡木栅栏
+tile.etfuturum.bop_sacredoak_button.name=神圣橡木按钮
+tile.etfuturum.bop_sacredoak_pressure_plate.name=神圣橡木压力板
+tile.etfuturum.bop_sacredoak_fence_gate.name=神圣橡木栅栏门
+tile.etfuturum.bop_sacredoak_door.name=神圣橡木门
+tile.etfuturum.bop_sacredoak_trapdoor.name=神圣橡木活板门
+tile.etfuturum.bop_sacredoak_sign.name=神圣橡木告示牌
+tile.etfuturum.bop_stripped_sacredoak_log.name=去皮神圣橡木原木
+tile.etfuturum.bop_sacredoak_wood.name=神圣橡木原木
+tile.etfuturum.bop_stripped_sacredoak_wood.name=去皮神圣橡木原木
+item.etfuturum.bop_sacredoak_boat.name=神圣橡木船
+item.etfuturum.bop_sacredoak_chest_boat.name=神圣橡木运输船
+
+tile.etfuturum.bop_cherry_fence.name=樱花木栅栏
+tile.etfuturum.bop_cherry_button.name=樱花木按钮
+tile.etfuturum.bop_cherry_pressure_plate.name=樱花木压力板
+tile.etfuturum.bop_cherry_fence_gate.name=樱花木栅栏门
+tile.etfuturum.bop_cherry_door.name=樱花木门
+tile.etfuturum.bop_cherry_trapdoor.name=樱花木活板门
+tile.etfuturum.bop_cherry_sign.name=樱花木告示牌
+tile.etfuturum.bop_stripped_cherry_log.name=去皮樱花木原木
+tile.etfuturum.bop_cherry_wood.name=樱花木
+tile.etfuturum.bop_stripped_cherry_wood.name=去皮樱花木
+item.etfuturum.bop_cherry_boat.name=樱花木船
+item.etfuturum.bop_cherry_chest_boat.name=樱花木运输船
+
+tile.etfuturum.bop_dark_fence.name=黑暗木栅栏
+tile.etfuturum.bop_dark_button.name=黑暗木按钮
+tile.etfuturum.bop_dark_pressure_plate.name=黑暗木压力板
+tile.etfuturum.bop_dark_fence_gate.name=黑暗木栅栏门
+tile.etfuturum.bop_dark_door.name=黑暗木门
+tile.etfuturum.bop_dark_trapdoor.name=黑暗木活板门
+tile.etfuturum.bop_dark_sign.name=黑暗木告示牌
+tile.etfuturum.bop_stripped_dark_log.name=去皮黑暗木原木
+tile.etfuturum.bop_dark_wood.name=黑暗木
+tile.etfuturum.bop_stripped_dark_wood.name=去皮黑暗木
+item.etfuturum.bop_dark_boat.name=黑暗木船
+item.etfuturum.bop_dark_chest_boat.name=黑暗木运输船
+
+tile.etfuturum.bop_fir_fence.name=杉木栅栏
+tile.etfuturum.bop_fir_button.name=杉木按钮
+tile.etfuturum.bop_fir_pressure_plate.name=杉木压力板
+tile.etfuturum.bop_fir_fence_gate.name=杉木栅栏门
+tile.etfuturum.bop_fir_door.name=杉木门
+tile.etfuturum.bop_fir_trapdoor.name=杉木活板门
+tile.etfuturum.bop_fir_sign.name=杉木告示牌
+tile.etfuturum.bop_stripped_fir_log.name=去皮杉木原木
+tile.etfuturum.bop_fir_wood.name=杉木
+tile.etfuturum.bop_stripped_fir_wood.name=去皮杉木
+item.etfuturum.bop_fir_boat.name=杉木船
+item.etfuturum.bop_fir_chest_boat.name=杉木运输船
+
+tile.etfuturum.bop_ethereal_fence.name=天域木栅栏
+tile.etfuturum.bop_ethereal_button.name=天域木按钮
+tile.etfuturum.bop_ethereal_pressure_plate.name=天域木压力板
+tile.etfuturum.bop_ethereal_fence_gate.name=天域木栅栏门
+tile.etfuturum.bop_ethereal_door.name=天域木门
+tile.etfuturum.bop_ethereal_trapdoor.name=天域木活板门
+tile.etfuturum.bop_ethereal_sign.name=天域木告示牌
+tile.etfuturum.bop_stripped_ethereal_log.name=去皮天域原木
+tile.etfuturum.bop_ethereal_wood.name=天域木
+tile.etfuturum.bop_stripped_ethereal_wood.name=去皮天域木
+item.etfuturum.bop_ethereal_boat.name=天域木船
+item.etfuturum.bop_ethereal_chest_boat.name=天域木运输船
+
+tile.etfuturum.bop_magic_fence.name=魔法木栅栏
+tile.etfuturum.bop_magic_button.name=魔法木按钮
+tile.etfuturum.bop_magic_pressure_plate.name=魔法木压力板
+tile.etfuturum.bop_magic_fence_gate.name=魔法木栅栏门
+tile.etfuturum.bop_magic_door.name=魔法木门
+tile.etfuturum.bop_magic_trapdoor.name=魔法木活板门
+tile.etfuturum.bop_magic_sign.name=魔法木告示牌
+tile.etfuturum.bop_stripped_magic_log.name=去皮魔法原木
+tile.etfuturum.bop_magic_wood.name=魔法原木
+tile.etfuturum.bop_stripped_magic_wood.name=去皮魔法木
+item.etfuturum.bop_magic_boat.name=魔法木船
+item.etfuturum.bop_magic_chest_boat.name=魔法木运输船
+
+tile.etfuturum.bop_mangrove_fence.name=红树木栅栏
+tile.etfuturum.bop_mangrove_button.name=红树木按钮
+tile.etfuturum.bop_mangrove_pressure_plate.name=红树木压力板
+tile.etfuturum.bop_mangrove_fence_gate.name=红树木栅栏门
+tile.etfuturum.bop_mangrove_door.name=红树木门
+tile.etfuturum.bop_mangrove_trapdoor.name=红树木活板门
+tile.etfuturum.bop_mangrove_sign.name=红树木告示牌
+tile.etfuturum.bop_stripped_mangrove_log.name=去皮红树原木
+tile.etfuturum.bop_mangrove_wood.name=红树原木
+tile.etfuturum.bop_stripped_mangrove_wood.name=去皮红树原木
+item.etfuturum.bop_mangrove_boat.name=红树木船
+item.etfuturum.bop_mangrove_chest_boat.name=红树木运输船
+
+tile.etfuturum.bop_palm_fence.name=棕榈木栅栏
+tile.etfuturum.bop_palm_button.name=棕榈木按钮
+tile.etfuturum.bop_palm_pressure_plate.name=棕榈木压力板
+tile.etfuturum.bop_palm_fence_gate.name=棕榈木栅栏门
+tile.etfuturum.bop_palm_door.name=棕榈木门
+tile.etfuturum.bop_palm_trapdoor.name=棕榈木活板门
+tile.etfuturum.bop_palm_sign.name=棕榈木告示牌
+tile.etfuturum.bop_stripped_palm_log.name=去皮棕榈木原木
+tile.etfuturum.bop_palm_wood.name=棕榈原木
+tile.etfuturum.bop_stripped_palm_wood.name=去皮棕榈木
+item.etfuturum.bop_palm_boat.name=棕榈木船
+item.etfuturum.bop_palm_chest_boat.name=棕榈木运输船
+
+tile.etfuturum.bop_redwood_fence.name=红木栅栏
+tile.etfuturum.bop_redwood_button.name=红木按钮
+tile.etfuturum.bop_redwood_pressure_plate.name=红木压力板
+tile.etfuturum.bop_redwood_fence_gate.name=红木栅栏门
+tile.etfuturum.bop_redwood_door.name=红木门
+tile.etfuturum.bop_redwood_trapdoor.name=红木活板门
+tile.etfuturum.bop_redwood_sign.name=红木告示牌
+tile.etfuturum.bop_stripped_redwood_log.name=去皮红木原木
+tile.etfuturum.bop_redwood_wood.name=红木
+tile.etfuturum.bop_stripped_redwood_wood.name=去皮红木
+item.etfuturum.bop_redwood_boat.name=红木船
+item.etfuturum.bop_redwood_chest_boat.name=红木运输船
+
+tile.etfuturum.bop_willow_fence.name=柳木栅栏
+tile.etfuturum.bop_willow_button.name=柳木按钮
+tile.etfuturum.bop_willow_pressure_plate.name=柳木压力板
+tile.etfuturum.bop_willow_fence_gate.name=柳木栅栏门
+tile.etfuturum.bop_willow_door.name=柳木门
+tile.etfuturum.bop_willow_trapdoor.name=柳木活板门
+tile.etfuturum.bop_willow_sign.name=柳木告示牌
+tile.etfuturum.bop_stripped_willow_log.name=去皮柳树原木
+tile.etfuturum.bop_willow_wood.name=柳树原木
+tile.etfuturum.bop_stripped_willow_wood.name=去皮柳木
+item.etfuturum.bop_willow_boat.name=柳木船
+item.etfuturum.bop_willow_chest_boat.name=柳木运输船
+
+tile.etfuturum.bop_stripped_dead_log.name=去皮垂死木原木
+tile.etfuturum.bop_dead_wood.name=垂死木原木
+tile.etfuturum.bop_stripped_dead_wood.name=去皮垂死木
+
+tile.etfuturum.bop_stripped_bigflowerstem_log.name=去皮巨大花茎
+tile.etfuturum.bop_bigflowerstem_wood.name=巨大花菌核
+tile.etfuturum.bop_stripped_bigflowerstem_wood.name=去皮巨大花菌核
+
+tile.etfuturum.bop_bamboo_fence.name=竹栅栏
+tile.etfuturum.bop_bamboo_button.name=竹按钮
+tile.etfuturum.bop_bamboo_pressure_plate.name=竹压力板
+tile.etfuturum.bop_bamboo_fence_gate.name=竹栅栏门
+tile.etfuturum.bop_bamboo_door.name=竹门
+tile.etfuturum.bop_bamboo_trapdoor.name=竹活板门
+tile.etfuturum.bop_bamboo_sign.name=竹告示牌
+item.etfuturum.bop_bamboo_raft.name=竹筏
+item.etfuturum.bop_bamboo_chest_raft.name=运输竹筏
+
+tile.etfuturum.bop_pine_fence.name=松木栅栏
+tile.etfuturum.bop_pine_button.name=松木按钮
+tile.etfuturum.bop_pine_pressure_plate.name=松木压力板
+tile.etfuturum.bop_pine_fence_gate.name=松木栅栏门
+tile.etfuturum.bop_pine_door.name=松木门
+tile.etfuturum.bop_pine_trapdoor.name=松木活板门
+tile.etfuturum.bop_pine_sign.name=松木告示牌
+tile.etfuturum.bop_stripped_pine_log.name=去皮松树原木
+tile.etfuturum.bop_pine_wood.name=松树原木
+tile.etfuturum.bop_stripped_pine_wood.name=去皮松树原木
+item.etfuturum.bop_pine_boat.name=松木船
+item.etfuturum.bop_pine_chest_boat.name=松木运输船
+
+tile.etfuturum.bop_hellbark_fence.name=地狱皮木栅栏
+tile.etfuturum.bop_hellbark_button.name=地狱皮木按钮
+tile.etfuturum.bop_hellbark_pressure_plate.name=地狱皮木压力板
+tile.etfuturum.bop_hellbark_fence_gate.name=地狱皮木栅栏门
+tile.etfuturum.bop_hellbark_door.name=地狱皮木门
+tile.etfuturum.bop_hellbark_trapdoor.name=地狱皮木活板门
+tile.etfuturum.bop_hellbark_sign.name=地狱皮木告示牌
+tile.etfuturum.bop_stripped_hellbark_log.name=去皮地狱皮原木
+tile.etfuturum.bop_hellbark_wood.name=地狱皮原木
+tile.etfuturum.bop_stripped_hellbark_wood.name=去皮地狱皮木
+item.etfuturum.bop_hellbark_boat.name=地狱皮木船
+item.etfuturum.bop_hellbark_chest_boat.name=地狱皮木运输船
+
+tile.etfuturum.bop_jacaranda_fence.name=蓝花楹木栅栏
+tile.etfuturum.bop_jacaranda_button.name=蓝花楹木按钮
+tile.etfuturum.bop_jacaranda_pressure_plate.name=蓝花楹木压力板
+tile.etfuturum.bop_jacaranda_fence_gate.name=蓝花楹木栅栏门
+tile.etfuturum.bop_jacaranda_door.name=蓝花楹木门
+tile.etfuturum.bop_jacaranda_trapdoor.name=蓝花楹木活板门
+tile.etfuturum.bop_jacaranda_sign.name=蓝花楹木告示牌
+tile.etfuturum.bop_stripped_jacaranda_log.name=去皮蓝花楹木原木
+tile.etfuturum.bop_jacaranda_wood.name=蓝花楹原木
+tile.etfuturum.bop_stripped_jacaranda_wood.name=去皮蓝花楹木
+item.etfuturum.bop_jacaranda_boat.name=蓝花楹木船
+item.etfuturum.bop_jacaranda_chest_boat.name=蓝花楹木运输船
+
+tile.etfuturum.bop_mahogany_fence.name=桃花心木栅栏
+tile.etfuturum.bop_mahogany_button.name=桃花心木按钮
+tile.etfuturum.bop_mahogany_pressure_plate.name=桃花心木压力板
+tile.etfuturum.bop_mahogany_fence_gate.name=桃花心木栅栏门
+tile.etfuturum.bop_mahogany_door.name=桃花心木门
+tile.etfuturum.bop_mahogany_trapdoor.name=桃花心木活板门
+tile.etfuturum.bop_mahogany_sign.name=桃花心木告示牌
+tile.etfuturum.bop_stripped_mahogany_log.name=去皮桃花心木原木
+tile.etfuturum.bop_mahogany_wood.name=桃花心木原木
+tile.etfuturum.bop_stripped_mahogany_wood.name=去皮桃花心木
+item.etfuturum.bop_mahogany_boat.name=桃花心木船
+item.etfuturum.bop_mahogany_chest_boat.name=桃花心木运输船
+
+tile.etfuturum.witchery_rowan_fence.name=山梨木栅栏
+tile.etfuturum.witchery_rowan_button.name=山梨木按钮
+tile.etfuturum.witchery_rowan_pressure_plate.name=山梨木压力板
+tile.etfuturum.witchery_rowan_fence_gate.name=山梨木栅栏门
+tile.etfuturum.witchery_rowan_door.name=山梨木门
+tile.etfuturum.witchery_rowan_trapdoor.name=山梨木活板门
+tile.etfuturum.witchery_rowan_sign.name=山梨木告示牌
+tile.etfuturum.witchery_stripped_rowan_log.name=去皮山梨原木
+tile.etfuturum.witchery_rowan_wood.name=山梨木
+tile.etfuturum.witchery_stripped_rowan_wood.name=去皮山梨木
+item.etfuturum.witchery_rowan_boat.name=山梨木船
+item.etfuturum.witchery_rowan_chest_boat.name=山梨木运输船
+
+tile.etfuturum.witchery_alder_fence.name=赤杨木栅栏
+tile.etfuturum.witchery_alder_button.name=赤杨木按钮
+tile.etfuturum.witchery_alder_pressure_plate.name=赤杨木压力板
+tile.etfuturum.witchery_alder_fence_gate.name=赤杨木栅栏门
+tile.etfuturum.witchery_alder_door.name=赤杨木门
+tile.etfuturum.witchery_alder_trapdoor.name=赤杨木活板门
+tile.etfuturum.witchery_alder_sign.name=赤杨木告示牌
+tile.etfuturum.witchery_stripped_alder_log.name=去皮赤杨原木
+tile.etfuturum.witchery_alder_wood.name=赤杨木
+tile.etfuturum.witchery_stripped_alder_wood.name=去皮赤杨木
+item.etfuturum.witchery_alder_boat.name=赤杨木船
+item.etfuturum.witchery_alder_chest_boat.name=赤杨木运输船
+
+tile.etfuturum.witchery_hawthorn_fence.name=山楂木栅栏
+tile.etfuturum.witchery_hawthorn_button.name=山楂木按钮
+tile.etfuturum.witchery_hawthorn_pressure_plate.name=山楂木压力板
+tile.etfuturum.witchery_hawthorn_fence_gate.name=山楂木栅栏门
+tile.etfuturum.witchery_hawthorn_door.name=山楂木门
+tile.etfuturum.witchery_hawthorn_trapdoor.name=山楂木活板门
+tile.etfuturum.witchery_hawthorn_sign.name=山楂木告示牌
+tile.etfuturum.witchery_stripped_hawthorn_log.name=去皮山楂原木
+tile.etfuturum.witchery_hawthorn_wood.name=山楂木
+tile.etfuturum.witchery_stripped_hawthorn_wood.name=去皮山楂木
+item.etfuturum.witchery_hawthorn_boat.name=山楂木船
+item.etfuturum.witchery_hawthorn_chest_boat.name=山楂木运输船
 
 tile.etfuturum.white_glazed_terracotta.name=白色带釉陶瓦
 tile.etfuturum.orange_glazed_terracotta.name=橙色带釉陶瓦
@@ -1013,7 +1260,7 @@ util.totemBreak=§a§o你的不死图腾碎掉了…
 
 # Damage types
 
-death.attack.hotFloor=%1$s发现了地板是熔岩做的
+death.attack.hotFloor=%1$s 发现地板是岩浆做的
 death.attack.hotFloor.player=%1$s因%2$s而步入危险之地
 death.attack.sweetBerryBush=%1$s被甜浆果丛刺死了
 death.attack.sweetBerryBush.player=%1$s在试图逃离%2$s时被甜浆果丛刺死了
@@ -1730,6 +1977,8 @@ tile.etfuturum.netherite_barrel.name=下界合金桶
 tile.etfuturum.steel_barrel.name=钢桶
 tile.etfuturum.darksteel_barrel.name=玄钢桶
 
+etfuturum.barrel.tooltip.slots=%d格
+
 
 tile.etfuturum.iron_shulker_box.name=铁潜影盒
 tile.etfuturum.white_iron_shulker_box.name=白色铁潜影盒
@@ -1906,7 +2155,7 @@ tile.etfuturum.thaumcraft.entropy_infused_deepslate.name=混沌蕴魔深板岩
 tile.etfuturum.thaumcraft.amber_bearing_deepslate.name=深层琥珀矿石
 
 tile.etfuturum.bop.deepslate_ruby_ore.name=深层红宝石矿石
-tile.etfuturum.bop.deepslate_peridot_ore.name=深层橄榄石矿石
+tile.etfuturum.bop.deepslate_peridot_ore.name=深层绿橄榄石矿石
 tile.etfuturum.bop.deepslate_topaz_ore.name=深层黄玉矿石
 tile.etfuturum.bop.deepslate_tanzanite_ore.name=深层坦桑石矿石
 tile.etfuturum.bop.deepslate_malachite_ore.name=深层孔雀石矿石
@@ -1915,7 +2164,7 @@ tile.etfuturum.bop.deepslate_amber_ore.name=深层琥珀矿石
 
 tile.etfuturum.projectred.deepslate_ruby_ore.name=深层红宝石矿石
 tile.etfuturum.projectred.deepslate_sapphire_ore.name=深层蓝宝石矿石
-tile.etfuturum.projectred.deepslate_peridot_ore.name=深层橄榄石矿石
+tile.etfuturum.projectred.deepslate_peridot_ore.name=深层绿橄榄石矿石
 tile.etfuturum.projectred.deepslate_electrotine_ore.name=深层蓝石矿石
 
 tile.etfuturum.bluepower.deepslate_teslatite_ore.name=深层蓝石矿石
@@ -1960,15 +2209,19 @@ tile.etfuturum.dragonquest.deepslate_yougansekinokakera_ore.name=深层火山矿
 
 # Mod support items
 
-item.shulker_vanilla_iron_upgrade.name=升级：原版>铁质潜影盒
-item.shulker_vanilla_copper_upgrade.name=升级：原版>铜质潜影盒
-item.shulker_iron_gold_upgrade.name=升级：铁质>金质潜影盒
-item.shulker_gold_diamond_upgrade.name=升级：金质>钻石潜影盒
-item.shulker_diamond_obsidian_upgrade.name=升级：钻石>黑曜石潜影盒
-item.shulker_diamond_crystal_upgrade.name=升级：钻石>水晶潜影盒
-item.shulker_copper_iron_upgrade.name=升级：铜质>铁质潜影盒
-item.shulker_copper_silver_upgrade.name=升级：铜质>银质潜影盒
-item.shulker_silver_gold_upgrade.name=升级：银质>金质潜影盒
+item.shulker_vanilla_iron_upgrade.name=潜影盒升级：原版>铁
+item.shulker_vanilla_copper_upgrade.name=潜影盒升级：原版>铜
+item.shulker_iron_gold_upgrade.name=潜影盒升级：铁>金
+item.shulker_gold_diamond_upgrade.name=潜影盒升级：金>钻石
+item.shulker_diamond_obsidian_upgrade.name=潜影盒升级：钻石>黑曜石
+item.shulker_diamond_crystal_upgrade.name=潜影盒升级：钻石>水晶
+item.shulker_copper_iron_upgrade.name=潜影盒升级：铜>铁
+item.shulker_copper_silver_upgrade.name=潜影盒升级：铜>银
+item.shulker_silver_gold_upgrade.name=潜影盒升级：银>金
+
+item.etfuturum.coopers_mallet.name=桶匠软锤
+item.etfuturum.coopers_mallet.desc=使用时，用锤子临近槽位的箱子或桶替换当前箱子或桶
+item.etfuturum.coopers_mallet.desc.backhand=使用时，用副手槽或锤子临近槽位中的箱子或桶替换当前箱子或桶
 
 item.barrel_vanilla_iron_upgrade.name=桶升级：原版>铁
 item.barrel_vanilla_copper_upgrade.name=桶升级：原版>铜

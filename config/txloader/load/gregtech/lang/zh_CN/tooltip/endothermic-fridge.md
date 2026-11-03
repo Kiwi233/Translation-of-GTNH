@@ -1,0 +1,14 @@
+{isolate:{aqua:{italic:……与子共生！}}}
+{hr}
+启动时，机器将开始制冷，并逐步将速度增幅提升至最多{color_amount:{var:max_speed}倍}
+需持续运行{color_time:{var:warmup_minutes}分钟}方能达到最大增幅
+若停止运行，机器将恢复至常温状态
+当供给{aqua:{var:min_cryo}-{var:max_cryo}{L}/s}{aqua:极寒之凛冰}时，以{color_mechanic:{var:cryo_speedup}倍速}加速冷却（可选）
+{aqua:极寒之凛冰}的消耗速率会随速度增幅呈线性增长
+{hr}
+升级至2级后，可解锁{color_mode:亚空间冷却}功能。
+可选消耗{color_cold:特殊冷却剂}，提供{color_mechanic:无损超频}机会次数
+{color_cold:{var:booster_drain}{L}/s}的{color_cold:熔融无尽}：{color_mechanic:1}
+{color_cold:{var:booster_drain}{L}/s}的{color_cold:熔融时空}：{color_mechanic:2}
+{color_cold:{var:booster_drain}{L}/s}的{color_cold:熔融永恒}：{color_mechanic:3}
+{hr}

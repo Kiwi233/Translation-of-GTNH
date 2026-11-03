@@ -1,84 +1,74 @@
 # RecipeMaps
 gtnhlanth.recipe.digester=煮解池
 gtnhlanth.recipe.disstank=溶解罐
-gtnhlanth.recipe.tc=高能束流聚焦对撞靶室
-gtnhlanth.recipe.sc=高能粒子辐射激发源室
+gtnhlanth.recipe.tc=束流靶室
+gtnhlanth.recipe.sc=束流源室
 
 gtnhlanth.tt.beaminfo=使用§b便携式扫描仪§7右键来获取多方块输入输出信息
 gtnhlanth.tt.blueprint=请参考§9Structure§2Lib§7全息投影，构建主体结构
-gtnhlanth.tt.pc=§6部分消耗：§7在工作中损耗耐久
 
-gtnhlanth.tt.hintdot=提示方块：%s号
+gtnhlanth.tt.hintNumber=提示方块[%s]
 
-GT5U.gui.text.gtnhlanth.nocoolant=机器内没有冷却液！
-GT5U.gui.text.gtnhlanth.inscoolant=机器内冷却液不足！
-GT5U.gui.text.gtnhlanth.noaccel=该类型粒子无法被加速!
-GT5U.gui.text.gtnhlanth.low_input_eut=输入EU/t太低了,无法产生光子!
-GT5U.gui.text.gtnhlanth.scerror=数学错误，配方损坏？
+# Digester
+gtnhlanth.tt.digester.machinetype=煮解池
+gtnhlanth.tt.digester.structure.any_casing=任意强化钨钢机械方块
+gtnhlanth.tt.digester.structure.air=结构内部和顶部
+gtnhlanth.tt.disstank.structure.any_casing=任意洁净不锈钢机械方块
+gtnhlanth.tt.linac.structure.hatch_pos=底层边缘，距正面3-8格
+gtnhlanth.tt.linac.structure.input_hatch_pos=顶部从正面起第8格
+gtnhlanth.tt.linac.structure.output_hatch_pos=顶部从背面起第8格
+gtnhlanth.tt.sc.structure.output_pos=控制器后
+gtnhlanth.tt.synch.structure.antenna_casing=天线机械方块
+gtnhlanth.tt.synch.structure.energy_pos=每个天线方块之上
+gtnhlanth.tt.synch.structure.input_hatch_pos=能源仓之间
+gtnhlanth.tt.synch.structure.output_hatch_pos=输入仓对侧
+gtnhlanth.tt.synch.structure.beam_input_pos=控制器左侧
+gtnhlanth.tt.synch.structure.beam_output_pos=控制器右后侧
+gtnhlanth.tt.tc.structure.input_bus_pos=顶面中央，从正面起第二格（掩膜）从背面起第二格（晶圆）
+
+# Dissolution Tank
+gtnhlanth.tt.disstank.machinetype=溶解罐
+
+# Source Chamber
+gtnhlanth.tt.sc.machinetype=粒子源
+gtnhlanth.tt.sc.input=§c需要1个输入总线或1个输入仓
+
+# Linear Accelerator
+gtnhlanth.tt.linac.machinetype=粒子加速器，LINAC
+
+# Synchrotron
+gtnhlanth.tt.synch.machinetype=粒子加速器
+
+# Target Chamber
+gtnhlanth.tt.tc.machinetype=对撞靶室
+
+# Beam Coolant
+gtnhlanth.tt.coolant.oxygen=§b液氧§f：90K
+gtnhlanth.tt.coolant.nitrogen=§b液氮§f：77K
+gtnhlanth.tt.coolant.coolant=§b冷却液§f：60K
+gtnhlanth.tt.coolant.Scoolant=§b超级冷却液§f：1K
+
+# Beam Hatches
+gtnhlanth.tt.hatch.beaminput=束流输入仓
+gtnhlanth.tt.hatch.beamoutput=束流输出仓
+gtnhlanth.tt.hatch.beamoutputfiltered=过滤式束流输出仓
+gtnhlanth.tt.hatch.focus=聚焦输入总线
+
+GT5U.gui.text.shutdown_reason.gtnhlanth.nocoolant=机器内没有冷却液！
+GT5U.gui.text.shutdown_reason.gtnhlanth.inscoolant=机器内冷却液不足！
+GT5U.gui.text.shutdown_reason.gtnhlanth.noaccel=该类型粒子无法被加速!
+GT5U.gui.text.shutdown_reason.gtnhlanth.low_input_eut=输入EU/t太低了，无法产生光子！
+GT5U.gui.text.shutdown_reason.gtnhlanth.scerror=数学错误，配方损坏？
+GT5U.gui.text.shutdown_reason.gtnhlanth.inputinterrupt=输入束流不得中断或改变！
+GT5U.gui.text.recipe_result.dissolution_ratio=§7流体输入比例错误！
+GT5U.gui.text.recipe_result.gtnhlanth.wrongparticle=不正确的粒子!
+GT5U.gui.text.recipe_result.gtnhlanth.toolowenergy=低于所需能量！
+GT5U.gui.text.recipe_result.gtnhlanth.toohighenergy=超出所需能量！
+GT5U.gui.text.shutdown_reason.gtnhlanth.noparticle=粒子缺失（通量为0）！
+GT5U.gui.text.shutdown_reason.gtnhlanth.boostinterrupt=助推流体供应不足！
 
 # NEI
 value.disstank=比例: %s:1
-
-DissolutionTank.hint.0=提示方块：1号：洁净不锈钢机械方块
-DissolutionTank.hint.1=24x 钛强化硼玻璃方块
-DissolutionTank.hint.2=9x隔热机械方块
-DissolutionTank.hint.3=输入总线、输出总线、输入仓、输出仓
-DissolutionTank.hint.4=能源仓、维护仓
-
-Digester.hint.0=提示方块：1号：强化钨钢机械方块
-Digester.hint.1=9x洁净不锈钢机械方块
-Digester.hint.2=16x隔热机械方块
-Digester.hint.3=16x线圈方块
-Digester.hint.4=输入总线、输出总线、输入仓、输出仓
-Digester.hint.5=能源仓、维护仓
-
-SourceChamber.hint.0=56x 加速器屏蔽机械方块
-SourceChamber.hint.1=52x 加速器屏蔽玻璃
-SourceChamber.hint.2=16x 电极机械方块
-SourceChamber.hint.3=提示方块：1号：输入总线
-SourceChamber.hint.4=提示方块：2号：输出总线
-SourceChamber.hint.5=提示方块：3号：维护仓、能源仓
-SourceChamber.hint.6=提示方块：4号：束流输出仓
-
-LINAC.hint.0=325-1285x 加速器屏蔽机械方块
-LINAC.hint.1=148-852x 冷却剂转运机械方块
-LINAC.hint.2=127-703x 加速器屏蔽玻璃
-LINAC.hint.3=56-312x 超导线圈方块
-LINAC.hint.4=156-732x 电极机械方块
-LINAC.hint.5=47x 格栅机械方块
-LINAC.hint.6=48x 任意分级玻璃（LuV+）
-LINAC.hint.7=提示方块：1号：能源仓,维护仓
-LINAC.hint.8=提示方块：2号：输入仓,输出仓
-LINAC.hint.9=提示方块：3号：束流输入仓
-LINAC.hint.10=提示方块：4号：束流输出仓
-
-Synchrotron.hint.0=676x 加速器屏蔽机械方块
-Synchrotron.hint.1=90x 超导线圈方块
-Synchrotron.hint.2=64x 铌质腔体机械方块
-Synchrotron.hint.3=28x 冷却剂转运机械方块
-Synchrotron.hint.4=16x 任意分级玻璃（LuV+）
-Synchrotron.hint.5=4x 天线机械方块
-Synchrotron.hint.6=提示方块：1号：束流输入仓
-Synchrotron.hint.7=提示方块：2号：束流输出仓
-Synchrotron.hint.8=提示方块：3号：维护仓
-Synchrotron.hint.9=提示方块：4号：输入仓
-Synchrotron.hint.10=提示方块：5号：输出仓
-Synchrotron.hint.11=提示方块：6号：能源仓
-
-TargetChamber.hint.0=28x 加速器屏蔽机械方块
-TargetChamber.hint.1=34x 加速器屏蔽玻璃
-TargetChamber.hint.2=16x 任意分级玻璃（任意等级）
-TargetChamber.hint.3=29x 格栅机械方块
-TargetChamber.hint.4=4x 核心操纵机械方块
-TargetChamber.hint.5=4x 靶仓插槽
-TargetChamber.hint.6=1x 焦点物品支架
-TargetChamber.hint.7=1x 靶点物品支架
-TargetChamber.hint.8=提示方块：1号：聚焦输入总线
-TargetChamber.hint.9=提示方块：2号：能源仓、维护仓
-TargetChamber.hint.10=提示方块：3号：输入总线
-TargetChamber.hint.11=提示方块：4号：输出总线
-TargetChamber.hint.12=提示方块：5号：束流输入仓
-
 
 fluid.Antimony Pentafluoride Solution=五氟化锑溶液
 fluid.Hafnium Tetrachloride Solution=四氯化铪溶液
@@ -111,14 +101,14 @@ fluid.Tungstophosphoric Acid=磷钨酸
 fluid.Toluene Diisocyanate=甲苯二异氰酸酯
 fluid.Dinitrotoluene=二硝基甲苯
 fluid.Diaminotoluene=二氨基甲苯
-fluid.Toluene Tetramethyl Diisocyanate=PTMEG橡胶粗胚
+fluid.Toluene Tetramethyl Diisocyanate=甲苯四甲基二异氰酸酯
 fluid.Diluted Acetone=稀释丙酮
 
 tile.casing.shielded_accelerator_glass.name=加速器屏蔽玻璃
 casing.electrode.name=电极机械方块
 casing.coolant_delivery.name=冷却剂转运机械方块
-casing.antenna_t1.name=天线机械方块(T1)
-casing.antenna_t2.name=天线机械方块(T2)
+casing.antenna_t1.name=天线机械方块（T1）
+casing.antenna_t2.name=天线机械方块（T2）
 casing.niobium_cavity.name=铌质腔体机械方块
 casing.focus_manipulator.name=焦点调节器
 casing.focus_holder.name=焦点物品支架
@@ -135,39 +125,113 @@ item.substrate_precursor.name=基板前驱体
 item.masked_mask_substrate.name=处理过的掩膜基板
 
 
-
-
 beamline.info=机器信息
+beamline.info.hdr=§l机器信息：§r
 
 beamline.in_pre=多方块束流输入
+beamline.in_pre.hdr=§l多方块束流输入：§r
 beamline.particle=粒子
+beamline.particle.fmt=离子：§6%s (%s)§r
 beamline.energy=能量
+beamline.energy.eV.fmt=能量：§4%s§r eV
+beamline.energy.keV.fmt=能量：§4%s§r keV
 beamline.focus=聚焦
+beamline.focus.fmt=聚焦：§9%s§r
 beamline.amount=数量
-beamline.rate=速率
-
+beamline.amount.fmt=总量：§d%s§r
+beamline.rate=通量
+beamline.materialenergy=最大材料能量
+beamline.particleenergy=最大粒子能量
+beamline.energyratio=能量效率
 beamline.temperature=温度
+beamline.temperature.fmt=温度：§4%s§r K
 beamline.coolusage=冷却剂使用量
+beamline.coolusage.fmt=冷却剂使用量：§b%s§r kL/s
 
 beamline.out_pre=多方块束流输出
+beamline.out_pre.hdr=§l多方块束流输出：§r
 
-beamline.particleinput=输入粒子信息：
+gt.blockmachines.beamline_pipe.name=束流管
 
 beamline.pipe.desc.0=粒子传输管道
-beamline.pipe.desc.1=请勿转弯
+beamline.pipe.desc.1=束流不可交叉或转弯
 
-tile.recipe.tc=高能束流聚焦对撞靶室
-tile.recipe.sc=高能粒子辐射激发源室
+
+tile.recipe.tc=束流靶室
+tile.recipe.sc=束流源室
 
 item.particle.name=粒子
-particle.electron=电子
+particle.name.fmt=%s（%s）
 particle.photon=光子
-particle.alpha=α粒子
-particle.neutron=中子
+particle.zboson=Z玻色子
+particle.wboson=W玻色子
+particle.higgs=希格斯玻色子
+particle.graviton=引力子
+particle.electron=电子
+particle.muon=μ子
+particle.tau=τ子
+particle.electron_neutrino=电子中微子
+particle.muon_neutrino=μ子中微子
+particle.tau_neutrino=τ子中微子
 particle.proton=质子
-GT5U.gui.text.dissolution_ratio=§7流体输入比例错误
+particle.neutron=中子
+particle.lambda=λ粒子
+particle.omega=Ω粒子
+particle.eta=η介子
+particle.jpsi=J/ψ介子
+particle.upsilon=Y粒子
+particle.alpha=α粒子
+
+beamcrafting.energy_A=最小能量 1
+beamcrafting.energy_B=最小能量 2
+beamcrafting.amount_A=数量 1
+beamcrafting.amount_B=数量 2
 
 tooltip.gtnhlanth.particle.rest_mass=静止质量：%f MeV
 tooltip.gtnhlanth.particle.charge=电荷：%s e
 tooltip.gtnhlanth.photomask.desc_spectrum=适用于电磁波谱的%s段及更低频段
 tooltip.gtnhlanth.photomask.max_uses=最大使用次数：%d
+
+# Multiblocks
+gt.blockmachines.digester.name=煮解池
+gt.blockmachines.dissolution_tank.name=溶解罐
+gt.blockmachines.linear_accelerator.name=线性加速器
+gt.blockmachines.source_chamber.name=束流源室
+gt.blockmachines.synchrotron.name=同步加速器
+gt.blockmachines.target_chamber.name=束流靶室
+
+# Photolithographic Masks
+item.photomask.acc.name=掩膜（先进晶体芯片）
+item.photomask.asoc.name=掩膜（ASoC）
+item.photomask.blank1.name=空白掩膜（T1）
+item.photomask.blank2.name=空白掩膜（T2）
+item.photomask.blank3.name=空白掩膜（T3）
+item.photomask.cblank.name=掩膜（晶体）
+item.photomask.ccpu.name=掩膜（晶体CPU）
+item.photomask.cpu.name=掩膜（CPU）
+item.photomask.csoc.name=掩膜（晶体SoC）
+item.photomask.elc.name=掩膜（刻蚀兰波顿芯片）
+item.photomask.fpic.name=掩膜（飞米功率IC）
+item.photomask.hpic.name=掩膜（高功率IC）
+item.photomask.ilc.name=掩膜（逻辑IC）
+item.photomask.lcc.name=掩膜（活性晶体芯片）
+item.photomask.lpic.name=掩膜（低功率IC）
+item.photomask.nand.name=掩膜（NAND）
+item.photomask.ncpu.name=掩膜（纳米CPU）
+item.photomask.nor.name=掩膜（NOR）
+item.photomask.npic.name=掩膜（纳米功率IC）
+item.photomask.pic.name=掩膜（功率IC）
+item.photomask.ppic.name=掩膜（皮米功率IC）
+item.photomask.prcpu.name=掩膜（预备CPU）
+item.photomask.prhpic.name=掩膜（预备高功率IC）
+item.photomask.prncpu.name=掩膜（预备纳米CPU）
+item.photomask.prnpic.name=掩膜（预备纳米功率IC）
+item.photomask.prpic.name=掩膜（预备功率IC）
+item.photomask.prqpic.name=掩膜（预备量子功率IC）
+item.photomask.qbit.name=掩膜（QBit）
+item.photomask.qpic.name=掩膜（量子功率IC）
+item.photomask.ram.name=掩膜（RAM）
+item.photomask.soc.name=掩膜（SoC）
+item.photomask.ssoc.name=掩膜（简单的SoC）
+item.photomask.uhpic.name=掩膜（超高功率IC）
+item.photomask.ulpic.name=掩膜（超低功率IC）

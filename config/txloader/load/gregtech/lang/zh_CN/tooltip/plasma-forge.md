@@ -1,0 +1,10 @@
+超越维度的边界。
+需要连续运行{color_time:{var:hours}}小时，才能完全突破维度边界
+并达到最大效率。最多可降低{color_amount:{var:max_discount}%}的燃料消耗
+{color_danger:当机器未运行时，燃料消耗折扣以累计速度的{var:decay_rate}倍速度衰减，优先消耗已储存的总运行时间。}
+{hr}
+达到{color_mode:最大燃料减免}时，多维空间可以对齐并{color_misc:交汇}
+要达到形成维度收敛的稳定程度，需要在控制器中放入{color_eu_usage:超维校准矩阵}。
+{color_misc:维度收敛}被激活时，这台机器能进行{color_mechanic:4/4无损超频}
+{color_note:额外能耗将改以增加催化剂用量的形式支付}
+{hr}

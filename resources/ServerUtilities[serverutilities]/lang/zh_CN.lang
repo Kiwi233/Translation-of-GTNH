@@ -30,27 +30,19 @@ serverutilities.stat.last_seen=最后在线
 serverutilities.stat.killed_by=死于%s
 serverutilities.stat.entities_killed=%ss死亡
 
-wip=仍在开发中！
-deprecated=该方法已被弃用，请使用 %s
 example=示例：
 click_here=[点击此处]
-feature_disabled=这个功能被禁用！
 feature_disabled_server=这个功能在服务器被禁用！
 error=错误：%s
 owner=组长：%s
 delete_item=你想要删除“%s”么？
-server_forced=服务器覆写了“%s”
 commands=命令
-my_permissions=我的权限
-all_permissions=所有权限
 key.categories.serverutilities=Server Utilities
 stand_still=请在传送前原地等待 %d 秒。
-stand_still_failed=因为你移动了！取消传送。
 teleporting=传送中……
-cooldown=冷却
-cant_use_now=现在无法使用！
 cant_use_now_cooldown=现在无法使用，冷却时间：%s
 action_bar=操作栏
+title=标题
 nothing_changed=无改变！
 player_must_be_online=玩家必须在线！
 
@@ -91,6 +83,9 @@ serverutilities.world.dimension.nether=下界
 
 # Config
 serverutilities=Server Utilities
+serverutilities.config.enabled=已启用
+serverutilities.config.enabled_singleplayer=在单人游戏中启用
+
 serverutilities.auto_shutdown=自动关服
 serverutilities.auto_shutdown.enabled_singleplayer=在单人游戏中启用
 serverutilities.auto_shutdown.times=关服时间
@@ -101,23 +96,56 @@ serverutilities.afk.enabled_singleplayer=在单人游戏中启用
 serverutilities.afk.notification_timer=通知计时器
 serverutilities.afk.log_afk=记录AFK
 
-serverutilities.server_info=服务器信息
-serverutilities.server_info.difficulty=难度
-serverutilities.server_info.admin_quick_access=管理员快速登录
+serverutilities.backups.enable_backups=启用备份
+serverutilities.backups.backup_timer=备份间隔
+serverutilities.backups.backups_to_keep=保留的备份数量
+serverutilities.backups.retention_policy=备份保留策略
+serverutilities.backups.compression_level=压缩级别
+serverutilities.backups.backup_folder_path=备份文件夹路径
+serverutilities.backups.additional_backup_files=额外备份文件
+serverutilities.backups.use_separate_thread=使用独立线程
+serverutilities.backups.prefer_speed_over_backup_consistency=优先速度而非备份一致性
+serverutilities.backups.display_file_size=显示文件大小
+serverutilities.backups.need_online_players=需要在线玩家
+serverutilities.backups.silent_backup=静默备份
+serverutilities.backups.max_folder_size=轮换备份大小配额
+serverutilities.backups.delete_custom_name_backups=删除自定义命名的备份
+serverutilities.backups.only_backup_claimed_chunks=仅备份已声明的区块
+serverutilities.backups.backup_entire_regions_with_claims=包含声明的区块的完整范围
 
 serverutilities.chat=聊天
 serverutilities.chat.add_nickname_tilde=为昵称添加波浪号
+serverutilities.chat.replace_tab_names=替换标签页名称
 serverutilities.chat.format=%s
 
 serverutilities.commands=命令
 
+serverutilities.debugging=调试
+serverutilities.debugging.special_commands=特殊命令
+serverutilities.debugging.print_more_info=输出更多信息
+serverutilities.debugging.print_more_errors=输出更多错误
+serverutilities.debugging.log_network=记录网络 IO
+serverutilities.debugging.log_teleport=记录传送信息
+serverutilities.debugging.log_config_editing=记录配置修改
+serverutilities.debugging.dev_sidebar_buttons=仅开发模式的侧边栏按钮
+serverutilities.debugging.gui_widget_bounds=GUI 小按钮边界
+serverutilities.debugging.log_events=记录事件
+serverutilities.debugging.log_chunkloading=记录区块加载
+
 serverutilities.login=登录
 serverutilities.login.enable_motd=允许服务器欢迎语
 serverutilities.login.enable_starting_items=启用初始物品
-serverutilities.login.enable_global_badges=启用全局徽章
-serverutilities.login.enable_event_badges=启用事件徽章
-serverutilities.login.motd=服务器欢迎语
+serverutilities.login.motd=服务器登入欢迎语
 serverutilities.login.starting_items=初始物品
+
+serverutilities.mixins=Mixins
+serverutilities.mixins.endermen=启用末影人Mixin
+serverutilities.mixins.bypassplayerlimit=启用绕过玩家限制Mixin
+serverutilities.mixins.farmlandtramplingprotection=启用耕地踩踏保护Mixin
+
+serverutilities.motd=服务器欢迎语
+serverutilities.motd.line1=欢迎语第一行
+serverutilities.motd.line2=欢迎语第二行
 
 serverutilities.world=世界
 serverutilities.world.blocked_claiming_dimensions=禁止声明区块的维度
@@ -135,7 +163,19 @@ serverutilities.world.forced_spawn_dimension_weather=强制出生点维度天气
 serverutilities.world.disable_player_suffocation_damage=禁用玩家受到窒息伤害
 serverutilities.world.show_playtime=在左上角显示游玩时间
 serverutilities.world.players_sleeping=§f%s§6 睡下了。 %s/%s (%s%%)
-serverutiltiies.world.skip_night=§6起床了，阳光明媚……大家早上好！
+serverutilities.world.vampires_sleeping=§f%s§4在棺材中休息了。%s/%s (%s%%)
+serverutilities.world.enable_explosions=在声明的区块中启用爆炸
+serverutilities.world.enable_endermen=在已声明的区块中启用末影人
+serverutilities.world.enable_pvp=开启PvP
+serverutilities.world.disabled_right_click_items=禁用物品右键
+serverutilities.world.enable_player_sleeping_percentage=启用玩家入睡百分比
+serverutilities.world.player_sleeping_percentage=玩家入睡百分比默认值
+serverutilities.world.vampire_sleep_percent=吸血鬼睡眠概率
+serverutilities.world.blockmobspawninginclaims=在声明的区块中阻止生物生成
+serverutilities.world.mobtypestoblock=禁止的生物类型
+
+serverutilities.world.skip_night=§6醒醒，醒醒，该起床了……大家早上好！
+serverutilities.world.skip_day=§4太阳已经落山，影子越拉越长……夜晚属于我们！
 
 serverutilities.world.logging=记录中
 serverutilities.world.logging.include_creative_players=包括创造模式玩家
@@ -143,56 +183,63 @@ serverutilities.world.logging.include_fake_players=包括假玩家
 serverutilities.world.logging.block_placed=方块已放置
 serverutilities.world.logging.block_broken=方块被破坏
 serverutilities.world.logging.item_clicked_in_air=物品对着空气点击
+serverutilities.world.logging.entity_attacked=实体受到攻击
+serverutilities.world.logging.exclude_mob_entity=排除敌对实体
+serverutilities.world.logging.chat_enable=启用聊天日志
 
 serverutilities.ranks=权限组
-serverutilities.ranks.enabled=启用
 serverutilities.ranks.override_chat=覆盖聊天
-serverutilities.ranks.override_commands=覆盖命令
-serverutilities.ranks.crash_client_side_permissions=崩溃客户端权限
-serverutilities.ranks.load_from_config_folder=从配置文件夹加载
-serverutilities.ranks.print_command_errors=输出命令错误
+serverutilities.ranks.command_permissions=命令权限
 
 serverutilities.ranks.tags.default_player_rank=默认玩家权限组
 serverutilities.ranks.tags.default_op_rank=默认管理员权限组
 
-serverutilities.debugging.log_chunkloading=记录区块加载
-
-serverutilities.general.clientless_mode=无客户端模式
-serverutilities.general.replace_reload_command=替换 /reload 命令
 serverutilities.general.merge_offline_mode_players=合并离线模式玩家数据
+serverutilities.general.enable_pause_when_empty_property=启用 pause_when_empty 属性
+serverutilities.general.enable_max_tick_time_property=启用 max_tick_time 属性
+serverutilities.general.enable_toggle_cheats_button=启用切换作弊按钮
+serverutilities.general.toggle_cheats=切换作弊模式
+serverutilities.general.enable_cheats=启用作弊
+serverutilities.general.disable_cheats=禁用作弊
 
 serverutilities.teams=组
 serverutilities.teams.autocreate_sp=单人游戏自动创建组
 serverutilities.teams.autocreate_mp=多人游戏自动创建组
+serverutilities.teams.hide_team_notification=隐藏团队通知
+serverutilities.teams.grief_protection=灾难保护
+serverutilities.teams.interaction_protection=互动保护
+serverutilities.teams.force_team_prefix=强制团队前缀
+serverutilities.teams.disable_teams=禁用团队
 
-serverutilities.debugging=调试
-serverutilities.debugging.special_commands=特殊命令
-serverutilities.debugging.print_more_info=输出更多信息
-serverutilities.debugging.print_more_errors=输出更多错误
-serverutilities.debugging.log_network=记录网络 IO
-serverutilities.debugging.log_teleport=记录传送信息
-serverutilities.debugging.log_config_editing=记录配置修改
-serverutilities.debugging.dev_sidebar_buttons=仅开发模式的侧边栏按钮
-serverutilities.debugging.gui_widget_bounds=GUI 小按钮边界
-serverutilities.debugging.log_events=记录事件
+serverutilities.tasks=任务
+serverutilities.tasks.cleanup=清理实体中...
+serverutilities.tasks.cleanup.interval=间隔
+serverutilities.tasks.cleanup.hostiles=包含敌对生物
+serverutilities.tasks.cleanup.passives=包含被动
+serverutilities.tasks.cleanup.items=包含物品
+serverutilities.tasks.cleanup.experience=包含经验球
+serverutilities.tasks.cleanup.silent=静默清理
+
+serverutilities.pregen=预先设置
+serverutilities.pregen.chunkspertick=每刻区块数
+serverutilities.pregen.timelimitms=时间限制（毫秒）
+
+serverutilities.server_info=服务器信息
+serverutilities.server_info.difficulty=难度
+serverutilities.server_info.admin_quick_access=管理员快速登录
 
 # Client Config
 serverutilities_client=客户端配置
-serverutilities_client.render_badges=显示徽章
-serverutilities_client.journeymap_overlay=启用旅行地图集成功能
-serverutilities_client.scan_items_whitelist=/scan_items Whitelist
-serverutilities_client.scan_items_blacklist=/scan_items Blacklist
 serverutilities_client.show_shutdown_timer=显示关机定时器
 serverutilities_client.shutdown_timer_start=关机定时器启动
 serverutilities_client.button_daytime=设置时间为白天
 serverutilities_client.button_nighttime=设置时间为黑夜
-serverutilities_client.item_ore_names=显示物品矿物词典名称
-serverutilities_client.item_ore_names.item_tooltip=矿物词典名称：
+serverutilities_client.item_ore_names=显示物品的矿物辞典名称
+serverutilities_client.item_ore_names.item_tooltip=矿物辞典名称：
 serverutilities_client.item_nbt=显示物品 NBT
 serverutilities_client.sidebar_buttons=侧边栏位置
 serverutilities_client.sidebar_buttons_above_potion=在药水标签上层绘制按钮
 serverutilities_client.sidebar_placement=侧边栏放置
-serverutilities_client.notification_location=通知位置
 serverutilities_client.show_dotted_lines=在加载的区块上显示虚线
 
 # Notification Config
@@ -317,6 +364,8 @@ team_config.serverutilities.use_items=使用物品所需的级别
 team_config.serverutilities.explosions=在已声明区块中启用爆炸
 team_config.serverutilities.endermen=在已声明区块内允许末影人搬运方块
 team_config.serverutilities.fake_players=允许假玩家与方块进行交互
+team_config.serverutilities.mob_spawning=在已声明的区块内禁用生物生成
+team_config.serverutilities.blocked_creatures=在已声明的区块内要禁止的生物类型
 
 # Sidebar Buttons
 sidebar_button=侧边栏按钮
@@ -340,7 +389,7 @@ sidebar_button.serverutilities.toggle.day.tooltip=设置为白天
 sidebar_button.serverutilities.toggle.night=设置为黑夜
 sidebar_button.serverutilities.toggle.night.tooltip=设置为黑夜
 sidebar_button.serverutilities.heal=治疗
-sidebar_button.serverutilities.heal.tooltip=治疗玩家至满血，并消除玩家的着火效果
+sidebar_button.serverutilities.heal.tooltip=将玩家生命值和饱和度恢复至最大值，并消除玩家的着火效果
 sidebar_button.serverutilities.server_info=服务器信息
 sidebar_button.serverutilities.claimed_chunks=声明区块
 sidebar_button.serverutilities.trash_can=垃圾桶
@@ -349,17 +398,17 @@ sidebar_button.serverutilities.mail=邮件
 serverutilities.sidebar_button.reset=重置侧边栏
 serverutilities.sidebar_button.reset.tooltip=重置侧边栏位置
 
-serverutilities.admin_panel.file_browser=文件浏览器
 serverutilities.admin_panel.crash_reports=查看崩溃报告
-serverutilities.admin_panel.config=编辑配置
 serverutilities.admin_panel.claimed_chunks=查看所有已声明区块
-serverutilities.admin_panel.loaded_chunks=查看所有已加载区块
-serverutilities.admin_panel.whitelist=编辑白名单
-serverutilities.admin_panel.ops=编辑管理员
 serverutilities.admin_panel.edit_world=编辑世界
 serverutilities.admin_panel.ranks.player_ranks=玩家权限组
 serverutilities.admin_panel.ranks.select_rank=选择权限组
 serverutilities.admin_panel.edit_rank=编辑权限组
+serverutilities.admin_panel.edit_team=编辑团队
+serverutilities.admin_panel.claims.click_to_unclaim=点击以取消认领的区块
+serverutilities.admin_panel.claims.shift_click_to_teleport=Shift左键传送至此
+serverutilities.admin_panel.claims.ctrl_click_to_toggle_load=Ctrl左键来切换区块加载
+serverutilities.admin_panel.claims.unclaim_q=取消认领这个区块？
 serverutilities.admin_panel.ranks.add_perm=添加权限
 serverutilities.admin_panel.ranks.add_command=添加命令权限
 serverutilities.admin_panel.ranks.cant_remove=默认权限组无法被移除！
@@ -384,7 +433,7 @@ commands.sethome.usage=/sethome [home]
 commands.delhome.usage=/delhome [home]
 commands.server_info.usage=/server_info
 commands.loaded_chunks_list.usage=/loaded_chunks_list
-commands.tpl.usage=/tpl (<x> <y> <z>) | ([who] <player>)
+commands.tpl.usage=/tpl (<x> <y> <z> (<dim>)) | ([who] <player>)
 commands.trash_can.usage=/trash_can
 commands.back.usage=/back
 commands.spawn.usage=/spawn
@@ -448,9 +497,11 @@ commands.ping.integrated_server=内置服务器
 commands.ping.unknown=未知
 commands.ping.ping=Ping %s
 commands.backup.usage=/backup
-commands.backup.start.usage=/backup start <file name>
+commands.backup.start.usage=/backup start [file name] [=oc] [=overwrite]
+commands.backup.prune.usage=/backup prune preview
 commands.backup.stop.usage=/backup stop
 commands.backup.getsize.usage=/backup getsize
+commands.backup.list.usage=/backup list
 commands.reload.usage=/reload [*|domain:*|domain:id]
 commands.my_settings.usage=/my_settings <config id> [value]
 commands.team.usage=/team
@@ -483,6 +534,7 @@ commands.add_fake_player.usage=/add_fake_player <uuid> <name>
 commands.god.usage=/god <player>
 commands.rtp.usage=/rtp
 commands.dump_chunkloaders.usage=/dump_chunkloaders
+commands.dump_chunkloaders.unknown_dimension=无法找到维度%d！
 commands.dump_permissions.usage=/dump_permissions
 commands.vanish.usage=/vanish
 commands.vanish.toggle.usage=/vanish toggle <on|off>
@@ -508,8 +560,8 @@ commands.vanish.damage_other=隐身时伤害其他实体
 commands.vanish.send_connection_msg=隐身时发送进出消息
 commands.vanish.container_read_only=容器仅读取
 commands.vanish.item_dropping=隐身时掉落物
-commands.pregen.start.usage_server=/pregen start <x> <y> <半径>
-commands.pregen.start.usage_client=/pregen start <x> <y> <半径> 或 /pregen <半径>
+commands.pregen.start.usage_server=/pregen start <x> <yz> <radius>
+commands.pregen.start.usage_client=/pregen start <x> <yz> <radius> or /pregen start <radius>
 commands.pregen.stop.usage=/pregen stop
 commands.pregen.progress.usage=/pregen progress
 
@@ -581,16 +633,47 @@ commands.tree_base.invalid_cmd.list_subcommands=无效子命令 “%s”！可�
 commands.tree_base.available_subcommands=可用子命令：%s
 
 # Backup
-cmd.timer_backup=距下一次备份：%s
 cmd.backup_start=服务器备份开始！
 cmd.backup_stop=服务器备份停止！
 cmd.backup_end_1=服务器备份在 %s 完成！
 cmd.backup_end_2=服务器备份在 %s 完成！(%s)
 cmd.backup_fail=世界保存失败！(%s)
 cmd.backup_manual_launch=%s 启动了手动备份！
-cmd.backup_already_running=正在备份中！
+cmd.backup_manual_launch_oc=%s 启动了仅限已声明区块的手动备份！
+cmd.backup_already_running=备份或留存扫描正在进行中！
+cmd.backup_manual_failed=备份无法启动或完成。请查看上方错误信息与服务器日志。
 cmd.backup_not_running=备份未在运行！
+cmd.backup_prune_header=保留预览（不会删除任何内容）：
+cmd.backup_prune_entry=  %s %s | %s | %s | %s
+cmd.backup_prune_keep=保留
+cmd.backup_prune_delete=删除
+cmd.backup_prune_until=%s，直到 %s
+cmd.backup_prune_reason_rule=%s
+cmd.backup_prune_reason_latest=最新
+cmd.backup_prune_reason_latest_rule=最新，%s
+cmd.backup_prune_reason_replaced=已在 %s 中被替换
+cmd.backup_prune_reason_older=早于所有规则
+cmd.backup_prune_reason_size=大小限制
+cmd.backup_prune_reason_custom=自定义
+cmd.backup_prune_reason_unreadable=无法读取
+cmd.backup_prune_reason_future=未来日期
+cmd.backup_prune_summary=保留 %s（%s），删除 %s（%s）。
+cmd.backup_prune_summary_none=保留 %s（%s），删除 0 个。
+cmd.backup_prune_allowance=容量配额：已使用 %s / %s。
+cmd.backup_prune_no_allowance=未设置容量配额。
+cmd.backup_prune_limit=若不删除受保护的备份（这些备份会被保留），就无法满足轮转容量配额。
+cmd.backup_prune_error=已跳过备份清理：%s
 cmd.backup_size=当前世界大小：%s，备份文件夹总大小：%s
+cmd.backup_list_none=未找到任何备份
+cmd.backup_list_error=无法列出备份：%s
+cmd.backup_list_header=备份：%s 个文件，%s
+cmd.backup_list_file=  %s | %s | %s
+cmd.backup_when=%s（%s）
+cmd.backup_age_seconds=%s 秒前
+cmd.backup_age_minutes=%s 分钟前
+cmd.backup_age_hours=%s 小时前
+cmd.backup_age_days=%s 天前
+cmd.backup_age_future=未来日期
 serverutilities.gui.backup.title=恢复备份（%s）
 serverutilities.gui.backup.button=备份
 serverutilities.gui.backup.restore=恢复
@@ -598,7 +681,7 @@ serverutilities.gui.backup.restore_global=还原（使用全局数据）
 serverutilities.gui.backup.error=恢复备份时发生错误！
 serverutilities.gui.backup.delete_confirm=确认§c§l删除§r此备份？
 serverutilities.gui.backup.restore_confirm=确认§a§l恢复§r此备份?
-serverutilities.gui.backup.restore_global_confirm=您确定要对此备份进行（全局）还原吗？
+serverutilities.gui.backup.restore_global_confirm=你确定要对此备份进行§a§l（全局）§r还原吗？
 serverutilities.gui.backup.restore_confirm_desc=这也将恢复全局世界相关数据。之前的数据将移动到“.minecraft/backups_before_restore”中
 serverutilities.gui.backup.restore_global_confirm_desc=这也将恢复全局世界相关的数据，并将覆盖全局设置包含在备份中。之前的数据将移动到“.minecraft/backups_before_restore”中。
 
@@ -612,40 +695,25 @@ commands.pause_when_empty.mask.usage=/pause_when_empty mask <seconds>（临时�
 ## Buttons
 gui.accept=接受
 gui.add=添加
-gui.added=已添加
 gui.remove=移除
-gui.removed=已移除
 gui.close=关闭
-gui.open=打开
 gui.saved=已保存
 gui.loaded=已加载
 gui.info=信息
 gui.collapse_all=全部折叠
 gui.expand_all=全部展开
-gui.download=下载
-gui.downloaded=已下载
 gui.update=更新
-gui.updated=已更新
 gui.active=激活
 gui.inactive=停用
 gui.settings=设置
 gui.rename=重命名
 gui.search_box=搜索中……
-gui.move=移动
 gui.copy=复制
-gui.paste=粘贴
-gui.cut=剪切
 
 ## Labels
 gui.other=其他
-gui.server_forced=服务器强制加载：%s
 gui.online=在线
-gui.offline=离线
-gui.whitelist=白名单
-gui.blacklist=黑名单
 gui.color=颜色
-gui.downloading=下载中……
-gui.infinite=无限
 
 ## Sides
 facing.north=北
@@ -656,7 +724,6 @@ facing.east=东
 relative_facing.bottom=底
 relative_facing.top=顶
 relative_facing.back=后
-relative_facing.front=前
 relative_facing.left=左
 relative_facing.right=右
 
@@ -666,9 +733,6 @@ serverutilities.lang.team.created=组“%s”已创建
 serverutilities.lang.team.id_already_exists=ID 已经注册！
 serverutilities.lang.team.id_invalid=ID 只能够包含小写的 a-z、_ 和 | 字符！
 serverutilities.lang.team.deleted=组“%s”已删除
-serverutilities.lang.team.member_left=%s 离开了你的组！
-serverutilities.lang.team.member_joined=%s 加入了你的组！
-serverutilities.lang.team.transferred_ownership=新的组长是 %s
 serverutilities.lang.team.invited=已邀请 %s 到“%s”组
 serverutilities.lang.team.invited_you=你被邀请加入“%s”，邀请者是 %s。点击这里加入！
 serverutilities.lang.team.cancel_invite=取消邀请
@@ -679,13 +743,10 @@ serverutilities.lang.team.error.not_owner=你不是这个组的组长！
 serverutilities.lang.team.error.not_member=%s 不是这个组的组员！
 serverutilities.lang.team.error.already_member=%s 已是这个组的组员！
 serverutilities.lang.team.error.must_transfer_ownership=你必须转让所有权！
-serverutilities.lang.team.error.already_invited=%s 已被邀请！
-serverutilities.lang.team.error.failed_to_join=不能加入这个组！
 serverutilities.lang.team.permission.set=权限“%s”对于 %s 设置为 %s
 serverutilities.lang.team.permission.owner=不能改变组长的权限！
 serverutilities.lang.team.notification=你还没有加入或创建组！%s 来打开组队GUI，%s 来隐藏此信息。
 serverutilities.lang.team.notification.hide=隐藏此信息
-serverutilities.lang.team.chat_message=[组 %s] %s
 
 team_action.serverutilities.select_team=选择想要加入的组
 team_action.serverutilities.create_team=创建一个新的组
@@ -693,7 +754,6 @@ team_action.serverutilities.members=组员
 team_action.serverutilities.allies=盟友
 team_action.serverutilities.moderators=管理者
 team_action.serverutilities.enemies=敌人
-team_action.serverutilities.change_team=加入其他组
 team_action.serverutilities.leave=离开组
 team_action.serverutilities.leave.confirmation=警告！如果这样做，您可能会丢失任务进度和其他东西！
 team_action.serverutilities.transfer_ownership=转让所有权
@@ -716,7 +776,6 @@ serverutilities.lang.team_status.mod=管理者
 serverutilities.lang.team_status.owner=组长
 
 # Privacy Level
-privacy=隐私
 privacy.public=公共的
 privacy.private=私有的
 privacy.team=组
@@ -736,18 +795,26 @@ io_mode.out=仅输出
 io_mode.none=禁用
 
 # Click Actions
-click_action.cmd=命令
-click_action.show_cmd=显示命令
 click_action.url=打开 URL
 click_action.file=打开文件
-click_action.gui=打开 GUI
 
 # Aurora
 aurora=Server Utilities Aurora
-aurora.port=端口
 
 # JourneyMap
 serverutilities.jm.own_team=你的组
 serverutilities.jm.claim=双击一个空区块以声明。
 serverutilities.jm.load_hint=双击一个已声明的区块以加载/卸载
 serverutilities.jm.unclaim_hint=按 %s 以取消声明
+
+# Invsee GUI
+serverutilities.invsee.title=%s's %s
+serverutilities.invsee.main=主物品栏
+serverutilities.invsee.ender_chest=末影箱
+serverutilities.invsee.personal_backpack=个人背包
+serverutilities.invsee.baubles=饰品
+serverutilities.invsee.adventure_backpack=探险背包
+serverutilities.invsee.battlegear=战备双持
+serverutilities.invsee.tic_bag=匠魂背包与附加槽位
+serverutilities.invsee.galacticraft=星系
+serverutilities.invsee.gc_items=星系物品

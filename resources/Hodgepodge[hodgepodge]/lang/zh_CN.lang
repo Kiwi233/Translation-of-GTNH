@@ -21,11 +21,46 @@ item.dyePowder.name=染料
 item.skull.name=骷髅
 item.fish.name=鱼
 
+entity.Skeleton.wither.name=凋灵骷髅
+entity.MinecartRideable.name=矿车
+entity.MinecartChest.name=运输矿车
+entity.MinecartFurnace.name=动力矿车
+entity.MinecartTNT.name=TNT矿车
+entity.MinecartHopper.name=漏斗矿车
+entity.MinecartCommandBlock.name=命令方块矿车
+
 commands.time.get=当前世界时间为%s（一天中的时间：%s）
 commands.time.usageWithGet=/time <set|add> <数值> 或 /time get
 
 hodgepodge.soundsmenu.refreshsounds=刷新音频
-hodgepodge.bed_respawn.msg=重生点设置
+hodgepodge.soundsmenu.enhancements=增强音效设置……
+hodgepodge.soundsmenu.enhancements.title=增强音效
+hodgepodge.soundsmenu.enhancements.lwjgl3ify=HRTF、输出限制与立体声空间化功能需要 lwjgl3ify（Java 17+）方可使用。
+hodgepodge.soundsmenu.enhancements.reload=刷新声音，以对正在播放的声音应用混响效果。
+hodgepodge.soundsmenu.option=%s：%s
+hodgepodge.soundsmenu.hrtf=耳机HRTF
+hodgepodge.soundsmenu.hrtf.tooltip=启用耳机专属音频算法，模拟来自头顶、脚下、身前及身后的全方位立体音效。推荐佩戴耳机使用；扬声器播放可能会出现空洞感。默认状态跟随 OpenAL 设备设定。需依赖 lwjgl3ify 模组。
+hodgepodge.soundsmenu.output_limiter=输出限制
+hodgepodge.soundsmenu.output_limiter.tooltip=仅在即将产生爆音时，自动衰减混音总音量，避免机器轰鸣、爆炸等多个巨响重叠时造成刺耳杂音。默认跟随 OpenAL 设备设定。需依赖 lwjgl3ify 模组。
+hodgepodge.soundsmenu.environmental_reverb=环境混响
+hodgepodge.soundsmenu.environmental_reverb.tooltip=根据你所处空间的封闭程度，为定位声效添加回声，让洞穴与室内听起来不那么干瘪。更改此设置后，请刷新音频，以更新正在播放的音效。
+hodgepodge.soundsmenu.reverb_strength=混响量
+hodgepodge.soundsmenu.reverb_strength.tooltip=控制环境回声可以变得多强。更改会实时生效。默认值：30%%。
+hodgepodge.soundsmenu.downmix_stereo=立体声缩混
+hodgepodge.soundsmenu.downmix_stereo.tooltip=在加载时，将位置立体声效转换为单声道。这会将其解码后的内存占用减半，并让旧版 OpenAL 能在 3D 空间中定位它们。流式音乐和唱片将保持不变。刷新声音以重载缓存的音频。
+hodgepodge.soundsmenu.spatialize_stereo=空间化立体声
+hodgepodge.soundsmenu.spatialize_stereo.tooltip=让定位声效保持立体声，同时允许新版 OpenAL 在 3D 空间中定位它们。需要安装 lwjgl3ify，且在受支持时优先于“立体声缩混”。更改此设定后请刷新音频。
+hodgepodge.soundsmenu.output_device=输出设备
+hodgepodge.soundsmenu.output_device.title=选择输出设备
+hodgepodge.soundsmenu.output_device.default=系统默认
+hodgepodge.soundsmenu.output_device.tooltip=选择 OpenAL 播放设备。「系统默认」会跟随操作系统的变更。需要 lwjgl3ify 与现代 OpenAL Soft。
+hodgepodge.soundsmenu.output_device.failed=无法切换到该输出设备。
+hodgepodge.soundsmenu.default=默认
+hodgepodge.bed_respawn.msg=已设置重生点
+hodgepodge.menu.mod_options=模组选项...
+
+hodgepodge.chat.huge_message.logged=§c有人试图向你发送一条会导致你被踢出的超长聊天消息。请联系服务器管理员查看详情。报告时请提供以下信息：事件 ID %s§c。原始消息开头：%s
+hodgepodge.chat.huge_message.unlogged=§c有人试图向你发送一条会导致你被踢出的超长聊天消息。如果你无法确定来源且这种情况持续发生，请让服务器管理员在 HodgePodge 中开启 logHugeChat。原始消息开头：%s
 
 bettermodlist.sort.normal=正常
 bettermodlist.sort.a_to_z=A-Z
@@ -33,36 +68,55 @@ bettermodlist.sort.z_to_a=Z-A
 bettermodlist.gui.modlistinfo1=哦天哪一切都不一样了!
 bettermodlist.gui.modlistinfo2=全新的设计来自于:
 
-hodgepodge.debug.advanced_tooltips.enabled=Advanced Item Tooltips: §aOn
-hodgepodge.debug.advanced_tooltips.disabled=Advanced Item Tooltips: §cOff
-hodgepodge.debug.hitboxes.enabled=Hitboxes: §aOn
-hodgepodge.debug.hitboxes.disabled=Hitboxes: §cOff
-hodgepodge.debug.pause_focus.enabled=Pause on lost focus: §aOn
-hodgepodge.debug.pause_focus.disabled=Pause on lost focus: §cOff
-hodgepodge.debug.reload_chunks.message=Reloaded all chunks.
-hodgepodge.debug.reload_pack.message=Reloaded resource packs in %s seconds.
-hodgepodge.debug.crash.count.0=F3 + C is held down. This will crash the game in 6 seconds unless released.
-hodgepodge.debug.crash.count.1=Crashing in 5...
-hodgepodge.debug.crash.count.2=Crashing in 4...
-hodgepodge.debug.crash.count.3=Crashing in 3...
-hodgepodge.debug.crash.count.4=Crashing in 2...
-hodgepodge.debug.crash.count.5=Crashing in 1...
-hodgepodge.debug.crash.count.6=Time is over, game will crash when release ANY key.
-hodgepodge.debug.crash.cancel=Crash canceled.
-hodgepodge.debug.copy_location.message=Copied location to clipboard.
+hodgepodge.debug.advanced_tooltips.enabled=高级物品提示：§a开启
+hodgepodge.debug.advanced_tooltips.disabled=高级物品提示：§c关闭
+hodgepodge.debug.hitboxes.enabled=碰撞箱：§a开启
+hodgepodge.debug.hitboxes.disabled=碰撞箱：§c关闭
+hodgepodge.debug.pause_focus.enabled=失去焦点时暂停：§a开启
+hodgepodge.debug.pause_focus.disabled=暂停时失去焦点：§c关闭
+hodgepodge.debug.reload_chunks.message=已重新加载所有区块。
+hodgepodge.debug.reload_pack.message=已在 %s 秒内重新加载资源包。
+hodgepodge.debug.crash.count.0=已按下 F3 + C。游戏将在 6 秒后崩溃，松开则取消。
+hodgepodge.debug.crash.count.1=5秒后崩溃...
+hodgepodge.debug.crash.count.2=4秒后崩溃...
+hodgepodge.debug.crash.count.3=3秒后崩溃...
+hodgepodge.debug.crash.count.4=2秒后崩溃...
+hodgepodge.debug.crash.count.5=1秒后崩溃...
+hodgepodge.debug.crash.count.6=时间到，按下任意按键以使得游戏崩溃。
+hodgepodge.debug.crash.cancel=崩溃已取消。
+hodgepodge.debug.copy_location.message=已复制坐标到剪贴板。
 
-hodgepodge.debug.help.message=Key bindings:
-hodgepodge.debug.help.0=F3 = Open Debug Screen
-hodgepodge.debug.help.1=Shift + F3 = Open Debug Screen and show Profiler graph
-hodgepodge.debug.help.angelica=Alt + F3 = [Angelica] Open Debug Screen and show FPS/TPS graph
-hodgepodge.debug.help.2=F3 + A = Reload chunks
-hodgepodge.debug.help.3=F3 + B = Show hitboxes
-hodgepodge.debug.help.4=F3 + C = Copy location as /cofh tpx command, or hold for 6 seconds to crash the game
-hodgepodge.debug.help.5=F3 + D = [Hodgepodge] Clear chat
-hodgepodge.debug.help.6=F3 + H = Advanced tooltips
-hodgepodge.debug.help.7=F3 + P = Pause on lost focus
-hodgepodge.debug.help.8=F3 + Q = [Hodgepodge] Show this list
-hodgepodge.debug.help.9=F3 + S/T = Reload resource packs
-hodgepodge.debug.help.etfuturum=F3 + F4 = [Et-Futurum-Requiem] Open game mode switcher
-hodgepodge.debug.help.nei.1=%s = [NEI] Open Mob Spawning Overlay
-hodgepodge.debug.help.nei.2=%s = [NEI] Open Chunk Overlay
+hodgepodge.debug.help.message=按键绑定：
+hodgepodge.debug.help.0=F3 = 打开调试屏幕
+hodgepodge.debug.help.1=Shift + F3 = 打开调试屏幕并显示性能分析器图表
+hodgepodge.debug.help.angelica=Alt + F3 = [Angelica] 打开调试屏幕并显示FPS/TPS图表
+hodgepodge.debug.help.2=F3 + A = 重新加载区块
+hodgepodge.debug.help.3=F3 + B = 显示碰撞箱
+hodgepodge.debug.help.4=F3 + C = 复制当前位置为 /cofh tpx 命令，或按住 6 秒使游戏崩溃
+hodgepodge.debug.help.5=F3 + D = [Hodgepodge] 清空聊天框
+hodgepodge.debug.help.6=F3 + H = 切换高级提示框
+hodgepodge.debug.help.7=F3 + P = 失去焦点时暂停
+hodgepodge.debug.help.8=F3 + Q = [Hodgepodge] 显示此列表
+hodgepodge.debug.help.9=F3 + S/T = 重新加载资源包
+hodgepodge.debug.help.etfuturum=F3 + F4 = [Et-Futurum-Requiem] 打开游戏模式切换器
+hodgepodge.debug.help.nei.1=%s = [NEI] 开启怪物生成覆盖层
+hodgepodge.debug.help.nei.2=%s = [NEI] 打开区块覆盖层
+
+hodgepodge.disconnect.server_shutdown=服务器已关闭
+hodgepodge.disconnect.idle=你已闲置过久！
+hodgepodge.disconnect.illegal_stance=非法姿态
+hodgepodge.disconnect.illegal_position=非法位置
+hodgepodge.disconnect.flying=此服务器未启用飞行
+hodgepodge.disconnect.illegal_characters=聊天消息包含非法字符
+hodgepodge.disconnect.invalid_entity=试图攻击无效实体
+hodgepodge.disconnect.hardcore_death=你死了。游戏结束，兄弟，游戏结束了！
+hodgepodge.disconnect.logged_in_elsewhere=你已从其他位置登录
+hodgepodge.disconnect.not_whitelisted=你不在该服务器的白名单中！
+hodgepodge.disconnect.server_full=服务器已满！
+hodgepodge.disconnect.name_taken=该名称已被使用。
+hodgepodge.disconnect.login_timeout=登录耗时过长
+hodgepodge.disconnect.banned=你已被该服务器封禁。
+hodgepodge.disconnect.ip_banned=你的 IP 已被封禁。
+hodgepodge.disconnect.server_starting=服务器仍在启动！请稍候再连接。
+hodgepodge.disconnect.session_cleanup_pending=你先前的会话仍在清理中，请稍后重连
+hodgepodge.disconnect.session_cleanup_failed=你先前的会话未能安全地清理，请联系服务器管理员。

@@ -1,0 +1,14 @@
+由{aqua:动能}驱动的原始研磨机
+一次研磨最多{color_parallel:16}个物品
+并行数由{color_name:风速}决定
+并行数决定每个配方处理的物品数量
+无论并行数多少，处理时间相同
+使用{color_name:{item:bartworks:BW_SimpleWindMeter}}来测量{color_name:风速}
+转子可放入{color_name:{item:bartworks:BWRotorBlock}}
+无风或风力过强则无法工作
+{color_speed:12.5%}速度
+{hr}
+{color_parallel:2}并行：{white:低}
+{color_parallel:4}并行：{white:普通}
+{color_parallel:8}并行：{white:较强}
+{color_parallel:16}并行：{white:非常强}
