@@ -18,28 +18,43 @@ detrav.scanner.found.texts.2= §7少量(10-29)§r.
 detrav.scanner.found.texts.3= §2中等(30-59)§r.
 detrav.scanner.found.texts.4= §e较多(60-99)§r.
 detrav.scanner.found.texts.5= §d极多(100+)§r.
-detrav.scanner.found.texts.6=发现
+detrav.scanner.found.texts.6=发现 %s
+detrav.scanner.found.fluid=流体
 
-# Don't translate "%badluck"
 detrav.scanner.success=全部区块勘探成功!
-detrav.scanner.fail=%badluck区块勘探失败，祝你下次好运！
+detrav.scanner.fail.chunks=%s个区块扫描失败。祝下次好运！
 
 detrav.scanner.prospecting=正在勘探
 
-tooltip.detrav.scanner.durability=耐久：
-tooltip.detrav.scanner.range=勘探范围(区块)：
+tooltip.detrav.scanner.durability=耐久：%s / %s
+tooltip.detrav.scanner.range=勘探范围(区块)：%s x %s
 tooltip.detrav.scanner.usage.0=右键岩石方块以勘探当前区块!
 tooltip.detrav.scanner.usage.1=右键基岩以勘探地下流体!
 tooltip.detrav.scanner.usage.2=右键空气进行全范围扫描!
 tooltip.detrav.scanner.usage.3=Shift+右键空气以切换模式
 tooltip.detrav.scanner.usage.4=双击任何条目以反转背景颜色!
-tooltip.detrav.scanner.success.chance=扫描成功几率：
+tooltip.detrav.scanner.success.chance=扫描成功几率：§r%s%%
 tooltip.detrav.scanner.distance.0=在你旁边(距离0区块)，离你很近(1-2)
 tooltip.detrav.scanner.distance.1=中等距离(3-5)，长距离(6-8)，很远(9+)
 
+gui.detrav.scanner.all=所有
 gui.detrav.scanner.pollution=污染
+gui.detrav.scanner.gibbl=单位
 gui.detrav.scanner.unknown_fluid=未知流体!
 
-gui.detrav.scanner.tooltip.fluid_name=流体名：
-gui.detrav.scanner.tooltip.fluid_amount=流体储量：
+gui.detrav.scanner.tooltip.fluid_name=流体名：%s
+gui.detrav.scanner.tooltip.fluid_amount=流体储量：%s L
 gui.detrav.scanner.tooltip.no_fluid=空
+gui.detrav.scanner.tooltip.ore_pos=X：%d，Z：%d
+gui.detrav.scanner.tooltip.ore_depth=Y：%d
+gui.detrav.scanner.tooltip.mark_hint=右键以标记
+gui.detrav.scanner.search.hint=搜索...
+gui.detrav.scanner.hint.invert=双击以反转背景颜色
+
+# Prospector scanners
+gt.detrav.metatool.01.name=探矿仪（%s）
+gt.detrav.metatool.01.electric.name=电子探矿仪（%s）
+
+# Chats
+detrav.scanner.chat.cancel=已取消待处理的扫描
+detrav.scanner.chat.scanning=扫描中……

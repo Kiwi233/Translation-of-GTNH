@@ -1,0 +1,159 @@
+# Items
+item.vendingmachine.placeholder.name=占位符物品
+
+# Blocks
+gt.blockmachines.multimachine.vendingmachine.name=自动售货机
+gt.blockmachines.multimachine.vendingmachine.name.gui=自动售货机
+casing.0.name=自动售货机机械方块
+
+hatch.vendinguplink.me.name=ME自动售货机上行链路仓
+
+# Tooltips
+vendingmachine.vendinguplink.me.no_cached_stacks=没有等待输入ME网络的物品
+vendingmachine.vendinguplink.me.contains_cached_stacks=%s%d%s份物品等待输入ME网络：
+vendingmachine.vendinguplink.me.and_more_stacks=%s以及另外%d个...
+
+# Gui
+vendingmachine.gui.requirementHeader=需求：
+vendingmachine.gui.requirement.unknown=未知需求
+vendingmachine.gui.requirement.betterquesting=任务
+vendingmachine.gui.requirement.betterquesting.missing=缺少任务
+vendingmachine.gui.item_eject=弹出物品
+vendingmachine.gui.coin_eject=弹出所有钱包内的硬币
+vendingmachine.gui.single_coin_type_eject_hint=按住Shift键点击从钱包中提取该硬币
+vendingmachine.gui.search=搜索
+vendingmachine.gui.required_inputs=需要：
+vendingmachine.gui.nc_inputs=需求（不消耗）：
+vendingmachine.gui.alternative_oredict=接受矿物辞典：
+vendingmachine.gui.shared_trades_tooltip=与%s个其他交易共享冷却时间
+vendingmachine.gui.cooldown_remaining_tooltip=剩余 %s/%s 交易次数
+vendingmachine.gui.cooldown_started_tooltip=交易限额将在 %s 后重置
+vendingmachine.gui.cooldown_idle_tooltip=交易限额将在交易后%s重置
+vendingmachine.gui.trades_scale_tooltip=交易次数限制随在线团队成员数量而变化
+vendingmachine.gui.trade_hint=按住Shift键点击购买
+vendingmachine.gui.favourite_hint=Ctrl+点击以收藏/取消收藏
+vendingmachine.gui.display_mode=显示：
+vendingmachine.gui.display_mode_tile=方块
+vendingmachine.gui.display_mode_list=列表
+vendingmachine.gui.display_sort=排序：
+vendingmachine.gui.display_sort_smart=智能
+vendingmachine.gui.display_sort_alphabet=字母顺序
+vendingmachine.gui.display_wallet_personal=个人钱包
+vendingmachine.gui.display_wallet_team=团队钱包
+vendingmachine.gui.display_track=音乐：
+vendingmachine.gui.display_track_none=无
+vendingmachine.gui.display_track_lunch_break=Lunch Break，作者：Sol IX
+vendingmachine.gui.cooldown_display.second=秒
+vendingmachine.gui.cooldown_display.minute=分
+vendingmachine.gui.cooldown_display.hour=时
+vendingmachine.gui.cooldown_display.day=天
+vendingmachine.gui.in=输入
+vendingmachine.gui.out=输出
+vendingmachine.gui.volume.tooltip_volume_display=音量：%s%%
+vendingmachine.gui.volume.tooltip_open_panel=Shift点击进行调整
+vendingmachine.gui.volume.title=音乐音量
+vendingmachine.gui.volume.percent=%s%%
+vendingmachine.gui.error.incomplete_structure=结构不完整。
+vendingmachine.gui.error.player_using=有其他玩家正在使用此自动售货机。
+
+# Chat
+vendingmachine.chat.trade_restock=自动售货机已补货：%s
+
+# Command
+vendingmachine.command.usage=用法：%s
+vendingmachine.command.error.player_not_found=未找到玩家“%s”。
+vendingmachine.command.error.integer_format=无效数量“%s”，数量应当为整数。
+vendingmachine.command.no_wallet=未找到钱包。
+vendingmachine.command.error.invalid_currency_with_list=未知硬币类型“%s”。有效的硬币类型为%s。将鼠标悬停在硬币名称上，即可查看此命令接受的未本地化名称。
+
+vendingmachine.command.add.all_currency=已给予 %s 所有种类的硬币各 %s 个。
+vendingmachine.command.add.specific_currency=已将 %s 个%s添加给 %s。
+vendingmachine.command.add.remove_all_currency=已从 %2$s 移除 %1$s 个所有种类的硬币。
+vendingmachine.command.add.remove_specific_currency=已从 %3$s 移除 %1$s 个%2$s 。
+
+vendingmachine.command.set.all_currency=已将 %2$s 所有硬币设置到 %1$s 个。
+vendingmachine.command.set.specific_currency=已将 %3$s %1$s设置到 %2$s 个。
+
+vendingmachine.command.reset.all_coins=已重置 %s 所有硬币。
+vendingmachine.command.reset.specific_coin=已重置 %2$s %1$s。
+vendingmachine.command.reset.reloaded_trade_db=已重新加载交易数据库。
+
+# Categories
+vendingmachine.category.favourites=收藏
+vendingmachine.category.unknown=未知类别
+vendingmachine.category.all=所有物品
+vendingmachine.category.components=组件
+vendingmachine.category.raw=原料
+vendingmachine.category.farming=农艺
+vendingmachine.category.chemistry=化学
+vendingmachine.category.magic=魔法
+vendingmachine.category.bees=蜜蜂
+vendingmachine.category.misc=杂项
+
+# Coins
+vendingmachine.coin.adventure=探险家币
+vendingmachine.coin.bees=养蜂员币
+vendingmachine.coin.blood=吸血鬼币
+vendingmachine.coin.chemist=化学家币
+vendingmachine.coin.cook=厨师币
+vendingmachine.coin.darkWizard=魔法师币
+vendingmachine.coin.farmer=农民币
+vendingmachine.coin.flower=园艺家币
+vendingmachine.coin.forestry=护林员币
+vendingmachine.coin.smith=匠师币
+vendingmachine.coin.space=太空侵略者币
+vendingmachine.coin.survivor=幸存者币
+vendingmachine.coin.technician=技术员币
+vendingmachine.coin.witch=巫师币
+
+# Config
+vendingmachine.config.title.main=自动售货机设置
+vendingmachine.config.title.main.tooltip=自动售货机的设置项。
+
+vendingmachine.config.title.main_settings=主要设置
+vendingmachine.config.title.main_settings.tooltip=自动售货机的全局设置
+vendingmachine.config.title.gui_settings=GUI设置
+vendingmachine.config.title.gui_settings.tooltip=GUI显示设置
+vendingmachine.config.title.team_settings=团队设置
+vendingmachine.config.title.team_settings.tooltip=设置团队选项
+vendingmachine.config.title.music_settings=音乐设置
+vendingmachine.config.title.music_settings.tooltip=设置音乐选项
+vendingmachine.config.title.dev_settings=开发者设置
+vendingmachine.config.title.dev_setting.tooltips=设置开发者选项
+
+vendingmachine.config.main.data_refresh=刷新频率
+vendingmachine.config.main.data_refresh.tooltip=自动售货机刷新数据的频率（以游戏刻数为单位）
+vendingmachine.config.main.restock=补货通知
+vendingmachine.config.main.restock.tooltip=启用补货通知\n若在服务器上禁用，将禁用所有人的通知
+vendingmachine.config.main.restock_check=补货检查频率
+vendingmachine.config.main.restock_check.tooltip=服务器检查已补货交易的频率（以游戏刻数为单位）
+vendingmachine.config.main.eject_frequency=弹出频率
+vendingmachine.config.main.eject_frequency.tooltip=物品弹出的频率（以游戏刻数为单位）
+vendingmachine.config.main.dispense_frequency=弹出数量
+vendingmachine.config.main.dispense_frequency.tooltip=队列中一次最多弹出多少个物品
+
+vendingmachine.config.gui.trade_display=交易展示格式
+vendingmachine.config.gui.trade_display.tooltip=默认交易显示格式\n区分大小写
+vendingmachine.config.gui.sort_mode=排序模式
+vendingmachine.config.gui.sort_mode.tooltip=默认排序模式\n区分大小写
+vendingmachine.config.gui.show_coins=显示硬币栏
+vendingmachine.config.gui.show_coins.tooltip=显示自动售货机内的硬币存量
+vendingmachine.config.gui.wallet_mode=钱包模式
+vendingmachine.config.gui.wallet_mode.tooltip=默认钱包模式\n区分大小写
+
+vendingmachine.config.team.allow_in_teams=使用团队钱包
+vendingmachine.config.team.allow_in_teams.tooltip=允许在单人团队中使用团队钱包
+vendingmachine.config.team.cooldown_increase=交易冷却限制
+vendingmachine.config.team.cooldown_increase.tooltip=团队中的每位玩家使冷却交易限制增加 1\n数值为 -1 则不设上限
+
+vendingmachine.config.music.track=音乐曲目
+vendingmachine.config.music.track.tooltip=自动售货机播放的音乐曲目\n区分大小写
+vendingmachine.config.music.volume=音乐音量
+vendingmachine.config.music.volume.tooltip=自动售货机音乐音量
+
+vendingmachine.config.dev.subdirectory=子目录
+vendingmachine.config.dev.subdirectory.tooltip=世界存档中自动售货机数据的子目录
+vendingmachine.config.dev.folder=数据库交易文件夹
+vendingmachine.config.dev.folder.tooltip=交易数据库文件所在的文件夹
+vendingmachine.config.dev.database=数据库强制重写
+vendingmachine.config.dev.database.tooltip=在加载时强制重写数据库，用于添加/移除交易或更改格式

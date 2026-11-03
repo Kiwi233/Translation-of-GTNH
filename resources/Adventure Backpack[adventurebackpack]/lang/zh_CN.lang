@@ -10,7 +10,7 @@ item.adventurebackpack:copterEngine.name=双缸柴油机
 item.adventurebackpack:copterBlades.name=直升机桨叶
 item.adventurebackpack:hydroBlades.name=水力发电桨叶
 item.adventurebackpack:inflatableBoat.name=充气艇
-item.adventurebackpack:inflatableBoatMotorized.name=充气艇(机动化)
+item.adventurebackpack:inflatableBoatMotorized.name=充气艇（机动化）
 
 ## Entity 
 entity.adventurebackpack.inflatableBoat.name=充气艇
@@ -98,30 +98,38 @@ adventurebackpack:tooltips.backpack.tank.left=左侧储罐
 adventurebackpack:tooltips.backpack.tank.right=右侧储罐
 adventurebackpack:tooltips.backpack.cycling=工具循环
 adventurebackpack:tooltips.backpack.cycling.key1=穿着时
-adventurebackpack:tooltips.backpack.cycling.key2=背包, 可循环
+adventurebackpack:tooltips.backpack.cycling.key2=背包 切换工具循环
 adventurebackpack:tooltips.backpack.vision=夜视
 adventurebackpack:tooltips.backpack.vision.key1=穿着时
-adventurebackpack:tooltips.backpack.vision.key2=背包, 夜视
+adventurebackpack:tooltips.backpack.vision.key2=背包 开启夜视功能
+adventurebackpack:tooltips.backpack.equip=背起背包
+adventurebackpack:tooltips.backpack.unequip.key1=卸下背包
+adventurebackpack:tooltips.backpack.unequip.key2=§7按住Shift键：使用睡袋§r
+adventurebackpack:tooltips.backpack.sleepingbag=使用睡袋
 
 adventurebackpack:tooltips.jetpack.fuel=燃料
 adventurebackpack:tooltips.jetpack.tank.water=左侧油箱
 adventurebackpack:tooltips.jetpack.tank.steam=右侧油箱
 adventurebackpack:tooltips.jetpack.key.onoff1=穿着时
-adventurebackpack:tooltips.jetpack.key.onoff2=喷气背包, 转起来吧
+adventurebackpack:tooltips.jetpack.key.onoff2=喷气背包 启动
+adventurebackpack:tooltips.jetpack.equip=背起煤炭喷气背包
+adventurebackpack:tooltips.jetpack.unequip=卸下煤炭喷气背包
 
 adventurebackpack:tooltips.copter.tank.fuel=燃料箱
 adventurebackpack:tooltips.copter.rate.fuel=燃料消耗率
 adventurebackpack:tooltips.copter.key.onoff1=穿着时
-adventurebackpack:tooltips.copter.key.onoff2=直升机背包, 转起来吧
+adventurebackpack:tooltips.copter.key.onoff2=直升机背包 启动
 adventurebackpack:tooltips.copter.key.hover1=飞行期间
 adventurebackpack:tooltips.copter.key.hover2=切换悬停模式
+adventurebackpack:tooltips.copter.equip=背起直升机背包
+adventurebackpack:tooltips.copter.unequip=卸下直升机背包
 
 adventurebackpack:tooltips.hose.key.header=当手持软管时:
 adventurebackpack:tooltips.hose.key.tank=更换储罐
 adventurebackpack:tooltips.hose.key.mode=切换模式
 adventurebackpack:tooltips.hose.dump1=将软管放入可穿戴背包的输出栏中
 adventurebackpack:tooltips.hose.dump2=清空对应储罐
-adventurebackpack:tooltips.hose.dump.warn=警告! 液体将被倾倒并丢失. 覆水难收.
+adventurebackpack:tooltips.hose.dump.warn=警告! 流体将被倾倒并丢失. 覆水难收.
 
 ## Skins
 adventurebackpack:skin.name.standard=标准

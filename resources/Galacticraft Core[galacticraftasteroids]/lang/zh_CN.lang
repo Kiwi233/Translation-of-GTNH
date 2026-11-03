@@ -5,7 +5,7 @@ item.itemTier3Rocket.name=3阶火箭
 item.itemTier3Rocket.t3Rocket.name=3阶火箭
 item.itemAstroMiner.name=太空采矿机
 item.heavyNoseCone.name=重型前锥体
-item.compressedTitanium.name=压缩钛板
+item.compressedTitanium.name=航天钛板
 item.ingotTitanium.name=钛锭
 item.shardTitanium.name=钛碎片
 item.shardIron.name=铁碎片
@@ -40,20 +40,20 @@ item.titanium_boots.name=钛靴
 
 # CANISTERS ETC
 item.methaneCanisterPartial.name=甲烷气体罐
-item.methaneCanister.name=甲烷气体罐(满)
+item.methaneCanister.name=甲烷气体罐（满）
 item.canister.gas.name=甲烷
 item.canisterPartialLOX.name=罐装液态氧
 item.canister.LOX.partial.name=罐装液态氧
-item.canister.LOX.full.name=罐装液态氧(满)
+item.canister.LOX.full.name=罐装液态氧（满）
 item.canister.LOX.name=氧
 item.canisterPartialLN2.name=灌装液态氮
 item.canister.liquidNitrogen.partial.name=灌装液态氮
-item.canister.liquidNitrogen.full.name=灌装液态氮(满)
+item.canister.liquidNitrogen.full.name=灌装液态氮（满）
 item.canister.liquidNitrogen.name=氮
 item.canister.liquidArgon.partial.name=灌装液态氩
-item.canister.liquidArgon.full.name=灌装液态氩(满)
+item.canister.liquidArgon.full.name=灌装液态氩（满）
 item.canister.liquidArgon.name=氩
-item.emptyGasCanister.name=气体罐(空)
+item.emptyGasCanister.name=气体罐（空）
 
 # FLUIDS AND GASES
 fluid.methane=甲烷
@@ -63,7 +63,7 @@ fluid.hydrogen=氢气
 fluid.carbondioxide=二氧化碳
 fluid.helium=氦气
 fluid.argon=氩气
-fluid.atmosphericgases=空气
+fluid.atmosphericgases=大气气体
 fluid.liquidmethane=液态甲烷
 fluid.liquidoxygen=液态氧
 fluid.liquidnitrogen=液态氮
@@ -91,7 +91,7 @@ tile.minerBaseFull.name=太空采矿机基地
 tile.minerBase.name=太空采矿机基地方块
 
 # GUI
-planet.asteroids=小行星
+planet.asteroids=小行星带
 
 	# Dollar sign ($) will split text onto a new line
 	# Do not remove %s or %d, since that will be replaced in-game
@@ -155,7 +155,7 @@ container.shortRangeTelepad.name=短距离传送台
 container.entryPod.name=登陆舱
 
 # CONFIG GUI
-gc.configgui.dimensionIDAsteroids=小行星维度ID
+gc.configgui.dimensionIDAsteroids=小行星带维度ID
 gc.configgui.idSchematicRocketT3=3阶火箭设计图ID
 gc.configgui.disableGalacticraftHelium=禁用星系氦气
 gc.configgui.astroMinersMax=每名玩家拥有的太空采矿机数量上限

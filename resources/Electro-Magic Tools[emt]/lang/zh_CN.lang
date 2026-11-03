@@ -41,7 +41,7 @@ tooltip.EMT.underwater=水下发电量
 tooltip.EMT.output.double=输出2倍电量
 tooltip.EMT.output.triple=输出3倍电量
 tooltip.EMT.output.double.nether=处于下界时发电量
-tooltip.EMT.output.double.lava=每秒供给0.01点火之源质时发电量
+tooltip.EMT.output.double.lava=供给§cIgnis§7 Centivis时发电量
 tooltip.EMT.output.double.half.height=位置越高发电量越高(y=5时1倍，y=220时3倍)
 tooltip.EMT.output.double.half.low=位置越低发电量越高(y=220时1倍，y=5时3倍)
 
@@ -128,67 +128,67 @@ tile.EMT.machine.name=机器
 tile.EMT.machine.wandrecharge.name=工业法杖充能站
 tile.EMT.machine.etheralprocessor.name=天域加工机
 tile.EMT.machine.essentiafiller.name=源质填充机 - 即将弃用
-tile.EMT.solar.name=压缩太阳能(1级)
-tile.EMT.solar2.name=压缩太阳能(2级)
-tile.EMT.solar3.name=压缩太阳能(4级)
-tile.EMT.solar4.name=混沌注魔太阳能(6级)
-tile.EMT.solar5.name=地注魔太阳能(8级)
-tile.EMT.solar.compressed.name=压缩太阳能(1级)
-tile.EMT.solar.doublecompressed.name=压缩太阳能(2级)
-tile.EMT.solar.triplecompressed.name=压缩太阳能(3级)
-tile.EMT.Quadruple_Compressed_Solar.name=压缩太阳能(4级)
-tile.EMT.Quintuple_Compressed_Solar.name=压缩太阳能(5级)
-tile.EMT.Sextuple_Compressed_Solar.name=压缩太阳能(6级)
-tile.EMT.Septuple_Compressed_Solar.name=压缩太阳能(7级)
-tile.EMT.Octuple_Compressed_Solar.name=压缩太阳能(8级)
-tile.EMT.solar.water.name=水注魔太阳能(1级)
-tile.EMT.solar.doublewater.name=水注魔太阳能(2级)
-tile.EMT.solar.triplewater.name=水注魔太阳能(3级)
-tile.EMT.Quadruple_Compressed_Aqua_Solar.name=水注魔太阳能(4级)
-tile.EMT.Quintuple_Compressed_Aqua_Solar.name=水注魔太阳能(5级)
-tile.EMT.Sextuple_Compressed_Aqua_Solar.name=水注魔太阳能(6级)
-tile.EMT.Septuple_Compressed_Aqua_Solar.name=水注魔太阳能(7级)
-tile.EMT.Octuple_Compressed_Aqua_Solar.name=水注魔太阳能(8级)
-tile.EMT.solar.dark.name=混沌注魔太阳能(1级)
-tile.EMT.solar.doubledark.name=混沌注魔太阳能(2级)
-tile.EMT.solar.tripledark.name=混沌注魔太阳能(3级)
-tile.EMT.Quadruple_Compressed_Perditio_Solar.name=混沌注魔太阳能(4级)
-tile.EMT.Quintuple_Compressed_Perditio_Solar.name=混沌注魔太阳能(5级)
-tile.EMT.Sextuple_Compressed_Perditio_Solar.name=混沌注魔太阳能(6级)
-tile.EMT.Septuple_Compressed_Perditio_Solar.name=混沌注魔太阳能(7级)
-tile.EMT.Octuple_Compressed_Perditio_Solar.name=混沌注魔太阳能(8级)
-tile.EMT.solar.order.name=秩序注魔太阳能(1级)
-tile.EMT.solar.doubleorder.name=秩序注魔太阳能(2级)
-tile.EMT.solar.tripleorder.name=秩序注魔太阳能(3级)
-tile.EMT.Quadruple_Compressed_Ordo_Solar.name=秩序注魔太阳能(4级)
-tile.EMT.Quintuple_Compressed_Ordo_Solar.name=秩序注魔太阳能(5级)
-tile.EMT.Sextuple_Compressed_Ordo_Solar.name=秩序注魔太阳能(6级)
-tile.EMT.Septuple_Compressed_Ordo_Solar.name=秩序注魔太阳能(7级)
-tile.EMT.Octuple_Compressed_Ordo_Solar.name=秩序注魔太阳能(8级)
-tile.EMT.solar.fire.name=火注魔太阳能(1级)
-tile.EMT.solar.doublefire.name=火注魔太阳能(2级)
-tile.EMT.solar.triplefire.name=火注魔太阳能(3级)
-tile.EMT.Quadruple_Compressed_Ignis_Solar.name=火注魔太阳能(4级)
-tile.EMT.Quintuple_Compressed_Ignis_Solar.name=火注魔太阳能(5级)
-tile.EMT.Sextuple_Compressed_Ignis_Solar.name=火注魔太阳能(6级)
-tile.EMT.Septuple_Compressed_Ignis_Solar.name=火注魔太阳能(7级)
-tile.EMT.Octuple_Compressed_Ignis_Solar.name=火注魔太阳能(8级)
-tile.EMT.solar.air.name=风注魔太阳能(1级)
-tile.EMT.solar2.doubleair.name=风注魔太阳能(2级)
-tile.EMT.solar2.tripleair.name=风注魔太阳能(3级)
-tile.EMT.Quadruple_Compressed_Aer_Solar.name=风注魔太阳能(4级)
-tile.EMT.Quintuple_Compressed_Aer_Solar.name=风注魔太阳能(5级)
-tile.EMT.Sextuple_Compressed_Aer_Solar.name=风注魔太阳能(6级)
-tile.EMT.Septuple_Compressed_Aer_Solar.name=风注魔太阳能(7级)
-tile.EMT.Octuple_Compressed_Aer_Solar.name=风注魔太阳能(8级)
-tile.EMT.solar2.earth.name=地注魔太阳能(1级)
-tile.EMT.solar2.doubleearth.name=地注魔太阳能(2级)
-tile.EMT.solar2.tripleearth.name=地注魔太阳能(3级)
-tile.EMT.Quadruple_Compressed_Terra_Solar.name=地注魔太阳能(4级)
-tile.EMT.Quintuple_Compressed_Terra_Solar.name=地注魔太阳能(5级)
-tile.EMT.Sextuple_Compressed_Terra_Solar.name=地注魔太阳能(6级)
-tile.EMT.Septuple_Compressed_Terra_Solar.name=地注魔太阳能(7级)
-tile.EMT.Octuple_Compressed_Terra_Solar.name=地注魔太阳能(8级)
+tile.EMT.solar.name=压缩太阳能
+tile.EMT.solar2.name=风注魔二重压缩太阳能
+tile.EMT.solar3.name=四重压缩太阳能
+tile.EMT.solar4.name=混沌注魔六重压缩太阳能
+tile.EMT.solar5.name=地注魔八重压缩太阳能
+tile.EMT.solar.compressed.name=压缩太阳能
+tile.EMT.solar.doublecompressed.name=二重压缩太阳能
+tile.EMT.solar.triplecompressed.name=三重压缩太阳能
+tile.EMT.Quadruple_Compressed_Solar.name=四重压缩太阳能
+tile.EMT.Quintuple_Compressed_Solar.name=五重压缩太阳能
+tile.EMT.Sextuple_Compressed_Solar.name=六重压缩太阳能
+tile.EMT.Septuple_Compressed_Solar.name=七重压缩太阳能
+tile.EMT.Octuple_Compressed_Solar.name=八重压缩太阳能
+tile.EMT.solar.water.name=水注魔压缩太阳能
+tile.EMT.solar.doublewater.name=水注魔二重压缩太阳能
+tile.EMT.solar.triplewater.name=水注魔三重压缩太阳能
+tile.EMT.Quadruple_Compressed_Aqua_Solar.name=水注魔四重压缩太阳能
+tile.EMT.Quintuple_Compressed_Aqua_Solar.name=水注魔五重压缩太阳能
+tile.EMT.Sextuple_Compressed_Aqua_Solar.name=水注魔六重压缩太阳能
+tile.EMT.Septuple_Compressed_Aqua_Solar.name=水注魔七重压缩太阳能
+tile.EMT.Octuple_Compressed_Aqua_Solar.name=水注魔八重压缩太阳能
+tile.EMT.solar.dark.name=混沌注魔压缩太阳能
+tile.EMT.solar.doubledark.name=混沌注魔二重压缩太阳能
+tile.EMT.solar.tripledark.name=混沌注魔三重压缩太阳能
+tile.EMT.Quadruple_Compressed_Perditio_Solar.name=混沌注魔四重压缩太阳能
+tile.EMT.Quintuple_Compressed_Perditio_Solar.name=混沌注魔五重压缩太阳能
+tile.EMT.Sextuple_Compressed_Perditio_Solar.name=混沌注魔六重压缩太阳能
+tile.EMT.Septuple_Compressed_Perditio_Solar.name=混沌注魔七重压缩太阳能
+tile.EMT.Octuple_Compressed_Perditio_Solar.name=混沌注魔八重压缩太阳能
+tile.EMT.solar.order.name=秩序注魔压缩太阳能
+tile.EMT.solar.doubleorder.name=秩序注魔二重压缩太阳能
+tile.EMT.solar.tripleorder.name=秩序注魔三重压缩太阳能
+tile.EMT.Quadruple_Compressed_Ordo_Solar.name=秩序注魔四重压缩太阳能
+tile.EMT.Quintuple_Compressed_Ordo_Solar.name=秩序注魔五重压缩太阳能
+tile.EMT.Sextuple_Compressed_Ordo_Solar.name=秩序注魔六重压缩太阳能
+tile.EMT.Septuple_Compressed_Ordo_Solar.name=秩序注魔七重压缩太阳能
+tile.EMT.Octuple_Compressed_Ordo_Solar.name=秩序注魔八重压缩太阳能
+tile.EMT.solar.fire.name=火注魔压缩太阳能
+tile.EMT.solar.doublefire.name=火注魔二重压缩太阳能
+tile.EMT.solar.triplefire.name=火注魔三重压缩太阳能
+tile.EMT.Quadruple_Compressed_Ignis_Solar.name=火注魔四重压缩太阳能
+tile.EMT.Quintuple_Compressed_Ignis_Solar.name=火注魔五重压缩太阳能
+tile.EMT.Sextuple_Compressed_Ignis_Solar.name=火注魔六重压缩太阳能
+tile.EMT.Septuple_Compressed_Ignis_Solar.name=火注魔七重压缩太阳能
+tile.EMT.Octuple_Compressed_Ignis_Solar.name=火注魔八重压缩太阳能
+tile.EMT.solar.air.name=风注魔压缩太阳能
+tile.EMT.solar2.doubleair.name=风注魔二重压缩太阳能
+tile.EMT.solar2.tripleair.name=风注魔三重压缩太阳能
+tile.EMT.Quadruple_Compressed_Aer_Solar.name=风注魔四重压缩太阳能
+tile.EMT.Quintuple_Compressed_Aer_Solar.name=风注魔五重压缩太阳能
+tile.EMT.Sextuple_Compressed_Aer_Solar.name=风注魔六重压缩太阳能
+tile.EMT.Septuple_Compressed_Aer_Solar.name=风注魔七重压缩太阳能
+tile.EMT.Octuple_Compressed_Aer_Solar.name=风注魔八重压缩太阳能
+tile.EMT.solar2.earth.name=地注魔压缩太阳能
+tile.EMT.solar2.doubleearth.name=地注魔二重压缩太阳能
+tile.EMT.solar2.tripleearth.name=地注魔三重压缩太阳能
+tile.EMT.Quadruple_Compressed_Terra_Solar.name=地注魔四重压缩太阳能
+tile.EMT.Quintuple_Compressed_Terra_Solar.name=地注魔五重压缩太阳能
+tile.EMT.Sextuple_Compressed_Terra_Solar.name=地注魔六重压缩太阳能
+tile.EMT.Septuple_Compressed_Terra_Solar.name=地注魔七重压缩太阳能
+tile.EMT.Octuple_Compressed_Terra_Solar.name=地注魔八重压缩太阳能
 
 #=============Thaumonomicon Texts=============
 emt.rsname.Electric Magic Tools=电力魔法工具
@@ -222,7 +222,7 @@ emt.text.Nanosuit Goggles of Revealing=你已发现了一种无需移动太多�
 
 emt.rsname.Quantum Goggles of Revealing=量子揭示护目镜
 emt.tag.Quantum Goggles of Revealing=更高级的双重保护
-emt.text.Quantum Goggles of Revealing=这期间出现了许多的尝试和错误,但你已找到了一种方法来将Vis感应器加入量子头盔里.通过给量子头盔注魔,你将能用它看见灵气节点.在设计的过程中,你需要将几个包含夜视和自动补充饱食度的控制芯片替换成Vis感知电路和电容,用于吸收过量的魔法能量.你发现使用激光采矿枪时它能安全地确认准星并控制爆炸的冲击.玩的愉快.有了它再也不用夜视药水和补充食物了.
+emt.text.Quantum Goggles of Revealing=经过大量的试错，你终于找到了将Vis感应器嵌入量子头盔的方法。给量子头盔注魔后，你就能用它来观测灵气节点了。在设计的过程中，你不得不将几个涉及夜视和自动喂食的控制电路，替换为Vis侦测电路和用于吸收过剩魔法能量的电容器。你发现借助激光采矿枪来约束能量，能够安全地聚焦并引导爆炸脉冲，指向头盔内夜视与喂食组件的位置。好好享受被强行灌输能量的滋味吧。
 
 emt.rsname.Iron Omnitool=铁制钻锯
 emt.tag.Iron Omnitool=为农夫准备的便利工具
@@ -238,7 +238,7 @@ emt.text.Thaumium Omnitool=在创作了钻石钻锯和铁钻锯之后,下一步�
 
 emt.rsname.Explosion Focus=法杖核心:爆炸
 emt.tag.Explosion Focus=请在开阔处使用
-emt.text.Explosion Focus=你已发现了一种通过将蝙蝠换为更具爆炸性的采矿激光来修改九狱核心的方法.这个核心工作时类似激光采矿枪但是它使用Vis而不是电力.这个核心很不稳定所以记着小心点.
+emt.text.Explosion Focus=你已发现了一种修改九狱核心的方法:将蝙蝠换为更具爆炸性的采矿激光.<BR>这个核心工作时类似激光采矿枪,但是它使用Vis而不是电力.<BR>这个核心很不稳定,所以记着小心点.
 
 emt.rsname.Kris-tmas Focus=法杖核心:圣诞
 emt.tag.Kris-tmas Focus=吼!吼!吼!
@@ -254,7 +254,7 @@ emt.text.Wand Focus: Maintenance=在深入研究了设备的机械特性之后,�
 
 emt.rsname.Potentia Generator=能量源质发电机
 emt.tag.Potentia Generator=利用源质来发电
-emt.text.Potentia Generator=在许多的学习与研究后,你终于发现了如何从多余的源质中提取电力.<BR><BR>只需要在机器边8格范围内放置一个装有能量源质的罐子它就会吸收源质产生电力.<BR><BR>尽管能量是产生电力最合理的的选择,但你相信经过一些探索在未来你能从其他不同的源质中获得电力.
+emt.text.Potentia Generator=在许多的学习与研究后,你终于发现了如何从多余的源质中提取电力.<BR><BR>只需要在机器边8格范围内放置一个装有能量源质的罐子它就会吸收源质产生电力.<BR><BR>尽管能量是产生电力最合理的选择,但你相信经过一些探索在未来你能从其他不同的源质中获得电力.
 
 emt.rsname.Lucrum Generator=贪婪源质发电机
 emt.tag.Lucrum Generator=贪婪也是能量...?
@@ -266,7 +266,7 @@ emt.text.Ignis Generator=就如你所想的,通过一点调整,你已经找到�
 
 emt.rsname.Auram Generator=灵气源质发电机
 emt.tag.Auram Generator=利用空气中的魔力
-emt.text.Auram Generator=尽管比你最初的想法用了更多的努力,你已经发现了一种用灵气源质产生电力的方法.这需要一个完全的机器改造,依靠灵气脉动的魔法能量来带动发电机工作.
+emt.text.Auram Generator=尽管比你最初的想法用了更多的努力，你已经发现了一种用灵气源质产生电力的方法。这需要一个完全的机器改造，依靠灵气脉动的魔法能量来带动发电机工作。
 
 emt.rsname.Arbor Generator=木之源质发电机
 emt.tag.Arbor Generator=让发电回到基础
@@ -294,7 +294,7 @@ emt.text.Tiny Uranium=在你将自己所有的矿物都用在了核反应堆的�
 
 emt.rsname.Mjolnir=雷神之锤
 emt.tag.Mjolnir=感受神之力吧
-emt.text.Mjolnir=你走遍了世界,为了找到这个可能存在的雷神之锤.一天,你偶然发现了它的碎片,你很沮丧.经过长时间辛苦的研究,你找到了让这个魔法工具重现昔日荣光的方法.<BR><BR>你有种感觉(似乎常常有这种感觉),尽管这个工具十分强力,但你还能做更多.
+emt.text.Mjolnir=你走遍了世界,为了找到这个可能存在的雷神之锤.一天,你偶然发现了它的碎片,你很沮丧.<BR>经过长时间辛苦的研究,你找到了让这个魔法工具重现昔日荣光的方法.<BR><BR>你有种感觉(似乎常常有这种感觉),尽管这个工具十分强力,但你还能让它更强.
 
 emt.rsname.The Legend=传说之物
 emt.tag.The Legend=童年的记忆...
@@ -306,7 +306,7 @@ emt.text.Lightning Summoner=这个物品是你的死敌:高压苦力怕所掉落
 
 emt.rsname.Supercharged Mjolnir=高压雷神之锤
 emt.tag.Supercharged Mjolnir=将它据为己有
-emt.text.Supercharged Mjolnir=在对各个世界和维度中的地牢进行探索之后,你已经成功地找到了一种方法来压制托尔(雷神)的力量,使得他的锤子变为你的所有物.此外,你可以用你的锤子召唤守卫(类似雪傀儡的奇怪生物)来保护你.然而,这把锤子失去了在你所指之处召唤闪电的力量,并且使用时会在你的周围召唤一圈闪电.
+emt.text.Supercharged Mjolnir=在对各个世界和维度中的地牢进行探索之后，你已经成功地找到了一种方法来压制托尔(雷神)的力量，使得他的锤子变为你的所有物。此外，你可以用你的锤子召唤守卫(类似雪傀儡的奇怪生物)来保护你。然而，这把锤子失去了在你所指之处召唤闪电的力量，并且使用时会在你的周围召唤一圈闪电。
 
 emt.rsname.Industrial Wand Charging Station=工业法杖充能站
 emt.tag.Industrial Wand Charging Station=用工业的方式为你的法杖充能
@@ -321,12 +321,12 @@ emt.tag.Solar Helmet of Revealing=阳光太刺眼了
 emt.text.Solar Helmet of Revealing=你现在有了一顶可以像你的量子揭示护目镜一样工作的头盔,也能给你的胸甲充电!在白天可以产生65536 EU的电,在夜晚则是4096 EU.
 
 emt.rsname.Diamond Chainsaw=钻石链锯
-emt.tag.Diamond Chainsaw=更硬,更好,更快,更强
+emt.tag.Diamond Chainsaw=更硬，更好，更快，更强
 emt.text.Diamond Chainsaw=你不知道为何用钻石升级电锯就像钻石升级电钻那样的想法从未出现在脑海中.这个升级使得电锯能储存更多的电力并且更快的破坏方块.
 
 emt.rsname.Thaumium Plate=神秘板
 emt.tag.Thaumium Plate=神秘锭的工业处理
-emt.text.Thaumium Plate=就如每个电子工程师所知道的,板材是许多设备的基础.我们知道把神秘锭压制成板材将会是把魔法方便地融入工具的必要途径,但这让魔法学院的魔法师们十分心烦.他们不愿意让我们对珍贵的金属材料瞎捣鼓.你可以像所示的那样制作出这些贵重的板材,或是在金属成型机内制作,只需要一个神秘锭.但别让那些恼火的魔法师们看见.
+emt.text.Thaumium Plate=就如每个电子工程师所知道的，板材是许多设备的基础。我们知道把神秘锭压制成板材将会是把魔法方便地融入工具的必要途径，但这让魔法学院的魔法师们十分心烦。他们不愿意让我们对珍贵的金属材料瞎捣鼓。你可以像所示的那样制作出这些贵重的板材，或是在金属成型机内制作，只需要一个神秘锭，但别让那些恼火的魔法师们看见。
 
 emt.rsname.Macerating Native Ore Clusters=矿簇粉碎工艺
 emt.tag.Macerating Native Ore Clusters=增加你的矿物产量
@@ -350,29 +350,29 @@ emt.text.Electric Scribing Tools=你不想再杀墨鱼了.因此你研究出了�
 
 emt.rsname.Etheral Processor=天域加工机
 emt.tag.Etheral Processor=天空如此湛蓝...
-emt.text.Etheral Processor=在你为了处理众多矿物而开发炼狱熔炉的地狱能量后,你脑子中出现了一些完全不同的想法.现在你使用名为"古德"的力量,来自天空和叫做天堂的这些.这个天域加工机使得每个冶炼的产物双倍,并且有10%的几率产生一个神秘粒作为奖励.你知道他有两个缺点:尽管它使冶炼产物双倍,但这也要双倍于一个物品的冶炼时间.并且由于它是高级魔法的发明,一些普通的冶炼合成会失效.你相信圆石不能在这个奇妙的机器里被烧成石头.
+emt.text.Etheral Processor=在你为了处理众多矿物而开发炼狱熔炉的地狱能量后，你脑子中出现了一些完全不同的想法。现在你使用名为"古德"的力量，来自天空和叫做天堂的这些。这个天域加工机使得每个冶炼的产物双倍，并且有10%的几率产生一个神秘粒作为奖励。你知道他有两个缺点：尽管它使冶炼产物双倍，但这也要双倍于一个物品的冶炼时间。并且由于它是高级魔法的发明，一些普通的冶炼合成会失效。你相信圆石不能在这个奇妙的机器里被烧成石头。
 
-emt.rsname.Water Infused Solar Panels=注魔太阳能发电机(水)
+emt.rsname.Water Infused Solar Panels=水注魔太阳能
 emt.tag.Water Infused Solar Panels=该死又下雨了!
 emt.text.Water Infused Solar Panels=你总是讨厌下雨,他别是当你所有的能源来自太阳能时.你如此讨厌它于是你决定寻找一种让太阳能在雨天工作的方法.你做出来了...这种..水注魔太阳能能在下雨时工作,并且只在下雨时发电.
 
-emt.rsname.Entropy Infused Solar Panels=注魔太阳能发电机(混沌)
+emt.rsname.Entropy Infused Solar Panels=混沌注魔太阳能
 emt.tag.Entropy Infused Solar Panels=不要惧怕黑暗
 emt.text.Entropy Infused Solar Panels=你知道太阳能晚上会停止工作.为了解决这个问题,你找到了一种让你的太阳能在晚上工作的方法!(只能在晚上工作)
 
-emt.rsname.Order Infused Solar Panels=注魔太阳能发电机(秩序)
+emt.rsname.Order Infused Solar Panels=秩序注魔太阳能
 emt.tag.Order Infused Solar Panels=我得到了能量!
 emt.text.Order Infused Solar Panels=利用秩序的力量,你已经有办法让你的太阳能在白天输出三倍的电力!
 
-emt.rsname.Fire Infused Solar Panels=注魔太阳能发电机(火)
+emt.rsname.Fire Infused Solar Panels=火注魔太阳能
 emt.tag.Fire Infused Solar Panels=炽热的危险之地...
 emt.text.Fire Infused Solar Panels=你被下界所吸引,做出了一个怪物.这些太阳能在主世界正常工作,但放在下界也能发电!它真是个怪物...
 
-emt.rsname.Air Infused Solar Panels=注魔太阳能发电机(风)
+emt.rsname.Air Infused Solar Panels=风注魔太阳能
 emt.tag.Air Infused Solar Panels=高度不是问题
 emt.text.Air Infused Solar Panels=你的大胆的想法和在高空存在的大量的风使得这些太阳能在Y=160层以上能提供更多的电力.
 
-emt.rsname.Earth Infused Solar Panels=注魔太阳能发电机(地)
+emt.rsname.Earth Infused Solar Panels=地注魔太阳能
 emt.tag.Earth Infused Solar Panels=非幽闭症患者定制
 emt.text.Earth Infused Solar Panels=你已决定向地心更进一步.这些太阳能在Y=10层以下的地方工作,但是记住它们仍需要在太阳的沐浴下才能工作.
 
@@ -416,7 +416,7 @@ emt.text.Feather Wings=把羽毛黏上硬纸板再做成翅膀的形状听着是
 
 emt.rsname.Thaumium Reinforced Wings=神秘强化羽翼
 emt.tag.Thaumium Reinforced Wings=好多了
-emt.text.Thaumium Reinforced Wings=注入魔力的神秘锭是众所周知的.因此,用神秘锭来强化你的纸板翼是个好主意.按下空格键会将你推得更高,如果一直按住则会缓慢下降.潜行则会快速下降.摔落伤害减免:50%.
+emt.text.Thaumium Reinforced Wings=注入魔力的神秘锭是众所周知的.因此,用神秘锭来强化你的纸板翼是个好主意.按住空格键会将你推得更高,如果一直按住则会缓慢下降.潜行则会快速下降.摔落伤害减免:50%.
 
 emt.rsname.Nanosuit Wings=纳米羽翼
 emt.tag.Nanosuit Wings=纳米大法好!
@@ -428,4 +428,4 @@ emt.text.Quantum Wings=在探索完纳米科技所有的可能性后,你决定�
 
 emt.rsname.Infused Quantum Armor=注魔量子胸甲
 emt.tag.Infused Quantum Armor=最后的一步...
-emt.text.Infused Quantum Armor=你已经无事可做,但是你决定做一些有用的东西.你的脑海中浮现出一个想法,在制作盔甲时可以把羽翼或者背包系在一起以保证飞行的安全.持有羽翼或者背包时在潜行状态下右击可以将它们系在盔甲上.要将它们拿下来时只需要按住Shift + [卸下装备]键(详见[选项]-[控制]).
+emt.text.Infused Quantum Armor=你已经无事可做,于是你决定做一些有用的东西.你的脑海中浮现出一个想法,在制作盔甲时可以把羽翼或者背包系在一起以保证你自己在飞行时的安全.持有羽翼或者背包时在潜行状态下右击可以将它们系在盔甲上.要将它们拿下来时只需要按住Shift + [卸下装备]键(详见[选项]-[控制]).

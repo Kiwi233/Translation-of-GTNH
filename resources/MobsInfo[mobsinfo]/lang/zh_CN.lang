@@ -29,6 +29,7 @@ mobsinfo.mobhandler.extended_info_5=因为平均每次掉落为1个（100%）。
 mobsinfo.mobhandler.spawns_everywhere=在所有地方均会生成
 mobsinfo.mobhandler.spawns_in=在 %d 生成
 mobsinfo.mobhandler.spawns_not_in=除了 %d 处均会生成
+mobsinfo.mobhandler.wither_skeleton_name=凋灵骷髅
 
 mobsinfo.villagertradeshandler.name=名称：
 mobsinfo.villagertradeshandler.mod=Mod：
@@ -46,6 +47,17 @@ mobsinfo.mobhandlerinfernal.ultra=精英掉落 - %.3f%% (%.2f%%)
 mobsinfo.mobhandlerinfernal.inferno=恶魔掉落 - %.3f%% (%.3f%%)
 mobsinfo.mobhandlerinfernal.tooltip_chance=综合期望几率：%.4f%%
 mobsinfo.mobhandlerinfernal.tooltip_chance_always=总是精英怪时，综合期望几率：%.4f%%
+
+mobsinfo.mobhandlerfishing.title=钓鱼战利品表
+mobsinfo.mobhandlerfishing.format=格式：
+mobsinfo.mobhandlerfishing.format_1=分类名称 - x%
+mobsinfo.mobhandlerfishing.format_2=物品概率按每次钓获计算
+mobsinfo.mobhandlerfishing.format_3=基础概率基于
+mobsinfo.mobhandlerfishing.format_4=海之眷顾 0 与饵钓 0
+mobsinfo.mobhandlerfishing.fish=鱼 - %.2f%%
+mobsinfo.mobhandlerfishing.junk=杂物 - %.2f%%
+mobsinfo.mobhandlerfishing.treasure=宝藏 - %.2f%%
+mobsinfo.mobhandlerfishing.tooltip_chance=获得概率：%.4f%%
 
 #Extras (compatibility)
 mobsinfo.extras.minecraft_slime=仅在史莱姆最小时掉落
@@ -106,3 +118,13 @@ mobsinfo.command.hidden.invalid_mob=§c无效怪物名!
 mobsinfo.command.hidden.lock_error=§c玩家尚未解锁该怪物或者怪物名无效!
 mobsinfo.command.hidden.success=§a成功!
 mobsinfo.command.hidden.invalid=§c无效选项! 正确的用法为：%s
+
+mobsinfo.extras.minefantasy2_guts_looting=概率除以（1 + 抢夺等级）。
+mobsinfo.extras.minefantasy2_burning=仅当生物处于燃烧状态。
+mobsinfo.extras.minefantasy2_not_burning=仅当生物未燃烧时。
+mobsinfo.extras.minefantasy2_hunting_weapon=最后一击需要使用狩猎武器。
+mobsinfo.extras.minefantasy2_bow_skeleton=仅当骷髅持有弓时。
+mobsinfo.extras.minefantasy2_original_item=仅当替代 %s 的普通掉落时。
+mobsinfo.extras.minefantasy2_tagged_sack=仅来自 MineFantasy II 的强化僵尸。
+mobsinfo.extras.lootplusplus_player_credit=需要计入玩家击杀。
+mobsinfo.extras.lootplusplus_skeleton_kill=仅当被骷髅击杀时。

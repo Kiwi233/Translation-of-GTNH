@@ -10,7 +10,7 @@ gui.nutrition:updating=更新中...
 nutrient.nutrition:grain=谷物
 nutrient.nutrition:fruit=水果
 nutrient.nutrition:vegetable=蔬菜
-nutrient.nutrition:protein=肉类
+nutrient.nutrition:protein=蛋白质
 nutrient.nutrition:dairy=乳制品
 
 # Tooltips
@@ -19,4 +19,21 @@ tooltip.nutrition:nutrients=营养值：
 # Potions
 potion.nutrition:toughness=强壮
 potion.nutrition:nourished=营养充足
-potion.nutrition:malnourished=营养不足
+potion.nutrition:malnourished=营养不良
+
+#Commands
+command.nutrition:usage=营养学可用指令：help, get, set, add, subtract, reset, reload
+command.nutrition:help.1=营养学帮助页面：
+command.nutrition:help.2=/nutrition get <玩家名> [营养类型] - 列出指定玩家的营养信息，可指定一个营养类型。
+command.nutrition:help.3=/nutrition set <玩家名> <营养类型> <营养值> - 设置玩家的营养值。
+command.nutrition:help.4=/nutrition add <玩家名> <营养类型> <营养值> - 增加玩家的营养值。
+command.nutrition:help.5=/nutrition subtract <玩家名> <营养类型> <营养值> - 减少玩家的营养值。
+command.nutrition:help.6=/nutrition reset <玩家名> [营养类型] - 重置玩家的营养值，可指定一个营养类型。
+command.nutrition:help.7=/nutrition reload - 从配置文件中重载营养值和药水效果
+command.nutrition:get=%s: %s%%
+command.nutrition:get_all_header=%s的营养值
+command.nutrition:get_all_line=- %s: %s%%
+command.nutrition:set=已将 %2$s 的 '%1$s' 营养设置为 %s%%
+command.nutrition:reset=已重置 %2$s 的 '%1$s' 营养
+command.nutrition:reset_all=已重置%s的所有营养值
+command.nutrition:reload=已重载食物营养和营养效果

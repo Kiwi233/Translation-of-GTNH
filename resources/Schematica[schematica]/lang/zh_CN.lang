@@ -71,15 +71,15 @@ schematica.config.drawLines.tooltip=绘制轮廓.
 
 # gui - config - printer
 schematica.config.placeDelay=放置延迟
-schematica.config.placeDelay.tooltip=放置尝试之间的延迟(单位tick).
+schematica.config.placeDelay.tooltip=放置尝试之间的延迟（刻）。
 schematica.config.timeout=暂停
 schematica.config.timeout.tooltip=再尝试失败方块之前的暂停时间.
 schematica.config.placeInstantly=立即放置
-schematica.config.placeInstantly.tooltip=在1tick之内放置所有可放置方块.
+schematica.config.placeInstantly.tooltip=在1刻之内放置所有可放置方块。
 schematica.config.destroyBlocks=破坏方块
 schematica.config.destroyBlocks.tooltip=投影将可以破坏方块(创造模式专用).
 schematica.config.destroyInstantly=立即破坏
-schematica.config.destroyInstantly.tooltip=在1tick之内破坏所有可破坏方块.
+schematica.config.destroyInstantly.tooltip=在1刻之内破坏所有可破坏方块。
 schematica.config.placeAdjacent=仅相邻放置
 schematica.config.placeAdjacent.tooltip=仅当旁边有一个相邻方块时,方可放置方块.
 

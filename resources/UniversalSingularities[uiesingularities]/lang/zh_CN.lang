@@ -8,7 +8,7 @@
 item.universalSingularities.vanilla.coal.name=煤炭奇点
 item.universalSingularities.vanilla.diamond.name=钻石奇点
 item.universalSingularities.vanilla.emerald.name=绿宝石奇点
-//Vanilla
+item.universalSingularities.vanilla.water.name=水奇点
 
 //General
 item.avaritia_singularity.name=奇点
@@ -20,7 +20,7 @@ item.universalSingularities.general.electrum.name=琥珀金奇点
 item.universalSingularities.general.invar.name=殷钢奇点
 item.universalSingularities.general.magnesium.name=镁奇点
 item.universalSingularities.general.osmium.name=锇奇点
-item.universalSingularities.general.peridot.name=橄榄石奇点
+item.universalSingularities.general.peridot.name=绿橄榄石奇点
 item.universalSingularities.general.ruby.name=红宝石奇点
 item.universalSingularities.general.sapphire.name=蓝宝石奇点
 item.universalSingularities.general.steel.name=钢奇点
@@ -47,7 +47,36 @@ item.universalSingularities.general.meteoricIron.name=陨铁奇点
 item.universalSingularities.general.europium.name=铕奇点
 item.universalSingularities.general.gangue.name=脉石奇点
 item.universalSingularities.general.roseGold.name=玫瑰金奇点
-//General
+
+//Rubber
+item.universalSingularities.rubber.rubber.name=橡胶奇点
+item.universalSingularities.rubber.styrenebutadiene.name=丁苯橡胶奇点
+item.universalSingularities.rubber.silicone.name=硅橡胶奇点
+item.universalSingularities.rubber.polyphenylene.name=聚苯硫醚奇点
+item.universalSingularities.rubber.pvc.name=聚氯乙烯奇点
+item.universalSingularities.rubber.elastic.name=弹性奇点
+
+//Toxic
+item.universalSingularities.toxic.contaminated.name=污染奇点
+
+//Circuit
+item.universalSingularities.circuit.ulv.name=ULV算力奇点
+item.universalSingularities.circuit.lv.name=LV算力奇点
+item.universalSingularities.circuit.mv.name=MV算力奇点
+item.universalSingularities.circuit.hv.name=HV算力奇点
+item.universalSingularities.circuit.ev.name=EV算力奇点
+item.universalSingularities.circuit.iv.name=IV算力奇点
+item.universalSingularities.circuit.luv.name=LuV算力奇点
+item.universalSingularities.circuit.zpm.name=ZPM算力奇点
+item.universalSingularities.circuit.uv.name=UV算力奇点
+item.universalSingularities.circuit.uhv.name=UHV算力奇点
+item.universalSingularities.circuit2.uev.name=UEV算力奇点
+item.universalSingularities.circuit2.uiv.name=UIV算力奇点
+item.universalSingularities.circuit2.umv.name=UMV算力奇点
+item.universalSingularities.circuit2.uxv.name=UXV算力奇点
+item.universalSingularities.circuit2.max.name=MAX算力奇点
+item.universalSingularities.circuit2.erv.name=ERV算力奇点
+item.universalSingularities.circuit2.computronium.name=空白算力奇点
 
 //Big Reactors
 item.universalSingularities.bigReactors.blutonium.name=蓝钚奇点
@@ -89,6 +118,10 @@ item.universalSingularities.extraTiC.pokefennium.name=铁血奇点
 //Extra Utilities
 item.universalSingularities.extraUtilities.unstable.name=不稳定金属奇点
 //Extra Utilities
+
+//Utilities in Excess
+item.universalSingularities.utilitiesinexcess.inverted.name=反相铁奇点
+//Utilities in Excess
 
 //Mekanism
 item.universalSingularities.mekanism.refinedGlowstone.name=强化荧石奇点
@@ -135,6 +168,7 @@ item.universalSingularities.tinkersConstruct.glue.name=凝胶奇点
 item.universalSingularities.tinkersConstruct.manyullyn.name=玛玉灵奇点
 //item.universalSingularities.tinkersConstruct.pigIron.name=生铁奇点
 //Tinkers' Construct
+
 
 /*Removed
  * item.universalSingularities.general.salt.name=盐奇点
