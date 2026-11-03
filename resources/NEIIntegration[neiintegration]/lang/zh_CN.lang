@@ -8,7 +8,7 @@ neiintegration.chance=几率：%s
 neiintegration.chance.never=无
 neiintegration.chance.lessThan1=<1%
 
-neiintegration.ticks=ticks
+neiintegration.ticks=%s 刻
 
 neiintegration.tooltip.internalName=ID:
 neiintegration.tooltip.unlocalizedName=未本地化名称:
@@ -20,9 +20,9 @@ neiintegration.tooltip.fluidreg.empty=空容器
 
 neiintegration.config.title=NEI整合配置
 neiintegration.config.integrations=Mod整合设置
-neiintegration.config.integrations.tooltip=启用或禁用指定mod的所有合成表操作器.
-neiintegration.config.handlers=合成表操作器设置
-neiintegration.config.handlers.tooltip=启用或禁用此mod添加的某些合成表操作器.
+neiintegration.config.integrations.tooltip=启用或禁用指定mod的所有配方类型。
+neiintegration.config.handlers=配方类型设置
+neiintegration.config.handlers.tooltip=启用或禁用此mod添加的某些配方类型。
 neiintegration.config.tooltips=物品Tooltip设置
 neiintegration.config.tooltips.tooltip=没有定义tooltip? 多么讽刺啊.
 
@@ -43,8 +43,8 @@ nei.options.tools.dump.neiintegration.loadedmod=已加载模组
 nei.options.tools.dump.neiintegration.loadedmods=已加载模组
 nei.options.tools.dump.neiintegration.oredict=矿物辞典
 nei.options.tools.dump.neiintegration.oredicts=矿物辞典
-nei.options.tools.dump.neiintegration.recipehandler=合成表操作器
-nei.options.tools.dump.neiintegration.recipehandlers=合成表操作器
+nei.options.tools.dump.neiintegration.recipehandler=配方类型
+nei.options.tools.dump.neiintegration.recipehandlers=配方类型
 nei.options.tools.dump.neiintegration.tileentity=方块实体
 nei.options.tools.dump.neiintegration.tileentitys=方块实体
 
@@ -68,7 +68,7 @@ neiintegration.handler.refinery.energyRate=%d RF at %d RF/t
 
 # Electrical Age
 neiintegration.handler.electricalage.compressor=压缩机(ELN)
-neiintegration.handler.electricalage.macerator=粉碎机(ELN)
+neiintegration.handler.electricalage.macerator=研磨机(ELN)
 neiintegration.handler.electricalage.magnetizer=磁化机
 neiintegration.handler.electricalage.plateMachine=冷轧机
 

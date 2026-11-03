@@ -148,8 +148,8 @@ enderio.itemMEConduit.name=ME导管
 enderio.itemMEConduitDense.name=致密ME导管
 enderio.itemMEConduit.channelsUsed=第{0,number}频道，共{1,number}频道
 
-item.itemOCConduit.name=网络导管(OC)
-enderio.itemOCConduit.name=网络导管(OC)
+item.itemOCConduit.name=网络导管（OC）
+enderio.itemOCConduit.name=网络导管（OC）
 
 #Entity
 entity.witherSkeleton.name=凋灵骷髅
@@ -184,43 +184,43 @@ enderio.itemEnderios.tooltip.detailed.line4=以及随机传送.
 #Fluids
 fluid.nutrient_distillation=营养精华液
 tile.fluid.nutrient_distillation.name=营养精华液
-item.bucketNutrient_distillation.name=桶装营养精华液
+item.bucketNutrient_distillation.name=营养精华液桶
 
 fluid.hootch=烈酒
 tile.fluid.hootch.name=烈酒
-item.bucketHootch.name=桶装烈酒
+item.bucketHootch.name=烈酒桶
 
 fluid.fire_water=火焰水
 tile.fluid.fire_water.name=火焰水
-item.bucketFire_water.name=桶装火焰水
+item.bucketFire_water.name=火焰水桶
 
 fluid.rocket_fuel=火箭燃料
 tile.fluid.rocket_fuel.name=火箭燃料
-item.bucketRocket_fuel.name=桶装火箭燃料
+item.bucketRocket_fuel.name=火箭燃料桶
 
 fluid.liquid_sunshine=液态阳光
 tile.fluid.liquid_sunshine.name=液态阳光
-item.bucketLiquid_sunshine.name=桶装液态阳光
+item.bucketLiquid_sunshine.name=液态阳光桶
 
 fluid.cloud_seed=云之精华
 tile.fluid.cloud_seed.name=云之精华
-item.bucketCloud_seed.name=桶装云之精华
+item.bucketCloud_seed.name=云之精华桶
 
 fluid.cloud_seed_concentrated=浓缩云之精华
 tile.fluid.cloud_seed_concentrated.name=浓缩云之精华
-item.bucketCloud_seed_concentrated.name=桶装浓缩云之精华
+item.bucketCloud_seed_concentrated.name=浓缩云之精华桶
 
 fluid.ender_distillation=深渊露水
 tile.fluid.ender_distillation.name=深渊露水
-item.bucketEnder_distillation.name=桶装深渊露水
+item.bucketEnder_distillation.name=深渊露水桶
 
 fluid.vapor_of_levity=轻盈之气
 tile.fluid.vapor_of_levity.name=轻盈之气
-item.bucketVapor_of_levity.name=桶装轻盈之气
+item.bucketVapor_of_levity.name=轻盈之气桶
 
 fluid.eio.xpjuice=液态XP
 tile.fluid.eio.xpjuice.name=液态XP
-item.bucketXpjuice.name=桶装液态XP
+item.bucketXpjuice.name=液态经验桶
 
 enderio.fluid.millibucket.abr=L
 
@@ -237,7 +237,7 @@ item.itemMachinePart.name=机械零件
 enderio.machineChassi.name=机器框架
 enderio.basicGear.name=基础齿轮
 enderio.soulMachineChassi.name=灵魂机器框架
-enderio.endSteelMachineChassi.name=末影钢机器底盘
+enderio.endSteelMachineChassi.name=末影钢机器框架
 enderio.pulsatingCrystal.name=脉冲晶体
 enderio.vibrantCrystal.name=充能晶体
 enderio.enderCrystal.name=末影晶体
@@ -373,15 +373,20 @@ enderio.endergeticCapacitor.name=充能银电容
 enderio.endergisedCapacitor.name=生动合金电容
 enderio.totemicCapacitor.name=不死图腾电容
 
-enderio.machine.tooltip.upgrade=机器升级
-enderio.machine.tooltip.upgrade.tooltip.detailed.line1=增加机器能量存储与
-enderio.machine.tooltip.upgrade.tooltip.detailed.line2=速度/范围
+enderio.machine.tooltip.upgrade.name=机器升级
+enderio.machine.tooltip.upgrade=升级：
+enderio.machine.tooltip.upgrade.tier=等级:
+enderio.machine.tooltip.upgrade.energyreceived=最大能量接收：
+enderio.machine.tooltip.upgrade.energyextracted=最大能量提取：
+enderio.machine.tooltip.upgrade.farmstation=种植站半径：
+enderio.machine.tooltip.upgrade.energystorage=最大能量存储：
+enderio.machine.tooltip.upgrade.range=范围升级：
 enderio.machine.tooltip.clearConfig=这会清除所有存储的数据！
 
 #Machines
 tile.blockStirlingGenerator.name=斯特林发电机
 tile.blockStirlingGenerator.tooltip.detailed.line1=燃烧固体燃料产生能量
-tile.blockStirlingGenerator.tooltip.detailed.line2=可通过添加电容器升级
+tile.blockStirlingGenerator.tooltip.detailed.line2=可通过添加电容升级
 tile.blockStirlingGenerator.tooltip.detailed.line3=增加输出与效率
 
 tile.blockReservoir.name=蓄水库
@@ -396,7 +401,7 @@ tile.blockAlloySmelter.name=合金炉
 tile.blockAlloySmelter.tooltip.detailed.line1=用于生产末影接口里的
 tile.blockAlloySmelter.tooltip.detailed.line2=合金炉可以当做一个能
 tile.blockAlloySmelter.tooltip.detailed.line3=使用能量的熔炉使用
-tile.blockAlloySmelter.tooltip.detailed.line4=使用电容器升级可
+tile.blockAlloySmelter.tooltip.detailed.line4=用电容升级可增加
 tile.blockAlloySmelter.tooltip.detailed.line5=增加速度与能量存储
 
 tile.blockSolarPanel.name=光伏板
@@ -415,7 +420,7 @@ item.itemElectricLight.name=电灯
 item.itemElectricLight.tooltip.detailed.line1=当提供能量与红石信
 item.itemElectricLight.tooltip.detailed.line2=号时能照亮大片区域
 
-item.itemElectricLightInverted.name=电灯(反相)
+item.itemElectricLightInverted.name=电灯（反相）
 item.itemElectricLightInverted.tooltip.detailed.line1=提供能量时
 item.itemElectricLightInverted.tooltip.detailed.line2=可照亮大片区域
 item.itemElectricLightInverted.tooltip.detailed.line3=有红石信号时熄灭
@@ -424,7 +429,7 @@ item.itemLight.name=灯
 item.itemLight.tooltip.detailed.line1=有红石信号时
 item.itemLight.tooltip.detailed.line2=能提供照明
 
-item.itemLightInverted.name=灯(反相)
+item.itemLightInverted.name=灯（反相）
 item.itemLightInverted.tooltip.detailed.line1=能提供照明
 item.itemLightInverted.tooltip.detailed.line2=有红石信号时熄灭
 
@@ -435,7 +440,7 @@ item.itemWirelessLight.tooltip.detailed.line1=提供能量和红石信号
 item.itemWirelessLight.tooltip.detailed.line2=时照亮大片区域.
 item.itemWirelessLight.tooltip.detailed.line3=可从无线充能器接收能量.
 
-item.itemWirelessLightInverted.name=无线灯(反相)
+item.itemWirelessLightInverted.name=无线灯（反相）
 item.itemWirelessLightInverted.tooltip.detailed.line1=提供能量时可
 item.itemWirelessLightInverted.tooltip.detailed.line2=照亮大片区域.
 item.itemWirelessLightInverted.tooltip.detailed.line3=有红石信号时熄灭
@@ -458,11 +463,11 @@ enderio.capbank.maxIO=最大输入/输出
 enderio.capbank.maxIn=最大输入
 enderio.capbank.maxOut=最大输出
 enderio.capbank.change=I/O
-enderio.capbank.iodisplay.stable=I/O
-enderio.capbank.iodisplay.gain=内
-enderio.capbank.iodisplay.loss=外
-enderio.capbank.iodisplay.input=输入
-enderio.capbank.iodisplay.output=输出
+enderio.capbank.iodisplay.stable=平衡
+enderio.capbank.iodisplay.gain=充电
+enderio.capbank.iodisplay.loss=放电
+enderio.capbank.iodisplay.input=充电
+enderio.capbank.iodisplay.output=放电
 
 tile.blockWirelessCharger.name=无线充能器
 tile.blockWirelessCharger.tooltip.detailed.line1=给附近玩家物品 
@@ -471,12 +476,12 @@ tile.blockWirelessCharger.tooltip.detailed.line2=栏中的物品充能
 tile.blockSagMill.name=SAG磨粉机
 tile.blockSagMill.tooltip.detailed.line1=研磨矿物与其它物品
 tile.blockSagMill.tooltip.detailed.line2=添加磨球可提高
-tile.blockSagMill.tooltip.detailed.line3=输出与效率
-tile.blockSagMill.tooltip.detailed.line4=用电容器升级可增
-tile.blockSagMill.tooltip.detailed.line5=加速度与能量存储
+tile.blockSagMill.tooltip.detailed.line3=产出与效率
+tile.blockSagMill.tooltip.detailed.line4=用电容升级可增加
+tile.blockSagMill.tooltip.detailed.line5=速度与能量存储
 tile.blockSagMill.tooltipPrefix=包含
 
-tile.blockHyperCube.name=空间传送器(弃用)
+tile.blockHyperCube.name=空间传送器（弃用）
 tile.blockHyperCube.tooltip.detailed.line1=放入合成栏
 tile.blockHyperCube.tooltip.detailed.line2=转为新模型
 
@@ -518,6 +523,9 @@ tile.blockEnchanter.name=附魔器
 tile.blockEnchanter.tooltip.detailed.line1=使用XP将物品和
 tile.blockEnchanter.tooltip.detailed.line2=书与笔结合来制
 tile.blockEnchanter.tooltip.detailed.line3=作附魔书
+tile.blockEnchanter.tooltip.detailed.line4=输出一个可被比较器检测的信号
+tile.blockEnchanter.tooltip.detailed.line5=依据机器内的第二个格子的
+tile.blockEnchanter.tooltip.detailed.line6=存量，可搭配漏斗使用
 
 tile.blockCombustionGenerator.name=燃烧发电机
 tile.blockCombustionGenerator.tooltip.detailed.line1=燃烧流体燃料产生能量
@@ -561,7 +569,7 @@ tile.blockFarmStation.tooltip.detailed.line2=需要能量与
 tile.blockFarmStation.tooltip.detailed.line3=合适的工具（锄、斧）
 tile.blockFarmStation.tooltip.detailed.line4=工具上的抢夺 / 时运
 tile.blockFarmStation.tooltip.detailed.line5=效果在收割时仍然有效
-tile.blockFarmStation.tooltip.detailed.line6=使用电容器升级可
+tile.blockFarmStation.tooltip.detailed.line6=用电容升级可增加
 tile.blockFarmStation.tooltip.detailed.line7=增加范围与能量消耗
 
 enderio.farm.note.outputFull=输出已满
@@ -581,7 +589,7 @@ enderio.tooltip.none=空
 enderio.tooltip.fluidStored=存有流体
 
 enderio.gui.tooltip.voidslot=空白物品栏
-enderio.gui.void.mode=空白模式
+enderio.gui.void.mode=销毁模式
 
 enderio.gui.void.mode.always=持续
 enderio.gui.void.mode.always.desc=空白物品栏接受所有物品
@@ -595,7 +603,7 @@ enderio.gui.void.mode.never.desc=空白物品栏不接受任何物品
 tile.blockCrafter.name=装配器
 tile.blockCrafter.tooltip.detailed.line1=自动制作物品的机器
 tile.blockCrafter.tooltip.detailed.line2=每次合成都会消耗能量
-tile.blockCrafter.tooltip.detailed.line3=使用电容器升级可以
+tile.blockCrafter.tooltip.detailed.line3=可升级以提升速度
 tile.blockCrafter.tooltip.detailed.line4=增加速度与能量存储
 
 tile.blockVacuumChest.name=虚空箱子
@@ -609,7 +617,7 @@ tile.blockPoweredSpawner.empty.tooltip.detailed.line1=与破损的刷怪笼
 tile.blockPoweredSpawner.empty.tooltip.detailed.line2=在铁砧里结合
 tile.blockPoweredSpawner.tooltip.detailed.line1=提供能量
 tile.blockPoweredSpawner.tooltip.detailed.line2=即可工作
-tile.blockPoweredSpawner.tooltip.detailed.line3=使用电容器升级可
+tile.blockPoweredSpawner.tooltip.detailed.line3=用电容升级可增加
 tile.blockPoweredSpawner.tooltip.detailed.line4=增加速度与能量存储
 
 item.itemBrokenSpawner.name=破损的刷怪笼
@@ -643,7 +651,7 @@ tile.blockWeatherObelisk.tooltip.detailed.line4=液态阳光：晴天
 tile.blockWeatherObelisk.tooltip.detailed.line5=云之精华：雨天
 tile.blockWeatherObelisk.tooltip.detailed.line6=浓缩云之精华：雷暴天
 
-tile.blockBuffer.name=缓冲
+tile.blockBuffer.name=缓存
 tile.blockBuffer.item.name=物品缓存器
 tile.blockBuffer.power.name=能量缓存器
 tile.blockBuffer.omni.name=多功能缓存器
@@ -861,7 +869,7 @@ item.endSteel_helmet.name=末影钢头盔
 item.endSteel_chestplate.name=末影钢胸甲
 item.endSteel_leggings.name=末影钢护腿
 item.endSteel_boots.name=末影钢靴子
-item.endSteel_sword.name=终结之剑 MK2
+item.endSteel_sword.name=终结之剑 MK-II
 item.endSteel_pickaxe.name=末影钢镐
 item.endSteel_axe.name=末影钢斧
 
@@ -870,7 +878,7 @@ item.stellar_helmet.name=恒星合金头盔
 item.stellar_chestplate.name=恒星合金胸甲
 item.stellar_leggings.name=恒星合金护腿
 item.stellar_boots.name=恒星合金靴子
-item.stellar_sword.name=终结之剑 MK4
+item.stellar_sword.name=终结之剑 MK-IV
 item.stellar_pickaxe.name=恒星合金镐
 item.stellar_axe.name=恒星合金斧
 
@@ -957,7 +965,7 @@ enderio.darksteel.upgrade.spoon.name=勺子
 enderio.darksteel.upgrade.spoon.tooltip.detailed.line1=有了勺子
 enderio.darksteel.upgrade.spoon.tooltip.detailed.line2=谁还要铲子
 
-enderio.darksteel.upgrade.glider.name=滑翔
+enderio.darksteel.upgrade.glider.name=滑翔翼
 enderio.darksteel.upgrade.glider.tooltip.detailed.line1=启用滑翔
 enderio.darksteel.upgrade.glider.enabled=滑翔激活
 enderio.darksteel.upgrade.glider.disabled=滑翔禁用
@@ -991,10 +999,10 @@ enderio.darksteel.upgrade.apiaristArmor.leggings.tooltip.detailed.line1=提供�
 enderio.darksteel.upgrade.apiaristArmor.boots.name=养蜂员之鞋
 enderio.darksteel.upgrade.apiaristArmor.boots.tooltip.detailed.line1=提供保护以减少蜜蜂的伤害
 
-item.itemGliderWing.name=滑翔翼
-item.itemGliderWings.name=滑翔翼
-item.itemGliderWings.tooltip.detailed.line1=用于升级
-item.itemGliderWings.tooltip.detailed.line2=玄铁钢护胸
+item.itemGliderWing.name=滑翔机翼
+item.itemGliderWings.name=滑翔机
+item.itemGliderWings.tooltip.detailed.line1=仅用于升级
+item.itemGliderWings.tooltip.detailed.line2=玄钢护甲
 
 enderio.darksteel.upgrade.jump.enabled=跳跃启用
 enderio.darksteel.upgrade.jump.disabled=跳跃禁用
@@ -1125,7 +1133,7 @@ enderio.gui.powerMonitor.noNetworkError=无管道网络连接。能量监控器�
 #MJ Reader
 enderio.gui.mjReader.networkHeading=能量网
 enderio.gui.mjReader.conduitBuffer=内部缓冲
-enderio.gui.mjReader.requestRange=每 tick 请求范围
+enderio.gui.mjReader.requestRange=每tick请求范围
 enderio.gui.mjReader.currentRequest=当前请求
 enderio.gui.mjReader.itemHeading=物品导管
 enderio.gui.mjReader.itemNoConnections=没有外部连接
@@ -1170,7 +1178,7 @@ enderio.gui.alloy.mode.furnace=仅限熔炉
 
 #Vacuum chest
 enderio.gui.vacuum.range=吸取力度
-enderio.gui.vacuum.header.chest=真空箱子
+enderio.gui.vacuum.header.chest=虚空箱子
 enderio.gui.vacuum.header.filter=物品过滤器
 enderio.gui.vacuum.header.range=范围
 
@@ -1191,6 +1199,13 @@ enderio.stirlingGenerator.burnRate=燃烧速率:
 enderio.stirlingGenerator.upgradeslot=升级栏
 enderio.stirlingGenerator.upgrades={0} 提供 {2}{1,number,#.#}x{3} 的效率
 enderio.stirlingGenerator.remaining=残余 {0,number,percent}|{1,choice,0#|0<{1}m }{2,number}s|{3,number,#,###} RF
+
+# Block buffers
+enderio.gui.blockBuffer.name=缓存
+enderio.gui.blockBuffer.item.name=物品缓存器
+enderio.gui.blockBuffer.power.name=能量缓存器
+enderio.gui.blockBuffer.omni.name=多功能缓存器
+enderio.gui.blockBuffer.creative.name=创造缓存器
 
 #Travel Blocks
 enderio.gui.travelAccessable.privateBlock1=只有
@@ -1307,7 +1322,7 @@ enderio.gui.conduit.button.clear=清空
 enderio.gui.conduit.button.merge=合并
 enderio.gui.conduit.button.show=显示
 enderio.gui.conduit.button.snap=快照
-enderio.gui.conduit.item.insertionFilter=加入物品过滤
+enderio.gui.conduit.item.insertionFilter=存入物品过滤
 enderio.gui.conduit.item.extractionFilter=提取物品过滤
 enderio.gui.conduit.item.sigCol=信号颜色
 enderio.gui.conduit.item.channel=频道
@@ -1427,7 +1442,7 @@ enderio.keybind.stepassist=步行辅助
 enderio.keybind.yetawrenchmode=以太扳手模式
 enderio.keybind.magnet=电磁铁
 enderio.keybind.staffoftravelingtp=旅行权杖传送
-enderio.nei.alloysmelter=合金炉
+enderio.nei.alloysmelter=合金炉（Ender IO）
 enderio.nei.enchanter=附魔器
 enderio.nei.sagmill=SAG磨粉机
 enderio.nei.sagmill.outputchance=概率: {0,choice,0#'<1'|0<{0,number}}%

@@ -45,7 +45,7 @@ openblocks.gui.max_level=最高附魔等级: %d
 openblocks.gui.save_folder=打开存档文件夹
 
 openblocks.gui.welcome.title=欢迎！
-openblocks.gui.welcome.content=开放式方块是一款全新的开源模组，为《我的世界》引入了诸多创新元素，包括滑翔翼、电梯、储罐、墓碑、颜料、起重机、液态经验、制图机器人、战利品等等！
+openblocks.gui.welcome.content=开放式方块（OpenBlocks）是一款全新的开源模组，为《我的世界》引入了诸多创新元素，包括滑翔翼、电梯、储罐、墓碑、颜料、起重机、液态经验、制图机器人、战利品等等！
 
 openblocks.gui.credits.title=致谢表
 openblocks.gui.credits.content=§LBoq、Mikee和NeverCast§R\n  - 开放式方块的主要开发者\n§LSinZ和Yoshi2§R\n  - OpenMods团队的元老成员\n§LVexatos和crafteverywhere§R\n  - 定期翻译模组\n§LDirewolf20和ForgeCraft的成员§R\n  - 帮助寻找Bug和测试稳定性\n\n以及过去两年间所有对模组代码有所贡献、制作模组解说、实况视频和最初起就一直支持我们的朋友们！
@@ -88,7 +88,8 @@ openblocks.misc.selected_cannon=选择加农炮发射目标
 openblocks.misc.pointed_cannon=加农炮已瞄准 %s, %s, %s
 openblocks.misc.change_mode=改变至%s模式
 openblocks.misc.change_size=改变规模至 %s x %s x %s
-openblocks.misc.change_box_size=Changing size to (%d,%d,%d):(%d,%d,%d)
+openblocks.misc.change_box_size=正在调整尺寸至（%d,%d,%d）：（%d,%d,%d）
+openblocks.misc.change_area_size=正在调整尺寸至 (%d,%d):(%d,%d)
 openblocks.misc.total_blocks=搭建共需要: %d 个方块
 openblocks.misc.get_witched=为之沉迷！
 openblocks.misc.page=%d / %d 页
@@ -98,6 +99,10 @@ openblocks.misc.sleeping_bag_broken=由于初始化错误,该物品无法生效
 openblocks.misc.inverted=反相
 
 openblocks.misc.grave_msg=%s (天数: %.1f)
+openblocks.misc.grave_equipped=从坟墓中装备了 %d 件物品。
+openblocks.misc.grave_to_inventory=已将 %d 件物品移动到物品栏中。
+openblocks.misc.grave_skipped=因物品栏已满，无法取走%d 个物品。
+openblocks.misc.grave_not_owner=这不是你的坟墓。
 
 openblocks.misc.cant_restore_player=无法恢复玩家 %s 的物品栏
 openblocks.misc.cant_restore_inventory=无法恢复物品栏
@@ -121,9 +126,9 @@ openblocks.misc.pedometer.straigh_line_speed=直线移速: %s
 
 openblocks.misc.pedometer.last_check_distance=距离上次计步点: %s
 openblocks.misc.pedometer.last_check_speed=上次移速: %s
-openblocks.misc.pedometer.last_check_time=距离上次计步时间间隔 %d ticks
+openblocks.misc.pedometer.last_check_time=自上次计步点过去了： %d 刻
 
-openblocks.misc.pedometer.total_time=计步总时长: %d ticks
+openblocks.misc.pedometer.total_time=总计步时长: %d 刻
 
 openblocks.misc.shape=形状: %s
 openblocks.misc.shape.sphere=球体
@@ -187,7 +192,7 @@ tile.openblocks.heal.name=治愈方块
 tile.openblocks.heal.description=只有在创造模式下才能得到治愈方块,它会为站在上方的玩家提供轻微的治疗效果.
 
 tile.openblocks.guide.name=建筑指导仪
-tile.openblocks.guide.description=提供红石信号,建筑指导仪便会投影出方块轮廓.你可以通过Shift+右键它来改变形状,或者右键它的不同面来增大或减小轮廓.\n创造模式下将黑曜石放在建筑指导仪上,再拿着任何方块右键它,则会自动完成搭建.
+tile.openblocks.guide.description=建筑指南使用幽灵方块投影形状以便于建造。通过红石信号激活投影，并使用空手点击各面上的按钮进行配置。顶面按钮用于循环切换或旋转形状。每个侧面都有一组方向按钮（上、下、左、右）：+/- 调整方向长度，而 ➤ 按钮则将其镜像到相反方向。\n使用染料点击建筑指南可以更改投影颜色。
 
 tile.openblocks.builder_guide.name=强化建筑指导仪
 tile.openblocks.builder_guide.description=这个强化建筑指导仪不单单能够投影出方块轮廓，还能够允许你直接放置方块。用任意方块右击中间的建筑指导仪即可！\n在创造模式情况下，指导仪顶部放黑曜石，用任意方块右击能够瞬间搭建出对应的结构。
@@ -242,7 +247,7 @@ tile.openblocks.itemDropper.name=物品投掷器
 tile.openblocks.itemDropper.description=物品投掷器类似于原版的投掷器,但它会把物品铅直地向下投掷.
 
 tile.openblocks.bigbutton.name=大型按钮
-tile.openblocks.bigbutton.description=大型按钮可以放置在墙上.如果你空手Shift右键它就可以打开一个格子.你可以在格子中放入不同数量的物品来控制按钮被按下后发出的红石信号持续时间的长短-每放入一个物品能使红石信号持续时间增加1个tick.
+tile.openblocks.bigbutton.description=大型按钮可以放置在墙上。如果你空手Shift右键它就可以打开一个格子。你可以在格子中放入不同数量的物品来控制按钮被按下后发出的红石信号持续时间的长短。每放入一个物品能使红石信号持续时间增加1tick。
 
 tile.openblocks.xpdrain.name=经验地漏
 tile.openblocks.xpdrain.description=将经验地漏放置在蓄水槽上方,接着站上去.你的经验就会被抽入蓄水槽中,蓄水槽中存储的液态经验可以被用于自动附魔台或自动铁砧等设备.
@@ -289,7 +294,7 @@ tile.openblocks.sky.normal.description=只需要给它一个红石信号,天空�
 tile.openblocks.sky.inverted.name=反相天空方块
 
 tile.openblocks.radio.name=收音机
-tile.openblocks.radio.description=收音机可以让你连接网络收音机.首先,你需要把调台水晶(搜索地牢箱子或与村民交易)放在收音机里,并用红石信号启动.红石强度可以控制收音机的音量.在服务端的配置文件中可以设置可接收的电台.
+tile.openblocks.radio.description=收音机可以让你连接网络收音机。首先，你需要把调台水晶（搜索地牢箱子或与村民交易）放在收音机里，并用红石信号启动。红石强度可以控制收音机的音量。\n\n在服务端的配置文件中可以设置可接收的电台。
 
 tile.openblocks.xpshower.name=经验莲蓬头
 tile.openblocks.xpshower.description=将经验莲蓬头放置在存储液态经验的水槽上,它就能从中抽出经验并喷出经验球.这些喷出的经验球可以被经验地漏或MFR的排污机吸取.
@@ -312,7 +317,7 @@ item.openblocks.slimalyzer.description=带着史莱姆区块探测器到处跑,�
 
 item.openblocks.hangglider.name=滑翔翼
 item.openblocks.hangglider.invalid_dimension=滑翔翼似乎不起作用,也许是大气层太稀薄了?
-item.openblocks.hangglider.description=滑翔翼的用途不言而喻.手持滑翔翼右键就可以穿上.现在,大胆跳吧!\n你可以在滑翔时通过按Shift来提升速度,但是小心点,因为这会加快你下坠速度!
+item.openblocks.hangglider.description=滑翔翼的用途不言而喻。手持右键即可背上滑翔翼。现在，大胆跳吧！\n你可以在滑翔时按Shift来提升速度，但是这会加快你下坠速度，所以小心点！\n\n你的滑翔翼现在额外配备了一个声学升降速率表，用于指示垂直气流的变化。按下V键即可激活，然后你就能一直在空中翱翔了（或者至少坚持到太阳下山）！
 
 item.openblocks.generic.name=物品
 

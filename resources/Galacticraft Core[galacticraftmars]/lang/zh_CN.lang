@@ -4,14 +4,14 @@
 item.rawDesh.name=未精炼戴斯矿
 item.deshStick.name=戴斯棍
 item.ingotDesh.name=戴斯锭
-item.spaceshipTier2.name=火箭(2阶)
+item.spaceshipTier2.name=2阶火箭
 item.spaceshipTier2.t2Rocket.name=2阶火箭
 item.reinforcedPlateT2.name=重型装甲板
 item.tier2.desc=2阶
 item.slimelingCargo.name=黏滑物品背包
 item.key.name=2阶地牢钥匙
 item.key.T2.name=2阶地牢钥匙
-item.compressedDesh.name=压缩戴斯板
+item.compressedDesh.name=航天戴斯板
 item.spaceshipTier2.cargoRocket.name=货运火箭
 item.fluidManip.name=流体操纵器
 item.bucketSludge.name=菌泥桶
@@ -86,9 +86,9 @@ gui.message.grass.name=草
 gui.message.invalidFreq.name=无效频率
 gui.message.frequency.name=频率
 gui.message.destFrequency.name=目标频率
-gui.message.removePad.name=移除平板
-gui.message.launchWhen.name=发射当
-gui.message.cargoUnloaded.name=货物未卸载时
+gui.message.removePad.name=移除平台
+gui.message.launchWhen.name=发射条件
+gui.message.cargoUnloaded.name=货物已卸载
 gui.message.cargoFull.name=货物已满
 gui.message.fullyFueled.name=燃料已装满
 gui.message.instant.name=立即
@@ -102,11 +102,11 @@ gui.message.success.name=成功
 gui.message.zeroWater.name=缺水!
 
 # Dollar sign ($) will split text onto a new line
-gui.launchController.desc.0=这是发射控制器的$唯一频率
-gui.launchController.desc.1=火箭发射频率,火箭前往
-gui.launchController.desc.2=发射台是否$在发射时移除
-gui.launchController.desc.3=当这个条件达到时,$火箭就会发射
-gui.launchController.desc.4=隐藏频率$对其他玩家
+gui.launchController.desc.0=这是该发射控制器的$独有频率
+gui.launchController.desc.1=火箭前往的目标频率
+gui.launchController.desc.2=发射平台是否$在发射时移除
+gui.launchController.desc.3=此条件满足时，$火箭就会发射
+gui.launchController.desc.4=对其他玩家$隐藏目标频率
 gui.terraformer.desc.0=水箱
 
 gui.gasTank.desc.0=气体贮存
@@ -153,7 +153,7 @@ tile.cryoChamber.description=冬眠舱使玩家能在白天睡觉,回复少量�
 tile.launchController.description=发射控制器用于设置发射动作,包括发射条件和终点,连接发射平台以自动发射.
 tile.terraformer.description=地形改造机用于给偏远的行星增添一些绿色,在提供正确的材料时生成如草,树和水.
 tile.creeperEgg.description=苦力怕蛋会在火星地牢生成,爆炸后有惊喜.
-tile.gasLiquefier.description=液化气,来自大气或容器.液化甲烷是不错的火箭燃料!
+tile.gasLiquefier.description=将环境或储罐中的气体液化。液化甲烷是不错的火箭燃料!
 tile.methaneSynthesizer.description=提供氢与碳就能制造出甲烷,进一步加工需要在气体液化机进行.
 tile.electrolyzer.description=将水转换成氢气(用于甲烷合成器)与氧气.
 tile.hydrogenPipe.description=氢气管道可将氢气从一个机器内部的储气罐传送至另外一个储气罐.
@@ -174,6 +174,7 @@ gui.slimeling.food=最喜爱的食物
 # SCHEMATICS
 schematic.rocketT3.name=3阶火箭
 schematic.cargoRocket.name=自动货运火箭
+schematic.cargoRocket.name.short=货运火箭
 
 # ENTITIES
 entity.GalacticraftMars.CargoRocket.name=货运火箭

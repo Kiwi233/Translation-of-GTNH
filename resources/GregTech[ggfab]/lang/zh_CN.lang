@@ -1,5 +1,3 @@
-ggfab.recipe.toolcast=工具铸造机
-
 ggfab.waila.advassline.slice=片#%s：%s s / %s s
 ggfab.waila.advassline.slice.small=片#%s：%s t / %s t
 ggfab.waila.advassline.slice.idle=片#%s：待机
@@ -9,7 +7,7 @@ ggfab.gui.advassline.slice.stuck=片#%s：§4堵塞
 ggfab.gui.advassline.slice.unknown=片#%s：?
 ggfab.gui.advassline.shutdown=§4上次异常关机原因：
 ggfab.gui.advassline.shutdown_clear=§6清除
-ggfab.gui.advassline.shutdown.input_busses=§4输入总线数量过少，无法支持当前配方
+ggfab.gui.advassline.shutdown.input_buses=§4输入总线过少不足以支持当前配方
 ggfab.gui.advassline.shutdown.recipe_null=§4配方为 null （报告给作者）
 ggfab.gui.advassline.shutdown.fluid_null=§4流体获取失败（检查你的ME流体存储）
 ggfab.gui.advassline.shutdown.structure=§4不兼容的结构变化
@@ -33,3 +31,38 @@ ggfab.tooltip.linked_input_bus.private.1=修改一个频道上最后一个总线
 
 ggfab.gui.linked_input_bus.private=私人
 ggfab.gui.linked_input_bus.channel=频道
+
+# Advanced Assembly Line tooltip
+ggfab.tt.advassline.machine_type=装配线，AAL
+ggfab.tt.advassline.structure.controller=第三层，第一片
+ggfab.tt.advassline.structure.data_access_location=任意非第一片格栅机械方块
+ggfab.tt.advassline.structure.energy_location=任意第四层机械方块
+ggfab.tt.advassline.structure.layer1_side_casing=任意第一片侧面机械方块
+ggfab.tt.advassline.structure.input_bus_location=每片的底面中心
+ggfab.tt.advassline.structure.output_bus_location=任意最后一片的第一层机械方块
+ggfab.tt.advassline.structure.layer4=§f第四层：§7空，脱氧钢机械方块，空
+ggfab.tt.advassline.structure.layer3=§f第三层：§7格栅机械方块，装配线外壳，格栅机械方块
+ggfab.tt.advassline.structure.layer2=§f第二层：§7任意等级玻璃，装配线方块，任意等级玻璃
+ggfab.tt.advassline.structure.layer1=§f第一层：§7脱氧钢机械方块，输入总线，脱氧钢机械方块
+ggfab.tt.advassline.structure.footer=最大16片，每片允许配方中多一项输入
+
+# Multiblocks
+gt.blockmachines.ggfab.machine.adv_assline.name=进阶装配线
+
+# Single use tools
+gt.ggfab.d1.0.name=一次性锉刀
+gt.ggfab.d1.1.name=一次性扳手
+gt.ggfab.d1.2.name=一次性撬棍
+gt.ggfab.d1.3.name=一次性剪线钳
+gt.ggfab.d1.30.name=模具（一次性锉刀）
+gt.ggfab.d1.31.name=模具（一次性扳手）
+gt.ggfab.d1.32.name=模具（一次性撬棍）
+gt.ggfab.d1.33.name=模具（一次性剪线钳）
+gt.ggfab.d1.34.name=模具（一次性锻造锤）
+gt.ggfab.d1.35.name=模具（一次性软锤）
+gt.ggfab.d1.36.name=模具（一次性螺丝刀）
+gt.ggfab.d1.37.name=模具（一次性锯子）
+gt.ggfab.d1.4.name=一次性锻造锤
+gt.ggfab.d1.5.name=一次性软锤
+gt.ggfab.d1.6.name=一次性螺丝刀
+gt.ggfab.d1.7.name=一次性锯子

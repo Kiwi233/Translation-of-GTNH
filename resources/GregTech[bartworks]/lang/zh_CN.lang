@@ -1,3 +1,7 @@
+# Components
+gt.oreprefix.bolted_material_casing=%s机械方块
+gt.oreprefix.rebolted_material_casing=强化%s机械方块
+
 itemGroup.GT2C=GT2兼容
 item.GT_Rockcutter_Item_LV.name=岩石切割机LV
 item.GT_Rockcutter_Item_MV.name=岩石切割机MV
@@ -12,11 +16,11 @@ GT_LESU_CASING.0.name=LESU机械方块
 bw.blockores.01.name=矿石
 bw.blockores.02.name=贫瘠矿石
 bw.werkstoffblocks.01.name=方块
-bw.werkstoffblockscasing.01.name=螺栓机械方块
+bw.werkstoffblockscasing.01.name=栓式方块
 bw.werkstoffblockscasingadvanced.01.name=强化机械方块
 
-GT5U.gui.text.no_imprint=未压印
-GT5U.gui.text.not_enough_length=多方块机器长度不足
+GT5U.gui.text.recipe_result.no_imprint=未压印
+GT5U.gui.text.recipe_result.not_enough_length=多方块机器长度不足
 GT5U.gui.text.wrong_sievert_exactly=§7辐射剂量错误.所需精确剂量为: %s §7Sv
 GT5U.gui.text.wrong_sievert_min=§7辐射剂量错误.所需最小剂量为: %s §7Sv
 GT5U.gui.config.general.mixins=Mixins
@@ -55,11 +59,11 @@ GT5U.gui.config.general.rossruinmetas.ev.machines=机器
 itemGroup.bartworks=BartWorks跨时代
 BW_Machinery_Casings.name=机械方块
 BW_Machinery_Casings.0.name=镍锌铁氧体块
-BW_Machinery_Casings.1.name=变压器绕组方块
-item.BW_PaperRotor.name=原始纸转子(风车专用)
-item.BW_LeatherRotor.name=原始皮革转子(风车专用)
-item.BW_WoolRotor.name=原始羊毛转子(风车专用)
-item.BW_CombinedRotor.name=原始复合转子(风车专用)
+BW_Machinery_Casings.1.name=变压器绕组块
+item.BW_PaperRotor.name=原始纸转子（风车专用）
+item.BW_LeatherRotor.name=原始皮革转子（风车专用）
+item.BW_WoolRotor.name=原始羊毛转子（风车专用）
+item.BW_CombinedRotor.name=原始复合转子（风车专用）
 tile.BWRotorBlock.name=原始动力轴箱
 tile.BWRotorBlock.0.name=原始动力轴箱
 item.grindstone_top.name=磨石顶部件
@@ -84,7 +88,6 @@ item.DNASampleFlask.name=DNA样品瓶
 item.PlasmidCell.name=质粒样品瓶
 item.DetergentPowder.name=洗涤粉
 item.Agarose.name=琼脂糖
-item.IncubationModule.name=孵化模块
 item.Cells.name=细菌细胞
 item.PlasmaMembrane.name=质膜
 labModule.item.DNAExtractionModule.name=DNA提取模块
@@ -92,26 +95,27 @@ labModule.item.PCRThermoclyclingModule.name=基因扩增模块
 labModule.item.PlasmidSynthesisModule.name=质粒合成模块
 labModule.item.TransformationModule.name=基因转化模块
 labModule.item.ClonalCellularSynthesisModule.name=细胞克隆模块
-BW_GlasBlocks.name=硼玻璃方块
-BW_GlasBlocks.0.name=硼玻璃方块
-BW_GlasBlocks.1.name=钛强化硼玻璃方块
-BW_GlasBlocks.2.name=钨钢强化硼玻璃方块
-BW_GlasBlocks.3.name=镀铑钯强化硼玻璃方块
-BW_GlasBlocks.4.name=铱强化硼玻璃方块
-BW_GlasBlocks.5.name=锇强化硼玻璃方块
-BW_GlasBlocks.6.name=染色硼玻璃方块(红)
-BW_GlasBlocks.7.name=染色硼玻璃方块(绿)
-BW_GlasBlocks.8.name=染色硼玻璃方块(紫)
-BW_GlasBlocks.9.name=染色硼玻璃方块(黄)
-BW_GlasBlocks.10.name=染色硼玻璃方块(淡绿)
-BW_GlasBlocks.11.name=染色硼玻璃方块(棕)
-BW_GlasBlocks.12.name=钍钇玻璃方块
-BW_GlasBlocks.13.name=中子强化硼玻璃方块
-BW_GlasBlocks.14.name=宇宙中子强化硼玻璃方块
-BW_GlasBlocks.15.name=无尽强化硼玻璃方块
-BW_GlasBlocks2.name=硼玻璃方块
-BW_GlasBlocks2.0.name=超时空强化硼玻璃方块
+labModule.item.IncubationModule.name=孵化模块
 
+BW_TieredGlass.name=硼玻璃方块
+BW_TieredGlass.0.name=硼玻璃方块
+BW_TieredGlass.1.name=钛强化硼玻璃方块
+BW_TieredGlass.2.name=钨钢强化硼玻璃方块
+BW_TieredGlass.3.name=镀铑钯强化硼玻璃方块
+BW_TieredGlass.4.name=铱强化硼玻璃方块
+BW_TieredGlass.5.name=锇强化硼玻璃方块
+BW_TieredGlass.6.name=中子强化硼玻璃方块
+BW_TieredGlass.7.name=无尽强化硼玻璃方块
+BW_TieredGlass.8.name=超时空强化硼玻璃方块
+BW_TieredGlass.9.name=咒源玄晶强化硼玻璃方块
+BW_TieredGlass.10.name=宇宙素强化硼玻璃方块
+BW_ExtraGlass.name=硼玻璃方块
+BW_ExtraGlass.0.name=钍钇玻璃方块
+BW_ExtraGlass.1.name=中子强化硼玻璃方块（透明）
+BW_ExtraGlass.2.name=无尽强化硼玻璃方块（透明）
+BW_ExtraGlass.3.name=超时空强化硼玻璃方块（透明）
+BW_ExtraGlass.4.name=咒源玄晶强化硼玻璃方块（透明）
+BW_ExtraGlass.5.name=宇宙素强化硼玻璃方块（透明）
 tooltip.glass_tier.0.name=玻璃等级:
 tooltip.LESU.0.name=最大容量!
 tooltip.LESU.1.name=多个控制器!
@@ -124,7 +128,7 @@ tooltip.windmeter.4.name=正常
 tooltip.windmeter.5.name=相当强
 tooltip.windmeter.6.name=极强
 tooltip.windmeter.7.name=太强了
-tooltip.windmeter.8.name=这里的风似乎...
+tooltip.windmeter.8.name.s=这里的风似乎%s。
 tooltip.rotor.0.name=直径:
 tooltip.rotor.1.name=耐久:
 tooltip.rotor.2.name=效率:
@@ -132,21 +136,16 @@ tooltip.rotor.3.name=速度:
 tooltip.rotor.4.name=输出:
 tooltip.cp.0.name=内部是否有编程电路?
 
-tooltip.bw.0.name=添加者: 
-tooltip.bw.1.name=添加者：bartimaeusnek,模组：
 tooltip.bw.yes.name=是
 tooltip.bw.no.name=否
 tooltip.bw.tier.name=等级:
 tooltip.bw.empty.name=空
-tooltip.bw.mb_via.name=%s§7 via §2BartWorks
 
-tooltip.bw.high_temp_gas_cooled_reactor.material=供高温气冷反应堆使用
-
-tooltip.bw.item.circuit.tagged=电路
 tooltip.bw.item.circuit.tagged.imprint=一个压印%s
 tooltip.bw.item.circuit.tagged.sliced=一个切片%s
-tooltip.bw.item.circuit.imprint=一个压印电路
-tooltip.bw.item.circuit.sliced=一个切片电路
+
+tooltip.item.CircuitParts.RawImprintBoard=压印电路所需的基板原料
+tooltip.item.CircuitParts.ImprintBoard=压印电路所需的基板原料
 
 tooltip.teslastaff.0.name=没有保修!
 tooltip.labmodule.0.name=用于改变生物实验室工作模式的模块
@@ -155,18 +154,19 @@ tooltip.labparts.1.name=一个空的DNA样品瓶
 tooltip.labparts.2.name=一个空的质粒样品瓶
 tooltip.labparts.3.name=生物工程专用洗涤粉
 tooltip.labparts.4.name=用于辅助电泳分离DNA的粉末
-tooltip.labparts.5.name=一个培养皿,内含:
+tooltip.labparts.5.name=一个培养皿，内含：%s
 tooltip.labparts.6.name=这是一种很弱的培养菌,不能在细菌培养缸中繁殖!
-tooltip.labparts.7.name=一个DNA样品瓶,内含:
-tooltip.labparts.8.name=一个质粒样品瓶,内含:
+tooltip.labparts.7.name=一个DNA样品瓶，内含：%s
+tooltip.labparts.8.name=一个质粒样品瓶，内含：%s
 
 tooltip.tile.waterpump.0.name=在有燃料时产出
 tooltip.tile.waterpump.1.name=L/s水. 每秒产生%d点污染
 tooltip.tile.waterpump.2.name=必须放在地上.
+tooltip.tile.waterpump.fmt=供能时生产%sL/s水。每秒产生%s点污染。
 
 tooltip.tile.mbf.1.name=污染
-tooltip.tile.windmill.0.name=由动能驱动的原始研磨机;大小(宽x高x长): 7x12x7;=第1层: 7x7砖块,角落空置,控制器方块在正面中央;第2-5层: 5x5硬化黏土,角落空置,可包含一扇门,;中空,墙上必须至少有一个发射器;第6层: 5x5木板.角落填充,中空.;第7层: 7x7木板.角落空置,中空.;第8层: 7x7木板.角落空置,中空,;正面中央必须是原始动力轴箱;第9层: 7x7木板.角落空置,中空.;第10层: 5x5木板.角落填充,中空.;第11层: 3x3木板.角落填充,中空.;第12层: 1x1木板;需要在轴箱中放入风车转子方可运行;在控制器方块中输入物品;输出物品将出现在发射器中;在多风的地区运行比较快(类似IC2风机)
-tooltip.tile.lesu.0.name=LESU的控制器方块;大小(宽x高x长): 任意
+tooltip.tile.windmill.0.name=由动能驱动的原始研磨机;大小（宽x高x长）: 7x12x7;=第1层: 7x7砖块,角落空置,控制器方块在正面中央;第2-5层: 5x5陶瓦,角落空置,可包含一扇门,;中空,墙上必须至少有一个发射器;第6层: 5x5木板.角落填充,中空.;第7层: 7x7木板.角落空置,中空.;第8层: 7x7木板.角落空置,中空,;正面中央必须是原始动力轴箱;第9层: 7x7木板.角落空置,中空.;第10层: 5x5木板.角落填充,中空.;第11层: 3x3木板.角落填充,中空.;第12层: 1x1木板;需要在轴箱中放入风车转子方可运行;在控制器方块中输入物品;输出物品将出现在发射器中;在多风的地区运行比较快（类似IC2风机）
+tooltip.tile.lesu.0.name=LESU的控制器方块;大小（宽x高x长）: 任意
 tooltip.tile.lesu.1.name=每个LESU机械方块存储:
 tooltip.tile.lesu.2.name=输出EU: LESU机械方块数量;输入EU: 输出EU的下一电压等级;输入/输出电流可通过GUI中的4个编程电路调整;输出端有一个点.
 tooltip.tile.lesu.3.name=只允许一个控制器,不允许共享方块!
@@ -175,19 +175,24 @@ tooltip.tile.tiereddsc.1.name=输入电流:
 tooltip.tile.tiereddsc.2.name=输出电流:
 tooltip.tile.tiereddsc.3.name=容量:
 tooltip.tile.diode.0.name=一种简单的二极管,只允许能量流向一个方向.
-tooltip.tile.energydistributor.0.name=将电流分至多面.
+tooltip.tile.energydistributor.0.name=将电流分至多面。
 tooltip.tile.biolab.0.name=生物实验室,一个多用途的生物工程站
 tooltip.tile.radhatch.0.name=多方块的放射性物品输入仓
 tooltip.tile.radhatch.1.name=使用螺丝刀设置抑制等级
 tooltip.tile.radhatch.2.name=材料:
 tooltip.tile.radhatch.3.name=辐射剂量:
 tooltip.tile.radhatch.4.name=质量：
-tooltip.tile.radhatch.5.name=衰变单位质量(1kg)所需时间(t/s/m/h):
+tooltip.tile.radhatch.5.name=衰变单位质量（1kg）所需时间（t/s/m/h）:
 tooltip.tile.radhatch.6.name=t
 tooltip.tile.radhatch.7.name=s
 tooltip.tile.radhatch.8.name=m
 tooltip.tile.radhatch.9.name=h
 tooltip.tile.radhatch.10.name=剩余时间: %s s / %s s
+tooltip.tile.radhatch.2.fmt=材料：%s
+tooltip.tile.radhatch.2.empty=材料：空
+tooltip.tile.radhatch.3.fmt=辐射剂量：%s
+tooltip.tile.radhatch.4.fmt=质量：%s
+tooltip.tile.radhatch.5.fmt=衰变单位质量（1kg）所需时间（t/s/m/h）：%st/%ss/%sm/%sh
 tooltip.tile.acidgen.0.name=酸性发电机
 tooltip.tile.acidgen.1.name=用化学势能产生电力.
 
@@ -207,15 +212,30 @@ bw.recipe.htgr=高温气冷反应堆
 nei.biovat.0.name=需要玻璃等级: %s
 nei.biovat.1.name=精确剂量: %s Sv
 nei.biovat.2.name=最小剂量 %s Sv
-nei.biovat.input.tooltip=基于输出率，消耗至多1001倍的NEI流体原料
-nei.biovat.output.tooltip=基于输出仓中的流体储量，输出至多1001倍的NEI流体产物
+nei.biovat.input.tooltip=基于输出率，消耗至多1,001倍的NEI流体原料
+nei.biovat.output.tooltip=基于输出仓中的流体储量，输出至多1,001倍的NEI流体产物
 
-tile.diode.name=线缆二极管
-tile.energydistributor.name=能量分配器
+gt.blockmachines.diode.name=%2$s安%1$s线缆二极管
+gt.blockmachines.energydistributor.name=%1$s能量分配器
 tile.acidgenerator.name=酸性发电机
+tile.acidgenerator.tier.1.name=基础酸性发电机
+tile.acidgenerator.tier.2.name=进阶酸性发电机
+tile.acidgenerator.tier.3.name=涡轮酸性发电机
+tile.acidgenerator.tier.4.name=涡轮增压酸性发电机
+tile.acidgenerator.tier.5.name=终极腐蚀能释放者
 tile.bw.mbf.name=巨型工业高炉
 tile.bw.mvf.name=巨型真空冷冻机
 tile.biolab.name=生物实验室
+tile.biolab.tier.3.name=基础生物实验室
+tile.biolab.tier.4.name=进阶生物实验室
+tile.biolab.tier.5.name=进阶生物实验室 II
+tile.biolab.tier.6.name=精英生物实验室
+tile.biolab.tier.7.name=精英生物实验室 II
+tile.biolab.tier.8.name=终极基因锻造者
+tile.biolab.tier.9.name=史诗基因锻造者
+tile.biolab.tier.10.name=史诗基因锻造者 II
+tile.biolab.tier.11.name=史诗基因锻造者 III
+tile.biolab.tier.12.name=史诗基因锻造者 IV
 tile.biovat.name=细菌培养缸
 tile.radiohatch.name=放射仓
 tile.bw.windmill.name=风车
@@ -230,6 +250,14 @@ item.BISOPelletCompound.name=BISO复合材料
 item.BurnedOutTRISOPelletBall.name=枯竭TRISO燃料球
 item.BurnedOutTRISOPellet.name=枯竭TRISO燃料丸
 
+item.CircuitParts.Imprint.name=压印电路
+item.CircuitParts.Imprint.tagged.name=压印电路（%s）
+item.CircuitParts.Sliced.name=切片电路
+item.CircuitParts.Sliced.tagged.name=切片电路（%s）
+item.CircuitParts.RawImprintBoard.name=压印基板原料
+item.CircuitParts.ImprintBoard.name=压印基板
+item.CircuitParts.Wrap.name=封装%s
+
 itemGroup.bartworksMetaMaterials=BartWorks超材料
 
 planet.Ross128b=罗斯128b
@@ -240,25 +268,17 @@ solarsystem.Ross128System=罗斯128星系
 itemGroup.bw.MetaItems.0=BartWorks电路板改革
 
 # info data
-BW.infoData.BioVat.expectedProduction=预期产量
-BW.infoData.BioVat.production=产量
+BW.infoData.BioVat.expectedProduction=预期产出
+BW.infoData.BioVat.production=产出
+BW.infoData.BioVat.expectedProduction.fmt=预期产出：§a%s§r%%
+BW.infoData.BioVat.production.fmt=产出：§a%s§r%%
 
 BW.infoData.htr.helium_level=氦水平：%sL / %sL
 BW.infoData.htr.problems=问题：%s
 
-BW.infoData.htgr.mode=模式：%s
-BW.infoData.htgr.mode.emptying=清空
-BW.infoData.htgr.mode.normal=正常
-BW.infoData.htgr.progress=进度：%ss / %ss
-BW.infoData.htgr.fuel_type=燃料类型：%s
-BW.infoData.htgr.fuel_type.none=无
-BW.infoData.htgr.fuel_type.triso=TRISO (%s)
-BW.infoData.htgr.fuel_amount=燃料数量：%s 个。
-BW.infoData.htgr.coolant=冷却液：%sL/s
-
-BW.infoData.thtr.progress=进度：%ss/%ss
+BW.infoData.thtr.progress=进度：%s s/%s s
 BW.infoData.thtr.triso_pebbles=TRISO燃料丸：%s个 / %s个
-BW.infoData.thtr.coolant=冷却液/t: %s升/t
+BW.infoData.thtr.coolant=冷却液/t: %sL/t
 
 BW.infoData.wind_mill.progress=进度：%d次研磨（共需%d次研磨）
 BW.infoData.wind_mill.grind_power=研磨功率：%dKU/t
@@ -271,12 +291,12 @@ BW.NEI.display.radhatch.0=辐射剂量: %s Sv
 BW.NEI.display.radhatch.1=质量: %s kg
 BW.NEI.display.radhatch.2=时间: %s s
 
-misc.BatchModeTextOn=开启批量处理
-misc.BatchModeTextOff=关闭批量处理
-
-tooltip.cal.imprintedWith=已压印：
+tooltip.cal.imprintedWith=已压印：§e%s
 chat.cal.mode.0=电路装配线模式
 chat.cal.mode.1=电路组装机模式
+
+chat.proxy.reverse.false=§a常规§r配方顺序
+chat.proxy.reverse.true=§d逆向§r配方顺序
 #Liquids
 
 # gui
@@ -288,3 +308,44 @@ BW.gui.text.lesu.max=最大：%s
 BW.gui.text.lesu.max_in=最大EU/t输入：%s
 BW.gui.text.lesu.eu_out=EU/t 输出：%s
 BW.gui.text.lesu.amp_io=A/t 输入/输出: %s
+
+# chat
+BW.chat.thtr.cannot_change_mode=无法在钍高温反应堆运行时更改其模式。
+BW.chat.thtr.running_in.emptying=钍高温反应堆现以排空模式运行。
+BW.chat.thtr.running_in.normal=钍高温反应堆现已正常运行。
+BW.chat.diode.max_amps=最大电流：%s
+
+# bio name
+bw.bioname.saccharomyces_cerevisiae=普通酵母菌
+bw.bioname.saccharomyces_cerevisiae_var_bayanus=葡萄酒酵母菌
+bw.bioname.saccharomyces_cerevisiae_var_cerevisiae=啤酒酵母菌
+bw.bioname.escherichia_cadaver=腐肉菌
+bw.bioname.beta-lactamase=β-内酰胺酶
+bw.bioname.escherichia_koli=大肠杆菌
+bw.bioname.pseudomonas_veronii=石油厌氧菌
+bw.bioname.saccharomyces_escherichia=通用酵母菌
+bw.bioname.barnadafis_arboriatoris=巴纳德乔木生菌
+bw.bioname.tcetieis_fucus_serratus=鲸鱼座T星E藻
+bw.bioname.corynebacterium_sludge_marsensis=火星泥棒状杆菌
+bw.bioname.xenoxene_xenoxsis=异氙菌
+bw.bioname.ova_evolutionis=演化卵细胞
+bw.bioname.derivantur_cellula_evolutionis=演化衍生细胞
+bw.bioname.cellula_biologicum_evolutione=演化生物细胞
+bw.bioname.binni_growth_medium=培养基宾尼菌
+bw.bioname.binni_bacteria=宾尼菌
+bw.bioname.mutagen_bacteria_a_spatio=太空诱变菌
+bw.bioname.null=调试用菌
+
+# Multiblocks
+gt.blockmachines.bw.biovat.name=细菌培养缸
+gt.blockmachines.bw.manualtrafo.name=可调变压器
+gt.blockmachines.bw.windmill.name=风车
+gt.blockmachines.circuitassemblyline.name=电路装配线
+gt.blockmachines.dehp.name=深地热泵
+gt.blockmachines.lesu.name=LESU
+gt.blockmachines.megablastfurnace.name=巨型工业高炉
+gt.blockmachines.megachemicalreactor.name=巨型化学反应釜
+gt.blockmachines.megadistillationtower.name=巨型蒸馏塔
+gt.blockmachines.megaoilcracker.name=巨型石油裂化机
+gt.blockmachines.megavacuumfreezer.name=巨型真空冷冻机
+gt.blockmachines.thtr.name=钍高温反应堆

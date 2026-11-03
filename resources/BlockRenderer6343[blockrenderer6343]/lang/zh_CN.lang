@@ -1,4 +1,3 @@
-gui.blockrenderer6343.BgColor=C6C6C6
 blockrenderer6343.multiblock.structure=多方块结构
 blockrenderer6343.no_space=没有足够的空间！
 blockrenderer6343.multiblock.project=投影多方块结构
@@ -9,7 +8,15 @@ blockrenderer6343.no_block=找不到可以放置的方块
 blockrenderer6343.nei.tier=等级
 blockrenderer6343.nei.layer=层数
 blockrenderer6343.nei.hatch_highlight=切换仓室位置高亮
-blockrenderer6343.nei.hint_dot=提示方块：%s号
+blockrenderer6343.nei.hint_dot=提示方块：%s
 blockrenderer6343.nei.valid_hatches=可用仓室：%s
 blockrenderer6343.nei.all=全部
 blockrenderer6343.nei.not_set=未设置
+
+nei.options.blockrenderer6343=BlockRenderer6343
+nei.options.blockrenderer6343.auto_fill_pattern=通过NEI覆盖自动填充伪合成样板
+nei.options.blockrenderer6343.auto_fill_pattern.true=是
+nei.options.blockrenderer6343.auto_fill_pattern.false=否
+nei.options.blockrenderer6343.filter_hatch=使用NEI覆盖时过滤GT仓室
+nei.options.blockrenderer6343.filter_hatch.true=是
+nei.options.blockrenderer6343.filter_hatch.false=否

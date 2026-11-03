@@ -1,0 +1,9 @@
+{aqua:{bold:净水等级：}}{color_tier:{var:tier}}
+需要用{color_name:{item:gregtech:gt.metaitem.01:32708}}将其连接到净化厂才能进行工作
+{hr}
+输入总线中必须放入{color_key:{var:filter}}才能工作
+每次工作有{color_misc:{var:filter_chance}%}的概率损坏过滤器
+{hr}
+{aqua:{italic:获得净化水的第一步是使用大规模物理过滤来滤除宏观污染物。}}
+{aqua:{italic:随着被滤除的污染物增加，滤网的功效将会下降。}}
+{aqua:{italic:所以要保证澄清器的高效工作，必须持续更换滤网。}}

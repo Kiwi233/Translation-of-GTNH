@@ -1,0 +1,2 @@
+运行速度：{color_speed:{var:speed}%}，每{color_name:加热线圈}等级提供{color_speed:+{var:speed_bonus}%}的速度增益
+功率系数：{color_efficiency:{var:eu_eff}%} {EU}，每{color_name:加热线圈}等级乘以{color_efficiency:x{var:eu_eff_bonus}}
