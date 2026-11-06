@@ -77,7 +77,7 @@
                 <var>day</var>
                 <num>365</num>
             </modi>
-            <str> {white}天; 时间: {gold}{mctime12} </str>
+            <str> {white}天; 时间: {gold}{mctime24} </str>
             <if>
                 <var>daytime</var>
                 <str>{yellow}(白天)</str>
@@ -120,6 +120,14 @@
                     <num>47</num>
                     <num>48</num>
                     <num>49</num>
+                    <num>50</num>
+                    <num>55</num>
+                    <num>56</num>
+                    <num>60</num>
+                    <num>63</num>
+                    <num>64</num>
+                    <num>69</num>
+                    <num>70</num>
                     <num>80</num>
                     <num>81</num>
                     <num>82</num>
@@ -129,14 +137,6 @@
                     <num>86</num>
                     <num>87</num>
                     <num>88</num>
-                    <num>50</num>
-                    <num>55</num>
-                    <num>56</num>
-                    <num>60</num>
-                    <num>63</num>
-                    <num>64</num>
-                    <num>69</num>
-                    <num>70</num>
                     <num>100</num>
                     <num>112</num>
                     <num>173</num>
@@ -170,6 +170,14 @@
                     <str>$6海卫八 $e(Pr)</str>
                     <str>$6海卫一 $e(Tr)</str>
                     <str>$6冥王星 $e(Pl)</str>
+                    <str>$6外域 $e(Outer)</str>
+                    <str>$6精神世界 $e(巫术)</str>
+                    <str>$6痛苦迷宫 $e(巫术)</str>
+                    <str>$6基岩矿界 $e(Bedrock)</str>
+                    <str>$6罗斯128ba $e(RA)</str>
+                    <str>$6罗斯128b $e(RB)</str>
+                    <str>$6口袋世界 $e(神秘视界)</str>
+                    <str>$6镜中世界 $e(巫术)</str>
                     <str>$6静态火星空间站 $e(SMS)</str>
                     <str>$6巴纳德E $e(BE)</str>
                     <str>$6巴纳德F $e(BF)</str>
@@ -179,14 +187,6 @@
                     <str>$6天卫五 $e(Mi)</str>
                     <str>$6金星空间站 $e(VS)</str>
                     <str>$6静态金星空间站 $e(SVS)</str>
-                    <str>$6外域 $e(Outer)</str>
-                    <str>$6精神世界 $e(巫术)</str>
-                    <str>$6痛苦迷宫 $e(巫术)</str>
-                    <str>$6基岩矿界 $e(Bedrock)</str>
-                    <str>$6罗斯128ba $e(RA)</str>
-                    <str>$6罗斯128b $e(RB)</str>
-                    <str>$6口袋世界 $e(神秘视界)</str>
-                    <str>$6镜中世界 $e(巫术)</str>
                     <str>$6漆黑世界 $e(DD)</str>
                     <str>$6深渊世界 $e(End Of Time)</str>
                     <str>$6虚空漫步者世界 $e(魔像密经)</str>
@@ -1006,12 +1006,20 @@
         </line>
         <line>
             <if>
-                <not>
-                <equal>
-                    <var>nextrain</var>
-                    <str>?</str>
-                </equal>
-                </not>
+                <and>
+                    <not>
+                        <equal>
+                            <var>nextrain</var>
+                            <str>?</str>
+                        </equal>
+                    </not>
+                    <not>
+                        <equal>
+                            <var>nextrain</var>
+                            <str>none</str>
+                        </equal>
+                    </not>
+                </and>
                 <if>
                     <or>
                         <equal>
@@ -1122,12 +1130,20 @@
                 </if>
             </if>
             <if>
-                <not>
-                <equal>
-                    <var>nextrain</var>
-                    <str>?</str>
-                </equal>
-                </not>
+                <and>
+                    <not>
+                        <equal>
+                            <var>nextrain</var>
+                            <str>?</str>
+                        </equal>
+                    </not>
+                    <not>
+                        <equal>
+                            <var>nextrain</var>
+                            <str>none</str>
+                        </equal>
+                    </not>
+                </and>
                 <if>
                     <or>
                         <equal>
@@ -1408,6 +1424,12 @@
                             <var>thundering</var>
                             <str>false</str>
                         </equal>
+                        <not>
+                            <equal>
+                                <var>nextrain</var>
+                                <str>none</str>
+                            </equal>
+                        </not>
                         <not>
                             <or>
                                 <equal>
@@ -1757,6 +1779,193 @@
                     </concat>
                 </if>
             </if>
+            <if>
+                <equal>
+                    <var>nextrain</var>
+                    <str>none</str>
+                </equal>
+                <if>
+                    <and>
+                        <equal>
+                            <var>raining</var>
+                            <str>false</str>
+                        </equal>
+                        <equal>
+                            <var>snowing</var>
+                            <str>false</str>
+                        </equal>
+                        <equal>
+                            <var>thundering</var>
+                            <str>false</str>
+                        </equal>
+                        <not>
+                            <or>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Storage Cell</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Ocean</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Desert Oil Field</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Sky</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Forest</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pocket Plane</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Desert</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot River</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Hot Plains</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Desert</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Desert M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna Plateau</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Savanna Plateau M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa (Bryce)</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau F</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau F M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Mesa Plateau F M</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Space</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Venus</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>moon</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>marsFlat</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>asteroids</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Io</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>IoAsh</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Titan</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto2</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto3</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>Pluto4</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCFlowers</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCHills</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCLowPlains</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCOceans</str>
+                                </equal>
+                                <equal>
+                                    <var>biome</var>
+                                    <str>BarnardaCShores</str>
+                                </equal>
+                            </or>
+                        </not>
+                    </and>
+                    <concat>
+                        <icon>
+                            <str>thaumcraft:textures/aspects/tempestas.png</str>
+                        </icon>
+                        <str> </str>
+                        <trans>
+                            <str>ingameinfoxml.tag.nextrain.disabled</str>
+                        </trans>
+                    </concat>
+                </if>
+            </if>
         </line>
         <line>
             <str>{black}</str>
@@ -1913,7 +2122,7 @@
         </line>
         <line>
             <if>
-                <str>  2) {gold}{nearbyplayername2}{white}({nearbyplayerdistance2}m)</str>
+                <str>  3) {gold}{nearbyplayername2}{white}({nearbyplayerdistance2}m)</str>
             </if>
         </line>
     </lines>
