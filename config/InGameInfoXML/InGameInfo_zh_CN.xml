@@ -1959,7 +1959,10 @@
                         <icon>
                             <str>thaumcraft:textures/aspects/tempestas.png</str>
                         </icon>
-                        <str> 天气已禁用</str>
+                        <str> </str>
+                        <trans>
+                            <str>ingameinfoxml.tag.nextrain.disabled</str>
+                        </trans>
                     </concat>
                 </if>
             </if>
