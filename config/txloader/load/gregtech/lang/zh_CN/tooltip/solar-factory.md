@@ -11,5 +11,6 @@
 {green:支持多A能源仓}
 {hr}
 {white:{bold:等级{aqua:{bold:3}}：}}
+{green:支持激光能源仓}
 {VNF:t3_min_tier}-{VNF:t3_max_tier}级太阳能板可跳过前置直接制造（但成本更高）
 额外{color_name:晶圆}等级的增幅提升至{color_amount:{var:high_output_mult}%}

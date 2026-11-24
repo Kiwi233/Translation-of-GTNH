@@ -17,47 +17,43 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:368"/>
 </GameScene>
-<Color id="GREEN">大规模固化器</Color>是一座用于将液态金属浇铸入模具的 IV 级多方块结构。<Color id="GREEN">大规模固化器</Color>相比单方块流体固化器是一次直接升级：速度最高可达 <Color id="RED">300%</Color>，仅消耗平时所需 EU/t 的 <Color id="BLUE">80%</Color>，并且每电压等级提供 <Color id="GREEN">10</Color> 并行。机器运行时速度每秒提高 5%，停止时每秒降低 10%。固化仓 <ItemImage id="gregtech:gt.blockmachines:31781"/> 带有一个可配置的模具幽灵槽位，只作用于自己仓内的流体，从而让一台机器按需处理任意多种配方。在 UEV，<Color id="GREEN" >大规模固化器</Color>会被 [异星铸造塔](../multis/exo_foundry.md) 取代。
+<Color id="GREEN">大规模固化器</Color> 是一台 IV 级多方块，用于把液态金属批量浇铸进模具。<Color id="GREEN">大规模固化器</Color> 是单方块 <Color id="GREEN">流体固化器</Color> 的直接升级版，因为它最高可达到 <Color id="RED">300%</Color> 速度、只消耗原本 <Color id="BLUE">80%</Color> 的 EU/t，并且每个电压等级都提供 <Color id="GREEN">10</Color> 并行。机器运行时每秒会额外提升 5% 速度，停机时则每秒损失 10% 速度。<Color id="GREEN">固化仓</Color> <ItemImage id="gregtech:gt.blockmachines:31781"/> 自带一个可配置的模具幻影槽，且该模具只会作用于本仓内的流体，因此一台机器就能同时兼容大量不同配方。到了 UEV 阶段，它会被 [异星铸造塔](../multis/exo_foundry.md) 取代。
 
 <br clear="all"/>
 
 > [!NOTE]
-> 以下为该多方块结构（结构本身之外）所做的改动：
-> - 弃用：本机器取代了旧的流体塑形机
-> - 固化仓：新增的仓，可接收流体并带有模具幽灵槽位
-> - 并行：每电压等级 10 并行，而非每片 2 + 3 并行
+> 这台多方块除结构本身外，还有如下改动：
+> - 替代旧机：它现在取代旧版的 <Color id="GREEN">流体塑形机</Color>
+> - 固化仓：新增一种可同时容纳流体与模具幻影槽的专用仓室
+> - 并行：改为每电压等级 10 并行，而不再是旧版那种 `2 + 每层宽度 3` 的机制
 
+## 搭建
+<Color id="GREEN">大规模固化器</Color> 有一个分级结构部件。玻璃决定能源仓允许的最高等级；UEV 级玻璃可解除这一限制。总线和仓室可以替换结构中任意位置的固化器机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `glass` 子信道指定玻璃等级。
 
-## 建造
-<Color id="GREEN">大规模固化器</Color>只有一种任意等级的部件。玻璃决定了能源仓的最高等级。UEV 级玻璃允许任何等级，相当于解除了这一限制。总线/仓可以替换结构中任意位置的固化器机械方块。<Color id="RED">多A能源仓和激光能源仓</Color>不受支持，但可以放置多个普通能源仓来超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来可视化/搭建结构，并借助子信道 “glass” 指定玻璃的等级。
+<Color id="GREEN">大规模固化器</Color> 的特有部件是 <Color id="BLUE">固化仓</Color> <ItemImage id="gregtech:gt.blockmachines:31781"/>。它本质上是一个带模具幻影槽的输入仓。对模具槽按住 Shift 点击即可打开所有可选模具菜单。无论输入隔离设置如何，模具只会作用于该仓自身持有的流体。固化仓共有 4 个等级，用来提升内部容量；后期则会被更高级的 <Color id="GREEN">样板输入总成</Color> 取代。
 
-<Color id="GREEN">大规模固化器</Color>独有的是<Color id="BLUE">固化仓</Color> <ItemImage id="gregtech:gt.blockmachines:31781"/>，它实际上是一个带有可配置模具幽灵槽位的输入仓。Shift+点击模具槽位可打开一个包含所有可用选项的菜单。无论输入隔离设置如何，模具只作用于自己仓内的流体。固化仓共有四个等级，用于提升其内部容量，最终会被样板输入总成取代。
+### 需要：
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:368"/><ItemImage id="gregtech:gt.blockmachines:368"/>
+- 24-73 个 <ItemLink id="gregtech:gt.blockcasings10:13"/><ItemImage id="gregtech:gt.blockcasings10:13"/>
+- 42 个任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 34 个 <ItemLink id="gregtech:gt.blockcasings10:14"/><ItemImage id="gregtech:gt.blockcasings10:14"/>
+- 13 个 <ItemLink id="gregtech:gt.blockcasings:11"/><ItemImage id="gregtech:gt.blockcasings:11"/>
+- 7 个 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>
+- 3 个 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
+- 1+ 个能源仓（任意固化器机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 个维护仓（任意固化器机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 0+ 个输入总线（任意固化器机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 个输入仓（任意固化器机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 个输出总线（任意固化器机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 需求：
-- 1 <ItemLink id="gregtech:gt.blockmachines:368"/><ItemImage id="gregtech:gt.blockmachines:368"/>
-- 24-73 <ItemLink id="gregtech:gt.blockcasings10:13"/><ItemImage id="gregtech:gt.blockcasings10:13"/>
-- 42 任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
-- 34 <ItemLink id="gregtech:gt.blockcasings10:14"/><ItemImage id="gregtech:gt.blockcasings10:14"/>
-- 13 <ItemLink id="gregtech:gt.blockcasings:11"/><ItemImage id="gregtech:gt.blockcasings:11"/>
-- 7 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>
-- 3 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
-- 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
-- 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ 输入仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
+### 共墙
+<Color id="GREEN">大规模固化器</Color> 的每个侧面都可以共墙，以节省机械方块、玻璃和总线/仓室。由于没有任何配方会超过 1A 耗电，因此理论上可以让 <u>__两__</u> 台机器共用 <u>__一个__</u> 能源仓。
 
-### 共用墙壁
-<Color id="GREEN">大规模固化器</Color>的每个面都可以与其他机器共用墙壁，以节省机械方块、玻璃和总线/仓。没有配方会消耗超过 1A 的电力，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
-
-## 用法
-<Color id="GREEN">大规模固化器</Color>相比单方块流体固化器是一次直接升级：速度最高可达 300%，仅消耗平时所需 EU/t 的 80%，并且每电压等级提供 10 并行，如下表所示。
-
-
+## 使用
+<Color id="GREEN">大规模固化器</Color> 是单方块 <Color id="GREEN">流体固化器</Color> 的直接升级版，因为它最高可达到 300% 速度、只消耗原本 80% 的 EU/t，并且每个电压等级都提供 10 并行，如下表所示。
 
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --------------- | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 | 110 | 120 | 130 | 140 | 150 |
 
-
-<Color id="GREEN">大规模固化器</Color>运行时速度每秒提高 5%，停止时每秒降低 10%。也就是说，需要 40 秒的运行时间才能达到最高速度，但只需 20 秒就会全部损失。强烈建议复制样板并让机器尽可能长时间保持运行，以充分利用这一速度加成。
+<Color id="GREEN">大规模固化器</Color> 在持续运行时，每秒会额外获得 5% 速度；而停机时，则会以每秒 10% 的速度把这部分加成吐回去。这意味着它需要连续运行 40 秒才能爬到满速，但只要停下 20 秒就会把所有速度加成全部掉光。因此强烈建议把样板成倍复制，尽量让机器长时间连续工作，才能真正吃满这份加速收益。

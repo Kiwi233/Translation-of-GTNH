@@ -12,13 +12,14 @@ item_ids:
 
 # 石英玻璃
 
-<BlockImage id="appliedenergistics2:tile.BlockQuartzGlass" scale="8" />
+<BlockImage id="appliedenergistics2:tile.BlockQuartzGlass" scale="4" />
 
-主要由<ItemLink id="gregtech:gt.metaitem.01:2516" />（赛特斯石英粉）制成的透明玻璃，用于制作多种AE2机器和物品。还有一种变种——聚能石英玻璃，能够发出光亮。
+几乎完全通透的玻璃，由<ItemLink id="gregtech:gt.metaitem.01:2516" />制成。用于制造大多数AE2机器和物品。
 
-## 合成配方
+其变种聚能石英玻璃会发光。
+
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockQuartzGlass" />
+
 <RecipeFor id="appliedenergistics2:tile.BlockQuartzLamp" input="appliedenergistics2:tile.BlockQuartzGlass" />
-
-

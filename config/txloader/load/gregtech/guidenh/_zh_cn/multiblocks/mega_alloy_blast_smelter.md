@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31150
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAM1Q==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAM1Q=="}
 navigation:
   title: Mega Alloy Blast Smelter
   parent: ./multiblocks_index.md

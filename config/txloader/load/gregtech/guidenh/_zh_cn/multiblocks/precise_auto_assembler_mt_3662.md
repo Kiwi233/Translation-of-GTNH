@@ -6,9 +6,9 @@ item_ids:
   - GoodGenerator:preciseUnitCasing:1
   - GoodGenerator:preciseUnitCasing:2
   - GoodGenerator:preciseUnitCasing:3
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAMEg==
-  - AAAAAAAAAAAAAAAAAAAKcA==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAMEg=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKcA=="}
 navigation:
   title: Precise Auto-Assembler MT-3662
   parent: ./multiblocks_index.md

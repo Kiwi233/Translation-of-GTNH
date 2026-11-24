@@ -5,54 +5,54 @@ navigation:
   icon: appliedenergistics2:tile.BlockIOPort
 ---
 
-# 存储元件快速存取器
+# 元件清空器与装填器
 
-有人可能会问："如何实现存储元件与箱子/抽屉阵列/背包之间的快速转移？"
+有人可能会问：“怎么迅速将元件清空至箱子或者抽屉阵列或者背包，以及怎么从这些地方填满元件？”
 
-答案是使用<ItemLink id="appliedenergistics2:tile.BlockIOPort" />并通过子网划分来限制它存入或取出物品的位置。
+答案便是使用<ItemLink id="appliedenergistics2:tile.BlockIOPort" />和限制其清空或装填位置的子网络。
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/cell_dumper_filler.snbt" />
 
   <BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 1">
-  (1) IO端口：通过界面中央的箭头按钮切换"导入网络"或"导出元件"模式。安装有3张加速卡。
+  （1）IO端口：可使用GUI中间的箭头按钮将其设置为“从元件导入网络”或“传输数据到存储元件中”。装有3张加速卡。
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0 0.7 0" max="1 1 1">
-  (2) 存储总线：保持默认配置。
+  （2）存储总线：默认配置。
   </BoxAnnotation>
 
   <BoxAnnotation color="#33dd33" min="0 1 0" max="1 2 1">
-  此处放置需要装入或倒空物品的容器（箱子/抽屉等）。
+  在这里放置用于装填或清空的事物。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 0.35 0.35" max="2.3 0.65 0.65">
-  石英纤维：仅当能源来自其他网络时才需要。
+  石英纤维：仅在能量供给来自另一网络时必需。
   </BoxAnnotation>
 
   <DiamondAnnotation pos="3 0.5 0.5" color="#00ff00">
-  连接至某种能源，例如另一个网络或能源接收器。
+  至能量源，例如另一网络和能源接收器。
   </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 配置说明
+## 配置
 
-* <ItemLink id="appliedenergistics2:tile.BlockIOPort" /> (1) 通过界面中央的箭头按钮切换"导入网络"或"导出元件"模式。安装有3张加速卡以实现极速传输。
-* <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2) 保持默认配置。
+* <ItemLink id="appliedenergistics2:tile.BlockIOPort" />（1）可使用GUI中间的箭头按钮将其设置为“从元件导入网络”或“传输数据到存储元件中”。装有3张加速卡以达到最大速度。
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（2）处于默认配置。
 
 ## 工作原理
 
-### "导入网络"模式
+### “传输至网络”模式
 
-1. <ItemLink id="appliedenergistics2:tile.BlockIOPort" />尝试将已插入的[存储元件](../items_blocks/storage_cells.md)内容倒入[网络存储](../ae2_mechanics/import_export_storage.md)。
-2. 子网中唯一的存储端是<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，它会把物品、流体等存入你放在它面前的容器中。
-* <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" />提供了充足[能源缓存](../ae2_mechanics/energy.md)，使网络不会因每游戏刻传输大量物品的耗电而电力故障。
+1. <ItemLink id="appliedenergistics2:tile.BlockIOPort" />尝试将其中[存储元件](../items_blocks/storage_cells.md)所存事物清空至[网络存储](../ae2_mechanics/import_export_storage.md)。
+2. 子网络中唯一存储位置是<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，可将物品，流体等事物存入放在其上的容器。
+* <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" />则提供了足够大的[能量缓存](../ae2_mechanics/energy.md)，以避免每游戏刻传输率过高导致能量耗尽。
 
-### "导出元件"模式
+### “传输至元件”模式
 
-1. <ItemLink id="appliedenergistics2:tile.BlockIOPort" />尝试将[网络存储](../ae2_mechanics/import_export_storage.md)的内容倒入已插入的[存储元件](../items_blocks/storage_cells.md)。
-2. 子网中唯一的存储端是<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，它会从你放在它面前的容器中提取物品、流体等。
-* <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" />提供了充足[能源缓存](../ae2_mechanics/energy.md)，使网络不会因每游戏刻传输大量物品的耗电而电力故障。
+1. <ItemLink id="appliedenergistics2:tile.BlockIOPort" />尝试将[网络存储](../ae2_mechanics/import_export_storage.md)所存事物装填至其中[存储元件](../items_blocks/storage_cells.md)。
+2. 子网络中唯一存储位置是<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />, 可从放在其上的容器中抽出物品，流体等事物。
+* <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" />则提供了足够大的[能量缓存](../ae2_mechanics/energy.md)，以避免每游戏刻传输率过高导致能量耗尽。

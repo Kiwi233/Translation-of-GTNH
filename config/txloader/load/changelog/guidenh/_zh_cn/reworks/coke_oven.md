@@ -17,56 +17,56 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:236"/>
 </GameScene>
-<Color id="GREEN">焦炉</Color>是一种石头等级多方块结构，用于将原木烧制成木炭，以及将煤炭精炼成焦煤。每处理一根原木/一块煤炭需要90秒，并产出杂酚油作为副产物。杂酚油可以用作熔炉、Railcraft锅炉、大型锅炉等的燃料，还可以用来非常高效地制作火把，或在蒸馏器、酿造机或蒸馏塔中制作润滑油。到了MV等级，焦炉会被热解炉<ItemImage id="gregtech:gt.blockmachines:15543"/>和高级焦炉<ItemImage id="Railcraft:machine.alpha:12"/>所取代。
+<Color id="GREEN">焦炉</Color> 是一台石器时代级多方块，用于把原木烧成木炭，以及把煤精炼成焦炭。每个原木或煤的处理时间都是 90 秒，并会额外产出 <Color id="GREEN">杂酚油</Color>。杂酚油可以作为原版熔炉、Railcraft 锅炉、大型锅炉等设备的燃料，也能高效制作火把，还能在蒸馏室、酿造室或蒸馏塔中加工成润滑油。到了 MV 阶段，<Color id="GREEN">焦炉</Color> 会被 <Color id="GREEN">热解炉</Color> <ItemImage id="gregtech:gt.blockmachines:15543"/> 和 <Color id="GREEN">高级焦炉</Color> <ItemImage id="Railcraft:machine.alpha:12"/> 取代。
 
 <br clear="all"/>
 
 > [!NOTE]
-> 除结构本身外，该多方块结构还进行了以下改动：
-> 新自动化：焦炉现在使用专用的焦炉仓来实现自动化
-> 共用墙壁：由于它们现在是GT多方块结构，因此可以共用墙壁！
+> 这台多方块除结构本身外，还有如下改动：
+> 新自动化：焦炉现在使用专用的 <Color id="RED">焦炉仓</Color> 实现自动化
+> 共墙：由于它现在属于 GT 多方块，因此可以共墙摆放
 
-## 建造
-<Color id="GREEN">焦炉</Color>是一个由焦炉砖块围成的空心立方体，其中一面放置控制器。可以通过控制器的GUI手动操作<Color id="GREEN">焦炉</Color>，也可以使用<Color id="RED">焦炉仓</Color> <ItemImage id="gregtech:gt.blockmachines:237"/>来自动输入原料并取出产物。<Color id="RED">焦炉仓</Color>可以替换结构中任意位置的焦炉砖块，并在三种可用模式之一下工作：输入、输出（物品）和输出（流体）。用螺丝刀右键点击焦炉仓即可切换模式，用扳手右键点击则可旋转其朝向。焦炉仓没有自己的内部物品栏，因此被破坏时不会掉落物品或清空流体——只有控制器才会这样。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
+## 搭建
+<Color id="GREEN">焦炉</Color> 是一个中空立方体，外壳由 <Color id="GREEN">焦炉砖块</Color> 构成，并在其中一侧放置控制器。你可以直接通过控制器界面手动操作 <Color id="GREEN">焦炉</Color>，也可以使用 <Color id="RED">焦炉仓</Color> <ItemImage id="gregtech:gt.blockmachines:237"/> 来自动输入原料和导出产物。<Color id="RED">焦炉仓</Color> 可以替换结构中任意位置的任意一块焦炉砖块，并有三种模式可切换：输入、物品输出和流体输出。用螺丝刀右键仓室可切换模式，用扳手右键可旋转朝向。焦炉仓本身没有内部库存，因此破坏它时不会掉物，也不会虚空流体，只有控制器会这样。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
-一座带三个仓的<Color id="GREEN">焦炉</Color>需要114块焦炉砖块（锭）、54个铁和18个青铜才能建成。焦炉砖块需要消耗190个沙子、114个黏土，以及木制模具（Wooden Form）的38次使用次数。不过，强烈建议在游戏前期收集远多于此的材料，以便建造更多焦炉。
+若一台 <Color id="GREEN">焦炉</Color> 安装 3 个仓室，则总共需要 114 个焦炉砖块（按锭计）、54 个铁和 18 个青铜。制作这些砖块本身还需要 190 个沙子、114 个黏土，以及木制模具 38 次耐久。尽管如此，仍强烈建议你在前期多备一些材料，方便额外再搭几台焦炉。
 
-### 所需材料：
-- 1 <ItemLink id="gregtech:gt.blockmachines:236"/><ItemImage id="gregtech:gt.blockmachines:236"/>
-- 0-25 <ItemLink id="gregtech:gt.blockmachines:237"/><ItemImage id="gregtech:gt.blockmachines:237"/>
-- 0+ <ItemLink id="gregtech:gt.blockcasings12"/><ItemImage id="gregtech:gt.blockcasings12"/>
+### 需要：
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:236"/><ItemImage id="gregtech:gt.blockmachines:236"/>
+- 0-25 个 <ItemLink id="gregtech:gt.blockmachines:237"/><ItemImage id="gregtech:gt.blockmachines:237"/>
+- 0+ 个 <ItemLink id="gregtech:gt.blockcasings12"/><ItemImage id="gregtech:gt.blockcasings12"/>
 
-### 共用墙壁
+### 共墙
 <FloatingImage src="../assets/reworks/coke_oven_wallshare.png" displayWidth="128" align="right">
   <ImageAnnotation>
-    四座共用墙壁焦炉的示例
+    四台共墙焦炉的示例
   </ImageAnnotation>
 </FloatingImage>
-<Color id="GREEN">焦炉</Color>的每一面均可与其他机器共用墙壁，以节省焦炉砖块和焦炉仓。强烈建议这样做，因为它能节省大量资源并减少所需仓的数量。例如，右侧的图片展示了四座独立的焦炉共同使用位于结构中心处同一个焦炉仓的情形。
+<Color id="GREEN">焦炉</Color> 的每一个侧面都可以共墙，从而节省焦炉砖块与焦炉仓数量。非常推荐这样摆，因为它能显著节约资源，也能减少所需仓室数。举例来说，右图中的四台焦炉就共用了结构中央的同一个焦炉仓。
 
-## 用途
-<Color id="GREEN">焦炉</Color>主要用于将原木烧制成木炭，但也有其他一些冷门用途，见下表。盆栽树（Bonsai trees）是在游戏前期收集大量原木的绝佳方式。手持任意原版树苗右键点击作物架即可创建盆栽——云杉和丛林木最佳，因为它们每次收获的产出更多。另一种方法是制作一把匠魂伐木斧，反复砍伐神圣橡树，或其他任何一次就能掉落数千根原木的巨型树木。神圣橡树自然生成于神圣泉源（Sacred Springs）生物群系，其树苗可以通过任务书中的任务奖励获得。
+## 使用
+<Color id="GREEN">焦炉</Color> 最常见的用途是把原木烧成木炭，不过它也有一些比较偏门的用法，详见下表。前期获取大量原木的好办法之一是种 <Color id="GREEN">盆景树</Color>：对作物杆右键任意原版树苗即可生成，其中云杉和丛林木通常更好，因为单次收获产量更高。另一种办法则是制作一把匠魂伐木斧，反复砍伐神圣橡木等大型树木，这类树一次就可能掉出上千原木。神圣橡木会自然生成在 Sacred Springs 生物群系中，其树苗也可通过任务书奖励获取。
 
-<Color id="GREEN">焦炉</Color>也用于将煤炭精炼成焦煤。区别在于焦煤的燃烧时间是煤炭的两倍，并且在砖高炉<ItemImage id="gregtech:gt.blockmachines:140"/>中将铁熔炼成钢的速度快33%。仙人掌焦炭和糖焦炭是非常类似且可再生的替代品，但它们的能量密度远不及焦煤。下表汇总了所有可用配方，这些配方也可以在NEI中查看。
+<Color id="GREEN">焦炉</Color> 还可以把煤精炼成焦炭。焦炭的燃烧时间是煤的两倍，并且在 <Color id="GREEN">砖高炉</Color> <ItemImage id="gregtech:gt.blockmachines:140"/> 中炼钢时速度会快 33%。仙人掌焦炭和甘蔗焦炭则是类似的可再生替代品，不过它们的能量密度明显低得多。下面这张表总结了所有可用配方，这些配方在 NEI 里也都能直接查看。
 
 | 时长 | 输入（燃烧时间） | 输出（燃烧时间） | 副产物（燃烧时间） |
 | --------------- | --------------- | --------------- | --------------- |
-| 90s | 1 原木 (300) | 1 木炭 (1,600) | 250L 杂酚油 (1,600) |
-| 90s | 1 煤炭 (1,600) | 1 焦煤 (3,200) | 500L 杂酚油 (3,200) |
-| 810s | 煤炭块 (16,000) | 1 焦煤块 (32,000) | 4,500L 杂酚油 (28,800) |
-| 25s | 1 仙人掌 (50) | 1 仙人掌炭 (400) | 30L 杂酚油 (192) |
-| 25s | 1 仙人掌炭 (400) | 1 仙人掌焦炭 (800) | 30L 杂酚油 (192) |
-| 25s | 1 甘蔗 (50) | 1 糖炭 (400) | 30L 杂酚油 (192) |
-| 25s | 1 糖炭 (400) | 1 糖焦炭 (800) | 30L 杂酚油 (192) |
+| 90 秒 | 1 个原木（300） | 1 个木炭（1,600） | 250L 杂酚油（1,600） |
+| 90 秒 | 1 个煤（1,600） | 1 个焦炭（3,200） | 500L 杂酚油（3,200） |
+| 810 秒 | 1 个煤炭块（16,000） | 1 个焦炭块（32,000） | 4,500L 杂酚油（28,800） |
+| 25 秒 | 1 个仙人掌（50） | 1 个仙人掌炭（400） | 30L 杂酚油（192） |
+| 25 秒 | 1 个仙人掌炭（400） | 1 个仙人掌焦炭（800） | 30L 杂酚油（192） |
+| 25 秒 | 1 个甘蔗（50） | 1 个甘蔗炭（400） | 30L 杂酚油（192） |
+| 25 秒 | 1 个甘蔗炭（400） | 1 个甘蔗焦炭（800） | 30L 杂酚油（192） |
 
 
 ## 杂酚油
-<Color id="GREEN">杂酚油</Color>是几乎所有焦炉配方的副产物。可以用桶、流体单元、焦黑储罐和超级储罐手动抽取杂酚油，也可以用连接到焦炉仓上的流体管道自动抽取。将杂酚油储存在Railcraft储罐、超级储罐或任何其他流体储罐中。杂酚油可以在多种场合用作燃料，包括原版熔炉、Railcraft锅炉和大型锅炉。它还可以用来非常高效地制作火把，或在蒸馏器、酿造机或蒸馏塔中制作润滑油。
+<Color id="GREEN">杂酚油</Color> 是几乎所有焦炉配方都会产出的副产物。你可以用桶、流体单元、匠魂焦黑容器、超级储罐等方式手动取出杂酚油，也可以通过连接在焦炉仓上的流体管道实现自动抽取。储存方面，则可以使用 Railcraft 蓄水器、超级储罐或任何其他流体储罐。杂酚油既能在原版熔炉、Railcraft 锅炉、大型锅炉等多种设备中作为燃料，也能高效制作火把，或进一步蒸馏成润滑油。
 
-当杂酚油或木炭/焦炭没有更多存放空间时，焦炉会自动停止加工。因此，需要定期清空它才能继续工作。清空可以手动进行，也可以自动进行——后者的做法见下一节。此外，破坏并重新放置控制器可以立即清空杂酚油。
+当内部没有足够空间继续容纳杂酚油或木炭/焦炭时，焦炉会自动停机。因此你必须定期清空它，机器才能持续运行。这既可以手动完成，也可以自动化，后文会给出自动化示例。若只是想立刻把杂酚油清掉，也可以直接拆掉再重新放置控制器。
 
 # 自动化
-焦炉可以使用焦炉仓实现完全自动化，如下方视频所示。焦炉仓无法从相邻容器自动抽取物品，但可以自动推送输出，这意味着实际上只需要一个漏斗或传送带模块。如果使用后者，请将传送带模块设为IMPORT，因为它连接的多半是物品管道而非容器本身。
+借助焦炉仓，<Color id="GREEN">焦炉</Color> 可以做到完全自动化，如下方示例所示。焦炉仓不会从相邻容器中主动拉取物品，但会主动向外推出，因此真正需要的通常只是一只漏斗，或一个传送带模块。如果你用的是后者，请把传送带模块设为 <Color id="GREEN">IMPORT</Color>，因为它大概率接在物品管道上，而不是直接连在库存方块上。
 
 <GameScene width="420" height="280" zoom={3} interactive={true}>
   <ImportStructure src="../assets/reworks/coke_oven.snbt" />

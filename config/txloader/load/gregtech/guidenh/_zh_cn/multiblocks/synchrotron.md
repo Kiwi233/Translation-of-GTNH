@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:10507
-quest_ids:
-  - QfQHCy0PRn-rABmKuvwQfw==
+bindings:
+  - {type: "betterquesting", id: "QfQHCy0PRn-rABmKuvwQfw=="}
 navigation:
   title: Synchrotron
   parent: ./beam_line.md

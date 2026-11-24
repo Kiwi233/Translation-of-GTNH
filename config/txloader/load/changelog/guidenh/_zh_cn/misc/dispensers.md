@@ -9,7 +9,7 @@ author: koolkrafter5
 date: 2026-06-10
 ---
 
-以下物品现在可以从 <ItemLink id="minecraft:dispenser"/> <ItemImage id="minecraft:dispenser"/> 中射出：
+下面这些物品现在都可以通过 <ItemLink id="minecraft:dispenser"/> <ItemImage id="minecraft:dispenser"/> 发射出去：
 
 - <ItemImage id="ThaumicHorizons:alchemite"/>
 - <ItemImage id="ThaumicHorizons:boatGreatwood"/>

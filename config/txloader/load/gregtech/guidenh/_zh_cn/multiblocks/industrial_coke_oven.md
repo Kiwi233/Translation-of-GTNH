@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15543
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAMOQ==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAMOQ=="}
 navigation:
   title: Industrial Coke Oven
   parent: ./multiblocks_index.md

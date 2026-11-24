@@ -11,8 +11,8 @@ item_ids:
   - miscutils:gtplusplus.blockcasings.5:14
   - miscutils:gtplusplus.blockcasings.5:15
   - gregtech:gt.blockmachines:9416
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAM1w==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAM1w=="}
 navigation:
   title: Quantum Force Transformer 
   parent: ./multiblocks_index.md

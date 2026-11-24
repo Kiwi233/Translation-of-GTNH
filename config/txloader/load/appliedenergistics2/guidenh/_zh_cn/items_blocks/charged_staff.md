@@ -13,10 +13,10 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ToolChargedStaff" scale="4" />
 
-充能手杖是一根顶端装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />的木棍。每次攻击造成6点伤害，消耗300 AE能量。
+充能手杖是在末端装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />的棍子。它能造成6点伤害，每次攻击消耗300AE。
 
-它可通过<ItemLink id="appliedenergistics2:tile.BlockCharger" />补充能量。
+可在<ItemLink id="appliedenergistics2:tile.BlockCharger" />中为其充能。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ToolChargedStaff" />

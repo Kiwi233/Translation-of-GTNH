@@ -28,6 +28,7 @@ item_ids:
 ---
 
 # 升级卡
+
 <Column>
   <Row>
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" />
@@ -35,7 +36,12 @@ item_ids:
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:27" scale="2" />
 
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" />
-
+	
+    <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />   
+	
+    <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:64" scale="2" />
+  </Row>
+  <Row>
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:29" scale="2" />
 
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
@@ -45,18 +51,12 @@ item_ids:
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:67" scale="2" />
 
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" />
-  </Row>
 
-  <Row>
-    <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />   
-   
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" />
 
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:54" scale="2" />
 
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:55" scale="2" />
-
-    <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:64" scale="2" />
 
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:63" scale="2" />
 
@@ -65,9 +65,10 @@ item_ids:
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:66" scale="2" />
   </Row>
 </Column>
-升级卡用于改变AE2设备与机器的行为，可提升运行速度、增加过滤容量、启用红石控制等功能。
 
-## 卡片组件
+升级卡能改变AE2[设备](../ae2_mechanics/devices.md)和机器的行为，增加速度，加强过滤功能，启用红石控制，如此种种。
+
+## 升级卡组件
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:25" scale="2" />
@@ -75,7 +76,9 @@ item_ids:
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:28" scale="2" />
 </Row>
 
-所有升级卡均需以基础卡或高级卡作为基底制作。
+查看 [高级卡](../ae2_mechanics/upgrade_card.md).
+
+升级卡需用基础卡或高级卡合成。
 
 <Row>
   <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:25" />
@@ -87,7 +90,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" />
 
-红石卡为设备添加红石控制功能，包括在其GUI中提供用于切换红石模式的开关。
+红石卡为设备添加红石控制功能，在其 GUI 中增加一个切换按钮，用于在不同红石条件之间切换。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:26" />
 
@@ -95,7 +98,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:27" scale="2" />
 
-容量卡可提升输入/输出总线、存储总线及成型面板的过滤槽数量。
+容量卡增加输入总线、输出总线、存储总线以及成型面板的过滤槽位数量。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:27" />
 
@@ -103,7 +106,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" />
 
-溢出销毁卡可在<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />中安装至[存储元件](storage_cells.md)。当元件满载时，它会销毁传入的物品。请务必先为元件进行[分区](cell_workbench.md)。与均分卡配合使用时，只要某件物品对应的分区已满，该物品就会被立刻销毁，即使其他分区仍有空间。
+溢出销毁卡可应用于<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />中的[存储元件](storage_cells.md)，当元件已满时会删除传入的物品。（请确保对你的元件进行[分区](cell_workbench.md)！）与均分卡结合使用时，如果元件中特定物品的分区已满，即使其他物品的分区仍有空间，该物品也会被销毁。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:68" />
 
@@ -111,42 +114,42 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:29" scale="2" />
 
-模糊卡让带过滤功能的设备与工具能够按耐久度匹配和/或忽略物品NBT。这样可以导出所有铁斧而不论其耐久度或附魔如何，或者只导出受损的钻石剑而非修复完好的钻石剑。
+模糊卡使带有过滤功能的设备和工具能够根据耐久度进行匹配，或忽略物品 NBT。这样可以导出所有耐久度或附魔不同的铁斧，也可以只导出受损的钻石剑，而不导出完全修复的钻石剑。
 
-下方示例演示了模糊耐久比较模式的运作方式：左侧显示总线的配置，顶行显示参与比较的物品。
+以下示例展示了不同的模糊耐久度对比模式。左侧为总线配置，顶部为待对比的物品。
 
-| 25%阈值 | 10%耐久镐 | 30%耐久镐 | 80%耐久镐 | 全新镐 |
+| 25% | 耐久损失10%的镐 | 耐久损失30%的镐 | 耐久损失80%的镐 | 完全修复的镐 |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| 即将损坏的镐 | ✔ | \*\*\*\* | \*\*\*\* | \*\*\*\* |
-| 修复完成的镐 | \*\*\*\* | ✔ | ✔ | ✔ |
+| 几近损坏的镐 | ✔ | \*\*\*\* | \*\*\*\* | \*\*\*\* |
+| 完全修复的镐 | \*\*\*\* | ✔ | ✔ | ✔ |
 
 ---
 
-| 50%阈值 | 10%耐久镐 | 30%耐久镐 | 80%耐久镐 | 全新镐 |
+| 50% | 耐久损失10%的镐 | 耐久损失30%的镐 | 耐久损失80%的镐 | 完全修复的镐 |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| 即将损坏的镐 | ✔ | ✔ | \*\*\*\* | \*\*\*\* |
-| 修复完成的镐 | \*\*\*\* | \*\*\*\* | ✔ | ✔ |
+| 几近损坏的镐 | ✔ | ✔ | \*\*\*\* | \*\*\*\* |
+| 完全修复的镐 | \*\*\*\* | \*\*\*\* | ✔ | ✔ |
 
 ---
 
-| 75%阈值 | 10%耐久镐 | 30%耐久镐 | 80%耐久镐 | 全新镐 |
+| 75% | 耐久损失10%的镐 | 耐久损失30%的镐 | 耐久损失80%的镐 | 完全修复的镐 |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| 即将损坏的镐 | ✔ | ✔ | \*\*\*\* | \*\*\*\* |
-| 修复完成的镐 | \*\*\*\* |  | ✔ | ✔ |
+| 几近损坏的镐 | ✔ | ✔ | \*\*\*\* | \*\*\*\* |
+| 完全修复的镐 | \*\*\*\* |  | ✔ | ✔ |
 
 ---
 
-| 99%阈值 | 10%耐久镐 | 30%耐久镐 | 80%耐久镐 | 全新镐 |
+| 99% | 耐久损失10%的镐 | 耐久损失30%的镐 | 耐久损失80%的镐 | 完全修复的镐 |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| 即将损坏的镐 | ✔ | ✔ | ✔ | \*\*\*\* |
-| 修复完成的镐 | \*\*\*\* | \*\*\*\* | \*\*\*\* | ✔ |
+| 几近损坏的镐 | ✔ | ✔ | ✔ | \*\*\*\* |
+| 完全修复的镐 | \*\*\*\* | \*\*\*\* | \*\*\*\* | ✔ |
 
 ---
 
-| 忽略耐久 | 10%耐久镐 | 30%耐久镐 | 80%耐久镐 | 全新镐 |
+| 忽略 | 耐久损失10%的镐 | 耐久损失30%的镐 | 耐久损失80%的镐 | 完全修复的镐 |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| 即将损坏的镐 | ✔ | ✔ | ✔ | **✔** |
-| 修复完成的镐 | **✔** | **✔** | **✔** | ✔ |
+| 几近损坏的镐 | ✔ | ✔ | ✔ | **✔** |
+| 完全修复的镐 | **✔** | **✔** | **✔** | ✔ |
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:29" />
 
@@ -154,7 +157,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
 
-加速卡可以提升运行速度。它让输入/输出总线每次操作传输更多物品，并使压印器和分子装配室工作更快。
+加速卡可以提高设备运行速度，使输入总线和输出总线每次传输更多物品，并使压印器和分子装配室工作得更快。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:30" />
 
@@ -162,7 +165,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:56" scale="2" />
 
-超级加速卡是普通加速卡的更快版本，但只能用于ME-IO端口、ME输入/输出总线和ME流体输入/输出总线。
+超级加速卡是普通加速卡的强化版本，但只能用于 ME-I/O 端口、ME 输入/输出总线和 ME 流体输入/输出总线。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:56" />
 
@@ -170,7 +173,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:67" scale="2" />
 
-超光速加速卡是用于移动物品或流体的最快AE卡，但只能用于ME-IO端口和ME输入/输出总线。
+超光速加速卡是传输物品或流体速度最快的 AE 卡，但只能用于 ME-I/O 端口和 ME 输入/输出总线。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:67" />
 
@@ -178,7 +181,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" />
 
-反相卡可将设备或工具的过滤模式从白名单切换为黑名单。
+反相卡可以将设备或工具的过滤模式从白名单模式切换为黑名单模式。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:31" />
 
@@ -186,7 +189,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
 
-合成卡让设备向你的[自动合成](../ae2_mechanics/autocrafting.md)系统发送请求以获取所需物品。
+合成卡使设备可以向你的[自动合成](../ae2_mechanics/autocrafting.md)系统发送合成请求，以获取所需的物品。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:53" />
 
@@ -194,7 +197,9 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" />
 
-均分卡可在<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />中安装至[存储元件](storage_cells.md)。它会根据[分区](cell_workbench.md)设置将元件的存储空间均分，防止单一物品类型占满整个元件。
+均分卡可以通过 <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> 应用于[存储元件](storage_cells.md)。
+
+它会根据卡片的[分区](cell_workbench.md)方式，将元件划分为大小相等的分区，从而防止某一种物品占满整个元件。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:69" />
 
@@ -202,7 +207,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:54" scale="2" />
 
-每张样板容量卡可为接口额外提供9个样板槽，每个接口最多安装3张。
+每张样板容量卡为接口增加 9 个样板槽位，每个接口最多可安装 3 张。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:54" />
 
@@ -210,15 +215,15 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:55" scale="2" />
 
-允许按矿物辞典条目过滤，并支持正则表达式匹配。
+允许按照矿典条目进行过滤，并支持正则表达式匹配。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:55" />
 
-## 黏性卡
+## 粘性卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:64" scale="2" />
 
-被分区到该元件中的任何物品、流体或源质，只能存储在同样装有黏性卡的元件或存储总线中，而不能存入网络中的其他任何位置。
+在此元件上分区的任何物品、流体和要素只能存储在带有粘滞卡的元件或存储总线中，不会存储在网络中的其他地方。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:64" />
 
@@ -226,11 +231,11 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:63" scale="2" />
 
-高级阻挡卡将阻挡功能的判定范围扩展到整个所连接的ME网络，而不再仅限于相邻的容器。启用后，若目标网络中已存在相关物品或流体，接口会阻止配方原料被插入。
+高级阻挡卡将阻挡范围从相邻库存扩展到整个连接的 ME 网络。启用后，如果目标网络中已经存在相关物品或流体，接口会阻止配方材料被输入。
 
-在默认模式下，仅当网络中存在与配方相关的物品或流体时才会触发阻挡（透镜、电路板、模具等催化剂除外）。
+在默认模式下，只有网络中存在配方相关的物品或流体时才会触发阻挡，不包括透镜、电路或模具等催化剂。
 
-在严格模式下，只要网络中存在任何物品或流体就会触发阻挡。
+在宽松模式下，网络中存在任何物品或流体都会触发阻挡。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:63" />
 
@@ -238,12 +243,12 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:65" scale="2" />
 
-该卡有4种模式：
+锁定卡有 4 种模式：
 
-*   模式1：从不锁定合成
-*   模式2：锁定合成，直到收到红石脉冲
-*   模式3：存在红石信号时锁定合成
-*   模式4：无红石信号时锁定合成
+* 模式 1：从不锁定合成
+* 模式 2：收到红石脉冲前锁定合成
+* 模式 3：存在红石信号时锁定合成
+* 模式 4：不存在红石信号时锁定合成
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:65" />
 
@@ -251,6 +256,6 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:66" scale="2" />
 
-若接口装有此卡，它会在提交**合成任务**后立即将其完成，而无需等待结果返回。仅当所提交任务的最终产物即为预期产物时，此卡才会生效。
+安装此卡的接口在提交合成任务后会立即完成**合成任务**，无需等待结果返回。只有当提交任务的最终输出确实是预期产物时，此功能才会生效。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:66" />

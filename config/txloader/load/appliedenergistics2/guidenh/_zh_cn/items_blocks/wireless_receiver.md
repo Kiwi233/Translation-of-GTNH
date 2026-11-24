@@ -13,9 +13,8 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:41" scale="4" />
 
-安装在反射盘中的<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:9" />（福鲁伊克斯珍珠），是短程ME无线技术的组件。
+置于反射碟中的<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:9" />，是一种短距离无线ME科技组件。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:41" />
-

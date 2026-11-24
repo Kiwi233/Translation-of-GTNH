@@ -12,9 +12,12 @@ author: Skorched
 date: 2026-05-23
 ---
 
-你是否曾希望有一种办法可以让机器的维护工作自动化，使其持续运转？那么让我向你介绍<ItemLink id="gregtech:gt.blockmachines:15753"/> <ItemImage id="gregtech:gt.blockmachines:15753"/>！这是一种自动化的魔法方案，通过使用<Color id="RED">厘魔（Centi-Vis）</Color>来让你的机器保持运行。
+# Vis 自动维护仓
 
-要修复维护问题，它会从你的魔力网络中抽取每种要素各 25 点元始魔力（2,500 厘魔）。
+有没有想过，能不能把维护法杖核心也一起自动化，让机器自己保持运转？那就来认识一下 <ItemLink id="gregtech:gt.blockmachines:15753"/> <ItemImage id="gregtech:gt.blockmachines:15753"/> 吧。这是一种自动化的魔法维护方案，会通过消耗 <Color id="RED">厘魔（Centi-Vis）</Color> 来维持多方块运行。
 
-要合成它，你需要稍作绕道，涉足一些黑暗魔法，并在<Color id="GREEN">EMT 选项卡</Color>中完成一些新研究。不过，对于深入魔法领域的玩家来说，让你的仓替你工作是一笔值得的投资！
+每次修复维护问题时，它会从你的网络中抽取每种元始要素各 25 点 Vis，也就是每种各 2,500 厘魔。
+
+要合成它，你得稍微往黑魔法方向绕一下路，并在 <Color id="GREEN">EMT 标签页</Color> 里完成一些新的研究。不过如果你本来就在深入发展魔法线，这会是一笔很值得的投资，毕竟以后就是维护仓替你干活了。
+
 <RecipeFor id="gregtech:gt.blockmachines:15753" />

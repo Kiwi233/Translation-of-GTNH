@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:12712
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAKAQ==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKAQ=="}
 navigation:
   title: Bacterial Vat
   parent: ./multiblocks_index.md

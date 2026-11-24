@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:3015
-quest_ids:
-  - xTkeDXIZSlmRkde8LZgzLw==
+bindings:
+  - {type: "betterquesting", id: "xTkeDXIZSlmRkde8LZgzLw=="}
 navigation:
   title: Beam Crafter
   parent: ./large_hadron_collider.md
@@ -72,7 +72,7 @@ navigation:
 ## 用途
 束流合成器是[<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md)的最后一步，可捕获一个或多个输出粒子束用于配方。更具体地说，它会永久缓存每种粒子，容量最高为 2B，只有配方需要时才会消耗。
 
-粒子不会被动衰减，也不受粒子进入哪个束流输入仓的影响。**但是，只有束流合成器正在处理配方时，粒子才会加入缓存。**
+粒子不会被动衰减，也不受粒子进入哪个束流输入仓的影响。
 
 束流合成器接收到任意有效输入后便会立即开始配方，只有在机器接收到足够的所需粒子后才会完成，类似[<ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />](./research_station.md)消耗运算资源的方式。因此，配方时长完全取决于粒子消耗速率。如果缓存粒子足够，配方可以瞬间完成；如果 LHC 碰撞能量不足以产生所需粒子，配方则可能永远无法完成。
 

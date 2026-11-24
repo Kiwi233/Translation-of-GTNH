@@ -82,7 +82,9 @@ item.BWstove.name=简易熔炉
 gt.blockmachines.creativeScanner.desc.1=立刻结束扫描。无需能量。
 
 itemGroup.BioTab=BartWorks生物工程
-filled.item.petriDish.name=培养皿
+filled.item.petriDish.name=含有%s的培养皿
+filled.item.DNASampleFlask.name=DNA样品瓶（%s）
+filled.item.PlasmidCell.name=质粒样品瓶（%s）
 item.petriDish.name=无菌培养皿
 item.DNASampleFlask.name=DNA样品瓶
 item.PlasmidCell.name=质粒样品瓶
@@ -170,6 +172,7 @@ tooltip.tile.lesu.0.name=LESU的控制器方块;大小（宽x高x长）: 任意
 tooltip.tile.lesu.1.name=每个LESU机械方块存储:
 tooltip.tile.lesu.2.name=输出EU: LESU机械方块数量;输入EU: 输出EU的下一电压等级;输入/输出电流可通过GUI中的4个编程电路调整;输出端有一个点.
 tooltip.tile.lesu.3.name=只允许一个控制器,不允许共享方块!
+tooltip.tile.lesu.deprecated=已弃用 - 将在下次大更新中移除
 tooltip.tile.tiereddsc.0.name=电压:
 tooltip.tile.tiereddsc.1.name=输入电流:
 tooltip.tile.tiereddsc.2.name=输出电流:
@@ -292,8 +295,6 @@ BW.NEI.display.radhatch.1=质量: %s kg
 BW.NEI.display.radhatch.2=时间: %s s
 
 tooltip.cal.imprintedWith=已压印：§e%s
-chat.cal.mode.0=电路装配线模式
-chat.cal.mode.1=电路组装机模式
 
 chat.proxy.reverse.false=§a常规§r配方顺序
 chat.proxy.reverse.true=§d逆向§r配方顺序
@@ -335,6 +336,13 @@ bw.bioname.binni_growth_medium=培养基宾尼菌
 bw.bioname.binni_bacteria=宾尼菌
 bw.bioname.mutagen_bacteria_a_spatio=太空诱变菌
 bw.bioname.null=调试用菌
+bw.bioname.ovumbac=演化卵细胞
+bw.bioname.stemcellbac=演化衍生细胞
+bw.bioname.biocellbac=演化生物细胞
+bw.bioname.binnigrowthmedium=培养基宾尼菌
+bw.bioname.binnibacteria=宾尼菌
+bw.bioname.bacterialsludgebac=火星泥棒状杆菌
+bw.bioname.mutagen=太空诱变菌
 
 # Multiblocks
 gt.blockmachines.bw.biovat.name=细菌培养缸

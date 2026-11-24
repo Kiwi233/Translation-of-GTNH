@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:14050
-quest_ids:
-  - ziczkJstQ7C0LgmnzTUTeA==
+bindings:
+  - {type: "betterquesting", id: "ziczkJstQ7C0LgmnzTUTeA=="}
 navigation:
   title: Exo-Foundry
   parent: ./multiblocks_index.md

@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:810
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAFiA==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAFiA=="}
 navigation:
   title: Alloy Blast Smelter
   parent: ./multiblocks_index.md

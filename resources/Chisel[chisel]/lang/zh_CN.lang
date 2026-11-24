@@ -1254,6 +1254,8 @@ tile.diamond.10.desc=精雕方砖钻石块
 tile.diamond.11.desc=塞尔达钻石块
 tile.diamond.12.desc=华丽金框钻石块
 tile.diamond.13.desc=现代钻石块
+tile.diamond.14.desc=钻石矿石砖块
+tile.diamond.15.desc=錾制钻石矿石砖块
 
 #Snakestone
 tile.chisel.snakestoneSand.name=蛇纹沙石
@@ -1304,7 +1306,10 @@ tile.sandstone.13.desc=方砖沙石
 tile.sandstone.14.desc=镶嵌图案沙石
 tile.sandstone.15.desc=层叠沙石瓷砖
 tile.sandstone.16.desc=沙石砖块
-tile.sandstone.17.desc=
+tile.sandstone.17.desc=光滑平整的沙石
+tile.sandstone.18.desc=镶金沙石
+tile.sandstone.19.desc=镶金沙石柱
+tile.sandstone.20.desc=錾制镶金沙石
 
 #Sandstone scribbles
 tile.chisel.sandstone_scribbles.name=刻文沙石
@@ -1451,6 +1456,9 @@ tile.emerald.9.desc=方砖绿宝石块
 tile.emerald.10.desc=精雕方砖绿宝石块
 tile.emerald.11.desc=精雕绿宝石块
 tile.emerald.12.desc=现代绿宝石块
+tile.emerald.13.desc=绿宝石矿石砖块
+tile.emerald.14.desc=裂纹绿宝石矿石砖块
+tile.emerald.15.desc=錾制绿宝石矿石砖块
 
 #Nether Brick
 tile.chisel.nether_brick.name=地狱砖
@@ -2785,6 +2793,15 @@ tile.lantern.2.desc=红石
 tile.lantern.3.desc=灵魂
 tile.lantern.4.desc=受诅
 tile.lantern.5.desc=末影（tic）
+tile.lantern.6.desc=凝灰岩灯
+tile.lantern.7.desc=方解石灯
+tile.lantern.9.desc=滴水石灯
+tile.lantern.8.desc=神谕灯
+tile.lantern.10.desc=藻类灯
+tile.lantern.11.desc=深渊灯
+tile.lantern.12.desc=充能深渊灯
+tile.lantern.13.desc=超深渊灯
+tile.lantern.14.desc=充能超深渊灯
 
 #Sheetmetal
 tile.chisel.sheetmetal.name=板金属
@@ -2874,6 +2891,7 @@ tile.mud.6.desc=泥砖
 
 tile.chisel.albumblock.name=音乐方块
 tile.chisel.albumblock2.name=音乐方块
+tile.chisel.albumblock3.name=音乐方块
 tile.album.0.desc=That Green Gentleman
 tile.album.1.desc=Pretty Odd
 tile.album.2.desc=Laminated Denim
@@ -2893,6 +2911,34 @@ tile.album.15.desc=Having Too Much Fun
 tile.album2.16.desc=The Cork Tree
 tile.album2.17.desc=Cooperstown
 tile.album2.18.desc=The Most Fun a Girl Can Have
+tile.album2.19.desc=Birdbrain
+tile.album2.20.desc=Fancy Some More?
+tile.album2.21.desc=Paper-Mâché
+tile.album2.22.desc=Girls Like Us
+tile.album2.23.desc=The Terrors
+tile.album2.24.desc=Stardust Pharmacy
+tile.album2.25.desc=Katamari
+tile.album2.26.desc=Charleston Girl
+tile.album2.27.desc=Transitional Bird
+tile.album2.28.desc=Komm, Susser Tod
+tile.album2.29.desc=You Like Magic?
+tile.album2.30.desc=Guess
+tile.album2.31.desc=P-Panda
+tile.album3.32.desc=Fill Your Lungs
+tile.album3.33.desc=Paranoid
+tile.album3.34.desc=Monomi
+tile.album3.35.desc=Ursine
+tile.album3.36.desc=Hexie Mountains
+tile.album3.37.desc=Melancholy Hill
+tile.album3.38.desc=Triple Blocka
+tile.album3.39.desc=Ya Ya Ya Ya Ya Ya Ya Ya
+tile.album3.40.desc=Phantom Island
+tile.album3.41.desc=Alligator Bites Never Heal
+tile.album3.42.desc=Chiseled Triple Blocka
+tile.album3.43.desc=Magnet
+tile.album3.44.desc=Digital Girl
+tile.album3.45.desc=Digital World
+tile.album3.46.desc=Pain
 
 tile.chisel.brutalism.name=粗野主义方块
 tile.brutalism.0.desc=素水泥
@@ -2934,6 +2980,56 @@ tile.alabaster.8.desc=鼠尾草绿
 tile.alabaster.9.desc=天蓝
 tile.alabaster.10.desc=奶油白
 
+tile.chisel.topazBlock.name=黄玉块
+tile.chisel.charoiteBlock.name=紫龙晶块
+tile.chisel.fluoriteBlock.name=氟石块
+tile.chisel.jadeBlock.name=玉块
+tile.chisel.labradoriteBlock.name=拉长石块
+tile.chisel.netherquartzBlock.name=下界石英块
+tile.chisel.onyxBlock.name=缟玛瑙块
+tile.chisel.opalBlock.name=蛋白石块
+tile.chisel.rhodochrositeBlock.name=菱锰矿块
+tile.chisel.rubyBlock.name=红宝石块
+tile.chisel.spinelBlock.name=尖晶石块
+tile.gems.0.desc=骸晶
+tile.gems.1.desc=镶边
+tile.gems.2.desc=晶胞
+tile.gems.3.desc=割面
+tile.gems.4.desc=精雕瓷砖
+tile.gems.5.desc=大块瓷砖
+tile.gems.6.desc=抛光
+tile.gems.7.desc=原矿
+tile.gems.8.desc=平滑
+tile.gems.9.desc=螺旋
+tile.gems.10.desc=简式瓷砖
+
+tile.chisel.sulfurBlock.name=硫块
+tile.chisel.cinnabarBlock.name=朱砂块
+tile.chisel.tuffBlock.name=凝灰岩
+tile.chisel.coral2.name=珊瑚石
+tile.chisel.prismarineBlock.name=海晶石
+tile.chisel.darkprismarineBlock.name=暗海晶石
+tile.chisel.deepslateBlock.name=深板岩
+tile.chisel.dripstoneBlock.name=滴水石
+tile.chisel.basaltBlock.name=玄武岩
+tile.stones.0.desc=原始
+tile.stones.1.desc=砖块
+tile.stones.2.desc=錾制
+tile.stones.3.desc=圆石
+tile.stones.4.desc=苔石
+tile.stones.5.desc=竖纹
+tile.stones.6.desc=磨制
+tile.stones.7.desc=棱柱
+tile.stones.8.desc=瓷砖
+tile.stones.9.desc=精雕
+tile.tuff.0.desc=建筑师凝灰岩砖
+tile.tuff.1.desc=建筑师凝灰岩柱
+tile.dripstone.0.desc=建筑师滴水石砖
+tile.dripstone.1.desc=建筑师滴水石柱
+
+tile.sulfur.0.desc=强效硫
+
+
 tile.chisel.road.name=道路方块
 tile.chisel.road2.name=道路方块
 tile.road.0.desc=沥青
@@ -2971,3 +3067,141 @@ tile.road.31.desc=杂草丛生泥路
 
 tile.chisel.amber.name=琥珀块
 tile.chisel.bloodBrick.name=血石砖
+
+tile.chisel.boneBlock.name=骨块
+tile.chisel.calciteBlock.name=方解石
+tile.chisel.flintBlock.name=燧石块
+tile.chisel.sunstoneBlock.name=Sunstone
+tile.chisel.moonstoneBlock.name=月长石
+tile.chisel.sunstoneBlock.name=日长石
+tile.chisel.entwineBlock.name=珠光末影
+tile.chisel.oracleBlock.name=灵能石
+tile.chisel.algalBlock.name=藻石
+tile.chisel.cerebralBlock.name=脑纹石
+tile.chisel.nether_brassBlock.name=下界黄铜
+tile.chisel.esoterrackBlock.name=秘纹岩
+tile.chisel.wardstoneBlock.name=结界石
+tile.chisel.olivestoneBlock.name=纯橄榄岩
+tile.chisel.visceraBlock.name=内脏块
+tile.chisel.abyssalineBlock.name=深渊石
+tile.chisel.hadalineBlock.name=超深渊石
+
+tile.bone_block.0.desc=建筑师骨块
+tile.bone_block.1.desc=骨砖
+tile.bone_block.2.desc=骨柱
+tile.bone_block.3.desc=头骨纹
+tile.bone_block.4.desc=凋灵骨块
+tile.bone_block.5.desc=凋灵骨砖
+tile.bone_block.6.desc=凋灵骨柱
+tile.bone_block.7.desc=凋灵头骨纹
+tile.bone_block.8.desc=邪恶又吓人的发光凋灵头骨纹
+tile.bone_block.9.desc=现代式骨块
+
+tile.calcite.0.desc=方解石砖
+tile.calcite.1.desc=方解石柱
+tile.calcite.2.desc=錾制方解石
+
+tile.flint.0.desc=燧石块
+tile.flint.1.desc=錾制燧石
+tile.flint.2.desc=燧石柱
+tile.flint.3.desc=燧石地砖
+tile.flint.4.desc=光滑燧石块
+
+tile.sunstone.0.desc=日耀金属
+tile.sunstone.1.desc=日耀金属柱
+tile.sunstone.2.desc=錾制日耀金属
+tile.sunstone.3.desc=熄光日长石
+tile.sunstone.4.desc=耀阳日长石
+tile.sunstone.5.desc=日蚀日长石
+
+tile.moonstone.0.desc=月长石（新月）
+tile.moonstone.1.desc=月长石（弯月）
+tile.moonstone.2.desc=月长石（满月）
+tile.moonstone.3.desc=月页岩
+tile.moonstone.4.desc=月页岩砖
+tile.moonstone.5.desc=裂纹月页岩砖
+tile.moonstone.6.desc=月页岩铺石
+tile.moonstone.7.desc=錾制月长石
+tile.moonstone.8.desc=镶边月长石
+tile.moonstone.9.desc=陨坑月页岩
+tile.moonstone.10.desc=星云石
+tile.moonstone.11.desc=磨制星云石
+
+tile.entwine.0.desc=末影珍珠块
+tile.entwine.1.desc=珠光末影块
+tile.entwine.2.desc=錾制珠光末影块
+tile.entwine.3.desc=珠光末影柱
+
+tile.oracle.0.desc=灵能石块
+tile.oracle.1.desc=带框灵能石块
+tile.oracle.2.desc=灵能石砖
+tile.oracle.3.desc=暗色灵能石砖
+tile.oracle.4.desc=灵能石柱
+tile.oracle.5.desc=灵能石地砖
+
+tile.algal.0.desc=藻石砖
+tile.algal.1.desc=錾制藻石砖
+tile.algal.2.desc=裂纹藻石砖
+tile.algal.3.desc=覆藻石砖
+
+tile.cerebral.0.desc=脑纹石
+tile.cerebral.1.desc=额叶地砖
+tile.cerebral.2.desc=顶叶地砖
+tile.cerebral.3.desc=颞叶地砖
+tile.cerebral.4.desc=枕叶柱
+
+tile.nether_brass.0.desc=下界黄铜
+tile.nether_brass.1.desc=切制下界黄铜
+tile.nether_brass.2.desc=下界黄铜柱
+tile.nether_brass.3.desc=板纹下界黄铜
+tile.nether_brass.4.desc=光滑下界黄铜
+
+tile.esoterrack.0.desc=秘纹岩
+tile.esoterrack.1.desc=秘纹岩砖
+tile.esoterrack.2.desc=秘纹岩柱
+tile.esoterrack.3.desc=异纹秘纹岩
+
+tile.wardstone.0.desc=结界石
+tile.wardstone.1.desc=结界石砖
+tile.wardstone.2.desc=结界石柱
+tile.wardstone.3.desc=板纹结界石
+tile.wardstone.4.desc=錾制结界石
+tile.wardstone.5.desc=结界圆纹
+
+tile.olivestone.0.desc=錾制纯橄榄岩
+tile.olivestone.1.desc=裂纹纯橄榄岩砖
+tile.olivestone.2.desc=裂纹纯橄榄岩地砖
+tile.olivestone.3.desc=饰金纯橄榄岩
+tile.olivestone.4.desc=纯橄榄岩砖
+tile.olivestone.5.desc=纯橄榄岩柱
+tile.olivestone.6.desc=纯橄榄岩地砖
+tile.olivestone.7.desc=蛇纹石化纯橄榄岩
+
+tile.viscera.0.desc=肠脏块
+tile.viscera.1.desc=腐肉块
+tile.viscera.2.desc=鲑鱼原木
+tile.viscera.3.desc=鳕鱼原木
+
+tile.abyssaline.0.desc=深渊石砖
+tile.abyssaline.1.desc=充能深渊石砖
+tile.abyssaline.2.desc=深渊石柱
+tile.abyssaline.3.desc=充能深渊石柱
+tile.abyssaline.4.desc=人字纹深渊石
+tile.abyssaline.5.desc=充能人字纹深渊石
+tile.abyssaline.6.desc=深渊石地砖
+tile.abyssaline.7.desc=充能深渊石地砖
+tile.abyssaline.8.desc=深渊石覆板
+tile.abyssaline.9.desc=充能深渊石覆板
+tile.abyssaline.10.desc=錾制深渊石砖
+
+tile.hadaline.0.desc=超深渊石砖
+tile.hadaline.1.desc=充能超深渊石砖
+tile.hadaline.2.desc=超深渊石柱
+tile.hadaline.3.desc=充能超深渊石柱
+tile.hadaline.4.desc=人字纹超深渊石
+tile.hadaline.5.desc=充能人字纹超深渊石
+tile.hadaline.6.desc=超深渊石地砖
+tile.hadaline.7.desc=充能超深渊石地砖
+tile.hadaline.8.desc=超深渊石覆板
+tile.hadaline.9.desc=充能超深渊石覆板
+tile.hadaline.10.desc=錾制超深渊石砖

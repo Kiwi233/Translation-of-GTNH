@@ -16,36 +16,36 @@ date: 2026-05-27
   <ImportStructure src="../assets/reworks/cutting.snbt"/>
 </GameScene>
 
-<Color id="GREEN">工业切割机（ICF）</Color>是一台IV等级多方块结构，用于切割杆、晶圆、方块等材料。<Color id="GREEN">ICF</Color>是单体切割机的直接升级，因为它的运行速度最高可达<Color id="BLUE">450%</Color>，EU/t消耗最低只需正常所需的<Color id="RED">60%</Color>，且每级电压最多提供 <Color id="GREEN">6</Color> 条并行（随电压等级线性增加）。具体加成和能源仓的最高等级取决于控制器中锯片的等级。只需一把锯片，且全部四个等级均无耐久限制——它们是升级机器的一次性投入。超时空金属（Transcendent Metal）锯片<ItemImage id="gregtech:gt.metaitem.01:32105"/>最为强力，可解锁使用一个多A能源仓代替普通能源仓的能力。应在<Color id="GREEN">ICF</Color>上启用输入隔离，以便在同一台机器内使用不同的编程电路和/或非消耗品。
+<Color id="GREEN">工业切割机（ICF）</Color> 是一台 IV 级多方块，用于切割杆、晶圆、方块等材料。它可以视作单方块切割机的直接升级版，因为它最高可达 <Color id="BLUE">450%</Color> 速度、最低只需原本 <Color id="RED">60%</Color> 的 EU/t，并且最多可提供 <Color id="GREEN">6</Color> 并行。具体加成，以及可安装的最高能源仓等级，都取决于控制器内所放置的锯片等级。整机只需要一把锯片，而四个等级的锯片都拥有无限耐久，因此升级机器只是一笔一次性成本。<Color id="GREEN">超时空金属锯片</Color> <ItemImage id="gregtech:gt.metaitem.01:32105"/> 是最强等级，并会解锁“可使用一个多安能源仓”的特殊能力。若你想在同一台 <Color id="GREEN">ICF</Color> 里同时跑不同编程电路和/或其他不消耗工具，建议启用输入隔离。
 <br clear="all"/>
 
 > [!NOTE]
-> 除结构本身外，该多方块结构还进行了以下改动：
-> - 并行：现在与电压等级无关，而是取决于所用的锯片（最高6，之前为4）
-> - 速度：同样取决于锯片（最高450%，之前为300%）
-> - 耗电：同样取决于锯片（最低60%，之前为75%）
+> 这台多方块除结构本身外，还有如下改动：
+> - 并行：现在不再与电压等级绑定，而是与所用锯片挂钩（最高 6，并非之前的 4）
+> - 速度：同样改为由锯片决定（最高 450%，并非之前的 300%）
+> - 功耗：也改为由锯片决定（最低 60%，并非之前的 75%）
 
-## 建造
-<Color id="GREEN">ICF</Color>没有任何任意等级部件。玻璃可以是任意等级，且对机器的运行没有影响。总线/仓可以替换结构中任意位置的机械方块。<Color id="RED">激光能源仓</Color>不受支持，但可以放置多个普通能源仓用于超频。若使用超时空金属锯片，则允许放置一个<Color id="GREEN">多A能源仓</Color>。对控制器使用螺丝刀可以关闭动画。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构，并用子信道"glass"指定玻璃的等级。
+## 搭建
+<Color id="GREEN">ICF</Color> 没有分级结构部件。玻璃可以使用任意等级，且不会影响机器运行。总线与仓室可以替换结构中的任意机械方块。<Color id="RED">不支持激光靶仓</Color>，但允许安装多个普通能源仓来进行超频。若使用 <Color id="GREEN">超时空金属锯片</Color>，则允许安装 <Color id="GREEN">一个</Color> 多安能源仓。使用螺丝刀右键控制器可关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，其中子信道 `glass` 用于指定玻璃等级。
 
-### 所需材料：
-- 1 <ItemLink id="gregtech:gt.blockmachines:15540"/><ItemImage id="gregtech:gt.blockmachines:15540"/>
-- 10-30 <ItemLink id="miscutils:gtplusplus.blockcasings.2:13"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:13"/>
-- 18 <ItemLink id="miscutils:blockFrameGtTantalumCarbide"/><ItemImage id="miscutils:blockFrameGtTantalumCarbide"/>
-- 13 <ItemLink id="gregtech:gt.sheetmetal:334"/><ItemImage id="gregtech:gt.sheetmetal:334"/>
-- 1+ 能源仓（任意框架，等级受锯片限制）<ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 维护仓（任意框架）<ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 消声仓（任意框架）<ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ 输入总线（任意框架）<ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ 输入仓（任意框架）<ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ 输出总线（任意框架）<ItemImage id="gregtech:gt.blockmachines:80" />
+### 需要：
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:15540"/><ItemImage id="gregtech:gt.blockmachines:15540"/>
+- 10-30 个 <ItemLink id="miscutils:gtplusplus.blockcasings.2:13"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:13"/>
+- 18 个 <ItemLink id="miscutils:blockFrameGtTantalumCarbide"/><ItemImage id="miscutils:blockFrameGtTantalumCarbide"/>
+- 13 个 <ItemLink id="gregtech:gt.sheetmetal:334"/><ItemImage id="gregtech:gt.sheetmetal:334"/>
+- 1+ 个能源仓（任意框架位置，最高等级受锯片限制） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 个维护仓（任意框架位置） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 个消声仓（任意框架位置） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 个输入总线（任意框架位置） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 个输入仓（任意框架位置） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 个输出总线（任意框架位置） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 共用墙壁
-<Color id="GREEN">ICF</Color>的每一面均可与其他机器共用墙壁，以节省机械方块、框架箱、玻璃和总线/仓。没有任何配方的耗电超过1A，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
+### 共墙
+<Color id="GREEN">ICF</Color> 的每个侧面都可以共墙，以节省机械方块、框架箱、玻璃和仓室。由于没有任何配方的单次耗电会超过 1A，所以理论上可以让 <u>__两__</u> 台机器共用 <u>__一个__</u> 能源仓。
 
-## 用途
-<Color id="GREEN">ICF</Color>是单体切割机的直接升级，因为它的运行速度最高可达450%，EU/t消耗最低只需正常所需的60%，且每级电压最多提供 6 条并行（随电压等级线性增加）。具体加成和能源仓的最高等级取决于控制器中锯片的等级。
+## 使用
+<Color id="GREEN">ICF</Color> 是单方块切割机的直接升级版，因为它最高可达 450% 速度、最低只需原本 60% 的 EU/t，并且最多可提供 6 并行。具体加成，以及可安装的最高能源仓等级，都取决于控制器内锯片的等级。
 
-要在<Color id="GREEN">ICF</Color>中运行任何配方，控制器内必须装有锯片。全部四个等级均无耐久限制——它们是升级机器的一次性投入。在控制器中叠加多把锯片对机器的运行没有影响。超时空金属锯片最为强力，可解锁使用一个多A能源仓代替普通能源仓的能力。
+想让 <Color id="GREEN">ICF</Color> 运行任何配方，控制器里都必须放入一把锯片。所有四个等级的锯片都拥有无限耐久，因此它们只是升级机器的一次性投入。在控制器里叠放多把锯片不会带来任何额外效果。<Color id="GREEN">超时空金属锯片</Color> 是最强等级，并会解锁“可使用一个多安能源仓”的特殊能力。
 
-应在<Color id="GREEN">ICF</Color>上启用输入隔离，以防不同输入总线中的固体原料被用于同一个配方，包括任何编程电路或切削器刀刃。这意味着一台配备多个输入总线的<Color id="GREEN">ICF</Color>可以同时支持多种不同的编程电路。只是别忘了，切割机框架的数量必须保持在最低要求之上。无论是否启用输入隔离，流体原料都会被共享，除非输入仓被染色。
+建议在 <Color id="GREEN">ICF</Color> 上启用输入隔离，以防止不同输入总线中的 <Color id="GREEN">固体</Color> 原料被混用到同一张配方里，包括各种编程电路和切片机刀片。这意味着一台拥有多个输入总线的 <Color id="GREEN">ICF</Color>，可以同时支持多种不同编程电路的配方。只要别忘了保持高于切割机框架的最低需求数即可。至于 <Color id="GREEN">流体</Color> 原料，则无论是否启用输入隔离，默认都会共享；除非你给输入仓染色。

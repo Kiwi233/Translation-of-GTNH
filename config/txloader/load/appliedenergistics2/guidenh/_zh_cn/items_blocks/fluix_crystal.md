@@ -13,14 +13,14 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:7" scale="4" />
 
-*“福鲁伊克斯水晶具有独特的吸收和转换能量的能力，是所有物质能源技术的基石”*
+*“福鲁伊克斯水晶具有吸收并转换能量形态的独特能力，也因此是所有物质能量科技的基石之所在”*
 
-福鲁伊克斯水晶是AE2方块、[设备](../ae2_mechanics/devices.md)和物品的主要原料之一。通过将下界石英、红石和<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />（充能赛特斯石英水晶）投入水中制成。
+福鲁伊克斯水晶是AE2方块、[设备](../ae2_mechanics/devices.md)、物品的基础合成材料之一。通过将下界石英、红石、<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />投入水中制得。
 
-可使用<ItemLink id="appliedenergistics2:item.ItemMultiPart:320" />（成型面板）和<ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />（破坏面板）实现[自动化](../tricks_example/throw_in_water_automation.md)。
+它可用<ItemLink id="appliedenergistics2:item.ItemMultiPart:320" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />[自动化](../tricks_example/throw_in_water_automation.md)。
 
 ## 配方
 
-<Recipe id="appliedenergistics2:item.ItemMultiMaterial:7" handlerId="NEIWorldCrafting" />
-
-
+<Row>
+  <Recipe id="appliedenergistics2:item.ItemMultiMaterial:7" handlerId="NEIWorldCrafting" />
+</Row>

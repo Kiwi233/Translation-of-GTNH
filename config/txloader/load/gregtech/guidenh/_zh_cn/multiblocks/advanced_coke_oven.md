@@ -1,8 +1,8 @@
 ---
 item_ids:
   - Railcraft:machine.alpha:12
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAMHw==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAMHw=="}
 navigation:
   title: Advanced Coke Oven
   parent: ./multiblocks_index.md

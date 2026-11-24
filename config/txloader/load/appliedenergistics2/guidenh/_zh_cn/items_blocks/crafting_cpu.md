@@ -43,25 +43,25 @@ item_ids:
   <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit:0" scale="4" />
 </Row>
 
-合成CPU负责管理合成请求与合成任务。在多步合成任务进行期间，它们会存储中间产物，并影响任务的最大规模，也在一定程度上影响任务的完成速度。更多细节参见[自动合成](../ae2_mechanics/autocrafting.md)。
+合成CPU管理合成请求与合成任务。它们会在执行多步骤合成任务时将中间产物存于自身，并影响合成任务的大小上限，某种程度上也会影响这些任务的完成速度。详细信息见[自动合成](../ae2_mechanics/autocrafting.md)。
 
-右键点击合成CPU可打开合成状态界面，查看其当前正在执行任务的进度。
+右击合成CPU会打开合成状态UI，可在此检查CPU正在处理的合成任务进度。
 
 ## 设置
 
-*   合成CPU可以配置为只接受玩家请求、只接受自动化请求（例如带有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />的<ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />），或两者兼有。
+*   合成CPU可设置为仅接受玩家请求，仅接受自动化系统请求（如装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />的<ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />），或两者均接受。
 
-## 构造规则
+## 建造
 
-合成CPU是多方块结构，必须构建为没有空隙的实心长方体。它们由若干组件构成。
+合成CPU是多方块结构，且必须为没有空隙的实心长方形棱柱。它们由若干组件组成。
 
-每个CPU必须包含至少一个合成存储器方块；最小的有效CPU就是一个单独的1k合成存储器方块。
+每个CPU必须包含至少1个合成存储器（可用的最小CPU实际上就是单个1k合成存储器）。
 
 # 合成单元
 
 <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit" scale="4" />
 
-（可选）合成单元用于填充CPU中的空间，使结构在其他组件不足时仍保持为实心长方体。它们也是其他组件的合成原料。
+（可选）合成单元仅用于填充CPU内空隙，以保证CPU的形状是实心长方形棱柱。没有其他组件时可用此填补。它们也是其他组件的合成材料。
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingUnit" />
 
@@ -85,7 +85,7 @@ item_ids:
   <BlockImage id="appliedenergistics2:tile.BlockAdvancedCraftingStorage:3" scale="4" />
 </Row>
 
-（必需）合成存储器提供1k、4k、16k、64k和256k全部标准存储容量。它存储合成任务的原料与中间产物，因此原料更多的任务需要更大或更多的存储方块。
+（必需）合成存储器支持所有标准元件大小（1k、4k、16k、64k、256k）。它们会将与合成相关的材料和中间材料存于自身，因此处理所需材料更多的合成任务需要更大的或更多个合成存储器。
 
 <Column>
   <Row>
@@ -109,13 +109,13 @@ item_ids:
   </Row>
 </Column>
 
-# 合成协处理器单元
+# 并行处理单元
 
 <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit:1" scale="4" />
 
-（可选）合成协处理器单元可提升CPU的运行速率，使系统能够更频繁地从<ItemLink id="appliedenergistics2:tile.BlockInterface" />发送原料批次，从而跟上高速机器的处理速度。例如，当被多个<ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />环绕的接口发送批次的速度快于单个装配室的处理速度时，它会把批次分配给多个装配室。
+（可选）并行处理单元通过提升CPU运转速度让系统从<ItemLink id="appliedenergistics2:tile.BlockInterface" />更为频繁地发送材料批次，以使系统跟上处理速度较快的机器。例如，被<ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />包围的ME接口送出材料的速度快于单个装配室的加工速度时，其会将材料批次在各装配室间分配。
 
-有些复杂配方包含可以并行执行的多个步骤，例如为书架同时制作木板和书本。在合成状态界面（右键点击CPU，或在[终端](terminals.md)中点击锻造锤图标打开）中，这些步骤显示为“scheduled”。每个协处理器单元可以让一个额外的此类步骤并行运行，此时它显示为“crafting”。实际上，添加协处理器单元通常是为了提高批次插入速度，而不是为了增加并行配方步骤的数量。
+某些复杂配方可能包含多个可并行进行的步骤，比如制造书架时并行制造木板和书。在合成状态UI（右击CPU或右击[终端](terminals.md)的锤子图标）中，这些步骤都显示为“计划合成”。每个并行处理单元都可额外使一个上述步骤并行进行（也即显示为“正在合成”）。不过，这点通常不那么重要，因为加入大量并行处理单元的原因通常是为提升发送速度，而非增加加工配方的并行数量。
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingUnit:1" />
 
@@ -123,6 +123,6 @@ item_ids:
 
 <BlockImage id="appliedenergistics2:tile.BlockCraftingMonitor" scale="4" />
 
-（可选）合成监控器显示其所在CPU当前正在处理的任务。它的屏幕可以用<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />染色。
+（可选）合成监控器会显示CPU当前正在处理的任务。其屏幕可用<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />染色。
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingMonitor" />

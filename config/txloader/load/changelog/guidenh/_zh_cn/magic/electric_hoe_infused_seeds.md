@@ -10,4 +10,6 @@ author: koolkrafter5
 date: 2026-06-11
 ---
 
-<ItemLink id="EMT:ElectricHoeGrowth"/> <ItemImage id="EMT:ElectricHoeGrowth:0:{charge:200000.0d}"/>现在可以对<ItemLink id="ThaumicTinkerer:infusedSeeds"/> <ItemImage id="ThaumicTinkerer:infusedSeeds"/>施加<Color id="GREEN">生长加速</Color>效果了，就像普通的<ItemLink id="Thaumcraft:ItemHoeElemental"/> <ItemImage id="Thaumcraft:ItemHoeElemental"/>一样！
+# 成长电锄兼容蕴魔种子
+
+<ItemLink id="EMT:ElectricHoeGrowth"/> <ItemImage id="EMT:ElectricHoeGrowth:0:{charge:200000.0d}"/> 现在也可以 <Color id="GREEN">加速</Color> <ItemLink id="ThaumicTinkerer:infusedSeeds"/> <ItemImage id="ThaumicTinkerer:infusedSeeds"/> 的生长了，和普通的 <ItemLink id="Thaumcraft:ItemHoeElemental"/> <ItemImage id="Thaumcraft:ItemHoeElemental"/> 一样。

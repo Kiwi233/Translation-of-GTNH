@@ -16,134 +16,134 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15524"/>
 </GameScene>
-<Color id="GREEN">大型蒸汽涡轮（Large Steam Turbine，LST）</Color>是一座以蒸汽发电的高压（HV）等级多方块结构。<Color id="GREEN">LST</Color>是单方块蒸汽轮机的直接升级，因为它最多可输出 4A 电力，而且效率高得多。但是，机器运行需要在控制器内放入转子，蒸汽的输入速率必须仔细调控，并且机器至少要运行 50 秒才能完全预热。转子有四种不同尺寸和多种不同材料，每种都有各自的效率加成和最佳流量（L/t）。电力通过结构背面的 4A 动力仓输出，同时蒸汽在输出仓中冷凝为蒸馏水。机器运行期间拆掉动力仓会引发爆炸。用 RS 锁存器连接兰波顿超级电容库 <ItemImage id="gregtech:gt.blockmachines:13106"/>，自动开关<Color id="GREEN">LST</Color>，可以节省燃料。
+<Color id="GREEN">大型蒸汽涡轮（LST）</Color> 是一台 HV 级多方块，用于把蒸汽转化为电力。<Color id="GREEN">LST</Color> 是单方块蒸汽涡轮的直接升级版，因为它最多可输出 4A 电流，且效率高得多。不过，机器必须先在控制器内部装入一枚涡轮转子才能运行，蒸汽输入速率也需要精确控制，而且至少要连续运转 50 秒才能完全热机。涡轮共有 4 种尺寸、许多不同材料，每种都会决定各自的效率加成与最佳流量（L/t）。机器会从结构背面的 4A 动力仓输出电力，同时在输出仓中把蒸汽冷凝成蒸馏水。若在机器运行时拆掉动力仓，整台机器会直接爆炸。为了节约燃料，强烈建议把 <Color id="GREEN">LST</Color> 接到一个与 <Color id="GREEN">兰波顿超级电容库</Color> <ItemImage id="gregtech:gt.blockmachines:13106"/> 相连的 RS 锁存器上，实现自动启停。
 
-<Color id="RED">大型高压蒸汽涡轮（Large HP Steam Turbine，LST-HP）</Color> <ItemImage id="gregtech:gt.blockmachines:15525"/>与<Color id="BLUE">大型超临界蒸汽涡轮（Large SC Steam Turbine，LST-SC）</Color> <ItemImage id="gregtech:gt.blockmachines:15526"/>与 LST 几乎完全相同，区别仅在于它们分别只处理过热蒸汽和超临界蒸汽。在相同最佳流量下，超临界蒸汽产生的 EU 是普通蒸汽的两倍，并会变为过热蒸汽；过热蒸汽产生的 EU 是普通蒸汽的两倍，并会变为普通蒸汽。
+<Color id="RED">大型高压蒸汽涡轮（LST-HP）</Color> <ItemImage id="gregtech:gt.blockmachines:15525"/> 与 <Color id="BLUE">大型超临界蒸汽涡轮（LST-SC）</Color> <ItemImage id="gregtech:gt.blockmachines:15526"/> 与普通 <Color id="GREEN">LST</Color> 基本相同，只是它们分别只能处理 <Color id="RED">过热蒸汽</Color> 与 <Color id="BLUE">超临界蒸汽</Color>。在相同最佳流量下，超临界蒸汽的发电量是普通蒸汽的 2 倍，且会转化为过热蒸汽；过热蒸汽的发电量同样是普通蒸汽的 2 倍，且会转化为普通蒸汽。
 
-[GTNH 电力规划器](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
+[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 
-<Color id="GREEN">LST</Color>已被[特大蒸汽涡轮](./xl_turbo_steam.md)取代，后者的蒸汽消耗与电力产出相当于 16 台<Color id="GREEN">LST</Color>，却只需 12 个转子。它还支持<Color id="GREEN">多A能源仓与激光能源仓</Color>以实现强力发电，并提供高压（HP）与超临界（SC）版本。
+<Color id="GREEN">LST</Color> 后续会被 [特大蒸汽涡轮](./xl_turbo_steam.md) 取代。后者只需 12 枚涡轮，就能处理 16 台 <Color id="GREEN">LST</Color> 的蒸汽并输出同等规模的电力，而且还支持多安动力仓和激光源仓，适合严肃的大规模发电；同时也有高压与超临界变体。
 <br clear="all"/>
 
 > [!NOTE]
-> 仅结构有所改动；其余机制均保持不变
+> 这台多方块除了结构以外，其余机制与旧版保持一致
 
-## 建造
-<Color id="GREEN">LST</Color>没有带等级限制的组件。维护仓、输入仓和输出仓可替换结构后半部分的任意涡轮机械方块。动力仓只能放在结构最背部中央的机械方块上，且不能大于 4A。本结构没有消声仓，请不要加入。控制器正前方的 9 个方块必须是空气。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
+## 搭建
+<Color id="GREEN">LST</Color> 没有分级结构部件。维护仓、输入仓与输出仓都可以替换结构后半部分的任意一块涡轮机械方块。动力仓只能放在结构最背面正中央那一格，而且不能超过 4A。<Color id="RED">没有消声仓</Color>，所以不要额外安装。控制器正前方连续 9 格必须全部留空。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
-大型涡轮特有的部件是涡轮仓 <ItemImage id="gregtech:gt.blockmachines:31025"/>，它实质上相当于一个存放备用转子的 ULV 输入总线，当控制器内的转子损坏时会自动将其替换。该部件完全可选，且需要 UV 等级才能使用，但有助于最大化运行时间。
+大型涡轮独有的额外部件是 <Color id="GREEN">涡轮仓</Color> <ItemImage id="gregtech:gt.blockmachines:31025"/>。它本质上相当于一个 ULV 输入总线，可以额外存放一枚备用涡轮转子；当控制器里的转子损坏时，它会自动补位。这个部件完全可选，而且要到 UV 才解锁，但能显著延长连续无人值守运行的时间。
 
-### 所需材料：
-- 1 大型蒸汽涡轮（对应类型） <ItemImage id="gregtech:gt.blockmachines:15524"/>
-- 14 铅青铜框架（按转子类型） <ItemImage id="gregtech:gt.blockframes:32"/>
-- 8-14 涡轮机械方块（按转子类型） <ItemImage id="gregtech:gt.blockframes:32"/>
-- 12 管道方块（按转子类型） <ItemImage id="gregtech:gt.blockcasings2:13"/>
-- 1 动力仓（背部中央涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:30"/>
-- 1 维护仓（背面任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
-- 0+ <ItemLink id="gregtech:gt.blockmachines:31025"/><ItemImage id="gregtech:gt.blockmachines:31025"/>
-- 0+ 输入仓（背面任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ 输出仓（背面任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:60" />
+### 需要：
+- 1 个大型蒸汽涡轮控制器（对应具体类型） <ItemImage id="gregtech:gt.blockmachines:15524"/>
+- 14 个框架方块（随涡轮类型变化） <ItemImage id="gregtech:gt.blockframes:32"/>
+- 8-14 个涡轮机械方块（随涡轮类型变化） <ItemImage id="gregtech:gt.blockframes:32"/>
+- 12 个管道方块（随涡轮类型变化） <ItemImage id="gregtech:gt.blockcasings2:13"/>
+- 1 个动力仓（背面中央涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:30"/>
+- 1 个维护仓（任意背部涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 0+ 个 <ItemLink id="gregtech:gt.blockmachines:31025"/><ItemImage id="gregtech:gt.blockmachines:31025"/>
+- 0+ 个输入仓（任意背部涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 个输出仓（任意背部涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### 共用墙壁
-多台<Color id="GREEN">LST</Color>的每一面都可以彼此共用墙壁，以节省机械方块、铅青铜框架和总线/仓。但是，切勿共用输入仓，因为燃料不会在各<Color id="GREEN">LST</Color>之间平均分配——一台会耗尽全部燃料，另一台则什么也得不到。何况仓位置的限制本身就让这样做很难实现。
+### 共墙
+<Color id="GREEN">LST</Color> 的每个侧面都可以共墙，以节省机械方块、框架和仓室。但 <u>__不要__</u> 共用输入仓，因为燃料并不会在两台 <Color id="GREEN">LST</Color> 之间平均分配，而是会被其中一台整口吞完，另一台什么都吃不到。好在仓室位置限制本来就让这种布局不太容易实现。
 
 ----------
 
-## 用法
-<Color id="GREEN">LST</Color>有两种运行模式，如下所列；两者的量化差异请参见页面顶部链接的规划器。前者更适合蒸汽产量较低的游戏前期与中期，后者更适合电力输出比效率更重要的游戏后期。用螺丝刀对控制器使用即可切换模式。
+## 使用
+<Color id="GREEN">LST</Color> 有 2 种工作模式，如下所示；若想看精确数值差异，请直接参考上方链接的规划表。前者更适合前中期蒸汽产量不足时保效率，后者则更适合后期为了追求更高输出而牺牲效率。使用螺丝刀右键控制器即可切换模式。
 
-- 紧模式 - 高效率，低最佳流量（功率）。
-- 松模式 - 低效率，高最佳流量（功率）。
+- 紧配模式：高效率，低最佳流量（低功率）。
+- 松配模式：低效率，高最佳流量（高功率）。
 
-<Color id="GREEN">LST</Color>运行时转速线性上升至 100%，停机时则回落至 0%。转速与机器的电力输出成正比，而且无论转子尺寸/材料如何，都需要 50 秒才能达到最大值。当<Color id="GREEN">LST</Color>被停用、转子被取出、结构被破坏或燃料耗尽时，转速会极快衰减。对控制器使用便携式扫描仪 <ItemImage id="gregtech:gt.metaitem.01:32762"/>，或查看 WAILA 中显示的“efficiency”（效率）数值，即可查看转子当前转速。
+<Color id="GREEN">LST</Color> 的转速会在运行时线性爬升到 100%，停机后又线性回落到 0%。机器发电量与转速直接正相关，而无论使用哪种尺寸或材料的涡轮，都需要整整 50 秒才能热到满速。只要机器被关闭、转子被取出、结构损坏或燃料耗尽，转速都会极快衰减。你可以用 <Color id="GREEN">便携式扫描仪</Color> <ItemImage id="gregtech:gt.metaitem.01:32762"/> 扫描控制器，或直接查看 WAILA 提示中的效率值，来确认当前转速。
 
 ## 最佳流量
-蒸汽进入<Color id="GREEN">LST</Color>的速率（L/t）极其重要。蒸汽太少，只能发出潜在电力的一小部分；蒸汽太多，则会浪费大量燃料。理想情况下，蒸汽应以转子的最佳流量进入<Color id="GREEN">LST</Color>，该流量随尺寸/材料和机器运行模式而有显著变化。最佳流量（$$\dot{m}^*$$，单位 L/t）虽然可以在 NEI 中查看，但也由以下公式计算：其中 $$k$$ 是与每种材料相关的乘数，size 是 1（小型）到 4（巨型）之间的常数，$$\eta_0$$ 是转子的<u>基础</u>效率。
+进入 <Color id="GREEN">LST</Color> 的蒸汽流量（L/t）极其重要。流量太低，只会打出机器潜在输出的一小部分；流量太高，则会白白浪费大量燃料。理想情况下，蒸汽应当按涡轮的最佳流量进入，而这一数值会随着尺寸、材料和当前工作模式大幅变化。虽然可以直接在 NEI 中查看，但最佳流量（$$\dot{m}^*$$）的计算式如下，其中 $$k$$ 为材料倍率，$$\text{尺寸}$$ 为 1 到 4 的尺寸常数（小到巨型），$$\eta_0$$ 为涡轮的<u>基础</u>效率。
 
-<Latex formula="\dot{m}^* (\text{Tight}) = k \times \text{size} \times 50">
-  - $$\dot{m}^*$$：最佳流量
-  - $$k$$：材料乘数
-  - $$\text{size}$$：由转子尺寸决定的常数，取值范围（1:4）
+<Latex formula="\dot{m}^* (\text{紧配}) = k \times \text{尺寸} \times 50">
+  - $$\dot{m}^*$$: 最佳流量
+  - $$k$$: 材料倍率
+  - $$\text{尺寸}$$: 基于涡轮尺寸的常数，范围 1 到 4
 </Latex>
 
-<Latex formula="\dot{m}^* (\text{Loose}) = k \times \text{size} \times 150 \times 1.1^{20(\eta_0 - 0.8)}">
-  - $$\dot{m}^*$$：最佳流量
-  - $$k$$：材料乘数
-  - $$\text{size}$$：由转子尺寸决定的常数，取值范围（1:4）
-  - $$\eta_0$$：转子基础效率
+<Latex formula="\dot{m}^* (\text{松配}) = k \times \text{尺寸} \times 150 \times 1.1^{20(\eta_0 - 0.8)}">
+  - $$\dot{m}^*$$: 最佳流量
+  - $$k$$: 材料倍率
+  - $$\text{尺寸}$$: 基于涡轮尺寸的常数，范围 1 到 4
+  - $$\eta_0$$: 基础效率
 </Latex>
 
-某些转子的最佳流量高得惊人，因为蒸汽的燃料密度极低，只有 0.5 EU/L，尤其是当<Color id="GREEN">LST</Color>处于松模式时。玩家可能需要升级流体校准器，或者加装第二个输入仓来满足更高的需求。最终可能有必要改用 AE2 流体 P2P 通道 <ItemImage id="appliedenergistics2:item.ItemMultiPart:463"/>，它们实际上没有传输上限，也不用考虑温度或热容。
+有些涡轮的最佳流量会高得离谱，因为蒸汽的燃料能量密度只有 0.5 EU/L，尤其在松配模式下更是如此。玩家可能需要升级流体校准器，或额外再加一个输入仓，才能真正喂满机器。再往后，通常就得切换到 AE2 的流体 P2P 隧道 <ItemImage id="appliedenergistics2:item.ItemMultiPart:463"/>，因为它基本没有传递上限，也不用管温度或热容问题。
 
-## 电力与溢流
-<Color id="GREEN">LST</Color>产生的电力取决于当前流量（$$\dot{m}$$）、最佳流量（$$\dot{m}^*$$）以及转子的效率（$$\eta$$）。超过最佳流量可以产生额外电力，但收益递减，具体取决于转子的溢流等级（$$T$$）。溢流等级总共有三级，且严格取决于转子材料。更高的溢流等级还会提高最大流量（$$\dot{m}_{max}$$）。转子的溢流等级可在 NEI 中查看，机器当前电力输出可在 WAILA 中查看。
+## 功率与溢流
+<Color id="GREEN">LST</Color> 的发电量取决于当前流量（$$\dot{m}$$）、最佳流量（$$\dot{m}^*$$）和涡轮效率（$$\eta$$）。当流量超过最佳值后，虽然还能继续提高发电量，但收益会依据涡轮的溢流等级（$$T$$）递减。总共只有 3 种溢流等级，并且完全由涡轮材料决定。更高的溢流等级也会提高最大允许流量（$$\dot{m}_{max}$$）。你可以通过 NEI 查看某枚涡轮的溢流等级，也可以通过 WAILA 提示直接查看机器当前发电量。
 
-电力通过结构背面的 4A 动力仓输出。机器运行期间请勿拆掉动力仓，否则<Color id="GREEN">LST</Color>会爆炸。即使超过最大 EU/t，或超出动力仓缓存中的总 EU，也完全安全；即便所连接的电池缓冲或兰波顿超级电容库（LSC）<ItemImage id="gregtech:gt.blockmachines:13106"/>已满、EU 无处可去，<Color id="GREEN">LST</Color>也不会爆炸，多余的 EU 只会被直接销毁。强烈建议使用红石 RS 锁存器自动开关<Color id="GREEN">LST</Color>，以免浪费燃料。
+机器会从结构背面的 4A 动力仓输出电力。若在运行时拆掉动力仓，<Color id="GREEN">LST</Color> 会直接爆炸。但无论是超过动力仓单次 EU/t 上限，还是塞爆其内部缓存，都是 <u>__安全__</u> 的；如果外接的电池缓存或 <Color id="GREEN">兰波顿超级电容库</Color>（LSC）已经满了，没有地方再接收电力，多出来的 EU 只会被直接吞掉，不会导致机器爆炸。为了避免白烧燃料，强烈建议用红石 RS 锁存器自动启停 <Color id="GREEN">LST</Color>。
 
 ### 大型蒸汽涡轮：
 <Latex formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times 0.5 \times \eta">
-  - $$\dot{m}$$：当前流量
-  - $$\dot{m}^*$$：最佳流量
-  - $$\eta$$：效率
+  - $$\dot{m}$$: 当前流量
+  - $$\dot{m}^*$$: 最佳流量
+  - $$\eta$$: 效率
 </Latex>
 <Latex formula="\text{EU/t} (> \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^* \times (T+1)} \Biggr) \times 0.5 \times \eta">
-  - $$\dot{m}$$：当前流量
-  - $$\dot{m}^*$$：最佳流量
-  - $$\eta$$：效率
-  - $$T$$：溢流等级
+  - $$\dot{m}$$: 当前流量
+  - $$\dot{m}^*$$: 最佳流量
+  - $$\eta$$: 效率
+  - $$T$$: 溢流等级
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (0.5T + 1)">
-  - $$\dot{m}$$：当前流量
-  - $$\dot{m}_{max}$$：最大流量
+  - $$\dot{m}$$: 当前流量
+  - $$\dot{m}_{max}$$: 最大流量
   - $$T$$ 溢流等级
 </Latex>
 
 ### 大型高压蒸汽涡轮：
 <Latex formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times 1.0 \times \eta">
-  - $$\dot{m}$$：当前流量
-  - $$\dot{m}^*$$：最佳流量
-  - $$\eta$$：效率
+  - $$\dot{m}$$: 当前流量
+  - $$\dot{m}^*$$: 最佳流量
+  - $$\eta$$: 效率
 </Latex>
 <Latex formula="\text{EU/t} (> \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^* \times (T+2)} \Biggr) \times 1.0 \times \eta">
-  - $$\dot{m}$$：当前流量
-  - $$\dot{m}^*$$：最佳流量
-  - $$\eta$$：效率
-  - $$T$$：溢流等级
+  - $$\dot{m}$$: 当前流量
+  - $$\dot{m}^*$$: 最佳流量
+  - $$\eta$$: 效率
+  - $$T$$: 溢流等级
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (0.5T + 1.5)">
-  - $$\dot{m}$$：当前流量
-  - $$\dot{m}_{max}$$：最大流量
+  - $$\dot{m}$$: 当前流量
+  - $$\dot{m}_{max}$$: 最大流量
   - $$T$$ 溢流等级
 </Latex>
 
 ### 大型超临界蒸汽涡轮：
 <Latex formula="\text{EU/t} = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times 1.0 \times \eta">
-  - $$\dot{m}$$：当前流量
-  - $$\dot{m}^*$$：最佳流量
-  - $$\eta$$：效率
+  - $$\dot{m}$$: 当前流量
+  - $$\dot{m}^*$$: 最佳流量
+  - $$\eta$$: 效率
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (0.5T + 1.5)">
-  - $$\dot{m}$$：当前流量
-  - $$\dot{m}_{max}$$：最大流量
+  - $$\dot{m}$$: 当前流量
+  - $$\dot{m}_{max}$$: 最大流量
   - $$T$$ 溢流等级
 </Latex>
 
-## 转子
-机器运行必须在控制器的 GUI 内放入转子。转子有四种不同尺寸和多种不同材料，每种都有各自的效率加成与最佳流量。组合方式太多，无法在此一一列出，但顶部链接的规划器包含所有相关信息，甚至带有计算器，可用于确定任意转子搭配任意燃料时的电力输出与使用寿命。
+## 涡轮
+机器必须在控制器界面内装入一枚涡轮转子才能运行。涡轮共有 4 种尺寸和许多种材料，每种都会影响效率加成与最佳流量。排列组合实在太多，不适合在这里全部列出；上面链接的规划表已经包含全部关键数据，甚至还能直接帮你计算任意燃料搭配任意转子的输出与寿命。
 
-- 小型转子由长镁铝合金杆制成（最早在 LV 即可获得）
-- 普通转子由长钛杆制成（在 HV 末期前往月球后可用 <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>）
-- 大型转子由长钨钢杆制成（在 IV、完成钨处理线后可用）
-- 巨型转子由长镅杆制成（在 ZPM、建成核聚变反应堆 Mk-II 后可用 <ItemImage id="gregtech:gt.blockmachines:32020"/>）
+- 小型涡轮使用长马格纳铝杆制作（LV 即可做）
+- 普通涡轮使用长钛杆制作（HV 末期上月球后可做） <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>
+- 大型涡轮使用长钨钢杆制作（IV 阶段、完成钨处理线后可做）
+- 巨型涡轮使用长镅杆制作（ZPM 阶段、搭出聚变反应堆 Mk-II 后可做） <ItemImage id="gregtech:gt.blockmachines:32020"/>
 
 ## 耐久
-转子的耐久会随发电量成比例缓慢损耗。转子的总耐久取决于材料，耐久降到 0% 时会立即销毁。转子无法手动放入或取出控制器，但涡轮仓会每 60 秒检查一次控制器是否为空，并自动放入新转子。如有需要，可用螺丝刀点击收纳盒缩短该间隔，并用机器控制覆盖板重新启用<Color id="GREEN">LST</Color>。
+涡轮会按发电量缓慢损失耐久。总耐久完全取决于材料，而一旦掉到 0% 就会立刻直接损毁。涡轮不能直接自动插入或取出控制器，但涡轮仓每 60 秒会检查一次控制器是否为空，并在有需要时塞入新的转子。你可以对涡轮仓使用螺丝刀来缩短检查间隔，并通过机器控制器盖板重新启用 <Color id="GREEN">LST</Color>。
 
-以下公式可根据<Color id="GREEN">LST</Color>的当前电力输出计算转子的使用寿命（单位：小时）。注意，松模式会提供 25% 的耐久加成，以补偿更高电力输出导致的寿命缩短。转子的使用寿命通常有数百小时（或更长），因此不需要频繁更换。
+下式用于根据 <Color id="GREEN">LST</Color> 当前输出功率计算涡轮寿命（单位：小时）。需要注意的是，松配模式会额外给予 25% 的耐久补偿，以对冲更高功率带来的寿命缩短。正常情况下，涡轮往往都有数百小时甚至更长的寿命，所以并不需要频繁更换。
 
-<Latex formula="\text{Lifespan} (h) = \frac{\text{Durability}}{36 \times \text{min}(0.2 \times \text{EU/t}, (\text{EU/t})^{0.6})}"/>
+<Latex formula="\text{寿命} (h) = \frac{\text{耐久}}{36 \times \min(0.2 \times \text{EU/t}, (\text{EU/t})^{0.6})}"/>
 
-- 在松模式下，将使用寿命计算结果乘以 1.25。
+- 松配模式下，寿命结果额外乘以 1.25。

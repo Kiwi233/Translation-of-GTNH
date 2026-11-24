@@ -15,184 +15,187 @@ date: 2026-05-25
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:14050" />
 </GameScene>
-<Color id="GREEN">异星铸造塔</Color> 是一个 UEV 等级的多方块结构，用于将液态金属大规模地浇铸进模具。<Color id="GREEN">异星铸造塔</Color> 是 <ItemLink id="gregtech:gt.blockmachines:368" /> <ItemImage id="gregtech:gt.blockmachines:368" /> 的直接升级版，因为它运行速度显著更快、能耗折扣更高、并行数也多得多。具体数值会随已安装模块的数量与种类发生显著变化。总共有七种模块，每种都会为机器提供一个独特加成，但根据结构等级不同只有 2/3/4 个槽位。各模块可以互不相同，也可以相同以叠加加成。此外还有四种模块组合，可提供一次性加成以获得更佳性能。
+<Color id="GREEN">异星铸造塔</Color> 是一台 UEV 级多方块，用于把液态金属以极高规模浇铸进各类模具中。它可以视作 <ItemLink id="gregtech:gt.blockmachines:368" /> <ItemImage id="gregtech:gt.blockmachines:368" /> 的直接升级版，因为它能跑得更快、拥有更高的 EU 折扣以及更多并行。具体数值会随着安装模块的种类和数量发生很大变化。整机总共有 7 种模块可选，但根据结构等级不同，只能安装 2/3/4 个模块。模块可以彼此不同，也可以重复安装来叠加增益。此外还有 4 组固定模块搭配，会提供一次性的额外奖励。
 <br clear="all"/>
 
-## 建造：
-<Color id="GREEN">异星铸造塔</Color> 有三个等级。三者之间唯一的结构差异是磁力塔架方块，唯一的功能差异是模块槽位数量（2/3/4）。总线/仓可以替换结构中任意位置的 <Color id="GREEN">异星铸造塔</Color> 基础机械方块。最低机械方块数量要求最多可支持 25 个输入位，对应总共 35 个模具。支持 <Color id="RED">多A能源仓与激光能源仓</Color>，但若没有极冷机械方块 <ItemImage id="gregtech:gt.foundrycasings:9"/> 或日耀投射强化机械方块 <ItemImage id="gregtech:gt.foundrycasings:7" /> 模块，<Color id="GREEN">异星铸造塔</Color> 无法超频到超出能源仓的电压等级。本机器没有维护仓和消声仓。用螺丝刀右键点击控制器可关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来可视化/搭建结构，并用子信道 "chassis" 指定磁力塔架方块的等级。
+## 搭建：
+<Color id="GREEN">异星铸造塔</Color> 分为 3 个等级。三者唯一的结构区别在于中央使用的 <Color id="GREEN">磁力塔架</Color> 等级不同，而功能区别则只体现在模块槽位数量上，分别为 2/3/4 个。总线与仓室可以替换结构中任意位置的 <Color id="GREEN">异星铸造塔基础机械方块</Color>。在最低机械方块需求下，整机依然可以提供最多 25 个输入位来服务 35 个总模具位。机器支持 <Color id="RED">多安能源仓和激光靶仓</Color>，但若没有 <Color id="GREEN">超级冷却器</Color> <ItemImage id="gregtech:gt.foundrycasings:9"/> 或 <Color id="GREEN">日耀投射强化</Color> <ItemImage id="gregtech:gt.foundrycasings:7" /> 模块，就不能超频到高于能源仓本身电压等级的档位。机器不需要维护仓或消声仓。可用螺丝刀右键控制器关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构；其中子信道 `chassis` 用于指定中央磁力塔架等级。
 
-在控制器的 GUI 中选择要使用的模块，然后用多方块机器全息投影仪将其搭建出来。模块会以环绕中央立柱的圆环形式出现，其数据汇总在控制器 GUI 的“显示机器信息”下方。模块的顺序不影响机器的运行。移除模块的方法是：先在选择菜单中按住 Shift 左键点击该模块，再用 <ItemLink id="gregtech:gt.Tool_Vajra" /> <ItemImage id="gregtech:gt.Tool_Vajra" /> 或其他工具将其物理摧毁。
-### 所需方块：
-- 1 <ItemLink id="gregtech:gt.blockmachines:14050" /> <ItemImage id="gregtech:gt.blockmachines:14050" />
-- 548 <ItemLink id="gregtech:gt.blockglass1:7" /> <ItemImage id="gregtech:gt.blockglass1:7" />
-- 462-486 <ItemLink id="gregtech:gt.foundrycasings" /> <ItemImage id="gregtech:gt.foundrycasings" />
-- 281 <ItemLink id="gregtech:gt.foundrycasings:11" /> <ItemImage id="gregtech:gt.foundrycasings:11" />
-- 260 _磁力塔架（任意等级）_ <ItemImage id="gregtech:gt.foundrycasings:1" />
-- 224 <ItemLink id="gregtech:gt.blockframes:132" /> <ItemImage id="gregtech:gt.blockframes:132" />
-- 196 <ItemLink id="gregtech:gt.foundrycasings:12" /> <ItemImage id="gregtech:gt.foundrycasings:12" />
-- 173 <ItemLink id="gregtech:gt.blockcasings11:7" /><ItemImage id="gregtech:gt.blockcasings11:7" />
-- 1+ _能源仓（任意 异星铸造塔基础机械方块）_ <ItemImage id="gregtech:gt.blockmachines:40" />
-- 0+ _输入总线（任意 异星铸造塔基础机械方块）_ <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ _输入仓（任意 异星铸造塔基础机械方块）_ <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ _输出总线（任意 异星铸造塔基础机械方块）_ <ItemImage id="gregtech:gt.blockmachines:80" />
+先在控制器界面中选择要启用的模块，再使用多方块结构全息投影仪去实际搭建。模块会以圆环形式套在中央立柱周围，它们的属性摘要会显示在控制器界面的“显示机器信息”部分。模块的顺序不会影响机器运行。若想拆除模块，需要先在模块选择菜单中对其按住 Shift 左键取消选择，再用 <ItemLink id="gregtech:gt.Tool_Vajra" /> <ItemImage id="gregtech:gt.Tool_Vajra" /> 或其他工具把对应结构真正打掉。
 
-### 共用墙壁：
-各个 <Color id="GREEN">异星铸造塔</Color> 的每一侧都可以与其他多方块共用墙壁，以节省机械方块、模块部件和总线/仓。但不要共用能源仓，因为只要还有可用的并行或超频空间，机器就会尽可能多地拉取电流。
+### 需要：
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:14050" /> <ItemImage id="gregtech:gt.blockmachines:14050" />
+- 548 个 <ItemLink id="gregtech:gt.blockglass1:7" /> <ItemImage id="gregtech:gt.blockglass1:7" />
+- 462-486 个 <ItemLink id="gregtech:gt.foundrycasings" /> <ItemImage id="gregtech:gt.foundrycasings" />
+- 281 个 <ItemLink id="gregtech:gt.foundrycasings:11" /> <ItemImage id="gregtech:gt.foundrycasings:11" />
+- 260 个磁力塔架（分级） <ItemImage id="gregtech:gt.foundrycasings:1" />
+- 224 个 <ItemLink id="gregtech:gt.blockframes:132" /> <ItemImage id="gregtech:gt.blockframes:132" />
+- 196 个 <ItemLink id="gregtech:gt.foundrycasings:12" /> <ItemImage id="gregtech:gt.foundrycasings:12" />
+- 173 个 <ItemLink id="gregtech:gt.blockcasings11:7" /><ItemImage id="gregtech:gt.blockcasings11:7" />
+- 1+ 个能源仓（任意异星铸造塔基础机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 0+ 个输入总线（任意异星铸造塔基础机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 个输入仓（任意异星铸造塔基础机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 个输出总线（任意异星铸造塔基础机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
+
+### 共墙：
+多台 <Color id="GREEN">异星铸造塔</Color> 可以在四个侧面共墙，以节省机械方块、模块材料以及仓室数量。但不要共用能源仓，因为只要还有并行或超频空间，这台机器就会尽可能多地抽取电流。
 
 # 模块：
-在没有任何模块时，<Color id="GREEN">异星铸造塔</Color> 以 <Color id="RED">150%</Color> 的速度运行，且每电压等级提供 <Color id="BLUE">16</Color> 并行，如下表所示。没有日耀投射强化机械方块 <ItemImage id="gregtech:gt.foundrycasings:7" /> 模块时，它也无法运行 UIV+ 配方。与最大速度下的 <Color id="RED">大规模固化器</Color> 相比，这更慢、效率更低、限制也更多，但这些只是机器的基础数据，每安装一个模块都会显著改善。决定并行数的有效电压不像超频那样受能源仓等级上限约束，但无论安培数是多少，都必须安装多个能源仓。
+在完全不装任何模块时，<Color id="GREEN">异星铸造塔</Color> 以 <Color id="RED">150%</Color> 速度运行，并且每一级电压提供 <Color id="BLUE">16</Color> 并行，如下表所示。若没有 <Color id="GREEN">日耀投射强化</Color> <ItemImage id="gregtech:gt.foundrycasings:7" />，它也无法处理 UIV+ 配方。也就是说，裸机状态下它甚至比满状态的 <Color id="RED">大规模固化机</Color> 还更慢、更费电、限制也更多。但这只是底子；每装上一种模块，整台机器都会明显强化。
 
-在下表中，“SCB”指 <Color id="BLUE">超致密铸造盆机械方块</Color>模块，“SCB+”指带有组合加成的同一模块，二者将在本节后文说明。
+计算并行时使用的“有效电压”并不会像超频那样受能源仓等级限制，但无论你准备喂多少安培，机器仍然都需要实际装上多个能源仓。
+
+下表中的 “SCB” 指 <Color id="BLUE">超致密铸造盆</Color> 模块，而 “SCB+” 指带有模块联动加成后的同类配置，后文会说明其具体含义。
 ### 并行：
 
 |  | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |------------- |
 | 基础 | 16 | 32 | 48 | 64 | 80 | 96 | 112 | 128 | 144 | 160 | 176 | 192 | 208 | 224 | 240 |
-| 1 SCB | 28 | 56 | 84 | 112 | 140 | 168 | 196 | 224 | 252 | 280 | 308 | 336 | 364 | 392 | 420 |
-| 2 SCB | 40 | 80 | 120 | 160 | 200 | 240 | 280 | 320 | 360 | 400 | 440 | 480 | 520 | 560 | 600 |
-| 1 SCB+ | 34 | 68 | 102 | 136 | 170 | 204 | 238 | 272 | 306 | 340 | 374 | 408 | 442 | 476 | 510 |
-| 2 SCB+ | 46 | 92 | 138 | 184 | 230 | 276 | 322 | 368 | 414 | 460 | 506 | 552 | 598 | 644 | 690 |
+| 1 个 SCB | 28 | 56 | 84 | 112 | 140 | 168 | 196 | 224 | 252 | 280 | 308 | 336 | 364 | 392 | 420 |
+| 2 个 SCB | 40 | 80 | 120 | 160 | 200 | 240 | 280 | 320 | 360 | 400 | 440 | 480 | 520 | 560 | 600 |
+| 1 个 SCB+ | 34 | 68 | 102 | 136 | 170 | 204 | 238 | 272 | 306 | 340 | 374 | 408 | 442 | 476 | 510 |
+| 2 个 SCB+ | 46 | 92 | 138 | 184 | 230 | 276 | 322 | 368 | 414 | 460 | 506 | 552 | 598 | 644 | 690 |
 
-总共有七种模块，根据结构等级有 2/3/4 个模块槽位。在控制器的 GUI 中选择要使用的模块。各模块可以互不相同，也可以相同以叠加加成。唯一的例外是极冷机械方块 <ItemImage id="gregtech:gt.foundrycasings:9" />、感知超频机械方块 <ItemImage id="gregtech:gt.foundrycasings:5" /> 和宇宙坍缩者机械方块 <ItemImage id="gregtech:gt.foundrycasings:4" /> 模块，它们在每个 <Color id="GREEN">异星铸造塔</Color> 中的数量上限均为 1。
+整机共有 7 种模块，而结构等级决定你能装 2/3/4 个模块。模块在控制器界面内选择即可。它们既可以全部不同，也可以通过重复安装来叠加增益。唯一的例外是 <Color id="GREEN">超级冷却器</Color> <ItemImage id="gregtech:gt.foundrycasings:9" />、<Color id="GREEN">感知超频器</Color> <ItemImage id="gregtech:gt.foundrycasings:5" /> 和 <Color id="GREEN">宇宙坍缩者</Color> <ItemImage id="gregtech:gt.foundrycasings:4" />，这三种模块每台异星铸造塔最多各装 1 个。
 
-日耀投射强化机械方块 <ItemImage id="gregtech:gt.foundrycasings:7" /> 和感知超频机械方块 <ItemImage id="gregtech:gt.foundrycasings:5" /> 模块都会提高机器的超频系数；这是一项独特机制，会让每次超频的速度加成更高。例如，一次有损超频消耗 4 倍电力换取 2 倍速度，而将超频系数提高 0.35 后，异星铸造塔 则会消耗 4 倍电力换取 2.35 倍速度。
+<Color id="GREEN">日耀投射强化</Color> <ItemImage id="gregtech:gt.foundrycasings:7" /> 与 <Color id="GREEN">感知超频器</Color> <ItemImage id="gregtech:gt.foundrycasings:5" /> 都会提高机器的 <Color id="GREEN">超频系数</Color>。这是异星铸造塔独有的机制，作用方式很直接：它会把每次超频带来的速度倍率进一步抬高。举例来说，普通有损超频是 4 倍耗电换 2 倍速度；若超频系数增加 0.35，那么异星铸造塔在执行同样一次超频时就会变成 4 倍耗电换 2.35 倍速度。
 
-## 超致密铸造盆机械方块 <ItemImage id="gregtech:gt.foundrycasings:8"/>
-SCB 模块（UEV）在基础每电压等级 16 并行之上再增加每电压等级 12 并行，并将机械方块的最低数量要求减少 36。即每电压等级总共 28 并行，且有足够空间容纳 61 个输入位来对应总共 35 个模具。每个 异星铸造塔 中 SCB 模块的数量没有限制。将 SCB 与流线型铸造机械方块模块组合可解锁“最优生产”，这是一次性加成：每电压等级 +6 并行以及 +75% 速度。
+## 超致密铸造盆 <ItemImage id="gregtech:gt.foundrycasings:8"/>
+<Color id="GREEN">超致密铸造盆</Color>（SCB，UEV）会在基础的每级 16 并行之上，再额外提供每级 12 并行，并把最低机械方块需求减少 36。也就是说，单个 SCB 就能把机器抬到每级 28 并行，并腾出足够空间放下 61 个输入位来服务 35 个总模具位。SCB 的安装数量没有上限。若它与 <Color id="GREEN">流线型铸造器</Color> 搭配，就会解锁一次性联动奖励 <Color id="GREEN">最优生产</Color>：每级电压再 +6 并行，速度额外 +75%。
 
-### 所需方块：
-- 64 <ItemLink id="gregtech:gt.foundrycasings:8" /> <ItemImage id="gregtech:gt.foundrycasings:8" />
-- 64 <ItemLink id="gregtech:gt.blockcasings10:13" /> <ItemImage id="gregtech:gt.blockcasings10:13" />
-- 36 <ItemLink id="gregtech:gt.foundrycasings" /> <ItemImage id="gregtech:gt.foundrycasings" />
-- 32 <ItemLink id="gregtech:gt.blockcasings10:14" /> <ItemImage id="gregtech:gt.blockcasings10:14" />
-- 30 <ItemLink id="gregtech:gt.blockframes:75" /> <ItemImage id="gregtech:gt.blockframes:75" />
-- 8 <ItemLink id="bartworks:bw.werkstoffblockscasing.01:10109"/> <ItemImage id="bartworks:bw.werkstoffblockscasing.01:10109"/>
-- 8 <ItemLink id="gregtech:bw.sheetmetal:10109" /> <ItemImage id="gregtech:bw.sheetmetal:10109" />
-- 6 <ItemLink id="gregtech:gt.sheetmetal:75" /> <ItemImage id="gregtech:gt.sheetmetal:75" />
-- 4 <ItemLink id="bartworks:bw.werkstoffblockscasingadvanced.01:10109"/> <ItemImage id="bartworks:bw.werkstoffblockscasingadvanced.01:10109"/>
+### 需要：
+- 64 个 <ItemLink id="gregtech:gt.foundrycasings:8" /> <ItemImage id="gregtech:gt.foundrycasings:8" />
+- 64 个 <ItemLink id="gregtech:gt.blockcasings10:13" /> <ItemImage id="gregtech:gt.blockcasings10:13" />
+- 36 个 <ItemLink id="gregtech:gt.foundrycasings" /> <ItemImage id="gregtech:gt.foundrycasings" />
+- 32 个 <ItemLink id="gregtech:gt.blockcasings10:14" /> <ItemImage id="gregtech:gt.blockcasings10:14" />
+- 30 个 <ItemLink id="gregtech:gt.blockframes:75" /> <ItemImage id="gregtech:gt.blockframes:75" />
+- 8 个 <ItemLink id="bartworks:bw.werkstoffblockscasing.01:10109"/> <ItemImage id="bartworks:bw.werkstoffblockscasing.01:10109"/>
+- 8 个 <ItemLink id="gregtech:bw.sheetmetal:10109" /> <ItemImage id="gregtech:bw.sheetmetal:10109" />
+- 6 个 <ItemLink id="gregtech:gt.sheetmetal:75" /> <ItemImage id="gregtech:gt.sheetmetal:75" />
+- 4 个 <ItemLink id="bartworks:bw.werkstoffblockscasingadvanced.01:10109"/> <ItemImage id="bartworks:bw.werkstoffblockscasingadvanced.01:10109"/>
 
-## 原型电压稳定机械方块 <ItemImage id="gregtech:gt.foundrycasings:6" />
-PVS 模块（UEV）从配方的基础 EU/t 消耗中减去 10%，再将结果乘以 0.8，如下式所示。即 1 个 PVS 可获得 28% 的 EU/t 折扣，2 个 PVS 可获得 49% 的 EU/t 折扣。注意，这并不会提高 异星铸造塔 的速度，因为配方时长保持不变。其加算加成可与日耀投射强化机械方块模块叠加，乘算加成可与宇宙坍缩者机械方块模块叠加。每个 异星铸造塔 中 PVS 模块的数量没有限制。将 PVS 与感知超频机械方块模块组合可解锁“谐和效率”，这是一次性加成：-50% EU/t 和 +0.1 超频系数。
-<Latex formula="\text{EU/t} = (100\% - \sum \text{AddBonus}) \times \prod \text{MultBonus}"/>
+## 原型电压稳定器 <ItemImage id="gregtech:gt.foundrycasings:6" />
+<Color id="GREEN">原型电压稳定器</Color>（PVS，UEV）会先从配方基础 EU/t 中减去 10%，再把结果乘以 0.8，如下式所示。装 1 个 PVS 相当于获得 28% 的 EU 折扣；装 2 个则能达到 49%。它不会缩短配方时长，因此不会直接提高机器速度。加法折扣可以和 <Color id="GREEN">日耀投射强化</Color> 叠加，而乘法折扣则可以和 <Color id="GREEN">宇宙坍缩者</Color> 叠加。PVS 的安装数量没有上限。若它与 <Color id="GREEN">感知超频器</Color> 联动，则会解锁一次性奖励 <Color id="GREEN">谐和效率</Color>：额外 -50% EU/t，并再提高 0.1 超频系数。
+<Latex formula="\text{EU/t} = (100\% - \sum \text{加算奖励}) \times \prod \text{乘算奖励}"/>
 
-| 模块   | 能耗（EU/t）    |
-|--------------- | --------------- |
-| 1 PVS   | $$(100\% - 10\%) \times 0.8 = 72\%$$   |
-| 2 PVS   | $$(100\% - 20\%) \times 0.8^2 = 51\%$$   |
-| 1 PVS+   | $$(100\% - 60\%) \times 0.8 = 32\%$$   |
-| 2 PVS+   | $$(100\% - 70\%) \times 0.8^2 = 19\%$$   |
+| 模块 | 耗电（EU/t） |
+| --------------- | --------------- |
+| 1 个 PVS | $$(100\% - 10\%) \times 0.8 = 72\%$$ |
+| 2 个 PVS | $$(100\% - 20\%) \times 0.8^2 = 51\%$$ |
+| 1 个 PVS+ | $$(100\% - 60\%) \times 0.8 = 32\%$$ |
+| 2 个 PVS+ | $$(100\% - 70\%) \times 0.8^2 = 19\%$$ |
 
-### 所需方块：
-- 64 <ItemLink id="gregtech:gt.foundrycasings:6" /><ItemImage id="gregtech:gt.foundrycasings:6" />
-- 32 <ItemLink id="gregtech:gt.blockframes:73" /><ItemImage id="gregtech:gt.blockframes:73" />
-- 28 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2:3" /> <ItemImage id="miscutils:gtplusplus.blockspecialcasings.2:3"/>
-- 16 <ItemLink id="gregtech:gt.sheetmetal:112" /><ItemImage id="gregtech:gt.sheetmetal:112"/>
-- 16 <ItemLink id="gregtech:gt.sheetmetal:391" /><ItemImage id="gregtech:gt.sheetmetal:391"/>
-- 16 <ItemLink id="gregtech:gt.sheetmetal:69" /><ItemImage id="gregtech:gt.sheetmetal:69"/>
-- 4 <ItemLink id="gregtech:gt.sheetmetal:112" /><ItemImage id="gregtech:gt.sheetmetal:112"/>
-- 4 <ItemLink id="gregtech:gt.blockcasings11:5" /><ItemImage id="gregtech:gt.blockcasings11:5" />
+### 需要：
+- 64 个 <ItemLink id="gregtech:gt.foundrycasings:6" /><ItemImage id="gregtech:gt.foundrycasings:6" />
+- 32 个 <ItemLink id="gregtech:gt.blockframes:73" /><ItemImage id="gregtech:gt.blockframes:73" />
+- 28 个 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2:3" /> <ItemImage id="miscutils:gtplusplus.blockspecialcasings.2:3"/>
+- 16 个 <ItemLink id="gregtech:gt.sheetmetal:112" /><ItemImage id="gregtech:gt.sheetmetal:112"/>
+- 16 个 <ItemLink id="gregtech:gt.sheetmetal:391" /><ItemImage id="gregtech:gt.sheetmetal:391"/>
+- 16 个 <ItemLink id="gregtech:gt.sheetmetal:69" /><ItemImage id="gregtech:gt.sheetmetal:69"/>
+- 4 个 <ItemLink id="gregtech:gt.sheetmetal:112" /><ItemImage id="gregtech:gt.sheetmetal:112"/>
+- 4 个 <ItemLink id="gregtech:gt.blockcasings11:5" /><ItemImage id="gregtech:gt.blockcasings11:5" />
 
-## 流线型铸造机械方块 <ItemImage id="gregtech:gt.foundrycasings:10" />
-SC 模块（UEV）在 异星铸造塔 基础 150% 速度之上再增加 150% 基础速度，如下式所示。即 1 个 SC 总共 300% 速度，2 个 SC 为 450%。其加算加成可与日耀投射强化机械方块模块叠加，而宇宙坍缩者机械方块模块的乘算加成在其之后生效。每个 异星铸造塔 中 SC 模块的数量没有限制。将 SC 与超致密铸造盆机械方块模块组合可解锁“最优生产”，这是一次性加成：每电压等级 +6 并行以及 +75% 速度。
-<Latex formula="(150\% + \sum \text{AddBonus}) \times \prod \text{MultBonus}" />
+## 流线型铸造器 <ItemImage id="gregtech:gt.foundrycasings:10" />
+<Color id="GREEN">流线型铸造器</Color>（SC，UEV）会在基础 150% 速度之上，再额外增加 150% 速度，如下式所示。也就是说，装 1 个 SC 后总速度为 300%，装 2 个则会来到 450%。它的加法速度增益可以和 <Color id="GREEN">日耀投射强化</Color> 叠加，而 <Color id="GREEN">宇宙坍缩者</Color> 的乘法加成会在最后再结算。SC 数量没有上限。若它与 <Color id="GREEN">超致密铸造盆</Color> 联动，就会解锁一次性奖励 <Color id="GREEN">最优生产</Color>：每级电压再 +6 并行，速度额外 +75%。
+<Latex formula="(150\% + \sum \text{加算奖励}) \times \prod \text{乘算奖励}" />
 
-| 模块   | 速度    |
-|--------------- | --------------- |
-| 1 SC   | $$(150\% + 150\%) \times 1 = 300\%$$   |
-| 2 SC   | $$(150\% + 300\%) \times 1 = 450\%$$   |
-| 1 SC+   | $$(150\% + 225\%) \times 1 = 375\%$$   |
-| 2 SC+   | $$(150\% + 375\%) \times 1 = 525\%$$   |
+| 模块 | 速度 |
+| --------------- | --------------- |
+| 1 个 SC | $$(150\% + 150\%) \times 1 = 300\%$$ |
+| 2 个 SC | $$(150\% + 300\%) \times 1 = 450\%$$ |
+| 1 个 SC+ | $$(150\% + 225\%) \times 1 = 375\%$$ |
+| 2 个 SC+ | $$(150\% + 375\%) \times 1 = 525\%$$ |
 
-### 所需方块：
-- 64 <ItemLink id="gregtech:gt.foundrycasings:10" /><ItemImage id="gregtech:gt.foundrycasings:10" />
-- 28 <ItemLink id="gregtech:gt.blockframes:974" /><ItemImage id="gregtech:gt.blockframes:974" />
-- 24 <ItemLink id="gregtech:gt.blockframes:329" /><ItemImage id="gregtech:gt.blockframes:329" />
-- 16 <ItemLink id="gregtech:gt.sheetmetal:974" /><ItemImage id="gregtech:gt.sheetmetal:974" />
-- 12 <ItemLink id="miscutils:gtplusplus.blockcasings.5:3" /><ItemImage id="miscutils:gtplusplus.blockcasings.5:3" />
-- 12 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:13" /><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:13" />
+### 需要：
+- 64 个 <ItemLink id="gregtech:gt.foundrycasings:10" /><ItemImage id="gregtech:gt.foundrycasings:10" />
+- 28 个 <ItemLink id="gregtech:gt.blockframes:974" /><ItemImage id="gregtech:gt.blockframes:974" />
+- 24 个 <ItemLink id="gregtech:gt.blockframes:329" /><ItemImage id="gregtech:gt.blockframes:329" />
+- 16 个 <ItemLink id="gregtech:gt.sheetmetal:974" /><ItemImage id="gregtech:gt.sheetmetal:974" />
+- 12 个 <ItemLink id="miscutils:gtplusplus.blockcasings.5:3" /><ItemImage id="miscutils:gtplusplus.blockcasings.5:3" />
+- 12 个 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:13" /><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:13" />
 
-## 极冷机械方块 <ItemImage id="gregtech:gt.foundrycasings:9" />
-HC 模块（UIV）在机器运行时消耗冷却液，以提高超出能源仓电压等级的最大超频次数。冷却液需通过模块自身上的输入仓供给，而非通过 异星铸造塔。额外超频的次数取决于所提供的冷却液种类，如下表所示。每个 异星铸造塔 的 HC 模块上限为 1 个。将 HC 与宇宙坍缩者机械方块模块组合可解锁“实现潜能”，这是一次性加成：允许将永恒用作冷却液以获得最多 3 次额外超频，同时使能耗乘以 2 倍、速度乘以 2 倍。
-| 冷却液 | 流量 | 超频次数 |
+## 超级冷却器 <ItemImage id="gregtech:gt.foundrycasings:9" />
+<Color id="GREEN">超级冷却器</Color>（HC，UIV）会在机器运行时消耗冷却液，从而让最大超频次数突破能源仓等级本身的限制。冷却液必须从模块自身的输入仓送入，而不是控制器本体。额外超频次数取决于你提供的冷却液种类，如下表所示。每台异星铸造塔最多只能安装 1 个 HC。若它与 <Color id="GREEN">宇宙坍缩者</Color> 联动，则会解锁一次性奖励 <Color id="GREEN">现实潜能</Color>：允许使用永恒作为冷却液，获得最多 3 次额外超频，同时耗电乘 2、速度乘 2。
+| 冷却液 | 速率 | 额外超频 |
 | --------------- | --------------- | --------------- |
 | 超级冷却液 | 100 L/s | +1 |
 | 时空 | 50 L/s | +2 |
 | 永恒* | 25 L/s | +3 |
 
-### 所需方块：
-- 64 <ItemLink id="gregtech:gt.sheetmetal:389" /> <ItemImage id="gregtech:gt.sheetmetal:389" />
-- 48 <ItemLink id="gregtech:gt.blockframes:394" /><ItemImage id="gregtech:gt.blockframes:394" />
-- 36 <ItemLink id="gregtech:gt.foundrycasings:9" /><ItemImage id="gregtech:gt.foundrycasings:9"/>
-- 20 <ItemLink id="gregtech:gt.blockcasings8:14" /> <ItemImage id="gregtech:gt.blockcasings8:14" />
-- 19 <ItemLink id="miscutils:gtplusplus.blockcasings.3:10"/><ItemImage id="miscutils:gtplusplus.blockcasings.3:10" />
-- 16 <ItemLink id="gregtech:gt.sheetmetal:985" /><ItemImage id="gregtech:gt.sheetmetal:985"/>
-- 1 输入仓（任意低温机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+### 需要：
+- 64 个 <ItemLink id="gregtech:gt.sheetmetal:389" /> <ItemImage id="gregtech:gt.sheetmetal:389" />
+- 48 个 <ItemLink id="gregtech:gt.blockframes:394" /><ItemImage id="gregtech:gt.blockframes:394" />
+- 36 个 <ItemLink id="gregtech:gt.foundrycasings:9" /><ItemImage id="gregtech:gt.foundrycasings:9"/>
+- 20 个 <ItemLink id="gregtech:gt.blockcasings8:14" /> <ItemImage id="gregtech:gt.blockcasings8:14" />
+- 19 个 <ItemLink id="miscutils:gtplusplus.blockcasings.3:10"/><ItemImage id="miscutils:gtplusplus.blockcasings.3:10" />
+- 16 个 <ItemLink id="gregtech:gt.sheetmetal:985" /><ItemImage id="gregtech:gt.sheetmetal:985"/>
+- 1 个输入仓（任意凛冰机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
 
-## 日耀投射强化机械方块 <ItemImage id="gregtech:gt.foundrycasings:7" />
-HR 模块（UIV）为 异星铸造塔 解锁 UIV+ 配方。这包括所有以海珀珍、永恒、宇宙素 或磁物质为原料的流体固化机配方，以及超时空强化硼玻璃和霍金辐射重组焦点玻璃。每个 异星铸造塔 中 HR 模块的数量没有限制。将 HR 与自身组合可解锁“超稳定核心”，这是一个基于 HR 模块总数的递增加成，如下表所示。
+## 日耀投射强化 <ItemImage id="gregtech:gt.foundrycasings:7" />
+<Color id="GREEN">日耀投射强化</Color>（HR，UIV）会为异星铸造塔解锁 UIV+ 配方。这包括所有涉及海珀珍、永恒、宇宙素或磁物质的流体固化器配方，以及更高级的强化玻璃与霍金辐射重组焦点相关配方。HR 数量没有上限。它还能与自身联动，解锁按数量递增的 <Color id="GREEN">超稳核心</Color> 奖励，如下表所示。
 
-| 模块   | 加成    |
-|--------------- | --------------- |
-| $$\geq$$ 1 HR   | 解锁 UIV+ 配方   |
-| $$\geq$$ 2 HR   | 每 HR +75% 速度   |
-| $$\geq$$ 3 HR  | 每 HR 每电压等级 +6 并行，0.1 超频系数   |
-| 4 HR   | +2 次超频   |
+| 模块 | 加成 |
+| --------------- | --------------- |
+| $$\geq$$ 1 个 HR | 解锁 UIV+ 配方 |
+| $$\geq$$ 2 个 HR | 每个 HR +75% 速度 |
+| $$\geq$$ 3 个 HR | 每个 HR 每级电压 +6 并行，总计 +0.1 超频系数 |
+| 4 个 HR | +2 次额外超频 |
 
-### 所需方块：
-- 32 <ItemLink id="tectech:gt.godforgecasing:3" /><ItemImage id="tectech:gt.godforgecasing:3" />
-- 24 <ItemLink id="gregtech:gt.blockframes:147" /><ItemImage id="gregtech:gt.blockframes:147" />
-- 16 <ItemLink id="gregtech:gt.sheetmetal:588" /><ItemImage id="gregtech:gt.sheetmetal:588" />
-- 16 <ItemLink id="tectech:tile.spatiallyTranscendentGravitationalLens" /> <ItemImage id="tectech:tile.spatiallyTranscendentGravitationalLens"/>
-- 12 <ItemLink id="gregtech:gt.foundrycasings:7" /><ItemImage id="gregtech:gt.foundrycasings:7" />
-- 12 <ItemLink id="gregtech:gt.blockframes:581"/><ItemImage id="gregtech:gt.blockframes:582"/>
-- 12 <ItemLink id="gregtech:gt.blockframes:149"/><ItemImage id="gregtech:gt.blockframes:149"/>
-- 12 <ItemLink id="gregtech:gt.blockframes:148"/><ItemImage id="gregtech:gt.blockframes:148"/>
-- 12 <ItemLink id="gregtech:gt.blockframes:588"/><ItemImage id="gregtech:gt.blockframes:588"/>
+### 需要：
+- 32 个 <ItemLink id="tectech:gt.godforgecasing:3" /><ItemImage id="tectech:gt.godforgecasing:3" />
+- 24 个 <ItemLink id="gregtech:gt.blockframes:147" /><ItemImage id="gregtech:gt.blockframes:147" />
+- 16 个 <ItemLink id="gregtech:gt.sheetmetal:588" /><ItemImage id="gregtech:gt.sheetmetal:588" />
+- 16 个 <ItemLink id="tectech:tile.spatiallyTranscendentGravitationalLens" /> <ItemImage id="tectech:tile.spatiallyTranscendentGravitationalLens"/>
+- 12 个 <ItemLink id="gregtech:gt.foundrycasings:7" /><ItemImage id="gregtech:gt.foundrycasings:7" />
+- 12 个 <ItemLink id="gregtech:gt.blockframes:581"/><ItemImage id="gregtech:gt.blockframes:582"/>
+- 12 个 <ItemLink id="gregtech:gt.blockframes:149"/><ItemImage id="gregtech:gt.blockframes:149"/>
+- 12 个 <ItemLink id="gregtech:gt.blockframes:148"/><ItemImage id="gregtech:gt.blockframes:148"/>
+- 12 个 <ItemLink id="gregtech:gt.blockframes:588"/><ItemImage id="gregtech:gt.blockframes:588"/>
 
-## 感知超频机械方块 <ItemImage id="gregtech:gt.foundrycasings:5"/>
-SO 模块（UMV）将机器的超频系数提高 0.35。这意味着每次有损超频都会额外提供 35% 速度，如下表所示。每个 异星铸造塔 的 SO 模块上限为 1 个。将 SO 与原型电压稳定机械方块模块组合可解锁“谐和效率”，这是一次性加成：-50% EU/t 和 +0.1 超频系数。
+## 感知超频器 <ItemImage id="gregtech:gt.foundrycasings:5"/>
+<Color id="GREEN">感知超频器</Color>（SO，UMV）会把机器的超频系数提高 0.35。换句话说，每一次有损超频都会额外多提供 35% 速度，具体可见下表。每台异星铸造塔最多只能安装 1 个 SO。若它与 <Color id="GREEN">原型电压稳定器</Color> 联动，则会解锁一次性奖励 <Color id="GREEN">谐和效率</Color>：-50% EU/t，并额外再 +0.1 超频系数。
 | 速度 | 1 次超频 | 2 次超频 | 3 次超频 | 4 次超频 | 5 次超频 |
 | --------------- | --------------- | --------------- | --------------- | --------------- |--------------- |
 | 基础 | 200% | 400% | 800% | 1,600% | 3,200% |
-| $$\geq$$ 3 HR | 210% | 441% | 926% | 1,945% | 4,084% |
-| 1 SO | 235% | 552% | 1,298% | 3,050% | 7,167% |
-| 1 SO+ | 245% | 600% | 1,471% | 3,603% | 8,827% |
+| $$\geq$$ 3 个 HR | 210% | 441% | 926% | 1,945% | 4,084% |
+| 1 个 SO | 235% | 552% | 1,298% | 3,050% | 7,167% |
+| 1 个 SO+ | 245% | 600% | 1,471% | 3,603% | 8,827% |
 
-### 所需方块：
-- 72 <ItemLink id="GoodGenerator:magneticFluxCasing"/><ItemImage id="GoodGenerator:magneticFluxCasing"/>
-- 48 <ItemLink id="GoodGenerator:gravityStabilizationCasing"/><ItemImage id="GoodGenerator:gravityStabilizationCasing"/>
-- 40 <ItemLink id="gregtech:gt.foundrycasings:5"/><ItemImage id="gregtech:gt.foundrycasings:5"/>
-- 36 <ItemLink id="GoodGenerator:antimatterContainmentCasing"/><ItemImage id="GoodGenerator:antimatterContainmentCasing"/>
-- 24 <ItemLink id="gregtech:gt.foundrycasings:1"/> <ItemImage id="gregtech:gt.foundrycasings:1"/>
-- 16 <ItemLink id="gregtech:gt.blockframes:327"/> <ItemImage id="gregtech:gt.blockframes:327"/>
+### 需要：
+- 72 个 <ItemLink id="GoodGenerator:magneticFluxCasing"/><ItemImage id="GoodGenerator:magneticFluxCasing"/>
+- 48 个 <ItemLink id="GoodGenerator:gravityStabilizationCasing"/><ItemImage id="GoodGenerator:gravityStabilizationCasing"/>
+- 40 个 <ItemLink id="gregtech:gt.foundrycasings:5"/><ItemImage id="gregtech:gt.foundrycasings:5"/>
+- 36 个 <ItemLink id="GoodGenerator:antimatterContainmentCasing"/><ItemImage id="GoodGenerator:antimatterContainmentCasing"/>
+- 24 个 <ItemLink id="gregtech:gt.foundrycasings:1"/> <ItemImage id="gregtech:gt.foundrycasings:1"/>
+- 16 个 <ItemLink id="gregtech:gt.blockframes:327"/> <ItemImage id="gregtech:gt.blockframes:327"/>
 
-## 宇宙坍缩者机械方块 <ItemImage id="gregtech:gt.foundrycasings:4"/>
-UC 模块（UXV）使能耗乘以 4 倍、速度乘以 2 倍，并将机械方块的最低数量要求增加 20。这实际上相当于一次强制的有损超频，并且在总共 35 个模具之外只留下容纳 5 个输入位的空间。每个 异星铸造塔 的 UC 模块上限为 1 个。将 UC 与极冷机械方块模块组合可解锁“实现潜能”，这是一次性加成：允许将永恒用作冷却液以获得最多 3 次额外超频，同时使能耗乘以 2 倍、速度乘以 2 倍。
+## 宇宙坍缩者 <ItemImage id="gregtech:gt.foundrycasings:4"/>
+<Color id="GREEN">宇宙坍缩者</Color>（UC，UXV）会把机器耗电乘以 4、速度乘以 2，并把最低机械方块需求提高 20。实际效果等同于强制追加 1 次有损超频，同时只给 35 个总模具位留出 5 个输入位。每台异星铸造塔最多只能安装 1 个 UC。若它与 <Color id="GREEN">超级冷却器</Color> 联动，则会解锁一次性奖励 <Color id="GREEN">现实潜能</Color>：允许使用永恒冷却液，耗电乘 2，速度乘 2，并获得额外超频。
 
-### 所需方块：
-- 72 <ItemLink id="tectech:gt.blockcasingsBA0:11"/> <ItemImage id="tectech:gt.blockcasingsBA0:11"/>
-- 48 <ItemLink id="tectech:gt.blockcasingsBA0:10"/><ItemImage id="tectech:gt.blockcasingsBA0:10"/>
-- 40 <ItemLink id="gregtech:gt.blockframes:583" /> <ItemImage id="gregtech:gt.blockframes:583" />
-- 28 <ItemLink id="gregtech:gt.blockmetal9:6"/><ItemImage id="gregtech:gt.blockmetal9:6"/>
-- 28 <ItemLink id="gregtech:gt.blockmetal9:7"/><ItemImage id="gregtech:gt.blockmetal9:7"/>
-- 16 <ItemLink id="gregtech:gt.blockframes:139"/><ItemImage id="gregtech:gt.blockframes:139"/>
-- 8 <ItemLink id="gregtech:gt.blockframes:585"/><ItemImage id="gregtech:gt.blockframes:585"/>
-- 8 <ItemLink id="gregtech:gt.blockframes:586"/><ItemImage id="gregtech:gt.blockframes:586"/>
-- 4 <ItemLink id="gregtech:gt.foundrycasings:4"/><ItemImage id="gregtech:gt.foundrycasings:4"/>
-- 4 <ItemLink id="gregtech:gt.blockmetal9:13"/><ItemImage id="gregtech:gt.blockmetal9:13"/>
+### 需要：
+- 72 个 <ItemLink id="tectech:gt.blockcasingsBA0:11"/> <ItemImage id="tectech:gt.blockcasingsBA0:11"/>
+- 48 个 <ItemLink id="tectech:gt.blockcasingsBA0:10"/><ItemImage id="tectech:gt.blockcasingsBA0:10"/>
+- 40 个 <ItemLink id="gregtech:gt.blockframes:583" /> <ItemImage id="gregtech:gt.blockframes:583" />
+- 28 个 <ItemLink id="gregtech:gt.blockmetal9:6"/><ItemImage id="gregtech:gt.blockmetal9:6"/>
+- 28 个 <ItemLink id="gregtech:gt.blockmetal9:7"/><ItemImage id="gregtech:gt.blockmetal9:7"/>
+- 16 个 <ItemLink id="gregtech:gt.blockframes:139"/><ItemImage id="gregtech:gt.blockframes:139"/>
+- 8 个 <ItemLink id="gregtech:gt.blockframes:585"/><ItemImage id="gregtech:gt.blockframes:585"/>
+- 8 个 <ItemLink id="gregtech:gt.blockframes:586"/><ItemImage id="gregtech:gt.blockframes:586"/>
+- 4 个 <ItemLink id="gregtech:gt.foundrycasings:4"/><ItemImage id="gregtech:gt.foundrycasings:4"/>
+- 4 个 <ItemLink id="gregtech:gt.blockmetal9:13"/><ItemImage id="gregtech:gt.blockmetal9:13"/>
 
-## 模块组合
-共有四种独特的模块组合可为 异星铸造塔 提供额外加成。这些组合都已在上方的各模块小节中介绍过，此处汇总以便查阅。即使每种模块各安装了两个，这些加成也只会生效一次。例如，同时拥有两个 ECB 和两个 SC 并不会使“最优生产”的加成翻倍。
+## 联动
+共有 4 组独特的模块搭配会给异星铸造塔额外奖励。它们前面的各个小节都已经提到过，这里只是集中列出，方便查阅。这些加成无论你每种模块装几份，都只会生效一次。举例来说，装两个 SCB 再装两个 SC，并不会把 <Color id="GREEN">最优生产</Color> 的联动奖励翻倍。
 
-- 最优生产：超致密铸造盆机械方块 + 流线型铸造机械方块 - 每电压等级 +6 并行，+75% 速度
-- 谐和效率：原型电压稳定机械方块 + 感知超频机械方块 - -50% EU/t，+0.1 超频系数
-- 超稳定核心：日耀投射强化机械方块 + 日耀投射强化机械方块 - 随 HR 数量而变化（见专门小节）
-- 实现潜能：宇宙坍缩者机械方块 + 极冷机械方块 - 解锁永恒冷却液，能耗 x2，速度 x2
+- 最优生产：超致密铸造盆 + 流线型铸造器，+6 每级电压并行，+75% 速度
+- 谐和效率：原型电压稳定器 + 感知超频器，-50% EU/t，+0.1 超频系数
+- 超稳核心：日耀投射强化 + 日耀投射强化，效果随 HR 总数变化
+- 现实潜能：宇宙坍缩者 + 超级冷却器，解锁永恒冷却液，x2 EU/t，x2 速度
 
 ## 最优配置
-模块的组合方式很多，哪些组合最有效并不完全显而易见。为帮助在所有组合之间做出选择，下表对比了游戏不同阶段中表现突出的几种配置。它们的仓位空间按仅安装 1 个能源仓计算，相对吞吐量则用下式计算，其中 N 为高于配方电压的电压等级数量。
-<Latex formula="\text{Throughput} = \text{Parallels} \times \text{Speed} \times (\text{OC Factor})^N \times 2^{\text{Bonus OC}}" />
+模块组合非常多，而最强解并不总是一眼就能看出来。为了方便比较，下面这组表会列出几个在不同游戏阶段特别值得考虑的方案。表中的仓位数量默认你只安装一个能源仓；而相对吞吐量则通过下式计算，其中 N 代表“当前配方低于可用电压多少级”。
+<Latex formula="\text{吞吐量} = \text{并行} \times \text{速度} \times (\text{超频系数})^N \times 2^{\text{额外超频次数}}" />
 
-运行 UIV+ 配方至少需要 1 个 HR 模块，但最优配置并不总是包含它。因此建议至少建造两台 异星铸造塔，并按电压等级拆分配方。
+虽然运行 UIV+ 配方至少需要 1 个 <Color id="GREEN">日耀投射强化</Color>，但最优配置并不总会带着它。因此通常建议至少造两台 <Color id="GREEN">异星铸造塔</Color>，再按配方电压档位分工。
 
-如需各电压等级的具体最优配置，请查看 [Wiki 页面！](https://wiki.gtnewhorizons.com/wiki/Exo-Foundry) 底部的各节内容。
+如果你想直接查看各个电压阶段的具体最优解，可以继续翻阅 [Wiki 页面](https://wiki.gtnewhorizons.com/wiki/Exo-Foundry) 的后半部分。

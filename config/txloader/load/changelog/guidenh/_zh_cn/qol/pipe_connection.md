@@ -10,8 +10,12 @@ date: 2026-05-25
 ---
 
 # 管道即时连接
-你是否曾为连接一条长管道而苦恼——放置管道与连接真正生效之间总有一段别扭的延迟？从此不用再愁！
 
-所有格雷科技流体管道 <ItemImage id="gregtech:gt.blockmachines:30729" />、物品管道 <ItemImage id="gregtech:gt.blockmachines:5633" /> 和线缆 <ItemImage id="gregtech:gt.blockmachines:1211" /> 现在都会立即连接到你明确指定连接的方块（例如直接把管道放置到方块/管道/线缆上）。
+你有没有铺一长串管线时，被“管子明明放上去了却要等一下才真正连上”的那点延迟搞得很烦？
+
+现在不用再忍了。
+
+所有 GregTech 流体管道 <ItemImage id="gregtech:gt.blockmachines:30729" />、物品管道 <ItemImage id="gregtech:gt.blockmachines:5633" /> 和线缆 <ItemImage id="gregtech:gt.blockmachines:1211" />，现在只要你是明确把它们接到目标方块上的（例如直接朝着方块、管道或线缆放置），就会立刻建立连接。
+
 > [!NOTE]
-> 不必担心，若没有把管道明确放置到相邻管道上，它们 _不会_ 与任何相邻管道即时连接
+> 放心，它们不会因为相邻就自动瞬间连到旁边的管道上；只有你明确朝那个目标放置时才会立即连接

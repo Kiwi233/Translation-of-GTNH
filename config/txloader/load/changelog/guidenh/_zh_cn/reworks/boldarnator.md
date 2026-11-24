@@ -10,51 +10,51 @@ categories:
 author: Skorched
 date: 2026-05-27
 ---
-# 工业碎石机
+# Boldarnator
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15556"/>
 </GameScene>
-<Color id="GREEN">工业碎石机</Color>是一台 IV 等级的多方块结构，用于制造并采集基础岩石。<Color id="GREEN">工业碎石机</Color>是单方块碎石机的直接升级，因为它以 300% 的速度运行，只消耗正常所需 <Color id="BLUE">75%</Color> 的 EU/t，并在每个电压等级提供 <Color id="RED">8</Color> 并行。可产出的岩石有圆石、石头、黑曜石、玄武岩、深板岩、地狱岩和末地石。唯一的要求是在输入总线内放入催化剂和/或编程电路。岩浆、水和催化剂在处理过程中__不会__被消耗，因此唯一的成本是每块黑曜石消耗 1 个红石粉、每块地狱岩消耗 1 个荧石粉。其余一切完全免费。
+<Color id="GREEN">Boldarnator</Color> 是一台 IV 级多方块，用于生成并收获基础岩石方块。它可以视为单方块 <Color id="GREEN">碎石机</Color> 的直接升级版，因为它拥有 300% 速度、只消耗原本 <Color id="BLUE">75%</Color> 的 EU/t，并且每个电压等级可提供 <Color id="RED">8</Color> 并行。可生成的岩石包括圆石、石头、黑曜石、玄武岩、深板岩、地狱岩和末地石。机器唯一的要求，是在输入总线中放入对应催化剂和/或编程电路。岩浆、水和催化剂在加工过程中 <u>__都不会__</u> 被消耗，因此真正有成本的只有黑曜石配方每次消耗 1 个红石粉，以及地狱岩配方每次消耗 1 个荧石粉；其余内容全部免费。
 
 <br clear="all"/>
 
 > [!NOTE]
-> 该多方块结构做出了以下改动（结构本身除外）：
-> 无需再供给岩浆和水，因为它们随结构一同存在
+> 这台多方块除结构本身外，还有如下改动：
+> - 结构自带岩浆与水：不再需要额外供应，它们会在结构成型时直接生成
 
-## 结构建造
-<Color id="GREEN">工业碎石机</Color>没有任意等级部件。玻璃可以是任意等级，对机器的运行没有影响。总线/仓可替换结构中任意位置的机械方块。<Color id="RED">多A能源仓和激光能源仓</Color>不受支持，但可以有多个常规能源仓用于超频。结构成型后岩浆和水会免费生成，因此__无需__手动放置。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 配合子信道 "glass" 指定玻璃等级，即可预览/建造该结构。
+## 搭建
+<Color id="GREEN">Boldarnator</Color> 没有分级结构部件。玻璃可以使用任意等级，且不会影响机器运行。总线和仓室可以替换结构中任意位置的机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。结构成型后，内部所需的岩浆与水会自动免费生成，因此 <u>__无需手动摆放__</u>。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构，并通过 `glass` 子信道指定玻璃等级。
 
 ### 需要：
-- 1 <ItemLink id="gregtech:gt.blockmachines:15556"/><ItemImage id="gregtech:gt.blockmachines:15556"/>
-- 50-53 <ItemLink id="miscutils:gtplusplus.blockcasings.2"/><ItemImage id="miscutils:gtplusplus.blockcasings.2"/>
-- 36 <ItemLink id="gregtech:gt.blockframes:81"/><ItemImage id="gregtech:gt.blockframes:81"/>
-- 12 任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
-- 1+ 能源仓（任意外壳） <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 维护仓（任意外壳） <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 消声仓（任意外壳） <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ 输入总线（任意外壳） <ItemImage id="gregtech:gt.blockmachines:70" />
-- 1+ 输出总线（任意外壳） <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:15556"/><ItemImage id="gregtech:gt.blockmachines:15556"/>
+- 50-53 个 <ItemLink id="miscutils:gtplusplus.blockcasings.2"/><ItemImage id="miscutils:gtplusplus.blockcasings.2"/>
+- 36 个 <ItemLink id="gregtech:gt.blockframes:81"/><ItemImage id="gregtech:gt.blockframes:81"/>
+- 12 个任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 1+ 个能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 个维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 个消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 个输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 1+ 个输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 共用墙壁
-<Color id="GREEN">工业碎石机</Color>可在各自侧面共用墙壁，以节省机械方块、玻璃、框架方块以及总线/仓。这包括两侧的储罐，但若不先将其中一台控制器水平翻转（用扳手潜行右键），两侧的流体便无法对调。没有配方会消耗超过 0.5A 的电力，因此可以在 <u>__四__</u> 台机器之间共享 <u>__一__</u> 个能源仓。
+### 共墙
+<Color id="GREEN">Boldarnator</Color> 的每个侧面都可以共墙，以节省机械方块、玻璃、框架和总线/仓室，其中也包括两侧的流体槽位。不过若想切换两侧流体的朝向，就必须先把其中一个控制器水平翻转过来（潜行状态下用扳手右键）。由于没有任何配方会超过 0.5A 耗电，因此理论上可以让 <u>__四__</u> 台机器共用 <u>__一个__</u> 能源仓。
 
-## 用法
-<Color id="GREEN">工业碎石机</Color>是单方块碎石机的直接升级，因为它以 300% 的速度运行，只消耗正常所需 75% 的 EU/t，并在每个电压等级提供 8 并行。
+## 使用
+<Color id="GREEN">Boldarnator</Color> 是单方块 <Color id="GREEN">碎石机</Color> 的直接升级版，因为它拥有 300% 速度、只消耗原本 75% 的 EU/t，并且每个电压等级可提供 8 并行。
 
-<Color id="GREEN">工业碎石机</Color>有 7 个可用配方，按其编程电路编号列在下方。其中 5 个完全免费，只需在输入总线中放入特定的非消耗性催化剂。另外 2 个则每块黑曜石消耗 1 个红石粉、每块地狱岩消耗 1 个荧石粉。尽管岩浆和水在 NEI 中显示为所需材料，但它们直接取自两侧的储罐，无需放入输入仓。
+<Color id="GREEN">Boldarnator</Color> 一共有 7 种可用配方，下面按编程电路编号列出。其中 5 种完全免费，只需要在输入总线中放入特定的不可消耗催化剂；另外 2 种则分别会为黑曜石和地狱岩消耗红石粉或荧石粉。虽然 NEI 里会把岩浆和水显示为配方需求，但机器会直接从两侧的内部流体槽中取用，因此不需要在输入仓里额外放入。
 
-1. 圆石 - 免费
-2. 石头 - 免费
-3. 黑曜石 - 每次操作消耗 1 个红石。
-4. 玄武岩 - 免费。需要在输入总线中放入灵魂沙和蓝冰。
-5. 深板岩 - 免费。需要在输入总线中放入灵魂沙和岩浆块。
-6. 地狱岩 - 每次操作消耗 1 个荧石。
-7. 末地石 - 免费。
+1. 圆石：免费。
+2. 石头：免费。
+3. 黑曜石：每次操作消耗 1 个红石粉。
+4. 玄武岩：免费。输入总线内需要放入灵魂沙和蓝冰。
+5. 深板岩：免费。输入总线内需要放入灵魂沙和岩浆块。
+6. 地狱岩：每次操作消耗 1 个荧石粉。
+7. 末地石：免费。
 
-<Color id="GREEN">工业碎石机</Color>对“圆石制硅”生产线尤其有用。将圆石粉碎成沙砾，再粉碎成沙。将沙电解成二氧化硅粉，再与镁粉反应，即可获得源源不断的硅。苦土粉可在无损耗的闭环系统中电解回镁粉。这一过程还会产生一些氧气作为副产品。
+<Color id="GREEN">Boldarnator</Color> 对圆石转硅的产线尤其有用。先把圆石粉碎成沙砾，再进一步粉碎成沙子；随后电解沙子得到二氧化硅粉，再让其与镁粉反应，即可获得无限供应的硅。副产的氧化镁粉还可以在闭环系统中电解回镁粉，几乎没有任何损耗，同时顺便额外产出一些氧气。
 
-<Color id="GREEN">工业碎石机</Color>也可用于为神秘时代树苗生产圆石，树苗会自动把圆石转化为灵魂沙（地狱树苗）或末地石（末地树苗）。离心灵魂沙可获得无限量的硝石、煤粉、沙和石油。离心末地石粉可获得无限量的钨酸锂、铂金属粉、沙和氦。相关搭建方法的视频教程可在[这里](https://www.youtube.com/watch?v=-Xvlm86FScA)找到。
+<Color id="GREEN">Boldarnator</Color> 也很适合为神秘时代树苗自动化产线供应圆石，因为这些树苗会自动把圆石转化为灵魂沙（下界树苗）或末地石（末地树苗）。把灵魂沙离心，可以获得无限的硝石、煤粉、沙子和石油；把末地石粉离心，则可以获得无限的钨酸盐、铂金属粉、沙子和氦气。关于这一套布局的视频教程可以看 [这里](https://www.youtube.com/watch?v=-Xvlm86FScA)。
 
-工业碎石机 的其他用途还包括：在 LuV 阶段为末影采石场生产足够的黑曜石，以及在 UV 阶段为基岩锭生产足够的圆石（每锭需要 26,244 个圆石）。
+Boldarnator 的其他用途还包括在 LuV 阶段批量生产足够的黑曜石来制造 <Color id="GREEN">末影采石场</Color>，以及在 UV 阶段生产海量圆石来做基岩锭（每锭需要 26,244 个圆石）。

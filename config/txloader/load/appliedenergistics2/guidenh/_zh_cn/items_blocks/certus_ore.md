@@ -21,4 +21,4 @@ item_ids:
   <BlockImage id="appliedenergistics2:tile.OreQuartzCharged" scale="4" />
 </Row>
 
-和其他矿石一样，它生成于世界各地或矿脉中。破坏它们会掉落<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:10" />和<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />。
+和其他矿石类似，会在世界各处或在矿脉生成。破坏它们会掉落<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:10" />与<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />。

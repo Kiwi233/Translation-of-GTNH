@@ -9,21 +9,22 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# GTNH 队伍
-2.9 带来了全新的队伍系统——先别急着举起草叉！该系统打算实际取代整合包中现有的每一个队伍系统！
+# GTNH 队伍系统
 
-所有玩家默认都会处于一个队伍中（即只有你自己的单人队伍），标准命令列在本页末尾。该队伍系统目前已与[自动售货机](../qol/vending_machine.md)和[可视化探矿](../qol/shared_prospecting.md)联动，但开发团队正在逐步把其他所有内容迁移到该系统上，以避免现有的各类队伍系统继续层出不穷。
+2.9 新增了一套新的队伍系统，不过先别急着抄起干草叉！这套系统的目标，是逐步替换整包里目前几乎所有旧有的队伍系统。
 
-## 命令：
-| 命令   | 用途    |
+默认情况下，所有玩家都会自动处在一个队伍里（哪怕只有你自己一个人）。标准指令列在本页末尾。当前这套系统已经和 [自动售货机](../qol/vending_machine.md) 以及 [共享勘探](../qol/shared_prospecting.md) 打通了；开发组也正在慢慢把更多内容迁到这套系统上，以免整包里同时并存一堆不同的队伍机制。
+
+## 指令：
+
+| 指令   | 作用    |
 |--------------- | --------------- |
-| `/gtnhteam help`   | 显示这份命令列表   |
+| `/gtnhteam help`   | 显示这份指令列表   |
 | `/gtnhteam info`   | 输出你当前队伍的成员列表   |
-| `/gtnhteam invite <player>`   | 官员 - 邀请一名在线玩家加入你的队伍   |
+| `/gtnhteam invite <player>`   | 管理员以上可用：邀请一名在线玩家加入你的队伍   |
 | `/gtnhteam accept [team]`   | 接受一个待处理的队伍邀请  |
-| `gtnhteam deny [team]`   | 拒绝一个待处理的队伍邀请 |
-| `gtnhteam leave`   | 离开当前队伍并组建新的单人队伍 |
-| `gtnhteam rename <new name>`   | 所有者 - 更改你队伍的名称 |
-| `/gtnhteam promote <player>`   | 所有者 - 将成员晋升为官员，或将官员晋升为所有者 |
-| `/gtnhteam demote`   | 所有者 - 将所有者降为官员，或将官员降为成员 |
-
+| `/gtnhteam deny [team]`   | 拒绝一个待处理的队伍邀请 |
+| `/gtnhteam leave`   | 离开当前队伍，并新建一个只包含自己的队伍 |
+| `/gtnhteam rename <new name>`   | 队长可用：修改你的队伍名称 |
+| `/gtnhteam promote <player>`   | 队长可用：将成员提升为管理员，或将管理员提升为队长 |
+| `/gtnhteam demote`   | 队长可用：将队长降为管理员，或将管理员降为普通成员 |

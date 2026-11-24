@@ -3,8 +3,8 @@ item_ids:
   - gregtech:gt.blockmachines:12020
   - gregtech:gt.blockmachines:12021
   - gregtech:gt.blockmachines:12022
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAALpQ==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAALpQ=="}
 navigation:
   title: Electric Air Filter
   parent: ./multiblocks_index.md

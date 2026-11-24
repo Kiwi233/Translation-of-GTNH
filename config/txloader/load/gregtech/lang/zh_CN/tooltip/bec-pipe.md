@@ -1,6 +1,4 @@
-机器类型：{yellow:玻-爱凝聚态物质导管}
-将多个玻色-爱因斯坦凝聚态物质的多方块结构连接成一个网络。
-多方块结构必须拥有一个{gold:{item:gregtech:gt.blockmachines:15476}}，该仓室连接导管后才能接入网络。
-使用{gold:{item:gregtech:gt.blockmachines:15760}}来控制凝聚态物质的流动。
-管道可拆分或转向——多方块结构只需互相连接即可组网。
-只会连接与其颜色匹配的管道及仓室。
+将多个玻色-爱因斯坦凝聚态物质多方块结构接入同一个网络
+连接到多方块结构上的{gold:{item:gregtech:gt.blockmachines:15476}}
+导管可以分支和转弯，只会连接与自身颜色匹配的导管和仓室
+使用{gold:{item:gregtech:gt.blockmachines:15760}}控制凝聚态物质的可见性和流动

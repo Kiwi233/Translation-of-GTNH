@@ -12,17 +12,17 @@ item_ids:
   - kekztech:kekztech_lapotronicenergyunit_block:9
   - kekztech:kekztech_lapotronicenergyunit_block:10
   - gregtech:gt.Power_Goggles
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAKrA==
-  - AAAAAAAAAAAAAAAAAAALTg==
-  - AAAAAAAAAAAAAAAAAAAKrQ==
-  - AAAAAAAAAAAAAAAAAAAKrg==
-  - AAAAAAAAAAAAAAAAAAAKrw==
-  - AAAAAAAAAAAAAAAAAAAKjA==
-  - AAAAAAAAAAAAAAAAAAAM3w==
-  - 13PWs3MhTUOgkIQq8EKhaQ==
-  - vrE4rYLuSnmmtAklayd6gw==
-  - GvlZG9IESmW2qsEMw-hkIw==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKrA=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAALTg=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKrQ=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKrg=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKrw=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKjA=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAM3w=="}
+  - {type: "betterquesting", id: "13PWs3MhTUOgkIQq8EKhaQ=="}
+  - {type: "betterquesting", id: "vrE4rYLuSnmmtAklayd6gw=="}
+  - {type: "betterquesting", id: "GvlZG9IESmW2qsEMw-hkIw=="}
 navigation:
   title: Lapotronic Supercapacitor
   parent: ./multiblocks_index.md

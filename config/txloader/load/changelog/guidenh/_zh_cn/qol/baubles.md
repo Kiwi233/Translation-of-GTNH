@@ -9,20 +9,21 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# 饰品
-为了整合物品栏，__匠魂物品栏标签页__ 已被禁用。为配合这一改动，新增了以下内容：
+# 饰品栏
 
-- 新增了 <Color id="GREEN">__通用__</Color> 饰品格槽，可接受游戏中 _大多数_ 饰品
+为了整合背包界面，__Tinker's Inventory Tab__ 已被禁用。为了配合这个改动，现在加入了下面这些补充内容：
 
-- 新增了让指定匠魂物品放入饰品格槽的支持：
-- - <Color id="GREEN">旅行腰带</Color> - 槽位类型：通用
-- - <Color id="RED">旅行手套</Color> - 槽位类型：通用
-- - <Color id="BLUE">心之容器</Color> - 自定义槽位，可堆叠至 10！
+- 新增了 <Color id="GREEN">__通用__</Color> 饰品栏位，可以容纳游戏里 _大多数_ 饰品
 
-- 将佩戴火把和方块的功能移至 <Color id="GREEN">自定义外观护甲</Color> - 现在你可以有型地戴上泥土帽子了！该功能同样支持 <Color id="GREEN">动态光照</Color>
+- 现在部分匠魂相关物品也能放进饰品栏：
+- - <Color id="GREEN">Travel Belt</Color> - 栏位类型：通用
+- - <Color id="RED">Travel Glove</Color> - 栏位类型：通用
+- - <Color id="BLUE">Heart Canisters</Color> - 专用栏位，最多可叠到 10 个！
+
+- 原本把火把和方块装备到身上的功能，现在移到了 <Color id="GREEN">自定义装饰护甲</Color> 里。也就是说，你现在可以更体面地戴着你的泥土帽了！这同样支持 <Color id="GREEN">动态光源</Color>
 
 <FloatingImage src="../assets/qol/baubles.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
-    一些饰品在新家中的示例！*Ranzu 向你问好！*
+    一些饰品在新家里的示例！*Ranzu 向你问好！*
   </ImageAnnotation>
 </FloatingImage>

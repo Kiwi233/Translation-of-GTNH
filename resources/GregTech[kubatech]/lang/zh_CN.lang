@@ -136,7 +136,6 @@ kubatech.chat.mia.not_empty=§c有蜜蜂存在时无法在蜂群/普通模式之
 # info data
 ## general
 kubatech.infodata.running_mode=运行模式：
-kubatech.infodata.running_mode.fmt=运行模式：§a%s§r
 
 ## Extreme Entity Crusher
 kubatech.infodata.eec.current_mob=当前生物：§e%s
@@ -162,8 +161,6 @@ kubatech.infodata.eec.weapon.looting_level=武器掠夺等级：§e%s
 kubatech.infodata.eec.total_damage=总攻击伤害：§e%s
 
 ## Extreme Industrial Greenhouse
-kubatech.infodata.eig.running_mode.setup_mode.input=运行模式：§a设置模式（输入）§r
-kubatech.infodata.eig.running_mode.setup_mode.output=运行模式：§a设置模式（输出）§r
 kubatech.infodata.eig.uses.water=每次操作消耗 %s L 水
 kubatech.infodata.eig.uses.weedex=每秒消耗 %s L 除草剂-9000
 kubatech.infodata.eig.max_slots=最大槽位数：§a%s§r
@@ -377,6 +374,9 @@ kubatech.multiblock.ExtremeIndustrialGreenhouse.fertilized_dirt=沃土 （来自
 kubatech.multiblock.ExtremeIndustrialGreenhouse.purple_lamp=紫色灯 （普通或反向的，来自ProjectRed Illumination）
 kubatech.multiblock.ExtremeIndustrialGreenhouse.footer=土壤需要耕过，结构成型后水会自动生成
 
+kubatech.infodata.eig.running_mode.operational=运行模式：§a运行§r
+kubatech.infodata.eig.running_mode.setup_mode.input=运行模式：§e输入§r
+kubatech.infodata.eig.running_mode.setup_mode.output=运行模式：§e输出§r
 
 kubatech.multiblock.MegaIndustrialApiary.machine_type=巨型工业蜂箱，Mapiary
 kubatech.multiblock.MegaIndustrialApiary.dirt_or_grass=泥土或草方块
