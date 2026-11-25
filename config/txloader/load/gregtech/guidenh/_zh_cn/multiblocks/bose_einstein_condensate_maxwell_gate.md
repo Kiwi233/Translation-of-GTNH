@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15760
-quest_ids:
-  - HvtY6xu3RAKjwhAZCTwK8A==
+bindings:
+  - {type: "betterquesting", id: "HvtY6xu3RAKjwhAZCTwK8A=="}
 navigation:
   title: Bose-Einstein Condensate Maxwell Gate
   parent: ./bose_einstein_condensate_line.md

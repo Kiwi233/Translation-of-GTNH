@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15756
-quest_ids:
-  - KV1vw68JTb-KiHQzBEPzBw==
+bindings:
+  - {type: "betterquesting", id: "KV1vw68JTb-KiHQzBEPzBw=="}
 navigation:
   title: Bose-Einstein Condensate Observation Array
   parent: ./bose_einstein_condensate_line.md

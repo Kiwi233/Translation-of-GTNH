@@ -9,14 +9,17 @@ author: Skorched
 date: 2026-05-22
 ---
 # Fether
-<Color id="RED">Fether</Color> 是 Pam 的“Harvest the Nether”的 1:1 替代品，附带一整套全新材质，为下界农耕增添了更多多样性！其中包括：
-- 一套全新的石英材质盔甲与工具
-- 可以~~杀气腾腾地~~用来在下界睡觉的床！
-- 带有阴森恐怖材质的全新树木
-- 可作为荧石来源的辉光花植物
-- 一些全新的食物等你来尝！
+
+<Color id="RED">Fether</Color> 是对 Pam 的 “Harvest the Nether” 的完整替代，同时带来了整套全新的贴图，并让下界农业内容更丰富了一些！其中包括：
+
+- 一整套新的石英系护甲与工具
+- 可以在下界 ~~带着杀意地~~ 睡觉的床！
+- 全新的诡异风格树木贴图
+- 作为萤石来源的辉光花
+- 还有一些全新的食物可以试试！
+
 <FloatingImage src="../assets/misc/fether.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
-    部分新增物品展示
+    一些新增物品示例
   </ImageAnnotation>
 </FloatingImage>

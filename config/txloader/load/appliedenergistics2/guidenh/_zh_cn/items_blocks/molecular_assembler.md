@@ -13,30 +13,34 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockMolecularAssembler" scale="8" />
 
-分子装配室接收输入物品，并按相邻<ItemLink id="appliedenergistics2:tile.BlockInterface" />的定义，或按插入的<ItemLink id="appliedenergistics2:item.ItemEncodedPattern" />、<ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />或<ItemLink id="appliedenergistics2:item.ItemTunnelPattern" />执行相应的合成操作，最终将产物推送至相邻容器。
+分子装配室会接收输入其中的物品并执行相邻<ItemLink id="appliedenergistics2:tile.BlockInterface" />设定的操作，或执行其中<ItemLink id="appliedenergistics2:item.ItemEncodedPattern" />、<ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />或<ItemLink id="appliedenergistics2:item.ItemTunnelPattern" />设定的操作，并将产物输出到相邻容器。
 
-下方的装配室中装载了“1个橡木原木=4个橡木木板”的样板。把橡木原木送入上方的漏斗，它就会执行合成，然后把橡木木板弹出到下方的漏斗中。
+下述装配室装有一个“1x 橡木原木 = 4x 橡木木板”的样板。向上方漏斗放入橡木原木，分子装配室便会开始合成并将橡木木板弹出到下方漏斗。
 
 <GameScene zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/standalone_assembler.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 主要用途
+## 分子装配室的主要用途
 
-分子装配室的主要用途是紧邻<ItemLink id="appliedenergistics2:tile.BlockInterface" />放置。接口会把相应的样板和原料一并发送给相邻的装配室。由于装配室会自动把合成产物弹出到相邻容器（即接口的返回槽），只需将装配室放在接口旁边即可实现样板合成的自动化。
+它们的主要用途是放在<ItemLink id="appliedenergistics2:tile.BlockInterface" />的相邻位置。ME接口在此情况下有特殊行为，会将相关样板和材料输入相邻装配室。因为装配室会将产物自动弹出到相邻容器（也即弹出到ME接口的返回栏内），相邻放置的装配室和ME接口就是自动化合成样板所需的一切了。
 
 <GameScene zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/assembler_tower.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 可安装升级
+## 升级
 
-分子装配室支持<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />（加速卡）。
+分子装配室支持以下[升级](upgrade_cards.md)：
 
-## 合成配方
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />（加速卡）
+
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockMolecularAssembler" />
 
+## 注释
 
+~~Optifine会破坏“弹出至相邻容器”功能，导致大多数需要装配室的合成设施无法工作。~~

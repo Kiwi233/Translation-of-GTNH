@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:1170
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAFhA==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAFhA=="}
 navigation:
   title: Assembly Line
   parent: ./multiblocks_index.md

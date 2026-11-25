@@ -22,7 +22,8 @@ author: Skorched
 date: 2026-05-26
 ---
 
-# 装罐机合并
-虽然只是相对较小的改动，但流体灌装机（<ItemImage id="gregtech:gt.blockmachines:431" />）现已被正式弃用。其功能现已完全合并到基础装罐机（<ItemImage id="gregtech:gt.blockmachines:231" />）中！
+# 罐装机合并
 
-低压生产线上不再有那些多余机器到处乱放，实在没什么好抱怨的！
+虽然这只是个相对小的改动，但流体罐装机（<ItemImage id="gregtech:gt.blockmachines:431" />）现在已经正式弃用了。它的功能已经完整并入罐装机（<ItemImage id="gregtech:gt.blockmachines:231" />）中！
+
+LV 产线里少飘几台单独机器，总归没什么可抱怨的。

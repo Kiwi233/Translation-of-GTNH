@@ -13,9 +13,12 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:45" scale="4" />
 
-陨石粉由粉碎<ItemLink id="appliedenergistics2:tile.BlockSkyStone" />产生。它在默认配方中没有用途，但GTNH自定义配方可能会赋予其用途。可用NEI查询其可用之处。
+被粉碎的<ItemLink id="appliedenergistics2:tile.BlockSkyStone" />默认环境下无用途。
 
-## 合成配方
+配合自定义配方魔改用途。
+
+用途查询NEI。
+
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:45" />
-

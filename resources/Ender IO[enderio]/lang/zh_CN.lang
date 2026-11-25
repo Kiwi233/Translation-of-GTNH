@@ -62,6 +62,10 @@ enderio.itemLiquidConduitCrystallineEnder.name=晶化合金末影流体导管
 enderio.itemLiquidConduitCrystallinePinkSlimeEnder.name=晶化粉红史莱姆末影流体导管
 enderio.itemLiquidConduitMelodicEnder.name=旋律合金末影流体导管
 enderio.itemLiquidConduitStellarEnder.name=恒星合金末影流体导管
+enderio.itemLiquidConduitPrismaticNaquadahEnder.name=海晶硅岩末影流体导管
+enderio.itemLiquidConduitFluxedEnder.name=通流末影流体导管
+enderio.itemLiquidConduitTranscendentEnder.name=超时空末影流体导管
+enderio.itemLiquidConduitCosmicEnder.name=寰宇末影流体导管
 enderio.itemLiquidConduit.lockedType=流体种类锁定为
 enderio.itemLiquidConduit.unlockedType=流体种类解锁
 enderio.itemLiquidConduit.lockedWaila=锁定为
@@ -651,6 +655,8 @@ tile.blockWeatherObelisk.tooltip.detailed.line4=液态阳光：晴天
 tile.blockWeatherObelisk.tooltip.detailed.line5=云之精华：雨天
 tile.blockWeatherObelisk.tooltip.detailed.line6=浓缩云之精华：雷暴天
 
+tile.blockInhibitorObelisk.name=传送抑制方尖碑
+
 tile.blockBuffer.name=缓存
 tile.blockBuffer.item.name=物品缓存器
 tile.blockBuffer.power.name=能量缓存器
@@ -779,8 +785,14 @@ item.itemCoordSelector.tooltip.detailed.line5=选取特定方块.
 item.itemCoordSelector.tooltip.detailed.line6=可以在远处选取.
 enderio.itemCoordSelector.chat.newCoords=新坐标: %s
 enderio.itemCoordSelector.chat.setCoords=设置坐标: %s
-enderio.itemCoordSelector.chat.newDimension=新维度: %s%s
-enderio.itemCoordSelector.chat.setDimension=设置维度: %s%s
+enderio.itemCoordSelector.chat.newDimension=新维度: %s
+enderio.itemCoordSelector.chat.setDimension=设置维度: %s
+enderio.itemConduitProbe.chat.copied=已复制导管设置
+enderio.itemOCConduit.chat.channel=频道%s位于%s
+enderio.itemOCConduit.chat.connectedTo=连接到：%s
+enderio.itemOCConduit.chat.nodeAt=%s位于%s
+enderio.itemOCConduit.chat.noConnections=在%s处没有连接
+enderio.itemOCConduit.chat.noNetwork=在%s处没有网络
 
 #Painter
 tile.blockPainter.name=喷涂机
@@ -1146,8 +1158,8 @@ enderio.gui.mjReader.insertedInto=会被输入于:
 enderio.gui.mjReader.noItems=未接收到物品.
 enderio.gui.mjReader.noItem=无法接收
 enderio.gui.mjReader.receiveItems=合法的接收对象:
-enderio.gui.mjReader.receiveItem1=可以接收
-enderio.gui.mjReader.receiveItem2=从:
+enderio.gui.mjReader.receiveItem=可从以下方向接收 %s：
+enderio.gui.mjReader.distance=距离[%s]
 
 #CapactorBank
 enderio.gui.capBank.inputRs=输入红石控制
@@ -1208,8 +1220,7 @@ enderio.gui.blockBuffer.omni.name=多功能缓存器
 enderio.gui.blockBuffer.creative.name=创造缓存器
 
 #Travel Blocks
-enderio.gui.travelAccessable.privateBlock1=只有
-enderio.gui.travelAccessable.privateBlock2=才能改变该方块的设置.
+enderio.gui.travelAccessable.privateBlock=只有%s可以更改此方块的设置。
 enderio.gui.travelAccessable.public=公共
 enderio.gui.travelAccessable.private=私有
 enderio.gui.travelAccessable.protected=被保护

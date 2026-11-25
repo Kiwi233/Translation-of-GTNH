@@ -162,6 +162,7 @@ chat.appliedenergistics2.WirelessInOtherDim=%d §e“%d§e”§r位于维度：%
 chat.appliedenergistics2.WirelessHighlighterPrefix=无线
 chat.appliedenergistics2.WirelessHighlighterNetworkPrefix=网络无线连接 §e"%s§e"§r -
 chat.appliedenergistics2.WirelessHighlighterColorPrefix=无线网络§e"%2$s§e"§r的颜色§e"%1$s§e"§r-
+chat.appliedenergistics2.CableSwapped=线缆已更换：%s → %s
 chat.appliedenergistics2.ControllerAnimation=控制器动画： %s
 
 # Creative Tabs
@@ -326,6 +327,8 @@ gui.appliedenergistics2.StoredItems=已存储物品
 gui.appliedenergistics2.StoredStacks=已存储(组)
 gui.appliedenergistics2.Terminal=终端
 gui.appliedenergistics2.InterfaceTerminal=接口终端
+gui.appliedenergistics2.InterfaceUpgrades=升级
+chat.appliedenergistics2.InterfaceUpgradeRemovalBlocked=在取出此容量卡之前，请先移除即将被禁用行内的样板。
 gui.appliedenergistics2.InterfaceTerminalHint=在接口终端显示或隐藏。
 gui.appliedenergistics2.PatternOptimization=允许样板优化
 gui.appliedenergistics2.PatternOptimizationHint=允许样板优化矩阵优化本接口中的样板

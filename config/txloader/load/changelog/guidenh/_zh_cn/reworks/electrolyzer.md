@@ -16,36 +16,35 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15514"/>
 </GameScene>
-<Color id="GREEN">工业电解机</Color>是一台IV级多方块结构，用于将粉和液体电解为其子化合物或组成元素（例如把甲烷电解为碳和氢）。<Color id="GREEN">工业电解机</Color>是单方块电解机的直接升级，因为它以280%速度运行，只消耗正常所需90%的EU/t，并且每级电压提供4次并行。
+<Color id="GREEN">工业电解机</Color> 是一台 IV 级多方块，用于把粉末与流体电解为子化合物或组成元素，例如把甲烷分解为碳与氢。<Color id="GREEN">工业电解机</Color> 是单方块电解机的直接升级版，因为它拥有 280% 速度、仅需原本 90% 的 EU/t，并且每个电压等级可提供 4 并行。
 
 <br clear="all"/>
 
 > [!NOTE]
-> 与上一版本相比（结构本身除外），唯一的改动是现在每级电压提供4次并行。就这些！
+> 这台多方块相较旧版本，除结构本身外，唯一的变化就是现在每个电压等级提供 4 并行，仅此而已。
 
-## 建造
-<Color id="GREEN">工业电解机</Color>没有任意等级部件。总线/仓可以替换结构中任意位置的电解机机械方块。不支持多A能源仓和激光能源仓，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来预览/搭建结构。
+## 搭建
+<Color id="GREEN">工业电解机</Color> 没有分级结构部件。总线和仓室可以替换结构中任意位置的电解机机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构。
 
 ### 需要：
-- 1 <ItemLink id="gregtech:gt.blockmachines:15514" /> <ItemImage id="gregtech:gt.blockmachines:15514" />
-- 6-43 <ItemLink id="miscutils:miscutils.blockcasings:5" /> <ItemImage id="miscutils:miscutils.blockcasings:5" />
-- 12 <ItemLink id="miscutils:blockFrameGtPotin" /> <ItemImage id="miscutils:blockFrameGtPotin" />
-- 4 <ItemLink id="gregtech:gt.blockcasings11" /> <ItemImage id="gregtech:gt.blockcasings11" />
-- 4 <ItemLink id="gregtech:gt.blockcasings11:1" /> <ItemImage id="gregtech:gt.blockcasings11:1" />
-- 1+ 能源仓（任意机械方块处） <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 维护仓（任意机械方块处） <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 消声仓（任意机械方块处） <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ 输入总线（任意机械方块处） <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ 输入仓（任意机械方块处） <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ 输出总线（任意机械方块处） <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ 输出仓（任意机械方块处） <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:15514" /> <ItemImage id="gregtech:gt.blockmachines:15514" />
+- 6-43 个 <ItemLink id="miscutils:miscutils.blockcasings:5" /> <ItemImage id="miscutils:miscutils.blockcasings:5" />
+- 12 个 <ItemLink id="miscutils:blockFrameGtPotin" /> <ItemImage id="miscutils:blockFrameGtPotin" />
+- 4 个 <ItemLink id="gregtech:gt.blockcasings11" /> <ItemImage id="gregtech:gt.blockcasings11" />
+- 4 个 <ItemLink id="gregtech:gt.blockcasings11:1" /> <ItemImage id="gregtech:gt.blockcasings11:1" />
+- 1+ 个能源仓（任意电解机机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 个维护仓（任意电解机机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 个消声仓（任意电解机机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 个输入总线（任意电解机机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 个输入仓（任意电解机机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 个输出总线（任意电解机机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
+- 0+ 个输出仓（任意电解机机械方块） <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### 共用墙壁
-<Color id="GREEN">工业电解机</Color>的每个侧面都可以与其他机器共用墙壁，以节省机械方块、框架方块和总线/仓。这包括两侧的物品管道方块，但如果不先用扳手潜行右键将其中一台控制器水平翻转，就无法将它们互换。没有任何配方消耗超过1A的电力，因此可以在<u>__两__</u>台机器之间共享<u>__一__</u>个能源仓。
+### 共墙
+<Color id="GREEN">工业电解机</Color> 的每个侧面都可以共墙，以节省机械方块、框架和总线/仓室，其中也包括两侧的物品管道方块。不过如果想让两台机器在共墙时交换这两侧管道的位置，就必须先把其中一台控制器水平翻转一次，方法是潜行手持扳手右键控制器。由于没有任何配方的单次耗电会超过 1A，因此理论上可以让 <u>__两__</u> 台机器共用 <u>__一个__</u> 能源仓。
 
-## 用途
-<Color id="GREEN">工业电解机</Color>是单方块电解机的直接升级，因为它以<Color id="GREEN">280%</Color>速度运行，只消耗正常所需<Color id="BLUE">90%</Color>的EU/t，并且每级电压提供<Color color="#ed6401">4</Color>次并行，如下表所示。
-
+## 使用
+<Color id="GREEN">工业电解机</Color> 是单方块电解机的直接升级版，因为它拥有 <Color id="GREEN">280%</Color> 速度、仅需原本 <Color id="BLUE">90%</Color> 的 EU/t，并且每个电压等级可提供 <Color color="#ed6401">4</Color> 并行，如下表所示。
 
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | -------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |

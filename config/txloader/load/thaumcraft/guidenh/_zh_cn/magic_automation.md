@@ -18,155 +18,164 @@ navigation:
   <FloatingImage src="/assets/images/thaumcraft_logo.png" x="50" y="132" width="2078" height="445" displayWidth="300" wrap="inline" title="Thaumcraft" />
 </Column>
 
-神秘时代和**自动化魔法**提供物品收集、库存监控、远距离运输和流体供应设施。<br>它们可以连接现有管道、ME 网络和红石控制，承担生产系统中的特定环节。
+神秘时代与**自动化魔法(Automagy)**提供了物品收集、库存检测、远距离运输和流体供给等设施.<br>
+它们可以接入已有的管道、ME 网络与红石控制,用于处理生产系统中的特定环节.
 
-它们主要用于<Color color="#B7A0D6">收集与分配、库存条件控制、空间运输和生产辅助</Color>。
+这些设备的用途主要集中在<Color color="#B7A0D6">收集与分流、库存条件、空间传输和生产辅助</Color>.
 
-## 物品收集与分配
+## 物品收集与分流
 
-**收集掉落物**
+**掉落物收集**
 
-<ItemLink id="Thaumcraft:blockChestHungry" showIcon="left" />会吸收接触到它的掉落物。将其放在设备排出物品的位置，即可把产物收进容器，供现有物流系统取出。
+<ItemLink id="Thaumcraft:blockChestHungry" showIcon="left" />能够吞入接触到它的掉落物.放在设备抛出物品的位置,可以将产物收进容器,再由已有物流输出.
 
-**从相邻容器取出物品**
+**邻接容器取物**
 
-<ItemLink id="Automagy:blockGreedyChest" showIcon="left" />会监视相邻容器中新增的物品，并根据设置将其中一部分转移到自身。<br>默认分配比例为 50%。使用法杖打开设置，可选择抽取方向和工作模式。
+<ItemLink id="Automagy:blockGreedyChest" showIcon="left" />会关注相邻容器中新加入的物品,并按配置将其中一部分转入自身.<br>
+默认分取比例为 50%,可以用法杖打开设置,选择取物方向与工作方式.
 
-- **按比例分配：** 按所选比例将输入物品送入相邻容器，把同一来源分配给不同用途。
-- **维持库存：** 根据目标数量抽取物品，为生产线的某个支路维持固定供应量。
-- **抽取多余物品：** 保留相邻容器中的所需库存，抽取超过阈值的部分。
-- **物品过滤：** 使用<ItemLink id="Automagy:enchantedPaper:1" showIcon="left" />或<ItemLink id="Automagy:enchantedPaper:2" showIcon="left" />选择参与分配的物品。
+- **按比例分流**：从邻接容器的输入中取得指定份额,可用于将同一来源分配到不同用途.
+- **维持库存**：围绕设定数量取物,适合为支线保留固定储量.
+- **取得超量部分**：让邻接容器保留所需库存,将超过阈值的部分收走.
+- **限定物品**：配合<ItemLink id="Automagy:enchantedPaper:1" showIcon="left" />或<ItemLink id="Automagy:enchantedPaper:2" showIcon="left" />,筛选参与分流的物品.
 
-贪婪箱子不会从正下方的漏斗中取出物品。两个贪婪箱子之间的转移也取决于方向设置。<br>若将其放在机器的配方缓冲区旁，请先配置方向和过滤器，以免分走必需原料。
+贪婪箱子不会从它正下方的漏斗取物；两只贪婪箱子之间的取物还受各自方向设置影响.<br>
+用于机器配方缓存时,应先设置方向和筛选范围,避免合成需要的材料被分流.
 
 **保留物品样本**
 
-<ItemLink id="Automagy:blockTenaciousChest" showIcon="left" />会为每种物品保留样本，避免后续遵循其抽取规则的自动化将物品全部取走。<br>它会尝试将一个物品分离成独立的一叠，以便继续抽取其余库存。玩家仍然可以手动取出保留物品。
+<ItemLink id="Automagy:blockTenaciousChest" showIcon="left" />会为各类物品保留样本,阻止遵循其抽取规则的自动化将这些物品全部取走.<br>
+它会尝试把一个物品分成独立的一组,供其余库存继续输出；玩家仍可以手动取出保留物.
 
-这种容器适用于种子、树苗和分类样本。配置后，物流系统可以持续抽取多余库存，同时保留重启生产或辨认物品所需的样本。
+这种容器适合留存种子、树苗或分类样本.配置后可以让物流持续输出多余库存,同时保留恢复生产或识别物品所需要的样本.
 
-## 镜子与远距离运输
+## 魔镜与远距离物流
 
-成对连接的<ItemLink id="Thaumcraft:blockMirror:0" showIcon="left" />方块可以远距离传送物品，甚至跨维度传送。物品可以扔进镜子，也可以通过物流插入。接收端需要容器或物品收集设备来处理输出。
+<ItemLink id="Thaumcraft:blockMirror:0" showIcon="left" />成对连接后,可以在远处乃至不同维度之间传递物品.物品可以投入镜面,也可以由物流送入；另一端需要安排容器或物品收集设施承接输出.
 
-普通魔镜必须成对连接。拆除后会保留之前的配对信息，也可以重新绑定到另一个目标。移动镜子后，请检查其接收位置和收集设施。
+普通魔镜只能成对连接.拆下后会保留之前的配对信息,也可以重新绑定新的目标；移动镜面后,应检查实际接收位置与回收设施.
 
-大量连续运输会使镜子产生负荷，降低输出速度。负荷会随时间消退，也可使用 秩序（Ordo）源质帮助消除。<br>多条生产线共用一个收集点时，要同时考虑镜子的吞吐量和接收端的处理能力。
+大量连续运输会给镜面累积压力,降低输出速度.压力会随时间消退,秩序源质也能帮助消除压力.<br>
+多处产线共用回收点时,需要同时考虑镜面的吞吐和接收端的处理能力.
 
-**旅行时将物品送回家**
+**外出寄回物品**
 
-<ItemLink id="Thaumcraft:HandMirror" showIcon="left" />可以随身携带。绑定到固定魔镜后，它的界面便能将物品送回该地点。<br>探索、采集资源或搬运补给时，可用它将物品送回基地。基地现有的收集与分类系统可以接收这些物品。
+<ItemLink id="Thaumcraft:HandMirror" showIcon="left" />可以随身携带,绑定固定魔镜后,通过它的界面将物品寄回目标位置.<br>
+适合探索、采集和搬运时向基地发送物品；基地一端可以使用已有的回收与分类系统接收.
 
-**合并多个来源**
+**多处来源汇集**
 
-<ItemLink id="Automagy:blockMirrorAlt:0" showIcon="left" />只接受输入。使用<ItemLink id="Automagy:crystalEye" showIcon="left" />选择已经配对的魔镜，即可将该设备接入魔镜运输通道。
+<ItemLink id="Automagy:blockMirrorAlt:0" showIcon="left" />是只接收输入的镜面设备.使用<ItemLink id="Automagy:crystalEye" showIcon="left" />指定一面已经配对的魔镜,它便能接入对应的镜面运输通道.
 
-聚合魔镜可以将不同地点的物品送往同一收集点，为分散的农场、加工设备和远处采集点服务。目标魔镜必须保持有效配对，输出端也需要持续收集物品。
+多个聚合魔境可以将不同地点的物品送往共同的回收点,适合分散的农场、加工设备与远处采集点.目标魔镜需要保持有效的配对关系,输出端也需要持续回收物品.
 
 > [!WARNING]
-> 镜子输出可能会生成掉落物。接收端的收集设施、储存容量和输出速度应能应付实际吞吐量，避免物品留在地面上消失。通过镜子发送贵重材料前，请确认接收地点。
+> 魔镜出口可能产生掉落物.接收端的收集设施、容量与输出速度应覆盖实际吞吐,避免物品长时间留在地面并消失.将贵重材料交给镜面物流前,应确认对应的接收位置.
 
-## 库存监控与自动控制
+## 库存检测与自动控制
 
-**根据物品数量发出信号**
+**按物品数量发出信号**
 
-<ItemLink id="Automagy:blockTally" showIcon="left" />会读取目标容器中的物品，并根据符文白名单或黑名单设定的条件输出红石信号。它朝向被检查的容器，信号则从相反方向输出。
+<ItemLink id="Automagy:blockTally" showIcon="left" />读取目标容器中的物品,根据符文白名单或黑名单设定的条件输出红石信号.它朝向被检查的容器,信号从相反方向输出.
 
-将输出连接到生产设备的红石控制，即可补充低库存、在达到目标数量时停止，或在一组材料备齐后触发另一台设备。
+可以将计数结果接入生产设备的红石控制,用于库存不足时补充、达到目标数量后停机,或在某类材料备齐后触发后续设备.
 
-计数盒还可以使用透镜改变检测内容：
+计数盒还可以安装透镜来改变检测对象：
 
-- <ItemLink id="Automagy:tallyLens:1" showIcon="left" />：检测目标位置的掉落物，可用于检查收集点是否有物品积压。
-- <ItemLink id="Automagy:tallyLens:2" showIcon="left" />：检查目标方块可能掉落的物品，包括普通掉落和精准采集结果，可将特定方块的存在用作触发条件。
+- <ItemLink id="Automagy:tallyLens:1" showIcon="left" />：检测目标位置的零散掉落物,可用于检查回收点是否积压.
+- <ItemLink id="Automagy:tallyLens:2" showIcon="left" />：根据目标方块可能产生的掉落物进行判定,包括普通掉落与精准采集结果,可将指定方块的出现作为触发条件.
 
 **远程读取容器**
 
-<ItemLink id="Automagy:blockRemoteComparator" showIcon="left" />使用水晶之眼绑定目标，并读取 20 格范围内容器或兼容方块的比较器状态。这样检测设备便可放在控制线路附近，让容器各侧留给物流连接。
+<ItemLink id="Automagy:blockRemoteComparator" showIcon="left" />通过水晶之眼绑定目标,在距离目标 20 格以内读取容器或兼容方块的比较器状态.这样可以将检测设备放在控制线路附近,为容器侧面保留物流接口.
 
-放在计数盒上方时，远程比较器会将远处容器中的物品信息传给计数盒进行判断。计数盒和远程比较器还可以串联转发目标信息，将库存条件传至更远的控制点。
+远程比较器放在计数盒上方时,可以把远处容器的物品信息交给计数盒判断.计数盒与远程比较器还可以接力读取目标,用于把库存条件传到更远的控制位置.
 
-**检测实体数量**
+**检测生物数量**
 
-<ItemLink id="Automagy:blockEntitySignal" showIcon="left" />可检测范围内指定类型的实体，数量会影响信号强度。<br>使用<ItemLink id="Automagy:crystalEntityEye" showIcon="left" />选择目标类型。成年和幼年动物可以分别选择，因此该设备适用于繁殖、屠宰及其他根据实体数量控制的设施。
+<ItemLink id="Automagy:blockEntitySignal" showIcon="left" />检测范围内指定类型的实体,数量会影响信号强度.<br>
+配合<ItemLink id="Automagy:crystalEntityEye" showIcon="left" />选择目标后,可以按成年或幼年动物筛选,适合控制繁殖、屠宰或其他需要判断生物数量的设施.
 
-最大检测区域为 11×11×11。设备周围的实心方块会改变检测方向和区域：遮挡一面会限制该方向的检测，并将范围延伸至相反一侧。玻璃、水等方块不会以同样方式阻挡检测。<br>将其放在动物围栏附近时，请核对检测范围是否覆盖围墙内区域。
+最大检测区域为 11×11×11.设备周围的实心方块会改变检测方向与区域：遮住一面会限制该方向并将范围向对面延伸；玻璃、水等方块不会按同样方式遮挡检测.<br>
+布置在圈舍附近时,应结合墙壁位置检查覆盖区域.
 
-**定时启动**
+**定时触发**
 
-<ItemLink id="Automagy:blockHourglassMagic" showIcon="left" />可提供可重复的定时和红石输出。<br>它可以在计时结束时发出脉冲、计时期间持续输出、交替输出，或短暂中断信号。输入信号也可以启动、重置或停止计时器。
+<ItemLink id="Automagy:blockHourglassMagic" showIcon="left" />提供可重复的计时与红石输出.<br>
+它可以配置计时结束时的脉冲、计时期间的持续信号、交替输出和短暂断电等模式,也可以根据输入信号启动、重置或停止计时.
 
-魔法沙漏可用于间歇供给、定期收集或启动设备。用法杖调整计时和模式后，可将其与库存条件组合，决定设备何时可以运行。
+魔法沙漏适合为间歇供料、周期性收集或设备触发提供节拍.使用法杖调整时间与模式后,可以和库存条件共同决定何时允许设备工作.
 
 **红晶线路**
 
-<ItemLink id="Automagy:blockRedcrystal" showIcon="left" />可以附着在不同方块面上，并绕过拐角连接。使用法杖调整与相邻红晶的连接，即可在紧凑的设施周围布置控制线路。
+<ItemLink id="Automagy:blockRedcrystal" showIcon="left" />可以安装在方块的不同表面,并沿边角连接.法杖用于调整它与相邻红晶的连接,便于在紧凑的设备周围布置控制线路.
 
-- <ItemLink id="Automagy:blockRedcrystalAmp" showIcon="left" />：放大输入信号，并朝选定方向输出。
-- <ItemLink id="Automagy:blockRedcrystalDim" showIcon="left" />：限制最大输出信号强度。
-- <ItemLink id="Automagy:blockRedcrystalDense" showIcon="left" />：仅传递达到所选最低强度的信号。
-- <ItemLink id="Automagy:blockRedcrystalRes" showIcon="left" />：两个水晶相对放置时，会沿直线隔空传递信号，间距最多 15 格。
-- <ItemLink id="Automagy:blockRedcrystalMerc" showIcon="left" />：通过成对魔镜传递红石信号。将两端分别绑定到对应魔镜，并放在距离魔镜 8 格以内的位置。
+- <ItemLink id="Automagy:blockRedcrystalAmp" showIcon="left" />：把接收到的信号增幅后定向输出.
+- <ItemLink id="Automagy:blockRedcrystalDim" showIcon="left" />：限制输出信号的最高强度.
+- <ItemLink id="Automagy:blockRedcrystalDense" showIcon="left" />：只允许达到设定最低强度的信号通过.
+- <ItemLink id="Automagy:blockRedcrystalRes" showIcon="left" />：两端相向布置时,可以沿直线隔空传递信号,距离最多 15 格.
+- <ItemLink id="Automagy:blockRedcrystalMerc" showIcon="left" />：借助配对魔镜传递红石信号.两端分别绑定对应的镜面,并放在所绑定镜面 8 格以内.
 
-镜像红晶可以将接收端的库存条件传回远处的生产线，通过镜子物流协调供料和收集。
+墨丘利红晶可以把接收端的库存条件传回远处产线,让镜面物流的供料与回收形成联动.
 
-## 流体收集与供应
+## 流体收集与供给
 
-<ItemLink id="Automagy:blockThirstyTank" showIcon="left" />的默认容量为 16,000 mB。它会收集并储存一种流体，也可连接流体管道。它能吸收可用桶收集的相连液体，并沿相连的同类液体区域寻找来源。
+<ItemLink id="Automagy:blockThirstyTank" showIcon="left" />默认容量为 16,000 mB,用于收集与储存一种流体,也能连接流体管道.它可以吸取与自身相连、能够用桶收取的液体,并沿同种液体的连通区域寻找来源.
 
-GTNH 的默认配置会保留相邻的水源，使水源旁的水箱可以持续取水。当前配置也允许暴露在外的水箱收集雨水。对于其他流体，请根据池塘连通情况放置水箱。
+GTNH 的默认配置保留邻接水源,因此储罐靠着水源可以持续取水；当前配置也允许露天储罐在雨天收集水.使用其他流体时,应结合液池的连通状态安排位置.
 
-**使用符文添加功能**
+**用符石扩展功能**
 
-渴饮储罐的六个面各可安装一个符文。方向性功能取决于所选的方块面。容量、速度和排放效果均可按需配置。
+渴饮储罐的六个面各能安装一个符石.符石所在的面会影响定向功能；容量、速度和销毁等效果则可结合实际需求配置.
 
-- <ItemLink id="Automagy:glyph:3" showIcon="left" />：向该面所朝方向的容器输出流体。
-- <ItemLink id="Automagy:glyph:4" showIcon="left" />：从该面所朝方向的容器抽取流体。
-- <ItemLink id="Automagy:glyph:5" showIcon="left" />：仅在接收到红石信号时主动收集。
-- <ItemLink id="Automagy:glyph:6" showIcon="left" />：保留部分流体，避免水箱被完全抽空。
-- <ItemLink id="Automagy:glyph:7" showIcon="left" />：提高收集频率。安装多个此类符文会进一步提高频率。
-- <ItemLink id="Automagy:glyph:8" showIcon="left" />：每个符文增加 16,000 mB 容量。
+- <ItemLink id="Automagy:glyph:3" showIcon="left" />：向该面所指的容器输出流体.
+- <ItemLink id="Automagy:glyph:4" showIcon="left" />：从该面所指的容器取得流体.
+- <ItemLink id="Automagy:glyph:5" showIcon="left" />：只在收到红石信号时进行主动吸取.
+- <ItemLink id="Automagy:glyph:6" showIcon="left" />：保留部分流体,防止储罐被完全抽空.
+- <ItemLink id="Automagy:glyph:7" showIcon="left" />：加快取入流体的频率,多个同类符石可以进一步提高速度.
+- <ItemLink id="Automagy:glyph:8" showIcon="left" />：每个增加 16,000 mB 容量.
 
-符石：虹吸和符石：嫉妒可在相邻容器之间供应流体。符石：节制可以连接库存监控或生产控制。若要维持固定流体类型，符石：贮存会留下储备，使水箱继续绑定该类型。
+虹吸与嫉妒符石适合在邻接容器之间供给流体；节制符石可以接入库存检测或生产设备的控制信号.需要保持固定流体类型时,贮存符石可以留下用于锁定类型的余量.
 
 > [!WARNING]
-> <ItemLink id="Automagy:glyph:1" showIcon="left" />会接收并摧毁超出水箱容量的流体，而<ItemLink id="Automagy:glyph:2" showIcon="left" />会持续摧毁水箱中的流体。安排流体回收或处理副产物时，请确保需要保留的流体不会进入设置为排放的水箱。
+> <ItemLink id="Automagy:glyph:1" showIcon="left" />会接收并销毁超出容量的流体,<ItemLink id="Automagy:glyph:2" showIcon="left" />则持续销毁储罐内的流体.配置流体回收或副产物去向时,应确认需要保留的流体不会进入这些销毁用途的储罐.
 
-**自动挤奶**
+**自动汲奶**
 
-安装<ItemLink id="Automagy:glyph:9" showIcon="left" />后，水箱会沿符文指向的方向搜寻奶牛并收集牛奶，同时停止通常的周边液体收集。奶牛必须位于相应检测范围内，水箱也需要为产物留出空间并配置抽取方式。
+安装<ItemLink id="Automagy:glyph:9" showIcon="left" />后,储罐会朝符石所指方向寻找牛并取得奶,同时停止原有的周围液体吸取.牛的位置需要落在相应的检测区域内,储罐还应有空间接收产物并配置输出.
 
-在 NH 中，每头奶牛的挤奶冷却时间为 2000 游戏刻，即正常速度下约 100 秒。冷却时间记录在奶牛身上，因此多台水箱共用一头奶牛时也受同一限制。符石：狂饮会提高搜寻频率；持续产出还取决于轮流挤奶的奶牛数量。
+NH 中每头牛的汲奶冷却为 2000 游戏刻,按正常速度约为 100 秒.冷却记录在牛身上,多只储罐共用同一头牛也受这个限制.狂饮符石可以提高搜索频率,持续产量还取决于能够轮流汲奶的牛的数量.
 
-## 生产辅助
+## 生产辅助设施
 
-**加速作物生长**
+**作物催生**
 
-<ItemLink id="Thaumcraft:blockMetalDevice:8" showIcon="left" />使用植物（Herba）源质，加速其有效光照范围内的植物生长。它适用于小麦、胡萝卜和马铃薯等普通作物农场，收割与收集仍由现有设备负责。
+<ItemLink id="Thaumcraft:blockMetalDevice:8" showIcon="left" />使用草木(Herba)源质,为有效光照范围内的植物提供生长加速.它适合辅助小麦、胡萝卜、马铃薯等普通作物的农场,收获与产物回收可以沿用已有设备.
 
-调整其位置，使光照覆盖种植区域，并确保 植物 供应充足。
+布置时需要让灯光覆盖实际种植区域,并持续供应 Herba.
 
 **动物繁殖**
 
-<ItemLink id="Thaumcraft:blockMetalDevice:13" showIcon="left" />消耗生命（Victus）源质，使范围内符合条件的动物进入繁殖状态。当某个物种达到八只或更多时，灯会停止促进该物种繁殖。
+<ItemLink id="Thaumcraft:blockMetalDevice:13" showIcon="left" />消耗生命(Victus)源质,让范围内符合条件的动物进入繁殖状态.同类动物达到 8 只或更多时,灯会停止促使这一类动物繁殖.
 
-将其与生物感应器和现有动物收割设备配合使用，让繁殖、数量控制和产物处理分别承担系统中的一个环节。范围内的幼年动物也计入上限，因此围栏布局和下游处理速度会影响连续生产。
+它可以与生物感应器和现有的动物收获设备配合,让繁殖、数量控制和产物处理各自承担一个环节.范围内幼年动物同样会影响数量限制,圈舍布局与后续处理速度会影响持续生产.
 
-**定向采矿**
+**定向采掘**
 
-<ItemLink id="Thaumcraft:blockWoodenDevice:5" showIcon="left" />安装在<ItemLink id="Thaumcraft:blockWoodenDevice:4" showIcon="left" />上方或下方。插入<ItemLink id="Thaumcraft:FocusExcavation" showIcon="left" />和镐后，可用红石控制所选方向的采掘。
+<ItemLink id="Thaumcraft:blockWoodenDevice:5" showIcon="left" />安装在<ItemLink id="Thaumcraft:blockWoodenDevice:4" showIcon="left" />的上方或下方,装入<ItemLink id="Thaumcraft:FocusExcavation" showIcon="left" />与镐后,可以由红石控制沿指定方向挖掘.
 
-法杖核心和镐上的附魔会影响性能，而镐的耐久度决定作业能持续多久。产物从基座的输出口排出，或进入放在输出口处的容器。改变方向后，请检查采掘路径和输出位置。
+采掘核心与镐的附魔会影响工作表现,镐的耐久则关系到能够持续工作的时间.产物从基座的输出口排出,也可以进入对应位置的容器；改变方向后,需要重新检查挖掘路线与输出位置.
 
-混沌（Perditio）源质或对应的厘魔（Centi-Vis，CV）可以提高钻掘速度。围绕待采区域布置方向、工具和收集设施，并通过现有节点网络供应厘魔。
+混沌(Perditio)源质或相应厘魔可以提高钻探速度.使用时可以围绕需要开采的区域安排方向、工具和回收设施,厘魔供给则接入已有节点网络.
 
-### 傀儡的其他用途
+### 傀儡的补充用途
 
-傀儡可以补充设备间的运输、收割和物品交互。安装的核心决定其工作内容。使用<ItemLink id="Thaumcraft:GolemBell" showIcon="left" />绑定容器、地点和工作目标。
+傀儡可以补充设备之间的搬运、收获与物品交互.工作由安装的核心决定,使用<ItemLink id="Thaumcraft:GolemBell" showIcon="left" />绑定容器、位置和工作目标.
 
-- **炼金核心**可在蒸馏器、罐子和兼容设备之间搬运源质。
-- **收割核心**可处理兼容的成熟作物，并通过合适的升级重新种植。收集设备可以收取掉落物。
-- **使用核心**可模拟手持物品或空手点击，适用于支持这些交互的目标。
+- **炼金核心**用于在蒸馏器、罐子和兼容设备之间搬运源质.
+- **收获核心**处理兼容的成熟作物,配合相应升级补种,掉落物再由收集设施接走.
+- **使用核心**可以持物品或空手模拟点击操作,适用于支持这类交互的目标.
 
-使用傀儡时，应根据任务选择核心、材料和升级，并为其通往目标留出路径。设备处理好收集、分配和库存控制后，傀儡便可负责其余交互。
+需要使用傀儡时,按工作要求选择核心、材质与升级,并为它保留通往目标的路径.设备已经承担收集、分流和库存控制后,可以只在剩余的交互环节安排傀儡.
 
 </Column>

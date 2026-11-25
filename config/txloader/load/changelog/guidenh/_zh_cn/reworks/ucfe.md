@@ -15,53 +15,52 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15535"/>
 </GameScene>
-<Color id="GREEN">通用化学燃料引擎（UCFE）</Color>是一座 IV 级多方块结构，可利用几乎所有类型的可燃液体发电。<Color id="GREEN">UCFE</Color> 实际上是将大型燃气涡轮 <ItemImage id="gregtech:gt.blockmachines:15527"/>、火箭引擎 F-1A <ItemImage id="gregtech:gt.blockmachines:996"/> 和大型内燃引擎 <ItemImage id="gregtech:gt.blockmachines:15533"/> 的配方合而为一，成为一台效率极高的机器，且 EU/t 完全没有上限。唯一的例外是半流质燃料，它们仍然需要使用大型半流质发电机 <ItemImage id="gregtech:gt.blockmachines:31026"/>。除此之外唯一另一种必需的输入是助燃剂，它还能将燃料效率最高提升至 150%。火箭燃料所需的助燃剂远少于气体/柴油燃料。
+<Color id="GREEN">通用化学燃料引擎（UCFE）</Color> 是一台 IV 级多方块，几乎可以把所有可燃液体都拿来发电。<Color id="GREEN">UCFE</Color> 基本上把 <Color id="GREEN">大型燃气涡轮</Color> <ItemImage id="gregtech:gt.blockmachines:15527"/>、<Color id="GREEN">火箭引擎 F-1A</Color> <ItemImage id="gregtech:gt.blockmachines:996"/> 和 <Color id="GREEN">大型内燃引擎</Color> <ItemImage id="gregtech:gt.blockmachines:15533"/> 的燃料范围揉进了一台效率极高、而且 <Color id="RED">没有 EU/t 上限</Color> 的机器里。唯一的例外是半流质燃料，它们依然只能交给 <Color id="GREEN">大型半流质发电机</Color> <ItemImage id="gregtech:gt.blockmachines:31026"/>。除了燃料本身，机器还需要额外输入 <Color id="GREEN">助燃剂</Color>，它会把燃料效率提升到最多 150%。火箭燃料所需的助燃剂远少于燃气/柴油类燃料。
 
-[GTNH 电力规划器 ](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
+[GTNH Power Planner ](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]
-> 只有结构本身发生了变化，多方块结构的核心功能与之前相同
+> 这台多方块这次只改了结构，核心机制与旧版保持一致
 
-## 建造
-<Color id="GREEN">UCFE</Color> 没有任意等级部件。动力仓只能放在结构背面的中央机械方块上。其余的总线/仓可以替换结构上任意位置的加强钛机械方块。支持<Color id="BLUE">多A能源仓与激光能源仓</Color>，可满足大功率发电需求。如有需要，燃料和助燃剂可以通过同一个输入仓供给。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
+## 搭建
+<Color id="GREEN">UCFE</Color> 没有分级结构部件。动力仓固定在结构背面中央。其余仓室可以替换结构上的任意一块 <Color id="GREEN">加强钛机械方块</Color>。<Color id="BLUE">支持多安能源仓和激光靶仓</Color>，适合高功率发电。若你愿意，燃料与助燃剂也可以共用同一个输入仓。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
-### 所需材料：
-- 1 <ItemLink id="gregtech:gt.blockmachines:15535"/><ItemImage id="gregtech:gt.blockmachines:15535"/>
-- 100-115 <ItemLink id="gregtech:gt.blockcasings4:2"/><ItemImage id="gregtech:gt.blockcasings4:2"/>
-- 72 <ItemLink id="gregtech:gt.blockframes:473"/><ItemImage id="gregtech:gt.blockframes:473"/>
-- 39 <ItemLink id="gregtech:gt.blockcasings8"/><ItemImage id="gregtech:gt.blockcasings8"/>
-- 20 <ItemLink id="gregtech:gt.blockcasings4:13"/><ItemImage id="gregtech:gt.blockcasings4:13"/>
-- 12 <ItemLink id="gregtech:gt.blockcasings2:14"/><ItemImage id="gregtech:gt.blockcasings2:14"/>
-- 10 <ItemLink id="gregtech:gt.blockcasings4:3"/><ItemImage id="gregtech:gt.blockcasings4:3"/>
-- 1 动力仓（背部中央机械方块） <ItemImage id="gregtech:gt.blockmachines:30"/>
-- 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
-- 1+ 输入仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+### 需要：
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:15535"/><ItemImage id="gregtech:gt.blockmachines:15535"/>
+- 100-115 个 <ItemLink id="gregtech:gt.blockcasings4:2"/><ItemImage id="gregtech:gt.blockcasings4:2"/>
+- 72 个 <ItemLink id="gregtech:gt.blockframes:473"/><ItemImage id="gregtech:gt.blockframes:473"/>
+- 39 个 <ItemLink id="gregtech:gt.blockcasings8"/><ItemImage id="gregtech:gt.blockcasings8"/>
+- 20 个 <ItemLink id="gregtech:gt.blockcasings4:13"/><ItemImage id="gregtech:gt.blockcasings4:13"/>
+- 12 个 <ItemLink id="gregtech:gt.blockcasings2:14"/><ItemImage id="gregtech:gt.blockcasings2:14"/>
+- 10 个 <ItemLink id="gregtech:gt.blockcasings4:3"/><ItemImage id="gregtech:gt.blockcasings4:3"/>
+- 1 个动力仓（背面中央机械方块） <ItemImage id="gregtech:gt.blockmachines:30"/>
+- 1 个维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 个消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 1+ 个输入仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
 
-### 共用墙壁
-<Color id="GREEN">UCFE</Color> 的每一面都可以与其他机器共用墙壁，以节省机械方块、框架方块和总线/仓。但由于输入仓的位置受限，输入仓不能参与共享。建议纵向共用墙壁以最大程度节省资源，不过这需要把控制器翻转放置。
+### 共墙
+<Color id="GREEN">UCFE</Color> 的每个侧面都可以共墙，以节省机械方块、框架和仓室。但输入仓不在此列，因为它的位置受限。若想把材料节省到最大，推荐做垂直共墙，不过这样需要把控制器翻转过来。
 
 ## 使用
-<Color id="GREEN">UCFE</Color> 每秒会耗尽输入仓中的全部燃料与助燃剂，产生的能量会在随后的一秒内传输给动力仓。只要动力仓的缓存被填满，机器就会立即停止。如果生成的总 EU/t 大于动力仓的吞吐量，多余的电力就会被直接清空。
+<Color id="GREEN">UCFE</Color> 每秒都会把输入仓中的全部燃料和助燃剂一次性吃掉，然后在接下来 1 秒内把生成的能量送入动力仓。如果动力仓缓存被灌满，机器会立刻停机。若理论发电量超过动力仓的吞吐上限，超出的那部分电力会被直接清空。
 
-尽管tooltip 所言并非如此，<Color id="GREEN">UCFE</Color> 实际上没有任何预热过程，会立即输出它所能产生的最大功率。这意味着它不需要为了节省燃料而把 RS 锁存器接到兰波顿超级电容库上。只需改用能量探测覆盖板和机器控制覆盖板，在电力低于 95% 时启用 <Color id="GREEN">UCFE</Color> 即可。
+尽管提示里写得像是有预热过程，但 <Color id="GREEN">UCFE</Color> 实际上 <Color id="RED">没有</Color> 任何预热时间，启动后会立刻以当前可达的最大功率输出。因此它并不像大型内燃引擎那样需要用 RS 锁存器配合兰波顿超级电容来省燃料。更简单的做法是装上能量探测覆盖板和机器控制覆盖板，让 <Color id="GREEN">UCFE</Color> 在电量低于 95% 时自动开启即可。
 
 ## 燃料
-<Color id="GREEN">UCFE</Color> 可利用气体燃料、柴油燃料和火箭燃料发电。最常用的选择是硝基苯、高十六烷值柴油、高辛烷值汽油、浓缩肼火箭燃料和绿色火箭燃料。注意，重燃油、原油、邪恶原油等半流质燃料不在其列，因为它们只能在大型半流质发电机 <ItemImage id="gregtech:gt.blockmachines:31026"/> 中燃烧。
+<Color id="GREEN">UCFE</Color> 可以使用燃气、柴油类燃料和火箭燃料发电。最常见的选择是硝基苯、高十六烷值柴油、高辛烷值汽油、浓缩肼燃料混合物以及绿色火箭燃料。需要注意的是，重燃油、原油、邪恶油这类半流质燃料 <Color id="RED">不包含</Color> 在内，因为它们只能交给 <Color id="GREEN">大型半流质发电机</Color> <ItemImage id="gregtech:gt.blockmachines:31026"/> 处理。
 
 ## 助燃剂
-除燃料外，<Color id="GREEN">UCFE</Color> 唯一的另一种输入就是助燃剂——一种为燃烧反应提供必要条件的流体物质。助燃剂还会依照下列公式提升燃料的效率，其中 $$C$$ 是与所燃烧燃料类型相关的常数，$$R$$ 是助燃剂与燃料之比。最大效率为 150%，总 EU/t 没有任何软上限或硬上限。
+除了燃料本身，<Color id="GREEN">UCFE</Color> 唯一的额外输入就是 <Color id="GREEN">助燃剂</Color>。这种流体会为燃烧反应提供必要条件，同时也会按照下式提升燃料效率。其中 $$C$$ 是与燃料类型相关的常数，$$R$$ 是助燃剂与燃料的流量比。最高效率为 150%，并且 <Color id="RED">不存在</Color> 软上限，也没有总 EU/t 封顶。
 
 <Latex formula="EU/t = L/s \times EU/L \times 1.5e^{-C/R} \div 20">
   其中：
-  - $$C$$：与燃料类型相关的常数
-  - $$R$$：助燃剂与燃料之比
+  - $$C$$：与燃料种类相关的常数
+  - $$R$$：助燃剂与燃料的流量比
 </Latex>
 
-下图展示了在两个不同 $$C$$ 值下，效率与助燃剂/燃料之比（$$R$$）之间的关系。注意，火箭燃料在比例约 0.5 时即达到峰值，这意味着助燃剂的输入速率不应超过燃料输入速率的 50%；而气体/柴油燃料在比例约 2.0 时才达到峰值，即助燃剂的输入速率不应超过燃料输入速率的 200%。由于该比例仅基于 L/s 计算，因此无论燃料的能量值如何，这一关系都成立。
+下图展示了两种不同 $$C$$ 值下，效率与助燃剂/燃料比值 $$R$$ 的关系。可以看到，火箭燃料大约在比值 0.5 左右就接近封顶，这意味着助燃剂输入速率没必要超过燃料输入速率的 50%。而燃气/柴油类燃料则要到 2.0 左右才基本吃满，因此助燃剂输入速率没必要超过燃料的 200%。这个结论和燃料的能量密度无关，因为这里的比值只看 L/s。
 
-<FunctionGraph title="燃料效率与助燃剂比例的关系" xRange="0..2" domain="0..2" xLabel="助燃剂与燃料之比（$$R$$）" yLabel="效率（%）"> <Plot expr="1.5*e^((-0.04)/x)*100" color="#ff55ff" label="气体/柴油燃料（C=0.04）"/>
+<FunctionGraph title="燃料效率与助燃剂比例关系" xRange="0..2" domain="0..2" xLabel="助燃剂/燃料比（$$R$$）" yLabel="效率（%）"> <Plot expr="1.5*e^((-0.04)/x)*100" color="#ff55ff" label="燃气/柴油类燃料（C=0.04）"/>
 <Plot expr="1.5*e^((-0.005)/x)*100" color="#ffff55" label="火箭燃料（C=0.005）"/>
 </FunctionGraph>
-

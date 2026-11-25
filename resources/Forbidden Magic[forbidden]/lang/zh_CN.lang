@@ -59,6 +59,7 @@ item.RingNutrition.name=滋养指环
 item.TaintFruit.name=腐化果实
 item.TaintCoal.name=腐化木炭
 item.Sword_Dragonslayer.name=屠龙者之剑
+item.consumption_cincture.name=饕餮腰带
 #
 # Wand components
 item.Wand.tainted.rod=腐化
@@ -102,7 +103,7 @@ item.WandCaps.manasteel_inert.name=惰性魔钢杖端
 item.WandCaps.elementium.name=源质钢杖端
 item.WandCaps.elementium_inert.name=惰性源质钢杖端
 item.WandCaps.terrasteel.name=泰拉钢杖端
-item.BlinkFocus.name=法杖核心:闪烁
+item.BlinkFocus.name=法杖核心：闪烁
 #
 # Blocks
 tile.ArcaneCake.name=奥法蛋糕
@@ -388,6 +389,10 @@ forbidden.research_page.TAINTHISTLE.1=在你的指尖拥有无尽的魔法时，
 forbidden.research_name.SUBCOLLAR=苦痛项圈
 forbidden.research_text.SUBCOLLAR=痛苦与魔法
 forbidden.research_page.SUBCOLLAR.1=有时，人类只是想受到伤害。尤其是在有好处的时候……<BR><BR>苦痛项圈拥有作为一个魔力储存护身符的所有能力，但它会在你受到伤害时产生一定量Vis。你受到的伤害越多，产生的Vis就越多。
+#
+forbidden.research_name.CONSUMPTIONCINCTURE=饕餮腰带
+forbidden.research_text.CONSUMPTIONCINCTURE=节食，是弱者才会做的事
+forbidden.research_page.CONSUMPTIONCINCTURE.1=最近，你总觉得腰带有点紧。你试着换了几条更大的，可它们准是哪里出了问题，怎么每条洗过之后都像是缩水了？一天夜里，你正吃着宵夜，忽然灵光一闪：何不做一条能让自己放开胃口的腰带？<BR><BR>戴上饕餮腰带，你就能一口吞下食物，转眼喝完饮料和药水。更妙的是，哪怕你的胃已经抗议道一口也塞不下了，你居然总能腾出地方再吃点。<BR><BR>多吃一小份甜点，能有什么坏处呢？
 #
 # Lexicon
 forbidden.lexicon.euclidaisy=天域菊

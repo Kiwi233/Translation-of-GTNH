@@ -15,57 +15,53 @@ item_ids:
 - thaumicenergistics:part.base:2
 ---
 
-{/* most of the content on this page should be moved to individual item pages (items_blocks directory); should be rewritten in the future*/}
+{/* 此页面内容大多应该移入物品单独页面，需要重构 */}
+
 
 # 输入、输出与存储
 
-> [!NOTE]
-> 部分链接因相应页面尚未撰写而暂时失效。欢迎在[GitHub](https://github.com/GTNewHorizons/GTNH-Guide-Pack)上贡献力量，支持GTNH的开发！
+# “输入”与“输出”、“读取”与“写入”
+在AE系统中，所有的“输入”与“输出”字样针对的对象都是ME网络本身，“输入”意为输入进ME网络，“输出”则是从ME网络中输出到外界。例如，ME输出总线的作用就是将ME网络的内容物输出到外界。
 
-## "输入"与"输出"、"读"与"写"
-
-在AE中，**输入**与**输出**的所有含义都是相对于ME网络本身来定义的。**输入**指把某物送入ME网络，而**输出**指把某物从ME网络移出到外部世界。例如，ME输出总线会把ME网络中的内容输出到外部容器中。
-
-"读"与"写"的概念同样围绕ME网络展开。读是指ME网络从其他容器中读取，写是指ME网络向其他容器写入，就像计算机那样。"只读"与"只写"也是如此。例如，当网络中的一个存储总线被设为"只读"时，ME网络只能读取该存储总线的目标，而不能向其中放置内容；"只写"则恰好相反。
+“读取”与“写入”的概念是以ME网络为主体，读取是ME网络读取他人，写入是ME网络写入他人，“只读”与“只写”同理。例如，当一个网络中的存储总线被设置为“只读”，马上该ME网络只能读取该存储总线的目标，不能将内容物放入其中，“只写”反之。
 
 # 总线
-AE2提供[线缆](../items_blocks/cables.md)子部件，用于处理ME网络与外部世界之间的物流。
-
+AE提供了[线缆](../items_blocks/cables.md)子部件来承担ME网络与外界的物流交互功能。
 ## 输入总线与输出总线
-<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" showIcon="left" />、<ItemLink id="ae2fc:part_fluid_import" showIcon="left" />、<ItemLink id="appliedenergistics2:item.ItemMultiPart:260" showIcon="left" />与<ItemLink id="ae2fc:part_fluid_export" showIcon="left" />可以在AE存储与外部容器之间交互物品或流体。
+<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" showIcon="left" /> 、<ItemLink id="ae2fc:part_fluid_import" showIcon="left" /> 、<ItemLink id="appliedenergistics2:item.ItemMultiPart:260" showIcon="left" /> 和<ItemLink id="ae2fc:part_fluid_export" showIcon="left" />可以在AE存储与外部容器之间进行物品或流体的交互 。
 
-将它们贴到容器旁的线缆上，即可在ME网络与该外部容器之间交换物品与流体。
+将它们贴在容器相邻的线缆上即可在ME网络与外部容器间进行物品与流体的交换。
 
 <GameScene zoom="4" width="300" rotateX="-10" rotateY="0">
     <ImportStructure src="../assets/structures/io_system_import_export.snbt" />
 </GameScene>
 
-在GTNH中，ME总线可以按照以下规则与GregTech的输入/输出总线及舱交互：
-* ME物品总线<Color id="Red">只能</Color>在贴到GT总线正面时与物品交互。
-* ME物品总线<Color id="Red">只能</Color>在贴到GT流体舱正面时与物品交互。
-* ME流体总线贴在GT流体舱的任意一面时都可以与流体交互。
+在GTNH中，ME总线可以和GT的输出、输入仓室互动，遵守以下规则：
+* ME物品总线<Color id="Red">只有</Color>贴在GT总线正面时才能与之交互物品。
+* Me物品总线<Color id="Red">只有</Color>贴在GT流体仓正面时才能与之交互物品。
+* ME流体总线贴在GT流体仓的任意面都能与之交互流体。
 
 ## 存储总线
-<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="left" />与<ItemLink id="ae2fc:part_fluid_storage_bus" showIcon="left" />可以把所贴容器中的物品或流体读入ME网络，相当于为你的AE存储充当一块"外接硬盘"。
+<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="left" /> 和<ItemLink id="ae2fc:part_fluid_storage_bus" showIcon="left" />可以将附着的容器中的物品或流体读取到ME网络中，就像给AE存储加了个“移动硬盘”。
 
 <GameScene zoom="4" width="300" rotateX="-10" rotateY="0">
     <ImportStructure src="../assets/structures/io_system_storage_bus.snbt" />
 </GameScene>
 
-存储总线的用途远不止于把外部存储接入网络。在GTNH中，它们尤其还是自动化的核心组成部分。
+当玩家第一次捡起存储总线时会获得成就“<Color color="#b300ff">无限潜能</Color>”，这是应用能源2作者对存储总线的评价。存储总线的用途远不止引入外部存储这么简单，在GTNH中它们更是在自动化中占有重要地位。更多的机制参见(X占位符X)。
 
 ## 其他总线
-GTNH为AE2添加了源质总线，以支持神秘时代4（Thaumcraft 4）。你可以用AE系统来存储并自动化源质。详情参见<ItemLink id="thaumicenergistics:part.base" showIcon="left" />、<ItemLink id="thaumicenergistics:part.base:3" showIcon="left" />与<ItemLink id="thaumicenergistics:part.base:2" showIcon="left" />。
-
+GTNH给AE添加了源质总线以支持对神秘时代4的支持。你可以利用AE系统进行神秘时代源质的存储与自动化。
+详见<ItemLink id="thaumicenergistics:part.base" showIcon="left" /> 、<ItemLink id="thaumicenergistics:part.base:3" showIcon="left" /> 和<ItemLink id="thaumicenergistics:part.base:2" showIcon="left" /> 。
 # 存储优先级
-所有存储总线都可以在其UI右上角调整优先级。在ME网络中，优先级是一个整数。数值越高，物流系统就越倾向于把物品或流体存入该处；数值越低，物流系统就越倾向于优先从中取出物品或流体。
+所有存储总线都可以在UI右上角调整其优先级。在ME网络中，优先级值是整数，值越大则物流系统更倾向于将物品或流体存入该处，值越小则物流系统更倾向于优先输出或使用该处的物品或流体。
 
-下面的例子有助于说明这一概念。假设网络中有两个箱子，各自贴着一条优先级不同的存储总线，且每个箱子里都放有一个<ItemLink id="minecraft:stone" showIcon="left" />：
-* 当你把一块石头输入ME网络时，AE会把它存入优先级较高的那个箱子。
-* 当你从ME网络中取出一块石头时，AE会优先从优先级较低的那个箱子中提取。
-* 当你使用[自动合成](./autocrafting.md)处理一个需要石头作为材料的请求时，AE会优先使用优先级较低的那个箱子里的石头。
+下面的例子可以让你更厘清概念，假设网络中有两个分别贴有不同优先级存储总线的箱子，它们都各装有一个石头：
+* 当你向ME网络输入石头，AE会将石头存入优先级高的箱子中。
+* 当你从ME网络中拿出石头，AE会先从优先级低的箱子中提取石头。
+* 当你利用[自动合成](./autocrafting.md)合成需要石头作为材料的订单时，AE会先使用优先级低的箱子中的石头。
 
-除存储总线外，<ItemLink id="appliedenergistics2:tile.BlockDrive" showIcon="left" />的优先级也可以调整。
-
+除了存储总线，<ItemLink id="appliedenergistics2:tile.BlockDrive" showIcon="left" />也可以调整优先级。
 # 升级卡
-所有ME总线都可以接受[升级卡](./upgrade_card.md)来获得额外的功能调整。把鼠标悬停在总线UI右上角的卡片槽上，即可查看该总线支持哪些升级卡；各类升级卡的说明中也会列出它们适用的总线类型。
+所有的ME总线都可以向其中添加[升级卡](./upgrade_card.md)以获得更多功能调整。将鼠标移至总线UI右上角的卡槽处可以看到该总线支持哪些升级卡，不同升级卡自身的描述中也列出了适用它的总线类型。
+

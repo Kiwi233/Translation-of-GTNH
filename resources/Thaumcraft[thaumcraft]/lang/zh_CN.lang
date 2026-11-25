@@ -77,7 +77,7 @@ entity.trunk.move=箱子宝宝将跟随你行动
 entity.trunk.stay=箱子宝宝将留在原地
 entity.Thaumcraft.MindSpider.name=心魔蜘蛛
 entity.Thaumcraft.EldritchGuardian.name=邪术守卫
-entity.Thaumcraft.EldritchWarden.name=%d典狱官%s
+entity.Thaumcraft.EldritchWarden.name=%2$d典狱官%1$s
 entity.Thaumcraft.EldritchGolem.name=邪术构装体%s
 entity.Thaumcraft.EldritchOrb.name=邪术球
 entity.Thaumcraft.CultistKnight.name=血腥骑士
@@ -310,16 +310,16 @@ item.HoverHarness.name=奥法缰绳
 item.Focus.cost1=Vis/每次施法
 item.Focus.cost2=每tick消耗的Vis
 item.FocusPouch.name=法杖核心手袋
-item.FocusFire.name=法杖核心:火焰
-item.FocusHellbat.name=法杖核心:九狱
-item.FocusShock.name=法杖核心:震击
-item.FocusTrade.name=法杖核心:更替
-item.FocusFrost.name=法杖核心:寒霜
-item.FocusExcavation.name=法杖核心:采掘
-item.FocusPortableHole.name=法杖核心:便携式洞穴
-item.FocusPech.name=法杖核心:岩精之诅咒
-item.FocusWarding.name=法杖核心:守护
-item.FocusPrimal.name=法杖核心:元始
+item.FocusFire.name=法杖核心：火焰
+item.FocusHellbat.name=法杖核心：九狱
+item.FocusShock.name=法杖核心：震击
+item.FocusTrade.name=法杖核心：更替
+item.FocusFrost.name=法杖核心：寒霜
+item.FocusExcavation.name=法杖核心：采掘
+item.FocusPortableHole.name=法杖核心：便携式洞穴
+item.FocusPech.name=法杖核心：岩精之诅咒
+item.FocusWarding.name=法杖核心：守护
+item.FocusPrimal.name=法杖核心：元始
 item.WandCap.0.name=铁杖端
 item.WandCap.1.name=金杖端
 item.WandCap.2.name=充能神秘杖端
@@ -590,7 +590,7 @@ fluid.fluidDeath=死亡之水
 focus.upgrade.potency.name=潜能
 focus.upgrade.potency.text=这种升级能够提升法杖核心的威力或伤害.额外的伤害效果视核心类型而有所差异,但一般来说增幅为每级20%.
 focus.upgrade.frugal.name=朴素
-focus.upgrade.frugal.text=这种升级能够减免使用法杖核心时的部分Vis消耗,每级减免20%.
+focus.upgrade.frugal.text=这种升级能够减免使用法杖核心时的部分Vis消耗，每级减免10%。
 focus.upgrade.treasure.name=瑰宝
 focus.upgrade.treasure.text=这种升级效果类似时运或抢夺附魔,战利品将来得又好又多.
 focus.upgrade.enlarge.name=增广
@@ -906,9 +906,9 @@ tc.research_page.KNOWFRAG.1=旅途漫漫，你偶然会发现一些古代遗迹�
 #
 tc.research_name.ASPECTS=魔力源质
 tc.research_text.ASPECTS=万物构造之源
-tc.research_page.ASPECTS.1=一切造物（道具，对象及生物）均系于被名为§5“源质”§0的魔力元素。源质描绘了物品的构成及其对魔力元素的偏向。普通的岩石可能蕴含Terra（即拉丁文的大地）源质，而更复杂的事物，比如树木，甚或生物则可能蕴含多种数量不等的源质。目前已经有50余种源质被发现。<LINE>有两类截然不同的源质： §5元始源质§0以及§5复合源质§0。
-tc.research_page.ASPECTS.2=§l元始要素§r是六种最基本的要素类型：§6Aer§0（风之要素），§2Terra§0（地之要素），§cIgnis§0（火之要素），§3Aqua§0（水之要素），§fOrdo§0（秩序要素），§8Perditio§0（混沌要素）。<BR>它们是构成其它要素的基础。<BR>§l复合要素§r由两种其它要素复合而成。相对简单的复合要素由两种元始要素复合而成，但也存在一些经过多次复合，非常复杂的复合要素。<BR>举简单的例子来说，比如§2Terra§0（地之要素）与§3Aqua§0（水之要素）复合可以得到Victus（生命要素）。
-tc.research_page.ASPECTS.3=若想要查看一个物品所具备的源质，需要在选中物品时按下潜行键（默认shift），这样你就能看见其蕴含源质的种类和数量。但是你需要先对该物品进行初步的研究，否则其蕴含的源质会显示未知。<LINE>源质在一定程度上分离于其对象，并且作为纯粹的本质物，源质非常具有价值：无论是用作合成的工具还是用于魔法研究。<BR>魔力通常存储于法杖中，但它也可能以液相存储，此时我们通常称其为§5源质§0，为方便起见，本手册中有时也统一简称其为源质。
+tc.research_page.ASPECTS.1=每一件物品、物体或生物，都蕴含着被称为§5要素§0的不同神秘元素。要素揭示了事物的内在构成及其在魔力元素上的倾向。一块普通的石头可能只蕴含Terra（即拉丁文的大地）要素，而像树木乃至生物这样更为复杂的事物，则可能由多种不同数量与种类的要素共同构成。目前已知的要素接近50种，且仍在不断发掘之中。<LINE>要素主要分为两大类： §5元始要素§0以及§5复合要素§0。
+tc.research_page.ASPECTS.2=§l元始要素§r是六种最基本的要素类型：§6Aer§0（风），§2Terra§0（地），§cIgnis§0（火），§3Aqua§0（水），§7Ordo§0（秩序），§8Perditio§0（混沌）。<BR>它们是构成其它要素的基础。<BR>§l复合要素§r由两种其它要素复合而成。相对简单的复合要素由两种元始要素合成，但也可以通过层层复合，合成出极其复杂的复合要素。<BR>此类复合要素中，最简单的例子便是Victus（生命），由§2Terra§0（地）与§3Aqua§0（水）复合而成。
+tc.research_page.ASPECTS.3=只需将光标悬停在该物品上并按住潜行键（Shift），即可看到它所蕴含要素种类及各自的数量。不过，你需要先对该物品进行研究，否则其要素会显示为未知。<LINE>以某种方式从物体中分离并提纯出来的要素叫做§5Vis§0，它十分珍贵：既可用作合成原料，也是魔法研究的重要对象。<BR>Vis通常存储于法杖中，但也可以存储为某种魔力液体。以液态形式储存的Vis叫做§5源质§0。
 #
 tc.research_name.NODES=灵气和节点
 tc.research_text.NODES=魔法无所不在
@@ -946,8 +946,8 @@ tc.research_page.RESEARCHDUPE.1=你已发现拷贝完整研究笔记的方法。
 #
 tc.research_name.DECONSTRUCTOR=解构工作台
 tc.research_text.DECONSTRUCTOR=当仅仅看一眼并不足够时
-tc.research_page.DECONSTRUCTOR.1=在神秘使的研究生涯中，难免因欠缺某些方面知识而导致研究受到碍阻。<BR>此时可以借助解构工作台进行辅助。这个工作台能够将物品分解成最基础的六种元始源质，从而为你提供研究的突破口。然而这种设备的限制显而易见 - 被分解的复合源质并非直接变成组合成它们的源质，而是变成了组成它们的最基础的元始源质之一，而元始源质如何组合搭配仍然不得而知。<BR>例如分解铁(蕴含Metallum 
-tc.research_page.DECONSTRUCTOR.2=源质)按说可以得到2点§2Terra§0源质和1点§8Ordo§0源质，但你只能由一定几率得知其中一种元始源质。<BR>而且，这台设备效率极低，当物品中蕴含源质越少，能有所发现就越难。
+tc.research_page.DECONSTRUCTOR.1=每一位神秘使在研习之路上，总会遇到因学识匮乏而受阻的瓶颈。<BR>有一种解决之道，是借助解构工作台。它能将物体拆解为最基础的组成部分，提供研究的突破口。不过，它也存在局限 - 解构台会将复合要素逐层拆解为其组成要素，直至仅剩元始要素为止。大量奥秘都会随之流失，神秘使至多只能期望从中领悟到一点元始知识。<BR>例如，铁（蕴含Metallum
+tc.research_page.DECONSTRUCTOR.2=要素）会简化为§2Terra§0和§8Ordo§0，而你仅有机会发掘其中一种要素。<BR>此外，解构的过程相当缓慢，且物体自身蕴含的要素越少，就越难有所发现。
 #
 tc.research_name.BASICTHAUMATURGY=基础法杖工艺
 tc.research_text.BASICTHAUMATURGY=你的第一柄工具
@@ -1090,7 +1090,7 @@ tc.research_page.FOCUSFIRE.2=为法杖安装核心操作并不复杂 - 只需在
 #
 tc.research_name.FOCUSFROST=法杖核心：寒霜
 tc.research_text.FOCUSFROST=复仇最好是一道冷菜
-tc.research_page.FOCUSFROST.1=这种法杖核心能够让法杖成为投掷霜星的战斗兵器。<BR>使用这柄法杖瞄准时需要相当小心，因为四溅的霜星有时可能会打坏一些脆弱的物品。注意不要在脆弱的建筑附近使用它，此外，霜星能够化水为冰。
+tc.research_page.FOCUSFROST.1=这种法杖核心能够让法杖成为投掷霜星的战斗兵器。<BR>瞄准时务必小心，因为霜星会从坚固物体上弹开。不过，你也可以利用这一特性，让其借由墙角弹射，甚至击中多名敌人。
 #
 tc.research_name.FOCUSSHOCK=法杖核心：震击
 tc.research_text.FOCUSSHOCK=雷霆与风暴
@@ -1158,8 +1158,8 @@ tc.research_page.CRUCIBLE.5=§n世界盐§r<BR><BR>世界盐，或其广为人�
 #
 tc.research_name.ENCHFABRIC=魔力布匹
 tc.research_text.ENCHFABRIC=丝般柔滑
-tc.research_page.ENCHFABRIC.1=你曾用羊毛和蜘蛛丝制成过简单结实的布匹。现在你确信能够用它融合魔力，做成一种更加惊艳的魔力布匹。<BR>你还发现了用魔力布匹编织神秘使法袍的方法。法袍防御效果类似皮革套装，但耐久是它的数倍。<BR>而且它们是优良的魔法亲和材料，能够进行神秘的附魔。相比一些甚至相对更昂贵的材料，它能够容纳更多的魔力。
-tc.research_page.ENCHFABRIC.2=当穿戴法袍施法时你能够更高效地使用数种法术。<BR>类似皮革套装，你可以对法袍进行染色。
+tc.research_page.ENCHFABRIC.1=通过将蜘蛛丝与羊毛结合，并注入元始Vis，你织出了一匹丝滑的魔力布匹，它有着极为广泛的用途。<BR>你还发现了用这种魔力布匹裁制法袍的图样。这些法袍的防护性能与皮革套装相近，但其耐久度却远非世俗凡物所能比拟。<BR>它们对神秘附魔也有着极佳的亲和力，能够承载的强大魔力甚至远胜于昂贵的盔甲。
+tc.research_page.ENCHFABRIC.2=当你用法杖施法时，这套服饰的各个部件还能略微减少法杖所消耗的Vis。<BR>类似皮革套装，你可以对法袍进行染色。
 #
 tc.research_name.ENCHANT=附魔
 tc.research_text.ENCHANT=新附魔技术
@@ -1538,7 +1538,7 @@ tc.research_page.TUBES.4=使用魔杖点击能够调整管道是否与相邻管�
 tc.research_name.CENTRIFUGE=奥法离心机
 tc.research_text.CENTRIFUGE=分离物品
 tc.research_page.CENTRIFUGE.1=奥法离心机是一种惊艳的能够将复合源质分解为更基本的前置源质的炼金设备<BR>当复合源质从下方流入离心机，就会被慢慢分解成组成它们的前置的复合源质或元始源质。但每消耗一点源质只能得到一点前置源质。<BR>分离得到的源质需要从离心机顶部抽走。由于管道压力系统的特性，最好在离心机顶部连接一个§5源质缓冲器§0（见下页）。
-tc.research_page.CENTRIFUGE.2=源质缓冲器能够允许你暂存一定量的源质 - 总计8点，可以是不同源质类型的任意组合。类似罐子它会自动吸收源质，但其吸力是各种可能中最小的（吸收的优先级最低）。<BR>换言之通常只有在直接将其安附在源质来源处它才能吸入源质。然而管道可以连接在它所有的方向上，这意味着用它来提取像奥法离心机这种内置大量容纳空间的设备中的源质意义甚微。<BR>你可以为缓冲器安装奥术风箱 - 一个风箱提升64点吸力。
+tc.research_page.CENTRIFUGE.2=源质缓冲器能够允许你暂存一定量的源质 - 总计8点，不过可以是不同源质类型的任意组合。类似罐子，它会自动吸收源质，但它只会施加尽可能低的吸力（吸收的优先级最低）。<BR>这意味着它通常只能从与其直接相连的源质源中吸取源质。然而，管道可以连接到其任意一个面，这意味着对于从奥法离心机这种可能含有多种类型源质的设备中提取源质来说，它非常宝贵。<BR>你可以将奥数风箱安装在缓冲器上 - 一个风箱提升32点吸力。
 tc.research_page.CENTRIFUGE.3=此外，类似普通的管道，你还能独立控制其每一方向连接的开合，但如若你按住shift点击连接，就能塞住它将其该方向上的吸力抑制在1（蓝圈）或者0（红圈）。<BR>这使源质运输过程中的许多有趣特性有了可能。
 #
 tc.research_name.TRAVELTRUNK=箱子宝宝

@@ -9,13 +9,16 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# 标题浮层
-2.9 新增：部分标题与副标题文本显示效果已回移植到 1.7.10，供 GTNH 使用！服务器管理员现在可以使用 `/title` 在玩家的屏幕上显示标题与副标题文本。它还与你在聊天中可用的[完整颜色系统](./color_system.md)代码完全兼容！
+# 标题覆盖层
 
-标题还可以淡入、停留并淡出，各阶段时长可通过 `/title <player> times <fadeIn> <stay> <fadeOut>` 进行配置
+2.9 新增了一项从更高版本回移植到 1.7.10 的功能：标题与副标题文字显示，现在已经能在 GTNH 里使用了！
+
+服务器管理员现在可以通过 `/title` 在玩家屏幕上显示标题和副标题文本。而且它还完整支持 [完整颜色系统](./color_system.md) 中那些可在聊天里使用的颜色代码。
+
+标题还支持淡入、停留和淡出时间设置，可以通过 `/title <player> times <fadeIn> <stay> <fadeOut>` 分别配置。
 
 <FloatingImage src="../assets/misc/admin_messages.png" displayWidth="384">
   <ImageAnnotation>
-    标题/副标题浮层显示效果示例
+    标题/副标题覆盖层显示示例
   </ImageAnnotation>
 </FloatingImage>

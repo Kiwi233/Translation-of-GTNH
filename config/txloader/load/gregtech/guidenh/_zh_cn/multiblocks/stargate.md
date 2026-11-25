@@ -1,8 +1,8 @@
 ---
 item_ids:
   - SGCraft:stargateBase
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAKDg==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKDg=="}
 navigation:
   title: Stargate
   parent: ./multiblocks_index.md

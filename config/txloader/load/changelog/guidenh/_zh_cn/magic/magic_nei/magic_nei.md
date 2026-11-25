@@ -10,6 +10,8 @@ author: koolkrafter5
 date: 2026-06-09
 ---
 
-本次更新为多个魔法模组的新旧NEI处理器带来了各种改进。
+# 魔法 NEI
+
+这次更新为多个魔法模组现有和新增的 NEI 处理器都带来了不少改进。
 
 <Category name="Magic NEI" rows="3"/>

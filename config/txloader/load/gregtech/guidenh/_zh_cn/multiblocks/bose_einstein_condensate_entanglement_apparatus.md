@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15754
-quest_ids:
-  - So7OhYd8SVO3_Jl370cogA==
+bindings:
+  - {type: "betterquesting", id: "So7OhYd8SVO3_Jl370cogA=="}
 navigation:
   title: Bose-Einstein Condensate Entanglement Apparatus
   parent: ./bose_einstein_condensate_line.md

@@ -12,21 +12,21 @@ item_ids:
 
 # 伪装板
 
-伪装板可用于让基地看起来更整洁。它们可以覆盖两种尺寸的线缆，并且可以由多种方块制成。
+伪装板能让基地看起来更整洁。它们能遮挡各种形制的线缆，且可由多种方块制成。
 
-<GameScene zoom="6" showBackground={false} interactive={false}>
+<GameScene zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/facades_1.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-它们可以覆盖线缆的所有面，但仍允许[子部件](../ae2_mechanics/cables_subparts.md)和线缆连接穿透显示。
+它们能够遮挡线缆的每一面，但[子部件](../ae2_mechanics/cables_subparts.md)和线缆连接不会被遮断。
 
-<GameScene zoom="6"  interactive={true}>
+<GameScene zoom="6"  interactive={false}>
   <ImportStructure src="../assets/structures/facades_2.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-运用得当时，伪装板可以提升基地的美观度，或者让你建造每面材质都不同的方块。
+灵活使用伪装板。从提升基地观感，到制造各面纹理不同的方块，如此种种都能做到。
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/facades_3.snbt" />
@@ -35,12 +35,12 @@ item_ids:
 
 ## 隐藏伪装板
 
-当你用任意一只手拿着<a href="network_tool.md">网络工具</a>时，伪装板会被隐藏。
+手持[网络工具](network_tool.md)时伪装板会自动隐藏。
 
-此时无需先移除伪装板，就可以直接与隐藏伪装板后方的方块交互。
+此时可以直接与隐藏的伪装板后方的方块交互，无需取下伪装板。
 
-## 合成配方
+## 配方
 
-在4个<ItemLink id="appliedenergistics2:item.ItemMultiPart:120" />中间放置想要采用其材质的方块。
+将带有想要伪装成的纹理的方块放在4个<ItemLink id="appliedenergistics2:item.ItemMultiPart:120" />中间即可。
 
 <RecipeFor id='appliedenergistics2:item.ItemFacade:0:{itemname:"stone",x:[1,0,],modid:"minecraft"}'/>

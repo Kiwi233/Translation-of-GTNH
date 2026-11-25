@@ -381,6 +381,12 @@ options.angelica.tracy.captureAction.tooltip=启动或停止 Tracy 捕获。保�
 options.angelica.tracy.captureAction.start=开始捕获
 options.angelica.tracy.captureAction.stop=停止捕获
 options.angelica.tracy.captureAction.saving=保存中……
+options.angelica.tracy.frameImages=帧图像
+options.angelica.tracy.frameImages.tooltip=将小型屏幕截图附加到Tracy帧上，以便在Tracy分析器中回放。仅在连接了分析器时捕获。
+options.angelica.tracy.frameImageRate=帧图像捕获频率
+options.angelica.tracy.frameImageRate.tooltip=连接分析器时每秒捕获的帧图像数量。
+options.angelica.tracy.frameImageRate.value=%s/秒
+options.angelica.tracy.frameImageRate.everyFrame=每帧
 
 pack.iris.select.title=选择
 pack.iris.configure.title=配置

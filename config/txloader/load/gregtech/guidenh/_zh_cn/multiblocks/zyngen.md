@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31023
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAKxw==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKxw=="}
 navigation:
   title: Zyngen 
   parent: ./multiblocks_index.md

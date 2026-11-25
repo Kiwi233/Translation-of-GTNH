@@ -6,10 +6,10 @@ navigation:
 categories:
 - devices
 ---
-
 # P2P通道
 
-P2P通道的用法与行为在[AE2机制 - P2P通道](../ae2_mechanics/p2p_tunnels.md)中说明。
+# 点对点通道
+P2P通道的使用方法与特性详见[AE2 机制-P2P通道](../ae2_mechanics/p2p_tunnels.md)。
 
 <Row>
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:460" scale="4" />
@@ -26,76 +26,86 @@ P2P通道的用法与行为在[AE2机制 - P2P通道](../ae2_mechanics/p2p_tunne
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:472" scale="4" />
 </Row>
 
-P2P通道能在不直接干预网络的情况下传输物品、流体、红石信号、能源、光照和[频道](../ae2_mechanics/channels.md)。每种P2P通道仅传输特定类型内容。它们如同传送门一般连接远处的两个方块面，具有明确的输入端与输出端，而非双向连接。
+2P通道是在网络中传输物品、流体、红石信号、能量、光、[频道](../ae2_mechanics/channels.md)等事物的一种方式，且不必直接与网络交互。P2P通道有多种变种，每种只能传输一类事物。可将它们看做能远距直接连接两方块的传送门。这种连接有确定的输入和输出端，而并非双向的。
 
-![通道示意图](../assets/images/p2p_portal.png)
+![Portal](../assets/images/p2p_portal.png)
 
-例如，朝向物品P2P通道的漏斗，其表现就如同直接连接在另一端的木桶上。而相邻的两个木桶不会通过P2P通道传输物品。
+例如，朝向物品P2P通道的漏斗和直接放在木桶上的漏斗没有区别，物品可以正常传输。
 
 <GameScene width="300" height="200" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_hopper_barrel.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
+但是，相邻放置的两个木桶不会互相传输物品。
+
 <GameScene width="300" height="200" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_barrel_barrel.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 通道类型与调谐
+也有其他变种，如红石P2P通道。
+
+<GameScene width="350" height="200" zoom="4" showBackground={false}>
+  <ImportStructure src="../assets/structures/p2p_redstone.snbt" />
+  <IsometricCamera yaw="0" pitch="50" />
+</GameScene>
+
+## P2P通道的类型与调谐
 
 <GameScene width="400" zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_tunnels.snbt" />
   <IsometricCamera yaw="180" pitch="0" />
 </GameScene>
 
-所有ME P2P通道都可直接合成。具体而言，用相应物品右键点击任意P2P通道即可对其调谐：
+P2P通道有许多种类，所有的ME P2P通道均可直接合成。特别地，可以用物品右击任意P2P通道：
+- ME P2P通道需手持任意[线缆](cables.md)右击调谐
+- 红石P2P通道需手持红石元件右击调谐
+- 物品P2P通道需手持箱子或漏斗右击调谐
+- 流体P2P通道需手持铁桶或玻璃瓶右击调谐
+- 能源P2P通道需手持能量容器右击调谐
+- 光P2P通道需手持火把或荧石右击调谐
 
-- ME P2P：任意[线缆](cables.md)
-- 红石P2P：红石元件
-- 物品P2P：箱子或漏斗
-- 流体P2P：铁桶或玻璃瓶
-- 能源P2P：能源容器
-- 光照P2P：火把或荧石
+某些P2P通道的特性比较奇怪。比如，ME P2P通道的频道无法穿过其他ME P2P通道，能源P2P通道则会因自身[能量](../ae2_mechanics/energy.md)消耗而克扣途径能量的2.5%（FE、E）。
 
-ME P2P通道的频道无法穿透其他ME P2P通道。能源P2P通道通过自身的[能源](../ae2_mechanics/energy.md)消耗，实际对传输的FE/E征收2.5%的损耗税。
+## P2P通道的最常见用途
 
-## 核心应用场景
+P2P通道的最常见用途是通过ME P2P通道以高效传输[频道](../ae2_mechanics/channels.md)。传输大量频道不再需要一束致密线缆了，一根致密线缆就已足够。
 
-ME P2P通道最常用于高效传输大量[频道](../ae2_mechanics/channels.md)。八个输入端通道可以从控制器获取256（8 x 32）个频道，八个输出端通道则可将其送达别处，而每一端仅占用1个频道。由于这些通道可以放置在专用的[子网](../ae2_mechanics/subnetworks.md)上，因此不必占用主网络上的频道。
+在此示例中，8个ME P2P通道输入端会从主网络的<ItemLink id="appliedenergistics2:tile.BlockController" />中传输256（8*32）个频道，其余8个ME P2P输出端则将其送至其他位置。注意每个P2P通道输入和输出端只占用1个频道。如此就可在单根线缆中传输大量频道了。而因为P2P通道均位于专用[子网络](../ae2_mechanics/subnetworks.md)中，它们甚至不会占用主网络的频道！此外，注意P2P通道可直接面向控制器放置，可在两者间放入[致密线缆](cables.md#智能线缆)以可视化被传输的频道。
 
 <GameScene width="350" height="300" zoom="2.5" interactive={true}>
   <ImportStructure src="../assets/structures/p2p_compact_channels.snbt" />
   <IsometricCamera yaw="120" pitch="30" />
+
 </GameScene>
 
-## 嵌套限制
+另一示例（与[量子桥](quantum_bridge.md)共同运用）可见下方用画图画出来的粗略图案：
 
-ME P2P通道的频道无法穿透其他ME P2P通道，因此无法无限嵌套。其他类型的通道则可以穿过ME P2P通道；例如，在相同布局中，红石P2P通道仍能正常工作。
+![P2P和量子桥](../assets/images/p2p_quantum_network.png)
+
+## 嵌套
+
+但是，这一系统无法在单根线缆中传输无限频道。ME P2P通道的频道无法穿过其他ME P2P通道，也因此无法嵌套它们。注意位于外层红色线缆上的ME P2P通道处于离线状态。这一性质仅适用于ME P2P通道，其他种类的P2P通道则可穿过ME P2P通道；比如，此处连接的红石P2P通道能正常工作。
 
 <GameScene width="350" height="300" zoom="3" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_nesting.snbt" />
   <IsometricCamera yaw="225" pitch="30" />
 </GameScene>
 
-## 通道绑定
+## 连接
 
 <GameScene zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_linking_frequency.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-使用<ItemLink id="appliedenergistics2:item.ToolMemoryCard" />来绑定P2P通道。连接频率以2x2彩色阵列的形式显示在每个通道的背面。
+P2P通道连接可用<ItemLink id="appliedenergistics2:item.ToolMemoryCard" />创建。连接频率会在P2P通道背面显示为2x2的颜色阵列。
+- Shift右击以生成新P2P连接频率。
+- 右击以粘贴设置或升级卡，或连接频率。
 
-- Shift+右键点击通道可生成新频率。
-- 右键点击可粘贴设置、升级卡或频率。
+Shift右击的通道为输入端，右击的通道为输出端。允许存在多个输出端，但ME P2P通道传输的频道会分给各输出端，而非每个输出端都获得所有频道，如此可避免频道复制。
 
-被Shift+右键点击的通道为输入端；被右键点击的通道为输出端。允许存在多个输出端，但ME P2P通道的频道会在各输出端之间均分，而不是复制到每个输出端。
-
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:460" />
-
-# P2P通道
-P2P通道的用法与行为详见[AE2机制 - P2P通道](../ae2_mechanics/p2p_tunnels.md)。
-

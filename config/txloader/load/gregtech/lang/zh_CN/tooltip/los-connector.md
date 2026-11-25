@@ -1,4 +1,4 @@
-连接到另一个{gold:{item:gregtech:gt.blockmachines:15481}}。
-连接仓必须面向对方。
-使用不透明方块阻断连接。
-两个连接仓之间的最大距离为{color_range:{var:range}}个方块。
+机器类型：{color_machine_type:玻-爱凝聚态物质仓}
+将{gold:观测阵列}连接至{gold:传送节点}（I/O节点）
+两端的连接仓必须相向，间距不得超过{color_range:{var:range}}格
+不透明方块会阻断连接

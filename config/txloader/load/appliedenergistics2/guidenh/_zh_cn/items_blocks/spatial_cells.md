@@ -11,16 +11,45 @@ item_ids:
 - appliedenergistics2:item.ItemSpatialStorageCell.128Cubed
 ---
 
+# 空间存储元件
+
 <Row>
 <ItemImage id="appliedenergistics2:item.ItemSpatialStorageCell.2Cubed" scale="4"/>
-
 <ItemImage id="appliedenergistics2:item.ItemSpatialStorageCell.16Cubed" scale="4"/>
-
 <ItemImage id="appliedenergistics2:item.ItemSpatialStorageCell.128Cubed" scale="4"/>
 </Row>
 
-空间存储元件是[空间IO系统](../ae2_mechanics/spatial_io.md)所使用的存储介质。系统运行时，所选区域的体积必须小于或等于所用空间存储元件的容量。空间存储元件共有三种规格，容量分别为2、16和128立方米。
+空间存储元件可用于[存储物理空间中的某一区域](../ae2_mechanics/spatial_io.md)。可用于<ItemLink id="appliedenergistics2:tile.BlockSpatialIOPort" />和[存储元件](storage_cells.md)不同，空间元件不可重新格式化。
 
-从内部来看，空间存储元件实质上是一个独立的维度。空间塔装置的工作原理，是将整个选定区域与元件内部等大小的区域进行交换。首次使用新的空间存储元件时，它会创建一个与自身内部大小相匹配的维度。实际上，你可以把每个全新的空间存储元件想象成内部充满空气方块的维度。第一次空间传送会把那片充满空气的区域交换回世界之中。
+**空间元件使用后便无法重置，无法重新格式化，无法重设尺寸。**&zwnj;如果需要更改所定义区域尺寸，应新制作元件。
 
-<Color id="RED">空间存储元件一经使用，便无法重置、重设或调整大小。如需不同的尺寸，请制作新元件。</Color>
+## 配方
+
+<Row>
+    <Recipe id="appliedenergistics2:item.ItemSpatialStorageCell.2Cubed" handlerId="Shapeless" />
+    <Recipe id="appliedenergistics2:item.ItemSpatialStorageCell.16Cubed" handlerId="Shapeless" />
+    <Recipe id="appliedenergistics2:item.ItemSpatialStorageCell.128Cubed" handlerId="Shapeless" />
+</Row>
+
+# 外壳
+
+元件可由空间组件和外壳合成，也可在外壳配方中央放入空间组件：
+
+<Row>
+    <Recipe id="appliedenergistics2:item.ItemSpatialStorageCell.2Cubed" />
+    <Recipe id="appliedenergistics2:item.ItemSpatialStorageCell.2Cubed" handlerId="Shapeless" />
+</Row>
+
+外壳自身的配方如下：
+
+<RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:39" />
+
+# 空间组件
+
+空间组件是空间存储元件的核心。每级组件容量的边长是前一级组件的8倍。
+
+<Row>
+    <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:32" />
+    <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:33" />
+    <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:34" />
+</Row>

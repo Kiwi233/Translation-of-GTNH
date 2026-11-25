@@ -5,8 +5,8 @@ item_ids:
   - gregtech:gt.blockmachines:15447
   - gregtech:gt.blockmachines:15442
   - gregtech:gt.blockmachines:15446
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAKbw==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKbw=="}
 navigation:
   title: Data Bank
   parent: ./multiblocks_index.md

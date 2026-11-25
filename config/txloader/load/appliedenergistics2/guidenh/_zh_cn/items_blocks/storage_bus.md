@@ -19,36 +19,45 @@ item_ids:
 <ItemImage id="thaumicenergistics:part.base:2" scale="4" />
 </Row>
 
-存储总线能将相邻的容器转变为[网络存储](../ae2_mechanics/import_export_storage.md)。网络可以查看其中的内容，并通过存入或取出物品来满足[设备](../ae2_mechanics/devices.md)的需求。
+有想过*不把*箱子仓库换成其他更合理的设施吗？我们为此推出了存储总线！
 
-将一个或多个存储总线放在[子网](../ae2_mechanics/subnetworks.md)上作为其唯一的存储，这些总线还可以作为物品传输的源头或终点（参见[管道子网](../tricks_example/pipe_subnet.md)）。抽屉等大型优化容器没有问题，但槽位较多且未经优化的容器可能会拖累性能。
+存储总线会将其所连接的容器视为[网络存储](../ae2_mechanics/import_export_storage.md)。它使得网络能查看该容器的内容物，并可对该容器输入输出以满足[设备](../ae2_mechanics/devices.md)的输入输出需求。
 
-存储总线属于[线缆子部件](../ae2_mechanics/cables_subparts.md)。
+鉴于AE2的[设备](../ae2_mechanics/devices.md)功能交互产生<a title="译注：涌现（Emergence），指多个个体间的相互作用遵循简单的规则，而它们所组成的系统拥有了个体不具备的特性，这种特性仅存在于系统的层面。">涌现</a>机制的哲学，存储总线*并不*只具有*存储*功能。如果将[子网络](../ae2_mechanics/subnetworks.md)的*唯一*存储位置设置为若干存储总线，就可将这些总线视为物品传输的起点或终点。（见[“管道”子网络](../tricks_example/pipe_subnet.md)。）
 
-## 过滤功能
+注意事项：抽屉这类经过优化的大容器性能表现不错，但巨型箱子等拥有大量槽位的、*未*经优化的大容器和存储总线放在一起时，性能会受到严重影响。
 
-默认情况下，总线会存储所有物品。放入过滤槽中的物品构成白名单。物品和流体可以从NEI拖入过滤槽，而用流体容器右键点击时，设定的是流体本身而非容器物品。
+存储总线是[线缆子部件](../ae2_mechanics/cables_subparts.md)。
+
+## 过滤
+
+默认情况下，存储总线会存储所有事物。放入其过滤槽的物品会加入白名单，也即只会存储其中指明的事物。
+
+如果没有所需物品或流体，可从NEI中拖拽以放入过滤槽。
+
+用流体容器（如铁桶或流体储罐）右击即可将流体设为过滤，而非铁桶和储罐物品。
 
 ## 优先级
 
-点击GUI右上角的扳手图标即可设置优先级。物品进入时会优先存入最高优先级的存储。优先级相同时，会优先选择已存有该物品的存储；已设置过滤的存储会被视为已包含其所过滤的物品。取出物品时则从最低优先级的存储开始。
+可点击GUI右上角扳手以设置优先级。输入网络的物品会优先进入最高优先级的存储位置，如果有两个优先级相同的存储位置，则会优先选择已经存有该物品的那个。所有白名单元件在同优先级情况下视作已经存有该物品。从存储中输出的物品会优先从最低优先级的位置输出。这一优先级系统使得在输入输出物品的过程中，高优先级的存储位置会被填满，而低优先级的会被搬空。
 
-## 设置选项
+## 设置
 
-* 可根据相邻容器的当前内容对总线进行分区。
-* 可以选择总线无法提取的物品是否仍对网络可见（例如<ItemLink id="appliedenergistics2:tile.BlockInscriber" />的中部输入槽）。
-* 过滤功能可应用于存入和取出，也可以仅应用于存入。
-* 总线可设置为双向、仅存入或仅取出。
+*   存储总线可分区（过滤）为相邻容器当前的内容物。
+*   可设置相邻容器中无法被总线抽出的物品是否对网络可见（例如，存储总线无法从<ItemLink id="appliedenergistics2:tile.BlockInscriber" />的中间输入槽中抽出物品）。
+*   存储总线可设置为双向过滤或仅过滤存入操作。
+*   存储总线可为双向、仅存入、仅输出。
 
-## 升级卡支持
+## 升级
 
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" />可增加过滤槽数量。
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" />可启用模糊匹配以及忽略NBT的过滤。
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />可将白名单切换为黑名单。
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" />可按矿物辞典名称进行过滤。
+存储总线支持以下[升级](upgrade_cards.md)：
 
-## 合成配方
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" />：增加过滤槽位数
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" />：使得总线能按耐久度或忽略物品NBT过滤
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />：将白名单变为黑名单
+* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" />：会在对应容器为满时清空输入的物品，可避免农场产物堆积。设置分区的时候要小心！~~
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" />：用于对矿典的过滤，最大字节上限为256个字符，2.9.0现在字节上限增大到1024个字符了 *"__感谢youkoaona吧__"*
+
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:220" />
-
-

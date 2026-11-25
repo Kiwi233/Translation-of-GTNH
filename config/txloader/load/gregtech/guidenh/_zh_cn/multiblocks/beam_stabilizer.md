@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:3018
-quest_ids:
-  - RLJR8nFySzSaZLeCRsabDg==
+bindings:
+  - {type: "betterquesting", id: "RLJR8nFySzSaZLeCRsabDg=="}
 navigation:
   title: Beam Stabilizer
   parent: ./large_hadron_collider.md

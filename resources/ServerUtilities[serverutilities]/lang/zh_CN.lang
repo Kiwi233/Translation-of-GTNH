@@ -158,6 +158,7 @@ serverutilities.world.spawn_dimension=出生点维度
 serverutilities.world.unload_erroring_chunks=卸载错误区块
 serverutilities.world.rtp_min_distance=最小 /rtp 距离
 serverutilities.world.rtp_max_distance=最大 /rtp 距离
+serverutilities.world.restore_home_warp_rotation=恢复 home/warp 保存的玩家朝向
 serverutilities.world.forced_spawn_dimension_time=强制出生点维度时间
 serverutilities.world.forced_spawn_dimension_weather=强制出生点维度天气
 serverutilities.world.disable_player_suffocation_damage=禁用玩家受到窒息伤害
@@ -608,6 +609,7 @@ serverutilities.lang.homes.not_set=未知的家：“%s”！
 serverutilities.lang.homes.cooldown=使用 home 传送还需 %s！
 serverutilities.lang.homes.limit=家数量已达到上限！
 serverutilities.lang.homes.spectator=请先退出旁观模式！
+serverutilities.lang.homes.cross_dim=你不能传送至其它维度的家！
 
 # TPA
 serverutilities.lang.tpa.from_to=%s -> %s
@@ -635,6 +637,7 @@ commands.tree_base.available_subcommands=可用子命令：%s
 # Backup
 cmd.backup_start=服务器备份开始！
 cmd.backup_stop=服务器备份停止！
+cmd.backup_stop_pending=备份工作已取消，但其中部分仍在后台完成。
 cmd.backup_end_1=服务器备份在 %s 完成！
 cmd.backup_end_2=服务器备份在 %s 完成！(%s)
 cmd.backup_fail=世界保存失败！(%s)
@@ -663,6 +666,7 @@ cmd.backup_prune_allowance=容量配额：已使用 %s / %s。
 cmd.backup_prune_no_allowance=未设置容量配额。
 cmd.backup_prune_limit=若不删除受保护的备份（这些备份会被保留），就无法满足轮转容量配额。
 cmd.backup_prune_error=已跳过备份清理：%s
+cmd.backup_prune_legacy_active=retention_policy 未设置；旧版保留策略已生效
 cmd.backup_size=当前世界大小：%s，备份文件夹总大小：%s
 cmd.backup_list_none=未找到任何备份
 cmd.backup_list_error=无法列出备份：%s

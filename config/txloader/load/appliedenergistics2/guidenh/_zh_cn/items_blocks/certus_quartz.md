@@ -14,9 +14,9 @@ item_ids:
 
 <ItemImage id="gregtech:gt.metaitem.01:8516" scale="4" />
 
-*“赛特斯石英水晶具备一种独特性质————其晶格结构可承载大量能量”*
+*“赛特斯石英水晶具有一种独特性————它的晶态基质中能存储大量能量”*
 
-AE2方块、[设备](../ae2_mechanics/devices.md)和物品的主要合成材料之一。通过开采[赛特斯石英矿石](certus_ore.md)获得。
+AE2方块、[设备](../ae2_mechanics/devices.md)、物品的基础合成材料之一。由采集[赛特斯石英矿石](certus_ore.md)获得。
 
 
 ## 部分替代配方

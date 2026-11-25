@@ -12,19 +12,49 @@ item_ids:
 # 能源接收器
 
 <Row gap="20">
-<BlockImage id="appliedenergistics2:tile.BlockEnergyAcceptor" scale="4" />
+  <BlockImage id="appliedenergistics2:tile.BlockEnergyAcceptor" scale="4" /> 
 </Row>
 
-能源接收器可将其他科技模组的能源系统转化为AE2内部使用的[能源](../ae2_mechanics/energy.md)，即AE。<ItemLink id="appliedenergistics2:tile.BlockController" />控制器也能进行这种转化，但控制器接口较为宝贵，因此通常更推荐使用专用的能源接收器。
+该设备可将其他科技模组的通用能源形式转化为AE2内部使用的[AE能源](../ae2_mechanics/energy.md)。虽然<ItemLink id="appliedenergistics2:tile.BlockController" />控制器也具备此功能，但由于控制器接口较为珍贵，通常建议使用专用能源接收器。
 
-转化速度完全取决于网络能存储多少AE。转化比率可在模组配置中调整；常见的默认值包括1 EU = 2 AE和2 RF/FE = 1 AE。
+转换速度完全由网络能量容量决定，具体原因参见[此页](../ae2_mechanics/energy.md)。
 
-## 形态变体
+## 变种
 
-能源接收器有标准形态和扁平/[子部件](../ae2_mechanics/cables_subparts.md)形态两种，便于构建紧凑布局。两种形态可在合成网格中相互转换。
+能源接收器有2种变种⸺普通、面板/[子部件](../ae2_mechanics/cables_subparts.md)，便于设计紧凑设施。
+
+能源接收器的普通和面板形态可在合成方格中转换。
+
+能接收其他 Mod 的能源转换成ae能给me网络供电，比例如下：
+
+工业时代2
+1 EU = 2 AE
+
+热力膨胀 3
+2 RF = 1 AE
+
+旋转机械工艺
+11256 Watts/Joules = 1 AE
+
+Buildcraft 6
+1 MJ = 5 AE
+
+电动力学 Electrodynamics
+40W = 1 AE/t
+
+
+可以在配置文件中调整（以下配置文件内容来自rv6）
+
+powerratios {
+
+    D:ForgeEnergy=0.5
+
+    D:IC2=2.0
+
+    D:UsageMultiplier=1.0
+
+}
 
 ## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockEnergyAcceptor" />
-
-

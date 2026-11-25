@@ -16,38 +16,43 @@ item_ids:
 <ItemImage id="ae2fc:part_fluid_formation_plane" scale="4" />
 </Row>
 
-成型面板用于放置方块和丢弃物品。其功能类似仅允许存入的<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，当[设备](../ae2_mechanics/devices.md)（如<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />或<ItemLink id="appliedenergistics2:tile.BlockInterface" />）向[网络存储](../ae2_mechanics/import_export_storage.md)存入物品时，触发放置或丢弃操作。
+成型面板能放置方块和投出物品。它会在[设备](../ae2_mechanics/devices.md)（如<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />和<ItemLink id="appliedenergistics2:tile.BlockInterface" />）将物品存入[网络存储](../ae2_mechanics/import_export_storage.md)时放置或投出它们，与仅存入的<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />工作方式类似。
 
-<GameScene width="350" height="220" zoom="4" interactive={true}>
+<GameScene width="220" height="150" zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/formation_plane_demonstration.snbt" />
-  <IsometricCamera yaw="255" pitch="30" />
+  <IsometricCamera yaw="-30" pitch="30" />
 </GameScene>
 
-该设备利用了[管道子网](../tricks_example/pipe_subnet.md)布局中存储总线的机制；当你想要放置方块或丢弃物品而非运输物品时，可以用它来替代存储总线。
+在[管道子网络](../tricks_example/pipe_subnet.md)等设施中，此[设备](../ae2_mechanics/devices.md)的行为方式类似存储总线；如果需要放置方块或投出物品而非传输的话，也能替代存储总线。
 
-它们属于[线缆组分](../ae2_mechanics/cables_subparts.md)。
+成型面板是[线缆子部件](../ae2_mechanics/cables_subparts.md)。
 
-**请确保在领地插件中启用假玩家权限**
+**记得在你认领的区块内允许放置假玩家**
 
-## 过滤设置
+## 过滤
 
-默认情况下，面板会放置或丢弃任何物品。放入过滤槽的物品构成白名单。物品和流体可通过NEI拖入过滤槽，即使并未实际拥有它们；手持流体容器（如桶或储罐）右键点击过滤槽，即可选择该流体而非容器物品本身。
+默认情况下，成型面板不会放置或投出任何东西。放入其过滤槽的物品会加入白名单，也即只会放置其中指明的事物。
+
+如果没有所需物品或流体，可从NEI中拖拽以放入过滤槽。
+
+用流体容器（如铁桶或流体储罐）右击即可将流体设为过滤，而非铁桶和储罐物品。
 
 ## 优先级
 
-点击GUI右上角的扳手图标可设置优先级。物品进入网络时将优先存入最高优先级的存储设备。
+单击GUI右上角扳手图标以设置优先级。进入网络的物品会优先送至优先级最高的存储位置。
 
-## 设置项
+## 设置
 
-* 可配置为在世界上放置方块或直接丢弃物品
+*   成型面板可设置为放置方块或投出物品。
 
-## 可安装升级
+## 升级
 
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" /> 增加过滤槽数量
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> 启用按耐久度过滤或忽略物品NBT
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> 将白名单过滤切换为黑名单
+成型面板支持如下[升级](upgrade_cards.md)：
 
-## 合成配方
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" />：增加过滤槽位数
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" />：使得面板能按耐久度或忽略物品NBT过滤
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />：将白名单变为黑名单
+
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:320" />
-

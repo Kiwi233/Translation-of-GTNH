@@ -11,31 +11,42 @@ item_ids:
 ---
 
 # 控制器
-
 <Row>
   <BlockImage id="appliedenergistics2:tile.BlockController" meta="1" nbt='{inv:{},proxy:{p:0,g:6L,k:-1L},orientation_up:"UP",id:"BlockController",orientation_forward:"EAST",internalCurrentPower:0.0d}' scale="4" />
+
   <BlockImage id="appliedenergistics2:tile.BlockCreativeEnergyController" meta="1" nbt='{inv:{},proxy:{p:0,g:11L,k:-1L},orientation_up:"UP",id:"BlockCreativeEnergyController",orientation_forward:"EAST",internalCurrentPower:"9.22337203685477E14d"}' scale="4" />
 </Row>
 
-控制器是[ME网络](../ae2_mechanics/me_network_connections.md)的路由中枢。若没有控制器，网络将处于“临时网络”状态，最多只能支持8个使用频道的[设备](../ae2_mechanics/devices.md)。同一网络中不能存在多个控制器组。控制器的每个面提供32个[频道](../ae2_mechanics/channels.md)。
+控制器是[ME网络](../ae2_mechanics/me_network_connections.md)的寻路中心。若没有控制器，则网络是“自组织”网络，且最多只能包含8台占用频道的[设备](../ae2_mechanics/devices.md)。
 
-每个控制器方块消耗6 AE/t能量并自带8000 AE存储，因此大型网络可能需要额外的储能。参见[能源](../ae2_mechanics/energy.md)。
+同一个[ME网络](../ae2_mechanics/me_network_connections.md)中不允许存在多组控制器。
 
-控制器是可在以下规则内自由塑形的多方块结构：
+控制器每面提供32个[频道](../ae2_mechanics/channels.md)。
 
-1. 同一网络中的所有控制器方块必须相互连接。
-2. 控制器必须能容纳在7x7x7方块范围内。
-3. 控制器方块之间最多只能沿一个轴相邻；违反此规则会使控制器失效。
+每个控制器方块需要消耗6 AE/t才可正常工作。每个控制器方块可存储8000 AE，更大的网络可能需要额外的能量存储容量。详细信息参见[能量](../ae2_mechanics/energy.md)。
+
+多方块控制器的结构相对自由。
 
 <GameScene width="400" height="200" zoom="2" showBackground={false}>
   <ImportStructure src="../assets/structures/controllers.snbt" />
   <IsometricCamera yaw="195" pitch="25" />
 </GameScene>
 
-控制器通电且结构有效时会发光并循环变换颜色。右键点击它可打开与<ItemLink id="appliedenergistics2:item.ToolNetworkTool" />相同的界面。
+不过，仍有几条需要遵守的规则：
 
-## 合成配方
+1.  同一个[ME网络](../ae2_mechanics/me_network_connections.md)的所有控制器方块必须相邻，否则所有方块都会变红。
+2.  控制器的尺寸需小于等于7x7x7，否则会变红。
+3.  控制器中方块最多只能在1个轴向方向上有2个相邻方块，若有方块违反此规则，控制器会失效并变红。
+
+<GameScene width="350" zoom="2" showBackground={false}>
+  <ImportStructure src="../assets/structures/controller_rules.snbt" />
+  <IsometricCamera yaw="195" pitch="30" />
+</GameScene>
+
+在遵守所有规则且供给能量的情况下，控制器会发光并循环变色。
+
+右击控制器可打开和<ItemLink id="appliedenergistics2:item.ToolNetworkTool" />相同的GUI。
+
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockController" />
-
-

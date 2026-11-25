@@ -6,11 +6,11 @@ item_ids:
   - gregtech:gt.blockmachines:15510
   - gregtech:gt.blockmachines:15444
   - gregtech:gt.blockmachines:15445
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAH1w==
-  - AAAAAAAAAAAAAAAAAAAKiw==
-  - RAH2M4DoTTaX5a2Sj4hRcQ==
-  - lBuQcNYjQ8-YsMFqW6U1tQ==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAH1w=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKiw=="}
+  - {type: "betterquesting", id: "RAH2M4DoTTaX5a2Sj4hRcQ=="}
+  - {type: "betterquesting", id: "lBuQcNYjQ8-YsMFqW6U1tQ=="}
 navigation:
   title: Quantum Computer
   parent: ./multiblocks_index.md
