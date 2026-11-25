@@ -1,9 +1,9 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15300
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAKqw==
-  - AAAAAAAAAAAAAAAAAAAKqg==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKqw=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKqg=="}
 navigation:
   title: Active Transformer
   parent: ./multiblocks_index.md

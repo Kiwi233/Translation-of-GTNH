@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15545
-quest_ids:
-  - Ds_ok-hRS2ODJNs3LUP9kw==
+bindings:
+  - {type: "betterquesting", id: "Ds_ok-hRS2ODJNs3LUP9kw=="}
 navigation:
   title: Algae Farm
   parent: ./multiblocks_index.md

@@ -7,54 +7,55 @@ navigation:
 
 # 专用本地存储
 
-利用[ME接口的特殊交互机制](../items_blocks/interface.md#special-interactions)，[子网](../ae2_mechanics/subnetworks.md)可以将自己存储的内容呈现给主网络，同时无法看到主网络的存储，并且只占用1个[频道](../ae2_mechanics/channels.md)。
+将[接口的特殊行为](../items_blocks/interface.md#特殊交互)加以运用，就能让[子网络](../ae2_mechanics/subnetworks.md)不可访问主网络存储，而其存储内容又在主网络中可见，且只会占用最多1个[频道](../ae2_mechanics/channels.md)。
 
-这适用于农场等场景的本地存储，可防止物品溢出到你的主存储中。
+适用于某些农场的本地存储，可避免主网络存储物品过载。
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/local_storage.snbt" />
 
   <BoxAnnotation color="#dddddd" min="4 0 0" max="5 2 1">
-  (1) 某种物品输入方式（本例为ME接口）
+  （1）物品输入部分（此例中为接口）。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="3 0 0" max="4 1 1">
-  (2) ME驱动器：里面装有若干存储元件。这些元件应过滤为农场产出的物品。这些元件可以安装均分卡和溢出销毁卡。<Row><ItemImage id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" /></Row>
+  （2）驱动器：装有若干元件。元件应过滤农场输出产物。可装有均分卡和溢出销毁卡。
+  <Row><ItemImage id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="3 1 0" max="4 2 0.3">
-  (3) 合成终端：可以看到子网上驱动器的内容，但看不到你主网络存储的内容。
+  （3）合成终端：此终端可查看子网络驱动器的内容物，但无法查看主网络存储。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 0 0" max="2.3 1 1">
-  (4) ME接口#2：保持默认配置。
+  （4）接口#2：默认配置。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1.7 0 0" max="2 1 1">
-  (5) 存储总线：优先级设置得高于主存储，并可过滤为农场产出的物品。
+  （5）存储总线：优先级高于主存储，可过滤农场输出产物。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 0.3">
-  合成终端：既可以查看主网络存储的内容，*也*可以查看子网的内容。
+  合成终端：此终端可同时查看主网络存储*和*子网络存储。
   </BoxAnnotation>
 
   <DiamondAnnotation pos="0 0.5 0.5" color="#00ff00">
-  连接主网络
+  至主网络
   </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 配置说明
+## 配置
 
-* 第一个<ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) 只是接收农场产出的物品，然后把它们推入子网。
-* <ItemLink id="appliedenergistics2:tile.BlockDrive" /> (2) 里面装有若干[存储元件](../items_blocks/storage_cells.md)。这些元件应[分区](../items_blocks/cell_workbench.md)过滤为农场产出的物品。这些元件可以安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" />和<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" />。
-* 第二个<ItemLink id="appliedenergistics2:tile.BlockInterface" /> (4) 保持默认配置。
-* <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />的[优先级](../ae2_mechanics/import_export_storage.md#storage-priority)设置得高于主存储。它可以过滤为农场产出的物品。
+* 第一个<ItemLink id="appliedenergistics2:tile.BlockInterface" />（1）只会接受农场产物并送入子网络。
+* <ItemLink id="appliedenergistics2:tile.BlockDrive" />（2）内装有若干[元件](../items_blocks/storage_cells.md)。元件应被[分区](../items_blocks/cell_workbench.md)为农场产物。元件可装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" />和<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" />。
+* 第二个<ItemLink id="appliedenergistics2:tile.BlockInterface" />（4）处于默认配置。
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />的[优先级](../ae2_mechanics/import_export_storage.md#存储优先级)高于主存储。可设置为过滤农场产物。
 
 ## 工作原理
 
-* 子网上的<ItemLink id="appliedenergistics2:tile.BlockInterface" />向主网络上的<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />展示<ItemLink id="appliedenergistics2:tile.BlockDrive" />的内容。这意味着存储总线可以直接从驱动器内的元件中拉取物品，或把物品存入其中。
-* 存储总线的[优先级](../ae2_mechanics/import_export_storage.md#storage-priority)设置得很高，使物品会优先存回子网，而不是进入你的主存储。
-* 重要的是，如果子网中的元件装满了，物品也不会溢出到主网络。如果你的农场属于一旦积压就会出问题的类型，可以改用<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" />来删除多余的物品。
-* 如果农场产出多种物品，<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" />可以防止某一种物品占满所有元件，而让其他物品无法存入。
+* 子网络上的<ItemLink id="appliedenergistics2:tile.BlockInterface" />会向主网络上的<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />展示<ItemLink id="appliedenergistics2:tile.BlockDrive" />的内容物。也即存储总线可直接向该驱动器中的元件输入输出。
+* 存储总线的[优先级](../ae2_mechanics/import_export_storage.md#存储优先级)较高，由此物品会优先放入子网络而非主网络。
+* 重要的是，假如子网络的元件被填满了，多出的物品不会溢出至主网络。如果农场会因堵塞而失效，可装入<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" />以删除多余物品。
+* 如果农场产出多种物品，<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" />可避免因其中一种产物填满所有元件导致其余产物被堵塞的情况出现。

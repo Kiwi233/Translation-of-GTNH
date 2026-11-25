@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15757
-quest_ids:
-  - 52NvoXdXSuCp2hCvV_otBA==
+bindings:
+  - {type: "betterquesting", id: "52NvoXdXSuCp2hCvV_otBA=="}
 navigation:
   title: Bose-Einstein Condensate Teleportation Node
   parent: ./bose_einstein_condensate_line.md

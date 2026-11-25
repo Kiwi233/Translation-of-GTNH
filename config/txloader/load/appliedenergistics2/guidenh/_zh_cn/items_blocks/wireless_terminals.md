@@ -14,38 +14,43 @@ item_ids:
 - ae2fc:wireless_ultra_terminal
 ---
 
-# 无线终端
+# 无线终端系统
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ToolWirelessTerminal" scale="4" />
   <ItemImage id="ae2wct:wirelessCraftingTerminal" scale="4" />
   <ItemImage id="ae2fc:wireless_ultra_terminal" scale="4" />
 </Row>
+
 <Row>
   <ItemImage id="ae2fc:wireless_interface_terminal" scale="4" />
   <ItemImage id="ae2fc:wireless_fluid_pattern_terminal" scale="4" />
   <ItemImage id="ae2fc:wireless_level_terminal" scale="4" />
 </Row>
 
-无线终端是常规[有线终端](terminals.md)的便携版本，两者界面功能完全一致，但无线终端使用[升级卡](upgrade_cards.md)插槽而非<ItemLink id="appliedenergistics2:item.ItemViewCell" />（显示元件）插槽。
+无线终端是普通有线[终端](terminals.md)的便携版本。它们的UI完全一致，不过无线终端只有[升级卡](upgrade_cards.md)槽，而无<ItemLink id="appliedenergistics2:item.ItemViewCell" />槽。
 
-将终端放入<ItemLink id="appliedenergistics2:tile.BlockSecurity" />（ME安全终端）右上角的插槽（带有无线终端图标和箭头的槽位）即可完成绑定。它需处于<ItemLink id="appliedenergistics2:tile.BlockWireless" />（ME无线访问点）的信号范围内方可使用，并可在<ItemLink id="appliedenergistics2:tile.BlockCharger" />（充能器）中补充能量。
+可将终端放入<ItemLink id="appliedenergistics2:tile.BlockSecurity" />右上角槽位（带有无线终端图标且下方有箭头）以与访问点所在的网络配对。
 
-# 基础无线终端
+只有在<ItemLink id="appliedenergistics2:tile.BlockWireless" />范围内才能工作。
+
+可在<ItemLink id="appliedenergistics2:tile.BlockCharger" />中为其充能。
+
+# 无线终端
 
 <ItemImage id="appliedenergistics2:item.ToolWirelessTerminal" scale="4" />
 
-基础终端的便携版本。在无线访问点的覆盖范围内，它可以访问[网络存储](../ae2_mechanics/import_export_storage.md)并提交[自动合成](../ae2_mechanics/autocrafting.md)请求。
+基础终端，但是是便携版！可在<ItemLink id="appliedenergistics2:tile.BlockWireless" />范围内任何地方访问[网络存储](../ae2_mechanics/import_export_storage.md)，或是向[自动合成](../ae2_mechanics/autocrafting.md)设施发送请求。
 
-## 界面说明
+## 界面
 
-详见[终端系统](terminals.md)。
+见[终端](terminals.md)。
 
-## 升级卡支持
+## 升级
 
-当前GTNH版本中没有可用的额外升级。
+无线终端支持以下[升级](upgrade_cards.md)：
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ToolWirelessTerminal" />
 
@@ -53,17 +58,16 @@ item_ids:
 
 <ItemImage id="ae2wct:wirelessCraftingTerminal" scale="4" />
 
-无线合成终端拥有与无线终端相同的界面和设置，另外还有一个合成网格，可自动从[网络存储](../ae2_mechanics/import_export_storage.md)补充材料。Shift+点击输出槽时请务必小心！
+无线合成终端和无线终端比较相似，它们的UI区域与设置均相同，但无线合成终端新增了可自动从[网络存储](../ae2_mechanics/import_export_storage.md)中补充的合成方格。按住Shift合成时要小心谨慎！
 
-## 界面说明
+## 界面
 
-详见[终端系统](terminals.md)。
+见[终端](terminals.md)。
 
-## 升级卡支持
+## 升级
 
-当前GTNH版本中没有可用的额外升级。
+无线合成终端支持以下[升级](upgrade_cards.md)：
 
-## 合成配方
+## 配方
 
 <RecipeFor id="ae2wct:wirelessCraftingTerminal" />
-

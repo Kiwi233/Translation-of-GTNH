@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:1169
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAMOQ==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAMOQ=="}
 navigation:
   title: Large Chemical Reactor
   parent: ./multiblocks_index.md

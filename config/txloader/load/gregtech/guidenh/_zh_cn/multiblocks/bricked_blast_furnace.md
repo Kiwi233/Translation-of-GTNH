@@ -1,11 +1,11 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:140
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAAQQ==
-  - AAAAAAAAAAAAAAAAAAAATA==
-  - AAAAAAAAAAAAAAAAAAACuQ==
-  - AAAAAAAAAAAAAAAAAAACug==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAAQQ=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAATA=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAACuQ=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAACug=="}
 navigation:
   title: Bricked Blast Furnace
   parent: ./multiblocks_index.md

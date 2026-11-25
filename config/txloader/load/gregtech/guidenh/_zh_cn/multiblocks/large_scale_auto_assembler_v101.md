@@ -1,9 +1,9 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:876
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAIBg==
-  - AAAAAAAAAAAAAAAAAAAKQg==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAIBg=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAKQg=="}
 navigation:
   title: Large Scale Auto-Assembler v1.01
   parent: ./multiblocks_index.md

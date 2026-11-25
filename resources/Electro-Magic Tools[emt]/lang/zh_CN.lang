@@ -101,14 +101,14 @@ item.EMT.omnitool.thaumium.name=神秘钻锯
 item.EMT.chainsaw.stream.name=奔雷电锯
 item.EMT.drill.rockbreaker.name=岩石粉碎者
 item.EMT.hoeofgrowth.electric.name=电子句芒锄
-item.EMT.focus.explosion.name=法杖核心:爆炸
-item.EMT.focus.christmas.name=法杖核心:圣诞
-item.EMT.focus.shield.name=法杖核心:护盾
-item.EMT.focus.charge.name=法杖核心:充电
-item.EMT.focus.chargeWand.name=法杖核心:化魔
-item.EMT.focus.maintenance.name=法杖核心:维护
+item.EMT.focus.explosion.name=法杖核心：爆炸
+item.EMT.focus.christmas.name=法杖核心：圣诞
+item.EMT.focus.shield.name=法杖核心：护盾
+item.EMT.focus.charge.name=法杖核心：充电
+item.EMT.focus.chargeWand.name=法杖核心：化魔
+item.EMT.focus.maintenance.name=法杖核心：维护
 item.EMT.focus.electricCloud.name=雷云之光
-item.EMT.focus.energyBall.name=法杖核心:能量球
+item.EMT.focus.energyBall.name=法杖核心：能量球
 item.EMT.focus.EU.cost.info=EU/每次施法
 item.EMT.focus.EU.cost.once= §r%s §eEU§0
 item.EMT.focus.EU.cost.tick= §r%s §eEU/t§0
@@ -174,16 +174,16 @@ tile.EMT.Sextuple_Compressed_Ignis_Solar.name=火注魔六重压缩太阳能
 tile.EMT.Septuple_Compressed_Ignis_Solar.name=火注魔七重压缩太阳能
 tile.EMT.Octuple_Compressed_Ignis_Solar.name=火注魔八重压缩太阳能
 tile.EMT.solar.air.name=风注魔压缩太阳能
-tile.EMT.solar2.doubleair.name=风注魔二重压缩太阳能
-tile.EMT.solar2.tripleair.name=风注魔三重压缩太阳能
+tile.EMT.solar.doubleair.name=风注魔二重压缩太阳能
+tile.EMT.solar.tripleair.name=风注魔三重压缩太阳能
 tile.EMT.Quadruple_Compressed_Aer_Solar.name=风注魔四重压缩太阳能
 tile.EMT.Quintuple_Compressed_Aer_Solar.name=风注魔五重压缩太阳能
 tile.EMT.Sextuple_Compressed_Aer_Solar.name=风注魔六重压缩太阳能
 tile.EMT.Septuple_Compressed_Aer_Solar.name=风注魔七重压缩太阳能
 tile.EMT.Octuple_Compressed_Aer_Solar.name=风注魔八重压缩太阳能
-tile.EMT.solar2.earth.name=地注魔压缩太阳能
-tile.EMT.solar2.doubleearth.name=地注魔二重压缩太阳能
-tile.EMT.solar2.tripleearth.name=地注魔三重压缩太阳能
+tile.EMT.solar.earth.name=地注魔压缩太阳能
+tile.EMT.solar.doubleearth.name=地注魔二重压缩太阳能
+tile.EMT.solar.tripleearth.name=地注魔三重压缩太阳能
 tile.EMT.Quadruple_Compressed_Terra_Solar.name=地注魔四重压缩太阳能
 tile.EMT.Quintuple_Compressed_Terra_Solar.name=地注魔五重压缩太阳能
 tile.EMT.Sextuple_Compressed_Terra_Solar.name=地注魔六重压缩太阳能
@@ -195,7 +195,7 @@ emt.rsname.Electric Magic Tools=电力魔法工具
 emt.tag.Electric Magic Tools=谁说科技和魔法不能互相结合?
 emt.text.Electric Magic Tools=谁说魔法和科技不能共同工作?我们的研究者们集合了魔法学院顶尖的神秘使们带来了魔法与电子工具的组合.
 
-emt.rsname.Energy Ball Focus=法杖核心:能量球
+emt.rsname.Energy Ball Focus=法杖核心：能量球
 emt.tag.Energy Ball Focus=这可不是玩具
 emt.text.Energy Ball Focus=要使用此法杖核心必须装备电池背包或纳米/量子胸甲.每制造一个能量球需要消耗5120EU.请勿在密闭空间内使用此法杖核心!
 
@@ -236,15 +236,15 @@ emt.rsname.Thaumium Omnitool=神秘钻锯
 emt.tag.Thaumium Omnitool=神秘的复合工具
 emt.text.Thaumium Omnitool=在创作了钻石钻锯和铁钻锯之后,下一步就是用在神秘材料上了.不幸的是,这不是一个容易事,你发现了一种结合神秘电钻和神秘电锯的方法,而得到了一个有挖矿和砍树能力的工具.这些工具已被注入魔力.你不确定下次注入时将会发生什么.
 
-emt.rsname.Explosion Focus=法杖核心:爆炸
+emt.rsname.Explosion Focus=法杖核心：爆炸
 emt.tag.Explosion Focus=请在开阔处使用
 emt.text.Explosion Focus=你已发现了一种修改九狱核心的方法:将蝙蝠换为更具爆炸性的采矿激光.<BR>这个核心工作时类似激光采矿枪,但是它使用Vis而不是电力.<BR>这个核心很不稳定,所以记着小心点.
 
-emt.rsname.Kris-tmas Focus=法杖核心:圣诞
+emt.rsname.Kris-tmas Focus=法杖核心：圣诞
 emt.tag.Kris-tmas Focus=吼!吼!吼!
 emt.text.Kris-tmas Focus=圣诞快乐!<BR><BR>你已发现了寒霜核心的全新用法.你可以随意召唤你的雪人朋友们,向庆祝节日的邻居们砸雪球,圣诞节的魔法!
 
-emt.rsname.Shield Focus=法杖核心:护盾
+emt.rsname.Shield Focus=法杖核心：护盾
 emt.tag.Shield Focus=结界张开
 emt.text.Shield Focus=通过对便携式洞穴的试验,你已发现了更多关于在多次元空间移动物体的方法.你相信你能反过来使用,从异次元召唤出一些方块来在各种危险情况下保护你.注意在使用这个核心将这些方块带入我们的次元时,将会从次元出现的地方转置任何方块,不会再返还.而且在盾牌方块存在时你将无法移动.
 
@@ -388,11 +388,11 @@ emt.rsname.Electric Hoe of Growth=电子句芒锄
 emt.tag.Electric Hoe of Growth=惊人的自然力量
 emt.text.Electric Hoe of Growth=你试着升级你的句芒锄.现在它对土地和植物就像之前的句芒锄一样工作.<BR><BR>然而,对你来说这个工具里的魔力过于强力难以全部转为使用一般电力的性能,在它用坏前你还会有几次使用的次数,它是可充电的.
 
-emt.rsname.Wand Focus: Charging=法杖核心:充电
+emt.rsname.Wand Focus: Charging=法杖核心：充电
 emt.tag.Wand Focus: Charging=从电力到魔力
 emt.text.Wand Focus: Charging=你意识到你总是随身带着一支法杖和你的电子设备.但有时,你用光了电子工具里的电.因此你做出了这个核心.它很简单也很实用,将法杖的魔力转化为一般的电力来给物品充电.
 
-emt.rsname.Wand Focus: Wand Charging=法杖核心:化魔
+emt.rsname.Wand Focus: Wand Charging=法杖核心：化魔
 emt.tag.Wand Focus: Wand Charging=从电力到魔力
 emt.text.Wand Focus: Wand Charging=你发现了一种方法利用工业充能站的能力并将其嵌入法杖核心,逆转原有的过程.现在它会从物品中抽取电力给你的法杖充能,尽管消耗率很高.此外,你意识到你需要一整套符文护甲才能启动法杖充能的过程.
 

@@ -2,7 +2,7 @@
 区块加载模式下，工作区域中心为最靠近采矿场的区块角落
 需要{color_key:钻井液}来运行
 采矿场输出的粉碎矿石数量约为正常处理的{color_speed:~{var:ore_multiplier}x}
-增产（时运）{color_amount:{var:fortune}}。只对贫瘠矿有效
+时运加成：{color_amount:{var:fortune}}。该加成仅对贫瘠矿石生效
 基础工作周期：{color_time:{var:cycle_time}}
 {hr}
 使用{white:螺丝刀}调整采矿范围

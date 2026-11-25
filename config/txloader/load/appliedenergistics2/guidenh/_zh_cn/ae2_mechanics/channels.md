@@ -7,11 +7,11 @@ navigation:
 
 # 频道
 
-## 什么是频道？
+# 频道是什么？
 
-频道是应用能源2的[ME网络](me_network_connections.md)中[设备](devices.md)消耗的一种资源。ME网络通过频道来支持提供网络存储与其他网络服务的设备。线缆能提供的频道数量是有限的：一根线缆只能承载一定数量的频道。当你通过线缆把一台使用频道的设备接入网络时，这台设备就会占用该线缆上的一个频道。一旦线缆的频道用尽，新加入的设备就无法再连接到ME网络。
+频道是ME网络中的设备占用的一种资源，AE2的[ME网络](me_network_connections.md) 需要通过频道来支持使用网络化存储或其他网络服务的设备。由[线缆](../items_blocks/cables.md)连接的ME网络中的频道是有限的，每根线缆只能承载有限的频道，当你把一台需要使用频道的设备通过线缆接入网络时，这台设备就会从线缆中占据一个频道，当线缆的频道数量耗尽时，新加入的设备就无法接入ME网络了。
 
-<GameScene zoom="4" showBackground={false} width="300" rotateX={20} rotateY={-75}>
+<GameScene zoom="4" width="350" rotateX={20} rotateY={-75}>
   <ImportStructure src="../assets/structures/channels_channel_count.snbt" />
   <LineAnnotation
   points="0.35 0.65 5; 0.35 0.65 4.5;0.35 1.5 4.5"
@@ -86,84 +86,69 @@ navigation:
   alwaysOnTop={true}>
   </LineAnnotation>
   <LineAnnotation
-  points="0.5 0.55 2;0.5 0.55 0.5"
+  points="0.5 0.55 2;0.5 0.55 1"
   color="#ff0000"
   thickness="1"
   alwaysOnTop={true}>
-  线缆中全部8个频道都被用完了，因此驱动器没有分得频道。 
+  由于线缆的8个频道已被占满，所以驱动器因没有频道而离线
   </LineAnnotation>
   <DiamondAnnotation pos="0.5 0.55 2" color="#ff0000">
-    线缆中全部8个频道都被用完了，因此驱动器没有分得频道。 
+  由于线缆的8个频道已被占满，所以驱动器因没有频道而离线
   </DiamondAnnotation>
 </GameScene>
 
-普通线缆至多能承载8个频道，而致密线缆至多能承载32个频道。观察频道使用情况的一个简易方法是使用[智能线缆](../items_blocks/cables.md#Smart Cable)，它们会通过自身的材质与亮度来显示频道用量。
-
+普通线缆可以承载8个频道，致密线缆可以承载32个频道。一个观察频道的简单方法是使用[智能线缆](../items_blocks/cables.md#智能线缆)，它们会通过自身的纹路与光效显示频道使用情况。
 
 # 频道路由
 
-在带有<ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />的ME网络中，频道按三个步骤进行路由：
+在有<ItemLink id="appliedenergistics2:tile.BlockController" showIcon="Left"/>的ME网络中，频道的传输需要经过三个步骤:
 
-1. 频道先从相邻设备出发，经最短路径前往最近的普通线缆，无论是玻璃线缆、覆层线缆还是智能线缆。
-2. 然后沿该普通线缆继续前往最近的致密线缆。
-3. 最后沿该致密线缆前往ME控制器。
+1.频道会通过最短的路径，从相邻的设备传输到最近的普通线缆上（无论是玻璃线缆、包层线缆或者智能线缆）。  
+2.频道会继续沿着这条普通线缆，传输到最近的致密线缆上。  
+3.频道再通过这条致密线缆，传输到ME控制器。如果最短路径已被占用，那么某些设备可能无法接收到所需的频道。
 
-如果最短路径已被占满，部分设备可能无法获得所需的频道。
+可以利用线缆染色、<ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="Left"/>或<ItemImage id="appliedenergistics2:item.ItemMultiPart:120" yOffset="2" /><ItemLink id="appliedenergistics2:item.ItemMultiPart:120"/>等手段来确保频道能按照预期的路径传输。需要注意的是，颜色并不会影响频道的优先级判定，它只会让不同颜色的线缆互相不连接以起到控制频道传输的作用，不染色的Fluix默认色线缆可以与任何颜色的线缆连接。
 
-你可以利用线缆染色、<ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left"/>，以及<ItemImage id="appliedenergistics2:item.ItemMultiPart:120" yOffset="2" /><ItemLink id="appliedenergistics2:item.ItemMultiPart:120"/>来强制频道沿你想要的路径传输。颜色不影响频道的优先级，它只是防止不同颜色的线缆相互连接，从而有助于控制频道的路由。
+例如下面场景中的线缆形成了回环，频道寻路机制让部分驱动器缺失频道离线。
 
-> [!NOTE]
-> 无色（福鲁伊克斯）线缆可以与任何颜色的线缆相连。
-
-例如，在下图的结构中，线缆构成了环路。由于频道总是试图走最短路径，一些驱动器最终会失去频道而离线。
-
-<GameScene zoom="2" showBackground={false} width="200" rotateX={90} rotateY={-90}>
+<GameScene zoom="3" width="350" height="300" rotateX={90} rotateY={-90}>
     <ImportStructure src="../assets/structures/channels_channel_loop1.snbt" />
 </GameScene>
 
-要解决这个问题，可以小心地利用线缆颜色、石英纤维和线缆锚来约束频道的路径。网络结构应当呈树状，环路与含糊不清的网状路径越少越好。
+通过善用线缆染色、石英纤维与线缆锚严格地限制频道的走向来解决上述问题。网络结构应呈树状，尽量减少循环和模糊的网状频道路径。
 
-<GameScene zoom="2" showBackground={false} width="200" rotateX={90} rotateY={-90}>
+<GameScene zoom="3"  width="350" height="300" rotateX={90} rotateY={-90}>
     <ImportStructure src="../assets/structures/channels_channel_loop2.snbt" />
 </GameScene>
 
 
 # 网络设计
 
-如上文所述，ME网络应当设计成分支的树状结构：用致密线缆作为主干，把频道从控制器引出，再从致密线缆上分出普通线缆来连接各设备。每组普通线缆至多应为8台设备服务；如果需要更多，就从致密线缆上再分出一条普通线缆分支。
+如上文所述，设计ME网络时应该尽量让网络拓扑呈分叉树状：通过致密线缆作为主干道导出ME控制器的频道，再用普通线缆从致密线缆中分离频道来供给设备。每组普通线缆应该只负责至多8台设备，更多的设备应另起一组普通线缆从致密线缆中分出频道。
 
-下面是一个<Color id="RED">结构糟糕</Color>的网络示例。它满是环路：线缆本身构成环路，设备之间的频道直接传输也会形成环路。其结果是一个难以阅读、难以分析的网络，而且部分组件很可能因为分不到频道而离线。
+以下是一个<Color id="RED">结构较差</Color>的网络设计示意，网络中充满了环形结构————线缆是环形结构、设备与设备直接传输频道也构成环形结构，最终整个网络几乎没有可读性，难以分析频道走向，同时也会导致部分组件因无频道而离线。
 
-<GameScene zoom="4" showBackground={false} width="400" rotateX={30} rotateY={100}>
+<GameScene zoom="4" width="450" rotateX={30} rotateY={100}>
     <ImportStructure src="../assets/structures/channels_bad_design.snbt" />
 </GameScene>
 
-下面是一个<Color id="GREEN">结构良好</Color>的网络示例：
-<GameScene zoom="2" showBackground={false} width="400" rotateY={-115} rotateX={30}>
+以下是一个<Color id="GREEN">结构良好</Color>的网络设计示例：
+<GameScene zoom="2" width="430" rotateY={-115} rotateX={30}>
     <ImportStructure src="../assets/structures/channels_good_design.snbt" />
     <BoxAnnotation min="11 0 8" max="13 1 5" color="#00ff1a" thickness="1">
-      用不同颜色的线缆区分各分区，这样既更容易辨认，也不容易意外相连。
+      使用不同颜色的线缆来分区，便于识别并且放置串联。
     </BoxAnnotation>
     <BoxAnnotation min="5 0 4" max="3 4 6" color="#00ff1a" thickness="1">
-      这条普通线缆恰好为8个接口承载8个频道。这里既没有频道短缺，也没有浪费，因为分子装配室本身不占用频道。
+      注意到此处一根普通线缆刚好承载8个接口的频道，没有造成频道缺少或浪费（分子装配室不占用频道）。
     </BoxAnnotation>
 </GameScene>
 
 # 自组织网络
 
-没有<ItemLink id="appliedenergistics2:tile.BlockController" showIcon="left" />的网络是自组织网络。它至多支持8台使用频道的设备。一旦超过8台，整个网络都会失效，而不只是多出来的设备离线。此时你必须移除一部分设备，或者添加一个ME控制器。
+没有ME控制器的网络属于临时的自组织网络，最多可以支持8个设备的连接。一旦连接的设备数量超过8个，不像正常网络那样只有超出数量部分的设备离线，而是整个网络都会失效。此时，要么移除部分设备，要么添加一个 ME 控制器。
 
-与基于控制器的常规网络不同，自组织网络中的智能线缆显示的是整个网络中已使用频道的总数，而不是经过该线缆的频道数量。
+与正常网络不同，自组织网络中的任意位置的智能线缆都会显示整个网络中正在使用的总通道数量，而不是像普通网络那样只显示通过某根特定线缆的通道数量。实际上，在自组织网络中，每个设备都会占用整个网络每一根线缆的的一个频道。这与ME控制器根据最短路径来分配频道的方式截然不同。也就是说在自组织网络中，整个网络均匀的分布了所有设备使用的频道，并没有频道传输路径这种形式。
 
-实际上，在自组织网络中，每台设备都会在全网每一根线缆上各占用一个频道。这与ME控制器按最短路径分配频道的方式完全不同。换句话说，所有已使用的频道均匀分布在整个自组织网络中，并不存在真正意义上的频道路由路径。
 
-<FloatingImage src="../assets/images/channels_normal_network.png"  wrap="top-bottom" align="left"  displayWidth="300" title="常规网络" >
-  <ImageAnnotation>
-  常规网络
-  </ImageAnnotation>
-</FloatingImage>
-<FloatingImage src="../assets/images/channels_ad_hoc_network.png"  wrap="top-bottom" align="left"  displayWidth="300" title="自组织网络" >
-  <ImageAnnotation>
-  自组织网络
-  </ImageAnnotation>
-</FloatingImage>
+![普通网络](../assets/images/channels_normal_network.png)
+![自组织网络](../assets/images/channels_ad_hoc_network.png)

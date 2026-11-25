@@ -1,9 +1,9 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15546
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAADDQ==
-  - AAAAAAAAAAAAAAAAAAAMIA==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAADDQ=="}
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAMIA=="}
 navigation:
   title: Pyrolyse Oven
   parent: ./multiblocks_index.md

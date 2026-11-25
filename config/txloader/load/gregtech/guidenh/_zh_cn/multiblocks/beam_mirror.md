@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:3016
-quest_ids:
-  - _xupoCqbT52qN_3zQonWNg==
+bindings:
+  - {type: "betterquesting", id: "_xupoCqbT52qN_3zQonWNg=="}
 navigation:
   title: Beam Mirror
   parent: ./large_hadron_collider.md

@@ -2,8 +2,8 @@
 item_ids:
   - gregtech:gt.blockmachines:15331
   - gregtech:gt.blockmachines:15451
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAH2A==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAH2A=="}
 navigation:
   title: Research Station
   parent: ./multiblocks_index.md

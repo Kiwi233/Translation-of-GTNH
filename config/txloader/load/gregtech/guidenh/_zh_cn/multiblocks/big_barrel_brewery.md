@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:3011
-quest_ids:
-  - 3SzKMSj0StOAOzVmInDjZQ==
+bindings:
+  - {type: "betterquesting", id: "3SzKMSj0StOAOzVmInDjZQ=="}
 navigation:
   title: Big Barrel Brewery
   parent: ./multiblocks_index.md

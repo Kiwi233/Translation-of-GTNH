@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:10506
-quest_ids:
-  - isBmh7T0Sr63O2m5N4pCIQ==
+bindings:
+  - {type: "betterquesting", id: "isBmh7T0Sr63O2m5N4pCIQ=="}
 navigation:
   title: Source Chamber
   parent: ./beam_line.md

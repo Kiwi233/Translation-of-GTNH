@@ -4,7 +4,7 @@
 {color_danger:未启用时请勿放入火箭燃料——启动时燃料将被销毁！}
 {hr}
 燃烧过程还需要以下额外输入：
-每小时消耗 {color_amount:{var:lubricant_amount}L} 的{white:{var:lubricant}}（增压时 ×{var:boost}）
+每小时消耗 {color_amount:{var:lubricant_amount} {L}} 的{white:{var:lubricant}}（增压时 ×{var:boost}）
 每刻消耗相当于当前 {EU/t} {color_amount:{var:air_percent}%} 的{white:空气}（仅通过进气仓输入）
 每刻消耗相当于当前 {EU/t} {color_amount:{var:coolant_percent}%} 的{white:{var:coolant}}进行增压（可选）
 {hr}

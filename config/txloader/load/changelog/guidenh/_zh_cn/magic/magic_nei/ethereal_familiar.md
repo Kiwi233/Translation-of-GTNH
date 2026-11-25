@@ -9,6 +9,10 @@ author: koolkrafter5
 date: 2026-06-09
 ---
 
-Gadomancy的<ItemLink id="gadomancy:ItemEtherealFamiliar:0:{aspect:terra}"/> <ItemImage id="gadomancy:ItemEtherealFamiliar:0:{aspect:terra}"/>的配方已在NEI中完成整合。每个唯一配方现在只显示<Color id="BLUE">一次</Color>，而不是每种要素都显示一遍，从注魔处理器中移除了<Color id="BLUE">1292</Color>个配方。没错，这比使用注魔的<Color id="RED">__其他一切__</Color>配方加起来还要多。
+# 空灵魔仆配方合并
 
-默认显示地要素使魔的配方。
+Gadomancy 的 <ItemLink id="gadomancy:ItemEtherealFamiliar:0:{aspect:terra}"/> <ItemImage id="gadomancy:ItemEtherealFamiliar:0:{aspect:terra}"/> 配方现在已经在 NEI 中做了合并整理。
+
+现在每一种独特配方只会显示 <Color id="BLUE">一次</Color>，而不再对每个要素都各显示一遍。这样一来，注魔处理器里直接减少了 <Color id="BLUE">1292</Color> 条配方。是的，这甚至比其他所有使用注魔的内容 <Color id="RED">__加起来还多__</Color>。
+
+默认显示的是 terra 要素版本的魔仆配方。

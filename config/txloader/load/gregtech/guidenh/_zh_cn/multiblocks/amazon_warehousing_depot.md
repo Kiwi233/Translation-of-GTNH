@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15513
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAH9w==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAAH9w=="}
 navigation:
   title: Amazon Warehousing Depot
   parent: ./multiblocks_index.md

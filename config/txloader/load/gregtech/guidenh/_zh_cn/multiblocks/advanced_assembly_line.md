@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:13532
-quest_ids:
-  - ZIotzqvnRiKu1_1Hb9i1dg==
+bindings:
+  - {type: "betterquesting", id: "ZIotzqvnRiKu1_1Hb9i1dg=="}
 navigation:
   title: Advanced Assembly Line
   parent: ./multiblocks_index.md

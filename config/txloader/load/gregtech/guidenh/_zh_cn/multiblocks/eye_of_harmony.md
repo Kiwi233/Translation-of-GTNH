@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15410
-quest_ids:
-  - kazCPEWoSmiZhR4bkHlEBQ==
+bindings:
+  - {type: "betterquesting", id: "kazCPEWoSmiZhR4bkHlEBQ=="}
 navigation:
   title: Eye of Harmony
   parent: ./multiblocks_index.md

@@ -9,16 +9,20 @@ author: Skorched
 date: 2026-05-25
 ---
 
-# 工具翻新
-整合包中的一些工具得到了额外的关照，并在合适之处扩展了功能！
-## 机制改动：
-- <Color id="RED">电动剪线钳 </Color> <ItemImage id="gregtech:gt.metatool.01:120"/>不再受 EV 限制，并新增了 LV-MV 变体！ 
-- <Color id="GREEN">电动锉刀 </Color> <ItemImage id="gregtech:gt.metatool.01:204"/>不再受 HV 限制，并新增了 LV-MV 变体！ 
-- <Color id="BLUE">气锤</Color> <ItemImage id="gregtech:gt.metatool.01:130"/>不再受 HV 限制，并新增了 LV-MV 变体！ 
-- 所有工具都可以制成钠、镉或锂电池变体，内部 EU 存储量会反映电池的大小
-- 为了保持一致性，一些工具获得了更多材料选项，看看你能不能发现一些新的！
-- <Color color="#00ffff">软锤</Color>新增了可循环切换（切换/开启/关闭）的模式，让你面对大批机器时心中有数
+# 工具重做
 
-## 材质改动：
-- 所有具有 LV-HV 变体的工具（电烙铁除外），其基底颜色都会改为与其制作材料相匹配
-- 所有由特殊材料制成的工具现在都有了自定义的成套外观，其动画也会反映所用材料！ <ItemImage id="gregtech:gt.metatool.01:100:{GT.ToolStats:{PrimaryMaterial:Infinity,SpecialData:-1L,MaxDamage:262144000L,Tier:1L,Mode:0b,MaxCharge:100000L,Voltage:32L,Electric:1b,SecondaryMaterial:Steel}}" />
+整包里有一些工具这次得到了额外关照；凡是适合扩展功能的地方，也一并补强了。
+
+## 机制改动：
+
+- <Color id="RED">电动剪线钳</Color> <ItemImage id="gregtech:gt.metatool.01:120"/> 不再限制在 EV 起步，现在新增了 LV 和 MV 版本！
+- <Color id="GREEN">电动锉刀</Color> <ItemImage id="gregtech:gt.metatool.01:204"/> 不再限制在 HV 起步，现在新增了 LV 和 MV 版本！
+- <Color id="BLUE">凿岩机</Color> <ItemImage id="gregtech:gt.metatool.01:130"/> 不再限制在 HV 起步，现在新增了 LV 和 MV 版本！
+- 所有工具现在都能使用钠、镉或锂电池版本制作，内部 EU 容量会随电池规格变化
+- 为了统一性，一些工具新增了更多材料版本；看看你能不能自己发现几种新的
+- <Color color="#00ffff">软锤</Color> 现在加入了可循环切换的模式（切换/开启/关闭），一大排机器一起用时终于能明确知道自己在切什么状态
+
+## 贴图改动：
+
+- 所有拥有 LV-HV 版本的工具（电烙铁除外），底色现在会按照其制作材料着色
+- 由特殊材料制成的工具现在也有对应的自定义贴图套装，还带有能体现材料特性的动画！<ItemImage id="gregtech:gt.metatool.01:100:{GT.ToolStats:{PrimaryMaterial:Infinity,SpecialData:-1L,MaxDamage:262144000L,Tier:1L,Mode:0b,MaxCharge:100000L,Voltage:32L,Electric:1b,SecondaryMaterial:Steel}}" />

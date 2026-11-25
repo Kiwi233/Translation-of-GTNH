@@ -13,24 +13,23 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ToolMassCannon" scale="4" />
 
-物质炮是一种便携式磁轨炮，可发射小型物品作为弹药，包括<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:6" />和金属粒。伤害取决于弹药：较重的物品（如金粒）会比物质球造成更高的伤害。每发消耗1600 AE。
+物质炮是能将小型物品弹射出去的便携式轨道炮，弹药包括<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:6" />和金属粒。伤害由发射的物品决定，金粒（10点伤害）之类较“重”的物品造成的伤害比物质球（2点伤害）之类较轻的物品更多。每次发射基础消耗1600AE。
 
-启用`matterCannonBlockDamage`配置选项后，物质炮可以根据方块硬度和弹药伤害破坏方块。可在<ItemLink id="appliedenergistics2:tile.BlockCharger" />中为其充能。
+配置“matterCannonBlockDamage”为true时，物质炮会根据方块硬度和弹药伤害破坏方块。
 
-与[存储元件](storage_cells.md)一样，物质炮的弹药仓可以通过将它放入<ItemLink id="appliedenergistics2:tile.BlockChest" />的元件槽位来装填。
+可在<ItemLink id="appliedenergistics2:tile.BlockCharger" />中为其充能。
 
-## 可安装升级
+物质炮和[存储元件](storage_cells.md)表现类似，可将其放入<ItemLink id="appliedenergistics2:tile.BlockChest" />的元件槽以补充弹匣。
 
-物质炮支持以下[升级卡](upgrade_cards.md)，可使用<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />安装：
+## 升级
 
+物质炮支持如下[升级](upgrade_cards.md)，需用<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />装入：
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> 启用按耐久度过滤或忽略物品NBT
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> 将白名单过滤切换为黑名单
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> 提升单发能耗以增强弹丸威力
-* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> 满载时销毁多余的弹药~~
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> 将过滤模式切换为黑名单
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> 提升单发能耗以增强威力
+* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> 元件满载时销毁多余物品（需谨慎设置分区）~~
 * ~~<ItemLink id="ae2fc:energy_card" /> 增加电池容量~~
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ToolMassCannon" />
-
-

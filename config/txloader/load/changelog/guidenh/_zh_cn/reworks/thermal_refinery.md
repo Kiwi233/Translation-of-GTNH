@@ -16,43 +16,44 @@ date: 2026-05-23
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15538"/>
 </GameScene>
-<Color id="GREEN">工业热力精炼厂（LTR）</Color>是一个 EV 等级多方块结构，用于处理粉碎矿石和回收乏燃料棒。<Color id="GREEN">LTR</Color>是单方块热力离心机的直接升级：运行速度最高可达 <Color id="RED">320%</Color>，耗电最低仅为常规所需 EU/t 的 <Color id="BLUE">39%</Color>，并且每个电压等级提供 <Color color="#ed6401">8</Color> 点并行、每个螺线管等级提供 2 点并行。此外，每级加热线圈提供 5% 的速度加成（加算）与 5% 的 EU/t 折扣（乘算）。
+<Color id="GREEN">工业热力精炼厂（LTR）</Color> 是一台 EV 级多方块，用于精炼粉碎矿石与回收耗尽燃料棒。<Color id="GREEN">LTR</Color> 是单方块 <Color id="GREEN">热力离心机</Color> 的直接升级版，因为它最高可达到 <Color id="RED">320%</Color> 速度，最低只需原本 <Color id="BLUE">39%</Color> 的 EU/t，并且每个电压等级提供 <Color color="#ed6401">8</Color> 并行、每个螺线管等级额外提供 <Color id="GREEN">2</Color> 并行。此外，每升一级加热线圈，都会再给予 5% 速度加成（加法）与 5% EU/t 减免（乘法）。
 
 <br clear="all"/>
 
 > [!NOTE]
-> 除新结构外，该多方块还做出了以下改动：
-> - 任意等级线圈：每级 5% 加算速度加成，每级 5% 乘算功耗降低
-> - 任意等级螺线管：每级螺线管 2 点并行
+> 这台多方块除新结构外，还有如下改动：
+> - 分级线圈：每级提供 5% 额外速度（加法）与 5% 额外耗电减免（乘法）
+> - 分级螺线管：每级额外提供 2 并行
 
-## 建造
-<Color id="GREEN">LTR</Color>有两种任意等级部件。<Color id="RED">加热线圈</Color>提升机器的速度加成与耗电折扣。<Color id="BLUE">螺线管</Color>提升并行数量。玻璃可以为任意等级，对机器运行没有影响。总线/仓可替换结构上任意位置的热处理机械方块。不支持多A能源仓和激光能源仓，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 预览/建造结构，并通过子信道 "coil"、"solenoid" 和 "glass" 指定这些部件的等级。
+## 搭建
+<Color id="GREEN">LTR</Color> 有两个分级结构部件。<Color id="RED">加热线圈</Color> 决定机器的速度加成与耗电折扣，<Color id="BLUE">螺线管超导线圈</Color> 则决定额外并行数。玻璃可以使用任意等级，且不会影响机器运行。总线和仓室可以替换结构中任意位置的热处理机械方块。<Color id="RED">不支持多安能源仓和激光靶仓</Color>，但可以安装多个普通能源仓进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构，并通过 `coil`、`solenoid` 与 `glass` 子信道分别指定加热线圈、螺线管和玻璃的等级。
 
 ### 需要：
-- 1 <ItemLink id="gregtech:gt.blockmachines:15538" /> <ItemImage id="gregtech:gt.blockmachines:15538" />
-- 85-92 <ItemLink id="miscutils:gtplusplus.blockcasings.2" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2" />
-- 20 <ItemLink id="gregtech:gt.blockframes:348" /> <ItemImage id="gregtech:gt.blockframes:348" />
-- 16 加热线圈 <ItemImage id="gregtech:gt.blockcasings5:11" />
-- 6 螺线管超导线圈 <ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:10" />
-- 6 任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15" />
-- 4 <ItemLink id="gregtech:gt.blockcasings:11" /> <ItemImage id="gregtech:gt.blockcasings:11" />
-- 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ 输入仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:15538" /> <ItemImage id="gregtech:gt.blockmachines:15538" />
+- 85-92 个 <ItemLink id="miscutils:gtplusplus.blockcasings.2" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2" />
+- 20 个 <ItemLink id="gregtech:gt.blockframes:348" /> <ItemImage id="gregtech:gt.blockframes:348" />
+- 16 个加热线圈（同级） <ItemImage id="gregtech:gt.blockcasings5:11" />
+- 6 个螺线管超导线圈（同级） <ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:10" />
+- 6 个任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 4 个 <ItemLink id="gregtech:gt.blockcasings:11" /> <ItemImage id="gregtech:gt.blockcasings:11" />
+- 1+ 个能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 个维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 个消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 个输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 个输入仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 个输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 共用墙壁
-<Color id="GREEN">LTR</Color>的每一面都可以与其他机器共用墙壁，以节省机械方块、玻璃、框架方块和总线/仓。许多配方使用 2A 电力，因此若不至少使用通流琥珀金线圈，就无法在<u>__两__</u>台机器之间共享<u>__一__</u>个能源仓。
+### 共墙
+<Color id="GREEN">LTR</Color> 的每个侧面都可以共墙，以节省机械方块、玻璃、框架和总线/仓室。许多配方都会吃到 2A，因此除非你已经上到 <Color id="GREEN">通流琥珀金线圈</Color> 或更高，否则通常 <u>__不能__</u> 让两台机器共用同一个能源仓。
 
-## 用法
-<Color id="GREEN">LTR</Color>是单方块热力离心机的直接升级：运行速度最高可达 <Color id="RED">320%</Color>，耗电最低仅为常规所需 EU/t 的 <Color id="BLUE">39%</Color>，并且如下表所示，每个电压等级提供 <Color color="#ed6401">8</Color> 点并行、每个螺线管等级提供 <Color id="GREEN">2</Color> 点并行。此外，每级加热线圈提供 5% 的速度加成（加算）与 5% 的 EU/t 折扣（乘算）。
+## 使用
+<Color id="GREEN">LTR</Color> 是单方块 <Color id="GREEN">热力离心机</Color> 的直接升级版，因为它最高可达到 <Color id="RED">320%</Color> 速度，最低只需原本 <Color id="BLUE">39%</Color> 的 EU/t，并且每个电压等级提供 <Color color="#ed6401">8</Color> 并行、每个螺线管等级额外提供 <Color id="GREEN">2</Color> 并行，如下表所示。此外，每升一级加热线圈，都会再给予 5% 速度加成（加法）与 5% EU/t 减免（乘法）。
+
 ### 加热线圈：
-|  线圈 | 速度 | EU/t |
+| 线圈 | 速度 | EU/t |
 | --------------- | --------------- | --------------- |
 | 白铜 | 255% | 76.0% |
-| 坎塔尔 | 260% | 72.2% |
+| 坎塔尔合金 | 260% | 72.2% |
 | 镍铬合金 | 265% | 68.6% |
 | 钛铂钒合金 | 270% | 65.2% |
 | 高速钢-G | 275% | 61.9% |

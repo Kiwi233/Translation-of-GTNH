@@ -12,13 +12,14 @@ date: 2026-05-27
 ---
 
 # 染色器界面
-在为P2P通道进行颜色编码时，是否曾厌倦于按住Shift滚动，结果连续三次滑过目标颜色？或者只是忘了供电线路用的是哪种灰色调？
 
-<Color id="GREEN">AE2染色器</Color><ItemImage id="appliedenergistics2:item.ToolColorApplicator"/>现在迎来了一次全新的界面升级！
+有没有过这种时候：想给 P2P 通道做颜色区分，结果按着 Shift 滚了三遍还是错过目标颜色？又或者你早就忘了自己到底给供电线刷的是哪一种灰？
 
-现在手持该工具Shift+右击，即可打开一个界面，显示所有颜色以及每种颜色可用的染料数量！
+<Color id="GREEN">AE2 染色器</Color><ItemImage id="appliedenergistics2:item.ToolColorApplicator"/> 现在新增了一个界面。
 
-你也可以中键点击任何已上色的AE2元件，立即把该颜色复制到染色器上！
+你现在可以拿着它潜行右键，打开一个显示全部颜色以及各颜色可用染料数量的界面。
+
+你还可以对任何已经染色过的 AE2 部件使用中键，立即把它的颜色复制到染色器上。
 
 <FloatingImage src="../assets/ae2/applicator.png" align="left" displayWidth="384" wrap="square">
   <ImageAnnotation>

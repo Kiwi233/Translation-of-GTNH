@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15755
-quest_ids:
-  - 0U_ex_O9TKWF-ShWD_4UuQ==
+bindings:
+  - {type: "betterquesting", id: "0U_ex_O9TKWF-ShWD_4UuQ=="}
 navigation:
   title: Bose-Einstein Condensate Containment Field
   parent: ./bose_einstein_condensate_line.md

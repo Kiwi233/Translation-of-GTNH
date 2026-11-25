@@ -13,17 +13,17 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:120" scale="4"/>
 
-线缆锚可附着在任意AE线缆上，阻止该线缆与其他线缆或机器连接。
+附着于任意AE线缆上,可以使AE线缆与线缆/机器之间不连接。
 
-<GameScene width="300" height="200" zoom="5" showBackground={false}>
+<GameScene width="300" height="200" zoom="5"  showBackground={false}>
   <ImportStructure src="../assets/structures/cable_anchor.snbt" />
   <IsometricCamera yaw="30" pitch="30" />
 </GameScene>
 
-小型装饰性线缆锚，可以阻止线缆连接、把线缆变成可攀爬的梯子，并让线缆在视觉上贴合周围的墙面。它们还可用于制作<ItemLink id="appliedenergistics2:item.ItemFacade" />（线缆伪装板）。
+附着于线缆的装饰性小型刺状物，能阻止线缆连接，也能将线缆变为梯子，还可以让线缆看上去和周围的墙相连。也用于合成<ItemLink id="appliedenergistics2:item.ItemFacade" />。
 
-你可以像梯子一样攀爬它们。
+可以像梯子一样沿其攀爬。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:120" />

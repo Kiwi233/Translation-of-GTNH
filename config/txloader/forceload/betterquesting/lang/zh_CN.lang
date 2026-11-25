@@ -237,7 +237,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIA.desc=在你找到方法运水后，�
 
 # Quest: Tinker-Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.name=§a§l匠魂时间
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=虽然你用木制工具杀猪宰牛确实挺有趣，但它们并不耐用，还修不了。更别提那些精英怪会对你那点伤害嗤之以鼻了。不过，你发现了一类新的工具，它们不仅可以修理，还可以升级！但为了制作它们，你必须使用更进阶的制作技术。%n%n[note]如果你找不到橡木来制作部件加工台，你可以用无序合成将你的部件加工台转换为橡木变种以完成此任务。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=虽然你用木制工具杀猪宰牛确实挺有趣，但它们并不耐用，还修不了。更别提那些精英怪会对你那点伤害嗤之以鼻了。不过，你发现了一类新的工具，它们不仅可以修理，还可以升级！但为了制作它们，你必须使用更进阶的制作技术。
 
 # Quest: Making Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§a§l制作青铜
@@ -622,7 +622,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACGA.desc=让我们来做一个板模具�
 
 # Quest: How Can I Carry All These Items?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACLg.name=§c§l这么多东西往哪放？
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACLg.desc=在你烧炼第一块钢后，你就能制作一个小背包。它有36个格子，比一个小箱子多一点，后面你还能给它扩容。%n%n你最多可以在物品栏内同时放四个这种背包。%n%n你可以背上一个并将其设置为自动捡拾模式，检查“控制”中的“打开背包”快捷键是否已绑定并且没有冲突。绑定的快捷键仅在背包放入其GUI槽位（Shift+<打开背包快捷键>）后方可生效。%n§r%n当在手上拿着背包的时候，你可以通过Shift+鼠标右键重命名你的背包。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACLg.desc=一旦你烧炼了第一块钢，你就可以制作一个小背包。它有36个格子，比一个小箱子多9格，后面你还能给它扩容。%n%n你最多可以在物品栏内同时放四个这种背包。%n%n你可以背上一个背包并将其设置为自动捡拾模式，检查“控制”中的“打开背包”快捷键是否已绑定并且没有冲突。按住潜行键并按下此快捷键以打开背部物品栏页面并装备你的背包，一旦背上背包，你只需要按下此快捷键就可以打开它。%n%n为了重命名一个背包，把它拿在手上，按住潜行键并右键。
 
 # Quest: Upgrade of the Upgrade of the...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACVA.name=§c§l升级，升级，升级……
@@ -798,7 +798,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHA.desc=铁门可以使你的厂房或�
 
 # Quest: How to Open Your Wooden Doors?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.name=§a§l如何打开木门？
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.desc=木门能让你的住房更安全。做一些木制压力板和按钮来开门吧。%n%n当收到红石信号，门会打开；红石信号终止，门会关闭。如果在门的任一侧放上压力板，踩上去时，门就会打开。当然，怪物踩上去也一样。双开门会一起打开。%n%n你需要使用橡木才能完成此任务。如果附近没有，去自动售货机里买点树苗吧。%n%n当实体在压力板上时，压力板会发出红石信号。不同的压力板有不同模式，对物品/怪物/玩家/任意实体生效。%n%n按钮会发出持续时间约2秒的信号。%n%n拉杆会发出持续的红石信号，直到手动关闭。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.desc=木门能让你的住房更安全。做一些木制压力板和按钮来开门吧。%n%n当收到红石信号，门会打开；红石信号终止，门会关闭。如果在门的任一侧放上压力板，踩上去时，门就会打开。当然，怪物踩上去也一样。双开门会一起打开。%n%n当实体在压力板上时，压力板会发出红石信号。不同的压力板有不同模式，对物品/怪物/玩家/任意实体生效。%n%n按钮会发出持续时间约2秒的信号。%n%n拉杆会发出持续的红石信号，直到手动关闭。
 
 # Quest: Tame an Ocelot to Get a Friend
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKg.name=§c§l驯服一只豹猫做朋友
@@ -1399,7 +1399,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALow.desc=如果你的双层铝板有富�
 
 # Quest: Mica Ore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.name=§2§l云母矿
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.desc=云母是非常稀有而又很有用的矿石。它是制造线圈（用于工业高炉）的必需品，除了白铜线圈有个替代配方以外。要是你实在找不到云母矿脉的话，试着做出探矿仪之后去找找吧。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.desc=云母是一种非常稀有的矿石，用于制作工业高炉的加热线圈。白铜线圈同时有一个替代配方。%n%n如果你找不到云母矿脉，等你有探矿仪的时候可以试着用它找一找。%n%n如果你已经解锁了暮色森林，在Y轴20-32的位置寻找锡和锡石矿脉。留一块锡石矿石，把它放在寻矿魔杖中以在主世界定位云母矿脉。
 
 # Quest: Steam Regulator
 betterquesting.quest.Hbe7iUTjQM-w7QX0Mr9clw.name=§2§l蒸汽校准器
@@ -1548,7 +1548,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.desc=如果你比较走运，找到�
 
 # Quest: Fermented Biomass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4A.name=§6§l发酵生物质
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4A.desc=使用MV发酵槽，你可以制造发酵生物质。这是制作甲烷（methane）、乙醇（ethanol）和甲醇（methanol）的基础原料。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4A.desc=使用MV发酵槽，可以将生物质转化为发酵生物质。后者可加工成甲烷、乙醇、甲醇、氨及其他工业品。%n%n在HV阶段，多方块蒸馏塔会提供更高效的方式处理发酵生物质。
 
 # Quest: Extrude All the Things
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5A.name=§6§l压出所有东西（Extrude all the things）
@@ -1852,7 +1852,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGaw.desc=……所以砍掉它们的脑�
 
 # Quest: Pipes, Pipes Everywhere
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyA.name=§6§l管道，管道无处不在
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyA.desc=现在你已经进入MV，你将需要开始自动化。 如聚乙烯、氧气、氮气、氢气、橡胶、木炭等。更快的物品管道将有助于在你的基地内快速运输物品。 现在，使用你的漂亮的新压模机来制作一些黄铜物品管道。%n%n奖励-低优先物品管道-允许你确定目的地的优先级（利用路由值）。在处理路径时，低优先管道另一侧的位置与普通管道相比远得多。 当你想要让溢出（或不匹配）的物品去其他地方时非常方便！%n%n至于更高等级，在NEI中查找“*item pipe”，或者查询wiki：[url]https://wiki.gtnewhorizons.com/wiki/Fluid_%%26_Item_Pipes[/url]%n%n[note]如果你需要比黄铜管道更快的传输速度，你可以试试琥珀金管道，但要小心金的消耗！[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyA.desc=既然你已经进入MV，就该开始自动化生产聚乙烯、氧气、氮气、氢气、橡胶、木炭等物品了。更快的物品管道将有助于在你的基地内快速运输物品。 现在，使用你漂亮的新压模机来制作一些黄铜物品管道。%n%n奖励中的低优先物品管道允许你指定目的地的优先级（利用路由值）。在处理路径时，低优先管道另一侧的位置与普通管道相比远得多。 当你想要让溢出（或不匹配）的物品去其他地方时非常方便！%n%n至于更高等级，在NEI中查找“物品管道”，或者查询wiki：[url]https://wiki.gtnewhorizons.com/wiki/Fluid_%%26_Item_Pipes[/url]%n%n[note]如果你需要比黄铜管道更快的传输速度，你可以试试琥珀金管道，但要小心金的消耗！[/note]
 
 # Quest: Borax Electrolyzing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-w.name=§6§l电解硼砂
@@ -3562,7 +3562,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALfw.desc=如果想要硅岩锭的话，�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALgA.name=§d§l硅岩掺杂的单晶硅
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALgA.desc=你还可以用氧化硅岩粉在工业高炉中直接生产硅岩掺杂的单晶硅，比用硅岩锭耗时更短。
 
-# Quest: Molecular Transformer, finally!
+# Quest: Molecular Transformer, Finally!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBQ.name=§d§l最后，分子重组仪！
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBQ.desc=如果你在进入LuV阶段之前看到了这个任务，希望了解怎么制造阳光化合物的话，请回头查看EV和IV阶段的任务吧。%n%n[note]是的，这台多方块机器还有点bug。[/note]
 
@@ -3845,7 +3845,7 @@ betterquesting.quest.J9eklidSTbyHgMgImYT3-g.desc=在你获取了一些§2海晶�
 
 # Quest: Prismarine!? What Do I Need That For?
 betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.name=§b§l海晶石？！我要这个有啥用？
-betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§l海晶石§r是一种古老的材料，据传来自于深海里的建筑结构。学会制造它非常重要，并且对这种基质的深入研究可能会带来科技水平的发展。%n%n你可以通过不同的方法和物质（按顺序展示在可选任务中）获取海晶石：%n%n§31、使用植物魔法，通过§n炼金催化剂或炼金喷泉§r§3将§n下界石英§r§3嬗变为§n海晶石§r；%n§r%n§22、将§n红藻生物质§r§2和§n赛特斯石英§r§2粉放入§n高压釜；%n§r%n§c3、将§n红藻生物质§r§c和§n海晶蜂窝§r§c放入§n高压釜。%n§r%n使用哪个方法完全取决于你（以及你目前已经搭建的机器）。无论如何，你最好搭建一个扛造的产线，因为你将来会需要好一些海晶石。%n%n[warn]手持64个硅岩通用绝缘箔以跳过海晶石任务线。[/warn]%n%n[note]中文wiki 海晶酸线：  §1§n[url]https://gtnh.huijiwiki.com/p/90982[/url]§r[/note]
+betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§l海晶石§r是一种古老的材料，据传来自于深海里的建筑结构。学会制造它非常重要，并且对它性质的研究可能会带来科技水平的发展。%n%n你可以通过两种方法获取海晶石：%n%n§31、使用植物魔法的炼金催化剂或炼金喷泉将下界石英嬗变为§l海晶石。§r%n%n§22、将红藻生物质和赛特斯石英粉或海晶砂粒结合起来，以制作暗淡海晶石。然后在激光蚀刻机中处理它以得到海晶石。§r%n%n如果你在使用激光蚀刻机路线，并且成功养出了海晶蜂，把它们的蜂窝加到配方中可以翻倍你的海晶石产出。%n%n选择适合你的产能的机器。不管选择那种方法，最好设计一条抗造的海晶石产线。之后你会需要很多的。%n%n[warn]手持64片硅岩通用绝缘箔以跳过海晶石任务线。[/warn]%n%n[note]中文wiki 海晶酸线：  §1§n[url]https://gtnh.huijiwiki.com/p/90982[/url]§r[/note]
 
 # Quest: Prismatic Gas
 betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.name=§b§l海晶气
@@ -4613,8 +4613,8 @@ betterquesting.questline.l37V2WvbSHGZQ5oMgAfBuw.name=第12阶 - 极剧差压（U
 betterquesting.questline.l37V2WvbSHGZQ5oMgAfBuw.desc=也许偶尔休息一下……
 
 # Quest: T4: Advanced
-betterquesting.quest.-fvTafFJRo67bYWh46USSw.name=§c§l§nT4：先进
-betterquesting.quest.-fvTafFJRo67bYWh46USSw.desc=§3先进§r压缩时空场发生器允许最高§lT4§r级别的配方，每次成功运行产出§l1152L§r黑矮星物质。%n%n§3先进§r时间膨胀场发生器对鸿蒙之眼的所有配方提供§287.5%%§r时间减少，但减少§c27.75%%§r成功率。%n%n§3先进§r稳定力场发生器为鸿蒙之眼提升§215%%§r成功率，但减少§c15%%§r产率并且增加§c25%%§r能量消耗。
+betterquesting.quest.-fvTafFJRo67bYWh46USSw.name=§c§l§nT4：进阶
+betterquesting.quest.-fvTafFJRo67bYWh46USSw.desc=§3进阶§r压缩时空场发生器允许最高§lT4§r级别的配方，每次成功运行产出§l1152L§r黑矮星物质。%n%n§3进阶§r时间膨胀场发生器对鸿蒙之眼的所有配方提供§287.5%%§r时间减少，但减少§c27.75%%§r成功率。%n%n§3进阶§r稳定力场发生器为鸿蒙之眼提升§215%%§r成功率，但减少§c15%%§r产率并且增加§c25%%§r能量消耗。
 
 # Quest: Finally, Universium!
 betterquesting.quest.21tDEYptRuOgSJym30Watg.name=§c§l§n最后--宇宙素！
@@ -5401,7 +5401,7 @@ betterquesting.quest.If475S_dQ5y_f8KcSRHeXQ.desc=它并不能产出赛特斯石�
 
 # Quest: A Summary of Crossbreeding
 betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.name=杂交综论
-betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=进行任何作物育种时，你都必须牢记以下两点：%n%n- [note]亲本的成熟度必须至少达到80%%§r[/note]才能参与杂交，无论其是否还能继续生长。%n- [note]子代必须满足全部生长条件才能生成。[/note]%n%n育种时，子代的属性值以§o实际参与育种的§r亲本属性值的平均值（向下取整）为基础，再加上一个可正可负的随机修正值。%n%n这一随机修正值的取值范围取决于两个因素：参与育种的亲本数量，以及亲本储存的肥料量。%n%n- 在游戏前期，使用多个亲本育种是尝试提升作物属性的唯一途径，但效率很低。%n- 施肥可以扩大多亲本育种时的属性变化范围，并使单亲本繁殖时的属性更加稳定。%n- 使用作物管理器施肥，可以快速提升作物的属性。%n%n多亲本育种：%n- 肥料量为0～49：-1 ～ +1（-1和+1出现的概率较高）%n- 肥料量为50～100：-2 ～ +2%n- 肥料量为101及以上：0 ～ +4（有40%%的概率为0）%n%n单亲本繁殖：%n- 肥料量为0～49：-1 ～ 0（0出现的概率较高）%n- 肥料量为50～100：属性不发生随机变化%n- 肥料量为100及以上：0 ～ +4（有40%%的概率为0）%n%n育种时，子代有50%%的概率与其中一个亲本属于同一物种。此时，仅使用与子代物种相同的所有亲本计算属性平均值，并向下取整。%n%n获得新物种有两种方式：随机突变和确定性突变。%n%n大多数作物都拥有一个或多个突变池。突变池可以理解为与各作物相关联的一组标签。育种时，如果部分亲本共享一个或多个突变池，就有可能发生随机突变。由此产生的子代必定属于这些共享突变池中的某个物种。%n%n[note]一旦你获得了第一颗31/31/31的种子，就可以利用这些随机突变来收集各种不同的作物。[/note]%n%n确定性育种与蜜蜂杂交类似，需要将特定的物种组合在一起。某些情况下需要两个以上的亲本，且所有亲本都必须与杂交架相邻。%n%n在游戏前期，你通常可以通过调整杂交架所在位置的土壤、底土和环境条件，控制随机突变的结果，从而实现类似确定性育种的效果。不过，这种方法通常比确定性突变慢得多，如果需要单独筛选出目标作物，还可能需要频繁照看。%n%n[note]确定性突变的优先级始终高于随机突变。§r[/note]%n%n[note]高级作物（§5MV§r及以上材料）需要使用育种机。[/note]
+betterquesting.quest.Ik4r-iNLSEK_uq5FXqspQA.desc=进行任何作物育种时，你都必须牢记以下两点：%n%n- [note]亲本的成熟度必须至少达到80%%§r[/note]才能参与杂交，无论其是否还能继续生长。%n- [note]只有满足子代的生长条件，它才会生成。[/note]%n%n育种时，子代的属性值以§o实际参与育种的§r亲本属性值的平均值（向下取整）为基础，再加上一个可正可负的随机修正值。%n%n这一随机修正值的取值范围取决于两个因素：参与育种的亲本数量，以及所有参与育种的亲本中储存的最低肥料量。%n%n- 在游戏前期，使用多个亲本育种是尝试提升作物属性的唯一途径，但效率很低。%n- 施肥可以扩大多亲本育种时的属性变化范围，并使单亲本繁殖时的属性更加稳定。%n- 使用作物管理器施肥，可以快速提升作物的属性。%n%n多亲本育种：%n- 肥料量为0～49：-1 ～ +1（-1和+1出现的概率较高）%n- 肥料量为50～100：-2 ～ +2%n- 肥料量为101及以上：0 ～ +4（每项属性有约43%%的概率为0）%n%n单亲本繁殖：%n- 肥料量为0～49：-1 ～ 0（0出现的概率较高）%n- 肥料量为50～100：属性不发生随机变化%n- 肥料量为101及以上：0 ～ +4（每项属性有约43%%的概率为0）%n%n育种时，子代有50%%的概率与其中一个亲本属于同一物种。此时，仅使用与子代物种相同的所有亲本计算属性平均值，并向下取整。%n%n获得新物种有两种方式：随机突变和确定性突变。%n%n大多数作物都拥有一个或多个突变池。突变池可以理解为与各作物相关联的一组标签。育种时，如果部分亲本共享一个或多个突变池，就有可能发生随机突变。由此产生的子代必定属于这些共享突变池中的某个物种。%n%n[note]一旦你获得了第一颗31/31/31的种子，就可以利用这些随机突变来收集各种不同的作物。[/note]%n%n确定性育种与蜜蜂杂交类似，需要将特定的物种组合在一起。某些情况下需要两个以上的亲本，且所有亲本都必须与杂交架相邻。在游戏前期，你通常可以通过调整杂交架所在位置的土壤、底土和环境条件，控制随机突变的结果，从而实现类似确定性育种的效果。即便你能将突变池范围缩小到只剩你想要的作物，这种方法通常也比确定性育种慢得多，而且还可能需要频繁照看。%n%n[note]确定性突变的优先级始终高于随机突变。§r[/note]%n%n[note]高级作物（§5MV§r及以上材料）需要使用育种机。[/note]%n%n
 
 # Quest: Thauminite Berries
 betterquesting.quest.J04fEo0DTReAF9BJlQZ9RA.name=秘晶浆果
@@ -5541,7 +5541,7 @@ betterquesting.quest.Z4d2MWOOTyuBxdWVoaOMkQ.desc=钨的优秀来源。%n%n钨叶
 
 # Quest: Simple Propagation
 betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.name=轻松繁殖
-betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.desc=繁殖你的植物很简单，只需将双作物架放置在成熟植物旁边，然后等待即可。%n%n只要这根双作物架周围没有其他作物，你的作物便会自然长到它上面。%n%n[warn]进行此操作时，请确保为你的作物施肥（50+肥料），否则你的属性可能会下降。[/warn]%n%n[note]就像任意其他类型的繁殖一样，你的作物需要达到至少80%%成熟度才能自行繁殖。[/note]
+betterquesting.quest.Z_aW8Q3aSq2pU9hVhFX2qw.desc=繁殖你的植物很简单，只需将双作物架放置在成熟植物旁边，然后等待即可。%n%n只要这根双作物架周围没有其他作物，你的作物便会自然长到它上面。%n%n若想完全复制亲本的属性，请确保亲本储存有50～100点肥料。若低于50点，子代的属性便可能会下降。%n%n在LV阶段之前，若想提升作物的属性，就需要使用两个或更多亲本进行育种。手动施肥的上限为100点。一旦你拥有了LV作物管理器，就可以用它把亲本的肥料提升至101点及以上。达到这一水平后，哪怕只有一个亲本，也能培育出属性更优的子代。%n%n[note]就像任意其他类型的繁殖一样，你的作物需要达到至少80%%成熟度才能自行繁殖。[/note]
 
 # Quest: Flower Power!
 betterquesting.quest._D2Fw1VcSoqeHHMb8aK5DA.name=花的力量！
@@ -5673,7 +5673,7 @@ betterquesting.quest.mpKVpvTlRUaQIX1f6bo87Q.desc=在进一步深入CropsNH之前
 
 # Quest: Multiblock Farming
 betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.name=多方块种植
-betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.desc=看好了……这就是能让§6养〇人们§r领教世界底层逻辑的东西。%n%n工业农场（IF）是长期、可扩展的作物生产解决方案。在基础形态下，它只能种植、收获并灌溉你的作物，但借助一些升级和基于电压等级的扩建，它将不仅仅是一台简单的机器。工业农场拥有三种模式：%n%n§l输入§r - 从输入总线拉取种子和基底方块到机器内。%n§l农场§r - 种植种子并将产物推送到输出总线。%n§l输出§r - 将种子和基底方块从机器内输出到输出总线。%n%n你可以通过机器菜单内的模式按钮在三种模式间循环切换。%n%n在起步阶段，你应当建造最基础的工业农场。然后，将你的种子（和所需的基底方块）放入输入总线。%n%n[warn]有基底方块需求的种子不会被输入农场，除非同时提供了其基底方块。基底方块无需和种子处于同一个输入总线内。[/warn]§r§r%n%n输入了种子（和基底方块）后，你便可以开始使用农场模式来种植你的作物了。%n%n如果你想要更换种子，切换到输出模式，然后再通过输入模式输入新种子。%n%n工业农场的长度取决于你使用的苗床方块等级。MV工业农场需要MV苗床方块，从而只能有一排苗床，同时也意味着只能安装一个升级方块（替换顶部的木框架）。每提升一级苗床方块等级都会增加机器长度、基础能量消耗、可用升级数量和可输入的种子数量。%n%n[note]农场的能量、水和肥料消耗量不随内部的种子数量变化，所以不填满农场并不会带来什么额外收益。[/note]%n%n工业农场中生长的作物视为处于以下环境：%n- 处于露天（§l+2营养评分§r）§r%n- 拥有200点水分（§l+10营养评分§r）§r%n- 使用肥料时拥有200点肥料（§l+10营养评分§r）%n- 多方块控制器所在地的生物群系决定的群系标签和湿度，以及环境模块添加的群系标签（§l最高+28营养评分§r）
+betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.desc=看好了……这就是能让§6养〇人们§r领教世界底层逻辑的东西。%n%n工业农场（IF）是长期、可扩展的作物生产解决方案。在基础形态下，它只能种植、收获并灌溉你的作物，但借助一些升级和基于电压等级的扩建，它将不仅仅是一台简单的机器。工业农场拥有三种模式：%n%n§l输入§r - 从输入总线拉取种子和基底方块到机器内。%n§l农场§r - 种植种子并将产物推送到输出总线。%n§l输出§r - 将种子和基底方块从机器内输出到输出总线。%n%n你可以通过机器菜单内的模式按钮在三种模式间循环切换。%n%n在起步阶段，你应当建造最基础的工业农场。然后，将你的种子（和所需的基底方块）放入输入总线。%n%n[warn]有基底方块需求的种子不会被输入农场，除非同时提供了其基底方块。基底方块无需和种子处于同一个输入总线内。[/warn]§r§r%n%n输入了种子（和基底方块）后，你便可以开始使用农场模式来种植你的作物了。%n%n如果你想要更换种子，切换到输出模式，然后再通过输入模式输入新种子。%n%n工业农场的长度取决于你使用的苗床方块等级。MV工业农场需要MV苗床方块，因此只能有一排苗床，同时也意味着只能安装一个升级方块（替换顶部的木框架）。每提升一级苗床方块等级都会增加机器长度、基础能量消耗、可用升级数量和可输入的种子数量。%n%n[note]农场的能量、水和肥料消耗量不随内部的种子数量变化，所以不填满农场并不会带来什么额外收益。[/note]%n%n工业农场中生长的作物视为处于以下环境：%n- 处于露天（§l+2营养评分§r）§r%n- 拥有200点水分（§l+10营养评分§r）§r%n- 使用肥料时拥有200点肥料（§l+10营养评分§r）%n- 多方块控制器所在地的生物群系决定的群系标签和湿度，以及环境模块添加的群系标签（§l最高+28营养评分§r）
 
 # Quest: Fish Oil Supplement
 betterquesting.quest.oIWPaHKuRByUsrrO-ug2Mw.name=鱼油补充
@@ -11110,7 +11110,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.desc=离心丝滑蜂胶，有60%%的
 
 # Quest: Apiarist's Cloth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.name=养蜂员套装
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.desc=如果你已经收集了24块丝绸，那么你可以制作一套完整的养蜂员套装来保护你自己免遭蜜蜂的蜇伤或是别的什么负面效果。 你还可以用这套装备来给玄钢装备升级来让它们也具有同样的效果。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.desc=如果你已经收集了24块丝绸，那么你可以制作一套完整的养蜂员套装来保护你自己免遭蜜蜂的蜇伤或是别的什么负面效果。 %n%n你还可以用这套装备来给你的模块化装备或玄钢装备升级来让它们也具有同样的效果。
 
 # Quest: A Chest for Bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVw.name=养蜂员箱子
@@ -12084,7 +12084,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJLQ.desc=随着你在末地探索的旅�
 
 # Quest: Welcome to the End!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJLg.name=欢迎来到末地！
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJLg.desc=欢迎来到末地！更重要的是：极限末地生存（HEE）。%n%n如果你已经与末影龙打过一架了，你就会知道这种战斗非常具有挑战性，远超原版末影龙。即便大部分主岛被摧毁了，不用担心，还有许多末地小岛等待你的探索，可从中获取矿石或末地石。%n%n首先，你需要收集一些末影粉末-极限末地生存的关键催化剂。  强烈建议你使用任何方式飞行。%n%n提示：按下默认快捷键P（要是你改过的话就自己查查吧）以获取HEE相关信息列表。大致看了之后，你意识到自己需要知识点才能解锁更多页面。查看方块或物品或特定的东西都可以为你提供知识点。消耗知识笔记也可以提供知识点。这里给你一些帮你入门。祝你好运！%n%n你也可以寻找冒险家日记，从中一样可以获取知识。%n%n[note]PS：按住Shift，手持原版剑左键龙蛋，可使其掉落。[/note]%n%n[warn]末地会下一种看不见的雨，所以记得把你的矿机盖好。[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJLg.desc=欢迎来到末地！更重要的是：极限末地生存（HEE）。%n%n如果你已经与末影龙打过一架了，你就会知道这种战斗非常具有挑战性，远超原版末影龙。即便大部分主岛被摧毁了，不用担心，还有许多末地小岛等待你的探索，可从中获取矿石或末地石。%n%n首先，你需要收集一些末影粉末-极限末地生存的关键催化剂。  强烈建议你使用任何方式飞行。%n%n提示：按下默认快捷键P（要是你改过的话就自己查查吧）以获取HEE相关信息列表。大致看了之后，你意识到自己需要知识点才能解锁更多页面。查看方块或物品或特定的东西都可以为你提供知识点。消耗知识笔记也可以提供知识点。这里给你一些帮你入门。祝你好运！%n%n你也可以寻找冒险家日记，从中一样可以获取知识。%n%n[note]PS：按住Shift，手持原版剑左键龙蛋，可使其掉落。[/note]
 
 # Quest: Dragon Essence Altar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJLw.name=龙之精华祭坛
@@ -13574,7 +13574,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIg.desc=折磨线团是使用转轮从�
 
 # Quest: Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIw.name=蒸馏器
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIw.desc=巫师使用的蒸馏器（旧译“蒸馏塔”）是用于蒸馏魔法成分的设备。 它不像普通的蒸馏器，因为它使用从附近的祭坛获得的能量来加热自身。 蒸馏器必须在距离祭坛大约14-16格的范围内才能从中获取能量-如果没有能量可用，界面上会显示一个小图标。%n%n一种或两种成分被一起蒸馏，最多会产生四个产物。 还需要提供一些黏土罐来捕获部分或全部蒸馏产物。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIw.desc=巫师使用的蒸馏器（旧译“蒸馏塔”）是用于蒸馏魔法成分的设备。 它不像普通的蒸馏器，因为它使用从附近的祭坛获得的能量来加热自身。 蒸馏器必须在距离祭坛大约14-16格的范围内才能从中获取能量。如果没有能量可用，界面上会显示一个小图标。%n%n一种或两种成分一起蒸馏，最多会产生四个产物。 还需要提供一些黏土罐来捕获部分或全部蒸馏产物。
 
 # Quest: Nightmare Protection
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGJA.name=梦魇防护
@@ -14563,7 +14563,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.desc=现在你还无法制造原版�
 
 # Quest: Better Than Barrels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.name=§a§l比储物桶更好
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.desc=储物桶只能储存一种物品，抽屉则最多能存4种，每一种能叠16组。%n%n不过，它们也确实有一些缺点。抽屉没法面朝上或朝下放置，也只能从正面手动存取物品。不过，自动化倒可以用任意一面。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.desc=储物桶只能储存一种物品，抽屉则最多能存4种，每一种能叠16组。%n%n不过，它们也确实有一个缺点：你只能从正面手动存取物品。不过，自动化倒可以用任意一面。
 
 # Quest: Framing Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.name=§a§l抽屉成型
@@ -14851,7 +14851,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.desc=如果你想让多A电流通过
 
 # Quest: E_TOO_MANY_KEYS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.name=§9§l错误：键位过多
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=错误：键位过多，连104键的键盘都装不下了。%n%n整合包中有大量的快捷键。为了防止冲突，大部分快捷键默认未绑定。只有游戏初期必备的快捷键才会预先绑定好。需要注意的是，NEI的按键绑定要在NEI的菜单里设置，不在按键控制菜单里。%n%n下面列出了一些快捷键的用处：%n%nBetterQuesting%nGRAVE（“~”）键 - 打开任务书%n%nDraconic Evolution%nV - 将手持物品贴到准星所指方块上%n%nJourneymap%nB - 创建导航点%nCtrl+B - 打开导航点管理界面%nJ - 打开全屏地图%n= - 放大（对小地图同样有效）%n- - 缩小%n%nShare Where I am%nINSERT - 在准星所指处生成一束临时光束，你和其他玩家都可以看到%nSHIFT + INSERT - 在§o本人§r处生成一束临时光束，你和其他玩家都可以看到%nCTRL + INSERT - 向其他玩家共享准星所指处的坐标%nCTRL + SHIFT + INSERT - 向其他玩家共享本人坐标%n%nWaila - 显示准星所指方块信息%nNUMPAD1（小键盘数字1） - 显示/隐藏Waila HUD%nNUMPAD3 - 显示准星所指方块的合成方式%nNUMPAD4 - 显示准星所指方块的用途%n%n[note]如果你使用的是非标准键盘布局，使用Java 17-25版本的GTNH§o也许§r能帮助你绑定特殊按键。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=错误：键位过多，连104键的键盘都装不下了。%n%n整合包中有大量的快捷键。为了防止冲突，大部分快捷键默认未绑定。只有游戏初期必备的快捷键才会预先绑定好。%n%n下面列出了一些快捷键的用处：%n%nBetterQuesting%nGRAVE（“~”）键 - 打开任务书%n%nDraconic Evolution%nV - 将手持物品贴到准星所指方块上%n%nJourneymap%nB - 创建导航点%nCtrl+B - 打开导航点管理界面%nJ - 打开全屏地图%n= - 放大（对小地图同样有效）%n- - 缩小%n%nShare Where I am%nINSERT - 在准星所指处生成一束临时光束，你和其他玩家都可以看到%nSHIFT + INSERT - 在§o本人§r处生成一束临时光束，你和其他玩家都可以看到%nCTRL + INSERT - 向其他玩家共享准星所指处的坐标%nCTRL + SHIFT + INSERT - 向其他玩家共享本人坐标%n%nWaila - 显示准星所指方块信息%nNUMPAD1（小键盘数字1） - 显示/隐藏Waila HUD%nNUMPAD3 - 显示准星所指方块的合成方式%nNUMPAD4 - 显示准星所指方块的用途%n%n[note]如果你使用的是非标准键盘布局，使用Java 17-25版本的GTNH§o也许§r能帮助你绑定特殊按键。[/note]
 
 # Quest: Safety First
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.name=§c§l安全第一
@@ -15240,6 +15240,10 @@ betterquesting.quest.5pXaevjTR-atLo3tdEZMEw.desc=没有描述。
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.name=触发：跳过穿梭机火箭
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.desc=没有描述
 
+# Quest: Trigger: The Roots of Magic
+betterquesting.quest.89FPlXAUS1iUHJlEg0iK7Q.name=触发：魔法的根基
+betterquesting.quest.89FPlXAUS1iUHJlEg0iK7Q.desc=没有描述。
+
 # Quest: Trigger: Naquadria Skip
 betterquesting.quest.8EErMy6nSaORxRLGLEKZMQ.name=触发：跳过超能硅岩
 betterquesting.quest.8EErMy6nSaORxRLGLEKZMQ.desc=没有描述。
@@ -15487,6 +15491,10 @@ betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.desc=没有描述
 # Quest: Trigger: Stonelily Tutorial Skip
 betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.name=触发：跳过石莲教程
 betterquesting.quest.xirTmg1QQo6Ix9Z2Ezl4EQ.desc=
+
+# Quest: Trigger: Twilight Portal Skip
+betterquesting.quest.yNfD7gXVSraw9bWbtfPzIw.name=触发：跳过暮色传送门
+betterquesting.quest.yNfD7gXVSraw9bWbtfPzIw.desc=
 
 # Quest: Trigger: Rocket Tier 8 Skip
 betterquesting.quest.zDoZ8PcTSFWF8Jh5diM0_Q.name=触发：跳过8阶火箭

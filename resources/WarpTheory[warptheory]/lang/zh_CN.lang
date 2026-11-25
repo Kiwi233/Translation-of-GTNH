@@ -12,9 +12,7 @@ chat.warptheory.minorwarp=没什么反应.
 chat.warptheory.averagewarp=试纸呈现出一种病态的颜色.
 chat.warptheory.majorwarp=试纸碎成了粉屑.
 chat.warptheory.deadlywarp=试纸燃烧起来.
-chat.warptheory.permanentwarp=阴魂不散的扭曲.
-chat.warptheory.normalwarp=一般的扭曲.
-chat.warptheory.tempwarp=浮于表面的扭曲.
+chat.warptheory.warpcounts=（%s永久扭曲，%s普通扭曲，%s临时扭曲）
 chat.warptheory.potionwarning.1=§c§l§n警告§r§c：饮用此药水将重置§l所有扭曲、研究、扫描物品以及已发现要素§r§c！
 chat.warptheory.potionwarning.2=如果你真的确定要重置所有内容，§c请继续保持饮用§l10秒§r§c。
 
@@ -141,6 +139,15 @@ chat.warptheory.pumpkin=你看起来阴森可怖...
 chat.warptheory.biomeSnow=你的吐息在寒冷的空气中凝结...
 chat.warptheory.wanddrain=你的法杖摸起来微微发热...
 chat.warptheory.witherpotion=你感觉非常糟糕...
+
+# << /warptheory command >>
+commands.warptheory.usage=/warptheory <event> [player]
+commands.warptheory.events=语法无效，可用事件为：%s
+commands.warptheory.additional=附加命令：print purge
+commands.warptheory.noeffects=没有激活的扭曲效果！
+commands.warptheory.purged=已清除%s！
+commands.warptheory.notfound=无法找到扭曲事件：%s
+commands.warptheory.triggered=已触发扭曲事件：%s
 
 # << Research stuff >>
 tc.research_category.WT_Category=神秘扭曲学

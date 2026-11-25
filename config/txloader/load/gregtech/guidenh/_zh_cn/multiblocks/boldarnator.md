@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:15556
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAABhQ==
+bindings:
+  - {type: "betterquesting", id: "AAAAAAAAAAAAAAAAAAABhQ=="}
 navigation:
   title: Boldarnator
   parent: ./multiblocks_index.md

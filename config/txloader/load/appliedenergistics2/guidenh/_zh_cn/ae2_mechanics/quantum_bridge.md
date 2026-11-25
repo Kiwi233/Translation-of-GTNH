@@ -9,25 +9,22 @@ item_ids:
 ---
 # 量子环
 
-量子环是原版AE2无线传输频道的解决方案。它不仅支持无线传输频道，还可以跨维度连接。对AE2组件而言，它的能耗相对偏高，在你刚解锁AE系统的电压等级阶段，可能会给你的电力网络带来压力，因此请提前计算电力需求。
-
-作为参考，每一对量子环大约消耗1000 EU/t。
+# 什么是量子环？
+量子环时AE原版自带的无线传输频道解决方案，它不仅支持无线传输频道，还可以跨维度。其耗能较高，在刚解锁AE系统的电压阶段可能对电网造成压力，请提前计算好需求。作为参考，每对量子环耗电约1000EU/t。
 
 # 量子纠缠奇点
-<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:48" showIcon="left" />是由<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:47" showIcon="left" />分裂而成的。它们拥有独特的NBT数据，可用于连接一对量子环。
+<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:48" showIcon="left" />是由一个<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:47" showIcon="left" />分裂而来，它们具有独特的NBT条目，可以用来连接一对量子环，创造模式直接拿出的量子纠缠奇点没有任何作用，因为它们没有有效的配对NBT。
 
-因此，直接从创造模式中获取的量子纠缠奇点没有效果，因为它们缺少有效的配对NBT数据。
+想要获得量子纠缠奇点，必须先在<ItemLink id="appliedenergistics2:tile.BlockCondenser" showIcon="left" />中切换到奇点输出模式并填满一个<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:38" showIcon="left" />。在得到一个奇点之后，将它与一个末影珍珠粉丢在地上，并在附近引发一次爆炸。爆炸之后就会生成一对互相配对的量子纠缠奇点。你可以用铁砧重命名它们来区分不同的量子环系统，以免混淆。
 
-要获得量子纠缠奇点，你必须先将<ItemLink id="appliedenergistics2:tile.BlockCondenser" showIcon="left" />切换为奇点输出模式，并填充一个<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:38" showIcon="left" />。获得奇点后，将它与一份末影珍珠粉一起丢在地上，并在附近引发一次爆炸。爆炸会生成一组相互配对的量子纠缠奇点。你可以用铁砧给它们重命名，以区分不同的量子环系统，避免混淆。
-
-请注意，爆炸物仍会造成伤害和地形破坏，因此请远离重要区域。如果你不想破坏大片地形，AE2还提供了<ItemLink id="appliedenergistics2:tile.BlockTinyTNT" showIcon="left" />来制造纠缠奇点。它只会破坏很小一片地形，并且不会造成伤害。
+需要注意的是爆炸物依然会造成伤害与地形破坏，所以请远离重要场所。如果你不想破坏大片地形，AE也提供了<ItemLink id="appliedenergistics2:tile.BlockTinyTNT" showIcon="left" />用来制造纠缠奇点，它只会破坏很小范围的地形，并且没有伤害。
 
 # 多方块结构
-量子环是由<ItemLink id="appliedenergistics2:tile.BlockQuantumRing" showIcon="left" />和<ItemLink id="appliedenergistics2:tile.BlockQuantumLinkChamber" showIcon="left" />组成的多方块结构。一套可运行的量子环传输系统由一对这样的多方块结构组成。结构成型后，为两侧分别提供充足的能量，并在每个量子链接仓中各放入一枚相互配对的量子纠缠奇点，即可将两个量子环连接起来。
+量子环是由<ItemLink id="appliedenergistics2:tile.BlockQuantumRing" showIcon="left" />与<ItemLink id="appliedenergistics2:tile.BlockQuantumLinkChamber" showIcon="left" />组成的多方块结构，有效的量子环传输系统由一对量子环多方块结构构成，当结构成型后，向每个量子环提供足够的能源并且向量子链接仓中各放入配对完成的一对量子纠缠奇点的其中之一即可连接两个量子环。
 
-通常情况下，一对量子环中的一个会位于很远的地方。要让系统保持运行，你必须让两个量子环所在的区块都保持加载，并同时维持两侧的电力供应。已成型并成功连接的量子环可以直接从ME网络取电，但为了缓解多人服务器或其他原因造成的区块加载与能源供应波动，请务必为远程的量子环提供专用且独立的电源。你可以使用<ItemLink id="appliedenergistics2:tile.BlockEnergyCell" showIcon="left" />、<ItemLink id="appliedenergistics2:tile.BlockDenseEnergyCell" showIcon="left" />或<ItemLink id="appliedenergistics2:tile.BlockCreativeEnergyCell" showIcon="left" />。你也可以直接接一台小型GT发电机，但其输出功率必须足够大，以支撑量子环的启动流程，直到它成功启动并转为从ME网络取电。
+通常来说一对量子环中的一个都远在异国他乡，为了保持系统运行，你必须强加载两个量子环所在区块并且同时保持两侧的能源供应。成型并且链接成功的两个量子环都可以直接从ME网络获取能量，但为了抵抗多人在线服务器或其他原因造成的区块加载、能源供应波动，请务必在外部区域的量子环处提供单独的能源供应，可以使用  <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" showIcon="left" />、<ItemLink id="appliedenergistics2:tile.BlockDenseEnergyCell" showIcon="left" />或<ItemLink id="appliedenergistics2:tile.BlockCreativeEnergyCell" showIcon="left" />，你也可以直接连接小型的GT发电机，但功率必须足够大以维持量子环的开机过程，直到它成功启动转而从ME网络汲取能量。
 
-对于量子环来说，每侧只有中心方块可以连接[线缆](../items_blocks/cables.md)。一对量子环最多可以传输32个频道。
+量子环只有每条边的中心方块才能连接[线缆](../items_blocks/cables.md)，一对量子环最多只能传输32个频道。
 
 <GameScene zoom="3" width="600">
   <ImportStructure src="../assets/structures/quantum_bridge.snbt" />

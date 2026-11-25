@@ -13,60 +13,65 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockInscriber" scale="4" />
 
-压印器使用[压印模板](presses.md)压印电路板和[处理器](processors.md)，还可以将几种物品粉碎成粉。它可接受AE2能源（AE）和Fabric/Forge Energy（E/FE）。分面模式下，从不同面插入的物品会进入不同的槽位；使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />可旋转其朝向。它还可以将产物推入相邻的容器。
+压印器可通过[压印模板](presses.md)压印电路板和[处理器](processors.md)，也可将若干物品打成粉末。它能接受AE2能量（AE）和Fabric/Forge能量（E/FE）。其可设置为面敏感，如此从不同面输入的物品会进入不同槽位。可用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转以利用此特性。也可将其设置为将产物弹出至相邻容器。
 
-输入缓冲区大小可调节。当用一个容器为多台压印器供料时，使用小缓冲区可以让材料分配得更均匀。
+输入缓存的大小可以调整。假如需要用单个容器为许多压印器提供材料，则可使用小缓存，以提高材料的分配效率（而非第一台填满至64个但其余的仍为空）。
 
-四种电路压印模板用于制作[处理器](processors.md)：
+4种电路板压印模板可用于制作[处理器](processors.md)。
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:13" scale="4" />
+
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:14" scale="4" />
+
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:15" scale="4" />
+
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:19" scale="4" />
 </Row>
 
-名称压印模板可以像铁砧一样为物品命名，便于在<ItemLink id="appliedenergistics2:item.ItemMultiPart:500" />中标记物品。
+而名称压印模板则可像铁砧一样命名物品，便于在<ItemLink id="appliedenergistics2:item.ItemMultiPart:500" />中标记事物。
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:21" scale="4" />
 
-## 设置项
+## 设置
 
-* 分面模式按面分流输入与取出；非分面模式下由内部过滤自动选择目标槽位，但顶部和底部槽位无法取出物品
-* 可将产物推送到相邻的容器
-* 输入缓冲区可设大以适合手动供料，也可设小以适合大型并行布局
+* 压印器可设置为面敏感（解释见下），或是允许从所有面输入，并交由内部过滤决定目标槽位。在非面敏感模式下，无法从其顶部和底部槽位抽取物品。
+* 压印器可设置为向相邻容器弹出物品。
+* 压印器的输入缓存可调，大缓存适用于手动供材的独立压印器，而小缓存适合大量并行的压印器。
 
-## GUI界面与分面输入
 
-分面模式下，用于输入或取出的面决定对应的槽位。
+## GUI与面敏感性
+
+处于面敏感模式时，压印器会根据物品输入输出的面决定其目标槽位。
 
 ![压印器GUI](../assets/images/inscriber_gui.png) ![压印器各面](../assets/images/inscriber_sides.png)
 
-A. **顶部输入槽** - 通过设备顶部存取（可输入/取出物品）
+A. **顶部输入**需从顶面访问（允许输入输出）
 
-B. **中部输入槽** - 通过左、右、前、后四面输入（仅可输入，不可取出）
+B. **中央输入**需从左面、右面、正面、背面访问（允许输入，不允许输出）
 
-C. **底部输入槽** - 通过设备底部存取（可输入/取出物品）
+C. **底部输入**需从底面访问（允许输入输出）
 
-D. **输出槽** - 通过左、右、前、后四面取出（仅可取出，不可输入）
+D. **输出**可从左面、右面、正面、背面抽出（允许输出，不允许输入）
 
-## 简单自动化示例
+## 简单自动化
 
-利用分面模式和可旋转性可以实现半自动化布局：
+如下例，压印器的面敏感性和可旋转性使其能按下述方式半自动化：
 
 <GameScene width="350" height="220" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/inscriber_hopper_automation.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-或者在非分面模式下用管道向压印器输入和输出物品。
+也可以在非面敏感状态直接输入输出物品。
 
-## 可安装升级
+## 升级
 
-压印器支持<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />（加速卡）。
+压印器支持以下[升级](upgrade_cards.md)：
 
-## 合成配方
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />（加速卡）
+
+## 配方
+
 
 <RecipeFor id="appliedenergistics2:tile.BlockInscriber" />
-
-

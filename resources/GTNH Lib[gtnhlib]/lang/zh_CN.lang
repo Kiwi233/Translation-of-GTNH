@@ -1,14 +1,32 @@
 # Test block names
+tile.light_under_stair.name=定向着色测试方块
 tile.model_test.name=测试方块
 tile.model_test_tint.name=Test Block（Tint）
 tile.model_test_tint_mul.name=Test Block（Tint）
 tile.model_test_lectern.name=讲台测试方块
+tile.outline_test_flush_halves.name=轮廓形状测试（齐平对半）
+tile.outline_test_diagonal_edge.name=轮廓形状测试（对角接边）
+tile.outline_test_corner_touch.name=轮廓形状测试（角点接触）
+tile.outline_test_cross.name=轮廓形状测试（十字形）
+tile.outline_test_nested.name=轮廓形状测试（嵌套）
+tile.outline_test_frame.name=轮廓形状测试（框架）
+tile.outline_test_hopper.name=轮廓形状测试（漏斗）
+tile.outline_test_zero_plate.name=轮廓形状测试（零厚度薄板）
+tile.outline_test_tiny.name=轮廓形状测试（微小方盒）
+tile.outline_test_checker.name=轮廓形状测试（棋盘格）
+tile.outline_test_sphere.name=轮廓形状测试（球体）
+tile.outline_test_precision.name=轮廓形状测试（浮点精度）
+tile.outline_test_empty.name=轮廓形状测试（空形状）
+tile.outline_test_slope.name=轮廓形状测试（斜坡）
+tile.outline_test_slope_on_slab.name=轮廓形状测试（台阶上的斜坡）
+tile.outline_test_pyramid.name=轮廓形状测试（金字塔）
 tile.rng_test.name=RNG测试方块
+tile.rotation_test.name=面旋转UV锁定测试方块
 tile.weighted_rng_test.name=加权RNG测试方块
 
 # Configuration
 fml.configgui.tooltip.default=[默认：%s]
-fml.configgui.tooltip.defaultNumeric=[范围：%2$s ~ %3$s，默认：%1$s]
+fml.configgui.tooltip.defaultNumeric=[范围：%1$s ~ %2$s，默认：%3$s]
 
 # Moved from WAWLA
 # Villager Professions
@@ -233,6 +251,7 @@ gtnhlib.chat.teams.admin.help.5=%s demote <团队> <玩家> - 强制降级团队
 gtnhlib.chat.teams.admin.help.6=%s kick <团队> <玩家> - 强制从团队踢出目标玩家。
 gtnhlib.chat.teams.admin.help.7=%s merge <源团队> <目标团队> - 强制将源团队合并到目标团队，转移其成员并合并数据。
 gtnhlib.chat.teams.admin.help.8=%s 解散了<团队> - 强制解散团队。玩家会立刻被送回其单人团队中，且团队数据将永久消失。
+gtnhlib.chat.comp.block.error=§c<%s>§r
 
 # GTNHTeams MUI2 Integration Commands
 gtnhlib.chat.teams.error.mui2_not_loaded=组队GUI需要MUI2支持
@@ -293,3 +312,7 @@ commands.title.show.title.single=向 %s 显示了标题
 commands.title.show.subtitle.single=向 %s 显示了字幕
 commands.title.times.single=更改了 %s 的标题显示时间
 commands.title.icon.single=更改了 %s 的标题图标
+
+# Brigadier command errors
+gtnhlib.chat.command.incomplete=指令不完整
+gtnhlib.chat.command.more_usages=……还有%s个

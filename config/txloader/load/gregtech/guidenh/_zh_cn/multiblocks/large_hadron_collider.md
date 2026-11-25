@@ -1,8 +1,8 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:3013
-quest_ids:
-  - TL8RVz_HTBO5LvkI6SQi6A==
+bindings:
+  - {type: "betterquesting", id: "TL8RVz_HTBO5LvkI6SQi6A=="}
 navigation:
   title: Large Hadron Collider 
   parent: ./multiblocks_index.md

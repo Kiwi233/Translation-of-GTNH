@@ -13,44 +13,54 @@ date: 2026-05-27
 ---
 
 # 放热壁炉
+
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15517" />
 </GameScene>
-<Color id="GREEN">放热壁炉（ExH）</Color>是一个用于将大量粉熔炼成锭、制造硅晶圆并加热各种材料的 ZPM 级多方块结构。它取代了先前的巨型工业高炉。<Color id="GREEN">ExH</Color>是工业高炉<ItemImage id="gregtech:gt.blockmachines:1000"/>的直接升级：它最高提供 <Color id="RED">512</Color> 并行，支持<Color id="GREEN">多A能源仓与激光能源仓</Color>以实现深度超频，并拥有<Color id="BLUE">无限升压</Color>能力。这意味着只要有足够的电力与热量，它就能无视电压等级运行任何配方。可用并行数在运行期间缓慢提升至 512，闲置时则回落至 256。可选择在控制器 GUI 中启用烈焰加热，使并行获取速率变为 6 倍，代价是每秒消耗 250-500 L 烈焰之炽焱。<Color id="GREEN">ExH</Color>每超出配方所需 900K 便获得 5% 能耗折扣，每超出配方所需 1,800K 便获得一次无损超频。只有当 ExH 能充分利用其 512 并行（4+ 次超频）时，它才会优于炽焱高炉<ItemImage id="gregtech:gt.blockmachines:963"/>。
+
+<Color id="GREEN">放热壁炉（ExH）</Color> 是一台 ZPM 级多方块高炉，用于大规模把粉末熔成锭、制作硅晶锭，以及为各种材料加热。它取代了旧版的巨型工业高炉。<Color id="GREEN">ExH</Color> 可以视为 <Color id="GREEN">工业高炉</Color> <ItemImage id="gregtech:gt.blockmachines:1000"/> 的直接升级版，因为它最多支持 <Color id="RED">512</Color> 并行、支持 <Color id="GREEN">多安能源仓和激光靶仓</Color> 来进行高强度超频，并且具备 <Color id="BLUE">无限跳级</Color>。这意味着只要热量和供电足够，它就能运行任意电压等级的配方。机器在运行时，可用并行会缓慢从 256 提升到 512；空闲时则会逐步回落到 256。你还可以在控制器界面中启用 <Color id="GREEN">炽焱加热</Color>，以每秒消耗 250-500L <Color id="GREEN">烈焰之炽焱</Color> 为代价，将并行增长速度提高到 6 倍。除此之外，<Color id="GREEN">ExH</Color> 还会对“高于配方要求的热量”给予奖励：每超出 900K，获得 5% 耗电减免；每超出 1,800K，获得 1 次无损超频。只有在真正吃满 512 并行（通常是 4 次以上超频）时，<Color id="GREEN">ExH</Color> 才会明显超过 <Color id="GREEN">Volcanus</Color> <ItemImage id="gregtech:gt.blockmachines:963"/>。
+
 <br clear="all"/>
 
-## 建造：
-<Color id="GREEN">ExH</Color>拥有两个任意等级组件。加热线圈决定配方的最高等级、能耗折扣与无损超频次数；玻璃决定能源仓的最高等级。UMV 级玻璃可解除所有限制。总线/仓可替换结构中任意位置的壁炉机械方块，但消声仓除外——它仅限放在结构顶层的中心机械方块位置。支持多A能源仓与激光能源仓，但后者需要至少 UV 级玻璃。使用多方块机器全息投影仪来可视化/搭建结构，并通过子信道 "coil" 与 "glass" 指定这些组件的等级。
-### 需求：
-- 1 <ItemLink id="gregtech:gt.blockmachines:15517"/><ItemImage id="gregtech:gt.blockmachines:15517"/>
-- 1,800-1,918 <ItemLink id="gregtech:gt.blockcasings14:3"/><ItemImage id="gregtech:gt.blockcasings14:3"/>
-- 925 <ItemLink id="gregtech:gt.blockcasings:11"/><ItemImage id="gregtech:gt.blockcasings:11"/>
-- 860 加热线圈（任意等级）<ItemImage id="gregtech:gt.blockcasings5:11"/>
-- 780 <ItemLink id="miscutils:gtplusplus.blockcasings.2:11"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:11"/>
-- 426 <ItemLink id="gregtech:gt.blockcasings8:10"/><ItemImage id="gregtech:gt.blockcasings8:10"/>
-- 332 任意等级玻璃<ItemImage id="bartworks:BW_GlasBlocks:15"/>
-- 308 <ItemLink id="gregtech:gt.blockcasings11:7"/><ItemImage id="gregtech:gt.blockcasings11:7"/>
-- 280 <ItemLink id="miscutils:miscutils.blockcasings:14"/><ItemImage id="miscutils:miscutils.blockcasings:14"/>
-- 131 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
-- 56 <ItemLink id="gregtech:gt.blockframes:163"/><ItemImage id="gregtech:gt.blockframes:163"/>
-- 1+ 能源仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:40"/>
-- 1 <ItemLink id="gregtech:gt.blockmachines:90"/>（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:90"/>
-- 1 消声仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:91"/>
-- 0+ 输入总线（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ 输入仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ 输出总线（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:80"/>
-- 0+ 输出仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:60"/>
+## 搭建：
 
-### 共用墙壁：
-<Color id="GREEN">多台 ExH</Color>可以互相共用墙壁（共享彼此侧面）以节省机械方块与总线/仓。但这并不包括任何加热线圈或玻璃。
-## 用法：
-<Color id="GREEN">ExH</Color>是工业高炉的直接升级：它最高提供 512 并行，支持多A能源仓与激光能源仓以实现深度超频，并拥有无限升压能力。这意味着只要有足够的电力与热量，它就能无视电压等级运行任何配方。例如，只要热容量足够高，一台 ZPM 256A 激光能源仓就能运行 UIV 配方。玻璃等级只限制能源仓的电压等级，并不限制配方的电压等级。
+<Color id="GREEN">ExH</Color> 有两个分级部件。加热线圈决定机器能处理的最高配方等级、耗电减免，以及无损超频次数；玻璃则决定能源仓所允许的最高等级。若使用 UMV 级玻璃，则这一限制会被完全移除。总线和仓室可以替换任意壁炉机械方块位置，但消声仓例外，它只能放在结构顶层中央那一个壁炉机械方块上。机器支持多安能源仓和激光靶仓，不过激光靶仓至少需要 UV 级玻璃。使用多方块结构全息投影仪可以查看或搭建结构，其中子信道 `coil` 用于指定线圈等级，`glass` 用于指定玻璃等级。
 
-如下方所示，可用并行数在运行期间缓慢提升至 512，闲置时则回落至 256。达到最大 512 并行需要连续运行 30 分钟，但失去全部并行只需 4 分 16 秒。可选择在控制器 GUI 中启用烈焰加热，使并行获取速率变为 6 倍，代价是每秒消耗 250-500 L 烈焰之炽焱。消耗速率与额外并行数成线性关系，但这能让 ExH 仅用 5 分钟就达到最大 512 并行。若在启用烈焰加热时耗尽烈焰之炽焱，机器会立即停机并作废当前配方。
+### 需要：
 
-- 运行时每 5 秒 +0.711 并行（未启用烈焰加热），30 分钟达到最大值
-- 运行时每 5 秒 +4.267 并行（启用烈焰加热），5 分钟达到最大值
-- 闲置时每秒 -1 并行，4.26 分钟降至最小值
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:15517"/><ItemImage id="gregtech:gt.blockmachines:15517"/>
+- 1,800-1,918 个 <ItemLink id="gregtech:gt.blockcasings14:3"/><ItemImage id="gregtech:gt.blockcasings14:3"/>
+- 925 个 <ItemLink id="gregtech:gt.blockcasings:11"/><ItemImage id="gregtech:gt.blockcasings:11"/>
+- 860 个加热线圈（分级） <ItemImage id="gregtech:gt.blockcasings5:11"/>
+- 780 个 <ItemLink id="miscutils:gtplusplus.blockcasings.2:11"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:11"/>
+- 426 个 <ItemLink id="gregtech:gt.blockcasings8:10"/><ItemImage id="gregtech:gt.blockcasings8:10"/>
+- 332 个等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 308 个 <ItemLink id="gregtech:gt.blockcasings11:7"/><ItemImage id="gregtech:gt.blockcasings11:7"/>
+- 280 个 <ItemLink id="miscutils:miscutils.blockcasings:14"/><ItemImage id="miscutils:miscutils.blockcasings:14"/>
+- 131 个 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
+- 56 个 <ItemLink id="gregtech:gt.blockframes:163"/><ItemImage id="gregtech:gt.blockframes:163"/>
+- 1+ 个能源仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:40"/>
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:90"/>（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:90"/>
+- 1 个消声仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:91"/>
+- 0+ 个输入总线（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ 个输入仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ 个输出总线（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:80"/>
+- 0+ 个输出仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:60"/>
+
+### 共墙：
+
+<Color id="GREEN">ExH</Color> 可以在四个侧面共墙，以节省机械方块和总线/仓室；但 <Color id="RED">不能</Color> 共用任何加热线圈或玻璃。
+
+## 使用：
+
+<Color id="GREEN">ExH</Color> 作为工业高炉的升级版，最多提供 512 并行，支持多安能源仓和激光靶仓，并具备无限跳级。只要热量和供电够高，它就能处理任意等级的配方。举例来说，一只 ZPM 256A 激光靶仓，只要热容量足够高，就能驱动 UIV 配方。这里要特别注意：玻璃等级限制的是 <Color id="RED">能源仓电压等级</Color>，而 <Color id="RED">不是配方等级</Color>。
+
+机器在运行时，可用并行会从 256 缓慢提升到 512；停止工作后，又会逐渐跌回 256。按默认速度，需要连续工作 30 分钟才能爬满 512 并行，但只要空转 4 分 16 秒就会掉光。你也可以在控制器界面中启用 <Color id="GREEN">炽焱加热</Color>，以每秒 250-500L 的 <Color id="GREEN">烈焰之炽焱</Color> 为代价，把并行增长速度提高到 6 倍。烈焰之炽焱的消耗会随着额外并行数线性增长，但这样就能把爬满 512 并行所需时间缩短到仅 5 分钟。若启用了炽焱加热却中途断供烈焰之炽焱，机器会立刻停机，并清空当前配方。
+
+- 运行时每 5 秒 +0.711 并行（关闭炽焱加热），30 分钟到上限
+- 运行时每 5 秒 +4.267 并行（开启炽焱加热），5 分钟到上限
+- 空闲时每秒 -1 并行，4.26 分钟掉回下限
 
 ## 热容量
-最后，<Color id="GREEN">ExH</Color>每超出配方所需 900K 便获得 5% 能耗折扣，每超出配方所需 1,800K 便获得一次无损超频。此外，高于 MV 的每个电压等级还会提供 +100K 的热量加成。
+
+最后，<Color id="GREEN">ExH</Color> 会根据高于配方要求的热量给予两类收益：每超出 900K，获得 5% 耗电减免；每超出 1,800K，把 1 次有损超频转化为 1 次无损超频。此外，电压等级每高于 MV 一级，机器还会额外获得 +100K 的热量加成。
